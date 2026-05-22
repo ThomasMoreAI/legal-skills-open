@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "russian-arbitration": {
+      "type": "http",
+      "url": "https://thomasmoreai.com/...",
+      "title": "База решений арбитражных судов РФ",
+      "description": "Поиск и чтение судебных актов арбитражных судов России ..."
+    }
+  }
+}

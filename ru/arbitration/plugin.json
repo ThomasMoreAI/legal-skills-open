@@ -1,0 +1,15 @@
+{
+  "name": "ru-arbitration",
+  "displayName": "Арбитражный процесс РФ",
+  "version": "0.1.0",
+  "description": "Навыки для арбитражных процессов в судах РФ: расчёты, иски, отзывы, ходатайства, жалобы, банкротство, анализ судебных решений",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ru",
+  "practice": "arbitration",
+  "language": "ru",
+  "skills": [
+    "skills/poshlina-calc",
+    "skills/case-law-analysis"
+  ]
+}

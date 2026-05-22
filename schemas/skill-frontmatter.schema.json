@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/thomasmore/legal-skills-open/schemas/skill-frontmatter.schema.json",
+  "title": "SKILL.md frontmatter",
+  "description": "Каноническая схема YAML-фронтматтера в SKILL.md. Применяется CI (validate.yml) к каждому навыку при подаче заявки на изменение.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description",
+    "author",
+    "license",
+    "version",
+    "execution_mode",
+    "jurisdiction",
+    "practice",
+    "language"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 64,
+      "description": "Slug навыка в kebab-case. Должен совпадать с именем папки навыка (skills/<name>/)."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 2000,
+      "description": "Краткое описание (1-3 предложения), что навык делает. Используется в discover, на странице маркетплейса и как мета-описание для поисковика."
+    },
+    "user-invocable": {
+      "type": "boolean",
+      "default": false,
+      "description": "true, если пользователь может вызвать навык напрямую слэш-командой. false (по умолчанию) — навык вызывается только оркестратором через invoke."
+    },
+    "argument-hint": {
+      "type": "string",
+      "maxLength": 500,
+      "description": "Подсказка пользователю/оркестратору, какие входные данные нужны навыку."
+    },
+    "author": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Имя или название организации автора. Показывается на странице автора маркетплейса."
+    },
+    "author_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Ссылка на профиль автора (LinkedIn, личный сайт, GitHub). Опционально."
+    },
+    "license": {
+      "type": "string",
+      "enum": [
+        "Apache-2.0",
+        "MIT",
+        "BSD-3-Clause",
+        "BSD-2-Clause",
+        "CC0-1.0",
+        "CC-BY-4.0"
+      ],
+      "description": "Лицензия навыка. Whitelist пермиссивных лицензий. AGPL/GPL/CC-NC/CC-ND отклоняются автоматически."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Семантическая версия (semver: MAJOR.MINOR.PATCH). Обязательно повышать при любом изменении тела SKILL.md или фронтматтера."
+    },
+    "execution_mode": {
+      "type": "string",
+      "enum": ["open", "protected", "hosted"],
+      "description": "Режим исполнения навыка по терминологии strategy/agents_strategy.md. Открытый репозиторий принимает только open. Protected — в приватном репозитории, hosted — манифест навыка с URL вебхука автора."
+    },
+    "jurisdiction": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$|^(general|cross-jurisdiction)$",
+      "description": "Двухбуквенный ISO-код страны (ru, it, ch, fr, de, en, ...) либо специальное значение general (универсальный) / cross-jurisdiction (несколько юрисдикций одновременно). Должно совпадать с верхним сегментом пути в репозитории."
+    },
+    "practice": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "minLength": 2,
+      "maxLength": 64,
+      "description": "Отрасль права в kebab-case (arbitration, corporate, tax, data-protection, ...). Специальное значение general — навык не привязан к конкретной отрасли. Должно совпадать со вторым сегментом пути в репозитории."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2}$",
+      "description": "ISO 639-1 код языка, на котором написано тело навыка (ru, en, de, fr, it). Один навык — один язык; для переводов создавайте параллельные навыки с тем же slug под другим plugin-ом."
+    },
+    "required_corpora": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Идентификаторы корпусов нормативных или справочных данных, которые навык ожидает иметь под рукой при исполнении. Используется оркестратором для подгрузки правильного контекста."
+    },
+    "required_mcp_servers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true,
+      "description": "Имена MCP-серверов из .mcp.json плагина, без которых навык не может работать. Оркестратор проверяет подключение перед invoke и отказывает корректно, если сервер недоступен."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1, "maxLength": 64 },
+      "uniqueItems": true,
+      "maxItems": 20,
+      "description": "Теги для фасетного поиска на маркетплейсе и для программных лендингов («Калькуляторы госпошлины», «Шаблоны NDA»)."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "path"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 300,
+            "description": "Человекочитаемое название источника (нормативный акт, обзор, методичка)."
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^references/.+\\.md$",
+            "description": "Относительный путь к Markdown-файлу с текстом источника внутри папки навыка. Должен лежать в references/ для единообразия."
+          }
+        }
+      },
+      "uniqueItems": true,
+      "description": "Локальные ссылочные тексты (нормативные акты, обзоры практики), приложенные к навыку как Markdown-файлы. Альтернатива required_corpora для навыков, которые работают по фиксированным текстам, а не по внешнему корпусу."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "jurisdiction": { "const": "general" } } },
+      "then": {
+        "not": { "required": ["required_corpora"] },
+        "description": "Универсальные навыки (jurisdiction=general) обычно не зависят от национальных корпусов; required_corpora не ожидается."
+      }
+    }
+  ]
+}
