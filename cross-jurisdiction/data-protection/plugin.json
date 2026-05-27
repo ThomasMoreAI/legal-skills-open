@@ -1,0 +1,18 @@
+{
+  "name": "cross-jurisdiction-data-protection",
+  "displayName": "Data Protection — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Data Protection skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/cookie-consent-policy",
+    "skills/cyber-law-compliance-summary",
+    "skills/digital-media-law-summary",
+    "skills/dsar-form",
+    "skills/privacy-law-updates"
+  ]
+}

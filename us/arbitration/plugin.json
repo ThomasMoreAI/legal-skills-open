@@ -1,0 +1,16 @@
+{
+  "name": "us-arbitration",
+  "displayName": "Arbitration & ADR — United States",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "arbitration",
+  "language": "en",
+  "skills": [
+    "skills/employee-arbitration-agreement",
+    "skills/employment-arbitration-agreement",
+    "skills/mediation-summary"
+  ]
+}

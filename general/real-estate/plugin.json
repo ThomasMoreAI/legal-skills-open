@@ -1,0 +1,17 @@
+{
+  "name": "general-real-estate",
+  "displayName": "Real Estate — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Real Estate skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/consent-to-sublease",
+    "skills/notice-of-entry",
+    "skills/office-lease",
+    "skills/sublease-agreement"
+  ]
+}

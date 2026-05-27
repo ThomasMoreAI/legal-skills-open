@@ -1,0 +1,10 @@
+.DS_Store
+.claude/settings.local.json
+open_skills_strategy.md
+/tools
+/CLAUDE.md
+
+# Secrets — never commit
+.env
+**/.env
+*.env

@@ -1,12 +1,13 @@
 ---
 name: case-law-analysis
+title: Анализ арбитражной практики РФ по корпоративному вопросу
 description: Анализ решений арбитражных судов РФ (АС субъектов, Арбитражные апелляционные суды, АС округов, СКЭС ВС РФ, Президиум ВС РФ) по корпоративным вопросам. Возвращает анализ заданного пользователем вопроса с указанием релевантных судебных актов. Источник данных и аналитики — MCP-сервер russian-arbitration; данный skill сам анализ не строит.
 user-invocable: false
 argument-hint: "Сформулируй правовой вопрос для анализа арбитражной практики в России"
 author: ThomasMore
 author_url: https://thomasmoreai.com
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ru
 practice: arbitration

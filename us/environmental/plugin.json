@@ -1,0 +1,32 @@
+{
+  "name": "us-environmental",
+  "displayName": "Environmental Law — United States",
+  "version": "0.1.0",
+  "description": "Environmental Law skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "environmental",
+  "language": "en",
+  "skills": [
+    "skills/asbestos-abatement-plan",
+    "skills/brownfields-agreement",
+    "skills/consent-decree-epa",
+    "skills/eir-summary",
+    "skills/environmental-covenant-and-easement",
+    "skills/environmental-impact-statement",
+    "skills/environmental-indemnity",
+    "skills/environmental-indemnity-agreement",
+    "skills/environmental-regulation-summaries",
+    "skills/hazardous-waste-manifest",
+    "skills/invasive-testing-consent-letter",
+    "skills/mining-land-use-summary",
+    "skills/nov-response",
+    "skills/npdes-permit-application",
+    "skills/phase-i-esa",
+    "skills/rec-purchase-agreement",
+    "skills/spcc-plan",
+    "skills/swppp",
+    "skills/tri-form-r"
+  ]
+}
