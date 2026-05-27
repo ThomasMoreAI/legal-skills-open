@@ -4,7 +4,6 @@
 open_skills_strategy.md
 /tools
 /CLAUDE.md
-/schemas
 
 # Secrets — never commit
 .env
