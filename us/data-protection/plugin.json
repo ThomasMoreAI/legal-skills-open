@@ -1,0 +1,22 @@
+{
+  "name": "us-data-protection",
+  "displayName": "Data Protection — United States",
+  "version": "0.1.0",
+  "description": "Data Protection skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/breach-notification",
+    "skills/byod-policy",
+    "skills/ccpa-policy",
+    "skills/consumer-breach-notice-letter",
+    "skills/data-breach-consumer-notice",
+    "skills/data-retention-and-destruction-policy",
+    "skills/incident-response-plan",
+    "skills/incident-response-playbook",
+    "skills/wisp"
+  ]
+}

@@ -14,6 +14,7 @@ Thanks for adding a skill. Skills are short Markdown files; you don't need to wr
 ```markdown
 ---
 name: my-skill
+title: My Skill
 description: One-paragraph description of what the skill does and when to use it (40–2000 chars). This shows up in the marketplace and in semantic discovery.
 author: Your Name
 author_url: https://github.com/yourhandle
@@ -40,6 +41,8 @@ Step-by-step instructions for the orchestrator.
 
 What the answer must contain (citations, disclaimer, etc.).
 ```
+
+`title` is the human-readable display name shown on the marketplace card — the same text you put in the body's H1 (`# Skill title`), just promoted to machine-readable frontmatter. It's optional; if omitted, consumers fall back to the H1, then to `name`.
 
 The canonical contract is [`schemas/skill-frontmatter.schema.json`](schemas/skill-frontmatter.schema.json).
 

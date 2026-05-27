@@ -1,0 +1,14 @@
+{
+  "name": "general-trusts-and-estates",
+  "displayName": "Trusts & Estates — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "trusts-and-estates",
+  "language": "en",
+  "skills": [
+    "skills/succession-planning-summary"
+  ]
+}

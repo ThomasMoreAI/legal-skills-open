@@ -1,0 +1,16 @@
+{
+  "name": "us-antitrust",
+  "displayName": "Antitrust & Competition — United States",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "antitrust",
+  "language": "en",
+  "skills": [
+    "skills/antitrust-investigation-summary",
+    "skills/hsr-filing",
+    "skills/investigation-summary"
+  ]
+}

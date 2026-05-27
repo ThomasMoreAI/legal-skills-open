@@ -1,0 +1,29 @@
+{
+  "name": "us-bankruptcy",
+  "displayName": "Bankruptcy & Restructuring — United States",
+  "version": "0.1.0",
+  "description": "Bankruptcy & Restructuring skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "bankruptcy",
+  "language": "en",
+  "skills": [
+    "skills/adversary-proceeding-complaint",
+    "skills/bankruptcy-interest-calculation",
+    "skills/bankruptcy-proof-of-claim",
+    "skills/cash-collateral-motion",
+    "skills/chapter-11-reorg-plan",
+    "skills/collateral-valuation",
+    "skills/dip-financing-motion",
+    "skills/dischargeability-complaint",
+    "skills/disclosure-statement-plan-reorganization",
+    "skills/interest-calculation-reference",
+    "skills/means-test-calculation",
+    "skills/motion-to-avoid-lien",
+    "skills/motion-to-convert",
+    "skills/objection-to-proof-of-claim",
+    "skills/reaffirmation-agreement",
+    "skills/stay-relief-motion"
+  ]
+}

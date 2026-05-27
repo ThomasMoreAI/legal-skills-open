@@ -24,6 +24,12 @@
       "maxLength": 64,
       "description": "Slug навыка в kebab-case. Должен совпадать с именем папки навыка (skills/<name>/)."
     },
+    "title": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 120,
+      "description": "Человекочитаемое отображаемое имя навыка для карточки на маркетплейсе и листингов discover. В отличие от name (это slug) — нормальный заголовок на языке навыка. Если не задано, потребитель берёт H1 тела, затем name."
+    },
     "description": {
       "type": "string",
       "minLength": 40,

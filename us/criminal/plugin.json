@@ -1,0 +1,32 @@
+{
+  "name": "us-criminal",
+  "displayName": "Criminal Law — United States",
+  "version": "0.1.0",
+  "description": "Criminal Law skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/alibi-notice",
+    "skills/bail-hearing-summary",
+    "skills/bail-reduction-motion",
+    "skills/body-camera-incident-summary",
+    "skills/criminal-case-summary",
+    "skills/criminal-summary",
+    "skills/expungement-petition",
+    "skills/habeas-corpus-petition",
+    "skills/military-law-summary",
+    "skills/motion-in-limine",
+    "skills/motion-new-trial",
+    "skills/motion-to-dismiss-indictment",
+    "skills/notice-of-appeal-criminal",
+    "skills/parole-hearing-summary",
+    "skills/plea-agreement",
+    "skills/plea-agreement-summary",
+    "skills/sentencing-guidelines",
+    "skills/sentencing-memorandum",
+    "skills/suppress-evidence"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "general-contracts",
+  "displayName": "Contracts — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Contracts skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/api-acceptable-use-policy",
+    "skills/api-constraints-exhibit",
+    "skills/commencement-date-memo",
+    "skills/confidentiality-nda",
+    "skills/consent-letter",
+    "skills/contract-abstracts",
+    "skills/contract-analysis",
+    "skills/contract-playbook-review",
+    "skills/contract-portfolio-intelligence",
+    "skills/know-how-license",
+    "skills/nda-summary",
+    "skills/pos-license"
+  ]
+}

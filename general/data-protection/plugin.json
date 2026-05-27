@@ -1,0 +1,21 @@
+{
+  "name": "general-data-protection",
+  "displayName": "Data Protection — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Data Protection skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/breach-summary",
+    "skills/cybersecurity-breach-summary",
+    "skills/data-processing-addendum",
+    "skills/gdpr-data-processing-addendum",
+    "skills/gdpr-dpa",
+    "skills/information-security-policy",
+    "skills/ir-tabletop-exercise",
+    "skills/vendor-security-assessment"
+  ]
+}

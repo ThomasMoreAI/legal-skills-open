@@ -16,6 +16,7 @@ Skills are not installed locally. Connect the MCP server `mcp.thomasmoreai.com` 
 ```yaml
 ---
 name: poshlina-calc
+title: Расчёт госпошлины в арбитражный суд РФ
 description: Computes the Russian commercial-court filing fee under Tax Code arts. 333.21–333.22 / 333.37.
 author: ThomasMore
 license: Apache-2.0

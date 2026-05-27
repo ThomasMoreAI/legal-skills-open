@@ -1,0 +1,22 @@
+{
+  "name": "general-corporate",
+  "displayName": "Corporate — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Corporate skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/board-meeting-summary",
+    "skills/board-minutes",
+    "skills/client-intake-summary",
+    "skills/client-memo",
+    "skills/excluded-assets-liabilities",
+    "skills/legal-opinion-letter",
+    "skills/ma-transaction-summary",
+    "skills/transactional",
+    "skills/transition-services-plan"
+  ]
+}

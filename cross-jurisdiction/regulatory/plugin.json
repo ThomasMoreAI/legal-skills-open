@@ -1,0 +1,16 @@
+{
+  "name": "cross-jurisdiction-regulatory",
+  "displayName": "Regulatory & Compliance — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/aviation-law-summary",
+    "skills/cultural-heritage-summary",
+    "skills/heritage-protection-summary"
+  ]
+}

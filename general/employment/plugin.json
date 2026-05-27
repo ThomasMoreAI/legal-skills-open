@@ -1,0 +1,14 @@
+{
+  "name": "general-employment",
+  "displayName": "Employment & Labor — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/background-check-summary"
+  ]
+}

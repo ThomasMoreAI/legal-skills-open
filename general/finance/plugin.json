@@ -1,0 +1,14 @@
+{
+  "name": "general-finance",
+  "displayName": "Finance & Banking — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "finance",
+  "language": "en",
+  "skills": [
+    "skills/track-deposits"
+  ]
+}

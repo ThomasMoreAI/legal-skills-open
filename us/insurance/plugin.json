@@ -1,0 +1,22 @@
+{
+  "name": "us-insurance",
+  "displayName": "Insurance — United States",
+  "version": "0.1.0",
+  "description": "Insurance skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "insurance",
+  "language": "en",
+  "skills": [
+    "skills/bad-faith-demand",
+    "skills/coi-compliance-review",
+    "skills/coverage-opinion",
+    "skills/insurance-certificate-compliance",
+    "skills/insurance-certificate-compliance-check",
+    "skills/insurance-claim-summaries",
+    "skills/insurance-correspondence-summarization",
+    "skills/insurance-policy-summary",
+    "skills/tender-denial"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "us-immigration",
+  "displayName": "Immigration — United States",
+  "version": "0.1.0",
+  "description": "Immigration skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "immigration",
+  "language": "en",
+  "skills": [
+    "skills/immigration-case-summary",
+    "skills/immigration-support-letter"
+  ]
+}
