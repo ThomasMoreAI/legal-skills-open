@@ -1,0 +1,25 @@
+{
+  "name": "us-tax",
+  "displayName": "Tax — United States",
+  "version": "0.1.0",
+  "description": "Tax skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/document-retention-policy",
+    "skills/donation-agreement",
+    "skills/final-tax-return-corporate",
+    "skills/final-tax-return-filing",
+    "skills/fiscal-sponsorship-agreement",
+    "skills/form-1023",
+    "skills/form-1023-application",
+    "skills/grant-agreement",
+    "skills/nonprofit-compliance-summary",
+    "skills/ss4-ein-application",
+    "skills/tax-clearance-request",
+    "skills/taxpayer-correspondence"
+  ]
+}

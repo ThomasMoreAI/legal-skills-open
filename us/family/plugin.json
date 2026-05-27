@@ -1,0 +1,33 @@
+{
+  "name": "us-family",
+  "displayName": "Family Law — United States",
+  "version": "0.1.0",
+  "description": "Family Law skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/adoption-petition",
+    "skills/adoption-summary",
+    "skills/child-support-worksheet",
+    "skills/dissolution-petition",
+    "skills/divorce-settlement-summary",
+    "skills/dvro-petition",
+    "skills/family-law-summons",
+    "skills/financial-affidavit",
+    "skills/marital-settlement-agreement",
+    "skills/modification-petition-summary",
+    "skills/motion-for-temporary-relief",
+    "skills/order-modification",
+    "skills/parenting-plan",
+    "skills/paternity-petition",
+    "skills/pet-custody-best-interest",
+    "skills/prenuptial-agreement",
+    "skills/prenuptial-postnuptial-agreement",
+    "skills/qdro-draft",
+    "skills/response-dissolution",
+    "skills/tax-summary-spousal-support"
+  ]
+}

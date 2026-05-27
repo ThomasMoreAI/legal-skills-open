@@ -1,0 +1,25 @@
+{
+  "name": "us-contracts",
+  "displayName": "Contracts — United States",
+  "version": "0.1.0",
+  "description": "Contracts skills for United States (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/api-license-agreement",
+    "skills/bill-of-sale",
+    "skills/breach-of-purchase-agreement-complaint",
+    "skills/confidentiality-agreement",
+    "skills/contract-summarization",
+    "skills/independent-contractor-agreement",
+    "skills/mta-biological",
+    "skills/nda-government-data",
+    "skills/novation-agreement",
+    "skills/t4c-settlement-proposal",
+    "skills/terms-of-service",
+    "skills/volunteer-waiver-release"
+  ]
+}

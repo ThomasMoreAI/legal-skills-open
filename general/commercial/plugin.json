@@ -1,0 +1,19 @@
+{
+  "name": "general-commercial",
+  "displayName": "Commercial — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Commercial skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "commercial",
+  "language": "en",
+  "skills": [
+    "skills/commercial-invoice-for-export",
+    "skills/international-distribution-agreement",
+    "skills/intl-distribution-agreement",
+    "skills/om-agreement",
+    "skills/saas-license-agreement",
+    "skills/sports-licensing-summary"
+  ]
+}

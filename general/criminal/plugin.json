@@ -1,0 +1,16 @@
+{
+  "name": "general-criminal",
+  "displayName": "Criminal Law — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Criminal Law skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/interview-summary",
+    "skills/police-report-summary",
+    "skills/traffic-enforcement-summary"
+  ]
+}

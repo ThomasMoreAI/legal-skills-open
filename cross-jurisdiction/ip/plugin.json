@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-ip",
+  "displayName": "Intellectual Property — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "ip",
+  "language": "en",
+  "skills": [
+    "skills/eula"
+  ]
+}
