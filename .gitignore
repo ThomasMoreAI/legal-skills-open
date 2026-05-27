@@ -1,5 +1,6 @@
 .DS_Store
 .claude/settings.local.json
+.claude/*.lock
 open_skills_strategy.md
 /tools
 /CLAUDE.md

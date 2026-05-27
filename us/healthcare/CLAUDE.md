@@ -1,7 +1,32 @@
-# Practice profile: Healthcare — United States
+# Practice profile: Healthcare & Life Sciences — United States
 
-<!-- DRAFT: автогенерация харвестера, требует ревью куратора -->
+Orchestrator cold-start for plugin `us-healthcare`. Loaded after `us/CLAUDE.md`, before invoking a specific skill.
 
-Orchestrator cold-start for plugin `us-healthcare`. Loaded before
-invoking a specific skill. Fill in: scope of the practice, court/agency hierarchy (if any),
-key sources of law, citation discipline, and when this plugin does NOT apply.
+## Scope
+
+Healthcare regulation, fraud and abuse, product approval, and provider compliance.
+
+## Forums & authorities
+
+The FDA, CMS, and HHS (incl. OIG); state health departments.
+
+## Key sources of law
+
+- Federal Food, Drug, and Cosmetic Act and FDA regulations (21 C.F.R.)
+- HIPAA
+- Anti-Kickback Statute and the Stark Law
+- Medicare/Medicaid program rules
+
+## Citation discipline
+
+Follow the US rules in `us/CLAUDE.md` (Bluebook form; statute title/section; case name, reporter, court, year). **Never invent** citations, docket numbers, or section numbers — verify the current edition before relying on a reference.
+
+## When this plugin does NOT apply
+
+- Privacy-only matters → use `us/data-protection` (Data Protection & Privacy).
+- Non-health compliance → use `us/regulatory` (Regulatory & Administrative).
+- Medical-malpractice tort claims → use `us/personal-injury` (Personal Injury & Torts).
+
+## Mandatory disclaimer in output
+
+> This output is informational only and is not legal advice. Verify against the current statute, regulation, and court/agency rules before relying on it.
