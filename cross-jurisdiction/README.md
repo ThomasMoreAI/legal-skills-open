@@ -6,9 +6,10 @@ Comparative skills that analyze several countries' law at once, grouped by pract
 
 | Plugin | Practice | Skills |
 |---|---|---|
-| [`data-protection/`](data-protection/) | Data Protection & Privacy | 5 |
+| [`data-protection/`](data-protection/) | Data Protection & Privacy | 6 |
+| [`general/`](general/) | General / Cross-Practice | 1 |
 | [`ip/`](ip/) | Intellectual Property | 1 |
-| [`regulatory/`](regulatory/) | Regulatory & Administrative | 3 |
+| [`regulatory/`](regulatory/) | Regulatory & Administrative | 4 |
 
 ## Cross-cutting context
 
@@ -16,4 +17,4 @@ See [`CLAUDE.md`](CLAUDE.md) — orchestrator cold-start for `cross-jurisdiction
 
 ## Provenance & license
 
-Skills imported from open sources ([CaseMark/skills](https://github.com/CaseMark/skills), Apache-2.0); see each `SKILL.md` for provenance. License: Apache-2.0.
+Skills imported from open sources ([CaseMark/skills](https://github.com/CaseMark/skills) and [lawve.ai](https://lawve.ai/en/skills) — both Apache-2.0 / per-skill); see each `SKILL.md` for provenance. License: Apache-2.0.

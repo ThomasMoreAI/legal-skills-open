@@ -1,0 +1,14 @@
+{
+  "name": "ar-litigation",
+  "displayName": "Litigation — AR",
+  "version": "0.1.0",
+  "description": "Litigation skills for AR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ar",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/jurisrank-argentine-supreme-court-analysis-adrian-lerer"
+  ]
+}

@@ -9,8 +9,10 @@
   "practice": "regulatory",
   "language": "en",
   "skills": [
+    "skills/ai-governance-reviewer-carl-ditzler",
     "skills/compliance-summaries",
     "skills/policy-brief",
-    "skills/regulatory-summary"
+    "skills/regulatory-summary",
+    "skills/screening-alert-adjudication-amir-fadavi"
   ]
 }
