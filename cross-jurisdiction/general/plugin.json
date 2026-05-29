@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-general",
+  "displayName": "General — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "General skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/multi-jurisdictional-research-zacharie-laik"
+  ]
+}

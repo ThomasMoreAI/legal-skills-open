@@ -1,0 +1,14 @@
+{
+  "name": "in-regulatory",
+  "displayName": "Regulatory & Compliance — IN",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for IN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/indian-foreign-investment-approval-assessment-siddhi-kudalkar"
+  ]
+}

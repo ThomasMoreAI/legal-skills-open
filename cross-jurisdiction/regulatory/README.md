@@ -4,13 +4,14 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (3)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
-| [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. |
-| [`Cultural Heritage Protection Summary`](skills/cultural-heritage-summary/) | Produces structured, citation-ready summaries of legal developments in cultural heritage protection covering… |
+| [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. and international regulatory frameworks, treaties, and… |
+| [`Cultural Heritage Protection Summary`](skills/cultural-heritage-summary/) | Produces structured, citation-ready summaries of legal developments in cultural heritage protection covering repatriation, site protection,… |
 | [`Cultural Heritage Protection Legal Summary`](skills/heritage-protection-summary/) | Generates structured legal briefings on cultural heritage protection developments. |
+| [`New Designation Screening Test Generator`](skills/new-designation-screening-test-amir-fadavi/) | Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists plus deliberate variations of those… |
 
 ## Cold-start context
 

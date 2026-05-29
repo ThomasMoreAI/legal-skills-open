@@ -11,6 +11,7 @@
   "skills": [
     "skills/api-acceptable-use-policy",
     "skills/api-constraints-exhibit",
+    "skills/climate-aligned-contracts-tclp",
     "skills/commencement-date-memo",
     "skills/confidentiality-nda",
     "skills/consent-letter",
@@ -18,8 +19,11 @@
     "skills/contract-analysis",
     "skills/contract-playbook-review",
     "skills/contract-portfolio-intelligence",
+    "skills/contract-review-anthropic",
+    "skills/contract-risk-analyzer-sneha-ganapavarapu",
     "skills/know-how-license",
     "skills/nda-summary",
+    "skills/nda-triage-anthropic",
     "skills/pos-license"
   ]
 }
