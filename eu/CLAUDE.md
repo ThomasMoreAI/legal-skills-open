@@ -1,7 +1,5 @@
 # Cross-cutting context: European Union (supranational) law
 
-<!-- DRAFT: автогенерация харвестера, требует ревью куратора -->
-
 Orchestrator cold-start for any plugin under `eu/`. Loaded before the plugin-specific `CLAUDE.md`.
 Use `eu/` for **EU-wide supranational law** that applies across member states (GDPR, EU
 regulations/directives, competition law, CJEU case law) — NOT for a single member state's
