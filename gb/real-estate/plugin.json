@@ -1,0 +1,16 @@
+{
+  "name": "gb-real-estate",
+  "displayName": "Real Estate — GB",
+  "version": "0.1.0",
+  "description": "Real Estate skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "real-estate",
+  "language": "zh",
+  "skills": [
+    "skills/restrictive-covenant-advisor",
+    "skills/sdlt-calculator",
+    "skills/uk-lease-tenant-analysis-translation"
+  ]
+}

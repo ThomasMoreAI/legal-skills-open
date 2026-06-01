@@ -1,0 +1,657 @@
+---
+name: funasr-transcribe
+title: FunASR 语音转文字
+description: 使用本地 FunASR 服务将音频或视频文件转录为带时间戳的 Markdown 文件，支持 mp4、mov、mp3、wav、m4a 等常见格式。本技能应在用户需要语音转文字、会议记录、视频字幕、播客转录时使用。
+author: cat-xierluo
+author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/funasr-transcribe
+license: MIT
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: zh
+---
+
+# FunASR 语音转文字
+
+本 skill 提供本地语音识别服务，将音频或视频文件转换为结构化的 Markdown 文档。
+
+## 功能概述
+
+- 支持多种音视频格式（mp4、mov、mp3、wav、m4a、flac 等）
+- 自动生成时间戳
+- 支持说话人分离（diarization，默认启用）
+- **ONNX 加速模式**：支持 `paraformer-onnx` 与实验性的 `SenseVoice-Small ONNX`
+- **单人快速模式**：`--fast` / `"fast": true` 关闭 diarization，默认仍走 `paraformer`
+- **Paraformer ONNX 后处理优化**：`paraformer-onnx` 单人/多人路径都会先 VAD 分段，再清理文本输出、恢复标点并输出句子级时间戳；单人路径使用全局标点恢复，多人路径使用逐段标点以保留 speaker 对齐
+- **视频关键帧截图提取**：自动检测并提取 PPT 幻灯片，插入到转录稿对应位置（视频文件自动启用）
+- 转录后自动附带 AI 总结提示词，Agent 可一步完成总结
+- 输出 Markdown 格式，便于阅读和编辑
+
+## 依赖
+
+### 系统依赖
+
+| 依赖 | 安装方式 |
+|------|----------|
+| Python 3.8+ | macOS: `brew install python@3.14` |
+| curl | macOS 通常自带；如缺失可执行 `brew install curl` |
+
+### Python 包
+
+| 包名 | 用途 | 安装命令 |
+|------|------|----------|
+| `funasr` | FunASR 原生推理与 CAM++ diarization | `pip install -r assets/requirements.txt` |
+| `funasr-onnx` | Paraformer / SenseVoice ONNX 加速 | `pip install -r assets/requirements.txt` |
+| `scenedetect[opencv]`、`imagehash` | 视频关键帧提取 | `pip install -r assets/requirements.txt` |
+
+首次需要运行 ONNX 模式时，直接执行：
+
+```bash
+python3 scripts/setup.py
+```
+
+即可同时安装 `funasr-onnx` 及其依赖；`SenseVoiceSmall` 仅在显式指定 `model=sensevoice` 时按需下载。
+
+### ONNX 质量调参
+
+`paraformer-onnx` 默认使用质量优先的参数组合；单人路径会复用多人路径的 ONNX VAD 分段 ASR，但不执行 CAM++ 说话人聚类：
+
+| 参数 | 默认值 | 说明 |
+|------|--------|------|
+| `FUNASR_ONNX_TEXT_SOURCE` | `preds` | 使用清理后的 ONNX `preds` 文本；如遇到异常可设为 `raw_tokens` 回退 |
+| `FUNASR_SERVER_ONNX_THREADS` | `4` | ONNX Runtime 推理线程数，主要影响速度，不直接改善识别质量 |
+| `FUNASR_ONNX_COMPAT_CACHE` | `~/.cache/funasr-onnx-compat` | ONNX 兼容导出缓存目录；兼容导出会复制模型目录，可删除该缓存后重新生成 |
+
+单人 `paraformer-onnx` 会将各 VAD 片段的识别文本先拼接，再做一次全局标点恢复；这样比逐片段恢复标点更接近原生 `paraformer`，也能减少重复调用标点模型的耗时。
+
+ONNX 句子级时间戳是根据字符位置和 token 时间戳做的近似映射，适合定位段落和发言轮次，不应视为逐字强对齐结果。
+
+已验证不建议作为默认的调参方向：
+
+- 调大 VAD 静音阈值会减少切段并提速，但 90 秒多人样本上文本相似度下降明显。
+- 合并相邻 VAD 段或整段转录更容易出现错字、重复和长音频塌缩，因此单人和多人 ONNX 都不再默认整段转录。
+- 给 VAD 片段额外 padding 会引入边界重复，整体质量不如默认切段。
+
+## Agent 默认工作流（转录 + 自动总结）
+
+当用户请求转录音频/视频时，应遵循以下流程，**一次性完成转录和 AI 总结**：
+
+**前置步骤（必须第一个执行）：设置 PATH。** 某些执行环境（如 agent-executor headless 模式）的 PATH 被限制为只有插件目录，`curl`、`python3` 等系统命令找不到。必须先执行：
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+```
+
+> 之后所有 bash 命令都必须在同一命令块中跟在 `export PATH=...` 后面，或在每个命令块开头都加上这行。
+
+### 步骤 0：环境检测（自动）
+
+在执行转录前，检查 `assets/skill-env.json` 是否存在。如果不存在，先运行环境检测：
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && cd <skill目录> && python3 scripts/init_env.py
+```
+
+如果检测失败（退出码非0），按提示运行安装脚本：
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && cd <skill目录> && python3 scripts/setup.py
+```
+
+安装完成后会自动重新检测并生成 `skill-env.json`。
+
+### 步骤 1：启动/检查服务
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && curl -s http://127.0.0.1:8765/health
+```
+
+如果服务未运行，后台启动：
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && cd <skill目录> && python3 scripts/server.py --idle-timeout 600 &
+```
+
+等待服务就绪（轮询 `/health` 直到返回 200）。
+
+### 步骤 2：转录文件
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && curl -s -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/audio.aac"}'
+```
+
+> 注意：`diarize` 默认为 `true`，无需显式传入。如需禁用，传 `"diarize": false`。
+> 视频文件（mp4、mov 等）会自动启用关键帧截图提取（`extract_slides`），无需手动传入。如需禁用，显式传 `"extract_slides": false`。
+> 单人讲课/语音可传 `"fast": true` 关闭说话人分离，默认仍使用 `paraformer`；`"model": "sensevoice"` 仅作为实验性显式选项。
+
+响应中包含以下关键字段：
+- `output_path`: 转录输出的 Markdown 文件路径
+- `text`: 转录全文
+- `summary_prompt`: AI 总结提示词（**已自动附带**，无需额外调用 `/summary`）
+- `text_preview`: 转录文本前 500 字预览
+
+### 步骤 3：生成 AI 总结
+
+根据 `summary_prompt`（或直接根据 `text` 内容），Agent 生成结构化 JSON 总结：
+
+```json
+{
+  "full_summary": "至少400字，分成2-3段，交代背景、问题、关键事实、数据、风险与行动建议",
+  "speaker_summary": [
+    {
+      "speaker_order": "发言人1",
+      "speaker_name": "如能识别请写姓名，否则写未知",
+      "summary": "至少180字，涵盖该发言人的观点、依据、数据、态度与潜在影响"
+    }
+  ],
+  "highlights": ["6-10条重点，每条60-100字"],
+  "keywords": ["5-8个关键词"]
+}
+```
+
+### 步骤 4：注入总结到文件
+
+**重要：不要只描述注入操作，必须实际执行以下命令。**
+
+将步骤 3 生成的 JSON 写入临时文件，然后调用脚本注入（比 curl 注入更可靠，无需 JSON 转义）：
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && cat > /tmp/summary_<文件名>.json << 'JSONEOF'
+{步骤3生成的JSON内容}
+JSONEOF
+python3 <skill目录>/scripts/summary.py inject "<output_path>" /tmp/summary_<文件名>.json
+```
+
+脚本会自动：
+- 解析 JSON 并格式化为 Markdown
+- 注入到 Markdown 文件的正确位置
+- 添加 `<!-- AI-SUMMARY:START -->` / `<!-- AI-SUMMARY:END -->` 标记
+
+### 步骤 5：验证注入结果（必须执行）
+
+**注入后必须执行验证，确认摘要确实写入文件。如果验证失败，必须重试步骤 4。**
+
+```bash
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH" && python3 <skill目录>/scripts/summary.py verify "<output_path>"
+```
+
+- 如果输出 `✅ 摘要已存在` → 成功，向用户报告完成
+- 如果输出 `❌ 摘要不存在` → 失败，回到步骤 4 重试
+
+### 完整流程示例
+
+```
+用户：转录这个音频
+  ↓
+Agent：
+  1. 检查/启动服务
+  2. POST /transcribe {"file_path": "xxx.aac"}  ← 一次调用拿到转录+提示词
+  3. 根据转录内容直接生成总结 JSON
+  4. 写 JSON 到临时文件 → python3 summary.py inject 注入
+  5. python3 summary.py verify 验证 → 失败则重试步骤 4
+  ↓
+用户：收到带 AI 总结的 Markdown 文件
+```
+
+## 使用流程
+
+### 首次使用：环境检测与依赖安装
+
+**重要：首次使用前必须先检测环境是否满足要求。**
+
+运行环境检测：
+
+```bash
+python3 scripts/check_env.py
+```
+
+检测脚本会检查以下环境要求：
+
+| 必需项 | 要求 | 检测命令 |
+|--------|------|----------|
+| Python | >= 3.8，`python3` 命令可用 | `python3 --version` |
+| curl | HTTP 客户端（用于 API 调用） | `curl --version` |
+| 基本命令 | `ls`, `ps`, `grep` | shell 内置 |
+
+**如果环境检测失败：**
+
+1. **Python3 命令不可用**：
+   ```bash
+   # macOS 使用 homebrew 安装 Python
+   brew install python@3.14
+   ```
+
+2. **curl 不可用**：
+   ```bash
+   # macOS 确保 curl 已安装
+   brew install curl
+   ```
+
+3. **验证环境修复后**，重新运行检测：
+   ```bash
+   python3 scripts/check_env.py
+   ```
+
+### 首次使用：安装依赖和下载模型
+
+运行安装脚本完成环境配置：
+
+```bash
+python3 scripts/setup.py
+```
+
+安装脚本会自动：
+
+1. 检查 Python 版本（需要 >= 3.8）
+2. 安装依赖包（FastAPI、Uvicorn、FunASR、funasr-onnx、PyTorch）
+3. 下载 ASR 模型到 `~/.cache/modelscope/hub/models/`
+
+验证安装状态：
+
+```bash
+python3 scripts/setup.py --verify
+```
+
+### 启动转录服务
+
+```bash
+python3 scripts/server.py
+```
+
+如需默认开启 ONNX 加速与 INT8 量化，使用：
+
+```bash
+python3 scripts/server-onnx.py --preload
+```
+
+服务默认运行在 `http://127.0.0.1:8765`
+
+**智能特性：**
+
+- **自动启动**：首次请求时自动加载模型
+- **空闲关闭**：默认 10 分钟无活动后自动关闭以节约资源
+- **可配置超时**：使用 `--idle-timeout` 参数自定义空闲超时时间（秒）
+
+**服务生命周期：**
+
+1. 启动后进入空闲监控状态
+2. 接收到请求时自动加载模型并执行转录
+3. 每次请求都会重置空闲计时器
+4. 连续 10 分钟无请求时自动关闭
+5. 下次请求时重新启动
+
+**重要提示：**
+
+- ⚠️ **请勿手动关闭服务** - 转录完成后让服务继续运行，它会自动在 10 分钟无活动后关闭
+- 这样可以连续转录多个文件，无需重复启动服务
+- 如需立即关闭服务，按 `Ctrl+C` 或等待 10 分钟空闲超时
+
+**示例**：自定义 30 分钟空闲超时
+
+```bash
+python3 scripts/server.py --idle-timeout 1800
+```
+
+### 执行转录
+
+使用客户端脚本转录文件：
+
+```bash
+# 转录单个文件
+python3 scripts/transcribe.py /path/to/audio.mp3
+
+# 指定输出路径
+python3 scripts/transcribe.py /path/to/video.mp4 -o transcript.md
+
+# 启用说话人分离
+python3 scripts/transcribe.py /path/to/meeting.m4a --diarize
+
+# Paraformer ONNX（更快；默认仍支持 diarization）
+python3 scripts/transcribe.py /path/to/meeting.m4a --model paraformer-onnx
+
+# Paraformer ONNX 单人路径（VAD 分段 ASR，不做说话人聚类）
+python3 scripts/transcribe.py /path/to/course.m4a --model paraformer-onnx --no-diarize
+
+# 单人讲课快速模式（关闭说话人分离，保留默认 Paraformer）
+python3 scripts/transcribe.py /path/to/course.m4a --fast
+
+# 批量转录目录
+python3 scripts/transcribe.py /path/to/media_folder/
+
+# 提取视频关键帧截图（PPT幻灯片）
+python3 scripts/transcribe.py /path/to/video.mp4 --slides
+
+# 自定义场景检测阈值（值越低越灵敏，默认20.0）
+python3 scripts/transcribe.py /path/to/video.mp4 --slides --slide-threshold 15.0
+```
+
+### AI 智能总结（Claude Code 环境）
+
+转录完成后，可以生成 AI 智能总结，充分利用 Claude Code 的原生 AI 能力。
+
+**自动模式（推荐）：**
+
+使用 `--auto-summary` 参数，转录完成后自动生成并注入总结：
+
+```bash
+# 转录并自动生成总结（Claude Code 原生环境，无需配置 API Key）
+python3 scripts/transcribe.py /path/to/audio.m4a --auto-summary
+
+# 完整流程：说话人分离 + 自动总结
+python3 scripts/transcribe.py /path/to/meeting.m4a --diarize --auto-summary
+```
+
+**工作原理：**
+- 脚本输出结构化总结请求（`AI_SUMMARY_REQUEST`）
+- Claude Code 自动识别并利用内置 AI 能力生成总结
+- 无需任何外部 API Key 配置
+
+**手动模式：**
+
+1. 执行转录后，脚本会自动准备总结提示词
+2. 将提示词发送给 Claude AI 生成结构化总结
+3. 将 Claude 返回的 JSON 结果粘贴回脚本
+4. 自动将总结注入到 Markdown 文件
+
+```bash
+# 转录单个文件（输出提示词供手动调用）
+python3 scripts/transcribe.py /path/to/audio.mp3
+
+# 禁用自动总结（只输出提示词）
+python3 scripts/transcribe.py /path/to/audio.m4a --no-summary
+```
+
+**总结内容结构：**
+
+- **全文总结** - 400+ 字，包含背景、问题、关键事实
+- **发言人总结** - 每个发言人的观点、态度和贡献
+- **重点内容** - 6-10 条核心要点
+- **关键词** - 5-8 个关键术语
+
+**提示词特点：**
+
+- 专门针对中文口语化对话优化
+- 保留发言人上下文和对话流程
+- 结构化 JSON 输出便于解析和格式化
+
+详细文档请查看：<references/api-reference.md>
+
+### 通过 HTTP API 调用
+
+**检查服务状态**：
+
+```bash
+curl http://127.0.0.1:8765/health
+```
+
+使用 curl 直接调用 API：
+
+```bash
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/audio.mp3"}'
+
+# 单人快速模式（关闭说话人分离，保留默认 Paraformer）
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/course.m4a", "fast": true}'
+
+# 指定 Paraformer ONNX（默认启用 diarization）
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/meeting.m4a", "model": "paraformer-onnx"}'
+
+# Paraformer ONNX 单人路径（VAD 分段 ASR，不做说话人聚类）
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/course.m4a", "model": "paraformer-onnx", "diarize": false}'
+
+# 提取视频关键帧截图
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/video.mp4", "extract_slides": true}'
+```
+
+**API 文档（Swagger UI）**：
+
+FastAPI 自动生成交互式 API 文档，访问：[http://127.0.0.1:8765/docs](http://127.0.0.1:8765/docs)
+
+可在此页面中：
+
+- 查看所有 API 端点
+- 在线测试 API（不需要 curl）
+- 查看请求/响应格式
+- 查看详细参数说明
+
+**响应示例**（健康检查）：
+
+```json
+{
+  "status": "ok",
+  "service": "FunASR Transcribe",
+  "uptime": 300,
+  "idle_time": 120
+}
+```
+
+返回字段说明：
+
+- `uptime`：服务运行时间（秒）
+- `idle_time`：当前空闲时间（秒）
+
+### 完整 API 文档
+
+详细的 API 参考文档请查看：<references/api-reference.md>
+
+包含：
+
+- 所有 API 端点的完整规范
+- 请求/响应格式详解
+- 参数说明和示例
+- 完整的 curl 命令示例
+
+## 脚本说明
+
+| 脚本                         | 用途                                |
+| ---------------------------- | ----------------------------------- |
+| `scripts/init_env.py`      | **环境检测 + 生成 skill-env.json** |
+| `scripts/check_env.py`     | 环境检测（简化版）                  |
+| `scripts/setup.py`         | 一键安装依赖和下载模型              |
+| `scripts/server.py`        | 启动 HTTP API 服务                  |
+| `scripts/server-onnx.py`   | 启动默认 ONNX 加速服务             |
+| `scripts/transcribe.py`    | 命令行客户端                        |
+| `scripts/auto_transcribe.py` | **自动化转录脚本（推荐）**         |
+
+---
+
+## 自动转录 + 总结流程
+
+本 skill 支持在任意 Agent 平台中自动完成**转录 + 总结**全流程。
+
+### 方式一：使用自动化脚本（推荐）
+
+```bash
+# 自动转录 + 获取总结提示词（说话人分离默认启用）
+python3 scripts/auto_transcribe.py /path/to/audio.aac
+
+# 禁用说话人分离
+python3 scripts/auto_transcribe.py /path/to/audio.aac --no-diarize
+
+# 单人快速模式（关闭说话人分离，保留默认 Paraformer）
+python3 scripts/auto_transcribe.py /path/to/course.m4a --fast
+
+# 只获取总结提示词，不生成总结
+python3 scripts/auto_transcribe.py /path/to/audio.aac --prompt-only
+```
+
+### 方式二：HTTP API 调用
+
+#### 1. 转录音频（响应中已自动附带总结提示词）
+
+```bash
+curl -X POST http://127.0.0.1:8765/transcribe \
+  -H "Content-Type: application/json" \
+  -d '{"file_path": "/path/to/audio.aac"}'
+```
+
+响应中包含 `summary_prompt` 字段，可直接用于生成总结，无需额外调用 `/summary`。
+
+#### 2. 注入 AI 总结
+
+生成总结后，调用：
+
+```bash
+curl -X POST http://127.0.0.1:8765/inject_summary \
+  -H "Content-Type: application/json" \
+  -d '{
+    "md_path": "/path/to/audio.md",
+    "summary_content": "## AI 摘要\n\n### 全文总结\n...\n\n### 重点内容\n- ...\n\n### 关键词\n..."
+  }'
+```
+
+---
+
+### API 端点汇总
+
+| 端点                   | 方法 | 功能                        |
+| ---------------------- | ---- | --------------------------- |
+| `/health`             | GET  | 健康检查                    |
+| `/transcribe`         | POST | 转录音频/视频              |
+| `/batch_transcribe`   | POST | 批量转录目录               |
+| `/summary`            | POST | 生成 AI 总结提示词         |
+| `/inject_summary`     | POST | 将总结注入 Markdown 文件    |
+| `/verify_summary`     | POST | 验证摘要是否已注入          |
+
+## 配置文件
+
+| 文件                        | 说明             |
+| --------------------------- | ---------------- |
+| `assets/models.json`      | ASR 模型配置清单 |
+| `assets/requirements.txt` | Python 依赖清单  |
+
+## 输出格式
+
+转录结果保存为 Markdown 文件，包含：
+
+1. **标题** - 文件名（无转录时间戳）
+2. **转录内容** - 格式：`发言人N HH:MM:SS` 换行 `内容`
+3. **AI 摘要**（可选）- 包含全文总结、发言人总结、重点内容、关键词
+
+**示例格式（视频含截图）：**
+
+```markdown
+# 转录：视频.mp4
+
+## 转录内容
+
+发言人1 00:02:49
+![](slides/slide_001_02m49s.jpg)
+各位好，今天我们来讲...
+
+发言人1 00:03:30
+![](slides/slide_002_03m30s.jpg)
+这是第二段的内容...
+```
+
+## 模型信息
+
+模型存储在 ModelScope 默认缓存目录 `~/.cache/modelscope/hub/models/`：
+
+- ASR 主模型 (Paraformer) - 867MB
+- SenseVoice-Small（实验性单人 ONNX 路径）- 显式指定时按需下载
+- VAD 模型 - 4MB
+- 标点模型 - 283MB
+- 说话人分离模型 - 28MB
+
+## STT 转录优先级（重要）
+
+**正确顺序**：FunASR（优先）→ Whisper CLI（fallback）
+
+- **FunASR 是主选**：中文识别质量更高，支持时间戳、说话人分离、视频关键帧
+- **Whisper CLI 是 fallback**：仅在 FunASR 服务不可用时使用（例如 funasr-onnx 安装失败、服务报错 500）
+- **绝对不要**：在没有先尝试 FunASR 的情况下直接用 Whisper
+
+### FunASR 失败时的排查步骤
+
+1. 运行 `python3 scripts/setup.py --verify` 检查 funasr-onnx 是否可用
+2. 查看服务进程日志：`process_log` 查看 `proc_<session_id>`
+3. 如果 funasr-onnx 装不上，用 Whisper CLI 作为临时 fallback（见下方）
+
+### Whisper CLI Fallback（仅在 FunASR 不可用时）
+
+```bash
+# 提取音频（16kHz 单声道）
+ffmpeg -i "/path/to/video.mp4" -vn -acodec pcm_s16le -ar 16000 -ac 1 -y "/tmp/audio.wav"
+
+# Whisper 转录（tiny 模型最快，medium 质量更好）
+/opt/homebrew/bin/whisper "/tmp/audio.wav" \
+  --model tiny \
+  --language Chinese \
+  --output_dir /tmp/transcript \
+  --output_format all
+```
+
+性能参考：19 分钟音频，tiny 模型约 3-5 分钟（Mac CPU）。
+
+## 故障排除
+
+### cv2 / opencv 导入失败（2026-05-18 实测）
+
+**症状**：`POST /transcribe` 返回 `{"detail":"No module named 'cv2'"}`，但 `pip show opencv-python-headless` 显示已安装。
+
+**根因**：服务进程使用的 Python 环境与 pip 安装目标不同。常见于 macOS Homebrew Python 3.14 环境，pip 安装到了系统 site-packages，但服务进程加载的是 Homebrew 路径。
+
+**排查步骤**：
+1. 在终端验证 cv2 是否可导入：`python3 -c "import cv2; print('ok')"`
+2. 如果导入失败，执行：`python3 -m pip install opencv-python-headless --break-system-packages`
+3. 确认服务进程的 Python 路径：`lsof -p <server_pid> | grep python`
+
+**正确启动流程**：
+```bash
+# 确认 cv2 可用后再启动服务
+python3 -c "import cv2; print('cv2 ok')"
+
+# 如服务已在运行，先杀掉再重启
+lsof -ti:8765 | xargs kill -9 2>/dev/null; sleep 1
+
+# 重启服务
+python3 scripts/server.py --idle-timeout 600 &
+```
+
+### 服务端口被占用
+
+**症状**：`Address already in use`（Errno 48）
+
+```bash
+# 杀掉占用端口的进程
+lsof -ti:8765 | xargs kill -9 2>/dev/null
+sleep 1
+```
+
+### FunASR 服务无响应 / 模型加载慢
+
+首次转录需要下载模型（约 1-2GB），耐心等待。后续请求模型已缓存，速度会快很多。
+
+> 📌 B 站视频转录实战记录（2026-05-10）：`references/bilibili-transcribe-session.md`
+> 含路径问题根因 + Whisper CLI fallback 方案。
+
+**视频截图功能：**
+
+视频文件（mp4、mov、avi、mkv、wmv、webm）转录时会自动启用关键帧提取。
+依赖 `scenedetect[opencv]` 和 `imagehash` 已包含在 requirements.txt 中，`setup.py` 安装时会一并安装。
+如未安装这些依赖，服务端会输出提示但不影响普通转录功能。
+
+服务启动失败时，运行验证命令检查安装状态：
+
+```bash
+python3 scripts/setup.py --verify
+```
+
+重新下载模型：
+
+```bash
+python3 scripts/setup.py --skip-deps
+```

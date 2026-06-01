@@ -1,0 +1,18 @@
+{
+  "name": "br-data-protection",
+  "displayName": "Data Protection — BR",
+  "version": "0.1.0",
+  "description": "Data Protection skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "data-protection",
+  "language": "pt",
+  "skills": [
+    "skills/brazil-lgpd",
+    "skills/brazil-lgpd-onfire7777",
+    "skills/legal-compliance-check",
+    "skills/legal-response-evolution-foundation",
+    "skills/lgpd"
+  ]
+}

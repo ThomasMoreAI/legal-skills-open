@@ -1,0 +1,17 @@
+{
+  "name": "general-insurance",
+  "displayName": "Insurance — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Insurance skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "insurance",
+  "language": "zh",
+  "skills": [
+    "skills/claims-material-check-life-insurance-assistant",
+    "skills/compliance-audit-insurance",
+    "skills/death-coverage-scope-judgment-assistant",
+    "skills/deepread-insurance"
+  ]
+}

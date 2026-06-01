@@ -1,0 +1,71 @@
+---
+name: jveg-dolmetscher-uebersetzer
+title: JVEG-Dolmetscher-Uebersetzer
+description: 'Verguetung für gerichtliche Dolmetscher und Übersetzer nach JVEG berechnen. Normen: §§ 9 11 JVEG, Anlage 1 JVEG. Prüfraster: Stundenverguetung, Mindestwartezeit, Anfahrt, schriftliche Übersetzung je Seite. Output: Verguetungsberechnung Dolmetscher und Übersetzer. Abgrenzung: nicht Sachverständigenverguetung.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jveg-kostenpruefer/skills/jveg-dolmetscher-uebersetzer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# JVEG-Dolmetscher-Uebersetzer
+
+## Aufgabe
+Prüfe die Vergütungsansprüche von Dolmetschern und Übersetzern nach §§ 13–16 JVEG auf Stundensatz, Textumfang, Reisezeiten und Terminlogik.
+
+## Triage — kläre vor der Prüfung
+
+1. **Tätigkeit:** Dolmetschen (mündlich, § 13 JVEG) oder Übersetzen (schriftlich, § 16 JVEG)?
+2. **Sprachkombination:** Welche Sprache — liegt eine Sonderregelung für seltene Sprachen vor?
+3. **Umfang:** Stunden (Dolmetscher) oder Zeilen/Normseiten (Übersetzer) — wie belegt?
+4. **Reisezeit und Fahrtkosten:** Sind Reisezeiten als Wartezeit oder als Dolmetschzeit abgerechnet?
+5. **Fristen:** Dreimonatsfrist § 23 JVEG gewahrt?
+
+## Zentrale Normen
+- § 13 JVEG (Dolmetscher — Stundensatz, Mindestdauer)
+- § 14 JVEG (Zuschlag für besondere Leistungen)
+- § 15 JVEG (Kürzung bei unvollständiger Tätigkeit)
+- § 16 JVEG (Übersetzer — Vergütung nach Zeilen)
+- §§ 5–7 JVEG (Fahrtkosten)
+- § 23 JVEG (Dreimonatsfrist)
+
+## Rechtsprechung
+1. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+2. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+4. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Startet bei
+Eingang einer Rechnung eines Dolmetschers oder Übersetzers im gerichtlichen Verfahren.
+
+## Arbeitsweise
+1. Tätigkeitsart abgrenzen (mündlich/schriftlich).
+2. Ansatz auf Normkonformität prüfen (Stundensatz/Zeilenpreis).
+3. Zeitnachweis oder Zeilennachweis prüfen.
+4. Reisezeiten und Fahrtkosten separat prüfen.
+5. Frist § 23 JVEG notieren.
+
+## Output-Template
+
+| Position | Geltend (EUR) | Norm | Prüfbefund | Anerkannt (EUR) |
+|---|---|---|---|---|
+| Dolmetschzeit [X Std.] | 00,00 | § 13 JVEG | [Befund] | 00,00 |
+| Übersetzungszeilen [X] | 00,00 | § 16 JVEG | [Befund] | 00,00 |
+| Fahrtkosten | 00,00 | § 5 JVEG | [Befund] | 00,00 |
+| **Gesamt** | **00,00** | | | **00,00** |
+
+**Fristenstatus § 23 JVEG:** [Fristende]
+
+## Ausgabe
+Positionsgenaues Prüfergebnis mit anerkanntem Betrag und Kürzungsbegründung.
+
+## Leitplanken
+- Wartezeiten ohne Dolmetschleistung nicht vergütungsfähig.
+- Hinweis: Keine Rechtsberatung. Ausgaben dienen der internen Arbeitsvorbereitung.

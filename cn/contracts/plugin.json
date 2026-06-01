@@ -1,0 +1,16 @@
+{
+  "name": "cn-contracts",
+  "displayName": "Contracts — CN",
+  "version": "0.1.0",
+  "description": "Contracts skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "contracts",
+  "language": "zh",
+  "skills": [
+    "skills/contract-drafting-and-review-guidance-china-law",
+    "skills/contract-gen",
+    "skills/wps-contract"
+  ]
+}

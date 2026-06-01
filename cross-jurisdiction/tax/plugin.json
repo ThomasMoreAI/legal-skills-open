@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-tax",
+  "displayName": "Tax — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Tax skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/odoo-l10n-compliance"
+  ]
+}

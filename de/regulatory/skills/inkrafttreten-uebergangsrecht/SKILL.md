@@ -1,0 +1,83 @@
+---
+name: inkrafttreten-uebergangsrecht
+title: Inkrafttreten und Übergangsrecht
+description: Inkrafttretens- und Übergangsregelung für Gesetze und Verordnungen formulieren. Anwendungsfall Entwurf ist inhaltlich fertig Artikel Inkrafttreten und Übergangsrecht muessen noch ergaenzt werden. Standardformel Stichtagsregelung Altfaelle bestehende Vertraege bestehende Verwaltungsakte. Vacatio legis genuegend Vorlauf prüfen. Gestaffeltes Inkrafttreten verschiedene Artikel. EU-Bezug Stillhalteperiode Notifizierung. Aussenwirkung erst nach Bekanntmachung BGBl. Output Paragraf Inkrafttreten plus Übergangsregelung fertig formuliert.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/inkrafttreten-uebergangsrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Inkrafttreten und Übergangsrecht
+
+> Wann tritt das Gesetz in Kraft, was passiert mit Altfällen?
+
+## Standardformel
+
+"Dieses Gesetz tritt am Tag nach der Verkündung in Kraft."
+
+Alternativ:
+
+- "Dieses Gesetz tritt am ersten Tag des dritten auf die Verkündung folgenden Monats in Kraft." (drei Monate Vorlauf)
+- "Dieses Gesetz tritt am ... in Kraft." (festes Datum)
+
+## Vacatio legis
+
+Zeit zwischen Verkündung und Inkrafttreten. Sollte ausreichend sein:
+
+- Bürger und Wirtschaft koennen sich vorbereiten
+- Verwaltung kann sich vorbereiten
+- IT-Systeme koennen angepasst werden
+
+Faustregel: bei IT-Pflichten mindestens 12 Monate, bei Belehrungspflichten mindestens 6 Monate.
+
+## Gestaffeltes Inkrafttreten
+
+"Artikel 1 tritt am ... in Kraft. Artikel 2 tritt am ... in Kraft. Artikel 3 tritt am Tag nach der Verkündung in Kraft."
+
+## Übergangsregelung für Altfälle
+
+Pro Stammgesetz eigene Übergangsregelung. Standardelemente:
+
+### A - Verwaltungsakte
+
+"Auf Verwaltungsverfahren, die vor dem ... eingeleitet worden sind, ist das bisherige Recht anzuwenden."
+
+### B - Verträge
+
+"Auf Verträge, die vor dem ... abgeschlossen worden sind, ist Paragraf X in der bisherigen Fassung weiter anzuwenden."
+
+### C - laufende Genehmigungen
+
+"Genehmigungen, die nach bisherigem Recht erteilt worden sind, gelten als Genehmigungen im Sinne dieses Gesetzes."
+
+### D - Pflicht-Anpassungsfrist
+
+"Unternehmen, die zum Zeitpunkt des Inkrafttretens noch kein elektronisches Postfach vorhalten, müssen innerhalb von zwölf Monaten nach Inkrafttreten dieses Gesetzes ein solches einrichten."
+
+## EU-Notifizierungs-Stillhalteperiode
+
+Wenn das Vorhaben nach RL 2015/1535 notifiziert wurde, darf erst nach Ablauf der Stillhalteperiode in Kraft treten. Drei Monate ab Notifizierung, ggf. verlaengert.
+
+## Außenwirkung
+
+Außenwirkung beginnt erst mit Verkündung im BGBl bzw. Landesgesetzblatt. Eintrag im Bundesanzeiger ist nur für Verwaltungsvorschriften relevant.
+
+## Aktuelle Rechtsprechung & Leitsätze
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Zentrale Normen (Paragrafenkette)
+
+Art. 20 Abs. 3 GG (Rechtsstaat, Vertrauensschutz) — Art. 14 GG (Eigentumsschutz bei Uebergangsrecht) — §§ 6-7 HdR (Inkrafttreten, Uebergangsbestimmungen) — § 49 Abs. 6 VwVfG (Bestandsschutz laufender Bewilligungen) — Art. 79 EGBGB (Uebergangsregelungen BGB)
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Ausgabe
+
+Letzter Artikel oder Schlussparagraf des Entwurfs plus separate Übergangsregelung im Stammgesetz.

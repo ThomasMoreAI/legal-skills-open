@@ -1,0 +1,15 @@
+{
+  "name": "tr-commercial",
+  "displayName": "Commercial — TR",
+  "version": "0.1.0",
+  "description": "Commercial skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "commercial",
+  "language": "tr",
+  "skills": [
+    "skills/escalation-flagger-zekaisuni",
+    "skills/vendor-agreement-review-zekaisuni"
+  ]
+}

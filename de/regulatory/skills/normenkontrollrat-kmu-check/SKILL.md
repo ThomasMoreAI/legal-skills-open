@@ -1,0 +1,71 @@
+---
+name: normenkontrollrat-kmu-check
+title: Normenkontrollrat / KMU-Check
+description: Vorlage an Nationalen Normenkontrollrat NKR vorbereiten und KMU-Check durchführen. Anwendungsfall Referentenentwurf muss vor Kabinettsbefassung dem NKR vorgelegt werden. Standard-Kostenmodell SKK Buerokratiekosten. KMU-Aspekt mittelstandsrelevante Vorschriften. One-in-one-out-Regel Entlastungsnachweis. Statistik-Pflichten. Output NKR-Vorlage-Datei Anschreiben Erfuellungsaufwand-Tabelle KMU-Test One-in-one-out-Nachweis. Anschluss gesetzesentwurf-kabinett. Abgrenzung zu folgenabschaetzung-erfuellungsaufwand Methodik-Skill.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/normenkontrollrat-kmu-check
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Normenkontrollrat / KMU-Check
+
+> Der NKR ist die wichtigste Pruefinstanz für Erfüllungsaufwand.
+
+## Nationaler Normenkontrollrat (NKR)
+
+Unabhängiges Beratungsgremium der Bundesregierung. Einrichtung durch NKRG (Gesetz über den Nationalen Normenkontrollrat) 2006.
+
+### Aufgabe
+
+Prüfung des Erfüllungsaufwands und der Folgekosten von Bundesgesetzen, Verordnungen und Allgemeinverwaltungsvorschriften.
+
+### Pruefberichte
+
+Der NKR erstellt einen Pruefbericht, der dem Kabinettsentwurf als Anlage beigefügt wird. Negative Berichte erschweren das parlamentarische Verfahren.
+
+## KMU-Test
+
+Mittelstandsrelevante Vorschriften müssen einen besonderen KMU-Check bestehen:
+
+- Welche Adressaten sind Unternehmen mit weniger als 250 Beschaeftigten?
+- Welche Umsetzungskosten?
+- Welche Alternativen sind milder?
+- Welche Ausnahmen / Schwellenwerte?
+
+## One-in-one-out
+
+Seit 2015 Bundesregierungsregel: Jeder neue Bürokratieaufwand für die Wirtschaft muss durch Entlastung an anderer Stelle ausgeglichen werden.
+
+### Prüfraster
+
+- Pro neuem Aufwand: identifizieren Sie das Pendant zur Entlastung
+- Methodische Hilfe: SKK Standard-Kostenmodell
+
+## Aktuelle Rechtsprechung & Leitsätze
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Zentrale Normen (Paragrafenkette)
+
+§§ 1-8 NKRG (Normenkontrollrat-Gesetz) — § 62 Abs. 1 GGO (NKR-Beteiligung Pflicht) — Art. 5 EUV (EU-Verhaeltnismaessigkeit, KMU-Test) — Leitlinien KMU-Test Europaeische Kommission COM 2009 (SME-Test)
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Ausgabe
+
+- NKR-Vorlagedatei
+- Anschreiben
+- Anlagen:
+  - Erfüllungsaufwand-Tabelle
+  - KMU-Test-Bericht
+  - One-in-one-out-Nachweis
+
+## Anschluss
+
+`gesetzesentwurf-kabinett`.

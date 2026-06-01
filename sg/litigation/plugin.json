@@ -1,0 +1,14 @@
+{
+  "name": "sg-litigation",
+  "displayName": "Litigation — SG",
+  "version": "0.1.0",
+  "description": "Litigation skills for SG (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sg",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/sgcite"
+  ]
+}

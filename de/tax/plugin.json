@@ -1,0 +1,23 @@
+{
+  "name": "de-tax",
+  "displayName": "Tax — DE",
+  "version": "0.1.0",
+  "description": "Tax skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "tax",
+  "language": "de",
+  "skills": [
+    "skills/aussenwirtschaft-verbrauchsteuer",
+    "skills/corporate-kanzlei-umwandlungssteuerrecht",
+    "skills/grosskanzlei-corporate-ma-umwandlungssteuerrecht",
+    "skills/iv-plan-steuern-bilanz-folgen",
+    "skills/kanzlei-allgemein-erechnung",
+    "skills/kanzlei-allgemein-ustva-buchhaltung",
+    "skills/kanzlei-allgemein-ustva-simulation",
+    "skills/mittelstand-corporate-ma-umwandlungssteuerrecht",
+    "skills/steuerberater-stberg-modus",
+    "skills/ustva"
+  ]
+}

@@ -10,8 +10,12 @@
   "language": "en",
   "skills": [
     "skills/consent-to-sublease",
+    "skills/extract-property-deed-data",
+    "skills/land-use-findings-builder",
+    "skills/lease-abstraction",
     "skills/notice-of-entry",
     "skills/office-lease",
-    "skills/sublease-agreement"
+    "skills/sublease-agreement",
+    "skills/temporary-license-expert"
   ]
 }

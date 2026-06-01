@@ -1,0 +1,16 @@
+{
+  "name": "es-general",
+  "displayName": "General — ES",
+  "version": "0.1.0",
+  "description": "General skills for ES (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "general",
+  "language": "es",
+  "skills": [
+    "skills/intake",
+    "skills/investigacion",
+    "skills/memo-betobetico"
+  ]
+}

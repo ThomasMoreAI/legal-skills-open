@@ -1,0 +1,14 @@
+{
+  "name": "lu-tax",
+  "displayName": "Tax — LU",
+  "version": "0.1.0",
+  "description": "Tax skills for LU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "lu",
+  "practice": "tax",
+  "language": "fr",
+  "skills": [
+    "skills/controleur-fiscal"
+  ]
+}

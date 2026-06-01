@@ -1,0 +1,14 @@
+{
+  "name": "th-criminal",
+  "displayName": "Criminal Law — TH",
+  "version": "0.1.0",
+  "description": "Criminal Law skills for TH (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "th",
+  "practice": "criminal",
+  "language": "th",
+  "skills": [
+    "skills/02-premeditated-murder"
+  ]
+}

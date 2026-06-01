@@ -1,0 +1,14 @@
+{
+  "name": "sg-regulatory",
+  "displayName": "Regulatory & Compliance — SG",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for SG (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "sg",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/sg-mas-trm-expert"
+  ]
+}

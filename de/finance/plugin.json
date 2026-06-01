@@ -1,0 +1,26 @@
+{
+  "name": "de-finance",
+  "displayName": "Finance & Banking — DE",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "finance",
+  "language": "de",
+  "skills": [
+    "skills/anlageberatungsfehler-pruefen",
+    "skills/darlehenshoehe-konditionen",
+    "skills/energierecht-projektfinanzierung",
+    "skills/fachanwalt-bank-kapitalmarktrecht-anlageberatung-fehlerhaft",
+    "skills/fachanwalt-bank-kapitalmarktrecht-kreditkuendigung",
+    "skills/fachanwalt-bank-kapitalmarktrecht-orientierung",
+    "skills/forderungsverzicht-besserungsschein",
+    "skills/mandat-triage-bank-kapitalmarktrecht",
+    "skills/phishing-vorfall-pruefen",
+    "skills/stundungsanfrage-glaeubiger",
+    "skills/wandelereignis-eingang",
+    "skills/wandlungspruefung-trigger-qualified-financing",
+    "skills/widerrufsjoker-immobiliendarlehen"
+  ]
+}

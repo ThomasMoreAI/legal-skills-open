@@ -1,0 +1,15 @@
+{
+  "name": "cm-real-estate",
+  "displayName": "Real Estate — CM",
+  "version": "0.1.0",
+  "description": "Real Estate skills for CM (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cm",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/land-title-verifier",
+    "skills/land-title-verifier-wutsi"
+  ]
+}

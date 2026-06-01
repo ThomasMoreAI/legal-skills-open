@@ -1,0 +1,14 @@
+{
+  "name": "pl-contracts",
+  "displayName": "Contracts — PL",
+  "version": "0.1.0",
+  "description": "Contracts skills for PL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "contracts",
+  "language": "pl",
+  "skills": [
+    "skills/reviewing-vehicle-contract"
+  ]
+}

@@ -9,7 +9,9 @@
   "practice": "criminal",
   "language": "en",
   "skills": [
+    "skills/2026-legal-research-agent",
     "skills/alibi-notice",
+    "skills/analyze-fourth-amendment-search-and-seizure-scenarios",
     "skills/bail-hearing-summary",
     "skills/bail-reduction-motion",
     "skills/body-camera-incident-summary",
@@ -21,6 +23,7 @@
     "skills/motion-in-limine",
     "skills/motion-new-trial",
     "skills/motion-to-dismiss-indictment",
+    "skills/national-expungement-expert",
     "skills/notice-of-appeal-criminal",
     "skills/parole-hearing-summary",
     "skills/plea-agreement",

@@ -1,0 +1,14 @@
+{
+  "name": "tr-regulatory",
+  "displayName": "Regulatory & Compliance — TR",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "regulatory",
+  "language": "tr",
+  "skills": [
+    "skills/gap-surfacer-zekaisuni"
+  ]
+}

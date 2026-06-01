@@ -1,0 +1,137 @@
+---
+name: ai-tool-handoff-zhou210712
+title: AI 工具交接
+description: 检测 AI 辅助审查工具（如 Luminance、Kira 等）是否在使用中，将大批量条款提取 交接给工具，并按 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` 中的 信任层级对其输出进行 QA。当用户说"交给AI工具""批量审查""AI提取"或 diligence-issue-extraction 遇到大批量类别时使用。
+author: zhou210712
+author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/corporate-legal/skills/ai-tool-handoff
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: corporate
+language: zh
+---
+
+# AI 工具交接
+
+## 事项上下文
+
+**事项上下文。** 检查实务级 CLAUDE.md 中的 `## 事项工作区`。如果 `Enabled` 为 `✗`（企业法务用户的默认值），跳过本段其余内容——技能使用实务级上下文，事项机制不可见。如果已启用且无活跃事项，询问："这是哪个事项？运行 `/corporate-legal:matter-workspace switch <事项简称>` 或说 `实务级`。"加载活跃事项的 `matter.md` 获取事项特定上下文和覆盖规则。输出写入事项文件夹 `~/.claude/plugins/config/claude-for-legal/corporate-legal/matters/<事项简称>/`。除非 `跨事项上下文` 为 `开`，否则绝不读取其他事项的文件。
+
+---
+
+## 目的
+
+AI 辅助审查工具擅长一件事：读取500份合同并找到每一条控制权变更条款。它们不擅长判断——决定某条特定的控制权变更条款是否真的被本次交易结构触发。
+
+本技能将批量提取交接给合适的工具，然后对返回的结果运行 QA 层。
+
+**交接之前：** 先尝试 `tabular-review`（`/corporate-legal:tabular-review`）。对于用户环境可以处理的任何内容——几百份文档、已定义的列模式——原生表格审查设置更快、无按文档计费成本，且将工作成果保留在本地。当语料确实过于庞大、团队已有许可证和工作流，或事项要求具有已验证溯源链的工具时，再交接给 AI 工具。
+
+## 加载上下文
+
+`~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` → AI辅助审查：
+- 使用的工具（Luminance / Kira / 无）
+- 用于什么（哪些条款类型）
+- 信任层级（直接使用 / 抽查 / 全面复核）
+- 交接流程（谁加载，谁QA）
+
+如果 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` 显示无AI工具 → 本技能为无操作。所有内容直接通过 diligence-issue-extraction 处理。
+
+## 何时交接
+
+以下全部满足时交接：
+- 类别有超过50份文档（少于50份时直接阅读更快）
+- 提取目标是工具擅长的条款类型（控制权变更、合同转让、独家性、最惠国待遇、终止、自动续约）
+- 文档相对统一（全部是相似文本的客户合同——而非合同、函件和董事会纪要的混搭）
+
+不要交接：
+- 定制或经过大量谈判的文档
+- 补充函和修订协议（上下文依赖性强，工具会遗漏与主协议的互动）
+- 任何问题是"这对交易意味着什么"而非"该条款是否存在"的情况
+
+## 交接
+
+### 第1步：准备批次
+
+- 从数据室目录中识别批次文档
+- 按 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` 指定提取目标（哪些条款类型）
+- 注明重要性阈值以便过滤工具输出
+
+### 第2步：加载（或指示加载者）
+
+按 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` ——由谁加载。如果是你，生成加载指令。如果是别人，生成请求：
+
+```markdown
+## [工具] 加载请求 — [交易代码] — [类别]
+
+**文档：** [N]份 来自数据室文件夹 [路径]
+**加载至：** [工具工作区/事项]
+**提取目标：**
+- 控制权变更 / 合同转让
+- 独家性
+- [等——按 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`]
+
+**过滤输出：** 仅标记提取目标存在的情况——无需为每份文档报告"未发现控制权变更条款"。
+
+**返回截止：** [日期]
+```
+
+### 第3步：QA 输出
+
+当工具返回结果时，按信任层级应用：
+
+**"直接使用"：** 直接录入尽调发现。（仅在 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` 如此设置时使用——这种情况很少见。）
+
+**"抽查 X%"：** 随机抽取 X% 的已标记文档。对每份，阅读实际条款并与工具的提取对比。如错误率低，接受该批次。如发现错误，扩大样本。
+
+**"对已标记项进行完整人工复核"：** 工具缩小范围（500份文档 → 80份含控制权变更条款）。人工阅读全部80份。工具节省了阅读420份干净文档的时间。
+
+### 第4步：判断层
+
+工具找到了条款。现在应用判断：
+
+对每项已标记的控制权变更条款：是否实际被本次交易触发？
+- 股权转让 vs. 资产转让 vs. 合并——不同的触发条件
+- 合同中如何定义"控制权变更"——多数股权？董事会控制？其他？
+- 是否有针对本类交易的例外条款？
+
+这是工具无法完成的部分。输出以内部格式进入尽调发现。
+
+## 输出
+
+> 以下QA摘要来源于具有特权、保密或两者兼有的数据室文件。它继承来源文件的特权和保密状态——向特权保护圈之外分发可能放弃特权。存放于事项的特权文件中。
+
+```markdown
+## AI 工具交接摘要 — [类别]
+
+**工具：** [Luminance / Kira]
+**已处理文档：** [N]
+**提取目标：** [条款类型]
+
+### QA
+
+**信任层级：** [按 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md`]
+**样本量：** [N]份文档抽查
+**错误率：** [X]% — [接受 / 扩大样本 / 触发全面复核]
+
+### 结果
+
+| 条款类型 | 工具标记文档 | 经判断层后 | 重大 |
+|---|---|---|---|
+| 控制权变更 | [N] | [N 实际被交易结构触发] | [N 超过阈值] |
+| 合同转让 | [N] | [N] | [N] |
+
+**→ 已将 [N] 项发现加入尽调问题清单**
+**→ 已将 [N] 项同意事项加入交割检查表**
+```
+
+## 以下一步行动决策树收尾
+
+以 CLAUDE.md `## 输出规范` 中的下一步行动决策树收尾。根据本技能刚产出的内容定制选项——五个默认分支（起草X、上报、补充事实、监控等待、其他）是起点，不是锁定。决策树本身就是产出；律师选择。
+
+## 本技能不做什么
+
+- 不运行 Luminance 或 Kira——它管理交接和 QA。由人工（或工具自身的界面）运行提取。
+- 不完全用自身判断替代工具的输出——如果 `~/.claude/plugins/config/claude-for-legal/corporate-legal/CLAUDE.md` 说抽查10%，就检查10%，不是100%。
+- 不决定信任层级——这在 CLAUDE.md 中设定，在冷启动时基于团队对工具的经验确定。
