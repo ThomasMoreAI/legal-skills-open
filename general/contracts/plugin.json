@@ -9,7 +9,6 @@
   "practice": "contracts",
   "language": "en",
   "skills": [
-    "skills/agreement-generator",
     "skills/agreement-generator-jeremylongshore",
     "skills/ai-intelligent-contract-review",
     "skills/amendment-history",
@@ -148,7 +147,6 @@
     "skills/opencontracts-guide",
     "skills/ops-contract-review",
     "skills/pii-contract-analyze",
-    "skills/plain-english",
     "skills/plain-english-jeremylongshore",
     "skills/playbook-easy-extract",
     "skills/pos-license",
