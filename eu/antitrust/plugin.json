@@ -1,0 +1,14 @@
+{
+  "name": "eu-antitrust",
+  "displayName": "Antitrust & Competition — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills for EU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "antitrust",
+  "language": "de",
+  "skills": [
+    "skills/dma-und-gatekeeper-markt"
+  ]
+}

@@ -10,8 +10,15 @@
   "language": "en",
   "skills": [
     "skills/adr-outcomes-summary",
+    "skills/arbitration-clause",
+    "skills/arbitrator",
+    "skills/fetching-arbitration-rules",
+    "skills/legal-negotiator",
+    "skills/mediation",
+    "skills/mediation-analysis",
     "skills/mediation-arbitration-statement",
     "skills/mediation-brief",
+    "skills/people-mediator",
     "skills/sports-law-cases"
   ]
 }

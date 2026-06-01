@@ -1,0 +1,14 @@
+{
+  "name": "kr-regulatory",
+  "displayName": "Regulatory & Compliance — KR",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for KR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "kr",
+  "practice": "regulatory",
+  "language": "ko",
+  "skills": [
+    "skills/compliance-check-modu-ai"
+  ]
+}

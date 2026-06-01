@@ -1,0 +1,21 @@
+{
+  "name": "cross-jurisdiction-antitrust",
+  "displayName": "Antitrust & Competition — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "antitrust",
+  "language": "de",
+  "skills": [
+    "skills/alternative-marktdefinition-weit",
+    "skills/eu-bekanntmachung-marktdefinition-2024",
+    "skills/europarecht-wettbewerb-kartell",
+    "skills/fusionskontrolle-modus",
+    "skills/marktabgrenzung-kontextanalyse",
+    "skills/potenzieller-wettbewerb-marktzutritt",
+    "skills/raeumlicher-markt-abgrenzung",
+    "skills/ssnip-test-anwendung"
+  ]
+}

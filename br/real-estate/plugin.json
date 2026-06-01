@@ -1,0 +1,23 @@
+{
+  "name": "br-real-estate",
+  "displayName": "Real Estate — BR",
+  "version": "0.1.0",
+  "description": "Real Estate skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "real-estate",
+  "language": "pt",
+  "skills": [
+    "skills/gerador-contrato-locacao-preview",
+    "skills/leiloeiro-edital",
+    "skills/leiloeiro-edital-foolhardy45",
+    "skills/leiloeiro-edital-ranbot-ai",
+    "skills/leiloeiro-edital-sansar35",
+    "skills/leiloeiro-edital-sickn33",
+    "skills/leiloeiro-ia",
+    "skills/leiloeiro-ia-henryalouf",
+    "skills/leiloeiro-ia-sickn33",
+    "skills/leiloeiro-risco"
+  ]
+}

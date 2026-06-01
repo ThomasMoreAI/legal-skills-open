@@ -1,0 +1,22 @@
+{
+  "name": "cn-ip",
+  "displayName": "Intellectual Property — CN",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "ip",
+  "language": "zh",
+  "skills": [
+    "skills/chinese-copyright-application",
+    "skills/chinese-copyright-application-okooo5km",
+    "skills/copyright-docs",
+    "skills/paper-to-cn-patent",
+    "skills/paper2patent",
+    "skills/patent-architect",
+    "skills/patent-architect-sunchendd",
+    "skills/software-copyright",
+    "skills/trademark-assistant"
+  ]
+}

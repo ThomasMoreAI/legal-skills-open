@@ -1,0 +1,14 @@
+{
+  "name": "pl-commercial",
+  "displayName": "Commercial — PL",
+  "version": "0.1.0",
+  "description": "Commercial skills for PL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "commercial",
+  "language": "pl",
+  "skills": [
+    "skills/reviewing-b2b-service-contract"
+  ]
+}

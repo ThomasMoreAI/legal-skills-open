@@ -1,0 +1,14 @@
+{
+  "name": "br-litigation",
+  "displayName": "Litigation — BR",
+  "version": "0.1.0",
+  "description": "Litigation skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "litigation",
+  "language": "pt",
+  "skills": [
+    "skills/leiloeiro-juridico-sickn33"
+  ]
+}

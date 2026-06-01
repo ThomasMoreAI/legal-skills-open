@@ -1,0 +1,76 @@
+---
+name: related-skills-surfacer-zhou210712
+title: /related-skills-surfacer
+description: 基于其他插件中的近期活动推荐社区技能。检查社区是否已构建了与某任务 相关的内容，并以非侵入方式提及一次。当用户说"这个有没有社区技能" "还有什么可用的"或询问技能推荐时使用；也作为其他插件工作流的被动环节运行。
+author: zhou210712
+author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-builder-hub/skills/related-skills-surfacer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: zh
+---
+
+# /related-skills-surfacer
+
+1. 加载 `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → 实践画像。
+2. 使用以下工作流。
+3. 检查其他插件最近在做什么。与注册表进行匹配。
+4. 建议："你一直在做 X — 社区有一个关于 Y 的技能与之相关。"
+
+---
+
+## 目的
+
+社区可能已经构建了你正要构建的东西。本技能注意到它并提及——一次、简短、不烦人。
+
+## 如何运行
+
+本技能在任务完成后浮现相关社区技能。用户可以主动调用（"X 方面还有什么可用的？"），或通过 Stop hook 接入其他插件——基于 hook 的模式要求每个兄弟插件声明一个调用本技能的 Stop hook，默认不接线。无 hook 接线时直接调用。
+
+其他插件可以在任务末尾包含一个轻量检查：
+> "legal-builder-hub 发现了一个可能对此类工作有帮助的社区技能：[名称] — [一句话描述]。想看看吗？"
+
+## 加载上下文
+
+`~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → 实践画像、已安装技能（不推荐已安装的内容）。
+来自 registry-browser 的注册表缓存。
+
+## 匹配
+
+给定任务描述（用户刚刚在做什么），查找匹配的注册表技能：
+
+- 任务与技能描述之间的关键词重叠
+- 实践画像匹配（不向交易律师推荐诉讼技能）
+- 尚未安装
+
+**阈值：** 仅在匹配度强时才浮现。弱匹配是噪音。宁愿什么都不浮现也不愿烦扰用户。
+
+## 输出
+
+如果强匹配：
+> 💡 社区有一个针对此的技能：**[名称]** 来自 [注册表] — "[描述]"。`/legal-builder-hub:skill-installer [名称]` 来试用。
+
+如果无强匹配：静默。无输出。不要宣告"我什么都没找到。"
+
+## 频率限制
+
+不对同一技能浮现两次。如果用户第一次没有安装，说明他们看到了并决定不要。在 `references/surfaced.json` 中追踪已驳回项。
+
+## 用户控制
+
+根据 `~/.claude/plugins/config/claude-for-legal/legal-builder-hub/CLAUDE.md` → 新技能通知设置：
+- **全部：** 浮现任何匹配
+- **匹配实践画像：** 按画像过滤（默认）
+- **无：** 本技能关闭
+
+## 以下一步决策树收尾
+
+以 CLAUDE.md `## Outputs` 中规定的下一步决策树结尾。根据本技能刚刚产出的内容自定义选项——五个默认分支（起草 X、升级、获取更多事实、观察等待、其他）是起点，不是锁死。树是输出；律师选择。
+
+## 本技能不做什么
+
+- 安装任何东西。
+- 中断进行中的任务。浮现发生在任务**结束**时，而非中间。
+- 反复提醒。每个技能只提一次。

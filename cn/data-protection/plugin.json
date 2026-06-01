@@ -1,0 +1,15 @@
+{
+  "name": "cn-data-protection",
+  "displayName": "Data Protection — CN",
+  "version": "0.1.0",
+  "description": "Data Protection skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/china-pipl",
+    "skills/china-pipl-onfire7777"
+  ]
+}

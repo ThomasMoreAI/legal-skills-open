@@ -1,0 +1,21 @@
+{
+  "name": "de-construction",
+  "displayName": "Construction Law — DE",
+  "version": "0.1.0",
+  "description": "Construction Law skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "construction",
+  "language": "de",
+  "skills": [
+    "skills/fachanwalt-bau-architektenrecht-abnahme-mit-vorbehalt",
+    "skills/fachanwalt-bau-architektenrecht-bauablauf-vbg",
+    "skills/fachanwalt-bau-architektenrecht-orientierung",
+    "skills/fachanwalt-bau-architektenrecht-werkmangel-pruefen",
+    "skills/mandat-triage-bau-architektenrecht",
+    "skills/nachtragsmanagement-650b",
+    "skills/stellplatzsatzung-bay-bauordnung",
+    "skills/werkmangel-vob-bgb-pruefen"
+  ]
+}

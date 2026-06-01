@@ -1,0 +1,14 @@
+{
+  "name": "gb-contracts",
+  "displayName": "Contracts — GB",
+  "version": "0.1.0",
+  "description": "Contracts skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/slo-legal"
+  ]
+}

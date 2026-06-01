@@ -1,0 +1,104 @@
+---
+name: klageentwurf-amtsgericht
+title: Klageentwurf zum Amtsgericht (Mietsache)
+description: Beide Rollen — entwirf eine Klageschrift zum Amtsgericht in einer Mietsache. Sachliche Zuständigkeit für Wohnraummietsachen nach § 23 Nr. 2a GVG ohne Rücksicht auf den Streitwert; bei Geschäftsraummiete allgemeine AG-Grenze nach § 23 Nr. 1 GVG zehntausend Euro ab 01.01.2026 durch das Gesetz zur Stärkung der Amtsgerichte in Zivilsachen; davor fünftausend Euro. Örtliche Zuständigkeit am Belegenheitsort der Mietsache (§ 29a ZPO). Streitwertberechnung Anträge Sachverhalt rechtliche Würdigung Beweisangebote und formgerechte Anlagen. Kein Anwaltszwang vor dem Amtsgericht aber dringende Empfehlung anwaltlicher Prüfung. Disclaimer mehrfach.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/klageentwurf-amtsgericht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Klageentwurf zum Amtsgericht (Mietsache)
+
+## Disclaimer (Schlüsselstelle, mehrfach)
+
+Eine Klageschrift ist ein Rechtsschriftsatz mit erheblichen Konsequenzen (Gerichtskosten, Anwaltskosten, Präklusion verspäteten Vortrags). Dieser Entwurf ist **kein Ersatz für anwaltliche Vertretung**. Vor Einreichung ist eine fachanwaltliche Prüfung dringend empfohlen. In Mietsachen vor dem Amtsgericht besteht zwar **kein Anwaltszwang** (§ 78 ZPO e contrario), die rechtlichen Risiken sind aber dennoch hoch.
+
+## Workflow
+
+### Schritt 1 — Sachliche Zuständigkeit
+
+- **Wohnraummietsachen** — Amtsgericht ist nach § 23 Nr. 2a GVG zuständig für Streitigkeiten aus Mietverhältnissen über Wohnraum **ohne Rücksicht auf den Streitwert**.
+- **Geschäftsraummiete** — allgemeine Streitwertgrenze des § 23 Nr. 1 GVG: AG bis **zehntausend Euro** ab dem 01.01.2026 durch das Gesetz zur Stärkung der Amtsgerichte in Zivilsachen (Bundesrat-Billigung 21.11.2025, Inkrafttreten 01.01.2026); darüber LG (§ 71 GVG). Übergangsregelung: Für vor dem 01.01.2026 anhängig gewordene Verfahren bleibt die alte Wertgrenze von fünftausend Euro maßgeblich. Quelle: BRAK-Nachrichten 24/2025 vom 26.11.2025. Anwaltszwang vor dem Landgericht greift ebenfalls erst ab zehntausend Euro Streitwert; die Berufungsbeschwer in § 511 Abs. 2 Nr. 1 ZPO wurde zugleich von 600 Euro auf 1.000 Euro angehoben.
+- Streitwert ist in jedem Fall zu berechnen (für Kosten und Berufungssumme).
+
+### Schritt 2 — Örtliche Zuständigkeit (§ 29a ZPO)
+
+- Ausschließlich das Gericht des Ortes, an dem sich die **Mietsache befindet** (Belegenheitsort).
+- Keine Abweichung durch Gerichtsstandsvereinbarung möglich (§ 40 Abs. 2 ZPO).
+
+### Schritt 3 — Streitwertberechnung
+
+- **Zahlungsklage** Nennbetrag der geforderten Summe.
+- **Klage auf Zustimmung zur Mieterhöhung** Jahresbetrag des Erhöhungsbetrags (§ 41 Abs. 5 GKG).
+- **Klage auf Mietsenkung / Mietpreisbremse** Jahresbetrag der streitigen Differenz (§ 41 Abs. 5 GKG analog).
+- **Raeumungsklage** Jahresnettomiete (§ 41 Abs. 2 GKG).
+- **Klage auf Belegeinsicht** Bruchteil der streitigen Abrechnung (Schätzung nach § 3 ZPO).
+
+### Schritt 4 — Anträge formulieren
+
+- Eindeutig, vollstreckbar.
+- Hauptantrag, Hilfsanträge, Kostenantrag, Vorläufige-Vollstreckbarkeits-Antrag.
+
+### Schritt 5 — Sachverhalt
+
+- Parteien, Mietvertrag, Mietsache, streitiger Vorgang chronologisch.
+- Belege als Anlagen (K1, K2, K3 ...).
+
+### Schritt 6 — Rechtliche Würdigung
+
+- Anspruchsgrundlage benennen (§§ BGB, BetrKV, HeizkostenV).
+- Subsumtion knapp.
+- Bei Mietspiegelfällen: Bezugnahme auf den amtlichen Mietspiegel aus `references/mietspiegel-quellen.md`.
+
+### Schritt 7 — Beweisangebote
+
+- Zeugen mit ladungsfähiger Anschrift.
+- Sachverständigengutachten (§ 144 ZPO).
+- Augenschein (§ 371 ZPO).
+- Urkundenbeweis durch beigefügte Anlagen.
+
+### Schritt 8 — Anlagen
+
+- Mietvertrag.
+- Streitige Schreiben (Mieterhöhung, Abrechnung, Ruege).
+- Mietspiegelauszug (falls erforderlich).
+- Lage- und Ausstattungsprotokoll.
+
+## Gliederungsmuster der Klageschrift
+
+1. Kopf (Gericht, Aktenzeichen, Parteien, Bevollmächtigte).
+2. Anträge.
+3. Begründung — Sachverhalt.
+4. Begründung — Rechtliche Würdigung.
+5. Beweisangebote.
+6. Kostenantrag.
+7. Antrag auf vorläufige Vollstreckbarkeit (§ 708 Nr. 11 ZPO).
+8. Anlagen.
+
+## Vor Einreichung (Disclaimer wiederholt)
+
+Vor Einreichung beim Amtsgericht ist diese Klageschrift durch einen Fachanwalt für Mietrecht zu prüfen. Versäumte Tatsachen, falsche Anspruchsgrundlagen oder formale Fehler können zur Klageabweisung und Kostenlast führen. Diese Auto-Erstellung ersetzt nicht die anwaltliche Vertretung.
+
+## Aktuelle Rechtsprechung — Leitsaetze
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Paragrafenkette
+
+- Sachliche Zustaendigkeit: § 23 Nr. 2a GVG (Wohnraum), § 71 GVG (LG)
+- Oertliche Zustaendigkeit: § 29a ZPO
+- Streitwert: §§ 41, 48 GKG, § 3 ZPO
+- Vollstreckbarkeit: §§ 708 ff. ZPO
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Audit-Hinweis
+
+Audit durchgefuehrt am 27.05.2026. Drei halluzinierte Aktenzeichen im Abschnitt "Aktuelle Rechtsprechung" geprueft und korrigiert:
+- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

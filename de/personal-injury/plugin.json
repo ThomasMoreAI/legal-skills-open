@@ -1,0 +1,19 @@
+{
+  "name": "de-personal-injury",
+  "displayName": "Personal Injury & Torts — DE",
+  "version": "0.1.0",
+  "description": "Personal Injury & Torts skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "personal-injury",
+  "language": "de",
+  "skills": [
+    "skills/aufklaerungsfehler-beweisstrategie",
+    "skills/behandlungsfehler-anspruch-pruefen",
+    "skills/fachanwalt-medizinrecht-aufklaerungsfehler",
+    "skills/fachanwalt-medizinrecht-behandlungsfehler-pruefen",
+    "skills/unfall-haftungsquote-berechnen",
+    "skills/verkehrsunfall"
+  ]
+}

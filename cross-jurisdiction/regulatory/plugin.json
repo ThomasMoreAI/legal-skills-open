@@ -9,9 +9,28 @@
   "practice": "regulatory",
   "language": "en",
   "skills": [
+    "skills/agency-legal-compliance-checker",
+    "skills/agency-legal-compliance-checker-2",
+    "skills/agency-legal-compliance-checker-mk-knight23",
+    "skills/ai-regulatory-mapper",
+    "skills/aussenwirtschaft-sanktionen-embargos",
     "skills/aviation-law-summary",
+    "skills/ce-regulatory-compliance",
+    "skills/compliance-auditor-belokonm",
+    "skills/compliance-mapping",
+    "skills/compliance-mapping-community-access",
     "skills/cultural-heritage-summary",
+    "skills/customs-trade-compliance",
+    "skills/de-eu-recht-abgrenzung",
+    "skills/eu-nis2-expert",
+    "skills/europarecht-vorrang-unmittelbare-wirkung",
+    "skills/europarechtskonformitaet",
+    "skills/geldwaesche-sanktionsscreening",
     "skills/heritage-protection-summary",
-    "skills/new-designation-screening-test-amir-fadavi"
+    "skills/ksb-d07-k0033",
+    "skills/new-designation-screening-test-amir-fadavi",
+    "skills/reg-gap-analysis",
+    "skills/regulatory-guard",
+    "skills/sanktions-compliance-pruefung"
   ]
 }

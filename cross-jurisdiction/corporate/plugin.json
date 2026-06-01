@@ -1,0 +1,23 @@
+{
+  "name": "cross-jurisdiction-corporate",
+  "displayName": "Corporate — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Corporate skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/grosskanzlei-corporate-ma-translations-multijurisdictional",
+    "skills/lex",
+    "skills/lex-diegosouzapw",
+    "skills/lex-ignvvcio254",
+    "skills/lex-luokai0",
+    "skills/lex-newmindsgroup",
+    "skills/lex-sansar35",
+    "skills/lex-sickn33",
+    "skills/lex-v2",
+    "skills/mittelstand-corporate-ma-translations-multijurisdictional"
+  ]
+}

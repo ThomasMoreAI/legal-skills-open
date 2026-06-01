@@ -1,0 +1,96 @@
+---
+name: parteivortrag-gegenueberstellung
+title: Parteivortrag — Gegenüberstellung
+description: Erstellt eine Tabelle mit zwei Spalten (Klaegerseite und Beklagtenseite) für streitige Sachverhaltsangaben Punkt für Punkt. Jeder Streitpunkt wird als eigene Zeile gegenübergestellt. Fundstellen in Schriftsaetzen werden angegeben. Keine Wertung welcher Vortrag zutreffend ist. Massstab §§ 138 286 ZPO.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/parteivortrag-gegenueberstellung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Parteivortrag — Gegenüberstellung
+
+## Zweck
+
+Die Parteivortrag-Tabelle stellt streitige Sachverhaltsangaben der Kläger- und der Beklagtenseite Punkt für Punkt gegenüber. Sie ermöglicht dem Anwalt, auf einen Blick zu erkennen, was tatsächlich streitig ist und was als unstreitig gilt.
+
+## Triage — kläre vor Erstellung
+
+1. Liegt bereits ein gerichtlicher Hinweis vor, was das Gericht für streitig und entscheidungserheblich hält?
+2. Hat das Gericht einen Beweisbeschluss erlassen? (Streitpunkte sind dann für Gericht bereits benannt)
+3. Welche Schriftsätze liegen vor? Klageerwiderung, Replik, Duplik?
+4. Gibt es Präklusionsrisiken (§§ 296, 531 ZPO) durch verspäteten Vortrag?
+
+## Zentrale Normen
+
+- § 138 ZPO — Erklärungspflicht über Tatsachen des Gegners (Wahrheitspflicht, substantiiertes Bestreiten)
+- § 286 ZPO — Freie Beweiswürdigung; Grundlage für Identifikation der streitigen Punkte
+- § 296 Abs. 1 ZPO — Präklusion verspäteten Vortrags in erster Instanz
+- § 531 Abs. 2 ZPO — Beschränktes Vorbringen neuer Angriffs- und Verteidigungsmittel in der Berufungsinstanz
+- § 139 ZPO — Richterliche Hinweispflicht; Gericht weist auf Lücken im Vortrag hin
+
+## Rechtsprechung zum Parteivortrag und Bestreiten
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Tabellenstruktur
+
+```markdown
+| Streitpunkt | Klägerseite | Beklagtenseite |
+|---|---|---|
+| [Bezeichnung des Streitpunkts] | [Vortrag Kläger] | [Vortrag Beklagter] |
+```
+
+## Kategorien von Streitpunkten
+
+- Vertragsinhalt (Leistungsumfang, Preis, Nebenabreden)
+- Tatsächliche Leistungserbringung (wer hat was wann geliefert / erbracht)
+- Mängel (ob Mangel vorliegt, wessen Ursache)
+- Kenntnis und Verschulden
+- Schaden und Schadenshöhe
+- Vorgerichtliche Kommunikation (wer hat was gesagt)
+- Fristen und Termine (Vereinbartes Lieferdatum etc.)
+
+## Beispiel
+
+| Streitpunkt | Klägerseite | Beklagtenseite |
+|---|---|---|
+| Leistungsumfang | Auftrag umfasste vollständige Schlüsselübergabe inkl. Einweisung (K 1 Bl. 12) | Einweisung war nicht vereinbart sondern nur Lieferung (B 1 Bl. 40) |
+| Mangel Dach | Dach war bei Abnahme undicht nachweislich Wassereintritt im Oktober (K 4 Bl. 26) | Undichtigkeit erst durch unsachgemäße Nutzung entstanden (B 3 Bl. 50) |
+| Verschulden | Beklagte kannte Mangel und schwieg (K 5 Bl. 29) | Kein Arglistvorwurf; Mangel war nicht erkennbar (B 4 Bl. 53) |
+| Schadenshöhe | Schaden EUR 45.000 belegt durch Gutachten (K 8 Bl. 60) | Überhöhte Schadensberechnung; tatsächlicher Schaden unter EUR 15.000 (B 6 Bl. 65) |
+
+## Unstreitige Punkte
+
+Unstreitige Sachverhaltselemente werden unterhalb der Tabelle als Block "Unstreitiger Sachverhalt" aufgeführt. Sie fließen nicht in die Streitpunkt-Tabelle ein.
+
+## Hinweise
+
+- Pro Zeile genau ein Streitpunkt — nicht mehrere Punkte in einer Zelle
+- Vortrag neutral wiedergeben (paraphrasieren, nicht werten)
+- Fundstelle in Schriftsatz oder Anlage angeben
+- Wenn eine Partei zu einem Punkt schweigt: "Kein Vortrag" in die entsprechende Zelle
+- Keine Prognose welcher Vortrag zutrifft
+
+## Qualitätscheck
+
+- [ ] Alle wesentlichen Streitpunkte erfasst?
+- [ ] Keine Wertung enthalten?
+- [ ] Fundstellen angegeben?
+- [ ] Unstreitiger Sachverhalt separat ausgewiesen?
+- [ ] Präkludierte Punkte (§§ 296 531 ZPO) als solche markiert?
+
+
+<!-- AUDIT 27.05.2026 bundle_055
+Halluzinations-Reparatur: BGH VII ZR 131/13 (WRONG_TOPIC) korrigiert.
+Echtes Thema laut dejure.org: Anforderungen an die Bestimmtheit eines Architektenvertrages
+Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Beschreibung entsprechend angepasst.
+-->

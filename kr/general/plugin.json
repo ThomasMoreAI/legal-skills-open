@@ -1,0 +1,19 @@
+{
+  "name": "kr-general",
+  "displayName": "General — KR",
+  "version": "0.1.0",
+  "description": "General skills for KR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "kr",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/korean-law",
+    "skills/korean-law-kipeum86",
+    "skills/korean-law-search",
+    "skills/law-search",
+    "skills/legal-ko-search",
+    "skills/legal-ko-zmd"
+  ]
+}

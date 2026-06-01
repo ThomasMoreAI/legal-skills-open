@@ -1,0 +1,70 @@
+---
+name: policy-qa
+title: policy-qa
+description: Analyzes trust business data by parsing JSON inputs, applying rule-based risk identification, and generating structured reports with flagged items for human review. Use for trust scenario compliance screening and preliminary risk assessment.
+author: aifinlab
+author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/trust-policy-qa
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: trusts-and-estates
+language: zh
+---
+
+# policy-qa
+
+## 概述
+
+本技能用于信托业务场景的结构化处理，支持数据解析、规则识别与报告输出。
+
+## 输入要求
+
+- 支持 JSON 数组或 JSONL
+- 建议字段：`id`, `name`, `text`, `status`, `timestamp`，以及场景相关业务字段
+
+## 工作流程
+
+1. 明确业务口径与目标
+2. 读取并清洗输入数据
+3. 执行规则分析与风险识别
+4. 输出结构化结果并标注复核事项
+5. 人工复核后进入正式流程
+
+## 执行方式
+
+```bash
+python scripts/analyze.py --input input.json --output report.md
+```
+
+## 输出结构
+
+1. 样本概览（数量、等级分布）
+2. 重点条目（分值、命中原因）
+3. 风险提示与复核建议
+4. 免责声明
+
+## 质量要求
+
+- 事实与判断分离
+- 规则命中可追溯
+- 保留自动生成需人工复核声明
+- 不输出投资建议、授信决策或法律最终意见
+
+## 使用示例
+
+### 示例 1: 基本使用
+
+```python
+# 调用 skill
+result = run_skill({
+    "param1": "value1",
+    "param2": "value2"
+})
+```
+
+### 示例 2: 命令行使用
+
+```bash
+python scripts/run_skill.py --input data.json
+```

@@ -1,0 +1,29 @@
+{
+  "name": "de-commercial",
+  "displayName": "Commercial — DE",
+  "version": "0.1.0",
+  "description": "Commercial skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "commercial",
+  "language": "de",
+  "skills": [
+    "skills/agb-haendlervertrag-luxus",
+    "skills/ausschluss-817-bgb-gesetzes-und-sittenverstoss",
+    "skills/fachanwalt-handels-gesellschaftsrecht-handelsvertreterausgleich",
+    "skills/fachanwalt-transport-speditionsrecht-ladungsschaden",
+    "skills/fachanwalt-transport-speditionsrecht-lieferverzug",
+    "skills/fachanwalt-transport-speditionsrecht-orientierung",
+    "skills/falsche-wiese-warnung-bereicherung-anfechtung",
+    "skills/frachtfuehrerhaftung-pruefen",
+    "skills/konkurrenz-bereicherung-anfechtung-und-vindikation",
+    "skills/mahnschreiben-entwurf",
+    "skills/mandat-triage-iwr",
+    "skills/mandat-triage-transport-speditionsrecht",
+    "skills/reklamationsschreiben-cmr-hgb",
+    "skills/softwarefehler-mangelhaftung-pruefen",
+    "skills/verfuegung-eines-nichtberechtigten-816-bgb",
+    "skills/vorlage-vendor-onboarding-3d"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-personal-injury",
+  "displayName": "Personal Injury & Torts — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Personal Injury & Torts skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "personal-injury",
+  "language": "en",
+  "skills": [
+    "skills/harvester-query"
+  ]
+}

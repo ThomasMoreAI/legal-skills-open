@@ -1,0 +1,15 @@
+{
+  "name": "at-data-protection",
+  "displayName": "Data Protection — AT",
+  "version": "0.1.0",
+  "description": "Data Protection skills for AT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "data-protection",
+  "language": "de",
+  "skills": [
+    "skills/arckit-at-dsgvo",
+    "skills/transparenz-check"
+  ]
+}

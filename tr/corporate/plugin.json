@@ -1,0 +1,14 @@
+{
+  "name": "tr-corporate",
+  "displayName": "Corporate — TR",
+  "version": "0.1.0",
+  "description": "Corporate skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "corporate",
+  "language": "tr",
+  "skills": [
+    "skills/cold-start-interview-17"
+  ]
+}

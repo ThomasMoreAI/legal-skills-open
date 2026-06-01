@@ -1,0 +1,16 @@
+{
+  "name": "es-data-protection",
+  "displayName": "Data Protection — ES",
+  "version": "0.1.0",
+  "description": "Data Protection skills for ES (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "data-protection",
+  "language": "es",
+  "skills": [
+    "skills/eipd",
+    "skills/gap",
+    "skills/rat"
+  ]
+}

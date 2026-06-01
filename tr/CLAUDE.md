@@ -1,0 +1,6 @@
+# Cross-cutting context: TR legal system
+
+<!-- DRAFT: автогенерация харвестера, требует ревью куратора -->
+
+Orchestrator cold-start for any plugin under `tr/`. Fill in: legal family,
+sources of law by priority, citation discipline, and the mandatory output disclaimer.

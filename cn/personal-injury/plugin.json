@@ -1,0 +1,14 @@
+{
+  "name": "cn-personal-injury",
+  "displayName": "Personal Injury & Torts — CN",
+  "version": "0.1.0",
+  "description": "Personal Injury & Torts skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "personal-injury",
+  "language": "zh",
+  "skills": [
+    "skills/traffic-accident-assessor"
+  ]
+}

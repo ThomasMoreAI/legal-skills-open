@@ -1,0 +1,15 @@
+{
+  "name": "gb-corporate",
+  "displayName": "Corporate — GB",
+  "version": "0.1.0",
+  "description": "Corporate skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/corporate-registry-investigation",
+    "skills/slo-equity"
+  ]
+}

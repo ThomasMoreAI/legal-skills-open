@@ -1,0 +1,97 @@
+---
+name: grosskanzlei-corporate-ma-ki-governance-berufsrecht
+title: KI-Governance und Berufsrecht
+description: 'KI-Einsatz im Transaktionsmandat berufsrechtlich absichern: Anwendungsfall Anwalt moechte KI-Tools für Datenraumanalyse oder Vertragsentwurf nutzen und muss Mandatsgeheimnis, Datenschutz und KI-VO-Betreiberpflichten einhalten. § 43a BRAO Verschwiegenheit, § 43e BRAO IT-Dienstleister, Art. 4 KI-VO KI-Kompetenz. Prüfraster Datenklassen-Kategorisierung, Need-to-know, Pseudonymisierung, AVV-Prüfung, Mandantenfreigabe, Halluzinations-Kontrolle. Output Berufsrechts-Compliance-Protokoll für KI-Nutzung im Mandat. Abgrenzung zu Datenqualitaet-XAI-Qualitaetskontrolle und zu Konflikt-GwG-Check.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grosskanzlei-corporate-ma/skills/grosskanzlei-corporate-ma-ki-governance-berufsrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# KI-Governance und Berufsrecht
+
+## Zweck
+
+Prüft KI-Einsatz im Transaktionsmandat unter Mandatsgeheimnis, Need-to-know, Datenschutz, KI-VO, Dienstleistereinsatz und Mandantenfreigabe.
+
+## Arbeitsmodus
+
+
+**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+
+- Datenklassen und erlaubte Tools erfassen.
+- Need-to-know, Pseudonymisierung, AVV/TOMs und Verschwiegenheit dokumentieren.
+- Ungeprüfte KI-Outputs und menschliche Validierung trennen.
+- Mandantenhinweise und interne Freigaben vorbereiten.
+
+## Rote Schwellen
+
+- Mandatsgeheimnis im offenen Tool.
+- Kein Dienstleister-/AVV-Status.
+- KI-Output wird ohne Review nach außen gegeben.
+
+## Standardausgabe
+
+- Kurze Deal-Karte mit Phase, Rolle, Owner, Frist, Risiko, nächster Aktion und Freigabegrad.
+- Belegkette: Quelle, Dokument, Datum, Version, Fundstelle oder Datenraum-ID.
+- Offene Punkte als `TODO` mit Owner und Eskalationsstufe.
+- Bei hohem Risiko immer Human-in-the-loop und Senior Review verlangen.
+
+## Übergabe an andere Skills
+
+- Komplexe Eingänge zuerst an `grosskanzlei-corporate-ma-kommandocenter` zurückspielen.
+- Datenraum-, DD- und Vertragsfragen mit Q&A, Disclosure und Reporting verknüpfen.
+- Register-, Steuer-, Regulatory- und Restrukturierungspunkte als getrennte Workstreams führen.
+
+## Strategische Optionen (vor dem Template entscheiden)
+
+Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+
+| Konstellation | Empfohlener Weg |
+|---|---|
+| Standard — KI-Governance-Baustein fuer Kanzlei-Berufsrecht erstellen | Governance-Vorlage nach Schema; Template unten |
+| Variante A — Kleinere Kanzlei keine eigene IT-Abteilung | Vereinfachte Governance ohne technische Detail-Spezifikationen |
+| Variante B — Internationales Buero auslaendisches Recht relevant | Jurisdiktion-spezifische Anpassungen erfordern separate Pruefung |
+| Variante C — Bestehende Richtlinie aktualisieren nicht neu erstellen | Delta-Update statt Neuerstellung; nur geaenderte Stellen anpassen |
+
+Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+
+
+## Vorlagen
+
+- assets/templates/ai-use-disclosure-log.md
+- assets/templates/confidentiality-need-to-know-log.md
+
+--- vor Versand klaeren ---
+1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
+2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
+3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
+
+Schlussabsatz Variante A (kooperativ):
+Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+
+Schlussabsatz Variante B (formal-streng):
+Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+
+
+## Rechtliche Einbettung und Praxiswissen
+
+### Normen und Quellen im M&A-Kontext
+- § 43a BRAO — anwaltliche Pflichten: Sorgfalt, Vollstaendigkeit, Unabhaengigkeit
+- §§ 675, 280 BGB — Beraterhaftung bei Pflichtverletzung
+- § 17 GeschGehG — Schutz von Geschaeftsgeheimnissen; gilt fuer alle Mandatsinhalte
+- Art. 17 MAR — bei boersennotierten Zielobjekten: Ad-hoc-Pflicht und Vertraulichkeit
+
+### Leitsaetze aus der Rechtsprechung
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+### Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+### Qualitaetssicherung
+- Human-in-the-loop bei allen hochrisikorelevanten Ausgaben
+- Dokumentation: Datum, Bearbeiter, Freigabe durch Senior
