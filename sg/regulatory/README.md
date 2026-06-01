@@ -1,5 +1,23 @@
-# Regulatory & Compliance — SG
+# Regulatory & Compliance — Singapore
 
-<!-- DRAFT: автогенерация харвестера, требует ревью куратора -->
+Sector regulation and compliance — authorisations, supervision, reporting, and enforcement.
 
-Plugin `sg-regulatory`. Skills live under `skills/<slug>/SKILL.md`.
+Jurisdiction: `sg` · Practice: `regulatory` · Skill language: en
+
+## Skills (1)
+
+| Skill | What it does |
+|---|---|
+| [`Singapore MAS TRM Expert`](skills/sg-mas-trm-expert/) | Singapore MAS Technology Risk Management Guidelines expert. Reference-depth framework plugin with scope dete… |
+
+## Cold-start context
+
+See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
+
+## Provenance & license
+
+Skills imported from open sources indexed by [skillsmp](https://skillsmp.com); see each `SKILL.md` `author` / `author_url` for provenance and `license` for terms.
+
+## Disclaimer
+
+These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
