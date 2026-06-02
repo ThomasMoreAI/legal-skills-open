@@ -1,0 +1,33 @@
+{
+  "name": "de-environmental",
+  "displayName": "Environmental Law — DE",
+  "version": "0.1.0",
+  "description": "Environmental Law skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "environmental",
+  "language": "de",
+  "skills": [
+    "skills/artenschutz-naturschutz-planung",
+    "skills/buergerversammlung-protokoll-audit",
+    "skills/energieanlagen-bimschg-genehmigung-verfahren",
+    "skills/energierecht-waerme-quartier",
+    "skills/energietrassen-planfeststellung-rechtsschutz",
+    "skills/fachanwalt-agrarrecht-duenge-ordnungswidrigkeit",
+    "skills/klimaklagen-verbandsklage-umwrg",
+    "skills/umweltbericht-umweltpruefung",
+    "skills/umweltrecht-abfall-circular-economy",
+    "skills/umweltrecht-bussgeld-sanktionen",
+    "skills/umweltrecht-compliance-schulung",
+    "skills/umweltrecht-emissionshandel-tehg",
+    "skills/umweltrecht-immissionsschutz-bimschg",
+    "skills/umweltrecht-kommandocenter",
+    "skills/umweltrecht-naturschutz-artenschutz",
+    "skills/umweltrecht-stoerfall-anlagen",
+    "skills/umweltrecht-transaktionen-dd",
+    "skills/umweltrecht-umweltinformation-uig-ifg",
+    "skills/umweltrecht-verfahren",
+    "skills/umweltrecht-wasser-bodenschutz"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cn-litigation",
+  "displayName": "Litigation — CN",
+  "version": "0.1.0",
+  "description": "Litigation skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "litigation",
+  "language": "zh",
+  "skills": [
+    "skills/02",
+    "skills/02-lyronlee",
+    "skills/court-sms",
+    "skills/evidence-authenticity-review",
+    "skills/legal-hold-zhou210712",
+    "skills/litigation-analysis-qcc",
+    "skills/privilege-log-review-zhou210712",
+    "skills/wechat-query-realname-info",
+    "skills/yd-case-search"
+  ]
+}

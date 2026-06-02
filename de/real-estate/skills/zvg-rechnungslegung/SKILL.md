@@ -1,0 +1,121 @@
+---
+name: zvg-rechnungslegung
+title: Rechnungslegung
+description: Jahresrechnung und Schlussrechnung des Zwangsverwalters nach § 161 ZVG. Anwendungsfall Rechnungslegungsperiode ist abgelaufen und Jahres- oder Schlussrechnung muss für Gericht erstellt werden. Normen § 161 ZVG Rechnungslegungspflicht § 155 ZVG Einnahmen Ausgaben § 10 ZVG Rangklassen. Prüfraster Jahresrechnung Schlussrechnung Endabrechnung Einnahme-Ausgaben-Rechnung Soll-Ist Belege Salden Verteilung. Output Gerichtsfähige Rechnungslegung mit Saldouebersicht Belegverzeichnis und Verteilungsnachweis. Abgrenzung zu zvg-konten-kassenführung (laufend) und zvg-verteilungsplan-155.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zwangsverwaltung-zvg/skills/zvg-rechnungslegung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Rechnungslegung
+
+## Aufgabe
+
+Erstellt prüffähige Jahresrechnung, Schlussrechnung und Endabrechnung nach ZwVwV.
+
+Der Skill arbeitet freistehend. Er setzt keine anderen Plugins voraus. Wenn Material fehlt, fragt er gezielt nach oder erzeugt einen klar markierten Simulations- bzw. Platzhalterstand.
+
+## Startet bei
+
+- Kalenderjahr endet
+- Zwangsverwaltung aufgehoben wird
+- Gericht oder Beteiligte Auskunft verlangen
+
+## Eingaben
+
+- Kontoauszüge, Belege, Buchungsjournal
+- Rent Roll, Anfangssaldo, Schlussbestand
+- Vergütung, Gerichtskosten, Zahlungen an Gläubiger
+
+## Workflow
+
+1. **Daten schließen** - Zeitraum, Anfangsbestand, Endbestand, Kontoauszüge und Belege festlegen.
+2. **Gliedern** - Soll-/Isteinnahmen und Ausgaben nach ZwVwV-Konten darstellen.
+3. **Prüfen** - Saldo, Belege, USt-Option und Einzelbuchungen abgleichen.
+4. **Einreichen** - Jahresrechnung, Schlussrechnung oder Endabrechnung mit Anlagen erstellen.
+
+## Ausgabe
+
+- Jahresrechnung
+- Schlussrechnung
+- Endabrechnung mit Belegliste
+
+## Qualitätsgates
+
+- Saldo rechnerisch stimmig
+- Soll-Ist vollständig
+- Umsatzsteuer gesondert, falls Option
+
+## Rote Schwellen
+
+- Konto nicht auf Null bei Endabrechnung
+- fehlende Belege
+- ungeklärter Anfangsbestand
+
+## Interne Vorlagen
+
+- assets/templates/rechnungslegung.md
+- assets/templates/konto-kassenbuch.md
+
+## Amtliche Erstquellen
+
+- § 14 ZwVwV
+- § 15 ZwVwV
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Paragrafenkette Rechnungslegung
+
+§ 152 ZVG (Verwalterpflichten) → § 154 ZVG (Gerichtsaufsicht) → § 14 ZwVwV (Jahresrechnung) → § 15 ZwVwV (Schlussrechnung) → § 155 ZVG (Verteilungsplan) → § 675 BGB (Rechenschaftspflicht Geschäftsbesorger) → § 667 BGB (Herausgabe)
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Triage Rechnungslegung
+
+1. Jahresrechnung oder Schlussrechnung? (Jahresrechnung nach § 14 ZwVwV / Schlussrechnung bei Aufhebung)
+2. Liegen alle Kontoauszüge des Rechnungszeitraums lückenlos vor?
+3. Sind alle Einnahmen nach Nutzungsarten gegliedert? (Mieteinnahmen/Pachtzins/Sonstiges)
+4. Sind Ausgaben nach ZwVwV-Konten kategorisiert?
+5. Wird Umsatzsteuer ausgewiesen? (bei bestehender USt-Option)
+
+## Output-Template Jahresrechnung (Schema)
+
+```
+JAHRESRECHNUNG ZWANGSVERWALTUNG
+Objekt: [ADRESSE]
+AZ: [X]
+Rechnungszeitraum: 01.01.[JAHR] — 31.12.[JAHR]
+
+A. EINNAHMEN
+Sollmieten gesamt: [BETRAG]
+Tatsächlich eingezogen: [BETRAG]
+Rückstände: [BETRAG]
+Sonstige Einnahmen: [BETRAG]
+SUMME EINNAHMEN: [BETRAG]
+
+B. AUSGABEN
+Betriebskosten/Hausgeld: [BETRAG]
+Instandhaltung: [BETRAG]
+Öffentliche Lasten (Grundsteuer): [BETRAG]
+Versicherungen: [BETRAG]
+Verwaltervergütung (brutto): [BETRAG]
+Gerichtskosten: [BETRAG]
+Sonstiges: [BETRAG]
+SUMME AUSGABEN: [BETRAG]
+
+C. ERGEBNIS
+Überschuss/Fehlbetrag: [BETRAG]
+Anfangsbestand Treuhandkonto: [BETRAG]
+Endbestand Treuhandkonto: [BETRAG]
+
+Anlagen: Kontoauszüge K1-K[X], Belege A1-A[Y]
+[ORT, DATUM, UNTERSCHRIFT ZWANGSVERWALTER]
+```

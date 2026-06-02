@@ -1,0 +1,14 @@
+{
+  "name": "cn-construction",
+  "displayName": "Construction Law — CN",
+  "version": "0.1.0",
+  "description": "Construction Law skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "construction",
+  "language": "zh",
+  "skills": [
+    "skills/construction-mediation-kg"
+  ]
+}

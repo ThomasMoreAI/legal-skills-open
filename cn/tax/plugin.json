@@ -1,0 +1,14 @@
+{
+  "name": "cn-tax",
+  "displayName": "Tax — CN",
+  "version": "0.1.0",
+  "description": "Tax skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/tax-law-research"
+  ]
+}

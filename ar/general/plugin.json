@@ -1,0 +1,14 @@
+{
+  "name": "ar-general",
+  "displayName": "General — AR",
+  "version": "0.1.0",
+  "description": "General skills for AR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ar",
+  "practice": "general",
+  "language": "es",
+  "skills": [
+    "skills/ley-ar"
+  ]
+}

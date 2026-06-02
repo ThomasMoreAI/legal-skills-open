@@ -1,0 +1,15 @@
+{
+  "name": "fr-general",
+  "displayName": "General — FR",
+  "version": "0.1.0",
+  "description": "General skills for FR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "general",
+  "language": "fr",
+  "skills": [
+    "skills/legalfrance",
+    "skills/recherche-legislation"
+  ]
+}

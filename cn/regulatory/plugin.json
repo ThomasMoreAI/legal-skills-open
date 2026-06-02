@@ -1,0 +1,19 @@
+{
+  "name": "cn-regulatory",
+  "displayName": "Regulatory & Compliance — CN",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "regulatory",
+  "language": "zh",
+  "skills": [
+    "skills/ad-compliance-review",
+    "skills/admin-review",
+    "skills/asset-review",
+    "skills/compliance-review-jack4world",
+    "skills/food-label-review",
+    "skills/legal-compliance-search"
+  ]
+}

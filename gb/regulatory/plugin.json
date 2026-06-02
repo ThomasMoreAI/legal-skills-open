@@ -1,0 +1,14 @@
+{
+  "name": "gb-regulatory",
+  "displayName": "Regulatory & Compliance — GB",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/draft-british-statutory-instruments"
+  ]
+}

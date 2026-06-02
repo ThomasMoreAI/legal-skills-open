@@ -1,0 +1,25 @@
+{
+  "name": "cross-jurisdiction-contracts",
+  "displayName": "Contracts — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Contracts skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/common-law-begriffe-uebersetzung",
+    "skills/common-law-client-explainer",
+    "skills/common-law-contract-formation-consideration",
+    "skills/common-law-false-friends-scanner",
+    "skills/common-law-kommandocenter",
+    "skills/common-law-remedies-damages-equity",
+    "skills/common-law-representations-warranties-covenants",
+    "skills/common-law-simulation-negotiation",
+    "skills/common-law-ucc-sales-goods",
+    "skills/common-law-us-vs-uk-drafting",
+    "skills/contract-and-proposal-writer-borghei",
+    "skills/contract-and-proposal-writer-neekware"
+  ]
+}

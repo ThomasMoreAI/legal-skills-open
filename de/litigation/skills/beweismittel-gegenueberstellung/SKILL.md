@@ -1,0 +1,91 @@
+---
+name: beweismittel-gegenueberstellung
+title: Beweismittel — Gegenüberstellung
+description: 'Anwalt will Beweisangebote aller Parteien uebersichtlich gegenüberstellen: Zeugen Urkunden Sachverständige Parteivernehmung Augenschein. Normen §§ 355-455 ZPO Sachverständigenbeweis Zeugenbeweis. Prüfraster Vollständigkeit Parteizuordnung Streitpunkt-Zuordnung Fundstellen. Output tabellarische Beweismittel-Übersicht. Abgrenzung zu parteivortrag-gegenüberstellung (Sachverhalt) und rechtsargumente-gegenüberstellung (Recht).'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/beweismittel-gegenueberstellung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Beweismittel — Gegenüberstellung
+
+## Zweck
+
+Die Beweismitteltabelle listet alle in den Schriftsätzen angebotenen Beweismittel beider Parteien auf und ordnet sie den jeweiligen Beweisthemen zu. Sie ermöglicht einen schnellen Überblick über die Beweissituation.
+
+## Triage — kläre vor Erstellung
+
+1. Welche Beweismittel sind bereits erhoben (Gutachten vorgelegt, Zeugen vernommen)?
+2. Welche Beweismittel sind angeboten aber noch nicht erhoben?
+3. Hat das Gericht bereits über die Beweiserhebung entschieden? (Beweisbeschluss § 359 ZPO)
+4. Wurden Beweismittel vom Gericht als präkludiert zurückgewiesen (§§ 296, 531 ZPO)?
+
+## Zulässige Beweismittel und Normen (§ 355 ff. ZPO)
+
+- § 371 ff. ZPO — Augenscheinsbeweis (Besichtigung, Fotos, Videoaufnahmen)
+- § 373 ff. ZPO — Zeugenbeweis (Ladung, Vernehmung, Eid, Aussageverbot)
+- § 402 ff. ZPO — Sachverständigenbeweis (Bestellung, Gutachtenerstattung, Ablehnung)
+- § 415 ff. ZPO — Urkundenbeweis (öffentlich/privat, Echtheit, Beweiskraft)
+- § 445 ff. ZPO — Parteivernehmung (nur bei Unvollständigkeit anderer Beweismittel)
+
+## Rechtsprechung zum Beweisrecht
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Tabellenstruktur
+
+```markdown
+| Beweisthema | Beweismittel | Partei | Bezeichnung / Name | Fundstelle |
+|---|---|---|---|---|
+| [Streitpunkt] | [Art] | Kläger / Beklagter | [Name / Anlage] | [Schriftsatz Bl.] |
+```
+
+## Beispiel
+
+| Beweisthema | Beweismittel | Partei | Bezeichnung / Name | Fundstelle |
+|---|---|---|---|---|
+| Vertragsinhalt Einweisung | Urkunde | Kläger | Werkvertrag K 1 | Klageschrift Bl. 12 |
+| Mangel Dach | Zeuge | Kläger | Heiko Mustermann (Bauleiter) | Klageschrift Bl. 28 |
+| Mangel Dach | Sachverständiger | Kläger | Einholung eines Baugutachtens | Klageschrift Bl. 29 |
+| Ursache Undichtigkeit | Zeuge | Beklagter | Maria Musterfrau (Mitarbeiterin) | Klageerwiderung Bl. 52 |
+| Schadenshöhe | Urkunde | Kläger | Sanierungskostenrechnung K 8 | Replik Bl. 70 |
+| Schadenshöhe | Sachverständiger | Beklagter | Gegengutachten (beantragt) | Klageerwiderung Bl. 66 |
+
+## Besondere Hinweise
+
+### Urkundenbeweis
+
+Jede Urkunde wird mit ihrer Anlagenbezeichnung (K 1, B 1 etc.) und einem kurzen Inhaltsvermerk aufgeführt.
+
+### Zeugen
+
+Vollständiger Name (sofern bekannt), Eigenschaft (z. B. "Augenzeuge", "Vertragspartner", "Mitarbeiter"), benennende Partei.
+
+### Sachverständige
+
+Wird ein Gutachten beantragt (nicht bereits vorhanden), so ist das Beweisthema zu nennen. Liegt ein Gutachten bereits vor, wird das Gutachten als Urkunde und der Gutachter als gesondert aufgeführt.
+
+### Parteivernehmung
+
+Selten — nur wenn angeboten oder angeordnet. Partei und Vernehmungsthema benennen.
+
+### Präkludierte Beweismittel
+
+Soweit Beweismittel vom Gericht als verspätet zurückgewiesen wurden, werden sie mit dem Vermerk "[zurückgewiesen]" aufgeführt.
+
+## Qualitätscheck
+
+- [ ] Alle angebotenen Beweismittel erfasst?
+- [ ] Beweisthema klar bezeichnet?
+- [ ] Anlagenbezeichnung und Fundstelle angegeben?
+- [ ] Keine Bewertung der Beweiskraft?
+- [ ] Präkludierte Beweismittel gekennzeichnet?
+- [ ] Beweisbeschluss des Gerichts (§ 359 ZPO) berücksichtigt?

@@ -1,0 +1,14 @@
+{
+  "name": "pl-regulatory",
+  "displayName": "Regulatory & Compliance — PL",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for PL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/regdata-compliance"
+  ]
+}

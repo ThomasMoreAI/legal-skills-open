@@ -1,0 +1,14 @@
+{
+  "name": "jp-tax",
+  "displayName": "Tax — JP",
+  "version": "0.1.0",
+  "description": "Tax skills for JP (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "jp",
+  "practice": "tax",
+  "language": "ja",
+  "skills": [
+    "skills/tax-legal-context"
+  ]
+}

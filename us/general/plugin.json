@@ -9,8 +9,14 @@
   "practice": "general",
   "language": "en",
   "skills": [
+    "skills/citation-format",
+    "skills/legalsearchqa-eval",
     "skills/newsletter-summary",
+    "skills/notary-public",
     "skills/project-management-summary",
-    "skills/tax-return-summary"
+    "skills/research-start-lawdroidai",
+    "skills/statutory-analysis",
+    "skills/tax-return-summary",
+    "skills/vertical-legal"
   ]
 }

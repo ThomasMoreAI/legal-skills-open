@@ -9,6 +9,8 @@
   "practice": "construction",
   "language": "en",
   "skills": [
+    "skills/claims-documentation",
+    "skills/contract-clause-analyzer",
     "skills/epc-contract"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "name": "de-arbitration",
+  "displayName": "Arbitration & ADR — DE",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "arbitration",
+  "language": "de",
+  "skills": [
+    "skills/fachanwalt-internationales-wirtschaftsrecht-schiedsklausel",
+    "skills/fachanwalt-sportrecht-orientierung"
+  ]
+}

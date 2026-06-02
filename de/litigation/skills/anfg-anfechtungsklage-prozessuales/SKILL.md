@@ -1,0 +1,98 @@
+---
+name: anfg-anfechtungsklage-prozessuales
+title: Anfechtungsklage AnfG — Prozessuales
+description: 'Mandant hat vollstreckbaren Titel und will angefochtene Vermögensverschiebung gerichtlich angreifen: Anfechtungsklage nach AnfG erheben. Normen: §§ 2 11 13 AnfG, §§ 195 199 BGB. Prüfraster: Titel und Fristprüfung, Duldungs- vs. Wertersatzantrag, sachliche Zuständigkeit AG/LG, örtliche Zuständigkeit. Output: Klageantragsentwurf Duldungsurteil mit Hilfsantrag Wertersatz. Abgrenzung: nicht InsO-Anfechtung durch Insolvenzverwalter.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-anfechtungsklage-prozessuales
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Anfechtungsklage AnfG — Prozessuales
+
+## Triage — kläre vor Klageerhebung
+
+1. Liegt ein vollstreckbarer Titel gegen den Schuldner vor (§ 2 AnfG)?
+2. Ist die Verjährungsfrist nach §§ 195 199 BGB (3 Jahre) noch nicht abgelaufen?
+3. Ist der Streitwert für AG (bis EUR 5.000) oder LG (über EUR 5.000)?
+4. Wird Duldung (Regelfall) oder Wertersatz (bei Untergang des Gegenstands) beantragt?
+
+## Zentrale Normen
+
+- § 2 AnfG — Anfechtungsberechtigung (Titel, fällige Forderung, Fruchtlosigkeit)
+- § 11 AnfG — Rechtsfolge: Duldung der Zwangsvollstreckung
+- § 13 AnfG — Klage oder Widerspruch in der Zwangsvollstreckung
+- §§ 195 199 BGB — Regelmässige Verjährungsfrist 3 Jahre ab Kenntnis
+- §§ 23 71 GVG — Sachliche Zuständigkeit (AG unter EUR 5.000 / LG über EUR 5.000)
+- §§ 888 890 ZPO — Vollstreckung aus Duldungsurteil
+
+## Rechtsprechung (BGH — Leitsätze AnfG)
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Klageform
+
+Die Anfechtung nach dem AnfG kann nach § 13 AnfG durch Klage oder (in laufenden Vollstreckungsverfahren) durch Widerspruch gegen die Zwangsvollstreckung geltend gemacht werden.
+
+## Klagefrist und Verjährung
+
+Kein gesetzlich festgelegter Klagezwang; jedoch läuft die Verjährung des Anfechtungsanspruchs nach § 195 BGB in drei Jahren ab Kenntnis von Rechtshandlung und Anfechtungsgrund (§ 199 Abs. 1 BGB). Anfechtungsklage ist als verjährungshemmende Maßnahme zu verstehen.
+
+## Sachliche Zuständigkeit
+
+- Bis EUR 5.000: Amtsgericht (§ 23 Nr. 1 GVG).
+- Über EUR 5.000: Landgericht (§ 71 Abs. 1 GVG).
+- Die Zuständigkeit richtet sich nach dem Wert des angefochtenen Gegenstands.
+
+## Örtliche Zuständigkeit
+
+Allgemeiner Gerichtsstand des Anfechtungsgegners (§ 12 ZPO, §§ 13 17 ZPO). Kein besonderer Gerichtsstand im AnfG selbst.
+
+## Klageantrag — Tenor
+
+**Duldungsantrag:** Der Beklagte wird verurteilt, die Zwangsvollstreckung in [konkret bezeichneten Gegenstand] zu dulden, soweit dies zur Befriedigung der vollstreckbaren Forderung des Klägers gegen [Schuldner] aus dem Urteil des [Gericht] vom [Datum] in Höhe von [Betrag] erforderlich ist.
+
+**Hilfsantrag Wertersatz:** Hilfsweise: Der Beklagte wird verurteilt, an den Kläger EUR [Betrag] zu zahlen.
+
+## Streitwert
+
+Wert des angefochtenen Gegenstands, maximal begrenzt auf die Höhe der vollstreckbaren Forderung des Gläubigers.
+
+## Vollstreckung
+
+Das Anfechtungsurteil verpflichtet zur Duldung; Vollstreckung erfolgt nach §§ 888 890 ZPO (Ordnungsgeld oder Ordnungshaft) oder durch unmittelbare Zwangsvollstreckung in den Gegenstand.
+
+## Output-Template Klageantrag AnfG
+
+**Adressat:** Gericht — Tonfall: sachlich-juristisch
+
+```
+An das [GERICHT]
+
+Klage
+
+des [KLÄGER NAME] — Kläger —
+gegen
+[ANFECHTUNGSGEGNER NAME] — Beklagter —
+
+wegen Duldung der Zwangsvollstreckung (§§ 2 11 13 AnfG)
+
+Anträge:
+1. Der Beklagte wird verurteilt, die Zwangsvollstreckung in [GEGENSTAND KONKRET BEZEICHNEN]
+   zu dulden, soweit dies zur Befriedigung der vollstreckbaren Forderung des Klägers gegen
+   [SCHULDNER] aus [TITEL] in Höhe von EUR [BETRAG] erforderlich ist.
+2. Hilfsweise: Der Beklagte wird verurteilt, an den Kläger EUR [BETRAG] zu zahlen.
+
+Streitwert: EUR [WERT DES GEGENSTANDS max. FORDERUNGSHÖHE]
+```
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.

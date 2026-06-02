@@ -9,6 +9,7 @@
   "practice": "tax",
   "language": "en",
   "skills": [
+    "skills/california-property-tax",
     "skills/document-retention-policy",
     "skills/donation-agreement",
     "skills/final-tax-return-corporate",
@@ -16,10 +17,14 @@
     "skills/fiscal-sponsorship-agreement",
     "skills/form-1023",
     "skills/form-1023-application",
+    "skills/form-1099-nec",
+    "skills/form-1099-sa",
     "skills/grant-agreement",
     "skills/nonprofit-compliance-summary",
+    "skills/schedule-8812",
     "skills/ss4-ein-application",
     "skills/tax-clearance-request",
+    "skills/tax-strategy",
     "skills/taxpayer-correspondence"
   ]
 }

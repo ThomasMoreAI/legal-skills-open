@@ -1,0 +1,16 @@
+{
+  "name": "de-healthcare",
+  "displayName": "Healthcare — DE",
+  "version": "0.1.0",
+  "description": "Healthcare skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "healthcare",
+  "language": "de",
+  "skills": [
+    "skills/fachanwalt-medizinrecht-kassenarztrecht",
+    "skills/fachanwalt-medizinrecht-orientierung",
+    "skills/mandat-triage-medizinrecht"
+  ]
+}

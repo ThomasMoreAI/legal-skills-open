@@ -1,0 +1,17 @@
+{
+  "name": "cross-jurisdiction-litigation",
+  "displayName": "Litigation — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Litigation skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/common-law-interpretation-precedent",
+    "skills/common-law-litigation-discovery",
+    "skills/europarecht-nationales-verfahren-effektivitaet",
+    "skills/legal-search"
+  ]
+}

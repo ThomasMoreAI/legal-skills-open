@@ -1,0 +1,86 @@
+---
+name: paragraf-18-gwb-pruefung
+title: '§ 18 GWB — Marktbeherrschung: Prüfung'
+description: 'Prüft Marktbeherrschung nach Paragraf 18 GWB: Einzelmarktbeherrschung Abs 1 Marktanteils-Schwellen Abs 4 (40 Prozent) gemeinsame Marktbeherrschung Abs 5 und 6 intermediaere Plattformen Abs 3a sowie relative Marktmacht nach Paragraf 20 GWB. Für BKartA-Verfahren und nationale Gerichte.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/paragraf-18-gwb-pruefung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: antitrust
+language: de
+---
+
+# § 18 GWB — Marktbeherrschung: Prüfung
+
+## Normstruktur
+
+§ 18 GWB (in der Fassung der GWB-Novelle 2021) enthält folgende Prüfungsebenen:
+
+### § 18 Abs. 1 GWB — Marktbeherrschung allgemein
+
+Ein Unternehmen ist marktbeherrschend, wenn es als Anbieter oder Nachfrager:
+- Ohne Wettbewerber ist,
+- Keinem wesentlichen Wettbewerb ausgesetzt ist, oder
+- Eine im Verhältnis zu seinen Wettbewerbern überragende Marktstellung hat.
+
+**Faktoren:** Marktanteil, Finanzkraft, Zugang zu Beschaffungs- und Absatzmärkten, Verflechtungen, Marktzutrittsschranken, tatsächlicher oder potenzieller Wettbewerb, Ausweichmöglichkeiten der Marktgegenseite.
+
+### § 18 Abs. 4 GWB — Vermutungsregel
+
+Ein Unternehmen wird vermutet marktbeherrschend zu sein, wenn es einen Marktanteil von mindestens 40 Prozent hat.
+
+**Widerlegbarkeit:** Die Vermutung ist widerlegbar durch Nachweis, dass trotz des Marktanteils wesentlicher Wettbewerb besteht.
+
+### § 18 Abs. 5 und 6 GWB — Gemeinsame Marktbeherrschung
+
+Abs. 5: Zwei oder mehr Unternehmen können gemeinsam marktbeherrschend sein (Oligopol).
+
+Vermutungen (§ 18 Abs. 6 GWB):
+- Drei oder weniger Unternehmen haben zusammen 50 Prozent Marktanteil, oder
+- Fünf oder weniger Unternehmen haben zusammen 66⅔ Prozent Marktanteil.
+
+Prüfung der gemeinsamen Beherrschung: Strukturelle Symmetrie, Transparenz, Anreiz zur Koordinierung ohne Absprache (tacit collusion), fehlende Korrekturmechanismen.
+
+### § 18 Abs. 3a GWB — Intermediäre Plattformen
+
+Für Unternehmen auf mehrseitigen Märkten und Netzwerken (eingefügt 2021):
+
+Zu berücksichtigen sind zusätzlich:
+- Direkte und indirekte Netzwerkeffekte.
+- Parallele Nutzung mehrerer Dienste (Multi-Homing) und damit verbundene Wechselkosten.
+- Zugang zu wettbewerbsrelevanten Daten.
+- Innovationswettbewerb.
+- Wettbewerbsdruck durch Innovation (auch durch Unternehmen außerhalb des Markts).
+
+### § 20 GWB — Relative Marktmacht
+
+Auch ohne absolute Marktbeherrschung: Ein Unternehmen kann relativ marktmächtig sein gegenüber einem abhängigen Handelspartner, der keine zumutbaren Ausweichmöglichkeiten hat.
+
+Praxis: Häufig bei Lebensmitteleinzelhandel (Marktmacht gegenüber Lieferanten).
+
+## Prüfungsschema
+
+```
+1. Relevanter Markt: [Sachmarkt + Räumlicher Markt]
+2. Marktanteil: [%]
+3. Vermutungsregel § 18 Abs. 4: [greift / greift nicht]
+4. Weitere Faktoren:
+   - Marktzutrittsschranken: [hoch / mittel / niedrig]
+   - Finanzkraft: [überragend / normal]
+   - Datenzugang (bei Plattformen § 18 Abs. 3a): [relevant / nicht relevant]
+5. Gemeinsame Marktbeherrschung § 18 Abs. 5–6: [prüfen / nicht relevant]
+6. Relative Marktmacht § 20: [prüfen / nicht relevant]
+7. Ergebnis Marktbeherrschung: [ja / nein / zweifelhaft]
+```
+
+## Leitentscheidungen § 18 GWB
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- BKartA, Beschl. v. 01.02.2022 — B6-22/21 (Facebook/Meta) — § 18 Abs. 3a GWB; ueberragende marktuebergreifende Bedeutung; Datenverarbeitung als marktrelevanter Faktor.
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

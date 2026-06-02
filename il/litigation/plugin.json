@@ -1,0 +1,15 @@
+{
+  "name": "il-litigation",
+  "displayName": "Litigation — IL",
+  "version": "0.1.0",
+  "description": "Litigation skills for IL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/israeli-fines-fighter",
+    "skills/israeli-small-claims-court"
+  ]
+}
