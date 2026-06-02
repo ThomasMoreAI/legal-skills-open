@@ -1,0 +1,15 @@
+{
+  "name": "cross-jurisdiction-arbitration",
+  "displayName": "Arbitration & ADR — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Arbitration & ADR skills for Cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "arbitration",
+  "language": "en",
+  "skills": [
+    "skills/fachanwalt-internationales-wirtschaftsrecht-orientierung",
+    "skills/international-arbitration"
+  ]
+}

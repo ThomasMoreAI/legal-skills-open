@@ -1,0 +1,14 @@
+{
+  "name": "ch-data-protection",
+  "displayName": "Data Protection — CH",
+  "version": "0.1.0",
+  "description": "Data Protection skills for CH (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/ch-fadp-expert"
+  ]
+}

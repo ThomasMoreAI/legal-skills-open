@@ -1,0 +1,79 @@
+---
+name: ips-cramdown-obstruktion
+title: Cram-down und Obstruktion
+description: 'Obstruktionsverbot und gruppenuebergreifende Mehrheitsentscheidung prüfen wenn ablehnende Gruppen oder Klassen den Plan blockieren. § 245 InsO § 27 StaRUG Cramdown. Prüfraster: Schlechterstellung angemessene Beteiligung absolute Prioritaet Planmehrwert neue Finanzierung Gegenargumente. Output: Cramdown-Check Obstruktionsnotiz Nachbesserungsvorschlaege. Abgrenzung: nicht für Minderheitenschutz Einzelner (ips-minderheitenschutz).'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzplan-starug-planwerkstatt/skills/ips-cramdown-obstruktion
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Cram-down und Obstruktion
+
+## Aufgabe
+
+Ablehnende Gruppen gerichtsfest einordnen. Der Skill arbeitet freistehend und setzt keine anderen Plugins voraus. Wenn Unterlagen fehlen, fragt er gezielt nach, bildet eine klar markierte Annahme oder bietet einen Simulationsstand an.
+
+## Startet bei
+
+- neuem Planmandat oder Sanierungsprojekt
+- unvollständiger Datenlage
+- Vorbereitung von Insolvenzplan, Eigenverwaltung, Schutzschirm oder StaRUG
+- Prüfung eines vorhandenen Planentwurfs
+
+## Geführter Workflow
+
+1. Ablehnende Gruppe oder Klasse identifizieren und Vergleichsrechnung dagegenhalten.
+2. Schlechterstellung, angemessene Beteiligung und Mehrheiten gesondert prüfen.
+3. Absolute oder relative Priorität, Planmehrwert, neue Finanzierung und Abweichungen dokumentieren.
+4. Gerichtliche Argumentation und Gegenargumente vorbereiten.
+
+## Ausgabe
+
+- Cram-down-Check
+- Obstruktionsnotiz
+- Nachbesserungsvorschläge
+- Gerichtsargumentation
+
+## Qualitätsgates
+
+- Keine Rechtswirkung ohne genaue Betroffenengruppe, Betrag, Zeitpunkt und Beleg.
+- Vergleichsrechnung, Planrechnung und Sanierungskonzept müssen zueinander passen.
+- Annahmen, Schätzungen und fehlende Quellen werden sichtbar markiert.
+- Berufsgeheimnis, Datenschutz, Geschäftsgeheimnisse und gerichtliche Fristen bleiben vorrangig.
+
+## Rückfragen
+
+Wenn Angaben fehlen, stelle höchstens acht konkrete Fragen und gruppiere sie nach Zahlen, Recht, Stakeholdern und Verfahren. Bei Eilfällen liefere zuerst eine Minimalroute mit Stoppern.
+
+## Arbeitsstil
+
+Freundlich, ruhig, präzise und planarchitektonisch. Der Skill erklärt, warum eine Information wichtig ist, und macht aus unsortiertem Material einen belastbaren nächsten Arbeitsschritt.
+
+
+## Rechtliche Grundlagen und Leitentscheidungen (Stand Mai 2026)
+
+- **BVerfG 1 BvR 418/25 vom 28.02.2025** (3. Kammer, Erster Senat — VARTA AG) — Verfassungsbeschwerde von Minderheitsaktionären gegen die gerichtliche Bestätigung eines StaRUG-Restrukturierungsplans (Kapitalherabsetzung auf Null, Bezugsrechtsausschluss) als unzulässig zurückgewiesen. Bedeutung für den Cramdown: Eingriffe in Aktionärsrechte über das Obstruktionsverbot / Cramdown sind verfassungsrechtlich nicht generell ausgeschlossen, soweit § 66 Abs. 2 Nr. 3 StaRUG (Schlechterstellungsprüfung) gewahrt ist.
+  <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
+- Restrukturierungsgerichts- und OLG-Entscheidungen zu § 26 StaRUG (Cross-Class-Cramdown) und § 245 InsO (Obstruktionsverbot) vor Ausgabe über dejure.org / openjur.de mit Gericht, Datum, Aktenzeichen verifizieren.
+
+## Paragrafenkette (Insolvenzplan / StaRUG)
+
+§ 217 InsO (Plan-Option) → § 218 InsO (Plan-Vorlage) → §§ 220-221 InsO (darstellender und gestaltender Teil) → § 222 InsO (Gruppen) → §§ 235-244 InsO (Abstimmung) → § 245 InsO (Obstruktionsverbot) → § 248 InsO (Planbestaetigung) → § 254 InsO (Planwirkung) → §§ 7-39 StaRUG (StaRUG-Plan) → § 25 StaRUG (Mehrheiten) → § 26 StaRUG (Cramdown)
+
+## Triage — Plan-Vorarbeiten
+
+Bevor losgelegt wird, klaere:
+1. **Verfahrensart?** InsO-Plan (§§ 217 ff. InsO) oder StaRUG-Restrukturierungsplan (§§ 7-39 StaRUG)?
+2. **Klassenbildung schluessig?** § 222 InsO / § 10 StaRUG — gleiche Rechte und Interessen je Gruppe.
+3. **Mehrheits-Simulation?** Ist 75%-Schwelle (StaRUG) oder 50%+50% (InsO) realistisch?
+4. **Vergleichsrechnung?** Liquidationswert als Referenz fuer Best-Interest-Test berechnen.
+5. **Cramdown-Szenario?** Welche Klasse koennte ablehnen und ist Obstruktionsverbot anwendbar?
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

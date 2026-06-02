@@ -1,0 +1,170 @@
+---
+name: mandat-triage-insolvenzrecht
+title: Mandat-Triage Insolvenzrecht
+description: Eingangs-Abfrage für insolvenzrechtliche Mandate — Mandant ist Geschäftsführer mit Antragspflicht Gläubiger der Forderung anmelden will oder Arbeitnehmer der Insolvenzgeld beantragt. Klaert Mandantenrolle und Vorgang (Eroeffnungsantrag Eigenverwaltung Schutzschirm StaRUG Restschuldbefreiung). Sofort-Fristen Antragspflicht § 15a InsO drei Wochen Anmeldefristen Insolvenzgeld § 165 SGB III zwei Monate. Normen §§ 13 17 18 19 InsO Eroeffnungsantrag Insolvenzgründe. Eskalation Telefon-Sofort bei Antragspflicht-Verletzung Geschäftsführer-Haftung. Output Triage-Memo Fristen-Ampel Routing zu anfechtungsrechte-prüfen und anderen Skills. Abgrenzung zu insolvenzrecht-kaltstart-interview (Plugin-Profil-Befuellung).
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/mandat-triage-insolvenzrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Mandat-Triage Insolvenzrecht
+
+## Zweck
+
+Insolvenz-Mandate sind hochzeitkritisch — die Drei-Wochen-Frist § 15a InsO ist strafbewehrt. Triage stellt sofort fest, ob die Antragspflicht akut ist.
+
+## Ablauf — acht Fragen
+
+### Frage 1 — Mandantenrolle?
+
+- Schuldner (Privatperson Selbstständig Gesellschaft)
+- Geschäftsführer / Vorstand
+- Gesellschafter
+- Gläubiger einzelner
+- Gläubiger-Banken
+- Insolvenzverwalter
+- Sachwalter (Eigenverwaltung)
+- Arbeitnehmer
+- Anfechtungs-Gegner
+
+### Frage 2 — Vorgang?
+
+- Antragspflicht-Prüfung § 15a InsO
+- Eigenantrag stellen
+- Gläubigerantrag erhalten — Reaktion
+- Eigenverwaltung beantragen
+- Schutzschirm § 270d InsO
+- StaRUG-Verfahren
+- Insolvenzgeld
+- Forderungsanmeldung
+- Insolvenzplan
+- Anfechtungs-Verfahren
+- Restschuldbefreiung
+- Verbraucherinsolvenz
+- Gesellschafter-Haftung
+- Geschäftsführer-Haftung § 64 GmbHG a. F. / § 15b InsO
+
+### Frage 3 — Akute Eilbedürftigkeit?
+
+- **Antragspflicht** § 15a InsO drei Wochen — Strafbarkeit
+- **Vermögensverschiebung** läuft / steht bevor
+- **Massive Vermögensabflüsse** im Vorfeld
+- **Gläubigerantrag** zugestellt
+- **Insolvenzgericht** Termin morgen
+- **Pfändung Konto** Existenz bedrohend
+- **Arbeitnehmer Lohn-Ausstand**
+- **Sanierungs-Krise** akut
+
+### Frage 4 — Verfahrensstadium?
+
+- Vor Antragspflicht — Beratung
+- Antragspflicht akut
+- Eröffnungsverfahren (vorläufiges Verfahren)
+- Eröffnetes Verfahren
+- Berichtstermin
+- Prüfungstermin
+- Schlussverteilung
+- Aufhebung
+- Wohlverhaltensphase
+
+### Frage 5 — Schuldner-Form?
+
+- Natürliche Person
+- Selbstständig
+- GmbH AG GmbH & Co. KG
+- Personengesellschaft
+- Verein
+- Stiftung
+- Genossenschaft
+- Auslandsbezug (EuInsVO)
+
+### Frage 6 — Wirtschaftliche Verhältnisse?
+
+- Aktiva (Buchwert Verkehrswert)
+- Passiva
+- Liquidität-Stand
+- Drohende Zahlungs-Unfähigkeit § 18 InsO
+- Zahlungs-Unfähigkeit § 17 InsO
+- Überschuldung § 19 InsO
+- Fortbestehens-Prognose
+
+### Frage 7 — Frist?
+
+- **§ 15a InsO** drei Wochen Antragspflicht
+- **Forderungsanmeldung** mit Anmeldefrist im Insolvenzgericht-Bekanntmachung
+- **Anfechtungs-Verjährung** drei Jahre § 146 InsO
+- **Restschuldbefreiungs-Antrag** mit Eigenantrag oder binnen einer Woche nach Aufforderung
+- **Insolvenzgeld-Antrag** zwei Monate ab Insolvenz-Eröffnung § 165 SGB III
+
+### Frage 8 — Besondere Konstellationen?
+
+- Konzern-Insolvenz
+- Eigenverwaltung möglich (Liquidität ausreichend Geschäftsführer geeignet)
+- Schutzschirm-Verfahren möglich
+- StaRUG vor Insolvenz?
+- Auslandsbezug
+- Familieninsolvenz
+
+## Routing-Matrix
+
+| Vorgang | Folge-Skill |
+|---|---|
+| Antragspflicht-Prüfung | `antragspflicht-15a-inso` |
+| Gläubigerantrag erhalten | `glaeubigerantrag-pruefung` |
+| Zahlungsunfähigkeit-Prüfung | `zahlungsunfaehigkeit-pruefung-17-inso` |
+| Überschuldungs-Prüfung | `ueberschuldung-pruefung-19-inso` |
+| Liquiditätsvorschau | `liquiditaetsvorschau-insolvenzrechtlich` |
+| Anfechtungs-Verteidigung / -Aktivierung | `anfechtungsrechte-pruefen` |
+| Fortbestehensprognose | weiter an `fortbestehensprognose`-Plugin |
+| Plugin-Konfiguration | `kaltstart-interview` |
+| Eigenverwaltung-Beratung | (Skill eigenverwaltung-beratung — perspektivisch) |
+| StaRUG-Restrukturierung | (Skill starug-verfahren — perspektivisch) |
+| Insolvenzplan | (Skill insolvenzplan — perspektivisch) |
+
+## Mandatsannahme
+
+- **Konflikt-Check** sehr strikt — Insolvenzverwalter Schuldner Gläubiger
+- **Streitwert** bei Anfechtung Forderung Restmasse
+- **Honorarvereinbarung** RVG / Insolvenzverwalter-Vergütung nach InsVV
+- **Versicherungs-Deckung** D&O bei Geschäftsführer Berufshaftpflicht Insolvenzverwalter
+
+## Eskalation
+
+- **Telefon-Sofort** Antragspflicht-Frist Strafbarkeit
+- **Binnen einer Stunde** Gläubigerantrag-Reaktion Vermögensverschiebung verhindern
+- **Heute** Eigenantrag-Vorbereitung Forderungsanmeldung
+- **Diese Woche** Insolvenzplan-Erstentwurf Anfechtungs-Klage
+
+## Ausgabe
+
+- `triage-protokoll-insolvenzrecht.md`
+- Aktenanlage
+- Frist im Fristenbuch (§ 15a InsO drei Wochen vorrangig)
+- Sofort-Strategie-Vorschlag
+- Mandatsvereinbarung mit Honorarvereinbarung
+- Empfehlung Folge-Skill
+
+## Quellen
+
+- InsO §§ 1 ff. 15a 17 18 19 129 ff. 146 165 270 270d
+- StaRUG
+- GmbHG § 64 (a. F.) ersetzt durch § 15b InsO
+- StGB §§ 283 ff.
+- SGB III § 165
+- BGH IX. Zivilsenat
+- Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
+- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+
+## Weitere Leitentscheidungen — Mandats-Triage (Stand Mai 2026)
+
+- **BGH II ZR 206/22 vom 23.07.2024** — Fortwirkende Haftung des ausgeschiedenen Geschäftsführers; bei Wechsel der Geschäftsleitung Mandantenrolle und Verantwortlichkeit präzise abklären.
+  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
+- **BGH 5 StR 287/24 vom 27.02.2025** — Faktischer Geschäftsführer; bei Hinweisen auf Strohmann-/Firmenbestattungs-Konstellation Mandantenrolle besonders sorgfältig prüfen.
+  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
+- **BGH IV ZR 66/25 vom 19.11.2025** — D&O-Versicherung; bei Geschäftsführerhaftung Deckung gesondert prüfen.

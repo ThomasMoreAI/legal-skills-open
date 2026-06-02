@@ -1,0 +1,14 @@
+{
+  "name": "tr-ip",
+  "displayName": "Intellectual Property — TR",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "ip",
+  "language": "tr",
+  "skills": [
+    "skills/ip-trademark-search"
+  ]
+}

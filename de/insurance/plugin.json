@@ -1,0 +1,26 @@
+{
+  "name": "de-insurance",
+  "displayName": "Insurance — DE",
+  "version": "0.1.0",
+  "description": "Insurance skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "insurance",
+  "language": "de",
+  "skills": [
+    "skills/corporate-kanzlei-wi-insurance",
+    "skills/deckungsanfrage-pruefen",
+    "skills/do-versicherung-manager-haftung",
+    "skills/fachanwalt-verkehrsrecht-regulierungsanforderung",
+    "skills/fachanwalt-versicherungsrecht-deckungsklage",
+    "skills/fachanwalt-versicherungsrecht-leistungsablehnung-pruefen",
+    "skills/fachanwalt-versicherungsrecht-orientierung",
+    "skills/fachanwalt-versicherungsrecht-regress-abwehr",
+    "skills/grosskanzlei-corporate-ma-wi-insurance",
+    "skills/klage-versicherer-strategie",
+    "skills/mandat-triage-versicherungsrecht",
+    "skills/mittelstand-corporate-ma-wi-insurance",
+    "skills/zvg-versicherungen-gefahren"
+  ]
+}

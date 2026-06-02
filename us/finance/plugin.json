@@ -9,6 +9,7 @@
   "practice": "finance",
   "language": "en",
   "skills": [
+    "skills/aml-compliance",
     "skills/capital-call-notice",
     "skills/cd-tolerance-reference",
     "skills/cip-policy",
@@ -25,6 +26,7 @@
     "skills/convertible-note-purchase-agreement",
     "skills/depository-account-agreement",
     "skills/forbearance-agreement",
+    "skills/glba-expert",
     "skills/glba-privacy-notice",
     "skills/guaranty-unlimited",
     "skills/intercreditor-agreement",
@@ -33,6 +35,7 @@
     "skills/loan-forbearance",
     "skills/loan-modification-agreement",
     "skills/management-rights-letter",
+    "skills/mortgage-compliance",
     "skills/pledge-agreement-securities",
     "skills/promissory-note-residential",
     "skills/revolving-credit-agreement",

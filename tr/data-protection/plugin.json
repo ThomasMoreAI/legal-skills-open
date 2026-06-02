@@ -1,0 +1,17 @@
+{
+  "name": "tr-data-protection",
+  "displayName": "Data Protection — TR",
+  "version": "0.1.0",
+  "description": "Data Protection skills for TR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tr",
+  "practice": "data-protection",
+  "language": "tr",
+  "skills": [
+    "skills/dpa-review-zekaisuni",
+    "skills/kvkk-denetim",
+    "skills/matter-workspace-23",
+    "skills/turkey-kvkk"
+  ]
+}

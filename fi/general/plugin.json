@@ -1,0 +1,14 @@
+{
+  "name": "fi-general",
+  "displayName": "General — FI",
+  "version": "0.1.0",
+  "description": "General skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "general",
+  "language": "fi",
+  "skills": [
+    "skills/juristi"
+  ]
+}

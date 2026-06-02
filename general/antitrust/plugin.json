@@ -1,0 +1,19 @@
+{
+  "name": "general-antitrust",
+  "displayName": "Antitrust & Competition — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "antitrust",
+  "language": "de",
+  "skills": [
+    "skills/classifyccp",
+    "skills/eugh-rechtsprechung-leitentscheidungen",
+    "skills/evidenz-qualitaet-bewertung",
+    "skills/gesamtbewertung-tragfaehigkeit",
+    "skills/mehrseitige-maerkte-plattformen",
+    "skills/produktmarkt-angebotsumstellung"
+  ]
+}

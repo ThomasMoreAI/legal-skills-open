@@ -1,0 +1,20 @@
+{
+  "name": "gb-litigation",
+  "displayName": "Litigation — GB",
+  "version": "0.1.0",
+  "description": "Litigation skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/bailii-case-law",
+    "skills/uk-citation-verification",
+    "skills/uk-court-of-appeal-judicial-preference-check",
+    "skills/uk-disclosure-list-review",
+    "skills/uk-law",
+    "skills/uk-particulars-of-claim-review",
+    "skills/uk-witness-statement-review"
+  ]
+}

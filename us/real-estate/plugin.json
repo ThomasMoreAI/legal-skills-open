@@ -23,8 +23,10 @@
     "skills/commercial-re-loi",
     "skills/commercial-real-estate-loi",
     "skills/complaint-for-trespass-and-nuisance",
+    "skills/compliance-audit",
     "skills/conservation-easement",
     "skills/contingency-removal",
+    "skills/cre-legal",
     "skills/deed-in-lieu-of-foreclosure",
     "skills/deed-of-gift",
     "skills/deed-of-trust",
@@ -63,6 +65,7 @@
     "skills/quiet-title-complaint",
     "skills/real-estate-agency-disclosure",
     "skills/real-estate-transaction-summary",
+    "skills/realty-command",
     "skills/reciprocal-easement-agreement",
     "skills/repair-request-addendum",
     "skills/residential-lease",
@@ -81,8 +84,11 @@
     "skills/tenant-improvement-work-letter",
     "skills/ti-work-letter",
     "skills/title-commitment",
+    "skills/title-research",
+    "skills/transfer-document-preparer",
     "skills/triple-net-lease",
     "skills/triple-net-lease-agreement",
+    "skills/tx-title-analysis",
     "skills/urban-planning-summary"
   ]
 }

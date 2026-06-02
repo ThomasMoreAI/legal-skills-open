@@ -1,0 +1,17 @@
+{
+  "name": "cn-general",
+  "displayName": "General — CN",
+  "version": "0.1.0",
+  "description": "General skills for CN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "general",
+  "language": "zh",
+  "skills": [
+    "skills/legal-issue-research",
+    "skills/yd-law-search",
+    "skills/yuandian-law-search",
+    "skills/zhihe-legal-research"
+  ]
+}

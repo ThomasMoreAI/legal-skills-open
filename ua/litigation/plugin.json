@@ -1,0 +1,14 @@
+{
+  "name": "ua-litigation",
+  "displayName": "Litigation — UA",
+  "version": "0.1.0",
+  "description": "Litigation skills for UA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ua",
+  "practice": "litigation",
+  "language": "uk",
+  "skills": [
+    "skills/calculating-sudovyi-zbir"
+  ]
+}

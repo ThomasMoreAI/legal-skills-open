@@ -1,0 +1,14 @@
+{
+  "name": "ua-real-estate",
+  "displayName": "Real Estate — UA",
+  "version": "0.1.0",
+  "description": "Real Estate skills for UA (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ua",
+  "practice": "real-estate",
+  "language": "uk",
+  "skills": [
+    "skills/reviewing-real-estate-contract-crankshift"
+  ]
+}

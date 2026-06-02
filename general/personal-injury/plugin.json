@@ -9,6 +9,7 @@
   "practice": "personal-injury",
   "language": "en",
   "skills": [
+    "skills/firmvault-search",
     "skills/icd-cpt-normalization",
     "skills/incident-report-summary",
     "skills/initial-contact-summary",

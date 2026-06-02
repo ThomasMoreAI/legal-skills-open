@@ -1,0 +1,74 @@
+---
+name: vaf-redline-qa
+title: Redline-QA
+description: 'Redline und Track-Changes-Fassung prüfen: Anwendungsfall Gegenentwurf oder überarbeitete Fassung liegt vor und soll auf Vollständigkeit versteckte Änderungen Formatbrüche und ungeklärte Klauselentscheidungen geprüft werden. §§ 145 ff. BGB Vertragsänderungen, §§ 305 ff. BGB AGB-Änderungskontrolle. Prüfraster Ausgangsfassung und überarbeitete Fassung identifiziert, alle Track-Changes-Status klar, materielle Änderungen gegen Freigaben geprüft. Output QA-Protokoll mit Änderungsübersicht und offenen Klauselentscheidungen. Abgrenzung zu Clean-Output und zu Klauselentscheidung.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsausfueller/skills/vaf-redline-qa
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Redline-QA
+
+## Triage zu Beginn
+
+1. Welche Fassung ist Ausgangsdokument und welche ist die überarbeitete Fassung?
+2. Sind alle Track-Changes-Markierungen angenommen oder abgelehnt oder noch ausstehend?
+3. Entsprechen alle materiellen Änderungen freigegebenen Klauselentscheidungen?
+4. Hat der Mandant die Herausgabe der Redline ausdrücklich bestätigt?
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Zentrale Normen
+
+- § 119 ff. BGB — Anfechtung (bei verdeckten Änderungen im Redline-Prozess)
+- § 241 Abs. 2 BGB — Nebenpflicht zur Rücksichtnahme (kein Einbringen unbesprochener Änderungen)
+- § 307 BGB — Transparenzgebot (bei Änderungen per AGB)
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Aufgabe
+
+Der Skill kontrolliert Änderungsfassungen vor Herausgabe. Er arbeitet freistehend innerhalb des Vertragsausfüller-Plugins und setzt keine anderen Plugins voraus.
+
+## Startet bei
+
+- hochgeladener Word-Vorlage oder altem Vertrag
+- Term Sheet, E-Mail, Tabelle oder Freitext mit Eckdaten
+- Wunsch nach neuem Vertragsentwurf
+- Wunsch nach Redline oder Track Changes
+
+## Workflow
+
+1. Jede Änderung einem Feld, einer Rückfrage oder einer Klauselentscheidung zuordnen.
+2. Formatbrüche, doppelte Leerzeichen, zerstörte Nummerierung und Anlagenverweise prüfen.
+3. Materielle Abweichungen vom Term Sheet separat hervorheben.
+4. Freigabe erst empfehlen, wenn Clean- und Redline-Fassung denselben Stand haben.
+
+## Ausgabe
+
+- Vertragsdatenmatrix
+- Rückfragenliste
+- Ausfüllprotokoll
+- Entwurfs- oder Prüfvermerk
+- klare Stopper vor Track Changes, falls noch keine ausdrückliche Bestätigung vorliegt
+
+## Leitplanken
+
+- Originaldateien werden nie überschrieben.
+- Track Changes, Redline oder Vergleichsfassung nur nach ausdrücklicher Rückfrage und Bestätigung.
+- Offene Werte bleiben sichtbar; sie werden nicht erfunden.
+- Juristische Wahlentscheidungen werden erklärt und protokolliert.
+
+---
+
+<!-- AUDIT 27.05.2026
+Bundle: bundle_047.json
+-->

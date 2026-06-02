@@ -1,0 +1,115 @@
+---
+name: mittelstand-corporate-ma-closing-bible-archiv
+title: Closing Bible und Archiv
+description: 'Transaktion vor Closing und Anwalt muss Closing Bible erstellen: Versionierung Signaturketten Registerbelege Deal-Archiv. Normen §§ 311b 15 GmbHG BeurkG SPA-Pflichten Notarrecht. Prüfraster Vollständigkeit Unterlagen Signatur-Tracking Register-Check Archivierungspflichten. Output Closing-Bible-Entwurf Signatur-Checkliste Archivplan. Abgrenzung zu mittelstand-ma-aktenanlage (Anlage) und signing-closing-conditions (Prozess).'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/mittelstand-corporate-ma-closing-bible-archiv
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Closing Bible und Archiv
+
+## Zweck
+
+Erstellt Closing Bible, Versionierung, Signaturketten, Registerbelege und Deal-Archiv. Sichert Nachweiskette fuer Closing Deliverables, Registerpflichten und Widerrufsrechte nach SPA.
+
+## Triage — klaere vor Zusammenstellung
+
+1. Welche Dokumente sind als "final executed" markiert — SPA, aller Anhange, Disclosure Schedules?
+2. Liegen alle Signaturseiten im Original oder als beglaubigte Kopie vor?
+3. Welche Registeranmeldungen sind erforderlich — GmbH-Anteilsuebertragung, Handelsregistereintrag, Transparenzregister-Update?
+4. Sind Notarkosten und Vollzugspflichten aus dem beurkundeten SPA bereits abgearbeitet (§ 15 Abs. 3 GmbHG, § 2 GmbHG)?
+5. Welche Closing-Deliverables sind noch offen — Resolutions, Closing Certificates, Funds Flow, Bankfreigaben?
+
+## Zentrale Rechtsgrundlagen
+
+- § 15 Abs. 3 u. 4 GmbHG — notarielle Beurkundungspflicht fuer GmbH-Anteils- und SPA-Uebertragungen
+- § 40 GmbHG — Gesellschafterliste nach Anteilsuebertragung innerhalb eines Monats; Pflicht des Notars oder Geschaeftsfuehrers
+- § 20 TranspRG i.V.m. § 19 Abs. 1 GwG — Transparenzregistermeldung nach Gesellschafterwechsel innerhalb von zwei Wochen
+- § 41 GmbHG — Pflicht zur Buchfuehrung nach Registereintragung
+- § 179 AktG — Satzungsaenderung erfordert notarielle Beurkundung und HR-Anmeldung
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Schritt-fuer-Schritt-Workflow
+
+1. **Closing-Deliverables-Register anlegen:** alle SPA-Deliverables aus Schedule/Annex extrahieren, Owner und Faelligkeitsdatum zuordnen
+2. **Signaturketten pruefen:** fuer jeden signierten Vertrag: Originalunterschriften, Vollmachten, Vertretungsmacht gemaess Handelsregisterstand pruefen
+3. **Notarpflichten abarbeiten:** SPA-Beurkundung, Anteilsuebertragung gemaess § 15 Abs. 3 GmbHG, Anlagen mitbeurkundet?
+4. **Registeranmeldungen:** Gesellschafterliste gemaess § 40 GmbHG, HR-Anmeldung Geschaeftsfuehrerwechsel/Satzungsaenderung, Transparenzregister gemaess § 20 TranspRG
+5. **Funds Flow und Closing Payments pruefen:** Kaufpreistransfernachweise, Bankbestaetigung, Freistellung von Sicherheiten
+6. **Closing Bible zusammenstellen:** Inhaltsverzeichnis mit Tab-Struktur, je Dokument: Bezeichnung, Parteien, Datum, Fassung, Datenraum-Referenz
+7. **Offene Punkte als Post-Closing Obligations:** Fristen, Owner, Eskalationsstufe
+8. **Archivierung:** Deal-Archiv anlegen mit Zugriffskonzept, Vertraulichkeitsstufen, Retention Policy (§ 257 HGB: 10 Jahre)
+
+## Entscheidungsbaum
+
+- GmbH-Anteilsuebertragung → § 15 Abs. 3 GmbHG → notarielle Beurkundung erforderlich → ohne Beurkundung: Nichtigkeit
+- AG-Aktien vinkuliert → Zustimmung Hauptversammlung/AR-Beschluss pruefen → Eintrag Aktienbuch
+- Transparenzregisterpflicht → § 19 GwG Wirtschaftlich Berechtigte neu? → Frist 2 Wochen ab Closing
+- Registeranmeldung Namenswechsel/Satzungsaenderung → notarielle Form → Registergericht
+
+## Output-Template: Closing Bible Index
+
+**Adressat:** Deal-Team intern und Notar — Tonfall sachlich-strukturiert
+
+```
+CLOSING BIBLE
+Transaction: [DEALNAME]
+Closing Date: [DATUM]
+Prepared by: [KANZLEI/PARTNER]
+
+TAB A — TRANSACTION DOCUMENTS
+  A-1  SPA, datiert [DATUM], Parteien: [KAEUFER] / [VERKAEUFER]
+  A-2  Disclosure Schedules
+  A-3  Signing Protocol / Notarakt Nr. [XX/XXXX]
+
+TAB B — CORPORATE APPROVALS
+  B-1  Gesellschafterbeschluss Verkaeufer [DATUM]
+  B-2  Aufsichtsratsbeschluss [DATUM]
+  B-3  Board Resolution Erwerber
+
+TAB C — CLOSING DELIVERABLES
+  C-1  Gesellschafterliste neu (§ 40 GmbHG), eingereicht [DATUM]
+  C-2  Transparenzregister-Meldung [DATUM]
+  C-3  Funds Flow Confirmation [DATUM]
+  C-4  Freigabe Bankpfandrecht [DATUM]
+
+TAB D — POST-CLOSING OBLIGATIONS
+  D-1  [MASSNAHME] — Owner: [NAME] — Faellig: [DATUM]
+```
+
+## Rote Schwellen
+
+- Signaturseite ohne Original-Vollmacht: Human-in-the-loop verlangen, vor Archivabschluss Senior Review
+- Gesellschafterliste nicht eingereicht (§ 40 GmbHG): Frist laeuft; Stimmrecht des Erwerbers gefaehrdet (§ 16 Abs. 1 GmbHG)
+- Transparenzregistermeldung unterlassen: Bussgeld bis 100.000 EUR (§ 56 GwG)
+- Funds Flow nicht belegt: Zahlungsnachweis zwingend vor Closing-Bible-Freigabe
+
+## Standardausgabe
+
+- Closing Bible Index mit Tab-Struktur, Parteien, Datum, Datenraum-ID
+- Offene Punkte als `TODO` mit Owner und Eskalationsstufe
+- Belegkette: Dokument, Datum, Version, Fundstelle
+- Bei hohem Risiko immer Human-in-the-loop und Senior Review
+
+## Uebergabe an andere Skills
+
+- Registerpunkte → `mittelstand-corporate-ma-gesellschaftsrecht-register`
+- Notartermin, Beurkundungsfragen → `mittelstand-corporate-ma-output-versand-signing`
+- Transparenzregister, GwG → `mittelstand-corporate-ma-conflict-gwg-sanctions`
+
+## Vorlagen
+
+- assets/templates/closing-bible-index.md
+- assets/templates/closing-deliverables-register.md

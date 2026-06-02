@@ -13,9 +13,12 @@
     "skills/bad-actor-disqualification-review",
     "skills/blue-sky-filings",
     "skills/broker-dealer-customer-agreement",
+    "skills/carta-form-adv",
+    "skills/client-disclosures",
     "skills/comfort-letter-from-auditors",
     "skills/directed-share-program",
     "skills/director-officer-questionnaire",
+    "skills/document-review",
     "skills/finra-4512-customer-account",
     "skills/finra-4512-customer-info",
     "skills/form-10-q",
@@ -39,9 +42,12 @@
     "skills/reg-bi-policy",
     "skills/safe-agreement",
     "skills/sec-opinion-letter",
+    "skills/sec-reg-d-compliance",
     "skills/securities-regulation-summary",
     "skills/shelf-registration-s3",
     "skills/transfer-agent-agreement",
-    "skills/underwriting-agreement"
+    "skills/underwriting-agreement",
+    "skills/us-finra-expert",
+    "skills/us-sox-expert"
   ]
 }

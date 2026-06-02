@@ -1,0 +1,14 @@
+{
+  "name": "at-trusts-and-estates",
+  "displayName": "Trusts & Estates — AT",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills for AT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "trusts-and-estates",
+  "language": "de",
+  "skills": [
+    "skills/recht-erbe-verfahren"
+  ]
+}

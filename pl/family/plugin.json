@@ -1,0 +1,15 @@
+{
+  "name": "pl-family",
+  "displayName": "Family Law — PL",
+  "version": "0.1.0",
+  "description": "Family Law skills for PL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "family",
+  "language": "pl",
+  "skills": [
+    "skills/applying-usc-procedures",
+    "skills/calculating-alimenty"
+  ]
+}
