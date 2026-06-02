@@ -9,7 +9,6 @@
   "practice": "regulatory",
   "language": "en",
   "skills": [
-    "skills/israeli-bureaucracy-decoder",
     "skills/israeli-standards-import-checker",
     "skills/israeli-tender-proposal-builder"
   ]
