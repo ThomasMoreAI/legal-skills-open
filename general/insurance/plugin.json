@@ -11,7 +11,6 @@
   "skills": [
     "skills/claims-material-check-life-insurance-assistant",
     "skills/compliance-audit-insurance",
-    "skills/death-coverage-scope-judgment-assistant",
-    "skills/deepread-insurance"
+    "skills/death-coverage-scope-judgment-assistant"
   ]
 }
