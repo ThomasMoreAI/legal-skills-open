@@ -8,6 +8,7 @@ open_skills_strategy.md
 /skillsmp
 .idea
 .serena/
+private_doc/
 
 # Secrets — never commit
 .env
