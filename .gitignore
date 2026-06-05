@@ -6,6 +6,8 @@ open_skills_strategy.md
 /CLAUDE.md
 /lawve
 /skillsmp
+.idea
+.serena/
 
 # Secrets — never commit
 .env
