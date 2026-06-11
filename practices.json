@@ -34,8 +34,8 @@
     {
       "slug": "employee-benefits",
       "title": "Employee Benefits & Executive Compensation",
-      "classifier_hint": "employee benefits and executive compensation: ERISA, 401(k)/pension plans, QDRO, 409A/280G, deferred comp, equity incentives, change-in-control/severance, bAV/IORP; distinguish from employment (the employment relationship) and social-security (state benefits)",
-      "keywords": "ERISA|401k|QDRO|executive compensation|deferred compensation|409A|280G|equity incentive plan|change-in-control agreement|change in control agreement|nonqualified plan|nonqualified deferred|employee benefits|betriebliche Altersversorgung|Betriebsrente|Pensionszusage|Versorgungsordnung|occupational pension|pension plan|bAV|IORP"
+      "classifier_hint": "employee benefits and executive compensation: ERISA, 401(k)/pension plans, 409A/280G, deferred comp, equity incentives, change-in-control/severance, bAV/IORP; a QDRO drafted to divide retirement benefits in a divorce → family; distinguish from employment (the employment relationship) and social-security (state benefits)",
+      "keywords": "ERISA|401k|executive compensation|deferred compensation|409A|280G|equity incentive plan|change-in-control agreement|change in control agreement|nonqualified plan|nonqualified deferred|employee benefits|betriebliche Altersversorgung|Betriebsrente|Pensionszusage|Versorgungsordnung|occupational pension|pension plan|bAV|IORP"
     },
     {
       "slug": "employment",
@@ -172,8 +172,8 @@
     {
       "slug": "family",
       "title": "Family Law",
-      "classifier_hint": "family law: divorce/dissolution, custody and support (child/spousal), property division, prenuptial agreements, parenting plans, domestic violence protection (DVRO), paternity, guardianship/conservatorship proceedings over incapacitated adults (Betreuungsverfahren); POA/advance directives and guardian nomination in a will → trusts-and-estates; distinguish from litigation (general procedure)",
-      "keywords": "divorce|custody|adoption|child support|prenup|family law|parenting plan|alimony|alimenty|paternity|spousal support|Betreuungsverfahren"
+      "classifier_hint": "family law: divorce/dissolution, custody and support (child/spousal), property division (incl. QDRO dividing retirement benefits in divorce), prenuptial agreements, parenting plans, domestic violence protection (DVRO), paternity, guardianship/conservatorship proceedings over incapacitated adults (Betreuungsverfahren); POA/advance directives and guardian nomination in a will → trusts-and-estates; distinguish from litigation (general procedure)",
+      "keywords": "divorce|custody|adoption|child support|prenup|family law|parenting plan|alimony|alimenty|paternity|spousal support|Betreuungsverfahren|QDRO"
     },
     {
       "slug": "white-collar",
