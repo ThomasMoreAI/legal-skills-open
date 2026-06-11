@@ -4,8 +4,6 @@ Cross-cutting legal-research utilities — citation formatting, statute retrieva
 
 Jurisdiction: `ua` · Practice: `general` · Skill language: uk
 
-> **DRAFT** — plugin scaffolding auto-generated on import; review before merge.
-
 ## Skills (3)
 
 | Skill | What it does |

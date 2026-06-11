@@ -4,8 +4,6 @@ Citizen-facing administrative procedures and public services — passports/ID, c
 
 Jurisdiction: `ua` · Practice: `administrative` · Skill language: uk
 
-> **DRAFT** — plugin scaffolding auto-generated on import; review before merge.
-
 ## Skills (4)
 
 | Skill | What it does |
