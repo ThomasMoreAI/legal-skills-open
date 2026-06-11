@@ -1,0 +1,15 @@
+{
+  "name": "cross-jurisdiction-cybersecurity",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "cybersecurity",
+  "language": "en",
+  "displayName": "Cybersecurity & Information Security — Cross-jurisdiction",
+  "description": "Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23 NYCRR 500, CMMC, SOC 2 / ISO 27001, ANSSI/EBIOS/PSSI, incident-response and operational-resilience programs, and security-control evidence.",
+  "skills": [
+    "skills/arckit-eu-nis2",
+    "skills/eu-nis2-expert"
+  ]
+}

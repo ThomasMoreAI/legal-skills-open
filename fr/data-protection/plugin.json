@@ -9,9 +9,6 @@
   "practice": "data-protection",
   "language": "en",
   "skills": [
-    "skills/arckit-fr-anssi",
-    "skills/arckit-fr-ebios",
-    "skills/arckit-fr-pssi",
     "skills/arckit-fr-rgpd",
     "skills/cnil-compliant-cookies"
   ]

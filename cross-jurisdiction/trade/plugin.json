@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-trade",
+  "displayName": "International Trade & Customs — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Cross-border sanctions and customs/trade compliance — multi-regime sanctions screening (OFAC, OFSI, EU, UN), embargo and circumvention-risk checks, and customs/tariff classification across jurisdictions.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "trade",
+  "language": "en",
+  "skills": [
+    "skills/customs-trade-compliance"
+  ]
+}

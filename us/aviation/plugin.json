@@ -1,0 +1,14 @@
+{
+  "name": "us-aviation",
+  "displayName": "Aviation & Aerospace — United States",
+  "version": "0.1.0",
+  "description": "U.S. aviation-law summaries — synthesising FAA, DOT, and TSA rules, treaties, and precedent on air-traffic rights, aircraft operations, airworthiness, and passenger matters.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "aviation",
+  "language": "en",
+  "skills": [
+    "skills/aviation-summary"
+  ]
+}

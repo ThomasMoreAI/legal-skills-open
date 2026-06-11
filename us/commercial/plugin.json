@@ -11,14 +11,11 @@
   "skills": [
     "skills/ad-fund-agreement",
     "skills/area-development-agreement",
-    "skills/bill-of-lading",
     "skills/bulk-sales-compliance",
     "skills/consulting-services-agreement",
     "skills/contract-dispute-analysis",
     "skills/demand-package",
     "skills/enterprise-api-addendum",
-    "skills/far-subcontract",
-    "skills/farmout-agreement",
     "skills/fdd-receipt",
     "skills/first-right-of-refusal-agreement",
     "skills/franchise-agreement",
@@ -32,14 +29,9 @@
     "skills/franchise-rofr",
     "skills/franchise-transfer-agreement",
     "skills/guaranty-agreement",
-    "skills/influencer-agreement-review",
-    "skills/joint-operating-agreement",
-    "skills/oilfield-msa",
-    "skills/power-purchase-agreement",
     "skills/settlement-agreement-summary",
     "skills/site-selection-addendum",
     "skills/subscription-agreement",
-    "skills/teaming-agreement",
     "skills/victor-wang-yc-saas-drafter"
   ]
 }

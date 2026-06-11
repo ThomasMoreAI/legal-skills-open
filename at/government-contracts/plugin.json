@@ -1,0 +1,14 @@
+{
+  "name": "at-government-contracts",
+  "displayName": "Government Contracts & Procurement — Austria",
+  "version": "0.1.0",
+  "description": "Austrian public procurement — Oberschwellen/Unterschwellen determination, eligibility, award documentation, and BVwG review.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "government-contracts",
+  "language": "de",
+  "skills": [
+    "skills/arckit-at-bvergg"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "br-regulatory",
+  "displayName": "Regulatory & Compliance — Brazil",
+  "version": "0.1.0",
+  "description": "Brazilian regulatory compliance checks — identifying applicable regulations, required approvals, and risk areas for a proposed action, product feature, or business initiative.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "regulatory",
+  "language": "pt",
+  "skills": [
+    "skills/legal-compliance-check"
+  ]
+}

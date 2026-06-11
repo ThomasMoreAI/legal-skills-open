@@ -1,0 +1,21 @@
+{
+  "name": "us-energy",
+  "displayName": "Energy & Utilities — United States",
+  "version": "0.1.0",
+  "description": "U.S. energy law — FERC market-based-rate tariffs and energy-sector regulation, power purchase agreements and RECs, and upstream oil & gas (farmout, joint operating, gas gathering, oilfield MSAs).",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "energy",
+  "language": "en",
+  "skills": [
+    "skills/energy-regulation-summaries",
+    "skills/farmout-agreement",
+    "skills/ferc-market-based-rate-tariff",
+    "skills/gas-gathering-agreement",
+    "skills/joint-operating-agreement",
+    "skills/oilfield-msa",
+    "skills/power-purchase-agreement",
+    "skills/rec-purchase-agreement"
+  ]
+}

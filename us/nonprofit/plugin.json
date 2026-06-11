@@ -1,0 +1,26 @@
+{
+  "name": "us-nonprofit",
+  "displayName": "Nonprofit & Charity — United States",
+  "version": "0.1.0",
+  "description": "U.S. nonprofit & charity law — 501(c)(3) formation (Form 1023), state charitable-solicitation registration and annual charity-bureau reports, fundraiser-contract compliance, donation and grant agreements, endowment (UPMIFA) policies, and fiscal sponsorship.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "nonprofit",
+  "language": "en",
+  "skills": [
+    "skills/annual-report-charity-bureau",
+    "skills/charitable-solicitation-registration",
+    "skills/charity-annual-report",
+    "skills/charity-filing-thresholds",
+    "skills/donation-agreement",
+    "skills/endowment-policy-statement",
+    "skills/fiscal-sponsorship-agreement",
+    "skills/form-1023",
+    "skills/form-1023-application",
+    "skills/fundraiser-contract-compliance",
+    "skills/grant-agreement",
+    "skills/nonprofit-compliance-summary",
+    "skills/state-charity-annual-report"
+  ]
+}

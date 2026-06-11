@@ -1,0 +1,14 @@
+{
+  "name": "il-government-contracts",
+  "displayName": "Government Contracts & Procurement — Israel",
+  "version": "0.1.0",
+  "description": "Israeli public-sector tenders (michrazim) — building a complete proposal package: parsing the tender, extracting threshold conditions, producing a compliance checklist, and drafting proposal components.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "government-contracts",
+  "language": "he",
+  "skills": [
+    "skills/israeli-tender-proposal-builder"
+  ]
+}

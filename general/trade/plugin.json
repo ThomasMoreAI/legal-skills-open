@@ -1,0 +1,14 @@
+{
+  "name": "general-trade",
+  "displayName": "International Trade & Customs — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "International trade-policy law — WTO disputes and the GATT/GATS/TRIPS framework, trade remedies, and trade agreements at a multilateral level.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "trade",
+  "language": "en",
+  "skills": [
+    "skills/aussenwirtschaft-wto-handelspolitik"
+  ]
+}

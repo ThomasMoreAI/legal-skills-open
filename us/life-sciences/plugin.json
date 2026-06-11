@@ -1,0 +1,29 @@
+{
+  "name": "us-life-sciences",
+  "displayName": "Life Sciences & Pharma — United States",
+  "version": "0.1.0",
+  "description": "U.S. FDA-regulated life sciences — 510(k) and IND/NDA submissions, device registration and listing, clinical-trial and investigator agreements and informed consent, GMP SOPs, quality agreements, adverse-event reporting, promotional-materials review, and pharma regulatory summaries.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "life-sciences",
+  "language": "en",
+  "skills": [
+    "skills/510k-premarket-notification",
+    "skills/adverse-event-reporting-policy",
+    "skills/clinical-trial-agreement",
+    "skills/clinical-trial-investigator-agreement",
+    "skills/fda-device-registration",
+    "skills/fda-medtech-compliance-auditor",
+    "skills/fda-medtech-compliance-auditor-foolhardy45",
+    "skills/fda-medtech-compliance-auditor-v2",
+    "skills/gmp-sop",
+    "skills/ind-application",
+    "skills/informed-consent-form-clinical-trial",
+    "skills/investigator-agreement",
+    "skills/nda-drug-application",
+    "skills/pharma-reg-summary",
+    "skills/promo-materials-review-policy",
+    "skills/quality-agreement"
+  ]
+}

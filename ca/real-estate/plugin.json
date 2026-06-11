@@ -1,0 +1,14 @@
+{
+  "name": "ca-real-estate",
+  "displayName": "Real Estate — Canada",
+  "version": "0.1.0",
+  "description": "Ontario expropriation procedure — pre-flighting Forms 1–12 under O. Reg. 363/90 (statutory authority, compensation breakdown, notice timing) before service or filing.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/forms-1-12-completeness-verification"
+  ]
+}

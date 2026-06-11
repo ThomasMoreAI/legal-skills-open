@@ -1,0 +1,21 @@
+{
+  "name": "us-trade",
+  "displayName": "International Trade & Customs — United States",
+  "version": "0.1.0",
+  "description": "U.S. international trade & customs — export controls (EAR ECCN classification, ITAR/USML, deemed exports, TCPs, export-compliance programs) and customs (CBP binding rulings, protests, C-TPAT, certificates of origin, import compliance, customs POA, EOR/SLI).",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "trade",
+  "language": "en",
+  "skills": [
+    "skills/c-tpat-security-profile",
+    "skills/cbp-binding-ruling",
+    "skills/certificate-of-origin",
+    "skills/ctpat-security-profile",
+    "skills/customs-power-of-attorney",
+    "skills/customs-protest-form19",
+    "skills/import-compliance-manual",
+    "skills/trade-law-summary"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cross-jurisdiction-sanctions",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "sanctions",
+  "language": "en",
+  "displayName": "Sanctions & Export Controls — Cross-jurisdiction",
+  "description": "Sanctions and export controls — sanctions/embargo screening, export licensing, dual-use and deemed-export analysis, ECCN/USML classification, and export-compliance programs.",
+  "skills": [
+    "skills/aussenwirtschaft-sanktionen-embargos",
+    "skills/new-designation-screening-test-amir-fadavi",
+    "skills/sanktions-compliance-pruefung"
+  ]
+}

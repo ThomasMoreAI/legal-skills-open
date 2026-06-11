@@ -1,0 +1,23 @@
+{
+  "name": "de-energy",
+  "displayName": "Energy & Utilities — Germany",
+  "version": "0.1.0",
+  "description": "German energy law — EEG/KWKG remuneration, grid connection and access, network charges, e-mobility and hydrogen, heat networks, energy-project DD, and BNetzA regulatory/court proceedings.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "energy",
+  "language": "de",
+  "skills": [
+    "skills/energierecht-eeg-kwkg-erzeugung",
+    "skills/energierecht-emobility-wasserstoff",
+    "skills/energierecht-industriekunden",
+    "skills/energierecht-infrastrukturprojekte",
+    "skills/energierecht-kommandocenter",
+    "skills/energierecht-netz-speicher-zugang",
+    "skills/energierecht-transaktionen-dd",
+    "skills/energierecht-verfahren",
+    "skills/energierecht-vertrieb-marktrollen",
+    "skills/energierecht-waerme-quartier"
+  ]
+}

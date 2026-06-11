@@ -1,0 +1,17 @@
+{
+  "name": "de-sanctions",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "sanctions",
+  "language": "de",
+  "displayName": "Sanctions & Export Controls — Germany",
+  "description": "Sanctions and export controls — sanctions/embargo screening, export licensing, dual-use and deemed-export analysis, ECCN/USML classification, and export-compliance programs.",
+  "skills": [
+    "skills/aussenwirtschaft-bafa-genehmigungen",
+    "skills/aussenwirtschaft-exportkontrolle-dual-use",
+    "skills/aussenwirtschaft-gueterlisten-klassifizierung",
+    "skills/aussenwirtschaft-vub-einfuhr-ausfuhr"
+  ]
+}

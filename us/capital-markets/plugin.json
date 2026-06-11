@@ -1,0 +1,33 @@
+{
+  "name": "us-capital-markets",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "capital-markets",
+  "language": "en",
+  "displayName": "Capital Markets — United States",
+  "description": "Capital markets — public and private securities offerings: prospectuses and registration statements (S-1/S-3), periodic reporting (10-K/10-Q/8-K), underwriting, lock-ups, ATM programs, and Regulation D private placements.",
+  "skills": [
+    "skills/atm-equity-distribution-agreement",
+    "skills/bad-actor-disqualification-review",
+    "skills/blue-sky-filings",
+    "skills/comfort-letter-from-auditors",
+    "skills/directed-share-program",
+    "skills/director-officer-questionnaire",
+    "skills/form-10-q",
+    "skills/form-10k",
+    "skills/form-8k",
+    "skills/form-d",
+    "skills/form-d-notice",
+    "skills/lock-up-agreement",
+    "skills/private-placement-memo",
+    "skills/private-placement-memorandum",
+    "skills/prospectus",
+    "skills/prospectus-draft",
+    "skills/sec-opinion-letter",
+    "skills/sec-reg-d-compliance",
+    "skills/shelf-registration-s3",
+    "skills/underwriting-agreement"
+  ]
+}

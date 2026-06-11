@@ -1,0 +1,14 @@
+{
+  "name": "ca-litigation",
+  "displayName": "Litigation — Canada",
+  "version": "0.1.0",
+  "description": "Canadian Crown-law litigation — Crown fiduciary breaches, fund mismanagement, conflicts of interest, and failure to protect reserve lands (Indigenous/Aboriginal-law disputes).",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/fiduciary-duty-negligence"
+  ]
+}

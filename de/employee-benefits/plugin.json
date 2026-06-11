@@ -1,0 +1,21 @@
+{
+  "name": "de-employee-benefits",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "employee-benefits",
+  "language": "de",
+  "displayName": "Employee Benefits & Executive Compensation — Germany",
+  "description": "Employee benefits and executive compensation — ERISA/qualified plans, equity incentive and stock options, deferred comp and 409A/280G, change-in-control and retention, and German occupational pensions (bAV).",
+  "skills": [
+    "skills/buyout-im-ma-deal-asset-vs-share",
+    "skills/drei-stufen-theorie-eingriffsanalyse",
+    "skills/governance-und-anpassungsmechanismen",
+    "skills/harmonisierung-und-migration-rechtssicher",
+    "skills/historisch-gewachsene-altsysteme-due-diligence",
+    "skills/kollektivrechtliche-loesungen-und-sozialplan",
+    "skills/mitbestimmung-betriebsrat-einigungsstelle-bav",
+    "skills/versorgungsordnung-und-betriebsvereinbarung-drafting"
+  ]
+}

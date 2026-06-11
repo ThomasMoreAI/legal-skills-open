@@ -1,0 +1,16 @@
+{
+  "name": "general-sports",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "sports",
+  "language": "en",
+  "displayName": "Sports Law — General (jurisdiction-agnostic)",
+  "description": "Sports law — player and athlete contracts, anti-doping defence, disputes before the Court of Arbitration for Sport, federation governance and disciplinary matters.",
+  "skills": [
+    "skills/mandat-triage-sportrecht",
+    "skills/sports-law-cases",
+    "skills/sports-licensing-summary"
+  ]
+}

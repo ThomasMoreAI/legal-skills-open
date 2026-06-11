@@ -9,25 +9,6 @@
   "practice": "trusts-and-estates",
   "language": "en",
   "skills": [
-    "skills/clause-locator",
-    "skills/clause-risk-review-conflict",
-    "skills/clause-risk-review-missing-items",
-    "skills/clause-risk-review-revision-suggestion",
-    "skills/clause-risk-review-risk-alert",
-    "skills/co-sign-opinion-summary",
-    "skills/contract-clause-guarantee-agreement",
-    "skills/contract-clause-trust-contract",
-    "skills/contract-clause-trustee-agreement",
-    "skills/contract-keypoints-quickview",
-    "skills/contract-version-compare-supplemental-agreement",
-    "skills/legal-qa",
-    "skills/legal-risk-summary",
-    "skills/liable-party-identification",
-    "skills/litigation-penalty-scan",
-    "skills/regulation-match-trust-regulatory",
-    "skills/review-opinion-generator",
-    "skills/succession-planning-summary",
-    "skills/template-clause-recommender",
-    "skills/text-diff-highlight"
+    "skills/succession-planning-summary"
   ]
 }

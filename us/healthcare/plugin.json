@@ -10,8 +10,6 @@
   "language": "en",
   "skills": [
     "skills/chart-audit-protocol",
-    "skills/clinical-trial-agreement",
-    "skills/clinical-trial-investigator-agreement",
     "skills/corrective-action-plan",
     "skills/corrective-action-plan-deficiencies",
     "skills/cpom-compliance",
@@ -35,8 +33,6 @@
     "skills/hitech-act-privacy",
     "skills/incident-to-billing-policy",
     "skills/informed-consent-form",
-    "skills/informed-consent-form-clinical-trial",
-    "skills/investigator-agreement",
     "skills/managed-care-contract",
     "skills/medical-director-agreement",
     "skills/patient-consent-simplifier",

@@ -1,0 +1,23 @@
+{
+  "name": "us-sanctions",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "sanctions",
+  "language": "en",
+  "displayName": "Sanctions & Export Controls — United States",
+  "description": "Sanctions and export controls — sanctions/embargo screening, export licensing, dual-use and deemed-export analysis, ECCN/USML classification, and export-compliance programs.",
+  "skills": [
+    "skills/aussenwirtschaft-us-ear-itar",
+    "skills/ear",
+    "skills/ecp-manual",
+    "skills/eor-agreement",
+    "skills/exchek-deemed-export",
+    "skills/itar",
+    "skills/itar-tcp",
+    "skills/itar-technology-control-plan",
+    "skills/shippers-letter-of-instruction",
+    "skills/us-export-expert"
+  ]
+}

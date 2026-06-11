@@ -1,0 +1,15 @@
+{
+  "name": "eu-trade",
+  "displayName": "International Trade & Customs — European Union",
+  "version": "0.1.0",
+  "description": "EU external-trade law — antidumping/anti-subsidy and safeguard measures, and the Carbon Border Adjustment Mechanism (CBAM) for imports from third countries.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "trade",
+  "language": "en",
+  "skills": [
+    "skills/aussenwirtschaft-antidumping-ausgleich",
+    "skills/aussenwirtschaft-cbam-co2-zoll"
+  ]
+}

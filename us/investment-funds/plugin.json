@@ -1,0 +1,22 @@
+{
+  "name": "us-investment-funds",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "investment-funds",
+  "language": "en",
+  "displayName": "Investment Funds & Asset Management — United States",
+  "description": "Investment funds and asset management — PE/VC/hedge fund formation (LPA, capital calls, carried interest, side letters, subscriptions) and investment-adviser registration and compliance (Form ADV, advisory agreements).",
+  "skills": [
+    "skills/capital-call-notice",
+    "skills/carta-form-adv",
+    "skills/form-adv",
+    "skills/fund-subscription-agreement",
+    "skills/investment-advisory-agreement",
+    "skills/limited-partnership-agreement",
+    "skills/lpa-agreement",
+    "skills/management-rights-letter",
+    "skills/side-letter"
+  ]
+}

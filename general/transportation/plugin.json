@@ -1,0 +1,14 @@
+{
+  "name": "general-transportation",
+  "displayName": "Transportation & Logistics — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "International road-freight carrier liability — the carrier's liability under the CMR Convention for loss, damage, or delay in cross-border carriage of goods by road.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "transportation",
+  "language": "en",
+  "skills": [
+    "skills/fachanwalt-transport-speditionsrecht-cmr-haftung"
+  ]
+}
