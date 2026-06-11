@@ -4,12 +4,14 @@ White-collar and investigations — anti-corruption (FCPA), anti-money-launderin
 
 Jurisdiction: `us` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (4)
+## Skills (6)
 
 | Skill | Practice |
 |---|---|
+| [`aml-compliance`](skills/aml-compliance/) | `white-collar` |
 | [`aml-compliance-program`](skills/aml-compliance-program/) | `white-collar` |
 | [`bsa-risk-assessment`](skills/bsa-risk-assessment/) | `white-collar` |
+| [`cip-policy`](skills/cip-policy/) | `white-collar` |
 | [`fcpa-compliance-policy`](skills/fcpa-compliance-policy/) | `white-collar` |
 | [`sar-filing`](skills/sar-filing/) | `white-collar` |
 

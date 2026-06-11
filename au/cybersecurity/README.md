@@ -4,10 +4,11 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `au` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (1)
+## Skills (2)
 
 | Skill | Practice |
 |---|---|
+| [`au-apra-cps-234-expert`](skills/au-apra-cps-234-expert/) | `cybersecurity` |
 | [`ism`](skills/ism/) | `cybersecurity` |
 
 ## Cold-start context

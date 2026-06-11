@@ -1,0 +1,14 @@
+{
+  "name": "eu-aviation",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "aviation",
+  "language": "de",
+  "displayName": "Aviation & Aerospace — European Union",
+  "description": "EU air-passenger-rights law — Regulation (EC) 261/2004 (cancellation, long delay, denied boarding, Article 7 compensation) and the CJEU case law on extraordinary circumstances.",
+  "skills": [
+    "skills/ausnahmen-aussergewoehnliche-umstaende-pruefen"
+  ]
+}
