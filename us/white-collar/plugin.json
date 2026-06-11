@@ -9,8 +9,10 @@
   "displayName": "White-Collar & Investigations — United States",
   "description": "White-collar and investigations — anti-corruption (FCPA), anti-money-laundering (BSA/AML, SAR filing, risk assessment), and corporate criminal/regulatory compliance with financial-crime exposure.",
   "skills": [
+    "skills/aml-compliance",
     "skills/aml-compliance-program",
     "skills/bsa-risk-assessment",
+    "skills/cip-policy",
     "skills/fcpa-compliance-policy",
     "skills/sar-filing"
   ]

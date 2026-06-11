@@ -4,7 +4,7 @@ Employee benefits and executive compensation — ERISA/qualified plans, equity i
 
 Jurisdiction: `de` · Practice: `employee-benefits` · Skill language varies per skill.
 
-## Skills (8)
+## Skills (11)
 
 | Skill | Practice |
 |---|---|
@@ -15,6 +15,9 @@ Jurisdiction: `de` · Practice: `employee-benefits` · Skill language varies per
 | [`historisch-gewachsene-altsysteme-due-diligence`](skills/historisch-gewachsene-altsysteme-due-diligence/) | `employee-benefits` |
 | [`kollektivrechtliche-loesungen-und-sozialplan`](skills/kollektivrechtliche-loesungen-und-sozialplan/) | `employee-benefits` |
 | [`mitbestimmung-betriebsrat-einigungsstelle-bav`](skills/mitbestimmung-betriebsrat-einigungsstelle-bav/) | `employee-benefits` |
+| [`pension-buyout-strukturierung-und-de-risking`](skills/pension-buyout-strukturierung-und-de-risking/) | `employee-benefits` |
+| [`pensionsmodelle-fuenf-durchfuehrungswege`](skills/pensionsmodelle-fuenf-durchfuehrungswege/) | `employee-benefits` |
+| [`psv-pensionssicherungsverein-und-haftungsketten`](skills/psv-pensionssicherungsverein-und-haftungsketten/) | `employee-benefits` |
 | [`versorgungsordnung-und-betriebsvereinbarung-drafting`](skills/versorgungsordnung-und-betriebsvereinbarung-drafting/) | `employee-benefits` |
 
 ## Cold-start context
