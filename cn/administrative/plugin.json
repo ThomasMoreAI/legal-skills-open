@@ -1,0 +1,14 @@
+{
+  "name": "cn-administrative",
+  "displayName": "Administrative Procedure & Public Services — China",
+  "version": "0.1.0",
+  "description": "Chinese administrative-procedure review — checking administrative (public-security) case documents for procedural compliance across filing, summons, handling outcomes, evidence, and rights protection.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cn",
+  "practice": "administrative",
+  "language": "zh",
+  "skills": [
+    "skills/admin-review"
+  ]
+}

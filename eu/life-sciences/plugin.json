@@ -1,0 +1,14 @@
+{
+  "name": "eu-life-sciences",
+  "displayName": "Life Sciences & Pharma — European Union",
+  "version": "0.1.0",
+  "description": "EU medical-device regulation — MDR (EU) 2017/745: device classification, technical documentation, clinical evidence, and post-market surveillance.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "life-sciences",
+  "language": "en",
+  "skills": [
+    "skills/mdr-745-specialist-ovachiever"
+  ]
+}

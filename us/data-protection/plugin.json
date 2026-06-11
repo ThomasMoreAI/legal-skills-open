@@ -22,13 +22,10 @@
     "skills/data-breach-consumer-notice",
     "skills/data-retention-and-destruction-policy",
     "skills/global-privacy-control",
-    "skills/incident-response-plan",
-    "skills/incident-response-playbook",
     "skills/iowa-consumer-privacy",
     "skills/kentucky-kppa",
     "skills/montana-mtdpa",
     "skills/new-jersey-dpa",
-    "skills/nydfs-expert",
     "skills/oregon-ocpa-compliance",
     "skills/soc2-privacy-audit",
     "skills/state-law-applicability",
@@ -36,7 +33,6 @@
     "skills/universal-opt-out",
     "skills/us-ccpa-expert",
     "skills/us-privacy-federal",
-    "skills/vcdpa-compliance",
-    "skills/wisp"
+    "skills/vcdpa-compliance"
   ]
 }

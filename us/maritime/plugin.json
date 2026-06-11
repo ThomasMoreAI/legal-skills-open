@@ -1,0 +1,15 @@
+{
+  "name": "us-maritime",
+  "displayName": "Maritime & Admiralty — United States",
+  "version": "0.1.0",
+  "description": "U.S. maritime & admiralty law — ocean bills of lading and carriage of goods, and case analysis of admiralty jurisdiction, collisions, liens, salvage, cargo damage, charter parties, and injury aboard vessels.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "maritime",
+  "language": "en",
+  "skills": [
+    "skills/bill-of-lading",
+    "skills/maritime-case-summary"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ca-constitutional",
+  "displayName": "Constitutional & Public Law — Canada",
+  "version": "0.1.0",
+  "description": "Canadian Charter rights review — s.2, s.7, s.8, s.15 — applying the Oakes proportionality framework to government action or legislation.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "constitutional",
+  "language": "en",
+  "skills": [
+    "skills/arckit-ca-charter"
+  ]
+}

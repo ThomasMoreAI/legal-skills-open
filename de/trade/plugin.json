@@ -1,0 +1,19 @@
+{
+  "name": "de-trade",
+  "displayName": "International Trade & Customs — Germany",
+  "version": "0.1.0",
+  "description": "German/EU foreign-trade law (Außenwirtschaftsrecht) — export control and dual-use, BAFA licensing, customs (classification, value, origin, procedures), AWV reporting, and trade investigations.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "trade",
+  "language": "de",
+  "skills": [
+    "skills/aussenwirtschaft-awv-bundesbank",
+    "skills/aussenwirtschaft-kommandocenter",
+    "skills/aussenwirtschaft-pruefung-ermittlung",
+    "skills/aussenwirtschaft-zolltarif-vzta",
+    "skills/aussenwirtschaft-zollverfahren-bewilligungen",
+    "skills/aussenwirtschaft-zollwert-ursprung"
+  ]
+}

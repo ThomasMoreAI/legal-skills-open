@@ -1,0 +1,14 @@
+{
+  "name": "us-military",
+  "displayName": "Military & Defence Law — United States",
+  "version": "0.1.0",
+  "description": "U.S. military & defence law — courts-martial, UCMJ disciplinary actions, administrative separations, and military appellate decisions.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "military",
+  "language": "en",
+  "skills": [
+    "skills/military-law-summary"
+  ]
+}

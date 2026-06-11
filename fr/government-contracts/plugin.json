@@ -1,0 +1,14 @@
+{
+  "name": "fr-government-contracts",
+  "displayName": "Government Contracts & Procurement — France",
+  "version": "0.1.0",
+  "description": "French public procurement (commande publique) — procurement documentation aligned with the code de la commande publique, UGAP catalogue, and DINUM digital standards.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "government-contracts",
+  "language": "fr",
+  "skills": [
+    "skills/arckit-fr-marche-public"
+  ]
+}

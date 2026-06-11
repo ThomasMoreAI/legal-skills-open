@@ -1,0 +1,20 @@
+{
+  "name": "de-constitutional",
+  "displayName": "Constitutional & Public Law — Germany",
+  "version": "0.1.0",
+  "description": "German constitutional-law analysis — Grundrechtsprüfung (Schutzbereich/Eingriff/Rechtfertigung), Verhältnismäßigkeit, legislative competence (Art. 70–74 GG), Verordnungsermächtigung (Art. 80 GG), and Verfassungsmäßigkeit cross-checks of draft legislation.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "constitutional",
+  "language": "de",
+  "skills": [
+    "skills/gesetzentwurf-gg-konformitaet-pruefen",
+    "skills/gesetzgebungskompetenz-pruefen",
+    "skills/grundrechte-pruefung-de-und-grch",
+    "skills/grundrechtspruefung",
+    "skills/verfassungsmaessigkeit-quercheck",
+    "skills/verfassungsrechtliche-pruefung",
+    "skills/verordnungsermaechtigung-art80"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "general-life-sciences",
+  "displayName": "Life Sciences & Pharma — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Cross-agency life-sciences quality and compliance — GxP audits, compliance-architecture and computerised-system validation (IQ/OQ/PQ), data integrity (ALCOA+), inspection readiness (FDA/EMA/MHRA), vendor qualification, and EU MDR device compliance.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "life-sciences",
+  "language": "en",
+  "skills": [
+    "skills/conduct-gxp-audit",
+    "skills/conduct-gxp-audit-2",
+    "skills/conduct-gxp-audit-pjt222",
+    "skills/design-compliance-architecture",
+    "skills/design-compliance-architecture-pjt222",
+    "skills/mdr-745-specialist",
+    "skills/monitor-data-integrity",
+    "skills/prepare-inspection-readiness",
+    "skills/prepare-inspection-readiness-2",
+    "skills/prepare-inspection-readiness-pjt222",
+    "skills/qualify-vendor",
+    "skills/write-validation-documentation"
+  ]
+}

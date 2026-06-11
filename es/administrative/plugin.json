@@ -1,0 +1,14 @@
+{
+  "name": "es-administrative",
+  "displayName": "Administrative Procedure & Public Services — Spain",
+  "version": "0.1.0",
+  "description": "Spanish administrative procedure — guiding through the common administrative procedure: deadlines, administrative silence, and administrative appeals.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "administrative",
+  "language": "es",
+  "skills": [
+    "skills/procedimiento"
+  ]
+}

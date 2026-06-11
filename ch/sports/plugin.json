@@ -1,0 +1,14 @@
+{
+  "name": "ch-sports",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "sports",
+  "language": "de",
+  "displayName": "Sports Law — Switzerland",
+  "description": "Sports law — player and athlete contracts, anti-doping defence, disputes before the Court of Arbitration for Sport, federation governance and disciplinary matters.",
+  "skills": [
+    "skills/cas-berufung-vorbereiten"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "de-transportation",
+  "displayName": "Transportation & Logistics — Germany",
+  "version": "0.1.0",
+  "description": "German transport, freight-forwarding and transport-infrastructure law — carrier/forwarder liability (Speditionsrecht), cargo damage and delay, claims; plus road/rail/ÖPNV infrastructure, Planfeststellung, parking, charging infrastructure, and Verkehrswende measures.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "transportation",
+  "language": "de",
+  "skills": [
+    "skills/fachanwalt-transport-speditionsrecht-ladungsschaden",
+    "skills/fachanwalt-transport-speditionsrecht-lieferverzug",
+    "skills/fachanwalt-transport-speditionsrecht-orientierung",
+    "skills/frachtfuehrerhaftung-pruefen",
+    "skills/mandat-triage-transport-speditionsrecht",
+    "skills/reklamationsschreiben-cmr-hgb",
+    "skills/verkehr-infrastrukturrecht-kommandocenter",
+    "skills/verkehr-infrastrukturrecht-ladeinfrastruktur",
+    "skills/verkehr-infrastrukturrecht-parkraumbewirtschaftung",
+    "skills/verkehr-infrastrukturrecht-planfeststellung",
+    "skills/verkehr-infrastrukturrecht-schulwegsicherheit",
+    "skills/verkehr-infrastrukturrecht-sondernutzung",
+    "skills/verkehr-infrastrukturrecht-strassenbahn",
+    "skills/verkehr-infrastrukturrecht-verfahren",
+    "skills/verkehr-infrastrukturrecht-verkehrsplanung",
+    "skills/verkehr-infrastrukturrecht-verkehrswende"
+  ]
+}

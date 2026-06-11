@@ -1,0 +1,16 @@
+{
+  "name": "cross-jurisdiction-employee-benefits",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "employee-benefits",
+  "language": "en",
+  "displayName": "Employee Benefits & Executive Compensation — Cross-jurisdiction",
+  "description": "Employee benefits and executive compensation — ERISA/qualified plans, equity incentive and stock options, deferred comp and 409A/280G, change-in-control and retention, and German occupational pensions (bAV).",
+  "skills": [
+    "skills/country-by-country-benefits-matrix-konzern",
+    "skills/internationale-harmonisierung-konzern-bav",
+    "skills/japan-bav-und-corporate-pension-iorp"
+  ]
+}

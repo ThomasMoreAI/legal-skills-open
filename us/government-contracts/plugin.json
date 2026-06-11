@@ -1,0 +1,27 @@
+{
+  "name": "us-government-contracts",
+  "displayName": "Government Contracts & Procurement — United States",
+  "version": "0.1.0",
+  "description": "U.S. federal government contracting — GSA Schedule and FAR-compliant subcontracts, teaming, OCI mitigation, subcontracting plans, CDA certified claims and REAs, T4C settlements, bid protests, SAM registration, and FAR/DFARS compliance audits.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "government-contracts",
+  "language": "en",
+  "skills": [
+    "skills/cda-certified-claim",
+    "skills/compliance-auditor",
+    "skills/dd-form-254",
+    "skills/far-subcontract",
+    "skills/gsa-schedule-contract",
+    "skills/oci-mitigation-plan",
+    "skills/past-performance-questionnaire",
+    "skills/protest-notice",
+    "skills/rea-request",
+    "skills/rfp-response",
+    "skills/sam-reps-certs",
+    "skills/subcontracting-plan",
+    "skills/t4c-settlement-proposal",
+    "skills/teaming-agreement"
+  ]
+}

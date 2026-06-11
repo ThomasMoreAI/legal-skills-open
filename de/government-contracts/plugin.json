@@ -1,0 +1,20 @@
+{
+  "name": "de-government-contracts",
+  "displayName": "Government Contracts & Procurement — Germany",
+  "version": "0.1.0",
+  "description": "German public procurement (Vergaberecht) — bidder eligibility, Rüge before award, Nachprüfungsantrag to the Vergabekammer, and prospects assessment.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "government-contracts",
+  "language": "de",
+  "skills": [
+    "skills/fachanwalt-vergaberecht-eignungspruefung",
+    "skills/fachanwalt-vergaberecht-nachpruefungsantrag-vk",
+    "skills/fachanwalt-vergaberecht-orientierung",
+    "skills/fachanwalt-vergaberecht-ruege-vor-zuschlag",
+    "skills/mandat-triage-vergaberecht",
+    "skills/ruegeschriftsatz-erstellen",
+    "skills/vergabe-nachpruefung-aussicht"
+  ]
+}

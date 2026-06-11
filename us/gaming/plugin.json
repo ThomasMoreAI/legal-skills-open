@@ -1,0 +1,14 @@
+{
+  "name": "us-gaming",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "gaming",
+  "language": "en",
+  "displayName": "Gaming & Gambling — United States",
+  "description": "Gaming and gambling law — licensing of casinos, sportsbooks and operators, sports betting, lotteries, online/iGaming, and gaming-sector AML.",
+  "skills": [
+    "skills/gambling-law-summary"
+  ]
+}

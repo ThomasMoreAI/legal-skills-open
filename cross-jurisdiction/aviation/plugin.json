@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-aviation",
+  "displayName": "Aviation & Aerospace — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Comparative and international aviation-law summaries — regulatory frameworks, treaties, and case law across U.S. and international regimes.",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "aviation",
+  "language": "en",
+  "skills": [
+    "skills/aviation-law-summary"
+  ]
+}

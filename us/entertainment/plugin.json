@@ -1,0 +1,14 @@
+{
+  "name": "us-entertainment",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "entertainment",
+  "language": "en",
+  "displayName": "Media & Entertainment — United States",
+  "description": "Media & entertainment — film/TV/music production, talent and artist agreements, influencer/creator deals, content licensing and merchandising, and rights of publicity.",
+  "skills": [
+    "skills/influencer-agreement-review"
+  ]
+}

@@ -25,12 +25,10 @@
     "skills/breach-documentation",
     "skills/breach-simulation",
     "skills/breach-subject-comms",
-    "skills/breach-summary",
     "skills/canned-responses-escalation-triggers-all-categories",
     "skills/cite-check",
     "skills/cloud-provider-assessment",
     "skills/cold-start-interview-10",
-    "skills/compliance-and-audit",
     "skills/compliance-checklist",
     "skills/compliance-checklist-generation",
     "skills/compliance-evidence-cembasaranoglu",
@@ -42,7 +40,6 @@
     "skills/cookie-policy-page-generator",
     "skills/criminal-data-handling",
     "skills/customize-11",
-    "skills/cybersecurity-breach-summary",
     "skills/data-inventory-mapping",
     "skills/data-portability",
     "skills/data-privacy",
@@ -82,8 +79,6 @@
     "skills/generating-compliance-reports",
     "skills/google-consent-mode-v2",
     "skills/indirect-collection-notice",
-    "skills/information-security-policy",
-    "skills/ir-tabletop-exercise",
     "skills/iso27701",
     "skills/joint-controller-art26",
     "skills/kwp-legal-canned-responses",
@@ -134,7 +129,6 @@
     "skills/use-case-triage",
     "skills/vendor-ai-review-anthropics",
     "skills/vendor-privacy-audit",
-    "skills/vendor-privacy-due-diligence",
-    "skills/vendor-security-assessment"
+    "skills/vendor-privacy-due-diligence"
   ]
 }

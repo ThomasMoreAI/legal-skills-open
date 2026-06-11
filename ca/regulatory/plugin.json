@@ -9,10 +9,8 @@
   "practice": "regulatory",
   "language": "en",
   "skills": [
-    "skills/arckit-ca-charter",
     "skills/arckit-ca-fitaa",
     "skills/arckit-ca-ola",
-    "skills/arckit-ca-soia",
-    "skills/forms-1-12-completeness-verification"
+    "skills/arckit-ca-soia"
   ]
 }
