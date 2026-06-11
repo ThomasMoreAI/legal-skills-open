@@ -1,0 +1,14 @@
+{
+  "name": "pl-administrative",
+  "displayName": "Administrative Procedure — PL",
+  "version": "0.1.0",
+  "description": "Polish administrative-procedure skills — choosing the correct legal regime for letters, requests, applications, and complaints to authorities (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "administrative",
+  "language": "pl",
+  "skills": [
+    "skills/determining-pl-request-regime"
+  ]
+}

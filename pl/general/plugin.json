@@ -1,0 +1,15 @@
+{
+  "name": "pl-general",
+  "displayName": "General / Legal Research — PL",
+  "version": "0.1.0",
+  "description": "Cross-cutting Polish legal-research utilities — citation formatting and statute retrieval from the official ISAP portal (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "general",
+  "language": "pl",
+  "skills": [
+    "skills/citing-polish-law",
+    "skills/fetching-isap-sejm"
+  ]
+}

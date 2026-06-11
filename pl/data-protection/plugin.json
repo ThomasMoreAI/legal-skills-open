@@ -1,0 +1,14 @@
+{
+  "name": "pl-data-protection",
+  "displayName": "Data Protection (RODO) — PL",
+  "version": "0.1.0",
+  "description": "Polish data-protection skills — drafting and reviewing RODO/GDPR documents and mapping obligations under RODO (2016/679) and the Polish UODO (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "data-protection",
+  "language": "pl",
+  "skills": [
+    "skills/applying-rodo"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pl-immigration",
+  "displayName": "Immigration — PL",
+  "version": "0.1.0",
+  "description": "Polish immigration skills — residence, work, and citizenship procedures for foreigners (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "immigration",
+  "language": "pl",
+  "skills": [
+    "skills/applying-cudzoziemcy-procedures"
+  ]
+}

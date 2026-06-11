@@ -1,0 +1,14 @@
+{
+  "name": "pl-social-security",
+  "displayName": "Social Security (ZUS) — PL",
+  "version": "0.1.0",
+  "description": "Polish social-insurance skills — ZUS procedures for contributors and beneficiaries: registration, benefits, pensions, payment reliefs, and appeals to the social-insurance courts (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "social-security",
+  "language": "pl",
+  "skills": [
+    "skills/applying-zus-procedures"
+  ]
+}
