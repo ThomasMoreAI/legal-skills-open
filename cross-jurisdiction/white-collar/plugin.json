@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-white-collar",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "white-collar",
+  "language": "en",
+  "displayName": "White-Collar & Investigations — Cross-jurisdiction",
+  "description": "White-collar and investigations across jurisdictions — anti-money-laundering (AML/KYC), beneficial-ownership and sanctions/PEP screening, and financial-crime compliance.",
+  "skills": [
+    "skills/regdata-kyc-aml"
+  ]
+}

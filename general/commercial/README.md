@@ -4,16 +4,38 @@ Business-to-business commercial agreements, sales of goods, distribution, and se
 
 Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 
-## Skills (6)
+## Skills (28)
 
-| Skill | What it does |
+| Skill | Practice |
 |---|---|
-| [`Commercial Invoice for Export`](skills/commercial-invoice-for-export/) | Drafts a compliant Commercial Invoice for Export satisfying customs, banking (L/C), logistics, and insurance… |
-| [`International Distribution Agreement`](skills/international-distribution-agreement/) | Drafts an international distribution agreement covering appointment, territory, exclusivity, Incoterms, export… |
-| [`International Distribution Agreement`](skills/intl-distribution-agreement/) | Drafts international distribution agreements for cross-border supplier–distributor relationships. |
-| [`O&M Agreement`](skills/om-agreement/) | Drafts Operations and Maintenance agreements for energy facilities covering scope, performance standards, compensation,… |
-| [`SaaS License Agreement`](skills/saas-license-agreement/) | Drafts SaaS License Agreements for cloud-based software subscriptions covering access-based licensing, fees, SLAs, IP,… |
-| [`Sports Licensing Agreement Summary`](skills/sports-licensing-summary/) | Summarizes sports licensing agreements (merchandise, broadcasting, endorsement) into structured frameworks extracting… |
+| [`cisg-pruefen`](skills/cisg-pruefen/) | `commercial` |
+| [`cold-start-interview-4`](skills/cold-start-interview-4/) | `commercial` |
+| [`cold-start-interview-stubbi`](skills/cold-start-interview-stubbi/) | `commercial` |
+| [`common-law-ma-commercial-drafting`](skills/common-law-ma-commercial-drafting/) | `commercial` |
+| [`customize`](skills/customize/) | `commercial` |
+| [`customize-5`](skills/customize-5/) | `commercial` |
+| [`escalation-flagger`](skills/escalation-flagger/) | `commercial` |
+| [`escalation-flagger-stubbi`](skills/escalation-flagger-stubbi/) | `commercial` |
+| [`fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung`](skills/fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung/) | `commercial` |
+| [`international-distribution-agreement`](skills/international-distribution-agreement/) | `commercial` |
+| [`intl-distribution-agreement`](skills/intl-distribution-agreement/) | `commercial` |
+| [`matter-workspace-alexchlou`](skills/matter-workspace-alexchlou/) | `commercial` |
+| [`msa-review-commercial-purchase`](skills/msa-review-commercial-purchase/) | `commercial` |
+| [`msa-review-saas`](skills/msa-review-saas/) | `commercial` |
+| [`msa-snapshot`](skills/msa-snapshot/) | `commercial` |
+| [`om-agreement`](skills/om-agreement/) | `commercial` |
+| [`renewal-tracker`](skills/renewal-tracker/) | `commercial` |
+| [`renewal-tracker-zhou210712`](skills/renewal-tracker-zhou210712/) | `commercial` |
+| [`review-contract-nmoralescyber`](skills/review-contract-nmoralescyber/) | `commercial` |
+| [`review-proposals`](skills/review-proposals/) | `commercial` |
+| [`revision-mercantil`](skills/revision-mercantil/) | `commercial` |
+| [`saas-license-agreement`](skills/saas-license-agreement/) | `commercial` |
+| [`saas-msa-review`](skills/saas-msa-review/) | `commercial` |
+| [`saas-msa-review-anthropics`](skills/saas-msa-review-anthropics/) | `commercial` |
+| [`template-synthesizer`](skills/template-synthesizer/) | `commercial` |
+| [`vendor-agreement-review`](skills/vendor-agreement-review/) | `commercial` |
+| [`vendor-agreement-review-anthropics`](skills/vendor-agreement-review-anthropics/) | `commercial` |
+| [`vendor-agreement-review-stubbi`](skills/vendor-agreement-review-stubbi/) | `commercial` |
 
 ## Cold-start context
 

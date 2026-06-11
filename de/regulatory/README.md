@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 
-## Skills (89)
+## Skills (84)
 
 | Skill | Practice |
 |---|---|
@@ -15,7 +15,6 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`anwendungsfall-triage-klotzkette`](skills/anwendungsfall-triage-klotzkette/) | `regulatory` |
 | [`aufsichts-feed-monitor`](skills/aufsichts-feed-monitor/) | `regulatory` |
 | [`aufstellungsbeschluss-bekanntmachung`](skills/aufstellungsbeschluss-bekanntmachung/) | `regulatory` |
-| [`aussenwirtschaft-aml-kyc-sanktionen`](skills/aussenwirtschaft-aml-kyc-sanktionen/) | `regulatory` |
 | [`aussenwirtschaft-presse-krise`](skills/aussenwirtschaft-presse-krise/) | `regulatory` |
 | [`begrenztes-risiko-art-50-transparenzpflichten`](skills/begrenztes-risiko-art-50-transparenzpflichten/) | `regulatory` |
 | [`begruendung-allgemein-und-besonders`](skills/begruendung-allgemein-und-besonders/) | `regulatory` |
@@ -43,8 +42,6 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`feature-risikobewertung`](skills/feature-risikobewertung/) | `regulatory` |
 | [`folgenabschaetzung-erfuellungsaufwand`](skills/folgenabschaetzung-erfuellungsaufwand/) | `regulatory` |
 | [`formulierungshilfe-bauen`](skills/formulierungshilfe-bauen/) | `regulatory` |
-| [`fruehwarnsystem-architektur-zwei-jahres-horizont`](skills/fruehwarnsystem-architektur-zwei-jahres-horizont/) | `regulatory` |
-| [`genehmigungspflicht-pruefung`](skills/genehmigungspflicht-pruefung/) | `regulatory` |
 | [`gesetzesentwurf-kabinett`](skills/gesetzesentwurf-kabinett/) | `regulatory` |
 | [`goldplating-vermeiden`](skills/goldplating-vermeiden/) | `regulatory` |
 | [`governance-aufsichtsbehoerden-art-70`](skills/governance-aufsichtsbehoerden-art-70/) | `regulatory` |
@@ -58,7 +55,6 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`kanzlei-kontext-analyse`](skills/kanzlei-kontext-analyse/) | `regulatory` |
 | [`kennzeichnungspflichten-veroeffentlichungen`](skills/kennzeichnungspflichten-veroeffentlichungen/) | `regulatory` |
 | [`ki-vo-betreiber-pflichten`](skills/ki-vo-betreiber-pflichten/) | `regulatory` |
-| [`kyc-aml-geldwaesche`](skills/kyc-aml-geldwaesche/) | `regulatory` |
 | [`launch-pruefung`](skills/launch-pruefung/) | `regulatory` |
 | [`legistik-auftragsaufnahme`](skills/legistik-auftragsaufnahme/) | `regulatory` |
 | [`literatur-und-quellen`](skills/literatur-und-quellen/) | `regulatory` |
@@ -72,7 +68,6 @@ Jurisdiction: `de` · Practice: `regulatory` · Skill language: de
 | [`normenkontrollrat-kmu-check`](skills/normenkontrollrat-kmu-check/) | `regulatory` |
 | [`normhierarchie-routing`](skills/normhierarchie-routing/) | `regulatory` |
 | [`output-betreiber-checkliste-und-folgenabschaetzung`](skills/output-betreiber-checkliste-und-folgenabschaetzung/) | `regulatory` |
-| [`paragraph-1-starug-pflichten-und-24-monats-horizont`](skills/paragraph-1-starug-pflichten-und-24-monats-horizont/) | `regulatory` |
 | [`parallelnormen-andere-berufe`](skills/parallelnormen-andere-berufe/) | `regulatory` |
 | [`planerhaltung-214-215-baugb`](skills/planerhaltung-214-215-baugb/) | `regulatory` |
 | [`preisangaben`](skills/preisangaben/) | `regulatory` |

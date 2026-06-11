@@ -4,11 +4,12 @@ International trade-policy law — WTO disputes and the GATT/GATS/TRIPS framewor
 
 Jurisdiction: `general` · Practice: `trade` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (1)
+## Skills (2)
 
 | Skill | Practice |
 |---|---|
 | [`aussenwirtschaft-wto-handelspolitik`](skills/aussenwirtschaft-wto-handelspolitik/) | `trade` |
+| [`commercial-invoice-for-export`](skills/commercial-invoice-for-export/) | `trade` |
 
 ## Cold-start context
 

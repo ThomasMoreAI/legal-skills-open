@@ -4,14 +4,25 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (4)
+## Skills (15)
 
-| Skill | What it does |
+| Skill | Practice |
 |---|---|
-| [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. and international regulatory frameworks, treaties, and… |
-| [`Cultural Heritage Protection Summary`](skills/cultural-heritage-summary/) | Produces structured, citation-ready summaries of legal developments in cultural heritage protection covering repatriation, site protection,… |
-| [`Cultural Heritage Protection Legal Summary`](skills/heritage-protection-summary/) | Generates structured legal briefings on cultural heritage protection developments. |
-| [`New Designation Screening Test Generator`](skills/new-designation-screening-test-amir-fadavi/) | Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists plus deliberate variations of those… |
+| [`agency-legal-compliance-checker-2`](skills/agency-legal-compliance-checker-2/) | `regulatory` |
+| [`ai-regulatory-mapper`](skills/ai-regulatory-mapper/) | `regulatory` |
+| [`ce-regulatory-compliance`](skills/ce-regulatory-compliance/) | `regulatory` |
+| [`compliance-auditor-belokonm`](skills/compliance-auditor-belokonm/) | `regulatory` |
+| [`compliance-mapping`](skills/compliance-mapping/) | `regulatory` |
+| [`compliance-mapping-community-access`](skills/compliance-mapping-community-access/) | `regulatory` |
+| [`cultural-heritage-summary`](skills/cultural-heritage-summary/) | `regulatory` |
+| [`de-eu-recht-abgrenzung`](skills/de-eu-recht-abgrenzung/) | `regulatory` |
+| [`europarecht-vorrang-unmittelbare-wirkung`](skills/europarecht-vorrang-unmittelbare-wirkung/) | `regulatory` |
+| [`europarechtskonformitaet`](skills/europarechtskonformitaet/) | `regulatory` |
+| [`geldwaesche-sanktionsscreening`](skills/geldwaesche-sanktionsscreening/) | `regulatory` |
+| [`heritage-protection-summary`](skills/heritage-protection-summary/) | `regulatory` |
+| [`ksb-d07-k0033`](skills/ksb-d07-k0033/) | `regulatory` |
+| [`reg-gap-analysis`](skills/reg-gap-analysis/) | `regulatory` |
+| [`regulatory-guard`](skills/regulatory-guard/) | `regulatory` |
 
 ## Cold-start context
 

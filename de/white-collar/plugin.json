@@ -9,6 +9,7 @@
   "displayName": "Wirtschaftsstrafrecht & Investigations — Deutschland",
   "description": "White-collar and investigations — Geldwäscheprävention (GwG/AML, KYC, Verdachtsmeldung an die FIU), Sanktionsscreening, und Compliance bei Wirtschaftsstraftaten (Korruption, FIU/goAML).",
   "skills": [
+    "skills/aussenwirtschaft-aml-kyc-sanktionen",
     "skills/geldwaesche-audit-internal-revision",
     "skills/geldwaesche-behoerdenverfahren",
     "skills/geldwaesche-bussgeld-reputation",
@@ -25,6 +26,7 @@
     "skills/geldwaesche-transaktionsmonitoring",
     "skills/geldwaesche-ubo-wirtschaftlich-berechtigte",
     "skills/geldwaesche-verdachtsmeldung-fiu-goaml",
-    "skills/geldwaesche-verpflichteten-check"
+    "skills/geldwaesche-verpflichteten-check",
+    "skills/kyc-aml-geldwaesche"
   ]
 }

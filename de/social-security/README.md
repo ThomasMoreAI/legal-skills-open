@@ -4,7 +4,7 @@ German social-security law (Sozialrecht) — Erwerbsminderungsrente, SGB II (Bü
 
 Jurisdiction: `de` · Practice: `social-security` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (5)
+## Skills (6)
 
 | Skill | Practice |
 |---|---|
@@ -12,6 +12,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`fachanwalt-sozialrecht-orientierung`](skills/fachanwalt-sozialrecht-orientierung/) | `social-security` |
 | [`fachanwalt-sozialrecht-sgb-ii-bescheid`](skills/fachanwalt-sozialrecht-sgb-ii-bescheid/) | `social-security` |
 | [`fachanwalt-sozialrecht-widerspruch-sozialleistung`](skills/fachanwalt-sozialrecht-widerspruch-sozialleistung/) | `social-security` |
+| [`insolvenzgeld-165-sgb-iii`](skills/insolvenzgeld-165-sgb-iii/) | `social-security` |
 | [`team-social`](skills/team-social/) | `social-security` |
 
 ## Cold-start context

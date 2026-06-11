@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-social-security",
+  "version": "0.1.0",
+  "author": "ThomasMore + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "social-security",
+  "language": "en",
+  "displayName": "Social Security & Welfare — Cross-jurisdiction",
+  "description": "Cross-border social security and welfare — coordination of state social-insurance and pension systems across jurisdictions, totalization agreements, and avoidance of double coverage.",
+  "skills": [
+    "skills/expatriate-pensionsplanung-und-totalization"
+  ]
+}
