@@ -4,8 +4,6 @@ Defence-law skills for service members — payments, statute references, ВЛК 
 
 Jurisdiction: `ua` · Practice: `military` · Skill language: uk
 
-> **DRAFT** — plugin scaffolding auto-generated on import; review before merge.
-
 ## Skills (4)
 
 | Skill | What it does |
