@@ -4,11 +4,14 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `ua` · Practice: `litigation` · Skill language: uk
 
-## Skills (1)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
 | [`calculating-sudovyi-zbir`](skills/calculating-sudovyi-zbir/) | Use when calculating Ukrainian court fees (судовий збір) for lawsuits, appeals, or procedural filings under… |
+| [`checking-pozovna-davnist`](skills/checking-pozovna-davnist/) | Use when checking Ukrainian statute of limitations (позовна давність) for a claim — applicable period, when… |
+| [`determining-ua-jurisdiction`](skills/determining-ua-jurisdiction/) | Use when determining the proper Ukrainian court for a lawsuit — type of proceedings, territorial / subject-… |
+| [`searching-edrsr`](skills/searching-edrsr/) | Use when searching Ukrainian court decisions in the Unified State Register (ЄДРСР, reyestr.court.gov.ua), ve… |
 
 ## Cold-start context
 

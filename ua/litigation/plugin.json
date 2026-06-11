@@ -1,14 +1,17 @@
 {
   "name": "ua-litigation",
   "displayName": "Litigation — UA",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Litigation skills for UA (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "author": "CaseMark + crankshift + community contributors",
   "license": "Apache-2.0",
   "jurisdiction": "ua",
   "practice": "litigation",
   "language": "uk",
   "skills": [
-    "skills/calculating-sudovyi-zbir"
+    "skills/calculating-sudovyi-zbir",
+    "skills/checking-pozovna-davnist",
+    "skills/determining-ua-jurisdiction",
+    "skills/searching-edrsr"
   ]
 }

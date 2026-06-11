@@ -1,14 +1,15 @@
 {
   "name": "ua-contracts",
   "displayName": "Contracts — UA",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Contracts skills for UA (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "author": "CaseMark + crankshift + community contributors",
   "license": "Apache-2.0",
   "jurisdiction": "ua",
   "practice": "contracts",
   "language": "uk",
   "skills": [
-    "skills/reviewing-vehicle-contract-crankshift"
+    "skills/reviewing-vehicle-contract-crankshift",
+    "skills/reviewing-b2b-service-contract"
   ]
 }
