@@ -1,0 +1,293 @@
+{
+  "$schema_note": "Single source of truth for practice areas. Entry order = offline-heuristic priority (narrow practices before broad ones).",
+  "practices": [
+    {
+      "slug": "arbitration",
+      "title": "Arbitration & ADR",
+      "classifier_hint": "arbitration and ADR: mediation, arbitration clauses and institutional rules (AAA/ICC/LCIA/SIAC/HKIAC/SCC/MKAS), recognition and enforcement of awards (New York Convention), investment arbitration; labor arbitration (劳动仲裁) → employment; distinguish from litigation (proceedings in state/national courts) and sports (CAS as a forum — sports disputes go to sports)",
+      "keywords": "arbitrat|mediator|mediation session|mediation brief|mediation statement|mediation summary|mediation analysis|mediation preparation|prepare for mediation|mediation proceeding|alternative dispute resolution|UNCITRAL|arbitral tribunal|New York Convention"
+    },
+    {
+      "slug": "antitrust",
+      "title": "Antitrust & Competition",
+      "classifier_hint": "antitrust/competition law: monopolization, mergers and merger control, cartels, vertical restraints, RPM/MAP; US (Sherman/Clayton, HSR), EU (Art. 101/102 TFEU, DMA, merger control); distinguish from general regulatory",
+      "keywords": "antitrust|antimonopol|sherman act|clayton act|hart-scott|HSR|merger clearance|cartel|competition law|FTC merger"
+    },
+    {
+      "slug": "environmental",
+      "title": "Environmental Law",
+      "classifier_hint": "environmental law: EIA, EPA/NEPA, environmental permits, air/water/soil pollution, contaminated land, waste, biodiversity/endangered species, emissions trading/ETS and climate regulation when tied to environmental obligations; distinguish from general regulatory compliance",
+      "keywords": "NEPA|CERCLA|RCRA|Clean Air Act|Clean Water Act|NPDES|EPCRA|environmental law|environmental permit|environmental impact|environmental site assessment|environmental compliance|environmental covenant|environmental indemnity|environmental regulation|pollution|hazardous waste|endangered species|asbestos|stormwater|brownfield|toxic release|emissions trading|carbon pricing|climate change legislation|MSDS|notice of violation|notices of violation"
+    },
+    {
+      "slug": "construction",
+      "title": "Construction Law",
+      "classifier_hint": "construction law: construction contracts and works (EPC/AIA/subcontracts), defects and construction disputes, mechanic's liens and their foreclosure, building codes, claims and delays; distinguish from real-estate (transactions/leases/title), commercial (general B2B contracts) and litigation (general procedure)",
+      "keywords": "construction contract|construction defect|construction claim|construction dispute|construction law|AIA document|mechanic's lien|mechanics lien|building code|general contractor|subcontractor|change order|EPC contract"
+    },
+    {
+      "slug": "trusts-and-estates",
+      "title": "Trusts & Estates",
+      "classifier_hint": "estate planning and instruments for death/incapacity: wills (will/pour-over), trusts (revocable/ILIT/CRT/SNT), probate and estate administration, fiduciary duties, powers of attorney (durable/healthcare POA), advance directives, guardian nomination for minors within a will/estate plan, elder law (Medicaid planning), forced heirship (Pflichtteil); distinguish from family (divorce/support/family guardianship proceedings) and tax (general tax; inheritance tax within estate planning belongs here)",
+      "keywords": "estate plan|probate|living trust|revocable trust|irrevocable trust|life insurance trust|will drafting|last will|testamentary|fiduciary duty|executor|trustee|estate administration|advance directive|Pflichtteil|Nachlass|Erbrecht|inheritance"
+    },
+    {
+      "slug": "employee-benefits",
+      "title": "Employee Benefits & Executive Compensation",
+      "classifier_hint": "employee benefits and executive compensation: ERISA, 401(k)/pension plans, QDRO, 409A/280G, deferred comp, equity incentives, change-in-control/severance, bAV/IORP; distinguish from employment (the employment relationship) and social-security (state benefits)",
+      "keywords": "ERISA|401k|QDRO|executive compensation|deferred compensation|409A|280G|equity incentive plan|change-in-control agreement|change in control agreement|nonqualified plan|nonqualified deferred|employee benefits|betriebliche Altersversorgung|Betriebsrente|Pensionszusage|Versorgungsordnung|occupational pension|pension plan|bAV|IORP"
+    },
+    {
+      "slug": "employment",
+      "title": "Employment & Labor",
+      "classifier_hint": "employment and labor law: employment contracts, termination/severance, worker classification, discrimination and harassment (Title VII/EEOC), wage/hour (FLSA), collective/union relations and labor arbitration, HR policies and internal HR investigations; distinguish from employee-benefits (pensions/401(k)/equity comp), white-collar (criminal investigations) and social-security (state benefits)",
+      "keywords": "employ|discriminat|harassment|wage and hour|wage-hour|minimum wage|overtime|unpaid wage|EEOC|FMLA|FLSA|Title VII|reasonable accommodation|failure-to-accommodate|Americans with Disabilities|labor law|labour law|labor relations|collective bargaining|labor arbitration|Arbeitsrecht"
+    },
+    {
+      "slug": "investment-funds",
+      "title": "Investment Funds & Asset Management",
+      "classifier_hint": "investment funds and asset management: PE/VC/hedge, LPA, capital calls, carried interest, GP/LP, side letters, fund subscription, Form ADV; distinguish from corporate (M&A/deals), securities/capital-markets and finance (lending)",
+      "keywords": "limited partnership agreement|LPA|fund formation|capital call|carried interest|management fee|side letter|fund subscription|private equity fund|venture capital fund|venture fund|hedge fund|Form ADV|investment adviser|drawdown notice|LPAC"
+    },
+    {
+      "slug": "capital-markets",
+      "title": "Capital Markets",
+      "classifier_hint": "capital markets: securities offering transactions and issuance disclosure — IPO/follow-on, prospectuses, S-1/S-3 shelf, 10-K/10-Q/8-K, underwriting, Reg D/Form D private placements, ATM programs; distinguish from securities (market participants, broker-dealers/investment advisers, market conduct, SEC/FINRA enforcement, ongoing public-company compliance) and corporate",
+      "keywords": "prospectus|S-1|S-3|shelf registration|10-K|10K filing|10-Q|8-K|underwriting agreement|follow-on offering|private placement memorandum|Regulation D|at-the-market|comfort letter|registration statement|EDGAR|initial public offering|SEC Form D|Form D filing|Form D notice"
+    },
+    {
+      "slug": "securities",
+      "title": "Securities",
+      "classifier_hint": "securities regulation and market conduct: broker-dealers and investment advisers (FINRA/Reg BI), suitability, insider trading, proxy/DEF 14A, transfer agents, SEC/FINRA enforcement, SOX-ICFR and ongoing public-company compliance; a fund manager's Form ADV → investment-funds; distinguish from capital-markets (offering transactions, prospectuses and issuance disclosure S-1/10-K), investment-funds (PE/VC funds) and corporate (deals/governance)",
+      "keywords": "securities law|securities regulation|securities fraud|securities offering|Securities Act|Exchange Act|broker-dealer|FINRA|blue sky|insider trading|proxy statement|Reg BI|suitability|transfer agent|SEC enforcement|Sarbanes-Oxley|SOX|securities"
+    },
+    {
+      "slug": "bankruptcy",
+      "title": "Bankruptcy & Restructuring",
+      "classifier_hint": "insolvency and restructuring: Chapter 7/11/13, proofs of claim, automatic stay, DIP financing, plans of reorganization and disclosure statements, preference/avoidance actions, cross-border insolvency; European regimes (InsO, restructuring plans/TRLC); distinguish from corporate (solvent deals), litigation (general procedure) and finance (lending outside bankruptcy)",
+      "keywords": "bankruptc|chapter 7|chapter 11|chapter 13|insolven|proof of claim|debtor|automatic stay|DIP financing|Restrukturierung|restructuring plan"
+    },
+    {
+      "slug": "ip",
+      "title": "Intellectual Property",
+      "classifier_hint": "intellectual property: patents (applications, prior art, FTO, infringement, claim construction), trademarks (clearance, opposition, TTAB/EUIPO), copyright/DMCA, trade secrets (GeschGehG), IP licensing, open-source licenses; distinguish from tmt (telecom/media infrastructure), entertainment (content production/talent) and contracts (general agreements)",
+      "keywords": "patent|trademark|copyright|intellectual property|invalidity|trade secret|USPTO|EUIPO|prior art|open-source license|open source license|Markenrecht|Markenanmeldung"
+    },
+    {
+      "slug": "tax",
+      "title": "Tax",
+      "classifier_hint": "tax law: income/corporate/property tax, returns and forms (1099/SS-4/Schedules), tax audits and disputes with revenue authorities, tax planning, transfer pricing, R&D credits; national regimes (AADE/KAS/ACD, Russian Tax Code); inheritance tax within estate planning → trusts-and-estates; distinguish from social-security (contributions/state benefits) and nonprofit (501(c)(3) status)",
+      "keywords": "tax law|tax return|taxpayer|tax planning|tax audit|tax credit|tax dispute|tax treaty|tax clearance|tax strategy|tax compliance|Internal Revenue|IRS Form|IRS audit|IRS-|deduction|withholding|GST notice|Steuerrecht|Steuererklärung|Finanzamt|steuerlich|property tax|tax filing"
+    },
+    {
+      "slug": "real-estate",
+      "title": "Real Estate",
+      "classifier_hint": "real estate law: purchase and sale (PSA/LOI), leases (residential/commercial/NNN/ground lease), ownership and title, mortgage/deed of trust, easements, foreclosure/eviction, development and land use, conveyancing of oil & gas/mineral rights (oil & gas lease, royalty deed); operational oil & gas agreements (JOA/farmout/gathering) → energy; distinguish from construction (construction contracts/defects), finance (lending as such) and litigation (general procedure)",
+      "keywords": "real estate|real property|lease agreement|commercial lease|residential lease|leasing|leasehold|sublease|ground lease|lessor|lessee|landlord|tenant|deed of trust|warranty deed|grant deed|deed in lieu|royalty deed|property deed|quiet title|easement|boundary dispute|boundary line|property line|foreclosure|eviction|conveyanc|title commitment|estoppel certificate|Mietrecht|Grundstück|Immobilie|zoning"
+    },
+    {
+      "slug": "personal-injury",
+      "title": "Personal Injury & Torts",
+      "classifier_hint": "torts and compensation for harm: bodily injury, medical malpractice (med-mal), product liability, wrongful death, medical chronology/IME, demand packages; distinguish from litigation (general procedural work), healthcare (HIPAA/clinics/FDA, not case-specific medical-record review) and insurance (coverage and policies)",
+      "keywords": "personal injury|tort claim|tort law|tortious|negligence|wrongful death|bodily injury|medical malpractice|med-mal|med mal|product liability|medical record|medical chronology|medical treatment|medical billing|IME report|independent medical examination|pain and suffering|demand letter|demand package|lien resolution|PI practice"
+    },
+    {
+      "slug": "life-sciences",
+      "title": "Life Sciences & Pharma",
+      "classifier_hint": "pharma, medical devices, biotech, diagnostics: product lifecycle and FDA/EMA approval (IND, NDA, 510(k), MDR), clinical trials (GCP/IRB), GxP/GMP, labeling, drug and device promotion/advertising; distinguish from healthcare (providers/clinics, HIPAA, Medicare/Medicaid, reimbursement, Stark/AKS for provider relationships) and regulatory",
+      "keywords": "life sciences|pharmaceutical|biotech|biologic|medical device|clinical trial|GCP|IRB|investigational new drug|new drug application|premarket notification|510k|MDR|GxP|GMP|FDA|EMA approval|drug approval|drug labeling|drug labelling|Stark Law|Anti-Kickback|AntiKickback"
+    },
+    {
+      "slug": "government-contracts",
+      "title": "Government Contracts & Procurement",
+      "classifier_hint": "public procurement and government contracts: FAR/DFARS, GSA Schedule, bid protests, RFP/RFQ, subcontracting plans, OCI; public tenders (Vergaberecht, marché public, michrazim); distinguish from regulatory and corporate",
+      "keywords": "government contract|public procurement|FAR Part|FAR clause|FAR compliance|FAR/DFARS|DFARS|GSA schedule|bid protest|request for proposal|subcontracting plan|teaming agreement|organizational conflict of interest|OCI mitigation|Vergaberecht|Vergabekammer|marché public|public tender|michraz|RFP response|RFQ"
+    },
+    {
+      "slug": "sanctions",
+      "title": "Sanctions & Export Controls",
+      "classifier_hint": "sanctions and export controls: OFAC/SDN, EAR/ECCN, ITAR/USML, dual-use, deemed exports, embargoes, denied-party screening of counterparties in the export/trade context; sanctions/PEP screening as part of an AML program (KYC/SAR) → white-collar; distinguish from trade (customs/tariffs/trade remedies) and regulatory",
+      "keywords": "OFAC|sanctions screening|sanctions compliance|sanctions list|sanctions program|sanctions programme|EAR/ITAR|ITAR/EAR|ITAR and EAR|ITAR compliance|ITAR Technology|Export Administration Regulations|ECCN|USML|dual-use|Dual-Use|deemed export|export control|export-control|Exportkontrolle|denied party|denied-party|embargo|Sanktionsscreening|Exporter of Record"
+    },
+    {
+      "slug": "trade",
+      "title": "International Trade & Customs",
+      "classifier_hint": "international trade and customs law: customs valuation, tariffs, HTS/CN classification, origin of goods, certificates of origin, antidumping/countervailing duties, safeguards, CBAM, WTO/GATT and trade remedies; if the core issue is OFAC/sanctions/EAR/ITAR/dual-use, choose sanctions; distinguish from regulatory (general compliance) and commercial (contracts)",
+      "keywords": "international trade|customs law|customs broker|customs protest|customs valuation|customs power of attorney|tariff|antidumping|countervailing|CBAM|WTO|GATT|certificate of origin|HTS classification|trade remed|C-TPAT|CTPAT|binding ruling|import compliance|Außenwirtschaft|Aussenwirtschaft|Zollrecht"
+    },
+    {
+      "slug": "tmt",
+      "title": "Technology, Media & Telecommunications",
+      "classifier_hint": "TMT as the infrastructure of technology, communications and platforms: telecom licensing, spectrum, interconnection, net neutrality, broadcasting, platform regulation (DSA/content liability), advertising claims and media regulation; distinguish from entertainment (production, talent, music/film/creator/content deals), ip (trademarks/patents/copyright), data-protection (personal data) and regulatory",
+      "keywords": "telecommunication|FCC|spectrum license|spectrum auction|interconnection agreement|broadcast|media law|advertising law|advertising claim|advertising standard|advertising substantiation|content moderation|content liability|Digital Services Act|MStV|net neutrality"
+    },
+    {
+      "slug": "maritime",
+      "title": "Maritime & Admiralty",
+      "classifier_hint": "maritime law: admiralty jurisdiction, carriage of goods by sea (COGSA/Hague-Visby), bills of lading, collisions, salvage, charter parties, maritime liens, Jones Act/seafarer injuries (here, not personal-injury), marine insurance; distinguish from transportation (land carriage) and litigation",
+      "keywords": "maritime|admiralty|COGSA|Hague-Visby|Hague Visby|bill of lading|charter party|salvage|vessel|cargo damage|cargo claim|cargo loss|seafarer|Jones Act|Seerecht|ocean carriage"
+    },
+    {
+      "slug": "aviation",
+      "title": "Aviation & Aerospace",
+      "classifier_hint": "aviation law: FAA/DOT/TSA, air carriage, air passenger rights (EU261/Reg 261), certification and airworthiness, aircraft leasing, airports; distinguish from transportation, maritime and regulatory",
+      "keywords": "aviation|aircraft|FAA|airline|airworthiness|air carrier|air passenger|air traffic|EU261|EU 261|VO 261|airport law|airport slot|aerospace|Luftverkehr|Fluggast"
+    },
+    {
+      "slug": "transportation",
+      "title": "Transportation & Logistics",
+      "classifier_hint": "land transport and logistics law: road/rail carriage, freight forwarding (CMR/HGB Speditionsrecht), road infrastructure and carrier licensing; distinguish from maritime, aviation and commercial",
+      "keywords": "transportation law|logistics|freight forward|freight carrier|freight forwarding|carrier liability|CMR|Speditionsrecht|trucking|rail transport|rail freight|road haulage|carrier license|carrier licence|carrier authority|PBefG|FStrG"
+    },
+    {
+      "slug": "nonprofit",
+      "title": "Nonprofit & Charity",
+      "classifier_hint": "nonprofits/charities: 501(c)(3), Form 1023, charitable solicitation registration, fiscal sponsorship, endowments/UPMIFA, nonprofit governance; European analogues (Gemeinnützigkeit/Vereinsrecht, charity commission, fundacja/stowarzyszenie); distinguish from tax (general tax) and corporate (for-profit entities)",
+      "keywords": "nonprofit|non-profit|charitable solicitation|charitable organization|charitable registration|Form 1023|fiscal sponsorship|tax-exempt organization|tax-exempt status|tax-exempt entity|charity bureau|charity commission|UPMIFA|gemeinnützig|exempt purpose|fundacja|stowarzyszeni"
+    },
+    {
+      "slug": "healthcare",
+      "title": "Healthcare",
+      "classifier_hint": "healthcare as regulation of providers and care delivery: HIPAA/PHI confidentiality, licensing and compliance of clinics/providers (Stark/AKS, CPOM), managed care and reimbursement (Medicare/Medicaid), patient consent, telehealth, fraud & abuse, audits and corrective action plans; distinguish from life-sciences (drug/device development, FDA/EMA approval, trials, GMP/GxP, labeling/promotion), personal-injury (case-specific medical-record review) and data-protection (general privacy)",
+      "keywords": "HIPAA|medical|health care|healthcare|POLST|patient|FDA|Medicare|Medicaid|telehealth|telemedicine"
+    },
+    {
+      "slug": "cybersecurity",
+      "title": "Cybersecurity & Information Security",
+      "classifier_hint": "information security as a practice: NIS2/DORA/CRA, NYDFS 23 NYCRR 500, CMMC, SOC 2 / ISO 27001/27701, ANSSI/EBIOS/PSSI, incident response/operational resilience; distinguish from data-protection (privacy/personal data) and regulatory (general compliance)",
+      "keywords": "NIS2|NIS 2|DORA|cyber resilience act|CMMC|NYDFS|23 NYCRR 500|SOC 2|SOC2|ISO 27001|ISO27001|ISO 27701|ISO27701|information security program|information security policy|information security management|incident response plan|incident response playbook|ANSSI|EBIOS|PSSI|SecNumCloud|operational resilience|cybersecurity|Informationssicherheit"
+    },
+    {
+      "slug": "data-protection",
+      "title": "Data Protection",
+      "classifier_hint": "personal data protection and privacy: GDPR/CCPA/CPRA and national regimes (LGPD/PIPA/APPI/DPDPA/POPIA/KVKK/Roskomnadzor), lawful bases, data subject rights (DSAR), ROPA/DPIA, cross-border transfers, consent/cookies, DPAs and processors, breach notifications; distinguish from cybersecurity (technical infosec NIS2/SOC2/27001), tmt (media/advertising) and regulatory (general compliance)",
+      "keywords": "GDPR|privacy|data protection|breach notification|personal data|Datenschutz|DSGVO|RGPD|DPIA|DSAR|KVKK|POPIA|LGPD|DPDPA|cookie|Japan APPI|APPI compliance|Protection of Personal Information|Personal Information Protection"
+    },
+    {
+      "slug": "immigration",
+      "title": "Immigration",
+      "classifier_hint": "immigration law: visas and petitions (USCIS), status and residency, asylum, deportation/removal, work and residence permits (pobyt/Aufenthalt), consular procedures for foreign nationals; distinguish from administrative (general administrative procedures for citizens) and employment (the employment relationship)",
+      "keywords": "immigration|asylum|USCIS|green card|visa petition|visa application|work permit|residence permit|removal proceeding|deportation|pobyt|cudzoziemc|Aufenthalt"
+    },
+    {
+      "slug": "family",
+      "title": "Family Law",
+      "classifier_hint": "family law: divorce/dissolution, custody and support (child/spousal), property division, prenuptial agreements, parenting plans, domestic violence protection (DVRO), paternity, guardianship/conservatorship proceedings over incapacitated adults (Betreuungsverfahren); POA/advance directives and guardian nomination in a will → trusts-and-estates; distinguish from litigation (general procedure)",
+      "keywords": "divorce|custody|adoption|child support|prenup|family law|parenting plan|alimony|alimenty|paternity|spousal support|Betreuungsverfahren"
+    },
+    {
+      "slug": "white-collar",
+      "title": "White-Collar & Investigations",
+      "classifier_hint": "business-crime compliance and investigations: FCPA/anti-bribery, AML/SAR/KYC (including sanctions and PEP screening within an AML program), qui tam/False Claims, grand jury, DOJ/DPA, monitorships, Stark/AKS investigations; distinguish from criminal (general criminal defense), sanctions (export controls/OFAC as such), regulatory (compliance programs) and employment (HR investigations)",
+      "keywords": "white collar|white-collar|FCPA|foreign corrupt|anti-bribery|antibribery|UKBA|qui tam|false claims act|grand jury|deferred prosecution|suspicious activity report|SAR filing|SAR report|anti-kickback statute|monitorship|money laundering|anti-money|AML compliance|AML program|BSA/AML|KYC|Geldwäsche|geldwaesche|FinCEN"
+    },
+    {
+      "slug": "criminal",
+      "title": "Criminal Law",
+      "classifier_hint": "criminal law and defense: charges and pretrial detention (bail), motions (suppress/dismiss), plea bargains, sentencing, appeals/habeas, constitutional safeguards (4th/5th/6th Amendments), penal codes and ordinary offenses; distinguish from white-collar (business/financial crime, FCPA/AML), litigation (civil/administrative procedure) and military (courts-martial/AWOL)",
+      "keywords": "criminal|bail hearing|bail reduction|bail bond|pretrial detention|miranda|indictment|alibi|prosecution|sentencing|expungement|habeas|plea agreement|plea bargain"
+    },
+    {
+      "slug": "corporate",
+      "title": "Corporate",
+      "classifier_hint": "corporate law: entity formation and reorganization, M&A (SPA/APA/mergers), corporate governance (boards, shareholders, charters/bylaws), resolutions, dissolution, company-side VC financing (term sheets/SAFE/Series A); distinguish from commercial (B2B commercial contracts), securities/capital-markets (public offerings/disclosure), investment-funds (the fund itself, GP/LP, LPA, fund formation) and contracts (template agreements)",
+      "keywords": "incorporat|bylaw|board of directors|board meeting|board resolution|shareholder|merger|certificate of incorporation|operating agreement|due diligence|due-diligence|term sheet|cap table|SAFE agreement|stock purchase agreement|asset purchase agreement|dissolution|GmbH|Gesellschaftsrecht"
+    },
+    {
+      "slug": "constitutional",
+      "title": "Constitutional & Public Law",
+      "classifier_hint": "constitutional law: the constitution and its application, fundamental rights/freedoms, constitutional review of norms, powers of state bodies, constitutional courts (BVerfG/TK/SCC), proportionality test; distinguish from regulatory, administrative and litigation",
+      "keywords": "constitutional law|fundamental right|bill of rights|judicial review of statute|judicial review of legislation|due process|equal protection|first amendment|Grundgesetz|Grundrecht|Verfassung|verhältnismäßigkeit|Oakes test|конституц|Trybunał Konstytucyjny|proportionality"
+    },
+    {
+      "slug": "consumer",
+      "title": "Consumer Protection",
+      "classifier_hint": "consumer protection: consumer contracts and warranties, unfair/deceptive practices (UDAP), consumer-side credit disputes, distance selling, frankowicze/CHF; lender-side credit documents and disclosures (TILA/TRID/Reg Z) → finance; distinguish from contracts (general agreements) and commercial (B2B)",
+      "keywords": "consumer protection|consumer right|consumer contract|consumer credit|consumer dispute|unfair commercial practice|unfair trade practice|UDAP|deceptive practice|distance selling|cooling-off|cooling off|frankowicze|verbraucher|consommateur|consumidor|prawa konsument"
+    },
+    {
+      "slug": "energy",
+      "title": "Energy & Utilities",
+      "classifier_hint": "energy law: electricity/gas/heat supply, power markets, energy trading, PPAs, grid and tariff regulation, licensing, renewables, oil & gas operational and service agreements (JOA/farmout/gathering/oilfield MSA), pipelines, LNG and infrastructure (EnWG/EEG/FERC); conveyancing of mineral rights (lease/royalty deed) → real-estate; distinguish from environmental (ecology, emissions, BImSchG permits), regulatory (general compliance) and commercial (contracts)",
+      "keywords": "energy law|energy sector|energy regulation|energy supply|electricity market|electricity supply|electricity grid|power purchase|PPA|renewable energy|FERC|EnWG|EEG|utility rate|natural gas supply|natural gas transport|Fernwärme|Energierecht|Netzentgelt|farmout|joint operating agreement"
+    },
+    {
+      "slug": "military",
+      "title": "Military & Defence Law",
+      "classifier_hint": "military and defence law: service members' status, pay and social protection, conscription/mobilization, military medical commissions (VLK), military/disciplinary regulations, AWOL/desertion, courts-martial; defense procurement and contracts (DFARS/DD-254) → government-contracts, CMMC → cybersecurity; distinguish from employment (civilian employment), criminal (ordinary criminal cases) and social-security",
+      "keywords": "military|service member|armed forces|court-martial|courts-martial|UCMJ|conscription|mobiliz|військ|воєнн|мобіліз|ВЛК|СЗЧ|Bundeswehr|Wehrrecht|Soldat"
+    },
+    {
+      "slug": "social-security",
+      "title": "Social Security & Welfare",
+      "classifier_hint": "social security and welfare: state pensions, benefits, social payments and disputes with social insurance authorities (ZUS, SGB/Bürgergeld, social insurance courts); distinguish from employment (the employment relationship, occupational pensions/bAV) and tax",
+      "keywords": "social security|social insurance|ZUS procedur|Sozialgesetzbuch|SGB|Bürgergeld|Sozialrecht|sozialversicher|welfare benefit|disability benefit|unemployment benefit|emerytur|zasiłk|świadczeni|соціальне забезпеченн|соціального страхуванн"
+    },
+    {
+      "slug": "administrative",
+      "title": "Administrative Procedure & Public Services",
+      "classifier_hint": "administrative procedure and public services: applications/requests to public authorities, passports/ID and consular services for citizens, choosing the request regime, challenging administrative acts (KPA/PPSA/CAS/TsNAP/UdSC); visas, residence permits, asylum/removal and foreign-national status → immigration; distinguish from regulatory (sector compliance) and litigation (court proceedings)",
+      "keywords": "administrative procedure|public information|public service|request regime|consular|ЦНАП|консульськ|сервісн|звернень|адміністративна процедура|адміністративної послуги|адміністративна скарга|KPA|PPSA|Verwaltungsverfahren|Verwaltungsakt|passport procedure|passport application"
+    },
+    {
+      "slug": "sports",
+      "title": "Sports Law",
+      "classifier_hint": "sports law: player contracts, anti-doping (WADA/NADA), CAS disputes, federation regulation, sponsorship; distinguish from litigation, arbitration (CAS as a forum) and commercial",
+      "keywords": "sports law|sport law|sports contract|sport contract|sports federation|sport federation|sports governance|sports licensing|athlete|doping|anti-doping|WADA|Court of Arbitration for Sport|CAS code|CAS appeal|player contract|Spielervertrag|Sportrecht"
+    },
+    {
+      "slug": "gaming",
+      "title": "Gaming & Gambling",
+      "classifier_hint": "gaming law strictly as gambling/iGaming/betting: casino/bookmaker licensing, sports betting, lotteries, online gambling, AML in the gambling industry; do not place video games/esports without gambling stakes here — those usually belong to tmt, entertainment or sports; distinguish from regulatory",
+      "keywords": "gambling|sports betting|online betting|betting license|betting licence|bookmaker|casino|sports wagering|gaming law|gaming license|gaming licence|gaming commission|gaming regulation|gaming operator|lottery|iGaming|wagering|Glücksspiel"
+    },
+    {
+      "slug": "entertainment",
+      "title": "Media & Entertainment",
+      "classifier_hint": "media and entertainment as deals around content and talent: film/TV/music production, talent/artist contracts, influencer/creator agreements, content licensing, merchandising/endorsement, recording contracts, right of publicity; distinguish from tmt (telecom, platforms, broadcasting and advertising infrastructure), ip (copyright/trademarks as such) and sports",
+      "keywords": "influencer|creator agreement|talent agreement|recording contract|recording artist|recording agreement|music licen|music publishing|music royalt|film production|film finance|film licen|endorsement agreement|endorsement deal|merchandising|right of publicity|publicity rights|artist management|screenwriter|production services agreement|production agreement|entertainment law|sponsorship agreement|sponsorship deal"
+    },
+    {
+      "slug": "regulatory",
+      "title": "Regulatory & Compliance",
+      "classifier_hint": "broad sector regulatory compliance without a more specific practice: agency rules and guidance, licenses and registrations, compliance programs and audits, regulatory monitoring, AI regulation (EU AI Act) and sector-neutral compliance; this is a RESIDUAL bucket — if a narrower practice fits (cybersecurity, data-protection, sanctions, trade, life-sciences, healthcare, energy, government-contracts, white-collar, securities, antitrust, administrative, constitutional), choose it; use regulatory only when no specialized practice applies",
+      "keywords": "complianc|regulator|audit|AI Act|KI-VO"
+    },
+    {
+      "slug": "insurance",
+      "title": "Insurance",
+      "classifier_hint": "insurance law: coverage and policy interpretation (duty to defend/indemnify), claims handling and denial, reservation of rights, subrogation, bad faith and coverage disputes, insurance compliance; distinguish from personal-injury (the injured party's tort claims, incl. policy-limits demands) and litigation (general procedure)",
+      "keywords": "insurance|insurer|policyholder|coverage|claim denial|tender|subrogation|underwriting|Versicherung"
+    },
+    {
+      "slug": "finance",
+      "title": "Finance & Banking",
+      "classifier_hint": "banking and lending (lender/bank side): loans and security (UCC Article 9), mortgages and TRID/TILA/Reg Z disclosures, deposit accounts, promissory notes, intercreditor/subordination, banking regulation (GLBA); consumer-side credit/UDAP disputes → consumer; distinguish from securities (capital markets/securities issuance), capital-markets and white-collar (AML/BSA/KYC, SAR — financial crime, not lending)",
+      "keywords": "banking|bank account|bank regulation|mortgage|loan|lending|GLBA|credit union|escrow account|promissory note|deposit account|depository|TILA|TRID|Reg Z|UCC Article 9|UCC-1|intercreditor|subordination agreement|forbearance|Darlehen|Bankrecht|Kapitalmarktrecht|Anlageberat"
+    },
+    {
+      "slug": "litigation",
+      "title": "Litigation",
+      "classifier_hint": "general court procedure in civil/commercial/administrative matters: pleadings, motions, discovery and depositions, expert reports, appeals, court forms and deadlines, judgments and enforcement, case-law research; if the dispute is subject-specific — choose the subject practice (personal-injury, real-estate, family); distinguish from arbitration (non-court forum) and administrative (administrative procedures outside court)",
+      "keywords": "litigation|complaint|motion|deposition|discovery|appeal|brief|pleading|subpoena|removal|defens|lawsuit|trial|Klage|Schriftsatz"
+    },
+    {
+      "slug": "commercial",
+      "title": "Commercial",
+      "classifier_hint": "commercial/business contracts between businesses and trade models: franchising, distribution, supply, agency, services, ad funds, reselling, sales channels and B2B relationships; distinguish from contracts (general drafting/editing technique without a distinct business model) and from sector-specific contracts in ip, real-estate, employment, finance, corporate",
+      "keywords": "franchis|distribution agreement|distributor|supply agreement|vendor|reseller|advertising fund|services agreement|agency agreement"
+    },
+    {
+      "slug": "contracts",
+      "title": "Contracts",
+      "classifier_hint": "general/template contractual instruments and contract drafting/review technique outside any specific sector or business model: NDAs, simple agreements, amendments, bills of sale, contract drafting/review methodology; if the subject matter indicates a B2B model — commercial, IP/licensing — ip, real property — real-estate, the employment relationship — employment, financing — finance, a company/deal — corporate",
+      "keywords": "agreement|contract|non-disclosure|license|bill of sale|purchase agreement|amendment"
+    },
+    {
+      "slug": "general",
+      "title": "General",
+      "classifier_hint": "outside any specific practice area: cross-cutting legal-operations tools — legal research, citation (Bluebook), intake/triage, document assembly, summarization, translation, billing, knowledge management, citation checking; the broadest RESIDUAL — only when no subject practice fits, nor regulatory/litigation",
+      "keywords": null
+    }
+  ]
+}
