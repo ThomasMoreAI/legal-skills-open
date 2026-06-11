@@ -1,0 +1,17 @@
+{
+  "name": "ua-administrative",
+  "displayName": "Administrative & Public Services — UA",
+  "version": "0.1.0",
+  "description": "Ukrainian administrative procedures and public services — passports/ID at ЦНАП, consular procedures abroad, vehicle/driver services at СЦ МВС, and choosing the correct request/appeal regime (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ua",
+  "practice": "administrative",
+  "language": "uk",
+  "skills": [
+    "skills/applying-cnap-passport",
+    "skills/applying-consular-procedures",
+    "skills/applying-servisnyi-centr-mvs",
+    "skills/determining-ua-request-regime"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ua-general",
+  "displayName": "General / Legal Research — UA",
+  "version": "0.1.0",
+  "description": "Cross-cutting Ukrainian legal-research utilities — citation formatting, statute retrieval from zakon.rada, and martial-law override checks (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ua",
+  "practice": "general",
+  "language": "uk",
+  "skills": [
+    "skills/citing-ukrainian-law",
+    "skills/fetching-zakon-rada",
+    "skills/checking-martial-law-overrides"
+  ]
+}
