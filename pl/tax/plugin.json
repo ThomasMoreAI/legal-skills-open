@@ -1,0 +1,14 @@
+{
+  "name": "pl-tax",
+  "displayName": "Tax — PL",
+  "version": "0.1.0",
+  "description": "Polish tax skills — urząd skarbowy / KAS procedures: registration, corrections, reliefs, individual interpretations, tax control/proceedings, and appeals (imported from open sources; see each skill's author_url for provenance).",
+  "author": "crankshift + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "tax",
+  "language": "pl",
+  "skills": [
+    "skills/applying-skarbowy-procedures"
+  ]
+}

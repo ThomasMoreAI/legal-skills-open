@@ -1,14 +1,21 @@
 {
   "name": "pl-litigation",
   "displayName": "Litigation — PL",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Litigation skills for PL (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "author": "CaseMark + crankshift + community contributors",
   "license": "Apache-2.0",
   "jurisdiction": "pl",
   "practice": "litigation",
   "language": "pl",
   "skills": [
-    "skills/calculating-oplata-sadowa"
+    "skills/calculating-oplata-sadowa",
+    "skills/calculating-odsetki",
+    "skills/checking-przedawnienie",
+    "skills/determining-pl-jurisdiction",
+    "skills/determining-wps",
+    "skills/searching-orzeczenia",
+    "skills/searching-krs",
+    "skills/applying-frankowicze-case-law"
   ]
 }
