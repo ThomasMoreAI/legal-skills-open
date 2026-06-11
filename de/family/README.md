@@ -4,17 +4,18 @@ Family law — marriage, divorce, children, maintenance, and (where relevant) pe
 
 Jurisdiction: `de` · Practice: `family` · Skill language: de
 
-## Skills (7)
+## Skills (8)
 
-| Skill | What it does |
+| Skill | Practice |
 |---|---|
-| [`Mandantenfragen beim Kaltstart`](skills/fachanwalt-familienrecht-scheidungsantrag-stellen/) | Workflow-Skill zu fachanwalt familienrecht scheidungsantrag stellen. Nutzt Normtext, Nutzerangaben und verif… |
-| [`Unterhaltsberechnung`](skills/fachanwalt-familienrecht-unterhaltsberechnung/) | Kindes- und Ehegattenunterhalt vollständig berechnen: Mandant trennt sich oder wurde getrennt und will Unter… |
-| [`Zugewinnausgleich berechnen`](skills/fachanwalt-familienrecht-zugewinnausgleich-berechnen/) | Zugewinnausgleich nach §§ 1372-1390 BGB berechnen: Trennung oder Scheidung erfordert Aufstellung von Anfangs… |
-| [`Familienrichter Spezifika`](skills/familienrichter-spezifika/) | FamFG-Spezifika für Familienrichter anwenden: Richter am Familiengericht muss Beschluss statt Urteil abfasse… |
-| [`Mandat-Triage Familienrecht`](skills/mandat-triage-familienrecht/) | Eingangs-Triage für familienrechtliche Mandate: Routing zu Scheidung, Sorge, Umgang, Unterhalt, Zugewinn ode… |
-| [`Umgangsregelung — Mustervorlagen`](skills/umgangsregelung-mustervorlagen/) | Umgangsregelungen nach §§ 1684 und 1685 BGB formulieren: Regelmäßiger Umgang oder Streit um Umgangsrecht sol… |
-| [`Unterhalt nach Düsseldorfer Tabelle`](skills/unterhalt-duesseldorfer-tabelle/) | Kindes- und Ehegattenunterhalt nach Duesseldorfer Tabelle berechnen: Praktische Berechnungsaufgabe mit konkr… |
+| [`fachanwalt-familienrecht-scheidungsantrag-stellen`](skills/fachanwalt-familienrecht-scheidungsantrag-stellen/) | `family` |
+| [`fachanwalt-familienrecht-unterhaltsberechnung`](skills/fachanwalt-familienrecht-unterhaltsberechnung/) | `family` |
+| [`fachanwalt-familienrecht-zugewinnausgleich-berechnen`](skills/fachanwalt-familienrecht-zugewinnausgleich-berechnen/) | `family` |
+| [`familienrichter-spezifika`](skills/familienrichter-spezifika/) | `family` |
+| [`genehmigungspflicht-pruefung`](skills/genehmigungspflicht-pruefung/) | `family` |
+| [`mandat-triage-familienrecht`](skills/mandat-triage-familienrecht/) | `family` |
+| [`umgangsregelung-mustervorlagen`](skills/umgangsregelung-mustervorlagen/) | `family` |
+| [`unterhalt-duesseldorfer-tabelle`](skills/unterhalt-duesseldorfer-tabelle/) | `family` |
 
 ## Cold-start context
 

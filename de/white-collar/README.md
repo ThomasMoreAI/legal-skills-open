@@ -4,10 +4,11 @@ White-collar and investigations — Geldwäscheprävention (GwG/AML, KYC, Verdac
 
 Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (17)
+## Skills (19)
 
 | Skill | Practice |
 |---|---|
+| [`aussenwirtschaft-aml-kyc-sanktionen`](skills/aussenwirtschaft-aml-kyc-sanktionen/) | `white-collar` |
 | [`geldwaesche-audit-internal-revision`](skills/geldwaesche-audit-internal-revision/) | `white-collar` |
 | [`geldwaesche-behoerdenverfahren`](skills/geldwaesche-behoerdenverfahren/) | `white-collar` |
 | [`geldwaesche-bussgeld-reputation`](skills/geldwaesche-bussgeld-reputation/) | `white-collar` |
@@ -25,6 +26,7 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`geldwaesche-ubo-wirtschaftlich-berechtigte`](skills/geldwaesche-ubo-wirtschaftlich-berechtigte/) | `white-collar` |
 | [`geldwaesche-verdachtsmeldung-fiu-goaml`](skills/geldwaesche-verdachtsmeldung-fiu-goaml/) | `white-collar` |
 | [`geldwaesche-verpflichteten-check`](skills/geldwaesche-verpflichteten-check/) | `white-collar` |
+| [`kyc-aml-geldwaesche`](skills/kyc-aml-geldwaesche/) | `white-collar` |
 
 ## Cold-start context
 

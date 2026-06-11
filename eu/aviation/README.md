@@ -4,10 +4,11 @@ EU air-passenger-rights law — Regulation (EC) 261/2004 and the CJEU case law o
 
 Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 
-## Skills (1)
+## Skills (2)
 
 | Skill | Practice |
 |---|---|
+| [`airline-standardausreden-pruefen`](skills/airline-standardausreden-pruefen/) | `aviation` |
 | [`ausnahmen-aussergewoehnliche-umstaende-pruefen`](skills/ausnahmen-aussergewoehnliche-umstaende-pruefen/) | `aviation` |
 
 ## Cold-start context

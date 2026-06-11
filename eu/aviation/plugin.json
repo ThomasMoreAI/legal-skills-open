@@ -9,6 +9,7 @@
   "displayName": "Aviation & Aerospace — European Union",
   "description": "EU air-passenger-rights law — Regulation (EC) 261/2004 (cancellation, long delay, denied boarding, Article 7 compensation) and the CJEU case law on extraordinary circumstances.",
   "skills": [
+    "skills/airline-standardausreden-pruefen",
     "skills/ausnahmen-aussergewoehnliche-umstaende-pruefen"
   ]
 }

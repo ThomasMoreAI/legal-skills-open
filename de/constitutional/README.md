@@ -4,7 +4,7 @@ German constitutional-law analysis — Grundrechtsprüfung (Schutzbereich/Eingri
 
 Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (7)
+## Skills (9)
 
 | Skill | Practice |
 |---|---|
@@ -13,7 +13,9 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`grundrechte-pruefung-de-und-grch`](skills/grundrechte-pruefung-de-und-grch/) | `constitutional` |
 | [`grundrechtspruefung`](skills/grundrechtspruefung/) | `constitutional` |
 | [`verfassungsmaessigkeit-quercheck`](skills/verfassungsmaessigkeit-quercheck/) | `constitutional` |
+| [`verfassungsrecht-grundrechtspruefung`](skills/verfassungsrecht-grundrechtspruefung/) | `constitutional` |
 | [`verfassungsrechtliche-pruefung`](skills/verfassungsrechtliche-pruefung/) | `constitutional` |
+| [`verhaeltnismaessigkeit`](skills/verhaeltnismaessigkeit/) | `constitutional` |
 | [`verordnungsermaechtigung-art80`](skills/verordnungsermaechtigung-art80/) | `constitutional` |
 
 ## Cold-start context
