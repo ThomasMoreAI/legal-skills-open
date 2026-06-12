@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-life-sciences",
+  "displayName": "Life Sciences — Cross-jurisdiction",
+  "version": "0.1.0",
+  "description": "Life Sciences skills for cross-jurisdiction (imported from open sources; see each skill's author_url for provenance).",
+  "author": "community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "life-sciences",
+  "language": "en",
+  "skills": [
+    "skills/ksb-d07-k0033"
+  ]
+}

@@ -4,20 +4,9 @@ Commercial and trade transactions between businesses — sale of goods, distribu
 
 Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: de
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`Incoterms und Gefahrübergang`](skills/incoterms-und-gefahruebergang/) | Incoterms-Klausel und Gefahruebergang in internationalem Kaufvertrag prüfen: Streit über Transportschaden od… |
-
-## Cold-start context
-
-See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
-
-## Provenance & license
-
-Skills imported from open sources indexed by [skillsmp](https://skillsmp.com); see each `SKILL.md` `author` / `author_url` for provenance and `license` for terms.
-
-## Disclaimer
-
-These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
+| [`Fachanwalt für Internationales Wirtschaftsrecht — Orientierung`](skills/fachanwalt-internationales-wirtschaftsrecht-orientierung/) | Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht. FAO § 14i IWR CISG UN-Kaufrecht Bruessel-Ia-VO… |
+| [`Incoterms und Gefahrübergang`](skills/incoterms-und-gefahruebergang/) | Incoterms-Klausel und Gefahruebergang in internationalem Kaufvertrag prüfen: Streit über Transportschaden oder… |

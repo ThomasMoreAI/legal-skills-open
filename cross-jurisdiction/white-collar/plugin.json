@@ -9,6 +9,7 @@
   "displayName": "White-Collar & Investigations — Cross-jurisdiction",
   "description": "White-collar and investigations across jurisdictions — anti-money-laundering (AML/KYC), beneficial-ownership and sanctions/PEP screening, and financial-crime compliance.",
   "skills": [
+    "skills/geldwaesche-sanktionsscreening",
     "skills/regdata-kyc-aml"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "name": "eu-litigation",
+  "displayName": "Litigation & Dispute Resolution — European Union",
+  "version": "0.1.0",
+  "description": "Litigation & Dispute Resolution skills for eu (imported from open sources; see each skill's author_url for provenance).",
+  "author": "community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "litigation",
+  "language": "de",
+  "skills": [
+    "skills/eu-vorabentscheidung-pruefen",
+    "skills/europarecht-klagearten-eugh",
+    "skills/europarecht-nationales-verfahren-effektivitaet"
+  ]
+}

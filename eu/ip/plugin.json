@@ -1,0 +1,15 @@
+{
+  "name": "eu-ip",
+  "displayName": "Intellectual Property — European Union",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for eu (imported from open sources; see each skill's author_url for provenance).",
+  "author": "community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "ip",
+  "language": "de",
+  "skills": [
+    "skills/euipo-widerspruchsverfahren",
+    "skills/unionsmarken-anmeldung-euipo"
+  ]
+}
