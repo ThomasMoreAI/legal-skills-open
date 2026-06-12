@@ -1,0 +1,14 @@
+{
+  "name": "de-consumer",
+  "displayName": "Consumer Protection — Germany",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills for de (imported from open sources; see each skill's author_url for provenance).",
+  "author": "community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "consumer",
+  "language": "de",
+  "skills": [
+    "skills/werbeaussagen-pruefung"
+  ]
+}

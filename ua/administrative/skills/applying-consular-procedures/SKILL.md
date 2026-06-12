@@ -3,9 +3,9 @@ name: applying-consular-procedures
 title: applying-consular-procedures
 description: Use when navigating Ukrainian consular procedures abroad (ГКУ, ПКУ, почесні консульства) — закордонний паспорт, свідоцтво на повернення, реєстрація актів цивільного стану (народження, шлюб, смерть, розлучення) за кордоном, апостиль / легалізація, нотаріальні дії консула, консульський облік, військовий облік чоловіків 18–60 за кордоном, визнання громадянства. Віденська конвенція 1963, Консульський статут (указ № 127/94), ЗУ 4059-XII, накази МЗС
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/applying-consular-procedures
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-applying-consular-procedures
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: administrative

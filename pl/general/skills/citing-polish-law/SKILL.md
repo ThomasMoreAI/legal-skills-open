@@ -3,9 +3,9 @@ name: citing-polish-law
 title: citing-polish-law
 description: Use when formatting citations to Polish legislation, court rulings, Constitutional Tribunal decisions, EU law, or international human rights judgments in legal memos, briefs, or analytical notes — requiring consistent format with article/paragraph/point, act name, redaction date, and source URL
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/citing-polish-law
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-citing-polish-law
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: general

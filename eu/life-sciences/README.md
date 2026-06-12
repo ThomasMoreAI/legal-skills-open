@@ -4,20 +4,9 @@ EU medical-device regulation — MDR (EU) 2017/745: device classification, techn
 
 Jurisdiction: `eu` · Practice: `life-sciences` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (1)
+## Skills (2)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`mdr-745-specialist-ovachiever`](skills/mdr-745-specialist-ovachiever/) | `life-sciences` |
-
-## Cold-start context
-
-See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
-
-## Provenance & license
-
-Skills relocated here during a practice-area re-classification. See each `SKILL.md` `author` / `author_url` for provenance and `license` for terms.
-
-## Disclaimer
-
-These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
+| [`MDR 2017/745 Specialist`](skills/mdr-745-specialist/) | EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evi… |
+| [`Senior MDR 2017/745 Specialist and Consultant`](skills/mdr-745-specialist-ovachiever/) | EU MDR 2017/745 regulation specialist and consultant for medical device requirement management. Provides compr… |

@@ -3,9 +3,9 @@ name: reviewing-b2b-service-contract
 title: reviewing-b2b-service-contract
 description: Use when auditing a Ukrainian B2B service contract (договір про надання послуг / рамковий договір / IT-аутсорсинг / staff augmentation) — заборона конкуренції (ст. 42 Конституції, ГК ст. 42, ЦК ст. 627), ексклюзивність vs прихована трудова (КЗпП ст. 21), штрафні санкції (ГК ст. 231, ЦК ст. 549-552), ФОП-специфіка (ГК ст. 128, свобода підприємницької діяльності), ІВ (авторське право), реєстри (ЄДР, ЄДРПОУ)
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/reviewing-b2b-service-contract
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-reviewing-b2b-service-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: contracts

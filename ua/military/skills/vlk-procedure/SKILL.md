@@ -3,9 +3,9 @@ name: vlk-procedure
 title: vlk-procedure
 description: Use when working with ВЛК procedures — категорії придатності А/Б/В/Г/Д (наказ МО № 402), кроки (ініціювання → направлення → засідання → висновок → оскарження), строки (ієрархічно до вищої ВЛК + судове в КАС), типові підстави для скасування (неповний склад, немотивовані висновки, нерозгляд документів, неправильне застосування Розкладу хвороб). Шаблони рапортів і чек-листи.
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/vlk-procedure
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-vlk-procedure
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: military

@@ -4,20 +4,11 @@ Competition law — agreements, abuse of dominance, merger control, and enforcem
 
 Jurisdiction: `eu` · Practice: `antitrust` · Skill language: de
 
-## Skills (1)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
-| [`DMA und Gatekeeper-Markt`](skills/dma-und-gatekeeper-markt/) | Digital Markets Act (VO 2022/1925): Gatekeeper-Designierung Kernplattformdienste quantitative und qualitativ… |
-
-## Cold-start context
-
-See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
-
-## Provenance & license
-
-Skills imported from open sources indexed by [skillsmp](https://skillsmp.com); see each `SKILL.md` `author` / `author_url` for provenance and `license` for terms.
-
-## Disclaimer
-
-These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
+| [`DMA und Gatekeeper-Markt`](skills/dma-und-gatekeeper-markt/) | Digital Markets Act (VO 2022/1925): Gatekeeper-Designierung Kernplattformdienste quantitative und qualitative… |
+| [`EU-Bekanntmachung zur Marktdefinition 2024`](skills/eu-bekanntmachung-marktdefinition-2024/) | Skill zur neuen EU-Kommissions-Bekanntmachung zur Marktdefinition (Februar 2024) und ihrer praktischen Anwendu… |
+| [`EU-Wettbewerb und Kartellrecht`](skills/europarecht-wettbewerb-kartell/) | Kartell- und Wettbewerbsrecht nach Art. 101 102 AEUV prüfen wenn Absprachen Marktmissbrauch oder Zusammenschlu… |
+| [`Fusionskontrolle — Modus`](skills/fusionskontrolle-modus/) | Prüft Marktabgrenzung im Kontext der EU-Fusionskontrolle (FKVO 139/2004): Phase I und Phase II SIEC-Test (Sign… |
