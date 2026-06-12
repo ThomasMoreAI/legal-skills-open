@@ -3,9 +3,9 @@ name: reviewing-vehicle-contract
 title: reviewing-vehicle-contract
 description: Use when auditing Polish vehicle sale contract (umowa kupna-sprzedaży pojazdu) — VIN / przebieg, title chain, obciążenia (zastaw rejestrowy, leasing, przewłaszczenie), import / cło, obowiązkowe klauzule, PCC-3, typowe schematy oszustwa (cofnięty licznik, klonowany VIN, pełnomocnictwa-pułapki, parallel imports), rejestry (CEPiK, Mój Pojazd, Rejestr Zastawów, biała lista VAT, historiapojazdu.gov.pl)
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/reviewing-vehicle-contract
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-vehicle-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: contracts
