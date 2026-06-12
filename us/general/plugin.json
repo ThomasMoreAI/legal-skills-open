@@ -9,6 +9,7 @@
   "practice": "general",
   "language": "en",
   "skills": [
+    "skills/billing-summary",
     "skills/citation-format",
     "skills/legalsearchqa-eval",
     "skills/newsletter-summary",

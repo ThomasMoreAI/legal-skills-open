@@ -9,9 +9,7 @@
   "practice": "securities",
   "language": "zh",
   "skills": [
-    "skills/ecm-dd-independence",
-    "skills/regulatory-inquiry-response-assistant",
-    "skills/regulatory-inquiry-response-bond",
-    "skills/regulatory-inquiry-response-refinancing"
+    "skills/inquiry-material-citation",
+    "skills/regulatory-inquiry-response-assistant"
   ]
 }

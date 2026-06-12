@@ -4,21 +4,12 @@ EU air-passenger-rights law — Regulation (EC) 261/2004 and the CJEU case law o
 
 Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 
-## Skills (2)
+## Skills (5)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`airline-standardausreden-pruefen`](skills/airline-standardausreden-pruefen/) | `aviation` |
-| [`ausnahmen-aussergewoehnliche-umstaende-pruefen`](skills/ausnahmen-aussergewoehnliche-umstaende-pruefen/) | `aviation` |
-
-## Cold-start context
-
-See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
-
-## Provenance & license
-
-Skills relocated here during practice-area expansion. See each `SKILL.md` for `author`/`author_url` and `license`.
-
-## Disclaimer
-
-These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
+| [`Airline-Standardausreden — Katalog und Gegenargumente`](skills/airline-standardausreden-pruefen/) | Katalog typischer Standardausreden der Fluggesellschaften mit Gegenargumenten und Pinpoint auf EuGH-Rechtsprec… |
+| [`Annullierung Verspätung oder Nichtbeförderung einordnen`](skills/annullierung-oder-verspaetung-einordnen/) | Workflow-Skill zu annullierung oder verspaetung einordnen. Nutzt Normtext, Nutzerangaben und verifizierte Quel… |
+| [`Anschlussflug und Reiseplan`](skills/anschlussflug-und-reiseplan/) | Workflow-Skill zu anschlussflug und reiseplan. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsp… |
+| [`Außergewöhnliche Umstände prüfen (Art. 5 Abs. 3 VO 261/2004)`](skills/ausnahmen-aussergewoehnliche-umstaende-pruefen/) | Workflow-Skill zu ausnahmen aussergewoehnliche umstaende pruefen. Nutzt Normtext, Nutzerangaben und verifizier… |
+| [`Distanz und Ausgleichszahlung berechnen`](skills/distanz-und-ausgleich-berechnen/) | Berechnet die Ausgleichszahlung nach Art. 7 VO 261/2004. Distanzbestimmung nach Grosskreisrechnung zwischen Ab… |
