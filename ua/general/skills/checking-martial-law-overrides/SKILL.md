@@ -3,9 +3,9 @@ name: checking-martial-law-overrides
 title: checking-martial-law-overrides
 description: Use when analyzing Ukrainian law on topics where default norms may be modified, suspended, or adjusted under martial law since 2022-02-24 — especially procedural deadlines, statute of limitations, registration actions, labor/property relations, judicial territorial jurisdiction, or mobilization-related regulations
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/checking-martial-law-overrides
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-checking-martial-law-overrides
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: general

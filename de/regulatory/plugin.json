@@ -18,7 +18,6 @@
     "skills/aufstellungsbeschluss-bekanntmachung",
     "skills/aussenwirtschaft-presse-krise",
     "skills/begrenztes-risiko-art-50-transparenzpflichten",
-    "skills/begruendung-allgemein-und-besonders",
     "skills/berufsrecht-bausteine",
     "skills/berufsrecht-ki-vertragspruefung-kaltstart-interview",
     "skills/beteiligung-frueh-foermlich",
@@ -28,14 +27,10 @@
     "skills/cloud-act-und-drittstaat-pruefen",
     "skills/compliance-regelsatz-erstellen",
     "skills/corporate-kanzlei-ki-governance-berufsrecht",
-    "skills/elsj-kommandocenter",
-    "skills/elsj-leichte-sprache",
     "skills/entscheidungsbaum-ki-vo-gesamt-workflow",
     "skills/erforderlichkeit-1-abs-3-baugb",
     "skills/esg-greenwashing-csrd",
-    "skills/europarecht-beihilfen-vergaben",
     "skills/europarecht-deutscher-denkfehler-scanner",
-    "skills/europarecht-richtlinie-umsetzung",
     "skills/executive-summary-bausteine",
     "skills/fachanwalt-agrarrecht-eu-agrarfoerderung",
     "skills/fachanwalt-agrarrecht-orientierung",
@@ -61,7 +56,6 @@
     "skills/literatur-und-quellen",
     "skills/lksg-csddd-lieferkettensorgfalt",
     "skills/luecken-aufzeiger",
-    "skills/mandantenbrief-warnung-paragraph-102-starug-template",
     "skills/mandat-erstgespraech-normenkontrolle",
     "skills/mandat-triage-agrarrecht",
     "skills/mandat-triage-verwaltungsrecht",
@@ -75,8 +69,6 @@
     "skills/produktrecht-anpassen",
     "skills/produktrecht-kaltstart-interview",
     "skills/rdg-pruefung-chatbot",
-    "skills/rechtsberatungsstelle-anpassen",
-    "skills/rechtsberatungsstelle-kaltstart-interview",
     "skills/referentenentwurf-bauen",
     "skills/regulatorisches-recht-anpassen",
     "skills/regulatorisches-recht-kaltstart-interview",
@@ -91,7 +83,6 @@
     "skills/stellungnahmen",
     "skills/subunternehmer-regelung-pruefen",
     "skills/verkehr-infrastrukturrecht-foerderung-vergabe",
-    "skills/verschwiegenheitsklausel-pruefen",
-    "skills/xml-paralleldarstellung"
+    "skills/verschwiegenheitsklausel-pruefen"
   ]
 }

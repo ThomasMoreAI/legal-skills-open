@@ -9,26 +9,26 @@
   "practice": "antitrust",
   "language": "de",
   "skills": [
-    "skills/abmahnung-uwg",
     "skills/alternative-marktdefinition-eng",
+    "skills/alternative-marktdefinition-weit",
     "skills/auswirkungen-marktanteile-marktbeherrschung",
     "skills/cluster-und-systemmaerkte",
     "skills/corporate-kanzlei-regulatory-fdi-merger-control",
     "skills/elastizitaeten-diversion-ratios",
     "skills/energierecht-wettbewerb",
-    "skills/fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg",
-    "skills/grosskanzlei-corporate-ma-datenraum-gap-clean-room",
     "skills/grosskanzlei-corporate-ma-regulatory-fdi-merger-control",
     "skills/innovations-und-technologiemaerkte",
     "skills/kartellverbot-modus",
     "skills/konsistenzpruefung-marktdefinition",
+    "skills/marktabgrenzung-kontextanalyse",
     "skills/missbrauchsverbot-modus",
     "skills/mittelstand-corporate-ma-regulatory-fdi-merger-control",
     "skills/paragraf-18-gwb-pruefung",
+    "skills/potenzieller-wettbewerb-marktzutritt",
     "skills/produktmarkt-nachfragesubstitution",
+    "skills/raeumlicher-markt-abgrenzung",
     "skills/red-flags-checkliste",
     "skills/selektiver-vertrieb-coty",
-    "skills/vertikale-preisbindung-vbe-vo",
-    "skills/werbeaussagen-pruefung"
+    "skills/vertikale-preisbindung-vbe-vo"
   ]
 }

@@ -3,9 +3,9 @@ name: reviewing-b2b-service-contract
 title: reviewing-b2b-service-contract
 description: Use when auditing Polish B2B service contract (umowa o świadczenie usług / umowa współpracy / kontrakt B2B / staff augmentation / IT outsourcing) — zakaz konkurencji B2B (art. 353¹ KC, SN II CSK 58/18), klauzule wyłączności vs pozorny stosunek pracy (art. 22 § 1¹ KP), kary umowne (art. 483-484 KC, miarkowanie), IP (prawa autorskie do kodu / dzieła), JDG-specyficzne (Prawo Przedsiębiorców art. 6, CEIDG), obowiązek pierwszeństwa, rejestry (CEIDG, KRS, biała lista VAT)
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/reviewing-b2b-service-contract
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-b2b-service-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: commercial

@@ -4,30 +4,16 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `general` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (11)
+## Skills (9)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-eu-cra`](skills/arckit-eu-cra/) | `cybersecurity` |
-| [`breach-summary`](skills/breach-summary/) | `cybersecurity` |
-| [`compliance-and-audit`](skills/compliance-and-audit/) | `cybersecurity` |
-| [`comply`](skills/comply/) | `cybersecurity` |
-| [`comply-simota`](skills/comply-simota/) | `cybersecurity` |
-| [`cybersecurity-breach-summary`](skills/cybersecurity-breach-summary/) | `cybersecurity` |
-| [`evidence-generation`](skills/evidence-generation/) | `cybersecurity` |
-| [`information-security-policy`](skills/information-security-policy/) | `cybersecurity` |
-| [`ir-tabletop-exercise`](skills/ir-tabletop-exercise/) | `cybersecurity` |
-| [`nis2`](skills/nis2/) | `cybersecurity` |
-| [`vendor-security-assessment`](skills/vendor-security-assessment/) | `cybersecurity` |
-
-## Cold-start context
-
-See [`CLAUDE.md`](CLAUDE.md) — scope, forums, sources of law, citation discipline, and when this plugin does NOT apply.
-
-## Provenance & license
-
-Skills relocated here during practice-area expansion. See each `SKILL.md` for `author`/`author_url` and `license`.
-
-## Disclaimer
-
-These skills produce informational drafts and analyses, not legal advice. Verify against current law before use.
+| [`Cybersecurity Breach Summary`](skills/breach-summary/) | Summarizes cybersecurity breach incidents into structured legal and compliance records. Trigger when synthesiz… |
+| [`Compliance and Audit`](skills/compliance-and-audit/) | Use when a project requires a compliance framework mapping, when risks need formal documentation, when audit e… |
+| [`Comply`](skills/comply/) | Regulatory compliance and audit agent. Maps business regulatory requirements (SOC2/PCI-DSS/HIPAA/ISO 27001), c… |
+| [`Comply`](skills/comply-simota/) | Regulatory compliance and audit agent. Maps business regulatory requirements (SOC2/PCI-DSS/HIPAA/ISO 27001), c… |
+| [`Cybersecurity Breach Summary`](skills/cybersecurity-breach-summary/) | Produces structured cybersecurity breach summary documents for regulatory and compliance use. Use when draftin… |
+| [`Enterprise Evidence Pack Generation`](skills/evidence-generation/) | Use this skill when generating ISO 27001 or NIST SP 800-53 audit evidence packs, compliance reports, evidence… |
+| [`Information Security Policy`](skills/information-security-policy/) | Drafts a board-approvable Information Security Policy covering data classification, access controls, encryptio… |
+| [`Tabletop Exercise Script for Incident Response Plan`](skills/ir-tabletop-exercise/) | Drafts a tabletop exercise script to stress-test an organization's Incident Response Plan against cybersecurit… |
+| [`Vendor Security Assessment Questionnaire`](skills/vendor-security-assessment/) | Drafts a Vendor Security Assessment Questionnaire evaluating third-party cybersecurity posture, data handling,… |

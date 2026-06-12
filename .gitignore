@@ -14,3 +14,6 @@ private_doc/
 .env
 **/.env
 *.env
+
+# audit tooling bytecode
+audit/__pycache__/

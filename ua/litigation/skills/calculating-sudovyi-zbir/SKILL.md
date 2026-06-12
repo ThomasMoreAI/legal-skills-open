@@ -3,9 +3,9 @@ name: calculating-sudovyi-zbir
 title: calculating-sudovyi-zbir
 description: Use when calculating Ukrainian court fees (судовий збір) for lawsuits, appeals, or procedural filings under ЗУ «Про судовий збір», requiring current rates expressed as multiples of the minimum subsistence wage (ПМ), checking statutory exemptions, or drafting motions for fee reduction, deferral, or installment
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/calculating-sudovyi-zbir
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-calculating-sudovyi-zbir
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: litigation

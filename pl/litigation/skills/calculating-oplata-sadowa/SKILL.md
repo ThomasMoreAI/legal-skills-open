@@ -3,9 +3,9 @@ name: calculating-oplata-sadowa
 title: calculating-oplata-sadowa
 description: Use when calculating Polish court fees (opłata sądowa) for civil lawsuits, appeals, or procedural filings under ustawa o kosztach sądowych w sprawach cywilnych (UKSC), checking whether opłata stosunkowa, stała, or podstawowa applies, applying statutory exemptions, or drafting motions for exemption / installment of fees
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/calculating-oplata-sadowa
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-calculating-oplata-sadowa
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: litigation

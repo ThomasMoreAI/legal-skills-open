@@ -3,9 +3,9 @@ name: szch-decriminalization
 title: szch-decriminalization
 description: Use when applying ч. 5 ст. 401 КК (Закон № 3902-IX від 20.08.2024, чинний з 07.09.2024) — звільнення від кримінальної відповідальності за СЗЧ (ст. 407) або дезертирство (ст. 408) при добровільному поверненні вперше. Чек-лист придатності, процедура (рапорт → письмова згода → клопотання слідчому → явка у 72 год), документи, пастки, контакти підтримки.
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/szch-decriminalization
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-szch-decriminalization
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: military

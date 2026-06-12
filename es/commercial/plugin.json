@@ -1,0 +1,14 @@
+{
+  "name": "es-commercial",
+  "displayName": "Commercial — Spain",
+  "version": "0.1.0",
+  "description": "Commercial skills for es (imported from open sources; see each skill's author_url for provenance).",
+  "author": "community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "es",
+  "practice": "commercial",
+  "language": "es",
+  "skills": [
+    "skills/revision-mercantil"
+  ]
+}

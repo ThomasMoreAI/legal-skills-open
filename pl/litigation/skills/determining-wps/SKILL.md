@@ -3,9 +3,9 @@ name: determining-wps
 title: determining-wps
 description: Use when calculating wartość przedmiotu sporu (WPS) under Polish KPC (art. 19–26) — determining its impact on subject-matter jurisdiction (rejonowy vs okręgowy), applicable court fee (opłata stosunkowa), rules for summing up multiple claims, treatment of interest, recurring benefits, claims concerning ownership / possession, and claims for declaration
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/determining-wps
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-wps
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: litigation

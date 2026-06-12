@@ -3,9 +3,9 @@ name: applying-zus-procedures
 title: applying-zus-procedures
 description: Use when navigating ZUS procedures — rejestracja płatnika (ZFA/ZPA/ZUA/ZCNA), zgłoszenie pracowników, zasiłki chorobowy / macierzyński / opiekuńczy (Z-3, Z-15A/B), emerytura (EMP), renta (N-9), świadczenie rehabilitacyjne (Np-7), ulgi w spłacie (RSR/RSO/RSU), odwołanie do sądu ubezpieczeń społecznych (art. 477⁹ KPC). Formularze, PUE ZUS, terminy (SUS, ZasChMac, EmRenFUS), ścieżka odwoławcza
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/applying-zus-procedures
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-zus-procedures
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: social-security

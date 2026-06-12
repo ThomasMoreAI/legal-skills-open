@@ -9,6 +9,9 @@
   "displayName": "Capital Markets — China",
   "description": "Capital markets — public and private securities offerings: prospectuses and registration statements (S-1/S-3), periodic reporting (10-K/10-Q/8-K), underwriting, lock-ups, ATM programs, and Regulation D private placements.",
   "skills": [
-    "skills/regulatory-inquiry-response-ipo"
+    "skills/ecm-dd-independence",
+    "skills/regulatory-inquiry-response-bond",
+    "skills/regulatory-inquiry-response-ipo",
+    "skills/regulatory-inquiry-response-refinancing"
   ]
 }
