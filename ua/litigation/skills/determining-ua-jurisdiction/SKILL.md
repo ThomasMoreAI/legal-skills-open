@@ -3,9 +3,9 @@ name: determining-ua-jurisdiction
 title: determining-ua-jurisdiction
 description: Use when determining the proper Ukrainian court for a lawsuit — identifying the correct type of proceedings (civil/commercial/administrative/criminal), territorial jurisdiction (which specific court), subject-matter jurisdiction, exclusive vs. alternative vs. contractual jurisdiction, or handling jurisdictional conflicts
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/determining-ua-jurisdiction
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-determining-ua-jurisdiction
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: litigation

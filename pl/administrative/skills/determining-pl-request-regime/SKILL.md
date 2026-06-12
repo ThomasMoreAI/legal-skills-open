@@ -3,9 +3,9 @@ name: determining-pl-request-regime
 title: determining-pl-request-regime
 description: "Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions, public-information requests, KPA filings, PPSA complaints, RODO access requests, registry extracts, court-file access, tax/ZUS/cudzoziemcy/USC procedures, or professional lawyer letters. Prevents mixing UDIP, KPA, PPSA, RODO, registry, special-procedure, and advocate/radca letter regimes."
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/pl/skills/determining-pl-request-regime
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-pl-request-regime
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: administrative

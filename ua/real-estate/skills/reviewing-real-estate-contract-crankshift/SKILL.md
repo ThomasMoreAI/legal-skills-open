@@ -3,9 +3,9 @@ name: reviewing-real-estate-contract-crankshift
 title: reviewing-real-estate-contract
 description: Use when auditing a Ukrainian real-estate sale contract (договір купівлі-продажу нерухомості) — ДРРП title chain, обтяження (іпотека, сервітути, арешти), обов'язкова нотаріальна форма (ст. 657 ЦК — нікчемність), переважне право (ст. 362 ЦК), воєнні обмеження, завдаток vs аванс (ст. 570 ЦК), податки (ПДФО 5%/18% + військовий збір 5% + ПФ 1% — fallback-ставки, див. таблицю «Актуальні ставки»), реєстри (nais.gov.ua, online.minjust.gov.ua, іпотеки, ЄРБ, АСВП)
 author: crankshift
-author_url: https://github.com/crankshift/lawpowers/tree/main/plugins/ua/skills/reviewing-real-estate-contract
+author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-reviewing-real-estate-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ua
 practice: real-estate
