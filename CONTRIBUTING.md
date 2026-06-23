@@ -60,4 +60,4 @@ By opening a pull request you license your contribution under [Apache License 2.
 
 ## No exclusivity
 
-You keep all rights to your skill and can publish it elsewhere — on Lawvable, in your own repository, in a private deployment — without notifying us.
+You keep all rights to your skill and can publish it elsewhere — in your own repository, in a private deployment — without notifying us.

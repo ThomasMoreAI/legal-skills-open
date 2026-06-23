@@ -130,29 +130,35 @@ and skills for that jurisdiction.
 
 ## Coverage by practice area
 
-25 practice areas covered across the 39 jurisdictions. Top areas by plugin count:
+48 practice areas covered across the 39 jurisdictions. Top areas by plugin count:
 
 | Practice area | Plugins | Typical skills |
 |---|---:|---|
-| Data protection | 24 | GDPR DPA review, ROPA generation, breach notification, transfer-impact assessments |
-| Litigation | 21 | Case-law analysis, pleadings drafting, procedural calculators, discovery review |
+| Data protection | 25 | GDPR DPA review, ROPA generation, breach notification, transfer-impact assessments |
+| Litigation | 22 | Case-law analysis, pleadings drafting, procedural calculators, discovery review |
+| General | 19 | Cross-practice skills (legal drafting, citation discipline, statute lookup) |
 | Regulatory | 18 | Compliance checks, regulatory filings, AI governance reviews |
-| General | 17 | Cross-practice skills (legal drafting, citation discipline, statute lookup) |
-| Real estate | 11 | Lease review, title checks, zoning analysis |
+| Real estate | 12 | Lease review, title checks, zoning analysis |
 | Contracts | 11 | Clause review, redlines, template generation |
 | Corporate | 10 | Cap-table analysis, corporate filings, governance |
-| Employment | 8 | Employee-handbook review, termination checks, wage-and-hour |
+| Tax | 8 | Tax classification, transfer-pricing review, withholding analysis |
+| Intellectual property | 8 | Trademark search, copyright analysis, patent landscaping |
 | Arbitration | 8 | Arbitration-clause design, award analysis, filing-fee calculators |
-| Tax | 7 | Tax classification, transfer-pricing review, withholding analysis |
-| Intellectual property | 7 | Trademark search, copyright analysis, patent landscaping |
+| Employment | 7 | Employee-handbook review, termination checks, wage-and-hour |
+| Cybersecurity | 7 | DORA, NIS2 and CRA compliance, ICT contract review, incident reporting |
+| Commercial | 7 | M&A diligence, commercial-contract review |
 | Trusts & estates | 6 | Will review, probate checks, trust drafting |
 | Personal injury | 6 | Damages calculation, statute-of-limitations checks |
 | Criminal | 6 | Sentencing analysis, charge-mapping, plea evaluation |
-| Commercial | 6 | M&A diligence, commercial-contract review |
 
-Other covered areas: **insurance**, **family**, **antitrust**, **healthcare**,
-**finance**, **environmental**, **construction**, **bankruptcy**,
-**securities**, **immigration**.
+Other covered areas (each with 1–5 plugins): **trade**, **insurance**,
+**government-contracts**, **family**, **antitrust**, **life-sciences**,
+**healthcare**, **finance**, **construction**, **bankruptcy**,
+**administrative**, **white-collar**, **sports**, **social-security**,
+**sanctions**, **immigration**, **environmental**, **employee-benefits**,
+**constitutional**, **aviation**, **transportation**, **tmt**, **securities**,
+**military**, **energy**, **capital-markets**, **nonprofit**, **maritime**,
+**investment-funds**, **gaming**, **entertainment**, **consumer**.
 
 ---
 
