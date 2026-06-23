@@ -22,7 +22,6 @@
 - [What a skill looks like (`SKILL.md` format)](#what-a-skill-looks-like-skillmd-format)
 - [Coverage by jurisdiction](#coverage-by-jurisdiction)
 - [Coverage by practice area](#coverage-by-practice-area)
-- [Contributing a new legal AI skill](#contributing-a-new-legal-ai-skill)
 - [License](#license)
 - [FAQ](#faq)
 - [Related projects](#related-projects)
@@ -159,34 +158,6 @@ Other covered areas (each with 1–5 plugins): **trade**, **insurance**,
 **constitutional**, **aviation**, **transportation**, **tmt**, **securities**,
 **military**, **energy**, **capital-markets**, **nonprofit**, **maritime**,
 **investment-funds**, **gaming**, **entertainment**, **consumer**.
-
----
-
-## Contributing a new legal AI skill
-
-Skills are short Markdown files — you don't need to write any code.
-
-1. Fork the repository.
-2. Add a folder `{country}/{practice}/skills/{slug}/` with a `SKILL.md` inside.
-3. If the plugin `{country}/{practice}/` doesn't exist yet, also add
-   `plugin.json`, `CLAUDE.md`, and `README.md` (copy from
-   [`ru/arbitration/`](ru/arbitration/) as a reference).
-4. Open a pull request. CI validates frontmatter, license, and version bump.
-
-CI rules (enforced automatically):
-
-- **License whitelist.** `Apache-2.0`, `MIT`, `BSD-3-Clause`, `BSD-2-Clause`,
-  `CC0-1.0`, `CC-BY-4.0`. AGPL / GPL / CC-NC / CC-ND are rejected.
-- **`execution_mode: open`** — required in this repository.
-- **Path consistency.** `name` must match the folder name; `jurisdiction` and
-  `practice` must match the path segments.
-- **Semver.** Bump `version` on every change to `SKILL.md`.
-
-Full walkthrough: [CONTRIBUTING.md](CONTRIBUTING.md).
-Canonical schema: [`schemas/skill-frontmatter.schema.json`](schemas/skill-frontmatter.schema.json).
-
-You keep all rights to your skill and can publish it elsewhere — in your own
-repository, a private deployment — without notifying us.
 
 ---
 
