@@ -19,7 +19,6 @@
 ## Table of contents
 
 - [What this repository is](#what-this-repository-is--an-open-source-legal-ai-skill-library)
-- [Quick start — connect via MCP in 30 seconds](#quick-start--connect-via-mcp-in-30-seconds)
 - [What a skill looks like (`SKILL.md` format)](#what-a-skill-looks-like-skillmd-format)
 - [Coverage by jurisdiction](#coverage-by-jurisdiction)
 - [Coverage by practice area](#coverage-by-practice-area)
@@ -33,12 +32,12 @@
 ## What this repository is — an open-source legal AI skill library
 
 A **legal AI skill** is a single Markdown file (`SKILL.md`) that describes one
-applied legal task — *«calculate the Russian commercial-court filing fee»,
-«analyse this case under FRCP Rule 12(b)(6)», «check this DPA against
-GDPR Article 28»* — in a structured format an AI agent can execute
+applied legal task — *«calculate the German court fee under the GKG for a
+civil claim», «analyse this case under FRCP Rule 12(b)(6)», «check this DPA
+against GDPR Article 28»* — in a structured format an AI agent can execute
 deterministically.
 
-Skills follow the [Anthropic Skills convention](https://www.anthropic.com/news/agent-skills):
+Skills follow the [Anthropic Skills convention](https://www.anthropic.com/news/skills):
 YAML frontmatter (machine-readable contract) + Markdown body (the algorithm).
 Every skill in this repository is grouped into a plugin by **jurisdiction**
 and **practice area**:
@@ -50,63 +49,35 @@ and **practice area**:
 Allowed `{country}` values: any ISO 3166-1 alpha-2 code, plus `general`
 (jurisdiction-agnostic) and `cross-jurisdiction` (multi-country comparative).
 
-**You don't install skills locally.** You connect any MCP-compatible client to
-the MCP server `mcp.thomasmoreai.com`; the orchestrator finds and runs the
-right skill via its `discover` and `invoke` tools.
+**There are two ways to use these skills:**
 
----
-
-## Quick start — connect via MCP in 30 seconds
-
-### Claude Desktop / Claude Code
-
-Add to `claude_desktop_config.json` (or your `mcp.json`):
-
-```jsonc
-{
-  "mcpServers": {
-    "thomasmore-legal": {
-      "url": "https://mcp.thomasmoreai.com/mcp",
-      "transport": "http"
-    }
-  }
-}
-```
-
-### Cursor
-
-Settings → MCP → Add server → URL: `https://mcp.thomasmoreai.com/mcp`.
-
-### Any other Model Context Protocol client
-
-Point it at `https://mcp.thomasmoreai.com/mcp` (Streamable HTTP transport).
-Once connected, ask your agent something jurisdiction-specific, for example:
-
-> *Apply the Russian commercial-court filing fee skill to a claim of 1,500,000 RUB.*
-> *Review this DPA against GDPR Article 28 and EDPB Guidelines 07/2020.*
-> *Check whether this US contract clause is enforceable in Delaware.*
-
-The orchestrator picks the right skill automatically.
+1. **Locally.** Since this repository is open source and every skill follows the
+   Anthropic Skills/plugin format, you can clone it and use the skills locally
+   (as Claude Code skills/plugins).
+2. **Via the MCP server ThomasMore.** Connect any MCP-compatible
+   client to the MCP server `mcp.thomasmoreai.com`; the orchestrator finds and
+   runs the right skill via its `discover` and `invoke` tools. Follow
+   [thomasmoreai.com](https://thomasmoreai.com/) for updates on the MCP server launch.
 
 ---
 
 ## What a skill looks like (`SKILL.md` format)
 
-Real example from [`ru/arbitration/skills/poshlina-calc/`](ru/arbitration/skills/poshlina-calc/):
+Real example from [`eu/data-protection/skills/gdpr-expert/`](eu/data-protection/skills/gdpr-expert/):
 
 ```yaml
 ---
-name: poshlina-calc
-title: Расчёт госпошлины в арбитражный суд РФ
-description: Computes the Russian commercial-court filing fee under Tax Code arts. 333.21–333.22 / 333.37.
-author: ThomasMore
-license: Apache-2.0
+name: gdpr-expert
+title: GDPR Expert
+description: GDPR expert for EU privacy compliance. Deep knowledge of General Data Protection Regulation including 99 articles, 7 principles, 6 lawful bases, data subject rights, DPO requirements, DPIA, breach notification, cross-border transfers, and enforcement.
+author: GRCEngClub
+author_url: https://github.com/GRCEngClub/claude-grc-engineering/tree/main/plugins/frameworks/gdpr/skills/gdpr-expert
+license: MIT
 version: 0.1.0
 execution_mode: open
-jurisdiction: ru
-practice: arbitration
-language: ru
-tags: [госпошлина, арбитраж, расчёт]
+jurisdiction: eu
+practice: data-protection
+language: en
 ---
 
 # Skill title
