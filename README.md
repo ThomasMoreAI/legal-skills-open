@@ -163,8 +163,8 @@ Other covered areas (each with 1–5 plugins): **trade**, **insurance**,
 
 ## License
 
-[Apache License 2.0](LICENSE). The repository, every skill in it, and every
-contribution to it are Apache-2.0 by default. You can use, modify, distribute,
+[Apache License 2.0](LICENSE). The repository and every contribution to it are
+Apache-2.0 by default. You can use, modify, distribute,
 and run these skills commercially — only attribution is required.
 
 ---
@@ -176,8 +176,9 @@ and run these skills commercially — only attribution is required.
 Yes. The skills are delivered over the **Model Context Protocol (MCP)**, which
 is supported by Claude Code, Claude Desktop, Cursor, ChatGPT (via MCP plugins),
 the ThomasMore desktop app, and any other MCP-compatible client. Point your
-client at `https://mcp.thomasmoreai.com/mcp` and the orchestrator handles
-discovery and routing.
+client at `https://mcp.thomasmoreai.com/` and the orchestrator handles
+discovery and routing. Follow [thomasmoreai.com](https://thomasmoreai.com/) for 
+updates on the MCP server launch.
 
 ### Are these skills production-ready?
 
@@ -196,38 +197,16 @@ edition / date). Ad-hoc prompts drift, hallucinate citations, and aren't
 reproducible across team members. Skills make legal AI workflows
 **auditable** — important for compliance, conflicts checks, and post-mortems.
 
-### What's the difference between this repo and Anthropic's `claude-for-legal`?
-
-[`claude-for-legal`](https://github.com/anthropics/claude-for-legal) is
-Anthropic's official suite of 12 legal plugins. This repository is a
-**community-driven, jurisdictionally-tagged, much larger catalogue** under
-the same Anthropic Skills format — the two are complementary, and a skill
-from either can be invoked through MCP.
-
 ### How do I add a skill for my jurisdiction?
 
 If your country code (ISO 3166-1 alpha-2) is missing, just create the folder
 — e.g. `pt/contracts/skills/...` — and open a PR. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-### Why Apache-2.0 only? Why are AGPL / GPL / CC-NC rejected?
-
-To stay friendly to **commercial deployments** (in-house legal tools, paid
-SaaS, regulated industries). AGPL/GPL/CC-NC clauses create license friction
-that effectively blocks adoption in those settings, defeating the purpose of
-an open skill library.
-
-### Is the orchestrator open-source too?
-
-The orchestrator that serves these skills (`mcp.thomasmoreai.com`) is a
-ThomasMore-operated service; the **skills themselves** in this repository are
-fully open-source (Apache-2.0). You can run any skill against your own
-orchestrator implementation — `SKILL.md` is just a Markdown file.
-
 ---
 
 ## Related projects
 
-- [Anthropic Skills](https://www.anthropic.com/news/agent-skills) —
+- [Anthropic Skills](https://www.anthropic.com/news/skills) —
   the underlying `SKILL.md` format.
 - [Model Context Protocol](https://modelcontextprotocol.io/) — the open
   protocol every MCP-compatible client speaks.
