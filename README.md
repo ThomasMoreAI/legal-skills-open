@@ -185,8 +185,8 @@ CI rules (enforced automatically):
 Full walkthrough: [CONTRIBUTING.md](CONTRIBUTING.md).
 Canonical schema: [`schemas/skill-frontmatter.schema.json`](schemas/skill-frontmatter.schema.json).
 
-You keep all rights to your skill and can publish it elsewhere — on
-Lawvable, your own repository, a private deployment — without notifying us.
+You keep all rights to your skill and can publish it elsewhere — in your own
+repository, a private deployment — without notifying us.
 
 ---
 
