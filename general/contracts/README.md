@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 
-## Skills (177)
+## Skills (172)
 
 | Skill | Practice |
 |---|---|
@@ -12,7 +12,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`ai-intelligent-contract-review`](skills/ai-intelligent-contract-review/) | `contracts` |
 | [`amendment-history`](skills/amendment-history/) | `contracts` |
 | [`amendment-history-anthropics`](skills/amendment-history-anthropics/) | `contracts` |
-| [`amendment-history-stubbi`](skills/amendment-history-stubbi/) | `contracts` |
 | [`amendment-history-zekaisuni`](skills/amendment-history-zekaisuni/) | `contracts` |
 | [`amendment-history-zhou210712`](skills/amendment-history-zhou210712/) | `contracts` |
 | [`api-acceptable-use-policy`](skills/api-acceptable-use-policy/) | `contracts` |
@@ -142,7 +141,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`nda-review-anthropics`](skills/nda-review-anthropics/) | `contracts` |
 | [`nda-review-borghei`](skills/nda-review-borghei/) | `contracts` |
 | [`nda-review-legalquants`](skills/nda-review-legalquants/) | `contracts` |
-| [`nda-review-stubbi`](skills/nda-review-stubbi/) | `contracts` |
 | [`nda-review-wdzhwsh4067`](skills/nda-review-wdzhwsh4067/) | `contracts` |
 | [`nda-review-zhou210712`](skills/nda-review-zhou210712/) | `contracts` |
 | [`nda-snapshot`](skills/nda-snapshot/) | `contracts` |
@@ -160,7 +158,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`private-doc-review`](skills/private-doc-review/) | `contracts` |
 | [`read-a-contract`](skills/read-a-contract/) | `contracts` |
 | [`redline-emailer`](skills/redline-emailer/) | `contracts` |
-| [`renewal-tracker-stubbi`](skills/renewal-tracker-stubbi/) | `contracts` |
 | [`review-a-contract`](skills/review-a-contract/) | `contracts` |
 | [`review-alexchlou`](skills/review-alexchlou/) | `contracts` |
 | [`review-anthropics`](skills/review-anthropics/) | `contracts` |
@@ -171,7 +168,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`signature-request-nmoralescyber`](skills/signature-request-nmoralescyber/) | `contracts` |
 | [`specialized-legal-document-review`](skills/specialized-legal-document-review/) | `contracts` |
 | [`stakeholder-summary`](skills/stakeholder-summary/) | `contracts` |
-| [`stakeholder-summary-stubbi`](skills/stakeholder-summary-stubbi/) | `contracts` |
 | [`template-clause-recommender`](skills/template-clause-recommender/) | `contracts` |
 | [`terms-of-service-generation`](skills/terms-of-service-generation/) | `contracts` |
 | [`terms-page-generator`](skills/terms-page-generator/) | `contracts` |
@@ -180,7 +176,6 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`triage-nda`](skills/triage-nda/) | `contracts` |
 | [`triage-nda-nmoralescyber`](skills/triage-nda-nmoralescyber/) | `contracts` |
 | [`vendor-ai-review`](skills/vendor-ai-review/) | `contracts` |
-| [`vendor-ai-review-stubbi`](skills/vendor-ai-review-stubbi/) | `contracts` |
 | [`vendor-check`](skills/vendor-check/) | `contracts` |
 | [`vendor-contract-review`](skills/vendor-contract-review/) | `contracts` |
 | [`vibe-legal-batch-redliner`](skills/vibe-legal-batch-redliner/) | `contracts` |
