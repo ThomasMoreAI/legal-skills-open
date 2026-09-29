@@ -11,12 +11,10 @@
   "skills": [
     "skills/cisg-pruefen",
     "skills/cold-start-interview-4",
-    "skills/cold-start-interview-stubbi",
     "skills/common-law-ma-commercial-drafting",
     "skills/customize",
     "skills/customize-5",
     "skills/escalation-flagger",
-    "skills/escalation-flagger-stubbi",
     "skills/fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung",
     "skills/international-distribution-agreement",
     "skills/intl-distribution-agreement",
@@ -34,7 +32,6 @@
     "skills/saas-msa-review-anthropics",
     "skills/template-synthesizer",
     "skills/vendor-agreement-review",
-    "skills/vendor-agreement-review-anthropics",
-    "skills/vendor-agreement-review-stubbi"
+    "skills/vendor-agreement-review-anthropics"
   ]
 }
