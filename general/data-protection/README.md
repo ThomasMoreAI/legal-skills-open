@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (119)
+## Skills (116)
 
 | Skill | What it does |
 |---|---|
@@ -47,14 +47,12 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Supervisory Authority Inspection Preparation`](skills/dpa-inspection-prep/) | Guides preparation for supervisory authority (DPA) inspections and investigations including document readiness… |
 | [`$privacy-legal:dpa-review`](skills/dpa-review/) | Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or contro… |
 | [`/dpa-review`](skills/dpa-review-anthropics/) | Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or contro… |
-| [`DPA Review`](skills/dpa-review-stubbi/) | Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or contro… |
 | [`/dpa-review`](skills/dpa-review-zhou210712/) | 依据你的数据处理协议（DPA）操作手册审查一份DPA——自动检测你是受托处理者 还是处理者，并应用操作手册正确的半部分。当用户说"审查这份DPA""检查这份 数据处理附录""客户发来了他们的DPA""这份DPA可以吗"，… |
 | [`DPIA Risk Scoring Methodology`](skills/dpia-risk-scoring/) | Provides a structured risk scoring methodology for Data Protection Impact Assessments aligned with ENISA threa… |
 | [`Draft Cybersecurity Website Terms and Cookie Policies`](skills/draft-cybersecurity-website-terms-and-cookie-policies/) | Generates Terms of Use and Cookie Policy documents for a cybersecurity company website, strictly limiting data… |
 | [`Processing Data Subject Access Requests`](skills/dsar-processing/) | Guides AI agents through the complete GDPR Data Subject Access Request (DSAR) workflow under Article 15, inclu… |
 | [`$privacy-legal:dsar-response`](skills/dsar-response/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the respon… |
 | [`/dsar-response`](skills/dsar-response-anthropics/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the respon… |
-| [`DSAR Response`](skills/dsar-response-stubbi/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the respon… |
 | [`Employee DSAR Response`](skills/employee-dsar-response/) | Manages Data Subject Access Request procedures for employee requests under Art. 15 GDPR. Covers scope of discl… |
 | [`Employee Monitoring DPIA`](skills/employee-monitoring-dpia/) | Conducts Data Protection Impact Assessments for employee monitoring systems per EDPB Guidelines 3/2019 on work… |
 | [`Employment Consent Limits`](skills/employment-consent-limits/) | Analyses the limitations on consent as a lawful basis for processing employee data under Art. 88 GDPR and WP29… |
@@ -91,7 +89,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`NIST Privacy Framework — IDENTIFY Function`](skills/nist-pf-identify/) | Implement the NIST Privacy Framework IDENTIFY function including ID.BE business environment, ID.DA data action… |
 | [`Personal Data Classification Test — GDPR Art. 4(1)`](skills/personal-data-test/) | Classifies personal vs non-personal data per GDPR Art. 4(1) definition test with decision tree for borderline… |
 | [`/pia-generation`](skills/pia-generation/) | Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity, using… |
-| [`PIA Generation`](skills/pia-generation-stubbi/) | Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity, using… |
 | [`Privacy Impact Assessment for Large-Scale Monitoring`](skills/pia-large-scale-monitor/) | Conducts Privacy Impact Assessment for large-scale systematic monitoring under GDPR Article 35(3)(c). Covers C… |
 | [`Managing PIA Review and Update Cadence`](skills/pia-review-cadence/) | Guides the periodic DPIA review lifecycle including trigger identification for regulatory changes, new data ca… |
 | [`/policy-monitor`](skills/policy-monitor-anthropics/) | Keep the privacy policy current with practice. Two modes: weekly sweep of saved PIAs, DPA reviews, and triage… |

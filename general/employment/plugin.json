@@ -23,7 +23,6 @@
     "skills/employment-contract-templates-v2",
     "skills/employment-contract-templates-wshobson",
     "skills/handbook-updates",
-    "skills/hiring-review-stubbi",
     "skills/internal-investigation",
     "skills/internal-investigation-anthropics",
     "skills/investigation-add",
@@ -37,7 +36,6 @@
     "skills/investigation-query-zekaisuni",
     "skills/matter-workspace-zekaisuni",
     "skills/termination-review",
-    "skills/termination-review-anthropics",
-    "skills/termination-review-stubbi"
+    "skills/termination-review-anthropics"
   ]
 }

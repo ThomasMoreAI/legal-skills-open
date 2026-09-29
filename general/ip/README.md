@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `general` · Practice: `ip` · Skill language: en
 
-## Skills (84)
+## Skills (78)
 
 | Skill | What it does |
 |---|---|
@@ -13,12 +13,9 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`IPランドスケープの評価`](skills/assess-ip-landscape/) | 技術ドメインまたは製品分野の知的財産ランドスケープをマッピングする。特許クラスター 分析、ホワイトスペース特定、競合他社IPポートフォリオ評価、実施自由（FTO）予備 スクリーニング、戦略的IPポジショニング推奨をカバー… |
 | [`$ip-legal:cease-desist`](skills/cease-desist/) | Draft a cease-and-desist letter (send mode) or triage one you received (receive mode). Use when asserting your… |
 | [`/cease-desist`](skills/cease-desist-anthropics/) | Draft a cease-and-desist letter (send mode) or triage one you received (receive mode). Use when asserting your… |
-| [`Cease Desist`](skills/cease-desist-stubbi/) | Draft a cease-and-desist letter (send mode) or triage one you received (receive mode). |
-| [`Claim Chart`](skills/claim-chart-stubbi/) | Build or review an element chart — a patent claim chart (infringement, invalidity, or review) or a civil eleme… |
 | [`Claim Parsing`](skills/claim-parsing/) | Patent claim syntax parsing — independent/dependent relationships and element extraction |
 | [`Claims Drafting: The Core Patent Skill`](skills/claims-drafting/) | Draft patent claims for an invention. Use when user says "撰写权利要求", "draft claims", "写权利要求书", "claim drafting",… |
 | [`$ip-legal:clearance`](skills/clearance/) | Trademark clearance first pass — knockout + similar-marks check producing a flag list, not a clearance opinion… |
-| [`Clearance`](skills/clearance-stubbi/) | Trademark clearance first pass — knockout + similar-marks check producing a flag list, not a clearance opinion… |
 | [`/cold-start-interview`](skills/cold-start-interview-18/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first install w… |
 | [`/cold-start-interview`](skills/cold-start-interview-zhou210712/) | 运行冷启动面谈以了解你的知识产权实务并撰写实务画像。 用于首次安装、实务画像缺失或仍含占位符时，使用 --redo 重新设置、 或在连接或断开 MCP 后使用 --check-integrations 重新探测集成。 这… |
 | [`/customize`](skills/customize-7/) | Guided customization of your IP practice profile — change one thing without re-running the whole cold-start in… |
@@ -29,12 +26,10 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`$ip-legal:fto-triage`](skills/fto-triage/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion. Use w… |
 | [`/fto-triage`](skills/fto-triage-anthropics/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion. Use w… |
 | [`$ip-legal:infringement-triage`](skills/infringement-triage/) | Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors cutti… |
-| [`Infringement Triage`](skills/infringement-triage-stubbi/) | Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors cutti… |
 | [`Invention Structuring`](skills/invention-structuring/) | Structure a raw invention idea into a formal invention disclosure. Use when user says "构建发明", "structure inven… |
 | [`IP Assignment Agreement`](skills/ip-assignment/) | Drafts intellectual property assignment agreements transferring patents, trademarks, copyrights, and trade sec… |
 | [`$ip-legal:ip-clause-review`](skills/ip-clause-review/) | Review the IP clauses in an agreement — assignment, ownership, license grants, warranties, indemnities. Use wh… |
 | [`/ip-clause-review`](skills/ip-clause-review-anthropics/) | Review the IP clauses in an agreement — assignment, ownership, license grants, warranties, indemnities. Use wh… |
-| [`IP Clause Review`](skills/ip-clause-review-stubbi/) | Review the IP clauses in an agreement — assignment, ownership, license grants, warranties, indemnities. |
 | [`IP Management`](skills/ip-management/) | Use this skill when managing patents, trademarks, trade secrets, or open-source licensing. Triggers on intelle… |
 | [`IP Research`](skills/ip-research/) | IP data research tools for patents, trademarks, and related USPTO/EPO/JPO records. Use when: - Looking up pate… |
 | [`IPC/CPC 국제특허분류 가이드`](skills/ipc-classification-guide/) | IPC/CPC 국제특허분류 체계 가이드. 특허 검색 시 IPC 코드 구조 이해, 기술 분야별 코드 탐색, 검색 전략 수립에 활용. Use when: (1) IPC 코드의 의미나 구조를 파악할 때,… |
@@ -75,7 +70,6 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`PCT Application Skill`](skills/pct-application/) | PCT international application preparation under PCT Rules 5-12 - unity of invention, formal requirements, nati… |
 | [`$ip-legal:portfolio`](skills/portfolio/) | Track the IP portfolio — registrations, renewals, maintenance fees, and use declarations. Use when checking wh… |
 | [`/portfolio`](skills/portfolio-anthropics/) | Track the IP portfolio — registrations, renewals, maintenance fees, and use declarations. Use when checking wh… |
-| [`Portfolio`](skills/portfolio-stubbi/) | Track the IP portfolio — registrations, renewals, maintenance fees, and use declarations. |
 | [`/portfolio`](skills/portfolio-zekaisuni/) | Track the IP portfolio — registrations, renewals, Yıllık Sicil Ücretleri / Patent Yıllık Harçları (SMK m.101)s… |
 | [`Prior Art Search Skill`](skills/prior-art-search/) | Systematic 7-step methodology for comprehensive patent prior art searches and patentability assessments using… |
 | [`Prior Art Search`](skills/prior-art-search-wanshuiyin/) | Search patent databases and academic literature for prior art relevant to an invention. Use when user says "现有… |
