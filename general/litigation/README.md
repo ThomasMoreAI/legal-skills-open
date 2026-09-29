@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 
-## Skills (118)
+## Skills (104)
 
 | Skill | What it does |
 |---|---|
@@ -12,7 +12,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Appeal Document Summarization`](skills/appeal-summary/) | Generates structured analytical summaries of appellate documents covering procedural posture, issues on appeal… |
 | [`$litigation-legal:brief-section-drafter`](skills/brief-section-drafter/) | Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked,… |
 | [`/brief-section-drafter`](skills/brief-section-drafter-anthropics/) | Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked,… |
-| [`Brief Section Drafter`](skills/brief-section-drafter-stubbi/) | Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked,… |
 | [`building-chronologies`](skills/building-chronologies/) | Use when users say "build a chronology", "make a timeline", "what happened when", "chronology from disclosure"… |
 | [`Stateless Case File Analyzer (Ralph Loop Edition)`](skills/case-file-analyzer/) | Use when running structured, adversarial analysis across large case-file directories — extracts facts, claims,… |
 | [`Skill：案件摄入与争议焦点识别`](skills/case-intake-issue-map/) | 用于案件初始摄入阶段，将零散事实叙述转化为结构化案件概要，区分事实、推测、评价与法律结论，识别争议焦点层级关系及证据缺口，为后续证据台账、要件矩阵和策略分析提供基础。 |
@@ -33,17 +32,13 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Skill：矛盾分析`](skills/contradiction-analysis/) | 识别当事人陈述、证据、时间线、行为逻辑和法律立场之间的矛盾，生成追问和证明策略。 |
 | [`Cross-Examination Key Points Summary`](skills/cross-exam-summary/) | Generates a structured cross-examination summary from depositions, exhibits, and discovery organized by witnes… |
 | [`Cross-Examination Summary`](skills/cross-examination-summaries/) | Generates thematic cross-examination summaries from deposition transcripts, sworn statements, and discovery ma… |
-| [`Deadlines`](skills/deadlines-stubbi/) | Track case deadlines — add, cross-case rollup report, update, complete, close. |
 | [`Decision Record Verification`](skills/decision-record-verification/) | Cross-references a judge's decision, court opinion, or final order against one or more hearing/trial/depositio… |
 | [`$litigation-legal:demand-intake`](skills/demand-intake/) | Pre-drafting context gathering for a demand letter — parties, facts, basis, leverage, BATNA, and privilege fil… |
 | [`/demand-intake`](skills/demand-intake-anthropics/) | Pre-drafting context gathering for a demand letter — parties, facts, basis, leverage, BATNA, and privilege fil… |
-| [`Demand Intake`](skills/demand-intake-stubbi/) | Pre-drafting context gathering for a demand letter — parties, facts, basis, leverage, BATNA, and privilege fil… |
 | [`$litigation-legal:demand-received`](skills/demand-received/) | Triage an inbound demand letter — extract fields, cross-check the portfolio, assess merit, present response op… |
 | [`/demand-received`](skills/demand-received-anthropics/) | Triage an inbound demand letter — extract fields, cross-check the portfolio, assess merit, present response op… |
-| [`Demand Received`](skills/demand-received-stubbi/) | Triage an inbound demand letter — extract fields, cross-check the portfolio, assess merit, present response op… |
 | [`$litigation-legal:deposition-prep`](skills/deposition-prep/) | Build a deposition outline for a witness — pull their documents from the eDiscovery platform, organize topics… |
 | [`/deposition-prep`](skills/deposition-prep-anthropics/) | Build a deposition outline for a witness — pull their documents from the eDiscovery platform, organize topics… |
-| [`Deposition Prep`](skills/deposition-prep-stubbi/) | Build a deposition outline for a witness — pull their documents from the eDiscovery platform, organize topics… |
 | [`Deposition Questioning Techniques`](skills/deposition-questioning-techniques/) | Generates deposition question sequences using six core examination techniques (Funnel, Boxing-In, Looping, Thr… |
 | [`Deposition Summarization`](skills/deposition-summarization/) | Summarizes deposition transcripts with precise page:line citations. Supports sequential, topic-based, and stra… |
 | [`Deposition Summary with Key Document Index`](skills/deposition-summary/) | Generates topic-based deposition summaries for commercial litigation with exhibit cross-referencing. Produces… |
@@ -62,16 +57,12 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Hearing Preparation Summary`](skills/hearing-prep/) | Generates structured hearing preparation briefings from case documents, evidence, authorities, and procedural… |
 | [`Hearing Preparation Summary`](skills/hearing-prep-summary/) | Produces a quick-reference hearing preparation summary synthesizing pleadings, evidence, witnesses, and govern… |
 | [`Human Rights Case Summary`](skills/human-rights-case-summary/) | Produces structured, citation-ready summaries of human rights decisions. Trigger when the user requests a huma… |
-| [`Internal Investigation`](skills/internal-investigation-stubbi/) | Reference: shared framework for managing internal investigations from intake through final memo — privileged i… |
-| [`Investigation Memo`](skills/investigation-memo-stubbi/) | Draft or update the privileged investigation memo from the investigation log. |
-| [`Investigation Query`](skills/investigation-query-stubbi/) | Ask questions against an open investigation log — what witnesses said, where accounts conflict, what gaps exis… |
 | [`Skill：法官视角分析`](skills/judge-perspective/) | 从法官、仲裁员或调解员视角评估请求清晰度、证据闭环、证明责任、裁判可执行性和风险。 |
 | [`Lawsuit Summarizer`](skills/lawsuit-summarizer/) | Dava özetleme, taraf analizi, talep ve savunma özeti, karar sonuçları. |
 | [`Lawyer Accountability`](skills/lawyer-accountability/) | Track and evaluate solicitor performance, costs, and accountability. Use when the user says "is my lawyer doin… |
 | [`Legal Diagram Skill`](skills/legal-architecture/) | 生成专业的法律结构可视化图，输出为自包含 HTML 文件（内嵌 SVG，浅色主题，适合打印和嵌入文档）。适用场景：(1) 用户要求"画结构图""生成可视化""做流程图""法律图示"时；(2) 涉及诉讼推理结构（当事人→证… |
 | [`legal-claim-economics`](skills/legal-claim-economics/) | Use when users say "model claim economics", "litigation funding waterfall", "portfolio economics", "funder MOI… |
 | [`$litigation-legal:legal-hold`](skills/legal-hold/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold fields… |
-| [`Legal Hold`](skills/legal-hold-stubbi/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold fields… |
 | [`Legal Research`](skills/legal-research/) | Guides legal research from issue framing through authority collection, jurisdiction scoping, source prioritiza… |
 | [`Legal Strategy Summary`](skills/legal-strategy-summary/) | Generates structured litigation strategy summaries synthesizing case facts, legal arguments, procedural tactic… |
 | [`Leiloeiro Juridico`](skills/leiloeiro-juridico/) | Provides leiloeiro-juridico capabilities for legal and development professionals. Use when integrating or refe… |
@@ -91,13 +82,11 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`/matter-intake`](skills/matter-intake-zhou210712/) | 登记新案件——统一问题涵盖标识信息、利益冲突检索、来源、 风险分流、重要性、外聘律师、内部负责人、证据保全和关键日期； 写入 matter.md 和 history.md 并在 _log.yaml 中追加结构化行。 当用… |
 | [`$litigation-legal:matter-update`](skills/matter-update/) | Append a dated event to a matter's history file and refresh the log row — captures new developments, status ch… |
 | [`/matter-update`](skills/matter-update-anthropics/) | Append a dated event to a matter's history file and refresh the log row — captures new developments, status ch… |
-| [`Matter Update`](skills/matter-update-stubbi/) | Append a dated event to a matter's history file and refresh the log row — captures new developments, status ch… |
 | [`Mediation Statement`](skills/mediation-statement/) | Drafts persuasive mediation statements for litigation, structuring narrative across liability, damages, medica… |
 | [`Negotiation Support`](skills/negotiation-support/) | Generates a strategic negotiation support document with leverage analysis, BATNA assessment, risk matrix, and… |
 | [`New Case - 创建新案件/整理咨询材料`](skills/new-case/) | 将案件/咨询材料整理成标准化目录结构。支持诉讼案件（12目录）和潜在项目/咨询（3目录）两种预设。本技能应在用户需要创建新案件、初始化案件目录结构、整理咨询材料、或通过参数和自然语言指定案件编号、委托人、案件类型等信息快… |
 | [`$litigation-legal:oc-status`](skills/oc-status/) | Generate weekly status-request email drafts to outside counsel across the active portfolio — markdown per matt… |
 | [`/oc-status`](skills/oc-status-anthropics/) | Generate weekly status-request email drafts to outside counsel across the active portfolio — markdown per matt… |
-| [`OC Status`](skills/oc-status-stubbi/) | Generate weekly status-request email drafts to outside counsel across the active portfolio — markdown per matt… |
 | [`/oc-status (Dış Hukuk Bürosu Safahat Durumu)`](skills/oc-status-zekaisuni/) | Tüm aktif portföydeki dış hukuk bürolarına gönderilmek üzere haftalık/aylık durum (safahat) talep e-postası ta… |
 | [`/oc-status`](skills/oc-status-zhou210712/) | 为活跃案件组合中的各外聘律师生成每周状态请求邮件草稿—— 每案一份 markdown。当用户要求向外聘律师发状态请求、 每周外聘律师检查或需要从案件组合日志中起草各案状态邮件时使用。 |
 | [`Skill：对方视角与抗辩模拟`](skills/opponent-perspective/) | Simulates the opposing party's litigation and negotiation strategy by mapping their likely factual narrative,… |
@@ -106,7 +95,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Post-Settlement Correspondence`](skills/post-settlement-correspondence/) | Drafts structured post-settlement correspondence memorializing negotiation history and final terms in commerci… |
 | [`$litigation-legal:privilege-log-review`](skills/privilege-log-review/) | First-pass privilege log review — make the obvious privilege calls and flag the hard ones for attorney review… |
 | [`/privilege-log-review`](skills/privilege-log-review-anthropics/) | First-pass privilege log review — make the obvious privilege calls and flag the hard ones for attorney review… |
-| [`Privilege Log Review`](skills/privilege-log-review-stubbi/) | First-pass privilege log review — make the obvious privilege calls and flag the hard ones for attorney review… |
 | [`proposition-checking`](skills/proposition-checking/) | Use when users say "does this authority support the point", "check propositions", "fact-check this argument",… |
 | [`Settlement Proposals Summary`](skills/settlement-proposals/) | Produces chronological settlement negotiation summaries from litigation case files, extracting proposals, coun… |
 | [`Settlement Summarization`](skills/settlement-summarization/) | Summarizes settlement negotiations and agreements in litigation. Extracts key terms, payment structures, relea… |
@@ -114,12 +102,10 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`skill-evidenceops`](skills/skill-evidenceops/) | Forensic media triage with chain of custody. |
 | [`$legal-clinic:status`](skills/status/) | Case status summary by audience — client-facing (plain language), internal (for the professor), or court-ready… |
 | [`/status`](skills/status-anthropics/) | Case status summary by audience — client-facing (plain language), internal (for the professor), or court-ready… |
-| [`Status`](skills/status-stubbi/) | Case status summary by audience — client-facing (plain language), internal (for the professor), or court-ready… |
 | [`Skill：策略、风险与行动方案`](skills/strategy-risk-action/) | 基于事实、证据、争议焦点、风险和用户目标，生成谈判、投诉、调解、诉讼等路径的行动方案。 |
 | [`Legal Strategy Summary`](skills/strategy-summary/) | Produces a litigation strategy summary aligning facts, legal theory, procedural tactics, discovery, and settle… |
 | [`$litigation-legal:subpoena-triage`](skills/subpoena-triage/) | Triage a subpoena served on the company — classify it, analyze scope/burden/privilege, cross-check the portfol… |
 | [`/subpoena-triage`](skills/subpoena-triage-anthropics/) | Triage a subpoena served on the company — classify it, analyze scope/burden/privilege, cross-check the portfol… |
-| [`Subpoena Triage`](skills/subpoena-triage-stubbi/) | Triage a subpoena served on the company — classify it, analyze scope/burden/privilege, cross-check the portfol… |
 | [`Summary Judgment Analysis`](skills/summary-judgment/) | Produces structured summaries of summary judgment motions, orders, and decisions. Use when the user needs to s… |
 | [`Formal Tender Letter`](skills/tender-letter/) | Drafts formal legal tender letters serving as official notice of payment or performance of contractual obligat… |
 | [`Tender of Defense Letter`](skills/tender-of-defense/) | Drafts a contractual tender of defense letter demanding a contracting party assume defense and indemnification… |

@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 
-## Skills (57)
+## Skills (53)
 
 | Skill | What it does |
 |---|---|
@@ -18,7 +18,6 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`$regulatory-legal:cold-start-interview`](skills/cold-start-interview-3/) | Cold-start interview — builds your watchlist, indexes the policy library, and learns your materiality threshol… |
 | [`/cold-start-interview`](skills/cold-start-interview-anthropics/) | Run the cold-start interview — learns your AI governance practice and writes `~/.claude/plugins/config/claude-… |
 | [`/comments`](skills/comments/) | Review open NPRM comment periods, log decisions, track deadlines. Use when an NPRM has a comment window open a… |
-| [`Comments`](skills/comments-stubbi/) | Review open NPRM comment periods, log decisions, track deadlines. |
 | [`compliance-auditor`](skills/compliance-auditor-mittuled/) | This skill conducts comprehensive compliance audits across 7 regulatory frameworks using a 57-item checklist w… |
 | [`/compliance-check -- Compliance Review`](skills/compliance-check-anthropics/) | Run a compliance check on a proposed action, product feature, or business initiative, surfacing applicable reg… |
 | [`Compliance Checklists`](skills/compliance-checklists/) | Create operational checklists for legal, accessibility, privacy, platform, and product compliance obligations. |
@@ -33,7 +32,6 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`Ethics conflict check`](skills/ethics-conflict-check/) | Spot ethics, disclosure, gift, recusal, personal-interest, or appearance issues in a proposed city action. |
 | [`Feature Risk Assessment`](skills/feature-risk-assessment/) | Deeper risk assessment for a single feature or product area when the launch review found something that needs… |
 | [`Gap Surfacer`](skills/gap-surfacer/) | Reference: shared gap- and comment-tracker framework backing /regulatory-legal:gaps and /regulatory-legal:comm… |
-| [`Gap Surfacer`](skills/gap-surfacer-stubbi/) | Reference: shared gap- and comment-tracker framework backing /regulatory-legal:gaps and /regulatory-legal:comm… |
 | [`KSB-D04-K0044: Regulatory Compliance Verification`](skills/ksb-d04-k0044/) | Regulatory Compliance Verification: AI checking of submission requirements and format standards... |
 | [`KSB-D10-K0012: Regulatory Decision Support`](skills/ksb-d10-k0012/) | Regulatory Decision Support: Advisory committee preparation, regulatory submission strategies, post-marketing… |
 | [`KSB-D12-K0008: Inspection Readiness and Management`](skills/ksb-d12-k0008/) | Inspection Readiness and Management: AI-powered inspection preparation systems, predictive risk assessment for… |
@@ -47,11 +45,9 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`Policy Brief`](skills/policy-brief/) | Generates structured public policy briefs analyzing legislation across economic, social, legal, and implementa… |
 | [`$regulatory-legal:policy-diff`](skills/policy-diff/) | Diff a specific regulatory change against the indexed policy library. Use when a reg has changed and you need… |
 | [`/policy-diff`](skills/policy-diff-anthropics/) | Diff a specific regulatory change against the indexed policy library. Use when a reg has changed and you need… |
-| [`Policy Diff`](skills/policy-diff-stubbi/) | Diff a specific regulatory change against the indexed policy library. |
 | [`$regulatory-legal:policy-redraft`](skills/policy-redraft/) | Produce a proposed marked-up policy redraft that closes a gap found by $regulatory-legal:gaps or $regulatory-l… |
 | [`/policy-redraft`](skills/policy-redraft-anthropics/) | Produce a proposed marked-up policy redraft that closes a gap found by /regulatory-legal:gaps or /regulatory-l… |
 | [`$regulatory-legal:reg-feed-watcher`](skills/reg-feed-watcher/) | Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold.… |
-| [`Reg Feed Watcher`](skills/reg-feed-watcher-stubbi/) | Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold. |
 | [`法规匹配助手-信托监管版（T819）`](skills/regulation-match-trust-regulatory/) | 用于信托领域合同与法务中的法规匹配助手-信托监管版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`法规匹配助手（T109）`](skills/regulation-matching-assistant/) | 用于法规要求与业务条款匹配检查，基于监管规则关键词识别已覆盖义务与潜在缺口。适用于合同法务、合规审查、监管检查前自查场景。 |
 | [`Regulatory Compliance`](skills/regulatory-compliance/) | Multi-sector regulatory compliance skill for industry-specific regulations. Use when the user needs assistance… |
