@@ -1,0 +1,64 @@
+{
+  "pays": "Luxembourg",
+  "as_of": "2025-01-01",
+  "sources": {
+    "irc": "Loi de l'impôt sur le revenu (LIR), art. 174",
+    "icc": "Loi du 1er décembre 1936 sur l'impôt commercial, modifiée",
+    "if": "Loi modifiée du 16 octobre 1934 sur l'évaluation des biens et valeurs (Bewertungsgesetz)",
+    "url": "https://impotsdirects.public.lu/"
+  },
+  "irc_impot_revenu_collectivites": {
+    "description": "Impôt sur le revenu des collectivités — applicable aux SARL, SA, SAS, SARL-S, SCSp opaques, etc.",
+    "tranches_2025": [
+      { "min_eur": 0, "max_eur": 175000, "taux_pct": 14, "remarque": "Taux abaissé en 2025 (avant : 15 %)" },
+      { "min_eur": 175001, "max_eur": 200000, "taux_pct": null, "formule": "IRC = 14 % × 175 000 + 31 % × (R - 175 000)" },
+      { "min_eur": 200001, "max_eur": null, "taux_pct": 16, "remarque": "Taux abaissé en 2025 (avant : 17 %)" }
+    ],
+    "contribution_fonds_chomage": {
+      "taux_pct": 7,
+      "description": "Majoration de 7 % de l'IRC dû, affectée au fonds pour l'emploi"
+    },
+    "irc_effectif_global_grandes": {
+      "calcul": "16 % × 1.07 = 17.12 %",
+      "avec_icc_lux_ville": "17.12 % + ~6.75 % ICC = ~23.87 %",
+      "remarque": "Charge fiscale globale entreprise à Luxembourg-Ville en 2025 ≈ 23.87 % (avant : ≈ 24.94 %)"
+    }
+  },
+  "icc_impot_commercial_communal": {
+    "description": "Impôt commercial communal — assiette = bénéfice commercial ajusté",
+    "abattement_pm_eur": 17500,
+    "abattement_personnes_physiques_eur": 40000,
+    "taux_assiette_pct": 3,
+    "multiplicateur_communal": "Variable selon commune (cf. data/communes-icc.json)",
+    "formule": "ICC = (bénéfice ajusté - abattement) × 3 % × multiplicateur",
+    "exemple_lux_ville_pm": {
+      "benefice": 500000,
+      "calcul": "(500 000 - 17 500) × 3 % × 225 % = 32 568,75 €",
+      "taux_effectif": "6.51 %"
+    }
+  },
+  "if_impot_fortune": {
+    "description": "Impôt sur la fortune — applicable aux personnes morales uniquement (supprimé pour personnes physiques en 2006)",
+    "taux_pct": 0.5,
+    "taux_reduit_au_dela_500m": 0.05,
+    "assiette": "Valeur unitaire des biens (actifs - dettes) au 1er janvier",
+    "if_minimum_mindest": {
+      "description": "Impôt sur la fortune minimum forfaitaire — dû même en l'absence d'actif imposable. Barème selon total du bilan.",
+      "bareme_2025": [
+        { "total_bilan_max_eur": 350000, "if_min_eur": 535 },
+        { "total_bilan_max_eur": 2000000, "if_min_eur": 1605 },
+        { "total_bilan_max_eur": 10000000, "if_min_eur": 5350 },
+        { "total_bilan_max_eur": 15000000, "if_min_eur": 10700 },
+        { "total_bilan_max_eur": 20000000, "if_min_eur": 16050 },
+        { "total_bilan_max_eur": 30000000, "if_min_eur": 21400 },
+        { "total_bilan_max_eur": null, "if_min_eur": 32100 }
+      ],
+      "if_min_special_socpart": {
+        "description": "Sociétés dont les actifs financiers (créances, valeurs mobilières, etc.) > 90 % du bilan ET > 350 000 € — IF min spécial",
+        "if_min_eur": 4815
+      },
+      "imputation": "L'IRC dû peut être imputé sur l'IF minimum (art. 8a loi IF)."
+    }
+  },
+  "remarque_globale": "Les taux et seuils ci-dessus reflètent les modifications de la loi du 19 décembre 2024 (paquet fiscal 2025). À vérifier auprès de l'ACD pour cas particuliers."
+}

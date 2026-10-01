@@ -1,0 +1,53 @@
+{
+  "description": "Barème de l'impôt sur le revenu des personnes physiques (IRPP) — Luxembourg, classe 1, exercice 2025",
+  "as_of": "2025-01-01",
+  "source": {
+    "loi": "Loi du 19 décembre 2024 sur le paquet fiscal 2025 — modifiant l'art. 118 LIR",
+    "url": "https://impotsdirects.public.lu/fr/az/b/bareme.html",
+    "remarque": "Tranches élargies de 2,5 indices à compter du 1er janvier 2025 pour ajustement à l'inflation"
+  },
+  "tranches_classe_1_2025": [
+    { "min_eur": 0, "max_eur": 13230, "taux_marginal_pct": 0 },
+    { "min_eur": 13231, "max_eur": 15435, "taux_marginal_pct": 8 },
+    { "min_eur": 15436, "max_eur": 17640, "taux_marginal_pct": 9 },
+    { "min_eur": 17641, "max_eur": 19845, "taux_marginal_pct": 10 },
+    { "min_eur": 19846, "max_eur": 22050, "taux_marginal_pct": 11 },
+    { "min_eur": 22051, "max_eur": 24255, "taux_marginal_pct": 12 },
+    { "min_eur": 24256, "max_eur": 26460, "taux_marginal_pct": 14 },
+    { "min_eur": 26461, "max_eur": 28665, "taux_marginal_pct": 16 },
+    { "min_eur": 28666, "max_eur": 30870, "taux_marginal_pct": 18 },
+    { "min_eur": 30871, "max_eur": 33075, "taux_marginal_pct": 20 },
+    { "min_eur": 33076, "max_eur": 35280, "taux_marginal_pct": 22 },
+    { "min_eur": 35281, "max_eur": 37485, "taux_marginal_pct": 24 },
+    { "min_eur": 37486, "max_eur": 39690, "taux_marginal_pct": 26 },
+    { "min_eur": 39691, "max_eur": 41895, "taux_marginal_pct": 28 },
+    { "min_eur": 41896, "max_eur": 44100, "taux_marginal_pct": 30 },
+    { "min_eur": 44101, "max_eur": 46305, "taux_marginal_pct": 32 },
+    { "min_eur": 46306, "max_eur": 48510, "taux_marginal_pct": 34 },
+    { "min_eur": 48511, "max_eur": 50715, "taux_marginal_pct": 36 },
+    { "min_eur": 50716, "max_eur": 110403, "taux_marginal_pct": 38 },
+    { "min_eur": 110404, "max_eur": 165600, "taux_marginal_pct": 39 },
+    { "min_eur": 165601, "max_eur": 220788, "taux_marginal_pct": 40 },
+    { "min_eur": 220789, "max_eur": 234870, "taux_marginal_pct": 41 },
+    { "min_eur": 234871, "max_eur": null, "taux_marginal_pct": 42 }
+  ],
+  "contribution_fonds_chomage": {
+    "taux_pct_revenu_jusqu_150000": 7,
+    "taux_pct_revenu_au_dela_150000": 9,
+    "calcul": "Appliquée sur l'impôt brut",
+    "exemple": "Si IRPP brut = 10 000 € et revenu < 150 000 € → IRPP final = 10 000 × 1.07 = 10 700 €"
+  },
+  "ieb_temporaire_supprime": {
+    "statut": "L'Impôt d'Équilibrage Budgétaire Temporaire (IEBT) a été supprimé fin 2016. Plus applicable.",
+    "remplace_par": null
+  },
+  "regle_application": "Barème par tranches progressif. L'impôt est calculé tranche par tranche puis additionné. Application du barème selon la classe d'impôt (cf. classes-impot.json).",
+  "classe_2_remarque": "Pour la classe 2 (mariés résidents), appliquer le barème classe 1 sur la moitié du revenu imposable du couple, puis multiplier le résultat par 2 (système du splitting).",
+  "classe_1a_remarque": "Pour la classe 1a (parents isolés, veufs, >64 ans), appliquer un barème spécifique avec tranches élargies — voir classes-impot.json.",
+  "minimum_imposable": {
+    "classe_1": 13230,
+    "classe_1a": 27585,
+    "classe_2": 26460,
+    "remarque": "En-dessous de ces seuils, pas d'impôt dû."
+  }
+}

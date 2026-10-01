@@ -1,0 +1,138 @@
+{
+  "description": "Plan Comptable Normalisé (PCN) Luxembourg — extrait des principaux comptes. Issu du règlement grand-ducal du 12 septembre 2019 fixant le PCN.",
+  "url_source": "https://eli.legilux.public.lu/eli/etat/leg/rgd/2019/09/12/a665/jo",
+  "as_of": "2019-09-12",
+  "structure": "8 classes (1 à 8) — comptes à 6 chiffres maximum",
+  "classes": {
+    "1": {
+      "libelle": "Capitaux propres, provisions, dettes financières et assimilées",
+      "comptes_cles": [
+        { "code": "10", "libelle": "Capital souscrit" },
+        { "code": "101", "libelle": "Capital souscrit non versé" },
+        { "code": "102", "libelle": "Capital souscrit versé" },
+        { "code": "11", "libelle": "Primes d'émission, de fusion, d'apport" },
+        { "code": "13", "libelle": "Réserves" },
+        { "code": "131", "libelle": "Réserve légale" },
+        { "code": "14", "libelle": "Résultats reportés" },
+        { "code": "141", "libelle": "Résultat reporté (bénéfice)" },
+        { "code": "142", "libelle": "Résultat reporté (perte)" },
+        { "code": "15", "libelle": "Résultat de l'exercice" },
+        { "code": "16", "libelle": "Provisions" },
+        { "code": "161", "libelle": "Provisions pour pensions" },
+        { "code": "164", "libelle": "Provisions pour impôts" },
+        { "code": "17", "libelle": "Dettes subordonnées" },
+        { "code": "18", "libelle": "Emprunts obligataires" },
+        { "code": "19", "libelle": "Dettes envers les établissements de crédit" }
+      ]
+    },
+    "2": {
+      "libelle": "Comptes de l'actif immobilisé",
+      "comptes_cles": [
+        { "code": "20", "libelle": "Frais d'établissement et frais assimilés" },
+        { "code": "21", "libelle": "Immobilisations incorporelles" },
+        { "code": "211", "libelle": "Frais de recherche et de développement" },
+        { "code": "213", "libelle": "Concessions, brevets, licences, marques" },
+        { "code": "214", "libelle": "Fonds de commerce" },
+        { "code": "22", "libelle": "Immobilisations corporelles" },
+        { "code": "221", "libelle": "Terrains" },
+        { "code": "222", "libelle": "Constructions" },
+        { "code": "223", "libelle": "Installations techniques, machines et outillage" },
+        { "code": "224", "libelle": "Autres installations, outillage, mobilier" },
+        { "code": "23", "libelle": "Immobilisations en cours et acomptes" },
+        { "code": "25", "libelle": "Immobilisations financières — parts dans entreprises liées" },
+        { "code": "26", "libelle": "Immobilisations financières — créances sur entreprises liées" },
+        { "code": "29", "libelle": "Amortissements et corrections de valeur sur immobilisations" }
+      ]
+    },
+    "3": {
+      "libelle": "Comptes de stocks et en-cours",
+      "comptes_cles": [
+        { "code": "30", "libelle": "Matières premières et consommables" },
+        { "code": "32", "libelle": "Produits en cours de fabrication" },
+        { "code": "33", "libelle": "Produits finis" },
+        { "code": "37", "libelle": "Marchandises" }
+      ]
+    },
+    "4": {
+      "libelle": "Comptes de tiers",
+      "comptes_cles": [
+        { "code": "40", "libelle": "Fournisseurs et comptes rattachés" },
+        { "code": "401", "libelle": "Fournisseurs" },
+        { "code": "403", "libelle": "Fournisseurs effets à payer" },
+        { "code": "41", "libelle": "Clients et comptes rattachés" },
+        { "code": "411", "libelle": "Clients" },
+        { "code": "416", "libelle": "Créances douteuses ou litigieuses" },
+        { "code": "42", "libelle": "Personnel et comptes rattachés" },
+        { "code": "421", "libelle": "Personnel — rémunérations dues" },
+        { "code": "43", "libelle": "Sécurité sociale et autres organismes sociaux" },
+        { "code": "44", "libelle": "État, ACD, AED, communes" },
+        { "code": "4421", "libelle": "État — TVA collectée (output)" },
+        { "code": "4426", "libelle": "État — TVA déductible (input)" },
+        { "code": "4427", "libelle": "État — TVA à décaisser" },
+        { "code": "4428", "libelle": "État — crédit de TVA" },
+        { "code": "4441", "libelle": "État — IRC à payer" },
+        { "code": "4442", "libelle": "État — ICC à payer" },
+        { "code": "4443", "libelle": "État — IF à payer" },
+        { "code": "45", "libelle": "Entreprises liées et avec lien de participation" },
+        { "code": "46", "libelle": "Débiteurs et créditeurs divers" },
+        { "code": "47", "libelle": "Comptes transitoires ou d'attente" },
+        { "code": "48", "libelle": "Comptes de régularisation" }
+      ]
+    },
+    "5": {
+      "libelle": "Comptes financiers",
+      "comptes_cles": [
+        { "code": "50", "libelle": "Valeurs mobilières de placement" },
+        { "code": "51", "libelle": "Banques, CCP" },
+        { "code": "511", "libelle": "Effets à encaisser" },
+        { "code": "512", "libelle": "Banques" },
+        { "code": "53", "libelle": "Caisse" },
+        { "code": "54", "libelle": "Régies d'avance et accréditifs" }
+      ]
+    },
+    "6": {
+      "libelle": "Comptes de charges",
+      "comptes_cles": [
+        { "code": "60", "libelle": "Achats" },
+        { "code": "601", "libelle": "Achats de matières premières" },
+        { "code": "606", "libelle": "Achats non stockés" },
+        { "code": "607", "libelle": "Achats de marchandises" },
+        { "code": "61", "libelle": "Services extérieurs (loyers, entretien, etc.)" },
+        { "code": "62", "libelle": "Autres services extérieurs (honoraires, publicité, etc.)" },
+        { "code": "63", "libelle": "Impôts, taxes et versements assimilés (hors IRC/ICC)" },
+        { "code": "64", "libelle": "Frais de personnel" },
+        { "code": "641", "libelle": "Rémunérations du personnel" },
+        { "code": "645", "libelle": "Charges de sécurité sociale" },
+        { "code": "65", "libelle": "Autres charges d'exploitation" },
+        { "code": "66", "libelle": "Charges financières" },
+        { "code": "67", "libelle": "Charges exceptionnelles" },
+        { "code": "68", "libelle": "Dotations aux amortissements et provisions" },
+        { "code": "69", "libelle": "Impôts sur le résultat (IRC + ICC)" }
+      ]
+    },
+    "7": {
+      "libelle": "Comptes de produits",
+      "comptes_cles": [
+        { "code": "70", "libelle": "Ventes de produits, prestations de services, marchandises" },
+        { "code": "701", "libelle": "Ventes de produits finis" },
+        { "code": "706", "libelle": "Prestations de services" },
+        { "code": "707", "libelle": "Ventes de marchandises" },
+        { "code": "71", "libelle": "Production stockée (variation de stock)" },
+        { "code": "72", "libelle": "Production immobilisée" },
+        { "code": "74", "libelle": "Subventions d'exploitation" },
+        { "code": "75", "libelle": "Autres produits d'exploitation" },
+        { "code": "76", "libelle": "Produits financiers" },
+        { "code": "77", "libelle": "Produits exceptionnels" },
+        { "code": "78", "libelle": "Reprises sur amortissements et provisions" }
+      ]
+    },
+    "8": {
+      "libelle": "Comptes d'engagements hors bilan, ordre et réserves spéciales investissements",
+      "comptes_cles": [
+        { "code": "80", "libelle": "Engagements hors bilan" },
+        { "code": "85", "libelle": "Réserves spéciales (réserve d'investissement, réserve immunisée)" }
+      ]
+    }
+  },
+  "remarque": "Liste extraite et abrégée — le PCN compte plusieurs centaines de sous-comptes. Référence officielle : annexe au règlement grand-ducal du 12 septembre 2019."
+}

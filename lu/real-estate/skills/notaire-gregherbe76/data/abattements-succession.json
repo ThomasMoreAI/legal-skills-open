@@ -1,0 +1,85 @@
+{
+  "description": "Droits de succession et de donation — Luxembourg",
+  "as_of": "2025-01-01",
+  "source": {
+    "loi": "Loi du 27 décembre 1817 sur les successions, modifiée + loi modifiée du 27 décembre 1936 sur les droits de mutation par décès",
+    "regulateur": "AED — Administration de l'Enregistrement, des Domaines et de la TVA",
+    "url": "https://pfi.public.lu/fr/professionnels/successions.html"
+  },
+  "principe_general": "Les droits de succession au Luxembourg portent sur la part nette recueillie par chaque héritier — barème progressif selon le lien de parenté.",
+  "exoneration_ligne_directe": {
+    "principe": "EXONÉRATION TOTALE sur la part successorale légale (réserve héréditaire) entre époux/partenaires et descendants en ligne directe (enfants, petits-enfants).",
+    "remarque_essentielle": "Le Luxembourg est l'une des juridictions les plus favorables d'Europe : pas de droits sur la succession entre parents ↔ enfants pour la part légale.",
+    "imposition_partie_libre": "Si testament attribue à un enfant PLUS que sa réserve héréditaire (par 'préciput' ou avantages), seule la part dépassant la réserve est taxée à 2,5 % (préciput) ou 5 % (legs)."
+  },
+  "bareme_lignes_collaterales_strangers": {
+    "frères_soeurs": {
+      "taux_pct": 6,
+      "majoration_au_dela_10000": "+0,1 % par tranche de 10 000 € au-delà"
+    },
+    "oncles_tantes_neveux_nieces": {
+      "taux_pct": 9
+    },
+    "grands_oncles_grands_neveux": {
+      "taux_pct": 10
+    },
+    "autres_personnes_etrangers": {
+      "taux_pct": 15
+    }
+  },
+  "majoration_part_excedentaire": {
+    "principe": "Majoration progressive selon montant de la part nette",
+    "tranches_eur": [
+      { "min_eur": 0, "max_eur": 10000, "majoration_pct": 0 },
+      { "min_eur": 10001, "max_eur": 20000, "majoration_pct": 10 },
+      { "min_eur": 20001, "max_eur": 30000, "majoration_pct": 20 },
+      { "min_eur": 30001, "max_eur": 40000, "majoration_pct": 30 },
+      { "min_eur": 40001, "max_eur": 50000, "majoration_pct": 40 },
+      { "min_eur": 50001, "max_eur": 75000, "majoration_pct": 50 },
+      { "min_eur": 75001, "max_eur": 100000, "majoration_pct": 60 },
+      { "min_eur": 100001, "max_eur": 200000, "majoration_pct": 70 },
+      { "min_eur": 200001, "max_eur": 500000, "majoration_pct": 80 },
+      { "min_eur": 500001, "max_eur": 1000000, "majoration_pct": 100 },
+      { "min_eur": 1000001, "max_eur": 1750000, "majoration_pct": 120 },
+      { "min_eur": 1750001, "max_eur": null, "majoration_pct": 140 }
+    ],
+    "calcul": "Droit final = taux de base × (1 + majoration %). Ex : frère héritant de 100 000 € → 6 % × 1.60 = 9.6 %"
+  },
+  "donations_du_vivant": {
+    "principe": "Donations notariées soumises à droits selon barème spécifique (cf. droits-enregistrement.json — section donations).",
+    "rappel_fiscal": "Les donations consenties dans les 12 mois avant le décès sont rapportées à la masse successorale.",
+    "non_rapportable_apres_12_mois": true
+  },
+  "passif_deductible": [
+    "Dettes du défunt à la date du décès",
+    "Frais funéraires (raisonnables)",
+    "Frais de dernière maladie",
+    "Impôts dus à la date du décès",
+    "Honoraires notaire pour règlement succession"
+  ],
+  "biens_taxables": {
+    "residents": "Patrimoine mondial du défunt",
+    "non_residents": "Uniquement immeubles situés au Luxembourg",
+    "exception_immeubles_etranger": "Immeubles situés à l'étranger non taxés (même si défunt résident lux), sauf application convention internationale"
+  },
+  "delais_declaration": {
+    "delai_principal_mois": 6,
+    "depart": "Date du décès",
+    "lieu_depot": "Bureau d'enregistrement compétent (résidence du défunt)",
+    "prolongation": "Sursis sur demande motivée auprès de l'AED"
+  },
+  "interets_retard": {
+    "taux_mensuel_pct": 0.6,
+    "calcul": "À partir du 6e mois après décès"
+  },
+  "exemple_pratique": {
+    "scenario": "Défunt sans testament, marié, 2 enfants, patrimoine net 1 200 000 €",
+    "repartition_legale": "Conjoint : usufruit ou 1/4 propriété au choix ; enfants : reste à parts égales",
+    "droits": "0 € — exonération totale en ligne directe et entre époux"
+  },
+  "exemple_oncle": {
+    "scenario": "Tante lègue 80 000 € à son neveu",
+    "calcul": "Taux base 9 % ; majoration tranche 75 001-100 000 = 60 % → 9 × 1.60 = 14.4 %",
+    "droits": "80 000 × 14,4 % = 11 520 €"
+  }
+}

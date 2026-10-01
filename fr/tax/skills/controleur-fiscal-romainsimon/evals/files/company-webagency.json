@@ -1,0 +1,36 @@
+{
+  "name": "WebAgency",
+  "legal_form": "SASU",
+  "siren": "987654321",
+  "siret": "98765432100011",
+  "director": {
+    "name": "Sophie Martin",
+    "title": "Présidente"
+  },
+  "address": {
+    "street": "15 rue des Lilas",
+    "city": "Nantes",
+    "zip": "44000"
+  },
+  "naf": "6201Z",
+  "capital": 1000,
+  "fiscal_year": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "duration_days": 365,
+    "first_exercise": false
+  },
+  "tax": {
+    "regime": "IS",
+    "tva": "franchise"
+  },
+  "banks": [
+    { "id": "qonto", "name": "Qonto", "account": "5121", "type": "api" }
+  ],
+  "qonto": {
+    "enabled": true
+  },
+  "stripe_accounts": [
+    { "id": "main", "name": "WebAgency SaaS", "env_key": "STRIPE_SECRET_WEBAGENCY" }
+  ]
+}

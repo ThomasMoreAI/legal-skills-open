@@ -1,0 +1,16 @@
+{
+  "name": "fr-tax",
+  "displayName": "Tax — FR",
+  "version": "0.1.0",
+  "description": "Tax skills for FR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "tax",
+  "language": "fr",
+  "skills": [
+    "skills/comptable-romainsimon",
+    "skills/controleur-fiscal-romainsimon",
+    "skills/fiscaliste-romainsimon"
+  ]
+}

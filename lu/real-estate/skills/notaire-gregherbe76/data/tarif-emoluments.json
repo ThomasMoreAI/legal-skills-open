@@ -1,0 +1,91 @@
+{
+  "description": "Tarif des émoluments (honoraires) des notaires luxembourgeois",
+  "as_of": "2025-01-01",
+  "source": {
+    "regulation": "Règlement grand-ducal du 20 octobre 2000 fixant le tarif des notaires (modifié)",
+    "url": "https://eli.legilux.public.lu/eli/etat/leg/rgd/2000/10/20",
+    "remarque": "Tarif réglementé — tous les notaires appliquent les mêmes barèmes pour les actes courants"
+  },
+  "principe": "Les émoluments sont proportionnels à la valeur de l'acte, sur barème dégressif. Un notaire ne peut pas baisser ses émoluments réglementés.",
+  "actes_immobiliers_vente": {
+    "bareme_proportionnel_emoluments": [
+      { "tranche_eur_de": 0, "tranche_eur_a": 6500, "taux_pct": 1.65 },
+      { "tranche_eur_de": 6501, "tranche_eur_a": 17000, "taux_pct": 0.825 },
+      { "tranche_eur_de": 17001, "tranche_eur_a": 30000, "taux_pct": 0.55 },
+      { "tranche_eur_de": 30001, "tranche_eur_a": 60000, "taux_pct": 0.4125 },
+      { "tranche_eur_de": 60001, "tranche_eur_a": null, "taux_pct": 0.275 }
+    ],
+    "minimum_eur": 600,
+    "tva_sur_honoraires_pct": 17,
+    "exemple_300k": {
+      "calcul_detail": [
+        "6 500 × 1.65 % = 107.25 €",
+        "(17 000 - 6 501) × 0.825 % = 86.62 €",
+        "(30 000 - 17 001) × 0.55 % = 71.49 €",
+        "(60 000 - 30 001) × 0.4125 % = 123.74 €",
+        "(300 000 - 60 001) × 0.275 % = 660.00 €"
+      ],
+      "total_emoluments_HT": "≈ 1 049 €",
+      "tva_17pc": "≈ 178 €",
+      "total_emoluments_TTC": "≈ 1 227 €"
+    }
+  },
+  "actes_societes": {
+    "constitution_sarl_sa": {
+      "emoluments_forfaitaires_eur": "Variable selon capital — fourchette indicative 800 à 1 500 € HT",
+      "tva_pct": 17,
+      "remarque": "Plus droit fixe AED (75 €) + frais de publication RESA (env. 30 €)"
+    },
+    "constitution_sarl_s": {
+      "emoluments_forfaitaires_eur": "≈ 600 € HT",
+      "remarque": "Forme simplifiée, capital de 1 à 12 000 €"
+    },
+    "augmentation_capital": {
+      "bareme": "Proportionnel sur le montant de l'augmentation, mêmes tranches que actes immo",
+      "minimum_eur": 300
+    },
+    "modification_statuts_simple": {
+      "emoluments_eur": 400,
+      "tva_pct": 17
+    },
+    "dissolution_liquidation": {
+      "emoluments_eur": 800,
+      "tva_pct": 17
+    }
+  },
+  "actes_succession": {
+    "acte_notoriete": {
+      "emoluments_eur": "300 à 600 € HT selon complexité",
+      "tva_pct": 17
+    },
+    "declaration_succession": {
+      "remarque": "Honoraires libres entre 0,5 % et 2 % de l'actif successoral net selon complexité"
+    }
+  },
+  "actes_famille": {
+    "contrat_mariage": {
+      "emoluments_eur": "400 à 800 € HT",
+      "tva_pct": 17
+    },
+    "convention_pacs": {
+      "emoluments_eur": "300 à 500 € HT",
+      "tva_pct": 17,
+      "remarque": "PACS aussi enregistrable au parquet général sans notaire (gratuit)"
+    },
+    "donation_simple": {
+      "bareme": "Proportionnel sur valeur donnée — mêmes tranches que vente",
+      "minimum_eur": 400
+    },
+    "donation_partage_succession": {
+      "remarque": "Honoraires libres, complexité variable"
+    }
+  },
+  "frais_annexes_typiques": {
+    "frais_publication_RESA_eur": "30 à 100 € selon nature acte",
+    "frais_RCS_constitution_eur": "31",
+    "frais_extrait_cadastral_eur": "5 à 50 € selon document",
+    "frais_certificat_BCEE_BIL_eur": "Variable",
+    "deplacements_kilometriques": "Selon barème règlementaire"
+  },
+  "remarque_globale": "Le tarif des émoluments est strict ; ce qui peut varier sont les débours (frais avancés par le notaire). Demander toujours un devis détaillé en amont."
+}

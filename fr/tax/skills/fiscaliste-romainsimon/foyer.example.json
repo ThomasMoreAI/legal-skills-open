@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "description": "Structure d'exemple pour un foyer fiscal. Copier ce fichier en foyer.json à la racine du projet et adapter.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "marie",
+    "_situation_options": ["celibataire", "marie", "pacse", "divorce", "veuf"],
+    "annee_naissance_declarant1": 1985,
+    "annee_naissance_declarant2": 1987,
+    "nb_enfants_charge": 2,
+    "nb_enfants_alternee": 0,
+    "nb_enfants_invalides": 0,
+    "residence_fiscale": "FR",
+    "departement_residence": "75"
+  },
+
+  "revenus": {
+    "salaires_declarant1": 72000,
+    "salaires_declarant2": 48000,
+    "_commentaire_salaires": "Montants case 1AJ / 1BJ du bulletin de salaire, AVANT abattement forfaitaire 10% appliqué par la DGFIP",
+
+    "pensions_declarant1": 0,
+    "pensions_declarant2": 0,
+
+    "bnc_regime_normal": 0,
+    "_commentaire_bnc": "Case 5QC — BNC professionnels régime normal",
+    "micro_bnc_recettes": 0,
+
+    "dividendes_bruts": 5000,
+    "_commentaire_dividendes": "Case 2DC — dividendes avec droit abattement 40% si option barème",
+    "interets_rcm": 0,
+    "plus_values_mobilieres": 0,
+    "_commentaire_pv_mobi": "Case 3VG — plus-values de cession de titres",
+
+    "revenus_fonciers_micro": 0,
+    "revenus_fonciers_reels": 0,
+    "deficit_foncier_anterieur": 0,
+
+    "lmnp_reel_resultat": 0,
+    "_commentaire_lmnp": "Résultat après amortissements, positif seulement",
+
+    "crypto_plus_values": 0,
+    "revenus_chomage": 0,
+    "_commentaire_chomage": "Case 1AP (pas 1AJ) — saisir le NET IMPOSABLE; l'abattement 10% s'applique comme pour les salaires (BOI-RSA-BASE-30-50-20)"
+  },
+
+  "deductions": {
+    "per_declarant1": 4000,
+    "per_declarant2": 2000,
+    "pension_alimentaire_enfant_majeur": 0,
+    "csg_deductible_n1": 0,
+    "_commentaire_csg": "CSG déductible uniquement si option barème en N-1, pas sous PFU"
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu",
+    "_options": ["pfu", "bareme"],
+    "_commentaire_option": "L'option barème est globale : elle s'applique à TOUS les revenus du capital de l'année"
+  },
+
+  "patrimoine_ifi": {
+    "assujetti": false,
+    "valeur_nette_taxable": 0,
+    "_commentaire_ifi": "IFI dû si patrimoine immobilier net > seuil d'assujettissement au 1er janvier (voir data/ifi-bareme.json)"
+  },
+
+  "equity_salarial": {
+    "rsu_gain_acquisition": 0,
+    "rsu_plus_value_cession": 0,
+    "bspce_gain_cession": 0,
+    "bspce_anciennete_societe_annees": 0,
+    "stock_options_levee": 0,
+    "pee_abondement_employeur": 0
+  },
+
+  "niches_fiscales": {
+    "dons_associations": 0,
+    "pinel_reduction": 0,
+    "fcpi_fip_versements": 0,
+    "emploi_a_domicile": 0,
+    "garde_enfant_exterieur": 0
+  }
+}

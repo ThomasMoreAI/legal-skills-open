@@ -1,0 +1,62 @@
+{
+  "_comment": "Exemple de fichier copropriété. Créer un fichier par copro dans copros/. Ex: copros/les-oliviers.json",
+  "slug": "les-oliviers",
+  "name": "Les Oliviers",
+  "address": "12 avenue des Oliviers, 13008 Marseille",
+  "immatriculation": "AA-0001234",
+  "date_creation": "1975-03-15",
+  "lots": {
+    "total": 54,
+    "principaux": 24,
+    "annexes": 30
+  },
+  "tantiemes_total": 10000,
+  "exercice": {
+    "debut": "01/01",
+    "fin": "31/12"
+  },
+  "syndic": {
+    "type": "benevole",
+    "nom": "M. Pierre Durand",
+    "lot": 3,
+    "mandat_debut": "2025-06-15",
+    "mandat_fin": "2027-06-15"
+  },
+  "conseil_syndical": [
+    { "nom": "Mme Claire Martin", "role": "Présidente", "lot": 5 },
+    { "nom": "M. Jean Lefebvre", "role": "Membre", "lot": 12 },
+    { "nom": "Mme Sophie Bernard", "role": "Membre", "lot": 18 }
+  ],
+  "compte_bancaire": {
+    "banque": "Crédit Agricole",
+    "iban": "FR76 XXXX XXXX XXXX XXXX XXXX XXX",
+    "bic": "AGRIFRPP"
+  },
+  "qonto": {
+    "enabled": false,
+    "env_id": "QONTO_ID",
+    "env_secret": "QONTO_API_SECRET"
+  },
+  "budget_previsionnel": 28000,
+  "fonds_travaux": {
+    "taux": 5,
+    "montant_annuel": 1400,
+    "solde": 4200
+  },
+  "impayes": {
+    "total": 0,
+    "nb_debiteurs": 0
+  },
+  "prochaine_ag": "2026-05-15",
+  "chauffage": "collectif gaz",
+  "ascenseur": false,
+  "gardien": false,
+  "dpe": {
+    "classe": "D",
+    "date": "2023-09-15"
+  },
+  "coproprietaires": [
+    { "lot": 1, "tantiemes": 520, "type": "appartement T3" },
+    { "lot": 2, "tantiemes": 480, "type": "appartement T2" }
+  ]
+}

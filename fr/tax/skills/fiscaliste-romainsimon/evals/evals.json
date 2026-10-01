@@ -1,0 +1,293 @@
+{
+  "skill_name": "fiscaliste",
+  "evals": [
+    {
+      "id": 1,
+      "name": "ir-celibataire-salaire-simple",
+      "prompt": "Je suis célibataire, sans enfant, mon salaire net imposable (case 1AJ) est de 50 000 €. Pas d'autres revenus. Calcule mon impôt sur le revenu pour les revenus 2025.",
+      "expected_output": "Calcul complet avec abattement 10% (= RNI 45 000 €), application du barème progressif tranche par tranche, décote si applicable, impôt net final. Mention de la checklist à vérifier sur impots.gouv.fr.",
+      "files": [],
+      "assertions": [
+        "Le skill applique l'abattement forfaitaire 10% sur les salaires (RNI = 50 000 × 0.9 = 45 000 €)",
+        "Le barème progressif est appliqué tranche par tranche (0%, 11%, 30%)",
+        "Les tranches 2025 correctes sont utilisées (11 600 / 29 579 / 84 577 / 181 917)",
+        "L'impôt brut pour 45 000 € avec 1 part est calculé (environ 6 604 €)",
+        "La décote est testée mais non applicable (impôt brut > 1 982 €)",
+        "L'année de référence des données (revenus 2025, déclaration 2026) est mentionnée",
+        "Pas de prélèvements sociaux calculés (pas de revenus du capital)",
+        "Le calcul est structuré étape par étape"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ir-marie-2-enfants-plafonnement-qf",
+      "prompt": "Je suis marié avec 2 enfants à charge. Nos salaires imposables sont 80 000 € et 60 000 €. Pas d'autres revenus. Calcule notre impôt 2025 et explique si les enfants nous aident vraiment.",
+      "expected_output": "Calcul avec 3 parts (2 + 0,5 + 0,5), abattement 10% sur chaque salaire, application barème, PUIS vérification du plafonnement QF (2 demi-parts × 1 807 € = 3 614 €). Doit comparer impôt avec et sans enfants pour vérifier que le plafond n'est pas dépassé.",
+      "files": [],
+      "assertions": [
+        "Le skill identifie 3 parts fiscales (2 base + 0,5 × 2 enfants)",
+        "L'abattement 10% est appliqué sur chaque salaire séparément",
+        "Le skill calcule l'impôt avec 3 parts ET avec 2 parts pour comparer",
+        "Le plafonnement QF est testé : gain réel vs gain max (2 × 1 807 = 3 614 €)",
+        "Le skill indique si le plafond QF est actif ou non dans ce cas",
+        "La réponse explique que les enfants aident mais que le gain est plafonné par demi-part",
+        "Les valeurs 2025 correctes sont utilisées (tranches, plafond QF 1 807 €)"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "per-arbitrage-tmi",
+      "prompt": "Je gagne 90 000 € bruts (80 000 € imposables 1AJ). Mon conseiller me propose de verser 8 000 € sur un PER. C'est vraiment utile ou juste un report d'imposition ?",
+      "expected_output": "Économie immédiate calculée (8 000 × TMI 30% = 2 400 €). Discussion honnête du mécanisme de report : sortie imposée à la retraite. Recommandation dépend du TMI futur estimé. Plafond PER 10% des revenus pro. Rappel PEE/PERCO en priorité si disponible.",
+      "files": [],
+      "assertions": [
+        "L'économie immédiate est calculée en appliquant le TMI 30% au montant effectivement déductible",
+        "Le skill explique que c'est un REPORT d'imposition, pas une exonération",
+        "Le TMI futur à la retraite est mentionné comme variable clé",
+        "Le plafond PER 10% des revenus professionnels nets est correctement appliqué (72 000 × 10% = 7 200 €, donc 800 € non déductibles sur les 8 000 versés)",
+        "Le skill rappelle qu'il faut saturer l'abondement employeur PEE/PERCO en priorité si disponible",
+        "La réponse nuance : pas toujours avantageux, dépend de la situation"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "pfu-vs-bareme-dividendes",
+      "prompt": "Célibataire, salaires 30 000 € net imposable. Je reçois 5 000 € de dividendes. Je choisis PFU ou barème ?",
+      "expected_output": "Calcul des deux scénarios. Sous PFU : 5 000 × 30% = 1 500 €. Sous barème : abattement 40% = 3 000 € imposables, TMI salaires 30% zone (mais attention, RNI 27 000 est dans tranche 11%, ajout de 3 000 € reste en 11%), donc IR barème sur dividendes ~330 € + PS 17,2% sur 5 000 = 860 €, total ~1 190 €. Barème plus favorable ici. Plus CSG déductible 6,8% × 5 000 × 11% = 37 € en N+1.",
+      "files": [],
+      "assertions": [
+        "Les deux scénarios (PFU et barème) sont chiffrés",
+        "Sous barème : abattement 40% sur dividendes est appliqué (3 000 € imposables)",
+        "Le TMI du foyer après ajout des dividendes est correctement identifié",
+        "Les PS 17,2% sont calculés dans les deux cas",
+        "Le skill rappelle que l'option barème est GLOBALE (tous revenus du capital)",
+        "La recommandation est cohérente avec le TMI : à TMI 11%, le barème est souvent meilleur pour les dividendes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "lmnp-micro-vs-reel",
+      "prompt": "J'ai un appartement loué meublé, recettes 18 000 €/an (longue durée). Je suis au micro-BIC avec abattement 50%. Un ami me dit que je devrais passer au réel. Bonne idée ?",
+      "expected_output": "Micro-BIC = 18 000 × 50% = 9 000 € imposables. Au réel : amortissement bien (ex: bien à 200k€ hors terrain → amortissement ~6 000 €/an) + charges → résultat souvent nul ou déficitaire. Nuance : déficit LMNP non imputable sur revenu global. Évoquer bascule LMP si recettes > 23 000 € ET > 50% autres revenus pro.",
+      "files": [],
+      "assertions": [
+        "Le skill reconnaît le régime micro-BIC LMNP longue durée (abattement 50%, seuil 77 700 €)",
+        "Le calcul micro est donné (18 000 × 50% = 9 000 € de base imposable)",
+        "Le skill explique le principe du réel : amortissements + charges",
+        "Le skill rappelle que le déficit LMNP n'est PAS imputable sur le revenu global",
+        "La règle de bascule LMP (23 000 € ET > 50% autres revenus pro) est mentionnée",
+        "La recommandation est nuancée : ça dépend de la valeur du bien et des charges réelles"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "rsu-vesting-quotient",
+      "prompt": "J'ai reçu un vesting RSU de 100 000 € cette année. Mon salaire habituel est 60 000 €. Je dois payer combien d'impôts et puis-je utiliser le quotient pour revenus exceptionnels ?",
+      "expected_output": "Gain acquisition 100 000 € = imposé comme salaire (1TT). Total imposable salaires : 160 000 € + abattement 10%. CSG 9,7% sur RSU + contribution salariale 10% éventuelle. Quotient : comparer impôt avec/sans quotient (coefficient 4). À 160k€ on est en TMI 41%, quotient peut lisser si on revient en 30% sans RSU. La PV ultérieure (cession après vesting) sera imposée séparément au PFU.",
+      "files": [],
+      "assertions": [
+        "Le skill identifie le gain RSU comme SALAIRE (pas comme PV mobilière)",
+        "L'abattement 10% salaire s'applique sur le total salaires + RSU",
+        "La CSG 9,7% sur le gain RSU est mentionnée",
+        "La contribution salariale 10% sur plans qualifiants est évoquée",
+        "Le mécanisme du quotient (coefficient 4) est expliqué",
+        "Le skill chiffre (ou explique comment chiffrer) les 2 scénarios avec/sans quotient",
+        "Le skill distingue gain d'acquisition (salaire) et future PV de cession (PFU)"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "crypto-pamc-exoneration",
+      "prompt": "J'ai vendu 250 € de Bitcoin cette année avec une PV de 40 €. Je dois déclarer ?",
+      "expected_output": "Exonération totale car cessions annuelles ≤ 305 €. Pas de déclaration 2086 requise. Au-delà de 305 €, imposition intégrale (pas seulement la fraction).",
+      "files": [],
+      "assertions": [
+        "Le skill identifie le seuil d'exonération de 305 € de cessions annuelles",
+        "Le skill confirme l'exonération totale dans ce cas (250 € ≤ 305 €)",
+        "Le skill précise que le seuil s'applique sur le montant brut des cessions, pas sur la PV",
+        "Le skill avertit que dépasser 305 € déclencherait l'imposition sur TOUT (pas seulement l'excédent)"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ifi-assujettissement-decote",
+      "prompt": "Mon patrimoine immobilier net au 1er janvier : résidence principale 900 000 € + appartement locatif 500 000 €, emprunt restant 200 000 € sur le locatif. Dois-je payer l'IFI ?",
+      "expected_output": "Résidence principale : 900 000 × (1 − 0,30) = 630 000 € (abattement 30%). Locatif : 500 000 − 200 000 = 300 000 €. Patrimoine net taxable = 930 000 €. Sous le seuil d'assujettissement (1 300 000 €) → pas d'IFI dû.",
+      "files": [],
+      "assertions": [
+        "L'abattement 30% sur la résidence principale est appliqué (630 000 € pris en compte)",
+        "L'emprunt est déduit de la valeur du bien locatif",
+        "Le total patrimoine net taxable est calculé (930 000 €)",
+        "Le skill conclut que le seuil d'assujettissement (1 300 000 €) n'est pas atteint",
+        "Pas d'IFI dû, pas de déclaration 2042-IFI",
+        "Le seuil d'assujettissement IFI 1 300 000 € est correctement cité"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "redirection-succession-vers-notaire",
+      "prompt": "Mon père est décédé. Comment calcule-t-on les droits de succession pour ses héritiers ?",
+      "expected_output": "Sujet hors scope du fiscaliste. Le skill doit rediriger vers le skill notaire qui gère succession, donation et démembrement.",
+      "files": [],
+      "assertions": [
+        "Le skill identifie que la succession est hors de son scope",
+        "Le skill redirige explicitement vers le skill notaire",
+        "Le skill ne tente pas de calculer les droits de succession lui-même"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "redirection-sasu-vers-comptable",
+      "prompt": "Je veux comparer rémunération en salaire vs dividendes dans ma SASU. Peux-tu m'aider ?",
+      "expected_output": "Sujet hors scope du fiscaliste (arbitrage IS / salaire / dividendes dirigeant). Le skill doit rediriger vers le skill comptable pour la partie société, et peut compléter sur l'IR perso du dirigeant si demandé.",
+      "files": [],
+      "assertions": [
+        "Le skill identifie que l'arbitrage SASU salaire/dividendes est hors de son scope",
+        "Le skill redirige explicitement vers le skill comptable",
+        "Le skill peut proposer de compléter sur l'IR perso du dirigeant si l'utilisateur le souhaite"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "cehr-couple-haut-revenu",
+      "prompt": "Couple marié, RFR 2025 de 780 000 €. Quelle est la CEHR due en plus de notre IR ?",
+      "expected_output": "CEHR s'applique à partir de 500 000 € pour un couple. Tranche 3 % de 500 000 € à 1 000 000 € : (780 000 − 500 000) × 3 % = 8 400 €. Pas de tranche 4 % (RFR < 1 000 000 €). CEHR totale = 8 400 € s'ajoutant à l'IR net.",
+      "files": [],
+      "assertions": [
+        "Le skill utilise le RFR (pas le RNI) comme base de la CEHR",
+        "Les seuils couple sont corrects (500 000 € / 1 000 000 €)",
+        "Le calcul tranche par tranche est correct : (780 000 − 500 000) × 3 % = 8 400 €",
+        "Le skill précise que la CEHR s'AJOUTE à l'IR net (ne se déduit pas)",
+        "Le mécanisme de lissage sur 2 années (art. 223 sexies CGI) peut être mentionné"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "deficit-foncier-imputation",
+      "prompt": "Foncier nu au réel : loyers bruts 15 000 €, charges courantes 4 000 €, travaux déductibles 18 000 €, intérêts d'emprunt 6 000 €. Quel est mon déficit foncier et combien s'impute sur mon revenu global ?",
+      "expected_output": "Résultat foncier = 15 000 − 4 000 − 18 000 − 6 000 = −13 000 €. Le déficit foncier s'impute sur le revenu global dans la limite de 10 700 €, hors intérêts d'emprunt. Part intérêts (6 000 €) reste imputable uniquement sur les revenus fonciers des 10 années suivantes. Part hors intérêts : 13 000 − 6 000 = 7 000 € ≤ 10 700 € → entièrement imputable sur le revenu global. Solde sur revenus fonciers futurs : 6 000 €.",
+      "files": [],
+      "assertions": [
+        "Le déficit foncier est calculé correctement (−13 000 €)",
+        "Le skill distingue la part intérêts d'emprunt et le reste",
+        "La limite de 10 700 € d'imputation sur revenu global est citée",
+        "Les intérêts d'emprunt sont exclus de l'imputation sur revenu global",
+        "Le report 10 ans sur revenus fonciers uniquement est mentionné pour la part non imputée"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "pea-retrait-avant-5-ans",
+      "prompt": "J'ai ouvert mon PEA il y a 3 ans, valorisation 40 000 € pour 30 000 € de versements. Si je retire maintenant, quelle fiscalité ?",
+      "expected_output": "Retrait avant 5 ans : clôture du PEA + imposition des gains (10 000 €) au PFU 30 % (12,8 % IR + 17,2 % PS), soit 3 000 €. Conseil : attendre 5 ans si possible pour exonération IR (seuls PS 17,2 % restent dus).",
+      "files": [],
+      "assertions": [
+        "Le skill identifie le retrait avant 5 ans comme entraînant clôture du PEA",
+        "L'imposition au PFU 30 % sur les gains (10 000 €) est calculée",
+        "Le skill recommande d'attendre 5 ans pour économiser 12,8 % d'IR",
+        "Le skill précise qu'après 5 ans les PS 17,2 % restent dus (pas d'exonération totale)"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "assurance-vie-rachat-apres-8-ans-couple",
+      "prompt": "Couple pacsé, rachat partiel sur une assurance-vie ouverte il y a 10 ans : 25 000 € dont 8 000 € de gains. Versements totaux 100 000 €. Quelle fiscalité ?",
+      "expected_output": "Contrat > 8 ans, versements < 150 000 € (100 000 € ≤ 150 000 €) → abattement couple 9 200 € sur les gains. Gains imposables : 8 000 − 9 200 = 0 € (abattement supérieur aux gains). Pas d'IR dû. PS 17,2 % sur les 8 000 € de gains = 1 376 € (les PS sont dus indépendamment de l'abattement IR).",
+      "files": [],
+      "assertions": [
+        "Le skill applique l'abattement 9 200 € couple (> 8 ans)",
+        "Le skill vérifie le seuil 150 000 € de versements (non dépassé)",
+        "Les gains imposables à l'IR ressortent à 0 € grâce à l'abattement",
+        "Les PS 17,2 % sont calculés SUR LES GAINS (sans abattement applicable aux PS)",
+        "Le skill distingue clairement IR et PS (piège classique)"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "bspce-anciennete-penalite",
+      "prompt": "J'ai exercé des BSPCE et cédé les actions avec 50 000 € de plus-value. Je suis dans la société depuis 2 ans seulement. Quelle fiscalité ?",
+      "expected_output": "Ancienneté < 3 ans → pénalité : 30 % IR + 20 % PS = 50 % global. 50 000 × 50 % = 25 000 €. Si l'utilisateur attend 1 an de plus (≥ 3 ans), taux 30 % global = 15 000 €. Gain à attendre : 10 000 € (si les BSPCE sont encore valables).",
+      "files": [],
+      "assertions": [
+        "Le skill identifie l'ancienneté < 3 ans comme déclenchant la pénalité",
+        "Le taux 50 % (30 % IR + 20 % PS) est appliqué",
+        "Le skill chiffre l'écart avec le régime favorable (30 %)",
+        "Le skill suggère d'attendre 3 ans d'ancienneté si possible",
+        "Le skill rappelle les conditions d'éligibilité société (SAS/SA française, < 15 ans, IS, 25 % personnes physiques)"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "per-mutualisation-couple",
+      "prompt": "Mon conjoint ne travaille pas (parent au foyer), moi je gagne 70 000 € (salaire net imposable). Mon plafond PER est déjà bien utilisé. Peut-il verser sur son PER et déduire quand même ?",
+      "expected_output": "Oui via la mutualisation couple (case à cocher sur 2042). Le conjoint sans revenu pro a un plafond plancher de 4 710 € (10 % × PASS). Mutualisation = les plafonds des deux conjoints sont additionnés. Économie selon TMI : 4 710 × 30 % = 1 413 €. Le versement peut être fait sur le PER du conjoint sans revenu pro et déduit du revenu imposable commun.",
+      "files": [],
+      "assertions": [
+        "Le skill identifie la possibilité de mutualisation couple",
+        "Le plafond plancher 4 710 € est cité",
+        "Le skill précise qu'il faut COCHER la case de mutualisation sur 2042",
+        "L'économie d'impôt est chiffrée en appliquant le TMI du foyer",
+        "Le skill recommande de vérifier l'avis d'imposition N-1 pour le plafond officiel DGFIP"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "workflow-declaration-complete",
+      "prompt": "On est en mai 2026, je dois faire ma déclaration des revenus 2025. Quelles étapes dois-je suivre pour ne rien oublier ?",
+      "expected_output": "Workflow structuré : 1) Se connecter impots.gouv.fr avec numéro fiscal, 2) Vérifier la situation familiale (naissance, mariage, séparation), 3) Vérifier les salaires pré-remplis (case 1AJ / 1BJ), 4) Ajouter les revenus non pré-remplis : dividendes (2DC), intérêts (2TR), PV mobilières (3VG), revenus fonciers (4BE micro ou 2044 réel), crypto (2086 si cessions > 305 €), 5) Déductions : PER (6NS/6NT), pension alimentaire, 6) Niches : dons, emploi à domicile, garde enfants, 7) IFI si patrimoine > 1,3 M€ (2042-IFI), 8) Option PFU/barème si pertinent, 9) Vérifier le RFR final, 10) Signer. Date limite : fin mai ou début juin selon département.",
+      "files": [],
+      "assertions": [
+        "Le skill propose un workflow structuré étape par étape",
+        "Les principales cases 2042 sont citées (1AJ, 2DC, 3VG, 4BE, 6NS)",
+        "Le formulaire 2086 crypto est rappelé (seuil 305 €)",
+        "Le formulaire 2042-IFI est mentionné pour les patrimoines > 1,3 M€",
+        "L'option PFU/barème est mentionnée comme choix à faire",
+        "Les dates limites selon département sont évoquées",
+        "La vérification de la situation familiale avant tout est mise en avant"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "pas-modulation-baisse-revenus",
+      "prompt": "J'ai perdu mon emploi en mars. Mon taux PAS est calculé sur mes revenus de l'an dernier, trop élevé. Que puis-je faire ?",
+      "expected_output": "Modulation à la baisse possible dès que l'écart estimé dépasse 5 %. Procédure : espace impots.gouv.fr → 'Gérer mon prélèvement à la source' → 'Actualiser mon taux'. Attention à la pénalité 10 % si écart > 10 % et non justifié — être conservateur. Signaler aussi tout changement de situation familiale dans les 60 jours. Si le nouveau taux est 0 % (estimation revenus nuls), possible aussi.",
+      "files": [],
+      "assertions": [
+        "Le skill propose la modulation à la baisse via l'espace impots.gouv.fr",
+        "Le seuil de 5 % d'écart estimé est cité",
+        "Le skill mentionne la pénalité 10 % si écart > 10 % non justifié",
+        "Le skill rappelle le délai de 60 jours pour signaler un changement familial",
+        "Le skill évoque la possibilité d'un taux 0 % si revenus nuls anticipés"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "plafond-niches-global",
+      "prompt": "En 2025 j'ai : 4 000 € de dons (réduction 66 %), 6 000 € d'emploi à domicile (crédit 50 %), 3 000 € de versements FCPI (réduction 25 %), 5 000 € de réduction Pinel. Ai-je un problème avec le plafond global ?",
+      "expected_output": "Calcul des niches : dons (hors plafond : 2 640 €), emploi à domicile (hors plafond, crédit 3 000 €), FCPI (DANS plafond : 750 €), Pinel (DANS plafond : 5 000 €). Total DANS plafond = 750 + 5 000 = 5 750 € ≤ 10 000 € → pas de dépassement. Total hors plafond = 5 640 €. Total économie fiscale = 11 390 €. Attention : seules les niches DANS le plafond (Pinel + FCPI) sont comptabilisées pour le plafond 10 000 €.",
+      "files": [],
+      "assertions": [
+        "Le skill distingue niches DANS plafond (Pinel, FCPI) et HORS plafond (dons, emploi à domicile)",
+        "Les montants des réductions/crédits sont correctement calculés",
+        "Le skill additionne uniquement les niches dans le plafond pour vérifier les 10 000 €",
+        "Le skill conclut correctement sur le respect du plafond (5 750 € < 10 000 €)",
+        "Le skill rappelle que l'excédent au-delà du plafond serait perdu (non reportable)"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "are-abattement-10pct",
+      "prompt": "Je suis au chômage, j'ai touché 18 000 € d'allocations chômage (ARE) cette année, sans autre revenu. Est-ce que l'ARE a droit à l'abattement de 10 % comme les salaires, et dans quelle case je la déclare ?",
+      "expected_output": "L'ARE est un revenu de remplacement imposé selon les règles des traitements et salaires : elle bénéficie de la déduction forfaitaire de 10 % comme les salaires (BOI-RSA-BASE-30-50-20). RNI = 18 000 × 0,9 = 16 200 €. À déclarer en case 1AP/1BP (pas 1AJ) : la case distingue revenu de remplacement / d'activité, mais ne supprime pas l'abattement. À ce niveau de revenu, impôt nul après décote.",
+      "files": [],
+      "assertions": [
+        "Le skill confirme que l'ARE bénéficie de l'abattement forfaitaire de 10 % (revenu de remplacement imposé selon les règles des traitements et salaires)",
+        "Le skill NE dit PAS que l'ARE est exclue de l'abattement 10 %",
+        "Le RNI est calculé avec l'abattement (18 000 × 0,9 = 16 200 €)",
+        "Le skill indique la case 1AP/1BP (et non 1AJ) pour déclarer l'ARE",
+        "Le skill précise que la distinction 1AP vs 1AJ porte sur la nature du revenu (remplacement vs activité), pas sur l'abattement",
+        "L'abattement suit le régime des salaires (plancher commun 509 € / plafond commun 14 555 € sur le total salaires + ARE)"
+      ]
+    }
+  ]
+}

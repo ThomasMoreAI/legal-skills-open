@@ -1,0 +1,90 @@
+{
+  "description": "Majorités requises en assemblée générale de copropriété — Luxembourg",
+  "as_of": "2025-01-01",
+  "source": {
+    "loi_principale": "Loi modifiée du 16 mai 1975 portant statut de la copropriété des immeubles bâtis",
+    "loi_modificative": "Loi du 16 décembre 2019 (réforme majeure : transparence, syndic professionnel, fonds de travaux)",
+    "url": "https://eli.legilux.public.lu/eli/etat/leg/loi/1975/05/16/n1/jo"
+  },
+  "principe": "Les décisions en AG sont prises selon trois grandes catégories de majorité, selon la nature et la gravité de la décision.",
+  "majorite_simple_art_13ter": {
+    "regle": "Majorité des voix exprimées des copropriétaires PRÉSENTS ET REPRÉSENTÉS",
+    "abstentions": "Non comptées",
+    "votes_blancs": "Non comptés",
+    "decisions_relevantes": [
+      "Approbation des comptes annuels et budget prévisionnel",
+      "Désignation et révocation du syndic (sous conditions)",
+      "Élection du conseil syndical",
+      "Travaux d'entretien courant et de petites réparations",
+      "Modifications du règlement de copropriété ne touchant pas à la jouissance des parties privatives",
+      "Acceptation/refus de devis pour gestion courante",
+      "Approbation du compte définitif des charges du syndicat"
+    ]
+  },
+  "majorite_absolue_art_13quater": {
+    "regle": "Majorité absolue des voix de TOUS LES COPROPRIÉTAIRES (présents, représentés OU absents)",
+    "calcul": "> 50 % des millièmes totaux du syndicat",
+    "decisions_relevantes": [
+      "Travaux d'amélioration (non urgents, non strictement entretien)",
+      "Travaux affectant les parties communes au-delà de l'entretien normal",
+      "Modification de l'usage / affectation d'une partie commune",
+      "Travaux d'économie d'énergie / accessibilité",
+      "Mode de calcul ou répartition des charges par nature",
+      "Acquisition de biens immobiliers par le syndicat (hors construction)",
+      "Décisions relatives aux modalités de gestion du fonds de travaux"
+    ]
+  },
+  "double_majorite_art_13quinquies": {
+    "regle": "Majorité de 2/3 des voix présentes/représentées ET représentant au moins la moitié des copropriétaires en nombre",
+    "decisions_relevantes": [
+      "Travaux d'amélioration / surélévation modifiant la structure",
+      "Aliénation des parties communes (vente d'un local commun)",
+      "Modifications substantielles du règlement de copropriété",
+      "Reconstruction après sinistre majeur"
+    ]
+  },
+  "unanimite_art_13sexies": {
+    "regle": "Accord de TOUS les copropriétaires (sans exception)",
+    "decisions_relevantes": [
+      "Modification de la jouissance privative d'un lot",
+      "Modification de la répartition des charges fixée par le règlement (sauf travaux changeant l'utilité)",
+      "Conversion / aliénation des parties communes affectant les lots privatifs",
+      "Construction de nouveaux bâtiments",
+      "Démolition de la copropriété"
+    ]
+  },
+  "fonds_de_travaux_obligatoire": {
+    "loi": "Loi du 16 décembre 2019 — art. 14bis",
+    "obligation": "Constitution d'un fonds de travaux obligatoire pour copropriétés de >5 lots",
+    "minimum_annuel": "5 % du budget prévisionnel annuel de fonctionnement",
+    "affectation": "Travaux non couverts par le budget annuel — provision pour gros travaux",
+    "non_remboursable": "Non remboursable au copropriétaire vendeur — suit le lot"
+  },
+  "syndic_professionnel": {
+    "obligation_depuis": "2019 (loi du 16 décembre 2019)",
+    "regle": "Le syndic doit être un professionnel agréé (carte professionnelle, formation continue, assurance RC) pour les copropriétés de plus de 10 lots — sauf décision unanime de désigner un syndic bénévole",
+    "carte_professionnelle": "Délivrée par le ministère de l'Économie sur dossier"
+  },
+  "convocation_ag": {
+    "delai_minimum_jours": 21,
+    "elements_obligatoires": [
+      "Date, heure, lieu",
+      "Ordre du jour détaillé (vote possible uniquement sur points inscrits)",
+      "Devis et propositions associés à chaque point voté",
+      "Comptes du syndic et budget prévisionnel",
+      "Pouvoir-procuration (modèle)",
+      "Modalités de vote par correspondance"
+    ]
+  },
+  "vote_par_correspondance": {
+    "introduction": "Loi du 16 décembre 2019",
+    "format": "Formulaire écrit reçu avant ou pendant l'AG",
+    "comptabilisation": "Comme vote présent"
+  },
+  "delai_contestation_decisions": {
+    "delai_jours": 60,
+    "depart": "Notification du procès-verbal",
+    "juridiction": "Tribunal d'arrondissement",
+    "qui_peut_agir": "Copropriétaires absents ou opposants ayant fait inscrire leur opposition au PV"
+  }
+}

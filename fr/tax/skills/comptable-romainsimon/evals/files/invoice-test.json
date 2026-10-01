@@ -1,0 +1,25 @@
+{
+  "number": "F-2026-001",
+  "date": "2026-09-15",
+  "due_date": "2026-10-15",
+  "type": "invoice",
+  "category": "services",
+  "client": {
+    "name": "TechSolutions SAS",
+    "address": "45 avenue de la République, 75011 Paris",
+    "siren": "987654321",
+    "siret": "98765432100014"
+  },
+  "lines": [
+    {
+      "description": "Développement application web",
+      "quantity": 10,
+      "unit": "jours",
+      "unit_price": 500.00
+    }
+  ],
+  "payment": {
+    "terms": "30 jours date de facture",
+    "method": "virement"
+  }
+}

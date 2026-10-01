@@ -1,0 +1,70 @@
+{
+  "source": "Loi n°65-557 du 10 juillet 1965, articles 24 à 26-1",
+  "last_updated": "2026-03-26",
+  "description": "Matrice décision / majorité requise en copropriété",
+  "majorites": {
+    "art_24": {
+      "label": "Majorité simple",
+      "definition": "Majorité des voix des copropriétaires présents, représentés ou ayant voté par correspondance",
+      "calcul": "Voix pour > 50% des voix exprimées (présents + représentés + correspondance)",
+      "decisions": [
+        "Approbation des comptes du syndic",
+        "Vote du budget prévisionnel",
+        "Travaux d'entretien et de maintenance courante",
+        "Travaux nécessaires à la conservation de l'immeuble",
+        "Travaux nécessaires à la sécurité et santé des occupants",
+        "Adaptation ou remplacement de boîtes aux lettres",
+        "Autorisation de travaux d'accessibilité aux personnes handicapées",
+        "Travaux d'économies d'énergie (hors changement équipement collectif)",
+        "Décision d'engager un DTG (diagnostic technique global)",
+        "Cotisation au fonds de travaux (montant ≥ 5% du budget)",
+        "Suppression du poste de gardien (sans changement d'affectation du local)",
+        "Autorisation permanente de la police d'accéder aux parties communes"
+      ]
+    },
+    "art_25": {
+      "label": "Majorité absolue",
+      "definition": "Majorité des voix de tous les copropriétaires, présents ou non",
+      "calcul": "Voix pour > 50% des tantièmes totaux de copropriété",
+      "passerelle": "Si non atteint mais ≥ 1/3 des voix de tous les copropriétaires → second vote immédiat ou dans 3 mois à la majorité art. 24 (art. 25-1)",
+      "decisions": [
+        "Élection ou révocation du syndic",
+        "Élection ou révocation des membres du conseil syndical",
+        "Autorisation donnée au syndic de contracter un emprunt",
+        "Autorisation donnée au syndic d'agir en justice",
+        "Travaux d'amélioration",
+        "Installation réseau communications électroniques",
+        "Modification répartition des charges résultant de travaux",
+        "Individualisation des contrats de fourniture d'eau",
+        "Installation de compteurs individuels (eau, chauffage)",
+        "Suppression gardiennage avec changement d'affectation du local",
+        "Modalités de réalisation des travaux obligatoires",
+        "Travaux d'économies d'énergie impliquant changement d'équipement collectif",
+        "Délégation de pouvoir au conseil syndical (art. 21-1)"
+      ]
+    },
+    "art_26": {
+      "label": "Double majorité",
+      "definition": "Majorité des copropriétaires (en nombre) détenant au moins 2/3 des tantièmes",
+      "calcul": "Majorité en nombre de copropriétaires ET ≥ 2/3 des tantièmes totaux",
+      "decisions": [
+        "Actes d'acquisition immobilière ou de disposition (vente parties communes)",
+        "Modification du règlement de copropriété (jouissance, usage, administration des parties communes)",
+        "Travaux comportant transformation, addition ou amélioration importante",
+        "Suppression du poste de gardien avec vente du local",
+        "Installation d'un ascenseur"
+      ]
+    },
+    "unanimite": {
+      "label": "Unanimité",
+      "definition": "Accord de tous les copropriétaires",
+      "calcul": "100% des tantièmes de copropriété",
+      "decisions": [
+        "Modification de la répartition des charges (art. 11)",
+        "Aliénation de parties communes nécessaires au respect de la destination de l'immeuble",
+        "Changement de destination de l'immeuble",
+        "Suppression d'un droit de jouissance privative"
+      ]
+    }
+  }
+}

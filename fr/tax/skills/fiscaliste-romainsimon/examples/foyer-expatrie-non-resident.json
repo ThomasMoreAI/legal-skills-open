@@ -1,0 +1,34 @@
+{
+  "_meta": {
+    "description": "Non-résident fiscal (Portugal), revenus de source française (loyers) + dividendes d'une SAS française. Cas pour retenue à la source, taux minimum 20/30 %, convention fiscale.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "celibataire",
+    "annee_naissance_declarant1": 1978,
+    "nb_enfants_charge": 0,
+    "residence_fiscale": "PT",
+    "_commentaire_residence": "Résident fiscal au Portugal. Imposition en France limitée aux revenus de source française (art. 164 B CGI)."
+  },
+
+  "revenus": {
+    "salaires_declarant1": 0,
+    "dividendes_bruts": 12000,
+    "_commentaire_dividendes": "Dividendes SAS française — retenue à la source 12,8 % (art. 119 bis 2 CGI), puis régularisation selon convention FR-PT",
+    "revenus_fonciers_reels": 9500,
+    "_commentaire_foncier": "Revenus fonciers de source française : imposables en France (art. 164 B), convention FR-PT applique la méthode de l'imputation.",
+    "plus_values_mobilieres": 0
+  },
+
+  "non_resident": {
+    "taux_minimum_applicable": true,
+    "_commentaire_taux_minimum": "Taux minimum 20 % jusqu'à 29 579 €, 30 % au-delà (tranches revenus 2025, art. 197 A CGI). Possibilité d'opter pour le taux moyen si plus favorable.",
+    "convention_fiscale": "FR-PT"
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu"
+  }
+}

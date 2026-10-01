@@ -1,0 +1,78 @@
+{
+  "pays": "Luxembourg",
+  "source": "Loi modifiée du 12 février 1979 concernant la TVA + AED",
+  "url": "https://pfi.public.lu/fr/professionnels/tva.html",
+  "as_of": "2025-01-01",
+  "taux": {
+    "normal": {
+      "taux": 17,
+      "description": "Taux normal — applicable par défaut à toutes les livraisons de biens et prestations de services",
+      "exemples": ["Honoraires consulting", "Vente de matériel", "Logiciels", "Restauration de luxe"]
+    },
+    "intermediaire": {
+      "taux": 14,
+      "description": "Taux intermédiaire",
+      "exemples": [
+        "Vins (titre alcoométrique <13°)",
+        "Combustibles minéraux solides",
+        "Brochures publicitaires imprimées",
+        "Prestations publicitaires"
+      ]
+    },
+    "reduit": {
+      "taux": 8,
+      "description": "Taux réduit",
+      "exemples": [
+        "Gaz naturel et électricité (sous conditions)",
+        "Plantes et fleurs",
+        "Coiffure"
+      ]
+    },
+    "super_reduit": {
+      "taux": 3,
+      "description": "Taux super-réduit",
+      "exemples": [
+        "Produits alimentaires (hors boissons alcoolisées)",
+        "Médicaments",
+        "Livres, journaux, ebooks",
+        "Restauration (consommation sur place et à emporter, hors boissons alcoolisées)",
+        "Transport de personnes",
+        "Hôtellerie",
+        "Travaux affectés à un logement (résidence principale, conditions strictes)",
+        "Vêtements et chaussures pour enfants"
+      ]
+    }
+  },
+  "logement": {
+    "taux_super_reduit_3pc": "Travaux de création / rénovation d'un logement affecté à la résidence principale du propriétaire, dans les 2 ans suivant l'acquisition. Plafond du bénéfice fiscal : 50 000 € par logement. Procédure : demande d'agrément TVA-logement à l'AED avant les travaux.",
+    "lien": "https://guichet.public.lu/fr/citoyens/logement/financement-aides/aides-fiscales/tva-logement.html"
+  },
+  "seuil_franchise_pme": {
+    "montant_eur": 50000,
+    "depuis": "2025-01-01",
+    "description": "Seuil chiffre d'affaires annuel HT en-dessous duquel l'entreprise peut bénéficier du régime de franchise TVA (régime spécial PME, transposition directive UE 2020/285). Avant 2025 : 35 000 €."
+  },
+  "regimes_declaration": {
+    "mensuel": "CA annuel HT > 620 000 €",
+    "trimestriel": "CA annuel HT entre 112 000 et 620 000 €",
+    "annuel": "CA annuel HT ≤ 112 000 €",
+    "remarque": "Seuils susceptibles d'évolution — vérifier sur eCDF.public.lu"
+  },
+  "operations_intracommunautaires": {
+    "livraisons_intra_b2b": "Exonérées si numéro TVA acheteur valide (VIES) et preuve de transport. Reportées en case 17 de la TVA-100.",
+    "acquisitions_intra": "Auto-liquidation : TVA collectée + déductible simultanément. Cases 35-37.",
+    "services_b2b_intra": "Lieu de taxation = pays du preneur (art. 17 directive). Auto-liquidation par le client.",
+    "moss_oss": "Régime OSS pour ventes B2C intra-UE > 10 000 € seuil global. Déclaration trimestrielle via MyGuichet."
+  },
+  "declarations": {
+    "TVA-100": "Déclaration annuelle obligatoire pour tous les assujettis (récap)",
+    "TVA-101": "Déclaration mensuelle / trimestrielle",
+    "TVA-CSI": "État récapitulatif des livraisons intracommunautaires",
+    "format": "XML eCDF — dépôt obligatoire via eCDF.public.lu"
+  },
+  "echeance_general": "15 du 2e mois suivant la période (ex: T1 → 15 mai). TVA-100 annuelle : 1er mars de l'année N+1.",
+  "petits_montants_facture_simplifiee": {
+    "seuil_eur": 100,
+    "description": "Facture simplifiée admise pour les opérations ≤ 100 € TTC (mentions allégées)."
+  }
+}

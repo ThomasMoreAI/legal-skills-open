@@ -1,0 +1,73 @@
+{
+  "description": "Plan comptable usuel pour syndic de copropriété — Luxembourg",
+  "as_of": "2025-01-01",
+  "source": "Loi du 16 décembre 2019 — art. 14ter (obligation comptabilité analytique par lot et par nature de charges) ; usages professionnels syndics lux",
+  "principe": "Le syndicat des copropriétaires n'a pas la personnalité morale mais doit tenir une comptabilité distincte. Pas de PCN obligatoire, mais usage de comptes spécialisés.",
+  "categories_principales": {
+    "comptes_de_tresorerie_513": "Compte bancaire SÉPARÉ par syndicat (loi 2019 — interdiction de mutualiser)",
+    "comptes_copropriétaires_450": "Un compte par copropriétaire — créances charges",
+    "comptes_charges_61_62_63": "Charges par nature : entretien, eau, chauffage, assurance, honoraires syndic, travaux",
+    "comptes_provisions_700": "Provisions sur charges (appels de fonds)"
+  },
+  "comptes_charges_courantes": {
+    "611": "Eau et assainissement",
+    "612": "Électricité parties communes",
+    "613": "Chauffage / mazout / gaz parties communes",
+    "614": "Entretien et réparations courantes",
+    "615": "Nettoyage et conciergerie",
+    "616": "Ascenseurs (entretien + maintenance)",
+    "617": "Espaces verts / jardinage",
+    "618": "Déneigement",
+    "621": "Honoraires syndic professionnel",
+    "622": "Honoraires expert-comptable / réviseur (le cas échéant)",
+    "623": "Frais postaux et de communication",
+    "624": "Frais bancaires (compte syndicat)",
+    "631": "Assurance multirisque immeuble",
+    "632": "Assurance dégâts des eaux",
+    "641": "Salaires concierge (le cas échéant)",
+    "645": "Cotisations sociales (CCSS)",
+    "651": "Taxes communales (poubelles, etc.)"
+  },
+  "comptes_travaux_et_provisions": {
+    "230": "Travaux en cours non terminés",
+    "120": "Fonds de travaux (obligatoire >5 lots — loi 2019)",
+    "121": "Réserve pour gros travaux planifiés",
+    "654": "Petits travaux non immobilisables",
+    "681": "Dotation aux provisions pour travaux"
+  },
+  "comptes_appels_de_fonds": {
+    "701": "Appel de fonds budget courant",
+    "702": "Appel de fonds fonds de travaux",
+    "703": "Appel de fonds travaux exceptionnels (vote AG)",
+    "704": "Appel de fonds avance de trésorerie (loi 2019 - max 1/6e du budget annuel)",
+    "709": "Régularisations charges (annuel)"
+  },
+  "comptes_coproprietaires": {
+    "451": "Comptes individuels copropriétaires — débit (créances)",
+    "452": "Comptes copropriétaires — crédit (avances, trop-perçus)",
+    "459": "Copropriétaires douteux ou litigieux",
+    "467": "Copropriétaires vendeurs (état daté en cours)"
+  },
+  "comptes_fournisseurs": {
+    "401": "Fournisseurs courants",
+    "404": "Entreprises de travaux"
+  },
+  "obligations_loi_2019": {
+    "compte_bancaire_dedie": "Obligation d'un compte bancaire au nom du syndicat des copropriétaires (interdiction mutualisation par syndic)",
+    "publication_comptes": "Comptes annuels présentés en AG dans les 6 mois après clôture",
+    "controle_par_conseil_syndical": "Le conseil syndical peut consulter livres et pièces à tout moment",
+    "extrait_des_charges_individuel": "Communication annuelle au copropriétaire de son extrait de charges détaillé"
+  },
+  "etat_date_etat_des_charges": {
+    "loi": "Art. 14quater loi 1975 mod.",
+    "obligation": "Le syndic doit fournir l'état daté au notaire dans les 30 jours d'une demande lors d'une vente",
+    "contenu": [
+      "Solde du copropriétaire vendeur (créances/dettes)",
+      "Charges courantes engagées",
+      "Travaux votés non encore appelés",
+      "Procédures en cours (recouvrement, contentieux)",
+      "Fonds de travaux constitué"
+    ],
+    "honoraires_syndic_etat_date_eur": "200 à 400 € HT (à charge du vendeur)"
+  }
+}

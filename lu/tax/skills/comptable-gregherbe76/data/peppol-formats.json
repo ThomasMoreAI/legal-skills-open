@@ -1,0 +1,63 @@
+{
+  "description": "Facturation électronique au Luxembourg — Peppol BIS Billing 3.0 et obligations B2G/B2B",
+  "as_of": "2025-01-01",
+  "cadre_legal": {
+    "loi": "Loi modifiée du 16 mai 2019 relative à la facturation électronique dans le cadre des marchés publics et contrats de concession (transposition directive 2014/55/UE)",
+    "url": "https://eli.legilux.public.lu/eli/etat/leg/loi/2019/05/16/a338/jo"
+  },
+  "obligations": {
+    "B2G": {
+      "obligatoire_depuis": "2023-03-18",
+      "description": "Toute entreprise facturant un organisme du secteur public luxembourgeois (État, communes, établissements publics) doit transmettre ses factures via Peppol au format BIS 3.0",
+      "phasage": [
+        { "date": "2022-05-18", "categorie": "Grandes entreprises (selon directive 2013/34)" },
+        { "date": "2022-10-18", "categorie": "Moyennes entreprises" },
+        { "date": "2023-03-18", "categorie": "Petites et micro-entreprises" }
+      ]
+    },
+    "B2B": {
+      "statut": "Pas encore obligatoire au Luxembourg en 2025. Adoption volontaire encouragée.",
+      "perspective_UE": "Directive ViDA — facturation électronique B2B intra-UE obligatoire à horizon 2030 (en cours de finalisation)."
+    }
+  },
+  "format": {
+    "standard": "Peppol BIS Billing 3.0",
+    "syntaxes_acceptees": ["UBL 2.1 (XML)", "UN/CEFACT CII (XML)"],
+    "norme_europeenne": "EN 16931",
+    "non_acceptes": ["PDF (sauf factur-x avec XML embarqué)", "image", "Word"]
+  },
+  "transmission": {
+    "reseau": "Peppol (Pan-European Public Procurement Online)",
+    "via": "Access Point (AP) certifié Peppol",
+    "options_lux": [
+      "Plateforme MyGuichet.lu (gratuit, pour PME envoyant aux organismes publics)",
+      "Solutions tierces : Basware, Pagero, Tradeshift, Cegedim, Yooz, Mercurius (BE-LUX)…",
+      "ERP avec connecteur Peppol (SAP, Microsoft Dynamics, Sage, BOB-50…)"
+    ]
+  },
+  "identification_peppol": {
+    "format_id": "0208 (matricule national Lux)",
+    "exemple": "0208:20121234567",
+    "annuaire": "Peppol Directory — https://directory.peppol.eu/"
+  },
+  "mentions_obligatoires_facture_lux": [
+    "Numéro séquentiel et unique",
+    "Date d'émission",
+    "Identité complète du fournisseur (raison sociale, adresse, RCS, matricule)",
+    "Numéro TVA du fournisseur (si assujetti)",
+    "Identité du client",
+    "Numéro TVA du client (obligatoire si > 10 000 € HT en B2B intra-UE)",
+    "Description précise des biens / services",
+    "Quantité, prix unitaire HT, montant HT par ligne",
+    "Taux de TVA applicable et montant de TVA par taux",
+    "Montant total HT et TTC",
+    "Mention 'auto-liquidation' si reverse charge intra-UE",
+    "Mention 'régime de la franchise' si franchise PME",
+    "Date d'échéance du paiement (recommandé)",
+    "Conditions et coordonnées bancaires (recommandé)"
+  ],
+  "conservation": {
+    "duree_legale_eur": "10 ans (loi commerciale art. 11 + Code des impôts)",
+    "support": "Numérique accepté — intégrité et lisibilité requises sur toute la durée"
+  }
+}

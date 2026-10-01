@@ -1,0 +1,88 @@
+{
+  "description": "Abattements, déductions et crédits d'impôt pour personnes physiques — Luxembourg 2025",
+  "as_of": "2025-01-01",
+  "source": "LIR — Loi modifiée de l'impôt sur le revenu",
+  "abattements_revenu_imposable": {
+    "abattement_de_revenus_extra_pro": {
+      "montant_eur": 700,
+      "applicable_a": "Salariés et pensionnés (à déduire du revenu d'une activité salariée ou pension)"
+    },
+    "abattement_extraprofessionnel": {
+      "montant_eur": 4500,
+      "applicable_a": "Conjoints/partenaires des classes 2 lorsque les deux ont des revenus professionnels (travail salarié ou non salarié)"
+    },
+    "abattement_pension_alimentaire": {
+      "max_eur_par_an_conjoint": 24000,
+      "max_eur_par_an_enfant": 4422,
+      "conditions": "Pensions versées en exécution d'un jugement / convention de divorce"
+    },
+    "abattement_chargers_extraordinaires": {
+      "principe": "Charges extraordinaires (maladie, handicap, etc.) — abattement = part dépassant la charge normale (% revenu selon classe)"
+    },
+    "deduction_interets_emprunt_logement": {
+      "max_par_personne_eur_age_resident": [
+        { "annees_occupation": "≤ 5 ans", "max_eur": 4000 },
+        { "annees_occupation": "6 à 10 ans", "max_eur": 3000 },
+        { "annees_occupation": "> 10 ans", "max_eur": 2000 }
+      ],
+      "majoration_par_enfant": "Plafonds majorés du même montant par personne du foyer (conjoint et enfants)"
+    }
+  },
+  "deductions_speciales": {
+    "primes_assurance_vie_solde_emprunt": {
+      "max_eur_personne": 672,
+      "majoration_par_enfant_eur": 672,
+      "remarque": "Cumul avec frais d'obtention plafonnés"
+    },
+    "epargne_logement": {
+      "max_eur_personne_age_moins_41": 1344,
+      "max_eur_personne_age_41_plus": 672,
+      "remarque": "Plan d'épargne-logement BCEE / BIL / autres"
+    },
+    "epargne_pension_per": {
+      "max_eur_personne_an": 3200,
+      "remarque": "Contrats prévoyance-vieillesse art. 111bis LIR (PER lux). Versements défiscalisés à hauteur de 3 200 €/an quel que soit l'âge depuis 2017."
+    },
+    "cotisations_personnelles_securite_sociale": {
+      "deductibilite": "Intégralement déductibles — cotisations CCSS / CNS / FNS / pensions"
+    },
+    "dons_oeuvres": {
+      "min_eur_par_don": 120,
+      "max_pct_revenu_imposable": 20,
+      "max_absolu_eur": 1000000,
+      "beneficiaires_eligibles": "Organismes reconnus d'utilité publique listés par l'ACD"
+    },
+    "frais_de_garde_enfants": {
+      "max_eur_par_enfant_par_an": 5400,
+      "conditions": "Enfants < 14 ans, frais réels (crèche, maison relais, baby-sitter déclaré)"
+    }
+  },
+  "credits_impot": {
+    "CIS_credit_impot_salarie": {
+      "max_eur_par_an": 600,
+      "degressivite": "Dégressif selon revenu (max pour revenu < 36 000 €, nul au-delà de 80 000 €)",
+      "remarque": "Calculé automatiquement par l'ACD"
+    },
+    "CIM_credit_impot_monoparental": {
+      "max_eur_par_an": 2505,
+      "conditions": "Classe 1a + enfant à charge"
+    },
+    "CIP_credit_impot_pensionne": {
+      "max_eur_par_an": 600,
+      "degressivite": "Mêmes seuils que CIS"
+    },
+    "credit_impot_minimum_social": {
+      "max_eur_par_an": 81,
+      "remarque": "Pour bénéficiaires REVIS / RMG"
+    },
+    "boni_pour_enfant": {
+      "montant_eur_par_enfant_par_an": 922.50,
+      "versement": "Avance par CAE (Caisse pour l'avenir des enfants), régularisation lors de la déclaration",
+      "remarque": "Imputable même en l'absence d'impôt dû"
+    }
+  },
+  "moderation_impot_pour_enfant": {
+    "principe": "Pas une déduction directe — gérée via la classe d'impôt (1a vs 1) et le boni pour enfant",
+    "remarque": "Depuis 2018, le système d'enfants à charge n'augmente plus directement le revenu déductible : il joue sur la classe et donne droit au boni"
+  }
+}
