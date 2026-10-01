@@ -1,0 +1,14 @@
+{
+  "name": "dz-regulatory",
+  "displayName": "Regulatory & Compliance — DZ",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills for DZ (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "dz",
+  "practice": "regulatory",
+  "language": "fr",
+  "skills": [
+    "skills/agent-legal-tech-v2-ziri22"
+  ]
+}

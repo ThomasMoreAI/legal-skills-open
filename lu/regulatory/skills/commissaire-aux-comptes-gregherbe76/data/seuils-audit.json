@@ -1,0 +1,81 @@
+{
+  "description": "Seuils légaux d'audit et de catégorisation des entreprises — Luxembourg",
+  "as_of": "2025-01-01",
+  "sources": {
+    "loi_comptes_annuels": "Loi modifiée du 19 décembre 2002 concernant le RCS et la comptabilité (transpose directive 2013/34/UE)",
+    "loi_audit": "Loi du 23 juillet 2016 relative à la profession de l'audit",
+    "regulateur": "CSSF — Commission de Surveillance du Secteur Financier",
+    "ire": "IRE — Institut des Réviseurs d'Entreprises (https://www.ire.lu)"
+  },
+  "categories_entreprises": {
+    "micro_entreprise": {
+      "criteres_2_sur_3": {
+        "total_bilan_max_eur": 350000,
+        "ca_net_max_eur": 700000,
+        "effectif_moyen_max": 10
+      },
+      "obligations": "Comptes simplifiés — exemption de présentation détaillée. Pas d'audit légal."
+    },
+    "petite_entreprise": {
+      "criteres_2_sur_3": {
+        "total_bilan_max_eur": 4400000,
+        "ca_net_max_eur": 8800000,
+        "effectif_moyen_max": 50
+      },
+      "obligations": "Comptes annuels abrégés. PAS d'obligation de réviseur d'entreprises agréé. Désignation d'un commissaire aux comptes (interne, non-réviseur) possible selon statuts."
+    },
+    "moyenne_entreprise": {
+      "criteres_2_sur_3": {
+        "total_bilan_max_eur": 25000000,
+        "ca_net_max_eur": 50000000,
+        "effectif_moyen_max": 250
+      },
+      "obligations": "Comptes annuels complets. AUDIT OBLIGATOIRE par réviseur d'entreprises agréé (REA)."
+    },
+    "grande_entreprise": {
+      "criteres_2_sur_3_depasses": "Au moins 2 des 3 seuils ci-dessus dépassés",
+      "obligations": [
+        "Comptes annuels complets",
+        "Audit obligatoire par réviseur d'entreprises agréé",
+        "Rapport de gestion détaillé",
+        "Si EIP (Entité d'Intérêt Public) : exigences renforcées (rotation cabinet 10 ans, comité d'audit, rapport au comité)"
+      ]
+    }
+  },
+  "regle_application_seuils": {
+    "principe": "Une entité change de catégorie si elle dépasse / passe sous 2 des 3 seuils PENDANT 2 EXERCICES CONSÉCUTIFS",
+    "premier_exercice": "Catégorie déterminée selon prévisions raisonnables au 1er bilan"
+  },
+  "entites_audit_obligatoire_quel_que_soit_seuil": [
+    "Sociétés cotées (EIP)",
+    "Établissements de crédit",
+    "Entreprises d'assurance / réassurance",
+    "Fonds d'investissement (UCITS, FIA)",
+    "PSF (Professionnels du Secteur Financier)",
+    "Fondations",
+    "ASBL d'utilité publique recevant subventions ≥ seuil",
+    "Sociétés de gestion (ManCo)"
+  ],
+  "normes_audit_applicables": {
+    "ISA": "Normes Internationales d'Audit (ISA) — adoptées par règlement CSSF 22-04",
+    "ISRE_2400": "Pour missions d'examen limité",
+    "ISRS_4400": "Pour missions de procédures convenues",
+    "ISA_clarified": "Version clarifiée IAASB en vigueur"
+  },
+  "reviseurs": {
+    "REA": {
+      "definition": "Réviseur d'Entreprises Agréé — personne physique inscrite à l'IRE et agréée par CSSF",
+      "exclusivite": "Seul habilité à signer un audit légal au Luxembourg"
+    },
+    "CRE": {
+      "definition": "Cabinet de Révision Agréé — société d'audit agréée CSSF"
+    },
+    "registre_public": "https://www.cssf.lu/fr/audit/"
+  },
+  "depot_RCS": {
+    "delai": "7 mois après clôture de l'exercice (loi du 19 décembre 2002, art. 79)",
+    "format": "eCDF (déclaration électronique normalisée) + dépôt RCS via LBR.lu",
+    "publication": "Publication au RESA (Recueil Électronique des Sociétés et Associations) sur lbr.lu"
+  },
+  "remarque_2024": "Les seuils ont été revalorisés par règlement grand-ducal du 17 juillet 2024 (transposition directive UE 2023/2775 'inflation') — les chiffres ci-dessus reflètent cette mise à jour."
+}

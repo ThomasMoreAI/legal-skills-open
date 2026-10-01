@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "description": "Couple marié TMI 45 %, IFI assujetti (patrimoine immobilier 1,8 M€) et CEHR (RFR > 500 k€). Cas pour tester le plafonnement IFI 75 % et la CEHR.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "marie",
+    "annee_naissance_declarant1": 1968,
+    "annee_naissance_declarant2": 1970,
+    "nb_enfants_charge": 0,
+    "residence_fiscale": "FR",
+    "departement_residence": "92"
+  },
+
+  "revenus": {
+    "salaires_declarant1": 320000,
+    "salaires_declarant2": 180000,
+    "dividendes_bruts": 45000,
+    "interets_rcm": 3000,
+    "plus_values_mobilieres": 25000,
+    "revenus_fonciers_reels": 18000
+  },
+
+  "deductions": {
+    "per_declarant1": 35000,
+    "per_declarant2": 18000,
+    "_commentaire_per": "Plafonds élevés grâce aux salaires, à vérifier sur avis N-1 DGFIP"
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu",
+    "_commentaire_option": "À TMI 45 %, PFU 12,8 % IR << 45 %. L'option barème ne se justifie pas."
+  },
+
+  "patrimoine_ifi": {
+    "assujetti": true,
+    "valeur_nette_taxable": 1800000,
+    "_commentaire_ifi": "Après abattement 30 % RP. Tester le plafonnement IFI à 75 % des revenus."
+  },
+
+  "equity_salarial": {
+    "rsu_gain_acquisition": 0
+  },
+
+  "niches_fiscales": {
+    "dons_associations": 5000,
+    "fcpi_fip_versements": 10000,
+    "emploi_a_domicile": 12000,
+    "_commentaire_plafond": "Attention plafond global 10 000 € sur FCPI — les dons et emploi à domicile sont hors plafond."
+  }
+}

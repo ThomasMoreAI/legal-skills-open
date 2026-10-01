@@ -1,0 +1,45 @@
+{
+  "name": "TECHFLOW",
+  "legal_form": "SAS",
+  "capital": 1000,
+  "address": "12 Rue de la Liberté, 69001 Lyon",
+  "siren": "987654321",
+  "siret": "98765432100012",
+  "rcs": "RCS Lyon",
+  "naf": "6201Z",
+  "president": {
+    "title": "Président",
+    "first_name": "Marie",
+    "last_name": "MARTIN",
+    "civility": "Mme"
+  },
+  "fiscal_year": {
+    "start": "2025-01-01",
+    "end": "2025-12-31",
+    "is_first_year": false
+  },
+  "tax": {
+    "regime_tva": "franchise",
+    "regime_is": "reel_simplifie",
+    "tva_rate": 0.20
+  },
+  "banks": [
+    {
+      "id": "qonto-main",
+      "name": "Qonto",
+      "account": "5121",
+      "fec_account": "51211"
+    }
+  ],
+  "qonto": {
+    "enabled": true
+  },
+  "stripe_accounts": [
+    {
+      "id": "saas",
+      "name": "TechFlow SaaS",
+      "env_key": "STRIPE_SECRET_SAAS"
+    }
+  ],
+  "city": "Lyon"
+}

@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "description": "Couple pacsé avec 1 enfant, revenus fonciers (nu) au réel avec déficit foncier imputable, et activité LMNP au réel. Cas pour la double catégorie immobilière.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "pacse",
+    "annee_naissance_declarant1": 1982,
+    "annee_naissance_declarant2": 1984,
+    "nb_enfants_charge": 1,
+    "residence_fiscale": "FR",
+    "departement_residence": "44"
+  },
+
+  "revenus": {
+    "salaires_declarant1": 55000,
+    "salaires_declarant2": 42000,
+
+    "revenus_fonciers_micro": 0,
+    "revenus_fonciers_reels": -8500,
+    "_commentaire_foncier": "Régime réel : loyers bruts 14 500 € − charges/travaux 23 000 € = −8 500 € de déficit. Imputation max 10 700 € sur revenu global (hors intérêts d'emprunt), reste reportable 10 ans.",
+    "deficit_foncier_anterieur": 0,
+
+    "lmnp_reel_resultat": 0,
+    "_commentaire_lmnp": "Résultat après amortissements : 0 € ici (neutralisé par l'amortissement, déficit non imputable sur revenu global)"
+  },
+
+  "deductions": {
+    "per_declarant1": 3000,
+    "per_declarant2": 0
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu"
+  },
+
+  "niches_fiscales": {
+    "emploi_a_domicile": 1800,
+    "garde_enfant_exterieur": 3200
+  }
+}

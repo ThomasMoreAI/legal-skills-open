@@ -1,0 +1,43 @@
+{
+  "_meta": {
+    "description": "Couple marié, 2 enfants à charge, salaires moyens supérieurs, dividendes d'un PEA et PER classique. Cas pédagogique pour le plafonnement QF.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "marie",
+    "annee_naissance_declarant1": 1985,
+    "annee_naissance_declarant2": 1987,
+    "nb_enfants_charge": 2,
+    "nb_enfants_alternee": 0,
+    "nb_enfants_invalides": 0,
+    "residence_fiscale": "FR",
+    "departement_residence": "75"
+  },
+
+  "revenus": {
+    "salaires_declarant1": 72000,
+    "salaires_declarant2": 48000,
+    "dividendes_bruts": 5000,
+    "plus_values_mobilieres": 0,
+    "interets_rcm": 200
+  },
+
+  "deductions": {
+    "per_declarant1": 4000,
+    "per_declarant2": 2000,
+    "pension_alimentaire_enfant_majeur": 0,
+    "csg_deductible_n1": 0
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu"
+  },
+
+  "niches_fiscales": {
+    "dons_associations": 300,
+    "emploi_a_domicile": 2400,
+    "garde_enfant_exterieur": 0
+  }
+}

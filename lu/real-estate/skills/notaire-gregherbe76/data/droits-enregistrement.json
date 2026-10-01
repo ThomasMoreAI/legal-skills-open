@@ -1,0 +1,88 @@
+{
+  "description": "Droits d'enregistrement et de transcription sur ventes immobilières — Luxembourg",
+  "as_of": "2025-01-01",
+  "source": {
+    "loi_principale": "Loi modifiée du 7 août 1920 portant majoration des droits d'enregistrement, de transcription et d'hypothèque",
+    "regulateur": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)",
+    "url": "https://pfi.public.lu/fr/professionnels/AED.html"
+  },
+  "droits_principaux": {
+    "droit_enregistrement": {
+      "taux_pct": 6,
+      "description": "Droit proportionnel sur le prix de vente (ou la valeur vénale si supérieure)"
+    },
+    "droit_transcription": {
+      "taux_pct": 1,
+      "description": "Droit perçu lors de l'inscription à la Conservation des hypothèques"
+    },
+    "surtaxe_communale_lux_ville": {
+      "taux_pct": 3,
+      "description": "Surtaxe communale propre à la commune de Luxembourg-Ville (50 % du droit d'enregistrement)",
+      "applicabilite": "Uniquement immeubles situés sur le territoire de la commune de Luxembourg-Ville"
+    }
+  },
+  "taux_global": {
+    "hors_lux_ville": {
+      "total_pct": 7,
+      "decomposition": "6 % enregistrement + 1 % transcription"
+    },
+    "lux_ville": {
+      "total_pct": 10,
+      "decomposition": "6 % enregistrement + 3 % surtaxe communale + 1 % transcription"
+    }
+  },
+  "bellegen_akt_credit_d_impot_acquisition": {
+    "description": "Crédit d'impôt sur acte d'acquisition d'un logement destiné à la résidence principale (anc. 'Bëllegen Akt')",
+    "loi": "Loi modifiée du 30 juillet 2002 ; revalorisation par loi du 22 mai 2024 (paquet logement)",
+    "montant_max_par_personne_eur_2025": 40000,
+    "montant_max_par_personne_eur_avant_2024": 20000,
+    "depuis": "2024-10-01 (doublement applicable aux actes signés à partir du 1er octobre 2024)",
+    "extension_2025": "Loi du 22 mai 2024 a étendu le bénéfice à l'acquisition pour mise en location (LCA — Logement Conventionné Abordable) jusqu'au 30 juin 2025, plafond 20 000 €",
+    "conditions_principales": [
+      "Personne physique majeure",
+      "Logement situé au Luxembourg",
+      "Affectation à la résidence principale dans les 4 ans (2 ans pour ancien)",
+      "Conservation min. 2 ans (sinon restitution proportionnelle)",
+      "Crédit imputé directement sur les droits dus chez le notaire"
+    ],
+    "exemple_couple_neuf_lux_ville": {
+      "prix": 800000,
+      "droits_bruts": "800 000 × 10 % = 80 000 €",
+      "credit_couple": "2 × 40 000 = 80 000 €",
+      "droits_a_payer": 0
+    }
+  },
+  "tva_logement_3pc": {
+    "description": "Taux de TVA super-réduit 3 % sur travaux affectés à la résidence principale",
+    "plafond_avantage_par_logement_eur": 50000,
+    "duree_application": "Construction neuve OU travaux dans les 2 ans suivant l'acquisition",
+    "demande": "Agrément TVA-logement à demander à l'AED AVANT travaux"
+  },
+  "bail_emphyteotique_dabesch": {
+    "description": "Acquisition droit de superficie / bail emphyteotique sur terrain SNHBM, Fonds du Logement, etc.",
+    "droits_reduits": "Régime spécifique — droits réduits ou exonération selon montage"
+  },
+  "donations_immobilieres": {
+    "ligne_directe_descendants": {
+      "taux_pct": 1.8,
+      "remarque": "Taux préférentiel parents → enfants"
+    },
+    "entre_epoux_partenaires": {
+      "taux_pct": 4.8
+    },
+    "entre_freres_soeurs": {
+      "taux_pct": 4.8
+    },
+    "entre_oncles_neveux": {
+      "taux_pct": 7.2
+    },
+    "entre_etrangers": {
+      "taux_pct": 14.4
+    },
+    "remarque": "Tous taux + droit de transcription 1 % et éventuelle surtaxe Lux-Ville"
+  },
+  "ventes_immo_societes": {
+    "regime_TVA": "En principe exonérées sauf option article 12 (terrains à bâtir, immeubles neufs <5 ans)",
+    "regime_droits": "Droits enregistrement applicables même si TVA exonérée"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "description": "Classes d'impôt luxembourgeoises pour l'IRPP — détermination et règles d'attribution",
+  "as_of": "2025-01-01",
+  "source": "Art. 119 LIR (Loi de l'impôt sur le revenu)",
+  "url": "https://impotsdirects.public.lu/fr/az/c/classes_impot.html",
+  "classes": {
+    "1": {
+      "libelle": "Classe 1",
+      "applicable_a": [
+        "Personnes célibataires sans enfant",
+        "Personnes divorcées sans enfant à charge",
+        "Personnes séparées de fait depuis plus de 3 ans (sans enfant)",
+        "Personnes mariées non-résidentes (sauf option pour assimilation au régime résident)"
+      ],
+      "bareme": "Barème standard (cf. bareme-irpp-2025.json)",
+      "splitting": false
+    },
+    "1a": {
+      "libelle": "Classe 1a (favorable)",
+      "applicable_a": [
+        "Parents isolés (célibataires, divorcés, veufs avec enfant à charge)",
+        "Personnes ayant atteint 64 ans révolus au 1er janvier de l'exercice",
+        "Veufs / veuves (3 ans après le décès)"
+      ],
+      "bareme": "Barème spécifique avec tranches élargies (cf. tranches_classe_1a)",
+      "splitting": false,
+      "credit_impot_monoparental": {
+        "max_eur_par_an": 2505,
+        "conditions": "Enfant donnant droit à modération d'impôt + revenu enfant ≤ certain seuil"
+      }
+    },
+    "2": {
+      "libelle": "Classe 2 (splitting conjugal)",
+      "applicable_a": [
+        "Couples mariés résidents",
+        "Partenaires (PACS lux art. 4 loi du 9 juillet 2004) résidents — sur option, après 1 an de partenariat",
+        "Couples mariés non-résidents avec assimilation (≥ 90 % revenus mondiaux au Lux ou résidence belge avec >50 000 € revenus lux)"
+      ],
+      "bareme": "Splitting : appliquer barème classe 1 sur 50 % du revenu commun, puis × 2",
+      "splitting": true,
+      "remarque_2018_reforme": "Depuis 2018, les couples mariés peuvent opter pour l'imposition individuelle (pure ou avec réallocation). Choix annuel via formulaire avant le 31/03 de l'année suivante."
+    }
+  },
+  "tranches_classe_1a_2025": [
+    { "min_eur": 0, "max_eur": 27585, "taux_marginal_pct": 0 },
+    { "min_eur": 27586, "max_eur": 32340, "taux_marginal_pct": 8 },
+    { "min_eur": 32341, "max_eur": 37485, "taux_marginal_pct": 10 },
+    { "min_eur": 37486, "max_eur": 42630, "taux_marginal_pct": 12 },
+    { "min_eur": 42631, "max_eur": 47775, "taux_marginal_pct": 14 },
+    { "min_eur": 47776, "max_eur": 52920, "taux_marginal_pct": 18 },
+    { "min_eur": 52921, "max_eur": 100000, "taux_marginal_pct": 38 },
+    { "min_eur": 100001, "max_eur": 165600, "taux_marginal_pct": 39 },
+    { "min_eur": 165601, "max_eur": 220788, "taux_marginal_pct": 40 },
+    { "min_eur": 220789, "max_eur": 234870, "taux_marginal_pct": 41 },
+    { "min_eur": 234871, "max_eur": null, "taux_marginal_pct": 42 }
+  ],
+  "imposition_couples_mariees_2018": {
+    "individuelle_pure": "Chaque conjoint imposé séparément, classe 1, sur ses propres revenus uniquement",
+    "individuelle_reallocation": "Imposition séparée mais réallocation des revenus entre époux pour optimisation (formulaire 166)",
+    "collective_classe_2": "Régime par défaut — splitting"
+  },
+  "frontaliers_remarque": "Travailleurs frontaliers belges, français, allemands : peuvent demander l'assimilation au régime résident s'ils déclarent ≥ 90 % de leurs revenus mondiaux au Luxembourg. Belges : seuil spécifique de 50 000 € de revenus lux."
+}

@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "description": "Célibataire cadre tech, salaire + vesting RSU exceptionnel, crypto avec cessions au-delà du seuil 305 €. Cas pour le quotient revenus exceptionnels et la fiscalité RSU + crypto.",
+    "annee_revenus": 2025,
+    "annee_declaration": 2026
+  },
+
+  "foyer": {
+    "situation": "celibataire",
+    "annee_naissance_declarant1": 1990,
+    "nb_enfants_charge": 0,
+    "residence_fiscale": "FR",
+    "departement_residence": "75"
+  },
+
+  "revenus": {
+    "salaires_declarant1": 95000,
+    "_commentaire_salaires_hors_rsu": "Salaire hors gain d'acquisition RSU",
+    "dividendes_bruts": 0,
+    "plus_values_mobilieres": 4500,
+    "crypto_plus_values": 8200,
+    "_commentaire_crypto": "PV nette après PAMC, cessions > 305 €"
+  },
+
+  "equity_salarial": {
+    "rsu_gain_acquisition": 120000,
+    "_commentaire_rsu_acq": "Case 1TT — salaire à imposer au barème, ouvre droit au quotient revenus exceptionnels (R > 1,5 × salaire habituel)",
+    "rsu_plus_value_cession": 15000,
+    "_commentaire_rsu_pv": "PFU 30 % sur la plus-value vesting → cession"
+  },
+
+  "deductions": {
+    "per_declarant1": 10000,
+    "_commentaire_per": "Plafond personnalisé = 10 % des 95 000 € = 9 500 € + reliquat N-1 éventuel"
+  },
+
+  "options_fiscales": {
+    "revenus_capital": "pfu"
+  },
+
+  "niches_fiscales": {
+    "dons_associations": 500
+  }
+}

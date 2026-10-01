@@ -1,0 +1,89 @@
+{
+  "description": "Diagnostics et certificats obligatoires lors d'une vente immobilière — Luxembourg",
+  "as_of": "2025-01-01",
+  "source": "Règlement grand-ducal du 30 novembre 2007 (CPE) + lois subséquentes",
+  "diagnostics_obligatoires": {
+    "CPE_certificat_performance_energetique": {
+      "obligation": "OBLIGATOIRE pour toute vente ou location de bâtiment d'habitation",
+      "loi": "Règlement grand-ducal du 30 novembre 2007 modifié",
+      "validite_ans": 10,
+      "etablissement_par": "Conseiller en énergie agréé (liste myenergy.lu)",
+      "classe_a_g": "Notation A+ (très performant) à I (peu performant)",
+      "obligation_publication": "Classe énergétique obligatoirement mentionnée dans toute annonce immobilière (sanction amende)",
+      "cout_eur": "150 à 600 € selon surface"
+    },
+    "passeport_energetique": {
+      "remarque": "Synonyme de CPE pour les bâtiments d'habitation"
+    },
+    "CPE_batiments_neufs_AAA": {
+      "exigence_minimale_neuf_residentiel": "Classe A pour isolation thermique (depuis 2017)",
+      "futur": "Classe AAA visée pour neufs >2025"
+    }
+  },
+  "documents_a_fournir_par_vendeur": [
+    "Acte d'acquisition (titre de propriété)",
+    "Plans de l'immeuble (cadastre, plans architecte si disponible)",
+    "Certificat de Performance Énergétique (CPE) en cours de validité",
+    "Pour appartement : règlement de copropriété + dernier PV d'AG + état daté du syndic",
+    "Carnet d'entretien chaudière / installations spécifiques",
+    "Certificat de conformité électrique (recommandé, non obligatoire)",
+    "Permis de construire ou autorisations administratives (extensions, vérandas)",
+    "Servitudes et charges grevant le bien (extrait Conservation des hypothèques)",
+    "Extrait cadastral récent (< 3 mois)"
+  ],
+  "documents_a_fournir_par_acheteur": [
+    "Pièce d'identité valide",
+    "Justificatif de fonds (prêt accordé, fonds propres)",
+    "Si étranger non-UE : autorisation séjour / résidence",
+    "Si SCI/société : statuts + acte de pouvoir + RCS",
+    "Numéro matricule national (13 chiffres)"
+  ],
+  "etapes_vente_typique_lux": [
+    {
+      "etape": "1. Mandat",
+      "description": "Mandat de vente confié à une agence (commission usuelle 3 % HT)"
+    },
+    {
+      "etape": "2. Compromis de vente",
+      "description": "Sous seing privé OU notarié — engage juridiquement les parties. Acompte usuel 10 %.",
+      "delai_typique_jusquau_acte": "3 à 6 mois"
+    },
+    {
+      "etape": "3. Période suspensive",
+      "description": "Conditions suspensives : obtention prêt, autorisation, etc."
+    },
+    {
+      "etape": "4. Acte authentique",
+      "description": "Signature chez le notaire. Versement du solde, transfert de propriété, paiement droits enregistrement",
+      "ou": "Étude notariale"
+    },
+    {
+      "etape": "5. Transcription",
+      "description": "Notaire dépose l'acte à la Conservation des hypothèques dans les 15 jours",
+      "delai_max_jours": 15
+    }
+  ],
+  "delai_legal_compromis_vers_acte": {
+    "minimum_jours_obligatoire": null,
+    "maximum_typique_mois": 6,
+    "remarque": "Pas de délai légal strict ; usage 3-4 mois pour obtention prêt"
+  },
+  "garanties_legales_vendeur": {
+    "garantie_eviction": "Le vendeur garantit l'absence de charges occultes",
+    "garantie_vices_caches": "Code civil art. 1641 — vices rendant la chose impropre à l'usage. Délai 1 an dérogeable par contrat.",
+    "garantie_decennale_neuf": "Constructeur garantit 10 ans gros œuvre / clos / couvert",
+    "biennale_neuf": "Garantie 2 ans éléments d'équipement",
+    "exclusion_vices_caches_usagee": "Possible par clause notariée 'en l'état' pour ventes biens anciens (risque vendeur)"
+  },
+  "specificite_VEFA_neuf_sur_plan": {
+    "VEFA": "Vente en l'État Futur d'Achèvement — réglementation spécifique",
+    "garantie_GFA": "Garantie financière d'achèvement OBLIGATOIRE (banque ou assureur)",
+    "appels_fonds_max": [
+      "5 % à la signature",
+      "35 % à l'achèvement des fondations",
+      "70 % à la mise hors d'eau",
+      "95 % à l'achèvement",
+      "5 % à la livraison"
+    ]
+  }
+}

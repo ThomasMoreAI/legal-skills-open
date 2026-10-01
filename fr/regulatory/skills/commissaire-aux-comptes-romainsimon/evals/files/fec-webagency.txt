@@ -1,0 +1,59 @@
+JournalCode|JournalLib|EcritureNum|EcritureDate|CompteNum|CompteLib|CompteAuxNum|CompteAuxLib|PieceRef|PieceDate|EcritureLib|Debit|Credit|EcritureLet|DateLet|ValidDate|Montantdevise|Idevise
+BQ|Banque|001|20250115|5121|Banque Qonto|||QTO-001|20250115|Virement initial capital|1000.00|0.00|||20250115||
+BQ|Banque|001|20250115|1013|Capital souscrit appelé versé|||QTO-001|20250115|Virement initial capital|0.00|1000.00|||20250115||
+BQ|Banque|002|20250201|6135|Locations mobilières|||QTO-002|20250201|Abonnement Heroku - janvier|29.00|0.00|||20250201||
+BQ|Banque|002|20250201|5121|Banque Qonto|||QTO-002|20250201|Abonnement Heroku - janvier|0.00|29.00|||20250201||
+BQ|Banque|003|20250215|6135|Locations mobilières|||QTO-003|20250215|GitHub Team|21.00|0.00|||20250215||
+BQ|Banque|003|20250215|5121|Banque Qonto|||QTO-003|20250215|GitHub Team|0.00|21.00|||20250215||
+BQ|Banque|004|20250301|6135|Locations mobilières|||QTO-004|20250301|Abonnement Heroku - février|29.00|0.00|||20250301||
+BQ|Banque|004|20250301|5121|Banque Qonto|||QTO-004|20250301|Abonnement Heroku - février|0.00|29.00|||20250301||
+BQ|Banque|005|20250310|627|Services bancaires|||QTO-005|20250310|Frais bancaires Qonto|9.00|0.00|||20250310||
+BQ|Banque|005|20250310|5121|Banque Qonto|||QTO-005|20250310|Frais bancaires Qonto|0.00|9.00|||20250310||
+BQ|Banque|006|20250315|5121|Banque Qonto|||QTO-006|20250315|Payout Stripe mars|2850.00|0.00|||20250315||
+BQ|Banque|006|20250315|411|Clients|||QTO-006|20250315|Payout Stripe mars|0.00|2850.00|||20250315||
+VE|Ventes|007|20250301|411|Clients|||STR-001|20250301|Client Alpha - mars|1500.00|0.00|||20250301||
+VE|Ventes|007|20250301|706|Prestations de services|||STR-001|20250301|Client Alpha - mars|0.00|1500.00|||20250301||
+VE|Ventes|008|20250301|411|Clients|||STR-002|20250301|Client Beta - mars|1350.00|0.00|||20250301||
+VE|Ventes|008|20250301|706|Prestations de services|||STR-002|20250301|Client Beta - mars|0.00|1350.00|||20250301||
+BQ|Banque|009|20250401|6135|Locations mobilières|||QTO-007|20250401|Abonnement Heroku - mars|29.00|0.00|||20250401||
+BQ|Banque|009|20250401|5121|Banque Qonto|||QTO-007|20250401|Abonnement Heroku - mars|0.00|29.00|||20250401||
+BQ|Banque|010|20250415|5121|Banque Qonto|||QTO-008|20250415|Payout Stripe avril|3200.00|0.00|||20250415||
+BQ|Banque|010|20250415|411|Clients|||QTO-008|20250415|Payout Stripe avril|0.00|3200.00|||20250415||
+VE|Ventes|011|20250401|411|Clients|||STR-003|20250401|Client Alpha - avril|1500.00|0.00|||20250401||
+VE|Ventes|011|20250401|706|Prestations de services|||STR-003|20250401|Client Alpha - avril|0.00|1500.00|||20250401||
+VE|Ventes|012|20250401|411|Clients|||STR-004|20250401|Client Gamma - avril|1700.00|0.00|||20250401||
+VE|Ventes|012|20250401|706|Prestations de services|||STR-004|20250401|Client Gamma - avril|0.00|1700.00|||20250401||
+BQ|Banque|013|20250501|6231|Publicité|||QTO-009|20250501|Google Ads - avril|450.00|0.00|||20250501||
+BQ|Banque|013|20250501|5121|Banque Qonto|||QTO-009|20250501|Google Ads - avril|0.00|450.00|||20250501||
+BQ|Banque|014|20250515|6132|Locations immobilières|||QTO-010|20250515|Bureau domicile - mai|250.00|0.00|||20250515||
+BQ|Banque|014|20250515|455|Compte courant associé|||QTO-010|20250515|Bureau domicile - mai|0.00|250.00|||20250515||
+BQ|Banque|015|20250601|2183|Matériel informatique|||QTO-011|20250601|MacBook Pro|1800.00|0.00|||20250601||
+BQ|Banque|015|20250601|5121|Banque Qonto|||QTO-011|20250601|MacBook Pro|0.00|1800.00|||20250601||
+BQ|Banque|016|20250615|5121|Banque Qonto|||QTO-012|20250615|Payout Stripe juin|4100.00|0.00|||20250615||
+BQ|Banque|016|20250615|411|Clients|||QTO-012|20250615|Payout Stripe juin|0.00|4100.00|||20250615||
+VE|Ventes|017|20250601|411|Clients|||STR-005|20250601|Client Alpha - juin|1500.00|0.00|||20250601||
+VE|Ventes|017|20250601|706|Prestations de services|||STR-005|20250601|Client Alpha - juin|0.00|1500.00|||20250601||
+VE|Ventes|018|20250601|411|Clients|||STR-006|20250601|Client Delta - juin|2600.00|0.00|||20250601||
+VE|Ventes|018|20250601|706|Prestations de services|||STR-006|20250601|Client Delta - juin|0.00|2600.00|||20250601||
+BQ|Banque|019|20250701|6278|Autres frais bancaires|||QTO-013|20250701|Frais Stripe - T2|127.50|0.00|||20250701||
+BQ|Banque|019|20250701|5121|Banque Qonto|||QTO-013|20250701|Frais Stripe - T2|0.00|127.50|||20250701||
+BQ|Banque|020|20250715|6181|Documentation|||QTO-014|20250715|Abonnement Netflix|15.99|0.00|||20250715||
+BQ|Banque|020|20250715|5121|Banque Qonto|||QTO-014|20250715|Abonnement Netflix|0.00|15.99|||20250715||
+BQ|Banque|021|20250801|455|Compte courant associé|||QTO-015|20250801|Remboursement frais personnels|350.00|0.00|||20250801||
+BQ|Banque|021|20250801|5121|Banque Qonto|||QTO-015|20250801|Remboursement frais personnels|0.00|350.00|||20250801||
+VE|Ventes|022|20250901|411|Clients|||STR-007|20250901|Client Epsilon - sept|800.00|0.00|||20250901||
+VE|Ventes|022|20250901|706|Prestations de services|||STR-007|20250901|Client Epsilon - sept|0.00|800.00|||20250901||
+BQ|Banque|023|20250915|5121|Banque Qonto|||QTO-016|20250915|Payout Stripe sept|780.00|0.00|||20250915||
+BQ|Banque|023|20250915|411|Clients|||QTO-016|20250915|Payout Stripe sept|0.00|780.00|||20250915||
+BQ|Banque|024|20251001|6135|Locations mobilières|||QTO-017|20251001|Abonnement Heroku - sept|29.00|0.00|||20251001||
+BQ|Banque|024|20251001|5121|Banque Qonto|||QTO-017|20251001|Abonnement Heroku - sept|0.00|29.00|||20251001||
+BQ|Banque|025|20251015|627|Services bancaires|||QTO-018|20251015|Frais bancaires Qonto|9.00|0.00|||20251015||
+BQ|Banque|025|20251015|5121|Banque Qonto|||QTO-018|20251015|Frais bancaires Qonto|0.00|9.00|||20251015||
+BQ|Banque|026|20251101|6251|Voyages et déplacements|||QTO-019|20251101|Billet avion Nantes-Paris|289.00|0.00|||20251101||
+BQ|Banque|026|20251101|5121|Banque Qonto|||QTO-019|20251101|Billet avion Nantes-Paris|0.00|289.00|||20251101||
+VE|Ventes|027|20251201|411|Clients|||STR-008|20251201|Client Alpha - déc abonnement annuel|12000.00|0.00|||20251201||
+VE|Ventes|027|20251201|706|Prestations de services|||STR-008|20251201|Client Alpha - déc abonnement annuel|0.00|12000.00|||20251201||
+BQ|Banque|028|20251215|5121|Banque Qonto|||QTO-020|20251215|Payout Stripe déc|11700.00|0.00|||20251215||
+BQ|Banque|028|20251215|411|Clients|||QTO-020|20251215|Payout Stripe déc|0.00|11700.00|||20251215||
+OD|Opérations diverses|029|20251231|6811|Dotations amort. immobilisations|||OD-001|20251231|Amort. MacBook Pro 2025|350.00|0.00|||20251231||
+OD|Opérations diverses|029|20251231|2818|Amort. matériel informatique|||OD-001|20251231|Amort. MacBook Pro 2025|0.00|350.00|||20251231||

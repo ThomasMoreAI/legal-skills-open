@@ -1,0 +1,14 @@
+{
+  "name": "dz-contracts",
+  "displayName": "Contracts — DZ",
+  "version": "0.1.0",
+  "description": "Contracts skills for DZ (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "dz",
+  "practice": "contracts",
+  "language": "fr",
+  "skills": [
+    "skills/agent-contract-negotiator-v2-ziri22"
+  ]
+}

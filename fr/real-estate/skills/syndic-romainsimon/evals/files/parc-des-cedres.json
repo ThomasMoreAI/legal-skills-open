@@ -1,0 +1,90 @@
+{
+  "slug": "parc-des-cedres",
+  "name": "Parc des Cèdres",
+  "address": "5 allée des Cèdres, 06600 Antibes",
+  "immatriculation": "AA-0005678",
+  "date_creation": "1982-09-01",
+  "lots": {
+    "total": 45,
+    "principaux": 32,
+    "annexes": 13
+  },
+  "tantiemes_total": 11240,
+  "exercice": {
+    "debut": "01/07",
+    "fin": "30/06"
+  },
+  "syndic": {
+    "type": "cooperatif",
+    "nom": "Conseil syndical",
+    "mandat_debut": "2025-11-20",
+    "mandat_fin": "2027-11-20"
+  },
+  "conseil_syndical": [
+    { "nom": "M. Alain Roche", "role": "Président (syndic)", "lot": 8 },
+    { "nom": "Mme Nathalie Blanc", "role": "Trésorière", "lot": 15 },
+    { "nom": "M. Éric Faure", "role": "Secrétaire", "lot": 22 }
+  ],
+  "compte_bancaire": {
+    "banque": "BNP Paribas",
+    "iban": "FR76 XXXX XXXX XXXX XXXX XXXX XXX",
+    "bic": "BNPAFRPP"
+  },
+  "qonto": {
+    "enabled": false,
+    "env_id": "QONTO_CEDRES_ID",
+    "env_secret": "QONTO_CEDRES_SECRET"
+  },
+  "budget_previsionnel": 45000,
+  "fonds_travaux": {
+    "taux": 8,
+    "montant_annuel": 3600,
+    "solde": 8500
+  },
+  "impayes": {
+    "total": 3200,
+    "nb_debiteurs": 2
+  },
+  "prochaine_ag": "2026-11-15",
+  "chauffage": "individuel",
+  "ascenseur": true,
+  "gardien": false,
+  "dpe": {
+    "classe": "C",
+    "date": "2024-02-10"
+  },
+  "coproprietaires": [
+    { "lot": 1, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 2, "tantiemes": 420, "type": "appartement T3" },
+    { "lot": 3, "tantiemes": 280, "type": "studio" },
+    { "lot": 4, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 5, "tantiemes": 520, "type": "appartement T4" },
+    { "lot": 6, "tantiemes": 280, "type": "studio" },
+    { "lot": 7, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 8, "tantiemes": 420, "type": "appartement T3" },
+    { "lot": 9, "tantiemes": 280, "type": "studio" },
+    { "lot": 10, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 11, "tantiemes": 520, "type": "appartement T4" },
+    { "lot": 12, "tantiemes": 280, "type": "studio" },
+    { "lot": 13, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 14, "tantiemes": 420, "type": "appartement T3" },
+    { "lot": 15, "tantiemes": 280, "type": "studio" },
+    { "lot": 16, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 17, "tantiemes": 520, "type": "appartement T4" },
+    { "lot": 18, "tantiemes": 280, "type": "studio" },
+    { "lot": 19, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 20, "tantiemes": 420, "type": "appartement T3" },
+    { "lot": 21, "tantiemes": 280, "type": "studio" },
+    { "lot": 22, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 23, "tantiemes": 520, "type": "appartement T4" },
+    { "lot": 24, "tantiemes": 280, "type": "studio" },
+    { "lot": 25, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 26, "tantiemes": 420, "type": "appartement T3" },
+    { "lot": 27, "tantiemes": 280, "type": "studio" },
+    { "lot": 28, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 29, "tantiemes": 350, "type": "appartement T2" },
+    { "lot": 30, "tantiemes": 280, "type": "studio" },
+    { "lot": 31, "tantiemes": 280, "type": "studio" },
+    { "lot": 32, "tantiemes": 130, "type": "local commercial" }
+  ]
+}
