@@ -1,9 +1,9 @@
 {
   "name": "fr-contracts",
-  "displayName": "Contracts — FR",
+  "displayName": "Contracts — France",
   "version": "0.1.0",
-  "description": "Contracts skills for FR (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Contract drafting in France — service agreements, general terms of sale, and IP clauses.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "fr",
   "practice": "contracts",

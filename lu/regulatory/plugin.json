@@ -1,9 +1,9 @@
 {
   "name": "lu-regulatory",
-  "displayName": "Regulatory & Compliance — LU",
+  "displayName": "Regulatory & Compliance — Luxembourg",
   "version": "0.1.0",
-  "description": "Regulatory & Compliance skills for LU (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Statutory audit in Luxembourg — the approved statutory auditor's engagement, standards, and reporting.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "lu",
   "practice": "regulatory",

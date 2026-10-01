@@ -1,9 +1,9 @@
 {
   "name": "lu-real-estate",
-  "displayName": "Real Estate — LU",
+  "displayName": "Real Estate — Luxembourg",
   "version": "0.1.0",
-  "description": "Real Estate skills for LU (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Real property in Luxembourg — notarial conveyancing costs, capital gains, succession on real estate, and co-ownership management.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "lu",
   "practice": "real-estate",
