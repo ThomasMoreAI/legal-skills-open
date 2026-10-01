@@ -1,9 +1,9 @@
 {
   "name": "dz-contracts",
-  "displayName": "Contracts — DZ",
+  "displayName": "Contracts — Algeria",
   "version": "0.1.0",
-  "description": "Contracts skills for DZ (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Contract drafting, negotiation, and review under Algerian law.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "dz",
   "practice": "contracts",

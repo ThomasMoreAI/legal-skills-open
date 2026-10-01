@@ -1,9 +1,9 @@
 {
   "name": "dz-tax",
-  "displayName": "Tax — DZ",
+  "displayName": "Tax — Algeria",
   "version": "0.1.0",
-  "description": "Tax skills for DZ (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Tax compliance in Algeria — direct and indirect taxes, filings, and customs duties.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "dz",
   "practice": "tax",

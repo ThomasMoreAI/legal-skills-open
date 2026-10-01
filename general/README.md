@@ -6,23 +6,32 @@ Jurisdiction-neutral skills — process, formatting, and methodology tools that 
 
 | Plugin | Practice | Skills |
 |---|---|---|
-| [`arbitration/`](arbitration/) | Arbitration & ADR | 4 |
-| [`commercial/`](commercial/) | Commercial Transactions | 6 |
-| [`construction/`](construction/) | Construction Law | 1 |
-| [`contracts/`](contracts/) | Contracts | 16 |
-| [`corporate/`](corporate/) | Corporate & Governance | 9 |
-| [`criminal/`](criminal/) | Criminal Law & Procedure | 3 |
-| [`data-protection/`](data-protection/) | Data Protection & Privacy | 8 |
-| [`employment/`](employment/) | Labor & Employment | 1 |
-| [`environmental/`](environmental/) | Environmental Law | 1 |
+| [`antitrust/`](antitrust/) | Antitrust & Competition | 6 |
+| [`arbitration/`](arbitration/) | Arbitration & ADR | 10 |
+| [`commercial/`](commercial/) | Commercial | 27 |
+| [`construction/`](construction/) | Construction Law | 3 |
+| [`consumer/`](consumer/) | Consumer Protection | 2 |
+| [`contracts/`](contracts/) | Contracts | 180 |
+| [`corporate/`](corporate/) | Corporate | 43 |
+| [`criminal/`](criminal/) | Criminal Law | 3 |
+| [`cybersecurity/`](cybersecurity/) | Cybersecurity & Information Security | 11 |
+| [`data-protection/`](data-protection/) | Data Protection | 119 |
+| [`employment/`](employment/) | Employment & Labor | 30 |
+| [`environmental/`](environmental/) | Environmental Law | 3 |
 | [`family/`](family/) | Family Law | 2 |
-| [`finance/`](finance/) | Banking & Finance | 1 |
-| [`general/`](general/) | General / Cross-Practice | 49 |
-| [`ip/`](ip/) | Intellectual Property | 9 |
-| [`litigation/`](litigation/) | Civil Litigation | 36 |
-| [`personal-injury/`](personal-injury/) | Personal Injury & Torts | 6 |
-| [`real-estate/`](real-estate/) | Real Estate | 4 |
-| [`regulatory/`](regulatory/) | Regulatory & Administrative | 5 |
+| [`finance/`](finance/) | Finance & Banking | 1 |
+| [`general/`](general/) | General | 238 |
+| [`healthcare/`](healthcare/) | Healthcare | 1 |
+| [`insurance/`](insurance/) | Insurance | 3 |
+| [`ip/`](ip/) | Intellectual Property | 84 |
+| [`life-sciences/`](life-sciences/) | Life Sciences & Pharma | 11 |
+| [`litigation/`](litigation/) | Litigation | 119 |
+| [`personal-injury/`](personal-injury/) | Personal Injury & Torts | 7 |
+| [`real-estate/`](real-estate/) | Real Estate | 7 |
+| [`regulatory/`](regulatory/) | Regulatory & Compliance | 57 |
+| [`sports/`](sports/) | Sports Law | 3 |
+| [`trade/`](trade/) | International Trade & Customs | 2 |
+| [`transportation/`](transportation/) | Transportation & Logistics | 1 |
 | [`trusts-and-estates/`](trusts-and-estates/) | Trusts & Estates | 1 |
 
 ## Cross-cutting context

@@ -1,9 +1,9 @@
 {
   "name": "fr-commercial",
-  "displayName": "Commercial — FR",
+  "displayName": "Commercial — France",
   "version": "0.1.0",
-  "description": "Commercial skills for FR (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Business-to-business dealings in France — invoicing, mandatory invoice mentions, payment terms, and collection.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "fr",
   "practice": "commercial",

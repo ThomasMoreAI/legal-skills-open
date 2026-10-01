@@ -1,9 +1,9 @@
 {
   "name": "fr-tax",
-  "displayName": "Tax — FR",
+  "displayName": "Tax — France",
   "version": "0.1.0",
-  "description": "Tax skills for FR (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "French taxation for businesses and individuals — bookkeeping, VAT and corporate/income tax returns, wealth tax, and tax audits.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "fr",
   "practice": "tax",

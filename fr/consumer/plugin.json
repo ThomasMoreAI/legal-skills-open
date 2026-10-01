@@ -1,9 +1,9 @@
 {
   "name": "fr-consumer",
-  "displayName": "Consumer Protection — FR",
+  "displayName": "Consumer Protection — France",
   "version": "0.1.0",
-  "description": "Consumer Protection skills for FR (imported from open sources; see each skill's author_url for provenance).",
-  "author": "CaseMark + community contributors",
+  "description": "Consumer disputes in France — small claims, contested bills, and amicable settlement before court.",
+  "author": "Community contributors (see each skill's author)",
   "license": "Apache-2.0",
   "jurisdiction": "fr",
   "practice": "consumer",
