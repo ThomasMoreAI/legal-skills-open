@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Foreign Documents"
+  short_description: "Poland Foreign Documents: run focused tasks"
+policy:
+  allow_implicit_invocation: false

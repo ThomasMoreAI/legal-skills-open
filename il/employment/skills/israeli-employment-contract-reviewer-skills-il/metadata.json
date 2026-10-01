@@ -1,0 +1,40 @@
+{
+  "author": "skills-il",
+  "version": "1.4.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "חוזה-העסקה",
+      "דיני-עבודה",
+      "סעיף-14",
+      "אי-תחרות",
+      "הודעה-מוקדמת",
+      "ישראל"
+    ],
+    "en": [
+      "employment-contract",
+      "labor-law",
+      "section-14",
+      "non-compete",
+      "review",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ביקורת חוזה העסקה",
+    "en": "Israeli Employment Contract Reviewer"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. ביקורת דגלים אדומים לפני חתימה על חוזה העסקה ישראלי, מהצד ההגנתי של העובד. סורק חוזה שהדבקתם, מאתר סעיפים לא חוקיים ובעיות מול דיני העבודה בישראל, ומייצר ביקורת מוערת עם מזכר משא ומתן שאפשר להחזיר למעסיק. מסמן מלכודות של סעיף 14, תניות אי-תחרות שלא אכיפות, ימי הודעה מוקדמת מתחת לסף, היעדר פנסיה מהיום הראשון, ונוסח at-will שלא חוקי בישראל. השתמשו בזה כשאתם לפני חתימה על חוזה העסקה ורוצים בדיקה עצמאית. לא מתאים ליצירת חוזה חדש, הבנת זכויות עובד אחרי תחילת עבודה, חישובי שכר, או דמי אבטלה.",
+    "en": "Not legal advice. Pre-signing red-flag audit of an Israeli employment contract (chozeh avoda) from the employee's defensive perspective. Scans a pasted contract for illegal clauses and mismatches with Israeli labor law, then produces an annotated review plus a negotiating points memo the employee can take back to the employer. Flags Section 14 (Saif 14) waiver traps, unenforceable non-competes, hoda'at mukdemet below the statutory minimum, missing pension from day 1, and at-will language that violates Israeli labor law. Use when about to sign an Israeli employment contract and wanting an independent check before committing. Do NOT use for generating a new contract, post-hire workplace rights, payroll calculations, or unemployment benefits."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

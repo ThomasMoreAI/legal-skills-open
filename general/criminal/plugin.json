@@ -9,8 +9,10 @@
   "practice": "criminal",
   "language": "en",
   "skills": [
+    "skills/defence-strategy-planner-rohasnagpal",
     "skills/interview-summary",
     "skills/police-report-summary",
+    "skills/sentencing-analyst-rohasnagpal",
     "skills/traffic-enforcement-summary"
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-08-27",
+      "lessons": [
+        "Expert MINOR deferred: the statute's own term is פגם and NOT אי-התאמה. That diagnostic lives only in domain-checklist.md and never reaches SKILL.md or scope-and-terms.md, where the agent actually drafts. Add one clause to the Gotchas list in both language files next cycle.",
+        "Expert MINOR deferred: permits-and-trades.md section 3 leads in bold with the Nevo-derived קבלן רשום threshold (108,500 / 56,750) and gives the figures actually verified in רשומות (103,250 / 54,000, ק\"ת 11787) second billing. The skill's own Known-bad-figures note says to distrust a threshold without its as-of date, so the better-sourced pair should lead.",
+        "Expert MINOR deferred: the סיווג cap table carries mixed as-of dates in adjacent rows (סוג ק February 2026, סוג 1-4 December 2025) on figures the same table says re-index twice a year, with no explanation. State the indexation dates once above the table.",
+        "Expert MINOR deferred: SKILL.md says which exempt works need a 45 day notice but the filing route (מינהל התכנון online licensing) is only in the reference. Word cap forced a pointer rather than the route itself.",
+        "Word-cap pressure is now real on this skill: it entered the cycle at 4,826 words and the three CRITICAL fixes pushed it to 5,317. It was trimmed back to 5,192 body words (validator PASS) by moving the full cash rule and the חוזה אחיד detail into references/scope-and-terms.md. The next substantive addition will require moving a whole section out, not sentence-level trimming.",
+        "UNVERIFIED and deliberately not written: the specific sanctions available to רשם הקבלנים on a disciplinary complaint. The route is named; the consequence is not asserted."
+      ]
+    }
+  ]
+}

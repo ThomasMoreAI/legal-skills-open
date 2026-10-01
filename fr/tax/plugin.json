@@ -9,8 +9,13 @@
   "practice": "tax",
   "language": "fr",
   "skills": [
+    "skills/cfo-fiscalite-ruddymoriarty",
+    "skills/claude-skill-impots-fr-aureliendrr",
     "skills/comptable-romainsimon",
     "skills/controleur-fiscal-romainsimon",
-    "skills/fiscaliste-romainsimon"
+    "skills/fiscaliste-romainsimon",
+    "skills/ir-france-skill-optimnow",
+    "skills/quickstart-javimosch",
+    "skills/tax-prep-checklist-khalilbenaz"
   ]
 }

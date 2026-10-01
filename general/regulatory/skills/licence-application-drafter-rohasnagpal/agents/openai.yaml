@@ -1,0 +1,4 @@
+interface:
+  display_name: "Licence Application Drafter"
+  short_description: "Prepare complete licence and registration applications"
+  default_prompt: "Use $licence-application-drafter to prepare this licence or registration application against the regulator's current form, criteria, and evidence requirements."

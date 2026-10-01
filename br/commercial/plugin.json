@@ -1,0 +1,14 @@
+{
+  "name": "br-commercial",
+  "displayName": "Commercial — Brazil",
+  "version": "0.1.0",
+  "description": "Commercial skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "commercial",
+  "language": "en",
+  "skills": [
+    "skills/saas-msa-review-bossmann007"
+  ]
+}

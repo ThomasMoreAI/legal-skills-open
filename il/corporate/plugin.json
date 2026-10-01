@@ -1,0 +1,16 @@
+{
+  "name": "il-corporate",
+  "displayName": "Corporate — Israel",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/israel-companies-registry-nolpak14",
+    "skills/validate-companies-docx-shaishulman",
+    "skills/validate-companies-shaishulman"
+  ]
+}

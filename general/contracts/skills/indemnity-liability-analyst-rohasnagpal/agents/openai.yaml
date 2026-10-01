@@ -1,0 +1,4 @@
+interface:
+  display_name: "Indemnity & Liability Analyst"
+  short_description: "Analyse liability caps, carve-outs, and insurance gaps"
+  default_prompt: "Use $indemnity-liability-analyst to analyse the Supplier's exposure after applying the cap, carve-outs, and sub-caps."

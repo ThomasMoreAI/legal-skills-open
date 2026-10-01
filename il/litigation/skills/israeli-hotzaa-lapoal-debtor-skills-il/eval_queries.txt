@@ -1,0 +1,28 @@
+# eval_queries.txt - israeli-hotzaa-lapoal-debtor
+# 7 positive / 3 negative / 3 edge = 13 total
+# 70/30 split for Phase 2.8: TRAIN = P1-P5, N1-N2, E1-E2 (9) | HOLDOUT = P6-P7, N3, E3 (4)
+
+[POSITIVE]
+P1  קיבלתי אזהרה מההוצאה לפועל, מה אני עושה עכשיו?
+P2  עיקלו לי את חשבון הבנק בגלל תיק הוצאה לפועל, איך מבטלים
+P3  פתחו נגדי תיק על צ'ק שחזר, יש לי 30 יום להגיש התנגדות?
+P4  I got a warning letter from Hotzaa LaPoal, what are my deadlines
+P5  אני חייב בהוצאה לפועל ורוצה לבקש צו תשלומים לפי היכולת שלי
+P6  שמו לי עיכוב יציאה מהארץ בגלל חוב, אפשר לבטל לפני טיסה
+P7  כמה מהמשכורת שלי מותר לעקל בהוצאה לפועל
+
+[NEGATIVE]
+N1  איך אני תובע לקוח שלא שילם לי בתביעות קטנות
+    -> israeli-small-claims-court (this skill starts AFTER judgment)
+N2  קיבלתי דוח חניה מהעירייה ואני רוצה לערער
+    -> israeli-fines-fighter (different forum; Merkaz Gviyat Knasot, not Hotzaa LaPoal)
+N3  אני רוצה לפתוח תיק הוצאה לפועל נגד מי שחייב לי כסף
+    -> creditor side, deliberately OUT of scope after the debtor-side scoping decision
+
+[EDGE]
+E1  אני בחובות כבדים ורוצה למחוק את כל החובות שלי
+    -> chadlut peraon forum, NOT hotzaa lapoal. Skill must route out, not answer.
+E2  לא שילמתי מזונות ואמרו לי שיוציאו נגדי צו מאסר
+    -> in scope (mezonot is one of the five file types) but must flag the separate track
+E3  שלחתי מכתב התראה ללקוח והוא לא הגיב, מה השלב הבא
+    -> israeli-client-payment-chaser boundary; pre-legal, no file exists yet

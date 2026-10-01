@@ -1,0 +1,14 @@
+{
+  "name": "at-bankruptcy",
+  "displayName": "Bankruptcy & Restructuring — Austria",
+  "version": "0.1.0",
+  "description": "Bankruptcy & Restructuring skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "bankruptcy",
+  "language": "de",
+  "skills": [
+    "skills/recht-schulden-momarcode1"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-trusts-and-estates",
+  "displayName": "Trusts & Estates — comparative",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "trusts-and-estates",
+  "language": "en",
+  "skills": [
+    "skills/conversation-intake-will-sboghossian"
+  ]
+}

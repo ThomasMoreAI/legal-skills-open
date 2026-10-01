@@ -1,0 +1,4 @@
+interface:
+  display_name: "M&A Diligence Checker"
+  short_description: "Build transaction diligence checklists and issue logs"
+  default_prompt: "Use $m-and-a-diligence-checker to create a risk-ranked diligence plan and issue log for this transaction."

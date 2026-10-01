@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conciliation Proposal Drafter"
+  short_description: "Draft structured conciliation settlement proposals"
+  default_prompt: "Use $conciliation-proposal-drafter to turn these priorities and facts into a settlement proposal for conciliation."

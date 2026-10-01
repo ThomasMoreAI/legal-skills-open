@@ -1,0 +1,14 @@
+{
+  "name": "dk-regulatory",
+  "displayName": "Regulatory & Compliance — Denmark",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills under the law of Denmark.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "dk",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/denmark-cvr-nolpak14"
+  ]
+}

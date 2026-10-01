@@ -1,0 +1,17 @@
+{
+  "name": "il-real-estate",
+  "displayName": "Real Estate — Israel",
+  "version": "0.1.0",
+  "description": "Real Estate skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/israeli-building-committee-skills-il",
+    "skills/israeli-home-defect-report-skills-il",
+    "skills/israeli-tabu-extract-decoder-skills-il",
+    "skills/israeli-urban-renewal-owner-guide-skills-il"
+  ]
+}

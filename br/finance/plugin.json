@@ -1,0 +1,14 @@
+{
+  "name": "br-finance",
+  "displayName": "Finance & Banking — Brazil",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "finance",
+  "language": "pt",
+  "skills": [
+    "skills/credit-contract-review-bossmann007"
+  ]
+}

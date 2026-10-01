@@ -1,0 +1,14 @@
+{
+  "name": "us-administrative",
+  "displayName": "Administrative Procedure & Public Services — United States",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills under the law of United States.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/gap-analysis-osenv"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-18",
+      "lessons": [
+        "Registrar of Inheritance fee schedule: the full current table (effective 1 Jan 2026, selected by FILING date not date of death, reindexed each 1 January, 85% for online filing) was enumerated during this cycle but deliberately NOT encoded here, because obtaining the order is out of scope and belongs to israeli-wills-inheritance. Verify that skill actually carries the full table; if it does not, that is a cross-skill coverage gap.",
+        "The Registrar fee amounts and the 85% online-filing discount were reported to this cycle by a research pass citing ק\"ת 12149, which has no fetchable URL and which this cycle could not open directly. They were therefore NOT written into the skill: the checklist row now carries only the structural rule (fee fixed at filing date, reindexed annually, do not quote an amount here). If a fetchable citation appears, the amounts belong in israeli-wills-inheritance, not here.",
+        "Every kolzchut.org.il URL, itur.mof.gov.il and harb.cma.gov.il are behind bot challenges no automated path can read. Statutory claims were re-anchored to nevo; the remaining kolzchut citations are human reading links only. Do not attempt to 'fix' them by re-fetching.",
+        "gov.il service pages 403 curl and WebFetch but are alive. A --check-sources UNREACHABLE on gov.il is an access artifact, not a bad snippet: the vehicle-transfer snippet was flagged FAILED this cycle and turned out to be character-for-character correct.",
+        "Discretionary edits deferred over the Phase 4.1 cap: (a) add a short digital-assets and online-accounts note; (b) add a credit-card cancellation row to the institution checklist; (c) note the up-to-12-month no-cost mortgage payment deferral some banks offer after a borrower's death (bank-specific, not statutory); (d) note that the FIRST division of an inherited property among heirs is not a taxable sale under s.5(c)(4) of the Land Taxation Law unless outside-the-estate consideration changes hands, which is the sibling-buyout trap.",
+        "Not addressed this cycle and worth a decision next time: the skill is silent on the deceased's final income-tax year, on deregistering a self-employed deceased at מע\"מ / מס הכנסה / ביטוח לאומי, and on the מנהל עיזבון and האפוטרופוס הכללי routes. None appear in domain-checklist.md even as out-of-scope. Decide explicitly whether they belong here or in a sibling skill, and record the answer.",
+        "scripts/generate_timeline.py does not surface the only two hard statutory deadlines the skill knows about (firearm surrender at 30 days, enduring-POA residual authority ending at 90 days). Consider adding them as flagged rows rather than planning offsets."
+      ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-20",
+      "lessons": [
+        "The burial-charge section presented regulations 3(a) and 4(a) as a closed list of six lawful charges. Regulation 3(b) was missing: where section 266 of the Law does not apply to the deceased (broadly a non-resident), the society may charge a service fee or any other payment at will. The skill's 'outside the list, refuse' instruction was therefore wrong for that family. Both files now branch on whether section 266 applies before checking the list at all.",
+        "Regulation 3(a) is framed as covering charges 'in connection with the burial AND the erection of the headstone'. That is the statutory hook for the separate headstone cost the skill already states elsewhere, and the wording now carries it.",
+        "The vehicle note's 'the licensing authority will not reissue the license at all' read as a permanent brick. The one-year renewal is the only renewal available WITHOUT the order; once the succession or probate order is in hand the heirs can renew at the licensing bureau. Rewritten as a window problem, with the warning intact.",
+        "Fees and the objection procedure remain deliberately unquoted here: they belong to israeli-wills-inheritance, which was updated in the same batch. Do not add fee figures to this skill.",
+        "Open from the prior cycle and still open: the deceased's final tax year and self-employed deregistration, digital assets and online accounts, and primary-source verification of the 'inheritance transfer adds no יד' and mandatory-insurance-void claims in the vehicle note.",
+        "Soft divergence with israeli-wills-inheritance left unresolved this cycle: that skill says the granted order is transmitted digitally to banks and the Land Registry, while this skill still tells the family to 'present the order'. Not a factual contradiction, but the two describe different user actions for the same step.",
+        "Reconciled the order-delivery divergence with israeli-wills-inheritance against the official Administrator General guide (gov.il guide_with_will PDF). Both prior wordings were partly wrong: the wills skill said the granted order is transmitted digitally (true, but it reads as automatic on grant), and this skill said 'present the order' (the pre-digital action). The source is explicit that the trigger is 'לאחר הגשת בקשה לפעולה' -- the Registrar transmits the digital order to banks, insurers, the Tabu, the Ministry of Transport, RMI, the Tax Authority and the Corporations Authority only after a request for the action is filed, and for those bodies presentation is then spared. The asset-transfer section now states the trigger, names the bodies, and still tells the family to keep the digital order and a certified copy for any body outside the transmission. Service covers orders from 1998 onward."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-09-25",
+      "lessons": [
+        "Severance Pay Law s.5(b1) (Amendment 34, Swords of Iron temporary provision) was missing: for a death from 7.10.2023 until one year after the end of the home-front special-situation declaration of that date, only spouse and dependent child are sheirim and heirs step in otherwise. Declaration lifted end of October 2025 (IDI), so the period plausibly ends about end of October 2026. OPEN: exact end date not checked in Reshumot, effect of the new 28.2.2026 declaration unknown, and whether the Labour Minister extended it. Re-check next cycle; once the period has clearly ended, reword as historical for deaths inside it.",
+        "s.266 gloss corrected: s.266 covers anyone who died in Israel (resident or not) and a resident who died abroad. The v1.2.1 example 'such as a non-resident' was wrong.",
+        "s.133 limb restored ('or another special reason'). Limb-dropping on statutory paraphrase recurred; re-read every paraphrased section against wikisource each cycle.",
+        "nevo.co.il IP-blocked this machine mid-cycle. Hebrew Wikisource (action=raw for reading, /wiki/ URL for evidence) and the Wayback id_ endpoint for kolzchut both pass --check-sources. 8 zchuton claims were re-anchored to the Wayback snapshot. 29 remain unreachable (kolzchut subpages, mizrahi-tefahot WAF, gov.il PDF).",
+        "CARRY resolved: deceased's tax file (s.120 ITO + Form 2805 stated; deadlines still deliberately unstated), digital assets (CARRY-STALE, now covered in the money reference), credit cards, s.5(c)(4) first-division trap, generate_timeline hard deadlines (already present at HEAD).",
+        "Deferred (MAJOR, unverified at primary source): public-housing continuing tenant (dayar mamshich); the lease-termination step should not be read as applying to Amidar/Amigur. Needs the Public Housing Law / company procedure.",
+        "Deferred (discretionary, over the batch cap of 3): HMO row should say cancel supplementary insurance (shaban) rather than 'deregister'; vehicle spouse route without an order (death certificate + affidavit per Kol-Zchut) instead of 'may have a simplified route'; letter templates for credit-card closure, caregiver termination, VAT/NI closure; mourning-leave note; headstone state-funded categories list; death-at-home / burial licence / autopsy-waiver 72h logistics; repatriation logistics.",
+        "Mortgage payment deferral after a borrower's death: still unverified (bank-specific); not written.",
+        "Coverage audit flagged heirs' agreement and renunciation (Succession Law s.6) as a hand-off gap: routed to israeli-wills-inheritance in the checklist; verify that skill carries it.",
+        "SKILL.md body is at ~4,970 of 5,000 words. The next addition must move another section (e.g. the firearm or safe-deposit notes) to references/ first.",
+        "Panel fix round 1 (2026-09-25): s.5(b1) end date stated as 28.10.2026 per Hebrew Wikipedia citing Y.P. 13830 p.9858 (secondary; the Reshumot item itself was not opened). RE-CHECK right after 28.10.2026 and look for a Labour Minister extension order under s.5(b1)(4); once the period has closed, reword as a rule for deaths inside the period.",
+        "Deferred minors from the Expert: employer-side housekeeping when the deceased employed a caregiver (close the household-employer file at Bituach Leumi, notify the Population Authority for a foreign caregiver); scripts polish (Hebrew [!] footer, 'day'/'days', timeline rows for Form 2805 and execution-office warnings); s.120(c) 40% on-account payment where heirs are unknown.",
+        "Deferred from Legal: the frontmatter description does not open with the legal clause (the site description does); changing it triggers Phase 5.7, so do it in a cycle that runs the holdout.",
+        "s.6 renunciation paraphrase in domain-checklist now carries the s.6A war-period widening; any future renunciation text must cite both."
+      ]
+    }
+  ]
+}

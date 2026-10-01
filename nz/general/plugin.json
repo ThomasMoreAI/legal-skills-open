@@ -1,0 +1,17 @@
+{
+  "name": "nz-general",
+  "displayName": "General — New Zealand",
+  "version": "0.1.0",
+  "description": "General skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/legislation-nz-thecolab-ai",
+    "skills/nz-case-law-thecolab-ai",
+    "skills/nz-hansard-thecolab-ai",
+    "skills/nz-parliament-thecolab-ai"
+  ]
+}

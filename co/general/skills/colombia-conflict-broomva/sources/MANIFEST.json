@@ -1,0 +1,88 @@
+{
+  "_meta": {
+    "source": "Comisión para el Esclarecimiento de la Verdad (CEV) — Informe Final 'Hay Futuro Si Hay Verdad' (2022)",
+    "base_url": "https://www.comisiondelaverdad.co",
+    "license": "CC BY-NC-SA 4.0",
+    "note": "11 downloadable units = 10 Spanish digital-edition PDFs + the Colombia-adentro ZIP (extracts to 14 territorial books). Other editions (print, French/English, Indigenous-language) exist on comisiondelaverdad.co. Full text is bundled gzipped under references/fulltext/; these PDFs are the provenance binaries, fetched on demand via scripts/fetch_sources.sh.",
+    "units": 11
+  },
+  "downloads": [
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/IF_CONVOCATORIA-A-LA-PAZ-GRANDE_DIGITAL_2022.pdf",
+      "filename": "01-Convocatoria-a-la-paz-grande.pdf",
+      "sha256": "1ce5dc8f48ed3b769c69d2ab079e216386ee3537501f8e24a5664cca20198320",
+      "bytes": 4006946,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/FINAL%20CEV_HALLAZGOS_DIGITAL_2022.pdf",
+      "filename": "02-Hallazgos-y-recomendaciones.pdf",
+      "sha256": "abca0fa49817d4095163a9593842c9ea679176a66f05ff652343746ed612e504",
+      "bytes": 11014313,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_NARRATIVA%20HISTORICA_DIGITAL_2022.pdf",
+      "filename": "03-No-mataras-narrativa-historica.pdf",
+      "sha256": "8f51534b0f8de9ef83d68a9bf69914b932de57fc08de6d7267820877a5f6975f",
+      "bytes": 16035666,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_VIOLACIONES_DIGITAL_2022.pdf",
+      "filename": "04-Hasta-la-guerra-tiene-limites-violaciones.pdf",
+      "sha256": "c118ca2243be55f491f5c773247144e69fa5da33a188f2ef6deecb18f4e32bd2",
+      "bytes": 19419895,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_SUFRIR%20LA%20GUERRA%20Y%20REHACER%20LA%20VIDA_DIGITAL_2022.pdf",
+      "filename": "06-Sufrir-la-guerra-y-rehacer-la-vida-impactos.pdf",
+      "sha256": "5b4adeeca445365c88bb41e3ca951dd13e6f7f312b42480fa505e472dd2ed323",
+      "bytes": 15015693,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_TESTIMONIAL_DIGITAL_2022.pdf",
+      "filename": "07-Cuando-los-pajaros-no-cantaban-testimonial.pdf",
+      "sha256": "25db280f60853f0066e84c43c1a834867b19515c35bfac8ecb1c835dbbcf7d00",
+      "bytes": 180459452,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_ETNICO_DIGITAL_2022.pdf",
+      "filename": "08-Resistir-no-es-aguantar-pueblos-etnicos.pdf",
+      "sha256": "617733308bee10d88cf33c7c6cad8b1c3f6edff7d4a8da59209b491b5d8f03d7",
+      "bytes": 18505624,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_MI%20CUERPO%20ES%20LA%20VERDAD_DIGITAL_2022.pdf",
+      "filename": "09-Mi-cuerpo-es-la-verdad-mujeres-y-LGBTIQ.pdf",
+      "sha256": "8b9676eb8d4cf2af6ecd294eeffbc4ace7e2e38a1071ff55f274729ce61ddecf",
+      "bytes": 18384324,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/CEV_NNA_DIGITAL_2022.pdf",
+      "filename": "10-No-es-un-mal-menor-ninos-ninas-adolescentes.pdf",
+      "sha256": "ad1425a8b5b3a1693f4a4b240684f15e164ebb2c4dbcfe896a465242e9dc4e15",
+      "bytes": 6259560,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-09/CEV_LA%20COLOMBIA%20FUERA%20DE%20COLOMBIA_DIGITAL_2022%20corr.pdf",
+      "filename": "11-La-Colombia-fuera-de-Colombia-exilio.pdf",
+      "sha256": "d18c6cebb7a91ae2b1ea1205977da32ef5c740745decb558601d00821eba38ce",
+      "bytes": 13038983,
+      "extract": null
+    },
+    {
+      "url": "https://www.comisiondelaverdad.co/sites/default/files/descargables/2022-08/IF_territorios_digital.zip",
+      "filename": "05-Colombia-adentro_digital.zip",
+      "sha256": "683a5d9da6811676852061137c67b88ba2461f2c831cd8697acfbd6934dcf830",
+      "bytes": 86575908,
+      "extract": "zip -> skills/.../05-Colombia-adentro/ (14 territorial books)"
+    }
+  ]
+}

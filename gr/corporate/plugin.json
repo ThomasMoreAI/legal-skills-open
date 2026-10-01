@@ -1,0 +1,14 @@
+{
+  "name": "gr-corporate",
+  "displayName": "Corporate — Greece",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Greece.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "gr",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/greece-gemi-nolpak14"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "display_name": {
+    "he": "הוצאה לפועל: הצד של החייב",
+    "en": "Hotzaa LaPoal: Debtor Side"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. נפתח נגדכם תיק בהוצאה לפועל וצריך לפעול לפני שנגמר המועד. הסקיל מזהה קודם באיזה מחמשת סוגי התיקים אתם, כי לכל אחד יש דרך התמודדות אחרת ושעון אחר: 30 יום להתנגדות בטופס 218, לעומת טענת פרעתי בטופס 236 שאין לה מועד אחרון אבל אינה יכולה לתקוף פסק דין. מכסה את חמש ההגבלות שהרשם יכול להטיל, את ההתראה של 30 יום לפני שהגבלה נכנסת לתוקף ואיך מבטלים כל אחת, ואיזה שכר וקצבאות אסור לעקל. הסקיל מרכז טיעונים ולוח מועדים, ואתם כותבים ומגישים בשמכם. אל תשתמשו בזה כדי לפתוח תיק בתור זוכה, לתביעות קטנות לפני פסק דין, לדוחות חניה ותנועה, או לחדלות פירעון ומחיקת חובות, שזה פורום אחר לגמרי.",
+    "en": "Not legal advice. An Israeli enforcement file was opened against you and you must act before a deadline. The skill first identifies which of the five file types you are in, because each carries a different challenge route and a different clock: 30 days to object on form 218, versus a paraati claim on form 236 with no deadline that cannot attack a judgment. Covers the five restrictions the registrar can impose, the 30-day warning before one takes effect and how each is lifted, and which wages and benefits cannot be attached. It assembles arguments and a deadline calendar; you write and file in your own name. Do NOT use to open a file as a creditor, for small claims before judgment, for traffic or municipal fines, or for insolvency and debt discharge, which is a different forum."
+  },
+  "tags": {
+    "he": [
+      "הוצאה לפועל",
+      "עיקול",
+      "חייב",
+      "התנגדות",
+      "טענת פרעתי"
+    ],
+    "en": [
+      "enforcement",
+      "attachment",
+      "debtor",
+      "objection",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.1.0",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.kolzchut.org.il/he/הוצאה_לפועל_וגבייה",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

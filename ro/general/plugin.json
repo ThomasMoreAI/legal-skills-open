@@ -1,0 +1,14 @@
+{
+  "name": "ro-general",
+  "displayName": "General — Romania",
+  "version": "0.1.0",
+  "description": "General skills under the law of Romania.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ro",
+  "practice": "general",
+  "language": "ro",
+  "skills": [
+    "skills/legislatie-ro-sw33tr"
+  ]
+}

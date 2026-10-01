@@ -1,0 +1,70 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "Dmei havra'a 451.5 pending Ministry of Labor extension order; flip next cycle if signed.",
+        "Deferred MAJOR: add illegal-deduction / benefit-bundling / misclassification screens.",
+        "Deferred MAJOR: maternity-dismissal protection check; payslip-right check."
+      ]
+    },
+    {
+      "version": "1.1.0-fixround",
+      "date": "2026-06-26",
+      "summary": "Expert review failed on 3 CRITICAL coverage gaps; added detectable red-flag rows + brief detection rules for all five deferred items.",
+      "resolved": [
+        "CRITICAL: illegal wage deductions / penalty clauses now flagged as a blocker (Wage Protection Law 1958 s.25; lawful deductions are a closed list, employee-authorized debt capped at 25%).",
+        "CRITICAL: maternity/pregnancy dismissal protection now flagged; dismissal/pay-cut during pregnancy, maternity leave, or fertility treatment at 6+ months tenure requires a Ministry of Labor heter (Employment of Women Law 5714-1954); absence of a carve-out is flagged as a protection gap.",
+        "CRITICAL: right to a detailed monthly payslip now flagged; cash-pay / payslip-silent contract is a red flag (Wage Protection Law Amendment 24, 2008).",
+        "MAJOR: all-inclusive salary / benefit-bundling clause flagged as void to cogent components (pension, havra'a, overtime, vacation funded separately).",
+        "MAJOR: misclassification (employee vs kablan) now uses the subordination/integration test (mivchan ha'hishtalvut) with retroactive-reclassification risk, not a bare attorney punt."
+      ],
+      "evidence_added": [
+        "illegal-deductions-s25-25pct (kolzchut deductions page, WebFetch-verified).",
+        "women-employment-law-heter (kolzchut pregnant-employee dismissal page, WebFetch-verified).",
+        "payslip-amendment-24 (kolzchut payslip page, WebFetch-verified)."
+      ],
+      "deferred_minors": [
+        "MINOR: encode the full sick-pay ladder (day one unpaid, days two-three at half pay, day four onward at full pay) as a presence/rate check, not just an 18-per-year accrual sanity check.",
+        "MINOR: tighten the total-employer-cost ratio into an explicit band (roughly 120 to 125 percent of gross) with a callout when figures fall outside it.",
+        "MINOR: add an MCP-reference verification note so israel-law / kolzchut citations are spot-checked against the live source before being quoted as authoritative."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-08-26",
+      "lessons": [
+        "Resolved carry: the havra'a extension order was published 18.08.2026; the rate flipped from 418 to 451.5 and the 33.50/day completion is now documented.",
+        "Judge round 1 caught a defect the author introduced: correcting annual leave to the pure statutory ladder dropped the Shortened Work Week extension order, which is the binding higher ladder for most 5-day workplaces. Both ladders and the higher-of rule are now encoded in the skill and the script.",
+        "Expert round 1 returned 6 CRITICALs, all resolved this cycle, none deferred: travel reimbursement, the employee's right to choose the pension product and provider, the non-pension-fund disability band (5% floor / 7.5% cap / 75% cover), the notice-versus-accrued-vacation 14-day rule plus Sick Pay Law s.4A, the undisputed-debt precondition on s.25(b), and the deduction-versus-repayment-obligation conflation on training-cost clawbacks.",
+        "Legal gate returned REVIEW on placement rule 1: the emitted review template printed its disclaimer only at the end. The disclaimer now LEADS the Step 4 template. The clause was also restored to both YAML frontmatter descriptions, which had diverged from display_description.",
+        "Deferred MAJOR (Expert): extend references/standard-negotiation-language.md with replacement wording for the roughly ten red flags added in 1.3.0. Step 5 mandates specific wording, and the file still holds only its original 8 clauses. This is the single highest-value item for the next cycle.",
+        "Deferred MAJOR (Expert): weekly rest (36 hours, 150% plus rest in lieu for rest-day work, the permit requirement, the right to refuse).",
+        "Deferred MAJOR (Expert): non-solicitation as a category distinct from non-compete; the Frumer analysis does not transfer unadapted.",
+        "Deferred MAJOR (Expert): resignation-deemed-dismissal routes under Severance Pay Law ss.6, 7 and 8 (health, within nine months of childbirth or adoption, relocation).",
+        "Deferred MAJOR (Expert): the Notice to Employee Law consequences (compensation without proof of damage; burden shifting on an unwritten disputed term), which is what gives the disclosure checklist leverage.",
+        "Deferred MAJOR (Expert): remote work from abroad and foreign-national employment (visa conditionality, tax and BTL consequences, whether cogent protections continue to attach).",
+        "Deferred MINOR (Expert): the youth minimum wage is lower than the adult figure, so the 6,443.85 blocker mis-fires on a lawful under-18 contract.",
+        "Deferred MINOR (Expert): pay-secrecy clauses. The Expert could not verify their enforceability against a primary source and flagged the omission only, so nothing was asserted.",
+        "Deferred MINOR (Expert): section-14-trap-guide.md gives the s.45a credit ceiling as 'approximately NIS 8,148 in 2026'. Verify and date it, or state the rule without a number.",
+        "Deferred LOW (legal gate): reservations stack, and 1.3.0 added tax content (Section 102, keren hishtalmut ceiling) under a legal-only notice. Consider appending the TIER_A_TAX limb without touching the existing TIER_A_LEGAL sentences.",
+        "Watch: the Employment of Women hora'at sha'a on chal\"at and the 60 protected days runs 31.03.2026 to 31.03.2027; re-check next cycle.",
+        "Watch: SKILL.md body is at roughly 4,970 words against the 5,000 cap. The next cycle must move a section to references/ BEFORE adding content. This cycle had to relocate the numerical-check table and nine detection rows mid-edit to get back under it.",
+        "Unverified and deliberately NOT written: a claimed requirement to file a s.102 plan with the tax authority 30 days before the first grant (two sources disagreed), and the claim that travel reimbursement may lawfully be folded into salary if agreed before start (not confirmed on the kolzchut page)."
+      ],
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "קיבלתי חוזה העסקה מסטארטאפ, יש שם סעיף 14, כדאי לחתום?",
+          "כמה נטו אני מקבל משכר של 20,000 ברוטו? (negative, routes to payroll)",
+          "I already started the job three months ago and my employer hasn't paid pension (negative, routes to workplace-rights)"
+        ]
+      }
+    }
+  ]
+}

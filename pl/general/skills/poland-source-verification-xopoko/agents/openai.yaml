@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Source Verification"
+  short_description: "Poland Source Verification: run focused tasks"
+policy:
+  allow_implicit_invocation: false

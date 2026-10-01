@@ -1,0 +1,17 @@
+{
+  "skill": "legal-readiness",
+  "version": 1,
+  "notes": "10 cases: 5 positive / 5 negative. Converted 2026-09-29 (BRO-2663) from the should_trigger / should_not_trigger lists, which the runner does not read; prompts unchanged. The check registry has no legal-readiness outcome checks, so positives assert a non-empty final answer only.",
+  "cases": [
+    {"id": "golden-01", "prompt": "Audit every legal and compliance claim in this SaaS before launch.", "should_trigger": true, "expected_checks": ["final_answer_non_empty"], "origin": "golden"},
+    {"id": "golden-02", "prompt": "Make our Terms, Privacy, consent, billing, and vendor disclosures legally ready.", "should_trigger": true, "expected_checks": ["final_answer_non_empty"], "origin": "golden"},
+    {"id": "golden-03", "prompt": "Run an adversarial legal shield audit and close the code-level gaps.", "should_trigger": true, "expected_checks": ["final_answer_non_empty"], "origin": "golden"},
+    {"id": "golden-04", "prompt": "Check whether our pricing, SLA, security, and AI claims are actually substantiated.", "should_trigger": true, "expected_checks": ["final_answer_non_empty"], "origin": "golden"},
+    {"id": "golden-05", "prompt": "Configure legal standing for this app and tell me what still requires counsel or filings.", "should_trigger": true, "expected_checks": ["final_answer_non_empty"], "origin": "golden"},
+    {"id": "neg-01", "prompt": "Explain what this React hook does.", "should_trigger": false, "expected_checks": ["final_answer_non_empty", "no_permission_denials"], "origin": "negative"},
+    {"id": "neg-02", "prompt": "Draft a private note to my lawyer about tomorrow's meeting.", "should_trigger": false, "expected_checks": ["final_answer_non_empty", "no_permission_denials"], "origin": "negative"},
+    {"id": "neg-03", "prompt": "Look up one statute and quote the relevant sentence.", "should_trigger": false, "expected_checks": ["final_answer_non_empty", "no_permission_denials"], "origin": "negative"},
+    {"id": "neg-04", "prompt": "Review this pull request only for TypeScript style.", "should_trigger": false, "expected_checks": ["final_answer_non_empty", "no_permission_denials"], "origin": "negative"},
+    {"id": "neg-05", "prompt": "File my company incorporation documents with the government.", "should_trigger": false, "expected_checks": ["final_answer_non_empty", "no_permission_denials"], "origin": "negative"}
+  ]
+}

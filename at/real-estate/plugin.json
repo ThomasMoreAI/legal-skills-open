@@ -1,0 +1,14 @@
+{
+  "name": "at-real-estate",
+  "displayName": "Real Estate — Austria",
+  "version": "0.1.0",
+  "description": "Real Estate skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "real-estate",
+  "language": "de",
+  "skills": [
+    "skills/recht-miet-momarcode1"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regulatory Examination Response Drafter"
+  short_description: "Draft evidence-led regulatory examination responses"
+  default_prompt: "Use $examination-response-drafter to analyse this examination or show-cause record and draft an accurate, evidenced response with a remediation plan."

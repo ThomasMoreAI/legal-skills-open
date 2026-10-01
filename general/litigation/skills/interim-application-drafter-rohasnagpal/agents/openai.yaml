@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interim Application Drafter"
+  short_description: "Draft urgent evidence-backed interim relief"
+  default_prompt: "Use $interim-application-drafter to prepare this interim application with jurisdiction, legal test, evidence, urgency, notice position, undertakings, and a workable draft order."

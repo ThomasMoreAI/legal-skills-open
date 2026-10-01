@@ -1,0 +1,74 @@
+{
+  "author": "skills-il",
+  "version": "1.1.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "בדק בית",
+      "ליקויי בנייה",
+      "פרוטוקול מסירה",
+      "חוק המכר דירות",
+      "דירה מקבלן",
+      "ישראל"
+    ],
+    "en": [
+      "home inspection",
+      "construction defects",
+      "handover protocol",
+      "sale of apartments law",
+      "new apartment",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "תיעוד ליקויי בנייה בדירה מקבלן",
+    "en": "Israeli New-Apartment Defect Log"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. עוזר לרוכשי דירה חדשה מקבלן לתעד ליקויי בנייה ולפעול בזמן. בונה רשימת בדיקה חדר אחר חדר לקראת המסירה, הופך את הממצאים ליומן ליקויים מתוארך שאפשר לצרף לפרוטוקול המסירה, מחשב לכל ליקוי באיזו תקופה הוא נמצא לפי חוק המכר (דירות) ומי צריך להוכיח מה, ומנסח מכתב דרישה לתיקון לקבלן. מתאים כשמקבלים מפתחות, כשהתגלתה נזילה או סדק, או כששואלים אם כבר מאוחר מדי להתלונן. חשוב כי התקופות נספרות ממועד המסירה, משתנות לפי סוג הליקוי ולפי אם הדירה נקנתה לפני אפריל 2011, ואיחור בהודעה עלול לחסום תביעה טובה. אל תשתמשו להערכת בטיחות או נזק בשלד, שדורשים מהנדס רשוי, לתמחור תיקונים, לפיצוי על איחור במסירה, לליקויים בדירה שכורה או לבית פרטי שבונים בעצמכם.",
+    "en": "Not legal advice. Helps a buyer of a new apartment from an Israeli contractor document construction defects and act on them in time. Builds a room-by-room walkthrough list for the handover, turns findings into a dated defect log to attach to the handover protocol, works out for each defect which statutory window applies under the Sale (Apartments) Law 1973 and who carries the burden of proof, and drafts a Hebrew repair-demand letter to the contractor. Use when collecting keys, when a leak or crack appears, or when asking whether it is too late to complain. It matters because the periods run from handover, differ by defect type, and differ again for apartments bought before April 2011, so a missed notice deadline can forfeit a good claim. Do NOT use to assess structural safety or load-bearing damage (that needs a licensed engineer), to value repairs, for late-delivery compensation, for rental defects (use israeli-rental-agreements), or for a self-built private home (use israeli-private-home-construction)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "type": "guidance",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "type": "guidance",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

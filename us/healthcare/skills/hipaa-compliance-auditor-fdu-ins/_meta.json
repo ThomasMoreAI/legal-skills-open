@@ -1,0 +1,11 @@
+{
+  "owner": "aipoch-ai",
+  "slug": "hipaa-compliance-auditor",
+  "displayName": "Hipaa Compliance Auditor",
+  "latest": {
+    "version": "0.1.0",
+    "publishedAt": 1774242807464,
+    "commit": "https://github.com/openclaw/skills/commit/e82299b063c2a0897fd588fcbb87ceae0d84e64c"
+  },
+  "history": []
+}

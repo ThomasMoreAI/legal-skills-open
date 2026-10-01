@@ -1,0 +1,15 @@
+{
+  "name": "fr-corporate",
+  "displayName": "Corporate — France",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of France.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "corporate",
+  "language": "fr",
+  "skills": [
+    "skills/bootcamp-legal-status-prendstapart",
+    "skills/ideation-legal-structure-prendstapart"
+  ]
+}

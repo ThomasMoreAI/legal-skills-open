@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brief to Counsel Drafter"
+  short_description: "Prepare focused instructions and case briefs"
+  default_prompt: "Use $brief-to-counsel-drafter to prepare a confidential brief to counsel covering the mandate, facts, issues, record, procedural position, questions, and practical instructions."

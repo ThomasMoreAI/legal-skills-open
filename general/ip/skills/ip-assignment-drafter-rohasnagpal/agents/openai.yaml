@@ -1,0 +1,4 @@
+interface:
+  display_name: "IP Assignment Drafter"
+  short_description: "Draft precise transfers of IP ownership"
+  default_prompt: "Use $ip-assignment-drafter to draft an IP assignment that identifies the assets, transferred rights, retained rights, consideration, formalities, and recordal steps."

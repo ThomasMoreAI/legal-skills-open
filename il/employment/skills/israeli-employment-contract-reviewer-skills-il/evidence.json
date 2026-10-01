@@ -1,0 +1,708 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-employment-contract-reviewer",
+  "generated_at": "2026-08-29T21:41:14+00:00",
+  "claims": [
+    {
+      "claim_id": "pension-rates-18.5",
+      "claim": "The mandatory pension contribution is 18.5% of salary total: employer 6.5% benefits (tagmulim) + employer 6% severance + employee 6%. A 6% severance component is the legal minimum and is fully legal.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5% מהשכר, מתוכם 6% על חשבון העובד והיתר (12.5%) על חשבון המעסיק (6.5% הפרשות מעסיק לרכיב תגמולים ו-6% הפרשות מעסיק לרכיב פיצויים).",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "pension-waiting-6-months",
+      "claim": "An employee with a prior active pension fund is entitled to contributions from day 1 (paid retroactively after 3 months). An employee with no prior fund (first job) is entitled only after 6 months, so a pension-after-6-months clause is legal for a first job.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "במקרה שהעובד לא היה מבוטח בביטוח פנסיוני לפני תחילת עבודתו , הוא יהיה זכאי לביטוח הפנסיוני רק לאחר שחלפו 6 חודשים מהיום שהתחיל את עבודתו באותו מקום עבודה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "section-14-8.33",
+      "claim": "Section 14 (סעיף 14) of the Severance Pay Law is a PROHIBITION with exceptions: a payment to a provident fund, pension fund or similar does NOT come in place of severance unless an applicable collective agreement so provides, or the Minister of Labour approved it. The 8.33% full-funding rate is not in section 14; it comes from the Minister's General Authorization (אישור כללי, י\"פ תשנ\"ח 4394).",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "תשלום לקופת תגמולים, לקרן פנסיה או לקרן כיוצא באלה, לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך בהסכם הקיבוצי",
+      "fetched_at": "2026-08-29T21:41:14+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md",
+        "references/red-flag-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "section-45a-credit",
+      "claim": "Section 45a of the Income Tax Ordinance gives a 35% income-tax credit on the employee's mandatory 6% pension contribution, up to an annual ceiling of about NIS 8,148 in 2026; contributions above 7% of salary do not receive the credit. Section 47 is the related deduction for tax-favored income. סעיף 45א לפקודת מס הכנסה.",
+      "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
+      "raw_snippet": "עובד שכיר זכאי לזיכוי ממס הכנסה בשיעור 35% מתוך הסכומים שהפריש משכרו",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ]
+    },
+    {
+      "claim_id": "keren-hishtalmut-7.5-2.5",
+      "claim": "Standard keren hishtalmut (education fund) split is 7.5% employer and 2.5% employee.",
+      "source_url": "https://www.kolzchut.org.il/he/קרן_השתלמות",
+      "raw_snippet": "הסכום המקסימלי שהפריש העובד אינו עולה על 2.5% מהשכר",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md",
+        "references/red-flag-checklist.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "havra-rate-451.5-2026",
+      "claim": "Dmei havra'a (convalescence pay) for havra'a year 2026 (1.7.2025 to 30.6.2026) is 451.5 NIS/day in the private sector and 511.6 NIS/day in the public sector. The rate was updated on 18.08.2026; an employer who already paid at the old 418 NIS rate owes a 33.50 NIS completion per havra'a day. Entitlement arises only after completing 12 months of employment.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "גובה דמי ההבראה במגזר הפרטי הוא 451.5 ₪ ליום.",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/numerical-sanity-checks.md"
+      ]
+    },
+    {
+      "claim_id": "min-wage-monthly-6443.85",
+      "claim": "As of 1 April 2026 the monthly minimum wage is 6,443.85 NIS for a full-time position. Hebrew forms as they appear in SKILL_HE.md: 6,443.85 ש\"ח, 35.40 ש\"ח.",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "min-wage-hourly-35.40-34.64",
+      "claim": "Hourly minimum wage as of 1 April 2026 is 35.40 NIS/hour for a 182-hour month and 34.64 NIS/hour for a 186-hour month; the monthly 6,443.85 figure is unchanged.",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/%D7%A9%D7%9B%D7%A8%20%D7%9E%D7%99%D7%A0%D7%99%D7%9E%D7%95%D7%9D.aspx",
+      "raw_snippet": "שכר לשעה בהיקף של 186 שעות בחודש: 34.64 ש\"ח",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "notice-hourly-schedule",
+      "claim": "Advance-notice schedule for hourly/daily workers: year 1 = 1 day per month; year 2 = 14 days + 1 day per 2 months; year 3 = 21 days + 1 day per 2 months; from 3 years onward = 30 days (one month). This is a different schedule from monthly workers.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "עובד בעל ותק של עד שנה זכאי ליום הודעה מוקדמת בגין כל חודש עבודה. עובד במהלך שנת עבודתו השנייה זכאי לתקופת הודעה מוקדמת של 14 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השנייה. עובד בשנת עבודתו השלישית זכאי ל-21 יום בתוספת יום נוסף בגין כל שני חודשי עבודה בשנת עבודתו השלישית. עובד בעל ותק של 3 שנים ומעלה זכאי להודעה מוקדמת של חודש ימים.",
+      "fetched_at": "2026-06-25",
+      "appears_in": [
+        "references/hoda-at-mukdemet-table.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "notice-monthly-schedule-30",
+      "claim": "Advance-notice schedule for monthly workers: 1 day per month in months 1-6; 6 days + 2.5 days per month in months 7-12; 30 calendar days flat after one year. Days are calendar days.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "עובד בעל ותק של שנת עבודה אחת ואילך זכאי להודעה מוקדמת של חודש ימים.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/hoda-at-mukdemet-table.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "overtime-125-150-42",
+      "claim": "The Hours of Work and Rest Law sets overtime at 125% of the regular wage for the first two overtime hours of the day and 150% for each hour after that. The 42-hour standard work week comes from the March 2018 general extension order, not from the Law, whose s.3 reads 45 hours.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/5174.htm",
+      "raw_snippet": "הועסק עובד שעות נוספות, ישלם לו המעסיק בעד שתי השעות הנוספות הראשונות שבאותו יום שכר עבודה לא פחות מ-¼1 מהשכר הרגיל, ובעד כל שעה נוספת שאחריהן לא פחות מ-½1 מהשכר הרגיל",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "notice-to-employee-disclosures",
+      "claim": "The Notice to Employee Law 2002 requires the employer to disclose in writing: identity of parties, start date, role, pay components and payday, basis of pay, working hours, weekly rest day, social-benefit contributions and receiving bodies, and applicable extension orders/collective agreements.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_על_תנאי_העבודה",
+      "raw_snippet": "כל מעסיק מחויב למסור לעובד, לא יאוחר מ-30 ימים מהיום שהעובד התחיל לעבוד אצלו, הודעה בכתב המפרטת את תנאי העבודה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/notice-to-employee-disclosures.md"
+      ]
+    },
+    {
+      "claim_id": "non-compete-checkpoint",
+      "claim": "The leading Israeli non-compete precedent is Labour Court appeal 164/99 Dan Frumer and Check Point Software Technologies Ltd v. Radguard Ltd. A signed non-compete is not enough on its own: the employer must identify a genuine protectable trade secret and the restriction must be reasonable in time, place and type of activity.",
+      "source_url": "https://he.afiklaw.com/caselaw/2573",
+      "raw_snippet": "ע\"ע 164/99 פרומר וצ'ק פוינט – רדגארד בע\"מ, פ\"ד לד(1999) 294",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ]
+    },
+    {
+      "claim_id": "section-14-example-math",
+      "claim": "Illustrative worked example in the Section 14 guide, computed from the verified 8.33% severance rate rather than quoted from a source: a NIS 20,000 base gives 8.33% = NIS 1,666 per month, and 60 months of the difference on a NIS 5,000 allowance gives NIS 24,990. The figures are arithmetic on the 8.33% rate, not published amounts.",
+      "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק בתנאי שהמעסיק הפריש את מלוא פיצויי הפיטורים - 8.33% מדי חודש.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md"
+      ]
+    },
+    {
+      "claim_id": "salary-clarity-example",
+      "claim": "Placeholder figure only: the negotiation-language file uses a NIS 15,000 gross monthly salary to illustrate brutto/netto clarity. It is not a published amount and carries no legal significance; substitute the employee's own salary.",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md"
+      ]
+    },
+    {
+      "claim_id": "non-compete-comp-100-discretionary-bonus",
+      "claim": "Negotiating proposals, not statutory entitlements: the template offers compensation equal to 100% of the last monthly gross salary during a non-compete restriction, and a 50% guaranteed baseline on a discretionary bonus. Israeli case law treats compensation paid for a restriction as a factor making a court MORE willing to enforce it, which is why the file states the trade-off.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_הגבלת_עובד_לעבוד_אצל_מעסיק_אחר_לאחר_סיום_עבודתו_%28הסכם_אי_תחרות%29",
+      "raw_snippet": "עבור התחייבות מצדו שלא להתחרות בעתיד במעסיק הנוכחי בתום יחסי עובד-מעביד, ייטה בית הדין לעבודה לאשר את הסעיף המגביל את העובד",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/standard-negotiation-language.md"
+      ]
+    },
+    {
+      "claim_id": "url-wikipedia-prior-notice",
+      "claim": "Reference link: the Prior Notice of Dismissal and Resignation Law 5761-2001 requires an employer who wishes to dismiss an employee to give prior notice, and an employee who wishes to resign to give prior notice, in writing.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71704.htm",
+      "raw_snippet": "מעסיק המבקש לפטר עובד ייתן לו הודעה מוקדמת לפיטורים, לפי הוראות חוק זה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-btl-salaried-rates",
+      "claim": "Bituach Leumi (National Insurance Institute) page listing contribution rates for salaried workers.",
+      "source_url": "https://www.btl.gov.il/English%20Homepage/Insurance/Ratesandamount/Pages/forSalaried.aspx",
+      "raw_snippet": "Rates of national and health insurance contributions for salaried workers aged 18 up to retirement age, as percentages of wage (as of Jan 01, 2026)",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-havra",
+      "claim": "Kolzchut page on dmei havra'a (convalescence pay) rates and entitlement; private sector 451.5 NIS/day and public sector 511.6 NIS/day.",
+      "source_url": "https://www.kolzchut.org.il/he/דמי_הבראה",
+      "raw_snippet": "גובה דמי ההבראה במגזר הציבורי הוא 511.6 ₪ ליום.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-prior-notice",
+      "claim": "Kolzchut page on advance notice for dismissal, including the hourly and monthly schedules.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "תקופת ההודעה המוקדמת נקבעת בהתאם לוותק שנצבר במקום העבודה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/hoda-at-mukdemet-table.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-notice-to-employee",
+      "claim": "Kolzchut page on the Notice on Employment Conditions (mandatory written disclosures).",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_על_תנאי_העבודה",
+      "raw_snippet": "מעסיק מחויב למסור לעובד הודעה בכתב על תנאי העסקתו לא יאוחר מחודש ימים מתחילת העבודה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/notice-to-employee-disclosures.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-45a",
+      "claim": "Kolzchut page on the Section 45a income-tax credit for pension contributions.",
+      "source_url": "https://www.kolzchut.org.il/he/זיכוי_ממס_הכנסה_בגין_הפרשות_לביטוח_פנסיוני",
+      "raw_snippet": "עובד שמשכרו נוכו סכומים לצורך הפרשת חלקו של העובד ל ביטוח פנסיוני , זכאי לזיכוי ממס הכנסה בשיעור 35% עבור הסכומים שהפריש.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-pension-obligation",
+      "claim": "Kolzchut page on the mandatory pension insurance obligation for employees.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "החל ממשכורת ינואר 2017, שיעור ההפרשות הוא 18.5%, מתוכן 6% על חשבון העובד והיתר על חשבון המעסיק",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-section-14",
+      "claim": "Kolzchut page on Section 14 of the Severance Pay Law.",
+      "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק אם המעסיק הפריש מדי חודש לקופת הפיצויים 8.33% משכר העובד.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md"
+      ]
+    },
+    {
+      "claim_id": "url-kolzchut-min-wage",
+      "claim": "Kolzchut page on minimum wage.",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_מינימום",
+      "raw_snippet": "החל מיום 01.04.2026 שכר המינימום הוא 6,443.85 ₪ לחודש למשרה מלאה ו-35.40 ₪ לשעה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-nevo-prior-notice",
+      "claim": "Nevo legal database: full text of the Prior Notice of Dismissal and Resignation Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71704.htm",
+      "raw_snippet": "מעסיק המבקש לפטר עובד ייתן לו הודעה מוקדמת לפיטורים, לפי הוראות חוק זה.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-nevo-general-authorization",
+      "claim": "Nevo legal database: text of the General Authorization under Section 14.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/insurance-fund-instead-of-severance-pay/he/workers-rights_dismissal-and-termination-of-work_insurance-fund-instead-of-severance-pay_procedures_insurance-fund-instead-of-severance-pay.pdf",
+      "raw_snippet": "אישור כללי בדבר תשלומי מעבידים לקרן פנסיה ולקופת ביטוח במקום פיצויי פיטורים",
+      "fetched_at": "2026-06-25",
+      "appears_in": [
+        "references/section-14-trap-guide.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09T00:00:00Z",
+      "source_note": "gov.il PDF of the General Authorization under Section 14, linked from the Kol Zchut Section 14 page. The previous nevo.co.il URL (law01/055_001.htm) was a WRONG citation: that page is Court Regulations on case routing, not the General Authorization."
+    },
+    {
+      "claim_id": "illegal-deductions-s25-25pct",
+      "claim": "Under the Wage Protection Law 1958, Section 25, the only lawful deductions from wages are mandatory tax/BTL/health, pension and provident-fund contributions, union dues, and a debt the employee authorized in writing capped at one quarter (25%) of wages. Penalties/fines, training-cost clawbacks, equipment-loss, and cash-register shortfalls deducted from pay are void, even with employee consent. Any deduction not expressly permitted by law is prohibited. Section 25(b) is an exception: when an employee ceases work the employer may deduct the entire outstanding debt, including advances, from the final wage, with no quarter cap.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71689.htm",
+      "raw_snippet": "(6) חוב על פי התחייבות בכתב מהעובד למעסיק, בתנאי שלא ינוכה על חשבון חוב כאמור יותר מרבע שכר העבודה;",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "women-employment-law-heter",
+      "claim": "Employment of Women Law 5714-1954 s.9 requires a Ministry of Labour permit to dismiss a pregnant employee who has worked at least six months for the same employer or workplace; the separate s.9A requires a permit to reduce her job scope or income. סעיף 9 ו-סעיף 9א לחוק עבודת נשים.",
+      "source_url": "https://www.kolzchut.org.il/he/איסור_פיטורי_עובדת_בהיריון",
+      "raw_snippet": "אם העובדת מועסקת לפחות 6 חודשים אצל אותו מעסיק או באותו מקום עבודה, אסור לפטר אותה מכל סיבה שהיא אלא אם ניתן היתר מאת הממונה על חוק עבודת נשים",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "payslip-amendment-24",
+      "claim": "Under the Wage Protection Law (Amendment 24, 2008) the employer must issue every employee a monthly detailed payslip (tlush sachar) listing all pay components and deductions. A contract implying cash pay or omitting any payslip obligation is a red flag because no payslip enables hidden illegal deductions and unreported pension/BTL.",
+      "source_url": "https://www.kolzchut.org.il/he/תלוש_שכר",
+      "raw_snippet": "מעסיק מחויב למסור לעובדיו תלוש שכר עם פרטי השכר ששילם להם, לכל המאוחר ביום התשיעי שלאחר המועד שבו עליו לשלם את השכר",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "annual-leave-12-days",
+      "claim": "Annual Leave Law 1951 s.3(a) sets the leave in GROSS days: 16 for each of the first 5 years, 18 for year 6, 21 for year 7, and one further day per year from year 8 up to a maximum of 28. On a 5-day week this is 12 net working days for years 1 to 5.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71906.htm",
+      "raw_snippet": "אורך החופשה 3. (א) אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: (1) בעד כל אחת מ-5 השנים הראשונות – 16 יום; (2) (נמחקה) (3) בעד השנה השישית – 18 יום; (4) בעד השנה השביעית – 21 יום; (5) בעד השנה השמינית ואילך – יום נוסף לכל שנת עבודה עד לחופשה של 28 יום",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md",
+        "references/numerical-sanity-checks.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "sick-leave-1.5-18",
+      "claim": "Sick Pay Law 1976 s.4(a): sick-leave entitlement accrues at one and a half days per full month worked, up to a cumulative maximum of 90 days. There is no 18-day annual cap. Under s.2(a) the first day is unpaid, days two and three are paid at half, and s.5(a) pays the fourth day onward in full.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
+      "raw_snippet": "תקופת הזכאות לדמי מחלה לא תעלה על תקופה מצטברת של יום וחצי לכל חודש עבודה מלא",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/numerical-sanity-checks.md",
+        "scripts/contract_sanity_check.py"
+      ]
+    },
+    {
+      "claim_id": "patents-service-inventions-132-134",
+      "claim": "Under the Patents Law 5727-1967, a service invention (Section 132) - an invention an employee arrives at by virtue of and during their service - belongs to the employer absent a contrary agreement; Sections 133-134 govern notice and the employee's right to compensation determined by the statutory committee. 'All inventions ever' assignment clauses should be narrowed to service inventions under Sections 132-134.",
+      "source_url": "https://www.osegal-law.co.il/המצאת-שירות",
+      "raw_snippet": "סעיף 134 לחוק הפטנטים קובע כי אם אין הסכם בין העובד למעביד הקובע אם העובד זכאי לתמורה בעד אמצאתו, באפשרות העובד לפנות לוועדה לענייני פיצויים ותמלוגים מכוח חוק הפטנטים והיא תכריע בעניין.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md",
+        "references/standard-negotiation-language.md"
+      ]
+    },
+    {
+      "claim_id": "keren-hishtalmut-employer-7.5",
+      "claim": "The employer contribution to a keren hishtalmut is capped at 7.5% of the determining wage for the tax benefit (7.5%).",
+      "source_url": "https://www.kolzchut.org.il/he/קרן_השתלמות",
+      "raw_snippet": "הפרשות המעסיק לא עולות על 7.5% מהשכר הקובע",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "notice-under-one-year",
+      "claim": "An employee with less than one year of seniority is entitled to one day of notice for each of the first 6 months and 2.5 days for each further full month.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "עובד בעל ותק של פחות משנת עבודה זכאי ליום הודעה מוקדמת בגין כל אחד מ-6 חודשי העבודה הראשונים, ויומיים וחצי בגין כל חודש עבודה מלא נוסף",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "overtime-150-third-hour",
+      "claim": "From the third overtime hour onward the rate is 150% of the regular hourly wage.",
+      "source_url": "https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "תשלום של 150% (כלומר תוספת של 50% על ערך שעת עבודה רגילה) מהשעה השלישית ואילך.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "workweek-42-hours",
+      "claim": "The 42-hour work week comes from the general extension order of March 2018, not from the statute: Hours of Work and Rest Law s.3 sets 45 hours a week and s.2 caps the working day at 8 hours (7 on night work and the day before a rest day or holiday).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/5174.htm",
+      "raw_snippet": "יום עבודה 2. (א) יום עבודה לא יעלה על שמונה שעות עבודה. (ב) בעבודת לילה וביום שלפני המנוחה השבועית וביום שלפני חג שהעובד אינו עובד בו, בין על פי חוק ובין על פי הסכם או נוהג, לא יעלה יום עבודה על שבע שעות עבודה. שבוע עבודה 3. שבוע עבודה לא יעלה על ארבעים וחמש שעות עבודה.",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/red-flag-checklist.md",
+        "references/high-value-clause-traps.md"
+      ]
+    },
+    {
+      "claim_id": "wage-protection-law-section-25",
+      "claim": "The lawful deductions from wages are a closed list under the Wage Protection Law, 1958, section 25 (סעיף 25).",
+      "source_url": "https://www.kolzchut.org.il/he/ניכויים_משכר_העובד",
+      "raw_snippet": "חוק הגנת השכר - סעיפים 19א(א), 25, 25א'.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pension-ceiling-average-wage-13769",
+      "claim": "Mandatory pension contributions are computed on the LOWER of the employee's base gross salary or the average wage in the economy, which is 13,769 NIS per month as of 2026, unless the employment agreement sets a higher determining wage.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "ההפרשות מחושבות מתוך השכר הקובע שהוא השכר ברוטו (כולל תוספות קבועות, השכר ללא שעות נוספות וללא תשלומים המותנים בתנאים מסוימים, ולפני הניכויים השונים ) של העובד או מתוך השכר הממוצע במשק (13,769 ₪ נכון ל-2026), לפי הנמוך מבין השניים",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/numerical-sanity-checks.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "keren-hishtalmut-ceiling-15712",
+      "claim": "The monthly salary ceiling for tax-exempt keren hishtalmut contributions for a salaried employee is 15,712 NIS in 2026. Employer contributions above the ceiling are taxable to the employee in the month of deposit.",
+      "source_url": "https://www.mygemel.net/blog/תקרות-הפקדה-ותקרות-מס-עיקריים-עדכניים/",
+      "raw_snippet": "תקרת שכר חודשית עבור הפקדה לקרן השתלמות: 15,712 ש\"ח",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/numerical-sanity-checks.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "severance-s9-fixed-term",
+      "claim": "Section 9 of the Severance Pay Law: where an employee is employed under a fixed-term contract and the term ends, the employee is deemed dismissed unless the employer offered to renew; refusal of a renewal offer is treated as resignation. Section 9(b) requires the renewal offer to be delivered at least three months before the term ends. סעיף 9 ו-סעיף 9(ב) לחוק פיצויי פיטורים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "אי חידוש חוזה עבודה 9. (א) היה עובד מועסק על פי חוזה לתקופה קצובה והגיעה התקופה לקצה, רואים אותו לענין חוק זה כאילו פוטר, זולת אם הציע לו המעסיק לחדש את החוזה; סירב העובד לחדש את החוזה – רואים אותו, לענין חוק זה, כאילו התפטר. (ב) הצעת המעסיק לחדש את החוזה כאמור בסעיף קטן (א) צריך שתימסר לעובד לפחות שלושה חדשים לפני תום תקופת החוזה.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "severance-s3-presumption",
+      "claim": "Section 3 of the Severance Pay Law: dismissal shortly before the end of the first year of employment is presumed, unless the contrary is proved, to have been made in order to avoid the duty to pay severance, and such dismissal does not defeat the right to severance. סעיף 3 לחוק פיצויי פיטורים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "אימתי פיטורים אינם פוגעים בזכויות 3. פיטורים סמוך לפני סוף שנת עבודה ראשונה, יראו אותם – אם לא הוכח היפוכו של דבר – כאילו נעשו מתוך כוונה להימנע מחובת תשלום פיצויי פיטורים ואין פיטורים כאלה פוגעים בזכות הפיצויים.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "severance-s11a-hara-muchashit",
+      "claim": "Severance Pay Law s.11(a): an employee who resigns because of a material worsening of the conditions of employment, or because of other employment-relations circumstances in which the employee cannot be required to continue working, is treated as dismissed and is entitled to severance. סעיף 11(א) לחוק פיצויי פיטורים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "התפטרות אחרת שדינה כפיטורים 11. (א) התפטר עובד מחמת הרעה מוחשית בתנאי העבודה, או מחמת נסיבות אחרות שביחסי עבודה לגבי אותו העובד שבהן אין לדרוש ממנו כי ימשיך בעבודתו, רואים את ההתפטרות לענין חוק זה כפיטורים.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "severance-s16-s17-forfeiture",
+      "claim": "Severance may be denied or reduced only under Severance Pay Law ss.16 and 17: s.16 where a collective agreement treats the dismissal circumstances as justifying no or partial severance, and s.17 where, in a sector with no collective agreement, the regional labour court so determines. סעיף 16 ו-סעיף 17 לחוק פיצויי פיטורים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "פיטורים ללא פיצויים מכוח פסק דין 17. בענף העבודה שאין בו הסכם קיבוצי, רשאי בית הדין האזורי לעבודה לקבוע שפיטוריו של עובד היו בנסיבות המצדיקות פיטורים ללא פיצויים או בפיצויים חלקיים שיקבע",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "hours-law-s30a5-trust",
+      "claim": "Section 30(a)(5) of the Hours of Work and Rest Law: the law does not apply to employees in management positions or in positions requiring a special degree of personal trust, and Section 30(a)(6) excludes employees whose conditions and circumstances make supervision of their hours impossible. סעיף 30(א)(5) לחוק שעות עבודה ומנוחה.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/5174.htm",
+      "raw_snippet": "תחולת החוק 30. (א) חוק זה אינו חל על העסקתם של: (1) שוטרים במשטרת ישראל, וכן כל מי שנמנה עם שירות בתי הסוהר; (2) עובדי המדינה שתפקידם מחייבם לעמוד לרשות העבודה גם מחוץ לשעות העבודה הרגילות; (3) יורדי ים ועובדי דיג; (4) אנשי צוות אויר; (5) עובדים בתפקידי הנהלה או בתפקידים הדורשים מידה מיוחדת של אמון אישי; (6) עובדים שתנאי עבודתם ונסיבותיה אינם מאפשרים למעסיק כל פיקוח על שעות העבודה והמנוחה שלהם.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "miluim-s41a-dismissal-ban",
+      "claim": "Discharged Soldiers (Return to Work) Law s.41A(a1): an employer may not dismiss an employee because of reserve service, a call-up to reserve service, or expected reserve service, including because of its frequency or duration, and a dismissal in breach of this is void. s.41A(b) requires a permit for dismissal or for harming the employee's job scope or income. סעיף 41א לחוק החיילים המשוחררים (החזרה לעבודה).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71925.htm",
+      "raw_snippet": "זכויות עובד המשרת במילואים 41א. (א) היעדרותו של עובד מעבודתו, לרגל שירות מילואים, לא תיראה כהפסקה ברציפות עבודתו במפעל. (א1) לא יפטר בעל מפעל עובד בשל שירותו במילואים, קריאתו לשירות מילואים או שירותו הצפוי בשירות מילואים, לרבות בשל תדירותו או משכו (בחוק זה – פיטורים בשל שירות מילואים), ואם פיטרו – בטלים הפיטורים.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "section-102-capital-gains-25",
+      "claim": "Under Section 102 of the Income Tax Ordinance, the capital-gains track with a trustee taxes the benefit at a flat 25%, and the trustee must hold the options or the shares issued on their exercise for a blocking period of at least two years. Outside that track the benefit is ordinary employment income at the employee's marginal rate. סעיף 102 לפקודת מס הכנסה.",
+      "source_url": "https://www.shibolet.com/מיסוי-אופציות-לעובדים-היזהרו-מתקלות/",
+      "raw_snippet": "ההכנסה הנובעת מאותן אופציות תתחייב במס רווח הון בשיעור של 25% בלבד",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "labour-court-law-s24-jurisdiction",
+      "claim": "Section 24 of the Labour Court Law 5729-1969 gives the regional labour court exclusive subject-matter jurisdiction over employment disputes as between Israeli courts. It is not a general rule voiding arbitration agreements. סעיף 24 לחוק בית הדין לעבודה התשכ\"ט-1969.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בית_הדין_לעבודה",
+      "raw_snippet": "(א) לבית דין אזורי תהא סמכות ייחודית לדון – (1) בתובענות בין עובד או חליפו למעסיק או חליפו שעילתן ביחסי עבודה, לרבות השאלה בדבר עצם קיום יחסי עבודה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "mashkoret-kovaat-1964-regs",
+      "claim": "Section 13 of the Severance Pay Law empowers the Minister of Labour to prescribe by regulation which wage components enter the wage used to compute severance. Those components are set by the Severance Pay (Calculation of Compensation) Regulations 5724-1964; confirm the current list of components against the regulations themselves before quoting it to a user.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "חישוב שכר עבודה 13. שר העבודה, באישור ועדת העבודה של הכנסת, יקבע בתקנות, דרך כלל או לסוגים, את הרכיבים של שכר העבודה הכולל שיובאו בחשבון שכר העבודה לענין פיצויי פיטורים",
+      "appears_in": [
+        "references/high-value-clause-traps.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "notice-to-employee-30-days",
+      "claim": "The Notice to Employee and Job Candidate Law 5762-2002 s.1 requires the employer to give the written notice no later than 30 days after the employee starts work, or 7 days if the employee is a minor, and the same deadlines apply under s.3 to a notice of a change in a term.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_על_תנאי_העבודה",
+      "raw_snippet": "כל מעסיק מחויב למסור לעובד, לא יאוחר מ-30 ימים מהיום שהעובד התחיל לעבוד אצלו, הודעה בכתב המפרטת את תנאי העבודה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/notice-to-employee-disclosures.md"
+      ],
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00"
+    },
+    {
+      "claim_id": "wage-protection-s25b-final-wage",
+      "claim": "Section 25(b) of the Wage Protection Law: when an employee ceases to work for the employer, the employer may deduct from the employee's final wage the whole outstanding balance of any debt the employee owes, including advances, without the quarter-of-wage cap.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71689.htm",
+      "raw_snippet": "חדל עובד לעבוד אצל המעסיק, רשאי המעסיק לנכות משכרו האחרון של עובד כל יתרה של חוב שהעובד חייב לו, לרבות מקדמות.",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "section-102-trustee-two-years",
+      "claim": "Under the Section 102 capital-gains track the trustee must hold the options, or the shares issued on their exercise, for a blocking period of at least two years.",
+      "source_url": "https://www.shibolet.com/מיסוי-אופציות-לעובדים-היזהרו-מתקלות/",
+      "raw_snippet": "הנאמן צריך להחזיק באופציות (או המניות שימומשו תחתן) לתקופת חסימה של שנתיים לפחות ממועד ההקצאה",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ]
+    },
+    {
+      "claim_id": "severance-s16-collective",
+      "claim": "Section 16 of the Severance Pay Law: an employee is not entitled to severance, or is entitled only to partial severance, if dismissed in circumstances that under the applicable collective agreement justify dismissal without or with partial severance. סעיף 16 לחוק פיצויי פיטורים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4566.htm",
+      "raw_snippet": "פיטורים ללא פיצויים מכוח הסכם קיבוצי 16. לא יהיה עובד זכאי לפיצויים או יהיה זכאי לפיצויים חלקיים בלבד, הכל לפי הענין, אם פוטר בנסיבות, שעל פי הסכם קיבוצי החל על המעסיק והעובד",
+      "fetched_at": "2026-08-26T13:24:38.171611+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/high-value-clause-traps.md"
+      ]
+    },
+    {
+      "claim_id": "illustrative-example-figures",
+      "claim": "Illustrative figures used only inside worked examples and troubleshooting rows, computed from the verified statutory rates rather than quoted from any source: a 12,000 NIS base with a 4,000 NIS fixed allowance in the Section 14 example, a 20,000 NIS monthly salary over 5 years giving 100,000 NIS of severance in the Section 14 guide (20,000 x 5), a 12,000 NIS salary in the gross/net troubleshooting row, and a 20% bonus component in the discretionary-bonus gotcha. None of these is a published amount or a legal threshold; they exist to make the mechanism concrete.",
+      "source_url": "https://www.kolzchut.org.il/he/סעיף_14_לחוק_פיצויי_פיטורים",
+      "raw_snippet": "ההפרשות יהוו תחליף למלוא סכום הפיצויים רק בתנאי שהמעסיק הפריש את מלוא פיצויי הפיטורים - 8.33% מדי חודש.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/section-14-trap-guide.md"
+      ]
+    },
+    {
+      "claim_id": "travel-reimbursement-22.60",
+      "claim": "Every employee who needs transport to get to work is entitled to a travel reimbursement for each working day, at the discounted bus fare up to a daily ceiling of 22.60 NIS, or the cost of a monthly regional or national pass, whichever is cheaper. The entitlement applies at any job scope.",
+      "source_url": "https://www.kolzchut.org.il/he/החזר_הוצאות_נסיעה",
+      "raw_snippet": "עובד בכל היקף משרה זכאי להחזר הוצאות נסיעה עבור כל יום שבו הוא נזקק לשימוש בתחבורה כדי להגיע למקום עבודתו, פרט לימים שבהם השתמש בהסעות מטעם המעסיק.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pension-non-fund-disability-5-7.5",
+      "claim": "Where the pension contributions go to a product that is NOT a pension fund, the employer's share must also buy disability cover sufficient to insure 75% of the determining wage; the employer's tagmulim component alone may not fall below 5% of the determining wage; and the employer's combined cost of the disability cover plus tagmulim is capped at 7.5% of the wage.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "בכל מקרה שיעור הפרשות המעסיק לחלק התגמולים לבדו (בלי רכיב אובדן כושר עבודה) לא יפחת מ-5% מהשכר הקובע.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pension-employee-choice-of-product",
+      "claim": "The employee is entitled to choose the type of pension insurance (pension fund, provident fund or managers' insurance) and also the specific institution to which the money is transferred and by which the pension insurance is managed.",
+      "source_url": "https://www.kolzchut.org.il/he/חובת_ביטוח_פנסיוני_לעובדים",
+      "raw_snippet": "העובד זכאי לבחור את הגוף הספציפי שאליו יופרשו הכספים ושבו ינוהל הביטוח הפנסיוני.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "notice-vacation-overlap-14-days",
+      "claim": "An employer may not force an employee to consume accrued annual leave during the advance-notice period unless it does so in good faith and for genuine operational reasons, and in any case at least 14 days of the notice period must not be used as vacation. The employer may instead waive actual work and pay chalef hoda'a mukdemet, which ends the employment relationship immediately.",
+      "source_url": "https://www.kolzchut.org.il/he/הודעה_מוקדמת_לפיטורים",
+      "raw_snippet": "למעסיק אסור לכפות על עובד לנצל את ימי החופשה שצבר במהלך תקופת ההודעה המוקדמת, אלא אם זה נעשה בתום לב ומשיקולים של צרכי העבודה, ובתנאי שלפחות 14 ימים מתוך תקופת ההודעה המוקדמת לא ינוצלו לחופשה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "sick-pay-s4a-dismissal-bar",
+      "claim": "Section 4A of the Sick Pay Law bars an employer from dismissing an employee who is absent because of illness, during the sick-pay entitlement period accrued under the Law or a collective agreement, up to the maximum entitlement under s.4. Section 4A(b) sets exceptions, including where advance notice was given under the Prior Notice Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71572.htm",
+      "raw_snippet": "פיטורים בתקופת הזכאות לדמי מחלה 4א. (א) מעסיק לא יפטר עובד שנעדר מעבודתו עקב מחלתו, במהלך תקופת הזכאות לדמי מחלה הצבורה לו לפי חוק זה או לפי הסכם קיבוצי, וזאת עד לתקופת הזכאות המקסימלית לפי סעיף 4.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "wage-protection-s25b-undisputed",
+      "claim": "The final-wage deduction under s.25(b) is available only where the debt is not in dispute.",
+      "source_url": "https://www.kolzchut.org.il/he/ניכויים_משכר_העובד",
+      "raw_snippet": "רשאי המעסיק לנכות משכרו האחרון של עובד כל יתרה של חוב שהעובד חייב לו ובלבד שהחוב אינו שנוי במחלוקת",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chronology Builder"
+  short_description: "Build sourced litigation chronologies"
+  default_prompt: "Use $chronology-builder to build a dated, source-linked chronology that separates event, document, filing, and knowledge dates and flags conflicts and gaps."

@@ -1,0 +1,376 @@
+{
+  "skill_slug": "israeli-freelancer-service-agreement",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-15T10:57:09Z",
+  "claims": [
+    {
+      "id": "osek-patur-threshold-2026",
+      "claim": "The עוסק פטור (VAT-exempt dealer) annual turnover threshold for 2026 is 122,833 ₪. Above it the provider must register as עוסק מורשה and charge VAT.",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%A4%D7%98%D7%95%D7%A8",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "רק מי שמחזור ההכנסות השנתי שלו מהעסק (לא הרווח) אינו עולה על 122,833 ₪ (נכון לשנת 2026) רשאי להיות עוסק פטור",
+      "confidence": "high"
+    },
+    {
+      "id": "osek-patur-annual-report",
+      "claim": "An עוסק פטור must declare its turnover to VAT authorities once a year, by 31 January, for the prior tax year.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%A4%D7%98%D7%95%D7%A8",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "עוסק פטור חייב להצהיר למע\"מ עד ל-31 בינואר בכל שנה על מחזור עסקאותיו בשנת המס שחלפה",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-tashlumim-law",
+      "claim": "חוק מוסר תשלומים לספקים, התשע\"ז-2017 regulates payment timing to suppliers for goods, services, or work.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "חוק מוסר תשלומים לספקים, תשע\"ז-2017",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-tashlumim-default-period",
+      "claim": "Under סעיף 3 of חוק מוסר תשלומים לספקים, when a business client orders a service and the contract is silent on timing, the statutory default payment date is no later than 45 days from the end of the month in which the invoice was submitted (שוטף+45).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "מזמין שהוא עסק שהתקשר עם ספק בחוזה לביצוע עסקה, ישלם לספק את התמורה בעד העסקה לא יאוחר מ-45 ימים מתום החודש שבו הומצא לו החשבון",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-tashlumim-interest",
+      "claim": "Consideration not paid by the due date accrues shekel interest, and after a further 30 days דמי פיגורים, per חוק פסיקת ריבית והצמדה. NOTE the סעיף 4 restriction: for a budgeted-body or private-business client this remedy applies only where that client had superior power in shaping the contract terms.",
+      "claim_type": "feature",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "תמורה הקבועה בחשבון שלא שולמה עד המועד לתשלום החשבון כמשמעותו בסעיף 3, תשולם לספק בתוספת ריבית שקלית",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-law-2007",
+      "claim": "חוק זכות יוצרים, התשס\"ח-2007 governs copyright ownership in Israel, including commissioned works.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "חוק זכות יוצרים, התשס\"ח-2007",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-commissioned-default-creator",
+      "claim": "Under סעיף 35 of חוק זכות יוצרים 2007, for a commissioned work the default first owner is the CREATOR (the freelancer). That default is displaced where the commissioner and creator agreed otherwise EXPRESSLY OR BY IMPLICATION (במפורש או במשתמע), so silence does not protect the freelancer and a client may argue an implied transfer from the commercial context.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "ביצירה שנוצרה לפי הזמנה, הבעלים הראשון של זכות היוצרים בה, כולה או חלקה, הוא היוצר, אלא אם כן הוסכם אחרת בין המזמין והיוצר, במפורש או במשתמע.",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-commissioned-portrait-exception",
+      "claim": "Under סעיף 35 (35(ב)), for a commissioned portrait or photograph of a family/private event, the default first owner is the commissioner, unless otherwise agreed.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "ביצירה שהיא דיוקן או צילום של אירוע משפחתי או של אירוע פרטי אחר, שנוצרה לפי הזמנה, הבעלים הראשון של זכות היוצרים בה הוא המזמין, אלא אם כן הוסכם אחרת.",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-employee-work-default",
+      "claim": "Under סעיף 34, the employer is the first owner of copyright in a work created by its employee for and during the employment, unless otherwise agreed (contrast with the commissioned-work rule for contractors).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "מעביד הוא הבעלים הראשון של זכות היוצרים ביצירה שנוצרה על ידי עובדו לצורך עבודתו ובמהלכה, אלא אם כן הוסכם אחרת.",
+      "confidence": "high"
+    },
+    {
+      "id": "mixed-test-integration",
+      "claim": "Israeli courts determine employee status via the מבחן מעורב (mixed test), whose dominant component is the מבחן ההשתלבות (integration test), with several secondary tests (control, personal performance, tools, economic dependence, exclusivity).",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%A7%D7%99%D7%95%D7%9E%D7%9D_%D7%A9%D7%9C_%D7%99%D7%97%D7%A1%D7%99_%D7%A2%D7%95%D7%91%D7%93-%D7%9E%D7%A2%D7%A1%D7%99%D7%A7",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "מבחן ההשתלבות בודק את מידת ההשתלבות של העובד במקום העבודה",
+      "confidence": "high"
+    },
+    {
+      "id": "retroactive-recognition-contract-label",
+      "claim": "A worker defined in the contract as an independent contractor may sue for retroactive recognition (הכרה בדיעבד) of an employer-employee relationship; the contractual label is evidential but not determinative.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A7%D7%91%D7%99%D7%A2%D7%AA_%D7%A7%D7%99%D7%95%D7%9E%D7%9D_%D7%A9%D7%9C_%D7%99%D7%97%D7%A1%D7%99_%D7%A2%D7%95%D7%91%D7%93-%D7%9E%D7%A2%D7%A1%D7%99%D7%A7",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "עובד אשר על פי הסכם העבודה הוגדר קבלן עצמאי רשאי לתבוע הכרה בדיעבד ביחסי עובד-מעסיק",
+      "confidence": "high"
+    },
+    {
+      "id": "retroactive-recognition-rights",
+      "claim": "On retroactive recognition, the worker is entitled to social rights: severance pay, pension contributions, vacation, sick leave, holidays, and recuperation allowance (הבראה).",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9B%D7%A8%D7%94_%D7%91%D7%93%D7%99%D7%A2%D7%91%D7%93_%D7%91%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%94%D7%95%D7%A2%D7%A1%D7%A7_%D7%9B%D7%A2%D7%A6%D7%9E%D7%90%D7%99",
+      "source_fetched_at": "2026-06-18",
+      "raw_snippet": "פיצויי פיטורים, הפרשות לביטוח פנסיוני, חופשה, מחלה, חגים, דמי הבראה",
+      "confidence": "high"
+    },
+    {
+      "id": "reclassification-leading-case-eisik",
+      "claim": "Where a court retroactively recognises an employer-employee relationship, the employer may set off the excess it paid the worker as an 'independent contractor' against the social rights now owed. The leading authority is ע\"ע 300256/98 אורי אייזיק נ' תה\"ל.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%9B%D7%A8%D7%94_%D7%91%D7%93%D7%99%D7%A2%D7%91%D7%93_%D7%91%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%94%D7%95%D7%A2%D7%A1%D7%A7_%D7%9B%D7%A2%D7%A6%D7%9E%D7%90%D7%99",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "ניתן לקזז מהעובד את הסכומים להם הוא זכאי כתוצאה מההכרה בדיעבד במעמדו כעובד",
+      "confidence": "high"
+    },
+    {
+      "id": "noncompete-checkpoint-case",
+      "claim": "ע\"ע 164/99 פרומר וצ'ק פוינט נ' רדגארד בע\"מ is the leading authority holding that a bare non-compete clause is not enforceable; it is enforced only where a legitimate interest (chiefly a trade secret / סוד מסחרי) and reasonableness in scope, time and geography exist.",
+      "claim_type": "company",
+      "source_url": "https://he.afiklaw.com/caselaw/2573",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "אין ליתן תוקף לתניית הגבלת עיסוק בחוזה עבודה אלא אם כן מתקיימת אחת מהנסיבות",
+      "confidence": "high"
+    },
+    {
+      "id": "professional-liability-insurance",
+      "claim": "Professional liability insurance (ביטוח אחריות מקצועית) provides cover for professional negligence, errors and omissions, breach of the duty of confidentiality, and loss of documents, and covers legal costs, awarded damages and settlements. For a number of regulated professions it is a legal requirement.",
+      "claim_type": "feature",
+      "source_url": "https://www.bizreviews.co.il/article/professional-liability-insurance-guide",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "הביטוח מספק כיסוי במקרים של רשלנות מקצועית, טעויות והשמטות, הפרת חובת הסודיות, ואובדן מסמכים",
+      "confidence": "medium"
+    },
+    {
+      "id": "copyright-moral-rights-software-excluded",
+      "claim": "Under סעיף 45 of חוק זכות יוצרים 2007 the moral right attaches to artistic, dramatic, musical and literary works BUT COMPUTER SOFTWARE IS EXPRESSLY EXCLUDED (למעט תוכנת מחשב); a typeface is also partly carved out. A moral-rights clause in a pure software contract is therefore inert.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "ליוצר של יצירה אמנותית, יצירה דרמטית, יצירה מוסיקלית או יצירה ספרותית, למעט תוכנת מחשב, שיש בה זכות יוצרים, תהיה ביחס ליצירתו זכות מוסרית",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-moral-rights-nonassignable",
+      "claim": "The moral right is personal and non-assignable, and survives an assignment of the economic copyright.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "הזכות המוסרית היא אישית ואינה ניתנת להעברה, והיא תעמוד ליוצר אף אם אין לו ביצירה זכות יוצרים או אם העביר את זכות היוצרים ביצירה, כולה או חלקה, לאחר.",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-moral-integrity-reasonableness",
+      "claim": "Under סעיף 50 an act impairing the integrity limb of the moral right is NOT an infringement where the act was reasonable in the circumstances; the court weighs among other factors whether the work was created by an employee or ON COMMISSION. There is no general statutory waiver of moral rights, so drafts should use consent to specified modifications plus an attribution arrangement.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "עשיית פעולה ביצירה הפוגעת בזכות המוסרית האמורה בסעיף 46(2) אינה מהווה הפרה של הזכות האמורה, אם הפעולה היתה סבירה בנסיבות העניין",
+      "confidence": "high"
+    },
+    {
+      "id": "copyright-assignment-in-writing",
+      "claim": "Under סעיף 37 a contract assigning copyright, or granting an exclusive licence, requires a written document.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "חוזה להעברת זכות יוצרים או למתן רישיון ייחודי לגביה, טעון מסמך בכתב.",
+      "confidence": "high"
+    },
+    {
+      "id": "kablanut-law-definition",
+      "claim": "חוק חוזה קבלנות, תשל\"ד-1974 סעיף 1 defines a חוזה קבלנות as a contract for performing work or providing a service for payment where the contractor is not the client's employee. This is the governing statute for a freelancer service agreement.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "חוזה קבלנות הוא חוזה לעשיית מלאכה או למתן שירות בשכר כשהקבלן אינו עובדו של המזמין.",
+      "confidence": "high"
+    },
+    {
+      "id": "kablanut-client-setoff-remedy",
+      "claim": "Under סעיף 4 of חוק חוזה קבלנות, if the contractor does not cure a defect within a reasonable time the client may fix it and demand reimbursement of reasonable costs, OR deduct from the fee the amount by which the defect reduced the value of the work. A freelancer's draft should bound this set-off.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "לנכות מן השכר, כל עוד לא תוקן הפגם, את הסכום שבו פחת שווי המלאכה או השירות עקב הפגם לעומת השכר לפי המוסכם.",
+      "confidence": "high"
+    },
+    {
+      "id": "kablanut-contractor-lien",
+      "claim": "Under סעיף 5 of חוק חוזה קבלנות the contractor has a lien (זכות עיכבון) over property the client handed over for the work, securing sums due under the contract.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "לקבלן תהא זכות עכבון על נכס שמסר לו המזמין לביצוע מלאכתו או למתן שירותו, כדי תשלום הסכומים המגיעים לו מן המזמין עקב עסקת הקבלנות.",
+      "confidence": "high"
+    },
+    {
+      "id": "kablanut-defect-notice-forfeiture",
+      "claim": "Under סעיף 3 of חוק חוזה קבלנות the client must notify the contractor of a defect within a reasonable time and give an opportunity to cure; if it does not, it may not rely on the defect (unless the contractor knew of it).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "אין המזמין זכאי להסתמך על הפגם",
+      "confidence": "high"
+    },
+    {
+      "id": "kablanut-defaults-displaceable",
+      "claim": "Under סעיף 8 of חוק חוזה קבלנות its provisions apply only where no other law governs the matter and where no contrary intention appears from the parties' agreement, so the contract can and should displace them deliberately.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "הוראות חוק זה יחולו כשאין בדין אחר הוראות מיוחדות לענין הנדון, ובאין כוונה אחרת משתמעת מן ההסכם בין הצדדים.",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-interest-bargaining-gate",
+      "claim": "Under סעיף 4 of חוק מוסר תשלומים, the statutory interest and late-payment-fee remedy applies to a budgeted-body or private-business client ONLY in an engagement where that body or business had superior power in shaping the contract terms (עדיפות בעיצוב תנאי החוזה). A freelancer supplying their own draft may fall outside it, so interest should be an express contractual term.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "רק בהתקשרות שבה היתה לאותו גוף או עסק, לפי העניין, עדיפות בעיצוב תנאי החוזה.",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-non-derogation",
+      "claim": "סעיף 7 of חוק מוסר תשלומים is a one-way non-derogation clause: its provisions may be varied only in the supplier's favour.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "אין להתנות על הוראות חוק זה אלא לטובת הספק.",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-government-tier",
+      "claim": "Under סעיף 3 of חוק מוסר תשלומים, a state authority, government ministry, מפעל הפיס or the sports-betting council must pay no later than 45 days from invoice delivery, or no later than 30 days from the end of the invoice month when counted from month end. No contract-out clause is provided for this tier.",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "אם התקופה לתשלום לספק נספרת מתום החודש שבמהלכו הומצא החשבון למזמין – לא יאוחר מ-30 ימים מתום אותו החודש.",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-local-authority-tier",
+      "claim": "Under סעיף 3, a local authority must pay no later than 45 days from the end of the invoice month, and no later than 80 days from the end of that month for building-engineering works.",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "מזמין שהוא רשות מקומית שהתקשר עם ספק בחוזה לביצוע עסקה, ישלם לספק את התמורה בעד העסקה לא יאוחר מ-45 ימים מתום החודש שבו הומצא לו החשבון",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-invoice-return-reset",
+      "claim": "Under סעיף 3 of חוק מוסר תשלומים, an invoice missing a material contractual detail, or submitted before the contractual conditions for payment were met, is returned by the client and treated as never having been delivered, provided the client itemises the deficiencies.",
+      "claim_type": "feature",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "יחזיר המזמין את החשבון לספק, ויראו זאת כאילו החשבון לא הומצא למזמין, ובלבד שהמזמין פירט את הליקויים שנמצאו בחשבון",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-check-period-23-business-days",
+      "claim": "The invoice check period (תקופת הבדיקה) is 23 business days from invoice delivery for the state, budgeted-body, local-authority and business tiers, excluding building works.",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "23 ימי עסקים ממועד המצאת החשבון",
+      "confidence": "high"
+    },
+    {
+      "id": "moser-esek-definition-israeli",
+      "claim": "חוק מוסר תשלומים defines \"עסק\" in סעיף 2 as a financial institution, עוסק מורשה or עוסק פטור as defined in the VAT Law. A foreign entity is none of these, so the business payment tier does not reach a foreign client.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "source_fetched_at": "2026-08-02",
+      "raw_snippet": "\"עסק\" – מוסד כספי, עוסק מורשה או עוסק פטור כהגדרתם בחוק מס ערך מוסף, התשל\"ו-1975",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-zero-rate-foreign-resident-a",
+      "claim": "סעיף 30(א)(5) of חוק מס ערך מוסף sets VAT at a zero rate on a service supplied to a foreign resident, subject to exceptions set out in it.",
+      "claim_type": "law",
+      "source_url": "https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "בשיעור אפס על מתן שירות לתושב חוץ, פרט לחריגים שנקבעו בו.",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-zero-rate-foreign-resident-b",
+      "claim": "The zero-rate benefit is DENIED where the service is in fact supplied, in addition to the foreign resident, also to an Israeli resident in Israel; a single Israeli beneficiary defeats it. It is therefore not automatic for a freelancer billing a foreign parent company.",
+      "claim_type": "law",
+      "source_url": "https://www.klf.co.il/tax-updates/zero-rate-vat-understanding-section-30-a-5-of-the-value-added-tax-law",
+      "source_fetched_at": "2026-08-09",
+      "raw_snippet": "משמעות הדברים היא שכאשר השירות ניתן הן לתושב חוץ והן לתושב ישראלי בישראל, לא תחול ההטבה של מס בשיעור אפס.",
+      "confidence": "high"
+    },
+    {
+      "id": "allocation-number-5000",
+      "claim": "From 1 June 2026 a tax invoice above 5,000 NIS before VAT between dealers must carry a Tax Authority allocation number",
+      "claim_type": "regulation",
+      "source_url": "https://horizon.org.il/cfo-outsource/allocation-number-invoice-2026/",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "מ-1 ביוני 2026 כל חשבונית מס מעל 5,000 ש״ח לפני מע״מ",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-132-employee-only",
+      "claim": "Patents Law section 132 (סעיף 132) defines the service invention (אמצאת שירות) that vests in the employer; the vesting text reads \"אמצאה של עובד, שהגיע אליה עקב שירותו\", so it covers employees only",
+      "claim_type": "regulation",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "אמצאת שירות כאמור בסעיף 132",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-law-1967",
+      "claim": "The Patents Law is of 1967",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "חוק הפטנטים, תשכ״ז–1967",
+      "confidence": "high"
+    },
+    {
+      "id": "interest-law-1961",
+      "claim": "Late-payment interest and linkage rates are set under the Adjudication of Interest and Linkage Law 1961",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A4%D7%A1%D7%99%D7%A7%D7%AA_%D7%A8%D7%99%D7%91%D7%99%D7%AA_%D7%95%D7%94%D7%A6%D7%9E%D7%93%D7%94",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "חוק פסיקת ריבית והצמדה, תשכ״א–1961",
+      "confidence": "high"
+    },
+    {
+      "id": "patents-132-text",
+      "claim": "s.132 vests an invention of an EMPLOYEE made in the course of service in the employer",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%A4%D7%98%D7%A0%D7%98%D7%99%D7%9D",
+      "source_fetched_at": "2026-09-15T10:50:49Z",
+      "raw_snippet": "אמצאה של עובד, שהגיע אליה עקב שירותו ובתקופת שירותו",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-rate-18-kolzchut",
+      "claim": "An osek murshe adds 18% VAT to each transaction (current rate)",
+      "claim_type": "regulation",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "הוא מוסיף לסכום העיסקה עוד 18% מס",
+      "confidence": "high"
+    },
+    {
+      "id": "vat-rate-18-since-2025",
+      "claim": "Israeli VAT has been 18% since 2025 (raised from 17% on 1 January 2025)",
+      "claim_type": "regulation",
+      "source_url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "18 אחוזים מאז 2025",
+      "confidence": "high"
+    },
+    {
+      "id": "allocation-threshold-10000-jan-2026",
+      "claim": "The allocation-number threshold was 10,000 NIS from 1 January 2026 before dropping to 5,000 NIS on 1 June 2026",
+      "claim_type": "regulation",
+      "source_url": "https://horizon.org.il/cfo-outsource/allocation-number-invoice-2026/",
+      "source_fetched_at": "2026-09-15T10:57:09Z",
+      "raw_snippet": "הסף ירד מ-10,000 ש״ח שהיה בתוקף מ-1 בינואר 2026",
+      "confidence": "high"
+    }
+  ]
+}

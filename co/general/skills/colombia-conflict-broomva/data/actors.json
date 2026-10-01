@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "source": "CEV Informe Final 'Hay Futuro Si Hay Verdad' (2022) — esp. Tomo 'No matarás' (history) + 'Hasta la guerra tiene límites' (violations & collective responsibility)",
+    "responsibility_kind": "COLLECTIVE (ethical-political), not individual-criminal (that is the JEP's role). Terminology: State/paramilitary acts = 'violaciones de derechos humanos'; guerrilla acts = 'abusos / infracciones al DIH'.",
+    "lethal_ordering": "Most non-combatant dead were killed first by paramilitaries, then guerrillas, then State forces.",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "actors": [
+    {
+      "key": "paramilitaries",
+      "name": "Paramilitaries / Autodefensas (AUC)",
+      "type": "counterinsurgent illegal armed group",
+      "origin": "Civilian-arming decrees (Decreto 3398/1965 → Ley 48/1968) → MAS (1981, 'hito fundacional') → Puerto Boyacá model → Casa Castaño / ACCU (1995) → Convivir (1995) → AUC (1997, Carlos Castaño) → demobilized via Justicia y Paz (2005), recycled into successor groups (Clan del Golfo/AGC, Rastrojos)",
+      "principal_responsibility": ["homicide (~45%, largest share)", "forced disappearance (~52%, largest share)", "massacres (predominant)", "cruelest sexual violence", "land dispossession (contrarreforma agraria)"],
+      "financing": ["narcotrafficking", "regional political & economic elites", "sectors of the Fuerzas Militares", "cattle ranchers / agro-industry"],
+      "key_finding": "Direct State responsibility for the origin, training, strengthening and expansion of paramilitarism; joint action 'at least until 2005'. 'El trabajo sucio que ellos no podían hacer legalmente.'"
+    },
+    {
+      "key": "farc-ep",
+      "name": "FARC-EP (Fuerzas Armadas Revolucionarias de Colombia - Ejército del Pueblo)",
+      "type": "communist insurgency",
+      "origin": "Communist autodefensas campesinas of southern Tolima (Marquetalia) → 1964 attack on Marquetalia (founding myth) → formally constituted 1966 → militarized & narco-financed via Conferencias VII (1982) / VIII (1993) → military peak late 1990s → pushed back after 2002 → signed the 2016 Final Peace Accord",
+      "principal_responsibility": ["kidnapping (~40%, principal)", "child recruitment (~75%, principal)", "antipersonnel mines (~42%)", "Bojayá massacre", "forced contraception/abortion in ranks"],
+      "leaders_historical": ["Manuel Marulanda Vélez 'Tirofijo'"],
+      "key_finding": "Recognized kidnapping (JEP Caso 01) as war crimes and crimes against humanity. Recruitment was 'naturalized and intentional' — comisiones de reclutamiento from the 1982 conference."
+    },
+    {
+      "key": "state",
+      "name": "State / Fuerza Pública (Ejército, Policía, DAS intelligence)",
+      "type": "State security apparatus (guarantor of rights)",
+      "origin": "Built 'for war' under Cold War 'enemigo interno' doctrine (Yarborough mission 1962, Escuela de las Américas); the 'cuarto poder' delegated public order from the Frente Nacional onward",
+      "principal_responsibility": ["'falsos positivos' / extrajudicial executions (≥6,402, 2002-2008) — a crime of State", "responsibility FOR paramilitarism (origin, training, alliance)", "homicide (~12% direct)", "forced disappearance (~8% direct)", "arbitrary detention", "policy decisions harming civilians (glifosato)"],
+      "key_finding": "'A mayor poder, mayor responsabilidad' — as guarantor of rights the State bears the heaviest duty. Responsible by action, omission, and tolerance/complicity (CorteIDH Velásquez Rodríguez, Mapiripán)."
+    },
+    {
+      "key": "eln",
+      "name": "ELN (Ejército de Liberación Nacional)",
+      "type": "insurgency (foquista + liberation theology)",
+      "origin": "Founded 1964 (toma de Simacota 1965); built by students/workers, joined by priest Camilo Torres; nearly destroyed by Operación Anorí (1973); rebuilt on kidnapping & oil-pipeline rents (Caño Limón-Coveñas); NEVER demobilized — persists",
+      "principal_responsibility": ["kidnapping (~19%)", "oil-infrastructure attacks/extortion", "antipersonnel mines (~7%)", "forced 'marriages' / reproductive control"],
+      "key_finding": "A negotiated, definitive exit with the ELN is a core CEV recommendation (recovering 2017-2018 advances)."
+    },
+    {
+      "key": "epl-m19",
+      "name": "EPL & M-19 (demobilized insurgencies)",
+      "type": "insurgencies (maoist / urban-nationalist)",
+      "origin": "EPL founded 1967 (maoist PC-ML); M-19 born from the fraudulent 1970 election. Both largely demobilized 1990-91 into the 1991 Constituent Assembly",
+      "principal_responsibility": ["M-19: Palacio de Justicia takeover (1985)", "EPL: kidnapping/extortion before demobilization"],
+      "key_finding": "Their demobilization fed the democratizing leap of the 1991 Constitution; EPL demobilized (Esperanza, Paz y Libertad) were then massacred."
+    },
+    {
+      "key": "narcos-terceros",
+      "name": "Narcotrafficking & terceros civiles (economic/political actors)",
+      "type": "criminal economy + civilian third parties",
+      "origin": "Bonanza marimbera → Medellín Cartel (Escobar) & Cali Cartel → Norte del Valle cartel; plus economic/political elites and businesses",
+      "principal_responsibility": ["war financing of all armed armies", "land laundering / dispossession", "parapolítica (electoral capture)", "killing of unionists", "paying paramilitaries to displace communities"],
+      "key_finding": "A database of 258 economic actors presumed involved; 439 business actors sanctioned in 35 Justicia y Paz sentences. 'Una guerra donde no hay finanzas no es guerra.' The war on drugs itself is a persistence factor."
+    }
+  ]
+}

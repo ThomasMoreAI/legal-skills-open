@@ -1,0 +1,14 @@
+{
+  "name": "ch-ip",
+  "displayName": "Intellectual Property — Switzerland",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills under the law of Switzerland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "ip",
+  "language": "fr",
+  "skills": [
+    "skills/swiss-trademark-deposit-self-tech-labs"
+  ]
+}

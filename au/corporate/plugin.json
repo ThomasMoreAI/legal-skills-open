@@ -1,0 +1,14 @@
+{
+  "name": "au-corporate",
+  "displayName": "Corporate — Australia",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Australia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "au",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/australia-abn-lookup-nolpak14"
+  ]
+}

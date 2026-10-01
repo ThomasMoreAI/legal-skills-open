@@ -9,8 +9,14 @@
   "practice": "securities",
   "language": "en",
   "skills": [
+    "skills/apply-say-on-pay-governance-jeffreytse",
     "skills/broker-dealer-customer-agreement",
     "skills/client-disclosures",
+    "skills/design-audit-committee-charter-jeffreytse",
+    "skills/design-compensation-clawback-policy-jeffreytse",
+    "skills/design-insider-trading-policy-jeffreytse",
+    "skills/design-proxy-access-policy-jeffreytse",
+    "skills/design-whistleblower-bounty-compliance-program-jeffreytse",
     "skills/document-review",
     "skills/finra-4512-customer-account",
     "skills/finra-4512-customer-info",
@@ -21,9 +27,12 @@
     "skills/proxy-statement",
     "skills/reg-bi-policy",
     "skills/safe-agreement",
+    "skills/sec-edgar-us-nolpak14",
     "skills/securities-regulation-summary",
+    "skills/sox-itgc-sushegaad",
     "skills/transfer-agent-agreement",
     "skills/us-finra-expert",
+    "skills/us-sec-reporting-checker-rohasnagpal",
     "skills/us-sox-expert"
   ]
 }

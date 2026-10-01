@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-real-estate",
+  "displayName": "Real Estate — comparative",
+  "version": "0.1.0",
+  "description": "Real Estate skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/tool-calculator-stamp-duty-tax-sboghossian"
+  ]
+}

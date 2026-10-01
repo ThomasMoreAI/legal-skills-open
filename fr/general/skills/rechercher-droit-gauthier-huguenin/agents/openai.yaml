@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rechercher le droit applicable"
+  short_description: "Rechercher et citer les sources officielles"
+  default_prompt: "Utilise $rechercher-droit pour traiter cette question avec des sources officielles ouvertes et vérifiables."

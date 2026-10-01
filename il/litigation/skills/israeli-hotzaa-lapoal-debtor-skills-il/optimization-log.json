@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-09-13",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": ["P6", "P7", "N3", "E3"]
+      },
+      "lessons": [
+        "Kol Zchut cancellation page lists four restrictions scoped to its own audience; the statute (s.66א) lists five. Read the statute, not the page list, for any enumeration.",
+        "Deferred (Expert, not blocking): setting aside a default judgment (reg. 130) filing forum and timing; a user with a default judgment could wrongly reach for paraati.",
+        "Deferred: legal-aid eligibility for debtors, unattachable movables (s.22), short track (s.20ב), criminal liability for breaching a restriction, debtor fee exemptions.",
+        "Deferred: war-period excluded days can shift objection deadlines (Kol Zchut war-relief page); deadlines.py does not model them.",
+        "Deferred (Expert minor): deadlines.py could accept --restriction-warning and --arrest-warning dates to compute the two later clocks.",
+        "Resolved this cycle: s.7א2 ceiling is a fixed 150,000 NIS in the statute, distinct from the index-linked 176,923.12 insolvency threshold; now stated.",
+        "Deferred (Expert minor): limited-means debtor is automatically barred from founding or holding an interest in a corporation without prior registrar approval (s.69ד(ב)); not yet in Step 6.",
+        "Deferred (Expert minor): fixed-sum 30-day payment-order clock comes from Kol Zchut; statute default is 20 days or the date in the azhara. Consider framing as 'usually printed on the azhara'.",
+        "Judge/Expert loop took 4 rounds: each repair of a statutory enumeration introduced a new over-generalisation (card carve-out, waiting periods). Read every limb of the section before writing a summary sentence.",
+        "Holdout eval could not discriminate old vs new description (identical trigger phrases); add harder edge queries next cycle, e.g. a restriction-warning query and a maintenance-arrest query."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Protection Referral"
+  short_description: "Poland Protection Referral: run focused tasks"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Data Processing Agreement Reviewer"
+  short_description: "Review controller-processor terms and operations"
+  default_prompt: "Use $data-processing-agreement-reviewer to review this DPA for role accuracy, instructions, security, subprocessors, assistance, transfers, audits, deletion, liability, and operational fit."

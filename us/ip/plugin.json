@@ -11,6 +11,7 @@
   "skills": [
     "skills/answer-with-invalidity-contentions",
     "skills/art-law-summaries",
+    "skills/audit-ip-ownership-jeffreytse",
     "skills/biotech-patent-summaries",
     "skills/check-a-trademark",
     "skills/claim-construction-chart",
@@ -23,6 +24,8 @@
     "skills/copyright-license-agreement-media",
     "skills/deposition-ip",
     "skills/deposition-ip-supplement",
+    "skills/design-patent-strategy-jeffreytse",
+    "skills/design-trademark-strategy-jeffreytse",
     "skills/dmca-takedown-notice",
     "skills/ex-parte-seizure-order",
     "skills/field-of-use-clause",
@@ -32,6 +35,7 @@
     "skills/invention-intake",
     "skills/invention-intake-anthropics",
     "skills/ip-infringement-analysis",
+    "skills/ip-licensing-everyone-needs-a-copilot",
     "skills/ip-portfolio-summary",
     "skills/know-how-license-agreement",
     "skills/license-agreement-summary",
@@ -70,6 +74,8 @@
     "skills/uspto-database-lingxling",
     "skills/uspto-database-utakata",
     "skills/uspto-office-actions-und-tess-tsdr",
-    "skills/work-for-hire-agreement"
+    "skills/work-for-hire-agreement",
+    "skills/write-software-license-agreement-jeffreytse",
+    "skills/write-trademark-application-jeffreytse"
   ]
 }

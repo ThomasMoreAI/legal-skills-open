@@ -1,0 +1,14 @@
+{
+  "name": "jp-corporate",
+  "displayName": "Corporate — Japan",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Japan.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "jp",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/japan-company-registry-nolpak14"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "Open-vs-zuta tender threshold reform in motion; verify current NIS floor next cycle at mr.gov.il.",
+        "If Amendment 26 reserve-preference exact thresholds (50% control, 20 days) could not be fully sourced, confirm and tighten next cycle.",
+        "Deferred MINOR: בעלי זיקה corporate-structure affidavit, e-signature workflow detail."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-09-15",
+      "lessons": [
+        "Deferred MAJOR (domain audit): abnormally low / tactical bids (מחיר הפסדי) warning is unsourced; find the regulation or case law before adding.",
+        "Deferred MAJOR: threshold conditions tested as of submission date and experience must be the bidder's own (case law, unsourced); quality/price weighting (reg 22 mechanics).",
+        "Deferred MAJOR: state-regulation rule on reservations not found in the 1993 regulations text; only the municipal reg 20(ג) is cited. Locate the state source or keep it framed as tender-document practice.",
+        "Deferred MINOR: guarantee forfeiture on withdrawal and extension requests; conflict-of-interest sources (s.122א פקודת העיריות); בעלי זיקה corporate mapping (carried from 1.2.0); past-experience evidence format; English-only script headers; government-company tenders unrouted.",
+        "Unverified and not stated: the exact local-council order names; s.2ד '50% or more' wording carried from 1.2.0 remains backed by the Nevo snippet only.",
+        "Gate lesson: a research subagent asserted a 30-day petition deadline under reg 21ד; that regulation governs PRISONER petitions. The general rule is reg 3(ב), 45 days. Always open the provision.",
+        "Resolved this cycle: description exclusion reworded from 'petition to the tenders committee' to 'challenging a tender committee decision (disqualification or award) by administrative petition' (SKILL.md, SKILL_HE.md, metadata he+en). First wording ('tender award' only) was REJECTED by the 5.7 holdout: a disqualified bidder's query regressed because a disqualification is not an award.",
+        "Gate lesson: the Judge rejected two true-but-unsourced case-law statements (laches weighted by contract signature; objections to tender terms before submission). Resolved by citing reg 4 of the administrative-courts procedure regulations and hedging the doctrine. Case law stated as a rule needs a citation or a hedge.",
+        "Deferred MINOR (expert 1.4.0): s.2ב1 row could state the headcount thresholds once sourced; optional note that the municipal full-tender threshold comes from s.197 of the Municipalities Ordinance; interim relief before contract signature not mentioned."
+      ],
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "P4",
+          "N1",
+          "E1"
+        ]
+      }
+    }
+  ]
+}

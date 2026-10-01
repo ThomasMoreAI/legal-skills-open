@@ -1,0 +1,16 @@
+{
+  "name": "br-employment",
+  "displayName": "Employment & Labor — Brazil",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/cold-start-interview-bossmann007",
+    "skills/log-leave-bossmann007",
+    "skills/wage-hour-qa-bossmann007"
+  ]
+}

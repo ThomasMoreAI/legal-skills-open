@@ -1,0 +1,14 @@
+{
+  "name": "ca-criminal",
+  "displayName": "Criminal Law — Canada",
+  "version": "0.1.0",
+  "description": "Criminal Law skills under the law of Canada.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/canadian-criminal-code-vezril"
+  ]
+}

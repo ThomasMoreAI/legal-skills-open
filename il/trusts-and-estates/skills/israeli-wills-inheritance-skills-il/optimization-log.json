@@ -1,0 +1,131 @@
+{
+  "skill_slug": "israeli-wills-inheritance",
+  "lessons": [
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "deferred-scope",
+      "title": "Section 5 (יורש פסול) not covered this cycle",
+      "detail": "Section 5 disqualifies an heir convicted of causing the deceased's death or of destroying or forging the will. It is the first question a practitioner asks when a handwritten will surfaces in one child's possession. Held back to keep this cycle to correctness-only edits. Cover on the next substantive update, alongside Section 35 reframed as a ground to attack an EXISTING will rather than only as a drafting caution."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "deferred-scope",
+      "title": "Estate-debts chapter not covered this cycle",
+      "detail": "Sections 104 (debt priority), 126 (pre-distribution liability limited to estate assets), 127 and 128 (post-distribution exposure). Section 128 is the sting: distributing without the creditor-invitation procedure exposes each heir up to the value of the ENTIRE estate, not merely what they received. The skill currently says only 'heirs receive what is left after debts', which understates this. Section 104(a)(4) was pulled in early because it was needed for the spouse-share correction; the rest was deferred."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "deferred-scope",
+      "title": "Tabu registration step not covered this cycle",
+      "detail": "The skill says the digital order is transmitted to the Land Registry, which can read as though registration happens automatically. Registering heirs' rights in real estate is a separate application with its own fee. Add on the next update."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "defect-class",
+      "title": "Quoting the common-case fee instead of the fee schedule",
+      "detail": "v1.0.2 quoted 507 + 66 NIS and nothing else, while the official תוספת has nine rows. The user-visible harm was not staleness (507 was correct for 2026) but omission: Example 2 walked a user through depositing a will without mentioning the 126 NIS fee OR the item 5א exemption that makes most first deposits free. Fix pattern adopted: state the RULE (base fee, 85% online, 1 January CPI indexation) rather than a single derived number, and put the full table in references/."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "defect-class",
+      "title": "Describing a curable defect as fatal",
+      "detail": "v1.0.2 told users a handwritten will with no date was defective and, by implication, dead. Section 25 exists precisely to cure that, and since תיקון תשפ\"ג the Registrar (not only the court) can apply it. In a skill whose trigger includes 'my parent died', an over-strict formality claim can cause an heir to abandon a valid will. Rule adopted: always pair a formality requirement with the Section 25 cure and name the מרכיב היסוד that genuinely cannot be cured."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "defect-class",
+      "title": "Illustrative examples invented rather than sourced",
+      "detail": "orders-and-process.md offered 'for example when the will is defective on its face' as a ground for transfer to the Family Court. That is not one of the five Section 67א grounds; it was plausible-sounding filler. Rule adopted: enumerate a closed statutory list in full rather than illustrating it with an invented member."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "research-method",
+      "title": "Fetch statute and regulations as raw wikitext, not via a summarizing fetch",
+      "detail": "The first pass over the fee schedule came back through a model-mediated fetch and paraphrased item 5א as 'first deposit within five years is exempt', which inverts the condition. Curling the wikisource raw wikitext gave the true text: exempt where no earlier will was deposited in the five years preceding. Every raw_snippet in evidence.json for this skill is taken from a raw fetch (wikisource ?action=raw, or de-tagged kolzchut HTML), never from a search-result summary."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "note",
+      "title": "En-dashes retained inside evidence.json raw_snippet values",
+      "detail": "Two raw_snippet strings quote Hebrew statute text that contains an en-dash in the source. They are left byte-exact so the --check-sources pass can match them against the fetched page. The no-dash house rule applies to authored prose; altering a verbatim quote would falsify the evidence. No dashes appear in SKILL.md, SKILL_HE.md, or any reference file."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "unverified",
+      "title": "2026 draft amendment could not be read",
+      "detail": "https://www.gov.il/he/pages/dec3932-2026 (טיוטת חוק הירושה (תיקון), התשפ\"ו-2026) returns HTTP 403 to non-browser fetches, as does the Registrar's own gov.il service index. Nothing in this update characterizes either. Re-check with a browser next cycle. No enacted 2026 amendment to the Succession Law was found; the most recent enacted changes are תיקון תשפ\"ג (sections 25, 78) and תיקון תשפ\"ד (section 6א, חרבות ברזל), both now reflected."
+    },
+    {
+      "date": "2026-08-01",
+      "version": "1.1.0",
+      "type": "defect-class",
+      "title": "Stripping dashes from evidence.json raw_snippet breaks --check-sources",
+      "detail": "Four evidence entries carried over from v1.0.2 (section-26-capacity, section-35-beneficiary-involvement, heir-shares-spouse, succession-order-no-will) failed --check-sources. The cause was not fabrication: an earlier cycle had replaced the en-dash in the quoted Hebrew statute text with a plain hyphen, presumably to satisfy the house no-dash rule, so the snippet no longer matched the live page byte-for-byte. The self-consistency pass never caught it because it does not fetch. Rule: the no-dash rule applies to authored prose only. Verbatim raw_snippet values must be left byte-exact, and --check-sources must be run, not just the default pass. (succession-order-no-will also had genuine page drift: kolzchut now reads בקשה המכונה where the old snippet had בקשה שמכונה.)"
+    },
+    {
+      "date": "2026-09-20",
+      "version": "1.3.0",
+      "type": "hold-resolved",
+      "title": "2026-09-15 hold lifted: Section 14 stated, Section 66(b) partial wills added, script defects fixed",
+      "detail": "The skill was held on 2026-09-15 over Section 14, three claimed CRITICAL gaps, script defects, and a question about shipping the will templates. Resolution: (1) The three CRITICAL gaps (s.147, s.55, s.39/s.56) were already correctly stated in both languages and in the reference, and were confirmed rather than rewritten. (2) Section 14 was the real defect, and it was an OMISSION that read as an inversion: the skill said the estate passes to 'the parents and their line, then grandparents and their line', which implies representation always operates there. s.14(a)'s closing limb disapplies representation where the deceased left a spouse together with parents or grandparents under s.11(a). Section 14 is now stated in three limbs (the rule, the carve-out, the equal split under 14(b)) plus the 2024 s.14(c)-(d) unfit-heir amendment whose default flips by line, in SKILL.md, SKILL_HE.md, references/orders-and-process.md, and a gotcha in both languages. (3) s.66(b) partial wills: the order choice was binary in the table, the prose, the troubleshooting and the script. All four now carry the both-orders case. (4) s.21(b)/22(f) prima facie evidentiary effect of deposit added, which is the actual reason to deposit and the skill had been selling it as mere safekeeping. (5) s.35's express oral-will carve-out and the regulation 4(5) scoping of the bereaved fee exemption to succession-order applicants were corrected. (6) All six script defects fixed: order gained a `partial` branch, the misleading 'a court only enters if an objection is filed' note was replaced with the five s.67a grounds (it had contradicted the skill's own correct text), witness now exits 1 on any failure, normalises whitespace before comparing, takes --beneficiary-spouses, and deduplicates witnesses before the two-witness check. (7) Templates SHIP. chok lishkat orchei hadin s.20 reserves the listed acts only when done derech isuk or bitmura; the skill is free and the Terms state the service is provided without consideration, and a published blank form the user completes is not drafting bishvil adam acher. The framing stays: a draft the user prepares for themselves, an advocate to review before signing, and the skill never asserts a produced will is valid."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "hold-resolved",
+      "title": "2026-09-15 open items closed",
+      "detail": "Section 5, s.128 creditor exposure, the family home (Land Law 37/40, Succession Law 108/110(d)/111(c)/113/115), minor heirs (Capacity Law 20(a)(1),(2),(5) and 74a), Tabu as a separate step, Example 1 reframed as a draft, script --preparers. The earlier brief's claim that a widow has 'no residence right' was WRONG: s.115 gives a paying tenancy under the statutory division rules, and s.108 a 3/6-month stay. The s.67a probate-note script bug had already been fixed on 2026-09-20."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "defect-class",
+      "title": "Repair introduced a new error: property-relations entitlement described as co-ownership",
+      "detail": "Round-1 fix for the co-owned-flat CRITICAL said a spouse 'entitled to half under the property-relations rules' keeps half the flat. That is a money claim ranked as an estate debt (s.104(a)(4)), not ownership. Caught only by re-dispatching the expert on the repair."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "defect-class",
+      "title": "Trimming for the word cap silently dropped statutory elements",
+      "detail": "Trims to stay under 5,000 words dropped the testator's date/signature from the typed-will troubleshooting answer, the 'or connected to it' limb of reg. 4(5), the incompetent-person limb of s.6(c) and 'or their representative' in s.67a. Every trim needs a judge pass."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "deferred",
+      "title": "Carried minors for next cycle",
+      "detail": "s.74a(d) exceptions (a minor aged 16+ objects; flat wholly owned by the minor goes to court unless the minor consents in writing; 60-day window), s.5(b)/(d)/(e), s.115(c)-(d) long leases. SKILL.md body sits at the 5,000-word cap: next substantive addition must move a Job 3 block to references/."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "deferred",
+      "title": "Description reword recommended by legal gate",
+      "detail": "Legal review (PASS_WITH_CHANGES) recommended 'Prepare a draft Israeli will ... for advocate review' in the frontmatter description and metadata display_description. Not applied this cycle to avoid a description change (Phase 5.7 holdout) in a batch; the enriched when_to_apply and the first prompt were fixed in the DB instead."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "note",
+      "title": "kolzchut verification method",
+      "detail": "kolzchut blocks curl and headless Chromium; a headed Chrome (Playwright channel 'chrome', headless:false) with a FRESH browser per URL passes the Cloudflare check. Reusing one browser fails after the first page."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "note",
+      "title": "v1.2.0 tag",
+      "detail": "The 2026-08-09 v1.2.0 signed tag was never cut. Not back-filled: tags after it (v1.3.0, v1.4.0) are the attested releases."
+    }
+  ]
+}

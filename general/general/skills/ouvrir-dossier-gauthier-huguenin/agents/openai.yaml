@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ouvrir un dossier"
+  short_description: "Cadrer et sécuriser l'ouverture du dossier"
+  default_prompt: "Utilise $ouvrir-dossier pour cadrer les pièces, les données, le périmètre et les informations manquantes."

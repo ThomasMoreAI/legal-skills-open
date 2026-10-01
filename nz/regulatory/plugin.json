@@ -1,0 +1,15 @@
+{
+  "name": "nz-regulatory",
+  "displayName": "Regulatory & Compliance — New Zealand",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/fma-nz-thecolab-ai",
+    "skills/nz-ai-policy-thecolab-ai"
+  ]
+}

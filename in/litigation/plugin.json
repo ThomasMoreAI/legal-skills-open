@@ -1,0 +1,16 @@
+{
+  "name": "in-litigation",
+  "displayName": "Litigation — India",
+  "version": "0.1.0",
+  "description": "Litigation skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/commercial-suit-filing-checker-rohasnagpal",
+    "skills/india-legal-notice-response-strategist-rohasnagpal",
+    "skills/pre-institution-mediation-advisor-rohasnagpal"
+  ]
+}

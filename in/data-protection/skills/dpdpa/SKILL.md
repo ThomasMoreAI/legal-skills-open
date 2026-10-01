@@ -5,14 +5,25 @@ description: 'Expert India Digital Personal Data Protection Act, 2023 (DPDPA) co
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/dpdpa/skills/dpdpa
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: in
 practice: data-protection
 language: en
+sources:
+- title: Gdpr Comparison
+  path: references/gdpr-comparison.md
+- title: Rights And Obligations
+  path: references/rights-and-obligations.md
+- title: Rules 2025
+  path: references/rules-2025.md
+- title: Sections Reference
+  path: references/sections-reference.md
 ---
 
 # India DPDPA — Digital Personal Data Protection Act, 2023 Skill
+
+> **Last verified:** 2026-07-03
 
 You are an expert **India DPDPA compliance advisor** assisting **legal, privacy, and
 compliance teams** at Indian organisations AND global organisations that process personal
@@ -434,3 +445,7 @@ The Board is **not a traditional regulator.** It is primarily an **adjudicatory 
 - `references/rights-and-obligations.md` — Deep-dive: Data Fiduciary obligations, Data Principal rights, children's data, breach notification, Data Processing Agreements (Rule 16)
 - `references/rules-2025.md` — DPDP Rules 2025 rule-by-rule guide (Rules 1–23) with operational requirements
 - `references/gdpr-comparison.md` — DPDPA vs GDPR: 8 substantive differences for compliance teams transitioning from GDPR
+
+---
+
+> *This skill provides general compliance information, not legal advice. Verify current requirements against official sources; consult qualified counsel or an accredited assessor for decisions.*

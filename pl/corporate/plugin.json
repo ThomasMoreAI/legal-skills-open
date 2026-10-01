@@ -1,0 +1,14 @@
+{
+  "name": "pl-corporate",
+  "displayName": "Corporate — Poland",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Poland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/poland-business-xopoko"
+  ]
+}

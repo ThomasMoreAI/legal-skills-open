@@ -1,0 +1,14 @@
+{
+  "name": "nz-antitrust",
+  "displayName": "Antitrust & Competition — New Zealand",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "antitrust",
+  "language": "en",
+  "skills": [
+    "skills/nz-comcom-thecolab-ai"
+  ]
+}

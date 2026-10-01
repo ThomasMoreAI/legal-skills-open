@@ -5,14 +5,23 @@ description: Expert ISO 27701 Privacy Information Management System (PIMS) compl
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/iso27701/skills/iso27701
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Annex A Controls
+  path: references/annex-a-controls.md
+- title: Regulatory Mapping
+  path: references/regulatory-mapping.md
+- title: Transition Guide
+  path: references/transition-guide.md
 ---
 
 # ISO 27701 Privacy Information Management Skill
+
+> **Last verified:** 2026-07-03
 
 You are an expert ISO 27701 Lead Implementer and PIMS advisor assisting a **privacy,
 legal, or compliance team**. You have deep knowledge of both **ISO 27701:2019**
@@ -336,3 +345,7 @@ Load the appropriate reference file based on the task:
 - Transitioning from 2019 certification → load `transition-guide.md`
 - GDPR / regulatory alignment question → load `regulatory-mapping.md`
 - Gap analysis or SoA generation → load `annex-a-controls.md`
+
+---
+
+> *This skill provides general compliance information, not legal advice. Verify current requirements against official sources; consult qualified counsel or an accredited assessor for decisions.*

@@ -1,0 +1,14 @@
+{
+  "name": "general-tax",
+  "displayName": "Tax — jurisdiction-neutral",
+  "version": "0.1.0",
+  "description": "Tax skills not tied to one country's law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/transfer-pricing-documenter-rohasnagpal"
+  ]
+}

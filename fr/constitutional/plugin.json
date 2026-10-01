@@ -1,0 +1,14 @@
+{
+  "name": "fr-constitutional",
+  "displayName": "Constitutional & Public Law — France",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills under the law of France.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "constitutional",
+  "language": "it",
+  "skills": [
+    "skills/de-gouges-dichiarazione-donna-cittadina-x8k"
+  ]
+}

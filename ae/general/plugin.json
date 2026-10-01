@@ -1,0 +1,15 @@
+{
+  "name": "ae-general",
+  "displayName": "General — UAE",
+  "version": "0.1.0",
+  "description": "General skills under the law of UAE.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "general",
+  "language": "ar",
+  "skills": [
+    "skills/justinian-bar-exam-prep-uae-sboghossian",
+    "skills/prompt-pack-social-media-knowledge-content-prompt-sboghossian"
+  ]
+}

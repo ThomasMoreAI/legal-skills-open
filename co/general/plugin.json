@@ -1,0 +1,14 @@
+{
+  "name": "co-general",
+  "displayName": "General — Colombia",
+  "version": "0.1.0",
+  "description": "General skills under the law of Colombia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "co",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/colombia-conflict-broomva"
+  ]
+}

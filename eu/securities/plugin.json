@@ -1,0 +1,14 @@
+{
+  "name": "eu-securities",
+  "displayName": "Securities — European Union",
+  "version": "0.1.0",
+  "description": "Securities skills under EU law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "securities",
+  "language": "en",
+  "skills": [
+    "skills/compliance-officer-fdu-ins"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "display_name": {
+    "he": "מדריך סגירת עיזבון ובירוקרטיה אחרי פטירה",
+    "en": "Israeli Estate Settlement Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מנהל פרויקט מעשי לכל הבירוקרטיה שאחרי פטירה בישראל. משתמשים בו כשאדם קרוב נפטר והמשפחה צריכה לדעת מה לעשות ובאיזה סדר, מ-72 השעות הראשונות ועד סוף השנה. הוא בונה ציר זמן עם תאריכים, רשימת מסמכים לאיסוף, ומכתבי יידוע וסגירת חשבון מוכנים לשליחה, ומכסה את תעודת הפטירה, דמי הקבורה, שרשרת היידוע למוסדות והעברת הנכסים אחרי הצו, כדי שכלום לא ייפול בין הכיסאות ושלא תשלמו על מה שכבר מכוסה. אין להשתמש בו לכתיבת צוואה או להוצאת צו ירושה או צו קיום צוואה (לזה יש israeli-wills-inheritance) ולא לבדיקת קצבת שאירים או ביטוח חיים (לזה יש israeli-survivor-benefits-navigator).",
+    "en": "Not legal advice. An operational project manager for all the bureaucracy after a death in Israel. Use it when someone has died and the family needs to know what to do and in what order, from the first 72 hours to the end of the first year. It builds a dated timeline, a document-collection checklist, and ready-to-send notification and account-closure letters, covering the death certificate, the burial grant, the institution notification cascade, and the asset transfers that happen after the order, so nothing is missed and nothing is paid for twice. Do NOT use it to write a will or to obtain a succession order (צו ירושה) or probate order (that is israeli-wills-inheritance), or to check survivor-allowance or life-insurance eligibility (that is israeli-survivor-benefits-navigator)."
+  },
+  "tags": {
+    "he": [
+      "סגירת עיזבון",
+      "בירוקרטיה אחרי פטירה",
+      "תעודת פטירה",
+      "דמי קבורה",
+      "העברת נכסים",
+      "ישראל"
+    ],
+    "en": [
+      "estate settlement",
+      "death admin",
+      "death certificate",
+      "burial grant",
+      "asset transfer",
+      "israel"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/death_certificate",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "type": "aggregator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

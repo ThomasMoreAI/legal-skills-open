@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regulatory Filing Preparer"
+  short_description: "Prepare accurate and auditable regulatory filings"
+  default_prompt: "Use $regulatory-filing-preparer to prepare this periodic or event-driven filing with source reconciliation, validation, approvals, and submission evidence."

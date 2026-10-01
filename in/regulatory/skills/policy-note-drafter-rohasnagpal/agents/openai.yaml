@@ -1,0 +1,4 @@
+interface:
+  display_name: "Policy Note Drafter"
+  short_description: "Draft decision-ready policy and cabinet notes"
+  default_prompt: "Use $policy-note-drafter to turn this proposal into a decision-ready policy or cabinet note with options, impacts, and approvals."

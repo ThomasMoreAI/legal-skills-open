@@ -1,0 +1,818 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-small-claims-court",
+  "generated_at": "2026-09-13T13:00:00Z",
+  "claims": [
+    {
+      "claim_id": "ceiling-39900",
+      "claim": "The small claims court hears an individual's civil claim for a sum not exceeding NIS 39,900 (39,900 ש\"ח), the figure in force in January 2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
+      "raw_snippet": "בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד – (1) לתשלום סכום שאינו עולה על 39,900 שקלים חדשים",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 1",
+        "SKILL_HE.md שלב 1",
+        "metadata.json display_description",
+        "SKILL.md Troubleshooting",
+        "SKILL.md Gotchas"
+      ]
+    },
+    {
+      "claim_id": "ceiling-39900-current",
+      "claim": "Kol Zchut states the ceiling as NIS 39,900 as of January 2026.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "תביעה כספית בסכום של עד 39,900 ₪ (נכון לינואר 2026)",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 1",
+        "SKILL_HE.md שלב 1",
+        "metadata.json display_description",
+        "SKILL.md Troubleshooting",
+        "SKILL.md Gotchas"
+      ]
+    },
+    {
+      "claim_id": "filing-fee",
+      "claim": "The filing fee is 1% of the claim amount and in any case not less than NIS 50 (50 ש\"ח). Applied to the tiers used in the skill: a claim up to NIS 5,000 (5,000 ש\"ח) pays the NIS 50 minimum, a claim of NIS 5,001 and above pays 1%, so a NIS 8,000 (8,000 ש\"ח) claim pays NIS 80 (80 ש\"ח) and a NIS 3,500 (3,500 ש\"ח) claim pays the minimum.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "לשלם אגרה בגובה של 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL.md Examples",
+        "SKILL_HE.md שלב 2",
+        "SKILL_HE.md דוגמאות",
+        "scripts/filing-fee-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "fee-illustrative-examples",
+      "claim": "Illustrative filing-fee arithmetic from the 1% rule with a NIS 50 minimum: an 800 NIS claim pays NIS 50; a 1,500 NIS claim pays NIS 50; a 2,000 NIS claim pays NIS 50; a 3,000 NIS claim pays NIS 50; NIS 2.5 is shorthand for the 2.5 million Magistrate ceiling.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "לשלם אגרה בגובה של 1% מסכום התביעה, ובכל מקרה לא פחות מ-50 ₪.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "references/demand-letter-template.md",
+        "references/evidence-guide.md",
+        "scripts/filing-fee-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "defense-deadline-30-days",
+      "claim": "The summons invites the defendant to file a defence within 30 days of service of the summons and to appear at the hearing on the date stated in it (reg. 4(b) of the Small Claims Procedure Regulations 1976).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "בהזמנה לדין יוזמן הנתבע להגיש כתב הגנה תוך 30 יום מיום המצאת ההזמנה, ולהתייצב למשפט במועד שנקוב בהזמנה",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL.md Troubleshooting",
+        "SKILL_HE.md שלב 2",
+        "SKILL_HE.md פתרון בעיות"
+      ]
+    },
+    {
+      "claim_id": "plaintiff-service-duty",
+      "claim": "If the court clerk has not served the claim by 60 days before the hearing, the plaintiff or someone on their behalf must serve it at least 40 days before the hearing (reg. 7(b1)).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "לא הומצא כתב התביעה עד 60 ימים לפני הדיון בידי פקיד בית המשפט כאמור בתקנת משנה (ב), ימציא התובע או מי מטעמו את כתב התביעה לנמענים 40 ימים לפחות לפני הדיון.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL.md Step 4",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md שלב 2",
+        "SKILL_HE.md שלב 4",
+        "SKILL_HE.md מלכודות נפוצות"
+      ]
+    },
+    {
+      "claim_id": "plaintiff-personal-service-40-days",
+      "claim": "The 40-day floor for plaintiff service and the 60-day clerk window are set in reg. 7(b1) of the Small Claims Procedure Regulations 1976.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "ימציא התובע או מי מטעמו את כתב התביעה לנמענים 40 ימים לפחות לפני הדיון",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL.md Gotchas",
+        "SKILL_HE.md שלב 2",
+        "SKILL_HE.md מלכודות נפוצות",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "five-claims-per-year",
+      "claim": "The court may decline to hear a claim and transfer it to the Magistrate Court where the plaintiff has already filed more than five claims that year in the same court (section 60(b) of the Courts Law).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
+      "raw_snippet": "אם ראה שהתביעה הוגשה בידי תובע שכבר הגיש באותה שנה באותו בית משפט יותר מחמש תביעות",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 1",
+        "SKILL_HE.md שלב 1"
+      ]
+    },
+    {
+      "claim_id": "no-lawyer-without-leave",
+      "claim": "Filing does not require representation by a lawyer, and only in exceptional cases may the court permit the parties to be represented by a lawyer.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "להגשת התביעה לא נדרש ייצוג על ידי עורך דין. במקרים חריגים בית המשפט יכול לאשר לצדדים להיות מיוצגים על-ידי עורך דין.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 1",
+        "SKILL_HE.md שלב 1"
+      ]
+    },
+    {
+      "claim_id": "plaintiff-individual-only",
+      "claim": "Only private individuals (including an osek murshe or osek patur) may file in small claims court; a limited company, partnership or association may not file there.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "רק אנשים פרטיים (כולל עוסק מורשה או פטור) יכולים להגיש תביעה לבית המשפט לתביעות קטנות. חברה בע\"מ, שותפות או עמותה לא יוכלו להגיש תביעה לבית משפט זה.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 1",
+        "SKILL_HE.md שלב 1"
+      ]
+    },
+    {
+      "claim_id": "appeal-by-leave-30-days-a",
+      "claim": "The time to file an application for leave to appeal a small claims judgment is 30 days from the date of the judgment or decision (reg. 16(a)).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "המועד להגשת בקשה לרשות ערעור על פסק דינו של בית המשפט או על החלטתו לפי תקנה 12 לגבי בקשה לבטל החלטה שלא בפני בעל דין, הוא 30 ימים מיום מתן פסק הדין או ההחלטה.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 5",
+        "SKILL_HE.md שלב 5"
+      ]
+    },
+    {
+      "claim_id": "appeal-by-leave-30-days-b",
+      "claim": "Appeal is by leave only to the District Court: 15 days for proceedings opened before 11.04.2025 and 30 days for proceedings opened from 11.04.2025 onward.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "לגבי הליכים שנפתחו לפני תאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 15 ימים . לגבי הליכים שנפתחו החל מתאריך ה-11.04.2025 יש להגיש את בקשת הערעור בתוך 30 ימים",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 5",
+        "SKILL_HE.md שלב 5"
+      ]
+    },
+    {
+      "claim_id": "magistrate-ceiling-2.5m",
+      "claim": "The Magistrate Court hears civil claims, other than land claims, where the sum or value does not exceed NIS 2,500,000 (2.5 million); above that the District Court has jurisdiction.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
+      "raw_snippet": "תביעות אזרחיות – למעט תביעות הנוגעות למקרקעין – כשסכום התביעה או שווי הנושא אינו עולה על 2,500,000 שקלים חדשים ביום הגשת התובענה",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Troubleshooting",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md פתרון בעיות",
+        "SKILL_HE.md קישורי עזר"
+      ]
+    },
+    {
+      "claim_id": "enforcement-limitation-25-years",
+      "claim": "Section 21 of the Limitation Law 1958: a judgment on which 25 years have passed without the entitled party taking any step to execute it can be met with a limitation defence.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "raw_snippet": "פסק דין בתובענה שעברו עליו עשרים וחמש שנה בלי שהזכאי לפיו עשה פעולה כל שהיא כדי לבצעו, רשאי החייב לטעון טענת התיישנות",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 5",
+        "SKILL_HE.md שלב 5"
+      ]
+    },
+    {
+      "claim_id": "fair-rental-deposit-60-days",
+      "claim": "Under section 25i of the Rental and Loan Law (Fair Rental chapter) the landlord must return the cash deposit within 60 days of the tenant returning the apartment, or when the tenant's debts are settled, whichever is later.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A7%D7%93%D7%95%D7%9F_%D7%9E%D7%96%D7%95%D7%9E%D7%9F_%D7%9B%D7%A2%D7%A8%D7%95%D7%91%D7%94_%D7%9C%D7%94%D7%91%D7%98%D7%97%D7%AA_%D7%97%D7%99%D7%95%D7%91",
+      "raw_snippet": "על המשכיר להחזיר את פיקדון המזומן עד 60 ימים מהמועד שבו השיב השוכר את הדירה לרשותו או עד למועד שבו נפרעו חובות השוכר, לפי המאוחר מביניהם.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Examples",
+        "SKILL_HE.md דוגמאות",
+        "references/demand-letter-template.md"
+      ]
+    },
+    {
+      "claim_id": "judgment-timing-7-days",
+      "claim": "Judgment is given at the end of the hearing, and the court may defer it by no more than 7 days (reg. 15(a)).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "בתום הדיון בתביעה יתן בית המשפט את פסק הדין, אולם הוא יהיה רשאי לדחות את מתן פסק הדין לתקופה שלא תעלה על 7 ימים.",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 4",
+        "SKILL_HE.md שלב 4"
+      ]
+    },
+    {
+      "claim_id": "hearing-summons-and-deadlines",
+      "claim": "Regulation 4 of the Small Claims Procedure Regulations 1976 sets the summons and the 30-day defence window.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/98563.htm",
+      "raw_snippet": "בהזמנה לדין יוזמן הנתבע להגיש כתב הגנה תוך 30 יום מיום המצאת ההזמנה",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 2",
+        "SKILL_HE.md שלב 2"
+      ]
+    },
+    {
+      "claim_id": "consumer-protection-law",
+      "claim": "The Consumer Protection Law 1981 is the statutory basis for consumer claims.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/089_001.htm",
+      "raw_snippet": "חוק הגנת הצרכן, תשמ\"א-1981",
+      "fetched_at": "2026-06-04T00:00:00Z",
+      "appears_in": [
+        "SKILL.md Step 6",
+        "SKILL.md Reference Links",
+        "SKILL_HE.md שלב 6",
+        "SKILL_HE.md קישורי עזר"
+      ]
+    },
+    {
+      "claim_id": "plaintiff-own-dismissal",
+      "claim": "Kol Zchut's plain-language summary of non-attendance (plaintiff absent: struck and refileable; defendant absent: judgment, set-aside request within 30 days). The skill follows the text of reg. 11 and reg. 12 where they differ (see non-attendance-reg11, set-aside-reg12).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "אם התובע לא יגיע לדיון במועד שנקבע, תביעתו תימחק והוא יוכל להגישה שוב בתיק חדש. אם הנתבע לא יגיע לדיון, בית המשפט יכול לקבל את התביעה ולתת פסק דין.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "govil-filing-service",
+      "claim": "The Judicial Authority service page for filing a small claim states the ceiling: a small claim may be up to NIS 39,900 (39,900 ש\"ח) as of 1.1.2026, and that any private person including an osek patur or osek murshe may file while a limited company may not.",
+      "source_url": "https://www.gov.il/he/service/filing_a_small_claim",
+      "raw_snippet": "סכום תביעה קטנה יכול להיות עד 39,900 ₪ (נכון ל-1.1.2026).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T16:07:00Z",
+      "fetched_at": "2026-08-09T16:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govil-fees-page",
+      "claim": "The Judicial Authority small-claims fees page publishes the jurisdiction amount: from 1 January 2026 the small claims court's jurisdiction is NIS 39,900.",
+      "source_url": "https://www.gov.il/he/pages/fees_3",
+      "raw_snippet": "סמכות בית המשפט לתביעות קטנות תעמוד מיום י\"ב בטבת התשפ\"ו (1 בינואר 2026) על 39,900 ₪.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T16:07:00Z",
+      "fetched_at": "2026-08-09T16:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govil-guide-page",
+      "claim": "The Judicial Authority small claims guide describes the court as hearing monetary claims filed by a private person against another person or a company.",
+      "source_url": "https://www.gov.il/he/pages/small_claims_courts_guide",
+      "raw_snippet": "בתי המשפט לתביעות קטנות דנים בתביעות כספיות שמגיש אדם פרטי נגד אדם אחר או נגד חברה",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09T16:07:00Z",
+      "fetched_at": "2026-08-09T16:07:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "fee-rounding-reg6",
+      "claim": "Under תקנה 6 (reg. 6(a)(1)-(3)) of the Small Claims Procedure Regulations the fee is charged on every claim (including a counterclaim) and third-party notice, and the 1% amount is rounded up to a multiple of NIS 5; so a NIS 8,123 (8,123 ש\"ח) claim pays NIS 85 (85 ש\"ח), not NIS 81 (81 ש\"ח), and a NIS 5,001 claim pays NIS 55.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "סכום האגרה לפי פסקה (1) יעוגל כלפי מעלה לסכום שהוא מכפלה של 5 שקלים",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/filing-fee-calculator.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "fee-applies-claims-third-party",
+      "claim": "Reg. 6(a)(1): the fee is paid on every claim or third-party notice at filing.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "לא ייזקק בית המשפט לכל תביעה או הודעה לצד שלישי אלא אם שולמה בעדן, עם הגשתן, אגרה של 1% משווי התביעה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "jurisdiction-internet-reg2b",
+      "claim": "תקנה 2 (reg. 2(b)): a claim over internet publication or commerce is filed only where the defendant or the plaintiff lives or has a place of business.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "תובענה בשל פרסום או סחר ברשת האינטרנט תוגש לבית המשפט שבאזור שיפוטו מצוי מקום מגוריו או מקום עסקו של הנתבע או מקום מגוריו או מקום עסקו של התובע, בלבד",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "jurisdiction-general-reg2a",
+      "claim": "Reg. 2(a): the grounds are the defendant's residence or place of business and the place of the act or omission, notwithstanding any agreement; a counterclaim goes where the original claim was filed.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "מקום המעשה או המחדל שבשלו תובעים",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "set-aside-reg12",
+      "claim": "Reg. 12: a decision given in a party's absence can be set aside on a request filed within 30 days of the day it was served.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "והגיש בעל דין בקשה לביטולה תוך 30 ימים מיום שהומצאה לו ההחלטה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-from-date-given",
+      "claim": "תקנה 16 (reg. 16(a)) as amended: 30 days from the day the judgment or decision was given.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "הוא 30 ימים מיום מתן פסק הדין או ההחלטה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "execution-warning-20-days",
+      "claim": "Execution Law סעיף 7 (s.7(a)): the debtor has 20 days from service of the warning to comply or apply for an installments order.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C&action=raw",
+      "raw_snippet": "והכל בתוך תקופה של 20 ימים מיום המצאת האזהרה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "appeal-no-compromise-79a",
+      "claim": "Kol Zchut: no appeal from a judgment given by way of compromise (the page writes 79(א); the statutory provision is Courts Law section 79A(a), see courts-79a-compromise).",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "אי-אפשר לערער על פסק דין שניתן במסגרת הליך פשרה לפי סעיף 79(א) לחוק בתי המשפט",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "online-filing-computer-id",
+      "claim": "Digital filing is done from a computer, not a mobile phone, on the Judicial Authority site with national identification.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "יש להיכנס דרך המחשב (לא מטלפון נייד) אל אתר הרשות השופטת",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "online-filing-pdf-30mb",
+      "claim": "Only PDF files up to 30 MB in total may be attached to an online claim.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "ניתן לצרף לכתב התביעה רק קובצי PDF במשקל כולל של עד 30 מגה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "paper-filing-3-copies",
+      "claim": "A paper claim is filed in 3 full copies, plus a full copy for each additional defendant.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "את כתב התביעה בצירוף הנספחים צריך להגיש ב-3 עותקים מלאים",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "info-center-3852",
+      "claim": "The Judicial Authority information center number is *3852, listed on Kol Zchut's small claims page.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "077-2703333 או *3852",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fee-exemption-request",
+      "claim": "A party who has difficulty paying can file a fee-exemption request form at the court clerk's office or on Net HaMishpat.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "מי שמתקשה כלכלית לשלם את האגרה יכול למלא ולהגיש טופס בקשה לפטור מתשלום אגרה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/filing-fee-calculator.py"
+      ]
+    },
+    {
+      "claim_id": "appeal-fee-588-2026",
+      "claim": "The 2026 court fees notice sets the fee for a leave-to-appeal request on a small claims judgment at NIS 588 (588 ש\"ח).",
+      "source_url": "https://www.gov.il/BlobFolder/generalpage/fees_16/ar/8869-11-19_fees_cf1126.pdf",
+      "raw_snippet": "בר\"ע על פסק דין של בית משפט לתביעות קטנות",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-09-13"
+    },
+    {
+      "claim_id": "non-attendance-reg11",
+      "claim": "תקנה 11 (reg. 11): if neither party appears the claim is struck; if the plaintiff appears and the defendant does not, judgment is given on the claim once the plaintiff affirms it; if the defendant appears and the plaintiff does not, the claim is dismissed.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "התייצב הנתבע והתובע לא התייצב – תידחה התביעה",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-defence-reg10",
+      "claim": "Reg. 10: where no defence was filed the court gives judgment on the statement of claim alone, but may invite the parties to argue.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "יתן בית המשפט פסק דין על יסוד כתב התביעה בלבד",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-defence-usually-heard",
+      "claim": "Kol Zchut: the court usually does not grant judgment for lack of a defence and lets the defendant argue at the hearing.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "בדרך כלל בית המשפט לא ייענה לבקשה כזאת",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "defence-3-copies-no-fax",
+      "claim": "A defence with its attachments is filed in 3 copies at the clerk's office, on Net HaMishpat, or by mail, not by fax.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "אין לשלוח כתב הגנה בפקס",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "service-60-days-before-hearing",
+      "claim": "Reg. 7(b1): if the claim was not served by 60 days before the hearing, the plaintiff serves it at least 40 days before the hearing.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "ימציא התובע או מי מטעמו את כתב התביעה לנמענים 40 ימים לפחות לפני הדיון",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "individual-claim-s60a",
+      "claim": "Courts Law סעיף 60 (s.60(a)): the small claims court hears a civil claim filed by an individual.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "travel-ban-registrar-s14",
+      "claim": "Execution Law סעיף 14 (s.14): the Execution Office registrar may order a travel ban where the debtor is about to leave Israel without paying.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C&action=raw",
+      "raw_snippet": "רשאי הוא לצוות על עיכוב יציאתו מן",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "costs-300-400",
+      "claim": "The loser usually pays the winner costs of about NIS 300 (300 ש\"ח) to NIS 400 (400 ש\"ח), sometimes more.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "גובה הוצאות המשפט עומד בדרך כלל על כ-400-300",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "fee-usually-repaid",
+      "claim": "If the claim is accepted the court will usually order the defendant to repay the filing fee, but it is not obliged to.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "בית המשפט לא חייב להורות על תשלום הוצאות המשפט או האגרה",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "hearing-formats",
+      "claim": "The court decides whether the hearing is in person, by electronic means such as a conference or video call, or decided on the pleadings.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "דיון שיתקיים באמצעים אלקטרוניים כמו שיחת ועידה, או שיחת וידאו",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "compromise-79a-offer",
+      "claim": "Kol Zchut: under section 79(a) as the page writes it (statutory 79A(a)) the judge may ask for consent to decide at discretion on the documents in the file and give judgment without reasons; parties need not agree.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "הצדדים לא חייבים להסכים להליך כזה",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-appeal-as-of-right",
+      "claim": "There is no automatic appeal as of right from a small claims judgment.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "אי-אפשר לערער באופן אוטומטי",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "examples-defamation-spam",
+      "claim": "Kol Zchut lists compensation for defamation, spam and discrimination at entry to public places as small claims.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "תביעת פיצויים בגלל טענת לשון הרע",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "examples-insurer",
+      "claim": "Kol Zchut lists a money claim against an insurer that did not pay insurance money as a small claim.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "תביעה כספית נגד חברת ביטוח שלא שילמה",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "public-body-defendant",
+      "claim": "A claim may be filed against a person, a business, a company or a public body.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "או בית עסק, או חברה, או גוף ציבורי",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "magistrate-excl-land",
+      "claim": "The Magistrate Court ceiling covers civil claims other than land claims.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "למעט תביעות הנוגעות למקרקעין",
+      "fetched_at": "2026-09-13T13:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg3-five-pages",
+      "claim": "תקנה 3 (reg. 3(e)), proceedings opened from 11.4.2025: the body of the claim may not exceed 5 pages (חמישה עמודים).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "גוף כתב התביעה לא יעלה על חמישה עמודים",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg3-claims-last-year",
+      "claim": "Reg. 3(c)(7): the claim states the number of small claims the plaintiff filed in the past year.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "מספר התביעות הקטנות שהגיש במהלך השנה האחרונה",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg3-truth-declaration",
+      "claim": "Reg. 3(d)(2): attach a declaration that the contents are true or to the best of knowledge, with the source of knowledge.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "הצהרה שלפיה כל האמור בכתב התביעה הוא אמת או למיטב ידיעתו של התובע, לרבות ציון המקור לידיעתו",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg3-witness-list",
+      "claim": "Reg. 3(c)(5): the claim lists the witnesses the plaintiff intends to call.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "רשימת העדים שבכוונתו להעיד לתמיכה בתביעה",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg16a-recess-counts",
+      "claim": "Reg. 16A(b): court recess days count toward periods under the regulations unless the court orders otherwise.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "תקופת פגרה של בית המשפט תובא במניין הימים שנקבעו בתקנות אלה",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reg16a-service-trigger",
+      "claim": "Reg. 16A(a): periods run from the day the document was served; for a decision given in the parties' presence, from the hearing date.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "המועד הקובע לתחילת מניין הימים לפרק הזמן שנקבע הוא יום המצאת המסמך",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "courts-79a-compromise",
+      "claim": "Courts Law section 79A(a) (סעיף 79א): with the parties' consent the court may decide by way of compromise.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "רשאי, בהסכמת בעלי הדין, לפסוק בענין שלפניו, כולו או מקצתו, בדרך של פשרה",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "travel-ban-50000-floor",
+      "claim": "Execution Law סעיף 14 (s.14(e)(1)): no travel ban where the debtor's total adjudged debts in execution files are under NIS 50,000 (50,000 ש\"ח).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%95%D7%A6%D7%90%D7%94_%D7%9C%D7%A4%D7%95%D7%A2%D7%9C&action=raw",
+      "raw_snippet": "אם סך החובות הפסוקים בתיקי ההוצאה לפועל של החייב קטן מ־50,000 שקלים חדשים",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form1-repealed",
+      "claim": "The schedule's Form 1 (טופס 1) claim form was repealed for proceedings opened from 11.4.2025.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "בוטל ביום 11.4.2025, הביטול חל על הליכים שנפתחו החל מהמועד האמור",
+      "fetched_at": "2026-09-13T14:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "no-service-may-be-struck",
+      "claim": "Without proof of service on the defendant the judge cannot hear the case and the claim may be struck.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "השופט לא יוכל לדון בתיק והתביעה עלולה להימחק",
+      "fetched_at": "2026-09-13T14:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "courts-62a-evidence",
+      "claim": "Courts Law section 62(a): the small claims court may accept evidence even if inadmissible in another court.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "בית משפט לתביעות קטנות יהיה רשאי לקבל ראיה אף אם לא היתה קבילה בבית משפט אחר",
+      "fetched_at": "2026-09-13T14:40:00Z",
+      "appears_in": [
+        "references/evidence-guide.md"
+      ]
+    },
+    {
+      "claim_id": "courts-63a-lawyer-leave",
+      "claim": "Courts Law סעיף 63 (section 63(a)): representation by a lawyer only with the court's leave and for special reasons recorded.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "על ידי עורך דין יהיה רק ברשות בית המשפט ומטעמים מיוחדים שיירשמו",
+      "fetched_at": "2026-09-13T14:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "courts-63b-lay-representative",
+      "claim": "Courts Law סעיף 63 (section 63(b)): with court approval and a filed power of attorney a person may represent a party, but not one who represents regularly, in the ordinary course of business, or for consideration.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%94%D7%9E%D7%A9%D7%A4%D7%98&action=raw",
+      "raw_snippet": "אם הייצוג נעשה בתמורה",
+      "fetched_at": "2026-09-13T14:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-page-title",
+      "claim": "Kol Zchut's small claims filing page is the Hebrew step-by-step guide cited by the skill.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "הגשת תביעה קטנה",
+      "fetched_at": "2026-09-13T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "summons-registered-mail",
+      "claim": "After filing, the court sends both parties a hearing summons by registered mail with delivery confirmation, and the defendant receives a copy of the claim.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "בית המשפט ישלח לתובע ולנתבע הזמנה לדיון בדואר רשום עם אישור מסירה",
+      "fetched_at": "2026-09-13T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "compromise-without-reasons",
+      "claim": "Kol Zchut: a compromise ruling is given on the documents in the file without reasons.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%A7%D7%98%D7%A0%D7%94",
+      "raw_snippet": "ולתת פסק דין ללא נימוקים",
+      "fetched_at": "2026-09-13T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "counterclaim-defence-30-days",
+      "claim": "תקנה 5 (reg. 5(b)): the plaintiff is invited to file a defence within 30 days of service of the counterclaim.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%A9%D7%99%D7%A4%D7%95%D7%98_%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%95%D7%AA_%D7%A7%D7%98%D7%A0%D7%95%D7%AA_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29&action=raw",
+      "raw_snippet": "מוזמן להגיש כתב הגנה תוך 30 ימים מיום המצאת התביעה שכנגד",
+      "fetched_at": "2026-09-13T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cpl-14c-distance-sale",
+      "claim": "Consumer Protection Law סעיף 14ג (section 14C) governs a distance sale transaction.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F&action=raw",
+      "raw_snippet": "בעסקת מכר מרחוק יספק העוסק לצרכן בכתב",
+      "fetched_at": "2026-09-13T15:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}

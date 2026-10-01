@@ -5,11 +5,28 @@ description: Supports compliance with the EU Artificial Intelligence Act (Regula
 author: morellid
 author_url: https://github.com/morellid/ai-act-skill
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
 language: en
+sources:
+- title: Ai Act Annex Iii High Risk List
+  path: references/extracts/ai-act-annex-iii-high-risk-list.md
+- title: Ai Act Art 26 27 Deployer Fria
+  path: references/extracts/ai-act-art-26-27-deployer-fria.md
+- title: Ai Act Art 3 Definitions
+  path: references/extracts/ai-act-art-3-definitions.md
+- title: Ai Act Art 5 Prohibited
+  path: references/extracts/ai-act-art-5-prohibited.md
+- title: Ai Act Art 50 Transparency
+  path: references/extracts/ai-act-art-50-transparency.md
+- title: Ai Act Art 51 55 Gpai
+  path: references/extracts/ai-act-art-51-55-gpai.md
+- title: Ai Act Art 6 9 High Risk Classification
+  path: references/extracts/ai-act-art-6-9-high-risk-classification.md
+- title: Ec Art50 Transparency Guidelines
+  path: references/extracts/ec-art50-transparency-guidelines.md
 ---
 
 # AI Act Compliance
@@ -37,9 +54,11 @@ Use when someone needs to:
 
 ## Disclaimer
 
-This skill is a support tool for compliance work, not a substitute for qualified legal or technical counsel. The AI Act is recent legislation with phased application (most obligations between 2 February 2025 and 2 August 2027) and the harmonised standards under preparation by CEN-CENELEC JTC 21 are not yet published. **Outputs require review by competent counsel and, for high-risk systems, by a notified body where applicable.** Penalties under Article 99 reach EUR 35 million or 7% of total worldwide annual turnover for prohibited-practice violations.
+This skill is a support tool for compliance work, not a substitute for qualified legal or technical counsel. The AI Act is recent legislation with phased application (obligations phased between 2 February 2025 and 2 August 2028) and the harmonised standards under preparation by CEN-CENELEC JTC 21 are not yet published. **Outputs require review by competent counsel and, for high-risk systems, by a notified body where applicable.** Penalties under Article 99 reach EUR 35 million or 7% of total worldwide annual turnover for prohibited-practice violations.
 
-**Pending: Digital Omnibus on AI.** Provisional political agreement reached on **7 May 2026** between the European Parliament and the Council on the Commission's 19 November 2025 proposal. The agreement: (i) shifts high-risk obligations to **2 December 2027** (Annex III stand-alone systems and Article 50 transparency) and **2 August 2028** (Annex I embedded safety components); (ii) adds a new Article 5 prohibition on AI systems generating non-consensual intimate imagery ("nudifier apps") and CSAM, with **2 December 2026** compliance once in force; (iii) narrows the "safety component" definition (excludes assistive or performance-optimising AI from Annex I high-risk); (iv) extends SME exemptions to small mid-cap enterprises; (v) streamlines GPAI enforcement through the EU AI Office. Formal adoption and OJ publication are pending (co-legislator target: before 2 August 2026). Until OJ publication, the binding deadlines remain the original Article 113 calendar and the new Article 5 prohibition is not yet in force. Article 4 (AI literacy) and the existing Article 5 prohibitions — in force since 2 February 2025 — and Chapter V GPAI obligations — in force since 2 August 2025 — are not affected. Skill outputs should mention the pending change whenever 2 August 2026 high-risk or Article 50 deadlines are cited, and flag systems that may fall under the future nudifier/CSAM prohibition.
+**In force: Digital Omnibus on AI — Regulation (EU) 2026/1744.** Published in the OJ on 24 July 2026, in force since 27 July 2026. It: (i) defers the **Chapter III high-risk** dates to **2 December 2027** (Annex III stand-alone systems) and **2 August 2028** (Annex I embedded safety components); (ii) adds new Article 5(1) points **(ba)** and **(bb)** prohibiting AI systems generating non-consensual intimate imagery ("nudifier apps") and CSAM, applicable from **2 December 2026** (see Art. 5(1a): safeguards are relevant only where the prohibited output is a foreseeable outcome, not where it is the intended purpose); (iii) narrows the "safety component" definition in Art. 3(14); (iv) extends SME simplifications to small mid-cap enterprises; (v) centralises GPAI enforcement in the EU AI Office.
+
+**Article 50 was NOT deferred.** Transparency obligations under Article 50 have applied since **2 August 2026** and are enforceable now. The only relief is a targeted transitional period for the **Art. 50(2) marking and detection** duty: generative AI systems placed on the market or put into service before 2 August 2026 have until **2 December 2026** to comply. The Art. 50(1) disclosure duty applies from 2 August 2026 with no transitional period. Confirmed by the Commission's Article 50 Guidelines, C(2026) 5054 final, points 2 and 153.
 
 ## Sub-tasks
 
@@ -60,7 +79,7 @@ If the request is generic ("help me with the AI Act"), start with classification
 2. Run classification first (`classify-system.md`) unless explicitly stated.
 3. Based on classification, route to the relevant obligations task.
 4. For each obligation, capture: applicable? met? gap analysis? remediation steps?
-5. Always include applicable dates of application (the AI Act phases obligations; some rules already in force, others up to August 2027). Where the cited deadline is one that the **Digital Omnibus on AI** (provisional political agreement 7 May 2026, formal adoption pending) would shift — i.e., 2 August 2026 high-risk Annex III and Article 50 transparency, and 2 August 2027 Annex I embedded — flag the pending move to 2 December 2027 / 2 August 2028 in the output. If the system might fall under the agreed-but-not-yet-in-force prohibition on non-consensual intimate imagery / CSAM (compliance deadline 2 December 2026 once published in the OJ), flag that too.
+5. Always include applicable dates of application, as amended by Reg. (EU) 2026/1744: prohibitions and AI literacy **2 February 2025**; GPAI, penalties and governance **2 August 2025**; **Article 50 transparency 2 August 2026 (in force)**; new Art. 5(1)(ba)/(bb) NCII and CSAM prohibitions **2 December 2026**; high-risk Annex III **2 December 2027**; high-risk Annex I embedded **2 August 2028**. Never present Article 50 as deferred. If the system might fall under the new prohibition on non-consensual intimate imagery / CSAM, flag the 2 December 2026 deadline.
 6. Conclude with the appropriate disclaimer and a call to legal review.
 
 ## Sources
@@ -68,13 +87,16 @@ If the request is generic ("help me with the AI Act"), start with classification
 Authoritative references in [`references/sources.yaml`](references/sources.yaml). Primary:
 
 - **Regulation (EU) 2024/1689** (the AI Act) — Articles cited: 3, 5, 6, 9, 10, 14, 15, 16, 22, 26, 27, 50, 51, 53, 55, 99; Annex III
+- **Regulation (EU) 2026/1744** (Digital Omnibus on AI, in force 27 July 2026) — amends the Art. 113 calendar and Article 5
+- **Commission Guidelines on Article 50 transparency obligations** (C(2026) 5054 final, 20 July 2026) — the Commission's official interpretation of Article 50; **non-binding** (only the CJEU can interpret authoritatively). Extract in [`references/extracts/ec-art50-transparency-guidelines.md`](references/extracts/ec-art50-transparency-guidelines.md)
 - **GPAI Code of Practice** (final version July 2025) — voluntary tool to demonstrate compliance with Article 53
+- **Code of Practice on Transparency of AI-generated Content** (final 10 June 2026) — voluntary tool to demonstrate compliance with Article 50(2), (4) and (5)
 - **Commission Guidelines on the scope of obligations for providers of GPAI models** (July 2025)
 - **CEN-CENELEC JTC 21** — harmonised standards under preparation (track the published list at <https://digital-strategy.ec.europa.eu/en/policies/ai-act-standardisation>)
 
 Pending (track, treat as indicative until finalised):
 
-- **Commission draft Article 50 transparency guidelines** (8 May 2026, public consultation until 3 June 2026) — `sources.yaml` id `ec-art50-transparency-guidelines-draft-2026`. Will become the authoritative Commission interpretation of Article 50 once final; promote to a primary source with a textual extract at that point.
+- **Commission draft guidelines on the classification of high-risk AI systems** (19 May 2026) — `sources.yaml` id `ec-high-risk-classification-guidelines-draft-2026`. Required by Article 96 AI Act. Targeted consultation closed 23 July 2026; final version expected Q3 2026, ahead of the 2 December 2027 Annex III date. Will become the Commission's official (non-binding) interpretation of Article 6 and Annex III (safety-component test, Annex III use-case examples, Art. 6(3) derogation) once final; promote to a primary source with a textual extract at that point.
 
 Textual extracts of the cited articles in [`references/extracts/`](references/extracts/).
 

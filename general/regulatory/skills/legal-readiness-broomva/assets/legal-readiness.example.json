@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "project": {
+    "name": "Replace with project name",
+    "repository": "https://github.com/example/example-project",
+    "base_url": "https://example.com",
+    "template": true,
+    "template_marker": "REMOVE-BEFORE-VALIDATION"
+  },
+  "scope": {
+    "operator": {
+      "status": "unverified",
+      "name": "Operator record pending verification",
+      "evidence": []
+    },
+    "jurisdictions": [
+      {
+        "id": "jurisdiction-unresolved",
+        "name": "Operator/customer jurisdiction unresolved",
+        "status": "unknown",
+        "basis": "Exact operator, customer, targeting, and processing nexus has not been verified.",
+        "evidence": [],
+        "next_gate": "Verify registry, tax, operator, customer, targeting, and processing facts with qualified professionals."
+      }
+    ],
+    "channels": ["web"],
+    "customer_types": ["consumer", "business"],
+    "data_roles": ["unknown pending data map"],
+    "sales_territories": ["unresolved; self-service sales remain disabled"]
+  },
+  "sources": [],
+  "coverage": {
+    "claim_surfaces": [
+      {"id": "public-marketing", "status": "not-audited", "owner": "Legal readiness owner", "evidence": [], "next_gate": "Inventory every public marketing claim."},
+      {"id": "pricing-checkout", "status": "not-audited", "owner": "Commercial owner", "evidence": [], "next_gate": "Inventory pricing, checkout, renewal, refund, and invoice claims."},
+      {"id": "signup-auth-consent", "status": "not-audited", "owner": "Product owner", "evidence": [], "next_gate": "Audit signup, authentication, assent, authorization, and age flows."},
+      {"id": "product-ui-api", "status": "not-audited", "owner": "Engineering owner", "evidence": [], "next_gate": "Audit product UI, APIs, server actions, jobs, and bypass paths."},
+      {"id": "machine-readable-docs", "status": "not-audited", "owner": "Documentation owner", "evidence": [], "next_gate": "Audit llms, API, structured-data, and other machine-readable surfaces."},
+      {"id": "legal-policies", "status": "not-audited", "owner": "Legal readiness owner", "evidence": [], "next_gate": "Audit Terms, Privacy, cookies, security, subprocessors, and notices."},
+      {"id": "security-disclosures", "status": "not-audited", "owner": "Security owner", "evidence": [], "next_gate": "Audit security claims, headers, vulnerability disclosure, and incident promises."},
+      {"id": "sales-contracts", "status": "not-audited", "owner": "Commercial owner", "evidence": [], "next_gate": "Inventory sales decks, order forms, MSAs, DPAs, SLAs, and support promises."},
+      {"id": "code-config-tests", "status": "not-audited", "owner": "Engineering owner", "evidence": [], "next_gate": "Trace claims through code, configuration, schemas, migrations, and tests."},
+      {"id": "audit-handoffs", "status": "not-audited", "owner": "Audit owner", "evidence": [], "next_gate": "Inventory claims in prior audits, handoffs, tickets, and release notes."},
+      {"id": "vendors-operations", "status": "not-audited", "owner": "Operations owner", "evidence": [], "next_gate": "Inventory vendors, dashboards, contracts, runbooks, support, and operational evidence."},
+      {"id": "historical-state", "status": "not-audited", "owner": "Data owner", "evidence": [], "next_gate": "Assess legacy data, tokens, invoices, public objects, and prior user reliance."}
+    ],
+    "issue_areas": [
+      {"id": "operator-authority", "status": "not-audited", "owner": "Founder and counsel", "evidence": [], "next_gate": "Verify operator identity, authority, registrations, and public contact facts."},
+      {"id": "terms-assent", "status": "not-audited", "owner": "Legal readiness owner", "evidence": [], "next_gate": "Audit terms content, assent, versioning, amendments, and mandatory-rights limits."},
+      {"id": "privacy-authorization", "status": "not-audited", "owner": "Privacy owner", "evidence": [], "next_gate": "Build the data map and assess notices, purposes, bases or authorization, and rights."},
+      {"id": "children-minors", "status": "not-audited", "owner": "Product owner", "evidence": [], "next_gate": "Verify and enforce the supported-age posture."},
+      {"id": "ai-transparency-safety", "status": "not-audited", "owner": "AI owner", "evidence": [], "next_gate": "Classify AI roles, disclosures, risks, providers, and human escalation."},
+      {"id": "product-commercial-claims", "status": "not-audited", "owner": "Commercial owner", "evidence": [], "next_gate": "Substantiate product, pricing, SLA, security, and support claims."},
+      {"id": "payments-renewals", "status": "not-audited", "owner": "Billing owner", "evidence": [], "next_gate": "Audit merchant, price, currency, tax, renewal, remedies, receipt, and cancellation."},
+      {"id": "vendors-transfers", "status": "not-audited", "owner": "Privacy owner", "evidence": [], "next_gate": "Map recipients, processors, transfers, locations, terms, settings, and subprocessors."},
+      {"id": "security-incidents", "status": "not-audited", "owner": "Security owner", "evidence": [], "next_gate": "Audit access, isolation, storage, logs, incident clocks, owners, and exercises."},
+      {"id": "retention-rights", "status": "not-audited", "owner": "Data owner", "evidence": [], "next_gate": "Define retention, deletion, backup, legal-hold, and rights-operation evidence."},
+      {"id": "ip-open-source", "status": "not-audited", "owner": "IP owner", "evidence": [], "next_gate": "Audit hosted/OSS boundaries, dependencies, contributors, and AI input/output terms."},
+      {"id": "accessibility-marketing-export", "status": "not-audited", "owner": "Compliance owner", "evidence": [], "next_gate": "Decide accessibility, direct-marketing, sanctions, and export applicability."},
+      {"id": "insurance-msa-dpa-sla", "status": "not-audited", "owner": "Commercial owner", "evidence": [], "next_gate": "Verify executed and operationally supportable insurance and contract controls."},
+      {"id": "tax-registrations", "status": "not-audited", "owner": "Founder and tax counsel", "evidence": [], "next_gate": "Obtain jurisdiction-specific tax, registration, invoicing, and filing determinations."}
+    ]
+  },
+  "claims": [
+    {
+      "id": "claim-pricing-allocation",
+      "claim": "The public credit allocation matches billing enforcement.",
+      "surface": "pricing, billing documentation, configuration, and runtime",
+      "type": "commercial",
+      "verdict": "unverified",
+      "applicability": "Current hosted product; exact plan behavior has not been audited.",
+      "jurisdiction_ids": ["jurisdiction-unresolved"],
+      "source_ids": [],
+      "evidence": [],
+      "risk_ids": ["risk-commercial-claims"],
+      "owner": "Commercial owner",
+      "next_gate": "Compare every public plan claim with configuration, billing routes, webhooks, invoices, and tests."
+    },
+    {
+      "id": "claim-overall-compliance",
+      "claim": "The product is fully compliant in every supported market.",
+      "surface": "placeholder prior handoff claim",
+      "type": "legal-obligation",
+      "verdict": "unverified",
+      "applicability": "Supported markets, operator, legal sources, and operating evidence are unresolved.",
+      "jurisdiction_ids": ["jurisdiction-unresolved"],
+      "source_ids": [],
+      "evidence": [],
+      "risk_ids": ["risk-operator-unverified"],
+      "owner": "Legal readiness owner",
+      "next_gate": "Withdraw the broad claim and obtain bounded jurisdiction-specific review before any replacement statement."
+    }
+  ],
+  "controls": [
+    {
+      "id": "control-self-service-sales",
+      "area": "payment and consumer launch gate",
+      "status": "blocked-external",
+      "applicability": "Potential recurring purchase flow with unresolved operator, tax, territory, and remedy facts.",
+      "evidence": [],
+      "risk_ids": ["risk-operator-unverified", "risk-commercial-claims"],
+      "owner": "Commercial owner",
+      "next_gate": "Keep self-service checkout disabled until operator, territory, tax, pricing, assent, remedies, and cancellation evidence is validated."
+    },
+    {
+      "id": "control-security-surface",
+      "area": "public vulnerability disclosure and security claims",
+      "status": "open",
+      "applicability": "Public web origin; no live probe has been run from this template.",
+      "evidence": [],
+      "risk_ids": ["risk-public-surfaces"],
+      "owner": "Security owner",
+      "next_gate": "Publish the authorized surface, test mailbox/policy scope, then capture a hash-bound live receipt."
+    }
+  ],
+  "residual_risks": [
+    {
+      "id": "risk-operator-unverified",
+      "severity": "p0",
+      "status": "open",
+      "risk": "The exact operator identity, authority, and registrations are unverified.",
+      "owner": "Founder and licensed counsel",
+      "closure_evidence": "Current registry/tax receipts, contracting authority, and counsel-validated public identity fields.",
+      "evidence": []
+    },
+    {
+      "id": "risk-commercial-claims",
+      "severity": "p1",
+      "status": "open",
+      "risk": "Commercial and billing claims have not been reconciled with enforcement.",
+      "owner": "Commercial owner",
+      "closure_evidence": "Complete claim ledger with code, route, invoice, and interaction receipts.",
+      "evidence": []
+    },
+    {
+      "id": "risk-public-surfaces",
+      "severity": "p1",
+      "status": "open",
+      "risk": "Declared legal and security surfaces have not been probed or substantively reviewed.",
+      "owner": "Security owner",
+      "closure_evidence": "Manifest-hash-bound probe plus authorized content and operational review receipts.",
+      "evidence": []
+    }
+  ],
+  "launch_disposition": {
+    "status": "blocked",
+    "rationale": "Launch is blocked by the linked residual risks.",
+    "owner": "Founder and legal readiness owner",
+    "risk_ids": ["risk-operator-unverified", "risk-commercial-claims", "risk-public-surfaces"]
+  },
+  "lifecycle": {
+    "state": "worktree",
+    "receipts": []
+  },
+  "completion_statement": "Overall legal compliance is not claimed. Launch disposition: blocked. See the claim, coverage, control, residual-risk, and lifecycle records.",
+  "legal_boundary": "This record organizes engineering and legal issue spotting. It is not legal advice or a legal opinion, does not approve launch, and does not replace licensed counsel.",
+  "surfaces": [
+    {"path": "/terms", "expect_status": 200, "expect_content_type": "text/html", "expect_headers": {}},
+    {"path": "/.well-known/security.txt", "expect_status": 200, "expect_content_type": "text/plain", "expect_headers": {"Content-Type": "text/plain"}}
+  ]
+}

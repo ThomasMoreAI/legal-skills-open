@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Employment Rights"
+  short_description: "Poland Employment Rights: run focused tasks"
+policy:
+  allow_implicit_invocation: false

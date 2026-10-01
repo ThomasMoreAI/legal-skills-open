@@ -1,0 +1,14 @@
+{
+  "name": "at-general",
+  "displayName": "General — Austria",
+  "version": "0.1.0",
+  "description": "General skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/legal-momarcode1"
+  ]
+}

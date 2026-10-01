@@ -1,0 +1,14 @@
+{
+  "name": "sa-cybersecurity",
+  "displayName": "Cybersecurity & Information Security — Saudi Arabia",
+  "version": "0.1.0",
+  "description": "Cybersecurity & Information Security skills under the law of Saudi Arabia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "cybersecurity",
+  "language": "en",
+  "skills": [
+    "skills/saudi-arabia-grc-sushegaad"
+  ]
+}

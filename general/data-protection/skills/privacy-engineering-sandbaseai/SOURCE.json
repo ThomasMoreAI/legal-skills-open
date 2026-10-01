@@ -1,0 +1,14 @@
+{
+  "adaptation": {
+    "missing_resources": [],
+    "packaged_resources": [],
+    "security_signals": [],
+    "tool": "manual WorkBuddy adaptation"
+  },
+  "catalog_id": "github:briiirussell/cybersecurity-skills:skills/privacy-engineering/SKILL.md",
+  "declared_source_license": "MIT",
+  "path": "skills/privacy-engineering/SKILL.md",
+  "repository": "briiirussell/cybersecurity-skills",
+  "sha": "6c109e5052bcf9cdf425de7da2621bd3af36bb6b",
+  "source_url": "https://github.com/briiirussell/cybersecurity-skills/blob/6c109e5052bcf9cdf425de7da2621bd3af36bb6b/skills/privacy-engineering/SKILL.md"
+}

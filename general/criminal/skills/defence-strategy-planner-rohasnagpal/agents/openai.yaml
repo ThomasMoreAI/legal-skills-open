@@ -1,0 +1,4 @@
+interface:
+  display_name: "Defence Strategy Planner"
+  short_description: "Build evidence-led criminal defence strategies"
+  default_prompt: "Use $defence-strategy-planner to build a lawful defence theory, issue map, evidence plan, and decision timeline."

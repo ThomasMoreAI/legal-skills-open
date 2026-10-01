@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regulatory Change Monitor"
+  short_description: "Track official regulatory changes and impacts"
+  default_prompt: "Use $regulatory-change-monitor to compare these official regulatory sources against the baseline and produce an impact and action report."

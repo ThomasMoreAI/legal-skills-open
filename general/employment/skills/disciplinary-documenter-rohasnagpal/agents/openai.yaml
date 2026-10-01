@@ -1,0 +1,4 @@
+interface:
+  display_name: "Disciplinary Documenter"
+  short_description: "Build fair disciplinary records and notices"
+  default_prompt: "Use $disciplinary-documenter to build the notices, hearing record, findings, and decision documents for this disciplinary matter."

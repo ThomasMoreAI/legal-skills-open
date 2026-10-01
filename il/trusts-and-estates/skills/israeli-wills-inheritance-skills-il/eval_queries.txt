@@ -1,0 +1,18 @@
+# Positive (should trigger)
+write me a will leaving my apartment to my two children
+draft a simple Israeli will
+do I need a lawyer to make a valid will in Israel
+how do I deposit my will with the inheritance registrar
+my father died without a will, how do I get a succession order
+תנסח לי צוואה שמשאירה את הבית לילדים
+צו קיום צוואה איך מגישים לרשם לענייני ירושה
+
+# Negative (should NOT trigger)
+set up an enduring power of attorney for my elderly mother
+my siblings are fighting over the estate and I want to sue them
+appoint a guardian for an incapacitated adult
+how much US estate tax will I owe on my inheritance
+
+# Edge cases
+I want a mutual will with my spouse
+how is the estate divided if there is no will

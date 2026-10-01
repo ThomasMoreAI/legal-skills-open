@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sentencing Analyst"
+  short_description: "Analyse sentencing ranges and mitigation"
+  default_prompt: "Use $sentencing-analyst to map the lawful sentencing range, aggravating and mitigating factors, and evidence needed."

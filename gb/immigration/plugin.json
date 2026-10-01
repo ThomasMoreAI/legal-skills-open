@@ -1,0 +1,14 @@
+{
+  "name": "gb-immigration",
+  "displayName": "Immigration — United Kingdom",
+  "version": "0.1.0",
+  "description": "Immigration skills under the law of United Kingdom.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "immigration",
+  "language": "en",
+  "skills": [
+    "skills/apostille-torlyai"
+  ]
+}

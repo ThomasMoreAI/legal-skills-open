@@ -1,15 +1,20 @@
 ---
 name: regdata-compliance
 title: Consumer Protection & ESG Compliance - Polish Government Registries
-description: Extract data from Poland's UOKiK abusive clauses registry (7,500+ court-ruled prohibited contract clauses, rejestr klauzul niedozwolonych) and BDO waste management registry (674,000+ registered waste entities, Baza danych o odpadach). Two specific Polish government registries - UOKiK for checking contract clauses against court rulings, BDO for verifying waste management registrations. Use when user mentions UOKiK, rejestr klauzul niedozwolonych, Polish abusive clauses, BDO rejestr, Polish waste registry, or needs to search these specific registries.
+description: Extract data from Poland's UOKiK abusive clauses registry (court-ruled prohibited contract clauses, rejestr klauzul niedozwolonych) and BDO waste management registry (registered waste entities, Baza danych o odpadach). Two specific Polish government registries - UOKiK for checking contract clauses against court rulings, BDO for verifying waste management registrations. Use when user mentions UOKiK, rejestr klauzul niedozwolonych, Polish abusive clauses, BDO rejestr, Polish waste registry, or needs to search these specific registries.
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: regulatory
 language: en
+sources:
+- title: Clause Categories
+  path: references/clause-categories.md
+- title: Waste Codes
+  path: references/waste-codes.md
 ---
 
 # Consumer Protection & ESG Compliance - Polish Government Registries
@@ -158,32 +163,48 @@ Registration is mandatory for:
 - **Producers and importers** of products subject to extended producer responsibility (packaging, electronics, batteries, vehicles)
 - **Organizations managing recovery** of packaging and product waste
 
+### What the Public BDO Register Actually Exposes
+
+This is the single most important thing to understand before promising anything to a client.
+
+The public BDO search exposes **only identity and address data**:
+
+- BDO registry number (numer rejestrowy)
+- Company name
+- NIP and NIP EU
+- Address (country, province, district, commune, city, street, postcode)
+
+Registration **status** (aktywny / zawieszony / wykreslony), registration **dates**, **waste codes**, the **table registrations** (dzialy rejestru) and any **permits** are behind a BDO login and are **not** available from the public register. The actor cannot return them, and no public source returns them. Do not present them as available, and do not build a client deliverable that depends on them.
+
+### The Check the Public Data Supports
+
+**"Is this company in the BDO register, and what is its BDO number?"**
+
+That is the whole question the public register answers, and it is a genuinely useful one:
+
+- The entity **appears** in the register -> it is registered in BDO. Record the registry number, the legal name, the NIP and the province as evidence.
+- The entity **does not appear** -> it is not registered. If its activity requires BDO registration (see the list above), that is a hard compliance finding: contracting with an unregistered waste handler exposes your organization to administrative fines.
+
+What you cannot conclude from the public register: whether the registration is currently active or suspended, which activities the entity may lawfully perform, or which waste codes it may handle. To verify those, request the entity's own BDO registration confirmation (potwierdzenie wpisu) or their waste permit directly from them, and cross-check the registry number against what the public register returns.
+
 ### How to Verify a Contractor's Waste Credentials
 
 When auditing a waste management contractor or supply chain partner:
 
 1. **Search by company name or NIP** in the BDO registry
-2. **Confirm registration status** - active, suspended, or deregistered
-3. **Check table registrations** - which tables the entity is registered under determines what activities they are legally permitted to perform (see `references/waste-codes.md`)
-4. **Verify province** - BDO registration is province-specific; confirm the entity is registered in the province where they operate
-5. **Cross-reference with permits** - BDO registration alone may not be sufficient; some activities require separate waste management permits from the Starosta or Marshal
-
-### BDO Registration Status Meanings
-
-| Status | Meaning | Implication |
-|---|---|---|
-| Aktywny (Active) | Entity is registered and in good standing | Can legally perform registered activities |
-| Zawieszony (Suspended) | Registration temporarily suspended | Cannot perform waste activities; investigate why |
-| Wykreślony (Deregistered) | Removed from registry | No longer authorized; contracting is a compliance risk |
+2. **Confirm the entity is present** and capture its BDO registry number - presence in the register means it is registered
+3. **Verify the identity match** - compare the returned company name and NIP against the contract counterparty; a near-name match on a different NIP is a different company
+4. **Verify province** - confirm the registered province is consistent with where the entity says it operates
+5. **Obtain the rest from the counterparty** - status, table registrations and waste codes are login-walled. Ask the contractor for their BDO registration confirmation and waste permit, then check that the registry number on those documents matches what the public register returns
 
 ### ESG Reporting with BDO Data
 
-BDO data maps directly to environmental reporting frameworks:
+BDO data supports environmental reporting frameworks as **registration evidence**, not as waste-flow data:
 
-- **GRI 306 (Waste)** - Use BDO data to verify waste management partners and document the waste disposal chain
-- **CSRD / ESRS E5 (Resource Use and Circular Economy)** - BDO registration tables map to waste categories required by ESRS
-- **ISO 14001** - BDO verification supports the "evaluation of compliance" requirement
-- **Supply chain audits** - Verify that every waste handler in the chain holds valid BDO registration for the specific waste codes they handle
+- **GRI 306 (Waste)** - Use BDO to evidence that each waste partner in the chain is registered; the waste volumes and disposal routes must come from your own records and the contractor's waste transfer documents (karty przekazania odpadu)
+- **CSRD / ESRS E5 (Resource Use and Circular Economy)** - BDO registry numbers document who is in your waste chain. ESRS waste-category figures cannot be derived from BDO public data
+- **ISO 14001** - BDO verification supports the "evaluation of compliance" requirement: it evidences that the contractor is on the register
+- **Supply chain audits** - Verify that every waste handler in the chain appears in BDO. Verification of the specific waste codes they are permitted to handle requires documents obtained from the contractor, not the public register
 
 ## Data Extraction (Actor Gate)
 
@@ -198,7 +219,7 @@ echo ${APIFY_TOKEN:+token_is_set}
 ```
 
 If not set:
-- **Sign up**: https://console.apify.com/sign-up?ref=getregdata (free $5 credits included)
+- **Sign up**: https://apify.com?fpr=getregdata (free $5 credits included)
 - **Set token**: `export APIFY_TOKEN=apify_api_xxxxx`
 
 ### Actor Reference
@@ -290,11 +311,21 @@ Each result contains:
 | `registryNumber` | The entity's BDO registration number |
 | `companyName` | Legal name of the entity |
 | `nip` | Polish Tax Identification Number |
-| `address` | Registered address |
+| `nipEu` | EU VAT number, if the entity has one |
+| `address` | Full registered address as a single string |
+| `country` | Country of registration |
 | `province` | Province (województwo) where registered |
-| `status` | Registration status (Aktywny / Zawieszony / Wykreślony) |
+| `district` | District (powiat) |
+| `commune` | Commune (gmina) |
+| `city` | City / locality |
+| `street` | Street |
+| `postalCode` | Postal code |
+| `companyId` | Internal BDO identifier for the entity |
+| `profileUrl` | Link to the entity's public BDO profile |
 
-**What to check:** An active BDO registration confirms the entity is in the system but does not by itself confirm they are authorized for a specific waste code or activity. For detailed table-level verification, see `references/waste-codes.md`.
+**That is the complete field list.** There is no `status` field, no registration date, no waste codes and no table registrations - that data is behind a BDO login and the public register does not expose it.
+
+**What to check:** A hit in BDO confirms the entity is registered - record the `registryNumber`, `companyName`, `nip` and `province` as your evidence. It does not confirm the registration is currently active, nor that the entity is authorized for a specific waste code or activity. For those, request the entity's own BDO registration confirmation and permits. `references/waste-codes.md` is background legal reference on what the tables and codes mean - it is not actor output.
 
 ## Workflow Examples
 
@@ -316,10 +347,11 @@ User: "Audit this telecom service agreement for abusive clauses"
 User: "Verify our waste contractor is properly registered"
 
 1. Search BDO by company name or NIP
-2. Confirm status is "Aktywny"
-3. Verify province matches operational area
-4. Check table registrations against contracted services
-5. Document findings for ESG report (GRI 306 / ESRS E5)
+2. Confirm the entity appears in the register and capture its BDO registry number
+3. Check the returned name and NIP match the contract counterparty
+4. Verify province is consistent with the operational area
+5. Request the contractor's own BDO registration confirmation and permit for anything status- or waste-code-related (login-walled, not in the public register)
+6. Document findings for ESG report (GRI 306 / ESRS E5) with the BDO registry number as evidence of registration
 ```
 
 ### Example 3: Combined Compliance Check
@@ -328,9 +360,10 @@ User: "Verify our waste contractor is properly registered"
 User: "Full compliance review of this waste management service contract"
 
 1. UOKiK check: Audit the contract terms for abusive clauses
-2. BDO check: Verify the contractor's waste management registration
-3. Cross-reference: Do the contracted services match BDO table registrations?
-4. Deliver combined compliance report
+2. BDO check: Confirm the contractor is present in the waste registry and record its BDO number
+3. Cross-reference: Does the BDO registry number the contractor quotes in the contract match the one in the public register?
+4. Gap note: Flag that status / table registrations / waste codes could not be verified from public data and must be evidenced by documents from the contractor
+5. Deliver combined compliance report
 ```
 
 ## Related Skills

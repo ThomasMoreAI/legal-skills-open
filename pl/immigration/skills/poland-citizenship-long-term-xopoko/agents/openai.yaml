@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Citizenship Long Term"
+  short_description: "Poland Citizenship Long Term: run focused tasks"
+policy:
+  allow_implicit_invocation: false

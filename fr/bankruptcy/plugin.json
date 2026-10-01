@@ -1,0 +1,14 @@
+{
+  "name": "fr-bankruptcy",
+  "displayName": "Bankruptcy & Restructuring — France",
+  "version": "0.1.0",
+  "description": "Bankruptcy & Restructuring skills under the law of France.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "bankruptcy",
+  "language": "fr",
+  "skills": [
+    "skills/bodacc-watch-thewatcher01"
+  ]
+}

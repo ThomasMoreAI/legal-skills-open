@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-tender-proposal-builder",
+  "generated_at": "2026-09-15T11:11:38Z",
+  "claims": [
+    {
+      "claim_id": "takanot-5753-1993-takana-6",
+      "claim": "תקנה 6 of the Mandatory Tenders Regulations sets the threshold conditions for participating in a tender: registration in every registry maintained by law that is relevant to the subject of the contract, plus holding the licences required by law.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
+      "raw_snippet": "6. (א) השתתפות במכרז תהיה מותנית בתנאים הבאים: (1) רישום בכל מירשם המתנהל על פי דין הצריך לענין נושא ההתקשרות וכן קיומם של הרשיונות הנדרשים על פי דין;",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/threshold-conditions.md",
+        "metadata.json"
+      ]
+    },
+    {
+      "claim_id": "chok-5752-1992-covered-bodies",
+      "claim": "Under חוק חובת המכרזים, תשנ\"ב-1992, the State, every government corporation, religious council, health fund and higher-education institution may not enter into a contract for a transaction in goods or land, for the performance of work, or for the purchase of services, other than through a public tender giving every person an equal opportunity to participate.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "המדינה, כל תאגיד ממשלתי, מועצה דתית, קופת חולים ומוסד להשכלה גבוהה לא יתקשרו בחוזה לביצוע עיסקה בטובין או במקרקעין, או לביצוע עבודה, או לרכישת שירותים, אלא על-פי מכרז פומבי הנותן לכל אדם הזדמנות שווה להשתתף בו.",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "metadata.json"
+      ]
+    },
+    {
+      "claim_id": "ref-kolzchut-law",
+      "claim": "Reference link: the kolzchut plain-language page on חוק חובת המכרזים resolves and explains that a tender is required before a public body signs a contract for work or a transaction.",
+      "source_url": "https://www.kolzchut.org.il/he/חוק_חובת_המכרזים",
+      "raw_snippet": "קובע שיש להוציא מכרז לפני חתימת חוזה לביצוע עבודה או עסקה עם גורם ממשלתי",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-nevo-product-preference",
+      "claim": "Reference link: תקנות חובת המכרזים (העדפת תוצרת הארץ), תשנ\"ה-1995 on Nevo resolves.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
+      "raw_snippet": "תקנות חובת המכרזים (העדפת תוצרת הארץ), תשנ\"ה-1995",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israeli-product-preference-15pct",
+      "claim": "Under the Israeli-product preference regulations the tender documents must state that a preference is given, within the price criterion, to offers for Israeli-made goods whose price is not more than 15% above the price of offers for imported goods.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
+      "raw_snippet": "תינתן העדפה בהתאם לתקנות משנה (ד) עד (ח) – במסגרת אמת המידה של המחיר – להצעות לרכישת טובין מתוצרת הארץ שמחירם אינו עולה על מחיר הצעות לרכישת טובין מיובאים בתוספת של 15%",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "israeli-product-preference-divide-115",
+      "claim": "For the re-scoring, the price of the Israeli-made-goods offer is divided by 1.15.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72502.htm",
+      "raw_snippet": "מחיר ההצעה של טובין מתוצרת הארץ מחולק ב-1.15 או 1.10, לפי הענין",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "women-controlled-preference-2b-tiebreak",
+      "claim": "סעיף 2ב of חוק חובת המכרזים gives a woman-controlled business an identical-score tie-breaker: where two or more offers receive the same highest weighted score and one is from a woman-controlled business, that offer is chosen as the winner, provided an accountant's certificate and an affidavit were attached at the time of submission.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "(ב) פורסם מכרז לפי הוראות חוק זה, ולאחר שקלול התוצאות, קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק בשליטת אישה, תיבחר ההצעה האמורה כזוכה במכרז, ובלבד שצורף לה, בעת הגשתה, אישור ותצהיר.",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "women-controlled-definition-over-50pct",
+      "claim": "Under סעיף 2ב, a controlling woman holder is an officer of the business who holds, alone or together with other women, directly or indirectly, more than 50% of any class of the means of control in the business.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "נושאת משרה בעסק אשר מחזיקה, לבד או יחד עם נשים אחרות, במישרין או בעקיפין, בלמעלה מ-50% מכל סוג של אמצעי השליטה בעסק",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-preference-2d-control-50pct",
+      "claim": "Under סעיף 2ד of חוק חובת המכרזים, a controlling reserve holder is an active reserve servicemember who is an officer of the business and holds, alone or together with other active reserve servicemembers, directly or indirectly, 50% or more of any class of the means of control in a micro, small or medium business.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "משרת מילואים פעיל שהוא נושא משרה בעסק אשר מחזיק, לבד או יחד עם משרתי מילואים פעילים אחרים, במישרין או בעקיפין, ב-50% או יותר מכל סוג של אמצעי השליטה בעסק זעיר, קטן או בינוני",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-preference-2d-20-days",
+      "claim": "Under סעיף 2ד, an active reserve servicemember is one who served at least 20 days of reserve duty during the 12 months before the final date for submitting offers in the tender.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "ששירת שירות מילואים 20 ימים לפחות במהלך 12 החודשים לפני המועד האחרון להגשת ההצעות במכרז",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "reserve-preference-2d-tiebreak",
+      "claim": "Under סעיף 2ד, where two or more offers receive the same highest weighted score and one is from a business controlled by an active reserve servicemember, that offer is chosen as the winner, provided a declaration by the controlling holder was attached at submission stating that he is serving active reserve duty, that the business is controlled by an active reserve servicemember, and that the offer is not that of a subsidiary of a large business.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_001.htm",
+      "raw_snippet": "(ב) פורסם מכרז לפי הוראות חוק זה, ולאחר שקלול התוצאות קיבלו שתי הצעות או יותר תוצאה משוקללת זהה שהיא התוצאה הגבוהה ביותר, ואחת מן ההצעות היא של עסק אשר משרת מילואים פעיל מחזיק בשליטה בו, תיבחר ההצעה האמורה כזוכה במכרז כאמור, ובלבד שצורפה לה, בעת הגשתה, הצהרה של מחזיק בשליטה שלפיה מתקיימים כל אלה: (1) הוא משרת שירות מילואים פעיל בעת הגשת הצעתו; (2) העסק הוא בשליטת משרת מילואים פעיל; (3) ההצעה אינה של חברת בת של עסק גדול.",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bid-guarantee-tender-committee-discretion",
+      "claim": "Under תקנה 16ב of the Mandatory Tenders Regulations the tender committee may condition participation in a public or closed tender, or in another competitive process, on depositing a guarantee on terms it sets covering the type of guarantee, its conditions, its amount and its duration.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
+      "raw_snippet": "ועדת מכרזים רשאית לקבוע כי ההשתתפות במכרז פומבי או סגור, או בהליך תחרותי אחר, תהיה מותנית בהפקדת ערבות בתנאים שתקבע שעניינם סוג הערבות, תנאיה, גובהה ומשכה",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-declarations.md"
+      ]
+    },
+    {
+      "claim_id": "bid-guarantee-forfeiture",
+      "claim": "Under תקנה 16ב the tender committee may order forfeiture of a bidder's tender guarantee, in whole or in part, after giving the bidder an opportunity to be heard.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/242_002.htm",
+      "raw_snippet": "ועדת המכרזים תהיה רשאית להורות על חילוט ערבות מכרז של מציע, כולה או חלקה, אחרי שנתנה לו הזדמנות להשמיע את טענותיו",
+      "fetched_at": "2026-08-09T15:45:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/mandatory-declarations.md"
+      ]
+    },
+    {
+      "claim_id": "admin-courts-schedule-tenders",
+      "claim": "Tender matters of state bodies (s.2 Mandatory Tenders Law) and of local authorities are heard by the administrative court (First Schedule, item 5)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D",
+      "raw_snippet": "ועניני מכרזים של רשות מקומית",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-45-days",
+      "claim": "Absent another statutory deadline, an administrative petition is filed without delay and no later than 45 days from publication/notice of the decision (reg 3(ב))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "ולא יאוחר מארבעים וחמישה ימים מיום שההחלטה פורסמה כדין",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-reservation-disqualifies",
+      "claim": "Municipal tender documents with a fundamental reservation or basic change are disqualified (reg 20(ג))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "שצורפה להם הסתייגות עקרונית או שינוי יסודי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "state-inspection-30-days",
+      "claim": "A state-tender participant may inspect the protocol and the winning bid within 30 days of notice (reg 21(ה)(1))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D",
+      "raw_snippet": "המשתתף יהיה רשאי בתוך 30 ימים ממועד מסירת ההודעה לעיין בפרוטוקול ועדת המכרזים",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "state-inspection-trade-secret",
+      "claim": "Parts whose disclosure may reveal a trade or professional secret are excluded from inspection",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D",
+      "raw_snippet": "לחשוף סוד מסחרי או סוד מקצועי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-gaza-20pct",
+      "claim": "Gaza-envelope goods get a 20% price preference",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "מאזור עוטף עזה שמחירם אינו עולה על מחיר הצעות לרכישת טובין מיובאים בתוספת של 20%",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-export-gov-10pct",
+      "claim": "Government companies/units exporting at least 30% of output: preference rate 10%",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "אשר מיצאות 30% לפחות מתוצרתן, יהיה שיעור ההעדפה כאמור",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-textile-50pct",
+      "claim": "Israeli textiles get a 50% preference in the specified security-body tenders",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "טקסטיל מיובאים בתוספת של 50%",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-cpi-indexation",
+      "claim": "Municipal tender amounts are CPI-indexed (reg 2)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "לפי שיעור עליית המדד החדש לעומת המדד היסודי",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b-two-offences",
+      "claim": "Public Bodies Transactions Law s.2ב: affidavit that the supplier and related party were not convicted of more than two offences",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "לא הורשעו הספק ובעל זיקה אליו ביותר משתי עבירות",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "municipal-inspection-winning-bid",
+      "claim": "In a municipal tender every participant may inspect the committee final decision and the winning bid (reg 22(ט))",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%95%D7%AA_%28%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D%29",
+      "raw_snippet": "רשאי כל משתתף במכרז לעיין בהחלטתה הסופית של הועדה, ובהצעת הזוכה במכרז",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-split-tender-30m",
+      "claim": "A splittable goods tender above 30 million NIS lets the buyer cut a foreign supplier to 50% at the same price (reg 4)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "ששווי ההתקשרות בו עולה על 30 מיליון שקלים חדשים והניתן לפיצול",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-split-50pct",
+      "claim": "Split-tender provision reduces the foreign supplier to 50% without price change",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "להקטין את היקף ההתקשרות עם ספק חוץ ל־50% ללא שינוי במחיר",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b1-disability",
+      "claim": "Public Bodies Transactions Law s.2ב1 requires a supplier affidavit on adequate representation of people with disabilities",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "2ב1. ייצוג הולם לאנשים עם מוגבלות",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "asakot-2b-service-three-years",
+      "claim": "For service contracts the s.2ב affidavit requires three years since the last conviction where there were more than two offences",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A2%D7%A1%D7%A7%D7%90%D7%95%D7%AA_%D7%92%D7%95%D7%A4%D7%99%D7%9D_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99%D7%99%D7%9D",
+      "raw_snippet": "כי במועד ההתקשרות חלפו שלוש שנים לפחות ממועד ההרשעה האחרונה",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-reg-3",
+      "claim": "The administrative-petition filing deadline is set in reg 3 (תקנה 3) of the administrative-courts procedure regulations",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "אף אם הוגשה בתוך אחד המועדים לפי תקנה 3",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-restrictive-arrangement-ban",
+      "claim": "Competition Law s.4: no person may be party to a restrictive arrangement without approval, permit or exemption",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "לא יהיה אדם צד להסדר כובל, כולו או מקצתו",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-price-offered",
+      "claim": "Competition Law s.2(ב)(1): a restraint concerning the price to be offered is a restrictive arrangement (covers coordinating bid prices)",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "המחיר שיידרש, שיוצע או שישולם",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "competition-criminal-offence",
+      "claim": "Competition Law s.47(א1): being party to an unapproved restrictive arrangement is a criminal offence punishable by imprisonment",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%AA%D7%97%D7%A8%D7%95%D7%AA_%D7%94%D7%9B%D7%9C%D7%9B%D7%9C%D7%99%D7%AA",
+      "raw_snippet": "מי שהיה צד להסדר כובל שלא אושר כדין",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "admin-petition-laches-reg-4",
+      "claim": "Reg 4: the court may dismiss a petition for delay even if filed within the reg 3 deadlines",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%91%D7%AA%D7%99_%D7%9E%D7%A9%D7%A4%D7%98_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99%D7%9D_%D7%9E%D7%99%D7%A0%D7%94%D7%9C%D7%99%D7%99%D7%9D_%28%D7%A1%D7%93%D7%A8%D7%99_%D7%93%D7%99%D7%9F%29",
+      "raw_snippet": "רשאי לדחות עתירה אם ראה כי בנסיבות הענין היה שיהוי בהגשתה",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "preference-gaza-temporary",
+      "claim": "The Gaza-envelope preference is a temporary provision in force 1.9.2023 to 1.9.2028",
+      "source_url": "https://he.wikisource.org/wiki/%D7%AA%D7%A7%D7%A0%D7%95%D7%AA_%D7%97%D7%95%D7%91%D7%AA_%D7%94%D7%9E%D7%9B%D7%A8%D7%96%D7%99%D7%9D_%28%D7%94%D7%A2%D7%93%D7%A4%D7%AA_%D7%AA%D7%95%D7%A6%D7%A8%D7%AA_%D7%94%D7%90%D7%A8%D7%A5%29",
+      "raw_snippet": "הוראת שעה מיום 1.9.2023 עד יום 1.9.2028",
+      "fetched_at": "2026-09-15T11:11:38Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}

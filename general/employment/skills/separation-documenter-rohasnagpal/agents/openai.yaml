@@ -1,0 +1,4 @@
+interface:
+  display_name: "Separation Documenter"
+  short_description: "Prepare lawful employee separation documents"
+  default_prompt: "Use $separation-documenter to prepare the exit decision record, notice, settlement, release, and handover documents."

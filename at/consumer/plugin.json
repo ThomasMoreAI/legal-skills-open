@@ -1,0 +1,15 @@
+{
+  "name": "at-consumer",
+  "displayName": "Consumer Protection — Austria",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/recht-verbraucher-momarcode1",
+    "skills/recht-verbraucher-verfahren-momarcode1"
+  ]
+}

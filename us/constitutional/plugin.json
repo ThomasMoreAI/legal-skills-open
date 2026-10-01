@@ -1,0 +1,14 @@
+{
+  "name": "us-constitutional",
+  "displayName": "Constitutional & Public Law — United States",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills under the law of United States.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "us",
+  "practice": "constitutional",
+  "language": "en",
+  "skills": [
+    "skills/scotuschecker-dgk-law-and-cognition-lab"
+  ]
+}

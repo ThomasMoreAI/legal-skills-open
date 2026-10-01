@@ -9,6 +9,16 @@
   "practice": "litigation",
   "language": "de",
   "skills": [
+    "skills/recht-claim-momarcode1",
+    "skills/recht-costs-momarcode1",
+    "skills/recht-evidence-momarcode1",
+    "skills/recht-exekution-momarcode1",
+    "skills/recht-klage-momarcode1",
+    "skills/recht-miet-verfahren-momarcode1",
+    "skills/recht-report-pdf-momarcode1",
+    "skills/recht-strategy-momarcode1",
+    "skills/recht-verjaehrung-momarcode1",
+    "skills/recht-verkehr-verfahren-momarcode1",
     "skills/ris-rechtsprechung"
   ]
 }

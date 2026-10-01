@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regulatory Applicability Analyst"
+  short_description: "Map activities to current regulatory obligations"
+  default_prompt: "Use $regulatory-applicability-analyst to identify the relevant regulators and current instruments for this activity, including what remains unverified."

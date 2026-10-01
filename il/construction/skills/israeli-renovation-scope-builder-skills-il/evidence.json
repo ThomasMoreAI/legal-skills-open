@@ -1,0 +1,614 @@
+{
+  "skill_slug": "israeli-renovation-scope-builder",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-26T21:43:38+00:00",
+  "method": "Every Hebrew snippet below was read from the source's own text layer: he.wikisource.org via ?action=raw (curl, not a model-summarised fetch), or pdftotext over the official Reshumot PDF. Snippets are byte-verbatim except where a note says the row is a table or template payload read in document order. En dashes inside snippets are the source's own characters and are preserved deliberately.",
+  "claims": [
+    {
+      "claim_id": "kablanut-s1-definition",
+      "claim": "A renovation engagement is a chozeh kablanut under the Contract for Services Law 1974, defined as a contract for performing work or providing a service for pay where the contractor is not the customer's employee. [סעיף 1]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "חוזה קבלנות הוא חוזה לעשיית מלאכה או למתן שירות בשכר כשהקבלן אינו עובדו של המזמין.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 1, headed 'חוזה קבלנות מהו'. The employee carve-out is what separates this from an employment contract."
+    },
+    {
+      "claim_id": "kablanut-s2-obligations",
+      "claim": "The contractor must perform the work and the customer must pay, all according to what the parties agreed.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "הקבלן חייב לעשות את המלאכה או לתת את השירות והמזמין חייב לשלם את השכר, הכל לפי המוסכם בין הצדדים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 2. 'הכל לפי המוסכם' is the textual hook for why the written scope is the operative instrument."
+    },
+    {
+      "claim_id": "kablanut-s3-pgam-notice-cure",
+      "claim": "Where the work is not as agreed (the statute calls this a pgam), the customer must notify the contractor within a reasonable time after discovering it or after he should have discovered it, and where the defect is repairable must give the contractor a proper opportunity to repair it. There is no fixed statutory day count. [סעיף 3 (Section 3)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "לא היו המלאכה או השירות בהתאם למוסכם (להלן – פגם), על המזמין להודיע לקבלן על הפגם זמן סביר לאחר שגילה אותו או שהיה עליו לגלותו, ואם הפגם ניתן לתיקון – לתת לקבלן הזדמנות נאותה לתקנו.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 3(a), headed 'פגם'. The statute's own term is פגם, NOT אי-התאמה (which belongs to חוק המכר). Using the wrong term signals the wrong statute."
+    },
+    {
+      "claim_id": "kablanut-s3b-forfeiture",
+      "claim": "The customer is not entitled to rely on the defect if he failed to give notice and a cure opportunity, unless the contractor knew of the defect, or if the defect arose from a cause the customer is responsible for.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "אין המזמין זכאי להסתמך על הפגם – (1) אם לא קיים את המוטל עליו לפי סעיף קטן (א) זולת אם ידע הקבלן על הפגם; (2) אם בא הפגם מסיבה שהמזמין אחראי לה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 3(b). Two limbs joined here from consecutive sub-paragraphs; each limb is verbatim. This is why hiring a replacement before offering the cure opportunity forfeits the claim."
+    },
+    {
+      "claim_id": "kablanut-s4-remedies",
+      "claim": "If the contractor does not repair within a reasonable time, the customer may repair it himself and demand reimbursement of his reasonable costs, or deduct from the price the amount by which the value of the work fell because of the defect. [סעיף 4]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "רשאי המזמין – (1) לתקן את הפגם ולדרוש מהקבלן החזרת הוצאותיו הסבירות; (2) לנכות מן השכר, כל עוד לא תוקן הפגם, את הסכום שבו פחת שווי המלאכה או השירות עקב הפגם לעומת השכר לפי המוסכם.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 4(a), headed 'תרופות בשל פגם'. The gap in the snippet is a cross-reference template stripped by wikisource. This is the legal force behind a retention clause."
+    },
+    {
+      "claim_id": "kablanut-s4b-urgent",
+      "claim": "Where a defect is so urgent that the customer cannot be required to wait for the contractor to repair it, the customer may repair it without first giving the cure opportunity.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "פגם שתיקונו דחוף עד שאין לדרוש מן המזמין שימתין לתיקונו בידי הקבלן, רשאי המזמין לתקנו כאמור בסעיף קטן (א)(1) גם בלי שעשה כאמור",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 4(b). The narrow exception to the cure-opportunity rule, e.g. an active leak."
+    },
+    {
+      "claim_id": "kablanut-s5-ikavon",
+      "claim": "The contractor has a lien over an asset the customer delivered to him for the performance of the work, to the extent of sums owed to him under the engagement. [סעיף 5]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "לקבלן תהא זכות עכבון על נכס שמסר לו המזמין לביצוע מלאכתו או למתן שירותו, כדי תשלום הסכומים המגיעים לו מן המזמין עקב עיסקת הקבלנות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 5, headed 'זכות עכבון'. One of the few provisions that protects the tradesperson rather than the homeowner."
+    },
+    {
+      "claim_id": "kablanut-s6-acceptance-risk",
+      "claim": "The customer must accept the work at the agreed date, and absent agreement within a reasonable time after the contractor notified him that the work is finished. While the asset is still with the contractor he is responsible as a bailee for reward. [סעיף 6]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "נעשו המלאכה או השירות בנכס בידי הקבלן, חייב המזמין לקבלו במועד שהוסכם עליו, ובאין הסכם – תוך זמן סביר לאחר שהקבלן הודיע לו שגמר את המלאכה או השירות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 6(a), headed 'קבלת הנכס והעברת הסיכון'. Acceptance is the event that starts the contractual warranty clock."
+    },
+    {
+      "claim_id": "kablanut-s7-preserved-remedies",
+      "claim": "Nothing in the Contract for Services Law derogates from any other remedy for breach of contract, so delay damages and agreed compensation come from general contract law. [סעיף 7]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "אין בהוראות חוק זה כדי לגרוע מתרופה אחרת בשל הפרת חוזה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 7, headed 'שמירת תרופות'. The delay-compensation clause is grounded here, not in the Contract for Services Law itself."
+    },
+    {
+      "claim_id": "kablanut-s8a-dispositive",
+      "claim": "The Contract for Services Law applies only where no other law contains special provisions on the matter, and where no contrary intention appears from the agreement between the parties. The statute is therefore dispositive. [סעיף 8]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "הוראות חוק זה יחולו כשאין בדין אחר הוראות מיוחדות לענין הנדון, ובאין כוונה אחרת משתמעת מן ההסכם בין הצדדים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 8(a), headed 'תחולה'. This single sentence is why a written scope plus terms is the operative instrument and why silence is dangerous."
+    },
+    {
+      "claim_id": "kablanut-s8b-materials-carveout",
+      "claim": "A contract for supplying an asset that must be produced or manufactured, where the contractor undertook to supply the main materials required, is governed by the Sale Law 1968 rather than by the Contract for Services Law.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "raw_snippet": "על חוזה להספקת נכס שיש להפיקו או לייצרו והקבלן קיבל עליו לתת את עיקר החמרים הדרושים לכך, יחולו הוראות חוק המכר, תשכ״ח–1968.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 8(b), read from the raw wikitext with the cross-reference template expanded. Note the narrow scope: it targets supplying a produced ASSET, not renovating an existing apartment. A renovation where the contractor buys the tiles stays a chozeh kablanut."
+    },
+    {
+      "claim_id": "moser-tashlumim-mazmin-definition",
+      "claim": "The Prompt Payment to Suppliers Law defines 'mazmin' as a state authority, government ministry, local authority, budgeted higher-education institution, budgeted body, any other body established by law, Mifal HaPayis, or a business. A private individual is not on the list.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מוסר_תשלומים_לספקים",
+      "raw_snippet": "”מזמין“ – רשות מדינה, משרד ממשלתי, רשות מקומית, מוסד להשכלה גבוהה מתוקצב, גוף מתוקצב או כל גוף אחר שהוקם לפי דין, מפעל הפיס או עסק, שמתקשרים עם ספק בחוזה לביצוע עסקה;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 1 definitions. This exhaustive list is the basis for the negative finding that the law does not bind a private homeowner."
+    },
+    {
+      "claim_id": "moser-tashlumim-esek-definition",
+      "claim": "'Esek' for the purposes of that law means a financial institution, an osek murshe, or an osek patur, subject to listed exclusions.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מוסר_תשלומים_לספקים",
+      "raw_snippet": "”עסק“ – מוסד כספי, עוסק מורשה או עוסק פטור כהגדרתם בחוק מס ערך מוסף, התשל״ו–1975",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 1 definitions. Gaps are stripped cross-reference templates. A homeowner acting privately is none of these; a landlord operating as an osek is."
+    },
+    {
+      "claim_id": "moser-tashlumim-s3z-business-45",
+      "claim": "Where the paying party is a business, payment is due not later than 45 days from the end of the month in which the invoice was submitted, unless the parties expressly set a different date in the contract, and a different date may be set only where the special nature of the engagement requires it or where it is not exceptionally unfair.",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מוסר_תשלומים_לספקים",
+      "raw_snippet": "(ז) מזמין שהוא עסק שהתקשר עם ספק בחוזה לביצוע עסקה, ישלם לספק את התמורה בעד העסקה לא יאוחר מ־45 ימים מתום החודש שבו הומצא לו החשבון, אלא אם כן קבעו הצדדים באופן מפורש בחוזה מועד אחר לתשלום; ואולם לא ייקבע מועד אחר לתשלום כאמור, אלא אם כן הדבר נדרש בשל אופייה המיוחד של ההתקשרות או שהוא אינו מועד בלתי הוגן באופן חריג.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 3(z). Note the contracting-out limb: a business payer and supplier CAN agree a different date, subject to the fairness test."
+    },
+    {
+      "claim_id": "moser-tashlumim-s3b-hendesa",
+      "claim": "For engagements by state bodies for construction engineering works, payment is due not later than 85 days from submission of the invoice or 70 days from the end of the month of submission.",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מוסר_תשלומים_לספקים",
+      "raw_snippet": "(ב) על אף האמור בסעיף קטן (א), בהתקשרות בעסקה כאמור באותו סעיף קטן לביצוע עבודות הנדסה בנאיות, תשולם התמורה בעד העסקה לא יאוחר מ־85 ימים מהמועד שבו הומצא החשבון למזמין כאמור באותו סעיף קטן או מ־70 ימים מתום החודש שבו הומצא לו החשבון, לפי העניין.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 3(b). Applies to the state-body track in 3(a), not to a business payer."
+    },
+    {
+      "claim_id": "tochnit-145a2-permit-and-carveout",
+      "claim": "Section 145(a)(2) of the Planning and Building Law requires a permit for erecting a building, demolishing and re-erecting it, adding to an existing building, and any repair to it, expressly excepting an internal change in a dwelling. [סעיף 145]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_התכנון_והבניה",
+      "raw_snippet": "הקמתו של בנין, הריסתו והקמתו שנית, כולו או מקצתו, הוספה לבנין קיים וכל תיקון בו, למעט שינוי פנימי בדירה;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Read via ?action=raw wikitext. Note the breadth of 'וכל תיקון בו': ANY repair to a building needs a permit unless it falls inside the internal-change carve-out or a separate exemption."
+    },
+    {
+      "claim_id": "tochnit-145a2-shinui-pnimi-definition",
+      "claim": "The statute itself defines 'internal change' by negative conditions: it must not concern the exterior of the building, must not harm its facade, appearance, skeleton, common property, or piping or other equipment also serving other dwellings, must not harm others, and must not change the dwelling's area or the number of dwelling units.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_התכנון_והבניה",
+      "raw_snippet": "”שינוי פנימי“ – שינוי שאינו נוגע לצד החיצוני של הבנין, אינו פוגע בחזיתו או במראהו או בשלד של הבנין או ברכוש משותף או בצנרת או ציוד אחר המשרתים גם דירות אחרות, אינו פוגע בזולת ואינו משנה את שטחה של הדירה, למעט תוספת של שטח מרפסת שנסגרה כדין, או את מספרן של יחידות הדיור;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "The definition sits INSIDE section 145(a)(2), not in regulations. Practically decisive for renovation: touching the skeleton, moving a shared riser, or splitting a unit takes the job out of the carve-out and into permit territory."
+    },
+    {
+      "claim_id": "petur-17-sorgim",
+      "claim": "Installing bars on openings and windows is exempt from a permit under regulation 17, conditioned on compliance with Israeli Standard 1635 and on one window in each dwelling carrying a bar designed as an escape opening. [תקנה 17]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "התקנת סורגים לפתחים ולחלונות בבניין לפי ת״י 1635: סורגים לפתחים בבניינים, פטורה מהיתר, ובלבד שבאחד החלונות בכל אחת מהדירות בבניין יותקן סורג המיועד לפתח מילוט כמוגדר בתקן.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 17(a), section header carries 'תיקון: תשפ\"ב'. The escape-opening condition is a life-safety requirement, not a formality."
+    },
+    {
+      "claim_id": "petur-17b-sorgim-notice",
+      "claim": "Bars carry a 45-day post-execution notice duty that runs to both the licensing authority and the National Fire Authority.",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "הודעה על ביצוע עבודה לפי תקנה זו, ערוכה לפי הטופס שבתוספת, תימסר לרשות הרישוי ולרשות הארצית לכבאות בתוך 45 ימים ממועד ביצוע העבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 17(b). The dual addressee is unique to bars and is easy to miss."
+    },
+    {
+      "claim_id": "petur-12-matzlela-cap",
+      "claim": "A pergola is exempt from a permit where its area does not exceed 50 square metres or one quarter of the ground area free of buildings or of the roof, whichever is larger. [תקנה 12]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "הקמת מצללה פטורה מהיתר, ובלבד שמתקיימים בה תנאים אלה: (1) שטחה אינו עולה על 50 מ״ר או על 1 ⁄ 4 משטח הקרקע הפנוי ממבנים או הגג – הכול לפי הגדול יותר;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 12. The fraction is sup/sub markup in the wikitext and is normalised to 1/4 here; that is the only deviation from byte-verbatim. 'הכול לפי הגדול יותר' matters: guides routinely state a flat 50 sqm cap, which UNDERSTATES the exemption."
+    },
+    {
+      "claim_id": "petur-12-matzlela-definition",
+      "claim": "The regulations define a pergola as a wall-less structure of light materials whose ceiling is a shading surface, where the gaps between the opaque parts are evenly distributed and constitute at least 40 percent of it.",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "”מצללה (פרגולה)“ – מבנה בלא קירות, הבנוי מחומרים קלים, שתקרתו משטח הצללה, ובלבד שהמרווחים בין החלקים האטומים של משטח ההצללה מחולקים באופן שווה ומהווים 40 אחוזים ממנו לפחות;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Definition in regulation 1. A solid-roofed 'pergola' is therefore not a matzlela at all and gets no exemption."
+    },
+    {
+      "claim_id": "petur-19-mazgan-btu",
+      "claim": "Installing an air-conditioning system including an opening in the building envelope is exempt where output does not exceed 60,000 BTU, subject to placement conditions: hidden in the laundry recess set in the permit or on the roof, and only if neither is possible, on an external wall of the dwelling that does not face the street. [תקנה 19]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "התקנת מערכת מיזוג אוויר לרבות פתח במעטפת הבניין, בתפוקה שאינה עולה על 60,000 btu, או התקנת מערכת לטיהור אוויר במרחב מוגן דירתי פטורה מהיתר ובלבד שיתקיימו אלה: (1) המערכת תעמוד בתקנות למניעת מפגעים (מניעת רעש), התשנ״ג–1992;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 19. Snippet truncated after condition (1); conditions (2) and (3) carry the laundry-recess, roof, and non-street-facing wall placement rules. IMPORTANT NEGATIVE: regulation 19 carries NO 45-day notice duty. Do not assert one for air conditioners."
+    },
+    {
+      "claim_id": "petur-45day-notice-scope",
+      "claim": "The 45-day post-execution notice duty is not general to the exemption regulations; it is attached individually to specified exemption categories.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "raw_snippet": "הודעה על ביצוע עבודה לפי תקנה זו ערוכה לפי הטופס שבתוספת, תימסר לרשות הרישוי בתוך 45 ימים ממועד ביצועה",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Canonical formula, quoted from regulation 12(3). Every regulation containing '45 ימים' was enumerated: regs 8, 9, 11, 12, 14, 17, 21, 22, 22א, 22ב, 22ג, 24, 24א, 28, 29, 30ד, 30לא, 30לב, 30לג, 30לד, 33, 34, 37, 38, 39, 39ו. Homeowner-relevant: 11 (גגון), 12 (מצללה), 17 (סורגים), 24 (פוטו-וולטאי), 29 (מחסן), 39 (הריסה). Regs 18 (דוד שמש) and 19 (מזגן) have NO notice duty."
+    },
+    {
+      "claim_id": "rishum-kablanim-original-amounts",
+      "claim": "The registration regulations as enacted set 600,000 shekels per work branch and 300,000 per sub-branch (1984 shekels); the wikisource text annotates the 2025 indexed values as 103,250 and 54,000 NIS respectively.",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_רישום_קבלנים_לעבודות_הנדסה_בנאיות_%28היקף_כספי_ומהות_מקצועית%29",
+      "raw_snippet": "(1) בכל ענף עבודה – 600,000 שקלים (נכון לשנת 1984; בשנת 2025, 103,250 ש״ח) ; (2) בכל ענף משנה – 300,000 שקלים",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 1 as enacted, in pre-1985 shekels. Recorded ONLY to document that the regulation body's own figures are historical. Never quote these as current."
+    },
+    {
+      "claim_id": "rishum-kablanim-2025-notice",
+      "claim": "The Registrar's notice published in Reshumot on 9 March 2025 set the amounts, effective 1 January 2025, at 103,250 NIS per work branch and 54,000 NIS per sub-branch.",
+      "claim_type": "currency",
+      "source_url": "https://olaw.org.il/takanot/takanot-11787.pdf",
+      "raw_snippet": "עקב שינוי במדד חודש אוקטובר 2024 לעומת מדד חודש אוקטובר 2023, עודכנו הסכומים הנקובים בתקנה 1 לתקנות והם מיום א' בטבת התשפ\"ה (1 בינואר 2025) כלהלן: (1) בכל ענף עבודה - 103,250 שקלים חדשים; (2) בכל ענף משנה - 54,000 שקלים חדשים.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-10T00:00:00Z",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Official Reshumot PDF, Kovetz HaTakanot 11787, read with pdftotext. This is the last figure pair verified against a primary publication."
+    },
+    {
+      "claim_id": "rishum-kablanim-current-amounts",
+      "claim": "As of 2026 the amounts stand at 108,500 NIS per work branch and 56,750 NIS per sub-branch. [108,500 ש\"ח, 56,750 ש\"ח]",
+      "claim_type": "currency",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74262.htm",
+      "raw_snippet": "בכל ענף עבודה – 108,500 שקלים חדשים; (2) בכל ענף משנה – 56,750 שקלים חדשים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Browser-verified in Playwright on 2026-08-10 (Nevo is JS-rendered and returns a near-empty body to a plain fetch; location.href was asserted to match before trusting the read). The page carries the stamp 'נוסח עדכני נכון ליום: 24-05-2026'. The underlying Reshumot notice for the 1 January 2026 update was NOT located, so the primary-published pair remains the 2025 one (103,250 / 54,000, Kovetz HaTakanot 11787). These figures re-index every 1 January, so the skill states them WITH the as-of date and the update mechanism, never as a bare number.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim_id": "rishum-kablanim-sheled-limb",
+      "claim": "Works concerning the skeleton of a structure must be performed by registered contractors only, even where the monetary scope does not exceed the threshold.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_רישום_קבלנים_לעבודות_הנדסה_בנאיות_%28היקף_כספי_ומהות_מקצועית%29",
+      "raw_snippet": "עבודות הנוגעות לשלד של מבנה יבוצעו בידי קבלנים רשומים בלבד, אף אם אין היקפן הכספי חורג מן האמור בתקנה 1",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "The second, value-independent limb. Every renovation guide states only the money limb. A cheap job that touches the skeleton still needs a registered contractor."
+    },
+    {
+      "claim_id": "rishum-kablanim-indexation",
+      "claim": "The amounts change on 1 January each year by the rise in the residential construction inputs index for October against the preceding October, rounded to the nearest multiple of 50 NIS, and the Registrar publishes a notice in Reshumot of the resulting amounts. [מכפלה של 50 ש\"ח]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_רישום_קבלנים_לעבודות_הנדסה_בנאיות_%28היקף_כספי_ומהות_מקצועית%29",
+      "raw_snippet": "הסכומים האמורים בתקנה 1 ישתנו ב־1 בינואר של כל שנה לפי שיעור עליית מדד חודש אוקטובר שקדם למועד האמור לעומת מדד חודש אוקטובר שלפניו; הסכומים המתקבלים יעוגלו לסכום הקרוב שהוא מכפלה של 50 ש״ח.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 3(b) and 3(c). This is why any hardcoded figure in the skill is stale within twelve months and must carry its as-of date."
+    },
+    {
+      "claim_id": "hashmal-musmach-scope",
+      "claim": "A licensed electrician (chashmalai musmach) may perform all electrical works including preparing plans in a low-voltage installation of up to 3x80 amps where the installation is in a building used for dwellings, offices, or workshops. The enumerated list of what he may do does not include performing inspections. [תקנה 13]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_החשמל_%28רשיונות%29",
+      "raw_snippet": "בעל רשיון חשמלאי־מוסמך רשאי – (1) לעסוק בביצוע העבודות שבעל רשיון חשמלאי־מעשי רשאי לבצען; (2) במיתקן חשמלי בעל מתח נמוך, לעסוק בביצוע – (א) כל עבודות החשמל, לרבות עריכת תכניות, במיתקן בעל עצמת זרם עד 80×3 אמפר, ובלבד שהמיתקן נמצא במבנה המשמש לדירות מגורים, משרדים או בתי מלאכה;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 13 of the Electricity (Licences) Regulations 1985. The absence of an inspection power in an exhaustive permissive list is the negative half of the self-inspection rule; the affirmative half is regulation 23."
+    },
+    {
+      "claim_id": "hashmal-bodek-self-inspection-ban",
+      "claim": "A holder of a type 1 inspecting-electrician licence may inspect a low-voltage installation of up to 3x80 amps, excluding electrical works that he himself both designed and executed. [תקנה 23]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_החשמל_%28רשיונות%29",
+      "raw_snippet": "בעל רשיון חשמלאי־בודק סוג 1 רשאי לעסוק בביצוע בדיקות של מיתקן חשמלי בעל עוצמת זרם עד 80×3 אמפר במתח נמוך, למעט עבודות חשמל אשר תוכננו וגם בוצעו על ידו.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 23. The exclusion is CUMULATIVE ('תוכננו וגם בוצעו'). This is the statutory basis for the practical rule that the electrician who did the job cannot sign off his own inspection. Type 2 (reg 25) extends to 3x250A and repeats the exclusion."
+    },
+    {
+      "claim_id": "hashmal-no-homeowner-duty",
+      "claim": "The Electricity Law places the licensing duty on the person PERFORMING electrical work, not on the homeowner. No statutory duty was located requiring a private homeowner to obtain an inspection certificate after ordinary apartment electrical work.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_החשמל",
+      "raw_snippet": "לא יעסוק אדם בביצוע עבודת חשמל, אלא אם יש בידו רשיון מאת המנהל למתן רישיונות לעבודות חשמל המתיר לו ביצוע עבודה מסוג זה",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "The snippet proves the positive half (the duty binds the worker). The NEGATIVE half is recorded deliberately so no future pass reintroduces it: a search of he.wikisource's full list of Electricity regulations found NO instrument named 'תקנות החשמל (בדיקת מיתקן חשמלי)', so that commonly cited authority appears to be a phantom citation, and the widely repeated periodic-inspection rule most likely derives from תקנות הבטיחות בעבודה (חשמל), which are workplace-safety instruments that do not reach a private dwelling. THE SKILL MUST NOT STATE THAT THE LAW REQUIRES A HOMEOWNER TO OBTAIN A תעודת בודק. It may require one contractually."
+    },
+    {
+      "claim_id": "noise-reg4-renovation-hours",
+      "claim": "A person shall not perform, and shall not permit another to perform, repair, renovation, or building works causing noise in a building used for dwellings, nor install installations in it, between 20:00 and 07:00 the following day on weekdays, and between 17:00 on the eve of a rest day and 07:00 on the day after the rest day. [תקנה 4]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_מפגעים_%28מניעת_רעש%29",
+      "raw_snippet": "לא יבצע אדם ולא ירשה לאחר לבצע עבודות תיקון, שיפוץ או בנייה הגורמות לרעש בבניין המשמש למגורים, ולא יתקין בו מיתקנים, בין השעות 20:00 ל־7:00 למחרת בימי חול, ובין השעות 17:00 בערבי ימי מנוחה ל־7:00 למחרת יום המנוחה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 4, headed 'תיקונים, שיפוצים ובנייה', amendment תשע\"א. Two points guides miss: the duty binds whoever PERMITS the work (so the homeowner, not only the tradesperson), and these national regulations impose NO 14:00 to 16:00 midday quiet on renovation work. Where a midday break exists it comes from a municipal by-law."
+    },
+    {
+      "claim_id": "noise-reg5-machinery-hours",
+      "claim": "Machinery for excavation, building, demolition and the like may not be operated in a residential area between 19:00 and 07:00 the following day, and between 17:00 on the eve of a rest day and 07:00 on the day after, save where urgently required to prevent danger. [תקנה 5]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_למניעת_מפגעים_%28מניעת_רעש%29",
+      "raw_snippet": "לצרכי חפירה, בניה, הריסה או כיוצא באלה, באזור מגורים, בין השעות 19.00 ל־07.00 למחרת ובין השעות 17:00 בערבי ימי מנוחה ל־7:00 למחרת יום המנוחה",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 5, headed 'מכונות'. CRITICAL SUB-DIMENSION: the machinery cut-off is 19:00, one hour EARLIER than the 20:00 general renovation cut-off in regulation 4. Every summary that reports a single '20:00' figure flattens two different rules, so a jackhammer or mixer must stop an hour before hand tools do."
+    },
+    {
+      "claim_id": "hitiyashnut-s5-seven-years",
+      "claim": "The general limitation period is seven years for a claim not concerning real property, and fifteen years for real property, or twenty-five years where registered after title settlement.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא – (1) בשאינו מקרקעין – שבע שנים; (2) במקרקעין – חמש עשרה שנה; ואם נרשמו בספרי האחוזה לאחר סידור זכות קנין לפי פקודת הקרקעות (סידור זכות הקנין) – עשרים וחמש שנה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 5. A renovation contract claim is contractual, so seven years, notwithstanding that the works are physically on real property."
+    },
+    {
+      "claim_id": "hitiyashnut-s8-discovery",
+      "claim": "Where the facts constituting the cause of action were unknown to the plaintiff for reasons not dependent on him that he could not have prevented with reasonable care, the limitation period begins only on the day those facts became known to him.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "נעלמו מן התובע העובדות המהוות את עילת התובענה, מסיבות שלא היו תלויות בו ושאף בזהירות סבירה לא יכול היה למנוע אותן, תתחיל תקופת ההתיישנות ביום שבו נודעו לתובע עובדות אלה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 8, headed 'התיישנות שלא מדעת'. Directly relevant to latent renovation defects such as concealed waterproofing failures."
+    },
+    {
+      "claim_id": "hitiyashnut-s9-partial-performance",
+      "claim": "Where the defendant acknowledges the plaintiff's right in writing or before a court, the limitation period restarts from the day of the acknowledgment, and an act constituting partial performance of the right counts as an acknowledgment. [סעיף 9]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "raw_snippet": "הודה הנתבע, בכתב או בפני בית משפט, בין בתוך תקופת ההתיישנות ובין לאחריה, בקיום זכות התובע, תתחיל תקופת ההתיישנות מיום ההודאה; ומעשה שיש בו משום ביצוע מקצת הזכות, דינו כהודאה לענין סעיף זה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 9. Practically important and counter-intuitive: a contractor who comes back and does a partial repair may restart the clock in the homeowner's favour."
+    },
+    {
+      "claim_id": "bitul-iska-no-renovation-right",
+      "claim": "The Consumer Protection (Cancellation of Transaction) Regulations grant a cancellation right only for the goods and services enumerated in their Schedule, and construction, renovation, and tradesperson services are not among the twenty-three listed items.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_%28ביטול_עסקה%29",
+      "raw_snippet": "צרכן רשאי לבטל הסכם בהתאם לפסקאות (1) עד (7) ובלבד שביטול הסכם לרכישת טובין יהיה בתנאי שהצרכן יחזירם לעוסק והטובין לא נפגמו ולא נעשה בהם שימוש בידי הצרכן הרוכש",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 2, every limb of which is keyed to a numbered item in the Schedule. All 23 Schedule items were enumerated and none covers building, renovation, or trade services. The widely asserted '14 days to cancel a renovation contract' is WRONG for this transaction type. Separate routes still exist and must not be conflated: the distance-selling and door-to-door provisions of the Consumer Protection Law itself can bite where the contractor signed the homeowner up remotely or at their door."
+    },
+    {
+      "claim_id": "bitul-iska-made-to-order-exclusion",
+      "claim": "The cancellation right does not apply at all to furniture assembled in the consumer's home, or to goods manufactured especially for the consumer according to special measurements or requirements. [תקנה 6]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הגנת_הצרכן_%28ביטול_עסקה%29",
+      "raw_snippet": "זכות הביטול כאמור בתקנות אלה לא תחול לגבי – (1) ריהוט שהורכב בבית הצרכן; (2) טובין שיוצרו במיוחד בעבור הצרכן על פי מידות או דרישות מיוחדות;",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Regulation 6(a), headed 'הגבלת זכות הביטול'. Kills the common renovation scenario of custom kitchen or closet joinery even where a goods item might otherwise have qualified."
+    },
+    {
+      "claim_id": "mekarkein-s55c-no-attachment",
+      "claim": "Apartment owners may provide in the by-laws that a specified part of the common property is attached to a particular apartment, but may not do so in respect of stairwells, lifts, shelters, and installations intended to serve all the apartment owners. [סעיף 55]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "ובלבד שלא יקבעו זאת ביחס לחדרי מדרגות, מעלית, מקלטים ומיתקנים המיועדים לשמש את כל בעלי הדירות",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 55(c). A renovation that annexes stairwell space can never be regularised by by-law, which makes it a hard stop rather than a consent question."
+    },
+    {
+      "claim_id": "mekarkein-s71b-expansion-consent",
+      "claim": "Owners of three quarters of the apartments to whose apartments two thirds of the common property is attached may decide to remove specified parts of the common property and attach them to a particular apartment for building intended to expand that apartment, and sixty percent suffices where the expansion is for building a protected space. [סעיף 71ב]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "רשאים מי שבבעלותם שלושה רבעים מהדירות ושני שלישים מהרכוש המשותף צמוד לדירותיהם, להחליט בדבר הוצאה של חלקים מסויימים מהרכוש המשותף והצמדתם לדירה פלונית, לשם בניה שמטרתה הרחבת אותה דירה, וכן להחליט בדבר חלוקת זכויות הבניה הנדרשות לצורך זה ואולם, היה נושא ההחלטה כאמור הרחבת דירה פלונית אחת או יותר לשם בניית מרחב מוגן דירתי או מרחב מוגן קומתי, רשאים להחליט על כך מי שבבעלותם שישים אחוזים מהדירות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Section 71b, headed 'שינויים ברכוש המשותף ובזכויות הבניה', amendments תשנ\"ה-2, תשס\"ח, תשפ\"ד. Note the two-limb majority (three quarters of apartments AND two thirds of common property) and the lower 60 percent gate for a mamad."
+    },
+    {
+      "claim_id": "siyug-group-alef-caps",
+      "claim": "In contractor classification group alef, which includes sub-branch 131 for renovations, the project value caps in thousands of NIS are: type kuf up to 825 from February 2026; type 1 up to 1,927; type 2 up to 3,854; type 3 up to 7,708; type 4 up to 15,416, all from December 2025; and type 5 unlimited. [1,927,000 ש\"ח]",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_רישום_קבלנים_לעבודות_הנדסה_בנאיות_%28סיווג_קבלנים_רשומים%29",
+      "raw_snippet": "סוג ק – בהיקף כספי עד 825 (החל מפברואר 2026) סוג 1 – בהיקף כספי עד 1,927 (החל מדצמבר 2025) סוג 2 – בהיקף כספי עד 3,854 (החל מדצמבר 2025) סוג 3 – בהיקף כספי עד 7,708 (החל מדצמבר 2025) סוג 4 – בהיקף כספי עד 15,416 (החל מדצמבר 2025) סוג 5 – בהיקף כספי בלתי מוגבל.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Amounts are in THOUSANDS of NIS, so type 1 equals 1,927,000 NIS. Rows are a wikitext template table joined with a pipe here, verbatim per row but not one contiguous run. The instrument's real name is תקנות רישום קבלנים לעבודות הנדסה בנאיות (סיווג קבלנים רשומים); 'תקנות סיווג קבלנים רשומים' is not a real title. These figures re-index twice yearly (1 April and 1 October) so they carry an as-of date. Group alef also covers sub-branches 160 (חשמלאות ותקשורת) and 190 (מיתקני תברואה); מיזוג אוויר (170) and איטום (134) sit in group bet with higher caps."
+    },
+    {
+      "claim_id": "safety-manhal-avoda",
+      "claim": "The mevatze bniya is responsible for ensuring that all building work is carried out under the direct and continuous management of a work manager whom he appointed.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הבטיחות_בעבודה_%28עבודות_בניה%29",
+      "raw_snippet": "מבצע בניה אחראי לכך כי כל עבודת בניה תתבצע בהנהלתו הישירה והמתמדת של מנהל עבודה שהוא מינהו.",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "The duty attaches to the מבצע בניה, which is why the actionable question for a renovation is who that party is. The threshold at which a private apartment renovation becomes 'עבודות בניה' was NOT located and is not asserted."
+    },
+    {
+      "claim_id": "safety-avoda-begova-2m",
+      "claim": "Work at height is defined as any work, including access to the workplace, from which a worker is liable to fall more than 2 metres.",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הבטיחות_בעבודה_%28עבודה_בגובה%29",
+      "raw_snippet": "”עבודה בגובה“ – כל עבודה, לרבות גישה למקום עבודה, שבשלה עלול עובד ליפול לעומק העולה על 2 מטרים",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "notes": "Concrete and useful for a renovation: facade work, roof work, and most scaffolding cross it."
+    },
+    {
+      "claim_id": "mekarkein-s62a-hatzmada-unanimous",
+      "claim": "Attaching (hatzmada) a specified part of the common property to a particular apartment requires the consent of ALL apartment owners. [סעיף 62]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "ואין לקבוע הצמדה של חלק מסויים מהרכוש המשותף לדירה פלונית אלא בהסכמת כל בעלי הדירות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 62(a). CRITICAL DISTINCTION: this unanimity rule governs attaching an EXISTING piece of common property. It is NOT the same as section 71b, which permits a 3/4-plus-2/3 majority to detach and attach common property specifically for BUILDING that expands an apartment. Conflating them tells a homeowner he can take a corridor niche on a majority vote, which is a proprietary trespass."
+    },
+    {
+      "claim_id": "mekarkein-s72-mefakeach-jurisdiction",
+      "claim": "A dispute between apartment owners in a condominium about their rights or duties under the by-laws or the listed statutory provisions is decided by the Registrar's supervisor (המפקח), not by the general courts. [סעיף 72]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר זכויותיהם או חובותיהם לפי התקנון או לפי סעיפים 58 , 59 , או 59א עד 59ג ו־59ה עד 59י , לפי סעיף 1א לחוק המקרקעין (החלפת ספק גז המספק גז באמצעות מערכת גז מרכזית), התשנ״א–1991 , לפי חוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), התשס״ח–2008 או לפי סעיף 6נט עד 6סא , 21ב , 21ד ו־27ג לחוק הבזק, התשמ״ב–1982 , יכריע בו המפקח.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 72(a). Routing a common-property renovation dispute to small claims is a wrong-forum answer that draws dismissal for want of jurisdiction."
+    },
+    {
+      "claim_id": "mekarkein-s72b-trespass-choice",
+      "claim": "For a trespass dispute between apartment owners concerning another apartment or the common property, the plaintiff may choose either a competent court or the supervisor.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר הסגת גבול מצד בעל דירה לגבי דירה אחרת או לגבי הרכוש המשותף, רשאי התובע להביאו, לפי בחירתו, לפני בית משפט מוסמך או לפני המפקח.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 72(b). The choice exists for הסגת גבול only; 72(a) matters are the supervisor's."
+    },
+    {
+      "claim_id": "small-claims-ceiling",
+      "claim": "The small claims court hears a civil claim brought by an INDIVIDUAL for a sum not exceeding 30,000 NIS as enacted and index-linked. The Justice Minister's annual notice under section 2(c) of the 2008 order sets the ceiling at 39,900 NIS from 1 January 2026. The 39,900 figure is NOT statutory text; it comes from the annual notice.",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/חוק_בתי_המשפט",
+      "raw_snippet": "בית משפט לתביעות קטנות ידון בתביעה אזרחית שהגיש יחיד – (1) לתשלום סכום שאינו עולה על 30,000 שקלים חדשים (מתואם לאוגוסט 2008;בשנת 2026, 39,900 ש״ח)",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The wikisource consolidated text carries 39,900 only inside an editorial {{ח:הערה}} annotation, not as statutory text. The operative amount is fixed by the annual notice in Yalkut Hapirsumim; the separate evidence entry small-claims-ceiling-2026-notice carries that primary source."
+    },
+    {
+      "claim_id": "cash-law-prohibition",
+      "claim": "An osek may neither give nor receive a cash payment for a transaction in the course of his business where the transaction price exceeds the amount set in the First Schedule.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לצמצום_השימוש_במזומן",
+      "raw_snippet": "לא ייתן עוסק ולא יקבל תשלום במזומן בעבור עסקה במסגרת עסקו, אם מחיר העסקה עולה על הסכום הנקוב",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 2(a). Section 2(c) mirrors it for a non-osek PAYING an osek, which is the homeowner's side, so the duty binds the homeowner too and not only the tradesperson."
+    },
+    {
+      "claim_id": "cash-law-amounts",
+      "claim": "The First Schedule sets the cash caps at 6,000 NIS and 15,000 NIS, the latter except for a vehicle purchase by a non-osek which remains 50,000 NIS.",
+      "claim_type": "currency",
+      "source_url": "https://he.wikisource.org/wiki/חוק_לצמצום_השימוש_במזומן",
+      "raw_snippet": "תוספת ראשונה ( סעיפים 2 , 6(א)(1) עד (4) , 20(1) עד (6) ו־21 ) (1) [תיקון: ק״ת תשפ״ב] 6,000 שקלים חדשים (2) [תיקון: ק״ת תשפ״ב] 15,000 שקלים חדשים, למעט לעניין סכום שמשלם אדם שאינו עוסק בעד רכישת כלי רכב, שייוותר 50,000 שקלים חדשים",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "6,000 applies where an osek is a party (the normal renovation case, since a tradesperson is an osek). 15,000 is the private-to-private cap. Amounts are amendable by order, so they carry an as-of date."
+    },
+    {
+      "claim_id": "gas-licence-required",
+      "claim": "A person may not be a gas supplier nor engage in gas work of a type prescribed by the Minister unless he holds a licence under the Gas Law.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגז_%28בטיחות_ורישוי%29",
+      "raw_snippet": "לא יהיה אדם ספק גז ולא יעסוק בעבודת גז מסוג שקבע השר בתקנות, אלא אם כן הוא בעל רשיון שניתן לו לפי חוק זה",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The Law defines עבודת גז broadly, covering planning, installation, testing, alteration, repair and dismantling of a gas installation. Relevant because relocating a kitchen gas point is routine in a renovation and the trade checklist must not omit it."
+    },
+    {
+      "claim_id": "safety-notification-dual-signature",
+      "claim": "The notice appointing a work manager is delivered on a form obtainable from the regional labour inspector's office, is signed by BOTH the mevatze bniya and the appointed work manager, and is sent by registered post to the regional inspector for the area where the work is carried out.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הבטיחות_בעבודה_%28עבודות_בניה%29",
+      "raw_snippet": "ההודעה לפי תקנות משנה (ב) או (ג) תימסר על גבי טופס שניתן להשיגו במשרדו של מפקח העבודה האזורי, תיחתם בידי מבצע הבניה ובידי מי שנתמנה מנהל עבודה ותישלח, בדואר רשום, למשרדו של מפקח עבודה אזורי באזור שבו מתבצעת העבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Added after an independent judge flagged the dual-signature detail as unsourced prose. The detail is correct and appears verbatim in the regulation; it simply had no evidence entry."
+    },
+    {
+      "claim_id": "vat-s46-invoice-duty",
+      "claim": "Every osek must issue the buyer a chashbonit iska for each transaction or part of one, even where it is exempt from tax. [סעיף 46]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מס_ערך_מוסף",
+      "raw_snippet": "עוסק חייב להוציא לקונה חשבונית עסקה על כל עסקה או חלק מעסקה גם אם הם פטורים ממס.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 46. Re-sourced from Kol Zchut to the statute after Kol Zchut proved unreachable to both curl and a headless browser (Cloudflare), so its snippet could not be re-verified on demand."
+    },
+    {
+      "claim_id": "vat-s47a-tax-invoice-right",
+      "claim": "An osek murshe may issue a tax invoice (chashbonit mas) instead of a transaction invoice for a taxable transaction, and must do so at the buyer's demand. The right is granted to an osek murshe only, which is why an osek patur cannot issue one. [סעיף 47]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מס_ערך_מוסף",
+      "raw_snippet": "עוסק מורשה רשאי להוציא לגבי עסקה חייבת במס חשבונית מס במקום חשבונית עסקה, וחייב הוא לעשות כן לפי דרישת הקונה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 47(a), headed 'זכות להוציא חשבונית מס'. The osek patur limitation is the structural consequence of the permission being granted to an osek murshe alone; the practical effect for a homeowner who is himself a business is that he gets no input VAT from an osek patur."
+    },
+    {
+      "claim_id": "small-claims-ceiling-2026-notice",
+      "claim": "The small claims jurisdiction ceiling is 39,900 NIS from 1 January 2026, fixed by the Justice Minister's notice under section 2(c) of the Courts Order (Change of Claim Amount in Small Claims), 5768-2008, published in Yalkut Hapirsumim 5786 p. 3641.",
+      "claim_type": "amount",
+      "source_url": "https://olaw.org.il/yalkut/yalkut-14222.pdf",
+      "raw_snippet": "בתוקף סמכותי לפי סעיף 2(ג) לצו בתי המשפט (שינוי סכום התביעה בתביעות קטנות), התשס\"ח-2008, אני מודיע כי עקב שינוי המדד שפורסם בחודש דצמבר 2025 לעומת המדד שפורסם בחודש דצמבר 2024, סמכות בית המשפט לתביעות קטנות תעמוד מיום י\"ב בטבת התשפ\"ו (1 בינואר 2026) על 39,900 שקלים חדשים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:31:15+00:00",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T21:31:15+00:00",
+      "notes": "Retrieved as PDF and read with pdftotext on 2026-08-27. This is the primary source for the 39,900 figure; the consolidated statute text enacts 30,000 index-linked."
+    },
+    {
+      "claim_id": "cash-law-ten-percent-limb",
+      "claim": "The definition of 'תשלום במזומן' in section 1 of the Prohibition on Cash Use Law excludes the LOWER of (1) 10% of the transaction price and (2) the amount in item (1) or (2) of the First Schedule. So the lawful cash residue is the lower of ten percent of the price and 6,000 NIS, not a flat 6,000.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9C%D7%A6%D7%9E%D7%A6%D7%95%D7%9D_%D7%94%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%9E%D7%96%D7%95%D7%9E%D7%9F",
+      "raw_snippet": "”תשלום במזומן“ – סכום המשולם או הניתן במזומן, לפי העניין, למעט סכום הנמוך מבין אלה: (1) סכום בשיעור של 10% ממחיר העסקה, מסכום המתנה, מסכום התרומה, מסכום ההלוואה או מסכום השטר, לפי העניין; (2) הסכום הנקוב בפרט (1) או (2) לתוספת הראשונה, לפי העניין;",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Read via ?action=raw with a browser User-Agent on 2026-08-27. Closes a wrong 'flat 6,000 cap' statement that was permissive in the dangerous direction."
+    },
+    {
+      "claim_id": "cash-law-trigger-is-transaction-price",
+      "claim": "Section 2 of the Prohibition on Cash Use Law triggers on the TRANSACTION PRICE exceeding the Schedule amount, not on the size of the individual payment. Section 2(c) binds a non-osek payer paying an osek.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%9C%D7%A6%D7%9E%D7%A6%D7%95%D7%9D_%D7%94%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%9E%D7%96%D7%95%D7%9E%D7%9F",
+      "raw_snippet": "לא ייתן עוסק ולא יקבל תשלום במזומן בעבור עסקה במסגרת עסקו, אם מחיר העסקה עולה על הסכום הנקוב בפרט (1) לתוספת הראשונה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Section 2(a). Section 2(c) read in the same fetch: לא ייתן אדם שאינו עוסק תשלום במזומן לעוסק בעבור עסקה במסגרת עסקו של העוסק."
+    },
+    {
+      "claim_id": "mekarkein-s72a-enumerated-scope",
+      "claim": "Section 72(a) of the Land Law confines the supervisor's jurisdiction to disputes about rights or duties under the takanon or under sections 58, 59, 59a-59c and 59e-59j, plus three named external statutes. A neighbour's tort claim for damage caused by works is not within it.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר זכויותיהם או חובותיהם לפי התקנון או לפי סעיפים 58 , 59 , או 59א עד 59ג ו־59ה עד 59י",
+      "confidence": "high",
+      "fetched_at": "2026-09-14T00:00:00Z",
+      "notes": "Read verbatim 2026-08-27. Section 72(b) reads 'רשאי התובע להביאו, לפי בחירתו' and is therefore an option, not a compulsory forum."
+    },
+    {
+      "claim_id": "hozim-ahidim-definition",
+      "claim": "A 'חוזה אחיד' is a contract form whose terms were set in advance by one party to serve as terms for many contracts with persons indefinite in number or identity. A tradesperson's standard client terms fall within it.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "”חוזה אחיד“ – נוסח של חוזה שתנאיו, כולם או מקצתם, נקבעו מראש בידי צד אחד כדי שישמשו תנאים לחוזים רבים בינו לבין אנשים בלתי מסויימים במספרם או בזהותם;",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "Read 2026-08-27."
+    },
+    {
+      "claim_id": "hozim-ahidim-s4-presumptions",
+      "claim": "Section 4 of the Standard Contracts Law presumes as unfair: 4(1) a term exempting or unreasonably limiting the supplier's liability; 4(2) a term giving the supplier an unreasonable right to cancel, suspend or defer performance; 4(6a) a term setting agreed compensation unreasonably in the supplier's favour.",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "חזקה על התנאים הבאים שהם מקפחים: (1) תנאי הפוטר את הספק, באופן מלא או חלקי, מאחריות שהיתה מוטלת עליו על פי דין אילולא אותו תנאי, או המסייג באופן בלתי סביר את האחריות שהיתה מוטלת עליו מכוח החוזה אילולא אותו תנאי; (2) תנאי המקנה לספק זכות בלתי סבירה לבטל, להשעות או לדחות את ביצוע החוזה",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "4(6א) read in the same fetch: תנאי המקנה לספק באופן בלתי סביר תרופה שאינה עומדת לו על פי דין ... או תנאי הקובע פיצויים מוסכמים שאינם סבירים לטובת הספק."
+    },
+    {
+      "claim_id": "hozim-ahidim-s5-void",
+      "claim": "Section 5 of the Standard Contracts Law voids outright a term limiting the client's right to go to the courts (5(a)) and a term exempting the supplier from liability for bodily injury or malicious act (5(b)).",
+      "claim_type": "legal_rule",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%97%D7%95%D7%96%D7%99%D7%9D_%D7%94%D7%90%D7%97%D7%99%D7%93%D7%99%D7%9D",
+      "raw_snippet": "תנאי בחוזה אחיד השולל או המגביל את זכות הלקוח לפנות לערכאות משפטיות – בטל.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T21:43:38+00:00",
+      "notes": "5(b) read in the same fetch: תנאי בחוזה אחיד הפוטר את הספק, באופן מלא או חלקי, מאחריות לנזק גוף או למעשה זדון המוטלת עליו על פי דין – בטל."
+    }
+  ]
+}

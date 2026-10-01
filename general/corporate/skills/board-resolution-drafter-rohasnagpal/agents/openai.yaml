@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board Resolution Drafter"
+  short_description: "Draft board and shareholder resolutions accurately"
+  default_prompt: "Use $board-resolution-drafter to draft the required corporate resolutions and approval record for this action."

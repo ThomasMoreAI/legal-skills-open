@@ -1,0 +1,16 @@
+{
+  "name": "at-tax",
+  "displayName": "Tax — Austria",
+  "version": "0.1.0",
+  "description": "Tax skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "tax",
+  "language": "de",
+  "skills": [
+    "skills/recht-steuer-momarcode1",
+    "skills/recht-steuer-verfahren-momarcode1",
+    "skills/steuer-at-clemensjl"
+  ]
+}

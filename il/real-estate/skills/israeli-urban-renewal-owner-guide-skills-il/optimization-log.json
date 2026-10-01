@@ -1,0 +1,15 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-08-31",
+      "note": "Description unchanged this cycle, so no holdout run.",
+      "lessons": [
+        "The war-damage statute (2026) was absent from the skill entirely and was found only by verifying an aggregator row rather than dismissing it. Re-check on each cycle: it is recent, is being applied to live cases, and is the most likely part of this skill to move.",
+        "Deferred: the enabling regulations made under s.1e / s.5g1 prescribing transaction form and content were not read in full this cycle. The skill states that the power exists and that breach can void; the specific prescribed requirements remain uncaptured.",
+        "Deferred: indexation mechanics of the 2025 cancellation-payment schedule (the regulations define a maddad but the uplift computation was not worked through). Figures are given as the published schedule and routed to the owner's advocate.",
+        "Carry: the Independent Judge and Expert Review had never run against this skill through v1.0.2 because the subagent channel failed repeatedly. If they did not return this cycle either, that is now a two-session pattern and the gate should be treated as structurally unavailable rather than transiently flaky."
+      ]
+    }
+  ]
+}

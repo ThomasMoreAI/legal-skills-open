@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "cybersecurity-compliance",
+  "displayName": "Cybersecurity Compliance",
+  "description": "Use when identifying cybersecurity-specific regulations and incident reporting obligations. Covers NIS2, DORA, SEC cyber disclosure rules, CISA incident reporting, state breach notification laws, cyber insurance requirements, and security certification frameworks.",
+  "author": "Tyler-R-Kendrick",
+  "license": "MIT",
+  "date": "February 2026",
+  "compatibility": "claude, copilot, cursor",
+  "references": [
+    {
+      "title": "NIS2 Directive Official Text (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj"
+    },
+    {
+      "title": "ISO/IEC 27001 Information Security Management",
+      "url": "https://www.iso.org/standard/27001"
+    },
+    {
+      "title": "NIST Cybersecurity Framework",
+      "url": "https://www.nist.gov/cyberframework"
+    }
+  ]
+}

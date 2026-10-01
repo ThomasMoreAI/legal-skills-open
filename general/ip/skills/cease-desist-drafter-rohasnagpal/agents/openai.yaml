@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cease and Desist Drafter"
+  short_description: "Draft proportionate IP enforcement notices"
+  default_prompt: "Use $cease-desist-drafter to prepare a source-backed IP cease and desist notice with a clear right, infringement theory, demand, deadline, and reservation of rights."

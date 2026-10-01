@@ -1,0 +1,14 @@
+{
+  "name": "lt-corporate",
+  "displayName": "Corporate — Lithuania",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Lithuania.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "lt",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/lithuania-company-registry-nolpak14"
+  ]
+}

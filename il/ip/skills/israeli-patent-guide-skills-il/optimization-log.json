@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-patent-guide",
+  "cycles": [
+    {
+      "cycle": 1,
+      "date": "2026-08-01",
+      "version_before": "1.2.0",
+      "version_after": "1.3.0",
+      "trigger": "scheduled staleness review, 73 days since last review",
+      "lessons": [
+        "The renewal-deadline off-by-one shipped because both the prose and the calculator restated the fee BAND label (years 7-10) as if it were the DUE DATE (year-7 anniversary). The official Hebrew text says 'lifnei tom hashana hashishit', before the end of the sixth year. Whenever a fee is described by the period it covers, separately record the date it must be paid; the two are not the same field and in Israel they differ by a full year.",
+        "The fee table under-quoted because 12 cells said 'see official schedule' rather than a number. A placeholder is indistinguishable from a verified absence. Never ship a placeholder in a fee table; either fetch the number or state that the row does not exist.",
+        "The accelerated-examination fee was collapsed from a four-cell matrix into the single applicant-route total (357 + 834 = 1,191). The arithmetic was right and the answer was still incomplete: the third-party route under s.19a(c) costs 17,865 and is a competitive-strategy fact, not merely a fee. When a published fee splits by WHO pays or WHY, enumerate every branch.",
+        "The 40% reduction had three independent errors in one paragraph, all of which came from paraphrasing a practitioner summary instead of the statutory row. The official text carries eligibility, the first-application condition, and the scope of application in a single sentence. Read the fee notice row itself, not a law-firm restatement of it.",
+        "gov.il HTML pages return HTTP 403 to WebFetch, which reads as a dead link and invites a guess. The underlying BlobFolder PDF downloads cleanly with curl and has a text layer extractable with 'pdftotext -layout'. Try the PDF before concluding a gov.il source is unreachable, and never mark a 403 as broken.",
+        "Scope was drawn around the content rather than around the user's question. The skill excluded designs and trademarks while already parsing the very fee notice that contains both, and while the founder persona it targets routinely needs them. An exclusion is only honest if it survives being re-read next to the user's actual question."
+      ],
+      "buckets": {
+        "fixed": [
+          "renewal deadlines corrected to years 6/10/14/18 in scripts/patent-deadlines.py, SKILL.md, SKILL_HE.md, references/ilpo-fee-schedule.md",
+          "years 1-6 lump sum stated as NIS 961 due within 3 months of grant",
+          "all-inclusive renewal NIS 14,410 added",
+          "40% reduction rewritten: CHE institutions and TTOs added, first-application condition added, scope narrowed to filing and acceptance fees, threshold corrected to 'did not exceed' and 'preceding year'",
+          "all 12 'see official schedule' placeholders replaced with 2026 figures",
+          "page fee 300 per 50 pages from page 101 added",
+          "accelerated examination four-cell matrix added including the 17,865 third-party route",
+          "PTE fee ladder added",
+          "extension of time NIS 240 per month added",
+          "NIS PCT-phase fees added (ISA 4,203, transmittal 656, IPEA 1,801)",
+          "defence-related inventions ss.94-113 warning added to the PCT section",
+          "service inventions ss.132-135 and the Compensation and Royalties Committee added",
+          "absolute-novelty Gotcha added",
+          "laws.justice.gov.il (NXDOMAIN) replaced with WIPO Lex and Nevo",
+          "gov.il/en/departments/ilpo replaced with the israel_patent_office path",
+          "Paris-priority row in the calculator relabelled when a priority date is supplied",
+          "references/domain-checklist.md created"
+        ],
+        "deferred": [
+          "Protection-route chooser covering registered designs (both Designs Law 5777-2017 and the old Designs Ordinance) and trademarks, with 2026 fee anchors. Out of scope for this cycle by instruction. The domain-checklist rows are already marked REOPEN.",
+          "Calculator flags --section18-notice-date (4 months, 12-month ceiling) and --demand (PCT Chapter II, Rule 54bis.1(a)). Out of scope this cycle by instruction.",
+          "Patentability criteria ss.3 and 7, and Israeli software / business-method practice via the Registrar's circulars and the Digital Layer line of decisions.",
+          "Israel-versus-abroad filing strategy: direct Paris route versus PCT, cost deferral, and the fact that PCT is a procedure rather than a world patent.",
+          "Budapest Treaty biological deposits."
+        ],
+        "persistent_fail": [
+          "Amendment No. 15 legislative status could NOT be confirmed as of 2026-08-01. The skill's 'As of May 2026 ... in the Knesset Constitution, Law and Justice Committee following first reading' stamp was left deliberately UNTOUCHED rather than re-dated. Reinhold Cohn and IAM still describe committee stage and neither has been updated; the Pearl Cohen article checked this cycle is dated 19 January 2026, predates the existing stamp, and never names Amendment 15. NEXT CYCLE: resolve this first. If the amendment has been enacted, SKILL.md 'Pending Patent Law Amendment No. 15', 'No True Provisional Application', the Section 18 mechanics, and the new absolute-novelty Gotcha all become wrong simultaneously, and the fee schedule will gain a request-for-examination row.",
+          "ILPO 2025 Annual Report not located. The 43 / 51.3 / 39.3-month examination averages are still sourced to the 2024 report via IAM's 2026 review. Check the publications listing at gov.il/he/Departments/israel_patent_office.",
+          "The PCT Rule 49.6 reinstatement claim in SKILL.md Troubleshooting remains undated and unsourced. Verify against the WIPO PCT Applicant's Guide Israel chapter and pin the reinstatement fee."
+        ]
+      }
+    },
+    {
+      "cycle": 2,
+      "version": "1.5.0",
+      "date": "2026-09-13",
+      "version_before": "1.4.1",
+      "version_after": "1.5.0",
+      "trigger": "update-oldest-skills batch 2026-09-13",
+      "lessons": [
+        "The PTE section described an 'EU-5 linkage' and a 25-year cap that the statute does not contain. The real rules (shortest extension in recognized countries including the US, Israel-only route, 14-year cap from first approval) were only found by reading ss.64A-64Q in full. Read the section, not a summary of the concept.",
+        "Transliterated section numbers are a trap: Hebrew 64טו is s.64O (15th letter), not 64T. Map Hebrew letters to Latin by ordinal, then grep every file for the wrong form.",
+        "Three prior-cycle statements survived every gate because they were plausible practice claims with no numbers: 'Hebrew or English translation' at national phase (statute requires verified English), divisional 'until grant' (s.24(a) says until acceptance), and the opposition anchor (s.30 runs from publication). Statute-check procedural rules, not just figures.",
+        "Deferred (discretionary cap): realistic attorney-cost ranges; filing-route strategy (Paris vs PCT vs US provisional) beyond one line; designs and trademark route chooser; non-working-day roll-forward; PCT Chapter II demand and Section 18 notice flags in the calculator; calculator handling of grant after year 6; rename --allowance-date to a publication-date flag; co-ownership ss.80-81; trade secret and FTO pointers; s.4 enablement qualifier in Gotcha 0; Hebrew body still over 5,000 words.",
+        "Section 18 notice figures (4-month response, 12-month ceiling, about 2 years deferral) were removed as unsourced. Next cycle: source them from the Patents Regulations or an ILPO circular and restore if confirmed.",
+        "Direct national filing translation and priority-document deadlines are now 'confirm with ILPO'. Next cycle: cite the Patents Regulations 5729-1969 regulation numbers.",
+        "Amendment 15 still tabled for first reading on 13 Sep 2026 (Knesset OData bill 1045508, status 141). Re-check first next cycle."
+      ],
+      "buckets": {
+        "fixed": [
+          "PTE rewritten against ss.64A-64Q",
+          "opposition anchor s.30",
+          "Article 19 Rule 46.1 in script",
+          "Rule 49.6 sourced",
+          "Amendment 15 status stamped",
+          "PCT verified English translation s.48D",
+          "divisional until acceptance s.24(a)",
+          "s.98 foreign filing routes",
+          "s.132(b)/s.133",
+          "s.60/s.63 restoration",
+          "patentability ss.3-5,7"
+        ],
+        "persistent_fail": [
+          "Section 18 notice timing figures unsourced (removed)",
+          "direct-filing translation and priority document deadlines unsourced (softened)"
+        ]
+      }
+    }
+  ]
+}

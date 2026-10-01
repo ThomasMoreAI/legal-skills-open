@@ -1,0 +1,4 @@
+interface:
+  display_name: "Breach Response Planner"
+  short_description: "Coordinate privacy incident and notification response"
+  default_prompt: "Use $breach-response-planner to coordinate containment, evidence preservation, role allocation, risk assessment, regulator and individual notification decisions, and remediation for this incident."

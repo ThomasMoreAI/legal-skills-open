@@ -1,0 +1,14 @@
+{
+  "name": "nz-real-estate",
+  "displayName": "Real Estate — New Zealand",
+  "version": "0.1.0",
+  "description": "Real Estate skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/linz-title-memorials-thecolab-ai"
+  ]
+}

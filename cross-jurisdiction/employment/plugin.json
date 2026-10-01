@@ -1,0 +1,15 @@
+{
+  "name": "cross-jurisdiction-employment",
+  "displayName": "Employment & Labor — comparative",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/handbook-drafter-rohasnagpal",
+    "skills/international-expansion-bossmann007"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cross-jurisdiction-family",
+  "displayName": "Family Law — comparative",
+  "version": "0.1.0",
+  "description": "Family Law skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/draft-guardianship-sboghossian",
+    "skills/safety-minor-protection-sboghossian"
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Identity"
+  short_description: "Poland Identity: run focused tasks"
+policy:
+  allow_implicit_invocation: false

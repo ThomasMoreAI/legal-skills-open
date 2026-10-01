@@ -1,0 +1,8 @@
+{
+  "fixture": "synthetic-customs-tariff-archive",
+  "implemented": true,
+  "format": "gzip-compressed tar containing tilde-delimited CP1252 CSV files",
+  "licence": "CC0-1.0 synthetic test data",
+  "contains_live_credentials": false,
+  "contains_personal_data": false
+}

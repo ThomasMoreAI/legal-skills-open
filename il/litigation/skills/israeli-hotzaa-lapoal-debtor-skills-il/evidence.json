@@ -1,0 +1,1064 @@
+{
+  "skill_slug": "israeli-hotzaa-lapoal-debtor",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-13T20:00:00Z",
+  "note": "kolzchut.org.il returns 403 to WebFetch; every snippet below was read from a Playwright browser render on 2026-08-19, hence verified_via=browser.",
+  "claims": [
+    {
+      "id": "objection-30-days",
+      "claim": "Objection to a bill/cheque execution file must be filed within 30 days of service of the azhara",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "יש להגיש את ההתנגדות בתוך 30 ימים מיום המצאת האזהרה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "form-218",
+      "claim": "The objection is filed on form 218",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "יש להגיש את ההתנגדות באמצעות טופס לבקשת התנגדות לביצוע שטר או תובענה (טופס 218).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "timely-auto-stay",
+      "claim": "A timely objection automatically stays collection and transfers the claim to court",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הגשת ההתנגדות במועד, תעכב אוטומטית את הליכי הגבייה בהוצאה לפועל, והתביעה תועבר לדיון בפני בית המשפט.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "late-no-stay",
+      "claim": "A late objection does NOT automatically stay collection; a separate stay request is required",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הגשת ההתנגדות באיחור, לא תעכב אוטומטית את הליכי הגבייה בהוצאה לפועל, ולכן יש להגיש בקשה נפרדת לעיכוב הליכים.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "affidavit-witness",
+      "claim": "The affidavit must be signed before an advocate, judge, registrar or authorised court/office clerk",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "התצהיר צריך להיות חתום בפני עורך דין, שופט, רשם בהוצאה לפועל, עובד בית משפט, או עובד לשכת ההוצאה לפועל שהוסמך לכך.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "rashut-lehitgonen",
+      "claim": "In court the objection is treated as an application for leave to defend",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "ההתנגדות של החייב תיחשב כבקשת רשות להתגונן",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "creditor-14-days",
+      "claim": "The creditor must deliver the court decision to the enforcement office within 14 days",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "על הזוכה להמציא את ההחלטה או פסק הדין תוך 14 ימים ללשכת ההוצאה לפועל",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "eca-phone",
+      "claim": "The Enforcement and Collection Authority information line is *35592",
+      "claim_type": "company",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לביצוע_שטר_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "לזימון תור יש להיכנס לאתר זימון התורים או להתקשר למוקד המידע הטלפוני בטלפון *35592.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "katzuv-ceiling",
+      "claim": "A fixed-sum (sechum katzuv) claim is capped at 75,000 NIS",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לתביעה_על_סכום_קצוב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "תביעה על חוב ברור, שיש עליו בדרך כלל ראיות בכתב, ובסכום מקסימלי של 75,000 ש\"ח",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "katzuv-technical-ground",
+      "claim": "A technical ground exists where the debt exceeds the 75,000 NIS ceiling on the filing date",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לתביעה_על_סכום_קצוב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "גובה החוב עולה על הסכום המקסימלי של 75,000 ₪ נכון ליום הגשת התביעה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "katzuv-partial",
+      "claim": "A partial objection is permitted, conceding the remainder",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/התנגדות_לתביעה_על_סכום_קצוב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "אפשר להגיש התנגדות על חלק מסכום התביעה (ובכך, להסכים לחלק האחר) או על הסכום כולו.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-no-deadline",
+      "claim": "A \"paraati\" claim may be raised at any stage and at any time, with no deadline",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "ניתן להעלות טענת \"פרעתי\" בכל שלב של הליכי ההוצאה לפועל ובכל מועד",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-form-236",
+      "claim": "The paraati claim is filed on form 236 marked relief number 119",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "יש להגיש בקשה בכתב על גבי טופס בקשת חייב בטענת פרעתי (טופס 236) ולסמן את סעד מס' 119.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-post-judgment",
+      "claim": "On a judgment file, paraati covers only payment made after the judgment and cannot attack the judgment",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "ניתן להשתמש בטענת \"פרעתי\" רק אם פרעון החוב נעשה לאחר מתן פסק הדין. כלומר לא ניתן להעלות באמצעות טענת \"פרעתי\" השגות על פסק הדין עצמו.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-21-day-exemption",
+      "claim": "Filing within 21 days of service exempts the debtor from attending an ability examination while pending",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "אם הבקשה תוגש בתוך 21 ימים מיום המצאת האזהרה לחייב, הוא לא יידרש להתייצב לחקירת יכולת כל עוד בקשתו לא נדחתה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-rejected-21",
+      "claim": "If the paraati claim is rejected the debtor must attend an ability examination or pay within 21 days",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "אם נדחתה טענת \"פרעתי\" שטען החייב, עליו להתייצב לחקירת יכולת (או לפרוע את החוב) בתוך 21 ימים.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "parati-costs",
+      "claim": "Special costs may be imposed if the claim was found baseless",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הוא יטיל על החייב הוצאות מיוחדות אם מצא כי לא היה יסוד לטענה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "self-rep-manual-filing",
+      "claim": "Parties not represented by an advocate may choose to file manually rather than online",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/טענת_%22פרעתי%22_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "חייבים או זוכים שלא מיוצגים על ידי עורך דין, רשאים לבחור אם לבצע את ההגשות באופן מקוון או ידני.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-table-2026",
+      "claim": "The protected monthly wage amounts for 2026 are 2,596 / 3,893 / 4,516 / 5,139 / 4,250 / 5,289 NIS by family status",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "להלן טבלת המצבים והסכומים, נכון לשנת 2026:",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-80-percent",
+      "claim": "If the table figure exceeds 80% of net pay the debtor keeps 80% of net, so at most 20% of net is attachable",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "אם הסכומים שצוינו בטבלה גבוהים מ-80% משכר הנטו של העובד, יושארו בידי העובד 80% משכר הנטו ולא סכומים אלה, כלומר במקרים אלה מותר לעקל 20% משכר הנטו של העובד.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-mezonot-exception",
+      "claim": "In a maintenance (mezonot) file the entire wage may be attached",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "במקרה שמדובר בתיק מזונות המגיעים מהחייב, ניתן לעקל את כל השכר.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-one-month-bank",
+      "claim": "Wage protection in a bank account lasts one month from deposit, after which the funds are attachable",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "ההגבלה על העיקול תחול על השכר למשך חודש ימים מהיום שהופקד (כלומר, אם החייב לא משך את הסכום שהופקד בתוך חודש, יהיה ניתן לעקל אותו).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-exit",
+      "claim": "Exit from the country is one of the restrictions the registrar may impose",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "צו עיכוב יציאה מהארץ.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-passport",
+      "claim": "Receiving, holding or renewing a passport or travel document is a restriction",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הגבלה על קבלה, החזקה או הארכה של דרכון או תעודת מעבר.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-cards",
+      "claim": "Use of credit (charge) cards is a restriction; debit and prepaid cards are excluded (see card-debit-excluded)",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הגבלה על שימוש בכרטיסי חיוב (כרטיסי אשראי).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-corp",
+      "claim": "Founding or holding office in a corporation is a restriction",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הגבלה על ייסוד תאגיד או כהונה בתאגיד.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "form-214",
+      "claim": "Cancellation of a restriction is requested on form 214, online code 311",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "יש למלא ולהגיש בקשה לביטול או עיכוב או חידוש הליכים והגבלות (טופס 214)",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-reimpose",
+      "claim": "A restriction may be re-imposed immediately and without any warning if the debtor stops complying",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "במקרה כזה ההגבלה החדשה תיכנס לתוקף מייד, ללא צורך במשלוח התראה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-per-file",
+      "claim": "A cancellation request must be filed separately in each file carrying the restriction",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "הבקשה לביטול הגבלות מוגשת לפי תיקים, ולכן אם יש הגבלה מסוימת במספר תיקים, יש להגיש את הבקשה לביטול בכל תיק בנפרד.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-24h",
+      "claim": "Cancellation is notified to banks, credit companies and the Interior Ministry within 24 hours",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "ועד מקסימום 24 שעות ממועד הביטול, הודעה על כך לגורמים הרלוונטיים",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-appeal-leave",
+      "claim": "A decision on a restriction cannot be appealed directly; leave to appeal is required",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לביטול_הגבלה_שהטיל_רשם_ההוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "על החלטה של רשם ההוצאה לפועל לבטל או לא לבטל הגבלה אי אפשר לערער ישירות לבית המשפט ויש לקבל רשות לערער.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "chdlut-threshold",
+      "claim": "The insolvency reform took effect September 2019 and distinguishes debts below 176,923.12 NIS (2026) from higher debts",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/חדלות_פירעון_ושיקום_כלכלי_%28פשיטת_רגל%29_לחובות_בסכום_נמוך",
+      "source_fetched_at": "2026-08-19T15:20:00Z",
+      "raw_snippet": "בספטמבר 2019, נכנסה לתוקף רפורמה חדשה שמטרתה לייעל ולקצר את ההליכים, לתחום אותם בזמן ולאזן בין האינטרסים של החייב ושל הנושה. לפי החוק החדש, נערכת הבחנה עיקרית בין חובות בסכום נמוך מ-176,923.12 ₪ (נכון ל-2026) וחובות בסכום גבוה מזה.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-single",
+      "claim": "Protected wage row (2026): יחיד/ה | 2,596 ₪ | 103.82 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "יחיד/ה | 2,596 ₪ | 103.82 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-couple",
+      "claim": "Protected wage row (2026): שני בני זוג | 3,893 ₪ | 155.73 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "שני בני זוג | 3,893 ₪ | 155.73 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-couple1",
+      "claim": "Protected wage row (2026): שני בני זוג עם ילד | 4,516 ₪ | 180.65 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "שני בני זוג עם ילד | 4,516 ₪ | 180.65 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-couple2",
+      "claim": "Protected wage row (2026): שני בני זוג עם 2 ילדים ומעלה | 5,139 ₪ | 205.56 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "שני בני זוג עם 2 ילדים ומעלה | 5,139 ₪ | 205.56 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-single1",
+      "claim": "Protected wage row (2026): הורה עצמאי (רווק/ה, גרוש/ה, אלמן/ה וכו') + ילד | 4,250 ₪ | 170.01 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "הורה עצמאי (רווק/ה, גרוש/ה, אלמן/ה וכו') + ילד | 4,250 ₪ | 170.01 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "wage-row-single2",
+      "claim": "Protected wage row (2026): הורה עצמאי + 2 ילדים ומעלה | 5,289 ₪ | 211.54 ₪",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/שכר_עבודה_שלא_ניתן_לעקל_או_לשעבד",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "הורה עצמאי + 2 ילדים ומעלה | 5,289 ₪ | 211.54 ₪",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "portal-url",
+      "claim": "The Kol Zchut enforcement portal indexes the procedure pages",
+      "claim_type": "url",
+      "source_url": "https://www.kolzchut.org.il/he/הוצאה_לפועל_וגבייה",
+      "source_fetched_at": "2026-08-19T15:21:00Z",
+      "raw_snippet": "הוצאה לפועל וגבייה",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-form-233",
+      "claim": "The payment order request is filed on form 233",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "יש להגיש את הבקשה באמצעות מילוי טופס בקשה למתן צו חיוב תשלומים/שינוי צו חיוב בתשלומים (טופס 233).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-form-529",
+      "claim": "Form 529, a questionnaire and confidentiality waiver, must be attached signed",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "שאלון וכתב ויתור על סודיות (טופס 529) חתומים על ידי החייב.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-20-days",
+      "claim": "In a money judgment or bill file the request should be filed within 20 days of service",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "בתיק מסוג פסק דין כספי או תיק שטרות - על החייב להגיש את את הבקשה תוך 20 ימים מהמועד שבו נמסרה לו האזהרה (המצאה) .",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-30-days",
+      "claim": "In a fixed-sum claim file the request should be filed within 30 days of service",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "בתיק מסוג תביעה על סכום קצוב - יעל החייב להגיש את הבקשה תוך 30 ימים מיום שנמסרה לו האזהרה (המצאה).",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-late-allowed",
+      "claim": "A later filing is still possible but interest and advocate fees may be added to the debt",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "חייב יכול להגיש את הבקשה גם במועד מאוחר יותר, אך לחוב שלו עלולים להתווסף ריביות ושכר טרחת עורך דין.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-min-150",
+      "claim": "The minimum monthly payment is 150 NIS and the debtor must start paying the proposed sum pending decision",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "לאחר הגשת הבקשה, על החייב לשלם את התשלום החודשי במועד ובשיעור שהציע בבקשה, עד להחלטת רשם ההוצאה לפועל בבקשתו וכל עוד לא החליט רשם ההוצאה לפועל אחרת. הסכום המינימלי שאפשר לשלם הוא 150 ₪.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-does-not-lift",
+      "claim": "Approval of a payment order does NOT automatically stay or cancel existing restrictions or attachments",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "אישור הבקשה לא מעכב ולא מבטל אוטומטית את ההגבלות או העיקולים, ויש להגיש בקשה נפרדת לעיכוב או ביטול ההגבלות והעיקולים",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-interest-benefit",
+      "claim": "Complying with the order can avoid arrears interest or reduce interest in the file by 25%",
+      "claim_type": "percentage",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "לא תתווסף ריבית פיגורים לקרן החוב שלו בהוצאה לפועל או שיופחתו 25% מהריביות בתיק",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-registrar-options",
+      "claim": "The registrar may grant, demand more documents, summon an ability examination, or reject",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "לקבל את בקשת החייב ולתת צו תשלומים.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-consolidation",
+      "claim": "Where the debtor has several files the registrar may consolidate them under one order",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "אם לחייב יש מספר תיקים, הרשם ישקול בזמן מתן ההחלטה על צו התשלומים האם לאחד את כל התיקים ולקבוע שהצו יחול על כל החובות.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "azhara-50k-proposal",
+      "claim": "In files up to 50,000 NIS the azhara itself carries a repayment proposal",
+      "claim_type": "currency",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "או שהוא לא יכול לעמוד בהצעת הפריסה שנרשמה באזהרה (בתיקים עד 50,000 ש\"ח)",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-form-106",
+      "claim": "Six recent payslips or a form 106 are required for the debtor, spouse and adult household members",
+      "claim_type": "form-number",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-08-19T15:36:00Z",
+      "raw_snippet": "6 תלושים המשכורת האחרונים או טופס 106 של המבקש, בן/בת זוגו ושאר בני ביתו הבגירים שמתגוררים איתו.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-19",
+      "confidence": "high"
+    },
+    {
+      "id": "restrictions-five-s66a-lakoach",
+      "claim": "The statute lists a fifth restriction: special restricted customer under the Bounced Checks Law",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "הגבלת החייב כלקוח מוגבל מיוחד",
+      "confidence": "high"
+    },
+    {
+      "id": "lakoach-meaning",
+      "claim": "Special restricted customer bars drawing checks and opening a new bank account",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/הגבלת_חייב_בהוצאה_לפועל_כלקוח_מוגבל_מיוחד",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "משמעות ההגבלה היא שהחייב יהיה מנוע מלמשוך שיקים ולא יוכל לפתוח חשבון בנק חדש",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-warning-30",
+      "claim": "A restriction takes effect only 30 days after service of its warning (s.66ג)",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/הגבלת_חייב_בהוצאה_לפועל_כלקוח_מוגבל_מיוחד",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "וחלפו 30 ימים מיום המצאת ההתראה לחייב",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-health-exception",
+      "claim": "Passport and exit restrictions not imposed where travel is needed for health of debtor or dependent",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "מטעמי בריאותו של החייב או של בן משפחה התלוי בו",
+      "confidence": "high"
+    },
+    {
+      "id": "card-debit-excluded",
+      "claim": "Kol Zchut summary of the card-restriction carve-out; the statutory wording (s.66א1) is narrower, see card-exempt-immediate-debit and card-exempt-benefit-only",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/חייב_בעל_יכולת_המשתמט_מתשלום_חובותיו",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "ההגבלה לא חלה על שימוש בכרטיס לחיוב מיידי (דביט) וכרטיסים נטענים",
+      "confidence": "high"
+    },
+    {
+      "id": "form-400-code-159",
+      "claim": "Ability examination before a restriction is requested on form 400, code 159",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/חקירת_יכולת_של_חייב_בהוצאה_לפועל_לפני_הטלת_הגבלה",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "לסמן ב- X את קוד מס' 159",
+      "confidence": "high"
+    },
+    {
+      "id": "form-400-title",
+      "claim": "Form 400 is the request to be summoned to a hearing or ability examination",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/חקירת_יכולת_של_חייב_בהוצאה_לפועל_לפני_הטלת_הגבלה",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "בקשת זימון לדיון או לחקירת יכולת (טופס 400)",
+      "confidence": "high"
+    },
+    {
+      "id": "not-evader-persuade",
+      "claim": "Inside the warning window the debtor can persuade the registrar they are not a debtor with means who evades (s.66ג(ב))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "כי הוא אינו בעל יכולת המשתמט מתשלום חובותיו",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-register-10000",
+      "claim": "Evaders register requires judgment debts over 10,000 NIS in total (s.66ה)",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "חובותיו הפסוקים של החייב עולים על 10,000 שקלים חדשים במצטבר",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-2y",
+      "claim": "Limited-means declaration possible if spread exceeds two years for debt up to 20,000 NIS (s.69ג)",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "שנתיים – אם סכום החוב אינו עולה על 20,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-3y",
+      "claim": "Three years for debt above 20,000 and up to 100,000 NIS",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "3 שנים – אם סכום החוב עולה על 20,000 שקלים חדשים ואינו עולה על 100,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-4y",
+      "claim": "Four years for debt above 100,000 NIS",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "4 שנים – אם סכום החוב עולה על 100,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-register",
+      "claim": "Anyone can check whether a person was declared a limited-means debtor",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/בדיקה_האם_אדם_הוכרז_כחייב_מוגבל_באמצעים",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "אפשר לבדוק לגבי כל אדם האם הוא רשום במרשם החייבים המוגבלים באמצעים",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrest-21",
+      "claim": "Maintenance debtor may be arrested up to 21 days without an ability examination (s.74(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "לתקופה שלא תעלה על 21 ימים אף בלי להיזקק לחקירת יכולת",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrest-warning-7",
+      "claim": "Arrest order carried out only 7 days after service of a warning (s.74(ג))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "וחלפו שבעה ימים מיום המצאתה",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-legal-aid",
+      "claim": "The arrest warning includes information on appointing a lawyer under the Legal Aid Law",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "מידע בדבר האפשרויות למינוי עורך דין",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-no-change-monthly",
+      "claim": "In maintenance files the monthly amount cannot be changed in enforcement, but past arrears can get a payment order",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "אי אפשר להגיש בהוצאה לפועל בקשה לשינוי התשלום החודשי שנקבע בהסכם או בפסק הדין, אבל אפשר להגיש בקשה לצו תשלומים לגבי חובות מזונות בעבר שנצברו",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrears-two-months",
+      "claim": "Past maintenance arrears in installments conditioned on paying current maintenance two consecutive months (s.69ב1)",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "במשך חודשיים רצופים לפחות",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-s74b-exclusions",
+      "claim": "Sections 7א and 69ג to 69יג do not apply to maintenance debt (s.74(ב))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "לא יחולו על חוב כאמור בסעיף קטן (א)",
+      "confidence": "high"
+    },
+    {
+      "id": "consolidation-no-stay",
+      "claim": "A consolidation request does not automatically stop proceedings",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לאיחוד_תיקים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "הגשת הבקשה לאיחוד תיקים לא מפסיקה אוטומטית את ההליכים המתנהלים נגד החייב",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-change-any-stage",
+      "claim": "Debtor may apply at any stage to change the payment order",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "הוא יכול לפנות בכל שלב בבקשה לשינוי צו התשלומים שנקבע",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-benefit-may",
+      "claim": "The interest benefit is framed as \"may\" (עשוי)",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/בקשה_לצו_תשלומים_של_חייב_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "עשוי לקבל הטבה",
+      "confidence": "high"
+    },
+    {
+      "id": "bl-benefits-unattachable",
+      "claim": "Bituach Leumi payments and benefits may not be attached",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "אסור לעקל תשלומים וקצבאות שהביטוח לאומי משלם",
+      "confidence": "high"
+    },
+    {
+      "id": "bl-benefits-30-days",
+      "claim": "Benefits in the account protected 30 days, then attachable",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "אחרי 30 ימים מותר לעקל את הכספים הללו מחשבון הבנק של החייב",
+      "confidence": "high"
+    },
+    {
+      "id": "bl-benefits-mezonot",
+      "claim": "Maintenance exception for benefits, except income support",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "מלבד לגמלת הבטחת הכנסה שאסור לעקל אותה לצורך תשלום מזונות",
+      "confidence": "high"
+    },
+    {
+      "id": "protected-rent-assistance",
+      "claim": "Rent assistance from the Housing Ministry is protected",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "כספים שמקבל החייב כסיוע בשכר דירה ממשרד הבינוי והשיכון",
+      "confidence": "high"
+    },
+    {
+      "id": "protected-pension",
+      "claim": "Pension and severance funds cannot be attached before they may be withdrawn",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "לא ניתן לעקל כספים שהופקדו בקופת גמל לטובת פיצויי פיטורים או קצבה (פנסיה), לפני המועד שבו החייב רשאי למשוך את הכספים.",
+      "confidence": "high"
+    },
+    {
+      "id": "protected-welfare",
+      "claim": "Certain welfare ministry payments cannot be attached",
+      "claim_type": "legal",
+      "source_url": "https://www.kolzchut.org.il/he/נכסים_וכספים_שאסור_לעקל_בהוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T20:00:00Z",
+      "raw_snippet": "לא ניתן לעקל את התשלומים הבאים שמשלם משרד הרווחה",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-register-least-harm",
+      "claim": "Register entry requires that no less harmful step would bring payment (s.66ה(א)(1))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T21:00:00Z",
+      "raw_snippet": "אין הליכים אחרים שפגיעתם בחייב פחותה",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-register-invitation",
+      "claim": "Invitation by registered mail to a hearing on registration (s.66ה(א)(3)(ב)(2))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T21:00:00Z",
+      "raw_snippet": "הזמנה בדואר רשום עם אישור מסירה",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-register-answer",
+      "claim": "The debtor can avoid registration by paying or appearing and persuading the registrar",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T21:00:00Z",
+      "raw_snippet": "אלא אם כן החייב יפרע את החוב או יתייצב לחקירת יכולת",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-cap-3y",
+      "claim": "Payment order period up to 3 years for debt up to 100,000 NIS (s.7א1(א)(1))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "שלוש שנים – אם סכום החוב אינו עולה על 100,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-cap-4y",
+      "claim": "Up to 4 years for debt above 100,000 NIS (s.7א1(א)(2))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "ארבע שנים – אם סכום החוב עולה על 100,000 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-extension-3y",
+      "claim": "Extensions up to three more years in total (s.7א1(ב))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "שלא יעלו בסך הכול על שלוש שנים",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-consent-longer",
+      "claim": "Longer period possible with consent of creditor and debtor (s.7א1(ד))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "אם הזוכה והחייב נתנו את הסכמתם לכך",
+      "confidence": "high"
+    },
+    {
+      "id": "inability-notice-insolvency",
+      "claim": "Notice of inability treated as application to open insolvency proceedings below the ceiling (s.7א2(1))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "יראו את הודעתו כבקשה לצו לפתיחת הליכים",
+      "confidence": "high"
+    },
+    {
+      "id": "inability-notice-commissioner",
+      "claim": "Above the ceiling, office gives information on applying to the commissioner (s.7א2(2))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "מידע לגבי האפשרות להגיש בקשה לצו לפתיחת הליכים לממונה",
+      "confidence": "high"
+    },
+    {
+      "id": "payorder-20-or-azhara-date",
+      "claim": "20 days from service or another date set in the azhara (s.7א(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "תוך 20 ימים מיום המצאת האזהרה או במועד אחר שנקבע בה",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-presumption-7g",
+      "claim": "Not complying with azhara and not filing payment-order request raises evader presumption unless reasonable explanation (s.7ג(ב))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "אלא אם כן נתן לרשם ההוצאה לפועל הסבר סביר לחוסר המעש שלו",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-ground-500-appear",
+      "claim": "Ground 1: evader proven before registrar, debts over 500 NIS (s.66ב(א)(1))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "ובלבד שהחוב הפסוק או החובות הפסוקים במצטבר עולים על 500 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-ground-mezonot",
+      "claim": "Ground 2: maintenance debt under judgment, except collected by Bituach Leumi (s.66ב(א)(2))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "החוב הפסוק נובע ממזונות המגיעים לפי פסק דין למזונות",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-ground-6m-2500",
+      "claim": "Ground 3(a): six months from full service and over 2,500 NIS (s.66ב(א)(3)(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "והחוב הפסוק או החובות הפסוקים במצטבר עולים על 2,500 שקלים חדשים",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-ground-1y-500",
+      "claim": "Ground 3(b): a year from full service and over 500 NIS (s.66ב(א)(3)(ב))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "חלפה שנה ממועד המצאת האזהרה לחייב בהמצאה מלאה",
+      "confidence": "high"
+    },
+    {
+      "id": "restriction-in-presence-30",
+      "claim": "Restriction imposed in debtor presence: no warning, 30 days from imposition (s.66ג(ג))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "וההגבלה תיכנס לתוקף בתום 30 ימים מיום הטלת ההגבלה",
+      "confidence": "high"
+    },
+    {
+      "id": "card-exempt-immediate-debit",
+      "claim": "Card restriction does not apply to immediate-debit card usable only against credit balance (s.66א1(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "לא תחול על כרטיס חיוב מיידי שניתן לבצע בו עסקאות כנגד יתרת זכות בלבד",
+      "confidence": "high"
+    },
+    {
+      "id": "card-exempt-benefit-only",
+      "claim": "Nor to a card loaded only with a benefit or other protected payment (s.66א1(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "על כרטיס חיוב שהערך הכספי שנטען בו הוא רק של גמלה או תשלום אחר",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-interim-order",
+      "claim": "Limited-means declaration brings an interim payment order (s.69ד(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "יתן צו תשלומים לפי בקשתו, עד לבדיקת יכולתו",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-consolidation",
+      "claim": "Limited-means debtor files consolidated, later files joined (s.69ו(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "יצורף התיק לצו האיחוד",
+      "confidence": "high"
+    },
+    {
+      "id": "limited-means-debt-includes-interest",
+      "claim": "Debt for the bands includes interest and linkage (s.69ג(א))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "לרבות יתרת החוב ולרבות ריבית והפרשי הצמדה עד למועד ההכרזה",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrears-ability-exam",
+      "claim": "Arrears installment requires ability examination (s.69ב1(ב)(1))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "בירר את יכולתו של החייב בחקירת יכולת",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrears-exceptional",
+      "claim": "Registrar may spread arrears without current payments in exceptional circumstances (s.69ב1(ג))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "כי אי־תשלום החוב כאמור נובע מנסיבות חריגות שיירשמו",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrest-24h",
+      "claim": "Arrested debtor brought before registrar within 24 hours (s.74(ד))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "ולא יאוחר מתום 24 שעות ממועד מאסרו",
+      "confidence": "high"
+    },
+    {
+      "id": "mezonot-arrest-cancel-shorten",
+      "claim": "Registrar may cancel or shorten the arrest (s.74(ד))",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "לבטל את צו המאסר או לקצר את תקופת המאסר",
+      "confidence": "high"
+    },
+    {
+      "id": "evader-answer-persuade",
+      "claim": "Answering the register invitation requires appearing and persuading the registrar (s.66ה)",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:00:00Z",
+      "raw_snippet": "וישכנע את רשם ההוצאה לפועל כי הוא אינו בעל יכולת המשתמט מתשלום חובותיו",
+      "confidence": "high"
+    },
+    {
+      "id": "inability-notice-150000",
+      "claim": "s.7א2(1): inability notice treated as insolvency application where total debts do not exceed 150,000 NIS",
+      "claim_type": "legal",
+      "source_url": "https://he.wikisource.org/wiki/חוק_ההוצאה_לפועל",
+      "source_fetched_at": "2026-09-13T22:30:00Z",
+      "raw_snippet": "אם סך חובותיו של החייב אינו עולה על 150,000 שקלים חדשים",
+      "confidence": "high"
+    }
+  ]
+}

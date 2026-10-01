@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rédiger un projet"
+  short_description: "Produire un projet sourcé et révisable"
+  default_prompt: "Utilise $rediger-projet pour produire un projet traçable à partir des faits et sources qualifiés."

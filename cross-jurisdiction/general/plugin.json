@@ -9,8 +9,31 @@
   "practice": "general",
   "language": "en",
   "skills": [
+    "skills/ask-vclo-rohasnagpal",
     "skills/common-law-quality-gate",
+    "skills/comparative-analyst-rohasnagpal",
+    "skills/inst-legal-aid-routing-sboghossian",
+    "skills/intel-a2j-gap-sboghossian",
+    "skills/intel-market-size-global-sboghossian",
+    "skills/justice-human-handoff-sboghossian",
+    "skills/justice-intent-legal-research-sboghossian",
+    "skills/justinian-curriculum-builder-sboghossian",
+    "skills/justinian-irac-coach-sboghossian",
+    "skills/justinian-outline-builder-sboghossian",
     "skills/legal-interpretation",
-    "skills/multi-jurisdictional-research-zacharie-laik"
+    "skills/multi-jurisdictional-research-zacharie-laik",
+    "skills/output-citation-format-civil-law-fr-sboghossian",
+    "skills/output-citation-mena-conventions-sboghossian",
+    "skills/output-table-of-comparisons-sboghossian",
+    "skills/persona-law-student-sboghossian",
+    "skills/persona-partner-sboghossian",
+    "skills/prompt-pack-alternative-fee-arrangement-template-sboghossian",
+    "skills/prompt-pack-client-intake-form-sboghossian",
+    "skills/public-tool-legal-translator-ar-en-public-sboghossian",
+    "skills/ref-verification-sboghossian",
+    "skills/tool-thomson-reuters-westlaw-sboghossian",
+    "skills/tool-web-search-source-allowlist-sboghossian",
+    "skills/wiki-career-growth-sboghossian",
+    "skills/wiki-market-sboghossian"
   ]
 }

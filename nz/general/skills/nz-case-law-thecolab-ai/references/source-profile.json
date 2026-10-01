@@ -1,0 +1,82 @@
+{
+  "description": "Official public New Zealand judgment discovery",
+  "source_name": "Courts of New Zealand judgments",
+  "source_url": "https://www.courtsofnz.govt.nz/judgments",
+  "allowed_hosts": [
+    "www.courtsofnz.govt.nz"
+  ],
+  "freshness": "publication-dependent",
+  "warnings": [
+    "Retrieval only: not legal advice or outcome prediction.",
+    "Coverage is not exhaustive and varies by court and publication date.",
+    "Respect suppression orders, statutory restrictions and source redactions.",
+    "The connector does not bypass portal or bulk-access controls."
+  ],
+  "record_fields": {
+    "coverage": "public Courts of New Zealand index; not exhaustive",
+    "court_date_range": "varies by court; verify linked source",
+    "suppression_status": "source redactions preserved"
+  },
+  "smoke_args": [
+    "recent",
+    "--court",
+    "NZSC"
+  ],
+  "commands": {
+    "search": {
+      "help": "search published judgments",
+      "positionals": [
+        {
+          "name": "query"
+        }
+      ]
+    },
+    "citation": {
+      "help": "find a neutral citation",
+      "positionals": [
+        {
+          "name": "citation"
+        }
+      ]
+    },
+    "court": {
+      "help": "filter by court code",
+      "positionals": [
+        {
+          "name": "code"
+        }
+      ]
+    },
+    "judge": {
+      "help": "filter by judge",
+      "positionals": [
+        {
+          "name": "name"
+        }
+      ]
+    },
+    "recent": {
+      "help": "discover recent judgments",
+      "options": [
+        {
+          "flags": [
+            "--court"
+          ],
+          "required": true
+        }
+      ]
+    },
+    "judgment": {
+      "help": "find a judgment identifier",
+      "positionals": [
+        {
+          "name": "id"
+        }
+      ]
+    }
+  },
+  "discovery_only": false,
+  "discovery_commands": [
+    "recent"
+  ]
+}

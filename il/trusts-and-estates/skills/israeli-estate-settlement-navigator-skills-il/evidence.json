@@ -1,0 +1,1405 @@
+{
+  "skill_slug": "israeli-estate-settlement-navigator",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-25T00:00:00Z",
+  "claims": [
+    {
+      "claim": "The official death certificate (תעודת פטירה) for a death in Israel is issued by the Population and Immigration Authority (רשות האוכלוסין וההגירה).",
+      "source_url": "https://www.gov.il/he/service/death_certificate",
+      "raw_snippet": "הפקת תעודת פטירה לנפטרים בישראל - ללא עלות | רשות האוכלוסין וההגירה",
+      "claim_id": "death-cert-authority",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "The official death certificate (תעודת פטירה) is an official document issued by the Population and Immigration Authority (רשות האוכלוסין וההגירה).",
+      "source_url": "http://web.archive.org/web/20260204123727id_/https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%A4%D7%98%D7%99%D7%A8%D7%94",
+      "raw_snippet": "תעודת פטירה היא מסמך רשמי שמנפיקה רשות האוכלוסין וההגירה",
+      "claim_id": "death-cert-issuer-kolzchut",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Issuing a death certificate does not involve any payment (it is free).",
+      "source_url": "http://web.archive.org/web/20260204123727id_/https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%A4%D7%98%D7%99%D7%A8%D7%94",
+      "raw_snippet": "הנפקת תעודת פטירה לא כרוכה בתשלום",
+      "claim_id": "death-cert-free",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The הודעת פטירה (death notice) is a medical document needed to obtain a burial licence, while the תעודת פטירה (death certificate) is intended for official and legal purposes such as applying for a succession or probate order.",
+      "source_url": "http://web.archive.org/web/20260204123727id_/https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%A4%D7%98%D7%99%D7%A8%D7%94",
+      "raw_snippet": "יש הבדל בין הודעת פטירה שהיא מסמך רפואי שנדרש כדי לקבל רישיון קבורה לבין תעודת פטירה שמיועדת לצרכים רשמיים ומשפטיים כמו הגשת בקשה לקבלת צו ירושה או לצו קיום צוואה",
+      "claim_id": "death-notice-vs-certificate",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Registering a death in the population registry is a distinct service of the Population and Immigration Authority.",
+      "source_url": "https://www.gov.il/he/service/death_registration",
+      "raw_snippet": "רישום פטירה במרשם האוכלוסין | רשות האוכלוסין וההגירה",
+      "claim_id": "death-registration-url",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "The death certificate can be printed on the spot at a Population Authority bureau only once the death has been updated in the population registry (מרשם האוכלוסין).",
+      "source_url": "http://web.archive.org/web/20260204123727id_/https://www.kolzchut.org.il/he/%D7%94%D7%95%D7%A6%D7%90%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%A4%D7%98%D7%99%D7%A8%D7%94",
+      "raw_snippet": "התעודה תודפס במקום אם דבר פטירתו של המנוח עודכן במרשם האוכלוסין.",
+      "claim_id": "death-cert-printed-after-registry",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The burial grant (דמי קבורה) is paid for anyone who died in Israel and was buried there, and for every Israeli resident whose centre of life is in Israel who died outside Israel.",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "raw_snippet": "שנפטר בישראל ונקבר בה, ועבור כל תושב/ת ישראל מי שמרכז חייו בישראל",
+      "claim_id": "burial-grant-eligibility",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Bituach Leumi pays the burial grant directly to the Chevra Kadisha and any other body lawfully authorized to handle burial.",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "raw_snippet": "הביטוח הלאומי משלם את דמי הקבורה ישירות לחברה הקדישא ולכל גוף אחר שהורשה כדין לעסוק בקבורה",
+      "claim_id": "burial-grant-direct-pay",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "No payment is collected from the deceased's family for the burial and the customary burial-related services.",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "raw_snippet": "לא ייגבה כל תשלום ממשפחת הנפטר בעד הקבורה והשירותים המקובלים בקשר לקבורה.",
+      "claim_id": "burial-grant-no-family-charge",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Under Israeli law a person is entitled to be buried according to his own worldview in an alternative civil cemetery if he chose so.",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הזכות_לקבורה_אזרחית_חלופית",
+      "raw_snippet": "אדם זכאי להיקבר על פי השקפתו בבית עלמין אזרחי חלופי אם בחר בכך",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "claim_id": "civil-burial-right",
+      "fetched_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim": "The family must verify that the burying body holds a valid licence for alternative civil burial at the cemetery where the burial is to take place.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%A7%D7%91%D7%95%D7%A8%D7%94_%D7%90%D7%96%D7%A8%D7%97%D7%99%D7%AA",
+      "raw_snippet": "חשוב מאד לוודא שלגוף הקובר יש רישיון בתוקף לקבורה אזרחית חלופית בבית העלמין שבו עומדת להתבצע הקבורה.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "claim_id": "civil-burial-corporation",
+      "fetched_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "Following the initial death registration, the Ministry of the Interior forwards the information, so most financial institutions learn of the death without the family notifying them.",
+      "source_url": "https://www.kolzchut.org.il/he/זכותון_ליורשים_ולקרובי_אדם_שנפטר_לתקופה_הסמוכה_למוות",
+      "raw_snippet": "בעקבות הדיווח הראשוני על הפטירה, משרד הפנים מעביר את המידע",
+      "claim_id": "misrad-hapnim-auto-notify",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "Once the bank learns of the death the accounts are frozen until a succession order or probate order is given, and no operation can be carried out in them.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "בחשבון בו לא קיים סעיף אריכות ימים, השותפים הנותרים בחיים והיורשים אינם יכולים להמשיך לפעול בחשבון מבלי להמציא צו ירושה או צו קיום צוואה",
+      "claim_id": "bank-account-frozen",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z",
+      "note": "Page intermittently serves a WAF challenge; snippet read directly from the rendered page text."
+    },
+    {
+      "claim": "A claim for the Bituach Leumi survivor allowance (קצבת שאירים) must be filed no later than 12 months after the date of death.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "את התביעה לקצבת שאירים יש להגיש לא יאוחר מ-12 חודשים לאחר יום הפטירה.",
+      "claim_id": "survivor-benefit-must-claim",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The deceased's debts are paid out of the estate only, not by the heirs personally, even if the estate is insufficient to cover all the debts.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "עד לחלוקת העזבון אין היורשים אחראים לחובות העזבון אלא בנכסי העזבון.",
+      "claim_id": "heirs-debt-estate-only",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Where the estate was divided after the creditors were invited under section 99 or 123 and the then-known debts were settled, an heir is liable for an unsettled debt only if proved to have known of it, and only up to the value of what that heir received from the estate. This is סעיף 127 of the Succession Law (Section 127).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "חולק העזבון אחרי שהוזמנו הנושים לפי סעיף 99 או לפי סעיף 123 ואחרי שסולקו החובות שהיו ידועים בזמן החלוקה, אין יורש אחראי לחובות שלא סולקו אלא אם הוכח שידע עליהם בזמן החלוקה ועד כדי שוויו של מה שקיבל מן העזבון.",
+      "claim_id": "heirs-not-liable-beyond-estate",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Debts of the estate are paid in a priority order that starts with funeral, burial and gravestone expenses, then estate-administration and court-order costs, then the deceased's ordinary debts. This is סעיף 104(א)(1) of the Succession Law (Section 104).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "ההוצאות הכרוכות בהלווית המוריש, בקבורתו ובהצבת מצבה על קברו, לפי הנהוג באותן נסיבות",
+      "claim_id": "debt-priority-funeral-first",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Heir liability for estate debts is governed by Chapter Six of the Succession Law, 5725-1965 (sections 126 to 134), not by sections 100 to 106, which govern how an estate administrator pays the debts. Before division, heirs are liable only out of estate assets. In the Hebrew source this is סעיף 126 of חוק הירושה, and the surrounding chapter runs to סעיף 134.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "עד לחלוקת העזבון אין היורשים אחראים לחובות העזבון אלא בנכסי העזבון.",
+      "claim_id": "succession-law-sections",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "If the deceased left a will the family files for a probate order (צו קיום צוואה); if not, they file for a succession order (צו ירושה) which determines who the heirs are and how the property is divided.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%9B%D7%A1%D7%A4%D7%99%D7%9D_%D7%95%D7%91%D7%A8%D7%9B%D7%95%D7%A9_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "אם המנוח השאיר צוואה, יש להגיש בקשה לצו קיום צוואה . אם המנוח לא השאיר צוואה, יש להגיש בקשה לצו ירושה",
+      "claim_id": "order-type-distinction",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Succession and probate order applications are filed through the online portal of the Registrar of Inheritance Affairs.",
+      "source_url": "https://inheritance.justice.gov.il/RashamYerusha/#/home",
+      "raw_snippet": "הגשת בקשה לצו ירושה",
+      "claim_id": "registrar-portal",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "Applications for a succession or probate order can be filed online with the Registrar of Inheritance (רשם הירושה) or with the religious court.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%9B%D7%A1%D7%A4%D7%99%D7%9D_%D7%95%D7%91%D7%A8%D7%9B%D7%95%D7%A9_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "את הבקשות ניתן להגיש באופן מקוון לרשם הירושה או לבית הדין הדתי",
+      "claim_id": "registrar-online-filing",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "After the succession order is received the family can approach the relevant Land Registry office (לשכת רישום המקרקעין) to transfer the deceased rights in the property into their names.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "לאחר קבלת צו הירושה יוכלו בני המשפחה לגשת אל לשכת רישום המקרקעין הרלוונטית כדי להעביר על שמם את זכויות המנוח בנכס שהיה בבעלותו.",
+      "claim_id": "real-estate-tabu",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Transferring ownership of a vehicle after the death of its registered owner is a Ministry of Transport and Road Safety service published at gov.il.",
+      "source_url": "https://www.gov.il/he/service/modification_registration_vehicle_following_death",
+      "raw_snippet": "העברת בעלות לרכב אחרי פטירת בעל הרכב הרשום | משרד התחבורה והבטיחות בדרכים",
+      "claim_id": "vehicle-transfer",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "note": "gov.il returns HTTP 403 to curl and WebFetch. The <title> tag was read directly and matches this snippet character for character, ministry suffix included. A --check-sources FAILED here is an access artifact, not a bad snippet."
+    },
+    {
+      "claim": "After the succession or probate order is received, the family goes to the Licensing Bureau (משרד הרישוי) with the vehicle licence so the vehicle is registered in the heirs names; a surviving spouse can transfer ownership without an order by presenting a death certificate and a lawyer-attested declaration.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "לאחר קבלת צו הירושה או צו קיום הצוואה, יש לגשת ל משרד הרישוי עם רישיון רכב, כדי שהרכב יירשם על שם היורשים.",
+      "claim_id": "vehicle-transfer-after-order",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "A widow and the children of a deceased person may be entitled to further benefits alongside the survivor allowance, among them an arnona discount.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "הנחה בארנונה , סיוע רגשי ונפגשי ועוד",
+      "claim_id": "arnona-discount",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "For payments that related only to the deceased, the family must contact the payees, notify them of the death and ask them to stop charging his account or credit card from the date of death.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%98%D7%99%D7%A4%D7%95%D7%9C_%D7%91%D7%9B%D7%A1%D7%A4%D7%99%D7%9D_%D7%95%D7%91%D7%A8%D7%9B%D7%95%D7%A9_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "אם מדובר בתשלומים שקשורים רק למנוח - יש לפנות אל הגופים שאליהם מיועד התשלום, להודיע להם על מותו ולבקש להפסיק לחייב את חשבונו או את כרטיס האשראי שלו החל מיום מותו",
+      "claim_id": "cancel-standing-orders",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Where an employee dies, the employer pays severance to the employee's statutory sheirim as if the employee had been dismissed. The sheirim are a defined set and are not necessarily the heirs, and the payment is not made out of the estate. This is סעיף 5 of the Severance Pay Law (Section 5).",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "נפטר עובד, ישלם המעסיק לשאיריו פיצויים כאילו פיטר אותו.",
+      "claim_id": "employer-severance-heirs",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The burial grant eligibility and mechanism are documented on the Bituach Leumi 'who is eligible for burial grant' page.",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "raw_snippet": "מי זכאי לדמי קבורה - דמי קבורה | ביטוח לאומי",
+      "claim_id": "burial-grant-page",
+      "fetched_at": "2026-07-07T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Kol-Zchut publishes a guide hub for family members coping with a death (petira) and burial, used as the aggregator taxonomy source.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%9E%D7%93%D7%A8%D7%99%D7%9A_%D7%9C%D7%91%D7%A0%D7%99_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%94%D7%9E%D7%AA%D7%9E%D7%95%D7%93%D7%93%D7%99%D7%9D_%D7%A2%D7%9D_%D7%9E%D7%95%D7%95%D7%AA_%28%D7%A4%D7%98%D7%99%D7%A8%D7%94%29_%D7%95%D7%A7%D7%91%D7%95%D7%A8%D7%94",
+      "raw_snippet": "מדריך לבני משפחה המתמודדים עם מוות (פטירה) וקבורה",
+      "claim_id": "kolzchut-bereavement-guide-hub",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "A deceased's bank accounts are frozen until the succession/probate order is realized, including an account held jointly with a spouse or child; to avoid the freeze both joint holders must sign a survivorship form (טופס \"אריכות ימים\" / סעיף \"היוותרות בחיים\") at the bank in advance.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "בחשבון משותף עם סעיף אריכות ימים, בעלי החשבון הנותרים בחיים יכולים להמשיך לפעול ולבצע פעילות שגרתית ושוטפת מבלי לרוקן את החשבון עד להוצאת צו ירושה או צו קיום צוואה",
+      "claim_id": "bank-joint-vs-sole-account-a",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "The survivorship form (אריכות ימים / היוותרות בחיים) does not override inheritance law.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "סעיף זה אינו בא במקום צו ירושה או צו קיום צוואה ולא פותר את השותף הנותר בחיים מלהוציא צו ולחלק את חלקו של השותף שנפטר בהתאם לחלוקה שנקבעה.",
+      "claim_id": "bank-joint-vs-sole-account-b",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "With a survivorship clause the surviving co-owner may keep operating a joint account for routine activity, without emptying it, until the succession or probate order is issued.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "עד להוצאת צו ירושה או צו קיום צוואה, יתאפשר לבעל החשבון שנותר בחיים להמשיך לפעול ולבצע פעילות שגרתית ושוטפת בלבד מבלי לרוקן את החשבון",
+      "claim_id": "bank-survivorship-operational",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "At the bank, the survivorship arrangement covers a current account and related investments, and a jointly-owned safe-deposit box only where the co-owners agreed in advance.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "כספת בבעלות משותפת במידה והוסכם מראש בין השותפים",
+      "claim_id": "safe-deposit-box-frozen",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "Har HaKesef (הר הכסף) at itur.mof.gov.il is a search engine for lost pension savings, life-insurance policies and bank accounts.",
+      "source_url": "https://itur.mof.gov.il/",
+      "raw_snippet": "היכן מחכים לך חסכונות פנסיוניים, פוליסות לביטוח חיים וחשבונות בנק אבודים?",
+      "claim_id": "har-hakesef-locator",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "The Har HaKesef (הר הכסף) site is used to locate bank accounts of deceased relatives.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "באתר הר הכסף ניתן לאתר חשבונות בנק ובאתר הר הביטוח ניתן לאתר ביטוחים על שם קרובי משפחה שנפטרו.",
+      "claim_id": "har-hakesef-use",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Har HaBituach (הר הביטוח) is a free site set up by the Capital Market, Insurance and Savings Authority that aggregates a person insurance information for policyholders.",
+      "source_url": "https://harb.cma.gov.il/",
+      "raw_snippet": "אתר חינמי שהוקם על ידי רשות שוק ההון, ביטוח וחיסכון המאגד את המידע הביטוחי לטובת ציבור המבוטחים",
+      "claim_id": "har-habituach-locator",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim": "The Har HaBituach (הר הביטוח) site is used to locate insurance policies in the name of deceased relatives.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "באתר הר הביטוח ניתן לאתר ביטוחים על שם קרובי משפחה שנפטרו.",
+      "claim_id": "har-habituach-use",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "A first-degree heir may request the deceased's firearm as a keepsake, and can receive it only after it has been temporarily deactivated by a licensed weapons dealer, a procedure carried out through the licensing bureau. This is סעיף 5(ב)(5) of the Firearms Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72225.htm",
+      "raw_snippet": "על יורש או מנהל עזבון של אדם שנפטר, המחזיק כלי יריה שהנפטר החזיקו בהיתר על פי חוק זה - במשך שלושים יום מיום הפטירה.",
+      "claim_id": "firearm-deactivation-or-surrender-a",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "If the family does not want the firearm, one family member surrenders it to the police within 30 days of the death, bringing the weapon, the death certificate and the deceased's firearms licence, and the police issue a deposit confirmation.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72225.htm",
+      "raw_snippet": "על יורש או מנהל עזבון של אדם שנפטר, המחזיק כלי יריה שהנפטר החזיקו בהיתר על פי חוק זה - במשך שלושים יום מיום הפטירה.",
+      "claim_id": "firearm-deactivation-or-surrender-b",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Until ownership of the vehicle is finally and lawfully regularized, family members (sibling, child, spouse, parents) may renew the vehicle licence for one additional year only, presenting a death certificate and an ID showing first-degree kinship.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "עד להסדרה סופית וחוקית של הבעלות על הרכב בני המשפחה (אח/אחות, בת/בן, בן/בת זוג, הורים) רשאים לחדש את רישיון הרכב לשנה נוספת אחת בלבד. יש להצטייד בתעודת פטירה ובתעודה מזהה שמעידה על קרבה ראשונה לנפטר.",
+      "claim_id": "vehicle-license-lapses-on-death",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Israel's estate tax law (חוק מס עזבון, התש\"ט-1949) applies only where the deceased died before 1 April 1981; for a death on or after that date the Land Taxation Law uses an ordinary-sale valuation instead, with no estate tax route, which is why an Israeli estate today carries no estate or inheritance tax.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/276_002.htm",
+      "raw_snippet": "(1 באפריל 1981) או לאחר מכן - השווי שהיה נקבע לפי חוק זה אילו נמכרה בידי המוריש.",
+      "claim_id": "no-estate-or-inheritance-tax",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Under section 4 of the Land Taxation Law (Appreciation and Acquisition), 5723-1963, inheritance is not a sale or an action in an association for the purposes of that law, so receiving real estate by inheritance is not a taxable action at the moment of inheritance.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/276_002.htm",
+      "raw_snippet": "הורשה איננה מכירה או פעולה באיגוד לענין חוק זה.",
+      "claim_id": "inheritance-not-a-taxable-sale",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Mortgage insurance includes borrower life insurance whose purpose is to protect the bank and ensure it receives the entire remaining loan balance if the mortgage holder dies.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%9E%D7%A9%D7%9B%D7%A0%D7%AA%D7%90",
+      "raw_snippet": "מטרת הביטוח, בין היתר, היא להגן על הבנק ולהבטיח שיקבל את כל סכום ההלוואה שנותר לתשלום במקרה שבו נפטר בעל המשכנתא",
+      "claim_id": "mortgage-life-insurance-pays-loan",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Erecting the headstone (מצבה) is not part of the burial services funded by the National Insurance Institute (so it is a separate cost the family pays, except in specific cases such as a solitary deceased).",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_109.htm",
+      "raw_snippet": "בקשר לקבורה ולהקמת המצבה, בין במישרין ובין בעקיפין, אגרת שירותים או כל תשלום אחר בנוסף לתשלום לפי תקנות אלה",
+      "claim_id": "headstone-not-in-burial-grant",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "An unpaid general-disability allowance of a deceased recipient is paid to his survivors, meaning a widow/widower or orphans entitled to a Bituach Leumi survivor allowance.",
+      "source_url": "https://www.btl.gov.il/benefits/Disability/Pages/%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA%20%D7%91%D7%A0%D7%99%20%D7%9E%D7%A9%D7%A4%D7%97%D7%94%20%D7%A9%D7%9C%20%D7%9E%D7%A7%D7%91%D7%9C%20%D7%A7%D7%A6%D7%91%D7%94%20%D7%A9%D7%A0%D7%A4%D7%98%D7%A8.aspx",
+      "raw_snippet": "לשאיריו (אלמנה/אלמן או יתומים הזכאים לקצבת שאירים מהביטוח הלאומי).",
+      "claim_id": "deceased-own-allowance-stops",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Under the Succession Law, all income and entitlements owed to the deceased, even if received after death (for example wages), form part of the estate and pass to the heirs when the estate is distributed.",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "בהתאם לחוק הירושה, כל ההכנסות וההתחייבויות להן זכאי הנפטר, גם אם הן מתקבלות לאחר מותו, מהוות חלק מה עיזבון וכאשר העיזבון מחולק, הן עוברות ליורשים.",
+      "claim_id": "income-due-after-death-is-estate",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "Survivors (שאירים) of an employee who died during employment and worked at least a year for the same employer or workplace are entitled to severance pay as if the employee had been dismissed.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "שאיריו של עובד שנפטר במהלך עבודתו, ועבד לפחות שנה באותו מקום או אצל אותו מעסיק, זכאים לקבל פיצויי פיטורים, כאילו העובד פוטר.",
+      "claim_id": "severance-to-sheirim-one-year",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "heir-liability-whole-estate-if-no-creditor-invitation",
+      "claim": "Where the estate was divided without inviting the creditors and without settling the debts known at the time, each heir is liable for the unsettled debts up to the value of the WHOLE estate at the time of division, not merely their own share; an heir who proves they did not know of a particular debt is liable only up to what they received. This is סעיף 128 of the Succession Law (Section 128).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "חולק העזבון בלי שהוזמנו הנושים ובלי שסולקו החובות שהיו ידועים בזמן החלוקה, אחראי כל יורש לחובות שלא סולקו כדי שוויו של כל העזבון בזמן החלוקה; אולם אם הוכיח שלא ידע על חוב פלוני בזמן החלוקה, יהיה אחראי לו רק כדי שוויו של מה שקיבל מן העזבון.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "heir-bears-burden-of-proving-value",
+      "claim": "The burden of proving the value of the estate, or of what an heir received from it, is on the heir. This is סעיף 128(ב) of the Succession Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "הוכחת שוויו של העזבון או של מה שיורש קיבל מן העזבון - על היורש.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "heir-concealment-whole-estate",
+      "claim": "An heir who concealed estate assets and thereby prevented debts from being settled is liable for all unsettled debts up to the value of the whole estate at the time of division. This is סעיף 129 of the Succession Law (Section 129).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "יורש שהעלים מנכסי העזבון ומנע בכך סילוקם של חובות, אחראי לכל החובות שלא סולקו כדי שוויו של כל העזבון בזמן החלוקה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "court-may-relieve-good-faith-heir",
+      "claim": "A court may relieve an heir of liability for estate debts, wholly or partly, where the heir acted in good faith and received little from the estate, or for another special reason. This is סעיף 133 of the Succession Law (Section 133).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72178.htm",
+      "raw_snippet": "רשאי בית-המשפט לפטרו מאחריותו, כולה או מקצתה, אם נהג לגבי חובות העזבון בתום לב ומה שקיבל מהעזבון הוא מועט",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "enduring-poa-expires-on-death",
+      "claim": "An enduring power of attorney expires on the death of the principal or of the attorney, under section 32kb(2) of the Legal Capacity and Guardianship Law, 5722-1962. This is סעיף 32כב of the Legal Capacity and Guardianship Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70325.htm",
+      "raw_snippet": "ייפוי כוח מתמשך יפקע בהתקיים אחד מאלה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "enduring-poa-90-day-residual-authority",
+      "claim": "On the principal's death the attorney for property matters retains authority, unless the principal directed otherwise and so long as no one else is lawfully authorized, for a period not exceeding 90 days and without applying to court, to pay ongoing charges for services rendered to the principal or relating to their property, to pay reasonable burial and mourning expenses, and to manage a rented property or a business requiring ongoing management. This is סעיף 32כד(ב) of the Legal Capacity and Guardianship Law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70325.htm",
+      "raw_snippet": "במקרה של פטירת הממנה, יהיה מיופה הכוח לענייני רכוש מוסמך, אלא אם כן הממנה קבע אחרת, וכל עוד אין גורם אחר שהוסמך כדין לטפל באותם עניינים ולמשך תקופה שלא תעלה על 90 ימים, אף בלא פנייה לבית המשפט לנקוט פעולות אלה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "enduring-poa-burial-expenses",
+      "claim": "Within that 90-day residual authority the attorney may pay reasonable burial and mourning expenses out of the principal's funds. This is סעיף 32כד(ב)(2) of the same law.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70325.htm",
+      "raw_snippet": "לשלם מכספי הממנה הוצאות סבירות לקבורה ואבלות",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "burial-society-lawful-charges-reg3a",
+      "claim": "A burial society may charge a service fee or other payment on top of the burial grant only in three cases under regulation 3(a) of the Bituach Leumi (Burial Grant) Regulations, 5736-1976: burial in one of the closed cemeteries listed in the annex to the agreement, burial in defined sections agreed between Bituach Leumi and the society, or burial in a grave plot purchased during the deceased's lifetime. This is תקנה 3(א) of the Burial Grant Regulations.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_109.htm",
+      "raw_snippet": "על אף האמור בתקנה 2 תהיה חברה רשאית לגבות בקשר לקבורה ולהקמת המצבה אגרת שירותים או תשלום אחר בנוסף לדמי הקבורה לפי תקנות אלה במקרים אלו בלבד",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "burial-society-lawful-charges-reg3a-plot",
+      "claim": "One of the three lawful charging cases is burial in a grave plot purchased during the deceased's lifetime.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_109.htm",
+      "raw_snippet": "קבורה באחוזת קבר שנרכשה בחיי הנפטר.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "burial-society-lawful-charges-reg4a",
+      "claim": "A further payment other than a service fee is permitted only in three cases under regulation 4(a): special costs of transferring the deceased from outside the society's area of operation, a detour or stop on the route to the cemetery at the express request of the family or a close friend, and non-standard shrouds supplied at that request. This is תקנה 4(א) of the Burial Grant Regulations.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/039_109.htm",
+      "raw_snippet": "על אף האמור בתקנה 2 תהיה חברה רשאית, בנוסף לדמי הקבורה לפי תקנות אלה, לגבות בקשר לקבורה תשלום אחר, למעט אגרת שירותים, במקרים אלה בלבד",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "bank-release-immediate-death-expenses",
+      "claim": "Where potential heirs or a surviving joint owner ask to release funds from the deceased's account to cover immediate estate expenses such as burial costs, erecting the headstone, and other death-related costs, the bank can transfer certain reasonable sums at its discretion and with the surviving joint owner's consent, before any succession or probate order is produced.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "במקרים בהם מבקשים היורשים הפוטנציאלים או השותפים הנותרים בחיים לשחרר כספים מחשבון הנפטר לצורך כיסוי הוצאות העיזבון המיידיות כגון: הוצאות קבורה, הקמת מצבה ושאר ההוצאות הקשורות בפטירה, אפשר לבצע העברת כספים בסכומים מסוימים וסבירים בהתאם לשיקול דעת הבנק ובהסכמת השותף הנותר בחיים.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "bank-release-indemnity-when-all-owners-died",
+      "claim": "Where all the account's owners have died, the same release of reasonable sums for immediate death expenses is possible against an indemnity letter signed by the potential heirs or the applicants.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "בהתאם לשיקול דעת הבנק ובכפוף להחתמת היורשים הפוטנציאליים או המבקשים על כתב שיפוי לבנק.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "bank-poa-90-days-operational",
+      "claim": "Banks operate the same 90-day rule: where an effective enduring power of attorney exists on the account, it allows the account to be operated for 90 days from the death solely for the deceased's own needs, even without an estate administrator or a succession order.",
+      "source_url": "https://www.mizrahi-tefahot.co.il/about-mizrahi-tefahot-he/support-financial-escort-loss-relative/deceased-owner-account/",
+      "raw_snippet": "מאפשר לנהל את החשבון למשך 90 יום מהפטירה אך ורק לצרכי הנפטר גם ללא מינוי מנהל עיזבון או קבלת צו ירושה",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "burial-grant-no-charge-to-family",
+      "claim": "No payment may be collected from the deceased's family for the burial and the customary burial-related services.",
+      "source_url": "https://www.btl.gov.il/benefits/dmaykvura/Pages/zacautKvura.aspx",
+      "raw_snippet": "לא ייגבה כל תשלום ממשפחת הנפטר בעד הקבורה והשירותים המקובלים בקשר לקבורה.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "post-death-accompaniment-service",
+      "claim": "gov.il operates an authenticated one-stop post-death service for first-degree relatives that downloads the death certificate, files a succession or probate order application and gives access to the order once granted, shows personally-matched benefits and rights, and provides tools for locating bank accounts and insurance policies.",
+      "source_url": "https://www.gov.il/he/service/post-death-accompaniment",
+      "raw_snippet": "כלים לאיתור חשבונות בנק ופוליסות ביטוח",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "vehicle-one-further-year-no-second-renewal",
+      "claim": "The licensing authority allows the vehicle licence to be renewed for one further year from the death of the registered owner and upon the licence's expiry, and if the matter is not regularized within that year it will not issue the vehicle licence again.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/rishum_baalot_recev/he/%D7%94%D7%95%D7%A8%D7%90%D7%AA%20%D7%A0%D7%95%D7%94%D7%9C%20%D7%94%D7%A2%D7%91%D7%A8%D7%AA%20%D7%91%D7%A2%D7%9C%D7%95%D7%AA%20%D7%91%D7%99%D7%A8%D7%95%D7%A9%D7%94%20%D7%97%D7%AA%D7%95%D7%9E%D7%94%201-2018.pdf",
+      "raw_snippet": "יש לאפשר חידוש רישיון רכב לשנה נוספת ממועד פטירת בעל הרכב הרשום ועם פקיעת תוקף הרישיון.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "vehicle-inheritance-adds-no-hand",
+      "claim": "Changing the registration of ownership by inheritance does not add a \"hand\" to the vehicle's ownership count.",
+      "source_url": "https://www.gov.il/he/service/modification_registration_vehicle_following_death",
+      "raw_snippet": "אינה מוסיפה \"יד\" במניין הבעלויות ברכב.",
+      "fetched_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kolzchut-debts-reading-page",
+      "claim": "Kol-Zchut publishes a human-facing guide to settling a deceased person's debts, cited in the skill's Reference Links as further reading. It is Cloudflare-protected and cannot be fetched by any automated path, so every statutory claim it used to support has been re-anchored to the Succession Law text on nevo.",
+      "source_url": "https://www.kolzchut.org.il/he/הסדרת_חובות_אדם_שנפטר",
+      "raw_snippet": "הסדרת חובות אדם שנפטר",
+      "note": "Cloudflare-protected; retained as a human reading link only, not as evidence for any figure.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "fetched_at": "2026-08-18T00:00:00Z"
+    },
+    {
+      "claim": "Regulation 3(b) of the Bituach Leumi (Burial Grant) Regulations, 5736-1976: where section 266 of the Law does not apply to the deceased, the society may charge a service fee or any other payment.",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הביטוח_הלאומי_(דמי_קבורה)",
+      "raw_snippet": "לא חל לגביו, תהיה החברה רשאית לגבות אגרת שירותים או כל תשלום אחר",
+      "claim_id": "burial-charge-reg-3b",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The relatives of a deceased owner can obtain a vehicle-licence renewal for one year only.",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%91%D7%A2%D7%9C%D7%95%D7%AA_%D7%9C%D7%A8%D7%9B%D7%91_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "משרד הרישוי יאשר הנפקת חידוש רישיון רכב לקרובי הנפטר לשנה אחת בלבד",
+      "claim_id": "vehicle-licence-renewal-after-year",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim": "The Registrar for Inheritance Matters issues a digital order sent automatically by email to the applicant or their lawyer. After a request for the action is filed, the Registrar transmits the digital order directly to the banks, insurance companies and relevant government bodies (Land Registry / Tabu, Ministry of Transport, Israel Land Authority, Tax Authority, Corporations Authority and others), which spares the beneficiaries from presenting the order to those bodies. The digital-order service covers orders issued by the Registrar from 1998 onward.",
+      "source_url": "https://www.gov.il/blobFolder/guide/guide_with_will/he/guide_with_will_file.pdf",
+      "raw_snippet": "איך ולמי מועבר צו קיום צוואה? הרשם מנפיק צו דיגיטלי הנשלח אוטומטית לכתובת הדואר האלקטרוני (למייל) של מגיש הבקשה או עורך הדין שמייצג אותו. לאחר הגשת בקשה לפעולה, מועבר הצו הדיגיטלי ישירות ע\"י הרשם גם לבנקים, חברות הביטוח וגופי הממשלה הרלוונטיים, כגון לשכת רישום המקרקעין (ה\"טאבו\"), משרד התחבורה, רשות מנהל מקרקעי ישראל, רשות המיסים, רשות התאגידים ועוד. בכך נחסך לזוכים הצורך בהצגת הצו בעת קבלת שירות מגופים אלה ונמנעת האפשרות לזיוף הצו.",
+      "claim_id": "digital-order-transmission",
+      "fetched_at": "2026-09-20T00:00:00Z",
+      "source_fetched_at": "2026-09-20T00:00:00Z",
+      "note": "Official Administrator General / Registrar for Inheritance Matters guide (מדריך לזוכיו של מנוח שהותיר צוואה, תשפ\"ד-2023), PDF extracted with pdftotext. Note the trigger: transmission follows a filed request for the action, it is not automatic on grant.",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ni-266-scope",
+      "claim": "Section 266 of the National Insurance Law covers burial in Israel of anyone who died in Israel and of an Israeli resident who died abroad (סעיף 266 לחוק הביטוח הלאומי)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "הובא לקבורה בישראל אדם שנפטר בישראל או תושב ישראל שנפטר בחוץ לארץ",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/burial-charges.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ni-267-burial-abroad",
+      "claim": "Section 267: burial abroad of an insured person, spouse or child, capped at the domestic burial grant (סעיף 267 לחוק הביטוח הלאומי)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "נפטר מבוטח, בן זוגו או ילדו, והובא לקבורה בחוץ לארץ, ישולמו דמי הקבורה למי שנקבע, ובלבד שהסכום לא יעלה על דמי הקבורה שהיו משתלמים אילו הובא הנפטר לקבורה בישראל",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5a-definition",
+      "claim": "Section 5(a) Severance Pay Law: definition of sheirim (spouse incl. common-law partner, dependent child; failing those, supported children and parents, and siblings living in the home 12 months)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "ובאין בן־זוג או ילדים כאמור – ילדים והורים שעיקר פרנסתם היתה על הנפטר וכן אחים ואחיות שגרו בביתו של הנפטר לפחות שנים־עשר חודש לפני פטירתו וכל פרנסתם היתה על הנפטר",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5b-labour-court",
+      "claim": "Section 5(b): severance for sheirim other than spouse or dependent child is deposited with the regional labour court, which divides it",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "יופקדו הפיצויים בבית הדין האזורי לעבודה ויינתנו לשאירים שיקבע בית הדין האזורי לעבודה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5c-not-estate",
+      "claim": "Section 5(c): severance paid under the section is not part of the estate",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "פיצויים המשתלמים לפי סעיף זה לא יראו אותם כחלק מהעזבון",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5b1-determining-period",
+      "claim": "Section 5(b1): the determining period runs from 7.10.2023 until one year after the end of the home-front special-situation declaration",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "התקופה שמיום כ״ב בתשרי התשפ״ד (7 באוקטובר 2023) ועד שנה מתום תקופת תוקפה של ההכרזה על מצב מיוחד בעורף",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5b1-heirs-step-in",
+      "claim": "Section 5(b1)(3): for a death in the determining period with no spouse or dependent child, heirs by law or will beneficiaries take their place",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "יבואו במקומם לעניין הפסקה האמורה יורשים על פי דין או זוכים על פי צוואה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-5b1-minister-extension",
+      "claim": "Section 5(b1)(4): the Labour Minister may extend the determining period by order",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "שר העבודה רשאי להאריך, בצו, באישור ועדת העבודה והרווחה של הכנסת, את התקופה הקובעת",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "home-front-declaration-lifted-oct-2025",
+      "claim": "The home-front special-situation declaration in force since October 2023 was lifted at the end of October 2025; a new one was declared on 28.2.2026",
+      "source_url": "https://www.idi.org.il/articles/63604",
+      "raw_snippet": "אישר שר הביטחון בסוף אוקטובר 2025 להסיר את הגבלות",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md",
+        "references/institution-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "home-front-new-declaration-feb-2026",
+      "claim": "A new home-front special-situation declaration was made on 28 February 2026",
+      "source_url": "https://www.idi.org.il/articles/63604",
+      "raw_snippet": "ב- 28 בפברואר 2026, עם פתיחת מבצע",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "caregiver-death-is-dismissal",
+      "claim": "Where the deceased employed a caregiver or housekeeper, the death is a dismissal; the worker is owed last salary, notice, recuperation, vacation and severance, usually from the estate except severance deposited in the pension fund",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "הפטירה מהווה פיטורים של העובד/ת וכתוצאה מכך הוא זכאי/ת לכל הזכויות שנובעות מסיום יחסי העבודה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "caregiver-paid-from-estate",
+      "claim": "Caregiver end-of-employment sums are usually paid from the estate, except severance deposited to the pension",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "כל הסכומים האלו ישולמו לרוב מתוך העיזבון, חוץ מכספי פיצויים שהופרשו לביטוח הפנסיוני",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "foreign-caregiver-one-year-severance",
+      "claim": "A foreign caregiver employed at least one continuous year is entitled to severance, from the fund or the estate",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "אם העובד הועסק במשך שנה רצופה לפחות אצל המעסיק, הוא יהיה זכאי ל פיצויי פיטורים",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "beneficiaries-override-will",
+      "claim": "Sums in life insurance and provident funds go only to the named beneficiaries even if the will says otherwise",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "ניתנים אך ורק למוטבים שבפוליסות, גם אם בצוואה כתוב אחרת",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "small-balances-without-order-circulars",
+      "claim": "Money can be withdrawn without an order under conditions in Finance Ministry circulars 2014-2-3 and 2017-9-8",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "לפירוט נוסף לגבי התנאים ראו חוזר משרד האוצר מס' 2014-2-3 וכן חוזר משרד האוצר מס' 2017-9-8",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "death-abroad-registry-before-order",
+      "claim": "If the deceased held an Israeli ID and died abroad, the death must be updated in the population registry before applying for the order",
+      "source_url": "http://web.archive.org/web/20260410163625id_/https://www.kolzchut.org.il/he/%D7%96%D7%9B%D7%95%D7%AA%D7%95%D7%9F_%D7%9C%D7%99%D7%95%D7%A8%D7%A9%D7%99%D7%9D_%D7%95%D7%9C%D7%A7%D7%A8%D7%95%D7%91%D7%99_%D7%90%D7%93%D7%9D_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8_%D7%9C%D7%AA%D7%A7%D7%95%D7%A4%D7%94_%D7%94%D7%A1%D7%9E%D7%95%D7%9B%D7%94_%D7%9C%D7%9E%D7%95%D7%95%D7%AA",
+      "raw_snippet": "אם המנוח מת בחו\"ל והוא בעל תעודת זהות ישראלית, יש לעדכן במרשם האוכלוסין את דבר הפטירה לפני הגשת הבקשה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ito-120-legal-personal-representative",
+      "claim": "Income Tax Ordinance s.120: the legal personal representative is liable for the deceased's tax and for all acts the deceased would have had to do (סעיף 120 לפקודת מס הכנסה; Section 120 of the Income Tax Ordinance)",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "יהיה נציגו האישי החוקי חב במס שאותו אדם היה בר־חיוב בו אילו היה בחיים",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ito-120-definition",
+      "claim": "s.120: legal personal representative includes an heir, the estate administrator and the executor",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "לרבות יורש, מנהל העזבון, המוציא לפועל של צוואת הנפטר",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ito-120b-estate-income-heirs",
+      "claim": "s.120(b): from death, estate taxable income is the heirs' income by shares",
+      "source_url": "https://he.wikisource.org/wiki/פקודת_מס_הכנסה",
+      "raw_snippet": "מיום פטירתו של אדם יראו את הכנסתו החייבת של העזבון כהכנסתם של היורשים לפי חלקיהם בהכנסות העזבון",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "form-2805-heirs-declaration",
+      "claim": "Form 2805: heirs or administrators declare themselves to the Tax Authority to close the deceased's file (טופס 2805)",
+      "source_url": "https://www.gov.il/he/service/itc2805",
+      "raw_snippet": "מילוי הנתונים בטופס נועד לסגירת תיק המנוח במערכי המס",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "vat-form-18-closure",
+      "claim": "VAT Form 18: the general request to close a business at VAT; no death-specific route",
+      "source_url": "https://www.gov.il/he/service/vat-18",
+      "raw_snippet": "טופס מע\"מ 18 (הודעה על סגירת עסק/הצהרה)",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-s4-inheritance-not-sale",
+      "claim": "Land Taxation Law s.4: inheritance is not a sale",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "הורשה איננה מכירה או פעולה באיגוד לענין חוק זה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-5c2-purchase-date-value",
+      "claim": "s.5(c)(2): purchase date and value of an heir set by sections 26 and 37",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "יום הרכישה ושווי הרכישה ייקבעו בהתאם להוראות סעיפים 26 ו־37",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-26a2-deceased-value",
+      "claim": "s.26(a)(2): for a death on or after 1.4.1981, purchase value is what it would have been had the deceased sold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "השווי שהיה נקבע לפי חוק זה אילו נמכרה בידי המוריש",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-49b5-inherited-apartment",
+      "claim": "s.49B(5): exemption for sale of an inherited qualifying apartment by spouse, descendant or descendant's spouse, where the deceased owned one apartment and would have been exempt (סעיף 49ב(5) לחוק מיסוי מקרקעין)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "המכירה היא של דירת מגורים מזכה שקיבל המוכר בירושה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-49b5-conditions-seller",
+      "claim": "s.49B(5)(a): seller is spouse, descendant, or descendant's spouse",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "המוכר הוא בן זוגו של המוריש, או צאצא של המוריש, או בן זוגו של צאצא של המוריש",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-49b5-conditions-one-apartment",
+      "claim": "s.49B(5)(b)-(c): deceased owned one apartment and would have been exempt",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "לפני פטירתו היה המוריש בעלה של דירת מגורים אחת בלבד",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-5c4-first-division",
+      "claim": "s.5(c)(4): division of estate assets among heirs is not a sale unless outside consideration is paid",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "חלוקת נכסי עזבון בין יורשים, לא יראוה כמכירה, ובלבד שאם במסגרת החלוקה ניתנה תמורה בכסף",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-5c3-reporting",
+      "claim": "s.5(c)(3): the administrator, or each heir, carries the reporting duties of sections 73, 76, 90A and 91",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "מנהל העזבון אחראי למילוי החובות הקבועות בסעיפים 73, 76, 90א ו־91",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "exec-reg-10a-registration-only",
+      "claim": "Execution Regulations reg 10A: against a deceased debtor, registration-only measures until an administrator, succession or probate order (תקנה 10א לתקנות ההוצאה לפועל)",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "raw_snippet": "עד להמצאת צו מינוי מנהל עיזבון, צו ירושה או צו קיום צוואה, יהיה ניתן לבצע הליכים ברישום בלבד",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "exec-reg-10a-two-years",
+      "claim": "reg 10A(d): two years with no order, a show-cause notice; with no cause within 30 days the file closes",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "raw_snippet": "חלפו שנתיים ממועד שנפתח תיק נגד חייב שנפטר",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "exec-reg-10a-30-days",
+      "claim": "reg 10A(d)(2): no cause given within 30 days, the file is closed",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_ההוצאה_לפועל",
+      "raw_snippet": "בתוך 30 ימים מיום המצאת ההודעה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "succession-s17-state-inherits",
+      "claim": "Succession Law s.17: with no heir, the State inherits (סעיף 17 לחוק הירושה)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "raw_snippet": "תירש המדינה כיורשת על פי דין",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "succession-s133-full",
+      "claim": "s.133: court may relieve an heir who acted in good faith and received little, or for another special reason",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "raw_snippet": "אם נהג לגבי חובות העזבון בתום לב ומה שקיבל מהעזבון הוא מועט או שיש סיבה מיוחדת אחרת המצדיקה פטור זה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "google-deceased-user",
+      "claim": "Google publishes a request form regarding a deceased user's account",
+      "source_url": "https://support.google.com/accounts/troubleshooter/6357590",
+      "raw_snippet": "שליחת בקשה לגבי חשבון של משתמש שנפטר",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "apple-legacy-contact",
+      "claim": "Apple lets the account holder add a Legacy Contact",
+      "source_url": "https://support.apple.com/en-us/102631",
+      "raw_snippet": "Legacy Contact",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "vehicle-licence-renewal-after-year-b",
+      "claim": "After that year, the heirs can attend the licensing bureau",
+      "source_url": "http://web.archive.org/web/2026id_/https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%A0%D7%95%D7%99_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%91%D7%A2%D7%9C%D7%95%D7%AA_%D7%9C%D7%A8%D7%9B%D7%91_%D7%A9%D7%9C_%D7%91%D7%9F_%D7%9E%D7%A9%D7%A4%D7%97%D7%94_%D7%9C%D7%90%D7%97%D7%A8_%D7%9E%D7%95%D7%AA%D7%95",
+      "raw_snippet": "לאחר שנה, היורשים יוכלו להגיע למשרד הרישוי",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-amendment-34",
+      "claim": "Amendment 34 to the Severance Pay Law (ס\"ח תשפ\"ד עמ' 1376) is the Swords of Iron temporary provision that inserted s.5(b1)",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_lsr_4769128.pdf",
+      "raw_snippet": "חוק פיצויי פיטורים (תיקון מס' 34 - הוראת שעה - חרבות ברזל), התשפ\"ד-2024",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "home-front-declaration-expired-28-10-2025",
+      "claim": "Yalkut HaPirsumim 13830 (16.9.2025) p.9858 extended the 7.10.2023 home-front special-situation declaration to 28 October 2025; the s.5(b1) period therefore ends 28 October 2026 absent an extension order",
+      "source_url": "https://www.gov.il/BlobFolder/policy/71703/he/Files_Hachlatot_71703_reshumot.pdf",
+      "raw_snippet": "ו' בחשוון התשפ\"ו (28 באוקטובר 2025)",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/money-tax-and-employment-after-death.md",
+        "references/institution-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-09-25T00:00:00Z"
+    },
+    {
+      "claim_id": "severance-s14-pension-replaces-only-if-agreed",
+      "claim": "Severance Pay Law s.14 (סעיף 14): a payment to a pension fund replaces severance only as far as a collective agreement or the Labour Minister's approval provides",
+      "source_url": "https://he.wikisource.org/wiki/חוק_פיצויי_פיטורים",
+      "raw_snippet": "לא יבוא במקום פיצויי פיטורים אלא אם נקבע כך בהסכם הקיבוצי החל על המעסיק והעובד",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-one-year",
+      "claim": "Survivors are entitled to severance where the deceased worked at least one year with the same employer",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "אם עובד נפטר אחרי שעבד לפחות שנה אצל אותו מעסיק או באותו מקום עבודה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-fund-vs-employer",
+      "claim": "Severance deposited in pension insurance is withdrawn from the fund; any undeposited part is paid by the employer",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "אם רק חלק מהפיצויים הופרשו לביטוח הפנסיוני, השאירים יהיו זכאים לקבל מהמעסיק את החלק הנוסף",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-form-161",
+      "claim": "The employer fills in its part of Form 161 (טופס 161) and hands it to the survivors",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "על המעסיק למלא את חלקו ב טופס 161 ולהעבירו לשאירים",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-fund-release",
+      "claim": "The fund releases severance after the employer reports the cessation and its cause (death); above the ceiling, after Tax Authority approval",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "תשחרר את הכספים לאחר שתקבל דיווח מהמעסיק על הפסקת ההפרשות ועל הסיבה לכך (מות העובד)",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-tax-approval",
+      "claim": "Where tax must be withheld (amount above the ceiling), release follows Tax Authority approval",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "קבלת הכספים תתבצע לאחר קבלת אישור מרשות המסים",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "severance-survivors-no-setoff",
+      "claim": "The deceased's debts cannot be set off against survivors' severance",
+      "source_url": "http://web.archive.org/web/20260608203021id_/https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D_%D7%9C%D7%A9%D7%90%D7%99%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%A2%D7%95%D7%91%D7%93_%D7%A9%D7%A0%D7%A4%D7%98%D7%A8",
+      "raw_snippet": "לא ניתן לקזז מהפיצויים חובות שהעובד השאיר",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ni-269-war-deaths",
+      "claim": "National Insurance Law s.269 (סעיף 269): the burial-grant chapter does not apply to anyone who died as a direct result of acts of war (Section 269 of the National Insurance Law)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "raw_snippet": "לא יחולו על מי שנפטר כתוצאה ישירה מפעולות מלחמה",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/burial-charges.md"
+      ]
+    },
+    {
+      "claim_id": "succession-s6-renunciation",
+      "claim": "Succession Law s.6 (סעיף 6): renunciation only while undivided, and not in favour of another person except the deceased's spouse, child or sibling",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "raw_snippet": "אין הסתלקות לטובת אדם אחר, אלא לטובת בן־זוגו, ילדו או אחיו של המוריש",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "succession-s6a-war-period",
+      "claim": "Succession Law s.6A (סעיף 6א): heirs of listed war-period deceased may also renounce in favour of other relatives, a former spouse, or a child treated as their own",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "raw_snippet": "וכן לטובת בן זוגו לשעבר של המוריש ולטובת ילדו או לטובת ילד שהמוריש ראה אותו כילדו",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-49c3-inherited-half",
+      "claim": "Land Taxation Law s.49C(3) (סעיף 49ג): an inherited share of no more than one half is disregarded for the heir's single-apartment exemption",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "ולגבי דירה שהתקבלה בירושה – אינו עולה על מחצית",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-49c4-inherited-apartment",
+      "claim": "s.49C(4): an inherited apartment meeting s.49B(5)(a)-(b) is disregarded",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "היא דירה שהתקבלה בירושה והתקיימו בה תנאי סעיף 49ב(5)(א) ו־(ב)",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "ltl-5c4-two-estates",
+      "claim": "s.5(c)(4): estates of two deceased who were spouses, or parent and child, are one estate while the divisions are unfinished",
+      "source_url": "https://he.wikisource.org/wiki/חוק_מיסוי_מקרקעין_(שבח_ורכישה)",
+      "raw_snippet": "לפני פטירתם היו המורישים בני זוג או שהיו ילד והורהו",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    },
+    {
+      "claim_id": "home-front-declaration-not-extended-jdn",
+      "claim": "On 27.10.2025 the Defence Minister adopted the IDF recommendation not to extend the home-front special-situation declaration, effective the next day",
+      "source_url": "https://www.jdn.co.il/news/2507317/",
+      "raw_snippet": "אישר את המלצת צה\"ל שלא להאריך את המצב המיוחד בעורף",
+      "fetched_at": "2026-09-25T00:00:00Z",
+      "appears_in": [
+        "references/money-tax-and-employment-after-death.md"
+      ]
+    }
+  ],
+  "skill": "israeli-estate-settlement-navigator"
+}

@@ -1,0 +1,40 @@
+{
+  "display_name": {
+    "he": "לוחם הקנסות הישראלי",
+    "en": "Israeli Fines Fighter"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. ערעור על דוחות חנייה, קנסות תנועה ודוחות נת\"צ בישראל. יוצר מכתבי ערעור בעברית עם נימוקים משפטיים, ומסביר את המסלול המנהלי לפי חוק הפרות תעבורה מינהליות שנכנס לתוקף מלא באוגוסט 2026: השגה תוך 30 יום, ערר לבית הדין לתעבורה תוך 90 יום, ואין יותר בקשה להישפט בעבירות שעברו למסלול הזה. מסביר למה דוח נת\"צ אינו דוח חנייה, למה אי אפשר להמיר דוח עירוני לאזהרה, ומתי אפשר לבקש פטור מתוספת פיגור בדוח עירוני. מכסה גם את חלון 30 הימים לבקשה לביטול ואת חלון 90 הימים לבקשה להישפט במסלול הפלילי, את שיטת הניקוד לפי חלק 14א' לתקנות התעבורה, ואת מסלול הוצאה לפועל אחרי כשנה ללא תשלום. השתמשו כשמקבלים קנס חנייה, תנועה או נת\"צ ורוצים לדעת אם כדאי לערער, איך לנסח את מכתב הערעור, ולאן להגיש אותו. לא מתאים לעבירות פליליות חמורות, תאונות דרכים עם נפגעים, נהיגה בשכרות, או סכסוכי ביטוח רכב.",
+    "en": "Not legal advice. Appeal parking tickets, traffic fines and bus-lane (nat\"z) tickets in Israel. Generates Hebrew appeal letters with legal grounds, and explains the administrative track under the Administrative Traffic Violations Law, fully in force since August 2026: hasagah within 30 days, arar to the traffic tribunal within 90 days, and no request to be tried for offences on that track. Explains why a nat\"z ticket is not a parking ticket, why a municipal ticket cannot be converted to a warning, and when the late-payment surcharge on a municipal fine can be waived. Also covers the 30-day cancellation and 90-day court-hearing windows on the criminal track, the points system per Traffic Regulations Part 14A, and the Hotza'a Lapoal collection track. Use when you receive a parking, traffic or bus-lane fine and want to know whether to appeal, how to draft the letter, and where to file it. Do NOT use for serious criminal traffic offenses, accidents involving injuries, DUI cases, or auto-insurance disputes."
+  },
+  "tags": {
+    "he": [
+      "קנסות",
+      "חניה",
+      "תעבורה",
+      "ערעור",
+      "דוחות",
+      "ניקוד"
+    ],
+    "en": [
+      "fines",
+      "parking",
+      "traffic",
+      "appeal",
+      "tickets",
+      "points-system"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.6.3",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "gemini-cli"
+  ]
+}

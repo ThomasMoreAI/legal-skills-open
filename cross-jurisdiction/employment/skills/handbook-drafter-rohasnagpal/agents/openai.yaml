@@ -1,0 +1,4 @@
+interface:
+  display_name: "Handbook Drafter"
+  short_description: "Draft coherent employee handbooks and policies"
+  default_prompt: "Use $handbook-drafter to create a consistent, implementable employee handbook for this workforce and jurisdiction."

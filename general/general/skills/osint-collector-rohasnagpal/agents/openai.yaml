@@ -1,0 +1,4 @@
+interface:
+  display_name: "OSINT Collector"
+  short_description: "Plan lawful reproducible open-source collection"
+  default_prompt: "Use $osint-collector to build and execute a lawful, source-preserving open-source collection plan for these questions and identifiers."

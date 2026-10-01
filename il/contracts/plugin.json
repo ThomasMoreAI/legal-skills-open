@@ -1,0 +1,14 @@
+{
+  "name": "il-contracts",
+  "displayName": "Contracts — Israel",
+  "version": "0.1.0",
+  "description": "Contracts skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/israeli-freelancer-service-agreement-skills-il"
+  ]
+}

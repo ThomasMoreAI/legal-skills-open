@@ -1,0 +1,925 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-patent-guide",
+  "generated_at": "2026-09-13T12:00:00Z",
+  "claims": [
+    {
+      "claim_id": "ilpo-2026-notice-effective-date",
+      "claim": "The ILPO fee notice dated 22 December 2025 sets the patent, patent-term-extension, trade mark, Madrid Protocol and design fees that enter into force on 1 January 2026.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "הודעה לציבור בדבר תעריפי אגרות רשות הפטנטים שיכנסו לתוקף החל מיום 1.1.2026",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ilpo-2026-filing-fee-and-reduction",
+      "claim": "Item 1 of the 2026 notice sets the national filing fee covering the first 50 claims at NIS 2,402. A qualifying applicant pays 60% of the amount, that is NIS 1,441. Qualifying applicants are an applicant that is not a company and not a partnership, a company or partnership whose turnover in the preceding year did not exceed NIS 10 million, an institution recognised under section 9 of the Council for Higher Education Law 5718-1958, or a technology transfer company wholly owned by such an institution, and in each case only on a first patent application for a particular invention. The notice therefore grants a 40% reduction (pay 60%) on that item.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה לפטנט לפי סעיף (11א) לחוק בעד 50 .1 התביעות הראשונות שבבקשה ,ואולם מבקש שאינו חברה ואינו שותפות ,או חברה או שותפות שמחזור עסקיה בשנה הקודמת לא עלה על 10מיליון שקלים חדשים ,או מוסד שהוכר לפי סעיף 9לחוק המועצה להשכלה גבוהה ,התשי\"ח( 1958-להלן -חוק המועצה להשכלה גבוהה) או חברה למסחור טכנולוגיה שהיא בבעלות מלאה של מוסד כאמור ,אשר עיסוקה בהגנה ובניהול של הקניין הרוחני הנובע מאמצאות אשר פותחו באותו מוסד ,המגישים בעד אמצאה מסוימת 2,402 בקשה ראשונה לפטנט ישלמו 60%מהסכום",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "references/pct-israel-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-claim-and-page-supplements",
+      "claim": "Items 2 to 5 of the 2026 notice set an additional filing fee of NIS 616 for each claim from the 51st claim, and NIS 300 for each 50 pages from page 101 onward with genetic sequences excluded from the page count, both for a national application and for an international application designating Israel. A 300-page specification therefore adds four blocks of 50 pages, NIS 1,200, on top of the filing fee.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת הגשה נוספת בעד כל תביעה שבבקשה לפטנט .2 616 החל בתביעה ה51- אגרת הגשה נוספת בעד כל 50עמודים שבבקשה לפטנט .3 החל בעמוד ה ;101-במספר העמודים לא יימנו רצפים 300 גנטיים",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "references/pct-israel-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-accelerated-examination",
+      "claim": "Item 8 of the 2026 notice sets accelerated examination fees by requester: an applicant request under section 19a(a)(3) to (6) costs NIS 357 plus NIS 834 for the on-the-spot examination, a total of NIS 1,191, while a third-party request under section 19a(c) costs NIS 11,910 plus NIS 5,955, a total of NIS 17,865.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "(א) אגרת הגשת בקשה להקדמת בחינה של פטנט לפי .8 סעיף 19א(ד) לחוק – 357 ( )1עם הגשת בקשה לפי סעיף 19א(א)( )3עד ( )6לחוק 11,910 ( )2עם הגשת בקשה לפי סעיף 19א(ג) לחוק אגרה בעד בחינה על-אתר של בקשת פטנט לפי סעיף (ב) 19א(ה) לחוק – ( )1אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 834 19א(א)( )3עד ( )6לחוק ( )2אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 5,955 19א(ג) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-onsite-exam-amounts",
+      "claim": "The on-the-spot examination fee under item 8(b) is NIS 834 where the acceleration request was filed under section 19a(a)(3) to (6), and NIS 5,955 where it was filed under section 19a(c).",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרה בעד בחינה על-אתר של בקשת פטנט לפי סעיף (ב) 19א(ה) לחוק – ( )1אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 834 19א(א)( )3עד ( )6לחוק ( )2אם הבקשה להקדמת הבחינה הוגשה לפי סעיף 5,955 19א(ג) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-extension-of-time",
+      "claim": "Item 9 of the 2026 notice charges NIS 240 for each month or part of a month when extending any deadline under sections 48d(c) and 164 of the Patents Law or under regulations 5(a) or 87(c). Extending a Section 18 response from 4 months to the 12-month ceiling is 8 months of extension, NIS 1,920.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה להארכת כל מועד ,לפי סעיפים 48ד(ג) .9 ו 164-לחוק או בקשה לפי תקנות (5א) או (87ג) ,בעד כל 240 חודש או חלק ממנו",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-acceptance-fee",
+      "claim": "Item 10 of the 2026 notice sets the notice-of-acceptance fee at NIS 841, reduced to 60% of the amount, NIS 505, for a qualifying applicant on a first application.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם קבלת הודעה על קיבול הבקשה לפי תקנה ,52 ואולם מבקש שאינו חברה ואינו שותפות או חברה או שותפות שמחזור עסקיה בשנה הקודמת לא עלה על 10 מיליון שקלים חדשים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ilpo-2026-inter-partes-and-restoration",
+      "claim": "Item 11 of the 2026 notice charges NIS 2,402 for an inter partes proceeding under sections 25, 30, 61, 67, 73(c), 117, 124(b), 133 and 170(c) and regulations 81, 84, 98 and 195, and NIS 841 each for a request to be heard before the Registrar under section 159 or 161 or regulations 42 or 46(a), for an application to amend a specification under sections 29 or 65, and for an application to restore a lapsed patent under section 59.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "(א) עם הגשת בקשה בקשר להליך על ריב ,לפי כל אחד .11 מהסעיפים (73 ,67 ,61 ,30 ,25ג)(124 ,117 ,ב) 133 ,ו- 2,402 (170ג) לחוק וכן תקנות 98 ,84 ,81ו195- (ב) עם הגשת בקשה להשמיע טענות לפני הרשם לפי סעיף 159או השגה לפי סעיף 161לחוק או לפי תקנה 841 42או (46א) (ג) עם הגשת בקשה לתיקון פירוט לפי סעיפים 29או 841 65לחוק (ד) עם הגשת בקשה להחזרת תוקפו של פטנט לאחר 841 פקיעתו לפי סעיף 59לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-renewal-bands",
+      "claim": "Item 12 of the 2026 notice sets the renewal ladder, quoted in the skill's tables under the heading Full (2026, NIS): years 1 to 6, NIS 961, payable within three months of grant; years 7-10, NIS 1,921, due before the end of the sixth year; years 11-14, NIS 2,882, due before the end of the tenth year; years 15-18, NIS 4,803, due before the end of the fourteenth year; years 19-20, NIS 6,725, due before the end of the eighteenth year; and an all-inclusive renewal of NIS 14,410 payable within three months of grant that keeps the patent in force for its whole term. Paying band by band totals NIS 17,292, so the all-inclusive option saves NIS 2,882.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת חידוש לפי סעיף 56לחוק: .12 ( )1עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט ,עד תום שש שנים מתאריך הבקשה 961 לפטנט ( )2עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 1,921 שנים ( )3עם הגשת בקשת חידוש לפני תום השנה העשירית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 2,882 שנים ( )4עם הגשת בקשת חידוש לפני תום השנה הארבע עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 4,803 ארבע שנים ( )5עם הגשת בקשת חידוש לפני תום השנה השמונה עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 6,725 שנתיים ( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "scripts/patent-deadlines.py"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-renewal-bands-he",
+      "claim": "בעברית: אגרות החידוש לשנת 2026 הן 961 ש\"ח לשנים 1 עד 6, 1,921 ש\"ח לשנים 7 עד 10, 2,882 ש\"ח לשנים 11 עד 14, 4,803 ש\"ח לשנים 15 עד 18, 6,725 ש\"ח לשנים 19 עד 20, ו-14,410 ש\"ח באגרה כוללת. תשלום לפי מקטעים מסתכם ב-17,292 ש\"ח, ולכן האגרה הכוללת חוסכת 2,882 ש\"ח. אגרת החזרת תוקף לפי סעיף 59 היא 841 ש\"ח. הטבלאות בעברית מציגות את הסכומים תחת הכותרת אגרה מלאה (2026, ש\"ח), וההנחה הרלוונטית היא 40%.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת חידוש לפי סעיף 56לחוק: .12 ( )1עם הגשת בקשת חידוש לפני תום שלושה חודשים מיום מתן הפטנט ,עד תום שש שנים מתאריך הבקשה 961 לפטנט ( )2עם הגשת בקשת חידוש לפני תום השנה השישית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 1,921 שנים ( )3עם הגשת בקשת חידוש לפני תום השנה העשירית מתאריך הבקשה לפטנט ,לתקופה נוספת של ארבע 2,882 שנים ( )4עם הגשת בקשת חידוש לפני תום השנה הארבע עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 4,803 ארבע שנים ( )5עם הגשת בקשת חידוש לפני תום השנה השמונה עשרה מתאריך הבקשה לפטנט ,לתקופה נוספת של 6,725 שנתיים ( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-national-phase-fee",
+      "claim": "Item 13 of the 2026 notice sets the PCT national phase entry fee under section 48d(a) at NIS 2,402, with examination included.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "( )6אגרת חידוש כוללת לתשלום לפני תום שלושה חודשים מיום מתן הפטנט כדי שיהיה בתוקף לכל 14,410 תקופתו 2,402 אגרה לאומית לפי סעיף 48ד(א) לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "references/pct-israel-checklist.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-pct-office-fees",
+      "claim": "Items 14 to 19 of the 2026 notice set the fees ILPO charges in the PCT international phase: search fee as International Searching Authority under regulation 6(d), NIS 4,203; transmittal fee under regulation 6(e), NIS 656; additional search fee under section 48j(d), NIS 4,203; preliminary examination fee as IPEA under regulation 6(g), NIS 1,801; additional preliminary examination fee under section 48k(d), NIS 1,801; and late transmittal fee under regulation 6(h), NIS 540.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרת חיפוש המשתלמת לרשות הפטנטים כרשות .14 חיפוש בין-לאומית לפי תקנה (6ד) לתקנות הפטנטים (יישום האמנה בדבר שיתוף פעולה בענייני פטנטים), 4,203 התשנ\"ו( 1996-להלן – תקנות יישום האמנה) 656 אגרת מסירה לפי תקנה (6ה) לתקנות יישום האמנה .15 אגרה נוספת המשתלמת לרשות הפטנטים כרשות .16 4,203 חיפוש בין-לאומית לפי סעיף 48י(ד) לחוק אגרת בחינה מקדימה המשתלמת לרשות הפטנטים .17 כרשות בין-לאומית לבחינה מקדימה לפי תקנה (6ז) 1,801 לתקנות יישום האמנה אגרה נוספת המשתלמת לרשות הפטנטים כרשות בין- .18 1,801 לאומית לבחינה מקדימה לפי סעיף 48יא(ד) לחוק אגרת מסירה מאוחרת לפי תקנה (6ח) לתקנות יישום .19 540 האמנה",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-pte-fees",
+      "claim": "The patent term extension section of the 2026 notice sets an application fee of NIS 1,297 under regulation 2(c)(4), an extension fee of NIS 3,484 under regulation 7(a)(1), and a ladder under regulation 7(a)(2) of NIS 4,180 before the end of the first extension year, NIS 5,016 before the second, NIS 6,019 before the third and NIS 7,223 before the fourth, plus NIS 2,402 to oppose a PTE and NIS 4,804 to apply to cancel one. A full five-year extension therefore carries about NIS 27,219 in official fees across its life.",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "אגרות פטנטים -צווי הארכה בשקלים חדשים 1,297 אגרת בקשה ((תקנה (2ג)())4 ()1 3,484 אגרת הארכה (תקנה ( 7א)())1 ()2 אגרת הארכה (תקנה ( 7א)(– ))2 ()3 4,180 (א) לפני תום שנת הארכה ראשונה 5,016 (ב) לפני תום שנת הארכה שנייה 6,019 (ג) לפני תום שנת הארכה שלישית 7,223 (ד) לפני תום שנת הארכה רביעית 2,402 אגרת התנגדות (תקנה (3א)) )1 4,804",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-misc-fees",
+      "claim": "The 2026 notice sets NIS 280 for a request for reconsideration under section 21a or to cancel a cancellation under section 21b, NIS 205 for patent attorney examination and registration and NIS 205 for the annual patent attorney fee, and NIS 52 for a certified copy or register extract under section 168(b).",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה לדיון מחדש לפי סעיף 21א לחוק ,או .20 280 לבטל ביטול לפי סעיף 21ב לחוק (א) עם הגשת בקשה להיבחן בעל פה או בכתב לשם .21 רישום כעורך פטנטים לפי סעיף 143לחוק ,וכן עם הגשת הבקשה להירשם כעורך פטנטים לפי סעיף 142 205 לחוק 205 (ב) אגרה שנתית לעורך פטנטים לפי סעיף 145לחוק בעד אישור או העתק כל פירוט ,שרטוט ,מסמך או .22 תעודה ,או בעד נסח מתוך הפנקס ,לפי סעיף (168ב) 52 לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "ilpo-2026-search-report-and-item7-fees",
+      "claim": "The 2026 notice sets NIS 2,101 for a report in the format of an international search report under regulation 35a, and NIS 280 for each of the four item 7 applications (patent deletion or cancellation under section 73(a) or register correction, an amended document deferring the application date under section 23, registration of a right under section 169, and correction of a clerical error under section 69).",
+      "source_url": "https://www.gov.il/BlobFolder/news/ilpo-fees/ar/news_fees-2026.pdf",
+      "raw_snippet": "עם הגשת בקשה להפקת דוח במתכונת של דוח חיפוש .6 2,101 בין-לאומי לפי תקנה 35א (א) עם הגשת בקשה למחיקת פטנט או לביטולו לפי .7 סעיף (73א) ,או לתיקון הפנקס לפי סעיפים (170א) ו- 280 171לחוק או תקנות (146א) ו(149-א) (ב) עם הגשת מסמך מתוקן שבעקבותיו יידחה תאריך 280 בקשת הפטנט לפי סעיף 23לחוק (ג) עם הגשת בקשה לרישום זכות לגבי פטנט או זכות באמצאה שהוגשה עליה בקשת לפטנט לפי סעיף 169 280 לחוק ,לשינוי רישום כזה או לביטולו (ד) עם הגשת בקשה לתיקון טעות סופר בפירוט לפי 280 סעיף 69לחוק",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "amendment-15-published",
+      "claim": "The Patents Law (Amendment No. 15) Bill, 5786-2025 was published as a government bill in Reshumot, Government Bills 1920, on 30 December 2025.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "הצעת חוק הפטנטים (תיקון מס'  ,)15התשפ\"ו2025-",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-examination-on-request",
+      "claim": "Section 16c proposed by the bill would let the applicant, or a person other than the applicant, demand examination of a patent application within four years of the Israeli filing date. The explanatory notes state that if the applicant does not demand examination within four years the application is refused and no patent is registered.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "16ג. (א) המבקש ,או אדם אחר שאינו המבקש ,רשאי לדרוש את בחינת בקשת הפטנט (בחוק זה -דרישה לבחינה) בתוך ארבע שנים מתאריך הגשת הבקשה לפטנט בישראל",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-provisional-application",
+      "claim": "The bill proposes a new Israeli provisional patent application with relatively relaxed filing requirements, which expires as if it had never been filed after a year unless the applicant converts it into a regular application.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "בקשת פטנט ארעית -מוצע לאפשר להגיש בקשת פטנט ארעית (שהתנאים להגשתה מקילים באופן יחסי לתנאים להגשת בקשת פטנט שאינה ארעית) ,ואם המבקש לא ימיר אותה לבקשה רגילה בתוך שנה ,תפקע כלא הייתה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-grace-period",
+      "claim": "The bill would extend the grace period so that a publication made during the 12 months before the application date by the owner of the invention, by a predecessor in title, or by another person with their consent, is not treated as prior art defeating novelty or inventive step.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "שבוצע במהלך 12החודשים שלפני תאריך הבקשה ,בידי בעל האמצאה או מי שקדם לו בזכות הבעלות או על ידי אדם אחר בהסכמתם ,כלומר הפרסום לא ייחשב לידע קודם השולל את החידוש או את ההתקדמות ההמצאתית של האמצאה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-third-party-submissions",
+      "claim": "The bill would remove the time limit that currently applies to the submission of documents and references by a third party, and would allow the third party to attach explanations and relevant citations to that material.",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "מוצע לבטל את מגבלת הזמן הקיימת כיום על הגשת מסמכים ואסמכתאות על ידי צד שלישי וכן לאפשר לו לצרף למסמכים הסברים והפניות רלוונטיות",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-effective-dates",
+      "claim": "Section 37(a) of the bill sets commencement one month after publication. Section 37(b)(1) defers commencement by a further year for the listed provisions, and the explanatory notes identify those as examination on request, the provisional application, and the confidential prior-art arrangement, with the Minister of Justice empowered to postpone that date. (סעיף 37 להצעה)",
+      "source_url": "https://fs.knesset.gov.il/25/law/25_ls1_10491345.pdf",
+      "raw_snippet": "מוצע לקבוע תחילה נדחית של שנה ,לצורך היערכות, להסדרים האלה :בחינה לפי דרישה ,בקשה ארעית ,וההסדר בדבר ידע קודם סודי .שר המשפטים יהיה רשאי לדחות מועד זה אם יתברר שזמן ההיערכות האמור אינו מספק.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "patents-law-s18-disclosure",
+      "claim": "סעיף 18 לחוק הפטנטים מחייב את הבוחן להשתמש באמצעי בחינה נוספים, ובכללם רשימה של פרסומים שפורסמו לפני תאריך הבקשה הידועים למבקש ונוגעים במישרין לאמצאה. לפי סעיף 18א, עד לקיבול הבקשה המבקש חייב לעדכן את הרשות בכל שינוי ברשימה.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p187_002.htm",
+      "raw_snippet": "חובת המבקש לעדכן את הרשות 18א. עד לקיבול הבקשה ,חייב המבקש לעדכן את הרשות על כל שינוי שחל ברשימת האסמכתאות או הפרסומים כאמור בסעיף 18, אם השינויים האמורים הובאו לידיעתו או לידיעת בא-כוחו.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s59-restoration",
+      "claim": "סעיף 59 לחוק הפטנטים קובע שבעל פטנט שפקע תוקפו בשל אי-תשלום אגרת חידוש רשאי לבקש מהרשם את החזר תוקפו, בכפוף לתשלום האגרה המיוחדת שנקבעה.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p187_002.htm",
+      "raw_snippet": "החזר תקפו של פטנט שפקע בשל אי-תשלום אגרה 59. בעל פטנט שפקע תקפו בשל אי-תשלום אגרת חידוש ,רשאי לבקש מהרשם ,בדרך ובצורה שנקבעו ,את החזר תקפו של הפטנט ,ובלבד שעם הגשת הבקשה ישלם את האגרה המיוחדת שנקבעה לענין זה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s132-134-he",
+      "claim": "סעיף 132 לחוק הפטנטים קובע שאמצאת שירות תקום לקניין המעביד באין הסכם אחר, וסעיף 134 קובע שבאין הסכם על תמורה, הדבר ייקבע בידי הוועדה לענייני פיצויים ותמלוגים.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p187_002.htm",
+      "raw_snippet": "אמצאות עקב שירות 132. (א) אמצאה של עובד ,שהגיע אליה עקב שירותו ובתקופת שירותו (להלן – אמצאת שירות) ,תקום לקנין מעבידו ,אם אין ביניהם הסכם אחר לענין זה",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s134-remuneration-he",
+      "claim": "לפי סעיף 134, באין הסכם הקובע אם העובד זכאי לתמורה בעד אמצאת שירות, הדבר ייקבע על ידי הוועדה לענייני פיצויים ותמלוגים.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p187_002.htm",
+      "raw_snippet": "תמורה בעד אמצאת שירות 134. באין הסכם הקובע אם זכאי העובד לתמורה בעד אמצאת שירות ,ובאיזו מידה ובאילו תנאים ,ייקבע הדבר על ידי הועדה לעניני פיצויים ותמלוגים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-service-inventions-en",
+      "claim": "Section 132 of the Patents Law makes a service invention the employer's property in the absence of an agreement to the contrary, and Section 134 sends the question of remuneration to the compensation and royalties committee where there is no agreement.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Remuneration for service invention 134. If there is no agreement that prescribes whether, to what extent and on what conditions the employee is entitled to remuneration for a service invention, then the matter shall be decided by the compensation and royalties committee established under Chapter Six.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s18-en",
+      "claim": "Section 18 of the Patents Law lists the additional means of examination, including a list of publications published prior to the application date which are known to the applicant and directly relate to the invention.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "18. (a) The examiner shall use at least one of the following additional means of examination:",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-defence-inventions-en",
+      "claim": "Chapter Six of the Patents Law governs inventions of defence interest. Section 94 lets the Minister of Defense order the Registrar to refrain from acting on an application and restrict publication, and Section 98 bars an Israeli national or permanent resident from filing abroad an application for an invention that is weaponry, ammunition or otherwise of military value without prior written permission from the Minister of Defense.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Restriction of right to submit patent applications abroad (amendment no. 2) 1995 98. An Israel national, a permanent resident of Israel or any other person who owes allegiance to the State shall not submit any application abroad for a patent for an invention the subject of which is weaponry or ammunition, or which is otherwise of military value",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-renewal-grace-six-months",
+      "claim": "Section 57 of the Patents Law allows a renewal fee that was not paid on time to be paid within six months thereafter with the addition of a prescribed fee, in which case the patent is deemed not to have lapsed.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Extension of time for payment of fees 57. If a renewal fee was not paid at the time prescribed for its payment, then it may be paid within six months thereafter with the addition of a fee in a prescribed amount",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-term-20-years",
+      "claim": "Section 52 of the Patents Law sets the term of a patent at twenty years from the application date.",
+      "source_url": "https://www.wipo.int/wipolex/en/text/495413",
+      "raw_snippet": "Term of Patent 52. The term of a patent shall be twenty years from the application date.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-guide-israel-fees",
+      "claim": "The PCT Applicant's Guide, Israel chapter, in the version valid as from August 1, 2026, gives the ILPO transmittal fee as 656 ILS and the ISA search fee as 4,203 ILS, published alongside 1,446 USD, and sets the national phase time limit under PCT Article 22(1) at 30 months from the priority date. It also records amended claims filed together with any statement under PCT Article 19. בעברית: אגרת החיפוש של ISA/IL היא 4,203 ש\"ח.",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "Search fee (PCT Rule 16): This fee is payable to the receiving Office in the currency or one of the currencies accepted by it. 1,170 CHF 1,241 EUR 4,203 ILS 1,446 USD",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "pct-guide-israel-article-19",
+      "claim": "The PCT Applicant's Guide, Israel chapter, describes the translation required for national phase entry under PCT Article 22 as the description and claims, and where amended both as originally filed and as amended together with any statement under PCT Article 19.",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "Under PCT Article 22: Description, claims (if amended, both as originally filed and as amended, together with any statement under PCT Article 19), any text matter of drawings",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "pct-article-34",
+      "claim": "PCT Article 34 governs the procedure before the International Preliminary Examining Authority, including the applicant's right to amend the claims, the description and the drawings before the international preliminary examination report is established.",
+      "source_url": "https://www.wipo.int/pct/en/texts/articles/a34.html",
+      "raw_snippet": "The applicant shall have a right to communicate orally and in writing with the International Preliminary Examining Authority.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "epct-portal",
+      "claim": "ePCT is WIPO's browser-based system for filing new international applications with participating PCT receiving Offices and managing subsequent processes.",
+      "source_url": "https://pct.wipo.int",
+      "raw_snippet": "Applicants can file new international applications to participating PCT receiving Offices and manage all subsequent processes using ePCT.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "wipo-pct-hub",
+      "claim": "WIPO's PCT section is the official hub for the Patent Cooperation Treaty and the international application route.",
+      "source_url": "https://www.wipo.int/pct/en/",
+      "raw_snippet": "PCT – The International Patent System",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "wipo-ipc",
+      "claim": "The International Patent Classification, established by the Strasbourg Agreement (1971), is a hierarchical system of language independent symbols for classifying patents and utility models by area of technology, and a new version enters into force each year on January 1.",
+      "source_url": "https://www.wipo.int/en/web/classification-ipc",
+      "raw_snippet": "The International Patent Classification (IPC), established by the Strasbourg Agreement (1971), provides for a hierarchical system of language independent symbols for the classification of patents and utility models according to the different areas of technology to which they pertain.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ilpo-gov-il-he",
+      "claim": "The Israel Patent Office site on gov.il is at gov.il/he/departments/ilpo and lists the office's departments, news and publications. The earlier addresses gov.il/he/departments/israel_patent_office, gov.il/en/departments/israel_patent_office and gov.il/he/departments/units/ip_office now return 404.",
+      "source_url": "https://www.gov.il/he/departments/ilpo",
+      "raw_snippet": "מחלקות הרשות סימני מסחר פטנטים עיצובים PCT מחלקה משפטית ובית-הדין קשרי חוץ והסברה עורכי פטנטים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-13T19:56:30Z",
+      "note": "Playwright 2026-09-13, location.href asserted https://www.gov.il/he/departments/ilpo, title רשות הפטנטים; curl gets 403."
+    },
+    {
+      "claim_id": "ilpo-gov-il-en",
+      "claim": "The English Israel Patent Office page on gov.il is at gov.il/en/departments/ilpo and links to fees, publications, the Israeli patents search and PCT online services.",
+      "source_url": "https://www.gov.il/en/departments/ilpo",
+      "raw_snippet": "Ministry of Justice Israel Patent Office News Contact Us Policies Publications Reception points Legal information Fees",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/pct-israel-checklist.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "ilpo-fees-landing-page",
+      "claim": "The gov.il landing page for the ILPO 2026 fee notice, published 22 December 2025, states that the tariffs entering into force on 01.01.2026 are available in the attached file.",
+      "source_url": "https://www.gov.il/he/pages/ilpo-fees",
+      "raw_snippet": "תעריפי אגרות רשות הפטנטים שיכנסו לתוקף מיום 01.01.2026 זמינים לרשותכם בקובץ המצורף.",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "israelpatents-search",
+      "claim": "The ILPO public patent search service is served at israelpatents.justice.gov.il/en (redirects to the search home page).",
+      "source_url": "https://israelpatents.justice.gov.il/en",
+      "raw_snippet": "Patent search. All in one place",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "Playwright 2026-09-13, location.href asserted https://israelpatents.justice.gov.il/search/en/home; curl returns an error page."
+    },
+    {
+      "claim_id": "patentscope-coverage",
+      "claim": "PATENTSCOPE covers 129.5 million patent documents",
+      "source_url": "https://patentscope.wipo.int/search/en/search.jsf",
+      "raw_snippet": "Using PATENTSCOPE you can search 129.5 million patent documents",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "boi-exchange-rates",
+      "claim": "The Bank of Israel publishes the representative exchange rate on its Exchange Rates page, at boi.org.il/en/economic-roles/financial-markets/exchange-rates/. The older address boi.org.il/en/markets/exchange-rates/ returns 404.",
+      "source_url": "https://www.boi.org.il/en/economic-roles/financial-markets/exchange-rates/",
+      "raw_snippet": "Exchange Rates Regulation of Foreign Currency Trading and Publishing the Representative Exchange Rate",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md",
+        "references/pct-israel-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "amendment-15-knesset-status-2026-09",
+      "claim": "As of 13 September 2026 the Amendment 15 bill (Government Bills 1920) is tabled for first reading, no committee assigned, not published as law (bill 1920, CommitteeID and PublicationDate null in the same record)",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill(1045508)",
+      "raw_snippet": "<d:StatusID m:type=\"Edm.Int32\">141</d:StatusID>",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/amendment-15.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "OData Atom XML; the checker strips tags so the body reads as empty. Snippet confirmed in raw bytes with curl on 2026-09-13."
+    },
+    {
+      "claim_id": "knesset-status-141",
+      "claim": "Knesset status 141 means tabled for first reading",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Status(141)",
+      "raw_snippet": "הונחה על שולחן הכנסת לקריאה ראשונה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-09-13T12:00:00Z",
+      "note": "OData Atom XML; the checker strips tags so the body reads as empty. Snippet confirmed in raw bytes with curl on 2026-09-13."
+    },
+    {
+      "claim_id": "pct-rule-49-6-israel",
+      "claim": "Israel permits reinstatement of rights under PCT Rule 49.6 on the due care criterion, fee 240 ILS",
+      "source_url": "https://pctlegal.wipo.int/eGuide/view-doc.xhtml?doc-code=IL",
+      "raw_snippet": "Yes, the Office permits reinstatement of rights under the “due care” criterion. Fee for reinstatement 240 ILS",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s30-opposition",
+      "claim": "Opposition within three months from publication of acceptance under s.26 (סעיף 30 לחוק הפטנטים, לפי סעיף 26)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תוך שלושה חדשים מיום פרסום הבקשה לפי סעיף 26 רשאי כל אדם",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md",
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64t-90-days",
+      "claim": "PTE application no later than 90 days from registration of the medicinal product (סעיף 64טו)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא יאוחר מ־90 ימים מיום רישום התכשיר הרפואי",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md",
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64j-5-years",
+      "claim": "Extension order may not exceed 5 years beyond the s.52 term (סעיף 64י, מעבר לתקופה שבסעיף 52)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא תעלה על 5 שנים מעבר לתקופה הנקובה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64j-14-years",
+      "claim": "Total protection ends no later than 14 years from first marketing approval in a recognized country (סעיף 64י)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "14 שנים ממועד מתן היתר השיווק הראשון באחת מהמדינות המוכרות",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64i-shortest",
+      "claim": "Extension equals the shortest extension granted in the recognized countries (סעיף 64ט)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תקופת ההארכה הקצרה מבין תקופות ההארכה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64i-israel-only",
+      "claim": "Where registration was sought only in Israel the extension equals the period from registration application to registration (סעיף 64ט)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "התבקש רישוי רק בישראל, יעמוד צו ההארכה בתוקפו",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s3-patentable",
+      "claim": "Patentable invention: new, useful, industrially applicable, inventive step (סעיף 3; חדשות לפי סעיף 4, התקדמות המצאתית לפי סעיף 5)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "חדשה, מועילה, ניתנת לשימוש תעשייתי ויש בה התקדמות המצאתית",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s7-exclusions",
+      "claim": "No patent for medical treatment of the human body (סעיף 7)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תהליך לטיפול רפואי בגוף האדם",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pct-rule-46-1",
+      "claim": "Article 19 time limit: later of 2 months from ISR transmittal or 16 months from priority",
+      "source_url": "https://www.wipo.int/pct/en/texts/rules/r46.html",
+      "raw_snippet": "two months from the date of transmittal of the international search report to the International Bureau and to the applicant by the International Searching Authority or 16 months from the priority date, whichever time limit expires later",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "scripts/patent-deadlines.py"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64d-recognized-country",
+      "claim": "If marketing approval was granted in the US, a US extension of the reference patent must also have been granted and not expired (סעיף 64ד)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ניתן גם צו להארכת פטנט הייחוס בארצות הברית של אמריקה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s4-novelty",
+      "claim": "Novelty: not published publicly in Israel or abroad before the application date (סעיף 4)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אם לא נתפרסמה בפומבי, בין בישראל ובין מחוצה לה, לפני תאריך הבקשה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s5-inventive-step",
+      "claim": "Inventive step: not obvious to an average skilled person (סעיף 5)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אינה נראית כענין המובן מאליו לבעל מקצוע ממוצע",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s7-varieties",
+      "claim": "No patent on new plant or animal varieties except non-natural microorganisms (סעיף 7)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "זנים חדשים של צמחים או בעלי חיים, זולת אורגניזמים מיקרו־ביולוגיים שלא הופקו מהטבע",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s18c-sanctions",
+      "claim": "Misleading details or knowing failure to update: court or Registrar may revoke or refuse, grant licence, or shorten term (סעיף 18ג)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לבטל את הפטנט או לא לתת פטנט",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s164-no-extension",
+      "claim": "Registrar may not extend the periods in ss.30 and 64O(a) (סעיף 164)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "חוץ מהמועדים הקבועים בסעיפים 18(ב)(3) לעניין הגשת מסמכים על ידי אדם שאינו המבקש, 30, 56, 57, 61",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/ilpo-fee-schedule.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64t-a1-two-months",
+      "claim": "PTE defect must be cured within two months of notice (s.64O(a1))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ישלים את החסר או יתקן את הפגם בתוך חודשיים מיום ההודעה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64c-applicants",
+      "claim": "Basic-patent applicant, patentee and exclusive licensee may apply for PTE (s.64C(a))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "בעל פטנט בסיסי ובעל רשיון ייחודי בפטנט בסיסי או בבקשת פטנט בסיסי רשאים לבקש צו הארכה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64f-opposition",
+      "claim": "PTE opposition within three months of publication under s.64E (s.64F)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תוך שלושה חודשים מיום פרסום ההודעה לפי הוראות סעיף 64ה(ג) או (ה)(1) או (3)",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s64m-late-fees",
+      "claim": "PTE fees follow ss.57-64 (s.64M(b))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "יחולו הוראות סעיפים 57 עד 64",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s48d-english-translation",
+      "claim": "PCT national phase: verified English translation required if not filed or published in English (סעיף 48ד(ב)(2))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "תרגום מאומת של הבקשה הבינלאומית לשפה האנגלית",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s48d-three-month-extension",
+      "claim": "Registrar may extend the translation deadline by up to three months (סעיף 48ד(ג))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "רשאי הרשם להאריך את המועד לתקופה של עד שלושה חודשים",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/pct-israel-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s24-division",
+      "claim": "Division may be requested while the application has not been accepted (סעיף 24(א))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "כל עוד לא קובלה הבקשה, זכאי המבקש לדרוש שהיא תחולק לבקשות אחדות",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s98-foreign-filing",
+      "claim": "Foreign filing restriction and the two lawful routes: prior written permit or 6 months after Israeli filing with no s.94 order (סעיף 98, סעיף 94, סעיף 95)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "הגיש בישראל בקשה לגבי אותה אמצאה, וביום הגשת הבקשה עברו ששה חדשים ושר הבטחון לא נתן לגביה צו לפי סעיף 94",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s98-persons",
+      "claim": "Restriction binds Israeli citizens, permanent residents, and others owing allegiance (סעיף 98)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "אזרח ישראל, תושב קבוע בישראל, או אדם אחר החייב בנאמנות למדינה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s60-restoration-conditions",
+      "claim": "Restoration requires reasonable causes, unintended lapse, and prompt request (סעיף 60)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "לא שולמה בשל סיבות סבירות, כי בעל הפטנט לא רצה בפקיעת תוקפו של הפטנט",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s63-intervening-users",
+      "claim": "Users who began after publication of the lapse may continue (סעיף 63)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "זכאי להוסיף ולנצל את האמצאה לצרכי עסקו בלבד, גם לאחר שהוחזר הפטנט לתקפו",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s132b-silence",
+      "claim": "Employer silence for 6 months after an s.131 notice with a vesting statement leaves the invention with the employee (סעיף 132(ב), סעיף 131)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "ולא נתן המעביד תשובה נוגדת כאמור, לא תקום האמצאה לקנין המעביד",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/service-inventions.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s133-registrar",
+      "claim": "Service-invention status disputes go to the Registrar (סעיף 133)",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "רשאים העובד או המעביד לפנות לרשם שיכריע בשאלה",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/service-inventions.md"
+      ]
+    },
+    {
+      "claim_id": "patents-law-s164-a2-once",
+      "claim": "Registrar may extend the s.64O(a1) period once (סעיף 164(א2))",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הפטנטים",
+      "raw_snippet": "הרשם רשאי להאריך את המועד הקבוע בסעיף 64טו(א1), פעם אחת בלבד",
+      "fetched_at": "2026-09-13T12:00:00Z",
+      "appears_in": [
+        "references/pte.md"
+      ]
+    }
+  ]
+}

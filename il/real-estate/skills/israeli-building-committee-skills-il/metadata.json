@@ -1,0 +1,80 @@
+{
+  "author": "skills-il",
+  "version": "1.1.0",
+  "category": "legal-tech",
+  "display_name": {
+    "he": "ועד בית בבית משותף",
+    "en": "Israeli Building Committee (Vaad Bayit)"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. עוזר לדיירים בבית משותף לנהל את ועד הבית או להתנהל מולו. מחשב כמה כל דירה משלמת לפי שטח הדירה, ברירת המחדל שבחוק המקרקעין, או לפי התקנון הרשום כשהוא קובע שיעור אחר, ומנסח הודעות לוואטסאפ, הזמנה לאסיפה, פרוטוקול, השוואת הצעות מחיר וסיכום תקציב. מתאים כששואלים אם חלוקה שווה חוקית, אם קומת הקרקע משלמת על המעלית, איך גובים חוב דמי ועד, מי מתקן נזילה מהשכן או מה עושים כששכן השתלט על הגג. חשוב כי טעות בחלוקה או בדרך הפעולה מובילה לריבים ולתביעות שנכשלות. לא מתאים לסכסוך עם משכיר, לתמ\"א 38 ופינוי בינוי, לליקויי בנייה בדירה חדשה או לתביעה קטנה, ולא מנסח כתב תביעה.",
+    "en": "Not legal advice. Helps residents of an Israeli shared building run or deal with the vaad bayit. Splits costs by floor area, the Land Law default, or by the registered takanon where it sets another rate, and drafts WhatsApp notices, meeting invitations, minutes, repair quote comparisons and budget summaries. Use when someone asks whether an equal split is lawful, whether the ground floor pays for the elevator, how to collect unpaid fees, who fixes a leak from the neighbour, or what to do when a neighbour takes over the roof. It matters because a wrong split or wrong route leads to feuds and failed claims. Not for landlord disputes, TAMA 38 or pinui binui, new-apartment defects or small claims, and it does not draft a statement of claim."
+  },
+  "tags": {
+    "he": [
+      "ועד-בית",
+      "בית-משותף",
+      "דמי-ועד",
+      "חוק-המקרקעין",
+      "סכסוכי-שכנים",
+      "משפטי",
+      "ישראל"
+    ],
+    "en": [
+      "vaad-bayit",
+      "shared-building",
+      "building-fees",
+      "land-law",
+      "neighbor-disputes",
+      "legal",
+      "israel"
+    ]
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/תשלומי_ועד_בית",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הגשת_תביעה_למפקח_על_רישום_המקרקעין",
+      "type": "aggregator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/condominiums-supervisor-claims",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

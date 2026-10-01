@@ -1,0 +1,14 @@
+{
+  "name": "ae-family",
+  "displayName": "Family Law — UAE",
+  "version": "0.1.0",
+  "description": "Family Law skills under the law of UAE.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/kb-family-law-uae-civil-personal-status-sboghossian"
+  ]
+}

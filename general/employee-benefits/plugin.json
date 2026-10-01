@@ -1,0 +1,14 @@
+{
+  "name": "general-employee-benefits",
+  "displayName": "Employee Benefits & Executive Compensation — jurisdiction-neutral",
+  "version": "0.1.0",
+  "description": "Employee Benefits & Executive Compensation skills not tied to one country's law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "employee-benefits",
+  "language": "en",
+  "skills": [
+    "skills/esop-scheme-drafter-rohasnagpal"
+  ]
+}

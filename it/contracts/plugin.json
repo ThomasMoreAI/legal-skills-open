@@ -1,0 +1,17 @@
+{
+  "name": "it-contracts",
+  "displayName": "Contracts — Italy",
+  "version": "0.1.0",
+  "description": "Contracts skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "contracts",
+  "language": "it",
+  "skills": [
+    "skills/fascicolo-civile-pixari",
+    "skills/revisione-msa-fornitore-pixari",
+    "skills/rinnovo-contratto-pixari",
+    "skills/storico-amendment-pixari"
+  ]
+}

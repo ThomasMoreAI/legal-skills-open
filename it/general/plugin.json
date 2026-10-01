@@ -1,0 +1,20 @@
+{
+  "name": "it-general",
+  "displayName": "General — Italy",
+  "version": "0.1.0",
+  "description": "General skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "general",
+  "language": "it",
+  "skills": [
+    "skills/analisi-articolo-capazme",
+    "skills/avvertenze-legali-pixari",
+    "skills/citazione-italiana-pixari",
+    "skills/cold-start-interview-pixari",
+    "skills/confronto-norme-capazme",
+    "skills/esporta-documento-capazme",
+    "skills/fascicolo-mandato-pixari"
+  ]
+}

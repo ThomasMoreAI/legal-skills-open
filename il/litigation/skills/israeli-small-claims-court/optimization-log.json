@@ -1,0 +1,73 @@
+{
+  "skill": "israeli-small-claims-court",
+  "cycles": [
+    {
+      "cycle": 1,
+      "date": "2026-06-04",
+      "from_version": "1.1.1",
+      "to_version": "1.2.0",
+      "editor": "update-skill (editor agent)",
+      "summary": "Correctness + coverage pass. Fixed the defense-deadline bug (was 15 days, correct is 30 days) in 4 places across both languages; clarified the no-lawyer-without-court-leave rule; added the 5-claims-per-plaintiff-per-year-per-court cap and the individual-only-plaintiff / no-assignee rule; created evidence.json (13 cited claims) and this log.",
+      "changes": [
+        {
+          "type": "bug",
+          "id": "defense-deadline",
+          "detail": "כתב הגנה / ktav hagana deadline corrected 15 -> 30 days (Step 2 filing table, counterclaim Troubleshooting) in SKILL.md and SKILL_HE.md. Verified gov.il small_claims_courts_guide + kolzchut."
+        },
+        {
+          "type": "consistency",
+          "id": "ceiling",
+          "detail": "Confirmed NIS 39,900 (Jan 2026) is correct and consistent; left description unchanged."
+        },
+        {
+          "type": "coverage",
+          "id": "no-lawyer",
+          "detail": "Step 1 lawyer-representation row reworded: barred without court leave; lawyers may draft pleadings but generally cannot appear. Verified kolzchut."
+        },
+        {
+          "type": "coverage",
+          "id": "five-claims-cap",
+          "detail": "Added Step 1 row: up to 5 claims/plaintiff/calendar-year/court (more requires leave). Verified gov.il guide verbatim."
+        },
+        {
+          "type": "coverage",
+          "id": "plaintiff-individual-only",
+          "detail": "Added Step 1 row: only an individual can be a plaintiff; company can be a defendant; no claim assignment / professional pleader. Verified gov.il + kolzchut (D2)."
+        }
+      ],
+      "deferrals": [
+        {
+          "id": "D1-hearing-scheduling-target",
+          "reason": "Could not verify a specific ~30-day hearing-scheduling target verbatim. The Small Claims Procedure Regulations (takanot, reg. 4) and the gov.il guide only specify the defendant's 30-day defense window and that the defendant appears 'on the date noted in the summons' (במועד שנקוב בהזמנה); no statutory target interval between filing and hearing was found. Per anti-fabrication, Step 2 row 7 was worded conservatively ('Court sets hearing date; defendant is summoned to appear on the date noted in the summons') instead of asserting an unverifiable ~30-day figure.",
+          "status": "deferred"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "version": "1.4.0",
+      "date": "2026-09-13",
+      "from_version": "1.3.1",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "3 holdout queries (HE lawyer-cost query, EN positive, negative)"
+        ]
+      },
+      "summary": "Correctness pass against the regulation text (Hebrew Wikisource consolidation): fee rounding up to a multiple of NIS 5 (reg 6(a)(3)); local jurisdiction rewritten per reg 2 (no property-location ground, internet claims ONLY at defendant/plaintiff residence or business); appeal clock from day given/served (reg 16, 16A); non-attendance per reg 11 (dismissed vs struck); 20-day execution warning replacing an unsourced 30-day voluntary period; travel-ban NIS 50,000 floor; s.79A compromise; recess counts (reg 16A(b)); post-11.4.2025 claim contents (reg 3); filing channels, fee exemption, costs NIS 300-400, appeal fee NIS 588; defamation/spam/public-body claims back in scope. HE description dropped lawyer-fee-savings sentence (legal-gate recommendation).",
+      "lessons": [
+        "Deferred (Expert/coverage MAJOR): witness summons by the court (about 40 days before, deposit) is sourced only on gov.il guide chapter 2, which was Cloudflare-blocked; capture next cycle.",
+        "Deferred (coverage MAJOR): step-by-step personal-service method incl. company registered office and 3-attempts rule; gov.il chapter 2 blocked.",
+        "Deferred: filing-language conflict, gov.il guide says Hebrew only vs Kol Zchut (July 2026) Hebrew or Arabic; do not assert either until reconciled.",
+        "Deferred: settlement approval before the hearing, claim withdrawal and fee refund request, third-party notice copies, extension of time for a defence, s.60(b) unsuitability transfer ground.",
+        "Deferred: Hotza'a LaPo'al opening fee (2026 ECA table says 1% min NIS 109 regular track) not added because pdftotext column mapping was uncertain; read the PDF visually next cycle.",
+        "Watch: gov.il small_claims_courts_guide chapter 1 still shows the 15-day appeal period and pre-2021 venue grounds (place obligation created, place asset delivered); the consolidated reg 2(a) marks those paragraphs deleted. Do not reintroduce them from the guide.",
+        "Ceiling 39,900 applies to filings in 2026; re-check on 1.1.2027 indexation."
+      ]
+    }
+  ]
+}

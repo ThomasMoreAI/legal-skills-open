@@ -1,0 +1,4 @@
+interface:
+  display_name: "Case Law Analyst"
+  short_description: "Extract holdings, ratio, and case treatment"
+  default_prompt: "Use $case-law-analyst to turn these judgments into source-verified case notes covering facts, issues, holdings, ratio, obiter, treatment, and application."

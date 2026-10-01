@@ -1,0 +1,29 @@
+{
+  "_commento": "Copia questo file in ~/.claude/legal-it/studio.json (o nella cartella di lavoro come studio.json) e sostituisci i dati di esempio con quelli reali. Il file con i dati reali NON va mai committato nel repository del plugin.",
+  "mandante": {
+    "denominazione": "Esempio S.r.l.",
+    "sede": "via Roma n. 1 – 20100 Milano (MI)",
+    "cf_piva": "00000000000",
+    "brand": "Esempio Brand"
+  },
+  "firmatario": {
+    "nome": "Mario Rossi",
+    "cf": "RSSMRA70A01F205X",
+    "qualifica": "legale rappresentante"
+  },
+  "difensori": [
+    { "nome": "Giulia Bianchi", "cf": "BNCGLI80A41F205Y" },
+    { "nome": "Paolo Verdi", "cf": "VRDPLA75B02F205Z" }
+  ],
+  "studio": {
+    "domicilio": "corso Esempio n. 10 – 20100 Milano (MI)",
+    "pec": "g.bianchi@pec.esempio.it e p.verdi@pec.esempio.it",
+    "fax": "020000000"
+  },
+  "quotazioni": {
+    "cliente_indirizzo": "via Roma n. 1; 20100 - Milano",
+    "difensori_firmatari": ["Avv. Giulia Bianchi", "Avv. Paolo Verdi"],
+    "accettazione_denominazione": "Esempio S.r.l. (Esempio Brand)",
+    "livello_default": "minimi"
+  }
+}

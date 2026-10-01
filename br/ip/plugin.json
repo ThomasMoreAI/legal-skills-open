@@ -1,0 +1,17 @@
+{
+  "name": "br-ip",
+  "displayName": "Intellectual Property — Brazil",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "ip",
+  "language": "en",
+  "skills": [
+    "skills/cold-start-interview-bossmann007",
+    "skills/fto-triage-bossmann007",
+    "skills/infringement-triage-bossmann007",
+    "skills/portfolio-bossmann007"
+  ]
+}

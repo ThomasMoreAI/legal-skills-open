@@ -1,0 +1,14 @@
+{
+  "name": "in-employment",
+  "displayName": "Employment & Labor — India",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/investigation-report-drafter-rohasnagpal"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "it-securities",
+  "displayName": "Securities — Italy",
+  "version": "0.1.0",
+  "description": "Securities skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "securities",
+  "language": "it",
+  "skills": [
+    "skills/analisi-delibere-consob-capazme",
+    "skills/novita-consob-capazme"
+  ]
+}

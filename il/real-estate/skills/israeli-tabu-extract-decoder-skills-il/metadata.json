@@ -1,0 +1,69 @@
+{
+  "author": "skills-il",
+  "version": "1.2.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "נסח טאבו",
+      "רישום מקרקעין",
+      "הערת אזהרה",
+      "עיקול",
+      "בית משותף",
+      "ישראל"
+    ],
+    "en": [
+      "land registry extract",
+      "land registration",
+      "caveat",
+      "attachment",
+      "condominium",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "פענוח נסח טאבו",
+    "en": "Israeli Tabu Extract Decoder"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. קורא נסח טאבו ומסביר אותו שורה אחר שורה: מי רשום ובאיזה חלק, מה המשמעות של כל משכנתה, עיקול, הערת אזהרה, הערה לפי סעיף 128, זיקת הנאה והצמדה, ואילו ממצאים בדרך כלל מצדיקים פנייה לעורך דין לפני חתימה. גם עוזר להבין אם הנכס בכלל רשום בפנקסי המקרקעין, כי חלק גדול מהדירות בישראל מוחזקות במשטרי רישום אחרים ואין להן נסח בכלל. מתאים כשמדביקים נסח ולא מבינים אותו, כששואלים מה זו הערת אזהרה או עיקול שרשומים עליו, כשהשטח הרשום לא מסתדר עם מה שפורסם במודעה, או כשלא מוצאים את הדירה בטאבו. חשוב כי הנסח הוא ראיה חותכת רק במקרקעין מוסדרים, ובמקרקעין לא מוסדרים הוא ראיה לכאורה בלבד. אל תשתמשו להערכת שווי (יש israeli-property-appraisal), למס רכישה או ליווי עסקה (יש israeli-real-estate), או כדי לקבוע אם הזכויות תקינות ואם כדאי לקנות.",
+    "en": "Not legal advice. Reads an Israeli land registry extract (nesach tabu) and explains it line by line: who is registered and in what share, what each mortgage and its rank, attachment, caveat, consent-required note, easement and attachment of common property actually means, and which findings normally warrant a lawyer before signing. It also works out whether the property is in the register at all, since a large share of Israeli homes are held through other regimes and have no extract. Use when a user pastes or describes an extract, asks what an he'arat azhara or an ikul recorded on it means, asks why the registered area differs from the advertised one, or cannot find their apartment in the register. It matters because an extract is conclusive evidence only for settled land and merely prima facie evidence otherwise, and because a caveat is routinely mistaken for ownership. Do NOT use to value a property (use israeli-property-appraisal), for purchase tax or transaction guidance (use israeli-real-estate), or to decide whether title is good or whether to buy, which is the practice of law."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/land_registration_extract",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

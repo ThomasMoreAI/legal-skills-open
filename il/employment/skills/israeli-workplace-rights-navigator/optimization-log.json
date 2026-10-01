@@ -1,0 +1,70 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-06-25",
+      "lessons": [
+        "Dmei havra'a 451.5 increase signed 2026-06-22, pending Ministry of Labor extension order; flip 418->451.5 next cycle if tzav harchava signed.",
+        "Deferred MAJOR: maternity birth-allowance daily cap figure - add when verified against btl.gov.il.",
+        "Deferred MINOR: dmei nesia daily cap, annual-leave pidyon statute-of-limitations."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-06-26",
+      "round": "judge+expert fix-round",
+      "lessons": [
+        "CRITICAL fixed: added travel reimbursement (dmei nesia) as Step 12 - 2026 daily cap WebFetch-confirmed at 22.60 NIS/day from kolzchut.org.il/he/החזר_הוצאות_נסיעה; lower-of-actual-fare-or-cap rule + close-workplace carve-out documented.",
+        "CRITICAL fixed: pregnancy-dismissal permit (Employment of Women Law s.9(a)) now conditioned on >=6 months tenure in both Step 5 and Step 9; below 6 months reframed as a discrimination question (Equal Opportunities), not a permit question. Verbatim Hebrew snippet from kolzchut piturim-of-pregnant-employee page.",
+        "JUDGE-BROKEN fixed: public-sector dmei havra'a corrected 471.4 -> 511.6 NIS/day (2026) across SKILL.md, SKILL_HE.md, references/entitlements-calculator.md, references/labor-laws-summary.md. WebFetch-confirmed.",
+        "MAJOR fixed: severance income-tax exemption ceiling 13,750 NIS/year (2026, WebFetch-confirmed) added to Step 6 + reference; pay slip (tlush) as a standalone right under Wage Protection Law s.24 added to Step 12 + laws summary; Bituach Leumi pointers for dmei avtala + nifgaei avoda added to Step 12.",
+        "Deferred MINOR (not blocking, address on next substantive update): festival pay (chag) entitlement; youth (under-18) minimum wage scale; overtime weekly-cap liberalization (the 16h weekly-overtime reform); a Section-14 effective-amount line in the severance script that nets the 8.33% fund balance against the 1-month-per-year statutory amount.",
+        "Process note: kolzchut Hebrew-slug URLs 404 via WebFetch on percent-decoded form; fetch with the percent-ENCODED slug, or use WebSearch allowed_domains=kolzchut.org.il to surface the canonical encoded URL first."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-07-26",
+      "lessons": [
+        "CRITICAL fixed: mandatory pension severance rate was stated as 8.33% (total 20.83%) as if statutory. The extension-order minimum is 6% (total 18.5%); 8.33% is only what a FULL Section 14 release requires. Corrected in SKILL.md, SKILL_HE.md, both references, and the script default (was 8.33, now 6.0). This hid the hashlamat-pitzuyim completion claim.",
+        "CRITICAL fixed: child sick days for a child with a serious illness or permanent disability was 16, correct figure is 18. Also corrected 'per child' to 'per parent' (the 8-day quota does not multiply by number of children and does not scale with position scope).",
+        "CRITICAL fixed: halanat sachar/pitzuyim 60-day limitation (extendable to 90, or 1 year from the sum falling due) was absent while the skill told users four times to demand the penalty. Advice that forfeits a right. Now in Gotchas (both languages), the reference, and the script reminders.",
+        "CRITICAL fixed: vacation redemption was described as uncapped; added the current-year-plus-two accrual cap and the 3-year limitation.",
+        "CRITICAL fixed: added kitav vitur (waiver) warning at the exit meeting, absent entirely.",
+        "CRITICAL fixed (into references/entitlements-calculator.md, new 'Termination: getting the money out' section): Section 14 validity test, the Form 161/161A release chain and the retzef election, proportional havra'a on termination, chalef hoda'a mukdemet, study-fund release, dmei avtala parameters with the registration-date trap, the shimua remedy (non-pecuniary damages without proof of damage), per-claim limitation periods, labour-court jurisdiction and the small-claims exclusion, and the BTL insolvency guarantee.",
+        "CHECKER fixed: the live havraa-pay calculator still used the public-sector rate 471.4 that the previous cycle corrected to 511.6 in the skill files. Frozen-checker drift. Corrected on prod and dev, golden case 12 years/public updated 3771.2 -> 4092.8, and a caveat added covering the pending private-sector rise.",
+        "DEAD LINKS fixed: gov.il/departments/labor_courts_in_israel and .../ministry_of_labor_social_affairs_and_social_services are hard 404s (verified in a browser), not merely bot-blocked as the previous cycle's evidence recorded. Replaced with Kol Zchut's regional-labour-courts page and gov.il/he/pages/aboutlabor.",
+        "SCRIPT fixed: salary-history mode parsed the history then discarded it (returned last_salary * total_years regardless). Now computes both the per-period and last-salary methods and reports the higher, which matters for salary or scope REDUCTIONS. Section 14 summary no longer contradicts its own analysis by printing the higher number as 'effective'.",
+        "CARRY (still open): private-sector dmei havra'a extension order for the 22.6.2026 agreement raising 418 -> 451.5 is STILL unsigned as of 2026-07-26 (a notice of intent was published 6.7.2026). 418 remains the universal binding rate. Flip when the tzav harchava is signed; it applies retroactively.",
+        "CARRY (deferred MAJOR): rest-day overtime stacking (175%/200%) and dmei chagim (9 festival days for hourly employees after 3 months) still not covered.",
+        "CARRY (deferred MAJOR): fixed-term contracts, the 75-consecutive-day part-time leave threshold with its 4% supplement, the under-18 flat 18 leave days, and the youth minimum-wage scale (26.07/27.94/30.92 per hour at 1.4.2026, unverified here) are all still missing rate-table rows.",
+        "CARRY (deferred MAJOR): the ~15 enumerated qualifying resignations (hitpatrut b'din mefuteret) are compressed to 3, and the har'a muchshit precondition of prior written warning is not stated.",
+        "CARRY: there is still NO references/domain-checklist.md. The coverage audit had to derive a Must-cover list from Kol Zchut's siyum-yachasei-avoda index. Create the checklist next cycle so audits have a contract to diff against.",
+        "Process lesson: a Hebrew string-slice edit used a Step 12 heading that did not match the file, so find() returned -1 and the slice duplicated half the document (parity jumped 29 -> 46). Restored from git and re-applied every Hebrew edit through an assert-on-anchor helper. Never slice on an unasserted find().",
+        "Process lesson: two agent-supplied figures were rejected after checking primary sources: the reservist-spouse 2/4/8 day scale could not be corroborated (kept the entitlement, dropped the numbers), and the claimed dismissal-protection duration conflicted between sources.",
+        "PANEL ROUND 2 fixes: evidence.json schema was split (6 new claims used id/source_fetched_at while 33 used claim_id/fetched_at, so claim_id-keyed tooling silently skipped exactly the new high-risk claims). Normalised to claim_id/fetched_at throughout.",
+        "PANEL ROUND 2: the two pension evidence claims contradicted each other (one still asserting 8.33% as statutory) and BOTH had bad sources: one URL was a hard 404 and the other page did not contain 18.5/6.5/8.33 at all. Collapsed to a single claim sourced to kolzchut.org.il/he/ביטוח_פנסיוני_לעובדים, which carries the figures verbatim.",
+        "PANEL ROUND 2: I had OVERSTATED the child sick-day right. 'Each parent has their own separate 8 days / a household has 8+8' is wrong; the source conditions the second parent's quota on them also working AND not taking leave for the child on the same days. Corrected in all three files.",
+        "PANEL ROUND 2: the 90-day malignant-illness entitlement is up to 90 days EACH where both parents take leave, not a shared pool as the reference said (understated by half); and the 110-day row is conditioned on the OTHER parent not taking leave, not on single-parent status.",
+        "PANEL ROUND 2: Form 161A is the superseded process. Current practice is Part A (employer) and Part B (employee) of the unified Form 161.",
+        "PANEL ROUND 2: the convalescence rate-history table had two wrong rows (2023|378, 2024|400); the source says 378 in 2022 and 418 for 2023-2025. 400 appears nowhere.",
+        "PANEL ROUND 2: removed unverifiable figures rather than shipping them: short sick certificate caps, the 10-consecutive-reserve-days carry-forward threshold, unemployment 5 waiting days and the 90-day resignation penalty, the '2026' miscarriage ruling year, and the harassment mazminey-sherut change year. Retirement age for women no longer stated as a flat 65 (it rises by birth cohort).",
+        "PANEL ROUND 2: HE/EN parity restored on substance, not just headings. HE Examples 2 and 4 previously lacked the Section 14 deposit-rate/completion-payment point, the 60-day limitation, damages-without-proof-of-damage and the pay-in-lieu accrual point; the HE Bundled Resources row still described the reference as seniority tables only.",
+        "PANEL ROUND 2 script: --fund-balance 0 was treated as 'not supplied' via a truthiness test, so an employee whose employer deposited NOTHING got no completion-payment analysis. Now `is not None`.",
+        "PROCESS: three separate edit batches silently lost their work because a multi-edit script asserted mid-way and exited before the single write at the end. Write after EACH edit, or collect and report skips, rather than all-or-nothing at the end. This is how the Bundled Resources routing fix was 'applied' twice and landed zero times.",
+        "PROCESS: the 5,000-word cap fought every correction this cycle. Expanding the Bundled Resources description alone cost ~35 words and pushed the file over three times. Consider splitting this skill or moving Steps 10-12 wholesale into references next cycle."
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-19",
+      "lessons": [
+        "Expert MAJOR deferred: holiday (chag) pay is not distinguished from the weekly rest day premium anywhere in the skill; the rates differ in practice and users conflate them.",
+        "Expert MAJOR deferred: global overtime pay arrangements (gmul globali) are not covered; they are common in Israeli contracts and change how the new 175/200 rows are actually applied.",
+        "Expert MAJOR deferred: employing a youth on the weekly rest day is unlawful, but the employer still owes the overtime premium. This sits exactly at the intersection of this cycle's two additions and should be stated next cycle.",
+        "Validator headroom is the binding constraint on this skill: EN body was ~4,990 words at HEAD against a 5,000 cap, so every addition this cycle had to be paid for by condensing pre-existing prose. HE body remains over the soft cap (5,107 vs 5,000) and predates this cycle. Next substantive update should move a whole step (Step 5, the largest at ~500 words) into references/ rather than shaving sentences.",
+        "29 of 45 evidence source URLs are kolzchut pages that are Cloudflare-blocked to plain fetch and can only be verified through the browser. This cycle browser-verified the 16 new claims plus the 4 pre-existing overtime claims; the remaining 25 pre-existing unreachable claims were carried on --allow-unreachable and have not been browser-verified since they were written."
+      ]
+    }
+  ]
+}

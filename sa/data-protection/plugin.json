@@ -1,0 +1,14 @@
+{
+  "name": "sa-data-protection",
+  "displayName": "Data Protection — Saudi Arabia",
+  "version": "0.1.0",
+  "description": "Data Protection skills under the law of Saudi Arabia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/pdpl-compliance-salmandev"
+  ]
+}

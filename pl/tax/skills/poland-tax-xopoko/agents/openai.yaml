@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Tax"
+  short_description: "Poland Tax: run focused tasks"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Legal Readiness"
+  short_description: "Audit legal claims, evidence, controls, and launch gates."
+  default_prompt: "Use $legal-readiness to build an evidence-first legal readiness audit for this project, close code-level gaps, and surface counsel or operational blockers."

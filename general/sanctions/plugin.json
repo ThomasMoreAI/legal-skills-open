@@ -1,0 +1,14 @@
+{
+  "name": "general-sanctions",
+  "displayName": "Sanctions & Export Controls — jurisdiction-neutral",
+  "version": "0.1.0",
+  "description": "Sanctions & Export Controls skills not tied to one country's law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "sanctions",
+  "language": "en",
+  "skills": [
+    "skills/sanctions-screening-documenter-rohasnagpal"
+  ]
+}
