@@ -11,9 +11,7 @@
   "skills": [
     "skills/jurisprudence",
     "skills/raisonnement-juridique-amaury-fouret",
-    "skills/raisonnement-juridique-amaury-fouret-lawve-ai",
     "skills/recherche-jurisprudence-librejustice",
-    "skills/recherche-jurisprudence-librejustice-lawve-ai",
     "skills/recherche-normes-librejustice"
   ]
 }
