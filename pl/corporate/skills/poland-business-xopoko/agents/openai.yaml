@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Business"
+  short_description: "Poland Business: run focused tasks"
+policy:
+  allow_implicit_invocation: false

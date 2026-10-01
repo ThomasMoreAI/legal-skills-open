@@ -1,0 +1,15 @@
+{
+  "name": "in-government-contracts",
+  "displayName": "Government Contracts & Procurement — India",
+  "version": "0.1.0",
+  "description": "Government Contracts & Procurement skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "government-contracts",
+  "language": "en",
+  "skills": [
+    "skills/government-contract-reviewer-rohasnagpal",
+    "skills/tender-compliance-checker-rohasnagpal"
+  ]
+}

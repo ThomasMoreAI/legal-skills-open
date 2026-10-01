@@ -1,0 +1,182 @@
+{
+  "_meta": {
+    "source": "Comisión para el Esclarecimiento de la Verdad (CEV) — Informe Final 'Hay Futuro Si Hay Verdad' (2022)",
+    "primary_dataset": "Proyecto conjunto JEP-CEV-HRDAG (Patrick Ball / HRDAG): integración + deduplicación + estimación estadística (captura-recaptura / multiple-systems estimation) sobre 112 bases de datos de 42 instituciones",
+    "note": "Estimated figures correct for subregistro (under-counting), treated as a measurable object. Where the report prints two figures for the same item, both are noted.",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "statistics": [
+    {
+      "key": "total_victims",
+      "label": "Total victims of the armed conflict",
+      "documented": "~9,000,000",
+      "estimated": null,
+      "period": "1985-2021",
+      "civilian_share": "≈90% civilians",
+      "responsibility": null,
+      "source": "Registro Único de Víctimas (RUV) / CEV",
+      "notes": "The Declaration frames non-combatant civilians as the overwhelming majority of victims."
+    },
+    {
+      "key": "homicides",
+      "label": "Homicides / deaths in the conflict",
+      "documented": 450664,
+      "estimated": "~800,000",
+      "period": "1985-2018",
+      "responsibility": {"paramilitaries": "~45%", "guerrillas": "~27% (FARC-EP 21%)", "state_agents": "~12%", "ELN": "4%", "other/multiple": "~15%", "initial_unknown": "52%"},
+      "responsibility_overlap": "Categories OVERLAP and do not sum to 100% — 'guerrillas ~27%' already includes 'FARC-EP 21%' and 'ELN 4%'. Not a clean partition.",
+      "source": "JEP-CEV-HRDAG",
+      "notes": "Documented value 450,664 matches the bundled synthesis (HRDAG canonical integration figure); the report also prints 450,666 (l.8200) vs 450,664 (l.17051). Subregistro concentrated 1998-2004."
+    },
+    {
+      "key": "forced_disappearance",
+      "label": "Forced disappearance",
+      "documented": 121768,
+      "estimated": "~210,000 (range 204,395-225,410)",
+      "period": "1985-2016",
+      "responsibility": {"paramilitaries": "~52%", "FARC-EP": "~24%", "guerrillas_total": "27%", "state_agents": "~8%"},
+      "source": "JEP-CEV-HRDAG",
+      "notes": "Searchers (buscadoras) cite a running figure of 110,000+. Of CNMH's 80,670 registered, only 12.5% found."
+    },
+    {
+      "key": "kidnapping",
+      "label": "Kidnapping / hostage-taking",
+      "documented": 50770,
+      "estimated": "~80,000",
+      "period": "1990-2018",
+      "responsibility": {"FARC-EP": "~40% (principal)", "paramilitaries": "24%", "ELN": "~19%", "state_agents": "2%"},
+      "source": "JEP-CEV-HRDAG",
+      "notes": "Guerrillas are the principal kidnappers; 78% men, 22% women."
+    },
+    {
+      "key": "child_recruitment",
+      "label": "Recruitment of minors (NNA)",
+      "documented": 16238,
+      "estimated": "~30,000 (range 27,101-40,828)",
+      "period": "1990-2017",
+      "responsibility": {"FARC-EP": "~75% (principal)", "paramilitaries": "13%", "ELN": "9%", "state_force": "documented"},
+      "source": "JEP-CEV-HRDAG",
+      "notes": "≈44% were under 15 (a war crime under the Rome Statute). 11,314 boys / 4,924 girls. Ethnic minors over-represented."
+    },
+    {
+      "key": "forced_displacement",
+      "label": "Forced displacement (internal)",
+      "documented": 7752964,
+      "estimated": "RUV: >8,000,000 (8,273,562 by May 2022)",
+      "period": "1985-2019",
+      "responsibility": {"guerrillas": "~17%", "paramilitaries": "~12%", "state_in_RUV": "near-zero (flagged unreliable)", "unknown": "67%"},
+      "source": "JEP-CEV-HRDAG / RUV",
+      "notes": "The most generalized violation; ~1 in 6 Colombians; ~92% rural. The report's 'eight million'. Corte Constitucional T-025/2004 declared an estado de cosas inconstitucional."
+    },
+    {
+      "key": "exile",
+      "label": "Exile (forced departure abroad)",
+      "documented": ">1,000,000",
+      "estimated": "~2x prior estimates; itself an undercount",
+      "period": "1982-2020",
+      "responsibility": null,
+      "source": "CEV + UNHCR/ACNUR",
+      "notes": "RUV recognizes only 26,269 'victims abroad' (<2%). An invisibilized grave violation in itself. Top destinations: Ecuador, Venezuela, Spain, USA, Canada."
+    },
+    {
+      "key": "selective_assassinations",
+      "label": "Selective assassinations (asesinatos selectivos)",
+      "documented": "~178,000-179,076",
+      "estimated": null,
+      "period": "1958-2021",
+      "responsibility": {"paramilitaries": "42%", "guerrillas": "16%", "state_agents": "3%", "unknown": "35%"},
+      "source": "CNMH",
+      "notes": "'The elimination of those considered enemies was the most widespread way of making war in Colombia.' Peak 2002."
+    },
+    {
+      "key": "massacres",
+      "label": "Massacres (≥4 killed, defenseless)",
+      "documented": 4237,
+      "estimated": null,
+      "period": "1958-2019",
+      "responsibility": {"paramilitaries": "predominant, often with Fuerza Pública complicity", "guerrillas": "also (e.g. La Chinita, Bojayá)"},
+      "source": "CNMH",
+      "notes": "≈24,600 dead; affected ~62% of municipalities; peak year 2001 (405); most-affected dept Antioquia (29%)."
+    },
+    {
+      "key": "extrajudicial_executions",
+      "label": "'Falsos positivos' (extrajudicial executions presented as combat kills)",
+      "documented": "at least 6,402",
+      "estimated": "Commission believes higher",
+      "period": "2002-2008",
+      "responsibility": {"state_fuerza_publica": "principal (Ejército Nacional), sometimes with paramilitary support"},
+      "source": "JEP Auto 033/2021, Caso 03",
+      "notes": "A crime of State. All Army divisions implicated. The mothers' cry: '¿Quién dio la orden?'."
+    },
+    {
+      "key": "sexual_violence",
+      "label": "Sexual violence",
+      "documented": 32446,
+      "estimated": "massively under-reported (Casa de la Mujer: 82% never reported)",
+      "period": "1958-2021",
+      "responsibility": {"paramilitaries": "cruelest, deliberate terror", "guerrillas": "incl. reproductive violence in ranks", "fuerza_publica": "by action and omission (peak 2006-2014)"},
+      "source": "RUV / CNMH",
+      "notes": "≈92% women and girls. Treated as a war crime and crime against humanity, not 'desire'."
+    },
+    {
+      "key": "antipersonnel_mines",
+      "label": "Antipersonnel mine / UXO victims",
+      "documented": "~9,910",
+      "estimated": null,
+      "period": "1991-2017",
+      "responsibility": {"FARC-EP": "~42% (principal)", "ELN": "~7%", "state": "~0.1%"},
+      "source": "CNMH",
+      "notes": "Used predominantly by guerrillas; the only indiscriminate attack with continuous increase. ~60% of victims were security forces."
+    },
+    {
+      "key": "confinement",
+      "label": "Confinement (confinamiento)",
+      "documented": ">351,000",
+      "estimated": null,
+      "period": "2013-2022 (OCHA monitoring)",
+      "responsibility": null,
+      "source": "OCHA",
+      "notes": "A modality of displacement (Corte Constitucional Auto 005/2009): communities lose mobility/autonomy over their territory. Concentrated in Pacífico/border zones; ethnic populations."
+    },
+    {
+      "key": "land_dispossession",
+      "label": "Land dispossessed / abandoned",
+      "documented": ">8,000,000 hectares",
+      "estimated": null,
+      "period": "incl. 1995-2004 (PPTP)",
+      "responsibility": {"paramilitaries_narcos": "contrarreforma agraria; ~4.4M ha controlled by 2005"},
+      "source": "PPTP / Contraloría / CGR",
+      "notes": "RUV registers only 31,863 despojo-violento victims (gross undercount). Colombia among 10 most land-unequal countries on earth."
+    },
+    {
+      "key": "union_patriotica",
+      "label": "Unión Patriótica political genocide",
+      "documented": "~5,000+ (4,934-5,382, 95% CI)",
+      "estimated": "~8,300 (CEV-JEP study)",
+      "period": "1984-2005",
+      "responsibility": {"paramilitaries_state": "genocidio político / politicidio"},
+      "source": "CEV / CNMH",
+      "notes": "Recognized as a political genocide; included a JEP macrocase (06)."
+    },
+    {
+      "key": "victim_concentration",
+      "label": "Temporal concentration of victims",
+      "documented": "~75% of registered victims fall in 1996-2010",
+      "estimated": null,
+      "period": "1996-2010",
+      "responsibility": null,
+      "source": "CEV",
+      "notes": "Massacres peaked 1998-2002; falsos positivos peaked 2006-2008. The violence peaked as the war 'de-escalated', not at its start."
+    },
+    {
+      "key": "post_accord_violence",
+      "label": "Violence after the 2016 Peace Accord",
+      "documented": "315+ FARC-EP ex-combatants killed (27 disappeared); 1,327+ social leaders/defenders killed",
+      "estimated": null,
+      "period": "2016-2022",
+      "responsibility": null,
+      "source": "UN Verification Mission / Indepaz",
+      "notes": "Evidence the conflict persists ('esta guerra está viva'). Colombia #1 worldwide for HR-defender killings since 2016."
+    }
+  ]
+}

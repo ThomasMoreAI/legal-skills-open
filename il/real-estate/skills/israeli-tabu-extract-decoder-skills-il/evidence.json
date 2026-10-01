@@ -1,0 +1,442 @@
+{
+  "skill_slug": "israeli-tabu-extract-decoder",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-11",
+  "method": "Every snippet sliced directly from the rendered he.wikisource page for the cited instrument, so each is byte-contiguous at its source. gov.il service pages were deliberately NOT cited: they return 403 to plain requests AND serve an interstitial to a headless browser, so nothing on them could be verified first-hand. Procedural detail that lives only on those pages is routed to the user rather than asserted.",
+  "claims": [
+    {
+      "claim_id": "mekarkein-s125a-conclusive",
+      "claim": "For SETTLED land (mekarkein musdarim), registration in the registers is CONCLUSIVE evidence of its content. [סעיף 125]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "רישום בפנקסים לגבי מקרקעין מוסדרים יהווה ראיה חותכת לתכנו",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Half of the single most important distinction in this skill. Paired with 125(b) below."
+    },
+    {
+      "claim_id": "mekarkein-s125b-prima-facie",
+      "claim": "For UNSETTLED land (mekarkein lo musdarim), registration is only PRIMA FACIE evidence of its content. [סעיף 125]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "רישום בפנקסים לגבי מקרקעין לא־מוסדרים יהווה ראיה לכאורה לתכנו.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The other half. A decoder that treats every extract as conclusive overstates what the document proves for a large class of properties. Establish which register the extract came from before characterising its weight."
+    },
+    {
+      "claim_id": "mekarkein-s124-public",
+      "claim": "The registers kept at the office are open to public inspection, and any person may inspect them and obtain copies. [סעיף 124]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "הפנקסים המתנהלים בלשכה יהיו פתוחים לעיון הציבור, וכל אדם רשאי לעיין בהם ולקבל העתקים מן הרשום בהם.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Explains why an extract for land in Israel proper is orderable by anyone with no ownership link."
+    },
+    {
+      "claim_id": "mekarkein-s7-registration",
+      "claim": "A land transaction requires registration and is COMPLETED by registration; the hour the Registrar approved it for registration is treated as the hour of registration. [סעיף 7]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "עסקה במקרקעין טעונה רישום; העסקה נגמרת ברישום, ורואים את השעה שבה אישר הרשם את העסקה לרישום כשעת הרישום.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The conceptual reason a caveat exists and why a signed contract alone never appears as ownership on the extract."
+    },
+    {
+      "claim_id": "mekarkein-s126-caveat",
+      "claim": "A caveat is registered where an owner, or a holder of a lease, loan-for-use, easement, pre-emption right or mortgage, undertook IN WRITING to transact or to refrain from transacting. [סעיף 126]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "התחייב בכתב לעשות בהם עסקה, או להימנע מעשות בהם עסקה, ירשום הרשם, על פי בקשת מי שהתחייב או מי שזכאי לפי ההתחייבות (להלן – הזכאי), הערה על כך",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Defines what a caveat records: an undertaking, not a proprietary right."
+    },
+    {
+      "claim_id": "mekarkein-s127a-blocking",
+      "claim": "While a caveat is registered and not erased, no transaction contradicting its content may be registered, absent the beneficiary's consent or a court order. [סעיף 127]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "נרשמה הערת אזהרה וכל עוד לא נמחקה, לא תירשם עסקה הסותרת את תוכן ההערה, אלא בהסכמת הזכאי או לפי צו בית המשפט.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The blocking effect. This is what a caveat DOES."
+    },
+    {
+      "claim_id": "mekarkein-s127b-insolvency",
+      "claim": "Where a caveat is registered and an attachment, bankruptcy receiving order, winding-up order or receivership follows, none of those prejudices the beneficiary's rights under the underlying undertaking while the caveat stands, subject to an avoidance claim that would have stood had the transaction been completed on time. [סעיף 127]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "נרשמה הערת אזהרה ולאחר מכן הוטל עיקול על המקרקעין או על הזכות במקרקעין נשוא ההערה, או שניתן צו לקבלת נכסים בפשיטת רגל או צו פירוק נגד בעל המקרקעין או בעל הזכות במקרקעין, או שנתמנה כונס נכסים על רכושו, הרי כל עוד לא נמחקה ההערה, לא יהיה בכל אלה כדי לפגוע בזכויות הזכאי הנובעות מההתחייבות נשוא ההערה, ובלבד שטענה לביטול העסקה מחמת פשיטת הרגל או הפירוק שהיתה עומדת אילו בוצעה העסקה במועדה, תעמוד גם נגד ההתחייבות האמורה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The insolvency shield, and the most commonly garbled provision in this domain. Note it is subject to the avoidance carve-out, which most summaries drop."
+    },
+    {
+      "claim_id": "mekarkein-s128-consent",
+      "claim": "Where transacting is conditioned, by statute, court order, or the owner's written undertaking, on a third party's consent, the Registrar registers a note to that effect at the third party's request. [סעיף 128]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "עשיית עסקה בידי בעל המקרקעין או בעל זכות במקרקעין מותנית – על פי חיקוק, על פי צו של בית משפט או על פי התחייבות בכתב של הבעל – בהסכמתו של צד שלישי, ירשום הרשם, לפי בקשת הצד השלישי, הערה על כך",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Very common in practice: the Israel Land Authority, a housing company, or a bank sits behind this note."
+    },
+    {
+      "claim_id": "mekarkein-s3-lease",
+      "claim": "A lease for a period exceeding five years is called chakira; exceeding twenty five years, chakira ledorot. [סעיף 3]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "שכירות לתקופה שלמעלה מחמש שנים תיקרא ”חכירה“; שכירות לתקופה שלמעלה מעשרים וחמש שנים תיקרא ”חכירה לדורות“.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "A property whose registered owner is the State with the resident as chocher ledorot is a normal registered right, not a defect."
+    },
+    {
+      "claim_id": "mekarkein-s5-easement",
+      "claim": "An easement is a charge on land for a benefit that carries NO right to possess it. [סעיף 5]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "זיקת הנאה היא שעבוד מקרקעין להנאה שאין עמה זכות להחזיק בהם.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The 'no possession' limb is what distinguishes an easement from a lease on the face of an extract."
+    },
+    {
+      "claim_id": "mekarkein-s85b-mortgage",
+      "claim": "A transaction the owner makes after mortgaging does not detract from the mortgagee's right to realise the mortgage, and has no effect against a person who acquired the land in execution of it. [סעיף 85]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "עסקה שבעל המקרקעין עשה בהם לאחר שמושכנו, אין בה כדי לגרוע מזכותו של בעל המשכנתה לממש אותה, ואין לעסקה כזאת תוקף כלפי מי שרכש את המקרקעין בהוצאה לפועל של המשכנתה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Explains the practical consequence of a registered mortgage for anyone dealing with the owner afterwards."
+    },
+    {
+      "claim_id": "mekarkein-s86-rank",
+      "claim": "Where land is mortgaged at different ranks and one is redeemed, the owner may substitute another mortgage at the SAME rank, if the later mortgage's terms so provide. [סעיף 86]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "מושכנו מקרקעין במשכנתאות מדרגות שונות ונפדתה אחת מהן, רשאי בעל המקרקעין להביא במקומה משכנתה אחרת מאותה דרגה, אם נקבעה זכות כזאת בתנאי המשכנתה שלאחריה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "'The first mortgage was paid off' therefore does NOT automatically mean rank one is free. A vacant rank can be refilled."
+    },
+    {
+      "claim_id": "mekarkein-s57a-share",
+      "claim": "The share in the common property attached to each unit is the ratio of its floor area to the total floor area of all units, unless the bylaws provide otherwise, computed in hundredths. [סעיף 57]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "שיעורו של החלק ברכוש המשותף הצמוד לכל דירה יהיה לפי יחס שטח רצפתה אל שטח הרצפה של כל הדירות שבבית המשותף, זולת אם נקבע בתקנון שיעור אחר; בחישוב שיעורו של חלק כאמור לא יעברו את תחום חלקי המאה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Explains why the 'chalakim barechush hameshutaf' fraction rarely matches an intuition about size."
+    },
+    {
+      "claim_id": "mekarkein-s62c-binds",
+      "claim": "Bylaws and any amendment are registrable, and once registered they bind a person who later becomes a unit owner. [סעיף 62]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "תקנון וכל שינוי בו ניתנים לרישום, ומשנרשמו, כוחם יפה גם כלפי אדם שנעשה בעל דירה לאחר מכן.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "So an attachment a seller promised but which is not in the registered bylaws does not pass to the buyer."
+    },
+    {
+      "claim_id": "agrot-merukaz-item",
+      "claim": "The fee schedule contains a distinct item for a consolidated extract of the apartments in a condominium, which establishes nesach merukaz as a separate extract category.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "בעד נסח מרוכז של הדירות בבית משותף",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Used to substantiate the extract taxonomy from a primary instrument, because the government service pages that describe the types could not be fetched (they block both plain requests and a headless browser)."
+    },
+    {
+      "claim_id": "agrot-electronic-item",
+      "claim": "The fee schedule contains an item for an extract delivered as an electronic message bearing a SECURED ELECTRONIC SIGNATURE, establishing the signed-electronic extract as its own category.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "מסר אלקטרוני החתום בחתימה אלקטרונית מאובטחת",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Substantiates that the electronically signed extract is a distinct, recognised form. The skill does NOT assert the printed-copy rule, which could not be verified from a fetchable source."
+    },
+    {
+      "claim_id": "mekarkein-s55c-attachment-limits",
+      "claim": "Apartment owners may provide in the bylaws that a specified part of the common property is attached to a particular apartment, but NEVER in respect of stairwells, lifts, shelters, and installations intended to serve all owners; once attached, the part is treated in all respects as part of that apartment. [סעיף 55]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בעלי הדירות רשאים לקבוע בתקנון, כמשמעותו בסימן ג׳ לפרק זה (להלן – התקנון), שחלק מסויים של הרכוש המשותף יהיה צמוד לדירה פלונית, ובלבד שלא יקבעו זאת ביחס לחדרי מדרגות, מעלית, מקלטים ומיתקנים המיועדים לשמש את כל בעלי הדירות; הוצמד חלק מסויים מהרכוש המשותף לדירה פלונית, לא יחולו עליו הוראות פרק זה בנוגע לרכוש המשותף, ודינו לכל דבר כדין הדירה שאליה הוצמד.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Added after a pre-push expert review found the skill discussed הצמדה without citing the provision that governs it. This is THE section for a buyer asking about a parking attachment: it is both the power to attach and the list of things that can never be attached, so it is the only rule by which an impossible 'attachment' can be identified."
+    },
+    {
+      "claim_id": "mekarkein-s125a-settlement-proviso",
+      "claim": "Conclusive evidence for settled land does not derogate from ss.93-97 of the Land Rights Settlement Ordinance.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "אולם אין בכך כדי לגרוע מהוראות סעיפים 93 עד 97 לפקודת הסדר זכויות במקרקעין",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s127b-bankruptcy-carveout",
+      "claim": "The s.127(b) carve-out is limited to an avoidance claim on bankruptcy or winding-up grounds.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "ובלבד שטענה לביטול העסקה מחמת פשיטת הרגל או הפירוק שהיתה עומדת אילו בוצעה העסקה במועדה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s129-capacity-note",
+      "claim": "סעיף 129: s.129 provides for a note where a person's legal capacity was removed or restricted.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "כי כשרותו המשפטית של בעל מקרקעין או של בעל זכות במקרקעין נשללה או הוגבלה על פי חוק, ירשום הרשם",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s130-court-note",
+      "claim": "סעיף 130: s.130 lets a court order a note in any proceeding concerning a right in land.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בית המשפט רשאי, בכל הליך שלפניו בענין זכות במקרקעין, להורות על רישום הערה כפי שנקבע.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s131-blocking",
+      "claim": "סעיף 131: s.131: while a note under s.128, 129 or 130 stands, no contradicting transaction is registered.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "לא תירשם עסקה הסותרת את תוכן ההערה, כל עוד לא נמחקה ההערה.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s132-deletion",
+      "claim": "סעיף 132: s.132(a): a note under ss.126, 128 or 129 is deleted by court order or when the Registrar is satisfied that the interested parties consented or its ground lapsed.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "תימחק על פי צו של בית משפט או אם הוכח, להנחת דעתו של הרשם, אחד מאלה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s57a-hundredths",
+      "claim": "s.57(a): the common-property share is not computed beyond hundredths (statutory, not merely practice).",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "בחישוב שיעורו של חלק כאמור לא יעברו את תחום חלקי המאה",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "mekarkein-s57b-balconies",
+      "claim": "s.57(b): balconies and external walls are excluded from floor area unless the bylaws provide otherwise.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "raw_snippet": "לא יובאו בחשבון שטחם של גזוזטראות ושל קירות חיצוניים",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-electronic-18",
+      "claim": "2026 fee for an electronically signed extract (including a consolidated one) is 18 NIS (item 7(a2), indexed; 15 NIS in 2016 terms).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "18 (15 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-certified-88",
+      "claim": "2026 fee for a certified paper extract is 88 NIS (item 7(a)).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "88 (74 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-2026-merukaz-154",
+      "claim": "2026 fee for a paper consolidated condominium extract is 154 NIS (item 7(a1)).",
+      "claim_type": "amount",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "154 (130 ש״ח מתואם לשנת 2016)",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ]
+    },
+    {
+      "claim_id": "agrot-indexed-1-january",
+      "claim": "תקנה 2(ב) לתקנות המקרקעין (אגרות): fees are indexed on 1 January each year by the November CPI.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_המקרקעין_%28אגרות%29",
+      "raw_snippet": "סכומי האגרות לפי תקנת משנה (א) ישתנו ב־1 בינואר של כל שנה לפי שיעור השינוי של המדד",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "references/domain-checklist.md",
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "govil-extract-types-full",
+      "claim": "The registry offers a full regular extract containing all current registered information.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח רגיל מלא: כולל את כל המידע העדכני על הנכס כפי שרשום בפנקסי המקרקעין.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-extract-types-historical",
+      "claim": "The historical extract also includes deleted entries.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח היסטורי: כולל גם רישומים שנמחקו.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-extract-types-merukaz",
+      "claim": "The consolidated extract holds general information on all owners in a condominium.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נסח מרוכז: מכיל מידע כללי על כל בעלי הדירות בבית משותף.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-digital-original",
+      "claim": "The online extract is official and an original only in digital form, not when printed, and bears an approved electronic signature.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "הנסח רשמי ומוכר כמסמך מקורי רק בצורה דיגיטלית ולא כשהוא מודפס.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "govil-ordering-site",
+      "claim": "Extracts are ordered on the 'מקרקעין ברשת' site (mekarkein-online.justice.gov.il); an apostilled extract is also available.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/he/service/land_registration_extract",
+      "raw_snippet": "נכנסים לאתר מקרקעין ברשת.",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    },
+    {
+      "claim_id": "mekarkein-online-site",
+      "claim": "The ordering site mekarkein-online.justice.gov.il/voucher/main is the registry's online extract service.",
+      "claim_type": "url",
+      "source_url": "https://mekarkein-online.justice.gov.il/voucher/main",
+      "raw_snippet": "נסח היסטורי",
+      "confidence": "high",
+      "fetched_at": "2026-09-20T00:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/entry-types.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-20T00:30:00Z"
+    }
+  ]
+}

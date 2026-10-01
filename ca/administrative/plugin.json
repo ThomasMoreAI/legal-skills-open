@@ -1,0 +1,14 @@
+{
+  "name": "ca-administrative",
+  "displayName": "Administrative Procedure & Public Services — Canada",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills under the law of Canada.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ca",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/quebec-municipal-law-vezril"
+  ]
+}

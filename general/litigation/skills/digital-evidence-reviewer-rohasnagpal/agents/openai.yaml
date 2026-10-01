@@ -1,0 +1,4 @@
+interface:
+  display_name: "Digital Evidence Reviewer"
+  short_description: "Review digital authenticity and forensic gaps"
+  default_prompt: "Use $digital-evidence-reviewer to assess this digital evidence for provenance, integrity, acquisition, metadata, timeline, attribution, and admissibility gaps."

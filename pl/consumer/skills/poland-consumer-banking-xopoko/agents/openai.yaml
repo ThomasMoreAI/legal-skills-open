@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Consumer Banking"
+  short_description: "Poland Consumer Banking: run focused tasks"
+policy:
+  allow_implicit_invocation: false

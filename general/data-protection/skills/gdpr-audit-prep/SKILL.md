@@ -5,7 +5,7 @@ description: /cs:gdpr-audit-prep <scope> — GDPR audit 6-question Article-cited
 author: alirezarezvani
 author_url: https://github.com/alirezarezvani/claude-skills/tree/main/compliance-os/skills/gdpr-audit-prep
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -81,13 +81,13 @@ The GDPR DPO auditor pressure-tests any privacy compliance work. Six Article-cit
 
 ```bash
 # 1. Compliance posture
-python ../../ra-qm-team/skills/gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py compliance_state.json
+python ra-qm-team/skills/gdpr-dsgvo-expert/scripts/gdpr_compliance_checker.py compliance_state.json
 
 # 2. DPIA for high-risk activities
-python ../../ra-qm-team/skills/gdpr-dsgvo-expert/scripts/dpia_generator.py processing_activity.json
+python ra-qm-team/skills/gdpr-dsgvo-expert/scripts/dpia_generator.py processing_activity.json
 
 # 3. DSAR workflow validation
-python ../../ra-qm-team/skills/gdpr-dsgvo-expert/scripts/data_subject_rights_tracker.py dsar_log.json
+python ra-qm-team/skills/gdpr-dsgvo-expert/scripts/data_subject_rights_tracker.py dsar_log.json
 
 # 4. Cross-framework reuse with ISO 27001 + SOC 2 + ISO 42001
 python ../../skills/compliance-os/scripts/cross_framework_mapper.py program.json

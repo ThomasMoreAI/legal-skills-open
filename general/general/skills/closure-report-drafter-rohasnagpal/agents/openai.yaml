@@ -1,0 +1,4 @@
+interface:
+  display_name: "Closure Report Drafter"
+  short_description: "Close matters with decisions and obligations tracked"
+  default_prompt: "Use $closure-report-drafter to prepare the matter closure report, final client communication, disposition and retention schedule, financial reconciliation, and lessons note."

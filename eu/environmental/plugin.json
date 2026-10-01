@@ -1,0 +1,14 @@
+{
+  "name": "eu-environmental",
+  "displayName": "Environmental Law — European Union",
+  "version": "0.1.0",
+  "description": "Environmental Law skills under EU law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "environmental",
+  "language": "fr",
+  "skills": [
+    "skills/cfo-csrd-esg-ruddymoriarty"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "description": "Official central-government consultation and deadline discovery",
+  "source_name": "New Zealand Government consultations",
+  "source_url": "https://www.govt.nz/browse/engaging-with-government/consultations-have-your-say/consultations-listing/",
+  "allowed_hosts": [
+    "www.govt.nz"
+  ],
+  "freshness": "source-managed; deadlines time-sensitive",
+  "warnings": [
+    "This connector does not submit consultation responses.",
+    "Verify exact timezone and closing time in the linked consultation.",
+    "The cross-government listing is not necessarily exhaustive."
+  ],
+  "record_fields": {
+    "submission_action": "read-only",
+    "coverage_exhaustive": false,
+    "closing_timezone": "verify linked item"
+  },
+  "smoke_args": [
+    "open"
+  ],
+  "commands": {
+    "open": {
+      "help": "list open consultation resources"
+    },
+    "closing-soon": {
+      "help": "discover consultations closing soon",
+      "options": [
+        {
+          "flags": [
+            "--days"
+          ],
+          "type": "int",
+          "required": true
+        }
+      ]
+    },
+    "agency": {
+      "help": "filter by agency",
+      "positionals": [
+        {
+          "name": "name"
+        }
+      ]
+    },
+    "topic": {
+      "help": "filter by topic",
+      "positionals": [
+        {
+          "name": "query"
+        }
+      ]
+    },
+    "consultation": {
+      "help": "find a consultation identifier",
+      "positionals": [
+        {
+          "name": "id"
+        }
+      ]
+    },
+    "recently-closed": {
+      "help": "discover recently closed consultations"
+    }
+  },
+  "discovery_only": false
+}

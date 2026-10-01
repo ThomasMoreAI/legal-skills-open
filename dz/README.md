@@ -7,9 +7,10 @@ Algerian law — civil-law system of French lineage; legal texts are published i
 | Plugin | Practice | Skills |
 |---|---|---|
 | [`contracts/`](contracts/) | Contracts | 1 |
-| [`regulatory/`](regulatory/) | Regulatory & Compliance | 1 |
-| [`tax/`](tax/) | Tax | 1 |
-| [`white-collar/`](white-collar/) | White-Collar & Investigations | 1 |
+| [`corporate/`](corporate/) | Corporate | 1 |
+| [`regulatory/`](regulatory/) | Regulatory & Compliance | 2 |
+| [`tax/`](tax/) | Tax | 4 |
+| [`white-collar/`](white-collar/) | White-Collar & Investigations | 2 |
 
 Each plugin's `README.md` lists its skills; its `CLAUDE.md` gives the scope, sources of law,
 and citation rules the agent loads before running a skill. Skills are imported from open

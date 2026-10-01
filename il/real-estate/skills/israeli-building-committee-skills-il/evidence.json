@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-building-committee",
+  "generated_at": "2026-09-22T14:09:05.252768+00:00",
+  "claims": [
+    {
+      "claim_id": "s52-bayit-meshutaf",
+      "claim": "A bayit meshutaf is a building with two or more apartments registered in the condominium register (Land Law s.52, סעיף 52). Readable text: https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בית שיש בו שתי דירות או יותר והוא נרשם בפנקס הבתים המשותפים",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md"
+      ]
+    },
+    {
+      "claim_id": "s52-common-property",
+      "claim": "Common property includes the land, roofs, external walls, foundation, stairwells, elevators, shelters and heating or water installations serving all or most owners even when inside one apartment (Land Law s.52, סעיף 52).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ולרבות הקרקע, הגגות, הקירות החיצוניים, המסד, חדרי המדרגות, מעליות, מקלטים, וכן מיתקני הסקה או מים וכיוצא באלה המיועדים לשמש את כל בעלי הדירות או מרביתם אפילו הם בתחומי דירה מסויימת",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s55c-no-attach-stairs",
+      "claim": "Stairwells, the elevator, shelters and installations serving all owners cannot be attached to one apartment (Land Law s.55(c), סעיף 55).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ובלבד שלא יקבעו זאת ביחס לחדרי מדרגות, מעלית, מקלטים ומיתקנים המיועדים לשמש את כל בעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s57a-share",
+      "claim": "Each apartment's share in the common property follows its floor area relative to the floor area of all apartments, unless the takanon sets another rate (Land Law s.57(a), סעיף 57).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "שיעורו של החלק ברכוש המשותף הצמוד לכל דירה יהיה לפי יחס שטח רצפתה אל שטח הרצפה של כל הדירות שבבית המשותף, זולת אם נקבע בתקנון שיעור אחר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s57b-balconies",
+      "claim": "Balconies and external walls are not counted in the floor area unless the takanon provides otherwise (Land Law s.57(b), סעיף 57).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לא יובאו בחשבון שטחם של גזוזטראות ושל קירות חיצוניים, אלא אם נקבעה בתקנון הוראה אחרת",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md",
+        "scripts/fee_split.py"
+      ]
+    },
+    {
+      "claim_id": "s57c-attached",
+      "claim": "An attached part of the common property (e.g. a roof or yard attached to an apartment) counts in the area at the rate set in the takanon, or failing that at a rate the Mafkach sets (Land Law s.57(c), סעיף 57).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "יובא שטחו בחשבון לענין סעיף קטן (א) בשיעור שנקבע לכך בתקנון, ובאין קביעה כזאת",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s58a-split",
+      "claim": "An owner must share in expenses needed for proper maintenance and management of the common property and for services required by law or customary, by the ratio of his apartment's floor area to all apartments' floor area, unless the takanon sets another rate (Land Law s.58(a), סעיף 58). There is no exemption in this text for an owner who does not use a service.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה חייב להשתתף בהוצאות הדרושות להחזקתו התקינה ולניהולו של הרכוש המשותף ולהבטחת השירותים המחוייבים על פי דין או המקובלים על פי הנוהג, לפי יחס שטח רצפת דירתו אל שטח הרצפה של כל הדירות שבבית המשותף, זולת אם נקבע בתקנון שיעור השתתפות אחר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md",
+        "scripts/fee_split.py",
+        "metadata.json"
+      ]
+    },
+    {
+      "claim_id": "s58a-proper-maintenance",
+      "claim": "Proper maintenance means keeping the common property as it was at completion of construction, including improvements later made with the owners' consent (Land Law s.58(a), סעיף 58).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "שמירה על מצבו של הרכוש המשותף כפי שהיה בעת גמר הבניה, לרבות שיפורים שבוצעו בו לאחר מכן בהסכמת בעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59-complex",
+      "claim": "In a complex building with separate wings or entrances, if the takanon separates their maintenance, the duty to share costs falls only on owners in that wing (Land Law s.59, סעיף 59).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תחול חובת ההשתתפות בהוצאות ההחזקה והניהול של הרכוש המשותף כאמור, על בעלי הדירות שבאותו מבנה או אגף בלבד",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-majority",
+      "claim": "Owners of two thirds of the apartments may decide at the general assembly to install an elevator in the common property (Land Law s.59F, סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי דירות שבבעלותם שני שלישים מהדירות בבית המשותף, רשאים להחליט באסיפה הכללית על התקנת מעלית ברכוש המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-permit",
+      "claim": "Condition: a building permit for the elevator can be obtained (Land Law s.59F(a)(1), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ניתן לקבל היתר בניה להתקנת המעלית",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-no-harm",
+      "claim": "Condition: the elevator can be installed without material harm to other apartments, the common property or the building's appearance (Land Law s.59F(a)(2), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ניתן להתקין את המעלית באופן שלא יהיה בו כדי לגרום פגיעה מהותית בדירות האחרות או בחלקן, ברכוש המשותף או בחזות הבית",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-deciders-pay",
+      "claim": "The owners who decide on installation bear its cost (Land Law s.59F(b)(1), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי הדירות המחליטים על התקנת המעלית ישאו בהוצאות התקנתה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-ground-floor",
+      "claim": "Ground-floor owners do not bear elevator installation costs, even if they voted for it (Land Law s.59F(b)(2), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי הדירות בקומת הקרקע לא ישאו בהוצאות התקנת המעלית, אף אם הם נמנים עם המחליטים להתקינה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-all-maintain",
+      "claim": "All owners, including the ground floor, must share in the elevator's maintenance and operation costs (Land Law s.59F(b)(3), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "כל בעלי הדירות יהיו חייבים להשתתף בהוצאות החזקתה והפעלתה של המעלית",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-area",
+      "claim": "Elevator payments are split by floor area among the apartments whose owners bear that payment (Land Law s.59F(b)(4), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "יהיו בהתאם ליחס שבין שטח רצפת כל דירה לבין שטח הרצפה של כל הדירות שבעליהן נושאים באותם התשלומים",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md",
+        "scripts/fee_split.py"
+      ]
+    },
+    {
+      "claim_id": "s59f-mafkach",
+      "claim": "The Mafkach may cancel, change or condition an elevator decision, including with compensation (Land Law s.59F(d)(2), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "המפקח רשאי להורות על ביטול החלטה שהתקבלה לפי סעיף זה, על שינויה או על התנייתה בתנאים, לרבות בפיצוי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s62a-amend",
+      "claim": "Owners to whose apartments two thirds of the common property is attached may make and amend a takanon (Land Law s.62(a), סעיף 62).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי הדירות רשאים לערוך תקנון ולשנות את הוראותיו ברוב של בעלי הדירות ששני שלישים של הרכוש המשותף צמודים לדירותיהם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s62a-consent",
+      "claim": "A takanon cannot impose on owners duties or payments of a kind or rate not set in the law without their consent (Land Law s.62(a), סעיף 62).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "אולם אין לקבוע או לשנות בתקנון זכויות של בעלי דירות או להטיל עליהם חובות או תשלומים מסוג או בשיעור שלא פורשו בחוק זה אלא בהסכמתם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s62a-attach-all",
+      "claim": "Attaching a specific part of the common property to one apartment requires the consent of all owners (Land Law s.62(a), סעיף 62).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ואין לקבוע הצמדה של חלק מסויים מהרכוש המשותף לדירה פלונית אלא בהסכמת כל בעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s62c-registered",
+      "claim": "A registered takanon binds later owners too (Land Law s.62(c), סעיף 62).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תקנון וכל שינוי בו ניתנים לרישום, ומשנרשמו, כוחם יפה גם כלפי אדם שנעשה בעל דירה לאחר מכן",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s64-mutzai",
+      "claim": "Where no takanon was registered, or a registered one is silent on a matter, the standard takanon (takanon mutzai) in the schedule applies (Land Law s.64, סעיף 64).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ובמידה שאין בתקנון שנרשם הוראה בנדון, יראו את",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s77a-unregistered",
+      "claim": "Chapter 6A covers a permanent building with at least two apartments that is not registered as a bayit meshutaf; s.77B applies ss.57-58 and 72-77 to it and s.77C says it is run by the standard takanon (Land Law ss.77A-77C, סעיף 77א).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "מבנה של קבע, שיש בו לפחות שתי דירות, ובכלל זה הקרקע שעליה נבנה, ואינו רשום כבית משותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s65-representation",
+      "claim": "Every bayit meshutaf must have a representation (nציגות, the vaad) to manage it (Land Law s.65, סעיף 65).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לכל בית משותף תהיה נציגות לשם ניהול עניני הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s67-no-vaad",
+      "claim": "If no representation was set up or it does not function, the Mafkach may appoint one (Land Law s.67, סעיף 67).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "או שהנציגות אינה פועלת, רשאי המפקח למנות לאותו בית נציגות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s66-outsider-paid",
+      "claim": "The Mafkach may appoint a representation from outside the owners and set pay the owners must pay (Land Law s.66(a), applied by s.67, סעיף 66).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "שלא מבין בעלי הדירות, ורשאי הוא לקבוע לה שכר שישולם לה על ידי בעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s68-pay-expense",
+      "claim": "Pay set by the Mafkach for an appointed representation is an expense all owners share under s.58 (Land Law s.68, סעיף 68).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "דינו כדין הוצאה שבעלי הדירות חייבים להשתתף בה כאמור",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s69-agent",
+      "claim": "The representation acts as agent of all owners for proper maintenance and management and may contract and be a party to legal proceedings (Land Law s.69, סעיף 69).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "הנציגות תשמש מורשה של כל בעלי הדירות בכל ענין הנוגע להחזקתו התקינה ולניהולו של הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71a-binding",
+      "claim": "A decision made under the takanon and recorded in the decisions book binds every owner, including later owners (Land Law s.71(a), סעיף 71).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תחייב כל בעל דירה, בין שהיה בעל דירה בשעת קבלת ההחלטה ובין שהיה לבעל דירה אחרי קבלתה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71b1-maintainer",
+      "claim": "Owners may decide by takanon or by owners holding two thirds of the common property that maintenance be done by a contracted maintainer (mitchazek, a management company) (Land Law s.71(b)(1), סעיף 71).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בתקנון או בהחלטה שהתקבלה ברוב של בעלי הדירות ששני שלישים של הרכוש המשותף צמודים לדירותיהם, כי הניהול וההחזקה התקינה של הרכוש המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71b2-choose",
+      "claim": "Choosing or replacing a specific maintainer is decided by owners holding more than half of the common property (Land Law s.71(b)(2), סעיף 71).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "החלטה לענין התקשרות עם מתחזק מסוים או לענין החלפתו תתקבל בידי בעלי הדירות שיותר ממחצית הרכוש המשותף צמוד לדירותיהם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71c-fee",
+      "claim": "The maintainer's fee is an expense owners share under s.58(a) (Land Law s.71(c), סעיף 71).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "דינו של שכר המתחזק כדין הוצאה שבעלי דירות חייבים להשתתף בה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71b-extension",
+      "claim": "Attaching common property to an apartment for an extension can be decided by owners of three quarters of the apartments holding two thirds of the common property, and for building a protected space (mamad) by owners of 60% of the apartments (Land Law s.71B(a), סעיף 71ב).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "רשאים מי שבבעלותם שלושה רבעים מהדירות ושני שלישים מהרכוש המשותף צמוד לדירותיהם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s71b-mamad",
+      "claim": "Owners of sixty percent (60%) of the apartments may decide on an extension to build a protected space (Land Law s.71B(a)(1), סעיף 71ב).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "רשאים להחליט על כך מי שבבעלותם שישים אחוזים מהדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s72a-mafkach",
+      "claim": "Disputes between owners about rights or duties under the takanon or s.58 are decided by the Mafkach (Land Law s.72(a), סעיף 72).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "סכסוך בין בעלי דירות בבית משותף בדבר זכויותיהם או חובותיהם לפי התקנון או לפי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s72b-trespass",
+      "claim": "Trespass by an owner on another apartment or the common property: the claimant may choose a competent court or the Mafkach (Land Law s.72(b), סעיף 72).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בדבר הסגת גבול מצד בעל דירה לגבי דירה אחרת או לגבי הרכוש המשותף, רשאי התובע להביאו, לפי בחירתו, לפני בית משפט מוסמך או לפני המפקח",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s72c-occupier",
+      "claim": "These rules apply also where an occupier on the owner's behalf (e.g. a tenant) or the maintainer is a party (Land Law s.72(c), סעיף 72).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "יחול גם במקרה שמחזיק הדירה מטעם בעל הדירה או המתחזק הוא צד לסכסוך",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s73-standing",
+      "claim": "Any owner, another party to the dispute, and the representation may bring a dispute to the Mafkach (Land Law s.73, סעיף 73).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ואלה זכאים להביא סכסוך להכרעתו של המפקח",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s74-powers",
+      "claim": "The Mafkach has all the powers of a magistrate court judge hearing a civil claim (Land Law s.74, סעיף 74).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "יהיו כל הסמכויות שיש לשופט בית משפט שלום הדן בתביעה אזרחית",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s76-enforce",
+      "claim": "A Mafkach decision is enforced like a magistrate court judgment, including through Hotzaa LaPoal (Land Law s.76, סעיף 76).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "החלטת המפקח בסכסוך וצו ביניים שנתן, דינם, לענין אכיפה והוצאה לפועל ולענין",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s77-appeal",
+      "claim": "A party may appeal a Mafkach decision to the District Court where the building is located, within a period set in regulations (Land Law s.77(a), סעיף 77).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לערער עליה לפני בית המשפט המחוזי שבאזור שיפוטו נמצא הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s77b-no-stay",
+      "claim": "Filing an appeal does not stay the decision unless ordered (Land Law s.77(b), סעיף 77).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "הגשת הערעור אינה מעכבת את ביצוע ההחלטה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t2-changes",
+      "claim": "Standard takanon s.2(a): an owner may not make changes in his apartment that harm the common property without prior consent of the general assembly (תקנון מצוי סעיף 2).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה אינו רשאי לעשות בדירתו שינויים או תיקונים הפוגעים ברכוש המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t3a-demand-vaad",
+      "claim": "Standard takanon s.3(a): an owner may demand the representation carry out any repair in the building or common property whose non-performance may harm his apartment or its value (תקנון מצוי סעיף 3).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה זכאי לדרוש מהנציגות שתבצע כל תיקון בבית או ברכוש המשותף, שאי ביצועו עלול לפגוע בדירתו או בערכה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t3b-demand-neighbor",
+      "claim": "Standard takanon s.3(b): an owner may demand another owner repair his apartment where non-repair may harm the demanding owner's apartment (תקנון מצוי סעיף 3).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה זכאי לדרוש מבעל דירה אחרת שיבצע תיקון בדירה האחרת, שאי ביצועו עלול לפגוע בדירתו של דורש התיקון",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t4a-access",
+      "claim": "Standard takanon s.4(a): an owner must allow necessary works for maintaining the common property to be done in his apartment (תקנון מצוי סעיף 4).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה חייב להרשות שיבוצעו בדירתו העבודות ההכרחיות להחזקתו התקינה של הרכוש המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t4b-restore",
+      "claim": "Standard takanon s.4(b): if such works damage the apartment, all owners share restoring it in their maintenance share (תקנון מצוי סעיף 4).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "חייבים בעלי כל הדירות להשתתף בהוצאות החזרת המצב לקדמותו",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t5-annual",
+      "claim": "Standard takanon s.5: owners hold a general assembly once a year, and no later than fifteen months after the previous one (תקנון מצוי סעיף 5).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לאחר זאת תתקיים האסיפה לא יאוחר מחמישה עשר חודש מיום האסיפה הקודמת",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t6-special",
+      "claim": "Standard takanon s.6: the representation must convene a special assembly if owners of at least a third of the apartments demand it (תקנון מצוי סעיף 6).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "והיא חייבת להועידה, אם דרשו זאת בעליהן של שליש מן הדירות לפחות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t6b-self",
+      "claim": "Standard takanon s.6(b): if not convened within fourteen days, the demanding owners may convene it (תקנון מצוי סעיף 6).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לא הועידה הנציגות אסיפה תוך ארבעה עשר יום",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t7a-notice",
+      "claim": "Standard takanon s.7(a): notice of the assembly's time and place must be given to all owners at least four days before (תקנון מצוי סעיף 7).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תימסר לבעלי כל הדירות ארבעה ימים לפחות לפני המועד",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t7b-posted",
+      "claim": "Standard takanon s.7(b): a notice posted prominently in the building is deemed delivered one day after posting (תקנון מצוי סעיף 7).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "רואים אותה כאילו נמסרה לכל בעל דירה יום אחד לאחר שהוצגה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t8a-quorum",
+      "claim": "Standard takanon s.8(a): an assembly is lawful if owners of at least half the apartments take part, in person or by proxy (תקנון מצוי סעיף 8).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "והשתתפו בה בעליהן של מחצית הדירות לפחות, בעצמם או על ידי באי כוח",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t8b-adjourned",
+      "claim": "Standard takanon s.8(b): the notice may set a later hour the same day at which the assembly is lawful with any number of participants (תקנון מצוי סעיף 8).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תהיה האסיפה שנתכנסה בשעה האחרת חוקית בכל מספר של משתתפים",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t9-agenda",
+      "claim": "Standard takanon s.9: the notice must list the agenda (תקנון מצוי סעיף 9).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ההודעה על מועד אסיפה כללית תפרט את סדר יומה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t9b-add-item",
+      "claim": "Standard takanon s.9(b): an owner may add an item if notice reaches all other owners at least two days before the assembly (תקנון מצוי סעיף 9).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "יומיים לפחות לפני מועד האסיפה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t9c-off-agenda",
+      "claim": "Standard takanon s.9(c): the assembly does not discuss items off the agenda unless all owners agree (תקנון מצוי סעיף 9).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לא תדון אסיפה כללית בנושא שלא נכלל בסדר יומה, אלא אם כל בעלי הדירות הסכימו",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t12a-majority",
+      "claim": "Standard takanon s.12(a): general assembly decisions are by majority (תקנון מצוי סעיף 12).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "החלטות האסיפה הכללית יתקבלו ברוב דעות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t12b-consent",
+      "claim": "Standard takanon s.12(b): a decision imposing duties or payments of a kind or rate not set in Chapter 6 or the takanon, or changing an owner's rights, has no force against that owner unless he consented (תקנון מצוי סעיף 12).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "המשנה את זכויותיו, לא יהיה לה תוקף לגבי אותו בעל דירה אלא אם הסכים לה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t13a-vote",
+      "claim": "Standard takanon s.13(a): voting by show of hands, or by ballot if at least a quarter of owners present demand it (תקנון מצוי סעיף 13).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ההצבעה באסיפה הכללית תהיה בהרמת ידיים, אך לפי דרישת רבע לפחות מבעלי הדירות הנוכחים תתקיים הצבעה בקלפי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t13b-one-vote",
+      "claim": "Standard takanon s.13(b): each apartment's owner has one vote (תקנון מצוי סעיף 13).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בהצבעה זכאי בעלה של כל דירה לדעה אחת",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t13c-tie",
+      "claim": "Standard takanon s.13(c): on a tie the chair of the assembly decides (תקנון מצוי סעיף 13).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "היו הדעות שקולות, יכריע יושב ראש האסיפה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t15a-committee",
+      "claim": "Standard takanon s.15(a): the ordinary assembly elects a representation of one to five members, one of whom is treasurer if more than one (תקנון מצוי סעיף 15).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "האסיפה הכללית הרגילה תבחר בנציגות בת חבר אחד או יותר, אך לא יותר מחמישה חברים; בנציגות של יותר מאחד ייבחר אחד מחבריה כגזבר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t16a-books",
+      "claim": "Standard takanon s.16(a): the treasurer takes an invoice for every expense, gives a receipt for every income and keeps an income and expense book (תקנון מצוי סעיף 16).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "הגזבר יקבל חשבון לכל הוצאה, ימסור קבלה לכל הכנסה וינהל פנקס הכנסות והוצאות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t16b-report",
+      "claim": "Standard takanon s.16(b): the treasurer prepares a financial report once every six months (תקנון מצוי סעיף 16).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "הגזבר יערוך דין וחשבון כספי אחת לששה חדשים",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t16c-inspect",
+      "claim": "Standard takanon s.16(c): an owner may inspect the books, invoices and reports at any reasonable time (תקנון מצוי סעיף 16).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעל דירה רשאי בכל עת סבירה לעיין בפנקס ההכנסות וההוצאות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t16d-bank",
+      "claim": "Standard takanon s.16(d): income is deposited in a bank account in the name of the bayit meshutaf (תקנון מצוי סעיף 16).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "הגזבר יפקיד את ההכנסות בחשבון בנק על שם הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-25i-tenant-pays",
+      "claim": "Under the Rental and Loan Law s.25I(a)(4) (סעיף 25ט) the tenant bears current-maintenance payments paid to the representation or to a management company. Readable text: https://he.wikisource.org/wiki/חוק_השכירות_והשאילה",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94&action=raw",
+      "raw_snippet": "תשלומים לצורך אחזקה שוטפת המשולמים לנציגות הבית המשותף או למי שנכרת עמו חוזה לניהול ואחזקה שוטפת של הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-25i-not-upgrades",
+      "claim": "The tenant does not directly bear payments to buy or upgrade fixed systems serving the apartment, except adjustments the tenant requested (Rental and Loan Law s.25I(b)(1), סעיף 25ט).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94&action=raw",
+      "raw_snippet": "תשלום המיועד לרכישה או להשבחה של מערכות או מיתקנים קבועים המשרתים את הדירה המושכרת, למעט התאמות מיוחדות או שיפורים שביקש השוכר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "rent-25xv-exclusions",
+      "claim": "Some residential leases are excluded from this chapter (Rental and Loan Law s.25XV, סעיף 25טו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%A9%D7%9B%D7%99%D7%A8%D7%95%D7%AA_%D7%95%D7%94%D7%A9%D7%90%D7%99%D7%9C%D7%94&action=raw",
+      "raw_snippet": "לא יחולו על חוזה שכירות למגורים כמפורט להלן",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-fees-example",
+      "claim": "Kol Zchut example: an 80 sqm apartment in a building with 800 sqm of apartments pays one tenth (10%) of the expenses. URL: https://www.kolzchut.org.il/he/תשלומי_ועד_בית",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%95%D7%A2%D7%93_%D7%91%D7%99%D7%AA",
+      "raw_snippet": "שיעור ההשתתפות של בעל הדירה בהוצאות הוא לפי יחס של 80/800, כלומר עשירית (10%).",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-fees-empty",
+      "claim": "Kol Zchut: an owner must pay vaad fees even if nobody lives in the apartment.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%95%D7%A2%D7%93_%D7%91%D7%99%D7%AA",
+      "raw_snippet": "גם אם לא מתגורר איש בדירה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-fees-tenant",
+      "claim": "Kol Zchut: in rented apartments the lease decides, usually current maintenance payments fall on the tenant, and the owner is responsible to enforce the lease against the tenant.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%95%D7%A2%D7%93_%D7%91%D7%99%D7%AA",
+      "raw_snippet": "ובדרך כלל התשלומים לצורך האחזקה השוטפת מוטלים על השוכר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-online-system",
+      "claim": "Kol Zchut: the Justice Ministry launched an online system to draft and file a claim to the land registration office, currently for vaad-fee claims; the official service page is https://www.gov.il/he/service/condominiums-supervisor-claims",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%95%D7%A2%D7%93_%D7%91%D7%99%D7%AA",
+      "raw_snippet": "משרד המשפטים השיק מערכת מקוונת לניסוח כתב תביעה והגשתו ללשכת רישום המקרקעין",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-mafkach-fee",
+      "claim": "Kol Zchut: the claimant pays a fee identical to the fee for a civil claim in the magistrate court, and must check the updated rate when filing. URL: https://www.kolzchut.org.il/he/הגשת_תביעה_למפקח_על_רישום_המקרקעין",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%9C%D7%9E%D7%A4%D7%A7%D7%97_%D7%A2%D7%9C_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "על התובע לשלם אגרה הזהה לאגרה המשולמת עבור תובענה אזרחית בבית משפט השלום",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-mafkach-fee-update",
+      "claim": "Kol Zchut: check the updated fee rate at the time of filing.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%9C%D7%9E%D7%A4%D7%A7%D7%97_%D7%A2%D7%9C_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "יש לברר את שיעור האגרה המעודכן בעת הגשת ההליך",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-mafkach-office",
+      "claim": "Kol Zchut: the claim is filed with the regional Mafkach office where the building is registered.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%9C%D7%9E%D7%A4%D7%A7%D7%97_%D7%A2%D7%9C_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "יש להגיש את התביעה אל לשכת המפקח האזורית שבה רשום הבית המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-mafkach-protocol",
+      "claim": "Kol Zchut: if the vaad sues, attach the protocol electing the representation, and for a money claim a copy of the income book showing the debt.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%9C%D7%9E%D7%A4%D7%A7%D7%97_%D7%A2%D7%9C_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "אם התובע הוא ועד הבית יש לצרף את פרוטוקול בחירת הנציגות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-mafkach-lawyer",
+      "claim": "Kol Zchut: parties to a Mafkach claim may be represented by an advocate.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%A9%D7%AA_%D7%AA%D7%91%D7%99%D7%A2%D7%94_%D7%9C%D7%9E%D7%A4%D7%A7%D7%97_%D7%A2%D7%9C_%D7%A8%D7%99%D7%A9%D7%95%D7%9D_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F",
+      "raw_snippet": "הצדדים לתביעה רשאים להיות מיוצגים על ידי עורך דין",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-repair-roof",
+      "claim": "Kol Zchut: if the source of a leak is in the common property such as the roof, the vaad is responsible for the repair. URL: https://www.kolzchut.org.il/he/תיקונים_בבית_משותף",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%A7%D7%95%D7%A0%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "אם מקור הבעיה הוא ברכוש המשותף של הבית, כמו הגג, האחריות לתיקון היא של ועד הבית",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-repair-route",
+      "claim": "Kol Zchut: to force the neighbour or vaad to carry out a repair, apply to the Mafkach.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%A7%D7%95%D7%A0%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "אם רוצים לחייב את השכן או את ועד הבית לבצע תיקון",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-repair-refund",
+      "claim": "Kol Zchut: if the resident already did the repair and wants the money back, a court claim is possible, and the court may not refund the full amount.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%AA%D7%99%D7%A7%D7%95%D7%A0%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "בית המשפט עשוי במקרים מסוימים להורות על החזר כספי, אבל לא בהכרח בגובה מלוא ההוצאה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-roof-common",
+      "claim": "Kol Zchut: the roof is common property belonging to all owners; one owner may not take it over or lock others out unless it is attached to his apartment in the register. URL: https://www.kolzchut.org.il/he/שימוש_בשטחים_המשותפים_בבית_משותף",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%A9%D7%98%D7%97%D7%99%D7%9D_%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "גג הבניין בבית משותף מהווה רכוש משותף השייך לכלל בעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-stairwell",
+      "claim": "Kol Zchut: leaving private items that block passage in the stairwell is not reasonable use of common property.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A9%D7%99%D7%9E%D7%95%D7%A9_%D7%91%D7%A9%D7%98%D7%97%D7%99%D7%9D_%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "השארת חפצים פרטיים התופסים מקום בחדר המדרגות בבית משותף ופוגעים במעבר החופשי אינה נחשבת לשימוש סביר ברכוש המשותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-vaad-volunteer",
+      "claim": "Kol Zchut: serving on the vaad is voluntary and owners cannot be forced to serve; options with no volunteer include a management company supervised by a vaad. URL: https://www.kolzchut.org.il/he/ועד_הבית",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%95%D7%A2%D7%93_%D7%94%D7%91%D7%99%D7%AA",
+      "raw_snippet": "פעילות הוועד היא התנדבותית, ואין אפשרות חוקית לכפות על בעלי הדירות בבניין לשמש כחברי ועד",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-vaad-mgmt-co",
+      "claim": "Kol Zchut: a management company can be appointed, in which case a vaad is still needed to supervise it.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%95%D7%A2%D7%93_%D7%94%D7%91%D7%99%D7%AA",
+      "raw_snippet": "במקרה כזה יידרש ועד בית שיפקח על חברת הניהול",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-tenant-vote",
+      "claim": "Kol Zchut: a tenant cannot vote at the general assembly unless the owner gave a proxy. URL: https://www.kolzchut.org.il/he/אסיפה_כללית_של_דיירים_בבית_משותף",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%A1%D7%99%D7%A4%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA_%D7%A9%D7%9C_%D7%93%D7%99%D7%99%D7%A8%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "מי ששוכר דירה בבניין אינו זכאי להצביע באסיפה הכללית, אלא אם כן בעל הדירה ייפה את כוחו להצביע במקומו",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-elevator-66-known-bad",
+      "claim": "Kol Zchut's summary says adding an elevator needs 66% of owners; the statute (s.59F) says owners of two thirds of the apartments, so cite the statute.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%90%D7%A1%D7%99%D7%A4%D7%94_%D7%9B%D7%9C%D7%9C%D7%99%D7%AA_%D7%A9%D7%9C_%D7%93%D7%99%D7%99%D7%A8%D7%99%D7%9D_%D7%91%D7%91%D7%99%D7%AA_%D7%9E%D7%A9%D7%95%D7%AA%D7%A3",
+      "raw_snippet": "להחלטה על הוספת מעלית נדרש רוב של 66% מבעלי הדירות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "kz-noise-police",
+      "claim": "Kol Zchut: police may take enforcement action on unlawful noise; the noise rules also apply in shared areas like stairwells, yards, roofs and parking. URL: https://www.kolzchut.org.il/he/הגבלת_רעש_מדירות_שכנים_או_מארועים_באזור_מגורים",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%94%D7%92%D7%91%D7%9C%D7%AA_%D7%A8%D7%A2%D7%A9_%D7%9E%D7%93%D7%99%D7%A8%D7%95%D7%AA_%D7%A9%D7%9B%D7%A0%D7%99%D7%9D_%D7%90%D7%95_%D7%9E%D7%90%D7%A8%D7%95%D7%A2%D7%99%D7%9D_%D7%91%D7%90%D7%96%D7%95%D7%A8_%D7%9E%D7%92%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "האיסור על רעש באזור מגורים חל גם על שטחים משותפים כמו חדרי מדרגות, חצרות, גגות וחניות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "kz-category",
+      "claim": "Kol Zchut category portal on shared buildings. URL: https://www.kolzchut.org.il/he/בתים_משותפים",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%91%D7%AA%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%99%D7%9D",
+      "raw_snippet": "הפורטל מתוכנן להקיף את כל הנושאים הקשורים בחיים בבית משותף",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-22T14:12:43.920233+00:00"
+    },
+    {
+      "claim_id": "s59f-optout",
+      "claim": "Owners may set in an agreed takanon that s.59F does not apply to them (Land Law s.59F(c)(1), סעיף 59ו).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי הדירות רשאים לקבוע, בתקנון מוסכם, כי הוראות סעיף זה לא יחולו עליהם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s59f-b1-full",
+      "claim": "Land Law s.59F(b)(1) (סעיף 59ו) in full: the owners who decide on installing the elevator bear its installation costs, and they may agree that only some of them bear them. Owners who did not decide do not bear installation.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בעלי הדירות המחליטים על התקנת המעלית ישאו בהוצאות התקנתה, ורשאים הם להסכים כי רק מקצתם ישאו בהוצאות כאמור",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s67b-condition",
+      "claim": "Land Law s.67(b) (סעיף 67): where the bylaws have the representation elected at a general assembly, the Mafkach appoints only after convening an assembly that failed to elect, or if convening is impractical.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לא ישתמש המפקח בסמכותו לפי סעיף קטן (א) אלא לאחר שכינס את בעלי הדירות לאסיפה כללית לבחירת הנציגות והנציגות לא נבחרה באסיפה, או שנוכח כי בנסיבות המקרה כינוס האסיפה לא יהיה מעשי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s55c-attached-as-apartment",
+      "claim": "Land Law s.55(c) (סעיף 55): once a part of the common property is attached to an apartment, the common-property provisions no longer apply to it and it is treated in every respect like the apartment it is attached to.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לא יחולו עליו הוראות",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s55c-attached-as-apartment-2",
+      "claim": "Land Law s.55(c) (סעיף 55), continued: treated in every respect like the apartment it was attached to.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "ודינו לכל דבר כדין הדירה שאליה הוצמד",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ins-22-notice",
+      "claim": "Insurance Contract Law 1981 s.22 (סעיף 22): when the insured event occurs the insured must notify the insurer immediately after learning of it. Readable text: https://he.wikisource.org/wiki/חוק_חוזה_הביטוח",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%96%D7%94_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97&action=raw",
+      "raw_snippet": "קרה מקרה הביטוח, על המבוטח להודיע על כך למבטח מיד לאחר שנודע לו",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ins-62-subrogation",
+      "claim": "Insurance Contract Law s.62(a) (סעיף 62): if the insured also has a right to compensation from a third party, that right passes to the insurer once it pays, to the extent it paid.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%96%D7%94_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97&action=raw",
+      "raw_snippet": "עוברת זכות זו למבטח מששילם למוטב תגמולי ביטוח וכשיעור התגמולים ששילם",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ins-62c-no-waiver",
+      "claim": "Insurance Contract Law s.62(c) (סעיף 62): an insured who settles with or waives against the third party in a way that harms the insurer's passed right must compensate the insurer.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%96%D7%94_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97&action=raw",
+      "raw_snippet": "עשה פשרה, ויתור או פעולה אחרת הפוגעת בזכות שעברה למבטח, עליו לפצותו בשל כך",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ins-68-liability",
+      "claim": "Insurance Contract Law s.68 (סעיף 68): in liability insurance the insurer may, and at the third party's demand must, pay the third party directly, provided it gave the insured 30 days' written notice and the insured did not object; any defence against the insured also applies against the third party.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%96%D7%94_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97&action=raw",
+      "raw_snippet": "לשלם לצד השלישי את תגמולי הביטוח שהמבטח חייב למבוטח, ובלבד שהודיע על כך בכתב למבוטח 30 ימים מראש והמבוטח לא התנגד תוך תקופה זו; אולם טענה שהמבטח יכול לטעון כלפי המבוטח תעמוד לו גם כלפי הצד השלישי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lim-5-seven",
+      "claim": "Statute of Limitations 1958 s.5(1) (סעיף 5): the limitation period for a non-land claim is seven years. Readable text: https://he.wikisource.org/wiki/חוק_ההתיישנות",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lim-5-seven-2",
+      "claim": "Statute of Limitations, non-land claims: the period stated is seven years (שבע שנים).",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "בשאינו מקרקעין",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lim-5-seven-3",
+      "claim": "Statute of Limitations: seven years, the words quoted from the non-land limb.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "שבע שנים;",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "lim-8-discovery",
+      "claim": "Statute of Limitations s.8 (סעיף 8): if the facts forming the cause of action were hidden from the claimant for reasons beyond his control, the period starts on the day he learned them.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA&action=raw",
+      "raw_snippet": "תתחיל תקופת ההתיישנות ביום שבו נודעו לתובע עובדות אלה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tort-44-nuisance",
+      "claim": "Civil Wrongs Ordinance s.44(a) (סעיף 44): private nuisance is use of land that substantially interferes with reasonable use of another's land; damages only if damage was suffered. Readable text: https://he.wikisource.org/wiki/פקודת_הנזיקין",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A0%D7%96%D7%99%D7%A7%D7%99%D7%9F&action=raw",
+      "raw_snippet": "אך לא ייפרע אדם פיצויים בעד מיטרד ליחיד אלא אם סבל ממנו נזק",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "tort-35-negligence",
+      "claim": "Civil Wrongs Ordinance s.35 (סעיף 35): negligence that causes damage to another is a civil wrong.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%94%D7%A0%D7%96%D7%99%D7%A7%D7%99%D7%9F&action=raw",
+      "raw_snippet": "והגורם ברשלנותו נזק לזולתו עושה עוולה",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t16e-fiscal",
+      "claim": "Standard takanon s.16(e) (תקנון מצוי סעיף 16): the fiscal year of the bayit meshutaf runs from 1 January to 31 December.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "שנת הכספים של הבית המשותף תתחיל ביום 1 בינואר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t13a-ballot",
+      "claim": "Standard takanon s.13(a) (סעיף 13): a ballot vote (הצבעה בקלפי) is held at the demand of at least a quarter of owners present.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "לפי דרישת רבע לפחות מבעלי הדירות הנוכחים תתקיים הצבעה בקלפי",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "t15a-treasurer-multi",
+      "claim": "Standard takanon s.15(a) (סעיף 15): a treasurer is elected only in a representation of more than one member.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "בנציגות של יותר מאחד ייבחר אחד מחבריה כגזבר",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ins-68-demand",
+      "claim": "Insurance Contract Law s.68: at the third party's demand the liability insurer must pay the third party.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%97%D7%95%D7%96%D7%94_%D7%94%D7%91%D7%99%D7%98%D7%95%D7%97&action=raw",
+      "raw_snippet": "ולפי דרישת הצד השלישי חייב הוא",
+      "fetched_at": "2026-09-16T09:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "s63-single-owner",
+      "claim": "A takanon may be registered even while the whole bayit meshutaf, all its apartments, is owned by one person (Land Law s.63, סעיף 63). Combined with s.62(c) this binds everyone who buys later.",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F&action=raw",
+      "raw_snippet": "תקנון ניתן לרישום אף בשעה שהבית המשותף על כל דירותיו הוא בבעלותו של אדם אחד",
+      "fetched_at": "2026-09-22T14:06:12.650548+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/fee-split-rules.md"
+      ]
+    }
+  ]
+}

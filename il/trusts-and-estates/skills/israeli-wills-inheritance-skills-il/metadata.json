@@ -1,0 +1,82 @@
+{
+  "author": "skills-il",
+  "version": "1.4.0",
+  "category": "legal-tech",
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://inheritance.justice.gov.il/",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 3,
+  "tags": {
+    "he": [
+      "צוואה",
+      "ירושה",
+      "צו-ירושה",
+      "עיזבון",
+      "רשם-הירושה",
+      "ישראל"
+    ],
+    "en": [
+      "will",
+      "inheritance",
+      "succession",
+      "estate",
+      "probate",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניווט צוואות וירושה בישראל",
+    "en": "Israeli Wills & Inheritance Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. ניסוח צוואה במבנה שחוק הירושה דורש וניווט בתהליך הירושה לפי חוק הירושה. הסקיל מנסח צוואה בעדים, שלפי החוק לא חייבת עורך דין (אבל מומלץ שעורך דין לענייני ירושה יערוך או יעבור עליה): אתם כותבים מה שאתם רוצים, מתארכים וחותמים, ושני עדים (שאסור שיהיו נהנים מהצוואה או בני זוגם) חותמים גם. הוא מסביר את ארבעת סוגי הצוואות, איך מפקידים את הצוואה אצל הרשם לענייני ירושה, ואיך מקבלים צו ירושה (כשאין צוואה) או צו קיום צוואה (כשיש צוואה). השתמשו כשרוצים לכתוב צוואה, להפקיד אותה, או כשקרוב נפטר וצריך צו. שימו לב: ייפוי כוח מתמשך דורש עורך דין מוסמך (ראו israeli-elder-care-navigator), ובסכסוך ירושה או עיזבון מורכב פנו לעורך דין. הסקיל לא מחליף ייעוץ משפטי.",
+    "en": "Not legal advice. Write an Israeli will in the form the Succession Law requires and navigate the inheritance process under the Succession Law. The skill drafts a witnessed will (צוואה בעדים), which Israeli law does not require a lawyer for (though a lawyer's review is recommended): you write your wishes, date and sign, and two witnesses (who may not be beneficiaries or their spouses) sign too. It explains the four will types, how to deposit the will with the Inheritance Registrar, and how to get a succession order (צו ירושה, when there is no will) or a probate order (צו קיום צוואה, when there is a will). Use when you want to write a will, deposit it, or when a relative has died and you need an order. Note: an enduring power of attorney needs a certified attorney (see israeli-elder-care-navigator), and a contested estate or complex assets need a lawyer. This skill is not a substitute for legal advice."
+  },
+  "openclaw": {
+    "requires": {
+      "bins": [],
+      "env": []
+    },
+    "emoji": "📜"
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
+  ]
+}

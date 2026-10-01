@@ -1,0 +1,19 @@
+{
+  "name": "it-employment",
+  "displayName": "Employment & Labor — Italy",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "employment",
+  "language": "it",
+  "skills": [
+    "skills/bozza-policy-interna-pixari",
+    "skills/checklist-licenziamento-pixari",
+    "skills/fascicolo-lavoro-pixari",
+    "skills/indagine-interna-disciplinare-pixari",
+    "skills/qualificazione-rapporto-pixari",
+    "skills/revisione-licenziamento-pixari"
+  ]
+}

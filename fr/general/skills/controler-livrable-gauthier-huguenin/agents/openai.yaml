@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contrôler le livrable"
+  short_description: "Détecter les erreurs avant validation humaine"
+  default_prompt: "Utilise $controler-livrable pour effectuer une revue contradictoire avant validation humaine."

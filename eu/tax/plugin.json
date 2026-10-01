@@ -1,0 +1,14 @@
+{
+  "name": "eu-tax",
+  "displayName": "Tax — European Union",
+  "version": "0.1.0",
+  "description": "Tax skills under EU law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/einvoicing-eu-clemensjl"
+  ]
+}

@@ -9,9 +9,20 @@
   "practice": "general",
   "language": "fr",
   "skills": [
+    "skills/article-zevra-tech",
+    "skills/connector-legifrance-sboghossian",
+    "skills/controler-livrable-gauthier-huguenin",
     "skills/humaniseur-juridique-gary-haas-lawve-ai",
+    "skills/justinian-bar-exam-prep-fr-crfpa-sboghossian",
     "skills/lawyerscrib-cslawyer1985",
+    "skills/legal-citations-allcolor",
     "skills/legalfrance",
-    "skills/recherche-legislation"
+    "skills/note-juridique-zevra-tech",
+    "skills/piloter-dossier-gauthier-huguenin",
+    "skills/preparer-entretien-client-gauthier-huguenin",
+    "skills/recherche-legislation",
+    "skills/rechercher-droit-gauthier-huguenin",
+    "skills/rediger-projet-gauthier-huguenin",
+    "skills/tool-legifrance-fr-sboghossian"
   ]
 }

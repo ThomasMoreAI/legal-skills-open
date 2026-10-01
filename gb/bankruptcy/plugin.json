@@ -1,0 +1,14 @@
+{
+  "name": "gb-bankruptcy",
+  "displayName": "Bankruptcy & Restructuring — United Kingdom",
+  "version": "0.1.0",
+  "description": "Bankruptcy & Restructuring skills under the law of United Kingdom.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "bankruptcy",
+  "language": "en",
+  "skills": [
+    "skills/uk-insolvency-applicability-checker-rohasnagpal"
+  ]
+}

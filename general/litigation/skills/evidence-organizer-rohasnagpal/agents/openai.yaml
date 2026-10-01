@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence Organizer"
+  short_description: "Map evidence to disputed facts and issues"
+  default_prompt: "Use $evidence-organizer to map each item to the facts, elements, witnesses, authenticity foundation, objections, and evidential gaps in this matter."

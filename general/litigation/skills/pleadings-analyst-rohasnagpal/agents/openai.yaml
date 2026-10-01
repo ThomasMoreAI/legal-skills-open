@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pleadings Analyst"
+  short_description: "Audit pleadings, admissions, and live issues"
+  default_prompt: "Use $pleadings-analyst to compare these pleadings for causes of action, admissions, denials, inconsistencies, missing particulars, defences, and issues for determination."

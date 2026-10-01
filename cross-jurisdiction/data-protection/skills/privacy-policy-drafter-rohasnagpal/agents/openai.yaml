@@ -1,0 +1,4 @@
+interface:
+  display_name: "Privacy Policy Drafter"
+  short_description: "Audit project data flows and draft notices"
+  default_prompt: "Use $privacy-policy-drafter to inspect this project's website or application code, derive its actual data flows, identify unresolved operational facts, and create an accurate privacy policy."

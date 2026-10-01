@@ -1,0 +1,20 @@
+claude-legal-br
+Copyright 2026 Enzo Bossmann
+
+This product is a derivative work of "claude-for-legal"
+Copyright 2026 Anthropic PBC
+Licensed under the Apache License, Version 2.0.
+
+Modifications by Enzo Bossmann (2026):
+- Adapted the plugins from United States law to Brazilian law
+  (Código Civil, LGPD, CLT, CDC, CPC, LPI, Lei 14.133/2021, and related
+  regulation from CNJ, ANPD, BCB, CVM, CFM, OAB).
+- Added local CNJ MCP connectors (DataJud, DJEN) for public read-only
+  process metadata and electronic-gazette intimations.
+- Added the anti-injection plugin and Brazilian-specific skills and
+  managed-agent cookbooks.
+
+Files throughout this repository have been modified from their original
+form. See the git history for the specific changes.
+
+The Apache 2.0 license text is in the LICENSE file.

@@ -1,0 +1,14 @@
+{
+  "name": "ch-corporate",
+  "displayName": "Corporate — Switzerland",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Switzerland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/switzerland-zefix-nolpak14"
+  ]
+}

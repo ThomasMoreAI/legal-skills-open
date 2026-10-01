@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Family Education"
+  short_description: "Poland Family Education: run focused tasks"
+policy:
+  allow_implicit_invocation: false

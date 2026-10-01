@@ -17,11 +17,19 @@
     "skills/compliance-check-nordic-ai",
     "skills/compliance-mapping",
     "skills/compliance-mapping-community-access",
+    "skills/compliance-os-alirezarezvani",
     "skills/cultural-heritage-summary",
+    "skills/deploy-ai-compliance-engine-frootai",
+    "skills/ethics-review-poemswe",
     "skills/europarechtskonformitaet",
     "skills/heritage-protection-summary",
     "skills/legal-compliance",
+    "skills/prompt-pack-regulatory-filing-checklist-sboghossian",
     "skills/reg-gap-analysis",
-    "skills/regulatory-guard"
+    "skills/reg-gap-analysis-bossmann007",
+    "skills/regulatory-guard",
+    "skills/safety-bar-rule-5-5-upl-ai-sboghossian",
+    "skills/safety-no-legal-advice-disclaimer-rules-sboghossian",
+    "skills/wcag-sushegaad"
   ]
 }

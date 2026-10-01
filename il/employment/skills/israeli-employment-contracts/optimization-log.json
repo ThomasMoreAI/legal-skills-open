@@ -1,0 +1,34 @@
+{
+  "cycles": [
+    {
+      "version": "1.0.5",
+      "date": "2026-06-25",
+      "lessons": [
+        "Dmei havra'a 451.5 increase signed 2026-06-22 but pending Ministry of Labor extension order; re-check next cycle whether the tzav harchava was signed and flip 418->451.5 if so.",
+        "Expert MAJOR deferred: add pension salary ceiling (avg wage) note next cycle - value needs authoritative verification.",
+        "Public-sector havra'a precise figure dropped to avoid drift; re-add only with a verified source if needed."
+      ]
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-06-25",
+      "round": "expert-review-fix",
+      "lessons": [
+        "CRITICAL fixed: the notice-period table wrongly applied the monthly-paid year-one ladder (6 days + 2.5/month for months 7-12) to BOTH columns. Daily/hourly-paid (oved be'sachar) get a FLAT 1 day per month worked across the whole first year (up to 12 days at year-end), per kolzchut הודעה_מוקדמת_לפיטורים. Fixed SKILL.md/SKILL_HE.md tables, mandatory-clauses.md, and generate_contract.py (added pay_basis param + hourly branch). Lesson: when a rule has separate monthly-vs-hourly ladders, never collapse them into one column.",
+        "MAJOR fixed: the statutory severance formula (one month's last salary per year, Severance Pay Law 1963 s.12, pro-rated) was missing from the drafting flow. Added a severance block to Step 2 with the recognized resignation exceptions (relocation, health, employer breach, post-birth), and a severance-basis sentence to the generated pension/severance section for the non-Section-14 case. Section 14 alone is not the whole severance story.",
+        "MINOR fixed: EN pension-eligibility line now mirrors HE (day 1 if prior pension, else after 6 months); probation 'shortened notice' reworded to 'statutory notice applies' (no statutory shortened-notice concept exists); day-1 medical-certificate softened to 'as the employer reasonably specifies'.",
+        "Evidence cleanup: removed the stale btl-employer reduced-rate entry (skill uses the current 4.51 reduced employer rate, not the old historical figure); added WebFetch-verified entries for the hourly first-year notice rule and the severance formula + resignation exceptions. Verifier flagged Hebrew 'סעיף 12' separately from English 'Section 12' - evidence claim text must carry BOTH forms when a section number appears in both languages.",
+        "Build-artifact hygiene: references/domain-checklist.md tripped the evidence gate (https:// URLs extracted as claims) and carried 11 em dashes; moved it to /tmp build artifacts rather than rewriting. It was never listed in Bundled Resources so no SKILL.md reference needed updating."
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-07-07",
+      "lessons": [
+        "Added domestic/household worker (oved meshek bayit) variant from a WhatsApp community request: all salaried rights apply, household is BL employer (meshek-bayit track, >6-day threshold), hours-record burden on employer, 36h weekly rest.",
+        "Expert review caught: live-in caregivers fall outside the Hours of Work and Rest Law overtime provisions (Gluten line) so overtime is a global payment not per-hour 125/150, and courts recognized a ~25h (not 36h) weekly rest for live-in care workers. Added.",
+        "Expert review caught: the meshek-bayit NI track has its own rates (age/status dependent) and QUARTERLY cadence, NOT Step 6's regular-employer monthly Form 126 rates. Added a warning + route to the BL rates page rather than quoting a single household rate (rate-table-completeness caution)."
+      ]
+    }
+  ]
+}

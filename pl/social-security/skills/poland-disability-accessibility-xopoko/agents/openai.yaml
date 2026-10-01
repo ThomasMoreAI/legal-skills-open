@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Disability Accessibility"
+  short_description: "Poland Disability Accessibility: run focused tasks"
+policy:
+  allow_implicit_invocation: false

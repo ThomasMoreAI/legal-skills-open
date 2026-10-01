@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Stay Residence"
+  short_description: "Poland Stay Residence: run focused tasks"
+policy:
+  allow_implicit_invocation: false

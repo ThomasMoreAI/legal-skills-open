@@ -1,0 +1,14 @@
+{
+  "name": "hk-corporate",
+  "displayName": "Corporate — Hong Kong SAR (China)",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Hong Kong SAR (China).",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "hk",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/hong-kong-companies-nolpak14"
+  ]
+}

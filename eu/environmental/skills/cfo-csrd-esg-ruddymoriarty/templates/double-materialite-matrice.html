@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Matrice de double matérialité — {{COMPANY_NAME}}</title>
+<style>
+  @page { size: A3 landscape; margin: 10mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Dosis', 'Helvetica Neue', sans-serif; }
+  body { background: #F6F6F6; color: #002E72; padding: 20px; }
+  h1 { font-size: 26px; border-bottom: 2px solid #E14F0A; padding-bottom: 8px; margin-bottom: 16px; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 24px; }
+
+  .matrice-container {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 24px;
+    position: relative;
+    height: 400px;
+  }
+  .matrice-2d {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to top right, #EFE 0%, #FFC 50%, #FED 100%);
+    border-left: 2px solid #002E72;
+    border-bottom: 2px solid #002E72;
+  }
+  .axis-label { position: absolute; font-size: 12px; font-weight: 700; color: #002E72; }
+  .axis-x { bottom: -25px; right: 0; }
+  .axis-y { top: 0; left: -10px; transform: rotate(-90deg) translateX(-50%); transform-origin: 0 0; }
+
+  .sujet-point {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #E14F0A;
+    border-radius: 50%;
+    transform: translate(-50%, 50%);
+    cursor: help;
+  }
+  .sujet-point.materiel { background: #C00; }
+  .sujet-point.non-materiel { background: #aaa; }
+
+  table { width: 100%; border-collapse: collapse; background: #fff; font-size: 12px; }
+  th { background: #002E72; color: #fff; padding: 8px; text-align: left; }
+  td { padding: 6px 8px; border-bottom: 1px solid #eee; }
+  .materiel-row { background: #FFF4ED; }
+  .non-materiel-row { background: #FAFAFA; color: #666; }
+
+  .footer { margin-top: 16px; display: flex; height: 10px; }
+  .footer-left { width: 50%; background: #002E72; }
+  .footer-right { width: 50%; background: #E14F0A; }
+</style>
+</head>
+<body>
+  <h1>Matrice de double matérialité — CSRD ESRS</h1>
+  <div class="meta">
+    Société : <strong>{{COMPANY_NAME}}</strong> · Date : {{DATE}} · {{NB_SUJETS}} sujets évalués · Seuil matérialité : {{SEUIL}}
+  </div>
+
+  <div class="matrice-container">
+    <div class="matrice-2d">
+      {{POINTS_HTML}}
+      <div class="axis-label axis-x">Impact materiality →</div>
+      <div class="axis-label axis-y">Financial materiality →</div>
+    </div>
+  </div>
+
+  <h2 style="font-size: 16px; margin-bottom: 8px;">Standards ESRS à reporter</h2>
+  <p style="margin-bottom: 16px; padding: 12px; background: #FFF4ED; border-left: 4px solid #E14F0A;">
+    {{STANDARDS_A_REPORTER}}
+  </p>
+
+  <h2 style="font-size: 16px; margin-bottom: 8px;">Sujets matériels (à reporter intégralement)</h2>
+  <table>
+    <thead><tr><th>Sujet</th><th>ESRS</th><th>Score impact</th><th>Score financial</th><th>Nature</th></tr></thead>
+    <tbody>{{SUJETS_MATERIELS_ROWS}}</tbody>
+  </table>
+
+  <h2 style="font-size: 16px; margin: 16px 0 8px;">Sujets non matériels (justification requise)</h2>
+  <table>
+    <thead><tr><th>Sujet</th><th>ESRS</th><th>Score impact</th><th>Score financial</th></tr></thead>
+    <tbody>{{SUJETS_NON_MATERIELS_ROWS}}</tbody>
+  </table>
+
+  <div class="footer">
+    <div class="footer-left"></div>
+    <div class="footer-right"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "no-corporate",
+  "displayName": "Corporate — Norway",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Norway.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "no",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/norway-company-registry-nolpak14"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "source": "CEV Informe Final — Tomo 'Hallazgos y recomendaciones' (2022)",
+    "total": 67,
+    "blocks": 8,
+    "structure": "Each of 67 numbered recommendations carries an addressee and a horizon (corto/mediano/largo plazo). Monitored by a Comité de Seguimiento y Monitoreo. Estimated reparation need: COP 328.3 trillion (Contraloría, 2021 constant).",
+    "note": "Encoded at block granularity with the key specific recommendations per block (faithful to the synthesis; not a verbatim transcription of every numbered article).",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "blocks": [
+    {
+      "block": 1,
+      "rec_range": "1-7",
+      "theme": "peacebuilding",
+      "title": "Avanzar en la construcción de paz como un proyecto nacional",
+      "keywords": ["paz", "acuerdo de paz", "implementación", "ELN", "negociación", "reincorporación", "ministerio de paz", "venezuela", "desminado", "paramilitary successors", "ethnic chapter", "gender"],
+      "recommendations": [
+        "Full integral implementation of the Acuerdo Final de Paz (territorial, ethnic, gender approaches; accelerate the ethnic chapter and gender measures)",
+        "Security and reincorporation guarantees for FARC-EP ex-combatants (incl. widows/orphans of assassinated ex-combatants)",
+        "Create a Ministerio para la Paz y la Reconciliación",
+        "A new international policy, including restoring relations with Venezuela",
+        "Humanitarian measures and demining",
+        "Prioritize dialogue to end armed confrontation: a negotiated, definitive exit with the ELN (recover 2017-2018 advances)",
+        "A submission/dismantling policy for criminal and paramilitary-successor organizations via the Comisión Nacional de Garantías de Seguridad",
+        "Review and adjust rights-restoration and reintegration of de-linked children"
+      ]
+    },
+    {
+      "block": 2,
+      "rec_range": "8-14",
+      "theme": "victims-memory-reparation",
+      "title": "Reparación integral, memoria, rehabilitación y reconocimiento de la dignidad de las víctimas",
+      "keywords": ["reparación", "memoria", "víctimas", "museo de memoria", "falsos positivos", "UP", "exilio", "desaparición", "UBPD", "rehabilitación", "salud mental", "psychosocial", "archives"],
+      "recommendations": [
+        "State leadership of extrajudicial recognition-of-responsibility acts — incl. explicit State recognition in 'falsos positivos', in paramilitarism, and in the UP genocide, plus invisible victims (exiles, justice officials)",
+        "Non-regressive adjustment of the Victims & Land-Restitution Law and Ethnic Decrees toward integral, differentiated, transformative reparation",
+        "Recognition of exile as a grave violation with return/relocation measures",
+        "Recognition of victimized ex-combatants",
+        "Emergency compliance with international reparation orders",
+        "Strengthen integral physical/mental-health and psychosocial care",
+        "A national memory-and-truth policy incl. a permanent, government-independent Museo de Memoria de Colombia and a strengthened Human-Rights Archives strategy",
+        "A comprehensive forced-disappearance policy strengthening the UBPD for the 120,000+ disappeared, supporting the buscadoras"
+      ]
+    },
+    {
+      "block": 3,
+      "rec_range": "15-27",
+      "theme": "democracy",
+      "title": "Consolidar una democracia incluyente, amplia y deliberativa",
+      "keywords": ["democracia", "participación", "reforma política", "reforma electoral", "protesta social", "estigmatización", "líderes sociales", "campesinado", "patriarcado", "pueblos étnicos", "paridad"],
+      "recommendations": [
+        "A national political pact to deepen democracy and prevent political violence",
+        "Electoral/political reform (proportional inclusive representation, internal party democracy, financing transparency)",
+        "Citizen-participation and deliberative-dialogue mechanisms",
+        "A statute of rights/guarantees for social organizations and movements",
+        "Recognition and protection of social protest and mobilization as democratic participation — end its criminalization; graduated/proportional use of force",
+        "Public officials must cease stigmatizing human-rights defenders and leaders",
+        "Effective security guarantees for leaders, defenders and ex-combatants",
+        "Recognition and political participation of the campesinado as a subject of rights",
+        "Equality pacts and patriarchy-dismantling for women and LGBTIQ+",
+        "Concerted constitutional-rights guarantees for ethnic peoples"
+      ]
+    },
+    {
+      "block": 4,
+      "rec_range": "28-29",
+      "theme": "drug-policy",
+      "title": "Enfrentar los impactos del narcotráfico y de la política de drogas",
+      "keywords": ["narcotráfico", "drogas", "política de drogas", "regulación legal", "prohibicionismo", "cannabis", "coca", "cocalero", "salud pública", "erradicación", "glifosato", "war on drugs"],
+      "recommendations": [
+        "A comprehensive shift FROM the drug war / prohibitionism TO strict legal regulation (regulación legal estricta): legalize cannabis (medicinal/recreational), decriminalize personal-use possession, treat drug use as public health, regulate coca cultivation with support for the campesino cocalero, end environmentally/community-harmful eradication",
+        "Reformulate international drug policy — advocate UN-level drug-policy reform and regional cooperation"
+      ]
+    },
+    {
+      "block": 5,
+      "rec_range": "30-38",
+      "theme": "impunity-justice",
+      "title": "Superar la impunidad, judicializar los entramados de criminalidad organizada y corrupción, mejorar el acceso a la justicia local",
+      "keywords": ["impunidad", "justicia", "fiscal general", "corrupción", "crimen organizado", "extradición", "terceros", "jueces", "fiscales", "acceso a la justicia"],
+      "recommendations": [
+        "Reform Fiscal General (Prosecutor General) selection for independence (merit, tenure, security)",
+        "Independent review of investigative methods",
+        "Prioritize investigation of systematic violence (DDHH/DIH) and large-scale corruption tied to organized crime",
+        "Protect judges, prosecutors, witnesses, victims",
+        "Prioritize investigation of third parties who interfere in judicial processes",
+        "Condition extradition on prior clarification of crimes and victims' rights in Colombia",
+        "An evidence-systematizing commission on organized-crime networks",
+        "Memorialize violence against the justice system",
+        "Improve local justice access for those facing poverty, remoteness, discrimination, disability, ethnic and gender barriers"
+      ]
+    },
+    {
+      "block": 6,
+      "rec_range": "39-48",
+      "theme": "security",
+      "title": "Una nueva visión de seguridad para la paz",
+      "keywords": ["seguridad", "seguridad humana", "fuerza pública", "militar", "policía", "inteligencia", "archivos de inteligencia", "control civil", "armas", "fronteras", "private security", "human security"],
+      "recommendations": [
+        "Adopt a new security vision centered on HUMAN SECURITY (seguridad como bien público centrado en las personas) — overcome the war/enemy and drug-war paradigm",
+        "Transform the security sector: redefine military and police roles/missions; democratic civilian supervision; institutional-culture change (training in human rights, gender, community relations)",
+        "Strengthen preventive/penal/disciplinary/fiscal controls over the Military Forces, Police and intelligence",
+        "Guarantee classification/declassification and access to intelligence archives (Rec. 41)",
+        "Derogate the 30-year reserve, keeping a non-renewable 15-year maximum (Rec. 42)",
+        "Derogate Decree 2149 of 2017 with archive depuración and civil-society participation (Rec. 43); JEP to protect/preserve archives (Rec. 44)",
+        "Control private security companies under civilian oversight (Rec. 45)",
+        "Strengthen civilian firearms control (Rec. 46)",
+        "A differentiated rural and border security strategy (Rec. 47)",
+        "Subject international military-cooperation agreements to public debate and transparency (Rec. 48)"
+      ]
+    },
+    {
+      "block": 7,
+      "rec_range": "49-61",
+      "theme": "territorial-peace",
+      "title": "Contribuir a la paz territorial",
+      "keywords": ["paz territorial", "tierra", "reforma agraria", "catastro multipropósito", "descentralización", "territorios étnicos", "frontera agrícola", "escazú", "PDET", "restitución de tierras", "despojo", "rural"],
+      "recommendations": [
+        "A sustainable territorial-development strategy reversing rural inequality",
+        "Decentralization and territorial autonomy with recognition of ethnic authorities",
+        "Complete the multipurpose cadastre (catastro multipropósito)",
+        "Agrarian reform to reverse extreme land concentration (smallholder access, progressive land taxation, recovery of unproductive/illicitly accumulated baldíos, regularization, environmental standards)",
+        "Define the agricultural frontier (frontera agrícola)",
+        "Constitute/expand/sanitize ethnic territories",
+        "Sustainable agri-food systems and food security",
+        "Ratify the Escazú Agreement",
+        "Reduce urban-rural gaps via the 16 PDET roadmaps and the 17 ethnic macro-territories; accelerate the Reforma Rural Integral",
+        "A comprehensive land-dispossession prevention/reversal policy with accelerated land restitution"
+      ]
+    },
+    {
+      "block": 8,
+      "rec_range": "62-67",
+      "theme": "culture-of-peace",
+      "title": "Lograr una cultura para vivir en paz",
+      "keywords": ["cultura de paz", "educación para la paz", "periodismo", "medios", "comunidades de fe", "reconciliación", "legado", "transmedia", "memory education"],
+      "recommendations": [
+        "Education for peace (curricular inclusion of conflict history, human rights, non-violence, restorative coexistence)",
+        "Peace pacts in educational institutions",
+        "A coordinating instance under the new Peace Ministry joining culture, media and faith communities",
+        "Peace journalism and media self-analysis of war narratives",
+        "Faith communities to promote dignity, reconciliation and forgiveness",
+        "Know, disseminate and continue the Commission's legacy (the Informe, the Human-Rights Archive, the Sistema de Información Misional, the Transmedia Digital)"
+      ]
+    }
+  ]
+}

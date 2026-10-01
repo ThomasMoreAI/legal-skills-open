@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintenance Calculator"
+  short_description: "Model maintenance needs, means, and scenarios"
+  default_prompt: "Use $maintenance-calculator to calculate transparent maintenance scenarios from these verified income, expense, asset, and childcare figures."

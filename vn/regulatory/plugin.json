@@ -1,0 +1,14 @@
+{
+  "name": "vn-regulatory",
+  "displayName": "Regulatory & Compliance — Vietnam",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills under the law of Vietnam.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "vn",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/vietnam-business-nolpak14"
+  ]
+}

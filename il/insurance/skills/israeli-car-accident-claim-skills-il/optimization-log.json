@@ -1,0 +1,23 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.2",
+      "date": "2026-09-20",
+      "lessons": [
+        "Fresh post-ship router review found the s.8 exclusivity note firing unconditionally, contradicting the s.7 branch fixed in 1.2.1: when hedging a claim in prose, grep the SCRIPT for the same assertion."
+      ]
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-19",
+      "lessons": [
+        "Expert MAJOR deferred: death and dependants routing (s.7B to Karnit) not modelled in the script.",
+        "Expert MAJOR deferred: DUI out-of-scope row should be split; 'I was drunk, who pays' is answerable (drunkenness is not a s.7 ground).",
+        "Expert MAJOR deferred: lender liability s.2(b) and insurer recovery s.9(a) from an unlicensed or uninsured driver.",
+        "Expert MINOR deferred: s.12(a)(2) international insurance card carve-out; definition of 'involved' vehicle under s.3(b).",
+        "Expert MINOR deferred: script prints the e-bike note and escalation notes on every run; gate them on relevance.",
+        "Enriched FAQ said 7 years for property claims; corrected this cycle to the 3-year own-insurer period."
+      ]
+    }
+  ]
+}

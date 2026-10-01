@@ -5,14 +5,26 @@ description: Draft Israeli employment contracts (chozeh avoda) with all mandator
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-employment-contracts
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: employment
 language: en
+sources:
+- title: Labor Law
+  path: references/labor-law.md
+- title: Mandatory Clauses
+  path: references/mandatory-clauses.md
 ---
 
 # Israeli Employment Contracts
+
+## Legal notice
+
+This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+
+Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+
 
 ## Instructions
 
@@ -24,9 +36,21 @@ Ask the user what type of employment relationship they need to document:
 |------|--------|-----------------|-----------------|
 | Full-time employee | avod mashara mlea | Fixed hours, employer control, tools provided | Full employment contract (chozeh avoda) |
 | Part-time employee | avod mashara chelkit | Reduced hours, same rights pro-rata | Full contract with adjusted hours |
+| Domestic/household worker | oved meshek bayit | Cleaner, nanny, or caregiver employed directly by a household | Full contract plus the domestic-worker clauses below |
 | Contractor (atzmai) | kablan atzmai | True independence, multiple clients, own tools | Service agreement (NOT this skill) |
 
 **Contractor misclassification warning:** Israeli courts apply a multi-factor test. If a worker has fixed hours, uses employer equipment, works exclusively for one company, and receives regular monthly payments, they are likely an employee regardless of what the contract states. Misclassification exposes the employer to retroactive benefits, severance, and penalties.
+
+### Step 1b: Domestic and Household Workers (Oved Meshek Bayit)
+
+A salaried cleaner, nanny, or caregiver employed directly by a household is a regular employee: "עובדות ועובדים במשק בית זכאים לכל הזכויות שמוענקות לעובדים שכירים". So the full contract in this skill applies (minimum wage, one-month-per-year severance, convalescence pay, pension, a Notice to Employee). Add these domestic-specific clauses on top:
+
+- **The household is the employer for National Insurance.** A private household that employs a domestic worker must report the worker to Bituach Leumi and pay National Insurance and health contributions for them. This is what secures the worker's work-accident, maternity, and old-age rights. Reporting and payment go through the Bituach Leumi household-employer (meshek bayit) track: "המעסיק צריך לדווח על העובד באופן שוטף, ולשלם את דמי הביטוח עבורו ארבע פעמים בשנה". It has its OWN contribution rates (which depend on the worker's age and status) and is paid QUARTERLY, four times a year, on a household-employer voucher, not the monthly Form 126 route. The worker's own National-Insurance-and-health share is withheld from their wages and the household remits the combined sum. Do NOT apply Step 6's regular-employer rate here; look up the current household-track rate on the Bituach Leumi meshek-bayit rates page.
+- **Log the hours; the burden is on the employer.** Domestic-worker hours are hard to reconstruct after the fact, and the law puts the burden of proving hours on the employer: "נטל ההוכחה לגבי מספר שעות העבודה שעבד העובד הוא על המעסיק". So a disputed, unrecorded hour is generally decided in the worker's favor. The contract should fix the weekly schedule and require a simple written or app-based hours log that both sides sign off on.
+- **Weekly rest.** For a live-out worker on a fixed schedule, state the standard weekly rest of at least 36 consecutive hours that includes the worker's own day of rest. For a live-in caregiver, courts have recognized a shorter weekly rest of at least 25 hours, since the Hours of Work and Rest Law does not apply in full to a live-in care worker (see the overtime point below).
+- **Live-in caregivers and overtime.** When the worker lives in the patient's home and their hours cannot be reasonably supervised, the Hours of Work and Rest Law's overtime provisions do not apply: "עובד שלא ניתן לפקח על שעות עבודתו באמצעים טכנולוגיים סבירים, אינו זכאי לגמול שעות נוספות". So a live-in caregiver's extra hours are handled by a fair global overtime payment (gmul globali) agreed in advance, not per-hour 125%/150% under Step 2, as long as the global sum is genuine and not a device to underpay. A live-OUT cleaner or nanny on a fixed schedule is fully under the Law and IS entitled to per-hour overtime.
+- **Live-in vs live-out.** For a live-in worker, spell out the sleeping arrangement, privacy, and that lodging and meals provided in kind can count toward wage only within the limits the law allows, never as a way to drop cash pay below the minimum wage. For a live-out worker, cover travel-time and transport reimbursement.
+- **Foreign caregivers are a different track.** If the worker is a FOREIGN caregiver (permit, licensed bureau, country-of-origin holidays, the reduced National Insurance rate, deposit fund), the payroll and permit mechanics live in the `foreign-caregiver-payroll` skill. This skill covers the CONTRACT for a salaried Israeli household worker; pair the two for a foreign caregiver.
 
 ### Step 2: Calculate Mandatory Benefits
 
@@ -41,16 +65,21 @@ All rates below are current as of 2025-2026. Verify rates annually as they may b
 
 | Component | Employer | Employee | Notes |
 |-----------|----------|----------|-------|
-| Pension fund contribution | 6.5% of salary | 6% of salary | Mandatory from day 1 for new employees (or after 6 months if no prior pension) |
-| Severance component (within pension) | 8.33% of salary | -- | Part of the 6.5% or in addition, per arrangement |
+| Pension fund contribution | 6.5% of salary | 6% of salary | Mandatory from day 1 if the employee has prior pension coverage; otherwise after 6 months |
+| Severance component (within pension) | 6% minimum; 8.33% (1/12) fully funds the month-per-year rate | -- | 8.33% comes from the General Authorization under Section 14, NOT from Section 14 itself. At 6% the fund covers about 72% of the statutory figure and the balance is still owed |
 | Total employer cost | Up to 14.83% | -- | If Section 14 applies |
 
 **Section 14 (Saif 14) arrangement:**
-Section 14 of the Severance Pay Law (1963) allows the employer to designate pension/insurance contributions as covering the full severance obligation. When activated:
+Section 14 is a PROHIBITION with exceptions, not a permission. It provides that a payment to a provident fund, pension fund or similar `לא יבוא במקום פיצויי פיטורים` UNLESS an applicable collective agreement so provides, or the Minister of Labour has approved it. In practice the route is the Minister's General Authorization (אישור כללי, י"פ תשנ"ח 4394), and the arrangement only replaces severance to the extent its conditions are met. When it applies:
 - Employer deposits to pension fund count as severance payment
 - Upon termination, employee receives the pension fund balance instead of calculated severance
 - Employer is exempt from paying additional severance beyond what was deposited
 - Must be documented explicitly in the contract with employee consent
+
+**Statutory severance (Pitzuei Piturin, Severance Pay Law 1963):**
+- Section 12 sets TWO rates, and which applies turns on how the wage is computed, not on hours worked. An `עובד במשכורת` (one whose pay is mainly computed on a monthly or longer basis) gets one month's last salary per year of employment with the same employer or workplace. An `עובד בשכר` (anyone else, i.e. paid on an hourly or daily basis) gets two weeks' pay per year. Section 12(ב) lets the Minister raise the rate for an `עובד בשכר` by regulation, and a collective or extension order may do so too, so check what applies before quoting the two-week figure. Both are pro-rated for partial years. For an hourly worker with fluctuating hours, the last salary is figured on the average position scope over the whole employment period
+- Severance is normally owed on dismissal. Some resignations are also recognized as entitling the employee to severance: a move of residence (mostly for a spouse's relocation), poor health of the employee or a family member, a tangible worsening of employment terms by the employer, and resignation within the protected window after giving birth or adoption to care for the child
+- When Section 14 applies, the monthly pension/insurance deposits stand in for this statutory severance for the salary and period they cover. When Section 14 does NOT apply, the employer still owes the full Section 12 calculation on termination
 
 **Keren Hishtalmut (education fund):**
 
@@ -71,7 +100,7 @@ Section 14 of the Severance Pay Law (1963) allows the employer to designate pens
 | Years 16-19 | 9 days | Per-day rate x days |
 | Year 20+ | 10 days | Per-day rate x days |
 
-The per-day rate is updated annually by extension order. As of 2026 the private-sector rate is approximately **418 NIS per day**; the public-sector rate is approximately **471.4 NIS per day** per collective agreement. Verify the current rate annually (the 2025-2026 private-sector freeze window has now passed). Typically paid as a lump sum in June-July.
+The per-day rate is updated by extension order. The private-sector rate for havra'a year 2026 (1.7.2025 to 30.6.2026) is **451.5 NIS per day**, raised from 418 by the extension order published on 18 August 2026. An employer who already paid at 418 owes the difference of 33.50 NIS for each havra'a day. The rate follows the havra'a year the payment is for, not the date it was paid.
 
 **Annual leave (Chofsha) per Annual Leave Law:**
 
@@ -88,15 +117,17 @@ Many employers offer more generous leave. These are statutory minimums.
 - Accrual: 1.5 days per month of employment (18 days per year)
 - Maximum accumulation: 90 days
 - Payment: Day 1 unpaid, days 2-3 at 50% salary, day 4 onward at 100% salary
-- Requires medical certificate from day 1 (or per company policy)
+- Requires a medical certificate as the employer reasonably specifies (commonly from the first day of absence)
 
 **Notice periods:**
 
 | Seniority | Monthly-paid employee | Daily/hourly-paid employee |
 |-----------|----------------------|---------------------------|
-| Months 1-6 | 1 day per month worked | 1 day per month worked |
-| Months 7-12 | 6 days + 2.5 days per month from month 7 | 6 days + 2.5 days per month from month 7 |
+| Months 1-6 | 1 day per month worked | 1 day per month worked (all 12 months) |
+| Months 7-12 | 6 days + 2.5 days per month from month 7 | 1 day per month worked (all 12 months) |
 | Year 2+ | 1 month | 1 month |
+
+The two first-year columns differ. A monthly-paid employee earns 1 day per month for months 1-6, then 6 days plus 2.5 days for each month from month 7. A daily/hourly-paid employee (oved be'sachar) earns a flat 1 day of notice per month worked across the whole first year, reaching up to 12 days at year-end.
 
 **Overtime (per Hours of Work and Rest Law):**
 - Standard work week: 42 hours (since April 2018)
@@ -191,7 +222,7 @@ After the contract is signed, the employer must complete:
 1. **Bituach Leumi (National Insurance Institute) registration:**
    - Register new employee within 7 days of start date
    - Report via Form 126 (monthly payroll report)
-   - Employer pays approximately 3.55% (reduced rate) to 7.6% (full rate) depending on salary bracket
+   - Employer pays 4.51% (reduced rate, on the lower salary bracket) to 7.6% (full rate, on the higher bracket) in 2026, depending on salary
 
 2. **Pension fund enrollment:**
    - Enroll employee in chosen pension fund
@@ -251,6 +282,10 @@ Actions:
 4. Warn: Misclassification liability includes retroactive benefits, severance, Bituach Leumi penalties
 Result: Classification recommendation with risk analysis and next steps.
 
+### Example 5: Salaried Nanny Employed by a Household
+User says: "We are hiring a nanny 4 days a week, draft the employment contract"
+Actions: Draft a full employment contract (minimum wage, pension, convalescence, one-month-per-year severance, a Notice to Employee), then add the domestic-worker clauses: register the household as an employer with Bituach Leumi on the meshek-bayit track and pay National Insurance for her, fix the weekly schedule with a signed hours log (the burden of proving hours is on the household), and state the 36-hour weekly rest. Note this is a local salaried worker, so foreign-caregiver permit and payroll rules do not apply.
+
 ## Bundled Resources
 
 ### Scripts
@@ -266,7 +301,8 @@ Result: Classification recommendation with risk analysis and next steps.
 - Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
 - The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
 - Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
-- The convalescence pay (Dmei Havra'a) per-day rate is updated annually by extension order (approximately 418 NIS/day private sector, 471.4 NIS/day public sector as of 2026). Agents using a fixed amount from their training data will produce incorrect calculations. Verify the current rate annually against the Ministry of Economy or a current labor-law source.
+- The convalescence pay (Dmei Havra'a) rate for havra'a year 2026 is 451.5 NIS/day, raised from 418 by the extension order of 18 August 2026. An employer who paid at 418 owes 33.50 NIS per havra'a day.
+- Section 14 only covers severance for the period from the date the written consent is signed. If it is activated mid-employment, the years worked before signing still owe a full severance top-up; do not present a mid-tenure Section 14 signature as wiping out prior-year severance liability.
 
 ## Troubleshooting
 
@@ -295,11 +331,13 @@ Solution: Register immediately via the Bituach Leumi employer portal. Late regis
 | Source | URL | What to Check |
 |--------|-----|---------------|
 | Kol Zchut: personal employment contract | https://www.kolzchut.org.il/he/%D7%97%D7%95%D7%96%D7%94_%D7%A2%D7%91%D7%95%D7%93%D7%94_%D7%90%D7%99%D7%A9%D7%99 | Plain-language explanation of contract terms and mandatory clauses |
-| Ministry of Labor | https://www.gov.il/he/departments/ministry_of_labor_social_affairs_and_social_services | Official labor regulations, minimum wage, extension orders |
+| Kol Zchut: employment and workers' rights portal | https://www.kolzchut.org.il/he/תעסוקה_וזכויות_עובדים | Employment rights hub: wage components, terms, sickness, leave, end of employment |
 | Nevo: Notice to Employee Law full text | https://www.nevo.co.il/law_html/law00/71702.htm | Notice to Employee and Job Candidate Law, 5762-2002 statutory text |
-| Nevo: Severance Pay Law full text | https://www.nevo.co.il/law_html/law01/055_001.htm | Severance Pay Law, 1963 statutory text (Section 14, calculation, payment deadline) |
+| Kol Zchut: Severance Pay (Pitzuei Piturin) | https://www.kolzchut.org.il/he/פיצויי_פיטורים | Severance Pay Law, 1963 explained (Section 14, calculation, payment deadline) |
 | Bituach Leumi: employer registration | https://www.btl.gov.il/Insurance/Maasik/MToshavYisrael/Pages/PtichatTik.aspx | Opening an employer deductions file with National Insurance |
-| Tax Authority: Form 101 | https://www.gov.il/he/service/form_101 | Employee tax declaration form for new hires |
+| Bituach Leumi: reporting a domestic worker | https://www.btl.gov.il/Insurance/National%20Insurance/type_list/House_keeper/Pages/divuachVetashlum.aspx | Household-employer (meshek bayit) reporting and payment track for a domestic worker |
+| Kol Zchut: domestic workers' rights | https://www.kolzchut.org.il/he/זכותון_עובדים_במשק_בית_%28עוזרות_בית_ומטפלים/ות%29 | Rights of cleaners, nannies, and caregivers; employer duty to report to Bituach Leumi |
+| Kol Zchut: Form 101 | https://www.kolzchut.org.il/he/טופס_101 | Employee tax declaration form (kartis oved) for new hires |
 
 ## Recommended MCP Servers
 

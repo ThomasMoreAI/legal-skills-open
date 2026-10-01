@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-tax",
+  "displayName": "Tax — comparative",
+  "version": "0.1.0",
+  "description": "Tax skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/treaty-analyst-rohasnagpal"
+  ]
+}

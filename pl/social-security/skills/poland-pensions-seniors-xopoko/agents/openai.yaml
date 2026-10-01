@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Pensions Seniors"
+  short_description: "Poland Pensions Seniors: run focused tasks"
+policy:
+  allow_implicit_invocation: false

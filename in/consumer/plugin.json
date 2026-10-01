@@ -1,0 +1,15 @@
+{
+  "name": "in-consumer",
+  "displayName": "Consumer Protection — India",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/compensation-quantifier-rohasnagpal",
+    "skills/deficiency-analyst-rohasnagpal"
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Emergency Rights"
+  short_description: "Poland Emergency Rights: run focused tasks"
+policy:
+  allow_implicit_invocation: false

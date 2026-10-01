@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Consular Travel"
+  short_description: "Poland Consular Travel: run focused tasks"
+policy:
+  allow_implicit_invocation: false

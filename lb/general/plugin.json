@@ -1,0 +1,14 @@
+{
+  "name": "lb-general",
+  "displayName": "General — Lebanon",
+  "version": "0.1.0",
+  "description": "General skills under the law of Lebanon.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "lb",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/justinian-bar-exam-prep-lb-sboghossian"
+  ]
+}

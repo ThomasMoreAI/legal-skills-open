@@ -10,10 +10,14 @@
   "description": "Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23 NYCRR 500, CMMC, SOC 2 / ISO 27001, ANSSI/EBIOS/PSSI, incident-response and operational-resilience programs, and security-control evidence.",
   "skills": [
     "skills/cmmc",
+    "skills/fedramp-sushegaad",
     "skills/incident-response-plan",
     "skills/incident-response-playbook",
+    "skills/nist-800-53-sushegaad",
     "skills/nydfs-expert",
     "skills/nydfs-infosec-program",
+    "skills/soc2-audit-prep-alirezarezvani",
+    "skills/soc2-sushegaad",
     "skills/tsa-compliance-tanaji-hemant-naik-lawve-ai",
     "skills/wisp"
   ]

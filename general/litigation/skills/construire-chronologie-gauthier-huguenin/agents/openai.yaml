@@ -1,0 +1,4 @@
+interface:
+  display_name: "Construire la chronologie"
+  short_description: "Consolider les événements et contradictions"
+  default_prompt: "Utilise $construire-chronologie pour produire une chronologie sourcée et conserver les dates contestées."

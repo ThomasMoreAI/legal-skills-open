@@ -1,0 +1,270 @@
+# insurance-requirements-matrix.yaml
+# Standard lease-required insurance coverage by property type
+# Reference: ISO/CGL forms, ACORD certificate standards
+# Last updated: 2026-03-17
+
+schema_version: "1.0"
+
+# ---------------------------------------------------------------------------
+# Coverage types -- baseline minimums by property type
+# All limits in USD unless noted. "statutory" = state-mandated.
+# ---------------------------------------------------------------------------
+coverage_types:
+
+  general_liability:
+    abbrev: GL
+    form: CGL (ISO CG 00 01)
+    occurrence_limits:
+      office:        2_000_000
+      retail:        2_000_000
+      industrial:    1_000_000
+      multifamily:   2_000_000
+      mixed_use:     2_000_000
+      hospitality:   2_000_000
+    aggregate_limits:
+      office:        4_000_000
+      retail:        4_000_000
+      industrial:    2_000_000
+      multifamily:   4_000_000
+      mixed_use:     4_000_000
+      hospitality:   4_000_000
+    products_completed_ops:
+      office:        2_000_000
+      retail:        2_000_000
+      industrial:    1_000_000
+      multifamily:   2_000_000
+      mixed_use:     2_000_000
+      hospitality:   2_000_000
+    personal_advertising_injury:
+      all:           1_000_000
+    fire_damage_legal_liability:
+      all:             300_000
+    medical_payments:
+      all:              10_000
+
+  automobile_liability:
+    abbrev: AL
+    form: ISO CA 00 01
+    combined_single_limit:
+      office:        1_000_000
+      retail:        1_000_000
+      industrial:    1_000_000
+      multifamily:   1_000_000
+      mixed_use:     1_000_000
+      hospitality:   1_000_000
+    coverage_scope:
+      - owned_autos
+      - hired_autos
+      - non_owned_autos
+    notes: >
+      If tenant has no owned vehicles, hired-and-non-owned endorsement
+      on GL may substitute. Require written confirmation.
+
+  workers_compensation:
+    abbrev: WC
+    form: NCCI standard or state-specific
+    limits:
+      part_a: statutory
+      part_b_each_accident:   1_000_000
+      part_b_disease_policy:  1_000_000
+      part_b_disease_employee: 1_000_000
+    notes: >
+      Sole proprietors/partners may be exempt in some states.
+      Require waiver letter if claimed exempt. Verify state rules.
+
+  umbrella_excess_liability:
+    abbrev: UMB
+    form: Follow-form or standalone
+    limits_by_property_type:
+      office:         5_000_000
+      retail:         5_000_000
+      industrial:     5_000_000
+      multifamily:    5_000_000
+      mixed_use:     10_000_000
+      hospitality:   10_000_000
+    underlying_schedule:
+      - general_liability
+      - automobile_liability
+      - employers_liability
+    notes: >
+      Mixed-use and hospitality carry higher umbrella due to
+      foot traffic exposure and liquor liability risk.
+
+  property_insurance:
+    abbrev: PROP
+    form: ISO CP 00 10 (Special Form preferred)
+    valuation: replacement_cost
+    coverage_basis: special_form_all_risk
+    required_perils:
+      - fire
+      - windstorm
+      - hail
+      - explosion
+      - smoke
+      - vandalism
+      - water_damage
+      - collapse
+    tenant_improvements: full_replacement_cost
+    business_personal_property: full_replacement_cost
+    business_income: 12_months_actual_loss_sustained
+    deductible_max:
+      office:         25_000
+      retail:         25_000
+      industrial:     50_000
+      multifamily:    25_000
+      mixed_use:      25_000
+      hospitality:    50_000
+    notes: >
+      Landlord's building policy covers the shell. Tenant policy
+      covers TI, BPP, and business income/extra expense.
+
+  professional_liability:
+    abbrev: PL
+    form: Claims-made
+    limits:
+      per_claim:     1_000_000
+      aggregate:     2_000_000
+    required_for:
+      - medical_tenants
+      - legal_tenants
+      - accounting_tenants
+      - engineering_tenants
+      - technology_tenants
+      - financial_services_tenants
+    tail_coverage: 3_years_after_lease_expiration
+    notes: >
+      Claims-made policies require retroactive date no later than
+      lease commencement. Extended reporting period (tail) required.
+
+  pollution_liability:
+    abbrev: POLL
+    form: Pollution Legal Liability (PLL)
+    limits:
+      per_occurrence:  1_000_000
+      aggregate:       2_000_000
+    required_for:
+      - industrial_any
+      - auto_repair
+      - dry_cleaners
+      - gas_stations
+      - labs_research
+      - medical_tenants_with_hazmat
+      - food_manufacturing
+    coverage_scope:
+      - bodily_injury
+      - property_damage
+      - cleanup_costs
+      - transportation
+      - non_owned_disposal_sites
+    notes: >
+      Standard CGL excludes pollution. Separate PLL policy is
+      mandatory for any tenant handling hazardous materials.
+
+# ---------------------------------------------------------------------------
+# Required endorsements -- apply to all tenants unless noted
+# ---------------------------------------------------------------------------
+required_endorsements:
+
+  additional_insured:
+    applies_to:
+      - general_liability
+      - umbrella_excess_liability
+      - automobile_liability
+    named_parties:
+      - landlord_entity
+      - property_manager
+      - landlord_lender
+      - landlord_affiliates_as_specified
+    endorsement_forms:
+      gl_ongoing_ops: "CG 20 11"
+      gl_completed_ops: "CG 20 37"
+      blanket_ai: "CG 20 26 (acceptable alternative)"
+    notes: >
+      ISO CG 20 10 (2004 or earlier edition) is preferred because
+      later editions restrict coverage. CG 20 11 + CG 20 37
+      together replicate the broader 2004 coverage.
+
+  waiver_of_subrogation:
+    applies_to:
+      - general_liability
+      - automobile_liability
+      - workers_compensation
+      - property_insurance
+      - umbrella_excess_liability
+    endorsement_forms:
+      wc: "WC 00 03 13"
+      gl: "CG 24 04"
+      property: "CP 15 34 (or equivalent)"
+    notes: >
+      Must be obtained PRIOR to any loss. Post-loss waivers are
+      unenforceable in most jurisdictions.
+
+  primary_and_non_contributory:
+    applies_to:
+      - general_liability
+      - automobile_liability
+    endorsement_form: "CG 20 01 (or policy language amendment)"
+    notes: >
+      Ensures tenant's policy responds first, regardless of
+      landlord's own coverage. Critical for claims allocation.
+
+  notice_of_cancellation:
+    applies_to: all_policies
+    minimum_days:
+      non_payment: 10
+      all_other: 30
+    delivery_method:
+      - certified_mail
+      - email_to_designated_contact
+    notes: >
+      Standard ACORD certificate language provides only
+      "endeavor to" notice. Require endorsement for firm
+      obligation. Some states mandate minimum notice periods.
+
+  certificate_holder:
+    applies_to: all_policies
+    required_text: >
+      [Landlord Entity Name], its officers, directors, employees,
+      agents, affiliates, successors, and assigns, and
+      [Property Manager Name], as their interests may appear.
+
+# ---------------------------------------------------------------------------
+# Verification schedule
+# ---------------------------------------------------------------------------
+verification_schedule:
+  initial: before_lease_execution_or_possession
+  renewal: 30_days_before_policy_expiration
+  annual_audit: january_of_each_year
+  trigger_events:
+    - lease_renewal_or_extension
+    - assignment_or_subletting
+    - tenant_change_of_use
+    - construction_or_alteration_work
+    - claim_or_incident
+
+# ---------------------------------------------------------------------------
+# ACORD certificate requirements
+# ---------------------------------------------------------------------------
+acord_certificate:
+  accepted_forms:
+    - "ACORD 25 (liability)"
+    - "ACORD 27 (property, evidence of insurance)"
+    - "ACORD 28 (property, evidence of insurance)"
+  required_fields:
+    - insured_name_matches_lease
+    - policy_numbers
+    - effective_and_expiration_dates
+    - limits_per_occurrence_and_aggregate
+    - additional_insured_endorsement_listed
+    - waiver_of_subrogation_noted
+    - primary_and_non_contributory_noted
+    - certificate_holder_correctly_named
+    - authorized_agent_signature
+  red_flags:
+    - limits_below_lease_requirement
+    - missing_endorsement_references
+    - certificate_holder_name_misspelled
+    - policy_expired_or_expiring_within_30_days
+    - "endeavor_to" language_without_endorsement
+    - insured_name_does_not_match_tenant_entity
+    - blanket_additional_insured_without_schedule

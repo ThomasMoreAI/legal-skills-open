@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Justice Legal Aid"
+  short_description: "Poland Justice Legal Aid: run focused tasks"
+policy:
+  allow_implicit_invocation: false

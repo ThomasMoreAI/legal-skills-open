@@ -1,0 +1,15 @@
+{
+  "name": "br-consumer",
+  "displayName": "Consumer Protection — Brazil",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "consumer",
+  "language": "pt",
+  "skills": [
+    "skills/ecommerce-compliance-review-bossmann007",
+    "skills/marketing-claims-review-bossmann007"
+  ]
+}

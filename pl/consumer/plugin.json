@@ -1,0 +1,14 @@
+{
+  "name": "pl-consumer",
+  "displayName": "Consumer Protection — Poland",
+  "version": "0.1.0",
+  "description": "Consumer Protection skills under the law of Poland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "consumer",
+  "language": "en",
+  "skills": [
+    "skills/poland-consumer-banking-xopoko"
+  ]
+}

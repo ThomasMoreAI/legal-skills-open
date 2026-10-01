@@ -1,0 +1,15 @@
+{
+  "name": "at-social-security",
+  "displayName": "Social Security & Welfare — Austria",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "social-security",
+  "language": "de",
+  "skills": [
+    "skills/recht-sozial-beschwerde-momarcode1",
+    "skills/recht-sozial-momarcode1"
+  ]
+}

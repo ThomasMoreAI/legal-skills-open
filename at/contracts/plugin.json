@@ -1,0 +1,19 @@
+{
+  "name": "at-contracts",
+  "displayName": "Contracts — Austria",
+  "version": "0.1.0",
+  "description": "Contracts skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "contracts",
+  "language": "de",
+  "skills": [
+    "skills/recht-compare-momarcode1",
+    "skills/recht-missing-momarcode1",
+    "skills/recht-negotiate-momarcode1",
+    "skills/recht-plain-momarcode1",
+    "skills/recht-review-momarcode1",
+    "skills/recht-risks-momarcode1"
+  ]
+}

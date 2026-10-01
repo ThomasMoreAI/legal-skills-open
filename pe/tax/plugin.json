@@ -1,0 +1,14 @@
+{
+  "name": "pe-tax",
+  "displayName": "Tax — Peru",
+  "version": "0.1.0",
+  "description": "Tax skills under the law of Peru.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "pe",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/peru-ruc-nolpak14"
+  ]
+}

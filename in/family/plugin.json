@@ -1,0 +1,14 @@
+{
+  "name": "in-family",
+  "displayName": "Family Law — India",
+  "version": "0.1.0",
+  "description": "Family Law skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/settlement-deed-drafter-rohasnagpal"
+  ]
+}

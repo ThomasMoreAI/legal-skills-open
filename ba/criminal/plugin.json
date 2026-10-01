@@ -1,0 +1,14 @@
+{
+  "name": "ba-criminal",
+  "displayName": "Criminal Law — Bosnia and Herzegovina",
+  "version": "0.1.0",
+  "description": "Criminal Law skills under the law of Bosnia and Herzegovina.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ba",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/wcc-bih-jeannesulzer"
+  ]
+}

@@ -1,0 +1,69 @@
+# Eval queries: israeli-renovation-scope-builder
+# Format: <POS|NEG|EDGE>\t<query>
+# POS  = must trigger this skill
+# NEG  = must NOT trigger (another skill or out of scope)
+# EDGE = ambiguous; decision recorded in the notes at the bottom
+
+POS	אני מתחיל שיפוץ מטבח ורוצה לכתוב מה בדיוק הקבלן אמור לעשות לפני שאני משלם משהו
+POS	I'm renovating my apartment, how do I write a scope of work and payment schedule for the contractor?
+POS	השיפוצניק ביקש חצי מהסכום כמקדמה, זה נורמלי? איך מחלקים את התשלומים לפי שלבים
+POS	אני חשמלאי עצמאי ורוצה לשלוח ללקוח מסמך מסודר עם תנאי העבודה לפני שאני מתחיל
+POS	מה צריך להיות בחוזה שיפוץ, מי קונה את החומרים ומה תקופת הבדק
+POS	the renovation is half done and we disagree about what was agreed, how do I document the remaining scope and milestones
+POS	אני מחליף ריצוף ומזיז קיר פנימי, צריך היתר בנייה או שזה פטור
+
+NEG	קניתי דירה חדשה מקבלן ויש נזילה בצנרת, כמה שנים יש לי להתלונן
+NEG	אני רוצה לנסח חוזה העסקה לעובד חדש שאני מגייס למשרה מלאה
+NEG	I'm building a new private house on my own land, what should I know before choosing an architect
+NEG	אני מעצב גרפי עצמאי וצריך הסכם התקשרות מול לקוח לפרויקט עיצוב
+
+EDGE	השכן מרעיש עם שיפוץ בשעות המנוחה, מה אפשר לעשות
+EDGE	הקבלן שלי לא סיים בזמן, אני רוצה לתבוע אותו
+EDGE	כמה עולה שיפוץ מטבח בתל אביב
+
+# --- Notes on EDGE decisions ---
+#
+# "neighbour renovating at forbidden hours"  -> DO NOT claim. This is a nuisance /
+#   municipal by-law enforcement question from the AFFECTED party, not a scope-of-work
+#   question from a party to the engagement. The skill covers permitted working hours
+#   only as a term to WRITE INTO the user's own engagement. The description must exclude
+#   the complaint-against-a-neighbour framing explicitly, not merely lack it.
+#
+# "contractor was late, I want to sue"       -> PARTIAL, hand off. The skill sets the
+#   delay-compensation TERM before work starts. Once the user wants to sue, that is
+#   israeli-small-claims-court (under the jurisdiction limit) or a licensed advocate.
+#   Description must name the hand-off so the boundary is real and not implied.
+#
+# "how much does a kitchen renovation cost"  -> DO NOT claim. The skill never prices
+#   work; it structures the engagement. Pricing is exactly the invented-number failure
+#   mode. Description must state that it does not estimate or validate prices.
+#
+# --- Negative-query exclusion audit (Phase 2.7 step 5) ---
+# Each NEG must be excluded by a NAMED phrase in the description, not merely absent
+# from it. Fill in after the description is final; a NEG with no nameable exclusion
+# phrase is NOT excluded regardless of what a keyword harness reports.
+
+# --- Negative-query exclusion audit (Phase 2.7 step 5), COMPLETED 2026-08-11 ---
+# Rule: a NEG counts as excluded only if a NAMED phrase in the description excludes it.
+# A substring that merely shares vocabulary does not count.
+#
+# NEG new-apartment defects      -> "defects in a new apartment from a developer (that is
+#                                    israeli-home-defect-report)"                        EXCLUDED
+# NEG employment contract        -> "for freelance or employment contracts"              EXCLUDED
+#     ^ CAUGHT BY THIS AUDIT. The first draft said only "non-construction freelance work",
+#       and the check appeared to pass because the query and the freelance NEG mapped to the
+#       same phrase. An employment contract is not freelance work, so nothing actually
+#       excluded it. The description was widened rather than the harness adjusted.
+# NEG own-land new build         -> "for building on your own land"                      EXCLUDED
+# NEG freelance design agreement -> "for freelance or employment contracts"              EXCLUDED
+#
+# EDGE neighbour noise           -> "to complain about a neighbour's renovation noise"   EXCLUDED
+# EDGE contractor late, sue      -> "to sue a contractor"                                EXCLUDED
+# EDGE what should it cost       -> "to price a quote"                                   EXCLUDED
+#
+# --- Phase 2.8 train/test split (70/30 of 14 queries) ---
+# TRAIN (10): POS 1-7, NEG 1-3
+# HOLDOUT (4): NEG 4, EDGE 1-3
+# The description was refined against TRAIN only (the employment widening came from NEG 2).
+# Re-checked against HOLDOUT afterwards: 4/4 still correctly excluded, no regression.
+# Train pass 10/10, holdout pass 4/4, overall 14/14 = 1.00.

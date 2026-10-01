@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Work Authorization"
+  short_description: "Poland Work Authorization: run focused tasks"
+policy:
+  allow_implicit_invocation: false

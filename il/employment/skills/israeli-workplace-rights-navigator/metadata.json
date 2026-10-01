@@ -1,0 +1,40 @@
+{
+  "author": "skills-il",
+  "version": "1.6.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "דיני-עבודה",
+      "זכויות-עובדים",
+      "חופשה",
+      "מחלה",
+      "פיצויים",
+      "ישראל"
+    ],
+    "en": [
+      "labor-law",
+      "employee-rights",
+      "workplace",
+      "vacation",
+      "sick-days",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניווט זכויות עובדים",
+    "en": "Israeli Workplace Rights Navigator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. הבנה ומימוש זכויות עובדים לפי דיני העבודה בישראל. מכסה ימי חופשה, ימי מחלה, שעות נוספות, תקופת לידה והורות וחופשת אבהות, פיצויי פיטורים, דמי הבראה, שכר מינימום, הפרשות פנסיה, הגנות מפני פיטורים שלא כדין, הטרדה מינית והתאמות לאנשים עם מוגבלות. השתמשו בזה כששואלים על זכויות עובדים, חישוב פיצויים, ימי חופשה, מחלה או הליכי פיטורים בישראל. לא מתאים לניסוח חוזה עבודה (israeli-employment-contracts), לבדיקה או ביקורת של חוזה עבודה קיים (israeli-employment-contract-reviewer), למשא ומתן על שכר (israeli-tech-salary-negotiator), לזכויות מילואים (israeli-miluim-manager), או לתפעול פרילנסרים (israeli-freelancer-ops).",
+    "en": "Not legal advice. Understand and exercise employee rights under Israeli labor law, including vacation days (chofsha), sick leave (machala), overtime pay, the Birth and Parenting Period and paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a), minimum wage, and pension contributions. Covers Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law, Employment of Women Law, Severance Pay Law, Minimum Wage Law, sexual harassment protections, and disability accommodations. Do NOT use for drafting an employment contract (use israeli-employment-contracts), reviewing or auditing an existing employment contract (use israeli-employment-contract-reviewer), salary negotiation (use israeli-tech-salary-negotiator), reserve duty rights (use israeli-miluim-manager), or freelancer operations (use israeli-freelancer-ops)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

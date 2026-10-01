@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Vehicles Road"
+  short_description: "Poland Vehicles Road: run focused tasks"
+policy:
+  allow_implicit_invocation: false

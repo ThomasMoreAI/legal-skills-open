@@ -1,0 +1,33 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-09-22",
+      "holdout_before": 0.75,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "Our building's registered takanon sets a different cost share than floor area, which one applies?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "בתקנון של הבית המשותף כתוב שכולם משלמים שווה, זה גובר על חוק המקרקעין?",
+          "A neighbour took over the shared roof of our building, what can I do?",
+          "Should I sign the TAMA 38 agreement the developer sent us?"
+        ]
+      },
+      "lessons": [
+        "NEXT EDIT (not a general carry): sweep the remaining Hebrew citations to subsection granularity for s.71, s.72 and s.59ו. The Land Law central citations (58, 62, 57, 55, 12) were swept this cycle; these three were left because pinning their paragraph needs verification that was not done. Note SKILL_HE.md line ~136 cites s.62 and s.22 of the Insurance Contract Law, a different statute, and must stay bare.",
+        "Expert MAJOR: acquiescence / הסכמה בהתנהגות before the Mafkach. Advise a dated written objection before the next payment and paying under reservation rather than stopping, since non-payment hands the vaad a clean s.72(a) claim. Expert named this and the domain-checklist as the two to take first.",
+        "Expert MAJOR: references/domain-checklist.md does not exist, so there is no coverage contract to audit this skill against.",
+        "Expert MAJOR: retrospective recovery of overpayments before the Mafkach (s.72(a)) and the seven-year limitation, currently only in the leak branch.",
+        "Expert MAJOR: s.62(b) extends בעל דירה to המחכיר בחכירה לדורות, live on ILA land and via a חברה משכנת.",
+        "Expert MAJOR: no template for a written demand to recompute by area or to add the split to the assembly agenda.",
+        "Evidence carry: 5 kolzchut snippets are paraphrases of real page text, not verbatim (kz-repair-roof, kz-repair-route, kz-roof-common, kz-stairwell, kz-noise-police). Substance confirmed present on the live pages by browser read. Repair by re-anchoring to actual page text. An automated repair was attempted this cycle and DISCARDED: the sentence splitter scored kolzchut navigation chrome as the best match on four of five, which would have written page furniture in as a verbatim quote. Do NOT mark these verified without re-reading.",
+        "Process: the Phase 3f.1 propagation sweep greps literal old values and therefore missed four PARAPHRASES of the corrected legal standard (Example 1 and Gotchas in both languages). The Expert caught them. When correcting a legal proposition rather than a figure, grep for the proposition's meaning, not just its old wording."
+      ],
+      "note": "Triggered by a reader comment that had the statutory default backwards, which nonetheless exposed a real defect: all four description surfaces asserted the floor-area rule with no takanon caveat."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Whistleblower Report Analyst"
+  short_description: "Triage reports and plan protected investigations"
+  default_prompt: "Use $whistleblower-report-analyst to assess this report, preserve confidentiality, triage risk, test conflicts, and build a proportionate investigation plan."

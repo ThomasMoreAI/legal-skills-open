@@ -1,0 +1,15 @@
+{
+  "name": "de-tmt",
+  "displayName": "Technology, Media & Telecommunications — Germany",
+  "version": "0.1.0",
+  "description": "Technology, Media & Telecommunications skills under the law of Germany.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "tmt",
+  "language": "de",
+  "skills": [
+    "skills/providerhaftung-borghei",
+    "skills/saas-vertrag-borghei"
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland"
+  short_description: "Poland: run focused tasks"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Guarantee Analyst"
+  short_description: "Analyse guarantee scope, defences, and enforcement"
+  default_prompt: "Use $guarantee-analyst to map this guarantee’s secured obligations, liability triggers, defences, release risks, and enforcement steps."

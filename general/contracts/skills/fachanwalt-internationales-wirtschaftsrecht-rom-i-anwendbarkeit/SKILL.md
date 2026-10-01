@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit
 title: Rom-I-Anwendbarkeit
-description: 'Vertragsparteien aus verschiedenen Laendern streiten über Vertragsrecht und fragen: Nach welchem Recht wird der Vertrag beurteilt? VO (EG) 593/2008 Rom-I. Prüfraster: Rechtswahl Art. 3 objektive Anknuepfung Art. 4 charakteristische Leistung Sondervorschriften Verbrauchervertraege Art. 6 Befoerderung Art. 5 Arbeitsvertraege Art. 8 international zwingende Eingriffsnormen Art. 9 ordre public Art. 21. Output: Rechtsanwendbarkeits-Analyse. Abgrenzung zu fachanwalt-iwr-brussels-ia-zuständigkeit (gerichtliche Zuständigkeit) und gerichtsstand-und-rechtswahl-prüfen.'
+description: 'Für Rom-I-Anwendbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -37,7 +37,6 @@ language: de
 - Eingriffsnormen Art. 9 Rom I — auch im internationalen Wirtschaftsverkehr beachten (EU-Sanktionen Russland VO 833/2014 in der Fassung 16./17. Paket 2025; Energierecht; LkSG).
 - ordre public Art. 21 Rom I.
 - Brexit-Folge: UK seit 01.01.2021 nicht mehr Rom-I-Vertragsstaat; UK behaelt Rom I in nationaler Form als "assimilated EU law" (Law Applicable to Contractual Obligations and Non-Contractual Obligations (Amendment etc.) (EU Exit) Regulations 2019) — seit Retained EU Law (Revocation and Reform) Act 2023 ggf. Aenderungen. Bei DE-Gerichten Art. 20 Rom I (kein Renvoi) beachten.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe ueber offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Frist
 
@@ -119,7 +118,6 @@ Mit freundlichen Gruessen
 
 ### Ergaenzende Leitsaetze Rom I
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette Rom I
 - Art. 1-3 Rom I — Anwendungsbereich, Rechtswahl
@@ -159,3 +157,13 @@ Parteien: [KLAEGER] (Sitz: [LAND]) ./. [BEKLAGTER] (Sitz: [LAND])
 4. Ergebnis:
    Auf den vorliegenden Vertrag ist [RECHTSORDNUNG] anwendbar.
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

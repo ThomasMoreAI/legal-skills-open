@@ -1,0 +1,14 @@
+{
+  "name": "hr-corporate",
+  "displayName": "Corporate — Croatia",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Croatia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "hr",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/croatia-sudreg-nolpak14"
+  ]
+}

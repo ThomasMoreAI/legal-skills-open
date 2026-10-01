@@ -1,0 +1,4 @@
+interface:
+  display_name: "Government Contract Reviewer"
+  short_description: "Review public contracts for distinctive risks"
+  default_prompt: "Use $government-contract-reviewer to review this government contract against the governing authority, procurement documents, and public-law constraints."

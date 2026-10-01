@@ -1,0 +1,17 @@
+{
+  "name": "eu-immigration",
+  "displayName": "Immigration — European Union",
+  "version": "0.1.0",
+  "description": "Immigration skills under EU law.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "immigration",
+  "language": "en",
+  "skills": [
+    "skills/first-trip-torlyai",
+    "skills/insurance-check-torlyai",
+    "skills/plan-trip-torlyai",
+    "skills/poland-eu-mobility-xopoko"
+  ]
+}

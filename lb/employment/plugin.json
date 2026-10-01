@@ -1,0 +1,14 @@
+{
+  "name": "lb-employment",
+  "displayName": "Employment & Labor — Lebanon",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of Lebanon.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "lb",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/kb-employment-law-lb-sboghossian"
+  ]
+}

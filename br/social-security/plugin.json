@@ -1,0 +1,14 @@
+{
+  "name": "br-social-security",
+  "displayName": "Social Security & Welfare — Brazil",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "social-security",
+  "language": "pt",
+  "skills": [
+    "skills/cold-start-interview-ria-sistemas"
+  ]
+}

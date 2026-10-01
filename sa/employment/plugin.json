@@ -1,0 +1,14 @@
+{
+  "name": "sa-employment",
+  "displayName": "Employment & Labor — Saudi Arabia",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of Saudi Arabia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "employment",
+  "language": "ar",
+  "skills": [
+    "skills/arabic-labor-law-salmandev"
+  ]
+}

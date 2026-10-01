@@ -1,0 +1,14 @@
+{
+  "name": "th-regulatory",
+  "displayName": "Regulatory & Compliance — Thailand",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills under the law of Thailand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "th",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/thailand-dbd-nolpak14"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "author": "skills-il",
+  "version": "1.4.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "מכרזים",
+      "מכרז-ממשלתי",
+      "תנאי-סף",
+      "חובת-מכרזים",
+      "תצהירים",
+      "רכש-ציבורי",
+      "ישראל"
+    ],
+    "en": [
+      "tenders",
+      "government-tender",
+      "procurement",
+      "rfp",
+      "public-procurement",
+      "compliance",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "בונה הצעות למכרזים ממשלתיים",
+    "en": "Israeli Tender Proposal Builder"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. בונה חבילת הצעה מלאה למכרז ממשלתי או ציבורי בישראל: קורא את מסמכי המכרז, שולף את תנאי הסף (מנהליים ומקצועיים), מכין צ'ק־ליסט התאמה, ומנסח את כל סעיפי ההצעה בעברית לפי חוק חובת המכרזים התשנ\"ב-1992 ותקנות חובת המכרזים תשנ\"ג-1993 כולל תצהירים נדרשים, טבלת ניסיון קודם וגיליון תמחור. משתמשים בו כשצריך להגיש הצעה למכרז פומבי, סגור, מסגרת או מכרז רשות מקומית, וכשרוצים לחקור חוזי רכש קודמים דרך שרת BudgetKey או IL Budget כדי להבין מה המדינה שילמה על עבודות דומות. חוסך שעות עבודה ומונע פסילה על פגמים טכניים. לא מתאים למכרזי רשות מקרקעי ישראל להקצאת קרקע (יש סקיל ייעודי israeli-land-tenders), ולא לתקיפת החלטה של ועדת המכרזים (פסילה או זכייה) בעתירה מנהלית, ולא ל־RFP של חברות פרטיות שלא כפופות לחוק חובת המכרזים.",
+    "en": "Not legal advice. Builds a complete Hebrew proposal package for Israeli government and public sector tenders (michrazim). Parses the tender document, extracts threshold conditions (administrative and professional), produces a compliance checklist, and drafts every proposal section per Chok Chovat HaMichrazim 5752-1992 and Takanot Chovat HaMichrazim 5753-1993: required declarations, past experience table, and pricing worksheet. Use when responding to an open tender (michraz pumbi), closed tender (michraz sagur), framework tender (michraz misgeret), or a local authority tender, and when you want to research historical procurement contracts via the BudgetKey or IL Budget MCP servers to benchmark pricing and identify past winners. Saves hours of drafting work and prevents disqualification on technical defects. Do NOT use for Israeli Land Authority (RMI) land allocation tenders (use the israeli-land-tenders skill), do NOT use for challenging a tender committee decision (disqualification or award) by administrative petition, and do NOT use for private commercial RFPs that are not subject to the Mandatory Tenders Law."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

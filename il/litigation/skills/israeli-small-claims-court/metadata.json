@@ -1,0 +1,41 @@
+{
+  "author": "skills-il",
+  "version": "1.4.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "תביעות-קטנות",
+      "בית-משפט",
+      "משפטי",
+      "סכסוכים",
+      "זכויות-צרכן",
+      "ישראל"
+    ],
+    "en": [
+      "small-claims",
+      "court",
+      "legal",
+      "disputes",
+      "consumer-rights",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "תביעות קטנות בישראל",
+    "en": "Israeli Small Claims Court"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מלווה אתכם דרך הליך הגשת תביעה קטנה בישראל וההתנהלות בבית המשפט לתביעות קטנות. מתאים כשאתם שואלים על סכסוך צרכני, החזר פיקדון שכירות, עבודה לקויה של נותן שירות, תלונה על חנות, טפסי הגשה ואגרות, או ייצוג עצמי בבית המשפט. מסביר את תקרת הסמכות (39,900 ש\"ח נכון לינואר 2026), הגשה אונליין דרך gov.il, הכנת ראיות, מהלך הדיון, פסק דין, ואכיפה בהוצאה לפועל. לא מתאים לתביעות פליליות, דיני משפחה, או תביעות מעל התקרה.",
+    "en": "Not legal advice. Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks about small claims procedures, filing a lawsuit for consumer disputes, landlord-tenant claims, service complaints, court forms, filing fees, or self-representation in Israeli courts. Covers claim limits (NIS 39,900), the filing process via gov.il, evidence preparation, hearing procedures, judgments, and enforcement through the execution office (Hotza'a LaPo'al). Do NOT use for criminal matters, family law, or claims exceeding the small claims limit."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

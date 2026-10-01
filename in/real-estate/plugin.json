@@ -1,0 +1,15 @@
+{
+  "name": "in-real-estate",
+  "displayName": "Real Estate — India",
+  "version": "0.1.0",
+  "description": "Real Estate skills under the law of India.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "real-estate",
+  "language": "en",
+  "skills": [
+    "skills/development-agreement-reviewer-rohasnagpal",
+    "skills/sale-deed-drafter-rohasnagpal"
+  ]
+}

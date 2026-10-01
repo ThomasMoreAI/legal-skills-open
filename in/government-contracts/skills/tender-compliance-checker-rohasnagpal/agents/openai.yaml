@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tender Compliance Checker"
+  short_description: "Check tender conditions and bid compliance"
+  default_prompt: "Use $tender-compliance-checker to build a tender compliance matrix and identify bid risks, gaps, and submission blockers."

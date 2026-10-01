@@ -1,0 +1,4 @@
+interface:
+  display_name: "Préparer l'entretien client"
+  short_description: "Préparer un rendez-vous sans orienter le récit"
+  default_prompt: "Utilise $preparer-entretien-client pour préparer un brief et des questions neutres à partir du dossier."

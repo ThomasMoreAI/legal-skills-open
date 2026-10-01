@@ -1,0 +1,16 @@
+{
+  "name": "br-healthcare",
+  "displayName": "Healthcare — Brazil",
+  "version": "0.1.0",
+  "description": "Healthcare skills under the law of Brazil.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "healthcare",
+  "language": "pt",
+  "skills": [
+    "skills/clinic-privacy-implementation-bossmann007",
+    "skills/cold-start-interview-bossmann007",
+    "skills/health-plan-denial-bossmann007"
+  ]
+}

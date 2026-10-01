@@ -1,0 +1,14 @@
+{
+  "name": "do-white-collar",
+  "displayName": "White-Collar & Investigations — Dominican Republic",
+  "version": "0.1.0",
+  "description": "White-Collar & Investigations skills under the law of Dominican Republic.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "do",
+  "practice": "white-collar",
+  "language": "en",
+  "skills": [
+    "skills/dominican-republic-rnc-nolpak14"
+  ]
+}

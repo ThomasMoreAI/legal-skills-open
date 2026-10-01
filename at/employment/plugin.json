@@ -1,0 +1,15 @@
+{
+  "name": "at-employment",
+  "displayName": "Employment & Labor — Austria",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "employment",
+  "language": "de",
+  "skills": [
+    "skills/recht-arbeit-momarcode1",
+    "skills/recht-arbeit-verfahren-momarcode1"
+  ]
+}

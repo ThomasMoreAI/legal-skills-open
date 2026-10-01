@@ -1,0 +1,14 @@
+{
+  "name": "il-construction",
+  "displayName": "Construction Law — Israel",
+  "version": "0.1.0",
+  "description": "Construction Law skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "construction",
+  "language": "en",
+  "skills": [
+    "skills/israeli-renovation-scope-builder-skills-il"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "author": "skills-il",
+  "version": "1.1.1",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "חוזה שיפוץ",
+      "כתב כמויות",
+      "קבלן שיפוצים",
+      "חוזה קבלנות",
+      "היתר בנייה",
+      "ישראל"
+    ],
+    "en": [
+      "renovation contract",
+      "scope of work",
+      "contractor",
+      "contract for services",
+      "building permit",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מפרט ותנאי התקשרות לשיפוץ",
+    "en": "Israeli Renovation Scope Builder"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. בונה מפרט עבודה כתוב ותנאי התקשרות לשיפוץ בישראל, משני הצדדים: גם לבעל דירה שמזמין שיפוץ וגם לשיפוצניק או חשמלאי שרוצה לשלוח ללקוח מסמך מסודר לפני שמתחילים. מפיק מפרט מפורט לפי חדר ולפי מקצוע כולל מה לא נכלל, לוח תשלומים לפי שלבים שהושלמו במקום לפי תאריכים, אחוז עיכבון שמשוחרר רק אחרי המסירה, תקופת אחריות נפרדת לכל מקצוע, פיצוי מוסכם על איחור, שעות עבודה מותרות ורשימת מסירה. מתאים כששואלים מה לכתוב לפני שיפוץ, איך לחלק תשלומים, איזו אחריות לדרוש או אם צריך היתר. חשוב כי שיפוץ הוא חוזה קבלנות, וזה חוק שחל רק כשההסכם שותק ואין בו בכלל טבלת אחריות, אז כל מה שלא כתבתם נופל לברירות מחדל חלשות. אל תשתמשו לליקויים בדירה חדשה מקבלן (יש israeli-home-defect-report), לבנייה על מגרש פרטי (יש israeli-private-home-construction), להסכם שירותים שאינו בנייה (יש israeli-freelancer-service-agreement), לחוזה העסקה של עובד (יש israeli-employment-contracts), לתמחור שיפוץ, לתביעה נגד קבלן או לתלונה על רעש שיפוצים של שכן.",
+    "en": "Not legal advice. Builds a written scope of work and engagement terms for an Israeli home renovation, from either side: a homeowner commissioning a shiputz, or a tradesperson issuing terms to a client. Produces an itemised scope room by room and trade by trade with explicit exclusions, a payment schedule tied to completed stages rather than to dates, a retention released only after handover, a separate warranty period per trade, agreed delay compensation, lawful working hours, and a handover checklist. Use when a user asks what to put in writing before a renovation, how to split payments to a kablan or shiputznik, what warranty to demand, or whether the job needs a permit. It matters because a renovation is a chozeh kablanut, a statute that applies only where the contract is silent and that carries no warranty schedule of its own, so whatever the contract omits falls to weak defaults, and the periods everyone quotes come from a different law governing new apartments from a developer. Do NOT use for defects in a new apartment bought from a developer (use israeli-home-defect-report), for building on your own land (use israeli-private-home-construction), for non-construction freelance engagements (use israeli-freelancer-service-agreement), for employment contracts (use israeli-employment-contracts), to price or judge a renovation quote, to sue a contractor, or to complain about a neighbour's renovation noise."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_חוזה_קבלנות",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_התכנון_והבניה",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_התכנון_והבנייה_%28עבודות_ומבנים_הפטורים_מהיתר%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_למניעת_מפגעים_%28מניעת_רעש%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/74262.htm",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/תקנות_החשמל_%28רשיונות%29",
+      "type": "regulation",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "type": "statute",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 1
+}

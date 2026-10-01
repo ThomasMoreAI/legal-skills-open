@@ -1,0 +1,343 @@
+{
+  "skill_slug": "israeli-urban-renewal-owner-guide",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-31",
+  "claims": [
+    {
+      "id": "rov-meyuchas-pinui-binui",
+      "claim": "The pinui-binui special majority (rov meyuchas) is a three-part composite: at least two thirds of all apartments in the makbetz, at least three fifths of the apartments in each beit meshutaf (or at least three apartments where the beit meshutaf has only four or five, with more than two owners), and more than half of the common property in each beit meshutaf attached to their apartments. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" רוב מיוחס מבין בעלי הדירות \" – בעלי הדירות במקבץ לפינוי ובינוי, שבבעלותם שני שלישים לפחות מתוך כלל הדירות שבמקבץ, וכן מתקיימים בהם שני אלה: (1) בבעלותם שלוש חמישיות לפחות מהדירות בכל בית משותף שבאותו מקבץ, ואולם לעניין בית משותף שיש בו ארבע או חמש דירות בלבד – בבעלותם שלוש דירות לפחות מהדירות בבית המשותף, ויש בבית המשותף יותר משני בעלי דירות; (2) יותר ממחצית מהרכוש המשותף בכל בית משותף שבאותו מקבץ צמודים לדירותיהם; \" רוב מיוחס מבין בעלי הדירות לעניין קביעת כדאיות כלכלית \" – בעלי הדירות במקבץ פינוי ובינוי, שמתקיימ",
+      "confidence": "high"
+    },
+    {
+      "id": "rov-meyuchas-kedaiut",
+      "claim": "A separate and lower special majority governs the economic-viability question: more than two fifths of the apartments in each beit meshutaf and more than two fifths of the common property. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" רוב מיוחס מבין בעלי הדירות לעניין קביעת כדאיות כלכלית \" – בעלי הדירות במקבץ פינוי ובינוי, שמתקיימים בהם שני אלה: (1) בבעלותם למעלה משתי חמישיות מהדירות בכל בית משותף שבאותו מקבץ; (2) למעלה משתי חמישיות הרכוש המשותף בכל בית משותף שבאותו מקבץ צמודות לדירותיהם; \" הרשות הממשלתית להתחדשות עירונית \" – כהגדרתה בחוק הרשות הממשלתית להת",
+      "confidence": "high"
+    },
+    {
+      "id": "kashish-70-pinui",
+      "claim": "Under the pinui-binui law a kashish is an apartment owner who was 70 years old at the date the first pinui-binui transaction in that building was signed and had lived in that apartment for at least two years at that date. Source: Section 1 of the 2006 law (סעיף 1).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "\" קשיש \" – בעל דירה בבית המשותף שבמועד שבו נחתמה עסקת פינוי ובינוי ראשונה מלאו לו, על פי הרישום במרשם האוכלוסין, 70 שנים, ובמועד האמור הוא התגורר בדירה באותו בית משותף שנתיים לפחות; \" רוב מיוחס מבין בעלי הדירות \" – בעלי הדירות במק",
+      "confidence": "high"
+    },
+    {
+      "id": "sarvan-remedies",
+      "claim": "Where the special majority has agreed and the court finds an owner is unreasonably refusing to transfer rights or conditioning consent on unreasonable terms, the court may either hold that owner liable in tort to the consenting owners, or approve the transaction and appoint an advocate or accountant who is not an owner in the complex to contract on the refusing owner's behalf. Source: Section 2 of the 2006 law (סעיף 2).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "2. (א) הסכים רוב מיוחס מבין בעלי הדירות במקבץ לפינוי ובינוי לכרות עסקת פינוי ובינוי, ומצא בית המשפט כי בעל דירה באותו מקבץ מסרב סירוב בלתי סביר להעביר את זכויותיו לשם ביצוע העסקה או מתנה את הסכמתו לכך בתנאים בלתי סבירים (בחוק זה – בעל דירה מסרב), רשאי בית המשפט לפעול באחת מאלה – (1) לקבוע כי בעל הדירה המסרב אחראי בנזיקין כלפי שאר בעלי הדירות באותו מקבץ המסכימים לעסקה, בשל הנזק שנגרם להם עקב אי-ביצוע העסקה; (2) לאשר את ביצוע העסקה וכן למנות עורך דין או רואה חשבון, שאינו בעל דירה במקבץ, שיהיה מוסמך, בהתאם להוראות בית המשפט, להתקשר בעסקה בשם בעל הדירה המסרב. (א1) בית משפט רשאי לקבוע כי בחישוב הרוב המיוחס מבין בעלי הדירות לא יובאו בחשבון זכויותיו או חלק מזכויותיו של בעל דירה שלא הסכים לכריתת עסק",
+      "confidence": "high"
+    },
+    {
+      "id": "sarvan-reasonable-grounds",
+      "claim": "Section 2(b) lists grounds on which a refusal is not considered unreasonable, including that the transaction is not economically viable, that no alternative housing was offered for the construction period (with accessibility adaptations where the owner or a resident family member is a person with a disability), and that no adequate securities were offered. Source: Section 2 of the 2006 law (סעיף 2), subsection 2(b).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(ב) סירוב להעברת זכויות כאמור בסעיף קטן (א) לא ייחשב כבלתי סביר, בין השאר, באחד מאלה: (1) עסקת הפינוי ובינוי אינה כדאית כלכלית; קבע שמאי פינוי ובינוי כי העסקה כדאית כלכלית, תהווה קביעה זו חזקה כי היא כדאית כאמור לעניין בחינת סבירותו של הסירוב, אלא אם כן הוכח אחרת; קבע שמאי פינוי ובינוי כי העסקה תהיה כדאית כלכלית בהתקיים תנאים שקבע, חזקה כי היא כדאית כאמור בהתקיים התנאים שקבע, אלא אם כן הוכח אחרת; (2) לא הוצעו לבעל הדירה המסרב מגורים חלופיים לתקופת הקמת הבנין החדש, ואם בעל הדירה המסרב או בן משפחתו המתגורר עמו הוא אדם עם מוגבלות – המגורים החלופיים שהוצעו לו אינם כוללים התאמות, ככל שהיו בדירה שהזכויות בה מועברות או ככל שהן מתחייבות ממאפייניהם של המגורים החלופיים; (3) לא הוצעו לבעל הדירה המסרב בטוחות הולמות לביצוע עסקת הפינוי ובינוי, ואם נקבעו תנאים על ידי שמאי פינוי ובינוי לעניין כדאיות כלכלית – לא ניתנו ערבויות הולמות להתקיימות התנאים; (4) קיימות נסיבות אישיות מיוחדות של בעל הדירה המסרב שב",
+      "confidence": "high"
+    },
+    {
+      "id": "tochnit-chizuk-definition-2022",
+      "claim": "'Tochnit ha-chizuk' now means any of three things, not only TAMA 38: TAMA 38 as in force from time to time; a plan prepared under TAMA 38 that allows a permit without approving a further plan; or a plan applying to a building requiring strengthening under section 70a of the Planning and Building Law that conditions realisation on demolition and rebuild or strengthening to the earthquake standard. The last two exclude a plan applying in a pinui-binui complex. Source: Section 1 of the 2008 law (סעיף 1), current consolidated text.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "\" תכנית החיזוק \" – כל אחת מאלה: (1) תכנית מיתאר ארצית לחיזוק מבנים קיימים מפני רעידות אדמה (תמ\"א 38), כפי שתהיה בתוקף מזמן לזמן; (2) תכנית שבין מטרותיה חיזוק מבנים מפני רעידות אדמה שהוכנה לפי הוראות תכנית המיתאר הארצית האמורה בפסקה (1), הכוללת הוראות שמאפשרות מתן היתר מכוחה, לפי חוק התכנון והבנייה, בלא צורך באישור תכנית נוספת טרם מתן ההיתר, למעט תכנית כאמור החלה במתחם פינוי ובינוי; (3) תכנית החלה על מבנה הטעון חיזוק, כהגדרתו בסעיף 70א לחוק התכנון והבנייה, שמתנה את מימושה בחיזוק המבנה מפני רעידות אדמה בדרך של הריסה ובנייה מחדש או בדרך של חיזוק לפי תקן לעמידות מבנים ברעידות אדמה כהגדרתו בסעיף האמור, למעט תכנית כאמור החלה במתחם לפינוי ובינוי.",
+      "confidence": "high"
+    },
+    {
+      "id": "tochnit-chizuk-previous-definition",
+      "claim": "Before the current definition, 'tochnit ha-chizuk' meant only TAMA 38. The superseded wording is shown in the consolidated text as it stood before the amendment.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/w/index.php?title=%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_(%D7%97%D7%99%D7%96%D7%95%D7%A7_%D7%91%D7%AA%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%99%D7%9D_%D7%9E%D7%A4%D7%A0%D7%99_%D7%A8%D7%A2%D7%99%D7%93%D7%95%D7%AA_%D7%90%D7%93%D7%9E%D7%94)&oldid=1287544",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "”תכנית החיזוק“ – תכנית מיתאר ארצית לחיזוק מבנים קיימים מפני רעידות אדמה (תמ״א 38), כפי שתהיה בתוקף מעת לעת.",
+      "confidence": "high"
+    },
+    {
+      "id": "tochnit-chizuk-amendment-publication",
+      "claim": "The 2008 law's amendment list includes ס\"ח תשפ\"ב publications at pages 203 and 1079.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%A7%D7%A8%D7%A7%D7%A2%D7%99%D7%9F_(%D7%97%D7%99%D7%96%D7%95%D7%A7_%D7%91%D7%AA%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%99%D7%9D_%D7%9E%D7%A4%D7%A0%D7%99_%D7%A8%D7%A2%D7%99%D7%93%D7%95%D7%AA_%D7%90%D7%93%D7%9E%D7%94)",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "ס״ח תשס״ח, 154 ; תשע״א, 202 ; תשע״ב, 458 ; תשע״ד, 668 ; תשע״ו, 1248 ; תשע״ז, 328 ; תשע״ח, 957 ; תשפ״ב, 203 , 1079 ; תשפ״ג, 206",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5-new-apartment-majority",
+      "claim": "For work in the common property whose purpose is building one or more new apartments, the mefake'ach may approve the work on the claim of owners who at the date of filing held two thirds of the apartments in the beit meshutaf and had two thirds of the common property attached to their apartments, provided every owner was given an opportunity to argue their case. Source: Section 5 of the 2008 law (סעיף 5).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "5. (א) ביצוע עבודה ברכוש המשותף שמטרתה בניית דירה חדשה אחת או יותר, לרבות הוצאת חלקים מהרכוש המשותף לשם התקנת מקומות חניה והצמדתם לדירה או לדירות כאמור, טעון החלטה מראש של כל בעלי הדירות, כאמור בחוק המקרקעין; ואולם רשאי המפקח, אף אם לא התקבלה על כך החלטה מראש של כל בעלי הדירות בבית המשותף, לאשר את ביצוע העבודה, על פי תביעה של בעלי הדירות שבמועד הגשת התביעה היו בבעלותם שני שלישים מהדירות בבית המשותף ושני שלישים מהרכוש המשותף היו צמודים לדירותיהם, ובלבד שנתן לכל בעל דירה בבית המשותף הזדמנות לטעון את טענותיו. (ב) אישר המפקח ביצוע עבודה ברכוש המשותף שמטרתה ב",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5a-six-apartment-rule",
+      "claim": "For computing the majority required to approve demolition and rebuild in a beit meshutaf with six apartments or more, the provisions of Section 4 of the pinui-binui law apply mutatis mutandis. Section 4 is a discount on a large owner's counted weight, not a different threshold: the two-thirds requirement is unchanged. Source: Section 5a of the 2008 law, applying Section 4 of the 2006 law (סעיף 4).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(א1) לשם חישוב הרוב הדרוש לאישור ביצוע העבודה בבית משותף שבו שש דירות או יותר, יחולו הוראות סעיף 4 לחוק פינוי ובינוי, בשינויים המחויבים. (א2) בלי לגרוע מהוראות סעיף קטן (א), לא יאשר המפקח את ביצוע העבודה כאמור בסעיף קטן (א), אם בעל דירה התנגד בשל אחת הנסיבות ה",
+      "confidence": "high"
+    },
+    {
+      "id": "memuneh-role",
+      "claim": "The director of the Authority appoints an advocate with at least five years of relevant experience as the Memuneh for residents' enquiries in urban renewal, who is subject to no authority but the law, investigates enquiries by owners and occupiers within an urban renewal project including claims of unreasonable pressure applied to a resident to obtain consent to join a project, and must decide within 90 days, extendable for further periods not exceeding 90 days cumulatively. Source: Section 7 of the 2016 law (סעיף 7).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/142343.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "7. (א) מנהל הרשות ימנה, מבין עובדי הרשות, מי שהוא עורך דין שעסק חמש שנים לפחות בעניינים הקשורים לתחומי תפקידיה של הרשות או לתחומים הדומים להם, כממונה לעניין פניות דיירים בהתחדשות עירונית; בהחלטותיו לפי סעיף זה אין על הממונה מרות זולת מרותו של הדין. (ב) הממונה יברר פניות של בעלי דירה ומחזיקים בדירה בתחום מיזם להתחדשות עירונית (בסעיף זה – דייר), בעניינים הנוגעים למיזמי התחדשות עירונית, ובין השאר בעניין התנהגות יזמים, מארגנים, מינהלות עירוניות ודיירים אחרים כלפיהם, ובכלל זה טענות בעניין הפעלת לחץ בלתי סביר על דייר כדי שייתן את הסכמתו להצטרפות למיזם התחדשות עירונית. (ג) הממונה רשאי לברר את הפנייה בכל דרך שיראה לנכון, והוא אינו קשור להוראה שבסדר דין או בדיני ראיות; לשם בירור פנייה לפי פסקאות (1) עד (3) שבסעיף 7א, יהיו נתונות לממונה אף הסמכויות הנתונות לוועדת חקירה לפי סעיפים 9 עד 11 ו-27(ב) לחוק ועדות חקירה, התשכ\"ט-1968. (ד) הממונה ייתן את החלטתו בפנייה בתוך 90 ימים ממועד הגשתה, ורשאי הוא, מט",
+      "confidence": "high"
+    },
+    {
+      "id": "memuneh-prima-facie",
+      "claim": "Where the Memuneh determines that a resident's enquiry is justified because of a breach of any law, that determination is prima facie evidence of what it states in any legal proceeding. Source: Section 7 of the 2016 law (סעיף 7), subsection (f).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/142343.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(ו) קבע הממונה כי פניית דייר היא מוצדקת בשל הפרת הוראות כל דין, תהיה קביעתו ראיה לכאורה לנקבע בה בכל הליך משפטי. (ז) החלטות הממונה יפורסמו לציבור באתר האינטרנט של הרשות; השר, בהתיי",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-duties",
+      "claim": "An organizer must act for the benefit of the apartment owners in good faith, fairly and in an accepted manner, must give an owner every material item of information he holds concerning the transaction including whether he acts on behalf of a developer, and must supply requested information at the earliest possible time and no later than seven days from the request. Source: Section 11 of the 2017 law (סעיף 11). Section 13 (סעיף 13) imposes the confidentiality duty this one overrides on request, and Section 14 (סעיף 14) excludes the Brokers Law.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "11 . (א) מארגן יפעל לטובת בעלי הדירות בנאמנות, בהגינות ובדרך מקובלת, וימסור לבעל דירה כל מידע שיש בידו בעניין מהותי הנוגע לעסקת הפינוי ובינוי או לעסקה לפי תכנית החיזוק, לפי העניין, שלשם ארגונה נועד ההסכם, לרבות אם הוא פועל מטעמו של יזם המעוניין בביצוע עסקה כאמור, ואם התבקש לכך ועל אף האמור בסעיף 13 – מידע בנוגע להתקשרות בעלי דירות אחרים בהסכם לארגון עסקת התחדשות עירונית; מידע שהתבקש כאמור יימסר לבעל דירה במועד המוקדם ביותר האפשרי ולא יאוחר משבעה ימים ממועד הבקשה. (ב) מארגן יפעל במיומנות ובסבירות במילוי התחייבויותיו על פי הסכם לארגון עסקת התחדשות עירונית. עניין אישי 12 . מארגן לא יתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, הנוגע לעסקה כאמור שיש לו עניין אישי בה, אלא אם כן גילה לבעל ה",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-personal-interest",
+      "claim": "An organizer may not contract with an apartment owner in an organizing agreement relating to a transaction in which he has a personal interest unless he disclosed that personal interest to the owner and obtained the owner's written consent. Source: Section 12 of the 2017 law (סעיף 12).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "12 . מארגן לא יתקשר עם בעל דירה בהסכם לארגון עסקת התחדשות עירונית, הנוגע לעסקה כאמור שיש לו עניין אישי בה, אלא אם כן גילה לבעל הדירה את עניינו האישי כאמור וקיבל את הסכמתו לכך בכתב; בסעיף זה – \"עניין אישי\", של מארגן – לרבות עניין אישי של קרובו או של גוף שהמארגן או קרובו הם בעלי שליטה בו; \"קרוב\" – בן זוג, הורה, הורה הורה, בן או בת",
+      "confidence": "high"
+    },
+    {
+      "id": "organizer-void-stipulation",
+      "claim": "A stipulation on the provisions of the organizers law that is not in the apartment owner's favour is void. Source: Section 15 of the 2017 law (סעיף 15).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "15 . התניה על ההוראות לפי חוק זה שאינה לטובת בעל דירה – בטלה. פנייה לממונה לעניין פניות דיירים בהתחדשות עירוני",
+      "confidence": "high"
+    },
+    {
+      "id": "urban-renewal-authority-portal",
+      "claim": "The Government Authority for Urban Renewal (ha-Rashut ha-Memshaltit le-Hitchadshut Ironit) publishes its portal at this gov.il address, which is the current route to the Authority's services, its urban administrations directory and its FAQ.",
+      "claim_type": "url",
+      "source_url": "https://www.gov.il/he/departments/government_authority_for_urban_renewal",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "הרשות הממשלתית להתחדשות עירונית (page H1 heading, level 1). Page also links 'מינהלות עירוניות להתחדשות עירונית' and 'שאלות ותשובות נפוצות בנושא התחדשות עירונית'.",
+      "verified_via": "browser",
+      "verified_at": "2026-08-31T00:00:00Z",
+      "confidence": "high",
+      "note": "gov.il returns HTTP 403 to plain HTTP clients. Verified by rendering the page in a real browser on 2026-08-31; the resolved page URL and H1 both matched the cited address."
+    },
+    {
+      "id": "pinui-s4-multi-apartment-discount",
+      "claim": "Section 4 of the pinui-binui law, headed ownership of more than one apartment, provides that for computing the special majority in a beit meshutaf of six apartments or more, an owner holding more than thirty percent of the apartments is counted as holding thirty percent plus one third of the excess, where the excess is that owner's share of the apartments minus thirty percent. Source: Section 4 of the 2006 law (סעיף 4).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "בעלות על יותר מדירה אחת 4. לצורך חישוב הרוב המיוחס מבין בעלי הדירות המסכים לעסקת פינוי ובינוי בבית משותף שבו שש דירות או יותר, ייחשב בעל דירה שבבעלותו יותר משלושים אחוזים מהדירות בבית המשותף כמי שבבעלותו שלושים אחוזים מהדירות בבית המשותף, בתוספת שליש משיעור ההפרש מהדירות בבית המשותף; בסעיף זה, \" שיעור ההפרש \" – שיעור הדירות בבית המשותף שבבעלותו מסך הדירות בבית המשותף, בניכוי שלושים אחוזים. תחולת פקודת הנזיקין 5. על עוולה לפי סעיף 2(א)(1), יחולו הוראות פקודת הנזיקין [נוסח חדש], בכפוף להוראות חוק זה. תביעה לפינוי דיר",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5-subset-import-of-refusal-grounds",
+      "claim": "On the strengthening track's new-apartment route, סעיף 5(ב1)(2) of the 2008 law imports only grounds (1), (3) and (4) of s.2(b) of the pinui-binui law, not all seven. The same subsection shows the separate s.5(b1)(1) protection where an owner is a kashish, defined there as 75 years old at the date the first transaction under the strengthening plan was signed.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "או ככל שהן מתחייבות ממאפייניהם של המגורים החלופיים; בסעיף קטן זה – \" אדם עם מוגבלות \" ו\" התאמות \" – כהגדרתם בסעיף 2(ג) לחוק פינוי ובינוי; \" קשיש \" – בעל דירה בבית המשותף שבמועד שבו נחתמה עסקה ראשונה לפי תכנית החיזוק, מלאו לו, על פי הרישום במרשם האוכלוסין, 75 שנים; (2) אם בעל דירה התנגד בשל אחת הנסיבות המפורטות בפסקאות (1), (3) ו-(4) לסעיף 2(ב) לחוק פינוי ובינוי, יחולו הוראות אותו סעיף, בשינויים המחויבים ובשינויים אלה: (א) בכל מקום, במקום \"עסקת פינוי ובינוי\" יקראו \"עסקה לפי תוכנית החיזוק\"; (ב) לעניין פסקה (1), שמאי פינוי ובינוי יהיה שמאי שמונה לפי סעיף 6א.",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5a-full-import-of-refusal-grounds",
+      "claim": "By contrast, on the demolition-and-rebuild route סעיף 5א(א2) of the 2008 law bars the mefake'ach from approving the work where an owner objected on any of grounds (1) to (7) of s.2(b) of the pinui-binui law, that is, all seven.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "(א2) בלי לגרוע מהוראות סעיף קטן (א), לא יאשר המפקח את ביצוע העבודה כאמור בסעיף קטן (א), אם בעל דירה התנגד בשל אחת הנסיבות המפורטות בפסקאות (1) עד (7) לסעיף 2(ב) לחוק פינוי ובינוי, ויחולו הוראות אותו סעיף בשינויים המחויבים ובשינויים אלה: (1) בכל מקום, במקום \"עסקת פינוי ובינוי\" יבוא \"עסקה לפי תוכנית ה",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1a-pre-signature-disclosure",
+      "claim": "Before the first pinui-binui transaction is signed the developer must hold or take part in a gathering (kinus) of the apartment owners, and not later than TWO WEEKS before that first signature must deliver to ALL apartment owners a mismach ikarei hatzaa setting out, among other things, the principles for determining the temura he proposes, the securities he offers, and details of his professional experience. Source: Section 1a of the 2006 law (סעיף 1א).",
+      "claim_type": "law",
+      "raw_snippet": "כינוס בעלי הדירות בבית המשותף ומסירת מסמך עיקרי הצעה 1א. (א) לפני חתימה על עסקת פינוי ובינוי ראשונה יקיים היזם כינוס של בעלי הדירות בבית המשותף או ישתתף בכינוס כאמור, שבו יאפשר היכרות משותפת של בעלי הדירות עמו, ויציג את סוג העסקה המוצע על ידו. (ב) לא יאוחר משבועיים לפני חתימת עסקת פינוי ובינוי ראשונה, ימסור היזם לכל בעלי הדירות בבית המשותף מסמך עיקרי הצעה, שבו יפורטו, בין השאר, העקרונות לקביעת התמורה המוצעת על ידו, הבטוחות שהוא מציע לבעלי הדירות, וכן פרטים על אודות ניסיונו המקצועי. הודעה על חתימת עסקת פינוי ובינוי ראשונה ומסירת מסמכי העסקה 1ב. (א) נחתמה עסקת פינוי ובינוי ראשונה, ימסור היזם הודעה על כך לכל בעלי הדירות בבית המשותף. (ב) נחתמה עסקת פינוי ובינוי, ימסור היזם לב",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-lapse-clocks",
+      "claim": "On the pinui-binui track a majority of the apartment owners, including someone who is not a party to the transaction, may resolve at a general meeting that the contracting owners may cancel, where either the developer has not contracted with at least half the owners within TWO YEARS of the first transaction or with at least three fifths within FOUR YEARS, or a detailed plan was not submitted to the competent planning institution within FOUR YEARS AND SIX MONTHS. Source: Section 1d(a) of the 2006 law (סעיף 1ד).",
+      "claim_type": "threshold",
+      "raw_snippet": "תוקפה של עסקת פינוי ובינוי 1ד. (א) נחתמה עסקת פינוי ובינוי, רשאים רוב בעלי הדירות בבית המשותף, לרבות מי שאינו צד לעסקה, להחליט באסיפה כללית כי בעלי הדירות בבית המשותף שהתקשרו עם יזם בעסקת פינוי ובינוי רשאים לבטל את העסקה לפי הוראות סעיף זה, אם התקיים אחד מאלה: (1) היזם לא התקשר בעסקת פינוי ובינוי עם מחצית לפחות מבעלי הדירות בבית המשותף בתוך שנתיים מיום שנחתמה עסקת פינוי ובינוי ראשונה או שהיזם לא התקשר בעסקה כאמור עם שלוש חמישיות לפחות מבעלי הדירות בבית המשותף בתוך ארבע שנים מיום שנחתמה עסקת פינוי ובינוי ראשונה; (2) לא הוגשה תכנית מפורטת בידי היזם בהתאם להוראות סעיף 83א1 לחוק התכנון והבנייה למוסד התכנון המוסמך לאשרה בתוך ארבע שנים ושישה חודשים מיום שנחתמה עסקת פינוי ובינוי ראשונה; הוראות פסקה זו לא יחולו על עסקת פינוי ובינוי בבית משותף הנמצא במתחם שהוכרז לפי סעיף ?14(א)?(1) לחוק הרשות הממשלתית להתחדשות עירונית. (ב) נחתמה עסקת פינוי ובינוי בבית משותף הנמצא במתחם פינוי ובינוי או במתחם שקיבל",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-120-unit-extension",
+      "claim": "Where the building sits in a pinui-binui complex, or one with preliminary approval under Section 14 of the Authority law, and the complex has at least 120 units, all the periods in Section 1d(a) are extended by one year. Where at most 40 percent of the apartments are public housing, the rates in 1d(a)(1) are counted from the non-public apartments only. Source: Section 1d(b) to (c) of the 2006 law.",
+      "claim_type": "threshold",
+      "raw_snippet": "(ב) נחתמה עסקת פינוי ובינוי בבית משותף הנמצא במתחם פינוי ובינוי או במתחם שקיבל אישור מקדמי לפי סעיף 14 לחוק הרשות הממשלתית להתחדשות עירונית, ויש במתחם כאמור 120 יחידות לפחות, יוארכו בשנה התקופות האמורות בסעיף קטן (א). (ג) היו לכל היותר 40% מהדירות בבית המשותף דירות ציבוריות, יימנו השיעורים האמורים בסעיף קטן (א)(1) מהדירות שאינן דירות ציבוריות בלבד; בסעיף קטן זה, \" דירה ציבורית \" – כהגדרתה בסעיף 9 לחוק התחדשות עירונית",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1d-cancellation-effect",
+      "claim": "Once such a resolution is passed, written notice is given to the developer, and an owner who contracted may then cancel WITHOUT being treated as having breached the engagement; the developer is entitled to payment from that owner only under regulations made by the Minister of Justice. Source: Section 1d(d) to (e) of the 2006 law.",
+      "claim_type": "law",
+      "raw_snippet": "(ד) התקבלה החלטה כאמור בסעיף קטן (א), תימסר על כך הודעה בכתב ליזם, ומשנמסרה ההודעה רשאי בעל דירה מאותו בית משותף שהתקשר בעסקת פינוי ובינוי לבטלה, בלי שיראו אותו כמי שהפר את ההתקשרות עם היזם, והיזם יהיה זכאי לתשלום מאותו בעל דירה בהתאם להוראות שנקבעו לפי סעיף קטן (ה) בלבד. (ה) שר המשפטים, בהסכמת שר הבינוי והשיכון, יקבע הוראות לעניין תשלום ליזם שעסקה עימו בוטלה לפי הוראות סעיף זה. צורתה ותוכנה של עסקת פינוי ובינוי 1ה. (א) שר המש",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5g-lapse-clocks",
+      "claim": "The strengthening track has its OWN clocks. Section 5g of the 2008 law applies Section 1d of the pinui-binui law but replaces paragraphs (1) and (2): the developer must contract with at least half the owners within 18 MONTHS of the first transaction under the strengthening plan, and with the rate required under Section 4 of the 2008 law or the majority permitting application to the mefake'ach under Sections 5 or 5a within THREE YEARS; and a building permit application under Section 145(a3) of the Planning and Building Law must be ACCEPTED within THREE YEARS AND SIX MONTHS. Source: Section 5g of the 2008 law (סעיף 5ג).",
+      "claim_type": "threshold",
+      "raw_snippet": "תוקפה של עסקה לפי תכנית החיזוק 5ג. (א) הוראות סעיף 1ד לחוק פינוי ובינוי יחולו גם לעניין עסקה לפי תכנית החיזוק, בשינויים המחויבים ובשינוי זה – במקום פסקאות (1) ו-(2) שבסעיף 1ד(א) לחוק האמור יקראו: \"(1) היזם לא התקשר בעסקה לפי תכנית החיזוק עם מחצית לפחות מבעלי הדירות בבית המשותף, בתוך 18 חודשים מיום שנחתמה עסקה ראשונה לפי תכנית החיזוק או שהיזם לא התקשר בעסקה לפי תכנית החיזוק עם השיעור הנדרש לפי סעיף 4 לחוק המקרקעין (חיזוק בתים משותפים מפני רעידות אדמה), התשס\"ח-2008, או עם הרוב המאפשר פנייה למפקח לפי הוראות סעיף 5 או 5א לחוק האמור, לפי העניין, בתוך שלוש שנים מיום שנחתמה עסקה ראשונה כאמור; (2) לא נקלטה בקשה להיתר בנייה שהגיש היזם למוסד התכנון המוסמך לפי סעיף 145(א3) לחוק התכנון והבנייה, בתוך שלוש שנים ושישה חודשים מיום שנחתמה עסקה ראשונה לפי תכנית החיזוק;\". (ב) בסעיף זה – \"עסקה לפי תכנית החיזוק\", ו\"עסקה ראשונה לפי תכנית החיזוק\" – (נמחקה) \" יזם \" – כהגדרתו בסעיף 5ב.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1b-notice-and-documents",
+      "claim": "Section 1b of the 2006 law requires, once the first pinui-binui transaction has been signed, notice of that signature and delivery of the transaction documents to the apartment owners. Source: Section 1b of the 2006 law (סעיף 1ב).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "הודעה על חתימת עסקת פינוי ובינוי ראשונה ומסירת מסמכי העסקה 1ב. (א) נחתמה עסקת פינוי ובינוי ראשונה, ימסור היזם הודעה על כך לכל בעלי הדירות בבית המשותף. (ב) נחתמה עסקת פינוי ובינוי, ימסור היזם לבעל הדירה שעמו נחתמה העסקה את מסמכי העסקה או העתק נאמן למקור שלהם. (ג) שר המשפטים, בהתייעצות עם שר הבינוי והשיכון ושר העבודה הרווחה והשירותים החברתיים, יקבע הוראות לביצוע סעיף 1א וסעיף קטן (א), ובכלל זה לעניין אופן הכינוס וההודעה עליו, תוכנו של מסמך עיקרי הצעה, צורתו ואופן מסירתו וכן אופן מסירת ההודעה על חתימת עסקת פינוי ובינוי ראשונה. ביטול עסקת פינוי ובינוי בהחלטת רוב בעלי הדירות 1ג. נחתמה עסקת פינוי ובינוי לפני שנערך כינוס של בעלי הדירות בבית המשותף או לפני שנמסר מסמך עיקרי הצעה כאמור בסעיף 1א, רשאים",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s4-enlargement-60pct",
+      "claim": "Work in the common property whose purpose is enlarging an apartment requires an advance decision of those owning SIXTY PERCENT of the apartments in the beit meshutaf, covering both the removal of common-property parts for attachment to that apartment and the allocation of the building rights needed. Source: Section 4 of the 2008 law (סעיף 4).",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "עבודה שמטרתה הרחבת דירה 4. ביצוע עבודה ברכוש המשותף שמטרתה הרחבת דירה, טעון החלטה מראש של מי שבבעלותם שישים אחוזים מהדירות בבית המשותף, בדבר הוצאת חלקים מהרכוש המשותף לשם הצמדתם לאותה דירה וכן בדבר חלוקת זכויות הבניה הנדרשות לשם ביצוע עבודה. עבודה שמטרתה בניית דירה חדשה 5. (א) ביצוע עבודה ברכוש המשותף שמטרתה בניית דירה חדשה אחת",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5b-kinus-and-40pct-cancellation",
+      "claim": "On the strengthening track, Section 5b of the 2008 law imports the same pre-signature duties: before the first transaction the developer must hold or take part in a kinus AND deliver the mismach ikarei hatzaa to all owners, all as provided in Section 1a of the pinui-binui law. Where a transaction was signed BEFORE the kinus was held or before the offer document was delivered, a majority of the apartment owners may resolve to cancel it so long as 40 percent of the owners have not yet signed; written notice goes to the developer and the contracting owners are not treated as having breached. Source: Section 5b of the 2008 law (סעיף 5ב).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "כינוס בעלי הדירות ומסירת מסמכים בקשר לעסקה 5ב. (א) בסעיף זה, \" יזם \" – כהגדרתו בחוק התחדשות עירונית (הסכמים לארגון עסקאות), התשע\"ז-2017. (ב) לפני חתימה על עסקה ראשונה לפי תכנית החיזוק, יקיים היזם כינוס של בעלי הדירות בבית המשותף או ישתתף בכינוס כאמור וימסור לכל בעלי הדירות בבית המשותף מסמך עיקרי הצעה, והכול כאמור בסעיף 1א לחוק פינוי ובינוי. (ג) נחתמה עסקה ראשונה לפי תכנית החיזוק, ימסור היזם הודעה על כך לכל בעלי הדירות בבית המשותף. (ד) נחתמה עסקה לפי תכנית החיזוק, ימסור היזם לבעל הדירה שעמו נחתמה העסקה את מסמכי העסקה או העתק נאמן למקור שלהם. (ה) נחתמה עסקה לפי תכנית החיזוק לפני שנערך כינוס של בעלי הדירות בבית המשותף או לפני שנמסר מסמך עיקרי הצעה כאמור בסעיף קטן (ב), רשאים רוב בעלי הדירות בבית המשותף, להחליט על ביטולה, כל עוד לא חתמו על העסקה 40% מבעלי הדירות בבית המשותף; הוחלט על ביטול העסקה כאמור, תימסר על כך הודעה ליזם בכתב, ולא יראו את בעלי הדירות שהתקשרו בעסקה כמי שהפרו את ההתקשרות עם היזם. (ו) על כינוס, מסמך עיקרי הצעה והודעה על חתימת עסקה ראשונה לפי הוראות סעיף זה, יחולו ההוראות לפי סעיף 1ב(ג) לחוק פינוי ובינוי, בשינויים המחויבים.",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1c-40pct-procedural-cancellation",
+      "claim": "The pinui-binui track carries the same procedural-defect cancellation at Section 1c: where a transaction was signed before the kinus was held or before the mismach ikarei hatzaa was delivered under Section 1a, a majority of the apartment owners may resolve to cancel the transactions so long as 40 percent of the owners have not signed such transactions; written notice goes to the developer and the contracting owners are not treated as having breached. Source: Section 1c of the 2006 law (סעיף 1ג).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "1ג. נחתמה עסקת פינוי ובינוי לפני שנערך כינוס של בעלי הדירות בבית המשותף או לפני שנמסר מסמך עיקרי הצעה כאמור בסעיף 1א, רשאים רוב בעלי הדירות בבית המשותף להחליט על ביטול העסקאות, כל עוד לא חתמו על עסקאות כאמור 40% מבעלי הדירות בבית המשותף; הוחלט על ביטול עסקאות כאמור, תימסר על כך הודעה ליזם בכתב, ולא יראו את בעלי הדירות שהתקשרו בעסקה כמי שהפרו את ההתקשרות עם היזם. תוקפה של עסקת פינוי ובינוי 1ד. (א) נחתמה עסקת פינוי ובינוי, רשאים רוב בעלי הדירות בבית המשותף, לרבות מי שאינו צד לעסקה, להחליט באסיפה כללית כי בעלי הדירות",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s5b-predatory-signing",
+      "claim": "The Memuneh may determine that a pinui-binui transaction is VOID where an owner signed in circumstances of hachtama pog'anit, namely: signing in a language he does not understand without the developer explaining the main terms in a language he understands; the developer exploiting the owner's medical, mental or intellectual disability where the developer knew or should have known of it; the developer creating a misleading impression that he represents a public authority; or the developer giving the owner misleading information, INCLUDING misleading information about how many owners had agreed to the transaction by the signing date, or about the terms agreed with other owners. Source: Section 5b of the 2006 law (סעיף 5ב).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "פנייה לממונה לעניין פניות דיירים בהתחדשות עירונית 5ב. (א) הממונה כהגדרתו בחוק הרשות הממשלתית להתחדשות עירונית רשאי לקבוע כי עסקת פינוי ובינוי בטלה, אם מצא כי בעל דירה חתם על עסקת פינוי ובינוי באחת מנסיבות אלה (בסעיף זה – החתמה פוגענית): (1) בעל הדירה חתם על העסקה בשפה שאינה מובנת לו, בלי שהיזם או מי מטעמו הסביר לו את עיקרי העסקה בשפה המובנת לו; (2) היזם או מי מטעמו ניצל, לשם החתימה, את מוגבלותו הרפואית, הנפשית או השכלית של בעל הדירה, והיזם או מי מטעמו ידע או היה עליו לדעת על קיומה של מוגבלות כאמור; (3) היזם או מי מטעמו יצר מצג מטעה כלפי בעל הדירה, לשם ההתקשרות בעסקה, כי הוא נציג מטעם רשות ציבורית; (4) היזם או מי מטעמו מסר לבעל הדירה מידע מטעה, לרבות מידע מטעה על מספר בעלי הדירות שהסכימו לעסקה עד ליום החתימה או מידע מטעה על תנאי העסקה שהוסכמו עם בעלי הדירות האחרים. (ב) על בירור פנייה בעניין החתמה פוגענית יחולו הוראות סעיף 7 לחוק הרשות הממשלתית להתחדשות עירונית. חובות גילוי ושקיפות 6. (א) כל אחד מהמנויים להלן יציין באופן ברור בפנייה הראשונה לבעלי הדירות, לפני חתימה על הסכם התקשרות וכן בנוסח הסכם ההתקשרות, א",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5d-predatory-signing-imported",
+      "claim": "The same predatory-signing regime applies on the strengthening track: Section 5d of the 2008 law adopts hachtama pog'anit as defined in Section 5b of the pinui-binui law and empowers the Memuneh to determine that a transaction under the strengthening plan is void on that ground. Source: Section 5d of the 2008 law (סעיף 5ד).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "פנייה לממונה לעניין פניות דיירים בהתחדשות עירונית 5ד. (א) בסעיף זה – \" החתמה פוגענית \" – כמשמעותה בסעיף 5ב לחוק פינוי ובינוי; \" חוק הרשות הממשלתית להתחדשות עירונית \" – חוק הרשות הממשלתית להתחדשות עירונית, התשס\"ו-2016; \" הממונה \" – כהגדרתו בחוק הרשות הממשלתית להתחדשות עירונית. (ב) הממונה רשאי לקבוע כי עסקה לפי תכנית החיזוק בטלה, אם מצא כי בעל דירה חתם על עסקה כאמור בנסיבות של החתמה פוגענית. (ג) על בירור פנייה בעניין כאמור בסעיף קטן (ב) יחולו הוראות סעיף 7 לחוק הרשות הממשלתית להתחדשות עירונית.",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s6-disclosure-and-withdrawal",
+      "claim": "Section 6 of the 2006 law requires anyone who acts on a developer's behalf, who receives or will receive consideration from the developer or the builder, or whose fee depends on a pinui-binui transaction taking place, to state that clearly in the FIRST approach to the apartment owners, before an engagement agreement is signed, and in the text of that agreement. Such a person must also report on his own initiative any non-negligible difference in the temura one owner will receive compared with others in the complex. Breach of either duty is a ground for an owner to WITHDRAW consent already given to a pinui-binui transaction, even if he signed a binding engagement agreement. Source: Section 6 of the 2006 law (סעיף 6).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "חובות גילוי ושקיפות 6. (א) כל אחד מהמנויים להלן יציין באופן ברור בפנייה הראשונה לבעלי הדירות, לפני חתימה על הסכם התקשרות וכן בנוסח הסכם ההתקשרות, אם הוא אחד מאלה: (1) מי שפועל מטעמו של יזם המעוניין בביצוע עסקת פינוי ובינוי; (2) מי שמקבל או עתיד לקבל תמורה מהיזם או מהקבלן שעתיד לבצע את הבנייה; (3) מי ששכרו תלוי בהתקיימותה של עסקת פינוי ובינוי. (ב) אדם כאמור בסעיף קטן (א) ידווח מיוזמתו לבעלי דירות במקבץ על כל שינוי בתמורה, שאינו זניח, שיקבל בעל דירה במקבץ, בהשוואה לבעלי דירות אחרים באותו מקבץ. (ג) הפר אדם כאמור בסעיף קטן (א) הוראה מהוראות סעיפים קטנים (א) או (ב), תהיה בכך עילה לחזרתו של דייר מהסכמה שנתן לעסקת פינוי ובינוי, אף אם חתם על הסכם התקשרות מחייב. התניה לטובת בעל דירה 6א. התניה על ההוראות לפי חוק זה שאינה לטובת בעל דירה –בטלה. ביצוע ותקנות 7. (א) שר המשפטים ממונה על ביצועו של חוק זה, והוא רשאי, בהסכמת שר הבינוי והשיכון, ובאישור ועדת הפנים והגנת הסביבה של הכנסת, להתקין תקנות בכל הענ",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s1e-form-and-content-void",
+      "claim": "The Minister of Justice prescribes requirements for the form and content of a pinui-binui transaction, including requirements whose breach means the transaction is treated as void, and the Memuneh may give an apartment owner confirmation that a transaction is void for such a breach. Source: Section 1e of the 2006 law (סעיף 1ה).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "צורתה ותוכנה של עסקת פינוי ובינוי 1ה. (א) שר המשפטים, בהסכמת שר הבינוי והשיכון ובאישור ועדת הפנים והגנת הסביבה של הכנסת, יקבע הוראות לעניין תוכנה וצורתה של עסקת פינוי ובינוי, לרבות הוראות כאמור שבהפרתן יראו את העסקה כבטלה. (ב) הממונה כהגדרתו בחוק הרשות הממשלתית להתחדשות עירונית רשאי לתת אישור לבעל דירה כי עסקת פינוי ובינוי בטלה בשל הפרת הוראות שקבע שר המשפטים לפי סעיף קטן (א). (ג) על בירור פנייה בעניין כאמור בסעיף קטן (ב), יחולו הוראות סעיף 7(ג) לחוק הרשות הממשלתית להתחדשות עירונית. סעדים בשל סירוב בלתי סביר לביצוע עסקת פינוי ובינוי 2. (א) הסכים רוב מיוחס מבין בעלי הדירות במקבץ לפינוי ובינוי לכרות עסקת פינוי ובינ",
+      "confidence": "high"
+    },
+    {
+      "id": "chizuk-s5g1-form-and-content-void",
+      "claim": "The parallel provision on the strengthening track is Section 5g1 of the 2008 law, under which the Minister of Justice prescribes form and content requirements whose breach renders the transaction void, with the Memuneh empowered to confirm that to an owner.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "source_fetched_at": "2026-09-14T00:00:00Z",
+      "raw_snippet": "צורתה ותוכנה של עסקה לפי תוכנית החיזוק 5ג1. (א) שר המשפטים, בהסכמת שר הבינוי והשיכון ובאישור ועדת הפנים והגנת הסביבה של הכנסת, יקבע הוראות לעניין תוכנה וצורתה של עסקה לפי תוכנית החיזוק, לרבות הוראות כאמור שבהפרתן יראו את העסקה כבטלה. (ב) הממונה כהגדרתו בחוק הרשות הממשלתית להתחדשות עירונית רשאי לתת אישור לבעל דירה כי עסקה לפי תוכנית החיזוק בטלה בשל הפרת הוראות שקבע שר המשפטים לפי סעיף קטן (א). (ג) הוראות סעיף 7(ג) לחוק הרשות הממשלתית להתחדשות עירונית יחולו על בירור פנייה בעניין כאמור בסעיף קטן (ב).",
+      "confidence": "high"
+    },
+    {
+      "id": "warlaw-purpose-and-destroyed-building",
+      "claim": "A separate 2026 statute, chok shikum nizkei milchama be-derech shel hitchadshut ironit, governs rehabilitation of war-damaged areas through urban renewal. A 'destroyed building' under it is one that suffered war damage where the LOCAL AUTHORITY ENGINEER determined, for the purposes of that law, that it was destroyed or must be demolished.",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241401.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "מטרתו של חוק זה היא שיקום אזורים שנפגעו מנזק מלחמה בדרך של התחדשות עירונית תוך איזון בין האינטרס הציבורי בקידום מהיר, יעיל ומיטבי של התחדשות עירונית ובין שמירה על זכות הקניין של הפרט. פרשנות 2. (א) בחוק זה – \" אזור לשיקום והתחדשות \" – כמשמעותו בסעיף 3; \" בית משותף \" – אחד מאלה: (1) כמשמעותו בפרק ו' לחוק המקרקעין; (2) בית כמשמעותו בפרק ו'1 לחוק המקרקעין; \" בניין \" – כהגדרתו בחוק התכנון, למעט מבנה כאמור בפסקאות (1) ו-(2) לאותה הגדרה; \" בניין הרוס \" – בניין שנגרם לו נזק מלחמה, ומהנדס הרשות המקומית שבתחומה נמצא הבניין קבע, לעניין חוק זה, כי בשל אותו נזק הוא נהרס או שיש להרסו; \" בעל דירה \" – כהגדרתו בחוק פינוי ובינוי, לרבות בעל זכות במקרקעין באזור לשיקום והתחדשות שערב קרות נזק המלחמה הייתה בבעלותו דירה בבניין באזור לשיקום והתחדשות; \" בעל מגרש \" – בעלים, ל",
+      "confidence": "high"
+    },
+    {
+      "id": "warlaw-special-majority",
+      "claim": "The war-damage statute defines its own 'special majority of apartment owners' as one or more of: a majority of the apartment owners in the rehabilitation and renewal area who own a majority of the apartments in each of MOST of the buildings in that area, provided every building under section 4(2) is one of them; OR owners of AT LEAST FOUR FIFTHS of all the apartments in that area. A plot with no building is treated as a plot containing one apartment.",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/241401.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "רוב מיוחד של בעלי הדירות \" – אחד או יותר מאלה: (1) רוב בעלי הדירות באזור לשיקום והתחדשות שבבעלותם רוב הדירות בכל אחד ממרבית הבניינים באותו אזור, ובלבד שכל בניין לפי סעיף 4(2) הוא אחד מהבניינים כאמור; (2) בעלי הדירות באזור לשיקום והתחדשות שבבעלותם ארבע חמישיות לפחות מתוך כלל הדירות שבאותו אזור; לעניין הגדרה זו, יראו מגרש שאין בו בניין כאמור בסעיף 4(3) כמגרש שיש בו דירה אחת; \" הרשות להתחדשות עירונית \" – הרשות הממשלתית להתחדשות עירונית, כהגדרתה בחוק הרשות הממשלתית; \" תוכנית לשיקום והתחדשות \" – תוכנית מיתאר מקומית או תוכנית מפורטת שגבולותיה זהים לגבולות אזור",
+      "confidence": "high"
+    },
+    {
+      "id": "cancellation-payment-schedule",
+      "claim": "The 2025 regulations made under Section 1d(e) set a schedule of the payment due to the developer per apartment whose transaction was cancelled. On the pinui-binui track: no payment where the developer contracted with the owner of only one apartment, or failed to reach a fifth of the apartments in a building of at most 34 apartments (or 7 apartments in a larger one); 5,000 NIS where he did not reach at least half; 7,000 NIS where he did not reach three fifths, and 7,000 NIS at the two-thirds limb; 10,000 NIS where no detailed plan was submitted. On the strengthening track the figures are 500 NIS at the half limb, 700 NIS at the section 4 rate or mefake'ach-majority limb, and 1,800 NIS where the building permit application was not accepted.",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/233662.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "תוספת (תקנות 2, 4 ו-5) סוג העסקה סיבת הביטול סעיף החוק שמכוחו בוטלה העסקה סכום לתשלום בשקלים חדשים בעד כל דירה שהעסקה לגביה בוטלה 1. עסקת פינוי ובינוי (1) היזם התקשר עם בעלים של דירה אחת בלבד בבית משותף 1ד(א)(1) ו-(ב) לחוק פינוי ובינוי בלא תשלום (2) היזם לא התקשר עם בעלים של חמישית לפחות מהדירות בבית המשותף שבו 34 דירות לכל היותר או שהיזם לא התקשר עם בעלים של 7 דירות לכל הפחות בבית משותף שבו למעלה מ-34 דירות בלא תשלום (3) היזם לא התקשר עם בעלים של מחצית לפחות מהדירות בבית המשותף 5,000 (4) היזם לא התקשר עם בעלים של שלוש חמישיות לפחות מהדירות בבית המשותף 7,000 (5) היזם לא התקשר עם בעלים של שני שלישים לפחות מהדירות בבית המשותף סעיף 43 לחוק התוכנית הכלכלית 7,000 (6) היזם לא הגיש תוכנית מפורטת לפינוי ובינוי 1ד(א)(2) ו-(ב) לחוק פינוי ובינוי 10,000 2. עסקה לפי תוכנית החיזוק (1) היזם התקשר עם בעלים של דירה אחת בלבד בבית משותף שבו 3 דירות או יותר סעיף 5ג(א)(1) לחוק החיזוק בלא תשלום (2) היזם לא התקשר עם בעלים של שליש לפחות מהדירות בבית המשותף שבו 20 דירות לכל היותר או שהיזם לא התקשר עם בעלים של 7 דירות לכל הפחות בבית משותף שבו למעלה מ-20 דירות בלא תשלום (3) היזם לא התקשר עם בעלים של מחצית מהדירות לפחות בבית המשותף 500 (4) היזם לא התקשר עם בעלי הדירות בשיעור הנדרש לפי סעיף 4 לחוק החיזוק, או עם בעלי הדירות המהווים רוב המאפשר פנייה למפקח לפי הוראות סעיף 5 או 5א לחוק האמור, לפי העניין סעיף 5ג(א)(1) לחוק החיזוק או סעיף 43 לחוק התוכנית הכלכלית 700 (5) לא נקלטה בקשה להיתר בנייה במוסד התכנון המוסמך סעיף 5ג(א)(2) לחוק החיזוק 1,800",
+      "confidence": "high"
+    },
+    {
+      "id": "pinui-s6a-void-stipulation",
+      "claim": "Section 6a of the 2006 law provides that any stipulation on the provisions of that law which is not in the apartment owner's favour is void, so the disclosure duties in Section 6 cannot be contracted around. Source: Section 6a of the 2006 law (סעיף 6א).",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "source_fetched_at": "2026-08-31T00:00:00Z",
+      "raw_snippet": "התניה לטובת בעל דירה 6א. התניה על ההוראות לפי חוק זה שאינה לטובת בעל דירה –בטלה. ביצוע ותקנות 7. (א) שר המשפטים ממונה על ביצועו של חוק זה, והוא רשאי, בהסכמת שר הבינוי והשיכון, ובאישור ועדת הפנים והגנת",
+      "confidence": "high"
+    }
+  ]
+}

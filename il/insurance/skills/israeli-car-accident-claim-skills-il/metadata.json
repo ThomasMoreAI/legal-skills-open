@@ -1,0 +1,89 @@
+{
+  "author": "skills-il",
+  "version": "1.2.2",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "תאונת דרכים",
+      "תביעת ביטוח",
+      "ביטוח רכב",
+      "קרנית",
+      "פגע וברח",
+      "ישראל"
+    ],
+    "en": [
+      "car accident",
+      "insurance claim",
+      "car insurance",
+      "karnit",
+      "hit and run",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "תביעת תאונת רכב בישראל",
+    "en": "Israeli Car Accident Claim"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מלווה אתכם אחרי תאונת דרכים בישראל: מה לעשות ולתעד בזירה, מאיזה ביטוח לתבוע, ולמה נזקי גוף מפוצים בלי קשר לאשם בעוד נזקי רכוש תלויים באשם. מסביר את ההבדל בין ביטוח חובה, מקיף וצד ג', איך ממלאים הודעה על תאונה, מהם המועדים, ומתי קרנית נכנסת (פגע וברח או רכב לא מבוטח). מתאים מיד אחרי תאונה או כשצריך להגיש תביעת ביטוח. אל תשתמשו לחידוש רישוי, טסט או בחירת ביטוח (לכך יש israeli-vehicle-manager), ולתביעת נזקי גוף קשים שדורשת עורך דין.",
+    "en": "Not legal advice. Walks you through the aftermath of a car accident in Israel: what to do and document at the scene, which insurance to claim under, and why bodily injury is compensated regardless of fault while property damage follows fault. Explains the difference between compulsory, comprehensive, and third-party cover, how to fill the accident report, the time limits, and when Karnit applies (hit-and-run or uninsured driver). Use right after an accident or when filing an insurance claim. Do NOT use for registration, the annual test, or insurance shopping (use israeli-vehicle-manager), or for serious injury litigation that needs a lawyer."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/4555.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/תביעה_לקבלת_פיצויים_בגין_נזקי_גוף_בתאונת_דרכים",
+      "type": "guidance",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/consumer-info-public-inquiries",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

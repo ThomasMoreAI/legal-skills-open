@@ -1,0 +1,15 @@
+{
+  "name": "fr-employment",
+  "displayName": "Employment & Labor — France",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills under the law of France.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "fr",
+  "practice": "employment",
+  "language": "fr",
+  "skills": [
+    "skills/convention-zevra-tech",
+    "skills/import-notification-licenciement-sboghossian"
+  ]
+}

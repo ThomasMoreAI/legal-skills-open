@@ -1,0 +1,14 @@
+{
+  "name": "ie-corporate",
+  "displayName": "Corporate — Ireland",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Ireland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ie",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/ireland-cro-nolpak14"
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Social Insurance"
+  short_description: "Poland Social Insurance: run focused tasks"
+policy:
+  allow_implicit_invocation: false

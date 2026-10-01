@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyser les pièces"
+  short_description: "Indexer les pièces et extraire les faits"
+  default_prompt: "Utilise $analyser-pieces pour indexer ces documents, extraire les faits et relever les contradictions."

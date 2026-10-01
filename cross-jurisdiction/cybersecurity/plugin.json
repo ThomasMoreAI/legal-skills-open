@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-cybersecurity",
+  "displayName": "Cybersecurity & Information Security — comparative",
+  "version": "0.1.0",
+  "description": "Cybersecurity & Information Security skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "cybersecurity",
+  "language": "en",
+  "skills": [
+    "skills/cybersecurity-compliance-fdu-ins"
+  ]
+}

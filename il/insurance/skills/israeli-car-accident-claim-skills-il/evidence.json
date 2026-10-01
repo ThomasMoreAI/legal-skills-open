@@ -1,0 +1,912 @@
+{
+  "skill_slug": "israeli-car-accident-claim",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-19T20:25:10+00:00",
+  "revised_at": "2026-08-09",
+  "claims": [
+    {
+      "claim": "Under Section 2 of the Road Accident Victims Compensation Law, 1975 (PLATD), and in Hebrew סעיף 2, the vehicle user (driver) must compensate the injured party for bodily injury caused in a road accident in which the vehicle was involved, regardless of fault (no-fault / absolute liability)",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "המשתמש ברכב מנועי (להלן – הנוהג) חייב לפצות את הנפגע על נזק גוף שנגרם לו בתאונת דרכים שבה מעורב הרכב",
+      "confidence": "high",
+      "claim_id": "platd-no-fault",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim": "A road accident (תאונת דרכים) under PLATD is an event in which a person suffers bodily injury due to use of a motor vehicle for transport purposes",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "מאורע שבו נגרם לאדם נזק גוף עקב שימוש ברכב מנועי למטרות תחבורה",
+      "confidence": "high",
+      "claim_id": "road-accident-def",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Under Section 3 of PLATD (סעיף 3), in a multi-vehicle road accident each driver bears liability for the bodily injury of whoever rode in his own vehicle, and a person injured outside the vehicles (a pedestrian or cyclist) may claim against the involved drivers jointly and severally",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "בתאונת דרכים שבה היו מעורבים מספר כלי רכב, תחול על כל נוהג האחריות לנזקי הגוף של מי שנסע בכלי הרכב שלו. (ב) נפגע אדם מחוץ לכלי הרכב, בתאונת דרכים שבה היו מעורבים מספר כלי רכב, יהיו הנוהגים חייבים כלפיו יחד ולחוד",
+      "confidence": "high",
+      "claim_id": "platd-allocation-section-3",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim": "Under סעיף 7 of PLATD (Section 7), these victims are not entitled to compensation: one who caused the accident deliberately (7(1)); one who drove in breach of the unauthorised-use law or rode knowing of it (7(2)); one who drove with no licence, except a licence that lapsed for non-payment of the fee OR because of a restriction imposed under chapter vav-1 of the Execution Law (7(3)); one who used the vehicle to commit a felony (7(4)); one who drove with no insurance under the Insurance Ordinance or whose insurance did not cover the use (7(5)); and the owner or keeper who permitted another to drive uninsured and was himself injured in that drive (7(6))",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "נפגעים אלה אינם זכאים לפיצויים לפי חוק זה: (1) מי שגרם לתאונה במתכוון; (2) מי שנהג ברכב תוך הפרת החוק לתיקון דיני העונשין (שימוש ברכב ללא רשות), תשכ\"ד-1964, וכן מי שהיה מצוי ברכב ביודעו שהנוהגים בו כאמור; (3) מי שנהג ברכב כשאין לו רשיון לנהוג בו, למעט רשיון שפקע מחמת אי תשלום אגרה או מחמת הגבלה שהוטלה לפי פרק ו'1 לחוק ההוצאה לפועל, התשכ\"ז-1967; (4) מי שהרכב שימש לו, או סייע בידו, לביצוע פשע. (5) מי שנהג ברכב ללא ביטוח לפי פקודת הביטוח, או כשהביטוח שהיה לו לא כיסה את שימושו ברכב; (6) בעל הרכב או המחזיק בו, שהתיר לאחר לנהוג ברכב כשאין לו ביטוח לפי פקודת הביטוח או כשהביטוח שיש לו אינו מכסה את החבות הנדונה ושנפגע בתאונת דרכים שאירעה באותה נהיגה, בין בהיותו ברכב ובין מחוצה לו.",
+      "confidence": "high",
+      "claim_id": "platd-exclusions-section-7",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim": "Compulsory motor insurance (ביטוח חובה) covers bodily injury only (driver, passengers, and people outside the vehicle) and is mandatory; it does not cover property damage",
+      "claim_type": "law",
+      "source_url": "https://www.clalbit.co.il/carinsurance/faq/whatarethedifferences/",
+      "raw_snippet": "על פי חוק, כל נהג חייב להיות מבוטח בביטוח חובה, אשר מעניק כיסוי לנזקי גוף הנגרמים לנהג כתוצאה מתאונת דרכים לנוסעים או להולכי רגל",
+      "confidence": "high",
+      "claim_id": "compulsory-bodily-only",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim": "Comprehensive insurance (ביטוח מקיף, also called ביטוח רכוש) is not mandatory and covers two things: damage to your own vehicle (theft, collision, fire, flood and the like) plus legal liability to a third party for property damage",
+      "claim_type": "law",
+      "source_url": "https://www.clalbit.co.il/carinsurance/faq/whatarethedifferences/",
+      "raw_snippet": "בניגוד לביטוח חובה שמכסה רק נזקי גוף, הביטוח המקיף מכסה אתכם מפני צרות פוטנציאליות נוספות",
+      "confidence": "high",
+      "claim_id": "comprehensive-covers",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Third-party property insurance (ביטוח צד ג') covers the insured's liability for damage caused to a third party's property by use of the vehicle; it is optional and does not cover your own vehicle",
+      "claim_type": "law",
+      "source_url": "https://www.kalir.co.il/articles/1592",
+      "raw_snippet": "מקרה הביטוח הוא חבות המבוטח בשל נזק שייגרם לרכוש של צד שלישי כתוצאה משימוש ברכב בתקופת הביטוח",
+      "confidence": "high",
+      "claim_id": "third-party-property",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Under Section 22 of the Insurance Contract Law (סעיף 22), when the insured event occurs the insured must notify the insurer immediately after becoming aware of it",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "raw_snippet": "קרה מקרה הביטוח, על המבוטח להודיע על כך למבטח מיד לאחר שנודע לו",
+      "confidence": "high",
+      "claim_id": "duty-notify",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim": "The standard private-vehicle policy, Section 27 (Section 27(a)), requires the insured or beneficiary to notify the insurer immediately after becoming aware that an insured event occurred",
+      "claim_type": "law",
+      "source_url": "https://www.kalir.co.il/articles/1592",
+      "raw_snippet": "קרה מקרה ביטוח, על המבוטח או המוטב להודיע על כך למבטח מיד לאחר שנודע לו על כך",
+      "confidence": "high",
+      "claim_id": "policy-notify-27a",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md"
+      ]
+    },
+    {
+      "claim": "Under Section 62 of the Insurance Contract Law (סעיף 62), where the insured also has a right to compensation against a third party for the insured event, that right passes to the insurer (subrogation), which is how a not-at-fault driver's insurer recovers from the at-fault party",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "raw_snippet": "היתה למבוטח בשל מקרה הביטוח גם זכות פיצוי או שיפוי כלפי אדם שלישי, שלא מכוח חוזה ביטוח, עוברת זכות זו למבטח מששילם למוטב תגמולי ביטוח וכשיעור התגמולים ששילם",
+      "confidence": "high",
+      "claim_id": "subrogation",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim": "Under סעיף 5 of the Limitation Law 1958 (Section 5), the limitation period for a claim not concerning land is seven years. This is the period for the tort claim against the at-fault driver and for the PLATD bodily-injury claim. It does NOT govern a claim for insurance benefits against the claimant's own insurer, which is three years under Insurance Contract Law סעיף 31",
+      "claim_type": "date",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "raw_snippet": "התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא – (1) בשאינו מקרקעין – שבע שנים",
+      "confidence": "high",
+      "claim_id": "limitation-7y",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim": "Under Section 10 of the Limitation Law (סעיף 10), the limitation period does not count time during which the claimant was under 18, so a minor injured in a road accident can sue until about age 25",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "raw_snippet": "בחישוב תקופת ההתיישנות לא יבוא במנין הזמן שבו עדיין לא מלאו לתובע שמונה עשרה שנה",
+      "confidence": "high",
+      "claim_id": "limitation-minors",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim": "Karnit (קרנית), the Fund for Compensating Road Accident Victims established under PLATD, compensates an injured party who cannot claim from an insurer because the responsible driver is unknown (hit-and-run) or has no covering insurance",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "תפקידה של הקרן היא לפצות נפגע הזכאי לפיצויים לפי חוק זה ואין בידו לתבוע פיצויים מאת מבטח",
+      "confidence": "high",
+      "claim_id": "karnit-role",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim": "Karnit pays bodily-injury compensation to road-accident victims who cannot claim from another insurer in a hit-and-run (unidentified driver), an at-fault insurer in liquidation, or an at-fault vehicle with no insurance coverage",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/פיצוי_על_תאונת_פגע_וברח",
+      "raw_snippet": "לא ידוע מי נהג ברכב הפוגע ובאיזו חברה הרכב מבוטח",
+      "confidence": "high",
+      "claim_id": "karnit-cases",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Under Section 64 of the Traffic Ordinance (the leaving-after-an-accident offense, סעיף 64א), a driver who fails to stop or summon aid where a person was injured is liable to up to 7 years imprisonment, rising to up to 14 years where serious injury or death resulted",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "raw_snippet": "נוהג רכב המעורב בתאונה שכתוצאה ממנה נהרג אדם או נפגע, יפעל לפי הוראות אלה: (1) יעצור מיד את הרכב במקום התאונה או קרוב אליו ככל האפשר",
+      "confidence": "high",
+      "claim_id": "duty-to-stop",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Under תקנה 144 of the Traffic Regulations, a driver in an accident that injured or killed someone must stop immediately and not move the vehicle, render appropriate aid, summon emergency services, give details, and immediately report to the nearest police station",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "raw_snippet": "יודיע מיד ככל האפשר ובאמצעי הקשר המהירים ביותר לתחנת המשטרה הקרובה למקום התאונה על אירועה",
+      "confidence": "high",
+      "claim_id": "reg-144-injury",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "Under תקנה 145 of the Traffic Regulations, in a property-only accident the driver must give the other driver or property owner or an officer present his name and address, license number, and vehicle registration and owner details on the spot",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "raw_snippet": "נוהג רכב המעורב בתאונה או בפגיעה ברכב אחר, או ברכוש אחר, שאינו רכב, הנמצא על הדרך או סמוך לה, ונגרם נזק לרכב האחר או לרכוש האמור בלבד, ימסור בו במקום לנוהג הרכב האחר או לבעל הרכוש או לממונה עליו או לשוטר שהזדמן למקום את שמו ומענו",
+      "confidence": "high",
+      "claim_id": "reg-145-property",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim": "The gov.il police service page for reporting a light road accident states that the police confirmation is a mandatory precondition for filing a compensation claim, and that the confirmation is also used to have treatment recognised by a hospital or kupat holim and, in a work accident, presented to Bituach Leumi",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "raw_snippet": "הגשת תביעה לחברות הביטוח - אישור המשטרה מהווה תנאי הכרחי להגשת תביעה לפיצויים.",
+      "confidence": "high",
+      "claim_id": "police-confirmation",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "scripts/claim_router.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim": "The gov.il online light-accident report applies only when there are no injuries, or injured persons were treated and released from a medical institution within 24 hours; otherwise call 110 or go to a police station",
+      "claim_type": "threshold",
+      "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "raw_snippet": "מתי אפשר להגיש דיווח במקרה של תאונת דרכים שקרתה בזמן נהיגה, נסיעה או הליכה ברגל, כאשר מתקיים אחד מהתנאים הבאים: אין נפגעים יש נפגעים שטופלו ושוחררו ממוסד רפואי תוך 24 שעות במקרים אחרים ניתן להתקשר למוקד 110 או לגשת לתחנת משטרה.",
+      "confidence": "high",
+      "claim_id": "light-accident-eligibility",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ],
+      "verified_via": "gov.il content API (programmatic re-extraction)",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim": "The Capital Market, Insurance and Savings Authority's public-inquiries page states that the Commissioner of Insurance is empowered to investigate public complaints in insurance, provident and pension matters about the conduct of insurers, managing companies, agents and pension advisers. Canonical URL: gov.il/he/pages/consumer-info-public-inquiries",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/pages/consumer-info-public-inquiries",
+      "raw_snippet": "המפקח על הביטוח מוסמך לברר תלונות ציבור בענייני ביטוח, גמל ופנסיה, על התנהלות חברות ביטוח",
+      "confidence": "medium",
+      "claim_id": "ombudsman",
+      "fetched_at": "2026-06-23T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "icl-limitation-3y-section-31",
+      "claim": "Under סעיף 31 of the Insurance Contract Law (Section 31), the limitation period for a claim for insurance benefits (תגמולי ביטוח) is three years after the insured event occurred. It runs from the event, not from the insurer's rejection. This is the period that governs a claim against your own insurer, including a comprehensive (מקיף) property claim",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תקופת ההתיישנות של תביעה לתגמולי ביטוח היא שלוש שנים לאחר שקרה מקרה הביטוח",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "icl-liability-insurance-section-70",
+      "claim": "Under סעיף 70 of the Insurance Contract Law (Section 70), in liability insurance the claim for insurance benefits does not prescribe as long as the third party's claim against the insured has not prescribed",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בביטוח אחריות, התביעה לתגמולי ביטוח אינה מתיישנת כל עוד לא התיישנה תביעת הצד השלישי נגד המבוטח",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "icl-warning-section-31a",
+      "claim": "Under סעיף 31א of the Insurance Contract Law (Section 31a), once the insured has notified the insurer under סעיף 22, the insurer must state the limitation period and that delivering the claim does not stop it, and must warn the insured in writing 12 months before the period ends and again 3 months before it ends, even while negotiations are running",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71902.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "יתריע המבטח בפני המבוטח או המוטב בכתב, 12 חודשים לפני סיום תקופת ההתיישנות לפי סעיף 31 ובהודעה נוספת שלושה חודשים לפני סיום התקופה האמורה, על משמעות סיום תקופת ההתיישנות אף אם מתנהל ביניהם משא ומתן",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "karnit-gate-section-12a",
+      "claim": "Under סעיף 12 of PLATD (Section 12), the Fund's (Karnit's) function is to compensate a victim entitled to compensation under the law who has no way of claiming compensation from an insurer, because the responsible driver is unknown, the driver has no insurance or none covering the liability, an authorised manager was appointed to the insurer, or the insurer is in liquidation. Section 12(b) also obliges the Fund to pay the hospital the cost of treating the victim as an insurer would",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תפקידה של הקרן היא לפצות נפגע הזכאי לפיצויים לפי חוק זה ואין בידו לתבוע פיצויים מאת מבטח מחמת אחת מאלה: (1) הנוהג האחראי לפיצויים אינו ידוע; (2) אין לנוהג ביטוח לפי פקודת הביטוח או שהביטוח שיש לו אינו מכסה את החבות הנדונה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-absolute-liability-2c",
+      "claim": "Under סעיף 2(ג) of PLATD (Section 2), liability is absolute and complete, and it makes no difference whether or not the driver was at fault and whether or not others were at fault or contributorily negligent, so there is no contributory-negligence reduction on the bodily-injury side",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "האחריות היא מוחלטת ומלאה, ואין נפקא מינה אם היה או לא היה אשם מצד הנוהג ואם היה או לא היה אשם או אשם תורם של אחרים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-health-basket-2b1",
+      "claim": "Under סעיף 2(ב1) of PLATD, the driver's and the permitting owner's duty to compensate does not apply to a victim who is a resident under the National Health Insurance Law in respect of health services in that law's second schedule, since the kupat holim provides them; the exceptions are a resident in the waiting period, a soldier outside the health law, and a person entitled in respect of the injury to a benefit under chapter he of the National Insurance Law",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "חובתו של הנוהג, וכן של מי שהתיר את השימוש ברכב כאמור בסעיף קטן (ב), לפצות את הנפגע, לא תחול לגבי נפגע שהוא תושב כהגדרתו בחוק ביטוח בריאות ממלכתי, התשנ\"ד-1994 (להלן – חוק ביטוח בריאות ממלכתי), בשל שירותי בריאות הכלולים בתוספת השניה או בצו לפי סעיף 8(ז) לחוק האמור, ובלבד שהנפגע זכאי להם לפי אותו חוק",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-motorcycle-3c",
+      "claim": "Under סעיף 3(ג) of PLATD, where a road accident involved one or more motorcycles and one or more other vehicles, the insurers of the other vehicle pay the motorcycle's insurers 75% of the bodily-injury compensation the motorcycle's insurers must pay. This is an allocation between insurers and does not change where the victim files",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "ישלמו המבטחים של הרכב האחר למבטחים של האופנוע, 75% מהפיצויים על נזקי גוף שהמבטחים של האופנוע חייבים בתשלומם עקב התאונה",
+      "confidence": "high",
+      "appears_in": [
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "platd-abroad-2a1",
+      "claim": "Under סעיף 2(א1) of PLATD, a driver of an Israeli vehicle must compensate an Israeli victim or a foreign tourist even where the accident occurred in the Area, the Palestinian civil-responsibility territories, or the Areas, and the accident is treated as if it occurred in Israel. There is no general accident-abroad rule beyond those territories",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "הנוהג ברכב ישראלי חייב לפצות נפגע שהוא ישראלי או תייר חוץ על נזק גוף שנגרם לו בתאונת דרכים שבה מעורב הרכב אף אם התאונה אירעה באזור או בשטחי האחריות האזרחית הפלסטינית או באזורים ויראו את התאונה כאילו אירעה בישראל",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "platd-urgent-payment-5",
+      "claim": "Under סעיף 5 of PLATD (Section 5), whoever is liable in damages under the law, and the insurer who insured that liability, must pay the victim or his dependants, within 60 days of receiving a written demand, the expenses the victim incurred for treatment including hospitalization, and monthly payments meeting, until the final decision on compensation, the victim's treatment and nursing needs and the living needs of the victim, his family and his dependants",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מי שחייב בפיצויים לפי חוק זה ישלם, כחלק מהם, לנפגע או למי מהתלויים בו, תוך 60 ימים מקבלת דרישתו בכתב – (1) הוצאות שהוציא הנפגע לצרכי ריפויו, לרבות הוצאות אישפוז בבית חולים; (2) תשלומים חדשיים שיהיה בהם כדי לספק, עד להחלטה הסופית בענין הפיצויים, את צרכי ריפויו של הנפגע וסיעודו ואת צרכי מחייתו ומחיית בני משפחתו שפרנסתם עליו או את צרכי מחייתם של התלויים בו",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-urgent-payment-court-5a",
+      "claim": "Under סעיף 5א of PLATD (Section 5a), once 60 days have passed since the demand was submitted and the demander has not received payment, he may apply to the court for an urgent payment, even separately from the main claim, and the application goes to the Magistrates' Court with local jurisdiction. Under סעיף 5ג (Section 5c) the court's decision on the application is not res judicata for the main claim",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "עברו 60 ימים מיום שהוגשה לחייב דרישה לתשלום לפי סעיף 5 והדורש לא קיבלו, רשאי הוא להגיש לבית המשפט בקשה לתשלום תכוף, אף בנפרד מהתביעה ליתר הפיצויים בשל אותה תאונת דרכים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-urgent-payment-interest-5d",
+      "claim": "Under סעיף 5ד of PLATD (Section 5d), a liable party who did not pay an urgent payment on time pays on the withheld amount linkage differences plus linked interest at a rate of 12% a year, from the due date until actual payment, unless the court finds circumstances justifying a lower rate",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "חייב שלא שילם תשלום תכוף על-פי דרישה במועד, ישלם על הסכום שהושהה תוספת הפרשי הצמדה וריבית צמודה בשיעור של 12% לשנה, שיחושבו החל במועד האמור עד יום התשלום בפועל",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-urgent-payment-limits-5e",
+      "claim": "Under סעיף 5ה of PLATD (Section 5e), once the court has decided an urgent-payment application it will not entertain a further application or a variation unless six months have passed and circumstances have changed materially, and the court will not award an urgent payment for a period exceeding two years from the date of the road accident",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "לא ייזקק לבקשה נוספת לתשלום תכוף או לבקשה בדבר שינויה של ההחלטה הקודמת, אלא אם כן עברו ששה חדשים מיום שניתנה ההחלטה הקודמת והנסיבות השתנו במידה המצדיקה מתן החלטה חדשה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-urgent-payment-ceiling-5eb",
+      "claim": "Under סעיף 5ה(ב) of PLATD, the court will not award an urgent payment for a period exceeding two years from the day of the road accident in respect of which the application was made",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "לא יפסוק בית המשפט תשלום תכוף בעד תקופה העולה על שנתיים מיום קרות תאונת הדרכים שבגינה הוגשה הבקשה לתשלום תכוף",
+      "confidence": "high",
+      "appears_in": [
+        "references/compensation-and-deadlines.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-medical-expert-6a",
+      "claim": "Under סעיף 6א of PLATD (Section 6a), the Minister of Justice may prescribe the appointment of an expert to opine on a victim's medical disability, and where such an expert has been appointed the parties may summon him for cross-examination but may not adduce further expert evidence on the matter except by leave of the court for special reasons that are recorded. The PLATD mechanism is therefore a court-appointed מומחה רפואי, not a ועדה רפואית",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בעלי דין יהיו רשאים להזמין את המומחה לבית-המשפט לחקירה, אולם לא יהיו רשאים להביא עדות נוספת של מומחה לענין הנדון אלא ברשות בית המשפט מטעמים מיוחדים שיירשמו",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-binding-determination-6b",
+      "claim": "Under סעיף 6ב of PLATD (Section 6b), where a disability degree has been determined for the victim under any law in respect of the same road-accident injury before the evidence stage in the PLATD claim, that determination binds the PLATD claim too, and the court may permit rebuttal evidence only where it is satisfied that justice requires it for special reasons that are recorded",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "נקבעה על פי כל דין דרגת נכות לנפגע בשל הפגיעה שנגרמה לו באותה תאונת דרכים, לפני שמיעת הראיות בתביעה לפי חוק זה, תחייב קביעה זאת גם לצורך התביעה על פי חוק זה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-exclusive-cause-8",
+      "claim": "Under סעיף 8 of PLATD (Section 8), a person to whom a road accident gives a cause of action under the law has no cause of action under the Torts Ordinance for bodily injury, except where he was injured in an accident deliberately caused by another person. Section 8(b) treats a person excluded by סעיף 22(ב) the same way, and Section 8(c) preserves the tort claim of a person who has no PLATD cause of action at all",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מי שתאונת דרכים מקנה לו עילת תביעה על פי חוק זה, לרבות תביעה על פי ביטוח כאמור בסעיף 3(א)(2) ובסעיף 3(ד) לפקודת הביטוח, לא תהיה לו עילת תביעה על פי פקודת הנזיקין בשל נזק גוף, זולת אם נפגע בתאונה שנגרמה על ידי אדם אחר במתכוון",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-recourse-bar-9",
+      "claim": "Under סעיף 9 of PLATD (Section 9), a person who paid compensation due under the law has NO right of recourse against another person liable under the law, except against: a person not entitled to compensation under סעיף 7; a person with no insurance under the Insurance Ordinance or whose insurance does not cover the liability, other than someone whose annual policy expired within 30 days before the accident; or the owner or keeper referred to in סעיף 7א. This is a bar with three exceptions, and it is distinct from ordinary property subrogation",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מי ששילם פיצויים המגיעים לפי חוק זה לא תהא לו זכות חזרה על אדם אחר החייב בפיצויים לפי חוק זה זולת הזכות לחזור על אחד מאלה: (1) מי שאינו זכאי לפיצויים כאמור בסעיף 7; (2) מי שאין לו ביטוח לפי פקודת הביטוח או שהביטוח שיש לו אינו מכסה את החבות הנדונה, למעט מי שהיה לו ביטוח שנתי שתקפו פג תוך 30 יום לפני התאונה. (3) בעל הרכב או המחזיק בו כאמור בסעיף 7א.",
+      "confidence": "high",
+      "appears_in": [
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-permitted-driver-7a",
+      "claim": "Under סעיף 7א of PLATD (Section 7a), notwithstanding סעיף 7(5), a person injured while driving by permission of the owner or keeper without insurance under the Insurance Ordinance, or where the insurance did not cover his use, who did not know and in the circumstances could not reasonably have known, is entitled to claim compensation from the Fund (Karnit) as a victim is entitled under סעיף 12(ב)",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "מי שנפגע כשנהג ברכב בהיתר מאת בעליו או מאת המחזיק בו, ללא ביטוח לפי פקודת הביטוח, או כשהביטוח אינו מכסה את שימושו ברכב, והוא לא ידע על כך ובנסיבות הענין גם לא היה סביר שיידע, יהא זכאי לתבוע פיצויים מן הקרן כפי שזכאי לכך נפגע לפי סעיף 12(ב)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-dependants-7b",
+      "claim": "Under סעיף 7ב of PLATD (Section 7b), dependants of a victim are entitled to claim compensation under the law even if the victim himself was not entitled under סעיף 7, and where they were dependants of a person who drove uninsured they claim from the Fund",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תלויים בנפגע יהיו זכאים לתבוע פיצויים לפי חוק זה גם אם הנפגע עצמו לא היה זכאי לכך לפי סעיף 7, ואם היו תלויים במי שנפגע כשנהג ללא ביטוח לפי פקודת הביטוח או כשהביטוח אינו מכסה את החבות הנדונה, יהיו זכאים לתבוע כאמור מן הקרן",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-earnings-cap-4a1",
+      "claim": "Under סעיף 4(א)(1) of PLATD (Section 4), in computing compensation for loss of earnings and loss of earning capacity, income exceeding three times the average wage in the economy is not taken into account, and where the victim's loss of earnings and earning capacity is less than 100%, the maximum income taken into account is reduced in the same proportion",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "בחישוב הפיצויים בשל אבדן השתכרות ואבדן כושר השתכרות לא תובא בחשבון הכנסה העולה על שילוש השכר הממוצע במשק (להלן – הכנסה מרבית); היה שיעור אבדן השתכרותו ואבדן כושר השתכרותו של הנפגע פחות ממאה אחוזים, תופחת גם ההכנסה המרבית שתובא בחשבון בחישוב הפיצויים, בשיעור שבו פחת ממאה אחוזים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-tax-grossdown-4a2",
+      "claim": "Under סעיף 4(א)(2) of PLATD, where the compensation is exempt from income tax the victim's losses are computed on income net of the tax applying to it, provided the reduction on account of that tax does not exceed 25% of the income on which the compensation is computed",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "היו הפיצויים האמורים פטורים ממס הכנסה יחושבו הפסדי הנפגע לענין פיצויים אלה לפי הכנסתו לאחר ניכוי מס הכנסה החל עליה בעת קביעתם, ובלבד שההפחתה בשל ניכוי המס כאמור לא תעלה על 25 אחוזים מן ההכנסה שלפיה יחושבו פיצויים אלה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "platd-npd-ceiling-cpi-4a3",
+      "claim": "Under סעיף 4(א)(3) of PLATD, compensation for non-pecuniary damage may not exceed one hundred thousand lirot, a figure the Minister of Justice may increase, and under סעיף 4(ב) that maximum amount is linked to the Consumer Price Index from the law's commencement or from the date of increase. The current shekel value of the maximum is therefore a CPI-linked figure and is deliberately NOT stated in this skill",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "הפיצויים בשל הנזק שאינו נזק ממון לא יעלו על מאה אלף לירות; שר המשפטים, בהתייעצות עם שר האוצר ובאישור ועדת החוקה חוק ומשפט של הכנסת, רשאי להגדיל סכום זה. (ב) הסכום המקסימלי לפי סעיף קטן (א)(3) יהיה צמוד למדד המחירים לצרכן מיום תחילת חוק זה או מיום הגדלת הסכום, לפי הענין",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md"
+      ]
+    },
+    {
+      "claim_id": "platd-lawyer-fee-cap-16",
+      "claim": "Under סעיף 16(א) of PLATD (Section 16), the Bar Association's national council sets a maximum tariff for a lawyer's fee for handling claims under the law, provided that a fee set by results does not exceed 8% of the sum agreed to be paid to the victim, or, where there were legal proceedings, 13% of the sum awarded; a person who paid a fee exceeding the maximum tariff is entitled to a refund of the excess",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "תעריף מקסימלי לשכר טרחה של עורך דין בעד הטיפול בתביעות לפי חוק זה, ובלבד ששכר טרחה שנקבע לפי תוצאות הטיפול לא יעלה על 8% מהסכום שהוסכם לשלמו לנפגע, ואם היו הליכים משפטיים – על 13% מהסכום שנפסק; מי ששילם שכר טרחה העולה על התעריף המקסימלי, זכאי להחזר העודף",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "npd-formula-reg-2",
+      "claim": "Under תקנה 2 of the Road Accident Victims Compensation (Computation of Compensation for Non-Pecuniary Damage) Regulations 1976, the compensation is the sum of two per mille (0.2%) of the maximum amount multiplied by the number of days the victim was hospitalized, and one percent (1%) of the maximum amount multiplied by the percentage of permanent disability caused by the accident, assessed under the National Insurance work-injury disability tests. Under תקנה 2(ב), where the victim is not entitled under that sub-regulation the compensation is the agreed or awarded sum but may not exceed ten percent (10%) of the maximum amount",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4555.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "סכום הפיצויים יהיה סך הכל של אלה: (1) שני פרומיל מן הסכום המקסימלי כפול מספר הימים שבו היה הניזוק מאושפז בבית חולים, במוסד לטיפול בחולים או בנכים בשל התאונה; (2) אחוז אחד מן הסכום המקסימלי כפול אחוזי הנכות לצמיתות שנגרמה לניזוק כתוצאה מן התאונה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "note": "Raw HTML of the Nevo regulation fetched directly and read verbatim on 2026-08-09; the gate's own curl of this page returns a near-empty body intermittently."
+    },
+    {
+      "claim_id": "npd-cap-no-disability-reg-2b",
+      "claim": "Under תקנה 2(ב) of the 1976 non-pecuniary damage regulations, where the victim was not entitled to compensation under תקנה 2(א), or suffered non-pecuniary damage not covered by it, the compensation is the sum agreed or awarded provided it does not exceed ten percent (10%) of the maximum amount",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4555.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "לא היה הנפגע זכאי לפיצוי לפי תקנת משנה (א) או שסבל נזק שאינו נזק ממון שאינו מכוסה על ידי אותה תקנה, יהיה סכום הפיצויים, הסכום שהוסכם עליו או שייפסק, ובלבד שהסכום לא יעלה על עשרה אחוזים מהסכום המקסימלי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "note": "Raw HTML of the Nevo regulation fetched directly and read verbatim on 2026-08-09; the gate's own curl of this page returns a near-empty body intermittently."
+    },
+    {
+      "claim_id": "npd-age-reduction-reg-3",
+      "claim": "Under תקנה 3 of the 1976 non-pecuniary damage regulations, where the accident befell a person who had reached the age of thirty on the day of the accident, the compensation under תקנה 2(א)(2), that is the permanent-disability component only, is reduced by one percent (1%) for each full year of his age above thirty",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4555.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אירעה התאונה למי שמלאו לו ביום התאונה שלושים שנה, יוקטן סכום הפיצויים לפי תקנה 2(א)(2) באחוז אחד לכל שנה שמלאה לו מעל לשלושים שנה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "note": "Raw HTML of the Nevo regulation fetched directly and read verbatim on 2026-08-09; the gate's own curl of this page returns a near-empty body intermittently."
+    },
+    {
+      "claim_id": "npd-death-reg-4",
+      "claim": "Under תקנה 4 of the 1976 non-pecuniary damage regulations, where the victim's death was caused by the accident the compensation to his estate is twenty-five percent (25%) of the maximum amount",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4555.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "נגרם מותו של הניזוק כתוצאה מן התאונה, יהיה סכום הפיצויים לעזבונו עשרים וחמישה אחוזים מן הסכום המקסימלי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "note": "Raw HTML of the Nevo regulation fetched directly and read verbatim on 2026-08-09; the gate's own curl of this page returns a near-empty body intermittently."
+    },
+    {
+      "claim_id": "bl-no-subrogation-328a",
+      "claim": "Under סעיף 328א(ב) of the National Insurance Law (Section 328a), where the event obliging the Institute to pay a benefit is also a ground for a motor insurer's liability under PLATD, the Institute does not sue the insurer, and where a court orders the insurer to pay compensation to a benefit recipient in a PLATD claim, the amount of the benefit the Institute must pay for that event is deducted from the compensation. The victim therefore claims from both and the award is netted",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הביטוח_הלאומי",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "על אף האמור בפסקה (1), חייב בית משפט מבטח לשלם פיצויים לזכאי לגמלה, במסגרת תביעה לפי חוק הפיצויים, שהגיש אותו זכאי בשל מקרה כאמור בסעיף קטן זה, יופחת סכום הגמלה שחייב המוסד לשלם בשל המקרה האמור מסכום הפיצויים",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "gov-classification-trap",
+      "claim": "The gov.il light-accident report page warns that if the report is sent without medical documents the event will be classified as a damage-only accident and not as a road accident, and that this classification can have significance in proceedings against insurance companies or in civil claims. The page also lists the required attachments, restricts a new driver to reporting online only where there were no casualties, and states that a police confirmation or a request for further information is usually sent within 10 working days. The page was last updated 25.06.2026",
+      "claim_type": "regulator",
+      "source_url": "https://www.gov.il/he/service/traffic-accident-notice",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "לתשומת ליבכם, אם הדיווח יישלח ללא מסמכים רפואיים, האירוע יסווג כתאונת נזק בלבד ולא כתאונת דרכים\nלסיווג זה יכולה להיות משמעות בהליכים מול חברות ביטוח או בתביעות אזרחיות",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/compensation-and-deadlines.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "kolzchut-ebike-carveout",
+      "claim": "Kol Zchut states on its road-accident bodily-injury claim page that under court rulings electric bicycles and electric scooters are not considered a motor vehicle under the Road Accident Victims Compensation Law, so the information on that page is not relevant to such cases, and that the routes are a legal action (a negligence claim) or possibly personal-accident benefits (דמי תאונה לנפגעי תאונות אישיות)",
+      "claim_type": "guidance",
+      "source_url": "https://www.kolzchut.org.il/he/תביעה_לקבלת_פיצויים_בגין_נזקי_גוף_בתאונת_דרכים",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אופניים וקורקינטים חשמליים לא נחשבים כרכב מנועי לפי",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-motor-vehicle-definition-1",
+      "claim": "Under סעיף 1 of PLATD (Section 1), a motor vehicle is a vehicle propelled by mechanical power on the ground whose main purpose is to serve land transport, and use of a motor vehicle expressly includes travelling in the vehicle, entering it, and alighting from it (ירידה ממנו), so a person injured while getting out of his own car is injured in a road accident",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "\" שימוש ברכב מנועי \" – נסיעה ברכב, כניסה לתוכו או ירידה ממנו, החנייתו, דחיפתו או גרירתו",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "reg-145c-parked-vehicle",
+      "claim": "Under תקנה 145 of the Traffic Regulations, a driver involved in a property-damage accident must give his details to the other party on the spot; where the damaged vehicle is parked or its owner is not present he must leave a written note with those details and report the accident to a police station within 24 hours, and where the accident obstructs traffic he must clear the road. Under תקנה 146 a driver passing an accident scene must stop and render assistance",
+      "claim_type": "regulation",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "היה הרכב האחר שניזוק עומד ללא השגחה, או שבעל הרכוש או הממונה עליו לא היה במקום – (1) ישאיר נוהג הרכב המעורב בתאונה או בפגיעה הודעה בכתב על גבי הרכב שניזוק, במקום בולט לעין, ובמידת האפשר יעשה כן גם לגבי רכוש שניזוק, ובה יפרט את הפרטים הנזכרים בתקנת משנה (א); (2) יודיע הנוהג ברכב תוך 24 שעות ממועד קרות התאונה לתחנת המשטרה הקרובה למקום התאונה או הפגיעה על אירועה",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "reg-145b-clear-road",
+      "claim": "Under תקנה 145(ב) of the Traffic Regulations, where the vehicles involved and standing at the scene cause or may cause an obstruction to traffic, their drivers must clear the roadway for free movement and only then comply with the detail-exchange duty in תקנה 145(א)",
+      "claim_type": "regulation",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "אם כלי הרכב המעורבים בתאונה או בפגיעה והעומדים במקום אירועה גורמים או עלולים לגרום הפרעה לתנועה, יפנו נוהגיהם את הכביש לתנועה חפשית ומיד לאחר מכן ימלאו אחר האמור בתקנת משנה (א)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "reg-146-passing-driver",
+      "claim": "Under תקנה 146 of the Traffic Regulations, a driver passing the site of a road accident where an injured person is present must stop and may not continue driving until he has done everything in his power to render any assistance the injured person needs, in accordance with תקנה 144",
+      "claim_type": "regulation",
+      "source_url": "https://www.nevo.co.il/law_html/law01/p230_011.htm",
+      "fetched_at": "2026-08-09T00:00:00Z",
+      "raw_snippet": "נוהג רכב העובר במקום תאונת דרכים שבו נמצא נפגע, ייעצר ולא ימשיך בנסיעתו עד שעשה כל שביכלתו כדי להגיש כל עזרה הדרושה לנפגע",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "platd-joint-several-3b",
+      "claim": "PLATD §3(ב): a person hurt outside the vehicles in a multi-vehicle accident may claim from all the drivers jointly and severally.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "יהיו הנוהגים חייבים כלפיו יחד ולחוד",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-tort-preserved-8c",
+      "claim": "PLATD §8(ג): the §8(א) tort bar does not affect the tort claim of someone who has no cause of action under PLATD.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "אין בהוראת סעיף קטן (א) כדי לגרוע מתביעה על פי פקודת הנזיקין של מי שאין לו עילת תביעה על פי חוק זה",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/claims-guide.md"
+      ]
+    },
+    {
+      "claim_id": "karnit-uninsured-driver-12a2",
+      "claim": "PLATD §12(א)(2): Karnit compensates where the driver liable has no compulsory insurance, which is the case of an occupant of an uninsured vehicle (liable driver under §3(א) is his own driver).",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "אין לנוהג ביטוח לפי פקודת הביטוח",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-uninsured-driver-excluded-7-5",
+      "claim": "PLATD §7(5): a person who drove a vehicle without compulsory insurance is not entitled to compensation.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "מי שנהג ברכב ללא ביטוח לפי פקודת הביטוח",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:25:10+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/claim_router.py"
+      ]
+    },
+    {
+      "claim_id": "platd-knowing-passenger-7-2",
+      "claim": "PLATD §7(2): a person who was in the vehicle knowing it was being driven without permission is not entitled to compensation.",
+      "claim_type": "legal_reference",
+      "source_url": "https://www.nevo.co.il/law_html/law00/4554.htm",
+      "raw_snippet": "וכן מי שהיה מצוי ברכב ביודעו שהנוהגים בו כאמור",
+      "confidence": "high",
+      "fetched_at": "2026-09-19T20:29:09+00:00",
+      "appears_in": [
+        "scripts/claim_router.py"
+      ]
+    }
+  ]
+}

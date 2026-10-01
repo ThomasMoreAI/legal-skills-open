@@ -1,0 +1,44 @@
+{
+  "display_name": {
+    "he": "מדריך פטנטים ישראלי",
+    "en": "Israeli Patent Guide"
+  },
+  "display_description": {
+    "he": "אינו בקשת פטנט ואינו ייעוץ משפטי. הנחיה מלאה בתהליך הפטנטים בישראל: חיפוש אמנות קודמת במאגר רשות הפטנטים, הגשת בקשה לאומית, הגשה בינלאומית PCT דרך ILPO, עמלות ותחזוקה. השתמשו כשצריך לבדוק חידוש המצאה, להגיש פטנט בישראל, לעקוב אחר מועדי תשלום, או להבין הארכת תוקף פטנט לתרופות. חוסך שעות של מחקר ומונע טעויות יקרות בהגשה.",
+    "en": "Not a patent application and not legal advice. Full guidance through the Israeli patent process: prior art search on ILPO database, national application filing, PCT international filing via ILPO, fees, and maintenance. Use when you need to check invention novelty, file a patent in Israel, track payment deadlines, or understand pharmaceutical patent term extension (PTE). Saves hours of research and prevents costly filing mistakes. Do NOT use for trademark registration, design patents, or legal advice replacing a licensed patent attorney."
+  },
+  "tags": {
+    "he": [
+      "פטנט",
+      "קניין-רוחני",
+      "רשות-הפטנטים",
+      "PCT",
+      "חיפוש-אמנות-קודמת",
+      "סטארטאפ",
+      "המצאה",
+      "IP"
+    ],
+    "en": [
+      "patent",
+      "intellectual-property",
+      "ILPO",
+      "PCT",
+      "prior-art",
+      "startup",
+      "invention",
+      "IP"
+    ]
+  },
+  "author": "skills-il",
+  "version": "1.5.0",
+  "category": "legal-tech",
+  "supported_agents": [
+    "claude-desktop",
+    "claude-code",
+    "cursor",
+    "chatgpt",
+    "openclaw",
+    "gemini-cli"
+  ],
+  "openclaw": true
+}

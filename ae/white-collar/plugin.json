@@ -1,0 +1,14 @@
+{
+  "name": "ae-white-collar",
+  "displayName": "White-Collar & Investigations — UAE",
+  "version": "0.1.0",
+  "description": "White-Collar & Investigations skills under the law of UAE.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "ae",
+  "practice": "white-collar",
+  "language": "en",
+  "skills": [
+    "skills/tool-uae-ded-sboghossian"
+  ]
+}

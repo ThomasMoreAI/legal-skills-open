@@ -1,0 +1,7 @@
+{
+  "schema_version": "1",
+  "skill": "nz-parliament",
+  "fixture": "synthetic-contract-sentinel",
+  "contains_live_credentials": false,
+  "contains_personal_data": false
+}

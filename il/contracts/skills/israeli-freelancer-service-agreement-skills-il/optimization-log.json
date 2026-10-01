@@ -1,0 +1,45 @@
+{
+  "skill_slug": "israeli-freelancer-service-agreement",
+  "lessons": [
+    {
+      "date": "2026-08-02",
+      "cycle": "1.0.0 -> 1.1.0",
+      "type": "gate-lesson",
+      "title": "verify-evidence.py passed 11/0 for two cycles while five of its snippets were not on their pages",
+      "detail": "The default pass is self-consistency only. Running --check-sources for the first time exposed 5 pre-existing fabricated or paraphrased raw_snippets (moser-tashlumim-interest, mixed-test-integration, reclassification-leading-case-eisik, noncompete-checkpoint-case, professional-liability-insurance) plus 1 introduced this cycle. Two distinct failure modes, and only the first is dishonesty: (a) the snippet was never on the page (paraphrase written from memory); (b) the snippet IS on the page but only after HTML entity unescaping, because the gate strips tags without unescaping entities, so any Hebrew text containing a double quote (מע\"מ, בע\"מ) fails against sites that emit &quot;.",
+      "action": "When writing a raw_snippet, prefer a fragment with NO quote characters. Always run --check-sources; never trust a clean default pass."
+    },
+    {
+      "date": "2026-08-02",
+      "cycle": "1.0.0 -> 1.1.0",
+      "type": "source-quality",
+      "title": "Dead Knesset legacy URL and a study-notes site were both cited as authority",
+      "detail": "main.knesset.gov.il/Activity/Legislation/Laws/pages/lawprimary.aspx?...lawitemid=2016309 returns curl exit 247 and in a browser redirects to /apps/legislation/main/laws/2016309, a JS shell whose only content is the <title>. Dropped: it asserted nothing the nevo statute link does not. spitball.co (student note-sharing) was the sole source for the landmark ע\"ע 300256/98 אורי אייזיק claim and its snippet was not on the page; repointed to the Kol Zchut retroactive-recognition article, which supports the set-off doctrine verbatim.",
+      "action": "Do not cite Knesset lawprimary.aspx URLs or note-sharing sites as evidence sources."
+    },
+    {
+      "date": "2026-09-15",
+      "cycle": "1.2.0 -> 1.3.0",
+      "type": "deferred-scope",
+      "title": "Deferred from the 1.3.0 correctness pass (Expert/domain MAJOR+MINOR over the batch cap)",
+      "detail": "Carried from 1.1.0 and still open: reserve-duty (miluim) clause, AI-assisted output warranty, payment security / guarantee options, source-code and credentials offboarding. New this cycle: Annex A (SOW, milestones, kill-fee amount, credit, insurance) is never generated; jurisdiction district left blank and no mediation/arbitration option; no reciprocal client non-solicit; no minimum term / hourly-timesheet mode for --recurring; force majeure, notices, assignment/change-of-control boilerplate missing; foreign-client mode still carries the 23-business-day invoice-return window, the Israeli withholding clause and Israeli forum without an enforceability warning; interest clause should name the s.1 rate and bar double recovery with statutory דמי פיגורים; osek patur mode says חשבונית where a receipt is issued; legal-reference.md section numbering (2e1, 3d before 3a); SKILL.md frontmatter description lacks the 'Not legal advice.' opener and says 'Prevents' reclassification (legal-review WARN; description change needs the 5.7 holdout); emitted instrument has only a footer, not a header, marking it an unreviewed automatic draft; equity-as-compensation (s.3(i)) not flagged; self-employed mandatory pension not mentioned.",
+      "action": "Consider for 1.4.0; foreign-mode clause cleanup and the interest wording are the highest-leverage."
+    },
+    {
+      "date": "2026-09-15",
+      "cycle": "1.2.0 -> 1.3.0",
+      "type": "gate-lesson",
+      "title": "The script contradicted the SKILL body for two cycles and no gate noticed",
+      "detail": "SKILL.md said the set-off clause protects the client and must not be sold as the freelancer's shield, yet build_agreement.py inserted it unconditionally together with the recital 'התמורה גבוהה משכר עובד מקביל', an admission against the freelancer in any later reclassification claim. verify-evidence, validate-skill and verify_legal are all blind to script output; only a domain reviewer who RAN the script caught it.",
+      "action": "Every cycle, have the Expert run the script with each flag combination and diff the emitted clauses against the body's guidance."
+    },
+    {
+      "date": "2026-09-15",
+      "cycle": "1.2.0 -> 1.3.0",
+      "type": "deferred-minor",
+      "title": "Expert iteration-3 minors deferred",
+      "detail": "(1) With --recurring the IP/inventions transfer is conditioned on 'full payment', which may never occur in an open-ended retainer; switch to per-deliverable vesting on payment of that deliverable's fee. (2) Prose should explain why investors push for exclusivity: a non-exclusive invention licence lets the freelancer license a competitor or assert a patent against a later non-derivative product. (3) SKILL_HE Reference Links row dates VAT 'מ-1 בינואר 2025' against the kolzchut page, which does not state the date (backed by the Wikipedia entry).",
+      "action": "Consider for 1.4.0; (1) is the highest leverage."
+    }
+  ]
+}

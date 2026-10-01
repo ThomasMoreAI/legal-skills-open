@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Eu Mobility"
+  short_description: "Poland Eu Mobility: run focused tasks"
+policy:
+  allow_implicit_invocation: false

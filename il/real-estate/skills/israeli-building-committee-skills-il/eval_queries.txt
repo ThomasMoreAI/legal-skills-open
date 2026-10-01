@@ -1,0 +1,17 @@
+# Positive (should trigger)
+P1: כמה כל דירה צריכה לשלם על איטום הגג? השכנים רוצים לחלק שווה | match: "splits building costs by floor area", "how much each apartment pays"
+P2: השכן מקומת הקרקע אומר שהוא לא משלם על המעלית, זה חוקי? | match: "whether the ground floor pays for the elevator"
+P3: שכן לא משלם דמי ועד כבר חצי שנה, מה עושים? | match: "unpaid דמי ועד", "how to collect unpaid fees"
+P4: יש נזילה מהשכן מלמעלה והוא לא מוכן לתקן | match: "נזילה מהשכן", "who fixes a leak"
+P5: Help me write a meeting invitation and minutes for our vaad bayit | match: "vaad bayit", "meeting invitations, minutes"
+Positive score: 5/5
+# Negative (should NOT trigger)
+N1: My landlord won't fix the boiler, can I deduct rent? | excluded by: "Do NOT use for lease disputes with a landlord (israeli-rental-agreements)"
+N2: A developer offered us TAMA 38, should we sign? | excluded by: "TAMA 38 or pinui binui (israeli-urban-renewal-owner-guide)"
+N3: The contractor delivered our new apartment with cracks | excluded by: "new-apartment contractor defects (israeli-home-defect-report)"
+Negative score: 3/3
+# Edge
+E1: I want to sue the neighbour in small claims for the leak repair I paid | partial: skill explains Mafkach vs court route and documentation; filing itself routes via "filing a small claim (israeli-small-claims-court)". Acceptable split.
+E2: I rent the apartment; do I pay the vaad for the new elevator? | should trigger ("whether ... elevator", tenant rules in Step 7); no landlord-dispute exclusion applies unless it becomes a lease fight. Pass.
+
+# Re-score 2026-09-16 after review fixes (description unchanged): positive 5/5, negative 3/3 (same excluding phrases), edge 2/2 acceptable.

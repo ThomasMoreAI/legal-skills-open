@@ -1,0 +1,65 @@
+{
+  "cycles": [
+    {
+      "version": "1.6.1",
+      "date": "2026-08-13",
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": []
+      },
+      "lessons": [
+        "RESOLVED, and it was a real fabrication that shipped: 'Tzav HaTzav' / 'צו הצו' was an invented service name, and gov.il/he/service/objection_traffic_offense was an invented URL with zero Wayback captures. The real service is gov.il/he/service/drivers_inquiries_forms, and it belongs to Israel Police via mafna, NOT the Ministry of Transport. Neither the evidence gate nor either reviewer caught the URL, because the gate only checked that cited URLs were reachable-or-blocked and gov.il always 403s, which reads identically to a real page. Lesson: a gov.il URL that 403s to curl should be checked against the Wayback Machine, where a real service page has captures and a fabricated slug has none.",
+        "RESOLVED: the municipality walk-in addresses could not be verified. Tel Aviv's own tickets page never mentions Jerusalem Blvd 110 and its footer gives Ibn Gvirol 69. Replaced hardcoded addresses with a pointer to the address printed on the ticket, plus the verified TLV objection form URL that covers both parking and natz.",
+        "SKILL.md hit the 5,000-word validator cap during this patch. Trimmed by pointing the duplicated natz grounds list at references/appeal-grounds.md. Future additions to the body need a matching trim or they will fail the validator."
+      ]
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-08-13",
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": []
+      },
+      "lessons": [
+        "Both independent gates returned FAIL on v1.5.0 and both were right about the shape of the problem: the release changed the prose but left scripts/ and references/ on the old text. Treat every release as covering all four layers (body, Hebrew mirror, references, scripts) or state explicitly which layer was deliberately not touched.",
+        "Reviewer pinpoints were wrong more often than reviewer substance. The Expert cited s.229(c) for payment-as-admission (it is s.229(h)), cited a non-existent s.228(b1) for the warning power (the real hook is s.229(c)), and inverted s.230 with s.229(h2). The Judge was accurate throughout. Always read the provision before writing the section letter.",
+        "Two reviewer findings were rejected on verification: the alleged s.47(c) band gaps at 501-749 and above 1,500 do not exist, because the First Schedule has exactly six levels {100,250,500,750,1000,1500}; and the +50% surcharge and 'sec. 230 CPL' findings were read from a pre-fix snapshot.",
+        "Highest-value find of the cycle came from a reviewer lead that was itself imprecise: chasing the Expert's one-year limitation claim surfaced the four-month limit for camera offences under s.225A(a1)(1), which is the single strongest ground on a natz ticket and was absent from every file.",
+        "Still unverified: the Step 5 municipality table (Tel Aviv, Jerusalem, Haifa portals and addresses) has never been checked against the live municipal sites.",
+        "Deferred: the six kolzchut/gov.il/court.gov.il evidence sources remain permanently machine-unverifiable behind Cloudflare. Migrate each to primary text where the fact exists in statute, as was done for the arar deadlines in 1.5.0.",
+        "Deferred: 'Tzav HaTzav' as a service name was flagged as possibly garbled and was NOT verified this cycle. Check it against the gov.il service page before the next release."
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-08-13",
+      "holdout_before": 0.5,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "קיבלתי דוח על נסיעה בנתיב תחבורה ציבורית, מה עושים?",
+          "אפשר להמיר את הדוח שלי לאזהרה?"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "נפצעתי בתאונת דרכים, מגיע לי פיצוי?",
+          "קיבלתי הודעת קנס, יש לי 30 יום או 90 יום?"
+        ]
+      },
+      "lessons": [
+        "Propagation miss caught late this cycle: the retired '+50% surcharge' figure survived in scripts/deadline-calculator.py, including in its PRINTED output, after being corrected in SKILL.md and metadata.json. Run the Phase 3f.1 old-value sweep across scripts/ and references/, not just the markdown bodies, immediately after any figure change.",
+        "The frontmatter description still carries no explicit 'Do NOT use for' anti-trigger, unlike metadata.json display_description. Negative routing currently relies on topical narrowness alone. Consider adding a short anti-trigger clause next cycle and re-running the holdout.",
+        "Six evidence sources (kolzchut.org.il x4, gov.il scoring page, court.gov.il) are hard-blocked by Cloudflare even in a headless browser, so they can never be machine-verified. Where the same fact exists in the statute, migrate the claim to the wikisource primary text as was done this cycle for the arar deadlines. Remaining six are candidates for the same treatment.",
+        "The gov.il points page (scoring_system) redirects to /he/pages/ and then 403s. The illustrative-fine-and-point-values claim still cites the old /departments/news/ URL. Repoint or replace next cycle.",
+        "Not verified this cycle: whether municipalities other than Tel Aviv, Jerusalem and Haifa have changed their appeal portals since the municipality table was written. The table is unverified beyond those three.",
+        "Deferred over the Phase 4.1 discretionary cap: the Step 5 municipality table could become a pointer to a lookup rather than three hardcoded cities, which is the recurring staleness source in this skill.",
+        "The Law's transitional provision is cited in the body as 'the transitional provision' rather than by section number, because the wikisource page renders section headings as bare numerals ('48. הוראות מעבר') so the literal string 'סעיף 48' is not on any fetchable page and the evidence gate cannot back it. The substance is quoted verbatim and evidenced. If a fetchable source that cites the section number by name is found, restore the pinpoint."
+      ]
+    }
+  ]
+}

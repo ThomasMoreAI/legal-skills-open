@@ -1,0 +1,528 @@
+{
+  "skill_slug": "israeli-home-defect-report",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-08-26T19:12:18Z",
+  "claims": [
+    {
+      "claim": "Schedule item 1 to the Sale (Apartments) Law 1973: defects in metalwork and carpentry products, including aluminium and plastic, carry a bedek period of 2 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "ליקוי במוצרי מסגרות ונגרות, לרבות אלומיניום ופלסטיק – שנתיים;",
+      "confidence": "high",
+      "claim_id": "tosefet-1",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 2: defects in flooring and interior cladding, including subsidence and wear, carry a bedek period of 2 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "ליקוי בריצוף וחיפוי פנים לרבות שקיעות ושחיקה – שנתיים;",
+      "confidence": "high",
+      "claim_id": "tosefet-2",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 3: failure in function and durability of machines and boilers carries a bedek period of 3 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "כשל בתפקוד ובעמידות של מכונות ודוודים – שלוש שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-3",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 4: defects in yard development (pituach chatzer), including subsidence of paving on the ground floor, parking, pavements and paths, carry a bedek period of 3 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "ליקוי בפיתוח חצר, לרבות שקיעות, בין השאר של מרצפות בקומת קרקע, בחניות, במדרכות ובשבילים בשטח הבניין, וכן ליקויים במשטחים מחומרי גימור שונים – שלוש שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-4",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 5: failure in function and durability of thermal insulation system components carries a bedek period of 3 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "כשל בתפקוד ובעמידות של מרכיבי מערכות הבידוד התרמי – שלוש שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-5",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 6: failure in piping systems, including water, heating, gutters, waste water and sewage, carries a bedek period of 4 years, and failure expressly includes leaks",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "כשל במערכות צנרת, לרבות מים, מערכת הסקה ומרזבים, דלוחין וביוב – ארבע שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-6",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 7: failure in building sealing (itum), including underground spaces, walls, ceilings and roofs, carries a bedek period of 4 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "כשל באיטום המבנה, לרבות בחללים תת-קרקעיים, בקירות, בתקרות ובגגות, לרבות גגות קלים עם סיכוך – ארבע שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-7",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 8: cracks wider than 1.5 mm in NON-load-bearing elements carry a bedek period of 5 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "סדקים ברוחב גדול מ-1.5 מ\"מ ברכיבים לא נושאים – חמש שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-8",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 9: detachment, peeling or crumbling of exterior cladding carries a bedek period of 7 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "התנתקות, התקלפות או התפוררות של חיפויי חוץ – שבע שנים;",
+      "confidence": "high",
+      "claim_id": "tosefet-9",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Schedule item 10: any other non-conformity that is not a fundamental non-conformity carries a bedek period of 1 year",
+      "claim_type": "threshold",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "כל אי-התאמה אחרת שאינה אי-התאמה יסודית – שנה אחת.",
+      "confidence": "high",
+      "claim_id": "tosefet-10",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "The bedek period is the period fixed in the Schedule, beginning when the apartment is placed at the buyer's disposal (handover), not at contract signature",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "תקופה הקבועה בתוספת, שתחילתה בעת העמדת הדירה לרשות הקונה;",
+      "confidence": "high",
+      "claim_id": "def-bedek",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "The acharayut (warranty) period is three years beginning at the END of the bedek period, so total protection per item equals its bedek period plus three years",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "תקופה של שלוש שנים שתחילתה בתום תקופת הבדק.",
+      "confidence": "high",
+      "claim_id": "def-achrayut",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "A fundamental non-conformity (i huv-hat'ama yesodit) is defined as a non-conformity in the parts of the building that carry and transfer loads of any kind to the ground bearing the building, and that concerns securing its stability and its safety",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "אי-התאמה בחלקי הבנין הנושאים ומעבירים עומסים מכל סוג לקרקע הנושאת את הבנין והנוגעת להבטחת יציבותו ולבטיחותו;",
+      "confidence": "high",
+      "claim_id": "def-yesodit",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4(a)(2): if a non-conformity is discovered DURING the bedek period, the seller is in breach UNLESS THE SELLER proves the non-conformity was caused by an act or omission of the buyer, so the burden of proof rests on the seller",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "תוך תקופת הבדק התגלתה אי-התאמה בדירה, זולת אם הוכיח המוכר שאי-ההתאמה נגרמה בשל מעשה או מחדל של הקונה או קונה המשנה;",
+      "confidence": "high",
+      "claim_id": "burden-bedek",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4(a)(3): if a non-conformity is discovered DURING the acharayut period, the seller is in breach only where THE BUYER proves its origin lies in planning, workmanship or materials, so the burden of proof shifts to the buyer",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "תוך תקופת האחריות התגלתה בדירה אי-התאמה והקונה או קונה המשנה הוכיח שמקורה בתכנון, בעבודה או בחומרים;",
+      "confidence": "high",
+      "claim_id": "burden-achrayut",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4(a)(4): a fundamental non-conformity discovered within 20 years of handover puts the burden on the SELLER to prove the buyer caused it",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "בתוך תקופה של 20 שנים שתחילתה בעת העמדת הדירה לרשות הקונה בידי המוכר (להלן – תקופת הבדק לאי-התאמה יסודית), התגלתה אי-התאמה יסודית, זולת אם הוכיח המוכר שאי-ההתאמה היסודית נגרמה בשל מעשה או מחדל של הקונה או קונה המשנה;",
+      "confidence": "high",
+      "claim_id": "yesodit-20y",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4(a)(5): a fundamental non-conformity is actionable even AFTER the 20-year period where the buyer proves its origin lies in planning, workmanship or materials",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "התגלתה אי-התאמה יסודית, אף לאחר תקופת הבדק לאי-התאמה יסודית, והקונה הוכיח שמקורה בתכנון, בעבודה או בחומרים;",
+      "confidence": "high",
+      "claim_id": "yesodit-beyond-20y",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4a(a)(1): for a non-conformity that COULD have been discovered at handover, the buyer may rely on it only if notice was given to the seller within ONE YEAR of the handover date",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "שניתן היה לגלותה בעת העמדת הדירה לרשות הקונה, אם הודיע עליה הקונה או קונה המשנה למוכר בתוך שנה ממועד העמדת הדירה לרשות הקונה;",
+      "confidence": "high",
+      "claim_id": "notice-1y",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4a(a)(2): for a non-conformity that could NOT have been discovered by reasonable inspection at handover, the buyer may rely on it if notice was given within a reasonable time after discovering it",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "שלא ניתן היה לגלותה בבדיקה סבירה בעת העמדת הדירה לרשותו אם הודיע עליה למוכר תוך זמן סביר לאחר שגילה אותה.",
+      "confidence": "high",
+      "claim_id": "notice-hidden",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4b(a): where a repairable non-conformity is discovered, the buyer MUST give the seller a proper opportunity to repair it, and the seller must repair within a reasonable time",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "התגלתה אי-התאמה או אי התאמה יסודית הניתנות לתיקון, על הקונה או קונה המשנה לתת למוכר הזדמנות נאותה לתקנה, ועל המוכר לתקנה תוך זמן סביר.",
+      "confidence": "high",
+      "claim_id": "right-to-repair",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4b(b): the buyer may repair at the seller's expense only where the defect recurred after the seller repaired it once or more within two years of the buyer's notice, OR the repair is urgent and the seller did not repair within a reasonable time",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "חזרה והתגלתה אי-ההתאמה או אי-ההתאמה היסודית לאחר שהמוכר תיקן אותה פעם אחת או יותר במשך שנתיים שתחילתן במועד הודעת הקונה או קונה המשנה בדבר אי-ההתאמה או אי-ההתאמה היסודית, או שתיקונה של אי-ההתאמה או אי-ההתאמה היסודית דחוף והמוכר לא תיקן אותה בתוך זמן סביר ממועד הודעת הקונה או קונה המשנה כאמור, רשאי הקונה או קונה המשנה לתקנה והמוכר יישא בהוצאות התיקון.",
+      "confidence": "high",
+      "claim_id": "self-repair",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 5(c): where the seller did not deliver a compliant specification (mifrat), the burden of proving the item was of high quality in the circumstances rests on the SELLER",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "דבר שסעיף זה חל עליו, חובת ההוכחה שהיה באיכות גבוהה בהתחשב בנסיבות העניין – על המוכר.",
+      "confidence": "high",
+      "claim_id": "no-mifrat-burden",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 2(a): a seller of an apartment must attach a specification (mifrat) and maintenance and use instructions to the sale contract",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "המוכר דירה חייב לצרף לחוזה המכר מפרט והוראות תחזוקה ושימוש.",
+      "confidence": "high",
+      "claim_id": "mifrat-duty",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Section 4(a)(6): the seller is in breach of its obligations if it did not deliver maintenance and use instructions to the buyer",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "המוכר לא מסר לקונה הוראות תחזוקה ושימוש.",
+      "confidence": "high",
+      "claim_id": "no-maintenance-instructions",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "The operative consolidated text of the Sale (Apartments) Law 1973 used for this skill is the version current as of 18-09-2023, following Amendment 9",
+      "claim_type": "date",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "נוסח עדכני נכון ליום: 18-09-2023",
+      "confidence": "high",
+      "claim_id": "law-version",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim_id": "no-contracting-out",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "Section 7A(a): the provisions of the Sale (Apartments) Law may not be contracted out of, EXCEPT in favour of the buyer, so a contract clause shortening the bedek periods or removing defect liability is ineffective",
+      "raw_snippet": "אין להתנות על הוראות חוק זה, אלא לטובת הקונה או קונה המשנה."
+    },
+    {
+      "claim_id": "waiver-as-condition-void",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "Section 7A(b): a waiver, INCLUDING A WRITTEN ONE, of the buyer's rights regarding late delivery or a non-conformity or a fundamental non-conformity, where that waiver is made a CONDITION of transferring rights, of carrying out repairs in the apartment, or of placing the apartment at the buyer's disposal, is VOID",
+      "raw_snippet": "ויתור, לרבות בכתב, על זכויות מצד הקונה או קונה המשנה בקשר לאיחור במסירה לפי סעיף 5א או לאי-התאמה או אי-התאמה יסודית, המהווה תנאי להעברת זכויות מקונה לקונה משנה, לביצוע תיקונים בדירה או להעמדת הדירה לרשות הקונה – בטל."
+    },
+    {
+      "claim_id": "rights-preserved",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "Section 7: the Sale (Apartments) Law does not derogate from any rights the buyer has under any other law, so contract and tort remedies remain available alongside it",
+      "raw_snippet": "חוק זה אינו גורע מזכויות הקונה או קונה המשנה הניתנות לו לפי כל דין."
+    },
+    {
+      "claim_id": "registrar-complaint",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "A buyer may file a complaint about construction defects against a registered contractor with the Registrar of Contractors at the Ministry of Construction and Housing, but only after having approached the contractor in writing demanding repair and the contractor not having handled it to the buyer's satisfaction",
+      "raw_snippet": "לפני הגשת התלונה יש לפנות בכתב אל הקבלן, ורק אם הקבלן לא טיפל בפנייה לשביעות רצון הקונה, ניתן לפנות בתלונה לרשם הקבלנים."
+    },
+    {
+      "claim_id": "registrar-form-url",
+      "claim_type": "url",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "confidence": "medium",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "The Registrar of Contractors complaint is filed via the online government form at govforms.gov.il",
+      "raw_snippet": "טופס תלונה מקוון נגד קבלן"
+    },
+    {
+      "claim_id": "registrar-scope-limit",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "The Registrar of Contractors role is disciplinary and not arbitration: it does not resolve financial disputes between the parties and does not handle matters already before a court",
+      "raw_snippet": "רשם הקבלנים לא מטפל במחלוקות כספיות בין הצדדים או בתלונות שנידונות בבית המשפט"
+    },
+    {
+      "claim_id": "schedule-applies-post-2011",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "The current Schedule defect periods apply to apartments purchased after 6 April 2011; earlier purchases are governed by the previous version of the Schedule",
+      "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך, ובתנאי שבניית הדירה לא הסתיימה לפני מועד זה, הן:"
+    },
+    {
+      "claim": "The current Schedule periods apply to an apartment whose sale contract was concluded on or after 06.04.2011, provided construction did not finish before that date",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "תקופות הבדק על דירה שחוזה המכר לגביה נכרת מיום 06.04.2011 ואילך, ובתנאי שבניית הדירה לא הסתיימה לפני מועד זה, הן:",
+      "confidence": "high",
+      "claim_id": "split-date-2011",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Apartments purchased before 06.04.2011, or whose construction finished before that date, are governed by the older Schedule even if they were sold on afterwards",
+      "claim_type": "date",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "תקופות הבדק לדירות שנרכשו לפני יום 06.04.2011 או שבנייתן הסתיימה לפני יום זה, אף אם נמכרו לאחר מכן, הן:",
+      "confidence": "high",
+      "claim_id": "pre2011-applies",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Under the pre-2011 Schedule, piping including heating and gutters carries a bedek period of only 2 years, compared with 4 years under the current Schedule",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "צנרת כולל מערכת הסקה ומרזבים – שנתיים.",
+      "confidence": "high",
+      "claim_id": "pre2011-pipes",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Under the pre-2011 Schedule, damp penetration in the roof, walls and shelter carries a bedek period of 3 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "חדירת רטיבות בגג, בקירות ובמקלט – 3 שנים.",
+      "confidence": "high",
+      "claim_id": "pre2011-damp",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Under the pre-2011 Schedule, through-cracks in walls and ceilings carry a bedek period of 5 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "סדקים עוברים בקירות ובתקרות – 5 שנים.",
+      "confidence": "high",
+      "claim_id": "pre2011-cracks",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Under the pre-2011 Schedule, significant peeling of exterior cladding carries a bedek period of 7 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "קילופים ניכרים בחיפויים חיצוניים – 7 שנים.",
+      "confidence": "high",
+      "claim_id": "pre2011-cladding",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "A waiver of the contractor's defect liability is ineffective even where the buyer agreed to it of their own free will, and the scope of liability may be varied only in the buyer's favour",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "לא ניתן לוותר לבטל או להקטין את אחריות הקבלן, אפילו אם הקונה הסכים לכך. מותר לשנות את היקף האחריות של הקבלן רק אם השינוי הוא לטובת הקונה.",
+      "confidence": "high",
+      "claim_id": "waiver-invalid-even-if-agreed",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "For defects in the parts that bear the building's load and affect its stability and safety, the bedek period is 20 years",
+      "claim_type": "threshold",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "לליקויים בחלקים שנושאים בעומס הבניין ומשפיעים על יציבותו ובטיחותו, תקופת הבדק היא 20 שנה.",
+      "confidence": "high",
+      "claim_id": "yesodit-20y-kz",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "For a hidden defect that could not be discovered at handover, such as internal piping, notice must be given close to the time of discovery, even if more than a year has passed",
+      "claim_type": "law",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "אם מדובר בליקוי נסתר שאי אפשר היה לגלות במועד מסירת הדירה (למשל צנרת פנימית), צריך להודיע עליו לקבלן בסמוך למועד הגילוי (גם אם עברה יותר משנה).",
+      "confidence": "high",
+      "claim_id": "hidden-defect-late-notice",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "Kol Zchut guidance (NOT a legal requirement) treats approaching the contractor in writing as the expected step before filing with the Registrar of Contractors. The Ministry's own service page imposes no such precondition.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "raw_snippet": "לפני הגשת התלונה יש לפנות בכתב אל הקבלן, ורק אם הקבלן לא טיפל בפנייה לשביעות רצון הקונה, ניתן לפנות בתלונה לרשם הקבלנים.",
+      "confidence": "high",
+      "claim_id": "registrar-prerequisite",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "The Registrar of Contractors complaint is handled on the disciplinary level and is not intended to resolve the dispute between the contractor and the residents or the buyer",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "raw_snippet": "התלונה מטופלת במישור המשמעתי ולא נועדה לפתור את הסכסוך בין הקבלן לדיירים או לרוכש הדירה",
+      "confidence": "high",
+      "claim_id": "registrar-disciplinary",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "The Registrar of Contractors does not handle monetary disputes between the parties or complaints that are being litigated in court",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "raw_snippet": "רשם הקבלנים לא מטפל במחלוקות כספיות בין הצדדים או בתלונות שנידונות בבית המשפט",
+      "confidence": "high",
+      "claim_id": "registrar-not-money",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "A complaint about the apartment itself is filed by the apartment owner. The contractor must be listed in the contractors register. Kol Zchut describes the house-committee route for common property; the Ministry states it as a recommendation, not a bar.",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/הגשת_תלונה_לרשם_הקבלנים_במשרד_הבינוי_והשיכון",
+      "raw_snippet": "תלונה לגבי הדירה תוגש על ידי בעל הדירה בלבד.",
+      "confidence": "high",
+      "claim_id": "registrar-who",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim": "A civil lawsuit may also be filed against the contractor in court, in addition to the Registrar complaint route",
+      "claim_type": "feature",
+      "source_url": "https://www.kolzchut.org.il/he/אחריות_קבלן_לליקויים_בדירה_חדשה",
+      "raw_snippet": "כמו כן ניתן להגיש נגד הקבלן תביעה משפטית.",
+      "confidence": "high",
+      "claim_id": "civil-suit-available",
+      "fetched_at": "2026-08-10T00:00:00Z"
+    },
+    {
+      "claim_id": "section-4-he",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "סעיף 4 לחוק המכר (דירות) הוא הסעיף שקובע מהי אי-התאמה ומתי המוכר לא קיים את חיוביו כלפי הקונה",
+      "raw_snippet": "המוכר לא קיים את חיוביו כלפי הקונה או קונה המשנה אם התקיים אחד מאלה:"
+    },
+    {
+      "claim_id": "section-4a-he",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "סעיף 4א לחוק המכר (דירות) קובע את חובת ההודעה על אי-התאמה או אי-התאמה יסודית",
+      "raw_snippet": "הודעה על אי-התאמה או אי-התאמה יסודית"
+    },
+    {
+      "claim_id": "section-4b-he",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "סעיף 4ב לחוק המכר (דירות) קובע את זכות המוכר לתקן את אי-ההתאמה ואת חובת הקונה לתת הזדמנות נאותה לתיקון",
+      "raw_snippet": "זכות תיקון אי-התאמה"
+    },
+    {
+      "claim_id": "section-7a-he",
+      "claim_type": "law",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "confidence": "high",
+      "fetched_at": "2026-08-10T00:00:00Z",
+      "claim": "סעיף 7א לחוק המכר (דירות) קובע שאין להתנות על הוראות החוק אלא לטובת הקונה, ומבטל ויתור שנדרש כתנאי למסירה",
+      "raw_snippet": "התניה – לטובת הקונה או קונה המשנה"
+    },
+    {
+      "claim_id": "registrar-form-live",
+      "claim_type": "url",
+      "source_url": "https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "claim": "The Registrar of Contractors online complaint form is published at https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il and returned HTTP 200 when probed on 2026-08-11. The page body is rendered client-side, so it has no server-side text to quote.",
+      "raw_snippet": "https://govforms.gov.il/mw/forms/complaint-about-contractor@moch.gov.il",
+      "verified_via": "curl",
+      "verified_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "breach-mifrat-tken-takanot",
+      "claim_type": "statute",
+      "claim": "Section 4(a)(1): the seller has not performed its obligations if the apartment differs from the specification (mifrat), from an official standard, or from the building regulations. This is an independent route that does not depend on a Schedule row or period.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "הדירה או כל דבר שבה (להלן – הדירה) שונים מן האמור במפרט, בתקן רשמי או בתקנות הבניה;",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T18:51:20Z"
+    },
+    {
+      "claim_id": "notice-fundamental-hidden",
+      "claim_type": "statute",
+      "claim": "Section 4a(b): a buyer may rely on a FUNDAMENTAL non-conformity that could not have been discovered by reasonable inspection at handover if notice was given within a reasonable time after discovery. This limb has no one-year-from-handover cut-off.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/72490.htm",
+      "raw_snippet": "הקונה או קונה המשנה יהיה זכאי להסתמך על אי-התאמה יסודית שלא היה ניתן לגלותה בבדיקה סבירה בעת העמדת הדירה לרשותו, אם הודיע עליה למוכר בתוך זמן סביר לאחר שגילה אותה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T18:51:20Z"
+    },
+    {
+      "claim_id": "registrar-who-may-file-govil",
+      "claim_type": "regulator",
+      "claim": "The Ministry of Construction and Housing states that ANY citizen may file a complaint against a registered contractor, and that a common-property complaint is RECOMMENDED (not required) to be filed through a member of the elected house committee.",
+      "source_url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "raw_snippet": "מי יכול להגיש תלונה? כל אזרח המעוניין להגיש תלונה כנגד קבלן רשום. תלונה בנוגע לרכוש משותף מומלץ להגיש באמצעות אחד מחברי ועד הבית.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T18:51:20Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T18:51:20Z"
+    },
+    {
+      "claim_id": "registrar-attachments-govil",
+      "claim_type": "regulator",
+      "claim": "The Ministry lists prior correspondence with the contractor as one of six suggested attachments to a complaint, not as a precondition for filing.",
+      "source_url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "raw_snippet": "יש לצרף את כל המידע הקשור לנושא התלונה או המוכיח את נכונותה: חוות דעת מהנדס פסק דין העתק חוזה העתק מפרט טכני העתק תוכנית בנייה העתקים מן ההתכתבות בנושא התלונה בין המתלונן לבין הקבלן",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T18:51:20Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T18:51:20Z"
+    },
+    {
+      "claim_id": "registrar-disciplinary-govil",
+      "claim_type": "regulator",
+      "claim": "The Registrar's handling of a complaint is disciplinary only: it is not arbitration, the Registrar does not decide disputes between contracting parties, does not handle monetary disputes, and does not handle matters already before a court.",
+      "source_url": "https://www.gov.il/he/service/complaint-about-constractor",
+      "raw_snippet": "הטיפול בתלונה נעשה במישור המשמעתי, בהתאם להתנהגות המקובלת - כפי שנקבעה בתקנות. אין לראות בטיפול בתלונה הליך של בוררות, והרשם אינו מכריע במחלוקות בין הצדדים בחוזה, כולל במחלוקות בין דייר לקבלן.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T18:51:20Z",
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T18:51:20Z"
+    },
+    {
+      "claim_id": "concealment-s16-1968",
+      "claim_type": "statute",
+      "claim": "סעיף 16 לחוק המכר, התשכ\"ח-1968 (העלמת אי-התאמה), שסעיף 4(ב) לחוק המכר (דירות) מחיל: Section 16 of the Sale Law 5728-1968 — where the non-conformity arises from facts the seller knew or ought to have known at the time the contract was concluded and did not disclose to the buyer, the buyer may rely on it notwithstanding ss.14-15 or any agreement, provided notice was given immediately upon discovery.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%9E%D7%9B%D7%A8",
+      "raw_snippet": "היתה אי־ההתאמה נובעת מעובדות שהמוכר ידע או היה עליו לדעת עליהן בעת גמירת החוזה ולא גילה אותן לקונה, זכאי הקונה להסתמך עליה על אף האמור בסעיפים 14 ו־15 או בכל הסכם, ובלבד שנתן למוכר הודעה עליה מיד לאחר שגילה אותה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-26T19:12:18Z"
+    }
+  ]
+}

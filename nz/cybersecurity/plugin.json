@@ -1,0 +1,14 @@
+{
+  "name": "nz-cybersecurity",
+  "displayName": "Cybersecurity & Information Security — New Zealand",
+  "version": "0.1.0",
+  "description": "Cybersecurity & Information Security skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "cybersecurity",
+  "language": "en",
+  "skills": [
+    "skills/nzism-sushegaad"
+  ]
+}

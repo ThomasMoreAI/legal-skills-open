@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Benefits Support"
+  short_description: "Poland Benefits Support: run focused tasks"
+policy:
+  allow_implicit_invocation: false

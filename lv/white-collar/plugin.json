@@ -1,0 +1,14 @@
+{
+  "name": "lv-white-collar",
+  "displayName": "White-Collar & Investigations — Latvia",
+  "version": "0.1.0",
+  "description": "White-Collar & Investigations skills under the law of Latvia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "lv",
+  "practice": "white-collar",
+  "language": "en",
+  "skills": [
+    "skills/latvia-company-registry-nolpak14"
+  ]
+}

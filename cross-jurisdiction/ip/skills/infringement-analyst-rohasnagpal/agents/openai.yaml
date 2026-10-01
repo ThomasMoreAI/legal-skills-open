@@ -1,0 +1,4 @@
+interface:
+  display_name: "Infringement Analyst"
+  short_description: "Test IP infringement and available defences"
+  default_prompt: "Use $infringement-analyst to analyse this alleged IP infringement element by element, including ownership, scope, acts, defences, evidence, and remedies."

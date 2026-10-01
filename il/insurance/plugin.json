@@ -1,0 +1,14 @@
+{
+  "name": "il-insurance",
+  "displayName": "Insurance — Israel",
+  "version": "0.1.0",
+  "description": "Insurance skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "insurance",
+  "language": "en",
+  "skills": [
+    "skills/israeli-car-accident-claim-skills-il"
+  ]
+}

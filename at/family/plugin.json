@@ -1,0 +1,15 @@
+{
+  "name": "at-family",
+  "displayName": "Family Law — Austria",
+  "version": "0.1.0",
+  "description": "Family Law skills under the law of Austria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "family",
+  "language": "de",
+  "skills": [
+    "skills/recht-familie-momarcode1",
+    "skills/recht-familie-verfahren-momarcode1"
+  ]
+}

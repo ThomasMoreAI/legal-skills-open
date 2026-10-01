@@ -1,0 +1,14 @@
+{
+  "name": "nz-criminal",
+  "displayName": "Criminal Law — New Zealand",
+  "version": "0.1.0",
+  "description": "Criminal Law skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/justice-data-nz-thecolab-ai"
+  ]
+}

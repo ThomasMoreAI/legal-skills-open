@@ -1,0 +1,4 @@
+interface:
+  display_name: "Witness Statement Drafter"
+  short_description: "Draft witness-owned factual evidence"
+  default_prompt: "Use $witness-statement-drafter to prepare a first-person statement from this witness's own recollection, clearly identifying sources, exhibits, uncertainty, and required formalities."

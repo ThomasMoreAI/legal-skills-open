@@ -1,0 +1,4 @@
+interface:
+  display_name: "Will Drafter"
+  short_description: "Draft clear wills with execution safeguards"
+  default_prompt: "Use $will-drafter to prepare a jurisdiction-specific will, execution plan, and capacity and undue-influence safeguards from these instructions."

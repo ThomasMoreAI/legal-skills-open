@@ -1,0 +1,14 @@
+{
+  "name": "dz-corporate",
+  "displayName": "Corporate — Algeria",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Algeria.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "dz",
+  "practice": "corporate",
+  "language": "fr",
+  "skills": [
+    "skills/agent-corporate-governance-ziri22"
+  ]
+}

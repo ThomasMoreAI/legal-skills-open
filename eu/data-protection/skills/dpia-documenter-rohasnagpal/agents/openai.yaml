@@ -1,0 +1,4 @@
+interface:
+  display_name: "DPIA Documenter"
+  short_description: "Document necessity, proportionality, and privacy risk"
+  default_prompt: "Use $dpia-documenter to document this processing activity, screening decision, necessity, proportionality, risks to individuals, safeguards, residual risk, consultation, and approval."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Transaction Tracer"
+  short_description: "Trace funds with source-linked transaction paths"
+  default_prompt: "Use $transaction-tracer to reconstruct the flow of funds across accounts, entities, instruments, and wallets with a source-linked audit trail."

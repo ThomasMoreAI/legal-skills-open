@@ -1,15 +1,18 @@
 ---
 name: regdata-property
 title: Property Due Diligence - Polish Government Registries
-description: Extract data from Poland's EKW electronic land registry (Elektroniczne Ksiegi Wieczyste) - ownership records, mortgages, easements, and restrictions across 25 million property entries in 352 court departments. Cross-references with KRS board members and CRBR beneficial owners for corporate property holders. Use when user mentions EKW, ksiegi wieczyste, Polish land registry, Polish property lookup, or needs to extract ownership/mortgage data from the Polish electronic land registry system.
+description: Extract data from Poland's EKW electronic land registry (Elektroniczne Ksiegi Wieczyste) - ownership records, mortgages, easements, and restrictions across all 352 court departments. Cross-references with KRS board members and CRBR beneficial owners for corporate property holders. Use when user mentions EKW, ksiegi wieczyste, Polish land registry, Polish property lookup, or needs to extract ownership/mortgage data from the Polish electronic land registry system.
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-property
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pl
 practice: real-estate
 language: en
+sources:
+- title: Land Registry Guide
+  path: references/land-registry-guide.md
 ---
 
 # Property Due Diligence - Polish Government Registries
@@ -156,12 +159,20 @@ echo ${APIFY_TOKEN:+token_is_set}
 ```
 
 If not set, tell the user:
-- Sign up at https://console.apify.com/sign-up?ref=getregdata (free $5 credits included)
+- Sign up at https://apify.com?fpr=getregdata (free $5 credits included)
 - Set token: `export APIFY_TOKEN=apify_api_xxxxx`
 
-### IMPORTANT: EKW Proxy Requirement
+### IMPORTANT: What Happens When a KW Cannot Be Read
 
-The EKW actor connects to the Polish Ministry of Justice portal (ekw.ms.gov.pl), which requires a **residential Polish proxy**. This is handled automatically by the actor - the user does not need to configure a proxy manually. However, this is why the EKW actor costs slightly more per result ($0.01) than other actors in the suite. If the actor returns connection errors or empty results, the most likely cause is proxy-related - retry or contact support.
+The EKW actor connects to the Polish Ministry of Justice portal (ekw.ms.gov.pl). It is **keyless - no proxy and no API key are needed**, and the user configures nothing.
+
+The portal is a live government service and can be slow, under maintenance, or transiently unavailable. When that happens, the actor does **not** guess and does **not** hand you a half-read register:
+
+- A KW that could not be fully read is **withheld from the dataset entirely** and is **not charged**.
+- It is listed in the run's `ERRORS` key-value record and named in the run's status message.
+- So if you asked for 10 KW numbers and got 8 rows, **2 were not read** - check the status message and the `ERRORS` record for which ones, and re-run them. Do not treat the 2 missing KWs as "nothing found".
+
+An empty or missing result is therefore never a silent proxy failure - it is either a KW the register does not have, or a read the actor explicitly refused to bill you for. Never read a withheld KW as "no mortgage" or "no encumbrances".
 
 ### Actor Reference
 
@@ -242,6 +253,22 @@ curl -X POST "https://api.apify.com/v2/acts/regdata~crbr-beneficial-owners-scrap
 ## Output Interpretation
 
 When presenting results to the user, translate the raw EKW data into actionable findings:
+
+### "No Entries" vs "Could Not Read" - Read This Before Anything Else
+
+This is the single distinction that matters most in property due diligence: **a failed read must never be mistaken for "no mortgage".**
+
+Each dzial (section) in the result carries an **`available`** flag, and a separate **`empty`** flag:
+
+| Flags | Meaning | How to present it |
+|---|---|---|
+| `available: true`, `empty: true` | The register itself answered **"BRAK WPISOW"** (no entries) for that section. This is a genuine, verified negative - e.g. the property really has no mortgage in Dzial IV. | "No entries - confirmed by the register." |
+| `available: true`, `empty: false` | The section was read and contains entries. | Present the entries. |
+| `available: false` | The section could **not** be read. | Should not reach you - see below. |
+
+**A section that could not be read is never reported as empty.** If any requested dzial cannot be read, the actor withholds the **entire KW** from the dataset rather than deliver a partial register - and does not charge for it. The KW is named in the run's status message and in the `ERRORS` key-value record.
+
+Practical consequence: if a KW is in your dataset, every section you asked for was genuinely answered by the register, and `empty: true` is a real all-clear you can rely on. If a KW is missing from your dataset, you know nothing about it yet - re-run it. Do not silently drop it from the report.
 
 ### Reading Entry Status
 

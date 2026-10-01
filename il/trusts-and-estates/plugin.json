@@ -1,0 +1,15 @@
+{
+  "name": "il-trusts-and-estates",
+  "displayName": "Trusts & Estates — Israel",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills under the law of Israel.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "il",
+  "practice": "trusts-and-estates",
+  "language": "en",
+  "skills": [
+    "skills/israeli-estate-settlement-navigator-skills-il",
+    "skills/israeli-wills-inheritance-skills-il"
+  ]
+}

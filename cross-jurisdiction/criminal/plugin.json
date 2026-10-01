@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-criminal",
+  "displayName": "Criminal Law — comparative",
+  "version": "0.1.0",
+  "description": "Criminal Law skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "criminal",
+  "language": "en",
+  "skills": [
+    "skills/safety-criminal-defense-disclaimer-sboghossian"
+  ]
+}

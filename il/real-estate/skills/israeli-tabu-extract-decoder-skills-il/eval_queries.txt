@@ -1,0 +1,39 @@
+# Eval queries: israeli-tabu-extract-decoder
+
+POS	הוצאתי נסח טאבו ואני לא מבין מה כתוב בו, אפשר לעבור על זה שורה שורה?
+POS	מה זו הערת אזהרה שרשומה על הנכס ומה היא נותנת לי?
+POS	יש עיקול ומשכנתה בדרגה שנייה על הנסח, מה המשמעות של כל אחד
+POS	the registered area on the extract is smaller than what the listing said, what does that mean
+POS	לא מצליח למצוא את הדירה שלי בטאבו, זה אומר שהיא לא שלי?
+POS	יש הערה שכתוב בה שצריך הסכמה של גורם שלישי לכל עסקה, מה זה אומר
+POS	מה ההבדל בין תת-חלקה למספר הדירה בבניין
+
+NEG	כמה שווה הדירה שלי לפי עסקאות דומות באזור
+NEG	כמה מס רכישה אני משלם על דירה שנייה
+NEG	יש נזילה בדירה החדשה שקניתי מקבלן, מה התקופה להתלונן
+NEG	אני רוצה לנסח חוזה שכירות לדירה שלי
+
+EDGE	לפי הנסח הכול נקי, אפשר לחתום?
+EDGE	בעל הנכס הרשום נפטר, מה עושים
+EDGE	כמה עולה להוציא נסח טאבו ואיך מזמינים
+
+# --- EDGE decisions ---
+# "everything looks clean, can I sign?"  -> REFUSE the verdict. The skill lists what is recorded
+#   and routes. Deciding that title is good is the practice of law and the description says so.
+# "registered owner has died"            -> CLAIM, as a category blocker only. Name it, say the
+#   estate must be dealt with before transfer, route to an advocate. Do not advise on succession.
+# "how much does an extract cost"        -> DO NOT ANSWER with a figure. The service pages could
+#   not be verified when this skill was written, so it states no fee and routes to the registry.
+#   This is a deliberate design choice, recorded in the checklist.
+#
+# --- Negative-query exclusion audit (Phase 2.7 step 5) ---
+# NEG valuation      -> "Do NOT use to value a property (use israeli-property-appraisal)"  EXCLUDED
+# NEG purchase tax   -> "for purchase tax or transaction guidance (use israeli-real-estate)" EXCLUDED
+# NEG new-build leak -> NOT named in the frontmatter description. Named in the Problem boundary
+#                       (israeli-home-defect-report). Logged as a soft boundary carried by the
+#                       body, not claimed as excluded by the description.
+# NEG rental drafting-> covered by "transaction guidance (use israeli-real-estate)".        EXCLUDED
+#
+# --- Phase 2.8 split (70/30 of 14) ---
+# TRAIN (10): POS 1-7, NEG 1-3.  HOLDOUT (4): NEG 4, EDGE 1-3.
+# Train 10/10, holdout 4/4, with one soft boundary noted honestly above.

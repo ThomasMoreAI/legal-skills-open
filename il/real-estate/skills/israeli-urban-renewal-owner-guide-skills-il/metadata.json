@@ -1,0 +1,88 @@
+{
+  "author": "skills-il",
+  "version": "1.1.1",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "התחדשות עירונית",
+      "פינוי בינוי",
+      "תמא 38",
+      "בית משותף",
+      "זכויות דיירים",
+      "ישראל"
+    ],
+    "en": [
+      "urban renewal",
+      "pinui binui",
+      "tama 38",
+      "condominium",
+      "owner rights",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מדריך לבעלי דירות בהתחדשות עירונית",
+    "en": "Israeli Urban Renewal Owner's Guide"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מסביר לבעלי דירות איך עובדת התחדשות עירונית בישראל: שני המסלולים, פינוי בינוי ומסלול החיזוק, הרוב הדרוש בכל מסלול ואיך הוא משתנה לפי סוג העבודה וגודל הבניין, שבע העילות שבגללן החוק רואה סירוב לחתום כסירוב סביר, מה החוק מחייב שיופיע בעסקה עצמה, ומיהו הממונה על פניות דיירים שבודק בחינם תלונות על לחץ לחתום. מתאים כששואלים על פינוי בינוי או תמא 38, כשעורך הדין של הפרויקט מבקש חתימה, או כשרוצים לדעת מה השכנים יכולים לכפות. חשוב כי המספרים שמסתובבים ברשת פשוט לא נכונים, ובניגוד למה שנהוג לחשוב ההגנות על בעלי הדירות לא בוטלו עם סיום תמא 38. אל תשתמשו אם אתם שוכרים ולא בעלי הדירה, כדי לבדוק הסכם שכבר חתמתם עליו, כדי להעריך שווי דירה או לקבוע מה מגיע לכם, או לליקויי בנייה בדירה גמורה.",
+    "en": "Not legal advice. Explains Israeli urban renewal (hitchadshut ironit) from the apartment owner's side: the two tracks, pinui-binui and the strengthening track, the statutory majorities and how they differ by track and by building size, the seven grounds on which refusing to sign counts as reasonable, what the law requires the transaction itself to contain, and the free statutory ombudsman who investigates pressure to sign. Use when an owner says \"pinui binui\", \"tama 38\", \"hitchadshut ironit\", \"the developer's lawyer wants me to sign\", or asks what the neighbours can force on them. It matters because the thresholds are widely misreported and the owner protections did not lapse when TAMA 38 stopped taking new permit applications. Do NOT use for a renter rather than an owner, to review the user's own signed agreement, to value an apartment or say what compensation is owed, or for construction defects in a finished apartment."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "claude-ai",
+    "claude-desktop",
+    "chatgpt",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/73988.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/999_901.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/142343.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law01/501_590.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/departments/government_authority_for_urban_renewal",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/241401.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/233662.htm",
+      "type": "regulation",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 4
+}

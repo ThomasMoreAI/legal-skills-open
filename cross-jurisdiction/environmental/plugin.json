@@ -1,0 +1,14 @@
+{
+  "name": "cross-jurisdiction-environmental",
+  "displayName": "Environmental Law — comparative",
+  "version": "0.1.0",
+  "description": "Environmental Law skills comparing several legal systems.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "cross-jurisdiction",
+  "practice": "environmental",
+  "language": "fr",
+  "skills": [
+    "skills/agent-esg-reporting-ziri22"
+  ]
+}

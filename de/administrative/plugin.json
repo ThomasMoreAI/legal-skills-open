@@ -1,0 +1,14 @@
+{
+  "name": "de-administrative",
+  "displayName": "Administrative Procedure & Public Services — Germany",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills under the law of Germany.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "administrative",
+  "language": "de",
+  "skills": [
+    "skills/vorlaeufiger-rechtsschutz-80-borghei"
+  ]
+}

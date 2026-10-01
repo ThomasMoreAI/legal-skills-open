@@ -1,0 +1,43 @@
+{
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "חוזה-עבודה",
+      "דיני-עבודה",
+      "פנסיה",
+      "סעיף-14",
+      "קרן-השתלמות",
+      "דמי-הבראה",
+      "ישראל"
+    ],
+    "en": [
+      "employment-contract",
+      "labor-law",
+      "pension",
+      "section-14",
+      "education-fund",
+      "convalescence-pay",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "חוזה עבודה ישראלי",
+    "en": "Israeli Employment Contracts"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מנסח חוזי עבודה ישראליים עם כל הסעיפים החובה לפי דיני העבודה. השתמשו בזה כשצריך לנסח או לייצר חוזה עבודה, לחשב הטבות חובה לחוזה, או כששואלים על סעיף 14, קרן השתלמות, דמי הבראה, פיצויי פיטורים, הפרשות פנסיה או אי-תחרות. מכסה משרה מלאה, חלקית וסיווג קבלנים. לא מתאים לבדיקה או ביקורת של חוזה קיים (israeli-employment-contract-reviewer), לשאלות על זכויות עובד (israeli-workplace-rights-navigator), להסכמי שירות לפרילנסרים, לחוזים מסחריים או לדיני עבודה לא ישראליים.",
+    "en": "Not legal advice. Draft Israeli employment contracts (chozeh avoda) with all mandatory clauses per Israeli labor law. Use when user asks to create or generate an employment contract, calculate mandatory benefits for a contract, or asks about \"chozeh avoda\", \"Section 14\", \"Saif 14\", \"Keren Hishtalmut\", \"Dmei Havra'a\", \"convalescence pay\", \"severance\", \"pitzuim\", Israeli pension obligations, non-compete clauses in Israel, or Israeli employment compliance. Covers full-time, part-time, and contractor classification. Do NOT use for reviewing or auditing an existing contract (use israeli-employment-contract-reviewer), employee-rights questions (use israeli-workplace-rights-navigator), freelance service agreements, commercial contracts, or non-Israeli employment law."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

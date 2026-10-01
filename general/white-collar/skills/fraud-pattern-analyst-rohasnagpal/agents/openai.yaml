@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fraud Pattern Analyst"
+  short_description: "Identify and test transactional fraud indicators"
+  default_prompt: "Use $fraud-pattern-analyst to identify, test, and prioritise fraud hypotheses and control failures in these records."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sanctions Screening Documenter"
+  short_description: "Document reproducible sanctions screening reviews"
+  default_prompt: "Use $sanctions-screening-documenter to document this sanctions screening with applicable regimes, list versions, match analysis, ownership and control, and disposition."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Piloter un dossier"
+  short_description: "Orchestrer un dossier juridique de bout en bout"
+  default_prompt: "Utilise $piloter-dossier pour traiter ce dossier depuis l'ouverture jusqu'au contrôle final."

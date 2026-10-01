@@ -1,0 +1,4 @@
+interface:
+  display_name: "Settlement Deed Drafter"
+  short_description: "Draft complete family settlement and exit terms"
+  default_prompt: "Use $settlement-deed-drafter to turn these agreed family terms into a complete, workable settlement deed and implementation schedule."

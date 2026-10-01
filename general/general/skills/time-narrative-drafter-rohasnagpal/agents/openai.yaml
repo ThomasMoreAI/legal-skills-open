@@ -1,0 +1,4 @@
+interface:
+  display_name: "Time Narrative Drafter"
+  short_description: "Write accurate defensible legal time entries"
+  default_prompt: "Use $time-narrative-drafter to convert these contemporaneous work records into accurate, specific, privilege-aware time narratives without inflation or block-billing ambiguity."

@@ -1,0 +1,14 @@
+{
+  "name": "it-personal-injury",
+  "displayName": "Personal Injury & Torts — Italy",
+  "version": "0.1.0",
+  "description": "Personal Injury & Torts skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "personal-injury",
+  "language": "it",
+  "skills": [
+    "skills/quantificazione-danni-capazme"
+  ]
+}

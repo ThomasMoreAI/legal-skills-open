@@ -1,0 +1,14 @@
+{
+  "name": "it-constitutional",
+  "displayName": "Constitutional & Public Law — Italy",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "constitutional",
+  "language": "en",
+  "skills": [
+    "skills/constitution-of-italy-x8k"
+  ]
+}

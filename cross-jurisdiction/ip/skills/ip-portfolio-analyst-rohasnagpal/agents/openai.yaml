@@ -1,0 +1,4 @@
+interface:
+  display_name: "IP Portfolio Analyst"
+  short_description: "Audit ownership, coverage, deadlines, and risk"
+  default_prompt: "Use $ip-portfolio-analyst to audit this IP portfolio for ownership, protection, renewals, territorial coverage, exploitation, encumbrances, and enforcement risk."

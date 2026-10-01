@@ -1,0 +1,99 @@
+{
+	"company_name": "Example Labs LLC",
+	"domain": "example.test",
+	"contact_email": "privacy@example.test",
+	"support_email": "support@example.test",
+	"address": "100 Example Street\nHonolulu, HI 96813\nUnited States",
+	"effective_date": "2026-08-01",
+	"version": "DRAFT-1",
+	"jurisdiction": "Hawaii, United States — confirm with counsel",
+	"currency": "USD",
+	"service_description": "A fictional B2B workflow application used to demonstrate the generator configuration.",
+	"features": [
+		"Team workspaces",
+		"Workflow automation",
+		"Usage reporting"
+	],
+	"service_type": "B2B SaaS",
+	"min_age": "18",
+	"has_free_tier": true,
+	"billing_cycle": "Monthly or annual subscription; verify checkout and contract terms",
+	"refund_policy": "Case-specific example only; replace with the approved refund policy",
+	"refund_days": "Review required",
+	"processing_role": "both",
+	"data_inventory": [
+		{
+			"category": "Account and profile data",
+			"examples": "Name, business email, organization, role",
+			"source": "User or organization administrator",
+			"purpose": "Create and administer the account",
+			"legal_basis": "Contract or legitimate interests — assess by jurisdiction",
+			"recipients": "Hosting and transactional-email providers",
+			"retention": "Account lifetime plus 30 days, subject to backups and legal holds"
+		},
+		{
+			"category": "Product usage and security logs",
+			"examples": "Feature events, timestamps, IP address, user agent, error and audit events",
+			"source": "Service and user device",
+			"purpose": "Operate, secure, troubleshoot, and improve the service",
+			"legal_basis": "Legitimate interests or contract — assess each purpose",
+			"recipients": "Hosting, logging, and analytics providers",
+			"retention": "Security logs 90 days; analytics events 12 months — verify in vendor settings"
+		}
+	],
+	"vendors": [
+		{
+			"name": "Example Cloud Provider",
+			"purpose": "Application hosting and storage",
+			"data": "Account, content, and service telemetry",
+			"role": "Processor/subprocessor — verify contract",
+			"locations": "United States — verify regions and support access",
+			"privacy_url": "https://example.test/vendor-placeholder"
+		}
+	],
+	"cookies": [
+		{
+			"name": "example_session",
+			"provider": "Example Labs LLC",
+			"purpose": "Maintain an authenticated session",
+			"category": "Strictly necessary — verify exemption",
+			"duration": "Session",
+			"first_or_third_party": "First party"
+		}
+	],
+	"uses_cookies": true,
+	"cookie_settings_url": "https://example.test/privacy/settings",
+	"data_retention_schedule": "Use the category-specific periods in the data inventory; verify production, logs, backups, vendors, legal holds, and deletion jobs.",
+	"rights_request_process": "Submit at https://example.test/privacy/request or email privacy@example.test; replace with the tested verification, response, and appeal process.",
+	"international_transfer_details": "Example only: map each origin, destination, recipient, and transfer mechanism before publication.",
+	"security_summary": [
+		"Multi-factor authentication is required for privileged production access — verify configuration and coverage.",
+		"Encrypted transport and managed storage encryption are enabled — verify protocols, scope, keys, and exceptions.",
+		"Backups and restoration are tested on a documented schedule — replace with actual evidence."
+	],
+	"children_position": "The example service is intended for business users aged 18 and older; verify audience, age design, and applicable law.",
+	"jurisdictions": [
+		"gdpr",
+		"uk-gdpr"
+	],
+	"gdpr_rep_email": "Review whether an EU or UK representative is required",
+	"ccpa_agent_email": "privacy@example.test",
+	"california": {
+		"applies": "yes",
+		"sells": "no",
+		"shares": "yes",
+		"uses_sensitive_personal_information": "unknown",
+		"honors_gpc": "yes",
+		"request_url": "https://example.test/privacy/request",
+		"opt_out_url": "https://example.test/privacy/opt-out",
+		"limit_use_url": "Review whether required"
+	},
+	"documents": [
+		"privacy_policy",
+		"terms",
+		"cookies",
+		"aup",
+		"dpa",
+		"ccpa_opt_out"
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sa-contracts",
+  "displayName": "Contracts — Saudi Arabia",
+  "version": "0.1.0",
+  "description": "Contracts skills under the law of Saudi Arabia.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "sa",
+  "practice": "contracts",
+  "language": "ar",
+  "skills": [
+    "skills/arabic-contract-law-salmandev",
+    "skills/arabic-contract-review-salmandev",
+    "skills/arabic-legal-draft-salmandev"
+  ]
+}

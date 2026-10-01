@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cross-Border Transfer Analyst"
+  short_description: "Assess transfer mechanisms and supplementary safeguards"
+  default_prompt: "Use $cross-border-transfer-analyst to map this personal-data transfer, identify applicable laws and roles, test the transfer mechanism, assess destination risk, and document safeguards."

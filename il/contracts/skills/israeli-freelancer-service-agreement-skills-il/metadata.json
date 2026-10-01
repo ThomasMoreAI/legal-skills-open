@@ -1,0 +1,81 @@
+{
+  "name": "israeli-freelancer-service-agreement",
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "legal-tech",
+  "license": "MIT",
+  "tags": {
+    "en": [
+      "israel",
+      "freelancer",
+      "service-agreement",
+      "contractor",
+      "osek",
+      "contract-drafting",
+      "legal-tech",
+      "independent-contractor",
+      "yachasei-oved-maavid",
+      "ip-ownership"
+    ],
+    "he": [
+      "ישראל",
+      "עצמאי",
+      "הסכם שירותים",
+      "קבלן עצמאי",
+      "עוסק",
+      "ניסוח חוזה",
+      "פרילנסר",
+      "יחסי עובד מעביד",
+      "סודיות",
+      "קניין רוחני"
+    ]
+  },
+  "display_name": {
+    "en": "Israeli Freelancer Service Agreement",
+    "he": "ניסוח הסכם למתן שירותים לעצמאי"
+  },
+  "display_description": {
+    "en": "Not legal advice. Draft a tailored Israeli freelancer service agreement (heskem matan sherutim) between an independent service provider (osek patur or osek murshe) and their client. Covers scope of services, payment terms under the 2017 Prompt Payment to Suppliers Law, the independent-contractor declaration that lowers the risk of a court reclassifying the relationship as employment (yachasei oved-maavid), IP ownership of work product, confidentiality, termination, and indemnity. Use when a freelancer, consultant, designer, or developer needs a written contract before starting a project. Do NOT use for employment contracts, reviewing a contract you are about to sign, or day-to-day invoicing.",
+    "he": "אינו ייעוץ משפטי. מנסח הסכם למתן שירותים מותאם בין עצמאי (עוסק פטור או עוסק מורשה) לבין הלקוח שלו. כולל תיאור השירותים, תנאי תשלום לפי חוק מוסר תשלומים לספקים, סעיף הצהרת קבלן עצמאי שמקטין את הסיכון שבית הדין יכיר בקשר כיחסי עובד-מעביד, בעלות על הקניין הרוחני של התוצרים, סודיות, סיום ההתקשרות ושיפוי. השתמשו בו כשעצמאי, יועץ, מעצב או מפתח צריך חוזה כתוב לפני תחילת פרויקט. אל תשתמשו בו לחוזה עבודה של שכיר, לביקורת חוזה לפני חתימה, או לניהול חשבוניות שוטף."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/3953.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/71886.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.nevo.co.il/law_html/law00/144599.htm",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.kolzchut.org.il/he/%D7%A2%D7%95%D7%A1%D7%A7_%D7%9E%D7%95%D7%A8%D7%A9%D7%94",
+      "type": "aggregator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

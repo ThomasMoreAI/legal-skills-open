@@ -1,0 +1,14 @@
+{
+  "name": "fi-regulatory",
+  "displayName": "Regulatory & Compliance — Finland",
+  "version": "0.1.0",
+  "description": "Regulatory & Compliance skills under the law of Finland.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "regulatory",
+  "language": "en",
+  "skills": [
+    "skills/finland-company-registry-nolpak14"
+  ]
+}

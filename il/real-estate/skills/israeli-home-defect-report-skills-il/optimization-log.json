@@ -1,0 +1,28 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-08-26",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "bedek bait, is it too late to complain about cracks?",
+          "how much compensation for late delivery of my apartment from the contractor",
+          "יש סדק בקיר, זה מסוכן?"
+        ]
+      },
+      "lessons": [
+        "Expert MAJOR deferred (M3): the ENTIRE pre-2011 Schedule and the 06.04.2011 split date are sourced only to Kol Zchut, and 4 of the 9 legacy rows (floor_ground, floor_outdoor, stairwell, machines) still have NO evidence.json claim. The primary text is the Schedule as enacted by תיקון מס' 3, התש\"ן-1990 at https://fs.knesset.gov.il/12/law/12_lsr_210782.pdf; pdftotext returns RTL-mangled output, so it needs a screenshot-read. v1.1.0 marked the legacy table 'reliable but secondary' as an interim. Fix properly next cycle.",
+        "Expert MINOR deferred (m3): --notified is silently ignored unless --visible yes, so nothing prompts the agent to discuss whether the discovery-to-notice gap was a 'זמן סביר'. Echo the date and the interval.",
+        "Expert MINOR deferred (m4): --visible yes combined with a discovery date years after handover is accepted without comment, though the two assertions are in tension.",
+        "Expert MINOR deferred (m5): CURRENT_ALIASES maps legacy row names onto the current Schedule but there is no reverse map, so a pre-2011 case typed --type sealing hard-errors. Troubleshooting covers it; symmetry would be cheaper.",
+        "Instrumentation finding, carry to every cycle: verify-evidence.py extracted only 4 facts and 5 URLs from a skill carrying 57 evidence claims and ~20 distinct statutory periods. The extractor sees 'סעיף N' and URLs but NOT durations ('4 years', 'שנתיים', '20 שנה'), so the gate is near-inert for a periods-and-deadlines skill and exit 0 means almost nothing here. Every period must be hand-checked against the statute. This is exactly how v1.0.0 shipped a truncated Schedule row that evidence.json itself recorded correctly.",
+        "Root cause worth remembering: evidence.json held the CORRECT full text of Schedule items (4) and (7). The truncation was introduced when transcribing them into periods-and-burdens.md, domain-checklist.md and defect_window.py. The evidence file was right and the skill drifted from it, and no gate compares the two. Diff the skill's tables against the raw_snippets on every cycle."
+      ]
+    }
+  ]
+}

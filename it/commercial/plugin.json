@@ -1,0 +1,14 @@
+{
+  "name": "it-commercial",
+  "displayName": "Commercial — Italy",
+  "version": "0.1.0",
+  "description": "Commercial skills under the law of Italy.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "commercial",
+  "language": "it",
+  "skills": [
+    "skills/revisione-contratto-b2b-pixari"
+  ]
+}

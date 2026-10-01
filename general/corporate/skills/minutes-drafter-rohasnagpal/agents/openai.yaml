@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minutes Drafter"
+  short_description: "Draft accurate corporate meeting minutes"
+  default_prompt: "Use $minutes-drafter to turn these meeting materials and decisions into accurate corporate minutes."

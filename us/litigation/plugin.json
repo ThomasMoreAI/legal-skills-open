@@ -156,6 +156,7 @@
     "skills/order-judgment-appeal",
     "skills/party-deposition",
     "skills/pre-trial-statement",
+    "skills/precedent-retrieval-osenv",
     "skills/preliminary-injunction",
     "skills/preservation-letter",
     "skills/pretrial-statement",
@@ -179,6 +180,9 @@
     "skills/third-party-complaint",
     "skills/trial-brief",
     "skills/trial-prep-summary",
+    "skills/us-federal-civil-procedure-checker-rohasnagpal",
+    "skills/us-federal-state-issue-mapper-rohasnagpal",
+    "skills/us-state-law-research-planner-rohasnagpal",
     "skills/verdict-form",
     "skills/verdict-judgment-summary",
     "skills/viability-conflict-check-report",
@@ -187,6 +191,7 @@
     "skills/witness-prep",
     "skills/witness-prep-ethics",
     "skills/witness-prep-session",
-    "skills/writ-of-execution"
+    "skills/writ-of-execution",
+    "skills/write-demand-letter-jeffreytse"
   ]
 }

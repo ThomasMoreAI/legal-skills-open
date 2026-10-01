@@ -24,6 +24,7 @@
     "skills/global-privacy-control",
     "skills/iowa-consumer-privacy",
     "skills/kentucky-kppa",
+    "skills/legal-us-clemensjl",
     "skills/montana-mtdpa",
     "skills/new-jersey-dpa",
     "skills/oregon-ocpa-compliance",
@@ -33,6 +34,7 @@
     "skills/universal-opt-out",
     "skills/us-ccpa-expert",
     "skills/us-privacy-federal",
+    "skills/us-privacy-law-applicability-checker-rohasnagpal",
     "skills/vcdpa-compliance"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "fixture": "synthetic-publication-parser-samples",
+  "implemented": true,
+  "contains_live_credentials": false,
+  "contains_personal_data": false,
+  "contains_private_reports": false
+}

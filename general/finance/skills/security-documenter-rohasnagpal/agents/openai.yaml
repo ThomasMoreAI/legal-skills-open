@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Documenter"
+  short_description: "Draft and perfect transaction security packages"
+  default_prompt: "Use $security-documenter to design, draft, perfect, and register the security package for these obligations and assets."

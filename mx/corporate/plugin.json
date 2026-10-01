@@ -1,0 +1,14 @@
+{
+  "name": "mx-corporate",
+  "displayName": "Corporate — Mexico",
+  "version": "0.1.0",
+  "description": "Corporate skills under the law of Mexico.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "mx",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/mexico-denue-nolpak14"
+  ]
+}

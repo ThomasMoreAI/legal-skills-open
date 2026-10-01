@@ -1,0 +1,14 @@
+{
+  "name": "nz-trade",
+  "displayName": "International Trade & Customs — New Zealand",
+  "version": "0.1.0",
+  "description": "International Trade & Customs skills under the law of New Zealand.",
+  "author": "Community contributors (see each skill's author)",
+  "license": "Apache-2.0",
+  "jurisdiction": "nz",
+  "practice": "trade",
+  "language": "en",
+  "skills": [
+    "skills/customs-tariff-nz-thecolab-ai"
+  ]
+}

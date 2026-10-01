@@ -1,0 +1,4 @@
+interface:
+  display_name: "Costing Estimator"
+  short_description: "Build transparent stage-based legal budgets"
+  default_prompt: "Use $costing-estimator to prepare a stage-based legal cost estimate with staffing, rates, assumptions, disbursements, taxes, scenarios, exclusions, and change controls."

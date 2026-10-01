@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conflict Checker"
+  short_description: "Run structured confidential conflict checks"
+  default_prompt: "Use $conflict-checker to map the prospective matter's parties, affiliates, relationships, adverse interests, prior matters, confidentiality risks, and clearance decision."

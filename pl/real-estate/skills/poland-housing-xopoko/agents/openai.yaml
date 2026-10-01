@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Housing"
+  short_description: "Poland Housing: run focused tasks"
+policy:
+  allow_implicit_invocation: false
