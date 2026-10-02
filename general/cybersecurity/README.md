@@ -19,5 +19,5 @@ Jurisdiction: `general` · Practice: `cybersecurity` · Skill language varies pe
 | [`Tabletop Exercise Script for Incident Response Plan`](skills/ir-tabletop-exercise/) | Drafts a tabletop exercise script to stress-test an organization's Incident Response Plan against… |
 | [`/cs:iso27001-audit-prep — ISO 27001 ISMS Audit Forcing Questions`](skills/iso27001-audit-prep-alirezarezvani/) | /cs:iso27001-audit-prep <scope> — ISO 27001 ISMS audit readiness 6-question forcing interrogation. Use before… |
 | [`ISO 27001 Compliance Skill`](skills/iso27001-sushegaad/) | Expert ISO 27001 compliance assistant for security and compliance teams. Use this skill whenever a user asks… |
-| [`PCI DSS Compliance Skill`](skills/pci-compliance-tanaji-hemant-naik-lawve-ai/) | Expert PCI DSS compliance advisor covering PCI DSS v4.0.1 (current) and v4.0. Use this skill whenever a user… |
+| [`PCI DSS Compliance Skill`](skills/pci-compliance-sushegaad/) | Expert PCI DSS compliance advisor covering PCI DSS v4.0.1 (current) and v4.0. Use this skill whenever a user… |
 | [`Vendor Security Assessment Questionnaire`](skills/vendor-security-assessment/) | Drafts a Vendor Security Assessment Questionnaire evaluating third-party cybersecurity posture, data… |

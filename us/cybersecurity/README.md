@@ -17,7 +17,7 @@ Jurisdiction: `us` · Practice: `cybersecurity` · Skill language varies per ski
 | [`NYDFS Information Security Program (23 NYCRR 500)`](skills/nydfs-infosec-program/) | Drafts a comprehensive Information Security Program compliant with NYDFS Cybersecurity Regulation (23 NYCRR… |
 | [`/cs:soc2-audit-prep — SOC 2 Type II Forcing Questions`](skills/soc2-audit-prep-alirezarezvani/) | /cs:soc2-audit-prep <scope> — SOC 2 Type II readiness 6-question forcing interrogation. Observation-period… |
 | [`SOC 2 Compliance Skill`](skills/soc2-sushegaad/) | Expert SOC 2 compliance assistant covering all five Trust Services Criteria (Security/CC, Availability/A,… |
-| [`TSA Cybersecurity Compliance Skill`](skills/tsa-compliance-tanaji-hemant-naik-lawve-ai/) | Expert TSA cybersecurity compliance advisor for critical infrastructure owners and operators. Use this skill… |
+| [`TSA Cybersecurity Compliance Skill`](skills/tsa-compliance-sushegaad/) | Expert TSA cybersecurity compliance advisor for critical infrastructure owners and operators. Use this skill… |
 | [`Written Information Security Program (WISP)`](skills/wisp/) | Drafts a Written Information Security Program compliant with Massachusetts 201 CMR 17.00 and supplementary… |
 
 ## Cold-start context

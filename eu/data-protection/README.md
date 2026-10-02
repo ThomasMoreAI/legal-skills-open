@@ -28,7 +28,7 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`Gap normativo privacy`](skills/gap-normativo-privacy-pixari/) | Gap analysis tra documentazione interna (informativa, registro, policy) e requisiti richiesti dall'utente o… |
 | [`GDPR Skill`](skills/gdpr/) | Use when the user asks about GDPR — lawful bases for processing, data subject rights (DSRs), Records of… |
 | [`GDPR Compliance Skill`](skills/gdpr-compliance-hack23/) | Ensure GDPR compliance for personal data processing in CIA platform with privacy-by-design principles |
-| [`GDPR Compliance Skill`](skills/gdpr-compliance-tanaji-hemant-naik-lawve-ai/) | Expert GDPR compliance assistant covering all four core workflows: (1) auditing code and systems for GDPR… |
+| [`GDPR Compliance Skill`](skills/gdpr-compliance-sushegaad/) | Expert GDPR compliance assistant covering all four core workflows: (1) auditing code and systems for GDPR… |
 | [`GDPR/DSGVO Expert`](skills/gdpr-dsgvo-expert-alirezarezvani/) | GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation,… |
 | [`GDPR Expert`](skills/gdpr-expert/) | GDPR expert for EU privacy compliance. Deep knowledge of General Data Protection Regulation including 99… |
 | [`Gdpr Privacy`](skills/gdpr-privacy/) | Use when implementing GDPR compliance, handling data subject requests, conducting DPIAs, managing consent, or… |
