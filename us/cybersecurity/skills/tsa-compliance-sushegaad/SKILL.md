@@ -1,9 +1,9 @@
 ---
-name: tsa-compliance-tanaji-hemant-naik-lawve-ai
+name: tsa-compliance-sushegaad
 title: TSA Cybersecurity Compliance Skill
 description: Expert TSA cybersecurity compliance advisor for critical infrastructure owners and operators. Use this skill whenever a user asks about TSA Security Directives for pipelines, freight railroads, passenger rail, public transit, or bus operators; the TSA Cyber Risk Management Program (CRMP); Cybersecurity Implementation Plan (CIP); Cybersecurity Operational Implementation Plan (COIP); Cybersecurity Assessment Plan (CAP); incident reporting to CISA; designation of a Cybersecurity Coordinator; Critical Cyber Systems (CCS); OT/IT network segmentation; the TSA November 2024 NPRM; or any directive in the SD Pipeline-2021 series, SD 1580-21-01 (freight rail), or SD 1582-21-01 (public transit/passenger rail). Also trigger for questions like "are we covered by TSA directives?", "what does the TSA require for pipeline cybersecurity?", "how do I build a CIP?", "what must I report to CISA?", or any request involving transportation critical infrastructure cybersecurity compliance.
-author: lawve-ai
-author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/tsa-compliance-tanaji-hemant-naik
+author: Sushegaad
+author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/tsa-compliance/skills/tsa-compliance
 license: MIT
 version: 0.1.0
 execution_mode: open

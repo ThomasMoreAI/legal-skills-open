@@ -121,7 +121,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Iterative Plan Redraft Semantic Guardrails`](skills/iterative-plan-redraft-semantic-guardrails/) | Harden a repeatedly re-reviewed documentation/contract plan after adversarial reviewers keep finding semantic… |
 | [`Judicial First Impression: Cold-Read Assessment`](skills/judicial-first-impression-larissa-meredith-flister/) | Assesses a legal argument, submission, or piece of structured reasoning from the perspective of a judge… |
 | [`Quellenhinweis ohne Blindzitate`](skills/kommentar-und-literatur-hinweis/) | Quellenhinweis für vertiefte Subsumtion. Gibt keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus… |
-| [`Law Review Article Editor`](skills/law-review-editor-seth-chandler-lawve-ai/) | Rigorous multi-pass editor for law review articles, student notes, seminar papers and other legal… |
+| [`Law Review Article Editor`](skills/law-review-editor-seth-chandler/) | Rigorous multi-pass editor for law review articles, student notes, seminar papers and other legal… |
 | [`Legal Research — 9 Skills`](skills/law-skills/) | 9 legal research skills. Trigger: legal research, case law analysis, regulatory compliance. Design: legal… |
 | [`Lawyer Analyst Skill`](skills/lawyer-analyst/) | Analyzes events through legal lens using statutory interpretation, case law analysis, legal reasoning,… |
 | [`Lawyer Brief`](skills/lawyer-brief/) | Prepare concise lawyer-ready briefs from messy facts, documents, timelines, emails, contracts, disputes, or… |
@@ -138,7 +138,7 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Legal Canned Responses Skill`](skills/legal-canned-responses/) | Generate templated responses for common legal inquiries with escalation detection. Use when drafting legal… |
 | [`Legal Counsel Review`](skills/legal-counsel-review/) | Use this skill when reviewing legal, contractual, regulatory, privacy, litigation, compliance, or… |
 | [`Legal Design Assessment`](skills/legal-design-assessment-mirza-chiragov/) | Audits a legal document against legal design principles. Scores the document on six pillars: language… |
-| [`/legal-diagram`](skills/legal-diagram-sam-zhai-lawve-ai/) | Use when a user needs a legal or legal-adjacent Mermaid diagram from a document, pasted text, matter… |
+| [`/legal-diagram`](skills/legal-diagram-sam-zhai/) | Use when a user needs a legal or legal-adjacent Mermaid diagram from a document, pasted text, matter… |
 | [`In-House Counsel Document Format — Multi-Track House Style`](skills/legal-document-drafting-formatting-alessandro-dardano/) | Produces properly-formatted legal documents in Word (.docx). The user provides the substantive content… |
 | [`Legal Document Producer`](skills/legal-document-producer-rohasnagpal/) | Produces polished legal deliverables from completed or supplied content by applying an authorised template,… |
 | [`Legal Exam Prep`](skills/legal-exam-prep-with-rohas-rohasnagpal/) | Prepares users for law exams through syllabus-based revision, adaptive quizzes, mock exams, issue-spotting… |

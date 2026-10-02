@@ -1,8 +1,8 @@
 ---
-name: law-review-editor-seth-chandler-lawve-ai
+name: law-review-editor-seth-chandler
 title: Law Review Article Editor
 description: Rigorous multi-pass editor for law review articles, student notes, seminar papers and other legal scholarship. Runs six specialized passes — structure, substantive critique, Bluebook citations, grammar and clarity, fact-checking against sources, and a synthesizing memo — and delivers an editorial memo with issues prioritized as critical, substantial or minor and keyed to specific footnotes and paragraphs. Handles articles of any length, including 50,000-word pieces, by chunking on section boundaries. Reads .docx directly. Use when editing, critiquing, workshopping or pre-submission-reviewing academic legal writing. Triggers on "edit my article," "review this draft," "critique my note," "check my Bluebook citations," "is my argument sound," "read my law review piece," "workshop this paper," "pre-submission review." Chunking needs Python 3; fact-checking needs web search; both degrade gracefully without.
-author: lawve-ai
+author: Seth J. Chandler
 author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/law-review-editor-seth-chandler
 license: Apache-2.0
 version: 0.1.0

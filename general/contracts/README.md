@@ -64,7 +64,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Contract Drafting`](skills/contract-drafting-neversight/) | Use this skill when drafting NDAs, MSAs, SaaS agreements, licensing terms, or redlining contracts. Triggers… |
 | [`Contract Extract`](skills/contract-extract/) | 用户上传合同文件或提供合同本地路径，并用自然语言要求提取字段、录入合同台账或写入合同表时，优先匹配 contract-extract；/合同录入 或 /contract-extract 仅作为强制入口。 |
 | [`Freelance Contract Generator`](skills/contract-generator/) | Generate professional freelance contracts, SOWs, and NDAs for client projects. Use when creating contracts,… |
-| [`Contract Intelligence & Workflow Reviewer`](skills/contract-intelligence-workflow-reviewer-carl-ditzler-lawve-ai/) | Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full contract… |
+| [`Contract Intelligence & Workflow Reviewer`](skills/contract-intelligence-workflow-reviewer-carl-ditzler/) | Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full contract… |
 | [`合同要点快览助手（T828）`](skills/contract-keypoints-quickview/) | 用于信托领域合同与法务中的合同要点快览助手场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`Contract Metadata Extraction`](skills/contract-metadata-extraction/) | Extract metadata from contracts including parties, effective dates, value, auto-renewal terms, governing law,… |
 | [`Contract Obligation Extraction`](skills/contract-obligation-extraction/) | Extract obligations from contract documents including deadlines, deliverables, payment terms, SLA… |

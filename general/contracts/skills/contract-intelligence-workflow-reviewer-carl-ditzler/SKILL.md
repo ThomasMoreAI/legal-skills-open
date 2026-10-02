@@ -1,9 +1,9 @@
 ---
-name: contract-intelligence-workflow-reviewer-carl-ditzler-lawve-ai
+name: contract-intelligence-workflow-reviewer-carl-ditzler
 title: Contract Intelligence & Workflow Reviewer
 description: Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full contract lifecycle review process from intake and playbook normalization through clause review, deviation scoring, negotiation planning, approval routing, QA, and action recommendations. Reviews legal, business, operational, compliance, privacy, security, technology, and AI-related risks across contracts and legal documents. Supports NDAs, SaaS agreements, DPAs, procurement contracts, commercial agreements, contract comparisons, redlines, approval packages, clause research, and drafting. Warning-Comprehensive reviews can consume significant Claude/OpenAI tokens, especially for large agreements, playbooks, exhibits, schedules, and multi-document reviews.
-author: lawve-ai
-author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/contract-intelligence-workflow-reviewer-carl-ditzler
+author: Carl Ditzler
+author_url: https://github.com/carlditzler/AI-Skills/tree/main/legal/Contract-Reviewer-carl-ditzler-SKILL
 license: Apache-2.0
 version: 0.1.0
 execution_mode: open
