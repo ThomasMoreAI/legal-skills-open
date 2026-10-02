@@ -4,11 +4,13 @@ Tax advice and compliance — direct and indirect taxes, planning, and disputes.
 
 Jurisdiction: `lu` · Practice: `tax` · Skill language: fr
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
+| [`Skill : Comptable Luxembourg`](skills/comptable-gregherbe76/) | Expert-comptable luxembourgeois — écritures PCN, TVA Lux, IRC/ICC, clôture annuelle, FAIA, eCDF, dépôt RCS,… |
 | [`Skill : Contrôleur Fiscal Luxembourg`](skills/controleur-fiscal/) | Simule un contrôle fiscal luxembourgeois (ACD pour impôts directs + AED pour TVA) sur 8 axes, avec chefs de… |
+| [`Skill : Fiscaliste Particuliers Luxembourg`](skills/fiscaliste-gregherbe76/) | Fiscalité des particuliers au Luxembourg — RTS, classes d'impôt 1/1a/2, barème progressif, abattements,… |
 
 ## Cold-start context
 

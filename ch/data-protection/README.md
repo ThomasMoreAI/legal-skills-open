@@ -4,11 +4,12 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `ch` · Practice: `data-protection` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Swiss FADP Expert`](skills/ch-fadp-expert/) | Swiss Federal Act on Data Protection (nFADP) expert. Deep knowledge of the revised 2023 Swiss FADP including… |
+| [`Swiss online legal texts`](skills/legal-ch-clemensjl/) | Use when writing, reviewing, or fixing legally required texts for a Swiss website, webshop, app, or… |
 
 ## Cold-start context
 

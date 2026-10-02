@@ -4,17 +4,19 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `gb` · Practice: `litigation` · Skill language: en
 
-## Skills (7)
+## Skills (9)
 
 | Skill | What it does |
 |---|---|
 | [`BAILII Case Law Research`](skills/bailii-case-law/) | Search BAILII for UK case law and retrieve full judgment text. Use when someone asks to find a case, search… |
-| [`uk-citation-verification`](skills/uk-citation-verification/) | Use when users say "verify these UK citations", "check this skeleton for hallucinated cases", "BAILII/FCL ch… |
+| [`England and Wales Civil Claim Drafter`](skills/england-wales-civil-claim-drafter-rohasnagpal/) | Drafts a civil claim form and particulars framework for proceedings in England and Wales from verified facts,… |
+| [`England and Wales Pre-Action Protocol Checker`](skills/england-wales-pre-action-protocol-checker-rohasnagpal/) | Checks the applicable pre-action protocol or Practice Direction requirements before civil proceedings in… |
+| [`uk-citation-verification`](skills/uk-citation-verification/) | Use when users say "verify these UK citations", "check this skeleton for hallucinated cases", "BAILII/FCL… |
 | [`uk-court-of-appeal-judicial-preference-check`](skills/uk-court-of-appeal-judicial-preference-check/) | Use when users say "check this Court of Appeal skeleton", "judicial preference check", "CoA style", "is this… |
-| [`uk-disclosure-list-review`](skills/uk-disclosure-list-review/) | Use when users say "review this disclosure list", "QC disclosure", "check privilege descriptions", "inspecti… |
-| [`UK neutral citation → BAILII URL`](skills/uk-law/) | Verify UK law citations — primarily case law via neutral citation format (UKSC, UKHL, EWCA, EWHC, UKUT) agai… |
+| [`uk-disclosure-list-review`](skills/uk-disclosure-list-review/) | Use when users say "review this disclosure list", "QC disclosure", "check privilege descriptions",… |
+| [`UK neutral citation → BAILII URL`](skills/uk-law/) | Verify UK law citations — primarily case law via neutral citation format (UKSC, UKHL, EWCA, EWHC, UKUT)… |
 | [`uk-particulars-of-claim-review`](skills/uk-particulars-of-claim-review/) | Use when users say "review these Particulars of Claim", "check this PoC", "pleading gaps", "CPR 16", "PD16",… |
-| [`uk-witness-statement-review`](skills/uk-witness-statement-review/) | Use when users say "review this witness statement", "check this statement before service", "PD 57AC", "state… |
+| [`uk-witness-statement-review`](skills/uk-witness-statement-review/) | Use when users say "review this witness statement", "check this statement before service", "PD 57AC",… |
 
 ## Cold-start context
 

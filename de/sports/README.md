@@ -4,14 +4,15 @@ Sports law — player and athlete contracts, anti-doping defence, disputes befor
 
 Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 
-## Skills (4)
+## Skills (5)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`fachanwalt-sportrecht-doping-verfahren`](skills/fachanwalt-sportrecht-doping-verfahren/) | `sports` |
-| [`fachanwalt-sportrecht-orientierung`](skills/fachanwalt-sportrecht-orientierung/) | `sports` |
-| [`fachanwalt-sportrecht-spielervertrag`](skills/fachanwalt-sportrecht-spielervertrag/) | `sports` |
-| [`fachanwalt-sportrecht-vereinsstrafrecht`](skills/fachanwalt-sportrecht-vereinsstrafrecht/) | `sports` |
+| [`/sportrecht:dopingverfahren-verteidigung`](skills/dopingverfahren-verteidigung-borghei/) | Verteidigung der Athletin/des Athleten im sportrechtlichen Dopingverfahren – Anhörung bei NADA,… |
+| [`Doping-Verfahren`](skills/fachanwalt-sportrecht-doping-verfahren/) | Athlet steht vor NADA-Disziplinarverfahren wegen positivem Dopingtest und braucht Verteidigung. NADA-Code… |
+| [`Fachanwalt für Sportrecht — Orientierung`](skills/fachanwalt-sportrecht-orientierung/) | Anwalt will Fachanwaltschaft Sportrecht erwerben oder Mandat im Sportrecht bearbeiten und braucht… |
+| [`Spielervertrag`](skills/fachanwalt-sportrecht-spielervertrag/) | Workflow-Skill zu fachanwalt sportrecht spielervertrag. Nutzt Normtext, Nutzerangaben und verifizierte… |
+| [`Vereinsstrafrecht`](skills/fachanwalt-sportrecht-vereinsstrafrecht/) | Workflow-Skill zu fachanwalt sportrecht vereinsstrafrecht. Nutzt Normtext, Nutzerangaben und verifizierte… |
 
 ## Cold-start context
 

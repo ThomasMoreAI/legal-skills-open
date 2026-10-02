@@ -4,12 +4,11 @@ Health-sector law — provider regulation, licensing, and patient-data complianc
 
 Jurisdiction: `general` · Practice: `healthcare` · Skill language: en
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`Case_Report_Template`](skills/case-report-template/) | Provides a structured template for writing clinical case reports, including sections for abstract, patient i… |
-| [`COPYRIGHT NOTICE`](skills/regulatory-drafting/) | Drafts regulatory documents for healthcare workflows using an automated agent. Use this skill when regulator… |
+| [`COPYRIGHT NOTICE`](skills/regulatory-drafting/) | Drafts regulatory documents for healthcare workflows using an automated agent. Use this skill when regulatory… |
 
 ## Cold-start context
 

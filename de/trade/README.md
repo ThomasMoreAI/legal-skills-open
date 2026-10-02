@@ -4,20 +4,16 @@ German/EU foreign-trade law (Außenwirtschaftsrecht) — export control and dual
 
 Jurisdiction: `de` · Practice: `trade` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (10)
+## Skills (6)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aussenwirtschaft-awv-bundesbank`](skills/aussenwirtschaft-awv-bundesbank/) | `trade` |
-| [`aussenwirtschaft-bafa-genehmigungen`](skills/aussenwirtschaft-bafa-genehmigungen/) | `trade` |
-| [`aussenwirtschaft-exportkontrolle-dual-use`](skills/aussenwirtschaft-exportkontrolle-dual-use/) | `trade` |
-| [`aussenwirtschaft-gueterlisten-klassifizierung`](skills/aussenwirtschaft-gueterlisten-klassifizierung/) | `trade` |
-| [`aussenwirtschaft-kommandocenter`](skills/aussenwirtschaft-kommandocenter/) | `trade` |
-| [`aussenwirtschaft-pruefung-ermittlung`](skills/aussenwirtschaft-pruefung-ermittlung/) | `trade` |
-| [`aussenwirtschaft-vub-einfuhr-ausfuhr`](skills/aussenwirtschaft-vub-einfuhr-ausfuhr/) | `trade` |
-| [`aussenwirtschaft-zolltarif-vzta`](skills/aussenwirtschaft-zolltarif-vzta/) | `trade` |
-| [`aussenwirtschaft-zollverfahren-bewilligungen`](skills/aussenwirtschaft-zollverfahren-bewilligungen/) | `trade` |
-| [`aussenwirtschaft-zollwert-ursprung`](skills/aussenwirtschaft-zollwert-ursprung/) | `trade` |
+| [`AWV- und Bundesbank-Meldepflichten`](skills/aussenwirtschaft-awv-bundesbank/) | Meldepflichten nach Aussenwirtschaftsverordnung AWV gegenüber Bundesbank für grenzüberschreitende Zahlungen… |
+| [`Außenwirtschaft-Kommandocenter`](skills/aussenwirtschaft-kommandocenter/) | Kommandocenter für alle Aussenhandels- Zoll- Sanktions- CBAM- und Ermittlungsmandate vom Intake bis zum… |
+| [`Prüfungen, Ermittlungen und Offenlegung`](skills/aussenwirtschaft-pruefung-ermittlung/) | Begleitung von Aussenwirtschaftsprüfungen Zollprüfungen Durchsuchungen und Strafverfahren. Anwendungsfall… |
+| [`Zolltarif, TARIC und vZTA`](skills/aussenwirtschaft-zolltarif-vzta/) | Workflow-Skill zu aussenwirtschaft zolltarif vzta. Nutzt Normtext, Nutzerangaben und verifizierte Quellen;… |
+| [`Zollverfahren, Bewilligungen und Vereinfachungen`](skills/aussenwirtschaft-zollverfahren-bewilligungen/) | Zollverfahren und Bewilligungen im Union-Zollkodex für AEO vereinfachte Anmeldung und besondere Verfahren.… |
+| [`Zollwert, Ursprung und Präferenzen`](skills/aussenwirtschaft-zollwert-ursprung/) | Zollwert Warenursprung Praeferenznachweise und Lieferantenerklarungen im EU-Zollrecht. Anwendungsfall Zoll… |
 
 ## Cold-start context
 

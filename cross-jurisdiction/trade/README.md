@@ -4,14 +4,11 @@ Cross-border sanctions and customs/trade compliance — multi-regime sanctions s
 
 Jurisdiction: `cross-jurisdiction` · Practice: `trade` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (4)
+## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aussenwirtschaft-sanktionen-embargos`](skills/aussenwirtschaft-sanktionen-embargos/) | `trade` |
-| [`customs-trade-compliance`](skills/customs-trade-compliance/) | `trade` |
-| [`new-designation-screening-test-amir-fadavi`](skills/new-designation-screening-test-amir-fadavi/) | `trade` |
-| [`sanktions-compliance-pruefung`](skills/sanktions-compliance-pruefung/) | `trade` |
+| [`Customs & Trade Compliance`](skills/customs-trade-compliance/) | Customs & Trade Compliance workflow skill. Use this skill when the user needs Codified expertise for customs… |
 
 ## Cold-start context
 

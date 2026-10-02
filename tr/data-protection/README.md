@@ -8,8 +8,8 @@ Jurisdiction: `tr` · Practice: `data-protection` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`/dpa-review`](skills/dpa-review-zekaisuni/) | Veri işleme sözleşmesi, veri işleyen sözleşmesi, DPA veya kişisel veri aktarımı içeren tedarikçi/müşteri eki… |
-| [`KVKK Denetim Aracı`](skills/kvkk-denetim/) | Türkiye Kişisel Verilerin Korunması Kanunu (KVKK / 6698 sayılı Kanun) uyum denetimi. Gizlilik politikası, ay… |
+| [`/dpa-review`](skills/dpa-review-zekaisuni/) | Veri işleme sözleşmesi, veri işleyen sözleşmesi, DPA veya kişisel veri aktarımı içeren tedarikçi/müşteri… |
+| [`KVKK Denetim Aracı`](skills/kvkk-denetim/) | Türkiye Kişisel Verilerin Korunması Kanunu (KVKK / 6698 sayılı Kanun) uyum denetimi. Gizlilik politikası,… |
 | [`/matter-workspace`](skills/matter-workspace-23/) | Privacy/KVKK matter workspace'lerini yönetir: yeni dosya açma, listeleme, aktif dosya değiştirme, arşivleme… |
 | [`Turkey KVKK Compliance`](skills/turkey-kvkk/) | Implements compliance with Turkey's Personal Data Protection Law (Kisisel Verilerin Korunmasi Kanunu, KVKK,… |
 

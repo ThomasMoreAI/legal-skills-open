@@ -8,8 +8,8 @@ Jurisdiction: `us` · Practice: `immigration` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Immigration Case Summary`](skills/immigration-case-summary/) | Produces structured U.S. immigration case summaries covering applicant background, legal basis, procedural history,… |
-| [`Immigration Support Letter`](skills/immigration-support-letter/) | Drafts formal immigration support letters from employers, family members, or community supporters for USCIS petitions,… |
+| [`Immigration Case Summary`](skills/immigration-case-summary/) | Produces structured U.S. immigration case summaries covering applicant background, legal basis, procedural… |
+| [`Immigration Support Letter`](skills/immigration-support-letter/) | Drafts formal immigration support letters from employers, family members, or community supporters for USCIS… |
 
 ## Cold-start context
 

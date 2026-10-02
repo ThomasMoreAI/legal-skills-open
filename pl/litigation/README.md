@@ -8,14 +8,14 @@ Jurisdiction: `pl` · Practice: `litigation` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`calculating-oplata-sadowa`](skills/calculating-oplata-sadowa/) | Use when calculating Polish court fees (opłata sądowa) for civil lawsuits, appeals, or procedural filings un… |
-| [`calculating-odsetki`](skills/calculating-odsetki/) | Use when calculating Polish odsetki — ustawowe (art. 359 KC), za opóźnienie (art. 481 KC), w transakcjach h… |
-| [`checking-przedawnienie`](skills/checking-przedawnienie/) | Use when checking Polish przedawnienie (art. 117–125 KC) — termin ogólny 6 lat vs szczególny 3 lata, zawiesz… |
-| [`determining-pl-jurisdiction`](skills/determining-pl-jurisdiction/) | Use when determining the proper Polish court for a lawsuit — type of proceedings, territorial / subject-matt… |
-| [`determining-wps`](skills/determining-wps/) | Use when calculating wartość przedmiotu sporu (WPS) under KPC (art. 19–26) — impact on jurisdiction and cour… |
-| [`searching-orzeczenia`](skills/searching-orzeczenia/) | Use when searching Polish court decisions (Portal Orzeczeń, SN, NSA/WSA, TK, CJEU) — verifying citations, re… |
-| [`searching-krs`](skills/searching-krs/) | Use when identifying Polish legal entities, verifying reprezentację, adresy do doręczeń, insolvency — KRS, C… |
-| [`applying-frankowicze-case-law`](skills/applying-frankowicze-case-law/) | Use when working on Polish CHF mortgage cases (frankowicze) — TSUE / SN case law, nieważność klauzul, teoria… |
+| [`applying-frankowicze-case-law`](skills/applying-frankowicze-case-law/) | Use when working on Polish CHF mortgage cases (frankowicze) — TSUE (C-260/18 Dziubak, C-520/21 Bank M.,… |
+| [`calculating-odsetki`](skills/calculating-odsetki/) | Use when calculating Polish odsetki — ustawowe (art. 359 KC), za opóźnienie (art. 481 KC), w transakcjach… |
+| [`calculating-oplata-sadowa`](skills/calculating-oplata-sadowa/) | Use when calculating Polish court fees (opłata sądowa) for civil lawsuits, appeals, or procedural filings… |
+| [`checking-przedawnienie`](skills/checking-przedawnienie/) | Use when checking Polish przedawnienie (art. 117–125 KC) — termin ogólny 6 lat vs szczególny 3 lata (okresowe… |
+| [`determining-pl-jurisdiction`](skills/determining-pl-jurisdiction/) | Use when determining the proper Polish court for a lawsuit — identifying the correct type of proceedings… |
+| [`determining-wps`](skills/determining-wps/) | Use when calculating wartość przedmiotu sporu (WPS) under Polish KPC (art. 19–26) — determining its impact on… |
+| [`searching-krs`](skills/searching-krs/) | Use when identifying Polish legal entities, verifying reprezentację (zarząd, pełnomocnictwa), adresy do… |
+| [`searching-orzeczenia`](skills/searching-orzeczenia/) | Use when searching Polish court decisions across the Common Courts Portal (Portal Orzeczeń Sądów… |
 
 ## Cold-start context
 

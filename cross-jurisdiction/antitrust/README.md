@@ -8,4 +8,4 @@ Jurisdiction: `cross-jurisdiction` · Practice: `antitrust` · Skill language: d
 
 | Skill | What it does |
 |---|---|
-| [`SSNIP-Test — Anwendung`](skills/ssnip-test-anwendung/) | Sachlichen Markt mit dem SSNIP-Test abgrenzen ob ein hypothetischer Monopolist profitabel Preise um 5 bis 10 P… |
+| [`SSNIP-Test — Anwendung`](skills/ssnip-test-anwendung/) | Sachlichen Markt mit dem SSNIP-Test abgrenzen ob ein hypothetischer Monopolist profitabel Preise um 5 bis 10… |

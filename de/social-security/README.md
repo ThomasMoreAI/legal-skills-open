@@ -6,14 +6,14 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 
 ## Skills (6)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`fachanwalt-sozialrecht-erwerbsminderungsrente`](skills/fachanwalt-sozialrecht-erwerbsminderungsrente/) | `social-security` |
-| [`fachanwalt-sozialrecht-orientierung`](skills/fachanwalt-sozialrecht-orientierung/) | `social-security` |
-| [`fachanwalt-sozialrecht-sgb-ii-bescheid`](skills/fachanwalt-sozialrecht-sgb-ii-bescheid/) | `social-security` |
-| [`fachanwalt-sozialrecht-widerspruch-sozialleistung`](skills/fachanwalt-sozialrecht-widerspruch-sozialleistung/) | `social-security` |
-| [`insolvenzgeld-165-sgb-iii`](skills/insolvenzgeld-165-sgb-iii/) | `social-security` |
-| [`team-social`](skills/team-social/) | `social-security` |
+| [`Erwerbsminderungsrente (§§ 43, 240 SGB VI)`](skills/fachanwalt-sozialrecht-erwerbsminderungsrente/) | Versicherter erhielt Ablehnung der Erwerbsminderungsrente oder ist ausgesteuert und fragt nach… |
+| [`Fachanwalt für Sozialrecht — Orientierung`](skills/fachanwalt-sozialrecht-orientierung/) | Einstieg in den Skill-Verbund Sozialrecht. Orientierung im Sozialrecht Fachanwaltschaft nach § 14 FAO… |
+| [`SGB-II-Bescheid (Bürgergeld)`](skills/fachanwalt-sozialrecht-sgb-ii-bescheid/) | Workflow-Skill zu fachanwalt sozialrecht sgb ii bescheid. Nutzt Normtext, Nutzerangaben und verifizierte… |
+| [`Widerspruch gegen Sozialleistungsbescheid (§ 84 SGG)`](skills/fachanwalt-sozialrecht-widerspruch-sozialleistung/) | Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch. § 84 SGG Widerspruchsfrist… |
+| [`Insolvenzgeld nach § 165 SGB III`](skills/insolvenzgeld-165-sgb-iii/) | Arbeitnehmer eines insolventen Unternehmens will Insolvenzgeld beantragen oder Insolvenzverwalter bearbeitet… |
+| [`Team Composition`](skills/team-social/) | Orchestrate the social benefits team for Bürgergeld, ALG I unemployment benefits, health insurance,… |
 
 ## Cold-start context
 

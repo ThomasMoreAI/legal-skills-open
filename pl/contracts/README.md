@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `contracts` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`reviewing-vehicle-contract`](skills/reviewing-vehicle-contract/) | Use when auditing Polish vehicle sale contract (umowa kupna-sprzedaży pojazdu) — VIN / przebieg, title chain… |
+| [`reviewing-vehicle-contract`](skills/reviewing-vehicle-contract/) | Use when auditing Polish vehicle sale contract (umowa kupna-sprzedaży pojazdu) — VIN / przebieg, title chain,… |
 
 ## Cold-start context
 

@@ -4,12 +4,13 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `il` · Practice: `litigation` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Fines Fighter`](skills/israeli-fines-fighter/) | Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, cov… |
-| [`Israeli Small Claims Court`](skills/israeli-small-claims-court/) | Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks abo… |
+| [`Israeli Fines Fighter`](skills/israeli-fines-fighter/) | Appeal parking tickets, traffic fines and bus-lane (nat"z) tickets in Israel: generates Hebrew appeal… |
+| [`Israeli Enforcement (Hotzaa LaPoal): Debtor Side`](skills/israeli-hotzaa-lapoal-debtor-skills-il/) | Not legal advice. For someone who has had an Israeli enforcement file (hotzaa lapoal) opened against them and… |
+| [`Israeli Small Claims Court`](skills/israeli-small-claims-court/) | Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks… |
 
 ## Cold-start context
 

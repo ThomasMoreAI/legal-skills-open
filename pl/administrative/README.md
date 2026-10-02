@@ -4,11 +4,21 @@ Choosing the correct legal regime for letters, requests, applications, and compl
 
 Jurisdiction: `pl` · Practice: `administrative` · Skill language: pl
 
-## Skills (1)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
-| [`determining-pl-request-regime`](skills/determining-pl-request-regime/) | Use when choosing the Polish legal regime for letters, requests, applications, and complaints — UDIP, KPA, … |
+| [`determining-pl-request-regime`](skills/determining-pl-request-regime/) | Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions,… |
+| [`Poland Appeals and Administrative Review`](skills/poland-appeals-review-xopoko/) | Administrative review. Use for a Polish refusal, delay, supplementation request, appeal, or missed procedural… |
+| [`Poland Case Planning`](skills/poland-case-planning-xopoko/) | Case planning. Use when Poland deadlines and multi-step procedures need a transient plan. |
+| [`Poland Civic Participation`](skills/poland-civic-participation-xopoko/) | Civic participation and public information: route voting, voter registration, petitions, consultations, and… |
+| [`Poland Consular and Travel Services`](skills/poland-consular-travel-xopoko/) | Consular and travel-document services: route Polish consular help, passports, emergency documents,… |
+| [`Poland Emergency and Rights Escalation`](skills/poland-emergency-rights-xopoko/) | Emergency rights. Use when danger or urgent escalation arises. |
+| [`Poland Family and Education`](skills/poland-family-education-xopoko/) | Family and education. Use for Polish childcare, school, university, or family administration; not benefits or… |
+| [`Poland Foreign Documents`](skills/poland-foreign-documents-xopoko/) | Foreign documents. Use for apostille, legalization, sworn translation, diploma recognition, or… |
+| [`Poland Identity and Registration`](skills/poland-identity-xopoko/) | Identity. Use when PESEL or meldunek matters. |
+| [`Poland Justice and Legal Aid`](skills/poland-justice-legal-aid-xopoko/) | Justice and legal-help routing: courts, legal aid, ombudsmen, victim support, enforcement, and procedural… |
+| [`Poland Vehicles and Road Administration`](skills/poland-vehicles-road-xopoko/) | Vehicles and road administration: route registration, ownership, inspections, compulsory insurance, tolls,… |
 
 ## Cold-start context
 

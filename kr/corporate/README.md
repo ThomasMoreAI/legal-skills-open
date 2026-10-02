@@ -4,11 +4,12 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `kr` · Practice: `corporate` · Skill language: ko
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`법인등기 신청 컨설팅`](skills/corporate-registration-consulting/) | 법인등기소/인터넷등기소 상업등기 신청을 처음 하는 사용자를 위해 일반 영리 주식회사 발기설립 절차, 정관·첨부서류 실제 HWP 양식 작성, 등록면허세·과밀억제권역 중과 체크, rhwp 기반 순차… |
+| [`south-korea-dart`](skills/south-korea-dart-nolpak14/) | Look up South Korea companies for free via the official DART OpenAPI (opendart.fss.or.kr, Financial… |
 
 ## Cold-start context
 

@@ -4,11 +4,13 @@ Lending, credit, payments, secured financing, and banking regulation.
 
 Jurisdiction: `general` · Practice: `finance` · Skill language: en
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`Forensic Deposit Tracking`](skills/track-deposits/) | Traces deposits from receipt through disbursement across bank statements and financial records, producing transaction… |
+| [`Guarantee Analyst`](skills/guarantee-analyst-rohasnagpal/) | Analyses guarantee and indemnity scope, liability triggers, defences, release risks and enforcement. Use when… |
+| [`Security Documenter`](skills/security-documenter-rohasnagpal/) | Designs, drafts and closes security packages over transaction assets and rights. Use for mortgages, charges,… |
+| [`Forensic Deposit Tracking`](skills/track-deposits/) | Traces deposits from receipt through disbursement across bank statements and financial records, producing… |
 
 ## Cold-start context
 

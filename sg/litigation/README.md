@@ -8,7 +8,7 @@ Jurisdiction: `sg` · Practice: `litigation` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`sgcite — Singapore Court Citation Checker`](skills/sgcite/) | Use when verifying Singapore court citations in legal submissions, checking for hallucinated cases in AI-gen… |
+| [`sgcite — Singapore Court Citation Checker`](skills/sgcite/) | Use when verifying Singapore court citations in legal submissions, checking for hallucinated cases in… |
 
 ## Cold-start context
 

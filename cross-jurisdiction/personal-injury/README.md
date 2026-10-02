@@ -4,11 +4,12 @@ Bodily-injury and accident claims — liability, causation, and damages.
 
 Jurisdiction: `cross-jurisdiction` · Practice: `personal-injury` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`harvester-query`](skills/harvester-query/) | Use whenever the user asks about a motor-vehicle statute, citation, contributing factor, OR a Canadian perso… |
+| [`harvester-query`](skills/harvester-query/) | Use whenever the user asks about a motor-vehicle statute, citation, contributing factor, OR a Canadian… |
+| [`Product Liability Analyst`](skills/product-liability-analyst-rohasnagpal/) | Assesses product liability exposure on given facts — classifying the defect as manufacturing, design, or… |
 
 ## Cold-start context
 

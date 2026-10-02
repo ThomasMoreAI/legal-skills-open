@@ -4,12 +4,11 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `ar` · Practice: `general` · Skill language: en
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
 | [`ley-ar — Argentine Legal Database Search`](skills/ley-ar/) | Search Argentine legal databases (SAIJ, JUBA, CSJN, JUSCABA) for jurisprudence, legislation, case summaries,… |
-| [`Redacción de contenido legal para Argentina en voseo`](skills/redaccin-de-contenido-legal-para-argentina-en-voseo/) | Generar descripciones de perfiles empresariales y contenido de marketing para estudios jurídicos en Argentin… |
 
 ## Cold-start context
 

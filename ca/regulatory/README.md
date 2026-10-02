@@ -4,15 +4,13 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `ca` · Practice: `regulatory` · Skill language: en
 
-## Skills (5)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`User Request`](skills/arckit-ca-charter/) | [COMMUNITY] Generate a Canada Charter rights design review — s.2 (expression and association), s.7 (life, li… |
 | [`User Request`](skills/arckit-ca-fitaa/) | [COMMUNITY] Generate a Canada FITAA (Foreign Influence Transparency and Accountability Act, Bill C-70 2024)… |
-| [`User Request`](skills/arckit-ca-ola/) | [COMMUNITY] Generate an Official Languages Act review — Parts IV (services), V (language of work), VI (feder… |
-| [`User Request`](skills/arckit-ca-soia/) | [COMMUNITY] Generate a Canada Security of Information Act handling plan — Special Operational Information (S… |
-| [`Form-Specific Checklists`](skills/forms-1-12-completeness-verification/) | Use when pre-flighting Ontario expropriation Forms 1-12 under O.Reg. 363/90 before service or filing — verif… |
+| [`User Request`](skills/arckit-ca-ola/) | [COMMUNITY] Generate an Official Languages Act review — Parts IV (services), V (language of work), VI… |
+| [`User Request`](skills/arckit-ca-soia/) | [COMMUNITY] Generate a Canada Security of Information Act handling plan — Special Operational Information… |
 
 ## Cold-start context
 

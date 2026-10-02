@@ -8,7 +8,7 @@ Jurisdiction: `gr` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Greek Compliance & AADE Integration`](skills/greek-compliance-aade/) | Greek tax compliance with AADE/TAXIS integration — VAT, payroll, EFKA, municipal taxes, stamp duty. Human co… |
+| [`Greek Compliance & AADE Integration`](skills/greek-compliance-aade/) | Greek tax compliance with AADE/TAXIS integration — VAT, payroll, EFKA, municipal taxes, stamp duty. Human… |
 
 ## Cold-start context
 

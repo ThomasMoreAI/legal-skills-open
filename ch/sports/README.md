@@ -6,9 +6,9 @@ Jurisdiction: `ch` · Practice: `sports` · Skill language varies per skill.
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`cas-berufung-vorbereiten`](skills/cas-berufung-vorbereiten/) | `sports` |
+| [`CAS-Berufung vorbereiten`](skills/cas-berufung-vorbereiten/) | Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne… |
 
 ## Cold-start context
 

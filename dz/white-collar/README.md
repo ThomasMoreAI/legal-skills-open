@@ -4,11 +4,12 @@ Economic and financial crime in Algeria — fraud detection, forensic accounting
 
 Jurisdiction: `dz` · Practice: `white-collar` · Skill language: fr
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Agent Comptabilité Forensique`](skills/agent-forensic-accountant-ziri22/) | Expert en comptabilité forensique (détection de fraude, analyse financière, conformité, réglementations DZ) |
+| [`Identity Verification v2 — Expert IA`](skills/agent-identity-verification-v2-ziri22/) | Expert en vérification d'identité avancé (KYC, AML, document verification, biometrics, DZ context) |
 
 ## Cold-start context
 

@@ -8,11 +8,11 @@ Jurisdiction: `tr` · Practice: `litigation` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`/brief-section-drafter`](skills/brief-section-drafter-zekaisuni/) | Draft Turkish petition sections, such as maddi vakıalar, hukuki nedenler, deliller, usuli itirazlar, talep v… |
-| [`/demand-draft`](skills/demand-draft-zekaisuni/) | Draft a Turkish ihtarname from a completed demand-intake file. Applies mesleki sır, admission/waiver, settle… |
-| [`/demand-intake`](skills/demand-intake-zekaisuni/) | Intake for a Turkish ihtarname / demand-letter workflow. Collects parties, facts, legal basis, requested act… |
-| [`/legal-hold`](skills/legal-hold-zekaisuni/) | Şirket içi kayıt/delil muhafaza talimatı yayımlar, yeniler, kaldırır veya raporlar — .docx formatında iç bil… |
-| [`/privilege-log-review (Gizlilik ve Sır Saklama İncelemesi)`](skills/privilege-log-review-zekaisuni/) | Sır saklama ve gizlilik (privilege) incelemesi — mahkemeye, savcılığa veya Rekabet Kurumu'na sunulacak belge… |
+| [`/brief-section-drafter`](skills/brief-section-drafter-zekaisuni/) | Draft Turkish petition sections, such as maddi vakıalar, hukuki nedenler, deliller, usuli itirazlar, talep ve… |
+| [`/demand-draft`](skills/demand-draft-zekaisuni/) | Draft a Turkish ihtarname from a completed demand-intake file. Applies mesleki sır, admission/waiver,… |
+| [`/demand-intake`](skills/demand-intake-zekaisuni/) | Intake for a Turkish ihtarname / demand-letter workflow. Collects parties, facts, legal basis, requested… |
+| [`/legal-hold`](skills/legal-hold-zekaisuni/) | Şirket içi kayıt/delil muhafaza talimatı yayımlar, yeniler, kaldırır veya raporlar — .docx formatında iç… |
+| [`/privilege-log-review (Gizlilik ve Sır Saklama İncelemesi)`](skills/privilege-log-review-zekaisuni/) | Sır saklama ve gizlilik (privilege) incelemesi — mahkemeye, savcılığa veya Rekabet Kurumu'na sunulacak… |
 
 ## Cold-start context
 

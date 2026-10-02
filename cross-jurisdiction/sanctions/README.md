@@ -6,11 +6,11 @@ Jurisdiction: `cross-jurisdiction` · Practice: `sanctions` · Skill language va
 
 ## Skills (3)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aussenwirtschaft-sanktionen-embargos`](skills/aussenwirtschaft-sanktionen-embargos/) | `sanctions` |
-| [`new-designation-screening-test-amir-fadavi`](skills/new-designation-screening-test-amir-fadavi/) | `sanctions` |
-| [`sanktions-compliance-pruefung`](skills/sanktions-compliance-pruefung/) | `sanctions` |
+| [`Sanktionen, Embargos und Bereitstellungsverbote`](skills/aussenwirtschaft-sanktionen-embargos/) | Prüfung von Laenderembargos personenbezogenen Sanktionen und Umgehungsrisiken im Aussenhandel. Anwendungsfall… |
+| [`New Designation Screening Test Generator`](skills/new-designation-screening-test-amir-fadavi/) | Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists plus… |
+| [`Mandantenfragen beim Kaltstart`](skills/sanktions-compliance-pruefung/) | Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste,… |
 
 ## Cold-start context
 

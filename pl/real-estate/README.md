@@ -4,12 +4,13 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `pl` · Practice: `real-estate` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`Property Due Diligence - Polish Government Registries`](skills/regdata-property/) | Extract data from Poland's EKW electronic land registry (Elektroniczne Ksiegi Wieczyste) - ownership records… |
-| [`reviewing-real-estate-contract`](skills/reviewing-real-estate-contract/) | Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW (działy I–… |
+| [`Poland Housing`](skills/poland-housing-xopoko/) | Housing. Use when Polish tenancy matters. |
+| [`Property Due Diligence - Polish Government Registries`](skills/regdata-property/) | Extract data from Poland's EKW electronic land registry (Elektroniczne Ksiegi Wieczyste) - ownership records,… |
+| [`reviewing-real-estate-contract`](skills/reviewing-real-estate-contract/) | Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW (działy… |
 
 ## Cold-start context
 

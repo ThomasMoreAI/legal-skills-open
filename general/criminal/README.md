@@ -4,13 +4,15 @@ Criminal offenses, defenses, charging, plea practice, sentencing, and post-convi
 
 Jurisdiction: `general` · Practice: `criminal` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
-| [`Interview Summary`](skills/interview-summary/) | Generates structured summaries of witness or subject interviews for criminal defense investigations. |
-| [`Police Report Summary`](skills/police-report-summary/) | Summarizes police reports and incident documentation into structured, source-attributed legal work product. |
-| [`Traffic Law Enforcement Summary`](skills/traffic-enforcement-summary/) | Generates structured summaries of traffic law enforcement data covering DUI metrics, violation trends, enforcement… |
+| [`Defence Strategy Planner`](skills/defence-strategy-planner-rohasnagpal/) | Builds a lawful, evidence-led criminal defence theory and action plan. Use when preparing a case strategy,… |
+| [`Interview Summary`](skills/interview-summary/) | Generates structured summaries of witness or subject interviews for criminal defense investigations. Distills… |
+| [`Police Report Summary`](skills/police-report-summary/) | Summarizes police reports and incident documentation into structured, source-attributed legal work product.… |
+| [`Sentencing Analyst`](skills/sentencing-analyst-rohasnagpal/) | Analyses lawful sentencing ranges, aggravating and mitigating factors, evidence and realistic scenarios. Use… |
+| [`Traffic Law Enforcement Summary`](skills/traffic-enforcement-summary/) | Generates structured summaries of traffic law enforcement data covering DUI metrics, violation trends,… |
 
 ## Cold-start context
 

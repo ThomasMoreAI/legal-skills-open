@@ -6,27 +6,27 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 
 ## Skills (19)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aussenwirtschaft-aml-kyc-sanktionen`](skills/aussenwirtschaft-aml-kyc-sanktionen/) | `white-collar` |
-| [`geldwaesche-audit-internal-revision`](skills/geldwaesche-audit-internal-revision/) | `white-collar` |
-| [`geldwaesche-behoerdenverfahren`](skills/geldwaesche-behoerdenverfahren/) | `white-collar` |
-| [`geldwaesche-bussgeld-reputation`](skills/geldwaesche-bussgeld-reputation/) | `white-collar` |
-| [`geldwaesche-datenqualitaet-register`](skills/geldwaesche-datenqualitaet-register/) | `white-collar` |
-| [`geldwaesche-immobilien-gueterhaendler`](skills/geldwaesche-immobilien-gueterhaendler/) | `white-collar` |
-| [`geldwaesche-kommandocenter`](skills/geldwaesche-kommandocenter/) | `white-collar` |
-| [`geldwaesche-krypto-zahlungsdienstleister`](skills/geldwaesche-krypto-zahlungsdienstleister/) | `white-collar` |
-| [`geldwaesche-kyc-onboarding`](skills/geldwaesche-kyc-onboarding/) | `white-collar` |
-| [`geldwaesche-pep-hochrisikoland`](skills/geldwaesche-pep-hochrisikoland/) | `white-collar` |
-| [`geldwaesche-risikoanalyse-unternehmen`](skills/geldwaesche-risikoanalyse-unternehmen/) | `white-collar` |
-| [`geldwaesche-schulung-awareness`](skills/geldwaesche-schulung-awareness/) | `white-collar` |
-| [`geldwaesche-sicherungsmassnahmen-icp`](skills/geldwaesche-sicherungsmassnahmen-icp/) | `white-collar` |
-| [`geldwaesche-simulation-testlauf`](skills/geldwaesche-simulation-testlauf/) | `white-collar` |
-| [`geldwaesche-transaktionsmonitoring`](skills/geldwaesche-transaktionsmonitoring/) | `white-collar` |
-| [`geldwaesche-ubo-wirtschaftlich-berechtigte`](skills/geldwaesche-ubo-wirtschaftlich-berechtigte/) | `white-collar` |
-| [`geldwaesche-verdachtsmeldung-fiu-goaml`](skills/geldwaesche-verdachtsmeldung-fiu-goaml/) | `white-collar` |
-| [`geldwaesche-verpflichteten-check`](skills/geldwaesche-verpflichteten-check/) | `white-collar` |
-| [`kyc-aml-geldwaesche`](skills/kyc-aml-geldwaesche/) | `white-collar` |
+| [`AML, KYC und Sanktions-Compliance`](skills/aussenwirtschaft-aml-kyc-sanktionen/) | Verknuepft GwG-Risikoanalyse KYC Sanktionsscreening und interne Kontrollpflichten im Aussenhandel.… |
+| [`Audit und interne Revision`](skills/geldwaesche-audit-internal-revision/) | Interne Revision und Audit der AML/KYC-Kontrollen nach GwG. Anwendungsfall Compliance-Beauftragter oder… |
+| [`Aufsicht, Prüfung und Behördenverfahren`](skills/geldwaesche-behoerdenverfahren/) | Begleitung von Behoerdenverfahren BaFin-Prüfungen FIU-Nachfragen und Massnahmenbescheiden. Anwendungsfall… |
+| [`Bußgeld, Haftung und Reputation`](skills/geldwaesche-bussgeld-reputation/) | Strukturierung von Bußgeldriskien Geschäftsleiterhaftung und Reputationsschaeden bei GwG-Verstoessen.… |
+| [`Datenqualität, Register und Screening-Tools`](skills/geldwaesche-datenqualitaet-register/) | Prüft Datenqualitaet im KYC-System und Transparenzregister-Abgleich. Anwendungsfall KYC-Daten enthalten… |
+| [`Immobilien, Güterhandel und Nichtfinanzsektor`](skills/geldwaesche-immobilien-gueterhaendler/) | AML/KYC-Prüfung für Immobilienmakler Gueterhaendler Kunsthandel Edelmetalle und sonstige… |
+| [`AML/KYC-Kommandocenter`](skills/geldwaesche-kommandocenter/) | Kommandocenter für alle Geldwäsche- KYC- Sanktions- und Behoerdenfaelle vom Intake bis zum Massnahmenplan.… |
+| [`Krypto, Zahlungsdienste und FinTech`](skills/geldwaesche-krypto-zahlungsdienstleister/) | AML/KYC-Prüfung für Krypto-Assets Wallets Travel Rule und Zahlungsdienstleister. Anwendungsfall… |
+| [`KYC-Onboarding und Kundenprüfung`](skills/geldwaesche-kyc-onboarding/) | KYC-Onboarding neuer Kunden mit Identifizierung Risikoklassifizierung und Freigabe nach GwG. Anwendungsfall… |
+| [`PEP, Hochrisikoland und verstärkte Sorgfalt`](skills/geldwaesche-pep-hochrisikoland/) | Verstaerkte KYC-Prüfung für PEP politisch exponierte Personen Hochrisikolaender und komplexe Strukturen nach… |
+| [`Unternehmensweite Risikoanalyse`](skills/geldwaesche-risikoanalyse-unternehmen/) | Risikobasierte AML/CFT-Risikoanalyse nach § 5 GwG für Verpflichtete. Anwendungsfall Unternehmen muss… |
+| [`Schulung und Awareness`](skills/geldwaesche-schulung-awareness/) | Zielgruppengerechte AML/KYC-Schulungen und Awareness-Massnahmen nach § 6 Abs. 2 Nr. 6 GwG. Anwendungsfall… |
+| [`Interne Sicherungsmaßnahmen und ICP`](skills/geldwaesche-sicherungsmassnahmen-icp/) | Aufbau und Haertung interner Sicherungsmassnahmen ICP nach § 6 GwG. Anwendungsfall Verpflichteter muss ICP… |
+| [`AML/KYC-Simulationsmodus`](skills/geldwaesche-simulation-testlauf/) | Simulation eines Compliance-Arbeitstags mit Onboarding Alerts Verdachtsprüfung und Behoerdenfragen.… |
+| [`Transaktionsmonitoring und Red Flags`](skills/geldwaesche-transaktionsmonitoring/) | Erkennung auffälliger Transaktionsmuster und Red-Flags im Zahlungsverkehr nach GwG. Anwendungsfall Bank oder… |
+| [`Wirtschaftlich Berechtigte und UBO`](skills/geldwaesche-ubo-wirtschaftlich-berechtigte/) | Ermittlung wirtschaftlich Berechtigter UBO Kontrollketten und Trust-Stiftungsstrukturen nach GwG.… |
+| [`Verdachtsmeldung an FIU/goAML`](skills/geldwaesche-verdachtsmeldung-fiu-goaml/) | Vorbereitung und Einreichung von Verdachtsmeldungen nach § 43 GwG über goAML-Portal an die FIU.… |
+| [`Verpflichtetenstatus nach GwG`](skills/geldwaesche-verpflichteten-check/) | Prüft ob und in welcher Rolle ein Unternehmen oder Berufsstraeger nach GwG verpflichtet ist. Anwendungsfall… |
+| [`KYC / AML / Geldwäscheprävention`](skills/kyc-aml-geldwaesche/) | KYC- und AML-Anforderungen bei Wandeldarlehensmandat prüfen wenn Investor oder Darlehensgeberin auftritt. §§… |
 
 ## Cold-start context
 

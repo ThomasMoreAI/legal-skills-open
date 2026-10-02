@@ -8,8 +8,8 @@ Jurisdiction: `ua` · Practice: `arbitration` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine, appli… |
-| [`fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП Укра… |
+| [`applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine,… |
+| [`fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП… |
 
 ## Cold-start context
 

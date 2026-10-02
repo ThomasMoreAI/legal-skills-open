@@ -6,10 +6,10 @@ Jurisdiction: `us` · Practice: `maritime` · Skill language varies per skill (s
 
 ## Skills (2)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`bill-of-lading`](skills/bill-of-lading/) | `maritime` |
-| [`maritime-case-summary`](skills/maritime-case-summary/) | `maritime` |
+| [`Bill of Lading`](skills/bill-of-lading/) | Drafts a U.S. ocean Bill of Lading (B/L) functioning as receipt, contract of carriage, and document of title… |
+| [`Maritime Case Summary`](skills/maritime-case-summary/) | Produces structured summaries of maritime law cases covering admiralty jurisdiction, collisions, liens,… |
 
 ## Cold-start context
 

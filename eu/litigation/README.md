@@ -8,6 +8,6 @@ Jurisdiction: `eu` · Practice: `litigation` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`EU-Vorabentscheidung prüfen (Art. 267 AEUV)`](skills/eu-vorabentscheidung-pruefen/) | Prüft die Voraussetzungen des Vorabentscheidungsersuchens nach Art. 267 AEUV: Vorlagebefugnis und -pflicht, CI… |
-| [`EuGH-Klagearten und Rechtsschutz`](skills/europarecht-klagearten-eugh/) | Klagemoglichkeiten vor dem EuGH und EuG einordnen und Zulassigkeitsvoraussetzungen prüfen. Art. 263 265 268 34… |
-| [`Nationales Verfahren und Effektivität`](skills/europarecht-nationales-verfahren-effektivitaet/) | EU-Rechtsvorgaben zum effektiven nationalen Rechtsschutz prüfen wenn nationales Verfahren EU-Rechte beeintraec… |
+| [`EU-Vorabentscheidung prüfen (Art. 267 AEUV)`](skills/eu-vorabentscheidung-pruefen/) | Prüft die Voraussetzungen des Vorabentscheidungsersuchens nach Art. 267 AEUV: Vorlagebefugnis und -pflicht,… |
+| [`EuGH-Klagearten und Rechtsschutz`](skills/europarecht-klagearten-eugh/) | Klagemoglichkeiten vor dem EuGH und EuG einordnen und Zulassigkeitsvoraussetzungen prüfen. Art. 263 265 268… |
+| [`Nationales Verfahren und Effektivität`](skills/europarecht-nationales-verfahren-effektivitaet/) | EU-Rechtsvorgaben zum effektiven nationalen Rechtsschutz prüfen wenn nationales Verfahren EU-Rechte… |

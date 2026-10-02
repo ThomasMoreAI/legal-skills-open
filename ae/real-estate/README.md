@@ -8,7 +8,7 @@ Jurisdiction: `ae` · Practice: `real-estate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Compliance & RERA Guardian Agent`](skills/real-estate-compliance-rera-guardian/) | Expert UAE real estate compliance agent ensuring all brokerage operations, outreach campaigns, property tran… |
+| [`Compliance & RERA Guardian Agent`](skills/real-estate-compliance-rera-guardian/) | Expert UAE real estate compliance agent ensuring all brokerage operations, outreach campaigns, property… |
 
 ## Cold-start context
 

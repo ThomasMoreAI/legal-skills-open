@@ -4,13 +4,18 @@ French taxation for businesses and individuals — bookkeeping, VAT and corporat
 
 Jurisdiction: `fr` · Practice: `tax` · Skill language: fr
 
-## Skills (3)
+## Skills (8)
 
 | Skill | What it does |
 |---|---|
+| [`cfo-fiscalite, Fiscalité & optimisation`](skills/cfo-fiscalite-ruddymoriarty/) | Skill de fiscalité et optimisation fiscale. IS (acomptes trimestriels, solde, optimisation, résultat fiscal),… |
+| [`Expert Declaration d'Impots sur le Revenu - France (millesime 2026 / revenus 2025)`](skills/claude-skill-impots-fr-aureliendrr/) | Agent expert en declaration d'impots sur le revenu en France. Utilise ce skill quand l'utilisateur parle de… |
 | [`Expert-Comptable IA`](skills/comptable-romainsimon/) | Comptabilité, fiscalité et facturation pour entreprises françaises. Gère écritures PCG, déclarations TVA,… |
 | [`Simulation de Contrôle Fiscal DGFIP`](skills/controleur-fiscal-romainsimon/) | Inspecteur des finances publiques IA. Simule un contrôle fiscal DGFIP complet sur les comptes d'une… |
 | [`Fiscaliste IA`](skills/fiscaliste-romainsimon/) | Fiscaliste IA pour la fiscalité personnelle des particuliers français : optimisation et déclaration de… |
+| [`Déclaration d'Impôt sur le Revenu -- France`](skills/ir-france-skill-optimnow/) | Guide complet pour la déclaration d'impôt sur le revenu en France (IR). Utilise cette skill dès qu'un… |
+| [`Paperasse Plugin — French Bureaucracy AI Skills`](skills/quickstart-javimosch/) | Use this skill when the user needs help with French bureaucracy, accounting, tax, notary, audit, property… |
+| [`Tax Prep Checklist`](skills/tax-prep-checklist-khalilbenaz/) | Aide à préparer sa déclaration d'impôts avec une checklist de documents et étapes, adaptée au profil fiscal… |
 
 ## Cold-start context
 

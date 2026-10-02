@@ -6,9 +6,9 @@ Jurisdiction: `at` · Practice: `government-contracts` · Skill language varies 
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-at-bvergg`](skills/arckit-at-bvergg/) | `government-contracts` |
+| [`User Input`](skills/arckit-at-bvergg/) | [COMMUNITY] Generate Austrian public procurement documentation aligned with Bundesvergabegesetz 2018 —… |
 
 ## Cold-start context
 

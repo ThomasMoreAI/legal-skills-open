@@ -8,7 +8,7 @@ Jurisdiction: `mx` · Practice: `litigation` · Skill language: es
 
 | Skill | What it does |
 |---|---|
-| [`Asistente de escritos civiles mexicanos`](skills/escritos-civiles-mx/) | Genera primer borrador estructurado de escritos civiles mexicanos (demanda, contestación, recurso, promoción… |
+| [`Asistente de escritos civiles mexicanos`](skills/escritos-civiles-mx/) | Genera primer borrador estructurado de escritos civiles mexicanos (demanda, contestación, recurso, promoción,… |
 
 ## Cold-start context
 

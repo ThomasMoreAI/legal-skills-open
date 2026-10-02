@@ -6,9 +6,9 @@ Jurisdiction: `cn` · Practice: `administrative` · Skill language varies per sk
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`admin-review`](skills/admin-review/) | `administrative` |
+| [`行政案件文书程序合规性审查`](skills/admin-review/) | Reviews administrative case documents for procedural compliance across 38 checkpoints, covering filing,… |
 
 ## Cold-start context
 

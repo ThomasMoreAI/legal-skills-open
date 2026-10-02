@@ -8,7 +8,7 @@ Jurisdiction: `tr` · Practice: `commercial` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`/escalation-flagger`](skills/escalation-flagger-zekaisuni/) | Route a contract issue to the right approver per the escalation matrix in the commercial practice profile, w… |
+| [`/escalation-flagger`](skills/escalation-flagger-zekaisuni/) | Route a contract issue to the right approver per the escalation matrix in the commercial practice profile,… |
 | [`Tedarikçi Sözleşmesi İncelemesi`](skills/vendor-agreement-review-zekaisuni/) | Reference: review an inbound vendor, services, MSA, or commercial agreement against the Turkish-law adapted… |
 
 ## Cold-start context

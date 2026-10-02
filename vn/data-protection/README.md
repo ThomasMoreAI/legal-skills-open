@@ -4,11 +4,12 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `vn` · Practice: `data-protection` · Skill language: vi
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`Tuân thủ & Pháp lý (Legal & Compliance Checklists)`](skills/compliance-checklists-viethahong/) | Kích hoạt khi người dùng muốn: Kiểm tra tính tuân thủ pháp lý của website/ứng dụng, soạn thảo Điều khoản dịc… |
+| [`Tuân thủ & Pháp lý (Legal & Compliance Checklists)`](skills/compliance-checklists-viethahong/) | Kích hoạt khi người dùng muốn: Kiểm tra tính tuân thủ pháp lý của website/ứng dụng, soạn thảo Điều khoản dịch… |
+| [`Vietnam Personal Data Protection Law (PDPL) Skill`](skills/vn-pdpl-sushegaad/) | Expert Vietnam Personal Data Protection Law (PDPL) compliance advisor for Law No. 91/2025/QH15 and… |
 
 ## Cold-start context
 

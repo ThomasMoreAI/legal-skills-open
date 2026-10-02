@@ -4,11 +4,13 @@ Construction contracts, payment and lien rights, project delivery, and defect cl
 
 Jurisdiction: `general` · Practice: `construction` · Skill language: en
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`EPC Contract`](skills/epc-contract/) | Drafts turnkey Engineering, Procurement, and Construction (EPC) contracts for industrial facility projects. |
+| [`Claims Documentation`](skills/claims-documentation/) | Document construction claims for disputes and recovery. Compile evidence, calculate damages, track notice… |
+| [`Contract Clause Analyzer`](skills/contract-clause-analyzer/) | Analyze construction contract clauses. Identify risks, obligations, and key terms using NLP. |
+| [`EPC Contract`](skills/epc-contract/) | Drafts turnkey Engineering, Procurement, and Construction (EPC) contracts for industrial facility projects.… |
 
 ## Cold-start context
 

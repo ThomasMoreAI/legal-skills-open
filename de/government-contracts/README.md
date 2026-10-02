@@ -6,15 +6,15 @@ Jurisdiction: `de` · Practice: `government-contracts` · Skill language varies 
 
 ## Skills (7)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`fachanwalt-vergaberecht-eignungspruefung`](skills/fachanwalt-vergaberecht-eignungspruefung/) | `government-contracts` |
-| [`fachanwalt-vergaberecht-nachpruefungsantrag-vk`](skills/fachanwalt-vergaberecht-nachpruefungsantrag-vk/) | `government-contracts` |
-| [`fachanwalt-vergaberecht-orientierung`](skills/fachanwalt-vergaberecht-orientierung/) | `government-contracts` |
-| [`fachanwalt-vergaberecht-ruege-vor-zuschlag`](skills/fachanwalt-vergaberecht-ruege-vor-zuschlag/) | `government-contracts` |
-| [`mandat-triage-vergaberecht`](skills/mandat-triage-vergaberecht/) | `government-contracts` |
-| [`ruegeschriftsatz-erstellen`](skills/ruegeschriftsatz-erstellen/) | `government-contracts` |
-| [`vergabe-nachpruefung-aussicht`](skills/vergabe-nachpruefung-aussicht/) | `government-contracts` |
+| [`Eignungsprüfung`](skills/fachanwalt-vergaberecht-eignungspruefung/) | Bieter-Eignungsprüfung im Vergabeverfahren prüfen: Bieter wurde ausgeschlossen oder will Eignung nachweisen.… |
+| [`Nachprüfungsantrag VK`](skills/fachanwalt-vergaberecht-nachpruefungsantrag-vk/) | Nachprüfungsantrag bei der Vergabekammer nach §§ 160 ff. GWB stellen: Bieter ist unzulässig ausgeschlossen… |
+| [`Fachanwalt für Vergaberecht — Orientierung`](skills/fachanwalt-vergaberecht-orientierung/) | Orientierung im Fachanwaltsrecht Vergaberecht: FAO-Voraussetzungen, EU-Schwellen, Nachprüfungsverfahren,… |
+| [`Rüge vor Zuschlag`](skills/fachanwalt-vergaberecht-ruege-vor-zuschlag/) | Vergaberechtliche Ruege nach § 160 Abs. 3 GWB vor Zuschlag erheben: Bieter hat Vergabeverstoesse erkannt und… |
+| [`Mandat-Triage Vergaberecht`](skills/mandat-triage-vergaberecht/) | Eingangs-Triage für vergaberechtliche Mandate: Mandantenrolle, Schwellenwert, Verfahrensstand und… |
+| [`Rügeschriftsatz nach § 160 Abs. 3 GWB`](skills/ruegeschriftsatz-erstellen/) | Ruegeschriftsatz nach § 160 Abs. 3 GWB als Pflichtvoraussetzung jeder Vergabenachprüfung. Adressat… |
+| [`Vergabe-Nachprüfung — Erfolgs-Aussichten`](skills/vergabe-nachpruefung-aussicht/) | Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten… |
 
 ## Cold-start context
 

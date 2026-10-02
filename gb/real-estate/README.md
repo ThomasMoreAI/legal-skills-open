@@ -8,7 +8,7 @@ Jurisdiction: `gb` · Practice: `real-estate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Restrictive Covenant Advisor`](skills/restrictive-covenant-advisor/) | Assess the impact and enforceability of restrictive covenants on freehold property. Use when a conveyancer o… |
+| [`Restrictive Covenant Advisor`](skills/restrictive-covenant-advisor/) | Assess the impact and enforceability of restrictive covenants on freehold property. Use when a conveyancer or… |
 | [`SDLT Calculator`](skills/sdlt-calculator/) | Calculate UK Stamp Duty Land Tax (SDLT) for residential property purchases in England and Northern Ireland.… |
 | [`uk_lease_tenant_analysis_translation`](skills/uk-lease-tenant-analysis-translation/) | 依据英国商业法律，代表租户利益分析租赁条款的合理性、公平性及潜在风险，并提供准确的英中法律翻译。 |
 

@@ -6,12 +6,12 @@ Jurisdiction: `fr` · Practice: `cybersecurity` · Skill language varies per ski
 
 ## Skills (4)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-fr-anssi`](skills/arckit-fr-anssi/) | `cybersecurity` |
-| [`arckit-fr-ebios`](skills/arckit-fr-ebios/) | `cybersecurity` |
-| [`arckit-fr-pssi`](skills/arckit-fr-pssi/) | `cybersecurity` |
-| [`arckit-fr-secnumcloud`](skills/arckit-fr-secnumcloud/) | `cybersecurity` |
+| [`User Input`](skills/arckit-fr-anssi/) | [COMMUNITY] Assess compliance with ANSSI security recommendations — Guide d'hygiène informatique (42… |
+| [`User Input`](skills/arckit-fr-ebios/) | [COMMUNITY] Conduct an EBIOS Risk Manager risk analysis study following the ANSSI methodology — five… |
+| [`User Input`](skills/arckit-fr-pssi/) | [COMMUNITY] Generate an Information System Security Policy (PSSI) for French public or private organisations… |
+| [`User Input`](skills/arckit-fr-secnumcloud/) | [COMMUNITY] Assess SecNumCloud 3.2 qualification compliance for French sovereign cloud procurement and… |
 
 ## Cold-start context
 

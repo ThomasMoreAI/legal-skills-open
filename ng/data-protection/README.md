@@ -8,7 +8,7 @@ Jurisdiction: `ng` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Nigeria Data Protection Regulation (NDPR) and Nigeria Data Protection Act (NDPA)`](skills/nigeria-ndpr/) | Nigeria Data Protection Regulation (NDPR) and Nigeria Data Protection Act (NDPA) 2023 compliance. Covers law… |
+| [`Nigeria Data Protection Regulation (NDPR) and Nigeria Data Protection Act (NDPA)`](skills/nigeria-ndpr/) | Nigeria Data Protection Regulation (NDPR) and Nigeria Data Protection Act (NDPA) 2023 compliance. Covers… |
 
 ## Cold-start context
 

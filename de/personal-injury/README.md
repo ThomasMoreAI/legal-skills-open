@@ -8,12 +8,12 @@ Jurisdiction: `de` · Practice: `personal-injury` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`Aufklärungsfehler — Beweisstrategie`](skills/aufklaerungsfehler-beweisstrategie/) | Workflow-Skill zu aufklaerungsfehler beweisstrategie. Nutzt Normtext, Nutzerangaben und verifizierte Quellen… |
-| [`Behandlungsfehler-Anspruch prüfen`](skills/behandlungsfehler-anspruch-pruefen/) | Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff. BGB iVm § 823 BGB. Behandlungs… |
+| [`Aufklärungsfehler — Beweisstrategie`](skills/aufklaerungsfehler-beweisstrategie/) | Workflow-Skill zu aufklaerungsfehler beweisstrategie. Nutzt Normtext, Nutzerangaben und verifizierte Quellen;… |
+| [`Behandlungsfehler-Anspruch prüfen`](skills/behandlungsfehler-anspruch-pruefen/) | Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff. BGB iVm § 823 BGB.… |
 | [`Aufklärungsfehler`](skills/fachanwalt-medizinrecht-aufklaerungsfehler/) | Workflow-Skill zu fachanwalt medizinrecht aufklaerungsfehler. Nutzt Normtext, Nutzerangaben und verifizierte… |
-| [`Behandlungsfehler prüfen`](skills/fachanwalt-medizinrecht-behandlungsfehler-pruefen/) | Behandlungsfehler §§ 630a 630h BGB Verletzung medizinischer Standard. Diagnosefehler Therapiefehler Befunder… |
-| [`Unfall-Haftungsquote berechnen`](skills/unfall-haftungsquote-berechnen/) | Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten koennen geltend gemach… |
-| [`Verkehrsunfall – Haftung, Schaden und Schadensausgleich`](skills/verkehrsunfall/) | Verkehrsunfall-Mandat im Zivilprozess vorbereiten: Schadensersatz, Schmerzensgeld, Versicherungskorresponden… |
+| [`Behandlungsfehler prüfen`](skills/fachanwalt-medizinrecht-behandlungsfehler-pruefen/) | Behandlungsfehler §§ 630a 630h BGB Verletzung medizinischer Standard. Diagnosefehler Therapiefehler… |
+| [`Unfall-Haftungsquote berechnen`](skills/unfall-haftungsquote-berechnen/) | Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten koennen geltend gemacht… |
+| [`Verkehrsunfall – Haftung, Schaden und Schadensausgleich`](skills/verkehrsunfall/) | Verkehrsunfall-Mandat im Zivilprozess vorbereiten: Schadensersatz, Schmerzensgeld,… |
 
 ## Cold-start context
 

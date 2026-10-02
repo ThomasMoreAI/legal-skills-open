@@ -6,9 +6,9 @@ Jurisdiction: `ca` · Practice: `constitutional` · Skill language varies per sk
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-ca-charter`](skills/arckit-ca-charter/) | `constitutional` |
+| [`User Request`](skills/arckit-ca-charter/) | [COMMUNITY] Generate a Canada Charter rights design review — s.2 (expression and association), s.7 (life,… |
 
 ## Cold-start context
 

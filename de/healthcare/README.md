@@ -8,9 +8,9 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`Kassenarztrecht`](skills/fachanwalt-medizinrecht-kassenarztrecht/) | Kassenarztrecht Vertragsarztzulassung und KV-Streitigkeiten: Anwendungsfall Arzt beantragt Vertragsarztzulas… |
-| [`Fachanwalt für Medizinrecht — Orientierung`](skills/fachanwalt-medizinrecht-orientierung/) | Orientierung im Medizinrecht — FAO Voraussetzungen Normen typische Mandate Fristen verifizierbare Quellen. A… |
-| [`Mandat-Triage Medizinrecht`](skills/mandat-triage-medizinrecht/) | Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate. Klaert Mandantenrolle (Patient Arzt Krankenhau… |
+| [`Kassenarztrecht`](skills/fachanwalt-medizinrecht-kassenarztrecht/) | Kassenarztrecht Vertragsarztzulassung und KV-Streitigkeiten: Anwendungsfall Arzt beantragt… |
+| [`Fachanwalt für Medizinrecht — Orientierung`](skills/fachanwalt-medizinrecht-orientierung/) | Orientierung im Medizinrecht — FAO Voraussetzungen Normen typische Mandate Fristen verifizierbare Quellen.… |
+| [`Mandat-Triage Medizinrecht`](skills/mandat-triage-medizinrecht/) | Strukturierte Eingangs-Abfrage für medizinrechtliche Mandate. Klaert Mandantenrolle (Patient Arzt Krankenhaus… |
 
 ## Cold-start context
 
