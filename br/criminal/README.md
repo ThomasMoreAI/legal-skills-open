@@ -8,7 +8,7 @@ Jurisdiction: `br` · Practice: `criminal` · Skill language: pt
 
 | Skill | What it does |
 |---|---|
-| [`ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA`](skills/advogado-criminal/) | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal brasi… |
+| [`ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA`](skills/advogado-criminal/) | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal… |
 | [`Assessor Judicial — Processo Penal`](skills/analise-processo-penal/) | Assessoria judicial completa para processos penais. Use esta skill sempre que o usuario pedir para analisar… |
 | [`Representacoes Cautelares`](skills/representacoes-cautelares/) | Redacao de representacoes cautelares policiais e pedidos judiciais investigativos, com organizacao de fatos,… |
 

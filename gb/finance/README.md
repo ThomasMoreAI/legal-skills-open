@@ -8,7 +8,7 @@ Jurisdiction: `gb` · Practice: `finance` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Lender's Handbook Pre-Screen`](skills/lenders-handbook-prescreen/) | Exhaustive UK Finance Lender's Handbook Part 1 pre-screen for residential mortgage transactions. Use when as… |
+| [`Lender's Handbook Pre-Screen`](skills/lenders-handbook-prescreen/) | Exhaustive UK Finance Lender's Handbook Part 1 pre-screen for residential mortgage transactions. Use when… |
 
 ## Cold-start context
 

@@ -4,11 +4,13 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (1)
+## Skills (3)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`cyber-incident-response-72h`](skills/cyber-incident-response-72h/) | `cybersecurity` |
+| [`Cyber-Incident-Response 72 Stunden`](skills/cyber-incident-response-72h/) | Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat. Anwendungsfall… |
+| [`/it-recht:it-sicherheit-meldepflichten`](skills/it-sicherheit-meldepflichten-borghei/) | Prüfung der IT-Sicherheits- und Meldepflichten von KRITIS-Betreibern und NIS2-Einrichtungen nach dem BSIG… |
+| [`TISAX — Trusted Information Security Assessment Exchange`](skills/tisax-sushegaad/) | Expert TISAX (Trusted Information Security Assessment Exchange) advisor for the automotive supply chain — the… |
 
 ## Cold-start context
 

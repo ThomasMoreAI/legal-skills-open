@@ -8,7 +8,7 @@ Jurisdiction: `gb` · Practice: `contracts` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`/slo-legal — UK legal advisor + first-cut document drafter`](skills/slo-legal/) | Use this skill when a UK seed-stage founder needs first-cut legal documents (NDA, contractor SOW, IP assignm… |
+| [`/slo-legal — UK legal advisor + first-cut document drafter`](skills/slo-legal/) | Use this skill when a UK seed-stage founder needs first-cut legal documents (NDA, contractor SOW, IP… |
 
 ## Cold-start context
 

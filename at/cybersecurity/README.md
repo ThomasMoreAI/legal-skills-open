@@ -6,9 +6,9 @@ Jurisdiction: `at` · Practice: `cybersecurity` · Skill language varies per ski
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-at-nisg`](skills/arckit-at-nisg/) | `cybersecurity` |
+| [`User Input`](skills/arckit-at-nisg/) | [COMMUNITY] Assess Austrian NISG obligations (BGBl. I Nr. 94/2025) — AT transposition of NIS2, BKA (GovCERT)… |
 
 ## Cold-start context
 

@@ -8,10 +8,10 @@ Jurisdiction: `ua` · Practice: `administrative` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`applying-cnap-passport`](skills/applying-cnap-passport/) | Use when navigating Ukrainian passport procedures at ЦНАП or ДП «Документ» — ID-картка, закордонний паспорт,… |
-| [`applying-consular-procedures`](skills/applying-consular-procedures/) | Use when navigating Ukrainian consular procedures abroad — паспорт, свідоцтво на повернення, civil-status a… |
-| [`applying-servisnyi-centr-mvs`](skills/applying-servisnyi-centr-mvs/) | Use when navigating Ukrainian сервісні центри МВС — водійські посвідчення, перереєстрація ТЗ, документи, ва… |
-| [`determining-ua-request-regime`](skills/determining-ua-request-regime/) | Use when choosing the Ukrainian legal regime for letters, requests, applications, and complaints to authori… |
+| [`applying-cnap-passport`](skills/applying-cnap-passport/) | Use when navigating Ukrainian passport procedures at ЦНАП or ДП «Документ» — ID-картка (вперше, обмін у… |
+| [`applying-consular-procedures`](skills/applying-consular-procedures/) | Use when navigating Ukrainian consular procedures abroad (ГКУ, ПКУ, почесні консульства) — закордонний… |
+| [`applying-servisnyi-centr-mvs`](skills/applying-servisnyi-centr-mvs/) | Use when navigating Ukrainian сервісні центри МВС (СЦ МВС) — водійські посвідчення (видача, обмін, відкриття… |
+| [`determining-ua-request-regime`](skills/determining-ua-request-regime/) | Use when choosing the Ukrainian legal regime for letters, requests, applications, complaints, consular status… |
 
 ## Cold-start context
 

@@ -8,17 +8,17 @@ Jurisdiction: `de` · Practice: `finance` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`Anlageberatungsfehler prüfen`](skills/anlageberatungsfehler-pruefen/) | Workflow-Skill zu anlageberatungsfehler pruefen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rec… |
-| [`Darlehensbetrag und Konditionen`](skills/darlehenshoehe-konditionen/) | Darlehenshoehe Zinsen Laufzeit und Konditionen für Wandeldarlehen verhandeln und dokumentieren. §§ 488 491 B… |
-| [`Projektfinanzierung Energie`](skills/energierecht-projektfinanzierung/) | Projektfinanzierung für Energieanlagen strukturieren: Darlehen, Sicherheiten, Ratinganforderungen. Normen: E… |
+| [`Anlageberatungsfehler prüfen`](skills/anlageberatungsfehler-pruefen/) | Workflow-Skill zu anlageberatungsfehler pruefen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen;… |
+| [`Darlehensbetrag und Konditionen`](skills/darlehenshoehe-konditionen/) | Darlehenshoehe Zinsen Laufzeit und Konditionen für Wandeldarlehen verhandeln und dokumentieren. §§ 488 491… |
+| [`Projektfinanzierung Energie`](skills/energierecht-projektfinanzierung/) | Projektfinanzierung für Energieanlagen strukturieren: Darlehen, Sicherheiten, Ratinganforderungen. Normen:… |
 | [`Anlageberatung fehlerhaft`](skills/fachanwalt-bank-kapitalmarktrecht-anlageberatung-fehlerhaft/) | Workflow-Skill zu fachanwalt bank kapitalmarktrecht anlageberatung fehlerhaft. Nutzt Normtext, Nutzerangaben… |
-| [`Kreditkündigung`](skills/fachanwalt-bank-kapitalmarktrecht-kreditkuendigung/) | Workflow-Skill zu fachanwalt bank kapitalmarktrecht kreditkuendigung. Nutzt Normtext, Nutzerangaben und veri… |
-| [`Fachanwalt für Bank- und Kapitalmarktrecht — Orientierung`](skills/fachanwalt-bank-kapitalmarktrecht-orientierung/) | Anwalt will Fachanwaltschaft Bank-Kapitalmarktrecht erwerben oder Mandat bearbeiten und braucht Normen-Überb… |
+| [`Kreditkündigung`](skills/fachanwalt-bank-kapitalmarktrecht-kreditkuendigung/) | Workflow-Skill zu fachanwalt bank kapitalmarktrecht kreditkuendigung. Nutzt Normtext, Nutzerangaben und… |
+| [`Fachanwalt für Bank- und Kapitalmarktrecht — Orientierung`](skills/fachanwalt-bank-kapitalmarktrecht-orientierung/) | Anwalt will Fachanwaltschaft Bank-Kapitalmarktrecht erwerben oder Mandat bearbeiten und braucht… |
 | [`Forderungsverzicht mit Besserungsschein`](skills/forderungsverzicht-besserungsschein/) | Erzeugt eine Forderungsverzichtsvereinbarung mit Besserungsschein. Gläubiger verzichtet auf Forderung — bei… |
-| [`Mandat-Triage Bank- und Kapitalmarktrecht`](skills/mandat-triage-bank-kapitalmarktrecht/) | Bank- oder Kapitalmarktrechts-Mandat trifft ein und muss strukturiert erfasst werden: Sachgebiet Mandantenro… |
-| [`Phishing-Vorfall Prüfen`](skills/phishing-vorfall-pruefen/) | Prüft Phishing-Vorfall im Online-Banking oder Zahlungsverkehr auf Erstattungsansprüche gegen Zahlungsdienstl… |
-| [`Stundungsanfrage Gläubiger`](skills/stundungsanfrage-glaeubiger/) | Erzeugt Stundungsanfragen an Gläubiger (Lieferanten Bank Vermieter Steueramt Sozialversicherungstraeger). Er… |
-| [`Wandelereignis – Eingang Wandlungserklärung`](skills/wandelereignis-eingang/) | Eingehende Wandelereignis-Notification prüfen und naechste Schritte bestimmen wenn Investor Wandlung ankündi… |
+| [`Mandat-Triage Bank- und Kapitalmarktrecht`](skills/mandat-triage-bank-kapitalmarktrecht/) | Bank- oder Kapitalmarktrechts-Mandat trifft ein und muss strukturiert erfasst werden: Sachgebiet… |
+| [`Phishing-Vorfall Prüfen`](skills/phishing-vorfall-pruefen/) | Prüft Phishing-Vorfall im Online-Banking oder Zahlungsverkehr auf Erstattungsansprüche gegen… |
+| [`Stundungsanfrage Gläubiger`](skills/stundungsanfrage-glaeubiger/) | Erzeugt Stundungsanfragen an Gläubiger (Lieferanten Bank Vermieter Steueramt Sozialversicherungstraeger).… |
+| [`Wandelereignis – Eingang Wandlungserklärung`](skills/wandelereignis-eingang/) | Eingehende Wandelereignis-Notification prüfen und naechste Schritte bestimmen wenn Investor Wandlung… |
 | [`Wandlungsprüfung – Trigger Qualified Financing`](skills/wandlungspruefung-trigger-qualified-financing/) | Wandlung bei qualifizierter Finanzierungsrunde prüfen wenn neue Investitionsrunde als Trigger definiert ist.… |
 | [`Widerrufsjoker bei Immobiliendarlehen`](skills/widerrufsjoker-immobiliendarlehen/) | Workflow-Skill zu widerrufsjoker immobiliendarlehen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen;… |
 

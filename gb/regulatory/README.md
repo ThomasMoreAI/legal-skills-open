@@ -4,12 +4,11 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `gb` · Practice: `regulatory` · Skill language: en
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`Draft British Statutory Instruments`](skills/draft-british-statutory-instruments/) | Drafts hypothetical British Statutory Instruments, Regulations, or Byelaws using formal UK legal language an… |
-| [`MP Dig`](skills/mp-dig/) | Investigate a UK Member of Parliament. Pulls financial interests, voting record, Hansard contributions, and… |
+| [`Draft British Statutory Instruments`](skills/draft-british-statutory-instruments/) | Drafts hypothetical British Statutory Instruments, Regulations, or Byelaws using formal UK legal language and… |
 
 ## Cold-start context
 

@@ -4,11 +4,16 @@ Residence, work, and citizenship procedures for foreigners (cudzoziemcy).
 
 Jurisdiction: `pl` · Practice: `immigration` · Skill language: pl
 
-## Skills (1)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
-| [`applying-cudzoziemcy-procedures`](skills/applying-cudzoziemcy-procedures/) | Use when navigating Polish residence / work / citizenship procedures — pobyt czasowy/stały, zezwolenie na p… |
+| [`applying-cudzoziemcy-procedures`](skills/applying-cudzoziemcy-procedures/) | Use when navigating Polish immigration / residence / work procedures — pobyt czasowy (art. 98, 114, 127, 144,… |
+| [`Poland Citizenship and Long-Term Status`](skills/poland-citizenship-long-term-xopoko/) | Long-term status. Use for Polish permanent residence, EU long-term resident status, or citizenship routes;… |
+| [`Poland Protection Referral`](skills/poland-protection-referral-xopoko/) | Protection referral. Use for asylum, international or temporary protection, unsafe return, or loss of… |
+| [`Poland Stay and Residence`](skills/poland-stay-residence-xopoko/) | Stay and residence. Use for Polish visas, legal stay, temporary residence, or residence cards; not… |
+| [`Poland Work Authorization`](skills/poland-work-authorization-xopoko/) | Work authorization. Use for permission to work in Poland, employer permits, declarations, notifications, or… |
+| [`Poland`](skills/poland-xopoko/) | Poland router. Use when topics cross domains. |
 
 ## Cold-start context
 

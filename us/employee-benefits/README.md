@@ -4,13 +4,14 @@ Employee benefits and executive compensation — ERISA/qualified plans, equity i
 
 Jurisdiction: `us` · Practice: `employee-benefits` · Skill language varies per skill.
 
-## Skills (3)
+## Skills (4)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`change-in-control-agreement`](skills/change-in-control-agreement/) | `employee-benefits` |
-| [`employee-retention-agreement`](skills/employee-retention-agreement/) | `employee-benefits` |
-| [`stock-option-grant`](skills/stock-option-grant/) | `employee-benefits` |
+| [`Change in Control Agreement`](skills/change-in-control-agreement/) | Drafts U.S. executive Change in Control Agreements with double-trigger severance, equity acceleration, and… |
+| [`Design Equity Compensation Plan`](skills/design-equity-compensation-plan-jeffreytse/) | Use when designing or auditing an equity compensation plan covering stock options, RSUs, or other equity… |
+| [`Employee Retention Agreement`](skills/employee-retention-agreement/) | Drafts enforceable U.S. Employee Retention Agreements (ERAs) for M&A, restructurings, and leadership… |
+| [`Stock Option Grant Agreement`](skills/stock-option-grant/) | Drafts Stock Option Grant Agreements for ISOs or NQSOs under a company's equity incentive plan. Covers… |
 
 ## Cold-start context
 

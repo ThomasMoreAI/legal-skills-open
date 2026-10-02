@@ -8,4 +8,4 @@ Jurisdiction: `cross-jurisdiction` · Practice: `tmt` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Digital Media Law Summary`](skills/digital-media-law-summary/) | Generates Bluebook-cited summaries of digital media law across copyright/IP, privacy/data protection, and cont… |
+| [`Digital Media Law Summary`](skills/digital-media-law-summary/) | Generates Bluebook-cited summaries of digital media law across copyright/IP, privacy/data protection, and… |

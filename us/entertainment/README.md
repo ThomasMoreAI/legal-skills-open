@@ -4,11 +4,12 @@ Media & entertainment — film/TV/music production, talent and artist agreements
 
 Jurisdiction: `us` · Practice: `entertainment` · Skill language varies per skill.
 
-## Skills (1)
+## Skills (2)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`influencer-agreement-review`](skills/influencer-agreement-review/) | `entertainment` |
+| [`Influencer Agreement Review`](skills/influencer-agreement-review/) | Review influencer/creator agreements for content rights, exclusivity, FTC compliance (16 CFR 255),… |
+| [`Music Contract Assistant`](skills/music-contract-assistant-diamitani/) | Use when generating music contracts, reviewing agreements, or creating split sheet agreements. |
 
 ## Cold-start context
 

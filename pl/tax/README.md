@@ -4,11 +4,13 @@ Urząd skarbowy / KAS procedures — registration, corrections, reliefs, interpr
 
 Jurisdiction: `pl` · Practice: `tax` · Skill language: pl
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`applying-skarbowy-procedures`](skills/applying-skarbowy-procedures/) | Use when navigating urząd skarbowy / KAS — NIP, VAT-R, czynny żal, korekta, ulgi, interpretacja indywidualn… |
+| [`applying-skarbowy-procedures`](skills/applying-skarbowy-procedures/) | Use when navigating urząd skarbowy / KAS — NIP (NIP-2/7/8, CEIDG), VAT-R, czynny żal (art. 16 KKS), korekta… |
+| [`Poland Tax`](skills/poland-tax-xopoko/) | Poland tax. Use for PIT, tax-residence orientation, tax identifiers, e-Tax Office, or official filing routes. |
+| [`Verify a Polish company (skanfirmy.pl)`](skills/skill-bartosz-kuc/) | Verify Polish companies and contractors by NIP, KRS, or REGON; check VAT status and bank accounts against the… |
 
 ## Cold-start context
 

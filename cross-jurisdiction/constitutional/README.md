@@ -8,5 +8,5 @@ Jurisdiction: `cross-jurisdiction` · Practice: `constitutional` · Skill langua
 
 | Skill | What it does |
 |---|---|
-| [`Deutsches Recht und Unionsrecht — Abgrenzung`](skills/de-eu-recht-abgrenzung/) | Klaert die Abgrenzung zwischen nationalem deutschen Recht und Unionsrecht: wann gilt AEUV/EUV/GRCh/Verordnung/… |
+| [`Deutsches Recht und Unionsrecht — Abgrenzung`](skills/de-eu-recht-abgrenzung/) | Klaert die Abgrenzung zwischen nationalem deutschen Recht und Unionsrecht: wann gilt… |
 | [`Vorrang und unmittelbare Wirkung`](skills/europarecht-vorrang-unmittelbare-wirkung/) | Vorrang des EU-Rechts und unmittelbare Wirkung von EU-Normen prüfen wenn nationales Recht entgegensteht. Art.… |

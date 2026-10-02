@@ -6,9 +6,9 @@ Jurisdiction: `us` · Practice: `aviation` · Skill language varies per skill (s
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aviation-summary`](skills/aviation-summary/) | `aviation` |
+| [`Aviation Law Summary`](skills/aviation-summary/) | Generates structured U.S. aviation-law summaries by synthesizing FAA, DOT, and TSA rules, treaties, and… |
 
 ## Cold-start context
 

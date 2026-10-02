@@ -4,11 +4,13 @@ Estate planning, wills, trusts, fiduciary administration, probate, and advance d
 
 Jurisdiction: `general` · Practice: `trusts-and-estates` · Skill language: en
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`Succession Planning Summary`](skills/succession-planning-summary/) | Synthesizes wills, trusts, beneficiary designations, powers of attorney, and healthcare directives into a unified… |
+| [`الهدف`](skills/arabic-islamic-law-salmandev/) | Master Islamic jurisprudence basics in Arabic |
+| [`Succession Planning Summary`](skills/succession-planning-summary/) | Synthesizes wills, trusts, beneficiary designations, powers of attorney, and healthcare directives into a… |
+| [`Will Drafter`](skills/will-drafter-rohasnagpal/) | Drafts jurisdiction-specific wills with clear gifts, fiduciary powers, residue and execution safeguards. Use… |
 
 ## Cold-start context
 

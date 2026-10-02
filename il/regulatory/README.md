@@ -4,13 +4,11 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `il` · Practice: `regulatory` · Skill language: en
 
-## Skills (3)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Bureaucracy Decoder`](skills/israeli-bureaucracy-decoder/) | Decode confusing Israeli government letters, forms, and official documents into plain language. Use when you… |
-| [`Israeli Standards Import Checker`](skills/israeli-standards-import-checker/) | Check whether a product requires Standards Institution of Israel (SII, Mechon HaTikanim) approval under an o… |
-| [`Israeli Tender Proposal Builder`](skills/israeli-tender-proposal-builder/) | Builds a complete Hebrew proposal package for Israeli government and public sector tenders (michrazim). Pars… |
+| [`Israeli Standards Import Checker`](skills/israeli-standards-import-checker/) | Check whether a product requires Standards Institution of Israel (SII, Mechon HaTikanim) approval under an… |
 
 ## Cold-start context
 

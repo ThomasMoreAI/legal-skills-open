@@ -4,12 +4,11 @@ Private dispute resolution by arbitration (and related ADR), domestic or interna
 
 Jurisdiction: `de` · Practice: `arbitration` · Skill language: de
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`Schiedsklausel — Prüfung und Gestaltung`](skills/fachanwalt-internationales-wirtschaftsrecht-schiedsklausel/) | Mandant verhandelt internationalen Vertrag und fragt: Sollen wir eine Schiedsklausel aufnehmen und wie formu… |
-| [`Fachanwalt für Sportrecht — Orientierung`](skills/fachanwalt-sportrecht-orientierung/) | Anwalt will Fachanwaltschaft Sportrecht erwerben oder Mandat im Sportrecht bearbeiten und braucht Orientieru… |
+| [`Schiedsklausel — Prüfung und Gestaltung`](skills/fachanwalt-internationales-wirtschaftsrecht-schiedsklausel/) | Mandant verhandelt internationalen Vertrag und fragt: Sollen wir eine Schiedsklausel aufnehmen und wie… |
 
 ## Cold-start context
 

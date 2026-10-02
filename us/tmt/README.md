@@ -6,10 +6,10 @@ Jurisdiction: `us` · Practice: `tmt` · Skill language varies per skill (see ea
 
 ## Skills (2)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`interconnection-agreement`](skills/interconnection-agreement/) | `tmt` |
-| [`telecom-law-summary`](skills/telecom-law-summary/) | `tmt` |
+| [`Interconnection Agreement`](skills/interconnection-agreement/) | Drafts U.S. telecommunications Interconnection Agreements (ICAs) under 47 U.S.C. §§ 251-252 and FCC Part 51,… |
+| [`Telecommunications Law Summary`](skills/telecom-law-summary/) | Generates executive-level summaries of recent US telecommunications law developments covering spectrum… |
 
 ## Cold-start context
 

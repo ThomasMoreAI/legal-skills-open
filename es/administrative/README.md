@@ -6,9 +6,9 @@ Jurisdiction: `es` · Practice: `administrative` · Skill language varies per sk
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`procedimiento`](skills/procedimiento/) | `administrative` |
+| [`/procedimiento`](skills/procedimiento/) | Procedimiento administrativo — guía a través del procedimiento administrativo común. Cubre plazos (art. 21… |
 
 ## Cold-start context
 

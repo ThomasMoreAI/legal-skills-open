@@ -8,7 +8,7 @@ Jurisdiction: `tw` · Practice: `general` · Skill language: zh
 
 | Skill | What it does |
 |---|---|
-| [`台灣正式文件撰寫助手`](skills/tw-formal-writing/) | 台灣正式文件撰寫助手 — 涵蓋政府公文、政府非公文文件、法律文件、人民對政府文書等所有中文正式文件的撰寫。 根據使用者意圖自動判斷文件類別，載入對應的撰寫規範與格式指引。 觸發此 skill 的情境： - 政府公文：… |
+| [`台灣正式文件撰寫助手`](skills/tw-formal-writing/) | 台灣正式文件撰寫助手 — 涵蓋政府公文、政府非公文文件、法律文件、人民對政府文書等所有中文正式文件的撰寫。 根據使用者意圖自動判斷文件類別，載入對應的撰寫規範與格式指引。 觸發此 skill 的情境： -… |
 
 ## Cold-start context
 

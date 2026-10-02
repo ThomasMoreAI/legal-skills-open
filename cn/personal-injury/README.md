@@ -8,7 +8,7 @@ Jurisdiction: `cn` · Practice: `personal-injury` · Skill language: zh
 
 | Skill | What it does |
 |---|---|
-| [`交通事故责任评估专业技能`](skills/traffic-accident-assessor/) | 交通事故责任评估与判定专业技能。当用户需要交通事故责任分析、事故现场照片评估、交通法规咨询、事故责任划分、法律依据查询时触发此技能。适用于车辆碰撞事故、行人事故、非机动车事故等各类道路交通事故的责任认定场景。无论用户… |
+| [`交通事故责任评估专业技能`](skills/traffic-accident-assessor/) | 交通事故责任评估与判定专业技能。当用户需要交通事故责任分析、事故现场照片评估、交通法规咨询、事故责任划分、法律依据查询时触发此技能。适用于车辆碰撞事故、行人事故、非机动车事故等各类道路交通事故的责任认定场景。无论用户使用… |
 
 ## Cold-start context
 

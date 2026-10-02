@@ -8,7 +8,7 @@ Jurisdiction: `sg` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Singapore - Personal Data Protection Ac (PDPA) (2012) Expert`](skills/singapore-pdpa-expert/) | Singapore - Personal Data Protection Ac (PDPA) (2012) expert. Reference-depth framework plugin with assessme… |
+| [`Singapore - Personal Data Protection Ac (PDPA) (2012) Expert`](skills/singapore-pdpa-expert/) | Singapore - Personal Data Protection Ac (PDPA) (2012) expert. Reference-depth framework plugin with… |
 
 ## Cold-start context
 

@@ -6,11 +6,11 @@ Jurisdiction: `cross-jurisdiction` · Practice: `employee-benefits` · Skill lan
 
 ## Skills (3)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`country-by-country-benefits-matrix-konzern`](skills/country-by-country-benefits-matrix-konzern/) | `employee-benefits` |
-| [`internationale-harmonisierung-konzern-bav`](skills/internationale-harmonisierung-konzern-bav/) | `employee-benefits` |
-| [`japan-bav-und-corporate-pension-iorp`](skills/japan-bav-und-corporate-pension-iorp/) | `employee-benefits` |
+| [`Country-by-Country Benefits-Matrix für Konzerne`](skills/country-by-country-benefits-matrix-konzern/) | Laenderuebergreifende Benefits-Matrix für internationalen Konzern erstellen: Versorgungsniveaus im Vergleich.… |
+| [`Internationale Harmonisierung Konzern-BAV`](skills/internationale-harmonisierung-konzern-bav/) | Internationale bAV-Systeme im Konzern harmonisieren: Governance, Finanzierungsniveaus, lokale Compliance.… |
+| [`Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive`](skills/japan-bav-und-corporate-pension-iorp/) | Japanisches betriebliches Altersversorgungssystem und IORP-Vergleich für europaeische Konzerne. Normen:… |
 
 ## Cold-start context
 

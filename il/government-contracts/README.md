@@ -6,9 +6,9 @@ Jurisdiction: `il` · Practice: `government-contracts` · Skill language varies 
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`israeli-tender-proposal-builder`](skills/israeli-tender-proposal-builder/) | `government-contracts` |
+| [`Israeli Tender Proposal Builder`](skills/israeli-tender-proposal-builder/) | Builds a complete Hebrew proposal package for Israeli government and public sector tenders (michrazim).… |
 
 ## Cold-start context
 

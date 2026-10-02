@@ -6,16 +6,16 @@ Jurisdiction: `us` · Practice: `energy` · Skill language varies per skill (see
 
 ## Skills (8)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`energy-regulation-summaries`](skills/energy-regulation-summaries/) | `energy` |
-| [`farmout-agreement`](skills/farmout-agreement/) | `energy` |
-| [`ferc-market-based-rate-tariff`](skills/ferc-market-based-rate-tariff/) | `energy` |
-| [`gas-gathering-agreement`](skills/gas-gathering-agreement/) | `energy` |
-| [`joint-operating-agreement`](skills/joint-operating-agreement/) | `energy` |
-| [`oilfield-msa`](skills/oilfield-msa/) | `energy` |
-| [`power-purchase-agreement`](skills/power-purchase-agreement/) | `energy` |
-| [`rec-purchase-agreement`](skills/rec-purchase-agreement/) | `energy` |
+| [`Energy Regulation Summary`](skills/energy-regulation-summaries/) | Generates structured summaries of U.S. energy sector regulations and landmark cases with compliance-focused… |
+| [`Farmout Agreement`](skills/farmout-agreement/) | Drafts U.S. upstream oil and gas farmout agreements transferring working interests through earn-in… |
+| [`FERC Market-Based Rate Tariff`](skills/ferc-market-based-rate-tariff/) | Drafts eTariff-ready FERC Market-Based Rate Tariffs for wholesale electric energy, capacity, and ancillary… |
+| [`Gas Gathering Agreement`](skills/gas-gathering-agreement/) | Drafts a Gas Gathering Agreement for receipt, compression, dehydration, and transportation of natural gas… |
+| [`Joint Operating Agreement`](skills/joint-operating-agreement/) | Drafts U.S. Joint Operating Agreements (JOA) for oil and gas exploration, development, and production. Covers… |
+| [`Master Service Agreement — Oilfield Services`](skills/oilfield-msa/) | Drafts a Master Service Agreement for upstream oilfield services (Operator-Contractor). Covers… |
+| [`Power Purchase Agreement (PPA)`](skills/power-purchase-agreement/) | Drafts U.S. power purchase agreements (PPAs) between generators and offtakers covering delivery, pricing,… |
+| [`REC Purchase Agreement`](skills/rec-purchase-agreement/) | Drafts Renewable Energy Credit (REC) Purchase Agreements for US jurisdictions, covering product… |
 
 ## Cold-start context
 

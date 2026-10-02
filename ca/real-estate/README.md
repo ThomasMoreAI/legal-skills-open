@@ -6,9 +6,9 @@ Jurisdiction: `ca` · Practice: `real-estate` · Skill language varies per skill
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`forms-1-12-completeness-verification`](skills/forms-1-12-completeness-verification/) | `real-estate` |
+| [`Form-Specific Checklists`](skills/forms-1-12-completeness-verification/) | Use when pre-flighting Ontario expropriation Forms 1-12 under O.Reg. 363/90 before service or filing —… |
 
 ## Cold-start context
 

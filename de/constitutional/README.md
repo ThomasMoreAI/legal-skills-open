@@ -4,19 +4,20 @@ German constitutional-law analysis — Grundrechtsprüfung (Schutzbereich/Eingri
 
 Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (9)
+## Skills (10)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`gesetzentwurf-gg-konformitaet-pruefen`](skills/gesetzentwurf-gg-konformitaet-pruefen/) | `constitutional` |
-| [`gesetzgebungskompetenz-pruefen`](skills/gesetzgebungskompetenz-pruefen/) | `constitutional` |
-| [`grundrechte-pruefung-de-und-grch`](skills/grundrechte-pruefung-de-und-grch/) | `constitutional` |
-| [`grundrechtspruefung`](skills/grundrechtspruefung/) | `constitutional` |
-| [`verfassungsmaessigkeit-quercheck`](skills/verfassungsmaessigkeit-quercheck/) | `constitutional` |
-| [`verfassungsrecht-grundrechtspruefung`](skills/verfassungsrecht-grundrechtspruefung/) | `constitutional` |
-| [`verfassungsrechtliche-pruefung`](skills/verfassungsrechtliche-pruefung/) | `constitutional` |
-| [`verhaeltnismaessigkeit`](skills/verhaeltnismaessigkeit/) | `constitutional` |
-| [`verordnungsermaechtigung-art80`](skills/verordnungsermaechtigung-art80/) | `constitutional` |
+| [`Basic Law for the Federal Republic of Germany`](skills/basic-law-for-the-federal-republic-of-germany-x8k/) | Comprehensive knowledge base of the Basic Law for the Federal Republic of Germany (Grundgesetz). Covers… |
+| [`Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht)`](skills/gesetzentwurf-gg-konformitaet-pruefen/) | Gesetzentwurf auf Grundgesetz-Konformität prüfen bevor Gesetzgebungsverfahren eingeleitet wird. Art. 1 20 GG… |
+| [`Gesetzgebungskompetenz prüfen`](skills/gesetzgebungskompetenz-pruefen/) | Gesetzgebungskompetenz nach Art. 70 bis 74 GG prüfen bevor Entwurf aufgesetzt wird. Anwendungsfall Referent… |
+| [`Grundrechte prüfen — GG und GRCh`](skills/grundrechte-pruefung-de-und-grch/) | Prüft Grundrechte nach GG (Drei-Schritt: Schutzbereich, Eingriff, Rechtfertigung) und GRCh (Art. 51/52 GRCh).… |
+| [`Grundrechtsprüfung`](skills/grundrechtspruefung/) | Grundrechtsprüfung nach dem Drei-Stufen-Schema durchführen wenn staatliche Massnahme Grundrecht beruehrt.… |
+| [`Verfassungsmaessigkeit-Quercheck`](skills/verfassungsmaessigkeit-quercheck/) | Querschnittsprüfung Verfassungsmäßigkeit eines Gesetzesentwurfs oder einer Verordnung. Anwendungsfall Entwurf… |
+| [`Verfassungsrecht — Grundrechts-Prüfung`](skills/verfassungsrecht-grundrechtspruefung/) | Student prüft Grundrechte in der Hausarbeit: Schutzbereich Eingriff verfassungsrechtliche Rechtfertigung… |
+| [`Verfassungsrechtliche Prüfung — Master-Workflow`](skills/verfassungsrechtliche-pruefung/) | Verfassungsrechtliche Prüfung einer Massnahme oder Norm umfassend durchführen. Art. 1-20 GG Grundrechte… |
+| [`Verhältnismäßigkeit (Vier-Stufen-Prüfung)`](skills/verhaeltnismaessigkeit/) | Verhältnismäßigkeitsprüfung für staatliche Massnahmen oder Gesetze durchführen. Art. 20 Abs. 3 GG… |
+| [`Verordnungsermaechtigung Art. 80 GG`](skills/verordnungsermaechtigung-art80/) | Verordnungsermaechtigung nach Art. 80 Abs. 1 GG prüfen bevor Rechtsverordnung entworfen wird. Anwendungsfall… |
 
 ## Cold-start context
 

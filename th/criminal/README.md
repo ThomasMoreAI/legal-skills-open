@@ -8,7 +8,7 @@ Jurisdiction: `th` · Practice: `criminal` · Skill language: th
 
 | Skill | What it does |
 |---|---|
-| [`Instructions`](skills/02-premeditated-murder/) | ผู้กระทำวางแผนฆ่าล่วงหน้าก่อนลงมือ เช่น เตรียมอาวุธไว้ล่วงหน้า ดักรอหรือนัดพบเหยื่อ มีมูลเหตุโกรธเคืองสะสมมา… |
+| [`Instructions`](skills/02-premeditated-murder/) | ผู้กระทำวางแผนฆ่าล่วงหน้าก่อนลงมือ เช่น เตรียมอาวุธไว้ล่วงหน้า ดักรอหรือนัดพบเหยื่อ… |
 
 ## Cold-start context
 

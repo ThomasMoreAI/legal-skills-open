@@ -6,9 +6,9 @@ Jurisdiction: `cross-jurisdiction` · Practice: `social-security` · Skill langu
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`expatriate-pensionsplanung-und-totalization`](skills/expatriate-pensionsplanung-und-totalization/) | `social-security` |
+| [`Expatriate-Pensionsplanung und Totalization`](skills/expatriate-pensionsplanung-und-totalization/) | Pensionsplanung für Expatriates: Totalisierungsabkommen, Doppelversicherungsvermeidung, Pensionsluecken.… |
 
 ## Cold-start context
 

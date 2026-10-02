@@ -8,7 +8,7 @@ Jurisdiction: `ua` · Practice: `real-estate` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`reviewing-real-estate-contract`](skills/reviewing-real-estate-contract-crankshift/) | Use when auditing a Ukrainian real-estate sale contract (договір купівлі-продажу нерухомості) — ДРРП title c… |
+| [`reviewing-real-estate-contract`](skills/reviewing-real-estate-contract-crankshift/) | Use when auditing a Ukrainian real-estate sale contract (договір купівлі-продажу нерухомості) — ДРРП title… |
 
 ## Cold-start context
 

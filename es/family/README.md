@@ -9,7 +9,7 @@ Jurisdiction: `es` · Practice: `family` · Skill language: es
 | Skill | What it does |
 |---|---|
 | [`/convenio`](skills/convenio/) | Genera una plantilla de convenio regulador para divorcio o separación, con todas las secciones obligatorias… |
-| [`/pensiones`](skills/pensiones/) | Estima de forma orientativa la pensión de alimentos y la pensión compensatoria en procesos de familia. Usa l… |
+| [`/pensiones`](skills/pensiones/) | Estima de forma orientativa la pensión de alimentos y la pensión compensatoria en procesos de familia. Usa… |
 
 ## Cold-start context
 

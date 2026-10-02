@@ -8,7 +8,7 @@ Jurisdiction: `kr` · Practice: `regulatory` · Skill language: ko
 
 | Skill | What it does |
 |---|---|
-| [`컴플라이언스 점검 (Compliance Check)`](skills/compliance-check-modu-ai/) | 규제 준수 점검, 내부 감사, ESG 보고, 인허가 서류를 지원합니다. '컴플라이언스 점검해줘', '내부 감사 보고서 작성해줘', 'ESG 보고서 만들어줘', '규제 갭 분석해줘', '인허가 서… |
+| [`컴플라이언스 점검 (Compliance Check)`](skills/compliance-check-modu-ai/) | 규제 준수 점검, 내부 감사, ESG 보고, 인허가 서류를 지원합니다. '컴플라이언스 점검해줘', '내부 감사 보고서 작성해줘', 'ESG 보고서 만들어줘', '규제 갭 분석해줘', '인허가 서류… |
 
 ## Cold-start context
 

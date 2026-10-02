@@ -6,9 +6,9 @@ Jurisdiction: `fr` · Practice: `government-contracts` · Skill language varies 
 
 ## Skills (1)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`arckit-fr-marche-public`](skills/arckit-fr-marche-public/) | `government-contracts` |
+| [`User Input`](skills/arckit-fr-marche-public/) | [COMMUNITY] Generate French public procurement documentation aligned with code de la commande publique, UGAP… |
 
 ## Cold-start context
 

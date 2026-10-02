@@ -8,8 +8,8 @@ Jurisdiction: `pl` · Practice: `family` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`applying-usc-procedures`](skills/applying-usc-procedures/) | Use when navigating Polish USC procedures — rejestracja urodzenia (art. 60–69 ASC), małżeństwo cywilne / kon… |
-| [`calculating-alimenty`](skills/calculating-alimenty/) | Use when determining the amount of alimony under Polish KRO — calculating justified needs of the entitled pe… |
+| [`applying-usc-procedures`](skills/applying-usc-procedures/) | Use when navigating Polish USC procedures — rejestracja urodzenia (art. 60–69 ASC), małżeństwo cywilne /… |
+| [`calculating-alimenty`](skills/calculating-alimenty/) | Use when determining the amount of alimony under Polish KRO — calculating justified needs of the entitled… |
 
 ## Cold-start context
 

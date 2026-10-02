@@ -4,12 +4,13 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `au` · Practice: `data-protection` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`User Input`](skills/arckit-au-pia/) | [COMMUNITY] Generate a Privacy Impact Assessment (PIA) for Australian Government entities under Privacy Act… |
-| [`Australia Privacy Act Compliance (2024 Amendments)`](skills/australia-privacy-act/) | Guides compliance with Australia's Privacy Act 1988 including the 2024 reform amendments. Covers automated d… |
+| [`Australia Privacy Act Compliance (2024 Amendments)`](skills/australia-privacy-act/) | Guides compliance with Australia's Privacy Act 1988 including the 2024 reform amendments. Covers automated… |
+| [`Legal texts for Australia`](skills/legal-au-clemensjl/) | Use when writing, reviewing, or fixing legally required texts for an Australian website, webshop, app, or… |
 
 ## Cold-start context
 

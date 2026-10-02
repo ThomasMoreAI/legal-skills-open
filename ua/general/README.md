@@ -8,9 +8,9 @@ Jurisdiction: `ua` · Practice: `general` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`citing-ukrainian-law`](skills/citing-ukrainian-law/) | Use when formatting citations to Ukrainian legislation, court rulings, or Constitutional Court decisions —… |
-| [`fetching-zakon-rada`](skills/fetching-zakon-rada/) | Use when retrieving Ukrainian legislation text from the official portal zakon.rada.gov.ua — historical reda… |
-| [`checking-martial-law-overrides`](skills/checking-martial-law-overrides/) | Use when analyzing topics where default Ukrainian norms may be modified, suspended, or adjusted under marti… |
+| [`checking-martial-law-overrides`](skills/checking-martial-law-overrides/) | Use when analyzing Ukrainian law on topics where default norms may be modified, suspended, or adjusted under… |
+| [`citing-ukrainian-law`](skills/citing-ukrainian-law/) | Use when formatting citations to Ukrainian legislation, court rulings, or Constitutional Court decisions in… |
+| [`fetching-zakon-rada`](skills/fetching-zakon-rada/) | Use when retrieving Ukrainian legislation text from the official portal zakon.rada.gov.ua — fetching specific… |
 
 ## Cold-start context
 

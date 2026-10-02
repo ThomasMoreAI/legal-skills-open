@@ -4,13 +4,15 @@ Competition law: monopolization, anticompetitive agreements, mergers, and unfair
 
 Jurisdiction: `us` · Practice: `antitrust` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
-| [`Antitrust Internal Investigation Summary`](skills/antitrust-investigation-summary/) | Drafts privilege-protective, board-ready executive summary memoranda of internal antitrust investigation findings for… |
-| [`HSR Premerger Notification Filing`](skills/hsr-filing/) | Prepares Hart-Scott-Rodino Act premerger notification filings for FTC/DOJ submission under 15 U.S.C. |
-| [`Antitrust Investigation Summary`](skills/investigation-summary/) | Produces structured antitrust investigation summaries for executives and counsel. |
+| [`Antitrust Internal Investigation Summary`](skills/antitrust-investigation-summary/) | Drafts privilege-protective, board-ready executive summary memoranda of internal antitrust investigation… |
+| [`Design Antitrust Compliance Program`](skills/design-antitrust-compliance-program-jeffreytse/) | Use when a company competing in a concentrated market needs a compliance program preventing antitrust and… |
+| [`HSR Premerger Notification Filing`](skills/hsr-filing/) | Prepares Hart-Scott-Rodino Act premerger notification filings for FTC/DOJ submission under 15 U.S.C. § 18a… |
+| [`Antitrust Investigation Summary`](skills/investigation-summary/) | Produces structured antitrust investigation summaries for executives and counsel. Triggers on FTC/DOJ probes,… |
+| [`US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies`](skills/us-selektivvertrieb-und-mfp-tiffany-vs-costco/) | US-Vertriebsrecht für Luxusmarken: Resale Price Maintenance und MAP-Policies kartellrechtskonform gestalten.… |
 
 ## Cold-start context
 

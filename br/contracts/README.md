@@ -8,7 +8,7 @@ Jurisdiction: `br` · Practice: `contracts` · Skill language: pt
 
 | Skill | What it does |
 |---|---|
-| [`Redator de Contratos e Propostas — Brasil`](skills/contract-and-proposal-writer-ricardonevesbraga/) | Gerador de contratos e propostas comerciais para o mercado brasileiro. Contratos de prestação de serviço, pr… |
+| [`Redator de Contratos e Propostas — Brasil`](skills/contract-and-proposal-writer-ricardonevesbraga/) | Gerador de contratos e propostas comerciais para o mercado brasileiro. Contratos de prestação de serviço,… |
 
 ## Cold-start context
 

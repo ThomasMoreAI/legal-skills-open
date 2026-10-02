@@ -4,24 +4,26 @@ U.S. federal government contracting — GSA Schedule and FAR-compliant subcontra
 
 Jurisdiction: `us` · Practice: `government-contracts` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (14)
+## Skills (16)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`cda-certified-claim`](skills/cda-certified-claim/) | `government-contracts` |
-| [`compliance-auditor`](skills/compliance-auditor/) | `government-contracts` |
-| [`dd-form-254`](skills/dd-form-254/) | `government-contracts` |
-| [`far-subcontract`](skills/far-subcontract/) | `government-contracts` |
-| [`gsa-schedule-contract`](skills/gsa-schedule-contract/) | `government-contracts` |
-| [`oci-mitigation-plan`](skills/oci-mitigation-plan/) | `government-contracts` |
-| [`past-performance-questionnaire`](skills/past-performance-questionnaire/) | `government-contracts` |
-| [`protest-notice`](skills/protest-notice/) | `government-contracts` |
-| [`rea-request`](skills/rea-request/) | `government-contracts` |
-| [`rfp-response`](skills/rfp-response/) | `government-contracts` |
-| [`sam-reps-certs`](skills/sam-reps-certs/) | `government-contracts` |
-| [`subcontracting-plan`](skills/subcontracting-plan/) | `government-contracts` |
-| [`t4c-settlement-proposal`](skills/t4c-settlement-proposal/) | `government-contracts` |
-| [`teaming-agreement`](skills/teaming-agreement/) | `government-contracts` |
+| [`CDA Certified Claim`](skills/cda-certified-claim/) | Drafts U.S. Contract Disputes Act (CDA) certified claims for federal government contracts, covering FAR Part… |
+| [`Compliance Auditor`](skills/compliance-auditor/) | Federal acquisition compliance auditor for the active Theseus workspace, backed by live FAR/DFARS text via… |
+| [`DD Form 254 — Contract Security Classification Specification`](skills/dd-form-254/) | Drafts DD Form 254 Contract Security Classification Specifications for classified government contracts. Use… |
+| [`FAR-Compliant Subcontract Agreement`](skills/far-subcontract/) | Drafts FAR-compliant subcontract agreements between prime contractors and subcontractors under U.S. federal… |
+| [`Government Contracts Skill`](skills/government-contracts-everyone-needs-a-copilot/) | Government procurement and RFP analysis. Use for compliance matrices, FAR or DFARS awareness, state and local… |
+| [`GSA Schedule Contract`](skills/gsa-schedule-contract/) | Drafts FAR/GSAR-compliant GSA Schedule (MAS/FSS) contracts with clause matrices, SIN scope, pricing/PRC/EPA… |
+| [`Government Contracts Counsel`](skills/legal-contracts-everyone-needs-a-copilot/) | Government Contracts Counsel for ENAC. Use for RFP analysis, procurement compliance, contract or PSA review,… |
+| [`OCI Mitigation Plan`](skills/oci-mitigation-plan/) | Drafts FAR 9.5-compliant Organizational Conflict of Interest mitigation plans for federal government… |
+| [`Past Performance Questionnaire`](skills/past-performance-questionnaire/) | Drafts a Past Performance Questionnaire for evaluating legal service providers or contractors in government… |
+| [`Notice of Intent to Protest Award`](skills/protest-notice/) | Drafts a formal Notice of Intent to Protest Award for federal contracts under FAR 33.103, 33.104, and 4… |
+| [`Request for Equitable Adjustment (REA)`](skills/rea-request/) | Drafts a Request for Equitable Adjustment (REA) for U.S. federal government contracts under FAR provisions.… |
+| [`RFP Response`](skills/rfp-response/) | Drafts evaluation-ready U.S. federal RFP responses across all standard proposal volumes (cover letter,… |
+| [`SAM.gov Representations and Certifications`](skills/sam-reps-certs/) | Drafts Representations and Certifications documents for SAM.gov federal contractor registration. Use when… |
+| [`Small Business Subcontracting Plan`](skills/subcontracting-plan/) | Drafts a FAR 52.219-9-compliant Small Business Subcontracting Plan for federal prime contractors. Sets… |
+| [`T4C Settlement Proposal`](skills/t4c-settlement-proposal/) | Drafts a Termination for Convenience Settlement Proposal under FAR Part 49. Trigger when a contractor must… |
+| [`Teaming Agreement`](skills/teaming-agreement/) | Drafts Teaming Agreements for prime-sub pursuit of U.S. government contracts. Covers proposal-phase and… |
 
 ## Cold-start context
 

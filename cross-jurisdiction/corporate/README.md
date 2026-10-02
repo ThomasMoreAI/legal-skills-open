@@ -4,16 +4,17 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `cross-jurisdiction` · Practice: `corporate` · Skill language: en
 
-## Skills (6)
+## Skills (7)
 
 | Skill | What it does |
 |---|---|
+| [`Audit Board Effectiveness`](skills/audit-board-effectiveness-jeffreytse/) | Use when a company's board wants to systematically evaluate its own performance — running a structured… |
 | [`Multi-Jurisdiction und Übersetzungen`](skills/grosskanzlei-corporate-ma-translations-multijurisdictional/) | Multi-Jurisdiction-Koordination und Übersetzungen in grenzüberschreitenden M&A-Transaktionen: Anwendungsfall… |
-| [`LEX: Legal-Entity-X-ref`](skills/lex-diegosouzapw/) | LEX: Legal-Entity-X-ref workflow skill. Use this skill when the user needs Centralized 'Truth Engine' for cr… |
-| [`LEX: Legal-Entity-X-ref`](skills/lex-ignvvcio254/) | Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
-| [`LEX: Legal-Entity-X-ref`](skills/lex-v2/) | LEX: Legal-Entity-X-ref workflow skill. Use this skill when the user needs Centralized 'Truth Engine' for cr… |
 | [`LEX: Legal-Entity-X-ref`](skills/lex/) | Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
-| [`Multi-Jurisdiction und Übersetzungen`](skills/mittelstand-corporate-ma-translations-multijurisdictional/) | Multi-Jurisdiction und Übersetzungen: Koordiniert lokale Kanzleien, Übersetzungen, Rechtsvergleich und Multi… |
+| [`LEX: Legal-Entity-X-ref`](skills/lex-diegosouzapw/) | LEX: Legal-Entity-X-ref workflow skill. Use this skill when the user needs Centralized 'Truth Engine' for… |
+| [`LEX: Legal-Entity-X-ref`](skills/lex-ignvvcio254/) | Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
+| [`LEX: Legal-Entity-X-ref`](skills/lex-v2/) | LEX: Legal-Entity-X-ref workflow skill. Use this skill when the user needs Centralized 'Truth Engine' for… |
+| [`Multi-Jurisdiction und Übersetzungen`](skills/mittelstand-corporate-ma-translations-multijurisdictional/) | Multi-Jurisdiction und Übersetzungen: Koordiniert lokale Kanzleien, Übersetzungen, Rechtsvergleich und… |
 
 ## Cold-start context
 

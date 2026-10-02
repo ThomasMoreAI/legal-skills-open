@@ -8,7 +8,7 @@ Jurisdiction: `sg` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Singapore MAS TRM Expert`](skills/sg-mas-trm-expert/) | Singapore MAS Technology Risk Management Guidelines expert. Reference-depth framework plugin with scope dete… |
+| [`Singapore MAS TRM Expert`](skills/sg-mas-trm-expert/) | Singapore MAS Technology Risk Management Guidelines expert. Reference-depth framework plugin with scope… |
 
 ## Cold-start context
 

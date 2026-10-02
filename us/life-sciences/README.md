@@ -4,26 +4,27 @@ U.S. FDA-regulated life sciences — 510(k) and IND/NDA submissions, device regi
 
 Jurisdiction: `us` · Practice: `life-sciences` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (16)
+## Skills (17)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`510k-premarket-notification`](skills/510k-premarket-notification/) | `life-sciences` |
-| [`adverse-event-reporting-policy`](skills/adverse-event-reporting-policy/) | `life-sciences` |
-| [`clinical-trial-agreement`](skills/clinical-trial-agreement/) | `life-sciences` |
-| [`clinical-trial-investigator-agreement`](skills/clinical-trial-investigator-agreement/) | `life-sciences` |
-| [`fda-device-registration`](skills/fda-device-registration/) | `life-sciences` |
-| [`fda-medtech-compliance-auditor`](skills/fda-medtech-compliance-auditor/) | `life-sciences` |
-| [`fda-medtech-compliance-auditor-foolhardy45`](skills/fda-medtech-compliance-auditor-foolhardy45/) | `life-sciences` |
-| [`fda-medtech-compliance-auditor-v2`](skills/fda-medtech-compliance-auditor-v2/) | `life-sciences` |
-| [`gmp-sop`](skills/gmp-sop/) | `life-sciences` |
-| [`ind-application`](skills/ind-application/) | `life-sciences` |
-| [`informed-consent-form-clinical-trial`](skills/informed-consent-form-clinical-trial/) | `life-sciences` |
-| [`investigator-agreement`](skills/investigator-agreement/) | `life-sciences` |
-| [`nda-drug-application`](skills/nda-drug-application/) | `life-sciences` |
-| [`pharma-reg-summary`](skills/pharma-reg-summary/) | `life-sciences` |
-| [`promo-materials-review-policy`](skills/promo-materials-review-policy/) | `life-sciences` |
-| [`quality-agreement`](skills/quality-agreement/) | `life-sciences` |
+| [`FDA 510(k) Premarket Notification`](skills/510k-premarket-notification/) | Drafts FDA 510(k) Premarket Notification submissions demonstrating substantial equivalence under 21 CFR Part… |
+| [`Adverse Event Reporting Policy`](skills/adverse-event-reporting-policy/) | Drafts an Adverse Event Reporting Policy compliant with 21 CFR 312.32 (IND safety reporting), 21 CFR 314.80… |
+| [`Clinical Trial Agreement`](skills/clinical-trial-agreement/) | Drafts U.S. clinical trial agreements governing sponsor–site–investigator relationships under FDA rules (21… |
+| [`Clinical Trial Investigator Agreement`](skills/clinical-trial-investigator-agreement/) | Drafts U.S. clinical trial Investigator Agreements between sponsors/CROs and principal investigators or… |
+| [`FDA Establishment Registration & Device Listing`](skills/fda-device-registration/) | Drafts FDA Establishment Registration and Device Listing documents compliant with 21 CFR Part 807. Structures… |
+| [`FDA MedTech Compliance Auditor`](skills/fda-medtech-compliance-auditor/) | FDA MedTech Compliance Auditor workflow skill. Use this skill when the user needs Expert AI auditor for… |
+| [`FDA MedTech Compliance Auditor`](skills/fda-medtech-compliance-auditor-foolhardy45/) | Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs,… |
+| [`FDA MedTech Compliance Auditor`](skills/fda-medtech-compliance-auditor-v2/) | FDA MedTech Compliance Auditor workflow skill. Use this skill when the user needs Expert AI auditor for… |
+| [`/cs:fda-qsr-audit-prep — FDA QSR Forcing Questions`](skills/fda-qsr-audit-prep-alirezarezvani/) | /cs:fda-qsr-audit-prep <scope> — FDA 21 CFR 820 (QSR / QMSR) audit 6-question forcing interrogation. Post-Feb… |
+| [`GMP Standard Operating Procedure`](skills/gmp-sop/) | Drafts inspection-ready GMP standard operating procedures for regulated manufacturing. Covers document… |
+| [`IND Application`](skills/ind-application/) | Drafts FDA Investigational New Drug (IND) applications under 21 CFR Part 312, including Form 1571,… |
+| [`Informed Consent Form — Clinical Trial`](skills/informed-consent-form-clinical-trial/) | Drafts an IRB-ready Informed Consent Form (ICF) for FDA-regulated clinical trials compliant with 21 CFR… |
+| [`Investigator Agreement`](skills/investigator-agreement/) | Drafts Investigator Agreements for FDA-regulated clinical trials between sponsors and principal… |
+| [`New Drug Application (NDA)`](skills/nda-drug-application/) | Drafts an eCTD-compliant New Drug Application (NDA) for FDA submission under 21 CFR Part 314. Compiles… |
+| [`Pharmaceutical Regulation Compliance Summary`](skills/pharma-reg-summary/) | Generates structured pharmaceutical regulatory compliance summaries covering FDA approval pathways, patent/IP… |
+| [`Promotional Materials Review Policy`](skills/promo-materials-review-policy/) | Drafts an internal Promotional Materials Review Policy for life sciences and pharmaceutical companies under… |
+| [`Quality Agreement for Contract Manufacturing`](skills/quality-agreement/) | Drafts Quality Agreements for pharmaceutical contract manufacturing. Assigns quality roles between product… |
 
 ## Cold-start context
 

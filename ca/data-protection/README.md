@@ -8,7 +8,7 @@ Jurisdiction: `ca` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Canada PIPEDA Compliance`](skills/canada-pipeda/) | Guides compliance with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA, S.C. 2… |
+| [`Canada PIPEDA Compliance`](skills/canada-pipeda/) | Guides compliance with Canada's Personal Information Protection and Electronic Documents Act (PIPEDA, S.C.… |
 
 ## Cold-start context
 

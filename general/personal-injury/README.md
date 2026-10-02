@@ -4,16 +4,17 @@ Tort claims for personal injury: negligence, liability, causation, and damages.
 
 Jurisdiction: `general` · Practice: `personal-injury` · Skill language: en
 
-## Skills (6)
+## Skills (7)
 
 | Skill | What it does |
 |---|---|
-| [`ICD-10 / CPT Code Normalization`](skills/icd-cpt-normalization/) | Normalizes diagnostic and procedure codes from medical records into clean, attorney-readable form. |
-| [`Incident Report Summary`](skills/incident-report-summary/) | Generates structured, litigation-ready summaries from police reports, crash reports, workplace incident reports, or… |
-| [`Initial Contact Summary`](skills/initial-contact-summary/) | Generates a structured initial contact summary memorandum from a potential client's first interaction with the firm. |
-| [`Medical Treatment Summary`](skills/medical-treatment-summary/) | Generates litigation-ready narrative medical treatment summaries for personal injury cases. |
-| [`Pre-Hearing Statement of Proof`](skills/pre-hearing-statement/) | Drafts a Pre-Hearing Statement of Proof for personal injury litigation. |
-| [`Warranty Request Timeline`](skills/warranty-timeline/) | Generates a chronological timeline of warranty requests, claims, and complaints for product defect litigation,… |
+| [`FirmVault Search`](skills/firmvault-search/) | Search FirmVault legal case documents — medical records, legal filings, insurance papers, correspondence. Use… |
+| [`ICD-10 / CPT Code Normalization`](skills/icd-cpt-normalization/) | Normalizes diagnostic and procedure codes from medical records into clean, attorney-readable form.… |
+| [`Incident Report Summary`](skills/incident-report-summary/) | Generates structured, litigation-ready summaries from police reports, crash reports, workplace incident… |
+| [`Initial Contact Summary`](skills/initial-contact-summary/) | Generates a structured initial contact summary memorandum from a potential client's first interaction with… |
+| [`Medical Treatment Summary`](skills/medical-treatment-summary/) | Generates litigation-ready narrative medical treatment summaries for personal injury cases. Triggers when… |
+| [`Pre-Hearing Statement of Proof`](skills/pre-hearing-statement/) | Drafts a Pre-Hearing Statement of Proof for personal injury litigation. Use when preparing prehearing… |
+| [`Warranty Request Timeline`](skills/warranty-timeline/) | Generates a chronological timeline of warranty requests, claims, and complaints for product defect… |
 
 ## Cold-start context
 

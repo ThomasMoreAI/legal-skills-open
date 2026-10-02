@@ -4,16 +4,19 @@ White-collar and investigations — anti-corruption (FCPA), anti-money-launderin
 
 Jurisdiction: `us` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (6)
+## Skills (9)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aml-compliance`](skills/aml-compliance/) | `white-collar` |
-| [`aml-compliance-program`](skills/aml-compliance-program/) | `white-collar` |
-| [`bsa-risk-assessment`](skills/bsa-risk-assessment/) | `white-collar` |
-| [`cip-policy`](skills/cip-policy/) | `white-collar` |
-| [`fcpa-compliance-policy`](skills/fcpa-compliance-policy/) | `white-collar` |
-| [`sar-filing`](skills/sar-filing/) | `white-collar` |
+| [`Overview`](skills/aml-compliance/) | Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance workflow. Sanctions screening, PEP… |
+| [`AML Compliance Program`](skills/aml-compliance-program/) | Drafts board-ready Anti-Money Laundering compliance programs for U.S. financial institutions under BSA/FinCEN… |
+| [`BSA/AML Risk Assessment`](skills/bsa-risk-assessment/) | Drafts a BSA/AML Risk Assessment for U.S. financial institutions per FinCEN, FFIEC, and OCC standards.… |
+| [`CIP Policy Drafting`](skills/cip-policy/) | Drafts a U.S. Customer Identification Program (CIP) policy compliant with USA PATRIOT Act Section 326 and 31… |
+| [`Design AML Compliance Program`](skills/design-aml-compliance-program-jeffreytse/) | Use when a financial institution or money-services business needs an anti-money-laundering compliance program… |
+| [`FCPA Compliance Policy`](skills/fcpa-compliance-policy/) | Drafts an implementable Foreign Corrupt Practices Act (FCPA) Compliance Policy for U.S.-jurisdictional… |
+| [`sam-gov-exclusions`](skills/sam-gov-exclusions-nolpak14/) | Screen a person or company against the official US federal debarment and exclusions list for free - SAM.gov… |
+| [`SAR Filing`](skills/sar-filing/) | Drafts FinCEN Suspicious Activity Reports (Form 111) for BSA/AML regulatory filing. Compiles subject… |
+| [`us-court-records`](skills/us-court-records-nolpak14/) | Search US litigation and court records against a person or company for free - CourtListener's REST API over… |
 
 ## Cold-start context
 

@@ -4,19 +4,22 @@ Insurance policies, coverage analysis, claims, and insurer regulation.
 
 Jurisdiction: `us` · Practice: `insurance` · Skill language: en
 
-## Skills (9)
+## Skills (12)
 
 | Skill | What it does |
 |---|---|
-| [`Time-Limited Policy Limits Demand`](skills/bad-faith-demand/) | Drafts time-limited policy-limits demand letters that create an opportunity-to-settle record for third-party bad faith… |
-| [`CRE Insurance Certificate Compliance Review`](skills/coi-compliance-review/) | Reviews CRE insurance certificates (ACORD 25) and endorsements against Access Agreement insurance requirements,… |
-| [`Insurance Coverage Opinion`](skills/coverage-opinion/) | Drafts structured insurance coverage opinions analyzing duty to defend and duty to indemnify for carriers. |
-| [`Insurance Certificate Compliance Check`](skills/insurance-certificate-compliance-check/) | Performs contract-driven compliance review of insurance certificates and endorsements against CRE/site-access and… |
-| [`CRE Insurance Certificate Compliance Review`](skills/insurance-certificate-compliance/) | Produces requirement-by-requirement CRE insurance certificate compliance reviews by analyzing ACORD 25 certificates and… |
-| [`Insurance Claim Summary`](skills/insurance-claim-summaries/) | Generates structured summaries of U.S. insurance claim files covering identification, incident narrative, party… |
-| [`Insurance Correspondence Summarization`](skills/insurance-correspondence-summarization/) | Produces structured summaries of insurance claims correspondence including coverage letters, reservation of rights… |
-| [`Insurance Policy Summary`](skills/insurance-policy-summary/) | Produces structured, citation-backed summaries of U.S. |
-| [`Tender Letter Denial`](skills/tender-denial/) | Drafts legally defensible denial letters rejecting tendered defense and indemnification demands. |
+| [`Time-Limited Policy Limits Demand`](skills/bad-faith-demand/) | Drafts time-limited policy-limits demand letters that create an opportunity-to-settle record for third-party… |
+| [`COI Compliance Checker`](skills/coi-compliance-checker-fdu-ins/) | Validates certificates of insurance against lease and contract requirements. Compares coverage types, limits,… |
+| [`CRE Insurance Certificate Compliance Review`](skills/coi-compliance-review/) | Reviews CRE insurance certificates (ACORD 25) and endorsements against Access Agreement insurance… |
+| [`Compliance Skill`](skills/compliance-fdu-ins/) | Regulatory compliance guidelines for life insurance policy administration transactions. Use when processing… |
+| [`Insurance Coverage Opinion`](skills/coverage-opinion/) | Drafts structured insurance coverage opinions analyzing duty to defend and duty to indemnify for carriers.… |
+| [`CRE Insurance Certificate Compliance Review`](skills/insurance-certificate-compliance/) | Produces requirement-by-requirement CRE insurance certificate compliance reviews by analyzing ACORD 25… |
+| [`Insurance Certificate Compliance Check`](skills/insurance-certificate-compliance-check/) | Performs contract-driven compliance review of insurance certificates and endorsements against CRE/site-access… |
+| [`Insurance Claim Summary`](skills/insurance-claim-summaries/) | Generates structured summaries of U.S. insurance claim files covering identification, incident narrative,… |
+| [`Insurance Correspondence Summarization`](skills/insurance-correspondence-summarization/) | Produces structured summaries of insurance claims correspondence including coverage letters, reservation of… |
+| [`Insurance Policy Summary`](skills/insurance-policy-summary/) | Produces structured, citation-backed summaries of U.S. insurance policies, endorsements, claims files, and… |
+| [`Compliance Research Analyst`](skills/legal-compliance-regulatory-monitor/) | Collect and maintain upstream compliance intelligence for financial services and life insurance marketing… |
+| [`Tender Letter Denial`](skills/tender-denial/) | Drafts legally defensible denial letters rejecting tendered defense and indemnification demands. Analyzes… |
 
 ## Cold-start context
 

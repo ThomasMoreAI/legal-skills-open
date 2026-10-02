@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `data-protection` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`applying-rodo`](skills/applying-rodo/) | Use when drafting or reviewing RODO documents — legal basis (art. 6/9), klauzule informacyjne, umowa powierz… |
+| [`applying-rodo`](skills/applying-rodo/) | Use when drafting or reviewing RODO documents — mapping GDPR articles to obligations, legal basis (art. 6/9),… |
 
 ## Cold-start context
 

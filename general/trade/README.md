@@ -6,10 +6,10 @@ Jurisdiction: `general` · Practice: `trade` · Skill language varies per skill 
 
 ## Skills (2)
 
-| Skill | Practice |
+| Skill | What it does |
 |---|---|
-| [`aussenwirtschaft-wto-handelspolitik`](skills/aussenwirtschaft-wto-handelspolitik/) | `trade` |
-| [`commercial-invoice-for-export`](skills/commercial-invoice-for-export/) | `trade` |
+| [`WTO und handelspolitische Maßnahmen`](skills/aussenwirtschaft-wto-handelspolitik/) | WTO Handelspolitik GATT GATS TRIPS und Streitbeilegung für Aussenhandelsmandate. Anwendungsfall… |
+| [`Commercial Invoice for Export`](skills/commercial-invoice-for-export/) | Drafts a compliant Commercial Invoice for Export satisfying customs, banking (L/C), logistics, and insurance… |
 
 ## Cold-start context
 
