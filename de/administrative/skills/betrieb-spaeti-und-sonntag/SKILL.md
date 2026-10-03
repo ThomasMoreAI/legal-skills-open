@@ -1,6 +1,6 @@
 ---
 name: betrieb-spaeti-und-sonntag
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Spätverkaufsstellen, Touristenbedarf, Anlassöffnungen und gemischten…'
 description: Prüft Berliner Spätverkaufsstellen, Touristenbedarf, Anlassöffnungen und gemischten Cafébetrieb. Erstellt eine belegte Stellungnahme nach Sonntagskontrolle und einen rechtlich eingeordneten Öffnungsplan.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-spaeti-und-sonntag

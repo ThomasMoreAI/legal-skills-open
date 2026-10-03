@@ -1,6 +1,6 @@
 ---
 name: vertrag-pruefen-und-aendern
-title: 1. Vertrag prüfen und ändern
+title: 'Vertrag prüfen und ändern'
 description: Prüft einen konkreten Wirtschaftsvertrag aus Sicht der vertretenen Partei und formuliert belastbare Ersatzklauseln, einen Nachtrag oder eine bereinigte Fassung. Verbindet Leistungsumfang, Vergütung, Änderungsfolgen, Haftung, Laufzeit und Form mit den vorgelegten Vertragsversionen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/vertrag-pruefen-und-aendern

@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-gesellschaftsrecht
-title: 1. Gesellschaftsrechtlichen Auftrag bearbeiten
+title: 'Gesellschaftsrechtlichen Auftrag bearbeiten'
 description: 'Für Mandat-Triage Gesellschaftsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/mandat-triage-gesellschaftsrecht

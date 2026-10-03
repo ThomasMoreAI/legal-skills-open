@@ -1,6 +1,6 @@
 ---
 name: audit-log
-title: /audit-log
+title: 'Audit log'
 description: vstack 工具集的会话内行动历史。显示当前 Claude Code 会话中跑过哪些 技能、做了哪些决定、还有什么未完成。用户休息回来问"我们到哪了"或 需要为家人小结时有用。严格内存中；无跨会话持久化（用 /learn 做）。 当用户说"我们做了什么"、"小结"、"我们在哪"或"列出我们的决定"时使用。 (Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/audit-log

@@ -1,6 +1,6 @@
 ---
 name: bauprojekt-starten-und-arbeitsstand-fortfuehren
-title: 1. Bauprojekt zum belastbaren Arbeitsstand führen
+title: 'Bauprojekt zum belastbaren Arbeitsstand führen'
 description: Startet und bearbeitet ein Bauprojekt für Bauherr, Projektentwickler, Bauleitung oder kaufmännisches Team bis zur konkreten Projekttabelle oder zum bestellten Dokument. Verknüpft Planstand, Kosten, Termine, Zahlung und Entscheidung im selben Arbeitsstand; kein bloßer Themenrouter.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bauprojekt-starten-und-arbeitsstand-fortfuehren

@@ -1,6 +1,6 @@
 ---
 name: vertrag-vom-auftrag-bis-zur-endfassung-erstellen
-title: 1. Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen
+title: 'Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen'
 description: Erstellt einen deutschen B2B-Vertrag für ein mittelständisches Einzelgeschäft aus Auftrag, Angebot und Anlagen und führt denselben Entwurf nach Rückfragen bis zur Endfassung fort. Geeignet für Lieferung, Wartung und überschaubare Projekte; keine umfassende Konzern-, Unternehmenskauf- oder internationale Vertriebsstrukturierung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/vertrag-vom-auftrag-bis-zur-endfassung-erstellen

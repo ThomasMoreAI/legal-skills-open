@@ -1,11 +1,11 @@
 ---
 name: croatia-sudreg-nolpak14
-title: croatia-sudreg
+title: 'Croatia sudreg'
 description: 'Look up Croatian companies for free via the official Sudski registar OPEN API (sudreg-data.gov.hr, Ministry of Justice court register) - company profile, OIB (tax ID), MBS (court register number), tvrtka (legal name), pravni oblik (legal form), status, sjediste (registered seat), temeljni kapital (share capital), datum osnivanja, and osobe (board / authorized persons). Use for KYB / know-your-business checks, counterparty verification, director discovery, and Croatian company due diligence. Trigger on: ''Croatia company'', ''Croatian company lookup'', ''sudski registar'', ''sudreg'', ''court register'', ''check a Croatian company'', ''OIB lookup'', ''MBS lookup'', ''is this Croatian company active''. The sudski registar OPEN API is free (after a one-time free registration); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/croatia-sudreg
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: hr
 practice: corporate

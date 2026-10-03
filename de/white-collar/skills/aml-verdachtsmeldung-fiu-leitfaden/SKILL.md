@@ -1,6 +1,6 @@
 ---
 name: aml-verdachtsmeldung-fiu-leitfaden
-title: 1. Verdachtsmeldung prüfen und vorbereiten
+title: 'Verdachtsmeldung prüfen und vorbereiten'
 description: Prüft konkrete Verdachtstatsachen nach GwG Paragraf 43 und erstellt einen FIU-Meldeentwurf nach der seit März 2026 geltenden GwGMeldV. Trennt Privileg, Meldedaten, Nachreichung, Übermittlungsnachweis und Transaktionsfolgen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/aml-verdachtsmeldung-fiu-leitfaden

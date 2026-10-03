@@ -1,6 +1,6 @@
 ---
 name: hoai-4-genehmigungsplanung-und-nachforderungen-bearbeite
-title: 1. Gebäudeantrag und Nachreichung zur Entscheidung vorbereiten
+title: 'Gebäudeantrag und Nachreichung zur Entscheidung vorbereiten'
 description: Bearbeitet die Gebäude-Genehmigungsplanung der HOAI-Leistungsphase 4 vom Antragsstand bis zur begründeten Nachreichung. Erstellt ein zusammenhängendes Genehmigungspaket mit Planbezug, Abweichungsbegründung und fortgeschriebenem Nachforderungsstand. Aktiviert bei phasenweiter Bearbeitung, nicht für eine isolierte Rechnung, Honorarfrage oder bloße Fristnotiz.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-4-genehmigungsplanung-und-nachforderungen-bearbeiten

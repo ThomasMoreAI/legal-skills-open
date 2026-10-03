@@ -1,11 +1,11 @@
 ---
 name: semester-handoff-zhou210712
-title: /semester-handoff
+title: 'Semester handoff'
 description: 学期末案件交接备忘录——/ramp 的镜像。生成按案件的移交备忘录和群体摘要， 使离届群体将工作干净地移交给新群体。读取截止日期、当事人沟通和案件历史。 当指导老师或离届学生需要结束学期、构建移交备忘录或协助毕业/退出学生离任时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-clinic/skills/semester-handoff
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

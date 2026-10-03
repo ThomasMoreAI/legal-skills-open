@@ -1,6 +1,6 @@
 ---
 name: kanzlei-allgemein-kaltstart-routing
-title: 1. Kanzleiarbeit einrichten oder fortsetzen
+title: 'Kanzleiarbeit einrichten oder fortsetzen'
 description: 'Für Kanzlei-Allgemein Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/kaltstart-routing

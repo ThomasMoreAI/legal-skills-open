@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-7
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Practice-profile interview that recommends and installs a starter pack of community legal skills. This IS the cold start for the whole ecosystem — it asks what kind of lawyer you are and recommends what to install first. Use on fresh install, when the user says "get me started" or "what should I install", or to re-run the integration-availability check after adding or removing an MCP connector.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-builder-hub/skills/cold-start-interview

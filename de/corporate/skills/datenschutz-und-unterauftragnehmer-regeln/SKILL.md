@@ -1,6 +1,6 @@
 ---
 name: datenschutz-und-unterauftragnehmer-regeln
-title: 1. Datenschutz und Unterauftragnehmer regeln
+title: 'Datenschutz und Unterauftragnehmer regeln'
 description: Gestaltet auf konkreten Auftrag Datenschutz- und Unterauftragnehmerregelungen einschließlich erforderlicher Auftragsverarbeitung, Rollenabgrenzung und abgestimmtem Vertragsende.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/datenschutz-und-unterauftragnehmer-regeln

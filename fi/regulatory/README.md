@@ -10,7 +10,7 @@ Jurisdiction: `fi` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`finland-company-registry`](skills/finland-company-registry-nolpak14/) | Look up Finnish companies for free via the official PRH Avoindata open data APIs - no key and no… |
+| [`Finland company registry`](skills/finland-company-registry-nolpak14/) | Look up Finnish companies for free via the official PRH Avoindata open data APIs - no key and no… |
 
 ## Cold-start context
 

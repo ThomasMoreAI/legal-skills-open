@@ -1,6 +1,6 @@
 ---
 name: professur-promotion-und-nachwuchs
-title: 1. Zweck und Anwendungsfall
+title: 'Gestaltet Betreuung und klärt professorale Pflichten in Berliner Promotions…'
 description: Gestaltet Betreuung und klärt professorale Pflichten in Berliner Promotions-, Qualifikations- und Personalverfahren mit sauberer Trennung von Prüfungs- und Beschäftigungsrecht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-promotion-und-nachwuchs

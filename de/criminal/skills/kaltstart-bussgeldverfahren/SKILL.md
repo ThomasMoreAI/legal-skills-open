@@ -1,6 +1,6 @@
 ---
 name: kaltstart-bussgeldverfahren
-title: 1. Vom Bußgeldbescheid zur bestellten Verteidigung
+title: 'Vom Bußgeldbescheid zur bestellten Verteidigung'
 description: 'Für Kaltstart Bussgeldverfahren: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ordnungswidrigkeitenrecht/skills/kaltstart-bussgeldverfahren

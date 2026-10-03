@@ -1,6 +1,6 @@
 ---
 name: mandat-bis-zum-schreiben-bearbeiten
-title: 1. Mandat bis zum Schreiben bearbeiten
+title: 'Mandat bis zum Schreiben bearbeiten'
 description: Bearbeitet wirtschaftsrechtliche Alltagsmandate aus vorhandenen Unterlagen selbst bis zum beauftragten Schreiben, Vertrag, Vermerk oder Schriftsatz. Klärt Rolle, Anspruch, Gegenposition, Beweis und Frist im gemeinsamen Aktenstand und vertieft bei Bedarf genau einen Fachweg statt einer neuen Mandatsaufnahme.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/mandat-bis-zum-schreiben-bearbeiten

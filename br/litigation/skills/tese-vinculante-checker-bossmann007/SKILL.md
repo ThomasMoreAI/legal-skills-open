@@ -1,11 +1,11 @@
 ---
 name: tese-vinculante-checker-bossmann007
-title: /tese-vinculante-checker
+title: 'Tese vinculante checker'
 description: 'Antes de protocolar, estrutura uma verificação da tese jurídica contra autoridade vinculante e persuasiva que poderia suspender ou derrotar o caso: súmulas vinculantes STF, súmulas STJ/STF, temas de repercussão geral (STF) e recursos repetitivos (STJ). Identifica risco de sobrestamento nacional (CPC art. 1.037 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]) e IRDR local (CPC arts. 976-987 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]). Não asserta existência de súmula sem fonte. Estrutura protocolo de pesquisa (o que buscar em JusBrasil/STF/STJ) e interpreta resultados. Output: por tese, existe autoridade vinculante a favor/contra, há risco de sobrestamento ativo, recomendação.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/tese-vinculante-checker
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

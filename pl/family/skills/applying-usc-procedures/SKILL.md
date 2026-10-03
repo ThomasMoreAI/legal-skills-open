@@ -1,6 +1,6 @@
 ---
 name: applying-usc-procedures
-title: law-pl-applying-usc-procedures
+title: 'Law PL applying usc procedures'
 description: Use when navigating Polish USC procedures — rejestracja urodzenia (art. 60–69 ASC), małżeństwo cywilne / konkordatowe (art. 76–85), zmiana imienia / nazwiska (ustawa z 17.10.2008), transkrypcja aktów zagranicznych (art. 104–108), sprostowanie / unieważnienie aktu, odpisy (zupełne, skrócone, wielojęzyczne CIEC). Dokumenty, opłata skarbowa, terminy KPA, odwołania. Ustawa z 28.11.2014 o aktach stanu cywilnego
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-usc-procedures

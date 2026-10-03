@@ -1,6 +1,6 @@
 ---
 name: art-4-ki-kompetenz-schulungsprogramm
-title: 1. Kompetenz fördern und Maßnahmen belegen
+title: 'Kompetenz fördern und Maßnahmen belegen'
 description: Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte Systeme. Verwertet vorhandene Einweisungen und trennt Fördermaßnahmen von Zertifikatspflichten und menschlicher Hochrisikoaufsicht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/art-4-ki-kompetenz-schulungsprogramm

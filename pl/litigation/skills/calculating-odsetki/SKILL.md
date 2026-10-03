@@ -1,6 +1,6 @@
 ---
 name: calculating-odsetki
-title: law-pl-calculating-odsetki
+title: 'Law PL calculating odsetki'
 description: Use when calculating Polish odsetki — ustawowe (art. 359 KC), za opóźnienie (art. 481 KC), w transakcjach handlowych (ustawa z 08.03.2013), maksymalne (art. 359 § 2¹). Stawka na dany okres, rekompensata 40/70/100 euro w B2B
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-calculating-odsetki

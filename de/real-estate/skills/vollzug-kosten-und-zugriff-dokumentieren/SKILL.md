@@ -1,6 +1,6 @@
 ---
 name: vollzug-kosten-und-zugriff-dokumentieren
-title: 1. Zweck und Anwendungsfall
+title: 'Freigegebene Grundbuchvorgänge, Übermittlungsnachweise, Kosten, Briefverwahrung und…'
 description: Freigegebene Grundbuchvorgänge, Übermittlungsnachweise, Kosten, Briefverwahrung und Abschluss bis zum verifizierten Endstand verfolgen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/vollzug-kosten-und-zugriff-dokumentieren

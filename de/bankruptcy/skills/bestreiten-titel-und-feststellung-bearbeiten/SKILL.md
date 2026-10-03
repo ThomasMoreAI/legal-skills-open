@@ -1,6 +1,6 @@
 ---
 name: bestreiten-titel-und-feststellung-bearbeiten
-title: 1. Bestreiten, Titel und Feststellung bearbeiten
+title: 'Bestreiten, Titel und Feststellung bearbeiten'
 description: Bereitet betrags- und rangbezogenes Bestreiten vor und ordnet die Folgen für Verwalter, Insolvenzgläubiger und Schuldner getrennt ein. Prüft Titel und Prozessfortsetzung und unterscheidet internen Prüfvorschlag, gerichtliche Feststellung und Verteilungsnachweise.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/bestreiten-titel-und-feststellung-bearbeiten

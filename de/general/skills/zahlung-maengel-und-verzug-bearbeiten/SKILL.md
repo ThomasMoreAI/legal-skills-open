@@ -1,6 +1,6 @@
 ---
 name: zahlung-maengel-und-verzug-bearbeiten
-title: 1. Zahlung, Mängel und Verzug bearbeiten
+title: 'Zahlung, Mängel und Verzug bearbeiten'
 description: Bearbeitet offene Vergütung, mangelhafte Lieferung oder Leistung und Zahlungsverzug bis zur bezifferten Forderung, begründeten Abwehr oder Nacherfüllungsaufforderung. Prüft Rüge, Fristsetzung, Gegenrechte, Teilzahlungen und Zinsen aus den tatsächlichen Belegen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/zahlung-maengel-und-verzug-bearbeiten

@@ -1,6 +1,6 @@
 ---
 name: eingriff-und-verfahrensstand-einordnen
-title: 1. Zweck
+title: 'Ordnet angekündigte Grundstückszugriffe nach Artikel 14 GG anhand vorhandener Akten ein…'
 description: Ordnet angekündigte Grundstückszugriffe nach Artikel 14 GG anhand vorhandener Akten ein und erstellt einen konkreten Mandantenbrief. Verwenden bei Kaufangebot, Anhörung oder unklarer Entziehungsankündigung, nicht als eigenständige Vergesellschaftungsprüfung nach Artikel 15.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/eingriff-und-verfahrensstand-einordnen

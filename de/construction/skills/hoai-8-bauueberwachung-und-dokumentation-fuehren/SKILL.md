@@ -1,6 +1,6 @@
 ---
 name: hoai-8-bauueberwachung-und-dokumentation-fuehren
-title: 1. Gebäudeausführung belegt überwachen und bis zur Übergabe dokumentieren
+title: 'Gebäudeausführung belegt überwachen und bis zur Übergabe dokumentieren'
 description: Bearbeitet die Gebäude-Objektüberwachung nach HOAI-Leistungsphase 8 mit Planabgleich, Bautagebuch, Mengenprüfung, Kostenfeststellung, Abnahme, Übergabe und Abnahmemängeln. Für phasenweite Überwachung, nicht für einzelne Rechnungen oder Mängelanzeigen. Wertet Vor-Ort-Befunde aus, ersetzt aber keine Ortskontrolle.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-8-bauueberwachung-und-dokumentation-fuehren

@@ -1,6 +1,6 @@
 ---
 name: insolvenz-und-masseforderungen-trennen
-title: 1. Insolvenz- und Masseforderungen trennen
+title: 'Insolvenz- und Masseforderungen trennen'
 description: Ordnet Ansprüche nach Entstehung, Leistungszeit und Verwalterhandeln als Insolvenz- oder Masseforderung ein. Prüft fortlaufende Verträge, Erfüllungswahl und vorläufige Verwaltung, ohne aus Rechnungsdatum oder Zustimmung allein einen Masseanspruch abzuleiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/insolvenz-und-masseforderungen-trennen

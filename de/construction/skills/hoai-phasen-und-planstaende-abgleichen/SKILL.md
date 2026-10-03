@@ -1,6 +1,6 @@
 ---
 name: hoai-phasen-und-planstaende-abgleichen
-title: 1. HOAI-Leistungen und tatsächlich vorliegenden Planstand abgleichen
+title: 'HOAI-Leistungen und tatsächlich vorliegenden Planstand abgleichen'
 description: Ordnet Gebäudeplanung den neun Leistungsphasen nach HOAI Anlage 10 zu und erstellt eine belegte Leistungs- und Planstandsliste. Prüft Beauftragung, fehlende Ergebnisse und Freigaben; ersetzt weder Honorarberechnung noch technische Planprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-phasen-und-planstaende-abgleichen

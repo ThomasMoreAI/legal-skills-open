@@ -1,6 +1,6 @@
 ---
 name: betrieb-lebensmittel-und-hygiene
-title: 1. Zweck und Anwendungsfall
+title: 'Bearbeitet Lebensmittelkontrollen, Eigenkontrollen nach HACCP, Kühlketten, Belehrung und…'
 description: Bearbeitet Lebensmittelkontrollen, Eigenkontrollen nach HACCP, Kühlketten, Belehrung und behördliche Verbraucherinformation in Berliner Betrieben. Erstellt konkrete Maßnahmen- und Antworttexte aus Messwerten und belegten Abläufen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-lebensmittel-und-hygiene

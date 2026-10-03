@@ -1,6 +1,6 @@
 ---
 name: nutzungswunsch-und-alternativen-pruefen
-title: 1. Wohnbedarf und freie Wohnungen prüfen
+title: 'Wohnbedarf und freie Wohnungen prüfen'
 description: Prüft Ernsthaftigkeit, Zeitpunkt und Plausibilität des Wohnbedarfs sowie freie Alternativwohnungen. Trennt eine Alternative für den Vermieter von der Anbietpflicht gegenüber dem Mieter und führt zu gezielten Belegfragen statt pauschalen Verdächtigungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/nutzungswunsch-und-alternativen-pruefen

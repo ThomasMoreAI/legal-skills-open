@@ -1,6 +1,6 @@
 ---
 name: krankenkassenrecht-krankenversicherung-kaltstart-triage
-title: 1. Versicherungsfall und Leistungsstreit bearbeiten
+title: 'Versicherungsfall und Leistungsstreit bearbeiten'
 description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Krankenkassenrecht und Krankenversicherung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/kaltstart-triage

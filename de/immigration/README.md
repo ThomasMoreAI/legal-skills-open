@@ -25,7 +25,7 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten`](skills/aufenthaltstitel-pruefung/) | Für Aufenthaltstitel Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Aufenthg: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/aufenthg-fristen-form-und-zustaendigkeit/) | Für Aufenthg: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Ausbildungsduldung: Fachmodul im Migrationsrecht`](skills/ausbildungsduldung/) | Für Ausbildungsduldung: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Ausweisung abwägen`](skills/ausweisung-abwaegung/) | Prüft eine Ausweisung nach den Paragrafen 53 bis 55 AufenthG mit Gefahrenprognose, besonderem Schutz… |
+| [`Ausweisung abwägen`](skills/ausweisung-abwaegung/) | Prüft eine Ausweisung nach den Paragrafen 53 bis 55 AufenthG mit Gefahrenprognose, besonderem Schutz… |
 | [`Ausweisung §§ 53 55 AufenthG`](skills/ausweisung-paragrafe-53-55-aufenthg/) | Für Ausweisung Paragrafen 53 55 AufenthG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mandant erhielt Ausweisungsverfuegung und will Widerspruch oder Klage einlegen oder Rechtsschutz beantragen`](skills/ausweisung-widerspruch/) | Für Ausweisung Widerspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`BA-Zustimmung Beschäftigung: Fachmodul im Migrationsrecht`](skills/ba-zustimmung-beschaeftigung/) | Für BA-Zustimmung Beschäftigung: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und… |
@@ -50,17 +50,17 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Einbürgerung Vorstrafen: Fachmodul im Migrationsrecht`](skills/einbuergerung-strafen/) | Für Einbürgerung Vorstrafen: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Einreise-/Aufenthaltsverbot: Fachmodul im Migrationsrecht`](skills/einreise-und-aufenthaltsverbot/) | Für Einreise-/Aufenthaltsverbot: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und… |
 | [`Elternnachzug: Fachmodul im Migrationsrecht`](skills/elternnachzug/) | Für Elternnachzug: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Akademische Fachkraft und Blaue Karte EU`](skills/erwerbsmigration-fachkraefte-paragraf-18b-aufenthg/) | Routet akademische Fachkräfte zwischen Aufenthaltserlaubnis nach Paragraf 18b AufenthG und Blauer Karte… |
+| [`Akademische Fachkraft und Blaue Karte EU`](skills/erwerbsmigration-fachkraefte-paragraf-18b-aufenthg/) | Routet akademische Fachkräfte zwischen Aufenthaltserlaubnis nach Paragraf 18b AufenthG und Blauer Karte… |
 | [`EURODAC-Treffer: Fachmodul im Migrationsrecht`](skills/eurodac-treffer/) | Für EURODAC-Treffer: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Abschiebungsabwehr`](skills/fachanwalt-migrationsrecht-abschiebungsabwehr/) | Für Abschiebungsabwehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Anschluss-Routing im Migrationsrecht`](skills/fachanwalt-migrationsrecht-anschluss-routing/) | Leitet eine begonnene Migrationsakte anhand von Status, Stichtag, Frist und Ziel in den passenden… |
+| [`Anschluss-Routing im Migrationsrecht`](skills/fachanwalt-migrationsrecht-anschluss-routing/) | Leitet eine begonnene Migrationsakte anhand von Status, Stichtag, Frist und Ziel in den passenden… |
 | [`Asyl-Folgeantrag § 71 AsylG`](skills/fachanwalt-migrationsrecht-asyl-folgeantrag-71/) | Für Asyl-Folgeantrag Paragraf 71 AsylG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Aufenthaltstitel-Antrag`](skills/fachanwalt-migrationsrecht-aufenthaltstitel-antrag/) | Für Aufenthaltstitel-Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Ausweisung-Widerspruch § 53 AufenthG`](skills/fachanwalt-migrationsrecht-ausweisung-widerspruch/) | Für Ausweisung-Widerspruch Paragraf 53 AufenthG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`BAMF-Anhörung / Ausländerbehörde-Kommunikation`](skills/fachanwalt-migrationsrecht-bamf-anhoerung-strategie/) | Für BAMF-Anhörung / Ausländerbehörde-Kommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Dokumentenintake`](skills/fachanwalt-migrationsrecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/fachanwalt-migrationsrecht-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`1. Migrationsrechtlichen Auftrag einordnen und bearbeiten`](skills/fachanwalt-migrationsrecht-einstieg-schnelltriage-fallrouting/) | Für Einstieg Schnelltriage Fallrouting: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Migrationsrechtlichen Auftrag einordnen und bearbeiten`](skills/fachanwalt-migrationsrecht-einstieg-schnelltriage-fallrouting/) | Für Einstieg Schnelltriage Fallrouting: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Strukturierter Erstgespraechsleitfaden für Ausländer-, Asyl- und Staatsangehoerigkeitsrecht: Erfassung der Konstellation`](skills/fachanwalt-migrationsrecht-erstgespraech-mandatsannahme/) | Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Familiennachzug`](skills/fachanwalt-migrationsrecht-familiennachzug/) | Für Familiennachzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`GEAS-Reform: EU-Grenzverfahren 2024`](skills/fachanwalt-migrationsrecht-geas-reform-grenzverfahren-20/) | Für GEAS-Reform: EU-Grenzverfahren 2024: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -74,7 +74,7 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Kaltstart und Routing`](skills/fachanwalt-migrationsrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Mandant will Ehegatten Kinder oder Eltern nach Deutschland holen und fragt nach Voraussetzungen und Verfahren`](skills/familiennachzug/) | Für Familiennachzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Ehegattennachzug: Fachmodul im Migrationsrecht`](skills/familiennachzug-ehegatte/) | Für Ehegattennachzug: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Haushaltsprognose beim Familiennachzug`](skills/familiennachzug-haushaltsprognose-belegabgleich/) | Erstellt beim Familiennachzug zu Drittstaatsangehörigen eine beleggestützte Lebensunterhaltsprognose mit… |
+| [`Haushaltsprognose beim Familiennachzug`](skills/familiennachzug-haushaltsprognose-belegabgleich/) | Erstellt beim Familiennachzug zu Drittstaatsangehörigen eine beleggestützte Lebensunterhaltsprognose mit… |
 | [`Kindernachzug: Fachmodul im Migrationsrecht`](skills/familiennachzug-kind/) | Für Kindernachzug: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Forscher/ICT/Au-pair/Sondertitel: Fachmodul im Migrationsrecht`](skills/forscher-ict-au-pair/) | Für Forscher/ICT/Au-pair/Sondertitel: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und… |
 | [`Freizügigkeit EU: Fachmodul im Migrationsrecht`](skills/freizuegigkeit-eu/) | Für Freizügigkeit EU: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -95,7 +95,7 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Medizinische Abschiebungshindernisse: Fachmodul im Migrationsrecht`](skills/medizinische-abschiebungshindernisse/) | Für Medizinische Abschiebungshindernisse: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und… |
 | [`Spezialfall Asyl-Folge- und Zweitantrag: § 71 AsylG, neue Beweismittel, geaenderte Sachlage`](skills/migr-asyl-folge-und-zweitantrag-spezial/) | Für Migr Asyl Folge und Zweitantrag Spezial: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Leitfaden Asylverfahren und Anhörung BAMF: Vorbereitung Mandantengespraech, dolmetscherische Pflichten, Niederschriftpru`](skills/migr-asylverfahren-anhoerung-leitfaden/) | Für Migr Asylverfahren Anhörung Leitfaden: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Aufenthaltstitel auswählen`](skills/migr-aufenthaltstitel-uebersicht/) | Routet Aufenthaltsziele zu Visum, befristetem Aufenthaltstitel, Blauer Karte EU, ICT-Karte… |
+| [`Aufenthaltstitel auswählen`](skills/migr-aufenthaltstitel-uebersicht/) | Routet Aufenthaltsziele zu Visum, befristetem Aufenthaltstitel, Blauer Karte EU, ICT-Karte… |
 | [`Spezialfall Ausweisung und Abschiebung §§ 53 ff`](skills/migr-ausweisung-abschiebung-spezial/) | Für Migr Ausweisung Abschiebung Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Duldung und Spurwechsel: § 60a AufenthG Duldung, § 19d AufenthG Beschäftigungsduldung, § 25b AufenthG nachha`](skills/migr-duldung-und-spurwechsel-spezial/) | Für Migr Duldung und Spurwechsel Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Einbuergerung und Mehrstaatigkeit nach Reform StAG 2024: verkuerzte Fristen, Mehrstaatigkeit, besondere Inte`](skills/migr-einbuergerung-mehrstaatigkeit-spezial/) | Für Migr Einbürgerung Mehrstaatigkeit Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -119,7 +119,7 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Einbuergerung: Livequellen- und Rechtsprechungscheck`](skills/spezial-einbuergerung-livequellen-und-rechtsprechungsche/) | Für Einbürgerung: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Geas: Red-Team und Qualitätskontrolle`](skills/spezial-geas-red-team-und-qualitaetskontrolle/) | Für Geas: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Sprachzertifikate: Fachmodul im Migrationsrecht`](skills/sprachzertifikate/) | Für Sprachzertifikate: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Staaten- und Gebietscheck gezielt durchführen`](skills/staaten-und-gebiete-migrationscheck/) | Erschließt den passenden Staaten- oder Gebietscheck für migrationsrechtliche Fragen zu Herkunft… |
+| [`Staaten- und Gebietscheck gezielt durchführen`](skills/staaten-und-gebiete-migrationscheck/) | Erschließt den passenden Staaten- oder Gebietscheck für migrationsrechtliche Fragen zu Herkunft… |
 | [`Staatenlosigkeit: Fachmodul im Migrationsrecht`](skills/staatenlosigkeit/) | Für Staatenlosigkeit: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Staatsangehoerigkeit § 10 StAG`](skills/staatsangehoerigkeit-paragraf-10-stag/) | Für Staatsangehörigkeit Paragraf 10 StAG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Stag: Verhandlung, Vergleich und Eskalation`](skills/stag-verhandlung-vergleich-und-eskalation/) | Für Stag: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
@@ -134,7 +134,7 @@ Jurisdiction: `de` · Practice: `immigration` · Skill language: de
 | [`Wohnsitzauflage: Fachmodul im Migrationsrecht`](skills/wohnsitzauflage/) | Für Wohnsitzauflage: Fachmodul im Migrationsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Abschiebungsabwehr sofort: Prüfungslinie für Migrationsrecht`](skills/workflow-abschiebungsabwehr-sofort/) | Für Abschiebungsabwehr sofort: Prüfungslinie für Migrationsrecht: ordnet Norm, Beweislast und… |
 | [`Arbeitgeber-Memo: Prüfungslinie für Migrationsrecht`](skills/workflow-arbeitgeber-memo/) | Für Arbeitgeber-Memo: Prüfungslinie für Migrationsrecht: erstellt Entwurf mit Antrag, Beweis und… |
-| [`1. Asylakte starten`](skills/workflow-asyl-start/) | Startet eine Asylakte mit Dokumentenauswertung, Stichtagsweiche zwischen altem und neuem GEAS… |
+| [`Asylakte starten`](skills/workflow-asyl-start/) | Startet eine Asylakte mit Dokumentenauswertung, Stichtagsweiche zwischen altem und neuem GEAS… |
 | [`Aufenthaltstitel-Router: Prüfungslinie für Migrationsrecht`](skills/workflow-aufenthaltstitel-router/) | Für Aufenthaltstitel-Router: Prüfungslinie für Migrationsrecht: ordnet Norm, Beweislast und… |
 | [`Behördenkommunikation: Prüfungslinie für Migrationsrecht`](skills/workflow-behoerdenkommunikation/) | Für Behördenkommunikation: Prüfungslinie für Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bescheid verstehen: Prüfungslinie für Migrationsrecht`](skills/workflow-bescheid-verstehen/) | Für Bescheid verstehen: Prüfungslinie für Migrationsrecht: ordnet Norm, Beweislast und Gegenargument… |

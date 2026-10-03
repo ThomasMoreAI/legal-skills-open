@@ -1,11 +1,11 @@
 ---
 name: legal-writing-anthropics
-title: /legal-writing
+title: 'Legal writing'
 description: Structural feedback on a legal writing draft (memo, brief, paper, exam essay) — organization, analysis depth, clarity, citation form. NEVER rewrites the draft. Use when the user says "feedback on my memo", "read my draft", or "critique my brief".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/law-student/skills/legal-writing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

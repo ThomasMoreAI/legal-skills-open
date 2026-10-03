@@ -1,6 +1,6 @@
 ---
 name: kranken-und-pflegekasse-antworten
-title: 1. Kranken- und Pflegekasse antworten
+title: 'Kranken- und Pflegekasse antworten'
 description: Bereitet Antworten an Kranken- oder Pflegekassen zu Behandlung, Hilfsmitteln und Pflegeleistungen vor. Verbindet den tatsächlichen Bedarf mit den Nachweisen, prüft Kostenrisiken vor Selbstbeschaffung und trennt Gutachten, Leistungsbescheid und Eilbedarf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/kranken-und-pflegekasse-antworten

@@ -1,11 +1,11 @@
 ---
 name: latvia-company-registry-nolpak14
-title: latvia-company-registry
+title: 'Latvia company registry'
 description: 'Look up Latvian companies for free via the official Register of Enterprises (Uznemumu registrs) open data on data.gov.lv - company profile, registration number (regcode), legal form, registered address, board members and officers (amatpersonas), and - rare among registries - open beneficial owners / UBO (patiesie labuma guveji). Use for KYB / know-your-business checks, counterparty verification, director discovery, and Latvian beneficial-owner (UBO) due diligence. Trigger on: ''Latvia company lookup'', ''Uznemumu registrs'', ''Latvian registration number'', ''check a Latvian company'', ''Latvia regcode'', ''Latvian directors'', ''Latvian beneficial owners'', ''Latvia UBO'', ''is this Latvian company terminated''. The Latvia data is free and keyless; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/latvia-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: lv
 practice: white-collar

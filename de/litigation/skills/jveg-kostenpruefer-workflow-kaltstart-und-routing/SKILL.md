@@ -1,6 +1,6 @@
 ---
 name: jveg-kostenpruefer-workflow-kaltstart-und-routing
-title: 1. JVEG-Abrechnung bis zum gewünschten Dokument bearbeiten
+title: 'JVEG-Abrechnung bis zum gewünschten Dokument bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: JVEG-Kostenprüfer.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jveg-kostenpruefer/skills/workflow-kaltstart-und-routing

@@ -1,11 +1,11 @@
 ---
 name: investigation-add-anthropics
-title: /investigation-add
+title: 'Investigation add'
 description: Add data to an open investigation — documents, interview notes, or observations. Processes batches against the documented pull criteria, surfaces significant items, and logs everything reviewed for coverage verification. Use when new evidence, interview notes, or document productions come in for an open investigation.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/investigation-add
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment

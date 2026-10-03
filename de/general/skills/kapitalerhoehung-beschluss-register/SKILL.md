@@ -1,6 +1,6 @@
 ---
 name: kapitalerhoehung-beschluss-register
-title: 1. Kapitalerhöhung beschließen und zum Register vorbereiten
+title: 'Kapitalerhöhung beschließen und zum Register vorbereiten'
 description: 'Bereitet die GmbH-Kapitalerhöhung als zusammenhängenden Vorgang vor: Beschluss, Bar- oder Sacheinlage, Übernahmeerklärungen, Einzahlungsnachweise und Registervollzug. Trennt Beurkundung des Beschlusses von Beglaubigung der Übernahme und Anmeldung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/kapitalerhoehung-beschluss-register

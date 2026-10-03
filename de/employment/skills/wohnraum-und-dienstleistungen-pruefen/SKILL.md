@@ -1,6 +1,6 @@
 ---
 name: wohnraum-und-dienstleistungen-pruefen
-title: 1. Zugang zu Wohnung und Dienstleistungen prüfen
+title: 'Zugang zu Wohnung und Dienstleistungen prüfen'
 description: Prüft Benachteiligungen bei Wohnungssuche, Maklerkontakt und Dienstleistungen nach dem zivilrechtlichen AGG. Klärt Schutzgrund, Vertragsart, richtige Anspruchsgegner und Belege und erstellt ein Abhilfe- oder Anspruchsschreiben ohne automatische Vertragszusage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/wohnraum-und-dienstleistungen-pruefen

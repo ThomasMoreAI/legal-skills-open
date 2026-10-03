@@ -1,6 +1,6 @@
 ---
 name: freedom-to-operate
-title: /patentrecht:freedom-to-operate
+title: 'Freedom to operate'
 description: Freedom-to-Operate-Analyse vor Markteintritt – Recherche relevanter Patente / Gebrauchsmuster (DEPATISnet, esp@cenet, Patentscope), Schutzbereichsbestimmung nach § 14 PatG / Art. 69 EPÜ mit Wortlaut- und Äquivalenzprüfung, Lebensphasen-Analyse (anhängig / erteilt / abgelaufen / nichtig), Handlungsoptionen bei Treffer (Designaround, Lizenz, Nichtigkeitsantrag § 81 PatG, Verzicht, Risiko-Akzeptanz). Use when ein Unternehmen vor Markteintritt klären muss, ob sein Produkt fremde Schutzrechte verletzt.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/patentrecht/skills/freedom-to-operate

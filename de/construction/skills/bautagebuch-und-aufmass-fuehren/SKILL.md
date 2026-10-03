@@ -1,6 +1,6 @@
 ---
 name: bautagebuch-und-aufmass-fuehren
-title: 1. Bautagebuch und prüffähiges Aufmaß führen
+title: 'Bautagebuch und prüffähiges Aufmaß führen'
 description: Erstellt oder ergänzt Bautagesberichte und positionsbezogene Aufmaße aus tatsächlichen Beobachtungen, Fotos und Messdaten. Trennt Messwert, Schätzung und nachträglichen Eintrag; keine fingierte Baustellenbegehung oder technische Freigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bautagebuch-und-aufmass-fuehren

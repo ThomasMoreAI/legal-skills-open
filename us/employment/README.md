@@ -33,7 +33,7 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Answer to Harassment Complaint`](skills/answer-to-harassment-complaint/) | Drafts a defendant employer's Answer to a workplace harassment complaint. Responds… |
 | [`At-Will Employment Offer Letter`](skills/at-will-employment-offer-letter/) | Drafts a U.S. at-will employment offer letter with unambiguous at-will language, FLSA-compliant… |
 | [`Confidentiality and Invention Assignment Agreement (CIIA)`](skills/ciia-agreement/) | Drafts Confidentiality and Invention Assignment Agreements (CIIAs) for U.S. companies with… |
-| [`/cold-start-interview`](skills/cold-start-interview-5/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
+| [`Cold start interview`](skills/cold-start-interview-5/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
 | [`Commission Plan Agreement`](skills/commission-plan-agreement/) | Drafts U.S. commission plan agreements establishing compensation terms for agents, salespeople, or… |
 | [`Employee Confidentiality and Security Agreement`](skills/confidentiality-security-agreement/) | Drafts enforceable U.S. Employee Confidentiality and Security Agreements protecting proprietary… |
 | [`Confidentiality and Severance Agreement`](skills/confidentiality-severance-agreement/) | Drafts U.S. employment confidentiality and severance agreements combining separation compensation, broad… |
@@ -58,19 +58,19 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Motion for Conditional Certification (FLSA)`](skills/flsa-conditional-certification/) | Drafts a Motion for Conditional Certification under FLSA § 216(b) for wage and hour collective actions.… |
 | [`FMLA Violation Complaint`](skills/fmla-complaint/) | Drafts litigation-ready FMLA violation complaints under 29 U.S.C. § 2617 for federal court or DOL… |
 | [`Handbook Updates`](skills/handbook-updates-bossmann007/) | Diff a proposed handbook change against the current version, flag ripple effects and state supplement… |
-| [`/hiring-review`](skills/hiring-review/) | Review an offer letter and any restrictive covenants — jurisdiction check included. Substantive rules… |
+| [`Hiring review`](skills/hiring-review/) | Review an offer letter and any restrictive covenants — jurisdiction check included. Substantive rules… |
 | [`HR Policy Compliance Summary`](skills/hr-policy-summary/) | Summarizes U.S. HR policies and employee handbooks into plain-language, topic-organized briefs covering… |
 | [`Income Verification Summary`](skills/income-verification-summary/) | Produces court-ready income verification reports from tax returns, W-2s, 1099s, and paystubs for… |
-| [`/investigation-summary`](skills/investigation-summary-bossmann007/) | Draft an audience-specific summary from the privileged investigation memo — HR, leadership, or outside… |
+| [`Investigation summary`](skills/investigation-summary-bossmann007/) | Draft an audience-specific summary from the privileged investigation memo — HR, leadership, or outside… |
 | [`Labor Violation Summary`](skills/labor-violation-summary/) | Produces structured summaries of labor law violation investigations with categorized findings, evidence… |
-| [`/leave-tracker`](skills/leave-tracker/) | Check open leaves for deadline alerts and required decisions. Surfaces only the leaves that require an… |
+| [`Leave tracker`](skills/leave-tracker/) | Check open leaves for deadline alerts and required decisions. Surfaces only the leaves that require an… |
 | [`Employment And Subcontractor Counsel`](skills/legal-employment-everyone-needs-a-copilot/) | Employment and Subcontractor Counsel for ENAC. Use for employee or contractor onboarding, subcontractor… |
 | [`Non-Compete Agreement`](skills/non-compete-agreement/) | Drafts enforceable non-compete, non-solicitation, and confidentiality agreements tailored to U.S. state… |
 | [`Operations Manual Acknowledgement`](skills/ops-manual-acknowledgement/) | Drafts an enforceable Operations Manual Acknowledgement form recording an employee's or franchisee's… |
 | [`Physician Employment Agreement`](skills/physician-employment-agreement/) | Drafts regulatory-compliant Physician Employment Agreements between healthcare employers and licensed… |
 | [`Proprietary Information and Inventions Agreement (PIIA)`](skills/piia/) | Drafts a Proprietary Information and Inventions Agreement (PIIA) for employment or consulting… |
 | [`$employment-legal:policy-drafting`](skills/policy-drafting/) | Draft an employment policy with state supplements where law differs across the jurisdictional footprint.… |
-| [`/policy-drafting`](skills/policy-drafting-anthropics/) | Draft an employment policy with state supplements where law differs across the jurisdictional footprint.… |
+| [`Policy drafting`](skills/policy-drafting-anthropics/) | Draft an employment policy with state supplements where law differs across the jurisdictional footprint.… |
 | [`Complaint for Retaliation`](skills/retaliation-complaint/) | Drafts U.S. employment-retaliation complaints with jurisdiction, causation, and remedy sections aligned… |
 | [`Review Employment Contract`](skills/review-employment-contract-jeffreytse/) | Use when reviewing an employment agreement, offer letter, or independent contractor agreement before signing |
 | [`Notice of Right to Sue Letter`](skills/right-to-sue-letter/) | Drafts EEOC Notice of Right to Sue letters that close the administrative process and authorize… |
@@ -78,10 +78,10 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Confidentiality and Severance Agreement`](skills/severance-agreement/) | Drafts a U.S. Confidentiality and Severance Agreement for employment separations with… |
 | [`US Employment-Law Applicability Checker`](skills/us-employment-law-applicability-checker-rohasnagpal/) | Determines which US federal, State and local employment regimes may apply to a worker, employer and… |
 | [`Us Sox Doddfrank Abgrenzung`](skills/us-sox-doddfrank-abgrenzung/) | Für Us Sox Doddfrank Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`/wage-hour-qa`](skills/wage-hour-qa/) | Jurisdiction-aware wage/hour and employment Q&A — classification, overtime, meal/rest breaks, leave… |
+| [`Wage hour qa`](skills/wage-hour-qa/) | Jurisdiction-aware wage/hour and employment Q&A — classification, overtime, meal/rest breaks, leave… |
 | [`Whistleblower Protection Policy`](skills/whistleblower-policy/) | Drafts board-adoptable whistleblower protection policies for public companies and non-profits. Covers… |
 | [`Whistleblower Protection Policy`](skills/whistleblower-protection-policy/) | Drafts a U.S. whistleblower-protection policy for corporate and nonprofit organizations. Triggers when… |
-| [`/worker-classification`](skills/worker-classification/) | Classify a proposed worker engagement — employee, IC, temp, or vendor — by running the applicable… |
+| [`Worker classification`](skills/worker-classification/) | Classify a proposed worker engagement — employee, IC, temp, or vendor — by running the applicable… |
 | [`Write Employee Handbook Policy`](skills/write-employee-handbook-policy-jeffreytse/) | Use when writing or updating an employee handbook policy on any employment matter including conduct… |
 | [`Wrongful Termination Complaint`](skills/wrongful-termination-complaint/) | Drafts wrongful termination complaints for employment litigation. Covers at-will exceptions, statutory… |
 

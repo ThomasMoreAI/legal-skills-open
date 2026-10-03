@@ -1,11 +1,11 @@
 ---
 name: use-case-triage
-title: /use-case-triage
+title: 'Use case triage'
 description: Quickly determine whether a processing activity needs a PIA, a mandatory GDPR DPIA, or can proceed — surfaces privacy policy conflicts and routes to the right next step. Use when the user asks "does this need a PIA", "triage this feature", "privacy check on X", "is this okay from a privacy perspective", or describes a new data processing activity, product feature, or vendor relationship.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/privacy-legal/skills/use-case-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

@@ -1,6 +1,6 @@
 ---
 name: unternehmensstreit-gerichtlich-vorbereiten
-title: 1. Unternehmensstreit mit bestimmten Anträgen und Belegen vorbereiten
+title: 'Unternehmensstreit mit bestimmten Anträgen und Belegen vorbereiten'
 description: Erstellt für einen konkreten Unternehmensstreit die beauftragte Klage-, Erwiderungs- oder Beweissicherungsfassung mit bestimmten Anträgen und belastbaren Anlagen. Verbindet Gesellschaftsvertretung, Vertragsvortrag, Beweise, Kosten und Fristen; keine allgemeine Discovery und keine automatische Einreichung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/unternehmensstreit-gerichtlich-vorbereiten

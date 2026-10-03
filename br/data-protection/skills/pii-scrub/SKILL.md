@@ -1,6 +1,6 @@
 ---
 name: pii-scrub
-title: /pii-scrub
+title: 'PII scrub'
 description: 'Before sharing client or processual content with the assistant, pseudonymize PII: names → PARTE_A/PARTE_B, CPF/CNPJ/RG → [REDIGIDO], endereços/e-mails/telefones → [REDIGIDO], processo numbers → [Nº PROCESSO]. Outputs pseudonymized text + a local de-para table for re-identification. Flags segredo de justiça and dados sensíveis (LGPD art. 11) risks. Use when pasting case files, contracts, client records, or any text with personal data into the assistant.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/pii-scrub

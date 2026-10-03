@@ -1,6 +1,6 @@
 ---
 name: hochrisiko-konformitaetsbewertung-art-43
-title: 1. Konformitätsbewertung nach Artikel 43
+title: 'Konformitätsbewertung nach Artikel 43'
 description: Bestimmt den zutreffenden Konformitätsbewertungsweg für Hochrisikosysteme. Trennt interne Kontrolle, notifizierte Stelle und produktrechtliche Verfahren und erstellt eine konkrete Nachweis- und Freigabeakte mit aktuellem Anwendungsdatum.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/hochrisiko-konformitaetsbewertung-art-43

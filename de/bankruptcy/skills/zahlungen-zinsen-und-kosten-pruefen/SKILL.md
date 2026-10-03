@@ -1,6 +1,6 @@
 ---
 name: zahlungen-zinsen-und-kosten-pruefen
-title: 1. Zahlungen, Zinsen und Kosten prüfen
+title: 'Zahlungen, Zinsen und Kosten prüfen'
 description: Rekonstruiert den angemeldeten Saldo aus Einzelrechnungen, Gutschriften und Zahlungen. Prüft Zinslauf, Tilgungsbestimmung und Kosten vor und nach Eröffnung und hält gesicherte Forderung, tatsächliche Befriedigung und geschätzten Ausfall auseinander.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/zahlungen-zinsen-und-kosten-pruefen

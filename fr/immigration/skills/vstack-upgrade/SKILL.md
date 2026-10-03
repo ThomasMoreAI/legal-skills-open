@@ -1,6 +1,6 @@
 ---
 name: vstack-upgrade
-title: /vstack-upgrade
+title: 'Vstack upgrade'
 description: 自更新 Schengen-master 技能工具集到最新版。检查当前安装版本 vs GitHub 最新可用版、显示变更内容、跑 `git pull` 更新。幂等 — 重复跑 安全。当用户想拉入新技能、被其他技能提示有未安装的 v0.x+ 技能、或 作为定期维护时使用。(Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/vstack-upgrade

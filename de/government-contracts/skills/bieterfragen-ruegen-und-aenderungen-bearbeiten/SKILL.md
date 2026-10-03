@@ -1,6 +1,6 @@
 ---
 name: bieterfragen-ruegen-und-aenderungen-bearbeiten
-title: 1. Bieterfragen, Rügen und Änderungen bearbeiten
+title: 'Bieterfragen, Rügen und Änderungen bearbeiten'
 description: Bearbeitet Bieterfragen, anwaltliche Rügen und Änderungen laufender Sektorenvergaben. Erstellt Antwort und Abhilfeentscheidung, führt Unterlagenfassungen fort und prüft Publizität, Gleichbehandlung und Fristverlängerung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/bieterfragen-ruegen-und-aenderungen-bearbeiten

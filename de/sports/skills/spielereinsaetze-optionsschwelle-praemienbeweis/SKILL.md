@@ -1,6 +1,6 @@
 ---
 name: spielereinsaetze-optionsschwelle-praemienbeweis
-title: 1. Einsatzschwelle, Option und Prämien
+title: 'Einsatzschwelle, Option und Prämien'
 description: Prüft einsatzabhängige Vertragsverlängerung und Prämien im deutschen Profifußball anhand von Spielminuten, Optionsausübung und Gründen der Nichtaufstellung. Für Schwellenstreit und mögliche Bedingungsvereitelung, nicht für internationale Transferentschädigung oder Dopingverfahren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/spielereinsaetze-optionsschwelle-praemienbeweis

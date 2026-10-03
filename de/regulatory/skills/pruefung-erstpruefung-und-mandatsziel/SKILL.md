@@ -1,6 +1,6 @@
 ---
 name: pruefung-erstpruefung-und-mandatsziel
-title: 1. Planfassung, Betroffenheit und Rechtsschutz prüfen
+title: 'Planfassung, Betroffenheit und Rechtsschutz prüfen'
 description: 'Für Prüfung: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/pruefung-erstpruefung-und-mandatsziel

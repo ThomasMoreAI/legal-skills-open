@@ -1,6 +1,6 @@
 ---
 name: ampel-zahlen-schwellenwerte-berechnung
-title: 1. Liquiditätskennzahlen berechnen und rechtlich einordnen
+title: 'Liquiditätskennzahlen berechnen und rechtlich einordnen'
 description: Berechnet Status, Bilanzlücke und operativen Finanzierungsbedarf. Verhindert die Gleichsetzung von Tabellenfarben und Insolvenzgründen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/ampel-zahlen-schwellenwerte-berechnung

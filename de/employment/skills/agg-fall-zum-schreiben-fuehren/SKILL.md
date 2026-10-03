@@ -1,6 +1,6 @@
 ---
 name: agg-fall-zum-schreiben-fuehren
-title: 1. AGG-Fall zum nächsten Schreiben führen
+title: 'AGG-Fall zum nächsten Schreiben führen'
 description: Führt einen konkreten Diskriminierungsvorgang nach dem AGG vom ersten Beleg zum Beschwerdebrief, Anspruchsschreiben oder nächsten Verfahrensschritt. Klärt Rolle, Schutzbereich und drohende Fristen, ohne eine Benachteiligung vorwegzunehmen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/agg-fall-zum-schreiben-fuehren

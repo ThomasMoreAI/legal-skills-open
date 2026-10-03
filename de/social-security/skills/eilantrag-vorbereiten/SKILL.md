@@ -1,6 +1,6 @@
 ---
 name: eilantrag-vorbereiten
-title: 1. Eilantrag vorbereiten
+title: 'Eilantrag vorbereiten'
 description: Bereitet bei dringender sozialrechtlicher Not einen Eilantrag vor. Unterscheidet drohende Vollziehung von fehlender Leistung, sammelt konkrete Belege für die aktuelle Gefahr und erklärt Rechtsantragstelle, Hauptsachefrist und sichere Einreichung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/eilantrag-vorbereiten

@@ -1,11 +1,11 @@
 ---
 name: prescricao-decadencia-bossmann007
-title: /prescricao-decadencia
+title: 'Prescricao decadencia'
 description: 'Entrevista sobre fatos da causa → matriz de prazos prescricionais e decadenciais aplicáveis por verba. Output por reivindicação: prazo, termo inicial (actio nata), causas interruptivas/suspensivas, status (corrente/prescrito/a vencer). Scaffold + flags para advogado confirmar; não é opinião legal. Use quando o usuário pede "monta o quadro de prescrição" ou "quais são os prazos prescritivos para cada verba".'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/prescricao-decadencia
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

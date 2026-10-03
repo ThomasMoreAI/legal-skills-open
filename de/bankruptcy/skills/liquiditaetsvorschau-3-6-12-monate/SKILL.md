@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsvorschau-3-6-12-monate
-title: 1. Rollierende Planung und Fortbestehensprognose erstellen
+title: 'Rollierende Planung und Fortbestehensprognose erstellen'
 description: Erstellt rollierende Liquiditätspläne über 13 bis 52 Wochen und grenzt die Fortbestehensprognose nach Paragraf 19 InsO von der Prognose nach Paragraf 18 InsO ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/liquiditaetsvorschau-3-6-12-monate

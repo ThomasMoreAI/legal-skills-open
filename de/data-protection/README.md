@@ -8,7 +8,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`1. Automatisierte Kredit- und Risikobewertung`](skills/ai-act-art-6-hochrisiko-ki/) | Prüft automatisierte Kreditwürdigkeits- und Risikobewertung nach der Verordnung (EU) 2024/1689 und… |
+| [`Automatisierte Kredit- und Risikobewertung`](skills/ai-act-art-6-hochrisiko-ki/) | Prüft automatisierte Kreditwürdigkeits- und Risikobewertung nach der Verordnung (EU) 2024/1689 und… |
 | [`KI-VO-Rollen: Kanzlei als Betreiberin, Anbieterin oder API-Orchestratorin`](skills/ai-act-rollen-kanzlei-provider-deployer-api/) | Für europäischer Technikregulierungsrahmen-Rollen: Kanzlei als Betreiberin, Anbieterin oder… |
 | [`Offene Anbieterzusagen zum KI-Einsatz in einer Entscheidungsvorlage bewerten`](skills/anbietern-belehrung-sonderfall-edge/) | Für Anbietern Belehrung Sonderfall Edge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anbietern: Schriftsatz-, Brief- und Memo-Bausteine`](skills/anbietern-schriftsatz-brief-memo-bausteine/) | Für Anbietern: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -42,7 +42,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`AVV-Review – Auftragsverarbeitungsvertrag Art. 28 DSGVO`](skills/avv-pruefung/) | Für AVV-Review – Auftragsverarbeitungsvertrag Art. 28 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`AVV-Audit – Prüfung bestehender Verträge`](skills/avv-pruefung-bestehender-vertraege-audit/) | Für AVV-Audit – Prüfung bestehender Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rollenmix – Getrennt versus gemeinsam versus Auftragsverarbeitung`](skills/avv-rolemix-getrennt-vs-gemeinsam/) | Für Rollenmix – Getrennt versus gemeinsam versus Auftragsverarbeitung: ordnet Norm, Beweislast und… |
-| [`1. Verantwortlichkeit in mehrstufigen Datenwegen bestimmen`](skills/avv-rolemix-getrennt-vs-gemeinsam-verantwortlich/) | Klärt Datenschutzrollen je Verarbeitungsschritt bei Cloud-Diensten, Agenten und verbundenen Unternehmen.… |
+| [`Verantwortlichkeit in mehrstufigen Datenwegen bestimmen`](skills/avv-rolemix-getrennt-vs-gemeinsam-verantwortlich/) | Klärt Datenschutzrollen je Verarbeitungsschritt bei Cloud-Diensten, Agenten und verbundenen Unternehmen.… |
 | [`TOM-Anlage Art. 32 DSGVO`](skills/avv-tom-art-32-dsgvo-anlage/) | Für TOM-Anlage Art. 32 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bdsg: Schriftsatz-, Brief- und Memo-Bausteine`](skills/bdsg-schriftsatz-brief-und-memo-bausteine/) | Für BDSG: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Bdsg: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/bdsg-tatbestand-beweis-und-belege/) | Für BDSG: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
@@ -114,7 +114,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Datenschutz Livecheck — BfDI und Landesaufsichten`](skills/datenschutz-livecheck-bfdi-laender/) | Für Datenschutz Livecheck — BfDI und Landesaufsichten: ordnet Norm, Beweislast und Gegenargument… |
 | [`Livecheck-Skill für aktuelle Veroeffentlichungen BfDI und Landesdatenschutzbehoerden vor Abgabe Schriftsatz oder Stellun`](skills/datenschutz-livecheck-bfdi-laender-aufsichtsbehoerden/) | Für Datenschutz Livecheck Bfdi Länder Aufsichtsbehörden: ordnet Norm, Beweislast und Gegenargument… |
 | [`Datenschutz Loeschpflicht — Art. 17 DSGVO und Aufbewahrung`](skills/datenschutz-loeschpflicht-art-17-aufbewahrung/) | Für Datenschutz Löschpflicht — Art. 17 DSGVO und Aufbewahrung: ordnet Norm, Beweislast und… |
-| [`1. Löschung und rechtmäßige Aufbewahrung abgrenzen`](skills/datenschutz-loeschpflicht-art-17-und-aufbewahrung/) | Bearbeitet Löschanträge und Aufbewahrungskonflikte je Datenbestand, einschließlich Agentengedächtnis… |
+| [`Löschung und rechtmäßige Aufbewahrung abgrenzen`](skills/datenschutz-loeschpflicht-art-17-und-aufbewahrung/) | Bearbeitet Löschanträge und Aufbewahrungskonflikte je Datenbestand, einschließlich Agentengedächtnis… |
 | [`Kommunikation mit Aufsichtsbehoerden BfDI und Landesbehoerden inhaltlich und taktisch fuehren`](skills/datenschutz-mandantenkommunikation-aufsichtsbehoerde/) | Für Datenschutz Mandantenkommunikation Aufsichtsbehörde: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Datenschutz Sanktionsverfahren Verteidigung`](skills/datenschutz-sanktionsverfahren-v-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Datenschutz Sanktionsverfahren Verteidigung ein juristisches Arbeitsprodukt… |
 | [`Datenschutz Schadensersatz — Gerichtsstreit nach Art. 82 DSGVO`](skills/datenschutz-schadensersatz-art-82-dsgvo/) | Prüft DSGVO Artikel 82 nach Verstoß, materiellem oder immateriellem Schaden, Kausalität… |
@@ -162,8 +162,8 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Anwendung der EDPB-Leitlinien WP 248 rev.01 zur DSFA`](skills/dsfa-edpb-leitlinien-9-19-anwendung/) | Für Anwendung der EDPB-Leitlinien WP 248 rev.01 zur DSFA: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO`](skills/dsfa-erstellung/) | Für DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSFA bei internationalen Datentransfers`](skills/dsfa-fuer-internationale-datentransfers/) | Für DSFA bei internationalen Datentransfers: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Folgenabschätzung für einen konkreten Systemeinsatz`](skills/dsfa-fuer-ki-systeme-schnittstelle-art-26-kivo/) | Überprüft eine vorhandene Folgenabschätzung bei geänderten Modellen, Datenwegen oder Betroffenengruppen.… |
-| [`1. Datenschutz- und Grundrechteprüfung koordinieren`](skills/dsfa-ki-systeme-schnittstelle-art-26-kivo/) | Koordiniert Datenschutz-Folgenabschätzung und Grundrechteprüfung eines konkreten Systems. Trennt Rollen… |
+| [`Folgenabschätzung für einen konkreten Systemeinsatz`](skills/dsfa-fuer-ki-systeme-schnittstelle-art-26-kivo/) | Überprüft eine vorhandene Folgenabschätzung bei geänderten Modellen, Datenwegen oder Betroffenengruppen.… |
+| [`Datenschutz- und Grundrechteprüfung koordinieren`](skills/dsfa-ki-systeme-schnittstelle-art-26-kivo/) | Koordiniert Datenschutz-Folgenabschätzung und Grundrechteprüfung eines konkreten Systems. Trennt Rollen… |
 | [`DSFA-Methodik CNIL PIA versus SDM/BSI`](skills/dsfa-methodik-cnil-pia-vs-bsfd-bsi/) | Für DSFA-Methodik CNIL PIA versus SDM/BSI: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`DSFA-Dokumentation und Rechenschaftspflicht`](skills/dsfa-rechenschaftspflicht-art-5-ii/) | Für DSFA-Dokumentation und Rechenschaftspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO`](skills/dsfa-restrisiko-und-art-36-konsultation/) | Für Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO: ordnet Norm, Beweislast und Gegenargument… |
@@ -249,11 +249,11 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Bewertet, ob der Mandant bereits Kenntnis von einer Verletzung im Sinne Art`](skills/dsv-verdacht-vs-festgestellt/) | Für Bewertet, ob der Mandant bereits Kenntnis von einer Verletzung im Sinne Art: ordnet Norm, Beweislast… |
 | [`Steuert die Aktualisierung des Verzeichnisses von Verarbeitungstätigkeiten nach Art`](skills/dsv-vvt-update-nach-vorfall/) | Für Steuert die Aktualisierung des Verzeichnisses von Verarbeitungstätigkeiten nach Art: ordnet Norm… |
 | [`Erstellt eine minutiös rekonstruierte Zeitleiste vom Eintritt der Verletzung bis zur Meldung und Benachrichtigung`](skills/dsv-zeitleiste/) | Für Dsv Zeitleiste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`ecc-claude-ra-qm-team-gdpr-dsgvo-expert`](skills/ecc-claude-ra-qm-team-gdpr-dsgvo-expert/) | OpenClaw bridge skill for ra qm team gdpr dsgvo expert. Use when tasks match this specialized… |
+| [`Ecc claude ra qm team GDPR dsgvo expert`](skills/ecc-claude-ra-qm-team-gdpr-dsgvo-expert/) | OpenClaw bridge skill for ra qm team gdpr dsgvo expert. Use when tasks match this specialized… |
 | [`EDPB-Streitbeilegung Art. 65`](skills/edpb-art-65-streitbeilegung/) | Für EDPB-Streitbeilegung Art. 65: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Einwilligung-Hinweis-Datenschutz`](skills/einwilligung-hinweis-datenschutz/) | Für Einwilligung-Hinweis-Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Erforderlichkeit dokumentieren`](skills/erforderlichkeit-dokumentieren/) | Für Erforderlichkeit dokumentieren: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Zweck und Anwendungsfall`](skills/erp-abnahme-nachtraege-belegabgleich/) | Prüft bei einem streitigen ERP-Einführungsprojekt Abnahme, ursprünglichen Leistungsumfang und… |
+| [`Prüft bei einem streitigen ERP-Einführungsprojekt Abnahme, ursprünglichen Leistungsumfang…`](skills/erp-abnahme-nachtraege-belegabgleich/) | Prüft bei einem streitigen ERP-Einführungsprojekt Abnahme, ursprünglichen Leistungsumfang und… |
 | [`Erstellung: Sonderfall und Edge-Case-Prüfung`](skills/erstellung-sonderfall-edge-case/) | Für Erstellung: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Erstgespräch nach gemeldetem Datenschutzvorfall — Fragenkatalog`](skills/erstgespraech-vorfallmeldung/) | Für Erstgespräch nach gemeldetem Datenschutzvorfall — Fragenkatalog: ordnet Norm, Beweislast und… |
 | [`Eskalationsmatrix Datenschutzvorfall`](skills/eskalationsmatrix/) | Für Eskalationsmatrix Datenschutzvorfall: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
@@ -268,7 +268,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel`](skills/fachanwalt-it-recht-erstpruefung-und-mandatsziel/) | Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`IT-Vertrag-Verhandlung / EU-ODR`](skills/fachanwalt-it-recht-it-vertrag-verhandlung-eu-odr/) | Für IT-Vertrag-Verhandlung / EU-ODR: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
 | [`Juristischer Argumentationskern - Fachanwalt IT Recht`](skills/fachanwalt-it-recht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Fachanwalt IT Recht ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. Konformitätsdossier und IT-Vertrag abstimmen`](skills/fachanwalt-it-recht-ki-vo-hochrisiko-konformitaetsbewert/) | Begleitet die Markteinführung eines Hochrisikosystems aus IT-vertragsrechtlicher Sicht. Ordnet… |
+| [`Konformitätsdossier und IT-Vertrag abstimmen`](skills/fachanwalt-it-recht-ki-vo-hochrisiko-konformitaetsbewert/) | Begleitet die Markteinführung eines Hochrisikosystems aus IT-vertragsrechtlicher Sicht. Ordnet… |
 | [`Open-Source-Compliance-Audit`](skills/fachanwalt-it-recht-open-source-compliance-audit/) | Für Open-Source-Compliance-Audit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fachanwalt für Informationstechnologierecht — Orientierung`](skills/fachanwalt-it-recht-orientierung/) | Für Fachanwalt für Informationstechnologierecht — Orientierung: ordnet Norm, Beweislast und… |
 | [`Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO`](skills/fachanwalt-it-recht-orientierung-mandat-fachanwaltschaft/) | Für Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO: ordnet Norm, Beweislast und… |
@@ -311,7 +311,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Itil sla Vertragsstrafe`](skills/itil-sla-vertragsstrafe/) | Für Itil sla Vertragsstrafe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`IT-Recht einfuehrend: IT-Vertragsrecht (Beschaffung, Wartung, SLA), Datenschutz DSGVO/BDSG, IT-Sicherheit BSI-Gesetz und`](skills/itr-einfuehrung-rechtsmaterien/) | Für Itr Einführung Rechtsmaterien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezialfall Incident-Response-Runbook nach IT-SiG 2.0 und NIS2: Meldepflichten BSI, ENISA-Schwellen, Forensik, Kommunika`](skills/itr-incident-response-runbook-spezial/) | Für Itr Incident Response Runbook Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Systemvertrag und Handlungsvollmachten gestalten`](skills/itr-ki-systeme-vertragsklausel-leitfaden/) | Verhandelt Verträge über KI-Systeme und handelnde Agenten anhand von Leistungsbeschreibung… |
+| [`Systemvertrag und Handlungsvollmachten gestalten`](skills/itr-ki-systeme-vertragsklausel-leitfaden/) | Verhandelt Verträge über KI-Systeme und handelnde Agenten anhand von Leistungsbeschreibung… |
 | [`Spezialfall NIS2-Umsetzung: KRITIS-Sektoren plus wesentliche und wichtige Einrichtungen, Risikomanagement, Meldepflichte`](skills/itr-nis2-konkrete-pflichten-spezial/) | Für Itr Nis2 Konkrete Pflichten Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezialfall Open-Source-Compliance: Copyleft GPL/AGPL/LGPL, Permissive MIT/Apache, SBOM`](skills/itr-open-source-compliance-spezial/) | Für Itr Open Source Compliance Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Bauleiter SaaS-Vertrag: Service Level Agreement, Datenverarbeitung Auftragsverarbeitungsvertrag, Mitwirkungspflichten, V`](skills/itr-saas-vertrag-bauleiter/) | Für Itr Saas Vertrag Bauleiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -325,7 +325,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Ex-ante-Vermerk zur Erforderlichkeit`](skills/ki-erforderlichkeit-ex-ante-vermerk/) | Für Ex-ante-Vermerk zur Erforderlichkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ex-ante-Vermerk zur Erforderlichkeit`](skills/ki-erforderlichkeit-no-training-mandanten/) | Für Ex-ante-Vermerk zur Erforderlichkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`No-Training, Modellverbesserung und Telemetrie`](skills/ki-no-training-modellverbesserung-telemetrie/) | Für No-Training, Modellverbesserung und Telemetrie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Systemregulierung und Datenschutz zusammen prüfen`](skills/ki-verordnung-compliance/) | Verbindet die Verordnung EU 2024/1689 mit der Datenschutzprüfung eines konkreten Systems. Trennt Rollen… |
+| [`Systemregulierung und Datenschutz zusammen prüfen`](skills/ki-verordnung-compliance/) | Verbindet die Verordnung EU 2024/1689 mit der Datenschutzprüfung eines konkreten Systems. Trennt Rollen… |
 | [`Kinderdaten im Datenschutzvorfall — besondere Schutzbedürftigkeit`](skills/kinderdaten-besondere/) | Für Kinderdaten im Datenschutzvorfall — besondere Schutzbedürftigkeit: ordnet Norm, Beweislast und… |
 | [`Klauseln: Beweislast, Darlegungslast und Substantiierung`](skills/klauseln-beweislast-darlegungslast/) | Für Klauseln: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Klauseln: Beweislast, Darlegungslast und Substantiierung`](skills/klauseln-beweislast-verschwiegenheitsklausel/) | Für Klauseln: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
@@ -337,7 +337,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Legal: Behörden-, Gerichts- oder Registerweg`](skills/legal-behoerden-gerichts-registerweg/) | Für Legal: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lessons Learned und Nachbereitung Datenschutzvorfall`](skills/lessons-learned-nachbereitung/) | Für Lessons Learned und Nachbereitung Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument… |
 | [`Lizenz: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/lizenz-risikoampel-und-gegenargumente/) | Für Lizenz: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
-| [`/mandanten-kommunikations-log`](skills/mandanten-kommunikations-log/) | Für /mandanten-kommunikations-log: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Mandanten kommunikations log`](skills/mandanten-kommunikations-log/) | Für /mandanten-kommunikations-log: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Mandantendaten und KI-Dienstleister (§ 203 StGB, Art. 28 DSGVO)`](skills/mandantendaten-ki/) | Für Mandantendaten und digitale Werkzeuge-Dienstleister (Paragraf 203 StGB, Art. 28 DSGVO): ordnet Norm… |
 | [`Mandat-Arbeitsbereich – Mehrmandat-Kanzlei`](skills/mandat-arbeitsbereich/) | Für Mandat-Arbeitsbereich – Mehrmandat-Kanzlei: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check`](skills/mandat-triage-it-recht/) | Für Strukturierte Eingangs-Abfrage für IT-rechtliche Mandate mit Fristen-Sofort-Check: routet Rolle… |
@@ -359,7 +359,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Parallelnormen — alle fünf Berufe`](skills/parallelnormen-andere-ai-act-art-vo/) | Für Parallelnormen — alle fünf Berufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Patentanwälte: Verhandlung, Vergleich und Eskalation`](skills/patentanwaelte-verhandlung-vergleich-eskalation/) | Für Patentanwälte: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Patentanwälte: Verhandlung, Vergleich und Eskalation`](skills/patentanwaelte-verhandlung-vergleich-und-eskalation/) | Für Patentanwälte: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
-| [`1. Plattformmoderation und Rechtsbehelf`](skills/plattform-dsa-art-14-eu-2022-2065/) | Steuert Plattformfälle nach der Verordnung (EU) 2022/2065 von Nutzungsbedingungen und Meldung bis… |
+| [`Plattformmoderation und Rechtsbehelf`](skills/plattform-dsa-art-14-eu-2022-2065/) | Steuert Plattformfälle nach der Verordnung (EU) 2022/2065 von Nutzungsbedingungen und Meldung bis… |
 | [`Pressemitteilung und Krisenkommunikation bei Datenschutzvorfall`](skills/pressemitteilung-krisenkommunikation/) | Für Pressemitteilung und Krisenkommunikation bei Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Privacy Policy and GDPR Transparency`](skills/privacy-policy-maltehedderich/) | Draft, review, or debug EU privacy policies and GDPR transparency notices for SaaS products. Use when… |
 | [`Privaten: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/privaten-risikoampel-gegenargumente/) | Für Privaten: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
@@ -391,7 +391,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`RoPA bei besonderen Datenkategorien – Art. 9 DSGVO, § 26 BDSG, Art. 10 DSGVO`](skills/ropa-bdsg-besondere-art-9-categories/) | Für RoPA bei besonderen Datenkategorien – Art. 9 DSGVO, Paragraf 26 BDSG, Art. 10 DSGVO: ordnet Norm… |
 | [`Records of Processing Activities (RoPA) – Controller Template (English)`](skills/ropa-en-controller-template/) | Für Records of Processing Activities (RoPA) – Controller Template (English): ordnet Norm, Beweislast und… |
 | [`Records of Processing Activities (RoPA) – Processor Template (English)`](skills/ropa-en-processor-template/) | Für Records of Processing Activities (RoPA) – Processor Template (English): ordnet Norm, Beweislast und… |
-| [`1. Verarbeitungstätigkeiten bei lernenden Systemen erfassen`](skills/ropa-fuer-ki-anwendungen-besonderheiten/) | Erstellt Verzeichniseinträge für Training, Suche, Eingaben, Ausgaben und Protokolle eines Systems. Prüft… |
+| [`Verarbeitungstätigkeiten bei lernenden Systemen erfassen`](skills/ropa-fuer-ki-anwendungen-besonderheiten/) | Erstellt Verzeichniseinträge für Training, Suche, Eingaben, Ausgaben und Protokolle eines Systems. Prüft… |
 | [`RoPA im Konzern und in Multi-Entity-Strukturen`](skills/ropa-konzernumlauf-und-multi-entity/) | Für RoPA im Konzern und in Multi-Entity-Strukturen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rückfragebrief an Anbieter`](skills/rueckfragebrief-an-anbieter/) | Für Rückfragebrief an Anbieter: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Rueckfragebrief: Mandantenkommunikation und Entscheidungsvorlage`](skills/rueckfragebrief-mandantenentscheidung/) | Für Rückfragebrief: Mandantenkommunikation und Entscheidungsvorlage: erstellt Entwurf mit Antrag, Beweis… |

@@ -1,6 +1,6 @@
 ---
 name: deutschem-dokumentationspaket-excel
-title: 1. Deutschem Dokumentationspaket Excel
+title: 'Deutschem Dokumentationspaket Excel'
 description: 'Für Deutschem Dokumentationspaket Excel: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/deutschem-dokumentationspaket-excel

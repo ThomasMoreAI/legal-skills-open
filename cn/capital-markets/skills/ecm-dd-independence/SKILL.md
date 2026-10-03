@@ -1,6 +1,6 @@
 ---
 name: ecm-dd-independence
-title: ecm-dd-independence
+title: 'Ecm DD independence'
 description: 资本市场尽职调查 Skill：发行人独立性核查（对应《编报规则第 12 号》第 4 章）。 当用户提到以下场景时触发：独立性、五独立、资产独立、业务独立、人员独立、财务独立、 机构独立、资产完整、业务完整、完整的业务体系、直接面向市场独立持续经营、 控股股东依赖、实控人依赖、关联方依赖、高管兼职、一套人马两块牌子、 财务核算独立、独立银行账户、独立纳税、独立财务制度、独立机构设置、 独立董事会 / 监事会 / 股东会、与控股股东资金混同、与关联方业务混同、 非独立性问题、独立性瑕疵、整改承诺、独立性意见、 independence DD、five-independence check、substantive independence 等。 典型输入：资产权属证明（土地 / 房产 / 知识产权 / 主要设备）、董监高及财务人员兼职情况说明、 财务管理制度、独立的银行账户证明、独立纳税证明、组织机构图、内部部门设置文件、 关联交易协议（关联方依赖评估输入）、同业竞争说明、历史期对控股股东资金拆借清理证明、 独立性整改承诺函。 非触发边界：具体的关联交易和同业竞争问题归 ecm-dd-related-party（本 skill 依赖其产出 做重大依赖判断）；股东 / 实控人本身的身份穿透归 ecm-dd-shareholders；董监高的任职资格 归 ecm-dd-directors（本 skill 只关注高管兼职对独立性的影响）；业务资质和合法合规归 ecm-dd-business；资产权属本身归 ecm-dd-assets；财务核算会计准则问题由会计师主导； 五独立审查的主责主体是法律 + 会计联合完成，本 skill 承担法律视角的独立性核查。 即使用户只说"帮我看一下这家公司和大股东的独立性""能不能过五独立"，也应触发本 skill。
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-independence

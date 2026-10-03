@@ -1,6 +1,6 @@
 ---
 name: kanzlei-mandatsintake-hoai
-title: 1. HOAI-Mandat anhand der Projektakte bearbeiten
+title: 'HOAI-Mandat anhand der Projektakte bearbeiten'
 description: 'Für HOAI Querschnitt: Fragt anwaltlich alle unterlagen für HOAI-/bauprojektmandat ab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/kanzlei-mandatsintake-hoai

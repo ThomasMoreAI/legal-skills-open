@@ -1,6 +1,6 @@
 ---
 name: gmbh-einziehung-abfindung-finanzierbarkeit
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft bei der Einziehung eines GmbH-Anteils Abfindung, freies Vermögen und…'
 description: Prüft bei der Einziehung eines GmbH-Anteils Abfindung, freies Vermögen und Zahlungsfähigkeit zu getrennten Stichtagen. Verknüpft Satzung, Bewertungsunterlagen und Finanzierungsnachweise zu einer Entscheidungsvorlage; nicht für allgemeine Beschlussmängel oder einen isolierten Unternehmenswert.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/gmbh-einziehung-abfindung-finanzierbarkeit

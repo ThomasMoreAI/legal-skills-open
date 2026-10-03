@@ -1,6 +1,6 @@
 ---
 name: agg-klage-und-erwiderung-entwerfen
-title: 1. AGG-Schriftsatz erstellen
+title: 'AGG-Schriftsatz erstellen'
 description: Erstellt eine AGG-Klage oder Erwiderung aus Anspruchsschreiben und Belegen. Prüft Rechtsweg, Ausschlussfristen, Anträge und Indizienbeweis, trennt Entschädigung von Vermögensschaden und führt den Vortrag bis zum ausformulierten Schriftsatz.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/agg-klage-und-erwiderung-entwerfen

@@ -1,6 +1,6 @@
 ---
 name: arbeitsrecht-anpassen
-title: /arbeitsrecht:arbeitsrecht-anpassen
+title: 'Arbeitsrecht anpassen'
 description: 'Für /arbeitsrecht:arbeitsrecht-anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/arbeitsrecht-anpassen

@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-11
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Cold-start interview — connects to your launch tracker, reads past reviews, learns your risk calibration. Use on fresh install, when onboarding product counsel, or when the plugin config has placeholders. Run with --redo to re-interview, or --check-integrations to re-probe connectors only.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/product-legal/skills/cold-start-interview

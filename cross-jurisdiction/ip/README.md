@@ -13,7 +13,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `ip` · Skill language: en
 | [`End-User License Agreement (EULA)`](skills/eula/) | Drafts enforceable End-User License Agreements for software licensors across desktop, mobile, SaaS, and… |
 | [`申请商标`](skills/file-trademark/) | 涵盖 EUIPO（欧盟）、USPTO（美国）和 WIPO Madrid Protocol（国际）的商标 申请步骤。引导您完成申请前冲突检查、Nice 分类、描述性评估、商标类型决策、… |
 | [`Infringement Analyst`](skills/infringement-analyst-rohasnagpal/) | Analyse alleged intellectual-property infringement element by element, including title, subsistence… |
-| [`/invention-intake`](skills/invention-intake-bossmann007/) | Invention disclosure first-pass screen — novidade, atividade inventiva, patenteabilidade (LPI art.… |
+| [`Invention intake`](skills/invention-intake-bossmann007/) | Invention disclosure first-pass screen — novidade, atividade inventiva, patenteabilidade (LPI art.… |
 | [`IP Portfolio Analyst`](skills/ip-portfolio-analyst-rohasnagpal/) | Audit an intellectual-property portfolio for ownership, protection, scope, deadlines, territorial… |
 | [`Jurisdiction Format: Patent Filing Compilation`](skills/jurisdiction-format/) | Compile patent application into jurisdiction-specific filing format. Use when user says "格式转换"… |
 | [`Madrid-Protokoll und Internationale Registrierung`](skills/madrid-protokoll-und-internationale-registrierung/) | Für Madrid-Protokoll und Internationale Registrierung: ordnet Norm, Beweislast und Gegenargument… |

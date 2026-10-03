@@ -1,6 +1,6 @@
 ---
 name: richter-amtsgericht-insolvenz-re-99-finale-entscheidung-volltext
-title: 1. Insolvenz- oder Restrukturierungsbeschluss vollständig entwerfen
+title: 'Insolvenz- oder Restrukturierungsbeschluss vollständig entwerfen'
 description: 'Für Finale Entscheidung als Volltext (Beschluss Insolvenz oder Restrukturierung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-amtsgericht-insolvenz-restrukturierung/skills/99-finale-entscheidung-volltext

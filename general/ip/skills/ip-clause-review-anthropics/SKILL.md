@@ -1,11 +1,11 @@
 ---
 name: ip-clause-review-anthropics
-title: /ip-clause-review
+title: 'IP clause review'
 description: Review the IP clauses in an agreement — assignment, ownership, license grants, warranties, indemnities. Use when reviewing IP terms in employment, consulting, SOW, vendor, or licensing agreements, when asked to check the assignment language or license scope, or when an agreement with IP provisions is pasted or attached.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ip-legal/skills/ip-clause-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

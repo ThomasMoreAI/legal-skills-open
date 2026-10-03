@@ -1,6 +1,6 @@
 ---
 name: ladeninhaber-und-fremdparker-abgrenzen
-title: 1. Ladeninhaber und fremde Falschparker abgrenzen
+title: 'Ladeninhaber und fremde Falschparker abgrenzen'
 description: Prüft behördliche Pflichten eines Ladeninhabers bei fremden Falschparkern und trennt eigene Hindernisse, konkrete Veranlassung und unbeteiligtes Kundenverhalten ohne pauschale Geschäftsinhaberhaftung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/ladeninhaber-und-fremdparker-abgrenzen

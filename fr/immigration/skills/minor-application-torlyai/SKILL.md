@@ -1,6 +1,6 @@
 ---
 name: minor-application-torlyai
-title: /minor-application
+title: 'Minor application'
 description: '未成年人（18 岁以下）儿童申请法国申根短期签证的入口。引导用户处理
 
   未成年人特定文件要求：出生证明、父母一方/双方不随行时的同意书、
@@ -15,7 +15,7 @@ description: '未成年人（18 岁以下）儿童申请法国申根短期签证
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/minor-application
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

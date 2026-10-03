@@ -1,11 +1,11 @@
 ---
 name: reg-gap-analysis-bossmann007
-title: /reg-gap-analysis
+title: 'Reg gap analysis'
 description: Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a remediation plan with owners and dates. Use when a new reg drops, the user asks "does [regulation] affect us", "gap analysis for [new Resolução CD/ANPD or sectoral rule]", "compliance check against [reg]", or pastes regulatory text.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/reg-gap-analysis
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: br
 practice: data-protection

@@ -1,6 +1,6 @@
 ---
 name: hiring-review-bossmann007
-title: /hiring-review
+title: 'Hiring review'
 description: Revisa uma carta-proposta/contrato de trabalho e qualquer cláusula restritiva (não-concorrência, não-aliciamento) — com checagem de base territorial/CCT incluída. Regras substantivas (exigibilidade de cláusula restritiva, piso salarial da categoria, enquadramento no art. 62 CLT) são pesquisadas por contratação, não armazenadas. Use quando o usuário disser "revisa essa proposta", "podemos usar não-concorrência aqui", "confere essa carta-proposta", "contratação em [estado/categoria]", ou anexar uma proposta.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/hiring-review

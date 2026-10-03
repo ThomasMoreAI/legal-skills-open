@@ -1,6 +1,6 @@
 ---
 name: applying-new-york-convention
-title: law-pl-applying-new-york-convention
+title: 'Law PL applying new york convention'
 description: Use when preparing applications for recognition and enforcement of foreign arbitral awards in Poland, applications for setting aside arbitral awards under KPC art. 1205–1211, or opposing such applications — mapping Article V of the 1958 New York Convention to art. 1214–1215 of the Polish KPC, identifying grounds for refusal, structuring public policy arguments
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-new-york-convention

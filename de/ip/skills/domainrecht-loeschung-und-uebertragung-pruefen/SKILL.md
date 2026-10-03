@@ -1,6 +1,6 @@
 ---
 name: domainrecht-loeschung-und-uebertragung-pruefen
-title: 1. Domainkonflikt bearbeiten
+title: 'Domainkonflikt bearbeiten'
 description: Prüft Domainkonflikte nach Namens-, Kennzeichen- und Lauterkeitsrecht und trennt Unterlassung, Löschung, Dispute-Eintrag und Übertragung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/domainrecht-loeschung-und-uebertragung-pruefen

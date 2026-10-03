@@ -1,6 +1,6 @@
 ---
 name: rechtsprechung-fehlerkatalog
-title: 1. Liquiditätsprüfung auf fachliche Fehler kontrollieren
+title: 'Liquiditätsprüfung auf fachliche Fehler kontrollieren'
 description: Kontrolliert Liquiditätsstatus und Prognose auf Methodenfehler, unzutreffende Rechtsprechungsübertragung und fehlende Belege; liefert konkrete Berichtigungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/rechtsprechung-fehlerkatalog

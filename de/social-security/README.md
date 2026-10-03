@@ -19,12 +19,12 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`09 Urteil Sozialgericht`](skills/09-urteil-sozialgericht/) | Für 09 Urteil Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`10 Entscheidungsvorschlag Sozialgericht`](skills/10-entscheidungsvorschlag-sozialgericht/) | Für 10 Entscheidungsvorschlag Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Abrechnung GOÄ/GOZ und Erstattung`](skills/abrechnung-goae-goz-und-erstattung/) | Für Abrechnung GOÄ/GOZ und Erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Akte einsehen und Tatsachen klären`](skills/akte-einsehen-und-tatsachen-klaeren/) | Klärt fehlende oder widersprüchliche Tatsachen in einem Sozialverfahren. Erstellt einen gezielten Antrag… |
+| [`Akte einsehen und Tatsachen klären`](skills/akte-einsehen-und-tatsachen-klaeren/) | Klärt fehlende oder widersprüchliche Tatsachen in einem Sozialverfahren. Erstellt einen gezielten Antrag… |
 | [`Akteneinsicht 25 Sgb X`](skills/akteneinsicht-25-sgb-x/) | Für Akteneinsicht 25 SGB X: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mandant oder Anwalt benoetigt Einsicht in die Verwaltungsakte oder Gerichtsakte in einem laufenden Sozialrechtsverfahren`](skills/akteneinsicht-anfordern/) | Für Akteneinsicht Anfordern: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Anwalt hat Sozialrechts-Verwaltungs- oder Gerichtsakte erhalten und muss diese systematisch für Widerspruch oder Klage a`](skills/akteneinsicht-auswerten/) | Für Akteneinsicht Auswerten: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`aktenstruktur-und-dokumentenintake`](skills/aktenstruktur-und-dokumentenintake/) | Für aktenstruktur-und-dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
-| [`altersrente-langjaehrig-besonders-langjaehrig`](skills/altersrente-langjaehrig-besonders-langjaehrig/) | Für altersrente-langjaehrig-besonders-langjaehrig: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Aktenstruktur und dokumentenintake`](skills/aktenstruktur-und-dokumentenintake/) | Für aktenstruktur-und-dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Altersrente langjaehrig besonders langjaehrig`](skills/altersrente-langjaehrig-besonders-langjaehrig/) | Für altersrente-langjaehrig-besonders-langjaehrig: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Das Gericht ermittelt für Sie — § 103 SGG`](skills/amtsermittlungsgrundsatz-103-sgg/) | Für Das Gericht ermittelt für Sie — Paragraf 103 SGG: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anfänger-Sozialgericht`](skills/anfaenger-workflow-sozialgericht/) | Für Anfänger-Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Die Anfechtungsklage — § 54 Abs. 1 SGG`](skills/anfechtungsklage-54-sgg/) | Für Die Anfechtungsklage — Paragraf 54 Abs. 1 SGG: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -35,9 +35,9 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Anlagen zur Klage — sortieren und bezeichnen`](skills/anlagen-bezeichnen-sortieren-sozialgericht/) | Für Anlagen zur Klage — sortieren und bezeichnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anlagen zur Klage richtig bezeichnen sortieren und nummerieren`](skills/anlagen-bezeichnen-und-sortieren-sozialgericht/) | Für Anlagen zur Klage richtig bezeichnen sortieren und nummerieren: ordnet Norm, Beweislast und… |
 | [`Anwalt muss Anlagenkonvolut zu Widerspruch Klage oder Schriftsatz in korrekter juristischer Konvention erstellen`](skills/anlagen-erstellen/) | Für Anlagen Erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Antrag und Nachweise vorbereiten`](skills/antrag-und-nachweise-vorbereiten/) | Erstellt einen eigenen Antrag auf Sozialleistungen aus dem konkreten Bedarf und vorhandenen Nachweisen.… |
+| [`Antrag und Nachweise vorbereiten`](skills/antrag-und-nachweise-vorbereiten/) | Erstellt einen eigenen Antrag auf Sozialleistungen aus dem konkreten Bedarf und vorhandenen Nachweisen.… |
 | [`Anwaltskosten erstattet bekommen`](skills/anwaltskosten-bei-erfolg-erstattung/) | Für Anwaltskosten erstattet bekommen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Vertretung vor Sozialgericht, Landessozialgericht und Bundessozialgericht`](skills/anwaltszwang-pruefen-73-sgg/) | Für Brauchen Sie einen Anwalt? der Paragraf 73 SGG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Vertretung vor Sozialgericht, Landessozialgericht und Bundessozialgericht`](skills/anwaltszwang-pruefen-73-sgg/) | Für Brauchen Sie einen Anwalt? der Paragraf 73 SGG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitnehmerüberlassung Abgrenzung`](skills/arbeitnehmerueberlassung-abgrenzung/) | Für Arbeitnehmerüberlassung Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Arbeitslosengeld I — Streit mit der Arbeitsagentur`](skills/arbeitslosengeld-i-sgb-iii/) | Für Arbeitslosengeld I — Streit mit der Arbeitsagentur: ordnet Norm, Beweislast und Gegenargument… |
 | [`Arbeitslosengeld § 150 sgb iii`](skills/arbeitslosengeld-paragraf-150-sgb-iii/) | Für Arbeitslosengeld Paragraf 150 SGB iii: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -68,7 +68,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Bescheidanalyse Status/Beiträge`](skills/bescheid-analyse/) | Für Bescheidanalyse Status/Beiträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`60-Sekunden-Sofortprüfung der Frist eines sozialrechtlichen Bescheids`](skills/bescheid-frist-quick-check/) | Für 60-Sekunden-Sofortprüfung der Frist eines sozialrechtlichen Bescheids: prüft Frist, Form… |
 | [`Bescheid Lesen Tenor Begruendung Belehrung`](skills/bescheid-lesen-tenor-begruendung-belehrung/) | Für Bescheid Lesen Tenor Begründung Belehrung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Bescheid und Frist prüfen`](skills/bescheid-und-frist-pruefen/) | Prüft einen Sozialbescheid, seinen Zugang und den zulässigen Rechtsbehelf. Unterscheidet Widerspruch… |
+| [`Bescheid und Frist prüfen`](skills/bescheid-und-frist-pruefen/) | Prüft einen Sozialbescheid, seinen Zugang und den zulässigen Rechtsbehelf. Unterscheidet Widerspruch… |
 | [`Bescheid Widerspruch Klage Sozialgericht`](skills/bescheid-widerspruch-klage-sozialgericht/) | Für Bescheid Widerspruch Klage Sozialgericht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Mandant hat Sozialleistungsbescheid erhalten und Anwalt muss dessen Inhalt rechtlich aufschluesseln`](skills/bescheidanalyse/) | Für Bescheidanalyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Betriebliche Krankenversicherung und Datenschutz`](skills/betriebliche-krankenversicherung-und-datenschutz/) | Für Betriebliche Krankenversicherung und Datenschutz: ordnet Norm, Beweislast und Gegenargument… |
@@ -93,7 +93,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`PDFs erzeugen — Schritt für Schritt`](skills/dokumenten-erzeugung-pdf-laien-sozialgericht/) | Für PDFs erzeugen — Schritt für Schritt: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte… |
 | [`Dokumentenmatrix Statusakte`](skills/dokumentenmatrix-status/) | Für Dokumentenmatrix Statusakte: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Dolmetscher beim SG`](skills/dolmetscher-beim-sozialgericht-laien/) | Für Dolmetscher beim SG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`doppelversicherung-und-erstattung`](skills/doppelversicherung-und-erstattung/) | Für doppelversicherung-und-erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Doppelversicherung und erstattung`](skills/doppelversicherung-und-erstattung/) | Für doppelversicherung-und-erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`DRV Kontenklärung Beweisersatz`](skills/drv-kontenklaerung-beweisersatz/) | Für DRV Kontenklärung Beweisersatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
 | [`DRV Selbstcheck Erwerbsstatus`](skills/drv-selbstcheck-eigene-betriebsstaette/) | Für DRV Selbstcheck Erwerbsstatus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dsgvo Art 15 Auskunft Sozialakte`](skills/dsgvo-art-15-auskunft-sozialakte/) | Für DSGVO Art 15 Auskunft Sozialakte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
@@ -104,7 +104,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Eilantrag gegen die Krankenkasse — wenn Sie nicht warten können`](skills/eilantrag-krankenkassen-leistung/) | Für Eilantrag gegen die Krankenkasse — wenn Sie nicht warten können: erstellt Entwurf mit Antrag, Beweis… |
 | [`Eilantrag gegen die Pflegekasse`](skills/eilantrag-pflegekassen-pflegehilfsmittel/) | Für Eilantrag gegen die Pflegekasse: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Mandant ist auf Sozialleistung angewiesen die sofort wegfaellt oder verweigert wird (Buergergeld Wohnungslosigkeit Krank`](skills/eilantrag-sozialrecht/) | Für Eilantrag Sozialrecht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
-| [`1. Eilantrag vorbereiten`](skills/eilantrag-vorbereiten/) | Bereitet bei dringender sozialrechtlicher Not einen Eilantrag vor. Unterscheidet drohende Vollziehung… |
+| [`Eilantrag vorbereiten`](skills/eilantrag-vorbereiten/) | Bereitet bei dringender sozialrechtlicher Not einen Eilantrag vor. Unterscheidet drohende Vollziehung… |
 | [`Eilverfahren vor dem Sozialgericht bei medizinischer Dringlichkeit`](skills/eilverfahren-sozialgericht-medizinische-dringlichkeit/) | Erstellt einen medizinisch und prozessual belastbaren Eilantrag zum Sozialgericht. |
 | [`Einbindung in IT-Systeme`](skills/einbindung-it-systeme/) | Für Einbindung in IT-Systeme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Klar schreiben — Tipps für Schriftsaetze`](skills/einfache-sprache-tipps-fuer-alle-anliegen/) | Für Klar schreiben — Tipps für Schriftsätze: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -120,7 +120,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Einstweiliger Rechtsschutz Sozialgericht`](skills/einstweiliger-rechtsschutz-ersatzkraefte/) | Für Einstweiliger Rechtsschutz Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Elektronische Patientenakte: Zugriffsrechte`](skills/elektronische-patientenakte-zugriffsrechte/) | Für Elektronische Patientenakte: Zugriffsrechte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Elterngeld Elterngeldstellen Beeg`](skills/elterngeld-elterngeldstellen-beeg/) | Für Elterngeld Elterngeldstellen Beeg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Befundwiderspruch und Rentenleistungsfall`](skills/em-rente-befundwiderspruch-und-leistungsfall/) | Klärt widersprüchliche medizinische Leistungsbilder bei Erwerbsminderungsrenten durch Befundchronologie… |
+| [`Befundwiderspruch und Rentenleistungsfall`](skills/em-rente-befundwiderspruch-und-leistungsfall/) | Klärt widersprüchliche medizinische Leistungsbilder bei Erwerbsminderungsrenten durch Befundchronologie… |
 | [`Em Rente Medizinische Feststellung`](skills/em-rente-medizinische-feststellung/) | Für Em Rente Medizinische Feststellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Soziales Entschaedigungsrecht — SGB XIV`](skills/entschaedigung-sgb-xiv-opferleistungen/) | Für Soziales Entschädigungsrecht — SGB XIV: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ersatzkräfte und Subunternehmer`](skills/ersatzkraefte-subunternehmer/) | Für Ersatzkräfte und Subunternehmer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -130,7 +130,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Erwerbsminderungs-Rente — Streit mit der Rentenversicherung`](skills/erwerbsminderungs-rente-streit-sgb-vi/) | Für Erwerbsminderungs-Rente — Streit mit der Rentenversicherung: ordnet Norm, Beweislast und… |
 | [`Versicherter erhielt Ablehnung der Erwerbsminderungsrente oder ist ausgesteuert und fragt nach Rentenanspruch`](skills/erwerbsminderungsrente/) | Für Erwerbsminderungsrente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Erwerbsminderungsrente Belegfuehrung`](skills/erwerbsminderungsrente-belegfuehrung/) | Für Erwerbsminderungsrente Belegführung: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
-| [`erwerbsminderungsrente-medizinische-unterlagen`](skills/erwerbsminderungsrente-medizinische/) | Für erwerbsminderungsrente-medizinische-unterlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Erwerbsminderungsrente medizinische unterlagen`](skills/erwerbsminderungsrente-medizinische/) | Für erwerbsminderungsrente-medizinische-unterlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Erwerbsminderungsrente und Restleistungsvermögen prüfen`](skills/erwerbsminderungsrente-restleistungsvermoegen-pruefen/) | Prüft volle und teilweise Erwerbsminderung anhand quantitativen und qualitativen Restleistungsvermögens… |
 | [`Exakt 50 Prozent Geschäftsführer`](skills/exakt-50-prozent-gf/) | Für Exakt 50 Prozent Geschäftsführer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Strukturierter Erstgespraechsleitfaden für Sozialrecht (SGB I-XIV): Erfassung der Konstellation, Konflikt- und GwG-Check`](skills/fachanwalt-sozialrecht-erstgespraech-mandatsannahme/) | Für Erstgespräch Mandatsannahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -166,7 +166,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Gdb Feststellung Versorgungsamt Sgb Ix`](skills/gdb-feststellung-versorgungsamt-sgb-ix/) | Für Gdb Feststellung Versorgungsamt SGB Ix: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mandant hat Behinderung und moechte Schwerbehindertenausweis und Merkzeichen beantragen oder Ablehnungsbescheid anfechte`](skills/gdb-schwerbehinderung/) | Für Gdb Schwerbehinderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Das Gericht ist für Sie kostenfrei — § 183 SGG`](skills/gerichtskostenfreiheit-183-sgg/) | Für Das Gericht ist für Sie kostenfrei — Paragraf 183 SGG: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Gerichtspost und Termin bearbeiten`](skills/gerichtspost-und-termin-bearbeiten/) | Übersetzt Gerichtspost im eigenen Sozialprozess in konkrete nächste Schritte. Entwirft Antworten auf… |
+| [`Gerichtspost und Termin bearbeiten`](skills/gerichtspost-und-termin-bearbeiten/) | Übersetzt Gerichtspost im eigenen Sozialprozess in konkrete nächste Schritte. Entwirft Antworten auf… |
 | [`Geringfügigkeit und Minijob`](skills/geringfuegigkeit-minijob/) | Für Geringfügigkeit und Minijob: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Geschäftsführer und Gesellschaftermacht`](skills/geschaeftsfuehrer-und-gesellschaftermacht/) | Prüft den Sozialversicherungsstatus von GmbH- und UG-Geschäftsführern anhand wirksamer Stimmrechte… |
 | [`Mehrheits-Gesellschafter-Geschäftsführer`](skills/gesellschafter-gf-mehrheit/) | Für Mehrheits-Gesellschafter-Geschäftsführer: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -205,7 +205,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Kinderkrankengeld und Pflegezeit`](skills/kinderkrankengeld-und-pflegezeit/) | Für Kinderkrankengeld und Pflegezeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Kinderleistungen: Sozialpädiatrie, Frühförderung und Schulbegleitung`](skills/kinderleistungen-sozialpaediatrie-therapie-und-schulbegl/) | Klärt bei Kindern die Zuständigkeit für Sozialpädiatrie, Frühförderung, Heilmittel, häusliche… |
 | [`Kinderwunschbehandlung: Ehe, Alter und Kostenquote`](skills/kinderwunschbehandlung-ehe/) | Für Kinderwunschbehandlung: Ehe, Alter und Kostenquote: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Klage beim Sozialgericht vorbereiten`](skills/klage-beim-sozialgericht-vorbereiten/) | Erstellt eine verständliche eigene Klage beim Sozialgericht aus Bescheid, Widerspruchsbescheid und… |
+| [`Klage beim Sozialgericht vorbereiten`](skills/klage-beim-sozialgericht-vorbereiten/) | Erstellt eine verständliche eigene Klage beim Sozialgericht aus Bescheid, Widerspruchsbescheid und… |
 | [`Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden`](skills/klage-sozialgericht/) | Für Nach negativem Widerspruchsbescheid muss Klage zum Sozialgericht erhoben werden: erstellt Entwurf… |
 | [`Klage auf der Geschäftsstelle diktieren — § 90 SGG`](skills/klage-zur-niederschrift-90-sgg/) | Für Klage auf der Geschäftsstelle diktieren — Paragraf 90 SGG: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Die Klage als komplettes Paket zusammenstellen`](skills/klage-zusammenstellen-bundle-sozialgericht/) | Für Die Klage als komplettes Paket zusammenstellen: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -215,7 +215,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Aufwendungs-Ersatz — § 193 SGG`](skills/kostenfrei-vs-aufwendungsersatz-193-sgg/) | Für Aufwendungs-Ersatz — Paragraf 193 SGG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Was kostet ein SG-Verfahren wirklich?`](skills/kostenrisiko-vs-kostenfreiheit-laien/) | Für Was kostet ein SG-Verfahren wirklich?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kranken-, Pflege- und Arbeitslosenversicherung`](skills/kranken-pflege-arbeitslosenversicherung/) | Für Kranken-, Pflege- und Arbeitslosenversicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Kranken- und Pflegekasse antworten`](skills/kranken-und-pflegekasse-antworten/) | Bereitet Antworten an Kranken- oder Pflegekassen zu Behandlung, Hilfsmitteln und Pflegeleistungen vor.… |
+| [`Kranken- und Pflegekasse antworten`](skills/kranken-und-pflegekasse-antworten/) | Bereitet Antworten an Kranken- oder Pflegekassen zu Behandlung, Hilfsmitteln und Pflegeleistungen vor.… |
 | [`Krankengeld und AU-Folgefeststellung prüfen`](skills/krankengeld-au-folgefeststellung-paragraf-46-sgb-v/) | Prüft Krankengeld bei verspäteter oder lückenhafter Folgefeststellung der Arbeitsunfähigkeit, trennt… |
 | [`Mandant war langzeitkrank und Krankengeld laeuft nach 78 Wochen aus oder ist ausgelaufen und fragt nach Anschlusssicheru`](skills/krankengeld-aussteuerung/) | Für Krankengeld Aussteuerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Krankenhausabrechnung: DRG, Zuzahlung und MD-Prüfung`](skills/krankenhausabrechnung-drg-zuzahlung-und-md-pruefung/) | Für Krankenhausabrechnung: DRG, Zuzahlung und MD-Prüfung: ordnet Norm, Beweislast und Gegenargument… |
@@ -235,7 +235,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Krankenkassenfusion und Bestandsschutz`](skills/krankenkassenfusion-und-bestandsschutz/) | Für Krankenkassenfusion und Bestandsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Krankenkassenprozess-Versandmappe endfertigen`](skills/krankenkassenprozess-versandmappe-endfertigen/) | Endfertigt sozialgerichtliche Leistungs-, Hilfsmittel-, Arzneimittel- und Krankengeldverfahren gegen… |
 | [`Juristischer Argumentationskern - Krankenkassenrecht Krankenversicherung`](skills/krankenkassenrecht-krankenversic-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Krankenkassenrecht Krankenversicherung ein juristisches Arbeitsprodukt… |
-| [`1. Versicherungsfall und Leistungsstreit bearbeiten`](skills/krankenkassenrecht-krankenversicherung-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Versicherungsfall und Leistungsstreit bearbeiten`](skills/krankenkassenrecht-krankenversicherung-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Krankenkassenregress: Behandlungsfehler und Erstattung`](skills/krankenkassenregress-behandlungsfehler-und-erstattung/) | Für Krankenkassenregress: Behandlungsfehler und Erstattung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Arbeitgeberzuschuss PKV und Entgeltabrechnung`](skills/krankenversicherung-arbeitgeberzuschuss-pkv-entgeltabrec/) | Für Arbeitgeberzuschuss PKV und Entgeltabrechnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arztbrief in Anspruchsbegründung übersetzen`](skills/krankenversicherung-arztbrief-anspruchsbegruendung-ueber/) | Für Arztbrief in Anspruchsbegründung übersetzen: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -265,7 +265,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Künstler und KSVG`](skills/kuenstler-ksvg/) | Für Künstler und KSVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Künstlersozialkasse und Krankenversicherung`](skills/kuenstlersozialkasse-und-krankenversicherung/) | Für Künstlersozialkasse und Krankenversicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kurzfristige Beschäftigung`](skills/kurzfristige-beschaeftigung-obligatorisches/) | Für Kurzfristige Beschäftigung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
-| [`1. Bescheid, Rechnung und Leistungsfrist prüfen`](skills/kv-001-kaltstart-krankenversicherung-bescheid-rechnung-u/) | Für Krankenversicherung: Kaltstart Krankenversicherung Bescheid Rechnung und Frist: routet Rolle, Frist… |
+| [`Bescheid, Rechnung und Leistungsfrist prüfen`](skills/kv-001-kaltstart-krankenversicherung-bescheid-rechnung-u/) | Für Krankenversicherung: Kaltstart Krankenversicherung Bescheid Rechnung und Frist: routet Rolle, Frist… |
 | [`Krankenversicherung: Grenzgänger Auslandskrankenversicherung und Koordinierungsrecht`](skills/kv-019-grenzgaenger-auslandskv-koordination/) | Für Krankenversicherung: Grenzgänger Auslandskrankenversicherung und Koordinierungsrecht: ordnet Norm… |
 | [`Krankenversicherung: PKV Krankentagegeld Berufsunfähigkeit und Arbeitsunfähigkeit`](skills/kv-032-pkv-ktg-bu-au-pkv-ktg-bu-au/) | Für Krankenversicherung: PKV Krankentagegeld Berufsunfähigkeit und Arbeitsunfähigkeit: ordnet Norm… |
 | [`Krankenversicherung: Kostenerstattung Privatarzt in der GKV`](skills/kv-054-kostenerstattung-privatarzt-in-der-gkv/) | Für Krankenversicherung: Kostenerstattung Privatarzt in der GKV: ordnet Norm, Beweislast und… |
@@ -330,12 +330,12 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Mandanten-Intake Statusprüfung`](skills/mandanten-intake-status/) | Für Mandanten-Intake Statusprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Erklärung eines sozialrechtlichen Bescheids für den Mandanten in einfacher oder leichter Sprache`](skills/mandantenbrief-leichte-sprache/) | Für Mandantenbrief Leichte Sprache: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Mandantenbrief Rentenstrategie`](skills/mandantenbrief-rentenstrategie-mehrsaeulen/) | Für Mandantenbrief Rentenstrategie: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
-| [`1. Sozialrechtlichen Auftrag aus der Akte bestimmen`](skills/mandat-triage-sozialrecht/) | Für Mandat Triage Sozialrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Sozialrechtlichen Auftrag aus der Akte bestimmen`](skills/mandat-triage-sozialrecht/) | Für Mandat Triage Sozialrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`MD-Gutachten angreifen: Befundbericht und Gegengutachten`](skills/md-gutachten-angreifen-befundbericht-und-gegengutachten/) | Für MD-Gutachten angreifen: Befundbericht und Gegengutachten: ordnet Norm, Beweislast und Gegenargument… |
 | [`Medizinische Gutachten — Ihre Strategie`](skills/medizinische-gutachten-strategie-laien/) | Für Medizinische Gutachten — Ihre Strategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mehrere Auftraggeber`](skills/mehrere-auftraggeber/) | Für Mehrere Auftraggeber: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mein Justizpostfach — digitale Einreichung beim SG`](skills/mein-justizpostfach-mjp-sozialgericht/) | Für Mein Justizpostfach — digitale Einreichung beim SG: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Meinen Sozialfall starten`](skills/meinen-sozialfall-starten/) | Beginnt die Bearbeitung des eigenen Sozialrechtsfalls mit vorhandenen Briefen und dem gewünschten… |
+| [`Meinen Sozialfall starten`](skills/meinen-sozialfall-starten/) | Beginnt die Bearbeitung des eigenen Sozialrechtsfalls mit vorhandenen Briefen und dem gewünschten… |
 | [`Merkzeichen aG und Mobilitätsbeeinträchtigung prüfen`](skills/merkzeichen-ag-mobilitaetsbeeintraechtigung-pruefen/) | Prüft das Merkzeichen aG anhand mobilitätsbezogener Teilhabebeeinträchtigung, Gehfähigkeit im… |
 | [`Minderheits-GF mit Sperrminorität`](skills/minderheits-gf-sperrminoritaet/) | Für Minderheits-GF mit Sperrminorität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Mitwirkungspflicht 60 Bis 67 Sgb I`](skills/mitwirkungspflicht-60-bis-67-sgb-i/) | Für Mitwirkungspflicht 60 bis 67 SGB I: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -389,7 +389,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Anwalt erstellt PKH-Antrag für Sozialgerichtsverfahren und muss alle Belege korrekt zusammenstellen`](skills/prozesskostenhilfe-antrag/) | Für Prozesskostenhilfe Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Rahmenvertrag und Einzelauftrag`](skills/rahmenvertrag-einzelauftrag/) | Für Rahmenvertrag und Einzelauftrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtsprechungschat Sozialgericht`](skills/rechtsprechungschat-sozialgericht/) | Für Rechtsprechungschat Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`red-team-rentenbescheid`](skills/red-team-rentenbescheid/) | Für red-team-rentenbescheid: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
+| [`Red team rentenbescheid`](skills/red-team-rentenbescheid/) | Für red-team-rentenbescheid: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Red-Team Status Qualitygate`](skills/redteam-status-qualitygate/) | Für Red-Team Status Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Reha vor Rente: Zuständigkeit Krankenkasse vs. Rentenversicherung`](skills/reha-vor-rente-zustaendigkeit-krankenkasse-rentenversich/) | Für Reha vor Rente: Zuständigkeit Krankenkasse vs. Rentenversicherung: prüft Frist, Form, Zuständigkeit… |
 | [`Rentenanpassung § 65 sgb vi`](skills/rentenanpassung-paragraf-65-sgb-vi/) | Für Rentenanpassung Paragraf 65 SGB vi: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -417,19 +417,19 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Sanierung vorhandener Verträge`](skills/sanierung-vorhandener-vertraege/) | Für Sanierung vorhandener Verträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sanity-Check Selbstvertretung Sozialgericht`](skills/sanity-check-selbstvertretung-sozialgericht/) | Für Sanity-Check Selbstvertretung Sozialgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Satzungsleistungen, Bonusprogramm und Rückforderung`](skills/satzungsleistungen-bonusprogramm-und-rueckforderung/) | Für Satzungsleistungen, Bonusprogramm und Rückforderung: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Schreiben und Verständlichkeit prüfen`](skills/schreiben-und-verstaendlichkeit-pruefen/) | Prüft den fertigen eigenen Sozialrechtsbrief vor dem Absenden auf richtige Tatsachen, verständliche… |
+| [`Schreiben und Verständlichkeit prüfen`](skills/schreiben-und-verstaendlichkeit-pruefen/) | Prüft den fertigen eigenen Sozialrechtsbrief vor dem Absenden auf richtige Tatsachen, verständliche… |
 | [`Strukturierte Fallbesprechung für Schulung Inhouse-Fortbildung Referendariats-AG oder Prüfungs-Vorbereitung Fachanwalt S`](skills/schulung-fallbesprechung/) | Für Schulung Fallbesprechung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schwerbehindertenausweis Merkzeichen Prüfen`](skills/schwerbehindertenausweis-merkzeichen-pruefen/) | Für Schwerbehindertenausweis Merkzeichen Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Selbständige Lehrer § 2 SGB VI`](skills/selbststaendige-lehrer-sozialgericht-klage/) | Für Selbständige Lehrer Paragraf 2 SGB VI: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Rentenversicherung für Selbständige`](skills/selbststaendige-rentenversicherung/) | Prüft nach geklärter Selbständigkeit die Rentenversicherungspflicht nach Paragraf 2 SGB VI, insbesondere… |
 | [`Juristischer Argumentationskern - Selbstvertreter Sozialgericht`](skills/selbstvertreter-sozialgericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Selbstvertreter Sozialgericht ein juristisches Arbeitsprodukt tragfähig… |
-| [`1. Eigenen Sozialleistungsfall bearbeiten`](skills/selbstvertreter-sozialgericht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Eigenen Sozialleistungsfall bearbeiten`](skills/selbstvertreter-sozialgericht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Fachanwalt Sozialrecht Sgb Ii Bescheid: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu`](skills/sgb-ii-bescheid/) | Für SGB Ii Bescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Sozialgerichtliche Klage`](skills/sozialgericht-klage/) | Für Sozialgerichtliche Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Welche Streitigkeiten gehoeren vor das Sozialgericht?`](skills/sozialgericht-zustaendigkeit-51-sgg/) | Für Welche Streitigkeiten gehören vor das Sozialgericht?: prüft Frist, Form, Zuständigkeit und… |
 | [`Sozialgerichtliche Versandmappe endfertigen`](skills/sozialgerichtliche-versandmappe-endfertigen/) | Endfertigt sozialgerichtliche Klage, Eilantrag, Klagebegründung, Berufung oder Beschwerde: liest… |
 | [`Sozialleistungen — Übersicht aller SGB`](skills/sozialleistungen-uebersicht-sgb/) | Für Sozialleistungen — Übersicht aller SGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Sozialrechtlichen Fall bearbeiten`](skills/sozialrecht-fallaufnahme-routing/) | Für Master-Routing-Skill der sozialrechtlichen Kanzlei: routet Rolle, Frist, Unterlagen und Fachschritt… |
+| [`Sozialrechtlichen Fall bearbeiten`](skills/sozialrecht-fallaufnahme-routing/) | Für Master-Routing-Skill der sozialrechtlichen Kanzlei: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`/sozialrecht-kanzlei:sozialrecht-kanzlei-kaltstart-interview`](skills/sozialrecht-kanzlei-kaltstart-interview/) | Für /sozialrecht-kanzlei:sozialrecht-kanzlei-kaltstart-interview: routet Rolle, Frist, Unterlagen und… |
 | [`Sozialversicherungspflicht prüfen`](skills/sozialversicherungspflicht-pruefen/) | Prüft deutsche Sozialversicherung von Beschäftigungsstatus über einzelne Versicherungszweige bis zu… |
 | [`Juristischer Argumentationskern - Sozialversicherungsstatus Prüfer`](skills/sozialversicherungsstatus-pruefe-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Sozialversicherungsstatus Prüfer ein juristisches Arbeitsprodukt tragfähig… |
@@ -438,7 +438,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Sperrzeit, Arbeitslosengeld und Krankenversicherung`](skills/sperrzeit-arbeitslosengeld-und-krankenversicherung/) | Für Sperrzeit, Arbeitslosengeld und Krankenversicherung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Statusbescheid und Bestandskraft`](skills/statusbescheid-bestandskraft/) | Für Statusbescheid und Bestandskraft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Statusfeststellung: Geschäftsführer, Lehrer, Freelancer und Scheinselbstständigkeit`](skills/statusfeststellung-geschaeftsfuehrer-lehrer-freelancer/) | Für Statusfeststellung: Geschäftsführer, Lehrer, Freelancer und Scheinselbstständigkeit: ordnet Norm… |
-| [`1. Erwerbsstatus und Krankenversicherung`](skills/statusfeststellung-und-krankenversicherung/) | Prüft Beschäftigung oder Selbstständigkeit nach den Paragrafen 7 und 7a SGB IV und leitet daraus… |
+| [`Erwerbsstatus und Krankenversicherung`](skills/statusfeststellung-und-krankenversicherung/) | Prüft Beschäftigung oder Selbstständigkeit nach den Paragrafen 7 und 7a SGB IV und leitet daraus… |
 | [`Statusverfahren und Betriebsprüfung`](skills/statusverfahren-und-betriebspruefung/) | Bearbeitet Statusfeststellung nach Paragraf 7a SGB IV, Einzugsstellenentscheidung und Betriebsprüfung… |
 | [`Stellungnahme an DRV`](skills/stellungnahme-drv/) | Für Stellungnahme an DRV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Freier Mitarbeiter Steuerberater/WP`](skills/steuerberater-wp-freier-mitarbeiter/) | Für Freier Mitarbeiter Steuerberater/WP: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -500,7 +500,7 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`Sich gegen ein negatives Gutachten wehren`](skills/widerspruch-gegen-gutachten-laien/) | Für Sich gegen ein negatives Gutachten wehren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Widerspruch und Sozialgericht`](skills/widerspruch-klage-sozialgericht/) | Für Widerspruch und Sozialgericht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Widerspruch einreichen — die sicheren Wege`](skills/widerspruch-ohne-anwalt-einreichen/) | Für Widerspruch einreichen — die sicheren Wege: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Widerspruch schreiben`](skills/widerspruch-schreiben/) | Entwirft einen Widerspruch gegen einen Sozialbescheid mit klarer Änderung, konkreten Tatsachen und… |
+| [`Widerspruch schreiben`](skills/widerspruch-schreiben/) | Entwirft einen Widerspruch gegen einen Sozialbescheid mit klarer Änderung, konkreten Tatsachen und… |
 | [`Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch`](skills/widerspruch-sozialleistung/) | Für Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch: ordnet Norm… |
 | [`Das Widerspruchsverfahren — § 78 SGG`](skills/widerspruch-vorverfahren-78-sgg/) | Für Das Widerspruchsverfahren — Paragraf 78 SGG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Widerspruchsbescheid erhalten — was jetzt?`](skills/widerspruchsbescheid-was-jetzt/) | Für Widerspruchsbescheid erhalten — was jetzt?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

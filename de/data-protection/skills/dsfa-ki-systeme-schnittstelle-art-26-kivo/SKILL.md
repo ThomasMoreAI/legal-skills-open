@@ -1,6 +1,6 @@
 ---
 name: dsfa-ki-systeme-schnittstelle-art-26-kivo
-title: 1. Datenschutz- und Grundrechteprüfung koordinieren
+title: 'Datenschutz- und Grundrechteprüfung koordinieren'
 description: Koordiniert Datenschutz-Folgenabschätzung und Grundrechteprüfung eines konkreten Systems. Trennt Rollen, Risiken, sensible Bias-Daten und Behördenwege und liefert einen nutzbaren Freigabevermerk ohne doppelte Inventur.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsfa-ki-systeme-schnittstelle-art-26-kivo

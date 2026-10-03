@@ -9,7 +9,7 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | Skill | What it does |
 |---|---|
 | [`Bilanzierungsunregelmäßigkeiten und Accounting-Forensik`](skills/accounting-cyber/) | Für Bilanzierungsunregelmäßigkeiten und Accounting-Forensik: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Verdachtsmeldung prüfen und vorbereiten`](skills/aml-verdachtsmeldung-fiu-leitfaden/) | Prüft konkrete Verdachtstatsachen nach GwG Paragraf 43 und erstellt einen FIU-Meldeentwurf nach der seit… |
+| [`Verdachtsmeldung prüfen und vorbereiten`](skills/aml-verdachtsmeldung-fiu-leitfaden/) | Prüft konkrete Verdachtstatsachen nach GwG Paragraf 43 und erstellt einen FIU-Meldeentwurf nach der seit… |
 | [`Arbeitsrechtliche Mitwirkungspflichten`](skills/arbeitsrecht-mitwirkung/) | Für Arbeitsrechtliche Mitwirkungspflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Audit Committee in Internal Investigations`](skills/audit-hr/) | Für Audit Committee in Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Untersuchungsauftrag und Scope`](skills/auftrag-scope/) | Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -34,20 +34,20 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`Exportkontrollverstöße – Untersuchung und Meldepflichten`](skills/export-control-breach/) | Für Exportkontrollverstöße – Untersuchung und Meldepflichten: ordnet Norm, Beweislast und Gegenargument… |
 | [`Forensic Imaging und IT-Datensicherung`](skills/forensic-imaging/) | Für Forensic Imaging und IT-Datensicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Parallele DSGVO-Bußgeldverfahren`](skills/gdpr-fine-parallel/) | Für Parallele DSGVO-Bußgeldverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Aufsicht und Bußgeldverfahren bearbeiten`](skills/geldwaesche-behoerdenverfahren/) | Bearbeitet Aufsichtsanfragen, Prüfungsfeststellungen und Bußgeldvorwürfe zum GwG. Trennt Mitwirkung… |
-| [`1. Gruppe und Auslagerung steuern`](skills/geldwaesche-gruppenweite-compliance/) | Prüft gruppenweite Geldwäschekontrollen und ausgelagerte Kundenprüfung. Ordnet Mutterunternehmen… |
-| [`1. Händler- und Vermittlergeschäft prüfen`](skills/geldwaesche-immobilien-gueterhaendler/) | Prüft Schwellen und Zahlungswege bei Güterhandel, Kunstgeschaeften und Immobilienvermittlung.… |
-| [`1. Kryptotransfer und Zahlungsdienst prüfen`](skills/geldwaesche-krypto-zahlungsdienstleister/) | Ordnet Kryptotransfers und Zahlungsdienstleister nach Rolle, Transferdaten und selbst gehosteter Adresse… |
-| [`1. Kundenprüfung bis zum belegten Stand`](skills/geldwaesche-kyc-onboarding/) | Bearbeitet die Aufnahme oder Aktualisierung einer konkreten Kundenbeziehung: Identität, Vertretung… |
-| [`1. PEP und Länderbezug differenzieren`](skills/geldwaesche-pep-hochrisikoland-risikoanalyse/) | Prüft PEP-Merkmale und Hochrisikostaaten anhand von Amt, Beziehung, Zeitraum und aktueller Quelle.… |
-| [`1. Risikoanalyse aus dem tatsächlichen Betrieb`](skills/geldwaesche-risikoanalyse-unternehmen/) | Erstellt oder aktualisiert eine betriebsbezogene GwG-Risikoanalyse aus Kundenmix, Leistungen… |
-| [`1. Schulung und Wirksamkeitsprüfung`](skills/geldwaesche-schulung-awareness/) | Plant rollenbezogene Geldwäscheschulungen und kontrolliert deren praktische Wirksamkeit. Nutzt getrennte… |
-| [`1. Zahlungsauffälligkeit untersuchen`](skills/geldwaesche-transaktionsmonitoring/) | Untersucht auffällige Zahlungen, Teilbeträge, Rückerstattungen und Warenströme im Vergleich zum… |
-| [`1. Nichtdurchführung und Vollzugszeitpunkt`](skills/geldwaesche-transaktionsstopp-freeze/) | Berechnet die Nichtdurchführung nach einer FIU-Meldung und die besondere notarielle Wartefrist. Trennt… |
-| [`1. Transparenzregister ohne falsche Gleichsetzung`](skills/geldwaesche-transparenzregister/) | Gleicht wirtschaftlich Berechtigte mit dem Transparenzregister ab. Trennt eigene Mitteilung… |
-| [`1. Wirtschaftlich Berechtigte ermitteln`](skills/geldwaesche-ubo-wirtschaftlich-berechtigte/) | Entwirrt Beteiligungs- und Kontrollketten für die Feststellung wirtschaftlich Berechtigter. Prüft… |
-| [`1. Verpflichtetenstatus und Pflichtenumfang`](skills/geldwaesche-verpflichteten-check/) | Klärt den GwG-Verpflichtetenstatus für ein konkretes Mandat oder Geschäft. Trennt anwaltliche… |
-| [`1. Geldwäschevorgang aufnehmen`](skills/geldwaeschepraevention-aml-kyc-einstieg-routing/) | Startet Geldwäscheprüfungen in Kanzlei, Notariat und Unternehmen aus vorhandenen Unterlagen. Wählt… |
+| [`Aufsicht und Bußgeldverfahren bearbeiten`](skills/geldwaesche-behoerdenverfahren/) | Bearbeitet Aufsichtsanfragen, Prüfungsfeststellungen und Bußgeldvorwürfe zum GwG. Trennt Mitwirkung… |
+| [`Gruppe und Auslagerung steuern`](skills/geldwaesche-gruppenweite-compliance/) | Prüft gruppenweite Geldwäschekontrollen und ausgelagerte Kundenprüfung. Ordnet Mutterunternehmen… |
+| [`Händler- und Vermittlergeschäft prüfen`](skills/geldwaesche-immobilien-gueterhaendler/) | Prüft Schwellen und Zahlungswege bei Güterhandel, Kunstgeschaeften und Immobilienvermittlung.… |
+| [`Kryptotransfer und Zahlungsdienst prüfen`](skills/geldwaesche-krypto-zahlungsdienstleister/) | Ordnet Kryptotransfers und Zahlungsdienstleister nach Rolle, Transferdaten und selbst gehosteter Adresse… |
+| [`Kundenprüfung bis zum belegten Stand`](skills/geldwaesche-kyc-onboarding/) | Bearbeitet die Aufnahme oder Aktualisierung einer konkreten Kundenbeziehung: Identität, Vertretung… |
+| [`PEP und Länderbezug differenzieren`](skills/geldwaesche-pep-hochrisikoland-risikoanalyse/) | Prüft PEP-Merkmale und Hochrisikostaaten anhand von Amt, Beziehung, Zeitraum und aktueller Quelle.… |
+| [`Risikoanalyse aus dem tatsächlichen Betrieb`](skills/geldwaesche-risikoanalyse-unternehmen/) | Erstellt oder aktualisiert eine betriebsbezogene GwG-Risikoanalyse aus Kundenmix, Leistungen… |
+| [`Schulung und Wirksamkeitsprüfung`](skills/geldwaesche-schulung-awareness/) | Plant rollenbezogene Geldwäscheschulungen und kontrolliert deren praktische Wirksamkeit. Nutzt getrennte… |
+| [`Zahlungsauffälligkeit untersuchen`](skills/geldwaesche-transaktionsmonitoring/) | Untersucht auffällige Zahlungen, Teilbeträge, Rückerstattungen und Warenströme im Vergleich zum… |
+| [`Nichtdurchführung und Vollzugszeitpunkt`](skills/geldwaesche-transaktionsstopp-freeze/) | Berechnet die Nichtdurchführung nach einer FIU-Meldung und die besondere notarielle Wartefrist. Trennt… |
+| [`Transparenzregister ohne falsche Gleichsetzung`](skills/geldwaesche-transparenzregister/) | Gleicht wirtschaftlich Berechtigte mit dem Transparenzregister ab. Trennt eigene Mitteilung… |
+| [`Wirtschaftlich Berechtigte ermitteln`](skills/geldwaesche-ubo-wirtschaftlich-berechtigte/) | Entwirrt Beteiligungs- und Kontrollketten für die Feststellung wirtschaftlich Berechtigter. Prüft… |
+| [`Verpflichtetenstatus und Pflichtenumfang`](skills/geldwaesche-verpflichteten-check/) | Klärt den GwG-Verpflichtetenstatus für ein konkretes Mandat oder Geschäft. Trennt anwaltliche… |
+| [`Geldwäschevorgang aufnehmen`](skills/geldwaeschepraevention-aml-kyc-einstieg-routing/) | Startet Geldwäscheprüfungen in Kanzlei, Notariat und Unternehmen aus vorhandenen Unterlagen. Wählt… |
 | [`Schutz von Geschäftsgeheimnissen in Internal Investigations`](skills/geschaeftsgeheimnisse-stpo/) | Für Schutz von Geschäftsgeheimnissen in Internal Investigations: ordnet Norm, Beweislast und… |
 | [`Healthcare-Compliance-Verstöße und Untersuchung`](skills/healthcare-compliance/) | Für Healthcare-Compliance-Verstöße und Untersuchung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Honeypot-Risiko in Internal Investigations`](skills/honeypot-legal/) | Für Honeypot-Risiko in Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -55,9 +55,9 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`Versicherungsmeldung bei Internal Investigations`](skills/insurance-press/) | Für Versicherungsmeldung bei Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kaltstart Internal Investigation`](skills/internal-investigations-praxis-allgemein/) | Für Kaltstart Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Internal Investigations Praxis`](skills/internal-investigations-praxis-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Internal Investigations Praxis ein juristisches Arbeitsprodukt tragfähig… |
-| [`1. Interne Untersuchung auftragsbezogen bearbeiten`](skills/internal-investigations-praxis-kaltstart-triage/) | Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Interne Untersuchung auftragsbezogen bearbeiten`](skills/internal-investigations-praxis-kaltstart-triage/) | Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Legal Hold`](skills/internal-investigations-praxis-legal-hold/) | Für Legal Hold: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
-| [`1. Kontrollen und Verantwortlichkeit einrichten`](skills/interne-kontrollen-und-beauftragter/) | Setzt konkrete Geldwäscherisiken in interne Kontrollen, Zuständigkeiten und Vertretungen um. Prüft… |
+| [`Kontrollen und Verantwortlichkeit einrichten`](skills/interne-kontrollen-und-beauftragter/) | Setzt konkrete Geldwäscherisiken in interne Kontrollen, Zuständigkeiten und Vertretungen um. Prüft… |
 | [`Untersuchungsauftrag und Scope`](skills/inv-001-auftrag-scope/) | Für Untersuchungsauftrag und Scope: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Honeypot-Risiko Staatsanwaltschaft`](skills/inv-002-honeypot-risiko/) | Für Honeypot-Risiko Staatsanwaltschaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Legal Hold und Beweissicherung`](skills/inv-003-legal-hold/) | Für Legal Hold und Beweissicherung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -112,13 +112,13 @@ Jurisdiction: `de` · Practice: `white-collar` · Skill language varies per skil
 | [`Internal Investigation: US Counsel Coordination`](skills/inv-052-us-counsel-coordination/) | Für Internal Investigation: US Counsel Coordination: ordnet Norm, Beweislast und Gegenargument… |
 | [`Internal Investigation: Settlement Narrative`](skills/inv-053-settlement-narrative/) | Für Internal Investigation: Settlement Narrative: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Zieht strukturierte Lessons Learned aus abgeschlossenen Internal Investigations – Systemische Schwächen, Compliance-Verb`](skills/inv-054-lessons-learned/) | Für Inv 054 Lessons Learned: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Kanzleimandat und geschützte Informationen`](skills/kanzleimandat-und-berufsgeheimnis/) | Prüft Geldwäschepflichten bei anwaltlichem Mandatswechsel, Fremdgeld und Transaktionsberatung. Ordnet… |
+| [`Kanzleimandat und geschützte Informationen`](skills/kanzleimandat-und-berufsgeheimnis/) | Prüft Geldwäschepflichten bei anwaltlichem Mandatswechsel, Fremdgeld und Transaktionsberatung. Ordnet… |
 | [`KYC / AML / Geldwäscheprävention`](skills/kyc-aml-geldwaesche/) | Für KYC / AML / Geldwäscheprävention: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Interviews mit Führungskräften und Organmitgliedern`](skills/manager-dawn/) | Für Interviews mit Führungskräften und Organmitgliedern: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mitarbeiterinterviews`](skills/mitarbeiterinterview-arbeitsrecht/) | Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mobile-Device-Forensik in Internal Investigations`](skills/mobile-private/) | Für Mobile-Device-Forensik in Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |
 | [`Externer Compliance-Monitor und Monitor-Reporting`](skills/monitor-privilege/) | Für Externer Compliance-Monitor und Monitor-Reporting: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Immobilienzahlung und notarieller Vollzug`](skills/notariat-immobilienzahlung-pruefen/) | Prüft im Notariat Kaufpreisnachweise, Drittzahlungen und Eigentumsumschreibung nach GwG Paragraf 16a.… |
+| [`Immobilienzahlung und notarieller Vollzug`](skills/notariat-immobilienzahlung-pruefen/) | Prüft im Notariat Kaufpreisnachweise, Drittzahlungen und Eigentumsumschreibung nach GwG Paragraf 16a.… |
 | [`Pressestrategie und Krisenkommunikation`](skills/press-strategy/) | Für Pressestrategie und Krisenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Private Geräte und BYOD in Internal Investigations`](skills/private-devices-byod/) | Für Private Geräte und BYOD in Internal Investigations: ordnet Norm, Beweislast und Gegenargument… |
 | [`Privilege-Log in Internal Investigations`](skills/privilege-log/) | Für Privilege-Log in Internal Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

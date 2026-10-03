@@ -1,6 +1,6 @@
 ---
 name: mietvergleich-mit-belegen-abgleichen
-title: 1. Mietvergleich mit Belegen abgleichen
+title: 'Mietvergleich mit Belegen abgleichen'
 description: Kontrolliert eine bereits vorliegende Mietberechnung auf Rechenfehler, falsche Quellen, doppelte Zuschläge und widersprüchliche Wohnungsmerkmale. Zeigt nur entscheidende Abweichungen und führt zu einer gezielten Beleganfrage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/mietvergleich-mit-belegen-abgleichen

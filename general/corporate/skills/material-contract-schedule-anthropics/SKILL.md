@@ -1,11 +1,11 @@
 ---
 name: material-contract-schedule-anthropics
-title: /material-contract-schedule
+title: 'Material contract schedule'
 description: Build the material contracts disclosure schedule from diligence findings, applying the purchase agreement's Material Contract definition and formatting per the agreement's schedule format. Use when user says "build the contracts schedule", "disclosure schedule", "schedule 3.X", "material contracts list", or when drafting disclosure schedules.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/material-contract-schedule
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

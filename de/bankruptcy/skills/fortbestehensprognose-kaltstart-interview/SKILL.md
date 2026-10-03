@@ -1,6 +1,6 @@
 ---
 name: fortbestehensprognose-kaltstart-interview
-title: /fortbestehensprognose:kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /fortbestehensprognose:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/kaltstart-interview

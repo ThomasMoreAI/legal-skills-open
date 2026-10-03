@@ -10,7 +10,7 @@ Jurisdiction: `do` · Practice: `white-collar` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`dominican-republic-rnc`](skills/dominican-republic-rnc-nolpak14/) | Look up Dominican Republic companies for free by downloading the full national taxpayer registry (RNC… |
+| [`Dominican republic rnc`](skills/dominican-republic-rnc-nolpak14/) | Look up Dominican Republic companies for free by downloading the full national taxpayer registry (RNC… |
 
 ## Cold-start context
 

@@ -1,6 +1,6 @@
 ---
 name: client-intake-anthropics
-title: /client-intake
+title: 'Client intake'
 description: Structured intake — practice-area templates, cross-area issue spotting, conflict flags, and triage classification. Produces a formatted case summary the student analyzes and the professor reviews. Does NOT decide case acceptance. Use when starting a new client intake, running an intake interview, or writing up a new client's situation.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/client-intake

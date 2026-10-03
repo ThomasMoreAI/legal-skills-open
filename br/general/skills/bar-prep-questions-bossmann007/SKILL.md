@@ -1,11 +1,11 @@
 ---
 name: bar-prep-questions-bossmann007
-title: /bar-prep-questions
+title: 'Bar prep questions'
 description: Questões de preparação para o Exame de Ordem (OAB) — 1ª fase (objetiva) ou 2ª fase (peça/discursiva), com foco nas matérias fracas do aluno. Rastreia erros e volta aos padrões. Use quando o usuário disser "prova da OAB", "questões de 1ª fase", "peça prática", ou "me teste pra Ordem".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/bar-prep-questions
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: general

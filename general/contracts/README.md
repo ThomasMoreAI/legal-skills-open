@@ -13,9 +13,9 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Contract Negotiator Specialist IA`](skills/agent-contract-negotiator-ziri22/) | Expert en négociation de contrats (terms, SLAs, renewal, upsell, legal review, redlines) |
 | [`Business Agreement Generator`](skills/agreement-generator-jeremylongshore/) | Generates customized business agreements for 10 common relationship types with plain English… |
 | [`AI 智能合同审查系统`](skills/ai-intelligent-contract-review/) | Automates contract review by identifying clause risks, comparing against standard contracts, and… |
-| [`/amendment-history`](skills/amendment-history-anthropics/) | Trace how a contract has changed across its base agreement and all amendments — either a summary of all… |
-| [`/amendment-history`](skills/amendment-history-zekaisuni/) | Trace how a contract has changed across its base agreement and all amendments, ek protokoller… |
-| [`/amendment-history`](skills/amendment-history-zhou210712/) | 追溯合同从基础协议到所有修订的变更轨迹——可以是所有变更的时间线摘要， 也可以是特定条款的追踪。当用户说"这个合同历次改了什么""显示修订历史" "最新的[条款]在哪里""[条款]如何演变的"或上传多个版本的协议时使用。 |
+| [`Amendment history`](skills/amendment-history-anthropics/) | Trace how a contract has changed across its base agreement and all amendments — either a summary of all… |
+| [`Amendment history`](skills/amendment-history-zekaisuni/) | Trace how a contract has changed across its base agreement and all amendments, ek protokoller… |
+| [`Amendment history`](skills/amendment-history-zhou210712/) | 追溯合同从基础协议到所有修订的变更轨迹——可以是所有变更的时间线摘要， 也可以是特定条款的追踪。当用户说"这个合同历次改了什么""显示修订历史" "最新的[条款]在哪里""[条款]如何演变的"或上传多个版本的协议时使用。 |
 | [`Answer a Legal Question`](skills/answer-a-legal-question/) | Get a quick answer to a legal question, like 'do I need an NDA with investors?' or 'does GDPR apply to… |
 | [`Answer a Security Questionnaire`](skills/answer-a-security-questionnaire/) | A big customer sent you a security questionnaire? I read it, fill in everything I already know about… |
 | [`API Acceptable Use Policy`](skills/api-acceptable-use-policy/) | Drafts a standalone API Acceptable Use Policy (AUP) for incorporation by reference into a master API… |
@@ -24,9 +24,9 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Brief Draft`](skills/brief-draft/) | Draft a contract or policy document from a description or template. Use when asked to "draft an NDA"… |
 | [`Brief Recon`](skills/brief-recon/) | Survey the project's existing contracts and policy docs. Use when asked "what contracts do we have"… |
 | [`Brief Review`](skills/brief-review/) | Review and redline a contract — flag risk, missing clauses, one-sided terms. Use when asked to "review… |
-| [`canonical-markdown-authoring`](skills/canonical-markdown-authoring/) | Convert plain markdown contract drafts into OpenAgreements' canonical template.md authoring format… |
+| [`Canonical markdown authoring`](skills/canonical-markdown-authoring/) | Convert plain markdown contract drafts into OpenAgreements' canonical template.md authoring format… |
 | [`Case-Law Research`](skills/case-law-research/) | Use when the user asks to find, read, or cite U.S. case law on a question — locating controlling or… |
-| [`/claude-review`](skills/claude-review/) | Agentic contract review using superdoc-redlines. Spawns parallel sub-agents for comprehensive document… |
+| [`Claude review`](skills/claude-review/) | Agentic contract review using superdoc-redlines. Spawns parallel sub-agents for comprehensive document… |
 | [`Clause Analyze`](skills/clause-analyze/) | Deep clause-by-clause analysis of a contract with risk scores. Use when asked to "analyze this contract… |
 | [`Clause Comparator`](skills/clause-comparator-rohasnagpal/) | Compares the same clause or provision across draft rounds, precedents, public agreements or a portfolio… |
 | [`条款定位助手（T823）`](skills/clause-locator/) | 用于信托领域合同与法务中的条款定位助手场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
@@ -37,10 +37,10 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`条款风险审查助手-缺失项版（T812）`](skills/clause-risk-review-missing-items/) | 用于信托领域合同与法务中的条款风险审查助手-缺失项版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`条款风险审查助手-修改建议版（T815）`](skills/clause-risk-review-revision-suggestion/) | 用于信托领域合同与法务中的条款风险审查助手-修改建议版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`条款风险审查助手-风险提示版（T814）`](skills/clause-risk-review-risk-alert/) | 用于信托领域合同与法务中的条款风险审查助手-风险提示版场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
-| [`client-email`](skills/client-email/) | Draft client-facing emails for legal services — cover notes for contract deliverables, redline… |
+| [`Client email`](skills/client-email/) | Draft client-facing emails for legal services — cover notes for contract deliverables, redline… |
 | [`Climate Aligned Contracts`](skills/climate-aligned-contracts-tclp/) | Draft, adapt, and review contracts and clauses aligned with The Chancery Lane Project's methodology for… |
-| [`cloud-service-agreement`](skills/cloud-service-agreement/) | Draft and fill SaaS agreement templates — cloud contract, MSA, order form, software license, pilot… |
-| [`/cold-start-interview`](skills/cold-start-interview-16/) | 运行冷启动访谈以了解你的商事合同实务并写入团队业务领域配置。在首次使用插件时、 配置文件缺失或仍为模板占位符时、或当用户说"设置插件""配置商事合同" "引导我""我们开始吧"时使用。这是全新安装时应运行的唯一技能。 |
+| [`Cloud service agreement`](skills/cloud-service-agreement/) | Draft and fill SaaS agreement templates — cloud contract, MSA, order form, software license, pilot… |
+| [`Cold start interview`](skills/cold-start-interview-16/) | 运行冷启动访谈以了解你的商事合同实务并写入团队业务领域配置。在首次使用插件时、 配置文件缺失或仍为模板占位符时、或当用户说"设置插件""配置商事合同" "引导我""我们开始吧"时使用。这是全新安装时应运行的唯一技能。 |
 | [`共同研究・契約インテーク`](skills/collaboration-contract-intake/) | NDA、共同研究、受託研究、データ提供、MTA、再委託契約の初期論点を整理し専門部署へ引き渡す |
 | [`Commencement Date Memorandum`](skills/commencement-date-memo/) | Drafts a Commencement Date Memorandum confirming when obligations take effect under an executed… |
 | [`Regulatory Compliance Audit`](skills/compliance-audit-jeremylongshore/) | Performs regulatory gap analysis across 7 compliance frameworks with a scored report card and… |
@@ -106,14 +106,14 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`US Employment Law Dashboard`](skills/employment-law-dashboard/) | Build a single-file HTML dashboard for any area of US employment law, modeled after the AI Employment… |
 | [`Engagement Letter Drafter`](skills/engagement-letter-drafter-rohasnagpal/) | Drafts a client engagement letter — scope of the retainer, fee arrangement, what is explicitly excluded… |
 | [`Enhance Prompt`](skills/enhance-prompt/) | Use when the user has typed a short or vague prompt and the system is configured to expand prompts… |
-| [`/escalation-flagger`](skills/escalation-flagger-bossmann007/) | Route a contract issue to the right approver per the escalation matrix in… |
-| [`/escalation-flagger`](skills/escalation-flagger-zhou210712/) | 根据审查指引中的上报矩阵将合同问题路由至合适的审批人，并起草上报说明。 当用户说"谁需要批准这个""上报这个""这个需要法务负责人签字吗" "路由这个去审批"或当其他技能发现超出审查者权限的问题时使用。 |
+| [`Escalation flagger`](skills/escalation-flagger-bossmann007/) | Route a contract issue to the right approver per the escalation matrix in… |
+| [`Escalation flagger`](skills/escalation-flagger-zhou210712/) | 根据审查指引中的上报矩阵将合同问题路由至合适的审批人，并起草上报说明。 当用户说"谁需要批准这个""上报这个""这个需要法务负责人签字吗" "路由这个去审批"或当其他技能发现超出审查者权限的问题时使用。 |
 | [`Extract Contract Clause Data`](skills/extract-contract-clause-data/) | Extract parties, dates, and clauses from a contract into structured JSON for legal review workflows. |
 | [`Extract Contracts to a Register`](skills/extract-contracts-to-register/) | Extract key terms from multiple signed contracts and build a structured XLSX contract register tracking… |
 | [`Extract NDA Terms and Generate a Compliance Checklist`](skills/extract-nda-and-generate-checklist/) | Extract key terms from a non-disclosure agreement, then generate a compliance checklist spreadsheet… |
 | [`Extract NDA Terms`](skills/extract-nda-terms/) | Extract parties, obligations, restrictions, permitted disclosures, and expiry dates from non-disclosure… |
 | [`Rom-I-Anwendbarkeit`](skills/fachanwalt-internationales-wirtschaftsrecht-rom-i-anwendbarkeit/) | Für Rom-I-Anwendbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
-| [`field-selector-quality-audit`](skills/field-selector-quality-audit/) | Audit NVCA field-selector quality: check file inventory, metadata schema, field-to-replacement coverage… |
+| [`Field selector quality audit`](skills/field-selector-quality-audit/) | Audit NVCA field-selector quality: check file inventory, metadata schema, field-to-replacement coverage… |
 | [`formal_legal_clause_and_strict_breach_drafter`](skills/formal-legal-clause-and-strict-breach-drafter/) | Redrafts user-provided text into formal, binding legal language for contracts, policies, or codes of… |
 | [`Formation Counsel`](skills/formation-counsel/) | Attorney-facing skill for US and Canadian startup formation work. Use this skill whenever the user is… |
 | [`Freelancer Review — Independent Contractor Contract Analysis`](skills/freelancer-review/) | Reviews contracts from a freelancer's perspective across 14 evaluation lenses including… |
@@ -168,7 +168,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Negotiation Email`](skills/negotiation-email/) | Draft calm contract negotiation emails for founders, developers, freelancers, and small teams… |
 | [`Negotiation Position Planner`](skills/negotiation-position-planner-rohasnagpal/) | Builds an opening position, fallback, minimum acceptable position, walk-away line and concession logic… |
 | [`Obligations Extractor`](skills/obligations-extractor-rohasnagpal/) | Pulls every obligation, deadline, condition and notice requirement out of a contract into a structured… |
-| [`open-agreements`](skills/open-agreements/) | Navigate and use the OpenAgreements legal content library — source-cited practice guides, review… |
+| [`Open agreements`](skills/open-agreements/) | Navigate and use the OpenAgreements legal content library — source-cited practice guides, review… |
 | [`Open-Source License`](skills/open-source-license-wdzhwsh4067/) | Help developers reason about open-source license obligations, dependency review, attribution, copyleft… |
 | [`OpenContracts Guide`](skills/opencontracts-guide/) | Legal document annotation, versioning, and analysis platform |
 | [`Business Contract Review`](skills/ops-contract-review/) | Review business contracts for risk identification including liability clauses, IP ownership, termination… |
@@ -190,14 +190,14 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`/review`](skills/review-anthropics/) | Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies the agreement… |
 | [`/review`](skills/review-bossmann007/) | Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies the agreement… |
 | [`/review-contract -- Contract Review Against Playbook`](skills/review-contract/) | Review a contract against your organization's negotiation playbook — flag deviations, generate redlines… |
-| [`/review-proposals`](skills/review-proposals-zhou210712/) | 审查并批准（或拒绝）来自审查指引监控代理的待处理更新建议，并将批准的变更 应用到业务领域配置中。当审查指引监控代理提出建议时使用，或当用户说… |
+| [`Review proposals`](skills/review-proposals-zhou210712/) | 审查并批准（或拒绝）来自审查指引监控代理的待处理更新建议，并将批准的变更 应用到业务领域配置中。当审查指引监控代理提出建议时使用，或当用户说… |
 | [`프로덕트 매니저를 위한 이력서 검토`](skills/review-resume/) | XYZ+S 공식, 키워드 최적화, 직무별 맞춤화, 구조 등 10가지 모범 사례를 기준으로 PM 이력서를 종합적으로 검토하고 맞춤화합니다. PM 이력서 검토, 입사 지원 준비, 또는 이력서… |
 | [`Resume Review for Product Managers`](skills/review-resume-phuryn/) | Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula, keyword… |
 | [`Review SaaS Contract`](skills/review-saas-contract-jeffreytse/) | Use when reviewing a SaaS vendor or customer contract for legal and commercial risk |
 | [`Risk Analysis — Clause-by-Clause Risk Scoring`](skills/risk-analysis-jeremylongshore/) | Performs deep clause-by-clause risk scoring across 10 categories with poison pill detection and… |
 | [`SaaS / 订阅协议审查`](skills/saas-msa-review-zhou210712/) | 参考：SaaS订阅协议审查，重点关注订阅交易中最关键的条款——自动续约机制、 价格调整、数据可迁移性、运行时间SLA以及再处理者权利。当 /commercial-legal:review 检测到SaaS或订阅协议时加载。 |
 | [`Saved notes demo`](skills/saved-notes-demo/) | Demonstrate optional saved notes and a bundled helper across skill invocations. |
-| [`services-agreement`](skills/services-agreement/) | Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement… |
+| [`Services agreement`](skills/services-agreement/) | Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement… |
 | [`/signature-request -- E-Signature Routing`](skills/signature-request/) | Prepare and route a document for e-signature — run a pre-signature checklist, configure signing order… |
 | [`Signature Request — Pre-Flight, Route, Audit`](skills/signature-request-nmoralescyber/) | Pre-flight, configure, and route a FINALIZED contract for e-signature (DocuSign, Adobe Sign, Dropbox… |
 | [`Skill Creator`](skills/skill-creator/) | Use when the user wants to create a new LQ.AI skill, turn a chat into a reusable skill, improve an… |
@@ -218,7 +218,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Vendor Check (Legal/Contractual Paperwork Status)`](skills/vendor-check-nmoralescyber/) | Checks the LEGAL/CONTRACTUAL paperwork status of agreements with a specific vendor across CLM, CRM… |
 | [`Vendor Contract Review Skill`](skills/vendor-contract-review/) | Example paid-metadata skill for reviewing vendor agreements. |
 | [`Vendor Privacy Policy First Pass`](skills/vendor-privacy-policy-first-pass/) | Use when the user has a vendor's published privacy policy (URL, PDF, or pasted text) and wants a fast… |
-| [`venture-financing`](skills/venture-financing/) | Draft and fill NVCA model documents — stock purchase agreement, certificate of incorporation, investors… |
+| [`Venture financing`](skills/venture-financing/) | Draft and fill NVCA model documents — stock purchase agreement, certificate of incorporation, investors… |
 | [`Vibe Legal Server — Batch Contract Redlining`](skills/vibe-legal-batch-redliner/) | Use when you need to batch redline multiple contracts against a negotiation playbook, apply tracked… |
 | [`Darwin Legal Word Contract Formatting`](skills/word-contract-formatting/) | Apply Darwin Legal formatting conventions when drafting or generating any contract, agreement… |
 

@@ -1,6 +1,6 @@
 ---
 name: umwandlung-verschmelzung-kapitalerhoehung
-title: 1. Umwandlungsurkunden und Registerfolge vorbereiten
+title: 'Umwandlungsurkunden und Registerfolge vorbereiten'
 description: 'Bereitet Verschmelzung, Spaltung und Formwechsel für das Notariat vor: Rechtsträger, Vertrags- und Beschlussentwürfe, Schlussbilanz, Zustimmungen und Registerfolge. Eine bloße GmbH-Kapitalerhöhung wird an den Kapitalmaßnahmen-Skill übergeben.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/umwandlung-verschmelzung-kapitalerhoehung

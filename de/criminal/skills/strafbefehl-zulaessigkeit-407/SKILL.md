@@ -1,6 +1,6 @@
 ---
 name: strafbefehl-zulaessigkeit-407
-title: 1. Zulässigkeit und Inhalt des Strafbefehls
+title: 'Zulässigkeit und Inhalt des Strafbefehls'
 description: Prüft Verfahrensvoraussetzungen, Sanktionskatalog und Pflichtinhalt eines Strafbefehls sowie Grenzen nachträglicher Berichtigung. Verknüpft jeden konkreten Mangel mit Rechtsfolge, Frist und passendem Verteidigungsentwurf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-zulaessigkeit-407

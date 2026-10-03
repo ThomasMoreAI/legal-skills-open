@@ -1,6 +1,6 @@
 ---
 name: france-company-lookup
-title: france-company-lookup
+title: 'France company lookup'
 description: 'Look up French companies for free via the official DINUM ''Recherche d''entreprises'' API - no key, no registration - returning identity (SIREN, nom_complet), registered office (siege address, SIRET, code postal, departement), NAF/APE activity code, legal form, headcount band, creation date, active/ceased status, and directors (dirigeants). Backed by INSEE Sirene + INPI RNE open data. Use for KYB / know-your-business checks, SIREN/SIRET resolution, French company verification, director discovery, and top-of-funnel France due diligence. Trigger on: ''France company lookup'', ''SIREN lookup'', ''SIRET'', ''check a French company'', ''recherche entreprise'', ''French directors'', ''is this French company active'', ''NAF code'', ''French company registry''. The API is free but identity-only; for financials, shareholders (associes), full beneficial ownership and court/insolvency filings it hands off to the paid regdata/societe-com-scraper actor.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/france-company-lookup

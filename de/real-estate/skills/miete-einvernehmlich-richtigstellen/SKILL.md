@@ -1,6 +1,6 @@
 ---
 name: miete-einvernehmlich-richtigstellen
-title: 1. Miete einvernehmlich richtigstellen
+title: 'Miete einvernehmlich richtigstellen'
 description: Verwandelt eine geprüfte Mietberechnung in sachliche Auskunft, Korrekturschreiben oder Mietänderungsvereinbarung. Bewahrt Fristen und offene Ansprüche, ohne unnötige Drohung, pauschalen Verzicht oder eigenmächtige Zahlungsänderung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/miete-einvernehmlich-richtigstellen

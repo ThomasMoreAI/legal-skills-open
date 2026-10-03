@@ -1,6 +1,6 @@
 ---
 name: zwischenverfuegung-und-beschwerde
-title: 1. Zweck und Anwendungsfall
+title: 'Hindernis, Nachweis, Frist, Rang und statthaften Rechtsbehelf auseinanderhalten und eine…'
 description: Hindernis, Nachweis, Frist, Rang und statthaften Rechtsbehelf auseinanderhalten und eine begründete Antwort erstellen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/zwischenverfuegung-und-beschwerde

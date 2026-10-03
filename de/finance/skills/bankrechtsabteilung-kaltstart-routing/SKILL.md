@@ -1,6 +1,6 @@
 ---
 name: bankrechtsabteilung-kaltstart-routing
-title: 1. Anfrage an die Bank-Rechtsabteilung bearbeiten
+title: 'Anfrage an die Bank-Rechtsabteilung bearbeiten'
 description: 'Für Kaltstart-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bank-rechtsabteilung/skills/bankrechtsabteilung-kaltstart-routing

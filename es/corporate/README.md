@@ -10,7 +10,7 @@ Jurisdiction: `es` · Practice: `corporate` · Skill language: es
 |---|---|
 | [`Propósito`](skills/acuerdo-social/) | Redacta acuerdos sociales (junta general y consejo de administración) en formato del despacho |
 | [`Propósito`](skills/cumplimiento-societario/) | Genera el calendario de obligaciones societarias y rastrea su estado de cumplimiento |
-| [`/entrevista-inicial`](skills/entrevista-inicial-3/) | Entrevista de configuración inicial — aprende tu práctica societaria, los tipos de sociedad que manejas… |
+| [`Entrevista inicial`](skills/entrevista-inicial-3/) | Entrevista de configuración inicial — aprende tu práctica societaria, los tipos de sociedad que manejas… |
 | [`Propósito`](skills/extraccion-incidencias/) | Extrae incidencias de due diligence clasificadas por categoría, severidad y recomendación |
 | [`Propósito`](skills/revision-tabular/) | Genera una tabla de revisión documental de due diligence con una fila por documento y citas normativas |
 

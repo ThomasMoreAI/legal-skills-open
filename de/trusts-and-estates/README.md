@@ -31,7 +31,7 @@ Jurisdiction: `de` · Practice: `trusts-and-estates` · Skill language: de
 | [`Pflegeausgleich unter Abkömmlingen prüfen`](skills/pflegeausgleich-paragraf-2057a-bgb-pruefen/) | Prüft besondere Pflegeleistungen und andere Beiträge nach Paragraf 2057a BGB, grenzt Vergütung und… |
 | [`Pflichtteilsauskunft und Wertermittlung durchsetzen`](skills/pflichtteil-auskunft-durchsetzen/) | Verlangt privates oder notarielles Nachlassverzeichnis und Wertermittlung vom Erben, prüft Ergänzung und… |
 | [`Pflichtteil berechnen und Einwendungen bewerten`](skills/pflichtteil-berechnen/) | Berechnet den ordentlichen Pflichtteil aus belegter gesetzlicher Quote und bereinigtem Nachlass… |
-| [`1. Zweck und Anwendungsfall`](skills/pflichtteil-nachlassverzeichnis-belegabgleich/) | Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen, Immobilienwerten… |
+| [`Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen…`](skills/pflichtteil-nachlassverzeichnis-belegabgleich/) | Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen, Immobilienwerten… |
 | [`Pflichtteil bei später geklärter Vaterschaft sichern`](skills/pflichtteil-vaterschaft-verjaehrung-und-auskunft/) | Trennt Entstehung, Rechtsausübungssperre und Verjährung eines Pflichtteils bei später Anerkennung oder… |
 | [`Pflichtteilsergänzung aus Schenkungen berechnen`](skills/pflichtteilsergaenzung-berechnen/) | Bewertet lebzeitige Zuwendungen einschließlich Nießbrauch, Wohnungsrecht und gemischter Schenkung… |
 | [`Testament auslegen und Anfechtung prüfen`](skills/testament-auslegen-anfechten/) | Klärt den Inhalt widersprüchlicher oder laienhafter Verfügungen und prüft eigenständig Anfechtungsgrund… |

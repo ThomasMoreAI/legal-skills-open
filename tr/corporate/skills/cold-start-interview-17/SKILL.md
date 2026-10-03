@@ -1,11 +1,11 @@
 ---
 name: cold-start-interview-17
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Türk şirketler hukuku için corporate-legal başlangıç mülakatı. Şirket profili, aktif modüller, M&A, kurumsal yönetim, sermaye piyasası ve entity management bilgilerini toplar; Türk uygulamasına uygun CLAUDE.md profilini yazar. Fresh install, [PLACEHOLDER] bulunan config, yeni işlem, modül yenileme veya entegrasyon kontrolü için kullanılır.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/corporate-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: corporate

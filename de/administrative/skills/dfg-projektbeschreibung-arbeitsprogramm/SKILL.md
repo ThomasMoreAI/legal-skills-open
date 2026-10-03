@@ -1,6 +1,6 @@
 ---
 name: dfg-projektbeschreibung-arbeitsprogramm
-title: 1. Projektbeschreibung und Arbeitsprogramm
+title: 'Projektbeschreibung und Arbeitsprogramm'
 description: 'Für Projektbeschreibung und Arbeitsprogramm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/dfg-foerderantrag/skills/dfg-projektbeschreibung-arbeitsprogramm

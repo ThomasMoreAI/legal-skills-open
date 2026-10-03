@@ -1,6 +1,6 @@
 ---
 name: audit-application-torlyai
-title: /audit-application
+title: 'Audit application'
 description: 'Pre-submission audit gate. Reads all the user''s collected documents,
 
   the scope from /start-here, the cover letter, and runs a holistic
@@ -21,7 +21,7 @@ description: 'Pre-submission audit gate. Reads all the user''s collected documen
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/audit-application
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

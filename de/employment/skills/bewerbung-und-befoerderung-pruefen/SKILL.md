@@ -1,6 +1,6 @@
 ---
 name: bewerbung-und-befoerderung-pruefen
-title: 1. Bewerbungsentscheidung überprüfen
+title: 'Bewerbungsentscheidung überprüfen'
 description: Prüft Stellenausschreibung, Auswahlgespräch und Beförderung auf AGG-Risiken. Vergleicht tatsächliche Aufgaben mit Sprach- und Auswahlkriterien, rekonstruiert Entscheidungen mit Vermittlern und erstellt Bewerberanschreiben oder eine belegte Arbeitgeberantwort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/bewerbung-und-befoerderung-pruefen

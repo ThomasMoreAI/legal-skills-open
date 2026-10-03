@@ -1,6 +1,6 @@
 ---
 name: registerschriftverkehr-und-zwischenverfuegung
-title: 1. Registerschriftverkehr und Zwischenverfügung
+title: 'Registerschriftverkehr und Zwischenverfügung'
 description: Bearbeitet Beanstandungen, Nachreichungen, Sachstandsanfragen und Rechtsbehelfe mit Fristen und vollständigen Antwortentwürfen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/registerschriftverkehr-und-zwischenverfuegung

@@ -31,7 +31,7 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Certificate of Incumbency`](skills/certificate-of-incumbency/) | Drafts a Certificate of Incumbency certifying current officers, directors, and signing authority for a… |
 | [`Certificate of Withdrawal — Foreign Corporation`](skills/certificate-of-withdrawal-foreign-corp/) | Drafts a Certificate of Withdrawal for a foreign corporation surrendering its authority to transact… |
 | [`M&A Closing Checklist`](skills/closing-checklist/) | Drafts M&A closing checklists tracking documents, approvals, consents, and action items from signing… |
-| [`/closing-checklist`](skills/closing-checklist-bossmann007/) | What's blocking close — maintain the closing checklist with status, critical path, and days to close.… |
+| [`Closing checklist`](skills/closing-checklist-bossmann007/) | What's blocking close — maintain the closing checklist with status, critical path, and days to close.… |
 | [`Closing Resolutions`](skills/closing-resolutions/) | Drafts unanimous written consent resolutions authorizing a buyer or seller entity to execute an asset… |
 | [`Code of Business Conduct and Ethics`](skills/code-of-conduct/) | Drafts a Code of Business Conduct and Ethics satisfying SEC, SOX §406, and exchange listing… |
 | [`Code of Conduct and Ethics`](skills/code-of-conduct-and-ethics/) | Drafts a U.S. corporate Code of Business Conduct and Ethics with governance controls, enforcement… |
@@ -62,7 +62,7 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Due Diligence Report`](skills/due-diligence-report/) | Produces U.S. corporate/M&A due diligence reports summarizing legal risks across corporate records… |
 | [`Due Diligence Summary`](skills/due-diligence-summary/) | Produces structured U.S. transactional due diligence summaries with risk ratings, document citations… |
 | [`Earn-Out Agreement`](skills/earn-out-agreement/) | Drafts U.S. M&A earn-out agreements as exhibits to purchase agreements, covering earn-out period… |
-| [`/entity-compliance`](skills/entity-compliance/) | Entity compliance tracker — initialize, report upcoming deadlines, update status, run health audit… |
+| [`Entity compliance`](skills/entity-compliance/) | Entity compliance tracker — initialize, report upcoming deadlines, update status, run health audit… |
 | [`Equity Financing Term Sheet`](skills/equity-financing-term-sheet/) | Drafts a U.S. venture equity term sheet from deal facts into a negotiation-ready, investor-grade… |
 | [`Equity Financing Term Sheet`](skills/equity-term-sheet/) | Drafts a U.S. equity financing term sheet for preferred stock rounds (Series A/B/C), structured as a… |
 | [`Escrow Agreement`](skills/escrow-agreement/) | Drafts tripartite U.S. escrow agreements for M&A and commercial closings, covering escrow property… |

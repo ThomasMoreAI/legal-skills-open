@@ -1,6 +1,6 @@
 ---
 name: kaltstart
-title: 1. Deal-Kaltstart
+title: 'Deal-Kaltstart'
 description: 'Für Deal-Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Großkanzlei Corporate/M&A.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grosskanzlei-corporate-ma/skills/kaltstart

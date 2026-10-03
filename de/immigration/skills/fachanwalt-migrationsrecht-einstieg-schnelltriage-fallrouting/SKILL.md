@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-migrationsrecht-einstieg-schnelltriage-fallrouting
-title: 1. Migrationsrechtlichen Auftrag einordnen und bearbeiten
+title: 'Migrationsrechtlichen Auftrag einordnen und bearbeiten'
 description: 'Für Einstieg Schnelltriage Fallrouting: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Migrationsrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/einstieg-schnelltriage-fallrouting

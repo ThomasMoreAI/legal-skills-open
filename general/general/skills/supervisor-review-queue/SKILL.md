@@ -1,6 +1,6 @@
 ---
 name: supervisor-review-queue
-title: /supervisor-review-queue
+title: 'Supervisor review queue'
 description: 指导老师审查队列——学生输出在此等待指导老师批准后才能发给当事人或法院。 仅在冷启动设置时选择"正式审查队列"指导风格时活跃；否则休眠。 当指导老师想查看等待审查的内容、批准、编辑后批准或退回某项时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-clinic/skills/supervisor-review-queue

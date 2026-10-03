@@ -1,6 +1,6 @@
 ---
 name: verbotene-praktiken-art-5
-title: '1. Verbotene Praktiken: Tatbestand vor Risikoklasse'
+title: 'Verbotene Praktiken: Tatbestand vor Risikoklasse'
 description: Prüft verbotene Praktiken anhand der einzelnen Tatbestandsmerkmale, Ausnahmen und Einsatzdaten. Trennt die bisherigen Verbote von neuen Inhaltsverboten ab Dezember 2026 und liefert einen belegten Änderungs- oder Einstellungsvermerk.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/verbotene-praktiken-art-5

@@ -1,6 +1,6 @@
 ---
 name: widerspruch-schreiben
-title: 1. Widerspruch schreiben
+title: 'Widerspruch schreiben'
 description: Entwirft einen Widerspruch gegen einen Sozialbescheid mit klarer Änderung, konkreten Tatsachen und passenden Belegen. Sichert bei knapper Frist zunächst die zulässige Eingabe und führt die Begründung nach Akteneinsicht oder weiteren Antworten fort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/widerspruch-schreiben

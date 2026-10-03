@@ -1,6 +1,6 @@
 ---
 name: fetching-zakon-rada
-title: law-ua-fetching-zakon-rada
+title: 'Law UA fetching zakon rada'
 description: Use when retrieving Ukrainian legislation text from the official portal zakon.rada.gov.ua — fetching specific historical redactions by date, verifying current validity of a norm, tracking amendments, or constructing URLs for Ukrainian codes and laws
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-fetching-zakon-rada

@@ -1,6 +1,6 @@
 ---
 name: erwerbsmigration-fachkraefte-paragraf-18b-aufenthg
-title: 1. Akademische Fachkraft und Blaue Karte EU
+title: 'Akademische Fachkraft und Blaue Karte EU'
 description: Routet akademische Fachkräfte zwischen Aufenthaltserlaubnis nach Paragraf 18b AufenthG und Blauer Karte EU nach Paragraf 18g.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/erwerbsmigration-fachkraefte-paragraf-18b-aufenthg

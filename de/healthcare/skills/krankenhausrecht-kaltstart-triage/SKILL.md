@@ -1,6 +1,6 @@
 ---
 name: krankenhausrecht-kaltstart-triage
-title: 1. Krankenhausrechtlichen Vorgang einordnen und bearbeiten
+title: 'Krankenhausrechtlichen Vorgang einordnen und bearbeiten'
 description: 'Für Krankenhausrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenhausrecht/skills/kaltstart-triage

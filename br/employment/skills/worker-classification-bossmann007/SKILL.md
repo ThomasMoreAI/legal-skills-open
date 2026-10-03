@@ -1,6 +1,6 @@
 ---
 name: worker-classification-bossmann007
-title: /worker-classification
+title: 'Worker classification'
 description: Classify a proposed worker engagement — employee, IC, temp, or vendor — by running the applicable jurisdiction tests and flagging misclassification gaps between the intended arrangement and what the facts actually support. Prospective use only. Use when someone says "we want to bring on a contractor", "is this a vendor or a temp", "how should we classify this person", or describes a proposed working arrangement.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/worker-classification

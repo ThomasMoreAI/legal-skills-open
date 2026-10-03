@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-12
-title: /cold-start-interview
+title: 'Cold start interview'
 description: 'House cold-start interview (request list + prior memo), or --new-deal for deal-specific context. Modular: identifies which practice areas apply (M&A, Board & Secretary, Public Company, Entity Management), then asks targeted questions for each active module and writes only the relevant sections to the plugin config. Use on fresh install, when CLAUDE.md still has [PLACEHOLDER] markers, when starting a new deal, or to re-check integrations or refresh a module.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/corporate-legal/skills/cold-start-interview

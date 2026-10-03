@@ -1,6 +1,6 @@
 ---
 name: haftung-und-maengelrechte-abstimmen
-title: 1. Mängelrechte und Haftung ohne widersprüchliche Ausschlüsse regeln
+title: 'Mängelrechte und Haftung ohne widersprüchliche Ausschlüsse regeln'
 description: Formuliert zusammenpassende Mängel- und Haftungsklauseln für ein deutsches B2B-Einzelgeschäft. Verwenden bei pauschalen Haftungsdeckeln, unklarer Nachbesserung, widersprüchlichen Garantien, Servicegutschriften oder verkürzten Fristen; grenzt Vertragsgestaltung von der Durchsetzung eines bereits eingetretenen Großschadens ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/haftung-und-maengelrechte-abstimmen

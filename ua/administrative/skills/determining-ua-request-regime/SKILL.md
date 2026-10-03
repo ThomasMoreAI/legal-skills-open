@@ -1,6 +1,6 @@
 ---
 name: determining-ua-request-regime
-title: law-ua-determining-ua-request-regime
+title: 'Law UA determining UA request regime'
 description: Use when choosing the Ukrainian legal regime for letters, requests, applications, complaints, consular status inquiries, public-information requests, administrative-service applications, access to administrative case materials, personal-data access, registry extracts, or lawyer requests. Prevents mixing ЗУ «Про доступ до публічної інформації», ЗУ «Про звернення громадян», ЗУ «Про адміністративну процедуру», ЗУ «Про адміністративні послуги», ЗУ «Про захист персональних даних», and advocate-request regimes.
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-determining-ua-request-regime

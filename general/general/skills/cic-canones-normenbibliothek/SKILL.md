@@ -1,6 +1,6 @@
 ---
 name: cic-canones-normenbibliothek
-title: 1. CIC-Canones gezielt erschließen
+title: 'CIC-Canones gezielt erschließen'
 description: Erschließt einen konkret bezeichneten Canon des CIC mit amtlichem Textabgleich, Systemstelle, Nachbarcanones, Tatbestand, Rechtsfolge und belastbarer Arbeitsausgabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisch-katholisches-kirchenrecht/skills/cic-canones-normenbibliothek

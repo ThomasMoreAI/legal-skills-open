@@ -1,6 +1,6 @@
 ---
 name: gesellschaft-und-vertretung-klaeren
-title: 1. Gesellschaft und Vertretung klären
+title: 'Gesellschaft und Vertretung klären'
 description: Klärt bei einem konkreten Vertrag, Schreiben oder Beschluss die richtige Gesellschaft, Vertretungsmacht und notwendige Zustimmung. Liefert eine belastbare Parteibezeichnung, Vertretungsregelung, Genehmigung oder Beschlussfassung statt einer allgemeinen Gesellschaftsrechtsübersicht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/gesellschaft-und-vertretung-klaeren

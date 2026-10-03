@@ -1,11 +1,11 @@
 ---
 name: australia-abn-lookup-nolpak14
-title: australia-abn-lookup
+title: 'Australia abn lookup'
 description: 'Look up Australian businesses for free via the official ABN Lookup web services (Australian Business Register) - ABN, ACN, entity name, entity type, ABN status (active/cancelled), GST registration, main business location (state + postcode), business/trading names, and name-match search. Use for KYB / know-your-business checks, counterparty verification, and Australian company due diligence. Trigger on: ''ABN Lookup'', ''ABN'', ''ACN'', ''check an Australian company'', ''Australian Business Register'', ''ABR'', ''is this ABN active'', ''GST registered'', ''Australian business number'', ''Australian company number''. The ABN Lookup API is free (you register your own free GUID); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/australia-abn-lookup
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: au
 practice: corporate

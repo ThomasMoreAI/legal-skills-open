@@ -1,6 +1,6 @@
 ---
 name: organhaftung-zahlungen-masseabgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Bereitet die Organhaftung für Zahlungen nach Insolvenzreife durch Einzelbuchungsabgleich…'
 description: Bereitet die Organhaftung für Zahlungen nach Insolvenzreife durch Einzelbuchungsabgleich, Zeitfenster und belegte Massezuflüsse auf. Trennt Sorgfaltsprüfung und geringeren Gläubigerschaden nach Paragraf 15b InsO; nicht für eine bloße Liquiditätsprognose oder die Anfechtung gegen Zahlungsempfänger.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/organhaftung-zahlungen-masseabgleich

@@ -1,6 +1,6 @@
 ---
 name: ki-kompetenz-erwerb-plan
-title: 1. Kompetenzförderung im Kanzleialltag
+title: 'Kompetenzförderung im Kanzleialltag'
 description: Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung. Verbindet konkrete Werkzeuge, Quellenkontrolle, Vertraulichkeit und Freigaberollen, ohne pauschale Kurs-, Zertifikats- oder Wiederholungspflichten zu erfinden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/ki-kompetenz-erwerb-plan

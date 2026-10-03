@@ -1,6 +1,6 @@
 ---
 name: zugewinn-vermoegensbelege-stichtage-abgleichen
-title: 1. Zweck und Anwendungsfall
+title: 'Erstellt einen Zugewinnausgleich aus widersprüchlichen Vermögensauskünften, Konto- und…'
 description: Erstellt einen Zugewinnausgleich aus widersprüchlichen Vermögensauskünften, Konto- und Bewertungsbelegen. Gleicht Anfang, Trennung und Rechtshängigkeit positionsweise ab, verfolgt Vermögensbewegungen und berechnet Varianten für ungeklärte Minderungen und privilegierte Erwerbe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht/skills/zugewinn-vermoegensbelege-stichtage-abgleichen

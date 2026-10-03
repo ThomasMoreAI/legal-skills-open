@@ -1,6 +1,6 @@
 ---
 name: asog-durchsuchung-und-wohnraumschutz
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Durchsuchungen von Personen, Sachen und Wohnungen einschließlich…'
 description: Prüft Berliner Durchsuchungen von Personen, Sachen und Wohnungen einschließlich Richtervorbehalt, Dokumentation und Folgenrechtsschutz.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-durchsuchung-und-wohnraumschutz

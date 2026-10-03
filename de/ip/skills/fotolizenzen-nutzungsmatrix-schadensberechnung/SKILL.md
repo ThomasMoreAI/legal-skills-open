@@ -1,6 +1,6 @@
 ---
 name: fotolizenzen-nutzungsmatrix-schadensberechnung
-title: 1. Zweck und Anwendungsfall
+title: 'Rekonstruiert unerlaubte gewerbliche Fotonutzungen aus Rechtekette, Veröffentlichungen…'
 description: Rekonstruiert unerlaubte gewerbliche Fotonutzungen aus Rechtekette, Veröffentlichungen und Vergleichslizenzen und beziffert den Schaden mit Alternativen. Für umfangreiche Bildserien und Lizenzüberschreitungen, nicht für Vertragsgestaltung oder reine Gegendarstellung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/fotolizenzen-nutzungsmatrix-schadensberechnung

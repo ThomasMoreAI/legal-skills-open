@@ -67,8 +67,8 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Cloud Service Provider Privacy Assessment`](skills/cloud-provider-assessment/) | Cloud service provider privacy assessment framework. Covers ISO 27018 cloud privacy controls, CSA STAR… |
 | [`Cloud Storage Retention Configuration`](skills/cloud-retention-config/) | Configures cloud storage retention policies across AWS S3, Azure Blob Storage, and Google Cloud Storage.… |
 | [`CNIL-Compliant Cookie Banner Implementation`](skills/cnil-cookie-banner/) | Designing and implementing CNIL-compliant cookie consent banners for French and EU audiences. References… |
-| [`/cold-start-interview`](skills/cold-start-interview-10/) | Run the cold-start interview — learns your privacy practice and writes CLAUDE.md from your policy, DPA… |
-| [`/cold-start-interview`](skills/cold-start-interview-22/) | Türkiye regulatory setup görüşmesi: izlenen kurumları, kaynakları, önem eşiğini, politika kütüphanesini… |
+| [`Cold start interview`](skills/cold-start-interview-10/) | Run the cold-start interview — learns your privacy practice and writes CLAUDE.md from your policy, DPA… |
+| [`Cold start interview`](skills/cold-start-interview-22/) | Türkiye regulatory setup görüşmesi: izlenen kurumları, kaynakları, önem eşiğini, politika kütüphanesini… |
 | [`/comments`](skills/comments-zekaisuni/) | Türkiye'deki taslak düzenleme ve kamuoyu görüşü sürelerini takip eder; görüş verilecek/verilmeyecek… |
 | [`Comparing PIA Methodologies`](skills/comparing-pia-methodologies/) | Compares PIA/DPIA methodologies: CNIL PIA tool, ICO DPIA template, NIST Privacy Framework, and ISO… |
 | [`Compliance Checklist Skill`](skills/compliance-checklist/) | Generate a prioritised compliance checklist for GDPR, SOC 2, ISO 27001, FCA, HIPAA, or other frameworks… |
@@ -114,8 +114,8 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Implementing Double Opt-In Email`](skills/double-opt-in-email/) | Implementation guide for ePrivacy Directive compliant double opt-in email consent. Covers confirmation… |
 | [`Data Processing Agreement Drafting`](skills/dpa-drafting/) | GDPR-compliant Data Processing Agreement drafting per Article 28(3). Covers all 8 mandatory provisions… |
 | [`Supervisory Authority Inspection Preparation`](skills/dpa-inspection-prep/) | Guides preparation for supervisory authority (DPA) inspections and investigations including document… |
-| [`/dpa-review`](skills/dpa-review-anthropics/) | Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or… |
-| [`/dpa-review`](skills/dpa-review-zhou210712/) | 依据你的数据处理协议（DPA）操作手册审查一份DPA——自动检测你是受托处理者 还是处理者，并应用操作手册正确的半部分。当用户说"审查这份DPA""检查这份… |
+| [`DPA review`](skills/dpa-review-anthropics/) | Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or… |
+| [`DPA review`](skills/dpa-review-zhou210712/) | 依据你的数据处理协议（DPA）操作手册审查一份DPA——自动检测你是受托处理者 还是处理者，并应用操作手册正确的半部分。当用户说"审查这份DPA""检查这份… |
 | [`DPIA for Automated Decision-Making Systems`](skills/dpia-automated-decisions/) | Conducts a Data Protection Impact Assessment for automated decision-making and profiling systems under… |
 | [`DPIA for Biometric Systems`](skills/dpia-biometric-systems/) | Conducts Data Protection Impact Assessments for biometric identification and authentication systems… |
 | [`DPIA Mitigation Planning`](skills/dpia-mitigation-plan/) | Structures risk mitigation planning and residual risk tracking for Data Protection Impact Assessments… |
@@ -124,7 +124,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`DPIA Stakeholder Consultation`](skills/dpia-stakeholder-consult/) | Guides data subject and stakeholder consultation requirements during Data Protection Impact Assessments… |
 | [`Draft Cybersecurity Website Terms and Cookie Policies`](skills/draft-cybersecurity-website-terms-and-cookie-policies/) | Generates Terms of Use and Cookie Policy documents for a cybersecurity company website, strictly… |
 | [`Processing Data Subject Access Requests`](skills/dsar-processing/) | Guides AI agents through the complete GDPR Data Subject Access Request (DSAR) workflow under Article 15… |
-| [`/dsar-response`](skills/dsar-response-anthropics/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the… |
+| [`DSAR response`](skills/dsar-response-anthropics/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the… |
 | [`EdTech Privacy Assessment — Children's Data in Educational Technology`](skills/edtech-privacy-assessment/) | Assesses children's data protection in educational technology. Covers COPPA school exception under… |
 | [`Employee Biometric Data`](skills/employee-biometric-data/) | Governs biometric data processing for employee timekeeping and access control under Art. 9 GDPR special… |
 | [`Employee DSAR Response`](skills/employee-dsar-response/) | Manages Data Subject Access Request procedures for employee requests under Art. 15 GDPR. Covers scope of… |
@@ -183,7 +183,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`ISO 27701 Privacy Information Management Skill`](skills/iso27701/) | Expert ISO 27701 Privacy Information Management System (PIMS) compliance advisor. Use this skill… |
 | [`Managing Joint Controller Arrangements`](skills/joint-controller-art26/) | Guides the establishment and management of joint controller arrangements under GDPR Article 26… |
 | [`Implementing Lawful Basis Assessment`](skills/lawful-basis-assessment/) | Guides determination of the correct lawful basis under GDPR Article 6(1)(a)-(f) for each processing… |
-| [`legal-advisor`](skills/legal-advisor-v2/) | legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of… |
+| [`Legal advisor`](skills/legal-advisor-v2/) | legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of… |
 | [`Privacy & Terms Generator`](skills/legal-docs/) | Generate jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products, apps, and digital… |
 | [`Assessing Legitimate Interest vs Consent`](skills/legit-interest-vs-consent/) | Decision framework for choosing between consent and legitimate interest as the lawful basis for… |
 | [`Performing Legitimate Interest Assessment`](skills/legitimate-interest-lia/) | Guides the three-part Legitimate Interest Assessment (LIA) required under GDPR Article 6(1)(f): purpose… |
@@ -203,16 +203,16 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`NIST Privacy Framework — PROTECT Function`](skills/nist-pf-protect/) | Implement the NIST Privacy Framework PROTECT function covering PR.AC access control, PR.DS data… |
 | [`Implementing NIST Privacy Framework IDENTIFY Function`](skills/nist-privacy-identify/) | Guides implementation of the NIST Privacy Framework IDENTIFY function covering ID.BE business… |
 | [`Personal Data Classification Test — GDPR Art. 4(1)`](skills/personal-data-test/) | Classifies personal vs non-personal data per GDPR Art. 4(1) definition test with decision tree for… |
-| [`/pia-generation`](skills/pia-generation/) | Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity… |
+| [`Pia generation`](skills/pia-generation/) | Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity… |
 | [`Privacy Impact Assessment for Large-Scale Monitoring`](skills/pia-large-scale-monitor/) | Conducts Privacy Impact Assessment for large-scale systematic monitoring under GDPR Article 35(3)(c).… |
 | [`Managing PIA Review and Update Cadence`](skills/pia-review-cadence/) | Guides the periodic DPIA review lifecycle including trigger identification for regulatory changes, new… |
 | [`PIA Threshold Screening`](skills/pia-threshold-screening/) | Conducts pre-DPIA threshold screening to determine whether a full Data Protection Impact Assessment is… |
 | [`Privacy Impact Assessment for Vendor Processing`](skills/pia-vendor-processing/) | Conducts Privacy Impact Assessment for vendor and third-party data processing arrangements. Covers… |
 | [`Automated PII Detection and Redaction Pipeline`](skills/pii-detection-pipeline/) | Build automated PII detection and redaction pipelines using spaCy NER, Microsoft Presidio, and AWS Macie… |
 | [`PII Detection in Unstructured Data`](skills/pii-in-unstructured/) | Detects PII in unstructured data including emails, documents, images, and logs using NER-based detection… |
-| [`/policy-diff`](skills/policy-diff-zekaisuni/) | Belirli bir Türkiye regülasyon değişikliğini politika kütüphanesiyle karşılaştırır; hangi iç… |
-| [`/policy-monitor`](skills/policy-monitor-anthropics/) | Keep the privacy policy current with practice. Two modes: weekly sweep of saved PIAs, DPA reviews, and… |
-| [`/policy-redraft`](skills/policy-redraft-zekaisuni/) | Policy-diff veya gaps sonucunda bulunan boşluğu kapatmak için Türkçe/İngilizce iç politika üzerinde… |
+| [`Policy diff`](skills/policy-diff-zekaisuni/) | Belirli bir Türkiye regülasyon değişikliğini politika kütüphanesiyle karşılaştırır; hangi iç… |
+| [`Policy monitor`](skills/policy-monitor-anthropics/) | Keep the privacy policy current with practice. Two modes: weekly sweep of saved PIAs, DPA reviews, and… |
+| [`Policy redraft`](skills/policy-redraft-zekaisuni/) | Policy-diff veya gaps sonucunda bulunan boşluğu kapatmak için Türkçe/İngilizce iç politika üzerinde… |
 | [`Preparing ISO 31700 Certification`](skills/preparing-iso-31700-certification/) | Preparation guide for ISO 31700 privacy by design for consumer goods certification. Covers the 30… |
 | [`Conducting Prior Consultation with Supervisory Authority`](skills/prior-consultation-dpa/) | Guides the Art. 36 prior consultation process when a DPIA indicates high residual risk that cannot be… |
 | [`Privacy Guideline`](skills/privacy/) | Privacy and data protection - GDPR, CCPA, consent. Use when handling user data. |
@@ -233,8 +233,8 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Pseudonymised vs Anonymised Data Classification`](skills/pseudo-vs-anon-data/) | Classifies data as pseudonymised or anonymised using Recital 26 reasonably likely test, Breyer ruling… |
 | [`Assessing Pseudonymization and Re-Identification Risk`](skills/pseudonymization-risk/) | Assessment of pseudonymization techniques and re-identification risk. Covers tokenization, hashing… |
 | [`Purpose-Based Access Control (PBAC) Architecture`](skills/purpose-based-access/) | Design and implement Purpose-Based Access Control (PBAC) architecture including purpose ontology… |
-| [`/reg-feed-watcher`](skills/reg-feed-watcher-zekaisuni/) | Türkiye odaklı düzenleyici kaynakları kontrol eder, yeni gelişmeleri önem eşiğine göre sınıflandırır ve… |
-| [`/reg-gap-analysis`](skills/reg-gap-analysis-anthropics/) | Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a… |
+| [`Reg feed watcher`](skills/reg-feed-watcher-zekaisuni/) | Türkiye odaklı düzenleyici kaynakları kontrol eder, yeni gelişmeleri önem eşiğine göre sınıflandırır ve… |
+| [`Reg gap analysis`](skills/reg-gap-analysis-anthropics/) | Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a… |
 | [`Responding to Regulatory Complaints`](skills/regulatory-complaints/) | Manages responses to regulatory complaints lodged with supervisory authorities under GDPR Article 77… |
 | [`Remote Work Monitoring`](skills/remote-work-monitoring/) | Establishes boundaries for monitoring remote and hybrid workers including screen capture, productivity… |
 | [`Handling Right to Restriction Requests`](skills/restriction-of-processing/) | Handles GDPR Article 18 right to restriction of processing requests, covering the four grounds for… |
@@ -274,8 +274,8 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Implementing Transparent Communication`](skills/transparent-communication/) | Implements GDPR Article 12 transparent information and communication requirements, covering concise… |
 | [`UK Age Appropriate Design Code Implementation`](skills/uk-aadc-implementation/) | Implements the UK Age Appropriate Design Code (Children's Code) 15 standards under the Data Protection… |
 | [`Implementing UK International Data Transfer Mechanisms`](skills/uk-transfer-mechanisms/) | Guides implementation of UK international data transfer mechanisms post-Brexit including the… |
-| [`/use-case-triage`](skills/use-case-triage/) | Quickly determine whether a processing activity needs a PIA, a mandatory GDPR DPIA, or can proceed… |
-| [`/vendor-ai-review`](skills/vendor-ai-review-anthropics/) | Review vendor AI terms — agreement, addendum, or ToS AI provisions — against your governance positions… |
+| [`Use case triage`](skills/use-case-triage/) | Quickly determine whether a processing activity needs a PIA, a mandatory GDPR DPIA, or can proceed… |
+| [`Vendor AI review`](skills/vendor-ai-review-anthropics/) | Review vendor AI terms — agreement, addendum, or ToS AI provisions — against your governance positions… |
 | [`Vendor Breach Notification Cascade`](skills/vendor-breach-cascade/) | Vendor breach notification cascade management per GDPR Article 33(2). Covers processor-to-controller… |
 | [`Vendor Certification Acceptance Criteria`](skills/vendor-cert-acceptance/) | Vendor certification acceptance criteria and equivalence mapping. Covers ISO 27701, SOC 2 Privacy, APEC… |
 | [`Vendor Privacy Monitoring Program`](skills/vendor-monitoring-program/) | Ongoing vendor privacy compliance monitoring program. Covers annual reassessment procedures, continuous… |

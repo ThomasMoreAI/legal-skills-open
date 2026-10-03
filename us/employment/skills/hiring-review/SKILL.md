@@ -1,11 +1,11 @@
 ---
 name: hiring-review
-title: /hiring-review
+title: 'Hiring review'
 description: Review an offer letter and any restrictive covenants — jurisdiction check included. Substantive rules (covenant enforceability, pay-transparency, salary-history limits, exemption criteria) are researched per hire, not stored. Use when the user says "review this offer", "can we use a non-compete here", "check this offer letter", "hiring in [state]", or attaches an offer.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/hiring-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment

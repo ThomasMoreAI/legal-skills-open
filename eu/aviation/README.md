@@ -39,7 +39,7 @@ Jurisdiction: `eu` · Practice: `aviation` · Skill language varies per skill.
 | [`Einstieg und Routing`](skills/fluggastrechte-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Fristen- und Risikoampel`](skills/fluggastrechte-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Juristischer Argumentationskern - Fluggastrechte`](skills/fluggastrechte-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Fluggastrechte ein juristisches Arbeitsprodukt tragfähig begründet werden… |
-| [`/fluggastrechte:kaltstart-interview`](skills/fluggastrechte-kaltstart-interview/) | Für /fluggastrechte:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Kaltstart interview`](skills/fluggastrechte-kaltstart-interview/) | Für /fluggastrechte:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Flugstörung und nächsten Anspruchsschritt bestimmen`](skills/fluggastrechte-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Output wählen`](skills/fluggastrechte-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsquellen-Livecheck`](skills/fluggastrechte-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

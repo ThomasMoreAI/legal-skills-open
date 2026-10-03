@@ -1,6 +1,6 @@
 ---
 name: reg-feed-watcher-zekaisuni
-title: /reg-feed-watcher
+title: 'Reg feed watcher'
 description: 'Türkiye odaklı düzenleyici kaynakları kontrol eder, yeni gelişmeleri önem eşiğine göre sınıflandırır ve aksiyon gerektirenleri policy-diff / comments / gaps akışına devreder. Kullanım: "regulatory update", "kaynakları kontrol et", "Resmi Gazete''de ne var", "KVKK/SPK/BDDK gündemi".'
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/reg-feed-watcher

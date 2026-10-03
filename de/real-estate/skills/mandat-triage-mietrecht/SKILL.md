@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-mietrecht
-title: 1. Mietrechtlichen Streit einordnen und lösen
+title: 'Mietrechtlichen Streit einordnen und lösen'
 description: 'Für Mandat-Triage Mietrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mandat-triage-mietrecht

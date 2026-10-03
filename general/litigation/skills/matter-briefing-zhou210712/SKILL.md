@@ -1,11 +1,11 @@
 ---
 name: matter-briefing-zhou210712
-title: /matter-briefing
+title: 'Matter briefing'
 description: 单个案件深度简报——当前姿态、变化之处、下个节点、 待解决问题和风险重评估检查，适用于向法务负责人汇报或外部律师通话前准备。 当用户说"简报[案件]"、"这个案件什么情况"或需要了解特定案件时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/matter-briefing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

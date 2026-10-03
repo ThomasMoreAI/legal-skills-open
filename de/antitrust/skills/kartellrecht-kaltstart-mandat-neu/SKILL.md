@@ -1,6 +1,6 @@
 ---
 name: kartellrecht-kaltstart-mandat-neu
-title: 1. Kartellrechtsmandat anhand der Unterlagen klären
+title: 'Kartellrechtsmandat anhand der Unterlagen klären'
 description: 'Für Kartellrecht Kaltstart Mandat neu: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/kartellrecht-kaltstart-mandat-neu

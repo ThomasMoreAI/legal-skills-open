@@ -1,6 +1,6 @@
 ---
 name: ecm-draft-format-adjust
-title: ecm-draft-format-adjust
+title: 'Ecm draft format adjust'
 description: Word 文档格式调整 skill。当用户要求调整 / 优化 / 修正 / 排版 / 套版 / 套格式 / 按律所模板 格式化 / 按证监会要求格式化 Word 文档（包括律师工作报告、法律意见书、法律备忘录、法律意见、 会议文件、信披文件等），具体调整项包括：字体、字号、行距、段前段后、首行缩进、标题层级、 章节编号、自动编号、交叉引用、脚注、尾注、页眉页脚、页码、目录（自动生成 / 更新）、 表格样式、封面页、签字页、Markdown → Word 转换、套用律所样式 / 样式表、批量统一格式、 按 shared/templates 规范套版，或说"把这份文件格式弄一下""按律所模板排版""格式不统一帮我 改下""加个目录""生成页眉页脚""正文统一小四宋体""一级标题用黑体"等场景时触发。 典型输入：待调整的 Markdown / Word / PDF 文件、目标格式规范名（work-report / legal-opinion / legal-memo / meeting-docs / 律所自定义样式），或具体格式要求（字体 / 字号 / 行距等）。 典型输出：格式调整后的 Word 文档 + 格式检查清单 + 样式调整记录。 非触发边界：本 skill 不起草文书内容（归各起草类 skill）、不做内核审查（归 ecm-qc-*）、 不做 PDF 填表（归外部 pdf skill）。即使用户未明确说"排版 / 格式"，只要涉及 Word 的视觉 / 结构调整（标题层级、编号、目录、页眉页脚、交叉引用）也应触发。
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-draft-format-adjust

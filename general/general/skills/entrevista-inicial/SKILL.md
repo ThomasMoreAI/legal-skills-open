@@ -1,11 +1,11 @@
 ---
 name: entrevista-inicial
-title: /entrevista-inicial
+title: 'Entrevista inicial'
 description: Ejecuta la entrevista inicial del módulo de clínica jurídica — aprende la estructura de la clínica, el protocolo de intake, el modelo de supervisión, la gestión de plazos y las plantillas que usáis. Escribe el perfil de práctica en CLAUDE.md. Úsalo en la primera ejecución, cuando CLAUDE.md no exista o tenga marcadores pendientes, o cuando el usuario diga "configurar clínica", "onboarding", o quiera repetir la entrevista.
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/clinica-juridica/skills/entrevista-inicial
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

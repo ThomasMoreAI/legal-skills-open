@@ -1,11 +1,11 @@
 ---
 name: worker-classification
-title: /worker-classification
+title: 'Worker classification'
 description: Classify a proposed worker engagement — employee, IC, temp, or vendor — by running the applicable jurisdiction tests and flagging misclassification gaps between the intended arrangement and what the facts actually support. Prospective use only. Use when someone says "we want to bring on a contractor", "is this a vendor or a temp", "how should we classify this person", or describes a proposed working arrangement.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/worker-classification
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment

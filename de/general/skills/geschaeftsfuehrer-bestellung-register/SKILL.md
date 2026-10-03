@@ -1,6 +1,6 @@
 ---
 name: geschaeftsfuehrer-bestellung-register
-title: 1. Geschäftsführerwechsel und Handelsregisteranmeldung vorbereiten
+title: 'Geschäftsführerwechsel und Handelsregisteranmeldung vorbereiten'
 description: Bereitet Geschäftsführerbestellung, Abberufung und Handelsregisteranmeldung für GmbH und UG vor. Gleicht Beschlussdatum, Wirksamkeit, Vertretungsregel und Versicherungen ab und stellt die elektronische Registermappe zur notariellen Freigabe zusammen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/geschaeftsfuehrer-bestellung-register

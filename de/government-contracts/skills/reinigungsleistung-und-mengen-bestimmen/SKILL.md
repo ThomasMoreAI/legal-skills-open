@@ -1,6 +1,6 @@
 ---
 name: reinigungsleistung-und-mengen-bestimmen
-title: 1. Reinigungsleistung und Mengen bestimmen
+title: 'Reinigungsleistung und Mengen bestimmen'
 description: Entwirft Leistungsbeschreibung und Leistungsverzeichnis für U-Bahn-, Stations- und Betriebsreinigung. Verbindet Flächen, Intervalle, Betriebsfenster, Qualitätsnachweise und Mengen zu kalkulierbaren Leistungen statt pauschaler Reinigungsvorgaben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/reinigungsleistung-und-mengen-bestimmen

@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-pep-hochrisikoland-risikoanalyse
-title: 1. PEP und Länderbezug differenzieren
+title: 'PEP und Länderbezug differenzieren'
 description: Prüft PEP-Merkmale und Hochrisikostaaten anhand von Amt, Beziehung, Zeitraum und aktueller Quelle. Leitet passende verstärkte Sorgfaltspflichten ab und unterscheidet Risiko, Sanktion und meldepflichtige Tatsache.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-pep-hochrisikoland-risikoanalyse

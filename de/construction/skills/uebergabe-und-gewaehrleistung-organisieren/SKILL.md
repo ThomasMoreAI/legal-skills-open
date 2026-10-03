@@ -1,6 +1,6 @@
 ---
 name: uebergabe-und-gewaehrleistung-organisieren
-title: 1. Übergabe, Restleistungen und Gewährleistung geordnet fortführen
+title: 'Übergabe, Restleistungen und Gewährleistung geordnet fortführen'
 description: Erstellt Übergabeunterlagen, Restpunkteliste und belegtes Gewährleistungsregister für Bauherren und Betreiber. Trennt Besitzübergabe, Inbetriebnahme, Abnahme und Verjährung; organisiert die Fortsetzung ohne pauschale Fünfjahresfrist für alles.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/uebergabe-und-gewaehrleistung-organisieren

@@ -1,6 +1,6 @@
 ---
 name: fashion-luxus-kaltstart-interview
-title: 1. Schutzrechte und Verträge eines Modehauses prüfen
+title: 'Schutzrechte und Verträge eines Modehauses prüfen'
 description: 'Für Kaltstart-Interview und IP-Audit für Luxus-Modehäuser: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/fashion-luxus-kaltstart-interview

@@ -14,7 +14,7 @@ Jurisdiction: `eu` · Practice: `consumer` · Skill language: de
 | [`Entschädigung berechnen`](skills/entschaedigung-berechnen/) | Für Entschädigung berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Fahrgastrechte — Anlagen bauen`](skills/fahrgastrechte-anlagen-bauen/) | Für Fahrgastrechte — Anlagen bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Juristischer Argumentationskern - Fahrgastrechte`](skills/fahrgastrechte-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Fahrgastrechte ein juristisches Arbeitsprodukt tragfähig begründet werden… |
-| [`1. Ansprüche aus einer Bahnreise einordnen`](skills/fahrgastrechte-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
+| [`Ansprüche aus einer Bahnreise einordnen`](skills/fahrgastrechte-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Forderungsschreiben — Erste Stufe`](skills/forderung-an-db-erste-stufe/) | Für Forderungsschreiben — Erste Stufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Klage zum Amtsgericht (Fahrgastrechte)`](skills/klage-amtsgericht-fahrgast/) | Für Klage zum Amtsgericht (Fahrgastrechte): erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Schlichtungsstelle Reise & Verkehr e.V. anrufen`](skills/schlichtung-reise-verkehr-anrufen/) | Für Schlichtungsstelle Reise & Verkehr e.V. anrufen: ordnet Norm, Beweislast und Gegenargument… |

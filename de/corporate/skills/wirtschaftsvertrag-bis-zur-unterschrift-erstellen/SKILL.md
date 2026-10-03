@@ -1,6 +1,6 @@
 ---
 name: wirtschaftsvertrag-bis-zur-unterschrift-erstellen
-title: 1. Wirtschaftsvertrag bis zur Unterschrift erstellen
+title: 'Wirtschaftsvertrag bis zur Unterschrift erstellen'
 description: Erstellt und verhandelt deutsche B2B-Wirtschaftsverträge aus vorhandenen Unterlagen bis zum unterschriftsreifen Entwurf. Klärt die entscheidende wirtschaftliche Bindung und setzt denselben Vertrag nach Antworten fort. Keine vollständige Unternehmenskaufberatung und kein eigenständiger Lizenzvertragsgenerator.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/wirtschaftsvertrag-bis-zur-unterschrift-erstellen

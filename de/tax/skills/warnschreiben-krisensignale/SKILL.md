@@ -1,6 +1,6 @@
 ---
 name: warnschreiben-krisensignale
-title: 1. Warnschreiben bei Krisensignalen
+title: 'Warnschreiben bei Krisensignalen'
 description: Erstellt für den Steuerberater einen konkreten Hinweis bei Krisensignalen und prüft zuerst, ob Paragraf 102 StaRUG wegen eines Jahresabschlussauftrags greift.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/warnschreiben-krisensignale

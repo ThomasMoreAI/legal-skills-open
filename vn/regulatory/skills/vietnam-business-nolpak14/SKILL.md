@@ -1,11 +1,11 @@
 ---
 name: vietnam-business-nolpak14
-title: vietnam-business
+title: 'Vietnam business'
 description: 'Look up Vietnamese companies for free by tax code (MST / ma so thue) via the VietQR business API (api.vietqr.io) - a keyless, third-party aggregator of Vietnam General Department of Taxation (GDT) public records. Returns the Vietnamese legal name, international name, short name, registered address, and tax status (e.g. ''NNT dang hoat dong'' = active). Use for a quick Vietnam company / tax-code check, counterparty verification, and Vietnamese business lookup. Trigger on: ''Vietnam company lookup'', ''tax code'', ''MST'', ''ma so thue'', ''check a Vietnamese company'', ''is this Vietnam company active'', ''Vietnamese business lookup'', ''Vietnam MST lookup''. Not an official government API - it is a CASSO-operated aggregator with partial fields and ~monthly lag; verify against the official portal for authoritative use. For deeper Vietnam data and jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/vietnam-business
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: vn
 practice: regulatory

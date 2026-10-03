@@ -10,7 +10,7 @@ Jurisdiction: `sg` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`singapore-acra`](skills/singapore-acra-nolpak14/) | Look up Singapore companies for free via the official ACRA open data on data.gov.sg - entity name, UEN… |
+| [`Singapore acra`](skills/singapore-acra-nolpak14/) | Look up Singapore companies for free via the official ACRA open data on data.gov.sg - entity name, UEN… |
 
 ## Cold-start context
 

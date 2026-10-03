@@ -1,11 +1,11 @@
 ---
 name: entity-compliance-bossmann007
-title: /entity-compliance
+title: 'Entity compliance'
 description: Tracker de compliance societário — inicializa, reporta prazos próximos, atualiza status, roda auditoria de saúde, exporta CSV. Mantém um compliance-tracker.yaml construído a partir da tabela de entidades, calcula prazos de arquivamento por entidade e Junta Comercial estadual, e mostra o que vence nos próximos 30/60/90 dias. Use quando o usuário disser "compliance societário", "prazos de arquivamento", "alteração contratual pendente", "tracker de entidades", "quais arquivamentos vencem", "saúde societária", ou "situação cadastral".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/corporate-legal/skills/entity-compliance
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: corporate

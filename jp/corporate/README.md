@@ -10,7 +10,7 @@ Jurisdiction: `jp` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`japan-company-registry`](skills/japan-company-registry-nolpak14/) | Look up Japanese companies for free via the official gBizINFO (法人インフォ) open data API - company profile… |
+| [`Japan company registry`](skills/japan-company-registry-nolpak14/) | Look up Japanese companies for free via the official gBizINFO (法人インフォ) open data API - company profile… |
 
 ## Cold-start context
 

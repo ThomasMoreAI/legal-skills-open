@@ -1,6 +1,6 @@
 ---
 name: laufzeit-kuendigung-und-exit-gestalten
-title: 1. Laufzeit, Kündigung und Exit gestalten
+title: 'Laufzeit, Kündigung und Exit gestalten'
 description: Gestaltet Laufzeit, ordentliche und außerordentliche Kündigung sowie die konkrete Abwicklung von Aufträgen, Material, Daten, Nutzungsrechten und Übergangsleistungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/laufzeit-kuendigung-und-exit-gestalten

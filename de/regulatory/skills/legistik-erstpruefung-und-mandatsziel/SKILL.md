@@ -1,6 +1,6 @@
 ---
 name: legistik-erstpruefung-und-mandatsziel
-title: 1. Normvorhaben prüfen und zum bestellten Ergebnis führen
+title: 'Normvorhaben prüfen und zum bestellten Ergebnis führen'
 description: 'Für Legistik: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Legistik-Werkstatt. Route: legistik-erstpruefung-und-mandatsziel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/legistik-erstpruefung-und-mandatsziel

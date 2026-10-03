@@ -1,6 +1,6 @@
 ---
 name: decide-visa-type-torlyai
-title: /decide-visa-type
+title: 'Decide visa type'
 description: '为法国之旅选择正确申根签证类型的向导 — A 类（机场过境）、C 类
 
   （短期，最多 90 天）、D 类（长期，90+ 天）、单次 vs 多次入境、
@@ -15,7 +15,7 @@ description: '为法国之旅选择正确申根签证类型的向导 — A 类�
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/decide-visa-type
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

@@ -1,6 +1,6 @@
 ---
 name: vorzeitige-besitzeinweisung-pruefen
-title: 1. Zweck
+title: 'Prüft einen beantragten oder angeordneten vorzeitigen Besitzentzug nach BauGB Paragraf…'
 description: Prüft einen beantragten oder angeordneten vorzeitigen Besitzentzug nach BauGB Paragraf 116 unabhängig von der Hauptenteignung. Erstellt begründeten Antrag oder Erwiderung zu Dringlichkeit, Verhandlung, Besitzbeginn, Sicherheit, Zustandsfeststellung und vorzeitigen Nachteilen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/vorzeitige-besitzeinweisung-pruefen

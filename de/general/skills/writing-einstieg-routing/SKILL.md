@@ -1,6 +1,6 @@
 ---
 name: writing-einstieg-routing
-title: 1. Den juristischen Schreibauftrag ausführen
+title: 'Den juristischen Schreibauftrag ausführen'
 description: 'Wählt für einen konkreten juristischen Schreibauftrag den passenden Bearbeitungsweg: Vertragsänderung, Schriftsatz, Mandantenbrief oder zweisprachige Fassung. Verarbeitet vorhandene Entwürfe und Rückfragen bis zum ausformulierten Dokument.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/writing-einstieg-routing

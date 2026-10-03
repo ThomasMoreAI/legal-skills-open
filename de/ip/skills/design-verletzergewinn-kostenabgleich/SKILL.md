@@ -1,6 +1,6 @@
 ---
 name: design-verletzergewinn-kostenabgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen…'
 description: Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen Designs anhand von Artikeln, Retouren, Kostenbelegen und Gewinnzurechnung. Liefert eine belastbare Betragsbrücke für Zahlungsforderung oder Verteidigung; keine allgemeine Designanmeldung oder Patentprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/design-verletzergewinn-kostenabgleich

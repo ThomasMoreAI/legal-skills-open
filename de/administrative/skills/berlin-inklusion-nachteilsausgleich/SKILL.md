@@ -1,6 +1,6 @@
 ---
 name: berlin-inklusion-nachteilsausgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner sonderpädagogische Förderung, Lernort, Nachteilsausgleich, Notenschutz…'
 description: Berliner sonderpädagogische Förderung, Lernort, Nachteilsausgleich, Notenschutz, Inklusionsassistenz und Beförderung aus Eltern- und Schülersicht bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-inklusion-nachteilsausgleich

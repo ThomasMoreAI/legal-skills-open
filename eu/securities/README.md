@@ -95,7 +95,7 @@ Jurisdiction: `eu` · Practice: `securities` · Skill language: en
 | [`Insiderliste nach Art. 18 MAR`](skills/insiderliste-art18/) | Für Insiderliste nach Art. 18 MAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kaltstart Insiderrecht`](skills/insiderrecht-compliance-allgemein/) | Für Kaltstart Insiderrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Juristischer Argumentationskern - Insiderrecht Compliance`](skills/insiderrecht-compliance-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Insiderrecht Compliance ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. Insiderrechtlichen Vorgang prüfen`](skills/insiderrecht-compliance-kaltstart-triage/) | Für Kaltstart Insiderrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Insiderrechtlichen Vorgang prüfen`](skills/insiderrecht-compliance-kaltstart-triage/) | Für Kaltstart Insiderrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Insolvenzreife – Insiderrecht und Ad-hoc-Pflicht`](skills/insolvenzreife/) | Für Insolvenzreife – Insiderrecht und Ad-hoc-Pflicht: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kapitalerhöhung – Insiderrechtliche Anforderungen`](skills/kapitalerhoehung-insiderrecht/) | Für Kapitalerhöhung – Insiderrechtliche Anforderungen: ordnet Norm, Beweislast und Gegenargument… |
 | [`KI-Prognosemodelle und Insiderrecht`](skills/ki-archivierung/) | Für digitale Werkzeuge-Prognosemodelle und Insiderrecht: ordnet Norm, Beweislast und Gegenargument… |

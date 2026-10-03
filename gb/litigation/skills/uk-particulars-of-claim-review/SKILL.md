@@ -1,6 +1,6 @@
 ---
 name: uk-particulars-of-claim-review
-title: uk-particulars-of-claim-review
+title: 'UK particulars of claim review'
 description: Use when users say "review these Particulars of Claim", "check this PoC", "pleading gaps", "CPR 16", "PD16", "limitation issue", or need England and Wales pleadings checked for elements, material facts, remedies, parties, source support, and drafting risk.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-particulars-of-claim-review

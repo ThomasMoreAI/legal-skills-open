@@ -1,6 +1,6 @@
 ---
 name: enteignungszweck-und-alternativen-pruefen
-title: 1. Zweck
+title: 'Prüft bei konkreter BauGB-Enteignung den gesetzlichen Zweck, die Notwendigkeit des…'
 description: Prüft bei konkreter BauGB-Enteignung den gesetzlichen Zweck, die Notwendigkeit des Flächenzugriffs und belastbare Alternativen. Erstellt eine begründete Stellungnahme zu Trassenwahl, Teilfläche oder Dienstbarkeit; nicht für eine vollständige Bauleitplanaufstellung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/enteignungszweck-und-alternativen-pruefen

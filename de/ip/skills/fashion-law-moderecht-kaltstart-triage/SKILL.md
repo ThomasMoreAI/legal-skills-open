@@ -1,6 +1,6 @@
 ---
 name: fashion-law-moderecht-kaltstart-triage
-title: 1. Modeauftrag bearbeiten
+title: 'Modeauftrag bearbeiten'
 description: 'Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: fashion-law-moderecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fashion-law-moderecht/skills/kaltstart-triage

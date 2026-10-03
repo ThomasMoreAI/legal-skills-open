@@ -1,6 +1,6 @@
 ---
 name: organwechsel-und-prokura
-title: 1. Organwechsel und Prokura sauber vollziehen
+title: 'Organwechsel und Prokura sauber vollziehen'
 description: Bereitet Geschäftsführerwechsel, Vertretungsänderung sowie Erteilung und Widerruf von Prokura mit datierter Wirksamkeits- und Nachweisfolge vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/organwechsel-und-prokura

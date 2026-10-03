@@ -1,6 +1,6 @@
 ---
 name: em-rente-befundwiderspruch-und-leistungsfall
-title: 1. Befundwiderspruch und Rentenleistungsfall
+title: 'Befundwiderspruch und Rentenleistungsfall'
 description: Klärt widersprüchliche medizinische Leistungsbilder bei Erwerbsminderungsrenten durch Befundchronologie, Funktionsvergleich und alternative Eintrittszeitpunkte. Für Reha- und Gutachtenkonflikte mit Beitragslücken, nicht für einen allgemeinen Rentenrechner oder Pflegegradprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/em-rente-befundwiderspruch-und-leistungsfall

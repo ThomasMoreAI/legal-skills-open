@@ -1,6 +1,6 @@
 ---
 name: einigung-und-raeumungsuebergang-gestalten
-title: 1. Einigung und geordneten Übergang vorbereiten
+title: 'Einigung und geordneten Übergang vorbereiten'
 description: Gestaltet eine freiwillige Klärung von Eigenbedarf, Fortsetzung und Wohnungswechsel. Formuliert konkrete Vereinbarungen zu Terminen, Ersatzwohnung und Kosten, ohne versteckte Anspruchsverzichte oder eigenmächtige Räumung zu veranlassen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/einigung-und-raeumungsuebergang-gestalten

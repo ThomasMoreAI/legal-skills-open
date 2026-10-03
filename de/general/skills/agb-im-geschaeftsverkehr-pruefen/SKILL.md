@@ -1,6 +1,6 @@
 ---
 name: agb-im-geschaeftsverkehr-pruefen
-title: 1. AGB im Geschäftsverkehr prüfen
+title: 'AGB im Geschäftsverkehr prüfen'
 description: Prüft konkret verwendete AGB im Geschäftsverkehr auf Einbeziehung, Vorrang von Individualabreden, Transparenz und unangemessene Benachteiligung. Formuliert eine tragfähige Gegenposition oder Ersatzklausel unter Beachtung der Unterschiede zwischen Unternehmern und Verbrauchern.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/agb-im-geschaeftsverkehr-pruefen

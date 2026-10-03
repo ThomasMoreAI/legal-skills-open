@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-vergaberecht-erstpruefung-und-mandatsziel
-title: 1. Vergaberechtlichen Auftrag und Ziel bestimmen
+title: 'Vergaberechtlichen Auftrag und Ziel bestimmen'
 description: 'Für Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: Fachanwalt Vergaberecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/erstpruefung-und-mandatsziel

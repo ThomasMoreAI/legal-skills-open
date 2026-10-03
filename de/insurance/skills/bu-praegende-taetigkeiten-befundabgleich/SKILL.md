@@ -1,6 +1,6 @@
 ---
 name: bu-praegende-taetigkeiten-befundabgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Rekonstruiert den zuletzt gesund ausgeübten Beruf und verknüpft prägende Arbeitsvorgänge…'
 description: Rekonstruiert den zuletzt gesund ausgeübten Beruf und verknüpft prägende Arbeitsvorgänge mit medizinischen Funktionsbefunden und Rentenmonaten. Für die beweisintensive private BU-Erstleistungsprüfung; nicht für Erwerbsminderungsrente oder reine Nachprüfung eines Anerkenntnisses.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/bu-praegende-taetigkeiten-befundabgleich

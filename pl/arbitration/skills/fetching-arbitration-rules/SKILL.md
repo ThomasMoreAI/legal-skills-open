@@ -1,6 +1,6 @@
 ---
 name: fetching-arbitration-rules
-title: law-pl-fetching-arbitration-rules
+title: 'Law PL fetching arbitration rules'
 description: Use when retrieving arbitration institutional rules (SAKIG przy KIG, Sąd Arbitrażowy Lewiatan, ICC, LCIA, SCC, SIAC, HKIAC, VIAC, UNCITRAL) — fetching current version, verifying redaction applicable to the date of arbitration agreement, constructing URLs for official rule texts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-fetching-arbitration-rules

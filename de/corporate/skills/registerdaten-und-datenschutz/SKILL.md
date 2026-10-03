@@ -1,6 +1,6 @@
 ---
 name: registerdaten-und-datenschutz
-title: 1. Registerdaten berichtigen und öffentliche Kopien bereinigen
+title: 'Registerdaten berichtigen und öffentliche Kopien bereinigen'
 description: Prüft falsche Registerdaten und überschießende personenbezogene Angaben und erstellt einen konkreten Berichtigungs- oder Austauschauftrag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/registerdaten-und-datenschutz

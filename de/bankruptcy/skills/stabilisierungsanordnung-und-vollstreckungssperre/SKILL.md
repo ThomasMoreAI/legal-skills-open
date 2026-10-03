@@ -1,6 +1,6 @@
 ---
 name: stabilisierungsanordnung-und-vollstreckungssperre
-title: 1. Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG
+title: 'Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG'
 description: 'Bereitet eine Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG vor: Anzeige, Adressaten, Vollstreckungs- und Verwertungssperre, sechsmonatiger Finanzplan, Anordnungsvoraussetzungen, Dauer, Vertragswirkungen und Aufhebung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/stabilisierungsanordnung-und-vollstreckungssperre

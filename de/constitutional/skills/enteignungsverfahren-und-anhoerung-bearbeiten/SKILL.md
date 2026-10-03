@@ -1,6 +1,6 @@
 ---
 name: enteignungsverfahren-und-anhoerung-bearbeiten
-title: 1. Zweck
+title: 'Bearbeitet Antrag, Ladung und mündliche Verhandlung in einem BauGB-Enteignungsverfahren'
 description: Bearbeitet Antrag, Ladung und mündliche Verhandlung in einem BauGB-Enteignungsverfahren. Erstellt eine konkrete Einwendung, behördliche Nachfrage oder Verhandlungsvorbereitung mit Grundstücks- und Anlagenbezug; keine automatische Klage gegen jede Anhörung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/enteignungsverfahren-und-anhoerung-bearbeiten

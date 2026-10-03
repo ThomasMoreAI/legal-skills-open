@@ -108,7 +108,7 @@ Jurisdiction: `de` · Practice: `investment-funds` · Skill language: de
 | [`Investorprofil: LP, GP, Family Office, Stiftung, Versicherung`](skills/investorprofil-lp-gp-family-office/) | Für Investorprofil: LP, GP, Family Office, Stiftung, Versicherung: ordnet Norm, Beweislast und… |
 | [`IP und Brand DD im PE-Deal`](skills/ip-und-brand-dd-pe/) | Für IP und Brand DD im PE-Deal: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`KAGB/AIF/BaFin-Grenzcheck`](skills/kagb-aif-bafin-grenzcheck/) | Für KAGB/AIF/BaFin-Grenzcheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Private-Equity-Auftrag einordnen und ausarbeiten`](skills/kaltstart-deal-und-investor-routing/) | Für Kaltstart: Investor, Kanzlei, Fonds oder Target richtig einordnen: routet Rolle, Frist, Unterlagen… |
+| [`Private-Equity-Auftrag einordnen und ausarbeiten`](skills/kaltstart-deal-und-investor-routing/) | Für Kaltstart: Investor, Kanzlei, Fonds oder Target richtig einordnen: routet Rolle, Frist, Unterlagen… |
 | [`VC-Kaltstart-Cockpit`](skills/kaltstart-vc-cockpit/) | Für VC-Kaltstart-Cockpit: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Kanzlei-Projektsteuerung für PE-Mandate`](skills/kanzlei-projektsteuerung-fuer-pe-mandate/) | Für Kanzlei-Projektsteuerung für PE-Mandate: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`KPI-Pack Standard`](skills/kpi-pack-standard/) | Für KPI-Pack Standard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

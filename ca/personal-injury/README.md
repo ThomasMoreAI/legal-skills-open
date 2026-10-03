@@ -8,9 +8,9 @@ Jurisdiction: `ca` · Practice: `personal-injury` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`canada-memo`](skills/canada-memo/) | When the user's message starts with "Canada" (case-insensitive), generate a full Ontario PI Case… |
-| [`pi-brief-format`](skills/pi-brief-format/) | After harvester-query returns a hit, render the result as a PI-lawyer-grade brief block (bluebook… |
-| [`web-fallback`](skills/web-fallback/) | When the Harvester misses a citation, fetch the statute live from an authoritative government source… |
+| [`Canada memo`](skills/canada-memo/) | When the user's message starts with "Canada" (case-insensitive), generate a full Ontario PI Case… |
+| [`Pi brief format`](skills/pi-brief-format/) | After harvester-query returns a hit, render the result as a PI-lawyer-grade brief block (bluebook… |
+| [`Web fallback`](skills/web-fallback/) | When the Harvester misses a citation, fetch the statute live from an authoritative government source… |
 
 ## Cold-start context
 

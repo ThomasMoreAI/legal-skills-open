@@ -1,6 +1,6 @@
 ---
 name: professur-konflikt-verfahren-und-eilrechtsschutz
-title: 1. Zweck und Anwendungsfall
+title: 'Führt Berliner Professorenkonflikte vom belegten Verfahrensstand über Akteneinsicht und…'
 description: Führt Berliner Professorenkonflikte vom belegten Verfahrensstand über Akteneinsicht und Fristen zum passenden Schreiben, Rechtsbehelf oder Eilantragsentwurf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-konflikt-verfahren-und-eilrechtsschutz

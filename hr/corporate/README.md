@@ -10,7 +10,7 @@ Jurisdiction: `hr` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`croatia-sudreg`](skills/croatia-sudreg-nolpak14/) | Look up Croatian companies for free via the official Sudski registar OPEN API (sudreg-data.gov.hr… |
+| [`Croatia sudreg`](skills/croatia-sudreg-nolpak14/) | Look up Croatian companies for free via the official Sudski registar OPEN API (sudreg-data.gov.hr… |
 
 ## Cold-start context
 

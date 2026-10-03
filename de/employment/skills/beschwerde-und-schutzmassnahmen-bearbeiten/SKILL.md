@@ -1,6 +1,6 @@
 ---
 name: beschwerde-und-schutzmassnahmen-bearbeiten
-title: 1. Beschwerde und Schutz bearbeiten
+title: 'Beschwerde und Schutz bearbeiten'
 description: Führt eine interne AGG-Beschwerde von der sachlichen Aufnahme über Anhörung und Schutzmaßnahmen zur begründeten Rückmeldung. Trennt Schutz, ergebnisoffene Untersuchung und Anspruchsfristen; vermeidet Vorverurteilung und Benachteiligung wegen der Beschwerde.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/beschwerde-und-schutzmassnahmen-bearbeiten

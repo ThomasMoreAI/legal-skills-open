@@ -1,6 +1,6 @@
 ---
 name: asog-zustaendigkeit-gefahr-und-stoerer
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Gefahrenabwehrbescheide nach Zuständigkeit, Spezialrecht, Gefahrprognose…'
 description: Prüft Berliner Gefahrenabwehrbescheide nach Zuständigkeit, Spezialrecht, Gefahrprognose, Verantwortlichkeit und Ermessen und erstellt eine konkrete Stellungnahme.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-zustaendigkeit-gefahr-und-stoerer

@@ -1,6 +1,6 @@
 ---
 name: entschaedigung-und-folgeschaeden-pruefen
-title: 1. Zweck
+title: 'Prüft Verkehrswert, Nebenrechte, Restflächen- und Betriebsnachteile sowie…'
 description: Prüft Verkehrswert, Nebenrechte, Restflächen- und Betriebsnachteile sowie Verfahrenskosten einer konkreten BauGB-Enteignung. Erstellt eine nachvollziehbare bezifferte Aufstellung mit Belegen und getrennten offenen Positionen, nicht bloß eine pauschale Quadratmeterbewertung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/entschaedigung-und-folgeschaeden-pruefen

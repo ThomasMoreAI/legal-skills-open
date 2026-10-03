@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview-6
-title: /kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Produkthaftung und Produktrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/kaltstart-interview

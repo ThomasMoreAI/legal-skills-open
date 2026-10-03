@@ -1,6 +1,6 @@
 ---
 name: kaltstart-internationaler-handelsfall
-title: 1. Internationalen Handelsfall prüfen
+title: 'Internationalen Handelsfall prüfen'
 description: 'Für Kaltstart: Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/kaltstart-internationaler-handelsfall

@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-transparenzregister
-title: 1. Transparenzregister ohne falsche Gleichsetzung
+title: 'Transparenzregister ohne falsche Gleichsetzung'
 description: Gleicht wirtschaftlich Berechtigte mit dem Transparenzregister ab. Trennt eigene Mitteilung, Unstimmigkeitsmeldung und FIU-Verdacht und bereitet die konkret erforderliche Registerkorrektur oder Nachforderung vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-transparenzregister

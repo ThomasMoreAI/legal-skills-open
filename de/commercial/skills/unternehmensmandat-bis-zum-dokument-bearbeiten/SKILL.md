@@ -1,6 +1,6 @@
 ---
 name: unternehmensmandat-bis-zum-dokument-bearbeiten
-title: 1. Unternehmensentscheidung mit verknüpften Rechtsfolgen ausarbeiten
+title: 'Unternehmensentscheidung mit verknüpften Rechtsfolgen ausarbeiten'
 description: Bearbeitet die laufende Beratung eines mittelständischen Unternehmens bis zum konkreten Dokument und zur begründeten Geschäftsentscheidung. Verknüpft Vertrags-, Personal-, Gesellschafts-, Daten- und Liquiditätsfolgen im fortgeführten Mandatsstand; kein allgemeiner Einzelmandatseinstieg und kein bloßes Routing.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/unternehmensmandat-bis-zum-dokument-bearbeiten

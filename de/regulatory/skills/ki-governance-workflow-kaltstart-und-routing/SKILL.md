@@ -1,6 +1,6 @@
 ---
 name: ki-governance-workflow-kaltstart-und-routing
-title: 1. KI-Governance-Auftrag bearbeiten
+title: 'KI-Governance-Auftrag bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Technik-Governance.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/workflow-kaltstart-und-routing

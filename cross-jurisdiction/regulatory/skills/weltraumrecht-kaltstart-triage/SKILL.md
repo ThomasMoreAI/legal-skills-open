@@ -1,6 +1,6 @@
 ---
 name: weltraumrecht-kaltstart-triage
-title: 1. Raumfahrtvorhaben einordnen und die Bearbeitung beginnen
+title: 'Raumfahrtvorhaben einordnen und die Bearbeitung beginnen'
 description: Ordnet ein Raumfahrtvorhaben anhand von Mission, Betreiber, Start- und Registerstaat ein. Beginnt mit vorhandenen Unterlagen, klärt entscheidende Lücken und führt die Bearbeitung zum benötigten Antrag, Vertragsentwurf oder Haftungsvermerk fort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weltraumrecht/skills/kaltstart-triage

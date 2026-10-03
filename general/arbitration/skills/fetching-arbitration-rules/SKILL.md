@@ -1,6 +1,6 @@
 ---
 name: fetching-arbitration-rules
-title: law-ua-fetching-arbitration-rules
+title: 'Law UA fetching arbitration rules'
 description: Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП України, UNCITRAL) — fetching current version, verifying redaction applicable to the date of arbitration agreement, constructing URLs for official rule texts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-fetching-arbitration-rules

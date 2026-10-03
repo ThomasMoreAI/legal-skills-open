@@ -1,6 +1,6 @@
 ---
 name: professur-status-und-dienstpflichten
-title: 1. Zweck und Anwendungsfall
+title: 'Trennt Beamtenstatus, privatrechtliche Professur, Amtsaufgaben und akademische…'
 description: Trennt Beamtenstatus, privatrechtliche Professur, Amtsaufgaben und akademische Bezeichnung im Berliner Hochschulrecht und erstellt konkrete Status- oder Aufgabenvermerke.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-status-und-dienstpflichten

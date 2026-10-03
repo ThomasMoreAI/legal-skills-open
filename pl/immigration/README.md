@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `immigration` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`law-pl-applying-cudzoziemcy-procedures`](skills/applying-cudzoziemcy-procedures/) | Use when navigating Polish immigration / residence / work procedures — pobyt czasowy (art. 98, 114, 127… |
+| [`Law PL applying cudzoziemcy procedures`](skills/applying-cudzoziemcy-procedures/) | Use when navigating Polish immigration / residence / work procedures — pobyt czasowy (art. 98, 114, 127… |
 | [`Poland Citizenship and Long-Term Status`](skills/poland-citizenship-long-term-xopoko/) | Long-term status. Use for Polish permanent residence, EU long-term resident status, or citizenship… |
 | [`Poland Protection Referral`](skills/poland-protection-referral-xopoko/) | Protection referral. Use for asylum, international or temporary protection, unsafe return, or loss of… |
 | [`Poland Stay and Residence`](skills/poland-stay-residence-xopoko/) | Stay and residence. Use for Polish visas, legal stay, temporary residence, or residence cards; not… |

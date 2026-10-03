@@ -1,6 +1,6 @@
 ---
 name: paragraph-102-starug-warnpflicht-bei-rechtsberatern
-title: 1. Hinweis nach Paragraf 102 StaRUG
+title: 'Hinweis nach Paragraf 102 StaRUG'
 description: Prüft den eng begrenzten Hinweis nach Paragraf 102 StaRUG bei der Erstellung eines Jahresabschlusses.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/paragraph-102-starug-warnpflicht-bei-rechtsberatern

@@ -1,6 +1,6 @@
 ---
 name: widerspruch-und-fortsetzung-formulieren
-title: 1. Härtewiderspruch und Fortsetzung formulieren
+title: 'Härtewiderspruch und Fortsetzung formulieren'
 description: Formuliert einen Härtewiderspruch mit Fortsetzungsverlangen, konkreten Tatsachen und passenden Belegen. Prüft die aktuelle Textform, Zugang und Frist und trennt den Widerspruch von Einwendungen gegen die Kündigung und gerichtlicher Verteidigung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/widerspruch-und-fortsetzung-formulieren

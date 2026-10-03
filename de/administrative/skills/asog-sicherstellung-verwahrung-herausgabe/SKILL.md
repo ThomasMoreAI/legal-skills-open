@@ -1,6 +1,6 @@
 ---
 name: asog-sicherstellung-verwahrung-herausgabe
-title: 1. Zweck und Anwendungsfall
+title: 'Bearbeitet Berliner Sicherstellungen von Sachen und Vermögensrechten vom aktuellen…'
 description: Bearbeitet Berliner Sicherstellungen von Sachen und Vermögensrechten vom aktuellen Verwahrgrund über Kosten bis zum konkreten Rückgabeantrag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-sicherstellung-verwahrung-herausgabe

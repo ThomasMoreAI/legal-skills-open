@@ -1,6 +1,6 @@
 ---
 name: leistungsbeurteilung-analyse
-title: 1. Leistungsbeurteilung im Zeugnis analysieren
+title: 'Leistungsbeurteilung im Zeugnis analysieren'
 description: 'Für Leistungsbeurteilung-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/leistungsbeurteilung-analyse

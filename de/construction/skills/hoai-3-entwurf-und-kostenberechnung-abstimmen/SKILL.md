@@ -1,6 +1,6 @@
 ---
 name: hoai-3-entwurf-und-kostenberechnung-abstimmen
-title: 1. Entwurf, Fachbeiträge und Kosten auf einen Stand bringen
+title: 'Entwurf, Fachbeiträge und Kosten auf einen Stand bringen'
 description: Führt die Gebäude-Entwurfsplanung nach HOAI-Leistungsphase 3 mit abgestimmter Objekt- und Fachplanung, Objektbeschreibung, Kostenberechnung und Terminen fort. Liefert den Entwurfsstand mit Vergleich zur Kostenschätzung. Für phasenweite Entwurfsarbeit, nicht für einzelne Rechnungen, Planindizes oder Honorarprüfungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-3-entwurf-und-kostenberechnung-abstimmen

@@ -1,6 +1,6 @@
 ---
 name: gemeinwirtschaftliche-traegerschaft-entwerfen
-title: 1. Zweck und Anwendungsfall
+title: 'Entwickelt für eine Vergesellschaftung nach Artikel 15 GG eine rechtlich verbindliche…'
 description: Entwickelt für eine Vergesellschaftung nach Artikel 15 GG eine rechtlich verbindliche gemeinwirtschaftliche Trägerschaft. Formuliert Zweckbindung, Organbefugnisse, Überschussverwendung, Beteiligung, Kontrolle und Privatisierungsschutz aus vorhandenen Betreiber- und Finanzierungsunterlagen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/gemeinwirtschaftliche-traegerschaft-entwerfen

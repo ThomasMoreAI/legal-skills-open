@@ -1,6 +1,6 @@
 ---
 name: fortbestehensprognose-international
-title: '1. Fortbestehensprognose: Internationaler Bezug und Schnittstellen'
+title: 'Fortbestehensprognose: Internationaler Bezug und Schnittstellen'
 description: 'Für Fortbestehensprognose: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/fortbestehensprognose-international

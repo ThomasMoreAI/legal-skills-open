@@ -1,6 +1,6 @@
 ---
 name: selbstvertreter-sozialgericht-kaltstart-triage
-title: 1. Eigenen Sozialleistungsfall bearbeiten
+title: 'Eigenen Sozialleistungsfall bearbeiten'
 description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: selbstvertreter-sozialgericht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/kaltstart-triage

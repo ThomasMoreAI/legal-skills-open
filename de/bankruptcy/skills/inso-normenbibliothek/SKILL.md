@@ -1,6 +1,6 @@
 ---
 name: inso-normenbibliothek
-title: 1. Vorschriften der Insolvenzordnung gezielt erschließen
+title: 'Vorschriften der Insolvenzordnung gezielt erschließen'
 description: Erschließt eine konkret bezeichnete Vorschrift der Insolvenzordnung mit aktuellem Wortlaut, Systemstelle, Tatbestandsmerkmalen, Rechtsfolge, Fristen, Belegen und Verfahrensbezug.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/inso-normenbibliothek

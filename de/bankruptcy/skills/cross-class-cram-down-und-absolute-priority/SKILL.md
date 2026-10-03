@@ -1,6 +1,6 @@
 ---
 name: cross-class-cram-down-und-absolute-priority
-title: 1. Cross-Class-Cram-Down und Rangfolge nach dem StaRUG
+title: 'Cross-Class-Cram-Down und Rangfolge nach dem StaRUG'
 description: 'Prüft den Cross-Class-Cram-Down nach Paragrafen 26 bis 28 StaRUG gruppengenau: Ohne-Plan-Vergleich, Planwertbeteiligung, Gruppenmehrheit, Rangfolge, gesetzliche Ausnahmen und Minderheitenschutz.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/cross-class-cram-down-und-absolute-priority

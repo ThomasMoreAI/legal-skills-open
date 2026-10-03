@@ -1,6 +1,6 @@
 ---
 name: policy-diff-zekaisuni
-title: /policy-diff
+title: 'Policy diff'
 description: 'Belirli bir Türkiye regülasyon değişikliğini politika kütüphanesiyle karşılaştırır; hangi iç politika/prosedürün etkilendiğini ve boşluğun ne olduğunu çıkarır. Kullanım: "bu düzenlemeyi politikalarla karşılaştır", "gap analysis", "hangi politika etkilenir".'
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/policy-diff

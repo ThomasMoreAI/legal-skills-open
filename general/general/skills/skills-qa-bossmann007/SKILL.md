@@ -1,11 +1,11 @@
 ---
 name: skills-qa-bossmann007
-title: /skills-qa
+title: 'Skills qa'
 description: Evaluate a skill against the Legal Skill Design Framework — thirteen design parameters (including trust-surface, freshness, schema validation, and conflict detection), three legal failure modes, and a three-band verdict (Ready / Some Concern / Material Concerns). Use when deciding whether to trust a community skill before installing it, before deploying a first-party skill to your team, or whenever the user asks "should I trust this?" or "is this skill well-designed?". Runs automatically as part of /legal-builder-hub:skill-installer.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/legal-builder-hub/skills/skills-qa
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

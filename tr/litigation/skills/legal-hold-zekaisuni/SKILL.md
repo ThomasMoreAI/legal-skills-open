@@ -1,11 +1,11 @@
 ---
 name: legal-hold-zekaisuni
-title: /legal-hold
+title: 'Legal hold'
 description: Şirket içi kayıt/delil muhafaza talimatı yayımlar, yeniler, kaldırır veya raporlar — .docx formatında iç bildirim taslağı hazırlar, _log.yaml'deki legal_hold alanlarını günceller ve bir sonraki yenileme tarihini kaydeder. Aynı zamanda HMK m.400 uyarınca Delil Tespiti hazırlığı için çerçeve sunar. Kullanıcı "muhafaza talimatı gönder", "delil tespitine hazırla" veya portföy çapında "muhafaza durumu raporu" istediğinde kullanın.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/legal-hold
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: litigation

@@ -1,6 +1,6 @@
 ---
 name: nachtrag-mit-folgeaenderungen-erstellen
-title: 1. Einen bestimmten Nachtrag mit allen notwendigen Folgeänderungen erstellen
+title: 'Einen bestimmten Nachtrag mit allen notwendigen Folgeänderungen erstellen'
 description: Schreibt einen begrenzten Nachtrag zu einem vorhandenen B2B-Vertrag und führt die notwendigen Änderungen an Preis, Termin, Anlagen und Rechten mit. Verwenden bei zusätzlichem Leistungsumfang, neuer Servicezeit oder verschobenem Meilenstein; keine ungefragte Neufassung und keine fingierte Zustimmung weiterer Beteiligter.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/nachtrag-mit-folgeaenderungen-erstellen

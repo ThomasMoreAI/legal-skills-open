@@ -26,7 +26,7 @@ Jurisdiction: `us` · Practice: `securities` · Skill language: en
 | [`Annual Meeting Proxy Statement`](skills/proxy-statement/) | Drafts a SEC Regulation 14A / Rule 14a-3 compliant annual meeting proxy statement (DEF 14A) covering… |
 | [`Suitability and Best Interest Policy (Reg BI)`](skills/reg-bi-policy/) | Drafts board-ready Suitability and Best Interest policies for broker-dealers under FINRA Rule 2111 and… |
 | [`Simple Agreement for Future Equity (SAFE)`](skills/safe-agreement/) | Drafts Simple Agreements for Future Equity (SAFE) for early-stage venture capital financing with… |
-| [`sec-edgar-us`](skills/sec-edgar-us-nolpak14/) | Look up U.S. public companies for free via the official SEC EDGAR APIs - company submissions and filing… |
+| [`SEC edgar us`](skills/sec-edgar-us-nolpak14/) | Look up U.S. public companies for free via the official SEC EDGAR APIs - company submissions and filing… |
 | [`Securities Regulation Summary`](skills/securities-regulation-summary/) | Generates thematic compliance summaries of US securities regulation developments. Triggered when a user… |
 | [`SOX ITGC — IT General Controls Skill`](skills/sox-itgc-sushegaad/) | Expert SOX IT General Controls (ITGC) advisor for finance, internal audit and IT compliance teams.… |
 | [`Transfer Agent Agreement`](skills/transfer-agent-agreement/) | Drafts U.S. transfer agent agreements between issuers and SEC-registered transfer agents covering… |

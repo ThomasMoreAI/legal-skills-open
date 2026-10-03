@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-schulung-awareness
-title: 1. Schulung und Wirksamkeitsprüfung
+title: 'Schulung und Wirksamkeitsprüfung'
 description: Plant rollenbezogene Geldwäscheschulungen und kontrolliert deren praktische Wirksamkeit. Nutzt getrennte Fallunterlagen für Empfang, Buchhaltung, Kanzlei und Notariat und dokumentiert Nachschulung und Kontrollbefunde ohne reale Meldungen aus Trainingsdaten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-schulung-awareness

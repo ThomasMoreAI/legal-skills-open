@@ -1,6 +1,6 @@
 ---
 name: erwerbsminderungsrente-medizinische
-title: erwerbsminderungsrente-medizinische-unterlagen
+title: 'Erwerbsminderungsrente medizinische unterlagen'
 description: 'Für erwerbsminderungsrente-medizinische-unterlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rentenpruefer/skills/erwerbsminderungsrente-medizinische

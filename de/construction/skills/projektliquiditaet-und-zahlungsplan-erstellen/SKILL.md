@@ -1,6 +1,6 @@
 ---
 name: projektliquiditaet-und-zahlungsplan-erstellen
-title: 1. Projektzahlungen und verfügbare Liquidität planen
+title: 'Projektzahlungen und verfügbare Liquidität planen'
 description: Erstellt einen fortgeschriebenen Zahlungs- und Liquiditätsplan für Bauvorhaben oder Bauunternehmen mit Fälligkeiten, Zahlungseingängen und Finanzierungsvoraussetzungen. Zeigt Liquiditätslücken; ersetzt weder Kostenprognose noch Insolvenzprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/projektliquiditaet-und-zahlungsplan-erstellen

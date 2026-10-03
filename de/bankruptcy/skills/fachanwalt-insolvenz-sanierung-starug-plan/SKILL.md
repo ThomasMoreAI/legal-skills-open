@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-insolvenz-sanierung-starug-plan
-title: 1. Fachanwaltliche StaRUG-Plansteuerung
+title: 'Fachanwaltliche StaRUG-Plansteuerung'
 description: 'Bearbeitet den StaRUG-Plan als Fachanwalt: grenzt Insolvenzreife ab, prüft Planbetroffenheit und Ausschlüsse, baut Vergleichsrechnung und Gruppenmehrheiten auf, steuert Anzeige und Stabilisierung und bereitet Bestätigung oder Verfahrenswechsel vor.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/fachanwalt-insolvenz-sanierung-starug-plan

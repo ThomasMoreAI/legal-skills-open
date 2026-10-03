@@ -1,6 +1,6 @@
 ---
 name: agentische-datenbank-recherche
-title: agentische-datenbank-recherche
+title: 'Agentische datenbank recherche'
 description: 'Für agentische-datenbank-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/agentische-datenbank-recherche

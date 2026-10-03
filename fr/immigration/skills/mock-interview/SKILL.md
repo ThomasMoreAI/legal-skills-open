@@ -1,6 +1,6 @@
 ---
 name: mock-interview
-title: /mock-interview
+title: 'Mock interview'
 description: 为法国申根签证申请做的模拟领事面试。法国旅游签证从英国申请很少有 面试（多数仅凭文件决定），但领事可能要求 — 尤其拒签-重申、不规则 财务状况或异常行程。提供按主题组织的题库（目的、与英国的关系、 财务故事、家庭状况、行程细节）+ 答题框架指引。用户被通知面试或想 排练增信心时使用。(Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/mock-interview

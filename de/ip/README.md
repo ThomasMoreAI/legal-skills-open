@@ -101,8 +101,8 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Designneuheit und Offenbarung prüfen`](skills/design-neuheit-offenbarung-pruefen/) | Prüft Neuheit und Eigenart eines deutschen oder unionsweiten Designs anhand Offenbarung… |
 | [`Design Und Patent Gebrauchsmuster Abgrenzung`](skills/design-patent-urheberrecht/) | Für Design und Patent Gebrauchsmuster Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Design Und Urheberrecht Angewandte Kunst`](skills/design-und-urheberrecht-angewandte-kunst/) | Für Design und Urheberrecht Angewandte Kunst: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/design-verletzergewinn-kostenabgleich/) | Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen Designs anhand… |
-| [`1. Designverfahren und Registerweg`](skills/designg-behoerden-gericht-und-registerweg/) | Steuert nationale und unionsweite Designverfahren vom Registercheck über Anmeldung und Nichtigkeit bis… |
+| [`Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen…`](skills/design-verletzergewinn-kostenabgleich/) | Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen Designs anhand… |
+| [`Designverfahren und Registerweg`](skills/designg-behoerden-gericht-und-registerweg/) | Steuert nationale und unionsweite Designverfahren vom Registercheck über Anmeldung und Nichtigkeit bis… |
 | [`Juristischer Argumentationskern - Designrecht Geschmacksmusterrecht`](skills/designrecht-geschmacksmusterrech-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Designrecht Geschmacksmusterrecht ein juristisches Arbeitsprodukt tragfähig… |
 | [`Allgemein`](skills/designrecht-geschmacksmusterrecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Designrecht in der Praxis: DesignG (ex GeschmMG), Schutzvoraussetzungen Neuheit und Eigenart, Anmeldung DPMA, Gemeinscha`](skills/designrecht-praxis-grundlagen/) | Für Designrecht Praxis Grundlagen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -112,7 +112,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Designverletzung Fehlerkatalog`](skills/designverletzung-fehlerkatalog/) | Für Designverletzung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Erschöpfung, Graumarkt und Brezelmann-Strategie`](skills/discounter-graumarkt-dpma-bpatg-widerspruch/) | Für Erschöpfung, Graumarkt und Brezelmann-Strategie: ordnet Norm, Beweislast und Gegenargument… |
 | [`/it-recht:domainrecht`](skills/domainrecht-borghei/) | Bewertung von Domainstreitigkeiten und Ansprüchen aus Namensrecht (§ 12 BGB), Kennzeichenrecht und… |
-| [`1. Domainkonflikt bearbeiten`](skills/domainrecht-loeschung-und-uebertragung-pruefen/) | Prüft Domainkonflikte nach Namens-, Kennzeichen- und Lauterkeitsrecht und trennt Unterlassung, Löschung… |
+| [`Domainkonflikt bearbeiten`](skills/domainrecht-loeschung-und-uebertragung-pruefen/) | Prüft Domainkonflikte nach Namens-, Kennzeichen- und Lauterkeitsrecht und trennt Unterlassung, Löschung… |
 | [`Doppelschutz Patent Gebrauchsmuster`](skills/doppelschutz-patent-dpma-anmeldung/) | Für Doppelschutz Patent Gebrauchsmuster: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Dpma Anmeldung Formalien`](skills/dpma-anmeldung-formalien/) | Für Dpma Anmeldung Formalien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DPMA, BPatG und BGH`](skills/dpma-bpatg-bgh-rechtsmittelroute/) | Für DPMA, BPatG und BGH: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -182,7 +182,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Red-Team und Qualitätsgate für alle Arbeitsprodukte im gewerblichen Rechtsschutz: Schwachstellenanalyse von Schriftsätze`](skills/fachanwalt-gewerblicher-rechtsschut-workflow-redteam-qualitygate/) | Für Workflow Redteam Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung… |
 | [`Wettbewerbsrechtliche Abmahnungen vorbereiten und abwehren`](skills/fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg/) | Für Fachanwalt Gewerblicher Rechtsschutz Abmahnung Uwg: ordnet Norm, Beweislast und Gegenargument… |
 | [`Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen Rechtsschutz`](skills/fachanwalt-gewerblicher-rechtsschutz-abmahnung-vergleich/) | Für Abmahnungs-Vergleich / WIPO-Mediation im gewerblichen Rechtsschutz: entwickelt Ziel, Vergleich und… |
-| [`1. Anschluss-Routing im gewerblichen Rechtsschutz`](skills/fachanwalt-gewerblicher-rechtsschutz-anschluss-routing/) | Wählt nach einer ersten Prüfung im gewerblichen Rechtsschutz den sachlich passenden Folgeskill. |
+| [`Anschluss-Routing im gewerblichen Rechtsschutz`](skills/fachanwalt-gewerblicher-rechtsschutz-anschluss-routing/) | Wählt nach einer ersten Prüfung im gewerblichen Rechtsschutz den sachlich passenden Folgeskill. |
 | [`Designverletzungen anhand von Schutzwiedergaben und Produktbelegen prüfen`](skills/fachanwalt-gewerblicher-rechtsschutz-designverletzung/) | Für Fachanwalt Gewerblicher Rechtsschutz Designverletzung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Dokumentenintake`](skills/fachanwalt-gewerblicher-rechtsschutz-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/fachanwalt-gewerblicher-rechtsschutz-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -219,7 +219,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Unterlagen und Lücken`](skills/fachanwalt-urheber-medienrecht-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Vergleichsverhandlung im Urheber- und Medienrechtstreit vorbereiten und Strategie entwickeln`](skills/fachanwalt-urheber-medienrecht-vergleichsverhandlung-strategie/) | Für Vergleichsverhandlung Strategie: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs… |
 | [`Fristen- und Risikoampel`](skills/fachanwalt-urheber-medienrecht-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
-| [`1. Urheber- und Medienrechtsauftrag bearbeiten`](skills/fachanwalt-urheber-medienrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Urheber- und Medienrechtsauftrag bearbeiten`](skills/fachanwalt-urheber-medienrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/fachanwalt-urheber-medienrecht-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Verl-022 · Fachbuch, Aktualisierung, Loseblatt und Online-Datenbank`](skills/fachbuch-verlagsinsolvenz/) | Für Verl-022 · Fachbuch, Aktualisierung, Loseblatt und Online-Datenbank: ordnet Norm, Beweislast und… |
 | [`Verl-029 · Fachzeitschrift, Peer Review und Haftung`](skills/fachzeitschrift-peer-review-und-haftung/) | Für Verl-029 · Fachzeitschrift, Peer Review und Haftung: ordnet Norm, Beweislast und Gegenargument… |
@@ -235,17 +235,17 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Grenzüberschreitende IP-Eilmaßnahmen: Internationale Zuständigkeit EuGVVO, fliegender Gerichtsstand, Unionsmarke und Gem`](skills/faevvollzug-neu-007-grenzueberschreitende-ip-eilverfuegu/) | Für Faevvollzug Neu 007 Grenzüberschreitende Ip Eilverfügung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Qualitätsgate vor EV-Vollziehung: Letzter Check vor Zustellung der einstweiligen Verfügung`](skills/faevvollzug-neu-008-qualitaetsgate-vor-vollziehung/) | Für Qualitätsgate vor EV-Vollziehung: Letzter Check vor Zustellung der einstweiligen Verfügung: ordnet… |
 | [`Juristischer Argumentationskern - Fashion Law Moderecht`](skills/fashion-law-moderecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Fashion Law Moderecht ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. Modeauftrag bearbeiten`](skills/fashion-law-moderecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Schutzrechte und Verträge eines Modehauses prüfen`](skills/fashion-luxus-kaltstart-interview/) | Für Kaltstart-Interview und IP-Audit für Luxus-Modehäuser: routet Rolle, Frist, Unterlagen und… |
+| [`Modeauftrag bearbeiten`](skills/fashion-law-moderecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Schutzrechte und Verträge eines Modehauses prüfen`](skills/fashion-luxus-kaltstart-interview/) | Für Kaltstart-Interview und IP-Audit für Luxus-Modehäuser: routet Rolle, Frist, Unterlagen und… |
 | [`Filesharing-Abmahnung prüfen`](skills/filesharing-abmahnung-paragraf-97a-urhg-pruefen/) | Prüft Filesharing-Abmahnungen auf Rechtekette, Anschlussinhaberschaft, Täterschaft, sekundäre… |
 | [`Filesharing Stoererhaftung`](skills/filesharing-stoererhaftung/) | Für Filesharing Störerhaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Filesharing-Abmahnung verteidigen und Gegenargumente entwickeln wenn Urheberrechtsverletzung per Internetzugang vorgewor`](skills/filesharing-verteidigung/) | Für Filesharing Verteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Filmrecht § 89 UrhG`](skills/filmrecht-paragraf-89-urhg/) | Für Filmrecht Paragraf 89 UrhG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck und Anwendungsfall`](skills/fotolizenzen-nutzungsmatrix-schadensberechnung/) | Rekonstruiert unerlaubte gewerbliche Fotonutzungen aus Rechtekette, Veröffentlichungen und… |
+| [`Rekonstruiert unerlaubte gewerbliche Fotonutzungen aus Rechtekette, Veröffentlichungen…`](skills/fotolizenzen-nutzungsmatrix-schadensberechnung/) | Rekonstruiert unerlaubte gewerbliche Fotonutzungen aus Rechtekette, Veröffentlichungen und… |
 | [`Fotos, Bilder und Design`](skills/fotos-bilder-gema-gvl-gerichtlicher/) | Für Fotos, Bilder und Design: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Spezial: Freedom – Schriftsatz, Brief und Memo-Bausteine`](skills/freedom-gewerblicher-markenrecherche/) | Für Spezial: Freedom – Schriftsatz, Brief und Memo-Bausteine: ordnet Norm, Beweislast und Gegenargument… |
-| [`/patentrecht:freedom-to-operate`](skills/freedom-to-operate/) | Freedom-to-Operate-Analyse vor Markteintritt – Recherche relevanter Patente / Gebrauchsmuster… |
-| [`freedom-to-operate-recherche`](skills/freedom-to-operate-recherche/) | Für freedom-to-operate-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Freedom to operate`](skills/freedom-to-operate/) | Freedom-to-Operate-Analyse vor Markteintritt – Recherche relevanter Patente / Gebrauchsmuster… |
+| [`Freedom to operate recherche`](skills/freedom-to-operate-recherche/) | Für freedom-to-operate-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Freedom-to-Operate und Schutzbereich`](skills/freedom-to-operate-und-schutzbereich/) | Für Freedom-to-Operate und Schutzbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Spezial: Fristen – Abschlussprodukt und Übergabe`](skills/fristen-abschlussprodukt-und-uebergabe/) | Für Spezial: Fristen – Abschlussprodukt und Übergabe: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Freedom-to-Operate-Triage (FTO)`](skills/fto-triage-gewerblicher-rechtsschutz-mandat/) | Für Freedom-to-Operate-Triage (FTO): routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
@@ -325,7 +325,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`KI-Klauseln in Urheberverträgen`](skills/ki-vertragsklauseln-urhebervertragsrecht/) | Für digitale Werkzeuge-Klauseln in Urheberverträgen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kinderkleidung Und Besondere Sicherheitsrisiken`](skills/kinderkleidung-und-besondere-sicherheitsrisiken/) | Für Kinderkleidung und Besondere Sicherheitsrisiken: ordnet Norm, Beweislast und Gegenargument… |
 | [`Klageanträge im Markenrecht`](skills/klageantraege-auskunft-madrid-protokoll/) | Für Klageanträge im Markenrecht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
-| [`klassifikation-cpc-ipc`](skills/klassifikation-cpc-neuheit-patentfamilien/) | Für klassifikation-cpc-ipc: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
+| [`Klassifikation cpc ipc`](skills/klassifikation-cpc-neuheit-patentfamilien/) | Für klassifikation-cpc-ipc: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Spezial: Klausel – Beweislast und Darlegungslast im IP-Recht`](skills/klausel-beweislast-und-darlegungslast/) | Für Spezial: Klausel – Beweislast und Darlegungslast im IP-Recht: ordnet Norm, Beweislast und… |
 | [`Klausel Exklusivitaet — sole, exclusive, non-exclusive`](skills/klausel-exklusivitaet-sole-non-exclusive/) | Für Klausel Exklusivität — sole, exclusive, non-exclusive: ordnet Norm, Beweislast und Gegenargument… |
 | [`Klausel Haftung, Gewaehrleistung, Indemnification`](skills/klausel-haftung-gewaehrleistung-indemnification/) | Für Klausel Haftung, Gewährleistung, Indemnification: ordnet Norm, Beweislast und Gegenargument… |
@@ -390,7 +390,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Portal, Gebühren und Bestand nachhalten`](skills/markenportal-und-bestand-nachhalten/) | Agentische DPMA- oder EUIPO-Aktionen optional vorbereiten und nach Freigabe einschließlich Verlängerung… |
 | [`Spezial: Markenrecherche – Risikoampel und Gegenargumente`](skills/markenrecherche-risikoampel-und-gegenargumente/) | Für Spezial: Markenrecherche – Risikoampel und Gegenargumente: prüft Ergebnis, Beweislast und… |
 | [`Register recherchieren und Treffer einordnen`](skills/markenrecherche-und-treffer-pruefen/) | DPMAregister, EUIPO und TMview für Markenrecherche nutzen und ältere Rechte sowie Grenzen der Suche… |
-| [`1. Markenfall prüfen und Auftrag ausarbeiten`](skills/markenrecht-erstpruefung-und-mandatsziel/) | Für Markenrecht: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
+| [`Markenfall prüfen und Auftrag ausarbeiten`](skills/markenrecht-erstpruefung-und-mandatsziel/) | Für Markenrecht: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Dokumentenintake`](skills/markenrecht-fashion-luxus-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/markenrecht-fashion-luxus-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Juristischer Argumentationskern - Markenrecht Fashion Luxus`](skills/markenrecht-fashion-luxus-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Markenrecht Fashion Luxus ein juristisches Arbeitsprodukt tragfähig begründet… |
@@ -447,7 +447,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Parteienrollen klären`](skills/parteienrolle-klaeren-lizenzgeber-nehmer-sicherheiten-ve/) | Für Parteienrollen klären: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Patentnichtigkeitsklage beim BPatG vorbereiten oder Verteidigung des Patents gegen Nichtigkeitsangriff`](skills/patent-nichtigkeitsklage/) | Für Patent Nichtigkeitsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Patentanmeldung — Anspruchsentwurf`](skills/patentanmeldung-anspruchsentwurf/) | Für Patentanmeldung — Anspruchsentwurf: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`/patentrecht:patentanmeldung-vorpruefung`](skills/patentanmeldung-vorpruefung/) | Vor-Check der Patentierbarkeit einer Erfindung nach §§ 1–5 PatG / Art. 52, 54, 56 EPÜ – technischer… |
+| [`Patentanmeldung vorpruefung`](skills/patentanmeldung-vorpruefung/) | Vor-Check der Patentierbarkeit einer Erfindung nach §§ 1–5 PatG / Art. 52, 54, 56 EPÜ – technischer… |
 | [`Patentlizenzvertrag DE/EN`](skills/patentlizenzvertrag-drafting-review/) | Für Patentlizenzvertrag DE/EN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Patentlizenzvertrag prüfen`](skills/patentlizenzvertrag-review/) | Für Patentlizenzvertrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Patentportfolio und Technikstrategie`](skills/patentportfolio-und-technikstrategie/) | Für Patentportfolio und Technikstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -464,7 +464,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Einstieg und Routing`](skills/patentrecherche-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Patentrecherche: Erstprüfung, Rollenklärung und Mandatsziel`](skills/patentrecherche-erstpruefung-und-mandatsziel/) | Für Patentrecherche: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Juristischer Argumentationskern - Patentrecherche`](skills/patentrecherche-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Patentrecherche ein juristisches Arbeitsprodukt tragfähig begründet werden… |
-| [`kaltstart-interview`](skills/patentrecherche-kaltstart-interview/) | Für kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Kaltstart interview`](skills/patentrecherche-kaltstart-interview/) | Für kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Output wählen`](skills/patentrecherche-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsquellen-Livecheck`](skills/patentrecherche-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Patentrecherche — Allgemein`](skills/patentrecherche-start-chronologie-fristen/) | Für Patentrecherche — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie… |
@@ -482,7 +482,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Patentscreening Quellenkarte`](skills/patentscreening-quellenkarte/) | Für Patentscreening Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Patentvergleich und Cross-License im Streit`](skills/patentsettlement-und-cross-license-litigation/) | Für Patentvergleich und Cross-License im Streit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Claim Chart`](skills/patentverletzung-claim-patr2/) | Für Claim Chart: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`/patentrecht:patentverletzung-klage`](skills/patentverletzung-klage-borghei/) | Klageschrift-Gerüst für eine Patentverletzung nach §§ 9, 10, 14, 139–142a PatG inkl. Düsseldorfer Praxis… |
+| [`Patentverletzung klage`](skills/patentverletzung-klage-borghei/) | Klageschrift-Gerüst für eine Patentverletzung nach §§ 9, 10, 14, 139–142a PatG inkl. Düsseldorfer Praxis… |
 | [`/gewerblicher-rechtsschutz:patentverletzung-pruefung`](skills/patentverletzung-pruefung-borghei/) | Verletzungsprüfung eines Patents nach §§ 9, 14, 139, 140b, 140c PatG – Wirkung des Patents, Bestimmung… |
 | [`Patentverletzung und Schadensberechnung prüfen`](skills/patentverletzung-schadensberechnung-pruefen/) | Prüft und berechnet Schadensersatz nach Patentverletzung anhand konkretem Schaden, Lizenzanalogie und… |
 | [`PatG: Schriftsatz-, Brief- und Memo-Bausteine für Patentverletzungsklagen, Nichtigkeitsklagen BPatG, UPC-Verfahren, Bere`](skills/patg-schriftsatz-brief-und-memo-bausteine/) | Für Patg Schriftsatz Brief und Memo Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
@@ -594,7 +594,7 @@ Jurisdiction: `de` · Practice: `ip` · Skill language: de
 | [`Urhg: Livequellen- und Rechtsprechungscheck`](skills/spezial-urhg-livequellen-und-rechtsprechungscheck/) | Für Urhg: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verletzungsklage: Sonderfall und Edge-Case-Prüfung`](skills/spezial-verletzungsklage-sonderfall-und-edge-case/) | Für Verletzungsklage: Sonderfall und Edge-Case-Prüfung: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Sportdaten, Live-Daten und Ergebnislisten — Datenbankrecht im Sport`](skills/sportdaten-live-immobiliendaten-portal/) | Für Sportdaten, Live-Daten und Ergebnislisten — Datenbankrecht im Sport: ordnet Norm, Beweislast und… |
-| [`stand-der-technik-recherche`](skills/stand-der-technik-recherche/) | Für stand-der-technik-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Stand der technik recherche`](skills/stand-der-technik-recherche/) | Für stand-der-technik-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Stand-der-Technik-Recherche — Workflow`](skills/stand-technik-patr2-anmeldeverfahren/) | Für Stand-der-Technik-Recherche — Workflow: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Startup Schnellschutz`](skills/startup-schnellschutz/) | Für Startup Schnellschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Stellenanzeigen, Jobportale und automatisiertes Auslesen — Datenbankrecht nach Innoweb`](skills/stellenanzeigen-jobportal-und-datenabruf/) | Für Stellenanzeigen, Jobportale und automatisiertes Auslesen — Datenbankrecht nach Innoweb: ordnet Norm… |

@@ -1,6 +1,6 @@
 ---
 name: word-legal-ai-plugin-and-skill-fo-workflow-kaltstart-und-routing
-title: 1. Vorhandene Dokumente bis zur Word-Fassung bearbeiten
+title: 'Vorhandene Dokumente bis zur Word-Fassung bearbeiten'
 description: Führt von vorhandenen Vertrags- oder Schriftsatzdateien zur bestellten Word-Fassung. Klärt Versionskonflikte, setzt Änderungen um und prüft Anlagen, Format und Ausgabe, ohne die Bearbeitung mit einem bloßen Dokumentenregister zu beenden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/workflow-kaltstart-und-routing

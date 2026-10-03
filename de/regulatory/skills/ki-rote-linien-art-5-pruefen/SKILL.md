@@ -1,6 +1,6 @@
 ---
 name: ki-rote-linien-art-5-pruefen
-title: 1. Verbotene Praktiken gezielt prüfen
+title: 'Verbotene Praktiken gezielt prüfen'
 description: Prüft verbotene Systempraktiken anhand von Zweck, tatsächlicher Verwendung und Ausnahmen. Trennt bestehende Verbote von den neuen Inhaltsverboten ab Dezember 2026 und erstellt einen begründeten Stopp-, Änderungs- oder Freigabevermerk.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/ki-rote-linien-art-5-pruefen

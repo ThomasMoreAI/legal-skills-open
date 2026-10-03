@@ -11,7 +11,7 @@ Jurisdiction: `general` · Practice: `white-collar` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`Fraud Pattern Analyst`](skills/fraud-pattern-analyst-rohasnagpal/) | Identify, test, and prioritise fraud hypotheses and control failures in transactional records. Use for… |
-| [`icij-offshore-leaks`](skills/icij-offshore-leaks-nolpak14/) | Search a person or company against the ICIJ Offshore Leaks Database for free - the Panama Papers… |
+| [`Icij offshore leaks`](skills/icij-offshore-leaks-nolpak14/) | Search a person or company against the ICIJ Offshore Leaks Database for free - the Panama Papers… |
 | [`Transaction Tracer`](skills/transaction-tracer-rohasnagpal/) | Reconstruct flows of funds across bank accounts, ledgers, entities, instruments, currencies, and… |
 | [`Whistleblower Report Analyst`](skills/whistleblower-report-analyst-rohasnagpal/) | Triage a whistleblower report, preserve confidentiality, assess urgency and conflicts, and build an… |
 

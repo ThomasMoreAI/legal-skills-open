@@ -23,10 +23,10 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Anrufung: Red-Team und Qualitätskontrolle`](skills/anrufung-red-team-und-qualitaetskontrolle/) | Für Anrufung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-art-kompetenz-automatisierte/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-nutzung-quellencheck-brao/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Kompetenz fördern und Maßnahmen belegen`](skills/art-4-ki-kompetenz-schulungsprogramm/) | Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte… |
+| [`Kompetenz fördern und Maßnahmen belegen`](skills/art-4-ki-kompetenz-schulungsprogramm/) | Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte… |
 | [`Software nach Artikel 6 einstufen`](skills/artikel-6-software-einstufen/) | Ordnet beliebige Software anhand der KI-Systemdefinition, des Produktpfads aus Artikel 6 Absatz 1 und… |
 | [`Ausnahmebegründung nach Artikel 6`](skills/ausnahmebegruendung-artikel-6/) | Prüft und formuliert die Anbieterbegründung einer Ausnahme nach Artikel 6 Absatz 3 und 4 einschließlich… |
-| [`1. Automatisierte Entscheidung und wirksame Kontrolle prüfen`](skills/automatisierte-entscheidung-dsgvo-art-22/) | Prüft automatische Entscheidungen und maßgebliche Vorbewertungen durch Agenten nach Artikel 22 DSGVO.… |
+| [`Automatisierte Entscheidung und wirksame Kontrolle prüfen`](skills/automatisierte-entscheidung-dsgvo-art-22/) | Prüft automatische Entscheidungen und maßgebliche Vorbewertungen durch Agenten nach Artikel 22 DSGVO.… |
 | [`KI-VO und DSGVO Art. 22`](skills/automatisierte-entscheidung-dsgvo-art-22-schnittstelle/) | Für europäischer Technikregulierungsrahmen und DSGVO Art. 22: ordnet Norm, Beweislast und Gegenargument… |
 | [`Beihilfen: Compliance-Dokumentation und Aktenvermerk`](skills/beihilfen-drafting-europarecht/) | Für Beihilfen: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und Gegenargument… |
 | [`Output: Betreiber-Checkliste und Grundrechte-Folgenabschätzung`](skills/betreiber-checkliste-folgenabschaetzung/) | Für Output: Betreiber-Checkliste und Grundrechte-Folgenabschätzung: ordnet Norm, Beweislast und… |
@@ -59,7 +59,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`EU-Datenbank-Registrierung — Art. 49 und 71 KI-VO`](skills/eu-datenbank-registrierung-art-49-und-71/) | Für EU-Datenbank-Registrierung — Art. 49 und 71 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`EU-Rechtsquellen, Charta und Vorlageweiche`](skills/eu-rechtsquellen-vorlageweiche/) | Für EU-Rechtsquellen, Charta und Vorlageweiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`LegW: EU-Richtlinienumsetzung`](skills/eu-richtlinienumsetzung-spezial/) | Für LegW: EU-Richtlinienumsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`eu-transparency-register`](skills/eu-transparency-register-nolpak14/) | Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the… |
+| [`EU transparency register`](skills/eu-transparency-register-nolpak14/) | Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the… |
 | [`EU: Petitionsausschuss`](skills/eur-anrufung-state-beihilfen-vergaben/) | Für EU: Petitionsausschuss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`EU: Vertragsverletzung Art. 258`](skills/eur-kommissionsverfahren-art-258-spezial/) | Für EU: Vertragsverletzung Art. 258: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU: Zuständigkeiten`](skills/eur-mandant-uebersicht-zustaendigkeiten/) | Für EU: Zuständigkeiten: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Schnittstellenkarte… |
@@ -114,12 +114,12 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Aufzeichnungspflichten und Logging — Art. 12 KI-VO`](skills/hochrisiko-aufzeichnungspflichten-logging-art/) | Für Aufzeichnungspflichten und Logging — Art. 12 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Hochrisiko-KI bestätigt — die End-to-End-Roadmap`](skills/hochrisiko-bestaetigt-end-to-end-roadmap/) | Für Hochrisiko-digitale Werkzeuge bestätigt — die End-to-End-Roadmap: ordnet Norm, Beweislast und… |
 | [`Hochrisiko-KI bestätigt — die End-to-End-Roadmap`](skills/hochrisiko-bestaetigt-end-to-roadmap/) | Für Hochrisiko-digitale Werkzeuge bestätigt — die End-to-End-Roadmap: ordnet Norm, Beweislast und… |
-| [`1. Dateneignung und Verzerrungskorrektur`](skills/hochrisiko-datenqualitaet-data-governance-art/) | Prüft Herkunft und Eignung von Entwicklungsdaten sowie die enge Erlaubnis für sensible Daten zur… |
+| [`Dateneignung und Verzerrungskorrektur`](skills/hochrisiko-datenqualitaet-data-governance-art/) | Prüft Herkunft und Eignung von Entwicklungsdaten sowie die enge Erlaubnis für sensible Daten zur… |
 | [`Hochrisiko-Einstufung im Recruiting`](skills/hochrisiko-einstufung-recruiting/) | Erstellt einen begründeten Einstufungsvermerk für KI-gestützte Bewerbungsauswahl nach Artikel 6 und… |
 | [`Genauigkeit, Robustheit und Cybersicherheit — Art. 15 KI-VO`](skills/hochrisiko-genauigkeit-konformitaetsbewertung/) | Für Genauigkeit, Robustheit und Cybersicherheit — Art. 15 europäischer Technikregulierungsrahmen: ordnet… |
 | [`Genauigkeit, Robustheit und Cybersicherheit — Art. 15 KI-VO`](skills/hochrisiko-genauigkeit-robustheit/) | Für Genauigkeit, Robustheit und Cybersicherheit — Art. 15 europäischer Technikregulierungsrahmen: ordnet… |
 | [`/ki-vo-compliance:hochrisiko-klassifizierung`](skills/hochrisiko-klassifizierung-borghei/) | Klassifizierung eines KI-Systems als Hochrisiko-System nach Art. 6 i.V.m. Anhang III KI-VO –… |
-| [`1. Konformitätsbewertung nach Artikel 43`](skills/hochrisiko-konformitaetsbewertung-art-43/) | Bestimmt den zutreffenden Konformitätsbewertungsweg für Hochrisikosysteme. Trennt interne Kontrolle… |
+| [`Konformitätsbewertung nach Artikel 43`](skills/hochrisiko-konformitaetsbewertung-art-43/) | Bestimmt den zutreffenden Konformitätsbewertungsweg für Hochrisikosysteme. Trennt interne Kontrolle… |
 | [`Menschliche Aufsicht — Art. 14 KI-VO`](skills/hochrisiko-menschliche-aufsicht-art-14/) | Für Menschliche Aufsicht — Art. 14 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und… |
 | [`Risikomanagementsystem — Art. 9 KI-VO`](skills/hochrisiko-risikomanagementsystem-art-9/) | Für Risikomanagementsystem — Art. 9 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und… |
 | [`Technische Dokumentation — Art. 11 und Anhang IV KI-VO`](skills/hochrisiko-technische-art-11-anhang-iv/) | Für Technische Dokumentation — Art. 11 und Anhang IV europäischer Technikregulierungsrahmen: ordnet… |
@@ -134,7 +134,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Kanzlei-KI-Outsourcing und Berufsgeheimnis`](skills/kanzlei-outsourcing-zivilprozess-rollen-liegt/) | Für Kanzlei-digitale Werkzeuge-Outsourcing und Berufsgeheimnis: ordnet Norm, Beweislast und… |
 | [`Schriftsatz-Red-Team gegen KI-Halluzinationen`](skills/ki-halluzinationen-red-team/) | Für Schriftsatz-Red-Team gegen digitale Werkzeuge-Halluzinationen: prüft Ergebnis, Beweislast und… |
 | [`KI im Zivilprozess`](skills/ki-im-zivilprozess-rollen-und-grenzen/) | Für digitale Werkzeuge im Zivilprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Kompetenzförderung im Kanzleialltag`](skills/ki-kompetenz-erwerb-plan/) | Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung.… |
+| [`Kompetenzförderung im Kanzleialltag`](skills/ki-kompetenz-erwerb-plan/) | Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung.… |
 | [`KI-Kunst: Lizenzierung und Kennzeichnung`](skills/ki-kunst-abgrenzung-konventionelle/) | Für digitale Werkzeuge-Kunst: Lizenzierung und Kennzeichnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`KI-Kunst: Lizenzierung und Kennzeichnung`](skills/ki-kunst-lizenzierung-kennzeichnung/) | Für digitale Werkzeuge-Kunst: Lizenzierung und Kennzeichnung: ordnet Norm, Beweislast und Gegenargument… |
 | [`/ki-vo-compliance:ki-transparenzpflichten`](skills/ki-transparenzpflichten-borghei/) | Prüfung der Transparenzpflichten nach Art. 50 KI-VO – Offenlegung der KI-Interaktion, Kennzeichnung… |
@@ -198,7 +198,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Strafverfolgung: KI und Beweisbewertung`](skills/strafverfolgung-beweisbewertung-territorialer/) | Für Strafverfolgung: digitale Werkzeuge und Beweisbewertung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Territorialer Anwendungsbereich — Art. 2 KI-VO`](skills/territorialer-anwendungsbereich-art-2/) | Für Territorialer Anwendungsbereich — Art. 2 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Training generativer Modelle: TDM und Opt-out`](skills/training-generativer-modelle-tdm-opt-out/) | Für Training generativer Modelle: TDM und Opt-out: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Transparenz und synthetische Inhalte`](skills/transparenz-deepfake-synthetic-content-art-50/) | Prüft Chatbot-Hinweise, maschinenlesbare Anbieterkennzeichnung und Deepfake-Offenlegung getrennt.… |
+| [`Transparenz und synthetische Inhalte`](skills/transparenz-deepfake-synthetic-content-art-50/) | Prüft Chatbot-Hinweise, maschinenlesbare Anbieterkennzeichnung und Deepfake-Offenlegung getrennt.… |
 | [`Transparenzfreigabe dokumentieren`](skills/transparenzfreigabe-dokumentieren/) | Erstellt aus vorhandenen Prüfbefunden eine versions- und kanalbezogene Transparenzfreigabe mit konkreten… |
 | [`Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?`](skills/triage-ki-vendor-due-verbotene-praktiken/) | Für Triage: europäischer Technikregulierungsrahmen-Vorprüfung — Was prüft der Nutzer?: routet Rolle… |
 | [`Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?`](skills/triage-ki-vo-vorpruefung/) | Für Triage: europäischer Technikregulierungsrahmen-Vorprüfung — Was prüft der Nutzer?: routet Rolle… |
@@ -206,7 +206,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Unmittelbare: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/unmittelbare-risikoampel-und-gegenargumente/) | Für Unmittelbare: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`KI-Beschaffung: Vendor Due Diligence`](skills/vendor-due-diligence-ai-act-beschaffung/) | Für digitale Werkzeuge-Beschaffung: Vendor Due Diligence: ordnet Norm, Beweislast und Gegenargument… |
 | [`/ki-vo-compliance:verbotene-ki-praktiken`](skills/verbotene-ki-praktiken-borghei/) | Prüfung der verbotenen KI-Praktiken nach Art. 5 KI-VO – manipulative und ausnutzende Systeme, Social… |
-| [`1. Verbotene Praktiken: Tatbestand vor Risikoklasse`](skills/verbotene-praktiken-art-5/) | Prüft verbotene Praktiken anhand der einzelnen Tatbestandsmerkmale, Ausnahmen und Einsatzdaten. Trennt… |
+| [`Verbotene Praktiken: Tatbestand vor Risikoklasse`](skills/verbotene-praktiken-art-5/) | Prüft verbotene Praktiken anhand der einzelnen Tatbestandsmerkmale, Ausnahmen und Einsatzdaten. Trennt… |
 | [`Verhältnis zu anderen Unionsrechtsakten`](skills/verhaeltnis-zu-anderen-unionsrechtsakten/) | Für Verhältnis zu anderen Unionsrechtsakten: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Verordnungen: Verhandlung, Vergleich und Eskalation`](skills/verordnungen-vorrang-unmittelbare/) | Für Verordnungen: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vorfallbewertung und Meldeentwurf`](skills/vorfallbewertung-und-meldeentwurf/) | Bewertet einen konkreten Fehler oder eine Beschwerde bei KI-gestützter Personalauswahl und erstellt… |
@@ -216,4 +216,4 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Vorrang, unmittelbare Wirkung und effet utile in nationalen Fällen`](skills/vorrang-unmittelbare-wirkung-effet-utile/) | Für Vorrang, unmittelbare Wirkung und effet utile in nationalen Fällen: ordnet Norm, Beweislast und… |
 | [`KI-Flaschenhälse, Big Tech und Wettbewerb`](skills/wettbewerb-ki-flaschenhaelse-big-tech/) | Für digitale Werkzeuge-Flaschenhälse, Big Tech und Wettbewerb: ordnet Norm, Beweislast und… |
 | [`Wirkung: Behörden-, Gerichts- oder Registerweg`](skills/wirkung-behoerden-gericht-und-registerweg/) | Für Wirkung: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Geltungsbeginn und Bestandssysteme`](skills/zeitlicher-geltungsbereich-uebergangsfristen/) | Ordnet den Anwendungsbeginn der Verordnung EU 2024/1689 nach dem Omnibus 2026 dem konkreten System zu.… |
+| [`Geltungsbeginn und Bestandssysteme`](skills/zeitlicher-geltungsbereich-uebergangsfristen/) | Ordnet den Anwendungsbeginn der Verordnung EU 2024/1689 nach dem Omnibus 2026 dem konkreten System zu.… |

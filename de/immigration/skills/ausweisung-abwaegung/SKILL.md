@@ -1,6 +1,6 @@
 ---
 name: ausweisung-abwaegung
-title: 1. Ausweisung abwägen
+title: 'Ausweisung abwägen'
 description: Prüft eine Ausweisung nach den Paragrafen 53 bis 55 AufenthG mit Gefahrenprognose, besonderem Schutz, Bleibeinteressen und Folgen für Familie und Aufenthalt.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/ausweisung-abwaegung

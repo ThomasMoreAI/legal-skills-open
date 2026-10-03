@@ -1,6 +1,6 @@
 ---
 name: bieterfragen-und-ruegen-bearbeiten
-title: 1. Bieterfragen beantworten oder eine konkrete Rüge ausarbeiten
+title: 'Bieterfragen beantworten oder eine konkrete Rüge ausarbeiten'
 description: Erstellt Bieterfrage, Antwort oder vergaberechtliche Rüge mit belegtem Sachverhalt, gewünschter Abhilfe und zeitbezogener Fristenprüfung. Trennt Bieter- und Vergabestellenperspektive sowie Ober- und Unterschwellenrecht; kein automatischer Versand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bieterfragen-und-ruegen-bearbeiten

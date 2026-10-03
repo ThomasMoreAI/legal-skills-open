@@ -1,6 +1,6 @@
 ---
 name: fetching-isap-sejm
-title: law-pl-fetching-isap-sejm
+title: 'Law PL fetching isap sejm'
 description: Use when retrieving Polish legislation text from the official portal isap.sejm.gov.pl (Internetowy System Aktów Prawnych) — fetching specific historical redactions by date, verifying current validity of a norm, tracking amendments, working with consolidated texts (tekst jednolity), or constructing URLs for Polish codes and acts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-fetching-isap-sejm

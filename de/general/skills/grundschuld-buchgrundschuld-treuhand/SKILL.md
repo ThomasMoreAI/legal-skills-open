@@ -1,6 +1,6 @@
 ---
 name: grundschuld-buchgrundschuld-treuhand
-title: 1. Grundschuld und Bankauftrag abstimmen
+title: 'Grundschuld und Bankauftrag abstimmen'
 description: Bereitet Grundschuldbestellungen aus Bankauftrag und Grundbuch vor. Trennt dingliche Sicherheit, persönliche Haftung, Vollstreckungsunterwerfung, Sicherungszweck und Treuhandauflagen und führt Rang sowie Lastenfreistellung zur notariellen Prüfung zusammen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/grundschuld-buchgrundschuld-treuhand

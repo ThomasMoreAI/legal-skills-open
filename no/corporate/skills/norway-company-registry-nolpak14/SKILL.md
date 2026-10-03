@@ -1,11 +1,11 @@
 ---
 name: norway-company-registry-nolpak14
-title: norway-company-registry
+title: 'Norway company registry'
 description: 'Look up Norwegian companies for free via the official Brønnøysundregistrene (Enhetsregisteret) open data API - company profile, organisasjonsnummer, organisasjonsform, NACE/næringskode, registered address, employee count, board and officers (roller), sub-entities, and bankruptcy/dissolution status flags. Use for KYB / know-your-business checks, counterparty verification, director discovery, and Norwegian company due diligence. Trigger on: ''Brreg'', ''Brønnøysund'', ''Enhetsregisteret'', ''Norway company lookup'', ''check a Norwegian company'', ''organisasjonsnummer'', ''Norwegian org number'', ''Norway directors'', ''is this Norwegian company bankrupt''. The Norway API is free and needs no key; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/norway-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: 'no'
 practice: corporate

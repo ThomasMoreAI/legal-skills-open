@@ -34,7 +34,7 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`GOÄ § 2 abweichende Vereinbarung Honorarvereinbarung`](skills/goae-2-abweichende-vereinbarung-honorarvereinbarung/) | Für GOÄ Paragraf 2 abweichende Vereinbarung Honorarvereinbarung: ordnet Norm, Beweislast und… |
 | [`GOÄ § 5 Bemessung Gebührenrahmen 2,3 1,8 1,15 Schwelle`](skills/goae-5-bemessung-gebuehrenrahmen-2-3-1-8-1-15-schwelle/) | Für GOÄ Paragraf 5 Bemessung Gebührenrahmen 2.3 1.8 1.15 Schwelle: ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - GOÄ Gebührenordnung Ärzte`](skills/goae-gebuehrenordnung-aerzte-juristischer-argumentationskern/) | Schaltet sich ein, wenn in GOÄ Gebührenordnung Ärzte ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. GOÄ-Rechnung anhand der Unterlagen prüfen`](skills/goae-gebuehrenordnung-aerzte-kaltstart-triage/) | Für GOÄ Gebührenordnung für Ärzte — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt… |
+| [`GOÄ-Rechnung anhand der Unterlagen prüfen`](skills/goae-gebuehrenordnung-aerzte-kaltstart-triage/) | Für GOÄ Gebührenordnung für Ärzte — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`GOÄ § 4 selbständige ärztliche Leistung Zielleistungsprinzip`](skills/goae-selbstaendige-aerztliche-bemessung/) | Für GOÄ Paragraf 4 selbständige ärztliche Leistung Zielleistungsprinzip: ordnet Norm, Beweislast und… |
 | [`Haftpflichtfall Krankenhaus Gutachtenstrategie`](skills/haftpflichtfall-krankenhaus-gutachtenstrategie/) | Für Haftpflichtfall Krankenhaus Gutachtenstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Heimversorgung Versorgungsvertrag`](skills/heimversorgung-versorgungsvertrag-mietvertrag/) | Für Heimversorgung Versorgungsvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -43,7 +43,7 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Intensivmedizin Beatmung Verlegung`](skills/intensivmedizin-beatmung-verlegung/) | Für Intensivmedizin Beatmung Verlegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Investitionsfoerderung Einzelfoerderung Pauschalfoerderung`](skills/investitionsfoerderung-einzelfoerderung/) | Für Investitionsförderung Einzelförderung Pauschalförderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kaltstart GOÄ Rechnung prüfen`](skills/kaltstart-goae-rechnung-pruefen/) | Für Kaltstart GOÄ Rechnung prüfen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
-| [`1. Krankenhausrechtlichen Auftrag bearbeiten`](skills/kaltstart-krankenhausrecht/) | Für Kaltstart Krankenhausrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Krankenhausrechtlichen Auftrag bearbeiten`](skills/kaltstart-krankenhausrecht/) | Für Kaltstart Krankenhausrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`KHEntgG Budgetverhandlung DRG PEPP Abgrenzung`](skills/khentgg-budgetverhandlung-drg-pepp-abgrenzung/) | Für KHEntgG Budgetverhandlung DRG PEPP Abgrenzung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Kinder- und Jugendmedizin besondere Versorgung`](skills/kinder-und-jugendmedizin-besondere-versorgung/) | Für Kinder- und Jugendmedizin besondere Versorgung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Klage gegen Budgetbescheid oder Schiedsstellenentscheidung`](skills/klage-klinikakten-bescheide-klinikverbund/) | Für Klage gegen Budgetbescheid oder Schiedsstellenentscheidung: erstellt Entwurf mit Antrag, Beweis und… |
@@ -52,7 +52,7 @@ Jurisdiction: `de` · Practice: `healthcare` · Skill language: de
 | [`Krankenhausfinanzierungsgesetz KHG Grundstruktur`](skills/krankenhausfinanzierungsgesetz-khg-grundstruktur/) | Für Krankenhausfinanzierungsgesetz KHG Grundstruktur: ordnet Norm, Beweislast und Gegenargument… |
 | [`Krankenhaushygiene IfSG Landesrecht`](skills/krankenhaushygiene-ifsg-landesrecht/) | Für Krankenhaushygiene IfSG Landesrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Juristischer Argumentationskern - Krankenhausrecht`](skills/krankenhausrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Krankenhausrecht ein juristisches Arbeitsprodukt tragfähig begründet werden… |
-| [`1. Krankenhausrechtlichen Vorgang einordnen und bearbeiten`](skills/krankenhausrecht-kaltstart-triage/) | Für Krankenhausrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Krankenhausrechtlichen Vorgang einordnen und bearbeiten`](skills/krankenhausrecht-kaltstart-triage/) | Für Krankenhausrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Krankenhausreform Leistungsgruppen Routing`](skills/krankenhausrecht-krankenhausreform-leistungsgruppen/) | Für Krankenhausreform Leistungsgruppen Routing: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Landesaufsicht Krankenhausaufsicht Beanstandung`](skills/landesaufsicht-krankenhausaufsicht/) | Für Landesaufsicht Krankenhausaufsicht Beanstandung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Landeskrankenhausplan Aufnahme Herausnahme Änderung`](skills/landeskrankenhausplan-aufnahme-herausnahme-aenderung/) | Für Landeskrankenhausplan Aufnahme Herausnahme Änderung: ordnet Norm, Beweislast und Gegenargument… |

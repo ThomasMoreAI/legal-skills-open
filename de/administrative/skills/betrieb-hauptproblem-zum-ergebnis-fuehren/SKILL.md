@@ -1,6 +1,6 @@
 ---
 name: betrieb-hauptproblem-zum-ergebnis-fuehren
-title: 1. Zweck und Anwendungsfall
+title: 'Führt ein Berliner Betriebsmandat für Restaurant, Späti oder Radiologie von der…'
 description: Führt ein Berliner Betriebsmandat für Restaurant, Späti oder Radiologie von der vorhandenen Akte zum konkreten Antrag, Behördenbrief oder Vermerk. Verbindet Gewerberecht, Räume, Hygiene, Lärm, Beschäftigung und Strahlenschutz nach dem tatsächlichen Engpass.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-hauptproblem-zum-ergebnis-fuehren

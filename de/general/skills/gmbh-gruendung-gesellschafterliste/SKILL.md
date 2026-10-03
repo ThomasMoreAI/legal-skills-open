@@ -1,6 +1,6 @@
 ---
 name: gmbh-gruendung-gesellschafterliste
-title: 1. GmbH-Gründung und Registermappe vorbereiten
+title: 'GmbH-Gründung und Registermappe vorbereiten'
 description: 'Bereitet GmbH- und UG-Gründungen aus Gründerunterlagen vor: individuelle Satzung oder Musterprotokoll, Geschäftsanteile, Geschäftsführerbestellung, Einzahlung, Gesellschafterliste und Registeranmeldung. Trennt Entwurf, Beurkundung und tatsächliche Eintragungsreife.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/gmbh-gruendung-gesellschafterliste

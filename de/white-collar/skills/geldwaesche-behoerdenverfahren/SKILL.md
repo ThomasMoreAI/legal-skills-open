@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-behoerdenverfahren
-title: 1. Aufsicht und Bußgeldverfahren bearbeiten
+title: 'Aufsicht und Bußgeldverfahren bearbeiten'
 description: Bearbeitet Aufsichtsanfragen, Prüfungsfeststellungen und Bußgeldvorwürfe zum GwG. Trennt Mitwirkung, geschützte Informationen, Tatbestand und Verschulden und erstellt eine belegte Antwort oder Rechtsbehelfsvorlage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-behoerdenverfahren

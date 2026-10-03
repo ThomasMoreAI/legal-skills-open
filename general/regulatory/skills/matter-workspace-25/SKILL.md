@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-25
-title: /matter-workspace
+title: 'Matter workspace'
 description: Birden çok müvekkil/iş/regülasyon projesi için ayrı matter workspace oluşturur, listeler, aktif hale getirir veya arşivler.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

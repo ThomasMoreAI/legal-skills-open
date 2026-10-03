@@ -1,11 +1,11 @@
 ---
 name: tone-modes
-title: tone-modes
+title: 'Tone modes'
 description: Switch between lawyer mode and casual mode, apply the read-aloud test, and use scripts as scaffolds rather than oracles — triggers whenever Claude is about to draft user-facing language or is about to treat a script's output as final.
 author: EvanOchsner
 author_url: https://github.com/EvanOchsner/personal-advocacy-toolkit/tree/main/.claude/skills/tone-modes
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

@@ -1,6 +1,6 @@
 ---
 name: ansprueche-beweise-und-fristen-pruefen
-title: 1. Ansprüche, Beweise und Fristen prüfen
+title: 'Ansprüche, Beweise und Fristen prüfen'
 description: Prüft eine konkrete Forderung oder Verteidigung anhand von Anspruchsgrundlage, Gegenrechten, Beweislast und Fristauslösern. Liefert einen begründeten Vermerk, eine gezielte Nachweisanforderung oder den benötigten Argumentationstext statt einer abstrakten Anspruchsliste.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/ansprueche-beweise-und-fristen-pruefen

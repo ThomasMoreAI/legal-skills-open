@@ -1,6 +1,6 @@
 ---
 name: gehwegparken-und-behoerdliches-einschreiten
-title: 1. Gehwegparken und behördliches Einschreiten
+title: 'Gehwegparken und behördliches Einschreiten'
 description: Bereitet ein belegtes Einschreitensbegehren gegen erheblich behinderndes Gehwegparken vor und prüft eigene Betroffenheit, räumliche Reichweite und Ermessen statt pauschal sofortiges Abschleppen zu verlangen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/gehwegparken-und-behoerdliches-einschreiten

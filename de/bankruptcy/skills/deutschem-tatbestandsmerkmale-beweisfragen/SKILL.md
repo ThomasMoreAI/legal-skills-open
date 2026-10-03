@@ -1,6 +1,6 @@
 ---
 name: deutschem-tatbestandsmerkmale-beweisfragen
-title: '1. Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage'
+title: 'Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage'
 description: 'Für Deutschem: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/deutschem-tatbestandsmerkmale-beweisfragen

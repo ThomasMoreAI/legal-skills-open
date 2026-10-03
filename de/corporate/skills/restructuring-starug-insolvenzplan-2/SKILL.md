@@ -1,6 +1,6 @@
 ---
 name: restructuring-starug-insolvenzplan-2
-title: 1. StaRUG- oder Insolvenzplan als Transaktionsroute
+title: 'StaRUG- oder Insolvenzplan als Transaktionsroute'
 description: Vergleicht StaRUG- und Insolvenzplan transaktionsbezogen und führt die gewählte Route bis zum Closing.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-kanzlei/skills/restructuring-starug-insolvenzplan

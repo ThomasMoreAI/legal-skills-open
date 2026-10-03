@@ -1,6 +1,6 @@
 ---
 name: venture-financing
-title: venture-financing
+title: 'Venture financing'
 description: Draft and fill NVCA model documents — stock purchase agreement, certificate of incorporation, investors rights agreement, voting agreement, ROFR, co-sale, indemnification, management rights letter. Series A and venture financing contract templates. Produces signable DOCX files. Use when user says "Series A documents," "NVCA," "stock purchase agreement," "investors rights agreement," "voting agreement," or "venture financing docs." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/venture-financing

@@ -1,11 +1,11 @@
 ---
 name: validate-companies-shaishulman
-title: validate-companies
+title: 'Validate companies'
 description: 'Validate, look up, or complete Israeli company details in conversation text or pasted content (NOT .docx files — use validate-companies-docx for those). Triggers on: Hebrew company names with בע"מ/Ltd suffixes; 9-digit company numbers (ח.פ/ח.צ.); phrases like ''validate company'', ''find company number'', ''check registration'', ''fill in company details''; legal citation requests (''Company Ltd, No. ___, incorporated in ___''); pasted legal text with placeholder blanks (ח.פ. ___, No. ___); Hebrew incorporation phrases (''חברה המאוגדת בישראל'', ''חברה הרשומה בישראל''); any non-docx document (PDF, image, text) with Israeli company references. For .docx files, use validate-companies-docx instead.'
 author: ShaiShulman
 author_url: https://github.com/ShaiShulman/isracorp-mcp/tree/main/.claude/skills/validate-companies
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: corporate

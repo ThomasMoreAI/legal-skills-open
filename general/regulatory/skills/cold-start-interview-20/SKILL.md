@@ -1,11 +1,11 @@
 ---
 name: cold-start-interview-20
-title: /cold-start-interview
+title: 'Cold start interview'
 description: 冷启动访谈——建立你的监管监测清单、索引政策库并了解你的重要度阈值，使监测器输出信号而非噪音。适用于全新安装、重新配置时（--redo），或重新检查哪些连接器实际响应时（--check-integrations）。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/regulatory-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

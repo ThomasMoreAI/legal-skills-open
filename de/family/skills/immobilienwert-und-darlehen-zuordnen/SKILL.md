@@ -1,6 +1,6 @@
 ---
 name: immobilienwert-und-darlehen-zuordnen
-title: 1. Immobilienwert und Darlehen zuordnen
+title: 'Immobilienwert und Darlehen zuordnen'
 description: Ermittelt Immobilienansätze zum maßgeblichen Stichtag, trennt Eigentumsanteile, Rechte und Darlehensvaluten und prüft Innenausgleich sowie Doppelansätze in der Zugewinnrechnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/immobilienwert-und-darlehen-zuordnen

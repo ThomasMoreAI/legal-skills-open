@@ -1,11 +1,11 @@
 ---
 name: south-korea-dart-nolpak14
-title: south-korea-dart
+title: 'South korea dart'
 description: 'Look up South Korea companies for free via the official DART OpenAPI (opendart.fss.or.kr, Financial Supervisory Service) - company overview (CEO, corporate/business registration numbers, KOSPI/KOSDAQ/KONEX class), disclosure filing lists, and audited financial statements (balance sheet, income statement) straight from the source. DART is Korea''s SEC EDGAR equivalent. Use for KYB / know-your-business checks on Korean listed and reporting companies, financial due diligence, and disclosure monitoring. Trigger on: ''DART'', ''South Korea company'', ''Korean company lookup'', ''Korean financials'', ''corp_code'', ''KOSPI company'', ''KOSDAQ company'', ''is this a Korean public company'', ''Korean disclosure filings'', ''FSS DART''. DART is free and covers listed/reporting filers only; for private Korean companies and non-Korean jurisdictions it hands off to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/south-korea-dart
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: corporate

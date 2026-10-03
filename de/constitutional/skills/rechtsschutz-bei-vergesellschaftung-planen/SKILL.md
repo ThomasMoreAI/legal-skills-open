@@ -1,6 +1,6 @@
 ---
 name: rechtsschutz-bei-vergesellschaftung-planen
-title: 1. Zweck und Anwendungsfall
+title: 'Entwickelt aus einer Artikel-15-Akte den konkreten Rechtsschutz gegen Übertragung oder…'
 description: Entwickelt aus einer Artikel-15-Akte den konkreten Rechtsschutz gegen Übertragung oder Entschädigung und erstellt die bestellte Beratung oder Antragsschrift. Trennt Verfassungsprüfung, Entschädigungshöhe und Vollzug; berücksichtigt aktuelle GG-Zuständigkeiten und die Besonderheiten der hessischen Grundrechtsklage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/rechtsschutz-bei-vergesellschaftung-planen

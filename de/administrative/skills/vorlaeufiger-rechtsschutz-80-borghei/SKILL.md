@@ -1,11 +1,11 @@
 ---
 name: vorlaeufiger-rechtsschutz-80-borghei
-title: /verwaltungsrecht:vorlaeufiger-rechtsschutz-80
+title: 'Vorlaeufiger rechtsschutz 80'
 description: Vorläufiger Rechtsschutz gegen Verwaltungsakte nach § 80 VwGO. Aufschiebende Wirkung und ihre Ausnahmen (Abs. 2), Anordnung/Wiederherstellung durch das Gericht (Abs. 5), Drittbetroffene § 80a VwGO. Use when ein belastender VA sofort vollziehbar ist und der Suspensiveffekt gesichert oder hergestellt werden soll.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/verwaltungsrecht/skills/vorlaeufiger-rechtsschutz-80
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: administrative

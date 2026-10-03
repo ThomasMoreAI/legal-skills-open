@@ -1,6 +1,6 @@
 ---
 name: agg-abhilfe-und-vereinbarung-gestalten
-title: 1. Abhilfe und Vereinbarung gestalten
+title: 'Abhilfe und Vereinbarung gestalten'
 description: Entwickelt konkrete Abhilfe, faire Auswahlregeln und eine eng gefasste Vergleichsvereinbarung im AGG-Fall. Verbindet Zahlung oder Schutzmaßnahme mit Zuständigkeit, Termin und Nachkontrolle, ohne verdeckte Anspruchsverzichte oder unzulässige Schweigepflichten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/agg-abhilfe-und-vereinbarung-gestalten

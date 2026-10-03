@@ -1,6 +1,6 @@
 ---
 name: kooperation-und-entwicklung-vereinbaren
-title: 1. Kooperation und Entwicklung vereinbaren
+title: 'Kooperation und Entwicklung vereinbaren'
 description: Gestaltet vertragliche Entwicklungskooperationen mit Arbeitspaketen, Ergebnissen, Vorwissen, Verwertung und geordnetem Abbruch, ohne ein vollständiges Gesellschaftsmandat zu eröffnen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/kooperation-und-entwicklung-vereinbaren

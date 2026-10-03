@@ -1,6 +1,6 @@
 ---
 name: pflichtteil-nachlassverzeichnis-belegabgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen…'
 description: Gleicht ein vorliegendes Nachlassverzeichnis mit Stichtagsauskünften, Kontobewegungen, Immobilienwerten und behaupteten Nachlassschulden ab. Quantifiziert die Pflichtteilswirkung konkreter Abweichungen und trennt Ergänzung, Wertermittlung und Versicherung an Eides statt.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-erbrecht/skills/pflichtteil-nachlassverzeichnis-belegabgleich

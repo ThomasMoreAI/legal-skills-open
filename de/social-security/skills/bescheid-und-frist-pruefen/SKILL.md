@@ -1,6 +1,6 @@
 ---
 name: bescheid-und-frist-pruefen
-title: 1. Bescheid und Frist prüfen
+title: 'Bescheid und Frist prüfen'
 description: Prüft einen Sozialbescheid, seinen Zugang und den zulässigen Rechtsbehelf. Unterscheidet Widerspruch, Klage und gerichtliche Frist, erklärt die Fristberechnung und bereitet bei Zeitdruck eine kurze fristwahrende Eingabe mit sicherem Einreichungsweg vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/bescheid-und-frist-pruefen

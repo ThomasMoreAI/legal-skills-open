@@ -1,6 +1,6 @@
 ---
 name: statusfeststellung-und-krankenversicherung
-title: 1. Erwerbsstatus und Krankenversicherung
+title: 'Erwerbsstatus und Krankenversicherung'
 description: Prüft Beschäftigung oder Selbstständigkeit nach den Paragrafen 7 und 7a SGB IV und leitet daraus Krankenversicherungs- und Beitragsfolgen ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/statusfeststellung-und-krankenversicherung

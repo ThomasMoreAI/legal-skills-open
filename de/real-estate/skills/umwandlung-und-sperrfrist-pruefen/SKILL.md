@@ -1,6 +1,6 @@
 ---
 name: umwandlung-und-sperrfrist-pruefen
-title: 1. Umwandlungsschutz und Eigentumsfolge klären
+title: 'Umwandlungsschutz und Eigentumsfolge klären'
 description: Rekonstruiert Überlassung, Wohnungsumwandlung und Eigentumserwerb und prüft die örtliche Kündigungssperrfrist. Behandelt Erwerbermehrheiten und Familiengesellschaften gesondert und verhindert die Verwechslung mit Mietpreisbremse oder Kündigungsfrist.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/umwandlung-und-sperrfrist-pruefen

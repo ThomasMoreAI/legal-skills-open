@@ -1,6 +1,6 @@
 ---
 name: registerrecherche-und-auszuege
-title: 1. Registerrecherche und belastbare Auszüge
+title: 'Registerrecherche und belastbare Auszüge'
 description: Sucht die richtige Gesellschaft, liest aktuelle und chronologische Auszüge sowie Registerdokumente und erstellt einen datierten Recherchebericht mit gezielten Nachabrufen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/registerrecherche-und-auszuege

@@ -1,11 +1,11 @@
 ---
 name: entity-compliance
-title: /entity-compliance
+title: 'Entity compliance'
 description: Entity compliance tracker — initialize, report upcoming deadlines, update status, run health audit, export to CSV. Maintains a compliance-tracker.yaml built from the entity table, calculates filing deadlines by entity and jurisdiction, and surfaces what's due in the next 30/60/90 days. Use when user says "entity compliance", "filing deadlines", "annual reports due", "entity tracker", "what filings are due", "entity health", or "good standing".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/entity-compliance
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate

@@ -1,6 +1,6 @@
 ---
 name: exam-forecast
-title: /exam-forecast
+title: 'Exam forecast'
 description: Analyze past exams from the same professor to surface patterns — subject weighting, recurring issue-spot traps, favored hypo types, policy-vs-doctrine mix — and forecast likely emphases for the upcoming exam. Use when the user says "what's on the exam", "analyze past exams", "predict the exam", or shares past exams.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/exam-forecast

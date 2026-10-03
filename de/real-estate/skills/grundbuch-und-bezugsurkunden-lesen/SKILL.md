@@ -1,6 +1,6 @@
 ---
 name: grundbuch-und-bezugsurkunden-lesen
-title: 1. Zweck und Anwendungsfall
+title: 'Bestandsverzeichnis, Eigentümer, Belastungen, Rang und Urkundenverweise in eine…'
 description: Bestandsverzeichnis, Eigentümer, Belastungen, Rang und Urkundenverweise in eine belastbare Bestandsaufnahme überführen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundbuch-und-bezugsurkunden-lesen

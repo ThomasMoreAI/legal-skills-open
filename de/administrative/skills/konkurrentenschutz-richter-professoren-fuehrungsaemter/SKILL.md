@@ -1,6 +1,6 @@
 ---
 name: konkurrentenschutz-richter-professoren-fuehrungsaemter
-title: konkurrentenschutz-richter-professoren-fuehrungsaemter
+title: 'Konkurrentenschutz richter professoren fuehrungsaemter'
 description: 'Für konkurrentenschutz-richter-professoren-fuehrungsaemter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/konkurrentenschutz-richter-professoren-fuehrungsaemter

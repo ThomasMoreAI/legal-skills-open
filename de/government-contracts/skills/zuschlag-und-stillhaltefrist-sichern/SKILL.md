@@ -1,6 +1,6 @@
 ---
 name: zuschlag-und-stillhaltefrist-sichern
-title: 1. Zuschlag und Stillhaltefrist sichern
+title: 'Zuschlag und Stillhaltefrist sichern'
 description: Bereitet Vorabinformation, Wartefristprüfung und Zuschlag einer Sektorenvergabe vor. Trennt internen Zuschlagsvorschlag, Versand, Vertragsschluss und Nachprüfungssperren und liefert erst nach belegter Prüfung eine Freigabevorlage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/zuschlag-und-stillhaltefrist-sichern

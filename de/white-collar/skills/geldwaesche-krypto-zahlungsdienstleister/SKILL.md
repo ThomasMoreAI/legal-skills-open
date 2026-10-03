@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-krypto-zahlungsdienstleister
-title: 1. Kryptotransfer und Zahlungsdienst prüfen
+title: 'Kryptotransfer und Zahlungsdienst prüfen'
 description: Ordnet Kryptotransfers und Zahlungsdienstleister nach Rolle, Transferdaten und selbst gehosteter Adresse ein. Trennt Travel Rule, MiCAR-Erlaubnis und GwG-Prüfung und bewertet konkrete Lücken ohne Blockchain-Pauschalverdacht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-krypto-zahlungsdienstleister

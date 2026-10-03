@@ -1,13 +1,13 @@
 ---
 name: compliance-audit-insurance
-title: compliance-audit-insurance
+title: 'Compliance audit insurance'
 description: 'Conduct compliance audits for insurance agencies.
 
   TRIGGERS - Use when user needs help with compliance-audit-insurance related tasks.'
 author: Winbda
 author_url: https://github.com/Winbda/claude-skills-collection/tree/master/skills/compliance-audit-insurance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: insurance

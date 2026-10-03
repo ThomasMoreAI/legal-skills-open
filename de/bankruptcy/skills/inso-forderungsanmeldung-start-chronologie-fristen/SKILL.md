@@ -1,6 +1,6 @@
 ---
 name: inso-forderungsanmeldung-start-chronologie-fristen
-title: 1. Forderung, Verfahrensstand und Fristen
+title: 'Forderung, Verfahrensstand und Fristen'
 description: 'Für Insolvenzforderungsanmeldungsprüfung — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungsanmeldungspruefung/skills/inso-forderungsanmeldung-start-chronologie-fristen

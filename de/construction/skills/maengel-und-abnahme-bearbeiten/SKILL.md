@@ -1,6 +1,6 @@
 ---
 name: maengel-und-abnahme-bearbeiten
-title: 1. Mängel und Abnahme entscheidungsreif dokumentieren
+title: 'Mängel und Abnahme entscheidungsreif dokumentieren'
 description: Erstellt Mängelanzeige, Abnahmeprotokoll oder begründete Abnahmeentscheidung aus Vertrag und dokumentierter Prüfung. Trennt technische Feststellung, rechtliche Abnahme und öffentlich-rechtliche Freigabe; kein pauschaler Rechtsverlust durch Nutzung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/maengel-und-abnahme-bearbeiten

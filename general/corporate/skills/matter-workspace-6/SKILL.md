@@ -1,6 +1,6 @@
 ---
 name: matter-workspace-6
-title: /matter-workspace
+title: 'Matter workspace'
 description: Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when working across multiple clients or matters in private practice and you need to create, list, switch, close, or detach the active matter so context from one engagement doesn't leak into another.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/product-legal/skills/matter-workspace

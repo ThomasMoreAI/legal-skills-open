@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-bossmann007
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and termination memos. Asks which states and countries have employees, reads seed documents, and builds a jurisdiction-aware escalation table. Use on fresh install, when CLAUDE.md still has [PLACEHOLDER] markers, or when re-running with --redo or --check-integrations.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/cold-start-interview

@@ -1,6 +1,6 @@
 ---
 name: services-agreement
-title: services-agreement
+title: 'Services agreement'
 description: Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement of work, professional services agreement. Produces signable DOCX files from Common Paper and Bonterms standard forms. Use when user says "consulting contract," "contractor agreement," "SOW," "statement of work," "services agreement," or "freelancer contract." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/services-agreement

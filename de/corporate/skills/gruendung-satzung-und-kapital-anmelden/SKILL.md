@@ -1,6 +1,6 @@
 ---
 name: gruendung-satzung-und-kapital-anmelden
-title: 1. Gründung, Satzung und Kapital anmelden
+title: 'Gründung, Satzung und Kapital anmelden'
 description: Führt Gründungen, Satzungsänderungen und Kapitalmaßnahmen zum vollständigen rechtsformspezifischen Notariatspaket.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/gruendung-satzung-und-kapital-anmelden

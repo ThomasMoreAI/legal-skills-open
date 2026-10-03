@@ -1,6 +1,6 @@
 ---
 name: mietrecht-vor-ort-bestimmen
-title: 1. Rechtsstand und örtlichen Mietspiegel bestimmen
+title: 'Rechtsstand und örtlichen Mietspiegel bestimmen'
 description: Ermittelt für eine konkrete Wohnung und einen bestimmten Stichtag die zuständige Gemeinde, einschlägige Landesverordnungen und den passenden Mietspiegel. Trennt Landesrecht, Bundesrecht und lokale Berechnung statt pauschaler Städtewerte.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/mietrecht-vor-ort-bestimmen

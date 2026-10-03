@@ -1,6 +1,6 @@
 ---
 name: log-leave
-title: /log-leave
+title: 'Log leave'
 description: Add a new leave to the leave register with the minimum information needed to start tracking deadlines. Use when an employee goes on leave and you want the tracker to watch designation, certification, and exhaustion clocks from day one.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/log-leave

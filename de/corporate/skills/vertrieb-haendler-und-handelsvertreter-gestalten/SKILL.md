@@ -1,6 +1,6 @@
 ---
 name: vertrieb-haendler-und-handelsvertreter-gestalten
-title: 1. Vertrieb, Händler und Handelsvertreter gestalten
+title: 'Vertrieb, Händler und Handelsvertreter gestalten'
 description: Gestaltet Händler- und Handelsvertreterverträge mit klarer Rollenwahl, Vergütung, Gebietsschutz, Preisfreiheit, Kundenzuordnung und gesetzeskonformem Exit.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/vertrieb-haendler-und-handelsvertreter-gestalten

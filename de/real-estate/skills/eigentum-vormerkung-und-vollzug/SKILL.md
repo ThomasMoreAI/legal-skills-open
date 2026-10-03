@@ -1,6 +1,6 @@
 ---
 name: eigentum-vormerkung-und-vollzug
-title: 1. Zweck und Anwendungsfall
+title: 'Eigentumsumschreibung, Vormerkung, Genehmigungen und Fälligkeitsnachweise in der…'
 description: Eigentumsumschreibung, Vormerkung, Genehmigungen und Fälligkeitsnachweise in der vorgesehenen Reihenfolge koordinieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/eigentum-vormerkung-und-vollzug

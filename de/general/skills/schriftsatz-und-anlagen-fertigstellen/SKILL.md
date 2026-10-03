@@ -1,6 +1,6 @@
 ---
 name: schriftsatz-und-anlagen-fertigstellen
-title: 1. Schriftsatz und Anlagen fertigstellen
+title: 'Schriftsatz und Anlagen fertigstellen'
 description: Fertigt den konkret beauftragten gerichtlichen Schriftsatz mit bestimmten Anträgen, substantiierter Tatsachendarstellung, passenden Beweisangeboten und konsistenten Anlagen. Prüft Zuständigkeit, Fristen, elektronischen Formweg und Empfängerfassung, ohne selbst einzureichen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/schriftsatz-und-anlagen-fertigstellen

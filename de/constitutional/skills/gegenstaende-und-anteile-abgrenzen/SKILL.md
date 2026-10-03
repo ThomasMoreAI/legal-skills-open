@@ -1,6 +1,6 @@
 ---
 name: gegenstaende-und-anteile-abgrenzen
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft bei einer Vergesellschaftung nach Artikel 15 GG Grundstücke, Netzanlagen…'
 description: Prüft bei einer Vergesellschaftung nach Artikel 15 GG Grundstücke, Netzanlagen, Nutzungsrechte und Gesellschaftsanteile anhand von Eigentumsbelegen. Erstellt eine konkrete Übertragungsanlage und einen begründeten Gegenstandsvermerk, insbesondere für gemischte Energienetzunternehmen und Landesgrenzen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/gegenstaende-und-anteile-abgrenzen

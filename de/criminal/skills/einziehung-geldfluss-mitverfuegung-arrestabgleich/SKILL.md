@@ -1,6 +1,6 @@
 ---
 name: einziehung-geldfluss-mitverfuegung-arrestabgleich
-title: 1. Einziehung, Geldfluss und Arrest
+title: 'Einziehung, Geldfluss und Arrest'
 description: Rekonstruiert bei mehreren Tatbeteiligten Geldflüsse, tatsächliche Mitverfügung, Tatlohn und Rückzahlungen für Einziehung und Vermögensarrest. Für überhöhte Abschöpfungssummen und Doppelzählungen, nicht für allgemeine Strafzumessung oder steuerliche Gewinnermittlung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills/einziehung-geldfluss-mitverfuegung-arrestabgleich

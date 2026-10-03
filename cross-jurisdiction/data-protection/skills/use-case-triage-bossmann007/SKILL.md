@@ -1,11 +1,11 @@
 ---
 name: use-case-triage-bossmann007
-title: /use-case-triage
+title: 'Use case triage'
 description: Quickly determine whether a processing activity needs a PIA, a RIPD (Relatório de Impacto à Proteção de Dados — LGPD art. 38 / art. 5º, XVII) or GDPR DPIA when triggered, or can proceed — surfaces privacy policy conflicts and routes to the right next step. Use when the user asks "does this need a PIA", "triage this feature", "privacy check on X", "is this okay from a privacy perspective", or describes a new data processing activity, product feature, or vendor relationship.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/use-case-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

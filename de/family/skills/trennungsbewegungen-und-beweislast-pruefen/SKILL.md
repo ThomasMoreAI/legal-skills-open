@@ -1,6 +1,6 @@
 ---
 name: trennungsbewegungen-und-beweislast-pruefen
-title: 1. Trennungsbewegungen und Beweislast prüfen
+title: 'Trennungsbewegungen und Beweislast prüfen'
 description: Klärt Vermögensabflüsse zwischen Trennung und Endstichtag, prüft erfüllende Auskunft und Beweislastumkehr und beziffert begründete Hinzurechnungen oder Gegenargumente.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/trennungsbewegungen-und-beweislast-pruefen

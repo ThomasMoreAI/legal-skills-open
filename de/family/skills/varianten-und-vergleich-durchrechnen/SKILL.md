@@ -1,6 +1,6 @@
 ---
 name: varianten-und-vergleich-durchrechnen
-title: 1. Varianten und Vergleich durchrechnen
+title: 'Varianten und Vergleich durchrechnen'
 description: Berechnet streitige Zugewinnvarianten mit Nullgrenze und Anspruchsbegrenzung, bewertet Vergleichszahlungen und entwickelt eine konkrete, formbewusste Einigung ohne Verfahrenszwang.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/varianten-und-vergleich-durchrechnen

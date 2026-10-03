@@ -1,6 +1,6 @@
 ---
 name: sitz-zweigniederlassung-und-strukturwechsel
-title: 1. Sitz, Zweigniederlassung und Strukturwechsel
+title: 'Sitz, Zweigniederlassung und Strukturwechsel'
 description: Ordnet Anschriftsänderung, inländischen Sitzwechsel, Zweigniederlassung, Liquidation und Umwandlung der richtigen Registerstrecke zu.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/sitz-zweigniederlassung-und-strukturwechsel

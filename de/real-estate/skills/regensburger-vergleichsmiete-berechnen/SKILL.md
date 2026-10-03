@@ -1,6 +1,6 @@
 ---
 name: regensburger-vergleichsmiete-berechnen
-title: 1. Regensburger Vergleichsmiete berechnen
+title: 'Regensburger Vergleichsmiete berechnen'
 description: Berechnet die Vergleichsmiete im Stadtgebiet Regensburg nach Basismiete und belegten Zu- und Abschlägen. Prüft Tabellen, Adressverzeichnis, Mieterausstattung und die begründungsbedürftige Spanne, ohne Berliner Rechenregeln zu übertragen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/regensburger-vergleichsmiete-berechnen

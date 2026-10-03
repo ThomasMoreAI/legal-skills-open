@@ -1,6 +1,6 @@
 ---
 name: betrieb-radiologie-und-strahlenschutz
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner radiologische Betriebsaufnahme und Änderung mit CT, Röntgen, MRT…'
 description: Prüft Berliner radiologische Betriebsaufnahme und Änderung mit CT, Röntgen, MRT, Teleradiologie oder radioaktiven Stoffen. Erstellt Nachweisanfragen, Verantwortungsregelungen und einen belastbaren behördlichen Antwortentwurf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-radiologie-und-strahlenschutz

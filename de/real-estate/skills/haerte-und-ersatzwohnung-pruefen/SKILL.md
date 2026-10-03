@@ -1,6 +1,6 @@
 ---
 name: haerte-und-ersatzwohnung-pruefen
-title: 1. Härtegründe und Ersatzwohnraum belegen
+title: 'Härtegründe und Ersatzwohnraum belegen'
 description: Prüft konkrete Umzugsfolgen, Gesundheitsgefahren und zumutbare Ersatzwohnungssuche nach der Sozialklausel. Ordnet Atteste und Suchbelege ein, ohne Alter, Diagnose oder angespannte Wohnlage automatisch als Bleiberecht oder als belanglos zu behandeln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/haerte-und-ersatzwohnung-pruefen

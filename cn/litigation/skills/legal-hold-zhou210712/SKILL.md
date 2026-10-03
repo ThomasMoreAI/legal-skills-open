@@ -1,11 +1,11 @@
 ---
 name: legal-hold-zhou210712
-title: /legal-hold
+title: 'Legal hold'
 description: 发出、更新、解除或报告证据保全通知——将保全通知起草为 .docx， 更新案件日志中的保全字段，并排期下次更新。当用户说 "发出证据保全通知"、"更新保全通知"、"解除保全"或要求全案组合证据保全状态报告时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/legal-hold
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: litigation

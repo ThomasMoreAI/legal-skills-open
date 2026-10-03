@@ -1,6 +1,6 @@
 ---
 name: laufzeit-und-vertragsende-regeln
-title: 1. Laufzeit und Vertragsende mit funktionsfähiger Übergabe regeln
+title: 'Laufzeit und Vertragsende mit funktionsfähiger Übergabe regeln'
 description: Gestaltet Beginn, Bindungsdauer, Kündigungswege und geordnete Abwicklung eines einzelnen B2B-Vertrags. Verwenden bei Wartungsperioden, Verlängerungen, vorzeitigem Projektende, Restvergütung oder Übergabe an einen Nachfolger; keine ungefragte Kündigungserklärung und keine vollständige Insolvenz- oder Vertriebsrestrukturierung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/laufzeit-und-vertragsende-regeln

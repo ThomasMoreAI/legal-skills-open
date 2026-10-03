@@ -1,6 +1,6 @@
 ---
 name: workflow-asyl-start
-title: 1. Asylakte starten
+title: 'Asylakte starten'
 description: Startet eine Asylakte mit Dokumentenauswertung, Stichtagsweiche zwischen altem und neuem GEAS, Fristensicherung und Schutzgrundanalyse.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/workflow-asyl-start

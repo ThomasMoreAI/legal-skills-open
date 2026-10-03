@@ -1,6 +1,6 @@
 ---
 name: case-brief
-title: /case-brief
+title: 'Case brief'
 description: Resume um julgado/acórdão no seu formato preferido. Em modo sabatina, faz o aluno afirmar a tese/ementa primeiro. Use quando o usuário disser "resume [julgado]", "qual a tese de", "resumo de acórdão", ou colar o inteiro teor de uma decisão.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/case-brief

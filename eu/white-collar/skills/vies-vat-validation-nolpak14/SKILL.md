@@ -1,11 +1,11 @@
 ---
 name: vies-vat-validation-nolpak14
-title: vies-vat-validation
+title: 'Vies vat validation'
 description: 'Validate any EU VAT number for free via the official EU VIES service - confirm a counterparty''s VAT registration, get the registered name and address (where the member state shares it), and obtain a consultation number as audit proof. Use as the first step of a KYB / KYC / AML check: validate the VAT, then pull the full registry record. Also validates EU EORI (customs/trade) numbers via the official EOS service. Trigger on: ''validate VAT number'', ''check EU VAT'', ''VIES'', ''is this VAT valid'', ''VAT number lookup'', ''verify a VAT registration'', ''EU VAT check'', ''validate EORI number'', ''EORI check''. VIES is keyless and free; for the full company record it routes to the free national skills and the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/vies-vat-validation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: white-collar

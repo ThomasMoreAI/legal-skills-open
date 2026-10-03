@@ -1,6 +1,6 @@
 ---
 name: restrukturierungsplan-architektur-rollierende
-title: 1. Restrukturierungsplan-Architektur
+title: 'Restrukturierungsplan-Architektur'
 description: 'Baut einen Restrukturierungsplan nach Paragrafen 2 bis 28 StaRUG belastbar auf: Planbetroffene, darstellender und gestaltender Teil, Auswahl, Gruppen, Gleichbehandlung, Anlagen, Abstimmung, Cram-Down und Bestätigung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/restrukturierungsplan-architektur-rollierende

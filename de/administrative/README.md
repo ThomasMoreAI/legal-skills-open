@@ -10,12 +10,12 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`1. Zulässigkeit der Verwaltungsklage`](skills/01-zulaessigkeit-verwaltungsklage/) | Für 01 Zulässigkeit Verwaltungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
+| [`Zulässigkeit der Verwaltungsklage`](skills/01-zulaessigkeit-verwaltungsklage/) | Für 01 Zulässigkeit Verwaltungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`02 Amtsermittlung und Sachverhaltsfeststellung`](skills/02-amtsermittlung-und-sachverhaltsfeststellung/) | Für 02 Amtsermittlung und Sachverhaltsfeststellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`03 Begründetheit Anfechtungsklage`](skills/03-begruendetheit-anfechtungsklage/) | Für 03 Begründetheit Anfechtungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`04 Begründetheit Verpflichtungsklage`](skills/04-begruendetheit-verpflichtungsklage/) | Für 04 Begründetheit Verpflichtungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Eilrechtsschutz nach Paragraf 80 Absatz 5 VwGO`](skills/05-eilrechtsschutz-paragraf-80-abs-5/) | Prüft Anträge nach Paragraf 80 Absatz 5 VwGO aus richterlicher Perspektive, trennt Anordnung und… |
-| [`1. Einstweilige Anordnung nach Paragraf 123 VwGO`](skills/06-eilrechtsschutz-paragraf-123/) | Bereitet einen Eilbeschluss nach Paragraf 123 VwGO vor: Anspruch, Dringlichkeit, Vorwegnahme, konkrete… |
+| [`Einstweilige Anordnung nach Paragraf 123 VwGO`](skills/06-eilrechtsschutz-paragraf-123/) | Bereitet einen Eilbeschluss nach Paragraf 123 VwGO vor: Anspruch, Dringlichkeit, Vorwegnahme, konkrete… |
 | [`07 Beweisaufnahme Verwaltungsgericht`](skills/07-beweisaufnahme-verwaltungsgericht/) | Für 07 Beweisaufnahme Verwaltungsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`08 Urteilsentwurf Paragraf 117 Vwgo`](skills/08-urteilsentwurf-paragraf-117-vwgo/) | Für 08 Urteilsentwurf Paragraf 117 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`09 Rechtsmittel Vwgo`](skills/09-rechtsmittel-vwgo/) | Für 09 Rechtsmittel VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -44,25 +44,25 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Anforderungsprofil — konstitutiv oder deklaratorisch`](skills/anforderungsprofil-konstitutiv/) | Für Anforderungsprofil — konstitutiv oder deklaratorisch: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anhörung vor Bescheid`](skills/anhoerung-vor-bescheid/) | Für Anhörung vor Bescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Anlassbeurteilung vs. Regelbeurteilung — Aktualitaet und Vergleichbarkeit`](skills/anlassbeurteilung-vs-regelbeurteilung/) | Für Anlassbeurteilung vs. Regelbeurteilung — Aktualität und Vergleichbarkeit: ordnet Norm, Beweislast… |
-| [`1. Anliegergebrauch und Lieferzufahrt sichern`](skills/anliegergebrauch-und-lieferzufahrt-sichern/) | Prüft die notwendige Erreichbarkeit eines Grundstücks oder Ladens, bewertet Lieferalternativen und… |
+| [`Anliegergebrauch und Lieferzufahrt sichern`](skills/anliegergebrauch-und-lieferzufahrt-sichern/) | Prüft die notwendige Erreichbarkeit eines Grundstücks oder Ladens, bewertet Lieferalternativen und… |
 | [`Anrechnung Renten nach § 55 BeamtVG`](skills/anrechnung-55-beamtvg-mehrere-renten/) | Für Anrechnung Renten nach Paragraf 55 BeamtVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Anträge, Rechtsbehelfe und Eilrechtsschutz`](skills/antraege-rechtsbehelfe-und-eilrechtsschutz/) | Entwickelt aus Straßenrechtsakten konkrete Behördenanträge, passende Rechtsbehelfe und Eilanträge mit… |
+| [`Anträge, Rechtsbehelfe und Eilrechtsschutz`](skills/antraege-rechtsbehelfe-und-eilrechtsschutz/) | Entwickelt aus Straßenrechtsakten konkrete Behördenanträge, passende Rechtsbehelfe und Eilanträge mit… |
 | [`Antraege: Zahlen, Schwellenwerte und Berechnung`](skills/antraege-zahlen-schwellen-und-berechnung/) | Für Anträge: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Antraege: Zahlen, Schwellenwerte und Berechnung`](skills/antraege-zahlen-schwellenwerte-berechnung/) | Für Anträge: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Anwesenheitspflicht`](skills/anwesenheitspflicht/) | Für Anwesenheitspflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Art. 14 GG — Eigentum und Denkmalschutz`](skills/art-14-gg-eigentum-und-denkmalschutz/) | Für Art. 14 GG — Eigentum und Denkmalschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Art. 70 GG, Art. 73 GG — Länderzuständigkeit im Denkmalschutz`](skills/art-73-gg-laenderzustaendigkeit/) | Für Art. 70 GG, Art. 73 GG — Länderzuständigkeit im Denkmalschutz: prüft Frist, Form, Zuständigkeit und… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-durchsuchung-und-wohnraumschutz/) | Prüft Berliner Durchsuchungen von Personen, Sachen und Wohnungen einschließlich Richtervorbehalt… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-gewahrsam-und-richterkontrolle/) | Prüft Berliner präventive Freiheitsentziehungen, unverzügliche Richtervorführung, Dauer und… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-identitaet-befragung-und-ed/) | Prüft konkrete Berliner Personalienkontrollen, Befragungen, Vorladungen und erkennungsdienstliche… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-mandat-zum-ergebnis/) | Übergreifender Hauptskill für Berliner Polizei- und Ordnungsmandate von der konkreten Maßnahme über… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-platzverweis-und-aufenthaltsverbot/) | Prüft räumliche und zeitliche Berliner Wegweisungen und Aufenthaltsverbote sowie ihre Fortwirkung und… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-polizeidaten-auskunft-und-korrektur/) | Erstellt gezielte Berliner Anträge auf Auskunft, Berichtigung, Einschränkung oder Löschung polizeilicher… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-rechtsbehelf-eilrechtsschutz-und-folgen/) | Bestimmt im Berliner Polizei- und Ordnungsrecht den richtigen Gegenstand, Rechtsweg, Antrag und… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-sicherstellung-verwahrung-herausgabe/) | Bearbeitet Berliner Sicherstellungen von Sachen und Vermögensrechten vom aktuellen Verwahrgrund über… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-sonderlagen-und-versammlungsgrenzen/) | Prüft die Grenzen Berliner ASOG-Maßnahmen bei Versammlungen, Gewaltschutz, privatem Rechtsstreit und… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-vollstreckung-zwang-und-kosten/) | Prüft Berliner Vollstreckungsmaßnahmen, unmittelbaren Zwang, Ersatzvornahme und Kostenforderungen mit… |
-| [`1. Zweck und Anwendungsfall`](skills/asog-zustaendigkeit-gefahr-und-stoerer/) | Prüft Berliner Gefahrenabwehrbescheide nach Zuständigkeit, Spezialrecht, Gefahrprognose… |
+| [`Prüft Berliner Durchsuchungen von Personen, Sachen und Wohnungen einschließlich…`](skills/asog-durchsuchung-und-wohnraumschutz/) | Prüft Berliner Durchsuchungen von Personen, Sachen und Wohnungen einschließlich Richtervorbehalt… |
+| [`Prüft Berliner präventive Freiheitsentziehungen, unverzügliche Richtervorführung, Dauer…`](skills/asog-gewahrsam-und-richterkontrolle/) | Prüft Berliner präventive Freiheitsentziehungen, unverzügliche Richtervorführung, Dauer und… |
+| [`Prüft konkrete Berliner Personalienkontrollen, Befragungen, Vorladungen und…`](skills/asog-identitaet-befragung-und-ed/) | Prüft konkrete Berliner Personalienkontrollen, Befragungen, Vorladungen und erkennungsdienstliche… |
+| [`Übergreifender Hauptskill für Berliner Polizei- und Ordnungsmandate von der konkreten…`](skills/asog-mandat-zum-ergebnis/) | Übergreifender Hauptskill für Berliner Polizei- und Ordnungsmandate von der konkreten Maßnahme über… |
+| [`Prüft räumliche und zeitliche Berliner Wegweisungen und Aufenthaltsverbote sowie ihre…`](skills/asog-platzverweis-und-aufenthaltsverbot/) | Prüft räumliche und zeitliche Berliner Wegweisungen und Aufenthaltsverbote sowie ihre Fortwirkung und… |
+| [`Erstellt gezielte Berliner Anträge auf Auskunft, Berichtigung, Einschränkung oder…`](skills/asog-polizeidaten-auskunft-und-korrektur/) | Erstellt gezielte Berliner Anträge auf Auskunft, Berichtigung, Einschränkung oder Löschung polizeilicher… |
+| [`Bestimmt im Berliner Polizei- und Ordnungsrecht den richtigen Gegenstand, Rechtsweg…`](skills/asog-rechtsbehelf-eilrechtsschutz-und-folgen/) | Bestimmt im Berliner Polizei- und Ordnungsrecht den richtigen Gegenstand, Rechtsweg, Antrag und… |
+| [`Bearbeitet Berliner Sicherstellungen von Sachen und Vermögensrechten vom aktuellen…`](skills/asog-sicherstellung-verwahrung-herausgabe/) | Bearbeitet Berliner Sicherstellungen von Sachen und Vermögensrechten vom aktuellen Verwahrgrund über… |
+| [`Prüft die Grenzen Berliner ASOG-Maßnahmen bei Versammlungen, Gewaltschutz, privatem…`](skills/asog-sonderlagen-und-versammlungsgrenzen/) | Prüft die Grenzen Berliner ASOG-Maßnahmen bei Versammlungen, Gewaltschutz, privatem Rechtsstreit und… |
+| [`Prüft Berliner Vollstreckungsmaßnahmen, unmittelbaren Zwang, Ersatzvornahme und…`](skills/asog-vollstreckung-zwang-und-kosten/) | Prüft Berliner Vollstreckungsmaßnahmen, unmittelbaren Zwang, Ersatzvornahme und Kostenforderungen mit… |
+| [`Prüft Berliner Gefahrenabwehrbescheide nach Zuständigkeit, Spezialrecht, Gefahrprognose…`](skills/asog-zustaendigkeit-gefahr-und-stoerer/) | Prüft Berliner Gefahrenabwehrbescheide nach Zuständigkeit, Spezialrecht, Gefahrprognose… |
 | [`Attest Und Prüfungsunfaehigkeit Schule`](skills/attest-und-pruefungsunfaehigkeit-schule/) | Für Attest und Prüfungsunfähigkeit Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NKR-Aufgabe und Kompetenz nach NKRG`](skills/aufgabe-und-kompetenz-nkrg/) | Für NKR-Aufgabe und Kompetenz nach NKRG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Aufsichtspflicht Und Unfall`](skills/aufsichtspflicht-und-unfall/) | Für Aufsichtspflicht und Unfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -82,7 +82,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Aktenstruktur Und Dokumentenintake`](skills/beamtenrecht-aktenstruktur-und-dokumentenintake/) | Für Aktenstruktur und Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Besold Befoerderungskaskade Organisationsmissbrauch Red`](skills/beamtenrecht-besold-neu-020-befoerderungskaskade-orga/) | Für Besold Beförderungskaskade Organisationsmissbrauch Red: ordnet Norm, Beweislast und Gegenargument… |
 | [`Juristischer Argumentationskern - Beamtenrecht`](skills/beamtenrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Beamtenrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss… |
-| [`1. Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten`](skills/beamtenrecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten`](skills/beamtenrecht-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`BeamtStG, BBG und Landesrecht richtig abgrenzen`](skills/beamtstg-bbg-beforderung-erprobung-begrenzte/) | Für BeamtStG, BBG und Landesrecht richtig abgrenzen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Befangenheit Prüfer`](skills/befangenheit-pruefer/) | Für Befangenheit Prüfer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Befreiung von Schulveranstaltung`](skills/befreiung-schulveranstaltung/) | Für Befreiung von Schulveranstaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -92,17 +92,17 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Beihilfe Heilbehandlung im Ausland`](skills/beihilfe-heilbehandlung-ausland/) | Für Beihilfe Heilbehandlung im Ausland: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Beihilfe Spezialhilfsmittel — Hoergeraete Cochlea-Implantat Sehhilfen`](skills/beihilfe-implantatfaehige-hoergeraete/) | Für Beihilfe Spezialhilfsmittel — Hörgeräte Cochlea-Implantat Sehhilfen: ordnet Norm, Beweislast und… |
 | [`Beratungshilfe und PKH`](skills/beratungshilfe-pkh/) | Für Beratungshilfe und PKH: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-beteiligung-schuldaten-konflikte/) | Berliner Eltern- und Schülerbeteiligung, Schülerakte, Datenschutz, Klassenchat und kindbezogene… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-bildungsmandat-steuern/) | Ein Berliner Kita- oder Schulproblem aus Eltern- und Schülersicht aufnehmen, die nötigen Fachzweige… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-erziehung-ordnungsmassnahmen/) | Berliner Tadel, Erziehungsmaßnahmen, schriftlichen Verweis und Unterrichtsausschluss aus Eltern- und… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-ganztag-ergaenzende-foerderung/) | Berliner Ganztag und ergänzende Förderung und Betreuung einschließlich der Grundschulkohorte ab… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-inklusion-nachteilsausgleich/) | Berliner sonderpädagogische Förderung, Lernort, Nachteilsausgleich, Notenschutz, Inklusionsassistenz und… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-kita-gutschein-betreuung/) | Berliner Kita-Gutschein, bedarfsgerechten Platz, Betreuungsumfang und Kita-Vertrag aus Eltern- und… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-leistungsbewertung-versetzung/) | Berliner Noten, Zeugnisse, Förderprognosen, Versetzung und Schulprüfungen aus Schüler- und Elternsicht… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-rechtsbehelfe-eilrechtsschutz/) | Berliner schul- und kitarechtliche Beschwerden, Widerspruch, Klage sowie Paragrafen 80 und 123 VwGO nach… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-schulaufnahme-grundschule/) | Berliner Einschulung, Zurückstellung und Wunschgrundschule aus Eltern- und Kindersicht bis zum… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-schulpflicht-fehlzeiten-befreiung/) | Berliner Schulbesuchspflicht, Fehlzeiten, Krankheit, Beurlaubung und Befreiung aus Eltern- und… |
-| [`1. Zweck und Anwendungsfall`](skills/berlin-sekundarstufe-schulplatz-wechsel/) | Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in Klasse 8 mit… |
+| [`Berliner Eltern- und Schülerbeteiligung, Schülerakte, Datenschutz, Klassenchat und…`](skills/berlin-beteiligung-schuldaten-konflikte/) | Berliner Eltern- und Schülerbeteiligung, Schülerakte, Datenschutz, Klassenchat und kindbezogene… |
+| [`Ein Berliner Kita- oder Schulproblem aus Eltern- und Schülersicht aufnehmen, die nötigen…`](skills/berlin-bildungsmandat-steuern/) | Ein Berliner Kita- oder Schulproblem aus Eltern- und Schülersicht aufnehmen, die nötigen Fachzweige… |
+| [`Berliner Tadel, Erziehungsmaßnahmen, schriftlichen Verweis und Unterrichtsausschluss aus…`](skills/berlin-erziehung-ordnungsmassnahmen/) | Berliner Tadel, Erziehungsmaßnahmen, schriftlichen Verweis und Unterrichtsausschluss aus Eltern- und… |
+| [`Berliner Ganztag und ergänzende Förderung und Betreuung einschließlich der…`](skills/berlin-ganztag-ergaenzende-foerderung/) | Berliner Ganztag und ergänzende Förderung und Betreuung einschließlich der Grundschulkohorte ab… |
+| [`Berliner sonderpädagogische Förderung, Lernort, Nachteilsausgleich, Notenschutz…`](skills/berlin-inklusion-nachteilsausgleich/) | Berliner sonderpädagogische Förderung, Lernort, Nachteilsausgleich, Notenschutz, Inklusionsassistenz und… |
+| [`Berliner Kita-Gutschein, bedarfsgerechten Platz, Betreuungsumfang und Kita-Vertrag aus…`](skills/berlin-kita-gutschein-betreuung/) | Berliner Kita-Gutschein, bedarfsgerechten Platz, Betreuungsumfang und Kita-Vertrag aus Eltern- und… |
+| [`Berliner Noten, Zeugnisse, Förderprognosen, Versetzung und Schulprüfungen aus Schüler…`](skills/berlin-leistungsbewertung-versetzung/) | Berliner Noten, Zeugnisse, Förderprognosen, Versetzung und Schulprüfungen aus Schüler- und Elternsicht… |
+| [`Berliner schul- und kitarechtliche Beschwerden, Widerspruch, Klage sowie Paragrafen 80…`](skills/berlin-rechtsbehelfe-eilrechtsschutz/) | Berliner schul- und kitarechtliche Beschwerden, Widerspruch, Klage sowie Paragrafen 80 und 123 VwGO nach… |
+| [`Berliner Einschulung, Zurückstellung und Wunschgrundschule aus Eltern- und Kindersicht…`](skills/berlin-schulaufnahme-grundschule/) | Berliner Einschulung, Zurückstellung und Wunschgrundschule aus Eltern- und Kindersicht bis zum… |
+| [`Berliner Schulbesuchspflicht, Fehlzeiten, Krankheit, Beurlaubung und Befreiung aus…`](skills/berlin-schulpflicht-fehlzeiten-befreiung/) | Berliner Schulbesuchspflicht, Fehlzeiten, Krankheit, Beurlaubung und Befreiung aus Eltern- und… |
+| [`Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in…`](skills/berlin-sekundarstufe-schulplatz-wechsel/) | Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in Klasse 8 mit… |
 | [`Berufungsvereinbarung und Ausstattung`](skills/berufungsvereinbarung-ausstattung/) | Für Berufungsvereinbarung und Ausstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Berufungsverfahren Professur`](skills/berufungsverfahren-professur-gute/) | Für Berufungsverfahren Professur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Beschwerde gegen Lehrkraft`](skills/beschwerde-gegen-lehrkraft/) | Für Beschwerde gegen Lehrkraft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -131,17 +131,17 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Versorgung, Familienzuschlag und offene Übertragungsfragen`](skills/besoldung-versorgung-familienzuschlag/) | Für Versorgung, Familienzuschlag und offene Übertragungsfragen: ordnet Norm, Beweislast und… |
 | [`Besoldung - zeitnahe Geltendmachung und Musterverfahren`](skills/besoldung-zeitnahe-sofortmassnahmen/) | Für Besoldung - zeitnahe Geltendmachung und Musterverfahren: ordnet Norm, Beweislast und Gegenargument… |
 | [`Bho 65 Beteiligung Unternehmen Praktis`](skills/beteiligung-unternehmen-brh-aufgabe/) | Für BHO 65 Beteiligung Unternehmen Praktis: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-arbeitsschutz-und-schichtbetrieb/) | Bearbeitet Berliner Arbeitsschutzkontrollen, Arbeitszeit, Gefährdungsbeurteilung und konkrete… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-gaststaette-und-uebernahme/) | Bearbeitet Berliner Gaststättenerlaubnisse, Alkoholausschank, Übernahmen, vorläufige Erlaubnisse und… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-gewerbeanzeige-und-berufsabgrenzung/) | Prüft für einen Berliner Betrieb Gewerbeanzeige, Betreiberwechsel und die Abgrenzung ärztlicher… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-hauptproblem-zum-ergebnis-fuehren/) | Führt ein Berliner Betriebsmandat für Restaurant, Späti oder Radiologie von der vorhandenen Akte zum… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-kontrolle-und-anhoerung/) | Ordnet Berliner Betriebskontrollen, Nachforderungen, Anhörungen und belastende Verfügungen ein. Erstellt… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-laerm-und-nachbarschaft/) | Bearbeitet Lärm, Lieferverkehr, Gerüche, Musik und Außenbetrieb Berliner Gaststätten und… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-lebensmittel-und-hygiene/) | Bearbeitet Lebensmittelkontrollen, Eigenkontrollen nach HACCP, Kühlketten, Belehrung und behördliche… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-radiologie-und-strahlenschutz/) | Prüft Berliner radiologische Betriebsaufnahme und Änderung mit CT, Röntgen, MRT, Teleradiologie oder… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-raeume-nutzung-und-sondernutzung/) | Prüft Berliner Betriebsräume, Nutzungsänderungen, Außengastronomie und Sondernutzung. Erstellt die… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-spaeti-und-sonntag/) | Prüft Berliner Spätverkaufsstellen, Touristenbedarf, Anlassöffnungen und gemischten Cafébetrieb.… |
-| [`1. Zweck und Anwendungsfall`](skills/betrieb-zuverlaessigkeit-und-untersagung/) | Prüft gewerbliche Zuverlässigkeit, Steuer- und Beitragsrückstände, Erlaubniswiderruf, Gewerbeuntersagung… |
+| [`Bearbeitet Berliner Arbeitsschutzkontrollen, Arbeitszeit, Gefährdungsbeurteilung und…`](skills/betrieb-arbeitsschutz-und-schichtbetrieb/) | Bearbeitet Berliner Arbeitsschutzkontrollen, Arbeitszeit, Gefährdungsbeurteilung und konkrete… |
+| [`Bearbeitet Berliner Gaststättenerlaubnisse, Alkoholausschank, Übernahmen, vorläufige…`](skills/betrieb-gaststaette-und-uebernahme/) | Bearbeitet Berliner Gaststättenerlaubnisse, Alkoholausschank, Übernahmen, vorläufige Erlaubnisse und… |
+| [`Prüft für einen Berliner Betrieb Gewerbeanzeige, Betreiberwechsel und die Abgrenzung…`](skills/betrieb-gewerbeanzeige-und-berufsabgrenzung/) | Prüft für einen Berliner Betrieb Gewerbeanzeige, Betreiberwechsel und die Abgrenzung ärztlicher… |
+| [`Führt ein Berliner Betriebsmandat für Restaurant, Späti oder Radiologie von der…`](skills/betrieb-hauptproblem-zum-ergebnis-fuehren/) | Führt ein Berliner Betriebsmandat für Restaurant, Späti oder Radiologie von der vorhandenen Akte zum… |
+| [`Ordnet Berliner Betriebskontrollen, Nachforderungen, Anhörungen und belastende…`](skills/betrieb-kontrolle-und-anhoerung/) | Ordnet Berliner Betriebskontrollen, Nachforderungen, Anhörungen und belastende Verfügungen ein. Erstellt… |
+| [`Bearbeitet Lärm, Lieferverkehr, Gerüche, Musik und Außenbetrieb Berliner Gaststätten und…`](skills/betrieb-laerm-und-nachbarschaft/) | Bearbeitet Lärm, Lieferverkehr, Gerüche, Musik und Außenbetrieb Berliner Gaststätten und… |
+| [`Bearbeitet Lebensmittelkontrollen, Eigenkontrollen nach HACCP, Kühlketten, Belehrung und…`](skills/betrieb-lebensmittel-und-hygiene/) | Bearbeitet Lebensmittelkontrollen, Eigenkontrollen nach HACCP, Kühlketten, Belehrung und behördliche… |
+| [`Prüft Berliner radiologische Betriebsaufnahme und Änderung mit CT, Röntgen, MRT…`](skills/betrieb-radiologie-und-strahlenschutz/) | Prüft Berliner radiologische Betriebsaufnahme und Änderung mit CT, Röntgen, MRT, Teleradiologie oder… |
+| [`Prüft Berliner Betriebsräume, Nutzungsänderungen, Außengastronomie und Sondernutzung`](skills/betrieb-raeume-nutzung-und-sondernutzung/) | Prüft Berliner Betriebsräume, Nutzungsänderungen, Außengastronomie und Sondernutzung. Erstellt die… |
+| [`Prüft Berliner Spätverkaufsstellen, Touristenbedarf, Anlassöffnungen und gemischten…`](skills/betrieb-spaeti-und-sonntag/) | Prüft Berliner Spätverkaufsstellen, Touristenbedarf, Anlassöffnungen und gemischten Cafébetrieb.… |
+| [`Prüft gewerbliche Zuverlässigkeit, Steuer- und Beitragsrückstände, Erlaubniswiderruf…`](skills/betrieb-zuverlaessigkeit-und-untersagung/) | Prüft gewerbliche Zuverlässigkeit, Steuer- und Beitragsrückstände, Erlaubniswiderruf, Gewerbeuntersagung… |
 | [`Beurteilungsbeitrag — Pflicht, Mangel, Heilung`](skills/beurteilungsbeitrag-heilung-maengel/) | Für Beurteilungsbeitrag — Pflicht, Mangel, Heilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Bewertungsspielraum Und Kontrolle`](skills/bewertungsspielraum-und-kontrolle/) | Für Bewertungsspielraum und Kontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`BHO-Normen und Titelprüfung`](skills/bho-normen-und-titelpruefung/) | Für Bundeshaushaltsordnung, Haushaltstitel und Vollzugsfragen: routet BHO-Norm, Veranschlagung, Sperre… |
@@ -215,7 +215,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`DFG: Kollegen-Review organisieren`](skills/dfg-kollegen-review-organisieren/) | Für DFG: Kollegen-Review organisieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Reinhart-Koselleck-Check`](skills/dfg-koselleck-500k-125m/) | Für Reinhart-Koselleck-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Praeregistrierung und Replikation`](skills/dfg-praeregistrierung-replication-studies/) | Für Präregistrierung und Replikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Projektbeschreibung und Arbeitsprogramm`](skills/dfg-projektbeschreibung-arbeitsprogramm/) | Für Projektbeschreibung und Arbeitsprogramm: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Projektbeschreibung und Arbeitsprogramm`](skills/dfg-projektbeschreibung-arbeitsprogramm/) | Für Projektbeschreibung und Arbeitsprogramm: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Publikationsstrategie Projekt`](skills/dfg-publikationsstrategie-projekt/) | Für Publikationsstrategie Projekt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs… |
 | [`DFG: Statistik nach Replikationskrise`](skills/dfg-replikationskrise-statistik-spezial/) | Für DFG: Statistik nach Replikationskrise: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Reviewer-Red-Team`](skills/dfg-reviewer-red-team/) | Für Reviewer-Red-Team: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis… |
@@ -227,7 +227,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Dienstgericht fuer Richter`](skills/dienstgericht-richter-disziplinar-63-drig/) | Für Dienstgericht für Richter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Amtsaerztliches Gutachten Dienstunfaehigkeit`](skills/dienstunfaehigkeit-amtsaerztliches/) | Für Amtsärztliches Gutachten Dienstunfähigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Dienstunfall — Anerkennung und Meldefristen`](skills/dienstunfall-anerkennung-45-beamtvg/) | Für Dienstunfall — Anerkennung und Meldefristen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`dienstunfall-folgekosten-unfallfuersorge`](skills/dienstunfall-folgekosten-unfallfuersorge/) | Für dienstunfall-folgekosten-unfallfuersorge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Dienstunfall folgekosten unfallfuersorge`](skills/dienstunfall-folgekosten-unfallfuersorge/) | Für dienstunfall-folgekosten-unfallfuersorge: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Dienstvergehen ausser Dienst nach § 47 BeamtStG`](skills/dienstvergehen-ausser-agg-gleichstellung/) | Für Dienstvergehen ausser Dienst nach Paragraf 47 BeamtStG: ordnet Norm, Beweislast und Gegenargument… |
 | [`NKR-Digitaltauglichkeit / Digital-Anschlussfaehigkeit`](skills/digital-anschlussfaehigkeit-digitalcheck/) | Für NKR-Digitaltauglichkeit / Digital-Anschlussfähigkeit: ordnet Norm, Beweislast und Gegenargument… |
 | [`NKR-Digitaltauglichkeit / Digital-Anschlussfaehigkeit`](skills/digital-anschlussfaehigkeit-tauglich/) | Für NKR-Digitaltauglichkeit / Digital-Anschlussfähigkeit: ordnet Norm, Beweislast und Gegenargument… |
@@ -276,7 +276,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Exmatrikulation`](skills/exmatrikulation/) | Für Exmatrikulation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Exmatrikulation wegen Beitragsrückstand`](skills/exmatrikulation-beitragsrueckstand/) | Für Exmatrikulation wegen Beitragsrückstand: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Exmatrikulation Nach Nichtbestehen`](skills/exmatrikulation-nach-nichtbestehen/) | Für Exmatrikulation nach Nichtbestehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Fahrradverkehr und Abstellnutzung abgrenzen`](skills/fahrradverkehr-und-abstellnutzung-abgrenzen/) | Unterscheidet Radfahren, Schieben und gewöhnliches Abstellen von betrieblichen Einrichtungen und… |
+| [`Fahrradverkehr und Abstellnutzung abgrenzen`](skills/fahrradverkehr-und-abstellnutzung-abgrenzen/) | Unterscheidet Radfahren, Schieben und gewöhnliches Abstellen von betrieblichen Einrichtungen und… |
 | [`NKR-Fallzahlen — Schaetzung und Bandbreiten`](skills/fallzahlen-schaetzung-bandbreiten/) | Für NKR-Fallzahlen — Schätzung und Bandbreiten: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Familienzuschlag dritte und weitere Kinder — verfassungsrechtliches Minimum`](skills/familienzuschlag-drittes-kinder/) | Für Familienzuschlag dritte und weitere Kinder — verfassungsrechtliches Minimum: ordnet Norm, Beweislast… |
 | [`Ferienbefreiung und Reise`](skills/ferienbefreiung-reise-foerderausschuss/) | Für Ferienbefreiung und Reise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -298,7 +298,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Fuehrung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/fuehrung-schriftsatz-brief-memo-bausteine/) | Für Führung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Fuehrung: Schriftsatz-, Brief- und Memo-Bausteine`](skills/fuehrung-schriftsatz-brief-und-memo-bausteine/) | Für Führung: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Gastwissenschaftler, Sanktionen und Dual Use`](skills/gastwissenschaftler-sanktionen-dual-use/) | Für Gastwissenschaftler, Sanktionen und Dual Use: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Gehwegparken und behördliches Einschreiten`](skills/gehwegparken-und-behoerdliches-einschreiten/) | Bereitet ein belegtes Einschreitensbegehren gegen erheblich behinderndes Gehwegparken vor und prüft… |
+| [`Gehwegparken und behördliches Einschreiten`](skills/gehwegparken-und-behoerdliches-einschreiten/) | Bereitet ein belegtes Einschreitensbegehren gegen erheblich behinderndes Gehwegparken vor und prüft… |
 | [`Geschäftsverteilung Richter § 21e GVG`](skills/geschaeftsverteilung-richter-21e-gvg/) | Für Geschäftsverteilung Richter Paragraf 21e GVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gewaltschutz und schulischer Schutzplan`](skills/gewaltschutz-und-schulischer-schutzplan/) | Für Gewaltschutz und schulischer Schutzplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`NKR-Gleichstellungs- und Gendercheck`](skills/gleichstellungs-gendercheck-handelsregister/) | Für NKR-Gleichstellungs- und Gendercheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -313,7 +313,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Gute wissenschaftliche Praxis Verfahren`](skills/gute-wissenschaftliche-praxis-verfahren/) | Für Gute wissenschaftliche Praxis Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Gymnasialempfehlung Und Uebergang`](skills/gymnasialempfehlung-uebergang-handyverbot/) | Für Gymnasialempfehlung und Übergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Habilitation`](skills/habilitation-hausrecht-campus-hochschularchiv/) | Für Habilitation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Halten, Parken und Ladeflächen klären`](skills/halten-parken-und-ladeflaechen-klaeren/) | Klärt Halten, Parken und echte Ladetätigkeit anhand von Beschilderung und Ablauf und entwirft nutzbare… |
+| [`Halten, Parken und Ladeflächen klären`](skills/halten-parken-und-ladeflaechen-klaeren/) | Klärt Halten, Parken und echte Ladetätigkeit anhand von Beschilderung und Ablauf und entwirft nutzbare… |
 | [`Speicherstadt und Kontorhausviertel mit Chilehaus als UNESCO-Welterbe`](skills/hamburg-spezial-speicherstadt-kontorhausviertel/) | Für Speicherstadt und Kontorhausviertel mit Chilehaus als UNESCO-Welterbe: ordnet Norm, Beweislast und… |
 | [`NKR-Handelsregister und elektronische Zustellung`](skills/handelsregister-elektronische-zustellung/) | Für NKR-Handelsregister und elektronische Zustellung: ordnet Norm, Beweislast und Gegenargument… |
 | [`NKR-Handelsregister und elektronische Zustellung`](skills/handelsregister-und-elektronische-zustellung/) | Für NKR-Handelsregister und elektronische Zustellung: ordnet Norm, Beweislast und Gegenargument… |
@@ -332,7 +332,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Hochschulrat, Aufsicht und Ministerium`](skills/hochschulrat-aufsicht-ministerium/) | Für Hochschulrat, Aufsicht und Ministerium: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Hochschuldisziplinarrecht`](skills/hochschulrecht-disziplinarverfahren-pruefungsnah/) | Für Hochschuldisziplinarrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Juristischer Argumentationskern - Hochschulrecht Länder`](skills/hochschulrecht-laender-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Hochschulrecht Länder ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. Hochschulrechtlichen Auftrag bearbeiten`](skills/hochschulrecht-laender-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Hochschulrechtlichen Auftrag bearbeiten`](skills/hochschulrecht-laender-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Hochschulwahlen`](skills/hochschulwahlen/) | Für Hochschulwahlen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Ifggebv Gebuehren Widerspruch Bauen`](skills/ifg-053-ifggebv-gebuehren-widerspruch-bauen/) | Für Ifggebv Gebühren Widerspruch Bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Ifggebv Gebuehren Tracking Aktualisier`](skills/ifg-056-ifggebv-gebuehren-tracking-aktualisier/) | Für Ifggebv Gebühren Tracking Aktualisier: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -364,16 +364,16 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Juristischer Argumentationskern - Kommunalrecht Länder`](skills/kommunalrecht-laender-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Kommunalrecht Länder ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Kommunalrecht der Länder - Allgemeiner Einstieg`](skills/kommunalrecht-laender-kaltstart-triage/) | Für Kommunalrecht der Länder - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Konkurrentenklage — einstweiliger Rechtsschutz nach § 123 VwGO`](skills/konkurrentenklage-einstweiliger-rechtsschutz/) | Für Konkurrentenklage — einstweiliger Rechtsschutz nach Paragraf 123 VwGO: erstellt Entwurf mit Antrag… |
-| [`konkurrentenschutz-auswahlvermerk-und-akteneinsicht`](skills/konkurrentenschutz-auswahlvermerk-und-akteneinsicht/) | Für konkurrentenschutz-auswahlvermerk-und-akteneinsicht: ordnet Akte, Belege und Lücken; Ergebnis… |
+| [`Konkurrentenschutz auswahlvermerk und akteneinsicht`](skills/konkurrentenschutz-auswahlvermerk-und-akteneinsicht/) | Für konkurrentenschutz-auswahlvermerk-und-akteneinsicht: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Konkurrentenschutz — Bestenauslese nach Art. 33 Abs. 2 GG`](skills/konkurrentenschutz-bestenauslese-art-richter/) | Prüft beamtenrechtlichen Konkurrentenschutz nach GG Artikel 33 Absatz 2: Anforderungsprofil, dienstliche… |
-| [`konkurrentenschutz-richter-professoren-fuehrungsaemter`](skills/konkurrentenschutz-richter-professoren-fuehrungsaemter/) | Für konkurrentenschutz-richter-professoren-fuehrungsaemter: ordnet Norm, Beweislast und Gegenargument… |
+| [`Konkurrentenschutz richter professoren fuehrungsaemter`](skills/konkurrentenschutz-richter-professoren-fuehrungsaemter/) | Für konkurrentenschutz-richter-professoren-fuehrungsaemter: ordnet Norm, Beweislast und Gegenargument… |
 | [`Konkurrentenstreit Professur`](skills/konkurrentenstreit-professur-kunst/) | Für Konkurrentenstreit Professur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Koselleck: Mehrparteienkonflikt und Interessenmatrix`](skills/koselleck-interessen/) | Für Koselleck: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Koselleck: Mehrparteienkonflikt und Interessenmatrix`](skills/koselleck-mehrparteien-konflikt-und-interessen/) | Für Koselleck: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Krankheit Und Ruecktritt`](skills/krankheit-und-ruecktritt/) | Für Krankheit und Rücktritt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Krankheitsbedingte Urlaubsuebertragung`](skills/krankheitsbedingte-urlaubsuebertragung/) | Für Krankheitsbedingte Urlaubsübertragung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Kunst Und Musikhochschulen`](skills/kunst-und-musikhochschulen/) | Für Kunst und Musikhochschulen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Ladeninhaber und fremde Falschparker abgrenzen`](skills/ladeninhaber-und-fremdparker-abgrenzen/) | Prüft behördliche Pflichten eines Ladeninhabers bei fremden Falschparkern und trennt eigene Hindernisse… |
+| [`Ladeninhaber und fremde Falschparker abgrenzen`](skills/ladeninhaber-und-fremdparker-abgrenzen/) | Prüft behördliche Pflichten eines Ladeninhabers bei fremden Falschparkern und trennt eigene Hindernisse… |
 | [`Landeshochschulgesetz Router`](skills/landeshochschulgesetz-router/) | Für Landeshochschulgesetz Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Landesrecht - 16-Länder-Routenplan`](skills/landesrecht-16-laender-routenplan/) | Für Landesrecht - 16-Länder-Routenplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Landesrecht Router`](skills/landesrecht-lehrmittel-lernmittelfreiheit/) | Für Landesrecht Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -423,7 +423,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Plausibilisierung gleicher Gesamtnoten`](skills/plausibilisierung-gleicher-gesamtnoten/) | Für Plausibilisierung gleicher Gesamtnoten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Politische Maessigungspflicht § 60 BBG`](skills/politische-maessigung-60-bbg/) | Für Politische Mäßigungspflicht Paragraf 60 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Polizei in der Schule`](skills/polizei-in-der-schule/) | Für Polizei in der Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Poller, Sperren und Schlüsselzugang prüfen`](skills/poller-sperren-und-schluesselzugang-pruefen/) | Ordnet Poller und Zufahrtssperren nach Funktion und Rechtsgrundlage ein, prüft Schlüsselzugang und… |
+| [`Poller, Sperren und Schlüsselzugang prüfen`](skills/poller-sperren-und-schluesselzugang-pruefen/) | Ordnet Poller und Zufahrtssperren nach Funktion und Rechtsgrundlage ein, prüft Schlüsselzugang und… |
 | [`Praesidialrat — Mitwirkung bei Richterernennungen`](skills/praesidialrat-mitwirkung-richterernennung/) | Für Präsidialrat — Mitwirkung bei Richterernennungen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Praesidium Rektorat Kanzler`](skills/praesidium-rektorat-kanzler/) | Für Präsidium Rektorat Kanzler: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`NKR-Praktikabilitaet im Vollzug`](skills/praktikabilitaet-vollzug-test/) | Für NKR-Praktikabilität im Vollzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -432,17 +432,17 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Private Hochschule und Anerkennung`](skills/private-hochschule-anerkennung/) | Für Private Hochschule und Anerkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Privatschule Und Ersatzschule`](skills/privatschule-und-ersatzschule/) | Für Privatschule und Ersatzschule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Proctoring Und Videoaufsicht`](skills/proctoring-und-videoaufsicht/) | Für Proctoring und Videoaufsicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-berufung-und-konkurrenz/) | Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen aus Bewerbersicht… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-drittmittel-daten-ip-ethik/) | Prüft Drittmittelprojekte Berliner Professuren auf institutionelle Zuständigkeit, Bewirtschaftung… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-forschungsfreiheit-und-ausstattung/) | Prüft Eingriffe in Forschung, Labor-, Raum-, Personal- und Geräteausstattung Berliner Professuren und… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-gremien-und-befangenheit/) | Prüft die Beteiligungsrechte von Berliner Professorinnen und Professoren sowie Zuständigkeit, Besetzung… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-konflikt-verfahren-und-eilrechtsschutz/) | Führt Berliner Professorenkonflikte vom belegten Verfahrensstand über Akteneinsicht und Fristen zum… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-lehre-deputat-und-pruefung/) | Berechnet und prüft Lehrverpflichtungen, Ermäßigungen und Prüfungsaufgaben Berliner Professuren anhand… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-mandat-zum-ergebnis-fuehren/) | Übergreifender Hauptproblem-Skill für Berliner Professorinnen und Professoren von Akte, Status und… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-nebentaetigkeit-und-publikation/) | Prüft professorale Nebentätigkeiten, wissenschaftliche Veröffentlichungen und öffentliche Äußerungen in… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-promotion-und-nachwuchs/) | Gestaltet Betreuung und klärt professorale Pflichten in Berliner Promotions-, Qualifikations- und… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-rufverhandlung-und-zusagen/) | Gestaltet und prüft Berliner Berufungs- und Bleibezusagen einschließlich Mitteln, Personal, Räumen… |
-| [`1. Zweck und Anwendungsfall`](skills/professur-status-und-dienstpflichten/) | Trennt Beamtenstatus, privatrechtliche Professur, Amtsaufgaben und akademische Bezeichnung im Berliner… |
+| [`Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen…`](skills/professur-berufung-und-konkurrenz/) | Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen aus Bewerbersicht… |
+| [`Prüft Drittmittelprojekte Berliner Professuren auf institutionelle Zuständigkeit…`](skills/professur-drittmittel-daten-ip-ethik/) | Prüft Drittmittelprojekte Berliner Professuren auf institutionelle Zuständigkeit, Bewirtschaftung… |
+| [`Prüft Eingriffe in Forschung, Labor-, Raum-, Personal- und Geräteausstattung Berliner…`](skills/professur-forschungsfreiheit-und-ausstattung/) | Prüft Eingriffe in Forschung, Labor-, Raum-, Personal- und Geräteausstattung Berliner Professuren und… |
+| [`Prüft die Beteiligungsrechte von Berliner Professorinnen und Professoren sowie…`](skills/professur-gremien-und-befangenheit/) | Prüft die Beteiligungsrechte von Berliner Professorinnen und Professoren sowie Zuständigkeit, Besetzung… |
+| [`Führt Berliner Professorenkonflikte vom belegten Verfahrensstand über Akteneinsicht und…`](skills/professur-konflikt-verfahren-und-eilrechtsschutz/) | Führt Berliner Professorenkonflikte vom belegten Verfahrensstand über Akteneinsicht und Fristen zum… |
+| [`Berechnet und prüft Lehrverpflichtungen, Ermäßigungen und Prüfungsaufgaben Berliner…`](skills/professur-lehre-deputat-und-pruefung/) | Berechnet und prüft Lehrverpflichtungen, Ermäßigungen und Prüfungsaufgaben Berliner Professuren anhand… |
+| [`Übergreifender Hauptproblem-Skill für Berliner Professorinnen und Professoren von Akte…`](skills/professur-mandat-zum-ergebnis-fuehren/) | Übergreifender Hauptproblem-Skill für Berliner Professorinnen und Professoren von Akte, Status und… |
+| [`Prüft professorale Nebentätigkeiten, wissenschaftliche Veröffentlichungen und öffentliche…`](skills/professur-nebentaetigkeit-und-publikation/) | Prüft professorale Nebentätigkeiten, wissenschaftliche Veröffentlichungen und öffentliche Äußerungen in… |
+| [`Gestaltet Betreuung und klärt professorale Pflichten in Berliner Promotions…`](skills/professur-promotion-und-nachwuchs/) | Gestaltet Betreuung und klärt professorale Pflichten in Berliner Promotions-, Qualifikations- und… |
+| [`Gestaltet und prüft Berliner Berufungs- und Bleibezusagen einschließlich Mitteln…`](skills/professur-rufverhandlung-und-zusagen/) | Gestaltet und prüft Berliner Berufungs- und Bleibezusagen einschließlich Mitteln, Personal, Räumen… |
+| [`Trennt Beamtenstatus, privatrechtliche Professur, Amtsaufgaben und akademische…`](skills/professur-status-und-dienstpflichten/) | Trennt Beamtenstatus, privatrechtliche Professur, Amtsaufgaben und akademische Bezeichnung im Berliner… |
 | [`Profi: Behörden-, Gerichts- oder Registerweg`](skills/profi-behoerden-gerichts-registerweg/) | Für Profi: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Profi: Behörden-, Gerichts- oder Registerweg`](skills/profi-reviewer-beweislast-strategien/) | Für Profi: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Projektfoerderung Deckung Finden`](skills/projektfoerderung-deckung-finden/) | Für Projektförderung Deckung Finden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -480,7 +480,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Reviewer: Beweislast, Darlegungslast und Substantiierung`](skills/reviewer-beweislast-und-darlegungslast/) | Für Reviewer: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Oberes Mittelrheintal und SchUM-Staetten als UNESCO-Welterbe in Rheinland-Pfalz`](skills/rheinland-pfalz-spezial-mittelrheintal-schum-staetten/) | Für Oberes Mittelrheintal und SchUM-Stätten als UNESCO-Welterbe in Rheinland-Pfalz: ordnet Norm… |
 | [`Prozessuale Kniffe und Rechtsprechungsanker`](skills/richter-verwaltungsgeri-prozessuale-kniffe-und-rechtsprechungsan/) | Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Verwaltungsgerichtsurteil vollständig ausarbeiten`](skills/richter-verwaltungsgericht-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Urteil Verwaltungsgericht): ordnet Norm, Beweislast und… |
+| [`Verwaltungsgerichtsurteil vollständig ausarbeiten`](skills/richter-verwaltungsgericht-99-finale-entscheidung-volltext/) | Für Finale Entscheidung als Volltext (Urteil Verwaltungsgericht): ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - Richter Verwaltungsgericht`](skills/richter-verwaltungsgericht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Richter Verwaltungsgericht ein juristisches Arbeitsprodukt tragfähig… |
 | [`Richteranklage Art. 98 GG`](skills/richteranklage-art-richterbeurteilung/) | Für Richteranklage Art. 98 GG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Richterdienstgericht oder Verwaltungsgericht?`](skills/richterdienstgericht-rechtswegabgrenzung/) | Für Richterdienstgericht oder Verwaltungsgericht?: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
@@ -512,7 +512,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Juristischer Argumentationskern - Schulrecht Länder`](skills/schulrecht-laender-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Schulrecht Länder ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`Allgemein`](skills/schulrecht-laender-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Schulsozialarbeit Jugendamt`](skills/schulsozialarbeit-jugendamt/) | Für Schulsozialarbeit Jugendamt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Schulstraße und Verkehrsanordnung prüfen`](skills/schulstrasse-und-verkehrsanordnung-pruefen/) | Prüft zeitweise Schulstraßen und sonstige Verkehrsmaßnahmen anhand der aktuellen StVO, der tatsächlichen… |
+| [`Schulstraße und Verkehrsanordnung prüfen`](skills/schulstrasse-und-verkehrsanordnung-pruefen/) | Prüft zeitweise Schulstraßen und sonstige Verkehrsmaßnahmen anhand der aktuellen StVO, der tatsächlichen… |
 | [`Schultraeger Gebaeude Und Ausstattung`](skills/schultraeger-gebaeude-und-ausstattung/) | Für Schulträger Gebäude und Ausstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Schulverweis Und Umschulung`](skills/schulverweis-und-umschulung/) | Für Schulverweis und Umschulung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Schulwechsel`](skills/schulwechsel-schulweg-unfall/) | Für Schulwechsel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -524,7 +524,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Semesterticket und Mobilitätsbeitrag`](skills/semesterticket-mobilitaetsbeitrag-senat/) | Für Semesterticket und Mobilitätsbeitrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Senat Fakultaetsrat Gremien`](skills/senat-fakultaetsrat-gremien/) | Für Senat Fakultätsrat Gremien: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Sexualerziehung Und Elterninformation`](skills/sexualerziehung-und-elterninformation/) | Für Sexualerziehung und Elterninformation: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Sondernutzung und Ausnahme abstimmen`](skills/sondernutzung-und-ausnahme-abstimmen/) | Trennt Gemeingebrauch, Sondernutzung und verkehrsrechtliche Ausnahmen, prüft landesrechtliche… |
+| [`Sondernutzung und Ausnahme abstimmen`](skills/sondernutzung-und-ausnahme-abstimmen/) | Trennt Gemeingebrauch, Sondernutzung und verkehrsrechtliche Ausnahmen, prüft landesrechtliche… |
 | [`Grosse: Compliance-Dokumentation und Aktenvermerk`](skills/spezial-grosse-compliance-dokumentation-und-akte/) | Für Große: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Schnelle: Livequellen- und Rechtsprechungscheck`](skills/spezial-schnelle-livequellen-und-rechtsprechungscheck/) | Für Schnelle: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Sportbefreiung Und Gesundheit`](skills/sportbefreiung-gesundheit-sprachfoerderung/) | Für Sportbefreiung und Gesundheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -546,7 +546,7 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Strassenbaulasttraeger Bestimmen`](skills/strassenbaulasttraeger-bestimmen/) | Für Strassenbaulastträger Bestimmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Strassenrecht Infrastruktur`](skills/strassenrecht-infrastruktur-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Strassenrecht Infrastruktur ein juristisches Arbeitsprodukt tragfähig… |
 | [`Straßenrecht und Infrastruktur - Allgemeiner Einstieg`](skills/strassenrecht-infrastruktur-kaltstart-triage/) | Für Straßenrecht und Infrastruktur - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und… |
-| [`1. Straßenstatus, Widmung und Zuständigkeit`](skills/strassenstatus-widmung-und-zustaendigkeit/) | Klärt bei Streit über öffentliche Straßen zuerst Widmung, tatsächliche Verkehrsöffnung, Straßenklasse… |
+| [`Straßenstatus, Widmung und Zuständigkeit`](skills/strassenstatus-widmung-und-zustaendigkeit/) | Klärt bei Streit über öffentliche Straßen zuerst Widmung, tatsächliche Verkehrsöffnung, Straßenklasse… |
 | [`Strategien: Internationaler Bezug und Schnittstellen`](skills/strategien-internationaler-bezug/) | Für Strategien: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Strategien: Internationaler Bezug und Schnittstellen`](skills/strategien-internationaler-bezug-und-schnittstellen/) | Für Strategien: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Studiengang Einstellung`](skills/studiengang-einstellung/) | Für Studiengang Einstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -583,11 +583,11 @@ Jurisdiction: `de` · Practice: `administrative` · Skill language: de
 | [`Versetzung gegen den Willen § 28 BBG`](skills/versetzung-gegen-willen-28-bbg/) | Für Versetzung gegen den Willen Paragraf 28 BBG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Versetzung Und Nachpruefung`](skills/versetzung-nachpruefung-verwaltungsakt/) | Für Versetzung und Nachprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Versorgungsabschlag § 14 Abs. 3 BeamtVG`](skills/versorgungsabschlag-14-beamtvg/) | Für Versorgungsabschlag Paragraf 14 Abs. 3 BeamtVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`versorgungsakte-dokumentenintake-und-berechnung`](skills/versorgungsakte-dokumentenintake/) | Für versorgungsakte-dokumentenintake-und-berechnung: ordnet Akte, Belege und Lücken; Ergebnis… |
+| [`Versorgungsakte dokumentenintake und berechnung`](skills/versorgungsakte-dokumentenintake/) | Für versorgungsakte-dokumentenintake-und-berechnung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Versorgungslastenteilung bei Dienstherrenwechsel`](skills/versorgungslastenteilung-107b-beamtvg/) | Für Versorgungslastenteilung bei Dienstherrenwechsel: ordnet Norm, Beweislast und Gegenargument… |
 | [`Verwaltungsakt Oder Realakt Schule`](skills/verwaltungsakt-oder-realakt-schule/) | Für Verwaltungsakt oder Realakt Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vorlaeufige Dienstenthebung § 38 BDG`](skills/vorlaeufige-dienstenthebung/) | Für Vorläufige Dienstenthebung Paragraf 38 BDG: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`/verwaltungsrecht:vorlaeufiger-rechtsschutz-80`](skills/vorlaeufiger-rechtsschutz-80-borghei/) | Vorläufiger Rechtsschutz gegen Verwaltungsakte nach § 80 VwGO. Aufschiebende Wirkung und ihre Ausnahmen… |
+| [`Vorlaeufiger rechtsschutz 80`](skills/vorlaeufiger-rechtsschutz-80-borghei/) | Vorläufiger Rechtsschutz gegen Verwaltungsakte nach § 80 VwGO. Aufschiebende Wirkung und ihre Ausnahmen… |
 | [`W Besoldung Und Leistungsbezuege`](skills/w-besoldung-zulassung-nc/) | Für W Besoldung und Leistungsbezüge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Waffen, Drogen und Schule`](skills/waffen-drogen-schule/) | Für Waffen, Drogen und Schule: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Widerspruch einfach`](skills/widerspruch-einfach-wohngeld-wohnung/) | Für Widerspruch einfach: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

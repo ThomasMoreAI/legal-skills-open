@@ -24,7 +24,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`CFR, CIF, CPT, CIP: C-Klauseln`](skills/cfr-cif-cpt-cip/) | Für CFR, CIF, CPT, CIP: C-Klauseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`CISG Anwendungsbereich (Art. 1-13)`](skills/cisg-anwendungsbereich/) | Für CISG Anwendungsbereich (Art. 1-13): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`CISG-Ausschluss und Rechtswahl`](skills/cisg-ausschluss-und-rechtswahl/) | Für CISG-Ausschluss und Rechtswahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck und Anwendungsfall`](skills/cisg-deckungskauf-lieferchargen-schaden/) | Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen.… |
+| [`Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften…`](skills/cisg-deckungskauf-lieferchargen-schaden/) | Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen.… |
 | [`Cisg: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/cisg-dokumentenmatrix-und-lueckenliste/) | Für Cisg: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Rechtsbehelfe des Käufers (CISG Art. 45-52)`](skills/cisg-nacherfuellung-remedies-ware-dokumente-i/) | Für Rechtsbehelfe des Käufers (CISG Art. 45-52): ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Fristen und Notices: Untersuchung und Rüge (CISG Art. 38-44)`](skills/cisg-notices-vertragsschluss-wesentliche/) | Für Fristen und Notices: Untersuchung und Rüge (CISG Art. 38-44): ordnet Norm, Beweislast und… |
@@ -83,7 +83,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Grenzüberschreitender Vertragsstreit mit Rechtswahl, Gerichtsstand und Vollstreckung: führt schnell durch Sachverhalt, R`](skills/grenzueberschreitender-vertragsstreit/) | Für Grenzüberschreitender Vertragsstreit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Menschenrechte in der Lieferkette`](skills/human-rights-supply-chain/) | Für Menschenrechte in der Lieferkette: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Icsid Quellenkarte`](skills/icsid-quellenkarte/) | Für Icsid Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Internationalen Handelsauftrag ausarbeiten`](skills/ihl-001-kaltstart-internationaler-handelsfall/) | Für Kaltstart Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Internationalen Handelsauftrag ausarbeiten`](skills/ihl-001-kaltstart-internationaler-handelsfall/) | Für Kaltstart Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`CISG Anwendungsbereich`](skills/ihl-002-cisg-anwendungsbereich/) | Für CISG Anwendungsbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`IP License In Supply Chain`](skills/ihl-069-ip-license-in-supply-chain/) | Für IP License in Supply Chain: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Incoterms 2020 fca Versendungskauf`](skills/incoterms-2020-fca-versendungskauf/) | Für Incoterms 2020 fca Versendungskauf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -96,7 +96,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Streitstandsdarstellung ohne Blindzitate`](skills/internationales-handels-vertiefung-01-streitstand-ohne-blindzita/) | Für Streitstandsdarstellung ohne Blindzitate: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Red-Team: Gegenposition im internationalen Handelstreit`](skills/internationales-handelsrech-vertiefung-01-red-team-gegenposition/) | Für Red-Team: Gegenposition im internationalen Handelstreit: prüft Ergebnis, Beweislast und… |
 | [`Juristischer Argumentationskern - Internationales Handelsrecht Lex Mercatoria`](skills/internationales-handelsrecht-lex-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Internationales Handelsrecht Lex Mercatoria ein juristisches Arbeitsprodukt… |
-| [`1. Internationalen Handelsauftrag einordnen und bearbeiten`](skills/internationales-handelsrecht-lex-mercatoria-kaltstart-triage/) | Für Internationales Handelsrecht und Lex Mercatoria - Allgemeiner Einstieg: routet Rolle, Frist… |
+| [`Internationalen Handelsauftrag einordnen und bearbeiten`](skills/internationales-handelsrecht-lex-mercatoria-kaltstart-triage/) | Für Internationales Handelsrecht und Lex Mercatoria - Allgemeiner Einstieg: routet Rolle, Frist… |
 | [`Internationales: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/internationales-tatbestand-beweis-und-belege/) | Für Internationales: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Investitionsschiedsverfahren mit Unionsbezug prüfen`](skills/intra-eu-investitionsschiedsverfahren-achmea/) | Prüft Investitionsschiedsverfahren mit Unionsbezug nach Achmea, Komstroy und PL Holdings. |
 | [`Prüfraster CISG / UN-Kaufrecht: sachlicher und persönlicher Anwendungsbereich, Vertragsschluss, Lieferpflichten, Pflicht`](skills/intwr-cisg-pruefraster/) | Für Intwr Cisg Prüfraster: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -116,7 +116,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `commercial` · Skill language: 
 | [`Mandant hat Schiedsklausel und will internationales Schiedsverfahren einleiten oder sich verteidigen`](skills/iwr-icc-uncitral-schiedsverfahren/) | Für Iwr Icc Uncitral Schiedsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtswahl und Gerichtsstand in der Praxis: Prüfraster Art`](skills/iwr-rechtswahl-gerichtsstand-praxis/) | Für Rechtswahl und Gerichtsstand in der Praxis: Prüfraster Art: ordnet Norm, Beweislast und… |
 | [`Joint Venture im internationalen Handel`](skills/joint-venture-trade-manufacturing-agreement-oem/) | Für Joint Venture im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Internationalen Handelsfall prüfen`](skills/kaltstart-internationaler-handelsfall/) | Für Kaltstart: Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Internationalen Handelsfall prüfen`](skills/kaltstart-internationaler-handelsfall/) | Für Kaltstart: Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Kanzlei: Internationaler Bezug und Schnittstellen`](skills/kanzlei-internationaler-bezug-und-schnittstellen/) | Für Kanzlei: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Konnossement und Seefrachtbrief`](skills/konnossement-und-seefrachtbrief/) | Für Konnossement und Seefrachtbrief: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Lager- und Zolllager`](skills/lager-zolllager-transportversicherung/) | Für Lager- und Zolllager: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |

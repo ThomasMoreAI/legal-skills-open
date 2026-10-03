@@ -1,6 +1,6 @@
 ---
 name: costa-rica-hacienda
-title: costa-rica-hacienda
+title: 'Costa rica hacienda'
 description: 'Look up Costa Rican companies and taxpayers for free by cedula juridica via the Ministerio de Hacienda public JSON endpoint (api.hacienda.go.cr) - the same keyless API that Costa Rican e-invoicing (factura electronica) systems call. Returns the registered nombre (legal name), regimen tributario, tax standing (moroso / omiso / estado), administracion tributaria, and the actividades[] economic-activity list with CIIU-derived codes. Data is Costa Rica Ministry of Finance public government data, keyless and free. Use for KYB / know-your-business checks, counterparty verification, tax-status screening, and Costa Rican company due diligence. Trigger on: ''cedula juridica'', ''Costa Rica company lookup'', ''check a Costa Rican company'', ''Hacienda'', ''situacion tributaria'', ''is this Costa Rica company active'', ''moroso'', ''omiso'', ''Costa Rican taxpayer'', ''consulta cedula juridica''. The Hacienda endpoint is free and keyless; directors/shareholders (personeria) live in the
   separate paid Registro Nacional. For jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14

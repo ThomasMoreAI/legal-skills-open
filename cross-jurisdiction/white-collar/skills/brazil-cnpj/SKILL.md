@@ -1,6 +1,6 @@
 ---
 name: brazil-cnpj
-title: brazil-cnpj
+title: 'Brazil cnpj'
 description: 'Look up Brazilian companies for free via public open-data CNPJ APIs (BrasilAPI, minhareceita.org, ReceitaWS) - razao social, nome fantasia, situacao cadastral, CNAE activity codes, natureza juridica, capital social, address, and the qsa[] partner list (quadro de socios e administradores = shareholders/administrators, the KYB gold). Data is Receita Federal public open data, keyless and free. Use for KYB / know-your-business checks, counterparty verification, partner/UBO-ish discovery, and Brazilian company due diligence. Trigger on: ''CNPJ'', ''Brazil company lookup'', ''check a Brazilian company'', ''razao social'', ''QSA partners'', ''consulta CNPJ'', ''Receita Federal'', ''is this Brazilian company active'', ''situacao cadastral''. The CNPJ APIs are free and keyless; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/brazil-cnpj

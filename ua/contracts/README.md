@@ -8,8 +8,8 @@ Jurisdiction: `ua` · Practice: `contracts` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`law-ua-reviewing-b2b-service-contract`](skills/reviewing-b2b-service-contract/) | Use when auditing a Ukrainian B2B service contract (договір про надання послуг / рамковий договір /… |
-| [`law-ua-reviewing-vehicle-contract`](skills/reviewing-vehicle-contract-crankshift/) | Use when auditing a Ukrainian vehicle sale contract (ДКП ТЗ) — VIN / пробіг, title chain, обтяження (ЄДР… |
+| [`Law UA reviewing b2b service contract`](skills/reviewing-b2b-service-contract/) | Use when auditing a Ukrainian B2B service contract (договір про надання послуг / рамковий договір /… |
+| [`Law UA reviewing vehicle contract`](skills/reviewing-vehicle-contract-crankshift/) | Use when auditing a Ukrainian vehicle sale contract (ДКП ТЗ) — VIN / пробіг, title chain, обтяження (ЄДР… |
 
 ## Cold-start context
 

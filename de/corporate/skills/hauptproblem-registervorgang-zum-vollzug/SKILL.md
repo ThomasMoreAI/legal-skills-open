@@ -1,6 +1,6 @@
 ---
 name: hauptproblem-registervorgang-zum-vollzug
-title: '1. Hauptproblem: Registervorgang vom Befund zum Vollzug'
+title: 'Hauptproblem: Registervorgang vom Befund zum Vollzug'
 description: Führt einen unklaren oder stockenden Registervorgang vom Dokumentenbefund über die passende Anmeldung oder Antwort bis zum nachgewiesenen Vollzugsstand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/hauptproblem-registervorgang-zum-vollzug

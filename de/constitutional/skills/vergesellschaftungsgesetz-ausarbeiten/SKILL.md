@@ -1,6 +1,6 @@
 ---
 name: vergesellschaftungsgesetz-ausarbeiten
-title: 1. Zweck und Anwendungsfall
+title: 'Formuliert einen konkreten Artikel-15-Gesetzentwurf mit Übertragungsgegenständen…'
 description: Formuliert einen konkreten Artikel-15-Gesetzentwurf mit Übertragungsgegenständen, gemeinwirtschaftlicher Zweckbindung, Entschädigung, Übergang und Einzelbegründung. Nutzt vorhandene Aktenfassungen und Kompetenzprüfung; ersetzt keine fehlende politische Grundentscheidung durch erfundene Tatsachen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/vergesellschaftungsgesetz-ausarbeiten

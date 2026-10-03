@@ -1,11 +1,11 @@
 ---
 name: bodacc-watch-thewatcher01
-title: bodacc-watch
+title: 'Bodacc watch'
 description: 'Monitor BODACC (Bulletin Officiel des Annonces Civiles et Commerciales) for business signals: company creations, modifications, insolvency proceedings, sales. Use when the user asks about recent commercial announcements for a company or a territory.'
 author: TheWatcher01
 author_url: https://github.com/TheWatcher01/skills/tree/main/.claude/skills/bodacc-watch
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: bankruptcy

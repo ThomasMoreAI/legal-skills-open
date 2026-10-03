@@ -1,6 +1,6 @@
 ---
 name: regimen-economico
-title: /regimen-economico
+title: 'Regimen economico'
 description: Analiza el régimen económico matrimonial aplicable a una pareja, considerando vecindad civil, capitulaciones matrimoniales y derechos forales. Determina las consecuencias para la liquidación patrimonial. Usar cuando el usuario dice "qué régimen económico aplica", "liquidación de gananciales", "separación de bienes", "régimen foral", o necesita determinar el régimen antes de un divorcio o liquidación.
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/familia/skills/regimen-economico

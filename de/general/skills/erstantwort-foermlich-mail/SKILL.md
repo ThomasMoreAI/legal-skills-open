@@ -1,6 +1,6 @@
 ---
 name: erstantwort-foermlich-mail
-title: 1. Förmliche Erstantwort verfassen
+title: 'Förmliche Erstantwort verfassen'
 description: 'Für Erstantwort: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/erstantwort-foermlich-mail

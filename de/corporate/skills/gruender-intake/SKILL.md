@@ -1,6 +1,6 @@
 ---
 name: gruender-intake
-title: 1. Gründungsvorhaben aus den Unterlagen klären
+title: 'Gründungsvorhaben aus den Unterlagen klären'
 description: 'Für Gründer-Intake: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsgruender/skills/gruender-intake

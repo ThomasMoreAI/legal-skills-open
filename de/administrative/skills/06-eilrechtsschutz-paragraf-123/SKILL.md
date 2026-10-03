@@ -1,6 +1,6 @@
 ---
 name: 06-eilrechtsschutz-paragraf-123
-title: 1. Einstweilige Anordnung nach Paragraf 123 VwGO
+title: 'Einstweilige Anordnung nach Paragraf 123 VwGO'
 description: 'Bereitet einen Eilbeschluss nach Paragraf 123 VwGO vor: Anspruch, Dringlichkeit, Vorwegnahme, konkrete Glaubhaftmachung und begrenzter vollziehbarer Tenor.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-verwaltungsgericht/skills/06-eilrechtsschutz-paragraf-123

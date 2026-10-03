@@ -1,6 +1,6 @@
 ---
 name: professur-forschungsfreiheit-und-ausstattung
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Eingriffe in Forschung, Labor-, Raum-, Personal- und Geräteausstattung Berliner…'
 description: Prüft Eingriffe in Forschung, Labor-, Raum-, Personal- und Geräteausstattung Berliner Professuren und entwickelt einen belegten Umsetzungs- oder Sicherungsantrag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-forschungsfreiheit-und-ausstattung

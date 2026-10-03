@@ -1,6 +1,6 @@
 ---
 name: recherchebericht-erstellen
-title: recherchebericht-erstellen
+title: 'Recherchebericht erstellen'
 description: 'Für recherchebericht-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/recherchebericht-erstellen

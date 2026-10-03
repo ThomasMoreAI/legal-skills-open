@@ -1,11 +1,11 @@
 ---
 name: ai-inventory-bossmann007
-title: /ai-inventory
+title: 'AI inventory'
 description: Inventário de sistemas de IA por sistema (framework brasileiro) — rastreia o papel de cada sistema (fornecedor/desenvolvedor, operador/implementador, distribuidor) e o nível de risco (risco excessivo/proibido, alto risco, risco geral) sob o PL 2338/2023 e a sobreposição da LGPD (Art. 20 — decisão automatizada). Papel e nível são avaliados por sistema, não por empresa. Use quando o usuário disser "inventário de IA", "adicionar sistema de IA", "que sistemas temos", "classificar este sistema de IA", "registro do PL 2338" ou "registro de sistemas de IA".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ai-governance-legal/skills/ai-inventory
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: regulatory

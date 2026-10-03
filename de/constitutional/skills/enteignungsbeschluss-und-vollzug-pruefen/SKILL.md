@@ -1,6 +1,6 @@
 ---
 name: enteignungsbeschluss-und-vollzug-pruefen
-title: 1. Zweck
+title: 'Prüft Enteignungsbeschluss, Vorabentscheidung und Ausführungsanordnung nach dem BauGB auf…'
 description: Prüft Enteignungsbeschluss, Vorabentscheidung und Ausführungsanordnung nach dem BauGB auf Gegenstand, Rechte, Zahlung und Vollzugszeitpunkt. Erstellt eine konkrete Beanstandung oder ein Vollzugsanschreiben, ohne Beschlusszustellung mit Eigentumsübergang gleichzusetzen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/enteignungsbeschluss-und-vollzug-pruefen

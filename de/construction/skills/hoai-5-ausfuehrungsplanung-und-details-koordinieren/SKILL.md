@@ -1,6 +1,6 @@
 ---
 name: hoai-5-ausfuehrungsplanung-und-details-koordinieren
-title: 1. Ausführungsdetails koordinieren und den gültigen Planstand herstellen
+title: 'Ausführungsdetails koordinieren und den gültigen Planstand herstellen'
 description: Koordiniert die Gebäude-Ausführungsplanung nach HOAI-Leistungsphase 5 mit vermaßten Details, Fachplanerkollisionen, Revisionen und Montageplanabgleichen bis zum abgestimmten Planpaket mit offenen Fachprüfungen. Für phasenweite Planungsarbeit, nicht für einzelne Rechnungen, Mängelanzeigen oder bloße Dateisortierung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-5-ausfuehrungsplanung-und-details-koordinieren

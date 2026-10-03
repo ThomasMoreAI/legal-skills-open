@@ -1,6 +1,6 @@
 ---
 name: 01-zustaendigkeit-und-zuteilung-familiensache
-title: 1. Familiensache einordnen und Eingangsverfügung vorbereiten
+title: 'Familiensache einordnen und Eingangsverfügung vorbereiten'
 description: 'Für 01 Zuständigkeit und Zuteilung Familiensache: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-familiengericht/skills/01-zustaendigkeit-und-zuteilung-familiensache

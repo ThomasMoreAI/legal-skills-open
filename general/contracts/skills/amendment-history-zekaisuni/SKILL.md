@@ -1,11 +1,11 @@
 ---
 name: amendment-history-zekaisuni
-title: /amendment-history
+title: 'Amendment history'
 description: Trace how a contract has changed across its base agreement and all amendments, ek protokoller, zeyilnameler, and related variation documents. Produces either a chronological summary of all changes or a provision trace for a specific clause while preserving the original skill function.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/commercial-legal/skills/amendment-history
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

@@ -1,11 +1,11 @@
 ---
 name: lithuania-company-registry-nolpak14
-title: lithuania-company-registry
+title: 'Lithuania company registry'
 description: 'Look up Lithuanian companies for free via the official Register of Legal Entities (Juridiniu asmenu registras / JAR), operated by Registru centras and published as keyless open data on data.gov.lt - company profile, company code (imones kodas / ja_kodas), legal form, registered address, registration and deregistration dates, management bodies, capital, and financial statements. Use for KYB / know-your-business checks, counterparty verification, director discovery, and Lithuanian company due diligence. Trigger on: ''Lithuania company lookup'', ''JAR'', ''Juridiniu asmenu registras'', ''Registru centras'', ''imones kodas'', ''Lithuanian company code'', ''check a Lithuanian company'', ''Lithuanian directors'', ''is this Lithuanian company deregistered''. The Lithuania data is free and keyless; VAT/PVM is not in JAR (use vies-vat-validation); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/lithuania-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: lt
 practice: corporate

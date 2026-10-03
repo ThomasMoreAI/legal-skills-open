@@ -1,6 +1,6 @@
 ---
 name: urkundenmappe-zur-freigabe
-title: 1. Entwurfsmappe an den Notar übergeben
+title: 'Entwurfsmappe an den Notar übergeben'
 description: 'Prüft eine vorbereitete Notariatsmappe vor Vorlage an den Notar: Fassungen, Beteiligte, Formwege, Anlagen, Kapital- und Grundstücksdaten, Unterschriftsfelder sowie elektronische Einreichungsunterlagen. Kennzeichnet offene Freigaben statt Amtshandlungen zu fingieren.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/urkundenmappe-zur-freigabe

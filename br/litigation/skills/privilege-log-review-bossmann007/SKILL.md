@@ -1,11 +1,11 @@
 ---
 name: privilege-log-review-bossmann007
-title: /privilege-log-review
+title: 'Privilege log review'
 description: First-pass review of a justificativa de recusa de exibição de documento sob sigilo profissional (CPC art. 404; Estatuto da OAB art. 7º, XIX) — the Brazilian analog to a US privilege log, since Brazil has no broad discovery obligation to catalog withheld documents. Makes the obvious privilege calls and flags the hard ones for attorney review without making close calls. Use when the user says "revisa a justificativa de recusa de exibição", "recusa por sigilo profissional", "check privilege/sigilo on these docs", or has a set of refusals to QA before responding to an order for exibição.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/privilege-log-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

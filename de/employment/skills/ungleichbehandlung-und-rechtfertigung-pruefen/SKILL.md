@@ -1,6 +1,6 @@
 ---
 name: ungleichbehandlung-und-rechtfertigung-pruefen
-title: 1. Rechtfertigung konkret prüfen
+title: 'Rechtfertigung konkret prüfen'
 description: Prüft betriebliche Anforderungen und Ausnahmen vom Benachteiligungsverbot. Unterscheidet unmittelbare und mittelbare Benachteiligung, verlangt konkrete Zwecke und Nachweise und entwickelt mildere Alternativen zu pauschalen Auswahl- oder Neutralitätsregeln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/ungleichbehandlung-und-rechtfertigung-pruefen

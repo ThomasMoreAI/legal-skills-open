@@ -8,8 +8,8 @@ Jurisdiction: `gb` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`companies-house-uk`](skills/companies-house-uk-nolpak14/) | Look up UK companies for free via the official Companies House public REST API - company profile… |
-| [`corporate-registry-investigation`](skills/corporate-registry-investigation/) | Use when users say "Companies House search", "investigate this UK company", "check… |
+| [`Companies house UK`](skills/companies-house-uk-nolpak14/) | Look up UK companies for free via the official Companies House public REST API - company profile… |
+| [`Corporate registry investigation`](skills/corporate-registry-investigation/) | Use when users say "Companies House search", "investigate this UK company", "check… |
 | [`/slo-equity — UK equity advisor + cofounder-split / vesting / cap-table drafter`](skills/slo-equity/) | Use this skill when a UK seed-stage founder needs first-cut equity artifacts (cofounder split rationale… |
 | [`UK Companies Act Compliance Checker`](skills/uk-companies-act-compliance-checker-rohasnagpal/) | Checks Companies Act and related UK corporate compliance for an identified company, transaction and… |
 

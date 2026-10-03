@@ -1,6 +1,6 @@
 ---
 name: indizien-und-vergleichsfaelle-pruefen
-title: 1. Indizien und Gegenbeweise prüfen
+title: 'Indizien und Gegenbeweise prüfen'
 description: Ordnet Anzeigen, Nachrichten, Aussagen und Vergleichsfälle dem Indizienbeweis nach Paragraf 22 AGG zu. Trennt beweisbare Tatsachen von Vermutungen, prüft alternative Gründe und entwickelt konkrete Beweisantritte ohne Stereotype oder unerlaubte Beweissuche.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/indizien-und-vergleichsfaelle-pruefen

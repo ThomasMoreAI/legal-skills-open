@@ -17,7 +17,7 @@ Jurisdiction: `de` · Practice: `insurance` · Skill language: de
 | [`BU: abstrakte und konkrete Verweisung`](skills/bu-abstrakte-konkrete-verweisung/) | Für BU: abstrakte und konkrete Verweisung: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`BU: Berufsbild und 50-Prozent-Prüfung`](skills/bu-berufsbild-bu-nachpruefung-datenschutz/) | Für BU: Berufsbild und 50-Prozent-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`BU: Anerkenntnis, Nachprüfung, Leistungseinstellung`](skills/bu-nachpruefung-anerkenntnis-leistungseinstellung/) | Für BU: Anerkenntnis, Nachprüfung, Leistungseinstellung: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Zweck und Anwendungsfall`](skills/bu-praegende-taetigkeiten-befundabgleich/) | Rekonstruiert den zuletzt gesund ausgeübten Beruf und verknüpft prägende Arbeitsvorgänge mit… |
+| [`Rekonstruiert den zuletzt gesund ausgeübten Beruf und verknüpft prägende Arbeitsvorgänge…`](skills/bu-praegende-taetigkeiten-befundabgleich/) | Rekonstruiert den zuletzt gesund ausgeübten Beruf und verknüpft prägende Arbeitsvorgänge mit… |
 | [`Cyber-Versicherung bei Ransomware mit Sanktionsrisiko und Geldwäscherecht`](skills/cyber-loesegeld-sanktionsrecht/) | Für Cyber-Versicherung bei Ransomware mit Sanktionsrisiko und Geldwäscherecht: ordnet Norm, Beweislast… |
 | [`Cyberversicherung: Ransomware, DORA, Sanktionen`](skills/cyberversicherung-ransomware-d-o/) | Für Cyberversicherung: Ransomware, DORA, Sanktionen: ordnet Norm, Beweislast und Gegenargument… |
 | [`D&O: Claims-made, Innenhaftung und Organstreit`](skills/d-o-claims-made-innenhaftung-43-gmbhg/) | Für D&O: Claims-made, Innenhaftung und Organstreit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

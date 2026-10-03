@@ -1,6 +1,6 @@
 ---
 name: erbfolge-und-grundbuchberichtigung
-title: 1. Zweck und Anwendungsfall
+title: 'Erbnachweise, nicht benannte Abkömmlinge, Nacherbfolge und Berichtigung bis zum Antrag…'
 description: Erbnachweise, nicht benannte Abkömmlinge, Nacherbfolge und Berichtigung bis zum Antrag oder Nachforderungsschreiben führen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/erbfolge-und-grundbuchberichtigung

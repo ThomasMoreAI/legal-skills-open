@@ -1,6 +1,6 @@
 ---
 name: verhandlungsfassung-und-unterschriftenmappe-fertigstelle
-title: 1. Verhandlungsfassung und Unterschriftenmappe fertigstellen
+title: 'Verhandlungsfassung und Unterschriftenmappe fertigstellen'
 description: Erstellt aus belegten Verhandlungsständen Gegenfassung, Antwort und konsistente Unterschriftenunterlagen, ohne Einigung, Freigabe, Vollmacht oder Unterschrift zu fingieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/verhandlungsfassung-und-unterschriftenmappe-fertigstellen

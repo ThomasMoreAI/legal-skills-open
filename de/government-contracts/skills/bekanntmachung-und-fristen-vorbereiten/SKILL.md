@@ -1,6 +1,6 @@
 ---
 name: bekanntmachung-und-fristen-vorbereiten
-title: 1. Bekanntmachung und Fristen vorbereiten
+title: 'Bekanntmachung und Fristen vorbereiten'
 description: Bereitet SektVO-Bekanntmachung, eForms-Daten und Fristenplan aus freigegebenen Vergabeunterlagen vor. Prüft Verfahrensart, Unterlagenzugang und Veröffentlichungsnachweise; ein Entwurf wird nicht als tatsächlich veröffentlicht ausgegeben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/bekanntmachung-und-fristen-vorbereiten

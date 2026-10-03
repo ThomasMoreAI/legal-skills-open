@@ -1,6 +1,6 @@
 ---
 name: idw-s6-integrierte-sanierungsplanung
-title: 1. Integrierte Sanierungsplanung
+title: 'Integrierte Sanierungsplanung'
 description: 'Für Integrierte Sanierungsplanung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/idw-s6-integrierte-sanierungsplanung

@@ -1,6 +1,6 @@
 ---
 name: eu-ted-procurement
-title: eu-ted-procurement
+title: 'EU ted procurement'
 description: 'Search EU public-procurement notices for free via the official TED (Tenders Electronic Daily) Search API - find who won an EU public contract, which above-threshold tenders a company has been awarded, contract-award notices with the winning contractor + value, and open tenders by CPV code, buyer, or country. Use for KYB / due-diligence credibility signals (which EU public contracts has this company won) and for government-buyer lead generation. Trigger on: ''EU tenders'', ''TED'', ''Tenders Electronic Daily'', ''public procurement'', ''contract awards'', ''who won an EU contract'', ''EU public contract search'', ''find government tenders'', ''contract-award notice'', ''which tenders did this company win'', ''CPV code search''. TED is free and keyless for published notices; to resolve the winning company it routes to the free registry skills and the paid regdata actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/eu-ted-procurement

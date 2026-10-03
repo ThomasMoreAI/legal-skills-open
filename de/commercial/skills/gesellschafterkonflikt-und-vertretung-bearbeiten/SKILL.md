@@ -1,6 +1,6 @@
 ---
 name: gesellschafterkonflikt-und-vertretung-bearbeiten
-title: 1. Handlungsfähigkeit der Gesellschaft im Gesellschafterkonflikt sichern
+title: 'Handlungsfähigkeit der Gesellschaft im Gesellschafterkonflikt sichern'
 description: Bearbeitet einen Gesellschafterkonflikt aus Sicht der laufend beratenen Gesellschaft bis zur Einladung, Beschlussvorlage, Vertretungsregelung oder Auskunftsantwort. Trennt Gesellschaftsinteresse, persönliche Organinteressen, interne Zustimmung und Außenvertretung; keine pauschale Vertretung sämtlicher Beteiligter.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/gesellschafterkonflikt-und-vertretung-bearbeiten

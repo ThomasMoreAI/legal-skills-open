@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-migrationsrecht-anschluss-routing
-title: 1. Anschluss-Routing im Migrationsrecht
+title: 'Anschluss-Routing im Migrationsrecht'
 description: Leitet eine begonnene Migrationsakte anhand von Status, Stichtag, Frist und Ziel in den passenden Fachskill weiter.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/anschluss-routing

@@ -1,6 +1,6 @@
 ---
 name: versammlung-rechtsschutz-und-nachbereitung
-title: 1. Rechtsschutz und Nachbereitung führen
+title: 'Rechtsschutz und Nachbereitung führen'
 description: Erstellen Sie Widerspruch, Eilantrag oder Nachbereitungsantrag im Berliner Versammlungsmandat mit gesicherter Frist, passendem Antrag und Belegen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-rechtsschutz-und-nachbereitung

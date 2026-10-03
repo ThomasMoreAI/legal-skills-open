@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-22
-title: /cold-start-interview
+title: 'Cold start interview'
 description: 'Türkiye regulatory setup görüşmesi: izlenen kurumları, kaynakları, önem eşiğini, politika kütüphanesini, gap response ve taslak/görüş takip ayarlarını kurar.'
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/cold-start-interview

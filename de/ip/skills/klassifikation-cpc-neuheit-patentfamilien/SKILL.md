@@ -1,6 +1,6 @@
 ---
 name: klassifikation-cpc-neuheit-patentfamilien
-title: klassifikation-cpc-ipc
+title: 'Klassifikation cpc ipc'
 description: 'Für klassifikation-cpc-ipc: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/klassifikation-cpc-neuheit-patentfamilien

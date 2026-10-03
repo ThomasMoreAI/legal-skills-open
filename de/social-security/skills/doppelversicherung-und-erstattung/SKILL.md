@@ -1,6 +1,6 @@
 ---
 name: doppelversicherung-und-erstattung
-title: doppelversicherung-und-erstattung
+title: 'Doppelversicherung und erstattung'
 description: 'Für doppelversicherung-und-erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rentenpruefer/skills/doppelversicherung-und-erstattung

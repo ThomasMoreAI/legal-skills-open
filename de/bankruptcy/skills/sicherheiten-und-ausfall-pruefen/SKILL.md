@@ -1,6 +1,6 @@
 ---
 name: sicherheiten-und-ausfall-pruefen
-title: 1. Sicherheiten und Ausfall prüfen
+title: 'Sicherheiten und Ausfall prüfen'
 description: Prüft Eigentumsvorbehalt, Pfandrechte, Sicherungsübereignung und Sicherungsabtretung. Trennt Herausgabe, persönliche Forderung und Absonderung sowie deren Verwertung und spätere Ausfallberücksichtigung, ohne geschätzte Erlöse sofort vom Tabellenbetrag abzuziehen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/sicherheiten-und-ausfall-pruefen

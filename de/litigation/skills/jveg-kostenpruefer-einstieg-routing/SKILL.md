@@ -1,6 +1,6 @@
 ---
 name: jveg-kostenpruefer-einstieg-routing
-title: 1. JVEG-Anspruch prüfen und ausarbeiten
+title: 'JVEG-Anspruch prüfen und ausarbeiten'
 description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: JVEG-Kostenprüfer.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jveg-kostenpruefer/skills/einstieg-routing

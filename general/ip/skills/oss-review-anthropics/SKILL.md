@@ -1,11 +1,11 @@
 ---
 name: oss-review-anthropics
-title: /oss-review
+title: 'OSS review'
 description: Open source license compliance check for a dependency list, a single library, or outbound code. Use when reviewing a manifest, SBOM, or repo for copyleft obligations and license compatibility, when asked whether a library can ship, or when preparing code to be open-sourced.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ip-legal/skills/oss-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

@@ -1,6 +1,6 @@
 ---
 name: vertragsaenderung-und-nachtrag-erstellen
-title: 1. Vertragsänderung und Nachtrag erstellen
+title: 'Vertragsänderung und Nachtrag erstellen'
 description: Erstellt gezielte Nachträge zu bestehenden Wirtschaftsverträgen mit eindeutigem Änderungsumfang, Wirksamkeit, Kostenfolgen und Fortgeltung unveränderter Regelungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/vertragsaenderung-und-nachtrag-erstellen

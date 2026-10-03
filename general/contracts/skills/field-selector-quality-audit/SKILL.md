@@ -1,6 +1,6 @@
 ---
 name: field-selector-quality-audit
-title: field-selector-quality-audit
+title: 'Field selector quality audit'
 description: 'Audit NVCA field-selector quality: check file inventory, metadata schema, field-to-replacement coverage, ambiguous keys, smart quotes, test fixtures, and fill quality. Produces a structured scorecard per field-selector with maturity tier classification. Use when user says "audit field-selector quality," "check field-selector coverage," "field-selector scorecard," or "NVCA field-selector quality."'
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/internal/field-selector-quality-audit

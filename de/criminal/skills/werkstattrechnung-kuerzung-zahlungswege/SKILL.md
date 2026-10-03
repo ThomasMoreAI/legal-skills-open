@@ -1,6 +1,6 @@
 ---
 name: werkstattrechnung-kuerzung-zahlungswege
-title: 1. Zweck und Anwendungsfall
+title: 'Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und…'
 description: Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und bestimmt für jede Restposition Beweisbedarf und Zahlungsempfänger. Für konkrete Reparaturabrechnung mit Werkstattrisiko, nicht für fiktiven Totalschaden oder Kaskodeckung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/werkstattrechnung-kuerzung-zahlungswege

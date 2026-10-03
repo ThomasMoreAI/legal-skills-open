@@ -1,6 +1,6 @@
 ---
 name: vertretung-und-registerpublizitaet
-title: 1. Vertretung zum richtigen Zeitpunkt
+title: 'Vertretung zum richtigen Zeitpunkt'
 description: Prüft organschaftliche Vertretung, Prokura und Registerpublizität anhand eines konkreten Geschäfts und erstellt einen belastbaren Vertretungsvermerk.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/vertretung-und-registerpublizitaet

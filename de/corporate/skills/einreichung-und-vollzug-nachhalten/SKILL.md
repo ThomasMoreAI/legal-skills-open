@@ -1,6 +1,6 @@
 ---
 name: einreichung-und-vollzug-nachhalten
-title: 1. Einreichung vorbereiten und Vollzug nachhalten
+title: 'Einreichung vorbereiten und Vollzug nachhalten'
 description: Stellt Anmeldung und Anlagen versandfertig zusammen, prüft Notariats- und Zugangsvoraussetzungen und dokumentiert belegten Eingang und Eintragungsstand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/einreichung-und-vollzug-nachhalten

@@ -1,11 +1,11 @@
 ---
 name: mexico-denue-nolpak14
-title: mexico-denue
+title: 'Mexico denue'
 description: 'Look up Mexican companies for free via the official INEGI DENUE API (Directorio Estadistico Nacional de Unidades Economicas) - ~5M business establishments with razon social, nombre comercial, class of activity, employee-size band, full address, telefono, correo, sitio internet, and geolocation. Use for company existence + contact + activity verification, and Mexican B2B lead-gen. Trigger on: ''DENUE'', ''INEGI'', ''Mexico company lookup'', ''check a Mexican company'', ''razon social'', ''Mexican business directory'', ''empresas Mexico'', ''directorio de empresas'', ''is this Mexican company real''. Note: DENUE is a business DIRECTORY, not a legal register - no RFC, no incorporation status. Mexico has no unified free national company register; for legal/UBO KYB this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/mexico-denue
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: mx
 practice: corporate

@@ -1,6 +1,6 @@
 ---
 name: searching-edrsr
-title: law-ua-searching-edrsr
+title: 'Law UA searching edrsr'
 description: Use when searching Ukrainian court decisions in the Unified State Register of Court Decisions (ЄДРСР, reyestr.court.gov.ua), verifying case citations, retrieving rulings by case number, locating judicial practice on a specific legal issue, or checking the fate of a lower-court decision on appeal
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-searching-edrsr

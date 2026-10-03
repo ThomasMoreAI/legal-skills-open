@@ -1,6 +1,6 @@
 ---
 name: betrieb-raeume-nutzung-und-sondernutzung
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Betriebsräume, Nutzungsänderungen, Außengastronomie und Sondernutzung'
 description: Prüft Berliner Betriebsräume, Nutzungsänderungen, Außengastronomie und Sondernutzung. Erstellt die konkrete Bau- oder Straßenanfrage und trennt Mietrecht, Bestandsunterlagen und öffentlich-rechtliche Zulässigkeit.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-raeume-nutzung-und-sondernutzung

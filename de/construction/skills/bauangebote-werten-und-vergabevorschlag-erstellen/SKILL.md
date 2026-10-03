@@ -1,6 +1,6 @@
 ---
 name: bauangebote-werten-und-vergabevorschlag-erstellen
-title: 1. Bauangebote vergleichbar werten und Vergabeentscheidung vorbereiten
+title: 'Bauangebote vergleichbar werten und Vergabeentscheidung vorbereiten'
 description: Erstellt Preisspiegel und begründeten Vergabevorschlag aus Bauangeboten, festgelegten Kriterien und zulässigen Aufklärungen. Trennt Eignung, Angebotsinhalt und Zuschlagswertung; keine nachträglich erfundenen Gewichte oder automatische Billigstvergabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bauangebote-werten-und-vergabevorschlag-erstellen

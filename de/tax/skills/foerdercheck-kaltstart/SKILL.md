@@ -1,6 +1,6 @@
 ---
 name: foerdercheck-kaltstart
-title: 1. Forschungszulage fachlich und wirtschaftlich einschätzen
+title: 'Forschungszulage fachlich und wirtschaftlich einschätzen'
 description: 'Für Fördercheck Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forschungszulage-antragstellung/skills/foerdercheck-kaltstart

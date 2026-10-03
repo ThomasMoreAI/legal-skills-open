@@ -1,6 +1,6 @@
 ---
 name: asog-identitaet-befragung-und-ed
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft konkrete Berliner Personalienkontrollen, Befragungen, Vorladungen und…'
 description: Prüft konkrete Berliner Personalienkontrollen, Befragungen, Vorladungen und erkennungsdienstliche Maßnahmen aus Sicht der betroffenen Person.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-identitaet-befragung-und-ed

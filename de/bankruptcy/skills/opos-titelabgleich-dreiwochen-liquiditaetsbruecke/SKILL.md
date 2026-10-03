@@ -1,6 +1,6 @@
 ---
 name: opos-titelabgleich-dreiwochen-liquiditaetsbruecke
-title: 1. Zweck und Anwendungsfall
+title: 'Überführt offene Posten, streitige Vollstreckungstitel und Bankbewegungen in eine…'
 description: Überführt offene Posten, streitige Vollstreckungstitel und Bankbewegungen in eine abgestimmte Dreiwochen-Liquiditätsbrücke mit neuen Fälligkeiten. Für widersprüchliche Krisendaten und konkrete Statuskorrekturen, nicht für Insolvenzplan oder Forderungsanmeldung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/opos-titelabgleich-dreiwochen-liquiditaetsbruecke

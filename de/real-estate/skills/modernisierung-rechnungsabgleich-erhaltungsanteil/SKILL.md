@@ -1,6 +1,6 @@
 ---
 name: modernisierung-rechnungsabgleich-erhaltungsanteil
-title: 1. Modernisierungskosten und Erhaltungsanteil
+title: 'Modernisierungskosten und Erhaltungsanteil'
 description: Prüft Modernisierungsmieterhöhungen anhand einzelner Rechnungspositionen, Bauteilalter, Erhaltungsabzug, Fördermitteln und wohnungsbezogener Kappung. Für streitige Kostenpakete nach Bauabschluss, nicht für eine reine Duldungsprüfung oder WEG-Kostenverteilung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills/modernisierung-rechnungsabgleich-erhaltungsanteil

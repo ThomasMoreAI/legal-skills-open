@@ -1,6 +1,6 @@
 ---
 name: landeskompetenz-und-hessenrecht-pruefen
-title: 1. Zweck und Anwendungsfall
+title: 'Erstellt einen Kompetenz- und Landesverfassungsvermerk zu Artikel-15-Gesetzen mit…'
 description: Erstellt einen Kompetenz- und Landesverfassungsvermerk zu Artikel-15-Gesetzen mit Schwerpunkt Hessen. Prüft Artikel 74 und 72 GG, die historische Reichweite von Artikel 41 der Hessischen Verfassung sowie Landesgrundrechte im Verhältnis zu Artikel 31 und 142 GG; keine pauschale Bundesrechtsfreigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/landeskompetenz-und-hessenrecht-pruefen

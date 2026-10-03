@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsvorschau-insolvenzrechtlich-klotzkette
-title: 1. Insolvenzrechtlichen Liquiditätsstatus und Nachweis erstellen
+title: 'Insolvenzrechtlichen Liquiditätsstatus und Nachweis erstellen'
 description: Prüft Zahlungsunfähigkeit aus Status, Liquiditätsbilanz oder Zahlungseinstellung mit Belegen und Gegenargumenten. Grenzt Überschuldung, Prognose und Antragspflichten ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/liquiditaetsvorschau-insolvenzrechtlich

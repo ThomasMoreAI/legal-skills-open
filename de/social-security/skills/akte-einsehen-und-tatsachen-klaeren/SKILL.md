@@ -1,6 +1,6 @@
 ---
 name: akte-einsehen-und-tatsachen-klaeren
-title: 1. Akte einsehen und Tatsachen klären
+title: 'Akte einsehen und Tatsachen klären'
 description: Klärt fehlende oder widersprüchliche Tatsachen in einem Sozialverfahren. Erstellt einen gezielten Antrag auf Akteneinsicht, ordnet vorhandene Belege und fragt nach konkreten Ereignissen, ohne Aussagen, Diagnosen oder Einkommensdaten zu erfinden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/akte-einsehen-und-tatsachen-klaeren

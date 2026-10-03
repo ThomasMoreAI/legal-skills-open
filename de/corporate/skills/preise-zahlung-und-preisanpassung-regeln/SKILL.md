@@ -1,6 +1,6 @@
 ---
 name: preise-zahlung-und-preisanpassung-regeln
-title: 1. Preise, Zahlung und Preisanpassung regeln
+title: 'Preise, Zahlung und Preisanpassung regeln'
 description: Formuliert feste und variable Vergütung, Fälligkeit, Abschläge und nachvollziehbare Preisanpassung in Wirtschaftsverträgen einschließlich Kostenrückgang und Bestandsaufträgen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/preise-zahlung-und-preisanpassung-regeln

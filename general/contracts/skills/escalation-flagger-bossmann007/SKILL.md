@@ -1,11 +1,11 @@
 ---
 name: escalation-flagger-bossmann007
-title: /escalation-flagger
+title: 'Escalation flagger'
 description: Route a contract issue to the right approver per the escalation matrix in `~/.claude/plugins/config/claude-for-legal/commercial-legal/CLAUDE.md`, and draft the ask. Use when the user says "who needs to approve this", "escalate this", "does this need GC sign-off", "route this for approval", or when another skill finds an issue that exceeds the reviewer's authority.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/commercial-legal/skills/escalation-flagger
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

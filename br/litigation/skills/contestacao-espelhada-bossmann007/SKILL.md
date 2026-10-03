@@ -1,11 +1,11 @@
 ---
 name: contestacao-espelhada-bossmann007
-title: /contestacao-espelhada
+title: 'Contestacao espelhada'
 description: 'Decompõe a petição inicial (elemento por elemento, pedido por pedido, causa de pedir por causa de pedir) em uma matriz: alegação do autor → defesa possível (preliminar CPC 337 / mérito) → prova necessária → ônus. Força ônus da impugnação especificada (CPC art. 341 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm] — fato não impugnado presume-se verdadeiro). Sinaliza prescrição/decadência e preliminares. Produz scaffold de defesa, não contestação final (consequential-action gate applies).'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/contestacao-espelhada
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

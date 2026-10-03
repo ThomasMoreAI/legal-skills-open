@@ -1,6 +1,6 @@
 ---
 name: cease-desist-bossmann007
-title: /cease-desist
+title: 'Cease desist'
 description: Draft uma notificação extrajudicial (modo envio) ou faça a triagem de uma recebida (modo recebimento). Use para fazer valer direitos contra um infrator com carta de cobrança calibrada à postura de enforcement, ou quando uma notificação recebida precisa virar memorando estruturado de opções com recomendação.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/cease-desist

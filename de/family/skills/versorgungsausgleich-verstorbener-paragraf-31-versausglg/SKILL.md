@@ -1,6 +1,6 @@
 ---
 name: versorgungsausgleich-verstorbener-paragraf-31-versausglg
-title: 1. Tod eines Ehegatten im Versorgungsausgleich
+title: 'Tod eines Ehegatten im Versorgungsausgleich'
 description: Prüft die Folgen des Todes eines Ehegatten für Scheidung, Wertausgleich und Ausgleichsansprüche nach der Scheidung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht/skills/versorgungsausgleich-verstorbener-paragraf-31-versausglg

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-deal-und-investor-routing
-title: 1. Private-Equity-Auftrag einordnen und ausarbeiten
+title: 'Private-Equity-Auftrag einordnen und ausarbeiten'
 description: 'Für Kaltstart: Investor, Kanzlei, Fonds oder Target richtig einordnen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/private-equity-praxis/skills/kaltstart-deal-und-investor-routing

@@ -1,6 +1,6 @@
 ---
 name: vertraulichkeit-und-geheimnisschutz-vereinbaren
-title: 1. Vertraulichkeit und Geheimnisschutz vereinbaren
+title: 'Vertraulichkeit und Geheimnisschutz vereinbaren'
 description: Erstellt auf den konkreten Informationsaustausch zugeschnittene Geheimhaltungsvereinbarungen mit Zweckbindung, Empfängerkreis, Schutzmaßnahmen und geregelter Rückgabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/vertraulichkeit-und-geheimnisschutz-vereinbaren

@@ -1,6 +1,6 @@
 ---
 name: applying-servisnyi-centr-mvs
-title: law-ua-applying-servisnyi-centr-mvs
+title: 'Law UA applying servisnyi centr mvs'
 description: Use when navigating Ukrainian сервісні центри МВС (СЦ МВС) — водійські посвідчення (видача, обмін, відкриття категорій, після втрати), перереєстрація / зняття з обліку ТЗ, тимчасові талони, дублікати СРТЗ, реєстрація ТЗ на іноземців, митні пільги, зняття арешту. Запис через hsc.gov.ua / «Дія». Документи, вартість, строки, військово-облікові обмеження воєнного стану, оскарження
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-applying-servisnyi-centr-mvs

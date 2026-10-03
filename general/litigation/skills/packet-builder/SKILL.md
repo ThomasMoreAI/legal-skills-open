@@ -1,11 +1,11 @@
 ---
 name: packet-builder
-title: packet-builder
+title: 'Packet builder'
 description: Interactive complaint-packet assembly driven by packet-manifest.yaml — walks through authority, exhibit list, reference appendices, and runs scripts/packet/build.py. Triggers when the user says "build the packet" or when a complaint narrative and exhibit set are ready to compile.
 author: EvanOchsner
 author_url: https://github.com/EvanOchsner/personal-advocacy-toolkit/tree/main/.claude/skills/packet-builder
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

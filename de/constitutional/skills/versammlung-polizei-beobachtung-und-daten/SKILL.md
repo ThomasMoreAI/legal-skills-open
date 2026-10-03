@@ -1,6 +1,6 @@
 ---
 name: versammlung-polizei-beobachtung-und-daten
-title: 1. Polizei, Beobachtung und Daten prüfen
+title: 'Polizei, Beobachtung und Daten prüfen'
 description: Prüfen Sie bei einer Berliner Versammlung Anwesenheit, Kontrollen, Aufnahmen und Datenverwendung und entwerfen Sie die erforderliche Auskunft oder Beanstandung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-polizei-beobachtung-und-daten

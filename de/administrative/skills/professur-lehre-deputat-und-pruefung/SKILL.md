@@ -1,6 +1,6 @@
 ---
 name: professur-lehre-deputat-und-pruefung
-title: 1. Zweck und Anwendungsfall
+title: 'Berechnet und prüft Lehrverpflichtungen, Ermäßigungen und Prüfungsaufgaben Berliner…'
 description: Berechnet und prüft Lehrverpflichtungen, Ermäßigungen und Prüfungsaufgaben Berliner Professuren anhand der LVVO und erstellt den erforderlichen Antrag oder die Stellungnahme.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-lehre-deputat-und-pruefung

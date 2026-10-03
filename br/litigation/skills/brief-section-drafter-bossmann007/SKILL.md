@@ -1,6 +1,6 @@
 ---
 name: brief-section-drafter-bossmann007
-title: /brief-section-drafter
+title: 'Brief section drafter'
 description: Draft a brief section in house style, consistent with the case theory — every fact cited, every case checked, every argument tied to the theory. Use when the user says "draft the [section]", "write the statement of facts", "argument section on [issue]", or needs a first draft of a brief section.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/brief-section-drafter

@@ -1,6 +1,6 @@
 ---
 name: freihandankauf-und-verhandlungen-fuehren
-title: 1. Zweck
+title: 'Bearbeitet Kauf- und Tauschangebote vor einer BauGB-Enteignung anhand von…'
 description: Bearbeitet Kauf- und Tauschangebote vor einer BauGB-Enteignung anhand von Grundstücksunterlagen, Preisgrundlagen und tatsächlichem Verhandlungsverlauf. Erstellt konkrete Angebote, Gegenangebote oder Antwortschreiben, ohne einen Grundstücksvertrag oder Verzicht ungefragt abzuschließen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/freihandankauf-und-verhandlungen-fuehren

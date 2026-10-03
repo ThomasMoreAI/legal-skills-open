@@ -1,6 +1,6 @@
 ---
 name: timeline-planner-torlyai
-title: /timeline-planner
+title: 'Timeline planner'
 description: '从用户最早出行日倒推签证申请时间表。计算关键路径截止：出行日
 
   减去领取窗口、减去领事处理窗口、减去 TLS 预约缓冲、减去文件准备
@@ -15,7 +15,7 @@ description: '从用户最早出行日倒推签证申请时间表。计算关键
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/timeline-planner
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

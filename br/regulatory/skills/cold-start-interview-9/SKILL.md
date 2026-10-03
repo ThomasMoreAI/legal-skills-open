@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-9
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Cold-start interview — builds your watchlist, indexes the policy library, and learns your materiality threshold so the monitor surfaces signal instead of noise. Use on fresh install, when reconfiguring (--redo), or when re-checking what connectors are actually responding (--check-integrations).
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/regulatory-legal/skills/cold-start-interview

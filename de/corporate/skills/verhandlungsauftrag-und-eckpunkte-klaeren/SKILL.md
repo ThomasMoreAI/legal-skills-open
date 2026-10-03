@@ -1,6 +1,6 @@
 ---
 name: verhandlungsauftrag-und-eckpunkte-klaeren
-title: 1. Verhandlungsauftrag und Eckpunkte klären
+title: 'Verhandlungsauftrag und Eckpunkte klären'
 description: Verdichtet vorhandene Angebote und Eckpunkte zu einem konkreten B2B-Verhandlungsauftrag mit entscheidungsfähigen Alternativen, ohne bereits bekannte Angaben erneut abzufragen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/verhandlungsauftrag-und-eckpunkte-klaeren

@@ -1,6 +1,6 @@
 ---
 name: projektbericht-und-entscheidungsvorlage-erstellen
-title: 1. Projektlage in eine entscheidungsfähige Vorlage überführen
+title: 'Projektlage in eine entscheidungsfähige Vorlage überführen'
 description: Erstellt einen adressatengerechten Bauprojektbericht oder eine Beschlussvorlage mit abgeglichenem Kosten-, Termin-, Plan- und Risikostand. Führt zur konkreten Entscheidung statt zur bloßen Ampelübersicht; keine erfundene Freigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/projektbericht-und-entscheidungsvorlage-erstellen

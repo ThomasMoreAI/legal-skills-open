@@ -1,11 +1,11 @@
 ---
 name: material-contract-schedule-zhou210712
-title: /material-contract-schedule
+title: 'Material contract schedule'
 description: 从尽调发现构建重大合同披露清单，适用股权收购协议的重大合同定义，并按 协议清单格式排版。当用户说"建合同清单""披露清单""清单 3.X" "重大合同列表"或起草披露清单时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/corporate-legal/skills/material-contract-schedule
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

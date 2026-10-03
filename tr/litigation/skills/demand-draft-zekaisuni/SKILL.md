@@ -1,6 +1,6 @@
 ---
 name: demand-draft-zekaisuni
-title: /demand-draft
+title: 'Demand draft'
 description: Draft a Turkish ihtarname from a completed demand-intake file. Applies mesleki sır, admission/waiver, settlement confidentiality, deadline, notice-method, and attorney-review gates before producing a draft suitable for lawyer review and later docx generation.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/demand-draft

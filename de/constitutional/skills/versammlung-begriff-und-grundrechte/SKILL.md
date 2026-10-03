@@ -1,6 +1,6 @@
 ---
 name: versammlung-begriff-und-grundrechte
-title: 1. Versammlung und Grundrechte einordnen
+title: 'Versammlung und Grundrechte einordnen'
 description: Ordnen Sie eine Berliner Zusammenkunft mit Musik, Kundgebung, Kunst oder kommerziellen Anteilen ein und entwerfen Sie die begründete Einordnung für Veranstalter oder Behörde.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-begriff-und-grundrechte

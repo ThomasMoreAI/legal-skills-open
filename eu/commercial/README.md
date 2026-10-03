@@ -10,7 +10,7 @@ Jurisdiction: `eu` · Practice: `commercial` · Skill language: de
 |---|---|
 | [`EU-China Trade-Risk-Dashboard: Aufbau und Betrieb`](skills/eu-china-trade-risk-dashboard/) | Für EU-China Trade-Risk-Dashboard: Aufbau und Betrieb: ordnet Norm, Beweislast und Gegenargument… |
 | [`Informationsaustausch nach Artikel 101 AEUV prüfen`](skills/eu-kartellrecht-informationsaustausch-c-286-13/) | Prüft den Austausch von Preis-, Mengen- und Strategiedaten nach Artikel 101 AEUV, unterscheidet… |
-| [`1. Self-Preferencing nach Artikel 102 AEUV`](skills/eu-kartellrecht-self-preferencing-google-shopping/) | Für 1. Self-Preferencing nach Artikel 102 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Self-Preferencing nach Artikel 102 AEUV`](skills/eu-kartellrecht-self-preferencing-google-shopping/) | Für 1. Self-Preferencing nach Artikel 102 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU-Handelsvertreterrichtlinie 86/653/EWG und ihre Umsetzung im deutschen HGB`](skills/eu-richtlinie-86-653/) | Für EU-Handelsvertreterrichtlinie 86/653/EWG und ihre Umsetzung im deutschen HGB: ordnet Norm… |
 | [`Franchiserecht: EU-Vertikal-GVO und Franchise`](skills/eu-vertikal-gvo-und-franchise/) | Für Franchiserecht: EU-Vertikal-GVO und Franchise: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 

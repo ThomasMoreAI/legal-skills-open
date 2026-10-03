@@ -1,6 +1,6 @@
 ---
 name: finaler-writing-quality-gate
-title: 1. Juristische Endfassung prüfen und fertigstellen
+title: 'Juristische Endfassung prüfen und fertigstellen'
 description: Prüft eine juristische Endfassung gegen Auftrag, Akten und Anlagen. Korrigiert konkrete Widersprüche, klärt entscheidende Lücken und liefert die überarbeitete Fassung mit getrennten Freigabehinweisen statt einer bloßen Risikoampel.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/finaler-writing-quality-gate

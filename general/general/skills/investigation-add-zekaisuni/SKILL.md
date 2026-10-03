@@ -1,11 +1,11 @@
 ---
 name: investigation-add-zekaisuni
-title: /investigation-add
+title: 'Investigation add'
 description: Açık iç soruşturma dosyasına belge, görüşme notu, delil, kronoloji olayı veya gözlem ekler. Olgu/kanaat ayrımı, kaynak etiketi, KVKK minimizasyonu ve tarih kaydını zorunlu tutar.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/employment-legal/skills/investigation-add
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

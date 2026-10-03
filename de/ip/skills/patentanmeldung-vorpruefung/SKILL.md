@@ -1,6 +1,6 @@
 ---
 name: patentanmeldung-vorpruefung
-title: /patentrecht:patentanmeldung-vorpruefung
+title: 'Patentanmeldung vorpruefung'
 description: Vor-Check der Patentierbarkeit einer Erfindung nach §§ 1–5 PatG / Art. 52, 54, 56 EPÜ – technischer Charakter (auch CII / Software-Grenze § 1 III/IV PatG), Neuheit § 3 PatG mit Neuheitsschonfrist, erfinderische Tätigkeit § 4 PatG nach Aufgabe-Lösungs-Ansatz, gewerbliche Anwendbarkeit § 5 PatG. Use when ein Erfinder oder Anmelder vor der Anmeldung beim DPMA, EPA oder über PCT klären will, ob ein Patent / Gebrauchsmuster aussichtsreich ist und welcher Anmeldeweg sinnvoll ist.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/patentrecht/skills/patentanmeldung-vorpruefung

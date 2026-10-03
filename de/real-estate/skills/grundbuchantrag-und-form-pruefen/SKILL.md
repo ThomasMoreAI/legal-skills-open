@@ -1,6 +1,6 @@
 ---
 name: grundbuchantrag-und-form-pruefen
-title: 1. Zweck und Anwendungsfall
+title: 'Antragsberechtigung, Betroffenenbewilligung, materielle Erklärung und Nachweisform zu…'
 description: Antragsberechtigung, Betroffenenbewilligung, materielle Erklärung und Nachweisform zu einem vollziehbaren Paket ordnen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundbuchantrag-und-form-pruefen

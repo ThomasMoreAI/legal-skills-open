@@ -1,6 +1,6 @@
 ---
 name: markenrecht-erstpruefung-und-mandatsziel
-title: 1. Markenfall prüfen und Auftrag ausarbeiten
+title: 'Markenfall prüfen und Auftrag ausarbeiten'
 description: 'Für Markenrecht: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/markenrecht-erstpruefung-und-mandatsziel

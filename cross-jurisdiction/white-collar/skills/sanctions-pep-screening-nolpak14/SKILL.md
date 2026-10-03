@@ -1,11 +1,11 @@
 ---
 name: sanctions-pep-screening-nolpak14
-title: sanctions-pep-screening
+title: 'Sanctions pep screening'
 description: 'Screen a person or company against the official government sanctions lists for free - US OFAC (SDN + Consolidated), the EU Consolidated Financial Sanctions List, the UK Sanctions List, and the UN Security Council Consolidated List. Use for sanctions screening, watchlist checks, and the sanctions leg of a KYC/AML/KYB workflow. Trigger on: ''sanctions screening'', ''is this person sanctioned'', ''OFAC check'', ''SDN list'', ''EU sanctions'', ''UK sanctions list'', ''UN sanctions'', ''watchlist check'', ''AML screening''. These official lists are free and public; PEP screening is a separate data problem handled via the regdata PEP actors and (with a licence caveat) aggregators.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/sanctions-pep-screening
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar

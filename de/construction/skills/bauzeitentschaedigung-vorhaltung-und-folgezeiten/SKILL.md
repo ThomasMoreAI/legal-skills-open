@@ -1,6 +1,6 @@
 ---
 name: bauzeitentschaedigung-vorhaltung-und-folgezeiten
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Bauzeitentschädigung wegen fehlender Mitwirkung des Bestellers durch taggenauen…'
 description: Prüft Bauzeitentschädigung wegen fehlender Mitwirkung des Bestellers durch taggenauen Abgleich von Sollablauf, tatsächlicher Vorhaltung und anderweitigem Einsatz. Trennt den Annahmeverzugszeitraum von späteren Kostenfolgen und erstellt eine prüffähige Forderungsbewertung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills/bauzeitentschaedigung-vorhaltung-und-folgezeiten

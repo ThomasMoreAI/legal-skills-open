@@ -1,6 +1,6 @@
 ---
 name: applying-cudzoziemcy-procedures
-title: law-pl-applying-cudzoziemcy-procedures
+title: 'Law PL applying cudzoziemcy procedures'
 description: Use when navigating Polish immigration / residence / work procedures — pobyt czasowy (art. 98, 114, 127, 144, 159, 187 UC), pobyt stały (art. 195), rezydent długoterminowy UE (art. 211), zezwolenie na pracę (typy A-E), oświadczenie o powierzeniu pracy, obywatelstwo (ustawa z 02.04.2009 — nadanie przez Prezydenta / uznanie wojewody). Dokumenty, biometria, MOS, terminy, odwołanie (Szef UdSC → WSA / NSA)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-cudzoziemcy-procedures

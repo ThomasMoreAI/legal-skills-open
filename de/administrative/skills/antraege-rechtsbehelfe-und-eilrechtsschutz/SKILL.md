@@ -1,6 +1,6 @@
 ---
 name: antraege-rechtsbehelfe-und-eilrechtsschutz
-title: 1. Anträge, Rechtsbehelfe und Eilrechtsschutz
+title: 'Anträge, Rechtsbehelfe und Eilrechtsschutz'
 description: Entwickelt aus Straßenrechtsakten konkrete Behördenanträge, passende Rechtsbehelfe und Eilanträge mit geprüften Zuständigkeiten und Fristen, ohne Untätigkeit oder einen Antrag als Nutzungserlaubnis zu behandeln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/antraege-rechtsbehelfe-und-eilrechtsschutz

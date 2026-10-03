@@ -1,6 +1,6 @@
 ---
 name: onlineueberweisungen-autorisierung-beweiskette
-title: 1. Zweck und Anwendungsfall
+title: 'Rekonstruiert bestrittene Onlineüberweisungen anhand von Freigabeanzeigen…'
 description: Rekonstruiert bestrittene Onlineüberweisungen anhand von Freigabeanzeigen, Gerätewechseln, Transaktionsprotokollen und Sperrmeldungen. Trennt Autorisierung, Authentifizierung, Erstattungsbetrag und Gegenansprüche bei Phishing oder vorgetäuschten Bankanrufen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/onlineueberweisungen-autorisierung-beweiskette

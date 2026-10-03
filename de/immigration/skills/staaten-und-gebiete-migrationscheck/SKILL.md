@@ -1,6 +1,6 @@
 ---
 name: staaten-und-gebiete-migrationscheck
-title: 1. Staaten- und Gebietscheck gezielt durchführen
+title: 'Staaten- und Gebietscheck gezielt durchführen'
 description: Erschließt den passenden Staaten- oder Gebietscheck für migrationsrechtliche Fragen zu Herkunft, Transit, Urkunden, Visum, Schutz, Passbeschaffung, Rückführung und Aufenthalt.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/staaten-und-gebiete-migrationscheck

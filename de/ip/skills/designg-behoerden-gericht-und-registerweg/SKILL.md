@@ -1,6 +1,6 @@
 ---
 name: designg-behoerden-gericht-und-registerweg
-title: 1. Designverfahren und Registerweg
+title: 'Designverfahren und Registerweg'
 description: Steuert nationale und unionsweite Designverfahren vom Registercheck über Anmeldung und Nichtigkeit bis zur Verletzungsklage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/designg-behoerden-gericht-und-registerweg

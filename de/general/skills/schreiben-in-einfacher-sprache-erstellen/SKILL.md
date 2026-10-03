@@ -1,6 +1,6 @@
 ---
 name: schreiben-in-einfacher-sprache-erstellen
-title: 1. Schreiben in einfacher Sprache erstellen
+title: 'Schreiben in einfacher Sprache erstellen'
 description: Erstellt einen neuen verständlichen Brief zu einem rechtlichen Anliegen. Klärt Empfänger, Ziel und belegte Tatsachen, fragt nur entscheidende Lücken ab und formuliert einen vollständigen Entwurf ohne erfundene Ansprüche, Zugeständnisse oder Fristen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jura-in-einfacher-sprache/skills/schreiben-in-einfacher-sprache-erstellen

@@ -1,6 +1,6 @@
 ---
 name: fussballtransfer-vertragsbruch-und-rstp
-title: 1. Fußballtransfer und Vertragsbeendigung
+title: 'Fußballtransfer und Vertragsbeendigung'
 description: Bearbeitet internationale Fußballtransfers mit vorzeitiger Vertragsbeendigung, Entschädigung, Registrierung und Verbandsverfahren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/fussballtransfer-vertragsbruch-und-rstp

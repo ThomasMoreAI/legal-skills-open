@@ -1,6 +1,6 @@
 ---
 name: entrevista-inicial-2
-title: /entrevista-inicial
+title: 'Entrevista inicial'
 description: Entrevista de configuración inicial — aprende tu rol en protección de datos (responsable/encargado/DPD), tus tratamientos principales, tu playbook de encargos de tratamiento, tu proceso de derechos y brechas. Úsala en la primera instalación, cuando CLAUDE.md tenga marcas [PLACEHOLDER], o para refrescar integraciones (--verificar-integraciones).
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/privacidad/skills/entrevista-inicial

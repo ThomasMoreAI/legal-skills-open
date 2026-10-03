@@ -1,6 +1,6 @@
 ---
 name: asog-platzverweis-und-aufenthaltsverbot
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft räumliche und zeitliche Berliner Wegweisungen und Aufenthaltsverbote sowie ihre…'
 description: Prüft räumliche und zeitliche Berliner Wegweisungen und Aufenthaltsverbote sowie ihre Fortwirkung und erstellt einen passenden Antrag oder Rechtsbehelf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-platzverweis-und-aufenthaltsverbot

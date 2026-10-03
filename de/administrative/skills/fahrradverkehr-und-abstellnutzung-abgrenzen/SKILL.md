@@ -1,6 +1,6 @@
 ---
 name: fahrradverkehr-und-abstellnutzung-abgrenzen
-title: 1. Fahrradverkehr und Abstellnutzung abgrenzen
+title: 'Fahrradverkehr und Abstellnutzung abgrenzen'
 description: Unterscheidet Radfahren, Schieben und gewöhnliches Abstellen von betrieblichen Einrichtungen und Flächennutzungen und erstellt passende Nutzungsanträge ohne Fahrräder pauschal zu privilegieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/fahrradverkehr-und-abstellnutzung-abgrenzen

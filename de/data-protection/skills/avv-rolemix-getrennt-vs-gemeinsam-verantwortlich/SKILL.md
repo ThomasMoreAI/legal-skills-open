@@ -1,6 +1,6 @@
 ---
 name: avv-rolemix-getrennt-vs-gemeinsam-verantwortlich
-title: 1. Verantwortlichkeit in mehrstufigen Datenwegen bestimmen
+title: 'Verantwortlichkeit in mehrstufigen Datenwegen bestimmen'
 description: Klärt Datenschutzrollen je Verarbeitungsschritt bei Cloud-Diensten, Agenten und verbundenen Unternehmen. Prüft tatsächliche Zweck- und Mittelentscheidung statt Vertragsüberschrift und liefert Rollenvermerk, Anbieterfragen oder passende Vereinbarung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/avv-rolemix-getrennt-vs-gemeinsam-verantwortlich

@@ -1,6 +1,6 @@
 ---
 name: eu-financial-transparency
-title: eu-financial-transparency
+title: 'EU financial transparency'
 description: 'Find out which EU grants and directly-managed EU funding an organisation has received - for free, keyless - using the official EU Financial Transparency System (FTS). See EU funding recipients: who received EU money, how much (committed amount / EU contribution), under which programme and budget line, in which year, and for what action. This is an EU-funding-recipient due-diligence + grant-recipient lead-gen lane, NOT a company registry. Trigger on: ''EU funding recipients'', ''EU grants'', ''FTS'', ''Financial Transparency System'', ''who received EU money'', ''did this org get an EU grant'', ''EU grant recipient check'', ''EU direct funding'', ''beneficiaries of EU funds'', ''EU budget beneficiaries'', ''which EU programmes funded this organisation''. FTS is a bulk annual download (one .xlsx per year) plus a live search export - download the year file(s), then filter and match locally by name, country, and programme.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/eu-financial-transparency

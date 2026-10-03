@@ -1,6 +1,6 @@
 ---
 name: art-6-hochrisiko-robotik
-title: 1. Hochrisikoeinstufung von Roboterfunktionen
+title: 'Hochrisikoeinstufung von Roboterfunktionen'
 description: Ordnet Roboterfunktionen nach Sicherheitsbezug, Produktregime und konkretem Einsatz ein. Berücksichtigt den geänderten Maschinenpfad und liefert einen begründeten Klassifikationsvermerk mit getrennten Produkt- und Systemfristen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/robotik-recht/skills/art-6-hochrisiko-robotik

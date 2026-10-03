@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsstatus-quellenbelege-live-quote
-title: 1. Liquiditaetsstatus Quellenbelege Live Quote
+title: 'Liquiditaetsstatus Quellenbelege Live Quote'
 description: 'Für Liquiditätsstatus Quellenbelege Live Quote: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/liquiditaetsstatus-quellenbelege-live-quote

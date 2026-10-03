@@ -1,11 +1,11 @@
 ---
 name: policy-drafting-anthropics
-title: /policy-drafting
+title: 'Policy drafting'
 description: Draft an employment policy with state supplements where law differs across the jurisdictional footprint. Use when the user says "draft a [topic] policy", "we need a policy on", "update our [topic] policy", or names a policy gap.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/policy-drafting
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment

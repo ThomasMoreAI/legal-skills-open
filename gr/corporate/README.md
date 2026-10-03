@@ -10,7 +10,7 @@ Jurisdiction: `gr` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`greece-gemi`](skills/greece-gemi-nolpak14/) | Look up Greek companies for free via the official GEMI OpenData API (Geniko Emporiko Mitroo, the General… |
+| [`Greece gemi`](skills/greece-gemi-nolpak14/) | Look up Greek companies for free via the official GEMI OpenData API (Geniko Emporiko Mitroo, the General… |
 
 ## Cold-start context
 

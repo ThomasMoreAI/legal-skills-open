@@ -1,6 +1,6 @@
 ---
 name: dienstleisterwechsel-und-datenzugriff-sichern
-title: 1. Dienstleisterwechsel mit Datenübergabe und Betriebszugang regeln
+title: 'Dienstleisterwechsel mit Datenübergabe und Betriebszugang regeln'
 description: Sichert bei einem betriebswichtigen Dienstleisterwechsel vertragliche Datenherausgabe, Zugänge und Übergangspflichten bis zum Schreiben oder Nachtrag. Trennt Unternehmensdaten, Betroffenenrechte, Auftragsverarbeitung und Sicherheitsvorfall; keine eigenmächtige Kontenübernahme oder Datenlöschung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/dienstleisterwechsel-und-datenzugriff-sichern

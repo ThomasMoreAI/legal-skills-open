@@ -1,6 +1,6 @@
 ---
 name: hoai-1-grundlagen-und-planungsauftrag-klaeren
-title: 1. Vom Nutzungswunsch zum geklärten Planungsauftrag
+title: 'Vom Nutzungswunsch zum geklärten Planungsauftrag'
 description: Erarbeitet die Grundlagenermittlung für Gebäude nach HOAI-Leistungsphase 1 mit Bedarfsangaben, Ortsbesichtigungsbefunden, Untersuchungsbedarf und Fachplanerauswahl. Liefert Planungsgrundlage und abgegrenzten Auftrag. Für phasenweite Grundlagenarbeit, nicht für einzelne Honorarfragen oder Vertragsklauseln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-1-grundlagen-und-planungsauftrag-klaeren

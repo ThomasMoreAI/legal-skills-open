@@ -1,11 +1,11 @@
 ---
 name: wage-hour-qa-bossmann007
-title: /wage-hour-qa
+title: 'Wage hour qa'
 description: Q&A de jornada/remuneração sensível à base territorial/CCT — enquadramento, horas extras, intervalos, licenças, verbas rescisórias — respondido para a base territorial/categoria específica com a regra controladora pesquisada e citada, não recitada de memória. Use quando o usuário perguntar qualquer questão trabalhista, ou disser "qual a regra da CCT de", "isso é enquadrável no art. 62", ou "temos que pagar hora extra para".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/wage-hour-qa
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: employment

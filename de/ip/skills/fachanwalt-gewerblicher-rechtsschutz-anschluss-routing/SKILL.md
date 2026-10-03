@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-anschluss-routing
-title: 1. Anschluss-Routing im gewerblichen Rechtsschutz
+title: 'Anschluss-Routing im gewerblichen Rechtsschutz'
 description: Wählt nach einer ersten Prüfung im gewerblichen Rechtsschutz den sachlich passenden Folgeskill.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/anschluss-routing

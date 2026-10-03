@@ -1,6 +1,6 @@
 ---
 name: bom-dia
-title: /bom-dia
+title: 'Bom dia'
 description: 'O cockpit da manhã do advogado brasileiro. Um comando: puxa as intimações novas do DJEN pela sua OAB, checa se houve movimentação nova nos processos que você acompanha (DataJud), calcula os prazos em dias úteis (CPC art. 219) e entrega o resumo priorizado do dia — o que vence hoje, o que vence esta semana, o que só é ciência — com a peça que cada prazo exige e a oferta de já minutar. Requer os conectores DJEN e DataJud (`connectors/`). Não dá ciência nem protocola — só surface e calcula.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/bom-dia

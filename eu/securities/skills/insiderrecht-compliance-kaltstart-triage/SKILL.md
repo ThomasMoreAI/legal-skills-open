@@ -1,6 +1,6 @@
 ---
 name: insiderrecht-compliance-kaltstart-triage
-title: 1. Insiderrechtlichen Vorgang prüfen
+title: 'Insiderrechtlichen Vorgang prüfen'
 description: 'Für Kaltstart Insiderrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insiderrecht-compliance/skills/kaltstart-triage

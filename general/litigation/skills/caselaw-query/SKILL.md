@@ -1,11 +1,11 @@
 ---
 name: caselaw-query
-title: caselaw-query
+title: 'Caselaw query'
 description: Find appellate cases that cite or interpret a given statute via the CourtListener API (Free Law Project). Use AFTER a Harvester or web_fallback hit, when the user wants case law interpreting the statute. Returns case_name, court, date_filed, courtlistener URL, and a snippet — no opinion text generation. Strict no-fabrication.
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/caselaw_query
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

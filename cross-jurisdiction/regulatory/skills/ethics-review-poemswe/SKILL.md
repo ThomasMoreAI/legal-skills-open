@@ -1,11 +1,11 @@
 ---
 name: ethics-review-poemswe
-title: 1. Ethical Risk Assessment
+title: 'Ethical Risk Assessment'
 description: You must use this when identifying ethical risks, ensuring participant privacy, or preparing IRB applications.
 author: poemswe
 author_url: https://github.com/poemswe/co-researcher/tree/main/skills/ethics-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

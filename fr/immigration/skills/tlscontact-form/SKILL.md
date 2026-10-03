@@ -1,6 +1,6 @@
 ---
 name: tlscontact-form
-title: /tlscontact-form
+title: 'Tlscontact form'
 description: TLScontact 账户创建+预约表的分步指南（https://visas-fr.tlscontact.com/en-us）。 引导用户走完账户设置、France-Visas 参考号关联、团队申请设置、 预约时段、可选增项和预上传文件。当用户已有 France-Visas 参考号 并准备预约时使用。(Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/tlscontact-form

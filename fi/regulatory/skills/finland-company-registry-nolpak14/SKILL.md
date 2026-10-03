@@ -1,12 +1,12 @@
 ---
 name: finland-company-registry-nolpak14
-title: finland-company-registry
+title: 'Finland company registry'
 description: 'Look up Finnish companies for free via the official PRH Avoindata open data APIs - no key and no registration - company profile, Y-tunnus (business ID / VAT root), company form (OY / OYJ / KY), mainBusinessLine (TOL/NACE), registered addresses, name history, registered entries and trade-register status, plus digital financial statements (XBRL, tilinpäätös) and registered trade-register notifications. Use for KYB / know-your-business checks, counterparty verification, Y-tunnus resolution, Finnish company financials and due diligence. Trigger on: ''PRH'', ''YTJ'', ''Avoindata'', ''Finland company lookup'', ''check a Finnish company'', ''Y-tunnus'', ''Finnish business ID'', ''is this Finnish company active'', ''Finnish financial statements'', ''tilinpäätös'', ''Finnish company XBRL''. PRH open data does NOT contain beneficial owners, email addresses or phone numbers - see the limits section. The Finland APIs are free and keyless; for Poland, Germany, Spain, France, Italy and other
   jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/finland-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fi
 practice: regulatory

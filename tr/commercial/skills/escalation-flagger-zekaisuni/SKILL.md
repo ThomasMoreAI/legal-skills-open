@@ -1,6 +1,6 @@
 ---
 name: escalation-flagger-zekaisuni
-title: /escalation-flagger
+title: 'Escalation flagger'
 description: Route a contract issue to the right approver per the escalation matrix in the commercial practice profile, with Turkish-law risk categories, TL thresholds, signature authority, and attorney-review gates. Drafts the ask but never sends or approves it.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/commercial-legal/skills/escalation-flagger

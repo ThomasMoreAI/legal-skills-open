@@ -1,6 +1,6 @@
 ---
 name: license-comply
-title: license-comply
+title: 'License comply'
 description: Use when auditing open-source dependency licenses in Python projects, generating compliance reports, or checking license risk in your codebase.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/license-comply

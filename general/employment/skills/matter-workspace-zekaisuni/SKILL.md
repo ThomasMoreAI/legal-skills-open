@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-zekaisuni
-title: /matter-workspace
+title: 'Matter workspace'
 description: 'Employment matter workspace''lerini yönetir: yeni dosya açma, listeleme, aktif dosya değiştirme, arşivleme veya practice-level çalışmaya dönme. Fesih, iç soruşturma, arabuluculuk, işçilik alacağı, politika, izin/rapor veya genişleme dosyalarında bağlam ayrımını korur.'
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/employment-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment

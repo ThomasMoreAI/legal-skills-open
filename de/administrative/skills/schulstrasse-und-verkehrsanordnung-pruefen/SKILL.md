@@ -1,6 +1,6 @@
 ---
 name: schulstrasse-und-verkehrsanordnung-pruefen
-title: 1. Schulstraße und Verkehrsanordnung prüfen
+title: 'Schulstraße und Verkehrsanordnung prüfen'
 description: Prüft zeitweise Schulstraßen und sonstige Verkehrsmaßnahmen anhand der aktuellen StVO, der tatsächlichen Gefahren- oder Planungsgrundlage und notwendiger Lieferausnahmen ohne Reformtatbestände zu vermengen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/schulstrasse-und-verkehrsanordnung-pruefen

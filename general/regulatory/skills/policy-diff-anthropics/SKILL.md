@@ -1,11 +1,11 @@
 ---
 name: policy-diff-anthropics
-title: /policy-diff
+title: 'Policy diff'
 description: Diff a specific regulatory change against the indexed policy library. Use when a reg has changed and you need to know which policies it touches and what the gap is, when the user says "diff this reg against our policies", "which policy does this affect", or "gap analysis", or when reg-feed-watcher hands off a material item.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/regulatory-legal/skills/policy-diff
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

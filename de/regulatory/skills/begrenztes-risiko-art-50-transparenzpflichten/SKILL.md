@@ -1,6 +1,6 @@
 ---
 name: begrenztes-risiko-art-50-transparenzpflichten
-title: 1. Transparenzhinweise passend zum Tatbestand
+title: 'Transparenzhinweise passend zum Tatbestand'
 description: Ordnet Chatbot-Hinweise, technische Inhaltskennzeichnung, Biometriehinweise und Deepfake-Offenlegung dem richtigen Pflichtadressaten zu. Prüft die Bestandsregel und entwirft konkrete Hinweise für Oberfläche, Veröffentlichung und Dokumentation.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/begrenztes-risiko-art-50-transparenzpflichten

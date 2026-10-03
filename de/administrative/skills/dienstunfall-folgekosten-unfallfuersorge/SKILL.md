@@ -1,6 +1,6 @@
 ---
 name: dienstunfall-folgekosten-unfallfuersorge
-title: dienstunfall-folgekosten-unfallfuersorge
+title: 'Dienstunfall folgekosten unfallfuersorge'
 description: 'Für dienstunfall-folgekosten-unfallfuersorge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/dienstunfall-folgekosten-unfallfuersorge

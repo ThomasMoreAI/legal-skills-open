@@ -1,6 +1,6 @@
 ---
 name: accommodation-verify-torlyai
-title: /accommodation-verify
+title: 'Accommodation verify'
 description: 'Audits accommodation bookings (hotel, AirBnB, hostel, host-stay) for
 
   France Schengen visa requirements — covers every night, names every
@@ -17,7 +17,7 @@ description: 'Audits accommodation bookings (hotel, AirBnB, hostel, host-stay) f
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/accommodation-verify
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

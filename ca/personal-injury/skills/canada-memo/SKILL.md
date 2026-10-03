@@ -1,11 +1,11 @@
 ---
 name: canada-memo
-title: canada-memo
+title: 'Canada memo'
 description: When the user's message starts with "Canada" (case-insensitive), generate a full Ontario PI Case Assessment Memo from the case_stressor corpus and return it verbatim. This is the primary handler for Canadian fact patterns — DO NOT ask clarifying questions first; run the memo and let the lawyer react.
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/canada_memo
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ca
 practice: personal-injury

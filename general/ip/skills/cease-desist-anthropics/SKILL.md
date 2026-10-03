@@ -1,11 +1,11 @@
 ---
 name: cease-desist-anthropics
-title: /cease-desist
+title: 'Cease desist'
 description: Draft a cease-and-desist letter (send mode) or triage one you received (receive mode). Use when asserting your rights against an infringer with a demand letter calibrated to your enforcement posture, or when an incoming C&D needs triage into a structured options memo with a recommendation.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ip-legal/skills/cease-desist
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

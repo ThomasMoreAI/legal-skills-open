@@ -1,6 +1,6 @@
 ---
 name: unternehmenswert-steuern-und-doppelverwertung
-title: 1. Unternehmenswert, Steuern und Doppelverwertung
+title: 'Unternehmenswert, Steuern und Doppelverwertung'
 description: Prüft Unternehmens- und Praxiswerte für den Zugewinnausgleich anhand von Erträgen, Unternehmerlohn, latenten Steuern und Unterhaltsabgrenzung und liefert konkrete Bewertungskorrekturen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/unternehmenswert-steuern-und-doppelverwertung

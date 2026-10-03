@@ -1,11 +1,11 @@
 ---
 name: diligence-issue-extraction-zhou210712
-title: /diligence-issue-extraction
+title: 'Diligence issue extraction'
 description: 读取数据室文件并按内部类别和重要性阈值提取问题，以内部备忘录格式产出发现。 当用户说"审查数据室""从[文件夹]提取问题""尽调审查""数据室里有什么" 或指向数据室文件时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/corporate-legal/skills/diligence-issue-extraction
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

@@ -1,6 +1,6 @@
 ---
 name: anliegergebrauch-und-lieferzufahrt-sichern
-title: 1. Anliegergebrauch und Lieferzufahrt sichern
+title: 'Anliegergebrauch und Lieferzufahrt sichern'
 description: Prüft die notwendige Erreichbarkeit eines Grundstücks oder Ladens, bewertet Lieferalternativen und entwickelt einen begründeten Zufahrtsantrag ohne Anspruch auf optimale Türbelieferung zu unterstellen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/anliegergebrauch-und-lieferzufahrt-sichern

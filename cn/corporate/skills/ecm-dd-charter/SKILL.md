@@ -1,6 +1,6 @@
 ---
 name: ecm-dd-charter
-title: ecm-dd-charter
+title: 'Ecm DD charter'
 description: 资本市场尽职调查 Skill：公司章程及组织机构（三会运作）核查（对应《编报规则第 12 号》第 11 章）。 当用户提到以下场景时触发：公司章程合规性、三会议事规则、股东大会议事规则、董事会议事规则、 监事会议事规则、独立董事制度、董事会专门委员会（审计、战略、提名、薪酬）、关联交易决策制度、 对外担保决策制度、对外投资决策制度、信息披露管理制度、内控制度、三会召开程序、表决程序、 会议通知、会议记录、决议有效性、公司治理结构、corporate governance、charter DD 等。 典型输入：现行公司章程及历次修订版、三会议事规则、独立董事工作制度、董事会专门委员会 实施细则、内控制度文件、近 3 年股东会 / 董事会 / 监事会的通知 / 议案 / 决议 / 会议记录 / 签到表。 非触发边界：设立时的章程归 ecm-dd-establishment；历次章程修订伴随的股本变动归 ecm-dd-history； 董监高任职资格归 ecm-dd-directors；股东身份核查归 ecm-dd-shareholders；本次发行的批准 决议归 ecm-dd-approval。 即使用户只说"帮我看下这家公司治理规范不规范"，也应触发本 skill。
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-charter

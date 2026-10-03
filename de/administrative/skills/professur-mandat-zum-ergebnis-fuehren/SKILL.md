@@ -1,6 +1,6 @@
 ---
 name: professur-mandat-zum-ergebnis-fuehren
-title: 1. Zweck und Anwendungsfall
+title: 'Übergreifender Hauptproblem-Skill für Berliner Professorinnen und Professoren von Akte…'
 description: Übergreifender Hauptproblem-Skill für Berliner Professorinnen und Professoren von Akte, Status und Wissenschaftsfreiheit über gezielte Rückfragen bis zum vollständigen Schreiben, Vertrag oder Rechtsbehelfsentwurf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-mandat-zum-ergebnis-fuehren

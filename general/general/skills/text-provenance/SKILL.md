@@ -1,11 +1,11 @@
 ---
 name: text-provenance
-title: text-provenance
+title: 'Text provenance'
 description: Use when you need to identify the likely source of a text passage, attribute text to documents in a RAG system, detect plagiarism, or match contract clauses to their origin.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/text-provenance
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

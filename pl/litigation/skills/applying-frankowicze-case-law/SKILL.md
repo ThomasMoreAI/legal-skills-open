@@ -1,6 +1,6 @@
 ---
 name: applying-frankowicze-case-law
-title: law-pl-applying-frankowicze-case-law
+title: 'Law PL applying frankowicze case law'
 description: Use when working on Polish CHF mortgage cases (frankowicze) — TSUE (C-260/18 Dziubak, C-520/21 Bank M., C-287/22 Getin, C-140/22 mBank, C-776/19 BNP), uchwały SN (III CZP 6/21, 11/21, 25/22), nieważność klauzul indeksacyjnych, teoria dwóch kondykcji, zabezpieczenie powództwa, obliczenie roszczenia
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-frankowicze-case-law

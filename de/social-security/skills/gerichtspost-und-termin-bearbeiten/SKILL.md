@@ -1,6 +1,6 @@
 ---
 name: gerichtspost-und-termin-bearbeiten
-title: 1. Gerichtspost und Termin bearbeiten
+title: 'Gerichtspost und Termin bearbeiten'
 description: Übersetzt Gerichtspost im eigenen Sozialprozess in konkrete nächste Schritte. Entwirft Antworten auf Nachfragen, bereitet einen Termin vor und erklärt Beistand, Sprachhilfe sowie die Folgen von Vergleich, Rücknahme und gerichtlicher Entscheidung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/gerichtspost-und-termin-bearbeiten

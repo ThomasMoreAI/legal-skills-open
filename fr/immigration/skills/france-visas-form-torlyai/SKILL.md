@@ -1,6 +1,6 @@
 ---
 name: france-visas-form-torlyai
-title: /france-visas-form
+title: 'France visas form'
 description: 'france-visas.gouv.fr 官方在线申请表的分步指南。引导用户走完
 
   10 个章节（签证向导 → 个人信息 → 旅行证件 → 联系 → 职业 → 出行
@@ -15,7 +15,7 @@ description: 'france-visas.gouv.fr 官方在线申请表的分步指南。引导
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/france-visas-form
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

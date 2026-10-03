@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-vergaberecht-workflow-kaltstart-und-routing
-title: 1. Vergabeauftrag einordnen und bearbeiten
+title: 'Vergabeauftrag einordnen und bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Vergaberecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/workflow-kaltstart-und-routing

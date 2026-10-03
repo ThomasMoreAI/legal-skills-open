@@ -1,6 +1,6 @@
 ---
 name: internal-investigations-praxis-kaltstart-triage
-title: 1. Interne Untersuchung auftragsbezogen bearbeiten
+title: 'Interne Untersuchung auftragsbezogen bearbeiten'
 description: 'Für Kaltstart Internal Investigation: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internal-investigations-praxis/skills/kaltstart-triage

@@ -1,6 +1,6 @@
 ---
 name: applying-new-york-convention
-title: law-ua-applying-new-york-convention
+title: 'Law UA applying new york convention'
 description: Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine, applications for setting aside arbitral awards, or opposing such applications — mapping Article V of the 1958 New York Convention to Article 478 of the Ukrainian CPC, identifying grounds for refusal, structuring public policy arguments
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-applying-new-york-convention

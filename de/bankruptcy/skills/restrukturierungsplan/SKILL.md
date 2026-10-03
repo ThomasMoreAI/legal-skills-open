@@ -1,6 +1,6 @@
 ---
 name: restrukturierungsplan
-title: 1. Restrukturierungsplan im Fachanwaltsmandat
+title: 'Restrukturierungsplan im Fachanwaltsmandat'
 description: Führt ein StaRUG-Mandat vom Insolvenzreifetest über Planbetroffenenauswahl, Gruppen, Vergleichsrechnung und Abstimmung bis zu Anzeige, Stabilisierung, Bestätigung und Vollzug.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/restrukturierungsplan

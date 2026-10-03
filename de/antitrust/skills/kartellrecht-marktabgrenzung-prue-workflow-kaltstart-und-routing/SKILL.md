@@ -1,6 +1,6 @@
 ---
 name: kartellrecht-marktabgrenzung-prue-workflow-kaltstart-und-routing
-title: 1. Markt- und Verfahrensprüfung zum Ergebnis führen
+title: 'Markt- und Verfahrensprüfung zum Ergebnis führen'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kartellrecht — Marktabgrenzungsprüfung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/workflow-kaltstart-und-routing

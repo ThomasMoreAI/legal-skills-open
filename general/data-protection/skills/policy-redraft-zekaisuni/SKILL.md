@@ -1,11 +1,11 @@
 ---
 name: policy-redraft-zekaisuni
-title: /policy-redraft
+title: 'Policy redraft'
 description: Policy-diff veya gaps sonucunda bulunan boşluğu kapatmak için Türkçe/İngilizce iç politika üzerinde öneri redraft üretir. Kaynak politika dosyasını değiştirmez; ayrı bir öneri memo'su yazar.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/regulatory-legal/skills/policy-redraft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

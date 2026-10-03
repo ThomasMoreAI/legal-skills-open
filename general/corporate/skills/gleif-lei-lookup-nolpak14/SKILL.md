@@ -1,11 +1,11 @@
 ---
 name: gleif-lei-lookup-nolpak14
-title: gleif-lei-lookup
+title: 'Gleif lei lookup'
 description: 'Resolve any legal entity to its global LEI (Legal Entity Identifier) for free via the official GLEIF API - legal name, registered address, status, the entity''s local registry ID, and its parent/child corporate structure (who-owns-whom at the legal-consolidation level). Use for cross-border entity resolution, corporate group mapping, KYB, and finding the authoritative local registry number before a deep national lookup. Trigger on: ''LEI lookup'', ''legal entity identifier'', ''GLEIF'', ''find the LEI for'', ''corporate structure'', ''ultimate parent company'', ''who owns this entity across borders'', ''entity resolution''. GLEIF is free and global; for beneficial owners, financials, directors and insolvency it hands off to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/gleif-lei-lookup
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

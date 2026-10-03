@@ -1,6 +1,6 @@
 ---
 name: kartellrecht-marktabgrenzung-pruefung-einstieg-routing
-title: 1. Kartellrechtlichen Prüfauftrag bearbeiten
+title: 'Kartellrechtlichen Prüfauftrag bearbeiten'
 description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kartellrecht — Marktabgrenzungsprüfung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/einstieg-routing

@@ -1,6 +1,6 @@
 ---
 name: plattform-dsa-art-14-eu-2022-2065
-title: 1. Plattformmoderation und Rechtsbehelf
+title: 'Plattformmoderation und Rechtsbehelf'
 description: Steuert Plattformfälle nach der Verordnung (EU) 2022/2065 von Nutzungsbedingungen und Meldung bis Begründung, Beschwerde und gerichtlicher Abhilfe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/plattform-dsa-art-14-eu-2022-2065

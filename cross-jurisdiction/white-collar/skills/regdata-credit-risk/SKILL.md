@@ -1,6 +1,6 @@
 ---
 name: regdata-credit-risk
-title: regdata-credit-risk
+title: 'Regdata credit risk'
 description: 'Insolvency monitoring and credit-risk assessment across official registries: Poland''s KRZ debtor registry, MSiG court gazette, and KRS financial statements; Austria''s Ediktsdatei; Germany''s Insolvenzbekanntmachungen; Czechia''s ISIR; Spain''s BORME corporate acts and Registro Publico Concursal; and California UCC liens. Covers bankruptcy, restructuring, insolvency, financial-statement and secured-lien data across PL, AT, DE, CZ, ES, and US (California). Use when the user mentions KRZ, MSiG, KRS financials, Ediktsdatei, German insolvency, ISIR, BORME, Spanish concursal, UCC liens, debtor registry, court gazette, or company financial health / insolvency screening.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-credit-risk

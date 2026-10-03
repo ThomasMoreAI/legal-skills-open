@@ -1,6 +1,6 @@
 ---
 name: canonical-markdown-authoring
-title: canonical-markdown-authoring
+title: 'Canonical markdown authoring'
 description: Convert plain markdown contract drafts into OpenAgreements' canonical template.md authoring format — YAML frontmatter, Kind|Label|Value|Show When cover-term tables, oa:clause directives, [[Defined Term]] paragraphs, and oa:signer directives that compile to validated JSON specs and DOCX artifacts. Use when the user says "convert this to canonical markdown," "author a new OpenAgreements template," "migrate template to template.md," or "write a canonical-form contract."
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/internal/canonical-markdown-authoring

@@ -1,6 +1,6 @@
 ---
 name: zeitlicher-geltungsbereich-uebergangsfristen
-title: 1. Geltungsbeginn und Bestandssysteme
+title: 'Geltungsbeginn und Bestandssysteme'
 description: Ordnet den Anwendungsbeginn der Verordnung EU 2024/1689 nach dem Omnibus 2026 dem konkreten System zu. Trennt Hochrisikopfade, GPAI, Transparenz und Bestandssysteme und erstellt einen belegten Umsetzungskalender.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/zeitlicher-geltungsbereich-uebergangsfristen

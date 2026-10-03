@@ -1,6 +1,6 @@
 ---
 name: projektziele-und-entscheidungsrahmen-festlegen
-title: 1. Projektziele und verbindliche Entscheidungen fassen
+title: 'Projektziele und verbindliche Entscheidungen fassen'
 description: Erstellt Projektauftrag, Zielkatalog und Entscheidungsrahmen für Bauherren und Projektentwickler mit messbaren Nutzungs-, Kosten-, Qualitäts- und Terminzielen. Klärt Zielkonflikte und Zuständigkeiten, ohne einen Bauvertrag oder eine technische Genehmigung zu fingieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/projektziele-und-entscheidungsrahmen-festlegen

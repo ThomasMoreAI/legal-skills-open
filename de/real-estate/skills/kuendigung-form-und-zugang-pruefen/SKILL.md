@@ -1,6 +1,6 @@
 ---
 name: kuendigung-form-und-zugang-pruefen
-title: 1. Kündigungserklärung und Zugang prüfen
+title: 'Kündigungserklärung und Zugang prüfen'
 description: Prüft Kündigungsschreiben auf Parteien, Schriftform, Vertretung, konkrete Eigenbedarfsbegründung und nachweisbaren Zugang. Unterscheidet Original, Scan und E-Mail und bereitet eine fristbewusste Antwort oder einen korrigierten Entwurf vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/kuendigung-form-und-zugang-pruefen

@@ -1,6 +1,6 @@
 ---
 name: forecast-wochenplanung
-title: 1. Wochenplanung aus Zahlungsdaten
+title: 'Wochenplanung aus Zahlungsdaten'
 description: 'Für Liquiditätsplanung: Erstprüfung, Rollenklärung und Mandatsziel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/forecast-wochenplanung

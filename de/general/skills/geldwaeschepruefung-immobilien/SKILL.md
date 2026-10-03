@@ -1,6 +1,6 @@
 ---
 name: geldwaeschepruefung-immobilien
-title: 1. Beteiligung und Immobilienzahlung nachvollziehen
+title: 'Beteiligung und Immobilienzahlung nachvollziehen'
 description: Bereitet im Notariat die Geldwäscheprüfung von Grundstücks- und Gesellschaftsvorgängen vor. Klärt Beteiligung und wirtschaftlich Berechtigte, gleicht Kaufpreiszahlungen ab und legt konkrete Nachweislücken oder Meldefragen dem Notar vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/geldwaeschepruefung-immobilien

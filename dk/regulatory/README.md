@@ -10,7 +10,7 @@ Jurisdiction: `dk` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`denmark-cvr`](skills/denmark-cvr-nolpak14/) | Look up Danish companies for free via the official Erhvervsstyrelsen CVR distribution (Det Centrale… |
+| [`Denmark cvr`](skills/denmark-cvr-nolpak14/) | Look up Danish companies for free via the official Erhvervsstyrelsen CVR distribution (Det Centrale… |
 
 ## Cold-start context
 

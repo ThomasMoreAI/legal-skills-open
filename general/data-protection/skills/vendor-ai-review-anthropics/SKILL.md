@@ -1,11 +1,11 @@
 ---
 name: vendor-ai-review-anthropics
-title: /vendor-ai-review
+title: 'Vendor AI review'
 description: Review vendor AI terms — agreement, addendum, or ToS AI provisions — against your governance positions; flag training-on-data, liability, model changes, and AI policy consistency. Use when user says "review this AI agreement", "check OpenAI terms", "what did we agree to with [vendor]", "vendor sent an AI addendum", "is this AI contract okay", or attaches vendor AI terms.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/vendor-ai-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

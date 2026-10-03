@@ -1,6 +1,6 @@
 ---
 name: auf-juristische-post-antworten
-title: 1. Auf juristische Post antworten
+title: 'Auf juristische Post antworten'
 description: Entwirft eine kurze verständliche Antwort auf rechtliche Post. Erkennt Fristen und verlangte Erklärungen, trennt Zustimmung von Widerspruch oder Rückfrage und verhindert ungewollte Anerkenntnisse, Verzichte und Angaben ohne Tatsachengrundlage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jura-in-einfacher-sprache/skills/auf-juristische-post-antworten

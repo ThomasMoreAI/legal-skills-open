@@ -1,6 +1,6 @@
 ---
 name: wahlpruefung-nachwahl
-title: 1. Wahlprüfung nach der Wahl
+title: 'Wahlprüfung nach der Wahl'
 description: 'Für Wahlprüfung Nachwahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wahlkampfrecht-praxis/skills/wahlpruefung-nachwahl

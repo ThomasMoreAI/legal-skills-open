@@ -1,6 +1,6 @@
 ---
 name: teilnahmeantraege-und-angebote-pruefen
-title: 1. Teilnahmeanträge und Angebote prüfen
+title: 'Teilnahmeanträge und Angebote prüfen'
 description: Prüft den Eingang und die formale Zulässigkeit von Teilnahmeanträgen und Angeboten einer Sektorenvergabe. Bearbeitet Eignung, Ausschlussgründe, Eignungsleihe und zulässige Nachforderungen ohne heimliche Angebotsverbesserung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/teilnahmeantraege-und-angebote-pruefen

@@ -1,11 +1,11 @@
 ---
 name: dsar-response-bossmann007
-title: /dsar-response
+title: 'DSAR response'
 description: Conduz o atendimento a uma requisição de titular sob a LGPD (Art. 18 — confirmação de tratamento, acesso, correção, eliminação, portabilidade, revogação de consentimento) e redige a resposta — verifica identidade, localiza dados sistema a sistema, avalia exceções, redige carta de confirmação de recebimento e resposta substantiva. Use quando chega uma requisição de titular, o usuário cola um pedido de acesso/eliminação/portabilidade/correção, ou diz "chegou pedido de titular", "requisição LGPD", "direito ao esquecimento", ou "alguém quer os dados dele".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/dsar-response
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: data-protection

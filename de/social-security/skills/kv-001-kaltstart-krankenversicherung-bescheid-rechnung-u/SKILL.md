@@ -1,6 +1,6 @@
 ---
 name: kv-001-kaltstart-krankenversicherung-bescheid-rechnung-u
-title: 1. Bescheid, Rechnung und Leistungsfrist prüfen
+title: 'Bescheid, Rechnung und Leistungsfrist prüfen'
 description: 'Für Krankenversicherung: Kaltstart Krankenversicherung Bescheid Rechnung und Frist: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/kv-001-kaltstart-krankenversicherung-bescheid-rechnung-und-frist

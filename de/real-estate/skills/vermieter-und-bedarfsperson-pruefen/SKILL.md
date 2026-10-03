@@ -1,6 +1,6 @@
 ---
 name: vermieter-und-bedarfsperson-pruefen
-title: 1. Vermieter und Bedarfsperson bestimmen
+title: 'Vermieter und Bedarfsperson bestimmen'
 description: Klärt Vermieterstellung und die Person, für die Eigenbedarf geltend gemacht wird. Unterscheidet Eigentümerwechsel, mehrere Vermieter, Familie, Haushalt und Gesellschaften und verhindert Kündigungen für einen rechtlich unpassenden Begünstigten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/vermieter-und-bedarfsperson-pruefen

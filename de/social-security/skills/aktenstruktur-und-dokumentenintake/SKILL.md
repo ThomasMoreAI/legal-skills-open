@@ -1,6 +1,6 @@
 ---
 name: aktenstruktur-und-dokumentenintake
-title: aktenstruktur-und-dokumentenintake
+title: 'Aktenstruktur und dokumentenintake'
 description: 'Für aktenstruktur-und-dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rentenpruefer/skills/aktenstruktur-und-dokumentenintake

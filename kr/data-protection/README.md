@@ -9,7 +9,7 @@ Jurisdiction: `kr` · Practice: `data-protection` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`South Korea PIPA Compliance`](skills/korea-pipa/) | Guides compliance with South Korea's Personal Information Protection Act (PIPA, 개인정보 보호법). Covers… |
-| [`korean-privacy-terms`](skills/korean-privacy-terms/) | kimlawtech/korean-privacy-terms (Apache-2.0) 업스트림을 경유해 Next.js 프로젝트에 한국 법령(개인정보보호법·약관규제법·전자상거래법) 기반… |
+| [`Korean privacy terms`](skills/korean-privacy-terms/) | kimlawtech/korean-privacy-terms (Apache-2.0) 업스트림을 경유해 Next.js 프로젝트에 한국 법령(개인정보보호법·약관규제법·전자상거래법) 기반… |
 
 ## Cold-start context
 

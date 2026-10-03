@@ -1,6 +1,6 @@
 ---
 name: beteiligte-identitaet-vertretung
-title: 1. Beteiligte und Ausweisnachweise für den Termin aufnehmen
+title: 'Beteiligte und Ausweisnachweise für den Termin aufnehmen'
 description: Bereitet Personalien, Ausweisabgleich und Vertretungsnachweise für einen Notartermin vor. Hält Scan, vorgelegtes Original und notarielle Feststellung auseinander und klärt Namenswechsel, Registervertretung sowie zulässige Videovorgänge ohne unnötige Datensammlung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/beteiligte-identitaet-vertretung

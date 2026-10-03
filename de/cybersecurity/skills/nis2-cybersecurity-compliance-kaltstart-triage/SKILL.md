@@ -1,6 +1,6 @@
 ---
 name: nis2-cybersecurity-compliance-kaltstart-triage
-title: 1. Cybersicherheitsauftrag bearbeiten
+title: 'Cybersicherheitsauftrag bearbeiten'
 description: 'Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: NIS-2, Cybersecurity und IT-Sicherheits-Compliance.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/nis2-cybersecurity-compliance/skills/kaltstart-triage

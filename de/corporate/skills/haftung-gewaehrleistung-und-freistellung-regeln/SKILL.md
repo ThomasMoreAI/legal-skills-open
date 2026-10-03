@@ -1,6 +1,6 @@
 ---
 name: haftung-gewaehrleistung-und-freistellung-regeln
-title: 1. Haftung, Gewährleistung und Freistellung regeln
+title: 'Haftung, Gewährleistung und Freistellung regeln'
 description: Stimmt Mängelrechte, Haftungsgrenzen, Freistellungen und Vertragsstrafen in B2B-Verträgen mit Vertragstyp, typischem Schadensrisiko und AGB-Kontrolle ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/haftung-gewaehrleistung-und-freistellung-regeln

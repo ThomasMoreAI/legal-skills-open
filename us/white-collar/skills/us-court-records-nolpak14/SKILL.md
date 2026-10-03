@@ -1,11 +1,11 @@
 ---
 name: us-court-records-nolpak14
-title: us-court-records
+title: 'Us court records'
 description: 'Search US litigation and court records against a person or company for free - CourtListener''s REST API over PACER/RECAP dockets plus published court opinions, for adverse-history due diligence. Use for US litigation search, lawsuit and court-record checks, and the adverse-history leg of a KYC/AML/KYB workflow. Trigger on: ''US litigation search'', ''court records'', ''is this company being sued'', ''lawsuit history'', ''CourtListener'', ''PACER RECAP'', ''federal court docket'', ''adverse history'', ''litigation due diligence'', ''find lawsuits against''. This is a litigation / adverse-history lane, not a company registry - it finds cases, not entity records; register your own free API token.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/us-court-records
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: white-collar

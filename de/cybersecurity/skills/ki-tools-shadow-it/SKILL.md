@@ -1,6 +1,6 @@
 ---
 name: ki-tools-shadow-it
-title: 1. Agentenzugriffe sichern und Vorfälle aufklären
+title: 'Agentenzugriffe sichern und Vorfälle aufklären'
 description: Untersucht unfreigegebene KI-Werkzeuge und Agenten mit Zugriff auf Postfächer, Dateien oder Fachsysteme. Prüft Datenabfluss, manipulierte Anweisungen und delegierte Werkzeugrechte und liefert eine Eindämmungsanweisung samt getrennten Meldeentscheidungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/nis2-cybersecurity-compliance/skills/ki-tools-shadow-it

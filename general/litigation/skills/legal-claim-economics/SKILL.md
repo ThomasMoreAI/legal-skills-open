@@ -1,6 +1,6 @@
 ---
 name: legal-claim-economics
-title: legal-claim-economics
+title: 'Legal claim economics'
 description: Use when users say "model claim economics", "litigation funding waterfall", "portfolio economics", "funder MOIC", "DBA/CFA economics", "Monte Carlo", "ATE/adverse costs", or need legal claim recoveries, fee structures, recourse, and settlement distributions modelled.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/legal-claim-economics

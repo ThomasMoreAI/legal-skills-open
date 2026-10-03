@@ -1,6 +1,6 @@
 ---
 name: betriebsvertrag-pruefen-und-nachtrag-erstellen
-title: 1. Betriebswichtigen Vertrag und belastbaren Nachtrag gestalten
+title: 'Betriebswichtigen Vertrag und belastbaren Nachtrag gestalten'
 description: Prüft einen betriebswichtigen Liefer-, Werk- oder Dienstleistungsvertrag aus Sicht des laufend beratenen Unternehmens und formuliert Nachtrag oder Ersatzklauseln. Verbindet Leistungsabhängigkeiten, Preis, Verfügbarkeit, Haftung und Exit mit der konkreten Betriebsentscheidung; keine allgemeine AGB-Sammlung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/betriebsvertrag-pruefen-und-nachtrag-erstellen

@@ -1,6 +1,6 @@
 ---
 name: firm-self-assessment
-title: /firm-self-assessment
+title: 'Firm self assessment'
 description: 'Mapeamento de conformidade LGPD do próprio escritório: dados que o escritório trata (clientes, partes, testemunhas), base legal, RIPD obrigatório, prazos de guarda de documentos do cliente, plano de resposta a incidente de dados. Inverted LGPD kit — ao invés de aconselhar cliente, escritório faz diagnóstico de si mesmo. Use quando o sócio disser "precisamos fazer compliance LGPD do escritório", "qual é nosso risco de dados de cliente", "como guardamos autos", ou "precisamos de plano de incidente".'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/firm-self-assessment

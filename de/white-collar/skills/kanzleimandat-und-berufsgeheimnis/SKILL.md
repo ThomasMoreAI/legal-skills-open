@@ -1,6 +1,6 @@
 ---
 name: kanzleimandat-und-berufsgeheimnis
-title: 1. Kanzleimandat und geschützte Informationen
+title: 'Kanzleimandat und geschützte Informationen'
 description: Prüft Geldwäschepflichten bei anwaltlichem Mandatswechsel, Fremdgeld und Transaktionsberatung. Ordnet Informationen dem Beratungs- oder Abwicklungsauftrag zu und grenzt Meldepflicht, Berufsgeheimnis und zulässige Kommunikation ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/kanzleimandat-und-berufsgeheimnis

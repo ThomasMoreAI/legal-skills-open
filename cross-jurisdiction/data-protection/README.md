@@ -25,7 +25,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Cookie Consent Banner and Policy`](skills/cookie-consent-policy/) | Drafts publication-ready cookie policies, banner copy, and consent-flow language under GDPR/ePrivacy… |
 | [`Cross-Border Transfer Analyst`](skills/cross-border-transfer-analyst-rohasnagpal/) | Analyse cross-border personal-data transfers, remote access, hosting, support, disclosures, and onward… |
 | [`Cyber Law Compliance Summary`](skills/cyber-law-compliance-summary/) | Produces structured cyber law compliance memoranda covering GDPR, CCPA, state privacy laws, and… |
-| [`data-privacy-agreement`](skills/data-privacy-agreement/) | Draft and fill data privacy contract and agreement templates — DPA, data processing contract, GDPR… |
+| [`Data privacy agreement`](skills/data-privacy-agreement/) | Draft and fill data privacy contract and agreement templates — DPA, data processing contract, GDPR… |
 | [`Data Processing Agreement Reviewer`](skills/data-processing-agreement-reviewer-rohasnagpal/) | Review and draft data-processing agreements and privacy schedules for controller-processor… |
 | [`Data retention and deletion`](skills/data-retention-clemensjl/) | Use when deciding how long data may or must be kept, building a retention schedule, implementing a… |
 | [`Design Data Retention Policy`](skills/design-data-retention-policy-jeffreytse/) | Use when creating or auditing a data retention policy that balances legal obligations, business needs… |
@@ -55,6 +55,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Regulatory Compliance Skill`](skills/regulatory-compliance-oimiragieo/) | Validate systems and processes against GDPR/CCPA privacy regulations, privacy-by-design principles… |
 | [`SaaS Legal Drafting Assistant`](skills/saas-legal-generator-briansunter/) | Create an attorney-review-ready SaaS legal drafting package from an evidence-based data and product… |
 | [`SafeAI ASEAN Data Protection — System Instructions`](skills/safeai-asean-data-protection/) | ASEAN data protection compliance engine — VN, SG, TH, MY, ID, PH regulatory frameworks. (v5.0.0) |
-| [`/use-case-triage`](skills/use-case-triage-bossmann007/) | Quickly determine whether a processing activity needs a PIA, a RIPD (Relatório de Impacto à Proteção de… |
+| [`Use case triage`](skills/use-case-triage-bossmann007/) | Quickly determine whether a processing activity needs a PIA, a RIPD (Relatório de Impacto à Proteção de… |
 | [`Workplace Email Privacy`](skills/workplace-email-privacy/) | Implements email and internet monitoring compliance in the workplace per Barbulescu v Romania (ECHR… |
 | [`Write Privacy Policy`](skills/write-privacy-policy-jeffreytse/) | Use when drafting or updating a privacy policy to comply with GDPR, CCPA, and general best practices |

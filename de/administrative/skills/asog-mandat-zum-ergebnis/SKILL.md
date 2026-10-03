@@ -1,6 +1,6 @@
 ---
 name: asog-mandat-zum-ergebnis
-title: 1. Zweck und Anwendungsfall
+title: 'Übergreifender Hauptskill für Berliner Polizei- und Ordnungsmandate von der konkreten…'
 description: Übergreifender Hauptskill für Berliner Polizei- und Ordnungsmandate von der konkreten Maßnahme über gezielte Rückfragen zum vollständigen Antrag, Rechtsbehelf oder Beratungsschreiben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-mandat-zum-ergebnis

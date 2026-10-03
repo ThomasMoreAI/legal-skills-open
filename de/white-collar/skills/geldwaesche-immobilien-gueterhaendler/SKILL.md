@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-immobilien-gueterhaendler
-title: 1. Händler- und Vermittlergeschäft prüfen
+title: 'Händler- und Vermittlergeschäft prüfen'
 description: Prüft Schwellen und Zahlungswege bei Güterhandel, Kunstgeschaeften und Immobilienvermittlung. Unterscheidet Barzahlung, verbundene Teilbeträge und Verdachtsanlass und vermeidet die Vermischung mit notariellen Kaufpreisnachweisen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-immobilien-gueterhaendler

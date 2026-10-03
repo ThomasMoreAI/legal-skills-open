@@ -1,6 +1,6 @@
 ---
 name: deposition-prep-bossmann007
-title: /deposition-prep
+title: 'Deposition prep'
 description: Build a prep outline for depoimento pessoal / oitiva de testemunha at the audiência de instrução (CPC arts. 385-388, 442-463) — the Brazilian in-court equivalents of a US deposition — pull relevant documents, organize topics around the case theory, and surface impeachment material. Use when the user says "prep para o depoimento de [nome]", "monta o roteiro de oitiva", or "prepare for [name]'s testimony at the audiência".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/deposition-prep

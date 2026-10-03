@@ -1,6 +1,6 @@
 ---
 name: notariat-alltag-kaltstart-triage
-title: 1. Hauptworkflow vom Kundenordner zur Urkundenmappe
+title: 'Hauptworkflow vom Kundenordner zur Urkundenmappe'
 description: 'Hauptworkflow für Notariatsmitarbeiter: führt Kundenunterlagen bis zur konkreten Urkunden- oder Anmeldevorlage an den Notar. Wählt zwischen Entwurf, Änderung und Vollzug, übernimmt belegte Daten und steuert nur den benötigten Fachskill samt gezielten Rückfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/kaltstart-triage

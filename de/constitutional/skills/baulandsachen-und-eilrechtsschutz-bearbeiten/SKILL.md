@@ -1,6 +1,6 @@
 ---
 name: baulandsachen-und-eilrechtsschutz-bearbeiten
-title: 1. Zweck
+title: 'Bearbeitet gerichtlichen Schutz gegen BauGB-Enteignungsentscheidungen bei der Kammer für…'
 description: Bearbeitet gerichtlichen Schutz gegen BauGB-Enteignungsentscheidungen bei der Kammer für Baulandsachen. Erstellt Antrag auf gerichtliche Entscheidung und erforderlichen gesonderten Eilantrag mit richtiger Einreichungsstelle, Frist und Anlagen; nicht für beliebige Fachplanungsstreitigkeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/baulandsachen-und-eilrechtsschutz-bearbeiten

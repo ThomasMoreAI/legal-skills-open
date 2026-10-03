@@ -1,6 +1,6 @@
 ---
 name: ecm-dd-data-verify
-title: ecm-dd-data-verify
+title: 'Ecm DD data verify'
 description: ECM 尽职调查工具类 Skill：调用第三方公开数据源（Tushare Pro / 企查查开放平台）与客户 提供的材料做交叉比对，发现数据不一致、未披露变更、过期信息等问题。当用户提到以下场景时 触发：外部数据验证、第三方数据核实、自动比对工商信息 / 股东 / 主要人员 / 知识产权 / 行政处罚、 用 Tushare 查财务数据 / 用企查查查工商、客户提供的营业执照 / 股东名册与外部工商档案是否一致、 API 数据比对、public data verification、cross-check 客户材料、抓取外部公开数据、 核实注册资本、核实法定代表人、核实实控人穿透、查专利 / 商标 / 软著是否真实存在、 查行政处罚记录。 典型输入：公司统一社会信用代码 / 名称 / ts_code、需比对的维度列表、客户提供的对应数据； 典型输出：数据比对报告（Markdown 表格 + 差异分析 + 建议核实清单）。 非触发边界：本 skill 是**工具类**不输出 DD Memo（五段式）；真正的合规判断由各业务 DD skill 去做。不负责文件读取（归 ecm-dd-file-review）、不负责文件搬运（归 ecm-setup-file-organize）、不做实质合规结论（归各业务 DD skill）。 即使用户未明确说"外部数据比对"，只要涉及"用 Tushare / 企查查 查 XXX 并与客户材料对比" 也应触发本 skill。
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-data-verify

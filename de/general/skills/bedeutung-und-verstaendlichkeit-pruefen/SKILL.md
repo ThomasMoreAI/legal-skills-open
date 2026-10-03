@@ -1,6 +1,6 @@
 ---
 name: bedeutung-und-verstaendlichkeit-pruefen
-title: 1. Bedeutung und Verständlichkeit prüfen
+title: 'Bedeutung und Verständlichkeit prüfen'
 description: Prüft einfache und juristische Sprachfassungen gegen Ausgangstext und Auftrag. Findet verlorene Bedingungen, veränderte Fristen, ungewollte Zusagen und erfundene Ergänzungen bei der Rückübertragung. Verbessert die Lesbarkeit, ohne rechtliche Gültigkeit oder Normkonformität vorzutäuschen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jura-in-einfacher-sprache/skills/bedeutung-und-verstaendlichkeit-pruefen

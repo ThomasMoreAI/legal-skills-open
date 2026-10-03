@@ -1,11 +1,11 @@
 ---
 name: infringement-triage-bossmann007
-title: /infringement-triage
+title: 'Infringement triage'
 description: Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors cutting each way, not a finding. Use when assessing whether someone is infringing your IP or whether you might be infringing theirs, when a knockoff or copycat surfaces, or when deciding whether a matter is worth pursuing and how.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/infringement-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: ip

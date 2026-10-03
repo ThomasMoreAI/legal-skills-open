@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-risikoanalyse-unternehmen
-title: 1. Risikoanalyse aus dem tatsächlichen Betrieb
+title: 'Risikoanalyse aus dem tatsächlichen Betrieb'
 description: Erstellt oder aktualisiert eine betriebsbezogene GwG-Risikoanalyse aus Kundenmix, Leistungen, Zahlungswegen und Kontrollergebnissen. Bewertet konkrete Risiken und Wirksamkeit, ohne jede Kanzlei wie eine Großbank zu behandeln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-risikoanalyse-unternehmen

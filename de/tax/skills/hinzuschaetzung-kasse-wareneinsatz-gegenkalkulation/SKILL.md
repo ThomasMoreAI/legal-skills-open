@@ -1,6 +1,6 @@
 ---
 name: hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Hinzuschätzungen bei bargeldintensiven Betrieben anhand von Kassenmängeln…'
 description: Prüft Hinzuschätzungen bei bargeldintensiven Betrieben anhand von Kassenmängeln, Wareneinsatz, Beständen und zeitgerechten Verkaufspreisen. Erstellt eine belegte Gegenkalkulation und Einspruchsbegründung; nicht für laufende Kassenbuchführung oder allgemeine Außenprüfungsbegleitung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/hinzuschaetzung-kasse-wareneinsatz-gegenkalkulation

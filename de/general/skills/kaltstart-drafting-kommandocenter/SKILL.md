@@ -1,6 +1,6 @@
 ---
 name: kaltstart-drafting-kommandocenter
-title: 1. Vom Eingangsmaterial zur vollständigen Fassung
+title: 'Vom Eingangsmaterial zur vollständigen Fassung'
 description: Überführt Term Sheet, Vorentwurf oder Partnerkommentare in einen konkreten Schreibauftrag und eine vollständige juristische Fassung. Klärt nur entscheidende Vorgaben, verzweigt nach Vertrag, Schriftsatz oder Brief und setzt Antworten unmittelbar im Dokument um.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/kaltstart-drafting-kommandocenter

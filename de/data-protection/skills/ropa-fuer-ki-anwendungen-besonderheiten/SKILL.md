@@ -1,6 +1,6 @@
 ---
 name: ropa-fuer-ki-anwendungen-besonderheiten
-title: 1. Verarbeitungstätigkeiten bei lernenden Systemen erfassen
+title: 'Verarbeitungstätigkeiten bei lernenden Systemen erfassen'
 description: Erstellt Verzeichniseinträge für Training, Suche, Eingaben, Ausgaben und Protokolle eines Systems. Prüft die enge Bias-Ausnahme, Empfänger, Löschfristen und Transfers und trennt geltende Pflichten von Omnibus-Vorschlägen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/ropa-fuer-ki-anwendungen-besonderheiten
