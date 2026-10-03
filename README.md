@@ -2,15 +2,15 @@
 
 > **Open-source library of legal AI skills** in the Anthropic Skills
 > (`SKILL.md`) format, runnable by any MCP-compatible client — Claude Code,
-> Claude Cowork, Cursor, ChatGPT, the ThomasMore desktop app. **4,200+ skills
-> across 54 jurisdictions and 390+ practice plugins** — from filing-fee
+> Claude Cowork, Cursor, ChatGPT, the ThomasMore desktop app. **18,000+ skills
+> across 54 jurisdictions and 410+ practice plugins** — from filing-fee
 > calculators and case-law analysis to GDPR DPA review and US securities
 > disclosure. Apache-2.0, contribution-friendly, no lock-in.
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-4%2C200%2B-brightgreen)
+![Skills](https://img.shields.io/badge/skills-18%2C000%2B-brightgreen)
 ![Jurisdictions](https://img.shields.io/badge/jurisdictions-54-blue)
-![Plugins](https://img.shields.io/badge/plugins-390%2B-blueviolet)
+![Plugins](https://img.shields.io/badge/plugins-410%2B-blueviolet)
 ![Format: Anthropic Skills](https://img.shields.io/badge/format-Anthropic_Skills-orange)
 ![Runtime: MCP](https://img.shields.io/badge/runtime-MCP-9cf)
 
@@ -104,33 +104,33 @@ and skills for that jurisdiction.
 
 | Jurisdiction | Plugins | Jurisdiction | Plugins |
 |---|---:|---|---:|
-| 🇺🇸 [`us/`](us/) — United States | 44 | 🇱🇺 [`lu/`](lu/) — Luxembourg | 3 |
-| 🇩🇪 [`de/`](de/) — Germany | 38 | 🇦🇷 [`ar/`](ar/) — Argentina | 2 |
+| 🇩🇪 [`de/`](de/) — Germany | 44 | 🇱🇺 [`lu/`](lu/) — Luxembourg | 3 |
+| 🇺🇸 [`us/`](us/) — United States | 44 | 🇦🇷 [`ar/`](ar/) — Argentina | 2 |
 | 🌐 [`general/`](general/) — jurisdiction-agnostic | 31 | 🇫🇮 [`fi/`](fi/) — Finland | 2 |
-| 🌍 [`cross-jurisdiction/`](cross-jurisdiction/) — comparative | 29 | 🇬🇷 [`gr/`](gr/) — Greece | 2 |
-| 🇵🇱 [`pl/`](pl/) — Poland | 17 | 🇱🇧 [`lb/`](lb/) — Lebanon | 2 |
-| 🇦🇹 [`at/`](at/) — Austria | 16 | 🇲🇽 [`mx/`](mx/) — Mexico | 2 |
-| 🇫🇷 [`fr/`](fr/) — France | 16 | 🇷🇺 [`ru/`](ru/) — Russia | 2 |
-| 🇧🇷 [`br/`](br/) — Brazil | 15 | 🇹🇭 [`th/`](th/) — Thailand | 2 |
-| 🇨🇳 [`cn/`](cn/) — China | 15 | 🇹🇼 [`tw/`](tw/) — Taiwan | 2 |
-| 🇪🇺 [`eu/`](eu/) — European Union | 14 | 🇻🇳 [`vn/`](vn/) — Vietnam | 2 |
-| 🇮🇱 [`il/`](il/) — Israel | 12 | 🇦🇿 [`az/`](az/) — Azerbaijan | 1 |
-| 🇮🇳 [`in/`](in/) — India | 11 | 🇧🇦 [`ba/`](ba/) — Bosnia and Herzegovina | 1 |
-| 🇬🇧 [`gb/`](gb/) — United Kingdom | 10 | 🇨🇲 [`cm/`](cm/) — Cameroon | 1 |
+| 🌍 [`cross-jurisdiction/`](cross-jurisdiction/) — comparative | 28 | 🇬🇷 [`gr/`](gr/) — Greece | 2 |
+| 🇪🇺 [`eu/`](eu/) — European Union | 26 | 🇱🇧 [`lb/`](lb/) — Lebanon | 2 |
+| 🇵🇱 [`pl/`](pl/) — Poland | 17 | 🇲🇽 [`mx/`](mx/) — Mexico | 2 |
+| 🇨🇳 [`cn/`](cn/) — China | 16 | 🇷🇺 [`ru/`](ru/) — Russia | 2 |
+| 🇦🇹 [`at/`](at/) — Austria | 15 | 🇹🇭 [`th/`](th/) — Thailand | 2 |
+| 🇧🇷 [`br/`](br/) — Brazil | 15 | 🇹🇼 [`tw/`](tw/) — Taiwan | 2 |
+| 🇫🇷 [`fr/`](fr/) — France | 14 | 🇻🇳 [`vn/`](vn/) — Vietnam | 2 |
+| 🇬🇧 [`gb/`](gb/) — United Kingdom | 14 | 🇦🇿 [`az/`](az/) — Azerbaijan | 1 |
+| 🇮🇱 [`il/`](il/) — Israel | 12 | 🇧🇦 [`ba/`](ba/) — Bosnia and Herzegovina | 1 |
+| 🇮🇳 [`in/`](in/) — India | 11 | 🇨🇲 [`cm/`](cm/) — Cameroon | 1 |
 | 🇮🇹 [`it/`](it/) — Italy | 10 | 🇨🇴 [`co/`](co/) — Colombia | 1 |
 | 🇳🇿 [`nz/`](nz/) — New Zealand | 10 | 🇩🇰 [`dk/`](dk/) — Denmark | 1 |
 | 🇪🇸 [`es/`](es/) — Spain | 9 | 🇩🇴 [`do/`](do/) — Dominican Republic | 1 |
-| 🇨🇦 [`ca/`](ca/) — Canada | 8 | 🇪🇬 [`eg/`](eg/) — Egypt | 1 |
-| 🇹🇷 [`tr/`](tr/) — Türkiye | 8 | 🇭🇰 [`hk/`](hk/) — Hong Kong SAR | 1 |
-| 🇰🇷 [`kr/`](kr/) — South Korea | 7 | 🇭🇷 [`hr/`](hr/) — Croatia | 1 |
-| 🇺🇦 [`ua/`](ua/) — Ukraine | 7 | 🇮🇪 [`ie/`](ie/) — Ireland | 1 |
-| 🇨🇭 [`ch/`](ch/) — Switzerland | 6 | 🇱🇹 [`lt/`](lt/) — Lithuania | 1 |
+| 🇹🇷 [`tr/`](tr/) — Türkiye | 8 | 🇪🇬 [`eg/`](eg/) — Egypt | 1 |
+| 🇺🇦 [`ua/`](ua/) — Ukraine | 7 | 🇭🇰 [`hk/`](hk/) — Hong Kong SAR | 1 |
+| 🇨🇦 [`ca/`](ca/) — Canada | 6 | 🇭🇷 [`hr/`](hr/) — Croatia | 1 |
+| 🇨🇭 [`ch/`](ch/) — Switzerland | 6 | 🇮🇪 [`ie/`](ie/) — Ireland | 1 |
+| 🇰🇷 [`kr/`](kr/) — South Korea | 6 | 🇱🇹 [`lt/`](lt/) — Lithuania | 1 |
 | 🇦🇪 [`ae/`](ae/) — UAE | 5 | 🇱🇻 [`lv/`](lv/) — Latvia | 1 |
 | 🇩🇿 [`dz/`](dz/) — Algeria | 5 | 🇳🇬 [`ng/`](ng/) — Nigeria | 1 |
 | 🇸🇦 [`sa/`](sa/) — Saudi Arabia | 5 | 🇳🇴 [`no/`](no/) — Norway | 1 |
 | 🇸🇬 [`sg/`](sg/) — Singapore | 5 | 🇵🇪 [`pe/`](pe/) — Peru | 1 |
 | 🇦🇺 [`au/`](au/) — Australia | 4 | 🇷🇴 [`ro/`](ro/) — Romania | 1 |
-| 🇯🇵 [`jp/`](jp/) — Japan | 3 | 🇿🇦 [`za/`](za/) — South Africa | 1 |
+| 🇯🇵 [`jp/`](jp/) — Japan | 4 | 🇿🇦 [`za/`](za/) — South Africa | 1 |
 
 ---
 
@@ -140,31 +140,23 @@ and skills for that jurisdiction.
 
 | Practice area | Plugins | Typical skills |
 |---|---:|---|
-| Data protection | 27 | GDPR DPA review, ROPA generation, breach notification, transfer-impact assessments |
 | Corporate | 27 | Cap-table analysis, corporate filings, governance |
-| General | 26 | Cross-practice skills (legal drafting, citation discipline, statute lookup) |
-| Regulatory | 24 | Compliance checks, regulatory filings, AI governance reviews |
+| Data protection | 27 | GDPR DPA review, ROPA generation, breach notification, transfer-impact assessments |
+| General | 27 | Cross-practice skills (legal drafting, citation discipline, statute lookup) |
 | Litigation | 23 | Case-law analysis, pleadings drafting, procedural calculators, discovery review |
+| Regulatory | 22 | Compliance checks, regulatory filings, AI governance reviews |
+| Employment | 18 | Employee-handbook review, termination checks, wage-and-hour |
 | Real estate | 18 | Lease review, title checks, zoning analysis |
 | Contracts | 17 | Clause review, redlines, template generation |
-| Employment | 16 | Employee-handbook review, termination checks, wage-and-hour |
 | Tax | 15 | Tax classification, transfer-pricing review, withholding analysis |
-| Intellectual property | 11 | Trademark search, copyright analysis, patent landscaping |
-| Commercial | 10 | M&A diligence, commercial-contract review |
-| Cybersecurity | 10 | DORA, NIS2 and CRA compliance, ICT contract review, incident reporting |
+| Intellectual property | 13 | Trademark search, copyright analysis, patent landscaping |
+| Commercial | 12 | M&A diligence, commercial-contract review |
 | Criminal | 10 | Sentencing analysis, charge-mapping, plea evaluation |
-| Arbitration | 8 | Arbitration-clause design, award analysis, filing-fee calculators |
-| Personal injury | 7 | Damages calculation, statute-of-limitations checks |
+| Family | 10 | Divorce, custody and support, marital property, family-court filings |
+| White-collar & investigations | 10 | Internal investigations, AML/KYC and sanctions screening, corporate criminal liability |
+| Administrative | 9 | Administrative procedure, permits and appeals, public-service and civil-servant law |
 
-Other covered areas: **antitrust**, **family**,
-**government-contracts**, **insurance**, **trade**, **administrative**,
-**bankruptcy**, **construction**, **finance**, **healthcare**,
-**life-sciences**, **trusts-and-estates**, **white-collar**, **aviation**,
-**constitutional**, **consumer**, **employee-benefits**, **environmental**,
-**immigration**, **sanctions**, **social-security**, **sports**,
-**capital-markets**, **energy**, **military**, **securities**, **tmt**,
-**transportation**, **entertainment**, **gaming**, **investment-funds**,
-**maritime**, **nonprofit**.
+Other covered areas: **arbitration**, **consumer**, **cybersecurity**, **bankruptcy**, **immigration**, **personal-injury**, **trade**, **trusts-and-estates**, **antitrust**, **constitutional**, **insurance**, **social-security**, **construction**, **environmental**, **government-contracts**, **healthcare**, **tmt**, **aviation**, **employee-benefits**, **finance**, **life-sciences**, **sanctions**, **securities**, **sports**, **entertainment**, **investment-funds**, **military**, **transportation**, **capital-markets**, **energy**, **maritime**, **nonprofit**, **gaming**.
 
 ---
 
