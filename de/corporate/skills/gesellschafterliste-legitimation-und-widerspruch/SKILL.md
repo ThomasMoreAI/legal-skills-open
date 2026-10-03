@@ -1,0 +1,55 @@
+---
+name: gesellschafterliste-legitimation-und-widerspruch
+title: Gesellschafterliste, Legitimation und Widerspruch
+description: 'Für Gesellschafterliste, Legitimation und Widerspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/gesellschafterliste-legitimation-und-widerspruch
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Gesellschafterliste, Legitimation und Widerspruch
+
+Nutze diesen Skill, wenn unklar ist, wer GmbH-Gesellschafterrechte ausüben darf oder ob eine Liste korrigiert, angegriffen oder gesichert werden muss.
+
+Bestreitet die Gesellschaft die materielle Mitgliedschaft ernsthaft, entfällt das Feststellungsinteresse nicht schon deshalb, weil die richtige Person weiterhin in der Liste steht: [BGH, Urteil vom 21.04.2026 – II ZR 50/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1), Rn. 10–25. Frage nach konkreter Bestreitung und gegenwärtiger Rechtsunsicherheit; trenne Paragraf 16 GmbHG von materieller Beteiligung und einer Klage gegen die Gesellschaft nach Paragraf 256 ZPO. Kein automatischer Klagebedarf bei unstreitiger Mitgliedschaft und keine materielle Eigentumsfeststellung durch das Registergericht.
+
+## Kaltstartfragen
+
+1. Welche Liste ist aktuell im Handelsregister aufgenommen?
+2. Welche Abtretung, Einziehung, Erbfolge oder Teilung wird behauptet?
+3. Wer will welche Rechte ausüben: Stimme, Auskunft, Gewinn, Anfechtung?
+4. Gibt es Widerspruch, einstweilige Verfügung oder Notarvermerk?
+5. Welche Urkunden liegen vor?
+6. Droht eine Versammlung oder Registereinreichung kurzfristig?
+
+## Listenkarte
+
+| Punkt | Aktuelle Lage | Behauptete Lage | Beleg | Maßnahme |
+| --- | --- | --- | --- | --- |
+| Gesellschafter | Liste | Vertrag | Notarurkunde | Korrektur |
+| Quote | Liste | Abtretung | Anteilskauf | Widerspruch |
+| Rechte | Stimme, Auskunft | streitig | Protokoll | Eilantrag |
+
+## Prüfraster
+
+1. Registerlage und Listeninhalt als Ausgangspunkt festhalten.
+2. Materielle Rechtslage anhand der Übertragungskette prüfen.
+3. Legitimationswirkung für konkrete Rechte bestimmen.
+4. Widerspruch, Korrekturanspruch und Eilrechtsschutz trennen.
+5. Versammlungs- und Beschlussrisiken taktisch einordnen.
+
+## Rechtsprechungs- und Normanker
+
+- Paragraf 16 GmbHG: Wirkung der Gesellschafterliste.
+- Paragraf 40 GmbHG: Einreichung und Inhalt der Liste.
+- BGH, 20.11.2018 - II ZR 12/17: Listenstellung als Drehpunkt der Legitimation.
+- Paragraf 935 und 940 ZPO: Sicherung bei drohender Rechtsausübung.
+
+## Output
+
+Erzeuge eine Listenanalyse mit Registerstand, materieller Kette, Sofortmaßnahme, Hauptsacheziel und Belegliste.

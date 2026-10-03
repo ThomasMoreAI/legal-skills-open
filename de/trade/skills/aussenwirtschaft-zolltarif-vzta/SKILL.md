@@ -1,11 +1,11 @@
 ---
 name: aussenwirtschaft-zolltarif-vzta
 title: Zolltarif, TARIC und vZTA
-description: Workflow-Skill zu aussenwirtschaft zolltarif vzta. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Zolltarif, TARIC und vZTA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-zolltarif-vzta
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: trade
@@ -69,10 +69,6 @@ Kläre vor der Tarifierung:
 4. Sind Antidumping- oder Ausgleichsmassnahmen fuer die fragliche KN-Position bekannt?
 5. Gibt es Abweichungen zwischen EU-KN und HS-Nomenklatur auf 6-Steller-Ebene (WTO-Einheitlichkeit)?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette Zolltarif/vZTA
 
 - Art. 33, 34 UZK — Verbindliche Zolltarifauskunft (vZTA), Gueltigkeit 3 Jahre
@@ -116,6 +112,4 @@ Bearbeiter: [NAME]
    Empfehlung: [vZTA / interne Dokumentation / Anwaltliches Opinion Letter]
 ```
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

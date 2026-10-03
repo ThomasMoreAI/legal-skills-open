@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sportrecht-doping-verfahren
 title: Doping-Verfahren
-description: Athlet steht vor NADA-Disziplinarverfahren wegen positivem Dopingtest und braucht Verteidigung. NADA-Code WADA-Code strict liability Art. 2 Abs. 1 WADA-Code Beweislastumkehr no fault Art. 10 Abs. 5. Normen AntiDopG § 4 CAS Art. 13. Prüfraster Probenahme-Protokoll Laboranalyse TUE Verfahrensrechte Sperre-Rahmen. Output Verteidigungsschrift NADA Strafmass-Argumentation. Abgrenzung zu fachanwalt-sportrecht-doping-cas-berufung (CAS-Berufung) und verbandsstrafe-anfechten (Allgemein).
+description: 'Für Doping-Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/fachanwalt-sportrecht-doping-verfahren
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sports
@@ -50,8 +50,6 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | CAS 2014/A/3642 | CAS (2014) | No significant fault; Supplement-Kontamination; Kölner Liste relevant |
 | CAS 2019/A/6148 | CAS (2019) | Whereabouts-Verstöße; Kumulationsprinzip; Verfahrensmängel |
 | 4A_558/2011 | Schweizer BGer (2012) — Pechstein | CAS-Anfechtung vor BGer; enge Prüfung Ordre public |
@@ -292,4 +290,4 @@ E. Sanktionshöhe unverhältnismäßig
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

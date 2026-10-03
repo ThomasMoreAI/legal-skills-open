@@ -5,12 +5,21 @@ description: Extract metadata from contracts including parties, effective dates,
 author: Happy-Technologies-LLC
 author_url: https://github.com/Happy-Technologies-LLC/happy-platform-skills/tree/main/skills/legal/contract-metadata-extraction
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, contract, metadata, extraction, clm, renewal, parties, obligations, governing-law]
+tags:
+- legal
+- contract
+- metadata
+- extraction
+- clm
+- renewal
+- parties
+- obligations
+- governing-law
 ---
 
 # Contract Metadata Extraction
@@ -60,7 +69,7 @@ Get the base contract record with existing metadata.
 
 **Using MCP (Claude Code/Desktop):**
 ```
-Tool: SN-Read-Record
+Tool: SN-Get-Record
 Parameters:
   table_name: ast_contract
   sys_id: [contract_sys_id]
@@ -286,7 +295,7 @@ Parameters:
 
 | Operation | MCP Tool | REST Endpoint |
 |-----------|----------|---------------|
-| Read Contract | SN-Read-Record | GET /api/now/table/ast_contract/{sys_id} |
+| Read Contract | SN-Get-Record | GET /api/now/table/ast_contract/{sys_id} |
 | Query Documents | SN-Query-Table | GET /api/now/table/clm_contract_doc |
 | Query Obligations | SN-Query-Table | GET /api/now/table/clm_obligation |
 | Query Attachments | SN-Query-Table | GET /api/now/table/sys_attachment |
@@ -338,7 +347,7 @@ Search for fields containing "law", "jurisdiction", or "govern" in the element n
 **Scenario:** Legal assistant uploads a new vendor agreement and needs metadata extracted
 
 ```
-Tool: SN-Read-Record
+Tool: SN-Get-Record
 Parameters:
   table_name: ast_contract
   sys_id: abc123def456

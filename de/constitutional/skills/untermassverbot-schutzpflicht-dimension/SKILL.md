@@ -1,0 +1,64 @@
+---
+name: untermassverbot-schutzpflicht-dimension
+title: 'Untermassverbot: die andere Seite der Schranken-Schranke'
+description: 'Für Untermassverbot: die andere Seite der Schranken-Schranke: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verhaeltnismaessigkeitspruefer/skills/untermassverbot-schutzpflicht-dimension
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: constitutional
+language: de
+---
+
+# Untermassverbot: die andere Seite der Schranken-Schranke
+
+> Verhältnismäßigkeit kontrolliert klassisch, ob der Staat **zu viel** eingreift (Uebermassverbot). Aus den Schutzpflichten folgt aber spiegelbildlich ein Untermassverbot: der Staat darf auch nicht **zu wenig** tun.
+
+## Dogmatische Bruecke
+
+- Grundrechte haben eine **objektiv-rechtliche** Dimension (BVerfGE 7, 198 (Lueth-Urteil)).
+- Daraus folgen **Schutzpflichten** gegenueber dem Buerger vor Beeintraechtigungen durch Dritte.
+- Der Gesetzgeber hat einen Einschaetzungs- und Gestaltungsspielraum, aber er darf den **erforderlichen Mindestschutz** nicht unterlaufen.
+
+## Stationen der BVerfG-Linie
+
+| Entscheidung | Schlagwort | Aussage |
+| --- | --- | --- |
+| BVerfGE 39, 1 | Schwangerschaftsabbruch I | Schutzpflicht des Staates für ungeborenes Leben aus Art 2 II GG |
+| BVerfGE 88, 203 | Schwangerschaftsabbruch II | Konkretisierung des Mindestschutzes, Beratungsregelung verfassungsmaessig möglich |
+| BVerfGE 49, 89 | Kalkar I | Schutz vor Reaktorrisiken; Restrisiko hinzunehmen, wenn Stand von Wissenschaft und Technik beachtet |
+| BVerfGE 53, 30 | Muelheim-Kaerlich | Verfahrensgrundrecht im Atomrecht |
+| BVerfGE 56, 54 | Fluglaerm | Schutzpflicht vor Laermimmissionen |
+| BVerfGE 77, 170 | C-Waffen-Lagerung | Sicherheitsabstand, Schutzpflicht des Staates |
+| BVerfGE 157, 30 | Klimaschutz-Beschluss | Intertemporale Schutzpflicht aus Art 20a GG für kuenftige Freiheitsraeume |
+
+## Prüfraster Untermassverbot
+
+1. Liegt eine Schutzgut-Bedrohung durch Dritte oder Naturgefahren vor?
+2. Hat der Staat ueberhaupt gehandelt?
+3. Ist das Schutzkonzept **insgesamt** ausreichend (nicht Einzelmassnahme, sondern Gesamtschau)?
+4. Sind die getroffenen Maßnahmen evident unzureichend?
+5. Bei intertemporaler Schutzpflicht: bleibt für die Zukunft genuegend Freiheitsraum?
+
+## Kontrolldichte
+
+- Evidenzkontrolle als Regelfall: der Gesetzgeber hat Vorrang.
+- Bei besonders hochwertigen Schutzguetern (Leben, Wuerde, kuenftige Generationen): intensive Kontrolle (BVerfGE 39, 1; BVerfGE 157, 30).
+- Bei rein wirtschaftlichen Schutzguetern: weiter Spielraum.
+
+## Verbindung
+
+Siehe `angemessenheit-abwaegung` für den klassischen Uebermass-Spiegel. Untermassverbot und Uebermassverbot bilden zusammen den vollstaendigen Prüfungsrahmen.
+
+## Quellen mit Schlagwort
+
+- BVerfGE 7, 198 (Lueth-Urteil, objektive Wertordnung)
+- BVerfGE 39, 1 (Schwangerschaftsabbruch I, Schutzpflicht)
+- BVerfGE 49, 89 (Kalkar I, Restrisiko)
+- BVerfGE 53, 30 (Muelheim-Kaerlich, Verfahrensgrundrecht)
+- BVerfGE 56, 54 (Fluglaerm-Schutzpflicht)
+- BVerfGE 77, 170 (C-Waffen-Lagerung, Sicherheitsabstand)
+- BVerfGE 88, 203 (Schwangerschaftsabbruch II, Konkretisierung Schutzpflicht)
+- BVerfGE 157, 30 (Klimaschutz-Beschluss, intertemporale Schutzpflicht)

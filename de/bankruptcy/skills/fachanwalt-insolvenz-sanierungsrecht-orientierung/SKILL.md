@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-orientierung
 title: Fachanwalt für Insolvenz- und Sanierungsrecht — Orientierung
-description: Orientierung im Insolvenz- und Sanierungsrecht für Mandate und Fachanwaltschaft nach § 14 FAO. Anwendungsfall Kanzlei will Insolvenzmandat beurteilen oder Anwalt bereitet sich auf FAO-Fachanwaltsprüfung vor. Normen §§ 17-19 InsO Eroeffnungsgründe § 15a InsO Antragspflicht §§ 270 ff. InsO Eigenverwaltung § 270d InsO Schutzschirm StaRUG EuInsVO. Prüfraster Eroeffnungsgründe Antragspflicht Plan-Verfahren Anfechtung Fachanwalt-Voraussetzungen verifizierbare Quellen. Output Rechtsgebietsuebersicht mit Normenkarte verifizierbare Quellen und Routing zu Mandatsskills. Abgrenzung zu erstgespraech-mandatsannahme und fachanwalt-insolvenz-sanierungsrecht-restrukturierungsplan.
+description: 'Für Fachanwalt für Insolvenz- und Sanierungsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/fachanwalt-insolvenz-sanierungsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -92,9 +92,9 @@ Bevor losgelegt wird, klaere:
 
 - **BGH IX ZR 122/23 vom 05.12.2024** — Konkretisierung der *Unlauterkeit* iSd § 142 Abs. 1 Hs. 2 InsO bei der Vorsatzanfechtung im Bargeschäft.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
-- **BGH IX ZR 129/22 vom 18.04.2024** — Neuausrichtung der Vorsatzanfechtung; konkrete Erwartung dauerhafter Liquiditätsunterdeckung erforderlich.
+- BGH, Urteil vom 18.04.2024 - IX ZR 129/22: Ein außenstehender Dritter darf einen nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus grundsätzlich einfach bestreiten. Die Entscheidung ist ein Darlegungsanker zu Paragraf 17 InsO, kein pauschaler Beleg für geringere Anfechtungsrisiken.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 239/22 vom 18.04.2024** — Anfechtung gesellschafterähnlicher Stellung (§ 135 InsO).
+- **BGH IX ZR 239/22 vom 18.04.2024** — Bei der Vorsatzanfechtung lässt sich die erforderliche Deckungslücke regelmäßig nicht allein aus den bereits zur Zahlungseinstellung herangezogenen Verbindlichkeiten ableiten; wiederholte Zahlungsverzögerungen belegen für sich noch keine Zahlungseinstellung.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 - **BGH IX ZR 114/23 vom 19.12.2024** — Forderungsanmeldung bei Abtretung; Individualisierung.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=19.12.2024&Aktenzeichen=IX+ZR+114/23>
@@ -104,7 +104,6 @@ Bevor losgelegt wird, klaere:
 - **BGH IV ZR 66/25 vom 19.11.2025** — D&O-Versicherung; Wissentlichkeitsausschluss erfordert positive Kenntnis pro konkreter Pflichtverletzung; § 15a / § 15b InsO nicht koppelbar.
 - **BGH 5 StR 287/24 vom 27.02.2025** — Faktischer Geschäftsführer / Firmenbestattung.
   <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA AG) — Verfassungsbeschwerde gegen Bestätigung des StaRUG-Restrukturierungsplans unzulässig.
   <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
 
 ## Quellenregel
@@ -151,3 +150,11 @@ V. SOFORT-MASSNAHMEN (bis [DATUM])
 VI. KOSTEN / HONORARRAHMEN
 [...]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

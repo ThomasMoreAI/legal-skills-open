@@ -1,52 +1,58 @@
 ---
 name: kueschk-kammertermin-sprechzettel
-title: 'Kammertermin: Sprechzettel für die Hauptverhandlung'
-description: 'Kammertermin Hauptverhandlung im Kündigungsschutzprozess: Sprechzettel mit Anträgen und Reaktionsmustern; Beweismittel-Reihenfolge; Zeugenvernehmung; Auftreten bei Urteilsverkündung; Prozessleitung durch Vorsitzenden.'
+title: 'Kammertermin Hauptverhandlung im Kündigungsschutzprozess: Sprechzettel mit Anträgen und Reaktionsmustern'
+description: 'Für Kueschk Kammertermin Sprechzettel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-kammertermin-sprechzettel
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Kammertermin: Sprechzettel für die Hauptverhandlung
+# Kammertermin Hauptverhandlung im Kündigungsschutzprozess: Sprechzettel mit Anträgen und Reaktionsmustern
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Kammertermin Hauptverhandlung im Kündigungsschutzprozess: Sprechzettel mit Anträgen und Reaktionsmustern; Beweismittel-Reihenfolge; Zeugenvernehmung; Auftreten bei Urteilsverkündung; Prozessleitung durch Vorsitzenden.
+
+### Kammertermin: Sprechzettel für die Hauptverhandlung
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Kammertermin: Sprechzettel für die Hauptverhandlung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre vor dem Kammertermin
 
 1. Liegt die Klageerwiderung des Arbeitgebers vor? Hat der Mandant darauf repliziert?
 2. Welche Beweismittel sind für den Kammertermin vorzubereiten? (Urkunden, Zeugen)
 3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-4. Ist ein Auflösungsantrag nach § 9 KSchG zu erwägen?
+4. Ist ein Auflösungsantrag nach Paragraf 9 KSchG zu erwägen?
 5. Was ist das Vergleichsminimum des Mandanten?
 
 ## Zentrale Normen
 
-- § 57 ArbGG — Kammertermin; Vollbesetzung mit zwei ehrenamtlichen Richtern
-- § 56 ArbGG — Vorbereitung des Kammertermins; Hinweispflichten des Vorsitzenden
-- § 58 ArbGG — Beweisaufnahme; Zeugenvernehmung nach ZPO-Grundsätzen
-- § 60 ArbGG — Urteilsverkündung; Urteilsfrist
-- § 9 KSchG — Auflösungsantrag des Arbeitnehmers (bis Schluss der letzten mündlichen Verhandlung)
+- Paragraf 57 ArbGG — Kammertermin; Vollbesetzung mit zwei ehrenamtlichen Richtern
+- Paragraf 56 ArbGG — Vorbereitung des Kammertermins; Hinweispflichten des Vorsitzenden
+- Paragraf 58 ArbGG — Beweisaufnahme; Zeugenvernehmung nach ZPO-Grundsätzen
+- Paragraf 60 ArbGG — Urteilsverkündung; Urteilsfrist
+- Paragraf 9 KSchG — Auflösungsantrag des Arbeitnehmers (bis Schluss der letzten mündlichen Verhandlung)
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Konnte im Gütetermin keine Einigung erzielt werden, folgt der **Kammertermin** als Hauptverhandlung. Im Kammertermin entscheidet die Kammer (Vorsitzender + zwei ehrenamtliche Richter) über die Klage. Dieser Skill bereitet den Arbeitnehmer auf diesen Termin vor.
 
 ## Was ist der Kammertermin?
 
-- Hauptverhandlung mit vollständiger Kammer (§ 57 ArbGG)
+- Hauptverhandlung mit vollständiger Kammer (Paragraf 57 ArbGG)
 - Kammer besteht aus: 1 Berufsrichter (Vorsitzender) + 1 ehrenamtlicher Richter Arbeitgeberseite + 1 ehrenamtlicher Richter Arbeitnehmerseite
 - Hier werden Anträge gestellt, Beweise erhoben, Zeugen vernommen
 - Am Ende: Urteil oder weiterer Vergleich
@@ -104,7 +110,5 @@ Ruhig bleiben. Richterliche Hinweise sind keine Urteile. Erst das Urteil abwarte
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
-<!-- AUDIT 27.05.2026
--->
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.

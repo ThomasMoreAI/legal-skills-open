@@ -1,0 +1,94 @@
+---
+name: lph8-bauueberwachung-einfamilienhaus-holzbau
+title: Bauueberwachung Einfamilienhaus Holzbau (LPH 8)
+description: 'Für Bauüberwachung Einfamilienhaus Holzbau (LPH 8): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-einfamilienhaus-holzbau
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Einfamilienhaus Holzbau (LPH 8)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Holzrahmenbau und Holztafelbau erfordern besonderes Augenmerk auf Holzfeuchte, Luftdichtheit und Verbindungsmittelkorrosion.
+Werkseitige Fertigungsqualitaet muss auf der Baustelle mit Einbaukontrolle, Fensteranschluss und Dachausbildung verifiziert werden.
+Fehler in der Luftdichtheitsebene sind nach Beplankung kaum noch korrigierbar und beeinflussen den KfW-Nachweis.
+
+## Bauwerk und Auftrag
+
+- EFH Holzrahmenbau KfW-40, 145 qm, Baden-Wuerttemberg, Fertighaus Bien-Haus, Fremdingenieur pauschal 9500 Euro
+- EFH CLT-Massivholz (Kreuzlagenholz) 3 Vollgeschosse, Bayern, oesterreichisches Holzbauunternehmen, 510000 Euro
+- Passivhaus Holzstaenderbau WDVS 30 cm, Sachsen-Anhalt, Luft-Wasser-Waermepumpe, Blower-Door n50 max. 0.6 h-1
+
+## Erste Schritte auf der Baustelle
+
+1. Prüfung Lieferunterlagen: CE-Kennzeichnung, Holzklasse GL24h, Feuchtegehalt Anlieferungsprotokoll max. 15 Prozent
+2. Kontrolle Sockelanschluss auf Betonbodenplatte: Trennlage gegen Feuchtigkeit, Schwellhoelzer Holzschutzklasse GK 3b
+3. Montagebegleitung Aufrichttag: Stuetzenstellung, Wandtafel-Verbindungen, Horizontalscheiben, Diagonalverstrebungen
+4. Luftdichtheitsebene vor Beplankung: PE-Folie lueckenfrei, Klebeband Stossstellen und Durchfuehrungen prüfen
+5. Dachanschluss und Ringbalken: Auflagerpunkt Dachbinder, Fenstersturz Anschluss Dampfbremse, Gefaellegrad
+6. Blower-Door-Vortest nach Rohbaufertigstellung: n50-Wert, Leckageortung mit Thermokamera Flir TG275, Protokoll
+
+## Normen und Rechtsrahmen
+
+- HOAI 2021 Anlage 10 § 34 LPH 8 Grundleistungen Bauueberwachung
+- § 650p BGB Architektenvertrag Pflichten Bauueberwachung, § 650q BGB Kuendigung
+- DIN EN 1995-1-1 Eurocode 5: Bemessung und Konstruktion von Holzbauten
+- DIN 4108-7 Waermeschutz: Luftdichtheit von Gebaeuden, Anforderungen und Ausfuehrung
+- DIN 68800-2 Holzschutz: Vorbeugende bauliche Maßnahmen, Schutzklassen GK 0 bis GK 3
+- GEG 2023 Gebaeude-Energie-Gesetz: Neubaustandard, KfW-Foerderprogramme und Nachweispflichten
+
+## Prüferaster und Kontrollpunkte
+
+1. Holzfeuchte Einbau: Messung Greisinger GMH 800, Grenzwert 15 Prozent für Ausbauzustand, Messprotokoll
+2. Verbindungsmittel: Schrauben A4 Edelstahl oder Feuerverzinkung ue40 my für Aussenbereich
+3. Luftdichtheitsebene: Klebestellen Fenster, Tueren, Kamin-Durchdringungen visuell und per Drucktest
+4. Wandscheiben und Aussteifung: OSB-Beplankung vollstaendig verleimt und verschraubt, Randnaegel nach Statik
+5. Brandschutz: Bekleidung K260 nach DIN EN 13501-2 in Treppenhaeusern und Fluchtwegebereichen laut LBO
+6. Estrich und Bodenaufbau: Trittschalldaemmung volllaechig, Trocknungsprotokoll vor Parkettverlegung
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Dalux Field: Klebestelle Fensteranschluss als Fotoreport mit GPS-Pin im Grundriss-Layer
+- Drohnenflug DJI Mavic 3 Enterprise: Dachflaecheninspektion, Gaubenanschluss, Kamindurchdringung
+- Werksdokumentation: CE-Zertifikat Holzbauelemente, Druckfestigkeitsklasse C24 oder GL24h, Feuchteprotokoll
+- Thermografie Flir E8 Pro: Waermebruecken Fundament-Wand-Anschluss, Rollladenkasten, Fensterlibelle
+- Blower-Door-Vor- und Endtest: Leckagepositionen im Grundriss eingetragen, n50-Wert für KfW-Antrag
+
+## Meldungserstellung im ERP / SAP
+
+- PlanRadar Mangelticket Holzbau: Kategorie Luftdichtheit/Feuchteschutz/Brandschutz, Foto, Faelligkeitsdatum
+- BIM360 Field Management: IFC-Modell laden, Mangel-Markup am 3D-Bauteil, Statusverfolgung bis Abnahme
+- RIB iTWO: Bautagebuch digital, Ressourcenrueckmeldung, Soll-Ist-Kosten Holzbau-Gewerk
+- SAP PM M1-Meldung bei Gebaeudemanager: Equipment Wohngebaeude, Schadenscode Feuchteschaden, Kostenstelle
+- Fertigstellungsnachweis KfW BEG: Energieeffizienz-Experten-Bestaetigung mit Blower-Door-Protokoll als Anlage
+
+## Typische Fallstricke
+
+- Holzfeuchte bei Anlieferung zu hoch: Nasslieferung ue18 Prozent fuehrt zu Schwindverformungen und Rissen
+- Luftdichtheitsebene durchbohrt: nachtraeglich eingebrachte Elektroleitungen zerstoeren PE-Folie
+- Brandschutzverkleidung vergessen: Holztraeger im Treppenhaus muss K260-Bekleidung erhalten, sonst Nutzungsuntersagung
+- Fehlende Diagonalverstrebung: Windscheibe durch falsch montierten Tuerschlitz geschwaeicht
+
+## Quellen
+
+- [HOAI 2021 § 34](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [GEG 2023](https://www.gesetze-im-internet.de/geg/index.html)
+- [DIN 4108-7 Luftdichtheit](https://www.gesetze-im-internet.de/)
+- [VOB/C DIN 18334 Holzbauarbeiten](https://www.gesetze-im-internet.de/)
+- [BGH, Urteil vom 9. November 2000, VII ZR 362/99](https://dejure.org/dienste/vernetzung/rechtsprechung?Text=VII+ZR+362/99): Bei wichtigen oder kritischen Baumaßnahmen mit erfahrungsgemäß hohem Mängelrisiko ist erhöhte Aufmerksamkeit und intensivere Bauaufsicht erforderlich; die konkrete Kontrolldichte bleibt aus Leistung, Gefahrenlage und Ausführung abzuleiten.

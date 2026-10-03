@@ -1,11 +1,11 @@
 ---
 name: muendliche-verhandlung-vgh-strategie
 title: Mündliche Verhandlung BayVGH/OVG
-description: 'Normenkontrollantrag steht vor muendlicher Verhandlung am VGH oder OVG. Vorbereitung muendliche Verhandlung Normenkontrolle. Prüfraster: Plaedoyer Einleitung Sachverhalt Rechtsausführungen Anträge schriftliche Beweisanträge Ortsbesichtigung Hilfsanträge Teilunwirksamkeit Wirkungsausspruch Kostenentscheidung. Revision § 132 VwGO nur grundsaetzliche Bedeutung. Output: Verhandlungsstruktur und Plaedoyer-Entwurf. Abgrenzung zu normenkontrollantrag-schriftsatz (Schriftsatz vor Verhandlung) und einstweilige-anordnung-47-abs-6-vwgo.'
+description: 'Für Mündliche Verhandlung BayVGH/OVG: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/muendliche-verhandlung-vgh-strategie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Mündliche Verhandlung BayVGH/OVG
-
-## Zweck
-
-Die mündliche Verhandlung ist der entscheidende Auftritt. Senatsentscheidungen fallen in der Regel kurz danach. Vorbereitung und strukturiertes Plädoyer entscheiden.
 
 ## Schritt 1 — Vor der Verhandlung
 
@@ -101,22 +97,22 @@ Die mündliche Verhandlung ist der entscheidende Auftritt. Senatsentscheidungen 
 
 ### Empfohlener Aufbau (15-30 Minuten)
 1. **Einleitung** (1-2 Minuten)
-   - Konkrete Mandantenbetroffenheit
-   - Schlüsselsatz: warum dieser Plan unwirksam ist
+ - Konkrete Mandantenbetroffenheit
+ - Schlüsselsatz: warum dieser Plan unwirksam ist
 2. **Sachverhalt** (2-3 Minuten)
-   - Nur die für den Senat wichtigen Tatsachen
-   - Verweis auf Schriftsatz für Details
+ - Nur die für den Senat wichtigen Tatsachen
+ - Verweis auf Schriftsatz für Details
 3. **Verfahrensfehler** (5-7 Minuten)
-   - Anstoßfunktion / Auslegung / Umweltbericht
-   - Subsumtion § 214 BauGB
+ - Anstoßfunktion / Auslegung / Umweltbericht
+ - Subsumtion § 214 BauGB
 4. **Materielle Fehler** (8-12 Minuten)
-   - Erforderlichkeit (wenn vorhanden) — kurz und scharf
-   - Abwägungsausfall (Vorfestlegung) — mit Belegen
-   - Abwägungsdefizit / Fehlgewichtung — pro Belang
-   - Disproportionalität — Ergebnis
+ - Erforderlichkeit (wenn vorhanden) — kurz und scharf
+ - Abwägungsausfall (Vorfestlegung) — mit Belegen
+ - Abwägungsdefizit / Fehlgewichtung — pro Belang
+ - Disproportionalität — Ergebnis
 5. **Schluss** (1-2 Minuten)
-   - Hilfsantrag Teilunwirksamkeit
-   - Antrag
+ - Hilfsantrag Teilunwirksamkeit
+ - Antrag
 
 ### Stil
 - Frei sprechen, nicht ablesen
@@ -216,8 +212,4 @@ Die mündliche Verhandlung ist der entscheidende Auftritt. Senatsentscheidungen 
 
 ## Aktuelle Rechtsprechung — Leitsaetze Verhandlung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,11 +5,16 @@ description: 资本市场尽职调查 Skill：发行人独立性核查（对应�
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-independence
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: capital-markets
 language: zh
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Regulations index
+  path: references/regulations-index.md
 ---
 
 # ecm-dd-independence

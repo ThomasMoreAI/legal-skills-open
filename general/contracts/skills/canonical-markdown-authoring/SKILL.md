@@ -3,9 +3,9 @@ name: canonical-markdown-authoring
 title: canonical-markdown-authoring
 description: Convert plain markdown contract drafts into OpenAgreements' canonical template.md authoring format — YAML frontmatter, Kind|Label|Value|Show When cover-term tables, oa:clause directives, [[Defined Term]] paragraphs, and oa:signer directives that compile to validated JSON specs and DOCX artifacts. Use when the user says "convert this to canonical markdown," "author a new OpenAgreements template," "migrate template to template.md," or "write a canonical-form contract."
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/canonical-markdown-authoring
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/internal/canonical-markdown-authoring
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -30,7 +30,7 @@ Use this skill when the user wants to:
 
 This skill assumes:
 - You are working inside an OpenAgreements repo checkout. Templates live at
-  `content/templates/<template-id>/template.md`.
+  `templates/<template-id>/template.md`.
 - The shared canonical compiler (`scripts/template_renderer/canonical-source.mjs`)
   and the `cover-standard-signature-v1` layout are present.
 
@@ -65,13 +65,12 @@ template_id: openagreements-<slug>                # kebab-case, must match the d
 layout_id: cover-standard-signature-v1
 style_id: openagreements-default-v1
 outputs:
-  docx: content/templates/openagreements-<slug>/template.docx
+  docx: templates/openagreements-<slug>/template.docx
 document:
   title: <Document title>                         # MUST match the H1 below
   label: <Catalog label, e.g. "OpenAgreements XYZ">
   version: "1.0"
   license: Free to use under CC BY 4.0
-  include_cloud_doc_line: true
   defined_term_highlight_mode: definition_site_only   # see "Highlight modes"
   cover_row_height: 700
 sections:
@@ -89,9 +88,9 @@ sections:
 
 Notes:
 - Canonical sources do **not** declare `source_json`. `npm run generate:templates`
-  auto-discovers any `content/templates/<slug>/template.md` whose frontmatter
+  auto-discovers any `templates/<slug>/template.md` whose frontmatter
   declares `template_id`, `layout_id`, and `style_id`, then writes the
-  generated JSON to `content/templates/<slug>/.template.generated.json`
+  generated JSON to `templates/<slug>/.template.generated.json`
   (a hidden, do-not-edit-by-hand artifact).
 - Do **not** add `output_markdown_path` or `outputs.markdown` — the canonical
   compiler rejects them. The canonical `template.md` *is* the source.
@@ -393,15 +392,15 @@ npm run generate:templates
 The canonical compiler:
 1. Parses `template.md` → normalized model.
 2. Validates definitions, references, signers, and field-name shapes.
-3. Writes the regenerated JSON to `content/templates/<slug>/.template.generated.json`.
+3. Writes the regenerated JSON to `templates/<slug>/.template.generated.json`.
 4. Renders the DOCX via the shared layout to `outputs.docx`.
 
 After generation:
-- `git diff content/templates/<slug>/.template.generated.json` — should be empty
+- `git diff templates/<slug>/.template.generated.json` — should be empty
   if your source matches the previously committed JSON.
-- `npx vitest run integration-tests/canonical-source-sync.test.ts` — proves the
+- `npm run generate:templates && git diff --exit-code` — proves the
   canonical → JSON projection is in sync.
-- `npx vitest run integration-tests/canonical-source-authoring.test.ts integration-tests/template-renderer-json-spec.test.ts packages/contract-templates-mcp/tests/tools.test.ts` — broader coverage.
+- `npx vitest run integration-tests/canonical-source-authoring.test.ts packages/contract-templates-mcp/tests/tools.test.ts` — broader coverage.
 
 ## Highlight modes
 
@@ -422,10 +421,10 @@ template-wide `style.defined_terms` list still applies as a fallback for
 
 Working canonical templates already in the repo:
 
-- `content/templates/openagreements-restrictive-covenant-wyoming/template.md` —
+- `templates/openagreements-restrictive-covenant-wyoming/template.md` —
   feature-rich: substantive defined terms paired with narrow cover-term anchors
   for operative concepts, group/subrow cover terms, and conditional clauses.
-- `content/templates/openagreements-employee-ip-inventions-assignment/template.md` —
+- `templates/openagreements-employee-ip-inventions-assignment/template.md` —
   simpler: 2 substantive defined terms (`Covered Inventions`, `Confidential
   Information`), present-tense IP assignment language, and all-row cover terms.
 
@@ -436,7 +435,7 @@ shape reference and adapt.
 
 | Pitfall | Symptom | Fix |
 | --- | --- | --- |
-| Edited `template.md` but forgot to regenerate | `canonical-source-sync.test.ts` fails | Run `npm run generate:templates` and commit the regenerated `.template.generated.json` diff. |
+| Edited `template.md` but forgot to regenerate | `npm run generate:templates` leaves a dirty diff | Run `npm run generate:templates` and commit the regenerated `.template.generated.json` diff. |
 | H1 doesn't match `document.title` | Silent drift; renders the frontmatter title | Keep them in sync manually until cross-validation lands. |
 | `output_markdown_path` left in frontmatter | Compiler throws | Remove `outputs.markdown` and any top-level `output_markdown_path`. |
 | `source_json` left in frontmatter | Quietly ignored today; will become an error | Remove `source_json` — JSON paths are now derived from the slug. |
@@ -459,13 +458,12 @@ template_id: openagreements-example-nda
 layout_id: cover-standard-signature-v1
 style_id: openagreements-default-v1
 outputs:
-  docx: content/templates/openagreements-example-nda/template.docx
+  docx: templates/openagreements-example-nda/template.docx
 document:
   title: Example Mutual NDA
   label: OpenAgreements Example Mutual NDA
   version: "1.0"
   license: Free to use under CC BY 4.0
-  include_cloud_doc_line: true
   defined_term_highlight_mode: definition_site_only
   cover_row_height: 600
 sections:

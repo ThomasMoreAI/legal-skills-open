@@ -1,11 +1,11 @@
 ---
 name: leistungsbegriff-bewusste-zweckgerichtete-mehrung
 title: 'Leistungsbegriff: Bewusste und zweckgerichtete Mehrung'
-description: 'Leistungsbegriff im Bereicherungsrecht bestimmen: bewusste zweckgerichtete Mehrung, Empfängerhorizont, Vermögenszuordnung und Mehrpersonenfälle. Output: Leistungskarte mit Abgrenzung zur Nichtleistungskondiktion.'
+description: 'Für Leistungsbegriff: Bewusste und zweckgerichtete Mehrung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: leistungsbegriff-bewusste-zweckgerichtete-mehrung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/leistungsbegriff-bewusste-zweckgerichtete-mehrung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Leistungsbegriff: Bewusste und zweckgerichtete Mehrung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 812 ff. BGB, AnfG und Insolvenzanfechtung; §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten; § 135 Gesellschafterdarlehen, Bargeschäft; § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor der Prüfung
 
@@ -26,19 +34,6 @@ language: de
 
 § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 812 Abs. 1 S. 1 Alt. 2 BGB (Nichtleistungskondiktion) — § 814 BGB (Ausschluss bei Kenntnis) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 267 BGB (Drittleistung) — § 362 BGB (Erfüllungswirkung) — § 242 BGB (Treu und Glauben bei Durchgriff)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Definition
 
 Nach h.M. und ständiger BGH-Rechtsprechung ist Leistung i.S.d. § 812 Abs. 1 S. 1 Alt. 1 BGB jede **bewusste und zweckgerichtete Mehrung fremden Vermögens**.
@@ -113,3 +108,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

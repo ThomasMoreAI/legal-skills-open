@@ -1,11 +1,11 @@
 ---
 name: bereicherung-eines-dritten-822-bgb
 title: Bereicherung eines Dritten — § 822 BGB
-description: 'Bereicherungsanspruch gegen Dritten bei unentgeltlicher Weitergabe des Erlangten nach § 822 BGB prüfen. Normen: § 822 BGB. Prüfraster: Unentgeltlichkeit der Weitergabe, Entreicherung des Erstempfängers, Subsidiarität des Drittanspruchs. Output: Prüfergebnis Anspruchskette Dritter. Abgrenzung: nicht Direktanspruch § 812 Abs. 1 S. 1 BGB gegen Erstempfänger.'
+description: 'Für Bereicherung eines Dritten — Paragraf 822 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: bereicherung-eines-dritten-822-bgb.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/bereicherung-eines-dritten-822-bgb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -26,17 +26,6 @@ language: de
 
 § 822 BGB (Bereicherung eines Dritten) — § 812 Abs. 1 S. 1 BGB (Leistungskondiktion, Primäranspruch) — § 818 Abs. 3 BGB (Entreicherung) — § 818 Abs. 4, § 819 BGB (verschärfte Haftung) — § 816 Abs. 1 S. 2 BGB (unentgeltliche Verfügung) — § 816 Abs. 2 BGB (Leistung an Nichtberechtigten)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Zweck
 
 § 822 BGB schließt eine Schutzlücke: Hat der Erstempfänger das Erlangte unentgeltlich an einen Dritten weitergegeben und ist er dadurch entreichert (§ 818 Abs. 3 BGB), hätte der Bereicherungsgläubiger keine Ansprüche mehr. § 822 BGB gibt ihm einen Direktanspruch gegen den Dritten.
@@ -95,3 +84,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

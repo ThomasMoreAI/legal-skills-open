@@ -1,11 +1,11 @@
 ---
 name: mittelstand-ma-aktenanlage
 title: Freistehende M&A-Aktenanlage (Mittelstand)
-description: 'Kanzlei eroeffnet neue Deal-Akte für M&A-Mandat: Aktenzeichen Parteienregister Ordnerstruktur Datenraumspiegel Vertraulichkeitsstufen Closing-Bible-Grundgeruest. Normen BRAO §§ 43 50 Aktenaufbewahrungspflicht DSGVO. Prüfraster Vollständigkeit Akte Vertraulichkeitseinstufung Zugriffskontrolle. Output Aktenstruktur-Template Aktenzeichen-Schema Zugriffsmatrix. Abgrenzung zu matter-file (Workspace) und mittelstand-ma-tabellenreview (Daten).'
+description: 'Für Freistehende M&A-Aktenanlage (Mittelstand): ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/mittelstand-ma-aktenanlage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -13,6 +13,24 @@ language: de
 ---
 
 # Freistehende M&A-Aktenanlage (Mittelstand)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO; StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Freistehende M&A-Aktenanlage (Mittelstand)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Freistehende M&A-Aktenanlage (Mittelstand)
+- **Normen-/Quellenanker:** GmbHG, HGB, BGB, UmwG, WpÜG/GWB/AWG je nach Transaktion, Satzung, Geschäftsordnung, Gesellschafterbeschluss und Beiratsordnung.
+- **Entscheidende Weiche:** Trenne Dealstruktur, Organbeschluss, Zustimmungsvorbehalt, Informationsrecht, Haftung, Interessenkonflikt und Vollzugsdokument.
 
 ## Kernsachverhalt
 
@@ -26,7 +44,7 @@ Im Mittelstands-M&A sind die Transaktionen häufig vom Gesellschafter-Geschäfts
 4. Welche Deadline ist realistisch — häufig 3–6 Monate im Mittelstand statt 12–18 Monate in Large-Cap?
 5. Gibt es existierende Gesellschafterverträge, Stimmbindungsverträge, Erbverträge oder Testamente, die die Transaktion beeinflussen?
 6. Ist eine externe Finanzierung (Hausbank, KfW, Beteiligungsgesellschaft) vorgesehen?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -47,16 +65,14 @@ Im Mittelstands-M&A sind die Transaktionen häufig vom Gesellschafter-Geschäfts
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema / Anlage-Checkliste (Mittelstand-angepasst)
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfungspunkt | Inhalt | Status |
 |---|---|---|---|
-| 1 | KYC / Mandatsannahme | GwG-Identifikation; bei Familienunternehmen: wirtschaftlich Berechtigte (>25 %) identifizieren; Erbengemeinschaft prüfen | TODO / OK |
+| 1 | KYC / Mandatsannahme | GwG-Identifikation; bei Familienunternehmen: wirtschaftlich Berechtigte (>25 %) identifizieren; Erbengemeinschaft prüfen | offen / geprüft |
 | 2 | Matter Opening Card | Deal-Code, Aktenzeichen, Mandant, Zielgesellschaft, Gegenseite, Vertraulichkeit, Deadline | Angelegt |
 | 3 | Gesellschaftsrechtliche Grundstruktur | HRB/HRA, Gesellschafterliste (§ 40 GmbHG), Satzung, Gesellschaftervereinbarungen | Struktur klar |
 | 4 | Nachfolgerechtliche Dimension | Testament, Erbvertrag, vorweggenommene Erbfolge, Pflichtteilsrechte; ggf. Steuerberater für Schenkungssteuer | Erbrecht geprüft |
@@ -104,17 +120,16 @@ Im Mittelstands-M&A sind die Transaktionen häufig vom Gesellschafter-Geschäfts
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — M-and-A-Akte fuer Mittelstand anlegen | Aktenanlage nach Checkliste; Dokumentenvorlage unten |
+| Standard — M-and-A-Akte für Mittelstand anlegen | Aktenanlage nach Checkliste; Dokumentenvorlage unten |
 | Variante A — Sehr kleines Unternehmen KMU einfache Akte | Vereinfachte Akte ohne alle Unterordner |
 | Variante B — Familienunternehmen besondere Vertraulichkeit | Strikte Zugangskontrolle; separate Vertraulichkeits-Akte |
 | Variante C — Mehrere parallele Interessenten parallel-Track | Parallel-Track-Aktenstruktur; Datenraum koordinieren |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -135,13 +150,13 @@ Gegenseite: [Name] — vertreten durch [Kanzlei / Steuerberater]
 GESELLSCHAFTSRECHTLICHE DATEN
 Gesellschafterliste: [Datum, Anlage]
 Satzung: [Datum, Version]
-Gesellschaftervereinbarungen: [Ja / Nein / TODO prüfen]
+Gesellschaftervereinbarungen: [Ja / Nein / offen prüfen]
 Vinkulierung: [Ja / Nein]
 
 NACHFOLGE / ERBRECHT
-Testament / Erbvertrag vorhanden: [Ja / Nein / TODO]
+Testament / Erbvertrag vorhanden: [Ja / Nein / offen prüfen]
 Vorweggenommene Erbfolge: [Ja / Nein]
-Pflichtteilsberechtigte: [Namen / TODO]
+Pflichtteilsberechtigte: [Namen / offen prüfen]
 
 FRISTEN
 LOI-Unterzeichnung: [Datum]
@@ -176,25 +191,24 @@ ENTHALTENE DOKUMENTE (Inventar)
 5. Wesentliche Kundenverträge — Anzahl: [X]
 6. Grundbuchauszüge — Anzahl: [X]
 
-DATENLÜCKEN (TODO)
-- Steuerbescheid [Jahr] fehlt → TODO [Owner] bis [Datum]
-- Pensionsgutachten nicht übergeben → TODO [Owner] bis [Datum]
+DATENLÜCKEN
+- Steuerbescheid [Jahr] fehlt → Verantwortlich: [Name] bis [Datum]
+- Pensionsgutachten nicht übergeben → Verantwortlich: [Name] bis [Datum]
 
 VERTRAULICHKEITSVERMERK: Alle übermittelten Unterlagen unterliegen dem
 Vertraulichkeitsvertrag vom [Datum] (Anlage [X]).
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Strategische Empfehlung
 
@@ -213,9 +227,8 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 50 BRAO; §§ 5, 6, 8 GwG; §§ 15, 40 GmbHG; §§ 2032 ff. BGB; Art. 5 DSGVO
 
 ## Ergaenzende Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: vorlage-ma-due-diligence
 title: /tabellenreview-3d:vorlage-ma-due-diligence
-description: 'Vorlagetabelle für M-und-A-Due-Diligence im 3D-Format: Forderungen, Verbindlichkeiten, Rechtsrisiken. Normen: GmbHG, AktG, HGB, InsO. Prüfraster: Vertragsrisiken, Haftungsuebernahme, steuerliche Lasten. Output: Due-Diligence-Tabelle für M-und-A-Transaktionen. Abgrenzung: nicht allgemeines M-und-A-Skill.'
+description: 'Für /tabellenreview-3d:vorlage-ma-due-diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Tabellenreview 3D. Route: vorlage-ma-due-diligence.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/vorlage-ma-due-diligence
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -13,10 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:vorlage-ma-due-diligence
-
-## Zweck
-
-M&A-DD bei einem Vertragsstapel der Zielgesellschaft. Die Standardfragen sind bekannt — diese Vorlage liefert sie fix und fertig: Spaltenprompts mit BGH-Verankerung, vier Arbeitsblatt-Perspektiven, Ampel-Schwellen praxisbewährt.
 
 ## Spalten (18 Datenpunkte)
 
@@ -65,10 +61,14 @@ M&A-DD bei einem Vertragsstapel der Zielgesellschaft. Die Standardfragen sind be
 - Prüfer: Datenschutzbeauftragter
 - Materialität rot: Auftragsverarbeitung ohne AVV oder Drittlandtransfer ohne SCC
 
-## BGH-Leitsätze (Auswahl)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Ausgabe
 
 Würfel-Schema fix und fertig in `wuerfel-schema.yaml` mit allen drei Achsen. Direkt einsatzbereit für `review-durchfuehren`.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

@@ -1,16 +1,132 @@
 ---
 name: ca-law-references
 title: California Law References — General Civil Practice
-description: This skill should be used when the user needs to cite, apply, or research law that bears on California civil court practice across any subject matter. Triggers include "CCP 437c", "Code Civ. Proc., § 437c", "summary judgment California", "CCP 2016", "Civil Discovery Act", "California discovery rules", "CEC 1271", "Cal. Evid. Code § 1271", "business records California", "authentication California evidence", "hearsay exception California", "California citation format", "California Style Manual", "CSM", "Cal.", "Cal.App.", "Cal.Rptr.", "California prevailing party fees", "CCP 1032", "CCP 1033.5", "cost memorandum California", "motion to tax costs", "CCP 998 offer", "Civ. Code § 1717", "attorney fees contract California", "CCP 1021.5 private attorney general", "LASC local rules", "SFSC local rules", "Cal. Rules of Court rule 3.1308", "CRC 3.1300", "CRC 3.700", "case management conference California", "California civil demurrer", "CCP 430.10", "CCP 431.30", "motion to strike California",
-  "CCP 435", "California answer deadline", "30 days to answer California", "verify California citation", "Aguilar v. Atlantic Richfield", "Howell v. Hamilton Meats", "collateral source California", "Riverisland parol evidence", "canonical URL California courts", "fetch California court rule". Covers the California Code of Civil Procedure (CCP), the California Evidence Code (CEC, Cal. Evid. Code), California Rules of Court (CRC), fees and costs under CCP §§ 1032 and 1033.5, local rules for LASC, SFSC, OCSC, and other Superior Courts, general civil key cases, the California Style Manual citation conventions, and the canonical online-sources catalog for fetching current rule text, statutes, and case law. For subject-matter-specific law (debt collection under Rosenthal FDCPA or the UCL, landlord-tenant, family, personal injury), compose with the relevant subject-matter skill (e.g., ca-consumer-debt).
+description: Use when researching law bearing on California civil court practice. Triggers include "CCP 437c", "summary judgment California", "Civil Discovery Act", "business records California", "authentication evidence California", "California citation format", "California Style Manual", "prevailing party fees", "motion to tax costs", "CCP 998 offer", "attorney fees contract", "LASC local rules", "case management conference", "demurrer", "motion to strike", "answer deadline", "collateral source California", "canonical URL California courts". Covers California Code of Civil Procedure (CCP), Evidence Code (CEC), California Rules of Court (CRC), fees and costs under CCP §§ 1032 and 1033.5, local rules, general civil key cases, California Style Manual citation conventions, and online-sources catalog.
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/ca-court-docs/skills/ca-law-references
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation
 language: en
+sources:
+- title: Bpc ucl
+  path: references/ca-statutes-debt/BPC-UCL.md
+- title: Ccp arbitration
+  path: references/ca-statutes-debt/CCP-Arbitration.md
+- title: Ccp discovery
+  path: references/ca-statutes-debt/CCP-Discovery.md
+- title: Ccp enforcement
+  path: references/ca-statutes-debt/CCP-Enforcement.md
+- title: Ccp exemptions
+  path: references/ca-statutes-debt/CCP-Exemptions.md
+- title: Ccp motions 1005 to 1020
+  path: references/ca-statutes-debt/CCP-Motions-1005-to-1020.md
+- title: Ccp pleadings
+  path: references/ca-statutes-debt/CCP-Pleadings.md
+- title: Ccp relief 473
+  path: references/ca-statutes-debt/CCP-Relief-473.md
+- title: Ccp sol
+  path: references/ca-statutes-debt/CCP-SOL.md
+- title: Ccp service
+  path: references/ca-statutes-debt/CCP-Service.md
+- title: Ccp time computation
+  path: references/ca-statutes-debt/CCP-Time-Computation.md
+- title: Ccp trial new jnov
+  path: references/ca-statutes-debt/CCP-Trial-New-JNOV.md
+- title: Ccp unlawful detainer
+  path: references/ca-statutes-debt/CCP-Unlawful-Detainer.md
+- title: Ccp writs
+  path: references/ca-statutes-debt/CCP-Writs.md
+- title: Civcode atty fees
+  path: references/ca-statutes-debt/CivCode-Atty-Fees.md
+- title: Civcode clra
+  path: references/ca-statutes-debt/CivCode-CLRA.md
+- title: Civcode contracts
+  path: references/ca-statutes-debt/CivCode-Contracts.md
+- title: Civcode damages
+  path: references/ca-statutes-debt/CivCode-Damages.md
+- title: Civcode fdbpa
+  path: references/ca-statutes-debt/CivCode-FDBPA.md
+- title: Civcode rosenthal
+  path: references/ca-statutes-debt/CivCode-Rosenthal.md
+- title: Civcode song beverly
+  path: references/ca-statutes-debt/CivCode-Song-Beverly.md
+- title: Commcode art 2 sales
+  path: references/ca-statutes-debt/CommCode-Art-2-Sales.md
+- title: Commcode art 3 negotiable
+  path: references/ca-statutes-debt/CommCode-Art-3-Negotiable.md
+- title: Commcode art 9 secured
+  path: references/ca-statutes-debt/CommCode-Art-9-Secured.md
+- title: Evidcode key
+  path: references/ca-statutes-debt/EvidCode-Key.md
+- title: Famcode custody
+  path: references/ca-statutes-debt/FamCode-Custody.md
+- title: Famcode dissolution
+  path: references/ca-statutes-debt/FamCode-Dissolution.md
+- title: Famcode property
+  path: references/ca-statutes-debt/FamCode-Property.md
+- title: Famcode support
+  path: references/ca-statutes-debt/FamCode-Support.md
+- title: Fincode cdcla
+  path: references/ca-statutes-debt/FinCode-CDCLA.md
+- title: Labcode wages
+  path: references/ca-statutes-debt/LabCode-Wages.md
+- title: Probcode basics
+  path: references/ca-statutes-debt/ProbCode-Basics.md
+- title: Readme
+  path: references/ca-statutes-debt/README.md
+- title: Citation format
+  path: references/citation-format.md
+- title: Civil rules
+  path: references/civil-rules.md
+- title: Ccp procedure survey
+  path: references/court-rules/CCP-Procedure-Survey.md
+- title: Cec evidence code
+  path: references/court-rules/CEC-Evidence-Code.md
+- title: Crc title 1 general rules
+  path: references/court-rules/CRC-Title-1-General-Rules.md
+- title: Crc title 10 judicial admin
+  path: references/court-rules/CRC-Title-10-Judicial-Admin.md
+- title: Crc title 2 trial court rules
+  path: references/court-rules/CRC-Title-2-Trial-Court-Rules.md
+- title: Crc title 3 civil rules
+  path: references/court-rules/CRC-Title-3-Civil-Rules.md
+- title: Crc title 4 criminal rules
+  path: references/court-rules/CRC-Title-4-Criminal-Rules.md
+- title: Crc title 5 family law rules
+  path: references/court-rules/CRC-Title-5-Family-Law-Rules.md
+- title: Crc title 7 probate rules
+  path: references/court-rules/CRC-Title-7-Probate-Rules.md
+- title: Crc title 8 appellate rules
+  path: references/court-rules/CRC-Title-8-Appellate-Rules.md
+- title: Crc title 9 attorney rules
+  path: references/court-rules/CRC-Title-9-Attorney-Rules.md
+- title: Lasc local rules
+  path: references/court-rules/LASC-Local-Rules.md
+- title: Ocsc local rules
+  path: references/court-rules/OCSC-Local-Rules.md
+- title: Other county local rules
+  path: references/court-rules/Other-County-Local-Rules.md
+- title: Readme
+  path: references/court-rules/README.md
+- title: Rules of professional conduct
+  path: references/court-rules/Rules-of-Professional-Conduct.md
+- title: Sfsc local rules
+  path: references/court-rules/SFSC-Local-Rules.md
+- title: Evidence rules
+  path: references/evidence-rules.md
+- title: Fees and costs
+  path: references/fees-and-costs.md
+- title: Key cases
+  path: references/key-cases.md
+- title: Legal data apis
+  path: references/legal-data-apis.md
+- title: Local rules
+  path: references/local-rules.md
+- title: Online sources
+  path: references/online-sources.md
 ---
 
 # California Law References — General Civil Practice

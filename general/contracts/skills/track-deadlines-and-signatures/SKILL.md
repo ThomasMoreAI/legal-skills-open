@@ -5,7 +5,7 @@ description: 'Keep tabs on what''s outstanding on the legal side. Pick what you 
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/track-deadlines-and-signatures
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -46,6 +46,7 @@ Read `config/context-ledger.json` first.
 If any required field missing, ask ONE targeted question with right modality hint, write, continue.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read ledger + state files.** Gather missing required fields per above. Write atomically.
 2. **Discover tools via Composio.** `composio search signing-platform` (signatures), `composio search document-storage` (signatures + counterparties). No discovery needed for `deadlines` or `weekly-review` (pure file ops).

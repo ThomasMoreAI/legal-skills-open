@@ -1,11 +1,11 @@
 ---
 name: output-fremdsprachig-en-fr
 title: 'Output: Fremdsprachig (Englisch und Französisch)'
-description: Gibt das Subsumtionsergebnis auf Englisch oder Franzoesisch aus. Enthaelt obligatorischen Hinweis auf nicht-amtliche Übersetzung und Abweichung von deutschen Originalnormen. Nuetzlich für internationale Mandanten, grenzüberschreitende Sachverhalte und EU-Verfahren.
+description: 'Für Output: Fremdsprachig (Englisch und Französisch): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/output-fremdsprachig-en-fr
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,20 +14,13 @@ language: de
 
 # Output: Fremdsprachig (Englisch und Französisch)
 
-## Zweck
-
-Für internationale Mandanten, grenzüberschreitende Sachverhalte und EU-rechtliche Verfahren ist eine englische oder französische Ausgabe des Subsumtionsergebnisses hilfreich. Dieser Skill erzeugt Ausgaben in beiden Sprachen und kennzeichnet sie ausdrücklich als nicht-amtliche Übersetzungen.
-
 ## Triage zu Beginn
 
 1. Welche Sprache wird benötigt? (Englisch / Französisch / zweisprachig)
 2. Hat der Sachverhalt einen EU-Bezug? → Französisch empfohlen als EU-Amtssprache
 3. Ist das Dokument für eine internationale Schiedsklausel bestimmt? → Englisch ICC/DIS-Standard
 4. Ist eine notariell beglaubigte Übersetzung erforderlich? → Hinweis: diese Ausgabe ist nicht beglaubigt
-
-## Aktuelle Rechtsprechung mit EU-Bezug
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+5. Sind Fristen oder Verfahrenshandlungen im Ausland relevant? → Zustellungsregeln und Fristberechnung im Zielland separat prüfen
 
 ## Obligatorischer Hinweis (Pflicht in jeder fremdsprachigen Ausgabe)
 
@@ -41,8 +34,6 @@ Jedes Ausgabedokument in englischer oder französischer Sprache beginnt mit:
 
 ## Terminologie — Englisch
 
-Das System verwendet anerkannte Übersetzungen für deutsche und EU-Rechtsbegriffe:
-
 | Deutsch | Englisch |
 |---------|---------|
 | Tatbestandsmerkmal | constituent element / element of the offence |
@@ -55,6 +46,9 @@ Das System verwendet anerkannte Übersetzungen für deutsche und EU-Rechtsbegrif
 | Vorabentscheidungsersuchen | request for a preliminary ruling |
 | Verhältnismäßigkeit | proportionality |
 | Verwaltungsakt | administrative act / administrative decision |
+| Beweislast | burden of proof |
+| Darlegungslast | burden of pleading / burden of production |
+| Anscheinsbeweis | prima facie evidence |
 
 ## Terminologie — Französisch
 
@@ -68,10 +62,13 @@ Das System verwendet anerkannte Übersetzungen für deutsche und EU-Rechtsbegrif
 | einstweilige Verfügung | ordonnance de référé / mesure provisoire |
 | Vorabentscheidungsersuchen | renvoi préjudiciel |
 | Verhältnismäßigkeit | proportionnalité |
+| Beweislast | charge de la preuve |
 
 ## Struktur der fremdsprachigen Ausgabe
 
-Die fremdsprachige Ausgabe folgt derselben Struktur wie die deutsche Ausgabe (Vier-Schritt-Schema, Beweisübersicht, Ergebnis), aber in der gewählten Sprache. Rechtsbegriffe werden beim ersten Auftreten in eckigen Klammern mit dem deutschen Originalterm versehen: "legal basis [Anspruchsgrundlage]".
+Die fremdsprachige Ausgabe folgt derselben Struktur wie die deutsche Ausgabe (Vier-Schritt-Schema: Obersatz, Definition, Subsumtion, Ergebnis). Rechtsbegriffe werden beim ersten Auftreten in eckigen Klammern mit dem deutschen Originalterm versehen: "legal basis [Anspruchsgrundlage]".
+
+Bei EU-Rechtsbegriffen gilt die Terminologie der amtlichen Sprachfassung (eur-lex.europa.eu) als maßgebend.
 
 ## Sprachauswahl
 
@@ -83,6 +80,8 @@ Das System fragt am Anfang:
 
 Für Sachverhalte mit Bezug zu EU-Institutionen (EuGH, Kommission, Rat) empfiehlt das System Französisch als primäre EU-Arbeitssprache zusätzlich zur englischen Fassung.
 
----
+## Besondere Hinweise bei internationalen Sachverhalten
 
-Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
+- Schiedsverfahren: Sprachregelung in der Schiedsklausel beachten (§ 1045 ZPO; ICC-Regeln; DIS-Regeln)
+- Gerichtsstand und Zustellungsfragen: EuGVVO (VO 1215/2012), HZÜ, EuZVO — live prüfen
+- Ausländisches Recht wird nicht angewendet; bei Kollisionsrechtsfragen Verweis auf IPR (EGBGB, Rom I-VO, Rom II-VO)

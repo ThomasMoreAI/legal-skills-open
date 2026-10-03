@@ -5,15 +5,15 @@ description: 'Expert NIST AI Risk Management Framework (AI RMF 1.0) advisor cove
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/nist-ai-rmf/skills/nist-ai-rmf
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
 sources:
-- title: Rmf Core
+- title: Rmf core
   path: references/rmf-core.md
-- title: Rmf Profiles
+- title: Rmf profiles
   path: references/rmf-profiles.md
 ---
 

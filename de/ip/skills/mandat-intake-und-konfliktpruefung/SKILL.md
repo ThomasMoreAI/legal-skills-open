@@ -1,0 +1,48 @@
+---
+name: mandat-intake-und-konfliktpruefung
+title: Mandatsannahme und Konfliktpruefung
+description: 'Für Mandatsannahme und Konfliktprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/lizenzvertragsersteller/skills/mandat-intake-und-konfliktpruefung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Mandatsannahme und Konfliktpruefung
+
+## Prüfraster
+
+| Punkt | Prüfung | Belege |
+| --- | --- | --- |
+| Konfliktcheck | Vertretung Gegenseite, Vorbefassung Konzern, Vertretung Wettbewerber im selben Technologiefeld | Kanzleidatenbank, Paragraf 43a BRAO, Paragraf 3 BORA |
+| Mandantenbasisdaten | Firma/Anschrift, HRB, gesetzliche Vertreter, UBO | HR-Auszug, Beneficial-Ownership-Register |
+| Mandatsumfang | Vertragsentwurf (Lizenzgeber/-nehmer/Cross), Prüfung Vertrag der Gegenseite, Begleitung Verhandlung, Insolvenzberatung | Mandatsmail |
+| Zielsetzung | Was soll erreicht werden? Geld, Marktzugang, Insolvenzschutz, Cross-License-Patentaustausch | Klärung im Erstgespraech |
+| Eilfristen | NDA-Verfallsdatum, MOU-Bindungsfristen, Vertragsschlussabsicht | Aktenlage |
+| Vorvertraege | NDA, LOI, MOU, Heads of Terms - schon unterschrieben? | Akten |
+
+## Konflikt-Standardrisiken im IP-Verkehr
+
+1. **Mehrseitige Vertretung in einer Lizenzkette** — Lizenzgeber LG vertritt Lizenznehmer LN1, der seinerseits LN2 sublizenziert; eigene Kanzlei darf nicht alle drei vertreten.
+2. **Patent-Pool-Lizenzierung** — bei Patent-Pools (FRAND, Standardpatent) ist Vertretung mehrerer Pool-Teilnehmer in der Regel ausgeschlossen.
+3. **Wettbewerberkonstellation** — Mandant im Lizenzvertrag heute = Wettbewerber in Patentstreit morgen.
+
+## Dokumenten-Intake (Standardliste)
+
+- Schutzrechtsregister-Auszuege (DPMA, EUIPO, EPA, WIPO; Stand frisch)
+- Vorhandene Lizenzvertraege auf dem IP (Vorvergabe? Multiple Licensees?)
+- Verpfaendungen, Sicherungsabtretungen
+- Konzernabhaengigkeiten (Tochtergesellschaft-IP)
+- IP-Klagen (laufend/abgeschlossen)
+- NDA-, LOI-, MOU-Volltexte
+- Beneficial-Ownership-Register-Auszug (Geldwaeschegesetz)
+- DBA-Konstellation bei Cross-Border
+
+## Anschluss
+
+- IP-Identifikation: `ip-identifikation-und-bestandsaufnahme`
+- Rollenklaerung: `parteienrolle-klaeren-lizenzgeber-nehmer-sicherheiten-verwahrer`

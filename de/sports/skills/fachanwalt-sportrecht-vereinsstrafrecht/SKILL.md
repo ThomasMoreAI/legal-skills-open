@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sportrecht-vereinsstrafrecht
 title: Vereinsstrafrecht
-description: Workflow-Skill zu fachanwalt sportrecht vereinsstrafrecht. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Vereinsstrafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt für Sportrecht. Route: fachanwalt-sportrecht-vereinsstrafrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/fachanwalt-sportrecht-vereinsstrafrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sports
@@ -48,12 +48,6 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
 
@@ -66,12 +60,9 @@ language: de
 | 3 | Ordnungsgemäße Einberufung des Spruchorgans (Frist, Tagesordnung)? | Satzung |
 | 4 | Anhörung: Hat der Betroffene schriftliche Ankündigung mit angemessener Frist erhalten? | Art. 103 Abs. 1 GG analog |
 | 5 | Akteneinsicht: War Einsicht in alle Beweisunterlagen möglich? | Verfahrensgrundsätze |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 7 | Tatbestandserfüllung: Ist der vorgeworfene Sachverhalt tatsächlich eine Verletzung der Satzungsnorm? | Materielle Prüfung |
 | 8 | Verschulden: Ist Vorsatz oder Fahrlässigkeit nachgewiesen? | Satzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 11 | Vorrangige verbandsinterne Instanzen ausschöpfen? | Satzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 13 | Vorläufiger Rechtsschutz erforderlich (§ 935 ZPO, § 1033 ZPO)? | §§ 935, 1033 ZPO |
 | 14 | Art. 12 GG-Verstoß (Berufsfreiheit) bei Profisportler prüfen? | Art. 12 GG |
 
@@ -160,7 +151,6 @@ II. Materielle Fehler
    verhängt: [Auflistung aus Verbandsrechtsprechung] (Anlage B9).
    Die hier ausgesprochene Sperre von [N] Spielen überschreitet
    den üblichen Strafrahmen erheblich. Art. 12 GG gebietet
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 III. Hilfsantrag
 
@@ -239,7 +229,6 @@ Mit freundlichen Grüßen
 | Verhältnismäßigkeit (Vergleichsfälle) | Mandant | Verbandsrechtsprechung; Präzedenzfälle |
 | Fehlender Tatbestand (Videobeweis) | Mandant | Videos, Zeugenaussagen |
 | AGB-Unwirksamkeit Satzungsklausel | Mandant | Analyse nach §§ 307 ff. BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -259,10 +248,8 @@ Mit freundlichen Grüßen
 
 | Verband-Argument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Verbandsweg nicht erschöpft" | Ggf. Dringlichkeit: § 1033 ZPO-Antrag schon vor Erschöpfung |
 | "Schiedsklausel wirksam, staatliche Gerichte ausgeschlossen" | § 1033 ZPO: einstweilige Verfügung trotzdem möglich |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Tatbestand liegt vor" | Video-Beweis; Zeugenbeweis; eigene Auswertung Schiedsrichterprotokoll |
 
 ---
@@ -302,4 +289,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

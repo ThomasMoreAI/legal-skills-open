@@ -1,0 +1,98 @@
+---
+name: vier-behoerden-gericht-und-registerweg
+title: Behörden-, Gerichts- und Registerweg
+description: 'Für Behörden-, Gerichts- und Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/vier-behoerden-gericht-und-registerweg
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+sources:
+- title: Vertiefung spezial vier behoerden gericht und registerweg
+  path: references/vertiefung-spezial-vier-behoerden-gericht-und-registerweg.md
+---
+
+# Behörden-, Gerichts- und Registerweg
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Weg 1 — Ordentliche Gerichtsbarkeit (ZPO, GVG)
+
+**Wann:** Zivilrechtliche Streitigkeiten (§ 13 GVG); Vertragsrecht, Deliktsrecht, Erbrecht, Familienrecht, Handelsrecht.
+
+| Gericht | Zuständigkeit | Norm |
+|---|---|---|
+| Amtsgericht | allgemeine Zivilsachen bis einschließlich 10.000 Euro; Wohnraummietsachen wertunabhängig; Familiensachen beim Familiengericht | Paragrafen 23 Nummer 1 und 2a, 23a GVG |
+| Landgericht | allgemeine Zivilsachen über 10.000 Euro sowie gesetzlich wertunabhängig zugewiesene Sachen; Handelssache nur bei Zuständigkeit und den Voraussetzungen der Paragrafen 94 ff. GVG | Paragrafen 71, 94 ff. GVG |
+| Oberlandesgericht | Berufung gegen LG-Urteile; bestimmte erstinstanzliche Verfahren | §§ 119 ff. GVG |
+| Bundesgerichtshof | Revision; bestimmte erste Instanz | § 133 GVG |
+
+**Örtliche Zuständigkeit:** §§ 12 ff. ZPO; allgemeiner Gerichtsstand: Wohnsitz des Beklagten (§ 13 ZPO).
+
+## Weg 2 — Verwaltungsgerichtsbarkeit (VwGO)
+
+**Wann:** Öffentlich-rechtliche Streitigkeiten nicht verfassungsrechtlicher Art (§ 40 VwGO); Anfechtung von Verwaltungsakten, Verpflichtungsklagen, Normenkontrolle.
+
+| Verfahren | Klageart | Norm |
+|---|---|---|
+| Anfechtung VA (z. B. Bußgeldbescheid) | Anfechtungsklage | § 42 Abs. 1 Alt. 1 VwGO |
+| Erlass VA (z. B. Genehmigung) | Verpflichtungsklage | § 42 Abs. 1 Alt. 2 VwGO |
+| Feststellung Rechtsverhältnis | Feststellungsklage | § 43 VwGO |
+| Vorläufiger Rechtsschutz | Antrag §§ 80, 123 VwGO | § 80 Abs. 5 VwGO |
+
+**Vorverfahren:** Widerspruch (§§ 68 ff. VwGO) vor Klageerhebung; Frist: 1 Monat ab Bekanntgabe des VA (§ 70 VwGO); Klagefrist: 1 Monat ab Zustellung Widerspruchsbescheid (§ 74 VwGO).
+
+**Sondergerichte:** Finanzgericht (§ 33 FGO, Steuersachen); Sozialgericht (§ 51 SGG, Sozialversicherung); Arbeitsgericht (§ 2 ArbGG, Arbeitsrecht).
+
+## Weg 3 — Registerwege
+
+| Register | Zuständigkeit | Fundstelle / Abfrage |
+|---|---|---|
+| Handelsregister | AG am Sitz der Gesellschaft (§ 8 HGB) | handelsregister.de |
+| Grundbuch | AG-Grundbuchamt am Lageort (§ 1 GBO) | Grundbucheinsicht über AG oder notar |
+| Marken-/Patentregister | DPMA | dpma.de |
+| Gewerbezentralregister | Bundesamt für Justiz | bundesjustizamt.de |
+| Insolvenzregister | Insolvenzgericht am Sitz | insolvenzbekanntmachungen.de |
+| Vereinsregister | AG-Registergericht | handelsregister.de (VR-Abteilung) |
+
+## Weg 4 — Behördenwege
+
+| Behörde | Sachgebiet | Kontakt |
+|---|---|---|
+| Datenschutzbehörde (Landesbeauftragte) | DSGVO-Beschwerden, Bußgelder | Zuständige Landesdatenschutzbehörde |
+| Bundesnetzagentur | Telekommunikation, Post, Energie, Rundfunk | bundesnetzagentur.de |
+| Bundesamt für Justiz | GewZR, Kartellbehörde (Teile) | bundesjustizamt.de |
+| Bundeskartellamt | Wettbewerbs- und Kartellrecht | bundeskartellamt.de |
+| Gewerbeamt | Gewerbeanmeldung, -abmeldung | Kommunale Behörde |
+| Finanzamt | Steuerrecht, Umsatzsteuer | Elektronisch via ELSTER |
+
+## Einstieg
+
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Was ist das Ziel (Anspruch durchsetzen, VA anfechten, Register einsehen, Beschwerde einreichen)?
+2. Wer ist Gegner (Privatperson, Unternehmen, Behörde)?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Wegweiser, Memo, Checkliste, Entwurf, Schriftsatzbaustein?
+
+## Arbeitsworkflow
+
+1. **Fallbild bilden:** Ziel, Gegner, Behörde/Gericht, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Weg bestimmen:** Ordentliche Gerichtsbarkeit, VwGO, Register oder Behörde?
+3. **Fristen prüfen:** Klagefrist, Widerspruchsfrist, Verjährung, Ausschlussfristen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen und Alternativwegen.
+5. **Anschluss bauen:** Passende weitere Skills vorschlagen (z. B. verfahrensart-bestimmen-verjaehrung, ziel-und-rechtsweg-bestimmung).
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-vier-behoerden-gericht-und-registerweg` beziehungsweise Vier: Behörden-, Gerichts- oder Registerweg: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-vier-behoerden-gericht-und-registerweg.md).

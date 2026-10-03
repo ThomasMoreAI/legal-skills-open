@@ -5,17 +5,17 @@ description: Expert ISO 27701 Privacy Information Management System (PIMS) compl
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/iso27701/skills/iso27701
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
 sources:
-- title: Annex A Controls
+- title: Annex a controls
   path: references/annex-a-controls.md
-- title: Regulatory Mapping
+- title: Regulatory mapping
   path: references/regulatory-mapping.md
-- title: Transition Guide
+- title: Transition guide
   path: references/transition-guide.md
 ---
 

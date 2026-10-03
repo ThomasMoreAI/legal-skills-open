@@ -1,11 +1,11 @@
 ---
 name: agentische-datenbank-recherche
 title: agentische-datenbank-recherche
-description: 'Agentische Patentdatenbank-Recherche: Suchauftrag in natuerlicher Sprache mit Erfindungsmaterial (Anspruchsentwurf, Beschreibung, Skizzen) wird automatisch in Suchstrings für Espacenet, Google Patents, DPMAregister, DEPATISnet, EPO Register, WIPO PATENTSCOPE und USPTO uebersetzt. Normen: § 3 PatG (Neuheit), Art. 54 EPUe, § 4 PatG (erfinderische Tätigkeit). Prüfraster: Datenbankspezifische Syntax, Patentfamilien-Deduplizierung, Trefferliste mit Veröffentlichungsnummer, Anmelder, Datum, Klassen. Output Strukturierte Trefferliste. Abgrenzung: Klassifikation vorher siehe klassifikation-cpc-ipc; Berichte siehe recherchebericht-erstellen.'
+description: 'Für agentische-datenbank-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/agentische-datenbank-recherche
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -14,9 +14,17 @@ language: de
 
 # agentische-datenbank-recherche
 
-## Zweck
+## Arbeitsbereich
 
-Das ist das **Master-Skill** des Plugins: Es führt agentisch durch die wichtigsten Patentdatenbanken. Während das System im Hauptfenster sichtbar durch die Datenbank navigiert, erscheint das Ergebnis strukturiert im Chat.
+Agentische Patentdatenbank-Recherche: Suchauftrag in natuerlicher Sprache mit Erfindungsmaterial (Anspruchsentwurf, Beschreibung, Skizzen) wird automatisch in Suchstrings für Espacenet, Google Patents, DPMAregister, DEPATISnet, EPO Register, WIPO PATENTSCOPE und USPTO übersetzt. Normen: § 3 PatG (Neuheit), Art. 54 EPUe, § 4 PatG (erfinderische Tätigkeit). Prüfraster: Datenbankspezifische Syntax, Patentfamilien-Deduplizierung, Trefferliste mit Veröffentlichungsnummer, Anmelder, Datum, Klassen. Output Strukturierte Trefferliste. Abgrenzung: Klassifikation vorher siehe klassifikation-cpc-ipc; Berichte siehe recherchebericht-erstellen. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -125,6 +133,8 @@ Pro Datenbank:
 Tabelle mit Spalten:
 
 | Veröff.-Nr. | Anmelder | Anmeldetag (Prio) | CPC / IPC | Titel | Status | Link | Quelldatenbank |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `[Veröffentlichungsnummer]` | `[Anmelder]` | `[Datum]` | `[Klasse]` | `[Titel, gegebenenfalls MT]` | `[Rechtsstand]` | `[Direktlink]` | `[Register]` |
 
 ### Schritt 5: Patentfamilien deduplizieren
 
@@ -169,13 +179,13 @@ Die strukturierte Ergebnisliste geht an den passenden Folge-Skill:
 Bevor die Datenbankrecherche gestartet wird, klaere:
 1. Was ist das prioritaere Rechercheziel — Neuheitspruefung, FTO oder Stand-der-Technik?
 2. Sind alle relevanten Datenbanken zugaenglich (Espacenet, USPTO, Patentscope, J-PlatPat)?
-3. Wurden die Schluesselbegriffe und Klassifikationen (CPC/IPC) bereits identifiziert?
-4. Gibt es einen Anmeldetag — der bestimmt den massgeblichen Prioritaetszeitpunkt fuer die Neuheit?
+3. Wurden die Schlüsselbegriffe und Klassifikationen (CPC/IPC) bereits identifiziert?
+4. Gibt es einen Anmeldetag — der bestimmt den massgeblichen Prioritaetszeitpunkt für die Neuheit?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Technische Beschwerdekammer, T 1090/12 (Funktionale Merkmale):** Eine Entgegenhaltung nimmt ein funktionales Merkmal vorweg, wenn sie eine Vorrichtung beschreibt, die geeignet ist, die beanspruchte Funktion zu erfuellen; die tatsaechliche Ausfuehrung der Funktion ist nicht erforderlich.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

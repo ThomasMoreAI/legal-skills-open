@@ -1,12 +1,11 @@
 ---
 name: ca-deadlines
 title: California Case Deadlines
-description: Use this skill whenever the user asks about timing or deadlines in a California civil case. Triggers include "when is my answer due California", "compute the deadline", "how many court days", "what's the opposition brief deadline", "I was served — when do I have to respond", "when does my discovery response have to go out", "California motion notice requirement", "CCP 1005", "CCP 12", "calendar days vs court days California", "mail service adds days California", "summary judgment timeline California CCP 437c", "how long do I have to file a motion to vacate California", "exemption claim deadline California", "FDCPA statute of limitations", "Rosenthal Act statute of limitations", "when does the discovery cutoff hit", "CMC statement deadline". Computes court-day and calendar-day deadlines under Code Civ. Proc., § 12 and § 1013 using Govt. Code § 6700 California state holidays (including Day after Thanksgiving), covers the extended service rules under CCP § 1010.6 for e-service
-  and CCP § 1013 for mail, and catalogs key California civil deadlines (answer, demurrer, motion notice, opposition, reply, CMC statement, discovery cutoff, summary judgment, and post-judgment). Deterministic date arithmetic is delegated to scripts/case-calendar.py. Composes with ca-first-30-days, ca-discovery, ca-post-judgment, and ca-file-packet.
+description: Use for timing and deadlines in California civil cases. Triggers include "when is my answer due California", "compute the deadline", "how many court days", "opposition deadline", "discovery response deadline", "motion notice requirement", "CCP 12", "calendar vs court days", "mail service adds days", "summary judgment timeline CCP 437c", "motion to vacate", "FDCPA statute of limitations", "Rosenthal Act statute of limitations", "discovery cutoff", "CMC statement deadline". Computes deadlines under Code Civ. Proc., § 12 and § 1013 using Govt. Code § 6700 holidays. Catalogs key civil deadlines (answer, demurrer, motion notice, opposition, reply, discovery, summary judgment, post-judgment).
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/ca-court-docs/skills/ca-deadlines
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation

@@ -1,216 +1,141 @@
 ---
 name: cross-class-cram-down-und-absolute-priority
-title: Cross-Class-Cram-Down und Absolute Priority — § 26 StaRUG
-description: 'Cross-Class-Cram-Down und Absolute-Priority-Rule im StaRUG-Plan: Gericht soll Plan gegen ablehnende Gläubiger-Gruppen bestätigen. Normen: § 26 StaRUG (Cram-Down-Voraussetzungen), § 30 StaRUG (Schlechterstellungsverbot), § 31 StaRUG (Obstruktionsverbot). Prüfraster: Anwendungsvoraussetzungen, Absolute-Priority-Nachweis, Kein-Gläubiger-schlechter-gestellt-Test, gerichtliche Planbestätigung. Output Cram-Down-Memo, Planbestaedigungs-Antrag. Abgrenzung: Restrukturierungsplan-Architektur siehe restrukturierungsplan-architektur-paragraph-7ff-starug; Distressed M&A siehe corporate-kanzlei-Plugin.'
+title: 1. Cross-Class-Cram-Down und Rangfolge nach dem StaRUG
+description: 'Prüft den Cross-Class-Cram-Down nach Paragrafen 26 bis 28 StaRUG gruppengenau: Ohne-Plan-Vergleich, Planwertbeteiligung, Gruppenmehrheit, Rangfolge, gesetzliche Ausnahmen und Minderheitenschutz.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/cross-class-cram-down-und-absolute-priority
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# Cross-Class-Cram-Down und Absolute Priority — § 26 StaRUG
+# 1. Cross-Class-Cram-Down und Rangfolge nach dem StaRUG
 
-Der Cross-Class-Cram-Down ist das stärkste Instrument des StaRUG. Er erlaubt dem Gericht, den Restrukturierungsplan auch gegen den Widerstand einzelner Gläubigergruppen zu bestätigen — wenn die anderen Gruppen zugestimmt haben und die Ablehnenden nicht schlechtergestellt werden als im Alternativszenario. Damit bricht das StaRUG das Einstimmigkeitsprinzip klassischer Sanierungsverhandlungen auf und verschiebt die Machtbalance systematisch zugunsten der Restrukturierungsbereitschaft. Wer dieses Werkzeug kennt, verhandelt mit anderem Selbstbewusstsein.
+## 1.1. Arbeitsauftrag
 
----
+Prüfe, ob die fehlende Zustimmung einer Abstimmungsgruppe nach Paragraf 26 StaRUG ersetzt werden kann. Trenne strikt zwischen der gruppenübergreifenden Zustimmungsfiktion nach Paragrafen 26 bis 28 StaRUG, dem individuellen Minderheitenschutz nach Paragraf 64 StaRUG und der gerichtlichen Bestätigung nach Paragrafen 60 bis 67 StaRUG.
 
-## Rechtsgrundlagen
+Lies zuerst Plan, Anlagen, Abstimmungsdokumentation und Bewertungsunterlagen. Frage nur nach fehlenden Zahlen oder Belegen, die eine der gesetzlichen Voraussetzungen verändern.
 
-- § 26 StaRUG (Planbestätigung gegen ablehnende Gruppen — Cross-Class-Cram-Down)
-- § 25 StaRUG (Gruppenquorum: ¾-Mehrheit je Gruppe)
-- § 27 StaRUG (Bestätigungsvoraussetzungen)
-- § 29 StaRUG (Versagungsgründe)
-- § 30 StaRUG (Schlechterstellungsverbot)
-- § 31 StaRUG (Obstruktionsverbot)
-- Art. 11 Restrukturierungsrichtlinie 2019/1023/EU (europäischer Ursprung)
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA AG) — Verfassungsbeschwerde gegen die gerichtliche Bestätigung eines StaRUG-Restrukturierungsplans (Kapitalherabsetzung auf Null mit Bezugsrechtsausschluss; Cross-Class-Cramdown gegen Minderheitsaktionäre) unzulässig. Bestätigt die grundsätzliche Verfassungsmäßigkeit des Cramdown-Mechanismus, wenn § 66 Abs. 2 Nr. 3 StaRUG (Schlechterstellungsprüfung) eingehalten ist. <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
-- Restrukturierungsgerichts-Entscheidungen zur Absolute Priority Rule (§ 27 Abs. 1 Nr. 3 StaRUG iVm § 28 StaRUG) und zur Schlechterstellungsprüfung vor Ausgabe über dejure.org / openjur.de verifizieren.
+## 1.2. Sofortausgabe
 
----
+Liefere zuerst eine Tabelle mit diesen Spalten:
 
-## Pflichten
+| Gruppe | Stimmrechte | Zustimmung nach Paragraf 25 | Ohne-Plan-Stellung | Planwertbeteiligung | Rangtest | Ergebnis |
+| --- | ---: | ---: | ---: | ---: | --- | --- |
+| [Gruppe] | [Betrag oder Wert] | [Prozent] | [EUR] | [EUR] | [bestanden/offen] | [angenommen/Paragraf 26 prüfen] |
 
-### 1. Was ist der Cross-Class-Cram-Down?
+Danach folgen nur die tragenden Rechenannahmen, die stärkste Gegenposition, die Beleglücken und der nächste gerichtliche Schritt.
 
-Wenn eine oder mehrere Gläubigergruppen den Restrukturierungsplan ablehnen (also keine ¾-Mehrheit erreichen), kann das Gericht den Plan trotzdem bestätigen — wenn:
+## 2. Normenarchitektur
 
-**Voraussetzungen (§ 26 Abs. 1 StaRUG):**
+1. Paragraf 6 Absatz 2 StaRUG verlangt im darstellenden Teil die Vergleichsrechnung. Bei einer im Plan vorgesehenen Fortführung ist grundsätzlich auch für das Ohne-Plan-Szenario von Fortführung auszugehen; nur bei aussichtslosem Verkauf oder aussichtsloser anderweitiger Fortführung darf davon abgewichen werden.
+2. Paragraf 9 StaRUG regelt die Gruppenbildung nach Rechtsstellung; Paragraf 10 StaRUG die Gleichbehandlung innerhalb der Gruppe.
+3. Paragraf 25 StaRUG verlangt in jeder Gruppe mindestens drei Viertel der Stimmrechte.
+4. Paragraf 26 StaRUG fingiert unter den dort genannten Voraussetzungen die Zustimmung einer ablehnenden Gruppe.
+5. Paragraf 27 StaRUG konkretisiert die angemessene Beteiligung am Planwert und bildet die gesetzliche Rangfolge ab.
+6. Paragraf 28 StaRUG enthält eng begrenzte Ausnahmen von den Rangregeln des Paragrafen 27 StaRUG.
+7. Paragraf 63 StaRUG regelt die Versagung der Bestätigung; Paragraf 64 StaRUG schützt den einzelnen widersprechenden Planbetroffenen vor voraussichtlicher Schlechterstellung.
+8. Paragraf 66 StaRUG regelt die sofortige Beschwerde; Paragraf 67 StaRUG die Wirkungen der Bestätigung.
 
-1. **Gruppenübergreifende Mehrheit:** Mind. eine Gruppe hat zugestimmt (die gegen den Plan keinen Widerspruch erhebt — "konsentierte Gruppe")
-2. **Schlechterstellungsverbot eingehalten:** Kein Mitglied der ablehnenden Gruppe wird schlechter gestellt als im besten Alternativszenario (§ 30 StaRUG)
-3. **Absolute Priority Rule:** Gläubiger ranghöherer Gruppen werden vollständig befriedigt, bevor rangniedrigere Gruppen oder Anteilsinhaber etwas erhalten
-4. **Kein Obstruktionstatbestand:** Die ablehnende Gruppe verhält sich nicht rechtsmissbräuchlich
+Es gibt im StaRUG keinen eigenständigen Missbrauchs- oder Obstruktionstatbestand in Paragraf 31. Paragraf 31 regelt die Anzeige des Restrukturierungsvorhabens und die Rechtshängigkeit der Restrukturierungssache.
 
-### 2. Absolute Priority Rule — Rangfolge im Cram-Down
+## 3. Prüfung nach Paragraf 26 StaRUG
 
-Die Absolute Priority Rule ordnet die Befriedigungsreihenfolge streng nach Rang:
+### 3.1. Ausgangspunkt
 
-```
-RANGFOLGE (vereinfacht):
-  1. Gesicherte Gläubiger (bis zur Höhe der Besicherung)
-  2. Vorrangige ungesicherte Gläubiger (z.B. Senioranleihen)
-  3. Nachrangige ungesicherte Gläubiger
-  4. Gesellschafter/Anteilsinhaber
+Ermittle zunächst für jede abstimmende Gruppe das Stimmrecht und das Ergebnis nach Paragrafen 24 und 25 StaRUG. Nur bei einer verfehlten Gruppenmehrheit stellt sich die Frage nach Paragraf 26 StaRUG.
 
-CRAM-DOWN-REGEL:
-  Eine rangniedrigere Gruppe darf nichts erhalten,
-  solange eine ranghöhere Gruppe nicht voll befriedigt wurde —
-  es sei denn, alle ranghöheren Gruppen stimmen zu.
+### 3.2. Keine Schlechterstellung der Gruppe
 
-RELATIVE PRIORITY (§ 27 Abs. 2 StaRUG-Ausnahme):
-  Deutsche Ausnahmeregelung erlaubt Abweichung von der strikten
-  Absolute Priority Rule, wenn alle Beteiligten angemessen beteiligt
-  werden und die Abweichung vom Gericht gebilligt wird.
-```
+Die Mitglieder der ablehnenden Gruppe müssen durch den Plan voraussichtlich mindestens so stehen wie ohne Plan. Die Rechnung muss den rechtlich und wirtschaftlich realistischen nächstbesten Verlauf abbilden, nicht automatisch eine Zerschlagung. Prüfe insbesondere:
 
-### 3. Obstruktionsverbot — § 31 StaRUG
+1. Fortführung, Verkauf, Insolvenzplan und Regelinsolvenz als ernsthafte Alternativen.
+2. Bewertungsstichtag, Unternehmenswert, Sicherheitenwerte, Verfahrenskosten und Zeitwert.
+3. Durchsetzbare Rechte gegen Mitschuldner, Bürgen und aus gruppeninternen Drittsicherheiten.
+4. Sensitivität der Quote bei Umsatz, Marge, Finanzierung, Verwertungskosten und Dauer.
 
-Das Obstruktionsverbot ergänzt den Cram-Down: Eine Gruppe, die dem Plan zustimmen müsste (weil sie nicht schlechter gestellt wird als im Alternativszenario), darf den Plan nicht aus sachfremden Gründen ablehnen. Das Gericht kann dann trotz formaler Ablehnung bestätigen.
+### 3.3. Angemessene Beteiligung am Planwert
 
-**Tatbestandsmerkmale des Obstruktionsverbots:**
-- Die Gruppe wird durch den Plan nicht schlechtergestellt als ohne Plan
-- Die Ablehnung erfolgt ohne sachliche Rechtfertigung oder zu Zwecken, die mit dem Restrukturierungszweck unvereinbar sind
+Prüfe Paragraf 27 StaRUG in dieser Reihenfolge:
 
----
+1. Kein Planbetroffener erhält mehr als den vollen Betrag seines Anspruchs.
+2. Kein ohne Plan nachrangiger Gläubiger, der Schuldner oder ein Anteilsinhaber erhält einen nicht vollständig durch eine Leistung in das Schuldnervermögen ausgeglichenen Wert, solange die überstimmte Gruppe nicht entsprechend der gesetzlichen Rangfolge beteiligt ist.
+3. Kein ohne Plan gleichrangiger Gläubiger wird gegenüber der überstimmten Gruppe bessergestellt.
 
-## Vorgehen
+Für Anteilsinhaber gilt die gesonderte Regel des Paragrafen 27 Absatz 2 StaRUG.
 
-### Schritt 1: Gruppenanalyse und Mehrheitsprognose
+### 3.4. Ausnahmen nach Paragraf 28 StaRUG
 
-Vor Einleitung des Cram-Down-Verfahrens:
+Eine Abweichung ist keine freie Wahl zwischen absoluter und relativer Priorität. Prüfe die gesetzlich bezeichneten Ausnahmefälle einzeln:
 
-1. Welche Gruppen werden zustimmen? → Verhandlungen führen
-2. Welche Gruppen werden ablehnen? → Warum? (sachlich vs. taktisch?)
-3. Ist die ablehnende Gruppe schlechtergestellt als im Alternativszenario? → Vergleichsrechnung
-4. Verletzt die Absolute Priority Rule die Rechte ranghöherer Gruppen?
+1. Eine Abweichung bei gleichrangigen Gläubigern muss nach Art der Schwierigkeiten und Umständen sachgerecht sein; sie ist nicht sachgerecht, wenn die überstimmte Gruppe mehr als die Hälfte der Stimmrechte der betroffenen Rangklasse hält.
+2. Ein Wertverbleib beim Schuldner oder Anteilsinhaber setzt insbesondere eine unerlässliche Mitwirkung mit Planbindung oder nur geringfügige Eingriffe nach Paragraf 28 Absatz 2 StaRUG voraus.
 
-### Schritt 2: Vergleichsrechnung optimieren
+### 3.5. Mehrheit der abstimmenden Gruppen
 
-Die Vergleichsrechnung ist das Herzstück des Cram-Down-Verfahrens:
+Die Mehrheit der abstimmenden Gruppen muss mit der erforderlichen Mehrheit zugestimmt haben. Bei genau zwei Gruppen genügt die Zustimmung der anderen Gruppe. Die zustimmenden Gruppen dürfen nicht ausschließlich aus Anteilsinhabern oder nachrangigen Restrukturierungsgläubigern bestehen.
 
-```
-VERGLEICHSRECHNUNG (ablehnende Gruppe — Beispiel):
+Eine einzige zustimmende Gruppe genügt daher nicht allgemein. Bei drei Gruppen müssen regelmäßig mindestens zwei zustimmen.
 
-Alternativszenario (Regelinsolvenzverfahren):
-  Verwertungserlös Masse: EUR [___]
-  Verfahrenskosten (Insolvenzverwalter, Gericht): EUR [___]
-  Vorrangige Gläubiger: EUR [___]
-  = Verbleibend für ablehnende Gruppe: EUR [___]
-  = Quote: [x] %
+### 3.6. Gruppeninterne Drittsicherheiten
 
-Planscenario:
-  Auszahlung an ablehnende Gruppe gemäß Plan: EUR [___]
-  = Quote Plan: [x] %
+Ist eine nach Paragraf 9 Absatz 1 Satz 3 StaRUG gebildete Gruppe betroffen, ergänze den Entschädigungstest des Paragrafen 26 Absatz 2 StaRUG. Der Rechtsverlust aus der Drittsicherheit oder aus der Haftung des persönlich haftenden Gesellschafters muss angemessen kompensiert werden.
 
-Ergebnis: Plan-Quote [x] % ≥ Insolvenz-Quote [x] %
-          → Schlechterstellungsverbot eingehalten
-```
+## 4. Individueller Minderheitenschutz
 
-### Schritt 3: Antrag auf Bestätigung trotz ablehnender Gruppe
+Paragraf 64 StaRUG ist nicht mit Paragraf 26 gleichzusetzen. Ein Planbetroffener kann die Versagung der Bestätigung nur beantragen, wenn er gegen den Plan gestimmt, bereits im Abstimmungsverfahren widersprochen und die voraussichtliche Schlechterstellung ordnungsgemäß geltend gemacht hat. Im gerichtlichen Termin muss er sie spätestens dort glaubhaft machen.
 
-Der Antrag muss dem Gericht darlegen:
+Enthält der gestaltende Teil einen Ausgleichsfonds nach Paragraf 64 Absatz 3 StaRUG, wird der Versagungsantrag abgewiesen; der Anspruch auf Ausgleich ist außerhalb der Restrukturierungssache zu klären. Das Restrukturierungsgericht spricht in diesem Verfahren keinen individuellen Ausgleichsbetrag zu.
 
-1. Welche Gruppen haben zugestimmt (mit ¾-Mehrheit)?
-2. Welche Gruppe lehnt ab?
-3. Warum ist das Schlechterstellungsverbot eingehalten (Vergleichsrechnung)?
-4. Warum ist die Absolute Priority Rule eingehalten?
-5. Liegt ein Obstruktionstatbestand vor (hilfsweise)?
+## 5. Arbeitsprodukt
 
-### Schritt 4: Verfahren vor dem Restrukturierungsgericht
+### 5.1. Cram-Down-Memo
 
-- Gerichtstermin zur Bestätigung
-- Ablehnende Gruppe hat Widerspruchsrecht
-- Gericht prüft von Amts wegen alle Bestätigungsvoraussetzungen
-- Beschluss ist anfechtbar (sofortige Beschwerde, § 66 StaRUG)
+1. Plan und Abstimmungsweg.
+2. Gruppenbildung und Stimmrechte.
+3. Abstimmungsergebnis nach Paragraf 25 StaRUG.
+4. Ohne-Plan-Szenario und Belegquellen.
+5. Planwertbrücke und Verteilung.
+6. Prüfung der Paragrafen 26 bis 28 StaRUG je ablehnender Gruppe.
+7. Einwendungen nach Paragrafen 63 und 64 StaRUG.
+8. Antrag, Anlagen und verbleibendes Prozessrisiko.
 
----
+### 5.2. Wertbrücke
 
-## Templates
+```text
+Unternehmenswert im Planfall                         EUR [Betrag]
+zuzüglich neue Finanzierung und sonstige Beiträge   EUR [Betrag]
+abzüglich Vollzugskosten und nicht planbetroffene Lasten
+                                                     EUR [Betrag]
+= Planwert                                           EUR [Betrag]
 
-### Muster: Vergleichsrechnung-Tabelle
+Ohne-Plan-Szenario: [Fortführung/Verkauf/Insolvenzplan/Regelverfahren]
+Verteilungswert ohne Plan                            EUR [Betrag]
 
-```
-VERGLEICHSRECHNUNG — PLANBESTÄTIGUNG NACH § 26 StaRUG
-
-Gesellschaft: [Firma GmbH]
-Stand: [Datum]
-
-ALTERNATIVSZENARIO — REGELINSOLVENZVERFAHREN
-
-Aktivmasse:
-  Immaterielle Vermögenswerte (Marktwert): EUR [___]
-  Sachanlagen (Schätzwert Verwerter):      EUR [___]
-  Vorräte (abzgl. Abwertung 30 %):         EUR [___]
-  Forderungen (abzgl. Ausfälle 20 %):      EUR [___]
-  Kassenbestand:                            EUR [___]
-= BRUTTOAKTIVMASSE:                         EUR [___]
-  ./. Insolvenzkosten (ca. 10-15 %):        EUR [___]
-= NETTO-VERTEILUNGSMASSE:                   EUR [___]
-
-RANGVERTEILUNG (Insolvenzreihenfolge):
-  Massegläubiger (§ 55 InsO):              EUR [___]
-  Absonderungsberechtigte:                 EUR [___]
-  = Verbleibend für Insolvenzgläubiger:    EUR [___]
-  Gruppe 1 (gesichert):  Quote [x] %       EUR [___]
-  Gruppe 2 (ungesichert): Quote [x] %      EUR [___]
-  Gruppe 3 (nachrangig):  Quote [0] %      EUR [___]
-
-PLANSCENARIO:
-  Gruppe 1 erhält:  [Zahlung/Befriedigung]: EUR [___] = Quote [x] %
-  Gruppe 2 erhält:  [Zahlung/Befriedigung]: EUR [___] = Quote [x] %
-  Gruppe 3 erhält:  [Zahlung/Befriedigung]: EUR [___] = Quote [x] %
-
-ERGEBNIS:
-  Alle Gruppen: Plan-Quote ≥ Insolvenz-Quote → Schlechterstellungsverbot eingehalten
-  Absolute Priority Rule: [Eingehalten / Abweichung begründet]
+Gruppe [Bezeichnung]
+Stellung ohne Plan                                   EUR [Betrag]
+Stellung im Plan                                     EUR [Betrag]
+Differenz                                            EUR [Betrag]
+Rangtest nach Paragraf 27                            [bestanden/offen]
+Ausnahme nach Paragraf 28                            [nein/ja mit Begründung]
 ```
 
----
+## 6. Rechtsprechungsanker
 
-## Fallstricke
+1. BVerfG, Beschluss vom 28.02.2025 - 1 BvR 418/25: Nichtannahme einer Verfassungsbeschwerde. Die Entscheidung bestätigt weder generell die Verfassungsmäßigkeit des StaRUG noch die materielle Richtigkeit des Plans. Für die Praxis trägt sie die Anforderung, eine wesentliche Schlechterstellung und realistische Alternativverläufe für die Beschwerde nach Paragraf 66 Absatz 2 Nummer 3 StaRUG konkret darzulegen.
+2. BGH, Beschluss vom 23.04.2026 - IX ZB 18/25: Bei einer Aufhebung nach Paragraf 33 Absatz 2 StaRUG trägt der Schuldner die Umstände, aus denen das Gericht ausnahmsweise von der Aufhebung absehen soll. Rechtlich nicht gesicherte freiwillige Drittbeiträge tragen die Fortführung des Restrukturierungsvorhabens nicht zuverlässig.
 
-1. **Vergleichsrechnung zu niedrig angesetzt** — eine zu niedrig berechnete Insolvenzquote manipuliert das Schlechterstellungsverbot scheinbar zugunsten des Plans. Gerichte und widersprechende Gläubiger werden dies angreifen.
+Vor Verwendung weitere Entscheidungen nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Fundstelle aufnehmen.
 
-2. **Nur eine konsentierte Gruppe** — das Gesetz verlangt mind. eine konsentierende Gruppe. Wenn alle Gruppen ablehnen, ist kein Cram-Down möglich.
+## 7. Fehlerbremse
 
-3. **Absolute Priority Rule verletzt** — wenn Gesellschafter im Plan etwas erhalten, während ungesicherte Gläubiger nicht voll befriedigt werden, ist der Plan bestätigungsunfähig.
-
-4. **Obstruktionsverbot ohne Substanz** — bloße Behauptung der Obstruktion reicht nicht. Der Schuldner muss konkret darlegen, warum die Ablehnung sachwidrig ist.
-
-5. **Zeitdruck unterschätzt** — Cross-Class-Cram-Down kostet Zeit. Das Gericht prüft intensiv. Unter der Dreimonatsfrist der Stabilisierungsanordnung kann das eng werden.
-
----
-
-## Querverweise
-
-- → `restrukturierungsplan-architektur-paragraph-7ff-starug` — Planstruktur und Gruppenbildung
-- → `stabilisierungsanordnung-und-vollstreckungssperre` — Schutz während Cram-Down-Verfahren
-- → `restrukturierungsbeauftragter-und-sachwalter` — Kontrollfunktion im Cram-Down
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Zugangsvoraussetzung
-- → `fortbestehensprognose-zweistufig` — Basis der Vergleichsrechnung
-
-
-## Aktuelle Leitentscheidungen — Cross-Class Cramdown (Stand Mai 2026)
-
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (3. Kammer, Erster Senat — VARTA AG): Verfassungsbeschwerde von Minderheitsaktionären gegen die gerichtliche Bestätigung eines StaRUG-Restrukturierungsplans (Kapitalherabsetzung auf Null mit Bezugsrechtsausschluss) als unzulässig zurückgewiesen. Die Beschwerdeführer hatten Grundrechtsverletzungen nicht hinreichend dargelegt; die Beschwerde war nicht gegen § 66 Abs. 2 Nr. 3 StaRUG selbst gerichtet. Aus der Entscheidung folgt mittelbar: Der Cross-Class-Cramdown ist verfassungsrechtlich tragfähig, wenn die Schlechterstellungsprüfung wirksam greift.
-  <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
-- Restrukturierungsgerichts-Entscheidungen zur Praxis des § 26 StaRUG (Bedingungen, Quoren, Schlechterstellungsprüfung) vor Ausgabe über offene Quellen verifizieren.
-
-## Paragrafenkette Cross-Class Cramdown
-
-§ 245 InsO (Obstruktionsverbot InsO) → § 245a InsO (absolute priority) → § 26 StaRUG (Cross-Class Cramdown) → § 27 StaRUG (ablehnende Klasse schlechtergestellt) → § 28 StaRUG (Minderheitenschutz)
-
-## Triage — Cramdown-Strategie
-
-1. **Ablehnende Klasse identifiziert?** Welche Klasse/Gruppe wird ablehnen?
-2. **Best-Interest-Test berechnet?** Liquidationsquote als untere Grenze fuer ablehnende Klasse.
-3. **Mehrheit der Klassen vorhanden?** Mindestens Haelfte aller Klassen muss zugestimmt haben.
-4. **Gleichbehandlung?** Kein Glaeubiger gleichen Rangs darf schlechter gestellt sein als abgelehnende Klasse.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+1. Nicht automatisch Zerschlagung als Ohne-Plan-Szenario ansetzen.
+2. Gruppenmehrheit, Gruppen-Cram-down und individuellen Minderheitenschutz nicht vermischen.
+3. Paragraf 28 StaRUG nicht als allgemeinen Schlechterstellungstest bezeichnen.
+4. Keine freie relative Prioritätsregel erfinden.
+5. Anteilsinhaberwert, neue Finanzierung und Drittbeiträge vollständig in der Planwertbrücke offenlegen.
+6. Widerspruchs-, Glaubhaftmachungs- und Hinweiserfordernisse nach Paragrafen 63 bis 66 StaRUG dokumentieren.

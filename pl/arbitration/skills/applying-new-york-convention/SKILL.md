@@ -1,18 +1,18 @@
 ---
 name: applying-new-york-convention
-title: applying-new-york-convention
+title: law-pl-applying-new-york-convention
 description: Use when preparing applications for recognition and enforcement of foreign arbitral awards in Poland, applications for setting aside arbitral awards under KPC art. 1205–1211, or opposing such applications — mapping Article V of the 1958 New York Convention to art. 1214–1215 of the Polish KPC, identifying grounds for refusal, structuring public policy arguments
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-new-york-convention
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: arbitration
 language: pl
 ---
 
-# applying-new-york-convention
+# law-pl-applying-new-york-convention
 
 Konwencja Nowojorska 1958 («Konwencja o uznawaniu i wykonywaniu zagranicznych orzeczeń arbitrażowych») — podstawowy traktat międzynarodowy o uznaniu i stwierdzeniu wykonalności zagranicznych wyroków arbitrażowych. Polska jest stroną od 03.10.1961 r. (ratyfikowana ustawą z 1961). KPC Część Piąta (art. 1212–1217) implementuje NYC w polskim prawie procesowym. Art. 1215 § 2 KPC **dosłownie odzwierciedla** art. V NYC — wyrok SN z 03.02.2016 r. (V CSK 255/15) potwierdza pierwszeństwo NYC jako instrumentu pierwotnego.
 
@@ -63,7 +63,7 @@ Praktyka polska:
 
 ## Klauzula porządku publicznego (public policy) — standardy stosowania
 
-**Kluczowe orzeczenia SN** (weryfikować aktualne przez skill `searching-orzeczenia`):
+**Kluczowe orzeczenia SN** (weryfikować aktualne przez skill `law-pl-searching-orzeczenia`):
 
 - Wyrok SN z 03.09.1998 r., I CKN 822/97 — podstawowa teza o wąskim stosowaniu klauzuli porządku publicznego.
 - Wyrok SN z 11.07.2014 r., III CSK 215/13 — potwierdzenie pro-enforcement bias NYC.
@@ -114,7 +114,7 @@ Praktyka polska:
 
 ## Po postanowieniu o stwierdzeniu wykonalności
 
-Postanowienie o stwierdzeniu wykonalności stanowi **tytuł wykonawczy** (art. 1214 § 2 KPC) — podstawę do wszczęcia postępowania egzekucyjnego. Egzekucja — wg KPC Księga Trzecia (art. 758 nn.) przez komornika sądowego. Odpowiedzialny agent projektu — `enforcement-agent`.
+Postanowienie o stwierdzeniu wykonalności stanowi **tytuł wykonawczy** (art. 1214 § 2 KPC) — podstawę do wszczęcia postępowania egzekucyjnego. Egzekucja — wg KPC Księga Trzecia (art. 758 nn.) przez komornika sądowego. Odpowiedzialny agent projektu — `law-pl-enforcement-agent`.
 
 ## Workflow
 
@@ -124,7 +124,7 @@ Postanowienie o stwierdzeniu wykonalności stanowi **tytuł wykonawczy** (art. 1
 4. **Ocenić potencjalne zarzuty z art. V** z obu stron. Mapowanie NYC → KPC — dosłowne (art. 1215 § 2).
 5. **Sprawdzić termin** — dla uznania brak terminu zawitego (ograniczenie — przedawnienie); dla uchylenia — 2 miesiące.
 6. **Właściwość** — sąd apelacyjny wg art. 1207 / 1213 KPC.
-7. **Dla public policy** — sprawdzić aktualne orzecznictwo SN przez skill `searching-orzeczenia`.
+7. **Dla public policy** — sprawdzić aktualne orzecznictwo SN przez skill `law-pl-searching-orzeczenia`.
 8. **Cytowanie** — zawsze para: NYC art. V(...) + art. 1215 § 2 KPC (w sprawach międzynarodowych NYC jest instrumentem pierwotnym).
 9. **Intra-EU** — dla inwestycyjnych sporów intra-EU uwzględnić *Achmea* (C-284/16), *Komstroy* (C-741/19), *PL Holdings* (C-109/20). Dla zwykłych handlowych B2B — nie dotyczy.
 

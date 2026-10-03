@@ -5,11 +5,54 @@ description: 广告合规审核技能，用于审核广告素材是否符合中�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/ad-compliance-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: regulatory
 language: zh
+sources:
+- title: 00 广告定性
+  path: references/00-广告定性.md
+- title: 01 广告形式合规
+  path: references/01-广告形式合规.md
+- title: 02 政治与公共价值
+  path: references/02-政治与公共价值.md
+- title: 03 虚假与误导
+  path: references/03-虚假与误导.md
+- title: 04 绝对化用语
+  path: references/04-绝对化用语.md
+- title: 05 格式条款与消费者权益
+  path: references/05-格式条款与消费者权益.md
+- title: 06 不正当竞争
+  path: references/06-不正当竞争.md
+- title: 07 房地产广告
+  path: references/07-房地产广告.md
+- title: 08 食品广告
+  path: references/08-食品广告.md
+- title: 09 医疗广告
+  path: references/09-医疗广告.md
+- title: 10 药品广告
+  path: references/10-药品广告.md
+- title: 11 医疗器械广告
+  path: references/11-医疗器械广告.md
+- title: 12 农药广告
+  path: references/12-农药广告.md
+- title: 13 兽药广告
+  path: references/13-兽药广告.md
+- title: 14 促销有奖销售
+  path: references/14-促销有奖销售.md
+- title: 15 互联网广告
+  path: references/15-互联网广告.md
+- title: 16 代言与推荐
+  path: references/16-代言与推荐.md
+- title: 17 商标与专利
+  path: references/17-商标与专利.md
+- title: 18 教育培训与投资招商
+  path: references/18-教育培训与投资招商.md
+- title: 19 公益广告与特殊规定
+  path: references/19-公益广告与特殊规定.md
+- title: 20 广告行为与管理责任
+  path: references/20-广告行为与管理责任.md
 ---
 
 # 广告合规审核

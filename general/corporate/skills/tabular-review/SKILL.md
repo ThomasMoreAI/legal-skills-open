@@ -5,11 +5,18 @@ description: Tabular review — one row per document, one column per data point,
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/tabular-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate
 language: en
+sources:
+- title: Excel output
+  path: references/excel-output.md
+- title: Gsheets output
+  path: references/gsheets-output.md
+- title: Ma diligence columns
+  path: references/ma-diligence-columns.md
 ---
 
 # /tabular-review

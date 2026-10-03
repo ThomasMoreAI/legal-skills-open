@@ -1,18 +1,18 @@
 ---
 name: applying-skarbowy-procedures
-title: applying-skarbowy-procedures
+title: law-pl-applying-skarbowy-procedures
 description: Use when navigating urząd skarbowy / KAS — NIP (NIP-2/7/8, CEIDG), VAT-R, czynny żal (art. 16 KKS), korekta deklaracji (art. 81 OP), ulgi (art. 67a OP — odroczenie, raty, umorzenie), nadpłata (art. 72), interpretacja indywidualna (Dyrektor KIS, art. 14b), kontrola i postępowanie podatkowe (OP dz. IV), odwołanie do DIAS, skargi do WSA / NSA. e-Urząd Skarbowy, KSeF, terminy, taktyki obronne
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-skarbowy-procedures
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: tax
 language: pl
 ---
 
-# applying-skarbowy-procedures
+# law-pl-applying-skarbowy-procedures
 
 Krajowa Administracja Skarbowa (KAS) — formalnie podzielona na: urzędy skarbowe (US), izby administracji skarbowej (IAS), urzędy celno-skarbowe (UCS), Dyrektora Krajowej Informacji Skarbowej (KIS). Dla podatnika — pierwsza linia to **naczelnik US**.
 
@@ -274,8 +274,8 @@ Termin: 5 lat wsteczne (od końca roku, w którym upłynął termin zapłaty zaw
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla odwołania od decyzji → skarga do WSA → NSA — agent `appeal-drafter`.
-- Dla pozwu cywilnego / windykacji zaległości od kontrahenta (np. zwrot PDOF z błędnego PIT-11) — agent `debt-collector`.
-- Dla postępowania w sprawach ZUS (inny urząd, inne ustawy) — skill `applying-zus-procedures`.
-- Dla obliczenia odsetek od zaległości podatkowych — skill `calculating-odsetki` (art. 56 OP — odsetki od zaległości podatkowych na poziomie odsetek za zwłokę).
-- Dla opinii i memorandów dotyczących optymalizacji podatkowej — agent `legal-memo`.
+- Dla odwołania od decyzji → skarga do WSA → NSA — agent `law-pl-appeal-drafter`.
+- Dla pozwu cywilnego / windykacji zaległości od kontrahenta (np. zwrot PDOF z błędnego PIT-11) — agent `law-pl-debt-collector`.
+- Dla postępowania w sprawach ZUS (inny urząd, inne ustawy) — skill `law-pl-applying-zus-procedures`.
+- Dla obliczenia odsetek od zaległości podatkowych — skill `law-pl-calculating-odsetki` (art. 56 OP — odsetki od zaległości podatkowych na poziomie odsetek za zwłokę).
+- Dla opinii i memorandów dotyczących optymalizacji podatkowej — agent `law-pl-legal-memo`.

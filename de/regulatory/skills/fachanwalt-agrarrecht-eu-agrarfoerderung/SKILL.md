@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-agrarrecht-eu-agrarfoerderung
 title: EU-Agrarförderung
-description: Workflow-Skill zu fachanwalt agrarrecht eu agrarfoerderung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für EU-Agrarförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/fachanwalt-agrarrecht-eu-agrarfoerderung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -31,7 +31,6 @@ language: de
 - Konditionalität: GLÖZ-Standards (guter landwirtschaftlicher und ökologischer Zustand) und Grundanforderungen Betriebsführung (GAB) — bei Verstoß Kürzung gestaffelt nach Schwere, Ausmaß, Dauer Art. 84 ff. VO 2021/2116.
 - Kürzungssystem Art. 85 ff. VO 2021/2116 — 1 %, 3 %, 5 %, höher bei vorsätzlichen Verstößen.
 - Widerspruch §§ 68 ff. VwGO und Klage VG bzw. AG-Agrarrecht.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Frist
 
@@ -105,14 +104,6 @@ Mit freundlichen Gruessen
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 Art. 3 VO (EU) 2021/2116 (höhere Gewalt, Ausschluss Sanktion) → Art. 84-87 VO (EU) 2021/2116 (Sanktionssystem, Verhältnismäßigkeit) → § 70 VwGO (Widerspruchsfrist 1 Monat) → § 80 Abs. 1 VwGO (aufschiebende Wirkung) → § 80 Abs. 5 VwGO (Antrag auf Aussetzung der Vollziehung bei Rückforderung)
@@ -120,3 +111,5 @@ Art. 3 VO (EU) 2021/2116 (höhere Gewalt, Ausschluss Sanktion) → Art. 84-87 VO
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

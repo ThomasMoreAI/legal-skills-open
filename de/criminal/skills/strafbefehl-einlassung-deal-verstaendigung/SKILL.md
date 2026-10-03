@@ -1,0 +1,116 @@
+---
+name: strafbefehl-einlassung-deal-verstaendigung
+title: Beweis und Einlassung im Strafbefehlsverfahren
+description: 'Für Beweis und Einlassung im Strafbefehlsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-einlassung-deal-verstaendigung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Beweis und Einlassung im Strafbefehlsverfahren
+
+## Arbeitsbereich
+
+Beweisprüfung und Einlassungsstrategie im Strafbefehlsverfahren. Schweigen nach § 136 StPO darf nicht nachteilig gewertet werden (BGH st. Rspr.). Gestaendnis vs. Bestreiten Strategie. Beweisanträge § 244 StPO. Einlassung schriftlich oder muendlich. Beweisverwertungsverbote § 136a StPO. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+
+1. **Was bestreitet der Mandant?** — Tathandlung, Fahrereigenschaft, Vorsatz, Schuld? Klare Abgrenzung der streitigen Punkte.
+2. **Aktenlage:** Welche Beweismittel hat die Staatsanwaltschaft — Zeugen, Messgeraet, Video, Gestaendnis im Anhörungsbogen?
+3. **Hat der Mandant sich bereits gegenueber der Polizei gaeussert?** — Aussagen im Anhörungsverfahren oder Vernehmung können belastend sein.
+4. **Anhörungsbogen ausgefuellt oder unterschrieben?** — Nur schriftliche Bekanntgabe, kein Gestaendnis; Unterschrift kann als Einraeuming der Fahrereigenschaft ausgelegt werden.
+5. **Dauer der Hauptverhandlung und Ressourcen des Mandanten** — Einlassung mit Kostenpruefung abstimmen.
+6. **Smartphone-, Polizei- oder Versammlungsaufnahme?** — Bei Strafbefehl wegen Filmens/Audioaufnahme sofort `strafbefehl-polizeifilmerei-201-kug` hinzuziehen: § 201 StGB, § 201a StGB und KunstUrhG/KUG dürfen nicht vermischt werden.
+
+## Zentrale Normen
+
+- **§ 136 StPO** — Schweigrecht; Belehrung vor jeder Vernehmung
+- **§ 136a StPO** — Verbotene Vernehmungsmethoden; Verstoss = absolutes Beweisverwertungsverbot
+- **§ 163a StPO** — Vernehmung des Beschuldigten durch die Polizei; Belehrungspflicht
+- **§ 244 StPO** — Beweisantragsrecht; Gericht muss jeden Beweisantrag bescheiden
+- **§ 257c StPO** — Verstaendigung (Deal); auch im vereinfachten Verfahren möglich
+- **§ 46 StGB** — Strafzumessung; Gestaendnis als Milderungsgrund
+- **§§ 22, 23, 33 KunstUrhG/KUG** — Bildnisveröffentlichung; bloße Anfertigung von Bildern getrennt prüfen
+- **§§ 201, 201a StGB** — Tonaufnahmen und höchstpersönliche Bildinhalte; Nichtöffentlichkeit, Schutzbereich und Rechtfertigung sauber trennen
+
+## Entscheidungsbaum Einlassungsstrategie
+
+```
+Mandant bestreitet Tat?
+├─ Ja, substantiiert (Alibi, Messversagen, Fahreridentitaet)
+│ ├─ Schweigen bis Hauptverhandlung empfehlen
+│ ├─ Beweisantraege vorbereiten (§ 244 StPO)
+│ └─ Einlassung in HV formulieren
+├─ Nein, Tat anerkannt, nur Strafmass angreifbar
+│ ├─ Gestaendnis-Strategie: frueh und glaubhaft (§ 46 Abs. 2 StGB)
+│ ├─ Wiedergutmachung als Milderungsgrund (§ 46a StGB)
+│ └─ § 153a-Antrag bei Staatsanwaltschaft pruefen
+└─ Fahrereigenschaft bestreitbar
+ ├─ Lichtbildabgleich anfordern
+ ├─ Keine Aussagen zur Fahreridentifikation
+ └─ Beweisantrag auf Sachverstaendigen für Lichtbild-Identifikation
+
+Anhörungsbogen ausgefuellt?
+├─ Nein → gut; Schweigen weiter empfehlen bis Akteneinsicht
+├─ Ja, Tat zugegeben → Gestaendnis-Wert pruefen für § 153a oder Strafmassreduzierung
+└─ Ja, Einwaende gemacht → auf diese aufbauen, widerspruchsfrei vertiefen
+```
+
+## Schritt-für-Schritt-Workflow
+
+1. **Akteneinsicht anfordern** (§ 147 StPO) — Basis für jede Einlassungsstrategie.
+2. **Beweislage analysieren:** Welche Beweismittel hat die Anklage? Sind sie verwertbar (Belehrungsfehler, § 136a-Verstoss)?
+3. **Mandantengespraech: Sachverhaltsschilderung vollstaendig aufnehmen** — ohne Bewertung, nur erfassen.
+4. **Strategie festlegen** (s. Entscheidungsbaum) — schriftlich dokumentieren, Mandant über Risiken aufklaeren.
+5. **Einlassung formulieren oder Schweigen anordnen** — bei Schweigen Mandanten anweisen, keine Angaben gegenueber Polizei/Staatsanwaltschaft zu machen.
+6. **Beweisantraege formulieren** (§ 244 StPO) — konkret: Beweisthema und Beweismittel benennen.
+7. **Wenn Gestaendnis:** Timing und Umfang mit Mandant absprechen; Gestaendnis in HV fruehzeitig abgeben für optimalen Strafzumessungseffekt.
+
+## Output-Template Einlassungsschreiben
+
+**Adressat:** Gericht — Tonfall: sachlich-juristisch
+
+```
+In der Strafsache gegen [NAME MANDANT]
+Az.: [AKTENZEICHEN]
+
+Einlassung zur Sache
+
+Namens und im Auftrag des Angeklagten erklaere ich wie folgt:
+
+[Variante A — Bestreiten:]
+Der Angeklagte bestreitet die ihm zur Last gelegte Tat.
+[Sachverhaltsschilderung aus Mandantenperspektive]
+
+[Variante B — Gestaendnis:]
+Der Angeklagte gibt zu, [Sachverhalt] getan zu haben.
+Er bedauert dies aufrichtig und hat [Wiedergutmachungshandlung]
+vorgenommen.
+
+Strafmildernd ist zu beruecksichtigen:
+- Ersttatveraechtigter / kein Vorregister
+- [Weitere Umstaende]
+```
+
+## Harte Leitplanken
+
+- Keine Einlassung vor vollstaendiger Akteneinsicht.
+- Schweigrecht nach § 136 StPO ausueben bis Aktenlage klar ist.
+- Gestaendnis nur nach Mandantenruecksprache und Aufklaerung über Tragweite.
+- Beweisverwertungsverbote aktiv prüfen — Fehler der Ermittlungsbehoerden nicht verschenken.
+- Anwaltliche Endkontrolle bei jedem Schritt.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

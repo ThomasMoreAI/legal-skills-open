@@ -5,7 +5,7 @@ description: 'Quickly check if a name is free to use as a trademark. I search th
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/check-a-trademark
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip
@@ -24,6 +24,7 @@ Not clearance opinion  -  knockout. Knockout answer "obvious blocker?" Not "safe
 - Before filing 1(b) intent-to-use application.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read shared context.** Read `context/legal-context.md`. If missing or empty, ask the user in plain language: "I need to know a few basics about your company first. Want to set those up now?" Then run `set-up-my-legal-info` if yes. Stop until that's done.
 

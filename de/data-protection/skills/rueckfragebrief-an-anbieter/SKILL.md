@@ -1,11 +1,11 @@
 ---
 name: rueckfragebrief-an-anbieter
 title: Rückfragebrief an Anbieter
-description: Erstelle einen strukturierten Rückfragebrief an den KI-Anbieter zur Klaerung der berufsrechtlichen und strafrechtlichen Pflichten. Aufbau Anschreiben Kontext drei Fragenbloecke (Verschwiegenheit Subunternehmer TOM und Drittstaat) Fragen zu Zertifizierungen und Versprechungen Frist Unterschrift. Klare praezise Fragen die der Anbieter beantworten kann.
+description: 'Für Rückfragebrief an Anbieter: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/rueckfragebrief-an-anbieter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,13 +14,13 @@ language: de
 
 # Rückfragebrief an Anbieter
 
-## Disclaimer
+## Fachkern: Rückfragebrief an Anbieter
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
-
-## Zweck
-
-Der Rückfragebrief operationalisiert die im Gutachten festgestellten Lücken in konkrete, präzise Fragen an den Anbieter. Er ist die zentrale Schnittstelle zwischen interner Bewertung und externer Verhandlung.
+- **KI-/Berufsrechtsproblem (Rückfragebrief an Anbieter):** Erstelle einen strukturierten Rückfragebrief an den KI-Anbieter zur Klärung der berufsrechtlichen und strafrechtlichen Pflichten. Aufbau Anschreiben Kontext drei Fragenbloecke (Verschwiegenheit Subunternehmer TOM und Drittstaat) Fragen zu Zertifizierungen und Versprechungen Frist Unterschrift. Klare praezise Fragen die der Anbieter beantworten kann.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Aufbau
 
@@ -94,17 +94,9 @@ Kurze Einleitung — die Kanzlei prüft den Einsatz des KI-Produkts und benötig
 
 Sachlich, präzise, keine Anschuldigungen. Der Anbieter soll motiviert sein zu antworten. Die Kanzlei dokumentiert dadurch zugleich die Sorgfalt nach Abs. 2 der Dienstleisterregelung.
 
-## Output
-
-Vollständiger Briefentwurf im Markdown. PDF-Export möglich.
-
 ## Disclaimer im Brief
 
 Der Brief ist eine berufsrechtliche und strafrechtliche Anfrage, keine zivilrechtliche Geltendmachung. Eine zivilrechtliche oder gar strafrechtliche Geltendmachung ist im Streitfall einem spezialisierten Rechtsanwalt vorbehalten.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -113,9 +105,6 @@ Der Brief ist eine berufsrechtliche und strafrechtliche Anfrage, keine zivilrech
 - § 126b BGB — Textform
 - § 43e Abs. 3 BRAO, § 62a Abs. 3 StBerG etc. — Vertragsinhalt der Dienstleisterregelung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Welche Lücken hat die bisherige Vertragsprüfung ergeben (Ampel: gelb/rot)?
@@ -138,30 +127,40 @@ Unser Aktenzeichen: [AZ]
 
 Sehr geehrte Damen und Herren,
 
-wir pruefen den Einsatz von [PRODUKT] in unserer Kanzlei im Hinblick auf die 
+wir pruefen den Einsatz von [PRODUKT] in unserer Kanzlei im Hinblick auf die
 berufsrechtlichen Anforderungen nach § [NORM] [GESETZ] sowie §§ 203, 204 StGB.
 Dazu bitten wir um Beantwortung der folgenden Fragen bis zum [FRIST + 14 TAGE]:
 
 Frageblock 1 — Verschwiegenheit
-F1: Sind Ihre Mitarbeiter und alle Subunternehmer in Textform zur Verschwiegenheit 
-    ueber alle von uns eingegebenen Daten verpflichtet?
+F1: Sind Ihre Mitarbeiter und alle Subunternehmer in Textform zur Verschwiegenheit
+ ueber alle von uns eingegebenen Daten verpflichtet?
 F2: Gilt diese Verpflichtung auch nach Vertragsende zeitlich unbegrenzt?
 
 Frageblock 2 — Subunternehmer
-F3: Welche Subunternehmer (Modellanbieter, Hoster, Support-Dienstleister) haben 
-    Zugriff auf von uns eingegebene Daten?
-    Bitte vollstaendige Liste: Name, Sitz, Funktion, Verarbeitungsstandort.
-F4: Werden wir vor Wechsel oder Hinzunahme von Subunternehmern vorab in Textform 
-    informiert?
+F3: Welche Subunternehmer (Modellanbieter, Hoster, Support-Dienstleister) haben
+ Zugriff auf von uns eingegebene Daten?
+ Bitte vollstaendige Liste: Name, Sitz, Funktion, Verarbeitungsstandort.
+F4: Werden wir vor Wechsel oder Hinzunahme von Subunternehmern vorab in Textform
+ informiert?
 
 Frageblock 3 — Training und Drittstaat
-F5: Werden von uns eingegebene Daten zu Trainingszwecken genutzt? 
-    (Auch aggregiert oder anonymisiert?)
-F6: Wo werden unsere Daten verarbeitet und gespeichert? 
-    Werden US-Server oder US-Subunternehmer eingesetzt (CLOUD-Act-Risiko)?
+F5: Werden von uns eingegebene Daten zu Trainingszwecken genutzt?
+ (Auch aggregiert oder anonymisiert?)
+F6: Wo werden unsere Daten verarbeitet und gespeichert?
+ Werden US-Server oder US-Subunternehmer eingesetzt (CLOUD-Act-Risiko)?
 
 Wir bitten um Beantwortung in Textform.
 
 Mit freundlichen Gruessen
 [UNTERSCHRIFT]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

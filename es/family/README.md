@@ -4,12 +4,14 @@ Family law — marriage, divorce, children, maintenance, and (where relevant) pe
 
 Jurisdiction: `es` · Practice: `family` · Skill language: es
 
-## Skills (2)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
-| [`/convenio`](skills/convenio/) | Genera una plantilla de convenio regulador para divorcio o separación, con todas las secciones obligatorias… |
-| [`/pensiones`](skills/pensiones/) | Estima de forma orientativa la pensión de alimentos y la pensión compensatoria en procesos de familia. Usa… |
+| [`/convenio`](skills/convenio/) | Genera una plantilla de convenio regulador para divorcio o separación, con todas las secciones… |
+| [`/entrevista-inicial`](skills/entrevista-inicial-betobetico/) | Ejecuta la entrevista de configuración inicial del plugin de derecho de familia. Aprende tu práctica y… |
+| [`/pensiones`](skills/pensiones/) | Estima de forma orientativa la pensión de alimentos y la pensión compensatoria en procesos de familia.… |
+| [`/regimen-economico`](skills/regimen-economico/) | Analiza el régimen económico matrimonial aplicable a una pareja, considerando vecindad civil… |
 
 ## Cold-start context
 

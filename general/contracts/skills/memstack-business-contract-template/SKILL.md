@@ -1,25 +1,25 @@
 ---
 name: memstack-business-contract-template
-title: Contract Template — Drafting service agreement...
+title: 'Contract Template: Drafting service agreement...'
 description: Use this skill when the user says 'contract', 'agreement', 'service agreement', 'NDA', 'freelance contract', 'consulting agreement', or needs service agreements with IP ownership, payment terms, and termination clauses. Do NOT use for invoicing or client onboarding.
 author: cwinvestments
 author_url: https://github.com/cwinvestments/memstack/tree/master/skills/business/contract-template
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
 ---
 
-# Contract Template — Drafting service agreement...
+# Contract Template: Drafting service agreement...
 *Provides service agreement, NDA, and subcontractor templates with scope, payment, IP ownership, confidentiality, termination, and liability clauses.*
 
 ## Activation
 
 When this skill activates, output:
 
-`Contract Template — Drafting service agreement...`
+`Contract Template: Drafting service agreement...`
 
 Then execute the protocol below.
 
@@ -30,8 +30,8 @@ Then execute the protocol below.
 | User says "contract", "agreement", "service agreement", "NDA" | ACTIVE |
 | User says "freelance contract" or "consulting agreement" | ACTIVE |
 | User needs a written agreement for client or vendor work | ACTIVE |
-| User wants an invoice | DORMANT — use Invoice Generator |
-| User wants a project proposal | DORMANT — use Proposal Writer |
+| User wants an invoice | DORMANT: use Invoice Generator |
+| User wants a project proposal | DORMANT: use Proposal Writer |
 
 ## Common Mistakes
 
@@ -51,12 +51,12 @@ Then execute the protocol below.
 
 If the user hasn't provided details, ask:
 
-> 1. **Contract type** — service agreement, NDA, subcontractor agreement, or other?
-> 2. **Parties** — who is the provider and who is the client?
-> 3. **Scope** — what work is being performed?
-> 4. **Payment** — flat fee, hourly, retainer, milestone-based?
-> 5. **Duration** — start date, end date, or ongoing?
-> 6. **Special terms** — non-compete, exclusivity, IP considerations?
+> 1. **Contract type**: service agreement, NDA, subcontractor agreement, or other?
+> 2. **Parties**: who is the provider and who is the client?
+> 3. **Scope**: what work is being performed?
+> 4. **Payment**: flat fee, hourly, retainer, milestone-based?
+> 5. **Duration**: start date, end date, or ongoing?
+> 6. **Special terms**: non-compete, exclusivity, IP considerations?
 
 ### Step 2: Select Contract Type
 
@@ -90,9 +90,9 @@ and
 ```
 Provider agrees to perform the following services ("Services"):
 
-1. [Deliverable 1 — specific description]
-2. [Deliverable 2 — specific description]
-3. [Deliverable 3 — specific description]
+1. [Deliverable 1: specific description]
+2. [Deliverable 2: specific description]
+3. [Deliverable 3: specific description]
 
 Out of scope (requires separate agreement or change order):
 - [Excluded item 1]
@@ -122,17 +122,17 @@ Late payment:
 
 **4. Intellectual Property:**
 ```
-Option A — Full IP Transfer (most common for client work):
+Option A, Full IP Transfer (most common for client work):
 Upon full payment, all work product created under this Agreement
 ("Work Product") shall be the exclusive property of Client. Provider
 assigns all rights, title, and interest in the Work Product to Client.
 
-Option B — License (provider retains ownership):
+Option B: License (provider retains ownership):
 Provider retains all rights to the Work Product and grants Client a
 perpetual, non-exclusive, worldwide license to use, modify, and
 distribute the Work Product for Client's business purposes.
 
-Option C — Shared (split ownership):
+Option C, Shared (split ownership):
 Client owns the final deliverables. Provider retains the right to
 reuse general techniques, methodologies, and non-client-specific
 components ("Provider Tools") in future work.
@@ -149,7 +149,7 @@ disclosed by the other party ("Confidential Information"), including
 but not limited to: business plans, customer data, financial records,
 technical specifications, and trade secrets.
 
-Exclusions — Information is not confidential if it:
+Exclusions, Information is not confidential if it:
 (a) is or becomes publicly available without breach;
 (b) was known to the receiving party before disclosure;
 (c) is independently developed without use of confidential information;
@@ -268,7 +268,7 @@ Deliver the contract as a complete document with all selected clauses assembled 
 ## Completion
 
 ```
-Contract Template — Complete!
+Contract Template: Complete!
 
 Type: [Service Agreement / NDA / Subcontractor / Retainer]
 Parties: [Provider] and [Client]
@@ -286,4 +286,4 @@ Next steps:
 
 ## Level History
 
-- **Lv.1** — Base: 5 contract types (service, NDA mutual/one-way, subcontractor, retainer), 8 core clauses (parties, scope, payment, IP with 3 options, confidentiality, termination, liability, dispute), standalone NDA template, signature block, pre-send checklist. (Origin: MemStack Pro v3.2, Mar 2026)
+- **Lv.1**: Base: 5 contract types (service, NDA mutual/one-way, subcontractor, retainer), 8 core clauses (parties, scope, payment, IP with 3 options, confidentiality, termination, liability, dispute), standalone NDA template, signature block, pre-send checklist. (Origin: MemStack Pro v3.2, Mar 2026)

@@ -1,11 +1,11 @@
 ---
 name: beschluss-bauen-zpo
 title: Beschluss bauen — Zivilprozess
-description: 'Zivilrechtliche Beschluesse erstellen: PKH, Streitwert, Beweis, Hinweis nach § 139 ZPO, Kostenfestsetzung, Versaeumnis, Erledigung. Normen: §§ 127 und 329 und 358 ff. sowie 139 und 103 ff. ZPO. Prüfraster: Unterschied Beschluss/Urteil (Begründungstiefe, Rechtsmittel), Tenor-Klarheit, Rechtsmittelbelehrung, Zustellung. Output Beschluss-Entwurf mit Tenor, Begründung, Rechtsmittelbelehrung. Abgrenzung: Urteil siehe entscheidungsgründe-zivil-schreiben; Vollstreckbarkeit siehe vorlaeufige-vollstreckbarkeit.'
+description: 'Für Beschluss bauen — Zivilprozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/beschluss-bauen-zpo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Beschluss bauen — Zivilprozess
-
-## Zweck
-
-Beschlüsse sind selbstständige Entscheidungen, die nicht auf muendliche Verhandlung ergehen müssen (Paragraf 128 IV ZPO). Sie sind das tägliche Werkzeug des Zivilrichters — von der prozessleitenden Maßnahme bis zur Endentscheidung im Beschlussverfahren (z.B. Familiensachen FamFG). Dieser Skill liefert die Form, die typischen Tenoere, die wichtigsten Begründungsmuster und die wiederkehrenden Fallstricke.
 
 ## 1) Beschluss-Typen im Überblick
 
@@ -55,7 +51,6 @@ Klar, knapp, vollstreckbar. **Imperative Form**, keine Konditionalsätze.
 
 ### Gründe
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Rechtsmittelbelehrung
 
@@ -70,14 +65,14 @@ Bei Einzelrichter eine Unterschrift, bei Kammer drei. Bei Beschluss nach Paragra
 ### PKH-Beschluss
 
 ```
-Dem Klaeger wird fuer den ersten Rechtszug Prozesskostenhilfe ohne
+Dem Klaeger wird für den ersten Rechtszug Prozesskostenhilfe ohne
 Ratenzahlung bewilligt. Rechtsanwalt [Name] wird beigeordnet.
 ```
 
 oder bei Teilbewilligung:
 
 ```
-Dem Klaeger wird fuer den ersten Rechtszug Prozesskostenhilfe insoweit
+Dem Klaeger wird für den ersten Rechtszug Prozesskostenhilfe insoweit
 bewilligt, als er Anspruch auf Zahlung von 5.000,- EUR nebst Zinsen
 geltend macht. Im uebrigen wird der Antrag zurueckgewiesen, da
 hinreichende Erfolgsaussicht (Paragraf 114 ZPO) fehlt.
@@ -93,8 +88,8 @@ Bei mehreren Streitgegenständen:
 
 ```
 Der Streitwert wird festgesetzt
-- fuer den Hauptantrag (Zahlung) auf 10.000,- EUR,
-- fuer den Hilfsantrag (Feststellung) auf 2.500,- EUR.
+- für den Hauptantrag (Zahlung) auf 10.000,- EUR,
+- für den Hilfsantrag (Feststellung) auf 2.500,- EUR.
 ```
 
 ### Beweisbeschluss
@@ -116,8 +111,8 @@ Hoehe des am Fahrzeug entstandenen Schadens.
 Die Parteien werden auf folgende rechtliche Gesichtspunkte hingewiesen
 (Paragraf 139 II ZPO):
 1. Es bestehen Bedenken gegen die Schluessigkeit der Klage hinsichtlich
-   des Vortrags zur Hoehe des Schmerzensgeldes. Der Klaeger wird
-   gebeten, [...] naeher darzulegen.
+ des Vortrags zur Hoehe des Schmerzensgeldes. Der Klaeger wird
+ gebeten, [...] naeher darzulegen.
 2. [...]
 Den Parteien wird Gelegenheit gegeben, hierzu binnen drei Wochen
 schriftsaetzlich Stellung zu nehmen.
@@ -148,13 +143,15 @@ Die Kosten des Rechtsstreits traegt der Beklagte (Paragraf 91a I 1 ZPO).
 
 > **Achtung — abgrenzende Konstellation**: Bei **einseitiger** Erledigungserklärung, der die Gegenseite **widerspricht**, ist der Streitgegenstand gewandelt zur Feststellung der Erledigung. Darüber wird **durch Urteil** entschieden (nicht durch Beschluss nach Paragraf 91a ZPO), mit Tenor "Es wird festgestellt, dass die Hauptsache erledigt ist" und voller Kostenentscheidung nach Paragraf 91 ZPO. Tenor und Urteilsbegründung gehören dann nicht in diesen Beschluss-Skill, sondern in `tenor-bauen-zivil` und `entscheidungsgruende-zivil-schreiben`.
 
+> **Weitere Abgrenzung — materiell-rechtliche Kostenerstattungsklage**: Fällt der Klageanlass vor Rechtshängigkeit weg, kann die klagende Partei nach BGH, Urteil vom 18. April 2013, III ZR 156/12, zwischen dem Kostenantrag nach Paragraf 269 Absatz 3 Satz 3 und Absatz 4 ZPO und einer gesonderten materiell-rechtlichen Kostenerstattungsklage wählen. Ist der Schaden bezifferbar, geht der Zahlungsantrag vor; ein Feststellungsantrag verlangt ein Feststellungsinteresse. Über den materiellen Anspruch wird durch Urteil, nicht durch Beschluss nach Paragraf 91a ZPO entschieden.
+
 ## 4) Begründungsmuster
 
 ### PKH — Erfolgsaussicht und Bedürftigkeit
 
 ```
 Der Antrag hat Erfolg. Die Klage hat hinreichende Erfolgsaussicht
-(Paragraf 114 ZPO), da der Klaeger fuer den von ihm geltend gemachten
+(Paragraf 114 ZPO), da der Klaeger für den von ihm geltend gemachten
 Anspruch aus Paragraf 280 I, III, 281 BGB schluessig dargelegt
 hat, dass [...]. Der Klaeger ist beduerftig im Sinne des Paragraf 115 ZPO;
 seine Einkommensverhaeltnisse sind durch die eingereichte
@@ -178,8 +175,8 @@ durch Beschluss zurueckzuweisen, da
 1. die Berufung keine Aussicht auf Erfolg hat (Paragraf 522 II 1 Nr. 1 ZPO),
 2. die Rechtssache keine grundsaetzliche Bedeutung hat (Nr. 2),
 3. die Fortbildung des Rechts oder die Sicherung einer einheitlichen
-   Rechtsprechung eine Entscheidung des Berufungsgerichts nicht erfordert
-   (Nr. 3) und
+ Rechtsprechung eine Entscheidung des Berufungsgerichts nicht erfordert
+ (Nr. 3) und
 4. eine muendliche Verhandlung nicht geboten ist (Nr. 4).
 
 Im einzelnen: [...]
@@ -190,11 +187,11 @@ gegeben.
 
 ## 5) Unterschied zum Urteil
 
-- Beschluss ergeht **ohne** muendliche Verhandlung (Paragraf 128 IV ZPO), Urteil grundsaetzlich **mit** (Paragraf 128 I ZPO).
+- Beschluss ergeht **ohne** muendliche Verhandlung (Paragraf 128 IV ZPO), Urteil grundsätzlich **mit** (Paragraf 128 I ZPO).
 - Begründung beim Beschluss kuerzer — aber nicht unkenntlich.
 - Rechtsmittel beim Beschluss ist meist die **sofortige Beschwerde** (Paragraf 567 ZPO, 2-Wochen-Frist), nicht die Berufung.
 - **Tatbestand entfaellt** beim Beschluss in der Regel; bei Endentscheidungen (z.B. Versäumnisbeschluss Paragraf 331 III ZPO) ist eine knappe Sachverhaltsdarstellung sinnvoll.
-- Beschlüsse koennen vom **Vorsitzenden allein** ergehen, soweit nicht Kammerentscheidung vorgeschrieben (Paragraf 348 ZPO Einzelrichter).
+- Beschlüsse können vom **Vorsitzenden allein** ergehen, soweit nicht Kammerentscheidung vorgeschrieben (Paragraf 348 ZPO Einzelrichter).
 
 ## 6) Typische Fehler
 
@@ -203,8 +200,9 @@ gegeben.
 3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 4. **Streitwertbeschluss zu spaet.** Festsetzung bis zur nächsten Instanz möglich, aber meist mit Urteil/Endbeschluss (Paragraf 63 II GKG).
 5. **Erledigungsbeschluss ohne Begründung der Kostenentscheidung.** Paragraf 91a ZPO verlangt billiges Ermessen; mindestens kurze Begründung der Kostenquote.
-6. **Rechtsmittelbelehrung falsch.** Bei sofortiger Beschwerde 2 Wochen ab Zustellung; bei Einspruch gegen Versäumnisbeschluss 2 Wochen ab Zustellung; bei Beschwerde gegen Streitwertfestsetzung 6 Monate ab Festsetzung (Paragraf 68 GKG).
-7. **Unterschriften fehlen.** Bei Kammer-Beschluss alle drei Richter. Bei Verhinderung Vermerk "für den an der Unterschrift verhinderten Richter [Name] gemäß Paragraf 315 ZPO".
+6. **Kostenfeststellungsklage als § 91a-Beschluss fehlbehandelt.** Wenn die Klägerseite nach Zahlung vor Rechtshängigkeit auf materiell-rechtliche Kostenerstattung als Verzugsschaden umgestellt hat, muss ein Urteil über den Feststellungsantrag gebaut werden; der Rechtspfleger-Kostenfestsetzungsweg nach §§ 103, 104 ZPO kommt erst nach Kostengrundtitel.
+7. **Rechtsmittelbelehrung falsch.** Bei sofortiger Beschwerde 2 Wochen ab Zustellung; bei Einspruch gegen Versäumnisbeschluss 2 Wochen ab Zustellung; bei Beschwerde gegen Streitwertfestsetzung 6 Monate ab Festsetzung (Paragraf 68 GKG).
+8. **Unterschriften fehlen.** Bei Kammer-Beschluss alle drei Richter. Bei Verhinderung Vermerk "für den an der Unterschrift verhinderten Richter [Name] gemäß Paragraf 315 ZPO".
 
 ## 7) Schnellprüfung vor Versand
 
@@ -220,4 +218,4 @@ gegeben.
 
 - `relation-zivil` — bei nachfolgender Hauptsachenentscheidung
 - `tenor-bauen-zivil` — Tenor-Werkstatt
-- `vorlaeufige-vollstreckbarkeit` — bei verbundenem Urteil
+- `vorläufige-vollstreckbarkeit` — bei verbundenem Urteil

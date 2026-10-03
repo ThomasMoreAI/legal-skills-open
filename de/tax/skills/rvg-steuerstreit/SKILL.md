@@ -1,0 +1,60 @@
+---
+name: rvg-steuerstreit
+title: Anwaltsgebuehren im Steuerstreit — RVG StBVV Verhältnis
+description: 'Für Anwaltsgebühren im Steuerstreit — RVG StBVV Verhältnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: rvg-steuerstreit.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/rvg-steuerstreit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Anwaltsgebuehren im Steuerstreit — RVG StBVV Verhältnis
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, § 4 RVG, § 4a RVG.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Anwaltsmandat (RVG) oder Steuerberatermandat (StBVV) oder Mischmandat?
+2. Welcher Streitwert oder Gegenstandswert ist anzusetzen?
+3. Geschäfts- Verfahrens- oder Terminsgebuehr — welche Phase?
+4. Soll Pauschalhonorar oder Stundenhonorar nach § 4 RVG vereinbart werden?
+5. Ist Erfolgshonorar § 4a RVG ausnahmsweise zulässig?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 1 RVG** — Anwendungsbereich.
+- **§ 4 RVG** — Vereinbarung niedrigerer Gebühren.
+- **§ 4a RVG** — Erfolgshonorar.
+- **§ 13 RVG** — Wertgebuehr.
+- **VV RVG** — Vergueterungsverzeichnis Nrn. 2300 ff.
+- **StBVV** — Steuerberatervergueterungsverordnung.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 1 RVG · § 4 RVG · § 4a RVG · § 13 RVG · VV RVG · §§ 1 ff. StBVV · § 49b BRAO · § 64 StBerG
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

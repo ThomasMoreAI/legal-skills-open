@@ -8,9 +8,9 @@ Jurisdiction: `es` · Practice: `general` · Skill language: es
 
 | Skill | What it does |
 |---|---|
-| [`/intake`](skills/intake/) | Recogida estructurada de datos del cliente para la clínica jurídica. Identifica datos personales, asunto,… |
-| [`/investigacion`](skills/investigacion/) | Genera una hoja de ruta de investigación jurídica: legislación a consultar, áreas de jurisprudencia a buscar,… |
-| [`/memo`](skills/memo-betobetico/) | Genera un memo de caso con estructura IRAC (Identificación del problema, Regulación aplicable, Aplicación al… |
+| [`/intake`](skills/intake/) | Recogida estructurada de datos del cliente para la clínica jurídica. Identifica datos personales… |
+| [`/investigacion`](skills/investigacion/) | Genera una hoja de ruta de investigación jurídica: legislación a consultar, áreas de jurisprudencia a… |
+| [`/memo`](skills/memo-betobetico/) | Genera un memo de caso con estructura IRAC (Identificación del problema, Regulación aplicable… |
 
 ## Cold-start context
 

@@ -8,7 +8,7 @@ Jurisdiction: `sg` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`BART: Statutory Reference Checker`](skills/bart-statutory-reference-checker/) | Use when checking statutory citations in Singapore legal documents, verifying references against Singapore… |
+| [`BART: Statutory Reference Checker`](skills/bart-statutory-reference-checker/) | Use when checking statutory citations in Singapore legal documents, verifying references against… |
 
 ## Cold-start context
 

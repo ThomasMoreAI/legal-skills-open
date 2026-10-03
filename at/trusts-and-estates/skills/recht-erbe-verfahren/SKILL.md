@@ -5,11 +5,16 @@ description: Austrian probate and inheritance procedure — Verlassenschaftsverf
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-erbe-verfahren
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: trusts-and-estates
 language: de
+sources:
+- title: Ogh case presentation
+  path: references/ogh-case-presentation.md
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht erbe-verfahren — Verlassenschaftsverfahren und erbrechtliche Rechtsmittel

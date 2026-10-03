@@ -8,7 +8,7 @@ Jurisdiction: `fr` · Practice: `contracts` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`Client Contract Builder`](skills/client-contract-builder-khalilbenaz/) | Aide à rédiger des contrats de prestation freelance avec les clauses essentielles, CGV et protection de la… |
+| [`Client Contract Builder`](skills/client-contract-builder-khalilbenaz/) | Aide à rédiger des contrats de prestation freelance avec les clauses essentielles, CGV et protection de… |
 
 ## Cold-start context
 

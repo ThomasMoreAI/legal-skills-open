@@ -5,12 +5,24 @@ description: 'Produces a litigation-ready analysis of medical bills and supporti
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/medical-billing-analysis
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: personal-injury
 language: en
-tags: [litigation, analysis, summary]
+tags:
+- litigation
+- analysis
+- summary
+sources:
+- title: Code validation
+  path: references/CODE-VALIDATION.md
+- title: Output template
+  path: references/OUTPUT-TEMPLATE.md
+- title: Reasonableness methodology
+  path: references/REASONABLENESS-METHODOLOGY.md
+- title: Red flags catalog
+  path: references/RED-FLAGS-CATALOG.md
 ---
 
 # Medical Billing Analysis

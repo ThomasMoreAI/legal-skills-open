@@ -8,8 +8,8 @@ Jurisdiction: `at` · Practice: `trusts-and-estates` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht erbe — Erbrechtliche Analyse`](skills/recht-erbe-momarcode1/) | Austrian inheritance law analysis — intestate succession (gesetzliche Erbfolge), wills (Testament), forced… |
-| [`/recht erbe-verfahren — Verlassenschaftsverfahren und erbrechtliche Rechtsmittel`](skills/recht-erbe-verfahren/) | Austrian probate and inheritance procedure — Verlassenschaftsverfahren (AußStrG §§143ff),… |
+| [`/recht erbe — Erbrechtliche Analyse`](skills/recht-erbe-momarcode1/) | Austrian inheritance law analysis — intestate succession (gesetzliche Erbfolge), wills (Testament)… |
+| [`/recht erbe-verfahren — Verlassenschaftsverfahren und erbrechtliche Rechtsmittel`](skills/recht-erbe-verfahren/) | Austrian probate and inheritance procedure — Verlassenschaftsverfahren (AußStrG §§143ff)… |
 
 ## Cold-start context
 

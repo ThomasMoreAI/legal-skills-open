@@ -1,11 +1,11 @@
 ---
 name: rdg-pruefung-chatbot
 title: RDG-Prüfung Chatbot
-description: Workflow-Skill zu rdg pruefung chatbot. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für RDG-Prüfung Chatbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/rdg-pruefung-chatbot
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,7 +14,17 @@ language: de
 
 # RDG-Prüfung Chatbot
 
-Die Frage, ob ein KI-Chatbot "Rechtsdienstleistungen" im Sinne des Rechtsdienstleistungsgesetzes (RDG) erbringt, ist für Kanzleien in mehrfacher Hinsicht relevant: für die eigene Nutzung durch anwaltliche und nicht-anwaltliche Mitarbeitende sowie für die Beratung von Mandanten, die KI-gestützte Rechtsservices anbieten oder nutzen.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Die Frage, ob ein KI-Chatbot "Rechtsdienstleistungen" im Sinne des Rechtsdienstleistungsgesetzes (RDG) erbringt, ist für Kanzleien in mehrfacher Hinsicht relevant: für die eigene Nutzung durch anwaltliche und nicht-anwaltliche Mitarbeiter sowie für die Beratung von Mandanten, die KI-gestützte Rechtsservices anbieten oder nutzen.
 
 ## Rechtlicher Hintergrund
 
@@ -31,21 +41,17 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 
 ## Vorlagentext / Bausteine
 
-**Baustein RDG-Abgrenzung für Mitarbeitende:**
-Mitarbeitende ohne Rechtsanwaltszulassung dürfen KI-generierten Output zu rechtlichen Fragen nicht als Rechtsberatung an Mandanten oder sonstige Dritte weitergeben. Die unkritische Weitergabe von KI-generierten Rechtsaussagen an Dritte ohne anwaltliche Prüfung und Freigabe kann als unerlaubte Rechtsdienstleistung nach § 3 RDG qualifizieren. Dies gilt ungeachtet etwaiger Disclaimer des KI-Anbieters.
+**Baustein RDG-Abgrenzung für Mitarbeiter:**
+Mitarbeiter ohne Rechtsanwaltszulassung dürfen KI-generierten Output zu rechtlichen Fragen nicht als Rechtsberatung an Mandanten oder sonstige Dritte weitergeben. Die unkritische Weitergabe von KI-generierten Rechtsaussagen an Dritte ohne anwaltliche Prüfung und Freigabe kann als unerlaubte Rechtsdienstleistung nach § 3 RDG qualifizieren. Dies gilt ungeachtet etwaiger Disclaimer des KI-Anbieters.
 
 **Baustein RDG-Konformität bei anwaltlicher Nutzung:**
 Rechtsanwältinnen und Rechtsanwälte, die KI-Systeme als Hilfsmittel zur Erstellung von Schriftsätzen, Gutachten oder Beratungsschreiben nutzen und das Ergebnis eigenverantwortlich prüfen und freigeben, verstoßen nicht gegen das RDG. Die Rechtsdienstleistung erbringt in diesem Fall der Anwalt — der Chatbot ist lediglich ein unterstützendes Werkzeug.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Hinweise zur Aktualisierung
 
 Die Rechtsprechung zum RDG im Kontext von KI-Systemen ist noch im Entstehen. Nach neuen BGH-Entscheidungen oder Entscheidungen der Oberlandesgerichte zur Qualifikation von KI-Diensten als Rechtsdienstleistung ist dieser Baustein zu aktualisieren. Auch Gesetzgebungsvorhaben zur Anpassung des RDG an die KI-Realität sind zu beobachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - § 2 RDG — Rechtsdienstleistung (Begriff)
@@ -57,11 +63,11 @@ Die Rechtsprechung zum RDG im Kontext von KI-Systemen ist noch im Entstehen. Nac
 ## Triage zu Beginn
 1. Gibt der Chatbot rechtliche Einschatzungen oder nur allgemeine Informationen?
 2. Basiert die Chatbot-Antwort auf dem konkreten Einzelfall des Nutzers — Subsumtion?
-3. Ist ein Rechtsanwalt als Verantwortlicher fuer die Chatbot-Antworten benannt?
+3. Ist ein Rechtsanwalt als Verantwortlicher für die Chatbot-Antworten benannt?
 4. Wird der Chatbot-Charakter nach Art. 50 Abs. 1 KI-VO offengelegt?
 5. Gibt es einen Hinweis, dass der Chatbot keine anwaltliche Beratung ersetzt?
 
-## Output-Template — RDG-Pruefprotokoll Chatbot
+## Output-Template — RDG-Prüfprotokoll Chatbot
 **Adressat:** Kanzlei / Compliance — Tonfall: rechtlich, praezise
 ```
 RDG-PRUEFPROTOKOLL — CHATBOT
@@ -86,3 +92,5 @@ Ergebnis: [ZULASSIG / BEDINGT ZULASSIG / UNZULAESSIG]
 Auflagen: [BESCHREIBUNG]
 Geprueft von: [NAME RA/RAin], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

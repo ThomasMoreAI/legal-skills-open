@@ -8,8 +8,8 @@ Jurisdiction: `general` · Practice: `trade` · Skill language varies per skill 
 
 | Skill | What it does |
 |---|---|
-| [`WTO und handelspolitische Maßnahmen`](skills/aussenwirtschaft-wto-handelspolitik/) | WTO Handelspolitik GATT GATS TRIPS und Streitbeilegung für Aussenhandelsmandate. Anwendungsfall… |
-| [`Commercial Invoice for Export`](skills/commercial-invoice-for-export/) | Drafts a compliant Commercial Invoice for Export satisfying customs, banking (L/C), logistics, and insurance… |
+| [`WTO-Handelspolitik: GATT Schutzmassnahmen und EU-Handelsverteidigung`](skills/aussenwirtschaft-wto-handelspolitik/) | Für WTO-Handelspolitik: GATT Schutzmassnahmen und EU-Handelsverteidigung: ordnet Norm, Beweislast und… |
+| [`Commercial Invoice for Export`](skills/commercial-invoice-for-export/) | Drafts a compliant Commercial Invoice for Export satisfying customs, banking (L/C), logistics, and… |
 
 ## Cold-start context
 

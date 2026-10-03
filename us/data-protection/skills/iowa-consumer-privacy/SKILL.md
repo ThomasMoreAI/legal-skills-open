@@ -5,11 +5,16 @@ description: Iowa Consumer Data Protection Act (ICDPA) compliance. Effective Jan
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/plugins/privacy-skills-complete/skills/iowa-consumer-privacy
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Iowa Consumer Data Protection Act (ICDPA)

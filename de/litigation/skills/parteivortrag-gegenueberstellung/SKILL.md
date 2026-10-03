@@ -1,11 +1,11 @@
 ---
 name: parteivortrag-gegenueberstellung
 title: Parteivortrag — Gegenüberstellung
-description: Erstellt eine Tabelle mit zwei Spalten (Klaegerseite und Beklagtenseite) für streitige Sachverhaltsangaben Punkt für Punkt. Jeder Streitpunkt wird als eigene Zeile gegenübergestellt. Fundstellen in Schriftsaetzen werden angegeben. Keine Wertung welcher Vortrag zutreffend ist. Massstab §§ 138 286 ZPO.
+description: 'Für Parteivortrag — Gegenüberstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/parteivortrag-gegenueberstellung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Parteivortrag — Gegenüberstellung
 
-## Zweck
+## Arbeitsweg
 
-Die Parteivortrag-Tabelle stellt streitige Sachverhaltsangaben der Kläger- und der Beklagtenseite Punkt für Punkt gegenüber. Sie ermöglicht dem Anwalt, auf einen Blick zu erkennen, was tatsächlich streitig ist und was als unstreitig gilt.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Erstellung
 
@@ -33,13 +37,6 @@ Die Parteivortrag-Tabelle stellt streitige Sachverhaltsangaben der Kläger- und 
 - § 531 Abs. 2 ZPO — Beschränktes Vorbringen neuer Angriffs- und Verteidigungsmittel in der Berufungsinstanz
 - § 139 ZPO — Richterliche Hinweispflicht; Gericht weist auf Lücken im Vortrag hin
 
-## Rechtsprechung zum Parteivortrag und Bestreiten
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Tabellenstruktur
 
 ```markdown
@@ -87,10 +84,4 @@ Unstreitige Sachverhaltselemente werden unterhalb der Tabelle als Block "Unstrei
 - [ ] Unstreitiger Sachverhalt separat ausgewiesen?
 - [ ] Präkludierte Punkte (§§ 296 531 ZPO) als solche markiert?
 
-
-<!-- AUDIT 27.05.2026 bundle_055
-Halluzinations-Reparatur: BGH VII ZR 131/13 (WRONG_TOPIC) korrigiert.
-Echtes Thema laut dejure.org: Anforderungen an die Bestimmtheit eines Architektenvertrages
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Beschreibung entsprechend angepasst.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

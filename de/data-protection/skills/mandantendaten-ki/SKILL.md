@@ -1,11 +1,11 @@
 ---
 name: mandantendaten-ki
 title: Mandantendaten und KI-Dienstleister (§ 203 StGB, Art. 28 DSGVO)
-description: 'Datenschutzkonforme Verwendung von Mandantendaten beim Einsatz von KI-Tools in der Kanzlei prüfen. Art. 5 6 DSGVO BRAO § 43a Verschwiegenheit. Prüfraster: Rechtsgrundlage Zweckbindung Vertraulichkeit Anwaltsprivileg AVV KI-Anbieter. Output: Compliance-Memo Nutzungsempfehlung. Abgrenzung: nicht für allgemeine KI-VO-Fragen (ki-verordnung-compliance).'
+description: 'Für Mandantendaten und digitale Werkzeuge-Dienstleister (Paragraf 203 StGB, Art. 28 DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/mandantendaten-ki
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill begleitet die berufsrechtlich und datenschutzrechtlich konforme Einbindung externer IT- und KI-Dienstleister in Kanzlei- und Beratungsprozesse. Im Mittelpunkt stehen (1) die strafrechtliche Compliance nach § 203 StGB n.F., (2) die berufsrechtliche Verschwiegenheitspflicht nach § 43a Abs. 2 BRAO, (3) der datenschutzrechtliche Auftragsverarbeitungsvertrag nach Art. 28 DSGVO sowie (4) spezifische Anforderungen an KI-Systeme (Transfer Impact Assessment, EU-Hosting, Audit-Logs). Anwendungsfälle: Kanzlei möchte CloudDienstleister für E-Mail-Hosting einsetzen; Rechtsanwalt erwägt Nutzung eines KI-Tools zur Dokumentenanalyse; IT-Dienstleister erhält Zugang zu Mandantenakten für Systemwartung.
+Begleitet die berufsrechtlich und datenschutzrechtlich konforme Einbindung externer IT- und KI-Dienstleister in Kanzlei- und Beratungsprozesse. Im Mittelpunkt stehen (1) die strafrechtliche Compliance nach § 203 StGB n.F., (2) die berufsrechtliche Verschwiegenheitspflicht nach § 43a Abs. 2 BRAO, (3) der datenschutzrechtliche Auftragsverarbeitungsvertrag nach Art. 28 DSGVO sowie (4) spezifische Anforderungen an KI-Systeme (Transfer Impact Assessment, EU-Hosting, Audit-Logs). Anwendungsfälle: Kanzlei möchte CloudDienstleister für E-Mail-Hosting einsetzen; Rechtsanwalt erwägt Nutzung eines KI-Tools zur Dokumentenanalyse; IT-Dienstleister erhält Zugang zu Mandantenakten für Systemwartung.
 
 ## Eingaben
 
@@ -93,6 +93,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **TIA-Grundgerüst**: Länderspezifische Risikoeinschätzung für Drittlandtransfers.
 - **Geheimhaltungsverpflichtung** (Vorlage): Vertragsmuster für mitwirkende Personen nach § 203 Abs. 3 Satz 2 StGB.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Beispiel
 
 **Sachverhalt**: Rechtsanwalt R möchte einen US-amerikanischen KI-Dienst (Serverstandort: Virginia, USA) für die Analyse von Vertragsunterlagen aus einem laufenden M&A-Mandat nutzen. Der Anbieter schließt in seinen AGB "Training mit Nutzerdaten nicht aus".
@@ -128,10 +136,6 @@ Stand: 05/2026. Aktualität prüfen bei Anpassungen von § 203 StGB, neuen BRAO-
 - `datenschutzrecht/skills/avv-pruefung/SKILL.md` — AVV-Prüfung für den konkreten KI-Dienstleister
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — Vollständige TIA-Methodik bei US- oder Drittland-KI-Diensten
 - **ki-richtlinie-kanzleien** (geplant ab v3.3.0): Kanzleiweite KI-Nutzungsrichtlinien, Rollen und Freigabeprozesse für den Einsatz von KI-Werkzeugen in der Rechtsberatung. Querverweis sobald Plugin verfügbar.
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 

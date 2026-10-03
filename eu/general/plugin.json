@@ -1,0 +1,17 @@
+{
+  "name": "eu-general",
+  "displayName": "General — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "General skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "general",
+  "language": "de",
+  "skills": [
+    "skills/eu-abgrenzung-einschlaegige-normen",
+    "skills/eu-auslegung-autonom-mehrsprachig",
+    "skills/eu-rechtsgeschichte-fuer-deutsche-juristen",
+    "skills/eu-vorabentscheidung-falsche-wiese"
+  ]
+}

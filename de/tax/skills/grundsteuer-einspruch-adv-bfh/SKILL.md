@@ -1,0 +1,91 @@
+---
+name: grundsteuer-einspruch-adv-bfh
+title: 'Grundsteuer: Einspruch, AdV und BFH-Linie'
+description: 'Für Grundsteuer: Einspruch, AdV und BFH-Linie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/grundsteuer-einspruch-adv-bfh
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Grundsteuer: Einspruch, AdV und BFH-Linie
+
+## Fachlicher Anker
+
+- **Normen:** § 6a.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Sofortcheck
+
+1. Bekanntgabe und Einspruchsfrist.
+2. Richtiger Bescheid: Grundsteuerwert, Messbetrag oder Grundsteuerbescheid.
+3. Vollziehbarkeit: Zahlungstermin, Höhe, Liquiditätsbelastung.
+4. Belege für erheblich niedrigeren gemeinen Wert oder falsche Datenbasis.
+5. Stand: Einspruch eingelegt, AdV beim Finanzamt beantragt, Ablehnung, FG-Antrag.
+
+## BFH-Anker
+
+- **BFH, Beschlüsse vom 27.05.2024 - II B 78/23 (AdV), II B 79/23 (AdV)**: Bei summarischer Prüfung kann AdV in Betracht kommen, wenn ein deutlich niedrigerer gemeiner Wert plausibel gemacht wird.
+- **BFH, Urteile vom 12.11.2025 - II R 25/24, II R 31/24, II R 3/25**: Bundesmodell in den entschiedenen Verfahren verfassungsgemäß; Einzelfallnachweis bleibt gesondert zu prüfen.
+- **BFH-Fokusseite Grundsteuer, Stand Mai 2026**: vor jeder Ausgabe prüfen, ob zu Landesmodellen oder neuen Verfahren weiterer Stand veröffentlicht ist.
+
+## AdV-Argumentation
+
+Stark ist:
+
+- konkrete Abweichung zwischen Grundsteuerwert und plausibel belegtem gemeinen Wert,
+- objektbezogene Sonderlage: Hinterliegergrundstück, Hanglage, Erschließung, Altlast, Denkmalschutz, massive Baumängel,
+- falsche Datenbasis im Bescheid.
+
+Schwach ist:
+
+- nur "neue Grundsteuer ist zu teuer",
+- nur pauschale Verfassungsrüge,
+- Angriff gegen Gemeindehebesatz im falschen Verfahren.
+
+## Output-Module
+
+### 1. Einspruch
+
+Formuliere knapp:
+
+- Bescheid, Datum, Aktenzeichen,
+- Antrag auf Aufhebung/Änderung,
+- konkrete Fehler,
+- Belege,
+- Antrag auf Ruhen nur, wenn ein passendes Muster- oder BFH-Verfahren wirklich einschlägig ist.
+
+### 2. AdV beim Finanzamt
+
+Zusätzlich:
+
+- ernstliche Zweifel,
+- Abweichung vom gemeinen Wert,
+- Zahlungsbelastung,
+- Antrag auf Aussetzung in konkret bezifferter Höhe.
+
+### 3. FG-AdV
+
+Nur wenn FA ablehnt oder nicht rechtzeitig entscheidet. Dann Ablehnung, Einspruch, Bescheide und Belege als Anlagenliste aufbereiten.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Abschluss
+
+Gib immer eine "nächste 7 Tage"-Liste: Frist, Beleg, Antrag, Zahlung, Rückfrage an Gemeinde/Finanzamt.

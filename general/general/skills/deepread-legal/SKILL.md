@@ -5,7 +5,7 @@ description: Extract structured data from contracts, legal agreements, court fil
 author: deepread-tech
 author_url: https://github.com/deepread-tech/skills/tree/main/skills/legal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -301,7 +301,7 @@ Set it up: https://www.deepread.tech/dashboard/byok
 - **Demo Repo**: https://github.com/deepread-tech/deepread-demo
 - **n8n Node**: https://www.npmjs.com/package/n8n-nodes-deepread
 - **Issues**: https://github.com/deepread-tech/deep-read-service/issues
-- **Email**: hello@deepread.tech
+- **Email**: support@deepread.tech
 
 ---
 

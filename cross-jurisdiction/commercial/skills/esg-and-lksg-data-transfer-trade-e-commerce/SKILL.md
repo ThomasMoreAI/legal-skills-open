@@ -1,0 +1,59 @@
+---
+name: esg-and-lksg-data-transfer-trade-e-commerce
+title: ESG, LkSG und CSDDD in der Lieferkette
+description: 'Für ESG, LkSG und CSDDD in der Lieferkette: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/esg-and-lksg-data-transfer-trade-e-commerce
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# ESG, LkSG und CSDDD in der Lieferkette
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+ESG (Environmental, Social, Governance) hat erhebliche Rechtsrelevanz: LkSG verpflichtet zu Menschenrechts-Due-Diligence; CSDDD (RL 2024/1760) erweitert auf Klima (Paris-Ziel-Alignment); CSRD verpflichtet zur nachhaltigkeitsbezogenen Berichterstattung. Die EU-Taxonomie definiert welche Wirtschaftsaktivitäten als nachhaltig gelten.
+
+## Kernnormen / Kernquellen
+
+- **LkSG §§ 2-3**: Menschenrechts- und Umweltsorgfaltspflichten
+- **CSDDD Art. 1 (RL 2024/1760)**: Erweiterung auf Klimaschutzplan (Art. 1 Abs. 1 lit. a i.V.m. Art. 22)
+- **CSRD (RL 2022/2464)**: Corporate Sustainability Reporting Directive — ab 2024-2028 gestaffelt
+- **EU-Taxonomie-VO (EU) 2020/852**: Nachhaltigkeitskriterien für Kapitalmarkt
+- **ESRS (European Sustainability Reporting Standards)**: EFRAG-Standards für CSRD-Berichte
+- **Greenwashing-RL (EU) 2024/825**: Verbot irreführender Umweltaussagen
+
+## Schlüsselbegriffe
+
+- Doppelte Wesentlichkeit (CSRD): Inside-Out (Auswirkungen auf Umwelt/Gesellschaft) + Outside-In (ESG-Risiken auf Unternehmen)
+- Taxonomie-Alignment: 6 Umweltziele + Do-No-Significant-Harm + Minimum Social Safeguards
+- Paris-Alignment (CSDDD): Unternehmen müssen Klimaübergangsplan mit 1,5°C-Ziel aufstellen
+- Scope 3 Emissionen: indirekte Emissionen in Wertschöpfungskette (CSRD berichtspflichtig)
+- Greenwashing: irreführende Umweltkennzeichnung nach neuer EU-RL verboten
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Supplier Code of Conduct: Welche ESG-Mindeststandards sind LkSG-konform?
+2. CSRD-Berichterstattung: Ab wann gilt für welche Unternehmensgrößen?
+3. Taxonomie-Alignment: Reicht ISO 14001 als Nachweis für Do-No-Significant-Harm?
+4. Greenwashing-Klage: Vertragsrechtliche Konsequenz einer Greenwashing-Werbung?
+5. CSDDD Paris-Alignment: Kann Unternehmen vertraglich auf Lieferanten-Klimaplan bestehen?
+
+## Methodik
+
+- ESG-Reifegrad-Assessment vor CSRD-Berichtspflicht
+- Lieferkettenklausel: ESG-Mindeststandards + Audit-Recht + Vertragsstrafe
+- Taxonomie-Check: Wirtschaftsaktivitäten der Lieferanten gegen 6 Umweltziele screenen
+- Greenwashing-Risiko: Marketingaussagen rechtlich prüfen vor Veröffentlichung

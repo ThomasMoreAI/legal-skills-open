@@ -1,11 +1,11 @@
 ---
 name: strafprozessuale-regelung-pruefen
 title: Strafprozessuale Regelung prüfen
-description: Prüfe die strafprozessuale Absicherung des KI-Dienstleisters nach §§ 53a 97 StPO. Zeugnisverweigerungsrecht der mitwirkenden Personen Beschlagnahmeverbot für Mandatsdaten Widerspruchspflicht des Dienstleisters bei behoerdlichen Auskunftsverlangen Informationspflicht gegenüber der Kanzlei. Ergaenzung zum berufsrechtlich-strafrechtlichen Schutz.
+description: 'Für Strafprozessuale Regelung prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/strafprozessuale-regelung-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,9 +14,13 @@ language: de
 
 # Strafprozessuale Regelung prüfen
 
-## Disclaimer
+## Fachkern: Strafprozessuale Regelung prüfen
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+- **KI-/Berufsrechtsproblem (Strafprozessuale Regelung prüfen):** Prüfe die strafprozessuale Absicherung des KI-Dienstleisters nach §§ 53a 97 StPO. Zeugnisverweigerungsrecht der mitwirkenden Personen Beschlagnahmeverbot für Mandatsdaten Widerspruchspflicht des Dienstleisters bei behoerdlichen Auskunftsverlangen Informationspflicht gegenüber der Kanzlei. Ergaenzung zum berufsrechtlich-strafrechtlichen Schutz.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Normen
 
@@ -72,14 +76,6 @@ Bei US-Anbietern oder US-Töchtern greift der US-CLOUD Act und kann § 97 StPO f
 - Keine Pflicht zur Vorab-Information der Kanzlei
 - Nur US-Eskalationspfad, kein deutsches Verfahren möglich
 
-## Output
-
-Tabellarische Bewertung. Defizite fließen in den Rückfragebrief und in die Klauselvorschläge.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - §§ 53, 53a StPO — Zeugnisverweigerungsrecht und dessen Erstreckung auf Berufshelfer
@@ -87,9 +83,6 @@ Tabellarische Bewertung. Defizite fließen in den Rückfragebrief und in die Kla
 - § 203 Abs. 4 StGB — Pflicht des Berufsgeheimnisträgers, den Dienstleister auf §§ 203/204 StGB hinzuweisen
 - §§ 43e Abs. 3, 62a Abs. 3 StBerG etc. — Vertragsinhalt
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Ist im Vertrag geregelt, wie der Dienstleister mit behördlichen Auskunftsersuchen umgeht?
@@ -122,3 +115,13 @@ Ergebnis
 Ampel strafprozessuale Absicherung: GRUEN / GELB / ROT
 Handlungsbedarf: [...]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

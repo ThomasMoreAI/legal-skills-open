@@ -8,7 +8,7 @@ Jurisdiction: `ch` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Swiss FADP Expert`](skills/ch-fadp-expert/) | Swiss Federal Act on Data Protection (nFADP) expert. Deep knowledge of the revised 2023 Swiss FADP including… |
+| [`Swiss FADP Expert`](skills/ch-fadp-expert/) | Swiss Federal Act on Data Protection (nFADP) expert. Deep knowledge of the revised 2023 Swiss FADP… |
 | [`Swiss online legal texts`](skills/legal-ch-clemensjl/) | Use when writing, reviewing, or fixing legally required texts for a Swiss website, webshop, app, or… |
 
 ## Cold-start context

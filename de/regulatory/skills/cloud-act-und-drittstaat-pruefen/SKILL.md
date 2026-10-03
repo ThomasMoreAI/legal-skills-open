@@ -1,11 +1,11 @@
 ---
 name: cloud-act-und-drittstaat-pruefen
 title: Cloud Act und Drittstaat prüfen
-description: Prüfe Auslandsbezug des KI-Anbieters nach Absatz vier der einschlaegigen Dienstleisterregelung (BRAO StBerG WPO PAO BNotO). EU/EWR werden als gleichwertig unterstellt. Drittstaaten benoetigen vergleichbares Schutzniveau. US-CLOUD Act und Foreign Intelligence Surveillance Act schaffen Restzugriff. Professional Secrecy Addendum empfohlen. DAV-Stellungnahme Seite fuenfzehn sechzehn.
+description: 'Für Cloud Act und Drittstaat prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/cloud-act-und-drittstaat-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,13 @@ language: de
 
 # Cloud Act und Drittstaat prüfen
 
-## Disclaimer
+## Fachkern: Cloud Act und Drittstaat prüfen
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+- **KI-/Berufsrechtsproblem (Cloud Act und Drittstaat prüfen):** Prüfe Auslandsbezug des KI-Anbieters nach Absatz vier der einschlaegigen Dienstleisterregelung (BRAO StBerG WPO PAO BNotO). EU/EWR sind regelmäßig leichter vertretbar; Drittstaaten benötigen eine eigene Berufsgeheimnisprüfung. US-CLOUD Act, FISA, Supportzugriffe, EU-US-DPF, SCC und Professional Secrecy Addendum sauber trennen.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Norm
 
@@ -24,9 +28,9 @@ Absatz 4 der jeweiligen Dienstleisterregelung. Wortlaut (am Beispiel § 43e Abs.
 
 "Bei der Inanspruchnahme von Dienstleistungen, die im Ausland erbracht werden, darf der Rechtsanwalt dem Dienstleister den Zugang zu fremden Geheimnissen unbeschadet der übrigen Voraussetzungen dieser Vorschrift nur dann eröffnen, wenn der dort bestehende Schutz der Geheimnisse dem Schutz im Inland vergleichbar ist, es sei denn, dass der Schutz der Geheimnisse dies nicht gebietet."
 
-## DAV-Lesart
+## Berufsrechtliche Auslegungslinie
 
-DAV-Stellungnahme 32/2025 (Seite 15): EU-Mitgliedstaaten erfüllen aufgrund der Harmonisierung anwaltlicher Berufspflichten in der Regel das Erfordernis des vergleichbaren Schutzes. Außerhalb der EU/des EWR ist die Vergleichbarkeit einzelfallabhängig zu prüfen.
+Der Sitz des Anbieters in der EU oder im EWR ersetzt die Prüfung der tatsächlichen Leistungs-, Support-, Backup- und Unterauftragnehmerstandorte nicht. Bei Auslandsleistungen ist die Vergleichbarkeit des Geheimnisschutzes nach [Paragraf 43e Absatz 4 BRAO](https://www.gesetze-im-internet.de/brao/__43e.html) zu prüfen, soweit dessen Ausnahme nicht greift; das gilt auch innerhalb der EU und des EWR. Weitere beteiligte Personen sind nach Absatz 3 einzubeziehen. Die datenschutzrechtlichen Anforderungen bleiben nach Absatz 8 daneben bestehen.
 
 Wichtig: Die Vergleichbarkeit bezieht sich auf den Schutz der Geheimnisse, nicht auf das allgemeine Rechtsschutzniveau. Selbst wenn ein Land eine funktionierende Justiz hat, kann der Schutz von Berufsgeheimnissen mangelhaft sein.
 
@@ -40,11 +44,11 @@ Der US-Clarifying Lawful Overseas Use of Data Act verpflichtet US-Anbieter und i
 
 ### FISA Section 702
 
-Der Foreign Intelligence Surveillance Act erlaubt US-Geheimdiensten Zugriff auf elektronische Kommunikation von Nicht-US-Personen ohne richterlichen Beschluss. Praktisch betroffen sind insbesondere große Cloudanbieter und KI-System-Provider.
+FISA Section 702 kann unter bestimmten Voraussetzungen Zugriffe auf elektronische Kommunikation von Nicht-US-Personen über US-Dienste ermöglichen. Für die Kanzlei genügt deshalb nicht die Frage "Wo steht der Server?", sondern es sind Konzern-, Support-, Administrations- und Herausgabezugriffe mitzudenken.
 
 ### Konsequenz
 
-Bei US-Anbietern besteht ein struktureller Restzugriff durch US-Behörden, der mit dem deutschen Berufsgeheimnis nicht vollständig kompatibel ist. Die DAV-Stellungnahme verlangt nicht den vollständigen Verzicht auf US-Anbieter, aber sie verlangt eine sorgfältige Abwägung und vertragliche Absicherung.
+Bei US-Anbietern kann ein struktureller Restzugriff durch US-Behörden bestehen, der mit dem deutschen Berufsgeheimnis kollidieren kann. Daraus folgt nicht automatisch ein Totalverbot; erforderlich sind aber eine sorgfältige Abwägung, Datenminimierung, Vertragszusätze und dokumentierte Restrisikoentscheidung.
 
 ## Professional Secrecy Addendum
 
@@ -56,12 +60,11 @@ Bei US-Anbietern empfehlenswert: ein eigenes Berufsgeheimnis-Addendum zum Hauptv
 - den Anbieter zur Datenminimierung in Richtung USA verpflichtet (keine US-Backups, keine US-Logs)
 - Gerichtsstand und anwendbares Recht in Deutschland
 
-Microsoft und Google haben für ihre Cloud-Dienste teilweise solche Addenda anerkannt; OpenAI nur eingeschränkt.
+Ob ein Anbieter solche Zusätze akzeptiert, muss am konkreten Vertragsstand live geprüft werden. Keine Produktbehauptung aus Modellwissen übernehmen.
 
 ## Prüfschema
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
-
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Punkt | Status | Ampel | Bemerkung |
 |---|---|---|---|
@@ -85,17 +88,9 @@ Das 2023 in Kraft getretene Data Privacy Framework regelt den datenschutzrechtli
 
 ## Empfehlungen
 
-- Bei EU/EWR-Anbietern: Auslandsbezug grundsätzlich unproblematisch
-- Bei US-Anbietern: Professional Secrecy Addendum, EU-Hosting-Zusicherung, kein US-Backup
-- Bei Anbietern aus sonstigen Drittstaaten (China, Indien): in der Regel rote Ampel — Vergleichbarkeit muss positiv nachgewiesen werden
-
-## Output
-
-Tabellarische Bewertung. Bei US-Bezug: Vorlage für Professional Secrecy Addendum aus dem Skill `klauselvorschlaege`.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Bei EU/EWR-Anbietern: tatsächliche Leistungs- und Zugriffsorte einschließlich Support und Unterauftragnehmer prüfen; keine Freigabe allein nach Sitz oder Hostingangabe.
+- Bei US-Bezug: konkrete behördliche Zugriffsmöglichkeiten und wirksame vertragliche sowie technische Schutzmaßnahmen prüfen; ein Berufsgeheimnis-Addendum oder EU-Hosting belegt für sich noch keine Zulässigkeit.
+- Bei sonstigen Drittstaaten: Schutz der Geheimnisse und Zugriffsmöglichkeiten am konkreten Leistungsort feststellen. Keine automatische Länderampel; ungeklärte Vergleichbarkeit ist eine offene Freigabevoraussetzung, keine durch Risikoakzeptanz ersetzbare Prüfung.
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -105,35 +100,24 @@ Tabellarische Bewertung. Bei US-Bezug: Vorlage für Professional Secrecy Addendu
 - US CLOUD Act 2018, 18 U.S.C. § 2713 — Zugriff auf Daten unabhängig vom Speicherort
 - FISA Section 702, 50 U.S.C. § 1881a — Überwachung elektronischer Kommunikation von Nicht-US-Personen
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage-Frage (Entscheidungsbaum)
 
-```
-Anbieter Sitz EU/EWR?
-  Ja → Auslandsbezug unproblematisch (DAV S. 15)
-  Nein → US-Konzern oder US-Tochter?
-            Ja → CLOUD Act anwendbar → Professional Secrecy Addendum erforderlich
-                  EU-Hosting-Zusicherung vorhanden?
-                    Ja → gelbe Ampel (struktureller Restzugriff bleibt)
-                    Nein → rote Ampel
-            Nein → Sonstiges Drittland (CN, IN, RU)?
-                    → Vergleichbarkeitsnachweis positiv erforderlich → i.d.R. rote Ampel
-```
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
+1. Welche Stellen erbringen die Leistung oder können auf Geheimnisse zugreifen, und in welchen Ländern?
+2. Bei Auslandsleistungen den vergleichbaren Geheimnisschutz nach Paragraf 43e Absatz 4 BRAO einschließlich der gesetzlichen Ausnahme begründen. Sitz und Konzernzugehörigkeit liefern Anhaltspunkte, keine abschließende Freigabe.
+3. Konkrete Zugriffsrechte, Vertragsbindungen und technische Schutzmaßnahmen prüfen; Datenschutz und Berufsgeheimnis getrennt bewerten.
+4. Fehlende Nachweise gezielt nachfordern. Die betroffene Nutzung erst bei erfüllten gesetzlichen Voraussetzungen empfehlen; sonst erforderliche Beschränkung oder Alternative benennen.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — US-Anbieter in Kanzleiinfrastruktur pruefen | Cloud-Act-Risikobewertung nach Schema unten |
-| Variante A — kein US-Bezug erkennbar | Drittstaat-Kapitel trotzdem pruefen (UK TIOPA, CN DSL) |
+| Standard — US-Anbieter in Kanzleiinfrastruktur prüfen | Cloud-Act-Risikobewertung nach Schema unten |
+| Variante A — kein US-Bezug erkennbar | Drittstaat-Kapitel trotzdem prüfen (UK TIOPA, CN DSL) |
 | Variante B — Mandant will trotz Risiko US-Anbieter nutzen | Risikohinweis dokumentieren; Mandant schriftlich bestaetigen lassen |
-| Variante C — staatliche Ermittlung laeuft bereits | Sofortiger Wechsel; Datensicherung und Incident-Response pruefen |
+| Variante C — staatliche Ermittlung laeuft bereits | Sofortiger Wechsel; Datensicherung und Incident-Response prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -162,7 +146,9 @@ Berufsrecht Drittstaat: GRUEN / GELB / ROT
 Empfehlung: [Nutzung freigegeben / Addendum erforderlich / Anbieterwechsel]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,59 @@
+---
+name: sanctions-clause-drafting
+title: Sanktionsklauseln in internationalen Verträgen
+description: 'Für Sanktionsklauseln in internationalen Verträgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/sanctions-clause-drafting
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Sanktionsklauseln in internationalen Verträgen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Sanktionsklauseln erlauben die Vertragsbeendigung oder Zahlungsverweigerung wenn eine Partei, ein Dritter oder eine Transaktion unter Sanktionen fällt. Sie müssen mit dem EU Blocking Statute (VO 2271/96) kompatibel sein. Schlecht formulierte Klauseln können OFAC-Compliance und EU-Blocking-Statute gleichzeitig verletzen.
+
+## Kernnormen / Kernquellen
+
+- **EU Blocking Statute VO (EG) 2271/96 Art. 5**: Verbot der Befolgung bestimmter US/UK-Sanktionen durch EU-Unternehmen
+- **OFAC SDN-Liste / Sectoral Sanctions**: Grundlage für OFAC-Compliance-Klausel
+- **VO (EU) 2024/1485 (Russland)**: aktuelles EU-Sanktionspaket — Verbote und Ausnahmen
+- **UCP 600 Art. 37 lit. c**: Akkreditiv-Sanktionsklausel — Keine Verpflichtung bei Sanktionsverletzung
+- **ICC Force Majeure Clause 2020**: FM-Klausel mit Sanktionsergänzung
+- **ISDA Sanctions Addendum**: Sanktionsregelungen für Derivatverträge
+
+## Schlüsselbegriffe
+
+- Grandfathering: laufende Verträge bei Sanktionseinführung — Übergangsregelung
+- Wind-Down Period: OFAC-Lizenz für befristeten Transaktionsabbau
+- Termination for Compliance: Kündigungsrecht wenn Erfüllung Sanktionsrecht verletzt
+- Blocking Statute-Konflikt: EU-Unternehmen kann nicht OFAC und EU-Recht gleichzeitig befolgen
+- Sanctions Screening Obligation: Pflicht zur Überprüfung von Vertragspartnern
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Käufer wird nach Vertragsschluss in SDN-Liste aufgenommen: Gilt Sanktionsklausel als FM?
+2. Blocking Statute: EU-Unternehmen erhält Compliance-Anfrage von US-Muttergesellschaft — was tun?
+3. Wind-Down: OFAC-Lizenz für 90-Tage-Wind-Down — reicht das für Langzeitvertrag?
+4. UCP 600 Art. 37 lit. c: Bank verweigert unter Akkreditiv wegen Sanktionen — zu Recht?
+5. ISDA Sanctions Addendum: Gilt es automatisch oder nur nach Opt-in?
+
+## Methodik
+
+- Sanktionsklausel-Design: (1) Definieren welche Sanktionen, (2) Suspendierung vs. Kündigung, (3) Blocking Statute-Ausnahme für EU-Parteien
+- Wind-Down: OFAC-Lizenz-Prozess parallel starten wenn Sanktionseinführung droht
+- Blocking Statute: Bericht an Bundesministerium für Wirtschaft + Geschäftsführungsverpflichtung
+- Screening: SDN-Screening-Klausel als Vertragsbestandteil; Frequenz definieren

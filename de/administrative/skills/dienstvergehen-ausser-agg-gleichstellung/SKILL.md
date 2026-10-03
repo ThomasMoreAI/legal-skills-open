@@ -1,0 +1,79 @@
+---
+name: dienstvergehen-ausser-agg-gleichstellung
+title: Dienstvergehen ausser Dienst nach § 47 BeamtStG
+description: 'Für Dienstvergehen ausser Dienst nach Paragraf 47 BeamtStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/dienstvergehen-ausser-agg-gleichstellung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: administrative
+language: de
+---
+
+# Dienstvergehen ausser Dienst nach § 47 BeamtStG
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
+- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## 1. Zweck und Anwendungsfall
+
+Skill für Beamte, denen Verhalten ausserhalb des Dienstes als Dienstvergehen vorgeworfen wird (typisch: Steuerstraftaten, Trunkenheitsfahrt, ehrenrührige Aeusserungen im Internet, problematische Vereinszugehoerigkeit).
+
+## 2. Eingaben
+
+- Vorwurf in tatsaechlicher Hinsicht
+- Strafurteil oder Strafbefehl (falls einschlaegig)
+- Statusamt und Dienststellung
+- Vorgeschichte und Beurteilungen
+- Persoenliche Umstaende
+
+## 3. Ablauf / Checkliste
+
+### a) Voraussetzung
+- § 47 Abs. 1 Satz 2 BeamtStG bzw. § 77 Abs. 1 Satz 2 BBG: Verhalten ausserhalb des Dienstes ist Dienstvergehen nur, wenn es nach den Umstaenden des Einzelfalls in besonderem Masse geeignet ist, das Vertrauen in einer für das Amt bedeutsamen Weise zu beeintraechtigen.
+
+### b) Statusrelevanz
+- Massgebliche Sichtweise: Wuerde der konkrete Sachverhalt das Vertrauen der Allgemeinheit in die Amtsfuehrung gerade dieses Beamten erschuettern?
+- Statusbezogene Wertung: Bei Polizei- und Justizbeamten strengere Massstaebe als bei rein verwaltenden Taetigkeiten.
+
+### c) Bewertungsmuster
+- Trunkenheitsfahrt: in der Regel Dienstvergehen bei Polizei und Justizvollzug, sonst regelmaessig nur bei besonderen Umstaenden.
+- Steuerstraftaten: Dienstvergehen, insbesondere bei Finanzbeamten oder Beamten in herausgehobener Position.
+- Internetaeusserungen: Verstoss gegen Maessigungspflicht (§ 60 BBG), siehe Skill `politische-maessigung-60-bbg`.
+
+### d) Verfassungstreue
+- Mitgliedschaft in verfassungsfeindlichen Organisationen oder vergleichbare Sympathiebekundungen: Skill `verfassungstreue-7-bbg-reichsbuerger`.
+
+### e) Bemessung
+- Bemessung nach § 13 BDG; Skill `disziplinarmassnahmebemessung-13-bdg`.
+
+## 4. Quellenpflicht
+
+- Normen: § 47 BeamtStG; § 77 BBG; § 13 BDG.
+- Rspr.: BVerwG zur ausserdienstlichen Pflichtverletzung — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+
+## 5. Ausgabeformat
+
+- Verteidigungs-Memo mit Prüfraster.
+- Schriftsatz Disziplinarverteidigung.
+
+## 6. Verifizierte Quellenanker
+
+- BDG §§ 13, 17, 22, 23, 38, 63 als Kernnormen für Maßnahmebemessung, Einleitung, Strafverfahren, Bindungswirkung, Suspendierung und Aussetzung.
+- BDG-Novelle 2024: Vollzugsmodell/Disziplinarverfügung auch für Höchstmaßnahmen im Bundesrecht; Länderrecht gesondert prüfen.
+- BVerfG, 14.01.2020 - 2 BvR 2055/16: kein verfassungsrechtlicher Richtervorbehalt für disziplinarische Höchstmaßnahme, wenn Verfahren und volle gerichtliche Kontrolle gesichert sind.
+- BVerwG, 02.12.2021 - 2 A 7.21: Reichsbürger-/Verfassungstreue-Fall im Bundesdienst.
+- BVerwG, 10.10.2024 - 2 C 15.23: Verfassungstreueanforderungen im juristischen Vorbereitungsdienst.
+- Bei Chatgruppen, außerdienstlichen Äußerungen und politischen Grenzfällen immer Kontext, Amtsbezug, Beweisqualität und Grundrechte getrennt würdigen.
+
+## 7. Beispiel (Kurzfassung)
+
+Mandant Lehrer, Verurteilung wegen Steuerhinterziehung 28.000 Euro im Strafbefehlsverfahren. Skill liefert Prüfraster: Bezug zum Lehramt, Statusrelevanz, Bemessung der Disziplinarmassnahme.

@@ -10,7 +10,7 @@ Jurisdiction: `sa` · Practice: `cybersecurity` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Saudi Arabia GRC Advisor`](skills/saudi-arabia-grc-sushegaad/) | Saudi Arabia Governance, Risk & Compliance advisor — a compliance router that first determines WHICH Saudi… |
+| [`Saudi Arabia GRC Advisor`](skills/saudi-arabia-grc-sushegaad/) | Saudi Arabia Governance, Risk & Compliance advisor — a compliance router that first determines WHICH… |
 
 ## Cold-start context
 

@@ -8,7 +8,7 @@ Jurisdiction: `us` · Practice: `gaming` · Skill language varies per skill.
 
 | Skill | What it does |
 |---|---|
-| [`Gambling Law Regulatory Summary`](skills/gambling-law-summary/) | Produces jurisdiction-specific U.S. gambling law regulatory summaries covering legal status, licensing,… |
+| [`Gambling Law Regulatory Summary`](skills/gambling-law-summary/) | Produces jurisdiction-specific U.S. gambling law regulatory summaries covering legal status, licensing… |
 
 ## Cold-start context
 

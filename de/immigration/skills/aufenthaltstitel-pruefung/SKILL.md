@@ -1,18 +1,31 @@
 ---
 name: aufenthaltstitel-pruefung
-title: Aufenthaltstitel-Prüfung
-description: 'Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Auslaenderbehoerde erhalten. Prüfraster Aufenthaltstitel nach AufenthG Visum § 6 Aufenthaltserlaubnis §§ 7 ff. ICT-Karte Blaue Karte EU § 18b Niederlassungserlaubnis § 9 Familiennachzug §§ 27 ff. AufenthG. Allgemeine Erteilungsvoraussetzungen § 5 AufenthG Lebensunterhalt Sprachnachweis Identität. Versagungs- und Ausweisungsinteressen § 11 AufenthG. Output Aufenthaltstitel-Prüf-Memo mit Erteilungsvoraussetzungen-Checkliste und Klagewegen. Abgrenzung: fachanwalt-migrationsrecht-aufenthaltstitel-antrag für den Antrag selbst.'
+title: Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten
+description: 'Für Aufenthaltstitel Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/aufenthaltstitel-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: immigration
 language: de
 ---
 
-# Aufenthaltstitel-Prüfung
+# Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AufenthG §§ 4, 5, 7, 8, 9, 16a-16g, 18a-18g, 19c, 25, 27-36, 50, 53-55, 58, 60, 60a-60d, 81, 84, 95; AsylG §§ 13, 24-30, 34-38, 71, 74, 77; FreizügG/EU §§ 2-5; StAG §§ 4, 5, 8-10, 12a, 25, 30; AsylbLG §§ 1, 3, 6; VwGO §§ 74, 80, 123; Dublin-III-VO Art. 3, 17, 21-29; einschlägige EU-Richtlinien/GEAS-Normstand live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Mandant fragt welcher Aufenthaltstitel für ihn passt oder hat Ablehnung der Ausländerbehoerde erhalten. Prüfraster Aufenthaltstitel nach AufenthG Visum § 6 Aufenthaltserlaubnis §§ 7 ff. ICT-Karte Blaue Karte EU § 18b Niederlassungserlaubnis § 9 Familiennachzug §§ 27 ff. AufenthG. Allgemeine Erteilungsvoraussetzungen § 5 AufenthG Lebensunterhalt Sprachnachweis Identität. Versagungs- und Ausweisungsinteressen § 11 AufenthG. Output Aufenthaltstitel-Prüf-Memo mit Erteilungsvoraussetzungen-Checkliste und Klagewegen. Abgrenzung: fachanwalt-migrationsrecht-aufenthaltstitel-antrag für den Antrag selbst.
+
+### Aufenthaltstitel-Prüfung
 
 ## Kaltstart-Rückfragen
 
@@ -26,7 +39,7 @@ language: de
 8. Bei humanitärem Aufenthalt: Welche Schutzanerkennung liegt vor (GFK, subsidiär, national § 60 AufenthG)?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtlicher Rahmen
 
@@ -70,7 +83,6 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Inhalt |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | BVerwGE 162, 130 | BVerwG, 09.09.2021 | Ausweisungsinteresse; Ermessensabwägung; Bleibeinteressen |
 
 ---
@@ -81,7 +93,6 @@ language: de
 |---|---|---|
 | 1 | Aufenthaltszweck identifizieren und Spezialnorm auswählen | §§ 16–26 AufenthG |
 | 2 | Allgemeine Erteilungsvoraussetzungen § 5 AufenthG vollständig prüfen | § 5 Abs. 1, 2 |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 4 | Identität und Pass prüfen | § 3, § 5 Abs. 1 Nr. 1a AufenthG |
 | 5 | Ausweisungsinteresse § 54 prüfen (Strafregister, Ermittlungsverfahren) | §§ 53–55 AufenthG |
 | 6 | Visumserfordernis: richtiges Visum bei Einreise? | § 5 Abs. 2, § 39 AufenthV |
@@ -99,17 +110,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Aufenthaltstitel-Pruefung | Pruef-Protokoll; Template unten |
-| Variante A — Aufenthalts-Aenderung durch Familienstand | Abgeleitetes Aufenthaltsrecht pruefen; Familiennachzug |
-| Variante B — Niederlassungserlaubnis angestrebt | § 9 AufenthG Voraussetzungen pruefen; Sprachkenntnisse |
+| Standard — Aufenthaltstitel-Prüfung | Prüf-Protokoll; Template unten |
+| Variante A — Aufenthalts-Änderung durch Familienstand | Abgeleitetes Aufenthaltsrecht prüfen; Familiennachzug |
+| Variante B — Niederlassungserlaubnis angestrebt | § 9 AufenthG Voraussetzungen prüfen; Sprachkenntnisse |
 | Variante C — Aufenthaltsrecht durch EU-Freizuegigkeit | FreizuegG/EU statt AufenthG; andere Rechtslage |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -119,7 +129,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 An die Ausländerbehörde [Ort]
 
 Betreff: Antrag auf Aufenthaltserlaubnis nach § 25b AufenthG
-         (nachhaltige Integration) für [Name, Geburtsdatum]
+ (nachhaltige Integration) für [Name, Geburtsdatum]
 
 Sehr geehrte Damen und Herren,
 
@@ -129,23 +139,23 @@ Aufenthaltserlaubnis nach § 25b AufenthG.
 Voraussetzungen nach § 25b Abs. 1 AufenthG sind erfüllt:
 
 1. Mindestaufenthalt: Ununterbrochener rechtmäßiger oder geduldeter
-   Aufenthalt seit [Datum] — mindestens acht Jahre
-   (sechs Jahre bei Kindern/Alleinerziehenden). Belegt durch
-   Anlage A1 (Ausländerbehördennachweis).
+ Aufenthalt seit [Datum] — mindestens acht Jahre
+ (sechs Jahre bei Kindern/Alleinerziehenden). Belegt durch
+ Anlage A1 (Ausländerbehördennachweis).
 
 2. Lebensunterhaltssicherung: Monatliches Nettoeinkommen
-   EUR [Betrag] aus Beschäftigung bei [Arbeitgeber]. Überschreitet
-   SGB-II-Regelbedarf für [Personen] (EUR [Betrag]) deutlich.
-   Anlage A2: Lohnabrechnungen.
+ EUR [Betrag] aus Beschäftigung bei [Arbeitgeber]. Überschreitet
+ SGB-II-Regelbedarf für [Personen] (EUR [Betrag]) deutlich.
+ Anlage A2: Lohnabrechnungen.
 
 3. Mündliche Deutschkenntnisse A2: [Sprachzertifikat, Datum]
-   Anlage A3.
+ Anlage A3.
 
 4. Kein Bezug von SGB-II-/SGB-XII-Leistungen seit [Datum]:
-   Bescheinigung Jobcenter Anlage A4.
+ Bescheinigung Jobcenter Anlage A4.
 
 5. Keine Ausweisungsinteressen § 54 AufenthG: Führungszeugnis
-   ohne Eintrag Anlage A5.
+ ohne Eintrag Anlage A5.
 
 Wir bitten um Ausstellung einer Fiktionsbescheinigung und
 Terminbestätigung.
@@ -170,7 +180,6 @@ Begründung:
 Die Behörde hat den Lebensunterhalt als nicht gesichert abgelehnt.
 Diese Einschätzung ist unzutreffend.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 gegeben, wenn das Nettoeinkommen den nach SGB II maßgeblichen Bedarf
 aller Familienmitglieder übersteigt. Maßgeblich sind:
 
@@ -207,26 +216,26 @@ Karte EU nach § 18b Abs. 2 AufenthG.
 Voraussetzungen sind erfüllt:
 
 1. Hochschulabschluss: [Universität, Land, Jahr, Fach].
-   Abschluss-Zeugnis mit Übersetzung: Anlage B1.
-   Anabin-Datenbank-Prüfung: Anlage B2 (Gleichwertigkeitsnachweis).
+ Abschluss-Zeugnis mit Übersetzung: Anlage B1.
+ Anabin-Datenbank-Prüfung: Anlage B2 (Gleichwertigkeitsnachweis).
 
 2. Konkreter Arbeitsplatz: Arbeitsvertrag mit [Arbeitgeber] vom
-   [Datum] (Anlage B3). Bruttojahresgehalt EUR [Betrag].
-   Aktueller Schwellenwert 2025 (§ 18b Abs. 2 Satz 1 Nr. 2 AufenthG):
-   EUR 45300 (Regelberuf) / EUR 41041 (Mangelberuf) —
-   bitte aktuellen Wert aus BMAS-Bekanntmachung prüfen.
+ [Datum] (Anlage B3). Bruttojahresgehalt EUR [Betrag].
+ Aktueller Schwellenwert 2025 (§ 18b Abs. 2 Satz 1 Nr. 2 AufenthG):
+ EUR 45300 (Regelberuf) / EUR 41041 (Mangelberuf) —
+ bitte aktuellen Wert aus BMAS-Bekanntmachung prüfen.
 
 3. Zustimmungsfreiheit: Blaue Karte EU ist nach § 2 Abs. 1 Nr. 2
-   BeschV zustimmungsfrei.
+ BeschV zustimmungsfrei.
 
 4. Allgemeine Voraussetzungen § 5 AufenthG: Pass Anlage B4,
-   Krankenversicherung Anlage B5, Führungszeugnis Anlage B6.
+ Krankenversicherung Anlage B5, Führungszeugnis Anlage B6.
 
 Mit freundlichen Grüßen
 [Rechtsanwalt/-anwältin]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -264,10 +273,8 @@ Mit freundlichen Grüßen
 
 | Behörden-Argument | Rechtliche Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Visumserfordernis nicht erfüllt" | § 39 AufenthV-Ausnahmen: Nr. 1 (Familienangehörige Deutscher), Nr. 3 (humanitäre Gründe), Nr. 5 |
 | "Ausweisungsinteresse § 54 vorhanden" | Abwägung § 53 Abs. 1 AufenthG; Bleibeinteressen § 55 qualifiziert prüfen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hochschulabschluss nicht anerkannt" | KMK-Bescheid beantragen; anabin-Datenbank; ENIC-NARIC-Netzwerk |
 | "§ 11 Einreise-/Aufenthaltsverbot" | Befristungsantrag nach § 11 Abs. 4 AufenthG; humanitäre Ausnahme |
 | "§ 25b — Lebensunterhalt nicht eigenständig" | § 25b Abs. 1 Nr. 3 AufenthG: Stufenmodell; Ausnahme bei unverschuldeter Hilfsbedürftigkeit |
@@ -337,7 +344,7 @@ Stand 05/2026. AufenthG, AsylG, BeschV und Fachkräfteeinwanderungsgesetz im Man
 
 Aktuelle Linie zur Dublin-Zuständigkeit: EuGH, Urt. v. 05.03.2026 — C-458/24 (Daraa) — Zuständigkeitsübergang auf ersuchenden Mitgliedstaat nach Ablauf 6-Monatsfrist; einseitige Aussetzung der Rücknahme bewirkt keinen automatischen Übergang.
 
-## Output-Template: Aufenthaltstitel-Pruefungsmemo
+## Output-Template: Aufenthaltstitel-Prüfungsmemo
 
 **Adressat:** Mandant oder Kanzlei-intern
 **Tonfall:** Sachlich-beratend, klare Handlungsempfehlung
@@ -377,3 +384,13 @@ VI. NAECHSTE SCHRITTE
 2. Antrag bei Auslaenderbehoerde: [TERMIN]
 3. PKH/Beratungshilfe: [ja / nein — Antrag gestellt?]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

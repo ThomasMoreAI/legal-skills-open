@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-medizinrecht-kassenarztrecht
 title: Kassenarztrecht
-description: 'Kassenarztrecht Vertragsarztzulassung und KV-Streitigkeiten: Anwendungsfall Arzt beantragt Vertragsarztzulassung hat Zulassungsprobleme oder streitet mit KV um Honorar Berechtigung oder Zulassungsstatus. § 95 SGB V Zulassung, § 96 SGB V Zulassungsausschuss, § 103 SGB V Nachbesetzung, EBM-Abrechnung. Prüfraster Zulassungsvoraussetzungen, Bedarfsplanung Sperrgebiete, Facharzt-Standard, Honorarsystem EBM RLV, KV-Prüfungsverfahren. Output Zulassungsantrag oder Widerspruchs-Strategie mit Rechtsschutzsystem. Abgrenzung zu Honorarvertrag-KV für reine Honorarstreitigkeiten und zu Approbations-Widerspruch.'
+description: 'Für Kassenarztrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Medizinrecht. Route: fachanwalt-medizinrecht-kassenarztrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/fachanwalt-medizinrecht-kassenarztrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: healthcare
@@ -31,7 +31,6 @@ language: de
 - Wirtschaftlichkeitsprüfung § 106 SGB V — Vergleich mit Vergleichsgruppe (Fachgruppendurchschnitt) bei Verordnungsverhalten und Behandlungsweise; Prüfvereinbarung der Partner.
 - Praxisbesonderheiten — können Überschreitung des Durchschnitts rechtfertigen; Patient mit besonderem Krankheitsbild, Patientenklientel.
 - Disziplinarverfahren § 81 Abs. 5 SGB V — bei Pflichtverletzungen; Maßnahmen Verwarnung, Verweis, Geldbuße, befristete Ruhensanordnung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsweg § 51 Abs. 1 Nr. 2 SGG Sozialgericht — Widerspruchsverfahren beim Berufungsausschuss vorgeschaltet § 96 SGB V; Klage erst nach Berufungsausschussentscheidung.
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -133,16 +132,6 @@ Anlagen
 - Anschluss bei Zulassungssachen kassenrechtliche Spezialisten und ggf. Steuerberater einbinden.
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Paragrafenkette
 
@@ -249,3 +238,13 @@ IV. BEWEISANGEBOTE
 
 [KANZLEI, UNTERSCHRIFT, DATUM]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

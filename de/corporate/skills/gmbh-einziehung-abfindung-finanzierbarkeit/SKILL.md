@@ -1,0 +1,65 @@
+---
+name: gmbh-einziehung-abfindung-finanzierbarkeit
+title: 1. Zweck und Anwendungsfall
+description: Prüft bei der Einziehung eines GmbH-Anteils Abfindung, freies Vermögen und Zahlungsfähigkeit zu getrennten Stichtagen. Verknüpft Satzung, Bewertungsunterlagen und Finanzierungsnachweise zu einer Entscheidungsvorlage; nicht für allgemeine Beschlussmängel oder einen isolierten Unternehmenswert.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/gmbh-einziehung-abfindung-finanzierbarkeit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# 1. Zweck und Anwendungsfall
+
+Bereite eine geplante oder angegriffene Einziehung vor, deren Abfindung die Gesellschaft finanziell belastet. Der Schwerpunkt verbindet Anteilsbewertung, Kapitalerhaltung, Liquidität und Beschlusswirksamkeit. Er ergänzt die allgemeine Gesellschafterstreit- und Kapitalerhaltungsprüfung um eine konkrete Prüfung der Finanzierbarkeit; er ersetzt kein Unternehmenswertgutachten.
+
+## 2. Eingaben
+
+Lies zuerst Satzung in der beim Anteilserwerb geltenden und der aktuellen Fassung, Erwerbsdatum, Gesellschafterliste, Beschluss oder Entwurf, Bewertungsabrede, Stichtagszahlen und Zahlungsplan. Kläre Mandantenrolle, Einziehungsgrund, Zustimmung, Stimmrechte, Bekanntgabe, laufendes Verfahren und gewünschte Alternative nur, soweit diese Angaben noch fehlen. Erfasse Buchwerte, Schulden, Rückstellungen, bisher ungebuchte Verluste, liquide Mittel, gesicherte Kreditlinien und Finanzierungszusagen. Fordere fehlende Stichtagszahlen oder Bedingungen einer Finanzierungszusage gezielt an; fehlende Zahlen als offene Position behandeln, nicht mit Null ersetzen.
+
+## 3. Ablauf und Checkliste
+
+### 3.1. Rechtsakt und Zeitachsen
+
+Trenne Einziehung, Ausschluss, Abtretung und Kapitalherabsetzung. Prüfe Satzungsermächtigung und bei Einziehung ohne Zustimmung die zeitliche Voraussetzung des Paragrafen 34 Absatz 2 GmbHG. Beschluss-, Bewertungs-, Bekanntgabe- und Zahlungsstichtag in getrennten Spalten führen. Mehrheit, Stimmverbot, Vertretung und Beschlussangriff gesondert prüfen; eine offene Anfechtungsfrist nicht durch Bewertungsarbeit verstreichen lassen.
+
+[BGH, Urteil vom 21.04.2026 – Az. II ZR 50/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2025/II_ZR__50-25.pdf?__blob=publicationFile&v=1), Rn. 18–25: Bestreitet die GmbH die materielle Gesellschafterstellung ernstlich, kann trotz richtigem Listeneintrag ein Feststellungsinteresse bestehen. Liste, Erwerb und Bestreiten getrennt belegen. Formelle Legitimation nach Paragraf 16 GmbHG ersetzt weder materielle Berechtigung noch die Prüfung der Einziehungs- und Abfindungsvoraussetzungen.
+
+### 3.2. Abfindungsrechnung
+
+Wende nur die konkret vereinbarte und auf Wirksamkeit geprüfte Bewertungsregel an. Leite Unternehmenswert, Beteiligungsquote, Zu- und Abschläge, Zinsen und Fälligkeiten belegbezogen her. Nennbetrag ist nicht automatisch Abfindungswert. Bei streitiger Klausel zeige deren Rechenfolge und eine begründete Alternativbewertung, ohne fiktive Markt-Multiplikatoren einzusetzen.
+
+### 3.3. Freies Vermögen am Beschlusstag
+
+Ermittle zu fortgeführten handelsrechtlichen Buchwerten das Reinvermögen vor Abfindung: Aktiva minus Schulden und Rückstellungen. Freier Betrag ist das Reinvermögen abzüglich Stammkapital; eine negative Differenz als Unterbilanz ausweisen. Verhindere Doppelzählung einer schon passivierten Abfindungsverbindlichkeit durch eine offen erläuterte Überleitungsrechnung. Nicht realisierte stille Reserven nicht einfach addieren. Prüfe den gesamten Abfindungsanspruch, nicht nur die erste Rate. Stelle fest, ob schon bei Beschlussfassung feststeht, dass die Zahlung nicht aus freiem Vermögen möglich ist; dann Nichtigkeitsrisiko nach dem Anker ausdrücklich behandeln.
+
+### 3.4. Liquidität und Handlungsvarianten
+
+Erstelle daneben einen Zahlungsplan mit freien Zahlungsmitteln und fälligen übrigen Verpflichtungen. Ein Kredit kann Liquidität schaffen, erhöht wegen der Gegenverbindlichkeit aber nicht automatisch das freie Reinvermögen. Eine Zuschusszusage nur nach Rechtsverbindlichkeit, Bonität und bilanzieller Ansatzfähigkeit berücksichtigen; Hoffnung auf Gewinne genügt nicht. Rechne Finanzierungslücke und Mindestbedarf je Stichtag. Prüfe eine tatsächlich finanzierte Anteilsübernahme durch Mitgesellschafter als eigenständige Alternative mit Form- und Zustimmungsfragen; keinen Käufer erfinden.
+
+### 3.5. Haftung und Abschluss
+
+Unterscheide anfängliche Beschlussnichtigkeit, spätere Auszahlungssperre und mögliche persönliche Haftung verbleibender Gesellschafter. Letztere folgt nicht automatisch aus der bloßen Nichtzahlung; treuwidrige Fortsetzung und Insolvenzlage gesondert prüfen. Bei fehlenden Belegen gib ein vorläufiges Votum mit konkret benötigten Angaben. Prüfe eingehende Buchhaltungsdaten auf Stichtagsbezug und Doppelzählungen; aktualisiere danach Abfindung, freies Vermögen oder Liquiditätsplan jeweils nur insoweit, wie die neuen Angaben sie betreffen. Bleibt eine neu erkennbare Bedingung der Finanzierung offen, frage dazu nach. Arbeite anschließend die bestellte Empfehlung aus, statt bei einer Belegliste stehenzubleiben. Keine Einziehung erklären, Liste ändern, Zahlung auslösen oder Beurkundung veranlassen.
+
+## 4. Quellenpflicht
+
+Prüfe aktuelle und stichtagsbezogene Normfassungen; beachte [Zitierweise](../../references/zitierweise.md), sofern verfügbar. Keine ungeprüften Literatur- oder Randnummernangaben.
+
+- [Paragraf 34 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__34.html) und [Paragraf 30 GmbHG](https://www.gesetze-im-internet.de/gmbhg/__30.html): Satzungsgrundlage und Kapitalerhaltung.
+- [BGH, Urteil vom 26.06.2018 - Az. II ZR 65/16](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2016/II_ZR__65-16.pdf?__blob=publicationFile&v=1), Rn. 13 bis 17: Bei schon im Beschlusszeitpunkt feststehend unzureichendem freien Vermögen ist die Einziehung entsprechend Paragraf 241 Nummer 3 AktG nichtig. Die stichtagsbezogene Buchwertrechnung entscheidet; bloß auflösbare stille Reserven ersetzen sie nicht. Erst spätere Unterdeckung gesondert behandeln.
+- [BGH, Urteil vom 10.05.2016 - Az. II ZR 342/14](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/II_ZS/2014/II_ZR_342-14.pdf?__blob=publicationFile&v=1), Rn. 21 bis 33: Bei späterem Ausfall der Gesellschaft Abfindungsmaßnahmen und treuwidrige Fortsetzung prüfen; bloße Nichtzahlung begründet keine persönliche Haftung. Insolvenzreife, nicht treuwidrig verzögerte Antragstellung und individuelle Sicherungsabreden können der Haftungsannahme entgegenstehen.
+
+Am 22.09.2026 diese amtlichen Volltextpassagen geprüft. Keine Vollverifikation sämtlicher Bewertungs-, Satzungs- oder Insolvenzfragen; weitergehende Aussagen benötigen eigene Quellen.
+
+## 5. Ausgabeformat
+
+Liefere die beauftragte Gremienempfehlung oder Stellungnahme mit Sachverhalt, Abfindungsrechnung, Ermittlung des freien Vermögens, Liquiditätsbedarf und Rechtsfolgen der untersuchten Varianten. Verwende den gewünschten Dateinamen; nur ohne Vorgabe `ergebnis.md`. Erläutere die entscheidenden Stichtage dort, wo sie die Rechnung oder Bewertung bestimmen. Ein Beschlussentwurf setzt einen entsprechenden Auftrag voraus.
+
+Vollständige Sätze statt Skeletten; Tabellen nur als nachvollziehbare Rechnungs- und Beleganlage. Ohne Exportwerkzeug die bestellte Gremienempfehlung einschließlich Abfindungs-, Kapitalerhaltungs- und Liquiditätsrechnung vollständig als Text liefern, statt einen Dateilink vorzutäuschen. Recherchegrenzen und Abrufstatus gehören in eine getrennte Arbeitsnotiz. Dezimale Gliederung und Times New Roman 11 pt; bei Markdown diesen Exporthinweis aufnehmen.
+
+## 6. Beispiele
+
+Passend: Vor einem Einziehungsbeschluss sollen Abfindung und stille Grundstücksreserven gegen die Stichtagsbilanz geprüft werden. Ebenfalls passend: Nach wirksamer Einziehung ist die letzte Rate blockiert und die Fortsetzung der Gesellschaft zu beurteilen. Nicht passend sind eine reine Unternehmensbewertung für einen Verkauf oder eine Handelsvertreterprovision.

@@ -1,0 +1,170 @@
+---
+name: normenkontrolle-47-vwgo
+title: 'Normenkontrollantrag nach § 47 VwGO gegen Bauleitplaene, Rechtsverordnungen oder Satzungen: Betroffener will Bebauungspl'
+description: 'Für Normenkontrolle 47 VwGO: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/normenkontrolle-47-vwgo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Normenkontrollantrag nach § 47 VwGO gegen Bauleitplaene, Rechtsverordnungen oder Satzungen: Betroffener will Bebauungsplan oder kommunale Satzung zu Fall bringen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: VwGO; VwVfG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Normenkontrollantrag nach § 47 VwGO gegen Bauleitplaene, Rechtsverordnungen oder Satzungen: Betroffener will Bebauungsplan oder kommunale Satzung zu Fall bringen. Normen: § 47 VwGO (Normenkontrolle OVG), Art. 14 GG (Eigentumsschutz), § 1 Abs. 7 BauGB (Abwaegungsgebot). Prüfraster: Antragsfrist 1 Jahr ab Inkrafttreten, Antragsbefugnis, OVG-Zuständigkeit, Abwaegungsfehler. Output Normenkontrollantrag-Entwurf. Abgrenzung: Anfechtungsklage gegen einzelnen VA siehe fachanwalt-verwaltungsrecht-anfechtungsklage; Planfeststellung siehe energietrassen-planfeststellung-rechtsschutz.
+
+### Normenkontrolle § 47 VwGO
+
+## 1) Anwendungs-Bereich
+
+### Prüfbare Normen § 47 I VwGO
+
+- Bauleitpläne (Flächennutzungsplan, Bebauungsplan)
+- Rechtsverordnungen Land / Kreis / Gemeinde
+- Satzungen Gemeinden
+
+### Nicht prüfbare
+
+- Bundesgesetze (BVerfG-Verfahren)
+- Verwaltungsvorschriften (im Wirkungsfeld)
+
+## 2) Antragsbefugnis § 47 II VwGO
+
+### Voraussetzung
+
+- Rechts-Beeintraechtigung erkennbar
+- Persönliche Betroffenheit
+- Nicht jede Beteiligung
+
+### Beispiele
+
+- Grundeigentuemer im B-Plan-Gebiet
+- Nachbar bei B-Plan
+- Gewerbe bei Sondernutzungs-Satzung
+
+## 3) Frist § 47 II VwGO
+
+- **1 Jahr** nach Bekanntmachung
+- Bei Versäumnis: Antrag unzulaessig
+- Änderungs-Anträge erneut Frist
+
+## 4) Zuständigkeit OVG
+
+- Oberverwaltungsgericht / Verwaltungsgerichtshof
+- Spezialisierte Senate
+- Bei Verfahrens-Mangel: Verweisung an VG
+
+## 5) Verfahren
+
+### Schritt 1 — Antrag
+
+- Schriftlich beim OVG
+- Bezug auf konkrete Norm
+- Antragsbegründung
+
+### Schritt 2 — Anhörung
+
+- Antragsgegner (Plan-Geber)
+- Beteiligte
+
+### Schritt 3 — Beweisaufnahme
+
+- Akten-Einsicht
+- ggf. Sachverständige
+
+### Schritt 4 — Urteil
+
+- Normenverwerfungs-Urteil
+- Bei Erfolg: Norm tritt rueckwirkend außer Kraft
+- Allgemein-Verbindlichkeit
+
+## 6) Bauplanungs-Recht Schwerpunkt
+
+### Prüfungsmaßstab
+
+- Pflicht-Inhalte BauGB
+- Abwaegungs-Gebot § 1 VII BauGB
+- Verhältnismaessigkeit
+
+### Mangel-Quellen
+
+- Abwaegungs-Defizite
+- Verfahrens-Mangel (Beteiligungs-Verletzung)
+- Materiell rechtswidrige Inhalte
+
+### Heilung § 215 BauGB
+
+- Bestimmte Mangel sind heilbar
+- Bei Mangel-Vortrag im Verfahren: keine Heilung
+- Detaillierte Prüfung erforderlich
+
+## 7) Workflow
+
+### Phase 1 — Plan-Prüfung
+
+- Plan-Begründung
+- Abwaegungs-Vorgang
+- Beteiligungs-Verfahren
+
+### Phase 2 — Antragsbegründung
+
+- Konkrete Mängel
+- Eigene Betroffenheit
+- Beweisanbote
+
+### Phase 3 — OVG-Verfahren
+
+- Schriftsatz-Wechsel
+- Anhörungs-Termin
+- Urteil
+
+### Phase 4 — Bei Erfolg
+
+- Norm verworfen
+- Plan-Geber muss neu planen
+- Folge: Bauverbot
+
+## 8) Einstweiliger Rechtsschutz § 47 VI VwGO
+
+### Voraussetzungen
+
+- Eilbedürftigkeit
+- Erfolgsaussicht Hauptverfahren
+
+### Beispiel
+
+- Bei beantragter Baugenehmigung im B-Plan
+- Einstweilige Anordnung gegen Plan-Vollzug
+
+## 9) Verfahrensdauer und Kosten
+
+- 1-3 Jahre typisch
+- Streitwert nach wirtschaftlichem Interesse
+- Bei Verlust: Gerichts- + Anwaltskosten
+
+## 10) Typische Fehler
+
+1. **1-Jahres-Frist verpasst**
+2. **Antragsbefugnis nicht ausreichend dargetan**
+3. **Mängel pauschal vorgetragen**
+4. **Heilungs-Pflicht nach § 215 BauGB ignoriert**
+
+## Anschluss
+
+- `normenkontrolle-bauleitplanung` (Vollplugin) — Vertieftes Verfahren
+- `fachanwalt-verwaltungsrecht-orientierung` — Triage
+- `widerspruch-oder-klage-erstpruefung` — bei anderer VG-Sache
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

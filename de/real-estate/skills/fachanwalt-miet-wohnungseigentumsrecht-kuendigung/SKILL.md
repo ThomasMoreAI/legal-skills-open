@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-miet-wohnungseigentumsrecht-kuendigung
 title: Kündigung eines Wohnraummietverhältnisses
-description: Vermieter will Mietverhältnis kündigen oder Mieter erhaelt Kündigung und prüft Wirksamkeit. Ordentliche Kündigung § 573 BGB außerordentliche Kündigung §§ 543 569 BGB Eigenbedarfskündigung § 573 Abs. 2 Nr. 2 BGB. Normen §§ 535 543 569 573 573c BGB. Prüfraster Kündigungs-Grund Abmahnung Kündigungsfristen Schonfristzahlung § 569 Abs. 3 BGB Haerteklausel §§ 574 ff. BGB. Output Kündigungs-Schreiben Widerspruch Räumugsklage. Abgrenzung zu eigenbedarfskündigung (Eigenbedarfs-Spezifik) und mietminderung-schimmel (Maengelrecht).
+description: 'Für Kündigung eines Wohnraummietverhältnisses: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills/fachanwalt-miet-wohnungseigentumsrecht-kuendigung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate

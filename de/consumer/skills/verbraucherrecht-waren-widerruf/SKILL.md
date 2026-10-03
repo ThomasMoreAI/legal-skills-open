@@ -1,0 +1,46 @@
+---
+name: verbraucherrecht-waren-widerruf
+title: 'Waren mit digitalen Elementen: Updatepflicht, Interoperabilität, Mangelzeitpunkt und Händler-/Herstellerkommunikation.'
+description: 'Für Verbraucherrecht Waren Widerruf: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verbraucherschutzrecht-pruefer/skills/verbraucherrecht-waren-widerruf
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: consumer
+language: de
+---
+
+# Waren mit digitalen Elementen: Updatepflicht, Interoperabilität, Mangelzeitpunkt und Händler-/Herstellerkommunikation.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 312 ff., 355, 357, 491 ff., UWG §§ 3, 5, 6, 7, RDG, VBVG, EU-Verbraucherrechts-RL 2011/83; UKlaG; VSBG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Waren mit digitalen Elementen: Updatepflicht, Interoperabilität, Mangelzeitpunkt und Händler-/Herstellerkommunikation.
+
+- **Verbraucherproblem (Waren mit digitalen Elementen: Updatepflicht, Interoperabilität, Mangelzeitpunkt und Händler-/Herstellerkommunikation.):** Updatepflicht, Interoperabilität, Mangelzeitpunkt und Händler-/Herstellerkommunikation.
+- **Beleganker:** Vertrag, Screenshot, Rechnung, Widerrufsbelehrung, AGB, Plattformseite, Zahlungsfluss und Kommunikation müssen als Anspruchsbelege geordnet werden.
+- **Normenanker:** BGB-Verbraucherrecht, EGBGB-Informationspflichten, UWG/UKlaG, DSGVO-Schnittstellen und Spezialrecht live prüfen.
+- **Arbeitsprodukt:** Verbraucher-Check, Anspruchsziel, Beweisfragen und kurzer Textbaustein ohne unnötige Selbstbelastung.
+
+## Normanker
+
+BGB §§ 475b, 475c, 434, 437, 439; Kaufrecht. Der aktuelle Normtext, insbesondere BGB/EGBGB und Spezialrecht, ist bei frist- oder anspruchstragenden Punkten live zu prüfen.
+
+## Prüfprogramm
+
+1. Verbraucherstatus, Unternehmerseite, Vertragstyp und Zeitpunkt klären.
+2. Pflichtinformation, Einwilligung, Widerruf, Preis, Lieferung/Bereitstellung und Mangel trennen.
+3. Beweis sichern: Screenshot mit URL/Datum, Rechnung, Chat, E-Mail, Tracking, Produktfoto, Updatehistorie.
+4. Anspruchsziel wählen: Rücktritt, Minderung, Nacherfüllung, Widerruf, Unterlassung, Beschwerde, Schlichtung oder Klage.
+5. Textbaustein erstellen, der keine unnötigen Tatsachen zugibt und Fristen sauber setzt.
+
+## Erklärung und Mängelrechte auseinanderhalten
+
+Eine bereits versandte Anfechtungs- oder Widerrufserklärung nach Inhalt und erkennbarem Rückabwicklungsziel auslegen. [BGH, Urteil vom 11.02.2026 – VIII ZR 37/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VIII_ZS/2024/VIII_ZR__37-24.pdf?__blob=publicationFile&v=1), Rn. 31–39: Auch ein anwaltliches Schreiben kann zugleich einen Rücktritt erklären, wenn Kaufpreisrückzahlung und Rückgabeangebot aus Empfängersicht den unbedingten Lösungswillen zeigen. Das Wort „Rücktritt“ ist nicht zwingend. Nicht jedes erfolglose Widerrufsschreiben automatisch umdeuten: vollständigen Wortlaut und Empfängerhorizont prüfen. Mangel, Fristsetzung oder ihre Entbehrlichkeit und die weiteren Rücktrittsvoraussetzungen bleiben gesondert erforderlich; darüber entschied der BGH nicht abschließend. Die Entscheidung betraf einen Kauf von 2019, weshalb ihre Anwendung alten Kaufmängelrechts nicht auf heutige Verträge übertragen werden darf.

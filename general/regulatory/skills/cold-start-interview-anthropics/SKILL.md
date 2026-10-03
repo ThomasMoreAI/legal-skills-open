@@ -5,11 +5,14 @@ description: Run the cold-start interview — learns your AI governance practice
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
+sources:
+- title: Company profile template
+  path: references/company-profile-template.md
 ---
 
 # /cold-start-interview

@@ -1,11 +1,11 @@
 ---
 name: positionsmarke
 title: Positionsmarken
-description: Workflow-Skill zu positionsmarke. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Positionsmarken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/positionsmarke
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Positionsmarken
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Positionsmarken
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Die Positionsmarke schützt ein Zeichen, das an einer bestimmten Position auf einem Produkt angebracht ist — unabhängig von der Produktform als solcher. Für klôtzzkètté SA ist dies die bevorzugte Schutzkategorie für den charakteristischen goldenen Einzel-Streifen an der Handgelenksinnenseite der Lederhandschuhe, das Interieur-Farbband der Handtaschen und das Webmuster der Schalkollektionen.
 
@@ -22,33 +35,31 @@ Die Positionsmarke ist in Art. 3 I lit. f der Durchführungsverordnung (EU) 2018
 
 - **Art. 3 I lit. f DurchfVO (EU) 2018/626 zur UMV:** Positionsmarke als anerkannte Markenart
 - **§ 3 I MarkenG:** Positionsmarke unter "andere Aufmachungen" markenfähig
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Bottega Veneta Intrecciato:** EUIPO R 2592/2011-4 — Webmuster-Positionsmarke für Lederhandtaschen, Verkehrsdurchsetzung nachgewiesen
 - **Burberry-Karo:** Eingetragene Marke für charakteristisches Karomuster in Beige/Schwarz/Rot — Unterscheidungskraft durch Verkehrsdurchsetzung
 
 ## Prüfungsschritte
 
 1. **Definition der Marke:**
-   - Welches Zeichen (Streifen, Farbe, Muster, Form-Element) soll geschützt werden?
-   - An welcher genauen Position auf dem Produkt?
-   - In welchen Proportionen (Breite, Länge, Winkel)?
+ - Welches Zeichen (Streifen, Farbe, Muster, Form-Element) soll geschützt werden?
+ - An welcher genauen Position auf dem Produkt?
+ - In welchen Proportionen (Breite, Länge, Winkel)?
 
 2. **Darstellung der Positionsmarke:**
-   - Produktabbildung mit dem Zeichen in der schutzrelevanten Position
-   - Gestrichelte Linien für nicht-markenmäßige Teile des Produkts (EUIPO-Standard)
-   - Pflicht-Beschreibung der Position und des Musters im Beschreibungsfeld
+ - Produktabbildung mit dem Zeichen in der schutzrelevanten Position
+ - Gestrichelte Linien für nicht-markenmäßige Teile des Produkts (EUIPO-Standard)
+ - Pflicht-Beschreibung der Position und des Musters im Beschreibungsfeld
 
 3. **Unterscheidungskraft:**
-   - Positionsmarken haben typischerweise keine inhärente Unterscheidungskraft
-   - Ausnahme: sehr charakteristische Gestaltung (Louboutin-Rot = erkennbar auf dem ersten Blick)
-   - Regel: Verkehrsdurchsetzung erforderlich (§ 8 III MarkenG / Art. 7 III UMV)
+ - Positionsmarken haben typischerweise keine inhärente Unterscheidungskraft
+ - Ausnahme: sehr charakteristische Gestaltung (Louboutin-Rot = erkennbar auf dem ersten Blick)
+ - Regel: Verkehrsdurchsetzung erforderlich (§ 8 III MarkenG / Art. 7 III UMV)
 
 4. **Verkehrsdurchsetzungsnachweis:**
-   - Marktanteil: mind. 40 % der beteiligten Verkehrskreise erkennen das Zeichen als Herkunftshinweis
-   - Werbeaufwand letzte 5 Jahre (Euro-Beträge)
-   - Medienberichte, Fachpresse, Social Media
-   - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   - Umsatzzahlen
+ - Marktanteil: mind. 40 % der beteiligten Verkehrskreise erkennen das Zeichen als Herkunftshinweis
+ - Werbeaufwand letzte 5 Jahre (Euro-Beträge)
+ - Medienberichte, Fachpresse, Social Media
+ - Umsatzzahlen
 
 5. **Warenverzeichnis:** Präzise Warenbeschreibung, da Positionsmarke an konkrete Produktkategorie gebunden
 
@@ -63,14 +74,11 @@ Das charakteristische Flechtmuster der "Sac Maillé"-Kollektion. Analogie zu Bot
 ### Konstellation 3: Adidas-Analogie — Schutz paralleler Nähte
 Zwei parallele Kontrastnähte an der Schulterpartie aller klôtzzkètté-Jacken. Problem: Adidas-Rechtsprechung zeigt, dass einfache Streifen schwer schutzfähig sind. Empfehlung: Mustermarke (ggf. als Bildmarke eingetragen) kombiniert mit Positionsmarke; Verkehrsdurchsetzung zentraler Angriffspunkt.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 3 Rn. 200 ff. (Positionsmarken)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Fezer, Markenrecht, 4. Aufl. 2009, § 3 Rn. 220 ff.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- EUIPO BoA, Entsch. R 2592/2011-4 (Bottega Veneta — Intrecciato)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -119,8 +127,8 @@ Bevor die Anmeldung eingereicht wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EUIPO BoA, Entsch. R 2592/2011-4 (Bottega Veneta — Intrecciato):** Ein charakteristisches Flechtmuster auf Lederhandtaschen kann als eingetragene Positionsmarke geschuetzt werden, wenn durch Verkehrsdurchsetzung belegt ist, dass der angesprochene Verkehr das Muster als Herkunftshinweis auf den Hersteller versteht.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

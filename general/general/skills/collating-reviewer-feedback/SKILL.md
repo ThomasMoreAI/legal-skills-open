@@ -5,12 +5,21 @@ description: Use when users say "collate comments", "combine reviewer markups", 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/collating-reviewer-feedback
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [docx, comments, track-changes, litigation, drafting, review-workflow]
+tags:
+- docx
+- comments
+- track-changes
+- litigation
+- drafting
+- review-workflow
+sources:
+- title: Reviewer markup model
+  path: references/reviewer-markup-model.md
 ---
 
 # collating-reviewer-feedback

@@ -5,11 +5,14 @@ description: This skill should be used when the user wants to "search compliance
 author: Serein-81
 author_url: https://github.com/Serein-81/financial_rag/tree/main/rag_backend/skills/legal/legal-compliance-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: regulatory
 language: en
+sources:
+- title: Registration requirements
+  path: references/registration_requirements.md
 ---
 
 # Legal Compliance Search Skill

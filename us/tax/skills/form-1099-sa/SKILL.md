@@ -6,11 +6,22 @@ description: 'Use this skill when an individual taxpayer has RECEIVED a Form 109
 author: jupid-tax
 author_url: https://github.com/jupid-tax/jupid-skills/tree/main/forms/form-1099-sa
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: tax
 language: en
+sources:
+- title: Archer and ma msa
+  path: references/archer-and-ma-msa.md
+- title: Box by box
+  path: references/box-by-box.md
+- title: Common mistakes
+  path: references/common-mistakes.md
+- title: Distribution codes
+  path: references/distribution-codes.md
+- title: Qualified medical expenses
+  path: references/qualified-medical-expenses.md
 ---
 
 # Form 1099-SA — Distributions From an HSA, Archer MSA, or Medicare Advantage MSA

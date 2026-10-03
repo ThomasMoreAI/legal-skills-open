@@ -10,7 +10,7 @@ Jurisdiction: `co` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`colombia-conflict — CEV final-report knowledge engine`](skills/colombia-conflict-broomva/) | Knowledge engine over the Colombian Truth Commission (CEV) final report "Hay Futuro Si Hay Verdad" (2022) —… |
+| [`colombia-conflict — CEV final-report knowledge engine`](skills/colombia-conflict-broomva/) | Knowledge engine over the Colombian Truth Commission (CEV) final report "Hay Futuro Si Hay Verdad"… |
 
 ## Cold-start context
 

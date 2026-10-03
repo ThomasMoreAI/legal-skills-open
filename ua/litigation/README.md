@@ -8,10 +8,10 @@ Jurisdiction: `ua` · Practice: `litigation` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`calculating-sudovyi-zbir`](skills/calculating-sudovyi-zbir/) | Use when calculating Ukrainian court fees (судовий збір) for lawsuits, appeals, or procedural filings under… |
-| [`checking-pozovna-davnist`](skills/checking-pozovna-davnist/) | Use when checking Ukrainian statute of limitations (позовна давність) for a claim — determining applicable… |
-| [`determining-ua-jurisdiction`](skills/determining-ua-jurisdiction/) | Use when determining the proper Ukrainian court for a lawsuit — identifying the correct type of proceedings… |
-| [`searching-edrsr`](skills/searching-edrsr/) | Use when searching Ukrainian court decisions in the Unified State Register of Court Decisions (ЄДРСР,… |
+| [`law-ua-calculating-sudovyi-zbir`](skills/calculating-sudovyi-zbir/) | Use when calculating Ukrainian court fees (судовий збір) for lawsuits, appeals, or procedural filings… |
+| [`law-ua-checking-pozovna-davnist`](skills/checking-pozovna-davnist/) | Use when checking Ukrainian statute of limitations (позовна давність) for a claim — determining… |
+| [`law-ua-determining-ua-jurisdiction`](skills/determining-ua-jurisdiction/) | Use when determining the proper Ukrainian court for a lawsuit — identifying the correct type of… |
+| [`law-ua-searching-edrsr`](skills/searching-edrsr/) | Use when searching Ukrainian court decisions in the Unified State Register of Court Decisions (ЄДРСР… |
 
 ## Cold-start context
 

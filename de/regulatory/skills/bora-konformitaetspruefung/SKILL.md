@@ -1,11 +1,11 @@
 ---
 name: bora-konformitaetspruefung
 title: BORA-Konformitätsprüfung
-description: 'E-Mail auf BORA-Konformität prüfen bevor sie versandt wird. §§ 6 ff. BORA allgemeine Berufspflichten § 26 BORA Werbung § 43 BORA Vertretungsverbot. Prüfraster: Sachlichkeitsgebot Werbeverbot Verschwiegenheit Interessenkonflikt unzulässige Versprechen. Output: BORA-Prüfprotokoll Beanstandungen Korrekturvorschlaege. Abgrenzung: nicht für BRAO-Prüfung (brao-konformitätsprüfung).'
+description: 'Für BORA-Konformitätsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: E-Mail-Umformulierer. Route: bora-konformitaetspruefung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/bora-konformitaetspruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,8 +14,11 @@ language: de
 
 # BORA-Konformitätsprüfung
 
-Dieser Skill prüft anwaltliche Korrespondenz auf Übereinstimmung mit der Berufsordnung für Rechtsanwälte (BORA). Die BORA konkretisiert als Satzung der Bundesrechtsanwaltskammer die allgemeinen Berufspflichten der BRAO und enthält spezifische Regeln für Verschwiegenheit, Werbung und den kollegialen Umgang.
+## Fachkern: BORA-Konformitätsprüfung
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Prüft anwaltliche Korrespondenz auf Übereinstimmung mit der Berufsordnung für Rechtsanwälte (BORA). Die BORA konkretisiert als Satzung der Bundesrechtsanwaltskammer die allgemeinen Berufspflichten der BRAO und enthält spezifische Regeln für Verschwiegenheit, Werbung und den kollegialen Umgang.
 
 ## Triage zu Beginn
 1. Wer ist der Absender: Rechtsanwalt, Berufsausuebendes Gesellschafter oder Kanzleimitarbeiter?
@@ -24,20 +27,15 @@ Dieser Skill prüft anwaltliche Korrespondenz auf Übereinstimmung mit der Beruf
 4. Gibt es Hinweise auf Direktkontakt mit dem Mandanten des Kollegen (§ 12 BORA)?
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 2 BORA — Verschwiegenheitspflicht (Erweiterung der BRAO-Pflicht auf alle Kommunikationsmittel)
-- § 6 BORA — Sachlichkeitsgebot fuer Aussenauftritt und Werbung
+- § 6 BORA — Sachlichkeitsgebot für Aussenauftritt und Werbung
 - § 12 BORA — Direktkontaktverbot bei anwaltlicher Vertretung der Gegenseite
 - § 25 BORA — Kollegialitaetsgebot
 - § 43a Abs. 2 BRAO — Grundlegende Verschwiegenheitspflicht
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## § 2 BORA — Verschwiegenheit
 
 § 2 BORA dehnt die anwaltliche Verschwiegenheitspflicht auf alle Kommunikationsmittel aus. In E-Mails besonders relevant: Offenlegung mandatsbezogener Informationen an Dritte, Nutzung von Mandantendaten in werblichen Kontexten, unverschlüsselte Übermittlung sensibler Mandantendaten. Jede E-Mail, die Mandantendaten enthält, ist auf Verschwiegenheitskonformität zu prüfen — insbesondere bei CC-Feldern und Weiterleitungen.
@@ -69,6 +67,4 @@ Maßgebliche Normen: § 2 BORA (Verschwiegenheit), § 6 BORA (Werbung), § 12 BO
 **Vorher:** "Wir sind bekannt für unsere Erfolge vor dem BGH."
 **Nachher (Prüfergebnis):** Werberechtlich bedenklich nach § 6 BORA, sofern nicht durch öffentliche Informationen (Urteilslisten) belegt. Empfehlung: Konkrete, nachprüfbare Angabe.
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Identifizierte BORA-Risikostellen mit Zitat. (2) Einschlägige BORA-Norm. (3) Schwere des Verstoßes (formal/substantiell). (4) Korrigierte Alternativformulierung. (5) Gesamtbewertung (konform / geringes Risiko / hohes Risiko).
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

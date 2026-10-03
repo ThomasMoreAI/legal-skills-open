@@ -1,0 +1,64 @@
+---
+name: krankenkassen-wahltarife-und-sonderkuendigung
+title: Krankenkassen Wahltarife Und Sonderkuendigung
+description: 'Für Krankenkassen Wahltarife und Sonderkündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/krankenkassen-wahltarife-und-sonderkuendigung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Krankenkassen Wahltarife Und Sonderkuendigung
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Wechselrecht
+
+§ 175 SGB V: Krankenkassenwechsel.
+
+- Bindung mindestens 12 Monate nach Beginn der Mitgliedschaft.
+- Kuendigungsfrist 2 Monate zum Monatsende.
+- Eingangsbestaetigung neuer Kasse erforderlich.
+
+## Sonderkuendigungsrecht
+
+§ 175 Abs. 4 SGB V: Sonderkuendigungsrecht bei Erhebung oder Erhoehung des Zusatzbeitrags.
+
+- Frist: Ende des Monats, in dem die Krankenkasse den erhoehten Zusatzbeitrag erstmals fordert.
+- Form: schriftlich.
+
+## Wahltarife § 53 SGB V
+
+- Selbstbehalt: Beitragsrueckverguetung bei Nichtinanspruchnahme.
+- Krankengeld-Wahltarif für Selbststaendige.
+- Beihilfeergaenzungstarif.
+- Bonus-Programme.
+
+## Bindungsfristen Wahltarife
+
+- 3 Jahre Mindestbindung bei vielen Wahltarifen.
+- Vorzeitige Kuendigung idR ausgeschlossen.
+
+## Prüfraster
+
+1. Wechsel oder Sonderkuendigung?
+2. Bindungsfrist abgelaufen?
+3. Schriftliche Kuendigung?
+4. Bestaetigung neuer Kasse?
+
+## Vorlage Sonderkuendigung
+
+"Ich kuendige hiermit meine Mitgliedschaft bei der [Krankenkasse] zum [Datum] nach § 175 Abs. 4 SGB V. Grund: Erhebung/Erhoehung des Zusatzbeitrags ab [Datum]. Bitte bestaetigen Sie den Eingang."

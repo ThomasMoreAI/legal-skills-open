@@ -1,11 +1,11 @@
 ---
 name: stundungsanfrage-glaeubiger
 title: Stundungsanfrage Gläubiger
-description: Erzeugt Stundungsanfragen an Gläubiger (Lieferanten Bank Vermieter Steueramt Sozialversicherungstraeger). Erfasst pro Gläubiger Forderungshoehe Fälligkeit Stundungswunsch (neue Fälligkeit Ratenzahlung Tilgungspause) Begründung Sicherheitsangebot. Pro Gläubiger eigenes Schreiben. Hinweis Steuerstundung § 222 AO (restriktiv) und Sozialversicherung (sehr restriktiv § 76 SGB IV). Schriftliche Stundungszusage erforderlich für Berücksichtigung in der Liquiditaetsplanung.
+description: 'Für Stundungsanfrage Gläubiger: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/stundungsanfrage-glaeubiger
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Stundungsanfrage Gläubiger
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Wirkung in der Liquiditätsplanung
 
@@ -57,7 +65,7 @@ Eine muendlich erbetene und nicht schriftlich zugestandene Stundung darf nicht i
 - **Sehr restriktiv** — nur in Ausnahmefällen.
 - Sozialversicherungsbeitraege sind treuhaenderisch und Arbeitnehmer-Anteil.
 - Nichtabführung kann § 266a StGB auslösen (Vorenthalten Sozialversicherungsbeitraege Arbeitnehmer-Anteil).
-- **Pflicht zur Abführung** der Arbeitnehmer-Beitraege bleibt grundsaetzlich auch bei Stundung — daher Stundung praktisch fast unwirksam.
+- **Pflicht zur Abführung** der Arbeitnehmer-Beitraege bleibt grundsätzlich auch bei Stundung — daher Stundung praktisch fast unwirksam.
 
 ## Mustervorlage Lieferant
 
@@ -75,25 +83,25 @@ Sehr geehrte Damen und Herren,
 
 mit Bezug auf die offenen Rechnungen
 
-  Rechnung Nr. [...] vom [...] in Höhe von [...] EUR (fällig [...])
-  Rechnung Nr. [...] vom [...] in Höhe von [...] EUR (fällig [...])
-  Gesamt offene Forderung: [...] EUR
+ Rechnung Nr. [...] vom [...] in Höhe von [...] EUR (fällig [...])
+ Rechnung Nr. [...] vom [...] in Höhe von [...] EUR (fällig [...])
+ Gesamt offene Forderung: [...] EUR
 
 bitten wir Sie um Stundung wie folgt:
 
-  - Fälligkeit verschoben auf [neues Datum]
-  - alternativ Ratenzahlung in [N] gleichen Monatsraten ab [Datum]
-  - Erste Rate in Höhe von [...] EUR überweisen wir bereits am [...]
+ - Fälligkeit verschoben auf [neues Datum]
+ - alternativ Ratenzahlung in [N] gleichen Monatsraten ab [Datum]
+ - Erste Rate in Höhe von [...] EUR überweisen wir bereits am [...]
 
-Hintergrund: Unsere Gesellschaft befindet sich in einer angespannten 
-wirtschaftlichen Phase die wir aktiv durch Maßnahmen (Standortoptimierung 
-Patronatserklärung des Hauptgesellschafters Erhöhung der Kreditlinie) 
-gegensteuern. Eine vollständige Fortbestehensprognose nach § 19 Abs. 2 InsO 
-liegt unserer Geschäftsführung vor; sie weist mit Maßnahmen positive 
+Hintergrund: Unsere Gesellschaft befindet sich in einer angespannten
+wirtschaftlichen Phase die wir aktiv durch Maßnahmen (Standortoptimierung
+Patronatserklärung des Hauptgesellschafters Erhöhung der Kreditlinie)
+gegensteuern. Eine vollständige Fortbestehensprognose nach § 19 Abs. 2 InsO
+liegt unserer Geschäftsführung vor; sie weist mit Maßnahmen positive
 Wahrscheinlichkeit aus.
 
-Wir versichern Ihnen dass die Lieferung und Zahlung in der Geschäftsbeziehung 
-absolute Prioritaet hat. Unsere Beziehung zu Ihnen ist langfristig und wir 
+Wir versichern Ihnen dass die Lieferung und Zahlung in der Geschäftsbeziehung
+absolute Prioritaet hat. Unsere Beziehung zu Ihnen ist langfristig und wir
 sehen unsere Verpflichtung gegenüber Ihnen ausserordentlich.
 
 Eine schriftliche Bestätigung der Stundung erbitten wir bis zum [Datum].
@@ -113,32 +121,32 @@ Mit freundlichen Grüßen
 An [Bank]
 [Anschrift]
 
-Betreff: Antrag auf Tilgungspause Darlehen Nr. [...] / Verlängerung 
-        Kreditlinie
+Betreff: Antrag auf Tilgungspause Darlehen Nr. [...] / Verlängerung
+ Kreditlinie
 
 Sehr geehrte Damen und Herren,
 
 mit Verweis auf unsere bestehende Geschäftsbeziehung beantragen wir:
 
-1. Tilgungspause für das Darlehen Nr. [...] in Höhe von [...] EUR für einen 
+1. Tilgungspause für das Darlehen Nr. [...] in Höhe von [...] EUR für einen
 Zeitraum von [...] Monaten (von [...] bis [...]).
 
 2. Verlängerung der Kreditlinie (Linie [...] EUR) bis zum [...].
 
-Hintergrund: Unsere Gesellschaft befindet sich in einer wirtschaftlich 
-angespannten Phase die wir aktiv durch Maßnahmen gegensteuern. Eine 
-Fortbestehensprognose nach § 19 Abs. 2 InsO liegt vor und weist mit unseren 
-laufenden Sanierungsmaßnahmen einschließlich Patronatserklärung des 
-Hauptgesellschafters in Höhe von [...] EUR positive Wahrscheinlichkeit auf 
+Hintergrund: Unsere Gesellschaft befindet sich in einer wirtschaftlich
+angespannten Phase die wir aktiv durch Maßnahmen gegensteuern. Eine
+Fortbestehensprognose nach § 19 Abs. 2 InsO liegt vor und weist mit unseren
+laufenden Sanierungsmaßnahmen einschließlich Patronatserklärung des
+Hauptgesellschafters in Höhe von [...] EUR positive Wahrscheinlichkeit auf
 die Fortfuehrung im Prognosezeitraum von zwölf Monaten.
 
 Wir übersenden Ihnen vorab:
 
-  - Fortbestehensprognose mit Stichtag [...]
-  - Patronatserklärung des Hauptgesellschafters vom [...]
-  - 12-Monats-Liquiditätsplan einschließlich Sensitivitaetsszenarien
+ - Fortbestehensprognose mit Stichtag [...]
+ - Patronatserklärung des Hauptgesellschafters vom [...]
+ - 12-Monats-Liquiditätsplan einschließlich Sensitivitaetsszenarien
 
-Für ein persoenliches Gespraech sind wir gerne kurzfristig verfügbar.
+Für ein persönliches Gespraech sind wir gerne kurzfristig verfügbar.
 
 Mit freundlichen Grüßen
 
@@ -164,28 +172,28 @@ Sehr geehrte Damen und Herren,
 namens und im Auftrag der oben genannten Gesellschaft beantragen wir gemäß
 § 222 AO Stundung der nachstehenden Steuern:
 
-  Koerperschaftsteuer Vorauszahlung Q2/2026, fällig [...]: [...] EUR
-  Solidaritaetszuschlag, fällig [...]: [...] EUR
-  Gewerbesteuer Vorauszahlung Q2/2026, fällig [...]: [...] EUR
+ Koerperschaftsteuer Vorauszahlung Q2/2026, fällig [...]: [...] EUR
+ Solidaritaetszuschlag, fällig [...]: [...] EUR
+ Gewerbesteuer Vorauszahlung Q2/2026, fällig [...]: [...] EUR
 
 bis zum [neues Datum] beziehungsweise alternativ Ratenzahlung in
 [N] Monatsraten ab [...].
 
-Begründung: Die Erhebung der Steuer in der gesetzten Frist würde eine 
-erhebliche Haerte für die Steuerpflichtige bedeuten. Ihre wirtschaftliche 
+Begründung: Die Erhebung der Steuer in der gesetzten Frist würde eine
+erhebliche Haerte für die Steuerpflichtige bedeuten. Ihre wirtschaftliche
 Lage ist angespannt; eine Fortbestehensprognose mit positiver Wahrscheinlichkeit
-ist erstellt. Die laufenden Verhandlungen mit Patronen und Kreditgebern 
-zeigen positive Entwicklung; mit Vollzug der Sanierungsbausteine ist die 
+ist erstellt. Die laufenden Verhandlungen mit Patronen und Kreditgebern
+zeigen positive Entwicklung; mit Vollzug der Sanierungsbausteine ist die
 fristgerechte Zahlung gesichert.
 
-Über Sicherheitsleistung ($ 222 S. 2 AO) sind wir gerne im Gespraech 
+Über Sicherheitsleistung (Paragraf 222 S. 2 AO) sind wir gerne im Gespraech
 (z. B. Bürgschaft des Patrons Sicherungsuebereignung Maschinen).
 
 Auf Verlangen reichen wir Folgendes nach:
 
-  - Fortbestehensprognose mit Stichtag [...]
-  - Aktueller Liquiditätsplan
-  - Patronatserklärung des Hauptgesellschafters
+ - Fortbestehensprognose mit Stichtag [...]
+ - Aktueller Liquiditätsplan
+ - Patronatserklärung des Hauptgesellschafters
 
 Lohnsteuer und Umsatzsteuer (Treuhand-Steuern) sind hiervon ausdrücklich nicht
 betroffen. Diese werden weiterhin fristgerecht abgeführt.
@@ -201,13 +209,13 @@ Erst nach **schriftlicher** Stundungszusage des Gläubigers darf die Fälligkeit
 
 ```yaml
 stundungen:
-  - glaeubiger: Lieferant XYZ GmbH
-    offene-forderung: 24000
-    urspruengliche-faelligkeit: 2026-06-15
-    gestundete-faelligkeit: 2026-09-15
-    zusage-vom: 2026-06-05
-    zusage-form: E-Mail mit Bestätigung
-    bemerkung: Anzahlung 5000 EUR mit Stundungserklärung gezahlt
+ - glaeubiger: Lieferant XYZ GmbH
+ offene-forderung: 24000
+ urspruengliche-faelligkeit: 2026-06-15
+ gestundete-faelligkeit: 2026-09-15
+ zusage-vom: 2026-06-05
+ zusage-form: E-Mail mit Bestätigung
+ bemerkung: Anzahlung 5000 EUR mit Stundungserklärung gezahlt
 ```
 
 ## Ausgabe
@@ -218,20 +226,15 @@ stundungen:
 - Tracker mit Status (versendet / zugesagt / abgelehnt / verhandlung).
 - Hinweis: bei Ablehnung Liquiditätsplan-Update mit weiteren Maßnahmen erforderlich.
 
-
-## Aktuelle Leitentscheidungen — Stundungsanfragen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Stundungsanfragen
 
 § 271 BGB (Faelligkeit) → § 222 AO (Stundung Steuer) → § 76 SGB IV (Stundung SV-Beitraege) → § 17 InsO (ZU-Beseitigung durch Stundung) → § 130 InsO (Anfechtungsrisiko bei Stundungsvereinbarung)
 
 ## Triage — Stundungsanfrage-Strategie
 
-1. **Glaeubiger-Typ?** Lieferant (oft kulant), Bank (meist rigide), FA (sachliche Haerte erforderlich), SV-Traeger (sehr restriktiv).
+1. **Gläubiger-Typ?** Lieferant (oft kulant), Bank (meist rigide), FA (sachliche Haerte erforderlich), SV-Traeger (sehr restriktiv).
 2. **Stundungszeitraum?** Realistischer Zeitraum bis zur Liquiditaetsverbesserung angeben.
-3. **Sicherheitsangebot?** Abtretung Forderungen, Eigentuemervorbehalt-Verlaengerung, persoenliche Buergschaft GF?
+3. **Sicherheitsangebot?** Abtretung Forderungen, Eigentuemervorbehalt-Verlaengerung, persönliche Buergschaft GF?
 4. **Anfechtungsrisiko?** Stundungsvereinbarung in Krisenzeit + spaetere Zahlung = § 130 InsO Risiko; FA-Stundungsantrag schriftlich und mit Liquiditaetsplan belegen.
 
 ## Output-Template Stundungsschreiben an Finanzamt
@@ -254,7 +257,9 @@ Begruendung:
 Eine detaillierte Liquiditaetsplanung liegt als Anlage bei (Anlage 1 — 13-Wochen-Forecast).
 Nach aktueller Planung ist die Begleichung der Steuerschuld bis [DATUM] moeglich.
 
-Wir bitten um Stundung ohne Saumniszuschlaege fuer den genannten Zeitraum.
+Wir bitten um Stundung ohne Saumniszuschlaege für den genannten Zeitraum.
 
 Anlagen: Liquiditaetsplanung (Anlage 1), aktuelle BWA (Anlage 2)
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

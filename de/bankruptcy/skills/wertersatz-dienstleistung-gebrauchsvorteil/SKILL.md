@@ -1,0 +1,74 @@
+---
+name: wertersatz-dienstleistung-gebrauchsvorteil
+title: Wertersatz bei Dienstleistung und Gebrauchsvorteil
+description: 'Für Wertersatz bei Dienstleistung und Gebrauchsvorteil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: wertersatz-dienstleistung-gebrauchsvorteil.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/wertersatz-dienstleistung-gebrauchsvorteil
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Wertersatz bei Dienstleistung und Gebrauchsvorteil
+
+## Einsatzbereich
+
+Anwendungsfall: eine nicht rückgabefähige Dienstleistung oder Nutzung bewertet werden muss. Der Skill zwingt zu einer vermögensorientierten Prüfung: erst Vorteil und Zurechnung, dann Rechtsgrund und Behaltensgrund, zuletzt Umfang, Einreden und prozessuales Ziel.
+
+## Triage — zuerst klären
+
+1. Was war ursprünglich erlangt und was ist heute noch vorhanden?
+2. Welche Nutzungen, Surrogate, Erlöse oder Ersatzforderungen gibt es?
+3. Welche eigenen Ausgaben wurden erspart?
+4. Wann traten Verlust, Verbrauch, Kenntnis und Rechtshängigkeit ein?
+5. Welche Bewertungsmethode ist belegbar?
+
+## Spezifischer Prüfungsfokus
+
+- Bestimme den konkreten Vermögensvorteil und seine heutige Spur im Vermögen.
+- Ordne den Vorteil einer Leistungsbeziehung, einem Eingriff oder einer sonstigen Erwerbslage zu.
+- Prüfe Rechtsgrund und Behaltensgrund getrennt.
+- Kontrolliere, ob § 818 BGB den Anspruch erweitert, begrenzt oder verschärft.
+- Leite erst danach Anspruchsgegner, Anspruchshöhe und prozessuales Ziel ab.
+
+## Prüfungslogik
+
+- Erstelle eine Vermögensbilanz statt einer Gegenstandsliste.
+- Prüfe Nutzungen, Surrogate und ersparte Aufwendungen vor § 818 Abs. 3 BGB.
+- Bewerte Dienstleistung und Gebrauchsvorteil objektiv nach Markt- oder Nutzungswert.
+- Ordne Wertverluste nach Risiko, Kenntnis und Rechtshängigkeit zu.
+- Verlange substantiierte Belege für Entreicherung.
+
+## Typische Fehler
+
+- "Geld ist weg" als Ergebnis genügen lassen.
+- Surrogate und Ersparnisse übersehen.
+- Zinsen, Nutzungen und Wertersatz doppelt zählen.
+
+## Arbeitsausgabe
+
+| Punkt | Ergebnis | Belegbedarf |
+|---|---|---|
+| Anspruchsziel | [...] | [...] |
+| beteiligte Personen | [...] | [...] |
+| Vermögensvorteil | [...] | [...] |
+| Zweck/Zurechnung | [...] | [...] |
+| Rechtsgrund/Behaltensgrund | [...] | [...] |
+| § 818 BGB | [...] | [...] |
+| Einreden/Spezialregime | [...] | [...] |
+| vorläufiges Ergebnis | [...] | [...] |
+
+## Mini-Check vor Output
+
+- Kein Direktanspruch ohne begründete Zurechnung.
+- Kein Wertersatz ohne Bewertungsmethode.
+- Keine Entreicherung ohne konkreten Vermögensweg.
+- Keine Saldierung ohne beiderseitige Leistungstabelle.
+- Offene Tatsachen bleiben als offen markiert.
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.

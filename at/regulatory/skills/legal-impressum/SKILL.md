@@ -5,11 +5,22 @@ description: Creates and reviews Austrian Impressum and disclosure content for w
 author: dirnbauer
 author_url: https://github.com/dirnbauer/webconsulting-skills/tree/main/skills/legal-impressum
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: regulatory
 language: en
+sources:
+- title: 05 oeffentliches medium full offenlegungspflicht
+  path: references/05-oeffentliches-medium-full-offenlegungspflicht.md
+- title: Appendix
+  path: references/appendix.md
+- title: Compliance
+  path: references/compliance.md
+- title: Full guide
+  path: references/full-guide.md
+- title: Penalties and sources
+  path: references/penalties-and-sources.md
 ---
 
 # Austrian Impressum Requirements
@@ -38,7 +49,7 @@ This skill provides comprehensive guidance on Austrian Impressum (legal notice) 
 | § 25 MedienG | Mediengesetz (Offenlegung) | Periodical media / public websites | Up to €20,000 |
 | Art. 13-14 DSGVO | Datenschutz-Grundverordnung | Privacy notice | Up to €20M or 4% |
 | § 4 DLG | Dienstleistungsgesetz | Service providers | Varies |
-| ODR-VO | Online Dispute Resolution | B2C online sales | Required link |
+| ODR-VO (repealed) | Online Dispute Resolution | Platform discontinued 2025-07-20 (VO (EU) 2024/3228) | Remove legacy ODR links — keeping them is an Abmahnung risk |
 
 ---
 
@@ -50,7 +61,8 @@ This skill provides comprehensive guidance on Austrian Impressum (legal notice) 
 | Einzelunternehmen e.U. | Yes | Firm name, FB-Nr, court, address | § 14 UGB applies |
 | OG (Offene Gesellschaft) | Yes | Firm, FB-Nr, court, all partners | Partners' names required |
 | KG (Kommanditgesellschaft) | Yes | Firm, FB-Nr, court, Komplementäre | Kommanditisten optional |
-| GmbH | Yes | Firm, FB-Nr, court, capital, directors | Stammkapital required |
+| GmbH | Yes | Firm, FB-Nr, court, capital, directors | Stammkapital required (min. EUR 10.000 since 2024) |
+| FlexCo (FlexKapG) | Yes | Firm, FB-Nr, court, capital, directors | Flexible Kapitalgesellschaft (since 2024), Stammkapital min. EUR 10.000 |
 | GmbH & Co KG | Yes | Both entities' details | Dual disclosure |
 | AG (Aktiengesellschaft) | Yes | Firm, FB-Nr, court, capital, Vorstand | Grundkapital required |
 | SE (Europäische Gesellschaft) | Yes | Firm, FB-Nr, court, capital, board | EU company form |
@@ -77,7 +89,7 @@ Applies to **all commercial websites**:
 | Kammer/Berufsverband | Chamber membership (trade businesses) | ✓ if applicable |
 | Berufsrecht | Professional regulations, access link | ✓ if regulated profession |
 | UID-Nummer | VAT ID (if VAT registered) | ✓ if applicable |
-| Unternehmensgegenstand | Business purpose | ✓ |
+| Unternehmensgegenstand | Business purpose — required by § 25 Abs 5 MedienG (Offenlegung), not § 5 ECG | ✓ per MedienG |
 
 ### 3.2 Unternehmensgesetzbuch (§ 14 UGB)
 
@@ -225,7 +237,7 @@ E-Mail: office@muster-gmbh.at
 Firmenbuchnummer: FN 123456z
 Firmenbuchgericht: Handelsgericht Wien
 Sitz: Wien
-Stammkapital: EUR 35.000,–
+Stammkapital: EUR 10.000,–
 
 Geschäftsführer: Max Mustermann
 

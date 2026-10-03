@@ -1,0 +1,40 @@
+---
+name: 025-roemisches-recht-in-griechischer-sprache-terminologi
+title: Rom Roemisches Recht In Griechischer Sprache Terminologi
+description: 'Für Rom Römisches Recht in Griechischer Sprache Terminologi: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/025-roemisches-recht-in-griechischer-sprache-terminologi
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom Roemisches Recht In Griechischer Sprache Terminologi
+
+## Quellenanker
+
+- **Novellen Justinians** — großteils griechisch verkündet — Sprache der Reichsbevölkerung
+- **Basiliken (ca. 900)** — griechische Gesamtordnung: ta basilika = 'das Kaiserliche'
+- **Theophilus-Paraphrase (6. Jh.)** — griechische Institutionen-Fassung für den Rechtsunterricht
+
+## Kernregeln
+
+Im Osten lebt das römische Recht griechisch: Schon Justinians Novellen erscheinen überwiegend auf Griechisch; die Rechtsschule von Beirut/Konstantinopel lehrt mit griechischen Paraphrasen (Theophilus). Die Basiliken (um 900, unter Leon VI.) ordnen den Corpus-Stoff in 60 Büchern neu — griechisch, mit Scholien; Handbücher (Prochiron, Epanagoge/Eisagoge) versorgen die Praxis. Terminologie-Transfer: actio wird agoge, dominium wird despoteia — wer byzantinische Quellen liest, braucht beide Begriffswelten.
+
+## Moderne Parallele
+
+Methodische Parallele: Mehrsprachige Rechtsordnungen heute (EU mit 24 Amtssprachen, EuGH-Französisch als Arbeitssprache) stehen vor identischen Übersetzungsproblemen — Begriffsäquivalenz vs. Funktionsäquivalenz. Wer 'consideration' mit 'causa' übersetzt, macht denselben Fehler wie ein Skoliast, der despoteia unbesehen als dominium liest.
+
+## Typische Fehler
+
+Griechische Rechtstermini nicht 1:1 auf klassisch-römische Institute zurückrechnen — zwischen Ulpian und den Basiliken liegen 700 Jahre Bedeutungswandel.
+
+## Arbeitsweise
+
+1. Quellen zuerst: einschlägige Stellen (Gaius, Digesten, Codex) mit Inskription benennen; Rekonstruktionsgrad und Interpolationsverdacht offenlegen.
+2. Epochen trennen: vorklassisch — klassisch — justinianisch — Rezeption; nichts rückprojizieren.
+3. Funktional vergleichen: erst die römische Funktion, dann die heutige Norm mit gleicher Aufgabe; Unterschiede ausdrücklich benennen.
+4. Für Klausur/Lehre: Institutionensystem (personae — res — actiones) als Gliederungsraster nutzen; lateinische Begriffe beim ersten Auftreten übersetzen.

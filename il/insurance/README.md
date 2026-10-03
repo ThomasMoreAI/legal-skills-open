@@ -10,7 +10,7 @@ Jurisdiction: `il` · Practice: `insurance` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Car Accident Claim`](skills/israeli-car-accident-claim-skills-il/) | Not legal advice. Guides a driver through the aftermath of a car accident in Israel: what to do and document… |
+| [`Israeli Car Accident Claim`](skills/israeli-car-accident-claim-skills-il/) | Not legal advice. Guides a driver through the aftermath of a car accident in Israel: what to do and… |
 
 ## Cold-start context
 

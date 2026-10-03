@@ -1,11 +1,11 @@
 ---
 name: fristen-und-terminkalender
 title: Fristen und Terminkalender
-description: 'Anwalt will alle prozessrelevanten Fristen und Termine im Aktenauszug hervorheben: Klagefrist Berufungsfrist Begründungsfrist Verkündungstermin Vollziehungsfrist. Normen §§ 222 517 520 548 ZPO. Prüfraster Vollständigkeit Frist-Berechnung Hervorhebung Fehler-Scan. Output Fristen-Box Fristen-Tabelle. Abgrenzung zu verfahrenschronologie (Prozessschritte) und mittelstand-ma-fristen-cp-kalender (M&A-Fristen).'
+description: 'Für Fristen und Terminkalender: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/fristen-und-terminkalender
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Fristen und Terminkalender
 
-## Zweck
+## Arbeitsweg
 
-Versäumte Fristen können zum Verlust des Verfahrens oder zur Haftung des Rechtsanwalts führen. Dieser Skill identifiziert alle prozessrelevanten Fristen und Termine aus der Akte und stellt sie prominent dar.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Fristermittlung
 
@@ -35,13 +39,6 @@ Versäumte Fristen können zum Verlust des Verfahrens oder zur Haftung des Recht
 - § 929 Abs. 2 ZPO — Vollziehungsfrist einstweilige Verfügung 1 Monat
 - § 4 KSchG — Klagefrist 3 Wochen (Notfrist); § 74 VwGO — Klagefrist 1 Monat
 
-## Rechtsprechung zu Fristen und Fristversäumnis
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Fristenarten
 
 ### Absolute Fristen (gesetzlich, nicht verlängerbar)
@@ -70,12 +67,20 @@ Fristen, die nicht verlängerbar sind und bei denen Wiedereinsetzung nur unter e
 
 ## Output-Format (Fristenbox am Anfang)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ```
 FRISTEN UND TERMINE — SOFORT PRUEFEN
-Berufungsfrist:    TT.MM.JJJJ  (§ 517 ZPO)
-Begründungsfrist:  TT.MM.JJJJ  (§ 520 ZPO)
+Berufungsfrist: TT.MM.JJJJ (§ 517 ZPO)
+Begründungsfrist: TT.MM.JJJJ (§ 520 ZPO)
 Nächste Verhandlung: TT.MM.JJJJ HH:UU Uhr
-Schriftsatzfrist:  TT.MM.JJJJ  (richterliche Anordnung)
+Schriftsatzfrist: TT.MM.JJJJ (richterliche Anordnung)
 ```
 
 Alternativ als Markdown-Tabelle:
@@ -107,3 +112,5 @@ Alternativ als Markdown-Tabelle:
 - [ ] Wochenende/Feiertag bei Fristende berücksichtigt (§ 222 ZPO)?
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-ersatzteile-dual-exporteur
+title: 'Ersatzteile mit Dual-Use-Risiko: Klassifizierung und Lieferentscheidung'
+description: 'Für Ersatzteile mit Dual-Use-Risiko: Klassifizierung und Lieferentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-ersatzteile-dual-exporteur
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Ersatzteile mit Dual-Use-Risiko: Klassifizierung und Lieferentscheidung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Maschinenhersteller liefert Pumpendichtungen nach Iran; Lieferkettenkontrolle zeigt Dual-Use-Potenzial.
+- Elektronikunternehmen sendet Ersatzplatinen an Vertriebspartner in UAE; Weitergabe an Russland befürchtet.
+- Reparaturauftrag aus Algerien für Steuerungskomponente; ML-Listeneinstufung unklar.
+
+## Erste Schritte
+
+1. Technische Spezifikation des Ersatzteils beschaffen und mit Anhang I VO (EU) 2021/821 abgleichen.
+2. Bestimmungsland und Endverwender verifizieren; Catch-All nach Art. 4 VO (EU) 2021/821 prüfen.
+3. Gesamtanlage und deren Klassifizierung kennen; Ersatzteil-Klassifizierung ggf. davon abhaengig.
+4. BAFA-Auskunftsverfahren bei Unklarheit einleiten (Nullbescheid oder Klassifizierungsanfrage).
+5. Sanktionslisten-Screening Endverwender und Lieferkette (Re-Export-Risiko UAE/Tuerkei).
+6. Entscheidung dokumentieren: Freigabe mit Beleglage oder Genehmigungsantrag.
+
+## Rechtsrahmen
+
+- **Art. 3 VO (EU) 2021/821**: Genehmigungspflicht für gelistete Dual-Use-Gueter.
+- **Art. 4 VO (EU) 2021/821**: Catch-All-Genehmigungspflicht bei Kenntnislagen.
+- **Anhang I VO (EU) 2021/821**: Gueterliste inkl. Ersatzteile und Komponenten.
+- **§ 18 AWG**: Strafbarkeit unerlaubter Ausfuhr.
+- **AWV § 8 ff.**: Genehmigungsverfahren und Ausnahmen.
+
+## Prüf-Raster
+
+- [ ] Technische Parameter des Ersatzteils vollstaendig bekannt?
+- [ ] Abgleich mit allen relevanten Kategorien des Anhangs I VO (EU) 2021/821 erfolgt?
+- [ ] Bestimmungsland und Endverwender verifiziert, Catch-All ausgeschlossen?
+- [ ] Re-Export-Risiko über Drittlaender geprueft?
+- [ ] Sanktionslistenscreening aller Beteiligten durchgefuehrt?
+- [ ] Entscheidung mit technischer Begruendung dokumentiert?
+
+## Typische Fallstricke
+
+- Ersatzteile können hoeherer Kategorie angehoeren als die Anlage selbst.
+- Sammellieferungen von Ersatzteilen können zusammen eine vollstaendige Anlage darstellen.
+- UAE und Tuerkei gelten als Umgehungslaender; Catch-All-Risiko erhoht.
+- BAFA-Nullbescheid gilt nur für die beschriebene Konfiguration, nicht für Varianten.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [VO (EU) 2021/821 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R0821)
+- [BAFA Dual-Use-Ausfuhrkontrolle](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Dual_Use/dual_use_node.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [BAFA ELAN-K2 Antragsportal](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/ELAN_K2/elan_k2_node.html)

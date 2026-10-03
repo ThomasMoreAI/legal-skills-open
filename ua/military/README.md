@@ -8,10 +8,10 @@ Jurisdiction: `ua` · Practice: `military` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`calculating-military-payments`](skills/calculating-military-payments/) | Use when calculating payments for Ukrainian service members — бойові (КМУ № 168, 100 000 грн/міс), фронтова… |
-| [`military-statute-refs`](skills/military-statute-refs/) | Use when fetching Ukrainian military statutes, orders MO, or CMU resolutions for service members. Verified… |
-| [`szch-decriminalization`](skills/szch-decriminalization/) | Use when applying ч. 5 ст. 401 КК (Закон № 3902-IX від 20.08.2024, чинний з 07.09.2024) — звільнення від… |
-| [`vlk-procedure`](skills/vlk-procedure/) | Use when working with ВЛК procedures — категорії придатності А/Б/В/Г/Д (наказ МО № 402), кроки (ініціювання →… |
+| [`law-ua-calculating-military-payments`](skills/calculating-military-payments/) | Use when calculating payments for Ukrainian service members — бойові (КМУ № 168, 100 000 грн/міс)… |
+| [`law-ua-military-statute-refs`](skills/military-statute-refs/) | Use when fetching Ukrainian military statutes, orders MO, or CMU resolutions for service members.… |
+| [`law-ua-szch-decriminalization`](skills/szch-decriminalization/) | Use when applying ч. 5 ст. 401 КК (Закон № 3902-IX від 20.08.2024, чинний з 07.09.2024) — звільнення від… |
+| [`law-ua-vlk-procedure`](skills/vlk-procedure/) | Use when working with ВЛК procedures — категорії придатності А/Б/В/Г/Д (наказ МО № 402), кроки… |
 
 ## Cold-start context
 

@@ -1,11 +1,11 @@
 ---
 name: europarecht-vorlageverfahren-art-267
 title: Vorlageverfahren Art. 267 AEUV
-description: 'Vorabentscheidungsersuchen nach Art. 267 AEUV vorbereiten oder Vorlagepflicht eines nationalen Gerichts prüfen. Art. 267 AEUV Vorabentscheidungsverfahren. Prüfraster: Vorlagepflicht acte-clair-Doktrin Vorlagefrage Formulierung Aussetzung nationale Verfahrensposition. Output: Vorlagefragentwurf Vorlage-Memo. Abgrenzung: nicht für Klagen unmittelbar beim EuGH (europarecht-klagearten-eugh).'
+description: 'Für Vorlageverfahren Art. 267 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/europarecht-kompass/skills/europarecht-vorlageverfahren-art-267
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -14,9 +14,17 @@ language: de
 
 # Vorlageverfahren Art. 267 AEUV
 
-## Zweck
+## Arbeitsbereich
 
-Vorlagefragen werden nicht als getarnte Subsumtion formuliert, sondern als echte EU-Auslegungs- oder Gültigkeitsfragen.
+Vorabentscheidungsersuchen nach Art. 267 AEUV vorbereiten oder Vorlagepflicht eines nationalen Gerichts prüfen. Art. 267 AEUV Vorabentscheidungsverfahren. Prüfraster: Vorlagepflicht acte-clair-Doktrin Vorlagefrage Formulierung Aussetzung nationale Verfahrensposition. Output: Vorlagefragentwurf Vorlage-Memo. Abgrenzung: nicht für Klagen unmittelbar beim EuGH (europarecht-klagearten-eugh). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: AEUV Art. 263 Nichtigkeitsklage 2 Monate, Art. 265 Untätigkeitsklage 2 Monate, Art. 267 Vorlage jederzeit, Vertragsverletzungsverfahren Art. 258 unbefristet.
+- Tragende Normen verifizieren: EUV, AEUV (insb. Art. 4, 5, 18, 20, 21, 34, 49, 56, 101, 102, 107, 108, 263, 267, 288, 340), GRCh, EU-VO (Beispiele 2016/679 DSGVO, 2024/1689 KI-VO, 139/2004 FKVO), EU-Richtlinien, EuGH-Rechtsprechung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: EU-Kommission, Rat, Europäisches Parlament, EuGH, EuG, Mitgliedstaaten, nationale Gerichte (Vorlage Art. 267 AEUV), Bundesregierung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Vorlagebeschluss Art. 267 AEUV, Nichtigkeitsklage, Beschwerde an EU-KOM, Stellungnahme im Vertragsverletzungsverfahren, Notifizierung, EuGH-Urteilsbeleg — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Wann verwenden
 
@@ -24,27 +32,12 @@ Vorlagefragen werden nicht als getarnte Subsumtion formuliert, sondern als echte
 - wenn deutsche Kategorien die EU-Eigenlogik verdecken könnten
 - wenn Rechtsquelle, Wirkung, Verfahren oder Frist unklar sind
 
-## Arbeitsweise
-
-1. **Rechtsquelle fixieren.** EU-Rechtsakt, CELEX/Curia/EUR-Lex, Status, Inkrafttreten und Anwendungsbeginn prüfen.
-2. **Wirkung bestimmen.** Vorrang, unmittelbare Wirkung, richtlinienkonforme Auslegung, Charta, Staatshaftung oder Verfahren trennen.
-3. **Deutsche Denkfehler markieren.** Nationale Kategorien nur nutzen, wenn sie unionsrechtlich passen.
-4. **Verfahrensweg planen.** Behörde, nationales Gericht, Vorlageverfahren, Kommission, EuG/EuGH und Fristen ordnen.
-5. **Qualitätstor setzen.** Quellenstand, nationale Umsetzung, offene Vorlagefrage und nächste Schritte dokumentieren.
-
 ## Rückfragen, wenn unklar
 
 - Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
 - Welche Partei oder Rolle vertreten wir?
 - Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
 - Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
-
-## Ausgabeformat
-
-- Kurzlage mit Ampel
-- Prüfmatrix mit Fundstelle, Risiko, Vorschlag und Review-Level
-- anwaltlich prüfbarer Entwurf oder Mandantenhinweis
-- offene Annahmen, Quellenstand und nächste Schritte
 
 ## Typische Fehler vermeiden
 
@@ -60,11 +53,11 @@ Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf 
 ## Triage vor Vorlage-Entscheidung
 
 Bevor losgelegt wird, klaere:
-1. Besteht eine Frage zur Gueltigkeit oder Auslegung von EU-Recht, die fuer den Ausgang des Verfahrens entscheidend ist?
+1. Besteht eine Frage zur Gueltigkeit oder Auslegung von EU-Recht, die für den Ausgang des Verfahrens entscheidend ist?
 2. Ist das nationale Gericht letztinstanzlich (Vorlagepflicht) oder nicht-letztinstanzlich (Vorlagemaessen)?
 3. Hat der EuGH die Frage bereits eindeutig geklart (Acte clair) oder ist sie offenkundig eindeutig (Acte eclaire)?
 4. Kann Vorlage die Verfahrensdauer akzeptabel verlaengern (EuGH: ca. 12-18 Monate)?
-5. Welche Fragestellung ist am ehesten geeignet fuer das Vorlageurteil?
+5. Welche Fragestellung ist am ehesten geeignet für das Vorlageurteil?
 
 ## Vertiefung: Rechtsprechung und Leitsaetze
 
@@ -81,11 +74,8 @@ Klassische Anker zur Vorlagedogmatik (vor Verwendung über [curia.europa.eu](htt
 - **Art. 19 EUV** — Effektiver Rechtsschutz; Vorlage als Instrument
 - **EuGH-Satzung Art. 23** — Beteiligte im Vorabentscheidungsverfahren
 - **EuGH-Verfahrensordnung Art. 93-118** — Ablauf Vorabentscheidungsverfahren
-- **Eiliges Vorabentscheidungsverfahren (PPU)** Art. 107 EuGH-VerfO — fuer Freiheits-/Haftfragen; Frist ca. 2 Monate
+- **Eiliges Vorabentscheidungsverfahren (PPU)** Art. 107 EuGH-VerfO — für Freiheits-/Haftfragen; Frist ca. 2 Monate
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Output-Template: Vorlagebeschluss-Entwurf (Kurzform)
 
 **Adressat:** EuGH / zu erstellendes Vorlage-Gericht
@@ -108,7 +98,7 @@ Anzuwendende EU-Rechtsnormen:
 Vorlagefrage(n) an den EuGH (Art. 267 AEUV):
 
 1. Ist Art. [X] der [VO / Richtlinie] dahingehend auszulegen, dass
-   [KONKRETE FRAGE]?
+ [KONKRETE FRAGE]?
 
 [2. Falls ja / Hilfsfrage: ...]
 
@@ -118,8 +108,16 @@ und bei Verneinung [RECHTSFOLGE B] eintreten würde.
 
 Begruendung keine Acte clair:
 Der EuGH hat diese Frage noch nicht entschieden / Die Entscheidung [CELEX]
-klaert die Frage nicht vollstaendig fuer den vorliegenden Sachverhalt.
+klaert die Frage nicht vollstaendig für den vorliegenden Sachverhalt.
 
 [GERICHT], [ORT], [DATUM]
 [RICHTER-NAME]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

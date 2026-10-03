@@ -1,0 +1,74 @@
+---
+name: unterzeichnung-elektronisch-wandelereignis
+title: Elektronische Unterzeichnung (DocuSign / Adobe Sign)
+description: 'Für Elektronische Unterzeichnung (DocuSign / Adobe Sign): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/unterzeichnung-elektronisch-wandelereignis
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Elektronische Unterzeichnung (DocuSign / Adobe Sign)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Unterzeichner (Name, E-Mail-Adresse, Mobilnummer für SMS-OTP)
+- Gewünschte Authentifizierungsstufe (E-Mail-OTP, SMS-OTP, QES nach eIDAS)
+- Unterzeichnungsreihenfolge (z. B. erst Gesellschaft, dann Gesellschafterinnen, zuletzt Lender)
+- Frist für Unterzeichnung (z. B. sieben Bankarbeitstage)
+- Archivierungspflicht: zehn Jahre für steuerrelevante Dokumente (§ 147 AO)
+
+## Rechtlicher Rahmen
+
+### Primärnormen
+- § 126b BGB (Textform ausreichend; DocuSign erfüllt dies)
+- § 126a BGB (Elektronische Form mit QES – höhere Stufe, nicht erforderlich für Wandeldarlehen)
+- Art. 26 ff. eIDAS-VO 910/2014 (Anforderungen an elektronische Signaturen)
+- § 147 AO (Aufbewahrungspflicht steuerrelevanter Unterlagen zehn Jahre)
+- § 257 HGB (Aufbewahrungspflicht handelsrelevanter Unterlagen sechs Jahre)
+
+## Checkliste Unterzeichnungsrunde
+
+| Schritt | Erledigt |
+|---|---|
+| PDF final, keine Platzhalter | [ ] |
+| Alle E-Mail-Adressen geprüft | [ ] |
+| Mobilnummern für SMS-OTP vorhanden | [ ] |
+| Reihenfolge korrekt konfiguriert | [ ] |
+| Ablaufdatum gesetzt | [ ] |
+| Erinnerungsintervalle konfiguriert | [ ] |
+| Audit Trail archiviert | [ ] |
+| Alle Parteien haben signiertes PDF | [ ] |
+
+## Risiken und Red Flags
+
+| Konstellation | Rot | Orange | Grün |
+|---|---|---|---|
+| Unterzeichner nicht authentifiziert | Identitätszweifel, Anfechtungsrisiko | Nur E-Mail-OTP | SMS-OTP oder QES |
+| Kein Audit Trail gespeichert | Beweisnot bei Streit | Audit Trail unvollständig | Vollständiger Trail archiviert |
+| Aufbewahrung unter zehn Jahre | § 147 AO-Verstoß | Sechs Jahre | Zehn Jahre |
+| Falsches Dokument (Entwurf) unterzeichnet | Streit über Vertragsinhalt | Versionsverwechslung möglich | Nur finale PDF |
+
+## Quellen und Updates
+
+Stand: 05/2026. eIDAS-VO 910/2014; § 147 AO. Bei Änderung eIDAS 2.0 (VO 2024/1183) aktualisieren.
+
+## Vertiefung — Aktuelle Rechtsprechung
+
+### Normen-Ergänzung
+
+§ 126 BGB (Schriftform) → § 126a BGB (elektronische Form, QES) → § 126b BGB (Textform) → Art. 3 Nr. 12, Art. 25, 26 eIDAS-VO (qualifizierte elektronische Signatur) → § 15 Abs. 3, 4 GmbHG (notarielle Form bei GmbH-Anteilsverträgen, kein elektronischer Ersatz)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

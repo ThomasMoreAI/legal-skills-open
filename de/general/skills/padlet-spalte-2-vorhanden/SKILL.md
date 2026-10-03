@@ -1,0 +1,77 @@
+---
+name: padlet-spalte-2-vorhanden
+title: Padlet Reiter 2 Verfuegbar aufbauen
+description: 'Für Padlet Reiter 2 Verfügbar aufbauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/status-navigator-step-plan/skills/padlet-spalte-2-vorhanden
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Padlet Reiter 2 Verfuegbar aufbauen
+
+## Ziel
+Spalte 2 des Padlets bildet Reiter 2 der Step-Plan-Excel ab: vorliegende
+Dokumente mit Detailblick auf Unterschriftsstatus.
+
+## Vorlage-Bezug
+Spaltenkopf: `2. Verfuegbar`
+Subtitle: `Aktuell vorliegende Dokumente. Die Spalte Unterzeichnet von
+listet die unterzeichnenden Parteien und deren Funktion auf.`
+
+Karteninhalt (sechs Felder aus der Excel-Vorlage):
+
+| Padlet-Feld | Inhalt aus Excel-Vorlage |
+|---|---|
+| Kartentitel | Dokument (Bezeichnung) |
+| Untertitel | Datum |
+| Typ-Tag | Typ (Vertrag, Bescheid, Erklaerung, Beschluss, Schreiben) |
+| Body Absatz 1 | Unterzeichnet von (Partei und Funktion) |
+| Statusbadge | Unterschriftsstatus |
+| Body Absatz 2 | Anmerkung |
+
+## Padlet-Konfiguration
+- Spaltenfarbe: blau-grau (markiert: Detailspalte)
+- Kartenfarbe: nach Unterschriftsstatus (GRUEN, GELB, ROT)
+- Type-Tag oben links farblich gefuehrt:
+  - Vertrag = dunkelblau
+  - Bescheid = dunkelgruen
+  - Erklaerung = orange
+  - Beschluss = lila
+  - Schreiben = grau
+
+## Anwendungsbeispiel
+LausitzStorage-Akte, Spalte 2 enthaelt 16 Karten:
+- Pachtvertrag (GRUEN, Vertrag-Tag): UR-Nr. 217/2025 Notar Albers,
+  Tresor Pohlmann und Pohlmann
+- 1. Nachtrag (GELB, Vertrag-Tag): Kosturek allein, § 177 BGB schwebend
+- Senior-Darlehensvertrag (GRUEN, Vertrag-Tag): Le Bouedec + Kraft
+- Wandeldarlehen (GELB, Vertrag-Tag): Datums-Copy-Paste 14.10. vs 17.10.
+- Gesellschafterbeschluss (GRUEN, Beschluss-Tag): UR-Nr. 387/2025
+
+## Output-Module
+- Padlet-Spalte 2 mit allen vorliegenden Dokumenten als Karten
+- Type-Tag je Karte
+- Statusbadge entsprechend Unterschriftsstatus
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Grenzen
+- **Type-Tag ist Hilfsklassifikation**, keine rechtliche Einordnung.
+- **Anmerkungsfeld kurz halten.** Detailbefunde gehoeren in den
+  Skill unterschriftspruefung oder copy-paste-fehler-erkennung.
+
+## Plugin-Kontext
+Spalte 2 ist Lieferquelle für die Querkommunikation zwischen Padlet-Karten
+und Excel-Reitern. Wer hier sauber Type-Tags vergibt, kann später
+filtern (zum Beispiel `nur Beschluesse anzeigen`).

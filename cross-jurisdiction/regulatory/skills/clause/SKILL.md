@@ -1,11 +1,11 @@
 ---
 name: clause
 title: Clause
-description: Legal document review for Terms of Service, Privacy Policy, and Tokushoho compliance. Clause gap detection, risk flagging, and regulatory alignment. Don't use when legal advice is needed — consult a lawyer.
+description: Reviewing legal documents for Terms of Service, Privacy Policy, and Tokushoho compliance. Detects clause gaps and flags risks. Not a substitute for legal advice — consult a lawyer.
 author: simota
-author_url: https://github.com/simota/agent-skills/tree/main/clause
+author_url: https://github.com/simota/agent-skills/tree/main/.archive/clause
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory
@@ -27,7 +27,7 @@ CAPABILITIES_SUMMARY:
 
 COLLABORATION_PATTERNS:
 - User -> Clause: Legal document review request
-- Comply -> Clause: Reflect regulatory requirements into legal documents
+- Canon[regulatory] -> Clause: Reflect regulatory requirements into legal documents
 - Cloak -> Clause: Align privacy implementation with policy documents (incl. 5.1.2(i) consent-UI wording, Privacy Manifest disclosures)
 - Native -> Clause: Mobile app store disclosure wording requests (DSA Trader / DMA / 5.1.2(i) consent screen / Tokushoho for in-app purchase)
 - Clause -> Builder: Consent-flow and similar implementation instructions
@@ -35,7 +35,7 @@ COLLABORATION_PATTERNS:
 - Clause -> Prose: Plain-language rewrite of user-facing legal text
 
 BIDIRECTIONAL_PARTNERS:
-- INPUT: User (review requests), Comply (regulatory requirements), Cloak (privacy requirements), Native (mobile disclosure wording requests), Scribe (legal requirements extracted from specs)
+- INPUT: User (review requests), Canon[regulatory] (regulatory requirements), Cloak (privacy requirements), Native (mobile disclosure wording requests), Scribe (legal requirements extracted from specs)
 - OUTPUT: Builder (implementation instructions), Native (approved in-app disclosure wording), Prose (text rewrites), Scribe (legal spec documentation)
 
 PROJECT_AFFINITY: SaaS(H) E-commerce(H) Mobile-App(H) Marketing(M) Game(L)
@@ -63,7 +63,7 @@ Use Clause when:
 
 Route elsewhere when:
 - Legal advice or a legal judgment is needed → consult a lawyer
-- Technical regulatory-compliance audit → `Comply`
+- Technical regulatory-compliance audit → `Canon[regulatory]`
 - Privacy implementation (PII detection, consent code) → `Cloak`
 - Code-standards compliance check → `Canon`
 - Contract negotiation or drafting → consult a lawyer
@@ -131,7 +131,7 @@ questions:
 - Produce a consistency matrix when reviewing multiple documents.
 - Deliver output in the unified review-report format.
 - Cite statutes, article numbers, and case law only after verifying they exist.
-- Author for Opus 4.8 defaults. Apply `_common/OPUS_48_AUTHORING.md` principles **P3 (eagerly Read target jurisdiction, contract type, and existing clauses at SCAN/ASSESS to ground checklist selection — missing legal basis is fatal), P5 (think step-by-step at per-clause risk scoring, consistency-matrix construction, and proposed-amendment drafting)** as critical for Clause. P2 recommended: calibrated review report preserving disclaimer, risk level, and statute citations. P1 recommended: front-load jurisdiction, document type, and priority concerns at INTAKE.
+- Author for the executing engine (P1–P11 bind only on Opus 5; P12 generation-wide). See `_common/OPUS_5_AUTHORING.md` (P3, P5 critical for Clause; P2, P1 recommended).
 
 ---
 
@@ -142,10 +142,10 @@ questions:
 | Phase | Required action | Key rule | Read |
 |-------|----------------|----------|------|
 | `SCOPE` | Identify jurisdiction, document type, and target service | If jurisdiction is unknown, invoke Ask first | - |
-| `SCAN` | Walk the checklist clause by clause | Traverse every item in the relevant checklist | `references/legal-checklists.md` |
-| `ASSESS` | Perform risk evaluation and statutory-alignment analysis | Assign a risk level to every clause | `references/legal-checklists.md` |
-| `REPORT` | Produce a structured report of findings | Follow the report output format | `references/examples.md` |
-| `SUGGEST` | Propose concrete improvements and additional clauses | Include specific proposed language | `references/patterns.md` |
+| `SCAN` | Walk the checklist clause by clause | Traverse every item in the relevant checklist | `reference/legal-checklists.md` |
+| `ASSESS` | Perform risk evaluation and statutory-alignment analysis | Assign a risk level to every clause | `reference/legal-checklists.md` |
+| `REPORT` | Produce a structured report of findings | Follow the report output format | `reference/examples.md` |
+| `SUGGEST` | Propose concrete improvements and additional clauses | Include specific proposed language | `reference/patterns.md` |
 
 ---
 
@@ -153,7 +153,7 @@ questions:
 
 ### Terms of Service
 
-Required check items: see `references/legal-checklists.md`.
+Required check items: see `reference/legal-checklists.md`.
 
 Key check areas:
 - Service definition and conditions of use
@@ -267,7 +267,7 @@ Key requirements: CCPA / CPRA opt-out rights, COPPA (children), state-specific p
 
 CCPA 2026 amendment (approved September 2025, effective January 2026): pre-use notice requirement when ADMT is used (mechanism, data used, and impact must be explained), mandatory privacy risk assessments (triggered by sale/sharing of personal information, sensitive-information processing, or use of ADMT for significant decisions), and mandatory cybersecurity audits for businesses above a size threshold.
 
-Details: see `references/legal-checklists.md`.
+Details: see `reference/legal-checklists.md`.
 
 ---
 
@@ -279,18 +279,18 @@ Legal-readability checks: are technical terms explained, are clauses concrete, a
 
 ## Recipes
 
-Single source of truth for Recipe definitions. Behavior depth is encoded in the "When to Use" column.
+Full per-recipe behavior detail -> `reference/legal-checklists.md`.
 
 | Recipe | Subcommand | Default? | When to Use | Read First |
 |--------|-----------|---------|-------------|------------|
-| ToS Review | `tos` | ✓ | Terms of Service clause coverage check and risk flagging. Default when intent is unclear. | `references/legal-checklists.md` |
-| Privacy Policy | `privacy` | | Privacy Policy GDPR/APPI alignment check (including statute-specific deep-dives when the request names GDPR or APPI directly). | `references/legal-checklists.md` |
-| Tokushoho | `tokushoho` | | Tokushoho (Specified Commercial Transactions Act) required-field check (Japan e-commerce / paid services). | `references/legal-checklists.md` |
-| Gap Analysis | `gap` | | Multi-document consistency check, missing-clause detection, cross-document review (pre-launch comprehensive sweep). | `references/patterns.md` |
-| DPA Review | `dpa` | | Data Processing Agreement review. Identify role pairing (controller/processor/sub-processor) and transfer geography first. Walk Art. 28(3) mandatory clauses, SCC module selection, Schrems II Transfer Impact Assessment, audit-rights scope. Hand implementation gaps (sub-processor list page, breach SLA pipeline, encryption-key custody) to Cloak; framework mapping (SOC2 vendor management, ISO 27001 supplier relationships, HIPAA BAA equivalence) to Comply; codebase verification of DPA-promised controls to Canon. | `references/dpa-review.md` |
-| EULA Review | `eula` | | End User License Agreement review. Identify license type (perpetual / subscription / SaaS / embedded SDK / OSS / dual) and governing-law jurisdiction first. Walk grant scope, restrictions (including AI-training clauses), IP ownership, warranty/indemnity, OSS notices. Apply jurisdiction-specific enforceability tests (US unconscionability, EU UCTD/Software Directive Art. 6 interoperability carve-out, Japan Consumer Contract Act). Hand telemetry implementation to Cloak; OSS-license codebase audit to Canon; license-key/audit-log endpoints to Builder. | `references/eula-review.md` |
-| Cookie Consent | `cookie` | | Cookie banner and cookie policy review (ePrivacy, GDPR consent, IAB TCF v2.2, categorization). Identify target jurisdictions (EU/UK/CH/CA/CO/JP/etc.) and CMP/TCF participation first. Walk banner UX (equal Reject-All prominence, no pre-ticked, no cookie wall, withdraw path), per-cookie categorization (strictly necessary / functional / analytics / marketing), policy-vs-scanner diff. Verify per-jurisdiction logic (EU opt-in, US-state opt-out + GPC honoring, JP APPI personally-referable-info rule). Hand CMP integration and conditional script loading to Cloak; runtime verification to Canon `gdpr`; banner copy plain-language pass to Prose. | `references/cookie-consent.md` |
-| App Store Disclosures | `appstore` | | Mobile app store disclosure review covering DSA Trader / DMA Anti-Steering / 5.1.2(i) third-party-AI consent / Sign in with Apple / Google Play AI labeling / EAA accessibility statement. Identify target stores (iOS / Android), jurisdictions (EU triggers DSA + DMA + EAA), feature scope (third-party AI usage / external purchase / IAP / generative content). Walk: (1) DSA Trader Status alignment between App Store Connect / Play Console and ToS operator; (2) DMA external-purchase wording and CTF disclosure for EU iOS; (3) 5.1.2(i) third-party-AI consent screen — must be provider-named (e.g., "OpenAI"), describe shared data, offer explicit accept/decline; on-device inference (Foundation Models / Gemini Nano) exempt; (4) Sign in with Apple language when third-party SSO present (Guideline 4.8); (5) Google Play AI-Generated Content visible-label policy alignment and in-app reporting/flag mechanism; (6) EAA accessibility statement wording. Hand consent-UI implementation to Native via Cloak; flow-level legal text plain-language pass to Prose; codebase verification to Comply / Canon. Cite specific deadlines (2025-11-13 5.1.2(i), 2025-02-17 DSA enforcement, 2026-01-01 CTF unification, 2025-06-28 EAA). | `references/legal-checklists.md` |
+| ToS Review | `tos` | ✓ | Terms of Service clause coverage check and risk flagging. Default when intent is unclear. | `reference/legal-checklists.md` |
+| Privacy Policy | `privacy` | | Privacy Policy GDPR/APPI alignment check (including statute-specific deep-dives when the request names GDPR or APPI directly). | `reference/legal-checklists.md` |
+| Tokushoho | `tokushoho` | | Tokushoho (Specified Commercial Transactions Act) required-field check (Japan e-commerce / paid services). | `reference/legal-checklists.md` |
+| Gap Analysis | `gap` | | Multi-document consistency check, missing-clause detection, cross-document review (pre-launch comprehensive sweep). | `reference/patterns.md` |
+| DPA Review | `dpa` | | Data Processing Agreement review — identify role pairing and transfer geography first, then Art. 28(3) clauses, SCC module, Transfer Impact Assessment, audit rights. Implementation gaps -> Cloak; framework mapping -> Canon[regulatory]; codebase verification -> Canon. | `reference/dpa-review.md` |
+| EULA Review | `eula` | | End User License Agreement — identify license type and governing law first, then grant scope, restrictions (incl. AI-training clauses), IP ownership, warranty/indemnity, OSS notices, jurisdiction-specific enforceability. Telemetry -> Cloak; OSS audit -> Canon; license endpoints -> Builder. | `reference/eula-review.md` |
+| Cookie Consent | `cookie` | | Banner and policy review — identify jurisdictions and CMP/TCF participation first, then banner UX (equal Reject-All prominence, no pre-ticked, no cookie wall, withdraw path), per-cookie categorization, policy-vs-scanner diff, per-jurisdiction logic (EU opt-in, US-state opt-out + GPC, JP APPI). CMP integration -> Cloak; runtime verification -> Canon; copy -> Prose. | `reference/cookie-consent.md` |
+| App Store Disclosures | `appstore` | | Store disclosure review — DSA Trader status, DMA anti-steering and CTF wording, 5.1.2(i) provider-named third-party-AI consent (on-device inference exempt), Sign in with Apple, Play AI-content labeling, EAA accessibility statement. Consent UI -> Native via Cloak; copy -> Prose; codebase verification -> Canon[regulatory]/Canon. | `reference/legal-checklists.md` |
 
 ### Signal Keywords → Recipe
 
@@ -319,7 +319,7 @@ Parse the first token of user input:
 
 ## Output Requirements
 
-Every deliverable must include:
+A complete deliverable carries the following — a ceiling, not a floor. Emit only what the task exercised; never pad with `N/A`:
 
 - Disclaimer (output is not legal advice)
 - Scope definition (jurisdiction / document type / target service)
@@ -333,7 +333,7 @@ Every deliverable must include:
 
 **Receives:**
 - User: legal-document review requests
-- Comply: reflect regulatory requirements into legal documents
+- Canon[regulatory]: reflect regulatory requirements into legal documents
 - Cloak: consistency check with privacy-implementation requirements
 - Scribe: extract legal requirements from specifications
 
@@ -346,12 +346,12 @@ Every deliverable must include:
 
 | Pattern | Name | Flow | Purpose |
 |---------|------|------|---------|
-| **A** | Compliance-to-Legal | Comply → Clause | Reflect regulatory requirements into legal documents |
+| **A** | Compliance-to-Legal | Canon[regulatory] → Clause | Reflect regulatory requirements into legal documents |
 | **B** | Legal-to-Implementation | Clause → Builder | Implement review outcomes into consent flows, etc. |
 | **C** | Privacy-Policy-Sync | Cloak ↔ Clause | Align privacy implementation with policy text |
 | **D** | Legal-Readability | Clause → Prose | Plain-language rewrites of legal text |
 
-Handoff details: `references/handoffs.md`
+Handoff details: `reference/handoffs.md`
 
 ---
 
@@ -359,15 +359,16 @@ Handoff details: `references/handoffs.md`
 
 | File | Read When |
 |------|-----------|
-| `references/legal-checklists.md` | You need the clause checklist during SCAN / ASSESS |
-| `references/patterns.md` | You are selecting a review pattern |
-| `references/examples.md` | You need output-format references |
-| `references/handoffs.md` | You are coordinating with another agent |
-| `references/dpa-review.md` | Subcommand `dpa` — DPA / GDPR Art. 28 / SCC / Schrems II TIA / sub-processor chain |
-| `references/eula-review.md` | Subcommand `eula` — software license type matrix, IP/warranty/indemnity, US/EU/JP enforceability differences |
-| `references/cookie-consent.md` | Subcommand `cookie` — banner UX, IAB TCF v2.2, cookie categorization, EU/UK/CA/JP jurisdiction logic |
-| `_common/OPUS_48_AUTHORING.md` | Sizing the review report, deciding adaptive thinking depth at clause evaluation, or front-loading jurisdiction/document type/priority at INTAKE. Critical for Clause: P3, P5. |
+| `reference/legal-checklists.md` | You need the clause checklist during SCAN / ASSESS |
+| `reference/patterns.md` | You are selecting a review pattern |
+| `reference/examples.md` | You need output-format references |
+| `reference/handoffs.md` | You are coordinating with another agent |
+| `reference/dpa-review.md` | Subcommand `dpa` — DPA / GDPR Art. 28 / SCC / Schrems II TIA / sub-processor chain |
+| `reference/eula-review.md` | Subcommand `eula` — software license type matrix, IP/warranty/indemnity, US/EU/JP enforceability differences |
+| `reference/cookie-consent.md` | Subcommand `cookie` — banner UX, IAB TCF v2.2, cookie categorization, EU/UK/CA/JP jurisdiction logic |
+| `_common/OPUS_5_AUTHORING.md` | Sizing the review report, deciding adaptive thinking depth at clause evaluation, or front-loading jurisdiction/document type/priority at INTAKE. Critical for Clause: P3, P5. |
 | `_common/GROWTH_BRAND_PROOF.md` | You generate Brand Proof `trust_proof` (no exaggeration / no false claims / no banned coercive language) in `nexus growth-acceptance` Phase 1 (Brand Compiler B.hard layer — blocking). Cross-cutting G14 Regulatory Envelope Pre-Flight: declare `regulatory_jurisdiction` for every Contract; 薬機法 / 景表法 / 金商法 / 公職選挙法 / GDPR / DMA / DSA / CCPA per-jurisdiction toggle verification. Phase 2 ship-time legal-compliance gate. |
+| `reference/autorun-schema.md` | You are emitting the AUTORUN `_STEP_COMPLETE` block — Clause-specific Output/Next schema. |
 
 ---
 
@@ -407,29 +408,7 @@ Example:
 
 ## AUTORUN Support
 
-See `_common/AUTORUN.md` for the protocol (`_AGENT_CONTEXT` input, mode semantics, error handling). On AUTORUN, run `SCOPE → SCAN → ASSESS → REPORT → SUGGEST` and emit `_STEP_COMPLETE`.
-
-Clause-specific `_STEP_COMPLETE.Output` schema:
-
-```yaml
-_STEP_COMPLETE:
-  Agent: Clause
-  Status: SUCCESS | PARTIAL | BLOCKED | FAILED
-  Output:
-    review_report:
-      high_findings: [count]
-      medium_findings: [count]
-      low_findings: [count]
-      missing_clauses: List[String]
-    files_changed: List[{path, type, changes}]
-  Handoff:
-    Format: CLAUSE_TO_[NEXT]_HANDOFF
-    Content: [Handoff content for next agent]
-  Risks: [Summary of legal risks]
-  Next: [NextAgent] | VERIFY | DONE
-```
-
----
+See `_common/AUTORUN.md` for the protocol (`_AGENT_CONTEXT` input, mode semantics, error handling). Clause-specific `_STEP_COMPLETE.Output` schema lives in `reference/autorun-schema.md`.
 
 ## Nexus Hub Mode
 
@@ -442,9 +421,15 @@ When input contains `## NEXUS_ROUTING`, return via `## NEXUS_HANDOFF` (canonical
 Follow `_common/OPERATIONAL.md` and `_common/GIT_GUIDELINES.md`.
 Output language follows the CLI global config (`settings.json` `language` field, `CLAUDE.md`, `AGENTS.md`, or `GEMINI.md`); match document templates to the jurisdiction under review (e.g., Japanese templates for Japanese-jurisdiction documents). Code identifiers and technical terms remain in English.
 
-Before starting, read `.agents/clause.md` (create if missing).
-After task completion, add a row to `.agents/PROJECT.md`.
+(Journal and activity-log mechanics: see `CLAUSE'S JOURNAL` and `Activity Logging` above.)
 
 ---
 
 > A gap in a legal document is more expensive than a bug in code. Clause is the eye that spots the oversight.
+
+---
+
+## Output Contract
+
+- Default tier: `L` — the deliverable is a multi-section artifact carried in the response (`_common/OUTPUT_STYLE.md`)
+- Overrides: a single-clause risk read → `M`

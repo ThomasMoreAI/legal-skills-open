@@ -1,0 +1,111 @@
+---
+name: supervisor-review-queue
+title: /supervisor-review-queue
+description: 指导老师审查队列——学生输出在此等待指导老师批准后才能发给当事人或法院。 仅在冷启动设置时选择"正式审查队列"指导风格时活跃；否则休眠。 当指导老师想查看等待审查的内容、批准、编辑后批准或退回某项时使用。
+author: zhou210712
+author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-clinic/skills/supervisor-review-queue
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: zh
+---
+
+# /supervisor-review-queue
+
+1. 检查 `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → 指导风格。如果不是"正式审查队列"：说明诊所设置为[标记/较轻触]，不存在正式队列，以及如何切换。
+2. 使用以下工作流。
+3. 默认：按紧急程度、按学生显示等待审查的内容。
+4. 操作：批准 / 编辑后批准 / 附备注退回。全部记录。
+
+```
+/legal-clinic:supervisor-review-queue
+```
+
+```
+/legal-clinic:supervisor-review-queue --approve Q-003
+```
+
+```
+/legal-clinic:supervisor-review-queue --return Q-004 "检查送达要求——本地规则已变更"
+```
+
+---
+
+# 指导老师审查队列（可选）
+
+## 目的
+
+部分诊所想要一个正式门控：学生起草，指导老师审查，输出发布。其他诊所认为这过于规定性——他们通过案件讨论会和一对一指导，而非通过队列。
+
+**本技能仅在 `~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → 指导风格为"正式审查队列"时活跃。** 否则它休眠——冷启动访谈询问指导老师选择哪种模式，这是三个选项之一。
+
+是否使用正式审查工作流对于诊所采纳而言是一个真正的开放问题。它取决于学生经验水平、案件量和指导老师已有的指导方式。指导老师在设置时决定，并可在之后更改。
+
+## 加载上下文
+
+`~/.claude/plugins/config/claude-for-legal/legal-clinic/CLAUDE.md` → 指导风格。如果不是"正式审查队列"：回应"诊所设置为[标记/较轻触]指导——没有正式队列。[指导老师]通过[诊所现有结构]审查。要切换到正式队列，编辑 CLAUDE.md → 指导风格。"
+
+如果正式队列已启用 → 读取标记触发条件并继续。
+
+## 队列
+
+保存于 `references/review-queue.yaml`。每个条目：
+
+```yaml
+- id: Q-001
+  type: "draft"  # intake | draft | memo | status | client-letter
+  client: "[姓名或编号]"
+  student: "[姓名]"
+  submitted: [时间戳]
+  flags:
+    - rule: "法院提交"
+      detail: "驱逐答辩状 — 始终排队"
+  content_path: "[文件路径]"
+  status: "pending"  # pending | approved | edited-approved | returned
+```
+
+## 模式
+
+### 等待审查
+
+```markdown
+## 审查队列 — [日期]
+
+**待审查：** [N]件 | **最久等待：** [N]小时
+
+### 🔴 截止日期敏感
+| ID | 类型 | 当事人 | 学生 | 为何标记 | 等待时间 |
+|---|---|---|---|---|---|
+
+### 标准
+[相同表格]
+
+### 按学生
+[分类——发现模式：谁排队很多，谁可能需要关注]
+```
+
+### 审查某项
+
+展示完整内容 + 为何标记 + 学生备注。
+
+### 批准 / 编辑后批准 / 退回
+
+- **批准：** 状态 → approved，通知学生，记录。
+- **编辑后批准：** 指导老师内联编辑，批准版本为编辑后的版本，原始记录保留在日志中以便学生查看差异（教学时刻）。
+- **退回：** 附备注。学生修改并重新提交。
+
+## 记录
+
+每项操作均有日志。批准日志是诊所记录——它们证明诊所管辖地的持证律师在学生工作发给当事人或法院前进行了审查。这对诊所自身的合规性和学生评估有重要意义。
+
+## 教学信号
+
+队列也是数据。退回的模式（"学生X总是遗漏送达要求"）是一个辅导对话。编辑的模式（"每个人的律师函都太长"）是下学期 `/ramp` 的更新。
+
+## 本技能不做什么
+
+- **仅在指导老师选择后才运行。** 它是三种指导模式之一，不是唯一。
+- **自动批准。** 由指导老师批准。
+- **替代诊所现有的指导结构。** 它是工作成果的门控，不是案件讨论会、一对一或观察学生实际操作的替代。

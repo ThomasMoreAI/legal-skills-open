@@ -1,0 +1,31 @@
+---
+name: schaufenster-und-drift-erkennen
+title: Innere Widersprüche im Zeugnis prüfen
+description: Prüft ein Arbeitszeugnis auf innere Widersprüche zwischen Tätigkeitsbeschreibung, Einzelbewertungen und zusammenfassender Beurteilung. Liefert belegte Korrekturen, ohne aus anspruchsvollen Aufgaben automatisch eine bessere Zeugnisnote abzuleiten.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnispruefer/skills/schaufenster-und-drift-erkennen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Innere Widersprüche im Zeugnis prüfen
+
+## 1. Vergleich der Aussageebenen
+
+Leite die Prüfung aus Paragraf 109 Absatz 2 GewO und dem Gesamtzusammenhang nach BAG, Urteil vom 15. November 2011, 9 AZR 386/10 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/)), ab. Ersetzt ein neuer Text ein früher erteiltes Zeugnis, sichere beide Fassungen und die Gründe der Abweichung. Bezeichne unterschiedliche Gewichtungen nicht schon als unzulässige Verschlechterung; bei Reaktion auf eine berechtigte Beanstandung prüfe zusätzlich Paragraf 612a BGB.
+
+Vergleiche Tätigkeitsbeschreibung, Leistungsdetails, Verhaltensbeurteilung und zusammenfassende Bewertung. Prüfe, ob ausdrückliche Aussagen einander widersprechen oder ob eine prägende Aufgabe zwar beschrieben, bei der Bewertung aber sachwidrig ausgeblendet wird. Unterschiedliche Länge oder sprachliche Intensität einzelner Abschnitte ist nur ein Prüfhinweis und kein selbständiger Mangel.
+
+Eine anspruchsvolle oder umfangreiche Tätigkeit begründet für sich keinen Anspruch auf eine überdurchschnittliche Leistungsnote. Ebenso lässt eine knappe Beurteilung nicht ohne weitere Umstände auf eine versteckte Abwertung schließen. Maßgeblich sind konkrete Textaussagen, belegte Leistungstatsachen und die objektive Gesamtwirkung. Bezeichne das Ergebnis in anwaltlicher Sprache als inneren Widerspruch, unklare Gewichtung oder nicht erheblichen Stilunterschied.
+
+## 2. Ergebnis
+
+Stelle die einander gegenüberstehenden Originalstellen, den sachlichen Bezug, die objektive Wirkung und die vorhandenen Belege dar. Formuliere nur dann eine Korrektur, wenn sie durch Tatsachen oder die bereits erteilte Bewertung getragen wird. Gleiche dabei Einzel- und Gesamtbeurteilung ab, ohne die Arbeitgeberbewertung allein aus dem Aufgabenprofil hochzustufen.
+
+## 3. Fortführung des Auftrags
+
+Führe erhebliche Widersprüche mit Ersatztext in den laufenden Prüfbericht und das bestellte Dokument zurück. Frage nur nach einer Tatsache, die den Widerspruch auflöst oder die Formulierung ändert; unabhängige Abschnitte werden abgeschlossen. Nach der Antwort setzt du am offenen Vergleich fort, ohne von vorn zu beginnen. Die Prüfung endet nicht als bloße Gegenüberstellung, wenn eine Neufassung oder ein Schreiben aussteht.

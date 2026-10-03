@@ -1,0 +1,49 @@
+---
+name: strategien-internationaler-bezug
+title: 'Strategien: Internationaler Bezug und Schnittstellen'
+description: 'Für Strategien: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie. Fachgebiet: DFG-Förderantrag. Route: strategien-internationaler-bezug.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/dfg-foerderantrag/skills/strategien-internationaler-bezug
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: administrative
+language: de
+---
+
+# Strategien: Internationaler Bezug und Schnittstellen
+
+## Regelungs- und Quellenanker
+
+Arbeitsfokus: **Strategien: Internationaler Bezug und Schnittstellen**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `Art. 5 Abs. 3 Satz 1 GG` — Kooperationsfreiheit der Wissenschaft.
+- `Art. 91b Abs. 1 GG` — strukturelle Forschungskooperation.
+- `Art. 44 DSGVO` — Drittlandtransfer personenbezogener Forschungsdaten.
+- `Art. 46 DSGVO` — geeignete Garantien bei Drittlandtransfer.
+- `§ 4 Abs. 1 AWG` — Beschränkungen im Außenwirtschaftsverkehr.
+- `§ 5 AWG` — Embargo- und Sanktionsbezug.
+- `§ 18 AWG` — Strafvorschriften bei Außenwirtschaftsverstößen.
+- `DFG-Kodex Leitlinie 10` — rechtliche und ethische Rahmenbedingungen internationaler Forschung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Spezialwissen: Strategien: Internationaler Bezug und Schnittstellen
+- **Normen-/Quellenanker:** DFG, KI.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Strategien** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.

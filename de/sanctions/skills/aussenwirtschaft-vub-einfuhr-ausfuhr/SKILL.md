@@ -1,11 +1,11 @@
 ---
 name: aussenwirtschaft-vub-einfuhr-ausfuhr
 title: Verbote und Beschränkungen bei Ein- und Ausfuhr
-description: Verbote und Beschraenkungen VuB für besondere Waren wie Dual-Use Kulturgut CITES F-Gase Lebensmittel und Russland-Iranembargos. Anwendungsfall Import oder Export einer Ware koennte VuB-Beschraenkungen unterliegen. Normen CITES-Verordnung EU 338/97 F-Gas-Verordnung 517/2014 Iran-VO 267/2012 Russland-VO 833/2014 Kulturgutschutzgesetz. Prüfraster Dual-Use Kulturgut CITES F-Gase Veterinaeranforderungen Lebensmittelsicherheit Luxuswaren Iran-Nordkorea-Russland-Bezuege Dokumentencodes. Output VuB-Prüfbericht mit Warenklassifizierung Beschraenkungsnachweis und Genehmigungsplan. Abgrenzung zu aussenwirtschaft-exportkontrolle-dual-use und aussenwirtschaft-zolltarif-vzta.
+description: 'Für Verbote und Beschränkungen bei Ein- und Ausfuhr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-vub-einfuhr-ausfuhr
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sanctions
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill verbindet TARIC, Fachrecht und Zollanmeldung.
+Prüfe TARIC-Code, fachrechtliche VuB-Anforderung und Zollanmeldung gemeinsam, damit Einfuhr-/Ausfuhrverbote, Genehmigungspflichten und Dokumentenfelder nicht auseinanderlaufen.
 
 ## Wann verwenden
 
@@ -69,10 +69,6 @@ Kläre vor der Pruefung:
 4. Welche Waren-/Ursprungspruefung soll abgesichert werden — Praeferenz, Antidumping, Einfuhrpolitik?
 5. Gibt es zeitliche Dringlichkeit durch anstehende Lieferungen oder laufende Zollanmeldungen?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette VUB/Einfuhr-Ausfuhr
 
 - Art. 33-34 UZK — Verbindliche Zolltarifauskunft (vZTA), Gueltigkeit 3 Jahre
@@ -121,3 +117,5 @@ Art des Antrags: [ ] vZTA / [ ] vUA
    Einspruch bei ausstellender Behoerde: Frist [DATUM]
    Klage: FG [STANDORT], Frist nach Einspruchsentscheidung
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

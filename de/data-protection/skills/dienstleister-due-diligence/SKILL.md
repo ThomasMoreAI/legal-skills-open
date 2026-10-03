@@ -1,11 +1,11 @@
 ---
 name: dienstleister-due-diligence
 title: Dienstleister Due Diligence
-description: 'KI-Dienstleister Due Diligence für Kanzleien durchführen: Anwendungsfall Kanzlei moechte neuen KI-Dienst beauftragen und muss eigenverantwortlich Datenschutz Berufsrecht und Sicherheit prüfen. § 43e BRAO Dienstleisterprüfung, Art. 28 Abs. 1 DSGVO Garantiepflichten, ISO 27001 SOC 2. Prüfraster EU-Sitz vs. US-Sitz, Enterprise-Tier mit Training-Opt-out, Verschluesselung, Zertifizierungen, Subprozessoren, Standardvertragsklauseln. Output Dienstleister-Bewertungsmatrix mit Ampelstatus und AVV-Empfehlung. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Musterklauseln-IT.'
+description: 'Für Dienstleister Due Diligence: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/dienstleister-due-diligence
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,21 +14,25 @@ language: de
 
 # Dienstleister Due Diligence
 
+## Arbeitsbereich
+
+KI-Dienstleister Due Diligence für Kanzleien durchführen: Anwendungsfall Kanzlei moechte neuen KI-Dienst beauftragen und muss eigenverantwortlich Datenschutz Berufsrecht und Sicherheit prüfen. § 43e BRAO Dienstleisterprüfung, Art. 28 Abs. 1 DSGVO Garantiepflichten, ISO 27001 SOC 2. Prüfraster EU-Sitz vs. US-Sitz, Enterprise-Tier mit Training-Opt-out, Verschluesselung, Zertifizierungen, Subprozessoren, Standardvertragsklauseln. Output Dienstleister-Bewertungsmatrix mit Ampelstatus und AVV-Empfehlung. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Musterklauseln-IT. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
 Die sorgfältige Auswahl des KI-Dienstleisters ist eine zentrale berufsrechtliche und datenschutzrechtliche Pflicht. § 43e BRAO verpflichtet zur eigenverantwortlichen Prüfung des Dienstleisters; Art. 28 Abs. 1 DSGVO verlangt hinreichende Garantien für technisch-organisatorische Maßnahmen. Dieser Skill stellt strukturierte Auswahlkriterien bereit.
 
 ## Rechtlicher Hintergrund
 
 § 43e BRAO: Sorgfältige Auswahl und vertragliche Bindung des IT-Dienstleisters als Voraussetzung für die befugte Nutzung. § 43e Abs. 4 BRAO: Drittstaaten-Dienstleister zulässig bei vergleichbarem Schutzniveau. Art. 28 Abs. 1 DSGVO: Nur Auftragsverarbeiter mit hinreichenden Garantien beauftragen. Art. 44 ff. DSGVO: Drittlandtransfer nur mit geeigneten Schutzmaßnahmen (Angemessenheitsbeschluss, SCC, TIA). Art. 5 Abs. 1 lit. f DSGVO: Integrität und Vertraulichkeit durch geeignete technisch-organisatorische Maßnahmen. BRAK-Hinweise 12/2024: Sorgfältige Anbieterauswahl als berufsrechtliche Kernpflicht.
-
-## Vorgehen
-
-1. **Sitzland und Rechtsrahmen prüfen**: EU-Anbieter unterliegen direkt der DSGVO. Für US-amerikanische Anbieter: EU-US Data Privacy Framework-Zertifizierung prüfen; alternativ SCC + TIA.
-2. **Enterprise-Tier auf Training-Opt-out prüfen**: Standardmäßige Verbraucherversionen vieler Chatbot-Dienste erlauben dem Anbieter, Eingaben zum Training zu nutzen. Enterprise-Verträge schließen dies in der Regel aus. Opt-out schriftlich bestätigen lassen.
-3. **Verschlüsselung verifizieren**: Daten at rest (Speicherung) und in transit (Übertragung) müssen verschlüsselt sein. Mindeststandard: TLS 1.2 für Übertragung; AES-256 für Speicherung.
-4. **Zertifizierungen prüfen**: ISO 27001 (Informationssicherheit), SOC 2 Type II (Sicherheit, Verfügbarkeit, Vertraulichkeit), ggf. ISO 27701 (Datenschutz). Aktuelle Zertifikate anfordern.
-5. **Subprozessoren und Rechenzentrumsstandorte erfassen**: Wo werden die Daten tatsächlich verarbeitet und gespeichert?
-6. **Vertragswerk vervollständigen**: AVV nach Art. 28 DSGVO + § 43e-BRAO-Vereinbarung + ggf. SCC abschließen.
-7. **Dokumentierte Risikobeurteilung erstellen**: Eigene Prüfung und Abwägung der Risiken schriftlich festhalten.
 
 ## Vorlagentext / Bausteine
 
@@ -66,9 +70,6 @@ Die sorgfältige Auswahl des KI-Dienstleisters ist eine zentrale berufsrechtlich
 
 Die Zertifizierungen und die EU-US-Datenschutzrahmen sind regelmäßig auf Aktualität zu prüfen. Datenschutzbehörden-Entscheidungen zu einzelnen KI-Anbietern (z.B. Untersagungen durch DPAs) sind zu beobachten. Jährliche Neubeurteilung des eingesetzten Dienstleisters empfohlen.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 28 Abs. 1 DSGVO — hinreichende Garantien des Auftragsverarbeiters
 - Art. 46 DSGVO — Drittlandtransfer-Sicherheitsnetz (SCC, Angemessenheitsbeschluss)
@@ -90,7 +91,7 @@ DIENSTLEISTER-DUE-DILIGENCE
 
 SITZ: [LAND]
 EU-Datenzentrum: [JA / NEIN — Standort: BESCHREIBUNG]
-Training auf Eingaben: [NEIN (Enterprise-Tier) / JA — UNZULAESSIG fuer Mandatsdaten]
+Training auf Eingaben: [NEIN (Enterprise-Tier) / JA — UNZULAESSIG für Mandatsdaten]
 CLOUD Act-Risiko: [NIEDRIG / HOCH — Begruendung]
 
 Zertifizierungen:
@@ -108,6 +109,4 @@ Auflagen: [BESCHREIBUNG]
 Geprueft von: [NAME], [DATUM]
 ```
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 035:
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

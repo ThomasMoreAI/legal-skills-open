@@ -1,11 +1,11 @@
 ---
 name: gpai-modelle-art-51-bis-55
 title: GPAI-Modelle — Art. 51 bis 55 KI-VO
-description: 'Entwickler oder Anbieter eines Sprachmodells oder Basismodells fragt: Fallen wir unter die GPAI-Pflichten der KI-VO und was muessen wir konkret tun? Art. 51 bis 55 KI-VO GPAI-Modelle. Prüfraster: technische Dokumentation Anhang XI Urheberrechts-Compliance-Strategie Art. 53 Abs. 1 lit. c Zusammenfassung Trainingsdaten Art. 53 Abs. 1 lit. d. Output: GPAI-Pflichtencheckliste nach Risikostufe. Abgrenzung zu gpai-vorliegen-art-3-nr-63 (Vorliegen eines GPAI-Modells) und gpai-systemisches-risiko-schwelle-10e25-flop (erhoehte Pflichten bei systemischem Risiko).'
+description: 'Für GPAI-Modelle — Art. 51 bis 55 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/gpai-modelle-art-51-bis-55
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # GPAI-Modelle — Art. 51 bis 55 KI-VO
-
-## Zweck
-
-Art. 51 bis 55 KI-VO enthalten einen eigenen Pflichtenkatalog für Anbieter von GPAI-Modellen (General-Purpose-KI-Modelle). Diese Pflichten gelten unabhängig davon, ob das GPAI-Modell als Hochrisiko-KI eingesetzt wird. Sie sind seit dem 2. August 2025 anwendbar.
 
 ## Abgrenzung: GPAI-Modell versus GPAI-System
 
@@ -79,40 +75,34 @@ Anbieter von GPAI-Modellen müssen eine ausreichend detaillierte Zusammenfassung
 
 Für GPAI-Modelle mit offenen Gewichten (Open-Source-Modelle) gelten reduzierte Dokumentationspflichten — sofern das Modell kein systemisches Risiko darstellt (unter 10^25 FLOP) und unter freier und offener Lizenz veroeffentlicht wird (Parameter, Architektur, Nutzung).
 
-## Faktische Updates (Stand 05/2026)
+## Faktische Updates (Stand 07/2026)
 
-- **02.08.2025 — Anwendung Kapitel V KI-VO:** Die Pflichten fuer GPAI-Modellanbieter (Art. 51-55) sind seit dem 02.08.2025 verbindlich. Quelle: VO (EU) 2024/1689, Art. 113 lit. b — eur-lex.europa.eu/eli/reg/2024/1689/oj.
-- **Trainingsdaten-Zusammenfassung (Art. 53 Abs. 1 lit. d):** Die Veroeffentlichung erfolgt nach dem von der Kommission/EU-AI-Office bereitgestellten Template. Stand der Template-Bereitstellung und ggf. Updates live pruefen ueber digital-strategy.ec.europa.eu.
-- **GPAI Code of Practice (Art. 56 KI-VO):** Der General-Purpose-AI-Code-of-Practice strukturiert sich in den Saeulen Transparenz, Urheberrecht und Safety/Security. Anbieter, die den Code zeichnen, geniessen Vermutung der Pflichtenkonformitaet. Quelle: digital-strategy.ec.europa.eu (live pruefen).
-- **Systemisches Risiko Art. 51 KI-VO:** Bei Trainings-Compute >= 10^25 FLOPs gilt die Vermutung des systemischen Risikos; zusaetzliche Pflichten nach Art. 55 (Modellbewertungen, adversarial testing, Meldepflicht bei schweren Vorfaellen, Cybersicherheit).
-- **EU AI Office:** Zustaendig fuer GPAI-Durchsetzung, Modellbewertung und Code-of-Practice (Art. 64 KI-VO).
+- **02.08.2025 — Anwendung Kapitel V KI-VO:** Die Pflichten für GPAI-Modellanbieter (Art. 51-55) sind seit dem 02.08.2025 verbindlich. Quelle: VO (EU) 2024/1689, Art. 113 lit. b — eur-lex.europa.eu/eli/reg/2024/1689/oj.
+- **Trainingsdaten-Zusammenfassung (Art. 53 Abs. 1 lit. d):** Die Veroeffentlichung erfolgt nach dem von der Kommission/EU-AI-Office bereitgestellten Template. Stand der Template-Bereitstellung und ggf. Updates live prüfen über digital-strategy.ec.europa.eu.
+- **GPAI Code of Practice (Art. 56 KI-VO):** Der General-Purpose-AI-Code-of-Practice strukturiert sich in den Saeulen Transparenz, Urheberrecht und Safety/Security. Anbieter, die den Code zeichnen, geniessen Vermutung der Pflichtenkonformitaet. Quelle: digital-strategy.ec.europa.eu (live prüfen).
+- **Systemisches Risiko Art. 51 KI-VO:** Bei Trainings-Compute von mindestens 10^25 FLOPs gilt die Vermutung des systemischen Risikos; zusätzliche Pflichten nach Art. 55 (Modellbewertungen, adversarial testing, Meldepflicht bei schweren Vorfällen, Cybersicherheit).
+- **EU-KI-Büro:** Zuständig für GPAI-Durchsetzung, Modellbewertung und Code of Practice (Art. 64 KI-VO).
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
 - Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
 2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
 3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
 4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
+5. Ist die Maßnahme nach aktuellem Art. 113- und Digital-Omnibus-Zeitstrahl fristgerecht umgesetzt?
 
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
+## Output-Template — Prüfergebnis
+**Adressat:** Prüfer / Rechtsberater — Tonfall: strukturiert-rechtlich
 ```
 PRUEFERGEBNIS — GPAI MODELLE ART 51 BIS 55
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
@@ -123,10 +113,12 @@ Gepruefte Norm(en): [Art. 51 Rn. 4]
 Ergebnis:
 [ ] Anforderung erfuellt
 [ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
+ 1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
 [ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
 
 Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

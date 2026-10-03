@@ -5,7 +5,7 @@ description: Generate a formatted PDF compliance audit document with findings, r
 author: iterationlayer
 author_url: https://github.com/iterationlayer/skills/tree/main/skills/generate-compliance-audit-document
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -18,11 +18,11 @@ Compliance agencies and internal audit teams use this recipe to generate standar
 
 ## APIs Used
 
-Document Generation (2 credits/request)
+Document Generation (1 credits/request)
 
 ## Prerequisites
 
-You need an Iteration Layer API key. Get one at [platform.iterationlayer.com](https://platform.iterationlayer.com) — free trial credits included, no credit card required.
+You need an Iteration Layer API key. Get one at [platform.iterationlayer.com](https://platform.iterationlayer.com) during the 7-day trial.
 
 For full integration guidance (SDKs, auth, MCP, error handling), see the [Iteration Layer Integration Guide](https://iterationlayer.com/SKILL.md).
 

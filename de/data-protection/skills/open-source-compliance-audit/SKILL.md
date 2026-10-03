@@ -1,0 +1,220 @@
+---
+name: open-source-compliance-audit
+title: Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM
+description: 'Für Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/open-source-compliance-audit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Open-Source-Software Compliance Audit für GPL LGPL MIT BSD Apache Copyleft und SBOM. Anwendungsfall Software-Produkt enthaelt Open-Source-Komponenten und Lizenzpflichten müssen vor Auslieferung geprüft werden. Normen GPL v2/v3 AGPL LGPL MIT Apache-2.0 Copyleft-Wirkung EU-Cyber-Resilienz-Act SBOM-Pflicht. Prüfraster Inventarisierung Komponentenliste Lizenzkonflikte permissiv vs. Copyleft SBOM-Erstellung Werkzeuge FOSSology BlackDuck. Output Compliance-Audit-Bericht mit Lizenzkarte Konflikten Bereinigungsplan und SBOM-Dokumentation. Abgrenzung zu fachanwalt-it-recht-saas-vertrag-verhandlung und softwarefehler-mangelhaftung-prüfen.
+
+### Open-Source-Compliance-Audit
+
+## 1) Eingangs-Abfrage
+
+1. Eigenes Produkt mit OSS-Komponenten?
+2. Vertriebs-Modell (Software-Verkauf, SaaS, Embedded)?
+3. SBOM (Software-Bill-of-Materials) vorhanden?
+4. Bisherige Compliance-Prüfung gemacht?
+5. Konkreter Anlass (M&A, Vorwurf, Launch)?
+
+## 2) Lizenz-Klassifikation
+
+### Permissiv (geringe Pflichten)
+
+- **MIT**: Copyright-Hinweis, sonst frei
+- **BSD-2/3**: ähnlich
+- **Apache 2.0**: Copyright, Patent-Grant, Änderungs-Hinweis
+
+### Schwache Copyleft
+
+- **LGPL**: Quelltext-Pflicht bei Library-Modifikation, nicht beim verbundenen Werk
+- **MPL 2.0**: File-basiertes Copyleft
+
+### Starkes Copyleft
+
+- **GPL v2/v3**: Quelltext-Pflicht für **gesamtes** abgeleitetes Werk
+- **AGPL v3**: Auch für SaaS — extrem strikt
+- Bei Mischung mit kommerzieller Software: oft inkompatibel
+
+## 3) Pflicht-Inhalte
+
+| Pflicht | Permissiv | LGPL | GPL/AGPL |
+|---|---|---|---|
+| Copyright-Hinweis | + | + | + |
+| Lizenz-Text mitliefern | + | + | + |
+| Quelltext-Veröffentlichung | - | nur Library | gesamtes Werk |
+| Änderungs-Hinweis | + (Apache) | + | + |
+| Patent-Lizenz | + (Apache) | + | + |
+
+## 4) Klassische Risiken
+
+### Risiko 1: GPL-Verseuchung
+
+- GPL-Komponente in proprietaerem Code
+- Folge: gesamter Code wird GPL
+- Verteilungs-Pflicht Quelltext
+
+### Risiko 2: AGPL bei SaaS
+
+- AGPL verlangt Quelltext auch bei SaaS-Bereitstellung
+- Viele kommerzielle SaaS sind nicht AGPL-konform
+
+### Risiko 3: Patent-Konflikt
+
+- Apache + Inkompatibilitaet mit eigener Patent-Strategie
+
+### Risiko 4: Lizenz-Kompatibilitaet
+
+- BSD + GPL: kompatibel
+- Eigene Closed-Source + GPL: schwer kompatibel
+
+## 5) SBOM (Software-Bill-of-Materials)
+
+### Standards
+
+- SPDX (Software Package Data Exchange)
+- CycloneDX
+
+### Inhalt
+
+- Komponenten-Name + Version
+- Lizenz
+- Hash / Identifikation
+- Sub-Abhängigkeiten
+
+### Werkzeuge
+
+- FOSSology (Open-Source)
+- BlackDuck (kommerziell)
+- WhiteSource / Mend
+- Snyk
+
+## 6) Audit
+
+### Schritt 1 — Inventarisierung
+
+- SBOM erstellen
+- Direkte + transitive Abhängigkeiten
+- Build-Tools (Maven, npm, pip) inkl.
+
+### Schritt 2 — Lizenz-Mapping
+
+- Pro Komponente Lizenz identifizieren
+- Bei Multi-Lizenz: gewählte Variante dokumentieren
+
+### Schritt 3 — Kompatibilitaets-Prüfung
+
+- Lizenz-Matrix
+- Konflikte aufdecken (GPL im proprietaeren Code)
+
+### Schritt 4 — Pflicht-Erfüllung
+
+- Copyright-Hinweise konsolidieren
+- Lizenz-Texte beifügen
+- Quelltext bei GPL veröffentlichen
+
+### Schritt 5 — Dokumentation
+
+- Compliance-Report
+- Aufbewahrung 10 Jahre
+
+## 7) Bei Verletzungs-Vorwurf
+
+### Sofort-Maßnahmen
+
+- Quellcode-Sicherung
+- Kommunikation einstellen ohne Anwalt
+- SBOM erstellen / prüfen
+
+### Verteidigung
+
+- Lizenz-Erfüllung dokumentieren
+- Bei tatsächlichem Verstoß: Heilung durch Nachbesserung
+- Vergleich mit Kläger (typisch Software Freedom Conservancy, FSF)
+
+### Klage-Risiko
+
+- Streitwert nach Lizenz-Höhe + Schadensersatz
+
+## 8) M&A-Kontext
+
+### Disclosure-Pflicht
+
+- OSS-Risiken in DD aufdecken
+- Materialitaet bewerten
+
+### Reps & Warranties
+
+- OSS-Compliance-Garantie
+- Indemnity bei Vorwurf
+
+## 9) Typische Fehler
+
+1. **SBOM fehlt** — kein Compliance-Nachweis
+2. **AGPL in SaaS** übersehen
+3. **Sub-Abhängigkeiten ignoriert**
+4. **Lizenz-Texte nicht beigefügt**
+5. **Copyleft-Folge ignoriert** — Verkaufs-Stopp droht
+
+## 10) Strategische Empfehlungen
+
+- OSS-Policy im Unternehmen
+- Pre-Commit-Checks (License Compliance)
+- Schulung Entwickler
+- Whitelist permissiver Lizenzen
+
+## Anschluss
+
+- `fachanwalt-it-recht-saas-vertrag-verhandlung` — bei verbundener Vertrags-Frage
+- `fachanwalt-gewerblicher-rechtsschutz-orientierung` — bei IP-Streit
+- `corporate-kanzlei` — bei M&A
+
+## Triage zu Beginn
+
+1. Welche Lizenzen sind im Software-Stack vorhanden? (SBOM-Analyse erforderlich?)
+2. Liegt eine Copyleft-Mischung vor? (GPL/AGPL + MIT/Apache → Infektionsrisiko)
+3. Wie wird die Software distribuiert? (AGPL: auch SaaS-Betrieb = Distribution)
+4. Wurden Lizenzpflichten (Attribution, Quellcode-Offenlegung) erfüllt?
+
+## Output-Template — Open-Source-Audit-Ergebnis
+
+**Adressat:** Entwicklungsleitung / Rechtsabteilung — Tonfall: sachlich-strukturiert
+
+```
+Open-Source-Compliance-Audit [DATUM]
+Produkt/Projekt: [NAME, VERSION]
+Geprüft durch: [TOOL / PERSON]
+
+Lizenz-Inventar:
+| Komponente | Lizenz | Copyleft | Verwendung | Status |
+|-----------|------------|----------|------------|------------|
+| [NAME] | GPL-2.0 | stark | distributiert | Lücke |
+| [NAME] | MIT | nein | intern | OK |
+| [NAME] | AGPL-3.0 | netz | SaaS | Prüfen |
+
+Kritische Befunde: [LISTE]
+Handlungsempfehlungen:
+1. [Quellcode-Offenlegung für GPL-Komponenten bis DATUM]
+2. [Lizenzwechsel oder Isolierung der AGPL-Komponente]
+
+```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

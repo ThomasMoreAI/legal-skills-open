@@ -5,15 +5,15 @@ description: 'Appeal parking tickets, traffic fines and bus-lane (nat"z) tickets
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-fines-fighter
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: litigation
 language: en
 sources:
-- title: Appeal Grounds
+- title: Appeal grounds
   path: references/appeal-grounds.md
-- title: Fine Types
+- title: Fine types
   path: references/fine-types.md
 ---
 

@@ -8,7 +8,7 @@ Jurisdiction: `cn` · Practice: `administrative` · Skill language varies per sk
 
 | Skill | What it does |
 |---|---|
-| [`行政案件文书程序合规性审查`](skills/admin-review/) | Reviews administrative case documents for procedural compliance across 38 checkpoints, covering filing,… |
+| [`行政案件文书程序合规性审查`](skills/admin-review/) | Reviews administrative case documents for procedural compliance across 38 checkpoints, covering filing… |
 
 ## Cold-start context
 

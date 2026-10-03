@@ -11,7 +11,7 @@ Jurisdiction: `in` · Practice: `real-estate` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`Development Agreement Reviewer`](skills/development-agreement-reviewer-rohasnagpal/) | Reviews a development agreement or joint development agreement for land, from the landowner's or the… |
-| [`Sale Deed Drafter`](skills/sale-deed-drafter-rohasnagpal/) | Drafts a sale deed or conveyance — the instrument that actually transfers ownership of real property,… |
+| [`Sale Deed Drafter`](skills/sale-deed-drafter-rohasnagpal/) | Drafts a sale deed or conveyance — the instrument that actually transfers ownership of real property… |
 
 ## Cold-start context
 

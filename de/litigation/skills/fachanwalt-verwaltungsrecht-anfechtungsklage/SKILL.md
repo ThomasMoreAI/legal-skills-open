@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-verwaltungsrecht-anfechtungsklage
 title: Anfechtungsklage
-description: 'Anfechtungsklage nach § 42 Abs. 1 VwGO gegen Verwaltungsakt formulieren: Mandant hat Widerspruchsbescheid erhalten oder Vorverfahren entfaellt. Normen: § 42 Abs. 1 VwGO (Statthaftigkeit), § 42 Abs. 2 VwGO (Klagebefugnis mögliche Rechtsverletzung), § 74 VwGO (Klagefrist 1 Monat), § 45 VwGO (Zuständigkeit). Prüfraster: Statthaftigkeit, Klagebefugnis, Frist, Vorverfahren, Streitwert § 52 GKG. Output Klageschrift-Entwurf. Abgrenzung: Verpflichtungsklage (Ablehnung) siehe schriftsatzkern-substantiierung; Eilantrag siehe eilantrag-80-abs-5-vwgo.'
+description: 'Für Anfechtungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/fachanwalt-verwaltungsrecht-anfechtungsklage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation

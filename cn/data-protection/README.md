@@ -8,7 +8,7 @@ Jurisdiction: `cn` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`China PIPL Compliance`](skills/china-pipl/) | Guides compliance with China's Personal Information Protection Law (PIPL, effective 1 November 2021). Covers… |
+| [`China PIPL Compliance`](skills/china-pipl/) | Guides compliance with China's Personal Information Protection Law (PIPL, effective 1 November 2021).… |
 
 ## Cold-start context
 

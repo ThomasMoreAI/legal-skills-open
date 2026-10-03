@@ -1,11 +1,11 @@
 ---
 name: kooperativer-abschluss
 title: Kooperativer Abschluss
-description: 'E-Mail oder Schreiben mit kooperativem und prozessfoerderlichem Abschluss versehen. § 43a BRAO § 26 BORA. Prüfraster: offen für Gespraeich konstruktiver Ausblick ohne Überversprechung. Output: optimierter Abschlusssatz mit Erklärung. Abgrenzung: nicht für die Grussformel (anrede-und-grussformeln).'
+description: 'Für Kooperativer Abschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer. Route: kooperativer-abschluss.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/kooperativer-abschluss
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,8 +14,11 @@ language: de
 
 # Kooperativer Abschluss
 
-Dieser Skill stellt Formulierungsbausteine für positive, kooperative Schlusspassagen bereit. Selbst in einem sachlichen oder kritischen Schreiben signalisiert ein kooperativer Abschluss, dass die Kommunikation offen bleibt und eine einvernehmliche Lösung angestrebt wird.
+## Fachkern: Kooperativer Abschluss
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill stellt Formulierungsbausteine für positive, kooperative Schlusspassagen bereit. Selbst in einem sachlichen oder kritischen Schreiben signalisiert ein kooperativer Abschluss, dass die Kommunikation offen bleibt und eine einvernehmliche Lösung angestrebt wird.
 
 ## Triage zu Beginn
 1. Welchen Ton hat das Schreiben insgesamt: sachlich-neutral, kritisch oder freundlich?
@@ -23,26 +26,20 @@ Dieser Skill stellt Formulierungsbausteine für positive, kooperative Schlusspas
 3. Gibt es eine Frist, die im Abschluss wiederholt werden sollte?
 4. Ist der Kontext streitig (eher sachlicher Ausblick) oder kooperativ (eher herzlicher Abschluss)?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 - § 17 BORA — Aussergerichtliche Streitbeilegung: kooperativer Abschluss unterstuetzt diesen Grundsatz
 - § 242 BGB — Treu und Glauben: Kommunikation hat auch im Abschluss Kooperationscharakter
 - § 91a ZPO — Kostenentscheidung bei Erledigung: Kooperationsbereitschaft beeinflusst Abwaegung
 - § 278 ZPO — Gueteversuch: kooperativer Ton staerkt Aussichten auf guetige Einigung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Output-Template: Kooperativer Abschluss (gestuft)
 
 | Kontext | Abschlussformel |
 |---|---|
-| Streitig, sachlich | "Fuer Ruckfragen stehe ich zur Verfügung. Mit freundlichen Gruessen" |
+| Streitig, sachlich | "Für Ruckfragen stehe ich zur Verfügung. Mit freundlichen Gruessen" |
 | Laufendes Mandat | "Ich freue mich auf Ihre Rueckmeldung. Mit freundlichen Gruessen" |
 | Kooperativ, einigungsorientiert | "Im Sinne einer einvernehmlichen Loesung freue ich mich auf Ihre Nachricht. Mit kollegialen Gruessen" |
-| Foermlich, Behoerde | "Fuer Rueckfragen stehe ich jederzeit zur Verfuegung. Hochachtungsvoll" |
+| Foermlich, Behörde | "Für Rueckfragen stehe ich jederzeit zur Verfuegung. Hochachtungsvoll" |
 
 ## Funktion des Abschlusses
 
@@ -79,6 +76,4 @@ In streitigen Situationen mit hohem Konfliktpotenzial: sachlicher Ausblick ohne 
 **Vorher:** "Das ist mein letztes Wort in dieser Sache."
 **Nachher:** "Ich hoffe, dass die vorstehenden Ausführungen zur Klärung beitragen. Für eine Rückmeldung bin ich jederzeit offen."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Vorgeschlagene Schlusspassage passend zum Ton des Schreibens. (2) Alternative kooperative Formeln nach Intensitätsstufe. (3) Hinweis auf geeignete Schlussformel.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,110 @@
+---
+name: eu-ebene-eu-richtlinien
+title: NKR-EU-Ebene und Better Regulation
+description: 'Für NKR-EU-Ebene und Better Regulation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Normenkontrollrat (NKR) — Prüfung von Gesetzentwürfen. Route: eu-ebene-eu-richtlinien.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrollrat-nkr/skills/eu-ebene-eu-richtlinien
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: administrative
+language: de
+---
+
+# NKR-EU-Ebene und Better Regulation
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum geht es konkret
+
+EU-Rechtsakte sind ein hoher Anteil des deutschen Rechtssetzungsaufkommens. Der NKR prüft zwar nicht das EU-Recht selbst, aber dessen **Umsetzung in deutsches Recht** und insbesondere mit Blick auf **Goldplating**, also nationale Ergaenzungen über das EU-Minimum hinaus.
+
+## Wann dieses Modul hilft / Kaltstart-Fragen
+
+- Vorhaben setzt eine EU-Richtlinie um
+- Vorhaben flankiert eine EU-Verordnung
+- Vorhaben adressiert ein REFIT-Thema
+- Frage nach Vergleich mit europaeischen Better-Regulation-Standards
+
+Rueckfrage nur wenn unklar: *"Handelt es sich um Umsetzung einer Richtlinie, Durchfuehrung einer Verordnung oder rein nationale Regelung mit EU-Bezug?"*
+
+## Rechtlicher und methodischer Rahmen
+
+- **Art. 288 AEUV** — Rechtsakte der Union
+- **Art. 5 EUV** — Subsidiaritaet und Verhältnismäßigkeit
+- **Inter-Institutional Agreement on Better Law-Making 2016**
+- **Better Regulation Guidelines / Toolbox** der EU-Kommission
+- **Regulatory Scrutiny Board (RSB)** der EU-Kommission — funktionales Pendant zum NKR
+- **REFIT-Programm** der EU-Kommission
+- **NKRG** § 4 — Prüfungsgegenstand auch bei EU-Umsetzung
+- **HdR Teil B** — Umsetzung von EU-Recht
+
+## Prüfraster / Schritt für Schritt
+
+1. **Rechtsaktstyp identifizieren**:
+ - Richtlinie (Umsetzung) -> nationaler Gestaltungsspielraum, Goldplating-Gefahr
+ - Verordnung (Durchfuehrung) -> nur Begleitvorschriften
+ - Beschluss / Empfehlung -> wenig nationale Rechtssetzung
+2. **EU-Vorgaben kartieren**:
+ - Welche Pflichten sind zwingend?
+ - Welche Optionen / Mindestharmonisierung?
+ - Welche Aufnahme von "national gestaltbaren Spielraeumen"?
+3. **Umsetzungsspielraum nutzen**:
+ - 1:1-Umsetzung bevorzugt
+ - Goldplating nur mit Begruendung
+4. **Erfuellungsaufwand der Umsetzung**:
+ - Erfuellungsaufwand aus der EU-Vorgabe (Mindestaufwand)
+ - **Zusatzaufwand** aus deutscher Ueberregulierung (Delta-Berechnung)
+5. **EU-Folgenabschaetzung einbeziehen**:
+ - Impact Assessment der EU-Kommission lesen
+ - RSB-Opinion lesen
+ - Daten als Ausgangspunkt verwenden, dann auf deutsche Verhältnisse adaptieren
+6. **REFIT-Programme nutzen**:
+ - Wenn EU bereits Vereinfachung andenkt, nicht national verschaerfen
+
+## NKR-Sicht — was triggert eine kritische Stellungnahme
+
+- **Goldplating ohne sachlichen Grund** — automatische Mahnung
+- EU-Datenbasis nicht herangezogen
+- "Eine Eins-zu-eins-Umsetzung war nicht möglich" ohne Begruendung
+- Verschaerfung gegenueber EU-Niveau ohne Erfuellungsaufwand-Delta-Berechnung
+- Keine Prüfung der Optionen, die die Richtlinie lässt
+
+## Trade-off-Matrix
+
+| Umsetzungsart | NKR-Bewertung |
+|---|---|
+| 1:1-Umsetzung mit Verweisen auf RL-Text | regelmaessig unproblematisch |
+| 1:1-Umsetzung mit eigenstaendiger Rechtssprache | unproblematisch |
+| Goldplating mit nationalem Schutzinteresse | begruendet zulässig, Delta dokumentieren |
+| Goldplating ohne Begruendung | NKR-Mahnung |
+| Untererfuellung | Vertragsverletzungsverfahren-Risiko |
+
+## Mustertexte / Stellungnahme-Bausteine
+
+- "Das Vorhaben setzt die Richtlinie (EU) [Nummer] um. Die EU-Folgenabschaetzung weist Erfuellungsaufwand in Höhe von [X] Mio EUR aus."
+- "Das Vorhaben geht über die zwingenden Vorgaben der Richtlinie hinaus, indem es [konkret]. Der NKR weist darauf hin, dass dies einen zusaetzlichen Erfuellungsaufwand von [Delta] verursacht und bittet um Begruendung der nationalen Verschaerfung."
+- "Der NKR begruesst die ressortseitige Prüfung der Optionen nach Art. [X] der Richtlinie und die transparente Darstellung des Goldplating-Verzichts."
+
+## Typische Fehler in Ressort-Entwuerfen
+
+- Goldplating ohne Erwaehnung
+- "Die Richtlinie lässt keinen Spielraum" — pauschal, ohne Prüfung
+- EU-Folgenabschaetzung nicht in deutsche Begruendung uebernommen
+- Eigene Methodik abweichend von Better-Regulation-Toolbox ohne Begruendung
+
+## Quellen Stand 06/2026
+
+- Art. 288 AEUV, Art. 5 EUV
+- Inter-Institutional Agreement on Better Law-Making 2016 (ABl. EU L 123/1)
+- Better Regulation Guidelines der EU-Kommission (SWD-Reihe, jeweils aktuelle Ausgabe)
+- NKRG vom 14.08.2006 § 4
+- NKR-Jahresbericht (jeweils aktuelle Ausgabe)
+- Live verifizieren über [ec.europa.eu/info/better-regulation](https://ec.europa.eu/info/law/better-regulation_en) und [www.normenkontrollrat.bund.de](https://www.normenkontrollrat.bund.de)

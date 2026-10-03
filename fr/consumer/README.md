@@ -4,10 +4,11 @@ Consumer disputes in France — small claims, contested bills, and amicable sett
 
 Jurisdiction: `fr` · Practice: `consumer` · Skill language: fr
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`GDPR / RGPD — Checklist de conformité`](skills/gdpr-checklist/) | Aide à vérifier la conformité RGPD/GDPR d'un site, d'une app ou d'un traitement de données. Se déclenche… |
 | [`Small Claims Prep`](skills/small-claims-prep-khalilbenaz/) | Aide à préparer un petit litige (consommation, voisinage, facture contestée) avec dossier structuré. Se… |
 
 ## Cold-start context

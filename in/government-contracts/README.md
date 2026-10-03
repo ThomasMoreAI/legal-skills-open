@@ -10,8 +10,8 @@ Jurisdiction: `in` · Practice: `government-contracts` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Government Contract Reviewer`](skills/government-contract-reviewer-rohasnagpal/) | Review contracts with governments, public bodies, state-owned entities, and public funders for authority,… |
-| [`Tender Compliance Checker`](skills/tender-compliance-checker-rohasnagpal/) | Check a public or private tender, RFP, RFQ, auction, or bid for eligibility, responsiveness, technical and… |
+| [`Government Contract Reviewer`](skills/government-contract-reviewer-rohasnagpal/) | Review contracts with governments, public bodies, state-owned entities, and public funders for… |
+| [`Tender Compliance Checker`](skills/tender-compliance-checker-rohasnagpal/) | Check a public or private tender, RFP, RFQ, auction, or bid for eligibility, responsiveness, technical… |
 
 ## Cold-start context
 

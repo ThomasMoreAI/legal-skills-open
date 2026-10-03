@@ -1,11 +1,11 @@
 ---
 name: mehrere-wandeldarlehen-parallel
 title: Mehrere parallele Wandeldarlehen
-description: 'Mehrere parallele Wandeldarlehen von verschiedenen Investoren koordinieren und Konflikte erkennen. §§ 488 ff. BGB § 39 InsO Rangrücktritt. Prüfraster: Pari-passu-Stellung Rangregelungen Wandlungsrechte Verwasserungsschutz Vesting. Output: Übersichtsmatrix Konfliktliste Handlungsempfehlung. Abgrenzung: nicht für Einzeldarlehen-Erstellung.'
+description: 'Für Mehrere parallele Wandeldarlehen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/mehrere-wandeldarlehen-parallel
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Mehrere parallele Wandeldarlehen
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill behandelt die Besonderheiten, wenn gleichzeitig mehrere Wandeldarlehen von verschiedenen Lenders bestehen. Er klärt Stack-Order, MFN-Pflichten, gleichzeitige Wandlung und kombinierte Cap-Table-Auswirkungen. Phase C des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -33,9 +37,6 @@ Dieser Skill behandelt die Besonderheiten, wenn gleichzeitig mehrere Wandeldarle
 - § 39 Abs. 2 InsO (Gleichrang der Nachrangforderungen untereinander)
 - § 55 GmbHG (Kapitalerhöhung – mehrere Übernahmen gleichzeitig möglich)
 - § 328 BGB (Drittschutz der Rangrücktrittsvereinbarung)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -82,24 +83,14 @@ Post-Money-Cap-Table mit allen Lenders und neuen Investoren. Gesamtverwässerung
 | Zu viele Lenders auf einmal | Cap-Table komplex, HR-Eintragung aufwändig | Drei bis vier Lenders | Maximal zwei |
 | Kapitalerhöhungsbeschluss nur für einen Lender | Zweite Kapitalerhöhung nötig | Beschluss erweiterbar | Umfassender Beschluss |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/wandlungspreis-berechnung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/cap-table-update-pre-post/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG §§ 55 ff. oder InsO § 39 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 39 InsO (Nachrang Gesellschafterdarlehen) → § 135 InsO (Anfechtung) → §§ 55, 56 GmbHG (Kapitalerhöhung bei Wandlung) → § 5 Abs. 1 GmbHG (Mindest-Nennbetrag Anteile 1 EUR) → § 40 GmbHG (Gesellschafterliste parallele Updates)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

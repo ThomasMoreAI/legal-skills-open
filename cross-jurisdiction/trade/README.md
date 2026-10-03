@@ -8,7 +8,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `trade` · Skill language varies
 
 | Skill | What it does |
 |---|---|
-| [`Customs & Trade Compliance`](skills/customs-trade-compliance/) | Customs & Trade Compliance workflow skill. Use this skill when the user needs Codified expertise for customs… |
+| [`Customs & Trade Compliance`](skills/customs-trade-compliance/) | Customs & Trade Compliance workflow skill. Use this skill when the user needs Codified expertise for… |
 
 ## Cold-start context
 

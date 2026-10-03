@@ -1,11 +1,11 @@
 ---
 name: musterklauseln-it-vertrag
 title: Musterklauseln IT-Vertrag
-description: 'Musterklauseln für IT-Vertraege mit KI-Dienstleistern in Kanzleien: Anwendungsfall Kanzlei verhandelt Vertrag mit KI-Anbieter und braucht Klauseln zu Verschwiegenheit Training-Opt-out Löschpflichten und Haftung. § 43e BRAO Verschwiegenheits-Erklärung, Art. 28 DSGVO AVV, § 203 StGB Berufsgeheimnis. Prüfraster Verschwiegenheits- und § 43e-Erklärung, Training-Opt-out, Löschpflichten, Auditrrechte, Haftungsregelung, Subprozessoren-Genehmigung. Output Musterklausel-Sammlung für IT-Vertrag mit KI-Dienstleister. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Dienstleister-Due-Diligence.'
+description: 'Für Musterklauseln IT-Vertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/musterklauseln-it-vertrag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -13,6 +13,20 @@ language: de
 ---
 
 # Musterklauseln IT-Vertrag
+
+## Arbeitsbereich
+
+Musterklauseln für IT-Verträge mit KI-Dienstleistern in Kanzleien: Anwendungsfall Kanzlei verhandelt Vertrag mit KI-Anbieter und braucht Klauseln zu Verschwiegenheit Training-Opt-out Löschpflichten und Haftung. § 43e BRAO Verschwiegenheits-Erklärung, Art. 28 DSGVO AVV, § 203 StGB Berufsgeheimnis. Prüfraster Verschwiegenheits- und § 43e-Erklärung, Training-Opt-out, Löschpflichten, Auditrrechte, Haftungsregelung, Subprozessoren-Genehmigung. Output Musterklausel-Sammlung für IT-Vertrag mit KI-Dienstleister. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Dienstleister-Due-Diligence. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Jeder Vertrag mit einem KI-Dienstleister, der Mandatsdaten verarbeiten soll, muss zwei Säulen aufweisen: einen datenschutzrechtlichen Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO und eine berufsrechtliche Vereinbarung nach § 43e BRAO. Dieser Skill stellt die wichtigsten Musterklauseln bereit.
 
@@ -58,9 +72,6 @@ Der Auftraggeber oder ein von ihm beauftragter Dritter ist berechtigt, die Einha
 
 Musterklauseln sind bei jeder wesentlichen Änderung der berufsrechtlichen oder datenschutzrechtlichen Anforderungen zu aktualisieren. Neue BRAK-Veröffentlichungen zu § 43e BRAO-Vereinbarungen sind besonders zu beachten. Ebenso sind neue Entscheidungen zu § 203 StGB oder zu den Anforderungen an AVV in die Klauseln einzuarbeiten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 305 BGB — Einbeziehung von AGB
 - § 307 BGB — Inhaltskontrolle (unangemessene Benachteiligung)
@@ -71,7 +82,7 @@ Musterklauseln sind bei jeder wesentlichen Änderung der berufsrechtlichen oder 
 ## Triage zu Beginn
 1. Handelt es sich um AGB oder Individualvereinbarung (§ 305 Abs. 1 BGB)?
 2. Welche Risikoklasse hat das KI-System — bestimmt Art. 25 KI-VO Verantwortlichkeit?
-3. Sind Haftungsbeschraenkungen im Vertrag wirksam — § 307 BGB-Pruefung?
+3. Sind Haftungsbeschraenkungen im Vertrag wirksam — § 307 BGB-Prüfung?
 4. Enthalten die Klauseln Regelungen zu Training auf Eingabedaten?
 5. Sind AVV-Pflichten nach Art. 28 DSGVO in den IT-Vertrag integriert?
 
@@ -95,10 +106,20 @@ nehmer als Anbieter traegt die Pflichten nach Art. 9-15 KI-VO.
 (3) Auftragsverarbeitung: Soweit der Auftragnehmer personenbezogene Daten
 verarbeitet, gilt Anlage [X] (AVV nach Art. 28 DSGVO).
 
-(4) Haftungsgrenze: Die Haftung des Auftragnehmers fuer Schaden durch
+(4) Haftungsgrenze: Die Haftung des Auftragnehmers für Schaden durch
 fehlerhafte KI-Ausgaben ist auf [EURO-BETRAG] pro Schadensfall begrenzt,
 hoechstens [EURO-BETRAG] pro Jahr. Vorbehaltlich § 307 BGB.
 
 (5) Vertraulichkeit (GeschGehG): Der Auftragnehmer verpflichtet sich, alle
-Eingabedaten als Geschaeftsgeheimnisse i.S.d. § 2 GeschGehG zu behandeln.
+Eingabedaten als Geschäftsgeheimnisse i.S.d. § 2 GeschGehG zu behandeln.
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

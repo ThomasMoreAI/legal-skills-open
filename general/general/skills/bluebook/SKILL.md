@@ -1,22 +1,44 @@
 ---
 name: bluebook
-title: Bluebook 21st Edition Citation
-description: This skill should be used when the user asks to “cite a case”, “format a citation”, “check Bluebook format”, “cite a statute”, “use id. or supra”, “format footnotes”, “cite a law review article”, or needs Bluebook 21st Edition citation guidance.
+title: Bluebook Citation (22nd edition; 21st still reachable)
+description: ALWAYS use for ANY legal citation question, even if the user never says 'Bluebook' - 'cite this case', 'how do I cite a statute', 'is this footnote formatted right', 'id. or supra here', 'cite a law review article', 'what signal goes here', 'format these footnotes', 'short form for this cite', 'block quote this', 'where does the ellipsis go', 'is this quote altered right', or writing or checking any citation or quotation in a legal manuscript. NOT for auditing a whole manuscript's footnotes (use bluebook-audit) and NOT for rendering these rules in Typst (use docx-typst).
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/bluebook
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Abbreviations
+  path: references/abbreviations.md
+- title: Audit patterns
+  path: references/audit-patterns.md
+- title: Cases
+  path: references/cases.md
+- title: Editions 21 to 22
+  path: references/editions-21-to-22.md
+- title: Quotations
+  path: references/quotations.md
+- title: Secondary sources
+  path: references/secondary-sources.md
+- title: Short forms
+  path: references/short-forms.md
+- title: Signals parentheticals
+  path: references/signals-parentheticals.md
+- title: Statutes
+  path: references/statutes.md
 ---
 
-# Bluebook 21st Edition Citation
+# Bluebook Citation (22nd edition; 21st still reachable)
+
+**What this skill carries** — grep `references/` for any subject the names below miss:
+!`d=${CLAUDE_SKILL_DIR}; command -v skill-toc >/dev/null 2>&1 && exec skill-toc "$d"; s=$HOME/.claude/skills/plugin-utils/bin/skill-toc; [ -x "$s" ] && exec "$s" "$d"; echo "(skill-toc unavailable: references and scripts are NOT listed here — install the plugin-utils plugin, or start a new session so its bin/ reaches PATH)"`
 
 Citation formatting for law reviews and legal scholarship per *The Bluebook: A Uniform System of Citation* (21st ed. 2020).
 
-**Announce:** “I’m using the bluebook skill for citation formatting.”
+**Announce:** "I’m using the bluebook skill for citation formatting."
 
 ## When to Use
 
@@ -30,6 +52,14 @@ Invoke this skill for:
 
 **For legal writing style**: Use `/writing-legal` skill (Volokh)
 **For general writing**: Use `/writing` skill (Strunk & White)
+
+**To RENDER these rules in a Typst manuscript**: this skill states the rules; it does
+not implement them. `docx-typst` carries the implementation — `assets/bluebook.typ` is a
+`#show cite:` rule supplying the three things typst's built-in bibliography cannot
+(`supra note N`, small-caps reporters, `shortjournal` → `container-title-short`), because
+hayagriva is statically linked into the typst binary and renders none of them. Reach for
+it whenever a Typst document needs the short forms in `references/short-forms.md` to
+renumber themselves rather than be typed by hand.
 
 <EXTREMELY-IMPORTANT>
 ## IRON LAW #1: NO CITATION WITHOUT VERIFICATION
@@ -89,25 +119,13 @@ Before writing ANY citation:
 
 **Skipping any step produces unreliable citations.**
 
-## Rationalization Table - STOP If You Think:
+## Citation Facts
 
-| Excuse | Reality | Do Instead |
-|--------|---------|------------|
-| “I’m pretty sure that’s the volume” | Pretty sure = wrong | VERIFY with actual source |
-| “Id. is close enough” | Intervening cite breaks id. | Use full short form |
-| “This signal seems right” | Wrong signals mislead readers | CHECK rule 1.2 examples |
-| “The parenthetical isn’t needed” | Parentheticals explain relevance | ADD what the source says |
-| “I’ll fix the pinpoint later” | Pinpoints prove claims | ADD pinpoint NOW |
-| “Small caps isn’t that important” | Typeface is mandatory | APPLY correct typeface |
-| “This abbreviation is obvious” | Wrong abbreviations fail | CHECK tables T6, T10, T12 |
-
-## Red Flags - STOP Immediately If:
-
-- “Let me guess the reporter volume” → NO. Verify the actual cite.
-- “Id. probably works here” → NO. Check for intervening citations.
-- “Supra will point them back” → NO. Verify the full citation exists.
-- “I’ll use the common abbreviation” → NO. Use Bluebook tables.
-- “Close enough on the page number” → NO. Exact pinpoints required.
+- An intervening citation breaks *id.* — *id.* after an intervening cite is ambiguous and must become a full short form. *Supra* only works when the full citation it points to actually exists earlier in the document.
+- Signals are checked against Rule 1.2 examples, not intuition — a wrong signal misleads the reader about how the source supports the proposition.
+- Parentheticals explain the source's relevance; pinpoints prove the specific claim. A cite deferred ("I'll add the pinpoint later") ships without one.
+- Typeface (Rule 2) is mandatory, not stylistic. Abbreviations come from tables T6, T10, T12 — "common" or "obvious" abbreviations that don't match the tables fail cite-check.
+- "Pretty sure" about a reporter volume or page number means unverified — a guessed element presented as a citation is an unverified claim, and exact pinpoints are required.
 
 ## Quick Reference: Common Citation Forms
 
@@ -203,8 +221,8 @@ Within a single citation sentence, signals appear in this order:
 
 ### Case Citations
 
-- [ ] Party names shortened properly (omit “Inc.”, “Ltd.” unless only identifier)
-- [ ] “United States” abbreviated to “U.S.” (as party, not “United States of America”)
+- [ ] Party names shortened properly (omit "Inc.", "Ltd." unless only identifier)
+- [ ] "United States" abbreviated to "U.S." (as party, not "United States of America")
 - [ ] Reporter abbreviation matches T1
 - [ ] Court identifier included unless obvious from reporter
 - [ ] Year is decision year, not argument year
@@ -213,7 +231,7 @@ Within a single citation sentence, signals appear in this order:
 ### Statutory Citations
 
 - [ ] Current official code used (not session laws for current statutes)
-- [ ] Section symbol (§) used, not “Section”
+- [ ] Section symbol (§) used, not "Section"
 - [ ] Space between § and number
 - [ ] Year is code edition year, not enactment year
 - [ ] Supplements cited when applicable
@@ -235,26 +253,128 @@ For detailed rules, consult:
 - **`references/statutes.md`** - Statutory and regulatory citations (R. 12-14)
 - **`references/secondary-sources.md`** - Books, articles, treatises (R. 15-17)
 - **`references/short-forms.md`** - Id., supra, hereinafter rules (R. 4)
+- **`references/quotations.md`** - Block quotes, alterations, ellipses (R. 5)
 - **`references/signals-parentheticals.md`** - Signals, parentheticals, order (R. 1)
 - **`references/audit-patterns.md`** - Citation audit patterns and validation
 - **`references/abbreviations.md`** - Bluebook abbreviation tables
+- **`references/editions-21-to-22.md`** - What changed in the 22nd edition, from the publisher's preface plus rule-by-rule checks
 
-### NotebookLM Integration
+**Every reference file below is checked against the rule text.** `editions-21-to-22.md` is
+not in the table because it is the SOURCE that verification was done against, not a subject
+of it.
 
-For edge cases, ambiguous rules, or additional context beyond the reference files, query the Bluebook 21e (2020) notebook:
+| file | rules | status |
+|---|---|---|
+| `quotations.md` | 5 | verified vs 21e scan AND 22e; 6 errors corrected |
+| `signals-parentheticals.md` | 1 | rebuilt from 22e; carries the new `contrast` signal |
+| `short-forms.md` | 4 | rebuilt from 22e |
+| `cases.md` | 10 | rebuilt from 22e |
+| `statutes.md` | 12 (13-14 NOT in corpus) | rebuilt from 22e; 13-14 flagged in place |
+| `secondary-sources.md` | 15, 16, 17 | rebuilt from 22e |
+| `abbreviations.md` | 10.2.2, 15.1(e), 16.1, T6 | rebuilt from 22e; T6 reproduced from the capture, table gaps flagged in place |
+| `audit-patterns.md` | cross-cutting (1, 4, 10, 12, 15-18, T6) | rebuilt from 22e; every check names its rule, untraceable checks marked in place |
+
+Five were then **adversarially re-verified** by separate agents against the same corpus, with
+instructions to find errors rather than agree: `signals-parentheticals.md` and `short-forms.md`
+came back with **zero contradictions** (every imperative traced to a governing sentence);
+`cases.md`, `statutes.md` and `secondary-sources.md` each had defects, all now corrected.
+`quotations.md`, `abbreviations.md` and `audit-patterns.md` had no second pass. Reports:
+`scratch/bb22/verify/`.
+
+All eight were checked against subsection pages extracted verbatim from the official Bluebook
+Online 22nd edition; page cites in them are **22e** pages. Claims the corpus did not cover are
+marked UNVERIFIED in place rather than left looking checked. Per-file reports:
+`scratch/bb22/reports/`. Rule 5 verdicts: `scratch/bluebook-verify/REPORT.md`.
+
+**What is still unchecked, and why.** "Rebuilt from 22e" means every claim traces to the extracted
+corpus or is marked in place — it does not mean the whole rule surface was available. These gaps
+are real and are flagged inside the files rather than papered over:
+
+| gap | state of the capture | consequence |
+|---|---|---|
+| **Table T10** (geographical terms) | **captured in full** — T10.1 (22e pp. 340-42), T10.2 and T10.3 as separate subtable pages | its values may be stated |
+| **Table T13** (institutional names in periodical titles, 22e pp. 346-48) | **captured in full** — the earlier empty capture used a wrong slug (`t13-institutional-names-...` rather than `t13-periodicals`) | its values may be stated |
+| Tables T1, T7, T11, T12 and the rest | never fetched | cross-references to them are reported; their contents are not |
+| Rules 6, 7, 8, 9, 11, 19 | never fetched | checks resting on them are marked, not asserted. Rules 3, 5, 20, 21 and 23 have since been extracted |
+
+Nothing from these gaps has been filled from training knowledge. A claim depending on one is
+either absent or carries a marker within a line of itself.
+
+### Looking a rule up in the actual book
+
+**Best source: the official Bluebook Online, 22nd edition.** UVA Law provides institutional
+access and the browser on CDP 9222 is already signed in. This is live publisher text — no OCR, no
+auth expiry, no retrieval tricks — and it is the source of record.
+
+```
+https://www.legalbluebook.com/bluebook/v22/rules/<n>-<slug>
+https://www.legalbluebook.com/bluebook/v22/rules/<n>-<slug>/<n>-<m>-<slug>
+
+e.g. /bluebook/v22/rules/5-quotations/5-2-alterations-and-quotations-within-quotations
+```
+
+Swap `v22` for `v21` to read the 21st edition; the site's own dropdown does the same. Drive it
+with the `browser-automation` skill (Linux → `mcp__chrome-devtools__*` on 9222). If that MCP
+server is not connected this session, raw CDP over `http://127.0.0.1:9222/json/list` works — and
+**open a new tab rather than navigating the user's**.
+
+**EDITION MATTERS, IN TWO WAYS.** The 22nd is now live and is the default.
+
+**`references/editions-21-to-22.md` is the guide** — the publisher's preface (which names changes
+in rules 1.2, 10.8.3, 12.4(f), 14.4, 15.1(d), 15.8, 18, 20.2.4, new 22 and 23, and tables T1.3,
+T1.5, T2, T6, T10) plus the rule-by-rule differences verified here. Read it before trusting
+anything in this skill against a 22e manuscript. Three things that bite immediately:
+
+- **Rules 22 and 23 are NEW**; the 21st stops at 21. Rules 1-21 keep their numbers.
+- **Pagination moved** — Rule 5 is 22e pp. 87-91 against 21e-scan pp. 103-108. A bare page cite is
+  ambiguous; name the edition.
+- **The preface's list is partial.** Rule 5.1(a)(i) gained "single spaced" in the 22nd and the
+  preface never mentions it. Absence from the preface is not evidence a rule is unchanged.
+
+### Pinpoint — the 21st edition, full scan
+
+
+
+**Pinpoint holds the full 21st edition — use it.** A complete 394-page scan is in the `Bluebook`
+collection (`b7425c3f3368f9c9`), OCR'd by Google, searchable to the page. This is the authoritative
+lookup for any rule in this skill, and it is what `references/quotations.md` was finally verified
+against.
 
 ```bash
-# Notebook ID: f70a9976-b443-43d5-b5fd-43ff86b2b700
-
-# Query specific Bluebook rules
-/Users/vwh7mb/projects/nlm/nlm generate-chat f70a9976-b443-43d5-b5fd-43ff86b2b700 “How do I cite an unpublished opinion under Rule 10.8.1?”
-
-# Get rule clarification
-/Users/vwh7mb/projects/nlm/nlm generate-chat f70a9976-b443-43d5-b5fd-43ff86b2b700 “What are the typeface conventions for treaty citations?”
-
-# Verify abbreviation tables
-/Users/vwh7mb/projects/nlm/nlm generate-chat f70a9976-b443-43d5-b5fd-43ff86b2b700 “What is the correct abbreviation for ‘Environmental’ in journal names per Table T13?”
+pinpoint search Bluebook "<terms>" --pages --order density --limit 60
+pinpoint generate ask Bluebook "<question>"       # locates fast; do NOT quote its paraphrase
 ```
+
+Four things learned the hard way, all of which cost a pass:
+
+- **`--order density`, not the default.** Document order means a bounded run stops early — Rule 5
+  sits at scan pp. 103-108 and a default-ordered run never reached past p. 71.
+- **It OR-matches; a quoted phrase returns zero.** Cast wide and filter locally with `awk`.
+- **`--no-dedupe` when a page you know exists will not come back.** Rule 1.5(b) at p. 86 returned
+  nothing across four term sets at limits up to 120; `--no-dedupe --limit 200` returned it in full.
+- **Quote from `--pages`, never from `generate ask`.** It locates well and paraphrases
+  confidently — it produced a fluent synthesis of a capitalization test that no line in the book
+  supports.
+
+Auth expires within the hour (`API error 7 (PermissionDenied)`); `pinpoint auth` re-lifts the
+session from the CDP browser. Re-auth and retry — do not read an auth failure as "the rule is not
+in the book."
+
+### NotebookLM — narrow, and mostly superseded
+
+The notebook (`f70a9976-b443-43d5-b5fd-43ff86b2b700`) holds a **53-page excerpt**, not the book.
+Verified 2026-08-23: the only full rule text is **Rule 1 and 1.1-1.4** (pp. 51, 53) plus the Quick
+Reference tables. Everything else is cover scans and cropped strips of the printed book's **thumb
+tabs** — so "rule 10", "rule 12" appear as tab labels with nothing behind them, and a model asked
+what the PDF contains will read those tabs and name rules it cannot quote. It did exactly that
+before retracting under stricter questioning. It cannot answer on Rule 5 at all.
+
+**Refuse its web-research offer.** On a rule it does not hold it replies "Would you like me to
+perform some web research?" — observed three times. Accepting turns a web search into something
+formatted as a source-grounded answer, which is how an unverified reference file gets written by
+an author who believes they consulted the book.
+
+Prefer Pinpoint above. Reach for the notebook only for Rule 1 or the Quick Reference tables:
 
 **When to query the notebook:**
 - Rule wording is ambiguous in reference files
@@ -278,14 +398,6 @@ Use with `/writing-legal` for complete legal scholarship workflow:
 1. `/bluebook` formats citations correctly
 2. `/writing-legal` ensures argument structure and evidence handling
 3. `/ai-anti-patterns` catches AI writing indicators before submission
-
-## Why Skipping Hurts the Thing You Care About Most
-
-| Shortcut | Consequence |
-|---|---|
-| Guessing citation format to save time | You guessed the citation format to save time. The footnote is wrong — your guess undermines the paper's credibility. |
-| Skipping verification of reporter/volume | You cited without checking the reporter. The cite is to the wrong volume — your laziness is visible to every reader. |
-| Using short form without establishing full citation first | You used a short form before the full citation. The reader can't trace the source — your shortcut created confusion. |
 
 ## Delete & Restart Pattern
 

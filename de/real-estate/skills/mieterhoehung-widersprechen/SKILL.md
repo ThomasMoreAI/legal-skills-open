@@ -1,0 +1,104 @@
+---
+name: mieterhoehung-widersprechen
+title: Mieterhöhung prüfen und widersprechen
+description: 'Für Mieterhöhung prüfen und widersprechen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mieterhoehung-widersprechen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Mietspiegel quellen
+  path: references/mietspiegel-quellen.md
+---
+
+# Mieterhöhung prüfen und widersprechen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mieterhöhung prüfen und widersprechen` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Disclaimer (Schlüsselstelle)
+
+Diese Prüfung und der nachstehende Entwurf ersetzen **keine Rechtsberatung**. Vor Versand des Schreibens an den Vermieter ist eine anwaltliche oder mietervereinsseitige Kontrolle dringend zu empfehlen. Fristversäumnisse führen zu gesetzlicher Zustimmung nach § 558b Abs. 2 BGB.
+
+## Workflow
+
+### Schritt 1 — Daten beschaffen
+
+- Mieterhöhungsverlangen im Wortlaut.
+- Datum des Zugangs (Briefkasten-Eintrag, E-Mail-Empfang).
+- Lage- und Ausstattungsprotokoll aus dem Skill `lage-und-ausstattung-erheben`.
+- Auszug aus dem aktuellen amtlichen Mietspiegel der Stadt aus `references/mietspiegel-quellen.md`.
+
+### Schritt 2 — Formprüfung
+
+- **Textform** nach § 558a Abs. 1 BGB (Brief, Fax, E-Mail mit Unterschriftstext genügen).
+- **Empfängerangabe** alle Mieter namentlich.
+- **Begründung** auf Mietspiegel, Sachverständigengutachten oder drei Vergleichswohnungen gestützt (§ 558a Abs. 2 BGB).
+- **Beilage** falls Mietspiegelauszug, dann gut lesbar.
+
+### Schritt 3 — Wartefrist und Sperrjahr
+
+- Die neue Miete darf frühestens **fünfzehn Monate** nach Einzug oder nach der letzten Erhöhung verlangt werden (§ 558 Abs. 1 BGB).
+- Berechnung dokumentieren.
+
+### Schritt 4 — Kappungsgrenze (§ 558 Abs. 3 BGB)
+
+- Regelgrenze **zwanzig Prozent** in drei Jahren.
+- In Gebieten der Kappungsgrenzenverordnung **fünfzehn Prozent** in drei Jahren — Prüfung anhand der Landesverordnung (siehe `references/mietspiegel-quellen.md`).
+
+### Schritt 5 — Materielle Prüfung der ortsüblichen Vergleichsmiete
+
+- Wohnlage einordnen.
+- Spanne im qualifizierten Mietspiegel suchen.
+- Einordnung innerhalb der Spanne nach Orientierungshilfe (Auf- und Abschlaege für Ausstattungsmerkmale).
+- Vergleichsmiete je m² ermitteln, mit Wohnfläche multiplizieren.
+
+### Schritt 6 — Reaktionsfristen
+
+- **Zustimmungsfrist** § 558b Abs. 2 BGB. Ablauf des zweiten Kalendermonats nach Zugang.
+- Bei Schweigen: Vermieter kann auf Zustimmung klagen (§ 558b Abs. 2 Satz 2 BGB).
+
+### Schritt 7 — Entwurfsoptionen
+
+- **Volle Zustimmung** wenn Begehren formal und materiell richtig ist.
+- **Teilzustimmung** bis zur tatsächlich ortsüblichen Vergleichsmiete.
+- **Verweigerung** bei Formfehlern, Verstoß gegen Wartefrist oder Kappungsgrenze.
+
+## Schreiben-Entwurf
+
+Erzeuge ein höflich-bestimmtes Schreiben mit:
+
+1. Bezugnahme auf das Verlangen vom (Datum).
+2. Rechtliche Prüfung punktweise (Form, Frist, Kappungsgrenze, ortsübliche Vergleichsmiete).
+3. Eindeutige Erklärung (Zustimmung, Teilzustimmung, Verweigerung).
+4. Aufforderung zur schriftlichen Bestätigung.
+5. **Disclaimer am Ende** — Hinweis, dass dies kein anwaltliches Schreiben ist und der Mieter sich beraten lassen sollte.
+
+## Aktuelle Rechtsprechung — Leitsaetze (Stand 05/2026, verifiziert dejure.org)
+
+- **BGH 28.04.2021, VIII ZR 22/20**: Qualifizierter Mietspiegel (§ 558d BGB) — Anforderungen an wissenschaftliche Erstellung; Vermutungswirkung nur bei substantiierter Erschuetterung des Erstellungsverfahrens (z. B. methodische Maengel) entkraeftbar. Quelle: dejure.org/2021,15412.
+- **BGH 21.11.2012, VIII ZR 46/12**: Wirksamkeit des Mieterhoehungsverlangens; Mietspiegelauszug muss beigefuegt sein, wenn das Verlangen darauf gestuetzt wird; sonst formal unwirksam. Quelle: dejure.org/2012,38221.
+- **BGH 18.10.2017, VIII ZR 28/17**: Mieterhoehung auf Grundlage Sachverstaendigengutachten — Gutachten muss konkrete Vergleichswohnungen heranziehen, nicht nur Pauschalmietspiegel-Daten. Quelle: dejure.org/2017,40850.
+- **BVerfG 25.03.2021, 2 BvF 1/20** (Berliner Mietendeckel-Beschluss): Landesrechtlicher Mietendeckel verfassungswidrig (Bundesrecht abschliessend; §§ 556d ff. BGB Bundeskompetenz). Quelle: bundesverfassungsgericht.de / dejure.org/2021,7050.
+- **Gesetzeslage 2026:** Mietpreisbremse § 556d BGB durch Bundesgesetzgeber verlaengert; konkrete Geltungsdauer und Spannungs-Gebiets-Verordnungen der Länder vor Versand prüfen.
+
+Vor Zitieren weiterer Aktenzeichen Live-Verifikation per dejure.org / bundesgerichtshof.de.
+
+## Paragrafenkette
+
+§§ 558, 558a, 558b, 558c, 558d BGB

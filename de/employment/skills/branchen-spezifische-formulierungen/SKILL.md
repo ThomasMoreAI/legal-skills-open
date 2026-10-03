@@ -1,28 +1,29 @@
 ---
 name: branchen-spezifische-formulierungen
 title: Branchenspezifische Formulierungen
-description: Decodiert branchenspezifische Formulierungen im Arbeitszeugnis zur praezisen Noteneinordnung. Anwendungsfall Zeugnis enthaelt Formulierungen die nur im Kontext einer bestimmten Branche verstaendlich sind. Branchen Vertrieb (Umsatz Zielerreichung) Recht (Mandatsführung Kanzlei) IT (Projektverantwortung Technologie) Pflege (Patientenkontakt Empathie) und weitere. Normen § 109 GewO § 241 Abs. 2 BGB Wohlwollenspflicht. Output Ampelzuordnung branchenspezifischer Formulierungen mit Notentendenzen und Alternativformulierungen. Abgrenzung zu geheimcode-katalog (allgemeine Geheimcodes) und leistungsbeurteilung-analyse.
+description: 'Für Branchenspezifische Formulierungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/branchen-spezifische-formulierungen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Branchenspezifische Formulierungen
 
-Während die allgemeinen Formeln des Geheimcodes branchenübergreifend gelten, gibt es zusätzliche branchenspezifische Formulierungen, die nur in bestimmten Berufskontexten auftauchen — und deren Fehlen nur in diesen Kontexten als Signal zu werten ist. Ein Zeugnis eines Vertriebsmitarbeiters ohne Aussage zur Zielerreichung ist verdächtig; bei einem Buchhalter wäre die gleiche Auslassung neutral.
+## Fachlicher Anker
 
-Im Vertrieb sind Schlüsselaussagen: Zielerreichung ("hat seine Umsatzziele stets erreicht/übertroffen"), Neukundengewinnung, Kundenbindung und Verhandlungsstärke. Fehlen diese Angaben, deutet das auf unterdurchschnittliche Vertriebsleistung hin. "Konnte seine Ziele trotz schwieriger Marktlage erreichen" ist orange — es klingt nach Entschuldigung.
-
-Im Rechtsbereich (Kanzlei, Rechtsabteilung) sind typische Aussagen: Mandatsführung (Qualität, Eigenverantwortung), Schriftsatzqualität, Gerichtsvertretung, Mandantenbeziehung und Teamarbeit in der Kanzlei. Fehlt ein Verweis auf die Qualität der Mandatsführung in einem Anwalts-Zeugnis, ist das ein rotes Signal.
-
-Im IT-Bereich sind Schlüsselbegriffe: Projektverantwortung, technische Expertise (benannte Systeme und Technologien), Termintreue bei Softwareprojekten, Umgang mit Anforderungsänderungen und Teamarbeit in agilen Strukturen. "Hat Projekte termingerecht abgeschlossen" ist grün; "hat an Projekten mitgewirkt" ist orange.
-
-Im Pflegebereich (Krankenhaus, Pflegeeinrichtung) sind zentrale Aussagen: Patientenkontakt (Empathie, Zugewandtheit), Zuverlässigkeit bei Medikamentengabe, Teamarbeit mit Ärzten und Pflegekollegen, sowie Belastbarkeit in Schichten. Fehlt in einem Pflege-Zeugnis jede Aussage zu Patientenkontakt, ist das ein rotes Signal.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -47,23 +48,24 @@ Im Pflegebereich (Krankenhaus, Pflegeeinrichtung) sind zentrale Aussagen: Patien
 
 **Beispiel 5 – Finanzwesen (Rot durch Schweigen):** Buchhalter-Zeugnis ohne ein einziges Wort zu Sorgfalt, Genauigkeit oder Vertrauenswürdigkeit → klassisches Warnsignal bei finanzrelevanten Positionen.
 
-## Ausgabeformat
-
-Der Skill erkennt zunächst die Branche aus dem Kontext des Zeugnisses (oder aus einem expliziten Hinweis) und listet dann branchentypisch erwartete Aussagen mit dem Status vorhanden/fehlend/abgeschwächt und der Ampelzuordnung. Die branchenspezifischen Auslassungen werden zur allgemeinen Ampeltabelle hinzugefügt, aber nur als Hypothese, solange keine konkrete Tätigkeit oder Vergleichspraxis belegt ist.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Wohlwollend formuliertes qualifiziertes Zeugnis; tatsächliche Tätigkeit und Anforderungsprofil prägen den Maßstab
+- **Paragraf 109 GewO** — Wohlwollend formuliertes qualifiziertes Zeugnis; tatsächliche Tätigkeit und Anforderungsprofil prägen den Maßstab
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage — vor der Branchenanalyse
 
 1. Welcher Branche ist das Zeugnis zuzuordnen?
 2. Gibt es branchentypisch erwartete Aussagen (z.B. Kassenführung im Einzelhandel, Patientenumgang in der Pflege)?
 3. Erfordert die Funktion besondere Sicherheitshinweise oder Vertrauensstellungen?
+
+
+## Leitentscheidungs-Anker (Empfaengerhorizont, Grenzen der Decodierung)
+
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

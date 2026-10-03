@@ -1,27 +1,34 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-glaeubigerantrag
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu fachanwalt insolvenz sanierungsrecht glaeubigerantrag. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Gläubigerantrag auf Insolvenzeröffnung mit Glaubhaftmachungsbelegen vorbereiten
+description: 'Für Fachanwalt Insolvenz Sanierungsrecht Gläubigerantrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/fachanwalt-insolvenz-sanierungsrecht-glaeubigerantrag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
+# Gläubigerantrag auf Insolvenzeröffnung mit Glaubhaftmachungsbelegen vorbereiten
+
+Lies zuerst Forderungsunterlagen, Titel, Vollstreckungsprotokolle, Zahlungsnachweise und die Korrespondenz zur Schuldnerin. Ordne Forderung, Fälligkeit, Einwendungen und Hinweise auf einen Eröffnungsgrund mit Belegstellen zu. Liefere einen ausformulierten Gläubigerantragsentwurf mit fallbezogener Begründung und Anlagenzuordnung; reichen die Belege nicht, benenne die konkreten Glaubhaftmachungslücken und kennzeichne den Entwurf als noch nicht einreichungsreif.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
+
 ## Mandantenfragen beim Kaltstart
 
 1. Wie hoch ist die Forderung des Mandanten gegen die Schuldnerin – liegt Fälligkeit und Vollstreckbarkeit vor?
 2. Wurden alle außergerichtlichen Maßnahmen ausgeschöpft (Mahnung, Mahnbescheid, Vollstreckung)?
-3. Liegen Indizien für Zahlungsunfähigkeit i.S.d. § 17 InsO vor (Zahlungsstockungen, Rücklastschriften, offene Vollstreckungen, Brancheninsider-Informationen)?
+3. Liegen Indizien für Zahlungsunfähigkeit vor (Zahlungsstockungen, Rücklastschriften, offene Vollstreckungen, Brancheninformationen)?
 4. Handelt es sich um eine juristische Person – dann auch Überschuldung § 19 InsO möglich?
 5. Besteht ein Eigeninteresse über die Forderungsbeitreibung hinaus (z.B. Hauptgläubiger, Sicherungsinteressen)?
 6. Sollen sofortige Sicherungsmaßnahmen (§ 21 InsO: vorläufiger Insolvenzverwalter, Zustimmungsvorbehalt, ZV-Einstellung) beantragt werden?
 7. Ist das Rechtsschutzbedürfnis gegeben – liegt keine bloße Druckausübung vor?
 8. Sind Verfahrenskosten gedeckt: kann der Mandant ggf. gemäß § 26 Abs. 1 InsO Kostenvorschuss leisten?
+9. Ist die Forderung vorläufig vollstreckbar tituliert, wurde bereits vollstreckt oder ist die Vollstreckung vorläufig eingestellt?
 - **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
@@ -43,7 +50,10 @@ language: de
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
+| BGH | IX ZR 229/22 | 23.01.2025 | Zahlungsunfähigkeit objektiv; streitige nicht titulierte Forderung nach objektiver Rechtslage; vorläufig vollstreckbare fällige Forderung bei eingeleiteter Vollstreckung nominal in die Liquiditätsbilanz; keine Prozessrisikoquote |
+| BGH | IX ZR 129/22 | 18.04.2024 | Liquiditätsstatus muss gegenüber außenstehenden Dritten einzelpostenfähig belegt sein; pauschale Summen können einfach bestritten werden |
+| BGH | II ZR 139/23 | 11.03.2025 | Beschluss über eine Nichtzulassungsbeschwerde: materieller Bestand der Verbindlichkeit ist maßgeblich; kein eigenständiges Grundsatzurteil |
+| BGH | IX ZB 38/24 | 22.05.2025 | Vorläufige Einstellung der Vollstreckung kann die Belegwirkung eines Titels für den Insolvenzantrag entkräften |
 
 ## Prüfschema
 
@@ -54,13 +64,14 @@ language: de
 | 1 | Antragsberechtigung: jeder Insolvenzgläubiger; Forderung gegen Schuldner | § 14 Abs. 1 InsO | Fehlt Gläubigerstellung → Antrag unzulässig |
 | 2 | Glaubhaftmachung Forderung: Titel, Urkunden, eidesstattliche Versicherung | § 14 Abs. 1, § 294 ZPO | Ohne Glaubhaftmachung → Antrag unzulässig |
 | 3 | Glaubhaftmachung Eröffnungsgrund | §§ 17, 19 InsO | ZU oder Überschuldung (nur jur. Person); drohende ZU nicht ausreichend für Gläubigerantrag |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| 3b | Überschuldung § 19: nur jur. Person; neg. Reinvermögen + fehlende Fortführungsprognose | § 19 InsO | Beide Voraussetzungen kumulativ |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| 5 | Anhörung der Schuldnerin § 14 Abs. 2 | § 14 Abs. 2 InsO | Pflicht des Gerichts; keine Voraussetzung des Gläubigers |
-| 6 | Sicherungsmaßnahmen § 21 InsO beantragen | § 21 InsO | Sofortschutz: ZV-Einstellung, vorläufiger IV, Zustimmungsvorbehalt |
-| 7 | Massekostenprüfung § 26 InsO | § 26 InsO | Masseunzulänglichkeit → Abweisung; Kostenvorschuss durch Gläubiger möglich |
-| 8 | Eröffnungsbeschluss § 27 InsO | § 27 InsO | Verwalterbestellung, Insolvenzbeschlag § 80 InsO |
+| 4 | Titel- und Streitforderungscheck | Paragraf 14, 17 InsO | Titel, Fälligkeit, Vollstreckungsstand, Einstellungsbeschluss und materielle Einwendungen getrennt darstellen |
+| 5 | Liquiditätsstatus substantiieren | Paragraf 14, 17 InsO | Keine Summenbehauptung: Einzelposten, Fälligkeit, Rechtsgrund und Beleg mit Anlagenlog |
+| 5a | Streitige Forderung angreifen oder verteidigen | Paragraf 14, 17 InsO | Objektive Rechtslage, Beweislast und Gegenbeleg prüfen; bloßes Bestreiten genügt nicht gegen substantiierten Forderungsvortrag |
+| 6 | Überschuldung Paragraf 19: nur jur. Person; negatives Reinvermögen + fehlende Fortführungsprognose | Paragraf 19 InsO | Beide Voraussetzungen kumulativ |
+| 7 | Anhörung der Schuldnerin Paragraf 14 Absatz 2 | Paragraf 14 Absatz 2 InsO | Pflicht des Gerichts; keine Voraussetzung des Gläubigers |
+| 8 | Sicherungsmaßnahmen Paragraf 21 InsO beantragen | Paragraf 21 InsO | Sofortschutz: ZV-Einstellung, vorläufiger IV, Zustimmungsvorbehalt |
+| 9 | Massekostenprüfung Paragraf 26 InsO | Paragraf 26 InsO | Masseunzulänglichkeit → Abweisung; Kostenvorschuss durch Gläubiger möglich |
+| 10 | Eröffnungsbeschluss Paragraf 27 InsO | Paragraf 27 InsO | Verwalterbestellung, Insolvenzbeschlag Paragraf 80 InsO |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -153,7 +164,9 @@ Liquiditätslücke <10% (Nachweis Anlage S2).
 
 III. Forderung bestritten
 Die Forderung der Antragstellerin ist wegen [Sachmangel/Aufrechnung] nicht fällig.
-Beweis: Anlage S3.
+Beweis: Anlage S3. Soweit die Antragstellerin auf einen Titel verweist, ist zusätzlich
+darzustellen, ob Vollstreckungsvoraussetzungen bestehen, ob tatsächlich vollstreckt wird
+oder ob die Vollstreckung vorläufig eingestellt ist.
 
 IV. Antrag auf Zurückweisung
 Das Gericht möge den Eröffnungsantrag zurückweisen.
@@ -191,7 +204,9 @@ Das Gericht möge den Eröffnungsantrag zurückweisen.
 | Gegenargument | Rechtliche Grundlage | Reaktion Gläubiger |
 |---------------|---------------------|--------------------|
 | Zahlungsunfähigkeit liege nicht vor | § 17 InsO | Liquiditätsstatus zum Stichtag konkret darstellen; Indizien iSd ständiger BGH-Linie zur Zahlungseinstellung |
-| Forderung bestritten (Gegenforderung) | § 14 Abs. 1 InsO | Bestreitung muss substanziiert sein; bei Titulierung Gläubigerforderung unbestreitbar |
+| Forderung bestritten oder Gegenforderung erhoben | Paragraf 14 Absatz 1 InsO | Materiellen Bestand, Fälligkeit und Aufrechnungslage darstellen; bei Titel Vollstreckungsstand und etwaige Einstellungsentscheidung belegen |
+| Vorläufig vollstreckbarer Titel, aber Schuldner bestreitet weiter | Paragraf 17 InsO | Bei laufender Vollstreckung Nennwertansatz in der Liquiditätsbilanz begründen; keine Prozessrisikoquote bilden |
+| Vollstreckung aus Titel vorläufig eingestellt | Paragraf 14 InsO | Belegwirkung des Titels nicht überschätzen; zusätzlich Forderungsbestand und Eröffnungsgrund aus anderen Tatsachen glaubhaft machen |
 | Stundung bestreitend Forderung fällig | BGH-Linie zur echten Stundung | Beweis konkret echter Stundungsvereinbarung; faktische Duldung beseitigt Fälligkeit nicht (Verifikation Az. über dejure.org) |
 | Masselosigkeit § 26 InsO | § 26 InsO | Kostenvorschuss anbieten; Forderung aus Masseverbindlichkeit nach § 55 InsO bei Eröffnung sichergestellt |
 | Überschuldung bestritten (positive Fortführungsprognose) | § 19 InsO | Gegengutachten anfordern; Bankgespräche und Finanzierungszusagen als Belege; Prognosezeitraum 12 Monate (SanInsKG endete 31.12.2023) |
@@ -214,7 +229,7 @@ Haftungsrisiko: Gläubiger, der mutwillig oder leichtfertig Antrag stellt, hafte
 | Forderung tituliert, Vollstreckung erfolglos | Gläubigerantrag stellen; Indizien für ZU aus Vollstreckungsprotokollen |
 | Mehrere Gläubiger haben gleichartige Situation | Koordination mit anderen Gläubigern vor Antragstellung; Lead-Gläubiger festlegen |
 | Schuldnerin bietet kurzfristige Zahlung | Vergleich mit Zahlungsplan prüfen; § 14-Antrag als Druckmittel wirksam |
-| Schuldnerin versucht § 270b-Schutzschirm | Gläubigerantrag ist weiter zulässig; Schutzschirm schließt Gläubigerantrag nicht aus |
+| Schuldnerin versucht § 270d-Schutzschirm | Gläubigerantrag ist weiter zulässig; Schutzschirm schließt Gläubigerantrag nicht aus |
 | Masselosigkeit befürchtet | Kostenvorschuss § 26 InsO anbieten; sichert Verfahrensdurchführung + Anfechtungsrecht des Verwalters |
 | Gesellschafter der Schuldnerin haften persönlich (GbR, OHG) | Simultane Pfändung Gesellschaftervermögen erwägen |
 | Staatsanwaltschaft ermittelt wegen Insolvenzverschleppung | Gläubigerantrag unabhängig von Strafverfahren; ggf. koordinieren |

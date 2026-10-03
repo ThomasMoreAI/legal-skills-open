@@ -1,11 +1,11 @@
 ---
 name: weg-beschluss-anfechten
 title: WEG-Beschluss anfechten
-description: Prüfraster für die Beschlussanfechtung in der Wohnungseigentuemergemeinschaft nach §§ 44 ff. WEG-Reform 2020. Beschlussklage Anfechtungsklage Nichtigkeitsklage Feststellungsklage. Prüfung formelle Maengel (Ladung Tagesordnung Beschlussfähigkeit Mehrheit Stimmrechtsausschluesse) und materielle Maengel (kein Beschlusszustand ordnungsmäßige Verwaltung Treu und Glauben). Klagefrist ein Monat ab Beschluss § 45 WEG. Verwaltungsbeirats-Prüfung Verwaltervertrag Sondereigentum vs. Gemeinschaftseigentum Bauliche Veraenderung § 20 WEG Hausgeld § 16 Abs. 2 WEG.
+description: 'Für WEG-Beschluss anfechten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/weg-beschluss-anfechten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -14,9 +14,23 @@ language: de
 
 # WEG-Beschluss anfechten
 
-## Zweck
+## Arbeitsbereich
 
-Bei einem unliebsamen WEG-Beschluss prüfen, ob Anfechtungs- oder Nichtigkeitsklage in Frage kommt. Die WEG-Reform 2020 hat das Verfahren neu strukturiert — alte Begriffe (Beschlussanfechtungsklage) sind nun "Beschlussklage".
+Prüfraster für die Beschlussanfechtung in der Wohnungseigentuemergemeinschaft nach §§ 44 ff. WEG-Reform 2020. Beschlussklage Anfechtungsklage Nichtigkeitsklage Feststellungsklage. Prüfung formelle Maengel (Ladung Tagesordnung Beschlussfähigkeit Mehrheit Stimmrechtsausschluesse) und materielle Maengel (kein Beschlusszustand ordnungsmäßige Verwaltung Treu und Glauben). Klagefrist ein Monat ab Beschluss § 45 WEG. Verwaltungsbeirats-Prüfung Verwaltervertrag Sondereigentum vs. Gemeinschaftseigentum Bauliche Veraenderung § 20 WEG Hausgeld § 16 Abs. 2 WEG. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `WEG-Beschluss anfechten` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -46,14 +60,14 @@ Bei einem unliebsamen WEG-Beschluss prüfen, ob Anfechtungs- oder Nichtigkeitskl
 
 - **Ein Monat ab Beschlussfassung**
 - Frist absolut — keine Wiedereinsetzung außer bei nicht-Verschulden
-- **Begründung** bis zum Ablauf der Frist erforderlich (im Zweifel form-formuliert dann ausformulieren)
+- **Begründung binnen zwei Monaten ab Beschlussfassung**; beide Fristen stehen in Paragraf 45 Satz 1 WEG. Kein zusätzlicher Zweimonatszeitraum nach Klageerhebung. Wiedereinsetzung nach Satz 2 in Verbindung mit Paragrafen 233 bis 238 ZPO gesondert prüfen.
 
 ## Schritt 3 — Formelle Anfechtungsgründe
 
 ### Einberufung
 
 - **Frist § 24 Abs. 4 S. 2 WEG n.F.** drei Wochen vor Versammlung (seit WEMoG 1.12.2020; davor zwei Wochen)
-- **Form** schriftlich (Brief E-Mail mit Zustimmung)
+- **Form** Textform nach Paragraf 24 Absatz 4 WEG; eine E-Mail bedarf dafür keiner zusätzlichen allgemeinen Zustimmung.
 - **Inhalt** Tagesordnung Zeit Ort
 
 ### Tagesordnung
@@ -84,7 +98,7 @@ Bei einem unliebsamen WEG-Beschluss prüfen, ob Anfechtungs- oder Nichtigkeitskl
 ### Protokoll § 24 Abs. 6 WEG
 
 - Schriftlich
-- Verwalter Verfahrens-Beirat oder zwei Eigentümer Unterschrift
+- Unterschriften des Vorsitzenden, eines Wohnungseigentümers und, wenn ein Beirat bestellt ist, dessen Vorsitzenden oder Vertreters (Paragraf 24 Absatz 6 WEG).
 
 ## Schritt 4 — Materielle Anfechtungsgründe
 
@@ -184,25 +198,23 @@ Bei einem unliebsamen WEG-Beschluss prüfen, ob Anfechtungs- oder Nichtigkeitskl
 - Bei mehreren Beschlüssen: Tabelle Beschluss-für-Beschluss
 - Mandatsvereinbarung
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - WEG §§ 5 9a 14 16 19 20 24 25 26 28 29 43 44 45
 - BGB §§ 134 138 242
-- GKG § 49a
+- GKG § 49
 - BGH V. Zivilsenat nur mit Datum, Aktenzeichen und frei prüfbarer Quelle
 
-## Aktuelle Rechtsprechung — Leitsaetze (Stand 05/2026, verifiziert dejure.org)
+## Geprüfter Rechtsprechungsanker zur Beschlussklage
 
-- **BGH 16.07.2021, V ZR 284/19**: WEMoG-Uebergangsrecht — auch nach WEG-Reform 01.12.2020 ist die Wohnungseigentuemergemeinschaft prozessual aktiv-/passivlegitimiert (§ 9a Abs. 2 WEG n.F.). Quelle: dejure.org/2021,25770.
-- **BGH 17.09.2021, V ZR 12/21**: Bauliche Veraenderungen (§ 20 WEG n.F.) — Mehrheitsbeschluss genuegt; Anspruch des bauwilligen Eigentuemers gegen die GdW auf Beschlussfassung. Quelle: dejure.org/2021,30989.
-- **BGH 10.07.2020, V ZR 234/19**: Beschlussanfechtung — strikt einzuhaltende Klagefrist 1 Monat nach Beschlussfassung (§ 45 WEG n.F. / § 46 a.F.); materielle Ausschlussfrist. Quelle: dejure.org/2020,21566.
-- **BGH 27.10.2023, V ZR 43/23**: Anforderungen an ordnungsgemaesse Verwaltung; Beschluss ueber Sonderumlage muss verhaeltnismaessig und sachlich begruendet sein. Quelle: dejure.org/2023,30420.
-- **BGH 13.01.2023, V ZR 43/22**: Stimmrecht und Beschlussfaehigkeit nach WEMoG; Mehrheitsprinzip § 25 WEG n.F. — keine besondere Beschlussfaehigkeitsschranke mehr. Quelle: dejure.org/2023,1112.
+Für die Beklagtenbezeichnung gilt [BGH, Urteil vom 13.01.2023 – Az. V ZR 43/22](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/V_ZS/2022/V_ZR__43-22.pdf?__blob=publicationFile&v=1), Rn. 10–17 und 20–29: Beschlussklagen seit dem 1. Dezember 2020 gegen die Gemeinschaft der Wohnungseigentümer richten. Die Benennung der übrigen Eigentümer wahrt die Monatsfrist grundsätzlich nicht. Eine Auslegung als Klage gegen die Gemeinschaft setzt einen zweifelsfreien Willen im übrigen Klageinhalt voraus; die zusätzliche Nennung des Verwalters genügt nicht. Prüfe daher Rubrum und vollständige Klageschrift vor Fristablauf. Anfechtung und Nichtigkeit betreffen denselben Streitgegenstand; unterschiedliche Fristenfolgen bleiben bestehen. Das Urteil enthält keinen allgemeinen Rechtssatz zur Beschlussfähigkeit oder zu Sonderumlagen.
 
-**Gesetzeslage 2026:** WEMoG vom 16.10.2020 (BGBl. I 2187) in Kraft seit 01.12.2020 — Verfahrensrecht §§ 43-45 WEG, materielle Anforderungen §§ 18-21 WEG (bauliche Veraenderungen, Verwaltung).
-
-Weitere Entscheidungen vor Ausgabe per dejure.org / bundesgerichtshof.de verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+Für bauliche Veränderungen sind Beschlusskompetenz, Gestattungsanspruch und Kostentragung nach Paragrafen 20 und 21 WEG gesondert zu prüfen. Der zuvor genannte Anker „17.09.2021, V ZR 12/21“ konnte nicht amtlich verifiziert werden und wird nicht als Beleg verwendet. Für Sonderumlagen sind konkreter Beschluss, Finanzbedarf, Verteilung und ordnungsmäßige Verwaltung zu prüfen; V ZR 43/23 betrifft stattdessen Grundstückskauf und Terrassendach. V ZR 234/19 vom 11.06.2021 betrifft Baumüberhang, nicht die Klagefrist. Der bisher pauschale Übergangsverweis V ZR 284/19 wird hier nicht als Beleg einer allgemeinen Aktiv-/Passivlegitimation verwendet; seine Reichweite vor Verwendung gesondert prüfen.

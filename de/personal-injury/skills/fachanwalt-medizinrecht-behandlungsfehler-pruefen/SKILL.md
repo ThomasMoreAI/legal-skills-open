@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-medizinrecht-behandlungsfehler-pruefen
 title: Behandlungsfehler prüfen
-description: Behandlungsfehler §§ 630a 630h BGB Verletzung medizinischer Standard. Diagnosefehler Therapiefehler Befunderhebungsfehler Hygienefehler. Beweisregeln § 630h BGB Vermutung Kausalität bei grobem Behandlungsfehler § 630h Abs. 5 BGB Befunderhebungsfehler Dokumentationsmangel. Schadensersatzanspruch §§ 280 823 BGB Schmerzensgeld § 253 BGB. Verjährung drei Jahre § 195 BGB ab Kenntnis 30 Jahre Hoechstfrist.
+description: 'Für Behandlungsfehler prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/fachanwalt-medizinrecht-behandlungsfehler-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: personal-injury
@@ -126,11 +126,11 @@ bis [Datum] in stationaerer / ambulanter Behandlung.
 II. Behandlungsfehler
 1. Verstoss gegen medizinischen Standard § 630a Abs. 2 BGB:
    [Konkrete Massnahme / Unterlassung, Abweichung vom Standard]
-   
+
 2. Befunderhebungsfehler § 630h Abs. 5 Satz 2 BGB:
    Unterlassen der Untersuchung [X]; ein positiver Befund war
    hinreichend wahrscheinlich; Beweislastumkehr greift.
-   
+
 3. Voll beherrschbares Risiko § 630h Abs. 1 BGB (falls anwendbar):
    [Hygienemangel / Geraetedefekt] — Vermutung des Fehlers.
 

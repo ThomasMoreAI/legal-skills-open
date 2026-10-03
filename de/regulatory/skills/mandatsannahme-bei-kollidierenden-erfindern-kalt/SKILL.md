@@ -1,0 +1,45 @@
+---
+name: mandatsannahme-bei-kollidierenden-erfindern-kalt
+title: Mandatsannahme bei kollidierenden Erfinderinteressen
+description: 'Für Mandatsannahme bei Kollidierenden Erfindern Kalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-patentanwaelte/skills/mandatsannahme-bei-kollidierenden-erfindern-kalt
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Mandatsannahme bei kollidierenden Erfinderinteressen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: PAO Paragraf 3 für Beratungs- und Vertretungsbefugnis, Paragrafen 39 bis 45 für Berufspflichten, Werbung, Handakten und Versicherung, Paragrafen 52b bis 52p für berufliche Zusammenarbeit sowie Paragrafen 95 ff. für Berufsgerichtsbarkeit. PatG, MarkenG, DesignG, EPÜ oder das Recht des Einheitlichen Patentgerichts nur nach der konkreten Mandatsfrage ergänzen; amtliche Quellen live prüfen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Konkreter Berufsrechtskern: Patentanwälte: mandatsannahme bei kollidierenden erfindern - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
+- **Normenanker:** PAO, BOPA, PatG, MarkenG/DesignG-Schnittstellen, EPÜ, UPC-Verfahrensbezug, Fristen- und Geheimnisschutz.
+- **Institutionen:** Patentanwaltskammer, DPMA, EPA, UPC-Schnittstellen und berufsgerichtliche Zuständigkeiten.
+- **Spezialspur:** Mandatsgeheimnis, Priorität, Offenbarung, Vertretungsbefugnis vor DPMA/EPA/UPC und Fristkette prüfen.
+- **Falllösung:** Baue eine Pflichtverletzungs-/Entlastungsmatrix mit Norm, Tatsache, Beleg, Verschulden, Verhältnismäßigkeit, möglicher Kammerantwort und prozessualem nächsten Schritt.
+
+## Fallweichen dieser Speziallage
+
+1. Auftraggeber, Erfinder und Schutzrechtsinhaber anhand der vorliegenden Unterlagen unterscheiden und den bestellten Annahmevermerk vorbereiten.
+2. Frühere Beratung derselben Erfindung oder Schutzrechtsfamilie anhand Mandatsumfang und tatsächlicher Interessen prüfen; eine übereinstimmende Firmenbezeichnung allein beantwortet die Kollisionsfrage nicht.
+3. Fehlt der frühere Beratungsumfang, gezielt Vereinbarung oder Auskunft dazu anfordern. Keine unnötigen Erfindungsdetails zwischen Beteiligten offenlegen.
+4. Nach Antwort die betroffene Interessenlage neu bewerten und den Vermerk vervollständigen. Eine weitere entscheidende Verbindung kurz klären, ohne bereits beantwortete Fragen zu wiederholen.
+5. Bis zur Klärung keine Mandatsannahme freigeben, aber die belegten Teile ausformulieren. Externe Kontaktaufnahme nur mit Freigabe; Quellenprüfstatus separat halten.
+
+## Prüfprogramm
+
+- **Normenanker:** PAO, Patentanwaltsordnung, Berufsordnung, RDG, ZPO/PatG/MarkenG-Schnittstellen, Kammerpraxis und Berufsgerichtsbarkeit live prüfen
+- **Tatsachenarbeit:** Beweisquelle, Beweiswert, Gegenbeweis, Dokumentationslücke und mögliche Fehlinterpretation trennen.
+- **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
+- **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
+- **Entscheidung:** Den bestellten Annahmevermerk oder die Mandantenantwort vollständig formulieren, mit begründeter Empfehlung und genau benannten verbleibenden Hindernissen.

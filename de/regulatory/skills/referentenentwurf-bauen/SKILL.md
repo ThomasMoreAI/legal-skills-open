@@ -1,11 +1,11 @@
 ---
 name: referentenentwurf-bauen
 title: Referentenentwurf bauen
-description: Vollständigen Referentenentwurf des Bundes oder Landes aufbauen. Anwendungsfall legistischer Auftrag ist aufgenommen, Startbahn und Normebene sind bestimmt und ein Bundes- oder Landesministerium braucht Entwurfstext und Begründung. Klaert Bundesressort oder Landesministerium, Bundesland, Landesverfassung, Landes-Geschäftsordnung, HdR- oder Landesstil. Format Deckblatt Vorblatt A Problem und Ziel B Lösung C Alternativen D Haushalt E Erfuellungsaufwand F Kosten G Folgen H Gleichstellung. Entwurfstext Artikel Paragrafen Strukturen Definition Hauptregel Ausnahmen Sanktionen. GGO- oder Landes-Prüfliste. Output Volltext-Entwurf bereit zur Ressortabstimmung. Anschluss begründung-allgemein-und-besonders synopse-erstellen.
+description: 'Für Referentenentwurf bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/referentenentwurf-bauen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,7 +14,20 @@ language: de
 
 # Referentenentwurf bauen
 
-> Das Kernformat der ministeriellen Rechtssetzung.
+## Normenanker
+
+Arbeitsfokus: **Referentenentwurf bauen**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `Art. 14 Abs. 1 GG` — Eigentum.
+- `Art. 74 Abs. 1 Nr. 18 GG` — Bodenrecht/raumbezogene Kompetenz.
+- `§ 1 Abs. 3 BauGB` — Erforderlichkeit der Bauleitplanung.
+- `§ 1 Abs. 7 BauGB` — Abwägungsgebot.
+- `§ 9 BauGB` — Festsetzungen.
+- `§ 535 Abs. 1 BGB` — Mietvertrag.
+- `§ 556 Abs. 1 BGB` — Betriebskosten.
+- `Art. 20 Abs. 3 GG` — Normklarheit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 
 ## Aufbau eines Referentenentwurfs
 
@@ -115,12 +128,17 @@ Bei Landesgesetzen und Landesverordnungen die landesspezifische Eingangs- und Sc
 
 GGO (Bundesreferentenentwurf, Ressortabstimmung, Beteiligung, Kabinett) — Art. 76 Abs. 1 GG (Einbringungsrecht Bundesregierung) — HdR (Rechtsförmlichkeit, Änderungsbefehle) — Art. 80 Abs. 1 Satz 3 GG (Zitiergebot in Rechtsverordnungen) — Landesverfassung und Landes-Geschäftsordnung bei Landesentwürfen
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 Markdown-Datei mit dem kompletten Entwurfstext, bereit für Bundes- oder Landes-Ressortabstimmung, einschließlich Profilvermerk und offenen landesspezifischen Prüfpunkten.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Anschluss
 

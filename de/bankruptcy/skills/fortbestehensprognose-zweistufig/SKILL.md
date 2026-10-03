@@ -1,11 +1,11 @@
 ---
 name: fortbestehensprognose-zweistufig
 title: Fortbestehensprognose — Zweistufiges Modell nach IDW S 11
-description: 'Zweistufige Fortbestehensprognose nach IDW S 11 erstellen: Unternehmen ist möglicherweise ueberschuldet und braucht positive Fortführungsprognose. Normen: § 19 InsO (Überschuldungsbegriff modifiziert), IDW S 11 (Fortbestehensprognose-Standard). Prüfraster: Stufe 1 Fortführungswille, Stufe 2 Fortführungsfähigkeit (GuV/Liquiditaet 12 vs. 24 Monate), Dokumentationspflicht, Sanierungsgutachten. Output Zweistufige Fortbestehensprognose, IDW-S-11-konformes Gutachten-Geruest. Abgrenzung: Drohende ZU siehe drohende-zahlungsunfähigkeit-paragraph-18-inso; integrierte Planung siehe integrierte-planung-guv-bilanz-cashflow.'
+description: 'Für Fortbestehensprognose — Zweistufiges Modell nach IDW S 11: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/fortbestehensprognose-zweistufig
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,6 +13,16 @@ language: de
 ---
 
 # Fortbestehensprognose — Zweistufiges Modell nach IDW S 11
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StaRUG; § 1 StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Die Fortbestehensprognose ist der Schlüssel zwischen bilanzieller Überschuldung und Insolvenzantragspflicht. § 19 Abs. 2 InsO lässt bei positiver Fortführungsprognose Fortführungswerte in der Überschuldungsbilanz zu — was den Unterschied zwischen "noch sanierbar" und "Antragspflicht ausgelöst" machen kann. IDW S 11 formalisiert diesen Prüfungsprozess zweistufig. Wer die Fortbestehensprognose nicht aktuell und dokumentiert hält, riskiert die persönliche Haftung — auch wenn das Unternehmen de facto noch fortgeführt werden könnte.
 
@@ -38,15 +48,15 @@ Deutschland hat nach der Finanzmarktkrise 2008 dauerhaft den modifizierten Über
 
 ```
 ÜBERSCHULDUNG § 19 InsO:
-  Schritt 1: Liegt eine rechnerische Überschuldung vor?
-             (Passiva > Aktiva auf Liquidationsbasis)
-             → Wenn NEIN: Kein Insolvenzgrund gem. § 19 InsO
-             → Wenn JA: Weiter mit Schritt 2
+ Schritt 1: Liegt eine rechnerische Überschuldung vor?
+ (Passiva > Aktiva auf Liquidationsbasis)
+ → Wenn NEIN: Kein Insolvenzgrund gem. § 19 InsO
+ → Wenn JA: Weiter mit Schritt 2
 
-  Schritt 2: Liegt eine positive Fortführungsprognose vor?
-             → Wenn JA: Fortführungswerte zulässig; kein Insolvenzantrag
-                        (modifizierter Überschuldungsbegriff greift)
-             → Wenn NEIN: Insolvenzantragspflicht § 15a InsO ausgelöst
+ Schritt 2: Liegt eine positive Fortführungsprognose vor?
+ → Wenn JA: Fortführungswerte zulässig; kein Insolvenzantrag
+ (modifizierter Überschuldungsbegriff greift)
+ → Wenn NEIN: Insolvenzantragspflicht § 15a InsO ausgelöst
 ```
 
 ### 2. IDW S 11 — Das Zweistufenmodell der Fortbestehensprognose
@@ -93,51 +103,6 @@ Ein formales Gutachten durch einen Wirtschaftsprüfer nach IDW S 11 ist in folge
 
 ---
 
-## Vorgehen
-
-### Schritt 1: Rechnerische Überschuldungsprüfung
-
-```
-ÜBERSCHULDUNGSBILANZ (LIQUIDATIONSWERTE)
-
-AKTIVA — zu Liquidationswerten
-  Immaterielle VG (Marktwert): EUR [___]
-  Sachanlagevermögen (Verwertungswert): EUR [___]
-  Vorräte (Verwertungswert, ggf. Abschlag): EUR [___]
-  Forderungen (abzgl. Ausfallwahrscheinlichkeit): EUR [___]
-  Bankguthaben: EUR [___]
-  Sonstige Aktiva: EUR [___]
-= AKTIVA GESAMT: EUR [___]
-
-PASSIVA — zu Nennwerten
-  Bankverbindlichkeiten: EUR [___]
-  Verbindlichkeiten L&L: EUR [___]
-  Steuerverbindlichkeiten: EUR [___]
-  Rückstellungen: EUR [___]
-  Sonstige Verbindlichkeiten: EUR [___]
-= PASSIVA GESAMT: EUR [___]
-
-SALDO: EUR [___]
-  → Positiv: Keine rechnerische Überschuldung
-  → Negativ: Rechnerische Überschuldung — weiter mit FBP
-```
-
-### Schritt 2: Fortbestehensprognose erstellen
-
-1. **Liquiditätsplanung validieren** (24 Monate, IDW S 11 Tz. 23 ff.)
-2. **Ertragsplanung validieren** (GuV-Plan, Ertragsfähigkeit prüfen)
-3. **Planprämissen dokumentieren** (nachvollziehbar, plausibel, extern prüfbar)
-4. **Szenarioanalyse** (Base + Bear) — auch im Bear Case noch positiv?
-5. **Ergebnis festhalten** — positive oder negative FBP
-
-### Schritt 3: Dokumentation und Fortschreibung
-
-- FBP wird mindestens quartalsweise aktualisiert
-- Jede Verschlechterung der Planprämissen führt zur Ad-hoc-Überprüfung
-- Alle Versionen der FBP werden archiviert (Zeitpunktnachweis für Haftung)
-
----
-
 ## Templates
 
 ### Muster: Fortbestehensprognose-Zusammenfassung
@@ -150,27 +115,27 @@ Erstellt: [Name, Funktion]
 Grundlage: [eigene Analyse / IDW S 11-Gutachten von [WP-Kanzlei fiktiv]]
 
 1. RECHNERISCHE ÜBERSCHULDUNG
-   Aktiva (Liquidationswerte): EUR [___]
-   Passiva (Nennwerte): EUR [___]
-   Saldo: EUR [___]
-   Ergebnis: [rechnerisch überschuldet JA/NEIN]
+ Aktiva (Liquidationswerte): EUR [___]
+ Passiva (Nennwerte): EUR [___]
+ Saldo: EUR [___]
+ Ergebnis: [rechnerisch überschuldet JA/NEIN]
 
 2. FORTBESTEHENSPROGNOSE — STUFE 1 (ZAHLUNGSFÄHIGKEIT)
-   Planungshorizont: [x] Monate
-   Kritischer Engpass im Planungszeitraum: [ja / nein]
-   Wenn ja: [Beschreibung, Gegenmaßnahmen]
-   Ergebnis Stufe 1: [positiv / negativ]
+ Planungshorizont: [x] Monate
+ Kritischer Engpass im Planungszeitraum: [ja / nein]
+ Wenn ja: [Beschreibung, Gegenmaßnahmen]
+ Ergebnis Stufe 1: [positiv / negativ]
 
 3. FORTBESTEHENSPROGNOSE — STUFE 2 (ERTRAGSFÄHIGKEIT)
-   EBITDA-Planung Base Case: EUR [___] p.a.
-   Ergebnis dauerhaft positiv erwartet: [ja / nein]
-   Ergebnis Stufe 2: [positiv / negativ]
+ EBITDA-Planung Base Case: EUR [___] p.a.
+ Ergebnis dauerhaft positiv erwartet: [ja / nein]
+ Ergebnis Stufe 2: [positiv / negativ]
 
 4. GESAMTERGEBNIS
-   Positive Fortbestehensprognose: [JA / NEIN]
-   Folgerung:
-   [ ] Fortführungswerte zulässig, keine Antragspflicht
-   [ ] Negative FBP — § 15a InsO-Prüfung sofort einleiten
+ Positive Fortbestehensprognose: [JA / NEIN]
+ Folgerung:
+ [ ] Fortführungswerte zulässig, keine Antragspflicht
+ [ ] Negative FBP — § 15a InsO-Prüfung sofort einleiten
 
 Unterschrift GF: ___________________
 Hinweis: Dieser Vermerk ersetzt kein Sachverständigengutachten.
@@ -192,22 +157,12 @@ Hinweis: Dieser Vermerk ersetzt kein Sachverständigengutachten.
 
 ---
 
-## Querverweise
-
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Abgrenzung § 18/§ 19 InsO
-- → `integrierte-planung-guv-bilanz-cashflow` — Planungsgrundlage für FBP
-- → `rollierende-liquiditaetsplanung-24-monate-template` — Liquiditätsplanung als FBP-Basis
-- → `insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist` — Folge negativer FBP
-- → `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — Haftungsfolgen
-
-
 ## Weitere Leitentscheidungen (Stand Mai 2026)
 
 - **BGH IX ZR 285/14 vom 26.01.2017** — Hinweis- und Warnpflicht des Steuerberaters; bei verfehlter FBP kann Berater auf Insolvenzvertiefungsschaden haften. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.01.2017&Aktenzeichen=IX+ZR+285/14>
 - **BGH IX ZR 56/22 vom 29.06.2023** — Drittschutzwirkung der Warnpflicht zugunsten des (faktischen) Geschäftsführers. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=29.06.2023&Aktenzeichen=IX+ZR+56/22>
 - **BGH II ZR 206/22 vom 23.07.2024** — Fortwirkende Haftung des ausgeschiedenen Geschäftsführers (Folgen bei negativer FBP nach Amtsniederlegung). <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
 - Konkrete BGH-Linie zur Plausibilität von Liquiditätsplänen und Sensitivitäten in der FBP vor Ausgabe über offene Quellen verifizieren.
-
 
 ## Triage — Erste Einordnung
 

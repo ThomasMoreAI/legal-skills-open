@@ -1,11 +1,11 @@
 ---
 name: pruefer-uebergabe-paket
 title: /tabellenreview-3d:prüfer-übergabe-paket
-description: 'Übergabepaket für Prüferwechsel im 3D-Review zusammenstellen: aktueller Stand, offene Positionen. Normen: §§ 174 ff. InsO. Prüfraster: Fortschrittsstand, kritische Punkte, Dokumentation. Output: Übergabedokument für naechsten Prüfer. Abgrenzung: nicht Audit-Trail.'
+description: 'Für /tabellenreview-3d:prüfer-übergabe-paket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/pruefer-uebergabe-paket
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:prüfer-übergabe-paket
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Das Plugin liefert nicht das fertige Mandatsergebnis. Es liefert das Prüfer-Paket — alles was der zugelassene Rechtsanwalt braucht um in vertretbarer Zeit die Endabnahme machen zu können. Dieser Skill schnuert das Paket.
 
 ## Bestandteile
 
@@ -67,7 +60,7 @@ Das Plugin liefert nicht das fertige Mandatsergebnis. Es liefert das Prüfer-Pak
 
 ### 9. Begleitschreiben
 
-- `begleitschreiben.md` — eine Seite. Was wurde gemacht. Wie viele Dokumente. Wie viele Hotspots. Wie viele Prüfer-Flags. Erwartete Pruefdauer. Ablauf der Abnahme.
+- `begleitschreiben.md` — eine Seite. Was wurde gemacht. Wie viele Dokumente. Wie viele Hotspots. Wie viele Prüfer-Flags. Erwartete Prüfdauer. Ablauf der Abnahme.
 
 ## Zusammenstellung
 
@@ -92,3 +85,5 @@ Erst nach dokumentierter Prüfer-Abnahme darf das Paket (oder Auszüge davon) an
 - BRAO Paragraph 43a Absatz 2 — Verschwiegenheit
 - StGB Paragraph 203 — Privatgeheimnisse
 - RDG Paragraph 2 — Rechtsdienstleistung darf nur durch Rechtsanwalt erbracht werden — der Würfel ist Vorbereitung, die Abnahme ist die Rechtsdienstleistung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

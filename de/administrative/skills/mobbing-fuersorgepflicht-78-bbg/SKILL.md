@@ -1,0 +1,82 @@
+---
+name: mobbing-fuersorgepflicht-78-bbg
+title: Mobbing und Fürsorgepflicht im öffentlichen Dienst
+description: 'Für Mobbing und Fürsorgepflicht im öffentlichen Dienst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/mobbing-fuersorgepflicht-78-bbg
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: administrative
+language: de
+---
+
+# Mobbing und Fürsorgepflicht im öffentlichen Dienst
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
+- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## 1. Zweck und Anwendungsfall
+
+Skill für Beamte, die sich am Arbeitsplatz dauerhaft schikaniert sehen und Schutz, Anpassung der Arbeitsbedingungen, Versetzung oder Schadensersatz verlangen.
+
+## 2. Eingaben
+
+- Chronologische Vorfallsdokumentation
+- Zeugen
+- Korrespondenz mit Vorgesetzten / Personalstelle
+- Krankheits- oder Therapieunterlagen
+- Beurteilungslage
+
+## 3. Ablauf / Checkliste
+
+### a) Mobbingbegriff
+- Systematisches, fortgesetztes Anfeinden, Schikanieren oder Diskriminieren am Arbeitsplatz mit dem Ziel oder Effekt der Schaedigung der beruflichen oder persönlichen Stellung.
+- Einzelne unkollegiale Handlungen reichen nicht; entscheidend ist das Muster.
+
+### b) Fürsorgepflicht des Dienstherrn
+- § 78 BBG bzw. § 45 BeamtStG i.V.m. Landesrecht: Pflicht zum Schutz von Gesundheit und Wuerde der Beamtinnen und Beamten.
+- Konkrete Pflicht zur Aufklaerung, Anhörung, Ermittlung, Trennung der Konfliktparteien, Versetzung gegebenenfalls.
+
+### c) Beweislast
+- Beamter muss Indizien für Mobbingmuster vortragen; bei substantiierter Darlegung Beweiserleichterung. Verstoss gegen Fürsorgepflicht ergibt sich aus Unterlassen des Dienstherrn.
+
+### d) Maßnahmen
+- Antrag auf Versetzung des Mobbers oder eigene Versetzung.
+- Anzeige bei Personalstelle oder Gleichstellungsbeauftragten.
+- Beschwerde nach § 13 AGG bei diskriminierungsbezogenem Mobbing.
+
+### e) Schadensersatz und Schmerzensgeld
+- Beamtenrechtlicher Schadensersatzanspruch wegen Fürsorgepflichtverletzung.
+- Schmerzensgeld unter den engen Voraussetzungen des § 253 BGB analog.
+
+## 4. Quellenpflicht
+
+- Normen: § 78 BBG; § 45 BeamtStG i.V.m. Landesrecht; § 13 AGG; §§ 280, 253 BGB analog.
+- Rspr.: BVerwG zur Fürsorgepflicht; BAG zum Mobbingbegriff — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+
+## 5. Ausgabeformat
+
+- Strukturierte Mobbing-Dokumentation.
+- Beschwerdeschreiben an den Dienstherrn.
+- Klageentwurf VG.
+
+## 6. Verifizierte Quellenanker
+
+- BDG §§ 13, 17, 22, 23, 38, 63 als Kernnormen für Maßnahmebemessung, Einleitung, Strafverfahren, Bindungswirkung, Suspendierung und Aussetzung.
+- BDG-Novelle 2024: Vollzugsmodell/Disziplinarverfügung auch für Höchstmaßnahmen im Bundesrecht; Länderrecht gesondert prüfen.
+- BVerfG, 14.01.2020 - 2 BvR 2055/16: kein verfassungsrechtlicher Richtervorbehalt für disziplinarische Höchstmaßnahme, wenn Verfahren und volle gerichtliche Kontrolle gesichert sind.
+- BVerwG, 02.12.2021 - 2 A 7.21: Reichsbürger-/Verfassungstreue-Fall im Bundesdienst.
+- BVerwG, 10.10.2024 - 2 C 15.23: Verfassungstreueanforderungen im juristischen Vorbereitungsdienst.
+- Bei Chatgruppen, außerdienstlichen Äußerungen und politischen Grenzfällen immer Kontext, Amtsbezug, Beweisqualität und Grundrechte getrennt würdigen.
+
+## 7. Beispiel (Kurzfassung)
+
+Mandantin Beamtin im gehobenen Dienst, seit zwei Jahren von Referatsleiter systematisch ausgegrenzt; nun krankheitsbedingt arbeitsunfaehig. Skill liefert Mobbing-Dokumentation und Antrag auf Versetzung des Mobbers oder eigene Versetzung mit Schmerzensgeldanspruch.

@@ -1,0 +1,243 @@
+---
+name: fachanwalt-gewerblicher-rechtsschut-erstgespraech-mandatsannahme
+title: Erstgespraech im gewerblichen Rechtsschutz strukturieren und Mandat aufnehmen
+description: 'Für Erstgespräch im gewerblichen Rechtsschutz strukturieren und Mandat aufnehmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/erstgespraech-mandatsannahme
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Erstgespraech im gewerblichen Rechtsschutz strukturieren und Mandat aufnehmen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Erstgespraech im gewerblichen Rechtsschutz strukturieren und Mandat aufnehmen. § 14 MarkenG § 139 PatG § 8 UWG § 43a BRAO. Prüfraster: Schutzrecht Verletzungshandlung Parteistellung Eilbedürfnis Fristen. Output: Mandat-Steckbrief Sachverhaltsprotokoll fehlende Unterlagen. Abgrenzung: Einstiegs-Skill; Detailarbeit in Spezialist-Skills.
+
+### Erstgespraech und Mandatsannahme im Marken-, Patent-, Design- und Wettbewerbsrecht
+
+## Triage zu Beginn — klaere vor jedem weiteren Schritt
+
+1. Liegt eine **Abmahnung, einstweilige Verfuegung oder Fristmitteilung** vor? Wenn ja: Datum feststellen und sofort Kalender-Alarm setzen.
+2. Welches **Schutzrecht** ist betroffen: Marke (MarkenG), Design (DesignG), Patent (PatG), Gebrauchsmuster (GebrMG) oder lauterkeitsrechtlicher Anspruch (UWG)?
+3. Sind **mehrere Parteien** am Sachverhalt beteiligt, für die ein Interessenkonflikt bestehen koennte (§ 43a Abs. 4 BRAO, § 3 BORA)?
+4. Ist der Mandant eine **juristische Person** → Handelsregister, Transparenzregister, wirtschaftlich Berechtigte prüfen (§§ 10 ff. GwG).
+5. Was ist das **Endziel** des Mandanten in einem Satz?
+
+## Phasen des Erstgespraechs
+
+### 1. Aufnahme der Konstellation (10-15 Min.)
+
+Standard-Fragenraster für Marken-, Patent-, Design- und Wettbewerbsrecht:
+
+- Beteiligte (Vor-/Nachname, Geburtsdatum, Anschrift, Rolle: Klägerin/Beklagter, Antragsteller, Beschuldigter)
+- Konflikt-Kern in einem Satz ("Was ist Ihr Ziel?")
+- Konkrete fachliche Stossrichtung: Marken, Designs, Patente, UWG-Abmahnung, Lizenz, Domain
+- Bisherige Korrespondenz (Bescheide, Schreiben der Gegenseite, anwaltliche Vertretung der Gegenseite?)
+- **Fristenscreening sofort:** anstehende Klage-/Widerspruchs-/Einspruchsfristen aus den vorgelegten Schreiben. Frist-Alarm an die Vorbereitung weitergeben.
+
+### 2. Konflikt-Prüfung und GwG-Check (5 Min.)
+
+- Konflikt-Check über Mandantensystem: Gegnerin, Streitgegenstand, frueherer Mandant?
+- GwG-Identifizierung: amtlicher Lichtbildausweis, bei juristischer Person Handelsregister-/Transparenzregisterauszug, ggf. wirtschaftlich Berechtigte/n.
+- Risikobewertung (niedrig/mittel/hoch) abhaengig von Mandatscharakter, Bargeld, Auslandsbezug.
+- Doku im Mandatsbogen (Pflicht nach §§ 10 ff. GwG i.V.m. § 2 Abs. 1 Nr. 10 GwG für RA-Mandate).
+
+### 3. Vollmacht und Schweigepflichtentbindung
+
+- Allgemeine Prozess-/Aussenvollmacht (BORA, ZPO, FamFG, je nach Fachgebiet).
+- Spezielle Vollmachten: ggf. Akteneinsicht Strafakte, Behörde.
+- Bei Eheleuten/GbR/GmbH: einzelvollmachtgebende Person und Vertretungsmacht klären.
+
+### 4. Streitwert und Gebührenvereinbarung
+
+Standard-Streitwerte im Bereich Marken-, Patent-, Design- und Wettbewerbsrecht:
+
+- Skizze: Streitwert grob abschaetzen (z.B. Hauptforderung, ggf. + Zinsen, Nebenforderungen).
+- RVG-Pauschalrechnung oder Stundenhonorarvereinbarung.
+- Beratungshilfe-/Prozesskostenhilfe-Antrag prüfen, wenn wirtschaftlich angezeigt.
+- Vorschussanforderung nach § 9 RVG.
+
+### 5. Strategie-Erstskizze
+
+Drei Weichen am Ende des Erstgespraechs:
+
+- **Mandat annehmen:** vollstaendig (Prüfung + Schriftsatz) oder begrenzt (nur Prüfung/Gutachten).
+- **Verweisen:** wenn Spezialgebiet ausserhalb der Fachanwaltschaft, oertlich unzuständig oder Konflikt.
+- **Ablehnen:** offensichtlich aussichtslos, GwG-Hit, Bauchgefuehl-Vorsicht.
+
+## Zentrale Normen und Paragrafenkette
+
+- § 43a Abs. 4 BRAO — Interessenkonflikt
+- § 3 BORA — Interessenkonflikt Sachzusammenhang
+- §§ 10 ff. GwG i.V.m. § 2 Abs. 1 Nr. 10 GwG — Identifizierungspflicht
+- § 9 RVG — Vorschussanforderung
+- § 3a RVG — Schriftformerfordernis Stundenhonorar
+- §§ 195, 199 BGB — Regelverjaehrung 3 Jahre
+
+## Pflicht-Output am Ende
+
+1. **Mandatsbogen** mit Beteiligten, Konflikt-Check, GwG-Status, Streitwert.
+2. **Frist-Liste** (Sofortfristen, Verjährung, Ausschlussfristen, Beweisanforderungs-Fristen).
+3. **Anlagenverzeichnis** des uebergebenen Datenraums (Stand erstes Sortieren).
+4. **Naechster-Schritt-Plan:** binnen 24/48/72 h, Owner, Output.
+5. **Honorarvereinbarung** unterschrieben oder Vorbehalt notiert.
+
+## Output-Template Mandatsbogen
+
+**Adressat:** intern (Kanzleiakte) — Tonfall sachlich-strukturiert
+
+```
+MANDATSBOGEN — MARKEN-/PATENT-/DESIGN-/WETTBEWERBSRECHT
+
+Datum: [TT.MM.JJJJ]
+Aktenzeichen: [INTERN]
+Mandant: [NAME, Geburtsdatum, Adresse, Telefon, E-Mail]
+Gegner: [NAME, Adresse, ggf. anwaltliche Vertretung]
+Sachverhalt: [5-10 Saetze]
+Ziel des Mandats: [Eine Zeile]
+Schutzrecht: [ ] Marke [ ] Design [ ] Patent [ ] UWG [ ] Sonstiges
+Frist: [DATUM] — Bereich: [Widerspruch/Abmahnung/Klage/Einspruch]
+Konflikt-Check: [ ] geprueft, kein Konflikt [ ] Einwilligung liegt vor
+GwG: [ ] Identifizierung erfolgt [ ] Risiko: [niedrig/mittel/hoch]
+Vollmacht: [ ] unterschrieben am [DATUM]
+Streitwert: ca. [BETRAG] EUR (Schaetzung)
+Honorar: [ ] RVG [ ] Stundenhonorar [BETRAG EUR/h] [ ] Pauschale
+Vorschuss: [BETRAG] EUR, faellig [DATUM]
+Naechste Schritte: 1. [MASSNAHME] bis [DATUM] — 2. [MASSNAHME] bis [DATUM]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Output-Template E-Mail Erstgespraechs-Zusammenfassung
+
+**Adressat:** Mandant — Tonfall verstaendlich-erklaerend
+
+```
+Sehr geehrte/r Frau/Herr [NAME],
+
+vielen Dank für unser heutiges Gespraech. Ich fasse die wesentlichen Punkte zusammen:
+
+1. Sachverhalt: [Kurzbeschreibung]
+2. Handlungsbedarf: [Welche Schritte eingeleitet werden]
+3. Naechste Frist: [DATUM] — [Was bis dahin geschieht]
+4. Kosten: Auf Basis des Streitwerts von ca. [BETRAG] EUR fallen Anwaltsgebuehren
+ nach RVG von ca. [BETRAG] EUR an. [Ggf. Stundenhonorar erlaeutern.]
+5. Bitte senden Sie mir bis [DATUM] folgende Unterlagen: [Liste]
+
+Mit freundlichen Gruessen
+[KANZLEI / NAME]
+```
+
+## Schritt-für-Schritt-Workflow
+
+```
+Schritt 1: Frist identifizieren
+ → Jedes mitgebrachte Schreiben auf Fristen scannen
+ → Kalender-Alarm mit 3-Tage-Vorlauf
+
+Schritt 2: Konflikt-Check
+ → Mandantensystem abfragen: Gegner, Sachzusammenhang
+ → Bei Konflikt: ablehnen und schriftlich mitteilen
+
+Schritt 3: GwG-Pruefung
+ → Ausweis kopieren und im Akt ablegen
+ → Risikoklasse vermerken
+
+Schritt 4: Vollmacht unterschreiben lassen
+ → Allgemeine Vollmacht + ggf. Sondervollmacht
+
+Schritt 5: Streitwert und Honorar festlegen
+ → Ersten Schriftsatz / erste Leistung bepreisen
+ → Vorschuss anfordern § 9 RVG
+
+Schritt 6: Mandatsbogen ausfuellen
+ → Vollstaendig, datiert, abgelegt
+
+Schritt 7: E-Mail-Zusammenfassung binnen 48 h
+ → Bestaetigung Strategie, Fristen, Kosten
+```
+
+## Typische Fehler im Erstgespraech
+
+- Frist uebersehen, weil Mandantin sie nicht selber genannt hat (immer aus jedem Schreiben Frist herausziehen).
+- Konflikt-Check nur nach Personennamen, nicht nach Sachzusammenhang.
+- Vollmachtsumfang unklar → später Streit mit Mandantin über Befugnisse.
+- Honorarvereinbarung muendlich → Beweisnot bei Streitwert-/Honorar-Streit.
+- GwG: kein Lichtbildausweis erfasst, kein Aktenvermerk über Risikobewertung.
+
+## Praxis-Checkliste
+
+- [ ] Personalien und Rolle aller Beteiligten erfasst
+- [ ] Konflikt-Check durchgefuehrt
+- [ ] GwG: Identifizierung + Risikobewertung notiert
+- [ ] Allgemeine Vollmacht unterschrieben
+- [ ] Speziale Vollmacht / Entbindungserklaerung (wo noetig) unterschrieben
+- [ ] Streitwert geschaetzt
+- [ ] Honorarvereinbarung unterschrieben oder ausdruecklich auf RVG verwiesen
+- [ ] Fristenliste angelegt und in Kalender eingetragen
+- [ ] Mandatsbogen vollstaendig
+- [ ] Naechster-Schritt-Plan dem Mandanten kommuniziert (E-Mail-Zusammenfassung)
+
+## Konkrete Praxis-Konstellationen
+
+### Konstellation A: Eilbeduerftigkeit
+
+Mandantin kommt am Donnerstag, Frist laeuft am Montag. Handlungs-Sequenz:
+
+1. Sofort-Vollmacht und Sofort-Akteneinsicht (per beA, ELSTER, Behördenportal).
+2. Antrag auf Wiedereinsetzung (§ 233 ZPO, § 60 VwGO) als Reserve dokumentieren.
+3. Spaeteste-Stunde-Versand-Plan: beA bevorzugt, mit qualifizierter Signatur und Empfangsbekenntnis.
+4. Honorarvereinbarung NICHT auf Eilzuschlag verzichten — aber transparent kommunizieren.
+
+### Konstellation B: Komplexer Sachverhalt, Datenraum unsortiert
+
+Mandant uebergibt 200+ Dateien (PDF-Scans, E-Mails, Excel-Listen):
+
+1. Datenraum-Index in Excel: Datum, Absender, Empfaenger, Aktenzeichen, kurze Inhaltszeile.
+2. Chronologischer Verlauf als Zeitstrahl — Spielraum für Verjährungs- und Ausschlussfristen identifizieren.
+3. Loecher im Datenraum gezielt anfordern (Mandantenfragen-Katalog).
+
+### Konstellation C: Interessenkonflikt-Naehe
+
+Frueheres Mandat mit derselben Gegnerin oder gleichem Sachzusammenhang:
+
+1. § 43a Abs. 4 BRAO und § 3 BORA — Sachzusammenhang, nicht nur Personenidentitaet.
+2. Einwilligung beider Mandanten in Textform (mit konkreter Beschreibung).
+3. Bei Zweifel: Mandat ablehnen und an Kanzleikollegium ueberweisen.
+
+## Vertiefung: Fristen im gewerblichen Rechtsschutz
+
+| Verfahren | Frist | Norm |
+|-----------|-------|------|
+| Widerspruch Marke DPMA | 3 Monate ab Veroeffentlichung | § 42 Abs. 1 MarkenG |
+| Widerspruch Marke EUIPO | 3 Monate ab Veroeffentlichung | Art. 46 UMV |
+| UWG-Verfuegungsantrag | Dringlichkeit (max. 4 Wochen Kenntniswahrung) | § 12 Abs. 1 UWG |
+| Einspruch DPMA (Patent) | 9 Monate ab Erteilung | § 59 Abs. 1 PatG |
+| Nichtigkeitsklage Patent | keine Frist (solange Patent laeuft) | § 81 PatG |
+| Verjährung UWG/MarkenG | 3 Jahre ab Kenntnis | §§ 195, 199 BGB |
+| Verjaerungs-Hemmung | Klage, Mahnbescheid, Verhandlung | § 204 BGB |
+
+## Cross-Refs
+
+- `vergleichsverhandlung-strategie` — für den Fall, dass aussergerichtliche Loesung angestrebt wird.
+- `schriftsatzkern-substantiierung` — für den Schriftsatzaufbau, wenn Klage/Widerspruch eingereicht wird.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

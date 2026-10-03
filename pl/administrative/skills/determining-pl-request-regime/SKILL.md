@@ -1,18 +1,18 @@
 ---
 name: determining-pl-request-regime
-title: determining-pl-request-regime
-description: "Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions, public-information requests, KPA filings, PPSA complaints, RODO access requests, registry extracts, court-file access, tax/ZUS/cudzoziemcy/USC procedures, or professional lawyer letters. Prevents mixing UDIP, KPA, PPSA, RODO, registry, special-procedure, and advocate/radca letter regimes."
+title: law-pl-determining-pl-request-regime
+description: Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions, public-information requests, KPA filings, PPSA complaints, RODO access requests, registry extracts, court-file access, tax/ZUS/cudzoziemcy/USC procedures, or professional lawyer letters. Prevents mixing UDIP, KPA, PPSA, RODO, registry, special-procedure, and advocate/radca letter regimes.
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-pl-request-regime
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: administrative
 language: pl
 ---
 
-# determining-pl-request-regime
+# law-pl-determining-pl-request-regime
 
 Ten skill ustala, w jakim trybie prawnym przygotować pismo do organu, sądu, urzędu, rejestru, administratora danych, ZUS, KAS, USC, urzędu wojewódzkiego albo innego adresata. Obejmuje także akta sądowe, rejestry publiczne i pismo adwokata / radcy.
 
@@ -92,11 +92,11 @@ Jeżeli tryb pozostaje niejasny, zadaj jedno krótkie pytanie: kto składa pismo
 
 ## Handoff do innych agentów i skilli
 
-- Do sporządzenia pisma po wyborze trybu użyj `request-drafter`.
-- Dla podatków użyj `applying-skarbowy-procedures`.
-- Dla ZUS użyj `applying-zus-procedures`.
-- Dla cudzoziemców użyj `applying-cudzoziemcy-procedures`.
-- Dla USC użyj `applying-usc-procedures`.
-- Dla RODO użyj `applying-rodo` albo `rodo-compliance`.
-- Dla skargi do WSA, apelacji, zażalenia, skargi kasacyjnej albo środka sądowego użyj `appeal-drafter` lub `claim-drafter`, zależnie od rodzaju sprawy.
-- Dla dokładnych cytatów ustaw użyj `fetching-isap-sejm` i `citing-polish-law`.
+- Do sporządzenia pisma po wyborze trybu użyj `law-pl-request-drafter`.
+- Dla podatków użyj `law-pl-applying-skarbowy-procedures`.
+- Dla ZUS użyj `law-pl-applying-zus-procedures`.
+- Dla cudzoziemców użyj `law-pl-applying-cudzoziemcy-procedures`.
+- Dla USC użyj `law-pl-applying-usc-procedures`.
+- Dla RODO użyj `law-pl-applying-rodo` albo `law-pl-rodo-compliance`.
+- Dla skargi do WSA, apelacji, zażalenia, skargi kasacyjnej albo środka sądowego użyj `law-pl-appeal-drafter` lub `law-pl-claim-drafter`, zależnie od rodzaju sprawy.
+- Dla dokładnych cytatów ustaw użyj `law-pl-fetching-isap-sejm` i `law-pl-citing-polish-law`.

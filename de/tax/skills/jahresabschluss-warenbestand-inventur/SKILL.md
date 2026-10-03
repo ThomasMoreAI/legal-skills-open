@@ -1,0 +1,125 @@
+---
+name: jahresabschluss-warenbestand-inventur
+title: Warenbestand und Inventur
+description: 'Für Warenbestand und Inventur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/jahresabschluss-warenbestand-inventur
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Warenbestand und Inventur
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, § 240 HGB, § 253 HGB.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Kernsachverhalt
+
+§ 240 HGB verpflichtet zur jaehrlichen Inventur (koerperliche Bestandsaufnahme) zum Bilanzstichtag. Bei Handel und Industrie ist der Warenbestand wesentliche Bilanzposition. Vereinfachungen möglich: permanente Inventur, Stichprobeninventur, vor- oder nachverlegte Inventur. Bewertung zum Niederstwertprinzip (§ 253 HGB).
+
+## Kaltstart-Rueckfragen
+
+1. Welche Branche (Handel, Industrie, Dienstleistung)?
+2. Welche Inventur-Form ist vorgesehen?
+3. Welcher Stichtag für Inventur (Bilanzstichtag oder davor/danach)?
+4. Welche Warengruppen (Roh-, Hilfs-, Betriebsstoffe, Halbfertige, Fertige Waren)?
+5. Welche Bewertungsmethode (FIFO, LIFO, gleitender Mittelpreis)?
+6. Welche Verbrauchsfolgeverfahren (Steuerbilanz nur LIFO unter Voraussetzungen)?
+7. Welche Lagerverwaltung-Software?
+8. Welche Stichprobenpruefung wird durchgefuehrt?
+
+## Rechtlicher Rahmen
+
+### Primaernormen
+
+**§ 240 HGB** — Inventarpflicht jaehrlich.
+
+**§ 241 HGB** — Inventur-Vereinfachungen.
+
+**§ 252 Abs. 1 Nr. 3 HGB** — Einzelbewertungsgrundsatz.
+
+**§ 253 HGB** — Niederstwertprinzip.
+
+**§ 256 HGB** — Bewertungsmethoden.
+
+**§ 6 EStG** — Steuerliche Bewertung.
+
+### Verwaltungsanweisungen
+
+- BMF v. 28.11.2019 zu GoBD (auch Inventur betreffend).
+- IDW PS 480.
+
+## Workflow
+
+### Phase 1 — Inventur-Form waehlen
+
+| Form | Anwendung |
+|---|---|
+| Stichtagsinventur (Standard) | Koerperliche Aufnahme zum Bilanzstichtag |
+| Permanente Inventur | Mit Lagerbuchfuehrung; jaehrliche Stichprobe |
+| Stichprobeninventur | Mathematisch-statistisch (Stichprobenpruefverfahren) |
+| Vorverlegte Inventur | Bis 3 Monate vor Stichtag mit Fortschreibung |
+| Nachverlegte Inventur | Bis 2 Monate nach Stichtag mit Rueckrechnung |
+
+### Phase 2 — Inventur durchfuehren
+
+- Anweisung an Inventur-Personal.
+- Aufnahme von Mengen und Beschreibungen je Position.
+- Sammelliste oder Inventur-Software.
+- Inventur-Protokoll mit Datum, Bearbeiter, Werten.
+
+### Phase 3 — Bewertung
+
+- Mengen x Preis (Anschaffungs-/Herstellungskosten oder niedrigerer Marktwert).
+- Bei Mehrfachbeschaffung: Verbrauchsfolge (FIFO, LIFO, gleitender Mittelpreis).
+- Niederstwertprinzip: bei dauerhafter Wertminderung Abschreibung.
+
+### Phase 4 — Bewertungsmethoden
+
+| Methode | Charakter | Steuerbilanz |
+|---|---|---|
+| FIFO (First in, first out) | Aelteste Bestaende zuerst | Steuerbilanz nicht zwingend zulässig |
+| LIFO (Last in, first out) | Neueste Bestaende zuerst | Steuerbilanz unter § 6 Abs. 1 Nr. 2a EStG |
+| Gleitender Mittelpreis | Durchschnitt | Steuerbilanz akzeptiert |
+| Einzelbewertung | Konkret pro Stueck | Massgeblich |
+
+### Phase 5 — Niederstwertprinzip
+
+- Bei voraussichtlich dauerhaft niedrigerem Wert: Abschreibung.
+- Bei voruebergehender Wertminderung: Wahlrecht.
+- Steuerlich: § 6 Abs. 1 Nr. 2 EStG.
+
+### Phase 6 — Dokumentation
+
+- Inventur-Protokolle aufbewahren (10 Jahre, § 257 HGB).
+- Wertberechnung dokumentieren.
+- Bei Prüfungspflicht WP-Inventur-Begleitung.
+
+## Strategie und Praxis-Tipps
+
+- Inventur ist Pflicht — nicht abgekuerzte Prüfung.
+- Bei Handel und Industrie Inventur-Tag oft am 31. Dezember (Geschäftsruhe).
+- LIFO steuerlich nur unter Voraussetzungen — aber bei Inflation Steuerstundungs-Vorteil.
+- Niederstwertprinzip ist Vorsichtsprinzip — bei zweifelhaften Bestaenden abschreiben.
+- Bei Prüfungspflicht: WP beobachtet Inventur (Stichproben).
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- HGB §§ 240, 241, 252, 253, 256, 257.
+- EStG § 6.
+- BMF v. 28.11.2019 zu GoBD.
+- IDW PS 480.

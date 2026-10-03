@@ -3,9 +3,9 @@ name: client-email
 title: client-email
 description: Draft client-facing emails for legal services — cover notes for contract deliverables, redline summaries, deal status updates, and follow-ups. Use when composing or revising outbound emails to clients about legal work product. Triggers on "draft reply," "email to client," "cover note," "write back to," or any outbound email accompanying a legal deliverable.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/client-email
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/client-workflows/client-email
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -73,19 +73,21 @@ __________________
 
 6. **Professional but direct.** Not stiff. Slightly conversational — "here's," "your call," "happy to" are fine. Avoid legalese in the email body; save technical precision for the document itself.
 
-7. **No title block by default.** Sign off with just your name. Add a title block manually for first-contact situations where the recipient doesn't know you yet.
+7. **Avoid contrastive juxtaposition.** Do not use the "X isn’t Y — it’s Z" pattern (e.g., "This isn’t a rejection — it’s a counter"). It is a hallmark of AI-generated writing and reads as performative rather than natural. State the positive point directly instead.
+
+8. **No title block by default.** Sign off with just your name. Add a title block manually for first-contact situations where the recipient doesn't know you yet.
 
 ## Client relationship principles
 
-8. **Surface action items in the cover line.** If there's an open decision or action item, bold it and name it specifically in the opening sentence. The reader shouldn't have to hunt for what they need to do.
+9. **Surface action items in the cover line.** If there's an open decision or action item, bold it and name it specifically in the opening sentence. The reader shouldn't have to hunt for what they need to do.
 
-9. **Defer on business decisions.** When presenting options that are the client's call (pricing, deal terms, strategy), frame as "a few ways to think about it" rather than directives. Use language like "defer to you" or "happy to [do X] once you decide." The lawyer advises; the client decides.
+10. **Defer on business decisions.** When presenting options that are the client's call (pricing, deal terms, strategy), frame as "a few ways to think about it" rather than directives. Use language like "defer to you" or "happy to [do X] once you decide." The lawyer advises; the client decides.
 
-10. **Service-oriented closings on action items.** Offer to do the work rather than assigning it back. "Am happy to fill in the fields" not "fill in the fields." Signal that you're there to execute, not just advise.
+11. **Service-oriented closings on action items.** Offer to do the work rather than assigning it back. "Am happy to fill in the fields" not "fill in the fields." Signal that you're there to execute, not just advise.
 
-11. **Signal proposals as proposals.** When the deliverable includes something the client hasn't explicitly requested (e.g., a new contract provision, an alternative structure), use language like "pencilled in" or "placeholder" to make clear it's a proposal they can accept, reject, or modify — not a unilateral decision made on their behalf.
+12. **Signal proposals as proposals.** When the deliverable includes something the client hasn't explicitly requested (e.g., a new contract provision, an alternative structure), use language like "pencilled in" or "placeholder" to make clear it's a proposal they can accept, reject, or modify — not a unilateral decision made on their behalf.
 
-12. **Keep procedural detail in footnotes.** Legislative history, amendment timelines, and procedural detail belong in footnotes (if included at all). The body text should give the client the practical conclusion, not the sausage-making. Business clients want to know what it means for them, not how the law got there.
+13. **Keep procedural detail in footnotes.** Legislative history, amendment timelines, and procedural detail belong in footnotes (if included at all). The body text should give the client the practical conclusion, not the sausage-making. Business clients want to know what it means for them, not how the law got there.
 
 ## Example
 

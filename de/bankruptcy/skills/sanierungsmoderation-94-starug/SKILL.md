@@ -1,11 +1,11 @@
 ---
 name: sanierungsmoderation-94-starug
 title: Sanierungsmoderation § 94 StaRUG
-description: 'Sanierungsmoderation nach § 94 StaRUG vorbereiten und durchführen wenn außergerichtliche Einigung mit moderierender Instanz angestrebt wird. §§ 94 ff. StaRUG Sanierungsmoderation. Prüfraster: Antrag Bestellungsvoraussetzungen Moderationsplan Vertraulichkeit Gläubiger-Einbeziehung Abschlussbericht. Output: Moderationsplan Kommunikationsleitfaden Abschlussbericht. Abgrenzung: nicht für StaRUG-Restrukturierungsplan (ips-starug-plan-architektur).'
+description: 'Für Sanierungsmoderation Paragraf 94 StaRUG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzplan-starug-planwerkstatt/skills/sanierungsmoderation-94-starug
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,19 @@ language: de
 
 # Sanierungsmoderation § 94 StaRUG
 
-## Zweck
+## Arbeitsweg
 
-Die Sanierungsmoderation ist ein vorinsolvenzliches präventives Werkzeug nach §§ 94 ff. StaRUG (seit 1.1.2021). Sie ermöglicht vertraulichen Vergleich vor Eskalation in Restrukturierungs-Verfahren oder Insolvenz.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StaRUG §§ 1, 29, 31, 39, 49-55, 84, 102, IDW S 6, IDW S 11, InsO § 270; StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Sanierungsmoderation § 94 StaRUG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -279,20 +289,22 @@ Die Sanierungsmoderation ist ein vorinsolvenzliches präventives Werkzeug nach �
 - Vergleichs-Entwürfe
 - Bei Misserfolg: Eskalations-Plan
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - StaRUG §§ 94 95 96 97 100 90
 - InsO §§ 17 18 19 142
 - **BGH IX ZR 122/23 vom 05.12.2024** — Unlauterkeit bei Bargeschäft im Sanierungskontext; konkretes gezielt schädigendes Verhalten erforderlich. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
-- **BVerfG 1 BvR 418/25 vom 28.02.2025** (VARTA) — verfassungsrechtliche Tragfähigkeit von Sanierungsverfahren. <https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/02/rk20250228_1bvr041825.html>
 - IDW S 6 (Sanierungs-Fähigkeit)
 - Literatur (Frind, Skauradszun) nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle
-
 
 ## Weitere Leitentscheidungen StaRUG-Moderation
 
 - Konkrete Restrukturierungsgerichts-Entscheidungen zur Sanierungsmoderation (§§ 94–100 StaRUG), insbesondere zur Bestellung des Moderators und zur Bestätigung des Sanierungsvergleichs (§ 97 StaRUG), vor Ausgabe über dejure.org / openjur.de mit Gericht, Datum, Aktenzeichen verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

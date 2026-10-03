@@ -1,0 +1,118 @@
+---
+name: ressortaufgaben-bmds-bmf-bmftr-bmg-bmi
+title: Ressortaufgaben BMDS
+description: 'Für Ressortaufgaben BMDS: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Legistik-Werkstatt. Route: ressortaufgaben-bmds-bmf-bmftr-bmg-bmi.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/ressortaufgaben-bmds-bmf-bmftr-bmg-bmi
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Ressortaufgaben BMDS
+
+## Normenanker
+
+Arbeitsfokus: **Ressortaufgaben BMDS**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `Art. 20 Abs. 3 GG` — Gesetzesbindung.
+- `Art. 76 Abs. 1 GG` — Gesetzesinitiative.
+- `Art. 77 Abs. 1 GG` — Gesetzesbeschluss.
+- `Art. 80 Abs. 1 GG` — Verordnungsermächtigung.
+- `Art. 84 Abs. 1 GG` — Verwaltungsvollzug.
+- `§ 42 Abs. 1 GGO` — Gesetzgebungsvorhaben.
+- `§ 43 Abs. 1 GGO` — Ressortabstimmung.
+- `§ 44 Abs. 1 GGO` — Gesetzesfolgen.
+- `§ 45 GGO` — Beteiligung.
+- `§ 46 GGO` — Rechtsförmlichkeit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GGO Ressortbeteiligung i.d.R. 4 Wochen, NKR-Stellungnahme 4 Wochen, Bundesrat 1. Durchgang 6 Wochen / 9 Wochen, Vermittlungsausschuss nach Bedarf.
+- Tragende Normen verifizieren: GGO §§ 40-49 (Rechtsetzungsverfahren), Handbuch der Rechtsförmlichkeit (BMJ), NKR-Gesetz, BGleiG, IT-Konsolidierungs-Konzept, eNorm-Standard, GG Art. 76, 77, 78 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Ressort (BMJ und Fachressort), Bundeskanzleramt, Bundesrat, NKR, Bundestagsausschüsse, Bundesregierung, Wissenschaftliche Dienste, Lobbyregister.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Referentenentwurf, BT-Drucksache, Gesetzesfolgenabschätzung, NKR-Stellungnahme, Verbändeanhörungs-Stellungnahme, Synopse, Erfüllungsaufwandsberechnung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+> Dritter Skill in der Ressort-Kette. Nach `legw-ressort-bmds` (Heranfuehrung) und vor den
+> fuenf Spezialfeldern. Bricht die typische Legistik-Aufgabe auf das BMDS herunter.
+
+## Eingaben
+
+- Auftragsblatt aus `legistik-auftragsaufnahme` mit Ressort-Eintrag BMDS
+- Ressort-Kompass aus `legw-ressort-bmds`
+- Geplante Vorhabenart (Gesetz; Rechtsverordnung; Eckpunktepapier; Änderungsantrag; Vorlage)
+- Politische Zielvorgabe (Koalitionsvertrag; Kabinettsbeschluss; Prüfauftrag)
+
+## Vorgehen
+
+### Schritt 1 - Vorhabenart einordnen
+
+| Vorhabenart | Zuständigkeit im BMDS | Vorlageweg |
+|---|---|---|
+| Eckpunktepapier | Fachreferat plus Hausleitung | Hausintern; ggf. Ressortbesprechung |
+| Referentenentwurf | Fachreferat fuehrt; Hauspruefung (Z; ZA; ZB) | Verbaendeanhoerung; Ressortabstimmung |
+| Kabinettsentwurf | Hausleitung legt vor | Staatssekretaersausschuss; Kabinettsvorlage |
+| Rechtsverordnung | Fachreferat plus ggf. Bundesrat-Zustimmung | RV-Vorlage; ggf. Bundesrat |
+| Änderungsantrag aus der Mitte | Fraktion zusammen mit BMDS | Bundestagsausschuss |
+
+### Schritt 2 - Begruendungspflichten klären
+
+- **Allgemeiner Teil:** Anlass; Zielsetzung; wesentliche Inhalte; Alternativen; Erfuellungsaufwand
+ (Buerger; Wirtschaft; Verwaltung); weitere Kosten; KMU-Belange; Nachhaltigkeit; weitere Folgen.
+- **Besonderer Teil:** Begruendung je Artikel und Absatz; Bezug zu Kernnormen (OZG; EGovG; BSIG; OnlineZugG; Data Act (EU); DSA; KI-VO (EU); RegMoG.).
+- Skill-Anschluss: `begruendung-allgemein-und-besonders` und `folgenabschaetzung-erfuellungsaufwand`.
+
+### Schritt 3 - Verbaendeanhoerung nach GGO Paragraf 47
+
+Im Geschäftsbereich BMDS sind typische Beteiligte:
+
+- Spitzenverbaende der Materie (siehe `legw-bmds-digitale-verwaltung-ozg-und-egovg` und folgende)
+- Länder (Bundesrat-Spiegel; KOM-Vertreter)
+- Wissenschaftliche Sachverstaendige und Beiraete des BMDS
+- EU-Generaldirektion (bei EU-Bezug)
+- Bei Eingriff in Grundrechte: Datenschutzkonferenz; Bundesbeauftragte; ggf. EDSA
+
+Anhörungsfrist regelmaessig vier Wochen; verkuerzte Frist nur mit Begruendung.
+
+### Schritt 4 - Ressortabstimmung und Mitzeichnung
+
+- **Mitzeichnende Ressorts** typisch für BMDS-Vorhaben: BMI (Verwaltung), BMF
+ (Haushalt), BMJV (Prüfung Rechtsfoermlichkeit), BMWE (Wirtschaftsbezug), BMDS (Digital);
+ weitere ressortabhaengig.
+- **Streitschlichtung:** Staatssekretaersrunde; im Ernstfall Chefsache.
+- Skill-Anschluss: `verbaendeanhoerung-ressortabstimmung`.
+
+### Schritt 5 - NKR und Erfuellungsaufwand
+
+- **Nationaler Normenkontrollrat:** Stellungnahme nach Paragraf 4 NKRG; Stellungnahme drueckt die
+ Berechnung des Erfuellungsaufwands auf Plausibilitaet.
+- Skill-Anschluss: `normenkontrollrat-kmu-check` und `legw-rechtsfolgenabschaetzung-leitfaden`.
+
+### Schritt 6 - Kabinettsweg
+
+- Kabinettsvorlage gemäß GGO Paragraf 22 mit Begruendung; Verbaendeauswertung; Ressort-
+ abstimmungsergebnis; NKR-Stellungnahme; ggf. Beschlussfassung im Staatssekretaersausschuss.
+- Skill-Anschluss: `gesetzesentwurf-kabinett` und `spezial-kabinettsentwuerfe-compliance-dokumentation-und-akte`.
+
+### Schritt 7 - Bundestag und Bundesrat
+
+- **Initiativweg:** Bundesregierung (Art. 76 Abs. 1 GG) oder aus der Mitte (Fraktion).
+- **Bundesrat-Beteiligung:** Zustimmungs- oder Einspruchsgesetz; prüfen über
+ `spezial-bundestag-fristen-form-und-zuständigkeit` und `gesetzgebungskompetenz-pruefen`.
+- **Fachausschuss im Bundestag** (BMDS-Spiegel).
+
+### Schritt 8 - Aufsicht und Vollzug im Geschäftsbereich
+
+Nachgeordnete Behörden des BMDS im Vollzug einbinden. Vollzugsfolgen prüfen.
+
+## Abgrenzung
+
+Abgrenzung zu legistik-auftragsaufnahme (Erstaufnahme), normhierarchie-routing (Normwahl), normenkartierung (Bestand), verfassungsmaessigkeit-quercheck (Verfassungsfragen), europarechtskonformitaet (EU-Bezug), folgenabschaetzung-* (Folgenabschaetzung). Dieser Skill dient als Sachfeld-Kompass; er ersetzt nicht die Normprueferei, sondern liefert das Sachverstaendnis für den Normgeber.

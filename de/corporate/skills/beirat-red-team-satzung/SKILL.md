@@ -1,0 +1,55 @@
+---
+name: beirat-red-team-satzung
+title: Beirat Red Team Satzung
+description: 'Für Beirat Red Team Satzung: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: Mittelstands-Corporate/M&A.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/beirat-red-team-satzung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Beirat Red Team Satzung
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Beirat Red Team Satzung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Beirat Red Team Satzung
+- **Normen-/Quellenanker:** GmbHG, HGB, BGB, UmwG, WpÜG/GWB/AWG je nach Transaktion, Satzung, Geschäftsordnung, Gesellschafterbeschluss und Beiratsordnung.
+- **Entscheidende Weiche:** Trenne Dealstruktur, Organbeschluss, Zustimmungsvorbehalt, Informationsrecht, Haftung, Interessenkonflikt und Vollzugsdokument.
+
+## Kaltstart-Fragen
+
+Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
+
+1. Wer handelt, in welcher Rolle, und welches Ergebnis wird gebraucht?
+2. Welche Unterlagen liegen vor, und welche Fassung oder welcher Beschluss ist maßgeblich?
+3. Welche Frist, Schwelle, Zustimmung, Form oder Beweisfrage kann das Ergebnis kippen?
+4. Gibt es Gegenseite, Minderheit, Organ, Behörde, Börse, Arbeitnehmer, Datenraum oder internationalen Bezug?
+5. Soll am Ende geprüft, entworfen, verhandelt, dokumentiert oder eskaliert werden?
+
+## Spezifische Prüfachse
+
+- Übersetze den Slug in eine Satzungs-/Geschäftsordnungsfrage des GmbH-Beirats.
+- Prüfe Grundlage, Kompetenz, Grenze, Verfahren, Haftung, Informationsfluss und Streitmechanik.
+- Erzeuge eine Formulierung, die in der Praxis nicht nur juristisch, sondern organisatorisch funktioniert.
+
+## Arbeitsmodus
+
+1. **Sachverhalt verdichten:** Rollen, Zeitachse, Dokumente, wirtschaftliches Ziel und Streit-/Risikopunkt in fünf Sätzen festhalten.
+2. **Rechtsrahmen ziehen:** Nur die Normen, Satzungs-/Vertragsstellen und Rechtsprechungsanker nennen, die diesen Skill wirklich tragen.
+3. **Varianten bilden:** konservativ, verhandlungsstark, pragmatisch und prozessfest getrennt ausgeben.
+4. **Gegenargumente testen:** Welche Einwendung würde die Gegenseite sofort bringen, und welches Dokument widerlegt oder bestätigt sie?
+5. **Anschluss vorschlagen:** Zwei bis vier passende weitere Skills aus demselben Plugin nennen, wenn der Fall dadurch besser geführt wird.
+
+## Quellenhygiene
+
+Arbeite primär mit: GmbHG §§ 37, 43, 46, 47, 48, 52, 53; BGB §§ 133, 157, 241 Abs. 2, 242; MitbestG/DrittelbG bei Abgrenzung zum obligatorischen Aufsichtsrat; Satzung, Geschäftsordnung, Gesellschafterbeschluss; GeschGehG/DSGVO bei Vertraulichkeit und Datenzugriff.
+
+Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle ausgeben. Wenn keine freie Quelle gefunden wird, als unverified markieren und nicht als tragenden Beleg verwenden.

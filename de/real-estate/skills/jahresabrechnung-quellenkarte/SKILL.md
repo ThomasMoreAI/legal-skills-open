@@ -1,0 +1,68 @@
+---
+name: jahresabrechnung-quellenkarte
+title: Jahresabrechnung Quellenkarte
+description: 'Für Jahresabrechnung Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/jahresabrechnung-quellenkarte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Jahresabrechnung Quellenkarte
+
+## Zweck
+
+Diese Quellenkarte sichert für **WEG/Hausverwaltung** jede tragende Aussage ab: Norm, Rechtsprechung, Behördenpraxis und Zitierfähigkeit werden vor Ausgabe verifiziert.
+
+## Tragende Normen (live prüfen)
+
+- **WEG §§ 18, 19, 20, 23-28, 44, 45** — amtlichen Stand vor tragender Aussage prüfen
+- **HeizkostenV** — amtlichen Stand vor tragender Aussage prüfen
+- **BetrKV** — amtlichen Stand vor tragender Aussage prüfen
+
+## Zuständige Spruchkörper und Behörden
+
+- Amtsgericht Belegenheit
+
+## Amtliche und frei zugängliche Datenbanken
+
+- gesetze-im-internet.de (Bundesrecht amtlich)
+- rechtsprechung-im-internet.de
+- dejure.org / openJur (frei zugängliche Rechtsprechung)
+- bverwg.de
+- Landes-OVG-Datenbanken
+- rechtsprechung-im-internet.de
+
+## Fristen mit Quellenrelevanz
+
+- § 44 WEG Beschlussanfechtung 1 Mon.
+- § 45 WEG Beschlussklage 2 Mon. Begründung
+
+## Prüfroute
+
+1. Normtext gegen die amtliche Quelle prüfen (Fassung, Inkrafttreten, Übergangsrecht).
+2. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Fundstelle ausgeben; Senat/Spruchkörper benennen.
+3. Behördenpraxis (Merkblätter, Erlasse, FAQ) mit Stand-Datum zitieren.
+4. Ergebnis als Quellenmatrix: Aussage — Quelle — Stand — Tragweite — Restunsicherheit.
+
+## Fehlerbremse
+
+- Als engen Leitanker BGH, Urteil vom 20.09.2024 - V ZR 195/23, verwenden: Nicht jeder Rechen- oder Darstellungsfehler macht den Beschluss ungültig; entscheidend ist die Auswirkung auf Abrechnungsspitze und Zahlungspflicht.
+
+- Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+- Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.
+
+## Soll, Ist, Vermögensbericht und neue Kostenschlüssel
+
+Für die konkrete Rechnungskette den [Abrechnungs-Leitweg](../wirtschaftsplan-jahresabrechnung-28-weg/SKILL.md) verwenden: Rechnung und Dublette, externe Zahlung und interne Umbuchung, beschlossene Soll-Vorschüsse und tatsächlich gezahlte Beträge auseinanderhalten. § 28-Spitze wird nicht aus rückständigem Hausgeld gebildet. Vermögensbericht mit Rücklagenstand/wesentlichem Gemeinschaftsvermögen jedem Eigentümer bereitstellen. Bei Schlüsseländerungen V ZR 50/25 vom 24.04.2026, Rn. 13–23, mit konkretem Belastungsvergleich anwenden. Zu jeder Korrektur Beleg-ID, alter/neuer Betrag, Grund und gegebenenfalls neuen Beschlussbedarf angeben; anschließend den verständlichen Eigentümerbrief verfassen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

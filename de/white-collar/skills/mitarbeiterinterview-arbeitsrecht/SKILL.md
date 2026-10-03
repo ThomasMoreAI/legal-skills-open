@@ -1,0 +1,93 @@
+---
+name: mitarbeiterinterview-arbeitsrecht
+title: Mitarbeiterinterviews
+description: 'Für Mitarbeiterinterviews: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Internal Investigations Praxis. Route: mitarbeiterinterview-arbeitsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internal-investigations-praxis/skills/mitarbeiterinterview-arbeitsrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: white-collar
+language: de
+---
+
+# Mitarbeiterinterviews
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; StPO §§ 53, 97, 102, 110, 136, 137, 152, 153a, BGB §§ 280, 626, BRAO § 43a, GwG, AntiDopG, HinSchG; StPO; HinSchG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtlicher Rahmen
+
+Mitarbeiterinterviews bewegen sich zwischen arbeitsvertraglicher Auskunfts- und Rücksichtnahmepflicht, Persönlichkeitsrecht, Beschäftigtendatenschutz und möglicher Selbstbelastung. Eine private Befragung durch den Arbeitgeber ist keine Beschuldigtenvernehmung nach den Paragrafen 136 und 163a StPO; strafprozessuale Belehrungspflichten dürfen daher nicht ungeprüft „analog“ behauptet werden. Vor dem Interview sind Rolle, Freiwilligkeit oder konkrete arbeitsvertragliche Mitwirkungspflicht, persönlicher Rechtsbeistand, Vertraulichkeit, Protokollierung und mögliche Weitergabe an Behörden transparent zu klären.
+
+## Ziel dieses Skills
+
+Strukturiert die Vorbereitung, Durchführung und Nachbereitung von Mitarbeiterinterviews so, dass Aussagen verwertbar sind, Fehler bei der Belehrung keine Verfahrenshindernisse schaffen und der Interviewte weiß, in welcher Rolle er spricht.
+
+## Arbeitsprogramm
+
+### 1. Rollendefinition vor dem Interview
+- Ist der Interviewte **Zeuge**, **Betroffener** oder **Beschuldigter**?
+- Unterschied: Zeuge hat Mitwirkungspflicht aus dem Arbeitsvertrag; Beschuldigter kann die Aussage verweigern (nemo tenetur se ipsum accusare).
+- Rollenwechsel während des Interviews dokumentieren und Interview ggf. unterbrechen.
+
+### 2. Belehrung des Mitarbeiters
+- **Zeugen**: Hinweis auf arbeitsrechtliche Mitwirkungspflicht, kein allgemeines Schweigerecht, aber Zeugnisverweigerungsrecht bei selbstbelastenden Aussagen (analog § 55 StPO, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__55.html)).
+- **Betroffene/Beschuldigte**: Belehrung über Schweigerecht, Recht auf Hinzuziehung eines eigenen Anwalts (§ 136 StPO analog), Hinweis auf mögliche strafrechtliche Relevanz.
+- **Upjohn-Warnung** (US-Praxis): Klarstellen, dass der ermittelnde Anwalt das Unternehmen, nicht den Mitarbeiter, vertritt; der Mitarbeiter sollte einen eigenen Anwalt hinzuziehen.
+- Belehrungstext schriftlich festhalten und von Interviewtem unterzeichnen lassen.
+
+### 3. Betriebsratsbeteiligung
+- § 82 Abs. 2 BetrVG: Arbeitnehmer kann Betriebsratsmitglied als Beistand hinzuziehen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__82.html)).
+- § 87 Abs. 1 Nr. 1 BetrVG: Mitbestimmung bei Ordnungsmaßnahmen; gilt das Interview als Vorstufe zu einer Abmahnung oder Kündigung?
+- Betriebsrat darf nicht zum Kronzeugen gegen eigene Mitglieder gemacht werden.
+
+### 4. Interviewvorbereitung
+- Faktenanalyse: Welche Dokumente, E-Mails, Transaktionen wurden bereits forensisch gesichert?
+- Hypothesenkatalog: Welche Versionen des Sachverhalts sind möglich?
+- Fragenkatalog: offen → geschlossen → konfrontativ (sog. PEACE-Methode oder Reid-Kritik beachten).
+- Keine Vorhaltungen ohne Dokumentengrundlage – jede Konfrontation muss belegbar sein.
+
+### 5. Durchführung
+- Zwei Interviewer (Fragender + Protokollant), kein Einzelinterview.
+- Keine Tonaufnahme ohne informierte Einwilligung (§ 201 StGB, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__201.html)); schriftliches Protokoll ist Standard.
+- Zeitstempel, Ort, Anwesende, Rollendefinition im Protokoll festhalten.
+- Pausen dokumentieren; Druckausübung oder Täuschung vermeiden (Verwertungsverbot!).
+
+### 6. Protokoll und Freigabe
+- Zusammenfassung vs. wörtliches Protokoll: Letzteres für Schlüsselpersonen empfohlen.
+- Interviewter erhält Gelegenheit zur Korrektur (Gegendarstellung); keine Pflicht zur Unterschrift.
+- Privilegiertes Dokument: Protokoll unter Anwaltsgeheimnis halten.
+- DSGVO: Interviewprotokoll ist personenbezogenes Datum; Zugangsbeschränkung und Löschplan festlegen.
+
+### 7. Verwertbarkeit und Beweisverwertungsverbote
+- Aussage unter Drohung (Kündigung) erzwungen → Beweisverwertungsverbot in Strafverfahren (BGH-Grundsatz; vgl. BGH, Urt. v. 3.5.2018 – 3 StR 390/17, [bgh.de](https://www.bgh.de/)).
+- Keine unmittelbare Weitergabe von Interviewprotokollen an Staatsanwaltschaft ohne Prüfung der eigenen Interessen.
+- § 161a StPO: Zeugenpflicht gegenüber Staatsanwaltschaft; Arbeitgeber kann Mitarbeiter nicht anweisen, gegenüber Staatsanwalt zu schweigen ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__161a.html)).
+
+## Normenregister
+
+| Norm | Inhalt | Quelle |
+|---|---|---|
+| § 136 StPO | Belehrung Beschuldigter | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__136.html) |
+| § 55 StPO | Auskunftsverweigerungsrecht | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__55.html) |
+| § 161a StPO | Zeugenpflicht gegenüber StA | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stpo/__161a.html) |
+| § 82 BetrVG | Recht auf Betriebsratsbeistand | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/betrvg/__82.html) |
+| § 201 StGB | Verletzung der Vertraulichkeit | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/__201.html) |
+| § 26 BDSG | Beschäftigtendatenschutz | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/bdsg_2018/__26.html) |
+
+## Ausgabeformate
+
+- **Belehrungsvorlage** (Zeuge / Betroffener / Beschuldigter)
+- **Interviewleitfaden** mit Fragenkatalog (offen → konfrontativ)
+- **Protokollvorlage** (Zeitstempel, Anwesende, Rollenklarstellung)
+- **Upjohn-Warnung** (Mustertext Englisch/Deutsch)
+- **Beweisverwertungsanalyse** für vorliegende Protokolle
+
+Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.

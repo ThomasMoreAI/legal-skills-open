@@ -1,0 +1,116 @@
+---
+name: franchise-leasing-ausstattung
+title: 'Franchise-Leasing: Ausstattung und Eigentumsrechte'
+description: 'Für Franchise-Leasing: Ausstattung und Eigentumsrechte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/leasingrecht-praxis/skills/franchise-leasing-ausstattung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# Franchise-Leasing: Ausstattung und Eigentumsrechte
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtliche Struktur
+
+### Beteiligte
+1. Franchisegeber (FG): System-Inhaber
+2. Franchisenehmer (FN): Betreiber
+3. Leasinggeber (LG): Finanziert und verleast Ausstattung
+
+Varianten:
+- FG ist auch LG: Franchise + Leasing aus einer Hand
+- FG empfiehlt Leasinggeber: Leasingvertrag separat
+- Bankleasinggesellschaft: Unabhängig von FG
+
+### Vertragsverbindung
+- Leasingvertrag und Franchisevertrag sind rechtlich getrennte Verträge
+- Faktische Abhängigkeit: Ausstattung nicht ohne Franchise sinnvoll nutzbar
+- Frage: Sind beide Verträge als verbundene Verträge (§ 358 BGB) zu behandeln?
+
+**§ 358 BGB (Verbundene Verträge)**: Bei Verbrauchern: Wenn Leasingvertrag und Franchisevertrag eine wirtschaftliche Einheit bilden → Einwendungen aus Franchisevertrag können gegen Leasingvertrag geltend gemacht werden (str. bei B2B).
+
+## Beendigung des Franchisevertrags
+
+### Was passiert mit dem Leasingobjekt?
+- Leasingvertrag läuft unabhängig weiter!
+- FN muss weiterhin Leasingraten zahlen, auch wenn Franchise beendet
+- FN kann Ausstattung nicht mehr nutzen (Werbematerial, Logos etc.) → unerwünschte Situation
+
+### Lösungsansätze
+1. **Übernahme durch FG**: FG tritt in Leasingvertrag ein (§ 415 BGB: Schuldübernahme mit Zustimmung LG)
+2. **Vorzeitige Kündigung**: Im Leasingvertrag Sonderkündigungsrecht bei Franchisekündigung vereinbaren
+3. **Neuanmietung/Erwerb**: FN kauft Ausstattung vom LG zum Restwert
+
+### Eigentumsrücknahme
+- FG hat oft Interesse an Rücknahme der Ausstattung (Qualitätsstandards)
+- Wenn FG auch LG: Einfache Rücknahme bei Franchisekündigung
+- Wenn FG und LG getrennt: FG muss LG koordinieren
+
+## Standardisierung und AGB
+
+### FG als Klausel-Ersteller
+- FG gibt Leasingklauseln vor → AGB-Recht gilt
+- Besonders kritisch: Pflicht zur Nutzung bestimmter LG (Kopplungsgeschäft)
+- Kartellrecht: Gebundene Leasingbedingungen können Marktzutrittsbeschränkung sein (Art. 101 AEUV, § 1 GWB)
+
+### Mindestlaufzeit
+- Mindestlaufzeit des Leasingvertrags = Mindestlaufzeit des Franchisevertrags? Im Vertrag regeln
+- Wenn Leasinglaufzeit länger: FN bleibt nach Franchiseende an Leasingraten gebunden
+
+## Steuerliche Behandlung
+
+- FN: Leasingraten als Betriebsausgabe
+- FG (wenn auch LG): Leasingentgelt als Umsatz
+- Verdeckte Gewinnausschüttung: Wenn FG-Mutter an FG-Tochter (LG) zu günstigen Konditionen verleast → VGA-Risiko
+
+## Prüfprogramm
+
+1. Wer ist LG: FG, empfohlener LG oder unabhängige Bank?
+2. Verbundene Verträge (§ 358 BGB): Einwendungsverbund möglich?
+3. Was passiert bei Franchisekündigung? Sonderkündigungsrecht im Leasingvertrag?
+4. Eigentumsrücknahme: Wer holt Ausstattung zurück? Koordination LG–FG?
+5. Kartellrecht: Kopplungsklausel (Pflicht zu bestimmtem LG) zulässig?
+6. Laufzeit-Abstimmung: Franchise- und Leasinglaufzeit synchron?
+
+## Typische Fallen
+
+- Franchisevertrag endet, Leasingvertrag läuft 2 Jahre weiter: FN zahlt Raten für unbrauchbare Ausstattung
+- Kein Sonderkündigungsrecht im Leasingvertrag bei Franchisekündigung
+- Eigentumsklärung bei Umbau/Einbau: Was ist wesentlicher Bestandteil des Mietobjekts? (§ 94 BGB)
+- Kartellrechtlich problematischer Kopplungszwang: Franchisevertrag unwirksam
+
+## Normen und Quellen
+
+- § 358 BGB (Verbundene Verträge): https://dejure.org/gesetze/BGB/358.html
+- § 415 BGB (Schuldübernahme): https://dejure.org/gesetze/BGB/415.html
+- § 94 BGB (wesentlicher Bestandteil): https://dejure.org/gesetze/BGB/94.html
+- Art. 101 AEUV (Kartellverbot): https://eur-lex.europa.eu
+- § 1 GWB (deutsches Kartellverbot): https://www.gesetze-im-internet.de/gwb/__1.html
+- Franchiserecht allgemein: https://dejure.org
+
+## Output-Formate
+
+- **Sonderkündigungsrecht-Klausel**: Muster für Leasingvertrag bei Franchisekündigung
+- **Eigentums-Checkliste**: Wer besitzt was bei Franchisekündigung?
+- **Kartellrechtliche Einschätzung**: Kopplungsklausel zulässig?
+- **Koordinationsplan**: FG und LG bei Franchisebeendigung
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

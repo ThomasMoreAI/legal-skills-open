@@ -1,0 +1,92 @@
+---
+name: entlassmanagement-39-abs-1a-sgb-v
+title: Entlassmanagement § 39 Abs. 1a SGB V
+description: 'Für Entlassmanagement Paragraf 39 Abs. 1a SGB V: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenhausrecht/skills/entlassmanagement-39-abs-1a-sgb-v
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: healthcare
+language: de
+---
+
+# Entlassmanagement § 39 Abs. 1a SGB V
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Entlassmanagement § 39 Abs. 1a SGB V
+- **Normen-/Quellenanker:** KHG/KHEntgG, SGB V, Krankenhausplanung der Länder, Qualitätsvorgaben, Vergütung, MD-Prüfung, Haftung, Datenschutz und Arbeits-/Medizinprodukterecht.
+- **Entscheidende Weiche:** Planung/Zulassung, Vergütung, Behandlungspflicht, Organisation, Qualität, Datenschutz, Haftung und Behördenkommunikation trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Worum geht es konkret
+Das Krankenhaus muss Patienten geordnet entlassen und die naehtlose Anschlussversorgung sichern — § 39 Abs. 1a SGB V. Kernelemente: schriftliche Patienteneinwilligung, Entlassmanagementplan, befristete Verordnungsbefugnis für Arzneimittel, Heil-/Hilfsmittel, Soziotherapie, AU-Bescheinigung; Übergabe an Vertragsarzt.
+
+## Wann dieses Modul hilft / Kaltstart-Fragen
+- Liegt schriftliche Patienteneinwilligung vor (Modul der Aufnahme oder gesondert)?
+- Welche Anschlussversorgung wird benoetigt (Pflege, Reha, ambulante Therapie, Hilfsmittel)?
+- Sind Verordnungen ausgestellt (Arzneimittel max. 7 Tage Wirkdauer, Heilmittel max. 7 Tage, AU max. 7 Tage)?
+- Ist die Schnittstelle zur Reha-/Pflegedienstleistung organisiert?
+- Drohen MDK-Prüfung oder Beschwerden wegen unzureichender Entlassung?
+
+## Rechtlicher Rahmen
+- **SGB V § 39 Abs. 1a** Entlassmanagement, Verordnungsbefugnis Krankenhaus.
+- **Rahmenvertrag Entlassmanagement** zwischen GKV-SV, KBV, DKG.
+- **SGB V §§ 73, 73a** Hausaerztliche Versorgung und Schnittstelle.
+- **SGB V § 87** Bewertungsmaßstab, ggf. Vergütung Entlassgespraech.
+- **SGB XI** Pflegeueberleitung.
+- **PatientenrechteG / BGB §§ 630a ff.** Behandlungsvertrag, Aufklaerung.
+
+## / Schritt für Schritt
+1. **Einwilligung einholen:** Schriftliche oder dokumentierte Einwilligung zum Entlassmanagement bei Aufnahme oder spaetestens vor Entlassung.
+2. **Bedarfsabschaetzung:** Pflegeeinstufung, Reha-Bedarf, Soziotherapie, Hilfsmittel, Heilmittel, Arzneimittel.
+3. **Entlassplan erstellen:** Konkrete Maßnahmen, Ansprechpartner, Termine.
+4. **Verordnungen ausstellen:** Befristet (max. 7 Tage) Arzneimittel, Heil-/Hilfsmittel, AU; mit Verordnungsausweis.
+5. **Übergabe an Vertragsarzt/Pflegedienst:** Schriftlich, mit Kurzarztbrief, Medikationsplan, Begleitdokumenten.
+6. **Dokumentation:** Einwilligung, Entlassgespraech, Plan, Verordnungen — Aufbewahrung mind. 10 Jahre.
+
+## Trade-off-Matrix
+
+| Versorgungsbedarf | Werkzeug Krankenhaus | Limit |
+|---|---|---|
+| Arzneimittel kurzfristig | Verordnung KH | max. 7 Tage Wirkdauer |
+| AU-Bescheinigung | KH-Arzt | max. 7 Tage |
+| Reha | Reha-Antrag, AHB | Vorbereitung Kasse |
+| Pflege | Pflegeueberleitung | SGB XI; Pflegegrad ggf. neu |
+| Hilfsmittel (Rollator etc.) | KH-Verordnung | max. 7 Tage; danach Vertragsarzt |
+
+## Praxistipps
+- Einwilligung am besten in Aufnahmeunterlagen verankern (Datenschutz: separate Module).
+- Medikationsplan nach § 31a SGB V immer beilegen, wenn ≥ 3 Wirkstoffe.
+- Wochenend-/Feiertagsentlassungen rechtssicher absichern — Vertragsarzt nicht erreichbar.
+- Pflegeueberleitung frueh starten, Pflegegrad-Antrag ggf. vorbereiten.
+- Wirtschaftliche Verordnung beachten: Rabattvertraege, Aut-idem-Regelung.
+
+## Mustertexte
+**Patienteneinwilligung Entlassmanagement:**
+> Ich willige in das Entlassmanagement nach § 39 Abs. 1a SGB V ein. Ich bin über den Zweck (geordnete Entlassung, Anschlussversorgung) und über meine Rechte (Widerruf, Datenschutz) informiert. Datum, Unterschrift.
+
+**Kurzarztbrief Strukturvorlage:**
+> Aufnahme: [Datum, Diagnose]. Behandlungsverlauf: … Entlassdiagnose: … Empfohlene Anschlussversorgung: 1. Vertragsarzt [Fach], 2. Pflegegrad [Antrag], 3. Reha [AHB], 4. Medikation (Plan beigefuegt), 5. Verordnungen [Liste]. Kontakt: [KH-Ansprechpartner, Tel.].
+
+## Typische Fehler
+- Einwilligung fehlt oder ist undatiert.
+- Verordnungen ueberschreiten 7-Tage-Frist.
+- Medikationsplan unvollstaendig.
+- Reha-Antrag erst nach Entlassung — Versorgungslueche.
+- Pflegeueberleitung erst am Entlasstag — Pflegegrad-Lueche.
+
+## Quellen Stand 06/2026
+- SGB V § 39 Abs. 1a.
+- Rahmenvertrag Entlassmanagement (Live-Check gkv-spitzenverband.de, dkgev.de, kbv.de).
+- SGB XI Pflegeueberleitung.
+- BGB §§ 630a ff., PatientenrechteG.
+- BSG, staend. Rspr. zur Anschlussversorgung.

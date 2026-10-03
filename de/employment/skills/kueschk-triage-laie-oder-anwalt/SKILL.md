@@ -1,22 +1,50 @@
 ---
 name: kueschk-triage-laie-oder-anwalt
-title: 'KüSchK-Triage: Laie oder Anwalt?'
-description: 'KERNEINSTIEG Kündigungsschutzklage: fragt zuerst ob Anwalt oder Verbraucher-Laie; bei Laie ständige Warnungen und dringende Empfehlung anwaltlicher Beratung; kein Mandatsverhältnis; leitet zu passenden Folge-Skills; zentraler Startpunkt für das gesamte KueschK-Workflow-Buendel.'
+title: 'KERNEINSTIEG Kündigungsschutzklage: fragt zuerst ob Anwalt oder Verbraucher-Laie'
+description: 'Für KERNEINSTIEG Kündigungsschutzklage: fragt zuerst ob Anwalt oder Verbraucher-Laie: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-triage-laie-oder-anwalt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# KüSchK-Triage: Laie oder Anwalt?
+# KERNEINSTIEG Kündigungsschutzklage: fragt zuerst ob Anwalt oder Verbraucher-Laie
 
-## Zweck
 
-Dieser Skill ist der **Kerneinstieg** für das Kündigungsschutzklage-Bündel. Er klärt zunächst, wer den Workflow nutzt, und leitet dann zielgerichtet weiter. Ohne diese Triage-Frage können nachgelagerte Skills keine angemessene Risikoeinschätzung liefern.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** KERNEINSTIEG Kündigungsschutzklage: fragt zuerst ob Anwalt oder Verbraucher-Laie; bei Laie ständige Warnungen und dringende Empfehlung anwaltlicher Beratung; kein Mandatsverhältnis; leitet zu passenden Folge-Skills; zentraler Startpunkt für das gesamte KueschK-Workflow-Buendel.
+
+### KüSchK-Triage: Laie oder Anwalt?
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `KüSchK-Triage: Laie oder Anwalt?` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eröffnungsfrage (PFLICHT, immer zuerst)
 
@@ -30,11 +58,11 @@ Es werden nur zwei Antworten akzeptiert:
 
 ## Pfad A: Anwalt / Anwältin
 
-Für Anwältinnen und Anwälte gilt:
+Für Anwälte gilt:
 - Kein dauernder Warnkopf erforderlich (Berufsrecht und Haftungsbewusstsein vorausgesetzt)
 - Anwaltliche Klageschrifts-Bausteine verfügbar (Skill `kueschk-klageschrift-anwalt-baustein`)
-- Hinweis auf Dokumentationspflichten nach § 43a BRAO
-- Fristencheck § 4 KSchG trotzdem sofort
+- Hinweis auf Dokumentationspflichten nach Paragraf 43a BRAO
+- Fristencheck Paragraf 4 KSchG trotzdem sofort
 
 ## Pfad B: Verbraucher / Laie
 
@@ -44,9 +72,9 @@ Bei Angabe "Verbraucher" oder "Laie" erscheint folgender **Pflicht-Warnblock**, 
 
 **WICHTIGE WARNUNG – BITTE GENAU LESEN**
 
-Du bist dabei, rechtliche Schritte einzuleiten, ohne Anwalt zu sein. Das ist gesetzlich erlaubt (§ 11 Abs. 1 ArbGG: kein Anwaltszwang in erster Instanz vor dem Arbeitsgericht), birgt aber erhebliche Risiken:
+Du bist dabei, rechtliche Schritte einzuleiten, ohne Anwalt zu sein. Das ist gesetzlich erlaubt (Paragraf 11 Abs. 1 ArbGG: kein Anwaltszwang in erster Instanz vor dem Arbeitsgericht), birgt aber erhebliche Risiken:
 
-1. **Drei-Wochen-Frist § 4 KSchG**: Verpasst du diese Frist, gilt die Kündigung als wirksam — ohne Ausnahme.
+1. **Drei-Wochen-Frist Paragraf 4 KSchG**: Verpasst du diese Frist, gilt die Kündigung als wirksam — ohne Ausnahme.
 2. **Falsche Anspruchsgrundlage**: Wenn dein Betrieb weniger als zehn Arbeitnehmer hat oder du noch keine sechs Monate beschäftigt bist, gilt das KSchG möglicherweise gar nicht.
 3. **Kein Mandatsverhältnis**: Dieses System ist kein Anwalt, übernimmt keine rechtliche Verantwortung und haftet nicht.
 4. **Mechanische Prüfung**: Das System prüft nur das, was du eingibst. Falsche oder unvollständige Angaben führen zu falschen Ergebnissen.
@@ -69,27 +97,22 @@ Du bist dabei, rechtliche Schritte einzuleiten, ohne Anwalt zu sein. Das ist ges
 
 ## Zentrale Normen
 
-- **§ 11 Abs. 1 ArbGG** — Kein Anwaltszwang vor dem Arbeitsgericht erste Instanz
-- **§ 11 Abs. 4 ArbGG** — Anwaltszwang ab Berufung vor dem LAG
-- **§ 4 KSchG** — Drei-Wochen-Klagefrist (absolute Ausschlussfrist)
-- **§ 23 KSchG** — Geltungsbereich KSchG (über 10 Arbeitnehmer)
-- **§ 1 Abs. 1 KSchG** — Wartezeit sechs Monate
-- **§ 43a BRAO** — Dokumentationspflichten für Anwälte (Beratung über Risiken)
-- **§ 626 BGB** — Fristlose Kündigung aus wichtigem Grund (besondere Triage: andere Fristen)
+- **Paragraf 11 Abs. 1 ArbGG** — Kein Anwaltszwang vor dem Arbeitsgericht erste Instanz
+- **Paragraf 11 Abs. 4 ArbGG** — Anwaltszwang ab Berufung vor dem LAG
+- **Paragraf 4 KSchG** — Drei-Wochen-Klagefrist (absolute Ausschlussfrist)
+- **Paragraf 23 KSchG** — Geltungsbereich KSchG (über 10 Arbeitnehmer)
+- **Paragraf 1 Abs. 1 KSchG** — Wartezeit sechs Monate
+- **Paragraf 43a BRAO** — Dokumentationspflichten für Anwälte (Beratung über Risiken)
+- **Paragraf 626 BGB** — Fristlose Kündigung aus wichtigem Grund (besondere Triage: andere Fristen)
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Keine Vorwegnahme des Ergebnisses
 
-Der Skill liefert noch keine inhaltliche Prüfung der Kündigung. Er stellt ausschließlich die Weichenfrage, welche den gesamten nachfolgenden Workflow prägt.
+Der Skill liefert noch keine inhaltliche Prüfung der Kündigung. Er stellt ausschließlich die Weichenfrage, welche den gesamten nachfolgenden prägt.
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,22 +1,21 @@
 ---
 name: privacy-generator
 title: Privacy Policy Generator
-description: 'Generates comprehensive privacy policies by scanning websites for data collection
-
-  signals including cookies, forms, payment processors, and third-party scripts.
-
-  Use when launching a website or app that collects user data and needs GDPR/CCPA compliance.
-
-  Trigger with "/privacy-generator" or "create a privacy policy for my website".'
+description: Generates comprehensive privacy policies by scanning websites for data collection signals including cookies, forms, payment processors, and third-party scripts. Use when launching a website or app that collects user data and needs GDPR/CCPA compliance. Trigger with "/privacy-generator" or "create a privacy policy for my website".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/privacy-generator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
 language: en
-tags: [legal, privacy-policy, gdpr, ccpa, cookies]
+tags:
+- legal
+- privacy-policy
+- gdpr
+- ccpa
+- cookies
 ---
 
 # Privacy Policy Generator

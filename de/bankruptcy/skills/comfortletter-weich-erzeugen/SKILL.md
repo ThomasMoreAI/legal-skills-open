@@ -1,11 +1,11 @@
 ---
 name: comfortletter-weich-erzeugen
 title: Comfortletter (weich)
-description: Erzeugt einen Comfortletter — eine weiche Erklärung des Patrons oder Mutterunternehmens das Tochterunternehmen zu unterstuetzen. Im Gegensatz zur harten externen Patronatserklärung ist der Comfortletter nicht rechtsverbindlich durchsetzbar. Wirkung Reputation und Banken-Signal. Nicht ausreichend zur Berücksichtigung im insolvenzrechtlichen Status nach § 19 Abs. 2 InsO. Skill erzeugt Dokument plus Warnhinweis dass der Comfortletter die Fortbestehensprognose nicht traegt.
+description: 'Für Comfortletter (weich): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/comfortletter-weich-erzeugen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,6 +14,14 @@ language: de
 
 # Comfortletter (weich)
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Wirkung und Grenze
 
 Der Comfortletter ist eine **moralische Unterstützungserklärung** ohne rechtliche Bindung. Er wirkt im Geschäftsverkehr (Bank Lieferant Investor) als **Reputations-Signal**.
@@ -21,10 +29,10 @@ Der Comfortletter ist eine **moralische Unterstützungserklärung** ohne rechtli
 **Wirkung im Status der Gesellschaft**:
 
 - **Keine** Berücksichtigung als Aktivposten.
-- **Keine** Wirkung auf die Fortbestehensprognose.
+- **Keine** eigenständige Tragwirkung für die Fortbestehensprognose.
 - **Reine** Unterstützungsabsichtserklärung.
 
-Wer den Comfortletter mit einer harten externen Patronatserklärung verwechselt schiebt eine **Selbsttaeuschung** in den Status hinein. Bei späterer Insolvenz wird das aufgedeckt; Haftungsrisiko des Geschäftsleiters § 15b InsO und § 43 GmbHG.
+Wer den Comfortletter mit einer harten Patronatserklärung verwechselt, schiebt eine Selbsttäuschung in den Status hinein. Bei späterer Insolvenz wird das aufgedeckt; Haftungsrisiko des Geschäftsleiters nach Paragraf 15b InsO und Paragraf 43 GmbHG. Nach BGH II ZR 84/20 kann eine weiche Patronatserklärung eine positive Fortbestehensprognose in der Krise allenfalls ausnahmsweise stützen, wenn die finanzielle Unterstützung trotz fehlenden Rechtsanspruchs überwiegend wahrscheinlich und konkret belegt ist. Der sichere Weg bleibt die harte, bezifferte und abrufbare Zusage.
 
 ## Wann sinnvoll
 
@@ -37,6 +45,7 @@ Wer den Comfortletter mit einer harten externen Patronatserklärung verwechselt 
 - Als **alleinige** Maßnahme im Status der Gesellschaft.
 - Wenn die Fortbestehensprognose ohne den Comfortletter negativ ist.
 - Wenn der Patron tatsächlich bonitaer ist und eine harte Erklärung abgeben könnte (dann sollte er auch).
+- Wenn Bank, Abschlussprüfer oder Geschäftsleiter einen rechtlich tragfähigen Mittelzufluss brauchen.
 
 ## Mustervorlage
 
@@ -94,22 +103,18 @@ Mit freundlichen Grüßen
 - Warnhinweis im Sanierungsbausteine-Tracker dass dieser Comfortletter die Prognose NICHT trägt.
 - Empfehlung: parallel zum Comfortletter eine harte externe Patronatserklärung mit konkretem Höchstbetrag (Skill `patronatserklaerung-extern-hart-erzeugen`).
 
-
 ## Aktuelle Leitentscheidungen — Comfortletter
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- BGH, Urteil vom 13.07.2021 - II ZR 84/20: weiche Patronatserklärung verhindert rechnerische Überschuldung nicht und trägt eine Fortbestehensprognose in der Krise nur ausnahmsweise bei belastbarer Unterstützungserwartung.
+- Arbeitsregel: Comfort Letter nie als Liquiditätsquelle buchen; nur als weichen Kontextbeleg neben harter Zusage, Rangrücktritt, Stundung, Zuschuss oder Kreditlinie.
 
 ## Paragrafenkette Comfortletter
 
-§ 19 Abs. 2 S. 2 InsO (Passivierungsverbot nur fuer qualifizierten Rangruecktritt) → § 311 BGB (vorvertragliche Haftung aus Comfortletter) → § 241 Abs. 2 BGB (Schutzpflichten) → § 43 GmbHG (Haftung der Konzernmutter)
+§ 19 Abs. 2 S. 2 InsO (Passivierungsverbot nur für qualifizierten Rangrücktritt) → § 311 BGB (vorvertragliche Haftung aus Comfortletter) → § 241 Abs. 2 BGB (Schutzpflichten) → § 43 GmbHG (Haftung der Konzernmutter)
 
 ## Triage — Comfortletter vs. Patronatserklaerung
 
-1. **Zweck?** Bankgespraech, Fortbestehensprognose oder echte rechtliche Sicherung? → Banken akzeptieren oft Comfortletter; Prognose benoetigt harte Patronatserklaerung.
+1. **Zweck?** Bankgespräch, Fortbestehensprognose oder echte rechtliche Sicherung? Banken akzeptieren oft Comfortletter; die Prognose benötigt eine harte, bezifferte und abrufbare Patronatserklärung oder einen anderen harten Finanzierungsbaustein.
 2. **Rechtsbindungswillen?** Comfortletter = keine Rechtsbindung; Patronatserklaerung = verbindlich.
-3. **Formulierung?** Vage Formulierungen ("werden unterstuetzen") koennen trotzdem Haftung ausloesen.
-4. **Alternative?** Ersetze Comfortletter durch qualifizierten Rangruecktritt oder harte Patronatserklaerung wenn Fortbestehensprognose abgesichert werden soll.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+3. **Formulierung?** Vage Formulierungen ("werden unterstuetzen") können trotzdem Haftung ausloesen.
+4. **Alternative?** Ersetze Comfortletter durch qualifizierten Rangrücktritt oder harte Patronatserklaerung wenn Fortbestehensprognose abgesichert werden soll.

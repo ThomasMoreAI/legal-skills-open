@@ -1,11 +1,11 @@
 ---
 name: verkehr-infrastrukturrecht-sondernutzung
 title: Sondernutzung oeffentlicher Strassenflaechen
-description: 'Sondernutzung öffentlicher Strassenflaechen beantragen und anfechten: Unternehmen braucht Erlaubnis für Aussengastronomie, Ladesaeule oder Baustelle. Normen: § 8 FStrG (Bundesstrassenrecht), § 16 StrWG NW (Landesstrassenrecht), BayStrWG (Bayern), VwGO (Widerspruch). Prüfraster: Erlaubnis vs. Gemeingebrauch, Auflagen-Prüfung, Gebühren, Widerruf bei Verkehrsanforderungen, Ladesaeulen/Aussengastro/Warenauslagen/Baustelleneinrichtung. Output Sondernutzungsantrag, Widerspruchsschrift gegen Ablehnung. Abgrenzung: Parkraum siehe verkehr-infrastrukturrecht-parkraumbewirtschaftung; Planfeststellung siehe verkehr-infrastrukturrecht-planfeststellung.'
+description: 'Für Sondernutzung öffentlicher Strassenflächen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verkehrs- und Infrastrukturrecht. Route: verkehr-infrastrukturrecht-sondernutzung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehr-infrastrukturrecht/skills/verkehr-infrastrukturrecht-sondernutzung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: transportation
@@ -31,10 +31,6 @@ language: de
 - **§ 40 VwVfG** — Ermessen der Behoerde bei der Erlaubniserteilung; kein Anspruch, aber willkuerfreie Entscheidung
 - **§ 49 VwVfG** — Widerruf einer rechtmaessigen Erlaubnis
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -52,3 +48,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Gebuehren muessen verhaeltnismaessig sein — bei exzessiven Gebuehren Widerspruch.
 - Gleichbehandlung pruefen: Erlaubt die Gemeinde anderen Nutzern dasselbe?
 - Anwaltliche Endkontrolle bei Antraegen und Widerspruechen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

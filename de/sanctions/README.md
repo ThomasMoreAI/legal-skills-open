@@ -8,10 +8,10 @@ Jurisdiction: `de` · Practice: `sanctions` · Skill language varies per skill.
 
 | Skill | What it does |
 |---|---|
-| [`BAFA-Genehmigungen und Anfragen`](skills/aussenwirtschaft-bafa-genehmigungen/) | BAFA-Genehmigungsverfahren für Exporte und Dienstleistungen mit Genehmigungspflicht. Anwendungsfall Exporteur… |
-| [`Exportkontrolle und Dual-Use`](skills/aussenwirtschaft-exportkontrolle-dual-use/) | Exportkontrolle Dual-Use-Prüfung für Gueter Software Technologie und Dienstleistungen mit… |
-| [`Güterlisten- und Klassifizierungslog`](skills/aussenwirtschaft-gueterlisten-klassifizierung/) | Klassifizierungsdossier für Exportkontrolle Zolltarif und Dual-Use-Einordnung. Anwendungsfall Produkt muss… |
-| [`Verbote und Beschränkungen bei Ein- und Ausfuhr`](skills/aussenwirtschaft-vub-einfuhr-ausfuhr/) | Verbote und Beschraenkungen VuB für besondere Waren wie Dual-Use Kulturgut CITES F-Gase Lebensmittel und… |
+| [`BAFA-Genehmigungen und Anfragen`](skills/aussenwirtschaft-bafa-genehmigungen/) | Für BAFA-Genehmigungen und Anfragen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
+| [`Dual-Use-Ausfuhrkontrolle: Klassifizierung und Genehmigungspfad`](skills/aussenwirtschaft-exportkontrolle-dual-use/) | Für Dual-Use-Ausfuhrkontrolle: Klassifizierung und Genehmigungspfad: prüft Ergebnis, Beweislast und… |
+| [`Gueterlistenklassifizierung: Systematische Einreihung in Dual-Use und Ruestungsgueterlisten`](skills/aussenwirtschaft-gueterlisten-klassifizierung/) | Für Außenwirtschaft Güterlisten Klassifizierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Verbote und Beschränkungen bei Ein- und Ausfuhr`](skills/aussenwirtschaft-vub-einfuhr-ausfuhr/) | Für Verbote und Beschränkungen bei Ein- und Ausfuhr: ordnet Norm, Beweislast und Gegenargument… |
 
 ## Cold-start context
 

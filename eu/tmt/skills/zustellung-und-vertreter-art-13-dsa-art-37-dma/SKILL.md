@@ -1,0 +1,141 @@
+---
+name: zustellung-und-vertreter-art-13-dsa-art-37-dma
+title: 'Zustellung gegen Plattform mit Sitz außerhalb der EU und EU-Vertreter-Pflichten: Kläger will Schriftstuecke zustellen od'
+description: 'Für Zustellung und Vertreter Art 13 Dsa Art 37 Dma: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/dsa-dma-digitalregulierung/skills/zustellung-und-vertreter-art-13-dsa-art-37-dma
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: tmt
+language: de
+---
+
+# Zustellung gegen Plattform mit Sitz außerhalb der EU und EU-Vertreter-Pflichten: Kläger will Schriftstuecke zustellen oder Behörde will Plattform erreichen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DSA Art. 16 Notice-and-Action unverzügliche Reaktion, Art. 24 jährlicher Transparenzbericht, Art. 34 Risikoassessment jährlich/bei Bedarf, DMA Art. 11 Compliance-Bericht 6 Monate nach Benennung.
+- Tragende Normen verifizieren: Digital Services Act (VO 2022/2065) Art. 4-15 (Haftung), 16-22 (Meldung), 24-32 (mittelgroße/VLOP), 33-43 (sehr große), 50-66 (Aufsicht), Digital Markets Act (VO 2022/1925) Art. 3 (Gatekeeper), 5-7 (Pflichten), DDG, TMG (außer Kraft), NetzDG (auslaufend) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter Vermittlungsdienst / Hosting / Online-Plattform / sehr große Online-Plattform (VLOP) / Suchmaschine (VLOSE), BNetzA als DSC, EU-KOM (DMA-Vollzug), nationaler Koordinator, Beschwerdeführer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: AGB nach Art. 14 DSA, Transparenzbericht, Risikoassessment, Compliance-Officer-Konzept, Streitbeilegung Art. 21 DSA, DSC-Meldung, DMA-Compliance-Bericht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Zustellung gegen Plattform mit Sitz außerhalb der EU und EU-Vertreter-Pflichten: Kläger will Schriftstuecke zustellen oder Behörde will Plattform erreichen. Normen: DSA (EU) 2022/2065 Art. 13 (EU-Rechtsvertreter-Pflicht), Art. 11 DSA (Behörden-Kontaktstelle), Art. 12 DSA (Nutzerkontaktstelle), DMA Art. 37 (Vertreter Gatekeeper), EuZVO (EU) 2020/1784. Prüfraster: EU-Vertreter bestellt oder nicht, Zustellungsweg (EuZVO, ZRHO, HZueue), § 184 ZPO (Zustellung Ausland), Bruessel-Ia internationale Zuständigkeit. Output Zustellungs-Strategie-Memo, Vertreter-Anforderungs-Schreiben. Abgrenzung: Account-Sperre Nutzer siehe account-sperre-soziales-netzwerk-rechtsbehelfe-art-20-23-dsa; DMA Pflichten siehe dma-gatekeeper-schwellen-und-kernplattformdienste.
+
+### Zustellung gegen Auslands-Plattform — Art. 13 DSA und Art. 37 DMA
+
+## Drei Vertreter-Schichten
+
+| Norm | Wofür | Adressat |
+|---|---|---|
+| Art. 11 DSA | Behördenkommunikation | DSC, Kommission, EBDS |
+| Art. 12 DSA | Nutzerkommunikation | Empfänger des Dienstes |
+| Art. 13 DSA | **EU-Rechtsvertreter** für Anbieter ohne EU-Niederlassung | Behörden + Gerichte? |
+| Art. 37 DMA | Bevollmächtigter Vertreter für Gatekeeper | Kommission |
+
+## Art. 13 DSA im Detail
+
+- Anbieter von Vermittlungsdiensten **ohne Niederlassung in der EU**, die ihre Dienste in der Union anbieten, müssen **schriftlich einen Rechtsvertreter** benennen
+- Sitz des Vertreters in einem Mitgliedstaat, in dem der Anbieter Dienste anbietet
+- Vertreter wird **gemeinsam mit dem Anbieter** für Pflichten nach DSA gegenüber Behörden zur Verantwortung gezogen (Art. 13 Abs. 3)
+- Identität und Kontaktdaten an den DSC im Niederlassungsstaat des Vertreters mitgeteilt — und **öffentlich zugänglich** gemacht
+
+### Streitfrage: Zustellung in Zivilverfahren
+
+- DSA äußert sich primär zu Verwaltungs- und Aufsichtskommunikation
+- **Direkte Zustellung von Zivilklagen** an den Art.-13-Vertreter ist umstritten — der Vertreter ist nicht zwingend Zustellungsbevollmächtigter im Sinne von §§ 170, 171 ZPO
+- Bei tatsächlicher **EU-Niederlassung** (z. B. EU-Tochter) Zustellung dorthin nach EuZVO unproblematisch
+- Bei reinem Drittstaaten-Anbieter mit Art.-13-Vertreter: Strategie ist, Vertreter **anzuschreiben** und Zustellung zu versuchen; bei Verweigerung Zustellung über das HZÜ oder konsularisch
+
+## Internationale Zuständigkeit
+
+| Konstellation | Norm |
+|---|---|
+| Verbraucher klagt Plattform | Art. 17 ff. Brüssel-Ia: Wohnsitz Verbraucher |
+| Gewerblicher Nutzer | Art. 7 Nr. 1: Erfüllungsort (idR Sitz Plattform) |
+| Plattform außerhalb EU | nationale Auffangregeln (§ 23 ZPO Vermögensgerichtsstand bei Vermögen im Inland) |
+
+## Zustellungswege
+
+### Innerhalb EU
+
+- **EuZVO** VO (EU) 2020/1784 (Neufassung), Art. 8 bis 14 — Übermittlung Stelle zu Stelle; e-CODEX seit 2025
+- Direkte Postzustellung mit Empfangsbestätigung möglich (Art. 18)
+
+### Drittstaaten
+
+- **HZÜ 1965** (Haager Zustellungsübereinkommen)
+- Konsularische Zustellung
+- ZRHO als nationales Regelwerk
+- **§ 184 ZPO** — Zustellungsbevollmächtigter: bei einem inländischen Verfahrensbeteiligten kann das Gericht die Benennung eines inländischen Zustellungsbevollmächtigten anordnen; bei Untätigkeit gilt Zustellung als bewirkt
+
+## Strategien bei Zustellungsproblemen
+
+1. **Vorprüfung der Niederlassungslandschaft**: EU-Tochter, Repräsentanz, Vertriebsbüro? Lieber dorthin als an Drittstaatensitz
+2. **Art.-11/12/13-Vertreter ansprechen**: erst informell, dann gerichtlich (Anwaltsschreiben mit angeforderter Annahmebereitschaft)
+3. **Eilantrag und parallele Hauptsache**: Eilantrag kann nach § 922 Abs. 2 ZPO ohne förmliche Zustellung an den Antragsgegner ergehen; danach Vollziehung
+4. **§ 184 ZPO** beantragen, wenn Plattform am Verfahren beteiligt ist
+5. **Öffentliche Zustellung** (§ 185 ZPO) nur Ultima Ratio, hohe Hürde, wenn Aufenthalt unbekannt; bei Plattform mit publik bekannter Adresse meist nicht möglich
+6. **Parallele Behördenbeschwerde** beim DSC: kann Plattform zur Mitwirkung veranlassen
+
+## Vollstreckung
+
+- Auch wenn Titel ergeht: Vollstreckung gegen Auslands-Plattform schwierig
+- **Vermögen in der EU?** — Bankkonten der EU-Tochter, EUIPO-Marken, Server-Hardware
+- **Vollstreckung in den USA** über Foreign Country Money Judgments Recognition Act je Bundesstaat
+- Druckmittel: **DSC-Beschwerde** und mediale Begleitung
+
+## Art. 37 DMA
+
+- Gatekeeper ohne EU-Niederlassung müssen **bevollmächtigten Vertreter** in einem Mitgliedstaat benennen
+- Vertreter empfängt **alle Mitteilungen der Kommission** und nationaler Behörden im DMA-Kontext
+- Vertreter haftet gesamtschuldnerisch nicht direkt nach DMA, ist aber zentrale Anlaufstelle
+- Für Zivilverfahren gilt das Gleiche wie bei Art. 13 DSA — keine automatische Zustellungsbevollmächtigung
+
+## Schnittstelle DDG
+
+- Bundesnetzagentur als DSC führt **öffentliches Verzeichnis** der Art.-13-Vertreter
+- Bei Pflichtverstoß (kein Vertreter benannt): Bußgeld nach DDG, ggf. Diensteinschränkung
+
+## Zentrale Normen (Paragrafenkette)
+
+- Art. 13 DSA — Pflicht zur Benennung eines gesetzlichen Vertreters in der EU für Nicht-EU-Anbieter
+- Art. 11 DSA — Zentrale Kontaktstelle für Behörden
+- Art. 12 DSA — Zentrale Kontaktstelle für Nutzer
+- Art. 37 DMA — Vertreter für Gatekeeper ohne EU-Niederlassung
+- Art. 1–5 EuZVO 2020/1784 — Europäische Zustellungsverordnung
+- §§ 183–185 ZPO — Auslandszustellung und öffentliche Zustellung
+- Art. 17–19 HZÜ — Haager Zustellungsübereinkommen
+
+## Triage zu Beginn
+
+1. Hat die Plattform eine EU-Niederlassung? (Zustellung dorthin nach EuZVO)
+2. Ist ein EU-Vertreter nach Art. 13 DSA benannt? (Kommissionsregister prüfen)
+3. Scheitert die Zustellung an Weigerung? (§ 184 ZPO / öffentliche Zustellung § 185 ZPO als Ultima Ratio)
+4. Ist internationale Zuständigkeit nach Brüssel Ia-VO (VO 1215/2012) gegeben?
+
+## Output-Template — Zustellungsplan
+
+**Adressat:** Gericht / Gerichtsvollzieher — Tonfall: sachlich-juristisch
+
+```
+Zustellungsplan [DATUM]
+Empfaenger: [PLATTFORMNAME, SITZ]
+EU-Vertreter nach Art. 13 DSA: [NAME, ANSCHRIFT] / nicht benannt
+EU-Niederlassung: [JA/NEIN; WENN JA: ANSCHRIFT]
+
+Bevorzugter Zustellungsweg:
+1. Wahl: EU-Vertreter nach Art. 13 DSA an [ANSCHRIFT]
+2. Wahl: EU-Niederlassung (falls vorhanden)
+3. Wahl: EuZVO 2020/1784 über Zentralstelle [LAND]
+4. Wahl: § 184 ZPO Ermächtigung eines inlaendischen Bevollmaechtigten
+5. Ultima Ratio: Oeffentliche Zustellung § 185 Nr. 1 ZPO
+
+Internationale Zuständigkeit: Art. [X] Bruessel-Ia-VO (VO 1215/2012)
+Gerichtsstand: [GERICHT]
+```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

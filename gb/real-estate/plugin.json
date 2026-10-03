@@ -9,8 +9,13 @@
   "practice": "real-estate",
   "language": "zh",
   "skills": [
+    "skills/data-protection-guard",
+    "skills/lease-impact-advisor",
+    "skills/lenders-handbook-prescreen",
     "skills/restrictive-covenant-advisor",
+    "skills/safe-ai-gate",
     "skills/sdlt-calculator",
+    "skills/title-defect-advisor",
     "skills/uk-lease-tenant-analysis-translation"
   ]
 }

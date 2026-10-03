@@ -1,0 +1,94 @@
+---
+name: lph8-bauueberwachung-kirche-sanierung-statik
+title: Bauueberwachung Kirche Sanierung Statik (LPH 8)
+description: 'Für Bauüberwachung Kirche Sanierung Statik (LPH 8): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-kirche-sanierung-statik
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Kirche Sanierung Statik (LPH 8)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Kirchensanierungen verbinden Denkmalschutz, Statik-Ertuechtigung und Restaurierung historischer Baustoffe.
+Die Bauueberwachung nach HOAI LPH 8 koordiniert Zimmererarbeiten am Dachstuhl, Gewoelbe-Verpressung und Foerdermittelnachweise.
+Kirchenbauaemter der Landeskirchen haben eigene Baulast-Regelungen und Prüfanforderungen.
+
+## Bauwerk und Auftrag
+
+- Dorfkirche 12. Jahrhundert, Bayern, Evang.-Luth. Kirchengemeinde, Dachstuhl-Sanierung, 800000 Euro
+- Stadtkirche Gothik, NRW, Evang. Kirchenkreis, Gewoelbe-Instandsetzung und Fassade, 1.5 Mio. Euro
+- Kath. Pfarrkirche Neoromanik, Sachsen, Kirchengemeinde, Foerdermittel DSD und Land, 2 Mio. Euro
+
+## Erste Schritte auf der Baustelle
+
+1. Bestandsaufnahme Dachstuhl: Resistograph-Bohrung je Hauptbinder, Schwindfestigkeit, Faeulenachweis
+2. Rissmonitoring Gewoelbe: Rissmassstab-Messung an markierten Rissen, monatliche Ablesung, Kartierung
+3. Dachstuhl-Sanierung: Balkenaustausch GL24h, Verbindungsmittel Edelstahl A4, Holzfeuchte max. 15 Prozent
+4. Gewoelbe-Injektion: Bindemittel NHL 3.5 Naturhydraulikkalk, Einpressdruck max. 3 bar, Protokoll
+5. Blitzschutzanlage: Fangleiter auf First, Ableiter erdverlegt, Erdungswiderstand kleiner 10 Ohm
+6. Feuchtemessung Mauerwerk: CM-Geraet oder Widerstandsmessung an definierten Messpunkten, Karte
+
+## Normen und Rechtsrahmen
+
+- HOAI 2021 § 34 Anlage 10 LPH 8 Grundleistungen
+- § 650p BGB Architektenvertrag, § 650q BGB Kuendigung
+- DIN EN 1995-1-1 Eurocode 5: Bemessung und Konstruktion von Holzbauten
+- DIN EN 62305-3 Blitzschutz: Schutz von Bauwerken und Personen
+- DIN EN 998-1 Moertel: Moertel für Mauerwerk, Instandsetzungsmoertel
+- DIN EN ISO 12572 Waermeschutz: Bestimmung der Wasserdampfdurchlaessigkeit Baustoffe
+
+## Prüferaster und Kontrollpunkte
+
+1. Dachstuhl Resistograph: Bohrkern-Widerstandsprofil je Sparren und Binder, Faeulnis-Gradientbestimmung
+2. Gewoelbe-Rissmonitoring: Rissbreite und Laenge je Markierungspunkt, Wachstum mm/Monat
+3. Holzfeuchte eingebaute Balken: Messung vor und nach Einbau, Grenzwert 15 Prozent
+4. Blitzschutz: Erdungsmessung nach DIN EN 62305, Fangleiter-Kontinuitaet, Seilverbindungen
+5. Naturstein-Fugmoertel: Fugenprobenahme, Laboranalyse Moertelzusammensetzung, Repromoertel-Ansatz
+6. Feuchtemessung Kirchenwand: Messpunkte-Karte, Isochrenlinien Feuchteverteilung, Protokoll
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Dalux Field Kirchensanierung: Schadens-Mapping Kategorie Riss/Feuchte/Faeule, Foto, GPS-Pin Grundriss
+- PlanRadar: Mangel-Ticket, Verantwortlicher Restaurator oder Zimmerer, Faelligkeitsdatum
+- Resistograph-Bohrprotokoll Dachstuhl: CSV-Ausgabe Widerstandsverlauf, Bauteilnummer, Datum
+- 3D-Scan Gewoelbe mit Matterport: Verformungsdarstellung, Rissverortung, Zustandsdokumentation
+- Foerdermittel-Fotodokumentation: Vorher-Nachher je Bauteil, Ausgaben-Belege chronologisch geordnet
+
+## Meldungserstellung im ERP / SAP
+
+- Dalux ERP-Export Kirchenbauamt: Schadensdokumentation als PDF-Sammelreport
+- PlanRadar Sanierungsprojekt: Status je Bauteil (Aufnahme/Behandlung/Abgeschlossen), Fortschritt
+- SAP PM Kirchenbauamt: Equipment Kirchengebaeude, Meldungsart M1 Schadensmeldung, Kostenstelle
+- Foerdermittel-Abrechnung: Ausgaben-Nachweise je Maßnahme, DSD-Verwendungsnachweis
+- RIB iTWO: Aufmass Restaurierung nach Einheiten, Schlusskostenfeststellung je Foerdermassnahme
+
+## Typische Fallstricke
+
+- Zementmoertel bei Gewoelbe: Druckspannungen zerstoeren historischen Kalkmoertel irreversibel
+- Rissmonitoring nicht eingerichtet: Setzungsriss waechst unbemerkt, Statiker nicht alarmiert
+- Foerdermittel-Dokumentation lueckenhaft: Zuwendungsgeber fordert Rueckzahlung
+- Blitzschutz-Trennungsstellen falsch: Ueberspannungsschaeden an Orgel und Kirchenelektronik
+
+## Quellen
+
+- [HOAI 2021 § 34](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [DIN EN 62305 Blitzschutz](https://www.gesetze-im-internet.de/)
+- [DIN EN 998 Moertel](https://www.gesetze-im-internet.de/)
+- [DIN EN 1995 Holzbau](https://www.gesetze-im-internet.de/)
+- [BGH VII ZR 97/01 Kirchensanierung Haftung](https://dejure.org/dienste/vernetzung/rechtsprechung?Text=VII+ZR+97/01)

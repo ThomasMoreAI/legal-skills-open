@@ -6,17 +6,21 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): outside any 
 
 Jurisdiction: `it` · Practice: `general` · Skill language: it
 
-## Skills (7)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
 | [`Analisi Articolo`](skills/analisi-articolo-capazme/) | Analisi approfondita di un singolo articolo di legge con testo vigente, ratio legis, giurisprudenza di… |
-| [`Avvertenze legali`](skills/avvertenze-legali-pixari/) | Avvertenze legali, limiti, deontologia, GDPR AI, segreto professionale. Blocchi output obbligatori. Nessuna… |
-| [`Citazione italiana`](skills/citazione-italiana-pixari/) | Regole citazione diritto italiano ed europeo: norme, Cass., merito, Corte cost., UE, Garante, AE. Tier [da… |
-| [`Cold-start — profilo studio`](skills/cold-start-interview-pixari/) | Intervista cold-start completa per profilo studio in CLAUDE.md: organizzazione, materie, riti, citazioni,… |
-| [`Confronto Norme`](skills/confronto-norme-capazme/) | Confronta due o piu norme evidenziando differenze, sovrapposizioni, criteri di prevalenza e coordinamento.… |
-| [`esporta-documento — Word/PDF di un deliverable legale`](skills/esporta-documento-capazme/) | Esporta un deliverable legale (parere, informativa privacy, DPA, DPIA, registro trattamenti, parcella, atto,… |
-| [`Fascicolo mandato`](skills/fascicolo-mandato-pixari/) | Workspace mandato: struttura cartelle, naming, privilege note, indice allegati. Cross-materia (civile,… |
+| [`Avvertenze legali`](skills/avvertenze-legali-pixari/) | Avvertenze legali, limiti, deontologia, GDPR AI, segreto professionale. Blocchi output obbligatori.… |
+| [`Citazione italiana`](skills/citazione-italiana-pixari/) | Regole citazione diritto italiano ed europeo: norme, Cass., merito, Corte cost., UE, Garante, AE. Tier… |
+| [`Cold-start — profilo studio`](skills/cold-start-interview-pixari/) | Intervista cold-start completa per profilo studio in CLAUDE.md: organizzazione, materie, riti… |
+| [`Confronto Norme`](skills/confronto-norme-capazme/) | Confronta due o piu norme evidenziando differenze, sovrapposizioni, criteri di prevalenza e… |
+| [`esporta-documento — Word/PDF di un deliverable legale`](skills/esporta-documento-capazme/) | Esporta un deliverable legale (parere, informativa privacy, DPA, DPIA, registro trattamenti, parcella… |
+| [`Fascicolo mandato`](skills/fascicolo-mandato-pixari/) | Workspace mandato: struttura cartelle, naming, privilege note, indice allegati. Cross-materia (civile… |
+| [`Metodo giuridico (Italia)`](skills/metodo-giuridico/) | Metodo giuridico italiano completo per atti, pareri, note cliente: qualificazione, norma, subsunzione… |
+| [`Personalizzazione playbook`](skills/personalizzazione-playbook/) | Aggiorna CLAUDE.md (hub o plugin) da feedback utente: red lines, stile, escalation. Equivalente… |
+| [`Template skill — diritto italiano`](skills/skill-template/) | Template per creare nuovi skill giuridici italiani nel marketplace. Usare quando si aggiunge uno skill o… |
+| [`QA skill — checklist v0.2`](skills/skills-qa-pixari/) | QA per SKILL.md v0.2: disclaimer, rito, citazioni, lunghezza minima workflow, testatti, invocabilità.… |
 
 ## Cold-start context
 

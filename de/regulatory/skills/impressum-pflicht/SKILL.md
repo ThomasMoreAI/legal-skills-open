@@ -1,11 +1,11 @@
 ---
 name: impressum-pflicht
 title: Impressumspflicht (§§ 5, 6 DDG, § 18 MStV)
-description: Prüft die Impressumspflicht für Websites, Apps und Social-Media-Profile nach §§ 5 und 6 DDG und § 18 MStV, erstellt konforme Impressumstexte und identifiziert typische Abmahnrisiken nach UWG. Lädt bei Fragen zu Anbieterkennzeichnung, Impressum-Vollständigkeit und Bußgeldrisiken.
+description: 'Für Impressumspflicht (Paragrafen 5. 6 DDG, Paragraf 18 MStV): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/impressum-pflicht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,13 @@ language: de
 
 # Impressumspflicht (§§ 5, 6 DDG, § 18 MStV)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill prüft, ob eine Impressumspflicht nach dem Digitale-Dienste-Gesetz (DDG, in Kraft seit 14.05.2024, vormals TMG) und dem Medienstaatsvertrag (MStV) besteht, welche Pflichtangaben erforderlich sind und wie das Impressum korrekt zu gestalten ist. Er identifiziert Abmahnrisiken nach UWG und Bußgeldrisiken nach DDG. Anwendungsfälle: Unternehmenswebsite, Online-Shop, Blog, Social-Media-Profil (Instagram, LinkedIn, YouTube), App-Store-Listing, Newsletter.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GPSR Geltungsbeginn 13.12.2024, MaschinenVO 20.01.2027, ProdHaftRL-Umsetzung 09.12.2026, Rückruf unverzüglich, Meldung schwerer Unfall innerhalb 2 Tagen.
+- Tragende Normen verifizieren: ProdSG, ProdHaftG, EU-Marktüberwachungs-VO 2019/1020, EU-Produktsicherheits-VO 2023/988 (GPSR ab 13.12.2024), Produkthaftungs-RL 2024/2853, MaschinenVO 2023/1230, GPSGV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Hersteller, Importeur, Händler, Fulfillment-Dienstleister, Marktüberwachungsbehörde (BAuA, Länder), benannte Stelle, Endverbraucher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung, technische Dokumentation, Risikoanalyse, CE-Kennzeichnung, Rückrufkonzept, Sicherheitsbericht, Online-Marktplatz-AGB — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -49,6 +53,7 @@ Das Modell benötigt:
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 **Schritt 1 – Impressumspflicht dem Grunde nach**
@@ -72,7 +77,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Angabe: vollständiger Name, vollständige Anschrift im Impressum.
 
 **Schritt 4 – Platzierung und Zugänglichkeit**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Erreichbarkeit: maximal zwei Klicks von jeder Seite aus.
 - Ständige Verfügbarkeit: kein Login erforderlich, keine Paywall.
 - Bei Social-Media-Profilen: Impressum im Profilbereich (Bio/Info) oder direkt verlinkt.
@@ -84,20 +88,9 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Aktuelle Rechtsprechung & Leitsätze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Ausgabeformat
-
-- **Impressumstext** (fertig formuliert, vollständig, einfügebereit).
-- **Prüfliste** (Tabelle): Pflichtangabe × vorhanden/fehlend × Fundstelle.
-- **Risikomemo** (kurz): Fehlende Angaben, Bußgeld- und Abmahnrisiko, Empfehlung.
 
 ## Beispiel
 
@@ -107,7 +100,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 *Impressumspflicht*: G betreibt einen geschäftsmäßigen Telemediendienst i.S.d. § 5 Abs. 1 DDG (Online-Shop + Blog mit Werbebezug). Impressumspflicht besteht unzweifelhaft.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *v.i.S.d.P.*: Der Blog mit Meinungsbeiträgen ist ein journalistisch-redaktionell gestaltetes Angebot i.S.d. § 18 Abs. 2 MStV. Eine verantwortliche Person mit vollständigem Namen und Anschrift ist zu benennen. Fehlt die Angabe, droht Bußgeld nach § 49 MStV bis 500.000 EUR.
 
@@ -125,7 +117,3 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Quellenpflicht
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-<!-- AUDIT 27.05.2026 bundle_040
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->

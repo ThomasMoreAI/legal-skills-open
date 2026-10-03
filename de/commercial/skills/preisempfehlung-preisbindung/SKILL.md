@@ -1,0 +1,90 @@
+---
+name: preisempfehlung-preisbindung
+title: 'Franchiserecht: Preisempfehlung, Preisbindung und Wettbewerbsrecht'
+description: 'Für Franchiserecht: Preisempfehlung, Preisbindung und Wettbewerbsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/franchiserecht-praxis/skills/preisempfehlung-preisbindung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: commercial
+language: de
+---
+
+# Franchiserecht: Preisempfehlung, Preisbindung und Wettbewerbsrecht
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: GWB §§ 1, 2, 18, 19, 20, 33, 35, 36, AEUV Art. 101, 102, FKVO 139/2004; BGB §§ 311 ff., 305 ff., HGB §§ 84 ff., MarkenG, EU-Vertikal-GVO 2022/720, WettbR — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+Ein Franchisegeber gibt seinen Franchisenehmern Preislisten mit empfohlenen Verkaufspreisen. Ein Franchisenehmer möchte die Preise absenken oder erhöhen und wird vom Franchisegeber unter Druck gesetzt. Alternativ klagt das Bundeskartellamt oder ein Wettbewerber die Preisbindung an.
+
+## Erste Schritte
+
+1. Preisregelungen im Franchisevertrag und Systemhandbuch vollständig erfassen: Festpreis, Mindestpreis, Höchstpreis, unverbindliche Preisempfehlung (UVP).
+2. Kommunikation zwischen Franchisegeber und Franchisenehmern zu Preisen sichten: E-Mails, Rundschreiben, Schulungsunterlagen, Auditberichte.
+3. Druckmittel identifizieren: Kündigungsdrohung, Liefersperre, Listenpreis-Rückvergütung, öffentliches Ranking bei Preisabweichung.
+4. Kartellrechtliche Einordnung: Echte UVP (zulässig) vs. faktisch erzwungener Festpreis (Kernbeschränkung nach Art. 4 lit. a Vertikal-GVO)?
+5. Höchstpreissysteme nach Art. 4 lit. a Vertikal-GVO prüfen: Grundsätzlich zulässig, aber faktische Mindestpreiserhöhung verboten.
+6. Behördenrisiko bewerten: Bundeskartellamt-Entscheidungspraxis, mögliche Bussgelder nach § 81 GWB.
+
+## Rechtsrahmen
+
+- Art. 4 lit. a Vertikal-GVO EU 2022/720: Kernbeschränkung Preisbindung zweiter Hand (RPM); kein Freistellungsschutz
+- § 1 GWB: Kartellverbot
+- § 21 GWB: Verbot des Boykotts und wirtschaftlichen Zwangs
+- § 307 BGB: AGB-Inhaltskontrolle für Preisklauseln
+- Art. 101 AEUV: Kartellverbot EU-Ebene bei grenzüberschreitender Wirkung
+- BGH-Entscheidungen zu vertikalen Preisbindungen (BGHZ-Linie)
+
+## Prüfraster
+
+- Ist die Preisempfehlung tatsächlich unverbindlich oder wird ihre Befolgung durch Sanktionen oder Anreize erzwungen?
+- Enthält das Franchisesystem Anreize (Rabatte, Konditionen), die nur bei Einhaltung empfohlener Preise gewährt werden?
+- Verfolgt der Franchisegeber aktiv Abweichler (Preismonitoring, Testkäufe, Ranking-Systeme)?
+- Gibt es Hinweise auf abgestimmtes Verhalten zwischen Franchisenehmern zu Mindestpreisen?
+- Ist eine Freistellung nach Art. 2 Vertikal-GVO ausgeschlossen, weil die Kernbeschränkung vorliegt?
+- Bestehen Behördenermittlungen oder Anfragen des Bundeskartellamts?
+
+## Fallstricke
+
+- Höchstpreisbindung kippt zur verbotenen Mindestpreisbindung, wenn sie faktisch als Preisuntergrenze wirkt.
+- Blosse Kommunikation von Listenpreisen kann als kartellrechtswidrige Preisabsprache gewertet werden, wenn sie mit Druck verbunden ist.
+- Preisbindung in Systemhandbuch tarnt sich als Qualitäts- oder Markenstandard.
+- Beweissicherungspflicht: Interne Kommunikation zu Preisen kann belastend sein; E-Mail-Archivierung beachten.
+
+## Quellen
+
+- https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R0720
+- https://dejure.org/gesetze/GWB/1.html
+- https://dejure.org/gesetze/GWB/21.html
+- https://dejure.org/gesetze/GWB/81.html
+- https://dejure.org/gesetze/BGB/307.html
+- https://gesetze-im-internet.de/gwb/__21.html
+
+## Vertiefung
+
+Die Grenze zwischen zulässiger unverbindlicher Preisempfehlung und verbotener Preisbindung zweiter Hand ist in der Praxis fliessend. Entscheidend ist nicht der Wortlaut der Empfehlung, sondern die tatsächliche Wirkung: Werden Franchisenehmer durch direkte oder indirekte Maßnahmen veranlasst, die empfohlenen Preise einzuhalten?
+
+Das Bundeskartellamt hat in mehreren Entscheidungen klargestellt, dass auch verdeckte Preisbindungssysteme (z. B. Monitoring mit Sanktionsdrohung) kartellrechtswidrig sind, selbst wenn sie formal als Preisempfehlung ausgestaltet sind. Der EuGH hat in der Coty-Entscheidung für Luxusprodukte Ausnahmen im Selektivvertrieb zugelassen.
+
+## Praxishinweise
+
+- Interne Preiskommunikation nicht mit Sanktionsdrohungen verbinden; Schriftform beachten.
+- Preismonitoring-Systeme nur für interne Analysezwecke einsetzen, nicht für Abweichler-Identifikation mit Sanktionsfolge.
+- Dokumentation: Preisempfehlung als ausdrücklich unverbindlich kennzeichnen.
+- Bei Kartellbehörden-Anfrage unverzüglich Rechtsrat einholen; Mitarbeiter zu Aussagen instruieren.
+- Compliance-Programm für Vertriebsmitarbeiter entwickeln: Was darf gesagt werden bei Franchisenehmern über Preise?
+
+## Abgrenzung und Einordnung
+
+Franchiserecht ist in Deutschland kein eigener gesetzlich geregelter Vertragstyp. Die Rechtsordnung wendet typenverwandte Normen an: BGB-Schuldrecht für Vertragspflichten und Haftung, HGB für handelsrechtliche Besonderheiten, MarkenG für Schutzrechte, GWB und Vertikal-GVO EU 2022/720 für kartellrechtliche Grenzen sowie GeschGehG für Know-how-Schutz. Der Code of Ethics des Deutschen Franchiseverbands (DFV) setzt branchenübliche Mindeststandards, ist aber kein Gesetz.
+
+## Abgrenzung und Einordnung

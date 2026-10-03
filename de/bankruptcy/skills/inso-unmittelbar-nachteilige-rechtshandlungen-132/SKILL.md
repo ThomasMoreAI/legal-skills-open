@@ -1,11 +1,11 @@
 ---
 name: inso-unmittelbar-nachteilige-rechtshandlungen-132
 title: Unmittelbar nachteilige Rechtshandlungen — § 132 InsO
-description: 'Anfechtung unmittelbar nachteiliger Rechtshandlungen nach § 132 InsO prüfen: Benachteiligung in den letzten drei Monaten. Normen: §§ 132 129 InsO. Prüfraster: unmittelbare Nachteiligkeit, Kausalität, Drei-Monats-Frist, Abgrenzung § 129 InsO. Output: Prüfergebnis Anfechtbarkeit unmittelbar nachteilige Rechtshandlung. Abgrenzung: Auffangnorm zu §§ 130 131 InsO.'
+description: 'Für Unmittelbar nachteilige Rechtshandlungen — Paragraf 132 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: inso-unmittelbar-nachteilige-rechtshandlungen-132.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/inso-unmittelbar-nachteilige-rechtshandlungen-132
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,6 +13,18 @@ language: de
 ---
 
 # Unmittelbar nachteilige Rechtshandlungen — § 132 InsO
+
+## Arbeitsbereich
+
+Anfechtung unmittelbar nachteiliger Rechtshandlungen nach § 132 InsO prüfen: Benachteiligung in den letzten drei Monaten. Normen: §§ 132 129 InsO. Prüfraster: unmittelbare Nachteiligkeit, Kausalität, Drei-Monats-Frist, Abgrenzung § 129 InsO. Output: Prüfergebnis Anfechtbarkeit unmittelbar nachteilige Rechtshandlung. Abgrenzung: Auffangnorm zu §§ 130 131 InsO. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 812 ff. BGB, AnfG und Insolvenzanfechtung; §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten; § 135 Gesellschafterdarlehen, Bargeschäft; § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor der Prüfung
 
@@ -30,9 +42,6 @@ language: de
 
 Hinweis für diesen Auditstand: § 132 InsO wird hier bewusst am Gesetzestext geführt. Unsichere Altzitate wurden nicht als tragende Arbeitsregel übernommen.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Obersatz
 
 Anfechtbar ist nach § 132 Abs. 1 InsO ein Rechtsgeschäft des Schuldners, das die Insolvenzgläubiger unmittelbar benachteiligt, wenn es entweder in den letzten drei Monaten vor dem Eröffnungsantrag bei Zahlungsunfähigkeit und Kenntnis des anderen Teils vorgenommen wurde oder nach dem Eröffnungsantrag bei Kenntnis der Zahlungsunfähigkeit oder des Antrags.

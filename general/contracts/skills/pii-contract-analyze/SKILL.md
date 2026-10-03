@@ -5,11 +5,26 @@ description: 'Universal legal document processor with PII anonymization. Anonymi
 author: gregmos
 author_url: https://github.com/gregmos/PII-Shield/tree/main/nodejs-v2/plugin/skills/pii-contract-analyze
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
+sources:
+- title: Bulk mode
+  path: references/bulk-mode.md
+- title: Comparison mode
+  path: references/comparison-mode.md
+- title: Docx formatting
+  path: references/docx-formatting.md
+- title: Hitl review
+  path: references/hitl-review.md
+- title: Memo writing style
+  path: references/memo-writing-style.md
+- title: Path resolution
+  path: references/path-resolution.md
+- title: Redline tracked changes
+  path: references/redline-tracked-changes.md
 ---
 
 ## ⚡ YOUR FIRST ACTION

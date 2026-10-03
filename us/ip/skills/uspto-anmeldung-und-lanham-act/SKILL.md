@@ -1,11 +1,11 @@
 ---
 name: uspto-anmeldung-und-lanham-act
 title: USPTO-Anmeldung und Lanham Act
-description: 'USPTO-Markenanmeldung nach Lanham Act durchführen: Modehaus will Markenschutz in den USA. Normen: 15 U.S.C. § 1051 ff. (Lanham Act), 37 C.F.R. § 2.21 ff. (TEAS). Prüfraster: Use in Commerce vs. Intent-to-Use, TEAS Plus vs. Standard, Goods/Services ID Manual, Specimen of Use, Statement of Use, Extension Requests bis 36 Monate. Output USPTO-Anmeldungs-Paket, Specimen-Anleitung, ITU-Extension-Kalender. Abgrenzung: US Office Actions beantworten siehe uspto-office-actions-und-tess-tsdr; Korrespondenz-Kanzlei siehe nyc-korrespondenz-und-conflict-check.'
+description: 'Für USPTO-Anmeldung und Lanham Act: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/uspto-anmeldung-und-lanham-act
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # USPTO-Anmeldung und Lanham Act
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: USPTO-Anmeldung und Lanham Act
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Der US-amerikanische Markenmarkt ist für klôtzzkètté Inc. (712 Fifth Avenue, New York, NY 10019) ein strategischer Kern. Als Münchener Boutique-Kanzlei Steinacker Lichtenberg koordinieren wir alle USPTO-Angelegenheiten mit unserer New Yorker Korrespondenzkanzlei Whitman Brennan Forsythe LLP (Partner J. Halston Whitman III, Esq., USD 1.450/h; Senior Associate Eleanor M. Quintero, Esq., USD 695/h).
 
@@ -64,8 +77,8 @@ Das US-Markenrecht unterscheidet sich in fundamentalen Punkten vom europäischen
 
 1. Zugangskonto beim USPTO anlegen (trademark.uspto.gov)
 2. Markenart: Standard Character (Wortmarke) vs. Special Form (Logo)
-   - Standard Character = breiter Schutz (alle Schriftarten/Farben)
-   - Special Form = enger Schutz, nur in dargestellter Form
+ - Standard Character = breiter Schutz (alle Schriftarten/Farben)
+ - Special Form = enger Schutz, nur in dargestellter Form
 3. Waren-/Dienstleistungen: Nizza-Klassen + US-Coordinated Classes (TEAS ordnet automatisch)
 4. Filing Basis angeben
 5. Specimen bei § 1(a): Upload JPG/PNG (max. 5 MB)
@@ -99,12 +112,11 @@ Examining Attorney zitiert ältere US-Marke "KLOTZKE" in Klasse 25. Koordination
 ### Konstellation 3: Section 66(a)-Anmeldung via Madrid
 klôtzzkètté nutzt bestehende EUIPO-Registrierung als Basis für Madrid-Protokoll-Designation USA (Section 66(a)). Verfahren beim USPTO läuft parallel zur Regular Application; aber: Section 66(a) hat strengere SOU-Anforderungen. Koordination mit Whitman Brennan Forsythe LLP.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- McCarthy on Trademarks, Vol. 1-4 (führendes US-Markenrechts-Kommentarwerk)
-- TMEP (Trademark Manual of Examining Procedure), ed. 2400 (aktuell)
-- 15 U.S.C. §§ 1051-1141 (Lanham Act vollständig)
-- In re Nett Designs Inc., 236 F.3d 1339 (Fed. Cir. 2001) — Specimen of Use-Anforderungen
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -161,8 +173,8 @@ Bevor die TEAS-Anmeldung eingereicht wird, klaere:
 
 ## Aktuelle Rechtsprechung (US)
 
-> **KP Permanent Make-Up, Inc. v. Lasting Impression I, Inc., 543 U.S. 111 (2004):** Eine Fair-Use-Einrede unter § 33(b)(4) Lanham Act steht dem Beklagten zur Verfuegung, auch wenn eine gewisse Likelihood of Confusion besteht; fuer das Anmeldungsverfahren bedeutet dies, dass deskriptive Terme trotz Registrierung durch Dritte fair benutzbar bleiben.
+> **KP Permanent Make-Up, Inc. v. Lasting Impression I, Inc., 543 U.S. 111 (2004):** Eine Fair-Use-Einrede unter § 33(b)(4) Lanham Act steht dem Beklagten zur Verfuegung, auch wenn eine gewisse Likelihood of Confusion besteht; für das Anmeldungsverfahren bedeutet dies, dass deskriptive Terme trotz Registrierung durch Dritte fair benutzbar bleiben.
 
-> **Qualitex Co. v. Jacobson Products Co., 514 U.S. 159 (1995):** Farben koennen als Marken eingetragen werden, wenn sie durch Benutzung Secondary Meaning erworben haben; der Supreme Court bestatigte, dass Lanham Act keine kategorischen Ausschluesse fuer nicht-traditionelle Markenarten kennt.
+> **Qualitex Co. v. Jacobson Products Co., 514 U.S. 159 (1995):** Farben können als Marken eingetragen werden, wenn sie durch Benutzung Secondary Meaning erworben haben; der Supreme Court bestatigte, dass Lanham Act keine kategorischen Ausschluesse für nicht-traditionelle Markenarten kennt.
 
 > **In re Nett Designs Inc., 236 F.3d 1339 (Fed. Cir. 2001):** Ein Zeichen ist "merely descriptive" nach § 2(e)(1) Lanham Act, wenn es eine Eigenschaft oder Qualitaet der Waren unmittelbar beschreibt; bei Phantasiewoertern im Luxusbereich ist die Beschreibungsschranke in der Regel kein Hindernis, solange keine offensichtliche laudatory Bedeutung vorliegt.

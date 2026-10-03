@@ -5,11 +5,26 @@ description: 从律师与客户沟通记录中提取有价值的法律问答对�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-qa-extractor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Batch processing rules
+  path: references/batch-processing-rules.md
+- title: Benchmark rubric
+  path: references/benchmark-rubric.md
+- title: Extraction rules
+  path: references/extraction-rules.md
+- title: Intake checklist
+  path: references/intake-checklist.md
+- title: Output template
+  path: references/output-template.md
+- title: Review checklist
+  path: references/review-checklist.md
+- title: Scan log spec
+  path: references/scan-log-spec.md
 ---
 
 # 法律问答提取技能
@@ -121,7 +136,7 @@ language: zh
 cp config/.env.example config/.env
 
 # 编辑配置
-QA_EXTRACTOR_SCAN_PATHS=~/Desktop/Clawd/10 - ⚖️ 法律工作/工作文档/011 - 潜在项目
+QA_EXTRACTOR_SCAN_PATHS=~/Documents/legal-consultations
 QA_EXTRACTOR_SCAN_DEPTH=3
 QA_EXTRACTOR_FILE_TYPES=md,txt
 ```
@@ -136,7 +151,7 @@ QA_EXTRACTOR_FILE_TYPES=md,txt
   "last_full_scan": "2026-05-10T23:00:00+08:00",
   "watch_paths": [
     {
-      "path": "~/Desktop/Clawd/10 - ⚖️ 法律工作/工作文档/011 - 潜在项目",
+      "path": "~/Documents/legal-consultations",
       "last_scanned": "2026-05-10T23:00:00+08:00",
       "status": "active"
     }

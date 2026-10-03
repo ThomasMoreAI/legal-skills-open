@@ -5,17 +5,17 @@ description: 'EU NIS2 Directive (Directive (EU) 2022/2555) compliance advisor fo
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/nis2/skills/nis2
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: eu
 practice: cybersecurity
 language: en
 sources:
-- title: Article 21 Measures
+- title: Article 21 measures
   path: references/article-21-measures.md
-- title: Implementing Reg 2024 2690
+- title: Implementing reg 2024 2690
   path: references/implementing-reg-2024-2690.md
-- title: Iso27001 Nis2 Mapping
+- title: Iso27001 nis2 mapping
   path: references/iso27001-nis2-mapping.md
 ---
 

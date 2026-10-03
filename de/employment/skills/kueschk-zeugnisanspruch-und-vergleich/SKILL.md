@@ -1,22 +1,50 @@
 ---
 name: kueschk-zeugnisanspruch-und-vergleich
-title: Zeugnisanspruch und Zeugnis im Vergleich
-description: 'Zeugnisanspruch nach § 109 GewO: qualifiziertes Zeugnis; BAG-Mindestnote befriedigend bei fehlender Substantiierung; Formulierungsrisiken und geheime Negativsignale; typische Vergleichsformulierungen für Zeugnisse.'
+title: 'Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis'
+description: 'Für Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-zeugnisanspruch-und-vergleich
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Zeugnisanspruch und Zeugnis im Vergleich
+# Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis
 
-## Zweck
 
-Das Zeugnis ist oft ein wichtiger Verhandlungspunkt im Kündigungsschutzprozess. Arbeitnehmer haben einen gesetzlichen Anspruch auf ein qualifiziertes Zeugnis — aber die Note ist verhandelbar.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis; BAG-Mindestnote befriedigend bei fehlender Substantiierung; Formulierungsrisiken und geheime Negativsignale; typische Vergleichsformulierungen für Zeugnisse.
+
+### Zeugnisanspruch und Zeugnis im Vergleich
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Zeugnisanspruch und Zeugnis im Vergleich` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre vor Zeugnisberatung
 
@@ -35,22 +63,14 @@ Step 5: Ausstellungsdatum und Unterzeichner festschreiben
 Step 6: Frist für Ausstellung (z.B. zwei Wochen nach Beendigung) in Vergleich aufnehmen
 ```
 
-## Aktuelle Rechtsprechung
+## Gesetzlicher Anspruch Paragraf 109 GewO
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Nach Paragraf 109 Abs. 1 GewO hat der Arbeitnehmer bei Beendigung des Arbeitsverhältnisses Anspruch auf ein schriftliches Zeugnis. Das Zeugnis muss mindestens Angaben über Art und Dauer der Tätigkeit enthalten (einfaches Zeugnis).
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Gesetzlicher Anspruch § 109 GewO
-
-Nach § 109 Abs. 1 GewO hat der Arbeitnehmer bei Beendigung des Arbeitsverhältnisses Anspruch auf ein schriftliches Zeugnis. Das Zeugnis muss mindestens Angaben über Art und Dauer der Tätigkeit enthalten (einfaches Zeugnis).
-
-**Qualifiziertes Zeugnis** (§ 109 Abs. 1 Satz 3 GewO): Der Arbeitnehmer kann verlangen, dass das Zeugnis auch Angaben über Leistung und Verhalten enthält.
+**Qualifiziertes Zeugnis** (Paragraf 109 Abs. 1 Satz 3 GewO): Der Arbeitnehmer kann verlangen, dass das Zeugnis auch Angaben über Leistung und Verhalten enthält.
 
 ## BAG-Mindeststandard: Note "befriedigend"
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Formulierung: **"zur vollen Zufriedenheit"** entspricht der Note befriedigend.
 
@@ -95,7 +115,4 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
 
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

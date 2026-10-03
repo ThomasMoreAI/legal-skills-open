@@ -1,11 +1,11 @@
 ---
 name: forderungsschreiben-mahnung
 title: Forderungsschreiben — Mahnung (zweite Stufe)
-description: Zweite Stufe nach Ablauf der Frist aus dem ersten Forderungsschreiben oder nach erfolgloser Reaktion der Airline. Setzt Nachfrist (typisch zehn Tage) bezieht sich auf die erste Forderung weist Verzugszinsen aus und droht konkret SOEP-Schlichtung oder Klage zum Amtsgericht. Bei Reaktion der Airline mit Standardausreden Verweis auf den Skill `airline-standardausreden-prüfen` zur Konfrontation mit Pinpoint auf EuGH-Rechtsprechung.
+description: 'Für Forderungsschreiben — Mahnung (zweite Stufe): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/forderungsschreiben-mahnung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -22,9 +22,9 @@ Erstes Forderungsschreiben aus Skill `forderungsschreiben-erste-stufe` ist verse
 
 ```
 Betreff: Mahnung — Forderung Ausgleichszahlung gemäß Art. 7 VO (EG)
-         Nr. 261/2004 — Flug [Flugnummer] vom [Datum]
-         Buchungscode [PNR]
-         Mein voriges Schreiben vom [Datum erste Stufe]
+ Nr. 261/2004 — Flug [Flugnummer] vom [Datum]
+ Buchungscode [PNR]
+ Mein voriges Schreiben vom [Datum erste Stufe]
 
 Sehr geehrte Damen und Herren,
 
@@ -33,35 +33,35 @@ geantwortet]. Die hierin gestellten Forderungen sind weiterhin offen.
 
 Zu Ihrer ablehnenden Begründung [bei Ablehnung]:
 
-  "[Zitat Airline-Begründung]"
+ "[Zitat Airline-Begründung]"
 
 Diese Begründung verfaengt nicht. Bei [technischer Defekt / Streik der
 eigenen Mitarbeiter / Crew-Engpass / sonstige Standardausrede] handelt es
 sich nach ständiger EuGH-Rechtsprechung regelmäßig NICHT um
 außergewöhnliche Umstaende im Sinn des Art. 5 Abs. 3 VO 261/2004:
 
-  Bei technischem Defekt: EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — technische Defekte sind grundsaetzlich Teil der normalen Tätigkeit eines Luftfahrtunternehmens.
-  [Volltext und Randnummer vor Versand in curia.europa.eu aufrufen
-   und passende Aktenzeichen-Linie ergaenzen — z.B. bei Streik der
-   eigenen Mitarbeiter EuGH-Linie, bei Personalmangel C-405/23
-   (16.5.2024), bei Vorverlegung C-394/23 (9.1.2025).]
+ Bei technischem Defekt: EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — technische Defekte sind grundsaetzlich Teil der normalen Tätigkeit eines Luftfahrtunternehmens.
+ [Volltext und Randnummer vor Versand in curia.europa.eu aufrufen
+ und passende Aktenzeichen-Linie ergaenzen — z.B. bei Streik der
+ eigenen Mitarbeiter EuGH-Linie, bei Personalmangel C-405/23
+ (16.5.2024), bei Vorverlegung C-394/23 (9.1.2025).]
 
 Die Beweislast für außergewöhnliche Umstaende und für die Ergreifung
 aller zumutbaren Maßnahmen liegt bei Ihnen.
 
 Ich setze hiermit eine letzte Frist zur Zahlung des offenen Betrags von
 
-  [Gesamtbetrag] EUR
-  zuzueglich Verzugszinsen seit [Datum erste Frist + 1] in Höhe von
-  5 Prozentpunkten über dem Basiszinssatz gemäß § 288 Abs. 1 BGB
+ [Gesamtbetrag] EUR
+ zuzueglich Verzugszinsen seit [Datum erste Frist + 1] in Höhe von
+ 5 Prozentpunkten über dem Basiszinssatz gemäß § 288 Abs. 1 BGB
 
 bis spaetestens [Datum + 10 Tage].
 
 Sollten Sie die Zahlung nicht fristgerecht leisten werde ich:
 
-  a) die Schlichtungsstelle für den öffentlichen Personenverkehr SOEP
-     anrufen — kostenfrei für Verbraucher,
-  b) anschliessend Klage zum zuständigen Amtsgericht erheben.
+ a) die Schlichtungsstelle für den öffentlichen Personenverkehr SOEP
+ anrufen — kostenfrei für Verbraucher,
+ b) anschliessend Klage zum zuständigen Amtsgericht erheben.
 
 Im Klagefall werden Sie zudem die Gerichtskosten Anwaltskosten und alle
 ueberfälligen Verzugszinsen zu tragen haben. Die sachliche Zuständigkeit
@@ -84,7 +84,7 @@ Wenn die Airline mit einer typischen Begründung argumentiert siehe Skill
 
 | Airline-Begründung | Kerngegenargument | Rspr. (offene Quelle curia.europa.eu) |
 |---|---|---|
-| "Technischer Defekt" | nicht außergewöhnlich | EuGH C-549/07 (Wallentin-Hermann, 22.12.2008) |
+| "Technischer Defekt" | Übliche Betriebs-/Wartungsprobleme regelmäßig nicht außergewöhnlich; externe nicht beherrschbare Ursache und Gegenmaßnahmen gesondert prüfen | EuGH C-549/07 (Wallentin-Hermann, 22.12.2008) |
 | "Crew-Engpass" | nicht außergewöhnlich | st. Rspr. — Teil normalen Betriebs |
 | "Streik eigener Mitarbeiter" | nicht außergewöhnlich | EuGH-Linie zum Personal — konkrete Aktenzeichen in curia.europa.eu vor Versand verifizieren |
 | "Vorverlegung um wenige Stunden" | bei mehr als 1 h: Annullierung | EuGH C-394/23 (9.1.2025); C-146/20 u.a. (21.12.2021) |
@@ -109,6 +109,14 @@ Wenn die Airline mit einer typischen Begründung argumentiert siehe Skill
 - `mahnung-zweite-stufe-<datum>.docx` und PDF.
 - Eintrag im Tagesplan — Reaktionsfrist gesetzt.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anlagen-Übergabe
 
 Unmittelbar nach Erstellung des Schreibens den Skill `fluggastrechte-anlagen-bauen` aufrufen.
@@ -132,22 +140,19 @@ Wichtig: Die Mahnung nimmt regelmäßig dieselben Anlagen wie das Erstschreiben 
 - Art. 7 VO (EG) Nr. 261/2004 — Ausgleichszahlung 250/400/600 EUR je nach Distanz
 - Art. 5 Abs. 3 VO (EG) Nr. 261/2004 — Entlastungsbeweis aussergewoehnliche Umstaende (Beweislast Airline)
 - § 286 Abs. 1 BGB — Verzug bei fruchtlosem Fristablauf
-- § 288 Abs. 1 BGB — Verzugszinsen 5 Prozentpunkte ueber Basiszinssatz
-- § 195 BGB — Regelmaessige Verjährungsfrist drei Jahre
+- § 288 Abs. 1 BGB — Verzugszinsen 5 Prozentpunkte über Basiszinssatz
+- § 195 BGB — Regelmäßige Verjährungsfrist drei Jahre
 - § 199 Abs. 1 BGB — Verjährungsbeginn Schluss des Jahres der Kenntnis
 
 ## Aktuelle Rechtsprechung (Stand Mai 2026; offene Quelle curia.europa.eu)
 
 - EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 (Sturgeon u.a.) — 3-Stunden-Schwelle
-- EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — techn. Defekt kein außergewöhnlicher Umstand
+- EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — übliche technische Betriebsprobleme regelmäßig nicht außergewöhnlich; externe Ursachen und Gegenmaßnahmen gesondert prüfen
 - EuGH, Urt. v. 26.2.2013, C-11/11 (Folkerts) — Endziel-Verspätung Anschlussflüge
 - EuGH, Urt. v. 9.1.2025, C-394/23 — Vorverlegung als Annullierung
 - EuGH, Urt. v. 13.6.2025, C-411/23 — versteckter Konstruktionsfehler Triebwerk
 - EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage vor Mahnung — Checkliste
 
 1. Erste Stufe versendet und Frist abgelaufen? → Datum prüfen (typisch 14 Tage nach Erstschreiben)
@@ -158,4 +163,4 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Adressat & Tonfall
 
-Adressat: Airline-Kundendienst / Rechtsabteilung — Tonfall scharf-fristsetzend, aber sachlich-juristisch; keine persoenlichen Vorwuerfe
+Adressat: Airline-Kundendienst / Rechtsabteilung — Tonfall scharf-fristsetzend, aber sachlich-juristisch; keine persönlichen Vorwuerfe

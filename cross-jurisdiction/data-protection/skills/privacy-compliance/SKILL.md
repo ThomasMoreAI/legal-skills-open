@@ -5,12 +5,22 @@ description: Use this skill when implementing GDPR or CCPA compliance, designing
 author: mkurman
 author_url: https://github.com/mkurman/zorai/tree/main/skills/nontechnical/absolutelyskilled/privacy-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
 language: en
-tags: [privacy, gdpr, ccpa, consent, dpia, experimental-design, compliance]
+tags:
+- privacy
+- gdpr
+- ccpa
+- consent
+- dpia
+- experimental-design
+- compliance
+sources:
+- title: Gdpr ccpa comparison
+  path: references/gdpr-ccpa-comparison.md
 ---
 
 ## Key principles

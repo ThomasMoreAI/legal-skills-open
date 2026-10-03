@@ -1,11 +1,11 @@
 ---
 name: sozialgerichtsverfahren-modus
 title: Sozialgerichtsverfahren-Modus (SGG)
-description: 'Aktenauszug für SGG-Verfahren erstellen: Klage Berufung §§ 143 ff. SGG Eilantrag § 86b SGG Widerspruchsverfahren. Amtsermittlungsgrundsatz Sozialversicherungs-Leistungsarten. Normen SGG §§ 51 77 86b 143. Prüfraster SGG-spezifische Fristen Vorverfahrens-Prüfung Leistungsarten. Output SGG-spezifischer Aktenauszug. Abgrenzung zu verwaltungsprozess-modus (VwGO) und arbeitsgerichtsverfahren-modus (ArbGG).'
+description: 'Für Sozialgerichtsverfahren-Modus (SGG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/sozialgerichtsverfahren-modus
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,17 @@ language: de
 
 # Sozialgerichtsverfahren-Modus (SGG)
 
-## Zweck
+## Arbeitsbereich
 
-Dieser Modus-Skill aktiviert die verfahrensspezifischen Einstellungen für sozialgerichtliche Verfahren nach dem Sozialgerichtsgesetz (SGG). Sozialgerichtsverfahren betreffen Streitigkeiten im Bereich der Sozialversicherung (GKV, GRV, Arbeitslosenversicherung, Pflegeversicherung, Unfallversicherung) sowie der Grundsicherung.
+Aktenauszug für SGG-Verfahren erstellen: Klage Berufung §§ 143 ff. SGG Eilantrag § 86b SGG Widerspruchsverfahren. Amtsermittlungsgrundsatz Sozialversicherungs-Leistungsarten. Normen SGG §§ 51 77 86b 143. Prüfraster SGG-spezifische Fristen Vorverfahrens-Prüfung Leistungsarten. Output SGG-spezifischer Aktenauszug. Abgrenzung zu verwaltungsprozess-modus (VwGO) und arbeitsgerichtsverfahren-modus (ArbGG). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Aktivierung des Modus
 
@@ -35,13 +43,6 @@ Dieser Modus-Skill aktiviert die verfahrensspezifischen Einstellungen für sozia
 - § 183 SGG — Keine Gerichtskosten für Versicherte (Kostenprivileg)
 - § 66 Abs. 2 SGG — Jahresfrist bei fehlerhafter Rechtsbehelfsbelehrung
 
-## Rechtsprechung (BSG / BVerfG — Leitsätze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Sachgebiete der Sozialgerichtsbarkeit
 
 - Krankenversicherung (SGB V)
@@ -99,3 +100,5 @@ Das Sozialgericht ermittelt den Sachverhalt von Amts wegen. Beweisangebote der P
 - Leistungsart und Leistungszeitraum im Verfahrensidentifikationsblock aufführen
 - Gutachten (ärztliche / berufskundliche) als eigene Kategorie in Beweismittel-Tabelle
 - Kostenrecht: keine Gerichtskosten für Versicherte (§ 183 SGG)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

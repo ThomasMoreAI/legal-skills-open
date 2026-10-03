@@ -5,12 +5,18 @@ description: Generates structured summaries of real estate transactions from pur
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/real-estate-transaction-summary
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: real-estate
 language: en
-tags: [summarization, summary, transactional]
+tags:
+- summarization
+- summary
+- transactional
+sources:
+- title: Section outline
+  path: references/SECTION-OUTLINE.md
 ---
 
 # Real Estate Transaction Summary

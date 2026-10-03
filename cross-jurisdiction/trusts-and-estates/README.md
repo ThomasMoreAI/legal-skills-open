@@ -10,7 +10,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `trusts-and-estates` · Skill la
 
 | Skill | What it does |
 |---|---|
-| [`Intake — Will / Testament`](skills/conversation-intake-will-sboghossian/) | Use when a user wants to draft a will or testament and Claude must gather the testator's personal details,… |
+| [`Intake — Will / Testament`](skills/conversation-intake-will-sboghossian/) | Use when a user wants to draft a will or testament and Claude must gather the testator's personal… |
 
 ## Cold-start context
 

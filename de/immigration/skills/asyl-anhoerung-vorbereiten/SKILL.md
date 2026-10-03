@@ -1,18 +1,31 @@
 ---
 name: asyl-anhoerung-vorbereiten
-title: Asyl-Anhörung beim BAMF vorbereiten
-description: 'Asylsuchender muss zum BAMF zur Anhoerung und Anwalt bereitet die Schilderung der Fluchtgründe vor. Prüfraster § 25 AsylG Bedeutung der Anhoerung Verfolgungs-Schilderung nach GFK-Schutzgründen politische Verfolgung subsidiaerem Schutz Abschiebeverboten § 60 AufenthG. Dublin-III-Prüfung Schutzsuche im Erstland. Beweismittel Atteste Dokumente Zeugen Dolmetscher-Auswahl Verfahrensbeistand für unbegleitete Minderjaehrige. Output strukturierter Vorbereitungsleitfaden mit Anhoerungsprotokoll-Checkliste und Korrekturrrecht. Abgrenzung: fachanwalt-migrationsrecht-bamf-anhoerung-strategie für behordliche Kommunikation.'
+title: Asylsuchender muss zum BAMF zur Anhörung und Anwalt bereitet die Schilderung der Fluchtgründe vor
+description: 'Für Asyl Anhörung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/asyl-anhoerung-vorbereiten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: immigration
 language: de
 ---
 
-# Asyl-Anhörung beim BAMF vorbereiten
+# Asylsuchender muss zum BAMF zur Anhörung und Anwalt bereitet die Schilderung der Fluchtgründe vor
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AufenthG §§ 4, 5, 7, 8, 9, 16a-16g, 18a-18g, 19c, 25, 27-36, 50, 53-55, 58, 60, 60a-60d, 81, 84, 95; AsylG §§ 13, 24-30, 34-38, 71, 74, 77; FreizügG/EU §§ 2-5; StAG §§ 4, 5, 8-10, 12a, 25, 30; AsylbLG §§ 1, 3, 6; VwGO §§ 74, 80, 123; Dublin-III-VO Art. 3, 17, 21-29; einschlägige EU-Richtlinien/GEAS-Normstand live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Asylsuchender muss zum BAMF zur Anhörung und Anwalt bereitet die Schilderung der Fluchtgründe vor. Prüfraster § 25 AsylG Bedeutung der Anhörung Verfolgungs-Schilderung nach GFK-Schutzgründen politische Verfolgung subsidiaerem Schutz Abschiebeverboten § 60 AufenthG. Dublin-III-Prüfung Schutzsuche im Erstland. Beweismittel Atteste Dokumente Zeugen Dolmetscher-Auswahl Verfahrensbeistand für unbegleitete Minderjaehrige. Output strukturierter Vorbereitungsleitfaden mit Anhörungsprotokoll-Checkliste und Korrekturrrecht. Abgrenzung: fachanwalt-migrationsrecht-bamf-anhoerung-strategie für behordliche Kommunikation.
+
+### Asyl-Anhörung beim BAMF vorbereiten
 
 ## Kaltstart-Rückfragen
 
@@ -26,7 +39,7 @@ language: de
 8. Welche Beweismittel (Fotos, Atteste, Anzeigencopies, Zeugen) können zur Anhörung mitgebracht werden?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtlicher Rahmen
 
@@ -57,9 +70,7 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | BVerwGE 124, 276 | BVerwG, 18.02.2021 | Subsidiärer Schutz bewaffneter Konflikt; innerstaatliche Fluchtalternative |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -91,7 +102,6 @@ language: de
 | 10 | Dolmetscher-Eignung prüfen (Dialekt, Vertrauen, keine Verfolger-Nationalität) | § 25 AsylG |
 | 11 | Logistik sichern (Anreise, Vollmacht, Beistand-Anmeldung) | § 25 Abs. 5 AsylG |
 | 12 | Vortrag strukturieren: chronologisch, konkret, eigene Wahrnehmung | Keine Spekulation |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 14 | Protokoll-Prüfung nach Anhörung: Korrekturen vor Unterschrift | § 25 AsylG |
 | 15 | Ergänzungsschreiben BAMF bei vergessenen Aspekten (mit Fristsetzung) | Mitwirkungspflicht |
 
@@ -99,17 +109,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Asyl-Anhoerung vorbereiten | Anhoerungsprotokoll und Checkliste; Template unten |
-| Variante A — Dublin-III-Uebertragung droht | Suspensivantrag; einstweilige Massnahme VG pruefen |
+| Standard — Asyl-Anhörung vorbereiten | Anhörungsprotokoll und Checkliste; Template unten |
+| Variante A — Dublin-III-Uebertragung droht | Suspensivantrag; einstweilige Maßnahme VG prüfen |
 | Variante B — Vulnerable Person | Besondere Verfahrensgarantien Art. 24 VerfahrensRL; medizinisches Gutachten |
 | Variante C — Folgeantrag statt Erstantrag | § 71 AsylG neue Umstaende darlegen; Huerden beachten |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -129,16 +138,16 @@ auf die Anhörung vom [Datum] Bezug und ergänzen den Sachvortrag
 gemäß Mitwirkungspflicht:
 
 1. [Verfolgungshandlung, die in der Anhörung nicht vollständig
-   geschildert wurde] — konkret: [Datum, Ort, Akteur, Handlung].
+ geschildert wurde] — konkret: [Datum, Ort, Akteur, Handlung].
 
 2. Korrektur zu Protokoll Seite [X]: Die Übersetzung durch den
-   Dolmetscher war unzutreffend. Richtig ist: [Korrekte Aussage].
-   Unser Mandant / unsere Mandantin hat [Originalaussage in
-   Muttersprache transkribiert / korrigiert durch Sprachnachweise].
+ Dolmetscher war unzutreffend. Richtig ist: [Korrekte Aussage].
+ Unser Mandant / unsere Mandantin hat [Originalaussage in
+ Muttersprache transkribiert / korrigiert durch Sprachnachweise].
 
 3. Traumatische Vorgeschichte: Wir reichen das fachärztliche Attest
-   von [Arzt, Klinik] vom [Datum] nach (Anlage E1), das die PTBS-
-   Diagnose belegt und scheinbare Inkonsistenzen im Vortrag erklärt.
+ von [Arzt, Klinik] vom [Datum] nach (Anlage E1), das die PTBS-
+ Diagnose belegt und scheinbare Inkonsistenzen im Vortrag erklärt.
 
 Wir bitten um Berücksichtigung dieser Ergänzung vor Erlass des
 Bescheides.
@@ -150,7 +159,7 @@ Mit freundlichen Grüßen
 ### Baustein 2 — Eilantrag bei Ablehnung (Dublin-III-Fall)
 
 ```
-An das Verwaltungsgericht [Ort]              [Datum]
+An das Verwaltungsgericht [Ort] [Datum]
 
 Antrag auf Anordnung der aufschiebenden Wirkung
 gem. § 80 Abs. 5 VwGO i.V.m. § 34a Abs. 2 AsylG
@@ -170,10 +179,9 @@ ggf. Dublin-Überstellung in Staat X]
 
 II. Verfahrensfehler
 1. Die Anhörung dauerte nur [X Minuten]; zentraler Verfolgungsgrund
-   [konkret] wurde nicht abschließend erörtert.
+ [konkret] wurde nicht abschließend erörtert.
 2. Dolmetscher sprach nicht den Dialekt des Mandanten [konkret].
 3. Trauma-Attest wurde dem BAMF nicht zur Kenntnis gegeben;
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 III. Materielles Schutzbegehren
 [Verfolgungshandlungen, Akteur, fehlender Schutz, keine
@@ -182,7 +190,6 @@ innerstaatliche Fluchtalternative]
 IV. Anordnungsgrund
 Ohne aufschiebende Wirkung droht Überstellung nach [Staat] /
 Abschiebung in den Herkunftsstaat. Dies verletzt Art. 33 GFK,
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 M.S.S. ./. Belgien).
 
 Mit freundlichen Grüßen
@@ -225,7 +232,7 @@ Mit freundlichen Grüßen
 [Rechtsanwalt/-anwältin]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -238,7 +245,6 @@ Mit freundlichen Grüßen
 |---|---|---|
 | Glaubhaftmachung Verfolgungsgefahr | Antragsteller | Eigener Vortrag, Dokumente, Atteste, Zeugen (§ 25 AsylG) |
 | Innerstaatliche Fluchtalternative | BAMF | BAMF trägt Darlegungslast; Einzelfallprüfung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Systemische Mängel Dublin-Erstland | Antragsteller | EGMR-Urteile, Länderberichte (UNHCR, AIDA) |
 | Trauma-bedingte Inkonsistenz erklärt | Antragsteller | Fachärztliches PTBS-Attest |
 | Staatlicher Schutz vorhanden | BAMF | Lageberichte AA; Prüfpflicht des BAMF |
@@ -266,7 +272,6 @@ Mit freundlichen Grüßen
 | Widersprüche zum Erstbefragungsprotokoll | Glaubwürdigkeitseinbruch | Erklärung: Erstbefragung war kurz/stressig; Ergänzung rechtzeitig |
 | Verfolgungsakteur unklar | Kein Zuständigkeitstreffer | Klarstellung: Staat / Miliz / Privatperson + staatlicher Schutz fehlt |
 | Dolmetscher-Qualität mangelhaft | Falsch-Protokoll | Sofort in Anhörung monieren; Protokoll korrigieren vor Unterschrift |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Dublin-III nicht thematisiert | Überstellung unangefochten | Fristen prüfen; Humanitäre Klausel Art. 17 Dublin-III; Familienzusammenführung |
 | Identitätsdokumente vernichtet | Identitätszweifel | Erklärungspflicht; Plausibilitätsprüfung; sonstige Beweise |
 
@@ -309,7 +314,7 @@ Mit freundlichen Grüßen
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
-## Output-Template: Vorbereitungs-Checkliste Asyl-Anhoerung
+## Output-Template: Vorbereitungs-Checkliste Asyl-Anhörung
 
 **Adressat:** Intern (Anwaltskanzlei) / Mandant
 **Tonfall:** Strukturiert-verfahrensrechtlich
@@ -317,7 +322,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ```
 ANHOERUNGSVORBEREITUNG — CHECKLISTE
 Mandant: [NAME, geb. DATUM, Staatsang.]
-BAMF-Anhoerung: [DATUM, UHRZEIT, BAMF-Aussenstelle]
+BAMF-Anhörung: [DATUM, UHRZEIT, BAMF-Aussenstelle]
 Bevollmaechtigte Kanzlei: [NAME]
 
 A. LOGISTIK (bis 2 Tage vor Termin)
@@ -329,7 +334,7 @@ A. LOGISTIK (bis 2 Tage vor Termin)
 
 B. UNTERLAGEN (gesammelt und kopiert)
 [ ] Identitätsdokumente (Pass / Ausweis / Geburtsurkunde)
-[ ] Laenderkunde-Berichte (AA, UNHCR, EASO) — Anlage 1
+[ ] Länderkunde-Berichte (AA, UNHCR, EASO) — Anlage 1
 [ ] Attest Trauma / Erkrankung — Anlage 2
 [ ] Sonstige Beweismittel — Anlage 3
 
@@ -353,3 +358,5 @@ Naechste Schritte:
 1. [Schritt 1 — Owner — Frist]
 2. [Schritt 2]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

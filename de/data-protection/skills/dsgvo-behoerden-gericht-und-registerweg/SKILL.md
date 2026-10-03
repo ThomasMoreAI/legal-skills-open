@@ -1,0 +1,63 @@
+---
+name: dsgvo-behoerden-gericht-und-registerweg
+title: 'DSGVO: Behörden-, Gerichts- oder Registerweg'
+description: 'Für DSGVO: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/dsgvo-behoerden-gericht-und-registerweg
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# DSGVO: Behörden-, Gerichts- oder Registerweg
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** DSGVO: Behörden-, Gerichts- oder Registerweg.
+
+## Spezialwissen: DSGVO: Behörden-, Gerichts- oder Registerweg
+- **Normen-/Quellenanker:** DSGVO, BDSG, TTDSG, TKG, DDG, DSA, DMA, EU, KI, VO.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **DSGVO-Behördenwege** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## DSGVO-Behördenwege
+- **Federführende Aufsicht (One-Stop-Shop):** Art. 56 DSGVO — bei grenzüberschreitender Verarbeitung die Aufsicht der Hauptniederlassung.
+- **In DE:**
+ - **BfDI** für Bundesbehörden, Telekommunikation, Post.
+ - **Landesdatenschutzbehörden** für privatwirtschaftliche Verantwortliche im jeweiligen Bundesland.
+ - **DSK (Datenschutzkonferenz):** Beschlüsse, Kurzpapiere — kein eigener Adressat, aber Auslegungshilfe.
+- **Beschwerderechte:**
+ - **Art. 77 DSGVO:** Beschwerde Betroffener bei Aufsichtsbehörde.
+ - **Art. 78 DSGVO:** wirksamer gerichtlicher Rechtsbehelf gegen Aufsichtsbehörde (in DE: VG-Klage).
+ - **Art. 79 DSGVO:** wirksamer gerichtlicher Rechtsbehelf gegen Verantwortlichen (in DE: ZG-Klage).
+ - **Art. 82 DSGVO:** Schadensersatz (immateriell + materiell), ZG-Klage; EuGH C-300/21 (UI vs. Österreichische Post): Schwellenwert "spürbarer Schaden" nicht erforderlich, aber konkreter Nachweis der Beeinträchtigung.
+- **Behördenformulare:**
+ - Meldung Datenpanne online beim BfDI / LDI-Portal.
+ - Verfahrensverzeichnis (intern, kein Behörden-Formular).
+
+## Praxis-Tipp
+Bei Schadensersatzklage Art. 82 DSGVO ist nach EuGH C-300/21 keine Erheblichkeitsschwelle erforderlich, aber: der Schaden muss konkret dargelegt werden (z. B. Kontrollverlust, emotionale Belastung, drohende Identitätsmissbrauchsfolgen). Pauschalbehauptung "Ich bin entsetzt" trägt nicht — konkrete Darstellung der Beeinträchtigung ist erforderlich.

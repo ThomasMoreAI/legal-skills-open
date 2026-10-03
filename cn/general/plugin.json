@@ -9,9 +9,10 @@
   "practice": "general",
   "language": "zh",
   "skills": [
+    "skills/docx",
     "skills/legal-issue-research",
+    "skills/legal-research-malnlda",
     "skills/yd-law-search",
-    "skills/yuandian-law-search",
-    "skills/zhihe-legal-research"
+    "skills/yuandian-law-search"
   ]
 }

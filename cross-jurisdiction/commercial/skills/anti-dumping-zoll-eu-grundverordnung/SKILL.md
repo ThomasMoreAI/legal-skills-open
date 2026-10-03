@@ -1,0 +1,52 @@
+---
+name: anti-dumping-zoll-eu-grundverordnung
+title: Anti Dumping Zoll eu Grundverordnung
+description: 'Für Anti Dumping Zoll eu Grundverordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/anti-dumping-zoll-eu-grundverordnung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Anti Dumping Zoll eu Grundverordnung
+
+## Worum es geht
+
+Prüfe **Anti Dumping Zoll eu Grundverordnung** von der ersten Aktenordnung bis zur belastbaren Empfehlung: Norm, Tatsache, Beleg, Frist und prozessualer nächster Schritt müssen zusammenpassen.
+
+## Normenanker
+
+- Art. 3 Rom-I-VO
+- Art. 4 Rom-I-VO
+- Art. 7 Abs. 1 EuGVVO
+- Art. 1 CISG
+- Art. 35 CISG
+- § 1025 Abs. 1 ZPO
+- § 1059 Abs. 2 ZPO
+- Art. V New Yorker Übereinkommen
+- Art. 1 VO (EU) 2016/1036
+- Art. 2 VO (EU) 2016/1036
+
+## Prüfpfad
+
+1. **Rolle und Ziel klären:** Angriff, Verteidigung, Beratung, Behördenkontakt, Registervorgang oder gerichtliches Verfahren bestimmen.
+2. **Tatbestandsmerkmale zerlegen:** Jedes Merkmal mit Aktenstelle, Beleg, Beweisangebot, Gegentatsache und offener Recherchefrage verbinden.
+3. **Fristen und Zuständigkeit sichern:** Rechtsbehelfsfrist, Ausschlussfrist, Verjährung, Gerichtsstand, Behördenzuständigkeit und Verfahrensart vorab fixieren.
+4. **Beweislast und Darlegungslast trennen:** Wahrscheinliche Wahrheit genügt nicht; entscheidend ist, wer sie wann wie beweisen muss.
+5. **Risikoampel bilden:** Grün bei Norm + Tatsache + Beleg; Gelb bei Wertungsspielraum; Rot bei Frist-, Form-, Zuständigkeits- oder Beweislastbruch.
+
+## Entscheidungs- und Quellenhygiene
+
+- Rechtsprechung nur einsetzen, wenn Gericht, Entscheidungsdatum, Aktenzeichen und eine frei prüfbare Quelle vorliegen.
+- Keine BeckRS-, juris- oder Kommentar-Fundstellen blind übernehmen. Fehlt eine verifizierte Entscheidung, ausdrücklich mit Normtext, Systematik, Beweislast und offenem Recherchepunkt arbeiten.
+- Bei divergierenden Obergerichten die regionale Zuständigkeit, den Instanzenzug und den Stand höchstrichterlicher Klärung kenntlich machen.
+
+## Arbeitsprodukt
+
+- Kurzvermerk mit Normenanker, Tatsachenmatrix, Fristen, Belegen und Risikoampel.
+- Mandantenfähige Handlungsempfehlung mit nächstem Schritt, benötigten Unterlagen und Eskalationsoption.
+- Optional: Schriftsatz-, Behörden-, Gegner- oder Gerichtstext im Ton des jeweiligen Verfahrens.

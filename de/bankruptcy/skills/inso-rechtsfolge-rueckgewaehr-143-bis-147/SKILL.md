@@ -1,11 +1,11 @@
 ---
 name: inso-rechtsfolge-rueckgewaehr-143-bis-147
 title: Rechtsfolge Insolvenzanfechtung — §§ 143 bis 147 InsO
-description: 'Rechtsfolgen der Insolvenzanfechtung nach §§ 143-147 InsO bestimmen: Rückgewähr zur Masse, Geldschuld und Zinsen, Entreicherung bei unentgeltlicher Leistung, Gegenleistung § 144, Rechtsnachfolger § 145, Verjährung § 146 und Rechtshandlungen nach Eröffnung § 147. Output: Anspruchsberechnung und Schreiben.'
+description: 'Für Rechtsfolge Insolvenzanfechtung — Paragrafen 143 bis 147 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/inso-rechtsfolge-rueckgewaehr-143-bis-147
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -47,7 +47,6 @@ language: de
 - § 146 InsO enthält keine einfache Sonderregel "zehn Jahre ab Rechtshandlung". Er verweist auf die regelmäßige Verjährung nach dem BGB. Anfechtungsfristen und Verjährung bleiben getrennt.
 - Zinsen laufen nicht automatisch ab Insolvenzeröffnung oder Rechtshandlung; § 143 Abs. 1 S. 3 InsO verlangt Verzug oder § 291 BGB.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema
 
@@ -79,3 +78,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ---
 
 Hinweis: Keine Rechtsberatung. Rechtsfolge nie ohne Betrag, Zinsgrund und Gegenleistungsprüfung ausgeben.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

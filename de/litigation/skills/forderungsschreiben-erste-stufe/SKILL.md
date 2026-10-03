@@ -1,182 +1,57 @@
 ---
 name: forderungsschreiben-erste-stufe
-title: Forderungsschreiben — Erste Stufe
-description: Workflow-Skill zu forderungsschreiben erste stufe. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Erstes Forderungsschreiben bei Fluggastrechten
+description: Erstellt das erste belastbare Forderungsschreiben nach der Fluggastrechteverordnung; ordnet Nichtbeförderung, Annullierung oder Verspätung ein, berechnet Ausgleich und Auslagen, prüft außergewöhnliche Umstände und liefert Forderungstabelle, Zahlungsfrist und Anlagenverzeichnis.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/forderungsschreiben-erste-stufe
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
-language: en
+language: de
 ---
 
-# Forderungsschreiben — Erste Stufe
+# Erstes Forderungsschreiben bei Fluggastrechten
 
-## Empfänger
+## 1. Direktstart
 
-- **Operating Carrier** (ausführendes Luftfahrtunternehmen) — Hauptanspruchsgegner nach VO 261/2004.
-- **Kundenservice-Postfach** der Airline (in Deutschland regelmäßig im Impressum / AGB der Airline angegeben).
-- **Niederlassung in Deutschland** wenn vorhanden (Zustellungsort).
+Lies Buchungsbestätigung, Bordkarten, Flugstatus, Mitteilungen der Airline, Ersatzbeförderung und Belege vollständig. Erstelle danach sofort das versandfertige Forderungsschreiben. Frage nur nach fehlenden Angaben, die Anspruch, Betrag, Anspruchsgegner oder Fälligkeit verändern.
 
-## Struktur
+## 2. Anspruchsroute
 
-### 1. Briefkopf
+2.1. Identifiziere ausführendes Luftfahrtunternehmen, Flugnummer, Datum, Abflug- und Endziel, einheitliche Buchung sowie planmäßige und tatsächliche Ankunftszeit.
 
-```
-[Vor- und Nachname Hauptansprechender]
-[Strasse Hausnummer]
-[PLZ Ort]
-[Tel] [E-Mail]
+2.2. Ordne den Vorgang als Nichtbeförderung, Annullierung, große Ankunftsverspätung oder Herabstufung ein. Prüfe räumlichen Anwendungsbereich und Ausnahmen der Verordnung (EG) Nummer 261/2004.
 
-[Datum]
+2.3. Berechne die Ausgleichszahlung nach Artikel 7 anhand der maßgeblichen Entfernung und berücksichtige eine mögliche Kürzung nur bei nachgewiesener Ersatzbeförderung innerhalb der gesetzlichen Zeitfenster.
 
-An: [Airline-Name]
-   [Kundenservice-Postfach]
-   [Adresse]
-   [Land]
+2.4. Trenne Ausgleichszahlung von Erstattung oder anderweitiger Beförderung nach Artikel 8, Betreuungsleistungen nach Artikel 9 und konkret belegtem weiteren Schaden. Verrechne Positionen nicht ohne Rechtsgrund.
 
-Betreff: Forderung Ausgleichszahlung gemäß Art. 7 VO (EG) Nr. 261/2004
-         Flug [Flugnummer] vom [Datum]
-         Buchungscode [PNR]
-```
+2.5. Prüfe außergewöhnliche Umstände nach Artikel 5 Absatz 3 als Einwendung des Luftfahrtunternehmens. Benenne, welche tatsächlichen Angaben und zumutbaren Maßnahmen die Airline darlegen muss; spekuliere nicht über die Ursache.
 
-### 2. Sachverhalt knapp
+## 3. Rechtsprechungsanker
 
-```
-Sehr geehrte Damen und Herren,
+3.1. EuGH, Urteil vom 22.12.2008 - C-549/07, Wallentin-Hermann: Technische Probleme sind grundsätzlich Teil der normalen Tätigkeit des Luftfahrtunternehmens und nur ausnahmsweise außergewöhnlich, wenn das Ereignis nicht Teil der normalen Tätigkeit und tatsächlich nicht beherrschbar ist.
 
-ich nehme Bezug auf den unter dem Buchungscode [PNR] gebuchten Flug [Flugnummer]
-am [Datum] von [Abflughafen] nach [Zielflughafen] mit Ihrer Fluggesellschaft.
+3.2. EuGH, Urteil vom 17.09.2015 - C-257/14, van der Lans: Auch ein unerwarteter technischer Defekt begründet regelmäßig keinen außergewöhnlichen Umstand; anders kann es etwa bei versteckten Herstellungsfehlern, Sabotage oder Terrorakten liegen.
 
-Folgende Passagiere waren betroffen:
-  - [Name 1], geboren [Datum 1]
-  - [Name 2], geboren [Datum 2]
-  - [Name 3], geboren [Datum 3] (minderjährig, vertreten durch
-    die unterzeichnenden Erziehungsberechtigten)
+3.3. Nutze diese Entscheidungen nur, wenn der Tatsachenkern technische Ursachen betrifft. Bei Wetter, Flugsicherung, Streik oder Sicherheitslage ist die passende Fallgruppe gesondert zu prüfen.
 
-Vollmachten der Mitreisenden sind beigefuegt (Anlagen K1 K2 ...).
+## 4. Aufbau des Schreibens
 
-Der genannte Flug wurde durch Sie [annulliert / mit X Stunden Verspätung
-durchgeführt / wir wurden trotz gültigem Ticket nicht befoerdert].
-```
+4.1. Betreff mit Fluggast, Buchungscode, Flugnummer, Flugdatum und Strecke.
 
-### 3. Rechtliche Begründung
+4.2. Kurze Chronologie mit planmäßiger und tatsächlicher Ankunft, Umbuchung und bereits erbrachten Leistungen.
 
-```
-1. Der Anspruch auf Ausgleichszahlung gemäß Art. 7 VO (EG) Nr. 261/2004
-folgt aus [Art. 5 (Annullierung) / Art. 6 + EuGH-Rechtsprechung Sturgeon
-(Verspätung am Endziel mehr als drei Stunden) / Art. 4 (Nichtbefoerderung)].
+4.3. Anspruchsgrundlage und Subsumtion in wenigen belastbaren Absätzen.
 
-2. Der Flug fiel unter den Anwendungsbereich der VO 261/2004 — Abflug aus
-einem Mitgliedstaat der Europaeischen Union (Art. 3 Abs. 1 lit. a VO 261/2004).
+4.4. Forderungstabelle je Fluggast und Anspruchsposition, Gesamtbetrag, Bankverbindung und eindeutige Zahlungsfrist.
 
-3. Die Distanz zwischen [Abflughafen] und [Zielflughafen] betraegt nach
-Grosskreisrechnung [X] km. Dies entspricht der Stufe [1 / 2 / 3] des
-Art. 7 VO 261/2004 mit einem Ausgleichsanspruch in Höhe von [250 / 400 / 600]
-EUR pro Passagier.
+4.5. Anlagenverzeichnis mit Buchung, Reiseverlauf, Airline-Mitteilungen, Auslagenbelegen und gegebenenfalls Vollmacht.
 
-4. Bei [drei] Passagieren ergibt sich ein Gesamtausgleich von [Gesamtbetrag]
-EUR.
+4.6. Bitte um konkrete Darlegung, falls sich die Airline auf außergewöhnliche Umstände beruft: Ereignis, betroffener Umlauf, zeitlicher Ablauf und ergriffene zumutbare Maßnahmen.
 
-5. Eine Befreiung wegen außergewöhnlicher Umstaende gemäß Art. 5 Abs. 3
-VO 261/2004 ist nicht ersichtlich. Sie tragen die Beweislast hierfür.
-[Falls Airline bereits eine Begründung wie technischer Defekt geliefert hat,
-hinzufügen: Technische Defekte sind nach st. Rspr. des EuGH (Urt. v.
-22.12.2008, C-549/07 — Wallentin-Hermann; curia.europa.eu) regelmäßig
-NICHT als außergewöhnliche Umstaende zu werten.]
+## 5. Qualitätskontrolle
 
-[Bei Verspätung am Endziel mehr als drei Stunden bei Anschlussflug:]
-6. Maßgeblich ist die Ankunftsverspätung am Endziel der Reise nach EuGH
-C-11/11 (Folkerts). Die tatsächliche Ankunft am Endziel erfolgte mit
-[X] Stunden Verspätung gegenüber der geplanten Ankunftszeit.
-```
-
-### 4. Forderung
-
-```
-Hiermit fordere ich Sie auf den Gesamtausgleich in Höhe von [X] EUR sowie
-gegebenenfalls Auslagenersatz für [Hotel Verpflegung Telefon] in Höhe von
-[Y] EUR — Belege beiliegend — auf folgendes Konto zu überweisen:
-
-  Inhaber: [Name]
-  IBAN: DE [...]
-  BIC: [...]
-
-bis spaetestens [Datum + 14 Tage].
-
-Bei Nichtzahlung werde ich zur weiteren Geltendmachung die Schlichtungsstelle
-für den öffentlichen Personenverkehr (SOEP) anrufen — kostenfrei für
-Verbraucher (vgl. § 14 Abs. 1 UKlaG). Bei weiterer Erfolglosigkeit werde ich
-Klage zum zuständigen Amtsgericht erheben mit den hieraus folgenden Mehrkosten
-(Verzugszinsen Gerichtskosten Anwaltskosten).
-```
-
-### 5. Anlagen
-
-```
-Anlagen:
-  K1   Buchungsbestätigung Flug [Flugnummer] vom [Datum]
-  K2   Boardingpaesse aller Passagiere
-  K3   Stoerungsmitteilung der Airline (sofern vorhanden)
-  K4   Belege Auslagen Hotel Verpflegung Telefon
-  K5   Vollmacht [Name Passagier 2]
-  K6   Vollmacht [Name Passagier 3]
-```
-
-### 6. Schluss
-
-```
-Mit freundlichen Grüßen
-
-[Unterschrift]
-[Name]
-```
-
-## Versand
-
-- **Einschreiben mit Rückschein** — beste Beweisform für Zustellung.
-- **E-Mail mit Empfangsbestätigung** an das offizielle Kundenservice-Postfach.
-- **Airline-Reklamationsportal** wenn als Eingangsweg vorgesehen — Eingangsnummer dokumentieren.
-- Keine Falle: bei einigen Airlines (z. B. Ryanair) ist der ausschließlich vorgegebene Eingangsweg ein Online-Formular; mehrfach versuchen und parallel auch postalisch.
-
-## Verzugszinsen
-
-- Bei Nichtzahlung tritt Verzug spätestens mit Fristablauf ein (§ 286 Abs. 1 BGB).
-- Verzugszinsen Verbraucher 5 Prozentpunkte über Basiszinssatz (§ 288 Abs. 1 BGB).
-- Bei einer Pauschalreise mit Unternehmer-Stellung kann § 288 Abs. 2 BGB (9 Prozentpunkte) einschlägig sein — selten relevant für Verbraucher.
-
-## Leitentscheidungen Forderungsschreiben (Stand Mai 2026)
-
-Vor Versand jeweils Volltext in curia.europa.eu aufrufen:
-
-- EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 (Sturgeon u.a.) — 3-Stunden-Schwelle
-- EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — techn. Defekt kein außergewöhnlicher Umstand
-- EuGH, Urt. v. 26.2.2013, C-11/11 (Folkerts) — Endziel-Verspätung Anschlussflüge
-- EuGH, Urt. v. 9.1.2025, C-394/23 — Vorverlegung als Annullierung
-- EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag
-
-## Ausgabe
-
-- `forderung-erste-stufe-<datum>.docx` und PDF.
-- Eintrag in Tagesnotizen — Reaktionsfrist ist vorgemerkt für Mahnung.
-- Hinweis: bei Reaktion der Airline auf Fall warten und Skill `airline-standardausreden-pruefen` ausführen.
-
-## Anlagen-Übergabe
-
-Unmittelbar nach Erstellung des Schreibens den Skill `fluggastrechte-anlagen-bauen` aufrufen.
-
-Übergabe-Schema:
-
-```yaml
-schriftsatz: forderung-erste-stufe-<datum>.docx
-rohbelege_verzeichnis: <fall>/belege/
-ausgabeverzeichnis: <fall>/anlagen/
-bundle: true   # erzeugt zusätzlich Schriftsatz_mit_Anlagen.pdf
-schriftgrad_stempel: 12
-schrift_stempel: Arial-Bold   # Arial 12 FETT oben rechts
-bezeichnung: "Anlage K"
-```
-
-Der Skill `fluggastrechte-anlagen-bauen` liest die im Schriftsatz erwähnten Anlagen in Reihenfolge der Erwähnung, konvertiert jede Rohdatei zu PDF, stempelt oben rechts in Arial 12 FETT (= Helvetica-Bold 12pt) den Bezeichner "Anlage K 1", "Anlage K 2" usw. und benennt die Ausgabedatei nach demselben Schema (`Anlage_K_1.pdf`). Optional wird ein Sammel-PDF mit Schriftsatz vorne und durchlaufenden Lesezeichen erzeugt.
+Das Schreiben darf keine nicht belegte Verspätungsursache, kein erfundenes Aktenzeichen und keine pauschalen Zusatzkosten enthalten. Beträge müssen fluggastbezogen nachrechenbar sein. Gib ein versandfertiges Schreiben ohne interne Arbeitsnotizen sowie daneben eine knappe Liste noch fehlender Belege aus.

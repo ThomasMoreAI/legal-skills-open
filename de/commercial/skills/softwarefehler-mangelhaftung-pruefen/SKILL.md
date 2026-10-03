@@ -1,18 +1,31 @@
 ---
 name: softwarefehler-mangelhaftung-pruefen
-title: Softwarefehler — Mangelhaftung prüfen
-description: Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung. Anwendungsfall Software versagt und Mandant braucht Einordnung ob Kauf- Werk- oder Dienstvertragsrecht gilt. Normen §§ 433 ff. BGB Kauf §§ 631 ff. BGB Werkvertrag §§ 535 ff. BGB Miete SaaS §§ 611 ff. BGB Dienst § 438 BGB Verjährung zwei Jahre Kauf § 634a BGB fuenf Jahre Werk. Prüfraster Vertragstyp Mangelbegriff Pflichtenhefte Spezifikation Nachbesserung Minderung Rücktritt Open-Source-GPL-Compliance. Output Mangel-Prüfprotokoll mit Vertragstyp-Einordnung Anspruchskette und Klagestrategie. Abgrenzung zu fachanwalt-it-recht-software-mangel und fachanwalt-it-recht-saas-vertrag-verhandlung.
+title: Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung
+description: 'Für Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/softwarefehler-mangelhaftung-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: commercial
 language: de
 ---
 
-# Softwarefehler — Mangelhaftung prüfen
+# Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Strukturierte Prüfung bei mangelhafter Software mit Vertragstyp-Einordnung. Anwendungsfall Software versagt und Mandant braucht Einordnung ob Kauf- Werk- oder Dienstvertragsrecht gilt. Normen §§ 433 ff. BGB Kauf §§ 631 ff. BGB Werkvertrag §§ 535 ff. BGB Miete SaaS §§ 611 ff. BGB Dienst § 438 BGB Verjährung zwei Jahre Kauf § 634a BGB fuenf Jahre Werk. Prüfraster Vertragstyp Mangelbegriff Pflichtenhefte Spezifikation Nachbesserung Minderung Rücktritt Open-Source-GPL-Compliance. Output Mangel-Prüfprotokoll mit Vertragstyp-Einordnung Anspruchskette und Klagestrategie. Abgrenzung zu fachanwalt-it-recht-software-mangel und fachanwalt-it-recht-saas-vertrag-verhandlung.
+
+### Softwarefehler — Mangelhaftung prüfen
 
 ## Kaltstart-Rückfragen
 
@@ -24,7 +37,7 @@ language: de
 6. Welche Nachbesserungsversuche wurden unternommen — wie viele, in welcher Frist?
 7. Handelt es sich um ein B2C-Vertragsverhältnis (§§ 327 ff. BGB Digitale-Produkte-Regime)?
 8. Liegt Open-Source-Komponente vor — welche Lizenz (GPL, AGPL, MIT, Apache)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -33,7 +46,6 @@ language: de
 | Konstellation | Vertragstyp | Mangelnorm | Verjährung |
 |---|---|---|---|
 | Standardsoftware auf Datenträger (Kauf) | Kaufrecht §§ 433 ff. BGB | § 434 BGB | 2 Jahre § 438 BGB ab Übergabe |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Individualsoftware-Erstellung | Werkvertrag §§ 631 ff. BGB | § 633 BGB | 2 Jahre § 634a BGB ab Abnahme; 5 Jahre bei Bauwerk-Bezug |
 | Customizing / Anpassung | Werkvertrag §§ 631 ff. BGB | § 633 BGB | 2 Jahre § 634a BGB |
 | B2C digitale Inhalte / SaaS | §§ 327–327u BGB (seit 01.01.2022) | § 327e BGB | § 327j BGB |
@@ -52,10 +64,6 @@ language: de
 - **§ 536 BGB** — Mietvertrag Mangelbegriff: Tauglichkeit zum vertragsgemäßen Gebrauch aufgehoben oder erheblich gemindert.
 - **§§ 327–327u BGB** — Digitale-Produkte-Richtlinie B2C: Aktualisierungspflicht § 327f BGB, Sachmangel § 327e BGB, Beweislastumkehr § 327k BGB ein Jahr.
 - **§ 377 HGB** — Untersuchungs- und Rügeobliegenheit bei beidseitig kaufmännischem Handelsgeschäft: unverzüglich nach Lieferung bei offensichtlichem Mangel, nach Entdeckung bei verborgenem Mangel; Verlust Mängelrechte bei Versäumnis.
-
-### BGH-Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema
 
@@ -76,17 +84,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Software-Mangel geltend machen | Mangelruege; Template unten |
 | Variante A — Mandant will weiter mit Anbieter arbeiten | Nacherfuellung § 439 BGB bevorzugen; Klage als letztes Mittel |
-| Variante B — SLA-Verletzung statt Mangel | Vertragsstrafe pruefen; anderes Skill |
-| Variante C — Open-Source-Komponenten betroffen | Lizenz-Compliance pruefen; Schadensersatz nach allg. Delikt |
+| Variante B — SLA-Verletzung statt Mangel | Vertragsstrafe prüfen; anderes Skill |
+| Variante C — Open-Source-Komponenten betroffen | Lizenz-Compliance prüfen; Schadensersatz nach allg. Delikt |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -101,11 +108,11 @@ Wir ruegen nachfolgende Maengel an der Softwarelieferung / dem
 Softwarewerk vom [Datum]:
 
 1. [Bug-Beschreibung: System stuerzt bei Ausfuehren von Funktion X
-   ab; Fehlermeldung: [Code]; reproduzierbar bei: [Umgebung]]
+ ab; Fehlermeldung: [Code]; reproduzierbar bei: [Umgebung]]
 2. [Performance: Antwortzeit bei 10 parallelen Nutzern > 30 Sekunden;
-   vereinbart laut Pflichtenheft Punkt 4.2: < 3 Sekunden]
+ vereinbart laut Pflichtenheft Punkt 4.2: < 3 Sekunden]
 3. [Schnittstelle Y funktioniert nicht: Schnittstellendokumentation
-   laut Spezifikation vom [Datum] nicht erfullt]
+ laut Spezifikation vom [Datum] nicht erfullt]
 
 Die Maengel unterschreiten die vereinbarte Beschaffenheit gemaess
 Pflichtenheft vom [Datum] sowie die objektive Beschaffenheit
@@ -119,7 +126,7 @@ Nach fruchtlosem Ablauf der Frist behalten wir uns vor:
 - Minderung des Werklohns / Kaufpreises
 - Ruecktritt vom Vertrag
 - Schadensersatz statt der Leistung §§ 437 Nr. 3, 281 BGB /
-  §§ 636, 281 BGB
+ §§ 636, 281 BGB
 - Selbstvornahme und Vorschussklage § 637 BGB (Werkvertrag)
 
 [Unterschrift]
@@ -155,7 +162,7 @@ gemaess Kostenvoranschlag (Anlage K4) EUR ____.
 [Unterschrift]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -224,17 +231,16 @@ gemaess Kostenvoranschlag (Anlage K4) EUR ____.
 - BGB §§ 280, 327–327u, 433–453, 535–548, 631–650
 - HGB § 377
 - DSGVO Art. 32
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Marly Praxishandbuch Softwarerecht, 8. Aufl.
 - Schneider IT-Recht, 5. Aufl.
 
 ## Triage zu Beginn
 1. Welcher Vertragstyp liegt vor — Kauf, Werkvertrag, SaaS-Miete, Digitale Produkte B2C (§§ 327 ff. BGB)?
-2. Wann war Lieferung / Abnahme — laeuft Verjaehrungsfrist (2 Jahre Kauf/Werk, 3 Jahre SaaS)?
-3. Wurde eine Mangelruege erhoben — bei kaufmaennischem Geschaeft § 377 HGB unverzueglich?
+2. Wann war Lieferung / Abnahme — laeuft Verjährungsfrist (2 Jahre Kauf/Werk, 3 Jahre SaaS)?
+3. Wurde eine Mangelruege erhoben — bei kaufmaennischem Geschäft § 377 HGB unverzueglich?
 4. Wie viele Nachbesserungsversuche gab es — Zweiversuchsregel § 440 Satz 2 BGB erfuellt?
 5. Liegt eine Open-Source-Komponente vor — welche Lizenz (GPL, AGPL, MIT, Apache)?
-6. Ist die Sicherheitsluecke datenschutzrelevant — parallel DSGVO-Meldepflicht Art. 33 pruefen?
+6. Ist die Sicherheitsluecke datenschutzrelevant — parallel DSGVO-Meldepflicht Art. 33 prüfen?
 
 ## Output-Template — Mangelruege mit Fristsetzung
 **Adressat:** Verkaeuer / Auftragnehmer — Tonfall: sachlich-juristisch
@@ -271,3 +277,13 @@ Nach Fristablauf behalten wir vor: Minderung, Ruecktritt, Schadensersatz
 
 Anlagen: Fehlerprotokoll, Screenshots, Log-Auszuege (Anlage K1–K3)
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

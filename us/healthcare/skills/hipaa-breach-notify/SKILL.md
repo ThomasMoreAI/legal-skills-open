@@ -2,14 +2,19 @@
 name: hipaa-breach-notify
 title: HIPAA Breach Notification Rule — 45 CFR §164.400-414
 description: 'Implements HIPAA breach notification requirements under 45 CFR §164.400-414. Covers individual notification within 60 days, HHS reporting thresholds (500+ immediate, under 500 annual), state attorney general notification, media notification for 500+ in a state, and breach risk assessment. Keywords: HIPAA breach notification, HHS reporting, OCR breach portal, individual notice, state attorney general.'
-author: onfire7777
-author_url: https://github.com/onfire7777/universal-ai-skills-library/tree/main/skills/hipaa-breach-notify
-license: MIT
-version: 0.1.0
+author: mukul975
+author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/hipaa-breach-notify
+license: Apache-2.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: healthcare
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # HIPAA Breach Notification Rule — 45 CFR §164.400-414

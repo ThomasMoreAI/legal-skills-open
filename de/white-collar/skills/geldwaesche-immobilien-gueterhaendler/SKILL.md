@@ -1,78 +1,53 @@
 ---
 name: geldwaesche-immobilien-gueterhaendler
-title: Immobilien, Güterhandel und Nichtfinanzsektor
-description: AML/KYC-Prüfung für Immobilienmakler Gueterhaendler Kunsthandel Edelmetalle und sonstige Nichtfinanzunternehmen. Anwendungsfall Makler oder Gueterhaendler will prüfen ob GwG-Pflichten bestehen und wie KYC-Prozesse auszugestalten sind. Normen § 2 Abs. 1 Nr. 14 GwG Immobilienmakler § 2 Abs. 1 Nr. 16 GwG Gueterhaendler § 4 GwG interne Sicherungsmassnahmen. Prüfraster Verpflichtetenstatus Risikoanalyse Identifizierung Transaktionsschwellen Barzahlungsverbot. Output KYC-Prozessdesign mit Risikoeinstufung Identifizierungsprotokoll und Barzahlungsregel-Dokumentation. Abgrenzung zu geldwäsche-kyc-onboarding und geldwäsche-risikoanalyse-unternehmen.
+title: 1. Händler- und Vermittlergeschäft prüfen
+description: Prüft Schwellen und Zahlungswege bei Güterhandel, Kunstgeschaeften und Immobilienvermittlung. Unterscheidet Barzahlung, verbundene Teilbeträge und Verdachtsanlass und vermeidet die Vermischung mit notariellen Kaufpreisnachweisen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-immobilien-gueterhaendler
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
 language: de
 ---
 
-# Immobilien, Güterhandel und Nichtfinanzsektor
+# 1. Händler- und Vermittlergeschäft prüfen
 
-## Triage zu Beginn
-1. Welcher Verpflichteten-Typ: Immobilienmakler, Notarkanzlei bei Immobiliengeschaeft, Gueterthaendler (Kunst, Edelmetalle, Luxusgueter)?
-2. Ueberschreitet der Barzahlungsbetrag den Schwellenwert (10.000 EUR brutto bei Gueterthaendlern, § 4 GwG)?
-3. Liegen PEP- oder Hochrisikoindikatoren beim Kaeufer oder Verkaeufer vor?
-4. Ist die Immobilientransaktion Teil einer komplexen Struktur mit mehreren Zwischengesellschaften?
+## 1. Zweck und Anwendungsfall
 
-## Aktuelle Rechtsprechung und Behoerdenpraxis
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Für Unternehmen mit Güterhandel oder Immobilienvermittlung. Notarielle Umschreibung zum [Notariatsskill](../notariat-immobilienzahlung-pruefen/SKILL.md) geben; Immobilienmakler und Notar haben nicht dieselben Pflichten.
 
-## Zentrale Normen
-- § 2 Abs. 1 Nr. 10-14 GwG — Verpflichtete aus Immobilien- und Guetersektor
-- § 4 GwG — Barzahlungsschwellenwerte (10.000 EUR) fuer Gueterthaendler
-- § 15 GwG — Verstaerkte Sorgfaltspflichten bei risikoreichen Kunden
-- § 43 GwG — Meldepflicht bei Verdacht; gilt fuer alle Verpflichteten einschliesslich Makler
+## 2. Eingaben
 
-## Quellenregel
+Ware oder vermitteltes Geschäft, Einzel- und Teilbeträge, Zahlungsart, Parteien und Geschäftsbezug. Kaufpreis, Nettokaltmiete und Baranteil nicht als dieselbe Rechengröße verwenden.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
+## 3. Ablauf
 
-Dieser Skill übersetzt GwG-Pflichten in pragmatische Workflows für Nichtfinanzunternehmen.
+### 3.1. Tätigkeitsart bestimmen
 
-## Wann verwenden
+Güterhändler nach GwG Paragraf 2 Absatz 1 Nummer 16, Immobilienmakler nach Nummer 14 einordnen. Bei Kunsthandel und hochwertigen Gütern die konkrete Warenkategorie nach Paragraf 1 prüfen. Eine teure Maschine ist nicht deshalb ein Edelmetallgeschäft.
 
-- wenn ein neues AML/KYC-, GwG-, Sanktions- oder Compliance-Thema aufgenommen wird
-- wenn Kunden, wirtschaftlich Berechtigte, Transaktionen, Länder, Produkte oder Vertriebskanäle risikobasiert geprüft werden müssen
-- wenn ein Alert, Treffer, Behördenkontakt, Verdachtsmoment, Pressefall oder Remediation-Projekt vorliegt
+### 3.2. Schwellen berechnen
 
-## Arbeitsweise
+Paragraf 10 Absatz 6a: Kunstgeschäfte ab 10000 Euro; Edelmetallgeschäfte der dort bezeichneten Kategorie bei Barzahlungen ab 2000 Euro; sonstige Güter bei Barzahlungen ab 10000 Euro. Verbundene Teilvorgänge und Zahlungen Dritter mit betrachten. Bei Immobilienvermittlung Kaufgeschäft und Miet-/Pachtgeschäft mit mindestens 10000 Euro monatlicher Nettokaltmiete oder -pacht nach Absatz 6 unterscheiden.
 
-1. **Rolle und Pflichtenkreis klären.** Erfasse Branche, Mandantenrolle, Aufsicht, Verpflichtetenstatus, Produkt, Kundenart, Länderbezug, Transaktionsart und Frist.
-2. **Daten sauber ziehen.** Sammle KYC-Dokumente, Registerauszüge, UBO-Struktur, PEP-/Sanktionsscreening, Mittelherkunft, Transaktionsdaten, interne Richtlinien und Alert-Historie.
-3. **Quellenstand protokollieren.** Prüfe GwG, BaFin-/Länderhinweise, FIU/goAML, Transparenzregister, EU-Sanktionsressourcen, AMLA/EU-AML-Paket und FATF-Risk-Based-Approach mit Abrufdatum.
-4. **Risikobasiert entscheiden.** Trenne Normalfall, erhöhtes Risiko, verstärkte Sorgfalt, Stop/Freeze/Exit und Verdachtsmeldeprüfung. Keine automatische Freigabe bei Datenlücken.
-5. **Verzeihend nachziehen.** Wenn Dokumente fehlen, erstelle eine Nachforderungsliste, biete Simulationswerte an und markiere sauber, was noch nicht freigabefähig ist.
-6. **Arbeitsprodukt liefern.** Erzeuge KYC-Vermerk, Risikoanalyse, Trefferlog, Verdachtsmeldungsentwurf, Richtlinie, Schulung, Audit-Finding, Behördenantwort oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Freigaben, Vier-Augen-Prinzip, Quellen, Fristen, Datenschutz, Mandatsgeheimnis, Aufbewahrung, Löschung und Auditierbarkeit.
+### 3.3. Verdacht nicht wegschwellen
 
-## Rückfragen, wenn unklar
+Verdachtstatsachen und Identitätszweifel nach Paragraf 10 Absatz 3 sowie Paragraf 43 unabhängig von betragsbezogenen Erleichterungen prüfen. Barausschluss in der Unternehmensrichtlinie und tatsächliche Kassenpraxis vergleichen. Kassenbestand, Vertragsnummer und Quittung sind wichtiger als eine bloße Zusicherung „nie Bargeld“.
 
-- Welche Branche, Rolle und Aufsichtszuständigkeit hat der Mandant?
-- Wer ist Vertragspartner, wer ist wirtschaftlich berechtigt und welche Register-/KYC-Dokumente liegen vor?
-- Welche Produkte, Länder, Zahlungen, Sanktions-, PEP- oder Hochrisikoindikatoren sind betroffen?
-- Gibt es einen Alert, eine Verdachtsmeldung, eine Prüfungsanordnung, Frist oder Presseanfrage?
-- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+### 3.4. Zukunftsrecht nicht vorziehen
 
-## Ausgabeformat
+Artikel 80 der Verordnung (EU) 2024/1624 begrenzt grundsätzlich ab 10. Juli 2027 bestimmte Barzahlungen auf maximal 10000 Euro. Heutige Identifizierungsschwelle und künftiges Verbot sind verschiedene Fragen. Strengere nationale Regeln und Ausnahmen gesondert prüfen.
 
-- Kurzlage mit Risikoampel und Sofortmaßnahmen
-- KYC-/UBO-/Sanktions- oder Monitoring-Matrix mit Quellenstand
-- Entscheidungsvorschlag mit Freigabe-, Eskalations- oder Stop-Workflow
-- prüfbarer Entwurf für Richtlinie, Verdachtsmeldung, Behördenantwort, Schulung oder Remediation
-- offene Annahmen, fehlende Nachweise und Review-Hinweise
+## 4. Quellenpflicht
 
-## Typische Fehler vermeiden
+[GwG Paragraf 10](https://www.gesetze-im-internet.de/gwg_2017/__10.html), Paragraf 1 Absatz 5 und [Rechtsstand](../../references/rechtsstand-2026-und-eu-uebergang.md).
 
-- Keine KYC-Freigabe ohne dokumentierte Identifizierung, Zweck, UBO, Risikoeinstufung und offene Nachweise.
-- Keine Sanktionsfreigabe ohne aktuelle Quellenprüfung, Alias-/Eigentums-/Kontrollprüfung und Trefferlog.
-- Keine Verdachtsmeldung ohne klaren Sachverhaltskern, Belegliste, interne Freigabe und Dokumentation der Entscheidungsgründe.
-- Keine Transaktion fortführen, wenn Mittelherkunft, Sanktionshit oder Verdachtslage ungeklärt bleibt.
-- Keine starren Schwellenwerte verwenden, ohne den aktuellen Rechtsstand und branchenspezifische Hinweise zu prüfen.
-- Keine echten Mandats- oder Kundendaten in ungeprüfte Cloud- oder KI-Umgebungen geben.
+## 5. Ausgabeformat
+
+Ausformulierter Geschäftsvermerk mit Teilbetragsrechnung, Schwelle, Pflichten und Zahlungsentscheidung. Times New Roman 11 pt, dezimale Gliederung. Zahlen als Tabelle mit Quelle und Datum ausgeben.
+
+## 6. Beispiele
+
+Drei Baranzahlungen von 4000, 3500 und 3000 Euro für dieselbe Maschine ergeben 10500 Euro. Nicht drei getrennte Unterschwellenfälle annehmen; daneben abweichenden Zahler anhand der Akte klären.

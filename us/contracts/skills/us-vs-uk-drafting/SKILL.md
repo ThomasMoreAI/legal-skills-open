@@ -1,0 +1,140 @@
+---
+name: us-vs-uk-drafting
+title: UK vs US Drafting
+description: 'Für UK vs US Drafting: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/common-law-kompass/skills/us-vs-uk-drafting
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: us
+practice: contracts
+language: de
+---
+
+# UK vs US Drafting
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: England Limitation Act 1980 (6 Jahre Contract, 6 Jahre Tort), US-Statutes of Limitations einzelstaatlich (oft 3-6 Jahre), ICC-Schiedsverfahren Antwort 30 Tage.
+- Tragende Normen verifizieren: Englisches Recht (Common Law / Equity), US-Recht (Restatements, UCC), Vergleich BGB-System, IPR-Anknüpfung (Rom I, Rom II), HCCH-Konventionen, New Yorker Übereinkommen (Schiedssprüche) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant mit US/UK-Bezug, Solicitor, Barrister, US-Attorney, deutscher Anwalt, Schiedsgericht (ICC, LCIA, ICDR), High Court, Court of Appeal.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Letter of Engagement, Statement of Claim / Particulars of Claim, Defence, Affidavit, Witness Statement, Discovery/Disclosure, Settlement Agreement — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wann verwenden
+
+- bei Verträgen, Memos, Redlines, Übersetzungen oder Schulungen mit Common-Law-Bezug
+- wenn deutsche Rechtsbegriffe ins Englische übertragen werden
+- wenn UK/US-Unterschiede oder False Friends drohen
+
+## Rückfragen, wenn unklar
+
+- Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
+- Welche Partei oder Rolle vertreten wir?
+- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+- Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
+
+## Typische Fehler vermeiden
+
+- Bürgschaft, guarantee, suretyship und indemnity nicht gleichsetzen.
+- Consideration nicht als deutsche Gegenleistung behandeln.
+- UK, USA, New York, Delaware und UCC nicht vermischen.
+- Keine erfundenen Fälle oder Quellen verwenden.
+
+## Ton
+
+Common-Law-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf leicht sein, aber nie auf Kosten der juristischen Trennschärfe.
+
+## Triage vor UK-vs-US-Drafting-Analyse
+
+Kläre vor der Vergleichsanalyse:
+
+1. Liegt ein Dokument vor, das gemischt UK/US-Stil aufweist, oder soll ein neues sauber in einer Tradition entworfen werden?
+2. Governing Law: English law (London), New York, Delaware, oder anderer US-Staat?
+3. Vertragstyp: SPA, Darlehensvertrag, Services Agreement, IP-Lizenz, JV-Agreement?
+4. Counterparty-Erwartung: US-Firm oder Magic-Circle-UK-Firm? (Das praegt Styleerwartungen stark.)
+5. Welche Klauseln wurden bereits als problematisch identifiziert?
+
+## Key Case Law — Interpretation UK vs US
+
+- *Arnold v Britton* [2015] UKSC 36, [2015] AC 1619 — UK Supreme Court betont: klarer Vertragswortlaut schlaegt kontextuelle Auslegung; englisches Recht tendiert zu wortgetreuer Auslegung bei gut gedrafteten Texten.
+- *Investors Compensation Scheme v West Bromwich* [1998] 1 WLR 896 (HL) — Lord Hoffmann: Kontext und Hintergrundwissen beeinflussen Bedeutung; englische Auslegung ist kontextuell, aber nicht rewriting.
+- *Frigaliment Importing Co v BNS International Sales Corp* 190 F Supp 116 (SDNY 1960) — US-Klassiker zu Vertragsauslegung ("What is chicken?"): Trade usage, course of dealing und course of performance als Auslegungsquellen nach UCC.
+- *Pacific Gas & Electric Co v GW Thomas Drayage* 69 Cal 2d 33 (Cal 1968) — US (California) Parol Evidence Rule: extrinsic evidence grundsätzlich zulässig zur Klärung von Ambiguities — ein fundamentaler Unterschied zu klassischer englischer plain-meaning-Auslegung.
+
+## UK vs US Drafting-Vergleichsmatrix
+
+| Punkt | England & Wales | New York / Delaware | Deutsches Fallbeil-Risiko |
+|---|---|---|---|
+| Consideration | Erforderlich; past consideration ungueltig | Erforderlich; "valuable consideration" reicht | Fehler: deutschen Synallagma-Begriff anwenden |
+| Conditions vs Warranties | Condition: Ruecktritt; Warranty: Schadensersatz | Rep & Warranty: oft zusammen, survival-Klausel entscheidend | Warranty als "Garantie i.S.v. § 443 BGB" fehldeuten |
+| Indemnity | Verschuldensunabhaengig, enger Wortlaut | Verschuldensunabhaengig; NY: Anti-Indemnity-Statutes beachten | Als Schadensersatz i.S.v. § 249 BGB behandeln |
+| Material Adverse Change | Court-sceptisch (Akorn v Fresenius - Delaware) | MAC-Trigger schwer auszuloesen; hohe Schwelle | MAC als Force-Majeure-Ersatz missverstehen |
+| Entire Agreement Clause | Sperrt nur collateral warranties, nicht statutory misrep | Merger Clause sperrt Parol Evidence breiter | Als vollstaendigen Haftungsausschluss ueberschaetzen |
+| Good Faith | Kein allgemeiner implied duty (Walford v Miles) | UCC § 1-304: duty of good faith bei UCC-Vertraegen | BGB-Treu-und-Glauben-Mastab anlegen |
+| Limitation of Liability | UCTA reasonableness test | NY: Generally enforceable, aber groß negligence nicht ausschliessbar | Cap zu hoch oder zu niedrig ansetzen |
+| Notice Provisions | Strict compliance gefordert | Substantial compliance oft ausreichend | Notice-Fristen als Formsache behandeln |
+
+## Normen und Quellen
+
+**UK**
+- Sale of Goods Act 1979 ss 12-15 — implied terms conditions/warranties
+- UCTA 1977 ss 2, 3, 11 — limits on exclusion clauses
+- Misrepresentation Act 1967 — rep-Haftung neben Vertragsrecht
+- Companies Act 2006 ss 39-41 — corporate capacity and authority
+
+**US (New York / Delaware)**
+- UCC Art. 1 (§ 1-304 good faith), Art. 2 (§§ 2-313 to 2-318 warranties)
+- Restatement (Second) of Contracts §§ 201-203 (interpretation)
+- DGCL § 102(b)(7) — limitation of director liability
+- NY GOL § 5-1401 — NY choice of law enforceability
+
+**Kommentar**
+- McKendrick, *Contract Law*, 14th ed. 2021 (UK) — Standardlehrbuch
+- Farnsworth, *Farnsworth on Contracts*, 3rd ed. 2004 (US) — Standardwerk
+
+## Output-Template: UK-vs-US-Vergleichsmemo
+
+**Adressat:** Partnerebene oder Mandant — **Tonfall:** praezise, tabellarisch, handlungsorientiert
+
+```
+UK VS US DRAFTING — VERGLEICHSMEMO
+Datum: [DATUM]
+Dokument: [VERTRAGSNAME]
+Governing Law (aktuell): [...]
+Ziel-Jurisdiktion (nach Anpassung): [...]
+Bearbeiter: [NAME]
+
+ZUSAMMENFASSUNG
+Das vorliegende Dokument ist [ueberwiegend UK / ueberwiegend US / gemischt] und weist
+[X] Stellen auf, die jurisdiktionsfremde Elemente enthalten.
+
+KRITISCHE UK/US-KONFLIKTE
+
+Nr. | Klausel | Aktueller Text | Problem | Empfohlene Aenderung | Prioritaet
+----|---------|---------------|---------|---------------------|----------
+ 1 | [§/Abs.] | "[Auszug]" | [UK/US-Konflikt] | "[Neuer Text]" | HOCH
+ 2 | ...
+
+STYLE-ANPASSUNGEN (Nicht-kritisch)
+- [Liste formaler Stilanpassungen: Datumsformat, defined terms, Nummerierung, ...]
+
+JURISDICTION-SPEZIFISCHE CHECKLISTE
+[ ] Consideration/past consideration geprueft (UK)
+[ ] Deed vs Simple Contract: Formerfordernis geklaert
+[ ] UCTA-Reasonableness-Test bestanden (UK)
+[ ] UCC-Warranty-Disclaimer § 2-316 eingehalten (US)
+[ ] MAC-Definition: Delaware-Standard beruecksichtigt (US-M&A)
+[ ] Walford v Miles: No good-faith-obligation clause beachtet (UK)
+
+LOCAL-COUNSEL-EMPFEHLUNG: [Ja / Nein / Fuer Teilbereiche]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

@@ -1,11 +1,11 @@
 ---
 name: output-pruefdokument-ki-vo-mit-warnhinweisen
 title: 'Output: Prüfdokument KI-VO mit Warnhinweisen'
-description: 'Erzeugt das abschliessende KI-VO-Pruefdokument mit Warnhinweisen, Tatsachenbasis und dokumentierbarer Begruendung. Deckt Art. 3 KI-System-Vermerk, Zweckbestimmung, GPAI/Chatbot-Abgrenzung, Art. 6 Abs. 2/Anhang III, Art. 6 Abs. 3-Rueckausnahme, Betreiber-Off-label-Nutzung, Pflichten, offene Punkte und Re-Evaluation ab. Output: strukturiertes Memo/Word/PDF fuer Compliance-Akte, Vorstand, Rechtsabteilung oder Kanzlei.'
+description: 'Für Output: Prüfdokument europäischer Technikregulierungsrahmen mit Warnhinweisen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/output-pruefdokument-ki-vo-mit-warnhinweisen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Output: Prüfdokument KI-VO mit Warnhinweisen
-
-## Zweck
-
-Dieser Skill erstellt das abschließende Prüfdokument am Ende des KI-VO-Workflows. Es soll nicht nur Ergebnisse zusammenfassen, sondern die Einordnung so dokumentieren, dass später nachvollziehbar ist, auf welchen Tatsachen, Annahmen und Rechtskategorien die Entscheidung beruhte.
 
 ## Pflicht-Header
 
@@ -43,13 +39,13 @@ Aus `liegt-ki-system-vor-art-3-nr-1` übernehmen:
 
 | Element | Ergebnis | Begründung |
 |---|---|---|
-| maschinenbasiertes System | Ja/Nein/Unklar |  |
-| Autonomiegrad | Ja/Nein/Unklar |  |
-| Adaptivität | Ja/Nein/Unklar/Nicht erforderlich |  |
-| explizite/implizite Ziele | Ja/Nein/Unklar |  |
-| Inferenz aus Eingaben | Ja/Nein/Unklar |  |
-| Output-Typ | Vorhersage/Inhalt/Empfehlung/Entscheidung |  |
-| Einfluss auf Umgebung | Ja/Nein/Unklar |  |
+| maschinenbasiertes System | Ja/Nein/Unklar | |
+| Autonomiegrad | Ja/Nein/Unklar | |
+| Adaptivität | Ja/Nein/Unklar/Nicht erforderlich | |
+| explizite/implizite Ziele | Ja/Nein/Unklar | |
+| Inferenz aus Eingaben | Ja/Nein/Unklar | |
+| Output-Typ | Vorhersage/Inhalt/Empfehlung/Entscheidung | |
+| Einfluss auf Umgebung | Ja/Nein/Unklar | |
 
 Pflichttext:
 ```text
@@ -64,7 +60,7 @@ Dokumentieren:
 - tatsächliche Nutzung in der Organisation
 - verbotene oder ausgeschlossene Nutzungen
 - vorhersehbarer Fehlgebrauch
-- bekannte Abweichungen durch Mitarbeitende
+- bekannte Abweichungen durch Mitarbeiter
 - Re-Evaluation-Trigger
 
 ### 4. GPAI/Chatbot-Abgrenzung
@@ -78,12 +74,12 @@ Die allgemeine technische Nutzbarkeit eines GPAI-Systems oder Chatbots in Hochri
 
 | Prüfpunkt | Ergebnis | Fundstelle | Folge |
 |---|---|---|---|
-| Verbotene Praktik | Ja/Nein/Unklar | Art. 5 |  |
-| Hochrisiko Sicherheitsbauteil | Ja/Nein/Unklar | Art. 6 Abs. 1, Anhang I |  |
-| Hochrisiko Anhang III | Ja/Nein/Unklar | Art. 6 Abs. 2, Anhang III |  |
-| Rückausnahme | Greift/Greift nicht/Unklar | Art. 6 Abs. 3/4 |  |
-| Begrenztes Risiko | Ja/Nein/Unklar | Art. 50 |  |
-| GPAI-Modell/System | Ja/Nein/Unklar | Art. 3 Nr. 63/66, Art. 51 ff. |  |
+| Verbotene Praktik | Ja/Nein/Unklar | Art. 5 | |
+| Hochrisiko Sicherheitsbauteil | Ja/Nein/Unklar | Art. 6 Abs. 1, Anhang I | |
+| Hochrisiko Anhang III | Ja/Nein/Unklar | Art. 6 Abs. 2, Anhang III | |
+| Rückausnahme | Greift/Greift nicht/Unklar | Art. 6 Abs. 3/4 | |
+| Begrenztes Risiko | Ja/Nein/Unklar | Art. 50 | |
+| GPAI-Modell/System | Ja/Nein/Unklar | Art. 3 Nr. 63/66, Art. 51 ff. | |
 
 ### 6. Anhang-III-Matrix
 
@@ -91,14 +87,14 @@ Auch bei negativem Ergebnis kurz dokumentieren:
 
 | Nr. | Bereich | Ergebnis | Kurze Begründung |
 |---|---|---|---|
-| 1 | Biometrie | Ja/Nein/Unklar |  |
-| 2 | Kritische Infrastruktur | Ja/Nein/Unklar |  |
-| 3 | Bildung/Berufsausbildung | Ja/Nein/Unklar |  |
-| 4 | Beschäftigung/Arbeit | Ja/Nein/Unklar |  |
-| 5 | Wesentliche private/öffentliche Dienste | Ja/Nein/Unklar |  |
-| 6 | Strafverfolgung | Ja/Nein/Unklar |  |
-| 7 | Migration/Asyl/Grenze | Ja/Nein/Unklar |  |
-| 8 | Rechtspflege/demokratische Prozesse | Ja/Nein/Unklar |  |
+| 1 | Biometrie | Ja/Nein/Unklar | |
+| 2 | Kritische Infrastruktur | Ja/Nein/Unklar | |
+| 3 | Bildung/Berufsausbildung | Ja/Nein/Unklar | |
+| 4 | Beschäftigung/Arbeit | Ja/Nein/Unklar | |
+| 5 | Wesentliche private/öffentliche Dienste | Ja/Nein/Unklar | |
+| 6 | Strafverfolgung | Ja/Nein/Unklar | |
+| 7 | Migration/Asyl/Grenze | Ja/Nein/Unklar | |
+| 8 | Rechtspflege/demokratische Prozesse | Ja/Nein/Unklar | |
 
 ### 7. Betreiber- und Governance-Vermerk
 
@@ -148,4 +144,4 @@ Empfohlene nächste Schritte:
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Quellenstand und Leitlinienlage sind vor Außenverwendung zu aktualisieren. Keine Rechtsberatung.
+Stand: 07/2026. Quellenstand und Leitlinienlage sind vor Außenverwendung zu aktualisieren. Keine Rechtsberatung.

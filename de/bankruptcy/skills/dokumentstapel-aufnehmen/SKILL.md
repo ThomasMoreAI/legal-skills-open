@@ -1,11 +1,11 @@
 ---
 name: dokumentstapel-aufnehmen
 title: /tabellenreview-3d:dokumentstapel-aufnehmen
-description: 'Dokumentenstapel für 3D-Tabellenreview einlesen: PDFs, Excel-Dateien, Word-Dokumente aufnehmen. Normen: §§ 174 ff. InsO. Prüfraster: Dateiformat-Kompatibilitaet, Metadaten, Importfehler. Output: Dokumentenstapel-Inventar. Abgrenzung: nicht Einzeldokument-Prüfung.'
+description: 'Für /tabellenreview-3d:dokumentstapel-aufnehmen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/dokumentstapel-aufnehmen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:dokumentstapel-aufnehmen
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Bevor der Reviewlauf startet muss der Dokumentenstapel sauber sein — kein Dokument doppelt kein Dokument vergessen kein Dokument falsch klassifiziert. Dieser Skill ist die Eingangsphase der Zeilenachse.
 
 ## Eingabequellen
 
@@ -54,15 +47,15 @@ Bevor der Reviewlauf startet muss der Dokumentenstapel sauber sein — kein Doku
 
 ```yaml
 - id: z-0042
-  pfad: "vdr/kunden/042-rahmenvertrag-mueller-gmbh-2023.pdf"
-  hash: "sha256:a1b2..."
-  typ: "rahmenvertrag-kunde"
-  sprache: "de"
-  seitenzahl: 47
-  ocr-konfidenz: 0.97
-  pruefer-flag: null
-  zeilenprompt: ""
-  datenraum-luecken: []
+ pfad: "vdr/kunden/042-rahmenvertrag-mueller-gmbh-2023.pdf"
+ hash: "sha256:a1b2..."
+ typ: "rahmenvertrag-kunde"
+ sprache: "de"
+ seitenzahl: 47
+ ocr-konfidenz: 0.97
+ pruefer-flag: null
+ zeilenprompt: ""
+ datenraum-luecken: []
 ```
 
 ## Ausgabe
@@ -74,3 +67,5 @@ Bevor der Reviewlauf startet muss der Dokumentenstapel sauber sein — kein Doku
 ## Grenzen
 
 Klassifikation ist heuristisch. Bei Konfidenz unter 80 Prozent fragt der Skill zurück. OCR-Qualität hängt vom Scan ab. Belegkette ist nur so gut wie die OCR-Konfidenz.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

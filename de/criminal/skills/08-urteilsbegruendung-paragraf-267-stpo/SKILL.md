@@ -1,0 +1,94 @@
+---
+name: 08-urteilsbegruendung-paragraf-267-stpo
+title: 08 Urteilsbegründung Paragraf 267 Stpo
+description: 'Für 08 Urteilsbegründung Paragraf 267 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-amtsgericht-straf/skills/08-urteilsbegruendung-paragraf-267-stpo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# 08 Urteilsbegründung Paragraf 267 Stpo
+
+## Zweck
+
+Urteilsgründe: Persoenliche Verhaeltnisse, Feststellungen zum Tatgeschehen, Beweiswürdigung, rechtliche Würdigung, Strafzumessung, Nebenentscheidungen
+
+## Rolle
+
+
+Werkstatt-Assistent für den Strafrichter am Amtsgericht (Paragraf 25 GVG) und das Schöffengericht (Paragraf 28 GVG). Vergehen bis vier Jahre Straferwartung. Eröffnung, Hauptverhandlung, Beweiswürdigung, Strafzumessung, Strafbefehl, Bewährung.
+
+## Rechtsrahmen
+
+StGB, StPO, GVG, JGG, OWiG, BZRG, RVG
+
+## Pflichtschritte
+
+1. Anklage oder Strafbefehlsantrag auf hinreichenden Tatverdacht und Eröffnungsreife (Paragrafen 199 ff. StPO) prüfen.
+2. Hauptverhandlung terminieren und laden; Verteidigerbestellung (Paragraf 140 StPO) und Verständigungsrisiken bedenken.
+3. Beweisaufnahme nach Paragrafen 244 ff. StPO führen; Beweisanträge mit tragfähigem Grund bescheiden.
+4. Beweiswürdigung nach Paragraf 261 StPO ohne Vorfestlegung; In-dubio-pro-reo beachten.
+5. Strafzumessung nach Paragraf 46 StGB; Tenor, Nebenfolgen und Rechtsmittelbelehrung formulieren; Urteilsgründe nach Paragraf 267 StPO absetzen.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Schwellenwerte sowie Fristen vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+## Anker-Rechtsprechung
+
+- BGH, Urteil vom 30.07.1999 - 1 StR 618/98, BGHSt 45, 164: Wird ausnahmsweise ein aussagepsychologisches Glaubhaftigkeitsgutachten eingeholt, muss es hypothesengeleitet, transparent und nach dem wissenschaftlichen Methodenstand alternative Entstehungserklärungen prüfen; kein allgemeiner Aussage-gegen-Aussage-Anker.
+- BVerfG, Urteil vom 19.03.2013 - 2 BvR 2628/10, 2 BvR 2883/10 und 2 BvR 2155/11, BVerfGE 133, 168: Verständigungen nach Paragraf 257c StPO brauchen Transparenz, Belehrung, Protokollierung und revisionsfähige Kontrolle.
+- Ständige Rechtsprechung des BGH zum Beweisantragsrecht nach Paragraf 244 StPO: Ablehnungsgründe müssen im Einzelfall tragfähig subsumiert und revisionsfest begründet werden; ein konkretes Aktenzeichen wird vor produktiver Zitierung über Rechtsprechung-im-Internet oder dejure verifiziert.
+- BGH, Beschluss vom 30.05.2018 - 3 StR 486/17, frei nachweisbar über dejure: Urteilsgründe müssen die für erwiesen erachteten Tatsachen so geordnet darstellen, dass die gesetzlichen Merkmale der Tat nachvollziehbar geprüft werden können.
+
+## Prüfungsschema in Stufen
+
+1. Urteilsbegründung Paragraf 267 Stpo: Schuldspruch, Freispruch, Einstellung, Maßregel, Einziehung und Nebenfolgen getrennt prüfen.
+2. Strafrahmen, Milderungsgründe, Vorbelastungen, Nachtatverhalten, Geständnis und Verständigungseinfluss offen legen.
+3. Urteilsgründe nach Paragraf 267 StPO so schreiben, dass Tatgeschehen, Beweiswürdigung und Rechtsfolgen revisionsfähig sind.
+4. Rechtsmittelbelehrung, Kosten und Vollstreckungsfragen an die Entscheidungsart anpassen.
+5. Bei Maßregeln und Einziehung Anordnungsvoraussetzungen, Verhältnismäßigkeit und Tenorbestimmtheit gesondert absichern.
+
+## Typische Fallstricke
+
+- Der Strafbefehl wird wie ein Urteil begründet, obwohl andere Form- und Einspruchslogik gilt.
+- Aussage-gegen-Aussage wird mit blosser Glaubwuerdigkeitsrhetorik statt Aussageanalyse erledigt.
+- Beweisantraege werden ohne tragfähigen Ablehnungsgrund beschieden.
+- Akteninhalte duerfen wegen Paragraf 353b StGB und Paragraf 43 DRiG nicht in Schatten-Werkzeuge gelangen.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Es soll Beweis erhoben werden über [Beweisthema] durch Vernehmung des Zeugen [Name] und durch Verlesung der Urkunde [Bezeichnung], soweit die gesetzlichen Voraussetzungen vorliegen.
+```
+
+### Baustein B
+
+```text
+Der Antrag wird zurückgewiesen, weil die unter Beweis gestellte Tatsache aus tatsächlichen Gründen für die Entscheidung ohne Bedeutung ist; die Kammer stützt dies auf [konkrete Erwägung].
+```
+
+## Benachbarte Skills
+
+- **Davor**: `07-tenor-und-rechtsmittelbelehrung-straf` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Urteilsbegründung Paragraf 267 Stpo trägt.
+- **Danach**: `09-strafbefehl-und-beschleunigtes-verfahren` - Folgeskill nutzen, sobald Urteilsbegründung Paragraf 267 Stpo entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Amtsgericht Strafsachen. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Eröffnungsbeschluss, Strafbefehl, Sitzungsverfügung oder Urteil; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 24, 25, 28 GVG sowie Paragrafen 199, 203, 244, 261, 267 StPO. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill sortiert den strafrichterlichen Streitstoff nach Anklagevorwurf, Einlassung, Beweismittel, rechtlicher Würdigung und Rechtsfolgenfrage. Er trennt beweisbedürftige Tatsachen von bloßer Wertung und markiert, welche Punkte in Hauptverhandlung, Beweisbeschluss, Verständigungslage oder Urteil übernommen werden müssen.

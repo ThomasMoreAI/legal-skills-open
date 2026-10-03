@@ -8,7 +8,7 @@ Jurisdiction: `tr` · Practice: `regulatory` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`Gap Surfacer`](skills/gap-surfacer-zekaisuni/) | Reference skill: /regulatory-legal:gaps ve /regulatory-legal:comments için ortak tracker çerçevesi. Türkiye… |
+| [`Gap Surfacer`](skills/gap-surfacer-zekaisuni/) | Reference skill: /regulatory-legal:gaps ve /regulatory-legal:comments için ortak tracker çerçevesi.… |
 
 ## Cold-start context
 

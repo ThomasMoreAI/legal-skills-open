@@ -5,11 +5,16 @@ description: Austrian tax procedure — filing appeals (Beschwerde) against tax 
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-steuer-verfahren
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: tax
 language: de
+sources:
+- title: Ogh case presentation
+  path: references/ogh-case-presentation.md
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht steuer-verfahren — Abgabenverfahren und Rechtsmittel

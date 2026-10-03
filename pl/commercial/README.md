@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `commercial` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`reviewing-b2b-service-contract`](skills/reviewing-b2b-service-contract/) | Use when auditing Polish B2B service contract (umowa o świadczenie usług / umowa współpracy / kontrakt B2B /… |
+| [`law-pl-reviewing-b2b-service-contract`](skills/reviewing-b2b-service-contract/) | Use when auditing Polish B2B service contract (umowa o świadczenie usług / umowa współpracy / kontrakt… |
 
 ## Cold-start context
 

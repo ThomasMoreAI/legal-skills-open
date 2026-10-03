@@ -1,0 +1,99 @@
+---
+name: rechtsmittelbelehrung-zivil-relation
+title: Rechtsmittelbelehrung Zivil
+description: 'Für Rechtsmittelbelehrung Zivil: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/rechtsmittelbelehrung-zivil-relation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Rechtsmittelbelehrung Zivil
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Paragraf 232 ZPO verlangt eine Rechtsmittelbelehrung bei jeder Entscheidung, gegen die ein selbständiges Rechtsmittel statthaft ist.
+
+## Triage zu Beginn
+
+1. Handelt es sich um ein Endurteil (→ Berufung § 511 ZPO) oder einen Beschluss (→ sofortige Beschwerde § 567 ZPO)?
+2. Ist die Beschwer der Berufungsklägerin über 600 EUR (§ 511 Abs. 2 Nr. 1 ZPO)?
+3. Hat das Gericht die Berufung zugelassen (§ 511 Abs. 4 ZPO)?
+4. Welches Berufungsgericht ist zuständig — LG (bei AG-Urteilen) oder OLG (bei LG-Urteilen)?
+
+## Zentrale Normen
+
+- § 232 ZPO — Pflicht zur Rechtsmittelbelehrung
+- § 511 ZPO — Berufung (statthaft gegen Endurteile über 600 EUR Beschwer oder bei Zulassung)
+- § 517 ZPO — Berufungsfrist (1 Monat nach Zustellung)
+- § 520 ZPO — Berufungsbegründungsfrist (2 Monate nach Zustellung)
+- § 567 ZPO — sofortige Beschwerde gegen Beschlüsse (Frist 2 Wochen)
+- § 78 ZPO — Anwaltszwang vor LG und OLG
+
+## Schritt-für-Schritt-Workflow
+
+1. **Entscheidungsart bestimmen:** Urteil (→ Berufung) oder Beschluss (→ sofortige Beschwerde)?
+2. **Statthaftigkeit prüfen:** Beschwer > 600 EUR oder Berufungszulassung?
+3. **Berufungsgericht bestimmen:** AG-Urteil → LG; LG-Urteil → OLG.
+4. **Fristen einsetzen:** 1 Monat Einlegung, 2 Monate Begründung — jeweils ab Zustellung.
+5. **Standardformel einfügen** (s. unten).
+
+## Output-Template
+
+**Adressat:** Urteil/Beschluss → Rechtsmittelbelehrung — Tonfall: formal-amtlich
+
+```
+
+## Rechtsmittelbelehrung
+
+Gegen dieses Urteil ist die Berufung statthaft.
+
+Die Berufung ist binnen einer Frist von einem Monat nach Zustellung dieses Urteils beim
+[Landgericht / Oberlandesgericht] [ORT], [ANSCHRIFT], schriftlich oder zu Protokoll der
+Geschäftsstelle einzulegen und binnen einer weiteren Frist von einem Monat nach Zustellung
+zu begründen.
+
+Vor dem Berufungsgericht besteht Anwaltszwang.
+
+[Falls keine Berufung statthaft (Beschwer unter 600 EUR, keine Zulassung):]
+Gegen dieses Urteil ist ein Rechtsmittel nicht gegeben.
+```
+
+## Berufung
+
+Statthaft gegen Endurteile (Paragraf 511 Abs. 1 ZPO). Voraussetzungen:
+- Beschwer der Berufungsklägerin / des Berufungsklägers über 600 EUR (Paragraf 511 Abs. 2 Nr. 1 ZPO) ODER
+- Zulassung der Berufung durch das erstinstanzliche Gericht (Paragraf 511 Abs. 4 ZPO)
+
+Form und Frist:
+- Einlegung binnen einer Frist von einem Monat nach Zustellung des Urteils
+- Begründung binnen einer Frist von zwei Monaten nach Zustellung
+- Vor dem Berufungsgericht (LG bei AG-Urteilen, OLG bei LG-Urteilen) Anwaltszwang
+
+## Sofortige Beschwerde
+
+Statthaft gegen Beschlüsse (Paragraf 567 ZPO). Voraussetzungen ergeben sich aus der jeweiligen Vorschrift.
+
+Form und Frist:
+- Einlegung binnen einer Frist von zwei Wochen nach Zustellung
+- Bei dem Gericht, das die Entscheidung erlassen hat, oder beim Beschwerdegericht
+
+## Standardformulierung
+
+"Gegen dieses Urteil ist die Berufung statthaft. Die Berufung ist binnen einer Frist von einem Monat nach Zustellung des Urteils beim Landgericht Hamburg (Sievekingplatz Nummer 1 in 20355 Hamburg) schriftlich oder zu Protokoll der Geschäftsstelle einzulegen und binnen einer Frist von zwei Monaten nach Zustellung schriftlich zu begründen. Vor dem Berufungsgericht besteht Anwaltszwang."
+
+---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

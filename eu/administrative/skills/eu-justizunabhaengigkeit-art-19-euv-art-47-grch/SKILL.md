@@ -1,0 +1,52 @@
+---
+name: eu-justizunabhaengigkeit-art-19-euv-art-47-grch
+title: EU-Justizunabhängigkeit - Art. 19 EUV und Art. 47 GRCh
+description: 'Für EU-Justizunabhängigkeit - Art. 19 EUV und Art. 47 GRCh: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/eu-justizunabhaengigkeit-art-19-euv-art-47-grch
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: administrative
+language: de
+---
+
+# EU-Justizunabhängigkeit - Art. 19 EUV und Art. 47 GRCh
+
+## Arbeitsbereich
+
+EU-rechtliche Justizunabhängigkeit: Art. 19 Abs. 1 EUV, Art. 47 GRCh, EuGH-Linien zu Disziplinarregimen, Ernennung, Dienstaufsicht und nationalem Richterrecht. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
+- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wann nutzen?
+
+Dieser Skill ergänzt das deutsche Richterrecht, wenn unionsrechtliche Bezüge auftreten: EU-rechtlich harmonisierte Materie, Vorlageverfahren, Disziplinarverfahren gegen Richter, Ernennungsgremien, Gerichtsorganisation oder Zweifel an Unabhängigkeit und Unparteilichkeit.
+
+## Leitplanken
+
+- Art. 19 Abs. 1 Unterabsatz 2 EUV verlangt wirksamen Rechtsschutz in den vom Unionsrecht erfassten Bereichen.
+- Art. 47 GRCh schützt Zugang zu einem unabhängigen und unparteiischen Gericht, wenn Unionsrecht berührt ist.
+- Nationale Dienstaufsicht, Disziplinarregime und Ernennungssysteme sind nicht automatisch unionsrechtswidrig, müssen aber institutionelle Unabhängigkeit sichern.
+
+## Prüfprogramm
+
+1. Gibt es einen Unionsrechtsbezug?
+2. Betrifft die Maßnahme Richter, Gericht, Disziplinarsystem oder Ernennung?
+3. Besteht äußerer oder innerer Druck auf richterliche Entscheidung?
+4. Sind Regeln vorhersehbar, gesetzlich und gerichtlich überprüfbar?
+5. Gibt es eine Vorlagefrage an den EuGH?
+
+## Bekannte EuGH-Anker
+
+- EuGH 24.06.2019 - C-619/18, Kommission/Polen.
+- EuGH 19.11.2019 - C-585/18, C-624/18 und C-625/18, A.K.
+
+Vor Verwendung wird die konkrete Entscheidung in EUR-Lex geprüft. Der Skill zitiert keine Zusammenfassung aus zweiter Hand als Rechtsprechung.

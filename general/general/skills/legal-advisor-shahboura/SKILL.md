@@ -5,11 +5,56 @@ description: Legal research, jurisdiction-aware analysis, regulatory compliance,
 author: shahboura
 author_url: https://github.com/shahboura/agents-opencode/tree/main/.opencode/skills/legal-advisor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Export control
+  path: references/export-control.md
+- title: Australia
+  path: references/jurisdictions/australia.md
+- title: Brazil
+  path: references/jurisdictions/brazil.md
+- title: Canada
+  path: references/jurisdictions/canada.md
+- title: China
+  path: references/jurisdictions/china.md
+- title: European union
+  path: references/jurisdictions/european-union.md
+- title: France
+  path: references/jurisdictions/france.md
+- title: Germany
+  path: references/jurisdictions/germany.md
+- title: India
+  path: references/jurisdictions/india.md
+- title: International
+  path: references/jurisdictions/international.md
+- title: Japan
+  path: references/jurisdictions/japan.md
+- title: Malaysia
+  path: references/jurisdictions/malaysia.md
+- title: Quebec
+  path: references/jurisdictions/quebec.md
+- title: Saudi arabia
+  path: references/jurisdictions/saudi-arabia.md
+- title: Scotland
+  path: references/jurisdictions/scotland.md
+- title: South africa
+  path: references/jurisdictions/south-africa.md
+- title: United arab emirates
+  path: references/jurisdictions/united-arab-emirates.md
+- title: United kingdom
+  path: references/jurisdictions/united-kingdom.md
+- title: United states
+  path: references/jurisdictions/united-states.md
+- title: License matrix
+  path: references/license-matrix.md
+- title: Privacy checklists
+  path: references/privacy-checklists.md
+- title: Research methodology
+  path: references/research-methodology.md
 ---
 
 # Legal Advisor Skill

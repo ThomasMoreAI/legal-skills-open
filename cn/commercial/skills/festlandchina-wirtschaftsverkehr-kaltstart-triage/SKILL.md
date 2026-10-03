@@ -1,0 +1,43 @@
+---
+name: festlandchina-wirtschaftsverkehr-kaltstart-triage
+title: Festlandchina Wirtschaftsverkehr - Allgemeiner Einstieg
+description: 'Für Festlandchina Wirtschaftsverkehr - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/festlandchina-wirtschaftsverkehr/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cn
+practice: commercial
+language: de
+---
+
+# Festlandchina Wirtschaftsverkehr - Allgemeiner Einstieg
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Startfragen
+
+1. Was soll entstehen: Verständnis, Gutachten, Vertragsbaustein, Risiko-Dashboard, Unterrichtseinheit, Board-Memo oder Streitstrategie?
+2. Welche Quelle liegt vor: Normtext, Vertrag, Handelsdokument, Archivstück, Behördenseite, Schiedsklausel, Register, E-Mail oder Datenraum?
+3. Welche Rechtsordnung, Epoche, Institution, Branche oder Gegenpartei ist betroffen?
+4. Gibt es Live-Check-Bedarf wegen Tagesrecht, Sanktionen, Exportkontrolle, Behördenpraxis oder aktueller Rechtsprechung?
+5. Welche Ausgabe braucht die Nutzerin in welcher Tiefe?
+
+## Kernanker
+
+- Deutsche China-Strategie, EU De-risking, FDI Screening, Anti-Coercion Instrument
+- BAFA/EU-Dual-Use, AWG/AWV, Sanktionen, US/EU-China-Exportkontrollschnittstellen
+- Lieferkette: LkSG, CSDDD, Forced-Labour-Risiko, Audit, Customs, Trade Defence
+- China-spezifisch: Daten/Cybersecurity, IP, JV/WFOE, Tech Transfer, National-Security- und Retaliation-Risiken

@@ -1,18 +1,31 @@
 ---
 name: urheber-abmahnung-pruefen
-title: Urheber-Abmahnung prüfen
-description: 'Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen. § 97a UrhG § 97 UrhG Unterlassung Schadensersatz. Prüfraster: Schutzfähigkeit Verletzungshandlung Abmahnberechtigung UE Vertragsstrafe Kosten Gegenwehr. Output: Abmahnprüfmemo Reaktionsstrategie modifizierte UE. Abgrenzung: nicht für Filesharing-Verteidigung (fachanwalt-urheber-medienrecht-filesharing-verteidigung).'
+title: Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen
+description: 'Für Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/urheber-abmahnung-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
 language: de
 ---
 
-# Urheber-Abmahnung prüfen
+# Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: UrhG § 102 Verjährung 3/10 Jahre, § 97a Abmahnung Erstattung nur bei Berechtigung, § 41 Rückrufsrecht nach 2 Jahren, FAO § 5 36 Monate Praxis.
+- Tragende Normen verifizieren: FAO § 14k, UrhG §§ 1-69, 72, 73, 81, 87a-h, 95a, 97, 97a, 101, 103, VGG, KUG §§ 22, 23, MStV, JMStV, NetzDG (auslaufend), TMG/DDG, EU-RL 2019/790 (DSM) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Urheber, Verwertungsgesellschaft (VG Wort, GEMA, GVL), Verleger, Sendeunternehmen, Plattformbetreiber, Landesmedienanstalt, ZAK, LG (Urheber-/Medienkammer).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lizenzvertrag, Wahrnehmungsvertrag VG, Abmahnung, Unterlassungserklärung, einstweilige Verfügung, Schadensersatzklage, Gegendarstellung, NetzDG/DSA-Meldung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Urheberrechtsabmahnung auf Berechtigung Formwirksamkeit und Reaktionsstrategie prüfen. § 97a UrhG § 97 UrhG Unterlassung Schadensersatz. Prüfraster: Schutzfähigkeit Verletzungshandlung Abmahnberechtigung UE Vertragsstrafe Kosten Gegenwehr. Output: Abmahnprüfmemo Reaktionsstrategie modifizierte UE. Abgrenzung: nicht für Filesharing-Verteidigung (fachanwalt-urheber-medienrecht-filesharing-verteidigung).
+
+### Urheber-Abmahnung prüfen
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +43,7 @@ Eine urheberrechtliche Abmahnung ist kein Routineschreiben. Die Fehler der Empf�
 8. Liegt eine "massenhaft" aussehende Abmahnung vor oder ein individualisiertes Schreiben?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -64,7 +77,6 @@ Eine urheberrechtliche Abmahnung ist kein Routineschreiben. Die Fehler der Empf�
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -75,11 +87,9 @@ Eine urheberrechtliche Abmahnung ist kein Routineschreiben. Die Fehler der Empf�
 | 1 | Werkqualität: Werkart prüfen (§ 2 UrhG); persönliche geistige Schöpfung vorhanden? Kleine Münze ausreichend | § 2 UrhG |
 | 2 | Aktivlegitimation: Ist Abmahner Urheber, Inhaber ausschließlicher Lizenz oder VG-Wahrnehmungsberechtigter? Lizenzkette dokumentiert? | §§ 7, 31 UrhG |
 | 3 | Verletzungshandlung: Welcher Tatbestand (§§ 16, 17, 19a UrhG)? Zeitpunkt und Umfang der Handlung? | §§ 16, 17, 19a UrhG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | Schranken prüfen: Zitatrecht § 51, Parodie § 51a, Privatkopie § 53, Panoramafreiheit § 59? | §§ 51, 51a, 53, 59 UrhG |
 | 6 | Formelle Abmahnprüfung: § 97a Abs. 2 UrhG – Werk benannt, Verletzung konkret, Frist gesetzt, Vollmacht vorgelegt? | § 97a Abs. 2 UrhG |
 | 7 | Verbraucher-Abmahnung: § 97a Abs. 3 UrhG – Streitwert begrenzt auf EUR 1.000 bei einfach gelagerter Verletzung | § 97a Abs. 3 UrhG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Unterlassungserklärung prüfen: Ist die vorformulierte Erklärung zu weit gefasst? Modifizierung nötig? | § 97a UrhG |
 | 10 | Verjährung prüfen: 3 Jahre ab Kenntnis (§ 102 UrhG i.V.m. § 195 BGB); Restschadensersatz 10 Jahre | § 102 UrhG |
 | 11 | Strategie festlegen: modifizierte UE, Zurückweisung, Vergleich, negative Feststellungsklage | § 256 ZPO |
@@ -89,17 +99,16 @@ Eine urheberrechtliche Abmahnung ist kein Routineschreiben. Die Fehler der Empf�
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Abmahnung Urheberrecht pruefen und reagieren | Gegendarstellung / UE; Template unten |
+| Standard — Abmahnung Urheberrecht prüfen und reagieren | Gegendarstellung / UE; Template unten |
 | Variante A — Abmahnung berechtigt | Modifizierte UE mit Kostenvorbehalt; Vergleich anstreben |
-| Variante B — Abmahnung unberechtigte Schutzrechtsverwarnung | Schadensersatz gegen Abmahner pruefen § 97a Abs. 4 UrhG |
+| Variante B — Abmahnung unberechtigte Schutzrechtsverwarnung | Schadensersatz gegen Abmahner prüfen § 97a Abs. 4 UrhG |
 | Variante C — Massenabmahnung / Abmahnmissbrauch | § 8c UWG Missbrauchseinwand; Beschwerde bei Verband |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -132,11 +141,11 @@ ohne Einwilligung der Rechteinhaberin zu vervielfältigen
 
 Diese Erklärung:
 1. gilt ausschließlich für die benannte konkrete Verletzungsform
-   und kerngleiche Handlungen
+ und kerngleiche Handlungen
 2. enthält kein Anerkenntnis bzgl. Schadensersatz, Auskunft
-   oder Kostenforderungen
+ oder Kostenforderungen
 3. begrenzt die Kostenforderung auf § 97a Abs. 3 UrhG soweit
-   der Mandant als Verbraucher ohne gewerbliche Tätigkeit gehandelt hat
+ der Mandant als Verbraucher ohne gewerbliche Tätigkeit gehandelt hat
 
 [Datum]
 [Unterschrift Mandant]
@@ -153,7 +162,7 @@ Ihre Abmahnung vom [Datum]
 
 Sehr geehrte Damen und Herren,
 
-wir zeigen die anwaltliche Vertretung des/der [Mandant/in] an.
+wir zeigen die anwaltliche Vertretung des/der [Mandant] an.
 
 Ihre Abmahnung wird aus folgenden Gründen zurückgewiesen:
 
@@ -173,7 +182,6 @@ II. Bestreiten der Verletzungshandlung
 
 [ggf.: Der Internet-Anschluss des Mandanten wurde zum behaupteten
 Zeitpunkt auch von [Dritten] genutzt. Sekundäre Darlegungslast
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 kommen [Familienangehörige, Gäste] in Betracht.]
 
 III. Streitwertbegrenzung § 97a Abs. 3 UrhG
@@ -219,7 +227,7 @@ ODER
 [Ort, Datum, Unterschrift]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -233,7 +241,6 @@ ODER
 | Werkqualität | Abmahner trägt Schutzwürdigkeit; bei bekanntem Werktyp (Foto, Text) vermutet; bei sehr kurzem Text: bestreiten möglich |
 | Aktivlegitimation | Abmahner trägt Urheberschaft und Lizenzkette vollständig |
 | Verletzungshandlung (Filesharing) | Abmahner trägt IP-Adressen-Zuordnung und Zeitpunkt; Anschlussinhaber bedient sekundäre Darlegungslast |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Schranke (Zitatrecht, Parodie) | Nutzer/Beklagte trägt Voraussetzungen der Schranke |
 
 ---
@@ -254,9 +261,7 @@ ODER
 | Gegenargument | Erwiderung |
 |---|---|
 | "Foto ist ohne Quelle verwendet und damit urheberrechtlich verletzt" | Werkqualität nach § 72 UrhG (Lichtbild) prüfen; Schöpfungshöhe für Lichtbildwerk höher; Quellenangabe allein heilt Verletzung nicht, zeigt aber fehlenden Vorsatz |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Vorformulierte Unterlassungserklärung muss so unterschrieben werden" | Nein; modifizierte Erklärung ist zulässig und beseitigt ebenfalls die Wiederholungsgefahr wenn Hamburger Brauch eingehalten |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -266,7 +271,6 @@ ODER
 |---|---|
 | Abmahnkosten (Verbraucher, einfach gelagert) | § 97a Abs. 3 UrhG: Gegenstandswert EUR 1.000 → ca. EUR 124 Anwaltsgebühr (VV-RVG 2300, 1,3) |
 | Abmahnkosten (Unternehmen, gewerblich) | Streitwert EUR 6.000–50.000 je nach Werk und Reichweite; EUR 500–2.000 Anwaltskosten |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Verletzeraufschlag | Umstritten; BGH lässt bis 100 % zu; in der Praxis oft 50–100 % |
 | Unberechtigte Abmahnung | § 97a Abs. 4 UrhG: Kostenerstattung; Streitwert = Abmahnforderung |
 
@@ -293,11 +297,7 @@ ODER
 
 ---
 
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Triage-Fragen bei Urheber-Abmahnungs-Pruefung
+## Triage-Fragen bei Urheber-Abmahnungs-Prüfung
 
 Bevor die Handlungsempfehlung ausgesprochen wird, klaere:
 1. Besteht Werkqualitaet (§ 2 II UrhG — persoenlich-geistige Schoepfung, Schoeupfungshoehe)?
@@ -307,15 +307,9 @@ Bevor die Handlungsempfehlung ausgesprochen wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 026:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

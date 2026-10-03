@@ -1,11 +1,11 @@
 ---
 name: expatriate-pensionsplanung-und-totalization
 title: Expatriate-Pensionsplanung und Totalization
-description: 'Pensionsplanung für Expatriates: Totalisierungsabkommen, Doppelversicherungsvermeidung, Pensionsluecken. Normen: EG-VO 883/2004, bilaterale SV-Abkommen. Prüfraster: Entsendelaender, Sozialversicherungsrecht, Pensionsbeitraege, Lueckenanalyse. Output: Expatriate-Pensionsplan. Abgrenzung: nicht nationaler Durchführungsweg.'
+description: 'Für Expatriate-Pensionsplanung und Totalization: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/expatriate-pensionsplanung-und-totalization
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: social-security
@@ -14,11 +14,20 @@ language: de
 
 # Expatriate-Pensionsplanung und Totalization
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
-Kyoto-Büro: Yuki Yamamoto-Brennecke (DE-JP-Totalization)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Expatriate-Pensionsplanung und Totalization
+
+- **bAV-Problem:** Totalisierungsabkommen, Doppelversicherungsvermeidung, Pensionsluecken. Normen: EG-VO 883/2004, bilaterale SV-Abkommen. Prüfraster: Entsendelaender, Sozialversicherungsrecht, Pensionsbeitraege, Lueckenanalyse. Output: Expatriate-Pensionsplan. Abgrenzung: nicht nationaler Durchführungsweg.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -82,7 +91,7 @@ Das umfassendste Koordinierungssystem. Kernprinzipien:
 - In Kraft: 1.4.2000
 - Heimatland-Regel: Bis 60 Monate Entsendung DE→JP oder JP→DE bleibt Heimatland-SV zuständig
 - Totalisierung: Rentenzeiten DE und JP werden addiert für Wartezeiten
-- Yuki Yamamoto-Brennecke koordiniert japanische Seite (Kosei Nenkin und betriebliche Pläne)
+- Japan-/Datenschutz-Team koordiniert japanische Seite (Kosei Nenkin und betriebliche Pläne)
 
 #### Deutschland — Schweiz
 - CH ist nicht EU-Mitglied → VO 883/2004 gilt nicht direkt; bilaterales Abkommen DE-CH
@@ -105,11 +114,11 @@ Das umfassendste Koordinierungssystem. Kernprinzipien:
 Expats, die in mehreren Ländern BAV-Anwartschaften aufgebaut haben, erhalten im Ruhestand Renten aus mehreren Systemen:
 - Jede Rente unterliegt eigenem DBA-Regime und lokalen Auszahlungsmodalitäten
 - Koordination notwendig: Welche Renten werden wann, in welcher Währung ausgezahlt?
-- Empfehlung Treuenfels Yamamoto: Frühzeitige Pensionsplanung; ggf. Konsolidierung durch § 4 BetrAVG-Transfers
+- Empfehlung bAV-Projektteam: Frühzeitige Pensionsplanung; ggf. Konsolidierung durch § 4 BetrAVG-Transfers
 
 ### Schritt 4: Betriebliche BAV im Expat-Kontext
 
-**Empfehlung Treuenfels Yamamoto für Expat-BAV-Gestaltung:**
+**Empfehlung bAV-Projektteam für Expat-BAV-Gestaltung:**
 
 1. **Kurzentsendung:** Heimatland-VO weiterführen; keine Änderung; A1-Bescheinigung
 2. **Langzeitentsendung:** International Pension Plan (IPP) oder Offshore-Plan prüfen; US ERISA-Anforderungen beachten bei US-Bürgern
@@ -124,40 +133,40 @@ Expats, die in mehreren Ländern BAV-Anwartschaften aufgebaut haben, erhalten im
 
 ```
 EXPAT-BAV-CHECKLISTE
-Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB
+bAV-Projektteam
 
-Mitarbeiter:         [Name]
-Entsendungsland:     [Land]
-Entsendungsdauer:    [Monate]
-Beginn:              [Datum]
+Mitarbeiter: [Name]
+Entsendungsland: [Land]
+Entsendungsdauer: [Monate]
+Beginn: [Datum]
 
 A. SOZIALVERSICHERUNG
-   □ A1-Bescheinigung beantragt? (Frist: vor Entsendung)
-   □ Heimatland-SV-Abkommen vorhanden? (EU: ja; [Land]: prüfen)
-   □ Beiträge im Gastland aufzunehmen (bei Abkommens-Lücke)?
-   □ Medicare/Krankenversicherung für Gastland organisiert?
-   □ Rentenversicherungs-Nachweis (Versicherungskonto DE) bei Auslandsabkommensprüfung vorlegen?
+ □ A1-Bescheinigung beantragt? (Frist: vor Entsendung)
+ □ Heimatland-SV-Abkommen vorhanden? (EU: ja; [Land]: prüfen)
+ □ Beiträge im Gastland aufzunehmen (bei Abkommens-Lücke)?
+ □ Medicare/Krankenversicherung für Gastland organisiert?
+ □ Rentenversicherungs-Nachweis (Versicherungskonto DE) bei Auslandsabkommensprüfung vorlegen?
 
 B. BETRIEBLICHE BAV
-   □ Heimatland-Versorgungsordnung — weiter anwendbar?
-     (Ja, solange Arbeitsverhältnis zum deutschen Arbeitgeber besteht)
-   □ Gehaltserhöhungen durch Entsendungszulagen: Auswirkung auf endgehaltsbezogene Formel?
-   □ Unverfallbarkeitsfristen korrekt laufen?
-   □ Lokaler Gastland-Plan einzuführen (bei Local Hire)?
-   □ Rückkehrbedingungen: Rückführung auf deutschen Plan; Portabilitäts-Klausel?
+ □ Heimatland-Versorgungsordnung — weiter anwendbar?
+ (Ja, solange Arbeitsverhältnis zum deutschen Arbeitgeber besteht)
+ □ Gehaltserhöhungen durch Entsendungszulagen: Auswirkung auf endgehaltsbezogene Formel?
+ □ Unverfallbarkeitsfristen korrekt laufen?
+ □ Lokaler Gastland-Plan einzuführen (bei Local Hire)?
+ □ Rückkehrbedingungen: Rückführung auf deutschen Plan; Portabilitäts-Klausel?
 
 C. BESTEUERUNG
-   □ DBA anwendbar? (Welches Abkommen? Art. 18 OECD-Muster?)
-   □ Ansässigkeit im Gastland (für Steuerzwecke) begründet?
-   □ Wohnort in Deutschland beibehalten? (Doppelansässigkeit vermeiden oder DBA Tiebreaker-Regel prüfen)
-   □ Pensionsleistungen: In welchem Land zu versteuern?
-   □ AStG § 2 (erweiterte beschränkte Steuerpflicht bei Wegzug aus DE): relevant?
-   □ Rückkehr: Steuerliche Entstrickung bei Rückkehr nach DE geprüft?
+ □ DBA anwendbar? (Welches Abkommen? Art. 18 OECD-Muster?)
+ □ Ansässigkeit im Gastland (für Steuerzwecke) begründet?
+ □ Wohnort in Deutschland beibehalten? (Doppelansässigkeit vermeiden oder DBA Tiebreaker-Regel prüfen)
+ □ Pensionsleistungen: In welchem Land zu versteuern?
+ □ AStG § 2 (erweiterte beschränkte Steuerpflicht bei Wegzug aus DE): relevant?
+ □ Rückkehr: Steuerliche Entstrickung bei Rückkehr nach DE geprüft?
 
 D. BESONDERES: STRANDED PENSIONS
-   □ Frühzeitige Pensionsplanung-Übersicht erstellt?
-   □ Alle BAV-Anwartschaften (DE und international) dokumentiert?
-   □ Konsolidierungsmöglichkeiten (§ 4 BetrAVG-Transfer) geprüft?
+ □ Frühzeitige Pensionsplanung-Übersicht erstellt?
+ □ Alle BAV-Anwartschaften (DE und international) dokumentiert?
+ □ Konsolidierungsmöglichkeiten (§ 4 BetrAVG-Transfer) geprüft?
 ```
 
 ### Template 2: Entsendungsvereinbarung BAV-Klausel (Muster-Einschub)
@@ -166,24 +175,24 @@ D. BESONDERES: STRANDED PENSIONS
 § [X] BETRIEBLICHE ALTERSVERSORGUNG WÄHREND DER ENTSENDUNG
 
 (1) Das Arbeitsverhältnis mit der [Konzern Muster AG] (Deutschland) bleibt
-    während der Entsendung bestehen. Die Versorgungsordnung [Bezeichnung] gilt
-    weiter, soweit nicht nachfolgend abweichendes vereinbart.
+ während der Entsendung bestehen. Die Versorgungsordnung [Bezeichnung] gilt
+ weiter, soweit nicht nachfolgend abweichendes vereinbart.
 
 (2) Entsendungszulagen und sonstige Zulagen, die über das Grundgehalt hinaus-
-    gehen, werden für die Berechnung der Versorgungsanwartschaft nach [Variante A:
-    nicht berücksichtigt / Variante B: zu [X]% berücksichtigt].
+ gehen, werden für die Berechnung der Versorgungsanwartschaft nach [Variante A:
+ nicht berücksichtigt / Variante B: zu [X]% berücksichtigt].
 
 (3) Sozialversicherung: A1-Bescheinigung gem. VO (EG) 883/2004 wird beantragt;
-    GRV-Beiträge werden weiter in Deutschland abgeführt.
+ GRV-Beiträge werden weiter in Deutschland abgeführt.
 
 (4) Gastland-Plan: Sofern im Gastland ein lokaler betrieblicher Rentenplan
-    angeboten wird, besteht kein Anspruch des Arbeitnehmers auf Teilnahme, es sei
-    denn, dies ist nach lokalem Recht zwingend vorgeschrieben.
+ angeboten wird, besteht kein Anspruch des Arbeitnehmers auf Teilnahme, es sei
+ denn, dies ist nach lokalem Recht zwingend vorgeschrieben.
 
 (5) Bei vorzeitiger Beendigung der Entsendung (Rückkehr nach Deutschland):
-    Alle während der Entsendung aufgebauten Anwartschaften im Gastland-System
-    werden, soweit nach lokalem Recht zulässig, auf ein deutsches Versorgungswerk
-    übertragen oder eine Abfindungsregelung gem. lokalem Recht angeboten.
+ Alle während der Entsendung aufgebauten Anwartschaften im Gastland-System
+ werden, soweit nach lokalem Recht zulässig, auf ein deutsches Versorgungswerk
+ übertragen oder eine Abfindungsregelung gem. lokalem Recht angeboten.
 ```
 
 ---
@@ -209,8 +218,4 @@ D. BESONDERES: STRANDED PENSIONS
 
 ## Aktuelle Rechtsprechung und Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: einwilligung-hinweis-datenschutz
 title: Einwilligung-Hinweis-Datenschutz
-description: 'Kanzlei bietet telefonischen Transkriptionsservice an und muss DSGVO-konforme Einwilligung einholen. Art. 6 Abs. 1 lit. a DSGVO Art. 13 DSGVO Informationspflicht. Prüfraster: Rechtsgrundlage Einwilligung Informationspflicht Hinweis kein Mandatsverhältnis Widerrufsrecht. Output: DSGVO-konforme Einwilligungsklausel für Transkriptionsservice. Abgrenzung zu mandatsverhältnis-hinweis (Haftungsausschluss) und vertraulichkeit-erinnerung.'
+description: 'Für Einwilligung-Hinweis-Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/einwilligung-hinweis-datenschutz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,8 +14,21 @@ language: de
 
 # Einwilligung-Hinweis-Datenschutz
 
-Dieser Skill formuliert die datenschutzrechtlich erforderliche Einwilligungsklausel für die Verarbeitung von Sprachdaten im Rahmen des Transkriptionsservices. Da zum Zeitpunkt der Erstanfrage noch kein Mandatsverhältnis besteht, ist die Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO die maßgebliche Rechtsgrundlage.
+## Arbeitsbereich
 
+Kanzlei bietet telefonischen Transkriptionsservice an und muss DSGVO-konforme Einwilligung einholen. Art. 6 Abs. 1 lit. a DSGVO Art. 13 DSGVO Informationspflicht. Prüfraster: Rechtsgrundlage Einwilligung Informationspflicht Hinweis kein Mandatsverhältnis Widerrufsrecht. Output: DSGVO-konforme Einwilligungsklausel für Transkriptionsservice. Abgrenzung zu mandatsverhältnis-hinweis (Haftungsausschluss) und vertraulichkeit-erinnerung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Formuliert die datenschutzrechtlich erforderliche Einwilligungsklausel für die Verarbeitung von Sprachdaten im Rahmen des Transkriptionsservices. Da zum Zeitpunkt der Erstanfrage noch kein Mandatsverhältnis besteht, ist die Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO die maßgebliche Rechtsgrundlage.
 
 ## Triage zu Beginn
 1. Liegt die Anfrage vor Mandatsannahme (Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO noetig) oder nach Mandatserstellung (Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage)?
@@ -23,18 +36,12 @@ Dieser Skill formuliert die datenschutzrechtlich erforderliche Einwilligungsklau
 3. Soll der Hinweis in die Erstantwort-Mail eingebettet oder als separater Datenschutzhinweis gesandt werden?
 4. Welcher Transkriptionsdienstleister wird eingesetzt — liegt ein AVV nach Art. 28 DSGVO vor?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage fuer Sprachdaten-Verarbeitung vor Mandatsannahme
-- Art. 9 Abs. 2 lit. a DSGVO — Ausdrückliche Einwilligung fuer besondere Kategorien (Gesundheit, Strafrecht)
+- Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage für Sprachdaten-Verarbeitung vor Mandatsannahme
+- Art. 9 Abs. 2 lit. a DSGVO — Ausdrückliche Einwilligung für besondere Kategorien (Gesundheit, Strafrecht)
 - Art. 13 DSGVO — Informationspflicht bei Ersterhebung: vollstaendige Transparenzpflicht
 - Art. 7 Abs. 3 DSGVO — Widerrufsrecht: jederzeit ohne Nachteile
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Rechtlicher Hintergrund
 
 ### Warum Einwilligung?
@@ -119,3 +126,5 @@ Ohne Bestätigung: keine Aufnahme. Kein Einverständnis — kein Transkript.
 - `transkriptionsdienst-erklaerung` — bettet diese Klausel ein
 - `mandatsverhaeltnis-hinweis` — ergänzender Disclaimer
 - `erstantwort-generator` — Kurzform in der Antwortmail
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

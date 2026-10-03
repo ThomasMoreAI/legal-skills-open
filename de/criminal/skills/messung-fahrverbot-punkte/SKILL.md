@@ -1,0 +1,67 @@
+---
+name: messung-fahrverbot-punkte
+title: Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi
+description: 'Für Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/messung-fahrverbot-punkte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Einstieg
+Wenn Material vorliegt, nutze es zuerst. Frage nur nach, was für die nächste Entscheidung fehlt:
+
+1. Wer handelt in welcher Rolle und gegen wen?
+2. Welches praktische Ziel soll erreicht werden?
+3. Welche Fristen, Termine, Zustellungen, Schwellenwerte oder Sanktionen stehen im Raum?
+4. Welche Unterlagen, Daten, Registerauszüge, Bescheide, Verträge, Screenshots oder sonstigen Belege liegen vor?
+5. Soll der Output intern, für Mandantschaft, Behörde, Gericht, Gegnerseite oder Gremium formuliert werden?
+
+## Arbeitsworkflow
+1. **Sortieren:** Sachverhalt, Dokumente und offene Punkte in eine knappe Fallmatrix bringen.
+2. **Rechtsrahmen:** Einschlägige Normen, Zuständigkeiten, Verfahren, Fristen und formelle Anforderungen live prüfen, soweit Aktualität tragend ist.
+3. **Materielle Weichen:** Die Kernfragen zu **Messung, Punkte, Fahrverbot und Verteidigungsziel im Verkehrs-OWi** mit Tatbestandsmerkmalen, Belegen, Gegenargumenten und typischen Praxisfehlern abarbeiten.
+4. **Risikoampel:** Ergebnis in Grün/Gelb/Rot mit Begründung, Unsicherheiten und Beweisbedarf einordnen.
+5. **Anschluss:** Passende weitere Skills desselben Plugins vorschlagen, wenn Spezialprüfung, Schriftsatz, Tabelle, Brief oder Verhandlungsstrategie sinnvoll ist.
+
+## Messung / Punkte / Fahrverbot Bausteine
+- **Punkte FAER § 4 StVG (seit Reform 2014):**
+ - 1 Punkt: leichtere Verstoesse (z. B. Tempoueberschreitung 21-30 km/h innerorts).
+ - 2 Punkte: schwerere Verstoesse mit Fahrverbot (z. B. über 30 km/h innerorts mit Fahrverbot).
+ - 3 Punkte: Straftaten und besonders schwere OWi (z. B. § 316 StGB Trunkenheit, Unfallflucht).
+ - **4-5 Punkte:** Ermahnung; **6-7 Punkte:** Verwarnung mit Aufbauseminar-Hinweis; **8 Punkte:** Entziehung Fahrerlaubnis (zwingend, § 4 V StVG).
+ - **Punkteabbau:** freiwilliges Fahreignungsseminar bei 1-5 Punkten = 1 Punkt Reduktion (nur einmal in 5 Jahren).
+- **Fahrverbot § 25 StVG:**
+ - Dauer 1–3 Monate; aktuell Wirksamkeit grundsätzlich spätestens 1 Monat nach Rechtskraft (§ 25 Abs. 2). Viermonatsprivileg nur unter Abs. 3, Verbotsfrist nach Abs. 6 gesondert. Historische Fassung und Übergang prüfen.
+ - Bekannte Konstellationen: Geschwindigkeitsverstoss innerorts ab 31 km/h, ausserorts ab 41 km/h; Rotlicht qualifiziert (1+ Sek); Abstand unter 50% halber Tacho ab 80 km/h.
+- **Wegfall Fahrverbot wegen unzumutbarer Haerte** (OLG-Linie restriktiv):
+ - Berufskraftfahrer (Existenzgefahr).
+ - Pflege Angehoeriger.
+ - Wesentlicher Verlust soziale Bindungen.
+ - **Kompensation möglich:** Erhoehung Geldbusse um 50-100 % (BGH-Linie zur tatschuldangemessenen Kompensation).
+- **Messung Standard-Prüfung:**
+ - **Eichschein** Geraet im Tatzeitraum?
+ - **Bedienerschein** mit Schulungsnachweis?
+ - **Toleranzwerte abgezogen?** (Geschwindigkeit: 3 km/h bis 100 km/h, 3 % darueber; Abstand: 10 %).
+ - **Standardisiertes Messverfahren** (BGH zur Beweiskraft)?
+ - **Rohdaten** verfuegbar? (BVerfG-Linie zur fair-trial-Garantie zur Akteneinsicht).
+- **Messverfahren-Spezialitaeten:**
+ - PoliScan FM1: Photopositionierung-Diskussion.
+ - Leivtec XV3: dokumentierte Verfahrensschwaechen einzelner OLG-Bezirke.
+ - ES 8.0/3.0: Smear-Effekt; Photolinie.
+ - TraffiStar S330: stationaerer Blitzer, Rohdaten-Diskussion.
+- **Praxis-Tipp:** Bei Punktestand-Abfrage KBA Flensburg (kostenfrei); Punkteloesch-Tabelle § 29 StVG: 2,5 Jahre für 1-Punkt-OWi; 5 Jahre für 2-Punkt; 10 Jahre für 3-Punkt-Verstoesse.

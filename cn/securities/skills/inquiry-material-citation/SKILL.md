@@ -5,11 +5,18 @@ description: 问询材料引用助手 - 协助管理问询回复中的材料引�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/inquiry-material-citation
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: securities
 language: zh
+sources:
+- title: Attachment templates
+  path: references/attachment-templates.md
+- title: Citation standards
+  path: references/citation-standards.md
+- title: Cross reference
+  path: references/cross-reference.md
 ---
 
 # 问询材料引用助手

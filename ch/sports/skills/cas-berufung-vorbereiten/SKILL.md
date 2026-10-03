@@ -1,18 +1,31 @@
 ---
 name: cas-berufung-vorbereiten
-title: CAS-Berufung vorbereiten
-description: Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne anfechten. Art. R49 CAS Code Frist 21 Tage Sprache Englisch. Normen CAS Code Art. R49 R52 R57 WADA-Code Art. 13 IPRG Art. 77 (Schweizer BGer). Prüfraster Statement of Appeal Appeal Brief Fristen-Check Verfahrenswahl Kosten-Abschaetzung. Output Berufungsschrift-Entwurf Verfahrens-Checkliste. Abgrenzung zu fachanwalt-sportrecht-doping-cas-berufung (Doping-Spezifisch) und verbandsstrafe-anfechten (Allgemein).
+title: Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne anfechten
+description: 'Für Cas Berufung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/cas-berufung-vorbereiten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ch
 practice: sports
 language: de
 ---
 
-# CAS-Berufung vorbereiten
+# Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne anfechten
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: WADC Art. 17 Verfolgungsverjährung 10 Jahre, CAS-Anrufung 21 Tage, DFB-RVO 7-Tage-Berufung, FAO § 5 36 Monate Praxiszeit.
+- Tragende Normen verifizieren: FAO § 14n (Sportrecht), AntiDopG, NADC, WADC, BGB §§ 25 ff. (Verein), 705 ff., DFB-Satzung/Rechts- und Verfahrensordnung, FIFA-Statuten, CAS-Code, ArbGG (Spielerverträge) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Verein, Spieler, Verband (DFB/DFL/DOSB), Bundessportgericht, CAS (Lausanne), NADA, ArbG/LAG, Schiedsgericht.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Spielervertrag, Lizenzantrag, Sportgerichtsentscheidung, Schiedsspruch CAS, Anti-Doping-Protokoll, Verbandsstatut, Transferanmeldung TMS — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne anfechten. Art. R49 CAS Code Frist 21 Tage Sprache Englisch. Normen CAS Code Art. R49 R52 R57 WADA-Code Art. 13 IPRG Art. 77 (Schweizer BGer). Prüfraster Statement of Appeal Appeal Brief Fristen-Check Verfahrenswahl Kosten-Abschaetzung. Output Berufungsschrift-Entwurf Verfahrens-Checkliste. Abgrenzung zu fachanwalt-sportrecht-doping-cas-berufung (Doping-Spezifisch) und verbandsstrafe-anfechten (Allgemein).
+
+### CAS-Berufung vorbereiten
 
 ## Kaltstart-Rückfragen
 
@@ -26,7 +39,7 @@ language: de
 8. Welche finanziellen Mittel stehen für den Kostenvorschuss (ab CHF 1000 Anfangsgebühr, Verfahrenskosten bis CHF 30000+) zur Verfügung?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -76,17 +89,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — CAS-Berufung vorbereiten | Berufungsschriftsatz; Template unten |
 | Variante A — Mandant will Verfahren vermeiden | Einigung mit Verband vor CAS; Settlement-Option |
-| Variante B — Einstweilige Massnahme noetig | R37 CAS-Code Antrag auf einstweilige Massnahme |
+| Variante B — Einstweilige Maßnahme noetig | R37 CAS-Code Antrag auf einstweilige Maßnahme |
 | Variante C — Grundsatzentscheidung angestrebt | Advisory Opinion CAS als Alternative |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -98,14 +110,14 @@ Avenue de Beaumont 2, 1012 Lausanne, Switzerland
 
 STATEMENT OF APPEAL
 
-Filed by:    [Full name], [Nationality], [Date of Birth]
-             [Address]
-             ("Appellant")
+Filed by: [Full name], [Nationality], [Date of Birth]
+ [Address]
+ ("Appellant")
 
 Represented by: [Name, Law Firm, Address]
 
-Against:     [Federation Name], [Address]
-             ("Respondent")
+Against: [Federation Name], [Address]
+ ("Respondent")
 
 I. DECISION UNDER APPEAL
 
@@ -129,13 +141,13 @@ provision is attached as Exhibit A-3.
 III. PROCEDURAL REQUESTS
 
 3.1 The Appellant requests the Appeal to be heard by a Panel
-    of Three Arbitrators [or: a Sole Arbitrator].
+ of Three Arbitrators [or: a Sole Arbitrator].
 
 3.2 For co-arbitrator the Appellant nominates:
-    [Name, Title, Address from CAS Arbitrator List]
+ [Name, Title, Address from CAS Arbitrator List]
 
 3.3 The Appellant requests the proceedings to be conducted
-    in the English language.
+ in the English language.
 
 IV. STATEMENT OF RELIEF
 
@@ -143,7 +155,7 @@ The Appellant respectfully requests CAS to:
 a) Set aside the decision of [Federation] dated [Date];
 b) Exonerate the Appellant from all charges; or
 c) In the alternative, reduce the sanction to [specific
-   lesser sanction];
+ lesser sanction];
 d) Order the Respondent to bear the costs of the arbitration.
 
 V. FILING FEE
@@ -177,11 +189,11 @@ federation, impugned decision]
 II. APPLICABLE LAW
 
 2.1 Pursuant to Art. R58 CAS Code, the Panel shall apply
-    primarily the regulations of [Federation] and,
-    subsidiarily, Swiss law.
+ primarily the regulations of [Federation] and,
+ subsidiarily, Swiss law.
 
 2.2 In doping matters, the WADA Code 2021 and the [National
-    Anti-Doping Code] apply.
+ Anti-Doping Code] apply.
 
 III. SUBMISSIONS
 
@@ -241,19 +253,19 @@ award.
 GROUNDS:
 
 1. Irreparable Harm: The current competitive season runs
-   until [Date]. The Appellant's career will suffer irrep-
-   arable harm if the suspension is not immediately lifted.
-   The [specific competition or league participation] is
-   at stake.
+ until [Date]. The Appellant's career will suffer irrep-
+ arable harm if the suspension is not immediately lifted.
+ The [specific competition or league participation] is
+ at stake.
 
 2. Merits (Prima Facie): As detailed in the Statement of
-   Appeal and to be developed in the Appeal Brief, the
-   decision is affected by [fundamental procedural or
-   substantive errors — brief summary].
+ Appeal and to be developed in the Appeal Brief, the
+ decision is affected by [fundamental procedural or
+ substantive errors — brief summary].
 
 3. Balance of Interests: The harm to the Appellant outweighs
-   any harm to the integrity of the sport. There is no
-   evidence of intentional doping.
+ any harm to the integrity of the sport. There is no
+ evidence of intentional doping.
 
 The Appellant is available for emergency contact:
 [Phone, Email]
@@ -262,7 +274,7 @@ The Appellant is available for emergency contact:
 [Counsel Signature]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]

@@ -1,0 +1,133 @@
+---
+name: richtlinien-update-zyklus
+title: Richtlinien-Update-Zyklus
+description: 'Für Richtlinien-Update-Zyklus: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/richtlinien-update-zyklus
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Richtlinien-Update-Zyklus
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Eine KI-Nutzungsrichtlinie ist kein statisches Dokument. Die KI-Technologie entwickelt sich in einem Tempo, das berufsrechtliche und datenschutzrechtliche Einschätzungen rasch überholen kann. Gleichzeitig entstehen neue Regulierungsebenen (KI-VO-Durchführungsrechtsakte, nationale Umsetzungsgesetze) und neue Gerichtsentscheidungen. Dieser Skill legt einen strukturierten Update-Zyklus fest, der sicherstellt, dass die Richtlinie stets aktuell bleibt.
+
+## Rechtlicher Hintergrund
+
+Art. 4 KI-VO: KI-Kompetenz muss auf dem aktuellen Stand gehalten werden — was eine aktuelle Richtlinie voraussetzt. Art. 5 Abs. 2 DSGVO: Rechenschaftspflicht erfordert, dass die getroffenen Maßnahmen dem aktuellen Stand entsprechen. § 43 BRAO: Gewissenhaftigkeit umfasst die laufende Anpassung der Kanzlei-Compliance an neue Rechtsentwicklungen. BRAK-Hinweise 12/2024 und DAV-Stellungnahme 32/2025 werden fortgeschrieben. Die KI-VO wird durch Durchführungsrechtsakte und Leitlinien des EU-KI-Büros konkretisiert (Art. 113 KI-VO enthält den Inkrafttreten-Stufenplan).
+
+## Strategische Optionen (vor dem Template entscheiden)
+
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+
+| Konstellation | Empfohlener Weg |
+|---|---|
+| Standard — Update-Zyklus-Protokoll für KI-Richtlinie erstellen | Update-Protokoll nach Schema; Template unten |
+| Variante A — Richtlinie noch sehr neu kein Update noetig | Minimal-Protokoll; Update-Trigger definieren |
+| Variante B — Update bereits faellig Änderungen schon identifiziert | Delta-Update durchfuehren; Protokoll rueckwirkend anlegen |
+| Variante C — Automatisierter Update-Trigger per Monitoring | Automatisierungs-Protokoll statt manueller Zyklusfestlegung |
+
+Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+
+## Vorlagentext / Bausteine
+
+**Trigger-Liste für sofortigen Richtlinien-Update:**
+
+☐ Neue BRAK-Hinweise oder DAV-Stellungnahmen zum KI-Einsatz in der Anwaltschaft
+☐ Neue BGH- oder OLG-Entscheidungen zur Haftung bei KI-Nutzung in anwaltlichen Schriftsätzen
+☐ Neue KI-VO-Durchführungsrechtsakte oder Leitlinien des EU-KI-Büros
+☐ Wesentliche EuGH-Entscheidungen zum Datenschutz im KI-Kontext
+☐ Neue Entscheidungen von Datenschutzbehörden zu konkreten KI-Anbietern (z.B. Untersagungen)
+☐ Änderung der genutzten KI-Dienstleister (neue AVV und § 43e-Vereinbarungen erforderlich)
+☐ Wesentliche Änderungen der AGB oder Datenschutzrichtlinien genutzter KI-Anbieter
+☐ Neue Gerichtsentscheidungen zum RDG oder AGG im KI-Kontext
+☐ Änderungen des EU-US Data Privacy Framework oder Schrems-III-Entscheidung des EuGH
+☐ Inkrafttreten neuer KI-VO-Bestimmungen (nächstes Datum: 2. August 2026)
+
+**Baustein Versionshistorie:**
+
+| Version | Stand | Verantwortliche Person | Wesentliche Änderungen |
+|---|---|---|---|
+| 1.0 | [Monat/Jahr] | [Name] | Erstversion |
+| 1.1 | [Monat/Jahr] | [Name] | [Beschreibung] |
+
+**Baustein Kommunikationspflicht:**
+Über Änderungen der KI-Nutzungsrichtlinie werden alle Mitarbeitern innerhalb von zwei Wochen nach dem Update informiert. Bei wesentlichen Änderungen (neue Verbote, neue Pflichten) ist eine Kurzschulung durchzuführen; die Teilnahme ist zu dokumentieren.
+
+--- vor Versand klären ---
+1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
+2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
+3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
+
+Schlussabsatz Variante A (kooperativ):
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+
+Schlussabsatz Variante B (formal-streng):
+Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+
+## Hinweise zur Aktualisierung
+
+Dieser Skill selbst ist Teil des Update-Zyklus: Falls neue EU-Zeitpläne oder Inkrafttreten-Daten für KI-VO-Bestimmungen bekannt werden, ist die Trigger-Liste entsprechend anzupassen.
+
+## Zentrale Normen (Paragrafenkette)
+- Art. 17 KI-VO — Qualitaetsmanagement-System mit laufender Ueberprueufung (Anbieter)
+- Art. 29 KI-VO — Betreiberpflicht zur laufenden Beobachtung und Anpassung
+- Art. 5 Abs. 2 DSGVO — Rechenschaftspflicht (Richtlinie muss aktuell sein)
+- § 43 BRAO — Fortlaufende Kompetenz als Berufsanforderung
+
+## Triage zu Beginn
+1. Wann wurde die Richtlinie zuletzt aktualisiert — ist sie aelter als ein Jahr?
+2. Gab es seit letztem Update relevante Rechtsprechung (EuGH SCHUFA-Score, Dun & Bradstreet)?
+3. Sind neue KI-Systeme eingefuehrt worden, die noch nicht in der Richtlinie abgedeckt sind?
+4. Haben sich regulatorische Anwendungsdaten geaendert (KI-VO Stufenplan bis 2026)?
+5. Ist der Betriebsrat bei Richtlinien-Änderungen neu einzubinden?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Output-Template — Update-Zyklus-Protokoll
+**Adressat:** KI-Governance-Verantwortlicher — Tonfall: strukturiert, prozessorientiert
+```
+RICHTLINIEN-UPDATE-ZYKLUS-PROTOKOLL
+[KANZLEI] — Richtlinienversion: [VERSION] — Letztes Update: [DATUM]
+
+REGELMAESSIGE REVIEW-TERMINE:
+- Quartalsreview: [DATUM] — Verantwortlich: [NAME]
+- Jahres-Vollpruefung: [DATUM] — Verantwortlich: [NAME]
+
+ANLASSBEZOGENE UPDATE-TRIGGER:
+☑/☐ Neue EuGH / BGH-Rechtsprechung: [DATUM / AZ]
+☑/☐ Neue Anwendungsphase nach Artikel 113: Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5, Anhang III ab 02.12.2027, Anhang I ab 02.08.2028
+☑/☐ Neues KI-System eingefuehrt: [SYSTEMNAME, DATUM]
+☑/☐ Datenpanne oder Sicherheitsvorfall
+
+AKTUELLER UPDATE-BEDARF:
+| Abschnitt | Aenderungsbedarf | Prioritaet | Verantwortlicher | Frist |
+|---|---|---|---|---|
+| [ABSCHNITT] | [BESCHREIBUNG] | HOCH/MITTEL | [NAME] | [DATUM] |
+
+BETRIEBSRATS-EINBINDUNG: ☑/☐ Erforderlich — geplant am [DATUM]
+FREIGABE NACH UPDATE: [DATUM] durch [NAME]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

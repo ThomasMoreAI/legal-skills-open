@@ -10,7 +10,7 @@ Jurisdiction: `br` · Practice: `social-security` · Skill language: pt
 
 | Skill | What it does |
 |---|---|
-| [`/cold-start-interview — previdenciario-legal-br`](skills/cold-start-interview-ria-sistemas/) | Entrevista inicial do advogado pra popular o practice profile (CLAUDE.md) do plugin previdenciario-legal-br.… |
+| [`/cold-start-interview — previdenciario-legal-br`](skills/cold-start-interview-ria-sistemas/) | Entrevista inicial do advogado pra popular o practice profile (CLAUDE.md) do plugin… |
 
 ## Cold-start context
 

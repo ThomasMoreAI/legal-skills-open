@@ -5,11 +5,11 @@ description: Use when migrating a French whistleblower policy (politique lanceur
 author: sboghossian
 author_url: https://github.com/sboghossian/mini-claude-for-legal/tree/main/skills/import/import-politique-lanceur-alerte-fr
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: regulatory
-language: fr
+language: en
 ---
 
 # Import: Politique Lanceur d'Alerte (France)

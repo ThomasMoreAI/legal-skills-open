@@ -1,11 +1,11 @@
 ---
 name: zitierweise-jura-fundstellen
 title: Zitierweise in der juristischen Hausarbeit
-description: Zitierweise für juristische Hausarbeiten mit strikter Quellenprüfung. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und verifizierbarer Quelle. Literatur, Kommentare, Lehrbücher und Aufsätze nur, wenn der Student die Quelle selbst gelesen und bereitgestellt hat oder Zugriff in der Uni-Datenbank besteht. Keine erfundenen BeckRS-, Kommentar- oder Aufsatzfundstellen.
+description: 'Für Zitierweise in der juristischen Hausarbeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/zitierweise-jura-fundstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,9 +14,13 @@ language: de
 
 # Zitierweise in der juristischen Hausarbeit
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill hilft bei sauberer Zitierweise, ohne Quellen zu erfinden. Er darf vorhandene Belege formatieren, Prüfhinweise geben und eine Recherche-Checkliste bauen. Er darf keine Kommentar-Randnummern, Aufsatzseiten oder Datenbanknummern aus Modellwissen erzeugen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Grundregel
 
@@ -58,20 +62,3 @@ Bei mehreren Belegen:
 1. Gesetz und amtliche Materialien.
 2. Verifizierte Rechtsprechung.
 3. Vom Nutzer bereitgestellte oder live verifizierte Literatur.
-
-## Ausgabeformat
-
-**Kurzcheck**
-- Quelle vorhanden: ja/nein
-- Gericht/Datum/Aktenzeichen vollständig: ja/nein
-- Literatur aus echter Quelle: ja/nein
-- Offene Prüfstellen: [...]
-
-**Korrigierte Zitierform**
-
-`[...]`
-
-**Warnhinweise**
-- Keine Fundstelle ohne Quelle.
-- Keine Randnummer raten.
-- Keine Datenbanknummer aus Modellwissen.

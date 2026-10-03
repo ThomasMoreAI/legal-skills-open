@@ -5,11 +5,16 @@ description: ECM 尽职调查工具类 Skill：调用第三方公开数据源（
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-data-verify
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: corporate
 language: zh
+sources:
+- title: Dimensions registry
+  path: references/dimensions-registry.md
+- title: Report template
+  path: references/report-template.md
 ---
 
 # ecm-dd-data-verify

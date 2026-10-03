@@ -5,17 +5,17 @@ description: Understand and exercise employee rights under Israeli labor law, in
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-workplace-rights-navigator
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: employment
 language: en
 sources:
-- title: Domain Checklist
+- title: Domain checklist
   path: references/domain-checklist.md
-- title: Entitlements Calculator
+- title: Entitlements calculator
   path: references/entitlements-calculator.md
-- title: Labor Laws Summary
+- title: Labor laws summary
   path: references/labor-laws-summary.md
 ---
 

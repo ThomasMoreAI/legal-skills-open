@@ -1,18 +1,31 @@
 ---
 name: energieanlagen-bimschg-genehmigung-verfahren
-title: Energieanlagen-BImSchG-Genehmigung-Verfahren
-description: 'BImSchG-Genehmigung für Energieanlagen (Wind, Biogas, Biomasse, Wasserstoff-Elektrolyseur) begleiten: Vorhabentraeger beantragt Genehmigung oder Drittbetroffener klagt dagegen. Normen: §§ 4 und 10 und 19 BImSchG (foermliches/vereinfachtes Verfahren), 4. BImSchV, TA Laerm, UmwRG (Verbandsklage). Prüfraster: Antragsunterlagen (Schallgutachten, Schattenwurf, saP), Drittanfechtung, UVP-Pflicht EuGH-Linie, Eilantrag § 80 Abs. 5 VwGO. Output Antragsunterlagen-Prüfung, Klageschrift-Entwurf oder Widerspruch. Abgrenzung: Planfeststellung Energietrassen siehe energietrassen-planfeststellung-rechtsschutz; Vergabe siehe fachanwalt-vergaberecht-Plugin.'
+title: 'BImSchG-Genehmigung für Energieanlagen (Wind, Biogas, Biomasse, Wasserstoff-Elektrolyseur) begleiten: Vorhabentraeger be'
+description: 'Für Energieanlagen Bimschg Genehmigung Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/energieanlagen-bimschg-genehmigung-verfahren
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: environmental
 language: de
 ---
 
-# Energieanlagen-BImSchG-Genehmigung-Verfahren
+# BImSchG-Genehmigung für Energieanlagen (Wind, Biogas, Biomasse, Wasserstoff-Elektrolyseur) begleiten: Vorhabentraeger beantragt Genehmigung oder Drittbetroffener klagt dagegen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: VwGO; VwVfG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** BImSchG-Genehmigung für Energieanlagen (Wind, Biogas, Biomasse, Wasserstoff-Elektrolyseur) begleiten: Vorhabentraeger beantragt Genehmigung oder Drittbetroffener klagt dagegen. Normen: §§ 4 und 10 und 19 BImSchG (foermliches/vereinfachtes Verfahren), 4. BImSchV, TA Laerm, UmwRG (Verbandsklage). Prüfraster: Antragsunterlagen (Schallgutachten, Schattenwurf, saP), Drittanfechtung, UVP-Pflicht EuGH-Linie, Eilantrag § 80 Abs. 5 VwGO. Output Antragsunterlagen-Prüfung, Klageschrift-Entwurf oder Widerspruch. Abgrenzung: Planfeststellung Energietrassen siehe energietrassen-planfeststellung-rechtsschutz; Vergabe siehe fachanwalt-vergaberecht-Plugin.
+
+### Energieanlagen-BImSchG-Genehmigung-Verfahren
 
 ## Kernsachverhalt
 
@@ -28,7 +41,7 @@ Energieanlagen (Wind, Biogas, Wasserstoff, größere Solarthermie, KWK, Geotherm
 6. Welche Gutachten existieren bereits — Schallgutachten, saP, Schattenwurf, UVP-Bericht?
 7. Wurde Sofortvollzug angeordnet — Eilantrag nach § 80 Abs. 5 VwGO erforderlich?
 8. Sind Verbandseinwendungen oder eine UmwRG-Klage bereits eingeleitet?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -50,13 +63,11 @@ Energieanlagen (Wind, Biogas, Wasserstoff, größere Solarthermie, KWK, Geotherm
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema BImSchG-Genehmigungsverfahren
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfungspunkt | Inhalt | Ergebnis |
 |---|---|---|---|
@@ -102,24 +113,22 @@ Energieanlagen (Wind, Biogas, Wasserstoff, größere Solarthermie, KWK, Geotherm
 
 | Gegenargument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "TA-Lärm-Werte eingehalten" | Vorbelastungs-Korrektur prüfen: wurden alle vorhandenen Windkraftanlagen in der Umgebung als Vorbelastung berücksichtigt? Kumulationseffekte? |
 | "Klimaschutz rechtfertigt sofortige Vollziehung" | § 80 Abs. 3 VwGO: Begründung muss auf Einzelfall eingehen; abstrakter Klimaschutzverweis reicht nicht (OVG-Ständige Rspr.) |
 | "Einwendungen präkludiert" | Präklusion greift nicht gegenüber UmwRG-Verbänden bei UVP-pflichtigen Vorhaben; UVP-Defizite jederzeit rügefähig |
 | "Drittbetroffener nicht klagebefugt" | § 5 Abs. 1 Nr. 1 BImSchG ist drittschützend; Nachbar im Einwirkungsbereich hat subjektives Recht; Möglichkeitstheorie großzügig |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Einwendungen nicht substantiiert" | Im BImSchG-Verfahren genügt allgemeine Darlegung der Betroffenheit; detaillierte Rüge erst in Klage erforderlich |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — BImSchG-Genehmigungsverfahren begleiten | Verfahrensbegleitung nach Pruefschema; Schriftsatz unten |
-| Variante A — Genehmigung fuer Drittbetroffene anfechten | Anfechtungsklage VwGO statt Verfahrensbegleitung |
-| Variante B — Foermliches Genehmigungsverfahren nicht noetig | Anzeigeverfahren § 15 BImSchG als Alternative pruefen |
-| Variante C — Behoerde zoegert Untaetigkeit moegliche Alternative | Untaetigkeitsklage § 75 VwGO vorbereiten bei Verzoegerung |
+| Standard — BImSchG-Genehmigungsverfahren begleiten | Verfahrensbegleitung nach Prüfschema; Schriftsatz unten |
+| Variante A — Genehmigung für Drittbetroffene anfechten | Anfechtungsklage VwGO statt Verfahrensbegleitung |
+| Variante B — Foermliches Genehmigungsverfahren nicht noetig | Anzeigeverfahren § 15 BImSchG als Alternative prüfen |
+| Variante C — Behörde zoegert Untaetigkeit moegliche Alternative | Untaetigkeitsklage § 75 VwGO vorbereiten bei Verzoegerung |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -165,16 +174,16 @@ Das dem Bescheid zugrundeliegende Schallgutachten des Büros [Name]
 vom [Datum] weist folgende methodische Mängel auf:
 
 a) Unterschätzung der Vorbelastung — das Gutachten berücksichtigt
-   die bestehenden Windkraftanlagen [Bezeichnung] in der Umgebung
-   nicht als Vorbelastung. Nach TA Lärm Nr. 2.4 ist die
-   Vorbelastung am Immissionsort zu berücksichtigen. Ohne
-   Korrektur dieser Lücke kann die Einhaltung des Immissions-
-   richtwerts von [40/45] dB(A) nachts nicht festgestellt werden.
+ die bestehenden Windkraftanlagen [Bezeichnung] in der Umgebung
+ nicht als Vorbelastung. Nach TA Lärm Nr. 2.4 ist die
+ Vorbelastung am Immissionsort zu berücksichtigen. Ohne
+ Korrektur dieser Lücke kann die Einhaltung des Immissions-
+ richtwerts von [40/45] dB(A) nachts nicht festgestellt werden.
 
 b) Unzureichende Messung Schallleistungspegel — der verwendete
-   Schallleistungspegel des Anlagentyps basiert auf Messungen
-   unter optimalen Bedingungen. Ein Zuschlag für Amplituden-
-   modulation nach TA Lärm Nr. A.2.3.3 wurde nicht berücksichtigt.
+ Schallleistungspegel des Anlagentyps basiert auf Messungen
+ unter optimalen Bedingungen. Ein Zuschlag für Amplituden-
+ modulation nach TA Lärm Nr. A.2.3.3 wurde nicht berücksichtigt.
 
 2. Beweissicherungsantrag
 
@@ -207,23 +216,23 @@ Die ausgelegte saP des Büros [Name] vom [Datum] genügt den
 methodischen Anforderungen nicht:
 
 a) Unzureichender Erfassungszeitraum für Fledermäuse — die
-   Transekt-Kartierung umfasste lediglich [n] Termine im
-   Zeitraum [Monat – Monat]. Für eine ordnungsgemäße saP sind
-   nach den LLUR-/LfU-Hinweisen der Länder mindestens [n]
-   Detektorerhebungen über die gesamte Aktivitätssaison
-   (April bis Oktober) erforderlich.
+ Transekt-Kartierung umfasste lediglich [n] Termine im
+ Zeitraum [Monat – Monat]. Für eine ordnungsgemäße saP sind
+ nach den LLUR-/LfU-Hinweisen der Länder mindestens [n]
+ Detektorerhebungen über die gesamte Aktivitätssaison
+ (April bis Oktober) erforderlich.
 
 b) Rotmilan — im Radius von 1.500 m um den Standort wurden
-   während des Erfassungszeitraums [n] Rotmilan-Individuen
-   kartiert. Das Gutachten kommt zu dem Ergebnis, es bestehe
-   kein signifikant erhöhtes Tötungsrisiko gem. § 44 Abs. 1
-   Nr. 1 BNatSchG. Diese Bewertung ist angreifbar, da die
-   Kartierung nicht in den Hauptaktivitätsstunden
-   (08:00–12:00 Uhr) an mindestens 12 Termine erfolgte.
+ während des Erfassungszeitraums [n] Rotmilan-Individuen
+ kartiert. Das Gutachten kommt zu dem Ergebnis, es bestehe
+ kein signifikant erhöhtes Tötungsrisiko gem. § 44 Abs. 1
+ Nr. 1 BNatSchG. Diese Bewertung ist angreifbar, da die
+ Kartierung nicht in den Hauptaktivitätsstunden
+ (08:00–12:00 Uhr) an mindestens 12 Termine erfolgte.
 
 c) Fehlende CEF-Maßnahmen — für den nachgewiesenen Bestand
-   der [Art] wurden keine vorgezogenen Ausgleichsmaßnahmen
-   (CEF) benannt.
+ der [Art] wurden keine vorgezogenen Ausgleichsmaßnahmen
+ (CEF) benannt.
 
 2. Schattenwurf
 
@@ -261,13 +270,13 @@ Die Akteneinsicht ist für die Begründung unabdingbar.
 Wir bitten um Mitteilung des frühesten Termins für die Einsicht.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
@@ -290,8 +299,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Vorhabenträger | Klage Drittbetroffener | Sachverständige beiziehen; § 80 Abs. 3-Begründung präzise ausarbeiten; frühe Verhandlung anbieten |
 | Drittbetroffener | Bescheid ergangen | Eigenes Schallgutachten in Auftrag geben; Einwendungs-Präklusion prüfen; Klagefrist sichern |
 | Drittbetroffener | Sofortvollzug angeordnet | Eilantrag § 80 Abs. 5 VwGO; § 80 Abs. 3-Begründungsmangel angreifen; Hauptsache parallel einreichen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -299,10 +306,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `eilantrag-80-abs-5-vwgo` — Vertiefung Eilantragsstrategie und Schriftsatz
 - `fachanwalt-verwaltungsrecht-einstweiliger-rechtsschutz` — Grundlagen einstweiliger Rechtsschutz
 - `fachanwalt-verwaltungsrecht-widerspruchsschrift` — Widerspruch gegen Genehmigungsbescheid
-
-## Aktuelle Leitentscheidungen (v14.2 Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellen
 
@@ -315,9 +318,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - VwGO §§ 42, 74, 80, 113
 - UmwRG § 2
 - EU-RED III (Beschleunigungsgebiete)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
-<!-- AUDIT 27.05.2026 — Bundle 027 Halluzinations-Reparatur
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

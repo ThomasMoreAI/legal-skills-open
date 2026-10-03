@@ -4,12 +4,11 @@ Private dispute resolution by arbitration (and related ADR), domestic or interna
 
 Jurisdiction: `ua` · Practice: `arbitration` · Skill language: uk
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine,… |
-| [`fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП… |
+| [`law-ua-applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine… |
 
 ## Cold-start context
 

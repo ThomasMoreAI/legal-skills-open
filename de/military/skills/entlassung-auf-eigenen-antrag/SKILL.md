@@ -1,0 +1,110 @@
+---
+name: entlassung-auf-eigenen-antrag
+title: Entlassung auf eigenen Antrag
+description: 'Für Entlassung auf eigenen Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bundeswehrrecht-wehrrecht/skills/entlassung-auf-eigenen-antrag
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: military
+language: de
+---
+
+# Entlassung auf eigenen Antrag
+
+## Arbeitsbereich
+
+Entlassung auf eigenen Antrag: prüft § 46 SG, Antragsformalitäten, Widerruf, Versorgungsfolgen und Kostenrückforderung. Norm-/Quellenanker: § 46 SG, SVG, § 56 SG. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Entlassung auf eigenen Antrag
+- **Normen-/Quellenanker:** SG, WSG, WPflG, KDVG, WDO, SVG, BBesG, VwGO, truppendienstgerichtliche Zuständigkeiten und Grundrechte.
+- **Entscheidende Weiche:** Status, Befehl/Dienstpflicht, Gewissen/KDV, Besoldung/Versorgung, Disziplinarweg, Eilrechtsschutz und Nachweisführung trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Fachlicher Kontext
+
+Die Entlassung auf eigenen Antrag (§ 46 SG) ist das Recht des Soldaten, sein Dienstverhältnis zu beenden. Sie löst eine Reihe von Folgen aus: Versorgungsansprüche, Kostenrückforderungen, Ende der Heilfürsorge.
+
+Der Antrag kann in engen Grenzen widerrufen werden. Einschneidend sind die Ausbildungskostenrückforderungen nach § 56 SG.
+
+## Einschlägige Normen und Quellen
+
+- § 46 SG — Entlassung auf eigenen Antrag
+- § 55 SG — Entlassung aus anderen Gründen
+- § 56 SG — Rückforderung Ausbildungskosten
+- SVG §§ 5, 9 — Versorgungsfolgen
+- §§ 6–11 WBO — Rechtsbehelfe
+
+## Sachverhaltsaufnahme — Startfragen
+
+- SaZ oder BeruSold? Wie lange gedient?
+- Antrag schriftlich gestellt?
+- Wann soll Entlassung wirksam werden?
+- Gibt es eine Ausbildungskostenrückforderung?
+- Kann der Antrag noch widerrufen werden?
+- Sind Versorgungsansprüche gesichert (SVG)?
+
+## Prüf- und Arbeitslogik
+
+### Schritt 1 — Antragsformalitäten § 46 SG
+
+Schriftlichkeit: Antrag muss schriftlich gestellt werden.
+Frist: Dienstherr entscheidet binnen angemessener Zeit.
+Entlassungstermin: frühestens zum Ende des Monats nach Antragstellung.
+Besonderheiten: Einsatz/Verwendung im Ausland kann Aufschub rechtfertigen.
+
+### Schritt 2 — Widerruf des Antrags
+
+Widerruf möglich, solange Entlassung nicht bestandskräftig verfügt.
+Widerruf schriftlich erklären.
+Zustimmung des Dienstherrn erforderlich (Ermessensentscheidung).
+WBO-Beschwerde bei Verweigerung der Widerrufsannahme.
+
+### Schritt 3 — Versorgungsfolgen
+
+SaZ: Übergangsgebührnisse § 5 SVG (ab 4 Jahren), Berufsförderungsdienst.
+BeruSold: Anspruch auf Ruhegehalt nur nach Mindestdienstzeit § 13 SVG.
+Heilfürsorge endet mit Entlassung.
+PKV prüfen.
+
+### Schritt 4 — Rückforderung Ausbildungskosten
+
+§ 56 SG: Rückforderung bei Entlassung auf eigenen Antrag.
+Zeitstaffelung: linear nach geleisteter Dienstzeit.
+Härteerlass und Billigkeitsklausel beantragen.
+Widerspruch 1 Monat.
+
+## Arbeitsergebnisse
+
+Erzeuge je nach Auftrag eines oder mehrere dieser Ergebnisse:
+
+- Kurzvermerk mit Risikoampel (grün/gelb/rot)
+- Prüfschema mit Tatbestandselementen und offenen Punkten
+- Fragenliste für Mandanten/Sachverhaltsgespräch
+- Entwurfsbausteine (Beschwerde, Antrag, Schriftsatz, Stellungnahme)
+- Dokumentenanforderungsliste
+- Nächster Schritt mit konkreter Frist
+
+- Muster: Entlassungsantrag § 46 SG
+- Checkliste: Folgen der Entlassung (Versorgung, PKV, Kosten)
+- Prüfschema: Kann der Antrag widerrufen werden?
+
+## Qualitätsgate
+
+Vor Ausgabe prüfen:
+
+- Fristen, Zuständigkeit und Rechtsgrundlage vollständig?
+- Offene Tatsachen als `[offen: ...]` markiert?
+- Gegenargumente und Verteidigungslinien formuliert?
+- Beweislastverteilung geklärt?
+- Output entspricht dem gewünschten Arbeitsergebnis?

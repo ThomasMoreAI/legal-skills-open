@@ -6,11 +6,22 @@ description: 'Use this skill when a US business needs to issue Form 1099-NEC to 
 author: jupid-tax
 author_url: https://github.com/jupid-tax/jupid-skills/tree/main/forms/form-1099-nec
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: tax
 language: en
+sources:
+- title: Backup withholding
+  path: references/backup-withholding.md
+- title: Common mistakes
+  path: references/common-mistakes.md
+- title: Line by line
+  path: references/line-by-line.md
+- title: Payee classification
+  path: references/payee-classification.md
+- title: Threshold rules
+  path: references/threshold-rules.md
 ---
 
 # Form 1099-NEC — Nonemployee Compensation

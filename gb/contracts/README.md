@@ -4,11 +4,12 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `gb` · Practice: `contracts` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`/slo-legal — UK legal advisor + first-cut document drafter`](skills/slo-legal/) | Use this skill when a UK seed-stage founder needs first-cut legal documents (NDA, contractor SOW, IP… |
+| [`Uk Confidentiality Agreement`](skills/uk-confidentiality-agreement/) | Für Uk Confidentiality Agreement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 
 ## Cold-start context
 

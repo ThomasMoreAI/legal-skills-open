@@ -10,7 +10,7 @@ Jurisdiction: `general` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Transfer Pricing Documenter`](skills/transfer-pricing-documenter-rohasnagpal/) | Documents an intercompany transaction for transfer pricing purposes — functional analysis (functions, assets,… |
+| [`Transfer Pricing Documenter`](skills/transfer-pricing-documenter-rohasnagpal/) | Documents an intercompany transaction for transfer pricing purposes — functional analysis (functions… |
 
 ## Cold-start context
 

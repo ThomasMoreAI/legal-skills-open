@@ -1,0 +1,54 @@
+---
+name: document-production-earn-out
+title: Document Production
+description: 'Für Document Production: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/commercial-courts-deutschland/skills/document-production-earn-out
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Document Production
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: GVG §§ 119, 119b (Commercial Court), ZPO §§ 184a, 614, 1025-1066, AGGVG der Länder, EU-VO 1215/2012 (Brüssel Ia) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Document Production
+- **Normen-/Quellenanker:** Commercial Courts/Commercial Chambers der Länder, ZPO, GVG, Zuständigkeit, Sprachwahl Englisch/Deutsch, Wortprotokoll, Geheimnisschutz und internationale Zustellung.
+- **Entscheidende Weiche:** Gerichtsstand, Streitwert/Sachgebiet, Verfahrenssprache, Vertraulichkeit, Beweisaufnahme, Übersetzung, Protokoll und Vollstreckbarkeit steuern.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Einstieg
+
+Stelle höchstens fünf Fragen, sofern die Akte sie nicht beantwortet:
+
+1. Soll der Output auf Deutsch, Englisch oder zweisprachig sein?
+2. Welches Gericht/Forum ist vorgesehen oder vereinbart?
+3. Welche Klausel, welcher Streitwert und welche Parteien liegen vor?
+4. Welche Frist oder Verfahrenshandlung steht als nächstes an?
+5. Welche Unterlagen sind schon da: contract, correspondence, notices, expert report, exhibits, prior pleadings?
+
+## Arbeitsworkflow
+
+1. **Forum sichern:** Commercial Court, Commercial Chamber, ordentliches Gericht, Schiedsgericht oder Ausland trennen.
+2. **Vorlageanker im deutschen Prozessrecht:** § 142 ZPO Anordnung der Urkundenvorlage durch Partei (Ermessen des Gerichts, Substantiierungspflicht); § 144 ZPO Vorlage von Augenscheinsobjekten und Sachverständigengutachten; §§ 421-432 ZPO Vorlageantrag gegen Gegner und Dritte mit materiellrechtlichem Anspruch (§ 810 BGB Einsichtsrecht); § 422 ZPO bei Vorlagepflicht aus materiellem Recht; § 423 ZPO bei Bezugnahme der Gegenseite auf die Urkunde.
+3. **Substantiierung Antrag § 142 ZPO:** Konkrete Bezeichnung der Urkunde (Datum, Ersteller, Inhalt, Empfänger); Tatsachen, für die die Urkunde Beweis sein soll; Hinweis auf Besitz oder erleichternde Besitzvermutung; konkrete Relevanz für die anstehende Beweisaufnahme. Bloße "fishing expedition" ist unzulässig — deutscher Zivilprozess kennt keine US-Discovery (§ 138 ZPO Wahrheitspflicht und § 282 ZPO Zurückweisung verspäteten Vorbringens).
+4. **Geheimnisschutz und Verhältnismäßigkeit:** § 174 Abs. 3 GVG Ausschluss der Öffentlichkeit, § 16 GeschGehG Schutz von Geschäftsgeheimnissen im Prozess (sog. "Hamburger Verfahren" mit Geheimhaltungsverpflichtung der Verfahrensbeteiligten); bei DSGVO-relevanten Daten zusätzliche Abwägung Art. 6 Abs. 1 lit. f DSGVO. Trade-off: weite Vorlageanordnung erleichtert Beweis, gefährdet aber Vertraulichkeit.
+5. **ZPO-Realität bewahren:** keine US-Discovery, kein Pleading-Theater; Tatsachenvortrag, Beweisangebot, richterliche Prozessleitung und deutsches Kostenrisiko sauber erklären. Nächsten Schritt: konkreter § 142-Antrag mit Anlage K-Nummer, Geheimnisschutzantrag § 16 GeschGehG, Frist für Vorlage durch Gegenseite festlegen.
+
+## Red Flags
+
+- Commercial-Court-Zuständigkeit oder englische Sprache wird nur behauptet, aber nicht aus Klausel, Gesetz und Landesrecht hergeleitet.
+- Englischer Schriftsatz klingt wie US-Litigation und enthält keine ZPO-tauglichen Beweisangebote.
+- Anlagen sind englisch/deutsch gemischt, aber Übersetzungs- und Zitierlogik fehlt.
+- Geheimhaltungsinteressen werden erst in der mündlichen Verhandlung entdeckt.
+- Das Wortprotokoll wird gewünscht, aber nicht rechtzeitig prozessual vorbereitet.

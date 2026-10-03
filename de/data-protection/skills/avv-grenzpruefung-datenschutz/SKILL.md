@@ -1,11 +1,11 @@
 ---
 name: avv-grenzpruefung-datenschutz
 title: AVV-Grenzprüfung Datenschutz
-description: Kanzlei nutzt KI-Dienstleister und prüft ob AVV nach Art. 28 DSGVO die berufsrechtliche Prüfung ersetzt. Berufsrecht laeuft parallel und ist strenger als Datenschutzrecht. Normen Art. 28 DSGVO §§ 43e BRAO 62a StBerG. Prüfraster AVV-Prüfpunkte Berufsrecht-Parallelitaet Abgrenzungspunkte Stolperfallen. Output Parallelprüfungs-Vermerk Lueckenliste. Abgrenzung zu verschwiegenheitsklausel-prüfen (Verschwiegenheit-Hauptprüfung) und gutachten-erstellen (Gesamtgutachten).
+description: 'Für AVV-Grenzprüfung Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/avv-grenzpruefung-datenschutz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,9 +14,13 @@ language: de
 
 # AVV-Grenzprüfung Datenschutz
 
-## Disclaimer
+## Fachkern: AVV-Grenzprüfung Datenschutz
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+- **KI-/Berufsrechtsproblem (AVV-Grenzprüfung Datenschutz):** Kanzlei nutzt KI-Dienstleister und prüft ob AVV nach Art. 28 DSGVO die berufsrechtliche Prüfung ersetzt. Berufsrecht laeuft parallel und ist strenger als Datenschutzrecht. Normen Art. 28 DSGVO §§ 43e BRAO 62a StBerG. Prüfraster AVV-Prüfpunkte Berufsrecht-Parallelitaet Abgrenzungspunkte Stolperfallen. Output Parallelprüfungs-Vermerk Lückenliste. Abgrenzung zu verschwiegenheitsklausel-prüfen (Verschwiegenheit-Hauptprüfung) und gutachten-erstellen (Gesamtgutachten).
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Triage zu Beginn — kläre vor der Prüfung
 
@@ -25,7 +29,7 @@ Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentations
 3. Welcher Berufsträger ist betroffen (Rechtsanwalt, Steuerberater, Notar)? Norm-Adapter festlegen.
 4. Handelt es sich um Kanzleiinfrastruktur oder ein Einzelmandats-Tool (§ 26a Abs. 4 BNotO: Sonderfall)?
 5. Sind die parallelen Prüfbereiche (Verschwiegenheit, Belehrung §§ 203/204 StGB, Subunternehmer) bereits separat abgearbeitet?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zweck dieser Skill
 
@@ -56,13 +60,6 @@ Die AVV regelt **nicht** das Berufsgeheimnis. Sie schützt nicht die Verschwiege
 - **§§ 43e BRAO, 62a StBerG, 50a WPO, 39c PAO, 26a BNotO** — Berufsrecht läuft parallel
 - **§§ 203, 204 StGB** — Strafrecht: Verschwiegenheitspflicht als Straftatbestand
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Was das Berufsrecht zusätzlich verlangt
 
 Die berufsrechtliche Dienstleisterregelung (§§ 43e BRAO, 62a StBerG, 50a WPO, 39c PAO, 26a BNotO) verlangt darüber hinaus:
@@ -76,20 +73,19 @@ Die berufsrechtliche Dienstleisterregelung (§§ 43e BRAO, 62a StBerG, 50a WPO, 
 
 ```
 AVV vorhanden?
-  Nein → DSGVO-Verstoß bei personenbezogenen Daten; separate Meldung nötig
-  Ja → Inhalt nach Art. 28 Abs. 3 DSGVO vollständig?
-         Nein → Lücken dokumentieren; Rückfragebrief
-         Ja → Berufsrechtliche Verschwiegenheitsverpflichtung separat?
-                Nein → Muss separat/zusätzlich vereinbart werden
-                Ja → Strafrechtliche Belehrung §§ 203/204 StGB enthalten?
-                       Nein → Ergänzungsklausel erforderlich
-                       Ja → GRÜN: AVV-Prüfung abgeschlossen; Berufsrecht separat OK
+ Nein → DSGVO-Verstoß bei personenbezogenen Daten; separate Meldung nötig
+ Ja → Inhalt nach Art. 28 Abs. 3 DSGVO vollständig?
+ Nein → Lücken dokumentieren; Rückfragebrief
+ Ja → Berufsrechtliche Verschwiegenheitsverpflichtung separat?
+ Nein → Muss separat/zusätzlich vereinbart werden
+ Ja → Strafrechtliche Belehrung §§ 203/204 StGB enthalten?
+ Nein → Ergänzungsklausel erforderlich
+ Ja → GRÜN: AVV-Prüfung abgeschlossen; Berufsrecht separat OK
 ```
 
 ## Prüfschema
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
-
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Punkt | Status | Bemerkung |
 |---|---|---|
@@ -113,14 +109,14 @@ AVV vorhanden?
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — AVV-Grenzfall pruefen ob AV oder gemeinsame Verantwortlichkeit | Pruefschema unten; Template fuer Ergebnis-Memo |
+| Standard — AVV-Grenzfall prüfen ob AV oder gemeinsame Verantwortlichkeit | Prüfschema unten; Template für Ergebnis-Memo |
 | Variante A — AVV eindeutig erforderlich | Direkt zu AVV-Erstellung (skill avv-pruefung) wechseln |
 | Variante B — gemeinsame Verantwortlichkeit wahrscheinlich | Art. 26 DSGVO Vereinbarung statt AVV; Template anpassen |
-| Variante C — kein Auftragsverhaeltnis sondern eigenstaendige Verarbeitung | Keine AVV; separate Datenschutzvereinbarung pruefen |
+| Variante C — kein Auftragsverhaeltnis sondern eigenstaendige Verarbeitung | Keine AVV; separate Datenschutzvereinbarung prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -153,11 +149,9 @@ Empfehlung: [Vertragsnutzung freigegeben / Nachverhandlung / Ablehnung]
 Unterschrift: [SACHBEARBEITER]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-
-<!-- AUDIT 27.05.2026 -->
-<!-- BGH VI ZR 36/20 (claimed: Berufsgeheimnis §43a BRAO, NJW 2021, 1008): NOT_FOUND auf dejure.org. NJW 2021, 1008 gehoert zu BGH VIII ZR 78/20 (Gebrauchtwagenhandel/Verjaehnungsfrist) – thematisch unverwandt. Eintrag geloescht. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

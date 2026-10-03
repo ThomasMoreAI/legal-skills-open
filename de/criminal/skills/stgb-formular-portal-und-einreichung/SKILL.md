@@ -1,0 +1,72 @@
+---
+name: stgb-formular-portal-und-einreichung
+title: 'Stgb: Formular, Portal und Einreichungslogik'
+description: 'Für Stgb: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/stgb-formular-portal-und-einreichung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Stgb: Formular, Portal und Einreichungslogik
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StVG; PflVG; §§ 315c 316 StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Stgb: Formular, Portal und Einreichungslogik.
+
+## Spezialwissen: Stgb: Formular, Portal und Einreichungslogik
+- **Normen-/Quellenanker:** StVG, StVO, PflVG, VVG.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Stgb** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## Verkehrsrechts-Formular / Portal Bausteine
+- **Versicherer-Portale (Unfallregulierung):**
+ - **HUK24, Allianz, AXA, Generali, R+V, DEVK** etc. - Online-Schadenmeldung mit Aktenzeichen.
+ - **GDV-Online (Gesamtverband Deutscher Versicherer):** Aktenzeichenabfrage HISP (Hinweis- und Informationssystem); Halterabfrage, Versicherungsauskunft.
+ - **TYP A / B-Anlageformular** Versicherer für Personen- vs. Sachschaden.
+- **Behörden / Aemter:**
+ - **KBA Flensburg (Kraftfahrt-Bundesamt):** Halterabfrage § 29 StVG; FAER-Punkte online.
+ - **Fuehrerscheinstelle (Landratsamt / Buergeramt):** Antraege MPU, Wiedererteilung Fahrerlaubnis § 20 FeV, Umtausch.
+ - **Bussgeldstelle (zentrales OWi-Verfahren des jeweiligen Bundeslands):** Einspruch § 67 OWiG.
+- **Gerichte:**
+ - **AG (Verkehrsstrafsachen / Bussgeld):** Strafrichter / Schoeffengericht.
+ - Landgericht im Verkehrszivilrecht: allgemeine erstinstanzliche Zuständigkeit bei einem Streitwert über 10.000 Euro; im Rechtsmittelzug Zuständigkeit und Rechtsmittelgericht nach dem angefochtenen Urteil gesondert bestimmen.
+ - **OLG (Rechtsbeschwerde §§ 79, 80 OWiG):** OWi-Sache.
+- **eAkte / beA / MJP-Portal:**
+ - **beA (besonderes elektronisches Anwaltspostfach):** zwingend für Anwaltskommunikation mit Gerichten § 130d ZPO (zivilrechtlich); im Strafrecht freiwillig (§ 32a StPO).
+ - **MJP (Mein Justizpostfach):** für Buergerinnen und Buerger; freiwillig.
+ - **EGVP:** elektronisches Gerichts- und Verwaltungspostfach.
+- **Anwaltliche Formulare:**
+ - Vollmacht (sicher mit Vertretungsbefugnis im Strafverfahren § 411 II StPO).
+ - PKH-Antrag § 117 ZPO mit Vermögensverhaeltnissen.
+ - Akteneinsichtsantrag mit Aktenzeichen.
+- **Klage gegen KH-Versicherer:**
+ - Direktklage § 115 VVG.
+ - Klageantrag konkret beziffert (Hauptforderung, vorgerichtliche Kosten, Zinsen § 286 BGB).
+ - Streitwert ab Gesamtschaden.
+- **Praxis-Tipp:** Bei Online-Schadenmeldung Versicherer immer Screenshot mit Datum / Uhrzeit anfertigen; bei eingehender Korrespondenz schriftliche Bestaetigung anfordern.

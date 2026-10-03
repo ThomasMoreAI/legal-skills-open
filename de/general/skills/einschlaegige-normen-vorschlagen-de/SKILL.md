@@ -1,11 +1,11 @@
 ---
 name: einschlaegige-normen-vorschlagen-de
 title: Einschlägige Normen vorschlagen — Deutsches Recht
-description: 'Schlaegt anhand eines Lebenssachverhalts einschlaegige Normen des deutschen Rechts vor: BGB, HGB, StGB, StPO, ZPO, VwGO, GG, AO, SGB und Nebengesetze. Gibt Prüfungsreihenfolge und Hinweise auf Spezialitaet und konkurrierende Anspruchsgrundlagen.'
+description: 'Für Einschlägige Normen vorschlagen — Deutsches Recht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/einschlaegige-normen-vorschlagen-de
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Einschlägige Normen vorschlagen — Deutsches Recht
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn — kläre vor der Normauswahl
 
@@ -22,10 +30,6 @@ language: de
 4. Hat der Sachverhalt einen grenzüberschreitenden Bezug? → IPR prüfen (Rom I/Rom II VO)
 5. Sind schutzgesetzliche Spezialregelungen denkbar (ProdHG, StVG, HaftPflG, WpHG)?
 
-## Zweck
-
-Dieser Skill unterstützt den Nutzer bei der Identifikation einschlägiger Normen des deutschen Rechts anhand eines geschilderten Lebenssachverhalts. Das System macht Vorschläge auf der Grundlage des im Sachverhalt beschriebenen Rechtsgebiets und der typischen Anspruchsgrundlagen. Die endgültige Normwahl liegt beim Nutzer.
-
 ## Zentrale Paragrafenkette je Rechtsgebiet
 
 - Vertragsrecht: §§ 433 ff., 535 ff., 611 ff., 631 ff. BGB — Spezialvorrang vor §§ 280 ff. BGB
@@ -33,12 +37,6 @@ Dieser Skill unterstützt den Nutzer bei der Identifikation einschlägiger Norme
 - Bereicherungsrecht: §§ 812 ff. BGB — subsidiär zu Vertrag
 - Strafrecht: §§ 263, 266, 303, 223, 242, 249 StGB — Strafantrag bei Antragsdelikten (§ 77 StGB, 3 Monate)
 - Verwaltungsrecht: § 35 VwVfG (VA-Definition), § 42 VwGO (Anfechtungs-/Verpflichtungsklage)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 188/17 geloescht – AZ existiert (19.01.2021, NJW 2021, 1818), betrifft aber Haftungsmassstab Sporttrainer (Tischtennis-Erste-Hilfe), nicht Einbeziehung AGB / Schutzgesetz § 823 Abs. 2 BGB (WRONG_TOPIC). BGH VI ZR 26/21 geloescht – AZ auf dejure.org nicht auffindbar (NOT_FOUND). -->
 
 ## Schritt-für-Schritt-Vorgehen
 
@@ -73,9 +71,9 @@ Das System nennt:
 ```
 Besteht ein Vertrag?
 ├─ Ja → Vertragsrecht primär prüfen (§§ 280 ff. / spezifische Vertragstypen)
-│       → Deliktshaftung parallel prüfen bei Rechtsgutsverletzung
+│ → Deliktshaftung parallel prüfen bei Rechtsgutsverletzung
 └─ Nein → Delikt (§ 823 ff.) / Bereicherungsrecht (§ 812 ff.) / öffentl. Recht
-          └─ Schutzgesetz i.S.d. § 823 Abs. 2 BGB? → Verletzter als Schutzzweck?
+ └─ Schutzgesetz i.S.d. § 823 Abs. 2 BGB? → Verletzter als Schutzzweck?
 ```
 
 **Schritt 4 — Hinweis auf Rechtsprechung**
@@ -84,11 +82,8 @@ Das System weist darauf hin, dass für die Auslegung der vorgeschlagenen Normen 
 
 **Schritt 5 — Normwahl durch Nutzer bestätigen**
 
-Das System listet Vorschläge auf und bittet den Nutzer, die zu prüfende Norm zu bestätigen oder eine andere Norm anzugeben. Erst nach Bestätigung wird die Norm in `norm-zerlegen-in-tatbestandsmerkmale` übergeben.
+Das System listet Vorschläge auf und bittet den Nutzer, die zu prüfende Norm zu bestätigen oder eine andere Norm anzugeben. Erst nach Bestätigung wird die Norm in `norm-zerlegen-mandantenbrief` übergeben.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Grenzen
 
 Das System weist ausdrücklich darauf hin, dass:
@@ -99,3 +94,5 @@ Das System weist ausdrücklich darauf hin, dass:
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

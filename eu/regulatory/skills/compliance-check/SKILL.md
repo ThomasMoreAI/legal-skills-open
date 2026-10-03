@@ -3,9 +3,9 @@ name: compliance-check
 title: Verificación de cumplimiento normativo
 description: 'Usar para verificar cumplimiento RGPD, NIS2 y CRA. También: verificar RGPD, cumplimiento normativo, NIS2, CRA, Cyber Resilience Act, protección de datos, regulación europea.'
 author: 686f6c61
-author_url: https://github.com/686f6c61/alfred-dev/tree/main/skills/seguridad/compliance-check
+author_url: https://github.com/686f6c61/alfred-dev/tree/main/skills/compliance-check
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -65,7 +65,13 @@ No se trata de un dictamen jurídico, sino de una evaluación técnica que ident
    - [ ] Evaluación de conformidad (autoevaluación o certificación según categoría).
    - [ ] Marcado CE para productos conformes.
 
-5. **Generar informe de conformidad.** Para cada requisito: estado (cumple/no cumple/parcial), evidencia, acciones necesarias y prioridad.
+5. **Escribir el registro vivo.** No dejes el resultado solo en el chat.
+   El destino canónico es `docs/project/compliance.md`. Si no existe, créalo
+   antes con `python3 .claude/alfred-continuity.py sync-project-docs "$PWD"`.
+   Usa `templates/compliance.md` como forma. Para cada control: estado,
+   evidencia (ruta de código, test o config) y acciones. Sin evidencia no
+   marques `cumple`. Sustituye `<!-- alfred-doc:scaffold -->` por
+   `<!-- alfred-doc:filled -->`.
 
 ## Criterios de éxito
 
@@ -73,6 +79,7 @@ No se trata de un dictamen jurídico, sino de una evaluación técnica que ident
 - Cada checklist se ha revisado punto por punto con estado documentado.
 - Las acciones necesarias están priorizadas por riesgo e impacto.
 - El informe es accionable: un desarrollador puede tomar cada acción y ejecutarla.
+- El registro vive en `docs/project/compliance.md` con marcador `filled`.
 - El estado de cumplimiento se ha registrado en la memoria del proyecto.
 
 ## Paso final: registro en memoria

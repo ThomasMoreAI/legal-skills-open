@@ -1,0 +1,106 @@
+---
+name: europarecht-richtlinie-umsetzung-simulation
+title: Richtlinie und Umsetzung
+description: 'Für Richtlinie und Umsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/europarecht-kompass/skills/europarecht-richtlinie-umsetzung-simulation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: regulatory
+language: de
+---
+
+# Richtlinie und Umsetzung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: AEUV Art. 263 Nichtigkeitsklage 2 Monate, Art. 265 Untätigkeitsklage 2 Monate, Art. 267 Vorlage jederzeit, Vertragsverletzungsverfahren Art. 258 unbefristet.
+- Tragende Normen verifizieren: EUV, AEUV (insb. Art. 4, 5, 18, 20, 21, 34, 49, 56, 101, 102, 107, 108, 263, 267, 288, 340), GRCh, EU-VO (Beispiele 2016/679 DSGVO, 2024/1689 KI-VO, 139/2004 FKVO), EU-Richtlinien, EuGH-Rechtsprechung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: EU-Kommission, Rat, Europäisches Parlament, EuGH, EuG, Mitgliedstaaten, nationale Gerichte (Vorlage Art. 267 AEUV), Bundesregierung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Vorlagebeschluss Art. 267 AEUV, Nichtigkeitsklage, Beschwerde an EU-KOM, Stellungnahme im Vertragsverletzungsverfahren, Notifizierung, EuGH-Urteilsbeleg — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wann verwenden
+
+- bei Memos, Behördenbriefen, Schriftsätzen oder Compliance-Projekten mit EU-Bezug
+- wenn deutsche Kategorien die EU-Eigenlogik verdecken könnten
+- wenn Rechtsquelle, Wirkung, Verfahren oder Frist unklar sind
+
+## Rückfragen, wenn unklar
+
+- Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
+- Welche Partei oder Rolle vertreten wir?
+- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+- Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
+
+## Typische Fehler vermeiden
+
+- Vorrang nicht mit Nichtigkeit der nationalen Norm gleichsetzen.
+- Richtlinie, Verordnung, Beschluss und Soft Law nicht vermischen.
+- Charta nicht ohne Durchführung von Unionsrecht anwenden.
+- Keine CELEX- oder EuGH-Fundstelle erfinden.
+
+## Ton
+
+Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf leicht sein, aber nie auf Kosten der juristischen Trennschärfe.
+
+## Triage vor Umsetzungspruefung
+
+Bevor losgelegt wird, klaere:
+1. Welche Richtlinie — Umsetzungsfrist und Stand der nationalen Umsetzung bekannt?
+2. Ist die Frist abgelaufen — wenn ja: unmittelbare Wirkung oder Staatshaftung prüfbar?
+3. Hat der nationale Gesetzgeber den Umsetzungsspielraum ausgeschoepft oder ueberschossen (Gold-Plating)?
+4. Besteht eine Auslegungsfrage ob das nationale Recht richtlinienkonform interpretiert werden kann?
+
+## Normen-Kette Richtlinienumsetzung
+
+- **Art. 288 Abs. 3 AEUV** — Richtlinie: verbindliches Ziel; Form und Mittel den MS ueberlassen
+- **Art. 4 Abs. 3 EUV** — Umsetzungspflicht; Loyalitaetsgebot
+- **Art. 267 AEUV** — Vorabentscheidungsverfahren bei Auslegungsfragen
+- Nationales Umsetzungsrecht immer anhand der konkreten Richtlinie und der amtlichen Umsetzungshinweise bestimmen. Das frühere TMG wurde durch das Digitale-Dienste-Gesetz abgelöst; Verordnungen wie die DSGVO gelten unmittelbar und werden nicht als Richtlinie umgesetzt. Unbestimmte Sammelverweise und fachfremde UStG-Normen nicht verwenden.
+
+## Output-Template: Umsetzungspruefung Richtlinie
+
+**Adressat:** Kanzlei-intern
+**Tonfall:** Analytisch; Fristen prüfen
+
+```
+RICHTLINIENUMSETZUNGS-PRUEFUNG
+Richtlinie: [RL 20XX/XX/EU — CELEX-Nr. / Kurztitel]
+Umsetzungsfrist: [DATUM]
+Stand nationale Umsetzung: [vollstaendig / unvollstaendig / nicht umgesetzt]
+Relevante nationale Norm: [§ X Gesetz Y]
+
+A. UMSETZUNGSPRUEFUNG
+Umsetzungsfrist abgelaufen: [JA seit DATUM / NEIN — laeuft bis DATUM]
+Korrekte Umsetzung: [JA / TEILWEISE — Luecke: [Beschreibung] / NEIN]
+
+B. UNMITTELBARE WIRKUNG
+Voraussetzungen (klar, unbedingt, verstreicht Frist): [erfuellt / nicht erfuellt]
+Anwendung nur gg. Staat (vertikal): [JA / NEIN — Privatperson Gegner]
+
+C. RICHTLINIENKONFORME AUSLEGUNG
+Moeglich: [JA / contra legem-Grenze erreicht]
+Ergebnis Auslegung: [...]
+
+D. STAATSHAFTUNG (falls Umsetzung fehlt/fehlerhaft)
+Qualifizierter Verstoß: [JA / NEIN]
+Schaden: EUR [X]
+Klage gegen: [Bundesrepublik vor LG Berlin (§ 839 BGB / EU-SH)]
+
+E. VORLAGE EuGH (falls Auslegungsfrage)
+Fragebeschreibung: [...]
+Zustaendiges Gericht für Vorlage: [...]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

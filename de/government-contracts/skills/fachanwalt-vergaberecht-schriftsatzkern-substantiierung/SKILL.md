@@ -1,0 +1,246 @@
+---
+name: fachanwalt-vergaberecht-schriftsatzkern-substantiierung
+title: 'Substantiierter Schriftsatzkern für Nachprüfungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB: Tats'
+description: 'Für Schriftsatzkern Substantiierung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Fachanwalt Vergaberecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/schriftsatzkern-substantiierung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: government-contracts
+language: de
+---
+
+# Substantiierter Schriftsatzkern für Nachprüfungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Replik-/Duplik-Vorausschau.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die vergaberechtlich einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Substantiierter Schriftsatzkern für Nachprüfungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Replik-/Duplik-Vorausschau.
+
+### Schriftsatzkern und Substantiierung im Vergaberecht (Oberschwellen- und Unterschwellenvergabe)
+
+## Wann dieser Arbeitsgang greift
+
+- Es soll ein vollwertiger Schriftsatz im Bereich Vergaberecht (Oberschwellen- und Unterschwellenvergabe) erstellt werden, typischerweise: Nachpruefungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB.
+- Die Mandatsannahme und ggf. Vergleichsverhandlung sind abgeschlossen oder gescheitert.
+- Klage-, Widerspruchs-, Einspruchs-, Rechtsmittel-Frist ist bekannt und im Kalender eingetragen.
+
+## Aufbauschema
+
+### A. Rubrum
+
+- Parteien (Bezeichnung wie im Vorprozess oder Bescheid, exakte Schreibweise!).
+- Zustellungsanschrift Bevollmaechtigte.
+- Gericht/Behörde (Zuständigkeit prüfen und im Schriftsatz darstellen, wenn streitig).
+- Aktenzeichen (Bezugs-Az., neues Az. nach Eingang).
+- Streitwert/Gegenstandswert.
+
+### B. Antraege
+
+Klassischer Antrag-Block; je nach Verfahrenstyp:
+
+- Leistungsantrag (zu zahlen, zu unterlassen, zu beseitigen, herauszugeben).
+- Feststellungsantrag (Feststellungsinteresse darlegen).
+- Gestaltungsantrag (Aufhebung, Anfechtung, Scheidung).
+- Hilfsantraege staffeln (von eng nach weit oder von hoch nach niedrig).
+
+### C. Tatsachenvortrag
+
+Der Substantiierungs-Kern; pro Anspruchsgrundlage in GWB Teil 4, VgV, UVgO, VOB/A, SektVO, KonzVgV eine eigene Tatsachen-Sequenz:
+
+1. **Sachverhalts-Chronologie** mit konkreten Daten (Tag, Uhrzeit, Ort, Personen).
+2. **Mandantenseitige Tatsachenbehauptungen** mit Beweisangeboten.
+3. **Gegnerisches Verhalten** mit Belegen (Schreiben, Aussage, Verhalten).
+4. **Schaden/Folgen** bezifferbar (Hauptforderung, Nebenforderung, Zinsen, Folgekosten).
+
+### D. Rechtliche Wuerdigung
+
+Anspruchsaufbau klassisch:
+
+1. **Anspruchsgrundlage** nennen (z.B. § X iVm § Y).
+2. **Tatbestandsmerkmale** durchgehen; jedes Merkmal wird gegen den Tatsachenvortrag gespiegelt.
+3. **Einwendungen** der Gegenseite vorwegnehmen und entkraeften.
+4. **Rechtsprechungs-Verweise:** BAG/BGH/BVerfG/EuGH/BFH je nach Fachgebiet; bei Vergaberecht (Oberschwellen- und Unterschwellenvergabe) typischerweise die letzte hoechstrichterliche Linie zitieren.
+5. **Subsumtion-Ergebnis** klar formulieren.
+
+### E. Beweisangebote
+
+Pflichtbestandteil, ohne den Substantiierung nicht ausreicht:
+
+- Urkundenbeweis: konkrete Anlage Kxx benennen, Inhalt nicht nur "Vertrag" sondern "Vertrag vom TT.MM.JJJJ, dort § X Abs. Y, Anlage K1".
+- Zeugenbeweis: Name, ladungsfaehige Anschrift, Beweisthema in einem Satz.
+- Sachverstaendigenbeweis: ggf. Privatgutachten mit anfuegen, gerichtliches Gutachten beantragen.
+- Parteivernehmung als letzte Stufe, mit Antrag § 448 ZPO und Indiziengeruest.
+- Inaugenscheinnahme: bei Sache vor Ort (Mietraum, Baustelle, Fahrzeug, Hardware).
+
+### F. Anlagenverzeichnis
+
+- K1, K2 ... durchnummeriert (Antragstellerin/Klägerin).
+- Bei Beklagten B1, B2 ...
+- Jede Anlage mit Datum, Absender, Empfaenger, Inhaltsbeschreibung in einem Satz.
+- Pflicht-Erwaehnung im Tatsachenvortrag.
+
+## Substantiierungs-Fallen im Vergaberecht (Oberschwellen- und Unterschwellenvergabe)
+
+- **Pauschaltatsachen** ohne konkrete Daten ("seit Jahren", "regelmaessig", "in mehreren Faellen") werden vom Gericht uebergangen.
+- **Beweisangebot zur falschen Tatsache:** Beweisthema deckt nur Teilaussage ab.
+- **Selbst-widersprueche** zwischen Schriftsatz und Anlage ("Im Vertrag steht doch was anderes").
+- **Verspaeteter Vortrag** § 296 ZPO/§ 87b VwGO: Rueglich-Fristen beachten, Verschulden vermeiden.
+- **Anspruchskonkurrenz** zwischen mehreren Grundlagen: nicht eine wegfallen lassen.
+
+## Prüfkette vor Versand
+
+1. Antragsformulierung tenoriert (urteilstauglich, vollstreckbar)?
+2. Jede Tatbestandsmerkmal-Subsumtion mit eigener Tatsache + Beweis hinterlegt?
+3. Frist eingehalten (Eingangsstempel/elektronische Uebermittlung)?
+4. Zuständigkeit positiv festgestellt?
+5. Streitwert plausibel, ggf. mit Anlage Streitwert-Berechnung?
+6. Anlagenverzeichnis vollstaendig und nummerisch konsistent?
+7. beA-/EGVP-/EBO-Konformitaet (PDF/A, ERVV-Signatur)?
+8. Vier-Augen-Prüfung durch Sozius oder Senior-Anwaeltin?
+
+## Rechtsprechungs-Werkzeugkasten
+
+- BVerfG, BGH, BAG, BFH, BVerwG, EuGH und die jeweils massgeblichen Fachsenate für Vergaberecht (Oberschwellen- und Unterschwellenvergabe).
+- GWB Teil 4, VgV, UVgO, VOB/A, SektVO, KonzVgV sowie Verordnungen/Richtlinien dazu.
+- Aktuelle Reform- und Gesetzgebungslage einbeziehen.
+
+## Pflicht-Output
+
+1. **Schriftsatz** mit Rubrum, Antraegen, Tatsachenvortrag, Rechtsausfuehrung, Beweisangeboten, Anlagenverzeichnis.
+2. **Anlagen-Konvolut** numerisch geordnet, jede Anlage einzeln benannt.
+3. **Frist-Doku** mit Eingangsbestaetigung (beA-Eingangsnachricht, EB).
+4. **Streitwertskizze** (eigenes Memo, falls > 1 Anspruch).
+5. **Mandanten-Erinnerung** mit Naechster-Schritt-Aufgaben (Zeuginnen vorbereiten, Sachverstaendiger?).
+
+## Beispiel-Anspruchsgrundlagen im Vergaberecht (Oberschwellen- und Unterschwellenvergabe)
+
+Drei haeufig gebrauchte Anspruchsgrundlagen aus GWB Teil 4, VgV, UVgO, VOB/A, SektVO, KonzVgV und ihre Substantiierungs-Anforderungen:
+
+### Grundlage 1
+
+- Tatbestandsmerkmal 1: konkrete Tatsache + Beweis.
+- Tatbestandsmerkmal 2: konkrete Tatsache + Beweis.
+- Tatbestandsmerkmal 3: konkrete Tatsache + Beweis.
+- Rechtsfolge: konkreter Antrag.
+
+### Grundlage 2
+
+Analog - jede Tatsache braucht ein Beweisangebot.
+
+### Grundlage 3 (Auffanggrundlage / Sekundaeranspruch)
+
+Hilfsweise vortragen, klar als Hilfsantrag/Hilfsvortrag kennzeichnen.
+
+## Antrags-Muster nach Verfahrenstyp
+
+Typische Antraege in Vergaberecht (Oberschwellen- und Unterschwellenvergabe) (Nachpruefungsantrag VK, Sofortige Beschwerde OLG, Schadensersatzklage § 181 GWB):
+
+- Hauptantrag (Leistung/Feststellung/Gestaltung).
+- Hilfsantrag (z.B. für den Fall, dass Hauptforderung verjaehrt ist).
+- Annex-Antraege (Zinsen, Nebenforderungen, Kosten).
+- Streitwert-Antrag (falls Streitwert streitig).
+
+## Beweisaufnahme - was das Gericht sehen will
+
+### Urkundenbeweis
+
+- Anlage K1: Bezeichnung, Datum, kurze Inhaltsbeschreibung.
+- Im Tatsachenvortrag: "Diese Behauptung beruht auf dem als Anlage K1 vorgelegten Schreiben der Beklagten vom TT.MM.JJJJ, dort Seite Y, Absatz Z."
+
+### Zeugenbeweis
+
+- Form: "Beweis: Aussage der Zeugin Name, ladungsfaehige Anschrift, zum Beweisthema (konkret in einem Satz)."
+- Mehrere Zeuginnen zum gleichen Thema: Indiziengeruest staerken.
+- Keine Beweisermittlung über Zeugnis - das Beweisthema muss konkret sein.
+
+### Sachverstaendigenbeweis
+
+- Bei Vergaberecht (Oberschwellen- und Unterschwellenvergabe)-typischen Streitfaellen oft notwendig (Bauwerk, IT-System, Anlagebewertung, medizinische Frage).
+- Privatgutachten als Anlage K vorlegen + zugleich gerichtliches Gutachten beantragen.
+- Verfahrensoekonomie: Sachverstaendigen-Kosten frueh mit Mandantin besprechen.
+
+### Parteivernehmung (§ 448 ZPO)
+
+- Letzte Stufe, nur wenn andere Beweismittel ausgeschoepft.
+- Indiziengeruest vortragen, das eine gewisse Wahrscheinlichkeit der Behauptung tragt.
+
+## Replik-/Duplik-Vorausschau
+
+Schon im Klageschriftsatz die wahrscheinlichen Einwaende der Gegenseite vorwegnehmen:
+
+- Verjährung -> Hemmungstatbestand vortragen.
+- Erfuellung/Aufrechnung -> rechtzeitige Tatsachenbasis schaffen.
+- Formmangel -> Heilung/Schutz-Argument bereit halten.
+- Treuwidrigkeit -> Indiziengeruest gegen Treuwidrigkeits-Vorwurf.
+
+## Elektronische Einreichung (beA, EGVP, EBO, ELSTER)
+
+- PDF/A-2 oder PDF/A-3, mit eingebetteten Schriften.
+- Strukturdatensatz nach ERVV pflicht-konform (Sender, Empfaenger, Az., Versanddatum).
+- Qualifizierte elektronische Signatur (qeS) der einreichenden RA-Person oder einfacher elektronischer Versand über beA (sicherer Uebermittlungsweg).
+- Eingangsbestaetigung aufbewahren - Datum der Einreichung ist Fristwahrungs-Beweis.
+- 1.10.2026 / 1.10.2027 - ZVollstrDigitG-Änderungen im Vollstreckungsbereich; in Vergaberecht (Oberschwellen- und Unterschwellenvergabe) ggf. spezifische ERV-Pflichten beachten.
+
+## Schriftsatz-Stil
+
+- Aktiv, kurze Saetze, klare Subsumtion.
+- Keine Floskeln ("Die Klage ist zulässig und begruendet" als Ueberschrift, aber dann substantiieren).
+- Mandanten- und Beweismittel-Zitate woertlich, in Anfuehrungszeichen, mit Anlage-Verweis.
+- Keine Gefuehlsausbrueche - sachlich auch bei provokanter Gegenseite.
+
+## Vier-Augen-Check
+
+Vor Versand:
+
+- [ ] Antrag tenorierungsfaehig
+- [ ] Frist gewahrt mit Reserve
+- [ ] Jede Tatsache hat Beweis
+- [ ] Anlagen vollstaendig und nummeriert
+- [ ] Rechtsprechungs-Zitat aktuell
+- [ ] Streitwert plausibel
+- [ ] beA/EGVP-konform
+- [ ] Senior-/Sozius-Freigabe
+
+## Cross-Refs
+
+- `erstgespraech-mandatsannahme` (im selben Plugin) für die Tatsachen-Grundlage und Streitwertskizze.
+- `vergleichsverhandlung-strategie` (im selben Plugin) für parallelen Vergleichsversuch (Gueteverhandlung, Mediation).
+
+## Vertiefung: Leitsaetze Schriftsatzanforderungen Vergaberecht
+
+### Triage — Bevor losgelegt wird, klaere:
+
+1. Nachpruefungsantrag VK oder Sofortige Beschwerde OLG oder Schadensersatzklage § 181 GWB? → Bestimmt Gericht, Form, Fristen.
+2. Wurde Ruege § 160 Abs. 3 GWB fristgerecht erhoben? → Ohne Ruege NPA unzulaessig.
+3. Liegt Ablehnungsbescheid der Vergabestelle vor (15-Tage-Frist § 160 Abs. 3 Nr. 4 GWB)?
+4. Zuschlag bereits erteilt? → Feststellung Unwirksamkeit § 135 GWB oder Schadensersatz § 181 GWB
+5. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+### Schlüssel-Leitsaetze Schriftsatz Vergaberecht
+
+
+### Normen-Kette Schriftsatz Vergaberecht
+- §§ 160-163 GWB — Nachpruefungsantrag Vergabekammer
+- § 171 GWB — Sofortige Beschwerde OLG
+- § 181 GWB — Schadensersatzklage
+- § 169 GWB — Vorabentscheidung / einstweilige Maßnahmen
+- § 135 GWB — Unwirksamkeit Zuschlag
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Für Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Für Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Prüfe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

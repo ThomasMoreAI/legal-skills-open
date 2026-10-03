@@ -6,11 +6,20 @@ description: Federal acquisition compliance auditor for the active Theseus works
 author: BdM-15
 author_url: https://github.com/BdM-15/proj-theseus/tree/main/.github/skills/compliance-auditor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: government-contracts
 language: en
+sources:
+- title: Cybersecurity crosscut
+  path: references/cybersecurity_crosscut.md
+- title: Ecfr tools
+  path: references/ecfr_tools.md
+- title: Far dfars quickref
+  path: references/far_dfars_quickref.md
+- title: Severity rubric
+  path: references/severity_rubric.md
 ---
 
 # Compliance Auditor

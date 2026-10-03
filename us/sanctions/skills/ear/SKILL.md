@@ -5,17 +5,17 @@ description: Export Administration Regulations (EAR, 15 CFR Parts 730-774) compl
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/ear/skills/ear
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: sanctions
 language: en
 sources:
-- title: Ccl Eccn Guide
+- title: Ccl eccn guide
   path: references/ccl-eccn-guide.md
-- title: Compliance Program
+- title: Compliance program
   path: references/compliance-program.md
-- title: License Exceptions
+- title: License exceptions
   path: references/license-exceptions.md
 ---
 

@@ -10,7 +10,7 @@ Jurisdiction: `it` · Practice: `data-protection` · Skill language: it
 
 | Skill | What it does |
 |---|---|
-| [`Cookie Audit — analisi forense dei cookie di un sito`](skills/cookie-audit-capazme/) | Usa questa skill quando l'utente chiede un'analisi o audit dei cookie di un sito web — es. «analisi cookie»,… |
+| [`Cookie Audit — analisi forense dei cookie di un sito`](skills/cookie-audit-capazme/) | Usa questa skill quando l'utente chiede un'analisi o audit dei cookie di un sito web — es. «analisi… |
 
 ## Cold-start context
 

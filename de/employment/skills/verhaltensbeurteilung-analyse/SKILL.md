@@ -1,26 +1,29 @@
 ---
 name: verhaltensbeurteilung-analyse
 title: Verhaltensbeurteilung-Analyse
-description: 'Analysiert Verhaltensbeurteilungen im Arbeitszeugnis: Verhalten zu Vorgesetzten, Kollegen und Kunden. Decodiert die Reihenfolge der Genannten, Qualifikationswörter und die Bedeutung von Auslassungen als versteckte Signale.'
+description: 'Für Verhaltensbeurteilung-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/verhaltensbeurteilung-analyse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Verhaltensbeurteilung-Analyse
 
-Die Verhaltensbeurteilung beschreibt das soziale Verhalten des Arbeitnehmers im beruflichen Umfeld. Sie ist neben der Leistungsbeurteilung der zweite große notenrelevante Block. Zwei Dimensionen werden typischerweise bewertet: das Verhalten gegenüber Vorgesetzten (Unterordnung, Loyalität, Zuverlässigkeit) und das Verhalten gegenüber Kollegen und Kunden (Teamfähigkeit, Kommunikation, Kundenorientierung).
+## Fachlicher Anker
 
-Die Reihenfolge der genannten Personengruppen ist ein eigenständiges Signal: Wird das Verhalten "gegenüber Vorgesetzten und Kollegen" positiv beschrieben, folgt die Norm. Wird hingegen "Kollegen und Vorgesetzte" genannt, gilt das als Hinweis, dass das Verhältnis zu Vorgesetzten problematisch war. Fehlt eine Personengruppe ganz — etwa kein Wort über Kunden in einem Kundenkontakt-Job — ist das ein rotes Signal.
-
-Die Qualifikationswörter variieren erheblich in ihrer Stärke: "stets einwandfrei" ist die stärkste Formel (Note 1), "einwandfrei" ohne "stets" ist bereits abgestuft (Note 2), "korrekt" signalisiert Note 3, "angemessen" oder "sachlich" signalisieren Note 4, und das völlige Fehlen einer positiven Verhaltensaussage oder Umschreibungen wie "konfliktbereit" oder "durchsetzungsfähig" können als Kodierungen für schwieriges Verhalten gelesen werden.
-
-Besonders subtile Signale entstehen durch euphemistische Umschreibungen negativer Eigenschaften: "direkte Kommunikationsweise" = grob, "selbstbewusst" (ohne weitere Qualifikation) = schwierig im Team, "durchsetzungsstark" = nicht kompromissfähig, "hat seine Meinung stets klar vertreten" = eigensinnig.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -47,15 +50,11 @@ Besonders subtile Signale entstehen durch euphemistische Umschreibungen negative
 
 **Beispiel 5 – Grün (Note 2):** "Herr Schulz verhielt sich gegenüber Vorgesetzten und Kollegen jederzeit einwandfrei und hinterließ einen ausgezeichneten Eindruck bei unseren Kunden."
 
-## Ausgabeformat
-
-Jede Verhaltensaussage wird tabelliert mit: Satz, Personengruppe (Vorgesetzte/Kollegen/Kunden), erkannte Formel, Reihenfolge-Signal (korrekt/auffällig), Ampelfarbe, Notentendenz, Begründung. Auslassungen werden als eigene Zeile mit "fehlend" ausgewiesen.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

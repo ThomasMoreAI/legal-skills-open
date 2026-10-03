@@ -8,9 +8,9 @@ Jurisdiction: `gb` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`UK Legal Research with Lex API`](skills/lex-uk-law/) | UK legal research using the Lex API. Use this skill whenever the user asks about UK law, legislation,… |
+| [`UK Legal Research with Lex API`](skills/lex-uk-law/) | UK legal research using the Lex API. Use this skill whenever the user asks about UK law, legislation… |
 | [`UK Legislation API (legislation.gov.uk)`](skills/uk-legislation-api/) | Access UK laws and statutory instruments via the Legislation.gov.uk API |
-| [`Erskine May API`](skills/uk-parliament-erskine-may/) | Search and retrieve Erskine May — *A Treatise on the Law, Privileges, Proceedings and Usage of Parliament*,… |
+| [`Erskine May API`](skills/uk-parliament-erskine-may/) | Search and retrieve Erskine May — *A Treatise on the Law, Privileges, Proceedings and Usage of… |
 
 ## Cold-start context
 

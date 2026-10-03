@@ -5,7 +5,7 @@ description: Full patent drafting pipeline from invention description to jurisdi
 author: wanshuiyin
 author_url: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/main/skills/patent-pipeline
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip
@@ -45,7 +45,7 @@ Patents are about **protecting inventions** (legal scope), not publishing result
 
 - **JURISDICTION = `CN`** — Target patent jurisdiction. Options: `CN` (CNIPA), `US` (USPTO), `EP` (EPO), `ALL` (generate all three). Override via argument (e.g., `/patent-pipeline "invention — US"`).
 - **PATENT_TYPE = `invention`** — `invention` (发明专利, 20 year protection) or `utility_model` (实用新型, CN only, 10 year protection, apparatus claims only). Override via argument.
-- **REVIEWER_MODEL = `gpt-5.5`** — Model used via Codex MCP for examiner-style review.
+- **REVIEWER_MODEL = `gpt-6-astra`** — Model used via Codex MCP for examiner-style review.
 - **MAX_REVIEW_ROUNDS = 2** — Maximum review-revision cycles.
 - **AUTO_PROCEED = false** — At each checkpoint, **always wait for explicit user confirmation**. Patent applications require inventor judgment at every stage. Set `true` only if user explicitly requests autonomous mode.
 - **LANGUAGE = `auto`** — Output language. Auto-detected from jurisdiction: CN->Chinese, US->English, EP->English. Override explicitly if needed.
@@ -256,7 +256,7 @@ Invoke `/patent-review`:
 /patent-review "patent/"
 ```
 
-This runs 2 rounds of examiner-style review via GPT-5.4 xhigh. The examiner evaluates clarity, written description, enablement, novelty, non-obviousness, and claim scope.
+This runs 2 rounds of examiner-style review via GPT-6-Astra xhigh. The examiner evaluates clarity, written description, enablement, novelty, non-obviousness, and claim scope.
 
 **State**: Write `PATENT_STATE.json` with `phase: 4` and review score.
 

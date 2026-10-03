@@ -1,0 +1,59 @@
+---
+name: data-transfer-in-trade
+title: Datentransfer im internationalen Handel
+description: 'Für Datentransfer im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/data-transfer-in-trade
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Datentransfer im internationalen Handel
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Internationale Handelsverträge beinhalten häufig Datenaustausch (Kundendaten, Lieferantendaten, Zahlungsinformationen). DSGVO Art. 44-49 regelt Drittlandübermittlung streng: Ohne Angemessenheitsbeschluss sind Standardvertragsklauseln (SCC) oder Binding Corporate Rules erforderlich. Das EU-US Data Privacy Framework (2023) schafft einen neuen Angemessenheitsbeschluss.
+
+## Kernnormen / Kernquellen
+
+- **DSGVO Art. 44**: Grundsatz — kein Transfer ohne angemessenes Schutzniveau
+- **DSGVO Art. 45**: Angemessenheitsbeschluss (z.B. EU-US DPF, UK, Kanada)
+- **DSGVO Art. 46 Abs. 2 lit. c**: Standardvertragsklauseln (SCC) als Garantie
+- **DSGVO Art. 49**: Ausnahmen — Einwilligung, Vertragserforderlichkeit, wichtige öffentliche Interessen
+- **EU-US Data Privacy Framework (DPF) Beschluss 2023/1795**: Neuer Angemessenheitsbeschluss USA
+- **Schrems II EuGH C-311/18 (2020)**: Privacy Shield ungültig; TIA für SCC erforderlich
+
+## Schlüsselbegriffe
+
+- Angemessenheitsbeschluss: EU-Kommission entscheidet; DPF für USA, Adequacy für UK/Kanada
+- SCC: Standardvertragsklauseln der EU-Kommission (Version 2021); Transfer Impact Assessment (TIA)
+- Binding Corporate Rules (BCR): Konzernweiter Datenschutzrahmen; aufwändige Genehmigung
+- TIA: Transfer Impact Assessment — Risikobewertung für SCC-gestützte Transfers
+- Data Processing Agreement (DPA): DSGVO Art. 28 — Auftragsverarbeitung
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Kaufpreis-/Kundendaten werden in Cloud-System (USA) gespeichert: welche Grundlage?
+2. SCC 2021: Welche Module für welche Transfers (C2C, C2P, P2C)?
+3. TIA: Welche Rechtsordnung des Empfängerlandes ist zu bewerten (Schrems-II-Folge)?
+4. DPF 2023: Gilt es für alle US-Unternehmen oder nur für zertifizierte?
+5. Exportkontrolle und Datentransfer: Gilt EAR auch für Software-Übermittlung?
+
+## Methodik
+
+- Transfer-Basis auswählen: (1) Angemessenheitsbeschluss?, (2) SCC + TIA?, (3) BCR?
+- SCC-Modul-Wahl: C2C (beide Verantwortliche), C2P (Verantwortlicher → Auftragsverarbeiter)
+- TIA-Dokumentation: Rechtslage des Empfängerlandes (Geheimdienste, Zugriff) bewerten
+- Handelsvertrag: DPA nach Art. 28 DSGVO als Anhang einbinden

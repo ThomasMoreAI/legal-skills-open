@@ -1,0 +1,176 @@
+---
+name: verweis-querverweis-dokument-finish
+title: Verweis- und Querverweis-Technik
+description: 'Für Verweis- und Querverweis-Technik: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/verweis-querverweis-dokument-finish
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Verweis- und Querverweis-Technik
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DSGVO Art. 33 Datenpanne 72h, ZPO § 130d aktive beA-Nutzung seit 01.01.2022, GwG § 8 Aufbewahrung 5 Jahre, KI-VO Art. 50 Kennzeichnung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 49b, DSGVO Art. 6, 28, 32, 35, BORA § 19a (technische Sorgfalt), beA-Bedingungen, ZPO § 130a (eVa), § 130d (aktive Nutzungspflicht), GwG § 8 Aufbewahrung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anwalt, Sekretariat, IT-Verantwortlicher, Datenschutzbeauftragter, KI-Anbieter (Auftragsverarbeiter), Kammer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Word-Dokumentvorlage, beA-Schriftsatz, AV-Vertrag mit KI-Anbieter, DSFA, Sicherheitskonzept, AGB-/Mandantenklauseln zu KI-Einsatz — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Vertrag oder Schriftsatz mit Verweisstruktur
+- Anlagenliste
+- Verwendete Gesetze und Verordnungen
+- Optional: Versionsstand zur Konsistenzpruefung
+
+## Rechtlicher und methodischer Rahmen
+
+- § 305 Abs. 2 BGB: Einbeziehung von AGB. Verweis auf AGB muss klar und auffindbar sein.
+- §§ 133, 157 BGB: Auslegung. Defekte Verweise werden gegen den Verwender ausgelegt (§ 305c Abs. 2 BGB).
+- Zitierweise nach `references/zitierweise.md` für externe Verweise auf Rechtsprechung und Literatur.
+- Technische Umsetzung: Wenn Word genutzt wird, reichen normale Querverweise oder eine bewusste manuelle Endkontrolle. Keine Makros, kein VBA, keine Automatisierungslogik.
+
+## Ablauf / Checkliste
+
+1. **Interne Verweise inventarisieren.** Welche Klauseln verweisen aufeinander?
+2. **Anlagen inventarisieren.** Welche Anlagen werden zitiert? Sind sie alle vorhanden?
+3. **Externe Verweise prüfen.** Sind Gesetzesangaben aktuell? Sind Rspr.-Zitate verifiziert?
+4. **Verweisform prüfen.** Klauselnummer und Klauselueberschrift nennen ("§ 7 Abs. 2 (Haftung)").
+5. **Verweise nach Renumbering kontrollieren.** Keine toten Verweise nach Verschiebung von Klauseln oder Anlagen.
+6. **Konsistenzpruefung.** Volltextsuche nach "siehe oben", "vorstehend", "nachstehend".
+7. **Anlagenverzeichnis erstellen.** Anlage 1 bis Anlage n.
+
+### Interne Verweise: Drei Regeln
+
+1. **Klauselnummer plus Ueberschrift.** "§ 7 Abs. 2 (Haftung)" statt "vorstehender Absatz".
+2. **Richtung explizit.** "siehe § 5" oder "wie in § 5 geregelt", nicht "siehe oben".
+3. **Voll qualifiziert.** "Anlage 3 (Leistungsbeschreibung)", nicht "Anlage".
+
+### Externe Verweise: Zitiermuster
+
+- Gesetz: "§ 433 Abs. 1 Satz 1 BGB"
+- EU-Recht: "Art. 6 Abs. 1 lit. f DSGVO"
+- Rspr.: "BGH, Urt. v. TT.MM.JJJJ - Az. ..., [freie Quelle] Rn. ..."
+- Mehrere Normen: "§§ 280 Abs. 1, 281 Abs. 1 und Abs. 2 BGB"
+
+Externe Rspr.- und Literaturverweise nur, wenn verifiziert. Siehe `references/zitierweise.md`.
+
+### Anlagenverwaltung: Drei-Punkte-Prinzip
+
+| Schritt | Beispiel |
+|---|---|
+| 1. Benennen | "Anlage 3 (Leistungsbeschreibung)" im Anlagenverzeichnis |
+| 2. Definieren | "Anlage 3 bezeichnet die in Anlage 3 zu diesem Vertrag enthaltene Leistungsbeschreibung." im Definitionen-Abschnitt |
+| 3. Einfuehren | "Der Lieferant erbringt die in Anlage 3 (Leistungsbeschreibung) beschriebenen Leistungen." in der operativen Klausel |
+
+### Beispiel: konsolidierter Verweisapparat
+
+```
+§ 1 Definitionen
+
+"Anlage 1" bezeichnet die in Anlage 1 zu diesem Vertrag enthaltene
+Leistungsbeschreibung.
+
+"Anlage 2" bezeichnet die in Anlage 2 zu diesem Vertrag enthaltene
+Preisliste.
+
+§ 3 Leistung
+Der Lieferant erbringt die in Anlage 1 (Leistungsbeschreibung) im
+Einzelnen beschriebenen Leistungen.
+
+§ 4 Verguetung
+Die Verguetung richtet sich nach Anlage 2 (Preisliste).
+
+§ 6 Maengelhaftung
+(1) ...
+(2) Bei Verzug gilt zusaetzlich § 4 Abs. 3 (Verzug).
+(3) ...
+
+§ 7 Haftung
+(1) ...
+(2) ...
+Schadensersatzansprueche aus § 6 Abs. 2 (Maengelhaftung) und aus § 8
+(Geheimhaltung) sind in der Hoehe nach diesem § 7 begrenzt.
+
+Anlagenverzeichnis
+Anlage 1 - Leistungsbeschreibung
+Anlage 2 - Preisliste
+Anlage 3 - Lieferplan
+```
+
+### Klausel-Spinne vermeiden
+
+Eine Klausel-Spinne entsteht, wenn ein Begriff durch mehrere Klauseln laeuft, die sich gegenseitig verweisen, ohne dass die Hauptregel klar ist.
+
+**Anti-Pattern:**
+
+```
+§ 3 ... soweit nicht in § 5 anders geregelt ...
+§ 5 ... vorbehaltlich § 3 und § 7 ...
+§ 7 ... unter Bezugnahme auf § 5 und § 3 ...
+```
+
+**Loesung:** Hauptregel in einer Klausel. Andere Klauseln verweisen nur in eine Richtung. Tabelle Verweis-Graph zeichnen.
+
+### vorstehender und nachstehender
+
+Vermeiden Sie diese Begriffe in operativen Klauseln. Sie sind Auslegungsmuell. Wenn unausweichlich, ergaenzen Sie die Klauselnummer:
+
+- Statt "vorstehender Absatz" schreiben Sie "Abs. 1".
+- Statt "vorstehender Paragraph" schreiben Sie "§ 6".
+- Statt "nachstehender Absatz" schreiben Sie "Abs. 3".
+
+## Typische Drafting-Fehler
+
+- **Tote Verweise nach Renumbering.** Klauselnummern wurden verschoben, aber die Verweise im Text nicht nachgezogen.
+- **"Siehe oben" ohne Bezugsstelle.** Kein Reviewer findet die Stelle.
+- **Anlage zitiert, aber nicht vorhanden.** Anlagenverzeichnis prüfen.
+- **Externe Verweise auf veraltete Normen.** § Nummern haben sich geaendert (z.B. nach Schuldrechtsmodernisierung 2002, AGB-Reform 2002, BDSG-DSGVO-Umstellung 2018).
+- **Rspr.-Zitate aus Modellwissen.** Verifikationspflicht nach `references/zitierweise.md`.
+- **Klausel-Spinne.** Mehrfach kreisende Verweise. Hauptregel konsolidieren.
+
+## Beispiel
+
+**Aufgabe:** Prüfen Sie den Verweisapparat folgender Klausel:
+
+```
+§ 7 Haftung
+Soweit nicht im Vorstehenden anders bestimmt, haftet der Lieferant nur,
+soweit dies in den nachstehenden Bestimmungen vorgesehen ist, wobei die
+Regelungen in § 5 (Maengelhaftung) und in den dort genannten Anlagen
+zu beachten sind, vorbehaltlich der Sonderregelungen in den Anlagen
+zur Geheimhaltung.
+```
+
+**Prüfbericht:**
+
+- "im Vorstehenden": ohne Bezug. Streichen.
+- "in den nachstehenden Bestimmungen": keine Klauselnummer. Konkretisieren.
+- "in den dort genannten Anlagen": Verweis zweiter Stufe. Direkt auf die Anlage zeigen.
+- "Anlagen zur Geheimhaltung": ist eine Anlage gemeint oder mehrere? Nummerieren.
+
+**Loesung:**
+
+```
+§ 7 Haftung
+(1) Der Lieferant haftet nach Massgabe dieses § 7 in Verbindung mit
+ § 6 (Maengelhaftung).
+(2) Die Haftung für Geheimhaltungsverstoesse richtet sich nach § 8
+ (Geheimhaltung) und Anlage 8 (Geheimhaltungsregeln).
+(3) Im Uebrigen ist die Haftung ausgeschlossen.
+```
+
+## Quellen (Stand 05/2026)
+
+- § 305 Abs. 2 BGB, § 305c Abs. 2 BGB, §§ 133, 157 BGB. gesetze-im-internet.de.
+- `references/zitierweise.md` für externe Verweise.
+- Normale Word-Querverweise können helfen; Makros, VBA und Office-Automatisierung sind für diesen Skill bewusst ausgeschlossen.

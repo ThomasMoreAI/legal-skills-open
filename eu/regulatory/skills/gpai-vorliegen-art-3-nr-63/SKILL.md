@@ -1,11 +1,11 @@
 ---
 name: gpai-vorliegen-art-3-nr-63
 title: GPAI, allgemeiner Chatbot und Hochrisiko-Abgrenzung
-description: 'Prueft, ob ein Modell oder Dienst ein General-Purpose-AI-Modell oder GPAI-System nach der KI-VO ist und grenzt GPAI von Hochrisiko-KI ab. Behandelt ChatGPT-aehnliche Systeme, Foundation Models, API-Nutzung, GPAI-System Art. 3 Nr. 66, systemisches Risiko und Zweckbestimmung. Kernpunkt: GPAI/allgemeiner Chatbot ist nicht automatisch Hochrisiko; Hochrisiko entsteht erst bei konkreter Integration oder intendiertem Einsatz fuer Art. 6 Abs. 2/Anhang III-Zwecke. Output: GPAI-Einordnung und Routing zu Art. 50, Art. 51-55 oder Anhang-III-Pruefung.'
+description: 'Für GPAI, allgemeiner Chatbot und Hochrisiko-Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/gpai-vorliegen-art-3-nr-63
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill klärt, ob ein Modell oder Dienst ein General-Purpose-AI-Modell (GPAI-Modell) oder ein GPAI-System ist und wie dies zur Hochrisiko-Einstufung nach Art. 6 KI-VO steht.
+Kläre, ob ein Modell oder Dienst ein General-Purpose-AI-Modell (GPAI-Modell) oder ein GPAI-System ist und wie dies zur Hochrisiko-Einstufung nach Art. 6 KI-VO steht.
 
 Der wichtigste praktische Punkt: Ein allgemeines Sprachmodell oder ein ChatGPT-ähnlicher Chatbot ist nicht automatisch Hochrisiko-KI. Hochrisiko hängt an der konkreten Zweckbestimmung und dem Einsatz als KI-System in einem regulierten Kontext, insbesondere Art. 6 Abs. 2 i.V.m. Anhang III.
 
@@ -56,7 +56,7 @@ Ein GPAI-System ist ein KI-System auf Basis eines GPAI-Modells, das für eine Vi
 Prüffragen:
 - Gibt es eine Chat-, Agenten-, API- oder Tool-Oberfläche für Nutzer?
 - Kann das System Texte, Bilder, Code, Empfehlungen oder andere Inhalte für viele Zwecke erzeugen?
-- Ist das System in einen konkreten Fachworkflow eingebettet oder bleibt es allgemeiner Assistent?
+- Ist das System in einen konkreten Facheingebettet oder bleibt es allgemeiner Assistent?
 
 ## Hochrisiko-Abgrenzung
 
@@ -82,9 +82,9 @@ Beispiele:
 
 Dann weiter zu `hochrisiko-art-6-abs-2-anhang-iii`.
 
-### Mitarbeitende nutzen Chatbot entgegen Zweckbestimmung
+### Mitarbeiter nutzen Chatbot entgegen Zweckbestimmung
 
-Wenn Mitarbeitende ein allgemeines Tool zweckwidrig für Hochrisiko-Fragen nutzen:
+Wenn Mitarbeiter ein allgemeines Tool zweckwidrig für Hochrisiko-Fragen nutzen:
 
 - **Isolierter Regelverstoß trotz klarer Richtlinie und Kontrollen:** als Compliance-Vorfall behandeln; nicht automatisch Hochrisiko-Einstufung des gesamten Tools.
 - **Systematische oder geduldete Praxis:** tatsächlicher Betreiberzweck kann Hochrisiko-Einsatz begründen.
@@ -105,7 +105,7 @@ Wenn Mitarbeitende ein allgemeines Tool zweckwidrig für Hochrisiko-Fragen nutze
 - **GPAI-Modell bestätigt:** `gpai-modelle-art-51-bis-55`; ggf. `gpai-systemisches-risiko-schwelle-10e25-flop`.
 - **Allgemeiner Chatbot/GPAI-System:** `begrenztes-risiko-art-50-transparenzpflichten`, zusätzlich Datenschutz/Geheimnisschutz prüfen.
 - **Einsatz in Anhang-III-Kontext:** `hochrisiko-art-6-abs-2-anhang-iii`, danach `rueckausnahme-art-6-abs-3`.
-- **Zweckwidrige Mitarbeitenden-Nutzung:** `betreiber-deployer-pflichten-art-26`, `anbieter-werden-art-25`, `output-pruefdokument-ki-vo-mit-warnhinweisen`.
+- **Zweckwidrige Mitarbeitern-Nutzung:** `betreiber-deployer-pflichten-art-26`, `anbieter-werden-art-25`, `output-pruefdokument-ki-vo-mit-warnhinweisen`.
 
 ## Output-Template — GPAI-/Chatbot-Einordnung
 
@@ -133,13 +133,21 @@ System / Modell / Dienst: [NAME]
 [Nicht automatisch Hochrisiko / Anhang-III-Prüfung erforderlich / Hochrisiko naheliegend]
 [Begründung mit konkretem Zweck]
 
-6. Off-label-/Mitarbeitenden-Nutzung
+6. Off-label-/Mitarbeitern-Nutzung
 [Risiko, Kontrollen, Governance-Maßnahmen, Re-Evaluation]
 
 7. Folge-Skills
 [gpai-modelle-art-51-bis-55 / begrenztes-risiko-art-50-transparenzpflichten / hochrisiko-art-6-abs-2-anhang-iii / betreiber-deployer-pflichten-art-26]
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 3 Nr. 1, Nr. 12, Nr. 13, Nr. 63 und Nr. 66, Art. 50 sowie Art. 51 bis 55 KI-VO. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 3 Nr. 1, Nr. 12, Nr. 13, Nr. 63 und Nr. 66, Art. 50 sowie Art. 51 bis 55 KI-VO. Keine Rechtsberatung.

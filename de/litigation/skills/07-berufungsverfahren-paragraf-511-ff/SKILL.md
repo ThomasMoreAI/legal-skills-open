@@ -1,0 +1,93 @@
+---
+name: 07-berufungsverfahren-paragraf-511-ff
+title: 07 Berufungsverfahren Paragraf 511 Ff
+description: 'Für 07 Berufungsverfahren Paragraf 511 Ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-landgericht-zivilkammer/skills/07-berufungsverfahren-paragraf-511-ff
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# 07 Berufungsverfahren Paragraf 511 Ff
+
+## Zweck
+
+Berufungsverfahren: Zulässigkeit Paragraf 511, Berufungsbegründung Paragraf 520, Prüfungsumfang Paragraf 529, Zurückweisungsbeschluss Paragraf 522 Abs. 2, Berufungsurteil Paragraf 540
+
+## Rolle
+
+
+Werkstatt-Assistent für den Vorsitzenden der Zivilkammer am Landgericht. Erstinstanzliche Zuständigkeit nach Paragrafen 23 und 71 GVG von der Berufungszuständigkeit nach Paragraf 72 GVG trennen; Sonderzuweisungen beachten. Kammer- oder Einzelrichterentscheidung.
+
+## Rechtsrahmen
+
+ZPO, BGB, HGB, GVG, GKG, RVG, EGZPO
+
+## Pflichtschritte
+
+1. Statthaftigkeit und Zulässigkeit der Berufung prüfen: Wert des Beschwerdegegenstandes über 1.000 Euro oder Zulassung im Urteil nach Paragraf 511 Absatz 2 ZPO. Übergangsrecht nach Paragraf 47 EGZPO zuerst prüfen: Über 600 Euro genügt nach altem Recht, wenn die Entscheidung bis 31. Dezember 2025 verkündet beziehungsweise ohne Verkündung der Geschäftsstelle übergeben wurde oder die maßgebliche mündliche Verhandlung bis dahin geschlossen war; im schriftlichen Verfahren zählt stattdessen der Schriftsatzstichtag. Funktionelle Zuständigkeit gegen amtsgerichtliche Zivilurteile nach Paragraf 72 GVG einschließlich Sonderzuständigkeiten prüfen.
+2. Fristen kontrollieren: Berufungsfrist von einem Monat (Paragraf 517 ZPO) und Begründungsfrist von zwei Monaten (Paragraf 520 Absatz 2 ZPO), jeweils ab Zustellung des Urteils.
+3. Berufungsbegründung auf die Anforderungen des Paragraf 520 Absatz 3 ZPO prüfen: bestimmte Berufungsanträge sowie Rechtsfehler oder konkrete Anhaltspunkte für Zweifel an den Feststellungen.
+4. Prüfungsumfang nach den Paragrafen 513 und 529 ZPO bestimmen; Bindung an die erstinstanzlichen Feststellungen und Präklusion neuen Vorbringens nach Paragraf 531 Absatz 2 ZPO beachten.
+5. Entscheidungsform wählen: Zurückweisungsbeschluss bei offensichtlicher Aussichtslosigkeit nach vorherigem Hinweis (Paragraf 522 Absatz 2 ZPO) oder Berufungsurteil (Paragraf 540 ZPO); Tenor, Kosten, vorläufige Vollstreckbarkeit und Revisionszulassung (Paragraf 543 ZPO) absetzen.
+6. Arbeitsstand als Vorschlag zur richterlichen Prüfung markieren; die Letztentscheidung trifft der Mensch.
+7. Quellen vollständig zitieren (Norm, Aktenzeichen, Datum) und Fristen sowie Schwellenwerte vor Verwendung verifizieren.
+
+## Output
+
+Strukturierter Arbeitsstand: Prüfungspunkte, Zitate, offene Fragen, Vorschlag zur Prüfung.
+
+## Anker-Rechtsprechung
+
+- BVerfG, Beschluss vom 30.04.2003 - 1 PBvU 1/02, BVerfGE 107, 395: Rechtliches Gehör verlangt, dass entscheidungserheblicher Vortrag erkennbar zur Kenntnis genommen und erwogen wird.
+- Amtlich geprüft am 14. September 2026: [Paragraf 511 ZPO](https://www.gesetze-im-internet.de/zpo/__511.html), [Paragraf 47 EGZPO](https://www.gesetze-im-internet.de/zpoeg/__47.html), [Paragraf 72 GVG](https://www.gesetze-im-internet.de/gvg/__72.html) sowie [Paragraf 23 GVG](https://www.gesetze-im-internet.de/gvg/__23.html) und [Paragraf 71 GVG](https://www.gesetze-im-internet.de/gvg/__71.html).
+
+## Prüfungsschema in Stufen
+
+1. Statthaftigkeit und funktionelle Zuständigkeit klären: anwendbare Fassung nach Paragraf 47 EGZPO bestimmen, dann Beschwerdewert oder Zulassung nach Paragraf 511 Absatz 2 ZPO prüfen. Genau 1.000 Euro überschreiten die aktuelle Wertgrenze nicht. Das Landgericht ist nach Paragraf 72 GVG Berufungsgericht, soweit keine Sonderzuständigkeit eingreift.
+2. Fristen und Form prüfen: Einlegung binnen eines Monats (Paragraf 517 ZPO), Begründung binnen zwei Monaten (Paragraf 520 Absatz 2 ZPO), Anforderungen des Paragraf 520 Absatz 3 ZPO an die Begründung.
+3. Prüfungsumfang bestimmen (Paragrafen 513, 529 ZPO): Bindung an die erstinstanzlichen Feststellungen, soweit keine konkreten Anhaltspunkte für Zweifel bestehen; neues Vorbringen nur im Rahmen des Paragraf 531 Absatz 2 ZPO.
+4. Entscheidungsweg wählen: bei offensichtlicher Aussichtslosigkeit Zurückweisungsbeschluss nach vorherigem Hinweis (Paragraf 522 Absatz 2 ZPO), sonst Berufungsurteil (Paragraf 540 ZPO).
+5. Tenor, Kosten, vorläufige Vollstreckbarkeit, Beschwer und Revisionszulassung so absetzen, dass die Geschäftsstelle korrekt belehren kann.
+
+## Typische Fallstricke
+
+- Der Zurückweisungsbeschluss nach Paragraf 522 Absatz 2 ZPO wird ohne den zwingend vorherigen Hinweis erlassen.
+- Die Bindung an die erstinstanzlichen Feststellungen (Paragraf 529 ZPO) wird übergangen und der Streit wie in erster Instanz neu aufgerollt.
+- Verspätetes neues Vorbringen wird zugelassen, obwohl die Voraussetzungen des Paragraf 531 Absatz 2 ZPO fehlen.
+- Die Beschwer und die Voraussetzungen der Revisionszulassung (Paragraf 543 ZPO) werden nicht eigenständig geprüft.
+- Aktengeheimnis nach Paragraf 353b StGB und Amtsverschwiegenheit nach Paragraf 43 DRiG bleiben bei jeder externen Werkzeugnutzung Sperren.
+
+## Tenor-Bausteine bzw. Beschluss-Bausteine
+
+### Baustein A
+
+```text
+Das Gericht weist darauf hin, dass es nach vorläufiger Würdigung auf [entscheidender Punkt] ankommen dürfte. Die Beteiligten erhalten Gelegenheit, hierzu binnen [Frist] ergänzend vorzutragen.
+```
+
+### Baustein B
+
+```text
+Es soll Beweis erhoben werden über die Behauptung, dass [Beweisthema], durch Vernehmung des Zeugen [Name] beziehungsweise durch Einholung eines schriftlichen Sachverständigengutachtens zu [Gutachtenfrage].
+```
+
+## Benachbarte Skills
+
+- **Davor**: `06-urteil-grosses-zivilurteil` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Berufungsverfahren Paragraf 511 Ff trägt.
+- **Danach**: `08-kostenentscheidung-und-streitwert` - Folgeskill nutzen, sobald Berufungsverfahren Paragraf 511 Ff entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Gerichtliche Arbeitsprodukt-Schärfung
+
+- Rolle: Landgericht Zivilkammer. Der Skill spricht aus der Binnenperspektive des Spruchkörpers und erzeugt Kammervotum, Hinweisbeschluss, Beweisbeschluss, Urteil oder Berufungsentscheidung; er ersetzt keine anwaltliche Strategie und keine Parteiberatung.
+- Pflichtstamm: Paragrafen 71, 72 GVG sowie Paragrafen 139, 286, 287, 313, 522 ZPO. Normen werden im Ergebnis nur verwendet, wenn sie zum konkreten Aktenproblem passen; fehlende Spezialnormen werden als Prüfbedarf markiert.
+- Verfügungssprache: Jede Ausgabe endet mit einer konkreten Anschlussverfügung, etwa Anhörung, Fristsetzung, Hinweis, Beweisbeschluss, Terminierung, Abgabe, Vorlage oder Entscheidungsentwurf.
+- Stop-Kriterium: Sobald Aktengeheimnis, richterliche Unabhängigkeit, Geschäftsverteilung, Befangenheit, nicht geklärte Zuständigkeit oder ein unaufgeklärter Grundrechtseingriff berührt ist, wird nicht weiter simuliert, sondern eine Vorlage- oder Prüfverfügung formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill ordnet den gerichtlichen Streitstoff nach Antrag, Gegenvorbringen, unstreitigem Sachverhalt, streitiger Tatsache, Beweisangebot, Rechtsfrage und Anschlussverfügung. Er benennt zu jedem Punkt, ob eine richterliche Aufklärung, ein Hinweis, ein Beweisbeschluss oder eine Entscheidung vorbereitet wird.

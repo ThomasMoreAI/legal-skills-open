@@ -6,13 +6,19 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `br` · Practice: `employment` · Skill language: en, pt
 
-## Skills (3)
+## Skills (9)
 
 | Skill | What it does |
 |---|---|
 | [`/cold-start-interview`](skills/cold-start-interview-bossmann007/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
-| [`/log-leave`](skills/log-leave-bossmann007/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines. Use… |
-| [`/wage-hour-qa`](skills/wage-hour-qa-bossmann007/) | Q&A de jornada/remuneração sensível à base territorial/CCT — enquadramento, horas extras, intervalos,… |
+| [`/expansion-kickoff`](skills/expansion-kickoff/) | Kick off international expansion planning for a new country — gathers intake, runs EOR vs. entity… |
+| [`/hiring-review`](skills/hiring-review-bossmann007/) | Revisa uma carta-proposta/contrato de trabalho e qualquer cláusula restritiva (não-concorrência… |
+| [`Internal Investigation Skill`](skills/internal-investigation-bossmann007/) | Reference: shared framework for managing internal investigations from intake through final memo… |
+| [`/log-leave`](skills/log-leave-bossmann007/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines.… |
+| [`/policy-drafting`](skills/policy-drafting-bossmann007/) | Draft an employment policy with regional supplements where CCTs (Convenções Coletivas de Trabalho) or… |
+| [`/termination-review`](skills/termination-review-bossmann007/) | Revisão de rescisão — detecção de flags de alto risco (estabilidades), verbas rescisórias + homologação… |
+| [`/wage-hour-qa`](skills/wage-hour-qa-bossmann007/) | Q&A de jornada/remuneração sensível à base territorial/CCT — enquadramento, horas extras, intervalos… |
+| [`/worker-classification`](skills/worker-classification-bossmann007/) | Classify a proposed worker engagement — employee, IC, temp, or vendor — by running the applicable… |
 
 ## Cold-start context
 

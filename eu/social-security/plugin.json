@@ -1,0 +1,14 @@
+{
+  "name": "eu-social-security",
+  "displayName": "Social Security & Welfare — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Social Security & Welfare skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "social-security",
+  "language": "de",
+  "skills": [
+    "skills/eu-rente-antrag"
+  ]
+}

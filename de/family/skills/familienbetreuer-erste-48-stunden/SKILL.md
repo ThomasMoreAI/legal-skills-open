@@ -1,0 +1,49 @@
+---
+name: familienbetreuer-erste-48-stunden
+title: 'Familienbetreuer: erste 48 Stunden und Notfallmappe'
+description: 'Für Familienbetreuer: erste 48 Stunden und Notfallmappe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Betreuungsrecht. Route: familienbetreuer-erste-48-stunden.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/familienbetreuer-erste-48-stunden
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: family
+language: de
+---
+
+# Familienbetreuer: erste 48 Stunden und Notfallmappe
+
+## Normenanker
+
+Arbeitsfokus: **Familienbetreuer: erste 48 Stunden und Notfallmappe**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 1814 Abs. 1 BGB` — Erforderlichkeit der Betreuung.
+- `§ 1815 Abs. 1 BGB` — Aufgabenkreis.
+- `§ 1816 BGB` — Auswahl des Betreuers.
+- `§ 1821 Abs. 1 BGB` — Wunschbefolgung.
+- `§ 274 FamFG` — Beteiligte.
+- `§ 278 FamFG` — persönliche Anhörung.
+- `§ 280 FamFG` — Sachverständigengutachten.
+- `§ 293 FamFG` — Erweiterung oder Einschränkung der Betreuung.
+- `§ 5 BtOG` — Beratung und Unterstützung.
+- `§ 23 BtOG` — Registrierung beruflicher Betreuer.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Red Flags
+
+- Aufgabenkreis überschritten
+- zu viele Gesundheitsdaten verteilt
+- Bankvollmacht mit Betreuung verwechselt
+
+## Arbeitsstil
+
+Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschalen Empfehlungen; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.
+
+## Powersprint-Vertiefung
+
+- **Alltagsdurchführung:** Zerlege `Familienbetreuer: erste 48 Stunden und Notfallmappe` in konkrete nächste Handlungen für ehrenamtliche Betreuer: anrufen, scannen, ablegen, nachfragen, Gericht informieren, Frist notieren.
+- **Gerichts- und Beleglogik:** Halte Wunsch der betreuten Person, Vertretungsmacht, Einwilligung, Vermögensschutz, Gesundheitsdaten und Nachweis gegenüber dem Betreuungsgericht getrennt.
+- **Fehlerbremse:** Keine Vermischung eigener und fremder Gelder, keine unnötige Offenlegung sensibler Daten, keine medizinische Entscheidung ohne Zuständigkeit und dokumentierten Wunsch bzw. mutmaßlichen Willen.
+- **Output:** Tagesplan, Belegliste, kurzer Gerichtstext, Telefonnotiz und Wiedervorlage in einfacher Sprache.

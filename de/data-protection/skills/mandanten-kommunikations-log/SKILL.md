@@ -1,11 +1,11 @@
 ---
 name: mandanten-kommunikations-log
 title: /mandanten-kommunikations-log
-description: 'Mandantenkommunikation dokumentieren und Kommunikations-Log führen: Anwendungsfall Rechtsberatungsstelle muss Beratungsgespraeache E-Mails und Entscheidungen vollständig und datenschutzkonform dokumentieren. DSGVO Datenschutz studentische Rechtsberatung, § 43a BRAO Vertraulichkeit, BDSG. Prüfraster Gespraeach-Datum Inhalt Ergebnis und Naechste Schritte protokollieren, Datenschutz beachten, Übergabe an anderen Berater sicherstellen. Output Kommunikations-Log mit strukturiertem Protokoll und Weiterleitungshinweisen. Abgrenzung zu Semester-Übergabe für Mandats-Übergabe und zu Status-Skill.'
+description: 'Für /mandanten-kommunikations-log: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/mandanten-kommunikations-log
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,6 +13,16 @@ language: de
 ---
 
 # /mandanten-kommunikations-log
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 1. Lade `CLAUDE.md` → Fachbereich, Aufsichtsmodell, Verschwiegenheitspflichten.
 2. Prüfe: Handelt es sich um eine neue Kommunikation (→ Eintrag hinzufügen) oder um Abruf/Export (→ strukturierte Übersicht ausgeben)?
@@ -22,13 +32,13 @@ language: de
 
 ---
 
-# Mandantenkommunikations-Logbuch
+### Mandantenkommunikations-Logbuch
 
 ## Zweck
 
 Lückenlose Dokumentation aller Kontakte in einem Mandat ist aus mehreren Gründen unverzichtbar:
 
-1. **Semesterübergabe:** Nachfolgende Studierende müssen den Stand des Mandats vollständig nachvollziehen können (`/rechtsberatungsstelle:semester-übergabe`).
+1. **Semesterübergabe:** Nachfolgende Studenten müssen den Stand des Mandats vollständig nachvollziehen können (`/rechtsberatungsstelle:semester-übergabe`).
 2. **Haftungssicherung:** Im Streitfall muss nachgewiesen werden können, wann welche Mitteilung erging (§ 127 BGB analog für Fristwahrung).
 3. **Qualitätssicherung:** Der anleitende Volljurist prüft, ob der Mandant korrekt informiert und keine unzulässige Rechtsberatung erteilt wurde.
 4. **Verschwiegenheit:** Das Logbuch enthält personenbezogene Daten und fällt unter § 43a Abs. 2 BRAO (Anleiter), § 203 StGB (alle Beteiligten), DSGVO Art. 5, 9. Kein Zugang für Dritte ohne Freigabe.
@@ -48,7 +58,7 @@ Lückenlose Dokumentation aller Kontakte in einem Mandat ist aus mehreren Gründ
 - Aktenzeichen oder anonyme Mandantenkennung (z. B. "M-2024-17")
 - Datum und Uhrzeit des Kontakts
 - Art des Kontakts: persönlich | telefonisch | schriftlich (Brief/E-Mail/Fax) | durch Dritte (Dolmetscher)
-- Beteiligte: Studierender, Anleiter, Mandant, Behörde/Gericht, Dolmetscher
+- Beteiligte: Studentenr, Anleiter, Mandant, Behörde/Gericht, Dolmetscher
 - Inhalt: Was wurde mitgeteilt / besprochen / vereinbart?
 - Ergebnis: Was ist entschieden, was bleibt offen?
 - Nächste Schritte und Fristen
@@ -59,7 +69,7 @@ Lückenlose Dokumentation aller Kontakte in einem Mandat ist aus mehreren Gründ
 ### Eintrag [Nummer] – [Datum] [Uhrzeit]
 
 **Art:** [persönlich | telefonisch | schriftlich]
-**Beteiligte:** [Studierender: Name/Kürzel] | [Anleiter: ✓ anwesend / – nicht anwesend] | [Mandant: ✓] | [Dolmetscher: Name/Sprache oder –]
+**Beteiligte:** [Studentenr: Name/Kürzel] | [Anleiter: ✓ anwesend / – nicht anwesend] | [Mandant: ✓] | [Dolmetscher: Name/Sprache oder –]
 **Gegenüber:** [Jobcenter Mitte Berlin | BAMF Bremen | VG Berlin | Mandant direkt | Sonstiges: ]
 **Thema:** [Kurzbeschreibung, 1–2 Sätze]
 
@@ -77,7 +87,7 @@ Lückenlose Dokumentation aller Kontakte in einem Mandat ist aus mehreren Gründ
 | [z. B. Widerspruch SGB II] | [TT.MM.JJJJ] | [offen] |
 
 **Nächste Schritte:**
-1. [Aktion – verantwortlich: Studierender / Anleiter – bis: TT.MM.JJJJ]
+1. [Aktion – verantwortlich: Studentenr / Anleiter – bis: TT.MM.JJJJ]
 2. …
 
 **Verschwiegenheitshinweis:** Dieser Eintrag enthält vertrauliche Mandantendaten (§ 203 StGB, § 43a BRAO). Kein Zugang für Externe.
@@ -126,19 +136,12 @@ Wenn ja: sofortige Benachrichtigung des Anleiters empfehlen.
 
 Strukturierter Logeintrag nach obigem Format. Immer mit Verschwiegenheitshinweis. Immer mit offenem Fristenstatus.
 
-## Ausgabeformat
-
-Markdown-Tabellen für Fristen. Bullet-Lists für Inhalt. Standardformat wie oben. Kein Fließtext-Protokoll – Bullets und Tabellen sind beim Semesterübergabe-Scan leichter zu lesen.
-
-Jede Ausgabe trägt:
-> **[INTERNES DOKUMENT – Vertraulich nach § 43a BRAO / § 203 StGB. Nicht für Mandanten oder Dritte bestimmt.]**
-
 ## Beispiel
 
 ### Eintrag 3 – 14.01.2025 14:30
 
 **Art:** telefonisch
-**Beteiligte:** Studierende: AS | Anleiter: – | Mandant: ✓ | Dolmetscher: Hamid Y. (Dari)
+**Beteiligte:** Studenten: AS | Anleiter: – | Mandant: ✓ | Dolmetscher: Hamid Y. (Dari)
 **Gegenüber:** Mandant direkt
 **Thema:** Besprechung Widerspruchsergebnis Jobcenter – Bescheid vom 10.01.2025 erhalten
 

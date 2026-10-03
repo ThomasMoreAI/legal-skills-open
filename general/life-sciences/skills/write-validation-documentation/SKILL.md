@@ -5,11 +5,11 @@ description: Write IQ/OQ/PQ validation documentation for computerized systems in
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/wenyan-ultra/skills/write-validation-documentation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: life-sciences
-language: zh
+language: en
 ---
 
 # 書驗文

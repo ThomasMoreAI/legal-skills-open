@@ -5,11 +5,18 @@ description: 表格审查——一行一文件，一列一数据点，每个单�
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/corporate-legal/skills/tabular-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate
 language: zh
+sources:
+- title: Excel output
+  path: references/excel-output.md
+- title: Gsheets output
+  path: references/gsheets-output.md
+- title: Ma diligence columns
+  path: references/ma-diligence-columns.md
 ---
 
 # /tabular-review

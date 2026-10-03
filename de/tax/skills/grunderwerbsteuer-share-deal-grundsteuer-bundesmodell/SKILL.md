@@ -1,0 +1,66 @@
+---
+name: grunderwerbsteuer-share-deal-grundsteuer-bundesmodell
+title: Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG
+description: 'Für Grunderwerbsteuer beim Share Deal — Paragraf 1 Abs. 2a 2b 3 3a GrEStG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: grunderwerbsteuer-share-deal-grundsteuer-bundesmodell.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/grunderwerbsteuer-share-deal-grundsteuer-bundesmodell
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG
+
+## Arbeitsbereich
+
+Praxis-Skill zu Grunderwerbsteuer-Tatbestaenden bei Anteilsuebertragungen — Änderung des Gesellschafterbestands § 1 Abs. 2a Personengesellschaft § 1 Abs. 2b Kapitalgesellschaft und § 1 Abs. 3 § 1 Abs. 3a GrEStG. Anwendungsfall M und A-Transaktion mit Immobilienvermoegen — Grunderwerbsteuer-Folge soll vor Closing geklaert werden. Behandelt Beteiligungsschwelle 90 Prozent Beobachtungszeitraum zehn Jahre und Folgewirkung auf den Festschreibungspreis. Output Prüfraster und Anzeigeschreiben § 19 GrEStG. Abgrenzung zu fa-stu-bewertung-immobilien-bewg. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Grunderwerbsteuer beim Share Deal — § 1 Abs. 2a 2b 3 3a GrEStG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Liegt eine grundstuecksbesitzende Gesellschaft vor — Beteiligungsstruktur und Immobilienwert?
+2. Welche Schwelle wird ueberschritten (§ 1 Abs. 2a Personengesellschaft 90 Prozent in zehn Jahren; § 1 Abs. 2b KapGes 90 Prozent in zehn Jahren)?
+3. Greift Konzernklausel § 6a GrEStG mit Vor- und Nachbehaltensfrist?
+4. Ist die Anzeige § 19 GrEStG binnen zwei Wochen erfolgt?
+5. Welche Steuerlast ergibt sich nach Bemessungsgrundlage § 8 GrEStG?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 1 GrEStG** — steuerbare Erwerbsvorgaenge.
+- **§ 6a GrEStG** — Konzernklausel.
+- **§ 8 GrEStG** — Bemessungsgrundlage.
+- **§ 17 GrEStG** — gesonderte Feststellung Grundlagen.
+- **§ 19 GrEStG** — Anzeigepflicht.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 1 GrEStG · § 6a GrEStG · § 8 GrEStG · § 17 GrEStG · § 19 GrEStG · § 11 GrEStG (Steuersatz)
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

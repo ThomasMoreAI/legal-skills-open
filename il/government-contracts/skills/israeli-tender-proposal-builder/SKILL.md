@@ -5,19 +5,19 @@ description: Builds a complete Hebrew proposal package for Israeli government an
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-tender-proposal-builder
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: government-contracts
 language: en
 sources:
-- title: Domain Checklist
+- title: Domain checklist
   path: references/domain-checklist.md
-- title: Mandatory Declarations
+- title: Mandatory declarations
   path: references/mandatory-declarations.md
-- title: Tender Types
+- title: Tender types
   path: references/tender-types.md
-- title: Threshold Conditions
+- title: Threshold conditions
   path: references/threshold-conditions.md
 ---
 

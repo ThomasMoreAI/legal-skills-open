@@ -1,0 +1,58 @@
+---
+name: franchise-marken-ip-mindestumsatz
+title: Franchise Marken Ip Lizenzierung
+description: 'Für Franchise Marken Ip Lizenzierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/franchiserecht-praxis/skills/franchise-marken-ip-mindestumsatz
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: commercial
+language: de
+---
+
+# Franchise Marken Ip Lizenzierung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: GWB §§ 1, 2, 18, 19, 20, 33, 35, 36, AEUV Art. 101, 102, FKVO 139/2004; BGB §§ 311 ff., 305 ff., HGB §§ 84 ff., MarkenG, EU-Vertikal-GVO 2022/720, WettbR — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Markenlizenz
+
+- Lizenz zur Nutzung der Marke des Franchisegebers.
+- Qualitaetskontrolle durch Franchisegeber als Lizenzbedingung.
+- Eintragung der Lizenz im Markenregister (§ 30 MarkenG) optional.
+
+## Trade Dress
+
+- Schutz des einheitlichen Erscheinungsbilds (Farben, Logo, Innenarchitektur).
+- § 4 Nr. 3 UWG (Ergaenzender wettbewerbsrechtlicher Leistungsschutz).
+
+## Know-How-Schutz
+
+- GeschGehG seit 2019.
+- Vertraulichkeitsklauseln zwingend.
+- Postvertragliche Schweigepflicht.
+
+## Software-Lizenz
+
+- Software für Kassensysteme, Lagerverwaltung, CRM.
+- AGB-rechtliche Prüfung der Lizenzbedingungen.
+
+## Postvertragliche Pflichten
+
+- Rueckgabe / Loeschung der Marke und Trade Dress.
+- Wettbewerbsverbot für Know-How-Nutzung.
+
+## Prüfraster
+
+1. Markenrecht eingetragen?
+2. Lizenzumfang klar?
+3. Qualitaetskontrolle wirksam?
+4. Know-How-Schutz?
+5. Postvertragliche Pflichten?

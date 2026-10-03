@@ -8,9 +8,9 @@ Jurisdiction: `pl` · Practice: `tax` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`applying-skarbowy-procedures`](skills/applying-skarbowy-procedures/) | Use when navigating urząd skarbowy / KAS — NIP (NIP-2/7/8, CEIDG), VAT-R, czynny żal (art. 16 KKS), korekta… |
+| [`law-pl-applying-skarbowy-procedures`](skills/applying-skarbowy-procedures/) | Use when navigating urząd skarbowy / KAS — NIP (NIP-2/7/8, CEIDG), VAT-R, czynny żal (art. 16 KKS)… |
 | [`Poland Tax`](skills/poland-tax-xopoko/) | Poland tax. Use for PIT, tax-residence orientation, tax identifiers, e-Tax Office, or official filing routes. |
-| [`Verify a Polish company (skanfirmy.pl)`](skills/skill-bartosz-kuc/) | Verify Polish companies and contractors by NIP, KRS, or REGON; check VAT status and bank accounts against the… |
+| [`Verify a Polish company (skanfirmy.pl)`](skills/skill-bartosz-kuc/) | Verify Polish companies and contractors by NIP, KRS, or REGON; check VAT status and bank accounts… |
 
 ## Cold-start context
 

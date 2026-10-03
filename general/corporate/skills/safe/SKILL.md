@@ -1,11 +1,11 @@
 ---
 name: safe
 title: safe
-description: Draft and fill Y Combinator SAFE templates — valuation cap, discount, MFN, pro rata side letter. Standard startup fundraising documents for convertible equity. Produces signable DOCX files. Use when user says "SAFE," "simple agreement for future equity," "YC SAFE," "valuation cap," "seed round documents," or "fundraising paperwork."
+description: Draft and fill Y Combinator SAFE contract templates — valuation cap, discount, MFN, pro rata side letter. Standard startup fundraising documents for convertible equity. Produces signable DOCX files. Use when user says "SAFE," "simple agreement for future equity," "YC SAFE," "valuation cap," "seed round documents," or "fundraising paperwork." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/safe
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/safe
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate
@@ -13,6 +13,10 @@ language: en
 ---
 
 # safe
+
+This is the SAFE-focused spoke of the `open-agreements` hub. Use
+`open-agreements` for mixed agreement work or when the agreement type is not yet
+clear.
 
 Draft and fill Y Combinator SAFE (Simple Agreement for Future Equity) templates to produce signable DOCX files.
 
@@ -108,6 +112,21 @@ Multiple SAFEs can be used in the same round (e.g., valuation cap SAFE + pro rat
 - `yc-safe-pro-rata-side-letter` — Pro Rata Side Letter (Y Combinator)
 
 Use `list_templates` (MCP) or `list --json` (CLI) for the latest inventory and field definitions.
+
+## Review checklist
+
+This skill ships a **bundled, offline copy** of the YC post-money SAFE
+(valuation cap) review checklist — a requirement-by-requirement guide for
+reviewing a filled SAFE against the standard Y Combinator form. It travels with
+the skill, so it works without a network call:
+
+- [`content/yc-post-money-safe-valuation-cap.md`](./content/yc-post-money-safe-valuation-cap.md) — human-readable checklist
+- [`content/yc-post-money-safe-valuation-cap.json`](./content/yc-post-money-safe-valuation-cap.json) — machine-readable twin
+
+Use it to walk through a SAFE clause by clause after filling. The live canonical
+version is at `https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap`
+(append `.md` or `.json` for the twins). The checklist is general legal
+information, not legal advice.
 
 ## Notes
 

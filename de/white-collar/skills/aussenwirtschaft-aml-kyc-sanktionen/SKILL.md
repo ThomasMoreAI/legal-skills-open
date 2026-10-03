@@ -1,11 +1,11 @@
 ---
 name: aussenwirtschaft-aml-kyc-sanktionen
 title: AML, KYC und Sanktions-Compliance
-description: Verknuepft GwG-Risikoanalyse KYC Sanktionsscreening und interne Kontrollpflichten im Aussenhandel. Anwendungsfall Exporteur oder Haendler braucht integriertes AML- und Sanktions-Compliance-System für grenzüberschreitende Geschäfte. Normen GwG § 5 Risikoanalyse EU-Sanktionsverordnungen AWG § 34 Aussenwirtschaftsstrafrecht. Prüfraster GwG-Risikoanalyse wirtschaftlich Berechtigte KYC Sanktionsscreening Transaktionsmonitoring Schulungen Kontrollen. Output Integriertes Compliance-Handbuch mit Risikomatrix KYC-Prozess Screening-Protokoll und Schulungsplan. Abgrenzung zu aussenwirtschaft-sanktionen-embargos und geldwäsche-praevention-aml-kyc-Plugin.
+description: 'Für AML, KYC und Sanktions-Compliance: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-aml-kyc-sanktionen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
@@ -69,10 +69,6 @@ Kläre vor der Pruefung:
 4. Liegt ein Sorgfaltspflichten-Treffer nach § 10 GwG (vereinfacht, standard, verstaerkt) vor?
 5. Wurde eine Verdachtsmeldung nach § 43 GwG bereits abgegeben oder ist sie erforderlich?
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Normen-Kette AML/KYC/Sanktionen
 
 - §§ 10-14 GwG — Kundensorgfaltspflichten (KYC), vereinfachte, standard, verstaerkte
@@ -117,3 +113,5 @@ Bearbeiter: [NAME]
    [ ] Geschaftsbeziehung abgelehnt / beendet — Grundlage: § [GwG / AWG]
    [ ] Erhoehte laufende Ueberwachung angeordnet
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

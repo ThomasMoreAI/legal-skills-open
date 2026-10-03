@@ -1,11 +1,11 @@
 ---
 name: verjaehrung-bereicherung-anfechtung-fristen
 title: 'Verjährung: Bereicherung, AnfG und InsO-Anfechtung'
-description: 'Verjährung und Anfechtungsfristen trennen: § 195 und § 199 BGB für Bereicherung, § 15 AnfG, § 146 InsO mit Verweis auf regelmäßige BGB-Verjährung. Prüft Fristbeginn, Kenntnis, grob fahrlässige Unkenntnis, Hemmung, Anfechtungszeiträume §§ 130-135 InsO und keine pauschale Zehn-Jahres-Grenze ab Rechtshandlung.'
+description: 'Für Verjährung: Bereicherung, AnfG und InsO-Anfechtung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/verjaehrung-bereicherung-anfechtung-fristen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -26,19 +26,6 @@ language: de
 
 § 195 BGB (Regelverjährung drei Jahre) — § 199 BGB (Verjährungsbeginn und Höchstfristen) — §§ 203–213 BGB (Verjährungshemmung) — § 15 AnfG (Verjährung AnfG-Anspruch) — § 146 InsO (Verjährung InsO-Anfechtung) — §§ 3, 4 AnfG (Anfechtungsfristen zehn / vier Jahre) — §§ 130–135 InsO (Anfechtungszeiträume)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Übersicht Verjährungsfristen
 
 | Anspruchsgrundlage | Verjährungsfrist | Beginn | Absolute Grenze |
@@ -92,3 +79,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-migrationsrecht-orientierung
 title: Fachanwalt für Migrationsrecht — Orientierung
-description: 'Anwalt will ueberblicken welche Normen und Mandate das Migrationsrecht umfasst oder Fachanwaltschaft vorbereiten. Orientierung AufenthG AsylG GFK Genfer Fluechtlingskonvention 1951 Dublin-VO EU-Verfahrens-RL Qualifikations-RL 2011/95 StAG Einbuergerung. Notfristen § 36 AsylG ein-Wochen-Frist bei ablehnenden BAMF-Bescheiden § 74 AsylG zwei-Wochen-Klagefrist. FAO-Voraussetzungen Normen typische Mandate verifizierbare Quellen. Output Orientierungs-Übersicht mit Norm-Landkarte und Routing zu Spezial-Skills. Abgrenzung: mandat-triage-migrationsrecht für konkreten Mandats-Einstieg.'
+description: 'Für Fachanwalt für Migrationsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/fachanwalt-migrationsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: immigration
@@ -137,12 +137,11 @@ Datum: [DATUM]
    Beratungshilfe: [ja / nein]
 ```
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Fehler: Skill behauptete das Urteil betreffe AsylRL/DublinVO — falsch.
-Tatsaechlicher Gegenstand: ne bis in idem (Art. 50 GRCh) im Steuerstrafrecht
-(Steuerhinterziehung, Doppelbestrafung durch steuerliche und strafrechtliche Sanktionen).
-Der allgemeine Grundsatz zu Art. 51 GRCh (Anwendungsbereich der Charta) ist korrekt
-und fuer das Migrationsrecht methodisch relevant; Urteil verifiziert auf
-dejure.org/2013,2363 (NJW 2013, 1415).
--->
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

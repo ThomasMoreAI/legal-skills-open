@@ -7,3 +7,9 @@ Plugin `az-data-protection`. Skills live under `skills/<slug>/SKILL.md`.
 - [`azerbaijan-eu-website-privacy-compliance-audit-mirza-chiragov`](skills/azerbaijan-eu-website-privacy-compliance-audit-mirza-chiragov/) —
   website privacy audit under Law 998-IIIQ with EU GDPR / ePrivacy overlay for EU-targeted
   sites.
+
+## Skills (1)
+
+| Skill | What it does |
+|---|---|
+| [`Azerbaijan + EU Website Privacy Compliance Audit`](skills/azerbaijan-eu-website-privacy-compliance-audit-mirza-chiragov/) | Audits a website for compliance with Azerbaijan's Law on Personal Data No. 998-IIIQ and, where… |

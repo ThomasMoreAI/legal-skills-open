@@ -1,26 +1,29 @@
 ---
 name: ampelsystem-tabellenausgabe
 title: Ampelsystem-Tabellenausgabe
-description: Erstellt die standardisierte Ampel-Ausgabetabelle für analysierte Arbeitszeugnisse. Anwendungsfall Zeugnisanalyse ist abgeschlossen und Ergebnis soll in einheitlicher Tabelle mit Satz Ampel Bewertung Notentendenz und Begründung dargestellt werden. Vereinheitlicht Output aller Analyse-Skills für Mandantenbericht und Klagebegründung. Output strukturierte Ampeltabelle als Grundlage für mandantenbericht-zeugnisanalyse und klage-strategie-zeugnisberichtigung.
+description: 'Für Ampelsystem-Tabellenausgabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/ampelsystem-tabellenausgabe
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Ampelsystem-Tabellenausgabe
 
-Dieser Skill definiert das Standardausgabeformat für die vollständige Zeugnis-Analyse. Er sammelt die Ergebnisse der einzelnen Analyse-Skills und bringt sie in eine einheitliche, gut lesbare Tabellenstruktur. Das Ampelsystem (Rot/Orange/Grün) macht den Befund auf einen Blick sichtbar und erlaubt eine schnelle Orientierung über die Qualität des Zeugnisses.
+## Fachlicher Anker
 
-Die Haupttabelle enthält für jeden notenrelevanten Satz fünf Spalten: den Satz (als Zitat oder Kurzform), die Ampelfarbe (Grün/Orange/Rot), die Bewertung (Note 1 bis Note 5), die Notentendenz (aufwärts/stabil/abwärts im Gesamtkontext), und eine kurze Begründung (welches Schlüsselwort oder welche Auslassung das Signal ausgelöst hat). Nicht-notenrelevante Sätze wie die Aufgabenbeschreibung erscheinen in einer separaten Übersichtstabelle als "neutral".
-
-Die Farbcodierung folgt festen Regeln: Grün steht für Note 1 und Note 2, Orange für Note 3, Rot für Note 4 und Note 5. Bei gemischten Signalen (z. B. ein Satz mit grüner Leistungsaussage und orangem Abschluss) wird der Satz als Orange gewertet — schwächstes Element bestimmt die Farbe.
-
-Die Gesamtbewertung am Ende der Tabelle fasst die Ampelverteilung zusammen: Anzahl grüner, oranger und roter Sätze, gewichteter Durchschnitt (Leistung mit höherem Gewicht als Verhaltensdetails), und die sich ergebende Gesamtnote als Spanne (z. B. "Note 2 bis Note 3"). Die Spanne ist wichtiger als eine einzelne Zahl, weil Zeugnisse selten exakt eine Note entsprechen.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -55,24 +58,31 @@ Die Gesamtbewertung am Ende der Tabelle fasst die Ampelverteilung zusammen: Anza
 
 **Beispiel 3 – Gesamtzusammenfassung:** Grüne Sätze: 4 / Orange Sätze: 2 / Rote Sätze: 1 → Gewichtete Gesamtnote: Note 2 bis 3. Empfehlung: Nachverhandlung des roten Satzes und eines orangen Satzes sinnvoll.
 
-## Ausgabeformat
-
-Die Ausgabe umfasst: (1) Übersichtstabelle aller Sätze mit Ampelzuordnung, (2) separate Tabelle der Auslassungen, (3) Ampel-Zusammenfassung (Anzahl je Farbe), (4) Gesamtnoten-Spanne, (5) Handlungsempfehlung (Zeugnis akzeptieren / Nachverhandlung empfehlen / Klage prüfen).
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes Zeugnis; Wohlwollensgebot und Wahrheitspflicht
-- **§ 109 Abs. 2 GewO** — Zeugnis muss klar und verständlich formuliert sein; Codierungen, die Fortkommen erschweren, verstoßen gegen Wohlwollensgebot
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes Zeugnis; Wohlwollensgebot und Wahrheitspflicht
+- **Paragraf 109 Abs. 2 GewO** — Zeugnis muss klar und verständlich formuliert sein; Codierungen, die Fortkommen erschweren, verstoßen gegen Wohlwollensgebot
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage — vor der Tabellenausgabe klären
 
 1. Welche Analyse-Skills wurden bereits ausgeführt? (Leistungsbeurteilung, Verhaltensbeurteilung, Schlussformel)
 2. Liegt ein vollständiges Zeugnisdokument vor oder nur Auszüge?
 3. Ist das Ziel: Mandantenbericht, Klageantrag-Vorbereitung oder interne Einschätzung?
+
+
+## Ampel-Symbol-Disziplin
+
+**Die Ampel wird grafisch gesetzt, nicht als Farbwort geschrieben.** In jeder Ausgabe gilt:
+
+- 🔴 = Rot (Note 4-6, Negativcode, dringender Berichtigungspunkt)
+- 🟠 = Orange (Note 3, Abschwaechung, Verhandlungspunkt) - bei Darstellungsproblemen: 🟡
+- 🟢 = Gruen (Note 1-2, unbedenklich)
+
+Regeln:
+
+1. In Matrizen, Tabellen und Fliesstext immer das **farbige Ampelsymbol** setzen ("🔴"), nicht "Rot". Die Farbwoerter in internen Katalogtabellen sind Kodierung - in der Nutzerausgabe erscheinen Symbole.
+2. In reiner ASCII-Umgebung ersatzweise `[ROT]`, `[ORANGE]`, `[GRUEN]` in Grossbuchstaben.
+3. Im **Hauptbefund** zusaetzlich eine Ampel-Bilanz-Zeile ausgeben: `Ampel-Bilanz: 🔴 4 · 🟠 3 · 🟢 5`.
+4. Mischbefunde als Doppelsymbol: 🟢🟠.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

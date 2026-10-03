@@ -1,26 +1,29 @@
 ---
 name: orange-flaggen-katalog
 title: Orange-Flaggen-Katalog
-description: 'Katalog schwacher positiver Formulierungen im Arbeitszeugnis, die auf Note 3 hindeuten. Umfasst alle Orange-Signale: fehlende Steigerungsadverbien, eingeschränkte Lobesformeln und strukturelle Abschwächungen mit Notentendenz Note 3.'
+description: 'Für Orange-Flaggen-Katalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/orange-flaggen-katalog
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Orange-Flaggen-Katalog
 
-Orange Flaggen sind Formulierungen, die zwar positiv klingen, aber deutlich unterhalb der Spitzennote liegen. Sie deuten auf eine befriedigende bis ausreichende Leistung hin — also Note 3, in manchen Kontexten auch Note 3 zu 4. Orange Signale sind besonders wichtig zu erkennen, weil sie bei flüchtiger Lektüre als gut erscheinen, in der Praxis aber eine mittelmäßige Beurteilung darstellen.
+## Fachlicher Anker
 
-Das zentrale Merkmal oranger Formulierungen ist das Fehlen von Steigerungsadverbien: "zur vollen Zufriedenheit" (ohne "stets") ist Orange; "gute Fachkenntnisse" (ohne "sehr gute" oder "hervorragende") ist Orange; "engagiert" (ohne "stets" oder "außerordentlich") ist Orange. Das Muster ist stets gleich: Die positive Grundaussage ist vorhanden, aber die Steigerung fehlt.
-
-Weitere orange Signale entstehen durch einschränkende Adverbien, die die Leistung relativieren: "überwiegend", "in der Regel", "im Allgemeinen" oder "meistens". Diese Wörter klingen nach einer Erläuterung, sind aber in der Zeugnispraxis als Einschränkungen kodiert, die eine Note-3-Beurteilung markieren.
-
-Orange Signale treten auch strukturell auf: Ein Zeugnis, das alle Bausteine enthält, aber keinen einzigen Superlativ und kein einziges "stets" verwendet, ist in seiner Gesamtheit orange — eine befriedigende Gesamtbeurteilung ohne herausragende Einzelaspekte.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -48,15 +51,18 @@ Orange Signale treten auch strukturell auf: Ein Zeugnis, das alle Bausteine enth
 
 **Beispiel 5 – Integration statt Teamstärke:** "Frau Bauer hat sich gut in unser Team integriert und war kollegial." — Integration als passive Formulierung statt aktiver Teamstärke → Orange.
 
-## Ausgabeformat
-
-Der Skill listet alle orange Signale mit Zitat, Signaltyp (fehlende Steigerung/Einschränkungsadverb/strukturelle Abschwächung) und Notentendenz. Er gibt außerdem an, welche Formulierung stattdessen eine grüne Bewertung ergeben hätte.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Empfaengerhorizont, Grenzen der Decodierung)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

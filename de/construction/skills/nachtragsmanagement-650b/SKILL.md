@@ -1,18 +1,44 @@
 ---
 name: nachtragsmanagement-650b
-title: Nachtragsmanagement § 650b BGB
-description: 'Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Aenderungsanordnung. Normen: §§ 650b 650c BGB, §§ 1 2 VOB/B. Prüfraster: Aenderungsanordnung, Mehr- oder Minderkosten, Ankündigungspflicht, Verhandlung. Output: Nachtragsbegründung und Preisanpassungsrechnung. Abgrenzung: nicht Bauzeitverzoegerung.'
+title: 'Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung'
+description: 'Für Nachtragsmanagement 650b: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills/nachtragsmanagement-650b
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: construction
 language: de
 ---
 
-# Nachtragsmanagement § 650b BGB
+# Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung
+
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Nachtragsforderungen des Unternehmers nach § 650b BGB anmelden: Mehrverguetung bei Änderungsanordnung. Normen: §§ 650b 650c BGB, §§ 1 2 VOB/B. Prüfraster: Änderungsanordnung, Mehr- oder Minderkosten, Ankündigungspflicht, Verhandlung. Output: Nachtragsbegründung und Preisanpassungsrechnung. Abgrenzung: nicht Bauzeitverzoegerung.
+
+### Nachtragsmanagement § 650b BGB
 
 ## Mandantenfragen beim Kaltstart
 
@@ -24,7 +50,7 @@ language: de
 6. Wurde Behinderungsanzeige nach § 6 Abs. 1 VOB/B / analog § 642 BGB rechtzeitig gestellt?
 7. Gibt es Kalkulationsunterlagen aus dem Ursprungsangebot für die Kostenbasis nach § 2 Abs. 5 VOB/B?
 8. Besteht Eilbedürftigkeit — drohende Insolvenz Auftraggeber, Fertigstellungstermin überschritten, Subunternehmer unter Zeitdruck?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -46,18 +72,17 @@ language: de
 
 ## Leitentscheidungen (Stand 05/2026)
 
-Wichtige Linien (jedes Aktenzeichen vor Ausgabe ueber dejure.org / bundesgerichtshof.de mit Datum und Norm verifizieren):
+Wichtige Linien (jedes Aktenzeichen vor Ausgabe über dejure.org / bundesgerichtshof.de mit Datum und Norm verifizieren):
 
-- BGH VII. Zivilsenat: Mehrvergütung VOB/B § 2 Abs. 5 / Abs. 6 — Tendenz seit 2019 zur Berechnung auf Grundlage der tatsaechlich erforderlichen Kosten zuzueglich angemessener Zuschlaege (Aufgabe einer rein „vorkalkulatorischen" Preisfortschreibung). Konkretes Eckurteil (BGH 08.08.2019) vor Ausgabe ueber bundesgerichtshof.de mit Aktenzeichen verifizieren.
+- BGH VII. Zivilsenat: Mehrvergütung VOB/B § 2 Abs. 5 / Abs. 6 — Tendenz seit 2019 zur Berechnung auf Grundlage der tatsaechlich erforderlichen Kosten zuzueglich angemessener Zuschlaege (Aufgabe einer rein „vorkalkulatorischen" Preisfortschreibung). Konkretes Eckurteil (BGH 08.08.2019) vor Ausgabe über bundesgerichtshof.de mit Aktenzeichen verifizieren.
 - BGH zum BGB-Bauvertrag § 650c BGB seit 2018: Berechnung der Mehrverguetung primaer kostenorientiert (tatsaechliche Selbstkosten + AGK + WuG); Wahlrecht des AN auf Urkalkulationsabgleich nur bei nachgewiesenem Auseinanderfallen — vor Ausgabe konkrete Entscheidung verifizieren.
-- Behinderungsanzeige § 6 VOB/B: stehende Rspr. fordert konkrete Behinderungsursache, Beginn und voraussichtliche Dauer; Pauschalhinweis genuegt nicht — OLG-Linien siehe oeffentliche Entscheidungsdatenbanken der OLG (z. B. olg-duesseldorf.nrw.de).
+- Behinderungsanzeige § 6 VOB/B: stehende Rspr. fordert konkrete Behinderungsursache, Beginn und voraussichtliche Dauer; Pauschalhinweis genuegt nicht — OLG-Linien siehe öffentliche Entscheidungsdatenbanken der OLG (z. B. olg-duesseldorf.nrw.de).
 
-Live-Verifikation Pflicht ueber dejure.org / bundesgerichtshof.de / olg-...nrw.de bzw. die jeweilige Landesjustiz-Datenbank.
+Live-Verifikation Pflicht über dejure.org / bundesgerichtshof.de / olg-...nrw.de bzw. die jeweilige Landesjustiz-Datenbank.
 
 ## Prüfschema — Nachtragsanspruch im Überblick
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
-
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfpunkt | Norm | Folge |
 |---------|-----------|------|-------|
@@ -95,7 +120,6 @@ Live-Verifikation Pflicht ueber dejure.org / bundesgerichtshof.de / olg-...nrw.d
 - Anwendbar bei wirksam einbezogener VOB/B
 - Mehrvergütung bei Änderung des Bauentwurfs
 - Basis: Kalkulationsgrundlagen des ursprünglichen Angebots
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 2 — Vergütungsberechnung § 650c BGB
 
@@ -113,44 +137,43 @@ Live-Verifikation Pflicht ueber dejure.org / bundesgerichtshof.de / olg-...nrw.d
 Nachtragsposition — Selbstkostenkalkulation
 
 I. Lohnkosten
-   Stundenanzahl:        [X] h
-   Stundensatz brutto:   EUR [Y]/h (inkl. SV-Anteile + Zulagen)
-   Gesamt:               EUR [A]
+ Stundenanzahl: [X] h
+ Stundensatz brutto: EUR [Y]/h (inkl. SV-Anteile + Zulagen)
+ Gesamt: EUR [A]
 
 II. Materialkosten
-   Einkaufspreise:       EUR [B] netto
-   Lager-/Handlingszuschlag [5–10 %]: EUR [C]
-   Gesamt:               EUR [D]
+ Einkaufspreise: EUR [B] netto
+ Lager-/Handlingszuschlag [5–10 %]: EUR [C]
+ Gesamt: EUR [D]
 
 III. Gerätekosten
-   Mietkosten/AfA:       EUR [E] (Geräteliste)
-   Betriebskosten:       EUR [F]
-   Gesamt:               EUR [G]
+ Mietkosten/AfA: EUR [E] (Geräteliste)
+ Betriebskosten: EUR [F]
+ Gesamt: EUR [G]
 
 IV. Nachunternehmerkosten
-   NU-Angebot netto:     EUR [H]
-   Verwaltungszuschlag [5 %]: EUR [I]
-   Gesamt:               EUR [J]
+ NU-Angebot netto: EUR [H]
+ Verwaltungszuschlag [5 %]: EUR [I]
+ Gesamt: EUR [J]
 
 V. Allgemeine Geschäftskosten (AGK)
-   Prozentsatz aus Ursprungsangebot: [X]%
-   Basis: I+II+III+IV =  EUR [K]
-   AGK [X]%:             EUR [L]
+ Prozentsatz aus Ursprungsangebot: [X]%
+ Basis: I+II+III+IV = EUR [K]
+ AGK [X]%: EUR [L]
 
 VI. Wagnis und Gewinn (WuG)
-   Prozentsatz aus Ursprungsangebot: [X]%
-   WuG:                  EUR [M]
+ Prozentsatz aus Ursprungsangebot: [X]%
+ WuG: EUR [M]
 
-GESAMTNETTO:              EUR [Summe]
-USt 19%:                  EUR [Summe]
-GESAMTBRUTTO:             EUR [Summe]
+GESAMTNETTO: EUR [Summe]
+USt 19%: EUR [Summe]
+GESAMTBRUTTO: EUR [Summe]
 ```
 
 ### Massenänderung VOB/B § 2 Abs. 7
 
 - Bei > 10 % Mengenabweichung einer Position: Preisanpassungsrecht
 - Auf Antrag einer der Parteien
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 3 — 80-Prozent-Abrechnungsrecht § 650c Abs. 3 BGB
 
@@ -180,7 +203,6 @@ GESAMTBRUTTO:             EUR [Summe]
 
 **Ohne Behinderungsanzeige:**
 - Anspruch auf Bauzeitverlängerung entfällt (§ 6 Abs. 1 Satz 2 VOB/B)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Schadenersatzanspruch § 6 Abs. 6 VOB/B bleibt bei Verschulden AG bestehen
 
 **§ 642 BGB — Annahmeverzug (BGB-Vertrag):**
@@ -204,13 +226,13 @@ GESAMTBRUTTO:             EUR [Summe]
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Nachtragsanspruch nach § 650b BGB oder VOB/B geltend machen | Fuenfstufiges Schema; Bausteine unten |
 | Variante A — Auftraggeber bestreitet Anordnung | 80-Prozent-Abrechnungsrecht § 650c Abs. 3 BGB nutzen |
-| Variante B — Streit ueber Vergaetungshoehe | Kalkulations-Methode OffMat-Vergleich; Gerichtsgutachten antizipieren |
+| Variante B — Streit über Vergaetungshoehe | Kalkulations-Methode OffMat-Vergleich; Gerichtsgutachten antizipieren |
 | Variante C — eilige Bauzeitverlaengerung noetig | Gerichtlicher Eilantrag § 650d BGB; kurzfristig stellen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
@@ -233,12 +255,12 @@ folgende Behinderung der Bauausführung an:
 
 I. Sachverhalt
 Beginn der Behinderung: [Datum, Uhrzeit]
-Ursache:                [konkrete Beschreibung — z.B. fehlende
-                         Planlieferung Ausführungsplan Nr. XX,
-                         nicht fertiggestelltes Vorgewerk Gewerk Y,
-                         Anordnung Auftraggeber vom [Datum]]
-Betroffenes Gewerk:     [Bezeichnung]
-Auswirkung:             Vollständiger Stillstand / Teilstillstand
+Ursache: [konkrete Beschreibung — z.B. fehlende
+ Planlieferung Ausführungsplan Nr. XX,
+ nicht fertiggestelltes Vorgewerk Gewerk Y,
+ Anordnung Auftraggeber vom [Datum]]
+Betroffenes Gewerk: [Bezeichnung]
+Auswirkung: Vollständiger Stillstand / Teilstillstand
 
 II. Voraussichtliche Folgen
 1. Bauzeitverlängerung voraussichtlich [Anzahl] Werktage (§ 6 Abs. 2 VOB/B)
@@ -272,15 +294,15 @@ Anlass:
 Kalkulationsgrundlage: Selbstkosten nach § 650c Abs. 1 BGB
 [alternativ: Kalkulationsgrundlage Ursprungsangebot nach § 2 Abs. 5 VOB/B]
 
-Pos. | Leistungsbeschreibung        | Menge  | Einheit | EP (EUR) | GP (EUR)
+Pos. | Leistungsbeschreibung | Menge | Einheit | EP (EUR) | GP (EUR)
 -----|------------------------------|--------|---------|----------|----------
-001  | [Beschreibung Mehrleistung]  | [X]    | [m²/h]  | [Y]      | [Z]
-002  | [Beschreibung Mehrleistung]  | [X]    | [Stk]   | [Y]      | [Z]
+001 | [Beschreibung Mehrleistung] | [X] | [m²/h] | [Y] | [Z]
+002 | [Beschreibung Mehrleistung] | [X] | [Stk] | [Y] | [Z]
 ...
 
-Gesamtnetto:         EUR [Summe]
-Umsatzsteuer 19%:    EUR [Summe]
-Gesamtbrutto:        EUR [Summe]
+Gesamtnetto: EUR [Summe]
+Umsatzsteuer 19%: EUR [Summe]
+Gesamtbrutto: EUR [Summe]
 
 Bauzeitverlängerung: [Anzahl] Werktage gemäß anliegender Bauablaufanalyse.
 
@@ -290,11 +312,10 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 [Unterschrift Auftragnehmer]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
 
 ## Beweislast
 
@@ -322,11 +343,9 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 | Gegenargument Auftraggeber | Reaktion |
 |---------------------------|---------|
 | "Leistung war bereits im Vertrag enthalten" | LV-Analyse: Positionsbeschreibung, Leistungsverzeichnis — Abgrenzung zu tatsächlicher Mehrleistung |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Keine schriftliche Anordnung, nur mündlich" | Baubesprechungsprotokoll, E-Mail-Bestätigung als Beweis; bei VOB/B § 1 Abs. 4: auch konkludente Anordnung |
 | "80-Prozent-Abrechnung zu früh" | § 650c Abs. 3 BGB: 30 Tage Verhandlung oder Ablehnung genügt; keine weiteren Fristen |
 | "Behinderungsanzeige fehlte" | Offenkundigkeit der Behinderung entbindet von Anzeigepflicht; Dokumentation durch Bautagebuch |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -353,7 +372,6 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 | Bautagebuch | Täglich führen mit Unterschrift Bauleitung beider Seiten | Entscheidender Beweis für Behinderung und Kausalität |
 | 80-%-Recht | Bei stockenden Verhandlungen frühzeitig anwenden | Liquiditätssicherung; AG ist unter Zugzwang |
 | Eilantrag | Bei > EUR 50.000 Nachtragssumme und stockenden Verhandlungen | § 650d BGB als starkes Druckmittel |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -365,8 +383,9 @@ die 80-Prozent-Abrechnung nach § 650c Abs. 3 BGB vor.
 
 - BGB §§ 650a–650d, 650i–650v, 642
 - VOB/B §§ 1, 2, 6
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Werner/Pastor, Der Bauprozess, 16. Aufl.
-- Kniffka/Koeble, Kompendium des Baurechts, 5. Aufl.
+- Kniffka/Koeble, Fachüberblick des Baurechts, 5. Aufl.
 - Kapellmann/Schiffers, Vergütung und Bauablauf
 - Stand: 05/2026
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

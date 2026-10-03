@@ -1,0 +1,159 @@
+---
+name: eskalations-marker
+title: Eskalationsregeln
+description: 'Für Eskalationsregeln: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsrecht/skills/eskalations-marker
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Eskalationsregeln
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+
+1. Welcher Eskalationsauslöser liegt vor — Betrags-Schwelle, Klausel-Abweichung oder automatischer Auslöser?
+2. Auf welcher Seite steht das Unternehmen (Käufer oder Verkäufer) — welches Playbook gilt?
+3. Wer ist der konkrete Genehmiger laut Eskalationsmatrix (CLAUDE.md)?
+4. Bis wann muss eine Entscheidung vorliegen (Verhandlungsdeadline)?
+
+## Zentrale Normen
+
+- § 164 ff. BGB — Vertretung; Vollmacht; Vertretungsmacht
+- § 177 BGB — Genehmigung vollmachtlosen Handelns
+- § 311 Abs. 2 BGB — culpa in contrahendo (Vorvertragspflichten)
+- §§ 5-8 LkSG — Sorgfaltspflichten (Eskalationsauslöser bei Lieferkettenverstößen)
+- Art. 33, 34 DSGVO — Meldepflichten bei Datenpannen (Eskalationsauslöser)
+- § 43a Abs. 2 BRAO — anwaltliche Verschwiegenheitspflicht
+
+## Eingaben
+
+- Beschreibung des Problems (direkt oder Verweis auf Prüfvermerk)
+- Praxisprofil aus `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` → `## Eskalation`
+- Jahreswert/ACV des Vertrags (für Betrags-Schwellenwerte)
+
+## Akten-Kontext
+
+Falls Akten-Arbeitsbereiche aktiviert, aktive Akte prüfen. Ausgaben im Akten-Ordner speichern.
+
+## Ablauf
+
+### Schritt 1: Matrix laden
+
+`~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` → `## Eskalation` lesen. Falls fehlend oder vage: Hinweis, dass das Praxisprofil ergänzt werden muss.
+
+**Welche Seite?** Käufer- oder Verkäufer-Playbook bestimmt, ob ein Begriff innerhalb der Fallback-Positionen liegt oder eine automatische Eskalation auslöst. Seite im Entwurf vermerken.
+
+### Schritt 2: Problem einordnen
+
+Was wird eskaliert?
+
+- **Betrags-Schwelle:** Vertragswert übersteigt Genehmigungskompetenz
+- **Klausel-Abweichung:** Ein Begriff liegt außerhalb der Playbook-Fallback-Positionen; eine erfahrenere Person muss entscheiden, ob Akzeptanz gerechtfertigt ist
+- **Automatischer Eskalationsauslöser:** Immer-Eskalieren-Liste (z. B. unbegrenzte Haftung, IP-Abtretung, Datenschutzverstoß ohne Remediation, LkSG-Pflichtverletzung)
+- **Geschäftliche Entscheidung:** Keine Rechtsfrage, sondern ein Thema für den Business-Owner
+
+Dinge nicht eskalieren, die eigentlich in Ordnung sind. Wenn der Begriff innerhalb der Fallback-Positionen liegt, braucht er keine Eskalation.
+
+### Schritt 3: Genehmiger bestimmen
+
+Zutreffende Matrixzeile auswählen. Konkrete Person oder Rolle nennen – keine abstrakte "Führungsebene".
+
+### Schritt 4: Anfrage entwerfen
+
+Vorlage (immer verwenden):
+
+```markdown
+Betreff: Genehmigung erforderlich – [Vertrag] mit [Vertragspartner] – [Problembezeichnung]
+
+[Name],
+
+ich bitte um Genehmigung zu folgendem Vertragspunkt:
+
+**Vertrag:** [Bezeichnung und Vertragspartner]
+**ACV:** [Jahreswert]
+**Klausel / Problem:** [§ X – Kurzbezeichnung]
+
+**Was der Vertrag sagt:**
+> "[wörtliches Zitat der betroffenen Klausel]"
+
+**Was unser Playbook sagt:**
+[Standard-Position aus CLAUDE.md] / [Fallback-Position aus CLAUDE.md]
+
+**Warum das eskaliert:**
+[Ein Satz: Betrags-Schwelle / Abweichung außerhalb Fallback / automatischer Auslöser / Geschäftsentscheidung]
+
+**Risiko bei Akzeptanz ohne Änderung:**
+🔴/🟠/🟡 [Rechtliches Risiko] | 🔴/🟠/🟡 [Geschäftliche Reibung]
+[Konkrete Folge: z. B. "Unbegrenzte Haftung für Datenpannen; typischer Schaden bei mittelgroßem Verstoß XXX EUR"]
+
+**Optionen:**
+
+1. **Akzeptieren** – [Bedingung oder unkonditioniert]
+ Konsequenz: [was das bedeutet, z. B. "unbegrenzte Haftung bleibt bestehen; kein Deckungsschutz D&O"]
+
+2. **Verhandeln** – Redline: [konkrete Formulierung]
+ Verhandlungsspielraum: [einschätzen, ob Markt-Standard / Gegenseite wird wahrscheinlich...]
+
+3. **Ablehnen** – [Begründung gegenüber Gegenseite]
+
+**Empfehlung:** Option [N] – [ein Satz Begründung]
+
+**Entscheidung bis:** [Datum] (Verhandlungsdeadline oder Vertragsabschluss-Termin)
+
+Bei Rückfragen stehe ich gerne zur Verfügung.
+
+[Absender]
+```
+
+### Schritt 5: Nicht versenden
+
+Entwurf anzeigen, Anwalt sendet. Niemals ohne ausdrückliche Bestätigung absenden.
+
+```markdown
+## Eskalation: [Vertrag] mit [Vertragspartner] – [Klausel]
+
+**Eskalationsgrund:** [Betrags-Schwelle / Klausel-Abweichung / Automatischer Auslöser / Geschäftsentscheidung]
+**Genehmiger:** [Person/Rolle aus CLAUDE.md]
+**Kontaktweg:** [Slack / E-Mail / Meeting]
+**Seite:** [Käufer/Verkäufer – welches Playbook wurde angewendet]
+
+---
+
+[Entwurf der Genehmigungsanfrage gemäß Vorlage oben]
+
+---
+
+⚠️ Prüfer-Hinweis: Vor dem Versand prüfen, ob der Entwurf die Sachlage korrekt wiedergibt und keine privilegierten Informationen unbeabsichtigt preisgibt.
+```
+
+## Quellen und Zitierweise
+
+Zitierweise nach `../references/zitierweise.md`.
+
+Relevante Normen:
+- § 164 ff. BGB – Vertretungsmacht; Vollmacht
+- § 177 BGB – Genehmigung vollmachtlosen Handelns
+- § 43a Abs. 2 BRAO – anwaltliche Verschwiegenheitspflicht
+- Bei LkSG-Eskalation: §§ 5–8 LkSG – Sorgfaltspflichten, Risikoanalyse, Präventionsmaßnahmen
+- Bei DSGVO-Eskalation: Art. 33, 34 DSGVO – Melde- und Benachrichtigungspflichten
+
+## Risiken / typische Fehler
+
+- **Zu viel eskalieren:** Wenn alles eskaliert wird, verliert die Matrix ihre Wirkung. Nur wirkliche Überschreitungen eskalieren.
+- **Entscheidung vorwegnehmen:** Der Entwurf bietet Optionen – er trifft keine Entscheidung. Der Genehmiger entscheidet.
+- **Frist vergessen:** Ohne Entscheidungs-Datum läuft die Verhandlung. Immer ein Datum nennen.
+- **Privilegierter Inhalt außerhalb des Kreises:** Genehmigungsanfragen intern halten; § 43a Abs. 2 BRAO, § 203 StGB beachten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: vollmacht-familienmitglieder
 title: Vollmacht für Familienmitglieder und Mitreisende
-description: Erzeugt Vollmachten für Mitreisende (Familienmitglieder Freunde) damit der Hauptansprechpartner deren Fluggastrechtsanspruch im Schriftverkehr und im gerichtlichen Verfahren mitvertreten kann. Pro Person eigene Vollmacht mit Inhalt Bezug auf Buchung Mandatsumfang Empfangsvollmacht Untervollmacht. Bei minderjaehrigen Kindern Sondervorlage mit Erziehungsberechtigten. Datenschutzhinweis. Versandentwurf an die Mitreisenden zur Unterschrift.
+description: 'Für Vollmacht für Familienmitglieder und Mitreisende: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/vollmacht-familienmitglieder
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Vollmacht für Familienmitglieder und Mitreisende
-
-## Zweck
-
-Wenn mehrere Personen unter einer gemeinsamen Buchung gestoert wurden hat **jeder** einen eigenen Anspruch aus Art. 7 VO 261/2004. Damit der Hauptansprechpartner alle Anspruechen gebuendelt verfolgen kann braucht es Vollmachten der Mitreisenden.
 
 ## Vollmacht-Inhalt
 
@@ -29,27 +25,27 @@ wohnhaft [Adresse],
 
 bevollmaechtige hiermit
 
-  [Vor- und Nachname Vollmachtnehmer],
-  geboren am [Geburtsdatum],
-  wohnhaft [Adresse],
+ [Vor- und Nachname Vollmachtnehmer],
+ geboren am [Geburtsdatum],
+ wohnhaft [Adresse],
 
 mich in allen Angelegenheiten betreffend meine Anspruechen aus dem Flug
 
-  Buchungscode (PNR): [PNR]
-  Flugnummer:        [Flugnummer]
-  Datum:             [Datum]
-  Strecke:           [Abflughafen] nach [Zielflughafen]
-  Operating Carrier: [Airline]
+ Buchungscode (PNR): [PNR]
+ Flugnummer: [Flugnummer]
+ Datum: [Datum]
+ Strecke: [Abflughafen] nach [Zielflughafen]
+ Operating Carrier: [Airline]
 
 zu vertreten. Die Vollmacht umfasst insbesondere:
 
-  - Vorgerichtliche Geltendmachung der Ausgleichsanspruechen nach
-    VO (EG) Nr. 261/2004 gegenüber der Airline
-  - Korrespondenz mit der Airline und ihrer Kundenservice
-  - Anrufung der Schlichtungsstelle Luftverkehr SOEP
-  - Klageerhebung beim zuständigen Amtsgericht
-  - Empfangnahme von Zahlungen und Schriftverkehr
-  - Untervollmacht an einen Rechtsanwalt sowie Vertretung im Rechtsstreit
+ - Vorgerichtliche Geltendmachung der Ausgleichsanspruechen nach
+ VO (EG) Nr. 261/2004 gegenüber der Airline
+ - Korrespondenz mit der Airline und ihrer Kundenservice
+ - Anrufung der Schlichtungsstelle Luftverkehr SOEP
+ - Klageerhebung beim zuständigen Amtsgericht
+ - Empfangnahme von Zahlungen und Schriftverkehr
+ - Untervollmacht an einen Rechtsanwalt sowie Vertretung im Rechtsstreit
 
 Diese Vollmacht gilt bis zum Widerruf in Textform.
 
@@ -69,16 +65,16 @@ Vollmacht für minderjähriges Kind
 
 Wir, die Erziehungsberechtigten
 
-  [Name Mutter / Vater 1], [Geburtsdatum], [Adresse]
-  [Name Vater / Mutter 2], [Geburtsdatum], [Adresse]
+ [Name Mutter / Vater 1], [Geburtsdatum], [Adresse]
+ [Name Vater / Mutter 2], [Geburtsdatum], [Adresse]
 
 vertreten unser minderjähriges Kind
 
-  [Vor- und Nachname Kind], [Geburtsdatum]
+ [Vor- und Nachname Kind], [Geburtsdatum]
 
 und bevollmaechtigen hiermit
 
-  [Vor- und Nachname Vollmachtnehmer]
+ [Vor- und Nachname Vollmachtnehmer]
 
 in dessen Namen die Anspruechen aus dem Flug [PNR / Flugnummer / Datum]
 nach VO (EG) Nr. 261/2004 geltend zu machen — einschließlich vorgerichtlich,
@@ -87,8 +83,8 @@ SOEP und gerichtlich.
 Ort Datum
 ___________
 
-___________________________________________     ___________________________________________
-[Mutter / Vater 1]                                [Vater / Mutter 2]
+___________________________________________ ___________________________________________
+[Mutter / Vater 1] [Vater / Mutter 2]
 ```
 
 ## Datenschutzhinweis (Art. 13 DSGVO)
@@ -121,15 +117,28 @@ Liebe Grüße
 - Aufbewahrung bis Anspruchsabwicklung plus drei Jahre (Verjährung).
 - Datenschutz beachten — keine unnoetige Weiterleitung.
 
-## Leitentscheidungen Vollmacht / Familienvertretung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 - `vollmacht-<name>-<datum>.docx` pro Mitreisendem.
 - Vollmacht-Versandliste mit Status (versendet / unterschrieben / vorliegt).
 - Hinweis: Eingang der unterschriebenen Vollmachten ist Voraussetzung für die Mitvertretung.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- VO (EG) Nr. 261/2004 (Fluggastrechte)
+- Art. 5 VO 261/2004 (Annullierung)
+- Art. 6 VO 261/2004 (Verspätung)
+- Art. 7 VO 261/2004 (Ausgleichszahlung 250/400/600 EUR)
+- EuGH C-402/07 (Sturgeon)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,74 @@
+---
+name: e-verletzung-dokumentieren
+title: Datenbankrecht im E-Commerce-Marktplatz — Schutz und Compliance
+description: 'Für Datenbankrecht im E-Commerce-Marktplatz — Schutz und Compliance: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenbankrecht/skills/e-verletzung-dokumentieren
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Datenbankrecht im E-Commerce-Marktplatz — Schutz und Compliance
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UrhG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Amazon-Marktplatzbetreiber-Konkurrent fragt, ob er gegen systematisches Abgreifen aller Produktdaten durch einen Wettbewerber vorgehen kann.
+- Händler will nach Vertragsende alle seine Produktdaten aus dem Marktplatz exportieren und fragt, welche Rechte der Marktplatz daran hat.
+- E-Commerce-Startup plant einen neuen Marktplatz und muss verstehen, wie es Herstellerrechte an der aufzubauenden Produktdatenbank sichert.
+
+## Erste Schritte
+
+1. Herstellereigenschaft des Marktplatzes prüfen: Wesentliche Investition in Sammlung (Onboarding von Händlern und Produktdaten), Überprüfung (Qualitätssicherung, Kategorisierung) und Darstellung (Suchalgorithmen, UI)?
+2. Händlerrechte an eigenen Produktdaten klären: Händler behalten Urheberrecht an eigenen Produktfotos und -texten — Marktplatz erhält nur Nutzungsrechte nach AGB.
+3. Verletzungsanalyse für Wettbewerber-Auslesen: Wesentliche Entnahme oder kumulierte Teilentnahmen (§ 87b UrhG)?
+4. P2B-VO-Pflichten: Marktplatz muss Ranking-Parameter, Datennutzungsregeln und Beendigungsmodalitäten transparent machen.
+5. Export-Recht des Händlers: Darf der Händler bei Vertragsende eigene Produktdaten mitnehmen? Datentransferabilität nach Data Act (VO 2023/2854)?
+6. AGB und Datenbankklauseln: Eigentum am Datenbankherstellerrecht im Marktplatz-AGB klar zuweisen.
+
+## Rechtsrahmen
+
+- § 87a UrhG: Marktplatz-Produktdatenbank als Herstellerrecht — wesentliche Investition in Händler-Onboarding, Kategorisierung und Darstellung.
+- § 87b UrhG: Verbot der Entnahme wesentlicher Teile durch Wettbewerber oder Händler nach Vertragsende.
+- P2B-VO 2019/1150 Art. 9: Datenportabilität und Zugangsrechte für Händler (gewerbliche Nutzer) nach Vertragsende.
+- Data Act VO 2023/2854 Art. 5-8: Nutzer-Datenzugangsrechte; Wechselrecht für B2B-Kunden von Datenverarbeitungsdiensten.
+- § 307 BGB: AGB-Kontrolle für Klauseln, die dem Marktplatz alle Datenbankrechte zuweisen.
+- DSGVO Art. 20: Datenportabilitätsrecht für Verbraucher — gilt für personenbezogene Nutzerdaten, nicht für Produktdaten.
+
+## Prüfraster
+
+- Hat der Marktplatzbetreiber eine wesentliche Investition in Produktdaten-Beschaffung, Überprüfung und Darstellung getätigt?
+- Welche Urheberrechte behalten die Händler an ihren eigenen Produktfotos, -texten und -daten?
+- Stellt die Übernahme von Produktdaten durch Wettbewerber eine Entnahme wesentlicher Teile dar?
+- Gewähren P2B-VO oder Data Act dem Händler ein unentziehbares Recht auf Datenexport bei Vertragsende?
+- Sind AGB-Klauseln zur Datenbankherstellerschaft nach § 307 BGB wirksam?
+- Liegt ein DSGVO-Datenportabilitätsanspruch (Art. 20 DSGVO) für Verbraucher-Nutzerdaten vor?
+- Schützt der Marktplatz seine Datenbank durch robots.txt und technische Maßnahmen gegen automatisiertes Auslesen?
+
+## Typische Fallstricke
+
+- AGB-Klauseln, die alle Produktdaten vollständig dem Marktplatz zuordnen, können nach § 307 BGB unwirksam sein, wenn Händler eigene Schutzrechte behalten.
+- P2B-VO gibt Händlern Auskunftsrechte über Ranking-Algorithmen — aber kein unbegrenztes Datenbankexport-Recht.
+- Data Act schafft neue Wechselrechte für Cloud-Kunden, die Marktplatzdaten einschließen können.
+- Wettbewerber-Auslesen kann nach Innoweb/Wegener als wesentliche Weiterverwendung qualifiziert werden, wenn Echtzeit-Abfrage erfolgt.
+- Personenbezogene Käuferdaten auf dem Marktplatz unterliegen DSGVO-Portabilitätsrecht (Art. 20 DSGVO) — getrennt von Produktdaten bewerten.
+
+## Quellen
+
+- [§ 87a UrhG — dejure.org](https://dejure.org/gesetze/UrhG/87a.html)
+- [P2B-VO 2019/1150 — EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019R1150)
+- [Data Act VO 2023/2854 — EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32023R2854)
+- [§ 307 BGB — dejure.org](https://dejure.org/gesetze/BGB/307.html)
+- [Art. 20 DSGVO — dejure.org](https://dejure.org/gesetze/DSGVO/20.html)
+- [§ 87b UrhG — dejure.org](https://dejure.org/gesetze/UrhG/87b.html)

@@ -1,22 +1,31 @@
 ---
 name: vergabe-nachpruefung-aussicht
-title: Vergabe-Nachprüfung — Erfolgs-Aussichten
-description: 'Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetzen. Normen: §§ 155 ff. GWB (Rechtsschutz), § 160 Abs. 2 GWB (Antragsbefugnis), § 160 Abs. 3 GWB (Ruegerobliegenheit), § 169 GWB (Zuschlagsstopp). Prüfraster: Antragsbefugnis, Praeklusion, Vergabeverstoesse (Eignung, Wertung, Ausschlussgründe), sofortige Beschwerde OLG. Output Erfolgsaussichts-Gutachten, Strategie-Empfehlung. Abgrenzung: Mandats-Triage siehe mandat-triage-vergaberecht; Nachprüfungsantrag selbst siehe fachanwalt-vergaberecht-nachprüfungsantrag-vk.'
+title: 'Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetz'
+description: 'Für Vergabe Nachprüfung Aussicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/vergabe-nachpruefung-aussicht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: government-contracts
 language: de
 ---
 
-# Vergabe-Nachprüfung — Erfolgs-Aussichten
+# Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetzen
 
-## Zweck
 
-Bei einer drohenden oder erfolgten Vergabe-Entscheidung systematisch prüfen, ob der Nachprüfungsantrag bei der Vergabekammer Aussicht hat. Der Skill führt durch alle Zulässigkeits- und Begründetheitsvoraussetzungen und endet mit einer dokumentierten Handlungsempfehlung.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die vergaberechtlich einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Aussichten eines Vergabenachprüfungsverfahrens bewerten: Anwalt oder Bieter will vor Antrag Erfolgsaussichten einschaetzen. Normen: §§ 155 ff. GWB (Rechtsschutz), § 160 Abs. 2 GWB (Antragsbefugnis), § 160 Abs. 3 GWB (Ruegerobliegenheit), § 169 GWB (Zuschlagsstopp). Prüfraster: Antragsbefugnis, Praeklusion, Vergabeverstoesse (Eignung, Wertung, Ausschlussgründe), sofortige Beschwerde OLG. Output Erfolgsaussichts-Gutachten, Strategie-Empfehlung. Abgrenzung: Mandats-Triage siehe mandat-triage-vergaberecht; Nachprüfungsantrag selbst siehe fachanwalt-vergaberecht-nachprüfungsantrag-vk.
+
+### Vergabe-Nachprüfung — Erfolgs-Aussichten
 
 ## Kaltstart-Rückfragen
 
@@ -28,7 +37,7 @@ Bei einer drohenden oder erfolgten Vergabe-Entscheidung systematisch prüfen, ob
 6. Was ist der genaue materielle Vorwurf — Eignungsfehler, Wertungsfehler, ungewöhnlich niedriges Angebot § 60 VgV, rechtswidrige Aufhebung, unzulässige Direktvergabe?
 7. Hat der Mandant reale Auftragschance — war sein Angebot nach Ablauf aller Prüfungsschritte das wirtschaftlichste? Drohender Schaden § 160 Abs. 2 GWB?
 8. Ist Akteneinsicht § 165 GWB bereits beantragt oder notwendig, um den Vorwurf substanziieren zu können?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -53,12 +62,10 @@ Bei einer drohenden oder erfolgten Vergabe-Entscheidung systematisch prüfen, ob
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Nr. | Prüfschritt | Rechtsgrundlage | Ergebnis / Konsequenz |
 |---|---|---|---|
@@ -80,26 +87,25 @@ Bei einer drohenden oder erfolgten Vergabe-Entscheidung systematisch prüfen, ob
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Bieter prueft Erfolgsaussichten eines Nachpruefungsantrags | Erfolgsaussichten-Memo nach Primaer-Sekundaer-Schema; Template unten |
+| Standard — Bieter prüft Erfolgsaussichten eines Nachpruefungsantrags | Erfolgsaussichten-Memo nach Primaer-Sekundaer-Schema; Template unten |
 | Variante A — Vergabeverstoß klar aber Auftrag strategisch wichtig | Ruege und Verhandlung mit Vergabestelle vor Antragstellung |
-| Variante B — Beweislage duenn nur Indizien fuer Fehler | Akteneinsicht § 163 GWB beantragen bevor Antrag gestellt wird |
+| Variante B — Beweislage duenn nur Indizien für Fehler | Akteneinsicht § 163 GWB beantragen bevor Antrag gestellt wird |
 | Variante C — Mandant will schnellen Schadensersatz nicht Auftrag | Schadensersatzklage § 179 GWB als Alternative zum Nachpruefungsantrag |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
 ### Baustein 1 — Rügeschreiben
 
 ```
-An [Vergabestelle]                                [Datum]
+An [Vergabestelle] [Datum]
 Betr.: Vergabeverfahren [Bezeichnung], Az. [...]
-       Ruege gemaess § 160 Abs. 3 GWB
+ Ruege gemaess § 160 Abs. 3 GWB
 
 Sehr geehrte Damen und Herren,
 
@@ -110,11 +116,11 @@ Hiermit ruegeon wir folgende Vergabeverstoeße unverzueglich nach
 Kenntnisnahme:
 
 1. Verstoß gegen § 127 GWB / § 58 VgV (Wertung)
-   Das Angebot unserer Mandantin erzielte in Kriterium [X] lediglich
-   [Y] Punkte. Die Begruendung ist unzureichend, weil [konkreter
-   Vorwurf]. Ein Vergleich der Leistungsbeschreibung mit dem Angebot
-   belegt [Seite, Abschnitt]. Richtige Wertung ergaebe [Z] Punkte
-   und damit Platz 1.
+ Das Angebot unserer Mandantin erzielte in Kriterium [X] lediglich
+ [Y] Punkte. Die Begruendung ist unzureichend, weil [konkreter
+ Vorwurf]. Ein Vergleich der Leistungsbeschreibung mit dem Angebot
+ belegt [Seite, Abschnitt]. Richtige Wertung ergaebe [Z] Punkte
+ und damit Platz 1.
 
 2. [ggf. weiterer Verstoss]
 
@@ -137,28 +143,28 @@ I. Antraege
 Die Vergabekammer moge beschliessen:
 
 1. Dem Antragsgegner wird untersagt, in dem Vergabeverfahren [Titel]
-   den Zuschlag auf das Angebot der Beigeladenen zu erteilen.
+ den Zuschlag auf das Angebot der Beigeladenen zu erteilen.
 
 2. Dem Antragsgegner wird aufgegeben, das Vergabeverfahren in den
-   Stand vor der Wertungsentscheidung vom [Datum] zurueckzuversetzen
-   und das Verfahren unter Beachtung der Rechtsauffassung der
-   Vergabekammer fortzufuehren.
+ Stand vor der Wertungsentscheidung vom [Datum] zurueckzuversetzen
+ und das Verfahren unter Beachtung der Rechtsauffassung der
+ Vergabekammer fortzufuehren.
 
 3. Dem Antragsgegner wird aufgegeben, dem Antragsteller vollstaendige
-   Akteneinsicht gemaess § 165 GWB zu gewaehren.
+ Akteneinsicht gemaess § 165 GWB zu gewaehren.
 
 4. Der Antragsgegner traegt die Kosten des Verfahrens einschliesslich
-   der notwendigen Aufwendungen des Antragstellers.
+ der notwendigen Aufwendungen des Antragstellers.
 
 5. Die Hinzuziehung eines Rechtsanwalts durch den Antragsteller wird
-   fuer notwendig erklaert.
+ für notwendig erklaert.
 ```
 
 ### Baustein 3 — Argumentation ungewöhnlich niedriges Angebot
 
 ```
 III. Verstoß gegen § 60 VgV — ungewoehnlich niedriges Angebot der
-     Beigeladenen
+ Beigeladenen
 
 Das Angebot der Beigeladenen liegt um [X] % unter dem naechstguestigen
 Angebot (Antragsteller: EUR [A]; Beigeladene: EUR [B]). Diese Spanne
@@ -169,25 +175,26 @@ Der Antragsgegner hat ausweislich der Vergabedokumentation [keine
 Aufklaerung durchgefuehrt / die Aufklaerung war unzureichend: Anlage
 K [X]].
 
-Nachweis einer plausibler Kalkulation setzt voraus, dass der Bieter
+Der Nachweis einer plausiblen Kalkulation setzt voraus, dass der Bieter
 saemtliche Einzelpreise, Stundenloehne und sonstige Kostenkomponenten
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+nachvollziehbar erlaeutert. Rechtsprechung wird hierzu nur verwendet,
+wenn Gericht, Entscheidungsform, Datum, Aktenzeichen und eine frei oder
+amtlich pruefbare Quelle vor der Ausgabe verifiziert sind.
 
 Der Antragsgegner haette das Angebot gemaess § 60 Abs. 3 VgV
 ausschliessen muessen.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Beweislast und Darlegungslast
 
@@ -217,7 +224,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Einwand Auftraggeber | Reaktion |
 |---|---|
 | Rüge nicht rechtzeitig / keine Rüge | Kenntnisnachweis durch Vorlage Informationsschreiben; ggf. § 134 GWB Datum prüfen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Vergabeverstoß bloß rechnerisch nicht relevant | Kausalität genügt; drohender Schaden ausreichend |
 | Aufhebung des Verfahrens zulässig | § 63 VgV Aufhebungsgründe abarbeiten; tatsächliche Gründe müssen vorliegen |
 | Sofortiger Zuschlag im öffentlichen Interesse | § 169 Abs. 3 GWB Ausnahme; strenge Voraussetzungen; VK entscheidet nach Abwägung |
@@ -228,7 +234,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 - **VK-Gebühren:** § 182 GWB; Gebührensatz 2500 EUR bis 50000 EUR; Bemessung nach Auftragswert und Aufwand.
 - **Unterlegener trägt** Verfahrensgebühren und notwendige Aufwendungen der obsiegenden Partei (§ 182 Abs. 3 GWB).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **OLG-Verfahren:** § 171 Abs. 3 GWB; Kosten nach GKG/ZPO; Streitwert = Auftragswert.
 - **Schadensersatz § 181 GWB:** Negativinteresse (Angebotskosten, Bearbeitungsaufwand) ohne besonderen Nachweis; Positivinteresse (entgangener Gewinn) nur bei hochgradiger Auftragschance und schuldhafter Verletzung.
 
@@ -248,18 +253,14 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `fachanwalt-vergaberecht-eignungspruefung` — Eignungsfehler als Antragsgrundlage
 - `fachanwalt-vergaberecht-it-sicherheits-vergabe-bsi-it-sig-2` — IT-Vergabe-Spezifika
 
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Vertiefung: Output-Template Erfolgsaussichten-Memo
 
 ### Triage — Bevor losgelegt wird, klaere:
 
 1. Ist Ruege nach § 160 Abs. 3 GWB rechtzeitig erhoben worden?
-2. Hat Bieter Antragsbefugnis (am Verfahren beteiligt oder haette beteiligt sein koennen)?
+2. Hat Bieter Antragsbefugnis (am Verfahren beteiligt oder haette beteiligt sein können)?
 3. Welcher Fehler ist konkret nachweisbar (Wertung / Eignung / Diskriminierung / Transparenz)?
-4. Liegt der Verstoss kausal fuer die Nichtberucksichtigung des Mandanten?
+4. Liegt der Verstoss kausal für die Nichtberucksichtigung des Mandanten?
 5. Werden Chancen geschaetzt: "Keine konkreten Aussichten" → Schadensersatz § 181 GWB statt NPA?
 
 ### Output-Template Erfolgsaussichten-Memo
@@ -268,29 +269,49 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ```
 ERFOLGSAUSSICHTEN-MEMO Vergaberecht
 =========================================
-Mandant:     [NAME]
-Verfahren:   [BEZEICHNUNG]
-Datum Memo:  [TT.MM.JJJJ]
+Mandant: [NAME]
+Verfahren: [BEZEICHNUNG]
+Datum Memo: [TT.MM.JJJJ]
 
 1. Sachverhalt-Kurzfassung:
-   [...]
+ [...]
 
 2. Nachgewiesener Vergabeverstoß:
-   [§ XY GWB / VgV: Konkrete Verletzung]
+ [§ XY GWB / VgV: Konkrete Verletzung]
 
 3. Chancen Nachpruefungsantrag:
-   HOCH / MITTEL / GERING / KEINE
-   Begruendung: [Leitsatz-Referenz / Beweislage]
+ HOCH / MITTEL / GERING / KEINE
+ Begruendung: [Leitsatz-Referenz / Beweislage]
 
 4. Alternativ Schadensersatz § 181 GWB:
-   Voraussetzungen erfuellt: JA / NEIN
-   Schadenshoehe (geschaetzt): EUR [BETRAG]
+ Voraussetzungen erfuellt: JA / NEIN
+ Schadenshoehe (geschaetzt): EUR [BETRAG]
 
 5. Empfehlung:
-   [NPA einreichen / Schadensersatzklage / Kein weiteres Vorgehen]
+ [NPA einreichen / Schadensersatzklage / Kein weiteres Vorgehen]
 
 6. Fristen:
-   Nachpruefungsantrag bis:  [TT.MM.JJJJ]
-   Beschwerde bis (OLG):     [TT.MM.JJJJ bei VK-Entscheidung]
+ Nachpruefungsantrag bis: [TT.MM.JJJJ]
+ Beschwerde bis (OLG): [TT.MM.JJJJ bei VK-Entscheidung]
 =========================================
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Für Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Für Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Prüfe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

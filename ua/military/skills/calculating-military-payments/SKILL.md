@@ -1,18 +1,18 @@
 ---
 name: calculating-military-payments
-title: calculating-military-payments
+title: law-ua-calculating-military-payments
 description: Use when calculating payments for Ukrainian service members — бойові (КМУ № 168, 100 000 грн/міс), фронтова надбавка (КМУ № 419, 70 000 грн/30 діб), ОГД при пораненні/загибелі (ст. 16 ЗУ 2011-XII), родини полонених/зниклих (ЗУ 3995-IX, 50/50), матдопомога (ст. 9 ЗУ 2011-XII), УБД, військові пенсії. Формули, пропорційний розрахунок неповних місяців, документи, типові причини відмов.
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-calculating-military-payments
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: military
 language: uk
 ---
 
-# calculating-military-payments
+# law-ua-calculating-military-payments
 
 Базові виплати військовослужбовцям ЗСУ розраховуються за постановами КМУ та законами; ставки **переглядаються кілька разів на рік**. Цей скіл — орієнтир структури розрахунку; **точні цифри — з актуального тексту постанови** на дату події.
 
@@ -235,7 +235,7 @@ language: uk
 2. Виявити конкретний пункт, що встановлює ставку для ситуації.
 3. Побудувати розрахунок за формулою + зазначити посилання.
 4. Звірити з довідкою фінансової служби частини.
-5. При розбіжності — адвокатський запит до частини (→ `request-drafter`).
+5. При розбіжності — адвокатський запит до частини (→ `law-ua-request-drafter`).
 
 ## Обмеження
 

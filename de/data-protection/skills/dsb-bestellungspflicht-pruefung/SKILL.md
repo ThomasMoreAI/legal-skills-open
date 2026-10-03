@@ -1,11 +1,11 @@
 ---
 name: dsb-bestellungspflicht-pruefung
 title: DSB-Bestellungspflicht und -Anforderungen
-description: 'Bestellungspflicht für Datenschutzbeauftragten prüfen. Art. 37 DSGVO § 38 BDSG Bestellungspflicht. Prüfraster: Schwellenwerte Art. 37 Abs. 1 Betriebsgroe Verarbeitungsart Pflichtbestellung freiwillige Bestellung. Output: Bestellungsprüfmemo Empfehlung. Abgrenzung: nicht für Aufgaben des DSB (Art. 39 DSGVO).'
+description: 'Für DSB-Bestellungspflicht und -Anforderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsb-bestellungspflicht-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # DSB-Bestellungspflicht und -Anforderungen
-
-## Zweck
-
-Häufige Lücke in Unternehmen: Pflicht zur DSB-Bestellung wird nicht erkannt. Dieses Skill prüft Pflicht, Anforderungen an DSB und löst Folge-Probleme (Interessens-Konflikt, externe vs. interne Bestellung).
 
 ## Eingaben
 
@@ -152,7 +148,6 @@ Häufige Lücke in Unternehmen: Pflicht zur DSB-Bestellung wird nicht erkannt. D
 
 #### Geschäftsführer / Vorstand
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - ErwGr 97 DSGVO zur Unabhängigkeits-Anforderung
 - Strikte Trennung erforderlich
 
@@ -313,18 +308,21 @@ e) **Anlaufstelle Aufsichtsbehörde** für Fragen Beratung
 - Aufsichts-Behörden-Meldung-Vorbereitung
 - Frist im Fristenbuch (Bestellung unverzüglich)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - DSGVO Art. 37 38 39 83; ErwGr 97 DSGVO
 - BDSG §§ 5 6 38
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BfDI Praxis-Empfehlungen
 - DSK Kurzpapier
 - GDD und BvD Standards
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -356,3 +354,5 @@ Qualifikation ausreichend: ja / nein / unklar
 
 Empfehlung: DSB bestellen (bis [FRIST]) / DSB wechseln / kein Handlungsbedarf
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

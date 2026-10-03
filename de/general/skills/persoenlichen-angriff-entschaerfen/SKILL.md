@@ -1,11 +1,11 @@
 ---
 name: persoenlichen-angriff-entschaerfen
 title: Persönlichen Angriff entschärfen
-description: 'Persoenliche Angriffe und Beleidigungen in Anwaltskorrespondenz erkennen und durch sachliche Formulierungen ersetzen. § 43a BRAO § 26 BORA Sachlichkeitsgebot. Prüfraster: persoenliche Angriffe Beleidigungen herabsetzende Formulierungen. Output: entschaerfte sachliche Version mit Erklärung. Abgrenzung: nicht für Ironie und Sarkasmus (ironie-und-sarkasmus-eliminieren).'
+description: 'Für Persönlichen Angriff entschärfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer. Route: persoenlichen-angriff-entschaerfen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/persoenlichen-angriff-entschaerfen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,8 +14,11 @@ language: de
 
 # Persönlichen Angriff entschärfen
 
-Dieser Skill vermittelt konkrete Techniken zur Entschärfung persönlicher Angriffe in beruflichen Texten. Persönliche Angriffe sind häufig das größte Hindernis für sachliche Kommunikation — sie verleiten den Empfänger zur Gegenreaktion und verhärten Fronten. Die systematische Umformulierung löst dieses Problem.
+## Fachkern: Persönlichen Angriff entschärfen
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill vermittelt konkrete Techniken zur Entschärfung persönlicher Angriffe in beruflichen Texten. Persönliche Angriffe sind häufig das größte Hindernis für sachliche Kommunikation — sie verleiten den Empfänger zur Gegenreaktion und verhärten Fronten. Die systematische Umformulierung löst dieses Problem.
 
 ## Triage zu Beginn
 1. Kommt der Angriff aus eingehendem Schreiben (neutralisieren im Antwortschreiben) oder aus eigenem Entwurf (entfernen)?
@@ -23,18 +26,12 @@ Dieser Skill vermittelt konkrete Techniken zur Entschärfung persönlicher Angri
 3. Gibt es zivilrechtlich oder strafrechtlich relevante Inhalte im Angriff (§ 185 StGB, § 823 BGB)?
 4. Muss der Angriff vollstaendig entfernt oder kann der sachliche Kern erhalten werden?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- § 43a Abs. 3 BRAO — Sachlichkeitsgebot: persoenliche Angriffe unzulaessig
-- § 185 StGB — Beleidigung: persoenliche Angriffe koennen strafbar sein
+- § 43a Abs. 3 BRAO — Sachlichkeitsgebot: persönliche Angriffe unzulaessig
+- § 185 StGB — Beleidigung: persönliche Angriffe können strafbar sein
 - § 823 Abs. 1 BGB — Persoenlichkeitsrecht: Schadenersatz bei Persoenlichkeitsverletzung
-- § 1004 BGB — Unterlassungsanspruch bei andauernden persoenlichen Angriffen
+- § 1004 BGB — Unterlassungsanspruch bei andauernden persönlichen Angriffen
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Technik 1: Vom Vorwurf zur Beobachtung
 
 Ein Vorwurf bewertet und verletzt: "Sie haben X getan." Eine Beobachtung beschreibt neutral: "X ist eingetreten." Statt: "Sie haben meine E-Mail ignoriert." → "Auf meine E-Mail vom TT.MM.JJJJ ist bisher keine Antwort eingegangen." Diese Technik ist die wirksamste Einzelmaßnahme zur Entschärfung.
@@ -67,8 +64,4 @@ Den persönlichen Angriff durch Sachverhaltsbezug ersetzen: Statt "Sie" als hand
 | "Sie machen alles falsch" | "Es bestehen Korrekturbedarf in mehreren Punkten" |
 | "Sie kümmern sich nicht" | "Das Anliegen scheint bislang keine vorrangige Bearbeitung erhalten zu haben" |
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Identifizierte persönliche Angriffe im Text. (2) Eingesetzte Entschärfungstechnik. (3) Neutralisierte Alternativformulierung. (4) Überarbeiteter Gesamttext ohne persönliche Angriffe.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

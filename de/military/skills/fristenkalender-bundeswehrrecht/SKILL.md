@@ -1,0 +1,106 @@
+---
+name: fristenkalender-bundeswehrrecht
+title: Fristenkalender Bundeswehrrecht
+description: 'Für Fristenkalender Bundeswehrrecht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bundeswehrrecht-wehrrecht/skills/fristenkalender-bundeswehrrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: military
+language: de
+---
+
+# Fristenkalender Bundeswehrrecht
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Fristenkalender Bundeswehrrecht
+- **Normen-/Quellenanker:** SG, WSG, WPflG, KDVG, WDO, SVG, BBesG, VwGO, truppendienstgerichtliche Zuständigkeiten und Grundrechte.
+- **Entscheidende Weiche:** Status, Befehl/Dienstpflicht, Gewissen/KDV, Besoldung/Versorgung, Disziplinarweg, Eilrechtsschutz und Nachweisführung trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Fachlicher Kontext
+
+Fristversäumnisse sind die häufigste Ursache für Rechtsverluste im Wehr- und Verwaltungsrecht. Dieser Skill gibt einen systematischen Überblick und berechnet Fristen nach Eingabe des Ereignisdatums.
+
+Besonders kritisch: WBO-Frist 1 Monat ab Bekanntgabe; TDG-Antrag nach Beschwerdebescheid; Klage VG 1 Monat nach Widerspruchsbescheid.
+
+## Einschlägige Normen und Quellen
+
+- § 6 WBO — 1 Monat Beschwerde
+- § 17a WBO — Antrag TDG
+- §§ 68–70 VwGO — Widerspruch
+- § 74 VwGO — Klage
+- § 38 WDO — WDO-Fristen
+- § 17 WDO — Ausschlussfrist Disziplinar
+
+## Sachverhaltsaufnahme — Startfragen
+
+- Was ist das maßgebliche Ereignis (Bekanntgabe, Zustellung, Bescheid)?
+- Welches Verfahren ist einschlägig (WBO, WDO, VwGO)?
+- Was ist das genaue Datum?
+- Gibt es Hindernisse für Fristwahrung (Krankheit, Urlaub)?
+- Ist Wiedereinsetzung noch möglich?
+
+## Prüf- und Arbeitslogik
+
+### Schritt 1 — WBO-Fristen Übersicht
+
+§ 6 WBO: 1 Monat ab Kenntnis der Maßnahme.
+§ 17 WBO: 2 Wochen nach Beschwerdebescheid für Antrag TDG.
+§ 23a WBO: Wiedereinsetzung, unverzüglich + max. 2 Wochen.
+§ 9 WBO: Vollzugsaussetzung — jederzeit beantragbar.
+
+### Schritt 2 — VwGO-Fristen
+
+§ 70 VwGO: Widerspruch 1 Monat nach Bescheidzustellung.
+§ 74 VwGO: Klage 1 Monat nach Widerspruchsbescheid.
+§ 60 VwGO: Wiedereinsetzung 2 Wochen ab Wegfall Hindernisses.
+§ 80 Abs. 5 VwGO: Eilantrag jederzeit.
+
+### Schritt 3 — WDO-Fristen
+
+§ 17 WDO: Ausschlussfrist 5 Jahre nach Pflichtverletzung.
+§ 23 WDO: Einspruchsfrist gegen Disziplinarbuße 2 Wochen.
+§ 82 WDO: Berufungsfrist 1 Monat nach Urteil TDG.
+§ 84 WDO: Revisionsfrist 1 Monat.
+
+### Schritt 4 — BBesG/SVG-Fristen
+
+BBesG: Widerspruch 1 Monat, Klage 1 Monat nach Widerspruchsbescheid.
+SVG-Versorgungsanträge: keine starre Frist, aber Verjährung 3 Jahre.
+BUKG: Umzugskosten 2 Jahre nach Umzug.
+TGV: Trennungsgeld 6 Monate nach Versetzung.
+
+## Arbeitsergebnisse
+
+Erzeuge je nach Auftrag eines oder mehrere dieser Ergebnisse:
+
+- Kurzvermerk mit Risikoampel (grün/gelb/rot)
+- Prüfschema mit Tatbestandselementen und offenen Punkten
+- Fragenliste für Mandanten/Sachverhaltsgespräch
+- Entwurfsbausteine (Beschwerde, Antrag, Schriftsatz, Stellungnahme)
+- Dokumentenanforderungsliste
+- Nächster Schritt mit konkreter Frist
+
+- Fristenkalender-Tabelle: alle Fristen im Überblick
+- Berechnungsformular: Datum eingeben → Fristende berechnen
+- Warnsystem: kritische Fristen (< 1 Woche bis Ablauf)
+
+## Qualitätsgate
+
+Vor Ausgabe prüfen:
+
+- Fristen, Zuständigkeit und Rechtsgrundlage vollständig?
+- Offene Tatsachen als `[offen: ...]` markiert?
+- Gegenargumente und Verteidigungslinien formuliert?
+- Beweislastverteilung geklärt?
+- Output entspricht dem gewünschten Arbeitsergebnis?

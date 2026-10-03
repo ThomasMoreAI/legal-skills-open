@@ -1,168 +1,45 @@
 ---
 name: subunternehmer-regelung-pruefen
-title: Subunternehmer-Regelung prüfen
-description: Prüfe die Subunternehmerklausel im KI-Anbietervertrag. Norm Absatz drei Satz zwei Nummer drei der einschlaegigen Dienstleisterregelung. Pflichtinhalte Zustimmungsvorbehalt der Kanzlei Subunternehmerliste Weiterverpflichtung in Textform Belehrung. Strafrechtliche Sekundaerpflicht nach § 203 Absatz vier Satz zwei Nummer eins StGB. Modellanbieter und Hoster als typische Subunternehmer.
+title: 1. Dienstleister und Agentenwerkzeuge in der Kanzlei absichern
+description: Prüft die Dienstleisterkette einer Kanzlei einschließlich Modellbetrieb, Agentenwerkzeugen, Support und Protokollen. Trennt berufsrechtliche Verpflichtung von Datenschutzrollen und formuliert nachprüfbare Klauseln zu weiteren Dienstleistern und Zugriffen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/subunternehmer-regelung-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
 ---
 
-# Subunternehmer-Regelung prüfen
+# 1. Dienstleister und Agentenwerkzeuge in der Kanzlei absichern
 
-## Disclaimer
+## 1. Zweck und Anwendungsfall
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+Prüfe, welche weiteren Personen tatsächlich Zugang zu Mandatsgeheimnissen erhalten können und was der Vertrag dazu erlaubt. Technische Komponenten und selbstständige Rechtsträger unterscheiden. Ein Modellhersteller ohne Datenzugang ist nicht allein wegen seiner Urheberschaft ein mitwirkender Dienstleister im konkreten Mandatsdatenweg.
 
-## Norm
+## 2. Eingaben
 
-Absatz 3 Satz 2 Nr. 3 der jeweiligen Dienstleisterregelung. Der Vertrag mit dem Dienstleister muss festlegen, ob der Dienstleister befugt ist, weitere Personen zur Erfüllung des Vertrags heranzuziehen. Für diesen Fall ist dem Dienstleister aufzuerlegen, diese Personen in Textform zur Verschwiegenheit zu verpflichten.
+Lies Hauptvertrag, Unterauftragnehmerliste, Zugriffskonzept, Werkzeugkonfiguration und Supportbedingungen. Bei Agenten zusätzlich Suchdienste, E-Mail-Versand, Kalender, persistentes Gedächtnis und Weiterdelegation berücksichtigen. Eine Speicherregion beantwortet nicht die Frage nach Fernzugriffen. Frage nach dem konkret ungeklärten Empfänger, nicht erneut nach dem ganzen Mandat.
 
-Pro Beruf:
+## 3. Ablauf und Checkliste
 
-- § 43e Abs. 3 Satz 2 Nr. 3 BRAO
-- § 62a Abs. 3 Satz 2 Nr. 3 StBerG
-- § 50a Abs. 3 Satz 2 Nr. 3 WPO
-- § 39c Abs. 3 Satz 2 Nr. 3 PAO
-- § 26a Abs. 3 Satz 2 Nr. 3 BNotO
+1. Berufsrolle bestimmen. Für Anwälte Paragraf 43e BRAO prüfen: Erforderlichkeit des Geheimniszugangs, sorgfältige Auswahl, Vertrag in Textform mit Pflichtinhalten und Auslandsleistungen. Bei unmittelbar einem einzelnen Mandat dienenden Leistungen die Einwilligung nach Absatz 5 prüfen; Absätze 6 und 7 samt gesetzlicher Verschwiegenheit gesondert beachten. Andere Berufsordnungen nicht durch bloßes Austauschen der Berufsbezeichnung anwenden.
+2. Tatsächliche Kette abbilden: Vertragspartner, Modellbetrieb, Hoster, Werkzeugdienst, Support und weitere Personen mit Geheimniszugang. Keine automatische Gleichsetzung aller Modelllieferanten oder Konzernmütter mit Unterauftragnehmern. Anbieterbehauptung mit Konfiguration und erreichbaren Empfängern abgleichen.
+3. Nach Paragraf 43e Absatz 3 Satz 2 Nummer 3 regeln, ob weitere Personen eingesetzt werden dürfen, und für diesen Fall deren Verpflichtung in Textform vorsehen. Auswahl- und Änderungsrechte vertraglich konkretisieren. Ein vorheriger Einzelzustimmungsvorbehalt ist nicht allein aus dieser Norm zwingend; Empfehlung und gesetzliche Pflicht trennen.
+4. Paragraf 203 StGB gesondert prüfen, einschließlich Erforderlichkeit und Verpflichtung weiterer mitwirkender Personen. Bei der Verpflichtungskette die einschlägige Nummer des Absatzes 4 prüfen; nicht die Nummer für den Berufsgeheimnisträger pauschal dem Dienstleister zuweisen. Berufsrechtliche Belehrung und strafrechtliche Verantwortlichkeit nicht gleichsetzen.
+5. Datenschutzrolle je Tätigkeit bestimmen. Für Auftragsverarbeitung Artikel 28 Absätze 2 bis 4, für gemeinsame Zwecke gegebenenfalls Artikel 26 DSGVO; bei eigenem Training eine eigenständige Zweckprüfung. Allgemeine Genehmigung nach Artikel 28 verlangt Information über Änderungen und Gelegenheit zum Einspruch. AVV ersetzt weder Geheimnisschutz noch Transferprüfung.
+6. Agentenwerkzeuge auf freigegebene Empfänger und Daten begrenzen. Ein vom Agenten ausgewählter weiterer Dienst ist nicht automatisch genehmigt. Empfängerwechsel, eigene Qualitätsnutzung und Supportzugriff vor Umsetzung prüfen. Ungeklärter Datenweg sperrt diesen Zugriff, nicht die Bearbeitung einer Ersatzklausel.
+7. Klausel zu Empfängern, Zweck, Zugriffsort, Geheimhaltung, Änderungen, Abhilfe und Beendigung ausformulieren. Dokumentierte Nachweise anfordern; keine beliebige Einsicht in fremde Mandate als Auditrecht verlangen. Nach Anbieterantwort die Vertragsfassung abschließen.
 
-Strafrechtlich ergänzend: § 203 Abs. 3 Satz 2 StGB (Befugnis zur Weitergabe an mitwirkende Personen, die ihrerseits weitere Personen einbinden) und § 203 Abs. 4 Satz 2 Nr. 1 StGB (Sekundärpflicht zur Verpflichtung).
+## 4. Quellenpflicht
 
-## Praxisproblem KI-Anbieter
+[Paragraf 43e BRAO](https://www.gesetze-im-internet.de/brao/__43e.html), [Paragraf 203 StGB](https://www.gesetze-im-internet.de/stgb/__203.html), Artikel 26, 28 und 44 folgende [DSGVO](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=de). Prüfstand 2. Oktober 2026; Normtext vor abschließender Bewertung prüfen. Kein allgemeines Rechtsprechungsverbot von Cloud-Diensten behaupten. [Zitierweise](../../references/zitierweise.md).
 
-KI-Anbieter sind oft mehrstufige Strukturen:
+## 5. Ausgabeformat
 
-1. **Frontend-Anbieter** (deutsche Vertragspartei, etwa ein Münchner Legal-Tech-Start-up)
-2. **Modellanbieter** (etwa OpenAI, Anthropic, Mistral, Aleph Alpha)
-3. **Hoster** (Microsoft Azure, AWS, Google Cloud)
-4. **Eventuell Trainingsdienstleister**, **Annotation-Dienstleister**, **Support-Dienstleister**
+Ausformulierter Anbieterbrief, Ersatzklausel oder Einsatzvermerk nach Auftrag; keine leere Ampel und keine Textskelette. Times New Roman 11 pt, dezimale Gliederung. Vertragsannahme, Mandatsdatenübermittlung und Änderung produktiver Zugriffe bedürfen eines ausdrücklichen Auftrags.
 
-Aus berufsrechtlicher Sicht sind alle vier Stufen Subunternehmer im Sinne von Abs. 3 Satz 2 Nr. 3. Der Frontend-Anbieter muss sie alle benennen und entsprechend weiterverpflichten.
+## 6. Beispiele
 
-## Anforderungen
-
-### Festlegung im Vertrag
-
-Der Vertrag muss explizit klären, ob der Dienstleister Subunternehmer einsetzen darf. Stillschweigen reicht nicht.
-
-### Subunternehmerliste
-
-Auch wenn die Norm das nicht ausdrücklich verlangt, ist eine **abschließende Liste der Subunternehmer mit Sitz, Funktion und gegebenenfalls Hosting-Ort** der Stand guter Praxis. Sie ist Vertragsanlage oder per Link zu einem versionierten Trust Center.
-
-### Zustimmungsvorbehalt
-
-Ein **Zustimmungsvorbehalt der Kanzlei vor Hinzunahme oder Wechsel von Subunternehmern** ist nicht durch das Berufsrecht zwingend gefordert, aber sehr empfehlenswert. Die DAV-Stellungnahme stellt klar, dass die Kanzlei für die Auswahl die berufsrechtliche Verantwortung trägt (Sorgfaltsanforderung Abs. 2 der Dienstleisterregelung).
-
-### Weiterverpflichtung in Textform
-
-Der Vertrag muss den Dienstleister verpflichten, jeden Subunternehmer **in Textform** zur Verschwiegenheit zu verpflichten — mit denselben inhaltlichen Anforderungen, die für den Dienstleister selbst gelten (gegenüber jedermann, zeitlich unbegrenzt, alle Berufsgeheimnisse, Belehrung).
-
-### Belehrung über strafrechtliche Folgen
-
-Auch die Subunternehmer müssen über §§ 203, 204 StGB belehrt werden (Abs. 4 Satz 2 Nr. 1 StGB).
-
-## Prüfschema
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
-
-
-| Punkt | Fundstelle | Ampel | Bemerkung |
-|---|---|---|---|
-| Festlegung Befugnis im Vertrag | | | |
-| Aktuelle Subunternehmerliste vorhanden | | | |
-| Zustimmungsvorbehalt der Kanzlei | | | |
-| Weiterverpflichtungspflicht (Textform) | | | |
-| Belehrungspflicht für Subunternehmer | | | |
-| Informationspflicht bei Wechsel | | | |
-
-## Typische Lücken
-
-- "Wir setzen Subunternehmer nach unserem Ermessen ein" — Pflicht zur Festlegung verletzt
-- Subunternehmerliste nur als unverbindlicher FAQ-Eintrag
-- Wechsel ohne Vorankündigung
-- Nur AVV-rechtliche Weiterverpflichtung (Art. 28 Abs. 4 DS-GVO) ohne berufsrechtliche Komponente
-- Keine berufsrechtliche Belehrung der Subunternehmer
-
-## Sonderkonstellation Microsoft Azure OpenAI
-
-Der häufige Aufbau "Frontend-Anbieter — Azure-Mietservice für OpenAI-Modelle" ist berufsrechtlich besonders zu prüfen:
-
-- Azure ist Hoster und Subunternehmer
-- OpenAI als Modellanbieter ist ggf. weiterer Subunternehmer
-- US-Konzern-Mutter aller Beteiligten — Cloud Act greift (siehe `cloud-act-und-drittstaat-pruefen`)
-- Datenfluss Azure → OpenAI muss explizit beleuchtet werden
-
-## Output
-
-Tabellarische Bewertung. Lücken fließen in den Rückfragebrief ein (etwa: "Bitte legen Sie die aktuelle, abschließende Subunternehmerliste mit Sitz und Funktion vor").
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-
-- §§ 43e Abs. 3 Nr. 3 BRAO, 62a Abs. 3 Nr. 3 StBerG, 50a Abs. 3 Nr. 3 WPO, 39c Abs. 3 Nr. 3 PAO, 26a Abs. 3 Nr. 3 BNotO — Subunternehmer-Weiterverpflichtung
-- Art. 28 Abs. 4 DSGVO — Unterauftragnehmer in der AVV
-- § 203 Abs. 4 Satz 2 Nr. 1 StGB — Sekundärpflicht des Dienstleisters
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Triage zu Beginn
-
-1. Enthält der Vertrag eine Liste aller aktuellen Subunternehmer?
-2. Ist ein Zustimmungsvorbehalt oder Widerspruchsrecht der Kanzlei geregelt?
-3. Verpflichtet der Vertrag den Dienstleister, Subunternehmer in Textform auf §§ 203/204 StGB zu belehren?
-4. Sind Modellanbieter (z.B. OpenAI als API-Lieferant) und Hoster als separate Subunternehmer benannt?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Subunternehmer-Klausel im KI-Vertrag pruefen | Pruefschema Art. 28 Abs. 2 DSGVO; Template unten |
-| Variante A — Subunternehmer-Einsatz untersagt | Verbot klar kommunizieren; Vertragsanpassung empfehlen |
-| Variante B — Genehmigung liegt vor aber Klausel unklar | Klarstellungsformulierung einfordern; Anlage mit Subunternehmer-Liste |
-| Variante C — Subunternehmer ausserhalb EU | Drittlandstransfer-Pruefung zusaetzlich noetig (Art. 46 DSGVO) |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Output-Template — Subunternehmer-Prüfvermerk
-
-**Adressat:** Kanzlei intern — Tonfall: sachlich-juristisch
-
-```
-Subunternehmer-Prüfvermerk [DATUM]
-Anbieter: [NAME] | Vertrag: [DOKUMENT, VERSION]
-
-Prüfpunkt 1: Subunternehmerliste
-Vorhanden (als Anlage): ja / nein
-Subunternehmer:
-- [NAME], [SITZ], [FUNKTION], [VERARBEITUNGSSTANDORT]
-- [NAME], [SITZ], [FUNKTION], [VERARBEITUNGSSTANDORT]
-
-Prüfpunkt 2: Zustimmungsvorbehalt / Widerspruchsrecht
-Zustimmungsvorbehalt geregelt: ja / nein
-Widerspruchsrecht geregelt: ja / nein
-Frist: [X TAGE]
-
-Prüfpunkt 3: Weiterverpflichtung Subunternehmer
-In Textform: ja / nein
-Belehrung §§ 203/204 StGB: ja / nein
-
-Ergebnis
-Ampel Subunternehmer-Regelung: GRUEN / GELB / ROT
-Luecken: [BESCHREIBUNG]
-```
-
---- vor Versand klaeren ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+Ein lokal gehostetes Modell stammt von einem externen Entwickler, der keine Eingaben erhält: keinen Datenempfang erfinden. Derselbe Agent sendet zur Recherche einen Sachverhalt an einen Suchdienst: diesen tatsächlichen Empfänger prüfen, auch wenn „kein Training“ zugesagt ist.

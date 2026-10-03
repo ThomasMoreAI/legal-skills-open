@@ -8,10 +8,10 @@ Jurisdiction: `fr` · Practice: `real-estate` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`Droit Immobilier France (Particuliers)`](skills/fr-droit-immobilier/) | Navigate French real estate law for individuals — leases, mandatory diagnostics, tenant rights, co-ownership,… |
-| [`Notaire IA`](skills/notaire/) | Notaire IA pour le droit immobilier, les successions, les donations, le droit de la famille et le droit des… |
-| [`Syndic de Copropriété`](skills/syndic-romainsimon/) | Gère un parc de copropriétés en France avec vue portfolio consolidée. Couvre administration, comptabilité… |
-| [`Tenant Rights Guide`](skills/tenant-rights-guide-khalilbenaz/) | Informe sur les droits du locataire dans une situation donnée. Se déclenche aussi avec "droits du locataire",… |
+| [`Droit Immobilier France (Particuliers)`](skills/fr-droit-immobilier/) | Navigate French real estate law for individuals — leases, mandatory diagnostics, tenant rights… |
+| [`Notaire IA`](skills/notaire/) | Notaire IA pour le droit immobilier, les successions, les donations, le droit de la famille et le droit… |
+| [`Syndic de Copropriété`](skills/syndic-romainsimon/) | Gère un parc de copropriétés en France avec vue portfolio consolidée. Couvre administration… |
+| [`Tenant Rights Guide`](skills/tenant-rights-guide-khalilbenaz/) | Informe sur les droits du locataire dans une situation donnée. Se déclenche aussi avec "droits du… |
 
 ## Cold-start context
 

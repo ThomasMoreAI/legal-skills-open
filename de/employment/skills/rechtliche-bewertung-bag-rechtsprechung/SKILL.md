@@ -1,74 +1,80 @@
 ---
 name: rechtliche-bewertung-bag-rechtsprechung
 title: Rechtliche Bewertung und BAG-Rechtsprechung zum Arbeitszeugnis
-description: Rechtliche Einordnung von Zeugnisansprüchen nach § 109 GewO und BAG-Rechtsprechung für die anwaltliche Praxis. Anwendungsfall Anwalt benoetigt Beweislastverteilung und Rechtsgrundlagen für Zeugnisstreit oder Klagebegründung. Normen § 109 GewO Anspruchsgrundlage § 611a BGB § 241 Abs. 2 BGB Wohlwollenspflicht BAG-Linie zur Beweislast. Prüfraster Anspruch auf qualifiziertes Zeugnis Beweislast bei Zeugnisstreit Grenzen Wahrheitspflicht Verjährung. Output Rechtliche Einordnung mit BAG-Nachweisen für Klagebegründung oder Verhandlungsstrategie. Abgrenzung zu klage-strategie-zeugnisberichtigung und aufforderungsschreiben-arbeitgeber.
+description: 'Für Rechtliche Bewertung und BAG-Rechtsprechung zum Arbeitszeugnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/rechtliche-bewertung-bag-rechtsprechung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Rechtliche Bewertung und BAG-Rechtsprechung zum Arbeitszeugnis
 
-Das Recht auf ein Arbeitszeugnis ist in § 109 GewO verankert. Der Arbeitnehmer kann ein einfaches oder qualifiziertes Zeugnis verlangen. Das Zeugnis muss wahr und wohlwollend sein — das BAG hat diese beiden scheinbar widersprüchlichen Anforderungen durch seine Rechtsprechung ausdifferenziert: Wahrheit geht vor Wohlwollen, aber Wohlwollen gebietet eine für den Arbeitnehmer förderliche Ausdrucksweise.
+## Fachlicher Anker
 
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Der Anspruch auf Berichtigung eines inhaltlich falschen oder unvollständigen Zeugnisses ergibt sich aus § 109 GewO in Verbindung mit dem allgemeinen Unterlassungsanspruch. Die Klage auf Berichtigung ist vor dem Arbeitsgericht zu erheben und unterliegt keiner kurzen Ausschlussfrist — wohl aber einer Verwirkung, wenn das Zeugnis jahrelang ohne Beanstandung hingenommen wurde.
-
-Die höchstrichterliche Rechtsprechung zur durchschnittlichen Beurteilung ist verfestigt: das BAG hat die Beweislastverteilung bei der Note "befriedigend" mehrfach bestätigt und bekräftigt, dass empirische Erhebungen über tatsächlich erteilte Zeugnisnoten den Maßstab nicht verschieben. Auch wenn statistisch betrachtet die Mehrheit der Zeugnisse heute mit Note 2 oder besser ausgestellt wird, bleibt die Beweislast fixiert auf den Streitpunkt "unter" oder "über" Note 3. Die Tatsachen der Leistungserbringung trägt jeweils die Partei, die die abweichende Note begehrt.
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Der Anspruch auf das Zeugnis verjährt nach der regelmäßigen Verjährungsfrist nach §§ 195, 199 BGB: drei Jahre, beginnend mit dem Schluss des Jahres, in dem das Zeugnis ausgestellt oder verlangt wurde. Praktisch bedeutsamer ist die Verwirkung: bei zweijähriger Untaetigkeit nach Zeugnisempfang kann das Berichtigungsverlangen je nach Einzelfall scheitern, auch wenn die Verjährungsfrist nicht abgelaufen ist.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln (Rechtliche Ebene)
 
 | Rechtsproblem | Rechtsgrundlage | Handlungsempfehlung |
 |---|---|---|
-| Anspruch auf qualifiziertes Zeugnis | § 109 Abs. 1 Satz 3 GewO | Schriftlich verlangen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Geheimcodeformeln in Zeugnis | Anspruch auf wohlwollendes Zeugnis | Berichtigung verlangen |
-| Zeugnis nach BAG-Recht zu berichtigen | § 109 GewO | Klage ArbG, kein Fristproblem |
-| Codewort verstößt gegen Klarheit oder Wohlwollen | § 109 Abs. 2 GewO, BAG-Linie | Berichtigung verlangen, Kontext begründen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
+| Anspruch auf qualifiziertes Zeugnis | Paragraf 109 Abs. 1 Satz 3 GewO | Schriftlich verlangen |
+| Verdeckte negative Aussage | Paragraf 109 Absatz 2 Satz 2 GewO | Wortlaut, Stellung und objektiven Empfängerhorizont prüfen |
+| Zeugnis verletzt Wahrheit oder Klarheit | Paragraf 109 GewO | Konkreten Zielwortlaut verlangen; Ausschlussfrist, Verjährung und Verwirkung prüfen |
+| Codewort verstößt gegen Klarheit oder Wohlwollen | Paragraf 109 Abs. 2 GewO, BAG-Linie | Berichtigung verlangen, Kontext begründen |
 | Drift im selben Themenbereich | Wohlwollensgebot | Aufwertung der schwachen Sätze verlangen |
-| Streitwert Berichtigungsklage | Rechtsprechung Landesarbeitsgerichte | ein Monatsbruttogehalt |
-| Verjährung des Berichtigungsanspruchs | §§ 195, 199 BGB | drei Jahre ab Schluss des Jahres |
-| Verwirkung trotz nicht abgelaufener Verjährung | Treu und Glauben § 242 BGB | Berichtigung innerhalb weniger Monate stellen |
+| Streitwert Berichtigungsklage | Paragraf 3 ZPO in Verbindung mit Paragraf 46 Absatz 2 ArbGG | Antrag, wirtschaftliches Interesse und örtliche Gerichtspraxis prüfen; kein starrer Monatswert |
+| Verjährung des Berichtigungsanspruchs | Paragrafen 195, 199 BGB | drei Jahre ab Schluss des Jahres |
+| Verwirkung trotz nicht abgelaufener Verjährung | Treu und Glauben Paragraf 242 BGB | Berichtigung innerhalb weniger Monate stellen |
 
 ## Beispiele
 
-**Beispiel 1 – Anspruch auf Berichtigung:** Ein Zeugnis enthält "bemüht" (Note 4). Der Arbeitnehmer hat nachweislich gute Beurteilungen in Mitarbeitergesprächen erhalten. Die Berichtigung kann verlangt werden; der Arbeitgeber muss die Schlechterbeurteilung beweisen.
+**Beispiel 1 – Anspruch auf Berichtigung:** Ein Zeugnis enthält "bemüht" und liegt damit unter einer durchschnittlichen Leistungsbewertung. Nach der Linie des BAG vom 14.10.2003 - 9 AZR 12/03 muss der Arbeitgeber die Tatsachen darlegen und beweisen, die eine unterdurchschnittliche Bewertung tragen. Der Arbeitnehmer benennt dennoch seine Gegenbelege und beantragt einen bestimmten Zielwortlaut.
 
 **Beispiel 2 – Beweislast beim Arbeitnehmer:** Der Arbeitnehmer begehrt die Note "sehr gut" (Note 1 bis 2). Er muss konkrete Leistungsnachweise erbringen, die eine Übererfüllung der Anforderungen belegen — allgemeine Zufriedenheitsbekundungen reichen nicht.
 
-**Beispiel 3 – Verwirkung:** Ein Arbeitnehmer nimmt ein Zeugnis mit Note 4 entgegen und beanstandet es erst vier Jahre später. Das Gericht kann Verwirkung des Berichtigungsanspruchs annehmen, wenn ein Vertrauenstatbestand entstanden ist.
+**Beispiel 3 – verspätete Geltendmachung:** Beanstandet ein Arbeitnehmer das Zeugnis erst Jahre später, sind zuerst vertragliche oder tarifliche Ausschlussfristen und die Regelverjährung nach Paragrafen 195, 199 BGB zu prüfen. Verwirkung nach Paragraf 242 BGB setzt zusätzlich zum Zeitablauf konkrete Umstände voraus, aus denen der Arbeitgeber auf die Nichtausübung vertrauen durfte.
 
 **Beispiel 4 – Schlussformel als Signal, nicht Automatismus:** Ein Zeugnis enthält "Wir wünschen ihm alles Gute" ohne Bedauern und ohne Dank. Der Arbeitnehmer war nachweislich beliebt und leistungsstark. Das ist ein Distanzsignal und ein guter Verhandlungspunkt. Als Klagepunkt ist es nur tragfähig, wenn zusätzliche Umstände hinzukommen, etwa ein Vergleichstext, ein bindendes Zwischenzeugnis, eine betriebliche Übung oder ein widersprüchliches Gesamtbild.
 
-**Beispiel 5 – Auskunftspflicht des Arbeitgebers:** In manchen Fällen kann der Arbeitnehmer verlangen, dass der Arbeitgeber erklärt, warum bestimmte Formulierungen gewählt wurden. Das setzt voraus, dass der Arbeitnehmer eine plausible Berichtigung konkret benannt hat.
+**Beispiel 5 – kein allgemeiner Begründungsanspruch:** Der Arbeitgeber muss seine Wortwahl außergerichtlich nicht generell erläutern. Im Berichtigungsprozess greifen Darlegungs- und Beweislastregeln; ein eigenständiger Auskunftsanspruch aus Paragraf 242 BGB kommt nur unter engen Voraussetzungen in Betracht und darf die gesetzliche Beweislast nicht verschieben.
 
 **Beispiel 6 – Codewort als Klarheitsproblem:** Ein Zeugnis enthält bei einem Buchhalter ohne Kassentätigkeit die isolierte Aussage "war ehrlich und korrekt". Die Aussage kann wahr sein, kann aber nach Stellung im Zeugnis und Branchenkontext einen Verdacht wecken. Der Angriff sollte nicht behaupten, jedes Wort "ehrlich" sei verboten, sondern begründen, warum gerade diese Platzierung im Gesamtzusammenhang eine verdeckte negative Aussage erzeugt.
 
 **Beispiel 7 – Drift-Berichtigung:** Ein Zeugnis enthält im Fachbereich eine Maximalformulierung und im Bereich Lernbereitschaft einen Standardsatz. Der Arbeitnehmer kann die Aufwertung der schwachen Sätze verlangen, soweit er die entsprechenden Leistungen substantiiert. Eine uneinheitliche Bewertung ohne Tatsachengrund wird als Widerspruch im Gesamtbild geführt, nicht als bloßes Rechenproblem.
 
-**Beispiel 8 – Streitwert und Vertretungspflicht:** Die Streitwertfestsetzung folgt der staendigen Praxis: ein Monatsbruttogehalt, unabhängig von der Anzahl der beanstandeten Sätze. Eine anwaltliche Vertretung ist im ersten Rechtszug vor dem Arbeitsgericht möglich, aber nicht erforderlich. In komplexen Berichtigungsfällen mit mehreren beanstandeten Punkten ist sie ratsam, weil die Wortlautformulierung des Klageantrags entscheidend ist.
+**Beispiel 8 – Streitwert und Vertretungspflicht:** Das Gericht setzt den Streitwert nach Paragraf 3 ZPO fest; landesrechtliche Streitwertkataloge und örtliche Praxis können Orientierung geben, ersetzen aber keine Einzelfallprüfung. Eine anwaltliche Vertretung ist im ersten Rechtszug vor dem Arbeitsgericht möglich, aber nicht erforderlich. Der Klageantrag muss den verlangten Wortlaut so bestimmt wiedergeben, dass ein stattgebender Titel vollstreckbar ist.
 
-## Ausgabeformat
+## Leitentscheidungs-Anker (vollstaendige BAG-Linie)
 
-Der Skill gibt eine rechtliche Einordnung des Zeugnisses aus: Welche Berichtigungsansprüche bestehen, wie die Beweislast verteilt ist, welche Schritte für eine anwaltliche Zeugnisklage sinnvoll sind und welche Formulierungen nach BAG-Rechtsprechung nicht haltbar sind. Kein Ersatz für anwaltliche Prüfung im Einzelfall.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
 
-## Ergänzende Rechtsprechung
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 20.02.2001 - 9 AZR 44/00** | Beginn der staendigen Linie: kein Anspruch auf Schlussformel mit Dank und guten Wuenschen; Fehlen kein unzulaessiges Geheimzeichen. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 11.12.2012 - 9 AZR 227/11** | Kein Anspruch auf Dank/Wuensche; bei unzufriedener Mandantschaft mit erteilter Schlussformel ist nur ein Zeugnis OHNE Schlussformel einklagbar - keine Umformulierung. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 25.01.2022 - 9 AZR 146/21** | Bestaetigung der Linie; Abwaegung mit Meinungsfreiheit des Arbeitgebers (Art. 5 I GG). | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Versäumnisurt. v. 06.06.2023 - 9 AZR 272/22** | Maßregelungsverbot Paragraf 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in späterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswünsche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 21.09.1999 - 9 AZR 893/98** | Aeussere Form: zweimaliges Falten zulässig, wenn Original kopierfaehig bleibt und Knicke nicht durchschlagen. Wer mit Maschinenname unterzeichnet, muss eigenhaendig unterschreiben. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 27.04.2021 - 9 AZR 262/20** | Tabellarische Ankreuz-/Schulnotenformulare erfuellen Paragraf 109 GewO regelmaessig nicht - individuelle Hervorhebung verlangt Fliesstext. | bundesarbeitsgericht.de / dejure.org |
+| **LAG Hamm, Beschl. v. 14.11.2016 - 12 Ta 475/16** | Ironisch überzogenes Lob ist unzulaessig; Arbeitnehmer hat Anspruch auf geschaeftsuebliche Unterschrift des Ausstellers; quer-laufende Unterschrift weckt Zweifel an Ernsthaftigkeit. | nrwe.de / justiz.nrw.de |
+| **ArbG Kiel, Urt. v. 18.04.2013 - 5 Ca 80 b/13** | In die Unterschrift eingearbeiteter Smiley mit herabgezogenen Mundwinkeln ist ein unzulaessiges Geheimzeichen (Paragraf 109 II 2 GewO). | frei publiziert / dejure-Suche |
+| **BAG, Beschl. v. 07.05.2026 - 8 AZB 25/25** | Im gerichtlichen Vergleich übernommene Pflicht, Zeugnis nach dem ENTWURF des Arbeitnehmers zu erteilen mit Abweichungs-Vorbehalt aus wichtigem Grund, hat vollstreckungsfaehigen Inhalt. | bundesarbeitsgericht.de / dejure.org (vor Schriftsatzverwendung live verifizieren - Entscheidung aus 2026) |
+| **BAG, Urt. v. 08.03.1995 - 5 AZR 848/93** | Zeugniserteilung ist Holschuld (Paragraf 269 BGB): Arbeitnehmer holt im Betrieb ab; nur ausnahmsweise (Unzumutbarkeit, Paragraf 242 BGB) Schickschuld. | bundesarbeitsgericht.de / dejure.org |
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

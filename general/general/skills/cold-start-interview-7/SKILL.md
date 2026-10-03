@@ -5,11 +5,14 @@ description: Practice-profile interview that recommends and installs a starter p
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-builder-hub/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Company profile template
+  path: references/company-profile-template.md
 ---
 
 # /cold-start-interview

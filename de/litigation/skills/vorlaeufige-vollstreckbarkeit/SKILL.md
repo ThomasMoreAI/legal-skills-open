@@ -1,11 +1,11 @@
 ---
 name: vorlaeufige-vollstreckbarkeit
 title: Vorläufige Vollstreckbarkeit
-description: 'Anordnung zur vorlaeufigen Vollstreckbarkeit nach §§ 708-720a ZPO bestimmen: Richter muss die richtige Vollstreckbarkeitsermaechtigungs-Formel formulieren. Normen: § 709 ZPO (Sicherheitsleistung 110%), § 711 ZPO (Schutzantrag Schuldner), § 713 ZPO (vereinfachte Vollstreckbarkeit), § 708 Nr. 2 ZPO (Versaeumnisurteil). Prüfraster: Beschwerdehoehedifferenz, Sicherheitsleistungs-Pflichtteil, Schutzantrag. Output Vollstreckbarkeits-Formel. Abgrenzung: Kostenentscheidung siehe kostenentscheidung-bauen; Berufung siehe berufungsfest-prüfen.'
+description: 'Für Vorläufige Vollstreckbarkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/vorlaeufige-vollstreckbarkeit
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,7 +14,6 @@ language: de
 
 # Vorläufige Vollstreckbarkeit
 
-
 ## Triage zu Beginn
 
 1. Welcher Entscheidungstyp liegt vor — Endurteil, Versäumnisurteil, Anerkenntnisurteil, Beschluss?
@@ -22,24 +21,17 @@ language: de
 3. Ist Berufung statthaft (Beschwer > 600 EUR) — wenn nein: § 713 ZPO (ohne Sicherheit)?
 4. Hat die unterlegene Partei einen Schutzantrag nach § 711 ZPO gestellt?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - § 708 ZPO — Vollstreckbarkeit ohne Sicherheitsleistung (Nr. 1-11 Aufzählung)
-  - Nr. 2: Versäumnisurteil
-  - Nr. 4: Anerkenntnisurteil
-  - Nr. 11: Endurteile bis 1.500 EUR
+ - Nr. 2: Versäumnisurteil
+ - Nr. 4: Anerkenntnisurteil
+ - Nr. 11: Endurteile bis 1.500 EUR
 - § 709 ZPO — Vollstreckbarkeit gegen Sicherheitsleistung von 110 Prozent (Regel)
 - § 711 ZPO — Schutzantrag der unterliegenden Partei
 - § 713 ZPO — keine Sicherheit bei fehlendem Rechtsmittel (Beschwer ≤ 600 EUR)
 - § 719 ZPO — Einstellung der Vollstreckung bei Berufung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Entscheidungsbaum
 
 ```
@@ -48,14 +40,22 @@ Entscheidungstyp?
 ├── Anerkenntnisurteil → § 708 Nr. 4 ZPO (ohne Sicherheit)
 ├── Endurteil bis 1.500 EUR → § 708 Nr. 11 ZPO (ohne Sicherheit)
 └── Endurteil über 1.500 EUR:
-    ├── Berufung statthaft (Beschwer > 600 EUR)? → § 709 ZPO (110 Prozent Sicherheit)
-    │   └── Schutzantrag § 711 ZPO gestellt? → § 711 ZPO Formulierung ergänzen
-    └── Berufung nicht statthaft (Beschwer ≤ 600 EUR, keine Zulassung)? → § 713 ZPO (ohne Sicherheit)
+ ├── Berufung statthaft (Beschwer > 600 EUR)? → § 709 ZPO (110 Prozent Sicherheit)
+ │ └── Schutzantrag § 711 ZPO gestellt? → § 711 ZPO Formulierung ergänzen
+ └── Berufung nicht statthaft (Beschwer ≤ 600 EUR, keine Zulassung)? → § 713 ZPO (ohne Sicherheit)
 ```
 
 ## Output-Template
 
 **Adressat:** Urteil → Tenor (Ziff. 3) — Tonfall: formal-amtlich
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## Vorläufige Vollstreckbarkeit
@@ -83,7 +83,7 @@ Paragraf 709 ZPO - vorläufige Vollstreckbarkeit gegen Sicherheitsleistung von 1
 - Paragraf 708 Nr. 2 ZPO - Versäumnisurteile - ohne Sicherheit
 - Paragraf 708 Nr. 4 ZPO - Anerkenntnisurteile
 - Paragraf 708 Nr. 11 ZPO - bestimmte Endurteile bis 1500 EUR (Repo-Konvention Punkt)
-- Paragraf 711 ZPO - Schutzantrag der unterliegenden Partei (Sicherheitsleistung wegen unverhältnismaessigen Schadens)
+- Paragraf 711 ZPO - Schutzantrag der unterliegenden Partei (Sicherheitsleistung wegen unverhältnismäßigen Schadens)
 - Paragraf 713 ZPO - Beschwer unter 600 EUR und keine Berufung - ohne Sicherheit
 - Paragraf 719 ZPO - Aufhebung bei Berufung
 
@@ -93,10 +93,6 @@ Paragraf 709 ZPO - vorläufige Vollstreckbarkeit gegen Sicherheitsleistung von 1
 - "Das Urteil ist vorläufig vollstreckbar."
 - Bei Schutzantrag: "Der Beklagten wird nachgelassen, die Vollstreckung gegen Sicherheitsleistung in Höhe von 110 von hundert des jeweils zu vollstreckenden Betrages abzuwenden, wenn nicht der Kläger Sicherheit in Höhe des jeweils zu vollstreckenden Betrages leistet."
 
-
 ---
 
-<!-- AUDIT 27.05.2026 -->
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

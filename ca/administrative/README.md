@@ -10,7 +10,7 @@ Jurisdiction: `ca` · Practice: `administrative` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`The Municipal Code of Québec (C-27.1)`](skills/quebec-municipal-law-vezril/) | The Municipal Code of Québec (CQLR c. C-27.1) — the general statute for local (mainly rural) municipalities… |
+| [`The Municipal Code of Québec (C-27.1)`](skills/quebec-municipal-law-vezril/) | The Municipal Code of Québec (CQLR c. C-27.1) — the general statute for local (mainly rural)… |
 
 ## Cold-start context
 

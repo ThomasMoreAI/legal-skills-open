@@ -10,10 +10,18 @@
   "language": "it",
   "skills": [
     "skills/analisi-giurisprudenziale-capazme",
+    "skills/analisi-sinistro",
+    "skills/calcolo-parcella",
     "skills/causa-civile-capazme",
+    "skills/genera-atto",
     "skills/giurisprudenza-lampo",
+    "skills/mappatura-normativa",
+    "skills/parere-legale",
     "skills/procure-quotazioni-capazme",
     "skills/recupero-credito-capazme",
-    "skills/subsunzione-civile-pixari"
+    "skills/redazione-contratto",
+    "skills/ricerca-normativa",
+    "skills/subsunzione-civile-pixari",
+    "skills/verifica-prescrizione"
   ]
 }

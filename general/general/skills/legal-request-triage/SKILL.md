@@ -5,12 +5,18 @@ description: Triage incoming legal requests by classifying type, assigning prior
 author: Happy-Technologies-LLC
 author_url: https://github.com/Happy-Technologies-LLC/happy-platform-skills/tree/main/skills/legal/legal-request-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [legal, triage, request, routing, priority, legal-service-delivery]
+tags:
+- legal
+- triage
+- request
+- routing
+- priority
+- legal-service-delivery
 ---
 
 # Legal Request Triage
@@ -44,10 +50,10 @@ Query for active legal requests that are in a new or unassigned state.
 
 **Using MCP (Claude Code/Desktop):**
 ```
-Tool: SN-NL-Search
+Tool: SN-Query-Table
 Parameters:
   table_name: sn_legal_request
-  query: "new legal requests that are not yet assigned or triaged"
+  query: active=true^assigned_toISEMPTY^ORstate=1
   fields: number,short_description,description,state,priority,request_type,requested_by,opened_at,assignment_group,assigned_to
   limit: 25
 ```
@@ -70,7 +76,7 @@ For each request, analyze the short description and description fields to determ
 
 **Using MCP to retrieve request details:**
 ```
-Tool: SN-Read-Record
+Tool: SN-Get-Record
 Parameters:
   table_name: sn_legal_request
   sys_id: [request_sys_id]
@@ -232,9 +238,9 @@ Parameters:
 
 | Tool | When to Use |
 |------|-------------|
-| `SN-NL-Search` | Natural language queries for legal requests |
+| `SN-Natural-Language-Search` | Natural language queries for legal requests |
 | `SN-Query-Table` | Structured queries for requests, groups, users |
-| `SN-Read-Record` | Retrieve a single legal request by sys_id |
+| `SN-Get-Record` | Retrieve a single legal request by sys_id |
 | `SN-Update-Record` | Update request type, priority, assignment, state |
 | `SN-Add-Work-Notes` | Document triage decisions and rationale |
 

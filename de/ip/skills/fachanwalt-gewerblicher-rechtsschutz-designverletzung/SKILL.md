@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-designverletzung
-title: Mandantenfragen beim Kaltstart
-description: 'Geschmacksmuster- oder Designverletzung prüfen und Ansprüche durchsetzen oder abwehren. §§ 1 2 38 GeschmMG §§ 11 ff. GeschmMG Verletzungsansprüche EU-Geschmacksmuster-VO. Prüfraster: Schutzfähigkeit Neuheit Eigenart Verletzungshandlung Ausnahmen Ansprüche. Output: Verletzungsprüfmemo Abmahnschreiben oder Erwiderung. Abgrenzung: nicht für Marken- oder Urheberrechtsverletzungen.'
+title: Designverletzungen anhand von Schutzwiedergaben und Produktbelegen prüfen
+description: 'Für Fachanwalt Gewerblicher Rechtsschutz Designverletzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/fachanwalt-gewerblicher-rechtsschutz-designverletzung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
 language: de
 ---
+
+# Designverletzungen anhand von Schutzwiedergaben und Produktbelegen prüfen
+
+Lies zuerst die Registerunterlagen, Schutzwiedergaben, Produktabbildungen, Testkaufbelege und die bisherige Korrespondenz. Stelle die konkreten Gestaltungsmerkmale und ihre Belegstellen gegenüber. Liefere eine begründete Verletzungsbewertung mit Gegenargumenten und Beleglücken; bei entsprechendem Auftrag erstelle daraus einen ausformulierten Klage-, Eilantrags- oder Plattformmeldungsentwurf mit eindeutig bezeichnetem Produkt.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -49,7 +55,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Designverletzung
 
@@ -140,7 +145,6 @@ weist kein identisches vorbekanntes Design auf. Es besitzt Eigenart nach
 Designs einen anderen Gesamteindruck erhält: [Ausführung der prägenden Merkmale].
 
 IV. Designverletzung § 38 DesignG
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Kinderwagen I) denselben Gesamteindruck hervor wie das Klagedesign.
 Folgende prägende Gestaltungsmerkmale sind vollständig übernommen:
 [tabellarische Gegenüberstellung Klagedesign vs. Verletzungsmuster].
@@ -176,7 +180,6 @@ vertreiben oder zu bewerben.
 
 Dringlichkeit:
 Kenntnis am [Datum] durch [Testkauf / Hinweis]. Antrag nach [X] Tagen;
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Glaubhaftmachung:
 Anlage EV 1: Eidesstattliche Versicherung [Name];
@@ -231,7 +234,6 @@ den Rechteinhabern autorisiert sind.
 
 | Frist | Inhalt | Norm |
 |-------|--------|------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 Monate | Widerspruch Eintragung bei DPMA | § 42 DesignG |
 | 5 Jahre | Verlängerungsperiode Schutzdauer; max. 25 Jahre | § 47 DesignG |
 | 3 Jahre | Schadensersatzanspruch-Verjährung ab Kenntnis | §§ 195, 199 BGB iVm § 49 DesignG |
@@ -243,7 +245,6 @@ den Rechteinhabern autorisiert sind.
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
 | "Design fehlt Eigenart" | Beklagte | Sachverständigengutachten einholen; Designvergleich mit Stand der Technik aufbereiten; hohe Hürde für Nichtigkeitsgegenklage |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | "Vorveröffentlichung durch Klägerin beseitigt Neuheit" | Beklagte | Neuheitsschonfrist § 5 DesignG (12 Monate) bei Eigenoffenbarung; Datum der Erstveröffentlichung prüfen |
 | "Erschöpfung § 48 DesignG" | Beklagte | War Erstinverkehrbringen durch Rechteinhaber autorisiert? Nachweis der Lieferkette |
 | "Antrag nicht dringlich — zu lange gewartet" | Beklagte | Genaues Kenntnis-Datum dokumentieren; subjektive Dringlichkeit (ab tatsächlicher Kenntnis, nicht Erkennbarkeitszeitpunkt) |
@@ -251,16 +252,16 @@ den Rechteinhabern autorisiert sind.
 
 ## Streitwert und Kosten
 
-**Streitwert Unterlassung:** Typisch EUR 50.000–250.000 je nach Marktbedeutung, Umsatz des Verletzungsprodukts und Marktposition des Klägers.  
+**Streitwert Unterlassung:** Typisch EUR 50.000–250.000 je nach Marktbedeutung, Umsatz des Verletzungsprodukts und Marktposition des Klägers.
 Beispiel: 5.000 Stück verkauft à EUR 30 Verkaufspreis = EUR 150.000 Streitwert realistisch.
 
 **Einstweilige Verfügung:** Streitwert i. d. R. Hauptsachestreitwert voll oder Abschlag bis 1/2.
 
-**Gerichtsgebühren (GKG):**  
-Aus EUR 100.000: Gebühr 3.0 (Klageverfahren) ca. EUR 2.604.  
+**Gerichtsgebühren (GKG):**
+Aus EUR 100.000: Gebühr 3.0 (Klageverfahren) ca. EUR 2.604.
 Einstweilige Verfügung: Gebühr 1.5 ca. EUR 1.302.
 
-**Anwaltsgebühren (RVG, Beispiel EUR 100.000 Streitwert):**  
+**Anwaltsgebühren (RVG, Beispiel EUR 100.000 Streitwert):**
 Verfahrensgebühr 1.3 VV RVG ca. EUR 2.018; Terminsgebühr 1.2 VV RVG ca. EUR 1.863; Einigungsgebühr 1.5 VV RVG ca. EUR 2.018; zzgl. Auslagen, 19 % MwSt.
 
 **Schadensberechnung:**
@@ -302,10 +303,9 @@ Bevor das Designverletzungsverfahren eingeleitet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

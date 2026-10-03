@@ -1,0 +1,59 @@
+---
+name: digital-products-international
+title: Digitale Produkte im internationalen Handel
+description: 'Für Digitale Produkte im internationalen Handel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/digital-products-international
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Digitale Produkte im internationalen Handel
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Digitale Produkte (Software, Datenbanken, KI-Modelle) stellen besondere Herausforderungen für das internationale Handelrecht dar: CISG-Anwendbarkeit auf Software ist umstritten (Körperlichkeit?); EU-RL 2019/770 schafft ein EU-spezifisches Regime für digitale Inhalte. Der AI Act (EU) 2024/1689 reguliert grenzüberschreitenden KI-Einsatz.
+
+## Kernnormen / Kernquellen
+
+- **EU RL 2019/770 Art. 2-3**: Anwendungsbereich — digitale Inhalte und Dienste (auch B2C)
+- **EU RL 2019/770 Art. 7-9**: Vertragsmäßigkeit digitaler Inhalte
+- **AI Act (EU) 2024/1689 Art. 6**: Risikoklassen von KI-Systemen (verboten, hoch, mittel, minimal)
+- **CISG Art. 1-3**: Anwendung auf Software — körperliche vs. unkörperliche Übertragung
+- **§§ 327-327u BGB**: Deutsches Umsetzungsrecht RL 2019/770 (ab 1.1.2022)
+- **DSGVO Art. 44-49**: Datenschutz bei Cloud-Software-Nutzung
+
+## Schlüsselbegriffe
+
+- Körperlichkeit-Anforderung CISG: Software auf Datenträger = CISG; Download = str.
+- Digitale Inhalte RL 2019/770: auch B2B-Anwendbarkeit? (RL nur B2C — B2B nach nationalem Recht)
+- AI-Act Hochrisiko-KI: Verwendungsverbote, Transparenzpflichten, CE-Kennzeichnung
+- SaaS vs. Softwarekauf: Dauerlizenz vs. zeitlich begrenzte Nutzung
+- Open-Source-Lizenzen (GPL, MIT, Apache): Lizenzkompatibilität bei Weitervertrieb
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Software-Download-Kauf: CISG-Anwendbarkeit bei rein digitalem Download?
+2. AI-Act Hochrisiko: Ist ein Kreditscoring-Algorithmus Hochrisiko-KI-System?
+3. SaaS-Vertrag: Welches Recht gilt für Update-Pflicht und Datenverlust?
+4. Open-Source-Copyleft: Kann proprietäre Software GPL-Komponente einbinden ohne Copyleft-Wirkung?
+5. Cloud-Software aus USA: Welche Exportkontrollregeln gelten (EAR-Kryptographie)?
+
+## Methodik
+
+- CISG-Anwendbarkeit: körperliche Verkörperung (Datenträger) entscheidend; bei Zweifel: CISG-Ausschluss
+- AI-Act-Compliance: Risikoklassifikation vor Markteinführung; CE-Kennzeichnung für Hochrisiko
+- SaaS-Vertrag: Service Level Agreements (SLA), Datenschutz (DPA), Exit-Strategie
+- Open-Source-Lizenz-Audit: SBOM (Software Bill of Materials) für Lizenzkonformität

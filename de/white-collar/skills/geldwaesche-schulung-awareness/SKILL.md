@@ -1,78 +1,53 @@
 ---
 name: geldwaesche-schulung-awareness
-title: Schulung und Awareness
-description: Zielgruppengerechte AML/KYC-Schulungen und Awareness-Massnahmen nach § 6 Abs. 2 Nr. 6 GwG. Anwendungsfall jaehrliche Pflichtschulung muss durchgeführt oder neue Mitarbeiter eingearbeitet werden. Normen § 6 Abs. 2 Nr. 6 GwG Schulungspflicht BaFin-Mindestanforderungen FATF-Empfehlungen. Prüfraster Zielgruppen Inhalte Red-Flag-Karten Tests Teilnahmeprotokolle Auffrischungskonzept. Output Schulungspaket mit Kursinhalt Tests Teilnahmeprotokoll und E-Learning-Konzept. Abgrenzung zu geldwäsche-sicherungsmassnahmen-icp und geldwäsche-audit-internal-revision.
+title: 1. Schulung und Wirksamkeitsprüfung
+description: Plant rollenbezogene Geldwäscheschulungen und kontrolliert deren praktische Wirksamkeit. Nutzt getrennte Fallunterlagen für Empfang, Buchhaltung, Kanzlei und Notariat und dokumentiert Nachschulung und Kontrollbefunde ohne reale Meldungen aus Trainingsdaten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-schulung-awareness
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
 language: de
 ---
 
-# Schulung und Awareness
+# 1. Schulung und Wirksamkeitsprüfung
 
-## Triage zu Beginn
-1. Welche Zielgruppe soll geschult werden: Frontoffice, Compliance, Revisoren oder Geschaeftsfuehrung?
-2. Welche Schulungsform ist gefragt: Praesenzschulung, E-Learning, Quiz, Fallstudie oder Auffrischungserinnerung?
-3. Gibt es aktuelle Red Flags oder Vorfaelle, die in die Schulung eingearbeitet werden sollen?
-4. Muss die Schulung Teilnahme und Pruefung protokollieren (Nachweis fuer Aufsicht)?
+## 1. Zweck und Anwendungsfall
 
-## Aktuelle Rechtsprechung und Behoerdenpraxis
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Für Mitarbeiterunterrichtung, Einführung neuer Abläufe und gezielte Kontrolle erkannter Schwächen. Nicht bei jedem Kundenfall automatisch aktivieren.
 
-## Zentrale Normen
-- § 4 Abs. 3 GwG — Mitarbeiterschulung als Pflichtbestandteil interner Sicherungsmaßnahmen
-- § 7 GwG — Geldwäschebeauftragter hat Schulungsverantwortung
-- BaFin AuA GwG Abschn. 4.3 — Mindestanforderungen an AML-Schulungen
-- § 6 Abs. 3 Nr. 1 GwG — Schulung als Teil des risikobasierten Ansatzes
+## 2. Eingaben
 
-## Quellenregel
+Rolle, konkrete Tätigkeit, letzte Schulung, beobachtete Fehler und vorhandene Arbeitsanweisung. Eine kurze Buchhaltungsunterrichtung braucht andere Fälle als ein Notariatstermin.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
+## 3. Ablauf
 
-Dieser Skill macht Geldwäscheprävention verständlich, wiederholbar und prüfbar.
+### 3.1. Tätigkeitsnahe Auswahl
 
-## Wann verwenden
+Empfang: Identitätsunterlagen weiterleiten, keine Identifizierung vortäuschen. Buchhaltung: abweichenden Zahler und Rückzahlungsempfänger erkennen. Notariat: Zahlungsschlüssigkeit und Vollzugsstand auseinanderhalten. Berufsträger: Informationsschutz und unverzügliche Meldeprüfung. Nur einschlägige Fallunterlagen öffnen.
 
-- wenn ein neues AML/KYC-, GwG-, Sanktions- oder Compliance-Thema aufgenommen wird
-- wenn Kunden, wirtschaftlich Berechtigte, Transaktionen, Länder, Produkte oder Vertriebskanäle risikobasiert geprüft werden müssen
-- wenn ein Alert, Treffer, Behördenkontakt, Verdachtsmoment, Pressefall oder Remediation-Projekt vorliegt
+### 3.2. Schulung sicher abgrenzen
 
-## Arbeitsweise
+Schulungsauftrag ausdrücklich feststellen und Unterlagen getrennt von echten Mandaten halten. Keine reale Registermitteilung oder FIU-Meldung aus einem Übungsfall erzeugen oder absenden. Teilnehmerunterlagen enthalten Tatsachen, nicht vorab die Lösung. Besprechung nur auf ausdrücklichen Auswertungsauftrag.
 
-1. **Rolle und Pflichtenkreis klären.** Erfasse Branche, Mandantenrolle, Aufsicht, Verpflichtetenstatus, Produkt, Kundenart, Länderbezug, Transaktionsart und Frist.
-2. **Daten sauber ziehen.** Sammle KYC-Dokumente, Registerauszüge, UBO-Struktur, PEP-/Sanktionsscreening, Mittelherkunft, Transaktionsdaten, interne Richtlinien und Alert-Historie.
-3. **Quellenstand protokollieren.** Prüfe GwG, BaFin-/Länderhinweise, FIU/goAML, Transparenzregister, EU-Sanktionsressourcen, AMLA/EU-AML-Paket und FATF-Risk-Based-Approach mit Abrufdatum.
-4. **Risikobasiert entscheiden.** Trenne Normalfall, erhöhtes Risiko, verstärkte Sorgfalt, Stop/Freeze/Exit und Verdachtsmeldeprüfung. Keine automatische Freigabe bei Datenlücken.
-5. **Verzeihend nachziehen.** Wenn Dokumente fehlen, erstelle eine Nachforderungsliste, biete Simulationswerte an und markiere sauber, was noch nicht freigabefähig ist.
-6. **Arbeitsprodukt liefern.** Erzeuge KYC-Vermerk, Risikoanalyse, Trefferlog, Verdachtsmeldungsentwurf, Richtlinie, Schulung, Audit-Finding, Behördenantwort oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Freigaben, Vier-Augen-Prinzip, Quellen, Fristen, Datenschutz, Mandatsgeheimnis, Aufbewahrung, Löschung und Auditierbarkeit.
+### 3.3. Wirksamkeit beobachten
 
-## Rückfragen, wenn unklar
+Teilnehmer soll den richtigen nächsten Schritt und fehlenden Beleg nennen können. Stichprobe echter Prozessnachweise nur bei entsprechender Berechtigung und mit erforderlicher Begrenzung. Befund, betroffene Kontrolle, Korrektur und Nachkontrolle dokumentieren; Teilnahme allein beweist keine wirksame Umsetzung.
 
-- Welche Branche, Rolle und Aufsichtszuständigkeit hat der Mandant?
-- Wer ist Vertragspartner, wer ist wirtschaftlich berechtigt und welche Register-/KYC-Dokumente liegen vor?
-- Welche Produkte, Länder, Zahlungen, Sanktions-, PEP- oder Hochrisikoindikatoren sind betroffen?
-- Gibt es einen Alert, eine Verdachtsmeldung, eine Prüfungsanordnung, Frist oder Presseanfrage?
-- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+### 3.4. Anlass zur Wiederholung
 
-## Ausgabeformat
+GwG Paragraf 6 Absatz 2 Nummer 6 und gegebenenfalls Nummer 7 zugrunde legen. Änderungen, neue Aufgaben und Fehlbefunde bestimmen den Schulungsbedarf; eine gesetzliche universelle Jahresfrequenz nicht erfinden.
 
-- Kurzlage mit Risikoampel und Sofortmaßnahmen
-- KYC-/UBO-/Sanktions- oder Monitoring-Matrix mit Quellenstand
-- Entscheidungsvorschlag mit Freigabe-, Eskalations- oder Stop-Workflow
-- prüfbarer Entwurf für Richtlinie, Verdachtsmeldung, Behördenantwort, Schulung oder Remediation
-- offene Annahmen, fehlende Nachweise und Review-Hinweise
+## 4. Quellenpflicht
 
-## Typische Fehler vermeiden
+GwG Paragraf 6, Aufsichtsvorgaben und [Rechtsstand](../../references/rechtsstand-2026-und-eu-uebergang.md). Den Unterschied zwischen GwGMeldV seit März 2026 und AMLR ab Juli 2027 ausdrücklich üben.
 
-- Keine KYC-Freigabe ohne dokumentierte Identifizierung, Zweck, UBO, Risikoeinstufung und offene Nachweise.
-- Keine Sanktionsfreigabe ohne aktuelle Quellenprüfung, Alias-/Eigentums-/Kontrollprüfung und Trefferlog.
-- Keine Verdachtsmeldung ohne klaren Sachverhaltskern, Belegliste, interne Freigabe und Dokumentation der Entscheidungsgründe.
-- Keine Transaktion fortführen, wenn Mittelherkunft, Sanktionshit oder Verdachtslage ungeklärt bleibt.
-- Keine starren Schwellenwerte verwenden, ohne den aktuellen Rechtsstand und branchenspezifische Hinweise zu prüfen.
-- Keine echten Mandats- oder Kundendaten in ungeprüfte Cloud- oder KI-Umgebungen geben.
+## 5. Ausgabeformat
+
+Ausformulierter Ablauf mit konkretem Fall, Lernfrage, Verantwortlichem und Nachweis; Kontrollbericht mit festgestelltem Verhalten, nicht nur Häkchen. Times New Roman 11 pt, dezimale Gliederung.
+
+## 6. Beispiele
+
+Ein Mitarbeiter kennt die Meldefrist, aber der befugte Vertreter fehlt. Die Nachschulung wird um einen tatsächlichen Vertretungs- und Zugriffscheck ergänzt statt nur dieselben Folien erneut zu versenden.

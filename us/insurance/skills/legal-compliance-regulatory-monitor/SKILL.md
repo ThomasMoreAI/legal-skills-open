@@ -5,11 +5,24 @@ description: Collect and maintain upstream compliance intelligence for financial
 author: scanady
 author_url: https://github.com/scanady/nexus-agents/tree/main/skills/legal-compliance-regulatory-monitor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: insurance
 language: en
+sources:
+- title: Alternative language strategy
+  path: references/alternative-language-strategy.md
+- title: Change monitoring and governance
+  path: references/change-monitoring-and-governance.md
+- title: Compliance standards register schema
+  path: references/compliance-standards-register-schema.md
+- title: Federal state research playbook
+  path: references/federal-state-research-playbook.md
+- title: Output templates
+  path: references/output-templates.md
+- title: Source priority and evidence grading
+  path: references/source-priority-and-evidence-grading.md
 ---
 
 # Compliance Research Analyst

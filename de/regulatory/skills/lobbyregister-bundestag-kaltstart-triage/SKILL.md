@@ -1,0 +1,286 @@
+---
+name: lobbyregister-bundestag-kaltstart-triage
+title: Interessenvertretung und Registervorgang einordnen
+description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Lobbyregister Bundestag.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/lobbyregister-bundestag/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+sources:
+- title: Fachmodule
+  path: references/fachmodule.md
+---
+
+# Interessenvertretung und Registervorgang einordnen
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage gezielt nach fehlenden Kontaktangaben, Auftraggebern oder Änderungsdaten, wenn sie Pflicht oder Eintrag verändern. Fehlende Tatsachen bleiben offen; vorhandene Unterlagen zuerst lesen und keine Annahmen in Registerfelder übernehmen.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Schnellstart-Workflow
+
+Bestimme aus Kontaktvermerken und vorhandenem Eintrag, ob eine Pflichtprüfung, Registrierung, Änderung oder Antwort an die registerführende Stelle bestellt ist. Arbeite auf dieses Ergebnis hin; die Auswahl weiterer Skills ist nur eine optionale Vertiefung.
+
+**Plugin-Fokus:** Lobbyregister-Bundestag-Superplugin mit 50 geführten Skills für Registrierungspflicht, Ausnahmen, Registereintrag, Regelungsvorhaben, Stellungnahmen, Finanzdaten, Aktualisierung, Verhaltenskodex, Meldung von Verstößen und Fristen nach LobbyRG.
+
+### 0. Stummer Upload — Material ohne Begleittext
+
+Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+
+**Pflicht-Reihenfolge bei stummem Upload:**
+
+1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
+2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
+3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
+4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
+5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
+6. **Gezielte Rückfragen:** Kläre fehlende Angaben zum konkreten Kontakt oder Datenfeld. Nach der Antwort den betroffenen Eintrag aktualisieren; weitere Fragen nur bei neuen entscheidenden Lücken.
+
+**Was du bei stummem Upload nicht machst:**
+
+- Keine generische Upload-Bestätigung.
+- Keine vollständige Intake-Liste aus Abschnitt 1.
+- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
+- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
+
+**Antwortformat bei stummem Upload:**
+
+- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
+- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
+- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
+- **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
+- **Alternativen:** `...`, `...`
+- **Nächster Schritt:** [bestellten Entwurf bearbeiten oder konkret fehlenden Nachweis erfragen]
+
+### 1. Intake in 60 Sekunden
+
+Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
+
+| Punkt | Frage | Warum wichtig? |
+|---|---|---|
+| Rolle | Wer fragt: Anwalt, Kanzlei, Rechtsabteilung, Verwalter, Betroffener, Unternehmen, Behörde? | Perspektive und Ton bestimmen. |
+| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
+| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
+| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
+| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
+| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
+| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
+
+### 2. Sofort-Triage
+
+Arbeite danach in dieser Reihenfolge:
+
+1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
+2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
+3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Zum Dokument weiterarbeiten:** Fehlt die Auftraggeberkette, Vertrag oder Weiterbeauftragung gezielt nachfordern. Fehlt ein Finanzbeleg, Zeitraum und Zuordnung klären. Nach Eingang die betroffenen Registerfelder beziehungsweise Berechnungen ändern und die bestellte Fassung vervollständigen.
+6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
+
+### 3. Routing-Regeln
+
+- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
+- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
+- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
+- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
+- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
+- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
+
+### 4. Antwortformat für den Einstieg
+
+Nur bei noch unklarem Auftrag kann die folgende Übersicht helfen. Bei klarem Auftrag direkt an den bestellten Feldtexten, der Stellungnahme oder dem Memo arbeiten; keine Skilltabelle als Pflichtvorspann ausgeben.
+
+**Kurzbild**
+- Ziel: [...]
+- Rolle/Perspektive: [...]
+- Eilt wegen: [...]
+- Fehlende Unterlagen: [...]
+
+**Vorgeschlagener Workflow**
+1. [...]
+2. [...]
+3. [...]
+
+**Passende Skills aus diesem Plugin**
+| Skill | Warum jetzt? | Erwarteter Output |
+|---|---|---|
+| `...` | [...] | [...] |
+
+**Nächste Frage**
+[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
+
+### 5. Fachmodule gezielt und sparsam laden
+
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
+
+## Worum geht es?
+
+Das Lobbyregister-Bundestag-Plugin unterstuetzt Unternehmen, Verbaende, Agenturen und deren Berater bei der vollstaendigen Erfullung der Pflichten nach dem Lobbyregistergesetz (LobbyRG). Es begleitet den gesamten Lebenszyklus eines Registereintrags: von der Registrierungspflichtpruefung über die Erstregistrierung und laufende Aktualisierung bis zur Meldung von Verstoessen und der Erstellung interner Compliance-Strukturen.
+
+Das Plugin adressiert alle Normen der §§ 1 bis 7 LobbyRG sowie ergaenzende Materialien wie das Handbuch der registerfuehrenden Stelle (Bundestag-Verwaltung). Es ist kein Rechtsberatungsersatz, sondern ein strukturiertes Prüfwerkzeug.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie wollen prüfen, ob Ihre Organisation ueberhaupt registrierungspflichtig ist (§ 2 LobbyRG).
+- Sie stehen am Anfang eines neuen Lobbyregister-Mandats und suchen den richtigen Einstiegspunkt.
+- Sie wollen verstehen, welcher der 50 Skills für Ihre aktuelle Fragestellung zuständig ist.
+- Sie haben eine Frist (unverzuegliche Aktualisierung, Quartalsfrist, Jahresbestaetigung) und müssen schnell handeln.
+- Sie sind Public-Affairs-Agentur oder Kanzlei und verwalten mehrere Mandate gleichzeitig.
+
+## Fachbegriffe (kurz erklaert)
+
+- **LobbyRG** — Lobbyregistergesetz; Bundesgesetz, das Interessenvertreter verpflichtet, sich beim Deutschen Bundestag zu registrieren.
+- **Interessenvertretung** — Jede Kontaktaufnahme zur unmittelbaren oder mittelbaren Einflussnahme auf Willensbildungs- oder Entscheidungsprozesse nach § 1 LobbyRG.
+- **Registrierungspflicht** — Besteht bei regelmäßiger, auf Dauer angelegter oder geschäftsmäßiger Interessenvertretung oder mehr als 30 Kontakten in drei Monaten (§ 2 Abs. 1 LobbyRG).
+- **Registerfuehrende Stelle (RfS)** — Die Verwaltung des Deutschen Bundestags; sie prüft Eintraege, fuehrt Bussgeldverfahren durch und ist Ansprechpartnerin bei Korrekturen.
+- **Verhaltenskodex** — Verpflichtende Selbstverpflichtung nach § 5 LobbyRG zu Offenheit, Transparenz und Integritaet bei jedem Kontakt mit Adressaten.
+- **Drehtuer** — Regelung, die frueheres Amt oder Mandat in Bundestag oder Bundesregierung offenzulegen verlangt (§ 3 LobbyRG).
+- **Finanzielle Aufwendungen** — Alle Personal- und Sachkosten im Bereich Interessenvertretung; Angabepflicht in Bandbreiten nach § 3 LobbyRG.
+- **Hausausweis** — Tagesausweis für Bundestagsgebaeude; nach § 6 LobbyRG nur für registrierte Interessenvertreter zugaenglich.
+
+## Rechtsgrundlagen
+
+- § 1 LobbyRG — Begriff der Interessenvertretung und Adressatenkreis.
+- § 2 LobbyRG — Registrierungspflicht und Ausnahmen.
+- § 3 LobbyRG — Pflichtinhalt des Registereintrags.
+- § 4 LobbyRG — Registerführung, öffentliche/nicht öffentliche Inhalte, Jahresbestätigung und Bestätigungsvermerk.
+- § 5 LobbyRG — Verhaltenskodex.
+- § 6 LobbyRG — Rechtsfolgen der Registrierung (Hausausweis, Anhörungen).
+- § 7 LobbyRG — Bussgeldtatbestaende und Sanktionen.
+
+## Schritt-für-Schritt: Einstieg ins Plugin
+
+1. Mandantenkonstellation klären: Unternehmenstyp, Kontaktplaene, Auftraggeber, bestehender Portaleintrag oder Erstregistrierung.
+2. Registrierungspflicht prüfen: Skill `registrierungspflicht-schwellen` und `interessenvertretung-begriff` verwenden.
+3. Falls Ausnahme möglich: `ausnahmen-bundestag` oder `ausnahmen-bundesregierung` prüfen.
+4. Passendes Themen-Cluster auswaehlen (siehe Skill-Tour unten).
+5. Eilfristen beachten: unverzuegliche Aktualisierung oder Quartalsfrist via `fristen-und-quartalsmonitor`.
+
+## Skill-Tour (was gibt es hier?)
+
+**Pflicht und Abgrenzung**
+
+- `registrierungspflicht-schwellen` — Prüft § 2 Abs. 1 LobbyRG: Schwellen für Registrierungspflicht (regelmaessig, auf Dauer, 30-Kontakte-Regel).
+- `interessenvertretung-Begriff` — Klaert, ob ein Kontakt ueberhaupt Interessenvertretung nach § 1 LobbyRG ist.
+- `ausnahmen-bundestag` — Prüft Ausnahmen von der Registrierungspflicht gegenueber Bundestagsadressaten.
+- `ausnahmen-bundesregierung` — Prüft Ausnahmen gegenueber Bundesregierung und Ministerien.
+- `freiwillige-registrierung` — Beraet zu Rechten und Pflichten bei freiwilliger Eintragung nach § 2 Abs. 5 LobbyRG.
+- `adressatenkreis-bundestag-bundesregierung` — Kartiert, wer Adressat nach § 1 LobbyRG ist.
+
+**Erstregistrierung und Portalworkflow**
+
+- `lobbyregister-intake-mandat` — Strukturiertes Erstgespraech vor jeder Lobbyregister-Prüfung.
+- `lobbyregister-kommandocenter` — Master-Routing für alle Lobbyregister-Mandate.
+- `end-to-end-registrierungswizard` — Gefuehrter Gesamtfür die komplette Registrierungsmappe.
+- `erstregistrierung-ausfuellen` — Schritt-für-Schritt durch den Portal-Ersteintrag.
+- `portal-account-rollen` — Plant Administrationskonto, Rollen und Zugriffsschutz.
+- `personen-organisationstyp` — Bestimmt, welcher Organisationstyp einzutragen ist.
+- `bestaetigungsdokument-freigabe` — Unterzeichner, Leitungsperson und Freigabe vor Eintragung.
+- `registereintrag-finalcheck` — Prüft vor Freigabe Vollstaendigkeit, Richtigkeit und Aktualitaet.
+
+**Stammdaten und Inhalt**
+
+- `taetigkeitsbeschreibung` — Formuliert die allgemeine Taetigkeitsbeschreibung der Interessenvertretung.
+- `interessen-und-vorhabenbereiche` — Ordnet Interessen- und Vorhabenbereiche zu.
+- `regelungsvorhaben-erfassen` — Erfasst konkrete Regelungsvorhaben für den Eintrag.
+- `betraute-personen` — Ermittelt Personen, die mit Interessenvertretung betraut sind.
+- `vertretungsberechtigte-personen` — Ermittelt gesetzliche Vertretungen und Zeichnungsberechtigte.
+- `mitgliedschaften-mitgliederzahl` — Erfasst Mitgliederzahl und relevante Mitgliedschaften.
+- `hauptstadtrepraesentanz` — Prüft, ob eine Berliner Geschäftsstelle anzugeben ist.
+
+**Finanzdaten**
+
+- `finanzaufwendungen-berechnen` — Berechnet finanzielle Aufwendungen nach § 3 LobbyRG.
+- `hauptfinanzierungsquellen` — Strukturiert Hauptfinanzierungsquellen und grenzt Einnahmearten ab.
+- `öffentliche-zuwendungen` — Prüft Zuwendungen der öffentlichen Hand mit Schwellenwerten.
+- `schenkungen-sponsoring` — Prüft Schenkungen und Zuwendungen Dritter.
+- `jahresabschluss-rechenschaftsbericht` — Prüft Bereitstellungspflicht für Jahresabschluss oder Rechenschaftsbericht.
+
+**Spezialkonstellationen**
+
+- `auftraggeber-ermitteln` — Erfasst Auftraggeber bei Interessenvertretung für Dritte.
+- `fremdmandat-agenturfall` — Spezialfür Public-Affairs-Agenturen mit mehreren Mandanten.
+- `konzern-netzwerk-plattform` — Lobbyregisterfragen bei Konzernen, Verbaenden, Netzwerken.
+- `unterauftragnehmer-erfassen` — Prüft Unterauftragsverhaeltnisse und eingesetzte Personen.
+- `drehtuer-angaben` — Fuehrt durch Angaben zu frueherem Amt oder Mandat in Politik und Verwaltung.
+- `anonymisierung-schutzantrag` — Prüft Beschraenkung der Veroeffentlichung bei schutzwuerdigen Interessen.
+- `datenschutz-nichtöffentliche-angaben` — Ordnet öffentliche und nicht öffentliche Angaben.
+
+**Aktualisierung und Fristen**
+
+- `aktualisierung-unverzueglich` — Steuert unverzuegliche Updates bei Stammdaten und Personenaenderungen.
+- `geschaeftsjahresaktualisierung` — Jaehrliche vollstaendige Überprüfung und Bestaetigung.
+- `fristen-und-quartalsmonitor` — Baut Fristenkalender für alle Updatepflichten und Nachholfristen.
+- `nicht-aktualisiert-risiko` — Prüft Kennzeichnung nicht aktualisiert und Rettungsplan.
+
+**Stellungnahmen und Gutachten**
+
+- `stellungnahmen-gutachten-upload` — Prüft Bereitstellungspflicht und Quartalsfrist für Stellungnahmen.
+
+**Verhaltenskodex und Compliance**
+
+- `verhaltenskodex-integritaet` — Operationalisiert Offenheit, Transparenz und Integritaet nach § 5 LobbyRG.
+- `erstkontakt-offenlegung` — Formuliert Offenlegung beim erstmaligen Kontakt mit Adressaten.
+- `hausausweis-und-anhoerung` — Prüft Auswirkungen des Registerstatus auf Tagesausweis und Anhörungen.
+- `interne-lobbyregister-richtlinie` — Erstellt interne Richtlinie für Rollen, Meldewege und Schulung.
+- `visitenkarte-und-nachweise` — Nutzt Registerauszug und interne Nachweise für Compliance-Akte.
+
+**Sanktionen und Meldungen**
+
+- `bussgeld-und-pruefverfahren` — Reaktionsbei RfS-Prüfung, Anhörung und Bussgeldrisiko.
+- `verstoesse-melden` — Fuehrt durch Meldung moeglicher Verstoesse an die registerfuehrende Stelle.
+- `registerfuehrende-stelle-kontakt` — Bereitet Anfragen an die RfS und Korrekturen vor.
+
+**Monitoring und Dokumentation**
+
+- `benachrichtigungskonto-monitor` — Richtet Beobachtung von Registereintraegen und Entwicklungen ein.
+- `suche-open-data-monitor` — Nutzt Suche und Open-Data-API für Compliance- und Gegenpruefung.
+- `dokumentationsakte-revisionsspur` — Baut Aktenstruktur für Belege, Freigaben und Portal-Screenshots.
+
+**Beendigung und Archivierung**
+
+- `fruehere-interessenvertretung-exit` — Fuehrt durch Anzeige, dass keine Pflicht mehr besteht, und Archivierung.
+
+## Worauf besonders achten
+
+- **Unverzueglichkeitspflicht** — Jede wesentliche Änderung (Personen, Taetigkeitsbeschreibung, Auftraggeber) muss ohne schuldhaftes Zoegern im Portal aktualisiert werden; Versaeumnisse erzeugen Bussgeldrisiko nach § 7 LobbyRG.
+- **Ausnahmepruefung zuerst** — Viele Kanzleien und Beratungen gehen reflexartig von Registrierungspflicht aus; eine sorgfaeltige Ausnahmepruefung nach § 2 Abs. 2 und 3 LobbyRG spart Aufwand.
+- **Irrefuehrungs-Verbot** — Eintraege müssen prüfbar und nicht irrefuehrend formuliert sein; zu allgemeine Taetigkeitsbeschreibungen können als Verschleierung gewertet werden.
+- **Agenturfall trennen** — Bei Fremdmandaten müssen Auftraggeber und die jeweils beauftragte Interessenvertretung klar getrennt sein; das Vermischen von Mandaten im selben Eintrag ist ein klassischer Fehler.
+- **Bereitstellung Stellungnahmen** — Grundlegende Stellungnahmen oder Gutachten zu Regelungsvorhaben sind nach § 3 LobbyRG registertauglich bereitzustellen; Frist und Portalpraxis vor Ausgabe live prüfen.
+
+## Typische Fehler
+
+- Kontakte, die tatsaechlich Serviceanfragen oder rein lokale Anliegen sind, werden faelschlicherweise als registrierungspflichtige Interessenvertretung behandelt.
+- Die Drehtuer-Angaben werden vergessen oder zu eng ausgelegt (nur letzter Job statt alle relevanten fuenf Jahre).
+- Schutzantraege werden nicht gestellt, obwohl schutzwuerdige Interessen von Personen vorliegen.
+- Finanzdaten werden ohne Prüfung der aktuellen Schwellenwerte und Bandbreiten eingetragen.
+- Portal-Konten werden ohne Zwei-Personen-Freigabeprozess betrieben, was bei Personalwechseln zu Kontrollverlust fuehrt.
+
+## Quellen und Aktualitaet
+
+Liefere bestellte Enddokumente in vollständigen Sätzen unter dem gewünschten Dateinamen. Offene wesentliche Angaben begrenzen nur die betroffenen Teile; nach ihrer Klärung weiterarbeiten. Portaländerung und externe Kontaktaufnahme nur nach Freigabe. Technische Prüfnotizen getrennt halten; formatierte Begleitdokumente in Times New Roman 11 Punkt mit dezimaler Gliederung.
+
+- Stand: 05/2026
+- Lobbyregistergesetz (LobbyRG) in der Fassung nach dem Änderungsgesetz vom 15.01.2024 (in Kraft 01.03.2024). Wesentliche Neuerungen: Adressatenkreis ab Referatsleiterebene; konkrete Angabe der Regelungsvorhaben und betroffenen Bereiche; Upload-Pflicht für Stellungnahmen und Gutachten von grundsaetzlicher Bedeutung; Uebergangsfrist Bestandseintraege 01.03.2024 bis 30.06.2024.
+- Konsolidierte Fassung LobbyRG 2024: https://www.bundestag.de/resource/blob/991838/Konsolidierte-Fassung-LobbyRG-2024.pdf
+- Handbuch der registerfuehrenden Stelle des Deutschen Bundestags
+- Bundestag Hinweise zur Rechtslage ab 01.03.2024: https://www.lobbyregister.bundestag.de/informationen-und-hilfe/informationen-zur-neuen-rechtslage-ab-dem-1-maerz-2024-955618
+- Lobbyregister-Portal: https://www.lobbyregister.bundestag.de

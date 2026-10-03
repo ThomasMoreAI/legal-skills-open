@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-handelsvertreterausgleich
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu fachanwalt handels gesellschaftsrecht handelsvertreterausgleich. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Handelsvertreterausgleich aus Vertrags- und Provisionsunterlagen aufbereiten
+description: 'Für Fachanwalt Handels Gesellschaftsrecht Handelsvertreterausgleich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/fachanwalt-handels-gesellschaftsrecht-handelsvertreterausgleich
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: commercial
 language: de
 ---
+
+# Handelsvertreterausgleich aus Vertrags- und Provisionsunterlagen aufbereiten
+
+Lies zuerst Handelsvertretervertrag, Beendigungsschreiben, bisherige Geltendmachung sowie Kunden- und Provisionsabrechnungen. Trenne belegte Rechengrößen von Prognoseannahmen und prüfe die dokumentierten Beendigungs- und Zugangsdaten. Liefere eine nachvollziehbare Ausgleichsberechnung mit begründeten Annahmen und Gegenargumenten; ergänze je nach Auftrag ein ausformuliertes Forderungsschreiben, eine Erwiderung oder einen Klageentwurf.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -43,7 +49,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Berechnungsschema Münchener Modell
 
@@ -241,10 +246,8 @@ Schreiben vom [Datum] (Anlage K 6) wahrt die Jahresfrist.
 |--------------|---------|----------|
 | "Eigenkündigung des HV — § 89b Abs. 3 Nr. 1 HGB" | Unternehmer | Nachweis wichtiger Grund (unzumutbares Verhalten des Unternehmers); oder Alter/Krankheit des HV |
 | "Keine Neukunden geworben — nur Bestandspflege" | Unternehmer | Provisionsabrechnungen detailliert aufschlüsseln; Anteil Neukunden- vs. Bestandsprovisionen |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | "Jahresfrist versäumt" | Unternehmer | Fristenwahrung durch anwaltliches Schreiben belegen; Datum des Poststempels |
 | "Kein Handelsvertreter sondern Arbeitnehmer" | Unternehmer | Selbständigkeit nach § 84 HGB: kein Weisungsrecht des Unternehmers über Arbeitszeit und -ort; Beweise für unternehmerische Freiheit |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -265,7 +268,6 @@ Schreiben vom [Datum] (Anlage K 6) wahrt die Jahresfrist.
 | Jahresfrist droht zu verstreichen | Sofort Geltendmachungsschreiben mit vorläufiger Berechnung | § 89b Abs. 4: Frist ist materiell-rechtlich; Versäumnis = endgültiger Verlust |
 | Unternehmer verweigert Provisionsauskünfte | Auskunftsklage vorbereiten; § 87c HGB Provisionsauskunftspflicht | Ohne Zahlen keine Hauptsacheklage bezifferbar |
 | Starke Marke des Unternehmers | EuGH Semen einsetzen; Provisionsverluste als Mindestuntergrenze verteidigen | Reine Billigkeitskürzung unzulässig |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 

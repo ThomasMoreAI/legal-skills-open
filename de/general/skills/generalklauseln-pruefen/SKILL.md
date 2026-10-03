@@ -1,11 +1,11 @@
 ---
 name: generalklauseln-pruefen
 title: Generalklauseln prüfen
-description: Prüft Generalklauseln wie Treu und Glauben (§ 242 BGB), gute Sitten (§ 138 BGB), billiges Ermessen, öffentliches Interesse und Verhältnismäßigkeit. Gibt Indizien und Fallgruppen statt mechanischer Subsumtion. Warnt vor der Grenzen automatisierter Prüfung.
+description: 'Für Generalklauseln prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/generalklauseln-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Generalklauseln prüfen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn — kläre vor der Generalklausel-Prüfung
 
@@ -22,10 +30,6 @@ language: de
 4. Besteht ein Zeit- und Umstandsmoment für Verwirkung? — beide kumulativ erforderlich
 5. Welche Fallgruppe der Generalklausel ist primär einschlägig? → System listet Fallgruppen
 
-## Zweck
-
-Generalklauseln entziehen sich per definitionem der rein mechanischen Subsumtion. Dieser Skill liefert anerkannte Fallgruppen, Indizien und Auslegungsmaßstäbe, die als Orientierung dienen. Das System gibt ausdrücklich keine abschließende Bewertung bei Generalklauseln — es benennt Indizien, keine Ergebnisse.
-
 ## Zentrale Normen
 
 - § 242 BGB — Treu und Glauben (Fallgruppen: Verwirkung, venire contra factum proprium, exceptio doli generalis)
@@ -33,10 +37,6 @@ Generalklauseln entziehen sich per definitionem der rein mechanischen Subsumtion
 - § 315 BGB — Billiges Ermessen bei einseitiger Leistungsbestimmung
 - Art. 20 Abs. 3 GG — Verhältnismäßigkeitsgrundsatz im öffentlichen Recht
 - Art. 5 Abs. 4 EUV — Verhältnismäßigkeit auf EU-Ebene
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Wichtige Generalklauseln
 
@@ -55,8 +55,8 @@ Generalklauseln entziehen sich per definitionem der rein mechanischen Subsumtion
 Zeitmoment: Ungewöhnlich lange Nichtausübung?
 ├─ Nein → keine Verwirkung
 └─ Ja → Umstandsmoment: Hat Schuldner auf Nichtgeltendmachung vertraut und disponiert?
-         ├─ Nein → keine Verwirkung
-         └─ Ja → Verwirkung prüfbar; aber: Wertungsfrage des Gerichts
+ ├─ Nein → keine Verwirkung
+ └─ Ja → Verwirkung prüfbar; aber: Wertungsfrage des Gerichts
 ```
 
 ### § 138 BGB — Sittenwidrigkeit
@@ -65,7 +65,6 @@ Zeitmoment: Ungewöhnlich lange Nichtausübung?
 
 **Fallgruppen:**
 - Wucherische Rechtsgeschäfte (§ 138 Abs. 2 BGB): Ausbeutung einer Zwangslage, Leichtsinn oder Unerfahrenheit
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bürgschaftsverträge von einkommensschwachen Angehörigen (BGH ständige Rechtsprechung)
 - Knebelungsverträge, Schmiergeldabreden
 
@@ -82,9 +81,6 @@ Im öffentlichen Recht: Geeignetheit, Erforderlichkeit, Angemessenheit (Überma�
 
 Bei einseitiger Leistungsbestimmung: Das System prüft, ob die Bestimmung sich im Rahmen des Üblichen und Sachgerechten hält. Indizien: Marktvergleich, frühere Vertragspraxis, Begründung der Bestimmung.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 Das System gibt:
@@ -97,7 +93,4 @@ Das System gibt:
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
 
-<!-- AUDIT 27.05.2026 bundle_044
-  → Vollzitat-Zeile und Fundstellen-Verweis NJW 2021, 1952 gelöscht
-  → kein Ersatz eingetragen (keine verifizierte Alternative gefunden)
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

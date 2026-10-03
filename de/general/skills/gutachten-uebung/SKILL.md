@@ -1,11 +1,11 @@
 ---
 name: gutachten-uebung
 title: Gutachtenstil-Übung
-description: 'Gutachten Uebung für Jurastudium und Examensvorbereitung: Anwendungsfall Student bearbeitet Uebungsfall und soll Klausurtechnik Gutachtenstil Subsumtion und Zeitmanagement trainieren. Gutachtenstil mit Obersatz Definiton Subsumtion Ergebnis, Tatbestaende, Methodenlehre Buergerliches Recht Strafrecht öffentliches Recht. Prüfraster Gutachten-Schema korrekt, Definitionen vollständig, Subsumtion in richtiger Reihenfolge, Zeitlimit simuliert. Output kommentierte Musterlösung mit Hinweisen zu Klausurtechnik. Abgrenzung zu Subsumtionslehre für reine Methodik und zu Examensvorbereitung-Fragen.'
+description: 'Für Gutachtenstil-Übung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jurastudium/skills/gutachten-uebung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,20 +14,18 @@ language: de
 
 # Gutachtenstil-Übung
 
-## Zweck
+## Arbeitsweg
 
-Der Gutachtenstil ist die Grundtechnik jeder deutschen Juristenklausur. Er folgt dem Schema:
-
-**Obersatz → Definition → Subsumtion → Ergebnis**
-
-Diese Skill bewertet die Struktur einer eingereichten Klausurbearbeitung oder erzeugt einen Übungssachverhalt, auf den der Nutzer eine Lösung schreibt. Feedback ist strukturell und inhaltlich, aber die Klausur wird nie umgeschrieben — das ist Lernarbeit des Studierenden.
-
-**Kein Umschreiben. Die Unterlagen lassen die rechtliche Einordnung offen.** Der Skill zeigt Defizite, benennt Techniken, gibt maximal ein bis zwei markierte Formulierungsbeispiele zu Demonstrationszwecken — nie zur Übernahme.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DRiG § 5a Studiendauer 9 Semester (Regelstudienzeit), Freischuss-Frist (i.d.R. 8 Semester nach JAG), Wiederholungsfrist, Hausarbeit 4-6 Wochen.
+- Tragende Normen verifizieren: DRiG §§ 5, 5a, 5b (Erste Prüfung), JAG der Länder, JAPO Bayern, JAG NRW, BBesG (Referendariat), Hochschulgesetze, Studienordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Justizprüfungsamt (Landesjustizverwaltung), Universität, Repetitorium, Klausurleiter, Mündliche-Prüfungs-Kommission.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Klausurgutachten (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis), Hausarbeit, Aktenvortrag (Referendar), Probeklausur, Prüfungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
 - **Sachverhalt** (eigener Übungssachverhalt oder skill-generierter Klausurfall)
-- **Lösung des Studierenden** (als Text einfügen)
+- **Lösung des Studentenn** (als Text einfügen)
 - **Rechtsgebiet** (BGB AT, Schuldrecht, Sachenrecht, StGB AT/BT, VerwR, Öffentliches Recht etc.)
 - **Prüfungsformat** (Erste Prüfung / Zweite Staatsprüfung / Hausarbeit / Seminararbeit)
 - Optional: **Schwerpunktprobleme** (z. B. "Schwerpunkt: Kausalität im Deliktsrecht")
@@ -41,16 +39,13 @@ Der Gutachtenstil ist keine Gesetzesnorm, sondern methodische Grundlage deutsche
 - Schmalz, Methodenlehre für das juristische Studium, 4. Aufl. 1998
 
 **Anspruchsgrundlagenprüfung (BGB):**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Strafrecht — Deliktsaufbau:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Kommentare und Literatur:**
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 **EU-Recht im Gutachten:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Art. 288 AEUV: Verordnungen direkt anwendbar; Richtlinien nach Umsetzung oder bei unmittelbarer Wirkung
 
 ## Ablauf
@@ -79,7 +74,7 @@ Für jeden Anspruch / jede Strafbarkeit / jede Verwaltungsrechtsfrage:
 **c) Subsumtion**
 - Werden die Definitionen auf den konkreten Sachverhalt angewendet?
 - Gibt es tatsächliche Subsumtion (Sachverhaltsmerkmale werden unter die Definitionsmerkmale subsumiert) — oder nur eine Parallelreihung ohne Verknüpfung?
-- Kernfrage: Erklärt der Studierende, *warum* ein Merkmal (nicht) erfüllt ist?
+- Kernfrage: Erklärt der Studenten, *warum* ein Merkmal (nicht) erfüllt ist?
 
 **d) Ergebnis**
 - Klares Zwischenergebnis nach jeder Anspruchsgrundlage
@@ -97,7 +92,7 @@ Für jeden Anspruch / jede Strafbarkeit / jede Verwaltungsrechtsfrage:
 ### Schritt 3: Strukturiertes Feedback
 
 ```markdown
-# Gutachten-Feedback — [Datum]
+### Gutachten-Feedback — [Datum]
 
 **Sachverhalt:** [Kurzfassung oder Verweis]
 **Länge der Lösung:** [N Wörter]
@@ -137,9 +132,9 @@ Klausurniveau: [bestanden / grenzwertig / nicht bestanden] — Begründung in ei
 
 ## Top 3 Verbesserungen (nach Priorität)
 
-1.
-2.
-3.
+1. Wichtigster Struktur- oder Subsumtionsfehler:
+2. Zweitwichtigster fachlicher Verbesserungspunkt:
+3. Konkreter nächster Übungsschritt:
 
 ## Formulierungsbeispiel — zur Demonstration, nicht zur Übernahme
 
@@ -156,17 +151,13 @@ Nach 3+ Sitzungen: Fehlermuster benennen:
 - "Die Prüfungsreihenfolge ist stets korrekt; das Defizit liegt bei der Definitionsgenauigkeit."
 - "Hilfsgutachten werden nie eröffnet — auch wenn es klausurtaktisch geboten wäre."
 
-## Ausgabeformat
-
-Strukturiertes Feedback nach dem Schema in Schritt 3. Kein Umschreiben der Klausur. Die Unterlagen lassen die rechtliche Einordnung offen. Einschätzung in Notenbändern (bestanden / grenzwertig / nicht bestanden), keine Prozentzahl.
-
 ## Beispiel
 
 **Sachverhalt (Kurzfall):** A leiht B sein Fahrrad. B nutzt es für eine Woche länger als vereinbart. A verlangt Herausgabe und Schadensersatz.
 
 **Erwartete Prüfungspunkte:** § 604 BGB (Leihvertrag — Herausgabeanspruch), § 280 Abs. 1 BGB i.V.m. § 604 BGB (Schadensersatz wegen Pflichtverletzung durch Weiterbenutzung nach Fälligkeit), § 987 BGB (Nutzungsersatz — Eigentumsrecht als Anspruchsgrundlage gegenüber unrechtmäßigem Besitzer).
 
-Typischer Defizit-Befund: Studierende nennen § 985 BGB (Eigentumsherausgabe) vor § 604 BGB — falsche Reihenfolge (vertragliche Ansprüche gehen vor). Subsumtion bei § 280 Abs. 1 BGB: "B hat die Pflichtverletzung begangen" ohne Darlegung, welche Vertragspflicht verletzt wurde und dass Fälligkeit eingetreten ist.
+Typischer Defizit-Befund: Studenten nennen § 985 BGB (Eigentumsherausgabe) vor § 604 BGB — falsche Reihenfolge (vertragliche Ansprüche gehen vor). Subsumtion bei § 280 Abs. 1 BGB: "B hat die Pflichtverletzung begangen" ohne Darlegung, welche Vertragspflicht verletzt wurde und dass Fälligkeit eingetreten ist.
 
 ## Risiken und typische Fehler
 
@@ -181,3 +172,5 @@ Typischer Defizit-Befund: Studierende nennen § 985 BGB (Eigentumsherausgabe) vo
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Diese Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

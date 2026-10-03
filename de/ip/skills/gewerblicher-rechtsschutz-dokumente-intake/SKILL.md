@@ -1,0 +1,69 @@
+---
+name: gewerblicher-rechtsschutz-dokumente-intake
+title: Dokumentenintake
+description: 'Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Plugin: Gewerblicher Rechtsschutz.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gewerblicher-rechtsschutz/skills/dokumente-intake
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Dokumentenintake
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Einsatzlage
+
+Dieser Dokumenten-Intake für **Gewerblicher Rechtsschutz** ordnet Anlagen, Registerdaten, Korrespondenz, Bescheide, Fristen und Beleglücken zu einer belastbaren Arbeitsakte.
+
+## Fachlandkarte dieses Plugins
+
+- `abmahnung-compliance-dokumentation-und-akte` — Abmahnung Compliance Dokumentation und Akte
+- `abmahnung-urheberrecht-erfindungsmeldung` — Abmahnung Urheberrecht Erfindungsmeldung
+- `anmeldung-spezial-compliance-euipo` — Anmeldung Spezial Compliance Euipo
+- `anpassen` — Anpassen
+- `compliance-mandantenkommunikation-entscheidungsvorlage` — Compliance Mandantenkommunikation Entscheidungsvorlage
+- `dpma-fristen-form-und-zustaendigkeit` — Dpma Fristen Form und Zustaendigkeit
+- `erfindungsmeldung-aufnahme` — Erfindungsmeldung Aufnahme
+- `euipo-dokumentenmatrix-und-lueckenliste` — Euipo Dokumentenmatrix und Lueckenliste
+- `evvollzug-auslandszustellung-ev-abmahnung` — Evvollzug Auslandszustellung EV Abmahnung
+- `evvollzug-neu-001-einstweilige-verfuegung-vollziehung-frist` — Evvollzug NEU 001 Einstweilige Verfuegung Vollziehung Frist
+- `evvollzug-neu-002-urteilsverfuegung-beschlussverfuegung-und-zust` — Evvollzug NEU 002 Urteilsverfuegung Beschlussverfuegung und Zust
+- `evvollzug-neu-004-bea-zustellung-einstweiliger-rechtsschutz-risi` — Evvollzug NEU 004 BEA Zustellung Einstweiliger Rechtsschutz Risi
+- `evvollzug-neu-005-ordnungsmittelantrag-vollstreckung-unterlassun` — Evvollzug NEU 005 Ordnungsmittelantrag Vollstreckung Unterlassun
+- `anschluss-routing` — Anschluss Routing
+- `einstieg-routing` — Einstieg Routing
+
+## Arbeitsweg
+
+- Eingangsdokumente nach Typ ordnen: Vertragsurkunden, Schriftsätze, Verwaltungsakte, Protokolle, Bescheide und externe Beweismittel des Fachgebiets.
+- Pro Dokument prüfen: Datum, Absender, Empfänger, Zustellungsnachweis, Fristwirkung, Beweiswert für die Gewerblicher Rechtsschutz-Frage.
+- Lücken, Widersprüche, fehlende Anlagen und ungeklärte Zustellungen markieren; bei Original-Beweisbedarf auf Beweissicherung achten.
+- Tragende Normen vorläufig zuordnen: UWG — Endfeststellung erst nach Live-Check.
+- Sensible Daten nach Berufsrecht, DSGVO und Mandatsgeheimnis behandeln; Akteneinsichts- und Herausgabepflichten gegenüber Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen prüfen.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

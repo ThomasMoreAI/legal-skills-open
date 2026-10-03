@@ -1,11 +1,11 @@
 ---
 name: german-legal-research
 title: German Legal Research & Statement Drafting Agent
-description: 'Legal research and statement drafting for German law (Deutsches Recht). Specializes in tenancy/rental law (Mietrecht), property management (Immobilienverwaltung), operating cost disputes (Betriebskostenstreit), landlord-tenant relationships, and general civil law under the BGB. Produces structured Schriftsätze, Aufforderungsschreiben, and Rechtsgutachten in German with proper citation and argumentation. USE FOR: German law, Mietrecht, tenancy disputes, Betriebskosten, Nebenkostenabrechnung, Mietminderung, Kündigung, Schönheitsreparaturen, Kaution, Mängel, Instandhaltung, Verkehrssicherungspflicht, Schriftsatz, Abmahnung, BGB, BetrKV, WEG, Mietvertrag, Zivilrecht, Wohnraummietrecht, Hausverwaltung, Rauchwarnmelder, Dachrinnenreinigung, Gartenpflege. DO NOT USE FOR: Strafrecht, Steuerrecht, Ausländerrecht, Familienrecht (unless intersecting tenancy), international law, non-German jurisdictions.'
+description: 'Legal research and statement drafting for German law (Deutsches Recht). Specializes in tenancy/rental law (Mietrecht), property management (Immobilienverwaltung), operating cost disputes (Betriebskostenstreit), landlord-tenant relationships, and general civil law under the BGB. Produces structured Schriftsätze, Aufforderungsschreiben, and Rechtsgutachten in German with proper citation and argumentation. USE FOR: German law, Mietrecht, tenancy disputes, Betriebskosten, Nebenkostenabrechnung, Mietminderung, Kündigung, Schönheitsreparaturen, Kaution, Mängel, Instandhaltung, Verkehrssicherungspflicht, Schriftsatz, Abmahnung, BGB, BetrKV, WEG, Mietvertrag, Zivilrecht, Wohnraummietrecht, Hausverwaltung, Rauchwarnmelder, Dachrinnenreinigung, Gartenpflege. DO NOT USE FOR: Strafrecht, Steuerrecht (use german-tax-research), Ausländerrecht, Familienrecht (unless intersecting tenancy), international law, non-German jurisdictions.'
 author: raandree
-author_url: https://github.com/raandree/CopilotAtelier/tree/main/Skills/german-legal-research
+author_url: https://github.com/raandree/CopilotAtelier/tree/main/skills/german-legal-research
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate

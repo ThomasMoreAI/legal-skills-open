@@ -5,11 +5,16 @@ description: 'Conducts Privacy Impact Assessment for large-scale systematic moni
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/plugins/privacy-skills-complete/skills/pia-large-scale-monitor
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Privacy Impact Assessment for Large-Scale Monitoring

@@ -1,0 +1,117 @@
+---
+name: client-explainer
+title: Mandanten-Erklärer
+description: 'Für Mandanten-Erklärer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/common-law-kompass/skills/client-explainer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: contracts
+language: en
+---
+
+# Mandanten-Erklärer
+
+## Regelungs- und Quellenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `UCC § 2-201` — Statute of Frauds für Warenkauf.
+- `UCC § 2-313` — express warranties.
+- `UCC § 2-314` — implied warranty of merchantability.
+- `Restatement (Second) of Contracts § 17` — formation by bargain.
+- `Restatement (Second) of Contracts § 71` — consideration.
+- `Restatement (Second) of Contracts § 90` — promissory estoppel.
+- `CISG Art. 14` — Angebot.
+- `CISG Art. 18` — Annahme.
+- `CISG Art. 25` — wesentliche Vertragsverletzung.
+- `CISG Art. 35` — Vertragsmaessigkeit der Ware.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: England Limitation Act 1980 (6 Jahre Contract, 6 Jahre Tort), US-Statutes of Limitations einzelstaatlich (oft 3-6 Jahre), ICC-Schiedsverfahren Antwort 30 Tage.
+- Tragende Normen verifizieren: Englisches Recht (Common Law / Equity), US-Recht (Restatements, UCC), Vergleich BGB-System, IPR-Anknüpfung (Rom I, Rom II), HCCH-Konventionen, New Yorker Übereinkommen (Schiedssprüche) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant mit US/UK-Bezug, Solicitor, Barrister, US-Attorney, deutscher Anwalt, Schiedsgericht (ICC, LCIA, ICDR), High Court, Court of Appeal.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Letter of Engagement, Statement of Claim / Particulars of Claim, Defence, Affidavit, Witness Statement, Discovery/Disclosure, Settlement Agreement — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wann verwenden
+
+- bei Verträgen, Memos, Redlines, Übersetzungen oder Schulungen mit Common-Law-Bezug
+- wenn deutsche Rechtsbegriffe ins Englische übertragen werden
+- wenn UK/US-Unterschiede oder False Friends drohen
+
+## Rückfragen, wenn unklar
+
+- Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
+- Welche Partei oder Rolle vertreten wir?
+- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+- Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
+
+## Typische Fehler vermeiden
+
+- Bürgschaft, guarantee, suretyship und indemnity nicht gleichsetzen.
+- Consideration nicht als deutsche Gegenleistung behandeln.
+- UK, USA, New York, Delaware und UCC nicht vermischen.
+- Keine erfundenen Fälle oder Quellen verwenden.
+
+## Ton
+
+Common-Law-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf leicht sein, aber nie auf Kosten der juristischen Trennschärfe.
+
+## Triage
+
+Before proceeding, clarify:
+1. Who is the client — German-headquartered company, individual, or in-house counsel?
+2. What common law concept needs explaining — and at what depth?
+3. Is English the client's working language — or does a German explanation parallel work better?
+
+## Key Concepts to Explain (Common Questions)
+
+- **Consideration:** "Every contract needs something exchanged — a promise for a promise, or a payment. Unlike German law, a bare promise with no 'bargain' is not enforceable (unless in a deed)."
+- **Precedent (stare decisis):** "Courts are bound by higher court decisions on the same legal point. The Supreme Court decision in [X] sets the rule for all UK courts below."
+- **Disclosure/Discovery:** "Unlike German/civil-law procedure, common law litigation requires both sides to produce relevant documents — even ones that hurt their case. Costs can be very high."
+- **Equity:** "Alongside common law, English courts apply 'equity' — flexible rules developed by the old Court of Chancery. Injunctions, specific performance, and trusts are equitable remedies."
+
+## Key Case Law (for explanation context)
+
+- **Donoghue v Stevenson** [1932] AC 562 — Used to explain duty of care concept; neighbour principle.
+- **Carlill v Carbolic Smoke Ball** [1893] 1 QB 256 — Used to explain offer/acceptance/consideration; familiar for students.
+
+## Output Template: Client Explainer Memo
+
+**Addressee:** German client unfamiliar with common law
+**Tone:** Clear, non-jargon; German equivalents provided where helpful
+
+```
+CLIENT EXPLAINER: [COMMON LAW CONCEPT]
+Date: [DATE] — Prepared for: [CLIENT NAME]
+Jurisdiction: [England/Wales / New York]
+
+WHAT IT MEANS
+[Plain English explanation in 3-5 sentences]
+
+GERMAN EQUIVALENT (OR WHY THERE ISN'T ONE)
+[Comparison: similar to [§ X BGB] BUT differs in [KEY WAY]]
+
+WHY IT MATTERS FOR YOUR SITUATION
+[Practical impact: deal / litigation / compliance]
+
+WHAT TO DO
+[Action point]
+
+FURTHER READING
+[Accessible reference / summary source]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

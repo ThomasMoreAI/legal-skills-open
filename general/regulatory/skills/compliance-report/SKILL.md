@@ -3,9 +3,9 @@ name: compliance-report
 title: Compliance Report Generator — Auditor-Ready Evidence in Minutes
 description: Generate auditor-ready compliance reports with multi-framework control mapping, automated evidence collection strategies, gap analysis, and structured report packages for SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001. Reduces audit prep from weeks to days.
 author: heaptracetechnology
-author_url: https://github.com/heaptracetechnology/heaptrace-skills/tree/main/compliance/compliance-report
+author_url: https://github.com/heaptracetechnology/heaptrace-skills/tree/main/plugins/heaptrace-compliance/skills/compliance-report
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

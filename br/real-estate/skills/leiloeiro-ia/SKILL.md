@@ -5,12 +5,18 @@ description: Especialista em leiloes judiciais e extrajudiciais de imoveis. Anal
 author: foolhardy45
 author_url: https://github.com/foolhardy45/portfolio/tree/master/.claude/skills/leiloeiro-ia
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: real-estate
 language: pt
-tags: [auction, ai-analysis, brazilian]
+tags:
+- auction
+- ai-analysis
+- brazilian
+sources:
+- title: Fontes
+  path: references/fontes.md
 ---
 
 # LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA

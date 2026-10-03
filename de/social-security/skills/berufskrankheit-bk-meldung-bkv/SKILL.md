@@ -1,0 +1,70 @@
+---
+name: berufskrankheit-bk-meldung-bkv
+title: Berufskrankheit Bk Meldung Bkv
+description: 'Für Berufskrankheit Bk Meldung Bkv: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/berufskrankheit-bk-meldung-bkv
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Berufskrankheit Bk Meldung Bkv
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Grundsatz
+
+§ 9 SGB VII: Berufskrankheit ist Krankheit, die die Bundesregierung durch Rechtsverordnung mit Zustimmung des Bundesrates als BK bezeichnet (Anlage 1 BKV).
+
+## BK-Liste (Anlage 1 BKV)
+
+- Aktuell ca. 80 Berufskrankheiten.
+- Typische BK:
+ - BK 2108: Bandscheibenbedingte Erkrankungen LWS durch Heben/Tragen.
+ - BK 2301: Larmschwerhoerigkeit.
+ - BK 4103: Asbestose.
+ - BK 4104: Lungenkrebs durch Asbest.
+ - BK 5101: Hauterkrankungen.
+
+## Wie-Tatbestand § 9 Abs. 2 SGB VII
+
+- Wenn Krankheit nicht in BK-Liste, kann sie wie BK behandelt werden, sofern neueste medizinische Erkenntnisse die haeufige Mitverursachung durch bestimmte Personengruppen nahelegen.
+- Erweiterung der Liste erfolgt anschliessend ueblicherweise.
+
+## Meldung
+
+- Aerzte sind meldepflichtig bei Verdacht (§ 202 SGB VII).
+- Arbeitgeber meldet wenn betroffene Beschäftigte.
+
+## Verfahren
+
+1. Meldung an BG.
+2. Aufwendige Ermittlungen — Berufsverlauf Schadstoffexposition.
+3. Gutachten durch Berufskrankheitsstaatsaerzte.
+4. Bescheid.
+
+## Schwierigkeit
+
+- Beweis der Kausalitaet schwierig — lange Latenzzeiten.
+- Mehrjaehrige Verfahren typisch.
+
+## Prüfraster
+
+1. BK-Listenfall oder Wie-Fall?
+2. Berufsverlauf belegt?
+3. Schadstoffexposition messbar?
+4. Aerzte gemeldet?
+5. Gutachten eingeholt?

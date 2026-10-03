@@ -1,0 +1,57 @@
+---
+name: nebenkostenpruefung-prozessstrategie
+title: 'Nebenkostenprüfung: Einreichung, Portal und Amtsgericht'
+description: 'Für Nebenkostenprüfung: Einreichung, Portal und Amtsgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/nebenkostenpruefung-prozessstrategie
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Nebenkostenprüfung: Einreichung, Portal und Amtsgericht
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Nebenkostenprüfung: Einreichung, Portal und Amtsgericht` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Einstieg
+
+1. Wer reicht ein: Mieter, Vermieter, Verwaltung, Anwalt?
+2. Wo soll es hin: Gegenseite, Hausverwaltungsportal, Mieterverein, Rechtsschutz, Mahngericht, Amtsgericht?
+3. Welche Frist läuft: Einwendungsfrist, Zahlungsfrist, Mahnbescheid, Klageerwiderung?
+4. Welche Unterlagen sollen geordnet werden: Abrechnung, Mietvertrag, Belege, Zahlungsbelege, Kontoauszüge, Schriftverkehr?
+5. Was ist die Zahl: Nachforderung, Guthaben, streitiger Teilbetrag, Rückforderung?
+
+## Arbeitsworkflow
+
+1. **Frist sichern**: Einwendung nach § 556 Abs. 3 Satz 5 BGB fristwahrend formulieren; konkrete Punkte nach Belegeinsicht vertiefen.
+2. **Belegeinsicht organisieren**: Rechnungen, Verträge, Zahlungsbelege, Originale/Scans, Heizkosten- und CO2-Daten listen.
+3. **Streitbetrag rechnen**: unstreitig, streitig, zurückbehalten, gezahlt unter Vorbehalt.
+4. **Dokumente ordnen**: Anlagenverzeichnis mit Datum, Absender, Inhalt, Beweiswert.
+5. **Verfahrenspfad wählen**:
+ - außergerichtliche Korrektur,
+ - Rückzahlungsverlangen,
+ - Verteidigung gegen Mahnung/Mahnbescheid,
+ - Klage auf Rückzahlung oder Feststellung,
+ - Klage des Vermieters auf Nachzahlung.
+
+## Portal-/Formularlogik
+
+- Nie nur Freitext in Portale kippen: erst Aktenvermerk, dann Kurzfassung, dann Anlagen.
+- Jede Zahl mit Anlage verbinden: "Position Hausmeister, Anlage K3, Rechnung [...], Kürzung [...] EUR".
+- Bei Mahnbescheid rechtzeitig Widerspruch prüfen; Begründung folgt erst im streitigen Verfahren.
+- Bei Klage: Forderung, Zahlung, Vorbehalt, Belegeinsicht und konkrete Fehler getrennt vortragen.

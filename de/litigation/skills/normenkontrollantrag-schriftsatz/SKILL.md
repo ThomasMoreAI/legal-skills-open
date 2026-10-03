@@ -1,11 +1,11 @@
 ---
 name: normenkontrollantrag-schriftsatz
 title: Normenkontrollantrag — Schriftsatz
-description: 'Normenkontrollantrag gegen Bebauungsplan oder FNP ist zu erstellen. § 47 VwGO Normenkontrollantrag Schriftsatz. Prüfraster: Rubrum Antrag Begründung Zulässigkeit (Statthaftigkeit Befugnis Frist Rechtsschutzbedürfnis) Verfahrensfehler Erforderlichkeit Abwaegungsfehler Vorgang und Ergebnis Hilfsantrag Teilunwirksamkeit. Anlagen Plan-Unterlagen Bekanntmachung Begründung Schriftverkehr. Output: vollständiger Normenkontrollantrag-Schriftsatz. Abgrenzung zu einstweilige-anordnung-47-abs-6-vwgo (Eilantrag) und mandat-erstgespraech-normenkontrolle.'
+description: 'Für Normenkontrollantrag — Schriftsatz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/normenkontrollantrag-schriftsatz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Normenkontrollantrag — Schriftsatz
-
-## Zweck
-
-Der Normenkontrollantrag ist das Kernstück der Mandatsbearbeitung. Er muss in der Begründung die formellen und materiellen Fehler so darstellen, dass der Senat die Unwirksamkeit erkennen muss.
 
 ## Schritt 1 — Rubrum
 
@@ -87,10 +83,10 @@ B. Materielle Mängel
 1. § 1 Abs. 3 BauGB Erforderlichkeit / Planrechtfertigung / Gefälligkeitsplanung
 2. § 8 Abs. 2 BauGB Anpassungsgebot
 3. § 1 Abs. 7 BauGB Abwägung
-   3.1 Abwägungsausfall (Vorfestlegung)
-   3.2 Abwägungsdefizit (übersehene Belange)
-   3.3 Abwägungsfehleinschätzung (falsche Gewichtung)
-   3.4 Abwägungsdisproportionalität (Ergebnis)
+ 3.1 Abwägungsausfall (Vorfestlegung)
+ 3.2 Abwägungsdefizit (übersehene Belange)
+ 3.3 Abwägungsfehleinschätzung (falsche Gewichtung)
+ 3.4 Abwägungsdisproportionalität (Ergebnis)
 4. § 1a Abs. 3 BauGB Eingriffsregelung
 5. § 44 BNatSchG Artenschutz
 6. § 50 BImSchG Trennungsgrundsatz / Lärm
@@ -189,8 +185,4 @@ C. Beachtlichkeit / Rüge
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

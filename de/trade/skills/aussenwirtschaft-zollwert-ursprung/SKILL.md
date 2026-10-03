@@ -1,118 +1,87 @@
 ---
 name: aussenwirtschaft-zollwert-ursprung
-title: Zollwert, Ursprung und Präferenzen
-description: Zollwert Warenursprung Praeferenznachweise und Lieferantenerklarungen im EU-Zollrecht. Anwendungsfall Zoll bestreitet Zollwert oder Praeferenzursprungsnachweis fehlt und Einfuhrabgaben werden nachgefordert. Normen UZK Art. 69-76 Zollwert Art. 59 ff. Ursprung Delegierte VO 2015/2446 Praefrenzursprungsregeln. Prüfraster Zollwert Incoterms Hinzurechnungen Abzuege Warenursprung Praeferenznachweise Lieferantenerklarungen verbindliche Ursprungsauskunft. Output Zollwert-Bewertungsdossier mit Kalkulationsprotokoll Ursprungsnachweis und Praeeferenzerklärung. Abgrenzung zu aussenwirtschaft-zolltarif-vzta und aussenwirtschaft-zollverfahren-bewilligungen.
+title: 'Zollwert und Ursprung: Integrierte Prüfung und kombiniertes Nachweispaket'
+description: 'Für Zollwert und Ursprung: Integrierte Prüfung und kombiniertes Nachweispaket: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-zollwert-ursprung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: trade
 language: de
 ---
 
-# Zollwert, Ursprung und Präferenzen
+# Zollwert und Ursprung: Integrierte Prüfung und kombiniertes Nachweispaket
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill erzeugt eine belastbare Ursprungs- und Zollwertmatrix für Import, Export und Prüfungen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Importeur legt nachtraeglich EUR.1-Zertifikat vor; Zollwert-Erstattung und Praeferenz-Berichtigung.
+- Zollaußenpruefung prüft gleichzeitig Zollwert und Praeferenz-Ursprung; Nachweispaket zusammenstellen.
+- Unternehmen hat REX-Erklaerung erhalten aber Ursprungsvoraussetzungen nicht geprueft.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. Ursprungsnachweise für Einfuhrsendungen katalogisieren: EUR.1 EUR-MED REX ATR Form A GSP-Bescheinigung.
+2. Zollwert-Kalkulation und Ursprungszuordnung für jede Lieferantenbeziehung abgleichen.
+3. Nachtraegliche Ursprungsnachweise: Erstattungsantrag stellen Fristen nach Art. 121 UZK.
+4. REX-System: Registrierter Exporteur prüfen; Erklaerungsinhalt auf Ursprungsvoraussetzungen.
+5. Kombinierten Nachweispaket für Zollaußenpruefung vorbereiten.
+6. Einheitliche Prüfmatrix erstellen: Zollwert Ursprung Praeferenz und Nachweis-Status.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **UZK Art. 59-76**: Ursprungsregeln praeferenziell und nichtpraeferenziell.
+- **UZK Art. 70**: Transaktionswert als Zollwertbasis.
+- **VO (EU) 952/2013 Art. 112-121**: Erstattung und Erlass von Einfuhrabgaben.
+- **VO (EU) 1207/2001**: Ursprungsnachweisverfahren und REX.
+- **UZK-DA Art. 69-112**: Detailregeln für Ursprung und Nachweise.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] Alle Ursprungsnachweise für relevante Einfuhren katalogisiert?
+- [ ] Zollwert und Ursprungszuordnung konsistent?
+- [ ] Nachtraegliche Ursprungsnachweise auf Erstattungspotenzial geprueft?
+- [ ] REX-Erklaerungen auf Ursprungsvoraussetzungen verifiziert?
+- [ ] Kombiniertes Nachweispaket für Prüfung bereit?
+- [ ] Prüfmatrix aktuell und vollstaendig?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- Fristen für Erstattungsantrag bei nachtraeglichem Ursprungsnachweis beachten (3 Jahre).
+- REX-Erklaerungen des Lieferanten können falsch sein; Eigenverantwortung des Importeurs.
+- Zollwert und Ursprung werden bei Prüfung oft kombiniert; Luecken in beiden Bereichen kumulieren sich.
+- Nachtraegliche Ursprungs-Korrekturen erfordern Zollanmeldungs-Berichtigung.
 
-## Triage vor Zollwert-/Ursprungspruefung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Handelt es sich um Zollwertfestsetzung (Hauptmethode: Transaktionswert Art. 70 UZK) oder Ursprungsermittlung?
-2. Wird Praeferenzursprung (Abkommen EU-UK, EU-CA, Schweiz, Suedkorea usw.) oder nichtpraferentieller Ursprung geprueft?
-3. Liegt eine Lieferantenerklaerung, EUR.1, REX-Erklaerung oder Ursprungszeugnis vor?
-4. Gibt es eine VZTA (verbindliche Zolltarifauskunft) oder eine verbindliche Ursprungsauskunft (vUA)?
-5. Sind Lizenzgebuehren, Provisionszahlungen, Entwicklungskosten oder nachtraegliche Preisanpassungen im Transaktionswert zu beurteilen?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## Quellen
 
-## Normen-Kette Zollwert und Ursprung
-
-- Art. 70-74 UZK — Zollwertmethoden (Transaktionswert, Schlusswert, Rechnerischer Wert)
-- Art. 59-67 UZK — Praeferenzieller Ursprung und Nachweise
-- Art. 60 UZK — Nichtpraferentieller Ursprung, letzte wesentliche Bearbeitung
-- Anhang 22-01 UZK-DA — Listenregeln Praeferenzursprung
-- Art. 33, 34 UZK — VZTA und verbindliche Ursprungsauskunft (vUA)
-- VO (EU) 2016/1076 — Allgemeines Praferenzsystem (APS/GSP)
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: Zollwert-/Ursprungsvermerk
-
-**Adressat:** Zollbeauftragter / Buchhaltung — **Tonfall:** rechnerisch, dokumentationsintensiv
-
-```
-ZOLLWERT-/URSPRUNGSVERMERK
-Datum: [DATUM]
-Ware: [BEZEICHNUNG]  KN-Nr.: [NUMMER]
-Herkunftsland: [LAND]  Verkaeufersitz: [LAND]
-Bearbeiter: [NAME]
-
-1. ZOLLWERT (ART. 70 UZK — TRANSAKTIONSWERT)
-   Kaufpreis laut Rechnung:          [BETRAG] [WAEHRUNG]
-   + Transportkosten bis EU-Grenze: [BETRAG]
-   + Versicherung:                  [BETRAG]
-   + Lizenzgebuehren (Art. 71 I c): [BETRAG / entfallt]
-   = ZOLLWERT:                      [BETRAG EUR]
-
-2. URSPRUNGSPRUEFUNG
-   Praeferenzabkommen anwendbar: [ ] Ja ([ABKOMMEN]) / [ ] Nein
-   Ursprungsregel gemaess Anh. 22-01: [LISTENREGEL]
-   Ursprungsnachweis vorhanden: [ ] EUR.1 / [ ] REX / [ ] Erklaerung auf Rechnung
-   Gueltigkeit Nachweis: [DATUM]
-   Ergebnis: [ ] Praeferenzursprung bestaetigt / [ ] Nicht erfuellt
-
-3. OFFENE PUNKTE / RISIKEN
-   [Beschreibung] — Empfehlung: [...]
-
-4. NAECHSTE SCHRITTE
-   - [Schritt mit Frist]
-```
+- [UZK Art. 59 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de Praeferenz](https://www.zoll.de/DE/Fachthemen/Zoelle/Praeferenzrecht/praeferenzrecht_node.html)
+- [UZK-DA auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R2446)
+- [BAFA Ausfuhrkontrolle](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/ausfuhrkontrolle_node.html)

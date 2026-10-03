@@ -1,11 +1,11 @@
 ---
 name: rangruecktritt-formulieren
 title: Qualifizierten Rangrücktritt formulieren
-description: 'Rangrücktrittserklärung für Wandeldarlehen formulieren um insolvenzrechtliche Nachrang­wirkung herzustellen. § 39 InsO qualifizierter Rangrücktritt. Prüfraster: Formulierungsanforderungen BGH-Anforderungen qualifizierter Nachrang Masseverbindlichkeit Auffuellungspflicht. Output: Rangrücktrittserklärung Prüfmemo. Abgrenzung: nicht für allgemeine Darlehenskonditionen (darlehenshoehe-konditionen).'
+description: 'Für Qualifizierten Rangrücktritt formulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/rangruecktritt-formulieren
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,17 @@ language: de
 
 # Qualifizierten Rangrücktritt formulieren
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Zweck
 
-Dieser Skill formuliert den qualifizierten Rangrücktritt für § 6 des Wandeldarlehensvertrags. Er stellt sicher, dass die Klausel sowohl die insolvenzliche Subordination (§ 39 Abs. 2 InsO) als auch die vorinsolvenzliche Durchsetzungssperre nach BGH-Rechtsprechung enthält und bilanzielle Entlastungswirkung erzielt. Phase A des Lebenszyklus.
+Formuliert den qualifizierten Rangrücktritt für § 6 des Wandeldarlehensvertrags. Er stellt sicher, dass die Klausel sowohl die insolvenzliche Subordination (§ 39 Abs. 2 InsO) als auch die vorinsolvenzliche Durchsetzungssperre nach BGH-Rechtsprechung enthält und bilanzielle Entlastungswirkung erzielt. Phase A des Lebenszyklus.
 
 ## Eingaben
 
@@ -39,7 +47,10 @@ Dieser Skill formuliert den qualifizierten Rangrücktritt für § 6 des Wandelda
 - § 328 BGB (Vertrag zugunsten Dritter – Aufhebungsverbot)
 
 ### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- BGH, Urteil vom 05.03.2015 - IX ZR 133/14: Rangrücktritt als Schuldänderungsvertrag und Vertrag zugunsten der Gläubigergesamtheit; Aufhebung ab Insolvenzreife nicht zulasten der übrigen Gläubiger.
+- BGH, Urteil vom 06.12.2018 - IX ZR 143/17: vorinsolvenzliche Durchsetzungssperre muss die Insolvenzgründe erfassen; Nachrangabrede kann als Hauptleistungsabrede AGB-fest sein.
+- BGH, Urteil vom 24.02.2022 - IX ZR 250/20: Durchsetzungssperre beeinflusst Fälligkeit, Kenntnis der Zahlungsunfähigkeit und Anfechtungsrisiko.
+- BFH, Urteil vom 10.08.2016 - I R 25/15; BFH, Urteil vom 19.08.2020 - XI R 32/18: steuerliche Passivierung hängt an der Rückzahlungsquelle; freies Vermögen und freie Liquiditätsüberschüsse bewusst formulieren.
 
 ## Vorgehen
 
@@ -47,13 +58,13 @@ Dieser Skill formuliert den qualifizierten Rangrücktritt für § 6 des Wandelda
 Der Darlehensgeber tritt mit allen Nachrangforderungen (Rückzahlung, Zinsen, Schadensersatz) gemäß § 39 Abs. 2 InsO hinter alle Forderungen i.S.d. §§ 38 und 39 Abs. 1 Nr. 1 bis 5 InsO zurück. In einem Insolvenzverfahren: Befriedigungsrang § 39 Abs. 2 InsO.
 
 ### 2. Vorinsolvenzliche Durchsetzungssperre
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Die Klausel muss vor Verfahrenseröffnung jede Zahlung sperren, soweit sie Zahlungsunfähigkeit oder Überschuldung herbeiführt, vertieft oder wieder aufleben lässt. Zahlung darf nur aus freiem Vermögen oder freien Liquiditätsüberschüssen erfolgen, nachdem die vorrangigen fälligen Verbindlichkeiten einschließlich des Drei-Wochen-Fensters bedient werden können.
 
 ### 3. Klarstellungsklausel (BGH-Konformität)
 Ausdrückliche Klarstellung, dass es sich um einen qualifizierten Rangrücktritt i.S.d. BGH-Rechtsprechung handelt, geeignet zur Beseitigung der Überschuldung gemäß § 19 Abs. 2 Satz 2 InsO.
 
-### 4. Aufhebungsverbot (Drittschutz § 328 BGB)
-Rangrücktritt als echter Vertrag zugunsten Dritter (§ 328 BGB) zugunsten aller Gläubiger i.S.d. §§ 38 / 39 Abs. 1 InsO. Aufhebung nur mit vorheriger schriftlicher Zustimmung der Gesellschaft und nur soweit keine Insolvenzreife entsteht.
+### 4. Aufhebungsverbot und Gläubigerschutz
+Rangrücktritt als Vertrag zugunsten der Gläubigergesamtheit ausgestalten. Aufhebung oder Lockerung nur, wenn keine Insolvenzreife besteht und durch die Änderung keine Insolvenzreife entsteht. In der Krise keine bilaterale Rückabwicklung zwischen Darlehensgeber und Gesellschaft zulasten der übrigen Gläubiger.
 
 ### 5. § 15b InsO-Schutzklausel
 Gesellschaft und Geschäftsführerinnen sind nicht zur Rückzahlung verpflichtet, soweit dies persönliche Haftung nach § 15b InsO auslösen würde. Bei verbotswidriger Rückzahlung: Rückgewährpflicht auf erstes Anfordern. Hintergrund: § 15b InsO wurde durch das SanInsFoG (Inkrafttreten 1.1.2021) eingefügt und löste § 64 GmbHG a.F. (Massesicherungspflicht) ab; die GF-Haftung für "verbotswidrige Zahlungen nach Insolvenzreife" knüpft seit der Reform allein an die InsO an. Klausel daher zwingend, sonst GF-persönliches Risiko.
@@ -65,12 +76,17 @@ Für den Wirtschaftsprüfer: kurze Bestätigungserklärung, dass qualifizierter 
 
 ```
 § 6.2 Vorinsolvenzliche Durchsetzungssperre. Außerhalb eines Insolvenzverfahrens darf der
-Darlehensgeber Befriedigung der Nachrangforderungen nur aus künftigen Jahresüberschüssen,
-aus einem Liquidationsüberschuss oder aus sonstigem freien Vermögen der Gesellschaft verlangen,
-das die sonstigen Verbindlichkeiten der Gesellschaft übersteigt, und dies auch nur insoweit
-und solange, als die teilweise oder vollständige Erfüllung weder eine Zahlungsunfähigkeit im
-Sinne des § 17 InsO noch eine Überschuldung im Sinne des § 19 InsO verursacht, vertieft oder
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Darlehensgeber Befriedigung der Nachrangforderungen nur aus sonstigem freien Vermögen
+oder freien Liquiditätsüberschüssen der Gesellschaft verlangen. Frei ist Vermögen nur, soweit
+nach der Zahlung sämtliche gegenwärtigen und im Drei-Wochen-Zeitraum fällig werdenden
+Verbindlichkeiten gegenüber vorrangigen Gläubigern bedient werden können. Eine Zahlung
+ist ausgeschlossen, wenn sie Zahlungsunfähigkeit oder Überschuldung verursacht, vertieft
+oder wieder aufleben lässt.
+
+6.3 Gläubigerschutz. Diese Rangrücktrittsvereinbarung wird zugunsten der Gläubigergesamtheit
+geschlossen. Solange Insolvenzreife besteht oder durch eine Änderung eintreten würde, kann
+die Vereinbarung nicht allein durch Abrede zwischen Gesellschaft und Darlehensgeber aufgehoben
+oder abgeschwächt werden.
 ```
 
 ## Risiken und Red Flags
@@ -79,22 +95,17 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 |---|---|---|---|
 | Keine vorinsolvenzliche Durchsetzungssperre | Rangrücktritt nur insolvenzrechtlich, nicht bilanziell wirksam | Klausel unklar formuliert | BGH-konforme Klausel vorhanden |
 | Zinsen nicht in Nachrangforderungen einbezogen | Zinsen weiter fällig in Krise | Zinsen teilweise erfasst | Zinsen vollständig einbezogen |
-| Aufhebungsverbot fehlt | Gläubiger nicht geschützt | Aufhebungsverbot nur schuldrechtlich | Echter Vertrag zugunsten Dritter |
+| Aufhebungsverbot fehlt | Gläubiger nicht geschützt | Aufhebungsverbot nur schuldrechtlich | Vertrag zugunsten der Gläubigergesamtheit |
+| Rückzahlungsquelle nur Gewinn/Liquidation | Steuerliche Ausbuchungsgefahr | Freies Vermögen unklar | Freies Vermögen und freie Liquiditätsüberschüsse präzise |
 | § 15b InsO-Klausel fehlt | GF-Haftungsrisiko | Klausel unvollständig | Vollständige Schutzklausel |
-
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/beurkundungserfordernis-pruefung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/sacheinlagebericht-werthaltigkeit/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/post-eintragung-checkliste/SKILL.md`
 
 ## Quellen und Updates
 
 Stand: 05/2026.
-- § 19 II 2 InsO (qualifizierter Rangruecktritt im Ueberschuldungsstatus): https://www.gesetze-im-internet.de/inso/__19.html
+- § 19 II 2 InsO (qualifizierter Rangrücktritt im Ueberschuldungsstatus): https://www.gesetze-im-internet.de/inso/__19.html
 - § 39 I Nr. 5 InsO (Gesellschafterdarlehen-Nachrang): https://www.gesetze-im-internet.de/inso/__39.html
 - § 39 II InsO (vereinbarter Nachrang): https://www.gesetze-im-internet.de/inso/__39.html
 - § 15a InsO (Insolvenzantragspflicht, Hoechstfristen 3 Wochen ZU / 6 Wochen UE seit SanInsFoG): https://www.gesetze-im-internet.de/inso/__15a.html
 - § 15b InsO (rechtsformneutrales Zahlungsverbot bei Insolvenzreife seit 01.01.2021 durch SanInsFoG, BGBl. I 2020, 3256; ersetzt § 64 GmbHG a.F. und § 92 II AktG a.F.): https://www.gesetze-im-internet.de/inso/__15b.html
 - SanInsFoG-Gesetzgebungsmaterialien: https://www.bgbl.de/xaver/bgbl/start.xav?startbk=Bundesanzeiger_BGBl&start=//*[@attr_id=%27bgbl120s3256.pdf%27]
-- Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe ueber offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

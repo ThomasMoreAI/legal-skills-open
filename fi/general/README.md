@@ -8,7 +8,7 @@ Jurisdiction: `fi` · Practice: `general` · Skill language: fi
 
 | Skill | What it does |
 |---|---|
-| [`Juristi — Suomalaisen lakikielen ja lainsäädännön apuri`](skills/juristi/) | Suomalaisen oikeuden ja lakikielen yleisapuri. Käytä tätä skilliä AINA kun käyttäjä työskentelee lakien,… |
+| [`Juristi — Suomalaisen lakikielen ja lainsäädännön apuri`](skills/juristi/) | Suomalaisen oikeuden ja lakikielen yleisapuri. Käytä tätä skilliä AINA kun käyttäjä työskentelee lakien… |
 
 ## Cold-start context
 

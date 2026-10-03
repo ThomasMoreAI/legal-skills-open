@@ -1,0 +1,107 @@
+---
+name: wandlungsmechanik-konzipieren
+title: Wandlungsmechanik konzipieren
+description: 'Für Wandlungsmechanik konzipieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/wandlungsmechanik-konzipieren
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Wandlungsmechanik konzipieren
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Valuation Cap (Pre-Money EUR): Höchstbewertung, bei der der Lender wandelt
+- Discount (in Prozent): Abschlag auf den Preis der Finanzierungsrunde (Standard zwanzig Prozent)
+- Mindest-Bewertung Qualified Financing (Pre-Money EUR): z. B. EUR 4000000
+- Mindest-Investitionsvolumen Qualified Financing (EUR): z. B. EUR 500000
+- Fall-back-Bewertung bei Maturity (EUR): Bewertung falls kein Wandelereignis eingetreten
+- Wandlungsrecht: einseitig (Lender) oder beidseitig?
+- Liquidationspräferenz: Wahlrecht Lender zwischen Bar-Rückzahlung und Wandlung?
+- Pro-rata-Recht bei Folgerunde: gewünscht?
+- Most-Favoured-Nation: aktiv?
+
+## Rechtlicher Rahmen
+
+### Primärnormen
+- § 55 Abs. 1 GmbHG (Kapitalerhöhung durch Gesellschafterbeschluss)
+- § 56 GmbHG (Sacheinlage bei Kapitalerhöhung)
+- § 5 Abs. 1 GmbHG (Mindestanteilsnennbetrag EUR 1)
+- § 272 Abs. 2 Nr. 4 HGB (Einlage in Kapitalrücklage nach Wandlung)
+- § 138 BGB (Sittenwidrigkeit – Missbrauch Wandlungsrecht prüfen)
+
+## Vorgehen
+
+### 1. Trigger-Tatbestände abgrenzen
+a) Qualified Financing: Kapitalerhöhung bar mit Mindest-Pre-Money-Bewertung EUR [X] und Mindest-Investitionsvolumen EUR [Y] ohne Berücksichtigung dieses Wandeldarlehens.
+b) Maturity: Ablauf der Festen Laufzeit ohne vorheriges Wandelereignis.
+c) Liquidation Event: Share Deal >50 %, Asset Deal >50 % Aktivvermögen, Fusion, IPO.
+
+### 2. Wandlungspreis-Formel bestimmen
+Wandlungspreis je Anteil (€/Anteil) = MIN(
+ Pre-Money-Bewertung Runde / vollverwässerte Anteile vor Runde,
+ (1 − Discount) × Pre-Money-Bewertung Runde / vollverwässerte Anteile vor Runde,
+ Cap / vollverwässerte Anteile vor Runde
+)
+Anzahl neue Anteile = (Darlehen + aufgelaufene Zinsen) / Wandlungspreis (auf nächsten ganzen EUR aufrunden, § 5 Abs. 1 GmbHG).
+
+### 3. Mitteilungspflicht und Fristen
+Gesellschaft informiert Lender in Textform spätestens zwei Wochen vor Durchführung (Wandlungsmitteilung mit Angaben zu Investoren, Pre-Money, Investitionsvolumen, Anteilsklassen). Lender übt Wandlungsoption per Textform-Erklärung innerhalb eines Monats aus.
+
+### 4. Neue Anteile und Rechte
+Neue Anteile tragen die gleichen Rechte wie die der Investoren in der Finanzierungsrunde (oder günstigere). MFN: Wenn ein späteres Wandeldarlehen bessere Konditionen erhält, gelten diese auch hier.
+
+### 5. Mitwirkung nach Ausübung
+Gesellschaft und Gesellschafter berufen unverzüglich eine Gesellschafterversammlung ein, fassen den nach Paragraf 53 Absatz 3 GmbHG notariell zu beurkundenden Kapitalerhöhungsbeschluss, erklären erforderliche Bezugsrechtsverzichte und geben die Übernahmeerklärungen in der Form des Paragraf 55 Absatz 1 GmbHG ab.
+
+### 6. Liquidationspräferenz formulieren (falls vereinbart)
+Im Liquidation Event: Lender hat Wahlrecht zwischen (a) Rückzahlung Darlehensbetrag plus Zinsen (1x non-participating) oder (b) Wandlung. Frist: zwei Wochen ab Bekanntgabe des Exit-Events.
+
+## Beispielrechnung Wandlungspreis
+
+| Parameter | Wert |
+|---|---|
+| Darlehensbetrag | EUR 250000 |
+| Aufgelaufene Zinsen | EUR 25694 |
+| Wandlungssumme C | EUR 275694 |
+| Anzahl Anteile vor Runde | 100 |
+| Pre-Money Runde | EUR 6000000 |
+| Preis je Anteil (Runde) | EUR 60000 |
+| Preis mit zwanzig Prozent Discount | EUR 48000 |
+| Preis bei Cap EUR 4000000 | EUR 40000 |
+| Wandlungspreis (MIN) | EUR 40000 (Cap greift) |
+| Neue Anteile | EUR 275694 / EUR 40000 = 6.89 → aufgerundet 7 |
+
+## Risiken und Red Flags
+
+| Konstellation | Rot | Orange | Grün |
+|---|---|---|---|
+| Cap unterhalb aktueller Pre-Money-Bewertung | Lender wandelt sofort auf günstigstem Preis | Cap leicht unter erwartetem Wert | Cap deutlich über aktueller Bewertung |
+| Keine Fall-back-Bewertung bei Maturity | Wandlungsbetrag unberechenbar | Grobe Schätzung vorhanden | Klarer EUR-Wert vereinbart |
+| Discount über dreissig Prozent | Verwässerung Altgesellschafterinnen erheblich | Zwanzig bis dreissig Prozent | Unter zwanzig Prozent |
+| MFN ohne Ausnahmen | Alle Folgerunden binden | MFN nur für gleiche Stufe | Keine MFN |
+
+## Quellen und Updates
+
+Stand: 05/2026. Bei Änderung GmbHG (§§ 55 ff.) aktualisieren.
+
+## Vertiefung — Aktuelle Rechtsprechung
+
+### Normen-Ergänzung
+
+§ 55 GmbHG (Kapitalerhöhung gegen Einlage) → § 56 GmbHG (Sacheinlage, Differenzhaftung) → § 57 GmbHG (Unversehrtheit des Stammkapitals) → § 15 GmbHG (Abtretung Geschäftsanteile) → § 272 Abs. 2 Nr. 4 HGB (Kapitalrücklage aus Wandlungsagio)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

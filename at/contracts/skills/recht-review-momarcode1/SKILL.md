@@ -5,11 +5,14 @@ description: Full contract and legal document review for Austrian law with 5 par
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: contracts
-language: de
+language: en
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht review — Vertragsprüfung (Full Review)

@@ -10,7 +10,7 @@ Jurisdiction: `in` · Practice: `employment` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Investigation Report Drafter`](skills/investigation-report-drafter-rohasnagpal/) | Drafts neutral, evidence-led investigation reports — internal, regulatory, workplace, fraud, compliance, or… |
+| [`Investigation Report Drafter`](skills/investigation-report-drafter-rohasnagpal/) | Drafts neutral, evidence-led investigation reports — internal, regulatory, workplace, fraud, compliance… |
 
 ## Cold-start context
 

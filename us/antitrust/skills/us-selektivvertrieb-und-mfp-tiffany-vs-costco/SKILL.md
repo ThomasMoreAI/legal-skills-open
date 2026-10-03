@@ -1,11 +1,11 @@
 ---
 name: us-selektivvertrieb-und-mfp-tiffany-vs-costco
 title: US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies
-description: 'US-Vertriebsrecht für Luxusmarken: Resale Price Maintenance und MAP-Policies kartellrechtskonform gestalten. Normen: Sherman Act § 1, Leegin 551 U.S. 877 (Rule of Reason), Colgate Doctrine (unilateral), Tiffany v. Costco (Trademark Dilution durch Discount). Prüfraster: RPM-Legalitaet nach Leegin, MAP-Policy Formulierung, Minimum-Advertised-Price Unterschied zu Resale Price Fixing. Output Vertriebspolitik-Memo, MAP-Policy-Entwurf. Abgrenzung: EU Selektivvertrieb siehe selektiver-vertrieb-coty; EU Preisbindung siehe vertikale-preisbindung-vbe-vo.'
+description: 'Für US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/us-selektivvertrieb-und-mfp-tiffany-vs-costco
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: antitrust
@@ -13,6 +13,19 @@ language: de
 ---
 
 # US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Das US-Antitrust-Recht behandelt vertikale Preisbindung fundamental anders als das EU-Kartellrecht. Seit Leegin (2007) ist Resale Price Maintenance (RPM) nicht mehr per se illegal, sondern unterliegt der Rule of Reason — ein Paradigmenwechsel für Luxusmarken wie klôtzzkètté Inc.
 
@@ -91,13 +104,11 @@ Brezelmann US LLC bewirbt klôtzzkètté-Handtaschen auf Website für USD 699. M
 ### Konstellation 3: Costco-ähnlich — Discount-Kette nutzt "klôtzzkètté-Style"
 Discount-Kette bewirbt Handtaschen als "klôtzzkètté-inspired luxury" ohne Markenverwendung. Kein Trademark-Verstoß per se (kein Markenname); aber: UWG-Analogie fehlt im US-Recht. Lanham Act § 43(a): False Designation of Origin? Nur wenn Verbraucher echte klôtzzkètté-Verbindung annehmen.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Leegin Creative Leather Prods., Inc. v. PSKS, Inc., 551 U.S. 877 (2007) — RPM Rule of Reason
-- United States v. Colgate & Co., 250 U.S. 300 (1919) — Unilateral Refusal to Deal
-- Tiffany (NJ) Inc. v. Costco Wholesale Corp., 971 F.3d 74 (2d Cir. 2020)
-- ABA Antitrust Law Section, Vertical Restraints Guidelines, 2023
-- FTC, Report on Resale Price Maintenance, 2010 (pre-Leegin analysis; still instructive)
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -145,10 +156,10 @@ J. Halston Whitman III, Esq. (legal review confirmed)
 ## Triage-Fragen zum US-Selektivvertrieb
 
 Bevor das MAP/RPM-System in den USA eingerichtet wird, klaere:
-1. Handelt es sich um eine unilaterale MAP-Policy (Colgate-Doktrin — zulaessig) oder eine bilateral vereinbarte Preisbindung (§ 1 Sherman Act-Risiko)?
+1. Handelt es sich um eine unilaterale MAP-Policy (Colgate-Doktrin — zulässig) oder eine bilateral vereinbarte Preisbindung (§ 1 Sherman Act-Risiko)?
 2. Werden retailer-spezifische Preisabsprachen in E-Mails oder Meetings dokumentiert (Colgate-Gefahr)?
 3. Sind staatliche Antitrust-Gesetze (New York Donnelly Act, California Cartwright Act) gesondert geprueft?
-4. Ist die Marktmacht von klotzkette Inc. im relevanten US-Markt so gross, dass Rule-of-Reason-Pruefung zum Nachteil ausgeht?
+4. Ist die Marktmacht von klotzkette Inc. im relevanten US-Markt so groß, dass Rule-of-Reason-Prüfung zum Nachteil ausgeht?
 
 ## Aktuelle Rechtsprechung (US)
 
@@ -156,4 +167,4 @@ Bevor das MAP/RPM-System in den USA eingerichtet wird, klaere:
 
 > **Tiffany (NJ) Inc. v. Costco Wholesale Corp., 971 F.3d 74 (2d Cir. 2020):** Der Verkauf von Diamantringen mit dem Schildchen "Tiffany" ohne Genehmigung von Tiffany begründet Likelihood of Confusion und False Designation of Origin nach § 43(a) Lanham Act; unberechtigte Nutzung einer Luxusmarke durch Discounter begründet Marken- und Trade-Dress-Ansprueche.
 
-> **United States v. Colgate & Co., 250 U.S. 300 (1919) (Colgate-Doktrin):** Ein Hersteller hat das Recht, einseitig zu entscheiden, an wen er seine Produkte verkauft und zu welchen Bedingungen; eine unilaterale MAP-Policy ohne Absprache mit Haendlern ist nach der Colgate-Doktrin zulaessig.
+> **United States v. Colgate & Co., 250 U.S. 300 (1919) (Colgate-Doktrin):** Ein Hersteller hat das Recht, einseitig zu entscheiden, an wen er seine Produkte verkauft und zu welchen Bedingungen; eine unilaterale MAP-Policy ohne Absprache mit Haendlern ist nach der Colgate-Doktrin zulässig.

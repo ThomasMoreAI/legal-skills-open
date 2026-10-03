@@ -8,7 +8,7 @@ Jurisdiction: `za` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`South Africa POPIA Compliance`](skills/south-africa-popia/) | Implements compliance with South Africa's Protection of Personal Information Act (POPIA), Act No. 4 of 2013.… |
+| [`South Africa POPIA Compliance`](skills/south-africa-popia/) | Implements compliance with South Africa's Protection of Personal Information Act (POPIA), Act No. 4 of… |
 
 ## Cold-start context
 

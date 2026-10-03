@@ -1,0 +1,126 @@
+---
+name: dsfa-art-35-dsgvo-trigger-und-anwendungsbereich
+title: Prüfung wann eine DSFA nach Art
+description: 'Für Prüfung wann eine DSFA nach Art: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsfa-art-35-dsgvo-trigger-und-anwendungsbereich
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Prüfung wann eine DSFA nach Art
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO; BDSG; TDDDG; Art. 44 ff — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Prüfung wann eine DSFA nach Art. 35 DSGVO ueberhaupt erforderlich ist. Trigger-Prüfung Anwendungsbereich Schwellwert. Generalklausel Art. 35 Abs. 1 voraussichtlich hohes Risiko; Regelbeispiele Art. 35 Abs. 3; Pflichtlisten Art. 35 Abs. 4 BfDI. Output: Triage-Vermerk DSFA-pflichtig oder nicht.
+
+### DSFA Trigger und Anwendungsbereich nach Art. 35 DSGVO
+
+## Wann dieses Modul hilft
+
+- Vor Einfuehrung einer neuen Verarbeitungstaetigkeit
+- Bei wesentlicher Änderung einer bestehenden Verarbeitung (Art. 35 Abs. 11 DSGVO)
+- Bei Aufnahme eines neuen Auftragsverarbeiters, neuer Technologie oder neuer Datenkategorie
+- Wenn die interne Compliance, der DSB oder eine Aufsichtsbehoerde die Frage stellt
+- Vor Erstellung einer vollstaendigen DSFA (Vorab-Triage)
+
+## Rechtlicher Rahmen
+
+- Art. 35 Abs. 1 DSGVO Generalklausel: DSFA verpflichtend wenn eine Form der Verarbeitung, insbesondere bei Verwendung neuer Technologien, aufgrund Art, Umfang, Umstaenden und Zwecken voraussichtlich ein hohes Risiko für die Rechte und Freiheiten natuerlicher Personen zur Folge hat.
+- Art. 35 Abs. 3 DSGVO Regelbeispiele:
+ - lit. a systematische und umfassende Bewertung persönlicher Aspekte einschliesslich Profiling und darauf gestuetzter automatisierter Entscheidung mit Rechtswirkung
+ - lit. b umfangreiche Verarbeitung besonderer Kategorien nach Art. 9 Abs. 1 oder von Daten über strafrechtliche Verurteilungen nach Art. 10
+ - lit. c systematische umfangreiche Ueberwachung öffentlich zugaenglicher Bereiche
+- Art. 35 Abs. 4 DSGVO Pflichtliste der Aufsichtsbehoerde (BfDI bzw. zuständige Landesbehoerde) — sogenannte Blacklist.
+- Art. 35 Abs. 5 DSGVO optionale Whitelist der Aufsichtsbehoerde.
+- Art. 35 Abs. 10 DSGVO Ausnahme bei gesetzlicher Grundlage mit bereits durchgefuehrter allgemeiner DSFA durch den Gesetzgeber.
+- EDSA-Leitlinien WP 248 rev.01 (uebernommen durch EDSA), insbesondere die 9 Kriterien zur Bestimmung von voraussichtlich hohem Risiko.
+
+## Ablauf 6-Schritte-Methodik
+
+1. **Verarbeitungsbeschreibung.** Kurzbeschreibung der Verarbeitung in maximal 10 Saetzen: Zweck, Datenarten, Betroffenenkreise, Technologie, Drittlandbezug, Aufbewahrung. Ohne diese Beschreibung ist die Trigger-Prüfung nicht möglich.
+2. **Verhältnismäßigkeitspruefung.** In dieser Stufe nur grobe Plausibilitaet: Liegt ein offensichtliches Missverhaeltnis von Zweck und Eingriff vor? Falls ja, ist die DSFA bereits aus diesem Grund angezeigt.
+3. **Risikoanalyse Trigger-Ebene.** Prüfen der 9 EDSA-Kriterien:
+ - Bewertung oder Scoring
+ - automatisierte Entscheidung mit Rechtswirkung
+ - systematische Ueberwachung
+ - besondere Kategorien Art. 9 oder Art. 10
+ - umfangreiche Verarbeitung
+ - Zusammenfuehrung oder Abgleich von Datensaetzen
+ - schutzbeduerftige Personen (Kinder, Patienten, Beschäftigte)
+ - neue Technologien (KI, Biometrie, IoT)
+ - Verhinderung der Ausübung von Betroffenenrechten
+4. **Maßnahmen.** Prüfen ob bereits getroffene risikomindernde Maßnahmen den Schwellwert unter hohes Risiko druecken (Pseudonymisierung, Anonymisierung, technische Beschraenkung). Ergebnis dokumentieren.
+5. **Restrisiko / Schwellwertergebnis.** Drei moegliche Ergebnisse:
+ - DSFA-PFLICHTIG (Art. 35 Abs. 3, Abs. 4 oder mindestens 2 EDSA-Kriterien)
+ - DSFA-EMPFOHLEN (1 EDSA-Kriterium, Grenzfall)
+ - DSFA-ENTBEHRLICH (kein Kriterium erfuellt, Blacklist nicht einschlaegig)
+6. **Konsultation / Genehmigung.** DSB nach Art. 35 Abs. 2 DSGVO anhoeren. Triage-Vermerk gegenzeichnen lassen und in Verarbeitungsverzeichnis nach Art. 30 verlinken.
+
+## Mustertext / Template
+
+```
+DSFA-TRIAGE-VERMERK [DATUM]
+
+Verarbeitung: [BEZEICHNUNG]
+Verantwortlicher: [NAME, ROLLE]
+Vorpruefer: [NAME] | DSB-Anhörung: [DATUM]
+
+1. Kurzbeschreibung
+[Zweck, Datenarten, Betroffene, Technologie, Drittlandbezug, Aufbewahrung]
+
+2. Pruefung Art. 35 Abs. 3 DSGVO (Regelbeispiele)
+- lit. a Profiling mit Rechtswirkung: ja / nein — [Begruendung]
+- lit. b besondere Kategorien umfangreich: ja / nein — [Begruendung]
+- lit. c öffentlicher Bereich Ueberwachung: ja / nein — [Begruendung]
+
+3. Pruefung Art. 35 Abs. 4 DSGVO BfDI-/Landes-Blacklist
+- Einschlaegig: ja / nein — [Listen-Position]
+
+4. EDSA-Kriterien WP 248 rev.01 (Anzahl erfuellt)
+- [X] von 9
+
+5. Ergebnis
+[ ] DSFA PFLICHTIG nach Art. 35 [Abs. 1 / Abs. 3 / Abs. 4]
+[ ] DSFA EMPFOHLEN (Grenzfall, Dokumentation der Nicht-DSFA)
+[ ] DSFA ENTBEHRLICH (Dokumentation der Begruendung)
+
+6. Naechster Schritt
+[ ] Vollstaendige DSFA durchfuehren (Skill dsfa-template-deutsch-vollvorlage)
+[ ] Negative Triage-Dokumentation ablegen (Art. 5 Abs. 2 DSGVO Rechenschaftspflicht)
+
+Unterschrift Verantwortlicher: ____________________
+Unterschrift DSB: ____________________
+```
+
+## Typische Fehler
+
+- Triage wird muendlich erledigt, kein Vermerk angelegt — Verstoss gegen Rechenschaftspflicht nach Art. 5 Abs. 2 DSGVO.
+- Nur Art. 35 Abs. 3 geprueft, Generalklausel Abs. 1 uebersehen — auch ausserhalb der Regelbeispiele kann DSFA-Pflicht bestehen.
+- Blacklist der eigenen Landesbehoerde uebersehen (siehe Skill dsfa-bfdi-und-laender-blacklist).
+- Negative Triage nicht dokumentiert — bei spaeterem Aufsichtsverfahren kein Nachweis.
+- DSB nicht beteiligt obwohl Art. 35 Abs. 2 ausdruecklich Anhörung verlangt.
+- Wesentliche Änderung uebersehen — Re-Triage nach Art. 35 Abs. 11 notwendig.
+
+## Quellen Stand 06/2026
+
+- Art. 35, 36 DSGVO (Verordnung EU 2016/679)
+- Art. 5 Abs. 2 DSGVO (Rechenschaftspflicht)
+- § 67 BDSG (Pflichtliste BfDI)
+- EDSA-Leitlinien WP 248 rev.01 zur DSFA
+- BfDI: bfdi.bund.de — aktuelle Blacklist und Whitelist live prüfen
+- Landesdatenschutzbehoerden (LfDI BW, LDA Bayern u.a.) — eigene Listen
+- Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle oder lizenziertem Live-Zugriff
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

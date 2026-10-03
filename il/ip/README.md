@@ -10,7 +10,7 @@ Jurisdiction: `il` · Practice: `ip` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Legal notice`](skills/israeli-patent-guide-skills-il/) | Full guidance through the Israeli patent process: prior art search on ILPO database, national application… |
+| [`Legal notice`](skills/israeli-patent-guide-skills-il/) | Full guidance through the Israeli patent process: prior art search on ILPO database, national… |
 
 ## Cold-start context
 

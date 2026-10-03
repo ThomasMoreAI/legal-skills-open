@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-orientierung
 title: Orientierung Gewerblicher Rechtsschutz
-description: 'Gewerblichen Rechtsschutz-Mandat einordnen und Bearbeitungsroute bestimmen. § 14 MarkenG § 139 PatG § 8 UWG GeschmMG UWG. Prüfraster: Schutzrecht Verletzungsart Parteistellung Route Fristen Eilbedürfnis. Output: Mandat-Einordnung Normenmap naechste Schritte. Abgrenzung: Orientierungsskill; Detailarbeit in Spezialist-Skills.'
+description: 'Für Orientierung Gewerblicher Rechtsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/fachanwalt-gewerblicher-rechtsschutz-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -66,10 +66,6 @@ Keine Eintragungs-Barriere vorhanden?
 | Designverletzungsklage | SdT-Recherche, Neuheits-Eigenarts-Test | Verjaehrung 3 Jahre §§ 195, 199 BGB |
 | Patent-Nichtigkeitsklage | StdT-Recherche, BPatG, Nebenintervention | Keine Frist, aber Verletzungsverfahren dringt |
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -87,3 +83,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Bei urheberrechtlichen Vorfragen: Plugin `urheberrecht` / `fachanwalt-urheber-medienrecht`.
 - Bei kartellrechtlichen Bezuegen (Lizenzkartell, Marktmissbrauch): Plugin `kartellrecht-grundlagen`.
 - Bei steuerrechtlicher Bewertung von IP-Rechten: Plugin `steuerrecht-anwalt-und-berater`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

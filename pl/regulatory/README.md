@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Consumer Protection & ESG Compliance - Polish Government Registries`](skills/regdata-compliance/) | Extract data from Poland's UOKiK abusive clauses registry (court-ruled prohibited contract clauses, rejestr… |
+| [`Consumer Protection & ESG Compliance - Polish Government Registries`](skills/regdata-compliance/) | Extract data from Poland's UOKiK abusive clauses registry (court-ruled prohibited contract clauses… |
 
 ## Cold-start context
 

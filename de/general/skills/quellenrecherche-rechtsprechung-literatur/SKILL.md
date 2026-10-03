@@ -1,11 +1,11 @@
 ---
 name: quellenrecherche-rechtsprechung-literatur
 title: Quellen-Recherche — Rechtsprechung und Literatur
-description: 'Student sucht juristische Quellen für Hausarbeit: amtliche/freie Quellen und lizenzierte Datenbanken nur bei vorhandenem Zugang dejure openJur EUR-Lex Bibliotheksbestand. Frei verfuegbare Alternativen ohne Zugang. Normen Zitierstandards. Prüfraster Quellen-Vollständigkeit Aktualitaet Zugaenglichkeit Alternativ-Strategien. Output Quellen-Liste Recherche-Strategie Fundstellen-Tipps. Abgrenzung zu zitierweise-jura-fundstellen (Zitierformat) und kommentar-und-literatur-hinweis im subsumtions-prüfer.'
+description: 'Für Quellen-Recherche — Rechtsprechung und Literatur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/quellenrecherche-rechtsprechung-literatur
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,9 +14,13 @@ language: de
 
 # Quellen-Recherche — Rechtsprechung und Literatur
 
-## Zweck
+## Arbeitsweg
 
-Eine gute Hausarbeit lebt von guten Quellen. Wer nicht weiß, wo er sucht, findet nichts.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Schritt 1 — Welche Quellen brauchst Du?
 
@@ -134,19 +138,19 @@ Eine gute Hausarbeit lebt von guten Quellen. Wer nicht weiß, wo er sucht, finde
 
 ```
 1. juris-Suche: "§ 433 BGB" + Datum-Filter "letzte 24 Monate"
-   → aktuelle BGH-Entscheidungen
+ → aktuelle BGH-Entscheidungen
 2. Lizensierte Datenbank nur bei vorhandenem Zugang: Normsuche und konkrete Quelle protokollieren
-   Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+ Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 3. dejure.org: Norm anklicken, Verweise auf Rechtsprechung
 4. JuS-Archiv: "Kaufvertrag" + "Pflichtverletzung"
-   → Studenten-orientierte Aufsätze
+ → Studenten-orientierte Aufsätze
 ```
 
 ### Beispiel 2: Strafrecht § 263 StGB (Betrug)
 
 ```
 1. juris-Suche: "§ 263 StGB" + Filter "Senate 1-4 BGH"
-   → BGH-Strafsachen
+ → BGH-Strafsachen
 2. Literatur nur mit bereitgestellter Quelle oder lizenziert verifiziertem Zugriff verwenden.
 3. JuS-Archiv: "Vermögensschaden" + "Konkretisierung"
 4. Bei Streit: Fundstelle nur aus bereitgestellter Quelle oder lizenziert verifizierter Recherche übernehmen.
@@ -169,7 +173,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 |---|---|---|
 | Standardkommentar | Etablierte Definition + Streit-Stand | Pflicht-Beleg bei jeder Aussage |
 | Quellenprüfung | Aktualität (häufige Updates) | Bei jüngeren Streit-Stände |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | Aufsatz NJW | Aktuelle Diskussion + Verteidigung Position | Streit-Stände + eigene Argumentation |
 | Lehrbuch | Grundlagen | Methoden + Definitionen |
 | JuS | Studenten-orientierte Erklärung | Verstehen, was Streit-Stand bedeutet |

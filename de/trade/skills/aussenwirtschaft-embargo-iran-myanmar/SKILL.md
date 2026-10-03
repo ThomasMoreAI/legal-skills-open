@@ -1,0 +1,88 @@
+---
+name: aussenwirtschaft-embargo-iran-myanmar
+title: 'Embargo Iran: Nukleare Sanktionen und Doppelverwendungsrisiken'
+description: 'Für Embargo Iran: Nukleare Sanktionen und Doppelverwendungsrisiken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-embargo-iran-myanmar
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Embargo Iran: Nukleare Sanktionen und Doppelverwendungsrisiken
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Maschinenbauer erhalt Anfrage für Lieferung von Pumpen nach Iran; sektorale Verbote prüfen.
+- Bank prüft Zahlung eines iranischen Unternehmens; Listentreffer nach VO 267/2012.
+- Technologie-KMU fragt, ob Software-Lieferung in den Iran nach EU-Recht erlaubt ist.
+
+## Erste Schritte
+
+1. EU-Sanktionsliste Iran (VO 267/2012) und konsolidierte Finanzsanktionsliste prüfen.
+2. Guetersanktionen-Katalog (Dual-Use, militaer, Raketentechnologie, Nuklearguter) prüfen.
+3. Oel/Gas-Sektor-Embargo (Art. 8-9 VO 267/2012) bei Rohstoffbezug prüfen.
+4. Catch-All für Gueter mit WMD/Raketenprogramm-Relevanz auswerten.
+5. US-Sanktionen (OFAC Iran-Programme) als Risiko-Mitpruefung für USD-Zahlungen.
+6. Stop-Ship und Eskalation bei Zweifeln; BAFA-Anfrage bei konkreter Unsicherheit.
+
+## Rechtsrahmen
+
+- **VO (EU) 267/2012**: Restriktive Maßnahmen gegen Iran (Nuklear).
+- **VO (EU) 359/2011**: Maßnahmen wegen Verletzung der Menschenrechte Iran.
+- **AWG § 18 AWG**: Strafbarkeit bei Embargo-Verstoss.
+- **Art. 4 VO (EU) 2021/821**: Catch-All für WMD-Proliferationsverdacht.
+- **AWV § 9**: Nationale Genehmigungsfreiheitsmerkmale (Abgrenzung).
+
+## Prüf-Raster
+
+- [ ] Partei auf EU-Sanktionsliste Iran geprueft?
+- [ ] Dual-Use-Listenpruefung mit Iran-Bezug durchgefuehrt?
+- [ ] Oel/Gas-Sektor-Embargo relevanz geprueft?
+- [ ] WMD/Raketenprogramm-Catch-All-Risiko ausgeschlossen?
+- [ ] US-Sanktionen für USD-Zahlungen mitgeprueft?
+- [ ] Stop-Ship bei Risikoindikatoren ausgeloest?
+
+## Typische Fallstricke
+
+- Iran-Sanktionen sind besonders komplex wegen mehrerer EU-Verordnungen.
+- Catch-All trifft oft nicht-gelistete technische Gueter mit Dual-Use-Potenzial.
+- US-Extraterritorialer Sanktionsdruck auf EU-Unternehmen trotz unterschiedlichem EU-Recht.
+- Scheinbar zivilwirtschaftliche Endverwender können Frontgesellschaften sein.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [VO (EU) 267/2012 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32012R0267)
+- [VO (EU) 359/2011 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32011R0359)
+- [EU Sanctions Map Iran](https://www.sanctionsmap.eu/#/main/details/7)
+- [BAFA Embargo Iran](https://www.bafa.de/DE/Aussenwirtschaft/Exportkontrolle/Embargolaender/embargolaender_node.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)

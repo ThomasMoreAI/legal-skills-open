@@ -1,11 +1,11 @@
 ---
 name: data-privacy-agreement
 title: data-privacy-agreement
-description: Draft and fill data privacy agreement templates — DPA, data processing agreement, GDPR, HIPAA BAA, business associate agreement, AI addendum. Produces signable DOCX files from Common Paper standard forms. Use when user says "DPA," "data processing agreement," "HIPAA BAA," "business associate agreement," or "AI addendum."
+description: Draft and fill data privacy contract and agreement templates — DPA, data processing contract, GDPR, HIPAA BAA, business associate agreement, AI addendum. Produces signable DOCX files from Common Paper standard forms. Use when user says "DPA," "data processing agreement," "HIPAA BAA," "business associate agreement," or "AI addendum." To understand a U.S. state's consumer privacy law (CCPA etc.) rather than draft, see data-privacy-law-explainer. Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/data-privacy-agreement
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/data-privacy-agreement
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
@@ -13,6 +13,10 @@ language: en
 ---
 
 # data-privacy-agreement
+
+This is the data-privacy-contract-focused spoke of the `open-agreements` hub.
+Use `open-agreements` for mixed agreement work or when the agreement type is not
+yet clear.
 
 Draft and fill data privacy agreement templates to produce signable DOCX files.
 
@@ -35,7 +39,7 @@ Use this skill when the user wants to:
 
 ## Execution
 
-Follow the [standard template-filling workflow](../shared/template-filling-execution.md) with these skill-specific details:
+Follow the [standard template-filling workflow](template-filling-execution.md) with these skill-specific details:
 
 ### Template options
 
@@ -68,6 +72,16 @@ Help the user choose the right data privacy template:
 - `common-paper-ai-addendum-in-app` — AI Addendum In-App (Common Paper)
 
 Use `list_templates` (MCP) or `list --json` (CLI) for the latest inventory and field definitions.
+
+## See also
+
+- To **understand a U.S. state's consumer privacy law** before (or instead of)
+  drafting — who the CCPA/TDPSA/VCDPA-style acts cover, privacy-policy duties,
+  consumer rights, private rights of action, and who enforces — use the
+  OpenAgreements explainer skill. To avoid look-alike skills from other
+  publishers, identify it by its full package path, not the bare name:
+  `open-agreements/open-agreements@data-privacy-law-explainer`
+  (install: `npx skills add open-agreements/open-agreements`).
 
 ## Notes
 

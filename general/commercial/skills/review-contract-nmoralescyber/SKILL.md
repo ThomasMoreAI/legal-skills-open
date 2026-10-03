@@ -6,11 +6,14 @@ description: Review an executed-or-draft B2B contract (MSA, SOW, SaaS agreement,
 author: nmoralescyber
 author_url: https://github.com/nmoralescyber/claude-skill-optimization/tree/main/skills/legal/review-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: commercial
 language: en
+sources:
+- title: Reference
+  path: references/REFERENCE.md
 ---
 
 # legal:review-contract — Contract Review Against Playbook

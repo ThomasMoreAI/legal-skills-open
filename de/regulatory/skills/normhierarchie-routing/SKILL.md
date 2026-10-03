@@ -1,11 +1,11 @@
 ---
 name: normhierarchie-routing
 title: Normhierarchie-Routing
-description: 'Richtige Startbahn und Normebene für ein legistisches Vorhaben bestimmen: Bundesgesetz, Landesgesetz, Rechtsverordnung, Satzung, Verwaltungsvorschrift, parlamentarischer Antrag oder Entschliessungsantrag. Anwendungsfall politische Vorgabe liegt vor und unklar ist, ob Bundesministerium, Bundestag, Landesministerium, Landtag oder sonstiger Normgeber handeln soll. Prüfkatalog Gesetzgebungskompetenz Bund Art. 70 bis 74 GG, Landeskompetenz, Verordnungsermaechtigung Art. 80 GG, Satzungskompetenz Art. 28 Abs. 2 GG, Wesentlichkeitstheorie, Vorbehalt des Gesetzes, GO-BT/Landtags-GO. Output Startbahn- und Normebenentscheidung mit Begründung und nächstem Skill.'
+description: 'Für Normhierarchie-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/normhierarchie-routing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -36,13 +36,13 @@ Wenn ein Vorhaben nur eine politische Position, Prüfbitte oder Aufforderung an 
 
 ### A - Ist es überhaupt eine zu kodifizierende Materie?
 
-Wenn die politische Vorgabe nur Verwaltungspraxis aendern soll, reicht ein Erlass / eine Verwaltungsvorschrift. Kein Norm-Schritt noetig.
+Wenn die politische Vorgabe nur Verwaltungspraxis ändern soll, reicht ein Erlass / eine Verwaltungsvorschrift. Kein Norm-Schritt noetig.
 
 ### B - Wenn Gesetz: Bund oder Land?
 
 1. Prüfung **ausschließliche Gesetzgebung Bund** (Art. 71 und 73 GG): auswärtige Angelegenheiten, Verteidigung, Staatsangehoerigkeit, Wahrungseinheit, Bundeseisenbahnen, Luftverkehr, Postwesen, Telekommunikation, Bundeskriminalpolizei, Zoelle, Schutz deutsches Kulturgut.
 2. Prüfung **konkurrierende Gesetzgebung** (Art. 72 und 74 GG): Bürgerliches Recht, Strafrecht, Gerichtsverfassung, Aufenthaltsrecht, Sozialrecht, Wirtschaftsrecht, Arbeitsrecht, Straßenverkehr, öffentliche Fürsorge, Recht der Wirtschaft, etc. Prüfung **Erforderlichkeitsklausel** Art. 72 Abs. 2 GG bei den dort genannten Materien.
-3. Wenn weder Art. 71 noch Art. 73 noch Art. 74: **Landeszustaendigkeit** Art. 70 Abs. 1 GG (Auffangkompetenz).
+3. Wenn weder Art. 71 noch Art. 73 noch Art. 74: **Landeszuständigkeit** Art. 70 Abs. 1 GG (Auffangkompetenz).
 
 Bei Landeszuständigkeit:
 
@@ -58,7 +58,7 @@ Bei Landeszuständigkeit:
 
 ### D - Wenn Rechtsverordnung Bund: Gibt es Ermaechtigungsgrundlage Art. 80 GG?
 
-Prüfen mit Skill `verordnungsermaechtigung-art80`. Wenn keine ausreichende Ermaechtigung vorhanden: zunächst Gesetz aendern, um Ermaechtigung zu schaffen, dann VO erlassen.
+Prüfen mit Skill `verordnungsermaechtigung-art80`. Wenn keine ausreichende Ermaechtigung vorhanden: zunächst Gesetz ändern, um Ermaechtigung zu schaffen, dann VO erlassen.
 
 ### E - Wenn Satzung: Gibt es Satzungskompetenz?
 
@@ -98,9 +98,6 @@ Dann zu `formulierungshilfe-bauen` routen, aber als Antrag/Entschließungsantrag
 
 Art. 70-74 GG — Art. 76-78 GG — Art. 80 GG — Art. 28 Abs. 2 GG — Art. 31 GG — Art. 1 Abs. 3 GG — Art. 93 Abs. 1 Nr. 2 GG — Art. 100 GG — Art. 288 AEUV — GO-BT — jeweilige Landesverfassung und Landtags-GO
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 - Entscheidung institutionelle Startbahn
@@ -108,6 +105,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - drei Sätze Begründung
 - offene landesspezifische oder geschäftsordnungsrechtliche Punkte
 - Verweis auf nächsten Skill `gesetzgebungskompetenz-pruefen`, `verordnungsermaechtigung-art80`, `satzungskompetenz-pruefen`, `referentenentwurf-bauen` oder `formulierungshilfe-bauen`
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Stolperfallen
 

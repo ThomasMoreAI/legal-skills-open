@@ -1,22 +1,27 @@
 ---
 name: dora-ikt-vertragspruefung
 title: DORA-IKT-Vertragsprüfung
-description: 'IKT-Drittanbietervertraege auf DORA-Konformität prüfen wenn Finanzunternehmen digitale Dienstleistungen einkaufen. Art. 28 30 DORA VO (EU) 2022/2554. Prüfraster: Pflichtklauseln Art. 30 DORA Ausstiegsstrategien Aufsichtsrechte Subdienstleister Laufzeit Sicherheitsanforderungen. Output: DORA-Vertragsprüfbericht Klausel-Gap-Analyse. Abgrenzung: nicht für allgemeine IKT-Vertraege ohne Finanzmarktbezug.'
+description: 'Für DORA-IKT-Vertragsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/regulatorisches-recht/skills/dora-ikt-vertragspruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: cybersecurity
 language: de
+sources:
+- title: Dora klauselmatrix
+  path: references/dora-klauselmatrix.md
+- title: Dora rechtsquellen
+  path: references/dora-rechtsquellen.md
 ---
 
 # DORA-IKT-Vertragsprüfung
 
 ## Zweck
 
-Dieser Skill prüft Verträge mit IKT-Drittdienstleistern, die ein **Finanzunternehmen** i. S. v. Art. 2 DORA (Kreditinstitute, Zahlungs-/E-Geld-Institute, Wertpapierfirmen, Versicherer, Verwalter alternativer Investmentfonds, KVGen, OGAW, Zentralverwahrer, ZGP, Handelsplätze, Krypto-Dienstleister u. a.) abgeschlossen hat oder abschließen will, auf die Anforderungen der **Verordnung (EU) 2022/2554** (Digital Operational Resilience Act – "DORA") sowie der **dazu erlassenen RTS/ITS und EBA-/ESA-Leitlinien**.
+Prüft Verträge mit IKT-Drittdienstleistern, die ein **Finanzunternehmen** i. S. v. Art. 2 DORA (Kreditinstitute, Zahlungs-/E-Geld-Institute, Wertpapierfirmen, Versicherer, Verwalter alternativer Investmentfonds, KVGen, OGAW, Zentralverwahrer, ZGP, Handelsplätze, Krypto-Dienstleister u. a.) abgeschlossen hat oder abschließen will, auf die Anforderungen der **Verordnung (EU) 2022/2554** (Digital Operational Resilience Act – "DORA") sowie der **dazu erlassenen RTS/ITS und EBA-/ESA-Leitlinien**.
 
 Ergebnis ist eine tabellarische Lückenanalyse mit:
 
@@ -103,11 +108,11 @@ Empfohlene MCP-Konnektoren (s. `CONNECTORS.md`):
 
 ```jsonc
 {
-  "mcpServers": {
-    "eur-lex":   { "command": "node", "args": ["./mcp/eur-lex.js"] },
-    "bafin":     { "command": "node", "args": ["./mcp/bafin.js"] },
-    "esa-feeds": { "command": "node", "args": ["./mcp/esa-feeds.js"] }
-  }
+ "mcpServers": {
+ "eur-lex": { "command": "node", "args": ["./mcp/eur-lex.js"] },
+ "bafin": { "command": "node", "args": ["./mcp/bafin.js"] },
+ "esa-feeds": { "command": "node", "args": ["./mcp/esa-feeds.js"] }
+ }
 }
 ```
 
@@ -166,6 +171,14 @@ Pro Verbesserungsvorschlag ein Patch-Block mit:
 - Diff (alt → neu)
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Verhandlungsschwere (1–3)
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Beispiel (Auszug Memo)
 

@@ -1,16 +1,32 @@
 ---
 name: ca-statewide-format
 title: California Statewide Court Document Formatting
-description: 'This skill should be used when the user asks to "draft a pleading", "format a California court document", "apply California Rules of Court", "CRC 2.100", "CRC 2.111", "build a caption", "create a declaration", "format a motion", "notice of motion", "proposed order", or any similar request for statewide California document formatting. Covers California Rules of Court (CRC) 2.100-2.119 page-format requirements (paper size, margins, font, line spacing, line numbers, page numbers, footers, two-hole punch, recyclable paper), CRC 2.111 caption requirements (attorney info block, court name, party block, case number, document title), CRC 2.112 document titles, numbered lines, declaration verification under Code of Civil Procedure section 2015.5, exhibit attachment under CRC 3.1110(f), and citation format per the California Style Manual (6th edition). Also covers e-filing basics through the California Courts eCourt / Odyssey portal and the statewide TylerConnect system. Trigger phrases:
-  "format a California pleading", "California caption format", "declaration for California court", "line numbers on pleading paper", "notice of motion California", "two-hole punch California", "CRC 2.100 format", "California Rules of Court formatting", "California Style Manual citation".'
+description: Use when drafting or formatting California court documents. Triggers include "draft a pleading", "format a California court document", "CRC 2.100", "build a caption", "create a declaration", "format a motion", "notice of motion", "two-hole punch California", "California caption format", "declaration for California court", "line numbers on pleading paper", "California Style Manual citation". Covers California Rules of Court (CRC) 2.100–2.119 page-format requirements (paper, margins, font, line spacing, line numbers, footers, two-hole punch), CRC 2.111 caption, CRC 2.112 document titles, numbered lines, declaration verification under Code Civ. Proc., § 2015.5, exhibit attachment, and California Style Manual (6th edition) citation format. Also covers e-filing basics via Odyssey eFileCA.
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/ca-court-docs/skills/ca-statewide-format
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation
 language: en
+sources:
+- title: Caption format
+  path: references/caption-format.md
+- title: Crc 2 100 full text
+  path: references/crc-2-100-full-text.md
+- title: Docx generation
+  path: references/docx-generation.md
+- title: Exhibit handling
+  path: references/exhibit-handling.md
+- title: Declaration
+  path: references/templates/declaration.md
+- title: Motion with memo
+  path: references/templates/motion-with-memo.md
+- title: Notice of motion
+  path: references/templates/notice-of-motion.md
+- title: Proposed order
+  path: references/templates/proposed-order.md
 ---
 
 # California Statewide Court Document Formatting

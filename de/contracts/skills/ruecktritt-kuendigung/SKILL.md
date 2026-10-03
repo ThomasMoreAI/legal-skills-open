@@ -1,0 +1,71 @@
+---
+name: ruecktritt-kuendigung
+title: 'Workflow: Fristen, Rücktritt und Kündigung'
+description: 'Für Workflow: Fristen, Rücktritt und Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bgb-bt-pruefer/skills/ruecktritt-kuendigung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Workflow: Fristen, Rücktritt und Kündigung
+
+## Normanker
+
+- § 281 BGB: Schadensersatz statt Leistung (Fristsetzung als Grundvoraussetzung)
+- § 323 BGB: Rücktritt wegen Nichtleistung oder Schlechtleistung
+- § 324 BGB: Rücktritt bei Verletzung einer Pflicht nach § 241 Abs. 2 BGB
+- §§ 346 ff. BGB: Rechtsfolgen des Rücktritts (Rückgewährkette)
+- §§ 542 und 573 BGB: Kündigung von Mietverträgen
+- §§ 621 und 627 BGB: Kündigung von Dienstverträgen
+- §§ 648 und 648a BGB: Kündigung von Werkverträgen
+
+## Intake
+
+- Welche Pflichtverletzung liegt vor (Nichtleistung, Schlechtleistung, Nebenpflichtverletzung)?
+- Wurde eine Frist gesetzt und ist sie abgelaufen?
+- Ist die Fristsetzung entbehrlich (ernsthafte Verweigerung, Fixgeschäft)?
+- Wird Rücktritt oder Kündigung angestrebt?
+- Was ist das Vertragsverhältnis (Dauerschuldverhältnis → Kündigung; einmaliges Schuldverhältnis → Rücktritt)?
+
+## Prüfraster
+
+1. Pflichtverletzungs-Art bestimmen: Nicht- oder Schlechtleistung, Nebenpflichtverletzung
+2. Fristsetzungserfordernis: § 323 und § 281 BGB (Grundregel: Frist erforderlich)
+3. Entbehrlichkeit der Frist: ernsthafte und endgültige Weigerung, Fixgeschäft, besondere Umstände
+4. Rücktritt (§ 323 BGB): bei Nichterfüllung nach Fristablauf; Gestaltungsrecht
+5. Dauerschuldverhältnisse: statt Rücktritt Kündigung nach §§ 314 und 543 BGB
+6. Rechtsfolgen des Rücktritts: §§ 346 ff. BGB (Rückgewähr, Wertersatz, Nutzungsherausgabe)
+7. Kündigung-Typen: ordentlich vs. außerordentlich; Fristen je nach Vertragstyp
+8. Form und Zugang: Rücktritt und Kündigung sind empfangsbedürftige Gestaltungsrechte
+
+## Fallstricke
+
+- Fristsetzung zu kurz: keine angemessene Zeit gewährt; Rücktritt unwirksam.
+- Bei Dauerschuldverhältnissen ist Rücktritt oft ausgeschlossen; nur Kündigung möglich.
+- Rücktritt macht Rückgewähr erforderlich (§§ 346 ff. BGB); Kosten und Wertersatz beachten.
+- Widerruf von Gestaltungsrechten (Rücktritt, Kündigung) grundsätzlich nicht möglich.
+
+## Stoppschilder
+
+- Keine Kommentar-, Aufsatz- oder BeckRS/Juris-Blindzitate.
+- Tragende Gesetzesstände live gegen amtliche/frei zugängliche Quellen prüfen.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarer Quelle verwenden.
+- Bei Unsicherheit die Annahme ausdrücklich markieren und eine Rückfrage oder Quellenprüfung auslösen.
+
+## Anschluss-Skills
+
+- workflow-output-gutachten-klage-brief
+- bt-fristen-erklaerungen-zugang
+- schadensrecht-paragraphen-249-253
+- werkvertrag-abnahme-und-faelligkeit
+
+## Quellen
+
+- https://www.gesetze-im-internet.de/bgb/__323.html
+- https://www.gesetze-im-internet.de/bgb/__346.html
+- https://www.gesetze-im-internet.de/bgb/__314.html

@@ -5,11 +5,18 @@ description: International arbitration and cross-border disputes skill. Use when
 author: judicialmind
 author_url: https://github.com/judicialmind/legal-skills/tree/main/skills/international-arbitration
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: arbitration
 language: en
+sources:
+- title: Enforcement guide
+  path: references/enforcement-guide.md
+- title: Institution comparison
+  path: references/institution-comparison.md
+- title: Investment arbitration
+  path: references/investment-arbitration.md
 ---
 
 # International Arbitration

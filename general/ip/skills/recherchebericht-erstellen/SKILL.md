@@ -1,11 +1,11 @@
 ---
 name: recherchebericht-erstellen
 title: recherchebericht-erstellen
-description: Formaler Recherchebericht für den Mandanten oder die Akte. Bringt Auftrag Methodik durchsuchte Datenbanken verwendete Suchstrings Klassen Schlagworte Zeitraum Trefferzahlen Treffertabelle und Bewertungen aus Skills neuheit-prüfen erfinderische-tätigkeit-prüfen freedom-to-operate-recherche und patentfamilien-analyse zusammen. Strukturierter Aufbau mit Deckblatt Auftragsbeschreibung Methodik Trefferdokumentation Bewertung Empfehlung Anhang (Suchstrings Klassen Quellenliste). Disclaimer Vorrecherche keine amtliche Recherche mehrfach im Bericht. Output als Markdown-Dokument das die Patentanwaeltin in Word oder PDF weiterverarbeiten kann.
+description: 'Für recherchebericht-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/recherchebericht-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -14,14 +14,13 @@ language: de
 
 # recherchebericht-erstellen
 
-## Zweck
+## Arbeitsweg
 
-Erzeugt das **formale Ausgabedokument** der Recherche. Wird je nach Mandat:
-
-- Dem Mandanten als Recherchebericht ausgehändigt
-- In die Mandatsakte gelegt
-- Als Anlage zu einem Patentanwaltsgutachten verwendet
-- Bei FTO-Recherchen als Risiko-Memorandum dokumentiert
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Aufbau
 
@@ -31,12 +30,12 @@ Erzeugt das **formale Ausgabedokument** der Recherche. Wird je nach Mandat:
 Recherchebericht
 ================
 
-Mandant:        [Mandantenname]
-Aktenzeichen:   [Aktenzeichen]
+Mandant: [Mandantenname]
+Aktenzeichen: [Aktenzeichen]
 Recherchezweck: [Stand der Technik / Neuheit / FTO / Monitoring / Bescheidantwort]
-Stichtag:       [Datum des Berichts]
+Stichtag: [Datum des Berichts]
 Erstellt durch: [Patentanwältin / Patentanwalt]
-                [Kanzlei]
+ [Kanzlei]
 ```
 
 ### 2. Auftragsbeschreibung
@@ -100,11 +99,11 @@ kann nicht garantiert werden, insbesondere:
 
 - Treffer in nicht durchsuchten Sprachen (JP, CN, KR, RU usw.) können verfehlt werden;
 - Geheime ältere Anmeldungen (§ 3 Abs. 2 PatG / Art. 54 Abs. 3 EPUe) sind erst
-  18 Monate nach Prioritaetstag öffentlich;
+ 18 Monate nach Prioritaetstag öffentlich;
 - Bezahl-Datenbanken (PatBase, STN, Orbit, Questel u. a.) sind in diese Recherche
-  nicht eingeflossen, sofern nicht ausdrücklich vermerkt;
+ nicht eingeflossen, sofern nicht ausdrücklich vermerkt;
 - Nicht-Patent-Literatur ist nur über Standard-Schnittstellen (Google Scholar,
-  Lens.org, arXiv, PubMed) erfasst.
+ Lens.org, arXiv, PubMed) erfasst.
 
 Die finale Bewertung der Patentierbarkeit, der Verletzungsfreiheit und des Rechts-
 stands muss durch eigenständige Prüfung der Patentanwältin / des Patentanwalts
@@ -160,15 +159,15 @@ Markdown-Datei `recherchebericht_<aktenzeichen>_<datum>.md` im Arbeitsverzeichni
 ## Triage-Fragen vor Recherchebericht-Erstellung
 
 Bevor der Bericht formatiert wird, klaere:
-1. Sind alle Rechercheergeb-nisse aus den vorangegangenen Skills (neuheit-pruefen, erfinderische-taetigkeit, FTO) vollstaendig?
+1. Sind alle Rechercheergeb-nisse aus den vorangegangenen Skills (neuheit-prüfen, erfinderische-taetigkeit, FTO) vollstaendig?
 2. Ist der Adressat des Berichts identifiziert (Mandant, Patentanwalt, Gericht)?
 3. Sind alle drei Disclaimer-Bloecke im Bericht enthalten (Deckblatt, Methodik, Abschluss)?
 4. Ist der Stichtag der Recherche im Dateinamen und im Bericht korrekt vermerkt?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> **DPMA, Bekanntmachung 2022 (Verwertungsberichte):** Im Zusammenhang mit Patentbewertungen und Recherchen fuer IP-Portfoliokauf erwartet das DPMA vollstaendige Angaben ueber bekannte Wettbewerber-Rechte; ein Bericht, der bekannte Kollisionspunkte nicht nennt, kann als unvollstaendige Auskunft und Berufspflichtverletzung angesehen werden.
+> **DPMA, Bekanntmachung 2022 (Verwertungsberichte):** Im Zusammenhang mit Patentbewertungen und Recherchen für IP-Portfoliokauf erwartet das DPMA vollstaendige Angaben über bekannte Wettbewerber-Rechte; ein Bericht, der bekannte Kollisionspunkte nicht nennt, kann als unvollstaendige Auskunft und Berufspflichtverletzung angesehen werden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

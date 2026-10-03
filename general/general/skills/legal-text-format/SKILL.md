@@ -5,11 +5,14 @@ description: 将法律文本（法律条文或法律案例）转换为规范的 
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-text-format
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Examples
+  path: references/examples.md
 ---
 
 # 法律文本格式化工具

@@ -1,0 +1,54 @@
+---
+name: betriebspruefung-02
+title: 'Steuerberater: betriebspruefung rollenabgrenzung - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen'
+description: 'Für Betriebsprüfung 02: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-steuerberater/skills/betriebspruefung-02
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Steuerberater: betriebspruefung rollenabgrenzung - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
+
+## Konkreter Berufsrechtskern: Steuerberater: betriebspruefung rollenabgrenzung - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
+- **Normenanker:** StBerG, BOStB, StBVV, AO-Schnittstellen, GwG, Verschwiegenheit, Interessenkollision und berufsgerichtliches Verfahren.
+- **Institutionen:** Steuerberaterkammer, Berufsgerichtsbarkeit, Finanzverwaltung und bei Straf-/Bußgeldnähe die Ermittlungsbehörden.
+- **Spezialspur:** Prüfungsauftrag, Unabhängigkeit, Prüfungsstandard, Wesentlichkeit und Dokumentation konkret festlegen.
+- **Falllösung:** Baue eine Pflichtverletzungs-/Entlastungsmatrix mit Norm, Tatsache, Beleg, Verschulden, Verhältnismäßigkeit, möglicher Kammerantwort und prozessualem nächsten Schritt.
+
+## Fallweichen dieser Speziallage
+
+1. Rolle, Ziel und Entscheidungsdruck klären.
+2. Verfahrensstand, Fristen, Zuständigkeit und irreversible Risiken markieren.
+3. Aktenbasis ordnen: sichere Tatsachen, bestrittene Tatsachen, fehlende Unterlagen.
+4. Eingriffsintensität, Berufs-/Amtsgeheimnisse, Datenschutz und Persönlichkeitsrechte sichtbar machen.
+5. Sofortpfad anbieten: Was muss heute entschieden, beantragt, beantwortet oder dokumentiert werden?
+
+## Prüfprogramm
+
+- **Normenanker:** StBerG, BOStB, StBVV, AO, GwG, DSGVO, Kammerpraxis und Berufsgerichtsbarkeit live prüfen
+- **Tatsachenarbeit:** Beweisquelle, Beweiswert, Gegenbeweis, Dokumentationslücke und mögliche Fehlinterpretation trennen.
+- **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
+- **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
+- **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 32 StBerG` — Hilfeleistung in Steuersachen.
+- `§ 33 StBerG` — Befugnis der Steuerberater.
+- `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
+- `§ 57a StBerG` — Werbung.
+- `§ 64 StBerG` — Gebühren.
+- `§ 66 StBerG` — Handakten.
+- `§ 80 AO` — Bevollmaechtigte und Beistand.
+- `§ 153 AO` — Berichtigungspflicht.
+- `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
+- `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

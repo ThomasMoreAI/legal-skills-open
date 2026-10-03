@@ -1,18 +1,18 @@
 ---
 name: searching-krs
-title: searching-krs
+title: law-pl-searching-krs
 description: Use when identifying Polish legal entities, verifying reprezentację (zarząd, pełnomocnictwa), adresy do doręczeń, postępowania upadłościowe / restrukturyzacyjne, sprawozdania finansowe — KRS dla spółek i stowarzyszeń, CEIDG dla JDG, KRD / BIG InfoMonitor, MSiG
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-searching-krs
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# searching-krs
+# law-pl-searching-krs
 
 Każdy pozew przeciwko osobie prawnej wymaga prawidłowego oznaczenia. Brak KRS / NIP, nieaktualny adres, błędne osoby reprezentujące — podstawa do zwrotu pozwu (art. 130 KPC) albo do nieważności postępowania. Ten skill wskazuje, gdzie szukać i czego używać w pozwach.
 

@@ -1,0 +1,57 @@
+---
+name: red-team-mandatsbeziehung
+title: Red Team Mandatsbeziehung
+description: 'Für Red Team Mandatsbeziehung: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-mandant-lifecycle/skills/red-team-mandatsbeziehung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Red Team Mandatsbeziehung
+
+## Fachkern: Red Team Mandatsbeziehung
+- **Normen-/Quellenanker:** BGB-Dienst-/Geschäftsbesorgungsvertrag, RVG, BRAO/BORA, DSGVO, GeschGehG, ZPO/ArbGG/VwGO je nach Mandat und Legal-Ops-Vorgaben.
+- **Entscheidende Weiche:** Kläre Scope, Budget, Deliverable, Eskalationspunkt, Verantwortlichen, Frist, Erfolgskriterium und Kommunikationsspur.
+
+## Worum es geht
+
+Er verdichtet Sachverhalt, Rollen, Dokumente, Risiken, Quellen und nächsten Schritt zu einem steuerbaren Arbeitsweg.
+
+**Fokus:** Ergebnis, Dashboard, Rechnung und Beziehung auf Missverständnisse, Halluzinationen und Risiken prüfen
+
+## Kaltstart-Fragen
+
+- Wer spricht gerade: Kanzlei, Einzelanwalt, Rechtsabteilung, GC, CFO, Fachabteilung oder Gericht/Behörde?
+- Welches Matter, welches Ziel, welche Frist, welches Budget und welche Entscheidung stehen an?
+- Welche Informationen sind geheim, personenbezogen, privilegiert oder nur intern verwendbar?
+- Soll ein Dashboard, Memo, E-Mail, Rechnungskommentar, Board Paper oder Maßnahmenplan entstehen?
+
+## Prüf- und Arbeitslogik
+
+- **Rechtsanker:** Berufsrecht, Haftung, Quellenhygiene, Datenschutz und Qualitätsmanagement.
+- **Tatsachenanker:** Mandatsdatum, Rollen, Scope, Freigaben, Zustellungen, Budgetstand, Beweiswert, Eskalationen und offene Lücken trennen.
+- **Risikoebenen:** Haftung, Berufsrecht, Datenschutz, Vergütung, Frist, Eskalation, Reputationsrisiko und Governance getrennt ausgeben.
+- **Gegenposition:** die beste plausible Gegenansicht formulieren und sagen, welche Unterlage sie trägt oder entkräftet.
+- **Entscheidung:** einen Minimalpfad für heute und einen robusten Hauptpfad für die nächsten Arbeitstage vorschlagen.
+
+## Typische Fehlerquellen
+
+- Keine Mandatsgeheimnisse in ungeprüfte Systeme geben.
+- Budget und Erfolgsaussicht nie als Scheingenauigkeit verkaufen.
+- Kanzlei- und Mandantensicht trennen und dann bewusst zusammenführen.
+- Rechnung, Scope und Beziehung früh klären, bevor Misstrauen entsteht.
+
+## Quellen- und Aktualitätsgate
+
+Vor tragenden Aussagen live prüfen: amtliche Normfassung, zuständige Behörde/Institution, frei zugängliche Rechtsprechung nur mit Gericht, Datum und Aktenzeichen. Keine BeckRS-/juris-/Kommentar-Blindzitate. Bei dynamischen Medizin-, EU-, Berufsrechts- und Vergütungsfragen immer den Stand des konkreten Tages nennen.
+
+## Nützliche Startquellen
+
+- RVG § 3a: https://www.gesetze-im-internet.de/rvg/__3a.html
+- BRAO § 43e: https://www.gesetze-im-internet.de/brao/__43e.html
+- BRAO § 49b: https://www.gesetze-im-internet.de/brao/__49b.html

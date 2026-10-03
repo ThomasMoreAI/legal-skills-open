@@ -1,22 +1,31 @@
 ---
 name: bussgeld-einspruch-pruefen
-title: Bußgeldbescheid prüfen und Einspruch
-description: Workflow-Skill zu bussgeld einspruch pruefen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Bussgeld Einspruch Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belast'
+description: 'Für Bussgeld Einspruch Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/bussgeld-einspruch-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
 language: de
 ---
 
-# Bußgeldbescheid prüfen und Einspruch
+# Bussgeld Einspruch Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
 
-## Zweck
 
-Bußgeldbescheide haben oft Verteidigungspotenzial — Messfehler, Identitätszweifel, Verjährung, Härtefall-Argumentation beim Fahrverbot. Der Skill führt systematisch durch alle Prüfschritte vom Fristbeginn bis zur Verhandlungs-Strategie.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StVG; PflVG; §§ 315c 316 StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Bussgeld Einspruch Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+### Bußgeldbescheid prüfen und Einspruch
 
 ## Kaltstart-Rückfragen
 
@@ -28,7 +37,7 @@ Bußgeldbescheide haben oft Verteidigungspotenzial — Messfehler, Identitätszw
 6. Gibt es Voreintragungen im Fahreignungsregister innerhalb der letzten 12 Monate, die eine Erhöhung des Bußgelds oder das Fahrverbot auslösen?
 7. Wurde der Mandant vor Erlass des Bußgeldbescheids angehört § 55 OWiG? Wurde Anhörungsbogen ausgefüllt und eingesandt?
 8. Bestehen formelle Fehler im Bescheid — falsche Tatzeit, falscher Tatort, falsche Geschwindigkeit, fehlerhafte Rechtsbehelfsbelehrung?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -36,7 +45,6 @@ Bußgeldbescheide haben oft Verteidigungspotenzial — Messfehler, Identitätszw
 
 - **§ 26 Abs. 3 StVG** — Verjährung drei Monate ab Tatzeit (bei Geschwindigkeitsüberschreitung etc.); Unterbrechung durch Anhörungsmaßnahmen § 33 OWiG.
 - **§ 33 OWiG** — Unterbrechungsgründe: Bekanntgabe der Einleitung des Verfahrens, Erlass des Bußgeldbescheids; Klageerhebung; nach Unterbrechung neue volle Verjährungsfrist.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 55 OWiG** — Anhörung: Betroffener muss vor Erlass des Bußgeldbescheids Gelegenheit zur Stellungnahme erhalten; Verletzung kann zu Verfahrenshindernis führen.
 - **§ 67 Abs. 1 OWiG** — Einspruch innerhalb zwei Wochen nach Bekanntgabe bei der erlassenden Behörde; schriftlich oder zur Niederschrift.
 - **§ 52 OWiG** — Wiedereinsetzung in den vorigen Stand bei unverschuldetem Fristversäumnis; unverzüglicher Antrag.
@@ -58,9 +66,7 @@ Bußgeldbescheide haben oft Verteidigungspotenzial — Messfehler, Identitätszw
 | ProViDa 2000 | Video-Nachfahren | variabel | Abstandsberechnung fehleranfällig | Fallweise zu prüfen |
 | Multanova 6F | Radar | 3 km/h bis 100; 3 % über 100 | Schlechter Einstel-lungsnachweis | Standardisiert |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Bußgeldkatalog-Übersicht (Auszug, Stand 2024)
 
@@ -79,8 +85,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## Prüfschema in Tabellenform
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Nr. | Prüfschritt | Norm | Konsequenz |
 |---|---|---|---|
@@ -92,7 +97,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | 6 | Eichschein gültig zur Tatzeit? | § 31 MessEG | Abgelaufene Eichung: Beweisverwertungsverbot möglich |
 | 7 | Schulungsnachweis Messbeamter vorhanden? | Gerätebedienungsanleitung | Fehlt: Fehler im Messverfahren rügbar |
 | 8 | Toleranzabzug korrekt vorgenommen? | BGHSt 39, 291 | Zu geringe Toleranz: Abzug erhöhen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Bußgeld-Höhe und Punkte korrekt nach BKatV? | BKatV Anlage 1, 2 | Fehler: unmittelbare Rüge |
 | 11 | Fahrverbot regelkonform angeordnet? | § 25 StVG; BKatV | Kein Regelfall → Ermessen AG prüfen |
 | 12 | Härtefall Fahrverbot darlegbar? | § 4 Abs. 4 BKatV | Existenzgefährdung → Ersatz durch erhöhte Geldbuße |
@@ -102,17 +106,16 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Mandant will Einspruch gegen Bussgeldbescheid pruefend | Pruefung auf Formfehler + Einspruchsschriftsatz; Template unten |
+| Standard — Mandant will Einspruch gegen Bussgeldbescheid prüfend | Prüfung auf Formfehler + Einspruchsschriftsatz; Template unten |
 | Variante A — Bussgeldbescheid akzeptieren guenstiger als Prozess | Keine weiteren Schritte; Bussgeldbescheid akzeptieren |
-| Variante B — Fahrverbot droht Haertefall moeglich | Haertefall-Argumentation vorbereiten; Absehen vom Fahrverbot beantragen |
+| Variante B — Fahrverbot droht Haertefall möglich | Haertefall-Argumentation vorbereiten; Absehen vom Fahrverbot beantragen |
 | Variante C — Messverfahren angreifbar Sachverstaendiger sinnvoll | Einspruch + Antrag auf Sachverstaendigen-Gutachten |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -133,7 +136,7 @@ Sehr geehrte Damen und Herren,
 namens und in Vollmacht des Betroffenen lege ich gegen den
 Bußgeldbescheid vom [Datum], zugestellt am [Datum], hiermit
 
-                    EINSPRUCH
+ EINSPRUCH
 
 ein.
 
@@ -143,19 +146,19 @@ bleibt nach Akteneinsicht vorbehalten.
 ANTRÄGE
 
 1. Vollständige Akteneinsicht gemäß § 49 OWiG wird beantragt,
-   einschließlich:
-   a) Messprotokoll und vollständige Falldatensätze (alle
-      Rohmessdaten, nicht nur das Tatfoto), gemäß BVerfG,
-      Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   b) Eichschein des eingesetzten Messgeräts, gültig zur Tatzeit;
-   c) Schulungsnachweis des messenden Beamten (Bedienerlaubnis
-      für das konkrete Gerät);
-   d) Lebensakte des Messgeräts soweit vorhanden;
-   e) Aufstellungsprotokolle und Messbedingungen.
+ einschließlich:
+ a) Messprotokoll und vollständige Falldatensätze (alle
+ Rohmessdaten, nicht nur das Tatfoto), gemäß BVerfG,
+ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ b) Eichschein des eingesetzten Messgeräts, gültig zur Tatzeit;
+ c) Schulungsnachweis des messenden Beamten (Bedienerlaubnis
+ für das konkrete Gerät);
+ d) Lebensakte des Messgeräts soweit vorhanden;
+ e) Aufstellungsprotokolle und Messbedingungen.
 
 2. Aussetzung der Vollziehung des Fahrverbots bis zur
-   rechtskräftigen Entscheidung, da berufliche Härte besteht
-   (Begründung folgt nach Akteneinsicht).
+ rechtskräftigen Entscheidung, da berufliche Härte besteht
+ (Begründung folgt nach Akteneinsicht).
 
 Mit freundlichen Grüßen
 [Rechtsanwalt]
@@ -176,22 +179,22 @@ abzug). Als Messgerät wurde [Gerätebezeichnung] eingesetzt.
 II. Messung nicht verwertbar
 
 1. Eichschein: Die Eichgültigkeit des Messgeräts ist nicht
-   durch den vorgelegten Eichschein belegt. [Entweder: Eichschein
-   liegt nicht in der Akte / war zur Tatzeit abgelaufen — Anlage K1.]
-   Ohne gültigen Eichschein § 31 MessEG fehlt die Grundlage für
-   eine verwertbare Messung.
+ durch den vorgelegten Eichschein belegt. [Entweder: Eichschein
+ liegt nicht in der Akte / war zur Tatzeit abgelaufen — Anlage K1.]
+ Ohne gültigen Eichschein § 31 MessEG fehlt die Grundlage für
+ eine verwertbare Messung.
 
 2. Schulungsnachweis: Ein Schulungsnachweis des Bedieners [Name]
-   für das konkrete Gerät [Bezeichnung] liegt nicht in der Akte.
-   Nach der Bedienungsanleitung des Herstellers ist eine
-   gerätetyp-spezifische Ausbildung Voraussetzung für den Einsatz.
+ für das konkrete Gerät [Bezeichnung] liegt nicht in der Akte.
+ Nach der Bedienungsanleitung des Herstellers ist eine
+ gerätetyp-spezifische Ausbildung Voraussetzung für den Einsatz.
 
 3. Rohmessdaten: Trotz Akteneinsichtsantrags wurden die Rohmess-
-   daten des Falldatensatzes nicht vorgelegt. Nach BVerfG
-   Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   eine effektive Verteidigung notwendigen Mess-Rohdaten zu
-   erhalten. Die Verweigerung der Herausgabe begründet ein
-   Beweisverwertungsverbot.
+ daten des Falldatensatzes nicht vorgelegt. Nach BVerfG
+ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ eine effektive Verteidigung notwendigen Mess-Rohdaten zu
+ erhalten. Die Verweigerung der Herausgabe begründet ein
+ Beweisverwertungsverbot.
 
 III. Nicht Fahrer
 
@@ -220,41 +223,40 @@ Pflegedienstmitarbeiter / Selbstständiger] beruflich zwingend
 auf seine Fahrerlaubnis angewiesen. Im Einzelnen:
 
 1. Berufliche Abhängigkeit
-   [Konkrete Darstellung: täglich [X] km dienstlich zurückgelegt;
-   kein funktionierender öffentlicher Nahverkehr; Arbeitgeber-
-   bestätigung Anlage K1; Fahrten zu [X] Kunden/Patienten täglich]
+ [Konkrete Darstellung: täglich [X] km dienstlich zurückgelegt;
+ kein funktionierender öffentlicher Nahverkehr; Arbeitgeber-
+ bestätigung Anlage K1; Fahrten zu [X] Kunden/Patienten täglich]
 
 2. Existenzgefährdung
-   Ein Fahrverbot von [X] Monat/en würde zur Kündigung des
-   Arbeitsverhältnisses / zum Verlust wesentlicher Aufträge
-   führen (Arbeitgeberbestätigung Anlage K2).
+ Ein Fahrverbot von [X] Monat/en würde zur Kündigung des
+ Arbeitsverhältnisses / zum Verlust wesentlicher Aufträge
+ führen (Arbeitgeberbestätigung Anlage K2).
 
 3. Unzumutbarkeit
-   Eine Vertretung durch Kollegen ist nicht möglich, da [Gründe].
-   Die Inanspruchnahme von Taxis oder Mietwagen ist weder
-   wirtschaftlich tragbar noch betrieblich umsetzbar.
+ Eine Vertretung durch Kollegen ist nicht möglich, da [Gründe].
+ Die Inanspruchnahme von Taxis oder Mietwagen ist weder
+ wirtschaftlich tragbar noch betrieblich umsetzbar.
 
 4. Geringes Verschulden
-   Es handelt sich um einen Erstverstoß ohne Voreintragungen
-   im Fahreignungsregister. Der Verstoß lag lediglich [X km/h]
-   über dem Regelwert für ein Fahrverbot.
+ Es handelt sich um einen Erstverstoß ohne Voreintragungen
+ im Fahreignungsregister. Der Verstoß lag lediglich [X km/h]
+ über dem Regelwert für ein Fahrverbot.
 
 Es wird beantragt, vom Fahrverbot abzusehen und stattdessen
 die Geldbuße gemäß § 4 Abs. 4 BKatV auf das Dreifache
 [EUR X] zu erhöhen.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Beweislast und Darlegungslast
 
@@ -313,4 +315,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

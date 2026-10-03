@@ -1,26 +1,29 @@
 ---
 name: gruen-flaggen-katalog
 title: Grünen-Flaggen-Katalog
-description: Katalog starker positiver Formulierungen im Arbeitszeugnis, die auf Note 1 oder Note 2 hindeuten. Umfasst Superlative, vollständige Zufriedenheitsformeln und alle grünen Ampelsignale mit Notentendenz und Begründung.
+description: 'Für Grünen-Flaggen-Katalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/gruen-flaggen-katalog
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Grünen-Flaggen-Katalog
 
-Grüne Flaggen sind Formulierungen, die eine sehr gute bis ausgezeichnete Leistung oder ein sehr gutes Verhalten kodieren. Sie stehen für Note 1 oder Note 2 und sind durch den Einsatz von Superlativen, Steigerungsadverbien und starken Bewertungswörtern gekennzeichnet. Ein Zeugnis mit überwiegend grünen Flaggen ist das Ziel einer jeden Zeugnisverhandlung.
+## Fachlicher Anker
 
-Die stärksten Einzelformulierungen sind: "stets zur vollsten Zufriedenheit" (Note 1-Leistungsformel), "hervorragend", "ausgezeichnet", "außerordentlich" als Bewertungsadjektive, "stets einwandfrei" als Verhaltensformel, und eine vollständige Schlussformel mit Bedauern, Dank und persönlich klingenden Zukunftswünschen. Diese Formeln sind eindeutig und werden selbst von erfahrenen Personalern als starke Signale erkannt.
-
-Wichtig: Nicht jede Häufung positiver Adjektive ist automatisch grün. Es kommt auf die kodierte Struktur an. "Außerordentliche Leistungen" ist grün. "Sehr gute Leistungen" ist grün bis orange, je nach Kontext. "Gute Leistungen" ist orange. Die Abstufung liegt oft in einem einzigen Wort — daher ist der Gesamtkontext entscheidend.
-
-Verstärker der grünen Kategorie sind: "jederzeit", "in jeder Hinsicht", "außergewöhnlich", "in besonderem Maße", "weit über das normale Maß hinaus". Diese Adverbien und Phrasen steigern eine bereits positive Aussage weiter und können eine Note-2-Formulierung zur Note-1-Formulierung machen.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -49,15 +52,18 @@ Verstärker der grünen Kategorie sind: "jederzeit", "in jeder Hinsicht", "auße
 
 **Beispiel 5 – Grüne Verhaltensformel mit Erweiterung:** "Ihr Verhalten gegenüber Vorgesetzten, Kollegen und Kunden war stets einwandfrei und hinterließ durchweg hervorragende Eindrücke."
 
-## Ausgabeformat
-
-Der Skill listet alle grünen Signale mit Zitat, Signaltyp (Zufriedenheitsformel/Leistungsadjektiv/Verhaltensformel/Schlussformel/Verstärker) und Notentendenz. Am Ende gibt er die Gesamtzahl grüner Flaggen aus und vergleicht sie mit der Anzahl oranger und roter Signale.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis; Grundlage aller Bewertungen
-- **§§ 195, 199 BGB** — Verjährung drei Jahre ab Jahresende
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis; Grundlage aller Bewertungen
+- **Paragrafen 195, 199 BGB** — Verjährung drei Jahre ab Jahresende
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Notenstufen & Beweislast)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

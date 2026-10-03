@@ -1,18 +1,31 @@
 ---
 name: verbandsstrafe-anfechten
-title: Verbandsstrafe anfechten
-description: Workflow-Skill zu verbandsstrafe anfechten. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Verbandsstrafe Anfechten: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastb'
+description: 'Für Verbandsstrafe Anfechten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/verbandsstrafe-anfechten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Verbandsstrafe anfechten
+# Verbandsstrafe Anfechten: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: WADC Art. 17 Verfolgungsverjährung 10 Jahre, CAS-Anrufung 21 Tage, DFB-RVO 7-Tage-Berufung, FAO § 5 36 Monate Praxiszeit.
+- Tragende Normen verifizieren: FAO § 14n (Sportrecht), AntiDopG, NADC, WADC, BGB §§ 25 ff. (Verein), 705 ff., DFB-Satzung/Rechts- und Verfahrensordnung, FIFA-Statuten, CAS-Code, ArbGG (Spielerverträge) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Verein, Spieler, Verband (DFB/DFL/DOSB), Bundessportgericht, CAS (Lausanne), NADA, ArbG/LAG, Schiedsgericht.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Spielervertrag, Lizenzantrag, Sportgerichtsentscheidung, Schiedsspruch CAS, Anti-Doping-Protokoll, Verbandsstatut, Transferanmeldung TMS — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Verbandsstrafe Anfechten: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+### Verbandsstrafe anfechten
 
 ## Kaltstart-Rückfragen
 
@@ -26,7 +39,7 @@ language: de
 8. Tangiert die Sanktion die Berufsausübung des Mandanten (Art. 12 GG — Berufssportler)?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -49,14 +62,12 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
+
+### Berufssperre und gerichtlicher Rechtsschutz
+
+Bei Berufssperren [EuGH, Urteil vom 16.07.2026, C-424/24 und C-425/24 – FIGC/CONI](https://juris.curia.europa.eu/juris/document/document.jsf?docid=313633&doclang=DE), Rn. 78–80, 87–92 und 111–117, anwenden: Sanktion an transparenten, objektiven, verhältnismäßigen Kriterien messen; wirksame Kontrolle samt Aufhebung und Eilschutz sicherstellen. Eine spätere reine Entschädigungskontrolle kann genügen, wenn bereits das letztinstanzliche Sportorgan alle EU-Gerichtsanforderungen erfüllt. Unabhängigkeit, gesetzliche Errichtung, Verfahren und Kontrollbefugnisse konkret prüfen; keine Pflicht zu zwei Gerichtsinstanzen.
 
 ## Prüfschema (14 Schritte)
 
@@ -66,12 +77,9 @@ language: de
 | 2 | Formelle Wirksamkeit: Ordnungsgemäße Besetzung des Gremiums? | Satzung; § 25 BGB |
 | 3 | Anhörungsrecht gewährt — schriftlich und mit angemessener Frist? | Art. 103 Abs. 1 GG analog |
 | 4 | Akteneinsicht in Disziplinarakten gewährt oder verweigert? | Verfahrensgrundsätze |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 6 | Tatbestand der Sanktionsnorm tatsächlich erfüllt? | Materielle Prüfung |
 | 7 | Verschulden nachgewiesen (Vorsatz / Fahrlässigkeit)? | Verbandssatzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Verbandsinterne Rechtsmittel ausgeschöpft (Berufungsinstanz)? | Satzung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Vorläufiger Rechtsschutz nötig (Saison, Existenz)? | § 935 ZPO; CAS R37 |
 | 13 | EU-Wettbewerbsrecht relevant (Monopol-Strukturen, Bosman)? | Art. 101, 102 AEUV |
 | 14 | Parallelweg Strafrecht (§ 4 AntiDopG) koordinieren? | AntiDopG |
@@ -80,17 +88,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Verbandsstrafe anfechten | Berufungsschriftsatz; Template unten |
-| Variante A — Eilmassnahme wegen gesperrten Spielers | Einstweilige Massnahme beantragen; Spielfaehigkeit sichern |
+| Variante A — Eilmassnahme wegen gesperrten Spielers | Einstweilige Maßnahme beantragen; Spielfaehigkeit sichern |
 | Variante B — Verband verweigert Akteneinsicht | Akteneinsichtsrecht nach eigenem Verbandsrecht geltend machen |
 | Variante C — Strafe durch mehrere Verfahren | Gesamtstrafbildung analog § 54 StGB beantragen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -109,7 +116,7 @@ Sehr geehrte Damen und Herren,
 namens und in Vollmacht unserer Mandantschaft [Name, Geburtsdatum]
 legen wir form- und fristgerecht
 
-                       B e r u f u n g
+ B e r u f u n g
 
 gegen die Entscheidung vom [Datum] ein.
 
@@ -122,38 +129,38 @@ Begründung:
 I. Formelle Mängel (Verfahrensfehler)
 
 1. Anhörungsrecht verletzt:
-   Unserer Mandantschaft wurde keine oder keine ausreichende
-   Möglichkeit zur Äußerung gewährt. Das Schreiben vom [Datum]
-   setzte eine Frist von nur [X Tagen], die angesichts der
-   Komplexität der Vorwürfe nicht ausreichend war (Anlage B1:
-   Schreiben mit Fristsetzung).
+ Unserer Mandantschaft wurde keine oder keine ausreichende
+ Möglichkeit zur Äußerung gewährt. Das Schreiben vom [Datum]
+ setzte eine Frist von nur [X Tagen], die angesichts der
+ Komplexität der Vorwürfe nicht ausreichend war (Anlage B1:
+ Schreiben mit Fristsetzung).
 
 2. Akteneinsicht verweigert:
-   Der Antrag auf Akteneinsicht vom [Datum] wurde ohne Begründung
-   abgelehnt (Anlage B2: Ablehnungsschreiben). Ohne Kenntnis
-   der Beweismittel war eine effektive Verteidigung nicht möglich.
+ Der Antrag auf Akteneinsicht vom [Datum] wurde ohne Begründung
+ abgelehnt (Anlage B2: Ablehnungsschreiben). Ohne Kenntnis
+ der Beweismittel war eine effektive Verteidigung nicht möglich.
 
 3. Begründungsmangel:
-   Die Entscheidung enthält keine ausreichende Subsumtion unter
-   § [Sanktionsnorm] der [Rechts- und Verfahrensordnung]. Es
-   fehlt jede Auseinandersetzung mit den Gegenargumenten.
+ Die Entscheidung enthält keine ausreichende Subsumtion unter
+ § [Sanktionsnorm] der [Rechts- und Verfahrensordnung]. Es
+ fehlt jede Auseinandersetzung mit den Gegenargumenten.
 
 II. Materielle Mängel
 
 4. Tatbestand nicht erfüllt:
-   Der vorgeworfene Sachverhalt [konkret: Datum, Vorgang] stellt
-   keine [Bezeichnung des Verstoßes nach Regelwerk] dar, weil
-   [Begründung]. Beweis: Anlage B3 (Videobeweis / Zeugenaussagen).
+ Der vorgeworfene Sachverhalt [konkret: Datum, Vorgang] stellt
+ keine [Bezeichnung des Verstoßes nach Regelwerk] dar, weil
+ [Begründung]. Beweis: Anlage B3 (Videobeweis / Zeugenaussagen).
 
 5. Fehlendes Verschulden:
-   Unsere Mandantschaft handelte aus einem entschuldbaren Irrtum
-   über [Tatbestandsmerkmal] (Anlage B4: Erklärung Mandant).
+ Unsere Mandantschaft handelte aus einem entschuldbaren Irrtum
+ über [Tatbestandsmerkmal] (Anlage B4: Erklärung Mandant).
 
 6. Unverhältnismäßigkeit:
-   Die verhängte Sperre von [N] Spielen / Geldstrafe von EUR [Betrag]
-   übersteigt den Strafrahmen vergleichbarer Fälle erheblich
-   (Anlage B5: Vergleichsentscheidungen des Verbands). Eine
-   Geldstrafe wäre ausreichend.
+ Die verhängte Sperre von [N] Spielen / Geldstrafe von EUR [Betrag]
+ übersteigt den Strafrahmen vergleichbarer Fälle erheblich
+ (Anlage B5: Vergleichsentscheidungen des Verbands). Eine
+ Geldstrafe wäre ausreichend.
 
 III. Hilfsantrag
 
@@ -172,7 +179,7 @@ Mit freundlichen Grüßen
 ### Baustein 2 — Einstweilige Verfügung § 935 ZPO gegen Spielsperre
 
 ```
-An das Landgericht [Ort]                      [Datum]
+An das Landgericht [Ort] [Datum]
 
 Antrag auf Erlass einer einstweiligen Verfügung
 gem. § 935 ZPO
@@ -206,7 +213,7 @@ Mit freundlichen Grüßen
 [Rechtsanwalt/-anwältin]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -242,10 +249,8 @@ Mit freundlichen Grüßen
 
 | Verband-Argument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Schiedsklausel schließt Staatsgericht aus" | § 1033 ZPO: einstweilige Verfügung trotzdem möglich; BGH Pechstein: strukturelle Ausgewogenheit prüfen |
 | "Verfahren ordnungsgemäß" | Protokoll analysieren; Anhörungsrecht und Akteneinsicht nachweisen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Doping: strict liability" | WADA-Code Art. 10.5, 10.6: Schuldminderung; Quellnachweis |
 
 ---
@@ -269,7 +274,7 @@ Mit freundlichen Grüßen
 |---|---|
 | Verbandsinterne Berufung noch offen | Zunächst Verbandsberufung mit Verfahrens- und materiellenRügen |
 | Saison läuft, Sperre aktiv | Gleichzeitig § 935 ZPO-Antrag und Verbandsberufung |
-| Doping-Fall | Spezial-Skill `fachanwalt-sportrecht-doping-verfahren` einsetzen |
+| Doping-Fall | Fachmodul `fachanwalt-sportrecht-doping-verfahren` einsetzen |
 | Verfahrensfehler eindeutig | Primär auf formelle Mängel setzen — höchste Erfolgswahrscheinlichkeit |
 | Lizenzentzug Berufssportler | Art. 12 GG in Vordergrund; einstweilige Verfügung dringlichst |
 | CAS-Weg gewählt | 21-Tage-Frist beachten; Kosten-Budget sichern |

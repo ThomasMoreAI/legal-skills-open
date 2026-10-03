@@ -5,11 +5,14 @@ description: Cold-start setup — learns your jurisdictional footprint and escal
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: br
 practice: employment
 language: en
+sources:
+- title: Company profile template
+  path: references/company-profile-template.md
 ---
 
 # /cold-start-interview

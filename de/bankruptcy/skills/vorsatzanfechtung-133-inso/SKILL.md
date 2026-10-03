@@ -1,11 +1,11 @@
 ---
 name: vorsatzanfechtung-133-inso
 title: Vorsatzanfechtung § 133 InsO
-description: Workflow-Skill zu vorsatzanfechtung 133 inso. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Vorsatzanfechtung Paragraf 133 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/vorsatzanfechtung-133-inso
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,19 @@ language: de
 
 # Vorsatzanfechtung § 133 InsO
 
-## Zweck
+## Arbeitsweg
 
-Die Vorsatzanfechtung ist die häufigste und längste Anfechtungs-Art. Mandanten oft als Anfechtungs-Gegner — Lieferanten, Banken, Berater. Dieses Skill bedient Verteidigung und Anfechtungs-Geltendmachung.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vorsatzanfechtung § 133 InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -25,12 +35,11 @@ Die Vorsatzanfechtung ist die häufigste und längste Anfechtungs-Art. Mandanten
 - Zeit-Punkt Insolvenz-Ereignis
 - Kenntnisstand Vertragspartner zum Tatzeitpunkt
 - Sanierungs-Bezug der Transaktion
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Schritt 1 — Tatbestand § 133 Abs. 1 InsO
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 ### Voraussetzungen
 
@@ -78,10 +87,11 @@ c) **Kenntnis Vertragspartner** des Vorsatzes
 
 Seit der Grundsatzentscheidung **BGH IX ZR 72/20 vom 06.05.2021** verfolgt der IX. Zivilsenat eine deutlich anfechtungsfreundliche Restriktion bei kongruenten Deckungen. Bestätigt und konkretisiert durch:
 
-- **BGH IX ZR 129/22 vom 18.04.2024**: Aus der bloßen objektiv festgestellten Zahlungsunfähigkeit darf nicht ohne weiteres auf einen Gläubigerbenachteiligungsvorsatz geschlossen werden. Maßgeblich ist, ob der Schuldner wusste oder zumindest billigend in Kauf nahm, dass er andere Gläubiger zu späterer Zeit nicht vollständig befriedigen kann. Bei Liquiditätsbehauptungen des Verwalters kann ein einfaches Bestreiten des außenstehenden Anfechtungsgegners genügen.
-  Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 239/22 vom 18.04.2024** (Schwesterentscheidung zu § 135 InsO Gesellschafterdarlehen): Verschärfung der Anforderungen an die Anfechtung wegen gesellschafterähnlicher Stellung.
-  Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
+- **BGH IX ZR 129/22 vom 18.04.2024:** Ein außenstehender Dritter muss einen vom Verwalter nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus nicht ohne Weiteres substantiiert bestreiten. Die Entscheidung betrifft Darlegung und Bestreiten, nicht den materiellen Maßstab des Benachteiligungsvorsatzes.
+ Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
+- **BGH IX ZR 229/22 vom 23.01.2025**: Subjektiver Irrtum über Bestand oder Fälligkeit einer Forderung entlastet nur eng, wenn eine seit langem umstrittene und höchstrichterlich ungeklärte Rechtsfrage betroffen ist; nicht bei Vertragsauslegung, an der der Schuldner selbst mitgewirkt hat.
+- **BGH IX ZR 239/22 vom 18.04.2024:** Die für den Benachteiligungsvorsatz bedeutsame Deckungslücke kann regelmäßig nicht allein aus den bereits zur Begründung einer Zahlungseinstellung herangezogenen Verbindlichkeiten abgeleitet werden. Wiederholte Zahlungsverzögerungen reichen für die Feststellung der Zahlungseinstellung häufig nicht.
+ Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 
 Typische Indizien des Vorsatzes (vor Ausgabe einzeln verifizieren):
 
@@ -93,7 +103,7 @@ Typische Indizien des Vorsatzes (vor Ausgabe einzeln verifizieren):
 ### Reform 2017 Modifikation
 
 - 4-Jahres-Frist für kongruente Deckungs- und Befriedigungs-Handlungen (§ 133 Abs. 2 InsO)
-- Kenntnis der drohenden Zahlungs-Unfähigkeit allein nicht mehr ausreichend für die Vorsatz-Vermutung bei kongruenter Leistung — bestätigt durch BGH IX ZR 129/22 (18.04.2024)
+- Bei kongruenter Deckung lässt erkannte Zahlungsunfähigkeit allein noch nicht auf Benachteiligungsvorsatz schließen; maßgeblich ist zusätzlich die erwartbare künftige Gläubigerbefriedigung, BGH, Urteil vom 18.04.2024 - IX ZR 239/22.
 
 ## Schritt 3 — Kenntnis Vertragspartner
 
@@ -113,7 +123,8 @@ Typische Indizien des Vorsatzes (vor Ausgabe einzeln verifizieren):
 Kenntnis nach BGH-Linie (vor Ausgabe konkretes Az. prüfen):
 
 - Bei drohender Zahlungs-Unfähigkeit indiziert die Kenntnis des Gläubigers den Vorsatz
-- Nach **BGH IX ZR 129/22 vom 18.04.2024** reicht bloße Kenntnis der Liquiditätsunterdeckung nicht ohne konkrete Indizien für die Erwartung dauerhafter Unterdeckung
+- Nach **BGH IX ZR 239/22 vom 18.04.2024** darf eine tragende Deckungslücke regelmäßig nicht allein aus den schon für die Zahlungseinstellung herangezogenen Verbindlichkeiten abgeleitet werden; Zahlungsfähigkeit und künftige Gläubigerbefriedigung brauchen eigene Tatsachen.
+- Nach **BGH IX ZR 229/22 vom 23.01.2025** ist ein Rechtsirrtum über Fälligkeit oder Durchsetzbarkeit nicht schon deshalb plausibel, weil die Forderung bestritten wird; bei eigener Vertragsauslegung ist die Entlastung besonders kritisch.
 
 ## Schritt 4 — Bargeschäfts-Privileg § 142 InsO
 
@@ -150,8 +161,8 @@ Schuldner zahlt sofort bei Lieferung.
 
 → Bargeschäft § 142 InsO
 → Vorsatzanfechtung scheitert,
-  außer der Verwalter weist die Unlauterkeit nach BGH IX ZR 122/23
-  positiv nach.
+ außer der Verwalter weist die Unlauterkeit nach BGH IX ZR 122/23
+ positiv nach.
 ```
 
 ## Schritt 5 — Sanierungs-Bemühungen als Verteidigung
@@ -257,13 +268,13 @@ BGH-Linie (vor Ausgabe konkrete Entscheidung über offene Quelle prüfen):
 ### Anfechtungs-Klage Insolvenz-Verwalter
 
 - Gegen Anfechtungs-Gegner
-- Klage am Insolvenz-Gericht oder AG/LG je Streitwert
-- Forderungs-Inhalt: Rückgewähr Bereicherungs-Recht
+- Klage vor dem sachlich und örtlich zuständigen Prozessgericht nach GVG und ZPO; das Insolvenzgericht ist nicht allein wegen des eröffneten Verfahrens Prozessgericht.
+- Streitgegenstand ist der Rückgewähranspruch nach Paragraf 143 InsO. Das Bereicherungsrecht wird für die Rechtsfolgen nur entsprechend herangezogen und ist nicht die eigenständige Anspruchsgrundlage.
 
 ### Verjährung Anfechtungs-Anspruch
 
-- Drei Jahre seit Insolvenz-Eröffnung § 146 InsO
-- Beweis-Sicherung wichtig
+- Paragraf 146 Absatz 1 InsO verweist auf die regelmäßige Verjährung des BGB. Die regelmäßige Frist beträgt nach Paragraf 195 BGB drei Jahre; ihr Beginn richtet sich nach Paragraf 199 Absatz 1 BGB insbesondere nach Anspruchsentstehung, Kenntnis oder grob fahrlässiger Unkenntnis und dem Schluss des betreffenden Jahres, nicht pauschal nach dem Tag der Verfahrenseröffnung.
+- Höchstfristen, Hemmung und Neubeginn gesondert prüfen; Beweise für Anspruchsentstehung und Kenntnisstand sichern.
 
 ### Vergleich
 
@@ -352,17 +363,16 @@ BGH-Linie (vor Ausgabe konkrete Entscheidung über offene Quelle prüfen):
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Vorsatzanfechtung § 133 InsO pruefen und Anfechtungsschreiben erstellen | Anfechtungsschreiben nach Pruefschema; Template unten |
-| Variante A — Anfechtungsfrist 10 Jahre abgelaufen | Andere Anfechtungsgrundlagen pruefen §§ 129 ff InsO |
+| Standard — Vorsatzanfechtung § 133 InsO prüfen und Anfechtungsschreiben erstellen | Anfechtungsschreiben nach Prüfschema; Template unten |
+| Variante A — Anfechtungsfrist 10 Jahre abgelaufen | Andere Anfechtungsgrundlagen prüfen §§ 129 ff InsO |
 | Variante B — Anfektungsgegner zahlungsunfaehig | Wirtschaftlichkeitspruefung der Anfechtung; ggf. verzichten |
-| Variante C — Glaeubigeranfechtung nach AnfG ausserhalb Insolvenz | AnfG als Alternative wenn Insolvenz noch nicht eroeffnet |
+| Variante C — Gläubigeranfechtung nach AnfG ausserhalb Insolvenz | AnfG als Alternative wenn Insolvenz noch nicht eroeffnet |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Ausgabe
 
@@ -371,29 +381,27 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 - Sachverständigen-Auftrag
 - Vergleichs-Strategie
 - Klage-/Antwort-Schriftsatz
-- Frist im Fristenbuch (Verjährung drei Jahre)
-
+- Frist im Fristenbuch mit Berechnung nach Paragraf 146 InsO sowie den Paragrafen 195 und 199 BGB
 
 ## Quellen
 
 - InsO §§ 129 130 131 132 133 138 142 143 146
 - **BGH IX ZR 122/23 vom 05.12.2024** — Unlauterkeit beim Bargeschäft § 142 InsO
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
-- **BGH IX ZR 129/22 vom 18.04.2024** — Neuausrichtung Vorsatzanfechtung § 133 InsO
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
-- **BGH IX ZR 239/22 vom 18.04.2024** — Anfechtung wegen gesellschafterähnlicher Stellung
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
+- BGH, Urteil vom 18.04.2024 - IX ZR 129/22: Ein außenstehender Dritter darf einen nur pauschal aufgestellten und nicht mit Einzelpositionen oder Belegen unterlegten Liquiditätsstatus grundsätzlich einfach bestreiten. Die Entscheidung ist ein Darlegungsanker zu Paragraf 17 InsO, kein pauschaler Beleg für geringere Anfechtungsrisiken.
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+129/22>
+- **BGH, Urteil vom 23. Januar 2025, IX ZR 229/22, ECLI:DE:BGH:2025:230125UIXZR229.22.0**: Für Bestand und Fälligkeit einer streitigen Forderung ist die objektive Rechtslage maßgeblich; Aussagen zu einem Rechtsirrtum betreffen getrennt davon die subjektiven Voraussetzungen der Vorsatzanfechtung.
+ <https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1152&nr=140413&pos=16>
 - Ältere Linie (BGH IX ZR 72/20 vom 06.05.2021 — Grundsatzentscheidung Neuausrichtung) und § 138-Konstellationen vor Ausgabe über dejure.org/openjur.de verifizieren.
 - IDW S 6 (Sanierungskonzept)
 - Literatur und Kommentarstellen nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
 
 ## Output-Template Anfechtungsschreiben § 133 InsO
 
 **Adressat:** Anfechtungsgegner — Tonfall: scharf-fristsetzend
 
 ```
-[KANZLEI]    [DATUM]
+[KANZLEI] [DATUM]
 
 Insolvenzverfahren [FIRMA]
 Amtsgericht [ORT], Az. [XX IN YY/ZZ]
@@ -406,8 +414,8 @@ ich bin als Insolvenzverwalter im obengenannten Verfahren bestellt.
 
 Hiermit fechte ich folgende Zahlungen nach § 133 Abs. 1 InsO an:
 
-Datum          Betrag          Verwendungszweck
-[DATUM]        EUR [BETRAG]    [ZWECK]
+Datum Betrag Verwendungszweck
+[DATUM] EUR [BETRAG] [ZWECK]
 [...]
 
 Begruendung Benachteiligungsvorsatz:
@@ -417,28 +425,24 @@ Die Schuldnerin war zum Zeitpunkt der Zahlungen zahlungsunfaehig. Dies ergibt si
 Begruendung Kenntnis des Anfechtungsgegners:
 [Indizien: Stundungsanfragen, Mahnstufen, Kenntnis ZU-Anzeichen]
 
-Ich fordere Sie auf, den Gesamtbetrag von EUR [BETRAG] zzgl. Zinsen
-(§ 143 Abs. 1 i.V.m. § 819 BGB) bis zum [DATUM, 14 Tage] auf das
-Massekonto [IBAN] zurueckzuueberweisen.
+Ich fordere Sie auf, den Gesamtbetrag von EUR [BETRAG] bis zum
+[DATUM, 14 Tage] auf das Massekonto [IBAN] zurückzuüberweisen.
+Ab Eintritt des Verzugs werden Zinsen nach Paragraf 143 Absatz 1 Satz 3 InsO
+in Verbindung mit den Paragrafen 286 und 288 BGB verlangt; ab Rechtshängigkeit
+gilt Paragraf 291 BGB.
 
 Nach fruchtlosem Ablauf dieser Frist werde ich Klage erheben.
 
 [UNTERSCHRIFT INSOLVENZVERWALTER]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
-
-
-## Quellenregel
-
-Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff. Rechtsprechung aus offenen Quellen (dejure.org, openjur.de, bundesgerichtshof.de) mit Gericht, Datum, Aktenzeichen, Randnummer.

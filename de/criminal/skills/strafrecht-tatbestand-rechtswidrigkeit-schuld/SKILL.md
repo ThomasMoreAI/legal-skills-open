@@ -1,11 +1,11 @@
 ---
 name: strafrecht-tatbestand-rechtswidrigkeit-schuld
 title: 'Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld'
-description: 'Student prüft Strafbarkeit in der Hausarbeit: Drei-Stufen-Schema Tatbestand Rechtswidrigkeit Schuld. Objektiver subjektiver Tatbestand Rechtfertigungsgründe Schuldfähigkeit. §§ 242 263 223 212 StGB Versuch § 22 StGB Rücktritt § 24 StGB Konkurrenzen. Prüfraster Stufenprüfung Vorsatz-Fahrl-saessigkeitsabgrenzung Konkurrenzen. Output strafrechtliches Prüfungsschema Begründung. Abgrenzung zu fachgebiet-routing (Gebietswahl) und subsumtion-schritt-fuer-schritt (Methode).'
+description: 'Für Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/strafrecht-tatbestand-rechtswidrigkeit-schuld
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,15 +14,23 @@ language: de
 
 # Strafrecht — Drei-Stufen-Aufbau: Tatbestand, Rechtswidrigkeit, Schuld
 
+## Arbeitsbereich
+
+Student prüft Strafbarkeit in der Hausarbeit: Drei-Stufen-Schema Tatbestand Rechtswidrigkeit Schuld. Objektiver subjektiver Tatbestand Rechtfertigungsgründe Schuldfähigkeit. §§ 242 263 223 212 StGB Versuch § 22 StGB Rücktritt § 24 StGB Konkurrenzen. Prüfraster Stufenprüfung Vorsatz-Fahrl-saessigkeitsabgrenzung Konkurrenzen. Output strafrechtliches Prüfungsschema Begründung. Abgrenzung zu fachgebiet-routing (Gebietswahl) und subsumtion-schritt-für-schritt (Methode). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 1. Welches Straftatbestandsdelikt ist im Sachverhalt erkennbar: Koerperverletzung, Betrug, Diebstahl, Toetung?
 2. Gibt es Hinweise auf Versuch, Vollendung oder Ruecktritt nach § 24 StGB?
-3. Liegen Anzeichen fuer Rechtfertigungsgruende vor (Notwehr § 32, rechtfertigender Notstand § 34)?
+3. Liegen Anzeichen für Rechtfertigungsgruende vor (Notwehr § 32, rechtfertigender Notstand § 34)?
 4. Gibt es Schuldunfaehigkeitsindikatoren (Alter, psychische Erkrankung, Trunkenheit)?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - §§ 13-35 StGB — Allgemeiner Teil: Tatbestand, Rechtswidrigkeit, Schuld
@@ -30,34 +38,27 @@ language: de
 - §§ 32, 34 StGB — Notwehr und rechtfertigender Notstand
 - §§ 20, 21 StGB — Schuldunfaehigkeit und verminderte Schuldfaehigkeit
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Das Drei-Stufen-Schema ist das Standard-Schema jeder strafrechtlichen Prüfung. Es führt von der Frage "Ist die Handlung tatbestandsmäßig?" über "Ist sie rechtswidrig?" zu "Ist sie schuldhaft?".
-
 ## Schritt 1 — Aufbau
 
 ```
 A. Strafbarkeit T wegen [Delikt] gemäß § X StGB
-   I. Tatbestand
-      1. Objektiver Tatbestand
-         a) Tatbestandsmerkmal 1
-         b) Tatbestandsmerkmal 2
-         (etc.)
-      2. Subjektiver Tatbestand
-         a) Vorsatz
-         b) ggf. weitere subjektive Merkmale (Zueignungsabsicht etc.)
-   II. Rechtswidrigkeit
-      1. Indiz: tatbestandsmäßig
-      2. Rechtfertigungsgründe prüfen
-   III. Schuld
-      1. Schuldfähigkeit
-      2. Schuldformen / Unrechtsbewusstsein
-      3. Entschuldigungsgründe
-   IV. Strafzumessungs-Erwägungen (ggf.)
-   V. Ergebnis (Strafbarkeit ja / nein)
+ I. Tatbestand
+ 1. Objektiver Tatbestand
+ a) Tatbestandsmerkmal 1
+ b) Tatbestandsmerkmal 2
+ (etc.)
+ 2. Subjektiver Tatbestand
+ a) Vorsatz
+ b) ggf. weitere subjektive Merkmale (Zueignungsabsicht etc.)
+ II. Rechtswidrigkeit
+ 1. Indiz: tatbestandsmäßig
+ 2. Rechtfertigungsgründe prüfen
+ III. Schuld
+ 1. Schuldfähigkeit
+ 2. Schuldformen / Unrechtsbewusstsein
+ 3. Entschuldigungsgründe
+ IV. Strafzumessungs-Erwägungen (ggf.)
+ V. Ergebnis (Strafbarkeit ja / nein)
 ```
 
 ## Schritt 2 — Tatbestand
@@ -209,12 +210,12 @@ Tatbestandsmäßigkeit indiziert Rechtswidrigkeit. Geprüft wird, ob Rechtfertig
 
 ```
 I. Tatbestand
-   1. Objektiver Tatbestand
-      a) Fremde bewegliche Sache: ...
-      b) Wegnahme (Bruch fremden Gewahrsams + Begründung neuen Gewahrsams): ...
-   2. Subjektiver Tatbestand
-      a) Vorsatz: Wissen + Wollen
-      b) Zueignungsabsicht (Aneignungs + Enteignungs-Element)
+ 1. Objektiver Tatbestand
+ a) Fremde bewegliche Sache: ...
+ b) Wegnahme (Bruch fremden Gewahrsams + Begründung neuen Gewahrsams): ...
+ 2. Subjektiver Tatbestand
+ a) Vorsatz: Wissen + Wollen
+ b) Zueignungsabsicht (Aneignungs + Enteignungs-Element)
 II. Rechtswidrigkeit (Indiz, ggf. Rechtfertigungs-Gründe)
 III. Schuld (Schuldfähigkeit, Schuldformen)
 ```
@@ -223,15 +224,15 @@ III. Schuld (Schuldfähigkeit, Schuldformen)
 
 ```
 I. Tatbestand
-   1. Objektiver Tatbestand
-      a) Täuschung über Tatsachen
-      b) Irrtum
-      c) Vermögensverfügung (durch den Getäuschten)
-      d) Vermögensschaden
-   2. Subjektiver Tatbestand
-      a) Vorsatz hinsichtlich aller Tatbestandsmerkmale
-      b) Bereicherungsabsicht (eigene + zustehender + stoffgleich)
-      c) Rechtswidrigkeit der erstrebten Bereicherung
+ 1. Objektiver Tatbestand
+ a) Täuschung über Tatsachen
+ b) Irrtum
+ c) Vermögensverfügung (durch den Getäuschten)
+ d) Vermögensschaden
+ 2. Subjektiver Tatbestand
+ a) Vorsatz hinsichtlich aller Tatbestandsmerkmale
+ b) Bereicherungsabsicht (eigene + zustehender + stoffgleich)
+ c) Rechtswidrigkeit der erstrebten Bereicherung
 II. Rechtswidrigkeit
 III. Schuld
 ```
@@ -240,12 +241,12 @@ III. Schuld
 
 ```
 I. Tatbestand
-   1. Objektiver Tatbestand
-      a) Körperliche Misshandlung oder Gesundheitsbeschädigung
-      b) Handlung des Täters
-      c) Kausalität
-   2. Subjektiver Tatbestand
-      a) Vorsatz
+ 1. Objektiver Tatbestand
+ a) Körperliche Misshandlung oder Gesundheitsbeschädigung
+ b) Handlung des Täters
+ c) Kausalität
+ 2. Subjektiver Tatbestand
+ a) Vorsatz
 II. Rechtswidrigkeit (Notwehr? Einwilligung?)
 III. Schuld
 ```
@@ -254,13 +255,13 @@ III. Schuld
 
 ```
 I. Tatbestand
-   1. Objektiver Tatbestand
-      a) Tötung eines Menschen
-      b) Handlung
-      c) Kausalität
-   2. Subjektiver Tatbestand
-      a) Vorsatz (Tötungs-Vorsatz)
-      b) Bei Mord: Mord-Merkmale (Heimtücke, niedere Beweggründe, Grausamkeit etc.)
+ 1. Objektiver Tatbestand
+ a) Tötung eines Menschen
+ b) Handlung
+ c) Kausalität
+ 2. Subjektiver Tatbestand
+ a) Vorsatz (Tötungs-Vorsatz)
+ b) Bei Mord: Mord-Merkmale (Heimtücke, niedere Beweggründe, Grausamkeit etc.)
 II. Rechtswidrigkeit
 III. Schuld
 ```
@@ -289,6 +290,8 @@ III. Schuld
 
 ## Übergang zu
 
-- `subsumtion-schritt-fuer-schritt` — Subsumtions-Praxis
+- `subsumtion-schritt-für-schritt` — Subsumtions-Praxis
 - `meinungsstreit-darstellen` — Bei Streit (z.B. Vorsatz vs. Fahrlässigkeit, Tatbestands- vs. Verbotsirrtum)
 - `gliederung-mit-tiefenstruktur` — Gliederung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

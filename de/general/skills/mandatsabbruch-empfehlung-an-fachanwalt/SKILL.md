@@ -1,105 +1,91 @@
 ---
 name: mandatsabbruch-empfehlung-an-fachanwalt
-title: 'Mandatsabbruch-Empfehlung: Weiterleitung an Fachanwalt'
-description: Erkennt Indikatoren für Komplexitaetsgrenzen des mechanischen Prüfens und empfiehlt Abbruch sowie Weiterleitung an Fachanwalt, Notar, Steuerberater oder Behoerde. Warnt bei Strafrecht, Verfassungsrecht, internationalem Privatrecht und Existenzgefaehrdung.
+title: Mandatsabbruch und Empfehlung an Fachanwalt
+description: 'Für Mandatsabbruch und Empfehlung an Fachanwalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: mandatsabbruch-empfehlung-an-fachanwalt.'
 author: Klotzkette
-author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/mandatsabbruch-empfehlung-an-fachanwalt
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/mandatsabbruch-empfehlung-an-fachanwalt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
 language: de
 ---
 
-# Mandatsabbruch-Empfehlung: Weiterleitung an Fachanwalt
+# Mandatsabbruch und Empfehlung an Fachanwalt
 
-## Triage zu Beginn — Abbruch-Indikatoren prüfen
+## Triage — kläre vor dem Hinweis
 
-1. Enthält der Sachverhalt strafrechtliche Tatbestände mit möglicher Freiheitsstrafe?
-2. Sind mehr als drei miteinander verknüpfte Rechtsverhältnisse betroffen?
-3. Hat der Sachverhalt ausländischen Bezug oder mehrere mögliche Gerichtsstände?
-4. Ist das gesamte Ergebnis von einer Generalklausel (§ 242, § 138 BGB) abhängig?
-5. Betrifft der Sachverhalt Wohnung, Arbeitsplatz, Aufenthaltsstatus oder wesentliches Vermögen?
+1. Betrifft der Sachverhalt Konzern- oder grenzüberschreitende Insolvenzanfechtung?
+2. Liegt Streit über den Zeitpunkt der Zahlungsunfähigkeit oder Überschuldung vor?
+3. Sind mehr als 50.000 EUR betroffen, oder handelt es sich um Grundstücksübertragungen?
+4. Ist regulatorische Überlagerung (KWG, MaRisk) oder Kapitalmarktrecht einschlägig?
+5. Besteht paralleler Bedarf an einstweiligem Rechtsschutz (Arrest, einstweilige Verfügung)?
 
-## Zweck
+## Zentrale Normen
 
-Mechanisches Subsumieren hat Grenzen. Dieser Skill markiert den Punkt, an dem automatisierte Hilfe nicht mehr ausreicht und qualifizierte Fachleute unverzüglich eingeschaltet werden müssen.
+§ 17 InsO (Zahlungsunfähigkeit) — § 19 InsO (Überschuldung) — § 138 InsO (nahestehende Personen) — Art. 3 ff. EuInsVO (internationale Zuständigkeit) — § 14a FAO (Fachanwalt für Insolvenzrecht) — § 14g FAO (Fachanwalt für Bank- und Kapitalmarktrecht) — § 208 InsO (Masseunzulänglichkeit)
 
-## Zentrale berufsrechtliche Normen
+## Komplexitätsindikatoren
 
-- § 43 BRAO — Pflicht des Rechtsanwalts zur gewissenhaften Berufsausübung; Mandant darf nicht schlechtergestellt werden
-- § 3 Abs. 3 RDG — Erlaubnisfreie Rechtsdienstleistung endet, wo Rechtsberatung erforderlich wird
-- § 90 BVerfGG — Verfassungsbeschwerde: Erschöpfung Rechtsweg, 1-Jahres-Frist (§ 93 Abs. 1 BVerfGG)
-- §§ 1 ff. InsO — Insolvenzantragspflicht und Forderungsanmeldung erfordern Fachanwaltswissen
+### Kategorie 1: Insolvenzrechtliche Sonderfragen
 
-## Aktuelle Rechtsprechung
+- Streit über den Zeitpunkt der Zahlungsunfähigkeit (§ 17 InsO) oder Überschuldung (§ 19 InsO).
+- Anfechtung nach § 133 InsO bei Unternehmensgruppen (konzerninterne Transfers).
+- Grenzüberschreitende Sachverhalte (EuInsVO).
+- Masseunzulänglichkeit (§ 208 InsO): Rangfragen bei Masseverbindlichkeiten.
+- Anfechtung gegenüber nahestehenden Personen (§ 138 InsO).
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+### Kategorie 2: Bereicherungsrechtliche Sonderfragen
 
-## Abbruch-Indikatoren
+- Mehrpersonenverhältnisse mit mehr als drei Beteiligten und doppeltem Mangel.
+- Kapitalmarktrecht (Emissionserlös, prospektpflichtiger Vertrieb).
+- Rückforderungsansprüche aus nichtigen Dauerschuldverhältnissen (ex-nunc-Abwicklung).
+- Internationale Sachverhalte (IPR: Recht am Erfüllungsort).
 
-Das System empfiehlt Abbruch und Verweisung an Fachleute bei folgenden Konstellationen:
+### Kategorie 3: Verfahrensrechtliche Komplexität
 
-### Strafrecht mit drohender Freiheitsstrafe
+- Vollstreckungserinnerung und sofortige Beschwerde neben Anfechtungsklage.
+- Einstweiliger Rechtsschutz (Arrest, einstweilige Verfügung).
 
-Sobald ein Sachverhalt Straftatbestände enthält, die eine Freiheitsstrafe von mehr als einem Jahr vorsehen oder bei denen eine Verhaftung, Untersuchungshaft oder Anklage droht: **Sofortige Empfehlung eines Strafverteidigers (Fachanwalt für Strafrecht).**
+### Kategorie 4: Betragsgrößen und wirtschaftliche Bedeutung
 
-Nemo-tenetur-Grundsatz: Niemand ist verpflichtet, sich selbst zu belasten. Mechanisches Subsumieren kann diesen Grundsatz nicht beachten.
+- Betroffene Vermögenswerte oberhalb von 50.000 EUR.
+- Grundstücksübertragungen und dingliche Sicherheiten.
+- Ansprüche gegen Kreditinstitute (KWG, MaRisk).
 
-### Internationales Privatrecht / Kollisionsrecht
+## Empfehlung
 
-Sachverhalte mit ausländischen Vertragsparteien, ausländischen Vermögenswerten oder mehreren Gerichtsständen erfordern die Prüfung des anwendbaren Rechts (Rom I-VO, Rom II-VO, EuErbVO, Haager Übereinkommen). Empfehlung: Fachanwalt mit IPR-Erfahrung.
+Bei einem oder mehreren dieser Indikatoren ist ein Fachanwalt für Insolvenzrecht (§ 14a FAO) oder ein Fachanwalt für Bank- und Kapitalmarktrecht (§ 14g FAO) hinzuzuziehen.
 
-### Verfassungsbeschwerden und Grundrechts-Intensiveingriffe
+## Output-Template
 
-Empfehlung: Fachanwalt für Verfassungsrecht oder spezialisierte Kanzlei. Rechtswegerschöpfung und 1-Jahres-Frist (§ 93 Abs. 1 BVerfGG) sind formal komplex.
+**Prüfung: Mandatsabbruch erforderlich?**
 
-### Insolvenzrecht mit laufendem Insolvenzverfahren
+Sachverhalt (kurz): [...]
 
-Sobald ein Schuldner insolvent ist oder das Insolvenzverfahren eröffnet wurde, unterliegen Forderungsanmeldung, Anfechtungsrecht und Aussonderung eigenen Regeln (InsO). Empfehlung: Fachanwalt für Insolvenz- und Sanierungsrecht.
+| Indikator | Vorhanden? |
+|---|---|
+| Zahlungsunfähigkeitszeitpunkt streitig | ja / nein |
+| Konzerninterne Transaktion | ja / nein |
+| Grenzüberschreitender Sachverhalt | ja / nein |
+| Betroffener Wert > 50.000 EUR | ja / nein |
+| Grundstücksübertragung | ja / nein |
+| Einstweiliger Rechtsschutz nötig | ja / nein |
+| Kapitalmarktrechtliche Überlagerung | ja / nein |
 
-### Existenzgefährdende Sachverhalte
+**Empfehlung:** Fachanwalt für Insolvenzrecht / Bank- und Kapitalmarktrecht einschalten. Dieses Tool reicht für diesen Fall nicht aus.
 
-Sachverhalte, bei denen ein wesentlicher Teil des Vermögens, der Wohnung, des Arbeitsplatzes oder der Aufenthaltsstatus betroffen ist.
+---
 
-### Mehr als drei miteinander verknüpfte Rechtsverhältnisse
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
 
-Wenn der Sachverhalt mehr als drei miteinander verknüpfte Rechtsverhältnisse enthält (z.B. Dreiecksbeziehungen, Konzernstrukturen, mehrstufige Verträge).
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
-## Empfehlungen nach Sachgebiet
-
-| Sachgebiet | Empfehlung |
-|-----------|-----------|
-| Strafrecht | Fachanwalt für Strafrecht, ggf. Pflichtverteidiger |
-| Steuer | Steuerberater, Fachanwalt für Steuerrecht |
-| Notarielle Beurkundung (Immobilien, GmbH-Anteile, Erbvertrag) | Notar |
-| Behördlicher Bescheid | Fachanwalt für Verwaltungsrecht |
-| Sozialleistungen | Sozialrechtsberatungsstelle, Fachanwalt für Sozialrecht |
-| Arbeitsrecht | Fachanwalt für Arbeitsrecht, Gewerkschaftsrechtsschutz |
-| Aufenthaltsrecht | Fachanwalt für Migrationsrecht |
-| Familienrecht | Fachanwalt für Familienrecht |
-| Insolvenz | Fachanwalt für Insolvenz- und Sanierungsrecht |
-| IPR/Internationales Recht | Spezialkanzlei IPR/Auslandsbezug |
-
-## Output-Template Abbruchhinweis
-
-**Adressat:** Mandant — Tonfall verständlich-erklärend, klar
-
-```
-Wichtiger Hinweis: Grenzen der automatisierten Prüfung
-
-Ihr Sachverhalt enthält Elemente, die eine qualifizierte anwaltliche Beratung
-zwingend erfordern. Grund: [ABBRUCHINDIKATOR]
-
-Wir empfehlen Ihnen dringend:
-1. Kontaktieren Sie einen Fachanwalt für [FACHGEBIET]
-2. Bringen Sie zum Termin mit: [DOKUMENTE]
-3. Wichtige Frist: [DATUM/FRIST] — bitte nicht verstreichen lassen
-
-Suche nach Fachanwälten: www.rechtsanwaltskammer.de oder www.anwaltauskunft.de
-```
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

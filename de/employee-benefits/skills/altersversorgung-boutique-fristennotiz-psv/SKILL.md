@@ -1,0 +1,67 @@
+---
+name: altersversorgung-boutique-fristennotiz-psv
+title: 'Altersversorgung: Fristen, Form, Zuständigkeit und Rechtsweg'
+description: 'Für Altersversorgung: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/altersversorgung-boutique-fristennotiz-psv
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employee-benefits
+language: de
+---
+
+# Altersversorgung: Fristen, Form, Zuständigkeit und Rechtsweg
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen: Altersversorgung: Fristen, Form, Zuständigkeit und Rechtsweg
+- **Normen-/Quellenanker:** CTA, DB, DC.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Altersversorgung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## Norm-Bezug konkret (bAV-Fristen/Zuständigkeit)
+
+- § 1b BetrAVG: Unverfallbarkeit (drei Jahre Zusagedauer, ab dem 21. Lebensjahr).
+- § 16 BetrAVG: Anpassungsprüfungspflicht alle drei Jahre (Trade-off: vermeidbar nur durch Festschreibungsklausel mit garantiertem 1 %-Pfad nach § 16 Abs. 3 Nr. 1 BetrAVG; sonst Bindung an Verbraucherpreisindex).
+- §§ 7-15 BetrAVG: PSV-Insolvenzschutz; jährliche Beitragspflicht zum 31.03. des Folgejahres an Pensions-Sicherungs-Verein.
+- § 4 BetrAVG: Übertragung bei Arbeitgeberwechsel binnen eines Jahres.
+- §§ 30f, 30g BetrAVG: Übergangsvorschriften alte Zusagen.
+- Arbeitsrechtsweg: § 2 ArbGG; bei Mitbestimmungsfragen Einigungsstelle nach § 87 Abs. 1 Nr. 10 BetrVG.
+- Steuerlicher Rechtsweg: FGO; Bundesfinanzhof bei höchstrichterlicher Klärung Pensionsrückstellungen / § 6a EStG.
+
+## Praktischer Tipp
+
+- PSV-Beitragsbescheid (Beitragsbemessung jeweils zum 31.10. des Vorjahres, Zahlung 31.03.) immer auf richtigen Anwendungsbereich prüfen - Direktversicherungen mit unwiderruflichem Bezugsrecht sind PSV-frei.
+- Anpassungsprüfung nach § 16 BetrAVG bedeutet nicht Anpassungspflicht; bei schlechter wirtschaftlicher Lage kann der Arbeitgeber aussetzen, muss aber dokumentieren (zwei vorhergehende Geschäftsjahre, Eigenkapitalrendite, Zukunftsprognose).
+- Versorgungsausgleich bei Scheidung: zuerst §§ 1, 3, 10 VersAusglG prüfen; bei Direktzusagen, Unterstützungskassen, Pensionsfonds und Pensionskassen zusätzlich § 17 VersAusglG sauber gegen § 14 VersAusglG abgrenzen. Externe Teilung darf bei Betriebsrenten nicht pauschal behauptet werden: Kapitalwert, Ausgleichswert, Teilungsordnung, Zielversorgung und die jeweils aktuelle Beitragsbemessungsgrenze West der allgemeinen Rentenversicherung live gegenprüfen.
+
+## Beispiel-Mustertext (Anpassungsentscheidung nach § 16 BetrAVG)
+
+> Nach pflichtgemäßer Prüfung gemäß § 16 BetrAVG zum Stichtag [Datum] kommt die [Gesellschaft] zu folgendem Ergebnis: Eine Anpassung der laufenden Versorgungsleistungen [unterbleibt für den Anpassungszeitraum / erfolgt um X %]. Maßgeblich sind die wirtschaftliche Lage gemäß den letzten beiden Jahresabschlüssen [Jahre], die Zukunftsprognose über die nächsten drei Jahre und das Belange der Versorgungsempfänger. Eine erneute Prüfung erfolgt zum [Folgetermin].
+
+## Typische Fehler
+
+- Festschreibungsklausel nach § 16 Abs. 3 Nr. 1 BetrAVG ohne 1 %-Mindestanpassung formuliert - Klausel unwirksam, volle Anpassungsprüfung lebt wieder auf.
+- PSV-Meldung vergessen bei Neuzusage; § 11 BetrAVG-Meldepflicht binnen drei Monaten.

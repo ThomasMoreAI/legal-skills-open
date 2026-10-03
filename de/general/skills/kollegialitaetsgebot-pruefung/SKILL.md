@@ -1,11 +1,11 @@
 ---
 name: kollegialitaetsgebot-pruefung
 title: Kollegialitätsgebot-Prüfung
-description: 'E-Mail auf Einhaltung des Kollegialitätsgebots gegenüber Kollegen und Kolleginnen prüfen. § 43a Abs. 3 BRAO § 26 BORA Kollegialität. Prüfraster: kollegiale Formulierungen fehlende Abwertungen sachliche Kritik professioneller Umgangston. Output: Kollegialitäts-Prüfprotokoll Korrekturvorschlaege. Abgrenzung: nicht für Mandantenkommunikation.'
+description: 'Für Kollegialitätsgebot-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/kollegialitaetsgebot-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,18 +14,19 @@ language: de
 
 # Kollegialitätsgebot-Prüfung
 
-Dieser Skill prüft Korrespondenz gezielt auf Einhaltung des anwaltlichen Kollegialitätsgebots nach § 25 BORA. Der kollegiale Umgang unter Rechtsanwälten ist nicht nur eine Frage des guten Tons, sondern eine berufsrechtliche Pflicht, deren Verletzung zu Rüge- oder Ahndungsverfahren führen kann.
+## Fachkern: Kollegialitätsgebot-Prüfung
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Prüft Korrespondenz gezielt auf Einhaltung des anwaltlichen Kollegialitätsgebots nach § 25 BORA. Der kollegiale Umgang unter Rechtsanwälten ist nicht nur eine Frage des guten Tons, sondern eine berufsrechtliche Pflicht, deren Verletzung zu Rüge- oder Ahndungsverfahren führen kann.
 
 ## Triage zu Beginn
-1. Wer ist Adressat des Schreibens: Kollege direkt, Mandant ueber den Kollegen oder Gericht?
-2. Bezieht sich die Aeusserung auf fachliche Kritik (zulaessig) oder auf persoenliche Eigenschaften (unzulaessig)?
-3. Ist die Aeusserung ueber den Kollegen notwendig fuer den sachlichen Inhalt des Schreibens?
+1. Wer ist Adressat des Schreibens: Kollege direkt, Mandant über den Kollegen oder Gericht?
+2. Bezieht sich die Aeusserung auf fachliche Kritik (zulässig) oder auf persönliche Eigenschaften (unzulaessig)?
+3. Ist die Aeusserung über den Kollegen notwendig für den sachlichen Inhalt des Schreibens?
 4. Hat die Gegenseite ihrerseits das Kollegialitaetsgebot verletzt — und verleitet das zur Erwiderung?
 
 ## Aktuelle Rechtsprechung
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
@@ -34,9 +35,6 @@ Dieser Skill prüft Korrespondenz gezielt auf Einhaltung des anwaltlichen Kolleg
 - § 12 BORA — Direktkontaktverbot: kein Schreiben an Mandanten des Kollegen ohne Einwilligung
 - § 43b BRAO — Werbeverbot: keine herabsetzenden Vergleiche mit Kollegen in Aussenkommunikation
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Das Kollegialitätsgebot nach § 25 BORA
 
 § 25 BORA verpflichtet Rechtsanwälte zu gegenseitiger Rücksichtnahme und einem fairen Umgang auch in streitigen Situationen. Das bedeutet konkret: keine persönlichen Angriffe auf den Kollegen (auch wenn der Mandant das wünscht), keine Herabsetzung der fachlichen Leistung ohne sachliche Grundlage, keine Unterstellungen über persönliche Motive. Das Kollegialitätsgebot gilt nicht nur in der Kommunikation von Anwalt zu Anwalt, sondern auch in Mandantenanschreiben, wenn darin über den gegnerischen Kollegen gesprochen wird.
@@ -68,6 +66,4 @@ Schritt 1: Kommt der Name oder die Berufsbezeichnung eines Kollegen im Schreiben
 **Vorher:** "Der Herr Kollege sollte vielleicht nochmal die Grundlagen studieren."
 **Nachher:** Streichen oder ersetzen durch: "Ich erlaube mir, auf folgende Rechtsprechung hinzuweisen, die für den Sachverhalt einschlägig sein dürfte..."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Zitate kollegialitätsgefährdender Aussagen. (2) Einordnung (formal/substantiell problematisch). (3) Berufsrechtliches Risiko. (4) Konforme Alternativformulierung. (5) Hinweis, ob die Aussage gänzlich gestrichen werden sollte.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,7 +5,7 @@ description: 법고을(대법원 도서관 lx.scourt.go.kr) 판례·법령 자�
 author: jurisupport
 author_url: https://github.com/jurisupport/jurisupport-plugins/tree/main/skills/beopgoeul-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: litigation
@@ -113,15 +113,15 @@ JSON 형식 (--format json):
 
 (키워드 제안)
 
-lbox는 자동화가 약관 위반이므로, lbox.kr 로그인 → 직접 검색 →
-PDF 다운로드 → 06_참고판례/lbox/에 저장 후 알려주세요.
+lbox.kr 로그인 → 검색 → PDF 다운로드 →
+06_참고판례/lbox/에 저장 후 알려주세요.
 ```
 
 자세한 워크플로우: `guides/06_precedent_search.md` 참조.
 
-## Skill 미설치 시
+## Toolkit 미설치 시
 
-`~/jurisupport-beopgoeul/scripts/search.sh`가 없으면 본 스킬은 사용 불가. 사용자에게 다음 안내:
+`~/jurisupport-beopgoeul/scripts/search.sh`가 없으면 자동 검색은 사용 불가. 사용자에게 다음 안내:
 
 > 법고을 자동 검색 toolkit이 설치되지 않았습니다.
 > 설치: `bash ~/jurisupport-plugins/toolkit/beopgoeul/install.sh`

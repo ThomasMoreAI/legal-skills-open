@@ -5,11 +5,14 @@ description: Compliance gap analysis for Austrian law — KSchG, DSGVO/DSG, MRG,
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: regulatory
 language: de
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht compliance — Compliance-Pruefung

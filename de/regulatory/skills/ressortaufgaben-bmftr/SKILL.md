@@ -1,0 +1,108 @@
+---
+name: ressortaufgaben-bmftr
+title: Ressortaufgaben BMFTR
+description: 'Für Ressortaufgaben BMFTR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/ressortaufgaben-bmftr
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Ressortaufgaben BMFTR
+
+> Dritter Skill in der Ressort-Kette. Nach `legw-ressort-bmftr` (Heranfuehrung) und vor den
+> fuenf Spezialfeldern. Bricht die typische Legistik-Aufgabe auf das BMFTR herunter.
+
+## Eingaben
+
+- Auftragsblatt aus `legistik-auftragsaufnahme` mit Ressort-Eintrag BMFTR
+- Ressort-Kompass aus `legw-ressort-bmftr`
+- Geplante Vorhabenart (Gesetz; Rechtsverordnung; Eckpunktepapier; Änderungsantrag; Vorlage)
+- Politische Zielvorgabe (Koalitionsvertrag; Kabinettsbeschluss; Prüfauftrag)
+
+## Vorgehen
+
+### Schritt 1 - Vorhabenart einordnen
+
+| Vorhabenart | Zuständigkeit im BMFTR | Vorlageweg |
+|---|---|---|
+| Eckpunktepapier | Fachreferat plus Hausleitung | Hausintern; ggf. Ressortbesprechung |
+| Referentenentwurf | Fachreferat fuehrt; Hauspruefung (Z; ZA; ZB) | Verbaendeanhoerung; Ressortabstimmung |
+| Kabinettsentwurf | Hausleitung legt vor | Staatssekretaersausschuss; Kabinettsvorlage |
+| Rechtsverordnung | Fachreferat plus ggf. Bundesrat-Zustimmung | RV-Vorlage; ggf. Bundesrat |
+| Änderungsantrag aus der Mitte | Fraktion zusammen mit BMFTR | Bundestagsausschuss |
+
+### Schritt 2 - Begruendungspflichten klären
+
+- **Allgemeiner Teil:** Anlass; Zielsetzung; wesentliche Inhalte; Alternativen; Erfuellungsaufwand
+ (Buerger; Wirtschaft; Verwaltung); weitere Kosten; KMU-Belange; Nachhaltigkeit; weitere Folgen.
+- **Besonderer Teil:** Begruendung je Artikel und Absatz; Bezug zu Kernnormen (HRG; WissZeitVG; WRG; WissTrAG; ATG; BNatSchG (Biotech); GenTG; KI-VO (EU).).
+- Skill-Anschluss: `begruendung-allgemein-und-besonders` und `folgenabschaetzung-erfuellungsaufwand`.
+
+### Schritt 3 - Verbaendeanhoerung nach GGO Paragraf 47
+
+Im Geschäftsbereich BMFTR sind typische Beteiligte:
+
+- Spitzenverbaende der Materie (siehe `legw-bmftr-hochschul-und-wissenschaftsrecht` und folgende)
+- Länder (Bundesrat-Spiegel; KOM-Vertreter)
+- Wissenschaftliche Sachverstaendige und Beiraete des BMFTR
+- EU-Generaldirektion (bei EU-Bezug)
+- Bei Eingriff in Grundrechte: Datenschutzkonferenz; Bundesbeauftragte; ggf. EDSA
+
+Anhörungsfrist regelmaessig vier Wochen; verkuerzte Frist nur mit Begruendung.
+
+### Schritt 4 - Ressortabstimmung und Mitzeichnung
+
+- **Mitzeichnende Ressorts** typisch für BMFTR-Vorhaben: BMI (Verwaltung), BMF
+ (Haushalt), BMJV (Prüfung Rechtsfoermlichkeit), BMWE (Wirtschaftsbezug), BMDS (Digital);
+ weitere ressortabhaengig.
+- **Streitschlichtung:** Staatssekretaersrunde; im Ernstfall Chefsache.
+- Skill-Anschluss: `verbaendeanhoerung-ressortabstimmung`.
+
+### Schritt 5 - NKR und Erfuellungsaufwand
+
+- **Nationaler Normenkontrollrat:** Stellungnahme nach Paragraf 4 NKRG; Stellungnahme drueckt die
+ Berechnung des Erfuellungsaufwands auf Plausibilitaet.
+- Skill-Anschluss: `normenkontrollrat-kmu-check` und `legw-rechtsfolgenabschaetzung-leitfaden`.
+
+### Schritt 6 - Kabinettsweg
+
+- Kabinettsvorlage gemäß GGO Paragraf 22 mit Begruendung; Verbaendeauswertung; Ressort-
+ abstimmungsergebnis; NKR-Stellungnahme; ggf. Beschlussfassung im Staatssekretaersausschuss.
+- Skill-Anschluss: `gesetzesentwurf-kabinett` und `spezial-kabinettsentwuerfe-compliance-dokumentation-und-akte`.
+
+### Schritt 7 - Bundestag und Bundesrat
+
+- **Initiativweg:** Bundesregierung (Art. 76 Abs. 1 GG) oder aus der Mitte (Fraktion).
+- **Bundesrat-Beteiligung:** Zustimmungs- oder Einspruchsgesetz; prüfen über
+ `spezial-bundestag-fristen-form-und-zuständigkeit` und `gesetzgebungskompetenz-pruefen`.
+- **Fachausschuss im Bundestag** (BMFTR-Spiegel).
+
+### Schritt 8 - Aufsicht und Vollzug im Geschäftsbereich
+
+Nachgeordnete Behörden des BMFTR im Vollzug einbinden. Vollzugsfolgen prüfen.
+
+## Normenanker
+
+Arbeitsfokus: **Ressortaufgaben BMFTR**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `Art. 20 Abs. 3 GG` — Gesetzesbindung.
+- `Art. 76 Abs. 1 GG` — Gesetzesinitiative.
+- `Art. 77 Abs. 1 GG` — Gesetzesbeschluss.
+- `Art. 80 Abs. 1 GG` — Verordnungsermächtigung.
+- `Art. 84 Abs. 1 GG` — Verwaltungsvollzug.
+- `§ 42 Abs. 1 GGO` — Gesetzgebungsvorhaben.
+- `§ 43 Abs. 1 GGO` — Ressortabstimmung.
+- `§ 44 Abs. 1 GGO` — Gesetzesfolgen.
+- `§ 45 GGO` — Beteiligung.
+- `§ 46 GGO` — Rechtsförmlichkeit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Abgrenzung
+
+Abgrenzung zu legistik-auftragsaufnahme (Erstaufnahme), normhierarchie-routing (Normwahl), normenkartierung (Bestand), verfassungsmaessigkeit-quercheck (Verfassungsfragen), europarechtskonformitaet (EU-Bezug), folgenabschaetzung-* (Folgenabschaetzung). Dieser Skill dient als Sachfeld-Kompass; er ersetzt nicht die Normprueferei, sondern liefert das Sachverstaendnis für den Normgeber.

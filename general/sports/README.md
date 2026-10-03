@@ -8,9 +8,9 @@ Jurisdiction: `general` · Practice: `sports` · Skill language varies per skill
 
 | Skill | What it does |
 |---|---|
-| [`Mandat-Triage Sportrecht`](skills/mandat-triage-sportrecht/) | Sportrechtliches Mandat eintrifft und muss strukturiert erfasst werden: Mandantenrolle Sachgebiet… |
+| [`Sportrechtliches Mandat eintrifft und muss strukturiert erfasst werden: Mandantenrolle Sachgebiet Sofort-Fristen`](skills/mandat-triage-sportrecht/) | Für Mandat Triage Sportrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Sports Law Case Summaries`](skills/sports-law-cases/) | Generates structured summaries of sports law cases covering contract disputes, doping violations, and… |
-| [`Sports Licensing Agreement Summary`](skills/sports-licensing-summary/) | Summarizes sports licensing agreements (merchandise, broadcasting, endorsement) into structured frameworks… |
+| [`Sports Licensing Agreement Summary`](skills/sports-licensing-summary/) | Summarizes sports licensing agreements (merchandise, broadcasting, endorsement) into structured… |
 
 ## Cold-start context
 

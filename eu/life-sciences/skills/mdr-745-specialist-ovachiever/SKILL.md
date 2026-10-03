@@ -5,11 +5,14 @@ description: EU MDR 2017/745 regulation specialist and consultant for medical de
 author: ovachiever
 author_url: https://github.com/ovachiever/droid-tings/tree/master/skills/mdr-745-specialist
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: life-sciences
 language: en
+sources:
+- title: Api reference
+  path: references/api_reference.md
 ---
 
 # Senior MDR 2017/745 Specialist and Consultant

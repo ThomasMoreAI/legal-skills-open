@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg
-title: Mandantenfragen beim Kaltstart
-description: 'UWG-Abmahnung prüfen versenden oder auf Eingang reagieren. § 8 UWG Unterlassungsanspruch §§ 3 4 5 UWG Verbotsgrunde §§ 12 13 UWG Durchsetzung. Prüfraster: Verletzungshandlung Abmahnberechtigung Fristen UE Vertragsstrafe Kosten. Output: Abmahnschreiben oder Erwiderung modifizierte UE Kostennote. Abgrenzung: nicht für Markenrecht (fachanwalt-gewerblicher-rechtsschutz-markenanmeldung).'
+title: Wettbewerbsrechtliche Abmahnungen vorbereiten und abwehren
+description: 'Für Fachanwalt Gewerblicher Rechtsschutz Abmahnung Uwg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: ip
 language: de
 ---
+
+# Wettbewerbsrechtliche Abmahnungen vorbereiten und abwehren
+
+Lies zuerst die beanstandete Werbung oder Handlung, gesicherte Belege, vorhandene Abmahnschreiben und die Korrespondenz. Entnimm daraus Mandatsseite, konkrete Beanstandung sowie Kenntnis- und Reaktionsdaten. Liefere je nach Auftrag eine ausformulierte Abmahnung, Erwiderung oder einen Eilantragsentwurf mit fallbezogener Begründung und zugeordneten Anlagen; kennzeichne offene Tatsachen und noch ungeprüfte Fristen.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -51,7 +57,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema UWG-Abmahnung
 
@@ -233,7 +238,6 @@ und auf Ersatz unserer Abwehrkosten zu erheben.
 
 | Gegenargument | Herkunft | Reaktion |
 |--------------|---------|----------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Abmahnung ist missbräuchlich (§ 8c UWG)" | Abgemahnter | Gegenprüfung der Indizien; bei klaren Verstößen: Klage trotzdem zulässig und kostenpflichtig für Schuldner |
 | "Verstoß ist bagatellmäßig" | Abgemahnter | § 3 Abs. 1 UWG: "spürbar" Erfordernis; bei Schwarze-Liste-Verstößen keine Spürbarkeitserfordernis |
 | "Werbung ist Meinung, keine Tatsachenbehauptung" | Abgemahnter | Meinungsäußerung nur bei wertenden Aussagen ohne Tatsachenkern; gemischte Aussagen nach BGH-Kriterien aufteilen |

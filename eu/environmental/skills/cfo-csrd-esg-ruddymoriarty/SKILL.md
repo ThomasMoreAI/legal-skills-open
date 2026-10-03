@@ -7,33 +7,33 @@ description: 'Skill de rapport durabilité pour entités in-scope CSRD. Wave CSR
 author: RuddyMoriarty
 author_url: https://github.com/RuddyMoriarty/moriarty-cfo/tree/main/cfo-csrd-esg
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: environmental
 language: fr
 sources:
-- title: Climate Risk
+- title: Climate risk
   path: references/climate-risk.md
-- title: Controls Esg Reporting
+- title: Controls esg reporting
   path: references/controls-esg-reporting.md
-- title: Data Governance
+- title: Data governance
   path: references/data-governance.md
-- title: Double Materialite
+- title: Double materialite
   path: references/double-materialite.md
-- title: Esrs Mapping
+- title: Esrs mapping
   path: references/esrs-mapping.md
-- title: External Assurance
+- title: External assurance
   path: references/external-assurance.md
-- title: Rapport Integre
+- title: Rapport integre
   path: references/rapport-integre.md
-- title: Scope Csrd
+- title: Scope csrd
   path: references/scope-csrd.md
-- title: Scope Emissions
+- title: Scope emissions
   path: references/scope-emissions.md
-- title: Supply Chain Dd
+- title: Supply chain dd
   path: references/supply-chain-dd.md
-- title: Taxonomie Verte Eu
+- title: Taxonomie verte eu
   path: references/taxonomie-verte-eu.md
 ---
 

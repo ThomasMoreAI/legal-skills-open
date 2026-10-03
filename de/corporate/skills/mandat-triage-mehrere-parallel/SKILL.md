@@ -1,0 +1,129 @@
+---
+name: mandat-triage-mehrere-parallel
+title: Mandat-Triage Wandeldarlehen – Erstgespräch
+description: 'Für Mandat-Triage Wandeldarlehen – Erstgespräch: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/mandat-triage-mehrere-parallel
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Mandat-Triage Wandeldarlehen – Erstgespräch
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Rechtsform der Gesellschaft: GmbH oder UG (haftungsbeschränkt)
+- Firmenname, HRB-Nummer, Amtsgericht, Sitz
+- Namen und Rollen der Gesellschafterinnen (Anzahl, Anteile)
+- Name und Rechtsform des Darlehensgebers (Privatperson oder juristische Person)
+- Beabsichtigter Darlehensbetrag (EUR) und Laufzeit
+- Zinssatz (Standard fünf Prozent p.a.)
+- Gewünschte Wandelereignisse (Qualified Financing, Exit, Maturity)
+- Sprachen-Stack: bilingual DE/EN oder nur DE
+- Vorhandener Gesellschafterbeschluss zur grundsätzlichen Kapitalerhöhungsbereitschaft: ja/nein
+- Zeitdruck / gewünschtes Unterzeichnungsdatum
+
+## Rechtlicher Rahmen
+
+### Primärnormen
+- § 488 BGB (Darlehensvertrag)
+- § 1 GmbHG (Rechtsform GmbH), § 5a GmbHG (UG haftungsbeschränkt)
+- § 15 Abs. 3, Abs. 4 GmbHG (Anteilsübertragung, Form)
+- § 55 ff. GmbHG (Kapitalerhöhung)
+- § 126b BGB (Textform)
+
+## Vorgehen
+
+### 1. Rechtsform und Register prüfen
+Klären: GmbH oder UG? Bei UG Mindestkapital EUR 1 (§ 5a GmbHG), Thesaurierungspflicht (§ 5a Abs. 3 GmbHG) ansprechen. HRB und Amtsgericht notieren.
+
+### 2. Parteien und Vertretungsmacht erfassen
+Gesellschaft: Geschäftsführung alleinvertretungsberechtigt oder Gesamtvertretung? Gesellschafterinnen: Zahl, Anteilsverhältnis, Privatpersonen oder juristische Personen? Darlehensgeber: Privatperson oder GmbH/KG – wer vertritt?
+
+### 3. Wandelereignisse klären
+Qualifizierte Finanzierungsrunde: Schwellenwerte Bewertung und Investitionsvolumen bereits bekannt? Exit-Trigger (Share Deal >50%, Asset Deal, IPO, Fusion)? Maturity mit Fall-back-Bewertung: Betrag schon vorstellbar?
+
+### 4. Formfragen vorab
+Sprachen-Stack: bilingual oder nur DE? DocuSign-Unterzeichnung akzeptiert? Notarielle Beurkundung gewünscht oder nur Textform?
+
+### 5. Mandatssteckbrief erstellen
+Strukturierte Zusammenfassung aller erfassten Punkte; offene Lücken markieren; Skill-Empfehlung ausgeben.
+
+### 6. Nächsten Skill empfehlen
+Empfehlung: `parteien-erfassen` für vollständige KYC-Daten, dann `darlehenshoehe-konditionen`.
+
+## Beispiel-Mandatssteckbrief
+
+| Feld | Inhalt |
+|---|---|
+| Gesellschaft | Sonnenglas Solartechnologie UG (haftungsbeschränkt), HRB 123456, AG Berlin |
+| Stammkapital | EUR 1000, 100 Anteile à EUR 1 Nennwert |
+| Gesellschafterinnen | Dr. Mira Schöneck 40 Anteile, Lina Habersaat 35 Anteile, Treasury 25 Anteile |
+| Darlehensgeber | Northstar Pre-Seed Partners GmbH & Co. KG |
+| Betrag | EUR 250000 |
+| Laufzeit | 2 Jahre feste Laufzeit |
+| Zinssatz | fünf Prozent p.a. (act/360) |
+| Cap | EUR 4000000 Pre-Money |
+| Discount | zwanzig Prozent |
+| Sprache | bilingual DE/EN |
+| Unterzeichnung | DocuSign (Textform § 126b BGB) |
+| Gesellschafterbeschluss | noch nicht gefasst |
+
+## Risiken und Red Flags
+
+| Konstellation | Rot | Orange | Grün |
+|---|---|---|---|
+| Wandelereignis schon eingetreten | Nachträgliche Vereinbarung problematisch | Wandelereignis kurz bevorstehend | Wandelereignis weit in Zukunft |
+| Keine Fall-back-Bewertung vereinbart | Maturity-Wandlung unklar | Bewertung grob geschätzt | Bewertung durch TS belegt |
+| Gesellschafterbeschluss fehlt | Mitwirkungspflicht § 5 ungesichert | Beschluss in Planung | Beschluss liegt vor |
+| Mehrere parallele Wandeldarlehen | MFN und Stack unklar | Nur ein weiteres WD | Keine weiteren WD |
+
+## Quellen und Updates
+
+Stand: 05/2026.
+- GmbHG: https://www.gesetze-im-internet.de/gmbhg/
+- §§ 488 ff. BGB (Darlehen): https://www.gesetze-im-internet.de/bgb/__488.html
+- § 55 GmbHG (Kapitalerhoehungsbeschluss): https://www.gesetze-im-internet.de/gmbhg/__55.html
+- § 56 GmbHG (Sacheinlage): https://www.gesetze-im-internet.de/gmbhg/__56.html
+- § 39 InsO (Nachraenge): https://www.gesetze-im-internet.de/inso/__39.html
+- §§ 135, 143 InsO (Gesellschafterdarlehen, Anfechtung): https://www.gesetze-im-internet.de/inso/__135.html
+- § 15a InsO (Insolvenzantragspflicht): https://www.gesetze-im-internet.de/inso/__15a.html
+- § 19 IV GmbHG (Erleichterung Aufrechnung Stammeinlage gegen Gesellschafterforderung — Hinweis: § 19 IV GmbHG i.d.F. MoMiG 2008 weiterhin maßgeblich; DiRUG/DiREG haben Form (Online-Beurkundung) modifiziert, materielle Aufrechnungsregel unveraendert): https://www.gesetze-im-internet.de/gmbhg/__19.html
+- DiRUG (BGBl. I 2021, 3338; in Kraft Bargruendung 01.08.2022): https://www.gesetze-im-internet.de/beurkg/__16a.html
+- DiREG (in Kraft 01.08.2023; Online-Beurkundung Kapitalerhoehung/Satzungsaenderung bei einstimmigem Beschluss): https://www.bmjv.de/SharedDocs/Pressemitteilungen/DE/2022/0729_DIREG_DIRUG.html
+- StaRUG (SanInsFoG, BGBl. I 2020, 3256; in Kraft 01.01.2021): https://www.gesetze-im-internet.de/starug/
+- § 15b InsO (rechtsformneutrales Zahlungsverbot): https://www.gesetze-im-internet.de/inso/__15b.html
+- Bei Änderung GmbHG/UmwStG aktualisieren.
+
+## Vertiefung — Aktuelle Rechtsprechung
+
+### Normen-Ergänzung
+
+§§ 488 ff. BGB (Darlehen) → §§ 55, 56 GmbHG (Kapitalerhöhung, Sacheinlage) → § 39 InsO (Nachrangige Forderungen, Gesellschafterdarlehen) → §§ 135, 143 InsO (Anfechtung, Rückzahlung) → § 40 GmbHG (Gesellschafterliste) → § 15a InsO (Insolvenzantragspflicht)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

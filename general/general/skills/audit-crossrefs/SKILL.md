@@ -1,11 +1,11 @@
 ---
 name: audit-crossrefs
 title: 'Phase 7: Cross-References'
-description: 'Phase 7: Convert hardcoded cross-references to auto-updating NOTEREF fields'
+description: Use when a manuscript's supra/infra cross-references need to stop being hand-typed numbers — 'my supra notes point at the wrong footnote', 'the cross-references broke after I added a footnote', 'convert supra notes to fields', 'make cross-references auto-update', 'fix the infra cites', 'sync the crossrefs after editing footnotes', 'tie the supras to the bibliography'. Load as Phase 7 of a bluebook audit, or standalone after any Word session that added or reordered footnotes.
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/bluebook-audit/skills/audit-crossrefs
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -14,7 +14,10 @@ language: en
 
 # Phase 7: Cross-References
 
-Convert hardcoded supra/infra note numbers to NOTEREF field codes that auto-update when footnotes are renumbered, then tie each cross-reference to a bibkey from `references/sources.bib` so the bibliography becomes the semantic identity layer.
+**What this skill carries** — grep `references/` for any subject the names below miss:
+!`d=${CLAUDE_SKILL_DIR}; command -v skill-toc >/dev/null 2>&1 && exec skill-toc "$d"; s=$HOME/.claude/skills/plugin-utils/bin/skill-toc; [ -x "$s" ] && exec "$s" "$d"; echo "(skill-toc unavailable: references and scripts are NOT listed here — install the plugin-utils plugin, or start a new session so its bin/ reaches PATH)"`
+
+Convert hardcoded supra/infra note numbers to NOTEREF field codes that auto-update when footnotes are renumbered, then tie each cross-reference to a bibkey from the document project's `references/sources.bib` so the bibliography becomes the semantic identity layer.
 
 ## Canonical 3-script pipeline
 
@@ -103,7 +106,7 @@ uv run --with lxml --with google-genai --with google-cloud-storage python3 \
   --docx <path> --grep --batch --apply --location global
 
 # LLM-only paths (skip grep — coverage-risky for --gemini):
-uv run … --docx <path> --batch --model gemini-3.1-flash-lite-preview --apply
+uv run … --docx <path> --batch --apply   # --model overrides the resolved role
 uv run … --docx <path> --gemini --apply
 ```
 
@@ -135,7 +138,7 @@ uv run --with lxml --with google-genai --with google-cloud-storage python3 \
   --docx <path> --out references/sources.bib
 ```
 
-Walks the docx footnotes, splits multi-cite footnotes on `;`, sends each first-cite candidate to a Vertex AI Batch job (one independent request per citation; `gemini-3.1-flash-lite-preview` default). Emits BibTeX entries with bibkey conventions `firstauthorlastYEAR` for academic works and short slugs (`gao2017`, `crs2024`, `secReg2020`) for institutional sources.
+Walks the docx footnotes, splits multi-cite footnotes on `;`, sends each first-cite candidate to a Vertex AI Batch job (one independent request per citation; the `bulk` role by default). Emits BibTeX entries with bibkey conventions `firstauthorlastYEAR` for academic works and short slugs (`gao2017`, `crs2024`, `secReg2020`) for institutional sources.
 
 Each entry includes `note = {fnN}` linking back to the source footnote.
 

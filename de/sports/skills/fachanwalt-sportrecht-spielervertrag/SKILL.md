@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sportrecht-spielervertrag
 title: Spielervertrag
-description: Workflow-Skill zu fachanwalt sportrecht spielervertrag. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Spielervertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt für Sportrecht. Route: fachanwalt-sportrecht-spielervertrag.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/fachanwalt-sportrecht-spielervertrag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sports
@@ -49,8 +49,6 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | CAS 2014/A/3642 | CAS, 2014 | Just cause bei Gehaltsrückständen; zweimonatige Rückstandsdauer |
 | CAS 2019/A/6301 | CAS, 2019 | Art. 17 RSTP-Schadensberechnung; Restwert-Methode |
 
@@ -61,7 +59,6 @@ language: de
 | Schritt | Inhalt | Grundlage |
 |---|---|---|
 | 1 | Vertragstyp identifizieren (Profi, Vertragsspieler, Amateur) | TzBfG, DFB-LOS |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | AGB-Klauselkontrolle: Ausstiegsklausel, Vertragsstrafen §§ 305 ff. BGB | §§ 307 ff. BGB |
 | 4 | Bildrechte und Persönlichkeitsrechte: exklusiv oder nicht? §§ 22 ff. KUG | KUG, Art. 1, 2 GG |
 | 5 | Transferregelungen: FIFA RSTP anwendbar (internationaler Wechsel)? | FIFA RSTP Art. 17 |
@@ -186,7 +183,6 @@ I. Die vereinbarte Befristung ist unwirksam, weil:
 
 1. Sachgrundmangel § 14 Abs. 1 TzBfG: Der Vertrag benennt
    keinen Sachgrund. Die bloße Angabe "befristet" genügt nicht
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 2. [Alternativ: Sachgrund nicht tatsächlich vorhanden; z.B.
    angebliche Eigenart der Arbeitsleistung liegt nicht vor,
@@ -198,7 +194,7 @@ I. Die vereinbarte Befristung ist unwirksam, weil:
    weitere sachgrundlose Befristung ist unzulässig.
 
 II. Die Klagefrist ist gewahrt.
-Der Vertrag endete am [Datum]. Die Klage wird am [Datum] = 
+Der Vertrag endete am [Datum]. Die Klage wird am [Datum] =
 innerhalb von drei Wochen (§ 17 TzBfG) erhoben.
 
 Wir beantragen Prozesskostenhilfe.
@@ -243,7 +239,6 @@ Mit freundlichen Grüßen
 
 | Verein-Argument | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Kein just cause — Gehaltsrückstand nur ein Monat" | CAS 2014/A/3642: zwei Monate + förmliche Mahnung; Fristennachweis |
 | "Ausstiegsklausel unwirksam (zu niedrig)" | §§ 307 ff. BGB: Klausel wirksam wenn nicht unangemessen benachteiligend |
 | "Bildrechte exklusiv vertraglich übertragen" | §§ 22 ff. KUG: Einwilligung widerrufbar; Umfang der Übertragung prüfen |
@@ -287,8 +282,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,12 +5,35 @@ description: Produces an attorney-ready memo from a corpus of legal documents su
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/case-summary
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
-tags: [summary, analysis]
+tags:
+- summary
+- analysis
+sources:
+- title: Backends
+  path: references/BACKENDS.md
+- title: Core dimensions
+  path: references/CORE-DIMENSIONS.md
+- title: Output template
+  path: references/OUTPUT-TEMPLATE.md
+- title: Playbook authoring
+  path: references/PLAYBOOK-AUTHORING.md
+- title: Playbook commercial litigation
+  path: references/PLAYBOOK-COMMERCIAL-LITIGATION.md
+- title: Playbook ip infringement
+  path: references/PLAYBOOK-IP-INFRINGEMENT.md
+- title: Playbook pi tort
+  path: references/PLAYBOOK-PI-TORT.md
+- title: Routing
+  path: references/ROUTING.md
+- title: Search playbook
+  path: references/SEARCH-PLAYBOOK.md
+- title: Workflow
+  path: references/WORKFLOW.md
 ---
 
 # Case Summary

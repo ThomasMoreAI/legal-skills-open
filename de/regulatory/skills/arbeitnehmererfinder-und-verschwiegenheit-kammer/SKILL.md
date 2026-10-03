@@ -1,0 +1,52 @@
+---
+name: arbeitnehmererfinder-und-verschwiegenheit-kammer
+title: 'Patentanwälte: arbeitnehmererfinder und verschwiegenheit - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan'
+description: 'Für Arbeitnehmererfinder und Verschwiegenheit Kammer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-patentanwaelte/skills/arbeitnehmererfinder-und-verschwiegenheit-kammer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Patentanwälte: arbeitnehmererfinder und verschwiegenheit - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: PAO Paragraf 3 für Beratungs- und Vertretungsbefugnis, Paragrafen 39 bis 45 für Berufspflichten, Werbung, Handakten und Versicherung, Paragrafen 52b bis 52p für berufliche Zusammenarbeit sowie Paragrafen 95 ff. für Berufsgerichtsbarkeit. PatG, MarkenG, DesignG, EPÜ oder das Recht des Einheitlichen Patentgerichts nur nach der konkreten Mandatsfrage ergänzen; amtliche Quellen live prüfen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Konkreter Berufsrechtskern: Patentanwälte: arbeitnehmererfinder und verschwiegenheit - Kammerantwort mit Verfahrensstrategie, Tonlage und Belegplan
+- **Normenanker:** PAO, BOPA, PatG, MarkenG/DesignG-Schnittstellen, EPÜ, UPC-Verfahrensbezug, Fristen- und Geheimnisschutz.
+- **Institutionen:** Patentanwaltskammer, DPMA, EPA, UPC-Schnittstellen und berufsgerichtliche Zuständigkeiten.
+- **Spezialspur:** Verschwiegenheit nach Personenkreis, Geheimnisträger, Offenbarungsbefugnis und technischer Verarbeitung trennen.
+- **Spezialspur:** Mandatsgeheimnis, Priorität, Offenbarung, Vertretungsbefugnis vor DPMA/EPA/UPC und Fristkette prüfen.
+- **Falllösung:** Baue eine Pflichtverletzungs-/Entlastungsmatrix mit Norm, Tatsache, Beleg, Verschulden, Verhältnismäßigkeit, möglicher Kammerantwort und prozessualem nächsten Schritt.
+
+## Fallweichen dieser Speziallage
+
+1. Rolle, Ziel und Entscheidungsdruck klären.
+2. Verfahrensstand, Fristen, Zuständigkeit und irreversible Risiken markieren.
+3. Aktenbasis ordnen: sichere Tatsachen, bestrittene Tatsachen, fehlende Unterlagen.
+4. Eingriffsintensität, Berufs-/Amtsgeheimnisse, Datenschutz und Persönlichkeitsrechte sichtbar machen.
+5. Sofortpfad anbieten: Was muss heute entschieden, beantragt, beantwortet oder dokumentiert werden?
+
+## Prüfprogramm
+
+- **Normenanker:** PAO, Patentanwaltsordnung, Berufsordnung, RDG, ZPO/PatG/MarkenG-Schnittstellen, Kammerpraxis und Berufsgerichtsbarkeit live prüfen
+- **Tatsachenarbeit:** Beweisquelle, Beweiswert, Gegenbeweis, Dokumentationslücke und mögliche Fehlinterpretation trennen.
+- **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
+- **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
+- **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
+
+## Verifizierte Kernnormen
+
+- Paragrafen 5 und 6 ArbEG steuern Erfindungsmeldung und Inanspruchnahme; Paragrafen 9 und 12 ArbEG Vergütungsanspruch und Feststellung, Paragraf 14 ArbEG die Schutzrechtsanmeldung.
+- Paragraf 39a Absatz 2 PAO schützt alle bei der Berufsausübung bekannt gewordenen Geheimnisse. Erfindungsmeldung, Offenbarungsstand und geplante Anmeldung daher nicht in eine Kammerantwort übernehmen, soweit dies zur Verteidigung nicht erforderlich und zulässig ist.
+- Die Kammerantwort trennt Berufspflicht, arbeitsrechtliche Erfinderzuordnung und materielles Schutzrecht und belegt jede Tatsachenangabe aus der Handakte.

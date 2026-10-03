@@ -1,11 +1,11 @@
 ---
 name: notare-bnotk-modus
 title: Notar-Modus (BNotO/BNotK)
-description: 'Korrespondenz von Notaren und Notarinnen auf notarrechtliche Besonderheiten und BNotK-Vorgaben anpassen. §§ 14 17 BNotO § 26 BRAO analog. Prüfraster: neutrale Beurkundsrolle Unparteilichkeit Gebotes zur Unabhängigkeit Urkundssprache. Output: angepasste Version mit Prüfprotokoll. Abgrenzung: nicht für allgemeine Anwaltskorrespondenz.'
+description: 'Für Notar-Modus (BNotO/BNotK): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/notare-bnotk-modus
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,10 @@ language: de
 ---
 
 # Notar-Modus (BNotO/BNotK)
+
+## Fachkern: Notar-Modus (BNotO/BNotK)
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
 Dieser Skill spezialisiert den Umformulierungsprozess auf die besonderen Anforderungen notarieller Korrespondenz. Notare nehmen als Träger eines öffentlichen Amts eine besondere Stellung ein, die sich in Kommunikationspflichten und Stilanforderungen niederschlägt, die über die allgemeinen anwaltlichen Standards hinausgehen.
 
@@ -46,7 +50,3 @@ Einschlägige Normen: § 14 BNotO (Berufspflichten), § 15 BNotO (Amtsverweigeru
 
 **Vorher:** "Das ist offensichtlich unsinnig, was die andere Seite verlangt."
 **Nachher:** "Der vorgebrachte Wunsch der Beteiligten zu Ziffer X weist rechtliche Besonderheiten auf, über die ich gerne vorab belehre."
-
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Analyse auf notarrechtliche Besonderheiten. (2) Identifizierte Neutralitätsverstöße oder Stilprobleme. (3) Konforme Alternativformulierung in notarischer Amtssprache. (4) Einschlägige BNotO-Norm oder BNotK-Richtlinie.

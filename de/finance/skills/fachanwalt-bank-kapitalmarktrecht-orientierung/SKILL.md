@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-bank-kapitalmarktrecht-orientierung
 title: Fachanwalt für Bank- und Kapitalmarktrecht — Orientierung
-description: Anwalt will Fachanwaltschaft Bank-Kapitalmarktrecht erwerben oder Mandat bearbeiten und braucht Normen-Überblick. KWG ZAG WpHG WpIG MiFID-II MAR MiCAR BGB-Verbraucherkreditrecht §§ 491 ff. Normen KWG §§ 1 32 WpHG §§ 63 ff. §§ 491-505 BGB. Prüfraster FAO-Voraussetzungen Mandatstypen Normen-Karte. Output Orientierungs-Leitfaden. Abgrenzung zu allen Einzel-Skills (nur Überblick und Routing).
+description: 'Für Fachanwalt für Bank- und Kapitalmarktrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/fachanwalt-bank-kapitalmarktrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -80,7 +80,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ### Schluessel-Leitsaetze BGH XI. Zivilsenat Bank-/Kapitalmarktrecht (jeweils Volltext in offener Quelle prüfen)
 
 - **BGH XI ZR 22/24** v. 20.5.2025 — Vorfälligkeitsentschädigung Immobiliendarlehen: intransparente AGB-Klausel führt zum Verlust des VFE-Anspruchs. Quelle: juris.bundesgerichtshof.de
-- **BGH XI ZR 133/24** v. 21.10.2025 — Referenzzins fuer Zinsanpassungen in Praemiensparvertraegen (Folgeentscheidung). Quelle: bundesgerichtshof.de PM Nr. 225/2025
+- **BGH XI ZR 133/24** v. 21.10.2025 — Pflichtangaben beim Immobiliar-Verbraucherdarlehen: Behandlung der Sicherungszweckvereinbarung, Berechnung des Effektivzinses bei auslaufender Sollzinsbindung und Folgen eines zu niedrig angegebenen Effektivzinses für den Widerrufsfristlauf. Quelle: bundesgerichtshof.de
 - **BGH XI ZR 553/19** 2024 — Stärkung der Rechte von Darlehensnehmern bei Altforderungen (Volltext und Datum vor Versand verifizieren). Quelle: juris.bundesgerichtshof.de
 
 ### EuGH-Linien

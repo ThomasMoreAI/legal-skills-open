@@ -1,0 +1,240 @@
+---
+name: dd-findings-extraktion
+title: DD-Issue-Extraktion (Findings-Report)
+description: 'Für DD-Issue-Extraktion (Findings-Report): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/dd-findings-extraktion
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# DD-Issue-Extraktion (Findings-Report)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `DD-Issue-Extraktion (Findings-Report)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: DD-Issue-Extraktion (Findings-Report)
+- **Normen-/Quellenanker:** GmbHG, AktG, HGB, BGB, UmwG, MoPeG, FamFG/Registerrecht, Gesellschafterliste, Beschlussmängel, Treuepflicht und Organhaftung.
+- **Entscheidende Weiche:** Gesellschaftsform, Organrolle, Beschluss/Vertrag, Registerwirkung, Minderheitenschutz, Haftung und Frist getrennt prüfen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Triage zu Beginn
+
+Vor dem Start des DD-Reviews folgende Fragen klären:
+
+1. **Transaktionsstruktur:** Share Deal oder Asset Deal? GmbH oder AG?
+2. **Wesentlichkeitsschwelle:** Welcher Mindestvertragswert ist zu prüfen (aus Praxisprofil)?
+3. **Prüfkategorien:** Welche Kategorien sind für diesen Deal relevant (Gesellschaftsrecht, IP, Arbeitsrecht, Umwelt)?
+4. **VDR-Vollständigkeit:** Gibt es offensichtliche Lücken (fehlende Kategorien, Platzhalter-Dokumente)?
+5. **DD-Tiefe:** Full Legal DD oder Red-Flag-Review?
+6. **Zeitplan:** Wann muss der Findings-Report vorliegen (Signing-Druck)?
+
+## Zentrale Normen
+
+Paragraf 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten) — Paragraf 442 BGB (Kenntnis des Käufers) — Paragraf 443 BGB (Garantien) — Paragraf 15 GmbHG (Abtretung GmbH-Anteile) — Paragraf 40 GmbHG (Gesellschafterliste) — Paragraf 613a BGB (Betriebsübergang) — Paragraf 35 ff. GWB (Fusionskontrolle) — Art. 28 DSGVO (Auftragsverarbeitung) — Paragraf 142, 144 ZPO (Urkundenvorlegung)
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+
+## Zweck
+
+Der Datenraum hat 2.000 Dokumente. Irgendwo darin befinden sich die 30, die für den Deal entscheidend sind. Dieser Skill liest Dokumente gegen die DD-Kategorien und Wesentlichkeitsschwellen aus dem Praxisprofil, extrahiert Issues und schreibt sie im Hausformat.
+
+**Vorprozessuale Beweiserhebung im deutschen Recht.** Die Due Diligence (Sorgfaltsprüfung) in deutschen M&A-Transaktionen läuft ausschließlich über den virtuellen Datenraum (VDR – Virtual Data Room), den Frage-Antwort-Prozess (Q&A) und den Disclosure Letter (Offenlegungserklärung). Was nicht offengelegt wurde, ist weder bekannt noch garantiert – das im SPA (Share Purchase Agreement, Unternehmenskaufvertrag) verankerte Garantieregime modifiziert insoweit den allgemeinen Grundsatz, dass der Käufer das Risiko nicht offenbarter Mängel trägt. Gesetzliche Auskunftsansprüche im Streitfall: Paragraf 142, 144 ZPO; Paragraf 810 BGB; Paragraf 242, 259, 666 BGB; Art. 15 DSGVO; Paragraf 254 ZPO (Stufenklage).
+
+## Eingaben
+
+- Praxisprofil: `## M&A → DD-Struktur` (Kategorien, Schwellen)
+- Praxisprofil: `## M&A → Issues-Memo-Format`
+- Mandats-Kontext: `mandate/[code]/deal-kontext.md`
+- VDR-Inventar oder Dokumentenliste
+
+## Schritt-für-Schritt-Workflow
+
+### Schritt 1: VDR-Inventarisierung
+
+Falls VDR-Connector (Box/Datasite/Intralinks) verbunden: Index abrufen. VDR-Ordner auf DD-Anforderungskategorien abbilden. Lücken notieren – Kategorien ohne VDR-Inhalt.
+
+```markdown
+
+## VDR-Inventar: [Deal-Code]
+
+| Anforderungskategorie | VDR-Ordner | Dokumente | Status |
+|---|---|---|---|
+| Gesellschaftsrecht / Verfassung | /01-Gesellschaft | 45 | Geprüft |
+| Wesentliche Verträge | /02-Verträge | 312 | In Bearbeitung |
+| IP / Technologie | /03-IP | 89 | Nicht begonnen |
+| Arbeitnehmer | /04-HR | 120 | Nicht begonnen |
+| Rechtstreitigkeiten / Behörden | /05-Streitigkeiten | 23 | Geprüft |
+```
+
+**Lücken:** [Anforderungskategorien ohne VDR-Inhalt – Nachforderung erforderlich]
+
+### Schritt 2: Wesentlichkeitsschwelle anwenden
+
+Gemäß Praxisprofil und Mandats-Kontext-Schwellen. Nicht alles prüfen, wenn die Schwelle Verträge über einem bestimmten Betrag vorschreibt.
+
+Bei Verträgen: nach angegebenem Wert oder nach Gegenparteirelevanz sortieren. Top-down prüfen bis Schwelle erreicht oder Kategorie erschöpft.
+
+### Schritt 3: Issues extrahieren
+
+Je gelesenes Dokument gegen den Standardkatalog für seine Kategorie prüfen:
+
+**Gesellschaftsrecht / Verfassung:**
+- Gesellschaftsvertrag / Satzung vollständig und aktuell?
+- Kapitalaufbringung nachgewiesen (Paragraf 7, 19 GmbHG; Paragraf 36, 54 AktG)?
+- Gesellschafterstruktur und Gesellschafterliste (Paragraf 40 GmbHG) korrekt?
+- Vinkulierungsklauseln, Vorkaufsrechte, Mitziehrechte?
+- Beirat oder Gesellschafterausschuss mit eingeschränkten Rechten?
+- Nachschuss-/Einziehungsklauseln (Paragraf 26, 34 GmbHG)?
+
+**Wesentliche Verträge:**
+- Change-of-Control-Klausel (ausgelöst durch diesen Deal? Zustimmung erforderlich?)
+- Abtretungsbeschränkung (kann der Vertrag auf Käufer übergehen?)
+- Exklusivität / Wettbewerbsverbot
+- Kündigungsrechte wegen des Deals
+- Ungewöhnliche Haftungsregelungen; AGB-Kontrolle Paragraf 305 ff. BGB
+
+**IP / Technologie:**
+- Eigentumsnachweis (Abtretungen von Gründern/Arbeitnehmern vorhanden? Paragraf 69b UrhG; Paragraf 4 ArbNErfG)
+- Open Source im Produkt (Copyleft-Risiko? GPL/LGPL/AGPL)
+- Datenschutz (Verarbeitungsverzeichnis Art. 30 DSGVO; technisch-organisatorische Maßnahmen Art. 32 DSGVO)
+
+**Arbeitnehmer:**
+- Change-of-Control-Abfindungsansprüche
+- Risiko Betriebsübergang Paragraf 613a BGB (Unterrichtungspflicht; Widerspruchsrecht 1 Monat)
+- Betriebsrat (Paragraf 102 BetrVG Kündigung; Paragraf 111 BetrVG Betriebsänderung)
+- Scheinselbstständigkeit (Paragraf 611a BGB; Nachzahlungsrisiko Sozialversicherung)
+
+**Rechtsstreitigkeiten / Behörden:**
+- Anhängige Verfahren und Rückstellungen
+- Behördliche Anfragen oder laufende Prüfungen
+- Kartellrecht / BKartA-Verfahren
+
+### Schritt 4: Finding formulieren
+
+> **Quellenattribution.** Bei Verweis auf Normen, Rechtsprechung oder Behördenmaßnahmen mit entsprechendem Tag versehen: `[juris]`, `[beck-online]`, `[Westlaw DE]` bei Zitaten aus Recherchetool; `[Modellwissen — prüfen]` bei Zitaten aus Modellwissen; `[Nutzer bereitgestellt]` bei VDR- oder Deal-Team-Quellen.
+
+Je Finding-Vorlage aus Praxisprofil:
+
+```
+Finding #N: [Titel]
+Kategorie: [Anforderungskategorie]
+Schweregrad: [Stufe nach Hausschema]
+Dokumente: [VDR-Pfad + Dokumentenname]
+Finding: [Was das Dokument aussagt und warum es relevant ist]
+Empfehlung: [Preisanpassung / Einbehalt / Zustimmung erforderlich / Garantie / Vertragsabbruch]
+Vollzugshandlung: [ja – Zustimmung erforderlich / nein]
+```
+
+**Schweregradeinstufung:**
+- Rot **Blockierend:** Beeinflusst Deal-Wert oder -struktur.
+- Orange **Hoch:** Erheblich, aber lösbar.
+- Gelb **Mittel:** Klärungsbedarf; lösbar.
+- Gruen **Niedrig:** Für die Akte vermerkt.
+
+### Schritt 5: Bericht je Kategorie
+
+Findings nach Anforderungskategorie gruppieren. Innerhalb der Kategorie nach Schweregrad sortieren.
+
+### Schritt 6: Batch-Verarbeitung
+
+Für große Kategorien (300 Verträge): in Chargen verarbeiten. Nach jeder Charge laufende Issues-Liste aktualisieren und blockierende Punkte sofort melden.
+
+## Output-Template
+
+**Adressat:** Deal-Team (Lead Counsel) — **Tonfall:** sachlich-juristisch, präzise
+
+```
+[VERTRAULICH — ANWALTLICHES ARBEITSERGEBNIS]
+
+> Dieses Ergebnis entstammt VDR-Materialien, die vertraulich oder privilegiert
+> oder beides sind. Verteilung außerhalb des Vertraulichkeitskreises kann den
+> Schutz aufheben.
+
+### DD-Issues: [DEAL-CODE] — [KATEGORIE]
+Erstellt: [DATUM] | Bearbeiter: [NAME]
+
+Geprüfte Dokumente: [N] von [M] in Kategorie
+Abdeckung: [Alle | >X EUR-Schwelle | Top-N]
+Findings: [N] blockierend [N] hoch [N] mittel [N] niedrig
+
+---
+
+## Zusammenfassung
+
+[N] blockierend · [N] hoch · [N] mittel — [das Eine, was das Deal-Team wissen muss]
+
+---
+
+## Finding #1: [TITEL]
+
+Kategorie: [KATEGORIE]
+Schweregrad: [STUFE]
+Dokument: [VDR-PFAD/DOKUMENTENNAME]
+
+**Sachverhalt:**
+[Was das Dokument konkret aussagt]
+
+**Rechtliche Bewertung:**
+[Norm + Folge]
+
+**Empfehlung:**
+[Preisanpassung / Einbehalt / Zustimmung einholen / Garantie verlangen]
+
+**Vollzugshandlung:** [ja/nein]
+
+---
+
+## Lücken
+
+- [Anforderungspunkt ohne responsive Dokumente]
+- [Referenziertes Dokument nicht im VDR]
+```
+
+## Rote Schwellen
+
+- Change-of-Control bei wesentlichen Verträgen (Umsatzanteil >10 %) → sofortige Eskalation an Deal-Lead
+- IP-Eigentumsluecke bei Kerntechnologie → blockierendes Finding; Abtretungs-Chain prüfen
+- Betriebsübergang Paragraf 613a BGB ohne Unterrichtungsplan → Vollzugsverzögerung droht
+- Fehlende aktuelle Gesellschafterliste (Paragraf 40 GmbHG) → gutgläubiger Erwerb Dritter möglich
+- BKartA-Verfahren oder FDI-Prüfung offen → Vollzugsverbot beachten (Paragraf 41 GWB)
+
+## Übergaben
+
+- **An ki-werkzeug-uebergabe:** Bei Nutzung von Luminance/Kira massenhafte Vertragsextraktion dorthin übergeben.
+- **An dealteam-zusammenfassung:** Aggregierte Findings speisen das Deal-Team-Briefing.
+- **An wesentliche-vertraege-anlage:** Vertragsextraktionen speisen die Disclosure Schedule.
+- **An vollzugs-checkliste:** Jedes Finding, das eine diskrete Vollzugshandlung impliziert.
+
+## Quellen und Zitierweise
+
+Zitierweise nach `../../references/zitierweise.md`.
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+
+## Was dieser Skill nicht tut
+
+- Er trifft keine Wesentlichkeitsentscheidung bei Grenzfällen. Er wendet die Schwelle an; ein Mensch entscheidet über den Grenzfall.
+- Er verhandelt keine Garantien. Er erstellt die Findings, die deren Inhalt informieren.
+- Er ersetzt keine KI-Massenprüfung. Für hochvolumige Klauselextraktion an ki-werkzeug-uebergabe übergeben.

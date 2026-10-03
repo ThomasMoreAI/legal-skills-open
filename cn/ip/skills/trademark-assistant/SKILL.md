@@ -5,11 +5,206 @@ description: 面向中国商标申请的类别规划、可注册性初筛及申�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/trademark-assistant
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: ip
 language: zh
+sources:
+- title: 01 service intake checklist
+  path: references/01-service-intake-checklist.md
+- title: 02 classification planning guide
+  path: references/02-classification-planning-guide.md
+- title: 03 registrability prescreen guide
+  path: references/03-registrability-prescreen-guide.md
+- title: 04 output contract
+  path: references/04-output-contract.md
+- title: 05 trademark description guide
+  path: references/05-trademark-description-guide.md
+- title: Trademark infringement criteria interpretation and application
+  path: references/laws-regulations/trademark-infringement-criteria-interpretation-and-application.md
+- title: Trademark infringement criteria
+  path: references/laws-regulations/trademark-infringement-criteria.md
+- title: Class 01
+  path: references/nice-classification-v13-2026/class-01.md
+- title: Class 02
+  path: references/nice-classification-v13-2026/class-02.md
+- title: Class 03
+  path: references/nice-classification-v13-2026/class-03.md
+- title: Class 04
+  path: references/nice-classification-v13-2026/class-04.md
+- title: Class 05
+  path: references/nice-classification-v13-2026/class-05.md
+- title: Class 06
+  path: references/nice-classification-v13-2026/class-06.md
+- title: Class 07
+  path: references/nice-classification-v13-2026/class-07.md
+- title: Class 08
+  path: references/nice-classification-v13-2026/class-08.md
+- title: Class 09
+  path: references/nice-classification-v13-2026/class-09.md
+- title: Class 10
+  path: references/nice-classification-v13-2026/class-10.md
+- title: Class 11
+  path: references/nice-classification-v13-2026/class-11.md
+- title: Class 12
+  path: references/nice-classification-v13-2026/class-12.md
+- title: Class 13
+  path: references/nice-classification-v13-2026/class-13.md
+- title: Class 14
+  path: references/nice-classification-v13-2026/class-14.md
+- title: Class 15
+  path: references/nice-classification-v13-2026/class-15.md
+- title: Class 16
+  path: references/nice-classification-v13-2026/class-16.md
+- title: Class 17
+  path: references/nice-classification-v13-2026/class-17.md
+- title: Class 18
+  path: references/nice-classification-v13-2026/class-18.md
+- title: Class 19
+  path: references/nice-classification-v13-2026/class-19.md
+- title: Class 20
+  path: references/nice-classification-v13-2026/class-20.md
+- title: Class 21
+  path: references/nice-classification-v13-2026/class-21.md
+- title: Class 22
+  path: references/nice-classification-v13-2026/class-22.md
+- title: Class 23
+  path: references/nice-classification-v13-2026/class-23.md
+- title: Class 24
+  path: references/nice-classification-v13-2026/class-24.md
+- title: Class 25
+  path: references/nice-classification-v13-2026/class-25.md
+- title: Class 26
+  path: references/nice-classification-v13-2026/class-26.md
+- title: Class 27
+  path: references/nice-classification-v13-2026/class-27.md
+- title: Class 28
+  path: references/nice-classification-v13-2026/class-28.md
+- title: Class 29
+  path: references/nice-classification-v13-2026/class-29.md
+- title: Class 30
+  path: references/nice-classification-v13-2026/class-30.md
+- title: Class 31
+  path: references/nice-classification-v13-2026/class-31.md
+- title: Class 32
+  path: references/nice-classification-v13-2026/class-32.md
+- title: Class 33
+  path: references/nice-classification-v13-2026/class-33.md
+- title: Class 34
+  path: references/nice-classification-v13-2026/class-34.md
+- title: Class 35
+  path: references/nice-classification-v13-2026/class-35.md
+- title: Class 36
+  path: references/nice-classification-v13-2026/class-36.md
+- title: Class 37
+  path: references/nice-classification-v13-2026/class-37.md
+- title: Class 38
+  path: references/nice-classification-v13-2026/class-38.md
+- title: Class 39
+  path: references/nice-classification-v13-2026/class-39.md
+- title: Class 40
+  path: references/nice-classification-v13-2026/class-40.md
+- title: Class 41
+  path: references/nice-classification-v13-2026/class-41.md
+- title: Class 42
+  path: references/nice-classification-v13-2026/class-42.md
+- title: Class 43
+  path: references/nice-classification-v13-2026/class-43.md
+- title: Class 44
+  path: references/nice-classification-v13-2026/class-44.md
+- title: Class 45
+  path: references/nice-classification-v13-2026/class-45.md
+- title: Nice classification v13 2026 index
+  path: references/nice-classification-v13-2026/nice-classification-v13-2026-index.md
+- title: Chapter 01
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-01.md
+- title: Chapter 02
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-02.md
+- title: Chapter 03
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-03.md
+- title: Chapter 04
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-04.md
+- title: Chapter 05
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-05.md
+- title: Chapter 06
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-06.md
+- title: Chapter 07
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-07.md
+- title: Chapter 08
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-08.md
+- title: Chapter 09
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-09.md
+- title: Chapter 10
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-10.md
+- title: Chapter 11
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-11.md
+- title: Chapter 12
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-12.md
+- title: Chapter 13
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-13.md
+- title: Chapter 14
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-14.md
+- title: Chapter 15
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-15.md
+- title: Chapter 16
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-16.md
+- title: Chapter 17
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-17.md
+- title: Chapter 18
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-18.md
+- title: Chapter 19
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-19.md
+- title: Chapter 20
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-20.md
+- title: Chapter 21
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-21.md
+- title: Chapter 22
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-22.md
+- title: Chapter 23
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-23.md
+- title: Chapter 24
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-24.md
+- title: Chapter 25
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-25.md
+- title: Chapter 26
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-26.md
+- title: Chapter 27
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-27.md
+- title: Chapter 28
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-28.md
+- title: Chapter 29
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-29.md
+- title: Chapter 30
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-30.md
+- title: Chapter 31
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-31.md
+- title: Chapter 32
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-32.md
+- title: Chapter 33
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-33.md
+- title: Chapter 34
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-34.md
+- title: Chapter 35
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-35.md
+- title: Chapter 36
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-36.md
+- title: Chapter 37
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-37.md
+- title: Chapter 38
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-38.md
+- title: Chapter 39
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-39.md
+- title: Chapter 40
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-40.md
+- title: Chapter 41
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-41.md
+- title: Chapter 42
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-42.md
+- title: Chapter 43
+  path: references/trademark-examination-and-adjudication-guidelines/chapter-43.md
+- title: Trademark examination and adjudication guidelines index
+  path: references/trademark-examination-and-adjudication-guidelines/trademark-examination-and-adjudication-guidelines-index.md
 ---
 
 # 商标助手
@@ -22,12 +217,14 @@ language: zh
 
 **法律依据：** 本技能引用的法律法规均为中国国内法律法规，包括但不限于《中华人民共和国商标法》《商标法实施条例》及《商标审查审理指南》等。
 
+**时点门禁：** 2026 年修订《商标法》自 2027 年 1 月 1 日起施行。在此之前不得把新法作为现行裁判或审查依据；申请、检索或复核跨越生效日时，先核对国家知识产权局最新法源及审查指南，再标明所适用的时间版本。
+
 **国际适用性说明：**
 - 尼斯分类（Nice Classification）为国际通用的商标分类标准，因此类别规划部分可适用于国际商标申请
 - 但可注册性初筛、审查标准分析等涉及具体法律判断的内容，仅适用于中国商标申请
 - 如需国际商标申请（马德里体系、单一国家注册等），需另行咨询专业律师
 
-**服务主体：** 本技能由中国执业律师提供法律服务支持，仅具备中国大陆法律服务资质。
+**服务主体：** 本技能由杨卫薪律师维护（作者为中国执业律师）。输出适用于中国大陆商标申请场景，为初步研判，不替代律师或备案商标代理机构正式法律意见，也不当然形成律师委托关系；如需正式法律服务需另行委托。
 
 ## 触发条件
 
@@ -48,7 +245,7 @@ language: zh
 
 ## 输入收集
 
-优先按 `references/service-intake-checklist.md` 收集信息；缺失关键信息时先提问，不直接下结论。
+优先按 `references/01-service-intake-checklist.md` 收集信息；缺失关键信息时先提问，不直接下结论。
 
 最少输入：
 
@@ -61,9 +258,9 @@ language: zh
 ### 阶段一：咨询与规划
 
 1. 识别请求类型：`类别规划` / `可注册性初筛` / `组合服务`
-2. 使用 `references/classification-planning-guide.md` 完成类别规划
-3. 使用 `references/registrability-prescreen-guide.md` 完成可注册性初筛
-4. 按 `references/output-contract.md` 输出标准化结果
+2. 使用 `references/02-classification-planning-guide.md` 完成类别规划
+3. 使用 `references/03-registrability-prescreen-guide.md` 完成可注册性初筛
+4. 按 `references/04-output-contract.md` 输出标准化结果
 5. 强制附加免责声明与升级建议（含律师咨询入口）
 
 ### 阶段二：申请材料准备
@@ -72,12 +269,13 @@ language: zh
 
 1. **商品清单生成**：根据确定的目标类别，生成规范的商品清单 Excel 文件
 2. **商标说明撰写**：分析商标设计图片，撰写符合官方要求的商标说明文本
-3. **材料归档**：将生成的材料归档到 `archive/` 目录
+3. **材料保存**：仅写入用户明确指定或确认的输出目录；不得默认把客户材料写入 Skill 安装目录
 
 ## 输出要求
 
 - 先结论，再依据，再风险，再行动
-- 明确区分“高风险/中风险/低风险”；信息不足时标注“待补充（信息不足，暂不评级）”
+- 分别评定绝对理由、相对理由和总体风险；信息不足的维度标注“待补充”
+- 相对理由（在先商标近似冲突）必须以官方检索证据为前提；未检索时标注“未检索/不可评级”。如其他维度已达到高风险，总体仍可评为高风险；否则总体标“待补充”，不得评为中风险或低风险（详见 `references/03-registrability-prescreen-guide.md`）
 - 引用依据时注明来源文件（如 `references/trademark-examination-and-adjudication-guidelines/chapter-03.md`）
 - 缺失信息必须标注“未提及/待补充”
 - 统一仅输出一个版本：Markdown 结构化结论，不附加 JSON 代码块
@@ -86,16 +284,17 @@ language: zh
 
 ## 关键参考资料
 
-- 服务输入清单：`references/service-intake-checklist.md`
-- 类别规划规则：`references/classification-planning-guide.md`
-- 初筛判定规则：`references/registrability-prescreen-guide.md`
-- 交付模板：`references/output-contract.md`
-- 商标说明撰写指南：`references/trademark-description-guide.md`
-- 法律与实务依据总索引：`references/legal-basis-index.md`
+- 01 服务输入清单：`references/01-service-intake-checklist.md`
+- 02 类别规划规则：`references/02-classification-planning-guide.md`
+- 03 初筛判定规则：`references/03-registrability-prescreen-guide.md`
+- 04 交付模板：`references/04-output-contract.md`
+- 05 商标说明撰写指南：`references/05-trademark-description-guide.md`
 - 审查指南索引：`references/trademark-examination-and-adjudication-guidelines/trademark-examination-and-adjudication-guidelines-index.md`
-- 尼斯分类索引（当前）：`references/nice-classification-v13-2026/nice-classification-v13-2026-index.md`
-- 尼斯分类旧版（查漏补缺）：`references/nice-classification-v12-2025/nice-classification-v12-2025-index.md`
+- 尼斯分类索引：`references/nice-classification-v13-2026/nice-classification-v13-2026-index.md`
+- 侵权判断标准：`references/laws-regulations/trademark-infringement-criteria.md`、`references/laws-regulations/trademark-infringement-criteria-interpretation-and-application.md`
 - **商品清单导入模板**：`templates/导入商品信息.xlsx`
+
+> 检索建议：涉及类别规划时，默认先读 `references/nice-classification-v13-2026/nice-classification-v13-2026-index.md`，再按需读取对应 `class-XX.md`；涉及审查规则时，先读 `references/trademark-examination-and-adjudication-guidelines/trademark-examination-and-adjudication-guidelines-index.md`，再按需读取对应 `chapter-XX.md`。35-45 类通常为服务类高频区间，优先按业务场景筛查。
 
 ## 商品清单输出格式
 
@@ -119,28 +318,41 @@ language: zh
 
 ### 生成方式
 
-使用 openpyxl 库生成 Excel 文件：
+使用 `scripts/script.py` 生成 Excel。它已内置模板表头校验、类别整数校验、类别与类似群一致性校验、商品名称类型校验、openpyxl 缺失提示和禁止静默覆盖规则，可直接运行。
 
-```python
-from openpyxl import load_workbook
+输入为 JSON 数组（每项含 `类别`、`类似群`、`商品名称`，序号自动生成）：
 
-# 加载模板
-wb = load_workbook('templates/导入商品信息.xlsx')
-sheet = wb.active
-
-# 填充数据（从第2行开始）
-for idx, item in enumerate(goods_list, start=2):
-    sheet[f'A{idx}'] = idx - 1  # 序号
-    sheet[f'B{idx}'] = item['类别']  # 商品类别
-    sheet[f'C{idx}'] = item['类似群']  # 类似群
-    sheet[f'D{idx}'] = item['商品名称']  # 商品名称
-
-wb.save('输出文件.xlsx')
+```json
+[
+  {"类别": 9, "类似群": "0901", "商品名称": "计算机软件（已录制）"},
+  {"类别": 9, "类似群": "0907", "商品名称": "智能手机"}
+]
 ```
+
+从文件读取：
+
+```bash
+uv run --with openpyxl python scripts/script.py --input goods.json --output {商标名}-第{X}类-商品清单.xlsx
+```
+
+或通过 stdin 传入：
+
+```bash
+echo '[{"类别":9,"类似群":"0901","商品名称":"计算机软件（已录制）"}]' | uv run --with openpyxl python scripts/script.py --output out.xlsx
+```
+
+> 依赖可由 `uv run --with openpyxl` 临时提供，无需预先安装；如不使用 uv，先运行 `python3 -m pip install openpyxl`。输出文件已存在时默认拒绝覆盖，需显式加 `--force`；表头或数据校验不通过时立即报错退出，不会生成残缺文件。
 
 ## 商标说明撰写
 
-商标说明是商标注册申请的必要材料，用于描述商标特征、构成要素及含义。**所有商标申请均需撰写商标说明**。
+商标说明用于描述商标特征、构成要素及含义。**是否必须填写以及填写深度取决于商标类型**，不要对所有申请一刀切：
+
+- 普通中文文字商标：通常可不填，或仅简述构成与含义；
+- 外文商标：需说明文字含义（如有）及是否为自创词；
+- 三维标志、颜色组合、声音标志等特殊类型：须按官方要求如实填写其构成与特征；
+- 含行业通用词等非显著要素的商标：只客观描述构成；不得自动生成“具有显著性”或“放弃专用权”声明，确需权利声明时先由申请人或专业人员确认依据和范围。
+
+> 显著性（是否独创、是否经使用取得）属需举证的法律判断，不在商标说明中认定；如需主张经使用取得显著性，应另行提交使用证据。
 
 ### 适用时机
 
@@ -153,19 +365,19 @@ wb.save('输出文件.xlsx')
 1. **明确商标类型**：声明商标由哪些元素构成
 2. **说明文字内容**：描述字体形式（普通印刷体/艺术字）
 3. **解释文字含义**：说明含义或声明"无特殊含义"
-4. **字数限制**：200字以内
+4. **长度控制**：保持简明，并以提交系统当次显示的字段限制为准
 
 ### 图形/组合商标分析流程
 
 对于**图形商标**或**组合商标**，必须先使用图像理解工具分析商标图片，再撰写说明。
 
-#### 可用的图像理解工具
+#### 工具选择策略
 
-| 工具 | 类型 | 适用场景 |
-|------|------|----------|
-| `mcp__zai-mcp-server__analyze_image` | MCP | 通用图像分析，推荐优先使用 |
-| `mcp__MiniMax__understand_image` | MCP | 备选方案 |
-| `Read` 工具直接读取图片 | 内置 | Claude 原生视觉能力 |
+不绑定具体工具名，按以下优先级调用当前运行环境具备的图像理解能力：
+
+1. **首选：模型内置视觉能力**。检查当前运行环境所在的大模型是否原生支持图片读取（如 Claude、GPT-4V、Gemini 等多数新一代多模态模型）。如果模型支持，无需任何额外工具，直接把图片交给模型分析即可。
+2. **备选：通用图像理解 MCP/插件**。如果当前模型不具备视觉能力，或用户上传图片无法被模型直接读取，使用当前运行环境配置的通用图像理解 MCP 或插件。**具体工具名称取决于运行环境实际配置**，使用前应先核对当前环境已启用哪些 MCP/插件，再选用其中一个。
+3. **兜底：人工描述**。如果以上均不可用，明确告知用户当前环境无图像理解能力，请其用文字描述商标的设计要素（形状、构图、字体、颜色、风格等），再据此撰写说明。
 
 #### 分析要点
 
@@ -192,23 +404,25 @@ wb.save('输出文件.xlsx')
 
 #### 撰写流程
 
-1. **用户提供商标图片** → 调用图像理解工具分析
+1. **用户提供商标图片** → 按上述"工具选择策略"调用图像理解能力分析
 2. **获取分析结果** → 提取关键设计特征
 3. **结合用户补充说明** → 完善设计细节和寓意
 4. **按模板撰写商标说明** → 输出符合官方要求的文本
 
 ### 详细指南
 
-撰写指南和示例见 `references/trademark-description-guide.md`
+撰写指南和示例见 `references/05-trademark-description-guide.md`
 
-## Archive 归档
+## 材料保存与可选归档
 
-当完成具体商标申请方案后，将生成的材料归档到 `archive/` 目录，便于后续查阅和复用。
+生成商品清单、商标说明或申请方案前，先让用户明确输出目录。默认不得写入 Skill 安装目录中的 `archive/`、`output/` 或其他内部目录。
+
+如用户确需归档，先确认归档路径、命名脱敏、访问权限和保存期限；只保存当前任务必要文件，不复制原始证件、联系方式等无关个人信息。
 
 ### 目录结构
 
 ```
-archive/
+<用户确认的商标项目目录>/
 └── {YYYYMMDD}_{商标名}/
     ├── 申请方案.md          # 完整申请方案（含类别规划、风险分析）
     ├── 商品清单.xlsx        # 可导入商标系统的商品清单
@@ -218,8 +432,8 @@ archive/
 
 ### 归档时机
 
-- 用户确认申请方案后
-- 完成商标注册咨询服务后
+- 用户明确要求留档并确认路径后
+- 已确认文件名和内容中不含不必要的敏感信息后
 
 ## 依赖
 
@@ -227,10 +441,11 @@ archive/
 
 | 依赖 | 安装方式 |
 |------|----------|
-| 无 | 本技能为文本推理与结构化输出流程，无额外系统依赖 |
+| Python 3 | 文本流程无需运行脚本；生成 Excel 商品清单时需要 Python 3 |
+| uv（推荐、可选） | macOS: `brew install uv`；其他平台参照 uv 官方安装说明；不用 uv 时可直接用 pip 安装 openpyxl |
 
 ### Python 包
 
 | 包名 | 用途 | 安装命令 |
 |------|------|----------|
-| openpyxl | 生成 Excel 商品清单 | `uv run --with openpyxl python script.py` |
+| `openpyxl` | 生成 Excel 商品清单 | 推荐按需运行：`uv run --with openpyxl python scripts/script.py --input <清单.json> --output <输出.xlsx>`；或安装：`python3 -m pip install openpyxl` |

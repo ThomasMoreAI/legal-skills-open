@@ -1,11 +1,11 @@
 ---
 name: stand-der-technik-recherche
 title: stand-der-technik-recherche
-description: Recherche Stand der Technik vor eigener Patentanmeldung. Identifiziert anhand des Erfindungsmaterials und der ermittelten CPC-IPC-Klassen die wichtigsten Veröffentlichungen die der Anmeldetag-Reife der Mandantenerfindung im Wege stehen koennten. Patent- und Nichtpatentliteratur (NPL) Aufsaetze Konferenzproceedings Dissertationen Datenblaetter Produktinformationen. Berücksichtigt § 3 Abs. 1 PatG Art. 54 Abs. 2 EPUe (Stand der Technik weltweit jede Sprache) und § 3 Abs. 2 PatG Art. 54 Abs. 3 EPUe (aeltere Anmeldungen nur Neuheitsschaedlich). Liefert Trefferdossiers mit Pinpoint auf Anspruch oder Absatz Bewertung als A X Y P E im Stil der EPA-Recherchezeichen. Disclaimer Vorrecherche keine amtliche Recherche.
+description: 'Für stand-der-technik-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/stand-der-technik-recherche
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -14,9 +14,17 @@ language: de
 
 # stand-der-technik-recherche
 
-## Zweck
+## Arbeitsbereich
 
-Vor einer eigenen Patentanmeldung der Mandantin (oder zur Beratung der Mandantin "lohnt sich die Anmeldung?") wird der Stand der Technik recherchiert. Dieses Skill nutzt die Treffer aus `agentische-datenbank-recherche` und ordnet sie methodisch ein.
+Recherche Stand der Technik vor eigener Patentanmeldung. Identifiziert anhand des Erfindungsmaterials und der ermittelten CPC-IPC-Klassen die wichtigsten Veröffentlichungen die der Anmeldetag-Reife der Mandantenerfindung im Wege stehen koennten. Patent- und Nichtpatentliteratur (NPL) Aufsaetze Konferenzproceedings Dissertationen Datenblaetter Produktinformationen. Berücksichtigt § 3 Abs. 1 PatG Art. 54 Abs. 2 EPUe (Stand der Technik weltweit jede Sprache) und § 3 Abs. 2 PatG Art. 54 Abs. 3 EPUe (aeltere Anmeldungen nur Neuheitsschaedlich). Liefert Trefferdossiers mit Pinpoint auf Anspruch oder Absatz Bewertung als A X Y P E im Stil der EPA-Recherchezeichen. Disclaimer Vorrecherche keine amtliche Recherche. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Lies zuerst Erfindungsbeschreibung, Zeichnungen, bekannte Veröffentlichungen und den Rechercheauftrag. Übernimm den bereits festgelegten Untersuchungsgegenstand und Zeitrang; frage nur nach entscheidenden offenen Angaben.
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Rechtsrahmen
 
@@ -28,11 +36,11 @@ Vor einer eigenen Patentanmeldung der Mandantin (oder zur Beratung der Mandantin
 
 1. **Aus `agentische-datenbank-recherche`** — die strukturierte Treffertabelle aus Patentdatenbanken.
 2. **NPL-Recherche** ergänzend:
-   - **Google Scholar** (`https://scholar.google.com`) — Aufsätze, Dissertationen, Konferenz-Proceedings.
-   - **Crossref / Lens.org** (`https://www.lens.org`) — DOI-basierte Recherche; Lens kombiniert Patente und NPL.
-   - **arXiv** (`https://arxiv.org`) — bei Informatik, Mathematik, Physik wichtig.
-   - **PubMed** (`https://pubmed.ncbi.nlm.nih.gov`) — Life Sciences / Biotech.
-   - **IEEE Xplore**, **ACM Digital Library**, **SpringerLink**, **ScienceDirect** — wenn die Kanzlei Zugänge hat.
+ - **Google Scholar** (`https://scholar.google.com`) — Aufsätze, Dissertationen, Konferenz-Proceedings.
+ - **Crossref / Lens.org** (`https://www.lens.org`) — DOI-basierte Recherche; Lens kombiniert Patente und NPL.
+ - **arXiv** (`https://arxiv.org`) — bei Informatik, Mathematik, Physik wichtig.
+ - **PubMed** (`https://pubmed.ncbi.nlm.nih.gov`) — Life Sciences / Biotech.
+ - **IEEE Xplore**, **ACM Digital Library**, **SpringerLink**, **ScienceDirect** — wenn die Kanzlei Zugänge hat.
 3. **Öffentliche Vorbenutzungen** — Produkt-Datenblätter, Konferenzvorträge, Messeauftritte, frühere Patente derselben Mandantin (Selbstbeschwerde). **Internet Archive Wayback Machine** (`https://web.archive.org`) ist hilfreich, um Vorveröffentlichungstage zu sichern.
 
 ## Ablauf
@@ -61,16 +69,16 @@ Pro Treffer eine kurze Dossierseite:
 
 ```
 Treffer: EP 3 456 789 A1
-  Anmelder: Siemens AG
-  Anmeldetag: 15.03.2019  Prio: 14.03.2018
-  Klassifikation: CPC H02J 3/14
-  Recherchezeichen: X
-  Relevanter Pinpoint:
-    Anspruch 1, Merkmale a)-d) decken sich mit Anspruch 1 der Mandantenerfindung;
-    Absatz [0023]-[0027] (Bezugszeichen 12, 14) beschreibt baugleiches Verfahren.
-  Bewertung: Hauptanspruch der Mandantenerfindung ist gegen diesen Treffer nicht neuheitsfähig.
-  Empfehlung: Anspruchsformulierung anpassen oder Erfindung in Richtung verbleibender Merkmale eingrenzen.
-  Link: https://worldwide.espacenet.com/patent/search/family/.../publication/EP3456789A1
+ Anmelder: Siemens AG
+ Anmeldetag: 15.03.2019 Prio: 14.03.2018
+ Klassifikation: CPC H02J 3/14
+ Recherchezeichen: X
+ Relevanter Pinpoint:
+ Anspruch 1, Merkmale a)-d) decken sich mit Anspruch 1 der Mandantenerfindung;
+ Absatz [0023]-[0027] (Bezugszeichen 12, 14) beschreibt baugleiches Verfahren.
+ Bewertung: Hauptanspruch der Mandantenerfindung ist gegen diesen Treffer nicht neuheitsfähig.
+ Empfehlung: Anspruchsformulierung anpassen oder Erfindung in Richtung verbleibender Merkmale eingrenzen.
+ Link: https://worldwide.espacenet.com/patent/search/family/.../publication/EP3456789A1
 ```
 
 ### Schritt 4: NPL-Treffer parallel dokumentieren
@@ -103,18 +111,16 @@ Empfehlung an die Patentanwältin:
 
 > **Hinweis zur Recherche.** Diese Stand-der-Technik-Recherche ist eine KI-gestützte Vorrecherche und keine amtliche Recherche. Geheime ältere Anmeldungen (§ 3 Abs. 2 PatG / Art. 54 Abs. 3 EPÜ) sind erst nach Ablauf der 18-Monats-Frist erfassbar. Nicht-deutsche, nicht-englische und nicht-französische Volltexte werden nicht vollständig durchsucht. Die Bewertung als X/Y/A/P/E ist eine vorläufige Einschätzung — die amtliche Recherche durch DPMA oder EPA kann zu anderen Ergebnissen kommen.
 
-## Triage-Fragen vor Stand-der-Technik-Recherche
+## Fehlende Angaben klären und den Bericht fertigstellen
 
-Bevor die Recherche begonnen wird, klaere:
-1. Was ist der Prioritaetszeitpunkt — nach diesem Datum relevante Dokumente sind nicht massgeblich (§ 3 I PatG)?
-2. Gibt es bekannte Vorveröffentlichungen durch den Mandanten selbst (Messevortrag, Dissertation, Produktkatalog)?
-3. Sind Nicht-Patent-Literatur (NPL) — Aufsaetze, Normen, Konferenz-Proceedings — fuer das Technikgebiet besonders relevant?
-4. Welcher Fachmann ist massgeblich (IPC/CPC-basierte Einordnung des Technikgebiets)?
+Ist die technische Lehre nicht eindeutig, frage nach dem betroffenen Bauteil, seiner Verbindung oder einer Zeichnung. Fehlt der Beleg zum Zeitrang, fordere die betreffende Anmeldung oder Prioritätsunterlage an; behandle die zeitliche Einordnung bis dahin als vorläufig. Bereits erklärte Merkmale und beantwortete Fragen nicht erneut aufnehmen.
+
+Prüfe anhand der Akte, ob eigene Messevorträge, Dissertationen oder Produktkataloge bekannt sind. Nur soweit entscheidende Angaben fehlen, frage nach Inhalt, Datum und Zugänglichkeit dieser Veröffentlichung. Die gesonderte Behandlung älterer, später veröffentlichter Anmeldungen bleibt erforderlich.
+
+Überarbeite nach der Antwort die betroffenen Suchbegriffe, Merkmalszuordnungen und zeitlichen Bewertungen. Eine neu erkennbare entscheidende Lücke darf eine weitere gezielte Frage auslösen; führe anschließend den bestellten Recherchebericht zu Ende. Bis dahin liefere die belastbaren Teilbefunde mit der konkret noch offenen Bewertung, nicht bloß eine neue Fragenliste.
+
+Der Bericht erläutert die Befunde in vollständigen Sätzen; Trefferzahlen und Recherchezeichen ersetzen keine begründete Prüfung. Eine Anmeldung oder Kontaktaufnahme mit Dritten wird dadurch nicht beauftragt. Nutze den gewünschten Dateinamen und, soweit technisch möglich, Times New Roman 11 pt mit dezimaler Gliederung.
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

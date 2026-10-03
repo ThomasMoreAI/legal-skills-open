@@ -1,0 +1,178 @@
+---
+name: mandantenakte-anlegen-mandantenbrief-vorlagen
+title: Mandantenakte anlegen
+description: 'Für Mandantenakte anlegen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/mandantenakte-anlegen-mandantenbrief-vorlagen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Mandantenakte anlegen
+
+## Arbeitsbereich
+
+Legt eine Mandantenakte nach Kanzleikonvention an. Erfasst Stammdaten Bevollmaechtigte Mandatsumfang Konfliktprüfung (§ 43a Abs. 4 BRAO § 3 BORA) Datenschutzhinweis (Art. 13 DSGVO) Geldwäsche-Identifizierung (§§ 10 11 GwG) Honorarvereinbarung oder RVG-Hinweis. Erzeugt Aktenstruktur unter mandate/Aktenzeichen/ mit Standardunterordnern Vollmachts-Entwurf Datenschutzhinweis Geldwäsche-Prüfbeleg. Eintrag im Mandantenstamm. Verbindung zum Fristenbuch falls Fristen mitgeliefert. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO §§ 43, 43a, 43e, 45, 49b, 53, 59b, 73; BORA §§ 2, 3, 4, 5, 6, 10, 11, 12; RVG §§ 3a, 10; GwG §§ 2, 10, 11, 43; DSGVO Art. 5, 6, 9, 28, 32; BDSG § 26; ZPO § 130d; BRAO § 31a/beA und lokale Kammerhinweise live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Konfliktprüfung (§ 43a Abs. 4 BRAO)
+
+**Vor jeder Mandatsannahme** Pflichtschritt:
+
+- Prüfung im Mandantenstamm ob Mandat gegen einen bisherigen oder laufenden Mandanten der Kanzlei.
+- Prüfung ob Mandatsannahme gegen § 3 BORA (widerstreitende Interessen) verstoesst.
+- Bei Konflikt: Mandat ablehnen oder schriftliches Einverständnis aller Betroffenen.
+- Prüfer-Eintrag mit Datum Initialen.
+
+## Aktennummernsystem
+
+Empfehlung:
+
+`<Jahr>/<lfd. Nr.>` (z. B. `2026/0042`)
+
+oder
+
+`<RG>-<Jahr>-<Nr>` (z. B. `Z-2026-0042` für Zivilrecht).
+
+## Verzeichnisstruktur
+
+Unter `~/.claude/plugins/config/claude-fuer-deutsches-recht/kanzlei-allgemein/mandate/<az>/`:
+
+```
+01_stammdaten/
+ mandatsblatt.md
+ vollmacht.docx
+ vollmacht-unterschrieben.pdf
+ datenschutzhinweis.md
+ gwg-identifizierung.pdf
+ konfliktprüfung.md
+ honorarvereinbarung.docx (falls Vereinbarung)
+02_eingaenge/
+03_schriftsaetze/
+04_anlagen/
+05_fristen/
+06_honorar/
+ rechnungen/
+ zahlungseingang.yaml
+07_korrespondenz_mandant/
+08_korrespondenz_dritte/
+09_aktennotizen/
+_archiv/
+```
+
+## Mandatsblatt
+
+```yaml
+mandat-az: 2026/0042
+mandat-eroeffnet: 2026-05-20
+zuständiger-anwalt: RA Mueller
+sekretariat: Frau Schmidt
+
+mandant:
+ typ: juristische-person # juristische-person / natürliche-person / ehepaare-vergleichsweise
+ name: Mueller GmbH
+ anschrift: ...
+ rechtsform: GmbH
+ vertretungsberechtigte: Hans Mueller (Geschäftsführer)
+ registergericht: HRB ... AG München
+ ust-id: DE...
+ steuernummer: ...
+
+ansprechpartner:
+ name: Hans Mueller
+ funktion: Geschäftsführer
+ telefon: ...
+ e-mail: ...
+
+mandatsumfang:
+ beschreibung: Verteidigung in Zivilrechtsstreit gegen ABC GmbH (Klage)
+ rechtsgebiet: Zivilrecht / Vertragsrecht
+ instanz: 1. Instanz LG München
+ streitwert: 35.000 EUR
+
+honorar:
+ basis: rvg # rvg / vereinbarung
+ stundensatz: 320 # bei Vereinbarung
+ pkh-pruefung: nein
+
+konfliktpruefung:
+ erfolgt-am: 2026-05-20
+ ergebnis: kein-konflikt
+ geprueft-von: RA Mueller
+```
+
+## Vollmacht
+
+Vollmachtstext mit:
+
+- Beauftragung des Rechtsanwalts der Kanzlei.
+- Mandatsumfang konkret bezeichnet (Vorverfahren Klage Vergleich auch über Klageweg hinaus).
+- Untervollmacht und Substituierung.
+- Empfangsvollmacht für Zustellungen.
+- beA-Vollmacht.
+- Datum und Unterschrift des Mandanten.
+
+## Datenschutzhinweis (Art. 13 DSGVO)
+
+Standardhinweis mit:
+
+- Identität des Verantwortlichen (Kanzlei).
+- Zweck der Verarbeitung (Mandatsdurchführung).
+- Rechtsgrundlage (Art. 6 Abs. 1 lit. b DSGVO + § 50 BRAO Aktenführung).
+- Empfänger (Gericht Behörde Steuerberater Gegenseite — je nach Bedarf).
+- Speicherdauer (mindestens 6 Jahre nach Mandatsende § 50 Abs. 1 BRAO).
+- Betroffenenrechte (Auskunft Berichtigung Löschung Widerspruch).
+
+## Geldwäsche-Identifizierung (§§ 10 11 GwG)
+
+Bei Mandaten die unter GwG fallen (z. B. Immobilientransaktionen Bargeldgeschäfte ab Schwellenwert):
+
+- Identifizierung der natürlichen Person mit Lichtbildausweis Kopie.
+- Bei juristischer Person Registerauszug HRB plus wirtschaftlich Berechtigte nach Transparenzregister.
+- Prüfung gegen Sanktionslisten EU und nationale.
+- Prüfer-Eintrag mit Datum Initialen.
+
+## Mandantenstamm-Eintrag
+
+In `~/.claude/plugins/config/claude-fuer-deutsches-recht/kanzlei-allgemein/mandantenstamm.yaml`:
+
+```yaml
+- mandant-id: M-00874
+ name: Mueller GmbH
+ typ: juristische-person
+ mandate:
+ - 2026/0042
+ konfliktstatus: kein-konflikt
+ letzte-pruefung: 2026-05-20
+```
+
+## Audit
+
+- Aktenanlage mit Audit-Eintrag (Datum Anwalt Sekretariat).
+- Änderungen mit Audit-Trail.
+
+## Ausgabe
+
+- Vollständige Aktenstruktur.
+- Mandatsblatt und Pflichtdokumente.
+- Eintrag im Mandantenstamm.
+- Hinweis ans Fristenbuch falls Fristen sofort relevant.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

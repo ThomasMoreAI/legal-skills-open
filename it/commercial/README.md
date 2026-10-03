@@ -10,7 +10,7 @@ Jurisdiction: `it` · Practice: `commercial` · Skill language: it
 
 | Skill | What it does |
 |---|---|
-| [`Revisione contratto B2B`](skills/revisione-contratto-b2b-pixari/) | Revisione approfondita contratto B2B italiano: commessa, SLA, penale, limitazione responsabilità, foro,… |
+| [`Revisione contratto B2B`](skills/revisione-contratto-b2b-pixari/) | Revisione approfondita contratto B2B italiano: commessa, SLA, penale, limitazione responsabilità, foro… |
 
 ## Cold-start context
 

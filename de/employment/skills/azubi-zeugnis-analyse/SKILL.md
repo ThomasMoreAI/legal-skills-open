@@ -1,26 +1,29 @@
 ---
 name: azubi-zeugnis-analyse
 title: Ausbildungszeugnis-Analyse (Azubi-Zeugnis)
-description: Analyse von Ausbildungszeugnissen nach § 16 BBiG bei Zeugnisstreit oder Berichtigungsverlangen. Anwendungsfall Auszubildender hat Ausbildungszeugnis erhalten das er für schlecht haelt. Normen § 16 BBiG Zeugnispflicht § 109 GewO analog. Prüfraster Lernfortschritt Berufsschulleistungen praktische Ausbildungsaufgaben Verhalten im Betrieb Ampelzuordnung branchenspezifische Formulierungen. Output Ampeltabelle mit Notentendenzen Begründungen und Verbesserungsvorschlaegen. Abgrenzung zu leistungsbeurteilung-analyse und schlussformel-bewertung (Arbeitszeugnisse Erwachsener).
+description: 'Für Ausbildungszeugnis-Analyse (Azubi-Zeugnis): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/azubi-zeugnis-analyse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Ausbildungszeugnis-Analyse (Azubi-Zeugnis)
 
-Das Ausbildungszeugnis nach § 16 BBiG unterscheidet sich grundlegend vom Arbeitszeugnis für Angestellte. Es beurteilt nicht die berufliche Leistung einer Vollkraft, sondern den Lern- und Entwicklungsfortschritt während der Ausbildung. Die Formulierungen sind anders, der Maßstab ist ein anderer, und die Ampelsignale folgen teilweise anderen Mustern.
+## Fachlicher Anker
 
-Das Ausbildungszeugnis enthält üblicherweise vier Hauptblöcke: (1) Beschreibung der Ausbildungsstelle und des Ausbildungsberufs, (2) Beurteilung der praktischen Ausbildungsleistung im Betrieb, (3) Beurteilung der Berufsschulleistungen (sofern zutreffend), und (4) Verhalten im Betrieb und in der Berufsschule sowie eine Schlussformel. Fehlt der Berufsschulabschnitt, kann das bei einem dualen Ausbildungsberuf ein orangefarbenes Signal sein.
-
-Die Lernfortschritts-Beurteilung verwendet andere Superlative als das normale Zeugnis: "hat die Ausbildungsinhalte schnell und sicher aufgenommen" ist grün; "hat sich die Ausbildungsinhalte angeeignet" ist orange; "war bereit, die Ausbildungsinhalte zu erlernen" ist rot (das "bereit" entspricht dem "bemüht" im Vollkraft-Zeugnis). Die Berufsschulbeurteilung kann auf Zeugnisse verweisen oder eine eigene Einschätzung bieten.
-
-Verhaltensformeln im Azubi-Zeugnis sind tendenziell milder und entwicklungsbezogener als im Vollkraft-Zeugnis. Formulierungen wie "hat sich positiv entwickelt" sind für einen Azubi grün, für eine Führungskraft wäre sie orange. Der Alters- und Entwicklungskontext muss immer mitgedacht werden.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -47,26 +50,27 @@ Verhaltensformeln im Azubi-Zeugnis sind tendenziell milder und entwicklungsbezog
 
 **Beispiel 5 – Vollständige positive Schlussformel:** "Wir bedauern es sehr, Frau Klein am Ende ihrer Ausbildung zu verlieren, und danken ihr herzlich für ihr Engagement. Wir empfehlen sie uneingeschränkt." — Starkes Signal für einen Übernahme- oder Weiterempfehlungswunsch.
 
-## Ausgabeformat
-
-Der Skill gibt eine azubi-spezifische Checkliste aus (Lernfortschritt / Praxis / Berufsschule / Verhalten / Schlussformel / Weiterempfehlung), gefolgt von der Ampeltabelle mit azubi-adjustierten Bewertungsmaßstäben und einer Empfehlung (Zeugnis annehmen / nachverhandeln / anfordern falls fehlt).
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 16 BBiG** — Anspruch des Auszubildenden auf qualifiziertes Zeugnis nach Beendigung der Ausbildung
-- **§ 13 BBiG** — Pflichten des Auszubildenden; Pflichtverletzungen dürfen nur bei tragfähiger Tatsachengrundlage in die Beurteilung einfließen
+- **Paragraf 16 BBiG** — Anspruch des Auszubildenden auf qualifiziertes Zeugnis nach Beendigung der Ausbildung
+- **Paragraf 13 BBiG** — Pflichten des Auszubildenden; Pflichtverletzungen dürfen nur bei tragfähiger Tatsachengrundlage in die Beurteilung einfließen
 - Allgemeine Zeugnisgrundsätze zu Wahrheit, Klarheit und Wohlwollen sind bei Ausbildungszeugnissen entsprechend zu berücksichtigen
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage — vor der Azubi-Analyse
 
-1. Abschlusszeugnis oder Zwischenzeugnis (§ 16 Abs. 2 BBiG)?
+1. Abschlusszeugnis oder Zwischenzeugnis (Paragraf 16 Abs. 2 BBiG)?
 2. Duales Ausbildungsverhältnis? → Berufsschulbewertung vorhanden?
-3. Ausbildung abgebrochen? → Nur Anspruch auf einfaches Zeugnis nach § 16 Abs. 1 BBiG
+3. Ausbildung abgebrochen? → Nur Anspruch auf einfaches Zeugnis nach Paragraf 16 Abs. 1 BBiG
 4. Beendigungsgrund: Bestehen der Prüfung oder Kündigung/Aufhebung?
+
+
+## Leitentscheidungs-Anker (Notenstufen & Beweislast)
+
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

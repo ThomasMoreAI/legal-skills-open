@@ -1,11 +1,11 @@
 ---
 name: aussenwirtschaft-bafa-genehmigungen
 title: BAFA-Genehmigungen und Anfragen
-description: BAFA-Genehmigungsverfahren für Exporte und Dienstleistungen mit Genehmigungspflicht. Anwendungsfall Exporteur braucht BAFA-Ausfuhrgenehmigung für gueterlistenpflichtige Ware oder Technologie. Normen § 8 AWG Genehmigungspflicht EU-Dual-Use-Verordnung 2021/821 AWV §§ 8 ff. BAFA-Merkblatt. Prüfraster BAFA-Anträge Nullbescheide Auskuenfte ELAN-K2-Vorgaenge Empfaengeranfragen Rückfragen. Output Vollständige Antragsunterlagen mit Antragsbeschreibung Endverwendungserklärung und Vorgangsdokumentation. Abgrenzung zu aussenwirtschaft-exportkontrolle-dual-use und aussenwirtschaft-gueterlisten-klassifizierung.
+description: 'Für BAFA-Genehmigungen und Anfragen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-bafa-genehmigungen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sanctions
@@ -50,6 +50,14 @@ Dieser Skill übersetzt Prüfungsergebnisse in behördenfähige Anträge und Anl
 - behörden- oder mandantenfähiger Entwurf
 - Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Typische Fehler vermeiden
 
 - Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
@@ -68,10 +76,6 @@ Kläre vor Antragstellung:
 3. Wer ist Antragsteller — Ausfuehrer i.S.v. Art. 2 Nr. 3 VO (EU) 2021/821 oder Vermittler?
 4. Liegt eine End-User-Erklaerung (EUE/EUC) und Import-Zertifikat des Endverwenders vor?
 5. Welche Bearbeitungszeit ist angesichts des Liefertermins realistisch (BAFA: 4-8 Wochen bei Einzelgenehmigung)?
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette BAFA-Genehmigungen
 
@@ -118,3 +122,5 @@ Antragsteller: [FIRMA]  BAFA-Az.: [FALLS BEKANNT]
    Liefertermin Mandant: [DATUM]
    Risiko Terminueberschreitung: [ ] Gering / [ ] Hoch — Massnahme: [...]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

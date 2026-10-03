@@ -10,8 +10,8 @@ Jurisdiction: `fr` · Practice: `employment` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`Convention IDCC [numéro] — [Nom de la convention]`](skills/convention-zevra-tech/) | À utiliser quand l'utilisateur pose une question sur une convention collective française identifiée par son… |
-| [`Import: Notification de Licenciement (France)`](skills/import-notification-licenciement-sboghossian/) | Use when migrating a French-law dismissal notification (lettre de licenciement) drafting or review skill into… |
+| [`Convention IDCC [numéro] — [Nom de la convention]`](skills/convention-zevra-tech/) | À utiliser quand l'utilisateur pose une question sur une convention collective française identifiée par… |
+| [`Import: Notification de Licenciement (France)`](skills/import-notification-licenciement-sboghossian/) | Use when migrating a French-law dismissal notification (lettre de licenciement) drafting or review skill… |
 
 ## Cold-start context
 

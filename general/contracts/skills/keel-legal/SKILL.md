@@ -5,7 +5,7 @@ description: Draft or review legal ops documents — NDA, MSA, SaaS agreement re
 author: tonone-ai
 author_url: https://github.com/tonone-ai/tonone/tree/main/team/keel/skills/keel-legal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -111,3 +111,5 @@ For NDA drafting requests, produce a clean mutual NDA template with:
 ## Delivery
 
 Produce the complete review output as a structured Markdown document. RED items listed first. GREEN items summarized at the end as "no action required." Every finding includes a specific recommended action.
+
+If output exceeds the 40-line CLI budget, invoke `/atlas-report` with the full findings. The HTML report is the output. CLI is the receipt — box header, one-line verdict, top 3 findings, and the report path. Never dump analysis to CLI.

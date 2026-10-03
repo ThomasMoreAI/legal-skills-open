@@ -1,0 +1,90 @@
+---
+name: cease-and-abmahnung-pruefen-datenbankvergleich
+title: Cease-and-Desist-Letter (Abmahnung) im Datenbankrecht — § 97a UrhG
+description: 'Für Cease-and-Desist-Letter (Abmahnung) im Datenbankrecht — Paragraf 97a UrhG: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenbankrecht/skills/cease-and-abmahnung-pruefen-datenbankvergleich
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Cease-and-Desist-Letter (Abmahnung) im Datenbankrecht — § 97a UrhG
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UrhG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Datenbankbetreiber hat Nachweise für systematisches automatisierten Datenabruf durch einen Wettbewerber und will eine förmliche Abmahnung mit Unterlassungsforderung senden.
+- Unternehmen hat eine Abmahnung wegen behaupteter Datenbankrechts-Verletzung erhalten und muss kurzfristig entscheiden, ob es die Unterlassungserklärung unterzeichnet.
+- Anwalt will überprüfen, ob eine erhaltene Abmahnung den gesetzlichen Anforderungen des § 97a UrhG entspricht und ob die Kostenerstattungspflicht besteht.
+
+## Erste Schritte
+
+1. Verletzungshandlung klar benennen: Welche konkreten Handlungen verletzen welche Normen (§ 87b UrhG) — Entnahme welcher Teile, durch wen, wann?
+2. Unterlassungsforderung formulieren: Hinreichend bestimmt und vollständig — alle Verletzungshandlungen und Varianten erfassen.
+3. Fristsetzung bestimmen: Üblicherweise kurze Frist (3-7 Tage) für Unterzeichnung der Unterlassungserklärung.
+4. Kostenerstattungsanspruch prüfen: § 97a Abs. 3 UrhG — Kostenerstattung für Abmahnanwaltsgebühren bei Nicht-Verbraucher-Geschäftsbeziehung.
+5. Missbrauchsprüfung vornehmen: § 97a Abs. 4 UrhG — unberechtigte Abmahnung kann Schadensersatzpflicht des Abmahnenden begründen.
+6. Unterlassungserklärung entgegennehmen und prüfen: Ist sie ausreichend weit, zeitlich unbegrenzt und enthält sie eine angemessene Vertragsstrafe?
+
+## Rechtsrahmen
+
+- § 97a Abs. 1 UrhG: Abmahnung als Voraussetzung für Kostenerstattung — muss hinreichend deutlich sein.
+- § 97a Abs. 3 UrhG: Ersatz der Rechtsanwaltsgebühren bei berechtigter Abmahnung — gilt auch im Datenbankrecht.
+- § 97a Abs. 4 UrhG: Kostenerstattung für unberechtigte Abmahnung beim Abgemahnten.
+- § 87b UrhG: Verletzungstatbestand — Grundlage für den Unterlassungsanspruch in der Abmahnung.
+- § 97 Abs. 1 UrhG: Unterlassungsanspruch bei Datenbankherstellerrechts-Verletzung.
+- § 339 BGB: Vertragsstrafe in Unterlassungserklärung — Höhe und Bestimmtheit.
+
+## Prüfraster
+
+- Ist die Verletzungshandlung in der Abmahnung konkret und vollständig beschrieben?
+- Enthält die Abmahnung eine klare Unterlassungsforderung mit Fristsetzung?
+- Ist der Abmahnende berechtigt — ist er tatsächlich Inhaber des Datenbankherstellerrechts (§ 87a Abs. 2 UrhG)?
+- Entspricht der Kostenerstattungsanspruch dem § 97a Abs. 3 UrhG — liegt ein berechtigtes Interesse vor?
+- Besteht Gefahr einer unberechtigten Abmahnung (§ 97a Abs. 4 UrhG) — muss der Abgemahnte Gegenabmahnung aussprechen?
+- Ist die angeforderte Unterlassungserklärung ausreichend weit und zeitlich unbegrenzt?
+- Ist die Vertragsstrafe in der beigefügten Unterlassungserklärung angemessen und vollstreckbar?
+
+## Typische Fallstricke
+
+- Zu eng gefasste Unterlassungserklärung des Abgemahnten beseitigt nicht alle Verletzungsformen — Gläubiger sollte ablehnen und klagen.
+- Unberechtigte Abmahnung (kein tatsächliches Herstellerrecht) löst Kostenerstattung zugunsten des Abgemahnten aus (§ 97a Abs. 4 UrhG).
+- Abmahnung zu kurzfristig (weniger als 3 Tage Frist) kann als unzumutbar angesehen werden.
+- Wenn Verletzung bereits eingestellt wurde, besteht keine Wiederholungsgefahr mehr — Unterlassungsanspruch entfällt.
+- Massenabmahnungen ohne konkrete Verletzungsanalyse sind rechtsmissbräuchlich nach § 8c UWG (analog).
+
+## Output
+
+- Abmahnschreiben-Vorlage für § 87b UrhG-Verletzung (vollständige Pflichtangaben)
+- Unterlassungserklärung-Vorlage (mit Vertragsstrafe)
+- Gegenabmahnung bei unberechtigter Abmahnung (§ 97a Abs. 4 UrhG)
+- Abmahnung-Prüfcheckliste für Empfänger (Berechtigung, Vollständigkeit, Fristen)
+- Antwortschreiben auf Abmahnung (Unterzeichnung / Widerspruch / modifizierte Erklärung)
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Quellen
+
+- [§ 97a UrhG — dejure.org](https://dejure.org/gesetze/UrhG/97a.html)
+- [§ 97 UrhG — dejure.org](https://dejure.org/gesetze/UrhG/97.html)
+- [§ 87b UrhG — dejure.org](https://dejure.org/gesetze/UrhG/87b.html)
+- [§ 339 BGB — dejure.org](https://dejure.org/gesetze/BGB/339.html)
+- [§ 87a UrhG — dejure.org](https://dejure.org/gesetze/UrhG/87a.html)
+- [RL 96/9/EG — EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31996L0009)

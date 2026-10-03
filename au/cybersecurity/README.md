@@ -8,8 +8,8 @@ Jurisdiction: `au` · Practice: `cybersecurity` · Skill language varies per ski
 
 | Skill | What it does |
 |---|---|
-| [`APRA CPS 234 Expert`](skills/au-apra-cps-234-expert/) | APRA CPS 234 expert for Australian prudential information security. Reference-depth framework plugin with… |
-| [`Australian Information Security Manual (ISM) Skill`](skills/ism/) | Expert Australian Information Security Manual (ISM) advisor for government entities and their supply chains.… |
+| [`APRA CPS 234 Expert`](skills/au-apra-cps-234-expert/) | APRA CPS 234 expert for Australian prudential information security. Reference-depth framework plugin… |
+| [`Australian Information Security Manual (ISM) Skill`](skills/ism/) | Expert Australian Information Security Manual (ISM) advisor for government entities and their supply… |
 
 ## Cold-start context
 

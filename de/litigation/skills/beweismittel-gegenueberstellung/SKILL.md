@@ -1,11 +1,11 @@
 ---
 name: beweismittel-gegenueberstellung
 title: Beweismittel — Gegenüberstellung
-description: 'Anwalt will Beweisangebote aller Parteien uebersichtlich gegenüberstellen: Zeugen Urkunden Sachverständige Parteivernehmung Augenschein. Normen §§ 355-455 ZPO Sachverständigenbeweis Zeugenbeweis. Prüfraster Vollständigkeit Parteizuordnung Streitpunkt-Zuordnung Fundstellen. Output tabellarische Beweismittel-Übersicht. Abgrenzung zu parteivortrag-gegenüberstellung (Sachverhalt) und rechtsargumente-gegenüberstellung (Recht).'
+description: 'Für Beweismittel — Gegenüberstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/beweismittel-gegenueberstellung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Beweismittel — Gegenüberstellung
 
-## Zweck
+## Arbeitsweg
 
-Die Beweismitteltabelle listet alle in den Schriftsätzen angebotenen Beweismittel beider Parteien auf und ordnet sie den jeweiligen Beweisthemen zu. Sie ermöglicht einen schnellen Überblick über die Beweissituation.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Erstellung
 
@@ -33,13 +37,6 @@ Die Beweismitteltabelle listet alle in den Schriftsätzen angebotenen Beweismitt
 - § 415 ff. ZPO — Urkundenbeweis (öffentlich/privat, Echtheit, Beweiskraft)
 - § 445 ff. ZPO — Parteivernehmung (nur bei Unvollständigkeit anderer Beweismittel)
 
-## Rechtsprechung zum Beweisrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Tabellenstruktur
 
 ```markdown
@@ -89,3 +86,5 @@ Soweit Beweismittel vom Gericht als verspätet zurückgewiesen wurden, werden si
 - [ ] Keine Bewertung der Beweiskraft?
 - [ ] Präkludierte Beweismittel gekennzeichnet?
 - [ ] Beweisbeschluss des Gerichts (§ 359 ZPO) berücksichtigt?
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

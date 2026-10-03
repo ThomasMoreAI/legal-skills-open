@@ -1,0 +1,141 @@
+---
+name: dokumente-rendern-docx-pdf
+title: Dokumente rendern - DOCX und PDF im offiziellen HdR-Layout
+description: 'Für Dokumente rendern - DOCX und PDF im offiziellen HdR-Layout: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/dokumente-rendern-docx-pdf
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Dokumente rendern - DOCX und PDF im offiziellen HdR-Layout
+
+## Normenanker
+
+Arbeitsfokus: **Dokumente rendern - DOCX und PDF im offiziellen HdR-Layout**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `Art. 20 Abs. 3 GG` — Gesetzesbindung.
+- `Art. 76 Abs. 1 GG` — Gesetzesinitiative.
+- `Art. 77 Abs. 1 GG` — Gesetzesbeschluss.
+- `Art. 80 Abs. 1 GG` — Verordnungsermächtigung.
+- `Art. 84 Abs. 1 GG` — Verwaltungsvollzug.
+- `§ 42 Abs. 1 GGO` — Gesetzgebungsvorhaben.
+- `§ 43 Abs. 1 GGO` — Ressortabstimmung.
+- `§ 44 Abs. 1 GGO` — Gesetzesfolgen.
+- `§ 45 GGO` — Beteiligung.
+- `§ 46 GGO` — Rechtsförmlichkeit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Wann verwenden
+
+Dieser Skill wird **am Ende** des Legistik-Workflows aufgerufen, wenn aus den strukturierten Markdown-Bausteinen der vorgelagerten Skills (Auftrag, Normentext, Begründung, Synopse) ein **lieferfähiges Dokument** im offiziellen Erscheinungsbild erstellt werden soll.
+
+Vier Hauptformate:
+
+1. **Referentenentwurf** (ministeriell, serifenlos Arial 11pt, "der Bundesregierung" im Kopf, Bearbeitungsstand-Hinweis, A-F-Vorblatt, Artikelgesetz, Begründung Teil A und B)
+2. **Gesetzesentwurf der Bundesregierung** (BT-Drucksachen-Look, Times New Roman 11pt, "Drucksache XX/YYYY", "Deutscher Bundestag - XX. Wahlperiode", Sperrsatz-Überschriften, Anschreiben des Bundeskanzlers)
+3. **Parlamentarische Vorlage** (Gesetzentwurf aus der Mitte, Änderungsantrag, Antrag oder Entschließungsantrag; BT- oder Landtagsformat nach Verfahrensstand)
+4. **Formulierungshilfe** (fachliche Zulieferung, kuerzer, ohne Drucksachen-Mantel, eingerueckter Änderungstext)
+
+Plus Hilfsformate:
+
+5. **Spaltensynopse** dreispaltig (geltend / Änderung / Begründung)
+6. **Lesefassung konsolidiert** (Artikelgesetz nach Inkrafttreten)
+7. **Kabinettsmappe-Deckblatt**
+
+## Layout-Eckdaten nach Handbuch der Rechtsförmlichkeit
+
+### Referentenentwurf (ministerieller Hausstil)
+
+- Schrift: **Arial 11pt** (serifenlos)
+- Zeilenabstand 1.15
+- Rand: links 2.5 cm, rechts 2.0 cm, oben/unten 2.0 cm
+- Seitenkopf: zentriert `- N -` (Seitennummer in Gedankenstrichen)
+- Fußzeile: leer oder Bearbeitungsstand-Datum
+- Kopfzeile Seite 1: rechtsbuendig "Bearbeitungsstand: TT.MM.JJJJ HH:MM"
+- Titel zentriert fett: "Referentenentwurf"
+- Untertitel zentriert: "des Bundesministeriums für ..."
+- Haupttitel zentriert fett: "Entwurf eines Gesetzes zur ..."
+- Kurztitel in Klammern: "(Kurzbezeichnung - Abkürzung)"
+- Datumsplatzhalter "Vom ..."
+
+### BT-Drucksachen-Layout (Gesetzentwurf der Bundesregierung)
+
+- Schrift: **Times New Roman 11pt** (Serife)
+- Zeilenabstand 1.15
+- Seitenkopf wechselnd (gerade/ungerade): links/rechts "Drucksache XX/YYYY" bzw. "Deutscher Bundestag - XX. Wahlperiode", Mitte `- N -`
+- Sperrsatz für Hauptüberschriften: `I n h a l t s u e b e r s i c h t`
+- Anschreiben Bundeskanzler in Briefkopf-Format
+- Anlagen: Begründung (Anlage 1), Stellungnahme NKR (Anlage 2), Stellungnahme Bundesrat (Anlage 3), Gegenaeusserung (Anlage 4)
+
+### Gemeinsame Strukturen
+
+- Vorblatt: A. Problem und Ziel - B. Lösung - C. Alternativen - D. Haushaltsausgaben ohne Erfüllungsaufwand - E. Erfüllungsaufwand (E.1 Bürger - E.2 Wirtschaft - E.3 Verwaltung) - F. Weitere Kosten
+- Artikelgesetz: "Artikel 1 (Änderung des XYZ-Gesetzes)" fett, Einleitungssatz mit Stammgesetz + letzte Änderung BGBl-Fundstelle
+- Gliederungsebenen in repo-internen Arbeitsdokumenten und Testakten: ausschließlich dezimal (1., 1.1, 1.1.1). Amtliche Gliederungen aus Bundestags- oder Ministerialvorlagen nur dann mit Buchstaben übernehmen, wenn sie als Originalzitat oder amtlicher Layoutbestandteil kenntlich bleiben.
+- Änderungsbefehle: Anführungszeichen kursiv: *"... wird durch ... ersetzt"*
+- Absatzbezeichnung in Klammern: (1), (2), (3)
+- Begründung Teil A (Allgemeiner Teil) in der Arbeitsfassung dezimal gliedern: 1. Zielsetzung und Notwendigkeit - 2. Wesentlicher Inhalt - 3. Alternativen - 4. Gesetzgebungskompetenz - 5. Vereinbarkeit mit EU-Recht - 6. Gesetzesfolgen - 7. Befristung und Evaluierung.
+- Begründung Teil B (Besonderer Teil): "Zu Artikel X" - "Zu Nummer Y" - "Zu Buchstabe Z"
+
+## Eingabeschema
+
+Der Eingabeordner enthält:
+
+```
+projekt/
+ metadaten.yaml # Titel, Kurztitel, Federfuehrung, Bearbeitungsstand, Drucksachennummer, Wahlperiode
+ vorblatt.md # A bis F mit den ueblichen Abschnitten
+ gesetzestext.md # Artikel 1 ... Artikel N (Inkrafttreten)
+ begruendung-a.md # 1 bis 7
+ begruendung-b.md # Zu Artikel X / Zu Nummer Y
+ synopse.csv # Spalten: geltend | aenderung | begruendung
+ anlagen/ # NKR, Bundesrat, Gegenaeusserung (optional, als md)
+```
+
+## Beispielaufruf
+
+```bash
+python3 skills/dokumente-rendern-docx-pdf/assets/render.py \
+ --format referentenentwurf \
+ --eingabe testakten/legistik-pflichtpostfach/ \
+ --ausgabe testakten/legistik-pflichtpostfach/output/
+```
+
+Ausgabe: `Referentenentwurf-Pflichtpostfachgesetz.docx` (und `.pdf` wenn `soffice` installiert).
+
+## Qualitätsprüfung vor Abgabe
+
+- Schriftart und -groesse korrekt
+- Sperrsatz nur für Hauptüberschriften ("Inhaltsübersicht", "Begründung")
+- Änderungsbefehle durchgaengig kursiv und in Anführungszeichen
+- Vorblatt vollständig A-F
+- Begründung Teil A vollständig I-VII
+- Kopf-/Fußzeile auf jeder Seite
+- Keine überschießenden Begriffe in der Sache (Goldplating siehe Skill goldplating-vermeiden)
+- Keine Mehrwert-Steuer-Komma-Zahlen im Fliesstext - immer Punkt verwenden oder ausschreiben
+
+## Verwandte Skills
+
+- `referentenentwurf-bauen` - liefert die Markdown-Bausteine für das Vorblatt und den Artikeltext
+- `gesetzesentwurf-kabinett` - liefert die Kabinettsmappe als zusätzliches Deckblatt
+- `formulierungshilfe-bauen` - liefert Formulierungshilfe, Änderungsantrag, Gesetzentwurf aus der Mitte, Antrag oder Entschließungsantrag
+- `synopse-erstellen` - liefert die dreispaltige CSV für die Synopse
+- `begruendung-allgemein-und-besonders` - liefert die Begründung Teil A und Teil B
+
+## Technische Standards & Qualitätsanforderungen
+
+- DOCX ist Arbeits- und Austauschformat; PDF ist Liefer- und Lesefassung. Wenn ein bestimmtes Portal, Parlament oder Haus eine andere Vorgabe macht, geht diese vor.
+- Für Bundesentwürfe HdR, GGO und Vorgaben der E-Gesetzgebung beachten; für Länder die jeweilige Landesvorlage, Landtagsvorgaben und Verkündungsregeln abfragen.
+- Bei PDF-Ausgabe Sichtprüfung durchführen: Seitenköpfe, Drucksachennummer, Wahlperiode, Sperrsatz, Seitenumbruch, Tabellenbreiten, Fußnoten und Anlagenverzeichnis.
+- Keine gerichtlichen ERVV-Anforderungen ungeprüft auf Gesetzgebungsdokumente übertragen. Nur verwenden, wenn der konkrete Abgabeweg tatsächlich elektronischer Rechtsverkehr ist.
+- Bei Archiv- oder Veröffentlichungsanforderungen prüfen, ob PDF/A, Barrierefreiheit, maschinenlesbare XML-Fassung oder zusätzliche Metadaten verlangt sind.
+
+## Zentrale Normen und Standards
+
+HdR — GGO — Art. 76-78 GG — GO-BT oder Landtags-GO — Landesverfassung und Verkündungsrecht — LegalDocML.de/eNorm soweit gefordert — PDF/A-Standard ISO 19005 nur bei konkreter Archivvorgabe

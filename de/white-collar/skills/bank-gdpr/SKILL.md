@@ -1,0 +1,95 @@
+---
+name: bank-gdpr
+title: BaFin-Prüfungsfeststellungen und Bankregulatorik
+description: 'Für BaFin-Prüfungsfeststellungen und Bankregulatorik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internal-investigations-praxis/skills/bank-gdpr
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: white-collar
+language: de
+---
+
+# BaFin-Prüfungsfeststellungen und Bankregulatorik
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; StPO §§ 53, 97, 102, 110, 136, 137, 152, 153a, BGB §§ 280, 626, BRAO § 43a, GwG, AntiDopG, HinSchG; StPO; HinSchG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtlicher Rahmen
+
+Die BaFin hat weitgehende Aufsichts- und Eingriffsbefugnisse nach dem KWG ([gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/)), dem WpHG, dem GwG und dem VAG. Prüfungsfeststellungen der BaFin verpflichten das betroffene Institut zur Mängelbeseitigung (§ 25a Abs. 1 KWG: Anforderungen an die ordnungsgemäße Geschäftsorganisation, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/__25a.html)) und können Anordnungen nach § 45 KWG (Maßnahmen zur Verbesserung der Eigenkapital- und Liquiditätslage) oder § 46 KWG (Maßnahmen bei Gefahr) auslösen. Nicht-Behebung kann zu Abberufung von Organmitgliedern führen (§ 36 KWG).
+
+## Ziel dieses Skills
+
+Strukturiert die Reaktion auf BaFin-Prüfungsfeststellungen: Internal Investigation als Reaktionsmechanismus, Maßnahmenplanung und behördliche Kommunikation.
+
+## Arbeitsprogramm
+
+### 1. Kategorisierung der Prüfungsfeststellung
+- **Kritische Feststellung** (MaRisk/MaComp-Verstöße): systemic deficiencies in Risikomanagement, IKS, Compliance.
+- **Erhebliche Feststellung**: Einzelverstöße gegen WpHG, GwG, MiFID II.
+- **Anzeigepflichtige Ereignisse**: §§ 24, 25a KWG (z. B. wesentliche Änderungen der Geschäftsorganisation).
+- **Schwere Verstöße**: Straftat-Verdacht (§ 25h KWG: Pflicht zur Verdachtsmeldung, [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/__25h.html)).
+
+### 2. Sofortmaßnahmen nach Prüfungsfeststellung
+- Feststellungs-Protokoll vollständig auswerten; alle Mängel inventarisieren.
+- Interne Eskalation: Vorstand, Aufsichtsrat, Prüfungsausschuss informieren.
+- Rechtsberater hinzuziehen: wann ist eine Stellungnahme gegenüber BaFin erforderlich?
+- Fristen prüfen: BaFin setzt regelmäßig Fristen zur Mängelbeseitigung; Fristversäumnisse können Anordnungen auslösen.
+
+### 3. Internal Investigation als Reaktion
+- Bei Hinweisen auf individuelle Pflichtverletzungen (z. B. Händler hat interne Limits verletzt): Investigation einleiten.
+- Scope: welche Personen, welche Transaktionen, welcher Zeitraum?
+- Ergebnisse der Investigation in BaFin-Stellungnahme einbeziehen (kontrollierte Offenbarung).
+- Arbeitsrechtliche Konsequenzen nach Abschluss.
+
+### 4. MaRisk und MaComp-Anforderungen
+- MaRisk (Mindestanforderungen an das Risikomanagement, Bundesbank/BaFin-Rundschreiben): IKS, Risikosteuerung, Compliance-Funktion.
+- MaComp (Mindestanforderungen an Compliance, BaFin-Rundschreiben): Wertpapierdienstleistungsunternehmen.
+- AT 9 MaRisk: Outsourcing-Kontrollen; bei Feststellungen zu Drittparteien.
+- Compliance-Funktion (§ 25a Abs. 1 S. 3 Nr. 3c KWG): unabhängig, ressourcenstark, direkter Zugang zum Vorstand.
+
+### 5. GwG-Feststellungen
+- § 25h KWG: Verdachtsmeldepflicht bei Geldwäsche-Hinweisen aus BaFin-Prüfung.
+- GwG §§ 43, 44: Pflicht zur Meldung an FIU (Financial Intelligence Unit).
+- Sonderprüfungen: BaFin kann bei konkretem GwG-Verdacht Sonderprüfer (§ 44 KWG) einsetzen.
+
+### 6. Kommunikation mit BaFin
+- Stellungnahme: sachlich, vollständig, kein Herunterspielen von Mängeln.
+- Maßnahmenplan: konkrete Schritte mit Verantwortlichen und Fristen; BaFin erwartet Umsetzungsberichte.
+- Eskalation: wenn BaFin eine formelle Anordnung erwägt, sofort externe Anwälte einschalten.
+- Anwaltsgeheimnis: Stellungnahme-Entwürfe über Anwalt kommunizieren, um Privilege zu wahren.
+- Self-Reporting: bei eigenständig entdeckten Verstößen proaktive Meldung vor BaFin-Entdeckung ([bafin.de](https://www.bafin.de/)).
+
+### 7. Organhaftung und persönliche Konsequenzen
+- § 36 KWG: BaFin kann Abberufung eines Geschäftsleiters verlangen, wenn er für Mängel verantwortlich ist.
+- § 56 KWG: Bußgelder für Organmitglieder bei schwerwiegenden Verstößen.
+- Eine interne Organhaftung setzt konkrete Pflichtverletzung, Verschulden, Schaden und Kausalität voraus; bei einer Aktiengesellschaft die Darlegungs- und Beweislastregel des Paragraf 93 Absatz 2 Satz 2 AktG gesondert prüfen.
+- D&O-Versicherung: Deckungsschutz für Untersuchungskosten und Abwehrmaßnahmen prüfen.
+
+## Normenregister
+
+| Norm | Inhalt | Quelle |
+|---|---|---|
+| § 25a KWG | Ordnungsgemäße Geschäftsorganisation | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/__25a.html) |
+| § 36 KWG | Abberufung Geschäftsleiter | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/__36.html) |
+| § 25h KWG | Verdachtsmeldung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/kredwg/__25h.html) |
+| § 43 GwG | Geldwäsche-Verdachtsmeldung | [gesetze-im-internet.de](https://www.gesetze-im-internet.de/gwg_2017/__43.html) |
+| BaFin | Aufsichtspraxis | [bafin.de](https://www.bafin.de/) |
+
+## Ausgabeformate
+
+- **Feststellungs-Inventar** (Kritische / erhebliche / sonstige Mängel)
+- **Maßnahmenplan** mit Verantwortlichen und Fristen
+- **BaFin-Stellungnahmen-Template**
+- **GwG-Verdachtsmeldungs-Prüfcheckliste**
+- **Organhaftungs-Risikoanalyse** (§ 36 KWG, D&O)
+
+Rechtsprechungszitate nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle.

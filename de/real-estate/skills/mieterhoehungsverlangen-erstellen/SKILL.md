@@ -1,18 +1,35 @@
 ---
 name: mieterhoehungsverlangen-erstellen
 title: Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung)
-description: Vermietersicht — verfasse ein Mieterhoehungsverlangen auf ortsuebliche Vergleichsmiete (§ 558a BGB) in Textform mit ordnungsgemäßer Begründung (Mietspiegel Sachverständigengutachten oder drei Vergleichswohnungen). Prüfroutine deckt Textform Wartefrist (fuenfzehn Monate seit Einzug oder letzter Erhoehung) Kappungsgrenze (zwanzig Prozent oder fuenfzehn Prozent in Spannungsgebieten) Zustimmungsfrist (zwei Monate plus Ablauf des Kalendermonats) und Begründungsmittel ab. Spiegelt den Prüf-Skill `mieterhoehung-prüfen-widersprechen` aus der Mietersicht. Erzeugt fertiges Schreiben mit Disclaimer.
+description: 'Für Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mieterhoehungsverlangen-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
 language: de
+sources:
+- title: Mietspiegel quellen
+  path: references/mietspiegel-quellen.md
 ---
 
 # Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Disclaimer (Schlüsselstelle)
 
@@ -83,22 +100,18 @@ Erzeuge ein Schreiben mit:
 
 ## Hinweis zur Mietpreisbremse
 
-In Gebieten mit Mietpreisbremse darf eine Erhöhung bei bestehendem Mietverhältnis grundsaetzlich erfolgen — die Mietpreisbremse begrenzt nur die Neuvermietung. Aber: bei Neuvermietung ist eine Miete über ortsübliche Vergleichsmiete plus zehn Prozent unzulässig (§ 556d BGB). Bei Folgeerhöhungen im laufenden Verhältnis gilt nur die Kappungsgrenze.
+In Gebieten mit Mietpreisbremse darf eine Erhöhung bei bestehendem Mietverhältnis grundsätzlich erfolgen — die Mietpreisbremse begrenzt nur die Neuvermietung. Aber: bei Neuvermietung ist eine Miete über ortsübliche Vergleichsmiete plus zehn Prozent unzulässig (§ 556d BGB). Bei Folgeerhöhungen im laufenden Verhältnis gilt nur die Kappungsgrenze.
 
 ## Aktuelle Rechtsprechung — Leitsaetze (Stand 05/2026, verifiziert dejure.org)
 
-- **BGH 18.11.2020, VIII ZR 123/20** (Berliner Mietendeckel): § 556d BGB / Mietpreisbremse — unionsrechtskonforme Auslegung; Vermieter muss bei Verstoss zurueckzahlen. Quelle: dejure.org/2020,42367.
+- **Berliner Mietendeckel nicht als BGH-Mietrecht zitieren:** Die Kompetenzfrage wurde durch BVerfG, Beschluss vom 25.03.2021 - 2 BvF 1/20, entschieden. Für Mietpreisbremse/Rückzahlung nach §§ 556d ff. BGB immer eine gesondert verifizierte BGH-Entscheidung mit Datum und Aktenzeichen heranziehen.
 - **BVerfG 25.03.2021, 2 BvF 1/20, 2 BvL 4/20, 2 BvL 5/20** (Berliner Mietendeckel-Beschluss): Landesrechtlicher Mietendeckel (Berlin) ist mangels Gesetzgebungskompetenz des Landes verfassungswidrig (Bundesrecht abschliessend). Quelle: bundesverfassungsgericht.de / dejure.org/2021,7050.
 - **BGH 28.04.2021, VIII ZR 22/20**: Qualifizierter Mietspiegel — Anforderungen an wissenschaftliche Erstellung; Erschuetterung der Vermutungswirkung nur bei substantiierten Maengeln des Mietspiegel-Erstellungsverfahrens. Quelle: dejure.org/2021,15412.
-- **BGH 18.03.2020, VIII ZR 64/19** (Bauwerksmaengel als Mietminderungsgrund — vor Mieterhoehungsausgleich pruefen): Erhebliche Maengel mindern auch die Bezugsbasis der Vergleichsmiete. Quelle: dejure.org/2020,4895.
-- **Gesetzeslage Mai 2026:** Bei Erstellung Stand der Mietpreisbremsen-Verordnungen der Laender pruefen; Kappungsgrenzenverordnungen je Bundesland; § 556d BGB-Verlaengerung durch Bundesgesetzgeber (Beschluss 2025 — vor Ausgabe Bundesgesetzblatt-Verifikation).
+- **BGH 18.03.2020, VIII ZR 64/19** (Bauwerksmaengel als Mietminderungsgrund — vor Mieterhoehungsausgleich prüfen): Erhebliche Maengel mindern auch die Bezugsbasis der Vergleichsmiete. Quelle: dejure.org/2020,4895.
+- **Gesetzeslage Mai 2026:** Bei Erstellung Stand der Mietpreisbremsen-Verordnungen der Länder prüfen; Kappungsgrenzenverordnungen je Bundesland; § 556d BGB-Verlaengerung durch Bundesgesetzgeber (Beschluss 2025 — vor Ausgabe Bundesgesetzblatt-Verifikation).
 
 Vor Zitieren weiterer Entscheidungen Live-Verifikation per dejure.org / bundesgerichtshof.de mit Datum und Aktenzeichen.
 
 ## Paragrafenkette
 
 §§ 558, 558a, 558b BGB — Begruendungsmittel, Wartefrist, Kappungsgrenze
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

@@ -1,11 +1,11 @@
 ---
 name: anwendungsfall-triage
 title: Datenschutz-Triage neuer Verarbeitungsvorgänge
-description: 'Datenschutzrechtlichen Sachverhalt einordnen und Bearbeitungsroute bestimmen. Art. 2 3 DSGVO Anwendungsbereich § 1 BDSG. Prüfraster: Anwendungsbereich personenbezogene Daten Verantwortlicher Auftragsverarbeiter Drittland. Output: Triage-Memo Bearbeitungsroute Normenmap. Abgrenzung: Einstieg und Triage; Detailarbeit in Spezialist-Skills.'
+description: 'Für Datenschutz-Triage neuer Verarbeitungsvorgänge: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/anwendungsfall-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,20 +14,18 @@ language: de
 
 # Datenschutz-Triage neuer Verarbeitungsvorgänge
 
-## Zweck
+## Direktstart: lesen, entscheiden, liefern
 
-Diese Skill beantwortet die Frage vor jeder Datenschutz-Folgenabschätzung (DSFA):
-Ist eine Prüfung erforderlich — und wenn ja, welche Art?
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
 
-Die Triage ist schneller als die DSFA-Generierung, aber ihr vorgelagert. Sie erstellt
-die Folgenabschätzung nicht, sondern bestimmt, ob sie geboten ist.
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
 
-**Vier Klassifikationen:**
-- **FREIGABE** — Keine gesonderte Prüfung. Standardschutzmaßnahmen gelten.
-- **DSA ERFORDERLICH** — Datenschutzprüfung vor oder begleitend zum Einsatz.
-- **DSFA PFLICHT** — Art. 35 DSGVO zwingend; DSB-Einbindung erforderlich.
-- **STOPP** — Verarbeitung widerspricht Datenschutzrichtlinie oder entbehrt jeder
-  Rechtsgrundlage; Neugestaltung vor Fortführung zwingend.
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
 ## Eingaben
 
@@ -43,41 +41,37 @@ die Folgenabschätzung nicht, sondern bestimmt, ob sie geboten ist.
 ### Kernvorschriften
 
 - **DSGVO:** Art. 5 (Grundsätze), Art. 6 (Rechtsgrundlagen), Art. 9 (besondere
-  Kategorien), Art. 13/14 (Informationspflichten), Art. 17 (Löschrecht), Art. 22
-  (automatisierte Entscheidungen), Art. 25 (Privacy by Design/Default), Art. 28 (AVV),
-  Art. 30 (Verarbeitungsverzeichnis), Art. 32 (TOM), Art. 35 (DSFA), Art. 44 ff.
-  (Drittlandtransfer).
+ Kategorien), Art. 13/14 (Informationspflichten), Art. 17 (Löschrecht), Art. 22
+ (automatisierte Entscheidungen), Art. 25 (Privacy by Design/Default), Art. 28 (AVV),
+ Art. 30 (Verarbeitungsverzeichnis), Art. 32 (TOM), Art. 35 (DSFA), Art. 44 ff.
+ (Drittlandtransfer).
 - **BDSG:** § 22 (Gesundheits-/Sozialdaten), § 26 (Beschäftigtendatenschutz), § 38
-  (betrieblicher DSB).
+ (betrieblicher DSB).
 - **TDDDG (ehem. TTDSG):** §§ 24 ff. — Einwilligung für Cookies/Endgerätezugriffe.
 - **Art. 35 Abs. 4 DSGVO** i. V. m. DSK-Positivliste — nationale Pflichttatbestände.
 
 ### Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  — Ungültigkeit EU-US-Privacy-Shield; Standardvertragsklauseln erfordern Transfer
-  Impact Assessment; maßgeblich für Art. 44 ff. DSGVO.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  — Automatisiertes Scoring als Entscheidung i. S. d. Art. 22 DSGVO, wenn Dritte
-  maßgeblich darauf abstellen; zentral für Triage von KI-/Scoring-Vorhaben.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  — Datenschutzrechtliche Haftung Art. 82 DSGVO; Beweislastverteilung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  *(Recht auf Vergessen I)* — Datenschutz als Teil des allgemeinen Persönlichkeitsrechts
-  (Art. 2 Abs. 1 i. V. m. Art. 1 Abs. 1 GG); Abwägung mit Kommunikationsfreiheiten.
+ — Ungültigkeit EU-US-Privacy-Shield; Standardvertragsklauseln erfordern Transfer
+ Impact Assessment; maßgeblich für Art. 44 ff. DSGVO.
+ — Automatisiertes Scoring als Entscheidung i. S. d. Art. 22 DSGVO, wenn Dritte
+ maßgeblich darauf abstellen; zentral für Triage von KI-/Scoring-Vorhaben.
+ — Datenschutzrechtliche Haftung Art. 82 DSGVO; Beweislastverteilung.
+ *(Recht auf Vergessen I)* — Datenschutz als Teil des allgemeinen Persönlichkeitsrechts
+ (Art. 2 Abs. 1 i. V. m. Art. 1 Abs. 1 GG); Abwägung mit Kommunikationsfreiheiten.
 
 ### Kommentare
 
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-  — DSFA-Pflicht, Schwellenwerte, Verhältnis zu nationalen Listen.
+ — DSFA-Pflicht, Schwellenwerte, Verhältnis zu nationalen Listen.
 - `Simitis/Hornung/Spiecker (Hrsg.), DSGVO, 2. Aufl. 2022, Art. 6 Rn. 30 ff.`
-  — Rechtsgrundlagen; berechtigtes Interesse als Auffangtatbestand.
+ — Rechtsgrundlagen; berechtigtes Interesse als Auffangtatbestand.
 - `Gola (Hrsg.), DSGVO, 3. Aufl. 2022, Art. 22 Rn. 5 ff.`
-  — Automatisierte Entscheidungsfindung; Abgrenzung zu Profiling.
+ — Automatisierte Entscheidungsfindung; Abgrenzung zu Profiling.
 - `Paal/Pauly (Hrsg.), DS-GVO BDSG, 3. Aufl. 2021, Art. 25 DSGVO Rn. 7 ff.`
-  — Privacy by Design und Privacy by Default als Entwurfspflicht.
+ — Privacy by Design und Privacy by Default als Entwurfspflicht.
 - `Ehmann/Selmayr (Hrsg.), DS-GVO, 2. Aufl. 2018, Art. 35 Rn. 25 ff.`
-  — Anwendungsbereich der DSFA; Verhältnis zu Art. 5, 25 DSGVO.
+ — Anwendungsbereich der DSFA; Verhältnis zu Art. 5, 25 DSGVO.
 
 ## Ablauf
 
@@ -96,7 +90,6 @@ Konfiguriertes Prüfraster aus CLAUDE.md lesen. Trigger erfüllt → mindestens
 
 **Pflichttatbestände (Art. 35 Abs. 3, DSK-Positivliste):**
 - Systematische automatisierte Bewertung persönlicher Aspekte inkl. Profiling mit
-  Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Umfangreiche Verarbeitung besonderer Datenkategorien (Art. 9 DSGVO).
 - Systematische umfangreiche Überwachung öffentlich zugänglicher Bereiche.
 
@@ -144,30 +137,15 @@ lit. c rechtliche Verpflichtung / lit. f berechtigte Interessen — oder "unklar
 
 Nach Klassifikation immer anbieten: "Soll ich jetzt direkt mit der DSFA beginnen?"
 
-*Bei STOPP:*  
+*Bei STOPP:*
 Konflikt benennen. Optionen: (A) Vorhaben umgestalten, (B) Richtlinie aktualisieren
 (Vereinbarkeit mit Rechtsgrundlage prüfen). Keinen Weg vorschlagen, wenn keiner besteht.
 
 ### Schritt 6: Weiterleitung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  KI-Folgenabschätzung erwägen.
+ KI-Folgenabschätzung erwägen.
 - **Beschäftigtendatenschutz:** § 26 BDSG und Mitbestimmung (§§ 87 Abs. 1 Nr. 6,
-  94 BetrVG) prüfen.
-
-## Ausgabeformat
-
-Ausgabe im Chat. Bei DSA, DSFA oder STOPP optional Protokolldatei:
-`~/datenschutz-triagen/triage-YYYY-MM-DD-[vorgang].md`.
-
-**Sammel-Triage** (Feature-Liste):
-
-| # | Vorgang | Klassifikation | Blocker |
-|---|---|---|---|
-| 1 | [Vorgang] | FREIGABE | — |
-| 2 | [Vorgang] | DSA ERFORDERLICH | Rechtsgrundlage offen; AVV fehlt |
-| 3 | [Vorgang] | DSFA PFLICHT | Art.-9-Daten, großer Umfang |
-| 4 | [Vorgang] | STOPP | Zweckbindungsverstoß |
+ 94 BetrVG) prüfen.
 
 ## Beispiel
 
@@ -176,19 +154,18 @@ automatisierte Kreditentscheidung.
 
 **Klassifikation:** DSFA PFLICHT — Art. 35 Abs. 3 lit. a DSGVO: systematische
 automatisierte Bewertung persönlicher Aspekte mit erheblichen Auswirkungen
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 (Schufa-Scoring) reicht es, dass Dritte maßgeblich auf das Scoring abstellen.
 DSB-Konsultation und Verarbeitungsverzeichnis-Eintrag (Art. 30) zwingend.
 
 ## Risiken und typische Fehler
 
 - **"Anonymisiert" = FREIGABE:** Pseudonymisierte Daten bleiben personenbezogen
-  (Art. 4 Nr. 1 DSGVO). Re-Identifikationsrisiko konkret prüfen.
+ (Art. 4 Nr. 1 DSGVO). Re-Identifikationsrisiko konkret prüfen.
 - **"Wir machen das ähnlich":** Bestehende, nie geprüfte Verarbeitungen legitimieren
-  keine neue. Bei anderem Umfang/Zweck/Kategorie: neu triagen.
+ keine neue. Bei anderem Umfang/Zweck/Kategorie: neu triagen.
 - **"Nur ein Pilot":** Pilot mit echten Personendaten unterliegt denselben Anforderungen.
 - **"Der Anbieter regelt Datenschutz":** AVV nach Art. 28 zwingend; Triage bleibt beim
-  Verantwortlichen (Art. 4 Nr. 7 DSGVO).
+ Verantwortlichen (Art. 4 Nr. 7 DSGVO).
 - **Inferred Data übersehen:** Score, Risikoklasse, Präferenz = personenbezogenes Datum.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
@@ -200,7 +177,6 @@ DSK-Listenfundstelle bei DSFA-Pflicht, einschlägige Rechtsprechung in korrekter
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
 Beispiel Rechtsprechung:
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Beispiel Kommentar:
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -213,10 +189,6 @@ Stand: 05/2026. Aktualität prüfen bei Änderungen der DSK-Blacklist/Whitelist 
 - `datenschutzrecht/skills/dsfa-erstellung/SKILL.md` — vollständige DSFA bei positiver Triage
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — bei Drittlandbezug in der Triage
 - `datenschutzrecht/skills/avv-pruefung/SKILL.md` — bei Auftragsverarbeitung als Verarbeitungsbestandteil
-
-## Aktuelle Rechtsprechung (Ergaenzung v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Output-Template — Triage-Ergebnis
 
@@ -241,3 +213,13 @@ Naechste Schritte:
 Frist: [DATUM]
 Verantwortlich: [PERSON / ROLLE]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

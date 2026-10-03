@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-investitionspruefung-bmwk
+title: 'Investitionspruefung BMWK: AWG-Verfahren bei ausländischen Unternehmenserwerben'
+description: 'Für Investitionsprüfung BMWK: AWG-Verfahren bei ausländischen Unternehmenserwerben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-investitionspruefung-bmwk
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Investitionspruefung BMWK: AWG-Verfahren bei ausländischen Unternehmenserwerben
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Chinesischer Investor erwirbt 20 Prozent an deutschem Sicherheitstechnikunternehmen; Anmeldepflicht geprueft.
+- US-Private-Equity uebernimmt deutschen Hersteller von Halbleitern; sektorspezifische Prüfung.
+- Arabischer Staatsfonds kauft 15 Prozent an Energieversorger; KRITIS-Prüfung eingeleitet.
+
+## Erste Schritte
+
+1. Erwerber und Zielunternehmen identifizieren; Drittstaatsbezug und Branche feststellen.
+2. Sektor des Zielunternehmens einordnen: KRITIS (Anhang A AWV) oder allgemeiner Sektor (Anhang B AWV).
+3. Anteilsschwelle prüfen: 10 % (KRITIS/kritische Technologien), 20 %, 25 %.
+4. Anmeldepflicht oder freiwillige Anmeldung bestimmen; Vollzugsverbot beachten.
+5. Antrag beim BMWK-Referat 533 stellen; erforderliche Unterlagen zusammenstellen.
+6. Verfahrenszeitplan planen (3 Monate Prüfung, Verlaengerung möglich).
+
+## Rechtsrahmen
+
+- **AWG §§ 55-59**: Prüfungsgrundlage, Anmelde- und Genehmigungspflicht.
+- **AWV §§ 55-62**: Sektorspezifische und allgemeine Prüfverfahren, Anteilsschwellen.
+- **AWV Anhang A**: KRITIS-Sektoren mit 10-%-Schwelle.
+- **AWV Anhang B**: Weitere Sektoren mit 20-%-Schwelle (u.a. kuenstliche Intelligenz, Halbleiter).
+- **§ 18 AWG**: Sanktionen bei Vollzug ohne Freigabe.
+
+## Prüf-Raster
+
+- [ ] Erwerber aus Drittstaat (Nicht-EU/EFTA/NATO)?
+- [ ] Sektor des Zielunternehmens in Anhang A oder B AWV?
+- [ ] Anteilsschwelle ueberschritten oder wird ueberschritten?
+- [ ] Vollzugsverbot beachtet; kein Closing vor Freigabe?
+- [ ] Alle erforderlichen Unterlagen für BMWK-Anmeldung vollstaendig?
+- [ ] Verfahrenszeitplan in M&A-Zeitplan integriert?
+
+## Typische Fallstricke
+
+- Vollzugsverbot gilt ab Anmeldepflicht; Closing vor Freigabe ist bussgeldbewehrt.
+- Intrakonzernuebertragungen können Prüfpflicht ausloesen wenn Letzteigentuemer wechselt.
+- Berechnung Anteilsschwelle muss alle Stimmrechte und wirtschaftliche Einflussmoeglichkeiten einschliessen.
+- BMWK-Prüfverfahren kann laenger als 3 Monate dauern; Verlaengerungen möglich.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [AWV auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awv_2013/index.html)
+- [BMWK Investitionspruefung](https://www.bmwk.de/Redaktion/DE/Artikel/Aussenwirtschaft/investitionspruefung.html)
+- [EUR-Lex VO (EU) 2019/452 Screening-Verordnung](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019R0452)

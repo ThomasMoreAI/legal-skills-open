@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-it-recht-vertragsstrafe-pruefen
 title: Vertragsstrafe prüfen
-description: Vertragsstrafenklausel in IT-Vertraegen auf AGB-Wirksamkeit und Hoechstgrenzen prüfen. Anwendungsfall IT-Vertrag enthaelt Vertragsstrafenklausel und es stellt sich die Frage ob sie wirksam vereinbart ist. Normen § 339 BGB Vertragsstrafe § 307 BGB AGB-Kontrolle Transparenzgebot § 343 BGB Herabsetzung § 348 HGB beiderseitiges Handelsgeschäft § 341 Abs. 3 BGB Vorbehalt. Prüfraster Klauselinhalt klar definierte Pflichtverletzung Hoechstgrenze Verschulden Individualvereinbarung Herabsetzungsrecht BGH-Linie. Output Vertragsstrafenprüfvermerk mit Wirksamkeitsbeurteilung Verhandlungsempfehlung und Anpassungsvorschlag. Abgrenzung zu fachanwalt-it-recht-saas-vertrag-verhandlung und fachanwalt-it-recht-it-vertrag-verhandlung-eu-odr.
+description: 'Für Vertragsstrafe prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/fachanwalt-it-recht-vertragsstrafe-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -28,7 +28,6 @@ language: de
 - Vertragsstrafenversprechen § 339 BGB — fällig mit Verzug oder Verstoß bei verschuldeter Pflichtverletzung.
 - Bei Werkleistung Vorbehalt nötig § 341 Abs. 3 BGB sonst Verwirkung.
 - AGB-Kontrolle: Transparenz § 307 Abs. 1 Satz 2 BGB; unangemessene Benachteiligung § 307 Abs. 1 Satz 1 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Herabsetzungsmöglichkeit § 343 BGB nur außerhalb beiderseitigen Handelsgeschäftes § 348 HGB.
 - Anrechnung auf Schadensersatz § 340 Abs. 2 BGB bzw. § 341 Abs. 2 BGB.
 
@@ -104,9 +103,6 @@ Mit freundlichen Gruessen
 - Bei Herabsetzungsantrag des Schuldners: gesonderte Stellungnahme zur Angemessenheit § 343 BGB.
 - Verjährungsfrist im Aktenkalender notieren.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - § 339 BGB — Verwirkung der Vertragsstrafe bei Verschulden
 - § 340 BGB — Strafe statt Erfuellung
@@ -162,9 +158,14 @@ Mit freundlichen Gruessen
 ```
 
 
-<!-- AUDIT 27.05.2026 bundle_055
-Halluzinations-Reparatur: BGH VII ZR 117/15 (NOT_FOUND) geloescht.
-Zusaetzlich: BGH VII ZR 165/14 (NOT_FOUND) ebenfalls geloescht (beide Entscheidungen
-nicht auf dejure.org nachweisbar). Verbleibende Zitate VII ZR 210/01 und VIII ZR 26/15
-sind verifiziert.
--->
+
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

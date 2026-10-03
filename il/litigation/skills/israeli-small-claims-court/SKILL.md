@@ -5,17 +5,17 @@ description: Guide users through filing and navigating Israeli small claims cour
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-small-claims-court
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: litigation
 language: en
 sources:
-- title: Demand Letter Template
+- title: Demand letter template
   path: references/demand-letter-template.md
-- title: Domain Checklist
+- title: Domain checklist
   path: references/domain-checklist.md
-- title: Evidence Guide
+- title: Evidence guide
   path: references/evidence-guide.md
 ---
 

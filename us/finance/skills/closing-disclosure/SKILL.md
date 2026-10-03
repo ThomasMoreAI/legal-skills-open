@@ -5,12 +5,21 @@ description: Drafts and reviews TRID-compliant U.S. residential Closing Disclosu
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/closing-disclosure
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: finance
 language: en
-tags: [transactional, regulatory, drafting, analysis]
+tags:
+- transactional
+- regulatory
+- drafting
+- analysis
+sources:
+- title: Cd pages
+  path: references/CD-PAGES.md
+- title: State overlays
+  path: references/STATE-OVERLAYS.md
 ---
 
 # Closing Disclosure

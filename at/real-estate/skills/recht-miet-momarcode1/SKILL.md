@@ -5,11 +5,18 @@ description: Austrian tenancy law analysis — MRG applicability, rent limits (R
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-miet
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: real-estate
 language: de
+sources:
+- title: Evidence protocol
+  path: references/evidence-protocol.md
+- title: Ogh case presentation
+  path: references/ogh-case-presentation.md
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht miet — Mietrechtliche Analyse

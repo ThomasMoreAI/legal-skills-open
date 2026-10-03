@@ -1,0 +1,65 @@
+---
+name: berufshaftpflicht
+title: Berufshaftpflicht
+description: 'Für Berufshaftpflicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Berufsrecht Steuerberater.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-steuerberater/skills/berufshaftpflicht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Berufshaftpflicht
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 32 StBerG` — Hilfeleistung in Steuersachen.
+- `§ 33 StBerG` — Befugnis der Steuerberater.
+- `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
+- `§ 57a StBerG` — Werbung.
+- `§ 64 StBerG` — Gebühren.
+- `§ 66 StBerG` — Handakten.
+- `§ 80 AO` — Bevollmaechtigte und Beistand.
+- `§ 153 AO` — Berichtigungspflicht.
+- `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
+- `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BGH, Urteil vom 14.06.2012 - IX ZR 145/11: Eine möglicherweise drittschützende Haftung für einen Insolvenzverschleppungsschaden setzt nach dieser Entscheidung einen ausdrücklichen Auftrag zur Prüfung der Insolvenzreife voraus. Der Anker begründet keine allgemeine Insolvenzprüfungspflicht aus einem gewöhnlichen steuerlichen Dauermandat; zuerst Auftragsinhalt, einbezogenen Personenkreis, Pflichtverletzung, Kausalität und Schaden getrennt feststellen.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; StBerG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Berufshaftpflicht
+- **Normen-/Quellenanker:** StBerG, BOStB, StBVV, AO, GwG, Verschwiegenheit, Interessenkollision, Fristenorganisation und Berufsgerichtsbarkeit.
+- **Entscheidende Weiche:** Mandatsannahme, Frist, Erklärung/Berichtigung, Steuerstrafnähe, Gebühren, Kammerkommunikation und Haftungsvermeidung trennen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Kaltstart in fünf Schritten
+
+1. Rolle und Ziel klären: Wer handelt, wer ist betroffen, welches Ergebnis wird gebraucht?
+2. Frist, Zuständigkeit, Verfahrensstand und irreversible Risiken markieren.
+3. Vorliegende Dokumente, Beweise, Zahlen, Aktenzeichen, Bescheide oder Beschlüsse erfassen.
+4. Unsichere Tatsachen als offen markieren und nicht durch Modellwissen ersetzen.
+5. Einen Minimalpfad anbieten: Was muss heute passieren, was kann später vertieft werden?
+
+## Prüf- und Arbeitslogik
+
+- **Normenanker:** StBerG, BOStB, StBVV, AO, GwG und Kammer-/BStBK-Hinweise live prüfen
+- **Tatsachenarbeit:** sichere Tatsachen, streitige Tatsachen, fehlende Unterlagen und Beweisprobleme trennen.
+- **Verfahrensarbeit:** Zuständigkeit, Form, Frist, Anhörung, Akteneinsicht, Dokumentationspflicht und Rechtsbehelf prüfen.
+- **Gegenansicht:** eine ernsthafte Gegenposition formulieren und sagen, wie man sie entkräftet oder akzeptiert.
+- **Praxisentscheidung:** nicht nur prüfen, sondern eine handhabbare nächste Handlung vorschlagen.

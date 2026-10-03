@@ -1,0 +1,163 @@
+---
+name: einarbeitung
+title: 'Einarbeitung: Semestereinarbeitung'
+description: 'Für Einarbeitung: Semestereinarbeitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/einarbeitung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Einarbeitung: Semestereinarbeitung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+Keine aktiven Eingaben — die Skill liest die Klinik-Konfiguration (CLAUDE.md) und das hinterlegte Handbuch.
+
+Falls die Konfigurationsdatei fehlt oder noch Platzhalter enthält: "Die Beratungsstelle ist noch nicht eingerichtet. Bitten Sie [Supervisor] zuerst `/kalt-start-interview` auszuführen."
+
+## Rechtlicher Rahmen
+
+### Kernvorschriften für die Einarbeitung
+
+- **§ 6 Abs. 1 RDG** — Unentgeltliche Rechtsdienstleistung: Studenten dürfen im Rahmen der Rechtsberatungsstelle Rechtsberatung erbringen, soweit sie unentgeltlich erfolgt und unter Aufsicht eines Rechtsanwalts/einer Rechtsanwältin steht.
+- **§ 6 Abs. 2 RDG** — Aufsichtspflicht des begleitenden Rechtsanwalts/der begleitenden Rechtsanwältin: Die Aufsichtsperson muss zur Rechtsanwaltschaft zugelassen sein; die Aufsicht muss inhaltlich effektiv sein (kein Formalia-Supervisor).
+- **§ 43a Abs. 2 BRAO, § 203 Abs. 3 StGB** — Mandatsgeheimnis und Verschwiegenheitspflicht: Gilt sinngemäß für Studenten als berufsmäßig tätige Gehilfen. Alle Mandantendaten, Fallnotizen und Korrespondenz sind vertraulich. Kein Austausch über Mandate außerhalb der Beratungsstelle.
+- **§§ 1, 2 BerHG** — Beratungshilfe: Häufig in der Mandatsarbeit relevant; Studenten müssen wissen, wann ein Beratungshilfe-Schein vor Leistungsbeginn einzuholen ist.
+- **§§ 114 ff. ZPO** — Prozesskostenhilfe (PKH): Voraussetzungen und typisches Prozedere in der Mandatsarbeit.
+
+### Quellenregel
+
+Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+## Ablauf
+
+### Begrüßung
+
+> Willkommen in der [Name der Beratungsstelle]. Ich führe Sie durch die Arbeitsweise dieser Beratungsstelle und die verfügbaren Tools — ca. zwanzig Minuten, Pause jederzeit möglich. Am Ende haben Sie eine Übungsberatung durchgeführt, einen Übungsentwurf erstellt und einen Recherchefahrplan erarbeitet.
+>
+> Ein wichtiger Grundsatz vorab: Alles, was ich erzeuge, ist ein Ausgangspunkt. Die rechtliche Analyse kommt von Ihnen. [Supervisor] prüft Ihre Arbeit [entsprechend dem Supervisionsmodell]. Ich übernehme die Formatierung und den Erstentwurf, damit Ihre Zeit der juristischen Denkarbeit zugute kommt.
+>
+> Was Sie als Studentenr nach § 6 RDG dürfen und was nicht: Sie beraten unter Aufsicht und unentgeltlich. Sie erstellen keine selbständigen Rechtsprodukte ohne Supervisoren-Freigabe. Jedes nach außen gehende Schriftstück und jede Mandantenauskunft zu strittigen Rechtsfragen wird vom Supervisor freigegeben.
+
+### Teil 1: Diese Beratungsstelle (5 Min)
+
+Aus der Klinik-Konfiguration und dem hinterlegten Handbuch. Interaktiv abarbeiten:
+
+- **Rechtsgebiete** — Was berät die Klinik? Was nicht? (Und wohin verweisen, wenn jemand mit einem nicht abgedeckten Problem kommt?)
+- **Mandanten** — Wer kommt? Welche besonderen Umstände gibt es (Sprache, Vulnerable Gruppen, unbegleitete Minderjährige)?
+- **Zuständiges Gericht / Behörden** — Welche Gerichte und Behörden sind für die Klinik regelmäßig relevant? Lokale Besonderheiten?
+- **Mandatsverwaltung** — Wie werden Mandate geführt, wo liegen Akten, was ist ein gut dokumentierter Fall?
+- **Supervision** — Wie läuft die Prüfung ab (entsprechend dem Supervisionsmodell). Konkret: "Bevor etwas zum Mandanten oder an ein Gericht geht, [kommt es in die Prüfwarteschlange / sprechen Sie mit Frau/Herrn X / etc.]"
+
+Kein Monolog — Verständnis überprüfen: "Wenn ein Mandant mit einem Räumungsbegehren und gleichzeitig einem Aufenthaltsrechtsproblem kommt — was tun Sie?" (Antwort: Beide Fragen in der Aktennotiz festhalten; das Aufenthaltsrechtsproblem ggf. an spezialisierte Flüchtlingsberatung weiterleiten oder dem Supervisor flaggen, je nach Tätigkeitsbereich der Klinik.)
+
+### Teil 2: Die Befehle (5 Min)
+
+| Befehl | Wann verwenden | Was Sie bekommen |
+|---|---|---|
+| `/mandanten-aufnahme` | Beratungsgespräch | Strukturierte Fallzusammenfassung mit erkannten Rechtsfragen, Interessenkollisionsprüfung, Triage |
+| `/entwurf [Schriftstücktyp]` | Erstentwurf eines häufigen Schriftstücks | Rechtsgebiet-Muster aus den Fallnotizen — *Ausgangspunkt, nicht fertig* |
+| `/memo` | Interne Fallanalyse | Gutachten-Gerüst nach Gutachtenmethode mit gekennzeichneten Recherchelücken |
+| `/recherche-start [Frage]` | Einstieg in Rechtsrecherche | Recherchefahrplan: Normen, Rspr.-Bereiche, Suchbegriffe — *Hinweise, keine geprüften Belege* |
+| `/status [Zielgruppe]` | Jemanden über einen Fall informieren | Zusammenfassung für Mandant / Supervisor / Gericht |
+| `/mandantenbrief [typ]` | Routine-Korrespondenz | Terminbestätigung, Unterlagenbitte, Statusupdate aus Mustern |
+
+Für jeden Befehl: was er tut, was er ausdrücklich nicht tut, was der/die Studenten vor dem Verwenden prüft.
+
+### Teil 3: Übungsaufgaben (8–10 Min)
+
+**Ohne Risiko. Fiktiver Mandant. Echte Tools.**
+
+**Übung 1 — Übungsaufnahme:**
+> Hier ist ein fiktives Szenario: [Rechtsgebiet-angepasste Aufgabe — z. B. für eine Mietrechtsklinik: "Frau Erdem hat letzte Woche eine fristlose Kündigung erhalten. Sie ist mit zwei Monatsmieten im Rückstand, nachdem sie ihren Job verloren hat. Die Heizung ist seit November defekt. Sie hat zwei Kinder."]
+>
+> Führen Sie `/mandanten-aufnahme` aus und sprechen Sie mit mir wie mit Frau Erdem. Ich antworte wie Frau Erdem. Schauen Sie am Ende auf die erzeugte Fallzusammenfassung: Welche Rechtsfragen wurden erkannt? Wurde die Mängeleinrede (§ 536 BGB) als mögliche Verteidigung erkannt?
+
+Nachbesprechung: Was die Aufnahme erfasst hat, wo der Studenten tiefer hätte bohren sollen, was dem Supervisor zu flaggen ist.
+
+**Übung 2 — Übungsentwurf:**
+> Verwenden Sie Frau Erdems Aufnahme und führen Sie `/entwurf widerspruch-kündigung` aus. Sie erhalten einen Erstentwurf.
+>
+> Lesen Sie ihn kritisch. Was ist richtig? Was ist falsch? Was würden Sie vor Vorlage an [Supervisor] ändern?
+
+Ziel: Der Entwurf ist kompetent, aber nicht abschließend. Der Studenten lernt, kritisch zu lesen statt blind zu akzeptieren.
+
+**Übung 3 — Recherchefahrplan:**
+> Führen Sie `/recherche-start "Mietminderung wegen Heizungsausfall nach § 536 BGB"` aus. Sie erhalten einen Fahrplan — Normen, Rspr.-Bereiche, Suchbegriffe.
+>
+> Nichts davon ist geprüft. Das ist so gewollt. Nennen Sie eine Norm aus dem Fahrplan und beschreiben Sie, wie Sie deren Aktualität und Einschlägigkeit prüfen würden.
+
+Ziel: `/recherche-start` ist ein Startpunkt, keine Quelle. Der Studenten forscht selbst.
+
+### Teil 4: Verifikationsgewohnheiten (2 Min)
+
+Die entscheidenden Gewohnheiten:
+
+- **Jede Ausgabe ist ein Ausgangspunkt.** Wenn etwas den Mandanten oder ein Gericht erreicht, ohne dass Sie es kritisch gelesen haben, ist etwas schiefgelaufen.
+- **Jede Quelle verifizieren**, bevor sie in ein Schriftstück fließt. `/recherche-start` gibt Hinweise, keine Belege.
+- **Rechtsgebiet-spezifische Details prüfen.** Die Konfiguration kennt Ihr Bundesland; lokale Besonderheiten ändern sich — aktuell gültige Regeln gegenprüfen.
+- **UNSICHER-Flags ernst nehmen.** Ein `[UNSICHER: ...]`-Flag ist ein Rechercheauftrag oder ein Thema für den Supervisor, kein zu löschender Fehler.
+- **Mandatsgeheimnis immer.** Keine Fallinformationen außerhalb der Beratungsstelle weitergeben, auch nicht zum "Erklären" — § 203 StGB.
+- **[Supervisionshinweis entsprechend dem Klinik-Modell]** — was wird geprüft, bevor es die Klinik verlässt, und wie.
+
+### Abschluss
+
+> Das war es. Sie haben eine Aufnahme durchgeführt, einen Entwurf erstellt und einen Recherchefahrplan erarbeitet. Ihr erster echter Fall wird ähnlich ablaufen — mit dem Unterschied, dass der Mandant real ist und der Supervisor Ihre Arbeit liest.
+>
+> Die einseitige Referenzkarte: `/einarbeitung --karte`
+
+## `/einarbeitung --karte`
+
+Erzeugt die einseitige Studentenreferenzkarte. Inhalt:
+
+- Die Befehle (Tabelle aus Teil 2, komprimiert)
+- Was die KI leisten kann / was nicht (Ausgangspunkte ja, fertige Arbeitsergebnisse nein, geprüfte Quellen nein)
+- Verifikationsgewohnheiten (Punkte aus Teil 4)
+- Wen fragen bei Unklarheiten (Supervisorenname aus CLAUDE.md)
+- **RDG-Kurzhinweis:** Was Studenten nach § 6 RDG dürfen und was nicht
+
+Druckfähig. Eine Seite. Am ersten Tag aushändigen.
+
+## Risiken und typische Fehler
+
+- **Einarbeitung als Formalität behandeln:** Die Übungsaufgaben sind der Kern. Studenten, die sie überspringen, gehen mit falscher Sicherheit ins erste echte Mandat.
+- **RDG-Grenzen nicht verinnerlicht:** Studenten müssen wissen, dass sie nur unter Aufsicht und unentgeltlich tätig sind. Kein eigenständiges Handeln ohne Supervisoren-Rückkopplung.
+- **Mandatsgeheimnis vergessen:** Bereits in der Übungsphase: Fallhypothetika enthalten keine echten Mandantendaten. In der echten Arbeit: strikte Vertraulichkeit nach § 203 StGB.
+- **Supervisor nicht eingerichtet:** Wenn die CLAUDE.md Platzhalter enthält, ist die Einarbeitung zu stoppen und dem Supervisor zur Einrichtung zu übergeben.
+
+## Quellenpflicht
+
+Die Einarbeitung selbst enthält keine zitierpflichtigen Belege — die RDG-Normen und Grundsätze werden im Überblick vermittelt. Sobald echte Mandate bearbeitet werden, gilt die Quellenpflicht aus den jeweiligen Skills (`/memo`, `/entwurf`, `/recherche-start`).
+
+Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall und keine juristische Ausbildung. Die inhaltliche Einführung in das Rechtsgebiet übernimmt der Supervisor, nicht dieses Tool.
+
+## Beispiel
+
+**Szenario:** Neue Studenten Hofer betritt die Mietrechtsklinik zu Beginn des Wintersemesters. Sie führt `/einarbeitung` aus.
+
+Teil 1: Klinik-Konfiguration wird gelesen; Hofer erfährt, dass die Klinik Mietrecht und Verbraucherrecht abdeckt, nicht aber Strafrecht (Verweisung an Rechtsberatungsstelle der Strafrechts-Vertiefung). Supervisorin: Rechtsanwältin Dr. Weber.
+
+Teil 2: Befehlsübersicht. Hofer fragt: "Was macht `/memo`?" → Erklärung: Gutachten-Gerüst nach Gutachtenmethode, kein fertiges Gutachten.
+
+Teil 3, Übung 1: Fiktiver Fall "Frau Erdem — Heizung defekt seit November". Hofer führt `/mandanten-aufnahme` durch, identifiziert Mietminderung (§ 536 BGB) und Mangel (§ 535 BGB) als Fragen. Nachbesprechung: Hofer hätte nach dem Datum der Mängelanzeige fragen sollen.
+
+Übung 2: `/entwurf widerspruch-kündigung` — Hofer liest den Entwurf kritisch: "Der Entwurf nennt die Frist als 10.05.2026, aber die Kündigung war am 09.04. zugegangen — ich muss die Dreiwochenfrist für Kündigungsschutz prüfen."
+
+Übung 3: `/recherche-start "§ 536 BGB Mietminderung Heizungsausfall"` → Fahrplan mit ungeprüften Normen. Hofer wählt § 536c BGB und erklärt: Prüfung über juris mit Aktualitätsdatum.
+
+Teil 4: Verifikationsgewohnheiten besprochen. Abschluss: `/einarbeitung --karte` aufgerufen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

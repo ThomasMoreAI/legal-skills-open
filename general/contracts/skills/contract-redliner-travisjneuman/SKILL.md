@@ -5,7 +5,7 @@ description: Contract review, redlining, and negotiation support with clause ana
 author: travisjneuman
 author_url: https://github.com/travisjneuman/.claude/tree/master/skills/contract-redliner
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -456,4 +456,4 @@ INTERNAL APPROVALS:
 ## See Also
 
 - [Legal Compliance](../legal-compliance/SKILL.md)
-- [Fortune 50 Risk Management](../fortune50-risk-management/SKILL.md)
+- [Risk Management](../risk-management/SKILL.md)

@@ -8,7 +8,7 @@ Jurisdiction: `au` · Practice: `insurance` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Australian Insurance Legislation Analysis`](skills/australian-insurance-legislation-analysis/) | Analyzes insurance scenarios by referencing specific sections of the Life Insurance Act, Insurance Contracts… |
+| [`Australian Insurance Legislation Analysis`](skills/australian-insurance-legislation-analysis/) | Analyzes insurance scenarios by referencing specific sections of the Life Insurance Act, Insurance… |
 
 ## Cold-start context
 

@@ -1,0 +1,54 @@
+---
+name: interdictum-fraudatorium-und-restitutio-in-integrum
+title: Rom 117 Interdictum Fraudatorium Und Restitutio In Integrum
+description: 'Für Rom 117 Interdictum Fraudatorium und Restitutio in Integrum: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Römisches Recht. Route: interdictum-fraudatorium-und-restitutio-in-integrum.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/interdictum-fraudatorium-und-restitutio-in-integrum
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom 117 Interdictum Fraudatorium Und Restitutio In Integrum
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: historisch — usucapio (Ersitzung) 1/2 Jahre Mobilia/Immobilia, praescriptio longi temporis, longissimi temporis; heute über § 195 BGB / § 937 BGB.
+- Tragende Normen verifizieren: Corpus Iuris Civilis (Institutionen, Digesten, Codex, Novellen), Zwölftafelgesetz, Lex Aquilia, Lex Iulia et Papia, römisches Personen-, Sachen-, Obligationen-, Familien- und Erbrecht; dogmenhistorisch fortwirkend in BGB §§ 90 ff. (Sachen), 433 ff., 812 ff., 854 ff. — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Wissenschaftliche Rezipienten, Lehrstühle für Bürgerliches Recht/Rechtsgeschichte, Gesetzgeber (historisches Argumentum), Rechtsprechung (Auslegungshilfe).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lehrbuchexegese, Quellenkritik (Digesten-Stelle), historisch-rechtsvergleichendes Gutachten, dogmatische Aufsatz, Klausur (Pandektistik) — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Interdictum fraudatorium
+
+- Praetorisches Eilinstrument zur Sicherung des Status quo.
+- Inhalt: der Praetor verbietet dem Empfaenger des fraudulenten Vermögens die weitere Verfuegung.
+- D. 42.8 ergaenzt um diese Verfahrensseite.
+
+## Restitutio in integrum
+
+- "Wiedereinsetzung in den vorigen Stand".
+- Praetorisches Gesamtinstitut, das den Schuldigen oder Geschaedigten in seinen vorherigen Vermögenszustand zurueckversetzt.
+- Faelle: minderjaehriger Vertragspartner (ob aetatem), arglistige Taeuschung (ob dolum), Furcht (ob metum), Gläubigerbenachteiligung (ob fraudem).
+- D. 4.6 (De in integrum restitutionibus).
+
+## Verzahnung
+
+- Restitutio in integrum ob fraudem ist die uebergeordnete Lehre.
+- Actio Pauliana ist die spezifische Aktion für Gläubigeranfechtung.
+- Interdictum fraudatorium sichert den Anspruch waehrend der Verfahrensdauer.
+
+## Vergleich zu modernem Recht
+
+- Einstweilige Verfuegung nach §§ 935 ff. ZPO als Sicherungsinstrument.
+- Anfechtungsklage nach AnfG als Hauptverfahren.
+- Restitutio-Wirkung in § 143 InsO (Rueckgewaehrungsanspruch nach Insolvenzanfechtung).
+
+## Prüfraster
+
+1. Welches Instrument einschlaegig?
+2. Schutzbedarf wegen Vermögensentzug?
+3. Beweislage hinreichend?

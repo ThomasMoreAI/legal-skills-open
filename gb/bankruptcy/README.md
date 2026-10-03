@@ -10,7 +10,7 @@ Jurisdiction: `gb` · Practice: `bankruptcy` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`UK Insolvency Applicability Checker`](skills/uk-insolvency-applicability-checker-rohasnagpal/) | Maps potentially applicable UK corporate insolvency and restructuring routes for an identified entity and… |
+| [`UK Insolvency Applicability Checker`](skills/uk-insolvency-applicability-checker-rohasnagpal/) | Maps potentially applicable UK corporate insolvency and restructuring routes for an identified entity… |
 
 ## Cold-start context
 

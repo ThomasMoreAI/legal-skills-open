@@ -1,0 +1,55 @@
+---
+name: onlineueberweisungen-autorisierung-beweiskette
+title: 1. Zweck und Anwendungsfall
+description: Rekonstruiert bestrittene Onlineüberweisungen anhand von Freigabeanzeigen, Gerätewechseln, Transaktionsprotokollen und Sperrmeldungen. Trennt Autorisierung, Authentifizierung, Erstattungsbetrag und Gegenansprüche bei Phishing oder vorgetäuschten Bankanrufen.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/onlineueberweisungen-autorisierung-beweiskette
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# 1. Zweck und Anwendungsfall
+
+Prüfe hohe Kontobelastungen, bei denen die Zustimmung zur Zahlung bestritten wird. Die wirtschaftliche Bedeutung liegt im unmittelbaren Liquiditätsverlust; aufwendig ist der Abgleich technischer Aufzeichnungen mit den Angaben der Beteiligten. Anders als bei der allgemeinen Vorbereitung eines Bankprozesses wird jede Überweisung mit ihrer eigenen Freigabe- und Beweiskette geprüft. Nicht für Anlageberatung oder bloß fehlerhafte Ausführung einer unstreitig autorisierten Überweisung.
+
+## 1.1. Eingaben
+
+Zuerst Kontovertrag, Verbraucher- oder Unternehmerstatus, Belastungen, Reklamation, Bankantwort, Nachrichten und vorhandene Protokolle lesen. Je Vorgang Betrag, Währung, Empfänger, Zeit mit Zeitzone, Gerätebindung, Freigabetext, handelnde Person, tatsächliche Wahrnehmung, Sperrmeldung und Rückfluss erfassen. Niemals PIN, TAN oder Zugang zur Bank verlangen; keine Anmeldung und kein Nachspielen des Angriffs.
+
+## 1.2. Ablauf und Checkliste
+
+1. Erstelle eine unveränderte Ereignischronologie. Trenne Anmeldung, Registrierung eines neuen Geräts, Empfängeranlage und einzelne Zahlungsfreigabe. Angaben des Kunden, technische Aufzeichnung und Schlussfolgerung bleiben unterschiedliche Spalten. Eine Gerätefreigabe ist nicht automatisch Zustimmung zu jeder Folgeüberweisung.
+2. Prüfe für jede Zahlung zuerst die Zustimmung nach Paragraf 675j BGB. Hat der Kunde bewusst genau Betrag und Empfänger freigegeben, obwohl er über den Zweck getäuscht wurde, darf der Vorgang nicht allein wegen Betrugs als unautorisiert gelten. Bei streitigem Anzeigetext beide Tatsachenvarianten bewerten, ohne aus der TAN-Nutzung Zustimmung abzuleiten.
+3. Bestimme den Erstattungsweg nach Paragraf 675u BGB und den Zeitpunkt der Kenntnis der Bank. Unverzügliche Anzeige und Ausschlussfrist nach Paragraf 676b BGB gesondert prüfen, einschließlich ordnungsgemäßer Unterrichtung und möglicher Unternehmervereinbarungen nach Paragraf 675e BGB. Eine Anzeige bei der Polizei ersetzt die Unterrichtung der Bank nicht.
+4. Prüfe den Nachweis nach Paragraf 675w BGB: Authentifizierung, Aufzeichnung, Verbuchung und Störungsfreiheit. Fordere vorgangsbezogen vorhandene Freigabeanzeigen, Geräte-Registrierungsprotokolle, Sitzungszuordnung, starke Kundenauthentifizierung und unterstützende Beweismittel an. IP-Adresse oder erfolgreiches Verfahren allein identifiziert nicht notwendig den zustimmenden Menschen. Kein pauschaler Anspruch auf den gesamten Quellcode des Banksystems.
+5. Prüfe den Gegenanspruch nach Paragraf 675v BGB getrennt: konkrete Pflicht, Handlung, subjektiver Vorwurf, Kausalität und Schaden. Warntext, Sichtbarkeit, Täuschungssituation und individuelles Verständnis würdigen. Weder Phishing automatisch als grob fahrlässig noch die erfolgreiche Authentifizierung als Entlastung behandeln. Absätze 2, 4 und 5, insbesondere fehlende starke Kundenauthentifizierung und Nutzung nach Sperranzeige, vor Haftungsbetrag prüfen. 50 EUR sind kein pauschaler Selbstbehalt jeder Reklamation.
+6. Rechne je Vorgang Belastung minus endgültiger Rückfluss gleich offener Erstattungsbetrag. Vorläufige Gutschrift, endgültige Erstattung, Rückholung und Bankgegenforderung getrennt buchen. Zinsen und Gebühren nur mit eigenem Grund und Nachweis. Dasselbe Geld nicht zweimal verlangen oder abziehen.
+7. Fordere bei fehlender Freigabeanzeige die Unterlage zur konkreten Zahlung an. Nach Eingang Anzeige, Geräte- und Transaktionszuordnung mit der Kundendarstellung abgleichen, Autorisierung und Gegenanspruch erneut prüfen und Rechnung sowie bestellten Empfängertext aktualisieren. Bleibt etwa die Endgültigkeit eines Rückflusses unklar, hierzu gezielt nachfragen. Weitere kurze Runden bei entscheidenden neuen Lücken zulassen, keine erneute Aufnahme. Unabhängig belegte Zahlungen vorläufig bearbeiten und nach Klärung bis zum beauftragten Ergebnis fortsetzen; fehlende Bankunterlagen nicht als Beweis eines ungesicherten Kundenablaufs behandeln. Kontosperre, Überweisung, Strafanzeige, Klage oder Kommunikation nur nach Freigabe veranlassen.
+
+Bei zusätzlich geltend gemachtem Schadensersatz nach Artikel 82 Absatz 1 der Datenschutz-Grundverordnung prüfe den behaupteten Datenschutzverstoß, den konkreten Schaden und deren ursächlichen Zusammenhang anhand gesonderter Belege. Leite die Kausalität nicht allein aus dem Ergebnis der Erstattungsprüfung nach Paragraf 675u BGB ab.
+
+## 1.3. Quellenpflicht
+
+Optional ergänzt die [Zitierweise](../../references/zitierweise.md) die Quellenarbeit. Entscheidungen mit Gericht, Datum, Aktenzeichen und überprüfter Fundstelle zitieren; Tatsachen und Schlussfolgerungen trennen. Prüfstand der beiden 2026-Anker 01.10.2026, vor Einsatz Normfassung und technische Übertragbarkeit prüfen.
+
+- BGB [Paragraf 675u](https://www.gesetze-im-internet.de/bgb/__675u.html), [Paragraf 675v](https://www.gesetze-im-internet.de/bgb/__675v.html), [Paragraf 675w](https://www.gesetze-im-internet.de/bgb/__675w.html) und [Paragraf 676b](https://www.gesetze-im-internet.de/bgb/__676b.html).
+- BGH, Beschluss vom 07.07.2026, Az. XI ZR 71/25, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2025/XI_ZR__71-25.pdf?__blob=publicationFile&v=1), Seite 2, erneut vollständig abgerufen und auf Seite 2 geprüft am 01.10.2026: Ein zusätzlicher Anspruch aus Artikel 82 Absatz 1 der Datenschutz-Grundverordnung neben Paragraf 675u Satz 2 BGB blieb offen; im konkreten Fall fehlte der Kausalzusammenhang zwischen behaupteten Verstößen und Schaden. Den Beschluss weder als allgemeinen Anspruchsausschluss noch als eigenständige Aussage zu Autorisierung oder grober Fahrlässigkeit verwenden.
+- BGH, Urteil vom 26.01.2016, Az. XI ZR 91/14, [amtlicher Volltext](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2014/XI_ZR__91-14.pdf?__blob=publicationFile&v=1), Randnummern 18 und 19, 75 sowie 79 bis 81: Grenzen des Authentifizierungsnachweises, kein Erfahrungssatz grober Fahrlässigkeit und technische Beweissicherung. Entscheidung zur damaligen Rechtslage; heutige starke Kundenauthentifizierung und Paragraf 675v nicht aus alten Absatznummern ableiten.
+
+Bei fehlendem Empfängernamen auf dem TAN-Gerät das konkrete Verfahren rekonstruieren: [BGH, Urteil vom 03.03.2026 – XI ZR 20/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XI_ZS/2024/XI_ZR__20-24.pdf?__blob=publicationFile&v=1), Rn. 16–35, verneint für das geprüfte manuelle chipTAN-Verfahren einen Ausschluss nach Paragraf 675v Absatz 4 Satz 1 Nummer 1 BGB allein wegen dieser fehlenden Anzeige. Frage nach IBAN, Betrag, Onlinebanking-Anzeige und den tatsächlich weitergegebenen TANs. Die allgemeine Pflicht zur Namensanzeige und das Verhältnis sämtlicher Anforderungen der dynamischen Verknüpfung zu Absatz 4 bleiben teilweise offen (Rn. 27, 31). Die konkrete grobe Fahrlässigkeit im Telefonbetrugsfall ist kein allgemeiner Beweis aus einem Erfolgslog; Autorisierung, starke Authentifizierung und Gegenanspruch getrennt prüfen.
+
+## 1.4. Ausgabeformat
+
+Das bestellte Gutachten oder den vollständigen Reklamations- beziehungsweise Verteidigungstext unter dem gewünschten Dateinamen liefern; ohne Vorgabe `ergebnis.md` verwenden. Überweisungstabelle, Erstattungsrechnung und Gegenanspruchsprüfung nur in erforderlichem Umfang beifügen. Jede entscheidende Tatsachenvariante nennt Belegbedarf und finanzielle Auswirkung.
+
+Ein Gutachtenauftrag verlangt keinen ungefragten Klageentwurf. Quellenstatus, technische Grenzen und interne Risiken getrennt vom Empfängertext dokumentieren.
+
+Ausformulierungspflicht: vollständige Sätze, keine Skelette. Formatstandard: Times New Roman 11 pt, dezimale Gliederung mit Leerzeilen und Exporthinweis bei Markdown. Ohne Dateiexport den bestellten Reklamations- oder Verteidigungstext samt erforderlicher Zahlungsrechnung vollständig in der Antwort liefern. Nur tatsächlich erzeugte Dateien verlinken.
+
+## 1.5. Beispiele
+
+Ein Anruf führt zur Freigabe einer angeblichen Geräteerneuerung; danach folgen zwei Überweisungen. Rekonstruiere zwei Zahlungsfreigaben gesondert. Ein fehlender technischer Nachweis darf nicht durch die Behauptung ersetzt werden, wer sein Gerät freigebe, genehmige damit alle späteren Zahlungen.

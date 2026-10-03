@@ -10,7 +10,7 @@ Jurisdiction: `lb` · Practice: `employment` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Knowledge Pack — Lebanon Employment Law`](skills/kb-employment-law-lb-sboghossian/) | Use when a matter involves employment law obligations, contracts, termination indemnity, NSSF contributions,… |
+| [`Knowledge Pack — Lebanon Employment Law`](skills/kb-employment-law-lb-sboghossian/) | Use when a matter involves employment law obligations, contracts, termination indemnity, NSSF… |
 
 ## Cold-start context
 

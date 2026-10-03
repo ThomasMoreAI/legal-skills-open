@@ -1,0 +1,84 @@
+---
+name: internationaler-creator-wohnsitz-und-wegzug
+title: 'Influencer-Recht: Internationaler Wohnsitz und Wegzug'
+description: 'Für Influencer-Recht: Internationaler Wohnsitz und Wegzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/influencer-recht/skills/internationaler-creator-wohnsitz-und-wegzug
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: entertainment
+language: de
+---
+
+# Influencer-Recht: Internationaler Wohnsitz und Wegzug
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Kontext und Regelungslage
+
+Creator, die ins Ausland ziehen, müssen komplexe Steuer- und Sozialversicherungsfragen klären:
+
+- **§ 1 EStG**: Unbeschränkte Steuerpflicht in Deutschland bei Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO).
+- **§ 6 AStG**: Wegzugsbesteuerung bei Gesellschaftsanteilen (z. B. Creator mit GmbH-Beteiligung); stille Reserven werden bei Wegzug besteuert.
+- **§ 49 EStG**: Beschränkte Steuerpflicht bei Einnahmen aus Deutschland (z. B. laufende Kooperationen mit DE-Brands), auch nach Wegzug.
+- **DBA**: Doppelbesteuerungsabkommen regeln Besteuerungsrechte; selbstständige Einkünfte typisch im Wohnsitzstaat besteuert.
+- **§ 7 SGB IV**: Sozialversicherungspflicht; bei Wegzug: Entsendung oder Befreiung möglich.
+- **Dubai/UAE, Portugal NHR, Zypern**: Beliebte Creator-Wohnsitzländer; steuerliche Realität vs. Scheinsitz-Problematik.
+- **§ 42 AO**: Gestaltungsmissbrauch; reiner Briefkastensitz ohne tatsächlichen Wohnsitz → Steuerhinterziehungsrisiko.
+
+### Wegzug-Prüfmatrix
+
+| Ziel | Steuerrisiko Creator | Besonderheit |
+|------|---------------------|-------------|
+| EU/EWR (z. B. Portugal) | Mittel | DBA; beschränkte Steuerpflicht für DE-Einnahmen |
+| UAE/Dubai | Hoch | Kein DBA; beschränkte Steuerpflicht für DE-Einnahmen; Scheinsitz-Risiko |
+| USA | Mittel | DBA USA-DE; aber US-Besteuerung für Green Card Holder |
+| Schweiz | Mittel | DBA CH-DE; Aufenthaltsgenehmigung erforderlich |
+
+## Kaltstart-Fragen (6)
+
+1. In welches Land soll der Wohnsitz verlegt werden?
+2. Besteht eine GmbH-Beteiligung, die Wegzugsbesteuerung auslösen könnte?
+3. Gibt es weiterhin Kooperationen mit deutschen Brands nach dem Wegzug?
+4. Wird der tatsächliche Wohnsitz im Ausland begründet (Mietvertrag, Aufenthalt >183 Tage)?
+5. Gibt es noch laufende Verträge, die nach deutschem Recht abgewickelt werden?
+6. Gewünschtes Ergebnis: Steuerprüfung, Wegzugsplan oder Scheinstandort-Risiko-Einschätzung?
+
+## Prüfprogramm
+
+- Wohnsitz-Aufgabe: Tatsächliche Aufgabe; Abmeldung beim Einwohnermeldeamt; Kündigung Wohnung; Verlagerung aller Lebensmittelpunkte.
+- 183-Tage-Regel: Aufenthalt in Deutschland unter 183 Tagen pro Jahr; sonst → unbeschränkte Steuerpflicht.
+- Wegzugsbesteuerung § 6 AStG: GmbH-Anteile → stille Reserven werden realisiert; Steuerstundung unter Bedingungen möglich.
+- Beschränkte Steuerpflicht: § 49 EStG gilt für Einnahmen aus DE-Quellen; auch nach Wegzug.
+- Scheinstandort: Briefkasten in Dubai ohne Aufenthalt → § 42 AO; Steuerhinterziehungsrisiko.
+- Sozialversicherung: Nach Wegzug: Beiträge enden; aber: Mindestversicherungszeit für Rentenansprüche prüfen.
+
+## Typische Fallen
+
+- Wohnsitz in Dubai angemeldet, aber faktisch in Deutschland lebend → weiterhin unbeschränkt steuerpflichtig.
+- Wegzug ohne Abmeldung → steuerliche Anknüpfung bleibt.
+- GmbH-Beteiligung ohne Wegzugsbesteuerung bedacht → hohe Nachforderung.
+- Laufende DE-Brand-Deals nach Wegzug → beschränkte Steuerpflicht für diese Einnahmen.
+
+## Normen und Quellen
+
+- § 1 EStG: https://www.gesetze-im-internet.de/estg/__1.html
+- § 6 AStG – Wegzugsbesteuerung: https://www.gesetze-im-internet.de/astg/__6.html
+- § 49 EStG: https://www.gesetze-im-internet.de/estg/__49.html
+- § 42 AO – Gestaltungsmissbrauch: https://www.gesetze-im-internet.de/ao_1977/__42.html
+- § 8 AO – Wohnsitz: https://www.gesetze-im-internet.de/ao_1977/__8.html
+
+## Output-Formate
+
+- Wegzug-Checkliste (steuerlich + sozialversicherungsrechtlich)
+- Scheinstandort-Risikoampel
+- Wegzugsbesteuerungs-Kalkulation
+- DBA-Kurzcheck (Zielland vs. DE)

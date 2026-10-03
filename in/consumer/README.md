@@ -10,8 +10,8 @@ Jurisdiction: `in` · Practice: `consumer` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Compensation Quantifier`](skills/compensation-quantifier-rohasnagpal/) | Builds a compensation or damages claim head by head, using only the figures actually supplied, showing the… |
-| [`Deficiency Analyst`](skills/deficiency-analyst-rohasnagpal/) | Tests whether given facts actually satisfy the legal threshold for deficiency in service, defect in goods, or… |
+| [`Compensation Quantifier`](skills/compensation-quantifier-rohasnagpal/) | Builds a compensation or damages claim head by head, using only the figures actually supplied, showing… |
+| [`Deficiency Analyst`](skills/deficiency-analyst-rohasnagpal/) | Tests whether given facts actually satisfy the legal threshold for deficiency in service, defect in… |
 
 ## Cold-start context
 

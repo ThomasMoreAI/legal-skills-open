@@ -1,11 +1,11 @@
 ---
 name: slogan-marke
 title: Slogan-Marken für Luxus-Mode
-description: Workflow-Skill zu slogan marke. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Slogan-Marken für Luxus-Mode: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/slogan-marke
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Slogan-Marken für Luxus-Mode
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Slogan-Marken für Luxus-Mode
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Slogans sind die vielleicht schwierigste Markenart — sie sollen Kunden begeistern, dürfen aber nicht so allgemein sein, dass sie keinen Herkunftshinweis liefern. Für klôtzzkètté SA prüfe ich jeden Kampagnen-Claim auf Eintragungsfähigkeit, bevor die Comtesse Beatrice de Klotzzkettie einen EUR 300.000-Kampagnenetat investiert.
 
@@ -23,38 +36,35 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 - **§ 8 II Nr. 2 MarkenG:** Fehlende Unterscheidungskraft — Haupthürde für Slogans
 - **§ 8 II Nr. 3 MarkenG:** Beschreibende Angaben (selten für Slogans, aber möglich)
 - **Art. 7 I lit. b UMV:** Fehlende Unterscheidungskraft auf EUIPO-Ebene
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Verkehrsdurchsetzung § 8 III MarkenG:** Rettungsanker bei ursprünglich fehlendem Schutz
 
 ## Prüfungsschritte
 
 1. **Semantische Analyse:**
-   - Beschreibt der Slogan Waren/Dienstleistungen direkt? → § 8 II Nr. 3 MarkenG
-   - Hat der Slogan ausschließlich anpreisende Funktion? → § 8 II Nr. 2 MarkenG
-   - Weist der Slogan auf eine konkrete betriebliche Herkunft hin? → Schutzfähig
+ - Beschreibt der Slogan Waren/Dienstleistungen direkt? → § 8 II Nr. 3 MarkenG
+ - Hat der Slogan ausschließlich anpreisende Funktion? → § 8 II Nr. 2 MarkenG
+ - Weist der Slogan auf eine konkrete betriebliche Herkunft hin? → Schutzfähig
 
 2. **Sprachliche Originalität:**
-   - Kreative Wortschöpfung, ungewöhnliche Grammatik, Fremdsprachenmix
-   - Einprägsamkeit und Eigenartigkeit (nicht austauschbar mit anderen Marken)
-   - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ - Kreative Wortschöpfung, ungewöhnliche Grammatik, Fremdsprachenmix
+ - Einprägsamkeit und Eigenartigkeit (nicht austauschbar mit anderen Marken)
 
 3. **Marktrecherche:**
-   - Wird der Slogan als Markenzeichen oder als allgemeine Werbephrase wahrgenommen?
-   - Einsatz in Verbindung mit anderen Marken (Wort-Bild-Marke)?
+ - Wird der Slogan als Markenzeichen oder als allgemeine Werbephrase wahrgenommen?
+ - Einsatz in Verbindung mit anderen Marken (Wort-Bild-Marke)?
 
 4. **Verkehrsdurchsetzung prüfen (§ 8 III MarkenG):**
-   - Voraussetzung: erhebliche Bekanntheit (je nach Kategorie 50-70 % Verkehrskreis)
-   - Belege: Marktanteile, Werbeaufwand, Verbraucherbefragungen, Presseberichte
+ - Voraussetzung: erhebliche Bekanntheit (je nach Kategorie 50-70 % Verkehrskreis)
+ - Belege: Marktanteile, Werbeaufwand, Verbraucherbefragungen, Presseberichte
 
 5. **Taktische Entscheidung:**
-   - Slogan als eigenständige Wortmarke anmelden
-   - Oder: Slogan als Bestandteil einer Wort-Bild-Marke (sicherer)
-   - Oder: Hashtag-Version parallel anmelden (#klotzkette — separates Zeichen)
+ - Slogan als eigenständige Wortmarke anmelden
+ - Oder: Slogan als Bestandteil einer Wort-Bild-Marke (sicherer)
+ - Oder: Hashtag-Version parallel anmelden (#klotzkette — separates Zeichen)
 
 ## Falltypische Konstellationen
 
 ### Konstellation 1: "Tissu du Silence" — klôtzzkètté Herbstkampagne
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Konstellation 2: "Pure Luxury for the Few" — Englischer Slogan
 Für den US-Markt (vgl. Skill `uspto-anmeldung-und-lanham-act`). EUIPO-Anmeldung schwierig: "PURE LUXURY" ist anpreisend, "FOR THE FEW" beschreibt Exklusivität. EuGH-Linie: Diese Kombination hat allein anpreisenden Charakter — Zurückweisung wahrscheinlich. Strategie: Als Wort-Bild-Marke mit besonderer Typografie anmelden.
@@ -63,14 +73,12 @@ Für den US-Markt (vgl. Skill `uspto-anmeldung-und-lanham-act`). EUIPO-Anmeldung
 Brezelmann Discount KG (Bad Mergentheim) verwendet "KLOTZ IST PREIS" als Gegenslogan. Prüfung: Verwechslungsgefahr mit eingetragenem Slogan von klôtzzkètté? Warenidentität (Klasse 25), aber keine Slogan-Ähnlichkeit, die Verwechslung begründet. Ansatz: UWG § 4 Nr. 3 (unlautere Anlehnung an bekannte Marke) und § 6 (vergleichende Werbung).
 
 ### Konstellation 4: Hashtag-Marke #klotzzkette
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 8 Rn. 350 ff. (Slogans)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, § 8 Rn. 120 ff.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -92,7 +100,6 @@ Insbesondere:
 "silence" ist in der Modewelt nicht gebräuchlich.
 (2) Das Zeichen wird im Marktauftritt stets als Herkunftshinweis
 für klôtzzkètté-Produkte eingesetzt (vgl. beigefügte Belege).
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 kein strengerer Maßstab anzulegen als für andere Wortmarken.
 ```
 
@@ -121,16 +128,9 @@ Bevor der Slogan als Marke angemeldet wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
-<!-- AUDIT 27.05.2026 | bundle_037 | task 3/5
-BGH I ZB 22/20 (WRONG_TOPIC / NOT_FOUND): Aktenzeichen auf dejure.org nicht auffindbar.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

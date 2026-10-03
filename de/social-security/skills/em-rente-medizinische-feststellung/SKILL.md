@@ -1,0 +1,73 @@
+---
+name: em-rente-medizinische-feststellung
+title: Em Rente Medizinische Feststellung
+description: 'Für Em Rente Medizinische Feststellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/em-rente-medizinische-feststellung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Em Rente Medizinische Feststellung
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Voraussetzungen
+
+§ 43 SGB VI.
+
+### Medizinisch
+- Volle EM-Rente: Erwerbsfaehigkeit unter 3 Stunden taeglich.
+- Teilweise EM-Rente: Erwerbsfaehigkeit 3-6 Stunden taeglich.
+
+### Versicherungsrechtlich
+- Allgemeine Wartezeit von 5 Jahren erfuellt.
+- In den letzten 5 Jahren vor Eintritt der EM mindestens 3 Jahre Pflichtbeitraege.
+
+## Verfahren
+
+1. Antrag bei DRV.
+2. Aerztliche Unterlagen.
+3. Gutachten durch DRV-Aerzte.
+4. Bescheid.
+
+## Reha vor Rente
+
+§ 9 SGB VI: DRV prüf zuerst Reha. EM-Rente nur, wenn Reha nicht möglich oder erfolglos.
+
+## Zugangsfaktor
+
+- Bei Eintritt vor Erreichen Regelaltersgrenze Zugangsfaktor < 1.
+- Reform 2014/2018/2024 — Anhebung der Zugangsfaktor-Grenze.
+
+## Befristung
+
+- EM-Rente regelmaessig 3 Jahre befristet.
+- Nach 9 Jahren ggf. unbefristet.
+- Prüfantraege Behörden initiative.
+
+## Hinzuverdienst
+
+- Hinzuverdienstgrenze hat sich 2023 erheblich erweitert.
+- Aktuelle Werte live verifizieren.
+
+## Prüfraster
+
+1. Medizinische Voraussetzung?
+2. Versicherungsrechtliche Voraussetzung?
+3. Reha gepruef?
+4. Befristung beachtet?
+5. Hinzuverdienst?

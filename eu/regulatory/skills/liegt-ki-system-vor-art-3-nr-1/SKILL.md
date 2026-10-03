@@ -1,11 +1,11 @@
 ---
 name: liegt-ki-system-vor-art-3-nr-1
 title: Liegt ein KI-System vor? — Art. 3 Nr. 1 KI-VO
-description: 'Erster Schritt jeder KI-VO-Pruefung: Ist die Software, API, App, Automatisierung oder Modellkette ein KI-System nach Art. 3 Nr. 1 KI-VO? Prueft maschinenbasiertes System, Autonomie, optionale Adaptivitaet, Ziele, Inferenz, Output-Typen und Umweltbeeinflussung nach den Kommissionsleitlinien. Problematisiert Automation und Autonomie statt schematisch abzuhaken. Output: dokumentierbarer KI-System-Einordnungsvermerk mit Tatsachenbasis, Unsicherheiten und Folge-Skills.'
+description: 'Für Liegt ein digitale Werkzeuge-System vor? — Art. 3 Nr. 1 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/liegt-ki-system-vor-art-3-nr-1
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,12 +13,6 @@ language: de
 ---
 
 # Liegt ein KI-System vor? — Art. 3 Nr. 1 KI-VO
-
-## Zweck
-
-Dieser Skill ist das Eingangstor der KI-VO-Prüfung. Er klärt, ob der geprüfte Gegenstand überhaupt ein KI-System im Sinne der Verordnung (EU) 2024/1689 ist. Ohne KI-System greifen die KI-VO-Pflichten grundsätzlich nicht; mit KI-System folgen Anwendungsbereich, Rollen und Risikoklasse.
-
-Der Skill arbeitet nicht mit einem starren Alles-oder-Nichts-Schema. Er erstellt eine nachvollziehbare Einordnung anhand der sieben Elemente der Legaldefinition und dokumentiert, welche Tatsachen die Einordnung tragen.
 
 ## Prüfgegenstand sauber bestimmen
 
@@ -139,7 +133,7 @@ Wenn eine Ausgabe nur testweise erzeugt und nie verwendet wird, dokumentiere das
 | Befund | Ergebnisrichtung |
 |---|---|
 | Maschinenbasiert + Inferenz + Output mit möglichem Einfluss | starkes Indiz für KI-System |
-| Generatives Modell oder LLM/API im Workflow | regelmäßig KI-System-Komponente |
+| Generatives Modell oder LLM/API im | regelmäßig KI-System-Komponente |
 | Nur feste Wenn-Dann-Regeln ohne gelernte Parameter und ohne Inferenz | regelmäßig kein KI-System |
 | Nur Suche, Filterung, Formatierung, Kopieren, Validieren | regelmäßig kein KI-System |
 | Automation ohne Inferenz | nicht genug, aber genauer prüfen |
@@ -172,7 +166,7 @@ Wenn eine Ausgabe nur testweise erzeugt und nie verwendet wird, dokumentiere das
 
 ## Routing
 
-- **KI-System wahrscheinlich:** weiter zu `territorialer-anwendungsbereich-art-2`, danach `persoenlicher-anwendungsbereich-rollen-art-3` und `risikoklassen-uebersicht-und-triage`.
+- **KI-System wahrscheinlich:** weiter zu `territorialer-anwendungsbereich-art-2`, danach `persönlicher-anwendungsbereich-rollen-art-3` und `risikoklassen-uebersicht-und-triage`.
 - **Konventionelle Software wahrscheinlich:** Ergebnis dokumentieren; bei Grenzfällen zusätzlich `abgrenzung-konventionelle-software-vs-ki-system`.
 - **GPAI oder allgemeiner Chatbot betroffen:** zusätzlich `gpai-vorliegen-art-3-nr-63`, `begrenztes-risiko-art-50-transparenzpflichten` und bei Hochrisiko-Kontexten `hochrisiko-art-6-abs-2-anhang-iii`.
 - **Unklare Tatsachen:** offene Punkte im Output markieren und nicht mit Scheinsicherheit entscheiden.
@@ -213,4 +207,4 @@ Diese Einordnung beruht auf den angegebenen Tatsachen. Bei geänderter Zweckbest
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Zu berücksichtigen sind Art. 3 Nr. 1, Nr. 12, Nr. 13 und Nr. 23 KI-VO, Erwägungsgrund 12 sowie die Kommissionsleitlinien zur Definition des KI-Systems. Keine Rechtsberatung; die Einordnung bleibt abhängig vom konkreten Tatsachenvortrag.
+Stand: 07/2026. Zu berücksichtigen sind Art. 3 Nr. 1, Nr. 12, Nr. 13 und Nr. 23 KI-VO, Erwägungsgrund 12 sowie die Kommissionsleitlinien zur Definition des KI-Systems. Keine Rechtsberatung; die Einordnung bleibt abhängig vom konkreten Tatsachenvortrag.

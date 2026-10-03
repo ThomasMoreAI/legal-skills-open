@@ -5,7 +5,7 @@ description: Conduct a GxP audit of computerized systems and processes. Covers a
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/caveman-ultra/skills/conduct-gxp-audit
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: life-sciences
@@ -134,7 +134,7 @@ Review docs + records vs. audit criteria:
 Classify each finding by severity:
 
 | Classification | Definition | Response Required |
-|---------------|------------|-------------------|
+|---|---|---|
 | **Critical** | Direct impact on product quality, patient safety, or data integrity. Systematic failure of a key control. | Immediate containment + CAPA within 15 business days |
 | **Major** | Significant departure from GxP requirements. Potential to impact data integrity if uncorrected. | CAPA within 30 business days |
 | **Minor** | Isolated deviation from procedure. No direct impact on data integrity or product quality. | Correction within 60 business days |

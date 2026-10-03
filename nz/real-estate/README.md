@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `real-estate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`LINZ Title Memorials`](skills/linz-title-memorials-thecolab-ai/) | Use when researching NZ Records of Title memorials, Building Act 2004 s73/s74 natural-hazard title entries,… |
+| [`LINZ Title Memorials`](skills/linz-title-memorials-thecolab-ai/) | Use when researching NZ Records of Title memorials, Building Act 2004 s73/s74 natural-hazard title… |
 
 ## Cold-start context
 

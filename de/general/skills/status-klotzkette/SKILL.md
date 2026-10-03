@@ -1,11 +1,11 @@
 ---
 name: status-klotzkette
 title: 'Fallstatus: Zielgruppengerechte Fallzusammenfassung'
-description: Fallstatuszusammenfassung nach Zielgruppe — mandantengerichtet (verständliche Sprache), intern (für den Supervisor) oder gerichts-/behördengerichtet (formale Schriftsatzform per Verfahrensordnung). Gleiche Fakten, unterschiedliche Darstellung und Tiefe. Lädt, wenn ein Studierender den Mandanten informieren, den Supervisor briefen oder einen gerichtlichen/behördlichen Statusbericht vorbereiten muss.
+description: 'Für Fallstatus: Zielgruppengerechte Fallzusammenfassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/status
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,9 +14,13 @@ language: de
 
 # Fallstatus: Zielgruppengerechte Fallzusammenfassung
 
-## Zweck
+## Arbeitsweg
 
-Rechtsberatungsstellen erstellen eine Vielzahl von Statusmitteilungen — an Mandanten, Supervisoren, Gerichte und Behörden. Gleicher Fall, gleiche Fakten, völlig verschiedene Dokumente. Diese Skill nimmt die Fallnotizen und erstellt die jeweils passende Zusammenfassung für den jeweiligen Leser.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -28,20 +32,15 @@ Rechtsberatungsstellen erstellen eine Vielzahl von Statusmitteilungen — an Man
 
 ### Kernvorschriften
 
-- **§ 6 RDG** — Informationspflicht: Mandanten sind über den Verfahrensstand verständlich zu informieren; liegt in der Eigenverantwortung des Studierenden unter Supervisoren-Aufsicht.
-- **§ 43a Abs. 2 BRAO** — Verschwiegenheitspflicht: Statusberichte enthalten vertrauliche Mandantendaten; keine Weitergabe ohne Einwilligung.
-- **§ 11a BRAO** — Studentische Rechtsanwaltsbeschäftigung: Studierende in Beratungsstellen handeln unter Aufsicht; Statusberichte an Gerichte gehen erst nach Supervisoren-Freigabe heraus.
-- **§§ 128–142 ZPO** — Schriftsätze an Gericht: Form- und Inhaltsvorgaben für gerichtliche Statusberichte; örtliche Geschäftsordnungen beachten.
-- **§ 81 VwVfG** — Verfahrensabschluss und Mitteilungspflichten der Behörde; spiegelbildlich Informationspflicht des Vertreters gegenüber dem Mandanten.
-- **Art. 13, 14 DSGVO** — Informationspflichten beim Umgang mit personenbezogenen Daten; Statusberichte, die Verarbeitungen beschreiben, müssen den Datenschutzvorgaben genügen.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragraf 6 Absatz 2 RDG** — Die unentgeltliche Rechtsdienstleistung außerhalb enger persönlicher Beziehungen wird durch eine befugte Person, eine Person mit Befähigung zum Richteramt oder unter deren Anleitung erbracht; Art und Umfang der Mitwirkung richten sich nach dem Einzelfall.
+- **Paragraf 43a Absatz 2 BRAO** — Der anleitende Rechtsanwalt wahrt die Verschwiegenheit und verpflichtet mitwirkende Hilfspersonen in Textform, soweit die gesetzlichen Voraussetzungen vorliegen.
+- **Paragraf 11 BORA sowie Paragrafen 675 und 666 BGB** — Im anwaltlich geführten Mandat sind wesentliche Vorgänge angemessen mitzuteilen und Auskünfte über den Bearbeitungsstand zu erteilen.
+- **Paragrafen 130, 130a und 130d ZPO** — Für einen gerichtlichen Schriftsatz sind Inhalt, elektronische Form und der vorgeschriebene Übermittlungsweg gesondert zu prüfen; ein bloßer interner Statusbericht ist noch kein Gerichtsschriftsatz.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Modus: Mandantengerichtet
@@ -59,10 +58,10 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Schwächen des Falls (es sei denn, es ist Zeit für dieses Gespräch — das entscheidet der Supervisor, nicht ein Statusupdate)
 - Fachjargon
 
-*Prüfvermerk für den Studierenden (nicht für den Mandanten — vor Versand entfernen):*
-`[KI-GESTÜTZTER ENTWURF — erfordert studentische Prüfung und Supervisionsschritt per Klinik-Konfiguration]`
+*Prüfvermerk für den Studentenn (nicht für den Mandanten — vor Versand entfernen):*
+`[ENTWURF — erfordert fachliche Prüfung und den vorgesehenen Anleitungsschritt]`
 
-Verfahrensrechtlicher Hinweis: Manche Beratungsstellen (insb. unter BRAO-Aufsicht) haben spezifische Unterschriftsblöcke für Briefe unter Studierenden-Aufsicht. Anforderungen mit dem Supervisor klären.
+Verfahrensrechtlicher Hinweis: Manche Beratungsstellen (insb. unter BRAO-Aufsicht) haben spezifische Unterschriftsblöcke für Briefe unter Studentenn-Aufsicht. Anforderungen mit dem Supervisor klären.
 
 ```markdown
 Sehr geehrte/r [Mandant/-in],
@@ -79,33 +78,33 @@ eine Antwort. Falls nichts kommt, melden wir uns."]
 **Was Sie tun müssen:** [Konkret und klar. Oder: "Im Moment müssen Sie nichts
 tun. Wir melden uns, sobald wir etwas von Ihnen brauchen."]
 
-**So erreichen Sie uns:** [Telefon, Sprechzeiten, Name des Studierenden]
+**So erreichen Sie uns:** [Telefon, Sprechzeiten, Name des Studentenn]
 
 Mit freundlichen Grüßen
 
-[Name des Studierenden]
+[Name des Studentenn]
 Studentische/-r Rechtsberater/-in
 unter Aufsicht von [Supervisorenname, Rechtsanwalt/-anwältin]
 [Name der Beratungsstelle]
 ```
 
-**Vor Versand:** Das Versenden eines Mandantenstatus ist eine folgenschwere Handlung. Gate: Supervisionsmodell der Klinik (§ 6 Abs. 2 RDG). Bestätigen, dass der Entwurf dem Supervisionsprozess entsprechend geprüft wurde und alle internen Vermerke (`[KI-GESTÜTZTER ENTWURF]`, `[PRÜFEN]` etc.) aus der Mandantenversion entfernt wurden.
+**Vor Versand:** Das Versenden eines Mandantenstatus ist eine folgenschwere Handlung. Die nach Paragraf 6 Absatz 2 RDG erforderliche Anleitung und Mitwirkung müssen dokumentiert sein. Alle internen Vermerke wie `[ENTWURF]` oder `[PRÜFEN]` sind aus der Mandantenversion zu entfernen.
 
 ### Modus: Intern (für den Supervisor)
 
-**Leser/-in:** Der begleitende Supervisor. Kennt das Recht. Will wissen, wo der Fall steht und was der Studierende von ihm/ihr braucht.
+**Leser/-in:** Der begleitende Supervisor. Kennt das Recht. Will wissen, wo der Fall steht und was der Studenten von ihm/ihr braucht.
 
 **Einzubeziehen:**
 - Verfahrensstand (wo im Verfahren)
 - Was seit dem letzten Check-in getan wurde
 - Was als nächstes kommt (Fristen, Termine)
 - Fragen, die Supervisoren-Input erfordern
-- Einschätzung des Studierenden (wie läuft es, Bedenken)
+- Einschätzung des Studentenn (wie läuft es, Bedenken)
 
 ```markdown
-# Fallstatus: [Mandant] — [Gegenstand] — [Datum]
+### Fallstatus: [Mandant] — [Gegenstand] — [Datum]
 
-**Studierender:** [Name] | **Verfahrensstand:** [Vorberatung / Widerspruch eingereicht /
+**Studentenr:** [Name] | **Verfahrensstand:** [Vorberatung / Widerspruch eingereicht /
 Klage erhoben / Verhandlung ausstehend / etc.]
 
 ## Seit dem letzten Check-in
@@ -116,19 +115,19 @@ Klage erhoben / Verhandlung ausstehend / etc.]
 
 | Datum | Was | Handlung erforderlich durch |
 |---|---|---|
-| [Datum] | [Frist/Termin] | [Studierender/Supervisor/beide] |
+| [Datum] | [Frist/Termin] | [Studentenr/Supervisor/beide] |
 
 ## Supervisoren-Input benötigt
 
 - [Konkrete Frage oder Entscheidungspunkt]
 
-## Einschätzung des Studierenden
+## Einschätzung des Studentenn
 
 [Wie läuft es. Stärken, Bedenken, strategische Fragen. Hier zeigt sich das Denken
-des Studierenden.]
+des Studentenn.]
 
 ---
-[KI-GESTÜTZTER ENTWURF — Studierender sollte insb. den Abschnitt Einschätzung
+[KI-GESTÜTZTER ENTWURF — Studentenr sollte insb. den Abschnitt Einschätzung
 selbst formulieren; das ist sein/ihr Denken, keine Notizenzusammenfassung]
 ```
 
@@ -146,9 +145,9 @@ selbst formulieren; das ist sein/ihr Denken, keine Notizenzusammenfassung]
 
 ```
 ═══════════════════════════════════════════════════════════════════════
-  KI-GESTÜTZTER ENTWURF — erfordert studentische Analyse und Supervisoren-Prüfung
-  Gerichtliche und behördliche Schriftstücke IMMER vor Einreichung mit Supervisor
-  abstimmen (§ 6 Abs. 2 RDG)
+ KI-GESTÜTZTER ENTWURF — erfordert studentische Analyse und Supervisoren-Prüfung
+ Gerichtliche und behördliche Schriftstücke IMMER vor Einreichung mit Supervisor
+ abstimmen (§ 6 Abs. 2 RDG)
 ═══════════════════════════════════════════════════════════════════════
 
 [Rubrum nach Verfahrensordnung — PRÜFEN gegen aktuelle Gerichts-/Behördenregeln]
@@ -166,7 +165,7 @@ vom [Datum] / § [X] ZPO/VwGO/VwVfG / im Hinblick auf den Termin vom [Datum]] an
 
 4. Vorgeschlagene nächste Schritte: [soweit relevant]
 
-[Unterschriftsblock — Studierender unter Aufsicht von [Supervisor, Rechtsanwalt/-anwältin]]
+[Unterschriftsblock — Studentenr unter Aufsicht von [Supervisor, Rechtsanwalt/-anwältin]]
 
 [Zustellungsnachweis falls eingereicht]
 
@@ -183,10 +182,6 @@ Entsprechend der Klinik-Konfiguration:
 - Intern → kein Flag (geht ohnehin an den Supervisor)
 - Gerichts-/Behördengerichtet → immer geflaggt, wenn formelle Prüfwarteschlange aktiviert (gerichtliche/behördliche Einreichungen)
 
-## Ausgabeformat
-
-Strukturierter Markdown-Text nach dem jeweiligen Zielgruppen-Modus oben. Interne Prüfvermerke erscheinen im Entwurf; sie werden vor Versand an Mandanten, Gerichte oder Behörden entfernt.
-
 ## Beispiel
 
 **Szenario:** Mandantin Erdem, Widerspruch gegen Nebenkostennachforderung. Widerspruch eingereicht 01.04.2026. Bestätigung vom Vermieter erwartet.
@@ -201,10 +196,12 @@ Strukturierter Markdown-Text nach dem jeweiligen Zielgruppen-Modus oben. Interne
 - **Strategische Hinweise an Mandanten ohne Supervisorengespräch:** Schlechte Nachrichten (z. B. geringer Erfolgsaussichten) oder strategische Optionen gehören in das Supervisorengespräch, nicht in einen Statusbrief.
 - **Gerichtlicher Statusbericht ohne Supervisoren-Freigabe:** Verstoß gegen § 6 Abs. 2 RDG. Jedes nach außen gehende Schriftstück wird vom Supervisor freigegeben.
 - **Falsche Datumsangaben:** Fristen- und Terminangaben im Mandantenbrief müssen mit `deadlines.yaml` abgeglichen werden.
-- **Studentische Einschätzung im internen Bericht KI-generiert:** Der Abschnitt "Einschätzung des Studierenden" ist persönliches Denken. Die KI kann ihn strukturieren; schreiben muss ihn der Studierende selbst.
+- **Studentische Einschätzung im internen Bericht KI-generiert:** Der Abschnitt "Einschätzung des Studentenn" ist persönliches Denken. Die KI kann ihn strukturieren; schreiben muss ihn der Studenten selbst.
 
 ## Quellenpflicht
 
 Statusberichte enthalten keine zitierten Normen als Primärbelege — das obliegt den zugrunde liegenden Gutachten (`/memo`). Rechtliche Behauptungen in Statusberichten müssen durch verifizierte Gutachten gedeckt sein, auf die der Bericht verweist. Kein Status-Schriftstück enthält ungeprüfte Rechtsbehauptungen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

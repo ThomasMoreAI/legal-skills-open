@@ -5,11 +5,16 @@ description: 通过企业名称/注册号/统一信用代码查询专利申请�
 author: qq5855144
 author_url: https://github.com/qq5855144/GitHubM/tree/main/.skills/patent-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: zh
+sources:
+- title: Patent detail api
+  path: references/patent-detail-api.md
+- title: Patent list api
+  path: references/patent-list-api.md
 ---
 
 ## 能力概述

@@ -1,11 +1,11 @@
 ---
 name: ueberschuldung-pruefung-19-inso
 title: Zweistufige Überschuldungsprüfung gem. § 19 Abs. 2 InsO
-description: 'Führt die zweistufige Überschuldungsprüfung gem. § 19 Abs. 2 InsO durch: Fortbestehensprognose (Stufe 1) und insolvenzrechtlicher Überschuldungsstatus auf Liquidationswertbasis (Stufe 2). Lädt, wenn Überschuldung geprüft, ein Überschuldungsstatus erstellt oder § 19 InsO ausgelegt werden soll.'
+description: 'Für Zweistufige Überschuldungsprüfung gem. Paragraf 19 Abs. 2 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/ueberschuldung-pruefung-19-inso
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,6 +14,24 @@ language: de
 
 # Zweistufige Überschuldungsprüfung gem. § 19 Abs. 2 InsO
 
+## Arbeitsbereich
+
+Führt die zweistufige Überschuldungsprüfung gem. § 19 Abs. 2 InsO durch: Fortbestehensprognose (Stufe 1) und insolvenzrechtlicher Überschuldungsstatus auf Liquidationswertbasis (Stufe 2). Lädt, wenn Überschuldung geprüft, ein Überschuldungsstatus erstellt oder § 19 InsO ausgelegt werden soll. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Zweistufige Überschuldungsprüfung gem. § 19 Abs. 2 InsO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
 ## Zweck
 
 Dieser Skill leitet die strukturierte Prüfung durch, ob bei einer Kapitalgesellschaft
@@ -21,6 +39,12 @@ Dieser Skill leitet die strukturierte Prüfung durch, ob bei einer Kapitalgesell
 auslösender Eröffnungsgrund vorliegt. Er klärt den modifizierten zweistufigen
 Überschuldungsbegriff, benennt die Prüfungsschritte, stellt Hinweise zur Dokumentation
 bereit und warnt vor den häufigsten Bewertungsfehlern.
+
+Wichtig: Die Fortbestehensprognose ist nicht dasselbe wie volle Sanierungsfähigkeit. Sie
+prüft für § 19 InsO, ob die Zahlungsfähigkeit im Prognosezeitraum überwiegend wahrscheinlich
+erhalten bleibt. Ein Sanierungskonzept geht weiter und muss Krisenursachen, Leitbild,
+Maßnahmen, integrierte GuV-/Bilanz-/Liquiditätsplanung, Szenarien und Dokumentation
+zusammenführen.
 
 ## Eingaben
 
@@ -56,27 +80,26 @@ zwölf Monaten. Zum Stichtag 18.05.2026 beträgt der Prognosezeitraum zwölf Mon
 
 **Abgrenzung handelsbilanzieller vs. insolvenzrechtlicher Überschuldung:** Negative Handelsbilanz indiziert mögliche insolvenzrechtliche Überschuldung, begründet sie aber nicht zwingend. Positives HGB-Eigenkapital schließt umgekehrt eine insolvenzrechtliche Überschuldung nicht aus, wenn Vermögensgegenstände zu Fortführungswerten überhöht aktiviert sind.
 
-**Qualifizierter Rangrücktritt:** Nur ein qualifizierter Rangrücktritt (Erfüllung beschränkt auf das freie, die sonstigen Verbindlichkeiten übersteigende Vermögen) bewirkt das Ausscheiden aus dem Überschuldungsstatus iSd § 19 Abs. 2 S. 2 InsO. Einfacher Rangrücktritt genügt nicht.
+**Qualifizierter Rangrücktritt:** Ein Rangrücktritt entfernt die Forderung aus dem Überschuldungsstatus nur, wenn er mehr leistet als einen bloßen Nachrang. Er muss die Durchsetzung vor und nach Insolvenzreife so sperren, dass durch Zahlung weder Zahlungsunfähigkeit noch Überschuldung ausgelöst oder vertieft wird. Zahlung darf nur aus freiem Vermögen, aus einem künftigen Bilanzgewinn, aus Liquidationsüberschuss oder aus sonstigem freien Liquiditätsüberschuss erfolgen. Die Rechtsprechung behandelt den qualifizierten Rangrücktritt als schuldrechtliche Vereinbarung mit Wirkung zugunsten der Gläubigergesamtheit; nach Insolvenzreife kann er nicht beliebig durch Schuldner und Rangrücktrittsgläubiger zu Lasten der übrigen Gläubiger beseitigt werden. Leitanker: BGH IX ZR 133/14 vom 05.03.2015, BGH IX ZR 143/17 vom 06.12.2018, BGH IX ZR 250/20 vom 24.02.2022.
+
+**Patronat und Comfort Letter:** Eine harte Patronatserklärung kann für Fortbestehensprognose und Liquiditätsplanung nur tragen, wenn Anspruchsinhaber, Leistungspflicht, Betrag, Zeitraum, Abrufmechanik und Bonität des Patrons konkret belegt sind. Eine weiche Patronatserklärung oder bloße Unterstützungserwartung beseitigt rechnerische Überschuldung nicht und trägt die Fortbestehensprognose nur ausnahmsweise, wenn eine belastbare tatsächliche Finanzierungswahrscheinlichkeit nachgewiesen ist. Leitanker: BGH II ZR 84/20 vom 13.07.2021; bei externer harter Patronatserklärung zusätzlich BGH IX ZR 95/16 vom 12.01.2017 für Haftungsfolgen bei späterer Anfechtung.
 
 Hinweis: Aktenzeichen und Randnummern der einschlägigen BGH-Entscheidungen (zur Fortbestehensprognose, Liquidationswerten, Rangrücktritt) vor Ausgabe in offener Quelle (dejure.org, openjur.de, bundesgerichtshof.de) prüfen.
 
 ### Quellen (nur verifiziert)
 
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
-  (umfassend zur Prüfungsreihenfolge, zum modifizierten Überschuldungsbegriff und zur
-  Behandlung nachrangiger Verbindlichkeiten)
+ (umfassend zur Prüfungsreihenfolge, zum modifizierten Überschuldungsbegriff und zur
+ Behandlung nachrangiger Verbindlichkeiten)
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-  (Bewertungsmethodik Liquidationswerte, Gesellschafterdarlehen, Pensionsrückstellungen)
-- Schmerbach, in: K. Schmidt, InsO, 20. Aufl. 2023, § 19 Rn. 10 ff.
-  (Überblick SanInsFoG-Änderungen, Prognosezeitraum)
+ (Bewertungsmethodik Liquidationswerte, Gesellschafterdarlehen, Pensionsrückstellungen)
+### Berufsständische Methodenlogik
 
-### IDW S 11
-
-IDW S 11 (Beurteilung des Vorliegens von Insolvenzeröffnungsgründen), Stand 2022, Tz. 56 ff.:
-Der Standard beschreibt die Mindestanforderungen an den Überschuldungsstatus und die
-Fortbestehensprognose. Tz. 56 ff. fordern einen integrierten Finanzplan (Plan-GuV, Plan-Bilanz,
-Liquiditätsplan) als Grundlage der Fortbestehensprognose; Tz. 63 ff. regeln den Ansatz und
-die Bewertung der Aktiva und Passiva im Überschuldungsstatus zu Liquidationswerten.
+Für Überschuldungsstatus und Fortbestehensprognose ist ein integrierter Finanzplan
+erforderlich: Plan-GuV, Plan-Bilanz und Liquiditätsplan müssen zusammenpassen. Wenn
+die Prüfung zugleich eine Sanierungsaussage tragen soll, sind zusätzlich die Bausteine
+eines Sanierungskonzepts zu prüfen: Ausgangslage, Krisenstadium, Krisenursachen, Leitbild,
+Maßnahmen, integrierte Planung, Szenarien, Sanierungsfähigkeit und Dokumentation.
 
 ## Ablauf
 
@@ -87,10 +110,16 @@ Ist ein schlüssiges Unternehmenskonzept (Fortführungsstrategie, Geschäftsmode
 Absatzplanung) vorhanden und plausibel? Ohne Konzept kann keine positive Prognose
 gestellt werden.
 
+Wenn Sanierungsfähigkeit behauptet wird, zusätzlich prüfen: Sind die wesentlichen
+Krisenursachen nach Maßnahmen beseitigt oder beherrschbar? Ist das Unternehmen nach
+Umsetzung wieder wettbewerbs-, rendite- und finanzierungsfähig? Eine bloße
+Liquiditätsverlängerung genügt dafür nicht.
+
 **1.2 Integrierten Finanzplan erstellen**
 - Plan-GuV für die kommenden zwölf Monate (Regelzeitraum ab 01.01.2024)
 - Plan-Bilanz zu den relevanten Stichtagen
 - monatlicher Liquiditätsplan (Mittelzuflüsse, Mittelabflüsse, Saldo)
+- Maßnahmenlog mit Kosten, Timing, Verantwortlichen, Bilanz-/GuV-/Liquiditätseffekt und Belegstatus, sofern Sanierungsfähigkeit beurteilt wird.
 
 **1.3 Prognoseurteil**
 Maßgebliches Kriterium: überwiegende Wahrscheinlichkeit (> 50 %) der Aufrechterhaltung
@@ -101,7 +130,7 @@ der Zahlungsfähigkeit im Prognosezeitraum. Die Planungsannahmen sind zu plausib
 
 → **Positive Prognose**: Keine Überschuldung i.S.d. § 19 Abs. 2 InsO — Prüfung endet hier.
 → **Negative Prognose** (oder Prognose nicht mit überwiegender Wahrscheinlichkeit positiv):
-   Weiter mit Schritt 2.
+ Weiter mit Schritt 2.
 
 ### Schritt 2 — Insolvenzrechtlicher Überschuldungsstatus (Stufe 2)
 
@@ -116,13 +145,25 @@ erfassen — nicht zu HGB-Buchwerten oder Fortführungswerten. Typische Abweichu
 
 **2.2 Passivseite vollständig erfassen**
 - Sämtliche Verbindlichkeiten inkl. nachrangiger Forderungen gem. § 39 InsO
-  (insb. Gesellschafterdarlehen)
+ (insb. Gesellschafterdarlehen)
 - Eventualverbindlichkeiten (Bürgschaften, Garantien) nach Wahrscheinlichkeitsbewertung
 - Pensionsrückstellungen: versicherungsmathematisch ermittelt, nicht HGB-Abzinsung
 - Latente Steuerschulden aus stillen Reserven
 - **Ausnahme § 19 Abs. 2 Satz 2 InsO**: Verbindlichkeiten mit qualifiziertem Rangrücktritt
-  (Erfüllung ausdrücklich nur aus freiem, die übrigen Verbindlichkeiten übersteigendem
-  Vermögen zugesagt) sind aus der Passivseite herauszulassen.
+ sind aus der Passivseite herauszulassen, wenn die Klausel eine insolvenzvermeidende
+ Durchsetzungssperre enthält und Zahlungen nur aus freiem Vermögen, künftigen Gewinnen,
+ Liquidationsüberschuss oder freiem Liquiditätsüberschuss zulässt. Eine bloße
+ Rangreihenfolge oder ein einfacher Nachrang genügt nicht.
+
+**2.2a Sanierungsbausteine auf Passivseite prüfen**
+
+| Baustein | Passivierungswirkung | Prüffrage |
+|---|---|---|
+| Qualifizierter Rangrücktritt | Forderung kann aus dem Überschuldungsstatus ausscheiden | Sperrt die Klausel Zahlungen auch vor Insolvenzreife, soweit sie Eröffnungsgründe auslösen würden? |
+| Einfacher Rangrücktritt | Forderung bleibt grundsätzlich Passivum | Wird nur die Rangfolge geregelt oder auch die Durchsetzung gesperrt? |
+| Harte interne Patronatserklärung | Kann Aktiv-/Liquiditätsseite stärken | Hat die Gesellschaft einen durchsetzbaren Anspruch gegen den Patron? |
+| Harte externe Patronatserklärung | Stärkt eher Gläubigerposition | Fließt rechtzeitig Liquidität an die Schuldnerin oder nur Zahlung an Dritte? |
+| Weicher Comfort Letter | Keine automatische Entlastung | Ist mehr belegt als eine Unterstützungsabsicht? |
 
 **2.3 Saldierung und Ergebnis**
 Übersteigen die Passiva die Aktiva (Liquidationswerte), liegt rechnerische Überschuldung vor.
@@ -132,36 +173,6 @@ Dokumentation im Überschuldungsstatus (tabellarische Gegenüberstellung).
 Bei Überschuldung: Antragspflicht gem. § 15a Abs. 1 InsO — Frist grundsätzlich sechs Wochen.
 Parallel prüfen: Zahlungsunfähigkeit gem. § 17 InsO und drohende Zahlungsunfähigkeit
 gem. § 18 InsO.
-
-## Ausgabeformat
-
-Erstelle ein strukturiertes Gutachten mit folgenden Abschnitten:
-
-```
-I.   Sachverhalt und Prüfungsanlass
-II.  Fortbestehensprognose
-     1. Unternehmenskonzept
-     2. Finanzplanung (tabellarisch: Monat 1–12, Liquiditätssaldo)
-     3. Prognoseergebnis mit Begründung
-III. Überschuldungsstatus (bei negativer Prognose)
-     Aktiva (Liquidationswerte)          EUR
-     ─────────────────────────────────────────
-     Anlagevermögen                      ...
-     Umlaufvermögen                      ...
-     Sonstige Aktiva                     ...
-     Summe Aktiva                        ...
-     ─────────────────────────────────────────
-     Passiva
-     Verbindlichkeiten (gesamt)          ...
-     ./. qualif. Rangrücktritt           ...
-     Summe Passiva (maßgeblich)          ...
-     ─────────────────────────────────────────
-     Saldo (Unter-/Überdeckung)          ...
-IV.  Rechtliches Ergebnis
-V.   Handlungsempfehlung (Antragspflicht, Sanierungsoptionen)
-```
-
-Quellenangaben in Fußnoten oder am Ende des Gutachtens.
 
 ## Beispiel
 
@@ -195,31 +206,30 @@ Plan-Cashflow (12 Monate, stark vereinfacht):
 
 → Kumulierter Liquiditätssaldo nach 12 Monaten: **–420.000 EUR**
 → Ergebnis Stufe 1: **Negative Fortbestehensprognose.** Die Zahlungsfähigkeit kann im
-   Prognosezeitraum (12 Monate) nicht mit überwiegender Wahrscheinlichkeit aufrechterhalten
-   werden. Prüfung Stufe 2 ist durchzuführen.
+ Prognosezeitraum (12 Monate) nicht mit überwiegender Wahrscheinlichkeit aufrechterhalten
+ werden. Prüfung Stufe 2 ist durchzuführen.
 
 **III. Überschuldungsstatus zu Liquidationswerten (Stufe 2)**
 
-| Aktiva (Liquidationswerte)                     |        EUR |
+| Aktiva (Liquidationswerte) | EUR |
 |------------------------------------------------|------------|
-| Grundstück/Gebäude (Verkehrswert –15 %)        |  320.000   |
-| Maschinen/Anlagen (Gebrauchtmarktwert)         |  180.000   |
-| Vorräte (Liquidationsabschlag 40 %)            |   90.000   |
-| Forderungen (Ausfallabschlag 25 %)             |  180.000   |
-| Kassenbestand / Bankguthaben                   |   80.000   |
-| **Summe Aktiva**                               |**850.000** |
+| Grundstück/Gebäude (Verkehrswert –15 %) | 320.000 |
+| Maschinen/Anlagen (Gebrauchtmarktwert) | 180.000 |
+| Vorräte (Liquidationsabschlag 40 %) | 90.000 |
+| Forderungen (Ausfallabschlag 25 %) | 180.000 |
+| Kassenbestand / Bankguthaben | 80.000 |
+| **Summe Aktiva** |**850.000** |
 
-| Passiva                                        |        EUR |
+| Passiva | EUR |
 |------------------------------------------------|------------|
-| Bankverbindlichkeiten                          |  600.000   |
-| Lieferantenverbindlichkeiten                   |  150.000   |
-| Steuerverbindlichkeiten                        |   80.000   |
-| Pensionsrückstellungen (versicherungsmath.)    |  120.000   |
-| Gesellschafterdarlehen (§ 39 InsO-Nachrang,    |            |
-|   OHNE qualifizierten Rangrücktritt)           |  200.000   |
-| **Summe Passiva**                              |**1.150.000**|
-
-| **Saldo (Unterdeckung)**                       |**–300.000**|
+| Bankverbindlichkeiten | 600.000 |
+| Lieferantenverbindlichkeiten | 150.000 |
+| Steuerverbindlichkeiten | 80.000 |
+| Pensionsrückstellungen (versicherungsmath.) | 120.000 |
+| Gesellschafterdarlehen (§ 39 InsO-Nachrang, | |
+| OHNE qualifizierten Rangrücktritt) | 200.000 |
+| **Summe Passiva** |**1.150.000**|
+| **Saldo (Unterdeckung)** |**–300.000**|
 
 → Ergebnis Stufe 2: **Rechnerische Überschuldung** i.H.v. 300.000 EUR.
 
@@ -242,11 +252,13 @@ Ein Gesellschafterdarlehen mit einfachem Rangrücktritt bleibt Passivposten im
 aus freiem, die übrigen Verbindlichkeiten übersteigendem Vermögen) führt gem.
 § 19 Abs. 2 S. 2 InsO zum Ausscheiden aus dem Status (st. BGH-Linie; konkretes Az. vor Ausgabe verifizieren).
 
+Prüfe zusätzlich, ob die Klausel steuerlich als Rückzahlung nur aus künftigem Bilanzgewinn, Liquidationsüberschuss oder sonstigem freien Vermögen ausgestaltet ist. Wenn die Rückzahlung aus sonstigem freien Vermögen möglich bleibt, kann eine Passivierung nach Paragraf 5 Absatz 2a EStG weiterhin geboten sein; BFH I R 25/15 vom 10.08.2016 und BFH XI R 32/18 vom 19.08.2020 als Steueranker heranziehen.
+
 **Fehler 3 — Mangelhafte Fortbestehensprognose ohne Plausibilisierung**
 Eine Fortbestehensprognose, die sich auf pauschale Hoffnungen oder ungesicherte
 Finanzierungsabsichten stützt, ist rechtlich wertlos. Erforderlich sind integrierte
 Finanzplanungen mit nachvollziehbaren Annahmen, die einer Plausibilitätsprüfung
-nach IDW S 11 standhalten (st. BGH-Linie; Az. vor Ausgabe verifizieren).
+standhalten (st. BGH-Linie; Az. vor Ausgabe verifizieren).
 
 **Fehler 4 — Pensionsrückstellungen und latente Steuern falsch angesetzt**
 Pensionsrückstellungen sind versicherungsmathematisch (nicht nach HGB-Abzinsung) zu
@@ -263,6 +275,12 @@ führt zu systematischer Untererfassung der Passiva.
 Seit 01.01.2024 gilt wieder der 12-Monats-Zeitraum. Die SanInsKG-Verkürzung auf
 vier Monate ist ausgelaufen. Prognosezeitraum-Fehler infizieren die gesamte Prüfung.
 
+**Fehler 7 — Fortbestehensprognose mit Sanierungskonzept verwechseln**
+Eine positive Liquiditätsprognose beseitigt den Überschuldungsgrund, beweist aber noch
+nicht, dass das Geschäftsmodell dauerhaft saniert ist. Für Sanierungsfähigkeit sind
+Krisenursachen, Leitbild, Maßnahmen, integrierte Planung, Sensitivitäten und Nachweise
+gesondert zu dokumentieren.
+
 ## Quellenpflicht
 
 Jede Aussage zu Prüfungsmaßstäben, Bewertungsmethoden oder Rechtsfolgen ist zu belegen.
@@ -273,34 +291,32 @@ Mindeststandard:
 - BGH-Linie zur Abgrenzung handels- vs. insolvenzrechtliche Überschuldung: Az. vor Ausgabe verifizieren.
 - Grundlegende BGH-Linie zum qualifizierten Rangrücktritt nach § 19 Abs. 2 S. 2 InsO: Az. vor Ausgabe verifizieren.
 - **BGH IX ZR 285/14 vom 26.01.2017** (Steuerberater-Hinweispflicht) und **BGH IX ZR 56/22 vom 29.06.2023** (Drittschutz) relevant für die Berater-Position bei Erstellung der Prognose.
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.01.2017&Aktenzeichen=IX+ZR+285/14>
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=29.06.2023&Aktenzeichen=IX+ZR+56/22>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.01.2017&Aktenzeichen=IX+ZR+285/14>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=29.06.2023&Aktenzeichen=IX+ZR+56/22>
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Schmerbach, in: K. Schmidt, InsO, 20. Aufl. 2023, § 19 Rn. 10 ff.
-- IDW S 11, Stand 2022, Tz. 56 ff.
+- Berufsständischer Methodenrahmen zu Insolvenzeröffnungsgründen und Sanierungskonzepten nur als Arbeitsmaßstab; keine Literaturfundstellen ohne Nutzerquelle oder lizenzierten Live-Zugriff.
 
 ---
 *Dieser Skill ersetzt keine konkrete anwaltliche Beratung im Einzelfall.*
 
-
-## Triage — Ueberschuldungs-Pruefung § 19 InsO
+## Triage — Ueberschuldungs-Prüfung § 19 InsO
 
 Bevor losgelegt wird, klaere:
 
 1. **Bilanzieller Status?** Aktiva kleiner als Passiva auf Basis von Fortfuehrungswerten (erste Stufe)?
 2. **Stille Reserven?** Grundstuecke, Beteiligungen, Patente zum Verkehrswert hoeher als Buchwert?
-3. **Sanierungsmassnahmen einbezogen?** Rangruecktritt, Patronatserklaerung, Kapitalzufuhr — bereits wirksam oder nur geplant?
+3. **Sanierungsmassnahmen einbezogen?** Rangrücktritt, Patronatserklaerung, Kapitalzufuhr — bereits wirksam oder nur geplant?
 4. **Fortbestehensprognose positiv?** Dann keine Ueberschuldung trotz negativem Reinvermoegen (§ 19 Abs. 2 S. 1 InsO).
 5. **Frist?** Ueberschuldung erkannt → Antragspflicht § 15a InsO: 6 Wochen.
 
 ## Output-Template Ueberschuldungs-Memo
 
-**Adressat:** Geschaeftsfuehrung / Insolvenzgericht — Tonfall: sachlich-betriebswirtschaftlich
+**Adressat:** Geschäftsführung / Insolvenzgericht — Tonfall: sachlich-betriebswirtschaftlich
 
 ```
 UEBERSCHULDUNGSSTATUS nach § 19 InsO
-Gesellschaft: [FIRMA]    Stichtag: [DATUM]
+Gesellschaft: [FIRMA] Stichtag: [DATUM]
 
 STUFE 1 — BILANZIELLER STATUS (Fortfuehrungswerte)
 Aktiva (Verkehrswerte): EUR [BETRAG]
@@ -320,3 +336,11 @@ ERGEBNIS:
 [Ueberschuldung i.S.d. § 19 InsO: JA / NEIN]
 [Antragspflicht: JA ab [DATUM] / NEIN]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

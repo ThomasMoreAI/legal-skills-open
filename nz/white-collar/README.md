@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `white-collar` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`new-zealand-nzbn`](skills/new-zealand-nzbn-nolpak14/) | Look up New Zealand companies and businesses for free via the official NZBN (New Zealand Business Number) API… |
+| [`new-zealand-nzbn`](skills/new-zealand-nzbn-nolpak14/) | Look up New Zealand companies and businesses for free via the official NZBN (New Zealand Business… |
 
 ## Cold-start context
 

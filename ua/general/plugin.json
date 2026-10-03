@@ -9,8 +9,8 @@
   "practice": "general",
   "language": "uk",
   "skills": [
+    "skills/checking-martial-law-overrides",
     "skills/citing-ukrainian-law",
-    "skills/fetching-zakon-rada",
-    "skills/checking-martial-law-overrides"
+    "skills/fetching-zakon-rada"
   ]
 }

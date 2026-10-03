@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-it-recht-software-mangel
 title: Software-Mangel
-description: Prüfung von Softwaremangelansprüchen nach Kauf-Werk- oder Dienstvertragsrecht. Anwendungsfall Software funktioniert nicht wie vereinbart und Mandant will Nachbesserung Minderung Rücktritt oder Schadensersatz. Normen §§ 433 ff. BGB Kaufrecht §§ 631 ff. BGB Werkvertragsrecht § 634 Nr. 1-4 BGB Gewaehlmaengel §§ 438 634a BGB Verjährung. Prüfraster Vertragstyp Mangelbegriff Spezifikation Nachbesserungsfrist Selbstvornahme Minderung Rücktritt Schadensersatz Open-Source-Compliance. Output Mangelanalyse-Protokoll mit Vertragstyp-Einordnung Gewaehlmaengelauswahl und Klageschrift-Baustein. Abgrenzung zu fachanwalt-it-recht-saas-vertrag-verhandlung und softwarefehler-mangelhaftung-prüfen.
+description: 'Für Software-Mangel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/fachanwalt-it-recht-software-mangel
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -30,7 +30,6 @@ language: de
 - SaaS/Cloud: Mietrecht § 535 BGB — fortlaufende Gebrauchsgewährung, Mangel § 536 BGB führt zu Minderung kraft Gesetzes.
 - Nacherfüllungspflicht: § 439 BGB (Kauf) bzw. § 635 BGB (Werk) — Nachbesserung oder Neulieferung.
 - Sekundäre Rechte nach erfolglosem Fristablauf: Rücktritt § 437 Nr. 2 i.V.m. § 323 BGB, Minderung § 441 BGB, Schadensersatz § 437 Nr. 3 i.V.m. §§ 280, 281 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Frist
 
@@ -102,10 +101,6 @@ Mit freundlichen Gruessen
 - Bei laufendem SaaS: parallel Minderungsmitteilung an Vermieter nach § 536 BGB.
 - Verjährungsfrist im Aktenkalender notieren.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Vertragstyp: Kauf / Werk / Miete / Dienst / Kombination?
@@ -136,6 +131,15 @@ Verjährung: § 438 BGB 2 Jahre ab Ablieferung / § 195 BGB 3 Jahre (§ 634a BGB
 ```
 
 ---
-<!-- AUDIT 27.05.2026: Bundle 010 Halluzinations-Reparatur -->
-<!-- VII ZR 124/18 (behauptet 06.06.2019, NJW 2019, 2867): NOT_FOUND auf dejure.org — geloescht -->
-<!-- VII ZR 190/20 (behauptet NJW 2021, 3438, Thema: Software-Mangel): WRONG_TOPIC — real: Kfz-Thermofenster delikthaftung, NJW 2021, 3721, verifiziert auf dejure.org/2021,37448 — geloescht -->
+
+
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

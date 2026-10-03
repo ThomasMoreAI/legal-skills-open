@@ -5,11 +5,18 @@ description: Word 文档格式调整 skill。当用户要求调整 / 优化 / �
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-draft-format-adjust
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Docx skill invocation patterns
+  path: references/docx-skill-invocation-patterns.md
+- title: Format check checklist
+  path: references/format-check-checklist.md
+- title: Markdown to word mapping
+  path: references/markdown-to-word-mapping.md
 ---
 
 # ecm-draft-format-adjust

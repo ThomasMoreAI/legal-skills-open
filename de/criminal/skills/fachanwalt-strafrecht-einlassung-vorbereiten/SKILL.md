@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-strafrecht-einlassung-vorbereiten
 title: Einlassung vorbereiten
-description: Schriftliche Einlassung des Beschuldigten vorbereiten oder Schweigen § 136 StPO. Schweigerecht ist Grundrecht und darf nicht nachteilig gewertet werden BGH st. Rspr. Aber Teilschweigen kann gewürdigt werden. Strategie nach Aktenlage Beweiswert Belastungszeugen Bewertung Indizien. Schriftliche oder muendliche Einlassung Schutz vor Falschangaben Glaubwürdigkeitsanalyse. Einlassung wirkt nach BGH zugunsten Beweisbewertung.
+description: 'Für Einlassung vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills/fachanwalt-strafrecht-einlassung-vorbereiten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -25,7 +25,6 @@ language: de
 
 ## Strategische Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Lüge ist nicht strafbar als solche aber kann beweisrechtlich gegen den Beschuldigten ausschlagen.
 - Schriftliche Einlassung über den Verteidiger ist regelmäßig sicherer — keine spontanen Aussagen unter Druck, präzise Formulierung, Dokumentation.
 - Mündliche Einlassung in der Hauptverhandlung kann strategischen Mehrwert haben (persönlicher Eindruck Glaubwürdigkeit).
@@ -35,7 +34,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Beweislast und Würdigung
 
 - In dubio pro reo: Bei nicht ausräumbaren Zweifeln Freispruch.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Einlassung kann der Verteidigung dienen wenn sie die Tatversion plausibel macht oder Beweise zugunsten des Beschuldigten einleitet.
 
 ## Strategie-Matrix
@@ -120,4 +118,4 @@ Mit kollegialen Gruessen
 
 ## Ergaenzende Rechtsprechung Einlassung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

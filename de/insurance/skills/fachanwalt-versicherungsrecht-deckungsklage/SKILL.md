@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-versicherungsrecht-deckungsklage
 title: Deckungsklage
-description: Deckungsklage gegen Versicherer auf Versicherungsleistung nach erfolgloser außergerichtlicher Phase. Anwendungsfall Versicherer verweigert Leistung endgueltig und Klage soll erhoben werden. Normen § 1 VVG Versicherungsanspruch § 215 VVG örtliche Zuständigkeit Wohnsitz § 256 ZPO Feststellungsantrag § 114 ZPO PKH. Prüfraster Streitwert Zuständigkeit AG oder LG Klageantrag Beweislast Sachverständigennachweis. Output Deckungsklage-Entwurf mit Antrag Sachverhalt AVB-Auslegung Sachverständigenantrag und PKH-Antrag. Abgrenzung zu klage-versicherer-strategie und fachanwalt-versicherungsrecht-leistungsablehnung-prüfen.
+description: 'Für Deckungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Fachanwalt Versicherungsrecht. Route: fachanwalt-versicherungsrecht-deckungsklage.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/fachanwalt-versicherungsrecht-deckungsklage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
@@ -36,7 +36,6 @@ language: de
 - **§ 23 Nr. 1 GVG** — Sachliche Zuständigkeit AG: bis EUR 10000 (ab 01.01.2026 Justizreform).
 - **§ 71 Abs. 1 GVG** — Sachliche Zuständigkeit LG: ab EUR 10000.
 - **§ 9 ZPO** — Streitwert wiederkehrender Leistungen: 3,5-facher Jahreswert; gedeckelter Wert bei kürzerer Restlaufzeit.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 114 ZPO** — PKH bei wirtschaftlicher Bedürftigkeit und hinreichenden Erfolgsaussichten; Beiordnung eines RA.
 - **§ 379 ZPO** — Sachverständigenvorschuss; bei PKH Übernahme durch Staatskasse.
 - **§ 72 ZPO** — Streitverkündung; Makler, Vermittler bei Beratungspflichtverletzung einbeziehen.
@@ -46,9 +45,7 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
@@ -71,7 +68,6 @@ language: de
 | 12 | Vorläufige Vollstreckbarkeit beantragt? | § 708 Nr. 11 ZPO | Standardantrag in Klage |
 | 13 | Zinsen berechnet? | §§ 280, 286, 288 BGB | Ab Verzugseinritt; 5 % über Basiszinssatz |
 | 14 | Außergerichtliche Anwaltskosten berechnet? | § 249 BGB; RVG | 1,3 Geschäftsgebühr aus Gegenstandswert |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
@@ -159,7 +155,6 @@ III. FESTSTELLUNGSINTERESSE
 
 Die Beklagte bestreitet die Leistungspflicht dem Grunde nach.
 Das Feststellungsinteresse gemäß § 256 ZPO ist gegeben —
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 IV. RECHTLICHE WÜRDIGUNG
 
@@ -167,7 +162,6 @@ IV. RECHTLICHE WÜRDIGUNG
    Der Kläger ist nach ärztlichen Attesten (Anlagen K5–K8)
    und nach dem SV-Gutachten [Name] vom [Datum] (Anlage K9)
    seit [Datum] zu mindestens 50 % berufsunfähig bezogen
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 2. Keine Obliegenheitsverletzung
    [Ablehnungsgrund Versicherer + Widerlegung]
@@ -281,7 +275,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | BU-Grad unter 50 % | Eigenes SV-Gutachten vorlegen; gerichtlicher SV im Prozess; Berufsbildanalyse detailliert |
 | Verweisung auf Vergleichsberuf | AVB auf abstrakte Verweisung prüfen; neuere AVB schließen häufig aus |
 | Vorvertragliche Anzeigepflicht verletzt | Antragsfragebogen prüfen; Kausalität zwischen Nichtanzeige und Berufsunfähigkeit |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | PKH-Antrag abzuweisen wegen mangelnder Erfolgsaussichten | Konkrete Ablehnungsbegründung ist schwach; Erfolgsaussicht darlegen |
 | Sachverständigenkosten zu hoch | § 379 ZPO-Vorschuss; bei PKH übernimmt Staatskasse; SV-Beauftragung notwendig |
 
@@ -315,16 +308,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Paragrafenkette
 
 § 256 ZPO (Feststellungsklage bei laufender BU-Rente) → § 215 VVG (örtliche Zuständigkeit Klage VN gegen Versicherer) → §§ 23, 71 GVG (sachliche Zuständigkeit AG/LG nach Streitwert) → § 1 VVG (Hauptleistungspflicht) → § 286 ZPO (Beweislast und freie Beweiswürdigung) → § 402 ZPO (gerichtlicher Sachverständiger) → § 114 ZPO (PKH bei Bedürftigkeit) → § 286 ZPO (Beweiswürdigung Privatgutachten)
@@ -342,6 +325,4 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ---
 
-<!-- AUDIT 27.05.2026 — Bundle 027 Halluzinations-Reparatur
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

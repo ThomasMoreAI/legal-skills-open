@@ -1,0 +1,132 @@
+---
+name: rechtsmittelfrist-517-zpo
+title: 'Berufungsfrist: 1 Monat — keine Verlaengerung'
+description: 'Für Berufungsfrist: 1 Monat — keine Verlängerung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/rechtsmittelfrist-517-zpo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Berufungsfrist: 1 Monat — keine Verlaengerung
+
+## Worum geht es?
+
+Die Berufungsfrist betraegt 1 Monat ab Zustellung des vollstaendigen schriftlichen Urteils. Sie ist eine **Notfrist** — keine Verlaengerung möglich. Wenn Sie die Frist versaeumen, ist das Urteil rechtskraeftig und kann nicht mehr angegriffen werden. Diese Skill warnt vor der Frist und zeigt Berechnung.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie haben ein Urteil bekommen.
+- Sie ueberlegen Berufung.
+- Sie sind unsicher, wann die Frist endet.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Rechtsmittelfrist**: Frist für Einlegung eines Rechtsmittels.
+- **Notfrist**: Nicht verlaengerbar.
+- **Rechtskraft**: Endgueltige Verbindlichkeit des Urteils.
+
+## Rechtsgrundlagen
+
+- **§ 517 ZPO** — Berufungsfrist 1 Monat.
+- **§ 520 II ZPO** — Berufungsbegruendungs-Frist 2 Monate (mit Verlaengerungsmoeglichkeit).
+- **§ 224 I ZPO** — Notfrist nicht verlaengerbar.
+- **§ 187, 188 BGB** — Fristberechnung.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Zustellung des Urteils
+
+Frist beginnt mit Zustellung des **vollstaendigen schriftlichen Urteils** — nicht mit Verkuendung oder Empfang einer ersten Information.
+
+Notieren Sie:
+
+- Tag der Zustellung.
+- Posteingangs-Stempel.
+- Gelber Umschlag aufbewahren.
+
+### Schritt 2 — Fristberechnung
+
+§ 187 II BGB i. V. m. § 188 II BGB:
+
+- Frist beginnt am Tag nach Zustellung.
+- 1 Monat = gleicher Tag im Folgemonat.
+
+Beispiel: Zustellung 15.5.2026 → Frist beginnt 16.5.2026 → Frist endet 15.6.2026.
+
+Beispiel: Zustellung 31.5.2026 → Folgemonat hat keinen 31. → Frist endet 30.6.2026.
+
+### Schritt 3 — Wochenende und Feiertag
+
+§ 193 BGB: Wenn Frist-Ende auf Wochenende/Feiertag faellt, verschiebt sich auf naechsten Werktag.
+
+Beispiel: Frist endet 15.6.2026 (Montag) → ok.
+Frist endet 14.6.2026 (Sonntag) → Verschiebung auf 15.6.2026 (Montag).
+
+### Schritt 4 — Vorfrist setzen
+
+In Ihrem Fristen-Buch (Skill `fristen-buch-fuehren-laien`):
+
+- Vorfrist: 1 Woche vor Frist-Ende.
+- Zweite Vorfrist: 3 Tage vor.
+- Erinnerung am letzten Tag.
+
+### Schritt 5 — Berufung rechtzeitig einlegen
+
+Innerhalb der Frist schriftlich (oder elektronisch über MJP) an das **Landgericht** (nicht ans AG).
+
+Skill `berufung-amtsgericht-511-zpo`.
+
+Bei Eile: Selbst-Einreichung der Berufungsschrift (§ 78 III ZPO erlaubt es). Begruendung dann mit Anwalt.
+
+### Schritt 6 — Begruendungs-Frist 2 Monate
+
+§ 520 II ZPO: **2 Monate** ab Zustellung des Urteils.
+
+Wichtig: Begruendungs-Frist laeuft ab **Zustellung**, **nicht** ab Einlegung der Berufung. Wenn Sie also 4 Wochen mit Berufung warten, haben Sie nur 4 Wochen für Begruendung.
+
+Verlaengerung der Begruendungs-Frist möglich nach § 520 II 3 ZPO (auf Antrag, durch Vorsitzenden).
+
+### Schritt 7 — Bei Versaeumnis
+
+Wenn Berufungsfrist versaeumt:
+
+- Urteil wird rechtskraeftig.
+- Wiedereinsetzung nur bei "ohne Verschulden" (§ 233 ZPO).
+- Schwer zu bekommen.
+
+### Schritt 8 — Wenn unsicher
+
+Bei Unsicherheit lieber **eher** Berufung einlegen als zu spaet. Sie können die Berufung später zuruecknehmen, wenn Sie sich anders entscheiden.
+
+Bei Selbst-Einlegung müssen Sie aber bedenken: ohne Anwalt für Begruendung droht trotzdem Verwerfung.
+
+### Schritt 9 — PKH parallel
+
+Wenn Sie sich Berufung nicht leisten können:
+
+- PKH-Antrag innerhalb der Berufungsfrist stellen.
+- PKH-Antrag hemmt die Frist (BGH).
+
+Skill `prozesskostenhilfe-pkh-114-zpo`.
+
+## Worauf Sie besonders achten müssen
+
+- **Notfrist 1 Monat** — keine Verlaengerung.
+- **Beginn mit Zustellung**, nicht Verkuendung.
+- **Begruendungs-Frist 2 Monate**, ab Zustellung (nicht Einlegung).
+- **PKH-Antrag** kann Frist hemmen.
+
+## Typische Fehler
+
+- "Frist beginnt mit Verkuendung." → Falsch — mit Zustellung.
+- "Verlaengerung der Berufungsfrist." → Nicht möglich.
+- "Ich begruende, wenn ich Zeit habe." → Begruendungs-Frist 2 Monate parallel.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. § 517 ZPO unveraendert.

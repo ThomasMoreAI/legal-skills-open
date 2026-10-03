@@ -1,0 +1,99 @@
+---
+name: rechtsabteilung-fa-stu-tatsaechliche
+title: Finanzgerichtsklage — Aufbau Frist und Akteneinsicht § 78 FGO
+description: 'Für Finanzgerichtsklage — Aufbau Frist und Akteneinsicht Paragraf 78 FGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/rechtsabteilung-fa-stu-tatsaechliche
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# Finanzgerichtsklage — Aufbau Frist und Akteneinsicht § 78 FGO
+
+## Arbeitsbereich
+
+Strukturierter Aufbau einer Finanzgerichtsklage von der Klagefrist § 47 FGO über den Klageantrag und die Begruendung bis zur Akteneinsicht § 78 FGO. Anwendungsfall Einspruchsentscheidung ist ergangen Mandant will klagen — der Skill liefert Klageschrift Klageziel und Begruendungsstrategie. Behandelt Anfechtungsklage Verpflichtungsklage und Feststellungsklage Streitwert nach § 52 GKG und Streitgegenstand. Output Klageschriftmuster und Prüfraster für Begruendung. Abgrenzung zu anw-einspruch-finanzamt (Einspruchsstufe). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Finanzgerichtsklage — Aufbau Frist und Akteneinsicht § 78 FGO` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Liegt eine Einspruchsentscheidung vor oder ist Sprungklage § 45 FGO möglich?
+2. Ist die Klagefrist von einem Monat § 47 FGO eingehalten?
+3. Welcher Klagetyp passt — Anfechtung Verpflichtung Feststellung?
+4. Wie ist der Streitgegenstand zu bestimmen und welcher Streitwert ergibt sich nach § 52 GKG?
+5. Ist AdV § 69 FGO parallel zu beantragen?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 40 FGO** — Klagearten.
+- **§ 44 FGO** — Vorverfahren.
+- **§ 45 FGO** — Sprungklage.
+- **§ 46 FGO** — Untaetigkeitsklage.
+- **§ 47 FGO** — Klagefrist.
+- **§ 64 FGO** — Klageschrift Form und Inhalt.
+- **§ 65 FGO** — Inhalt der Klage.
+- **§ 69 FGO** — Aussetzung der Vollziehung.
+- **§ 78 FGO** — Akteneinsicht.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§§ 40 ff. FGO · § 47 FGO · § 64 FGO · § 65 FGO · § 69 FGO · § 78 FGO · § 96 FGO (Beweiswuerdigung) · § 52 GKG (Streitwert)
+
+## Praxisformulierung / Antragsmuster
+
+```
+An das Finanzgericht [BUNDESLAND]
+[ADRESSE]
+
+Klage
+des [MANDANT], vertreten durch [KANZLEI],
+ - Klaeger -
+gegen das Land [BUNDESLAND], vertreten durch das Finanzamt [ORT],
+ - Beklagter -
+
+wegen [STEUERART] [JAHR] (Einspruchsentscheidung vom [DATUM], Az. [NR])
+
+Streitwert: [WERT]
+
+Klageantrag: Der [STEUERART]-Bescheid vom [DATUM] in Gestalt der Einspruchsentscheidung vom [DATUM] wird aufgehoben. Die Steuer wird auf [BETRAG] herabgesetzt.
+
+Begruendung:
+I. Sachverhalt: [...]
+II. Anwendbare Normen: [...]
+III. Rechtliche Wuerdigung: [...]
+
+Antrag auf Akteneinsicht § 78 FGO wird gestellt.
+Antrag auf Aussetzung der Vollziehung § 69 FGO wird gestellt.
+
+[ORT, DATUM] [UNTERSCHRIFT RA]
+```
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

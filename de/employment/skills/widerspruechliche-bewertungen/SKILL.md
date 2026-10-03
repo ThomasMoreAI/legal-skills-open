@@ -1,28 +1,29 @@
 ---
 name: widerspruechliche-bewertungen
 title: Widersprüchliche Bewertungen erkennen und kommentieren
-description: 'Erkennt und kommentiert Widersprüche im Arbeitszeugnis: wenn Leistungsteil grün, aber Schlussformel rot ist, oder wenn Einzelsätze sich inhaltlich ausschließen. Erklärt die Signalwirkung von Widersprüchen auf potenzielle neue Arbeitgeber.'
+description: 'Für Widersprüchliche Bewertungen erkennen und kommentieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/widerspruechliche-bewertungen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Widersprüchliche Bewertungen erkennen und kommentieren
 
-Ein Arbeitszeugnis kann widersprüchliche Signale enthalten — entweder durch handwerkliche Fehler des Ausstellers, durch den Versuch, die Wahrheit zu verschleiern, oder durch die Einschätzung verschiedener Bewertender im Unternehmen. Widersprüche sind kein Zeichen von Wohlwollen; sie verwirren potenzielle neue Arbeitgeber und können den Eindruck eines unsicheren Zeugnisausstellers hinterlassen — oder den Eindruck einer bewusst verschlüsselten Negativbotschaft.
+## Fachlicher Anker
 
-Der häufigste Widerspruchstyp: Der Leistungsteil enthält grüne Formulierungen, die Schlussformel ist aber unvollständig oder rot. Das Signal ist klar: Der Arbeitgeber war mit der Leistung zufrieden, aber das Ausscheiden war nicht einvernehmlich. Ähnlich: Verhaltensteil grün, Leistungsteil orange — deutet auf einen zuverlässigen, aber leistungsmäßig schwächeren Mitarbeiter hin.
-
-Ein zweiter Widerspruchstyp ist die innere Inkonsistenz: Wenn ein Satz über hervorragende Eigeninitiative neben einem Satz steht, der Aufgaben "nach Anweisung" beschreibt, widersprechen sich die Aussagen direkt. Diese inneren Widersprüche entstehen oft, wenn Zeugnisse von verschiedenen Personen erstellt oder aus Bausteinen zusammengesetzt werden.
-
-Ein dritter Widerspruchstyp ist die Reihenfolge-Anomalie: Ein Zeugnis, das mit einer hervorragenden Leistungsbeurteilung beginnt, dann eine schwache Verhaltensbeurteilung gibt und mit einer warmen Schlussformel endet, hat ein gemischtes Signal, das nicht konsistent ist. Potenzielle Arbeitgeber werden den Verhaltensabschnitt herausgreifen.
-
-Ein vierter Widerspruchstyp ist das Schaufenster-Pattern innerhalb eines einzelnen Themenbereichs: ein Spitzensatz auf Note-1-Niveau und ein benachbarter Satz auf Note-3-Niveau betreffen dasselbe Thema (z. B. Fachkenntnisse plus Lernbereitschaft, oder Arbeitsweise plus Innovation). Dieser Drift wird vom spezialisierten Skill `bereichs-drift-detektor` ausgewertet — er ist subtiler als die hier behandelten Block-Widersprüche, weil er innerhalb desselben Absatzes auftritt und nicht zwischen den großen Teilen des Zeugnisses.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -47,15 +48,18 @@ Ein vierter Widerspruchstyp ist das Schaufenster-Pattern innerhalb eines einzeln
 
 **Beispiel 5 – Positiver Leistungsteil, fehlende Integrität:** Alle Leistungsaussagen grün, kein einziges Wort zu Zuverlässigkeit oder Vertrauen bei einem Buchhalter → der Widerspruch zwischen Lob und Schweigen ist das rote Signal.
 
-## Ausgabeformat
-
-Der Skill listet jeden erkannten Widerspruch mit den sich widersprechenden Sätzen, dem Widerspruchstyp, der Signalwirkung für eingeweihte Personalverantwortliche und einer Handlungsempfehlung (Klärung beim Aussteller / Nachverhandlung / Klageprüfung). Am Ende folgt eine Gesamteinschätzung der Zeugniskonsistenz (hoch/mittel/niedrig).
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Empfaengerhorizont, Grenzen der Decodierung)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

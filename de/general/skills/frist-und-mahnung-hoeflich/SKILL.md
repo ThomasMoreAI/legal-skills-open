@@ -1,11 +1,11 @@
 ---
 name: frist-und-mahnung-hoeflich
 title: Frist und Mahnung höflich formulieren
-description: 'Fristsetzungen und Mahnungen in Anwaltskorrespondenz hoeflich und dennoch rechtsverbindlich formulieren. § 286 BGB Schuldnerverzug § 43a BRAO § 26 BORA Sachlichkeit. Prüfraster: Fristklarheit Verbindlichkeit Ton kollegiale Formulierung fehlende Aggression. Output: professioneller Fristbrief oder Mahnung mit erklärtem Prüfergebnis. Abgrenzung: nicht für allgemeine Korrespondenz.'
+description: 'Für Frist und Mahnung höflich formulieren: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/frist-und-mahnung-hoeflich
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,18 +14,18 @@ language: de
 
 # Frist und Mahnung höflich formulieren
 
-Dieser Skill stellt abgestufte Vorlagen für Erinnerungen, Mahnungen und Fristsetzungen bereit. Auch rechtlich verbindliche Aufforderungen können höflich formuliert werden — und wirken dann oft wirksamer, weil sie die Kooperationsbereitschaft des Adressaten erhalten.
+## Fachkern: Frist und Mahnung höflich formulieren
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill stellt abgestufte Vorlagen für Erinnerungen, Mahnungen und Fristsetzungen bereit. Auch rechtlich verbindliche Aufforderungen können höflich formuliert werden — und wirken dann oft wirksamer, weil sie die Kooperationsbereitschaft des Adressaten erhalten.
 
 ## Triage zu Beginn
 1. In welcher Mahnstufe befinden wir uns: erste Erinnerung, qualifizierte Mahnung oder letzte Fristsetzung?
 2. Handelt es sich um eine anwaltliche Mahnung (mit Verjährungshemmungswirkung) oder um eine interne Erinnerung?
 3. Gibt es vertragliche Fristen, die die gesetzliche Mahnungspflicht modifizieren?
 4. Ist der Schuldner Verbraucher (besonderer Schutz nach §§ 305 ff. BGB) oder Unternehmer?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zentrale Normen
 - § 286 BGB — Schuldnerverzug: Mahnungserfordernis und -wirkung
@@ -33,17 +33,14 @@ Dieser Skill stellt abgestufte Vorlagen für Erinnerungen, Mahnungen und Fristse
 - § 240 StGB — Noetigung: Grenze zwischen zulaessigem Folgehinweis und strafbarer Drohung
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot bei anwaltlichen Mahnschreiben
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Mahnschreiben hoeflich aber klar formulieren | Dreistufige Mahnformulare nach Template unten |
-| Variante A — erste Erinnerung; Geschaeftsbeziehung erhalten | Stufe 1 (freundlich); kein Druck-Ton |
+| Variante A — erste Erinnerung; Geschäftsbeziehung erhalten | Stufe 1 (freundlich); kein Druck-Ton |
 | Variante B — hartnaekkiges Nichtreagieren; laufende Frist | Stufe 2 oder 3; klar auf Rechtsfolgen hinweisen |
 | Variante C — Gegenseite anwaltlich vertreten | Foermlichere Ansprache; Sachverhalt komprimierter darstellen |
 
@@ -75,11 +72,18 @@ Nach Ablauf dieser Frist behalte ich mir vor, [RECHTLICHE MASSNAHME] einzuleiten
 Mit freundlichen Gruessen
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Die drei Mahnstufen
 
@@ -112,6 +116,4 @@ Zulässig: "Ich behalte mir vor, die Angelegenheit gerichtlich geltend zu machen
 **Vorher:** "Jetzt reicht es mir mit Ihnen!"
 **Nachher:** "Da trotz mehrfacher Erinnerung keine Reaktion erfolgt ist, sehe ich mich gehalten, formell zu mahnen und eine Frist bis TT.MM.JJJJ zu setzen."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Überarbeitetes Mahnschreiben in der passenden Mahnstufe. (2) Einordnung der gewählten Mahnstufe. (3) Hinweis auf berufsrechtliche oder zivilrechtliche Besonderheiten.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

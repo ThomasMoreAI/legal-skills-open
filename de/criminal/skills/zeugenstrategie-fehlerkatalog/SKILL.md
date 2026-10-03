@@ -1,0 +1,76 @@
+---
+name: zeugenstrategie-fehlerkatalog
+title: Zeugenstrategie Fehlerkatalog
+description: 'Für Zeugenstrategie Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/zeugenstrategie-fehlerkatalog
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+---
+
+# Zeugenstrategie Fehlerkatalog
+
+## Zweck
+
+Dieser Fehlerkatalog prüft Arbeitsergebnisse für **Verkehrs-OWi-Verteidigung** vor Abgabe, Versand oder Mandantenfreigabe gegen die im Sachgebiet typischen Fehlerquellen — jeweils mit Symptom, Diagnose und Heilung.
+
+## Fehlerkatalog
+
+### 1. Frist falsch berechnet oder übersehen (Einspruch 2 Wochen § 67 OWiG)
+
+- **Symptom:** Frist falsch berechnet oder übersehen (Einspruch 2 Wochen § 67 OWiG)
+- **Diagnose:** Fristbeginn ab falschem Ereignis gerechnet (Zugang vs. Datum des Schreibens) oder Vorfrist im Kanzleisystem fehlt
+- **Heilung:** Fristenkette aus dem Originaldokument rekonstruieren, Zugangsnachweis sichern, Vorfrist mit zwei Wochen setzen
+
+### 2. Verjährungsfrist ohne Delikt- und Fassungsprüfung berechnet
+
+- **Symptom:** Verjährungsfrist ohne Delikt- und Fassungsprüfung berechnet. Aktuell gilt § 26 Abs. 3 StVG grundsätzlich mit 6 Monaten für § 24 Abs. 1; Sonderfälle, historische Anwendbarkeit, §§ 31–33 OWiG und die Höchstfrist von mindestens 2 Jahren sowie § 32 gesondert prüfen.
+- **Diagnose:** Zweite, unabhängig laufende Frist wird von der ersten verdeckt
+- **Heilung:** Alle Fristen des Vorgangs tabellarisch erfassen und einzeln verfügen
+
+### 3. Falsche Zuständigkeit adressiert (richtig: Bußgeldbehörde)
+
+- **Symptom:** Falsche Zuständigkeit adressiert (richtig: Bußgeldbehörde)
+- **Diagnose:** Schriftsatz oder Antrag an unzuständige Stelle — Fristwahrung gefährdet
+- **Heilung:** Zuständigkeit vor Versand gegen Gesetz und aktuelle Organisationsverfügung prüfen; bei Zweifel fristwahrend bei beiden Stellen einreichen
+
+### 4. Beweismittel nicht gesichert (Messprotokoll)
+
+- **Symptom:** Beweismittel nicht gesichert (Messprotokoll)
+- **Diagnose:** Tatsachenbehauptung im Schriftsatz ohne verfügbares Beweismittel
+- **Heilung:** Pro Behauptung Beweismittel und Fundstelle notieren; fehlende Belege als Lücke ausweisen und beschaffen
+
+### 5. Schlüsseldokument fehlt oder veraltet (Bußgeldbescheid)
+
+- **Symptom:** Schlüsseldokument fehlt oder veraltet (Bußgeldbescheid)
+- **Diagnose:** Arbeit mit Entwurfs- oder Altfassung statt der maßgeblichen Version
+- **Heilung:** Versionsstand und Datum jedes Dokuments prüfen; maßgebliche Fassung in der Akte markieren
+
+### 6. Normzitat ohne Fassungsprüfung (OWiG, StVO, StVG)
+
+- **Symptom:** Normzitat ohne Fassungsprüfung (OWiG, StVO, StVG)
+- **Diagnose:** Zitierte Norm wurde geändert, verschoben oder aufgehoben
+- **Heilung:** Vor Abgabe jeden Paragraphen gegen gesetze-im-internet.de prüfen; Übergangsvorschriften beachten
+
+### 7. Rechtsprechung aus Modellwissen zitiert
+
+- **Symptom:** Rechtsprechung aus Modellwissen zitiert
+- **Diagnose:** Aktenzeichen oder Fundstelle nicht live verifiziert — Risiko halluzinierter Zitate
+- **Heilung:** Jede Entscheidung mit Gericht, Datum, Az und frei prüfbarer Quelle gegenchecken; sonst als Prüfpunkt markieren
+
+### 8. Mandantengeheimnis bei Tool-Einsatz verletzt
+
+- **Symptom:** Mandantengeheimnis bei Tool-Einsatz verletzt
+- **Diagnose:** Klartext-Mandantendaten in Werkzeug ohne Auftragsverarbeitungsvertrag
+- **Heilung:** Vor Upload anonymisieren oder AVV-gedeckte Umgebung nutzen (§ 43a Abs. 2 BRAO, § 203 StGB)
+
+## Ausgabe
+
+Roter/gelber/grüner Befund je Fehlerachse; jeder rote Punkt mit konkreter Korrektur und verbleibendem Restrisiko. Quellenhygiene nach `references/quellenhygiene.md`.

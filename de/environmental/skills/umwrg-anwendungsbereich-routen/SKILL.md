@@ -1,0 +1,54 @@
+---
+name: umwrg-anwendungsbereich-routen
+title: Umwrg Anwendungsbereich Routen
+description: 'Für Umwrg Anwendungsbereich Routen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/umweltschutzverband-verbandsklage/skills/umwrg-anwendungsbereich-routen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: environmental
+language: de
+---
+
+# Umwrg Anwendungsbereich Routen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UmwRG; BImSchG; § 47 VwGO, Naturschutz, Klima, Verbandsklage und Eilrechtsschutz — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 1922 Abs. 1 BGB` — Gesamtrechtsnachfolge.
+- `§ 1937 BGB` — Testament.
+- `§ 1942 BGB` — Anfall und Ausschlagung.
+- `§ 1953 BGB` — Wirkung der Ausschlagung.
+- `§ 1967 BGB` — Erbenhaftung.
+- `§ 2032 BGB` — Erbengemeinschaft.
+- `§ 2042 BGB` — Auseinandersetzung.
+- `§ 2303 BGB` — Pflichtteil.
+- `§ 2353 BGB` — Erbschein.
+- `§ 352 FamFG` — Erbscheinsverfahren.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+- UmwRG, UVPG, BNatSchG, WHG, BImSchG, BauGB
+- § 47 VwGO Normenkontrolle, § 80/123 VwGO Eilrechtsschutz
+- Anerkannte Umweltvereinigungen, Beteiligung, Präklusionsfragen
+- UIG/Aarhus-Logik und Öffentlichkeitsbeteiligung
+
+[BVerwG, Urteil vom 26.05.2026 – 7 C 5.25](https://www.bverwg.de/260526U7C5.25.0), Rn. 8–15: Im Anwendungsbereich des Paragrafen 6 UmwRG erfasst die Begründungsfrist auch Tatsachen und Beweismittel zu nicht umweltbezogenen Einwendungen, bei Individual- wie Verbandsklagen. Erfasse deshalb sämtliche tatsächlichen Angriffslinien rechtzeitig. Spätere Vertiefung, genügende Entschuldigung und die gesetzliche Ausnahme geringer Ermittlungsaufwände gesondert prüfen; kein automatischer Ausschluss der gesamten Klage.
+
+## Prüfroutine
+
+1. **Scope:** Was genau soll entschieden, beantragt, abgewehrt oder dokumentiert werden? Welche Einheit ist betroffen und welches Recht gilt wirklich?
+2. **Zuständigkeit:** Behörde, Gericht, Register, Aufsicht, Verband, Unternehmen oder internationale Stelle sauber benennen; falsche Adressaten als Risiko ausweisen.
+3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
+4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
+5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.

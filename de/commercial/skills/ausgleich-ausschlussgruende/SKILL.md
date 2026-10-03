@@ -1,0 +1,98 @@
+---
+name: ausgleich-ausschlussgruende
+title: Ausschlussgründe für den Ausgleichsanspruch nach § 89b Abs. 3 HGB
+description: 'Für Ausschlussgründe für den Ausgleichsanspruch nach Paragraf 89b Abs. 3 HGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsvertreterrecht/skills/ausgleich-ausschlussgruende
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: commercial
+language: de
+---
+
+# Ausschlussgründe für den Ausgleichsanspruch nach § 89b Abs. 3 HGB
+
+## Arbeitsbereich
+
+Prüft Ausschlussgründe des Ausgleichsanspruchs nach § 89b Abs. 3 HGB: schuldhaftes Verhalten des Handelsvertreters als Kündigungsgrund, Eigenbeendigung ohne triftigen Grund und Vertragsübergang an Dritte; Abgrenzung zu Fällen des Anspruchserhalts bei Kündigung aus Gesundheitsgründen nach Art. 18 RL 86/653/EWG. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+Bei einem Ausgleichsvergleich während der Kündigungsfrist Zugang der Kündigung und tatsächliches Vertragsende trennen: [EuGH, Urteil vom 23.04.2026 – C-204/25, Kempen Advies Beerse](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62025CJ0204), Rn. 23–36, versteht den Vertragsablauf nach Artikeln 15 Absatz 2 und 19 Richtlinie 86/653/EWG erst als Ablauf der Kündigungsfrist. Ein Zugang der Kündigung beendet den zwingenden Ausgleichsschutz nicht. Vor einer Verzichtsklausel daher Enddatum und Reichweite des Nachteils prüfen; eine Abweichung kann nach Rn. 29 nur zulässig sein, wenn ex ante feststeht, dass sie bei Vertragsende nicht nachteilig sein wird. Für den deutschen Fall Paragraf 89b Absatz 4 HGB anwenden; keine pauschale Unwirksamkeit jedes Vergleichs und keine unionsrechtliche Festsetzung der konkreten deutschen Kündigungsfrist.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 89b, Wettbewerbsverbot; § 90a und Vertriebsmodelle — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Überblick
+
+Unterstützt bei rechtlichen Fragen rund um Ausschlussgründe für den Ausgleichsanspruch nach § 89b Abs. 3 HGB.
+Er deckt die wichtigsten Normen des deutschen Handelsvertreterrechts nach HGB §§ 84–92c ab
+und bezieht die EU-Handelsvertreterrichtlinie 86/653/EWG sowie einschlägige BGH- und EuGH-Rechtsprechung ein.
+Der Skill zielt auf konkrete, umsetzbare Ergebnisse: Schriftsätze, Berechnungen, Vertragsentwürfe und Prüfvermerke.
+Sowohl die Handelsvertreter- als auch die Unternehmerseite werden abgedeckt.
+
+## Mandantenfall
+
+- Unternehmer Y hat dem Handelsvertreter X wegen Vertragsverletzung fristlos gekündigt; Y bestreitet den Ausgleichsanspruch und beruft sich auf § 89b Abs. 3 Nr. 1 HGB.
+- Handelsvertreter X hat selbst ordentlich gekündigt, ohne einen triftigen Grund nachweisen zu können; Unternehmer Y verweigert den Ausgleich nach § 89b Abs. 3 Nr. 2 HGB.
+- Handelsvertreter X übergibt sein Vertreterverhältnis an Nachfolger N; X fragt, ob damit der Ausgleichsanspruch nach § 89b Abs. 3 Nr. 3 HGB erlischt.
+
+## Erste Schritte
+
+1. Kündigungsursache analysieren: schuldhaftes Verhalten des Vertreters, Eigenkündigung oder Vertragsübergang?
+2. Tatbestandsvoraussetzungen der §§ 89b Abs. 3 Nr. 1-3 HGB im Einzelfall prüfen.
+3. BGH-Rechtsprechung zu Ausschlussgründen und Billigkeit nach § 89b Abs. 1 HGB heranziehen.
+4. EuGH-Linie (Honyvem/Saint-Gobain) zur richtlinienkonformen Auslegung berücksichtigen.
+5. Umgekehrte Prüfung: Sind Ausschlussgründe tatsächlich nachweisbar oder nur behauptet?
+6. Beweislastverteilung klären: Wer muss Ausschlussgrund beweisen?
+
+## Rechtsrahmen
+
+- § 89b Abs. 3 HGB — Ausschlussgründe für den Ausgleichsanspruch
+- § 89b Abs. 1 HGB — Entstehungsvoraussetzungen des Ausgleichs
+- § 89a HGB — Kündigung aus wichtigem Grund
+- Art. 18 RL 86/653/EWG — Ausschluss des Ausgleichs bei schuldhaftem Verhalten
+- EuGH C-465/04 — Honyvem: Ausgleich darf nicht pauschal ausgeschlossen werden
+- § 92c HGB — Zwingendes Recht zugunsten des Handelsvertreters
+
+## Prüfraster
+
+- Liegt ein schuldhaftes Verhalten des Handelsvertreters vor, das den Unternehmer zur fristlosen Kündigung berechtigt (§ 89b Abs. 3 Nr. 1 HGB)?
+- Hat der Vertreter selbst gekündigt und ist dies auf Alter oder Krankheit oder zumutbaren wichtigen Grund zurückzuführen?
+- Hat der Handelsvertreter sein Vertreterverhältnis an einen Dritten abgetreten (§ 89b Abs. 3 Nr. 3 HGB)?
+- Ist der behauptete Ausschlussgrund durch konkrete Tatsachen belegt und beweisbar?
+- Hat der Handelsvertreter den Ausgleich fristgerecht nach § 89b Abs. 4 S. 2 HGB angemeldet?
+- Ist die Anmeldung des Ausgleichsanspruchs innerhalb eines Jahres nach Vertragsende erfolgt?
+
+## Typische Fallstricke
+
+- Ausschlussgrund § 89b Abs. 3 Nr. 1 HGB ohne nachgewiesenes schuldhaftes Verhalten behauptet.
+- Krankheitsbedingte Eigenkündigung fälschlich als Ausschlussgrund behandelt.
+- Jahresfrist für Ausgleichsanmeldung nach § 89b Abs. 4 S. 2 HGB abgelaufen — Anspruch erloschen.
+- EuGH-Vorgaben zu richtlinienkonformer Auslegung nicht berücksichtigt.
+
+## Hintergrund und Kontext
+
+Das deutsche Handelsvertreterrecht ist im fünften Buch des HGB in den §§ 84 bis 92c geregelt.
+Es setzt die EU-Handelsvertreterrichtlinie 86/653/EWG in nationales Recht um.
+Kernprinzipien sind: Selbständigkeit des Handelsvertreters, Provisionsanspruch, Informationsrechte,
+Ausgleichsanspruch bei Vertragsende sowie Schutz vor einseitiger Benachteiligung.
+BGH und EuGH haben das Handelsvertreterrecht durch zahlreiche Entscheidungen geprägt,
+insbesondere zur Berechnung des Ausgleichs, zur Richtlinienkonformität und zu Ausschlussgründen.
+Praktisch relevant sind insbesondere: Provisionsabrechnungen und Buchauszug (§ 87c HGB),
+nachvertragliches Wettbewerbsverbot (§ 90a HGB) und Ausgleichsanspruch (§ 89b HGB).
+Zwingende Vorschriften zum Schutz des Handelsvertreters nach § 92c HGB können vertraglich
+nicht abgebedungen werden; entgegenstehende Klauseln sind nach § 134 BGB nichtig.
+
+## Quellen
+
+- [§ 89b HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89b.html)
+- [§ 89a HGB auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/hgb/__89a.html)
+- [Art. 18 RL 86/653/EWG auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A31986L0653)
+- [EuGH C-465/04 Honyvem auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A62004CJ0465)
+- [Dejure § 89b HGB](https://dejure.org/gesetze/HGB/89b.html)

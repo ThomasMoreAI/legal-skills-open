@@ -1,11 +1,11 @@
 ---
 name: stellplatzsatzung-bay-bauordnung
 title: Stellplatzsatzung — Art. 47 BayBO
-description: 'Mandant wendet sich gegen Stellplatzsatzung einer Gemeinde oder deren Anwendung bei Bauantrag. Art. 47 BayBO § 9 Abs. 1 Nr. 4 BauGB Art. 81 BayBO Stellplatzsatzung. Prüfraster: Reduzierung Stellplatzschluessel durch örtliche Bauvorschrift sachliche Rechtfertigung Mobilitaetskonzept Parkdruck-Verlagerung Stellplatzbilanz. Output: Stellplatzsatzungs-Prüfprotokoll und Angriffspunkt Normenkontrolle. Abgrenzung zu festsetzungskatalog-9-baugb-baunvo (Festsetzungen gesamt) und normenkontrollantrag-schriftsatz.'
+description: 'Für Stellplatzsatzung — Art. 47 BayBO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/stellplatzsatzung-bay-bauordnung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: construction
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Stellplatzsatzung — Art. 47 BayBO
-
-## Zweck
-
-Stellplatzfragen sind ein Hauptkampffeld bei Innenstadt-Verdichtungen. Reduzierte Stellplatzschlüssel führen häufig zu Parkdruck-Verlagerung in Wohnstraßen — abwägungserheblicher Belang der Mandantenseite.
 
 ## Schritt 1 — Grundregel Art. 47 BayBO
 
@@ -57,9 +53,9 @@ Stellplatzfragen sind ein Hauptkampffeld bei Innenstadt-Verdichtungen. Reduziert
 ### Verbindlichkeit
 - Mobilitätskonzept muss in textlichen Festsetzungen abgesichert sein, sonst leeres Versprechen
 - Häufige Treffer:
-  - Konzept nicht in Festsetzungen übernommen
-  - Konzept verweist nur auf "Bemühungen"
-  - Vermieter-/Bauträger-Konzepte ohne rechtliche Bindung
+ - Konzept nicht in Festsetzungen übernommen
+ - Konzept verweist nur auf "Bemühungen"
+ - Vermieter-/Bauträger-Konzepte ohne rechtliche Bindung
 
 ## Schritt 4 — Verkehrsmodellierung
 
@@ -155,8 +151,4 @@ Stellplatzfragen sind ein Hauptkampffeld bei Innenstadt-Verdichtungen. Reduziert
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

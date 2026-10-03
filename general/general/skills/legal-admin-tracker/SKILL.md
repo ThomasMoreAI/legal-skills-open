@@ -5,11 +5,14 @@ description: Track legal and administrative obligations including IDs, permits, 
 author: YaRepo
 author_url: https://github.com/YaRepo/yaswarm-agency/tree/main/skills/legal-admin-tracker
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Checklist template
+  path: references/checklist-template.md
 ---
 
 # Legal Admin Tracker

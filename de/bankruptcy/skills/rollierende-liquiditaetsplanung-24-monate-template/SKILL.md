@@ -1,248 +1,141 @@
 ---
 name: rollierende-liquiditaetsplanung-24-monate-template
-title: Rollierende Liquiditätsplanung — 24-Monate-Template
-description: 'Rollierende 24-Monats-Liquiditaetsplanung nach StaRUG erstellen: Sanierungsberater oder GF braucht Liquiditaets-Forecast. Normen: § 1 StaRUG (24-Monats-Horizont), IDW S 11 (Fortbestehensprognose), IDW S 6 (Sanierungskonzept). Prüfraster: Woechentliche Granularitaet Wochen 1-13, monatliche Granularitaet Monate 14-24, Stresstests, Sensitivitaetsanalysen, StaRUG-konforme Dokumentation. Output Excel-Template Liquiditaetsplanung, Stresstest-Szenarios, Dokumentationsprotokoll. Abgrenzung: Integrierte GuV/Bilanz/CF-Planung siehe integrierte-planung-guv-bilanz-cashflow; Ampel-KPIs siehe kennzahlenset-und-ampelsystem-starug-konform.'
+title: 1. Rollierende Liquiditätsplanung für 24 Monate
+description: Erstellt eine rollierende Liquiditätsplanung für Status, Drei-Wochen-Sicht, 13-Wochen-Steuerung und die regelmäßige 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/rollierende-liquiditaetsplanung-24-monate-template
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# Rollierende Liquiditätsplanung — 24-Monate-Template
+# 1. Rollierende Liquiditätsplanung für 24 Monate
 
-Die rollierende Liquiditätsplanung ist das operative Herzstück des § 1 StaRUG-Frühwarnsystems. Sie zeigt nicht nur, wo das Unternehmen heute steht, sondern wo es in zwei Jahren stehen wird — und welche Handlungskorridore noch offen sind. Ohne eine valide 24-Monats-Liquiditätssicht ist die Behauptung, drohende Zahlungsunfähigkeit nicht rechtzeitig erkannt zu haben, im Nachhinein nicht zu entkräften.
+## 1.1. Arbeitsauftrag
 
----
+Baue aus Kontoauszügen, OPOS, Verträgen, Titeln, Steuer- und Sozialversicherungsdaten sowie Finanzierungsunterlagen eine stichtagsbezogene Liquiditätsplanung. Verwende vorhandene Dateien zuerst. Fehlende Angaben werden als konkrete Nachforderung mit Auswirkung auf Status oder Prognose bezeichnet.
 
-## Rechtsgrundlagen
+## 1.2. Rechtsrahmen
 
-- § 1 StaRUG (Krisenfrüherkennungspflicht, 24-Monats-Horizont)
-- § 18 InsO (drohende Zahlungsunfähigkeit — Prognosezeitraum)
-- § 29 Abs. 2 StaRUG (Zugangsvoraussetzung: drohende ZU muss vorliegen)
-- IDW S 11 Tz. 23 ff. (Liquiditätsstatus und -planung als Basis der Fortbestehensprognose)
-- IDW S 6 (integrierte Planung als Teil des Sanierungskonzepts)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+1. Paragraf 17 InsO: aktuelle Zahlungsunfähigkeit anhand fälliger Zahlungspflichten und verfügbarer Zahlungsmittel.
+2. Paragraf 18 Absatz 2 InsO: drohende Zahlungsunfähigkeit; in aller Regel 24 Monate Prognosezeitraum.
+3. Paragraf 19 Absatz 2 InsO: Überschuldung und in aller Regel zwölfmonatige Fortführungsprognose.
+4. Paragraf 1 StaRUG: fortlaufende Überwachung bestandsgefährdender Entwicklungen, Gegenmaßnahmen und Organbericht; kein eigener fester 24-Monats-Zeitraum.
+5. Paragraf 29 Absatz 1 StaRUG: gerichtliche Instrumente zur nachhaltigen Beseitigung drohender Zahlungsunfähigkeit.
+6. Paragraf 50 Absatz 2 Nummer 2 StaRUG: gesonderter sechsmonatiger Finanzplan für den Antrag auf Stabilisierungsanordnung.
 
----
+## 2. Vier Planungsebenen
 
-## Pflichten
+| Ebene | Zweck | Granularität | Rechts- oder Praxisanker |
+| --- | --- | --- | --- |
+| Stichtagsstatus | heutige Deckung fälliger Pflichten | Einzelposten | Paragraf 17 InsO |
+| Drei-Wochen-Sicht | Zahlungsstockung oder Zahlungsunfähigkeit abgrenzen | tag- oder wochenweise | BGH-Linie zu Paragraf 17 InsO |
+| 13-Wochen-Steuerung | operative Zahlungssteuerung und Maßnahmen | wöchentlich | bewährtes Steuerungsmodell, keine gesetzliche Fixfrist |
+| 24-Monats-Prognose | drohende Zahlungsunfähigkeit beurteilen | zunächst wöchentlich, danach monatlich | Paragraf 18 Absatz 2 InsO |
 
-### 1. Warum zwei Granularitätsstufen?
+Die Ebenen dürfen nicht durch einen einzigen Monatssaldo ersetzt werden. Jede braucht eigenen Stichtag, eigenen Zweck und nachvollziehbare Quellen.
 
-Die Unterscheidung zwischen wöchentlicher (Wochen 1-13) und monatlicher (Monate 14-24) Granularität ist kein Zufall, sondern Ausdruck der Planungssicherheit:
+## 3. Datenmodell
 
-- **Wochen 1-13 (kurzfristig):** Fälligkeiten, Überweisungen, Lohnzahlungen, Steuertermine sind konkret und kurzfristig planbar. Wöchentliche Granularität ist hier Standard und von Banken/Gläubigern erwartet.
-- **Monate 14-24 (mittelfristig):** Annahmenbasierte Prognose. Monatsgenauigkeit ausreichend und methodisch vertretbar. Zeigt strukturelle Liquiditätsreserven und Refinanzierungsbedarfe.
+### 3.1. Verfügbare Zahlungsmittel
 
-### 2. Mindestinhalt der Planung
+Erfasse Kasse, Bankguthaben und tatsächlich frei verfügbare Kreditlinien. Eine Linie ist nur verfügbar, wenn Ziehungsvoraussetzungen erfüllt sind und keine Kündigung, Sperre oder Covenant-Folge entgegensteht. Noch zu verhandelnde Finanzierung ist keine sichere Liquidität, sondern eine Maßnahme mit Eintrittswahrscheinlichkeit und Long-Stop-Datum.
 
-Der Liquiditätsplan muss enthalten:
+### 3.2. Zahlungspflichten
 
-**Zuflüsse:**
-- Umsatzerlöse (nach Debitorenlaufzeiten)
-- Anzahlungen, Vorauszahlungen
-- Fremdfinanzierungen (Kredit-Ziehungen)
-- Subventionen, Förderungen
-- Sonstige betriebliche Erträge mit Zahlungswirkung
+Jeder Abfluss erhält mindestens:
 
-**Abflüsse:**
-- Material-/Wareneinkauf (nach Kreditorenlaufzeiten)
-- Lohn- und Gehaltskosten (inkl. Sozialabgaben)
-- Miete, Leasing
-- Zinsen und Tilgungen
-- Investitionsauszahlungen
-- Steuern und Abgaben (Umsatzsteuer-Vorauszahlung, Körperschaftsteuer, Gewerbesteuer)
-- Sonstige Auszahlungen
+1. Gläubiger und Rechtsgrund.
+2. Brutto- oder Nettobetrag.
+3. Fälligkeit und etwaige Stundung.
+4. Bestandsstatus: unstreitig, streitig nicht tituliert, tituliert, aufschiebend bedingt.
+5. Vollstreckungsstatus.
+6. Beleg und Fundstelle.
+7. Verantwortlicher für rechtliche Klärung.
 
-**Saldo und Kassenbestand:**
-- Wöchentlicher/monatlicher Cash-Flow (netto)
-- Kumulierter Kassenbestand
-- Verfügbare Kreditlinien
-- Gesamtliquidität (Kassenbestand + freie Linien)
+Nach BGH, Urteil vom 23.01.2025 - IX ZR 229/22, richtet sich die Berücksichtigung einer streitigen nicht titulierten Verbindlichkeit nach der objektiven Rechtslage. Besteht sie objektiv, darf sie nicht mit einer Prozessrisikoquote gekürzt werden; besteht sie objektiv nicht, begründet sie keine Zahlungsunfähigkeit. Bei einem vorläufig vollstreckbaren Titel und eingeleiteter Vollstreckung ist der Nennbetrag in der Liquiditätsprüfung anzusetzen. Unsicherheit wird nicht als beliebiger Prozentabschlag versteckt, sondern durch Rechtsvermerk, Belegstatus und Szenario transparent gemacht.
 
----
+### 3.3. Zuflüsse
 
-## Vorgehen
+Ordne Forderungen nach Fälligkeit, Einbringlichkeit und tatsächlichem Zahlungstermin. Umsatzplanung ist erst dann Liquidität, wenn Debitorenlaufzeit, Ausfall, Aufrechnung, Skonto und Steuerwirkung berücksichtigt sind.
 
-### Schritt 1: Strukturaufbau des 24-Monats-Plans
+## 4. Modellstruktur
 
-```
-PLANSTRUKTUR — ÜBERBLICK
+| Zeile | KW 1 | KW 2 | KW 3 | KW 4 | Monat 2 bis 3 | Monat 4 bis 24 | Quelle |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| Anfangsliquidität | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Bank/Kasse |
+| Sichere Kundenzahlungen | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | OPOS und Vertrag |
+| Bedingte Zuflüsse | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Maßnahmenregister |
+| Personal und Sozialversicherung | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Lohnlauf |
+| Steuern | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Bescheid/Anmeldung |
+| Lieferanten | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Kreditoren-OPOS |
+| Finanzierung | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Kreditvertrag |
+| Streitige Verbindlichkeiten | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Rechtsvermerk |
+| Endliquidität | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | [EUR] | Formel |
 
-Spalten: [Datum / Woche / Monat]
+## 5. Prämissen- und Maßnahmenbuch
 
-ZUFLÜSSE
-  + Umsatzerlöse brutto
-  - USt-Abführung (auf Umsatz)
-  + Anzahlungen Kunden
-  + Kreditziehungen
-  + Sonstige Zuflüsse
-  = ZUFLÜSSE GESAMT
+| Kennung | Annahme oder Maßnahme | Base Case | Stressfall | Beleg | Verantwortlicher | Fällig | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P-01 | Debitorenlaufzeit | [Tage] | [Tage] | OPOS-Historie | [Name] | [Datum] | [Status] |
+| M-01 | Kreditverlängerung | [Betrag] | [Betrag] | Term Sheet | [Name] | [Datum] | [Status] |
 
-ABFLÜSSE
-  - Materialeinkauf
-  - Personal (netto + AG-Anteile SV)
-  - Miete / Leasing
-  - Zinsen
-  - Tilgung
-  - USt-Voranmeldung
-  - Investitionen
-  - Sonstige Abflüsse
-  = ABFLÜSSE GESAMT
+Jede Maßnahme wird nur angesetzt, wenn sie rechtlich und tatsächlich umsetzbar, finanziert und zeitlich passend ist. Der Plan enthält eine Rückfalllogik, falls sie ausbleibt.
 
-NETTO-CASHFLOW = Zuflüsse - Abflüsse
+## 6. Prüfworkflow
 
-KASSENBESTAND
-  + Anfangsbestand
-  + Netto-Cashflow
-  = Endbestand
+1. Datenstichtag und Bankbestände abstimmen.
+2. OPOS mit Verträgen, Mahnungen, Titeln und Zahlungsverläufen abgleichen.
+3. Fälligkeiten und Stundungen rechtlich prüfen.
+4. Status nach Paragraf 17 InsO ohne Maßnahmenkosmetik feststellen.
+5. Drei-Wochen-Entwicklung und Deckungslücke berechnen.
+6. 13-Wochen-Steuerung mit sicheren und bedingten Maßnahmen trennen.
+7. Regelmäßige 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO mit Base Case und Stressfall aufstellen.
+8. Zwölfmonats-Fortführungsprognose nach Paragraf 19 Absatz 2 InsO gesondert beurteilen.
+9. Plan-Ist-Abweichung, neue Erkenntnisse und Versionshistorie dokumentieren.
+10. Geschäftsleitungsbeschluss mit Status, Maßnahmen, Organbericht und Wiedervorlage erstellen.
 
-KREDITLINIE
-  + Verfügbarer Rahmen
-  - Inanspruchnahme
-  = Freie Kreditlinie
+## 7. Ergebnisvermerk
 
-GESAMTLIQUIDITÄT = Endbestand + Freie Kreditlinie
-```
+```text
+Stichtag: [Datum]
+Datenstand: [Datum/Uhrzeit]
 
-### Schritt 2: Wöchentliche Planung (Wochen 1-13)
+1. Paragraf 17 InsO
+Fällige Zahlungspflichten: EUR [Betrag]
+Verfügbare Zahlungsmittel: EUR [Betrag]
+Deckungslücke: EUR [Betrag] beziehungsweise [Prozent]
+Ergebnis und Begründung: [Text]
 
-Für die ersten 13 Wochen wird jede Woche einzeln geplant:
+2. Paragraf 18 InsO
+Regelmäßiger Prognosezeitraum: [von/bis]
+Erster voraussichtlicher Unterdeckungszeitpunkt: [Datum]
+Tragende Annahmen: [Text]
+Ergebnis und Begründung: [Text]
 
-1. **Basis:** Offene-Posten-Listen Debitoren und Kreditoren (Stichtag aktuell)
-2. **Zahlungsverhalten:** Historische DSO (Days Sales Outstanding) und DPO (Days Payable Outstanding) anwenden
-3. **Fälligkeiten:** Steuertermine, Lohnläufe, Kreditorenzahlungsziele eintragen
-4. **Kontokorrent-Check:** Wöchentlich prüfen, ob Überziehung droht
+3. Paragraf 19 InsO
+Fortführungsprognose für den maßgeblichen Zeitraum: [Ergebnis]
 
-### Schritt 3: Monatliche Planung (Monate 14-24)
+4. Maßnahmen und Entscheidung
+[Maßnahme, Betrag, Eintrittsvoraussetzung, Verantwortlicher, Termin]
 
-Für den Zeitraum Monat 14-24:
-
-1. **Planprämissen dokumentieren:** Umsatzwachstum/-rückgang, Kostenentwicklung, Investitionspläne
-2. **Mindestens zwei Szenarien:** Base Case + Bear Case (oder mehr)
-3. **Refinanzierungsbedarfe** explizit kennzeichnen: Wann läuft welche Kreditlinie aus?
-4. **Covenants einblenden:** Wann werden Finanzkennzahl-Anforderungen überprüft?
-
-### Schritt 4: Stresstests definieren und durchrechnen
-
-| Stresstest | Annahme | Typische Auswirkung |
-|---|---|---|
-| Umsatzeinbruch | Umsatz minus 20 % über 6 Monate | Liquiditätsreichweite reduziert sich um ca. 4-6 Monate |
-| Debitorenlaufzeit | DSO steigt von 45 auf 75 Tage | Sofortige Liquiditätslücke von ca. 2 Monatsumsätzen |
-| Kreditlinienkündigung | Hausbankkredit wird nicht verlängert | Refinanzierungslücke in EUR [x] sichtbar |
-| Kostenexplosion | Material-/Energiekosten plus 30 % | EBITDA-Erosion, ab wann DSCR unter 1,0? |
-
-### Schritt 5: Plan-Ist-Abweichungsanalyse
-
-Monatlicher Vergleich: Was wurde geplant, was ist eingetreten?
-
-- Abweichungen > 10 % müssen kommentiert werden
-- Systematische Abweichungen führen zur Planrevision
-- Planrevision wird dokumentiert und von GF unterschrieben
-
----
-
-## Templates
-
-### Muster: Excel-Spaltenstruktur (Auszug Wochen 1-4 + Monat 14)
-
-```
-Kategorie                 | KW01  | KW02  | KW03  | KW04  | ... | M14   | M15
---------------------------|-------|-------|-------|-------|-----|-------|------
-ZUFLÜSSE                  |       |       |       |       |     |       |
-  Umsatzerlöse (netto)    | [tsd] | [tsd] | [tsd] | [tsd] |     | [tsd] | [tsd]
-  Anzahlungen             | [tsd] | [tsd] | [tsd] | [tsd] |     | [tsd] | [tsd]
-  Kreditziehung           |       |       |       |       |     |       |
-= ZUFLÜSSE GESAMT         | [Sum] | [Sum] | [Sum] | [Sum] |     | [Sum] | [Sum]
-                          |       |       |       |       |     |       |
-ABFLÜSSE                  |       |       |       |       |     |       |
-  Material                | [tsd] | [tsd] | [tsd] | [tsd] |     | [tsd] | [tsd]
-  Personal                | [tsd] |       |       | [tsd] |     | [tsd] | [tsd]
-  Miete / Leasing         | [tsd] |       |       |       |     | [tsd] | [tsd]
-  Zinsen                  |       |       |       |       |     | [tsd] | [tsd]
-  Tilgung                 |       |       |       |       |     | [tsd] | [tsd]
-  USt-Voranmeldung        | [tsd] |       |       |       |     | [tsd] | [tsd]
-  Sonstiges               | [tsd] | [tsd] | [tsd] | [tsd] |     | [tsd] | [tsd]
-= ABFLÜSSE GESAMT         | [Sum] | [Sum] | [Sum] | [Sum] |     | [Sum] | [Sum]
-                          |       |       |       |       |     |       |
-NETTO-CASHFLOW            | [Net] | [Net] | [Net] | [Net] |     | [Net] | [Net]
-KASSENBESTAND (Anfang)    | [K]   | [K]   | [K]   | [K]   |     | [K]   | [K]
-KASSENBESTAND (Ende)      | [K]   | [K]   | [K]   | [K]   |     | [K]   | [K]
-FREIE KREDITLINIE         | [L]   | [L]   | [L]   | [L]   |     | [L]   | [L]
-GESAMTLIQUIDITÄT          | [G]   | [G]   | [G]   | [G]   |     | [G]   | [G]
+5. Offene Rechts- und Belegfragen
+[Frage, Auswirkung, Nachforderung]
 ```
 
-### Muster: Planprämissen-Dokumentation
+## 8. Fehlerbremse
 
-```
-Planprämissen — 24-Monats-Liquiditätsplanung
-Gesellschaft: [Firma GmbH]
-Erstellt: [Datum]
-Freigegeben: [GF-Name], [Datum]
+1. Paragraf 1 StaRUG nicht als Quelle eines festen 24-Monats-Zeitraums bezeichnen.
+2. OPOS-Summen nie ohne Einzelposten, Fälligkeit und Beleg übernehmen.
+3. Streitige Verbindlichkeiten nicht mit frei gewählten Prozessrisikoquoten kürzen.
+4. Noch nicht vereinbarte Finanzierung nicht als freie Linie ausweisen.
+5. Planwert, Buchwert und Liquiditätswirkung nicht vermischen.
+6. Einen negativen Saldo nicht durch Maßnahmen beseitigen, deren Vollzug nach Eintritt der Unterdeckung liegt.
+7. Bei möglicher Insolvenzreife unverzüglich Paragraf 15a InsO prüfen; die Maximalfristen betragen drei Wochen bei Zahlungsunfähigkeit und sechs Wochen bei Überschuldung.
 
-UMSATZ
-  Basis: [EUR Vorjahresumsatz]
-  Annahme Base Case: [+/- x% p.a.]
-  Annahme Bear Case: [+/- x% p.a.]
-  Begründung: [___]
+## 9. Quellenregel
 
-DEBITORENLAUFZEIT (DSO)
-  Historisch (Ø letzte 12 Monate): [x] Tage
-  Annahme Planung: [x] Tage
-  Begründung: [___]
-
-KREDITORENLAUFZEIT (DPO)
-  Historisch: [x] Tage
-  Annahme: [x] Tage
-
-KREDITLINIEN
-  Hausbankkredit: EUR [Betrag], läuft bis [Datum]
-  Kontokorrentlinie: EUR [Betrag]
-  Verlängerungsannahme: [ja/nein/in Verhandlung]
-
-INVESTITIONEN
-  Geplante Investitionen: EUR [Betrag] in [Zeitraum]
-  Finanzierung: [Eigenmittel / Fremdfinanzierung]
-```
-
----
-
-## Fallstricke
-
-1. **Plan ohne Planprämissen ist wertlos** — Richter und Insolvenzverwalter fragen als erstes: Auf welchen Annahmen beruht dieser Plan? Fehlende Prämissendokumentation ist ein Warnzeichen.
-
-2. **Statischer Plan statt rollierender** — ein einmal erstellter 24-Monats-Plan, der nie aktualisiert wird, zeigt nicht den aktuellen Stand. Rollen bedeutet: monatliche Aktualisierung mit Ist-Werten und Neuvorschau.
-
-3. **Nur Ergebnis-Plan ohne Cashflow** — viele Unternehmen haben GuV-Planungen, aber keinen Cashflow-Plan. Für § 1 StaRUG und § 18 InsO ist der Cashflow entscheidend, nicht das bilanzielle Ergebnis.
-
-4. **Zu optimistische Planprämissen** sind keine "konservative Schätzung" — Gerichte prüfen ex post, ob die Annahmen zum Zeitpunkt der Planung plausibel waren. Überhöhte Umsatzerwartungen ohne Begründung sind Haftungsrisiko.
-
-5. **Kreditlinie als Puffer einplanen, ohne Verlängerungsrisiko zu beachten** — ausgelaufene Kreditlinien, die stillschweigend als verlängert angenommen werden, verfälschen die Liquiditätssicht erheblich.
-
----
-
-## Querverweise
-
-- → `fruehwarnsystem-architektur-zwei-jahres-horizont` — Systemarchitektur
-- → `integrierte-planung-guv-bilanz-cashflow` — Drei-Statement-Verbindung
-- → `kennzahlenset-und-ampelsystem-starug-konform` — KPI-Schwellen
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Prognosezeitraum
-- → `fortbestehensprognose-zweistufig` — IDW S 11-Nutzung der Liquiditätsplanung
-
-
-## Weitere Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Triage — Erste Einordnung
-
-Bevor losgelegt wird, klaere:
-1. **Krisenstadium?** Ertragskrise (EBIT negativ), Liquiditaetskrise (Cashflow negativ) oder akute Insolvenznaehe (ZU/Ueberschuldung)?
-2. **Insolvenzgrund?** § 17 InsO (ZU), § 18 InsO (drohende ZU), § 19 InsO (Ueberschuldung)?
-3. **Fristen?** Antragspflicht § 15a InsO: 3 Wochen (ZU), 6 Wochen (Ueberschuldung).
-4. **Sanierungs-Pfad?** StaRUG (drohende ZU), Schutzschirm, Eigenverwaltung oder Regelverfahren?
+Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und amtlicher oder frei zugänglicher Quelle verwenden. Berufsständische Standards nur in der tatsächlich vorliegenden Fassung und als Methodenstandard kennzeichnen.

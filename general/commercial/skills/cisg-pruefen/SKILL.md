@@ -1,11 +1,11 @@
 ---
 name: cisg-pruefen
 title: CISG-Prüfung
-description: 'UN-Kaufrecht (CISG) auf Anwendbarkeit und Eingreifen prüfen: Internationaler Kaufvertrag mit Auslandsbezug und Vertragsstreit. Normen: CISG Art. 1-6 (Anwendungsbereich), Art. 25 (wesentliche Vertragsverletzung), Art. 35 (Vertragsmäßigkeit), Art. 38-39 (Untersuchungs-/Ruegeobliegenheit), Art. 49 (Aufhebung). Prüfraster: sachlicher/persoenlicher/räumlicher/zeitlicher Anwendungsbereich, Ausschluss Art. 6, Rechtsbehelfe. Output CISG-Prüfschema, Anspruchs-Memo. Abgrenzung: IPR-Fragen siehe internationales-privatrecht; Incoterms siehe incoterms-und-gefahruebergang.'
+description: 'Für CISG-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/cisg-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: commercial
@@ -16,17 +16,12 @@ language: de
 
 Das UN-Kaufrecht (Wiener Übereinkommen vom 11. April 1980 über Verträge über den internationalen Warenkauf) ist ein direkt anwendbares Einheitskaufrecht und geht dem IPR vor, soweit es eingreift.
 
-
 ## Triage zu Beginn
 
 1. Sind beide Parteien Kaufleute mit Niederlassung in verschiedenen Vertragsstaaten des CISG?
 2. Ist der Gegenstand eine bewegliche körperliche Sache (kein Konsumkauf, keine Dienstleistung)?
 3. Haben die Parteien die Anwendung des CISG wirksam ausgeschlossen (Art. 6 CISG — ausdrücklicher Ausschluss nötig)?
 4. Welche Rügefrist gilt — ist die Rügeobliegenheit nach Art. 38, 39 CISG gewahrt?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -38,9 +33,6 @@ Das UN-Kaufrecht (Wiener Übereinkommen vom 11. April 1980 über Verträge über
 - Art. 49 CISG — Aufhebungsrecht des Käufers
 - Art. 74-78 CISG — Schadensersatz und Zinsen
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Anwendbarkeit prüfen:** Vertragsstaaten? Warenkauf? Kein Konsumkauf? Kein wirksamer Ausschluss?
@@ -52,6 +44,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Output-Template
 
 **Adressat:** Entscheidungsgründe — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## CISG-Prüfung
@@ -68,16 +68,9 @@ Ein Ausschluss nach Art. 6 CISG liegt nicht vor. [Alternativ: CISG ausgeschlosse
 **Ergebnis:** [PARTEI] hat Anspruch auf [Minderung / Schadensersatz / Aufhebung] nach Art. [NORM] CISG.
 ```
 
-## Anwendungsbereich
-
-1. **Sachlich** (Artikel 1-5 CISG): Kauf von Waren (bewegliche koerperliche Sachen). Ausnahmen: Konsumkauf, Versteigerung, Wertpapiere, Geld, Schiffe, Luftfahrzeuge, Elektrizitaet.
-2. **Persönlich** (Artikel 1 CISG): Parteien haben ihre Niederlassung in verschiedenen Vertragsstaaten ODER IPR führt zur Anwendung des Rechts eines Vertragsstaates.
-3. **Raeumlich**: Beide Parteien in Vertragsstaaten (Deutschland, Schweiz, USA, China, Frankreich, Italien, alle EU außer UK seit Brexit, ...).
-4. **Zeitlich**: nach 1. Januar 1991 für Deutschland.
-
 ## Ausschluss
 
-- Artikel 6 CISG: Parteien koennen die Anwendung ganz oder teilweise ausschließen.
+- Artikel 6 CISG: Parteien können die Anwendung ganz oder teilweise ausschließen.
 - Wirksamer Ausschluss erfordert klare Vereinbarung. **Nicht ausreichend** ist die blosse Rechtswahl "deutsches Recht" - CISG ist Teil des deutschen Rechts. Erforderlich: ausdruecklicher Ausschluss ("unter Ausschluss des UN-Kaufrechts").
 
 ## Wichtige Vorschriften
@@ -92,3 +85,5 @@ Ein Ausschluss nach Art. 6 CISG liegt nicht vor. [Alternativ: CISG ausgeschlosse
 ## Kollisionsfälle
 
 Wenn die Parteien gleichzeitig deutsches und Schweizer Recht wählen (kollidierende AGB), greift in der Regel CISG, weil beide Staaten Vertragsstaaten sind und die Rechtswahl in beiden Fällen auf einen Vertragsstaat führt. Falls eine Partei den Ausschluss in ihren AGB hat und die andere nicht, ist nach der Theorie der Resstgültigkeit / Knock-out-Doktrin (Artikel 19 CISG, herrschende Meinung in Deutschland) der Ausschluss nicht wirksam vereinbart.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

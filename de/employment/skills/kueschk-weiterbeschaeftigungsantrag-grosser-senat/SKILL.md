@@ -1,22 +1,50 @@
 ---
 name: kueschk-weiterbeschaeftigungsantrag-grosser-senat
-title: Weiterbeschäftigungsantrag — Großer Senat BAG 1985
-description: 'Weiterbeschaeftigungsantrag nach BAG Grosser Senat 1985: Voraussetzungen des allgemeinen Weiterbeschaeftigungsanspruchs; Vor- und Nachteile aus Arbeitnehmersicht; Vollstreckung; Unterschied zum § 102 Abs. 5 BetrVG Anspruch.'
+title: 'Weiterbeschaeftigungsantrag nach BAG Großer Senat 1985: Voraussetzungen des allgemeinen Weiterbeschaeftigungsanspruchs'
+description: 'Für Kueschk Weiterbeschäftigungsantrag Großer Senat: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-weiterbeschaeftigungsantrag-grosser-senat
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Weiterbeschäftigungsantrag — Großer Senat BAG 1985
+# Weiterbeschaeftigungsantrag nach BAG Großer Senat 1985: Voraussetzungen des allgemeinen Weiterbeschaeftigungsanspruchs
 
-## Zweck
 
-Neben den Feststellungsanträgen kann der klagende Arbeitnehmer einen **Antrag auf tatsächliche Weiterbeschäftigung** stellen. Dieser Anspruch ist in der Rechtsprechung des Großen Senats des BAG entwickelt worden und in der Praxis wichtig — birgt aber auch Risiken.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Weiterbeschaeftigungsantrag nach BAG Großer Senat 1985: Voraussetzungen des allgemeinen Weiterbeschaeftigungsanspruchs; Vor- und Nachteile aus Arbeitnehmersicht; Vollstreckung; Unterschied zum Paragraf 102 Abs. 5 BetrVG Anspruch.
+
+### Weiterbeschäftigungsantrag — Großer Senat BAG 1985
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Weiterbeschäftigungsantrag — Großer Senat BAG 1985` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Rechtsprechung live prüfen
 
@@ -38,31 +66,26 @@ Das Interesse des Arbeitnehmers an tatsächlicher Beschäftigung überwiegt in d
 ## Triage zu Beginn — kläre vor Beratung zum Weiterbeschaeftigungsantrag
 
 1. Hat das Arbeitsgericht die Kündigung bereits erstinstanzlich für unwirksam erklärt?
-2. Besteht ein Betriebsrat, der der Kündigung ordnungsgemäß widersprochen hat (§ 102 Abs. 5 BetrVG)?
+2. Besteht ein Betriebsrat, der der Kündigung ordnungsgemäß widersprochen hat (Paragraf 102 Abs. 5 BetrVG)?
 3. Will der Arbeitnehmer tatsächlich in den Betrieb zurück (keine Stricken-Situation)?
 4. Ist eine tatsächliche Beschäftigungsmöglichkeit noch vorhanden (Stelle nicht abgebaut)?
 
 **Entscheidungsbaum Weiterbeschaeftigungsantrag:**
 ```
-BR-Widerspruch vorhanden? → § 102 Abs. 5 BetrVG (sofort ab Klage, ohne Ersturteil)
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rueckkehr nicht gewünscht? → Kein WBA stellen; § 12 KSchG oder Vergleich prüfen
+BR-Widerspruch vorhanden? → Paragraf 102 Abs. 5 BetrVG (sofort ab Klage, ohne Ersturteil)
+Rueckkehr nicht gewünscht? → Kein WBA stellen; Paragraf 12 KSchG oder Vergleich prüfen
 Arbeitgeber kann überwiegende Gegeninteressen darlegen? → Antrag abweisbar
 ```
 
 ## Aktuelle Rechtsprechung
 
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Quellenregel
+## Unterschied: Paragraf 102 Abs. 5 BetrVG
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Unterschied: § 102 Abs. 5 BetrVG
+Besteht ein Betriebsrat und hat er der Kündigung ordnungsgemäß widersprochen, hat der Arbeitnehmer nach Paragraf 102 Abs. 5 BetrVG einen gesetzlichen Weiterbeschäftigungsanspruch — **sofort ab Klageerhebung**, ohne dass er erstinstanzlich obsiegen müsste.
 
-Besteht ein Betriebsrat und hat er der Kündigung ordnungsgemäß widersprochen, hat der Arbeitnehmer nach § 102 Abs. 5 BetrVG einen gesetzlichen Weiterbeschäftigungsanspruch — **sofort ab Klageerhebung**, ohne dass er erstinstanzlich obsiegen müsste.
-
-| | BAG GS 1985 | § 102 Abs. 5 BetrVG |
+| | BAG GS 1985 | Paragraf 102 Abs. 5 BetrVG |
 |---|---|---|
 | Voraussetzung | Erstinstanzlicher Sieg | BR-Widerspruch + Klage |
 | Zeitpunkt | Nach Urteil | Ab Klageerhebung |
@@ -76,21 +99,18 @@ Besteht ein Betriebsrat und hat er der Kündigung ordnungsgemäß widersprochen,
 - Erhöht Druck auf Arbeitgeber zur Vergleichsbereitschaft
 
 **Nachteile:**
-- Risiko: Wenn Arbeitgeber im Berufungsverfahren obsiegt, muss Arbeitnehmer zurückzahlen (Annahmeverzugslohn § 615 BGB vs. tatsächliches Gehalt — Differenz kann entstehen)
+- Risiko: Wenn Arbeitgeber im Berufungsverfahren obsiegt, muss Arbeitnehmer zurückzahlen (Annahmeverzugslohn Paragraf 615 BGB vs. tatsächliches Gehalt — Differenz kann entstehen)
 - Logistik: Rückkehr in den Betrieb kann belastend sein (Konflikte, Isolation)
 - Arbeitgeber kann Weiterbeschäftigung durch Vollstreckungsgegenklage abwehren
 
-**Praxishinweis:** Den Weiterbeschäftigungsantrag sollte man nur stellen, wenn man tatsächlich zurück in den Betrieb will. Wer bereits einen neuen Job hat, sollte § 12 KSchG prüfen.
+**Praxishinweis:** Den Weiterbeschäftigungsantrag sollte man nur stellen, wenn man tatsächlich zurück in den Betrieb will. Wer bereits einen neuen Job hat, sollte Paragraf 12 KSchG prüfen.
 
 ## Vollstreckung
 
-Bei Verurteilung zur Weiterbeschäftigung: Vollstreckung nach § 888 ZPO (Zwangsgeld oder Zwangshaft), da unvertretbare Handlung.
+Bei Verurteilung zur Weiterbeschäftigung: Vollstreckung nach Paragraf 888 ZPO (Zwangsgeld oder Zwangshaft), da unvertretbare Handlung.
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

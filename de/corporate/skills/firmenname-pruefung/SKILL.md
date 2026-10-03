@@ -1,0 +1,136 @@
+---
+name: firmenname-pruefung
+title: Firmenname-Prüfung
+description: 'Für Firmenname-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsgruender/skills/firmenname-pruefung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Firmenname-Prüfung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: GmbHG Paragraf 2, 3, 5, 7-11, 13, 15, 16, 35, 40, 46, 47, 48, 51a, 53, 55, 64, BGB Paragraf 705 ff. n.F., HGB Paragraf 105 ff., AktG/UmwG nur bei einschlägiger Strukturmaßnahme sowie Handelsregister-/Notarformvorgaben live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Firmenname-Prüfung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Triage zu Beginn
+
+Klaere mindestens 2 Wochen vor Notar-Termin:
+
+1. **3-5 Wunsch-Firmen bereit?** Immer Alternativen vorbereiten; Plan A kann beanstandet werden.
+2. **Branchenbezeichnung im Namen?** Prüfen ob Zulassung erforderlich (Bank: BaFin; Steuer: StBerG; Rechts: RAK).
+3. **Personenname im Firmennamen?** Eigener Name: unproblematisch; fremder Name: Berechtigung prüfen (Paragraf 12 BGB).
+4. **Marken-Relevanz?** Bei Startup oder Brand mit Aussenauftritt: DPMA/EUIPO-Recherche vor Eintragung.
+5. **Internationale Aktivitaet?** Bedeutung des Namens in Zielmaerkten prüfen; schwer aussprechbare Namen vermeiden.
+6. **Domain bereits gesichert?** Domain VOR Notar-Termin sichern; nachtraeglich oft nicht mehr verfuegbar.
+
+## Zentrale Normen
+
+- **Paragraf 17 HGB** — Firma ist der Name, unter dem Kaufmann im Handelsverkehr auftritt
+- **Paragraf 18 I HGB** — Kennzeichnungsgeeignetheit der Firma
+- **Paragraf 18 II HGB** — Irreführungsverbot; keine Firma, die zur Taeuschung geeignet ist
+- **Paragraf 19 HGB** — Pflicht-Rechtsform-Zusatz (GmbH, AG, OHG, KG usw.)
+- **Paragraf 30 HGB** — Verwechslungsgefahr; am Ort Pflicht zur Unterscheidbarkeit von bestehenden Firmen
+- **Paragraf 12 BGB** — Namensrecht; Schutz des Namensrechts bei Verwendung fremder Namen
+- **Paragraf 14 MarkenG** — Verletzung einer eingetragenen Marke durch Firmenname; Unterlassungsanspruch
+
+## Aktuelle Rechtsprechung
+
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+
+## Prüfschema: Firmennamen-Check
+
+| Schritt | Prüfung | Stelle | Ergebnis |
+|---|---|---|---|
+| 1 | Handelsregister-Suche bundesweit | gemeinsam.handelsregister.de | Konflikt? Wenn ja, Name anpassen |
+| 2 | IHK-Firmenvorpruefung beantragt | Oertliche IHK | Bescheinigung erhalten? |
+| 3 | Kennzeichnungseignung geprueft | Selbst / Anwalt | Nicht generisch; Unterscheidungskraft vorhanden |
+| 4 | Irrefuehrungs-Check | Selbst | Keine falsche Branchenangabe; keine Zulassungs-Vortaeuschung |
+| 5 | Rechtsform-Zusatz vorhanden | Selbst | GmbH / UG / AG / OHG explizit angegeben |
+| 6 | DPMA-Marken-Recherche | dpma.de | Kein identischer / aehnlicher Markenname |
+| 7 | EUIPO-Marken-Recherche | euipo.europa.eu | EU-Marken-Konflikt? |
+| 8 | Domain .de gesichert | DENIC / Registrar | Verfuegbar und gesichert VOR Notar |
+| 9 | Domain .com gesichert | Registrar | Verfuegbar und gesichert |
+| 10 | Personenname-Berechtigung | Selbst | Eigener Name oder nachgewiesene Berechtigung |
+| 11 | Branchenbezeichnung-Zulassung | Berufsrecht | Bank, Steuer, Rechts, Arzt: Zulassung geprueft |
+| 12 | Internationale Bedeutung geprueft | Selbst | Keine negativen Konnotationen in Zielmaerkten |
+
+## Schritt-für-Schritt-Workflow
+
+1. **T-14 (2 Wochen vor Notar):** 3-5 Wunsch-Namen listen; HR-Suche nationwide; DPMA-Stichprobe.
+2. **T-10:** IHK-Vorpruefung beantragen (oft binnen 2-5 Werktagen); Domain-Verfuegbarkeit prüfen.
+3. **T-7:** IHK-Bescheinigung liegt vor; Domain bei Verfuegbarkeit SOFORT sichern; ggf. Marken-Anmeldung einleiten.
+4. **T-3:** Alle Alternativen bereit halten; Marken-Recherche abgeschlossen.
+5. **T (Notar-Termin):** Beurkundung mit gewaehltem Namen; IHK-Bescheinigung dem Notar vorlegen.
+6. **T+5 bis T+14 (HR-Prüfung):** HR-Gericht prüft; bei Beanstandung: Satzungsaenderung und erneute Beurkundung (Kosten ca. 300-600 EUR).
+7. **Nach Eintragung:** Marken-Anmeldung auf Gesellschaft umschreiben (falls zuvor auf Gründer angemeldet).
+
+## Output-Template: Firmenname-Prüfprotokoll
+
+**Adressat:** Interne Dokumentation / Anwaltsakte
+
+```
+FIRMENNAME-PRUEFPROTOKOLL
+Mandant: [NAME] | Datum: [DATUM] | Notar-Termin: [DATUM]
+
+Gewuenschte Firmennamen (Prioritaetsreihenfolge):
+1. [NAME 1] GmbH
+2. [NAME 2] GmbH
+3. [NAME 3] GmbH
+
+Pruef-Ergebnisse:
+
+| Pruefung | Name 1 | Name 2 | Name 3 |
+|---------------------------|-------------|-------------|-------------|
+| HR-Suche (HR-Bezirk) | OK / Konflikt| OK / Konflikt| OK / Konflikt|
+| IHK-Vorpruefung | Bestätigt | Ausstehend | - |
+| DPMA Marken | OK | Konflikt | OK |
+| EUIPO Marken | OK | OK | OK |
+| Domain .de | Gesichert | Vergeben | Verfuegbar |
+| Domain .com | Verfuegbar | Vergeben | Verfuegbar |
+| Irrefuehrungs-Check | OK | - | - |
+| Branchenbezeichnung-Zulass.| n/a | - | - |
+
+Empfehlung: [NAME 1] GmbH (keine Konflikte, Domain gesichert)
+Fallback: [NAME 3] GmbH
+
+Naechste Schritte:
+[ ] IHK-Bescheinigung für [NAME 1] einholen
+[ ] Domain [name1].de registriert am [DATUM]
+[ ] Marken-Anmeldung DPMA für [NAME 1] einleiten?
+```
+
+## Rote Schwellen
+
+- Branchenbezeichnung "Bank", "Versicherung", "Steuerberatung" ohne Zulassung: Beanstandung und Ordnungswidrigkeitsverfahren
+- Verwechslungsgefahr mit bestehender Firma im Registerbereich: Beanstandung HR-Gericht (Paragraf 30 HGB)
+- Fremder Name ohne Berechtigung: Namensklage nach Paragraf 12 BGB; Unterlassung und Schadenersatz
+- Marken-Verletzung durch Firmennamen: Unterlassungsklage; Umfirmierungspflicht; erhebliche Kosten
+
+## Quellen und Vertiefung
+
+- Paragraf 17-30 HGB (Firmenrecht), Paragraf 12 BGB, Paragraf 14 MarkenG
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+## Übergabe an andere Skills
+
+- `gesellschaftsgruender-gmbh-vorbereitung` — Firmenname als Baustein der Vorbereitung
+- `gesellschaftsgruender-notar-vorbereitung` — IHK-Bescheinigung vorlegen
+- `gesellschaftsgruender-handelsregister-anmeldung` — HR-Prüfung durch Registergericht

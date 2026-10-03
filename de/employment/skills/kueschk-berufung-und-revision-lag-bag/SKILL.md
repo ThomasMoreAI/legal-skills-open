@@ -1,54 +1,66 @@
 ---
 name: kueschk-berufung-und-revision-lag-bag
-title: 'Berufung und Revision: LAG und BAG'
-description: 'Berufung beim Landesarbeitsgericht und Revision beim BAG: Fristen je einen Monat und zwei Monate; Zulassungsgründe Revision; Kosten ab zweiter Instanz; Divergenzrevision; typische Revisionszulassungsgründe.'
+title: 'Berufung beim Landesarbeitsgericht und Revision beim BAG: Fristen je einen Monat und zwei Monate'
+description: 'Für Kueschk Berufung und Revision Lag Bag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-berufung-und-revision-lag-bag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Berufung und Revision: LAG und BAG
+# Berufung beim Landesarbeitsgericht und Revision beim BAG: Fristen je einen Monat und zwei Monate
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Berufung beim Landesarbeitsgericht und Revision beim BAG: Fristen je einen Monat und zwei Monate; Zulassungsgründe Revision; Kosten ab zweiter Instanz; Divergenzrevision; typische Revisionszulassungsgründe.
+
+### Berufung und Revision: LAG und BAG
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Berufung und Revision: LAG und BAG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre vor Rechtsmittelentscheidung
 
 1. Wann wurde das Urteil zugestellt? (Berufungsfrist: 1 Monat ab Zustellung)
 2. Was ist der Berufungsbeschwerdewert? (> 600 EUR oder Kündigung? → Berufung statthaft)
-3. Ist ein Anwalt bereits mandatiert? (Anwaltszwang ab LAG zwingend, § 11 Abs. 4 ArbGG)
+3. Ist ein Anwalt bereits mandatiert? (Anwaltszwang ab LAG zwingend, Paragraf 11 Abs. 4 ArbGG)
 4. Welche Fehler hat das Erstgericht gemacht? → Schwerpunkt der Berufungsbegründung festlegen
 5. Lohnt sich die Berufung wirtschaftlich? (Kostenrisiko ab zweiter Instanz!)
 
 ## Zentrale Normen
 
-- § 64 ArbGG — Berufung beim LAG; Statthaftigkeit und Beschwerdewert
-- § 66 ArbGG — Berufungs- und Begründungsfristen (je 1 Monat/2 Monate)
-- § 11 Abs. 4 ArbGG — Anwaltszwang ab zweiter Instanz (LAG)
-- § 72 ArbGG — Revisionszulassung und Zulassungsgründe
-- § 72a ArbGG — Nichtzulassungsbeschwerde
-- § 74 ArbGG — Revisionsfristen (1 Monat/2 Monate)
-- § 12a ArbGG — Keine Kostenerstattung erste Instanz; ab LAG gilt ZPO-Kostenrecht
+- Paragraf 64 ArbGG — Berufung beim LAG; Statthaftigkeit und Beschwerdewert
+- Paragraf 66 ArbGG — Berufungs- und Begründungsfristen (je 1 Monat/2 Monate)
+- Paragraf 11 Abs. 4 ArbGG — Anwaltszwang ab zweiter Instanz (LAG)
+- Paragraf 72 ArbGG — Revisionszulassung und Zulassungsgründe
+- Paragraf 72a ArbGG — Nichtzulassungsbeschwerde
+- Paragraf 74 ArbGG — Revisionsfristen (1 Monat/2 Monate)
+- Paragraf 12a ArbGG — Keine Kostenerstattung erste Instanz; ab LAG gilt ZPO-Kostenrecht
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Zweite Instanz — Berufung beim Landesarbeitsgericht (LAG)
 
 ### Voraussetzungen der Berufung
 
-Gegen Urteile des Arbeitsgerichts kann Berufung beim zuständigen Landesarbeitsgericht eingelegt werden (§ 64 ArbGG).
+Gegen Urteile des Arbeitsgerichts kann Berufung beim zuständigen Landesarbeitsgericht eingelegt werden (Paragraf 64 ArbGG).
 
 **Zulässigkeit der Berufung:**
-- Statthaft, wenn der Beschwerdewert 600 EUR übersteigt (§ 64 Abs. 2 lit. b ArbGG) **oder**
-- Das Arbeitsgericht die Berufung ausdrücklich zugelassen hat (§ 64 Abs. 2 lit. a ArbGG) **oder**
-- Streit über Kündigung nach §§ 4, 7 KSchG (Berufung immer statthaft, § 64 Abs. 2 lit. c ArbGG)
+- Statthaft, wenn der Beschwerdewert 600 EUR übersteigt (Paragraf 64 Abs. 2 lit. b ArbGG) **oder**
+- Das Arbeitsgericht die Berufung ausdrücklich zugelassen hat (Paragraf 64 Abs. 2 lit. a ArbGG) **oder**
+- Streit über Kündigung nach Paragrafen 4, 7 KSchG (Berufung immer statthaft, Paragraf 64 Abs. 2 lit. c ArbGG)
 
 ### Fristen (Berufung) — AUSSCHLUSSFRISTEN
 
@@ -57,15 +69,15 @@ Gegen Urteile des Arbeitsgerichts kann Berufung beim zuständigen Landesarbeitsg
 | Berufungsfrist | 1 Monat | Zustellung des Urteils |
 | Berufungsbegründungsfrist | 2 Monate | Zustellung des Urteils |
 
-**Wichtig:** Beide Fristen sind Ausschlussfristen — keine Verlängerung nach Ablauf, keine Wiedereinsetzung (außer bei unverschuldetem Hindernis nach § 233 ZPO).
+**Wichtig:** Beide Fristen sind Ausschlussfristen — keine Verlängerung nach Ablauf, keine Wiedereinsetzung (außer bei unverschuldetem Hindernis nach Paragraf 233 ZPO).
 
 ### Anwaltszwang ab Berufung
 
-Ab der zweiten Instanz (LAG) besteht **Anwaltszwang** (§ 11 Abs. 4 ArbGG). Ohne Anwalt ist die Berufung unzulässig.
+Ab der zweiten Instanz (LAG) besteht **Anwaltszwang** (Paragraf 11 Abs. 4 ArbGG). Ohne Anwalt ist die Berufung unzulässig.
 
 ### Berufungsbegründung — Anforderungen
 
-Die Berufungsbegründung (§ 64 Abs. 6 ArbGG i.V.m. § 520 Abs. 3 ZPO) muss:
+Die Berufungsbegründung (Paragraf 64 Abs. 6 ArbGG i.V.m. Paragraf 520 Abs. 3 ZPO) muss:
 - Auf den konkreten Fall zugeschnitten sein
 - Die Angriffe gegen die erstinstanzliche Begründung konkret benennen
 - Entweder die unrichtige Anwendung einer Rechtsnorm oder konkrete unrichtige Tatsachenfeststellungen rügen
@@ -82,9 +94,9 @@ Ab dem LAG gilt das normale ZPO-Kostenrecht — die unterlegene Partei trägt di
 
 ### Zulassung der Revision
 
-Die Revision zum Bundesarbeitsgericht (BAG) ist nur statthaft, wenn sie das LAG ausdrücklich zugelassen hat (§ 72 ArbGG) oder die Nichtzulassungsbeschwerde erfolgreich ist.
+Die Revision zum Bundesarbeitsgericht (BAG) ist nur statthaft, wenn sie das LAG ausdrücklich zugelassen hat (Paragraf 72 ArbGG) oder die Nichtzulassungsbeschwerde erfolgreich ist.
 
-**Zulassungsgründe (§ 72 Abs. 2 ArbGG):**
+**Zulassungsgründe (Paragraf 72 Abs. 2 ArbGG):**
 
 | Grund | Anforderung |
 |---|---|
@@ -101,26 +113,26 @@ Die Revision zum Bundesarbeitsgericht (BAG) ist nur statthaft, wenn sie das LAG 
 
 ### Nichtzulassungsbeschwerde
 
-Lässt das LAG die Revision nicht zu, kann **Nichtzulassungsbeschwerde** eingelegt werden (§ 72a ArbGG) — Frist: 1 Monat ab Zustellung des Urteils. Die Beschwerde muss die Zulassungsgründe substantiiert darlegen.
+Lässt das LAG die Revision nicht zu, kann **Nichtzulassungsbeschwerde** eingelegt werden (Paragraf 72a ArbGG) — Frist: 1 Monat ab Zustellung des Urteils. Die Beschwerde muss die Zulassungsgründe substantiiert darlegen.
 
 ## Entscheidungsbaum: Welches Rechtsmittel?
 
 ```
 Erstinstanzliches Urteil des ArbG erhalten?
 └─ Ja → Berufung prüfen:
-         ├─ Beschwerdewert > 600 EUR? → Ja: Berufung statthaft
-         ├─ Kündigung streitig (§ 4 KSchG)? → Ja: immer statthaft
-         └─ Arbeitsgericht hat Berufung zugelassen? → Ja: statthaft
+ ├─ Beschwerdewert > 600 EUR? → Ja: Berufung statthaft
+ ├─ Kündigung streitig (Paragraf 4 KSchG)? → Ja: immer statthaft
+ └─ Arbeitsgericht hat Berufung zugelassen? → Ja: statthaft
 
-         Frist läuft: 1 Monat Einlegung, 2 Monate Begründung
-         Anwalt mandatieren (Anwaltszwang § 11 Abs. 4 ArbGG)!
+ Frist läuft: 1 Monat Einlegung, 2 Monate Begründung
+ Anwalt mandatieren (Anwaltszwang Paragraf 11 Abs. 4 ArbGG)!
 
 LAG-Urteil erhalten?
 └─ Revision prüfen:
-         ├─ LAG hat Revision zugelassen? → § 72 ArbGG
-         └─ Nein: Nichtzulassungsbeschwerde (§ 72a ArbGG) prüfen
-            → Grundsatz, Divergenz oder Verfahrensrüge?
-            → Frist: 1 Monat ab Zustellung
+ ├─ LAG hat Revision zugelassen? → Paragraf 72 ArbGG
+ └─ Nein: Nichtzulassungsbeschwerde (Paragraf 72a ArbGG) prüfen
+ → Grundsatz, Divergenz oder Verfahrensrüge?
+ → Frist: 1 Monat ab Zustellung
 ```
 
 ## Praktische Hinweise
@@ -136,3 +148,5 @@ In Kündigungsschutzfällen endet der Streit meist in erster oder zweiter Instan
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

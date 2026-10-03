@@ -1,11 +1,11 @@
 ---
 name: konzerninsolvenz-koordination
 title: Konzerninsolvenz — Koordination
-description: 'Mehrere Gesellschaften eines Konzerns sind insolvent und Koordination der Verfahren muss geplant werden. Prüfraster Konzerninsolvenz §§ 269a-269i InsO Konzern-Gerichtsstand § 3a InsO Gruppen-Folgeverfahren § 3d InsO. Konzernbegriff § 18 AktG verbundene Unternehmen § 15 AktG insolvenzrechtliche Unternehmensgruppe § 3e InsO. Konzern-Verwalter § 269e InsO Koordinations-Plan § 269h InsO EuInsVO Art. 56 ff. bei grenzüberschreitender Insolvenz. Output Koordinations-Strategie-Memo mit Zuständigkeitsprüfung und Verfahrensplan. Abgrenzung: anfechtungsrechte-prüfen für konzerninternen Zahlungsverkehr.'
+description: 'Für Konzerninsolvenz — Koordination: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/konzerninsolvenz-koordination
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,23 @@ language: de
 
 # Konzerninsolvenz — Koordination
 
-## Zweck
+## Arbeitsbereich
 
-Bei Insolvenz mehrerer verbundener Unternehmen sind §§ 269a ff. InsO seit 21.4.2018 zentral. Dieses Skill bedient Koordinations-Strategien.
+Mehrere Gesellschaften eines Konzerns sind insolvent und Koordination der Verfahren muss geplant werden. Prüfraster Konzerninsolvenz §§ 269a-269i InsO Konzern-Gerichtsstand § 3a InsO Gruppen-Folgeverfahren § 3d InsO. Konzernbegriff § 18 AktG verbundene Unternehmen § 15 AktG insolvenzrechtliche Unternehmensgruppe § 3e InsO. Konzern-Verwalter § 269e InsO Koordinations-Plan § 269h InsO EuInsVO Art. 56 ff. bei grenzüberschreitender Insolvenz. Output Koordinations-Strategie-Memo mit Zuständigkeitsprüfung und Verfahrensplan. Abgrenzung: anfechtungsrechte-prüfen für konzerninternen Zahlungsverkehr. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Konzerninsolvenz — Koordination` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -61,7 +75,7 @@ Bei Insolvenz mehrerer verbundener Unternehmen sind §§ 269a ff. InsO seit 21.4
 ### Grundregel
 
 - **Verantwortliches Gericht** für Mutter-Gesellschaft
-- Anträge weiterer Konzern-Gesellschaften können dort gebündelt werden
+- Anträge weiterer Konzern-Gesellschaften können dort gebearbeitet werden
 - Voraussetzung: gegenständliche und persönliche Verzahnung
 
 ### Antrags-Voraussetzungen
@@ -285,7 +299,6 @@ Bei Insolvenz mehrerer verbundener Unternehmen sind §§ 269a ff. InsO seit 21.4
 ### Anfechtungs-Prüfung
 
 - Inter-Company-Transaktionen sensitiv (Cash-Pool, Konzerndarlehen, Sicherheiten)
-- Nach **BGH IX ZR 239/22 vom 18.04.2024** (Anfechtung gesellschafterähnlicher Stellung § 135 InsO) sind die Anforderungen erhöht; Konzern-Sicherheitenketten gesondert prüfen. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 - Skill `vorsatzanfechtung-133-inso`
 
 ### Anteilseigner-Rechte
@@ -337,7 +350,7 @@ Bei Insolvenz mehrerer verbundener Unternehmen sind §§ 269a ff. InsO seit 21.4
 - Verflechtungs-Analyse
 - Inter-Company-Forderungs-Inventar
 - Antragsschriftsätze koordiniert
-- Frist im Fristenbuch (3-Wochen-Frist § 15a InsO pro Gesellschaft)
+- Je Rechtsträger objektiven Eintritt des Insolvenzgrunds, unverzügliche Antragspflicht und einschlägige Drei-/Sechswochen-Höchstfrist nach Paragraf 15a InsO gesondert im Fristenbuch dokumentieren
 
 ## Quellen
 
@@ -351,14 +364,8 @@ Bei Insolvenz mehrerer verbundener Unternehmen sind §§ 269a ff. InsO seit 21.4
 - Frind Konzerninsolvenz
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
 
-
 ## Weitere Leitentscheidungen — Konzerninsolvenz (Stand Mai 2026)
 
-- **BGH IX ZR 239/22 vom 18.04.2024** — Verschärfung der Anforderungen an Anfechtung gesellschafterähnlicher Stellung (§ 135 InsO); relevant für konzerninterne Darlehen und Sicherheiten. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=18.04.2024&Aktenzeichen=IX+ZR+239/22>
 - **BGH IX ZR 122/23 vom 05.12.2024** — Unlauterkeit bei Bargeschäft (§ 142 InsO) auch in Konzernverhältnissen einschlägig.
 - **BGH IX ZR 127/24 vom 13.11.2025** (Wirecard) — Nachrangigkeit kapitalmarktrechtlicher Aktionärsschadensersatzansprüche in der Insolvenz der AG (Bedeutung für Konzernspitze als Holding-AG).
 - **EuInsVO** und konkrete EuGH-Entscheidungen zu COMI/Konzerninsolvenz vor Ausgabe über curia.europa.eu oder dejure.org verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

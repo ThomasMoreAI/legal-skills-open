@@ -1,11 +1,11 @@
 ---
 name: jahresfrist-47-abs-2-vwgo
 title: Jahresfrist § 47 Abs. 2 VwGO
-description: 'Mandant moechte Normenkontrollantrag stellen und Anwalt prüft ob die Jahresfrist noch laeuft. § 47 Abs. 2 S. 1 VwGO Jahresfrist Normenkontrolle. Prüfraster: Fristbeginn ortsuebliche Bekanntmachung § 10 Abs. 3 BauGB fehlerhafte Bekanntmachung kein Fristbeginn Wiedereinsetzung § 60 VwGO ergaenzendes Verfahren § 214 Abs. 4 BauGB setzt neue Frist. Ruegefrist § 215 BauGB ein Jahr parallel. Output: Fristberechnung Normenkontrolle und Fristenbuch-Eintrag. Abgrenzung zu antragsbefugnis-eigentuemer-nachbar (Befugnis) und planerhaltung-214-215-baugb.'
+description: 'Für Jahresfrist Paragraf 47 Abs. 2 VwGO: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/jahresfrist-47-abs-2-vwgo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Jahresfrist § 47 Abs. 2 VwGO
-
-## Zweck
-
-Die Jahresfrist ist die dritte Zulässigkeitssäule und zugleich die schärfste materielle Falle. Wer sie versäumt, kann nur noch über fehlerhafte Bekanntmachung oder Wiedereinsetzung retten.
 
 ## Schritt 1 — Wortlaut und Grundregel
 
@@ -166,11 +162,7 @@ Die Jahresfrist ist die dritte Zulässigkeitssäule und zugleich die schärfste 
 ## Ergänzende Rechtsprechung (Stand 05/2026)
 
 - **BVerwG 17.06.2020, 4 CN 6.18**: Anforderungen an die Bekanntmachung von Bebauungsplaenen — Anstossfunktion und Fristbeginn § 47 Abs. 2 VwGO. Quelle: bverwg.de.
-- **BVerwG 03.04.2020, 4 CN 2.19** (Erhaltungssatzung): Bekanntmachung und Fristbeginn fuer den Normenkontrollantrag. Quelle: bverwg.de.
-- **OVG NRW** und andere OVG/VGH: laufende Rspr. zu Bekanntmachungsmaengeln und Frist; konkrete Aktenzeichen ueber landesrecht-nrw.de bzw. die jeweilige Landesjustiz-Datenbank verifizieren.
+- **BVerwG 03.04.2020, 4 CN 2.19** (Erhaltungssatzung): Bekanntmachung und Fristbeginn für den Normenkontrollantrag. Quelle: bverwg.de.
+- **OVG NRW** und andere OVG/VGH: laufende Rspr. zu Bekanntmachungsmaengeln und Frist; konkrete Aktenzeichen über landesrecht-nrw.de bzw. die jeweilige Landesjustiz-Datenbank verifizieren.
 
 Vor Ausgabe per bverwg.de mit Datum und Aktenzeichen verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

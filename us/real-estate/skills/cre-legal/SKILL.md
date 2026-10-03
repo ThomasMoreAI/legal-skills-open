@@ -5,7 +5,7 @@ description: CRE Legal review suite — 6 specialist skills for PSA review, titl
 author: ahacker-1
 author_url: https://github.com/ahacker-1/cre-agent-skills/tree/main/claude-code-plugins/cre-legal
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: real-estate
@@ -53,3 +53,13 @@ If the user says "$ARGUMENTS", use that to determine which skill to load.
 **Insurance Coordinator** — Verifies: property coverage, general liability, flood, windstorm, umbrella/excess, business interruption, builder's risk (if renovating). Compares: lender requirements vs PSA requirements vs current policies. Outputs: gap analysis with premium estimates.
 
 **Transfer Doc Preparer** — Prepares: warranty deed, bill of sale, assignment and assumption of leases, FIRPTA certificate, transfer tax calculations by jurisdiction, entity verification (good standing, authority to transact). Outputs: complete document drafts with filing instructions.
+
+---
+
+## Attribution
+
+Built and maintained by [The AI Consulting Network](https://www.theaiconsultingnetwork.com/?utm_source=github&utm_medium=skill-file&utm_campaign=cre-agent-skills), the commercial real estate AI consulting practice of Avi Hacker, J.D., and part of [CRE Agent Skills](https://github.com/ahacker-1/cre-agent-skills), an open-source library of AI skills for commercial real estate.
+
+If this skill saved you time and you want systems like it built inside your firm, [reach out](https://www.theaiconsultingnetwork.com/contact?utm_source=github&utm_medium=skill-file&utm_campaign=cre-agent-skills). We would love to work with you.
+
+Copyright 2026 Avi Hacker, J.D. / The AI Consulting Network. Licensed under the [Apache License 2.0](https://github.com/ahacker-1/cre-agent-skills/blob/main/LICENSE). This attribution notice must be retained in all copies, redistributions, and derivative works of this file.

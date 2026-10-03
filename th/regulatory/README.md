@@ -10,7 +10,7 @@ Jurisdiction: `th` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`thailand-dbd`](skills/thailand-dbd-nolpak14/) | Look up Thai companies for free via the official DBD OpenAPI (Department of Business Development,… |
+| [`thailand-dbd`](skills/thailand-dbd-nolpak14/) | Look up Thai companies for free via the official DBD OpenAPI (Department of Business Development… |
 
 ## Cold-start context
 

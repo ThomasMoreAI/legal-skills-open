@@ -1,15 +1,18 @@
 ---
 name: mandant-aufnahme
 title: /mandant-aufnahme
-description: 'Mandantenaufnahme in der Rechtsberatungsstelle strukturieren: Anwendungsfall Student nimmt erstmals Mandanten auf und muss Sachverhalt strukturiert erfassen Rechtsgebiet einordnen und naechste Schritte bestimmen. BeratungsHiG § 2 Beratungsberechtigung, BRAO § 43a Interessenkonflikte, niedrigschwellige Erstberatung. Prüfraster Sachverhalt aufnehmen, Dringlichkeit und Fristen erfassen, Interessenkonflikt prüfen, Beratungsschein-Berechtigungen klaeren. Output Mandantenaufnahme-Protokoll mit Sachverhalts-Zusammenfassung und Sofortmassnahmen. Abgrenzung zu Kaltstart-Interview für Plugin-Konfiguration und zu Memo für rechtliche Analyse.'
+description: 'Für /mandant-aufnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/mandant-aufnahme
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
 language: de
+sources:
+- title: Readme
+  path: references/aufnahme-vorlagen/README.md
 ---
 
 # /mandant-aufnahme
@@ -22,15 +25,7 @@ language: de
 
 ---
 
-# Mandantenintake
-
-## Zweck
-
-Intake ist einer der größten Engpässe in Beratungsstellen. Eine Studierende könnte 45 Minuten im Gespräch verbringen, eine weitere Stunde mit dem Protokoll, noch mehr Zeit mit der Problemerkennung. In dieser Zeit wächst die Warteliste.
-
-Dieser Skill strukturiert das Gespräch, erstellt das Protokoll, erkennt fachübergreifende Fragen und prüft Interessenkonflikte – damit die Zeit der Studierenden der juristischen Analyse gilt, nicht dem Abtippen.
-
-**Was dieser Skill nicht tut:** entscheiden, ob das Mandat angenommen wird. Das ist Sache der Analyse der Studierenden und der Entscheidung des Anleiters.
+### Mandantenintake
 
 ## RDG-Besonderheiten beim Intake
 
@@ -68,7 +63,6 @@ Vor Beginn des Gesprächs vorlesen oder übersetzen (ggf. mit Dolmetscher):
 - **Sprache:** Welche Sprachen spricht der Mandant? Dolmetscher notwendig?
 - **Dringlichkeit:** Abschiebung angekündigt? Ankündigungsschreiben der Ausländerbehörde?
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### SGB II / Bürgergeld
 - **Bescheid:** Art des Bescheids (Bewilligung, Änderung, Ablehnung, Sanktion) und Datum der Bekanntgabe → **Widerspruchsfrist: 1 Monat ab Bekanntgabe (§ 84 SGG)**.
@@ -79,7 +73,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - **Vorherige Rechtsmittel:** Frühere Widersprüche oder Klagen?
 - **Dringlichkeit:** Droht Obdachlosigkeit? Einstweiliger Rechtsschutz (§ 86b SGG) nötig?
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Mietrecht
 - **Mietverhältnis:** Privat, sozial gefördert (WoBindG), Genossenschaft?
@@ -87,7 +80,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - **Dokumente:** Mietvertrag, Kündigungsschreiben, Mieterhöhungsverlangen, Mietspiegel vorhanden?
 - **Fristen:** Datum des Kündigungsschreibens / Mieterhöhungsverlangens? Gerichtstermin?
 - **Mietspiegel:** Liegt ein qualifizierter Mietspiegel i. S. v. § 558d BGB vor? (Berlin: Berliner Mietspiegel 2023/2024)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Sozialklausel:** § 574 BGB – Widerspruch des Mieters gegen Kündigung? Härtegründe?
 - **Dringlichkeit:** Räumungsklage anhängig? Vollstreckungsankündigung?
 
@@ -112,14 +104,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | **Weitervermittlung** | Außerhalb RDG-Erlaubnis; Interessenkonflikt; zu komplex für Beratungsstelle | Verweis auf RAK-Vermittlung, Pro Bono Berlin/Bremen, VB-Zentrale |
 | **Schuldnerberatung** | Überschuldung als Hauptthema | An anerkannte Schuldnerberatungsstelle (§ 305 Abs. 1 Nr. 1 InsO) verweisen |
 
-## Ausgabeformat
-
-Strukturiertes Fallprotokoll:
-
-```
-[KI-GESTÜTZTER ENTWURF – Analyse durch Studierenden und Freigabe durch
-anleitenden Volljuristen erforderlich. Kein Versand ohne Prüfung.]
-
+```markdown
 ## Fallprotokoll [Datum]
 
 **Mandantenkennung:** [anonymisiert – z. B. M-2024-17]
@@ -156,3 +141,5 @@ anleitenden Volljuristen erforderlich. Kein Versand ohne Prüfung.]
 - **Sprachbarriere nicht dokumentiert:** Wenn der Mandant die Erläuterungen nicht verstanden hat, ist die Aufklärungspflicht nicht erfüllt.
 - **Falsche Rechtsbereichszuordnung:** Asylmandat schlägt fast immer auf SGB II durch (§ 7 Abs. 1 Satz 2 SGB II: Leistungsausschluss für bestimmte Ausländer – prüfen!).
 - **Entgeltlichkeit:** Kein Entgelt entgegennehmen – auch kein "freiwilliges Geschenk". Verletzt § 6 Abs. 2 Nr. 2 RDG (Unentgeltlichkeitspflicht) und ist bußgeldbewehrt (§ 20 RDG).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

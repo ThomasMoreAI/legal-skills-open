@@ -1,11 +1,11 @@
 ---
 name: europarecht-wettbewerb-kartell
 title: EU-Wettbewerb und Kartellrecht
-description: 'Kartell- und Wettbewerbsrecht nach Art. 101 102 AEUV prüfen wenn Absprachen Marktmissbrauch oder Zusammenschluesse in Frage stehen. Art. 101 102 AEUV § 1 GWB VO 1/2003. Prüfraster: Kartellverbot Marktabgrenzung marktbeherrschende Stellung Missbrauch Freistellungen Geldbussen. Output: Kartellrechtsprüfmemo Risikoeinschaetzung. Abgrenzung: nicht für Beihilfenrecht (europarecht-beihilfen-vergaben).'
+description: 'Für EU-Wettbewerb und Kartellrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/europarecht-kompass/skills/europarecht-wettbewerb-kartell
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: antitrust
@@ -14,9 +14,17 @@ language: de
 
 # EU-Wettbewerb und Kartellrecht
 
-## Zweck
+## Arbeitsbereich
 
-Märkte, Marktanteile, Kooperationen, Plattformregeln und Hardcore-Risiken werden strukturiert.
+Kartell- und Wettbewerbsrecht nach Art. 101 102 AEUV prüfen wenn Absprachen Marktmissbrauch oder Zusammenschluesse in Frage stehen. Art. 101 102 AEUV § 1 GWB VO 1/2003. Prüfraster: Kartellverbot Marktabgrenzung marktbeherrschende Stellung Missbrauch Freistellungen Geldbussen. Output: Kartellrechtsprüfmemo Risikoeinschaetzung. Abgrenzung: nicht für Beihilfenrecht (europarecht-beihilfen-vergaben). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: AEUV Art. 263 Nichtigkeitsklage 2 Monate, Art. 265 Untätigkeitsklage 2 Monate, Art. 267 Vorlage jederzeit, Vertragsverletzungsverfahren Art. 258 unbefristet.
+- Tragende Normen verifizieren: EUV, AEUV (insb. Art. 4, 5, 18, 20, 21, 34, 49, 56, 101, 102, 107, 108, 263, 267, 288, 340), GRCh, EU-VO (Beispiele 2016/679 DSGVO, 2024/1689 KI-VO, 139/2004 FKVO), EU-Richtlinien, EuGH-Rechtsprechung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: EU-Kommission, Rat, Europäisches Parlament, EuGH, EuG, Mitgliedstaaten, nationale Gerichte (Vorlage Art. 267 AEUV), Bundesregierung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Vorlagebeschluss Art. 267 AEUV, Nichtigkeitsklage, Beschwerde an EU-KOM, Stellungnahme im Vertragsverletzungsverfahren, Notifizierung, EuGH-Urteilsbeleg — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Wann verwenden
 
@@ -24,27 +32,12 @@ Märkte, Marktanteile, Kooperationen, Plattformregeln und Hardcore-Risiken werde
 - wenn deutsche Kategorien die EU-Eigenlogik verdecken könnten
 - wenn Rechtsquelle, Wirkung, Verfahren oder Frist unklar sind
 
-## Arbeitsweise
-
-1. **Rechtsquelle fixieren.** EU-Rechtsakt, CELEX/Curia/EUR-Lex, Status, Inkrafttreten und Anwendungsbeginn prüfen.
-2. **Wirkung bestimmen.** Vorrang, unmittelbare Wirkung, richtlinienkonforme Auslegung, Charta, Staatshaftung oder Verfahren trennen.
-3. **Deutsche Denkfehler markieren.** Nationale Kategorien nur nutzen, wenn sie unionsrechtlich passen.
-4. **Verfahrensweg planen.** Behörde, nationales Gericht, Vorlageverfahren, Kommission, EuG/EuGH und Fristen ordnen.
-5. **Qualitätstor setzen.** Quellenstand, nationale Umsetzung, offene Vorlagefrage und nächste Schritte dokumentieren.
-
 ## Rückfragen, wenn unklar
 
 - Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
 - Welche Partei oder Rolle vertreten wir?
 - Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
 - Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
-
-## Ausgabeformat
-
-- Kurzlage mit Ampel
-- Prüfmatrix mit Fundstelle, Risiko, Vorschlag und Review-Level
-- anwaltlich prüfbarer Entwurf oder Mandantenhinweis
-- offene Annahmen, Quellenstand und nächste Schritte
 
 ## Typische Fehler vermeiden
 
@@ -60,7 +53,7 @@ Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf 
 ## Triage vor Kartellpruefung
 
 Bevor losgelegt wird, klaere:
-1. Liegen Vereinbarungen zwischen Unternehmen, Beschluesse von Unternehmensvereinigungen oder aufeinander abgestimmte Verhaltensweisen vor (Art. 101 Abs. 1 AEUV)?
+1. Liegen Vereinbarungen zwischen Unternehmen, Beschlüsse von Unternehmensvereinigungen oder aufeinander abgestimmte Verhaltensweisen vor (Art. 101 Abs. 1 AEUV)?
 2. Beeintraechtigen diese den Handel zwischen Mitgliedstaaten und bezwecken oder bewirken sie Wettbewerbseinschraenkungen?
 3. Koennte eine Freistellung nach Art. 101 Abs. 3 AEUV / Gruppenfreistellungsverordnung eingreifen?
 4. Handelt es sich um einen Marktbeherrschungsmissbrauch Art. 102 AEUV (Marktbeherrschung festgestellt)?
@@ -70,7 +63,7 @@ Bevor losgelegt wird, klaere:
 
 Rechtsprechung live über [curia.europa.eu](https://curia.europa.eu/) und [bundeskartellamt.de](https://www.bundeskartellamt.de) verifizieren. Stand 05/2026:
 
-- **§ 19a GWB (Digitalkonzerne):** Bundeskartellamt-Adressatfeststellungen Stand 2025 etabliert für Meta, Alphabet/Google, Amazon, Apple, Microsoft. BGH hat die Adressatenfeststellungen zu Amazon und Apple bestätigt; konkrete Az. live verifizieren über [bundeskartellamt.de Verfahrenstabelle](https://www.bundeskartellamt.de/DE/DigitalWirtschaft/VerfahrenGegenGrosseDigitalkonzerne/verfahrengegengrossedigitalkonzerne_node.html).
+- **Paragraf 19a GWB (Digitalkonzerne):** Der BGH hat die Feststellungen der überragenden marktübergreifenden Bedeutung von Amazon mit Beschluss vom 23.04.2024 - KVB 56/22 - und von Apple mit Beschluss vom 18.03.2025 - KVB 61/23 - bestätigt. Für Meta, Alphabet/Google und Microsoft den Verfahrensstand sowie eine etwaige Bestandskraft jeweils über die [Verfahrenstabelle des Bundeskartellamts](https://www.bundeskartellamt.de/DE/DigitalWirtschaft/VerfahrenGegenGrosseDigitalkonzerne/verfahrengegengrossedigitalkonzerne_node.html) prüfen; Adressatenfeststellung nach Absatz 1 und Verhaltensverfügung nach Absatz 2 nicht vermischen.
 - Bundeskartellamt vorläufige Beurteilungen 2025: Apple Tracking-Regeln (Februar 2025 — Tendenz: Verbot nach § 19a Abs. 2 GWB), Amazon Preiskontrollmechanismen (Juni 2025).
 - Bundeskartellamt-Verpflichtungszusagen 2025: Google Automotive Services / Maps Platform (seit Februar 2025 standalone-lizenzierbar mit Interoperabilität).
 - EuGH-Linien zu Art. 101/102 AEUV Q4 2025 - Q2 2026 vor Verwendung im Schriftsatz live verifizieren.
@@ -84,9 +77,6 @@ Rechtsprechung live über [curia.europa.eu](https://curia.europa.eu/) und [bunde
 - **Gruppen-FreistellungsVO (EU) 330/2010** (Vertikalvereinb.); **(EU) 2022/720** (neue VertGVO)
 - **§§ 1, 18, 19, 33 GWB** — nationales Kartellrecht; Missbrauch; Schadensersatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Output-Template: Kartell-Kurzpruefmemo
 
 **Adressat:** Kanzlei-intern / Mandant

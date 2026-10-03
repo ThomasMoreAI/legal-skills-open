@@ -1,0 +1,68 @@
+---
+name: raeumungsklage-aufbau
+title: 'Räumungsklage Aufbau: Fachmodul im Miet- und Wohnungseigentumsrecht'
+description: 'Für Räumungsklage Aufbau: Fachmodul im Miet- und Wohnungseigentumsrecht: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills/raeumungsklage-aufbau
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Vertiefung spezial raeumungsklage aufbau
+  path: references/vertiefung-spezial-raeumungsklage-aufbau.md
+---
+
+# Räumungsklage Aufbau: Fachmodul im Miet- und Wohnungseigentumsrecht
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c; WEG §§ 9a, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 44, 45, 46, 47, BGB §§ 535 ff., HOAI, BetrKV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Räumungsklage Aufbau: Fachmodul im Miet- und Wohnungseigentumsrecht; erstellt Antrag, Tatsachenvortrag, Anlagen, Beweise, Nutzungsentschädigung; mit Normprüfung, Beweisen, Fristen, Risikoampel und Arbeitsprodukt.
+
+### Räumungsklage Aufbau
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Räumungsklage Aufbau` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Zuständigkeit und Anwaltszwang bei Räumung
+
+1. Wohnraum: Die Räumungsklage und eine damit verbundene Zahlungsklage bleiben nach Paragraf 23 Nummer 2a GVG ausschließlich beim Amtsgericht, unabhängig davon, wie hoch Mietrückstand, Nutzungsentschädigung oder Jahresmietwert sind. Örtlich ist Paragraf 29a ZPO zu prüfen. In erster Instanz besteht kein Anwaltszwang; das folgt aus Paragraf 78 Absatz 1 Satz 1 ZPO im Umkehrschluss.
+2. Gewerberaum: Es gilt die allgemeine Wertzuständigkeit. Bis einschließlich zehntausend Euro ist das Amtsgericht nach Paragraf 23 Nummer 1 GVG zuständig; über zehntausend Euro das Landgericht nach Paragraf 71 Absatz 1 GVG. Vor dem Landgericht gilt Anwaltszwang nach Paragraf 78 Absatz 1 Satz 1 ZPO.
+3. Berufung: Gegen amtsgerichtliche Wohnraum-Urteile geht die Berufung zum Landgericht; dort gilt Anwaltszwang. Deshalb schon im erstinstanzlichen Schriftsatz Berufungsinteressen, Streitwert und Beweisangebote sauber dokumentieren.
+
+## Einstieg
+1. Welche Seite wird vertreten und welches Ergebnis soll erreicht werden?
+2. Welche Norm-/Vertrags-/Beschlussgrundlage ist wahrscheinlich einschlägig?
+3. Welche Tatsachen sind unstreitig, welche streitig, welche fehlen?
+4. Welche Frist, Form, Zuständigkeit oder Beweislast kann den Fall kippen?
+5. Welche Unterlagen belegen den Kern: Vertrag, Nachtrag, Beschluss, Protokoll, Abrechnung, Fotos, Messungen, Kontoauszüge, Mails?
+
+## Prüfraster
+1. **Rechtsverhältnis abgrenzen:** Wohnraummiete, Gewerberaum, WEG, Verwaltung, Nachbar-/Ordnungsrecht oder Schnittstelle.
+2. **Tatbestand:** Anspruchsgrundlage, Einwendung, Gegenrecht und Rechtsfolge sauber trennen.
+3. **Form und Frist:** Zugang, Text-/Schriftform, Beschlussfristen, Abrechnungsfristen, Verjährung.
+4. **Beweis:** Darlegungslast, Substantiierung, Beweisangebot, Sachverständigenbedarf.
+5. **Taktik:** Sofortmaßnahme, Verhandlung, Vergleich, Klage/Eilantrag, Kostenrisiko.
+6. **Ergebnis:** Ampel mit Begründung und konkretem nächsten Arbeitsschritt.
+
+## Quellen- und Sicherheitsregel
+- Vor tragenden Aussagen den aktuellen Normtext und die aktuelle Behörden-/Gerichtspraxis prüfen; keine Scheingenauigkeit aus Modellwissen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle ausgeben.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate aus Modellwissen.
+- Annahmen, fehlende Unterlagen, Beweisrisiken und Fristen ausdrücklich markieren.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-raeumungsklage-aufbau` beziehungsweise Räumungsklage Aufbau: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-raeumungsklage-aufbau.md).

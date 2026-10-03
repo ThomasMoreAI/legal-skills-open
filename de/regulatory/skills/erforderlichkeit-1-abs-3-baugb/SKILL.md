@@ -1,11 +1,11 @@
 ---
 name: erforderlichkeit-1-abs-3-baugb
 title: Erforderlichkeit § 1 Abs. 3 BauGB
-description: Workflow-Skill zu erforderlichkeit 1 abs 3 baugb. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Erforderlichkeit Paragraf 1 Abs. 3 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/erforderlichkeit-1-abs-3-baugb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Erforderlichkeit § 1 Abs. 3 BauGB
-
-## Zweck
-
-Die Erforderlichkeit ist die strengste materielle Hürde und kein Abwägungselement. Wer hier punktet, bringt den Plan ohne Detail-Diskussion zu Fall. Stets beachtlich, nicht rügepflichtig.
 
 ## Schritt 1 — Wortlaut und Bedeutung
 
@@ -155,8 +151,4 @@ Die Erforderlichkeit ist die strengste materielle Hürde und kein Abwägungselem
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

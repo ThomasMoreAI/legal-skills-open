@@ -10,7 +10,7 @@ Jurisdiction: `ae` · Practice: `white-collar` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`UAE Department of Economic Development — Trade License Lookup`](skills/tool-uae-ded-sboghossian/) | Use when performing KYC, counterparty verification, or due diligence on a UAE mainland company. Queries the… |
+| [`UAE Department of Economic Development — Trade License Lookup`](skills/tool-uae-ded-sboghossian/) | Use when performing KYC, counterparty verification, or due diligence on a UAE mainland company. Queries… |
 
 ## Cold-start context
 

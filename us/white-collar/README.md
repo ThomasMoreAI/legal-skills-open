@@ -4,19 +4,21 @@ White-collar and investigations — anti-corruption (FCPA), anti-money-launderin
 
 Jurisdiction: `us` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (9)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
 | [`Overview`](skills/aml-compliance/) | Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance workflow. Sanctions screening, PEP… |
-| [`AML Compliance Program`](skills/aml-compliance-program/) | Drafts board-ready Anti-Money Laundering compliance programs for U.S. financial institutions under BSA/FinCEN… |
+| [`AML Compliance Program`](skills/aml-compliance-program/) | Drafts board-ready Anti-Money Laundering compliance programs for U.S. financial institutions under… |
 | [`BSA/AML Risk Assessment`](skills/bsa-risk-assessment/) | Drafts a BSA/AML Risk Assessment for U.S. financial institutions per FinCEN, FFIEC, and OCC standards.… |
-| [`CIP Policy Drafting`](skills/cip-policy/) | Drafts a U.S. Customer Identification Program (CIP) policy compliant with USA PATRIOT Act Section 326 and 31… |
-| [`Design AML Compliance Program`](skills/design-aml-compliance-program-jeffreytse/) | Use when a financial institution or money-services business needs an anti-money-laundering compliance program… |
+| [`CIP Policy Drafting`](skills/cip-policy/) | Drafts a U.S. Customer Identification Program (CIP) policy compliant with USA PATRIOT Act Section 326… |
+| [`Design AML Compliance Program`](skills/design-aml-compliance-program-jeffreytse/) | Use when a financial institution or money-services business needs an anti-money-laundering compliance… |
 | [`FCPA Compliance Policy`](skills/fcpa-compliance-policy/) | Drafts an implementable Foreign Corrupt Practices Act (FCPA) Compliance Policy for U.S.-jurisdictional… |
-| [`sam-gov-exclusions`](skills/sam-gov-exclusions-nolpak14/) | Screen a person or company against the official US federal debarment and exclusions list for free - SAM.gov… |
+| [`sam-gov-exclusions`](skills/sam-gov-exclusions-nolpak14/) | Screen a person or company against the official US federal debarment and exclusions list for free… |
 | [`SAR Filing`](skills/sar-filing/) | Drafts FinCEN Suspicious Activity Reports (Form 111) for BSA/AML regulatory filing. Compiles subject… |
-| [`us-court-records`](skills/us-court-records-nolpak14/) | Search US litigation and court records against a person or company for free - CourtListener's REST API over… |
+| [`US-Discovery in Cross-Border Investigations`](skills/us-auftrag/) | Für US-Discovery in Cross-Border Investigations: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`us-court-records`](skills/us-court-records-nolpak14/) | Search US litigation and court records against a person or company for free - CourtListener's REST API… |
+| [`US-Counsel-Koordination in Cross-Border-Investigations`](skills/us-settlement/) | Für US-Counsel-Koordination in Cross-Border-Investigations: ordnet Norm, Beweislast und Gegenargument… |
 
 ## Cold-start context
 

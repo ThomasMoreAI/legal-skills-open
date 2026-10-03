@@ -1,0 +1,55 @@
+---
+name: rechtspolitische-unsicherheit-rueckfragebrief
+title: Rechtsunsicherheit zu § 43e BRAO dokumentieren
+description: 'Für Rechtsunsicherheit zu Paragraf 43e BRAO dokumentieren: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/rechtspolitische-unsicherheit-rueckfragebrief
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Rechtsunsicherheit zu § 43e BRAO dokumentieren
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; § 43e BRAO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Unsicherheitsfelder
+
+- Wie weit reicht die Erforderlichkeit bei modernen KI-Diensten?
+- Wann ist ein Tool allgemeine Kanzleiinfrastruktur und wann unmittelbar einzelmandatsbezogen?
+- Welche Drittstaat- und Konzernzugriffe sind noch vergleichbar geschützt?
+- Wie streng müssen Verschlüsselung, Logging und Supportzugriffe ausgestaltet sein?
+- Wann wird die Kanzlei KI-VO-rechtlich Anbieterin statt nur Betreiberin?
+- Wann verlangt Berufsrecht mehr als Datenschutzrecht?
+
+## Dokumentationslogik
+
+Trenne:
+
+1. **Gesetzesbefund:** Wortlaut von § 43e BRAO, § 43a Abs. 2 BRAO, § 2 BORA, § 203 StGB.
+2. **Gesicherte Praxislinie:** Textform, Verschwiegenheit, strafrechtliche Belehrung, Subunternehmer, No-Training, sorgfältige Auswahl.
+3. **Offene Auslegungsfrage:** etwa Reichweite von Art. 50 KI-VO oder Drittstaatzugriff.
+4. **Kanzleientscheidung:** Warum diese Lösung trotz Restunsicherheit vertretbar ist.
+5. **Reviewdatum:** Wann aufgrund Gesetzgebung, Kammerpraxis oder Rechtsprechung erneut geprüft wird.
+
+## Safe-Harbor-Argumente
+
+Nicht als Garantie, aber als Verteidigungslinie:
+
+- dokumentierter Auswahlprozess
+- berufsspezifisches Vertragsaddendum
+- No-Training und kurze Retention
+- EU/EWR-Hosting oder geprüfter Drittstaat
+- Subunternehmerkontrolle
+- Toolinventar und Schulung
+- menschliche Endkontrolle
+- Incident-Plan

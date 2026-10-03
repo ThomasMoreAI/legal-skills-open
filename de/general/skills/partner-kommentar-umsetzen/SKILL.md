@@ -1,0 +1,55 @@
+---
+name: partner-kommentar-umsetzen
+title: Partner-Kommentar Umsetzen
+description: 'Für Partner-Kommentar Umsetzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/partner-kommentar-umsetzen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Partner-Kommentar Umsetzen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DSGVO Art. 33 Datenpanne 72h, ZPO § 130d aktive beA-Nutzung seit 01.01.2022, GwG § 8 Aufbewahrung 5 Jahre, KI-VO Art. 50 Kennzeichnung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 49b, DSGVO Art. 6, 28, 32, 35, BORA § 19a (technische Sorgfalt), beA-Bedingungen, ZPO § 130a (eVa), § 130d (aktive Nutzungspflicht), GwG § 8 Aufbewahrung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anwalt, Sekretariat, IT-Verantwortlicher, Datenschutzbeauftragter, KI-Anbieter (Auftragsverarbeiter), Kammer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Word-Dokumentvorlage, beA-Schriftsatz, AV-Vertrag mit KI-Anbieter, DSFA, Sicherheitskonzept, AGB-/Mandantenklauseln zu KI-Einsatz — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Dokument oder Passage.
+- Partnerkommentar, Randnotiz, E-Mail oder Chat.
+- Rolle des Mandanten und Verhandlungsziel.
+- Zeitbudget.
+
+## Kommentar-Decoder
+
+| Kommentar | Bedeutet meistens | Reaktion |
+|---|---|---|
+| "zu lang" | Ergebnis kommt zu spät | kürzen, Überschrift schärfen, Empfehlung nach vorne |
+| "commercial" | rechtlich richtig, aber wirtschaftlich unbrauchbar | Geschäftsinteresse sichtbar machen |
+| "mehr Druck" | Gegenseite soll merken, dass Eskalation real ist | Frist, Konsequenz, Beleg, kein Lärm |
+| "zu hart" | Beziehung oder Deal gefährdet | Ton deeskalieren, Rechtsposition halten |
+| "nicht gutachten" | Prüfungssprache stört | Urteilsstil oder Empfehlungssprache |
+| "US counsel?" | Begriff könnte im Common Law anders verstanden werden | `us-uk-legal-writing-für-deutsche` zuschalten |
+| "Word sauber" | Format/Markup nicht sendefähig | `word-dokument-finish-und-layout` zuschalten |
+
+## Ablauf
+
+1. Kommentare extrahieren und nummerieren.
+2. Jeden Kommentar einer Funktion zuordnen: Kürzen, Schärfen, Risiko, Ton, Struktur, Word.
+3. Konflikte erkennen: "mehr Druck" und "deeskalieren" gleichzeitig offenlegen.
+4. Arbeitspakete bilden.
+5. Passage neu formulieren.
+6. Offene Rückfragen an Partnerin nur stellen, wenn die Umsetzung sonst riskant wäre.
+
+## Qualitätsmaßstab
+
+Nicht bloß paraphrasieren. Der Skill muss den Kommentar in echtes Drafting übersetzen und eine sendefähige Fassung liefern.

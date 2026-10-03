@@ -10,7 +10,7 @@ Jurisdiction: `fr` · Practice: `corporate` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`Choix du Statut Juridique`](skills/bootcamp-legal-status-prendstapart/) | Utiliser quand l'utilisateur veut choisir la forme juridique adaptée (bootcamp 5 jours StartupsForge — Jour… |
+| [`Choix du Statut Juridique`](skills/bootcamp-legal-status-prendstapart/) | Utiliser quand l'utilisateur veut choisir la forme juridique adaptée (bootcamp 5 jours StartupsForge… |
 | [`Legal Structure`](skills/ideation-legal-structure-prendstapart/) | Utiliser quand l'utilisateur veut choisir le statut juridique adapté à son projet (parcours idéation… |
 
 ## Cold-start context

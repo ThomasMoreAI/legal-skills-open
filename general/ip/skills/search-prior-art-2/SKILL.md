@@ -5,7 +5,7 @@ description: Prior art search for invention|patent claim. Patent + non-patent (a
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/caveman-ultra/skills/search-prior-art
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -55,7 +55,7 @@ Break into constituent technical features.
    - Alt descriptions
 5. Doc **Search Map**: elements, terms, relationships
 
-```
+```text
 Search Map Example:
 +------------------+-----------------------------------+-----------+
 | Element          | Search Terms                      | Priority  |
@@ -140,7 +140,7 @@ Eval how art relates to invention.
 
 1. **Claim chart** mapping art → elements:
 
-```
+```text
 Claim Element vs. Prior Art Matrix:
 +------------------+--------+--------+--------+--------+
 | Element          | Ref #1 | Ref #2 | Ref #3 | Ref #4 |

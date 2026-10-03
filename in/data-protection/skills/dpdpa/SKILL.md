@@ -5,19 +5,19 @@ description: 'Expert India Digital Personal Data Protection Act, 2023 (DPDPA) co
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/dpdpa/skills/dpdpa
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: in
 practice: data-protection
 language: en
 sources:
-- title: Gdpr Comparison
+- title: Gdpr comparison
   path: references/gdpr-comparison.md
-- title: Rights And Obligations
+- title: Rights and obligations
   path: references/rights-and-obligations.md
 - title: Rules 2025
   path: references/rules-2025.md
-- title: Sections Reference
+- title: Sections reference
   path: references/sections-reference.md
 ---
 

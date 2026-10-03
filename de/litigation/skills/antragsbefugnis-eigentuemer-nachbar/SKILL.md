@@ -1,11 +1,11 @@
 ---
 name: antragsbefugnis-eigentuemer-nachbar
 title: Antragsbefugnis § 47 Abs. 2 VwGO
-description: 'Grundstueckseigentuemer oder Nachbar moechte Normenkontrollantrag stellen und fragt ob er antragsbefugt ist. § 47 Abs. 2 S. 1 VwGO Antragsbefugnis Normenkontrolle. Prüfraster: Möglichkeitstheorie als Massstab Eigentuemer im Plangebiet immer antragsbefugt Nachbar bei abwaegungserheblichem Belang BVerwG vom 31.1.2017 Verbandsklagebefugnis § 64 BNatSchG § 2 UmwRG. Output: Antragsbefugnis-Analyse und Empfehlung Mandatsannahme. Abgrenzung zu statthaftigkeit-47-vwgo (Statthatfigkeit) und jahresfrist-47-abs-2-vwgo (Frist).'
+description: 'Für Antragsbefugnis Paragraf 47 Abs. 2 VwGO: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/antragsbefugnis-eigentuemer-nachbar
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Antragsbefugnis § 47 Abs. 2 VwGO
-
-## Zweck
-
-Zweite Säule der Zulässigkeit. Die Antragsbefugnis filtert nicht selbst betroffene Bürger heraus. Wer sie versäumt, scheitert ohne Sachprüfung.
 
 ## Schritt 1 — Maßstab Möglichkeitstheorie
 
@@ -143,8 +139,4 @@ Zweite Säule der Zulässigkeit. Die Antragsbefugnis filtert nicht selbst betrof
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

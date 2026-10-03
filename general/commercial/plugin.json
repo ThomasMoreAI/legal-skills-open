@@ -11,13 +11,13 @@
   "skills": [
     "skills/cisg-pruefen",
     "skills/cold-start-interview-4",
-    "skills/common-law-ma-commercial-drafting",
     "skills/customize",
     "skills/customize-5",
     "skills/escalation-flagger",
     "skills/fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung",
     "skills/international-distribution-agreement",
     "skills/intl-distribution-agreement",
+    "skills/matter-workspace-5",
     "skills/matter-workspace-alexchlou",
     "skills/msa-review-commercial-purchase",
     "skills/msa-review-saas",
@@ -27,11 +27,10 @@
     "skills/renewal-tracker-zhou210712",
     "skills/review-contract-nmoralescyber",
     "skills/review-proposals",
+    "skills/review-proposals-alexchlou",
     "skills/saas-license-agreement",
-    "skills/saas-msa-review",
     "skills/saas-msa-review-anthropics",
     "skills/template-synthesizer",
-    "skills/vendor-agreement-review",
     "skills/vendor-agreement-review-anthropics"
   ]
 }

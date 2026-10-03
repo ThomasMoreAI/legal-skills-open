@@ -1,24 +1,21 @@
 ---
 name: missing-protections
 title: Missing Protections — Contract Gap Finder
-description: 'Audits a contract against type-specific protection checklists to find
-
-  gaps, then provides ready-to-insert clause language for each missing
-
-  protection. Use when a user wants to know what protections are absent
-
-  from their contract. Trigger with "/missing-protections" or "what
-
-  protections is this contract missing".'
+description: Audits a contract against type-specific protection checklists to find gaps, then provides ready-to-insert clause language for each missing protection. Use when a user wants to know what protections are absent from their contract. Trigger with "/missing-protections" or "what protections is this contract missing".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/missing-protections
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, gap-analysis, protections, compliance, checklist]
+tags:
+- legal
+- gap-analysis
+- protections
+- compliance
+- checklist
 ---
 
 # Missing Protections — Contract Gap Finder

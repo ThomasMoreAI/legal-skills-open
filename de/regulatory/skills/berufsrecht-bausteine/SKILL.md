@@ -1,11 +1,11 @@
 ---
 name: berufsrecht-bausteine
 title: Berufsrecht-Bausteine
-description: 'Berufsrechtliche Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt KI-Richtlinie und braucht praezise Bausteine zu Verschwiegenheit Sorgfaltspflicht und Eigenverantwortung. § 43 BRAO Gewissenhaftigkeit, § 43a Abs. 2 BRAO Verschwiegenheit, § 43e BRAO IT-Dienstleister, § 203 StGB Berufsgeheimnis, BRAK-Hinweise 12/2024 DAV-Stellungnahme 32/2025. Prüfraster Verschwiegenheitspflicht beim KI-Einsatz, Haftung für KI-Output OLG Koblenz, eigenverantwortliche Endkontrolle. Output Bausteine-Sammlung mit konkreten Formulierungen für Kanzlei-Richtlinie. Abgrenzung zu DSGVO-Compliance-Bausteine und zu Musterklauseln-IT.'
+description: 'Für Berufsrecht-Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/berufsrecht-bausteine
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,6 +13,20 @@ language: de
 ---
 
 # Berufsrecht-Bausteine
+
+## Arbeitsbereich
+
+Berufsrechtliche Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt KI-Richtlinie und braucht praezise Bausteine zu Verschwiegenheit Sorgfaltspflicht und Eigenverantwortung. § 43 BRAO Gewissenhaftigkeit, § 43a Abs. 2 BRAO Verschwiegenheit, § 43e BRAO IT-Dienstleister, § 203 StGB Berufsgeheimnis, BRAK-Hinweise 12/2024 DAV-Stellungnahme 32/2025. Prüfraster Verschwiegenheitspflicht beim KI-Einsatz, Haftung für KI-Output OLG Koblenz, eigenverantwortliche Endkontrolle. Output Bausteine-Sammlung mit konkreten Formulierungen für Kanzlei-Richtlinie. Abgrenzung zu DSGVO-Compliance-Bausteine und zu Musterklauseln-IT. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Das anwaltliche Berufsrecht setzt dem Einsatz von KI-Systemen in Kanzleien spezifische Grenzen. Die Nutzung von Chatbots und KI-Plattformen ist nicht per se verboten, aber die berufsrechtlichen Kernpflichten — Gewissenhaftigkeit, Verschwiegenheit und eigenverantwortliche Endkontrolle — bleiben stets unberührt. Diese Bausteine helfen, die entsprechenden Anforderungen in eine Kanzleirichtlinie zu übersetzen.
 
@@ -22,8 +36,7 @@ Das anwaltliche Berufsrecht setzt dem Einsatz von KI-Systemen in Kanzleien spezi
 
 ## Vorgehen
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 1. **Grundsatz der Eigenverantwortung verankern**: Kein KI-Output darf ungeprüft übernommen werden; § 43 BRAO verlangt anwaltliche Endkontrolle.
 2. **Verschwiegenheitspflicht operationalisieren**: Für jeden KI-Dienstleister einen § 43e-BRAO-Vertrag abschließen (vgl. Musterklauseln im Plugin `musterklauseln-it-vertrag`).
@@ -34,17 +47,16 @@ Das anwaltliche Berufsrecht setzt dem Einsatz von KI-Systemen in Kanzleien spezi
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Berufsrechts-Check KI-Einsatz fuer Kanzlei erstellen | Baustein-Set nach Schema; Template unten |
+| Standard — Berufsrechts-Check KI-Einsatz für Kanzlei erstellen | Baustein-Set nach Schema; Template unten |
 | Variante A — Kanzlei hat bereits BRAO-Richtlinie | Delta-Update statt Neuerstellung; bestehende Richtlinie ergaenzen |
 | Variante B — Internationales Buero mehrere Rechtsordnungen | Separate Bausteine pro Jurisdiction; gemeinsamer Rahmen |
 | Variante C — Mandant ist selbst Kanzlei Beratung nicht Kanzlei intern | Externe Beratungsperspektive; nicht interne Richtlinie |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Vorlagentext / Bausteine
 
@@ -55,26 +67,22 @@ Gemäß § 43 Satz 1 BRAO sind alle Rechtsanwältinnen und Rechtsanwälte zur ge
 Die Wahrung des Anwaltsgeheimnisses ist oberstes Gebot (§ 43a Abs. 2 BRAO, § 203 Abs. 1 Nr. 3 StGB). Die Zusammenarbeit mit KI-Dienstleistern als externe IT-Dienstleister ist nur unter den Voraussetzungen des § 43e BRAO zulässig. Mit jedem eingesetzten KI-Dienstleister ist eine schriftliche Vereinbarung nach § 43e BRAO abzuschließen, die den Dienstleister zur Verschwiegenheit verpflichtet und auf die strafrechtlichen Folgen eines Verstoßes nach § 203 StGB hinweist.
 
 **Baustein Prüfpflicht/Halluzinationen:**
-Alle von KI-Systemen generierten Fundstellen, Zitate und Rechtsangaben sind ausnahmslos auf ihre Existenz und ihren Inhalt hin zu überprüfen. Wer dies unterlässt, handelt pflichtwidrig nach § 43 BRAO und haftet für die Folgen. Ein "Grundvertrauen" wie bei erfahrenen Mitarbeitenden ist bei KI-generierten Arbeitsprodukten nicht angebracht (BRAK-Hinweise 12/2024; DAV-Stellungnahme 32/2025).
+Alle von KI-Systemen generierten Fundstellen, Zitate und Rechtsangaben sind ausnahmslos auf ihre Existenz und ihren Inhalt hin zu überprüfen. Wer dies unterlässt, handelt pflichtwidrig nach § 43 BRAO und haftet für die Folgen. Ein "Grundvertrauen" wie bei erfahrenen Mitarbeitern ist bei KI-generierten Arbeitsprodukten nicht angebracht (BRAK-Hinweise 12/2024; DAV-Stellungnahme 32/2025).
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
 
-
 ## Hinweise zur Aktualisierung
 
 Die BRAK und der DAV aktualisieren ihre Hinweise und Stellungnahmen fortlaufend. Nach jeder Neuveröffentlichung sind die Bausteine zu überprüfen. Ebenso bei neuen OLG- oder BGH-Entscheidungen zur Haftung bei Verwendung von KI-Output in Schriftsätzen.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - § 43a Abs. 2 BRAO — Verschwiegenheitspflicht
@@ -87,9 +95,9 @@ Die BRAK und der DAV aktualisieren ihre Hinweise und Stellungnahmen fortlaufend.
 1. Ist der KI-Anbieter ein IT-Dienstleister nach § 43e BRAO — liegt eine berufsrechtliche AVV-Vereinbarung vor?
 2. Werden Mandatsdaten in das KI-System eingegeben — ist Anonymisierung oder verschlüsselte Verarbeitung sichergestellt?
 3. Hat der KI-Anbieter seinen Sitz ausserhalb der EU — droht ein CLOUD Act-Zugriff?
-4. Werden KI-Ausgaben ohne menschliche Pruefung verwendet — Haftungsrisiko nach § 280 BGB?
+4. Werden KI-Ausgaben ohne menschliche Prüfung verwendet — Haftungsrisiko nach § 280 BGB?
 5. Ist die KI in der Lage, Mandate anderer Mandanten zu verwechseln — Interessenkonflikt-Risiko?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Output-Template — Berufsrechts-Check KI-Einsatz
 **Adressat:** Kanzlei-Management / Senior-Partner — Tonfall: strukturiert, berufsrechtlich
@@ -114,3 +122,13 @@ Ergebnis: [EINSATZ ZULAESSIG / MIT AUFLAGEN / UNZULAESSIG]
 Auflagen: [BESCHREIBUNG]
 Geprueft von: [NAME], [DATUM]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

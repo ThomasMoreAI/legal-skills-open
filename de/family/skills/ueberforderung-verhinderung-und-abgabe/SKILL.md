@@ -1,0 +1,79 @@
+---
+name: ueberforderung-verhinderung-und-abgabe
+title: Überforderung, Verhinderung und Abgabe
+description: 'Für Überforderung, Verhinderung und Abgabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/ueberforderung-verhinderung-und-abgabe
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: family
+language: de
+---
+
+# Überforderung, Verhinderung und Abgabe
+
+## Normenanker
+
+Arbeitsfokus: **Überforderung, Verhinderung und Abgabe**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 1814 Abs. 1 BGB` — Betreuungsvoraussetzungen.
+- `§ 1815 Abs. 1 BGB` — Aufgabenkreis.
+- `§ 1816 BGB` — Betreuerauswahl.
+- `§ 1821 Abs. 1 BGB` — Wunschbefolgung.
+- `§ 1823 BGB` — Vertretungsmacht.
+- `§ 274 FamFG` — Beteiligte.
+- `§ 278 FamFG` — Anhörung.
+- `§ 280 FamFG` — Gutachten.
+- `§ 5 BtOG` — Beratung.
+- `§ 8 BtOG` — Betreuungsvermeidung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Red Flags
+
+- ungeklärte Vermögenssorge mit vielen Konten, Schulden, Immobilien oder Erbenstreit,
+- dauernder Familienkonflikt,
+- psychische oder körperliche Überlastung des Betreuers,
+- Fristen werden wiederholt versäumt,
+- Betreuer und betreute Person vermischen Geld oder Haushalt unklar,
+- Heim, Bank oder Angehörige üben Druck aus,
+- Zwangsbehandlung, Unterbringung oder Wohnungsaufgabe stehen an,
+- Betreuer ist krank, im Urlaub oder länger verhindert.
+
+## Handlungspfade
+
+1. **Kurze Hilfe:** Betreuungsverein/Behörde um Beratung bitten.
+2. **Verhinderung:** Verhinderungsbetreuung nach § 1817 Abs. 4 BGB prüfen.
+3. **Aufgaben teilen:** Mitbetreuer für Vermögenssorge oder Gesundheitssorge anregen.
+4. **Aufgabenkreis begrenzen:** Gericht bitten, zu enge/zu weite Kreise zu prüfen.
+5. **Betreuerwechsel:** sachlich begründen, warum die Betreuung nicht mehr verantwortbar geführt werden kann.
+6. **Eilmaßnahmen:** Nur das Nötigste sichern, keine riskanten Alleingänge.
+
+## Schreiben an das Gericht
+
+Der Skill formuliert:
+
+- Überlastungsanzeige,
+- Bitte um rechtliche Hinweise,
+- Antrag auf Bestellung eines weiteren Betreuers,
+- Anregung einer Verhinderungsbetreuung,
+- Bitte um Entlassung/Betreuerwechsel,
+- Fristverlängerung mit nachvollziehbarer Begründung.
+
+## Tonregel
+
+Nie dramatisieren, nie Schuld schieben. Besser:
+
+> “Ich möchte die Betreuung ordnungsgemäß führen. Aufgrund der folgenden Umstände sehe ich derzeit Risiken für eine sachgerechte Bearbeitung und bitte um gerichtliche Klärung/Unterstützung.”
+
+## Schutz der betreuten Person
+
+Vor jeder Abgabe prüfen:
+
+- Wer übernimmt dringende Zahlungen?
+- Wer hält Kontakt zu Heim/Arzt/Bank?
+- Welche Fristen laufen?
+- Welche Unterlagen müssen übergeben werden?
+- Muss das Gericht sofort informiert werden?

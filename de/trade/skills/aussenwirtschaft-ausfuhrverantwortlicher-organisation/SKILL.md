@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-ausfuhrverantwortlicher-organisation
+title: 'Ausfuhrverantwortlicher: Funktion, Haftung und Organisation'
+description: 'Für Ausfuhrverantwortlicher: Funktion, Haftung und Organisation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-ausfuhrverantwortlicher-organisation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Ausfuhrverantwortlicher: Funktion, Haftung und Organisation
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- KMU erhalt BAFA-Anfrage und stellt fest, dass kein benannter Ausfuhrverantwortlicher existiert.
+- Konzernmutter prüft, ob Ausfuhrverantwortlicher-Rolle in shared-service-Struktur zentralisiert werden kann.
+- Neugegrundetes Tech-Unternehmen mit Dual-Use-Produkten muss Exportkontroll-Funktion aufbauen.
+
+## Erste Schritte
+
+1. Gesetzliche Pflicht zur Benennung prüfen: § 7 AWG, BAFA-Merkblatt Exportverantwortung.
+2. Geeignete Person identifizieren: Kenntnisse im Exportkontrollrecht, Erreichbarkeit, Befugnisse.
+3. Stellenbeschreibung erstellen: Aufgaben, Berichtslinie an Geschäftsführung, Vertretung.
+4. Interne Vollmacht und Entscheidungskompetenzen dokumentieren (Freigabe, Hold, Eskalation).
+5. Schulungsplan für initialen und laufenden Wissenserhalt erstellen.
+6. BAFA über Benennung informieren falls explizit gefordert; Dokumentation im ICP ablegen.
+
+## Rechtsrahmen
+
+- **§ 7 AWG**: Verantwortlichkeit des Ausfuhrers.
+- **BAFA-Merkblatt 'Exportverantwortung'**: Anforderungen an Ausfuhrverantwortlichen.
+- **Art. 9 VO (EU) 2021/821**: Interne Compliance-Programme (ICP) und Verantwortlichkeit.
+- **§ 130 OWiG**: Aufsichtspflichtverletzung durch Geschäftsführung.
+- **§ 18 AWG**: Haftungsrahmen für unerlaubte Ausfuhr.
+
+## Prüf-Raster
+
+- [ ] Ausfuhrverantwortlicher schriftlich benannt?
+- [ ] Person qualifiziert und mit Entscheidungsbefugnissen ausgestattet?
+- [ ] Vertretungsregel für Urlaub und Krankheit geregelt?
+- [ ] Berichtslinie an Geschäftsführung dokumentiert?
+- [ ] Zugang zu aktuellen Gueterlisten und Sanktionslisten sichergestellt?
+- [ ] ICP-Dokumentation vollstaendig und dem Ausfuhrverantwortlichen uebergeben?
+
+## Typische Fallstricke
+
+- Ausfuhrverantwortlicher ohne reale Entscheidungsbefugnis ist haftungsrechtlich wertlos.
+- Vertretungsluecken bei Urlaub gefaehrden laufende Exportvorgaenge.
+- Fehlende Schulung fuehrt zu unbewussten Verstossen und hoeherer persönlicher Haftung.
+- Konzernstrukturen erfordern klare Zuständigkeitsabgrenzung je Rechtseinheit.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [BAFA Exportkontrolle Interne Compliance](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Interne_Compliance/interne_compliance_node.html)
+- [VO (EU) 2021/821 Art. 9 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R0821)
+- [OWiG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/owig_1968/index.html)

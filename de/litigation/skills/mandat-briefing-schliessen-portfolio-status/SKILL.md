@@ -1,0 +1,122 @@
+---
+name: mandat-briefing-schliessen-portfolio-status
+title: Mandat-Briefing
+description: 'Für Mandat-Briefing: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/prozessrecht/skills/mandat-briefing-schliessen-portfolio-status
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Mandat-Briefing
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Mandat-Slug
+- Optional: Fokusthema (`--frist`, `--risiko`, `--naechste-schritte`)
+- Optional: Empfänger (`--mandant`, `--justiziar`, `--anwalt`) – steuert Detailgrad und Stil
+
+## Ablauf
+
+1. **Mandatsdaten laden:** `mandate/[slug]/mandat.md` und `mandate/[slug]/verlauf.md` einlesen.
+
+2. **Verfahrensstand zusammenfassen:**
+ - Parteien, Gericht, Aktenzeichen
+ - Verfahrensstadium (Klagezustellung, Schriftsatzphase, Beweisaufnahme, Urteil, Rechtsmittel, Vollstreckung)
+ - Ansprüche / Streitgegenstand (Paragraf 264 ZPO)
+ - Bisheriger Verfahrensverlauf (Chronologie der Verfahrenshandlungen)
+
+3. **Entwicklungen seit letztem Update:**
+ - Letzte Eintrag in verlauf.md identifizieren
+ - Neue Schriftsätze, Gerichtsentscheidungen, Vergleichsgespräche
+
+4. **Fristen-Check:**
+ - Nächste Frist (Schriftsatzfrist, Berufungsfrist, Urteilsfrist, Vollstreckungsverjährung)
+ - Risiko-Frist (in roter Zone wenn < 14 Tage)
+
+5. **Offene Handlungspunkte:**
+ - Was muss der Anwalt noch erledigen?
+ - Was ist von der Gegenseite / dem Gericht ausstehend?
+ - Welche Beweise fehlen noch?
+
+6. **Risikoneueinschätzung:**
+ - Änderung der Risikoeinschätzung seit letztem Intake? (BGH-Rechtsprechung, neue Sachverhalte)
+ - Expositionsschätzung (untere / mittlere / obere Schadenswert-Bandbreite)
+ - Vergleichspotential (Paragraf 278 Abs. 1 ZPO: Gericht soll in jeder Lage des Verfahrens auf Vergleich hinwirken)
+
+7. **Ausgabe:** Strukturiertes Briefing-Memo im Urteilsstil oder als Executive Summary.
+
+## Quellen und Zitierweise
+
+Verbindlich: `../references/zitierweise.md`.
+
+- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+## Ausgabeformat
+
+```
+MANDAT-BRIEFING
+──────────────────────────────────────
+Mandat: [Slug]
+Parteien: [Kläger] ./. [Beklagter]
+Gericht / Az.: [Gericht], Az. [JJJJ] [Aktenzeichen]
+Verfahrensstufe: [z. B. Berufung – OLG Frankfurt]
+Stand: TT.MM.JJJJ
+MANDATSGEHEIMNIS – Paragraf 43a Abs. 2 BRAO
+
+──────────────────────────────────────
+1. VERFAHRENSSTAND
+──────────────────────────────────────
+[Kurzdarstellung: Wo sind wir? Was wurde bisher eingereicht / entschieden?]
+
+──────────────────────────────────────
+2. ENTWICKLUNGEN SEIT [DATUM LETZTES UPDATE]
+──────────────────────────────────────
+[Neue Schriftsätze, Urteile, Korrespondenz]
+
+──────────────────────────────────────
+3. NÄCHSTE FRIST
+──────────────────────────────────────
+⚠️ [Frist] – [Beschreibung] – [Datum]
+
+──────────────────────────────────────
+4. OFFENE HANDLUNGSPUNKTE
+──────────────────────────────────────
+□ [Punkt 1]
+□ [Punkt 2]
+
+──────────────────────────────────────
+5. RISIKOEINSCHÄTZUNG
+──────────────────────────────────────
+Expositionsschätzung: EUR [X] – EUR [Y]
+Risikostufe: 🔴 hoch / 🟡 mittel / 🟢 gering
+Vergleichspotential: [Einschätzung]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Risiken / typische Fehler
+
+- **Veraltete mandat.md:** Ohne regelmäßige Updates per `/mandat-update` liefert das Briefing einen falschen Stand; nach jeder Entwicklung updaten.
+- **Fristversäumnis-Risiko:** Das Briefing ersetzt nicht den Fristenkalender; jede Frist muss separat in das Kanzlei-Fristbuch eingetragen werden.
+- **Vertraulichkeit des Briefings:** Das Briefing enthält Mandatsgeheimnisse; Empfängerkreis sorgfältig wählen (Paragraf 43a Abs. 2 BRAO); nicht per unverschlüsselter E-Mail versenden.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

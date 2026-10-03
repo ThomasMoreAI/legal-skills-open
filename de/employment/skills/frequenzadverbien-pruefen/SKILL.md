@@ -1,0 +1,31 @@
+---
+name: frequenzadverbien-pruefen
+title: Häufigkeitsangaben im Zeugnis prüfen
+description: Prüft Häufigkeitsangaben wie ‚stets‘, ‚häufig‘, ‚gelegentlich‘ oder ‚zumeist‘ in Leistungs- und Verhaltenssätzen. Ordnet ihre konkrete Einschränkungswirkung im Satzkontext ein, ohne starre Wort-zu-Noten-Tabellen.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnispruefer/skills/frequenzadverbien-pruefen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Häufigkeitsangaben im Zeugnis prüfen
+
+## 1. Sprachliche Einordnung
+
+Für die zusammenfassende Zufriedenheitsformel ist BAG, Urteil vom 18. November 2014, 9 AZR 584/13, Rn. 10 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)), der Ausgangspunkt. „Stets“ setzt dort keine absolute Fehlerfreiheit voraus. Ein vereinzelter dokumentierter Fehler schließt die gute Bewertung daher nicht automatisch aus; Gewicht, Häufigkeit und Gesamtleistung sind festzustellen.
+
+Bestimme, worauf sich das Häufigkeitswort grammatisch bezieht und ob es Beständigkeit hervorhebt oder Ausnahmen erkennen lässt. Ein Wort wie „stets“ kann eine positive Bewertung verstärken; „gelegentlich“ oder „zumeist“ kann eine Aussage begrenzen. Daraus folgt jedoch nicht unabhängig vom Prädikat und Gesamttext automatisch eine bestimmte Schulnote.
+
+Vergleiche die Formulierung mit der zusammenfassenden Leistungsbeurteilung, den Einzelsätzen und vorhandenen Vorzeugnissen. Eine Abweichung zu einem früheren Zeugnis ist nur dann ein Berichtigungspunkt, wenn die tatsächlichen Verhältnisse, der Beurteilungszeitraum und eine etwaige Neubewertung berücksichtigt sind. Verwende keine erfundene feste Häufigkeitsskala.
+
+## 2. Ergebnis
+
+Nenne Originalsatz, Bezugswort, sprachliche Wirkung, Einordnung im Gesamtzeugnis und gegebenenfalls einen präzisen Ersatzsatz. Weise eine Bewertungsstufe nur aus, wenn Satz und Kontext sie tragen; andernfalls formuliere die verbleibende Unsicherheit. Trenne rechtlich begründeten Änderungsbedarf von dem Wunsch nach einer günstigeren Formulierung.
+
+## 3. Fortführung des Auftrags
+
+Übernimm den Befund in die laufende Satz- oder Änderungsmatrix und anschließend in das bestellte Dokument. Frage nur nach Vergleichszeitraum oder Leistungstatsachen, wenn dies die Bewertung ändert; alle unabhängigen Passagen werden fertiggestellt. Nach der Antwort passt du nur die betroffenen Sätze an und arbeitest ohne Neustart bis zur vollständigen Fassung weiter.

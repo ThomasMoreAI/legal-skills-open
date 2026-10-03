@@ -4,17 +4,14 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `br` · Practice: `real-estate` · Skill language: pt
 
-## Skills (7)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
-| [`gerador-contrato-locacao-preview`](skills/gerador-contrato-locacao-preview/) | Registra contrato de locação via Google Forms. |
-| [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas,… |
-| [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-foolhardy45/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas,… |
-| [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-ranbot-ai/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas,… |
+| [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-foolhardy45/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas… |
+| [`SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO`](skills/leiloeiro-edital-ranbot-ai/) | Analise e auditoria de editais de leilao judicial e extrajudicial. Riscos ocultos, clausulas perigosas… |
 | [`LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA`](skills/leiloeiro-ia/) | Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado… |
-| [`LEILOEIRO JURÍDICO, PERICIAL E DE MERCADO — IA`](skills/leiloeiro-ia-sickn33/) | Especialista em leiloes judiciais e extrajudiciais de imoveis. Analise juridica, pericial e de mercado… |
-| [`SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES`](skills/leiloeiro-risco/) | Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais, stress… |
+| [`SKILL DE RISCO — AUDITOR DE RISCO EM LEILÕES`](skills/leiloeiro-risco/) | Analise de risco em leiloes de imoveis. Score 36 pontos, riscos juridicos/financeiros/operacionais… |
 
 ## Cold-start context
 

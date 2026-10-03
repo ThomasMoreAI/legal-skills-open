@@ -1,18 +1,18 @@
 ---
 name: fetching-zakon-rada
-title: fetching-zakon-rada
+title: law-ua-fetching-zakon-rada
 description: Use when retrieving Ukrainian legislation text from the official portal zakon.rada.gov.ua — fetching specific historical redactions by date, verifying current validity of a norm, tracking amendments, or constructing URLs for Ukrainian codes and laws
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-fetching-zakon-rada
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: general
 language: uk
 ---
 
-# fetching-zakon-rada
+# law-ua-fetching-zakon-rada
 
 Офіційний портал ВРУ — єдине авторитетне джерело текстів НПА України. Правильний URL дозволяє отримати чинну редакцію або редакцію на конкретну історичну дату.
 

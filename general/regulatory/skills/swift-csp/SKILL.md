@@ -5,15 +5,15 @@ description: 'Expert SWIFT Customer Security Programme (CSP) advisor covering th
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/swift-csp/skills/swift-csp
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
 sources:
-- title: Swift Assessment
+- title: Swift assessment
   path: references/swift-assessment.md
-- title: Swift Controls
+- title: Swift controls
   path: references/swift-controls.md
 ---
 

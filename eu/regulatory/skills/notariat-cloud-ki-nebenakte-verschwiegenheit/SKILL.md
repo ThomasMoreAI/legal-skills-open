@@ -1,0 +1,38 @@
+---
+name: notariat-cloud-ki-nebenakte-verschwiegenheit
+title: 'Notariat: Cloud, KI und Nebenakte'
+description: 'Für Notariat: Cloud, digitale Werkzeuge und Nebenakte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/notariat-cloud-ki-nebenakte-verschwiegenheit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: regulatory
+language: de
+---
+
+# Notariat: Cloud, KI und Nebenakte
+
+## Prüfziel
+
+Der Skill hilft Notariaten, KI- und Cloudwerkzeuge so zu strukturieren, dass Entwurfsarbeit, Recherche und Aktenorganisation nicht die notarielle Amtsführung, Verschwiegenheit oder Verfügbarkeit gefährden.
+
+## Leitplanken
+
+- Die maßgebliche elektronische Aktenführung darf nicht faktisch aus der notariellen Kontrolle geraten.
+- Cloud- und KI-Dienste sind nur Werkzeuge, keine Ersatzgeschäftsstelle.
+- Bei Ausfall des Dienstes muss das Notariat arbeitsfähig bleiben.
+- Geheimnisse und Urkundendaten nur in Systeme geben, die berufsrechtlich, datenschutzrechtlich und technisch freigegeben sind.
+
+## Intake
+
+1. Welche Daten: Entwurf, Urkundennummer, Ausweisdaten, Grundbuchdaten, Gesellschafterlisten, Geldwäscheunterlagen?
+2. Welcher Dienst: Cloudspeicher, KI-Chat, Diktat, OCR, Dokumentenvergleich, Übersetzung?
+3. Wo liegen Daten: EU, Drittstaat, lokale Kanzlei-/Notariatsinfrastruktur?
+4. Gibt es Verschlüsselung, Rollenrechte, Backup, Export, Löschkonzept?
+5. Kann die führende Akte ohne Cloudzugriff weitergeführt werden?
+
+## Red Flag
+
+Wenn ein externer Dienst faktisch die einzige Stelle ist, an der aktenrelevante Informationen vollständig vorhanden sind, ist das kein harmloses Hilfsmittel mehr.

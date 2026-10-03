@@ -1,0 +1,41 @@
+---
+name: mindestvertragslaufzeit-tk-umzug
+title: Mindestlaufzeit, Verlängerung, Kündigung
+description: 'Für Mindestlaufzeit, Verlängerung, Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/telekommunikationsrecht/skills/mindestvertragslaufzeit-tk-umzug
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tmt
+language: de
+---
+
+# Mindestlaufzeit, Verlängerung, Kündigung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; GWB §§ 1, 2, 18, 19, 20, 33, 35, 36, AEUV Art. 101, 102, FKVO 139/2004; BNetzAG, EnWG §§ 21 ff., TKG, PostG, MessEG, BSI-KritisV, DigiNetzG; TKG (i.d.F. 2021), TKMV, EU-Kodex 2018/1972, DigiNetzG, NIS2-RL, eIDAS — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Norm- und Quellenanker
+
+Bei Glasfaser-Mindestlaufzeit [BGH, Urteil vom 08.01.2026 – III ZR 8/25, Rn. 23–36](https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/iii_zr___8-25.pdf) anwenden: Vertragsschluss und Freischaltung getrennt feststellen. Die anfängliche Bindung beginnt auch beim Erstvertrag über Telekommunikationsdienste mit Vertragsschluss; Paragraf 56 Absatz 1 TKG verdrängt Paragraf 309 Nummer 9 Buchstabe a BGB nicht. Rechne die Ausbauwartezeit daher nicht zusätzlich zu 24 Monaten ab Freischaltung. Ein Vertrag ausschließlich über die physische Verbindung ist nach Paragraf 56 Absatz 2 TKG anders zu prüfen. Die konkreten Verbraucher-AGB begründen keine automatische Aussage über jeden Geschäftskundenvertrag oder Schadensersatz.
+
+TKG Kundenschutz; BGB §§ 309, 312k, 314; TDDDG bei Onlineabschluss; AGB-Recht.
+
+## Red Flags
+
+- alte Laufzeitlogik verwendet
+- Kündigung im Portal nicht beweisbar
+- Businessvertrag mit Verbraucherrecht verwechselt
+- Sonderkündigungsgrund nicht dokumentiert
+
+## Anschluss-Skills
+
+- tk-umzug-vertragsanpassung
+- tk-output-beschwerde-antrag-klage

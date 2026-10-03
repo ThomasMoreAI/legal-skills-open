@@ -1,18 +1,31 @@
 ---
 name: eilantrag-80-abs-5-vwgo
-title: Eilantrag § 80 Abs. 5 VwGO
-description: 'Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach § 80 Abs. 5 VwGO stellen: Mandant hat Widerspruch eingelegt oder Klage erhoben aber die Behoerde hat sofortige Vollziehung angeordnet. Normen: § 80 Abs. 2 VwGO (gesetzlicher Entfall AW: öffentliche Abgaben, Polizei), § 80 Abs. 3 VwGO (Begründungspflicht sofortige Vollziehung). Prüfraster: Interessenabwaegung Vollziehungs- vs. Aussetzungsinteresse, Erfolgsaussichten Hauptsache, substantiierte Begründung. Output Schriftsatz Eilantrag § 80 Abs. 5 VwGO. Abgrenzung: § 123 VwGO (andere Antragsart) siehe einstweiliger-rechtsschutz-skill; Widerspruchsschrift siehe fachanwalt-verwaltungsrecht-widerspruchsschrift.'
+title: Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach § 80 Abs
+description: 'Für Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach Paragraf 80 Abs: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/eilantrag-80-abs-5-vwgo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Eilantrag § 80 Abs. 5 VwGO
+# Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach § 80 Abs
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: VwGO; VwVfG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Eilantrag auf Wiederherstellung oder Anordnung aufschiebender Wirkung nach § 80 Abs. 5 VwGO stellen: Mandant hat Widerspruch eingelegt oder Klage erhoben aber die Behörde hat sofortige Vollziehung angeordnet. Normen: § 80 Abs. 2 VwGO (gesetzlicher Entfall AW: öffentliche Abgaben, Polizei), § 80 Abs. 3 VwGO (Begründungspflicht sofortige Vollziehung). Prüfraster: Interessenabwaegung Vollziehungs- vs. Aussetzungsinteresse, Erfolgsaussichten Hauptsache, substantiierte Begründung. Output Schriftsatz Eilantrag § 80 Abs. 5 VwGO. Abgrenzung: § 123 VwGO (andere Antragsart) siehe einstweiliger-rechtsschutz-skill; Widerspruchsschrift siehe fachanwalt-verwaltungsrecht-widerspruchsschrift.
+
+### Eilantrag § 80 Abs. 5 VwGO
 
 ## Kernsachverhalt
 
@@ -28,7 +41,7 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 6. Liegt ein Fall des § 80a VwGO vor (drittbetroffener Nachbar gegen Baugenehmigung)?
 7. Wurde ein Aussetzungsantrag bei der Behörde nach § 80 Abs. 4 VwGO gestellt und abgelehnt?
 8. Welches Gericht ist zuständig — VG, OVG, BVerwG (NABEG/EnLAG)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -52,13 +65,10 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema § 80 Abs. 5 VwGO
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfungspunkt | Inhalt | Ergebnis |
 |---|---|---|---|
@@ -68,14 +78,11 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 | 4 | Hauptsache anhängig | Widerspruch oder Klage parallel eingereicht? | Pflichtvoraussetzung |
 | 5 | Begründungsmangel § 80 Abs. 3 | Vollziehungsanordnung floskelhaft? Kein Einzelfallbezug? | Eigenständiger Aufhebungsgrund |
 | 6 | Begründetheits-Prüfung Erfolgsaussicht | Offensichtlich erfolglos / offen / offensichtlich erfolgreich | Hauptansatz der Entscheidung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Irreversibilität des Vollzugs | Schwere des Schadens; Nicht-Wiedergutzumachbarkeit | Je irreversibler, desto höher Aussetzungsinteresse |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Spezialfall Abgaben (Nr. 1) | Steuerbescheid; ernstliche Zweifel an Rechtmäßigkeit oder unbillige Härte | § 80 Abs. 4 Satz 3 VwGO |
 | 11 | Streitwert | Hälfte Hauptsache-Streitwert; § 52 GKG | Im Antrag angeben |
 | 12 | Entscheidungsform | Beschluss; ohne mündliche Verhandlung; Ausnahme Erörterung | Zeitplanung |
 | 13 | Beschwerde § 146 Abs. 4 VwGO | 2 Wochen ab Beschluss; Begründungsfrist 1 Monat; Auseinandersetzungspflicht | OVG-Beschwerde |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 15 | Vollstreckung nach Stattgabe | Behörde zur Aussetzung verpflichtet; Zwangsgeld § 172 VwGO möglich | Vollstreckungsweg vorbereiten |
 
 ## Beweislast
@@ -103,7 +110,6 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 
 | Gegenargument der Behörde | Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hauptsache hat keine Erfolgsaussichten" | Substanziierte Rechtsauffassung mit Normen und Rspr.; Behörde muss Gegendarstellung liefern |
 | "Keine Existenzgefährdung" | Betriebswirtschaftliche Belege; BWA, Bilanzen; Liquiditätsplan; ggf. Steuerberater-Attest |
 | "Zu spät gestellt — Eilbedürftigkeit entfallen" | Konkrete Handlungsaufnahme der Behörde als Auslöser benennen; Zeitachse darstellen |
@@ -112,17 +118,16 @@ Der Eilantrag nach § 80 Abs. 5 VwGO ist das zentrale Instrument, um den Vollzug
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Eilantrag nach § 80 Abs. 5 VwGO gegen sofortvollziehbaren VA | Eilantragsschriftsatz nach Pruefschema; Template unten |
-| Variante A — Aussetzung der Vollziehung direkt bei Behoerde realistisch | Antrag bei Behoerde § 80 Abs. 4 VwGO zuerst; Gericht nur bei Ablehnung |
+| Standard — Eilantrag nach § 80 Abs. 5 VwGO gegen sofortvollziehbaren VA | Eilantragsschriftsatz nach Prüfschema; Template unten |
+| Variante A — Aussetzung der Vollziehung direkt bei Behörde realistisch | Antrag bei Behörde § 80 Abs. 4 VwGO zuerst; Gericht nur bei Ablehnung |
 | Variante B — Mandant akzeptiert VA aber nicht die sofortige Vollziehung | Nur Aussetzungsantrag ohne Widerspruch in der Hauptsache |
-| Variante C — Eilantrag hat geringe Erfolgsaussichten Folgenabwaegung | Folgenabwaegung in den Vordergrund stellen statt summarischer Pruefung |
+| Variante C — Eilantrag hat geringe Erfolgsaussichten Folgenabwaegung | Folgenabwaegung in den Vordergrund stellen statt summarischer Prüfung |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -153,13 +158,13 @@ Namens und in Vollmacht stellen wir folgenden
 Antrag
 
 1. Die aufschiebende Wirkung des Widerspruchs [/ der Klage] des
-   Antragstellers vom [Datum] gegen den Bescheid der
-   Antragsgegnerin vom [Datum], Az. [Az.], wird wiederhergestellt.
+ Antragstellers vom [Datum] gegen den Bescheid der
+ Antragsgegnerin vom [Datum], Az. [Az.], wird wiederhergestellt.
 
 2. Die Antragsgegnerin trägt die Kosten des Verfahrens.
 
 3. Der Streitwert wird auf EUR [Betrag] (Hälfte des Hauptsache-
-   Streitwerts von EUR [x]) festgesetzt.
+ Streitwerts von EUR [x]) festgesetzt.
 
 Begründung
 
@@ -183,7 +188,6 @@ Nach der ständigen Rechtsprechung muss die Behörde in der
 Begründung das besondere öffentliche Interesse an der
 sofortigen Vollziehung auf den konkreten Einzelfall bezogen
 darlegen. Allgemeine Formulierungen und abstrakte Verweise auf
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Die vorliegende Begründung beschränkt sich auf [Beschreibung
 des Floskels: "im öffentlichen Interesse" / "Gefährdung der
@@ -202,33 +206,33 @@ Unabhängig vom Begründungsmangel hat der Widerspruch
 1. [Formeller Fehler: Anhörung unterblieben / Begründung mangelhaft]
 
 2. Materieller Fehler: Die Tatbestandsvoraussetzungen des
-   § [X] [Spezialgesetz] sind nicht erfüllt, weil [Subsumtion].
+ § [X] [Spezialgesetz] sind nicht erfüllt, weil [Subsumtion].
 
 3. Ermessensfehler: Die Behörde hat relevante Belange wie
-   [Belang] nicht berücksichtigt (§ 40 VwVfG).
+ [Belang] nicht berücksichtigt (§ 40 VwVfG).
 
 IV. Interessenabwägung
 
 Für das Aussetzungsinteresse des Antragstellers spricht:
 
 — Die sofortige Vollziehung des Widerrufs der Gaststättenerlaubnis
-   [/ Baugenehmigung / Berufserlaubnis] führt zur unmittelbaren
-   Einstellung des Geschäftsbetriebs. [n] Arbeitnehmer verlieren
-   ihren Arbeitsplatz. Die laufenden Verbindlichkeiten von
-   EUR [x] monatlich können nicht mehr bedient werden.
+ [/ Baugenehmigung / Berufserlaubnis] führt zur unmittelbaren
+ Einstellung des Geschäftsbetriebs. [n] Arbeitnehmer verlieren
+ ihren Arbeitsplatz. Die laufenden Verbindlichkeiten von
+ EUR [x] monatlich können nicht mehr bedient werden.
 
 — Der Schaden ist irreversibel: Auch bei späterem Klageerfolg
-   kann der Betrieb nicht ohne Weiteres fortgeführt werden,
-   da [Kundenstamm verloren / Verträge gekündigt / Vermögen
-   liquidiert].
+ kann der Betrieb nicht ohne Weiteres fortgeführt werden,
+ da [Kundenstamm verloren / Verträge gekündigt / Vermögen
+ liquidiert].
 
 Das Vollzugsinteresse der Antragsgegnerin tritt zurück, weil:
 
 — Keine unmittelbare Gefahr für Leib, Leben oder erhebliche
-   öffentliche Güter besteht.
+ öffentliche Güter besteht.
 
 — Der Vollzug kann ohne wesentlichen Nachteil um die Dauer des
-   Eilverfahrens (typisch 4–8 Wochen) verschoben werden.
+ Eilverfahrens (typisch 4–8 Wochen) verschoben werden.
 
 Anlagen:
 1. Bescheid vom [Datum] mit Vollziehungsanordnung
@@ -297,7 +301,6 @@ Begründung
 I. Das Verwaltungsgericht hat den Begründungsmangel
 § 80 Abs. 3 VwGO unzutreffend verneint. Es hat die
 Begründung: "[Zitat]" als ausreichend angesehen, obwohl sie
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 erforderliche einzelfallbezogene Auseinandersetzung fehlt.
 
 II. Die Interessenabwägung ist fehlerhaft, weil das
@@ -311,17 +314,16 @@ Wir beantragen, den angefochtenen Beschluss aufzuheben
 und die aufschiebende Wirkung wiederherzustellen.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Streitwert und Kosten
 
@@ -362,3 +364,5 @@ Stand 05/2026.
 - BVerfG (für Verhältnismäßigkeits- und Folgenabwägungslinie) — [bundesverfassungsgericht.de](https://www.bundesverfassungsgericht.de)
 - Rechtsprechung im Mandat live verifizieren — keine Aktenzeichen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

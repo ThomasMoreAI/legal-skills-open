@@ -5,11 +5,14 @@ description: Evaluates evidence strength under Austrian civil procedure (ZPO). A
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-evidence
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: litigation
-language: de
+language: en
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht evidence — Beweiswürdigung

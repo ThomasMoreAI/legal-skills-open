@@ -1,22 +1,31 @@
 ---
 name: akteneinsicht-strafrecht-auswerten
-title: Akteneinsicht — Strafakte auswerten
-description: Strukturierte Auswertung der Strafakte nach Akteneinsicht § 147 StPO. Erstellt Beweismittelverzeichnis (Urkunden Augenscheinsobjekte Zeugen Sachverständige) Personenregister Chronologie Aussagen-Synopse mit Inkonsistenzen Verwertungsverbots-Prüfung Belehrungsfehler § 136a StPO Beschuldigtenrechte § 136 StPO Beweisverwertungsverbote sowie Verteidigungsstrategie-Optionen. Ergebnis ist Aktenexzerpt zur Hauptverhandlungsvorbereitung mit Beweisanträgen Befangenheits-Prüfung und Vermerk für Beweisverwertung.
+title: Strukturierte Auswertung der Strafakte nach Akteneinsicht § 147 StPO
+description: 'Für Strukturierte Auswertung der Strafakte nach Akteneinsicht Paragraf 147 StPO: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills/akteneinsicht-strafrecht-auswerten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
-language: en
+language: de
 ---
 
-# Akteneinsicht — Strafakte auswerten
+# Strukturierte Auswertung der Strafakte nach Akteneinsicht § 147 StPO
 
-## Zweck
 
-Aus der oft tausende Seiten umfassenden Strafakte das Verteidigungs-relevante extrahieren und systematisch ordnen.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StPO; StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Strukturierte Auswertung der Strafakte nach Akteneinsicht § 147 StPO. Erstellt Beweismittelverzeichnis (Urkunden Augenscheinsobjekte Zeugen Sachverständige) Personenregister Chronologie Aussagen-Synopse mit Inkonsistenzen Verwertungsverbots-Prüfung Belehrungsfehler § 136a StPO Beschuldigtenrechte § 136 StPO Beweisverwertungsverbote sowie Verteidigungsstrategie-Optionen. Ergebnis ist Aktenexzerpt zur Hauptverhandlungsvorbereitung mit Beweisanträgen Befangenheits-Prüfung und Vermerk für Beweisverwertung.
+
+### Akteneinsicht — Strafakte auswerten
 
 ## Voraussetzung
 
@@ -93,7 +102,6 @@ Pro Tat-Element (objektiver Tatbestand: Wer Wann Wo Wie):
 
 ### Wohnungsdurchsuchung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 102 StPO** Beschuldigten-Wohnung
 - Fund von Beweismitteln über Anordnungs-Gegenstand hinaus — Zufallsfund § 108 StPO
 
@@ -149,18 +157,21 @@ Pro Tat-Element (objektiver Tatbestand: Wer Wann Wo Wie):
 - Liste vorbereiteter Beweisanträge
 - Termin-Check Hauptverhandlung
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - StPO §§ 136 136a 137 140 141 147 163a
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BGH 2. und 5. Strafsenat (Verwertungsverbote)
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Beulke/Swoboda Strafprozessrecht
 
 ## Aktuelle Rechtsprechung Aktenauswertung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,118 +1,87 @@
 ---
 name: aussenwirtschaft-wto-handelspolitik
-title: WTO und handelspolitische Maßnahmen
-description: WTO Handelspolitik GATT GATS TRIPS und Streitbeilegung für Aussenhandelsmandate. Anwendungsfall Handelspartner klagt WTO-Verstoss oder Unternehmen ist von Schutzmassnahmen betroffen. Normen GATT 1994 GATS TRIPS DSU Streitbeilegungsvereinbarung WTO Schutzmassnahmen-Abkommen. Prüfraster GATT-Grundsaetze GATS-Verpflichtungen TRIPS-Schutz WTO-Streitbeilegungsweg Schutzmassnahmen Quoten handelspolitische Konflikte. Output Handelsrechtliche Einordnung mit WTO-Prüfschema Streitbeilegungsoptionen und Risikoabschaetzung. Abgrenzung zu aussenwirtschaft-antidumping-ausgleich und aussenwirtschaft-sanktionen-embargos.
+title: 'WTO-Handelspolitik: GATT Schutzmassnahmen und EU-Handelsverteidigung'
+description: 'Für WTO-Handelspolitik: GATT Schutzmassnahmen und EU-Handelsverteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-wto-handelspolitik
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: trade
 language: de
 ---
 
-# WTO und handelspolitische Maßnahmen
+# WTO-Handelspolitik: GATT Schutzmassnahmen und EU-Handelsverteidigung
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill liefert strategische Einordnung für Verbände, Unternehmen und öffentliche Stellen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Importeur fragt nach Rechtmaeßigkeit neuer EU-Antidumping-Maßnahme und WTO-Streitbeilegungsoptionen.
+- Exporteur in Drittland ist von EU-Ausgleichszoll betroffen; WTO-rechtliche Einwendungen prüfen.
+- Unternehmen moechte in EU-Schutzmassnahme-Untersuchung als interessierte Partei auftreten.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. Maßnahme identifizieren: Antidumping Ausgleichszoll oder Schutzmasnahme? EU-Amtsblatt und TARIC prüfen.
+2. WTO-Rechtsgrundlage bestimmen: ADA SCM-Abkommen oder SG-Abkommen.
+3. Unternehmensbeteiligung: Als Einfulirer Exporteur oder Produzent von der Maßnahme betroffen?
+4. Verfahrensrechte in EU-Untersuchung: Fragebogen Auskunftspflicht Akteneinsicht Anhörung.
+5. WTO-Streitbeilegung: Nur Staatsebene möglich; nationales Unternehmen kann nur Regierung um Klage bitten.
+6. Risikoradar erstellen: Laufende WTO-Streitverfahren gegen EU und potenzielle Maßnahmen.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **GATT Art. VI**: Antidumping und Ausgleichszoelle.
+- **GATT Art. XIX**: Schutzmasnahmenklausel (Safeguards).
+- **WTO-Antidumping-Abkommen (ADA)**: Verfahrens- und Substanzregeln für AD-Maßnahmen.
+- **VO (EU) 2016/1036 (EU-AD-GVO)**: EU-Antidumpingverfahren.
+- **VO (EU) 2015/478 (EU-SG-VO)**: EU-Schutzmasnahmenverfahren.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] Maßnahmen-Art korrekt identifiziert (AD/AS/SG)?
+- [ ] WTO-Rechtsgrundlage geprueft?
+- [ ] Unternehmen als interessierte Partei im EU-Verfahren angemeldet?
+- [ ] Fragebogen-Antwort fristgerecht und vollstaendig eingereicht?
+- [ ] WTO-Streitbeilegungsoptionen auf Regierungsebene bewertet?
+- [ ] Handelspolitisches Risikoradar für kuenftige Maßnahmen erstellt?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- Fristen für Fragebogen-Einreichung in EU-Verfahren sind kurz; Verpaessung schliesst von Verfahren aus.
+- WTO-Streitbeilegung nur durch Staaten; Unternehmen haben keinen direkten Klagezugang.
+- Schutzmassnahmen und Antidumping-Zoelle können kumulativ auf dieselbe Ware angewendet werden.
+- Circumvention-Ermittlungen können Maßnahmen auf Drittland-Exporteure ausdehnen.
 
-## Triage vor WTO-/Handelspolitik-Beratung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Geht es um WTO-Streitbeilegung (Dispute Settlement), Notifizierungspflichten oder die Vereinbarkeit nationaler Massnahmen mit WTO-Recht?
-2. Handelt es sich um Antidumping, Subventionen, Schutzklauseln (Safeguards), technische Handelshemmnisse (TBT) oder sanitaere/phytosanitaere Massnahmen (SPS)?
-3. Berührt die Fragestellung bilaterale EU-Abkommen (EU-UK TCA, CETA, EU-MERCOSUR) oder unilaterale Instrumente (APS/GSP, CBAM)?
-4. Liegt ein nationales Beschwerde-/Lobbying-Mandat vor (Interessenvertretung im EU-Handelsmassnahmenverfahren)?
-5. Sind Fristen fuer WTO-Konsultationen, Panel-Antraege oder Berufungsantraege bekannt?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- WTO-AB, Bericht v. 25.09.1998 - AB-1998-5 (EC — Hormones) — SPS-Massnahmen muessen auf einer Risikoabschaetzung beruhen; Vorsorgeprinzip allein genuegt nicht zur Rechtfertigung handelshemmender Massnahmen nach Art. 5.7 SPS.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- WTO-Panel, Bericht v. 07.10.2022 - DS591 (EU — Methode zur Berechnung von Dumpingspannen) — EU-Netting-Methode bei Antidumping bestaetigt; asymmetrische Berechnung nur unter engen Voraussetzungen WTO-konform.
+## Quellen
 
-## Normen-Kette WTO/Handelspolitik
-
-- Art. I, II, III, VI, XI GATT 1994 — Grundsaetze Warenhandel (Meistbeguenstigung, Bindung, Inlaenderbehandlung)
-- Anti-Dumping Agreement (ADA) — WTO-Antidumping-Regeln
-- SCM Agreement — Subventionen und Ausgleichsmassnahmen
-- Agreement on Safeguards — Schutzklauselmassnahmen
-- Art. 207 AEUV — Gemeinsame Handelspolitik der EU
-- VO (EU) 2016/1036 (Grundantidumping-VO) i.V.m. ADA
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: WTO-Compliance-Vermerk
-
-**Adressat:** Rechts-/Handelsabteilung / Verband — **Tonfall:** voelkerrechtlich-technisch, fristen-prazise
-
-```
-WTO-COMPLIANCE-VERMERK
-Datum: [DATUM]
-Massnahme/Frage: [BEZEICHNUNG]
-Betroffenes WTO-Uebereinkommen: [GATT / ADA / SCM / TBT / SPS / Safeguards]
-Bearbeiter: [NAME]
-
-1. SACHVERHALT
-   Nationale/EU-Massnahme: [BESCHREIBUNG]
-   Betroffene Laender/Exporte: [LAENDER]
-
-2. WTO-KONFORMITAETSPRUEFUNG
-   Massnahme genuegt: [ ] Art. I GATT (MFN) / [ ] Art. III GATT (National Treatment)
-   Ausnahme in Anspruch genommen: [ ] Art. XX GATT / [ ] Art. XXI GATT / [ ] Keine
-   Sonderpruefung (ADA/SCM/SPS/TBT): [ ] Ausgangspunkt: [NORM]
-   WTO-Konform: [ ] Ja / [ ] Nein / [ ] Zweifelhaft
-
-3. BESCHWERDE-/VERTEIDIGUNGSSTRATEGIE
-   WTO-Konsultationen eingeleitet: [ ] Ja, am [DATUM] / [ ] Nein
-   Frist Panelantrag (60 Tage nach Konsultationsantrag): [DATUM]
-   Empfehlung: [ ] Verhandlungslosung / [ ] WTO-Panel / [ ] Bilaterale Lobbyarbeit
-
-4. NAECHSTE SCHRITTE
-   - [Schritt mit Frist und Verantwortlichem]
-```
+- [VO (EU) 2016/1036 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1036)
+- [WTO Antidumping](https://www.wto.org/english/tratop_e/adp_e/adp_e.htm)
+- [EU-Kommission Trade Defence](https://trade.ec.europa.eu/access-to-markets/en/trade-defence)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)

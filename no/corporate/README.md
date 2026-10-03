@@ -10,7 +10,7 @@ Jurisdiction: `no` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`norway-company-registry`](skills/norway-company-registry-nolpak14/) | Look up Norwegian companies for free via the official Brønnøysundregistrene (Enhetsregisteret) open data API… |
+| [`norway-company-registry`](skills/norway-company-registry-nolpak14/) | Look up Norwegian companies for free via the official Brønnøysundregistrene (Enhetsregisteret) open data… |
 
 ## Cold-start context
 

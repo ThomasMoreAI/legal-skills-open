@@ -5,17 +5,17 @@ description: 'EU AI Act (Regulation (EU) 2024/1689) compliance advisor — risk 
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/eu-ai-act/skills/eu-ai-act
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
 language: en
 sources:
-- title: Gpai Governance
+- title: Gpai governance
   path: references/gpai-governance.md
-- title: Obligations High Risk
+- title: Obligations high risk
   path: references/obligations-high-risk.md
-- title: Risk Classification
+- title: Risk classification
   path: references/risk-classification.md
 ---
 

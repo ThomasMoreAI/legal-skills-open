@@ -1,11 +1,11 @@
 ---
 name: antragspflicht-15a-inso
 title: § 15a InsO — Antragspflicht, Insolvenzverschleppung und § 15b InsO Zahlungsverbot
-description: Analysiert die Insolvenzantragspflicht des Geschäftsleiters nach § 15a InsO, die Haftung wegen Insolvenzverschleppung (§ 823 Abs. 2 BGB iVm § 15a InsO) sowie das Zahlungsverbot nach § 15b InsO. Lädt, wenn Schlagwörter wie "Antragspflicht", "Insolvenzverschleppung", "3-Wochen-Frist", "Zahlungsverbot" oder "§ 15a InsO" auftreten.
+description: 'Für Paragraf 15a InsO — Antragspflicht, Insolvenzverschleppung und Paragraf 15b InsO Zahlungsverbot: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/antragspflicht-15a-inso
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,26 +14,34 @@ language: de
 
 # § 15a InsO — Antragspflicht, Insolvenzverschleppung und § 15b InsO Zahlungsverbot
 
-## Zweck
+## Arbeitsbereich
 
-Dieser Skill unterstützt bei der Prüfung, ob und wann der Geschäftsleiter einer
-juristischen Person (insbesondere GmbH, AG, GmbH & Co. KG) zur Stellung eines
-Insolvenzantrags verpflichtet ist, welche zivilrechtlichen und strafrechtlichen
-Haftungsfolgen bei Pflichtverletzung drohen und welche Zahlungspflichten nach
-§ 15b InsO gelten. Der Skill legt den Fokus auf die Antrags­fristen, die
-Haftungsstruktur gegenüber Neu- und Altgläubigern sowie die Dokumentations-
-pflichten des Geschäftsleiters.
+Analysiert die Insolvenzantragspflicht des Geschäftsleiters nach Paragraf 15a InsO, zivil- und strafrechtliche Folgen sowie Zahlungen nach Paragraf 15b InsO. Lädt bei Antragspflicht, Insolvenzverschleppung, Drei- oder Sechswochen-Höchstfrist und Zahlungsverbot. Trennt objektiven Eintritt des Insolvenzgrunds, unverzügliche Antragspflicht, Verschulden, Schaden, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `§ 15a InsO — Antragspflicht, Insolvenzverschleppung und § 15b InsO Zahlungsverbot` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
 - Rechtsform der Gesellschaft (GmbH, AG, GmbH & Co. KG, etc.)
 - Festgestellter oder streitiger Eröffnungsgrund (Zahlungsunfähigkeit, drohende
-  Zahlungsunfähigkeit, Überschuldung) — ggf. Verweis auf Schwester-Skills
-  § 17 InsO und § 19 InsO
+ Zahlungsunfähigkeit, Überschuldung) — ggf. Verweis auf Schwester-Skills
+ § 17 InsO und § 19 InsO
 - Zeitpunkt des Eintritts des Eröffnungsgrundes (tatsächlich oder vorgeworfen)
 - Zeitpunkt der Antragstellung bzw. deren Unterlassen
 - Vorhandensein von Sanierungsbemühungen (StaRUG, außergerichtliche Einigung,
-  Sanierungsmoderation § 94 ff. StaRUG) und deren Dokumentationsstand
+ Sanierungsmoderation § 94 ff. StaRUG) und deren Dokumentationsstand
 - Zahlungen nach Eintritt des Eröffnungsgrundes (Art, Betrag, Datum)
 - D&O-Versicherungsschutz (soweit relevant)
 
@@ -62,11 +70,11 @@ haftet.
 
 **Abs. 4–6 — Strafbarkeit:**
 - Abs. 4: Vorsätzliche Verletzung der Antragspflicht — Freiheitsstrafe bis zu
-  drei Jahren oder Geldstrafe.
+ drei Jahren oder Geldstrafe.
 - Abs. 5: Fahrlässige Verletzung — Freiheitsstrafe bis zu einem Jahr oder
-  Geldstrafe.
+ Geldstrafe.
 - Abs. 6: Strafbarkeitsmilderung bei nachgeholtem Antrag; Abs. 4 bleibt
-  Offizialdelikt.
+ Offizialdelikt.
 
 ### § 15b InsO — Zahlungsverbot (seit SanInsFoG 01.01.2021)
 
@@ -126,13 +134,13 @@ Quelle: Bundesgerichtshof Pressemitteilung 2025; <https://www.noerr.com/de/insig
 
 > **Grundsätze (aus älterer BGH-Rspr., vor Ausgabe live verifizieren):**
 > - § 15a InsO ist Schutzgesetz iSd § 823 Abs. 2 BGB. Neugläubiger können
->   ihren vollen Vertrauensschaden ersetzt verlangen; Altgläubiger sind auf
->   den Quotenschaden beschränkt.
+> ihren vollen Vertrauensschaden ersetzt verlangen; Altgläubiger sind auf
+> den Quotenschaden beschränkt.
 > - Feststellung der Zahlungsunfähigkeit über Liquiditätsbilanz; die
->   Dreiwochenfrist dient nur der Abgrenzung zur vorübergehenden
->   Zahlungsstockung — keine "Schonfrist".
+> Dreiwochenfrist dient nur der Abgrenzung zur vorübergehenden
+> Zahlungsstockung — keine "Schonfrist".
 > - Der Geschäftsführer muss die wirtschaftliche Lage laufend im Blick
->   behalten; fahrlässige Unkenntnis schützt nicht.
+> behalten; fahrlässige Unkenntnis schützt nicht.
 > Verifizierung erforderlich: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe Gericht, Entscheidungsform, Datum, Aktenzeichen und tragende Aussage über offizielle oder frei zugängliche Quelle (dejure.org, openjur.de, bundesgerichtshof.de) prüfen.
 
 ### Quellenregel
@@ -150,55 +158,61 @@ Feststellung; Tz. 16 ff. die Fortbestehensprognose im Überschuldungskontext.
 
 ## Ablauf
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 1. **Feststellung des Eröffnungsgrundes**
-   Zunächst ist zu klären, ob Zahlungsunfähigkeit (§ 17 InsO — s. Schwester-
-   Skill) oder Überschuldung (§ 19 InsO — s. Schwester-Skill) vorliegt.
-   Maßgeblicher Zeitpunkt ist der objektive Eintritt; für die Haftung genügt
-   Kennenmüssen (fahrlässige Unkenntnis). IDW S 11 liefert den methodischen
-   Rahmen.
+ Zunächst ist zu klären, ob Zahlungsunfähigkeit (§ 17 InsO — s. Schwester-
+ Skill) oder Überschuldung (§ 19 InsO — s. Schwester-Skill) vorliegt.
+ Maßgeblicher Zeitpunkt ist der objektive Eintritt; für die Haftung genügt
+ Kennenmüssen (fahrlässige Unkenntnis). IDW S 11 liefert den methodischen
+ Rahmen.
 
 2. **Beginn der Antragsfrist**
-   Die Frist beginnt mit dem objektiven Eintritt des Eröffnungsgrundes,
-   frühestens jedoch mit dem Zeitpunkt, in dem der Geschäftsleiter diesen
-   kannte oder bei pflichtgemäßer Sorgfalt kennen musste (fahrlässige
-   Unkenntnis schützt nicht). Dreiwochenfrist bei Zahlungsunfähigkeit,
-   Sechswochenfrist bei Überschuldung (seit 01.01.2021, SanInsFoG).
-   Konkrete BGH-Entscheidungen zur Erkennbarkeit der Insolvenzreife vor Ausgabe verifizieren (dejure.org, openjur.de).
+ Die Frist beginnt mit dem objektiven Eintritt des Eröffnungsgrundes,
+ frühestens jedoch mit dem Zeitpunkt, in dem der Geschäftsleiter diesen
+ kannte oder bei pflichtgemäßer Sorgfalt kennen musste (fahrlässige
+ Unkenntnis schützt nicht). Dreiwochenfrist bei Zahlungsunfähigkeit,
+ Sechswochenfrist bei Überschuldung (seit 01.01.2021, SanInsFoG).
+ Konkrete BGH-Entscheidungen zur Erkennbarkeit der Insolvenzreife vor Ausgabe verifizieren (dejure.org, openjur.de).
+
+ Bei streitigen Forderungen gilt: Der objektive Eintritt hängt nicht vom subjektiven Bestreiten ab. Wird eine Forderung aus dem Liquiditätsstatus herausgenommen, muss die Geschäftsleitung den Gegenstand, die Einwendung, die Belege und ein etwaiges finales Rechtsgutachten dokumentieren. Ein Irrtum entlastet nur ausnahmsweise; nach BGH IX ZR 229/22, Randnummer 27, ist die Schwelle bei ungeklärten Rechtsfragen eng und bei eigener Vertragsauslegung regelmäßig nicht erreicht.
+
+Die Irrtumsaussage in Rn. 27 betrifft die subjektiven Voraussetzungen der Vorsatzanfechtung. Sie ist weder ein allgemeiner Entlastungstatbestand noch ein automatischer Verschuldensmaßstab für Antragspflicht oder Geschäftsleiterhaftung. Objektiven Forderungsbestand, tatsächliche Kenntnis und die Voraussetzungen des konkret geprüften Anspruchs getrennt begründen.
 
 3. **Sanierungsversuche dokumentieren**
-   Sanierungsbemühungen können den Fristablauf nicht hemmen, senken aber das
-   Verschulden und können im Einzelfall belegen, dass keine Pflicht­verletzung
-   vorlag. Voraussetzung ist ein belastbares Sanierungskonzept mit konkreter
-   Erfolgsaussicht. Geeignete Instrumente: außergerichtliche Einigung,
-   Sanierungsmoderation (§§ 94 ff. StaRUG), vorläufiger Restrukturierungs­rahmen
-   (§§ 29 ff. StaRUG). Jede Maßnahme ist schriftlich mit Datum, Beteiligten und
-   Ergebnis zu dokumentieren (Vorstands-/Geschäftsführerprotokoll).
+ Sanierungsbemühungen können den Fristablauf nicht hemmen, senken aber das
+ Verschulden und können im Einzelfall belegen, dass keine Pflicht­verletzung
+ vorlag. Voraussetzung ist ein belastbares Sanierungskonzept mit konkreter
+ Erfolgsaussicht. Geeignete Instrumente: außergerichtliche Einigung,
+ Sanierungsmoderation (§§ 94 ff. StaRUG), vorläufiger Restrukturierungs­rahmen
+ (§§ 29 ff. StaRUG). Jede Maßnahme ist schriftlich mit Datum, Beteiligten und
+ Ergebnis zu dokumentieren (Vorstands-/Geschäftsführerprotokoll).
 
 4. **Antragstellung spätestens mit Ablauf der Höchstfrist**
-   Bei Zahlungsunfähigkeit: Antrag spätestens am 21. Tag nach Fristbeginn.
-   Bei Überschuldung: spätestens am 42. Tag. Jeder Tag der Überschreitung
-   verlängert den Haftungszeitraum. Fristversäumnis begründet zugleich
-   Strafbarkeit nach § 15a Abs. 4 oder Abs. 5 InsO.
+ Bei Zahlungsunfähigkeit: Antrag spätestens am 21. Tag nach Fristbeginn.
+ Bei Überschuldung: spätestens am 42. Tag. Jeder Tag der Überschreitung
+ verlängert den Haftungszeitraum. Fristversäumnis begründet zugleich
+ Strafbarkeit nach § 15a Abs. 4 oder Abs. 5 InsO.
 
 5. **Haftungsdokumentation Geschäftsführer**
-   Für die Haftungsabwehr ist eine lückenlose Dokumentation erforderlich:
-   Bilanzen, Liquiditätspläne, Beratungsmandate (Steuerberater, Sanierungsberater),
-   Gesellschafter­beschlüsse, Korrespondenz mit Gläubigern und Kreditinstituten.
-   Bei Beauftragung eines Insolvenzberaters: Mandat, Stellungnahme und zeitlicher
-   Ablauf festhalten. Bestehende D&O-Versicherungspolice prüfen (Coverage,
-   Selbstbehalt, Ausschlussklauseln für wissentliche Pflichtverletzungen).
+ Für die Haftungsabwehr ist eine lückenlose Dokumentation erforderlich:
+ Bilanzen, Liquiditätspläne, Beratungsmandate (Steuerberater, Sanierungsberater),
+ Gesellschafter­beschlüsse, Korrespondenz mit Gläubigern und Kreditinstituten.
+ Bei Beauftragung eines Insolvenzberaters: Mandat, Stellungnahme und zeitlicher
+ Ablauf festhalten. Bei finalem Rechtsgutachten zu bestrittenen Forderungen:
+ Auftrag, geprüfte Unterlagen, Annahmen, Aktualisierungsstand und ausdrücklichen
+ Restrisikovermerk zur späteren Haftungsprüfung aufnehmen. Bestehende D&O-Versicherungspolice prüfen (Coverage,
+ Selbstbehalt, Ausschlussklauseln für wissentliche Pflichtverletzungen).
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Antragspflicht § 15a InsO pruefend und Beratungsschreiben erstellen | Beratungsschreiben nach Pruefschema; Template unten |
+| Standard — Antragspflicht § 15a InsO prüfend und Beratungsschreiben erstellen | Beratungsschreiben nach Prüfschema; Template unten |
 | Variante A — Insolvenzreife strittig Gutachten noetig | Sachverstaendigen-Gutachten zuerst; Beratungsschreiben nach Klaerunm |
-| Variante B — Sanierung noch moeglich StaRUG als Alternative | StaRUG-Option parallel pruefen; Antrag nicht zwingend sofort |
+| Variante B — Sanierung noch möglich StaRUG als Alternative | StaRUG-Option parallel prüfen; Antrag nicht zwingend sofort |
 | Variante C — Gesellschafter kennen Lage bereits Haftungsrisiko | Haftungs-Beratung separat; Antragspflicht und Haftung unterscheiden |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
@@ -208,20 +222,28 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 Ausgabe in strukturierter Prosa oder tabellarischer Form, jeweils bestehend aus:
 
 - **Sachverhaltszusammenfassung:** Eröffnungsgrund, Datum des Eintritts,
-  Fristbeginn und -ende (konkrete Daten).
+ Fristbeginn und -ende (konkrete Daten).
 - **Haftungsprüfung:** Pflicht­verletzung (ja/nein, Begründung), Verschulden
-  (Vorsatz/Fahrlässigkeit), Schaden (Neugläubiger: Vertrauensschaden;
-  Altgläubiger: Quotenschaden). Bei ausgeschiedenem GF: BGH II ZR 206/22
-  prüfen (fortwirkende Gefährdungslage).
+ (Vorsatz/Fahrlässigkeit), Schaden (Neugläubiger: Vertrauensschaden;
+ Altgläubiger: Quotenschaden). Bei ausgeschiedenem GF: BGH II ZR 206/22
+ prüfen (fortwirkende Gefährdungslage).
 - **Zahlungsverbot-Prüfung (§ 15b InsO):** Verbotene Zahlungen mit Datum und
-  Betrag; Ausnahmen (§ 15b Abs. 1 S. 2, Abs. 8).
+ Betrag; Ausnahmen (§ 15b Abs. 1 S. 2, Abs. 8).
 - **Strafrechtliches Risiko:** § 15a Abs. 4 oder Abs. 5 InsO; bei faktischer
-  Geschäftsführung BGH 5 StR 287/24 vom 27.02.2025 beachten.
+ Geschäftsführung BGH 5 StR 287/24 vom 27.02.2025 beachten.
 - **Handlungsempfehlungen:** Nachholung des Antrags, Dokumentation,
-  D&O-Deckungsprüfung (BGH IV ZR 66/25 vom 19.11.2025: positive Kenntnis pro
-  Pflichtverletzung erforderlich).
+ D&O-Deckungsprüfung (BGH IV ZR 66/25 vom 19.11.2025: positive Kenntnis pro
+ Pflichtverletzung erforderlich).
 - **Belege:** Mindestens zwei einschlägige BGH-Entscheidungen mit Randnummer
-  aus offener Quelle (dejure.org, openjur.de, bundesgerichtshof.de), IDW S 11.
+ aus offener Quelle (dejure.org, openjur.de, bundesgerichtshof.de), IDW S 11.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Beispiel
 
@@ -237,23 +259,23 @@ Ein Insolvenzantrag wird erst am 02.06.2026 gestellt.
 **Haftungsfolgen:**
 
 1. *Zivilrechtlich (§ 823 Abs. 2 BGB iVm § 15a InsO):*
-   Neugläubiger, die zwischen dem 13.05.2026 und dem 02.06.2026 Vertragsbeziehungen
-   mit der GmbH eingegangen sind, können ihren Vertrauensschaden (vollständiger
-   Forderungsausfall abzüglich etwaiger Insolvenzquote) von Müller persönlich
-   ersetzt verlangen. Altgläubiger können den Quotenschaden geltend machen.
-   Sollte Müller vor dem 02.06.2026 ausscheiden, bleibt nach **BGH II ZR 206/22
-   vom 23.07.2024** die Haftung für danach hinzutretende Neugläubigerschäden
-   bestehen, solange die ursprünglich geschaffene Gefährdungslage fortbesteht.
+ Neugläubiger, die zwischen dem 13.05.2026 und dem 02.06.2026 Vertragsbeziehungen
+ mit der GmbH eingegangen sind, können ihren Vertrauensschaden (vollständiger
+ Forderungsausfall abzüglich etwaiger Insolvenzquote) von Müller persönlich
+ ersetzt verlangen. Altgläubiger können den Quotenschaden geltend machen.
+ Sollte Müller vor dem 02.06.2026 ausscheiden, bleibt nach **BGH II ZR 206/22
+ vom 23.07.2024** die Haftung für danach hinzutretende Neugläubigerschäden
+ bestehen, solange die ursprünglich geschaffene Gefährdungslage fortbesteht.
 
 2. *Zahlungsverbot (§ 15b InsO):*
-   Zahlungen, die Müller nach dem 22.04.2026 veranlasst hat und die nicht unter
-   § 15b Abs. 1 S. 2 oder Abs. 8 fallen, sind erstattungsfähig. Der
-   Insolvenzverwalter kann Müller auf Rückzahlung in Anspruch nehmen.
+ Zahlungen, die Müller nach dem 22.04.2026 veranlasst hat und die nicht unter
+ § 15b Abs. 1 S. 2 oder Abs. 8 fallen, sind erstattungsfähig. Der
+ Insolvenzverwalter kann Müller auf Rückzahlung in Anspruch nehmen.
 
 3. *Strafrechtlich (§ 15a Abs. 4 InsO):*
-   Bei nachgewiesenem Vorsatz (Müller kannte den Eröffnungsgrund seit 22.04.2026):
-   Freiheitsstrafe bis zu drei Jahren oder Geldstrafe. Bei Fahrlässigkeit
-   (§ 15a Abs. 5 InsO): Freiheitsstrafe bis zu einem Jahr oder Geldstrafe.
+ Bei nachgewiesenem Vorsatz (Müller kannte den Eröffnungsgrund seit 22.04.2026):
+ Freiheitsstrafe bis zu drei Jahren oder Geldstrafe. Bei Fahrlässigkeit
+ (§ 15a Abs. 5 InsO): Freiheitsstrafe bis zu einem Jahr oder Geldstrafe.
 
 ## Risiken und typische Fehler
 
@@ -312,11 +334,12 @@ nicht unter die Ausnahmen fallen.
 Bei jeder Ausgabe zu diesem Skill sind mindestens folgende Belege anzugeben (offene Quelle, vor Ausgabe live prüfen):
 
 - BGH II ZR 206/22 vom 23.07.2024 (Fortwirkende Haftung des ausgeschiedenen Geschäftsführers für Neugläubigerschäden)
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
 - BGH 5 StR 287/24 vom 27.02.2025 (Faktischer Geschäftsführer / Firmenbestattung)
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
 - BGH IV ZR 66/25 vom 19.11.2025 (D&O-Versicherung; wissentliche Pflichtverletzung erfordert positive Kenntnis pro Pflichtverletzung)
-  Bundesgerichtshof Pressemitteilung 2025 (Verifikation über bundesgerichtshof.de / dejure.org)
+ Bundesgerichtshof Pressemitteilung 2025 (Verifikation über bundesgerichtshof.de / dejure.org)
+- BGH IX ZR 229/22 vom 23.01.2025 (objektive Zahlungsunfähigkeit, objektive Rechtslage bei streitigen Forderungen, enger Irrtumstatbestand bei ungeklärter Rechtsfrage)
 - Altere BGH-Linie zur Antragspflichthaftung (Schutzgesetz, Vertrauensschaden Neugläubiger, Quotenschaden Altgläubiger) und zur Feststellung der Zahlungsunfähigkeit (Liquiditätsbilanz, Aktiva II / Passiva II): vor Ausgabe Gericht, Datum, Aktenzeichen, Randnummer in offener Quelle prüfen.
 - IDW S 11 (Beurteilung des Vorliegens von Insolvenzeröffnungsgründen), Tz. 7 ff.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
@@ -328,16 +351,16 @@ Bei jeder Ausgabe zu diesem Skill sind mindestens folgende Belege anzugeben (off
 
 Bevor losgelegt wird, klaere:
 
-1. **Rechtsform?** § 15a InsO gilt fuer GmbH, AG, UG, GmbH & Co. KG; natuerliche Personen: keine Antragspflicht, nur Antragsrecht.
-2. **Eröffnungsgrund?** ZU § 17 InsO: Frist 3 Wochen. Ueberschuldung § 19 InsO: Frist 6 Wochen. Frist-Uhr laeuft ab erstem Kenntnistag.
+1. **Rechtsform?** § 15a InsO gilt für GmbH, AG, UG, GmbH & Co. KG; natuerliche Personen: keine Antragspflicht, nur Antragsrecht.
+2. **Eröffnungsgrund?** Zahlungsunfähigkeit nach Paragraf 17 InsO: höchstens drei Wochen. Überschuldung nach Paragraf 19 InsO: höchstens sechs Wochen. Beide Höchstfristen laufen ab objektivem Eintritt; Kenntnis und Erkennbarkeit sind für Verschulden und Beweisführung relevant, verschieben aber nicht den materiellen Fristbeginn.
 3. **Faktischer Geschäftsführer?** Auch ohne formale Bestellung haftet, wer die Geschäftsführung tatsächlich ausübt — neu kalibriert durch BGH 5 StR 287/24 vom 27.02.2025 (Firmenbestattung). Hintermänner ohne Außenauftritt nicht ausgeschlossen.
 4. **Sanierungsversuch?** Antragspflicht wird durch echten Sanierungsversuch NICHT beseitigt; Frist laeuft weiter; Eigenantrag sichert Sanierungszeit.
 5. **Zahlungen nach Insolvenzreife?** § 15b InsO: Zahlungen nach Insolvenzreife von GF persoenlich erstattten; Ausnahme nur Betriebskostenentgeltsatz ohne Massebeeintraechtigung.
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Output-Template Beratungsschreiben Antragspflicht
 
-**Adressat:** Geschaeftsfuehrung [FIRMA] — Tonfall: klar-warnend mit Handlungsempfehlung
+**Adressat:** Geschäftsführung [FIRMA] — Tonfall: klar-warnend mit Handlungsempfehlung
 
 ```
 VERTRAULICH — ANWALTLICHES SCHREIBEN
@@ -355,7 +378,7 @@ Die Antragsfrist des § 15a Abs. 1 InsO laeuft am [DATUM] ab.
 
 Bei Ueberschreitung dieser Frist drohen:
 - Strafbarkeit nach § 15a Abs. 4 InsO (Freiheitsstrafe bis 3 Jahre)
-- Persoenliche Haftung nach § 15b InsO fuer alle Zahlungen nach Insolvenzreife
+- Persoenliche Haftung nach § 15b InsO für alle Zahlungen nach Insolvenzreife
 - Schadensersatzhaftung gegenueber Glaeubigern
 
 Ich empfehle die sofortige Stellung des Insolvenzantrags, idealerweise mit Antrag auf
@@ -366,20 +389,20 @@ Bitte bestaetigen Sie schriftlich, dass Sie diesen Hinweis erhalten haben.
 [UNTERSCHRIFT ANWALT]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
 
 <!-- AUDIT Mai 2026 — Update Bundle 034 —
-  Update aufgenommen: BGH II ZR 206/22 (23.07.2024) fortwirkende Haftung ausgeschiedener GF,
-  BGH 5 StR 287/24 (27.02.2025) faktischer GF,
-  BGH IV ZR 66/25 (19.11.2025) D&O-Wissentlichkeit.
-  Rechtsprechung weiterhin live prüfen: dejure.org, openjur.de, bundesgerichtshof.de.
+ Update aufgenommen: BGH II ZR 206/22 (23.07.2024) fortwirkende Haftung ausgeschiedener GF,
+ BGH 5 StR 287/24 (27.02.2025) faktischer GF,
+ BGH IV ZR 66/25 (19.11.2025) D&O-Wissentlichkeit.
+ Rechtsprechung weiterhin live prüfen: dejure.org, openjur.de, bundesgerichtshof.de.
 -->

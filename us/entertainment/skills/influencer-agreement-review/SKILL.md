@@ -5,11 +5,16 @@ description: 'Review influencer/creator agreements for content rights, exclusivi
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/influencer-agreement-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: entertainment
 language: en
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Playbook
+  path: references/playbook.md
 ---
 
 # Influencer Agreement Review

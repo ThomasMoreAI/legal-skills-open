@@ -8,7 +8,7 @@ Jurisdiction: `general` · Practice: `transportation` · Skill language varies p
 
 | Skill | What it does |
 |---|---|
-| [`CMR-Haftung – Grenzüberschreitender Straßengüterverkehr`](skills/fachanwalt-transport-speditionsrecht-cmr-haftung/) | CMR-Haftung des Frachtführers im internationalen Strassengueterverkehr prüfen. Normen: Art. 17 23 29 CMR.… |
+| [`CMR-Haftung – Grenzüberschreitender Straßengüterverkehr`](skills/fachanwalt-transport-speditionsrecht-cmr-haftung/) | Für CMR-Haftung – Grenzüberschreitender Straßengüterverkehr: ordnet Norm, Beweislast und Gegenargument… |
 
 ## Cold-start context
 

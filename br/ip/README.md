@@ -6,14 +6,18 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): intellectual
 
 Jurisdiction: `br` · Practice: `ip` · Skill language: en
 
-## Skills (4)
+## Skills (8)
 
 | Skill | What it does |
 |---|---|
-| [`/cold-start-interview`](skills/cold-start-interview-bossmann007/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first install… |
-| [`/fto-triage`](skills/fto-triage-bossmann007/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion. Use… |
+| [`/cease-desist`](skills/cease-desist-bossmann007/) | Draft uma notificação extrajudicial (modo envio) ou faça a triagem de uma recebida (modo recebimento).… |
+| [`/clearance`](skills/clearance-bossmann007/) | Primeira passada de colidência de marca — checagem de anterioridade + marcas semelhantes gerando lista… |
+| [`/cold-start-interview`](skills/cold-start-interview-bossmann007/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first… |
+| [`/fto-triage`](skills/fto-triage-bossmann007/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion.… |
 | [`/infringement-triage`](skills/infringement-triage-bossmann007/) | Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors… |
-| [`/portfolio`](skills/portfolio-bossmann007/) | Track the IP portfolio — registrations, renewals, maintenance fees, and use declarations. Use when checking… |
+| [`/oss-review`](skills/oss-review-bossmann007/) | Verificação de conformidade de licença open source para lista de dependências, uma única biblioteca, ou… |
+| [`/portfolio`](skills/portfolio-bossmann007/) | Track the IP portfolio — registrations, renewals, maintenance fees, and use declarations. Use when… |
+| [`/takedown`](skills/takedown-bossmann007/) | Draft a notificação de retirada de conteúdo (Marco Civil), triage one you received, or draft a… |
 
 ## Cold-start context
 

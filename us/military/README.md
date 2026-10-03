@@ -8,7 +8,7 @@ Jurisdiction: `us` · Practice: `military` · Skill language varies per skill (s
 
 | Skill | What it does |
 |---|---|
-| [`Military Law Summary`](skills/military-law-summary/) | Generates structured summaries of military law matters including courts-martial, UCMJ disciplinary actions,… |
+| [`Military Law Summary`](skills/military-law-summary/) | Generates structured summaries of military law matters including courts-martial, UCMJ disciplinary… |
 
 ## Cold-start context
 

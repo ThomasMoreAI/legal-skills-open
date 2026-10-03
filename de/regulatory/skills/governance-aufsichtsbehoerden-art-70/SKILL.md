@@ -1,140 +1,51 @@
 ---
 name: governance-aufsichtsbehoerden-art-70
-title: Governance und Aufsichtsbehörden — Art. 70 ff. KI-VO
-description: 'Unternehmen oder Behoerde fragt: An wen muss ich mich in Deutschland und Europa wenden wenn ich Fragen zur KI-VO-Aufsicht habe oder eine Meldepflicht erfullen muss? Art. 70 ff. KI-VO Governance. Prüfraster: nationale Aufsichtsbehoerden Art. 70 Europaeisches KI-Buero Art. 64 KI-Ausschuss Art. 65 wissenschaftliches Gremium Art. 68 Beratungsforum Art. 67 Aufgaben Befugnisse Koordination. Output: Übersicht zuständige Stellen in Deutschland und EU mit Kontakthinweisen. Abgrenzung zu marktueberwachung-meldung-vorfaelle-art-72-bis-79 (Meldepflichten) und sanktionen-art-99-bis-101 (Bußgeldrahmen).'
+title: 1. Die zuständige Aufsicht bestimmen
+description: Bestimmt die zuständige Aufsicht nach dem deutschen Marktüberwachungsrecht 2026. Trennt Bundesnetzagentur, Produkt- und Finanzaufsicht, Landesbehörden, Datenschutzaufsicht und europäische Modellaufsicht für Anfrage, Beschwerde oder Verteidigung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/governance-aufsichtsbehoerden-art-70
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
 ---
 
-# Governance und Aufsichtsbehörden — Art. 70 ff. KI-VO
+# 1. Die zuständige Aufsicht bestimmen
 
-## Zweck
+## 1. Zweck und Anwendungsfall
 
-Die KI-VO richtet eine mehrstufige Governance-Struktur ein: nationale Behörden, das Europäische KI-Büro und übergeordnete Gremien. Dieser Skill klärt, wer für was zuständig ist und wo in Deutschland der Ansprechpartner liegt.
+Erstelle einen adressierbaren Zuständigkeitsvermerk oder eine Behördenantwort. Das KI-MIG gilt seit 29. Juli 2026. Die Bundesnetzagentur ist nach Paragraf 2 Absatz 1 grundsätzlich Marktüberwachungsbehörde und nach Paragrafen 6 und 8 zentrale Anlauf- und Beschwerdestelle. Das ist keine ausschließliche Zuständigkeit für jedes System.
 
-## Nationale Ebene — Nationale Aufsichtsbehörden (Art. 70 KI-VO)
+## 2. Eingaben
 
-Jeder Mitgliedstaat benennt eine oder mehrere nationale zuständige Behörden, die für die Anwendung und Durchsetzung der KI-VO zuständig sind. Diese Behörden üben auch die Funktion der Marktüberwachungsbehörde aus.
+Lies Schreiben, Absender, Zugang, Frist, Systemzweck, Rolle, Produktsektor und Sitz aus der Akte. Stelle fest, ob eine Bundes- oder Landesstelle, ein beaufsichtigtes Finanzunternehmen oder ein Mediendienstanbieter handelt. Eine bloße Konzernbezeichnung genügt nicht.
 
-**Aufgaben der nationalen Aufsichtsbehörden:**
-- Marktüberwachung (Kontrolle von Hochrisiko-KI-Systemen auf dem Markt)
-- Überprüfung von Konformitätsbewertungen
-- Entgegennahme von Meldungen zu schwerwiegenden Vorfällen
-- Befugnis, Informationen anzufordern und Prüfungen durchzuführen
-- Befugnis, den Rückzug von Produkten vom Markt zu fordern
+## 3. Ablauf
 
-**Deutschland:** Die nationale Governance-Struktur für die KI-VO wird in Deutschland noch konkretisiert. Die Bundesnetzagentur und das Bundesamt für Sicherheit in der Informationstechnik (BSI) sind als potenzielle Anlaufstellen diskutiert worden. Für Datenschutzaspekte bleiben die Datenschutzaufsichtsbehörden (Landes- und Bundesdatenschutzbeauftragte) zuständig.
+| Prüfweiche | Rechtsgrund und Vorgehen |
+| --- | --- |
+| Sektorales Produkt nach Anhang I Abschnitt A | Paragraf 2 Absatz 2 KI-MIG: zuständige Produktmarktüberwachung identifizieren |
+| Regulierte Finanztätigkeit | Absatz 3: BaFin; Absatz 4: gegebenenfalls andere Finanzaufsicht. Direkten Tätigkeitszusammenhang belegen |
+| Bestimmte Biometrie-, Strafverfolgungs-, Grenz- oder Justizsysteme | Absatz 5 und Paragraf 4: unabhängige Marktüberwachungskammer; Vorrang des Absatzes 6 beachten |
+| Öffentliche Landesstelle | Absatz 6: landesrechtliche Zuständigkeit prüfen |
+| Mediendienst mit journalistischem oder werblichem Einsatz | Absatz 8: Landesrecht, bei Deutscher Welle Sonderregel |
+| Sonstiger Fall | Absatz 1: Bundesnetzagentur, vorbehaltlich unionsrechtlicher Sonderaufsicht |
+| Modell oder System unter EU-Sonderaufsicht | Artikel 75 bis 75c und 88 ff. gesondert prüfen |
 
-## EU-Ebene — Europäisches KI-Büro (Art. 64 KI-VO)
+Notifizierende Stellen nach Paragraf 3 sind nicht die Marktüberwachung. Die zentrale Beschwerdestelle kann weiterleiten; eine Weiterleitung beseitigt keine Rechtsbehelfsfrist. Für öffentliche Bundesfinanzverwaltung außerdem Paragraf 2 Absatz 7 beachten.
 
-Das Europäische KI-Büro wurde innerhalb der Kommission eingerichtet (nicht als separate Agentur). Es ist zuständig für:
-- Aufsicht über GPAI-Modelle (einschließlich solcher mit systemischem Risiko)
-- Koordination der nationalen Aufsichtsbehörden
-- Entwicklung und Überwachung von Verhaltenskodizes
-- Durchführung von Untersuchungen bei GPAI-Modell-Anbietern
-- Erlass von Beschlüssen bei Verstößen durch GPAI-Anbieter
+Bei Doppelsachverhalten Datenschutzaufsicht nach Artikeln 51 ff. der Datenschutz-Grundverordnung separat zuordnen. Eine Datenschutzmeldung erfüllt nicht automatisch eine technische Vorfallmeldung. Vor einer Antwort Befugnis, Verfahrensstatus, verlangten Zeitraum, vertrauliche Informationen und Selbstbelastung prüfen. Tatsachen und Rechtsposition trennen; weder reflexhaft alles übersenden noch jede Mitwirkung verweigern.
 
-**Besondere Befugnis:** Für GPAI-Modelle mit systemischem Risiko ist das Europäische KI-Büro die primäre Aufsichtsbehörde — nationale Behörden haben insoweit eine sekundäre Rolle.
+## 4. Quellenpflicht
 
-## EU-Ebene — KI-Ausschuss (Art. 65 KI-VO)
+[Rechtsstandkarte, Abschnitt 1.3](../../references/digitaler-omnibus-2026.md) und [Zitierweise](../../references/zitierweise.md). Kontaktadresse der nach Gesetz zuständigen Stelle aktuell verifizieren. Keine erfundene Geschäftsnummer oder allein aus Pressemitteilungen abgeleitete Befugnis.
 
-Der KI-Ausschuss setzt sich aus Vertretern der nationalen Aufsichtsbehörden zusammen. Er hat beratende Funktion:
-- Unterstützung der kohärenten Anwendung der KI-VO in der EU
-- Empfehlungen und Stellungnahmen
-- Koordination bei grenzüberschreitenden Fällen
+## 5. Ausgabeformat
 
-## EU-Ebene — Wissenschaftliches Gremium (Art. 68 KI-VO)
+Vermerk mit Hauptadressat, Rechtsgrund, sektoralen Ausnahmen, parallelem Verfahren und Frist; bei Auftrag zusätzlich vollständig ausformulierte Antwort oder Beschwerde mit Anlagenverzeichnis. Times New Roman 11 pt, dezimale Gliederung. Unklarheiten benennen; Versand und Offenlegung nur nach Freigabe.
 
-Das wissenschaftliche Gremium besteht aus unabhängigen Sachverständigen. Es unterstützt das Europäische KI-Büro bei der Bewertung systemischer Risiken von GPAI-Modellen und berät bei technischen Fragen.
+## 6. Beispiele
 
-## EU-Ebene — Beratungsforum (Art. 67 KI-VO)
-
-Das Beratungsforum setzt sich aus Vertretern der Industrie, Zivilgesellschaft, Akademie und anderen Interessengruppen zusammen. Es berät den KI-Ausschuss und die Kommission.
-
-## Praktische Bedeutung für Unternehmen
-
-**Wer ist Ansprechpartner bei Anfragen?**
-- Bei Marktüberwachungsfragen → nationale Aufsichtsbehörde des Mitgliedstaats, in dem Sie tätig sind
-- Bei GPAI-Modell-Fragen → Europäisches KI-Büro
-- Bei Datenschutzfragen im KI-Kontext → nationale Datenschutzaufsichtsbehörde
-
-**Was tun bei behördlichen Anfragen?**
-- Unverzüglich kooperieren (Art. 78 KI-VO: Vertraulichkeit der Informationen beachten)
-- Anwalt hinzuziehen bei Verdacht auf Bußgeldverfahren (`mandatsabbruch-empfehlung-komplexe-faelle`)
-- Unterlagen bereitlegen: technische Dokumentation, Konformitätserklärung, Protokolle
-
----
-
-Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-- Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
-- Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
-- Art. 26 KI-VO — Betreiberpflichten
-- Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Triage zu Beginn
-1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
-2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
-3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
-4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Governance und Aufsichtsbehoerden-Anforderungen Art. 70 KI-VO pruefen | Pruefergebnis nach Schema; Template unten |
-| Variante A — Behörde hat bereits Anfrage gestellt | Antwort-Vorlage statt Pruefprotokoll; Fristen beachten |
-| Variante B — System kein Hochrisiko keine Art. 70 Pflicht | Kurzdokumentation der Nicht-Anwendbarkeit |
-| Variante C — Mehrere Jurisdiktionen EU und national | Separate Pruefung pro Mitgliedstaat; Koordination erforderlich |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
-```
-PRUEFERGEBNIS — GOVERNANCE AUFSICHTSBEHOERDEN ART 70
-[DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
-[AKTENZEICHEN]
-
-Gepruefte Norm(en): [Art. 70 Rn. 5]
-
-Ergebnis:
-[ ] Anforderung erfuellt
-[ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
-[ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
-
-Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
-Naechster Skill: [FOLGE-SKILL]
-Geprueft: [NAME], [DATUM]
-```
-
---- vor Versand klaeren ---
-1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
-
-Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
-
-Schlussabsatz Variante B (formal-streng):
-Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+Ein Bonitätssystem einer beaufsichtigten Bank kann unmittelbar eine regulierte Finanztätigkeit betreffen. Ihre Kantinenplanung fällt nicht allein wegen des Eigentümers in denselben Zuständigkeitspfad. Bei einem Krankenhaus des Landes sind Trägerschaft, Produktbezug und Landeszuständigkeit getrennt zu prüfen.

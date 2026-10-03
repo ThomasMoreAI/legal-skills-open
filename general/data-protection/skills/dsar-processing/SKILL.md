@@ -2,14 +2,19 @@
 name: dsar-processing
 title: Processing Data Subject Access Requests
 description: Guides AI agents through the complete GDPR Data Subject Access Request (DSAR) workflow under Article 15, including identity verification, 30-day deadline calculation with extensions, response formatting, exemptions, and fee provisions. Activate when handling DSAR, access request, subject access, Art. 15, or SAR queries.
-author: onfire7777
-author_url: https://github.com/onfire7777/universal-ai-skills-library/tree/main/skills/dsar-processing
-license: MIT
-version: 0.1.0
+author: mukul975
+author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/dsar-processing
+license: Apache-2.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Processing Data Subject Access Requests

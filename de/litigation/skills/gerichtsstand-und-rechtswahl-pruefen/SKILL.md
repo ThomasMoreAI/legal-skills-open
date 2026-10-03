@@ -1,20 +1,33 @@
 ---
 name: gerichtsstand-und-rechtswahl-pruefen
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu gerichtsstand und rechtswahl pruefen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Gerichtsstand Und Rechtswahl Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu ei'
+description: 'Für Gerichtsstand und Rechtswahl Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/gerichtsstand-und-rechtswahl-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
+# Gerichtsstand Und Rechtswahl Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FAO § 5 36 Monate Praxis, CISG Art. 39 angemessene Frist Mängelrüge, Brüssel Ia Art. 35 einstweiliger Rechtsschutz, NYÜ Art. V: Anerkennungsversagungsgründe, keine dort geregelte allgemeine Dreijahresfrist.
+- Tragende Normen verifizieren: FAO § 14r, Rom I (VO 593/2008), Rom II (VO 864/2007), Brüssel Ia (VO 1215/2012), CISG, UNCITRAL Model Law, INCOTERMS 2020, IPR-G, AWG, AWV, EU-Sanktionsverordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Gerichtsstand Und Rechtswahl Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
 ## Mandantenfragen beim Kaltstart
 
-1. Haben beide Parteien ihren Sitz in EU-Mitgliedstaaten (→ Brüssel Ia VO) oder ist eine Partei in der Schweiz/Norwegen/Island (→ Lugano) oder einem Drittstaat (→ §§ 12 ff. ZPO)?
+1. Welches Gericht ist vereinbart und wo haben die Parteien Wohnsitz beziehungsweise Sitz? Eine Vereinbarung zugunsten eines Gerichts eines EU-Mitgliedstaats nach Artikel 25 Brüssel-Ia-VO unabhängig vom Wohnsitz der Parteien prüfen; Drittstaatenbezug schließt diesen Prüfweg nicht aus. Danach allgemeine Zuständigkeit, Schutz- und ausschließliche Zuständigkeiten sowie gegebenenfalls Lugano oder nationales Recht zuordnen.
 2. Enthält der Vertrag eine Gerichtsstandsklausel nach Art. 25 Brüssel Ia – ist sie schriftlich, bestimmt und wirksam vereinbart?
 3. Gibt es eine Schiedsklausel – welche Institution (ICC, LCIA, DIS, UNCITRAL), welcher Sitz, welches Schiedsrecht?
 4. Soll deutsches Recht oder das Recht eines anderen Staates angewendet werden – wurde CISG ausdrücklich abbedungen (Art. 6 CISG)?
@@ -22,13 +35,17 @@ language: de
 6. Handelt es sich um eine deliktische oder außervertragliche Streitigkeit – gilt Rom II VO?
 7. Ist eine der Parteien Verbraucher oder Arbeitnehmer – greifen Sonderschutzmechanismen Art. 17 ff. bzw. Art. 21 ff. Brüssel Ia VO?
 8. Handelt es sich um einen neuen Vertragsentwurf oder einen laufenden Streit – ist präventive Klauselgestaltung oder prozessuale Zuständigkeitsprüfung gefragt?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+[EuGH, Urteil vom 27.02.2025 – Az. C-537/23, Società Italiana Lastre](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:62023CJ0537), Rn. 57–67: Asymmetrische Gerichtsstandsklauseln nach Artikel 25 Brüssel-Ia-VO sind nicht allein wegen der Ungleichheit unwirksam. Gerichte müssen in EU-/Lugano-Staaten liegen und objektiv hinreichend bestimmbar sein; Schutzregeln und ausschließliche Zuständigkeiten bleiben zwingend. Klauselwortlaut nachfordern, keine weltweite Wahl beliebiger Gerichte freigeben.
+
+[BGH, Beschluss vom 16.07.2026 – Az. I ZB 107/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/2025/I_ZB_107-25.pdf?__blob=publicationFile&v=1), Rn. 36–43: Bei ausländischem Schiedsspruch internationale Zuständigkeit nach Paragraf 1025 Absatz 4 ZPO und örtliche Zuständigkeit getrennt bestimmen. Inländisches Staatsvermögen kann ein Rechtsschutzbedürfnis tragen, auch wenn Vollstreckungsimmunität besteht. Titelanerkennung erlaubt noch keinen Zugriff auf immunes Vermögen; Vermögensort und konkrete Vollstreckungsmaßnahme gesondert prüfen.
 
 ## Rechtsgrundlagen
 
 | Norm | Inhalt |
 |------|--------|
-| Brüssel Ia VO Art. 25 | Gerichtsstandsvereinbarung: schriftlich, bestimmt, ausschließlich (Vermutung); asymmetrische Klauseln wirksam |
+| Brüssel Ia VO Art. 25 | Gerichtsstandsvereinbarung: schriftlich, bestimmt, ausschließlich (Vermutung); asymmetrische Klauseln nur unter den Voraussetzungen von C-537/23 wirksam |
 | Brüssel Ia VO Art. 7 Nr. 1 | Besonderer Gerichtsstand Erfüllungsort: Warenkauf → Lieferort; Dienstleistung → Erbringungsort |
 | Brüssel Ia VO Art. 7 Nr. 2 | Delikt: Handlungs- oder Erfolgsort (Klägerwahlrecht) |
 | Brüssel Ia VO Art. 17–23 | Verbraucherschutz-Gerichtsstände: Klage Verbraucher am Wohnsitz; gegen Verbraucher nur Wohnsitz |
@@ -53,13 +70,12 @@ language: de
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema
 
 | Schritt | Prüfpunkt | Norm | Rechtsfolge |
 |---------|-----------|------|-------------|
-| 1 | Personeller Anwendungsbereich: Beklagter Sitz EU? | Brüssel Ia Art. 4 | Brüssel Ia gilt; sonst Lugano oder §§ 12 ff. ZPO |
+| 1 | Anwendungsbereich, vereinbartes Gericht sowie Wohnsitz/Sitz feststellen | Brüssel Ia Art. 4, 6, 24, 25 | EU-Gerichtsstandsvereinbarung und besondere Schutz-/ausschließliche Zuständigkeiten vor einem Verweis auf Lugano oder nationales Recht prüfen; Drittstaatensitz allein schließt Artikel 25 nicht aus |
 | 2 | Ausschließliche Gerichtsstände Art. 24 prüfen (Grundstücke, Gesellschaften, Immaterialgüter) | Art. 24 Brüssel Ia | Verdrängen alle anderen; kein Abweichen möglich |
 | 3 | Gerichtsstandsklausel Art. 25 prüfen: Form, Bestimmtheit, Ausschließlichkeit | Art. 25 Brüssel Ia | Wirksame Klausel = derogierter/prorogierter Gerichtsstand |
 | 4 | Schiedsklausel § 1029 ZPO prüfen: Schriftform § 1031 ZPO, Schiedsfähigkeit § 1030 ZPO | §§ 1029–1031 ZPO | Schiedsgericht hat Vorrang; staatl. Gericht erklärt sich unzuständig § 1032 ZPO |
@@ -72,17 +88,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Gerichtsstand und Rechtswahl pruefen/formulieren | Gutachten Bruessel Ia / Rom I; Template unten |
-| Variante A — Kein Vertrag vorhanden | Deliktisches Anknuepfung nach Rom II Art. 4 ff. pruefen |
+| Standard — Gerichtsstand und Rechtswahl prüfen/formulieren | Gutachten Bruessel Ia / Rom I; Template unten |
+| Variante A — Kein Vertrag vorhanden | Deliktisches Anknuepfung nach Rom II Art. 4 ff. prüfen |
 | Variante B — Schiedsklausel im Vertrag | Bruessel Ia nicht anwendbar; §§ 1025 ff. ZPO einschlaegig |
 | Variante C — Drittstaaten ohne Bruessel Ia | Hague Judgments Convention / nationales IPR; HAVÜ 2019 |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatz-Bausteine
 
@@ -92,13 +107,13 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 Gerichtsstand und anwendbares Recht
 
 1. Für alle Streitigkeiten aus oder im Zusammenhang mit diesem Vertrag,
-   einschließlich Streitigkeiten über dessen Gültigkeit, Auslegung oder
-   Beendigung, sind ausschließlich die Gerichte in [München/Frankfurt/Hamburg]
-   zuständig (§ 38 ZPO; Art. 25 Brüssel Ia VO).
+ einschließlich Streitigkeiten über dessen Gültigkeit, Auslegung oder
+ Beendigung, sind ausschließlich die Gerichte in [München/Frankfurt/Hamburg]
+ zuständig (§ 38 ZPO; Art. 25 Brüssel Ia VO).
 
 2. Dieser Vertrag unterliegt dem Recht der Bundesrepublik Deutschland
-   unter Ausschluss der Kollisionsnormen des Internationalen Privatrechts
-   und unter ausdrücklichem Ausschluss des UN-Kaufrechts (CISG).
+ unter Ausschluss der Kollisionsnormen des Internationalen Privatrechts
+ und unter ausdrücklichem Ausschluss des UN-Kaufrechts (CISG).
 ```
 
 ### Schiedsklausel (ICC)
@@ -124,14 +139,14 @@ Klageerwiderung – Unzuständigkeitsrüge
 Die Beklagte rügt die internationale Zuständigkeit des angerufenen Gerichts.
 
 I. Der Vertrag vom [Datum] (Anlage B1) enthält in Ziffer [X] eine wirksame
-   Schiedsvereinbarung i.S.v. § 1029 Abs. 1 ZPO zugunsten der ICC (Paris),
-   Schiedsort [Ort].
+ Schiedsvereinbarung i.S.v. § 1029 Abs. 1 ZPO zugunsten der ICC (Paris),
+ Schiedsort [Ort].
 
 II. Die Schiedsvereinbarung ist formwirksam gemäß § 1031 ZPO (unterzeichnetes
-    Vertragsdokument; alternativ per E-Mail dokumentiert Anlage B2).
+ Vertragsdokument; alternativ per E-Mail dokumentiert Anlage B2).
 
 III. Gemäß § 1032 Abs. 1 ZPO ist das staatliche Gericht auf Rüge der Beklagten
-     für unzuständig zu erklären.
+ für unzuständig zu erklären.
 
 Antrag: Das Gericht möge die Klage als unzulässig abweisen.
 ```
@@ -156,7 +171,7 @@ sowie die Bescheinigung nach Art. 53 Brüssel Ia (Anlage 1).
 Wir beantragen: Zwangsvollstreckung aus diesem Titel anzuordnen.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -186,11 +201,8 @@ Wir beantragen: Zwangsvollstreckung aus diesem Titel anzuordnen.
 
 | Gegenargument | Rechtliche Grundlage | Reaktion |
 |---------------|---------------------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Schiedsklausel unwirksam (Überraschungsklausel AGB) | § 305c BGB, § 1029 ZPO | Im B2B gilt AGB-Kontrolle eingeschränkt; Klausel nicht überraschend bei handelsüblichen Vertragsbedingungen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Ordre-public-Einwand gegen ausländ. Urteil | Art. 45 Abs. 1 lit. a Brüssel Ia, § 328 Abs. 1 Nr. 4 ZPO | Nur bei Kernverstoß gegen dt. Grundwertungen; bloße Rechtsabweichung genügt nicht |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Eingriffsnormen vereiteln gewähltes Recht | Art. 9 Rom I | Auftrag an Vertragspartner: Eingriffsnormen (z.B. Embargorecht, Wettbewerbsrecht) ausdrücklich im Vertrag adressieren |
 
 ## Streitwert und Kosten
@@ -203,7 +215,7 @@ DIS-Verfahren: günstigere Kostenstruktur als ICC; Verwaltungsgebühr nach § 7 
 
 Vollstreckung Brüssel Ia: Gerichtskosten gering (Anlagekosten ca. 200–500 EUR); Hauptaufwand: beglaubigte Übersetzungen, Rechtsanwaltshonorar.
 
-Vollstreckung § 328 ZPO (Nicht-EU): Anerkennungsklage erforderlich; volle Gerichts- und Anwaltskosten nach Streitwert.
+Vollstreckung eines ausländischen Urteils in Deutschland: Zuerst vorrangiges EU- oder Übereinkommensrecht bestimmen. Soweit autonomes deutsches Recht gilt, Anerkennungshindernisse nach [Paragraf 328 ZPO](https://www.gesetze-im-internet.de/zpo/__328.html) von der Klage auf Vollstreckungsurteil nach [Paragrafen 722](https://www.gesetze-im-internet.de/zpo/__722.html) und [723 ZPO](https://www.gesetze-im-internet.de/zpo/__723.html) trennen. Keine pauschal notwendige Anerkennungsklage und keine erneute Sachprüfung behaupten; Kosten nach dem tatsächlich erforderlichen Verfahren berechnen.
 
 ## Strategische Empfehlung
 
@@ -212,7 +224,7 @@ Vollstreckung § 328 ZPO (Nicht-EU): Anerkennungsklage erforderlich; volle Geric
 | Neuer B2B-Vertrag, internationaler Partner | Art. 25 Brüssel Ia-Klausel mit dt. Gerichtsstand + CISG-Ausschluss; alternativ DIS-Schiedsklausel |
 | Hochwertiger Vertrag mit US-Partner | ICC-Schiedsklausel; Sitz Frankfurt oder Zürich; Englisch als Schiedssprache; kein dt. Staatsgerichtsstand |
 | Vollstreckung eines dt. Urteils in Frankreich | Art. 39 Brüssel Ia direkt; Bescheinigung Art. 53 beim Ausgangsgericht beantragen |
-| Vollstreckung in USA/Schweiz/UK | § 328 ZPO-Anerkennungsklage; Gegenseitigkeit und Ordre-public prüfen |
+| Vollstreckung eines deutschen Urteils in USA/Schweiz/UK | Anerkennungs- und Vollstreckungsrecht des Zielstaats sowie anwendbare Übereinkommen prüfen; Paragraf 328 ZPO regelt nicht die Anerkennung deutscher Urteile im Ausland |
 | Schiedseinrede vergessen | § 1032 ZPO: Einrede vor erster mündlicher Verhandlung; sonst Rügerecht verloren |
 | Verbraucher-Gegenpartei | Gerichtsstandsklausel unwirksam; Verbraucher klagt am Wohnsitz; Schiedsklausel nach § 1031 Abs. 5 eigenhändig unterschreiben lassen |
 | CISG unklar | Amendment zum Vertrag: ausdrückliche CISG-Ausschlussklausel "The CISG shall not apply" |
@@ -228,23 +240,22 @@ Vollstreckung § 328 ZPO (Nicht-EU): Anerkennungsklage erforderlich; volle Geric
 - Brüssel Ia VO (EU) Nr. 1215/2012, ABl. L 351/1
 - Rom I VO (EG) Nr. 593/2008, ABl. L 177/6
 - Rom II VO (EG) Nr. 864/2007, ABl. L 199/40
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Geimer, Internationales Zivilprozessrecht, 8. Aufl. 2020
 - Schack, Internationales Zivilverfahrensrecht, 7. Aufl. 2021
 - New Yorker Übereinkommen v. 10.06.1958, BGBl. 1961 II S. 121
 - ZPO §§ 1029 ff., § 328
 
-<!-- AUDIT 27.05.2026: BGH VII ZR 167/13 (12.06.2014) NOT_FOUND auf dejure.org – ersetzt durch BGH VII ZR 139/17 (26.04.2018), NJW 2019, 76, verifiziert auf dejure.org. Kernaussage: Erfüllungsort Dienstleistung Art. 7 Nr. 1 Buchst. b Brüssel Ia. -->
+
 
 ## Vertiefung: Triage und Output-Template Gerichtsstand
 
 ### Triage — Bevor losgelegt wird, klaere:
 
-1. Gibt es Gerichtsstandsklausel im Vertrag (Art. 25 Bruessel Ia)? → Schriftform, ausschliesslich?
-2. Haben beide Parteien EU-Sitz? → Bruessel Ia; sonst: nationales IPR oder Hague Convention
+1. Gibt es Gerichtsstandsklausel im Vertrag (Art. 25 Bruessel Ia)? → Schriftform, ausschließlich?
+2. Wohnsitz/Sitz für den allgemeinen Gerichtsstand bestimmen; Artikel 25 bei vereinbartem EU-Gericht sowie Schutz- und ausschließliche Zuständigkeiten vor einem Rückgriff auf nationales Recht oder ein Haager Übereinkommen prüfen. Kein Ausschluss allein wegen Drittstaatensitz.
 3. Wurde Schiedsklausel vereinbart? → §§ 1025 ff. ZPO; nicht Bruessel Ia
 4. Verbraucher oder Arbeitnehmer beteiligt? → Art. 17-22 Bruessel Ia Schutzgerichtsstand
-5. Welches Recht anwendbar? → Unabhaengig von Zustaendigkeit: Rom I / Rom II
+5. Welches Recht anwendbar? → Unabhaengig von Zuständigkeit: Rom I / Rom II
 
 ### Output-Template Gerichtsstand- und Rechtswahlgutachten
 **Adressat:** Mandant oder Gericht — Tonfall: praezis-juristisch
@@ -254,27 +265,29 @@ GERICHTSSTAND- UND RECHTSWAHLGUTACHTEN
 ======================================
 Vertrag: [BEZEICHNUNG] / [DATUM]
 Parteien:
-  Klaeger: [NAME, SITZ: EU / NICHT-EU]
-  Beklagter: [NAME, SITZ: EU / NICHT-EU]
+ Klaeger: [NAME, SITZ: EU / NICHT-EU]
+ Beklagter: [NAME, SITZ: EU / NICHT-EU]
 
 I. INTERNATIONALE ZUSTAENDIGKEIT
 ---------------------------------
 1. Gerichtsstandsklausel (Art. 25 Bruessel Ia):
-   [JA — [GERICHT, ORT] / NEIN]
+ [JA — [GERICHT, ORT] / NEIN]
 2. Beklagter in EU: [JA: Art. 4 Bruessel Ia / NEIN: nationales Recht]
 3. Besonderer Gerichtsstand (Art. 7):
-   Vertrag: Erfuellungsort = [ORT] → Gerichtsstand [GERICHT]
-   Delikt: Schadensort = [ORT] → Gerichtsstand [GERICHT]
+ Vertrag: Erfuellungsort = [ORT] → Gerichtsstand [GERICHT]
+ Delikt: Schadensort = [ORT] → Gerichtsstand [GERICHT]
 4. Empfehlung Gerichtsstand: [GERICHT, ORT]
 
 II. ANWENDBARES RECHT
 ----------------------
 1. Rechtswahl (Art. 3 Rom I):
-   [JA — [RECHTSORDNUNG] / NEIN]
+ [JA — [RECHTSORDNUNG] / NEIN]
 2. Objektive Anknuepfung (Art. 4 Rom I):
-   Charakteristische Leistung: [VERKAEUFER/DIENSTLEISTER, SITZ: LAND]
-   → Anwendbares Recht: [RECHTSORDNUNG]
+ Charakteristische Leistung: [VERKAEUFER/DIENSTLEISTER, SITZ: LAND]
+ → Anwendbares Recht: [RECHTSORDNUNG]
 3. CISG: [ANWENDBAR / AUSGESCHLOSSEN]
 4. Ergebnis: Anwendbares Recht: [RECHTSORDNUNG]
 ======================================
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

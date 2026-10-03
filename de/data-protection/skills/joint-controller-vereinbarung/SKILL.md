@@ -1,11 +1,11 @@
 ---
 name: joint-controller-vereinbarung
 title: Gemeinsame Verantwortlichkeit Art. 26 DSGVO
-description: 'Joint-Controller-Vereinbarung nach Art. 26 DSGVO erstellen wenn zwei oder mehr Verantwortliche gemeinsam entscheiden. Art. 26 DSGVO Gemeinsame Verantwortlichkeit. Prüfraster: gemeinsame Zwecke und Mittel Aufgabenverteilung Anlaufstelle Betroffenenrechte interne Haftungsverteilung. Output: Vereinbarungsentwurf Prüfprotokoll. Abgrenzung: nicht für Auftragsverarbeitung (avv-prüfung).'
+description: 'Für Gemeinsame Verantwortlichkeit Art. 26 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/joint-controller-vereinbarung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Gemeinsame Verantwortlichkeit Art. 26 DSGVO
-
-## Zweck
-
-Bei vielen Konstellationen sind mehrere Akteure gemeinsam für eine Verarbeitung verantwortlich — das wird oft übersehen. Folge ist eine Pflicht-Vereinbarung und gesamtschuldnerische Haftung. Dieses Skill prüft Konstellationen und entwirft Vereinbarungen.
 
 ## Eingaben
 
@@ -292,7 +288,7 @@ Die wesentlichen Inhalte dieser Vereinbarung werden
 den Betroffenen wie folgt zur Verfügung gestellt:
 
 - Veröffentlichung in der Datenschutz-Erklärung
-  V1 und V2
+ V1 und V2
 - Hinweis im Vertrags-Schluss
 - Auf Verlangen Vorlage in Volltext
 
@@ -390,17 +386,20 @@ Anhang 3: Innenhaftungs-Quote
 - Innenhaftungs-Klausel
 - Frist im Fristenbuch (Vertragsschluss vor Verarbeitung)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - DSGVO Art. 26 28 82 83
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EDSA Guidelines 7/2020 zu Verantwortliche und Auftragsverarbeiter
 - BfDI-Informationen
 - DSK Kurzpapier
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -428,12 +427,12 @@ Parteien:
 [BEIDE PARTEIEN ENTSCHEIDEN ÜBER: ZWECKE / MITTEL]
 
 § 3 Aufgabenverteilung
-| Aufgabe                        | Partei A | Partei B |
+| Aufgabe | Partei A | Partei B |
 |--------------------------------|----------|----------|
-| Rechtsgrundlagen sicherstellen |          |          |
-| Betroffenenrechte wahrnehmen   |          |          |
-| Datenpannen melden Art. 33     |          |          |
-| Technische Sicherheit Art. 32  |          |          |
+| Rechtsgrundlagen sicherstellen | | |
+| Betroffenenrechte wahrnehmen | | |
+| Datenpannen melden Art. 33 | | |
+| Technische Sicherheit Art. 32 | | |
 
 § 4 Kontaktstelle für Betroffene (Art. 26 Abs. 1 Satz 3 DSGVO)
 Kontaktstelle: [PARTEI X, ADRESSE, E-MAIL]
@@ -445,3 +444,5 @@ Gesamtschuldnerisch; interner Regressausgleich nach Verschuldensanteilen.
 Das Wesentliche dieser Vereinbarung wird Betroffenen gemäß Art. 26 Abs. 2 DSGVO
 über [DATENSCHUTZERKLAERUNG / DIREKTINFORMATION] zugänglich gemacht.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: annullierung-oder-verspaetung-einordnen
 title: Annullierung Verspätung oder Nichtbeförderung einordnen
-description: Workflow-Skill zu annullierung oder verspaetung einordnen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Annullierung Verspätung oder Nichtbeförderung einordnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/annullierung-oder-verspaetung-einordnen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: aviation
@@ -78,32 +78,44 @@ Wenn der **erste Flug innerhalb der EU mit derselben Buchung** verspätet ist un
 
 ```
 1. Hat der geplante Flug exakt wie geplant stattgefunden?
-   - Ja → keine Annullierung; Verspätung prüfen (Schritt 2)
-   - Nein → Schritt 3
+ - Ja → keine Annullierung; Verspätung prüfen (Schritt 2)
+ - Nein → Schritt 3
 
 2. Welche Ankunftsverspätung am Endziel?
-   - 0 bis unter 3 Stunden → keinen Ausgleichsanspruch nach VO 261;
-     Betreuungsleistungen Art. 9 ggf. bei Abflugverspätung
-   - 3 Stunden oder mehr → Ausgleichsanspruch wie bei Annullierung
-     (EuGH Sturgeon)
+ - 0 bis unter 3 Stunden → keinen Ausgleichsanspruch nach VO 261;
+ Betreuungsleistungen Art. 9 ggf. bei Abflugverspätung
+ - 3 Stunden oder mehr → Ausgleichsanspruch wie bei Annullierung
+ (EuGH Sturgeon)
 
 3. Wie wurde der Flug geändert?
-   - komplett ausgefallen → Annullierung
-   - durchgeführt aber gravierend abweichend (Datum Flugnummer
-     Zeitpunkt mehr als drei Stunden) → Annullierung
-   - durchgeführt mit geringerer Verspätung → Verspätung prüfen
-   - Passagier wurde am Gate abgewiesen trotz gültigem Ticket
-     → Nichtbefoerderung
+ - komplett ausgefallen → Annullierung
+ - durchgeführt aber gravierend abweichend (Datum Flugnummer
+ Zeitpunkt mehr als drei Stunden) → Annullierung
+ - durchgeführt mit geringerer Verspätung → Verspätung prüfen
+ - Passagier wurde am Gate abgewiesen trotz gültigem Ticket
+ → Nichtbefoerderung
 
 4. Stehen außergewöhnliche Umstaende entgegen?
-   → Skill `ausnahmen-aussergewoehnliche-umstaende-pruefen`
+ → Skill `ausnahmen-aussergewoehnliche-umstaende-pruefen`
 ```
 
 ## Ausgabe
 
 - `einordnung.md` mit:
-  - rechtlicher Kategorie (Annullierung / Verspätung / Nichtbeförderung)
-  - Begründung mit Verweis auf Norm und EuGH-Rechtsprechung
-  - Höhe der voraussichtlichen Ausgleichszahlung (verweist auf Skill `distanz-und-ausgleich-berechnen`)
-  - offenen Fragen zur Klärung mit dem Mandanten
+ - rechtlicher Kategorie (Annullierung / Verspätung / Nichtbeförderung)
+ - Begründung mit Verweis auf Norm und EuGH-Rechtsprechung
+ - Höhe der voraussichtlichen Ausgleichszahlung (verweist auf Skill `distanz-und-ausgleich-berechnen`)
+ - offenen Fragen zur Klärung mit dem Mandanten
 - Hinweis auf Skill `ausnahmen-aussergewoehnliche-umstaende-pruefen` zur Prüfung der Ausnahmen.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- Art. 5 VO 261/2004
+- Art. 7 VO 261/2004
+- EuGH C-83/10 (Sousa Rodríguez)
+- Art. 6 VO 261/2004
+- Art. 7 VO 261/2004 (analog ab 3h)
+- EuGH C-402/07 (Sturgeon)
+- EuGH C-581/10 (Nelson)

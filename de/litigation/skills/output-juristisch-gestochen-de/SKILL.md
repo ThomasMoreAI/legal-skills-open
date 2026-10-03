@@ -1,11 +1,11 @@
 ---
 name: output-juristisch-gestochen-de
 title: 'Output: Juristisch gestochen (Deutsch)'
-description: 'Erzeugt Ausgaben im juristischen Schriftsatzstil auf Deutsch: Antrag-Begründung-Beweismittel-Struktur, Subsumtionsdarstellung im Vier-Schritt, Zitierweise nach BGH-Standard, Rubrum, Tenor. Für Schriftsaetze, Klageschriften, Widersprueche und Beschwerden.'
+description: 'Für Output: Juristisch gestochen (Deutsch): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/output-juristisch-gestochen-de
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -20,14 +20,6 @@ language: de
 2. Besteht Anwaltszwang? (LG, OLG, BGH: § 78 ZPO)
 3. Welche Klageart ist einschlägig? (Leistungs- / Feststellungs- / Gestaltungsklage)
 4. Sind Beweisangebote bereits vorhanden oder noch zu beschaffen?
-
-## Aktuelle Rechtsprechung zum Schriftsatzstil
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zweck
-
-Dieser Skill formatiert das Subsumtionsergebnis als juristisch-formalen Text im deutschen Schriftsatzstil. Er dient als Grundlage für Schriftsätze, Klageschriften, Widersprüche, Beschwerden und anwaltliche Stellungnahmen. Der erzeugte Text ist ein Entwurf — er muss von einem Rechtsanwalt geprüft, ergänzt und verantwortet werden.
 
 ## Struktur des Ausgabedokuments
 
@@ -88,3 +80,5 @@ Am Kopf jedes erzeugten Schriftsatzentwurfs steht:
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

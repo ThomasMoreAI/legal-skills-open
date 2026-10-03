@@ -1,0 +1,52 @@
+---
+name: red-team-modernisierung
+title: 'Red Team: Grenzen der Modernisierung des römischen Rechts'
+description: 'Für Red Team: Grenzen der Modernisierung des römischen Rechts: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/red-team-modernisierung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Red Team: Grenzen der Modernisierung des römischen Rechts
+
+## Worum es geht
+
+Die Modernisierung des röm. Rechts für aktuelle Rechtsfragen (Pandektistik, Vertragsrecht, digitale Rechte) birgt Risiken: selektive Zitation (Texte aus Kontext gerissen), anachronistische Begriffe (actio als Anspruch), Überbetonung der Kontinuität (das BGB hat vieles verändert), Unterschlagung historischer Entwicklungen (Sklaverei, Statusrecht) und falsche Universalisierung röm. Kategorien für andere Rechtsordnungen.
+
+## Kernquellen
+
+- **D. 1.3.12 (Iulianus)**: Analogy - aber eingeschränkt
+- **D. 50.17.1 (Paulus)**: Regula ist kein Gesetz
+- **Const. Tanta § 21**: Auslegungsverbot
+- **Gaius Inst. 2.12-17**: res mancipi - historisch überholt
+- **BGB § 903**: Eigentum - verfassungsrechtlich eingebunden (Art. 14 GG)
+- **Art. 14 GG**: Sozialbindung des Eigentums (kein röm. Vorbild)
+
+## Schlüsselbegriffe
+
+- selektive Zitation: nur passende Fragmente verwenden
+- anachronismus: mod. Konzepte in röm. Recht einlesen
+- Überbetonung der Kontinuität: BGB ≠ röm. Recht
+- Unterschlagung: Sklaverei und Statusrecht als Fundament ignorieren
+- Universalisierung: röm. Recht für alle Rechtsordnungen ungeeignet
+- kritische Romanistik: reflektierte Nutzung der Quellen
+
+## Typische Streitfragen / Forschungsfragen
+
+1. Wie weit trägt die Analogie röm.-rechtl. Kategorien für digitale Güter?
+2. Persönlichkeitsrecht: röm. iniuria vs. modernes allg. Persönlichkeitsrecht
+3. Eigentumssozialbindung: keine röm. Quelle
+4. Globalisierung: Kann röm. Recht universales Vorbild sein?
+5. Post-koloniale Perspektive: Weshalb war röm. Recht koloniales Recht?
+
+## Methodik
+
+- Kritische Lektüre: Quellen gegen ihre Grenzen lesen
+- Vergleich: röm. Quelle vs. mod. Norm
+- Interdisziplinär: Rechtsgeschichte + Rechtsphilosophie
+- Kaser RP I Einleitung; Schulz History of Roman Legal Science

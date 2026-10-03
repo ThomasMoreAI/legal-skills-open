@@ -1,22 +1,31 @@
 ---
 name: sammelantrag-gap-checkliste
-title: Sammelantrag GAP — Checkliste
-description: 'Landwirt muss jaehrlichen Sammelantrag für GAP-Direktzahlungen stellen und will sichergehen dass alle Pflichtangaben vollständig sind. Strukturierte Checkliste GAP-Strategieplan VO 2021/2115 Antragsfrist 15. Mai. Konditionalitaet GLOEZ-Standards Oekoregelungen Junglandwirts-Praemie Flaechen-Identifikator FID Kulturarten HIT-Datenbank. Korrektur bis 31. Mai Anpassung bis 30. September Sanktionen Cross-Compliance Vor-Ort-Kontrolle. Output Checkliste mit Ampel-Status und Fehler-Korrektur-Anleitung Selbstanzeige-Möglichkeit. Abgrenzung: fachanwalt-agrarrecht-eu-agrarfoerderung für Widerspruch gegen Foerderbescheid.'
+title: Landwirt muss jaehrlichen Sammelantrag für GAP-Direktzahlungen stellen und will sichergehen dass alle Pflichtangaben vol
+description: 'Für Sammelantrag Gap Checkliste: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/sammelantrag-gap-checkliste
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
 ---
 
-# Sammelantrag GAP — Checkliste
+# Landwirt muss jaehrlichen Sammelantrag für GAP-Direktzahlungen stellen und will sichergehen dass alle Pflichtangaben vollständig sind
 
-## Zweck
 
-Der Sammelantrag (Mehrfachantrag) ist die jährliche Pflicht-Antragstellung für Direktzahlungen und ELER-Förderungen. Verspätung oder Fehler führen zu erheblichen Kürzungen. Seit der GAP-Reform 2023 gelten neue Konditionalitätsstandards (GLÖZ anstelle des früheren Greenings), erweiterte Öko-Regelungen und eine veränderte Prämienstruktur.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Bekanntgabe, Vertragsschluss, Förderjahr, Kontrollereignis und konkretes Pachtjahr bestimmen; BGB Paragraf 594a Absatz 1 verlangt bei unbestimmter Landpacht die Kündigung spätestens am dritten Werktag eines Pachtjahrs zum Schluss des nächsten Pachtjahrs.
+- Tragende Normen verifizieren: FAO § 14b, BGB §§ 581 ff. (Landpacht), GrdstVG, Landwirtschaftsanpassungsgesetz (LwAnpG), HöfeO, EU-GAP-VO (2021/2115, 2021/2116, 2021/2117), MarktorganisationsG, BNatSchG, DüV, AwSV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Landwirt, Bundesanstalt für Landwirtschaft und Ernährung (BLE), Landwirtschaftskammer, Genehmigungsbehörde nach GrdstVG, Landpächter/-verpächter, Amtsgericht Landwirtschaftsgericht.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Mehrfachantrag (Flächenförderung), Pachtvertrag, GrdstVG-Genehmigung, Düngeplan, Cross-Compliance-Nachweis, Hofübergabevertrag — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Landwirt muss jaehrlichen Sammelantrag für GAP-Direktzahlungen stellen und will sichergehen dass alle Pflichtangaben vollständig sind. Strukturierte Checkliste GAP-Strategieplan VO 2021/2115 Antragsfrist 15. Mai. Konditionalitaet GLOEZ-Standards Oekoregelungen Junglandwirts-Praemie Flaechen-Identifikator FID Kulturarten HIT-Datenbank. Korrektur bis 31. Mai Anpassung bis 30. September Sanktionen Cross-Compliance Vor-Ort-Kontrolle. Output Checkliste mit Ampel-Status und Fehler-Korrektur-Anleitung Selbstanzeige-Möglichkeit. Abgrenzung: fachanwalt-agrarrecht-eu-agrarfoerderung für Widerspruch gegen Foerderbescheid.
+
+### Sammelantrag GAP — Checkliste
 
 ## Mandantenfragen — Kaltstart
 
@@ -28,7 +37,7 @@ Der Sammelantrag (Mehrfachantrag) ist die jährliche Pflicht-Antragstellung für
 6. **Haben Vor-Ort-Kontrollen im Vorjahr stattgefunden?** — Befunde aus Vorjahr beeinflussen Risikoklassifizierung und Sanktionshöhe in laufendem Jahr.
 7. **Gibt es laufende Förderverpflichtungen ELER (Agrarumweltmaßnahmen, Vertragsnaturschutz)?** — Auflagen sind im Sammelantrag zu bestätigen; Abweichungen führen zu Rückzahlungspflichten.
 8. **Wurde die Düngeverordnung vollständig eingehalten?** — GAB 1 (Grundanforderungen Betriebsführung) knüpft an Düngeverordnung; Verstoß = Konditionalitäts-Kürzung.
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -50,13 +59,11 @@ Der Sammelantrag (Mehrfachantrag) ist die jährliche Pflicht-Antragstellung für
 
 | Gericht | Aktenzeichen | Kernaussage |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Sammelantrag
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfpunkt | Norm | Risiko bei Fehler |
 |---|---|---|---|
@@ -118,32 +125,32 @@ Der Sammelantrag (Mehrfachantrag) ist die jährliche Pflicht-Antragstellung für
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — GAP-Sammelantrag pruefen und unterstuetzen | Pruefschema GLOEEZ-Standards; Schriftsatzbaustein Widerspruch unten |
+| Standard — GAP-Sammelantrag prüfen und unterstuetzen | Prüfschema GLOEEZ-Standards; Schriftsatzbaustein Widerspruch unten |
 | Variante A — Widerspruch gegen Bescheid noetig | Schriftsatzbaustein unten; Frist 1 Monat ab Bekanntgabe |
 | Variante B — erstmaliger Antrag ohne Vorjahr-Erfahrung | Vollstaendiges Checklistenprogramm; keine Elemente weglassen |
-| Variante C — Sanktionsbescheid nach GLOEEZ-Verstoss | Stufige Argumentation; Verhaeltnismaessigkeit pruefen |
+| Variante C — Sanktionsbescheid nach GLOEEZ-Verstoss | Stufige Argumentation; Verhältnismäßigkeit prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
 ## Schriftsatzbaustein — Widerspruch gegen Förderbescheid
 
 ```
-An das Amt fuer Agrarordnung / Landwirtschaftskammer [Land]
-[Anschrift]                                         [Ort, Datum]
+An das Amt für Agrarordnung / Landwirtschaftskammer [Land]
+[Anschrift] [Ort, Datum]
 
 Widerspruch gegen Förderbescheid
 
 Bescheid: Nr. [Bescheid-Nr.] vom [Datum], zugestellt am [Datum]
-Mandant/in: [Name, Betriebsnummer]
+Mandant: [Name, Betriebsnummer]
 
 In dem vorbezeichneten Verfahren lege ich namens und in
 Vollmacht meines Mandanten
 
-                        Widerspruch
+ Widerspruch
 
 ein und bitte um Aussetzung der sofortigen Vollziehung, soweit
 der Bescheid bereits Kürzungen vorsieht.
@@ -151,34 +158,33 @@ der Bescheid bereits Kürzungen vorsieht.
 Begründung:
 
 1. Flächenanerkennung [Feldblock-ID]:
-   Der Bescheid erkennt [Fläche] ha weniger an als beantragt.
-   Die beantragte Fläche entspricht der im aktuellen
-   Liegenschaftskataster eingetragenen Größe von [ha].
-   Beigefügt: Katasterauszug, Pachtvertrag, GPS-Messung.
+ Der Bescheid erkennt [Fläche] ha weniger an als beantragt.
+ Die beantragte Fläche entspricht der im aktuellen
+ Liegenschaftskataster eingetragenen Größe von [ha].
+ Beigefügt: Katasterauszug, Pachtvertrag, GPS-Messung.
 
 2. GLÖZ-Kürzung:
-   Die Kürzung wegen angeblichem GLÖZ-[Nr.]-Verstoß ist
-   unbegründet. Konkret: [Sachverhalt; Nachweis Einhaltung].
+ Die Kürzung wegen angeblichem GLÖZ-[Nr.]-Verstoß ist
+ unbegründet. Konkret: [Sachverhalt; Nachweis Einhaltung].
 
 3. Verspätungskürzung:
-   Der Antrag ist am [Datum] eingegangen. Die Frist endete am
-   [15. Mai]. Die Verzögerung beruht auf [Krankheit/Höhere
-   Gewalt]. Wir beantragen Verlängerung gemäß Art. 40 Abs. 4
-   VO (EU) 2021/2116.
+ Der Antrag ist am [Datum] eingegangen. Die Frist endete am
+ [15. Mai]. Die Verzögerung beruht auf [Krankheit/Höhere
+ Gewalt]. Wir beantragen Verlängerung gemäß Art. 40 Abs. 4
+ VO (EU) 2021/2116.
 
 Frist: § 68 VwGO — ein Monat ab Bekanntgabe (§ 41 VwVfG).
 
-[Rechtsanwalt/-anwaeltin, Fachanwalt fuer Agrarrecht]
+[Rechtsanwalt/-anwaeltin, Fachanwalt für Agrarrecht]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei Vor-Ort-Kontrolle: Protokollinhalt hat faktische Beweiskraft — Widerspruch ohne Gegengutachten selten erfolgreich.
 
 ## Fristen
@@ -231,14 +237,8 @@ Frist: § 68 VwGO — ein Monat ab Bekanntgabe (§ 41 VwVfG).
 - VO (EU) 2021/2116 Horizontale Verordnung
 - GAPDZG, GAPInVeKoSG, GAPKondV
 - § 41 VwVfG (Bekanntgabefiktion), § 68 VwGO (Widerspruch)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 
 ## Ergänzung — Aktuelle Rechtsprechung 2022-2024
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

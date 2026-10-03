@@ -5,11 +5,18 @@ description: Use when drafting California court documents for a self-represented
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/ca-court-docs/skills/ca-pro-se
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation
 language: en
+sources:
+- title: Pro se drafting framework
+  path: references/pro-se-drafting-framework.md
+- title: Pro se toolkit
+  path: references/pro-se-toolkit.md
+- title: Service protocol
+  path: references/service-protocol.md
 ---
 
 # Pro Se Drafting for California Courts

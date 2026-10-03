@@ -1,11 +1,11 @@
 ---
 name: wandelereignis-eingang
 title: Wandelereignis – Eingang Wandlungserklärung
-description: 'Eingehende Wandelereignis-Notification prüfen und naechste Schritte bestimmen wenn Investor Wandlung ankündigt. §§ 488 ff. BGB Darlehensvertrag §§ 53 55 GmbHG. Prüfraster: Trigger-Typ Frist Preisbestimmung Erklärung Kapitalerhohungsbedarf Formerfordernisse. Output: Prüfprotokoll Massnahmenplan Fristen. Abgrenzung: nicht für Wandlungsmechanik-Konzeption (wandlungsmechanik-konzipieren).'
+description: 'Für Wandelereignis – Eingang Wandlungserklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/wandelereignis-eingang
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -14,9 +14,13 @@ language: de
 
 # Wandelereignis – Eingang Wandlungserklärung
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill strukturiert den Workflow nach Eingang der Wandlungserklärung des Lenders. Er prüft formelle Voraussetzungen, dokumentiert den Eingang und leitet den Prozess weiter. Phase C des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -33,10 +37,7 @@ Dieser Skill strukturiert den Workflow nach Eingang der Wandlungserklärung des 
 - § 132 BGB (Zugang bei Verweigerung der Annahme)
 - § 4.4 Wandeldarlehensvertrag (Frist: ein Monat nach Zugang Wandlungsmitteilung)
 - § 286 BGB (Verzug bei Fristversäumnis der Gesellschaft)
-- Zugangsfiktion bei einfachem Brief: seit Postrechtsmodernisierungsgesetz (PostModG, 1.1.2025) gilt regelmäßig **vier-Tage-Frist** ab Aufgabe zur Post (zuvor drei Tage); maßgeblich bei Berechnung der Wandlungsfrist, wenn Wandlungserklärung oder Wandlungsmitteilung postalisch verschickt wird
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Für privatrechtliche Wandlungserklärungen und Wandlungsmitteilungen gibt es keine allgemeine Vier-Tage-Zugangsfiktion. Nach Paragraf 130 BGB zählt der tatsächliche Zugang; Aufgabe zur Post und Sendungsverfolgung sind nur Indizien. Vertragliche Zugangsklauseln gesondert auf Wortlaut und Wirksamkeit prüfen, bei Fristrisiko einen nachweisbaren Übermittlungsweg wählen.
 
 ## Vorgehen
 
@@ -88,24 +89,14 @@ Sonnenglas Solartechnologie UG (haftungsbeschränkt)
 | Betrag fehlerhaft | Nachklärung erforderlich | Kleinere Abweichung | Betrag vollständig korrekt |
 | Kein Zugang nachweisbar | Zugangsproblematik | Einwurf-Einschreiben fehlt | Zugangsbeweis vorhanden |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/wandlungspruefung-trigger-qualified-financing/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandlungspreis-berechnung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandlung-kommunikation-paketverteilung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung BGB Zugangsregeln aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 488 BGB (Darlehensvertrag, Wandlungsrecht als Nebenabrede) → §§ 130, 132 BGB (Zugang der Wandlungsmitteilung) → § 280 BGB (Schadensersatz bei Verletzung Mitteilungspflicht) → § 55 GmbHG (Kapitalerhöhung nach Wandlungserklärung) → §§ 195, 199 BGB (Verjährung des Wandlungsrechts)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

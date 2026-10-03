@@ -1,11 +1,11 @@
 ---
 name: anfg-anfechtungsklage-prozessuales
 title: Anfechtungsklage AnfG — Prozessuales
-description: 'Mandant hat vollstreckbaren Titel und will angefochtene Vermögensverschiebung gerichtlich angreifen: Anfechtungsklage nach AnfG erheben. Normen: §§ 2 11 13 AnfG, §§ 195 199 BGB. Prüfraster: Titel und Fristprüfung, Duldungs- vs. Wertersatzantrag, sachliche Zuständigkeit AG/LG, örtliche Zuständigkeit. Output: Klageantragsentwurf Duldungsurteil mit Hilfsantrag Wertersatz. Abgrenzung: nicht InsO-Anfechtung durch Insolvenzverwalter.'
+description: 'Für Anfechtungsklage AnfG — Prozessuales: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-anfechtungsklage-prozessuales
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -18,7 +18,7 @@ language: de
 
 1. Liegt ein vollstreckbarer Titel gegen den Schuldner vor (§ 2 AnfG)?
 2. Ist die Verjährungsfrist nach §§ 195 199 BGB (3 Jahre) noch nicht abgelaufen?
-3. Ist der Streitwert für AG (bis EUR 5.000) oder LG (über EUR 5.000)?
+3. Ist nach Paragraf 13 ZPO der Streitwert für das Amtsgericht (bis einschließlich 10.000 Euro) oder für das Landgericht (darüber) erreicht, oder greift eine Sonderzuweisung?
 4. Wird Duldung (Regelfall) oder Wertersatz (bei Untergang des Gegenstands) beantragt?
 
 ## Zentrale Normen
@@ -27,16 +27,9 @@ language: de
 - § 11 AnfG — Rechtsfolge: Duldung der Zwangsvollstreckung
 - § 13 AnfG — Klage oder Widerspruch in der Zwangsvollstreckung
 - §§ 195 199 BGB — Regelmässige Verjährungsfrist 3 Jahre ab Kenntnis
-- §§ 23 71 GVG — Sachliche Zuständigkeit (AG unter EUR 5.000 / LG über EUR 5.000)
+- Paragrafen 23 Nummer 1, 71 Absatz 1 GVG: sachliche Zuständigkeit grundsätzlich Amtsgericht bis einschließlich 10.000 Euro, Landgericht darüber.
 - §§ 888 890 ZPO — Vollstreckung aus Duldungsurteil
 
-## Rechtsprechung (BGH — Leitsätze AnfG)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Klageform
 
 Die Anfechtung nach dem AnfG kann nach § 13 AnfG durch Klage oder (in laufenden Vollstreckungsverfahren) durch Widerspruch gegen die Zwangsvollstreckung geltend gemacht werden.
@@ -47,8 +40,8 @@ Kein gesetzlich festgelegter Klagezwang; jedoch läuft die Verjährung des Anfec
 
 ## Sachliche Zuständigkeit
 
-- Bis EUR 5.000: Amtsgericht (§ 23 Nr. 1 GVG).
-- Über EUR 5.000: Landgericht (§ 71 Abs. 1 GVG).
+- Bis einschließlich 10.000 Euro: Amtsgericht (Paragraf 23 Nummer 1 GVG).
+- Über 10.000 Euro: Landgericht (Paragraf 71 Absatz 1 GVG), sofern keine wertunabhängige Zuweisung eingreift.
 - Die Zuständigkeit richtet sich nach dem Wert des angefochtenen Gegenstands.
 
 ## Örtliche Zuständigkeit
@@ -86,8 +79,8 @@ wegen Duldung der Zwangsvollstreckung (§§ 2 11 13 AnfG)
 
 Anträge:
 1. Der Beklagte wird verurteilt, die Zwangsvollstreckung in [GEGENSTAND KONKRET BEZEICHNEN]
-   zu dulden, soweit dies zur Befriedigung der vollstreckbaren Forderung des Klägers gegen
-   [SCHULDNER] aus [TITEL] in Höhe von EUR [BETRAG] erforderlich ist.
+ zu dulden, soweit dies zur Befriedigung der vollstreckbaren Forderung des Klägers gegen
+ [SCHULDNER] aus [TITEL] in Höhe von EUR [BETRAG] erforderlich ist.
 2. Hilfsweise: Der Beklagte wird verurteilt, an den Kläger EUR [BETRAG] zu zahlen.
 
 Streitwert: EUR [WERT DES GEGENSTANDS max. FORDERUNGSHÖHE]
@@ -96,3 +89,18 @@ Streitwert: EUR [WERT DES GEGENSTANDS max. FORDERUNGSHÖHE]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+
+## Materien- und Quellenkontrolle
+
+Anfechtung einer Willenserklärung nach Paragraf 119 oder 123 BGB, bereicherungsrechtliche Rückabwicklung nach Paragraf 812 folgende BGB, Gläubigeranfechtung nach dem Anfechtungsgesetz und Insolvenzanfechtung nach Paragraf 129 folgende InsO sind getrennte Anspruchssysteme. Zuerst Anspruchsberechtigter, Anfechtungsgegner, Rechtshandlung, Benachteiligung, subjektive Merkmale, Frist und Rechtsfolge bestimmen. Eine Entscheidung aus einem anderen System nur nach ausdrücklicher Prüfung ihrer Übertragbarkeit verwenden; jedes Zitat benötigt Gericht, Datum, Aktenzeichen, tragende Aussage und Quelle.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

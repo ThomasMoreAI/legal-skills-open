@@ -5,12 +5,20 @@ description: Use when users say "verify these UK citations", "check this skeleto
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-citation-verification
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: litigation
 language: en
-tags: [citation, uk, bailii, find-case-law, hallucination-detection]
+tags:
+- citation
+- uk
+- bailii
+- find-case-law
+- hallucination-detection
+sources:
+- title: Citation resolution model
+  path: references/citation-resolution-model.md
 ---
 
 # uk-citation-verification

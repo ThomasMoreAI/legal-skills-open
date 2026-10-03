@@ -8,7 +8,7 @@ Jurisdiction: `tr` · Practice: `corporate` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`/cold-start-interview`](skills/cold-start-interview-17/) | Türk şirketler hukuku için corporate-legal başlangıç mülakatı. Şirket profili, aktif modüller, M&A, kurumsal… |
+| [`/cold-start-interview`](skills/cold-start-interview-17/) | Türk şirketler hukuku için corporate-legal başlangıç mülakatı. Şirket profili, aktif modüller, M&A… |
 
 ## Cold-start context
 

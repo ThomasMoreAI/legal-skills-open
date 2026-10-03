@@ -15,11 +15,20 @@ description: '法律风险结构化分析与可视化。基于法律分析文本
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/legal-risk-visualization
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Anchoring tables
+  path: references/anchoring-tables.md
+- title: Case example
+  path: references/case-example.md
+- title: Causal patterns
+  path: references/causal-patterns.md
+- title: Formulas
+  path: references/formulas.md
 ---
 
 # Legal Risk Visualization

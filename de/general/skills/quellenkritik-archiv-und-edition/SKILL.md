@@ -1,0 +1,73 @@
+---
+name: quellenkritik-archiv-und-edition
+title: 'Quellenkritik: Archiv und Edition'
+description: 'Für Quellenkritik: Archiv und Edition: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/deutsche-rechtsgeschichte/skills/quellenkritik-archiv-und-edition
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Quellenkritik: Archiv und Edition
+
+## Historische Quellenanker
+
+Zuerst Entstehungszeit, Überlieferungsstand, Territorium, betroffenen Personenkreis und damaligen Geltungsrahmen der Quelle bestimmen. Historischen Normtext, spätere Edition und tatsächliche Rechtspraxis unterscheiden. Heutige Normen sind kein universeller Maßstab historischer Geltung. Die folgenden Gegenwartsanker nur hinzunehmen, wenn der Auftrag ausdrücklich heutige Fortgeltung, Rechtsüberleitung, Restitution oder eine gegenwärtige rechtliche Bewertung betrifft; dann historischen Befund und heutigen Prüfmaßstab getrennt ausweisen:
+
+- `Art. 20 Abs. 3 GG` — rechtsstaatlicher Gegenwartsanker.
+- `Art. 1 Abs. 1 GG` — Menschenwuerde als Zäsur- und Kontinuitaetsmassstab.
+- `Art. 123 Abs. 1 GG` — Fortgeltung vorkonstitutionellen Rechts.
+- `Art. 125 GG` — Fortgeltung als Bundesrecht.
+- `Art. 126 GG` — Meinungsverschiedenheiten über Fortgeltung.
+- `Art. 20 Einigungsvertrag` — öffentlicher Dienst und Rechtsuebergang.
+- `Art. 21 Einigungsvertrag` — Verwaltungsvermögen.
+- `Art. 22 Einigungsvertrag` — Finanzvermoegen.
+- `§ 1 VermG` — Anwendungsbereich Vermögensgesetz.
+- `§ 3 VermG` — Rückübertragung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Historische Fristen nur nach der zeitlich und räumlich einschlägigen Quelle untersuchen. Aktuelle Fristen oder Überleitungsvorschriften nur bei einer konkreten heutigen Rechtsfrage zusätzlich prüfen; keine allgemeine Gegenwartsprüfung vor jede Quellenkritik schalten.
+- Tragende Normen verifizieren: Sachsenspiegel, Schwabenspiegel, Carolina (CCC 1532), Preußisches ALR 1794, Code civil (1804), Sächsisches BGB 1865, BGB 1900, WRV 1919, GG 1949; rechtshistorische Quellen MGH, Constitutiones — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Rechtshistoriker, Quelleneditionen, Lehrstühle für deutsche Rechtsgeschichte, Verfassungsrechtler (Auslegungshintergrund), Restitutionsverfahren mit historischem Anker.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Quellenedition, rechtshistorisches Gutachten, Vorlesungsskript, dogmenhistorischer Aufsatz, Verfassungsentstehungsgeschichte — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Quellenkritik ist die Grundoperation der Rechtsgeschichte. Sie unterscheidet Ueberlieferungsform (Original, Abschrift, Druck, Digitalisat), Entstehungskontext (Kanzleipraxis, Legislativverfahren, Gerichtspraxis) und Editionszustand (kritische Edition, Regeste, Faksimile). Für die deutsche Rechtsgeschichte sind das Bundesarchiv (Koblenz/Berlin), die Landesarchive, das Geheime Staatsarchiv Preussischer Kulturbesitz sowie digitale Sammlungen wie ALEX und MGH-Online die zentralen Anlaufstellen.
+
+## Kernnormen / Kernquellen
+
+- **Bundesarchivgesetz (BArchG)** i.d.F. vom 10. Maerz 2017 (BGBl. I S. 410): Zugang zu Bundesarchivgut
+- **Landesarchivgesetze** (z. B. LArchG NRW): Sperrfristen 30 Jahre, Personendaten 10 Jahre nach Tod
+- **Mugdan, Die gesamten Materialien zum BGB** (1899, 6 Bde.): Standardedition der BGB-Motive und Protokolle
+- **MGH** (Monumenta Germaniae Historica): kritische Edition mittelalterlicher Quellen seit 1826
+
+## Akteure und Institutionen
+
+- **Bundesarchiv Koblenz/Berlin**: Hauptarchiv für Reichs- und Bundesakten
+- **Landesarchive**: Regionalbestaende, Verwaltungs- und Gerichtsakten
+- **MGH Muenchen**: Kritische Edition mittelalterlicher Quellen
+- **ALEX/OeNB Wien**: Digitale Reichsgesetzblatt-Sammlung
+
+## Typische Streitfragen / Forschungsfragen
+
+1. Kritische Edition vs. Faksimile: Wann genuegt welche Quelle?
+2. Umgang mit fehlenden Archivalien: Was tun wenn Primaerakten vernichtet wurden (NS, Krieg)?
+3. Handschriftliche Quellen vs. Druckausgabe: Welche hat Vorrang beim Sachsenspiegel?
+4. Archivzugang und Datenschutz: Wann sind Archivgut-Sperrfristen rechtshistorisch relevant?
+5. Digitalisierung und Authentizitaet: Sind Digitalisate gleich reliabel wie Originale?
+
+## Methodik
+
+- Ueberlieferungskette nachzeichnen: Original, Abschrift, Edition, Digitalisat
+- Editionsvergleich: mehrere Editionen bei wichtigen Textstellen gegenlesen
+- Bundesarchiv-Online: invenio.bundesarchiv.de für Findbuecher
+- MGH: mgh.de für Volltext-Zugang zu mittelalterlichen Editionen

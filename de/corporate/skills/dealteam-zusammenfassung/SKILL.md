@@ -1,11 +1,11 @@
 ---
 name: dealteam-zusammenfassung
 title: Deal-Team-Zusammenfassung
-description: 'Erstellt gestaffelte Deal-Briefings für Geschäftsführung, Deal-Lead und Arbeitsteam aus DD-Findings und Vollzugscheckliste. Trigger: Deal-Briefing, Deal-Zusammenfassung, Status für Geschäftsführung, Team-Update, Deal-Team-Summary.'
+description: 'Für Deal-Team-Zusammenfassung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/dealteam-zusammenfassung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -13,6 +13,26 @@ language: de
 ---
 
 # Deal-Team-Zusammenfassung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Deal-Team-Zusammenfassung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** GmbHG Paragraf 3, 5, 13, 15, 16, 30, 34, 35, 40, 43, 46, 47, 49 ff.; AktG Paragraf 76, 93, 111, 119, 130, 243 ff.; HGB Paragraf 105 ff., 161 ff.; MoPeG/GesRÄndG-Folgen; UmwG; FamFG/Registerrecht; GWB/Fusionskontrolle bei Transaktionen.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Deal-Team-Zusammenfassung
+- **Normen-/Quellenanker:** GmbHG, AktG, HGB, BGB, UmwG, MoPeG, FamFG/Registerrecht, Gesellschafterliste, Beschlussmängel, Treuepflicht und Organhaftung.
+- **Entscheidende Weiche:** Gesellschaftsform, Organrolle, Beschluss/Vertrag, Registerwirkung, Minderheitenschutz, Haftung und Frist getrennt prüfen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
 
 ## Triage zu Beginn
 
@@ -27,18 +47,11 @@ Vor der Erstellung des Briefings klären:
 
 ## Zentrale Normen
 
-§§ 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten) — §§ 443, 444 BGB (Garantien, Haftungsausschluss) — § 442 BGB (Kenntnis des Käufers) — §§ 35 ff. GWB (Fusionskontrolle) — §§ 55 ff. AWV, § 5 AWG (FDI-Investitionsprüfung) — § 15 GmbHG (Abtretung) — § 613a BGB (Betriebsübergang)
+Paragraf 311 Abs. 2, 241 Abs. 2 BGB (vorvertragliche Aufklärungspflichten) — Paragraf 443, 444 BGB (Garantien, Haftungsausschluss) — Paragraf 442 BGB (Kenntnis des Käufers) — Paragraf 35 ff. GWB (Fusionskontrolle) — Paragraf 55 ff. AWV, Paragraf 5 AWG (FDI-Investitionsprüfung) — Paragraf 15 GmbHG (Abtretung) — Paragraf 613a BGB (Betriebsübergang)
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-M&A-Teams brauchen je nach Ebene unterschiedliche Informationstiefe: Die Geschäftsführung will drei Sätze und eine Risikobewertung. Der Deal-Lead will kritischen Pfad und offene Punkte. Das Arbeitsteam will alle Findings mit Quellen. Dieser Skill erstellt alle drei Ebenen aus denselben DD-Quellen.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
 
 ## Eingaben
 
@@ -48,7 +61,7 @@ M&A-Teams brauchen je nach Ebene unterschiedliche Informationstiefe: Die Geschä
 - Deal-Kontext: Parteien, Transaktionsstruktur, Kaufpreis, Zieldatum Vollzug
 - Praxisprofil: `## M&A → Deal-Team-Briefing` (Rhythmus, Format, Adressat)
 
-## Schritt-fuer-Schritt-Workflow
+## Schritt-für-Schritt-Workflow
 
 ### Schritt 1: Quellen zusammenführen
 
@@ -78,10 +91,18 @@ Nach Erstellung: prüfen, ob neue Vollzugspunkte aufgedeckt wurden, die in der V
 
 ### Ebene 1 — GF-Kurzfassung
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ```
 [VERTRAULICH — ANWALTLICHES ARBEITSERGEBNIS]
 
-# [DEAL-CODE] — Statusbericht — [DATUM]
+### [DEAL-CODE] — Statusbericht — [DATUM]
 
 Transaktion: Erwerb [ZIELGESELLSCHAFT] durch [KAEUFER]; Kaufpreis: [X] EUR;
 Vollzug geplant: [DATUM].
@@ -103,8 +124,7 @@ Empfehlung: [Fortsetzen / Preis anpassen / Klärung einholen / Abbruch erwägen]
 ```
 [VERTRAULICH — ANWALTLICHES ARBEITSERGEBNIS]
 
-# [DEAL-CODE] — Deal-Lead-Briefing — [DATUM]
-
+### [DEAL-CODE] — Deal-Lead-Briefing — [DATUM]
 ## Transaktionsübersicht
 [Parteien, Struktur, Preis, Timeline]
 
@@ -136,7 +156,7 @@ Empfehlung: [Fortsetzen / Preis anpassen / Klärung einholen / Abbruch erwägen]
 - Blockierende Findings ohne Vollzugsplan → sofortige Eskalation an GF/Investoren
 - Kritischer Pfad-Punkt mit weniger als 14 Tagen Restzeit → tägliches Tracking
 - Neue Vollzugsbedingungen nach Signing entdeckt → SPA-Parteien informieren
-- Ebene 3 an Gegenseite gesandt → Mandatsgeheimnis (§ 43a Abs. 2 BRAO) gefährdet
+- Ebene 3 an Gegenseite gesandt → Mandatsgeheimnis (Paragraf 43a Abs. 2 BRAO) gefährdet
 
 ## Quellen und Zitierweise
 
@@ -152,10 +172,3 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **Preisanpassung ohne Quantifizierung:** Blockierende Findings ohne Risikowert lassen die GF ohne Entscheidungsgrundlage.
 - **Vollzugspunkte nicht an Checkliste übergeben:** Diese Zusammenfassung ist der letzte Filter vor dem Vollzug.
 - **Verteilungskreis:** Ebene 3 bleibt im Privilegierungskreis; nie an Gegenpartei senden.
-
----
-## Audit-Hinweis (27.05.2026)
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Status: WRONG_TOPIC — das Urteil betrifft Prospekthaftung wegen falscher Darstellung eines Vorgängerfonds (Medienfonds ApolloProMedia, NJW-RR 2010, 911), nicht Aufklaerungspflicht beim Unternehmenskauf.
-Maßnahme: Beide Nennungen entfernt (Rechtsprechungsabschnitt und Quellenabschnitt). Kein Ersatz eingefuegt; die verbleibenden drei Urteile decken Due Diligence und Vollzugsverbot zutreffend ab.

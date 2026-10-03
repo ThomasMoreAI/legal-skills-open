@@ -5,12 +5,21 @@ description: Generates structured summaries of U.S. environmental laws, complian
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/environmental-regulation-summaries
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: environmental
 language: en
-tags: [regulatory, summary, analysis, summarization]
+tags:
+- regulatory
+- summary
+- analysis
+- summarization
+sources:
+- title: Authority status
+  path: references/AUTHORITY-STATUS.md
+- title: Regulatory matrix
+  path: references/REGULATORY-MATRIX.md
 ---
 
 # Environmental Regulation Summary

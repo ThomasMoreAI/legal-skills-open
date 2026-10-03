@@ -1,15 +1,20 @@
 ---
 name: ccpa-cpra-privacy-expert
 title: CCPA/CPRA Privacy Expert
-description: CCPA and CPRA privacy compliance automation. Audits organizations for California privacy law compliance, maps personal information flows, validates consumer rights readiness, and checks technical safeguards. Use for CCPA compliance assessments, CPRA readiness checks, privacy policy review, consumer rights handling, data mapping, and California privacy audits.
+description: CCPA and CPRA California privacy compliance. Use for CCPA/CPRA readiness assessments, personal information data mapping, consumer rights handling, privacy policy review, opt-out mechanisms, and California privacy audits.
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/ccpa-cpra-privacy-expert
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: data-protection
 language: en
+sources:
+- title: Ccpa cpra requirements guide
+  path: references/ccpa-cpra-requirements-guide.md
+- title: Ccpa implementation playbook
+  path: references/ccpa-implementation-playbook.md
 ---
 
 # CCPA/CPRA Privacy Expert
@@ -142,6 +147,16 @@ Step-by-step implementation guidance:
 - Ongoing compliance monitoring
 
 ---
+
+## Clarify First
+
+Before running the assessment, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Applicability** — whether the business meets a CCPA threshold ($25M revenue, 100K+ consumers/households, or 50%+ revenue from selling/sharing PI) (determines whether obligations apply at all)
+- [ ] **Entity role** — business, service provider, contractor, or third party (determines which obligation set applies)
+- [ ] **Assessment goal** — compliance readiness, data mapping, consumer-request handling, or privacy-policy review (selects the tool and workflow)
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the assessment.
 
 ## Workflows
 

@@ -1,0 +1,59 @@
+---
+name: uebergabe-und-gewaehrleistung-organisieren
+title: 1. Übergabe, Restleistungen und Gewährleistung geordnet fortführen
+description: Erstellt Übergabeunterlagen, Restpunkteliste und belegtes Gewährleistungsregister für Bauherren und Betreiber. Trennt Besitzübergabe, Inbetriebnahme, Abnahme und Verjährung; organisiert die Fortsetzung ohne pauschale Fünfjahresfrist für alles.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/uebergabe-und-gewaehrleistung-organisieren
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# 1. Übergabe, Restleistungen und Gewährleistung geordnet fortführen
+
+## 1. Zweck und Anwendungsfall
+
+Mache das Bauwerk und seine Dokumentation geordnet an den Betreiber übergabefähig und sichere die weitere Bearbeitung offener Leistungen. Eine Schlüsselübergabe allein erledigt keine Mängelrechte oder Fachprüfungen.
+
+## 2. Eingaben
+
+Ohne Material frage nach Objekt, Übergabeumfang, Betreiber und Abnahmestand je Gewerk. Bei Ordner ohne Auftrag lies Protokolle, Revisionsunterlagen und Wartungsinformationen intern und biete Übergabeprotokoll oder Gewährleistungsregister an. Bei klarem Ziel vervollständige das vorhandene Dokument. Fehlende Fachnachweise nicht durch bloße Empfangsbestätigung ersetzen.
+
+## 3. Ablauf / Checkliste
+
+### 3.1. Übergabeumfang und Betriebsbereitschaft prüfen
+
+Ordne Schlüssel, Zugänge, Bestandspläne, Prüfunterlagen, Einweisungen und Wartungsunterlagen jeweils einem Bauteil und Empfänger zu. Sensible Zugangsdaten nicht in allgemein verteilte Berichte schreiben. Inbetriebnahme und sichere Nutzung benötigen die zuständigen Fachfreigaben; keine Betriebsfreigabe aus vollständigem Papierbestand ableiten.
+
+### 3.2. Rechtliche Ereignisse je Vertrag erfassen
+
+Bestimme dokumentierte Abnahme, Teilabnahme, Besitzüberlassung und Schlusszahlung getrennt. Verjährung nach Anspruch, Vertrag und anwendbarer Norm prüfen; Paragraf 634a BGB enthält unterschiedliche Tatbestände. VOB/B-Fristen nur bei wirksamer Einbeziehung und tatsächlichem Wortlaut verwenden. Hemmung oder Neubeginn nicht aus jeder Mängelmail ableiten.
+
+### 3.3. Übergabe und Fristenregister fertigstellen
+
+Erstelle das vollständige Protokoll und das ausgefüllte Register mit Leistung, Schuldner, Abnahmebeleg, Fristgrundlage, berechnetem Ende, Vorprüfungstermin und Zuständigkeit. Unklarer Beginn wird nicht mit dem heutigen Datum gefüllt. Lege Prüf- und Wiedervorlagetermine als Vorschlag an; keine tatsächlich eingerichtete Erinnerung behaupten.
+
+### 3.4. Restpunkte bis zur Erledigung fortführen
+
+Ordne bei Gebäudeplanung Übergabe und Verjährungsfristenliste den Grundleistungen der Phase 8 zu. Unterscheide im Mangelregister, ob der Mangel schon bei Abnahme festgestellt wurde: Die Überwachung seiner Beseitigung gehört ebenfalls zu Phase 8. Phase 9 sieht spätere fachliche Mängelbewertung, Begehung vor Fristablauf und Mitwirkung bei der Sicherheitenfreigabe vor; die Überwachung der Mängelbeseitigung innerhalb der Verjährungsfrist ist dort eine Besondere Leistung. Prüfe jeweils den tatsächlichen Auftrag. Die Fünfjahresgrenze seit Abnahme der Leistung für die Bewertung nach Phase 9 Buchstabe a ist keine einheitliche Anspruchsverjährung; führe beide Zeitbezüge getrennt.
+
+Erhalte Mangel- und Dokumentkennungen über Übergabe hinweg. Neue Revisionsdatei oder Fachbestätigung ersetzt denselben Eintrag mit Änderungsspur. Trenne Eingang, fachliche Prüfung und Erledigung. Sicherheitenfreigabe, Rechteverzicht oder Löschung alter Dokumente benötigen eine gesonderte Entscheidung; keine Gesamterledigung durch Routineprotokoll.
+
+Vertiefung bei einem umfangreichen Auftrag: Lesen Sie in [der modularen Bauwerkstatt](../../references/werkstatt/14-bautagebuch-und-maengel.md) nur die passenden Stationen 87 bis 94. Wohnungsübergabe an Mieter, Unternehmerabnahme und Abnahme der Planerleistung getrennt erfassen. Gemeinsame Begehung ist keine gemeinsame rechtsgeschäftliche Abnahme aller Beteiligten. Verjährung wird je Anspruch und Vertrag gerechnet; eine bloße Mängelanzeige hemmt sie nicht automatisch. Originalbefund, Fertigmeldung und tatsächliche Nachkontrolle bleiben unterscheidbar. Quellen und Übertragungsgrenzen stehen in den [verifizierten Entscheidungsankern](../../references/entscheidungsanker-2026.md); für den optionalen Bauträgerzweig zusätzlich in den [Bauträgerankern](../../references/entscheidungsanker-bautraeger-2026.md). Diese Ressourcen nur bei der jeweiligen Frage laden, nicht die gesamte Werkstatt vorsorglich.
+
+## 4. Quellenpflicht
+
+Verbindlich ist die [Zitierweise](../../references/zitierweise.md). [Fachquellen](../../references/fachquellen.md): Paragrafen 634a und 640 BGB, vertraglich einschlägige VOB/B sowie HOAI Anlage 10 Nummer 10.1 Phasen 8 und 9, gezielt geprüft am 25.09.2026. Objektbetreuung ist keine Garantie für alle Betreiberpflichten; weitergehende Leistungen hängen vom Auftrag ab. Verwende nur bereitgestellte oder verifizierte Normen und Entscheidungen; keine erfundenen Fundstellen, Randnummern oder technischen Regeltexte. Bezeichne Abruflücken präzise.
+
+## 5. Ausgabeformat
+
+Liefere je Datei ein vollständiges Übergabeprotokoll oder das zusammengehörige Gewährleistungsregister. Restpunkte dürfen offen sein, müssen aber konkrete Zuständigkeit und nächsten Schritt haben. Kein pauschales Siegel „mängelfrei übergeben“.
+
+Ausformulierungspflicht: Operative Textteile werden in vollständigen, ausformulierten Sätzen geliefert; Skelette, Halbsätze und reine Aufzählungs-Auswürfe sind als Endprodukt verboten. Tabellen dürfen fachübliche Datenfelder enthalten, ersetzen aber keinen bestellten Text. Formatierte Dokumente verwenden soweit technisch möglich Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen nach Überschriften. Bei Markdown den Exporthinweis getrennt geben. Deutsch mit echten Umlauten und ß; Paragraf ausschreiben. Keine nicht erzeugte Datei oder externe Handlung behaupten.
+
+## 6. Beispiele
+
+Rohbau und technische Anlage wurden an unterschiedlichen Tagen abgenommen; ein Aufzug ist nur probeweise betrieben. Führe getrennte Vertrags- und Fristzeilen. Der Schlüsseltermin setzt nicht sämtliche Gewährleistungsfristen neu in Gang.

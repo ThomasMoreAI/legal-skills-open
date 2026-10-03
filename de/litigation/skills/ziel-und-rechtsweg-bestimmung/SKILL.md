@@ -1,11 +1,11 @@
 ---
 name: ziel-und-rechtsweg-bestimmung
 title: Ziel- und Rechtsweg-Bestimmung
-description: 'Ermittelt interaktiv das Nutzerziel (Anspruchsdurchsetzung, Abwehr, Antrag, Beschwerde, Strafverfolgung, Verwaltungsakt-Anfechtung) und leitet daraus den einschlaegigen Rechtsweg ab: ZPO, VwGO, SGG, FGO, StPO, FamFG. Warnt bei Zweifelsfaellen.'
+description: 'Für Ziel- und Rechtsweg-Bestimmung: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/ziel-und-rechtsweg-bestimmung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,29 +14,30 @@ language: de
 
 # Ziel- und Rechtsweg-Bestimmung
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn — kläre vor der Rechtsweg-Bestimmung
 
-1. Was möchte der Nutzer erreichen? (Zahlung / Unterlassung / Anfechtung VA / Strafanzeige / ...)
+1. Was möchte der Nutzer erreichen?
 2. Wer ist Gegner? (Privatperson / Unternehmen / Behörde / Staat)
 3. Ist Behördenbeteiligung erkennbar? → Öffentliches Recht prüfen
 4. Besteht Dringlichkeit? → Eilverfahren parallel skizzieren
 5. Wurde ein Vorverfahren (Widerspruch, Einspruch) bereits durchgeführt?
 
-## Zweck
-
-Das Ziel bestimmt den Rechtsweg, die Verfahrensart, die Klageart und letztlich die einschlägigen Normen. Dieser Skill erfasst das Ziel strukturiert und gibt einen ersten Rechtsweg-Hinweis.
-
 ## Zentrale Normen zur Rechtswegsbestimmung
 
-- § 13 GVG — ordentliche Gerichtsbarkeit (bürgerliche Rechtsstreitigkeiten, Streit über Privatrecht)
-- § 40 VwGO — Verwaltungsrechtsweg (öffentlich-rechtliche Streitigkeiten, nicht verfassungsrechtlicher Art)
-- § 51 SGG — Sozialgerichtsbarkeit (Angelegenheiten der Sozialversicherung)
+- § 13 GVG — ordentliche Gerichtsbarkeit (bürgerliche Rechtsstreitigkeiten)
+- § 40 VwGO — Verwaltungsrechtsweg (öffentlich-rechtliche Streitigkeiten)
+- § 51 SGG — Sozialgerichtsbarkeit (Sozialversicherung)
 - § 33 FGO — Finanzgerichtsbarkeit (Steuern und Abgaben)
+- § 2 ArbGG — Arbeitsgerichtsbarkeit (Arbeitsverhältnisse)
 - § 17 GVG — Rechtsweg-Verweisung; § 17a GVG — Rüge der Unzuständigkeit
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zielfragen
 
@@ -45,7 +46,7 @@ Das Ziel bestimmt den Rechtsweg, die Verfahrensart, die Klageart und letztlich d
 | Nr. | Ziel | Typischer Rechtsweg |
 |-----|------|---------------------|
 | 1 | Anspruch durchsetzen (Zahlung, Unterlassung, Herausgabe) | ZPO / ordentliche Gerichtsbarkeit |
-| 2 | Anspruch abwehren (Klageabweisung, Widerklage) | ZPO | Normtext, amtliche Hinweise, verifizierte Rechtsprechung |
+| 2 | Anspruch abwehren (Klageabweisung, Widerklage) | ZPO |
 | 3 | Verwaltungsentscheidung anfechten (Bescheid) | VwGO Anfechtungsklage § 42 Abs. 1 Alt. 1 |
 | 4 | Verwaltungsentscheidung erzwingen | VwGO Verpflichtungsklage § 42 Abs. 1 Alt. 2 |
 | 5 | Sozialleistung durchsetzen oder anfechten | SGG |
@@ -54,28 +55,63 @@ Das Ziel bestimmt den Rechtsweg, die Verfahrensart, die Klageart und letztlich d
 | 8 | Verfassungsbeschwerde erheben | BVerfGG § 90 (Erschöpfung Rechtsweg) |
 | 9 | Einstweiligen Rechtsschutz | §§ 935/940 ZPO / § 80 Abs. 5 VwGO |
 | 10 | Familiensache (Sorge, Unterhalt, Scheidung) | FamFG |
+| 11 | Arbeitssache (Kündigung, Lohn) | ArbGG |
+| 12 | EU-Recht durchsetzen / anwenden | Nationales Gericht + ggf. Vorabentscheidungsersuchen Art. 267 AEUV |
 
 ## Rechtsweg-Entscheidungsbaum
 
 ```
 Ist eine Behörde beteiligt?
 ├─ Ja → Handlung hoheitlich?
-│       ├─ Ja → VwGO / SGG / FGO (je nach Sachgebiet)
-│       └─ Nein → ordentliche Gerichtsbarkeit (Fiskusprivileg ausnahmsweise)
+│ ├─ Ja → VwGO / SGG / FGO (je nach Sachgebiet)
+│ │ ├─ Sozialversicherung → SGG
+│ │ ├─ Steuer → FGO
+│ │ └─ sonst öffentl. Recht → VwGO
+│ └─ Nein → ordentliche Gerichtsbarkeit (Fiskusprivileg ausnahmsweise)
 └─ Nein → ZPO (ordentliche Gerichtsbarkeit)
-          ├─ Schiedsklausel vorhanden? → §§ 1025 ff. ZPO
-          └─ Arbeitssache? → ArbGG; Familiensache? → FamFG
+ ├─ Schiedsklausel vorhanden? → §§ 1025 ff. ZPO
+ ├─ Arbeitssache? → ArbGG
+ └─ Familiensache? → FamFG
 ```
 
-## Warnmechanik
+## Vorverfahren und Fristen
 
-Das System warnt bei folgenden Konstellationen:
-- Nutzer nennt Ziel im Zivilrecht, Sachverhalt klingt nach öffentlichem Recht: Hinweis auf VwGO
-- Nutzer möchte Strafanzeige, aber Sachverhalt betrifft nur Zivilrecht: kein Straftatbestand erkennbar
-- Vorverfahren (Widerspruch) noch nicht durchgeführt: Klage unzulässig (§ 68 VwGO)
+| Rechtsweg | Vorverfahren | Frist |
+|---|---|---|
+| VwGO | Widerspruch (§ 70 VwGO) | 1 Monat ab VA-Bekanntgabe |
+| VwGO | Klage nach Widerspruchsbescheid | 1 Monat ab Zustellung WB (§ 74 VwGO) |
+| SGG | Widerspruch (§ 83 SGG) | 1 Monat |
+| FGO | Einspruch (§ 347 AO) | 1 Monat |
+| ArbGG | Kündigungsschutzklage | 3 Wochen ab Zugang Kündigung (§ 4 KSchG) |
+| ZPO | keine zwingenden Vorverfahren | Verjährungsfristen (§§ 195 ff. BGB) |
 
-**Das System trifft keine verbindliche Rechtswegentscheidung.** Die endgültige Bestimmung obliegt dem Gericht (§ 17a GVG).
+## Zweifelsfälle und Warnungen
 
-## Quellenregel
+- **Doppelte Rechtswegmöglichkeit:** Bei gemischten Sachverhalten (z. B. Amtshaftung § 839 BGB: ordentliche Gerichtsbarkeit; Hoheitsakt: VwGO) ist Trennungsprinzip zu beachten.
+- **Rüge der Unzuständigkeit (§ 17a GVG):** Rechtzeitig erheben; Verweisung an zuständiges Gericht möglich.
+- **Unionsrecht:** Nationales Gericht wendet EU-Recht an; bei Auslegungsfragen: Vorabentscheidungsersuchen (Art. 267 AEUV; → eu-vorabentscheidung-falsche-wiese).
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+## Ausgabe
+
+Rechtsweg-Bestimmung mit Entscheidungsbaum, Klageart, Zuständigkeit, Frist und Warnungen bei Zweifelsfällen. Empfehlung zur Folgeskill-Nutzung (z. B. verfahrensart-bestimmen-verjaehrung, workflow-fristen-und-risikoampel).
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Qualitäts-Hardening
+
+- Arbeite aktennah: Tatsachen, Belege, Fristen, Zuständigkeit und gewünschtes Arbeitsprodukt zuerst klären.
+- Keine Rechtsprechung aus Modellwissen zitieren. Jede Entscheidung vor Ausgabe mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei oder amtlich prüfbarer Quelle absichern (dejure.org, bgh.de, bverfg.de).
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate. Literatur nur verwenden, wenn der Nutzer sie bereitstellt.
+- Wenn eine Quelle, Randnummer, Behördenpraxis oder Frist nicht sicher geprüft ist, sichtbar als Prüfpunkt markieren und keine Scheinpräzision erzeugen.
+- Ergebnisse so liefern, dass sie sofort weiterverwendbar sind: Kurzbild, Prüfpfad, Risikoampel, Lückenliste und konkrete nächste Schritte.
+- Normtext live prüfen: gesetze-im-internet.de (GVG §§ 13, 17, 17a; VwGO §§ 40, 70, 74; SGG § 51; FGO § 33; ArbGG § 2; KSchG § 4; BVerfGG § 90; ZPO §§ 935, 940, 1025 ff.).

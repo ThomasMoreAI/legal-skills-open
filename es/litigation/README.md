@@ -8,7 +8,7 @@ Jurisdiction: `es` · Practice: `litigation` · Skill language: es
 
 | Skill | What it does |
 |---|---|
-| [`/plazos`](skills/plazos/) | Tracker de plazos procesales y extraprocesales para la clínica jurídica. Permite añadir, actualizar y cerrar… |
+| [`/plazos`](skills/plazos/) | Tracker de plazos procesales y extraprocesales para la clínica jurídica. Permite añadir, actualizar y… |
 
 ## Cold-start context
 

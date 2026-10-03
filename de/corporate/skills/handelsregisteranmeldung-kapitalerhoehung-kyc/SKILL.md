@@ -1,0 +1,95 @@
+---
+name: handelsregisteranmeldung-kapitalerhoehung-kyc
+title: Handelsregisteranmeldung Kapitalerhöhung
+description: 'Für Handelsregisteranmeldung Kapitalerhöhung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/handelsregisteranmeldung-kapitalerhoehung-kyc
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Handelsregisteranmeldung Kapitalerhöhung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Vollständiges Notar-Paket (aus `notar-paket-uebermittlung`)
+- Zuständiges Amtsgericht / Handelsregister (nach Sitz der Gesellschaft)
+- Handelsregisternummer (HRB)
+- Beauftragter Notar
+
+## Rechtlicher Rahmen
+
+### Primärnormen
+- § 57 GmbHG (Anmeldung der Kapitalerhöhung: durch Geschäftsführerin, notarielle Beglaubigung)
+- § 57a GmbHG (Inhalt der Anmeldung: neue Gesellschafterliste, Nachweis Sacheinlage)
+- § 9c GmbHG (Prüfung durch das Registergericht – materielle Prüfung)
+- § 382 FamFG (Registerverfahren – Bearbeitungsfrist)
+- § 19 GwG (Transparenzregister-Anmeldepflicht nach HR-Änderung)
+
+## Vorgehen
+
+### 1. Einreichung beim Handelsregister
+Der Notar reicht die Anmeldung inklusive aller Anlagen elektronisch über das ERV (Elektronischer Rechtsverkehr) beim zuständigen Amtsgericht ein. Kosten: nach GNotKG (Eintragungsgebühr + Notargebühr).
+
+### 2. Standardunterlagen Anmeldung § 57 GmbHG
+a) Beschluss über Kapitalerhöhung (notariell beurkundet)
+b) Übernahmeerklärung Lender (notariell beurkundet)
+c) Sacheinlagebericht
+d) Neue Gesellschafterliste (§ 40 GmbHG)
+e) Versicherung der Geschäftsführerin nach § 8 Abs. 3 GmbHG (keine Hindernisse)
+f) Anmeldungstext (von Notar vorbereitet, notariell beglaubigt)
+
+### 3. Prüfung durch Registergericht (§ 9c GmbHG)
+Registergericht prüft: formelle Voraussetzungen (Beschluss, Beurkundung, Unterlagen), materielle Voraussetzungen (Werthaltigkeit Sacheinlage), Vollständigkeit Gesellschafterliste. Häufige Beanstandungen: fehlende Angaben in Gesellschafterliste, unzureichender Sacheinlagebericht, formelle Mängel im Beschluss.
+
+### 4. Bearbeitungsdauer
+Standard: zwei bis acht Wochen. Überlastete Gerichte (z. B. AG Charlottenburg/Berlin): bis zu zwölf Wochen. Beschleunigte Eintragung auf Antrag bei wirtschaftlichem Interesse (§ 381 FamFG).
+
+### 5. Nach Eintragung
+Eintragungsbenachrichtigung an alle Parteien. Gesellschafterliste jetzt im elektronischen HR abrufbar. Lender hat volle Gesellschafterrechte (§ 16 GmbHG).
+
+### 6. Transparenzregister-Folge-Meldung (§ 19 GwG)
+Unmittelbar nach HR-Eintragung: Prüfung ob Lender wirtschaftlich Berechtigter (mehr als 25 % nach Kapitalerhöhung). Falls ja: Meldung an Transparenzregister (www.transparenzregister.de). Frist: unverzüglich.
+
+## Häufige Beanstandungsgründe und Abhilfen
+
+| Beanstandung | Abhilfe |
+|---|---|
+| Gesellschafterliste unvollständig (fehlendes Geburtsdatum) | Liste korrigieren und neu einreichen |
+| Sacheinlagebericht ohne Werthaltigkeitsbegründung | Ergänzte Fassung nachreichen |
+| Übernahmeerklärung ohne notarielle Beurkundung | Erneute Beurkundung erforderlich |
+| Beschluss ohne Satzungsänderungstext | Beschluss nachbeurkunden |
+| Versicherung Geschäftsführerin fehlt | Nachreich der Versicherung |
+
+## Risiken und Red Flags
+
+| Konstellation | Rot | Orange | Grün |
+|---|---|---|---|
+| Registergericht beanstandet Sacheinlagebericht | Verzögerung, Nachbesserung | Eine Beanstandung | Keine Beanstandung |
+| Bearbeitungsdauer über zwölf Wochen | Gesellschafterrechte Lender verzögert | Acht bis zwölf Wochen | Unter acht Wochen |
+| Transparenzregister vergessen | § 56 GwG-Bußgeld bis EUR 150000 | Frist läuft | Unmittelbar gemeldet |
+| Notar-Fehler in Unterlagen | Rücknahme und Neueinreichung | Kleiner Formfehler | Alle Unterlagen korrekt |
+
+## Quellen und Updates
+
+Stand: 05/2026. Bei Änderung GmbHG §§ 57/9c oder FamFG aktualisieren.
+
+## Vertiefung — Aktuelle Rechtsprechung
+
+### Normen-Ergänzung
+
+§ 57 GmbHG (Anmeldung Kapitalerhöhung zum Handelsregister) → § 57a GmbHG (vereinfachte Kapitalerhöhung) → § 12 HGB i.V.m. §§ 374 ff. FamFG (elektronische Anmeldung) → § 56 Abs. 2 GmbHG (Sacheinlagebericht) → § 8 HGB (Inhalt Handelsregisteranmeldung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

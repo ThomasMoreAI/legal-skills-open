@@ -1,0 +1,48 @@
+---
+name: fusion-buergerbeteiligung-foerderung
+title: 'Fusion: Bürgerbeteiligung und politische Kommunikation'
+description: 'Für Fusion: Bürgerbeteiligung und politische Kommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/energierecht/skills/fusion-buergerbeteiligung-foerderung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: energy
+language: de
+---
+
+# Fusion: Bürgerbeteiligung und politische Kommunikation
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: KWKG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wofür dieser Arbeitsgang da ist
+
+Fokus auf rechtlich belastbare Kommunikation ohne PR-Nebel.
+
+## Rechts- und Praxisanker
+
+VwVfG, BauGB, Umweltinformationsrecht, Kommunalrecht, Datenschutz.
+
+## Workflow
+
+1. Technisches Vorhaben in rechtliche Teilanlagen zerlegen.
+2. Zuständigkeiten und Genehmigungswege mit Livequellen prüfen.
+3. Sicherheits-, Umwelt-, Netz- und Verkehrsfragen getrennt dokumentieren.
+4. Konkrete Nachforderungen an Vorhabenträger und Behördenstrategie ausgeben.
+
+## Qualitätsgate
+
+- Keine Blindzitate: Rechtsprechung, Behördenpraxis und Schwellenwerte vor tragender Aussage live anhand amtlicher oder frei zugänglicher Quellen prüfen.
+- Keine LMA-, Banken- oder Fondsformularsprache nacherzählen: Nutzer soll das aktuelle Dokument hochladen; der Skill arbeitet dann am konkreten Text.
+- Jede Annahme sichtbar markieren, insbesondere Zahlen, Fristen, regulatorische Rollen, Genehmigungsstand und Parteiperspektive.
+
+## Spezielle Vorsicht
+
+Fusionsrecht in Deutschland ist dynamisch; tragende Aussagen immer am aktuellen AtG/Strahlenschutz-/Fachrecht und Behördenmaterial live prüfen.

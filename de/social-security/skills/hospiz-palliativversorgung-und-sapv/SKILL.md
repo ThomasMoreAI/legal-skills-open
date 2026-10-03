@@ -1,0 +1,99 @@
+---
+name: hospiz-palliativversorgung-und-sapv
+title: Hospiz, Palliativversorgung und SAPV
+description: 'Für Hospiz, Palliativversorgung und SAPV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/hospiz-palliativversorgung-und-sapv
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Hospiz, Palliativversorgung und SAPV
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+Sterbende Menschen und ihre Familien haben Anspruch auf umfassende palliative Versorgung. Kläre **GKV-Ansprüche im Bereich Hospiz, ambulante und stationäre Palliativversorgung und spezialisierte ambulante Palliativversorgung (SAPV)**.
+
+## Rechtlicher Rahmen
+
+- **§ 37b SGB V** – Spezialisierte ambulante Palliativversorgung (SAPV)
+- **§ 39a SGB V** – Stationäre und ambulante Hospizleistungen
+- **§ 39 SGB V** – Krankenhausbehandlung (Palliativstation)
+- **§ 27 SGB V** – Krankenbehandlung: Anspruch umfasst Palliativmedizin
+- **SAPV-Richtlinie des G-BA** (Stand 2023)
+- BSG B 1 KR 2/22 R (SAPV-Anspruch), BSG B 1 KR 14/19 R
+
+## Versorgungsformen im Überblick
+
+| Versorgungsform | Rechtsgrundlage | Leistungsumfang | Zuzahlung |
+|----------------|-----------------|-----------------|----------|
+| Ambulante Palliativversorgung (APV) | § 27 SGB V, § 73 SGB V | Hausarzt + Palliativdienst | Normal |
+| SAPV | § 37b SGB V | Spezialisiertes Team, 24h | Keine |
+| Ambulante Hospizdienste | § 39a Abs. 2 SGB V | Ehrenamtliche + professionelle Begleitung | Keine |
+| Stationäre Hospizversorgung | § 39a Abs. 1 SGB V | 95 % GKV-Finanzierung | 5 % Hospizbeitrag |
+| Palliativstation (KH) | § 39 SGB V | Vollstationäre Behandlung | Normal (§ 39 Abs. 4) |
+
+## Prüfprogramm
+
+### Schritt 1 – SAPV-Anspruch (§ 37b SGB V)
+- Voraussetzungen: nicht heilbare, weit fortgeschrittene Erkrankung mit begrenzter Lebenserwartung
+- Besonderer Versorgungsbedarf: kann nicht durch Hausarzt alleine bewältigt werden
+- Antrag: ärztliche Verordnung + Zustimmung Kasse (Genehmigungsfiktion § 13 Abs. 3a SGB V gilt)
+- Team: spezialisiertes SAPV-Team (Arzt + Pflegekraft + ggf. Sozialarbeiter)
+
+### Schritt 2 – Stationäre Hospizversorgung (§ 39a Abs. 1 SGB V)
+- GKV übernimmt 95 % der Kosten; Hospiz-Eigenanteil ca. 5 %
+- Voraussetzung: Sterben in absehbarer Zeit; Pflegegrad 3–5 oder mindestens 2 mit besonderem Pflegebedarf
+- Zuzahlungsbefreiung: keine Zuzahlung in der Hospizversorgung
+- Antrag bei Kasse mit Ärztlichem Attest und Hospiz-Aufnahmebescheid
+
+### Schritt 3 – Ambulante Hospizdienste (§ 39a Abs. 2 SGB V)
+- Palliative Care: 4 qualifizierte ehrenamtliche Stunden/Woche
+- GKV fördert ambulante Hospizdienste; kostenlos für Versicherte
+- Koordinierungsstellen in Kommunen; kein Antrag nötig
+
+### Schritt 4 – Schmerztherapie und Palliativmedikation
+- Opioide und Betäubungsmittel: ärztliche Verordnung nötig (BtMG)
+- GKV-Leistung: Palliativmedikation vollständig erstattungsfähig
+- Zuzahlung: grundsätzlich; Befreiung wenn Belastungsgrenze erreicht
+
+### Schritt 5 – Koordination mit PV und Sozialleistungen
+- Pflegeversicherung (SGB XI): ergänzende Leistungen; kein Ausschluss durch SAPV
+- Sterbegeld: wurde abgeschafft; kein GKV-Anspruch mehr
+- Hinterbliebenenberatung: Familien haben Anspruch auf psychosoziale Begleitung
+
+## Typische Fallen
+
+- **SAPV zu spät beantragt**: SAPV erst in allerletzter Phase beantragt; frühzeitige Verordnung ist sinnvoll wenn Kriterien erfüllt.
+- **Hospiz-Eigenanteil**: Viele Familien wissen nicht dass sie 5 % selbst tragen; Sozialhilfe kann übernehmen (§ 74 SGB XII).
+- **Genehmigungsfiktion**: Kasse reagiert nicht innerhalb 5 Wochen → SAPV gilt als genehmigt.
+- **Krankenhausabrechnung Palliativstation**: Oft als DRG statt Palliativpauschale (OPS 8-98e) abgerechnet; bei langer Verweildauer prüfen.
+
+## Output-Formate
+
+- SAPV-Verordnungs-Checkliste (für Arzt)
+- Hospiz-Aufnahmeantrag bei Kasse
+- Zuzahlungsbefreiungs-Antrag
+- Koordinationsbrief SAPV-Team + Hausarzt
+- Hinterbliebenen-Informationsblatt
+
+## Quellen
+
+- [§ 37b SGB V – SAPV](https://www.gesetze-im-internet.de/sgb_5/__37b.html)
+- [§ 39a SGB V – Hospiz](https://www.gesetze-im-internet.de/sgb_5/__39a.html)
+- [SAPV-Richtlinie G-BA](https://www.g-ba.de/richtlinien/35/)
+- [BSG B 1 KR 2/22 R](https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html)
+- [Deutsche Gesellschaft für Palliativmedizin](https://www.dgpalliativmedizin.de)
+- [dejure.org § 37b SGB V](https://dejure.org/gesetze/SGB_V/37b.html)

@@ -8,8 +8,8 @@ Jurisdiction: `pl` · Practice: `general` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`citing-polish-law`](skills/citing-polish-law/) | Use when formatting citations to Polish legislation, court rulings, Constitutional Tribunal decisions, EU… |
-| [`fetching-isap-sejm`](skills/fetching-isap-sejm/) | Use when retrieving Polish legislation text from the official portal isap.sejm.gov.pl (Internetowy System… |
+| [`law-pl-citing-polish-law`](skills/citing-polish-law/) | Use when formatting citations to Polish legislation, court rulings, Constitutional Tribunal decisions… |
+| [`law-pl-fetching-isap-sejm`](skills/fetching-isap-sejm/) | Use when retrieving Polish legislation text from the official portal isap.sejm.gov.pl (Internetowy… |
 | [`Poland Source Verification`](skills/poland-source-verification-xopoko/) | Source checks. Use when Polish facts may be stale. |
 
 ## Cold-start context

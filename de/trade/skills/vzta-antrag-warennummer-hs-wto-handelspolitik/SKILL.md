@@ -1,0 +1,86 @@
+---
+name: vzta-antrag-warennummer-hs-wto-handelspolitik
+title: 'vZTA-Antrag: Qualitaetsgate für verbindliche Zolltarifauskuenfte'
+description: 'Für vZTA-Antrag: Qualitätsgate für verbindliche Zolltarifauskünfte: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/vzta-antrag-warennummer-hs-wto-handelspolitik
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# vZTA-Antrag: Qualitaetsgate für verbindliche Zolltarifauskuenfte
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Importeur moechte vZTA für komplexes Elektrobauteil beantragen; Antrag unvollstaendig zurueckgegeben.
+- Unternehmen hat vZTA mit falschem HS-Code; abweichende Zollanmeldung und Nacherhebung.
+- Exporteur benoetigt vZTA für Serienprodukt zur Planungssicherheit; Antrag vorbereiten.
+
+## Erste Schritte
+
+1. Ware vollstaendig technisch beschreiben: Zusammensetzung Funktion Verwendungszweck Herstellungsverfahren.
+2. Muster oder Fotos beilegen soweit möglich und sinnvoll.
+3. Warennummer-Vorschlag nach KN/TARIC mit Begruendung (Allgemeine Vorschriften AV 1-6) formulieren.
+4. Antragsformular ZOLLV (Formular 0336) vollstaendig ausfuellen.
+5. Antrag beim BILDUNGSZENTRUM der Bundesfinanzverwaltung oder Hauptzollamt einreichen.
+6. Bindungswirkung prüfen: vZTA gilt EU-weit 3 Jahre; Rechtschutz gegen ablehnenden Bescheid kennen.
+
+## Rechtsrahmen
+
+- **UZK Art. 33-37**: Verbindliche Zolltarifauskuenfte und Bindungswirkung.
+- **UZK-DA Art. 19-22**: Verfahren und Anforderungen für vZTA-Antrag.
+- **Kombinierte Nomenklatur (KN)**: Systematische Einreihungsgrundlage.
+- **Allgemeine Vorschriften AV 1-6**: Regeln zur Wareneinreihung.
+- **UZK Art. 44**: Rechtsschutz gegen Zollentscheidungen einschliesslich vZTA.
+
+## Prüf-Raster
+
+- [ ] Warenbeschreibung technisch vollstaendig und eindeutig?
+- [ ] Muster oder Fotos beigefuegt?
+- [ ] Warennummer-Vorschlag mit AV-Begruendung formuliert?
+- [ ] Antragsformular vollstaendig ausgefuellt?
+- [ ] Einreichungsstelle korrekt identifiziert?
+- [ ] Geplante Nutzung der vZTA und Bindungswirkung verstanden?
+
+## Typische Fallstricke
+
+- Unvollstaendige technische Beschreibung fuehrt zur Rueckgabe ohne Bearbeitung.
+- vZTA bindet nur für die beschriebene Ware; Varianten benoetigen separate vZTA.
+- Ruelckgezogene oder widerrufene vZTA ohne Uebergangsfrist problematisch.
+- Abweichende Einreihung in vZTA und Zollanmeldung loest Strafzoll-Risiko aus.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [UZK Art. 33 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de vZTA](https://www.zoll.de/DE/Fachthemen/Zoelle/Zolltarif/Verbindliche-Zolltarifauskunft/verbindliche-zolltarifauskunft_node.html)
+- [UZK-DA auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R2446)

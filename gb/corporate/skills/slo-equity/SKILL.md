@@ -5,11 +5,26 @@ description: 'Use this skill when a UK seed-stage founder needs first-cut equity
 author: kerberosmansour
 author_url: https://github.com/kerberosmansour/SunLitOrchestra/tree/main/skills/slo-equity
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: corporate
 language: en
+sources:
+- title: Artifact schema
+  path: references/biz/artifact-schema.md
+- title: Cost baseline jpp law 2026
+  path: references/biz/cost-baseline-jpp-law-2026.md
+- title: Equity intake contract
+  path: references/biz/equity-intake-contract.md
+- title: Hmrc vcm index
+  path: references/biz/hmrc-vcm-index.md
+- title: Jurisdiction uk
+  path: references/biz/jurisdiction-uk.md
+- title: Triage gate
+  path: references/biz/triage-gate.md
+- title: Uk regulator enumeration
+  path: references/biz/uk-regulator-enumeration.md
 ---
 
 # /slo-equity — UK equity advisor + cofounder-split / vesting / cap-table drafter

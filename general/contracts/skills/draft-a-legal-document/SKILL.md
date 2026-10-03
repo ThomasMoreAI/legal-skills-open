@@ -5,7 +5,7 @@ description: Draft a legal document for you, like an NDA, a customer contract, a
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/draft-a-legal-document
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -62,6 +62,7 @@ Reads `config/context-ledger.json` first.
 - `universal.posture.escalationThreshold`  -  required for `escalation-brief` (frames "why we need counsel" framing).
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read ledger + legal context.** Gather missing required fields per above. Write atomically.
 2. **Discover tools via Composio** only when type needs one: `googledocs` / `notion` for mirror-copy (optional), `googledrive` for reading template library, `firecrawl` for landing-page scrape (privacy-policy, tos).

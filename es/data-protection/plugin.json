@@ -9,9 +9,12 @@
   "practice": "data-protection",
   "language": "es",
   "skills": [
+    "skills/derechos",
     "skills/eipd",
     "skills/encargo",
+    "skills/entrevista-inicial-2",
     "skills/gap",
-    "skills/rat"
+    "skills/rat",
+    "skills/triaje"
   ]
 }

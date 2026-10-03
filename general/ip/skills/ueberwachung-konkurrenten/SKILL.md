@@ -1,11 +1,11 @@
 ---
 name: ueberwachung-konkurrenten
 title: überwachung-konkurrenten
-description: Laufende Überwachung neuer Patentanmeldungen von Konkurrenten der Mandantin. Definiert Watch-Profile pro Mandant mit Anmelder-Namen (inklusive Konzern-Toechter und ehemaliger Schreibweisen), CPC-IPC-Klassen, Schlagwoerter, Territorien. Laeuft als woechentlicher oder monatlicher Job in Espacenet Smart Search Google Patents oder bei Bezahl-Tools wie PatBase Alert. Liefert Delta-Liste neuer Treffer seit letzter Iteration mit Bewertung relevant oder nicht relevant. Erinnert an Einspruchsfrist Art. 99 EPUe neun Monate ab Erteilungs-Veröffentlichung. Disclaimer Vollständigkeit nicht garantiert insbesondere bei Konzern-Konstruktionen und Tochterfirmen ohne klare Namens-Bindung.
+description: 'Für überwachung-konkurrenten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/ueberwachung-konkurrenten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -14,14 +14,13 @@ language: de
 
 # überwachung-konkurrenten
 
-## Zweck
+## Arbeitsweg
 
-Für viele Mandanten — insbesondere Mittelstands- und Konzernkundinnen — ist es wichtig, **neue Anmeldungen** von Konkurrenten frühzeitig zu erkennen. Anwendungsfälle:
-
-- **Einspruch** rechtzeitig einlegen (Art. 99 EPÜ — neun Monate ab Erteilungs-Veröffentlichung).
-- **FTO-Risiken** vor Markteintritt erkennen.
-- **Technologie-Strategie** der Konkurrenz beobachten.
-- **Lizenzverhandlungen** vorbereiten.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Watch-Profil
 
@@ -31,21 +30,21 @@ Pro Mandant ein Watch-Profil. Felder:
 mandant: Beispiel GmbH
 profil_name: Watch_Beispiel_2026
 anmelder:
-  - "Siemens AG"
-  - "Siemens Aktiengesellschaft"  # alte Schreibweise
-  - "Siemens Energy AG"  # ehemalige Tochter, ggf. relevant
-  - "Siemens Mobility GmbH"
-  - "Siemens Healthineers AG"
+ - "Siemens AG"
+ - "Siemens Aktiengesellschaft" # alte Schreibweise
+ - "Siemens Energy AG" # ehemalige Tochter, ggf. relevant
+ - "Siemens Mobility GmbH"
+ - "Siemens Healthineers AG"
 klassen_cpc:
-  - H02J 3/14
-  - H02J 3/00
-  - Y02E 60/00
+ - H02J 3/14
+ - H02J 3/00
+ - Y02E 60/00
 schlagworte_und:
-  - "lastmanagement"
-  - "demand response"
+ - "lastmanagement"
+ - "demand response"
 schlagworte_oder:
-  - "smart grid"
-  - "intelligentes Netz"
+ - "smart grid"
+ - "intelligentes Netz"
 territorien: [DE, EP, US, JP, CN, KR, WO]
 zeitfenster: ab Anmeldetag 01.01.2024
 publikationsstatus: [Anmeldung, Erteilung]
@@ -109,11 +108,6 @@ Aggregierter Bericht alle drei Monate mit:
 - **Datenverzögerung.** Veröffentlichung erfolgt 18 Monate nach Prioritätstag. Konkurrenz-Anmeldungen werden also erst 1,5 Jahre nach dem Anmeldetag sichtbar.
 - **Nicht-Patent-Literatur.** Ergänzend Google Scholar Alerts und Konferenz-Listings (IEEE, ACM) — Konkurrenten reden oft schon auf Konferenzen, bevor die Anmeldung publiziert ist.
 
-## Output
-
-- **Delta-Tabelle** mit Spalten: Datum, Veröff.-Nr., Anmelder, Anmeldetag, Status, Klassen, Titel, Relevanz, Einspruchsfrist (wenn anwendbar), Link.
-- **Empfehlung pro Treffer:** weiter beobachten / FTO-Recherche / Einspruch vorbereiten / Lizenzdialog.
-
 ## Disclaimer
 
 > **Hinweis zur Überwachung.** Diese laufende Überwachung ist eine KI-gestützte Vorrecherche. Vollständigkeit kann nicht garantiert werden — insbesondere bei Konzern-Konstruktionen mit Tochterfirmen ohne klare Namens-Bindung, bei Strohmann-Anmeldungen und bei Anmeldungen in nicht durchsuchten Klassen oder Sprachen. Einspruchsfristen sind durch die Patentanwältin in einer eigenständigen Prüfung der Veröffentlichungsdaten zu verifizieren bevor die Frist als verbindlich eingetragen wird.
@@ -122,20 +116,13 @@ Aggregierter Bericht alle drei Monate mit:
 
 Bevor die Monitoring-Konfiguration eingerichtet wird, klaere:
 1. Sind alle relevanten Konkurrenten-Anmelder-Namen (inkl. Tochtergesellschaften und Strohmann-Kanzleien) erfasst?
-2. Welche CPC/IPC-Klassen und Schluesselbegriffe sollen fuer das Keyword-Monitoring eingesetzt werden?
+2. Welche CPC/IPC-Klassen und Schlüsselbegriffe sollen für das Keyword-Monitoring eingesetzt werden?
 3. Ist eine Einspruchsfrist-Ueberwachung (9 Monate nach Erteilung, § 59 PatG / Art. 99 EPU) eingerichtet?
 4. Wird die 18-Monats-Veroeffentlichungsverzoegerung in der Strategieplanung beruecksichtigt?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> **EPA, Technische Beschwerdekammer, T 328/87 (Drittbeobachtungen):** Im EPA-Erteilungsverfahren koennen Dritte Beobachtungen (Art. 115 EPU) einreichen, ohne am Verfahren beteiligt zu werden; durch fruehzeitige Beobachtung koennen relevante Entgegenhaltungen in das Pruefungsverfahren eingebracht werden, bevor ein formeller Einspruch noetig wird.
+> **EPA, Technische Beschwerdekammer, T 328/87 (Drittbeobachtungen):** Im EPA-Erteilungsverfahren können Dritte Beobachtungen (Art. 115 EPU) einreichen, ohne am Verfahren beteiligt zu werden; durch fruehzeitige Beobachtung können relevante Entgegenhaltungen in das Prüfungsverfahren eingebracht werden, bevor ein formeller Einspruch noetig wird.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Massnahme: Datum und Leitsatz korrigiert auf tatsaechlichen Inhalt.
-Quelle: dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=19.09.2017&Aktenzeichen=X+ZB+1%2F17
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

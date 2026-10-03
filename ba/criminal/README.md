@@ -10,7 +10,7 @@ Jurisdiction: `ba` · Practice: `criminal` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`WCC-BiH — War Crimes Chamber of the Court of Bosnia and Herzegovina`](skills/wcc-bih-jeannesulzer/) | War Crimes Chamber of the Court of Bosnia and Herzegovina (WCC-BiH) — Section I (War Crimes) of the State… |
+| [`WCC-BiH — War Crimes Chamber of the Court of Bosnia and Herzegovina`](skills/wcc-bih-jeannesulzer/) | War Crimes Chamber of the Court of Bosnia and Herzegovina (WCC-BiH) — Section I (War Crimes) of the… |
 
 ## Cold-start context
 

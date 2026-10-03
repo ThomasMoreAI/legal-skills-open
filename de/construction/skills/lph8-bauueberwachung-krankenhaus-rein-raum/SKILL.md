@@ -1,0 +1,94 @@
+---
+name: lph8-bauueberwachung-krankenhaus-rein-raum
+title: Bauueberwachung Krankenhaus Reinraum (LPH 8)
+description: 'Für Bauüberwachung Krankenhaus Reinraum (LPH 8): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-krankenhaus-rein-raum
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Krankenhaus Reinraum (LPH 8)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Krankenhausbauten erfordern besondere hygienische Anforderungen an Lueftungsanlagen, Oberflaechen und Medienversorgung.
+Die Bauueberwachung nach HOAI LPH 8 prüft Reinraum-Klassen nach DIN 1946-4, Hygiene-Estrich und OP-Lampen-Anschluesse.
+Strahlenschutz-Raeume (Roentgen, MRT) erfordern Blei-Abschirmung nach StrlSchV mit spezifischen Prüfprotokollen.
+
+## Bauwerk und Auftrag
+
+- Krankenhaus-Neubau 8 OP-Saele, Bayern, Klinikum, Reinraum ISO 5 und ISO 6, Gesamtkosten 45 Mio. Euro
+- Onkologie-Zentrum Erweiterung 3 Bestrahlungsraeume, NRW, Universitaetsklinik, Linearbeschleuniger
+- Medizinisches Versorgungszentrum 5000 qm, Sachsen, Investorenmodell, 3 OPs, 2 Roentgen, 12 Mio. Euro
+
+## Erste Schritte auf der Baustelle
+
+1. Reinraum-Abnahmepruefung nach DIN 1946-4: Luftkeimzahl, Schwebstoffpartikel nach ISO 14644-1
+2. Lueftungsanlage OP: Ueberdruck 20 Pa, Luftwechselzahl min. 20 h-1, HEPA H14 Filter nach DIN EN 1822
+3. Hygiene-Estrich und Wandbeschichtung: Fugenloses Nahtlosstystem, Keimaufnahme-Prüfung nach DIN EN ISO 846
+4. Medizinische Gase: Druckluft 4 bar, Sauerstoff 4 bar, Vakuum 500 mbar, Druckpruefung je Leitungsabschnitt
+5. Roentgen-Strahlenschutz: Bleiglasdicke, Bleischuerzenbreite, Prüfung Baulastbescheinigung StrlSchV
+6. MRT-Abschirmung: Faraday-Kaefig-Test, HF-Abschirmung 80 dB, Erdung Abschirmgehaeuse
+
+## Normen und Rechtsrahmen
+
+- HOAI 2021 § 34 Anlage 10 LPH 8 Grundleistungen
+- § 650p BGB Architektenvertrag, § 650q BGB Kuendigung
+- DIN 1946-4 Lueftungstechnische Anlagen in Gebaeuden: Raumlufttechnik in Krankenhaeusern
+- DIN EN ISO 14644-1 Reinraeume: Klassifizierung der Luftreinheit nach Partikelkonzentration
+- DIN 13260 Medizinische Gasversorgung: Planung, Ausfuehrung und Prüfung
+- Strahlenschutzverordnung StrlSchV: Anforderungen an Strahlenraeume, Abschirmungsnachweis
+
+## Prüferaster und Kontrollpunkte
+
+1. Lueftungsabnahmepruefung: Luftvolumenstrom, Ueberdruck-Messung, Filtercheck HEPA H14 laut DIN 1946-4
+2. Partikelzaehlung: Reinraumklasse nach ISO 14644-1 Klasse 5 oder 6, Messung nach DIN EN ISO 14644-3
+3. Hygiene-Estrich: Schichtdicke, Fugenloses System, visuelle Dichtheitspruefung, Abklatschprobe RLU-Messung
+4. Medizingas-Druckpruefung: 1.5-fach Betriebsdruck, 30 Minuten, Protokoll je Entnahmestelle und Leitungsabschnitt
+5. Roentgen-Strahlenschutz: Bleidicken-Messung mittels Roentgendosimeter, Gutachten Medizinphysik
+6. MRT-Abschirmung: HF-Schirmdaempfung dB-Messung, Erdungsprotokoll, Freigabe MRT-Lieferant
+
+## Foto-, Video- und Dokumentenanalyse
+
+- BIM360 Coordination Krankenhaus: Clash-Detection Lueftung vs. Tragsystem vs. Medizingase
+- Dalux Field OP-Saal: Reinraum-Mangel mit Fotodokumentation, GPS-Pin im Grundriss, Verantwortlicher
+- Prüfprotokolle Reinraum: Partikelzaehlung nach ISO 14644-3, Luftkeimzahl, Druckdifferenz-Verlauf
+- Strahlenschutz-Gutachten: Roentgendosimetermessungen vor und nach Blei-Abschirmungseinbau
+- Medizingas-Prüfbericht: Druck, Durchfluss, Reinheit Sauerstoff, Zertifikat Prüfstelle
+
+## Meldungserstellung im ERP / SAP
+
+- SAP PM EAM Krankenhaus: Equipment-Hierarchie OP-Saal/Lueftung/Medizingase, Wartungsplaene
+- SAP PM Meldung M1 DRINGEND: Ausfall Lueftungsanlage OP, Kostenstelle Medizintechnik, Eskalation
+- PlanRadar Hygiene-Abnahme: Mangel-Kategorien Lueftung/Oberflaeche/Medizingas, Status
+- BIM360 Docs: Strahlenschutz-Gutachten, Reinraum-Prüfzertifikate als Dokument angehaengt
+- Nevaris oder RIB iTWO: Schlusskostenfeststellung OP-Ausbau, Gewerke-Abrechnung Lueftung/Medizingas
+
+## Typische Fallstricke
+
+- Luftkeimzahl zu hoch: Reinraum-Klassifizierung nicht erfuellt, OP nicht freigegeben, Nacharbeiten
+- Medizingas-Kreuzverbindung: Sauerstoff und Druckluft vertauscht, lebensgefaehrlich, Abnahme verweigern
+- Bleiabschirmung zu gering: Strahlenschutzbehoerde verweigert Betriebsgenehmigung
+- HEPA-Filter falsch eingebaut: Bypass-Stroemung möglich, Reinraumklasse nicht erreichbar
+
+## Quellen
+
+- [HOAI 2021 § 34](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [DIN 1946-4 Lueftung Krankenhaus](https://www.gesetze-im-internet.de/)
+- [DIN 13260 Medizinische Gase](https://www.gesetze-im-internet.de/)
+- [Strahlenschutzverordnung StrlSchV](https://www.gesetze-im-internet.de/strlschv_2018/index.html)
+- [DIN EN ISO 14644-1 Reinraeume](https://www.gesetze-im-internet.de/)

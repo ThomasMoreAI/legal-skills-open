@@ -1,0 +1,109 @@
+---
+name: flughafen-pfandrecht-vorbereiten
+title: Flughafen – Pfandrecht vorbereiten
+description: 'Für Flughafen – Pfandrecht vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/luftrecht-flughafenrecht/skills/flughafen-pfandrecht-vorbereiten
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: aviation
+language: de
+---
+
+# Flughafen – Pfandrecht vorbereiten
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: LuftVG; LuftSiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Bank finanziert Terminalerweiterung; will Grundschuld an Flughafengelände bestellen; Eigentümerstruktur (Bund/Land/Privat) komplex.
+- Leasinggeber will Grundschuld an Passagierterminal; Frage ob Pfandrecht oder Nießbrauch besser geeignet.
+- Investoren-Konsortium prüft Flughafenübernahme; Sicherheiten-Struktur muss vor Signing feststehen.
+
+## Erste Schritte
+
+1. Sachverhalt strukturieren: Flughafen Art des Problems beteiligte Behörden Fristen.
+2. Planfeststellungsstatus prüfen: LuftVG § 6/8 Genehmigung Auflagen aktuell.
+3. Grundbuch und Eigentümerstruktur klären: kommunal staatlich privatwirtschaftlich.
+4. LuftSiG-Sicherheitsprogramm auf Aktualität prüfen: EU-DVO 2015/1998 Anforderungen.
+5. Finanzlage einschätzen: EU-Beihilferechtsstatus Subventionen Darlehen.
+6. Handlungsbedarf dokumentieren: Vermerk mit Fristenstand und Empfehlungen.
+
+## Rechtsrahmen
+
+- **LuftVG §§ 6-8**: Flugplatzgenehmigung und Planfeststellungspflicht.
+- **LuftVG § 10**: Wirkung des Planfeststellungsbeschlusses.
+- **LuftSiG § 8**: Sicherheitspflichten des Flugplatzbetreibers.
+- **EU-DVO 2015/1998**: Technische Sicherheitsanforderungen.
+- **FluglärmG §§ 2-9**: Lärmschutzbereiche und Schallschutzansprüche.
+- **InsO §§ 15a 17-19**: Insolvenzantragspflicht.
+- **VwVfG §§ 72-78**: Planfeststellungsverfahren.
+- **LuftVG § 6**: Genehmigung des Flughafenbetriebs; sachliche und persönliche Voraussetzungen.
+- **LuftVG § 8**: Planfeststellungsverfahren für Flughafenausbau; UVP-Pflicht.
+- **LuftVG § 9**: Planfeststellungsbeschluss; Drittwirkung und Bestandsschutz.
+- **FluglärmG § 4**: Lärmschutzbereiche; Tagschutzzonen 1 und 2 sowie Nachtschutzzone.
+- **VwVfG § 72**: Planfeststellungsverfahren allgemein; Beteiligungsrechte betroffener Dritter.
+
+## Prüfraster
+
+1. Ist Planfeststellungsbeschluss aktuell und vollständig umgesetzt?
+2. Sind LuftSiG-Sicherheitsprogramme auf aktuellem EU-DVO-Stand?
+3. Ist Grundbuchsituation und Eigentümerstruktur klar?
+4. Bestehen offene Klagen oder Einwendungsverfahren?
+5. Zeigen Finanzkennzahlen Insolvenzfrühzeichen?
+6. Sind alle Auflagen aus Planfeststellungsbeschluss fristgerecht erfüllt?
+7. Ist eine UVP nach UVPG § 4 durchgeführt und aktuell?
+8. Sind Lärmschutzbereiche nach FluglärmG § 4 neu zu ermitteln nach Bauerweiterung?
+
+## Typische Fallstricke
+
+- Planfeststellungsauflagen veraltet und nicht auf aktuelles Recht angepasst.
+- LuftSiG-Sicherheitsprogramm nicht auf neue EU-DVO aktualisiert.
+- Insolvenzfrühzeichen bei regionalen Flughäfen unterschätzt.
+- Verfahrensfristen im Planfeststellungsverfahren versäumt.
+- Planfeststellungsbeschluss nicht vollständig umgesetzt; Auflagen aus Lärmschutzbereich vergessen.
+- Dritte (Anwohner) fristgerecht Klage erhoben; aufschiebende Wirkung ignoriert.
+
+## Vertiefung Pfandrechtsrecht
+
+Das Luftfahrzeugpfandrecht verbindet nationales Sachenrecht mit dem internationalen Cape-Town-System:
+
+- **Rangkonflikt**: Nationales Pfandrecht (LuftFzgG) und Cape-Town-Sicherungsinteresse können konkurrieren; Priorität richtet sich nach Eintragungsdatum im jeweiligen Register.
+- **Vollstreckung**: Pfandrechtsverwertung erfolgt durch öffentliche Versteigerung; ZPO § 864 regelt den besonderen Vollstreckungsweg für Luftfahrzeuge.
+- **Internationaler Arrest**: Luftfahrzeug kann im Ausland nach nationalen Regeln oder Cape-Town-Mechanismus arretiert werden; Koordination mit Local Counsel erforderlich.
+
+## Quellen
+
+- LuftVG: https://www.gesetze-im-internet.de/luftvg/BJNR006810922.html
+- LuftSiG: https://www.gesetze-im-internet.de/luftsig/
+- FluglärmG: https://www.gesetze-im-internet.de/fluglaermg/
+- UVPG: https://www.gesetze-im-internet.de/uvpg/
+- BVerwG Planfeststellung: https://www.bverwg.de
+
+## Hinweise für die Praxis
+
+Dieser Skill deckt den Bereich Flughafenbetrieb und Planfeststellung ab. Folgende praktische Hinweise ergänzen die obigen Ausführungen:
+
+- Rangkonflikt zwischen nationalem Pfandrecht und Cape-Town-Sicherungsinteresse muss vor Vertragsschluss geklärt werden.
+- Pfandrechtslöschung nach Tilgung der gesicherten Forderung unverzüglich veranlassen.
+- Bei Pfandrecht auf Triebwerke (als Zubehör) gesonderte Eintragung prüfen.
+- Internationale Kreditgeber verlangen regelmäßig Cape-Town-Eintragung als Bedingung.
+
+### Dokumentationspflichten
+
+Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Dokumente regelmäßig anzufordern:
+
+- Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
+- AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
+- Gültige Betriebsgenehmigung und AOC-Kopie
+- Leasingvertrag oder Eigentumsnachweis
+- Aktuelle Behördenbescheide und Aufsichtskorrespondenz

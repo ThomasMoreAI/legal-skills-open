@@ -5,11 +5,22 @@ description: 当用户需要判断保险理赔案件中的身故场景是否可�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/death-coverage-scope-judgment-assistant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: insurance
 language: zh
+sources:
+- title: Cause and attribute framework
+  path: references/cause-and-attribute-framework.md
+- title: Conclusion guidance
+  path: references/conclusion-guidance.md
+- title: Judgment framework
+  path: references/judgment-framework.md
+- title: Limitation checkpoints
+  path: references/limitation-checkpoints.md
+- title: Output schema
+  path: references/output-schema.md
 ---
 
 # 责任范围判断助手-身故版

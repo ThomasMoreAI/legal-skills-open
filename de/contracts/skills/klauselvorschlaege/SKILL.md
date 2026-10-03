@@ -1,11 +1,11 @@
 ---
 name: klauselvorschlaege
 title: Klauselvorschläge — Bausteine
-description: Liefere konkrete Mustertexte für Vertragsklauseln mit dem KI-Anbieter. Bausteine Verschwiegenheit Belehrung §§ 203 204 StGB Subunternehmer no training Zero-Retention EU-Hosting Audit-Recht Löschkonzept Professional Secrecy Addendum für US-Anbieter Gerichtsstand Anlage Normtext. Bausteine sind Vorlagen keine fertigen Vertraege.
+description: 'Für Klauselvorschläge — Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: klauselvorschlaege.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/klauselvorschlaege
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -14,9 +14,20 @@ language: de
 
 # Klauselvorschläge — Bausteine
 
-## Disclaimer
+## Arbeitsweg
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die Mustertexte sind Verhandlungsmaterial, kein fertiger Vertrag. Vor Unterzeichnung ist eine anwaltliche Prüfung im konkreten Vertragsumfeld erforderlich.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; § 43e BRAO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Klauselvorschläge — Bausteine
+
+- **KI-/Berufsrechtsproblem (Klauselvorschläge — Bausteine):** Liefere konkrete Mustertexte für Vertragsklauseln mit dem KI-Anbieter. Bausteine Verschwiegenheit Belehrung §§ 203 204 StGB Subunternehmer no training Zero-Retention EU-Hosting Audit-Recht Löschkonzept Professional Secrecy Addendum für US-Anbieter Gerichtsstand Anlage Normtext. Bausteine sind Vorlagen keine fertigen Verträge.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Dienstleisterregelungen der freien Berufe, Auftragsverarbeitung und technische Geheimnisschutzrealität.
+- **Entscheidende Weiche:** Mustertext, Anbieterbehauptung, technische Wirklichkeit, Berufsgeheimnis und Datenschutzrolle müssen getrennt bleiben.
+- **Arbeitsprodukt:** Vertragsbaustein, Gutachtenstruktur, Redline oder Anbieter-Fragenliste; Ergebnis bleibt Vorprüfung und wird nicht als fertige Berufsrechtsfreigabe ausgegeben.
 
 ## Aufbau
 
@@ -105,14 +116,6 @@ Anlage 1 zum Vertrag — Strafrechtliche Belehrung
 - Beim Subunternehmer-Zustimmungsvorbehalt (Baustein 4) wehren sich Anbieter, weil ihre Lieferkette dann statisch wird; ein Widerspruchsrecht mit kurzer Frist ist ein realistischer Kompromiss.
 - "no training" (Baustein 5) ist heute Marktstandard und sollte verbindlich werden, nicht nur Default-Setting in einem Account.
 
-## Output
-
-Markdown-Datei mit ausgewählten oder allen Bausteinen. Bei Bedarf in das Vertragsdokument einarbeiten lassen.
-
-## Aktuelle Rechtsprechung zur AGB-Kontrolle
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - §§ 305–310 BGB — AGB-Kontrolle; § 307 BGB (Unangemessene Benachteiligung)
@@ -120,9 +123,6 @@ Markdown-Datei mit ausgewählten oder allen Bausteinen. Bei Bedarf in das Vertra
 - §§ 43e Abs. 3, 62a Abs. 3, 50a Abs. 3, 39c Abs. 3, 26a Abs. 3 — Vertragsinhalt Dienstleisterregelung
 - § 203 Abs. 4 Satz 2 Nr. 1 StGB — Sekundärpflicht des Dienstleisters
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Welche Bausteine sind prioritär? (Verschwiegenheit und Belehrung immer; Drittstaat nur bei US-Anbieter)
@@ -140,18 +140,28 @@ Anbieter: [NAME] | Produkt: [PRODUKT]
 
 Anforderung: Aufnahme folgender Klauseln bis [FRIST]:
 
-Nr. | Baustein                    | Status       | Anbieter-Antwort
+Nr. | Baustein | Status | Anbieter-Antwort
 ----|-----------------------------|--------------|------------------
- 1  | Verschwiegenheit            | offen        |
- 2  | Strafrechtl. Belehrung      | offen        |
- 3  | Erforderlichkeitsschwelle   | offen        |
- 4  | Subunternehmer-Vorbehalt    | offen        |
- 5  | No training                 | [vorhanden/offen] |
- 6  | Zero Retention              | offen        |
- 7  | EU-Hosting                  | offen        |
- 9  | Audit-Recht / ISO 27001     | offen        |
-10  | Loeschkonzept               | offen        |
-13  | Prof. Secrecy Addendum (US) | entfaellt/offen |
+ 1 | Verschwiegenheit | offen |
+ 2 | Strafrechtl. Belehrung | offen |
+ 3 | Erforderlichkeitsschwelle | offen |
+ 4 | Subunternehmer-Vorbehalt | offen |
+ 5 | No training | [vorhanden/offen] |
+ 6 | Zero Retention | offen |
+ 7 | EU-Hosting | offen |
+ 9 | Audit-Recht / ISO 27001 | offen |
+10 | Loeschkonzept | offen |
+13 | Prof. Secrecy Addendum (US) | entfaellt/offen |
 
 Bei Nichtunterzeichnung bis [FRIST]: Vertragskuendigung zum [DATUM].
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

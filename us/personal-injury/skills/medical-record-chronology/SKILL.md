@@ -5,12 +5,22 @@ description: Creates verified, Bates-cited chronological summaries of medical re
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/medical-record-chronology
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: personal-injury
 language: en
-tags: [litigation, analysis, summarization]
+tags:
+- litigation
+- analysis
+- summarization
+sources:
+- title: Causation language patterns
+  path: references/causation-language-patterns.md
+- title: Output template docx
+  path: references/output-template-docx.md
+- title: Output template markdown
+  path: references/output-template-markdown.md
 ---
 
 # Medical Record Chronology

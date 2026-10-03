@@ -1,11 +1,11 @@
 ---
 name: kollektivrechtliche-loesungen-und-sozialplan
 title: Kollektivrechtliche Lösungen und Sozialplan bei BAV-Restrukturierungen
-description: 'Kollektivrechtliche Lösungen für bAV-Einschnitte: Betriebsvereinbarung, Sozialplan, Einigungsstelle. Normen: §§ 77 112 BetrVG, BetrAVG. Prüfraster: Mitbestimmungsrechte, Sozialplanvolumen, Ausgleichszahlungen. Output: Betriebsvereinbarungsentwurf bAV. Abgrenzung: nicht individuelle Versorgungsordnung.'
+description: 'Für Kollektivrechtliche Lösungen und Sozialplan bei BAV-Restrukturierungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/kollektivrechtliche-loesungen-und-sozialplan
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employee-benefits
@@ -14,10 +14,20 @@ language: de
 
 # Kollektivrechtliche Lösungen und Sozialplan bei BAV-Restrukturierungen
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Kollektivrechtliche Lösungen und Sozialplan bei BAV-Restrukturierungen
+
+- **bAV-Problem:** Betriebsvereinbarung, Sozialplan, Einigungsstelle. Normen: §§ 77 112 BetrVG, BetrAVG. Prüfraster: Mitbestimmungsrechte, Sozialplanvolumen, Ausgleichszahlungen. Output: Betriebsvereinbarungsentwurf bAV. Abgrenzung: nicht individuelle Versorgungsordnung.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -30,17 +40,12 @@ Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 - § 3 BetrAVG (Abfindungsverbot — Einschränkungen bei BAV-Abfindungen)
 - § 16 BetrAVG (Anpassungspflicht — läuft auch nach Betriebsstilllegung für Rentner weiter)
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - KSchG §§ 17–22 (Massenentlassung — Verknüpfung mit Sozialplan-Pflicht)
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Vorgehen
 
 ### Schritt 1: Auslösung der Sozialplan-Pflicht
@@ -56,11 +61,9 @@ Der Sozialplan gem. § 112 BetrVG ist zwingend bei Betriebsänderungen i.S.d. §
 - Betriebe mit 21–59 Arbeitnehmern: Entlassung von mindestens 20 % oder sechs Arbeitnehmern
 - Betriebe ab 60 Arbeitnehmern: Mindestentlassung 20 % oder 37 Arbeitnehmer
 
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Schritt 2: Pensionsspezifische Sozialplanbestandteile
 
-Dr. von Sompeh-Ostermann empfiehlt folgende pensionsspezifische Regelungen im Sozialplan:
+fachliche Leitung empfiehlt folgende pensionsspezifische Regelungen im Sozialplan:
 
 #### A — Schutz erdienter Anwartschaften
 Expliziter Besitzstandsschutz (über gesetzliche Mindestanforderungen hinaus):
@@ -86,14 +89,14 @@ Arbeitnehmer können wählen:
 
 ### Schritt 3: Sozialplan-Verhandlungsstrategie
 
-**Arbeitgeber-Position (Treuenfels Yamamoto-Strategieentwicklung):**
+**Arbeitgeber-Position (bAV-Projektteam-Strategieentwicklung):**
 
 1. **Finanzierungsrahmen fixieren:** Vor Verhandlungsbeginn Gesamtbudget intern festlegen (Entscheidung Vorstand/Aufsichtsrat); Betriebsrat über Budget nicht informieren (Verhandlungsreserve).
 
 2. **Prioritäten setzen:**
-   - Priorität 1: Schutz erdienter Anwartschaften (ohnehin rechtlich verpflichtend; kein Verhandlungsgegenstand)
-   - Priorität 2: Wirtschaftliche Ausgleichszahlungen für Future-Service-Einbußen
-   - Priorität 3: Abfindungsoptimierung (Alter, Betriebszugehörigkeit, BAV-Verlust)
+ - Priorität 1: Schutz erdienter Anwartschaften (ohnehin rechtlich verpflichtend; kein Verhandlungsgegenstand)
+ - Priorität 2: Wirtschaftliche Ausgleichszahlungen für Future-Service-Einbußen
+ - Priorität 3: Abfindungsoptimierung (Alter, Betriebszugehörigkeit, BAV-Verlust)
 
 3. **Verknüpfungsverbot beachten:** Betriebsrat kann den Interessenausgleich (§ 111 BetrVG) nicht verweigern, aber er hat kein Erzwingungsrecht beim Interessenausgleich (nur beim Sozialplan). Interessenausgleich und Sozialplan müssen getrennt verhandelt werden.
 
@@ -114,35 +117,35 @@ und dem Betriebsrat der [Konzern Muster AG]
 Dieses Modul des Sozialplans gilt für alle Arbeitnehmer, die
 a) von der Betriebsänderung [Bezeichnung] gem. § 1 des Sozialplans betroffen sind und
 b) zum Stichtag [Datum] eine unverfallbare Anwartschaft auf betriebliche Alters-
-   versorgung gem. §§ 1b, 2 BetrAVG erworben haben.
+ versorgung gem. §§ 1b, 2 BetrAVG erworben haben.
 
 § 2 Schutz erdienter Anwartschaften
 (1) Die zum Stichtag [Datum] erdienten unverfallbaren Versorgungsanwartschaften
-    gem. § 2 Abs. 1 BetrAVG werden für jeden betroffenen Arbeitnehmer durch das
-    Unternehmen in einer individuellen Besitzstandsauskunft dokumentiert und
-    unveränderlich festgeschrieben. Anlage [X] enthält die Besitzstandsberechnungen.
+ gem. § 2 Abs. 1 BetrAVG werden für jeden betroffenen Arbeitnehmer durch das
+ Unternehmen in einer individuellen Besitzstandsauskunft dokumentiert und
+ unveränderlich festgeschrieben. Anlage [X] enthält die Besitzstandsberechnungen.
 (2) Die erdienten Anwartschaften werden von der Betriebsänderung nicht berührt.
-    Sie werden im bisherigen Durchführungsweg (Direktzusage / Direktversicherung /
-    Pensionskasse) weitergeführt.
+ Sie werden im bisherigen Durchführungsweg (Direktzusage / Direktversicherung /
+ Pensionskasse) weitergeführt.
 
 § 3 Ausgleich für Future-Service-Einbußen
 (1) Arbeitnehmer, die infolge der Beendigung des Arbeitsverhältnisses vor
-    Vollendung des [Alter] Lebensjahres den Maximalanspruch gem. § [X] der
-    Versorgungsordnung nicht mehr erreichen können, erhalten einen Ausgleichsbetrag.
+ Vollendung des [Alter] Lebensjahres den Maximalanspruch gem. § [X] der
+ Versorgungsordnung nicht mehr erreichen können, erhalten einen Ausgleichsbetrag.
 (2) Der Ausgleichsbetrag errechnet sich wie folgt:
-    Differenz zwischen Maximalanspruch und erdienter Anwartschaft = EUR [X] p.m.
-    Kapitalwert dieser Differenz (versicherungsmathematisch) × Faktor [0,5]:
-    Ausgleichsbetrag = EUR [Betrag] (Einmalzahlung)
+ Differenz zwischen Maximalanspruch und erdienter Anwartschaft = EUR [X] p.m.
+ Kapitalwert dieser Differenz (versicherungsmathematisch) × Faktor [0,5]:
+ Ausgleichsbetrag = EUR [Betrag] (Einmalzahlung)
 (3) Der Ausgleichsbetrag wird als Einmalbeitrag in eine Direktversicherung auf
-    den Namen des Arbeitnehmers eingezahlt oder in bar ausgezahlt (Wahl
-    des Arbeitnehmers innerhalb von vier Wochen nach Zugang der Berechnung).
+ den Namen des Arbeitnehmers eingezahlt oder in bar ausgezahlt (Wahl
+ des Arbeitnehmers innerhalb von vier Wochen nach Zugang der Berechnung).
 
 § 4 Wahlmodell: Abfindung vs. Versorgungserhalt
 (1) Jeder betroffene Arbeitnehmer kann innerhalb von sechs Wochen nach Unterzeichnung
-    dieses Sozialplans wählen zwischen:
-    Option A: Reguläre Abfindung gem. Sozialplan-§ [X] ohne BAV-Ausgleich
-    Option B: Reduzierte Abfindung (gem. Sozialplan-§ [X] minus 20 %) plus
-              Einmalbeitrag in Direktversicherung gem. § 3 Abs. 3 dieses Moduls
+ dieses Sozialplans wählen zwischen:
+ Option A: Reguläre Abfindung gem. Sozialplan-§ [X] ohne BAV-Ausgleich
+ Option B: Reduzierte Abfindung (gem. Sozialplan-§ [X] minus 20 %) plus
+ Einmalbeitrag in Direktversicherung gem. § 3 Abs. 3 dieses Moduls
 (2) Ohne fristgemäße Wahl gilt Option A.
 
 § 5 Rentenanpassung nach § 16 BetrAVG — Verpflichtung des Unternehmens
@@ -166,13 +169,13 @@ Altersversorgungsansprüche der betroffenen Arbeitnehmer wie folgt zu
 behandeln:
 
 (1) Das Unternehmen sichert zu, die erdienten unverfallbaren Anwartschaften
-    gem. § 2 BetrAVG im bisherigen Durchführungsweg fortzuführen.
+ gem. § 2 BetrAVG im bisherigen Durchführungsweg fortzuführen.
 
 (2) Bei Arbeitnehmern mit Direktzusagen: PSV-Meldung wird aktualisiert;
-    keine Übertragung ohne Zustimmung des Arbeitnehmers (§ 4 Abs. 1 BetrAVG).
+ keine Übertragung ohne Zustimmung des Arbeitnehmers (§ 4 Abs. 1 BetrAVG).
 
 (3) Die Parteien vereinbaren, im Sozialplan ein separates BAV-Modul
-    aufzunehmen (→ Sozialplan-Modul gem. Template 1).
+ aufzunehmen (→ Sozialplan-Modul gem. Template 1).
 ```
 
 ---

@@ -1,0 +1,59 @@
+---
+name: confidentiality-and-trade-secrets
+title: Vertraulichkeit und Geschäftsgeheimnisse
+description: 'Für Vertraulichkeit und Geschäftsgeheimnisse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/confidentiality-and-trade-secrets
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Vertraulichkeit und Geschäftsgeheimnisse
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Das Gesetz zum Schutz von Geschäftsgeheimnissen (HGeschGehG, 2019) setzt die EU-Richtlinie 2016/943 um. Es schützt Informationen nur wenn angemessene Geheimhaltungsmaßnahmen ergriffen wurden. Ein wirksames NDA allein reicht nicht — organisatorische und technische Maßnahmen sind erforderlich. International gilt lex loci delicti für unerlaubte Handlungen.
+
+## Kernnormen / Kernquellen
+
+- **HGeschGehG § 2 Nr. 1**: Geschäftsgeheimnis-Definition — nicht allgemein bekannt, wirtschaftlicher Wert, angemessene Schutzmaßnahmen
+- **HGeschGehG § 4**: Verbotene Handlungen — Erlangung, Nutzung, Offenbarung
+- **HGeschGehG § 6-9**: Ansprüche (Unterlassung, Vernichtung, Schadensersatz)
+- **RL (EU) 2016/943 Art. 2**: EU-Grundlage des Geschäftsgeheimnisschutzes
+- **TRIPS Art. 39**: WTO-Mindeststandard für undisclosed information
+- **§ 17 UWG a.F.**: Verdrängter durch HGeschGehG, aber noch Übergangsrelevanz
+
+## Schlüsselbegriffe
+
+- Angemessene Schutzmaßnahmen: NDA, Zugangskontrollen, Wasserzeichen, Need-to-Know-Prinzip
+- Reverse Engineering: erlaubt wenn aus öffentlich verfügbarem Produkt (§ 3 Abs. 1 Nr. 2 HGeschGehG)
+- Whistleblowing-Ausnahme: Offenbarung zur Aufdeckung von Fehlverhalten (§ 5 HGeschGehG)
+- Grenzüberschreitend: lex loci delicti für Rechtsverletzung; IPR-Kollision bei globalem Leak
+- NDA-Laufzeit: meist 3-5 Jahre; für echte Geheimnisse unbegrenzt sinnvoll aber durchsetzbar?
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Lieferant erhält Spezifikation und gibt an Konkurrenten weiter: Schadensersatz nach HGeschGehG?
+2. "Angemessene Maßnahmen": Reicht NDA ohne technische Schutzmassnahmen?
+3. Reverse Engineering: Darf Wettbewerber legitim erworbenes Produkt nachkonstruieren?
+4. Whistleblower-Ausnahme: Mitarbeiter deckt umweltrechtlichen Verstoß auf — Schutz?
+5. NDA-Laufzeit unbegrenzt: Sittenwidrig nach § 138 BGB?
+
+## Methodik
+
+- Geheimhaltungsmaßnahmen: NDA + physische Zugangskontrolle + IT-Sicherheit + Mitarbeiter-Schulung
+- Dokumentation: welche Informationen sind Geheimnisse (Information Asset Register)
+- NDA-Gestaltung: klar definierter Geheimhaltungsgegenstand; Laufzeit 5 Jahre realistisch
+- Grenzüberschreitend: Rechtswahl und Gerichtsstand im NDA für Vollstreckbarkeit

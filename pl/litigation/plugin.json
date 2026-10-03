@@ -9,13 +9,13 @@
   "practice": "litigation",
   "language": "pl",
   "skills": [
-    "skills/calculating-oplata-sadowa",
+    "skills/applying-frankowicze-case-law",
     "skills/calculating-odsetki",
+    "skills/calculating-oplata-sadowa",
     "skills/checking-przedawnienie",
     "skills/determining-pl-jurisdiction",
     "skills/determining-wps",
-    "skills/searching-orzeczenia",
     "skills/searching-krs",
-    "skills/applying-frankowicze-case-law"
+    "skills/searching-orzeczenia"
   ]
 }

@@ -5,11 +5,18 @@ description: Use when implementing GDPR compliance, handling data subject reques
 author: omer-metin
 author_url: https://github.com/omer-metin/skills-for-antigravity/tree/main/skills/gdpr-privacy
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: data-protection
 language: en
+sources:
+- title: Patterns
+  path: references/patterns.md
+- title: Sharp edges
+  path: references/sharp_edges.md
+- title: Validations
+  path: references/validations.md
 ---
 
 # Gdpr Privacy

@@ -10,7 +10,7 @@ Jurisdiction: `ca` · Practice: `criminal` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`The Criminal Code of Canada (C-46)`](skills/canadian-criminal-code-vezril/) | The Criminal Code of Canada (R.S.C. 1985, c. C-46) as a navigable map — how the statute is organized and how… |
+| [`The Criminal Code of Canada (C-46)`](skills/canadian-criminal-code-vezril/) | The Criminal Code of Canada (R.S.C. 1985, c. C-46) as a navigable map — how the statute is organized and… |
 
 ## Cold-start context
 

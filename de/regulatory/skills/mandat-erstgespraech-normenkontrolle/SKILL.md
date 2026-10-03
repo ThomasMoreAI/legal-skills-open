@@ -1,11 +1,11 @@
 ---
 name: mandat-erstgespraech-normenkontrolle
 title: Erstgespräch Normenkontroll-Mandat
-description: 'Grundstueckseigentuemer oder Nachbar kommt wegen Bebauungsplan oder FNP in die Kanzlei. Erstgespraech Normenkontrollmandat. Prüfraster: Mandantenbetroffenheit Antragsbefugnis § 47 Abs. 2 VwGO Antragsfrist Statthaftigkeit Erstprüfung Plan-Unterlagen vorlaeufige Erfolgsaussichten Kostenaufklärung RVG Streitwert. Output: Erstgespraechen-Protokoll Mandatsannahme-Empfehlung Fallplan. Abgrenzung zu normenkontrollantrag-schriftsatz (Hauptschriftsatz) und jahresfrist-47-abs-2-vwgo.'
+description: 'Für Erstgespräch Normenkontroll-Mandat: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/mandat-erstgespraech-normenkontrolle
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Erstgespräch Normenkontroll-Mandat
-
-## Zweck
-
-Erste Sortierung eines Mandats gegen einen Bebauungsplan, Flächennutzungsplan oder eine örtliche Bauvorschrift. Ergebnis: belastbare Erst-Einschätzung der Erfolgsaussichten und Mandatsannahme-Entscheidung.
 
 ## Schritt 1 — Mandantendaten und Betroffenheitsfeststellung
 
@@ -173,8 +169,4 @@ Erste Sortierung eines Mandats gegen einen Bebauungsplan, Flächennutzungsplan o
 
 ## Aktuelle Rechtsprechung — Triage-relevante Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

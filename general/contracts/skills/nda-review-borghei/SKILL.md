@@ -5,11 +5,16 @@ description: Deep clause-by-clause NDA review from Recipient or Discloser perspe
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/nda-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
+sources:
+- title: Nda clause reference
+  path: references/nda_clause_reference.md
+- title: Nda review templates
+  path: references/nda_review_templates.md
 ---
 
 > **⚠️ EXPERIMENTAL** — This skill is provided for educational and informational purposes only. It does NOT constitute legal advice. All responsibility for usage rests with the user. Consult qualified legal professionals before acting on any output.
@@ -40,6 +45,16 @@ Deep clause-by-clause NDA review tool that analyzes agreements from Recipient or
 - [Tool Reference](#tool-reference)
 
 ---
+
+## Clarify First
+
+Before reviewing the NDA, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Your perspective: Recipient or Discloser** — flips every risk rating and the direction of each redline (the core `--perspective` input)
+- [ ] **Deal context** — M&A, employment, VC/fundraising, or standard commercial — triggers the variation callouts (standstill, invention assignment, portfolio conflicts)
+- [ ] **What you cannot accept** — non-compete, IP grant, perpetual term — sets which of the 7 immediate red flags force escalation vs negotiation
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the issue log.
 
 ## Tools
 

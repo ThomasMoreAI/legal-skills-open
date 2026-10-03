@@ -1,18 +1,18 @@
 ---
 name: checking-pozovna-davnist
-title: checking-pozovna-davnist
+title: law-ua-checking-pozovna-davnist
 description: Use when checking Ukrainian statute of limitations (позовна давність) for a claim — determining applicable general vs. special period, calculating when the period starts, identifying grounds for suspension/interruption, or evaluating whether a missed deadline can be restored
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-checking-pozovna-davnist
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: litigation
 language: uk
 ---
 
-# checking-pozovna-davnist
+# law-ua-checking-pozovna-davnist
 
 Пропуск позовної давності — типова підстава для відмови в позові. Перевірка строку — обов'язковий крок перед складанням позовної заяви.
 

@@ -1,0 +1,29 @@
+---
+name: note-4-formeln-erkennen
+title: Unterdurchschnittliche Bewertung prüfen
+description: Prüft gezielt, ob die zusammenfassende Leistungsbewertung eines Arbeitszeugnisses die Zielstufe ‚ausreichend‘ trägt. Klärt Tatsachengrundlage und Beweisfolge; nicht für eine offene Noteneinordnung oder die Verhaltensbeurteilung.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnispruefer/skills/note-4-formeln-erkennen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Unterdurchschnittliche Bewertung prüfen
+
+## 1. Einordnung
+
+Ermittle zunächst den arbeitsplatzbezogenen Leistungsmaßstab nach Paragraf 109 GewO. Die Zufriedenheitsskala ist in BAG, Urteil vom 18. November 2014, 9 AZR 584/13, Rn. 10 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)), erläutert. Das erlaubt keine Abwertung anhand beliebiger Wortlisten. Verlange bei behaupteter Minderleistung konkrete Vorgänge, Zeitraum, Aufgabenanforderung und Auswirkung; das bloße Fehlen von Lob ist kein Beweis.
+
+Identifiziere die zusammenfassende Leistungsbeurteilung. Formulierungen wie „zur Zufriedenheit“, „im Wesentlichen zur Zufriedenheit“ oder eine auf bloßes Bemühen beschränkte Aussage können auf eine unterdurchschnittliche Bewertung hindeuten. Entscheidend sind Satzfunktion, genaue Syntax und leistungsbezogene Einzelsätze. Ein einzelnes Wort ist nicht ohne Kontext als feste Note oder eigenständiger Mangel auszugeben.
+
+Will der Arbeitgeber insgesamt eine unterdurchschnittliche Leistung bescheinigen, muss er die hierfür maßgeblichen Tatsachen im Streitfall darlegen und beweisen. Das erlaubt nicht, jede schwächere Nebenformulierung automatisch als Gesamtbewertung zu behandeln. Trenne eine tatsächlich schlechtere Beurteilung von einer unklaren, unvollständigen oder lediglich ungelenken Formulierung.
+
+## 2. Ergebnis und Fortführung
+
+Gib Originalwortlaut, Funktion des Satzes, wahrscheinliche Bewertungsstufe, Kontext, Tatsachengrundlage und Beweisfolge an. Formuliere einen Ersatzsatz, der entweder die belegte Bewertung klar ausdrückt oder die unbelegte Abwertung beseitigt. Behaupte ohne Beleg keine gute oder sehr gute Leistung.
+
+Führe das Ergebnis in den laufenden Bericht und das bestellte Dokument zurück. Frage nur nach Tatsachen, die für die schlechtere oder begehrte bessere Bewertung erheblich sind; andere Teile werden fertiggestellt. Nach der Antwort setzt du am offenen Punkt ohne Neustart fort. Die Bearbeitung darf nicht bei der Feststellung „unterdurchschnittlich“ stehen bleiben, wenn eine konkrete Fassung verlangt ist.

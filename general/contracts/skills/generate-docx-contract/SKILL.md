@@ -5,7 +5,7 @@ description: Generate an editable DOCX service agreement with parties, terms, an
 author: iterationlayer
 author_url: https://github.com/iterationlayer/skills/tree/main/skills/generate-docx-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -18,11 +18,11 @@ Legal teams and SaaS companies use this recipe to generate a service agreement p
 
 ## APIs Used
 
-Document Generation (2 credits/request)
+Document Generation (1 credits/request)
 
 ## Prerequisites
 
-You need an Iteration Layer API key. Get one at [platform.iterationlayer.com](https://platform.iterationlayer.com) — free trial credits included, no credit card required.
+You need an Iteration Layer API key. Get one at [platform.iterationlayer.com](https://platform.iterationlayer.com) during the 7-day trial.
 
 For full integration guidance (SDKs, auth, MCP, error handling), see the [Iteration Layer Integration Guide](https://iterationlayer.com/SKILL.md).
 

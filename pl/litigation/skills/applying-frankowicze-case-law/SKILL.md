@@ -1,18 +1,18 @@
 ---
 name: applying-frankowicze-case-law
-title: applying-frankowicze-case-law
+title: law-pl-applying-frankowicze-case-law
 description: Use when working on Polish CHF mortgage cases (frankowicze) — TSUE (C-260/18 Dziubak, C-520/21 Bank M., C-287/22 Getin, C-140/22 mBank, C-776/19 BNP), uchwały SN (III CZP 6/21, 11/21, 25/22), nieważność klauzul indeksacyjnych, teoria dwóch kondykcji, zabezpieczenie powództwa, obliczenie roszczenia
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-frankowicze-case-law
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# applying-frankowicze-case-law
+# law-pl-applying-frankowicze-case-law
 
 Kredyty indeksowane / denominowane do CHF to największy spór konsumencki w Polsce ostatniej dekady. Ponad 100 000 pozwów w sądach, kilkadziesiąt miliardów złotych w grze. Orzecznictwo TSUE i SN zbudowało stabilny fundament po stronie konsumentów — ale praktyka sądowa wciąż zawiera niuanse, które decydują o wygranej / przegranej konkretnej sprawy.
 
@@ -102,7 +102,7 @@ Teoria **dwóch kondykcji** ma podstawę w prawie UE; teoria salda (automatyczne
 
 ### Uchwała III CZP 25/22 (25.04.2024) — weryfikować aktualne
 
-Kolejne doprecyzowania kwestii frankowiczowskich. Aktualizować przez skill `searching-orzeczenia` (baza sn.pl).
+Kolejne doprecyzowania kwestii frankowiczowskich. Aktualizować przez skill `law-pl-searching-orzeczenia` (baza sn.pl).
 
 ### Starsze uchwały
 
@@ -141,7 +141,7 @@ Kolejne doprecyzowania kwestii frankowiczowskich. Aktualizować przez skill `sea
 
 **Obliczenie:**
 - Wszystkie uiszczone raty (kapitał + odsetki) od początku kredytu.
-- Odsetki ustawowe za opóźnienie od dnia wezwania do zapłaty (art. 481 KC; skill `calculating-odsetki`).
+- Odsetki ustawowe za opóźnienie od dnia wezwania do zapłaty (art. 481 KC; skill `law-pl-calculating-odsetki`).
 - Zwrot opłat dodatkowych (prowizja, ubezpieczenie niskiego wkładu, ubezpieczenie pomostowe).
 
 **Strategia:** pozew zwykle za okres wstecz (zwykle od 6 lat — okres nieprzedawniony). Można też z okresem przedawnionym, jeżeli są argumenty (np. początek biegu od świadomości — C-776/19).

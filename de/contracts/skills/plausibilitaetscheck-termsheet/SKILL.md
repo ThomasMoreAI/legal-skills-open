@@ -1,0 +1,78 @@
+---
+name: plausibilitaetscheck-termsheet
+title: Plausibilitätscheck
+description: 'Für Plausibilitätscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsausfueller/skills/plausibilitaetscheck-termsheet
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Plausibilitätscheck
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Vertragsspezifisch; § 195 BGB Regelverjährung 3 Jahre, § 14 BGB-InfoV Widerrufsfrist 14 Tage, EuGH-Vorgaben zu Klausel-Transparenz.
+- Tragende Normen verifizieren: BGB §§ 133, 157, 305-310 (AGB-Kontrolle), 311b, 311c, 433, 488, 535, 631, 651a, 765, NachwG, FormularG, AGG (Diskriminierungsverbot) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Vertragspartner, Rechtsabteilung, Notar bei Formerfordernis, Datenschutzbeauftragter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Mustervertrag, Termsheet, Klauselkatalog, Altvertrag, Vertragsentwurf mit Track Changes, AGB-Prüfraster — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+
+1. Sind alle Geldbeträge konsistent (Netto + Umsatzsteuer = Brutto; Gesamtmiete = Kaltmiete + Nebenkosten)?
+2. Sind alle Fristen kalendergenau und rechtlich zulässig (z.B. keine unzulässig kurzen Widerrufsfristen)?
+3. Stimmen Anlagenverzeichnis und Anlagenbezugnahmen im Text überein?
+4. Sind Parteidaten vollständig und aktuell (Handelsregistereintrag, Vertreter)?
+
+## Zentrale Normen
+
+- § 551 BGB — Höchstgrenze Kaution (3 Monatskaltmieten)
+- § 556 BGB — Betriebskosten Abrechnung (Jahresfrist)
+- § 288 BGB — Verzugszinsen (§ 288 Abs. 1: 5 Prozentpunkte B2C; § 288 Abs. 2: 9 Prozentpunkte B2B)
+- § 269 BGB — Leistungsort (relevant für Fristberechnung)
+
+## Startet bei
+
+- hochgeladener Word-Vorlage oder altem Vertrag
+- Term Sheet, E-Mail, Tabelle oder Freitext mit Eckdaten
+- Wunsch nach neuem Vertragsentwurf
+- Wunsch nach Redline oder Track Changes
+
+## Workflow
+
+1. Gesamtmiete gegen Kaltmiete und Nebenkosten rechnen.
+2. Kaution gegen Monatsmieten, Mietbeginn gegen Laufzeitende und Optionsfristen prüfen.
+3. Verweise auf Anlagen, Klauseln und Signaturblöcke kontrollieren.
+4. Unplausibles als rote Rückfrage markieren, nicht still korrigieren.
+
+## Ausgabe
+
+- Vertragsdatenmatrix
+- Rückfragenliste
+- Ausfüllprotokoll
+- Entwurfs- oder Prüfvermerk
+- klare Stopper vor Track Changes, falls noch keine ausdrückliche Bestätigung vorliegt
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Leitplanken
+
+- Originaldateien werden nie überschrieben.
+- Track Changes, Redline oder Vergleichsfassung nur nach ausdrücklicher Rückfrage und Bestätigung.
+- Offene Werte bleiben sichtbar; sie werden nicht erfunden.
+- Juristische Wahlentscheidungen werden erklärt und protokolliert.
+
+---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

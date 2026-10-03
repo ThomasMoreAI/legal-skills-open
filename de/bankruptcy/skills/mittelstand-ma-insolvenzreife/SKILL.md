@@ -1,11 +1,11 @@
 ---
 name: mittelstand-ma-insolvenzreife
 title: Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)
-description: 'Unternehmen in M&A-Situation oder Krise und Anwalt prüft ob Insolvenzantragspflicht besteht: Zahlungsunfähigkeit drohende Zahlungsunfähigkeit Überschuldung StaRUG-Schwelle. Normen §§ 17-19 InsO § 15a InsO §§ 1-4 StaRUG. Prüfraster Zahlungsunfähigkeitstest Überschuldungsprüfung Fortbestehensprognose Antragspflicht-Timing. Output Insolvenzreife-Ampel Antragspflicht-Gutachten Handlungsempfehlung. Abgrenzung zu restructuring-starug-insolvenzplan (Plangestaltung) und liquiditaetsvorschau (Cash-Modell).'
+description: 'Für Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/mittelstand-ma-insolvenzreife
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,6 +13,28 @@ language: de
 ---
 
 # Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)
+
+## Arbeitsbereich
+
+Unternehmen in M&A-Situation oder Krise und Anwalt prüft ob Insolvenzantragspflicht besteht: Zahlungsunfähigkeit drohende Zahlungsunfähigkeit Überschuldung StaRUG-Schwelle. Normen §§ 17-19 InsO § 15a InsO §§ 1-4 StaRUG. Prüfraster Zahlungsunfähigkeitstest Überschuldungsprüfung Fortbestehensprognose Antragspflicht-Timing. Output Insolvenzreife-Ampel Antragspflicht-Gutachten Handlungsempfehlung. Abgrenzung zu restructuring-starug-insolvenzplan (Plangestaltung) und liquiditaetsvorschau (Cash-Modell). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO; StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Freistehender Insolvenzreife- und StaRUG-Schwellencheck (Mittelstand)
+- **Normen-/Quellenanker:** GmbHG, HGB, BGB, UmwG, WpÜG/GWB/AWG je nach Transaktion, Satzung, Geschäftsordnung, Gesellschafterbeschluss und Beiratsordnung.
+- **Entscheidende Weiche:** Trenne Dealstruktur, Organbeschluss, Zustimmungsvorbehalt, Informationsrecht, Haftung, Interessenkonflikt und Vollzugsdokument.
 
 ## Kernsachverhalt
 
@@ -28,7 +50,7 @@ Im Mittelstand ist die Insolvenzreife-Prüfung besonders heikel, weil der Gesell
 6. Hat der Steuerberater auf Fortführungszweifel hingewiesen (§ 321a HGB analog, Going-Concern)?
 7. Welche M&A-Auswirkungen sind zu prüfen — MAC-Trigger, Closing Condition, Kaufpreisminderung?
 8. Kennt der GF seine persönliche Haftungsexposition aus § 15b InsO?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -50,16 +72,14 @@ Im Mittelstand ist die Insolvenzreife-Prüfung besonders heikel, weil der Gesell
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema (Mittelstand)
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfungspunkt | Inhalt | Ergebnis |
 |---|---|---|---|
-| 1 | Datenqualität sicherstellen | Bankkontoauszüge, OPOS, BWA, JA, Steuerrückstandsauskunft; Lücken als TODO | Datenlücken-Liste |
+| 1 | Datenqualität sicherstellen | Bankkontoauszüge, OPOS, BWA, JA, Steuerrückstandsauskunft; Lücken mit Verantwortlichem und Frist | Datenlücken-Liste |
 | 2 | Krisenindikator-Screening | Überzogener Kontokorrentkredit, Rücklastschriften, Lieferantensperren, Steuerrückstände, GF-Ratlosigkeit | Indikatoren dokumentiert |
 | 3 | Liquiditätsstatus erstellen | Aktuelle Banksalden; OPOS fällig < 3 Wochen; Deckungslücke berechnen | Deckungslücke EUR [X] |
 | 4 | § 17 InsO-Prüfung | Deckungslücke > 10 %? Dauer > 3 Wochen? Ausreichende Einzahlungen plausibel? | § 17 InsO: [Ja / Nein / unklar] |
@@ -107,17 +127,16 @@ Im Mittelstand ist die Insolvenzreife-Prüfung besonders heikel, weil der Gesell
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Insolvenzreife fuer Mittelstand pruefen | Insolvenzreife-Pruefung nach Schema; Schriftsatz unten |
-| Variante A — Mittelstand hat noch Gesellschafter-Darlehen | Nachrangigkeit pruefen; Eigen- vs Fremdkapital abgrenzen |
+| Standard — Insolvenzreife für Mittelstand prüfen | Insolvenzreife-Prüfung nach Schema; Schriftsatz unten |
+| Variante A — Mittelstand hat noch Gesellschafter-Darlehen | Nachrangigkeit prüfen; Eigen- vs Fremdkapital abgrenzen |
 | Variante B — Sanierungs-LOI mit Investor vorhanden | Fortbestehensprognose mit LOI als Grundlage |
-| Variante C — Betrieb soll kurzfristig eingestellt werden | Kontrolllierte Liquidation statt Insolvenzantrag pruefen |
+| Variante C — Betrieb soll kurzfristig eingestellt werden | Kontrolllierte Liquidation statt Insolvenzantrag prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -139,7 +158,6 @@ OPOS Kreditoren [Datum]) teilen wir Ihnen folgende erste Einschätzung mit:
 
 LIQUIDITÄTSSTATUS: Die fälligen Verbindlichkeiten übersteigen die verfügbare Liquidität
 um EUR [X] (ca. [Y] %). Dies überschreitet die BGH-Schwelle für Zahlungsunfähigkeit
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 PERSÖNLICHE HAFTUNG: Bei Eintritt der Zahlungsunfähigkeit sind Sie als Geschäftsführer
 verpflichtet, innerhalb von 3 Wochen Insolvenzantrag zu stellen (§ 15a InsO). Zahlungen,
@@ -170,36 +188,35 @@ Liquiditätsstatus Zielgesellschaft: AMPEL ROT (Stand [Datum])
 DEAL-AUSWIRKUNGEN:
 
 1. MAC-Klausel (SPA Ziffer [X]): Die festgestellte Liquiditätslücke von EUR [X]
-   (> 10 % der fälligen Verbindlichkeiten) könnte als Material Adverse Change
-   im Sinne der SPA-Definition zu qualifizieren sein.
-   EMPFEHLUNG: Vollzug suspendieren bis zur Klärung.
+ (> 10 % der fälligen Verbindlichkeiten) könnte als Material Adverse Change
+ im Sinne der SPA-Definition zu qualifizieren sein.
+ EMPFEHLUNG: Vollzug suspendieren bis zur Klärung.
 
 2. Closing Condition: Garantie der Zahlungsfähigkeit (SPA Ziffer [X]) ist bei
-   Zahlungsunfähigkeit nicht erfüllt. Käufer kann Vollzug verweigern.
+ Zahlungsunfähigkeit nicht erfüllt. Käufer kann Vollzug verweigern.
 
 3. Net Debt Erhöhung: Steuerrückstände EUR [X] und KK-Überziehung EUR [Y] erhöhen
-   Net Debt um EUR [Z] → Kaufpreisminderung von EUR [Z] (per SPA-Mechanik).
+ Net Debt um EUR [Z] → Kaufpreisminderung von EUR [Z] (per SPA-Mechanik).
 
 4. W&I-Versicherung: Police Ziffer [X] schließt Schäden aus, die auf Insolvenzreife
-   beruhen. W&I-Broker informieren.
+ beruhen. W&I-Broker informieren.
 
 NÄCHSTE SCHRITTE:
-TODO [Käufer-Anwalt]: MAC-Analyse abschließen bis [Datum]
-TODO [Käufer-GF]: Finanzierungsbereitschaft bei MAC neu bewerten
-TODO [W&I-Broker]: Police-Ausschlüsse klären bis [Datum]
+- Käufer-Anwalt: MAC-Analyse bis [Datum] abschließen.
+- Käufer-Geschäftsführung: Finanzierungsbereitschaft bei MAC-Szenario neu bewerten.
+- W&I-Broker: Police-Ausschlüsse bis [Datum] klären.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Streitwert und Kosten
 
@@ -231,7 +248,9 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - § 15b InsO (Zahlungsverbot bei Insolvenzreife; rechtsformneutral seit 01.01.2021): https://www.gesetze-im-internet.de/inso/__15b.html
 - §§ 17, 18, 19 InsO (Zahlungsunfaehigkeit, drohende ZU, Ueberschuldung): https://www.gesetze-im-internet.de/inso/__17.html
 - StaRUG (Unternehmensstabilisierungs- und -restrukturierungsgesetz; in Kraft seit 01.01.2021 durch SanInsFoG, BGBl. I 2020, 3256): https://www.gesetze-im-internet.de/starug/
-- §§ 1-93 StaRUG (insbesondere § 29 StaRUG-Plan, § 49 StaRUG-Vollstreckungssperre): https://www.gesetze-im-internet.de/starug/__1.html
+- StaRUG, insbesondere Paragrafen 2 bis 28 für Restrukturierungsplan und Annahme, Paragraf 31 für die Anzeige sowie Paragrafen 49 bis 59 für Stabilisierung: https://www.gesetze-im-internet.de/starug/
 - § 43 GmbHG: https://www.gesetze-im-internet.de/gmbhg/__43.html
-- §§ 823, 826 BGB (Insolvenzverschleppungs-Haftung gegenueber Glaeubigern als Schutzgesetz iVm § 15a InsO): https://www.gesetze-im-internet.de/bgb/__823.html
-- Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe ueber offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- §§ 823, 826 BGB (Insolvenzverschleppungs-Haftung gegenueber Gläubigern als Schutzgesetz iVm § 15a InsO): https://www.gesetze-im-internet.de/bgb/__823.html
+- Rechtsprechung im Uebrigen: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

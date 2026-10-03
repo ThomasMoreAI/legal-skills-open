@@ -8,7 +8,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `aviation` · Skill language var
 
 | Skill | What it does |
 |---|---|
-| [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. and international regulatory… |
+| [`Aviation Law Summary`](skills/aviation-law-summary/) | Produces structured aviation law summaries with Bluebook citations covering U.S. and international… |
 
 ## Cold-start context
 

@@ -1,0 +1,67 @@
+---
+name: ai-output-authorship-title17
+title: AI Output und Copyrightability
+description: 'Für digitale Werkzeuge Output und Copyrightability: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/us-copyright-registrierung-verlag/skills/ai-output-authorship-title17
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: us
+practice: ip
+language: de
+---
+
+# AI Output und Copyrightability
+
+## Fachkern: AI Output und Copyrightability
+- **Normen-/Quellenanker:** Title 17 U.S.C., Copyright Office Compendium, eCO-Verfahren, deposit/best edition, DMCA, fair use, termination, work made for hire und international treaties.
+- **Entscheidende Weiche:** Werkart, Autor/Rechteinhaber, Veröffentlichung, Deposit, Claim/Exclusion, Registrierungsdatum, Enforcement-Ziel und US-Prozessnutzen trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Code- und Quellenanker
+
+- USCO AI Report Part 2 (Copyrightability)
+- USCO Policy Statement zu Werken mit KI-generiertem Material
+- 17 U.S.C. § 102
+
+Aktuelle Fassungen, Forms, Fees, Local Rules und Court-Practice immer live über offizielle Quellen prüfen. Keine Modellzitate zu US-Rechtsprechung verwenden, wenn Gericht, Datum, Aktenzeichen/Docket und freie Quelle nicht geprüft sind.
+
+## Materielle Leitplanken
+
+- **Human authorship zuerst:** Erfrage, welcher konkrete Ausdruck von Menschen stammt: Textfassung, Auswahl, Anordnung, Bildkomposition, Nachbearbeitung, Schnitt, Layout, redaktionelle Verdichtung, Übersetzung oder Kommentar.
+- **AI output begrenzen:** Maschinell erzeugtes Material nicht als menschlichen Claim verkaufen. Wenn es übernommen wird, als excluded material/disclaimer vorbereiten und die menschliche Bearbeitung separat beschreiben.
+- **Nicht nur Prompt-Protokoll:** Prompts, Parameter und Modellnamen sind Belege für den Entstehungsprozess, ersetzen aber nicht die Analyse des menschlichen kreativen Beitrags am Endwerk.
+- **Registrierungsstrategie:** Bei gemischten Werken kann eine engere Registrierung besser sein als ein überbreiter Claim. Immer zwischen Schutzfähigkeit, eCO-Disclosure, späterer Prozessverwertbarkeit und Verlagskommunikation abwägen.
+- **Output:** Claim-Scope-Tabelle mit Werkbestandteil, Quelle, menschlichem Beitrag, AI-Anteil, eCO-Formulierung, Risiko und US-Counsel-Frage.
+
+## Intake-Fragen
+
+- Welche AI-Anteile enthält das Werk?
+- Was ist menschlich ausgewählt, verändert oder arrangiert?
+- Wie wird im Antrag disclaimed?
+
+## Workflow
+
+1. Human contribution dokumentieren.
+2. AI material abgrenzen.
+3. Registration statement vorbereiten.
+
+## Tiefencheck für die Akte
+
+Arbeite hier nicht nur abstrakt, sondern als Rechte-, Werk- und Beweisfilter:
+
+- Welche Bestandteile stammen menschlich, maschinell, kuratiert, ausgewählt, arrangiert oder redaktionell bearbeitet?
+- Muss AI-generated material im Antrag ausgeschlossen, beschrieben oder nur intern dokumentiert werden?
+- Geht es um output copyrightability, training input, model weights, prompt logs, dataset clearance oder warranties?
+- Welche aktuellen USCO-Materialien und laufenden US-Verfahren dürfen nur als Risikoanker, nicht als sichere Rechtslage behandelt werden?
+
+**Mindest-Output:** AI-Copyright-Matrix mit Human-Authorship-Anteil, ausgeschlossenen Elementen, Disclosure und Litigation-Issues.
+
+## Qualitäts- und Risikofilter
+
+- US-Bundesrecht, State-Law-Claims und Vertragsrecht strikt trennen.
+- Bei drohender US-Litigation fruehzeitig US-Counsel einschalten.
+
+- Unklare US-Rechtsfragen werden nicht als sicher verkauft, sondern als Issue List für US-Counsel markiert.
+- Zahlen, Fristen, Fees, Formulare und Schwellenwerte werden vor konkreter Verwendung anhand offizieller aktueller Quellen geprüft.

@@ -9,10 +9,10 @@ Jurisdiction: `us` · Practice: `construction` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`Construction Law Case Summary`](skills/construction-case-summary/) | Produces structured U.S. construction law case summaries with timelines, holdings, damages, and risk… |
-| [`Construction Defect Complaint`](skills/construction-defect-complaint/) | Drafts U.S. construction defect complaints against contractors, developers, and design professionals with… |
-| [`Contract Administration Skill`](skills/contract-administration-fdu-ins/) | Manage construction contract administration from the field perspective. Covers AIA contract forms (A101,… |
-| [`Mechanic's Lien Foreclosure Complaint`](skills/lien-foreclosure/) | Drafts a mechanic's lien foreclosure complaint to enforce unpaid construction liens through court-ordered… |
-| [`Subcontractor Agreement`](skills/subcontractor-agreement/) | Drafts enforceable U.S. subcontractor agreements governing general contractor/subcontractor relationships for… |
+| [`Construction Defect Complaint`](skills/construction-defect-complaint/) | Drafts U.S. construction defect complaints against contractors, developers, and design professionals… |
+| [`Contract Administration Skill`](skills/contract-administration-fdu-ins/) | Manage construction contract administration from the field perspective. Covers AIA contract forms (A101… |
+| [`Mechanic's Lien Foreclosure Complaint`](skills/lien-foreclosure/) | Drafts a mechanic's lien foreclosure complaint to enforce unpaid construction liens through… |
+| [`Subcontractor Agreement`](skills/subcontractor-agreement/) | Drafts enforceable U.S. subcontractor agreements governing general contractor/subcontractor… |
 
 ## Cold-start context
 

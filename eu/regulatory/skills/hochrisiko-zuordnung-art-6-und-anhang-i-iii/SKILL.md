@@ -1,11 +1,11 @@
 ---
 name: hochrisiko-zuordnung-art-6-und-anhang-i-iii
 title: Hochrisiko-Zuordnung — Art. 6 KI-VO und Anhang I/III
-description: 'Gesamtuebersicht zur Hochrisiko-Zuordnung nach Art. 6 KI-VO: Art. 6 Abs. 1 Sicherheitsbauteil/Anhang I und Art. 6 Abs. 2/Anhang III. Erklaert Zweckbestimmung, allgemeine Chatbots/GPAI, Mitarbeitenden-Fehlgebrauch, Rueckausnahme Art. 6 Abs. 3 und Pflichtenfolge. Output: Hochrisiko-Landkarte mit Routing zu Detail-Skills.'
+description: 'Für Hochrisiko-Zuordnung — Art. 6 europäischer Technikregulierungsrahmen und Anhang I/III: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/hochrisiko-zuordnung-art-6-und-anhang-i-iii
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Hochrisiko-Zuordnung — Art. 6 KI-VO und Anhang I/III
-
-## Zweck
-
-Dieser Skill gibt die Gesamtübersicht zur Hochrisiko-Einstufung. Er entscheidet nicht endgültig, sondern leitet in die passenden Detailprüfungen.
 
 ## Zwei Hochrisiko-Pfade
 
@@ -52,7 +48,7 @@ Ein allgemeiner Chatbot oder ein GPAI-System ist nicht automatisch Hochrisiko. E
 - Welche Nutzung ist organisatorisch erlaubt, geduldet oder technisch nahegelegt?
 - Werden natürliche Personen bewertet, gerankt, priorisiert oder in Rechten/Chancen betroffen?
 
-Wenn Mitarbeitende ein allgemeines Tool entgegen klarer Regeln missbrauchen, ist das zunächst ein Governance- und Incident-Thema. Wenn die Nutzung aber systematisch ist, geduldet wird oder der Betreiber sie in Prozesse einbaut, kann die Hochrisiko-Prüfung neu kippen.
+Wenn Mitarbeiter ein allgemeines Tool entgegen klarer Regeln missbrauchen, ist das zunächst ein Governance- und Incident-Thema. Wenn die Nutzung aber systematisch ist, geduldet wird oder der Betreiber sie in Prozesse einbaut, kann die Hochrisiko-Prüfung neu kippen.
 
 ## Rückausnahme Art. 6 Abs. 3
 
@@ -80,11 +76,11 @@ System: [NAME]
 Art. 6 Abs. 1: [ja/nein/unklar] — [Grund]
 Art. 6 Abs. 2/Anhang III: [ja/nein/unklar] — [Bereich/Zweck]
 Allgemeiner Chatbot/GPAI: [ja/nein] — [warum nicht automatisch / warum konkret relevant]
-Mitarbeitenden-Fehlgebrauch: [kein Thema / vorhersehbar / geduldet / systematisch]
+Mitarbeitern-Fehlgebrauch: [kein Thema / vorhersehbar / geduldet / systematisch]
 Art. 6 Abs. 3: [prüfen / fernliegend / greift wahrscheinlich]
 Nächste Skills: [...]
 ```
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 3 Nr. 12/13/23, Art. 6 und Anhang I/III KI-VO. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 3 Nr. 12/13/23, Art. 6 und Anhang I/III KI-VO. Keine Rechtsberatung.

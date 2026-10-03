@@ -1,0 +1,76 @@
+---
+name: onboarding-bescheid-lesen-festsetzungsverjaehrung
+title: Steuerbescheid lesen — die ersten 10 Minuten
+description: 'Für Steuerbescheid lesen — die ersten 10 Minuten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: onboarding-bescheid-lesen-festsetzungsverjaehrung.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/onboarding-bescheid-lesen-festsetzungsverjaehrung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# Steuerbescheid lesen — die ersten 10 Minuten
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Steuerbescheid lesen — die ersten 10 Minuten` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Ist der Bescheid ein Erstbescheid Änderungs- oder Berichtigungsbescheid?
+2. Steht er unter Vorbehalt der Nachpruefung § 164 AO oder vorlaeufig § 165 AO?
+3. Gibt es eine ordnungsgemaesse Rechtsbehelfsbelehrung (sonst Jahresfrist § 356 Abs. 2 AO)?
+4. Wann ist Bekanntgabe bewirkt (Stempel, Drei-Tages-Fiktion § 122 Abs. 2 AO, ELSTER-Bereitstellung § 122a AO)?
+5. Welche Besteuerungsgrundlagen wurden veraendert; gibt es Erläuterungstext am Bescheidende?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 122 AO** — Bekanntgabe von Verwaltungsakten.
+- **§ 124 AO** — Wirksamkeit eines Verwaltungsakts.
+- **§ 157 AO** — Form und Inhalt von Steuerbescheiden.
+- **§ 164 AO** — Vorbehalt der Nachpruefung.
+- **§ 165 AO** — Vorlaeufige Steuerfestsetzung.
+- **§§ 129 172 173 174 175 AO** — Korrektur- und Änderungsnormen.
+- **§ 356 AO** — Rechtsbehelfsbelehrung; Folge fehlerhafter Belehrung.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 122 AO · § 124 AO · § 157 AO · § 164 AO · § 165 AO · § 129 AO · § 172 AO · § 173 AO · § 174 AO · § 175 AO · § 356 AO
+
+## Bescheid-Checkliste
+
+| Prüfpunkt | Wo im Bescheid | Folge |
+| --- | --- | --- |
+| Adressat korrekt | Kopf | sonst Bekanntgabemangel |
+| Steuerart und Zeitraum | Kopf | sonst Inhaltsmangel |
+| Festgesetzter Betrag | Tenor | Basis für AdV-Antrag |
+| Vorbehalt der Nachpruefung | Tenor / Erläuterungen | jederzeit Änderung § 164 Abs. 2 AO |
+| Vorlaeufigkeitsvermerk | Erläuterungen | Reichweite genau prüfen |
+| Rechtsbehelfsbelehrung | Ende | fehlt oder fehlerhaft → Jahresfrist § 356 Abs. 2 AO |
+| Erläuterungstext | letzte Seite | Indikator für Streitpunkt |
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

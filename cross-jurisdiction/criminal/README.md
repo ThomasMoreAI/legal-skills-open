@@ -10,7 +10,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `criminal` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Criminal Defense Disclaimer`](skills/safety-criminal-defense-disclaimer-sboghossian/) | Use when a user (non-lawyer) describes a criminal matter — charges, arrest, detention, police investigation,… |
+| [`Criminal Defense Disclaimer`](skills/safety-criminal-defense-disclaimer-sboghossian/) | Use when a user (non-lawyer) describes a criminal matter — charges, arrest, detention, police… |
 
 ## Cold-start context
 

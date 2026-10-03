@@ -1,11 +1,11 @@
 ---
 name: output-anfechtungsklage-anfg
 title: 'Output: Anfechtungsklage nach AnfG'
-description: 'Klageschrift für AnfG-Anfechtungsklage des Vollstreckungsgläubigers aufbauen: Rubrum, Duldungsantrag, Begründungsstruktur. Normen: §§ 2 11 13 AnfG. Prüfraster: Antragsformulierung, Begründungsaufbau Anfechtungstatbestand, Streitwertangabe. Output: Klageschriftentwurf AnfG mit Tenorvorschlag. Abgrenzung: nicht InsO-Anfechtungsklage durch Insolvenzverwalter.'
+description: 'Für Output: Anfechtungsklage nach AnfG: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/output-anfechtungsklage-anfg
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -26,22 +26,9 @@ language: de
 
 § 1 AnfG (Anwendungsbereich) — § 2 AnfG (Titelerfordernis) — § 3 AnfG (Vorsatzanfechtung) — § 4 AnfG (Unentgeltlichkeit) — § 11 AnfG (Rechtsfolge: Duldung der Zwangsvollstreckung) — § 13 AnfG (Verjährung) — § 253 ZPO (Klageerhebung) — § 916 ZPO (Arrest zur Sicherung)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Hinweis
 
-Dieser Skill liefert ein strukturiertes Muster für eine Anfechtungsklage nach dem AnfG. Es handelt sich um keine Rechtsberatung. Alle Angaben sind Platzhalter.
+Liefert ein strukturiertes Muster für eine Anfechtungsklage nach dem AnfG. Es handelt sich um keine Rechtsberatung. Alle Angaben sind Platzhalter.
 
 ## Rubrum
 
@@ -90,3 +77,5 @@ Durch die Übertragung ist die Vollstreckung in diesen Gegenstand vereitelt word
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

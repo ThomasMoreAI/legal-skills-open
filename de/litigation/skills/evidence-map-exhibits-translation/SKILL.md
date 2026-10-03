@@ -1,0 +1,87 @@
+---
+name: evidence-map-exhibits-translation
+title: Evidence Map ZPO/Common Law
+description: 'Für Evidence Map ZPO/Common Law: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/commercial-courts-deutschland/skills/evidence-map-exhibits-translation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Evidence Map ZPO/Common Law
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: GVG §§ 119, 119b (Commercial Court), ZPO §§ 184a, 614, 1025-1066, AGGVG der Länder, EU-VO 1215/2012 (Brüssel Ia) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Evidence Map ZPO/Common Law
+- **Normen-/Quellenanker:** Commercial Courts/Commercial Chambers der Länder, ZPO, GVG, Zuständigkeit, Sprachwahl Englisch/Deutsch, Wortprotokoll, Geheimnisschutz und internationale Zustellung.
+- **Entscheidende Weiche:** Gerichtsstand, Streitwert/Sachgebiet, Verfahrenssprache, Vertraulichkeit, Beweisaufnahme, Übersetzung, Protokoll und Vollstreckbarkeit steuern.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Einstieg
+
+Stelle höchstens fünf Fragen, sofern die Akte sie nicht beantwortet:
+
+1. Soll der Output auf Deutsch, Englisch oder zweisprachig sein?
+2. Welches Gericht/Forum ist vorgesehen oder vereinbart?
+3. Welche Klausel, welcher Streitwert und welche Parteien liegen vor?
+4. Welche Frist oder Verfahrenshandlung steht als nächstes an?
+5. Welche Unterlagen sind schon da: contract, correspondence, notices, expert report, exhibits, prior pleadings?
+
+## Arbeitsworkflow
+
+### Beweismittel-Vergleich ZPO versus Common Law
+
+| Punkt | Deutsche ZPO | US/UK Common Law |
+| --- | --- | --- |
+| Beweiserhebungsumfang | beschränkt; § 138 ZPO Wahrheitspflicht, kein "fishing expedition" | breite Discovery; broad relevance |
+| Dokumentenvorlage | § 142 ZPO (Anordnung Vorlage Urkunde der Partei oder Dritten); § 421 ZPO (Pflicht zur Vorlage bei Anspruch) | Document Production / Disclosure, Privilege Log |
+| Zeugen | benannte Zeugen § 373 ZPO, Vernehmung durch Richter (§ 397 Abs. 1 ZPO) | Deposition, Cross-Examination, Witness Statement |
+| Sachverständige | gerichtlich bestellt § 404 ZPO, neutral | Party-Appointed Expert, Battle of Experts |
+| Akteneinsicht | § 299 ZPO, beschränkt | Public Filings, PACER |
+| Privileged Documents | § 383 ZPO Zeugnisverweigerung Anwalt; nur Mandatsverhältnis | Attorney-Client Privilege, Work Product |
+| Verspätungspräklusion | § 296 ZPO; verspäteter Vortrag wird zurückgewiesen | flexibel; "trial by ambush" zulässig im Mandat |
+| Beweismaß | volle Überzeugung § 286 ZPO; ausnahmsweise § 287 ZPO Schätzung | Preponderance of evidence (Zivilrecht), Beyond reasonable doubt (Strafrecht) |
+| Wahrheitspflicht | § 138 Abs. 1 ZPO | nicht direkt; Sanctions for perjury |
+
+### Was Mandant aus dem Common Law mitbringt — und was nicht funktioniert
+
+| Wunsch des Mandanten (Common Law-Erwartung) | ZPO-Antwort |
+| --- | --- |
+| "Discovery vom Gegner" | nicht möglich; nur § 142 ZPO Einzelanordnung mit konkreter Bezeichnung |
+| "Cross-Examination" | beschränkt; Richter befragt zuerst, Anwälte ergänzen § 397 ZPO |
+| "Witness Statement statt Aussage" | nicht prozessgemäß; nur gerichtliche Vernehmung zählt |
+| "Subpoena to Third Party" | § 142 ZPO mit Beschränkungen; bei Auslandsbezug Haager Beweisaufnahme |
+| "Privilege Log" | nicht erforderlich; deutsche Anwälte können einzelne Dokumente zurückhalten |
+| "E-Discovery" | nicht standardisiert; aber Geschäftsleitungs-Bevollmächtigte können Daten kontextbezogen vorlegen |
+| "Disclosure of Documents" | nicht generell; § 142 ZPO und § 810 BGB nur einzelfallbezogen |
+| "Self-Disclosure (Rule 26 USA)" | nicht; deutsche Beweismittel müssen angeboten und vom Richter beigezogen werden |
+
+### Trade-off
+
+- **Mehrwert ZPO:** kostengünstiger, schneller, Geheimhaltung höher (kein US-Style-Public-Filing).
+- **Mehrwert Common Law:** Document Production zwingt Gegner zur Offenlegung; deutsche Partei "fischt" oft im Dunkeln.
+- **Praktiker-Tipp Mandantenkommunikation:** Vor jedem Termin Erwartungs-Management; klares Memo "Was in Deutschland prozessual geht und was nicht" für US-/UK-Inhouse-Counsel.
+
+1. **Forum sichern:** Commercial Court, Commercial Chamber, ordentliches Gericht, Schiedsgericht oder Ausland trennen.
+2. **Sprache sichern:** wirksame Englischwahl, notwendige Übersetzungen und deutsch bleibende Verfahrensschritte prüfen.
+3. **Prozesshandlung bauen:** Antrag, Schriftsatz, Evidence Map, Timetable, Hearing Script oder Mandantenmemo erstellen.
+4. **ZPO-Realität bewahren:** keine US-Discovery, kein Pleading-Theater; Tatsachenvortrag, Beweisangebot, richterliche Prozessleitung und deutsches Kostenrisiko sauber erklären.
+5. **Nächsten Schritt festlegen:** Frist, Verantwortliche, Unterlagen, gerichtliche Kommunikation und Mandantenfreigabe.
+
+## Red Flags
+
+- Commercial-Court-Zuständigkeit oder englische Sprache wird nur behauptet, aber nicht aus Klausel, Gesetz und Landesrecht hergeleitet.
+- Englischer Schriftsatz klingt wie US-Litigation und enthält keine ZPO-tauglichen Beweisangebote.
+- Anlagen sind englisch/deutsch gemischt, aber Übersetzungs- und Zitierlogik fehlt.
+- Geheimhaltungsinteressen werden erst in der mündlichen Verhandlung entdeckt.
+- Das Wortprotokoll wird gewünscht, aber nicht rechtzeitig prozessual vorbereitet.

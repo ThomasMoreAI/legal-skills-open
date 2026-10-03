@@ -1,11 +1,11 @@
 ---
 name: insolvenzgeld-165-sgb-iii
 title: Insolvenzgeld nach § 165 SGB III
-description: 'Arbeitnehmer eines insolventen Unternehmens will Insolvenzgeld beantragen oder Insolvenzverwalter bearbeitet Insolvenzgeld-Anmeldungen. Prüfraster § 165 ff. SGB III Anspruchs-Voraussetzungen Arbeitsentgelt letzte drei Monate vor Insolvenz-Ereignis. Insolvenz-Ereignis § 165 Abs. 1 SGB III Eroeffnung Abweisung mangels Masse Vollstreckungs-Aussichtslosigkeit. Antragsfrist zwei Monate § 324 SGB III Vor-Finanzierung Banken bis 75 Prozent. Output Antragsentwurf Bescheinigung Abrechnung Schnittstelle Sozialversicherungs-Beitraege. Abgrenzung: forderungsanmeldung-gläubiger für allgemeine Forderungsanmeldung.'
+description: 'Für Insolvenzgeld nach Paragraf 165 SGB III: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/insolvenzgeld-165-sgb-iii
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: social-security
@@ -14,9 +14,23 @@ language: de
 
 # Insolvenzgeld nach § 165 SGB III
 
-## Zweck
+## Arbeitsbereich
 
-Insolvenzgeld ist zentrale Arbeitnehmer-Sicherung in Insolvenz. Mandanten oft Arbeitnehmer oder Insolvenzverwalter im Lohn-Abrechnungs-Streit. Dieses Skill prüft Anspruch und Antrags-Verfahren.
+Arbeitnehmer eines insolventen Unternehmens will Insolvenzgeld beantragen oder Insolvenzverwalter bearbeitet Insolvenzgeld-Anmeldungen. Prüfraster § 165 ff. SGB III Anspruchs-Voraussetzungen Arbeitsentgelt letzte drei Monate vor Insolvenz-Ereignis. Insolvenz-Ereignis § 165 Abs. 1 SGB III Eroeffnung Abweisung mangels Masse Vollstreckungs-Aussichtslosigkeit. Antragsfrist zwei Monate § 324 SGB III Vor-Finanzierung Banken bis 75 Prozent. Output Antragsentwurf Bescheinigung Abrechnung Schnittstelle Sozialversicherungs-Beitraege. Abgrenzung: forderungsanmeldung-gläubiger für allgemeine Forderungsanmeldung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Insolvenzgeld nach § 165 SGB III` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -299,8 +313,8 @@ in 2026) liegt EUR 3.500 darunter — voller Anspruch
 
 - **Lohn-Forderungen aus der Zeit VOR Eröffnung** sind grundsätzlich **einfache Insolvenz-Forderungen** § 38 InsO mit Quoten-Risiko — auch wenn sie aus den letzten Monaten stammen
 - **Masseverbindlichkeiten** sind nur:
-  - Lohn aus **fortbestehendem** Arbeitsverhältnis NACH Verfahrens-Eröffnung → § 55 Abs. 1 Nr. 2 InsO
-  - im Eröffnungs-Verfahren begründete Lohn-Ansprüche bei starkem vorläufigen Verwalter mit Verfügungs-Befugnis → § 55 Abs. 2 InsO
+ - Lohn aus **fortbestehendem** Arbeitsverhältnis NACH Verfahrens-Eröffnung → § 55 Abs. 1 Nr. 2 InsO
+ - im Eröffnungs-Verfahren begründete Lohn-Ansprüche bei starkem vorläufigen Verwalter mit Verfügungs-Befugnis → § 55 Abs. 2 InsO
 - Für Rückstände aus den drei Monaten vor Insolvenz-Ereignis greift das Insolvenzgeld § 165 SGB III; die Forderung selbst geht auf die BA über (§ 169 SGB III) und wird als § 38 InsO-Forderung angemeldet
 - § 55 Abs. 2 InsO hilft NICHT pauschal für die "letzten sechs Monate vor Eröffnung" — das ist ein verbreiteter Irrtum
 
@@ -321,6 +335,14 @@ in 2026) liegt EUR 3.500 darunter — voller Anspruch
 - Vor-Finanzierungs-Beratung
 - Frist im Fristenbuch (zwei Monate Antrag, ein Monat Widerspruch, ein Monat Klage)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - SGB III §§ 165 167 169 170 173 324
@@ -330,16 +352,15 @@ in 2026) liegt EUR 3.500 darunter — voller Anspruch
 - BSG-Linien zu Insolvenzgeld
 - Standes-Vorgaben Insolvenz-Verwalter zu Lohn-Bescheinigung
 
-
 ## Aktuelle Leitentscheidungen — Insolvenzgeld
 
 - Konkrete BSG- und LSG-Entscheidungen zum Insolvenzgeld (insb. Anspruchsberechtigung Gesellschafter-Geschäftsführer, Drei-Monats-Frist, Vorfinanzierung) vor Ausgabe über sozialgerichtsbarkeit.de oder dejure.org mit Datum und Aktenzeichen verifizieren.
 - Zur Schnittstelle § 142 InsO (Bargeschäft Lohnzahlungen) und Anfechtung: **BGH IX ZR 122/23 vom 05.12.2024** stellt klar, dass Lohnzahlungen ohne starre 30-Tage-Grenze auf engen zeitlichen Zusammenhang zu prüfen sind; bei Anfechtung des Verwalters gegen vorinsolvenzliche Lohnzahlungen ist die Unlauterkeit konkret darzulegen.
-  Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
+ Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=05.12.2024&Aktenzeichen=IX+ZR+122/23>
 
 ## Paragrafenkette Insolvenzgeld
 
-§ 165 SGB III (Anspruchsvoraussetzungen) → § 166 SGB III (Hoehe) → § 167 SGB III (Vorfinanzierung) → § 168 SGB III (Erloesch-Gruende) → § 26 InsO (Abweisung mangels Masse als Insolvenzereignis) → § 113 InsO (Kuendigungsrecht des IV)
+§ 165 SGB III (Anspruchsvoraussetzungen) → § 166 SGB III (Höhe) → § 167 SGB III (Vorfinanzierung) → § 168 SGB III (Erloesch-Gruende) → § 26 InsO (Abweisung mangels Masse als Insolvenzereignis) → § 113 InsO (Kuendigungsrecht des IV)
 
 ## Triage — Insolvenzgeld
 
@@ -347,7 +368,3 @@ in 2026) liegt EUR 3.500 darunter — voller Anspruch
 2. **3-Monats-Zeitraum?** Welche Monate werden vom Insolvenzgeld abgedeckt? Lohnrueckstaende inventarisieren.
 3. **Vorfinanzierung?** Haushausbank ansprechen; Abtretungserklaerungen der Arbeitnehmer einholen; Zeitplan Vorfinanzierung → Auszahlung BA.
 4. **GF-Anspruch?** GF ist nur Arbeitnehmer wenn tatsaechlich weisungsgebunden; bei Gesellschafter-GF selten Insolvenzgeld.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

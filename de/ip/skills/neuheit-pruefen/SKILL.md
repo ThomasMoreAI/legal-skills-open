@@ -1,11 +1,11 @@
 ---
 name: neuheit-pruefen
 title: neuheit-prüfen
-description: 'Prüft Neuheit nach § 3 PatG und Art. 54 EPUe. Methodisches Schema: ein Anspruch wird in seine Merkmale zerlegt und Merkmal-fuer-Merkmal gegen genau eine Entgegenhaltung verglichen. Neuheitsschaedlich ist nur die vollständige Vorwegnahme aller Merkmale in einer einzigen Entgegenhaltung (kein Mosaik). Berücksichtigt die EPA-Konzepte unmittelbare und eindeutige Offenbarung implizite Offenbarung und unzulässige Auswahlerfindungen. Erzeugt Merkmalsanalyse-Tabelle pro Entgegenhaltung. Bewertet jedes Merkmal als offenbart nicht offenbart oder implizit offenbart mit Pinpoint. Gibt Gesamtergebnis und Empfehlung an die Patentanwaeltin. Disclaimer keine amtliche Prüfung.'
+description: 'Für neuheit-prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/neuheit-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -14,18 +14,22 @@ language: de
 
 # neuheit-prüfen
 
-## Zweck
+## Arbeitsweg
 
-Prüft, ob ein konkreter Anspruch (Mandantin oder Drittpatent) gegenüber konkreten Entgegenhaltungen **neu** ist. Genaues Werkzeug, das auf den Vorrecherche-Treffern aufsetzt.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Rechtsrahmen
 
 - **§ 3 PatG.** Eine Erfindung gilt als neu, wenn sie nicht zum Stand der Technik gehört.
 - **Art. 54 EPÜ.** Wortgleich für das EPA.
 - **EPA-Beschwerdekammern-Doktrin:**
-  - **Unmittelbare und eindeutige Offenbarung** — eine Entgegenhaltung nimmt einen Anspruch nur dann vorweg, wenn alle Merkmale **direkt und unmittelbar erkennbar** sind (G 2/88, T 305/87).
-  - **Implizite Offenbarung** — ein Merkmal ist implizit offenbart, wenn der Fachmann es zwingend mitliest (G 2/10 zu Disclaimern, T 6/80).
-  - **Auswahlerfindungen** — Auswahl eines Sub-Bereichs aus einem offenbarten Bereich kann neu sein, wenn (1) der Sub-Bereich eng ist, (2) abseits des präferierten Bereichs der Entgegenhaltung liegt, (3) eine eigene technische Lehre vermittelt (T 198/84, T 279/89).
+ - **Unmittelbare und eindeutige Offenbarung** — eine Entgegenhaltung nimmt einen Anspruch nur dann vorweg, wenn alle Merkmale **direkt und unmittelbar erkennbar** sind (G 2/88, T 305/87).
+ - **Implizite Offenbarung** — ein Merkmal ist implizit offenbart, wenn der Fachmann es zwingend mitliest (G 2/10 zu Disclaimern, T 6/80).
+ - **Auswahlerfindungen** — Auswahl eines Sub-Bereichs aus einem offenbarten Bereich kann neu sein, wenn (1) der Sub-Bereich eng ist, (2) abseits des präferierten Bereichs der Entgegenhaltung liegt, (3) eine eigene technische Lehre vermittelt (T 198/84, T 279/89).
 - **Kein Mosaik** — anders als bei der erfinderischen Tätigkeit darf bei der Neuheitsprüfung **nicht** kombiniert werden. Ein Anspruch wird gegen **genau eine** Entgegenhaltung geprüft. Mehrere Entgegenhaltungen lassen sich nur kombinieren, wenn die eine ausdrücklich auf die andere verweist und der Fachmann beide unmittelbar zusammenliest (T 153/85).
 
 ## Ablauf
@@ -95,13 +99,12 @@ Tabelle aller Entgegenhaltungen mit Bewertungsspalte:
 Bevor die Neuheitspruefung beginnt, klaere:
 1. Ist der Prioritaetszeitpunkt klar (Anmeldetag oder Prioritaetsdatum aus frueherer Anmeldung)?
 2. Sind geheime aeltere Anmeldungen (§ 3 II PatG / Art. 54 III EPU) beruecksichtigt?
-3. Wurden alle relevanten CPC/IPC-Klassen fuer die Recherche eingesetzt?
-4. Handelt es sich um einen Hauptanspruch oder einen abhaengigen Anspruch (abhaengige Ansprueche koennen weniger Merkmale enthalten = leichter angreifbar)?
+3. Wurden alle relevanten CPC/IPC-Klassen für die Recherche eingesetzt?
+4. Handelt es sich um einen Hauptanspruch oder einen abhaengigen Anspruch (abhaengige Ansprueche können weniger Merkmale enthalten = leichter angreifbar)?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 > **EPA, Technische Beschwerdekammer, T 153/85:** Bei der Neuheitspruefung ist jede Entgegenhaltung einzeln zu betrachten; eine neuheitsschaedliche Wirkung kann nur aus einer einzigen Schrift hergeleitet werden, nicht durch Kombination mehrerer Dokumente.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

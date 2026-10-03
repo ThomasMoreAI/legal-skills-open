@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-orientierung
 title: Orientierung Handels- und Gesellschaftsrecht
-description: 'Einstieg in den Skill-Verbund Handels- und Gesellschaftsrecht. FAO § 14i Voraussetzungen 80 Faelle davon 40 rechtsfoermlich. HGB AktG GmbHG PartGG UmwG MoPeG. Typische Mandate Gründung Satzungsaenderung Geschäftsführerhaftung M&A Beschlussanfechtung Umwandlung. verifizierbare Quellen; Literatur nur bei Nutzerquelle oder lizenziertem Live-Zugriff. Output: Routing zu Folge-Skill. Abgrenzung zu fachanwalt-handels-gesellschaftsrecht-gesellschafterstreit (Streit) und fachanwalt-handels-gesellschaftsrecht-orientierung.'
+description: 'Für Orientierung Handels- und Gesellschaftsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/fachanwalt-handels-gesellschaftsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -20,21 +20,22 @@ language: de
 2. Mandantenrolle: Gesellschafter, Geschäftsführer, Vorstand, Aufsichtsrat, Gesellschaft, Aktionär, Anteilskäufer?
 3. Worum geht es: Gründung, Strukturmaßnahme (Umwandlung, M&A), Streit unter Gesellschaftern, Haftung Organperson, Handelsrecht (Handelsvertreter, Kaufmannsgeschäfte)?
 4. Bestehen Satzung, Gesellschaftsvertrag, Geschäftsordnung Vorstand/Aufsichtsrat, Anstellungsverträge?
-5. Liegt aktuelle Frist (Anfechtungsklage AktG vier Wochen § 246; GmbH analog regelmäßig einen Monat, Einzelfall)?
+5. Läuft eine Beschlussmängelfrist? Bei der AG muss die Anfechtungsklage nach Paragraf 246 Absatz 1 AktG innerhalb eines Monats nach der Beschlussfassung erhoben werden. Bei der GmbH gilt die Monatsfrist als grundsätzlicher Maßstab für die mit aller zumutbaren Beschleunigung zu erhebende Klage; eng begrenzte Ausnahmen sind gesondert zu begründen.
 6. Krisensituation: drohende Zahlungsunfähigkeit § 18 InsO, Antragspflicht § 15a InsO?
 
-## FAO § 14i — Voraussetzungen
+## FAO Paragraf 14i — Voraussetzungen
 
-- **Theoretischer Lehrgang:** 120 Zeitstunden Handels- und Gesellschaftsrecht (FAO § 4).
-- **Praktischer Nachweis:** 80 Fälle in den letzten drei Jahren, davon mindestens 40 rechtsförmlich; verteilt auf die Bereiche Handelsrecht, Kapitalgesellschaftsrecht, Personengesellschaftsrecht, Umwandlungsrecht und Konzernrecht (§ 5 Abs. 1 lit. j FAO).
-- **Bereiche § 14i FAO:** HGB Handelsstand, Handelsgeschäfte, Handelskauf; Kapitalgesellschaftsrecht (GmbHG, AktG); Personengesellschaftsrecht (OHG, KG, GbR/MoPeG); Konzernrecht; Umwandlungsrecht (UmwG); kapitalmarktrechtliche Bezüge.
+- **Theoretischer Lehrgang:** Mindestens 120 Zeitstunden ohne Leistungskontrollen nach Paragraf 4 Absatz 1 FAO; hinzu kommen mindestens drei schriftliche Leistungskontrollen nach Paragraf 4a FAO.
+- **Praktischer Nachweis:** Innerhalb der letzten fünf Jahre 80 persönlich und weisungsfrei bearbeitete Fälle aus mindestens drei verschiedenen Gebieten der Bereiche nach Paragraf 14i Nummern 1 und 2 FAO. Mindestens 40 Fälle müssen gerichtliche Streitverfahren, Schieds- oder Mediationsverfahren und/oder die Gestaltung von Gesellschaftsverträgen oder die Gründung oder Umwandlung von Gesellschaften betreffen. Von diesen 40 Fällen müssen mindestens zehn gerichtliche Streit-, Schieds- oder Mediationsverfahren und mindestens zehn Gestaltungen, Gründungen oder Umwandlungen sein. Rechtsgrundlage ist Paragraf 5 Absatz 1 Buchstabe p FAO.
+- **Bereiche nach Paragraf 14i FAO:** Materielles Handelsrecht einschließlich internationalen Kaufrechts; materielles Gesellschaftsrecht einschließlich Personen- und Kapitalgesellschaftsrecht, internationalem Gesellschaftsrecht, Konzern- und Umwandlungsrecht sowie Grundzügen des Bilanz-, Steuer-, Dienstvertrags- und Mitbestimmungsrechts; fachgebietsbezogene Schnittstellen und Besonderheiten der Verfahrens- und Prozessführung.
+- **Amtliche Fassung:** FAO, Stand 1. Dezember 2025: https://www.brak.de/fileadmin/02_fuer_anwaelte/berufsrecht/028-FAO_Stand_01.12.2025.pdf
 
 ## Maßgebliche Normen
 
 - **HGB:** Kaufmannsbegriff §§ 1 ff.; Firmenrecht §§ 17 ff.; Prokura §§ 48 ff.; Handelsregister § 8 ff. iVm FamFG; Handelsgeschaefte §§ 343 ff.; Handelsvertreterrecht §§ 84 ff.; Bilanzrecht §§ 238 ff. Seit MoPeG (01.01.2024) gilt fuer OHG/KG das neue Beschlussmaengelrecht §§ 110-115 HGB (Anfechtungsmodell, Frist drei Monate, Klage gegen die Gesellschaft).
 - **GmbHG:** Gruendung §§ 1 ff., Stammkapital § 5, Geschaeftsfuehrerpflichten §§ 35 ff., Geschaeftsfuehrerhaftung § 43, Gesellschafterversammlung §§ 47 ff., Anteilsabtretung § 15. Online-Beurkundung Gruendung seit DiRUG (01.08.2022), erweitert auf Kapitalerhoehung und Satzungsaenderungen seit DiREG (01.08.2023; nur bei einstimmigem Beschluss). § 16a BeurkG.
 - **AktG:** Gruendung §§ 1 ff., Hauptversammlung §§ 118 ff. (virtuelle HV § 118a AktG nach G v. 20.07.2022), Beschlussanfechtung §§ 241 ff., Vorstandshaftung § 93 AktG, Aufsichtsrat §§ 95 ff.
-- **PartGG** und **MoPeG-GbR-Recht** (Gesetz zur Modernisierung des Personengesellschaftsrechts; BGBl. I 2021, 3436; in Kraft 01.01.2024) mit eGbR-Registereintragung (§§ 707 ff. BGB); Voreintragungspflicht bei Grundstuecksgeschaeften nach § 707b BGB bestaetigt durch BGH, Beschl. v. 03.07.2025 — V ZB 17/24.
+- **PartGG und MoPeG-GbR-Recht:** Das MoPeG gilt seit dem 1. Januar 2024. Für den Grundbuchvollzug sind Paragraf 47 Absatz 2 GBO und bei Alt-GbR Artikel 229 Paragraf 21 EGBGB maßgeblich. BGH, Beschluss vom 3. Juli 2025, V ZB 17/24, verlangt bei einer nach altem Recht unter Nennung ihrer Gesellschafter eingetragenen GbR vor einer danach beantragten Grundstücksübertragung zuerst die Registrierung und anschließend die Eintragung als eGbR im Grundbuch.
 - **UmwG:** Verschmelzung §§ 2 ff., Spaltung §§ 123 ff., Formwechsel §§ 190 ff.; UmRUG (Umwandlungsrichtlinie-Umsetzungsgesetz, in Kraft 01.03.2023) — grenzueberschreitende Umwandlungen jetzt mit harmonisierten Verfahren.
 - **InsO Schnittstellen:** § 15a InsO (Antragspflicht, Hoechstfristen 3 Wochen ZU / 6 Wochen UE); § 15b InsO Zahlungsverbot ab Insolvenzreife (§ 64 GmbHG a.F. und § 92 II AktG a.F. aufgehoben durch SanInsFoG vom 22.12.2020, BGBl. I 2020, 3256, in Kraft 01.01.2021; rechtsformneutral ersetzt durch § 15b InsO).
 
@@ -52,10 +53,6 @@ language: de
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Maßgebliche Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Übergabe
 
 - Bei Krisenfällen Schnittstelle zum Plugin `insolvenzrecht` und zu `fachanwalt-insolvenz-sanierungsrecht`.
@@ -65,13 +62,9 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Vertiefung — Ergänzende Rechtsprechung 2020-2024
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Ergänzende Literatur
 
 - K. Schmidt, Gesellschaftsrecht, 5. Aufl. 2021: MoPeG-Neukommentierung GbR-Recht ab 2024; Vergleich Personengesellschaft/Kapitalgesellschaft.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,73 @@
+---
+name: mr-betriebskostenabrechnung-mr
+title: 'Mietrecht: Betriebskosten-Fehler'
+description: 'Für Mietrecht: Betriebskosten-Fehler: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mr-betriebskostenabrechnung-mr
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Mietrecht: Betriebskosten-Fehler
+
+## Arbeitsbereich
+
+Fehlerhafte Betriebskostenabrechnung als Streitfall: formelle Mindestangaben, materielle Umlagefähigkeit, Belegeinsicht nach § 259 BGB, Zahlungsbelege, 12-Monats-Fristen nach § 556 Abs. 3 BGB, Zurückbehaltung, Rückzahlungsklage und Mustertexte. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mietrecht: Betriebskosten-Fehler` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Einstieg
+
+1. Welche Seite: Mieter, Vermieter, Verwaltung, Anwalt?
+2. Abrechnungsjahr, Datum der Abrechnung, tatsächlicher Zugang, Zahlungs-/Mahnlage?
+3. Was wird angegriffen: Frist, Form, Kostenart, Schlüssel, Belege, Heizkosten, CO2, Vorauszahlungen?
+4. Welche Unterlagen liegen vor: Mietvertrag, Abrechnung, Heizkosten, Rechnungen, Zahlungsbelege, Mieterzahlungen?
+5. Gewünschter Output: Einwendung, Belegeinsicht, Rückforderung, Klageerwiderung, Klageentwurf, Vergleich?
+
+## Rechtsanker
+
+- § 556 Abs. 3 BGB: Abrechnung, Nachforderungsausschluss, Einwendungsfrist.
+- § 556a BGB: Umlagemaßstab.
+- § 259 BGB und § 242 BGB: Rechenschafts-/Belegeinsicht und Zurückbehaltung.
+- BetrKV: laufende Betriebskosten und Kostenarten.
+- HeizkostenV: Verbrauchserfassung und Kürzungsrecht.
+- CO2KostAufG: Vermieter-/Mieteranteil.
+- BGH, Urteil vom 09.04.2008 - VIII ZR 84/07: formelle Mindestangaben.
+- BGH, Urteil vom 09.12.2020 - VIII ZR 118/19: Zahlungsbelege gehören zur Einsicht.
+- BGH, Urteil vom 15.12.2021 - VIII ZR 66/20: Originalbelege als Grundsatz.
+
+## Streitfall-Matrix
+
+| Streitpunkt | Mieterlinie | Vermieterlinie | Beleg |
+| --- | --- | --- | --- |
+| verspäteter Zugang | Nachforderung ausgeschlossen | Zugang beweisen / Nichtvertretenmüssen | Zustellung/Bote |
+| formelle Lücke | Nachforderung nicht fällig | Mindestangaben nachreichen? | Abrechnung |
+| nicht umlagefähige Kosten | Position kürzen | BetrKV/Vertrag zeigen | Rechnung/Vertrag |
+| fehlende Zahlungsbelege | Zurückbehaltung | Einsicht anbieten | Zahlungsnachweis |
+| falscher Schlüssel | Korrekturbetrag | Vertrags-/Gesetzesschlüssel verteidigen | Rechenblatt |
+| Heizkosten/CO2 | Kürzung/Korrektur | Daten nachliefern | Heizkosten/CO2 |
+
+## Prozesslogik
+
+1. Ist die Forderung überhaupt fällig?
+2. Ist sie fristgerecht geltend gemacht?
+3. Ist der Betrag materiell richtig?
+4. Wurde Belegeinsicht ermöglicht?
+5. Welche Zahlung ist sofort sinnvoll, welche nur unter Vorbehalt, welche gar nicht?
+6. Bei Rückzahlungsklage: Zahlung, Vorbehalt, Fehler und Anspruchshöhe sauber darlegen.

@@ -1,11 +1,11 @@
 ---
 name: mandat-aktualisierung
 title: Mandats-Aktualisierung
-description: 'Laufendes Prozessmandat aktualisieren: neue Schriftsaetze, Beschluesse, Fristen eintragen. Normen: §§ 233 ff. ZPO. Prüfraster: Fristverfolgung, Sachstandsaktualisierung, offene Handlungspunkte. Output: Aktualisiertes Mandats-Protokoll. Abgrenzung: nicht Mandatseroffnung.'
+description: 'Für Mandats-Aktualisierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/prozessrecht/skills/mandat-aktualisierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Mandats-Aktualisierung
 
-## Zweck
+## Arbeitsweg
 
-Ein Prozessportfolio bleibt nur dann nützlich, wenn es aktuell ist. Dieser Skill macht das Einpflegen einer Entwicklung effizient — strukturiertes Erfassen in wenigen Minuten, ohne freien Textdrift. Lädt bei jeder Anfrage, einen neuen Vorgang in ein laufendes Prozessmandat einzutragen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -30,21 +34,18 @@ Ein Prozessportfolio bleibt nur dann nützlich, wenn es aktuell ist. Dieser Skil
 
 ### Kernvorschriften
 
-- **§§ 214–229 ZPO** — Fristen, Versäumnis, Wiedereinsetzung; zentral für die Fristenkontrolle im Prozessmandat.
-- **§§ 516, 548, 569 ZPO** — Berufungs-, Revisions- und Beschwerdebegründungsfristen (Monats- bzw. Zwei-Monats-Fristen nach Zustellung); jede Fristverlängerung ist einzutragen.
-- **§ 116 VwGO** — Zustellung und Fristen im Verwaltungsgerichtsverfahren.
-- **§§ 317–329 StPO** — Rechtsmittelfristen im Strafverfahren (Berufungsfrist: eine Woche ab Urteilsverkündung, § 317 StPO).
-- **§ 43a Abs. 1, 4 BRAO** — Sachkundige, gewissenhafte Berufsausübung; Pflicht zur lückenlosen Aktenführung als Berufspflicht.
-- **§ 11 BORA** — Sorgfaltspflicht bei Fristnotierung und Aktenführung.
-- **§§ 257, 261 HGB; § 147 AO** — Aufbewahrungspflichten für Handels- und Steuerunterlagen (6–10 Jahre); relevant für den Beweissicherungsaspekt.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragrafen 214–229 ZPO** — Fristen, Versäumnis, Wiedereinsetzung; zentral für die Fristenkontrolle im Prozessmandat.
+- **Paragrafen 516, 548, 569 ZPO** — Berufungs-, Revisions- und Beschwerdebegründungsfristen (Monats- bzw. Zwei-Monats-Fristen nach Zustellung); jede Fristverlängerung ist einzutragen.
+- **Paragraf 116 VwGO** — Zustellung und Fristen im Verwaltungsgerichtsverfahren.
+- **Paragrafen 317–329 StPO** — Rechtsmittelfristen im Strafverfahren (Berufungsfrist: eine Woche ab Urteilsverkündung, Paragraf 317 StPO).
+- **Paragraf 43a Abs. 1, 4 BRAO** — Sachkundige, gewissenhafte Berufsausübung; Pflicht zur lückenlosen Aktenführung als Berufspflicht.
+- **Paragraf 11 BORA** — Sorgfaltspflicht bei Fristnotierung und Aktenführung.
+- **Paragrafen 257, 261 HGB; Paragraf 147 AO** — Aufbewahrungspflichten für Handels- und Steuerunterlagen (6–10 Jahre); relevant für den Beweissicherungsaspekt.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 0: Konfliktsschranke
@@ -58,7 +59,7 @@ Vor dem Einpflegen eines Eintrags wird geprüft, ob das Mandat in `_log.yaml` en
 Angebotene Kategorien:
 
 - **Verfahrensrechtlich** — Schriftsatz eingereicht/erhalten, Beschluss ergangen, Termin stattgefunden, Frist gesetzt
-- **Beweiserhebung** — Urkunden vorgelegt/erhalten, Zeugenvernehmung, § 142 ZPO-Anordnung
+- **Beweiserhebung** — Urkunden vorgelegt/erhalten, Zeugenvernehmung, Paragraf 142 ZPO-Anordnung
 - **Sachlich** — neue Tatsachen, relevantes Dokument aufgetaucht, Entscheidung zur Sache
 - **Strategie** — Positionswechsel, Vergleichsangebot gemacht/erhalten, Änderung der Vergleichskompetenz
 - **Risikoneubewertung** — Schwere oder Wahrscheinlichkeit hat sich geändert
@@ -123,12 +124,6 @@ Bei bestimmten Ereignistypen ist eine Wesentlichkeitsprüfung obligatorisch — 
 
 Falls das Update ein Dokument betrifft (Beschluss, Schriftsatz, Korrespondenz), wird gefragt, ob ein Pfad verlinkt werden soll.
 
-## Ausgabeformat
-
-### Verlaufseintrag in `verlauf.md`
-
-Jüngster Eintrag oben, direkt unter dem `---` nach dem Header:
-
 ```markdown
 ## [JJJJ-MM-TT] — [Ereignistyp]: [Kurztitel]
 
@@ -161,9 +156,10 @@ Der Verlaufseintrag und die Yaml-Diff werden dem Nutzer zur Freigabe vorgelegt:
 **Eintrag:**
 
 ```markdown
+
 ## [2025-05-12] — Verfahrensrechtlich: Berufungsbegründung eingereicht
 
-Berufungsbegründung fristgerecht beim OLG Frankfurt eingereicht (§ 520 Abs. 2 ZPO). Keine inhaltlichen Änderungen zur bisherigen Positionierung. Nächster Termin: Eingang der Berufungserwiderung der Gegenseite erwartet bis 12.07.2025.
+Berufungsbegründung fristgerecht beim OLG Frankfurt eingereicht (Paragraf 520 Abs. 2 ZPO). Keine inhaltlichen Änderungen zur bisherigen Positionierung. Nächster Termin: Eingang der Berufungserwiderung der Gegenseite erwartet bis 12.07.2025.
 
 **Geänderte Felder:**
 - naechste_frist: 2025-07-12
@@ -175,7 +171,7 @@ Berufungsbegründung fristgerecht beim OLG Frankfurt eingereicht (§ 520 Abs. 2 
 
 ## Risiken und typische Fehler
 
-- **Fristversäumnis durch verzögerten Eintrag:** Der Eintrag ersetzt kein Fristenkontrollsystem; die Kanzlei muss separate Fristenkalender nach § 11 BORA führen. Dieser Skill dokumentiert — er sichert keine Fristen.
+- **Fristversäumnis durch verzögerten Eintrag:** Der Eintrag ersetzt kein Fristenkontrollsystem; die Kanzlei muss separate Fristenkalender nach Paragraf 11 BORA führen. Dieser Skill dokumentiert — er sichert keine Fristen.
 - **Stillschweigendes Wesentlichkeitsupdating:** Unterbleibt die explizite Wesentlichkeitsprüfung, kann eine Rückstellungspflicht oder eine kapitalmarktrechtliche Offenlegungspflicht übersehen werden.
 - **Einträge in nicht-aufgenommene Mandate:** Ohne vorherige Interessenkonfliktprüfung (`/prozessrecht:mandat-aufnahme`) werden keine Einträge angelegt.
 - **Vergleichsannahme ohne anwaltliche Prüfung:** Die Schranke ist unüberwindbar für Nicht-Juristen; nur ein explizites Ja entsperrt den Eintrag.
@@ -186,8 +182,9 @@ Berufungsbegründung fristgerecht beim OLG Frankfurt eingereicht (§ 520 Abs. 2 
 
 In der Verlaufsakte und bei Wesentlichkeitsprüfungen sind folgende Quellen heranzuziehen und, soweit angegeben, zu zitieren:
 
-- Gesetzestexte: §§ 214 ff., 516, 520, 548, 569 ZPO; §§ 317 ff. StPO; § 116 VwGO; § 43a BRAO; § 11 BORA
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Gesetzestexte: Paragrafen 214 ff., 516, 520, 548, 569 ZPO; Paragrafen 317 ff. StPO; Paragraf 116 VwGO; Paragraf 43a BRAO; Paragraf 11 BORA
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

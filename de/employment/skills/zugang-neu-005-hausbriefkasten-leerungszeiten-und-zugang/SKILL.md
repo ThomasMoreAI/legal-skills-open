@@ -1,0 +1,64 @@
+---
+name: zugang-neu-005-hausbriefkasten-leerungszeiten-und-zugang
+title: 'Arbeitsrecht: Hausbriefkasten Leerungszeiten und Zugang mit konkreter Fachprüfung, Quellenhygiene, Fehlerbremse und verw'
+description: 'Für Zugang Neu 005 Hausbriefkasten Leerungszeiten und Zugang: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/zugang-neu-005-hausbriefkasten-leerungszeiten-und-zugang
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Arbeitsrecht: Hausbriefkasten Leerungszeiten und Zugang mit konkreter Fachprüfung, Quellenhygiene, Fehlerbremse und verwertbarem Arbeitsergebnis.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Arbeitsrecht: Hausbriefkasten Leerungszeiten und Zugang mit konkreter Fachprüfung, Quellenhygiene, Fehlerbremse und verwertbarem Arbeitsergebnis.
+
+### Zugang Hausbriefkasten Leerungszeiten Und Zugang
+
+## Hausbriefkasten als Machtbereich
+
+- Der Briefkasten gehoert zum Machtbereich des Empfaengers.
+- Einwurf = Zugang, sobald die Erklaerung in den Briefkasten gelangt UND mit Kenntnisnahme zu rechnen ist.
+
+## Uebliche Leerungszeit
+
+- Werktags 1-2 mal taeglich.
+- Bei Einwurf vor der ueblichen Leerung: Zugang am selben Tag.
+- Bei Einwurf nach der ueblichen Leerung: Zugang erst am naechsten Werktag.
+
+## BAG-Linie zu Sonn-/Feiertagen
+
+- BAG: bei Einwurf an einem Sonntag erfolgt Zugang regelmaessig erst am folgenden Werktag.
+- BAG 2 AZR 224/18 zur Verkehrsuebung.
+- BAG 6 AZR 687/09 zur Zugangsfiktion.
+
+## Wichtig für Klagefrist
+
+- Beispiel: Einwurf Samstag 14:00 Uhr; Zugang Montag.
+- 3-Wochen-Frist Paragraf 4 KSchG laeuft ab Montag.
+
+## Streitfaelle
+
+- Briefkasten defekt, groß genug, ueberfuellt.
+- Fremder Briefkasten (Mehrfamilienhaus mit gleichem Namen).
+- Arbeitnehmer im Urlaub — Zugang trotzdem (Urlaubs-Selbstrisiko).
+
+## Prüfraster
+
+1. Wann wurde eingeworfen?
+2. Wann war Leerung uebrlich?
+3. Welcher Werktag = Zugang?
+4. Werktag oder Sonntag?
+5. Briefkasten ordnungsgemaess?

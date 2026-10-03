@@ -1,0 +1,37 @@
+---
+name: review-proposals-zhou210712
+title: /review-proposals
+description: 审查并批准（或拒绝）来自审查指引监控代理的待处理更新建议，并将批准的变更 应用到业务领域配置中。当审查指引监控代理提出建议时使用，或当用户说 "审查审查指引建议""有哪些待处理的审查指引更新"或想逐一处理偏离驱动的审查指引变更时使用。
+author: zhou210712
+author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/commercial-legal/skills/review-proposals
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: contracts
+language: zh
+---
+
+# /review-proposals
+
+逐步审查来自监控代理的待处理审查指引更新建议，并将批准的变更应用到 `~/.claude/plugins/config/claude-for-legal/commercial-legal/CLAUDE.md`。
+
+## 指令
+
+1. **加载审查指引监控代理** 并运行步骤5（审查和批准流程）。
+
+2. **如果不存在建议文件** 或为空：回应*"无待处理建议。审查指引已是最新。"*不要继续。
+
+3. **逐一呈现建议。** 对每项建议，展示完整建议块并提供四个选项：接受、拒绝、编辑、延期。
+
+4. **对于接受或编辑：** 在写入前展示对审查指引的确切差异。仅在律师明确确认后应用。
+
+5. **对于拒绝或延期：** 记录决定。不修改审查指引。
+
+6. **全部建议处理完毕后：** 展示变更摘要，然后归档建议文件。
+
+## 示例
+
+```
+/commercial-legal:review-proposals
+```

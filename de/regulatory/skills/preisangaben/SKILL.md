@@ -1,11 +1,11 @@
 ---
 name: preisangaben
 title: Preisangaben (PAngV 2022)
-description: Prüft die Einhaltung der Preisangabenverordnung 2022 (PAngV) bei Gesamtpreisen, Grundpreisen, Streichpreisen und Versandkosten, insbesondere die 30-Tage-Niedrigstpreisregel bei Preisreduzierungen. Lädt bei Fragen zu Preisauszeichnung, Rabattaktionen, Sale-Kennzeichnung und Grundpreisangabe.
+description: 'Für Preisangaben (PAngV 2022): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/preisangaben
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,13 @@ language: de
 
 # Preisangaben (PAngV 2022)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill begleitet die rechtskonforme Preisauszeichnung gegenüber Verbrauchern nach der Preisangabenverordnung 2022 (PAngV, in Kraft getreten 28.05.2022 zur Umsetzung der EU-Omnibus-Richtlinie). Er deckt Gesamtpreis, Grundpreis, Streichpreise (insb. 30-Tage-Niedrigstpreis nach § 11 PAngV), Versandkosten und die UWG-Rechtsfolgen ab. Anwendungsfälle: Online-Shop-Preisauszeichnung, Black-Friday-Sale, Streichpreiswerbeaktion, Grundpreispflicht für Lebensmittel/Kosmetik, B2C-Preiskommunikation.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GPSR Geltungsbeginn 13.12.2024, MaschinenVO 20.01.2027, ProdHaftRL-Umsetzung 09.12.2026, Rückruf unverzüglich, Meldung schwerer Unfall innerhalb 2 Tagen.
+- Tragende Normen verifizieren: ProdSG, ProdHaftG, EU-Marktüberwachungs-VO 2019/1020, EU-Produktsicherheits-VO 2023/988 (GPSR ab 13.12.2024), Produkthaftungs-RL 2024/2853, MaschinenVO 2023/1230, GPSGV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Hersteller, Importeur, Händler, Fulfillment-Dienstleister, Marktüberwachungsbehörde (BAuA, Länder), benannte Stelle, Endverbraucher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung, technische Dokumentation, Risikoanalyse, CE-Kennzeichnung, Rückrufkonzept, Sicherheitsbericht, Online-Marktplatz-AGB — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -50,6 +54,7 @@ Das Modell benötigt:
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 **Schritt 1 – Pflicht zur Gesamtpreisangabe prüfen (§ 3 PAngV)**
@@ -83,17 +88,10 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Schritt 6 – Dokumentation**
 - 30-Tage-Preishistorie für alle Produkte mit Aktionen intern dokumentieren und archivieren (Beweislast im UWG-Prozess beim Händler).
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 1-4 PAngV (Preisangaben, Gesamtpreis, Grundpreis) — § 11 PAngV (30-Tage-Niedrigstpreisregel) — §§ 3, 5 UWG (Irreführende Werbung, Preisgestaltung) — Art. 6a RL 98/6/EG i.d.F. Omnibus-RL 2019/2161 (Preisreduzierungen)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabeformat
 
 - **Preisauszeichnungs-Checkliste** (Tabelle): § 3 / § 4 / § 6 / § 11 PAngV × Anforderung × Status × Handlungsbedarf.
@@ -110,7 +108,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 *Grundpreis (§ 4 PAngV)*: Olivenöl ist ein Lebensmittel nach Volumen; Grundpreis pro Liter = 8,99 €/l muss neben dem Gesamtpreis angegeben werden. Fehlt im Sachverhalt; Verstoß gegen § 4 PAngV.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Rechtsfolge*: Verstoß gegen § 11 PAngV begründet Abmahnrisiko nach § 3a UWG (Sosnitza, in: Ohly/Sosnitza, UWG, 8. Aufl. 2023, PAngV Vorbem. Rn. 18); Bußgeld nach § 19 PAngV bis 25.000 EUR.
 
@@ -126,16 +123,3 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Quellenpflicht
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur task_198 (3 Probleme):
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   Naehrwertdeklaration/LMIV, nicht PAngV/Streichpreise — kein passender Ersatz.
-1. Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   Preisangabenrechtliche Entscheidungen nur mit Gericht, Datum, Aktenzeichen
-   und freier/amtlicher Quelle in die Ausgabe übernehmen.
-3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   explizites AZ-Zitat vorhanden; AZ existiert (BGH 25.03.2021), betrifft aber
-   Nutzungsentgelt fuer bargeldlose Zahlungen (§ 270a BGB) — falsches Thema;
-   kein Handlungsbedarf im Text, da AZ dort nicht vorkommt.
--->

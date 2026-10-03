@@ -1,11 +1,11 @@
 ---
 name: uspto-office-actions-und-tess-tsdr
 title: USPTO Office Actions und TESS/TSDR-Recherche
-description: 'USPTO Office Actions beantworten und TESS/TSDR-Datenbankrecherche: Prüfungsbescheid des USPTO nach Markenanmeldung erhalten. Normen: 15 U.S.C. § 1052 (Section 2-Versagungsgründe), In re E.I. DuPont 476 F.2d 1357 (DuPont Factors Likelihood of Confusion). Prüfraster: Section 2(d) Verwechslungsgefahr (DuPont-Analyse), Section 2(e)(1) Merely Descriptive, Section 2(e)(4) Surname, Section 2(a) Deceptiveness. Output Office-Action-Response mit DuPont-Analyse oder Anspruchseinschraenkung. Abgrenzung: Neue USPTO-Anmeldung siehe uspto-anmeldung-und-lanham-act; TTAB siehe ttab-opposition-und-cancellation.'
+description: 'Für USPTO Office Actions und TESS/TSDR-Recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/uspto-office-actions-und-tess-tsdr
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # USPTO Office Actions und TESS/TSDR-Recherche
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: USPTO Office Actions und TESS/TSDR-Recherche
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Eine Office Action vom USPTO ist kein Todesurteil — sondern eine Einladung zur Argumentation. Senior Associate Eleanor M. Quintero, Esq. (Whitman Brennan Forsythe LLP) bearbeitet alle US-Office-Actions; unsere Münchener Kanzlei steuert die strategische Linie und European Prior Rights-Dokumentation bei.
 
@@ -37,13 +50,13 @@ TESS und TSDR sind die primären Recherchetools; wer sie nicht kennt, ist blind 
 
 1. Zugang: tmsearch.uspto.gov
 2. Sucharten:
-   - Basic Word Mark Search: Exakte/phonetische Suche
-   - Structured Search: Kombinierte Suche nach Wort + Klasse + Inhaberstatus
-   - Design Search Code: für Bildmarken (US Design Search Code — anders als Vienna Classification)
+ - Basic Word Mark Search: Exakte/phonetische Suche
+ - Structured Search: Kombinierte Suche nach Wort + Klasse + Inhaberstatus
+ - Design Search Code: für Bildmarken (US Design Search Code — anders als Vienna Classification)
 3. Filteroptionen:
-   - Status: Live (nur aktive Marken) vs. Dead (historische Marken)
-   - IC: International Class (z.B. IC 025)
-   - GS: Goods/Services freie Textsuche
+ - Status: Live (nur aktive Marken) vs. Dead (historische Marken)
+ - IC: International Class (z.B. IC 025)
+ - GS: Goods/Services freie Textsuche
 4. Ergebnis-Export: CSV für systematische Vergleichsanalyse
 
 ### TSDR (Trademark Status and Document Retrieval)
@@ -51,9 +64,9 @@ TESS und TSDR sind die primären Recherchetools; wer sie nicht kennt, ist blind 
 1. Zugang: tsdr.uspto.gov
 2. Funktion: Vollständige Aktenansicht jeder Marke (Serial Number / Registration Number)
 3. Inhalte:
-   - Status (Live/Dead/Abandoned/Cancelled)
-   - Prosecution History: alle Office Actions, Responses, Decisions
-   - Documents: Specimens, Assignments, Renewals
+ - Status (Live/Dead/Abandoned/Cancelled)
+ - Prosecution History: alle Office Actions, Responses, Decisions
+ - Documents: Specimens, Assignments, Renewals
 4. Strategisch: Prosecution History Estoppel — frühere Argumente des Inhabers gebunden ihn
 
 ### DuPont Factors — 13-Faktoren-Analyse
@@ -104,13 +117,11 @@ Examining Attorney: "COUTURE" ist beschreibend für Mode in Klasse 25. Response:
 ### Konstellation 3: Suspension Letter wegen pendenter Citiermarke
 USPTO suspendiert klôtzzkètté-Anmeldung wegen älterer, noch nicht eingetragener Anmeldung "KLOTZKET" (in Examination). Antwort: Monitor den Status der Citiermarke; bei Abandonment der Citiermarke: Response mit Argument für Aufhebung der Suspension.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- McCarthy on Trademarks, Vol. 2, §§ 11-13 (Likelihood of Confusion/DuPont)
-- In re E.I. du Pont de Nemours & Co., 476 F.2d 1357 (C.C.P.A. 1973) — DuPont Factors
-- In re Nantucket, Inc., 677 F.2d 95 (C.C.P.A. 1982) — Primarily Merely a Surname
-- Abercrombie & Fitch Co. v. Hunting World, Inc., 537 F.2d 4 (2d Cir. 1976) — Distinctiveness Spectrum
-- TMEP §§ 1207 (Likelihood of Confusion) und 1209 (Descriptiveness)
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -124,17 +135,17 @@ Filed: [Date]
 Response to Office Action dated [Date]
 
 I. RESPONSE TO REFUSAL UNDER § 2(d)
-   A. The Marks Are Dissimilar in Appearance, Sound, and Meaning
-   B. The Goods Are Sold Through Different Trade Channels
-   C. Purchasers Are Sophisticated
-   D. No Evidence of Actual Confusion
-   [...]
+ A. The Marks Are Dissimilar in Appearance, Sound, and Meaning
+ B. The Goods Are Sold Through Different Trade Channels
+ C. Purchasers Are Sophisticated
+ D. No Evidence of Actual Confusion
+ [...]
 
 II. AMENDMENT TO IDENTIFICATION OF GOODS (if applicable)
-   [New language]
+ [New language]
 
 III. DECLARATION (37 C.F.R. § 2.20)
-   [If acquired distinctiveness is argued]
+ [If acquired distinctiveness is argued]
 
 Respectfully submitted,
 Eleanor M. Quintero, Esq.
@@ -160,7 +171,7 @@ Whitman Brennan Forsythe LLP
 Bevor die Response verfasst wird, klaere:
 1. Wie lange ist die Antwortfrist (6 Monate ab Mail-Date — verlängerbar gegen Gebuehr)?
 2. Basiert die Zuerueckweisung auf § 2(d) (Likelihood of Confusion) oder § 2(e)(1) (Mere Descriptiveness) oder beides?
-3. Ist die Zitiermarke in TESS noch live und im relevanten Klassensegment aktiv (Basis fuer DuPont-Analyse)?
+3. Ist die Zitiermarke in TESS noch live und im relevanten Klassensegment aktiv (Basis für DuPont-Analyse)?
 4. Gibt es Prosecution History Estoppel-Risiken bei geplanten Warenverzeichnis-Einschraenkungen?
 
 ## Aktuelle Rechtsprechung (US)
@@ -169,4 +180,4 @@ Bevor die Response verfasst wird, klaere:
 
 > **In re Viterra Inc., 671 F.3d 1358 (Fed. Cir. 2012):** Die Aehnlichkeit zwischen Marken ist nach dem Gesamteindruck auf Erscheinung, Klang, Bedeutung und kommerzielle Impression zu beurteilen; es genuegt, wenn ein einziges dieser Elemente Verwechslungsgefahr begruendet.
 
-> **In re Gyulay, 820 F.2d 1216 (Fed. Cir. 1987):** Ein Begriff ist im Sinne von § 2(e)(1) Lanham Act "merely descriptive", wenn er unmittelbar eine Eigenschaft oder Merkmal der angemeldeten Waren beschreibt; er muss nicht ausschliesslich beschreibend sein — es genuegt, wenn er im Zusammenhang mit den Waren eine direkte beschreibende Aussage macht.
+> **In re Gyulay, 820 F.2d 1216 (Fed. Cir. 1987):** Ein Begriff ist im Sinne von § 2(e)(1) Lanham Act "merely descriptive", wenn er unmittelbar eine Eigenschaft oder Merkmal der angemeldeten Waren beschreibt; er muss nicht ausschließlich beschreibend sein — es genuegt, wenn er im Zusammenhang mit den Waren eine direkte beschreibende Aussage macht.

@@ -1,0 +1,101 @@
+---
+name: intensivmedizin-beatmung-verlegung
+title: Intensivmedizin Beatmung Verlegung
+description: 'Für Intensivmedizin Beatmung Verlegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenhausrecht/skills/intensivmedizin-beatmung-verlegung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: healthcare
+language: de
+---
+
+# Intensivmedizin Beatmung Verlegung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Intensivmedizin Beatmung Verlegung
+- **Normen-/Quellenanker:** KHG/KHEntgG, SGB V, Krankenhausplanung der Länder, Qualitätsvorgaben, Vergütung, MD-Prüfung, Haftung, Datenschutz und Arbeits-/Medizinprodukterecht.
+- **Entscheidende Weiche:** Planung/Zulassung, Vergütung, Behandlungspflicht, Organisation, Qualität, Datenschutz, Haftung und Behördenkommunikation trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Worum geht es konkret
+Die Intensivmedizin ist hochreguliert: Personaluntergrenzen (PpUGV-Intensiv), Strukturmerkmale für Beatmungs-OPS, Verlegung gemäß Intensivkapazitaeten, ausserklinische Beatmung nach IPReG (Intensivpflege- und Rehabilitationsstaerkungsgesetz). Fehleinordnung gefaehrdet Vergütung und Patientensicherheit.
+
+## Wann dieses Modul hilft / Kaltstart-Fragen
+- Welche Intensivstation (Erwachsene, Kinder, Neonatologie, Spezial)?
+- Wird Beatmung dokumentiert (Beatmungsstunden, Geraet, OPS 8-71x)?
+- Ist Verlegung intern oder zwischen Kliniken (Triage, Kapazitaet)?
+- Liegt Antrag/Voraussetzung ausserklinische Beatmung nach IPReG vor?
+- Drohen MD-Prüfung, Pflegeuntergrenze, Strukturzuschlag-Wegfall?
+
+## Rechtlicher Rahmen
+- **PpUGV** Anlage Intensiv (Erwachsene, Kinder, Neonatologie).
+- **OPS 8-71x** Beatmungs- und Komplexbehandlungs-Kodes.
+- **G-BA-Richtlinien** Versorgungsstrukturen Intensiv (Stroke, Trauma, Perinatalzentrum).
+- **IPReG** (Intensivpflege- und Rehabilitationsstaerkungsgesetz) Ausserklinische Beatmung.
+- **SGB V § 37c** Spezialisierte Ambulante Palliativversorgung (SAPV) als angrenzendes Feld.
+- **G-DRG-Katalog** Beatmungs- und Sepsis-DRGs mit Strukturmerkmal.
+
+## / Schritt für Schritt
+1. **Stationskategorisierung prüfen:** Erwachsenen-, Kinder-, Neonatologie-Intensiv; Bettenzahl, Beatmungsplaetze.
+2. **PpUGV-Quote rechnen:** Pflege je Schicht, examinierte Quote, Helferanrechnung.
+3. **Beatmungsstunden korrekt erfassen:** Beginn (Intubation/Tracheostoma) bis Ende (Extubation), MD-konforme Doku.
+4. **OPS-Strukturmerkmal prüfen:** OPS 8-980 Komplexbehandlung Intensiv mit Strukturmerkmalen (Personal, Geraete, Routine).
+5. **Verlegung dokumentieren:** Intensivkapazitaet, Triage-Entscheidung, Begruendung medizinisch und kapazitiv.
+6. **IPReG-Verlegung ausserklinisch:** Indikationspruefung, Genehmigung Kasse, Versorgungsstruktur.
+7. **MD-Prüfung antizipieren:** Strukturpruefung kann Beatmungs-DRG kassieren.
+
+## Trade-off-Matrix
+
+| Konstellation | Maßnahme | Verguetungseffekt |
+|---|---|---|
+| Beatmung > 24h | OPS 8-71x, Beatmungs-DRG | hoeher als nicht beatmet |
+| Komplexbehandlung Intensiv | OPS 8-980 erfuellt? | Zusatzentgelt |
+| Verlegung zur Intensiv extern | Begruendung Triage | DRG-Anteilig |
+| Ausserklinische Beatmung (IPReG) | Antrag, Strukturen | langfristige Versorgungsfragen |
+
+## Praxistipps
+- Beatmungsstunden-OPS sind MD-Prüfungs-Hotspot; Doku-Genauigkeit zentral.
+- OPS 8-980 Komplexbehandlung verlangt Mindestpersonal pro Schicht — Pflegepersonalbericht mitfuehren.
+- Triage-Entscheidung dokumentieren (BAEK-/DIVI-Empfehlungen).
+- IPReG verlangt Indikationspruefung; AOK/Ersatzkassen prüfen Versorgungsweg.
+- Pflegeuntergrenze-Verletzung in Intensiv fuehrt zu Verguetungsabschlag.
+
+## Mustertexte
+**OPS-Doku Beatmungsbeginn:**
+> Datum/Uhrzeit: …, Patient: …, Indikation: respiratorische Insuffizienz, Mode: BiPAP/druckkontrolliert, Tubus/Tracheostoma: …, FiO2: …, PEEP: …, Beatmungsbeginn-OPS 8-71x ab [Uhrzeit]. Aerztl. Anordnung: [Name].
+
+**Verlegungsbericht intern:**
+> Patient [Name], Diagnose [ICD]; Verlegung von Intensiv [Station] zur [Ziel]; Begruendung: medizinisch stabil/unverlegbar, kapazitiv: Bettensituation/Triage. Mitfuehrungsunterlagen: Medikationsplan, Beatmungsprotokoll, Pflegebericht.
+
+## Typische Fehler
+- Beatmungsstunden zu generoes oder zu knapp (MD-Streit).
+- Komplexbehandlungs-OPS ohne Strukturnachweis.
+- Triage-Entscheidung ohne Dokumentation.
+- Ausserklinische Beatmung ohne IPReG-Indikationspruefung.
+
+## Quellen Stand 06/2026
+- PpUGV (Live-Check BMG).
+- OPS-Katalog BfArM (Live-Check bfarm.de).
+- IPReG (Live-Check BMG, gkv-spitzenverband.de).
+- G-BA Strukturqualitaetsrichtlinien (Live-Check g-ba.de).
+- BSG, staend. Rspr. zu Beatmungsstunden und Strukturpruefung.
+- DIVI-Empfehlungen zu Triage und Intensivverlegung.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- §§ 1-23 KHG (Krankenhausfinanzierung)
+- §§ 107-114 SGB V (Krankenhaus)
+- KHEntgG (Entgeltgesetz)
+- §§ 17a-17d KHG (DRG, Pflege, Investitionen)

@@ -5,12 +5,20 @@ description: Drafts NEPA-compliant Environmental Impact Statements (EIS) under 4
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/environmental-impact-statement
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: environmental
 language: en
-tags: [regulatory, drafting, analysis]
+tags:
+- regulatory
+- drafting
+- analysis
+sources:
+- title: Authority status
+  path: references/AUTHORITY-STATUS.md
+- title: Eis structure
+  path: references/EIS-STRUCTURE.md
 ---
 
 # Environmental Impact Statement (EIS)

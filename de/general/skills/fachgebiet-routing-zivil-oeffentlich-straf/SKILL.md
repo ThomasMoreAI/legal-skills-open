@@ -1,11 +1,11 @@
 ---
 name: fachgebiet-routing-zivil-oeffentlich-straf
 title: 'Fachgebiet-Routing: Zivilrecht — Öffentliches Recht — Strafrecht'
-description: 'Student weiss nicht in welches Fachgebiet die Hausarbeit faellt: Zivilrecht öffentliches Recht Strafrecht oder Mix. Routing-Skill klaert Fachgebiet anhand Indikatoren. Normen allgemein BGB HGB VwGO StGB je nach Gebiet. Prüfraster Fachgebiet-Indikatoren Mix-Konstellationen Anspruchsgrundlagen-Typ. Output Fachgebiet-Zuordnung Routing-Empfehlung Erlaeuterung. Abgrenzung zu öffentliches-recht-statthaft (Schema) strafrecht-tatbestand (Schema) zivilrecht-anspruchsgrundlagen (Schema).'
+description: 'Für Fachgebiet-Routing: Zivilrecht — Öffentliches Recht — Strafrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/fachgebiet-routing-zivil-oeffentlich-straf
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,9 +14,13 @@ language: de
 
 # Fachgebiet-Routing: Zivilrecht — Öffentliches Recht — Strafrecht
 
-## Zweck
+## Arbeitsweg
 
-Ohne klares Fachgebiet kein klares Prüfungsschema. Die Hausarbeit hat einen Schwerpunkt — manchmal mit Mit-Aspekten anderer Fachgebiete.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Schritt 1 — Erste Indikatoren je Fachgebiet
 
@@ -127,9 +131,9 @@ Beide gleichwertig prüfen, Gliederung typisch:
 
 ```
 A. Zivilrechtliche Ansprüche
-   I. ...
+ I. ...
 B. Strafrechtliche Verantwortlichkeit
-   I. ...
+ I. ...
 ```
 
 ## Schritt 5 — Schwerpunkt-Identifikation
@@ -161,7 +165,7 @@ B. Strafrechtliche Verantwortlichkeit
 ## Übergang zu
 
 - Zivilrecht-Schwerpunkt: `zivilrecht-anspruchsgrundlagen-pruefung`
-- ÖR-Schwerpunkt: `oeffentliches-recht-statthaft-zulaessig-begruendet` oder `verfassungsrecht-grundrechtspruefung`
+- ÖR-Schwerpunkt: `öffentliches-recht-statthaft-zulaessig-begruendet` oder `verfassungsrecht-grundrechtspruefung`
 - Strafrecht-Schwerpunkt: `strafrecht-tatbestand-rechtswidrigkeit-schuld`
 - EU-Bezug: `europarecht-anwendbarkeit-vorrang-vorabentscheidung`
 - Rechtstheorie / -philosophie: `rechtstheorie-rechtsphilosophie-anbindung`

@@ -1,0 +1,91 @@
+---
+name: hausgeld-sonderumlage-liquiditaet
+title: Hausgeld, Sonderumlage und Liquidität
+description: 'Für Hausgeld, Sonderumlage und Liquidität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/hausgeld-sonderumlage-liquiditaet
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Hausgeld, Sonderumlage und Liquidität
+
+## Fachlicher Anker
+
+- **Normen:** §§ 535, §§ 18, § 16 Abs. 2.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: Hausgeld, Sonderumlage und Liquidität
+- **Normen-/Quellenanker:** WEG §§ 18-28, 44/45, BGB-Miet-/Werkvertragsrecht, BetrKV, HeizkostenV, GEG, DSGVO und landesrechtliche Bau-/Sicherheitsfragen.
+- **Entscheidende Weiche:** Trenne Beschlusskompetenz, ordnungsmäßige Verwaltung, Kostenverteilung, Anfechtungsfrist, Verwalterpflicht, Belegprüfung und Vollzug.
+
+Stand: 05/2026.
+
+## Ziel
+
+Die Zahlungsfähigkeit der GdWE sichern, ohne Forderungen unsauber zu verfolgen. Hausgeldforderungen leben von der laufenden Liquidität — Zurückbehaltungsrechte sind eng begrenzt.
+
+## Prüfung
+
+- **Beschlussgrundlage**: Wirtschaftsplan (§ 28 Abs. 1 WEG), Sonderumlage (Mehrheitsbeschluss), Nachschüsse aus Abrechnung (§ 28 Abs. 2 WEG).
+- **Fälligkeit**: Beschlusswortlaut präzise (Datum oder X Werktage nach Beschluss), Schuldnerbestimmung (Eigentümer bei Beschlussfassung, nicht bei Fälligkeit, soweit nicht abweichend geregelt), Eigentümerwechsel berücksichtigen.
+- **Mahnlauf**: erste Erinnerung, Mahnung mit Frist, Verzugszinsen (§ 288 BGB).
+- **Rückstände** nach Einheit und Kostenart aufschlüsseln (Vorschuss, Sonderumlage, Nachschuss, Zinsen, Kosten).
+- **Ratenzahlung**: Gleichbehandlung der Eigentümer beachten — Beschluss der GdWE oder klare Ermessensleitlinien.
+- **Liquiditätslücke**: dringende Maßnahmen, Anwalt, Mahnbescheid, Klage beim Amtsgericht der belegenen Sache (§ 43 WEG, § 23 Nr. 2c GVG).
+
+## Kein Zurückbehaltungsrecht gegen Vorschüsse
+
+- BGH, Urteil vom 14.11.2025, V ZR 190/24: Ein Wohnungseigentümer kann beschlossene Hausgeldvorschüsse **nicht** unter Berufung auf ein Zurückbehaltungsrecht verweigern — auch nicht dann, wenn er einen rechtskräftigen Titel auf Erstellung der Jahresabrechnung besitzt.
+- Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=14.11.2025&Aktenzeichen=V+ZR+190/24
+- Begründung: Das laufende Finanzierungssystem der GdWE (§ 28 Abs. 1 Satz 1 WEG) darf nicht durch Druckmittel unterbrochen werden. Aufrechnung mit unstreitigen oder titulierten Gegenforderungen bleibt nach allgemeinen Grundsätzen denkbar (Erfüllungssurrogat), Zurückbehaltung dagegen nicht.
+
+## Prozesskosten der Beschlussklage als Verwaltungskosten
+
+- Prozesskosten der unterliegenden GdWE = Verwaltungskosten i.S.d. § 16 Abs. 2 Satz 1 WEG; sie werden grundsätzlich nach allgemeinem Schlüssel verteilt — auch der obsiegende Anfechtungskläger trägt seinen Anteil mit.
+- BGH, Urteil vom 19.07.2024, V ZR 139/23 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=19.07.2024&Aktenzeichen=V+ZR+139/23).
+- Praxisfolge: In der Sonderumlage- oder Wirtschaftsplan-Kalkulation Prozesskostenrisiko realistisch ausweisen.
+
+## Mustertext Sonderumlage-Beschluss
+
+> Die Wohnungseigentümer beschließen eine Sonderumlage in Höhe von [Betrag] EUR zur Finanzierung von [Zweck, z. B. Dachsanierung gemäß TOP X, Beschluss Nr. Y]. Die Umlage wird nach dem allgemeinen Kostenschlüssel auf die Eigentümer verteilt (Anlage [Z]). Fälligkeit: [Datum oder X Werktage nach Zugang der Einzelabrechnung]. Die Verwaltung wird beauftragt, die Sonderumlage einzufordern und auf einem zweckgebundenen Konto zu verbuchen.
+
+## Mustertext Mahnung
+
+> Sehr geehrte/r [Name],
+> auf der Grundlage des Wirtschaftsplans/Beschlusses Nr. [...] vom [Datum] sind folgende Hausgeldvorschüsse / Sonderumlagebeträge bis [Fälligkeit] zur Zahlung fällig gewesen:
+> [Tabelle]
+> Wir bitten Sie, den offenen Betrag in Höhe von [Summe] EUR bis spätestens [Datum] auf das Konto [IBAN] zu überweisen. Bei weiterem Verzug behält sich die GdWE die gerichtliche Geltendmachung einschließlich Verzugszinsen (§ 288 BGB) und Kosten vor.
+
+## Eskalation Hausgeldklage
+
+- Prüfen: Aktivlegitimation GdWE (§ 9a Abs. 2 WEG), Beschlussgrundlage, Bezifferung pro Eigentümer, Fälligkeit, Mahnung, Zinsen.
+- Vorbereitendes Anwaltspaket: Sachverhaltschronologie, Beschlüsse (vollständig), Einzelabrechnung, Mahnverlauf, Zahlungsverkehr, Eigentümerwechselbeleg (§ 894 BGB).
+- Amtsgericht der belegenen Sache (§ 43 Abs. 1 WEG, § 23 Nr. 2c GVG).
+
+## Cross-Refs
+
+- Beschlussvorschlag Sonderumlage → `beschlussvorlagen-erstellen`
+- Anfechtungsrisiko bei Sonderumlage → `beschlussanfechtung-risiko`
+- Eskalation Gericht → `eskalation-anwalt-amtsgericht`
+- Abrechnungsspitzen → `wirtschaftsplan-jahresabrechnung-28-weg`
+
+## Quellenpflicht
+
+`rechtsstand-mai-2026-faktenbank` laden. Keine Beck-RS, juris ohne offene Veröffentlichung, Kommentare/Aufsätze aus Modellwissen. Aktenzeichen nur mit offen prüfbarer URL.
+
+## Einwendungen, Aufrechnung und Titel unterscheiden
+
+V ZR 190/24 vom 14.11.2025, Rn. 10–20: Vorschussfinanzierung wird grundsätzlich nicht durch Zurückbehaltung blockiert. Aufrechnung mit anerkannten oder rechtskräftig festgestellten Geldforderungen ist eine andere Frage (Rn. 18); nicht mit einem generellen Aufrechnungsverbot verwechseln. Beschluss und Mahnung sind noch keine Vollstreckungstitel. Kosten und Rückstände pro Rechtsgrund mit Fälligkeit, Zahlung und Tilgung ausweisen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

@@ -9,6 +9,10 @@
   "practice": "corporate",
   "language": "es",
   "skills": [
-    "skills/cumplimiento-societario"
+    "skills/acuerdo-social",
+    "skills/cumplimiento-societario",
+    "skills/entrevista-inicial-3",
+    "skills/extraccion-incidencias",
+    "skills/revision-tabular"
   ]
 }

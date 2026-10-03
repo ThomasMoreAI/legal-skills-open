@@ -1,11 +1,11 @@
 ---
 name: liquiditaet-12-monate
 title: Zwölf-Monats-Liquidität
-description: Workflow-Skill zu liquiditaet 12 monate. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Zwölf-Monats-Liquidität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/liquiditaet-12-monate
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,13 @@ language: de
 
 # Zwölf-Monats-Liquidität
 
-## Zweck
+## Arbeitsweg
 
-Die Fortbestehensprognose erfordert dass das Unternehmen über den **Prognosehorizont von zwölf Monaten** zahlungsfähig bleibt. Das bedeutet: in jedem Monat müssen die liquiden Mittel plus Kreditlinien plus Zufluesse die fälligen Verbindlichkeiten decken.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Drei Schichten
 
@@ -26,29 +30,29 @@ Aus den Annahmen aus `annahmen-sammeln-fortfuehrung` plus Plausibilisierung:
 
 ```yaml
 liquiditaet:
-  startbestand-2026-05-20: 18000
-  kreditlinie-verfuegbar: 12000  # Linie 150000 minus 138000 ausgenutzt
-  
-  monatsdaten:
-    - monat: 2026-06
-      einzahlungen:
-        forderungen-laul: 185000
-        gesellschafter-darlehen: 0
-        sonstige: 0
-        summe: 185000
-      auszahlungen:
-        lieferanten: 130000
-        loehne-gehaelter: 78000
-        sozialabgaben: 24000
-        steuern: 14000
-        bank-tilgung: 8000
-        miete: 6000
-        energie: 9000
-        sonstige: 5000
-        summe: 274000
-      saldo-monat: -89000
-      monatsendbestand: -71000  # negativ — Linie reicht nicht
-      bemerkung: Liquiditätslücke
+ startbestand-2026-05-20: 18000
+ kreditlinie-verfuegbar: 12000 # Linie 150000 minus 138000 ausgenutzt
+
+ monatsdaten:
+ - monat: 2026-06
+ einzahlungen:
+ forderungen-laul: 185000
+ gesellschafter-darlehen: 0
+ sonstige: 0
+ summe: 185000
+ auszahlungen:
+ lieferanten: 130000
+ loehne-gehaelter: 78000
+ sozialabgaben: 24000
+ steuern: 14000
+ bank-tilgung: 8000
+ miete: 6000
+ energie: 9000
+ sonstige: 5000
+ summe: 274000
+ saldo-monat: -89000
+ monatsendbestand: -71000 # negativ — Linie reicht nicht
+ bemerkung: Liquiditätslücke
 ```
 
 ### Schicht 2 — Detaillierte Wochenplanung
@@ -111,7 +115,6 @@ ist die Liquidität über den Horizont zu sichern.
 
 ## 90-Prozent-Deckung ist der operative Maßstab
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - **In jedem Zeitabschnitt** muss die Deckung der fälligen Verbindlichkeiten mindestens **90 Prozent** betragen (Liquiditätslücke unter zehn Prozent).
 - **Eine vorübergehende Lücke** über zehn Prozent darf höchstens **drei Wochen** andauern. Wer laenger als drei Wochen unter 90 Prozent Deckung liegt ist nach BGH zahlungsunfähig — und das ist gerade nicht "fortfuehrbar".
@@ -133,22 +136,15 @@ Die "mehr als 50 Prozent Wahrscheinlichkeit" der Prognose bezieht sich darauf da
 - Hinweis auf Prüfer-Flag bei roten Monaten.
 - Empfehlung auf nächsten Skill `fortbestehensprognose-zusammenfuehren`.
 
-
-## Aktuelle Leitentscheidungen — 12-Monats-Liquiditaetsplanung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette 12-Monats-Liquiditaet
 
 § 17 InsO (Zahlungsunfaehigkeit, 10%-Schwelle) → § 19 Abs. 2 InsO (Fortbestehensprognose — Liquiditaet als Kernbestandteil) → IDW S 11 Rn. 50-65 (Liquiditaetsplanung als Prognosebaustein) → § 15a InsO (Antragspflicht bei negativem Forecast)
 
 ## Triage — 12-Monats-Forecast Check
 
-1. **Methode?** Direkte Methode (Cash-In/Cash-Out) bevorzugt fuer insolvenzrechtliche Beurteilung.
+1. **Methode?** Direkte Methode (Cash-In/Cash-Out) bevorzugt für insolvenzrechtliche Beurteilung.
 2. **Periode?** Monatsgranularitaet Minimum; Wochen-Granularitaet wenn ZU-nahe.
 3. **Annahmen konsistent?** Mit Umsatz- und Kostenplanung aus `annahmen-sammeln-fortfuehrung` abgestimmt?
 4. **Engpaesse sichtbar?** Negative Saldi in einzelnen Monaten klar hervorgehoben und mit Gegenmassnahmen unterlegt?
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

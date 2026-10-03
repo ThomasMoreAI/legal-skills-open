@@ -1,0 +1,64 @@
+---
+name: en301549-wcag-pruefplan
+title: EN 301 549 und WCAG-Prüfplan
+description: 'Für EN 301 549 und WCAG-Prüfplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/barrierefreiheit-web-checker/skills/en301549-wcag-pruefplan
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# EN 301 549 und WCAG-Prüfplan
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BFSG; WCAG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Dieses Fachmodul macht aus einer Website einen belastbaren Auditplan.
+
+## Auditstruktur
+
+1. Rechtsmaßstab festlegen.
+2. Seitentypen bestimmen: Start, Navigation, Suche, Produkt, Checkout, Login, Formular, Konto, PDF, Fehlerseite.
+3. Kritische User Journeys auswählen.
+4. Automatisierte Checks einplanen.
+5. Manuelle Tastatur- und Screenreader-Prüfung einplanen.
+6. Ergebnisse nach Schwere, Häufigkeit und Nutzerimpact priorisieren.
+7. Nachweise sammeln: Screenshot, URL, DOM-Auszug, Reproduktionsschritt, erwartetes Verhalten.
+
+## Prüftabelle
+
+| Bereich | Prüfung | Methode | Priorität |
+| --- | --- | --- | --- |
+| Wahrnehmbar | Textalternativen, Kontrast, Zoom | Tool + manuell | hoch |
+| Bedienbar | Tastatur, Fokus, Skiplinks | manuell | hoch |
+| Verständlich | Labels, Fehlermeldungen, Sprache | manuell | hoch |
+| Robust | Semantik, ARIA, Screenreader | manuell + DOM | hoch |
+| Dokumente | PDF-Tags, Lesereihenfolge | PDF-Prüfung | mittel/hoch |
+
+## Hinweis
+
+WCAG 2.2 ist fachlich sinnvoll, aber nicht automatisch der harmonisierte Rechtsmaßstab für jede EU-Konstellation. Das Audit kann deshalb zwei Spalten führen: rechtliche Mindestprüfung und empfehlenswerte Zusatzprüfung.
+
+## Rechtsmaßstab präzise
+- **EN 301 549 V3.2.1 (03/2021)**: harmonisierte Norm, die WCAG 2.1 Level A/AA inkorporiert (Kapitel 9 für Web, Kapitel 10 für Dokumente, Kapitel 11 für Software).
+- **BITV 2.0**: für öffentliche Stellen des Bundes, verweist über § 3 Abs. 2 BITV 2.0 auf EN 301 549.
+- **BFSG** (gilt seit 28.06.2025) und **BFSGV**: für Wirtschaftsakteure (B2C-Produkte/Dienstleistungen) — Anhang 1 BFSGV nennt die Anforderungen, harmonisierte Normen erzeugen Konformitätsvermutung (§ 4 BFSG).
+- **WAD-Richtlinie 2016/2102**: öffentliche Stellen, in Deutschland über BITV 2.0 / Landesrecht umgesetzt.
+- **WCAG 2.2** wurde im Oktober 2023 vom W3C veröffentlicht; eine entsprechende EN-Aktualisierung ist noch nicht im Amtsblatt veröffentlicht. Bis dahin bleibt WCAG 2.1 AA der harmonisierte Standard.
+
+## Audit-Output-Felder
+Pro Befund: Erfolgskriterium (z. B. WCAG 2.1 SC 1.4.3 Contrast Minimum AA), EN-301-549-Klausel (z. B. 9.1.4.3), Schwere (kritisch/hoch/mittel/niedrig), Umsetzungsempfehlung, Verantwortlicher, Frist.
+
+## Trade-off
+Reine Tool-Audits (Axe, Lighthouse, Wave) decken nur ca. 30-40 % der WCAG-Verstöße ab. Tastatur- und Screenreader-Manualtests bleiben unverzichtbar; nutzungsorientierte Tests mit Betroffenen sind das Gold-Standard.

@@ -5,12 +5,28 @@ description: Use when reviewing one-way (unilateral) commercial NDAs, analyzing 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/nda-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [nda, contract-review, redlines, negotiation, legal-analysis]
+tags:
+- nda
+- contract-review
+- redlines
+- negotiation
+- legal-analysis
+sources:
+- title: Duration scope
+  path: references/DURATION_SCOPE.md
+- title: Key clauses
+  path: references/KEY_CLAUSES.md
+- title: Party obligations
+  path: references/PARTY_OBLIGATIONS.md
+- title: Remedies liability
+  path: references/REMEDIES_LIABILITY.md
+- title: Standard exceptions
+  path: references/STANDARD_EXCEPTIONS.md
 ---
 
 # NDA Review Playbook (Commercial, Jurisdiction-Agnostic)

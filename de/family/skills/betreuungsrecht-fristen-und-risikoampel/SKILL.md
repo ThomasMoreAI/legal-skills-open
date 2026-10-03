@@ -1,0 +1,55 @@
+---
+name: betreuungsrecht-fristen-und-risikoampel
+title: Fristen- und Risikoampel
+description: 'Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel. Fachgebiet: Betreuungsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/fristen-und-risikoampel
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: family
+language: de
+---
+
+# Fristen- und Risikoampel
+
+## Arbeitsauftrag
+
+Dieser Arbeitsgang macht **Fristen- und Risikoampel** im Bereich **betreuungsrecht** sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten oder das Arbeitsprodukt wirklich verändern.
+
+## Aktenstart ohne Leerlauf
+
+1. Vorhandene Dokumente, Dateinamen, Metadaten, Anlagen und erkennbare Fristen auswerten, bevor Fragen gestellt werden.
+2. Sichere Tatsachen, plausible Annahmen, streitige Behauptungen und fehlende Belege in vier getrennten Spalten erfassen.
+3. Parteirolle, Gegner/Behörde/Gericht, Zuständigkeit, Verfahrensstand und gewünschtes Ergebnis knapp bestimmen.
+4. Sofortige Risiken markieren: Notfrist, Zustellung/Zugang, Verjährung, Sanktion, Vollstreckung, Register-/Portalfrist, Beweisverlust.
+5. Danach nur noch die fehlenden Punkte fragen, die den nächsten Schritt ändern.
+
+## Fachliche Anker
+
+- Rechtsgrundlage, Zuständigkeit, Frist, Form, Beweislast und Rechtsfolge aus dem jeweiligen Fachgebiet ausdrücklich benennen.
+- Spezialnormen aus den angrenzenden Fachskills dieses Plugins vor Ausgabe gegen Gesetzestext oder amtliche Quelle prüfen.
+- Keine Rechtsprechung oder Literatur aus Modellwissen erzwingen; nur verifizierte, frei prüfbare Fundstellen verwenden.
+
+## Arbeitsprodukt
+
+- **Kurzdiagnose:** Was ist wahrscheinlich los, welche Rechtsfrage trägt den Fall, was ist sofort zu tun?
+- **Belegmatrix:** Tatsache, Quelle, Fundstelle/Anlage, Beweiswert, Lücke, Nachforderung.
+- **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
+- **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
+- **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
+
+## Ergänzende Hinweise
+
+## Schlüsselfristen Betreuungsrecht (Reform 1.1.2023)
+- Beschwerdefrist Endentscheidung: ein Monat (§ 63 Abs. 1 FamFG); bei einstweiliger Anordnung zwei Wochen (§ 63 Abs. 2 FamFG).
+- Überprüfungsfrist Betreuung: spätestens nach sieben Jahren (§ 295 Abs. 2 FamFG); auf Antrag jederzeit.
+- Jahresbericht des Betreuers (§ 1863 BGB nF): jährliche Vorlage Vermögensverzeichnis und Bericht.
+- Genehmigungspflichtige Geschäfte §§ 1848-1854 BGB nF (Reform 2023): Grundstücksgeschäfte, Wohnungskündigung, Erbschaftsausschlagung, Heimvertrag.
+- Freiheitsentziehende Unterbringung § 1831 BGB nF (§ 312 ff. FamFG): max. ein Jahr Genehmigung, Verlängerung möglich.
+- Vergütung: Antrag bei Berufsbetreuern Vermögensverwaltung viertel/halbjährlich; Vergütung nach VBVG-Stundensätzen.
+
+## Trade-off
+- Betreuung (richterliche Anordnung, gesetzliche Rechte) vs. Vorsorgevollmacht (privatautonom, kann sofort wirken, aber missbrauchsanfälliger): vorrangig § 1814 Abs. 3 Nr. 1 BGB nF Erforderlichkeitsgrundsatz.
+- Kontrollbetreuung neben Vorsorgevollmacht möglich (§ 1820 BGB nF) bei Missbrauchsverdacht.

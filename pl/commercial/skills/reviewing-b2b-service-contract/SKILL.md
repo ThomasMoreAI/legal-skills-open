@@ -1,18 +1,18 @@
 ---
 name: reviewing-b2b-service-contract
-title: reviewing-b2b-service-contract
+title: law-pl-reviewing-b2b-service-contract
 description: Use when auditing Polish B2B service contract (umowa o świadczenie usług / umowa współpracy / kontrakt B2B / staff augmentation / IT outsourcing) — zakaz konkurencji B2B (art. 353¹ KC, SN II CSK 58/18), klauzule wyłączności vs pozorny stosunek pracy (art. 22 § 1¹ KP), kary umowne (art. 483-484 KC, miarkowanie), IP (prawa autorskie do kodu / dzieła), JDG-specyficzne (Prawo Przedsiębiorców art. 6, CEIDG), obowiązek pierwszeństwa, rejestry (CEIDG, KRS, biała lista VAT)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-b2b-service-contract
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: commercial
 language: pl
 ---
 
-# reviewing-b2b-service-contract
+# law-pl-reviewing-b2b-service-contract
 
 Umowa o świadczenie usług w obrocie B2B (umowa współpracy, umowa ramowa, kontrakt IT, staff augmentation, outsourcing) to umowa nienazwana regulowana przez art. 750 KC (odpowiednie stosowanie przepisów o zleceniu) i art. 353¹ KC (zasada swobody umów). Problem nie w formie (wystarczy pisemna, a nawet dokumentowa — art. 77² KC), lecz w klauzulach ograniczających: zakaz konkurencji, wyłączność, kary umowne, IP. Ten skill — checklist audytu i lista red flags dla takich umów, w szczególności dla JDG (jednoosobowej działalności gospodarczej).
 
@@ -71,7 +71,7 @@ Klauzula naruszająca te granice jest **nieważna** (art. 58 § 1–2 KC) — od
 | **SN III CKN 579/01** | 11.09.2003 | Bezpłatny 3-letni zakaz po ustaniu umowy może naruszać zasady współżycia społecznego | Wczesny precedens — nadmierny czas + brak wynagrodzenia = nieważność |
 | **SA Szczecin (05.10.2017)** | 05.10.2017 | Niejasny, nieograniczony w czasie zakaz uniemożliwiający swobodę kontraktowania — nieważny na podst. art. 58 § 2 KC | Bezterminowy + niejasny = nieważny |
 
-⚠ **Uwaga**: sygnatury zweryfikuj przed powołaniem w dokumentach klienckich przez skill `pl:searching-orzeczenia`. Orzecznictwo SN w sprawie B2B non-compete jest niejednorodne — każda sprawa oceniana indywidualnie.
+⚠ **Uwaga**: sygnatury zweryfikuj przed powołaniem w dokumentach klienckich przez skill `law-pl-searching-orzeczenia`. Orzecznictwo SN w sprawie B2B non-compete jest niejednorodne — każda sprawa oceniana indywidualnie.
 
 ### Klauzula bez wynagrodzenia
 
@@ -214,9 +214,9 @@ V. ZALECENIE
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla pełnego sporządzania umowy B2B — agent `pl:contract-drafter` (tryb sporządzania).
-- Dla weryfikacji kontrahenta (reprezentacja, upadłość, VAT) — skill `pl:searching-krs`.
-- Dla wymogów RODO / umowy powierzenia — skill `pl:applying-rodo`.
-- Dla podejrzenia pozornego stosunku pracy — agent `pl:labor-drafter` (powództwo o ustalenie, art. 189 KPC + art. 22 § 1¹ KP).
-- Dla windykacji niezapłaconych faktur B2B — agent `pl:debt-collector`.
-- Dla sporu sądowego na tle umowy — agent `pl:claim-drafter`.
+- Dla pełnego sporządzania umowy B2B — agent `law-pl-contract-drafter` (tryb sporządzania).
+- Dla weryfikacji kontrahenta (reprezentacja, upadłość, VAT) — skill `law-pl-searching-krs`.
+- Dla wymogów RODO / umowy powierzenia — skill `law-pl-applying-rodo`.
+- Dla podejrzenia pozornego stosunku pracy — agent `law-pl-labor-drafter` (powództwo o ustalenie, art. 189 KPC + art. 22 § 1¹ KP).
+- Dla windykacji niezapłaconych faktur B2B — agent `law-pl-debt-collector`.
+- Dla sporu sądowego na tle umowy — agent `law-pl-claim-drafter`.

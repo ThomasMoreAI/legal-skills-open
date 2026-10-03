@@ -1,11 +1,11 @@
 ---
 name: wandlungspruefung-trigger-qualified-financing
 title: Wandlungsprüfung – Trigger Qualified Financing
-description: 'Wandlung bei qualifizierter Finanzierungsrunde prüfen wenn neue Investitionsrunde als Trigger definiert ist. SAFE §§ 488 ff. BGB §§ 53 55 GmbHG. Prüfraster: Qualified-Financing-Definition Mindestbetrag Lead-Investor Wandlungspflicht oder -recht Preisbestimmung. Output: Prüfprotokoll Wandlungsberechnung. Abgrenzung: nicht für Maturity-Trigger (wandlungsprüfung-trigger-maturity).'
+description: 'Für Wandlungsprüfung – Trigger Qualified Financing: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/wandlungspruefung-trigger-qualified-financing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -14,9 +14,13 @@ language: de
 
 # Wandlungsprüfung – Trigger Qualified Financing
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill prüft, ob ein Qualified-Financing-Trigger eingetreten ist, und berechnet den Wandlungspreis nach der MIN-Methode (Cap vs. Discount vs. Rundenpreis). Phase C des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -33,9 +37,6 @@ Dieser Skill prüft, ob ein Qualified-Financing-Trigger eingetreten ist, und ber
 - § 55 Abs. 1 GmbHG (Kapitalerhöhungsbeschluss – Voraussetzung für Wandlung)
 - § 5 Abs. 1 GmbHG (Mindestnennbetrag Anteil EUR 1)
 - § 272 Abs. 2 Nr. 4 HGB (Einlage in Kapitalrücklage)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -86,24 +87,14 @@ Lender erklärt Wandlung per Textform innerhalb eines Monats nach Wandlungsmitte
 | Vollverwässerte Anteile unklar | Wandlungspreis nicht berechenbar | ESOP-Pool unklar | Vollverwässerte Basis dokumentiert |
 | Term Sheet ohne Pre-Money-Angabe | Keine Berechnungsgrundlage | Bewertung nachzuholen | Term Sheet vollständig |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/wandlungspreis-berechnung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/cap-table-update-pre-post/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG §§ 55 ff. aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 55 GmbHG (Kapitalerhöhung durch neue Einlagen) → §§ 241, 242 BGB (Treu und Glauben, Information des Darlehensgebers) → § 280 BGB (Schadensersatz bei Verweigerung der Information) → § 5 Abs. 1 GmbHG (Mindest-Nennbetrag, Aufrundung) → §§ 195, 199 BGB (Verjährung Wandlungsrecht)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

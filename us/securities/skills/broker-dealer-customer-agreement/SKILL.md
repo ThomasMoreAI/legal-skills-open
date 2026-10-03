@@ -5,11 +5,14 @@ description: Drafts SEC/FINRA-compliant Broker-Dealer Customer Agreements coveri
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/broker-dealer-customer-agreement
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: securities
 language: en
+sources:
+- title: Section specs
+  path: references/SECTION-SPECS.md
 ---
 
 # Broker-Dealer Customer Agreement

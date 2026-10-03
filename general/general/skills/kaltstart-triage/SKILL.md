@@ -1,0 +1,69 @@
+---
+name: kaltstart-triage
+title: Römisches Recht - Allgemeiner Einstieg
+description: 'Für Römisches Recht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Römisches Recht - Allgemeiner Einstieg
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Quellenanker
+
+- **D. 1.1.1 pr. (Ulpian/Celsus)** — ius est ars boni et aequi
+- **D. 19.1.11.1 (Ulpian)** — bona fides im Kaufrecht: quidquid dare facere oportet ex fide bona
+- **D. 44.4.2.1 (Ulpian)** — exceptio doli generalis: dolo facit, qui petit quod redditurus est
+- **D. 50.17 (de diversis regulis iuris)** — 211 Rechtsregeln — Steinbruch der lateinischen Maximen
+- **D. 9.2.44 pr.** — in lege Aquilia et levissima culpa venit — Verschuldensstufen
+
+## Kernregeln
+
+Die Wertbegriffe: bona fides macht Konsensualverträge flexibel (der iudex prüft, was Treu und Glauben fordern — Einfallstor für Nebenpflichten, Auslegung, Anpassung); aequitas korrigiert das strenge Recht (summum ius summa iniuria, Cicero); die exceptio doli generalis sanktioniert widersprüchliches und unredliches Prozessieren. Verschuldensstufen: dolus (Vorsatz, nie abdingbar — D. 50.17.23), culpa lata (grobe F., dem dolus gleichgestellt), culpa levis (abstrakt: bonus pater familias / konkret: quam in suis), custodia (objektive Obhutshaftung). Maximen aus D. 50.17 sind Argumentationstopoi — keine Normen.
+
+## Leseroute statt Lexikon
+
+Führe den Nutzer wie durch einen Fall aus der Werkstatt römischer Juristen:
+
+| Station | Frage | Ergebnis |
+| --- | --- | --- |
+| Lebenslage | Kauf, Miete, Darlehen, Besitz, Delikt, Familie oder Erbe? | kurze Fallskizze |
+| Rechtsfigur | actio, exceptio, bona fides, Eigentum, Besitz oder Status? | Begriff mit Funktion |
+| Quelle | Gaius, Digesten, Institutionen, kaiserliche Sammlung oder spätere Rezeption? | Fundstellenkarte |
+| Konflikt | strenges Recht, Billigkeit, Prozessformel oder Beweisproblem? | Argumentationskern |
+| heutiger Vergleich | BGB, Prozessrecht oder Methodenlehre? | Parallele ohne Gleichsetzung |
+
+Der Stil darf anschaulich sein: erst die Szene, dann der lateinische Begriff, dann die juristische Pointe.
+
+## Moderne Parallele
+
+§ 242 BGB ist die geronnene bona fides — die deutsche Generalklausel-Judikatur (Verwirkung, venire contra factum proprium, Geschäftsgrundlage vor § 313 BGB) ist exceptio-doli-Dogmatik unter neuem Namen. § 276 BGB staffelt Verschulden römisch; § 277 BGB ist diligentia quam in suis wörtlich.
+
+## Typische Fehler
+
+Lateinische Maximen nie unbesehen als geltendes Recht zitieren — 'pacta sunt servanda' (kanonistisch), 'in dubio pro reo' (prozessual, spätere Zuspitzung) und Co. haben je eigene Geschichte. Immer Quelle + Kontext + heutige Geltungsgrundlage trennen.
+
+## Arbeitsweise
+
+1. Quellen zuerst: einschlägige Stellen (Gaius, Digesten, Codex) mit Inskription benennen; Rekonstruktionsgrad und Interpolationsverdacht offenlegen.
+2. Epochen trennen: vorklassisch — klassisch — justinianisch — Rezeption; nichts rückprojizieren.
+3. Funktional vergleichen: erst die römische Funktion, dann die heutige Norm mit gleicher Aufgabe; Unterschiede ausdrücklich benennen.
+4. Für Klausur/Lehre: Institutionensystem (personae — res — actiones) als Gliederungsraster nutzen; lateinische Begriffe beim ersten Auftreten übersetzen.

@@ -1,11 +1,11 @@
 ---
 name: vertragserstellung-musterbasiert
 title: Vertragserstellung musterbasiert
-description: 'Immobilienrechtliche Vertraege auf Musterbasis erstellen: Kaufvertrag, Mietvertrag, WEG-Beschluss. Normen: §§ 433 ff. 535 ff. 873 BGB, WEG, GrEStG. Prüfraster: Musterauswahl, Anpassung an Sachverhalt, Notarerfordernis. Output: Vertragsentwurf auf Musterbasis. Abgrenzung: nicht individuelle Vertragsprüfung.'
+description: 'Für Vertragserstellung musterbasiert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/immobilienrechtspraxis/skills/vertragserstellung-musterbasiert
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -13,6 +13,18 @@ language: de
 ---
 
 # Vertragserstellung musterbasiert
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Vertragserstellung musterbasiert
+- **Normen-/Quellenanker:** BGB, GBO, WEG, BauGB, ErbbauRG, MaBV, Mietrecht, Grundpfandrechte, Notar-/Registervollzug und öffentlich-rechtliche Lasten.
+- **Entscheidende Weiche:** Trenne Eigentum, Besitz, Grundbuchabteilung, Belastung, Fälligkeit, Vollzug, Mängel, Miet-/Nutzungsverhältnis und Finanzierung.
 
 ## Leitidee
 
@@ -27,7 +39,7 @@ keine eigenen Klauseln in tragenden Punkten.
 - Term Sheet oder Eckpunktepapier (.docx, .md, .pdf, freier Text)
 - Optional: vorhandene Vorgängerverträge zur Stilreferenz
 - Optional: Anlagenliste (Lageplan, Baubeschreibung, Hausordnung,
-  Betriebskostenaufstellung)
+ Betriebskostenaufstellung)
 
 ## Klauselschutz — die zentrale Regel
 
@@ -49,24 +61,16 @@ und gibt das Dokument unverändert zurück mit Hinweis.
 
 1. Mustervertrag laden und alle Platzhalter inventarisieren
 2. Term Sheet parsen — Parteien, Objekt, wirtschaftliche Eckpunkte,
-   Sondervereinbarungen
+ Sondervereinbarungen
 3. Mapping Term-Sheet-Position auf Musterplatzhalter erstellen
 4. Platzhalter befuellen, Querverweise (§-Verweise, Anlagen) anpassen
 5. Konsistenzprüfung: Daten, Betraege ohne Komma in der Beschreibung,
-   Parteiennennungen, Pluralformen
+ Parteiennennungen, Pluralformen
 6. Änderungsprotokoll erzeugen — welche Platzhalter befüllt, welche offen,
-   welche Konflikte
+ welche Konflikte
 7. Roter Block oben im Dokument: was zwingend manuell zu prüfen ist
 
-## Output
-
-- `Vertrag_<Objekt>_<Datum>.docx` auf Muster-Layout, Platzhalter befüllt
-- `Aenderungsprotokoll.md` mit Tabelle Platzhalter — Wert — Quelle im Term Sheet
-- `Manuelle_Pruefung.md` mit Liste der Punkte die nur ein Jurist
-  entscheiden kann (zB GenehmigungspflichtigerVerkauf §§ 1365 BGB,
-  Vorkaufsrechte §§ 24 ff. BauGB, Denkmalschutz, Erbbauzins-Anpassung)
-
-## Typische manuelle Pruefpunkte bei Immobilienverträgen
+## Typische manuelle Prüfpunkte bei Immobilienverträgen
 
 - Vorkaufsrechte der Gemeinde §§ 24 ff. BauGB
 - Genehmigung nach § 1365 BGB bei Verfügung über das Vermögen im Ganzen
@@ -76,30 +80,23 @@ und gibt das Dokument unverändert zurück mit Hinweis.
 - WEG-Beschlüsse als Anlage (Beschlussfähigkeit, Anfechtungsfristen)
 - Erbbauzins-Anpassungsklauseln und Heimfallrecht
 - Mietpreisbremse §§ 556d ff. BGB, qualifizierter Mietspiegel
-- Schriftform Gewerbemietvertrag § 550 BGB (Heilung schwierig)
+- Textform langfristiger Gewerberaummietvertrag nach Paragraf 578 Absatz 1 und 550 BGB; Vertragskette und Nachträge beweissicher führen
 - Betriebskostenkatalog Verordnung 2003, Umlagevereinbarung
 - Indexmiete §§ 557b BGB versus Staffelmiete § 557a BGB
 
 ## Beispielformulierungen
 
-- "Erstelle aus Mustervertrag Gewerbemiete und beigefügtem Term Sheet
-  einen Entwurf. Achte auf Schriftform § 550 BGB."
+- "Erstelle aus Mustervertrag und Term Sheet einen Gewerberaummietvertrag. Dokumentiere Hauptvertrag, Anlagen und Nachträge in Textform nach Paragraf 578 Absatz 1 und 550 BGB."
 - "Befuelle den Wohnraummietvertrag-Muster mit den Eckpunkten aus dem
-  Eckpunktepapier. Prüfe ob Mietpreisbremse greift und markiere."
+ Eckpunktepapier. Prüfe ob Mietpreisbremse greift und markiere."
 - "Erstelle WEG-Verwaltervertrag aus Muster, Term Sheet anbei,
-  Bestellungsbeschluss als Anlage einfügen."
-
-## Aktuelle Rechtsprechung — Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ Bestellungsbeschluss als Anlage einfügen."
 
 ## Paragrafenkette
 
-- Schriftform: § 550 BGB, § 311b BGB
+- Form: Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB sowie Paragraf 311b BGB, soweit ein Grundstücksgeschäft betroffen ist
 - Mietpreisbremse: §§ 556d ff. BGB
 - Modernisierung: §§ 555a ff. BGB
 - WEG-Verwaltervertrag: §§ 26 ff. WEG
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

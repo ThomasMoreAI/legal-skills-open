@@ -1,11 +1,11 @@
 ---
 name: relation-zivil
 title: Relation Zivilprozess - Vollrelation nach deutschem Standard
-description: 'Zivilrechtliche Relation nach klassischer Relationstechnik erstellen: Referendar oder Richter erstellt Entscheidungsunterlage vor Urteilsabfassung. Normen: §§ 253 ff. und 286 und 313 ZPO. Prüfraster: Sachbericht, Streitgegenstand, Zulässigkeitsstation, Schluessigkeitsstation, Klaeger-/Beklagten-/Replikstation, Beweisstation, Tenorierungsstation, Nebenentscheidungen. Output Vollrelation (Schulstandard) oder Kurzfassung (Praxis). Abgrenzung: Vollständige Langfassung siehe vollrelation-langfassung; Familienrichter-Spezifika siehe familienrichter-spezifika.'
+description: 'Für Relation Zivilprozess - Vollrelation nach deutschem Standard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/relation-zivil
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,17 +14,17 @@ language: de
 
 # Relation Zivilprozess - Vollrelation nach deutschem Standard
 
-Methodischer Aufbau der Entscheidungsstruktur vor dem Urteil. Folgt der klassischen Relationstechnik aus der Referendar/-innen-Ausbildung (siehe Anders/Gehle Das Assessorexamen im Zivilrecht; Knoeringer Die Assessorklausur im Zivilprozess; Mahnken Relation in der Praxis).
+Methodischer Aufbau der Entscheidungsstruktur vor dem Urteil. Folgt der klassischen Relationstechnik aus der Referendarausbildung (siehe Anders/Gehle Das Assessorexamen im Zivilrecht; Knoeringer Die Assessorklausur im Zivilprozess; Mahnken Relation in der Praxis).
 
 ## WICHTIG - keine Prüfungstaeuschung
 
-**Vorsicht: hiermit bitte nicht mogeln im Studium.** Dieser Skill ist ein Trainings- und Praxiswerkzeug für Referendare/-innen Assessoren/-innen Berufsrichter/-innen und Lehrkraefte. Er darf **nicht** dazu benutzt werden in einer Z- S- V- A-Klausur in einer Hausarbeit in einem Aktenvortrag oder in einer muendlichen Prüfung des juristischen Vorbereitungsdienstes Inhalte als eigene Leistung auszugeben. Das waere ein Taeuschungsversuch im Sinne von Paragraf 14 JAG NRW Paragraf 12 JAPO Bayern und vergleichbarer Vorschriften der anderen Bundesländer; Folge ist regelmäßig Nichtbestehen Aberkennung Disziplinarverfahren. Wer ueben will: erst selbst schreiben dann gegenprüfen lassen.
+**Vorsicht: hiermit bitte nicht mogeln im Studium.** Dieser Skill ist ein Trainings- und Praxiswerkzeug für Referendare Assessoren Berufsrichter und Lehrkraefte. Er darf **nicht** dazu benutzt werden in einer Z- S- V- A-Klausur in einer Hausarbeit in einem Aktenvortrag oder in einer muendlichen Prüfung des juristischen Vorbereitungsdienstes Inhalte als eigene Leistung auszugeben. Das waere ein Taeuschungsversuch im Sinne von Paragraf 14 JAG NRW Paragraf 12 JAPO Bayern und vergleichbarer Vorschriften der anderen Bundesländer; Folge ist regelmäßig Nichtbestehen Aberkennung Disziplinarverfahren. Wer ueben will: erst selbst schreiben dann gegenprüfen lassen.
 
 ## Wahlfrage am Anfang - IMMER stellen
 
 Vor Beginn der Relation **immer** fragen:
 
-> Soll ich eine **Vollrelation** im Schulstandard (alle Stationen ausformuliert mit gutachterlichem Stil für Referendar/-innen- und Assessor/-innen-Prüfung) erstellen oder eine **Kurzrelation** im Praxisstandard (Stichworttabelle pro Station wie es Berufsrichter/-innen im Alltag schreiben)?
+> Soll ich eine **Vollrelation** im Schulstandard (alle Stationen ausformuliert mit gutachterlichem Stil für Referendare- und Assessoren-Prüfung) erstellen oder eine **Kurzrelation** im Praxisstandard (Stichworttabelle pro Station wie es Berufsrichter im Alltag schreiben)?
 
 Wenn die Vollrelation gewuenscht ist dann den Skill `vollrelation-langfassung` zusätzlich laden und nach dessen Schema schreiben.
 
@@ -46,12 +46,11 @@ Chronologisch neutral ohne Wertung. Verben im Praesens (Die Klägerin behauptet 
 
 ### 3. Zulässigkeitsstation
 
-| Pruefpunkt | Norm |
+| Prüfpunkt | Norm |
 |---|---|
 | Rechtsweg | Paragraf 13 GVG |
 | Internationale Zuständigkeit | EuGVVO Artikel 4 ff oder Artikel 7 Nummer 1 b |
 | Örtliche Zuständigkeit | Paragraf 12 ff ZPO |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Streitwert | Paragraf 3 ZPO Paragraf 1 GKG |
 | Partei- und Prozessfähigkeit | Paragraf 50 ff ZPO |
 | Postulationsfähigkeit | Paragraf 78 ZPO Anwaltszwang |
@@ -59,7 +58,7 @@ Chronologisch neutral ohne Wertung. Verben im Praesens (Die Klägerin behauptet 
 | Rechtsschutzbedürfnis | allgemeines Erfordernis |
 | Anderweitige Rechtshaengigkeit | Paragraf 261 Absatz 3 Nummer 1 ZPO |
 
-Ergebnis: zulaessig oder nicht.
+Ergebnis: zulässig oder nicht.
 
 ### 4. Schlüssigkeitsstation - Klägervortrag
 
@@ -83,7 +82,7 @@ Drei Kategorien:
 
 - **Einwendungen rechtshindernd** (verhindern Anspruchsentstehung): Geschäftsunfähigkeit Paragraf 105 BGB Anfechtung Paragraf 142 BGB Formmangel Paragraf 125 BGB Sittenwidrigkeit Paragraf 138 BGB.
 - **Einwendungen rechtsvernichtend** (zerstören entstandenen Anspruch): Erfüllung Paragraf 362 BGB Aufrechnung Paragraf 389 BGB Erlass Paragraf 397 BGB Rücktritt Paragraf 346 BGB Wandelung Minderung.
-- **Einreden durchsetzbarkeitshemmend** (hemmen Durchsetzung): Verjaehrung Paragraf 214 BGB Stundung Zurueckbehaltungsrecht Paragraf 273 BGB Einrede des nicht erfüllten Vertrags Paragraf 320 BGB.
+- **Einreden durchsetzbarkeitshemmend** (hemmen Durchsetzung): Verjährung Paragraf 214 BGB Stundung Zurueckbehaltungsrecht Paragraf 273 BGB Einrede des nicht erfüllten Vertrags Paragraf 320 BGB.
 
 Vorgehen:
 
@@ -96,7 +95,7 @@ Vorgehen:
 
 Hat die Klägerin auf einen erheblichen Beklagteneinwand etwas erwidert? Beispiele:
 
-- Beklagte beruft sich auf Verjaehrung; Klägerin entgegnet Hemmung nach Paragraf 203 BGB (Verhandlungen).
+- Beklagte beruft sich auf Verjährung; Klägerin entgegnet Hemmung nach Paragraf 203 BGB (Verhandlungen).
 - Beklagte beruft sich auf Aufrechnung; Klägerin entgegnet Aufrechnungsverbot Paragraf 393 BGB.
 - Beklagte beruft sich auf Erfüllung; Klägerin entgegnet Erfüllungsidentitaet nicht gegeben.
 
@@ -146,7 +145,7 @@ Für jede Variante: Hauptsache-Tenor Kosten vorläufige Vollstreckbarkeit.
 
 Die Relation muss am Ende eindeutig sagen:
 
-1. Die Klage ist **zulaessig** (oder nicht).
+1. Die Klage ist **zulässig** (oder nicht).
 2. Die Klage ist **schlüssig** (oder nicht).
 3. Die Beklagte hat **erhebliche Einwendungen** vorgetragen (oder nicht).
 4. Streitig und beweisbedürftig sind: ...

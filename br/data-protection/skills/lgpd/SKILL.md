@@ -5,17 +5,17 @@ description: Expert LGPD compliance advisor for Brazil's Lei Geral de Proteção
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/lgpd/skills/lgpd
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: br
 practice: data-protection
 language: en
 sources:
-- title: Anpd Enforcement
+- title: Anpd enforcement
   path: references/anpd-enforcement.md
-- title: Compliance Program
+- title: Compliance program
   path: references/compliance-program.md
-- title: Lgpd Articles
+- title: Lgpd articles
   path: references/lgpd-articles.md
 ---
 

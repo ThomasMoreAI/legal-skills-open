@@ -1,18 +1,18 @@
 ---
 name: applying-cudzoziemcy-procedures
-title: applying-cudzoziemcy-procedures
+title: law-pl-applying-cudzoziemcy-procedures
 description: Use when navigating Polish immigration / residence / work procedures — pobyt czasowy (art. 98, 114, 127, 144, 159, 187 UC), pobyt stały (art. 195), rezydent długoterminowy UE (art. 211), zezwolenie na pracę (typy A-E), oświadczenie o powierzeniu pracy, obywatelstwo (ustawa z 02.04.2009 — nadanie przez Prezydenta / uznanie wojewody). Dokumenty, biometria, MOS, terminy, odwołanie (Szef UdSC → WSA / NSA)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-cudzoziemcy-procedures
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: immigration
 language: pl
 ---
 
-# applying-cudzoziemcy-procedures
+# law-pl-applying-cudzoziemcy-procedures
 
 Procedury pobytowe, pracy i obywatelstwa dla cudzoziemców w Polsce są rozproszone między **urzędy wojewódzkie** (wydziały spraw cudzoziemców), **Szefa Urzędu do Spraw Cudzoziemców** (UdSC — II instancja), **Prezydenta RP** (nadanie obywatelstwa) i **powiatowe urzędy pracy / starostę** (testy rynku pracy, niektóre zezwolenia).
 
@@ -259,8 +259,8 @@ W praktyce wypełnia się w **MOS** (moduł elektroniczny); formularz papierowy 
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla odwołania od decyzji wojewody lub Szefa UdSC, albo skargi do WSA — agent `appeal-drafter` (tryb KPA + PPSA).
-- Dla pozwu pracowniczego cudzoziemca (np. mobbing, odprawa, ustalenie stosunku pracy) — agent `labor-drafter`.
-- Dla rejestracji działalności gospodarczej cudzoziemca — odrębne kanały (CEIDG / KRS) — agent `contract-drafter` (umowa spółki) + skill `searching-krs`.
-- Dla spraw rodzinnych (ustalenie ojcostwa, rozwód cudzoziemców w RP) — agent `family-drafter`; uwaga na rozp. Rzym III (prawo właściwe).
+- Dla odwołania od decyzji wojewody lub Szefa UdSC, albo skargi do WSA — agent `law-pl-appeal-drafter` (tryb KPA + PPSA).
+- Dla pozwu pracowniczego cudzoziemca (np. mobbing, odprawa, ustalenie stosunku pracy) — agent `law-pl-labor-drafter`.
+- Dla rejestracji działalności gospodarczej cudzoziemca — odrębne kanały (CEIDG / KRS) — agent `law-pl-contract-drafter` (umowa spółki) + skill `law-pl-searching-krs`.
+- Dla spraw rodzinnych (ustalenie ojcostwa, rozwód cudzoziemców w RP) — agent `law-pl-family-drafter`; uwaga na rozp. Rzym III (prawo właściwe).
 - Dla uchodźstwa / ochrony uzupełniającej (różne organy i procedury) — w tej wersji skill **nie obejmuje** spraw UdSC o ochronę; odrębna ścieżka.

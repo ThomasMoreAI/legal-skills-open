@@ -1,11 +1,11 @@
 ---
 name: verkehrsowi-akteneinsicht-messakte
 title: Akteneinsicht und Messakte im OWi-Verfahren
-description: Workflow-Skill zu verkehrsowi akteneinsicht messakte. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Akteneinsicht und Messakte im OWi-Verfahren: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/verkehrsowi-akteneinsicht-messakte
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,13 +14,21 @@ language: de
 
 # Akteneinsicht und Messakte im OWi-Verfahren
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
 1. **Ist ein Verteidiger bestellt?** — Akteneinsicht steht nach § 49 OWiG i.V.m. § 147 StPO dem Verteidiger zu; aber auch der Betroffene selbst hat eingeschraenktes Recht (§ 49 Abs. 1 OWiG).
-2. **Welche Behoerde fuehrt das Verfahren?** — Im Vorverfahren: Verwaltungsbehoerde (Bussgeldstelle); nach Einspruch: Staatsanwaltschaft oder direkt Amtsgericht.
+2. **Welche Behörde fuehrt das Verfahren?** — Im Vorverfahren: Verwaltungsbehoerde (Bussgeldstelle); nach Einspruch: Staatsanwaltschaft oder direkt Amtsgericht.
 3. **Welches Messgeraet wurde eingesetzt?** — Beeinflusst welche Unterlagen kritisch sind.
 4. **Liegt die Akte bereits beim Amtsgericht?** — Nach Einspruch leitet die Bussgeldstelle ab; Akteneinsicht dann beim Gericht.
-5. **Digitale oder Papierakte?** — Zunehmend elektronische Akten (eAkte); Messunterlagen koennen als PDF oder separat vorliegen.
+5. **Digitale oder Papierakte?** — Zunehmend elektronische Akten (eAkte); Messunterlagen können als PDF oder separat vorliegen.
 
 ## Zentrale Normen
 
@@ -28,23 +36,16 @@ language: de
 - **§ 147 StPO** — Recht des Verteidigers auf Akteneinsicht
 - **§ 147 Abs. 5 StPO i.V.m. § 49 Abs. 2 OWiG** — Rechtsbehelf bei Versagung
 - **Art. 103 Abs. 1 GG** — Rechtliches Gehoer; Rohmessdaten-Recht
-- **§ 6 MessEG** — Eichpflicht fuer Verkehrsueberwachungsgeraete
+- **§ 6 MessEG** — Eichpflicht für Verkehrsueberwachungsgeraete
 - **§ 77 OWiG** — Beweisaufnahme in der Hauptverhandlung des Amtsgerichts
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Vollstaendige Messakte — Was muss enthalten sein?
 
 ```
 TECHNISCHE UNTERLAGEN:
 □ Eichschein (original oder beglaubigte Kopie) mit Eihdatum
 □ Bedienungsanleitung des Messgeraets (Kurzanleitung oder Vollversion)
-□ Schulungsnachweis des Messbeamten fuer dieses Geraet
+□ Schulungsnachweis des Messbeamten für dieses Geraet
 □ Zulassungsbescheinigung der PTB (physikalisch-technische Bundesanstalt)
 
 MESSDATEN:
@@ -59,16 +60,16 @@ ORTSBEZOGEN:
 □ Eventuell: Sichtweiten-Protokoll
 
 VERWALTUNG:
-□ Anhoerungsbogen (Anschreiben an Betroffenen)
+□ Anhörungsbogen (Anschreiben an Betroffenen)
 □ Ggf. Zeugenaussagen der Messbeamten
 ```
 
-## Schritt-fuer-Schritt-Workflow
+## Schritt-für-Schritt-Workflow
 
 1. **Vollmacht des Betroffenen sichern.**
 2. **Akteneinsichtsgesuch stellen** bei der Bussgeldstelle (vor Einspruch) oder dem Amtsgericht (nach Einspruch); explizit alle Messunterlagen aufzaehlen.
 3. **Eingang kontrollieren:** Ist die Messakte vollstaendig? Fehlendes sofort schriftlich ruegen.
-4. **Eichschein-Datum pruefen:** Eichgueltigkeit zum Messzeitpunkt?
+4. **Eichschein-Datum prüfen:** Eichgueltigkeit zum Messzeitpunkt?
 5. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 6. **Messprotokoll auswerten:** Aufstellungsort korrekt? Messtechnik-Vorgaben eingehalten?
 7. **Bei Verweigerung:** Beschwerde nach § 49 Abs. 2 OWiG i.V.m. § 147 Abs. 5 StPO.

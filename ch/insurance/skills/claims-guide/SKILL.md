@@ -5,11 +5,14 @@ description: Schadenfall-Guide und Entscheidungslogik. Leitet Schritt fuer Schri
 author: philippfrenzel
 author_url: https://github.com/philippfrenzel/claims-guide/tree/main/skills
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ch
 practice: insurance
 language: de
+sources:
+- title: Swiss claims reference
+  path: references/swiss-claims-reference.md
 ---
 
 # Schadenfall-Guide & Entscheidungslogik

@@ -5,7 +5,7 @@ description: Draft privacy policies, terms of service, disclaimers, and legal no
 author: rmyndharis
 author_url: https://github.com/rmyndharis/antigravity-skills/tree/main/skills/legal-advisor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
@@ -27,7 +27,6 @@ language: en
 - Clarify goals, constraints, and required inputs.
 - Apply relevant best practices and validate outcomes.
 - Provide actionable steps and verification.
-- If detailed examples are required, open `resources/implementation-playbook.md`.
 
 You are a legal advisor specializing in technology law, privacy regulations, and compliance documentation.
 

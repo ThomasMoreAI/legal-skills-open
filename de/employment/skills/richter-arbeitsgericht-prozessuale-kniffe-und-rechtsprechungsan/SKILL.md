@@ -1,0 +1,69 @@
+---
+name: richter-arbeitsgericht-prozessuale-kniffe-und-rechtsprechungsan
+title: Prozessuale Kniffe und Rechtsprechungsanker
+description: 'Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Arbeitsgericht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-arbeitsgericht/skills/prozessuale-kniffe-und-rechtsprechungsanker
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Prozessuale Kniffe und Rechtsprechungsanker
+
+Nutze diesen Skill, wenn ein arbeitsgerichtlicher Fall schnell vergleichsfähig, entscheidungsreif oder urteilsfest gemacht werden soll.
+
+## Leitanker
+
+- Paragraf 54 ArbGG: Güteverhandlung als frühes Sortier- und Vergleichsfenster.
+- Paragraf 46 ArbGG und ZPO: ZPO-Grundsätze gelten arbeitsgerichtlich, soweit das ArbGG nichts anderes regelt.
+- Paragraf 139 ZPO: Hinweise zu Antrag, Vortrag und Darlegungslast früh erteilen.
+- Paragraf 286 ZPO: Beweiswürdigung vollständig und widerspruchsfrei.
+- Artikel 103 Absatz 1 GG: keine Überraschungsentscheidung.
+
+## Kniffe
+
+| Lage | Kniff | Fehlerbremse |
+| --- | --- | --- |
+| Kündigungsschutz | Zugang, Frist, sozialer Rechtfertigungsgrund und Weiterbeschäftigung trennen | kein Vergleich ohne Risikobild |
+| Annahmeverzug | Leistungsangebot, Leistungsfähigkeit und Zwischenverdienst klären | Zahlungsantrag nicht pauschal |
+| Zeugnis | Inhalt, Note, Schlussformel und Vollstreckbarkeit trennen | kein unbestimmter Tenor |
+| Vergleich | Beendigung, Zeugnis, Freistellung, Abrechnung, Sperrzeitrisiko sichtbar machen | keine Nebenbaustelle offenlassen |
+
+## Arbeitsmodus
+
+1. Bestimme zuerst Entscheidungsreife, Zuständigkeit, Besetzung, Verfahrensart und den nächsten irreversiblen Schritt.
+2. Trenne Tatsachen, Norm, Beweis, Verfahrensrecht, Ermessen und Tenorfolge.
+3. Suche den prozessualen Hebel, der den Fall wirklich entscheidet: Hinweis, Beweisbeschluss, Auflage, Beiladung, Verbindung, Abtrennung, Einstellung, Beschluss oder Urteil.
+4. Formuliere jede Maßnahme so, dass sie aktenkundig, fristfest und rechtsmittelrobust ist.
+5. Baue am Ende eine Glanzkontrolle: Gehör, Begründung, Beweiswürdigung, Tenor, Nebenentscheidungen, Rechtsmittel.
+
+## Output-Matrix
+
+| Kniff | Normanker | Aktenbeleg | Risiko | Formulierung | nächster Schritt |
+| --- | --- | --- | --- | --- | --- |
+| Hinweis | | | Überraschung | | |
+| Beweis | | | Lücke | | |
+| Verfahrensleitung | | | Verzögerung | | |
+| Entscheidung | | | Rechtsmittel | | |
+
+## Tenoranker
+
+Arbeitsgerichtliche Tenöre müssen kalendermäßig, betragsmäßig oder handlungsbezogen vollstreckbar sein. Vergleichstexte enthalten Erledigung, Fälligkeit und Ausgleichsklausel.
+
+## Güte- und Kammertermin-Kontrolle
+
+| Phase | Richterlicher Griff | Muss im Ergebnis stehen |
+| --- | --- | --- |
+| Güteverhandlung | Klageziel, Prozessrisiko und Vergleichskorridor offenlegen | Beendigungsdatum, Abrechnung, Zeugnis, Freistellung, Ausgleich |
+| Kammertermin | streitige Tatsachen und Darlegungslast zuspitzen | Beweisbeschluss oder Entscheidungsreife |
+| Kündigungsschutz | Zugang, Drei-Wochen-Frist, Betriebsrat, Kündigungsgrund trennen | Weiterbeschäftigung und Annahmeverzug gesondert |
+| Zahlungsantrag | Brutto/Netto, Fälligkeit, Verzug, Ausschlussfrist | vollstreckbarer Betrag oder Berechnungsweg |
+| Zeugnis | Note, Tätigkeitsbeschreibung, Verhalten, Schlussformel | bestimmter Text oder klare Berichtigungspflicht |
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt im arbeitsgerichtlichen Streitstoff Klageantrag, Kündigungs- oder Zahlungsgrund, Erwiderung, Güteversuch, Beweisangebot und Vergleichschance. Er benennt, welche Tatsache im Gütetermin zu klären ist, welche Auflage für den Kammertermin gebraucht wird und ob ein Urteil, Vergleich oder Hinweis vorzubereiten ist.

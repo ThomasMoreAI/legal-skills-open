@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): intellectual
 
 Jurisdiction: `ch` · Practice: `ip` · Skill language: fr
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`Depot de marque en Suisse`](skills/swiss-trademark-deposit-self-tech-labs/) | Prepare Swiss trademark deposits before the IPI. Use for protecting a name or logo in Switzerland, choosing… |
+| [`Schweiz: IGE und Bundespatentgericht`](skills/schweiz-patentrecht-bundespatentgericht/) | Für Schweiz: IGE und Bundespatentgericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Depot de marque en Suisse`](skills/swiss-trademark-deposit-self-tech-labs/) | Prepare Swiss trademark deposits before the IPI. Use for protecting a name or logo in Switzerland… |
 
 ## Cold-start context
 

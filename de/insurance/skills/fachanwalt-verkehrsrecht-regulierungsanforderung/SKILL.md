@@ -1,15 +1,18 @@
 ---
 name: fachanwalt-verkehrsrecht-regulierungsanforderung
 title: Regulierungsanforderung
-description: 'Mandant hat Verkehrsunfall und fordert Schadensersatz vom Haftpflichtversicherer des Unfallverursachers. § 115 VVG Direktanspruch §§ 7 17 StVG § 823 BGB. Prüfraster: Direktanspruch Reparatur vs. fiktive Abrechnung Wiederbeschaffungswert Mitverschulden § 17 StVG Anscheinsbeweis § 4 StVO. Mietwagen Nutzungsausfall Wertminderung Sachverständigenkosten. Output: Regulierungsanforderung an Versicherer fertig. Abgrenzung zu fachanwalt-verkehrsrecht-versicherer-quotenverhandlung-vergleich (Verhandlung) und unfall-haftungsquote-berechnen.'
+description: 'Für Regulierungsanforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verkehrsrecht. Route: fachanwalt-verkehrsrecht-regulierungsanforderung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/fachanwalt-verkehrsrecht-regulierungsanforderung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
 language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Regulierungsanforderung
@@ -47,7 +50,7 @@ language: de
 | Gericht | Aktenzeichen | Datum | Kernaussage | Offene Quelle |
 |---|---|---|---|---|
 | BGH VI. ZS | VI ZR 253/22 | 16.1.2024 | Werkstattrisiko: Geschädigter trägt im Regelfall nicht das Risiko überhöhter Reparaturkosten der Werkstatt | juris.bundesgerichtshof.de |
-| BGH VI. ZS | VI ZR 239/22 | 16.1.2024 | Werkstattrisiko parallel (fiktive Abrechnung) | juris.bundesgerichtshof.de |
+| BGH VI. ZS | VI ZR 239/22 | 16.1.2024 | Unbezahlte Rechnung: Zahlung nur an die Werkstatt Zug um Zug gegen Abtretung; der Zessionar trägt das Werkstattrisiko | juris.bundesgerichtshof.de |
 | BGH VI. ZS | VI ZR 280/22 | 12.3.2024 | Werkstattrisiko-Grundsätze gelten auch für überhöhte Sachverstaendigenkosten | juris.bundesgerichtshof.de |
 | BGH VI. ZS | VI ZR 12/24 | 5.11.2024 | Fiktiver Haushaltsfuehrungsschaden: Mindestlohn ist Untergrenze, jedoch nachvollziehbare Begründung des Stundensatzes erforderlich (§ 287 ZPO) | juris.bundesgerichtshof.de |
 | BGH VI. ZS | VI ZR 24/25 | 14.10.2025 | Überspannte Substantiierungsanforderungen an Geschädigten zu Haushaltsfuehrungs-/Mehrbedarfsschaden verletzen Art. 103 Abs. 1 GG | juris.bundesgerichtshof.de |
@@ -64,7 +67,7 @@ Hinweis: Reihenfolge Rspr. vor Lit.; neueste zuerst. Keine Aufsatz- oder Komment
 | 1 | Haftungsgrundlage (Gefährdung § 7 oder Verschulden § 18/§ 823)? | §§ 7, 18 StVG; § 823 BGB | Gefährdungshaftung kein Verschuldensnachweis nötig |
 | 2 | Direktanspruch § 115 VVG — Versicherungsschutz bestehend? | § 115 VVG | Versicherungsschein / Deckungszusage beschaffen |
 | 3 | Haftungsquote bestimmt? | § 17 StVG; § 254 BGB | Anscheinsbeweis bei Auffahrunfall etc. |
-| 4 | Werkstattrisiko / Sachverstaendigenrisiko bei Kostenkürzung? | § 249 BGB i.V.m. BGH VI ZR 253/22, VI ZR 239/22, VI ZR 280/22 | Geschädigter trägt im Regelfall nicht das Risiko überhöhter Werkstatt-/Gutachterkosten; Kürzung des Versicherers regelmäßig unbegründet |
+| 4 | Werkstattrisiko oder Sachverständigenrisiko bei konkreter Abrechnung? | Paragraf 249 BGB; BGH VI ZR 253/22, VI ZR 239/22, VI ZR 280/22 | Rechnung bezahlt: Erforderlichkeit und Erkenntnismöglichkeiten prüfen. Rechnung unbezahlt: Zahlung an die Werkstatt Zug um Zug gegen Abtretung verlangen. Bei Abtretung an einen Dritten trägt der Zessionar das Werkstattrisiko. Fiktive Abrechnung strikt abgrenzen. |
 | 5 | Schadensaufstellung vollständig (Reparatur netto / WBW abzüglich Restwert)? | § 249 BGB | Bei fiktiver Abrechnung Umsatzsteuer nur bei tatsächlicher Zahlung (§ 249 Abs. 2 S. 2 BGB) |
 | 6 | Wertminderung beziffert (SV-Gutachten)? | § 251 BGB | Eigenständige Position neben Reparaturkosten |
 | 7 | Schmerzensgeld nach § 253 Abs. 2 BGB? | § 253 BGB | Bei Personenschaden; Genugtuung als Bemessungsgesichtspunkt (st. Rspr. BGH VI. ZS) |
@@ -289,7 +292,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 | Einwand Versicherer | Reaktion |
 |---|---|
-| Werkstattkosten überhöht (Stundensaetze, UPE-Zuschläge) | Werkstattrisiko liegt beim Schädiger; BGH VI ZR 253/22, VI ZR 239/22 (16.1.2024) — Volltext und Randnummer vor Versand verifizieren |
+| Werkstattkosten bei konkreter Abrechnung überhöht | Zahlung und Anspruchsinhaber klären. Bei unbezahlter Rechnung Zahlung an die Werkstatt Zug um Zug gegen Abtretung beantragen; nach Abtretung an einen Dritten trägt der Zessionar das Werkstattrisiko. BGH VI ZR 253/22 und VI ZR 239/22 vom 16.1.2024; Volltext vor Versand prüfen. |
 | Verbringungskosten abgelehnt | Regionale Werkstattpraxis belegen; bei tatsächlich angefallenen Kosten keine Diskussion |
 | Sachverstaendigenkosten ueberhoeht | Sachverstaendigenrisiko liegt beim Schädiger; BGH VI ZR 280/22 (12.3.2024) — Quelle in juris.bundesgerichtshof.de prüfen |
 | Mietwagen-Tagessatz überhöht | Schätzgrundlage Schwacke und/oder Fraunhofer in tatrichterlicher Würdigung (§ 287 ZPO); BGH-Linie offen für beide Modelle |
@@ -321,7 +324,7 @@ Verbindlich `references/zitierweise.md`. Erlaubte offene Quellen für Verifikati
 
 Aktueller Stand Mai 2026 (verifizierte Aktenzeichen mit offener Quelle):
 - BGH VI ZR 253/22 v. 16.1.2024 (Werkstattrisiko)
-- BGH VI ZR 239/22 v. 16.1.2024 (Werkstattrisiko fiktive Abrechnung)
+- BGH VI ZR 239/22 v. 16.1.2024 (Werkstattrisiko bei unbezahlter Rechnung und Abtretung)
 - BGH VI ZR 280/22 v. 12.3.2024 (Sachverstaendigenrisiko)
 - BGH VI ZR 12/24 v. 5.11.2024 (Haushaltsfuehrungsschaden, Mindestlohn als Untergrenze)
 - BGH VI ZR 24/25 v. 14.10.2025 (Art. 103 Abs. 1 GG — Substantiierungsanforderungen Schaden)

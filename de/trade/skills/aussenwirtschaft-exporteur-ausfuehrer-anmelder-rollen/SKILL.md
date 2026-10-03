@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-exporteur-ausfuehrer-anmelder-rollen
+title: 'Exporteur, Ausfuehrer, Anmelder: Rollen und Haftungsverteilung im Aussenhandel'
+description: 'Für Exporteur, Ausführer, Anmelder: Rollen und Haftungsverteilung im Außenhandel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-exporteur-ausfuehrer-anmelder-rollen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Exporteur, Ausfuehrer, Anmelder: Rollen und Haftungsverteilung im Aussenhandel
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Spediteur stellt Ausfuhranmeldung in eigenem Namen; Exporteur-Haftung unklar.
+- Konzerntochter unterschreibt Genehmigung, Lieferung laeuft über Mutter; Zurechnung problematisch.
+- Zollagent hat Vollmacht, macht aber Fehler in Anmeldung; wer haftet?
+
+## Erste Schritte
+
+1. Vertragsstruktur analysieren: Wer ist Eigentümer der Ware beim Ausfuhrmoment?
+2. UZK-Definitionen anwenden: Exporteur nach UZK-DA, Ausfuehrer, Zollanmelder trennen.
+3. Vollmachtsdokument prüfen: direkte oder indirekte Vertretung; Haftungsfolgen beachten.
+4. Genehmigungspflicht dem richtigen Rechtssubjekt zuordnen (Inhaber der Exportgenehmigung).
+5. Haftungsverteilung vertraglich regeln (Spediteurvertrag, ICP-Vertrag mit Zollagenten).
+6. Rollenmatrix dokumentieren und im ICP hinterlegen.
+
+## Rechtsrahmen
+
+- **UZK Art. 1 Nr. 19, DA Art. 1 Nr. 18**: Definition des Ausfuehrers.
+- **UZK Art. 18-19**: Direkte und indirekte Zollvertretung.
+- **AWG § 2**: Definition Ausländer, Inlaender und Exporteur.
+- **§ 5 AWV**: Pflichten des Ausfuehrers bei Genehmigungen.
+- **§ 18 AWG**: Strafbarkeit des Ausfuehrers und Bevollmaechtigten.
+
+## Prüf-Raster
+
+- [ ] Ausfuehrer nach UZK-Definition korrekt bestimmt?
+- [ ] Vollmacht für Zollanmelder (direkt/indirekt) schriftlich erteilt?
+- [ ] Genehmigungsinhaber und Ausfuehrer personenidentisch oder Uebertragung dokumentiert?
+- [ ] Haftungsverteilung im Spediteurvertrag geregelt?
+- [ ] Bei indirekter Vertretung: Zollagent in voller Haftung?
+- [ ] ICP-Rollenmatrix aktuell?
+
+## Typische Fallstricke
+
+- Indirekte Vertretung stellt Zollagenten als Ausfuehrer in die Haftung, wird aber oft nicht erkannt.
+- Genehmigung auf falschen Rechtstraeger ausgestellt, Lieferung laeuft über anderen.
+- Sammelausfuhren erfordern klare Zuordnung jeder Position zu einem Ausfuehrer.
+- BAFA-Prüfung fragt nach tatsaechlichem Ausfuehrer, nicht nach Anmelder.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [UZK auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de Zollverfahren Ausfuhr](https://www.zoll.de/DE/Fachthemen/Zoelle/Zollverfahren/Ausfuhr/ausfuhr_node.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [AWV auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awv_2013/index.html)

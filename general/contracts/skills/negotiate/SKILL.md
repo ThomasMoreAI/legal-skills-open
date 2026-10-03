@@ -1,22 +1,19 @@
 ---
 name: negotiate
 title: Contract Negotiation Strategy Generator
-description: 'Analyzes contracts for unfavorable or risky clauses and generates prioritized
-
-  counter-proposals with replacement language. Use when reviewing a contract before
-
-  signing, preparing for a negotiation, or responding to unfavorable terms.
-
-  Trigger with "/negotiate" or "generate counter-proposals for this contract".'
+description: Analyzes contracts for unfavorable or risky clauses and generates prioritized counter-proposals with replacement language. Use when reviewing a contract before signing, preparing for a negotiation, or responding to unfavorable terms. Trigger with "/negotiate" or "generate counter-proposals for this contract".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/negotiate
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, negotiation, counter-proposal]
+tags:
+- legal
+- negotiation
+- counter-proposal
 ---
 
 # Contract Negotiation Strategy Generator

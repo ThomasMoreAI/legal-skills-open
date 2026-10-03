@@ -1,11 +1,11 @@
 ---
 name: code-of-practice-und-harmonisierte-normen
 title: Verhaltenskodizes, harmonisierte Normen und ISO-Standards
-description: 'Normen- und Standards-Landkarte fuer KI-VO-Compliance: Art. 40 harmonisierte Normen, Art. 41 gemeinsame Spezifikationen, Art. 56 GPAI Code of Practice, ISO/IEC 42001 / 23894 / 22989 / 23053 sowie Sicherheits- und Datenschutzstandards. Erklaert Vermutungswirkung nur bei im EU-Amtsblatt referenzierten harmonisierten Normen und nutzt ISO-Normen als Orientierung ohne falsche Konformitaetsvermutung. Output: standardsbasierter Massnahmenplan fuer KI-System, Hochrisiko oder GPAI.'
+description: 'Für Verhaltenskodizes, harmonisierte Normen und ISO-Standards: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/code-of-practice-und-harmonisierte-normen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill unterstützt die Compliance-Strategie für KI-Systeme, Hochrisiko-KI und GPAI-Modelle. Er trennt sauber:
+Unterstützt die Compliance-Strategie für KI-Systeme, Hochrisiko-KI und GPAI-Modelle. Er trennt sauber:
 
 - harmonisierte Normen nach Art. 40 KI-VO
 - gemeinsame Spezifikationen nach Art. 41 KI-VO
@@ -62,7 +62,7 @@ Prüffragen:
 
 Diese Standards können als Arbeitsrahmen dienen, ohne automatisch KI-VO-Konformität zu beweisen:
 
-| Standard | Nutzen im KI-VO-Workflow | Vorsicht |
+| Standard | Nutzen im KI-VO-| Vorsicht |
 |---|---|---|
 | ISO/IEC 42001:2023 | AI Management System, Governance, Rollen, Richtlinien, kontinuierliche Verbesserung | nicht identisch mit allen KI-VO-Pflichten; keine Vermutungswirkung ohne harmonisierte Referenz |
 | ISO/IEC 23894:2023 | AI Risk Management, Risikoidentifikation, Bewertung, Behandlung, Monitoring | an Art. 9 KI-VO anpassen, Grundrechte ausdrücklich ergänzen |
@@ -129,6 +129,14 @@ Risikoklasse: [Hochrisiko / begrenzt / GPAI / unklar]
 [Welche Norm begründet Vermutungswirkung? Welche Standards sind nur Orientierung?]
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 40, 41, 56 und 95 KI-VO sowie die jeweils aktuell im Amtsblatt der EU referenzierten harmonisierten Normen. Vor jeder finalen Aussage ist der Normenstand zu aktualisieren. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 40, 41, 56 und 95 KI-VO sowie die jeweils aktuell im Amtsblatt der EU referenzierten harmonisierten Normen. Vor jeder finalen Aussage ist der Normenstand zu aktualisieren. Keine Rechtsberatung.

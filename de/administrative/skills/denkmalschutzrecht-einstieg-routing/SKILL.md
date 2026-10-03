@@ -1,0 +1,73 @@
+---
+name: denkmalschutzrecht-einstieg-routing
+title: Einstieg — Routing im Denkmalschutzrecht
+description: 'Für Einstieg — Routing im Denkmalschutzrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/denkmalschutzrecht/skills/einstieg-routing
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: administrative
+language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Einstieg — Routing im Denkmalschutzrecht
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage nach fehlender Belegenheit oder dem konkreten Schutz- und Planungsstand, soweit dies nicht aus den Unterlagen hervorgeht. Nach Eingang Landesrecht und geplanten Eingriff erneut prüfen und die bestellte Bewertung oder Maßnahmenbeschreibung fortführen. Zeigt etwa ein Befund eine weitere entscheidende Lücke, frage gezielt nach; keine erneute Aufnahme. Unbelegte Tatsachen nicht als feststehend behandeln.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Zweck und Anwendungsfall
+
+Erster Anlaufpunkt für jeden Fall im Denkmalschutzrecht. Da Denkmalschutz Landesrecht ist, scheitert jede Bearbeitung ohne klare Belegenheit. Dieser Skill stellt die unverzichtbaren Mandatsfragen, identifiziert das einschlägige Landesgesetz und benennt den nächsten Skill.
+
+## Eingaben
+
+- **Objekt:** genaue Belegenheit (Straße, Hausnummer, Gemeinde, Kreis, Bundesland); Art (Baudenkmal, Bodendenkmal, bewegliches Denkmal, Ensemble, archäologische Reservation).
+- **Schutzstatus:** eingetragen in die Denkmalliste? UNESCO-Welterbe? Ensembleschutz? Erhaltungssatzung nach Paragraf 172 BauGB?
+- **Mandantenrolle:** Eigentümerin, Erwerberin, Mieterin, Nachbarin, Verband, Förderantragstellerin, Adressatin eines Bescheids, Beschwerdeführerin.
+- **Konkrete Maßnahme oder Frage:** Sanierung, Umbau, Abbruch, Verkauf, steuerliche Förderung, Widerspruch gegen einen Bescheid, Verfahren wegen einer Ordnungswidrigkeit.
+- **Fristen:** Anhörungsfrist, Widerspruchsfrist, Klagefrist, Erlaubnisfrist, Eilbedürftigkeit.
+
+## Ablauf / Checkliste
+
+1. Belegenheit feststellen und damit das anwendbare Landesgesetz benennen (Baden-Württemberg DSchG-BW, Bayern BayDSchG, Berlin DSchG-Bln, Brandenburg BbgDSchG, Bremen DSchG-Brem, Hamburg DSchG-HA, Hessen HDSchG, Mecklenburg-Vorpommern DSchG-MV, Niedersachsen NDSchG, Nordrhein-Westfalen DSchG-NRW, Rheinland-Pfalz DSchPflG, Saarland SDSchG, Sachsen SächsDSchG, Sachsen-Anhalt DSchG-LSA, Schleswig-Holstein DSchG-SH, Thüringen ThürDSchG).
+2. Schutzstatus klären: in der Denkmalliste eingetragen oder nicht; nachrichtliche Eintragung oder konstitutive Eintragung; Ensemble- oder Einzelschutz.
+3. Mandantenrolle und konkretes Begehren benennen.
+4. Fristen markieren (Widerspruch typischerweise ein Monat ab Bekanntgabe, abweichende Landesfristen beachten).
+5. Routing-Entscheidung treffen:
+   - Querschnittsfragen (Eigentümerstellung, Erlaubnis, Förderung, Enteignung) → in die jeweiligen Querschnittsskills.
+   - Landesspezifische Verfahren (zuständige Behörde, Verfahrenswege, Bußgeldrahmen) → in den Landesskill.
+
+## Quellenpflicht
+
+Anwendbares Landesgesetz immer aus der amtlichen Landesgesetz-Datenbank zitieren; siehe references/zitierweise.md. Keine Paragrafen aus dem Modellwissen übernehmen, ohne sie zuvor in der jeweiligen Landesgesetzes-Datenbank verifiziert zu haben.
+
+## Ausgabeformat
+
+Bei bloßem Einstieg die entscheidende offene Frage zum Objekt klären; bei vorhandenem Auftrag das gewünschte Gutachten, den Antrag oder die Behördenantwort ausarbeiten. Eine vorläufige Einordnung nach neuen Belegen bis zum bestellten Ergebnis fortführen. Spezialskills dienen der Vertiefung, nicht dem Abbruch mit einer Empfehlung. Quellenstatus gesondert notieren; externe Handlungen nur nach Freigabe.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Beispiel
+
+Mandantin Müller-Schenk besitzt ein 1898 errichtetes Eckwohnhaus in München-Schwabing, eingetragen in die Denkmalliste, plant Innenausbau und Dachterrasse. Routing: Belegenheit Bayern, Landesgesetz BayDSchG, Schutzstatus eingetragen, Rolle Eigentümerin, Begehren Erlaubnis nach Art. 6 BayDSchG, Frist offen. Nächster Skill: `denkmalschutz-bayern-baydschg` und `erlaubnis-pflichtige-massnahmen`.

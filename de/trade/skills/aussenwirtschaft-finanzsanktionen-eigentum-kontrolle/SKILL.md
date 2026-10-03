@@ -1,0 +1,91 @@
+---
+name: aussenwirtschaft-finanzsanktionen-eigentum-kontrolle
+title: '50-Prozent-Regel bei Sanktionen: Eigentum, Kontrolle und Umgehungsrisiken'
+description: 'Für 50-Prozent-Regel bei Sanktionen: Eigentum, Kontrolle und Umgehungsrisiken: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-finanzsanktionen-eigentum-kontrolle
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# 50-Prozent-Regel bei Sanktionen: Eigentum, Kontrolle und Umgehungsrisiken
+
+## Arbeitsbereich
+
+Prüfung von Eigentum und Kontrolle sanktionierter Personen bei juristischen Personen nach Art. 2 Abs. 1 lit. a VO (EU) 269/2014 und EU-Leitlinien zur 50-%-Regel: Mehrheitsbesitz, mittelbare Kontrolle, Treuhandstrukturen. Umgehungsrisiken bei Tochtergesellschaften und Geschäftspartnern. Output: UBO-Analysevermerk. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Lieferant eines deutschen Unternehmens ist zu 51 Prozent im Besitz einer sanktionierten russischen Bank.
+- Immobilientransaktion: Kaeufer wird von Holdingstruktur gehalten, deren UBO sanktioniert ist.
+- Konzerngesellschaft in Drittland hat sanktionierte Person im Aufsichtsrat mit Vetomacht.
+
+## Erste Schritte
+
+1. Alle juristischen Personen in der Transaktionskette identifizieren.
+2. Eigentuemerstruktur bis zur natuerlichen Person oder staatlichen Entitaet verfolgen (UBO-Analyse).
+3. 50-%-Schwelle nach Besitz und Kontrolle gesondert prüfen (Art. 2 VO 269/2014).
+4. EU-Leitlinien zur Akkumulation von Eigentumsanteilen beachten.
+5. Treuhandverhaeltnisse und Nominee-Strukturen aufdecken.
+6. Ergebnis mit Quellenbelegen und Entscheidung dokumentieren.
+
+## Rechtsrahmen
+
+- **Art. 2 Abs. 1 VO (EU) 269/2014**: Bereitstellungsverbot für gelistete Personen und von ihnen kontrollierte Entitaeten.
+- **EU-Leitlinien zu Art. 2 VO 269/2014**: Interpretation der 50-%-Regel bei Eigentum/Kontrolle.
+- **VO (EU) 833/2014 Art. 11**: Eingefroren Gelder und Bereitstellungsverbot.
+- **§ 3 GwG**: UBO-Definition und Transparenzpflicht.
+- **§ 18 AWG**: Strafbarkeit bei Bereitstellung gegenueber sanktionierter Entitaet.
+
+## Prüf-Raster
+
+- [ ] UBO-Kette bis zur natuerlichen Person vollstaendig verfolgt?
+- [ ] 50-%-Schwelle nach Eigentumsanteilen und Stimmrechten getrennt geprueft?
+- [ ] Mittelbare Kontrolle (mehrstufige Holdingstrukturen) beruecksichtigt?
+- [ ] Treuhand- und Nominee-Verhältnisse ausgeschlossen oder aufgedeckt?
+- [ ] EU-Leitlinien zur Akkumulation konsultiert?
+- [ ] Quellenstand und Abrufdatum dokumentiert?
+
+## Typische Fallstricke
+
+- Kontrolle ohne Mehrheitsbesitz (Veto, Vorstandsmandat) loest ebenfalls Bereitstellungsverbot aus.
+- Sanktionierte Person haelt 25 % + eine weitere sanktionierte Person 26 % = zusammen über 50 %.
+- Treuhandstrukturen verschleiern wirtschaftlich Berechtigten; Gegenverifizierung noetig.
+- Tochtergesellschaften sanktionierter Banken in Drittlaendern nicht automatisch sanktioniert, aber Risiko hoch.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [VO (EU) 269/2014 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0269)
+- [EU-Leitlinien zu Eigentum/Kontrolle](https://eeas.europa.eu/topics/sanctions-policy/8442/consolidated-list-sanctions_en)
+- [GwG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/gwg_2017/index.html)
+- [BAFA Finanzsanktionen](https://www.bafa.de/DE/Aussenwirtschaft/Finanzsanktionen/finanzsanktionen_node.html)

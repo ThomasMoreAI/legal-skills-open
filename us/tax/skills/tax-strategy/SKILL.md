@@ -5,12 +5,21 @@ description: Use this skill when planning corporate tax strategy, claiming R&D c
 author: mkurman
 author_url: https://github.com/mkurman/zorai/tree/main/skills/nontechnical/absolutelyskilled/tax-strategy
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: tax
 language: en
-tags: [r-and-d-credits, transfer-pricing, compliance, corporate-tax, strategy, sales]
+tags:
+- r-and-d-credits
+- transfer-pricing
+- compliance
+- corporate-tax
+- strategy
+- sales
+sources:
+- title: R and d credits
+  path: references/r-and-d-credits.md
 ---
 
 ## Key principles

@@ -1,22 +1,44 @@
 ---
 name: mandat-triage-migrationsrecht
-title: Mandat-Triage Migrationsrecht
-description: Eingangs-Abfrage für migrationsrechtliche Mandate — Mandant ist Asylsuchender Geduldeter oder fragt nach Aufenthaltstitel Familiennachzug Abschiebungsabwehr Ausweisung oder Einbuergerung. Sofort-Fristen § 74 AsylG zwei-Wochen-Klagefrist § 36 AsylG ein-Wochen-Frist Eilantrag § 80 Abs. 5 VwGO bei Abschiebungsandrohung. Normen AufenthG AsylG § 27 AufenthG Familiennachzug. Eskalation Telefon-Sofort bei Abschiebung in 24 Stunden Haft Dublin-Überstellung. Output Triage-Memo Fristen-Ampel Routing zu aufenthaltstitel-prüfung und Spezial-Skills. Abgrenzung zu erstgespraech-mandatsannahme (Mandatsaufnahme-Leitfaden).
+title: Eingangs-Abfrage für migrationsrechtliche Mandate — Mandant ist Asylsuchender Geduldeter oder fragt nach Aufenthaltstite
+description: 'Für Mandat Triage Migrationsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/mandat-triage-migrationsrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: immigration
 language: de
 ---
 
-# Mandat-Triage Migrationsrecht
+# Eingangs-Abfrage für migrationsrechtliche Mandate — Mandant ist Asylsuchender Geduldeter oder fragt nach Aufenthaltstitel Familiennachzug Abschiebungsabwehr Ausweisung oder Einbuergerung
 
-## Zweck
 
-Migrationsmandate sind hochgradig zeitkritisch — Abschiebung kann in Stunden erfolgen. Triage stellt Sofort-Eilbedürftigkeit fest und ordnet zu.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AufenthG §§ 4, 5, 7, 8, 9, 16a-16g, 18a-18g, 19c, 25, 27-36, 50, 53-55, 58, 60, 60a-60d, 81, 84, 95; AsylG §§ 13, 24-30, 34-38, 71, 74, 77; FreizügG/EU §§ 2-5; StAG §§ 4, 5, 8-10, 12a, 25, 30; AsylbLG §§ 1, 3, 6; VwGO §§ 74, 80, 123; Dublin-III-VO Art. 3, 17, 21-29; einschlägige EU-Richtlinien/GEAS-Normstand live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Eingangs-Abfrage für migrationsrechtliche Mandate — Mandant ist Asylsuchender Geduldeter oder fragt nach Aufenthaltstitel Familiennachzug Abschiebungsabwehr Ausweisung oder Einbuergerung. Sofort-Fristen § 74 AsylG zwei-Wochen-Klagefrist § 36 AsylG ein-Wochen-Frist Eilantrag § 80 Abs. 5 VwGO bei Abschiebungsandrohung. Normen AufenthG AsylG § 27 AufenthG Familiennachzug. Eskalation Telefon-Sofort bei Abschiebung in 24 Stunden Haft Dublin-Überstellung. Output Triage-Memo Fristen-Ampel Routing zu aufenthaltstitel-prüfung und Fachmodule. Abgrenzung zu erstgespraech-mandatsannahme (Mandatsaufnahme-Leitfaden).
+
+### Mandat-Triage Migrationsrecht
 
 ## Ablauf — sieben Fragen
 
@@ -145,6 +167,14 @@ Bei drohender Abschiebung:
 - Mandatsvereinbarung
 - Empfehlung Folge-Skill plus eventuell Härtefall-Kommission
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - AufenthG AsylG StAG VwGO §§ 80 123
@@ -152,10 +182,6 @@ Bei drohender Abschiebung:
 - BVerwGE Std.Spruch
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette Triage
 
@@ -190,7 +216,7 @@ Sprache / Dolmetscher: [SPRACHE; Dolmetscher erforderlich: ja/nein]
 [ ] Sonstige Eilbeduerftigkeit: [...]
 
 3. VORGANG
-[ ] Asylantrag / BAMF-Anhoerung
+[ ] Asylantrag / BAMF-Anhörung
 [ ] Asyl-Klage
 [ ] Folgeantrag § 71 AsylG
 [ ] Aufenthaltstitel-Antrag / Verlaengerung
@@ -205,8 +231,10 @@ Naechste Frist: [DATUM — Art der Frist]
 PKH-Antrag: [gestellt / noch nicht / nicht erforderlich]
 
 5. ROUTING
-Folge-Skill: [skill-name]
+Folge-Skill: [konkreter naechster Migrationsrecht-Skill, z.B. BAMF-Anhoerung, Asylklage, Familiennachzug, Aufenthaltstitel, Abschiebungsschutz, Ausweisung oder Einbuergerung]
 Eskalation: [ ] Sofort-Telefon [ ] Heute [ ] Diese Woche
 
 Aktennummer: [AZ]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: mandantenkorrespondenz-form-und-zugang-templates
 title: 'Mandantenkorrespondenz — Form und Zugang: Templates'
-description: Workflow-Skill zu mandantenkorrespondenz form und zugang templates. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Mandantenkorrespondenz — Form und Zugang: Templates: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftform-und-textform-bgb/skills/mandantenkorrespondenz-form-und-zugang-templates
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -14,10 +14,22 @@ language: de
 
 # Mandantenkorrespondenz — Form und Zugang: Templates
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Mandantenkorrespondenz — Form und Zugang: Templates
+
+- **Spezialfrage (Mandantenkorrespondenz — Form und Zugang: Templates):** Mandantenkorrespondenz Form Und Zugang Templates: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+- **Arbeitsweise:** Erst Sachverhalt, Norm, Frist, Zuständigkeit und Beweis klären; Rechtsprechung nur verifiziert als tragenden Beleg einsetzen.
+
 ## Rechtsgrundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- §§ 126a, 126b, 130, 568, 656a BGB
+- Paragrafen 126a, 126b, 130, 568, 656a BGB
 
 ## Templates
 
@@ -41,7 +53,6 @@ wir möchten Sie auf eine aktuelle Entwicklung in der Rechtsprechung hinweisen,
 die unmittelbar Ihr Mietverhältnis betreffen kann.
 
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 wirksam per E-Mail erklärt werden kann, wenn das angehängte PDF-Dokument mit einer
 qualifizierten elektronischen Signatur (qES) versehen ist.
 
@@ -58,13 +69,13 @@ Bitte beachten Sie daher:
 2. Löschen Sie PDF-Anhänge von Ihrem Vermieter oder dessen Rechtsanwalt nicht.
 
 3. Prüfen Sie PDF-Anhänge in Adobe Acrobat Reader auf eine
-   Signaturmarkierung (blaues oder grünes Zertifikatsfeld).
+ Signaturmarkierung (blaues oder grünes Zertifikatsfeld).
 
 4. Wenn Sie eine mögliche Kündigung erhalten haben, kontaktieren Sie
-   uns unverzüglich.
+ uns unverzüglich.
 
 5. Sichern Sie alle relevanten E-Mails und PDF-Dateien durch Export
-   oder Screenshot.
+ oder Screenshot.
 
 Wir stehen Ihnen für Rückfragen jederzeit zur Verfügung.
 
@@ -95,17 +106,16 @@ für die von Ihnen beabsichtigte Kündigung des Mietverhältnisses
 Empfohlene Vorgehensweise (Papier per Boten):
 
 1. Wir bereiten die Kündigung schriftlich vor und legen sie Ihnen
-   zur eigenhändigen Unterzeichnung vor.
+ zur eigenhändigen Unterzeichnung vor.
 
 2. Sie übergeben das unterschriebene Original persönlich oder durch
-   einen Boten an den Mieter. Der Mieter bestätigt den Empfang durch
-   Unterschrift auf einer Quittung.
+ einen Boten an den Mieter. Der Mieter bestätigt den Empfang durch
+ Unterschrift auf einer Quittung.
 
 3. Alternativ: Übergabe durch Einschreiben mit Rückschein.
 
 Warum empfehlen wir Papier?
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 per E-Mail mit qualifizierter elektronischer Signatur (qES) grundsätzlich
 möglich. Jedoch bestehen praktische Risiken:
 
@@ -138,21 +148,21 @@ Vermieter oder dessen Anwalt erhalten haben, prüfen Sie bitte:
 SCHRITT 1: Öffnen Sie die PDF-Datei in Adobe Acrobat Reader (kostenlos).
 
 SCHRITT 2: Sehen Sie im Dokument ein blaues oder grünes Banner mit
-  "Signiert und alle Signaturen sind gültig" oder ähnlichem?
-  → Wenn JA: Es könnte sich um eine rechtlich wirksame Kündigung handeln.
+ "Signiert und alle Signaturen sind gültig" oder ähnlichem?
+ → Wenn JA: Es könnte sich um eine rechtlich wirksame Kündigung handeln.
 
 SCHRITT 3: Prüfen Sie, ob das Dokument eine Kündigung des Mietverhältnisses
-  enthält und auf welches Datum die Kündigung verweist.
+ enthält und auf welches Datum die Kündigung verweist.
 
 SCHRITT 4: Sichern Sie die E-Mail und die PDF-Datei.
-  → E-Mail: als PDF drucken oder .eml exportieren
-  → PDF: auf Ihrem Computer und auf einem USB-Stick oder Cloud speichern
-  → Screenshot der E-Mail anfertigen
+ → E-Mail: als PDF drucken oder .eml exportieren
+ → PDF: auf Ihrem Computer und auf einem USB-Stick oder Cloud speichern
+ → Screenshot der E-Mail anfertigen
 
 SCHRITT 5: Kontaktieren Sie uns unverzüglich mit:
-  → Weiterleitung der E-Mail an [Kanzlei-E-Mail]
-  → Datum des Eingangs der E-Mail
-  → Inhalt des PDF (Scan oder Weiterleitung der Datei)
+ → Weiterleitung der E-Mail an [Kanzlei-E-Mail]
+ → Datum des Eingangs der E-Mail
+ → Inhalt des PDF (Scan oder Weiterleitung der Datei)
 
 Wichtig: Reagieren Sie schnell — Kündigungsfristen und Reaktionsfristen
 laufen ab Zugang der Kündigung.
@@ -163,7 +173,7 @@ laufen ab Zugang der Kündigung.
 ### Template 4 — Checkliste Maklervertrag-E-Mail (Käufer)
 
 ```
-CHECKLISTE — Maklervertrag per E-Mail (§ 656a BGB)
+CHECKLISTE — Maklervertrag per E-Mail (Paragraf 656a BGB)
 
 Haben Sie einen Maklervertrag für den Kauf einer Wohnung oder eines
 Einfamilienhauses per E-Mail geschlossen?
@@ -171,20 +181,20 @@ Einfamilienhauses per E-Mail geschlossen?
 Bitte prüfen Sie:
 
 □ Hat der Makler Ihnen per E-Mail ein Angebot über den Maklerauftrag gemacht?
-  → Enthielt die E-Mail: Name des Maklers, Provisionsangebot, Auftragsbeschreibung?
+ → Enthielt die E-Mail: Name des Maklers, Provisionsangebot, Auftragsbeschreibung?
 
 □ Haben Sie den Auftrag per E-Mail bestätigt?
-  → Enthielt Ihre E-Mail: Ihren Namen, Ihre Bestätigung des Auftrags?
+ → Enthielt Ihre E-Mail: Ihren Namen, Ihre Bestätigung des Auftrags?
 
 □ Ist aus dem E-Mail-Austausch erkennbar, dass ein Vertrag geschlossen wurde?
 
 □ Gibt es Anzeichen, dass kein Textform-konformer Vertrag vorliegt?
-  → Nur mündliche Absprachen per Telefon?
-  → Nur unverbindliche Anfragen ohne klare Beauftragung?
+ → Nur mündliche Absprachen per Telefon?
+ → Nur unverbindliche Anfragen ohne klare Beauftragung?
 
 Bedeutung:
 
-Wenn die Textform des § 656a BGB nicht gewahrt wurde, ist der
+Wenn die Textform des Paragraf 656a BGB nicht gewahrt wurde, ist der
 Maklervertrag nichtig. Der Makler kann keine Provision verlangen.
 Eine bereits gezahlte Provision können Sie möglicherweise zurückfordern.
 
@@ -206,14 +216,13 @@ anbei erhalten Sie die Kündigung des Mietverhältnisses über die
 Wohnung [Adresse] als PDF-Dokument.
 
 Das Dokument ist mit einer qualifizierten elektronischen Signatur
-nach § 126a BGB versehen, die die gesetzliche Schriftform des
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+nach Paragraf 126a BGB versehen, die die gesetzliche Schriftform des
 
 Bitte beachten Sie:
 
 - Die Kündigung gilt mit Eingang dieser E-Mail in Ihrem Postfach als zugegangen.
 - Prüfen Sie die elektronische Signatur in Adobe Acrobat Reader oder
-  unter validator.bund.de.
+ unter validator.bund.de.
 - Drucken Sie das Dokument aus und bewahren Sie die elektronische Datei auf.
 
 Bitte bestätigen Sie den Empfang dieser E-Mail durch kurze Rückantwort.
@@ -229,12 +238,5 @@ Mit freundlichen Grüßen
 
 - **Template nie ungeprüft verwenden**: Alle Templates sind Mustertexte, die auf den Einzelfall angepasst werden müssen. Fristen, Namen und Daten sind zwingend zu ergänzen.
 - **Mandantenbrief ≠ Rechtsgutachten**: Die Mandantenbriefe ersetzen keine vollständige rechtliche Beratung. Bei komplexen Sachverhalten ist ein ausführlicheres Beratungsschreiben erforderlich.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Querverweise
-
-- → `mandantenwarnung-qes-per-email-whatsapp-und-zugang`
-- → `wohnraummiete-kuendigung-paragraph-568-bgb`
-- → `maklervertrag-paragraph-656a-bgb-textform-bgh-i-zr-202-25`
-- → `dokumentations-und-beweisarchitektur`
-- → `prozessablauf-papier-vs-elektronisch`
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

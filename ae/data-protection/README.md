@@ -4,14 +4,12 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `ae` · Practice: `data-protection` · Skill language: en
 
-## Skills (4)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`User Request`](skills/arckit-uae-data-sharing/) | [COMMUNITY] Generate a Data Sharing Agreement under the UAE Government Services Data Sharing Policy. Captures… |
-| [`User Request`](skills/arckit-uae-pdpl/) | [COMMUNITY] Generate a UAE PDPL (Federal Decree-Law 45/2021) compliance assessment including DPIA,… |
-| [`UAE GRC Advisor`](skills/uae-grc-sushegaad/) | United Arab Emirates Governance, Risk & Compliance advisor — a jurisdiction-first compliance router. In the… |
-| [`UAE Personal Data Protection Law Compliance`](skills/uae-pdp-law/) | Implements compliance with the UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data (UAE… |
+| [`UAE GRC Advisor`](skills/uae-grc-sushegaad/) | United Arab Emirates Governance, Risk & Compliance advisor — a jurisdiction-first compliance router. In… |
+| [`UAE Personal Data Protection Law Compliance`](skills/uae-pdp-law/) | Implements compliance with the UAE Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data… |
 
 ## Cold-start context
 

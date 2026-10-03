@@ -1,11 +1,11 @@
 ---
 name: artenschutz-naturschutz-planung
 title: Artenschutz und Naturschutz in der Bauleitplanung
-description: 'Buerger oder Naturschutzverband greift Bebauungsplan wegen unzureichender Artenschutzprüfung an. § 44 BNatSchG Zugriffsverbote § 45 Abs. 7 BNatSchG Ausnahme. Prüfraster: spezielle artenschutzrechtliche Prüfung (saP) CEF-Massnahmen Eingriffsregelung § 1a Abs. 3 BauGB FFH-Vertraeglichkeit § 34 BNatSchG. Stadtbezogene Arten Mauersegler Schwalben Fledermaeuse. Output: Artenschutz-Prüfprotokoll und Angriffspunkte Normenkontrolle. Abgrenzung zu umweltbericht-umweltprüfung (UVPG) und abwaegungsgebot-1-abs-7-baugb.'
+description: 'Für Artenschutz und Naturschutz in der Bauleitplanung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. Route: artenschutz-naturschutz-planung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/artenschutz-naturschutz-planung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: environmental
@@ -14,14 +14,9 @@ language: de
 
 # Artenschutz und Naturschutz in der Bauleitplanung
 
-## Zweck
-
-Artenschutz ist materieller Pflichtprogramm-Punkt jedes B-Plans, der bauliche Veränderungen vorsieht. Lücken in der speziellen artenschutzrechtlichen Prüfung (saP) sind häufiger Treffer.
-
 ## Schritt 1 — Zugriffsverbote § 44 BNatSchG
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 ### Drei Verbote
 - **Tötungsverbot** § 44 Abs. 1 Nr. 1 BNatSchG: Verbot, wildlebenden Tieren der besonders geschützten Arten nachzustellen, sie zu fangen, zu verletzen oder zu töten
@@ -184,17 +179,10 @@ Artenschutz ist materieller Pflichtprogramm-Punkt jedes B-Plans, der bauliche Ve
 - BVerwG, Urteil vom 23.4.2014 – 9 A 25.12 (Tötungsverbot)
 - BayVGH, Urteil vom 30.3.2017 – 14 N 16.1112 (Stadtarten)
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Artenschutz/Naturschutz
 
 § 44 Abs. 1 Nr. 1-3 BNatSchG (Zugriffsverbote) → § 44 Abs. 5 BNatSchG (Legalausnahme Planung) → § 45 Abs. 7 BNatSchG (Ausnahme) → § 67 BNatSchG (Befreiung) → § 34 BNatSchG (FFH-Verträglichkeit) → § 1a Abs. 3 BauGB (Eingriffsregelung) → § 2 Abs. 3 BauGB (Ermittlungspflicht) → § 1 Abs. 7 BauGB (Abwägungsgebot)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage vor Bearbeitung
 
 Kläre vor Beginn der saP-Prüfung:
@@ -203,21 +191,20 @@ Kläre vor Beginn der saP-Prüfung:
 3. Ist die saP älter als 5 Jahre? (Neuerhebung erforderlich)
 4. Welches Bundesland? (Landesrechtliche Ergänzungen zu § 44 BNatSchG beachten)
 5. Gibt es Hinweise auf Vorkommen streng geschützter Arten aus regionalem Artenkataster?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Artenschutzrechtliche Ruege im Planungsverfahren | Artenschutz-Ruegeschriftsatz nach Schema; Template unten |
-| Variante A — Artenschutz klar verletzt Behoerde kooperativ | Informelle Einwendung zuerst; Klage nur bei Ablehnung |
+| Variante A — Artenschutz klar verletzt Behörde kooperativ | Informelle Einwendung zuerst; Klage nur bei Ablehnung |
 | Variante B — Saison-Schutz Bruetzeit laeuft noch | Sofortige Einwendung mit Fristsetzung; Vollzugsstopp beantragen |
-| Variante C — Ausnahme nach § 45 BNatSchG moeglich | Ausnahme-Antrag statt Klage; Kompensationsmassnahmen anbieten |
+| Variante C — Ausnahme nach § 45 BNatSchG möglich | Ausnahme-Antrag statt Klage; Kompensationsmassnahmen anbieten |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Output-Template Artenschutz-Rüge im Schriftsatz
 
@@ -227,27 +214,26 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 III. Verstoß gegen § 44 Abs. 1 Nr. 3 BNatSchG — Lebensstättenschutz [NAME ART]
 
 1. Bestandsaufnahme methodisch unzureichend (§ 2 Abs. 3 BauGB)
-   Die saP der [BUERO] vom [DATUM] enthält zur Art [NAME] lediglich [SATZ AUS GUTACHTEN].
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   Insbesondere wurde die [KONKRETER MANGEL: Begehung im Maerz statt im Hochsommer / Kartierung nur Kerngebiet ohne Puffer].
+ Die saP der [BUERO] vom [DATUM] enthält zur Art [NAME] lediglich [SATZ AUS GUTACHTEN].
+ Insbesondere wurde die [KONKRETER MANGEL: Begehung im Maerz statt im Hochsommer / Kartierung nur Kerngebiet ohne Puffer].
 
 2. CEF-Maßnahme nicht verbindlich festgesetzt
-   Die Maßnahme [BEZEICHNUNG] ist nur in Begründung Seite X erwähnt, aber nicht in den textlichen
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ Die Maßnahme [BEZEICHNUNG] ist nur in Begründung Seite X erwähnt, aber nicht in den textlichen
 
 3. FCS-Nachweis fehlt
-   Der Erhaltungszustand der Lokalpopulation von [ART] wird nicht bewertet.
-   Ohne diesen Nachweis ist die Ausnahme nach § 45 Abs. 7 BNatSchG nicht erfüllt
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ Der Erhaltungszustand der Lokalpopulation von [ART] wird nicht bewertet.
+ Ohne diesen Nachweis ist die Ausnahme nach § 45 Abs. 7 BNatSchG nicht erfüllt
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: dokumentationspflicht-und-protokollierung-geschaeftsfuehrung
 title: Dokumentationspflicht und Protokollierung — Beweissicherung für Haftungsprozesse
-description: 'Krisenprotokollierung der Geschäftsführung für Haftungsschutz: GmbH-Geschäftsführer oder AG-Vorstand will Entscheidungen in der Krise dokumentieren. Normen: § 43 GmbHG (Sorgfaltspflicht und Haftung), § 93 Abs. 2 S. 2 AktG (Beweislastumkehr), Business Judgment Rule. Prüfraster: Krisenprotokoll-Templates, Sitzungsvorlagen, Schriftformerfordernis, Beweissicherung für spaetere Haftungsprozesse. Output Krisenprotokoll-Vorlage, Sitzungsprotokoll-Template, Dokumentations-Checkliste. Abgrenzung: GF-Haftung in der Krise detail siehe gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg; Insolvenzantragspflicht siehe insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist.'
+description: 'Für Dokumentationspflicht und Protokollierung — Beweissicherung für Haftungsprozesse: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/dokumentationspflicht-und-protokollierung-geschaeftsfuehrung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -13,6 +13,20 @@ language: de
 ---
 
 # Dokumentationspflicht und Protokollierung — Beweissicherung für Haftungsprozesse
+
+## Arbeitsbereich
+
+Krisenprotokollierung der Geschäftsführung für Haftungsschutz: GmbH-Geschäftsführer oder AG-Vorstand will Entscheidungen in der Krise dokumentieren. Normen: § 43 GmbHG (Sorgfaltspflicht und Haftung), § 93 Abs. 2 S. 2 AktG (Beweislastumkehr), Business Judgment Rule. Prüfraster: Krisenprotokoll-Templates, Sitzungsvorlagen, Schriftformerfordernis, Beweissicherung für spaetere Haftungsprozesse. Output Krisenprotokoll-Vorlage, Sitzungsprotokoll-Template, Dokumentations-Checkliste. Abgrenzung: GF-Haftung in der Krise detail siehe gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg; Insolvenzantragspflicht siehe insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StaRUG; § 1 StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 In der Krise entscheidet oft nicht das Handeln über die Haftung, sondern der Beweis des Handelns. § 93 Abs. 2 S. 2 AktG (analog für GmbH-GF) kehrt die Beweislast um: Der Geschäftsführer muss beweisen, dass er sorgfältig gehandelt hat. Ohne Protokolle, ohne Beschlüsse, ohne Dokumentation ist dieser Beweis nicht zu führen. Krisenprotokollierung ist deshalb keine Bürokratie, sondern aktives Haftungsmanagement. Das Heft des Handelns beginnt mit dem Griffel.
 
@@ -25,8 +39,7 @@ In der Krise entscheidet oft nicht das Handeln über die Haftung, sondern der Be
 - § 1 StaRUG (Früherkennungspflicht — Nachweis der Erfüllung)
 - § 15a InsO (Insolvenzantragspflicht — Nachweis der Kenntnis und des Handelns)
 - § 15b InsO (Zahlungsverbot — Nachweis erlaubter Zahlungen)
-- § 102 StaRUG (Dokumentation der Warnung)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Paragraf 102 StaRUG (Inhalt eines möglichen Hinweises bei Jahresabschlusserstellung; Dokumentation dient der Beweissicherung)
 - IDW PS 340 n.F. (Systemdokumentation als Anforderung)
 
 ---
@@ -57,17 +70,17 @@ In der Krise entscheidet oft nicht das Handeln über die Haftung, sondern der Be
 
 ### 2. Formale Anforderungen
 
-**Schriftform vs. Textform:**
-- GmbH-Gesellschafterbeschlüsse: § 48 GmbHG lässt Textform (E-Mail) zu, Notarform nur bei Satzungsänderung
-- GF-Sitzungsbeschlüsse: Textform ausreichend, aber physische Unterschriften empfohlen
-- Vertragsänderungen mit Banken: Schriftform erforderlich (§ 126 BGB) oder notarielle Form
-- Insolvenzantrag: Schriftform, notarielle Beglaubigung der Unterschrift empfohlen
+**Formprüfung statt Pauschalregel:**
+- GmbH-Gesellschafterbeschlüsse werden grundsätzlich in Versammlungen gefasst. Telefon- oder Videoversammlung sowie Beschlüsse ohne Versammlung setzen die Einverständnisse nach Paragraf 48 GmbHG voraus; Satzung und besondere Beurkundungspflichten bleiben gesondert zu prüfen.
+- Für Geschäftsführungsbeschlüsse zuerst Satzung, Geschäftsordnung, Kompetenzordnung und den konkreten Gegenstand prüfen. Es gibt keine allgemeine Empfehlung, die eine erforderliche Form ersetzt.
+- Änderungen von Bankverträgen folgen der gesetzlichen oder vertraglich vereinbarten Form des konkreten Geschäfts; Paragraf 126 BGB begründet nicht selbst für jede Änderung Schriftform.
+- Für Insolvenzanträge gelten Insolvenzordnung, Verfahrensrecht, gerichtliche Formulare und Übermittlungsweg. Eine notarielle Beglaubigung ist keine allgemeine Standardvoraussetzung.
 
-**Aufbewahrungspflichten:**
-- Handelsbücher und Buchungsbelege: 10 Jahre (§ 257 HGB)
-- Handels- und Geschäftsbriefe: 6 Jahre (§ 257 HGB)
-- GF-Protokolle und Beschlüsse: 10 Jahre (analog)
-- § 102 StaRUG-Korrespondenz: mind. 10 Jahre (Verjährungsrisiko)
+**Aufbewahrungsmatrix:**
+- Unterlagen nach Paragraf 257 Absatz 1 Nummer 1 HGB: zehn Jahre.
+- Buchungsbelege nach Paragraf 257 Absatz 1 Nummer 4 HGB: grundsätzlich acht Jahre; Sonderregeln für bestimmte beaufsichtigte Unternehmen gesondert prüfen.
+- Empfangene und abgesandte Handelsbriefe: sechs Jahre.
+- Organprotokolle, Beschlüsse und Beraterkorrespondenz nach ihrem Inhalt einordnen. Keine pauschale Analogfrist behaupten; gesetzliche Frist, Verjährungsrisiko, Berufsrecht, laufende Verfahren und Beweissicherungsbedarf in einem Löschstopp- und Aufbewahrungsvermerk dokumentieren.
 
 ### 3. Beweissicherung im Haftungsfall
 
@@ -89,35 +102,6 @@ Im Haftungsprozess — sei es der Insolvenzverwalter gegen den GF oder ein gesch
 
 ---
 
-## Vorgehen
-
-### Schritt 1: Protokollierungs-Regime einführen
-
-1. GF-Sitzungen **immer protokollieren** — auch informelle Runden
-2. **Standard-Protokollvorlage** für alle Sitzungstypen einführen
-3. **Unterschriften** aller anwesenden GF auf Protokoll
-4. **Archivierung** in gesichertem System (cloud-basiert mit Zugriffskontrolle)
-5. **Protokollreihenfolge** sicherstellen: Protokoll des letzten TOP muss Ergebnis des vorherigen referenzieren
-
-### Schritt 2: Krisenprotokoll-Trigger definieren
-
-Das Krisenprotokoll wird ausgelöst, wenn:
-
-- KPI-Ampel auf Gelb wechselt
-- Bank ein Kreditgespräch mit kritischem Inhalt führt
-- § 102-StaRUG-Warnung eines Beraters eingeht
-- Klage oder Vollstreckungsmaßnahme droht
-- GF eine wesentliche Entscheidung mit Krisenrelevanz trifft
-
-### Schritt 3: Digitale Sicherung
-
-- Alle Protokolle im Original und als PDF sichern
-- Versionierung mit Datum und Erstellungszeitpunkt
-- Regelmäßige Backups außerhalb der Unternehmens-IT
-- Im Extremfall: notarielle Hinterlegung wichtiger Dokumente
-
----
-
 ## Templates
 
 ### Muster: Standard-GF-Sitzungsprotokoll (Krisenrelevanz)
@@ -133,49 +117,49 @@ Anwesend: [Name GF 1], [Name GF 2]
 Protokollführer: [Name]
 
 TAGESORDNUNG:
-  TOP 1: Wirtschaftliche Lage / KPI-Review
-  TOP 2: Maßnahmenstand
-  TOP 3: Eskalation und Information Gesellschafter
-  TOP 4: Sonstiges
+ TOP 1: Wirtschaftliche Lage / KPI-Review
+ TOP 2: Maßnahmenstand
+ TOP 3: Eskalation und Information Gesellschafter
+ TOP 4: Sonstiges
 
 PROTOKOLL:
 
 TOP 1 — Wirtschaftliche Lage / KPI-Review
-  Präsentiert von: [Name]
-  Liquiditätsreichweite: [x] Monate (Ampel: [GRÜN/GELB/ROT])
-  EBITDA-Coverage: [x,xx]x (Ampel: [GRÜN/GELB/ROT])
-  Net-Debt/EBITDA: [x,xx]x (Ampel: [GRÜN/GELB/ROT])
-  Covenant-Headroom: [x] % (Ampel: [GRÜN/GELB/ROT])
-  Gesamtampel: [GRÜN/GELB/ROT]
-  
-  Besondere Entwicklungen:
-  [Beschreibung von Abweichungen und Ursachen]
+ Präsentiert von: [Name]
+ Liquiditätsreichweite: [x] Monate (Ampel: [GRÜN/GELB/ROT])
+ EBITDA-Coverage: [x,xx]x (Ampel: [GRÜN/GELB/ROT])
+ Net-Debt/EBITDA: [x,xx]x (Ampel: [GRÜN/GELB/ROT])
+ Covenant-Headroom: [x] % (Ampel: [GRÜN/GELB/ROT])
+ Gesamtampel: [GRÜN/GELB/ROT]
+
+ Besondere Entwicklungen:
+ [Beschreibung von Abweichungen und Ursachen]
 
 TOP 2 — Maßnahmenstand
-  Laufende Maßnahmen:
-    1. [Maßnahme] — Stand: [Beschreibung] — Verantwortlich: [Name] — Frist: [Datum]
-    2. [Maßnahme] — Stand: [Beschreibung] — Verantwortlich: [Name] — Frist: [Datum]
-  
-  Neu beschlossen:
-    [Maßnahmenbeschluss]
-    Einstimmig / mit [x/y] Stimmen angenommen.
+ Laufende Maßnahmen:
+ 1. [Maßnahme] — Stand: [Beschreibung] — Verantwortlich: [Name] — Frist: [Datum]
+ 2. [Maßnahme] — Stand: [Beschreibung] — Verantwortlich: [Name] — Frist: [Datum]
+
+ Neu beschlossen:
+ [Maßnahmenbeschluss]
+ Einstimmig / mit [x/y] Stimmen angenommen.
 
 TOP 3 — Eskalation und Information
-  Gesellschafter informiert am: [Datum] / Nächste Info geplant: [Datum]
-  AR informiert am: [Datum] / Nicht anwendbar
-  Berater (StB/RA): [Name, Funktion] informiert am [Datum]
-  
-  Beschluss: [Eskalationsmaßnahme falls erforderlich]
+ Gesellschafter informiert am: [Datum] / Nächste Info geplant: [Datum]
+ AR informiert am: [Datum] / Nicht anwendbar
+ Berater (StB/RA): [Name, Funktion] informiert am [Datum]
+
+ Beschluss: [Eskalationsmaßnahme falls erforderlich]
 
 TOP 4 — Sonstiges
-  [Sonstige Punkte]
+ [Sonstige Punkte]
 
 NÄCHSTE SITZUNG: [Datum, Uhrzeit]
 
 [Ort], [Datum]
 Unterschriften:
-______________________   ______________________
-[GF 1]                   [GF 2]
+______________________ ______________________
+[GF 1] [GF 2]
 ```
 
 ### Muster: Krisenprotokoll — Erstkenntnisnachweis
@@ -188,26 +172,26 @@ Datum der Ersterkenntnis: [TT.MM.JJJJ, HH:MM Uhr]
 Erstellt von: [Name, Funktion]
 
 1. ERKANNTE SITUATION
-   [Präzise Beschreibung: was wurde erkannt, auf Basis welcher Informationen?]
-   Quelle: [ ] BWA  [ ] Bankgespräch  [ ] Beraterhinweis  [ ] Eigene Analyse
-   
+ [Präzise Beschreibung: was wurde erkannt, auf Basis welcher Informationen?]
+ Quelle: [ ] BWA [ ] Bankgespräch [ ] Beraterhinweis [ ] Eigene Analyse
+
 2. RECHTLICHE EINSCHÄTZUNG
-   [ ] Bestandsgefährdende Entwicklung (§ 1 StaRUG)
-   [ ] Drohende Zahlungsunfähigkeit (§ 18 InsO)
-   [ ] Überschuldungsrisiko (§ 19 InsO)
-   [ ] Eingetretene Zahlungsunfähigkeit (§ 17 InsO) → § 15a InsO!
-   Begründung: [___]
+ [ ] Bestandsgefährdende Entwicklung (§ 1 StaRUG)
+ [ ] Drohende Zahlungsunfähigkeit (§ 18 InsO)
+ [ ] Überschuldungsrisiko (§ 19 InsO)
+ [ ] Eingetretene Zahlungsunfähigkeit (§ 17 InsO) → § 15a InsO!
+ Begründung: [___]
 
 3. UNMITTELBARE MAßNAHMEN (innerhalb 24-72 Stunden)
-   [ ] Berater eingeschaltet: [Name, Datum]
-   [ ] Gesellschafter informiert: [Datum]
-   [ ] Liquiditätsplan aktualisiert: [Datum]
-   [ ] KPI-Ampel aktualisiert: [Datum]
-   [ ] Eskalationsprotokoll erstellt: [Datum]
+ [ ] Berater eingeschaltet: [Name, Datum]
+ [ ] Gesellschafter informiert: [Datum]
+ [ ] Liquiditätsplan aktualisiert: [Datum]
+ [ ] KPI-Ampel aktualisiert: [Datum]
+ [ ] Eskalationsprotokoll erstellt: [Datum]
 
 4. ZAHLUNGEN NACH ERKENNTNISZEITPUNKT
-   Zahlungen geleistet nach [Datum]:
-   [Beschreibung, Betrag, Empfänger, Rechtfertigungsgrund]
+ Zahlungen geleistet nach [Datum]:
+ [Beschreibung, Betrag, Empfänger, Rechtfertigungsgrund]
 
 Unterschriften aller GF: _________________________ Datum: ____________
 ```
@@ -225,18 +209,18 @@ Teilnehmer Bank: [Funktion, fiktiver Name]
 Erstellt am: [TT.MM.JJJJ] (innerhalb 24 Stunden nach Gespräch)
 
 GESPRÄCHSINHALT:
-  1. [Thema und Ergebnis]
-  2. [Thema und Ergebnis]
-  3. Covenant-Status: [besprochen / nicht besprochen]
-  4. Kreditzusagen: [gemacht / nicht gemacht / widerrufen]
-  
+ 1. [Thema und Ergebnis]
+ 2. [Thema und Ergebnis]
+ 3. Covenant-Status: [besprochen / nicht besprochen]
+ 4. Kreditzusagen: [gemacht / nicht gemacht / widerrufen]
+
 KRITISCHE AUSSAGEN DER BANK:
-  [wörtliche oder sinngemäße Zitate mit Einschätzung der Relevanz]
+ [wörtliche oder sinngemäße Zitate mit Einschätzung der Relevanz]
 
 NÄCHSTE SCHRITTE:
-  Gesellschaft: [Maßnahme, Frist]
-  Bank: [Maßnahme, Frist]
-  Nächster Termin: [Datum]
+ Gesellschaft: [Maßnahme, Frist]
+ Bank: [Maßnahme, Frist]
+ Nächster Termin: [Datum]
 
 Erstellt von: ___________________ Datum: ___________
 ```
@@ -257,15 +241,6 @@ Erstellt von: ___________________ Datum: ___________
 
 ---
 
-## Querverweise
-
-- → `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — Beweislastumkehr
-- → `paragraph-1-starug-pflichten-und-24-monats-horizont` — Dokumentation der Früherkennungspflicht
-- → `paragraph-102-starug-warnpflicht-bei-rechtsberatern` — Dokumentation der Warnung
-- → `insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist` — Protokoll des Erkenntniszeitpunkts
-- → `fruehwarnsystem-architektur-zwei-jahres-horizont` — Systemdokumentation IDW PS 340 n.F.
-
-
 ## Weitere Leitentscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

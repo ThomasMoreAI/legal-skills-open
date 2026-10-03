@@ -1,0 +1,34 @@
+---
+name: versorgungsausgleich-rentenfolgen
+title: Versorgungsausgleich und Rentenfolgen
+description: 'Für Versorgungsausgleich und Rentenfolgen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rentenpruefer/skills/versorgungsausgleich-rentenfolgen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Versorgungsausgleich und Rentenfolgen
+
+Nutze diesen Skill, wenn eine Scheidung oder ein alter Versorgungsausgleich den Rentenbeginn, die Rentenhöhe oder mehrere Versorgungsträger beeinflusst.
+
+## Prüfraster
+
+1. Beschluss und Rechtskraftdatum erfassen.
+2. Anrechte trennen: DRV, Versorgungswerk, Betriebsrente, private Rentenversicherung, Beamtenversorgung.
+3. Teilungsart bestimmen: interne Teilung, externe Teilung, schuldrechtlicher Ausgleich, Abänderungsmöglichkeit.
+4. Rentenkonto prüfen: wurden Zuschläge oder Abschläge im Versicherungsverlauf sichtbar verbucht?
+5. Sonderlagen markieren: Tod des ausgleichsberechtigten oder ausgleichspflichtigen früheren Ehegatten, Rentenbezug nur einer Seite, neue Auskunft.
+
+## Output
+
+Gib eine Trägertabelle aus und formuliere danach einen Mandantenbrief: Welche Feststellungen sind gesichert, welche Auskünfte fehlen noch vom Versorgungsträger und welche Fragen bleiben für ein gerichtliches Verfahren ungeklärt?
+
+## Anker
+
+- VersAusglG und SGB VI zusammen lesen.
+- Nicht mit Familienrechtsgrundsätzen beginnen, sondern mit dem konkreten Rentenkonto und den Versorgungsträgerauskünften.

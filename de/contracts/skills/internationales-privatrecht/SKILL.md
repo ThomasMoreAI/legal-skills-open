@@ -1,11 +1,11 @@
 ---
 name: internationales-privatrecht
 title: Internationales Privatrecht
-description: 'Anwendbares Recht bei grenzüberschreitenden Vertraegen und Delikten bestimmen: Auslandsbezug im Prozess erfordert IPR-Prüfung. Normen: Rom-I-VO (vertragliche Schuldverhältnisse), Rom-II-VO (außervertragliche), Art. 4 ff. EGBGB (autonomes IPR), Art. 9 Rom-I (Eingriffsnormen, z.B. DSGVO). Prüfraster: Rechtswahlklausel, Anknuepfung ohne Rechtswahl, Eingriffsnormen, ordre public Art. 21 Rom-I, Verhältnis zu CISG. Output IPR-Prüfschema, anwendbares Recht. Abgrenzung: CISG siehe cisg-prüfen; Incoterms siehe incoterms-und-gefahruebergang; EU-Zuständigkeit siehe zulässigkeit-prüfen.'
+description: 'Für Internationales Privatrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Urteilsbauer und Relationsmacher. Route: internationales-privatrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/internationales-privatrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -16,7 +16,6 @@ language: de
 
 Bei Auslandsbezug immer prüfen, welches Recht zur Anwendung kommt.
 
-
 ## Triage zu Beginn
 
 1. Liegt überhaupt Auslandsbezug vor (Sitz der Parteien, Erfüllungsort, Schadensort)?
@@ -24,25 +23,18 @@ Bei Auslandsbezug immer prüfen, welches Recht zur Anwendung kommt.
 3. Haben die Parteien eine wirksame Rechtswahl getroffen (Art. 3 Rom-I)?
 4. Ist CISG vorrangig anwendbar (vor dem IPR-Kollisionsrecht)?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - Verordnung (EG) Nr. 593/2008 (Rom-I) — vertragliche Schuldverhältnisse
-  - Art. 3: Rechtswahl
-  - Art. 4: Anknüpfung ohne Wahl (charakteristische Leistung)
-  - Art. 6: Verbraucherverträge (Schutz des Verbrauchers)
-  - Art. 9: Eingriffsnormen (DSGVO, AGB-Recht, Datenschutz)
+ - Art. 3: Rechtswahl
+ - Art. 4: Anknüpfung ohne Wahl (charakteristische Leistung)
+ - Art. 6: Verbraucherverträge (Schutz des Verbrauchers)
+ - Art. 9: Eingriffsnormen (DSGVO, AGB-Recht, Datenschutz)
 - Verordnung (EG) Nr. 864/2007 (Rom-II) — außervertragliche Schuldverhältnisse
-  - Art. 4: Erfolgsortprinzip
+ - Art. 4: Erfolgsortprinzip
 - Art. 3 ff. EGBGB — autonomes deutsches IPR
 - CISG — internationales Einheitskaufrecht, vorrangig
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Auslandsbezug feststellen:** Welche Anknüpfungspunkte liegen im Ausland?
@@ -56,6 +48,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Output-Template
 
 **Adressat:** Entscheidungsgründe — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## Anwendbares Recht (IPR)
@@ -94,3 +94,5 @@ Verkäufer seinen gewöhnlichen Aufenthalt hat: [STAAT].
 ## Eingriffsnormen
 
 DSGVO Artikel 3 (raeumlicher Anwendungsbereich) ist Eingriffsnorm. Das deutsche Datenschutzrecht ist auf Verarbeitungen anwendbar, die sich an Personen in der EU richten, unabhängig vom Sitz des Verantwortlichen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,11 +5,150 @@ description: 合同起草与审查助手。基于分层分析与四步流程，�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/contract-copilot
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: zh
+sources:
+- title: Contract routing
+  path: references/contract-routing.md
+- title: Commercial housing
+  path: references/contract-types/01-sale/commercial-housing.md
+- title: Distribution sale
+  path: references/contract-types/01-sale/distribution-sale.md
+- title: Movables sale
+  path: references/contract-types/01-sale/movables-sale.md
+- title: Secondhand housing
+  path: references/contract-types/01-sale/secondhand-housing.md
+- title: Equipment lease
+  path: references/contract-types/02-lease/equipment-lease.md
+- title: Property lease
+  path: references/contract-types/02-lease/property-lease.md
+- title: Advertising service
+  path: references/contract-types/03-service/advertising-service.md
+- title: Brokerage
+  path: references/contract-types/03-service/brokerage.md
+- title: Commission agency
+  path: references/contract-types/03-service/commission-agency.md
+- title: General service
+  path: references/contract-types/03-service/general-service.md
+- title: Property management
+  path: references/contract-types/03-service/property-management.md
+- title: Storage custody
+  path: references/contract-types/03-service/storage-custody.md
+- title: Transportation
+  path: references/contract-types/03-service/transportation.md
+- title: Work contract
+  path: references/contract-types/03-service/work-contract.md
+- title: Copyright
+  path: references/contract-types/04-ip/copyright.md
+- title: Patent
+  path: references/contract-types/04-ip/patent.md
+- title: Software license
+  path: references/contract-types/04-ip/software-license.md
+- title: Technology development
+  path: references/contract-types/04-ip/technology-development.md
+- title: Trademark assignment
+  path: references/contract-types/04-ip/trademark-assignment.md
+- title: Trademark license
+  path: references/contract-types/04-ip/trademark-license.md
+- title: Guarantee
+  path: references/contract-types/05-guarantee/guarantee.md
+- title: Mortgage
+  path: references/contract-types/05-guarantee/mortgage.md
+- title: Pledge
+  path: references/contract-types/05-guarantee/pledge.md
+- title: Gift
+  path: references/contract-types/06-lending-gift/gift.md
+- title: Private lending
+  path: references/contract-types/06-lending-gift/private-lending.md
+- title: Order agreement
+  path: references/contract-types/07-internet/order-agreement.md
+- title: Privacy policy
+  path: references/contract-types/07-internet/privacy-policy.md
+- title: User agreement
+  path: references/contract-types/07-internet/user-agreement.md
+- title: Divorce agreement
+  path: references/contract-types/08-marriage-family/divorce-agreement.md
+- title: Legacy support
+  path: references/contract-types/08-marriage-family/legacy-support.md
+- title: Marital property
+  path: references/contract-types/08-marriage-family/marital-property.md
+- title: Business outsourcing
+  path: references/contract-types/09-employment/business-outsourcing.md
+- title: Confidentiality
+  path: references/contract-types/09-employment/confidentiality.md
+- title: Employment contract
+  path: references/contract-types/09-employment/employment-contract.md
+- title: Internship
+  path: references/contract-types/09-employment/internship.md
+- title: Labor dispatch
+  path: references/contract-types/09-employment/labor-dispatch.md
+- title: Non compete
+  path: references/contract-types/09-employment/non-compete.md
+- title: Part time employment
+  path: references/contract-types/09-employment/part-time-employment.md
+- title: Personal service
+  path: references/contract-types/09-employment/personal-service.md
+- title: Reemployment
+  path: references/contract-types/09-employment/reemployment.md
+- title: Training service
+  path: references/contract-types/09-employment/training-service.md
+- title: Entrusted construction
+  path: references/contract-types/10-real-estate/entrusted-construction.md
+- title: Joint construction
+  path: references/contract-types/10-real-estate/joint-construction.md
+- title: Land exchange
+  path: references/contract-types/10-real-estate/land-exchange.md
+- title: Land grant
+  path: references/contract-types/10-real-estate/land-grant.md
+- title: Land option
+  path: references/contract-types/10-real-estate/land-option.md
+- title: Land transfer
+  path: references/contract-types/10-real-estate/land-transfer.md
+- title: Relocation compensation
+  path: references/contract-types/10-real-estate/relocation-compensation.md
+- title: Construction
+  path: references/contract-types/11-construction/construction.md
+- title: Epc contract
+  path: references/contract-types/11-construction/epc-contract.md
+- title: Internal contracting
+  path: references/contract-types/11-construction/internal-contracting.md
+- title: Subcontracting
+  path: references/contract-types/11-construction/subcontracting.md
+- title: Supervision
+  path: references/contract-types/11-construction/supervision.md
+- title: Survey design
+  path: references/contract-types/11-construction/survey-design.md
+- title: Asset acquisition
+  path: references/contract-types/12-corporate-investment/asset-acquisition.md
+- title: Capital contribution
+  path: references/contract-types/12-corporate-investment/capital-contribution.md
+- title: Capital increase
+  path: references/contract-types/12-corporate-investment/capital-increase.md
+- title: Equity debt investment
+  path: references/contract-types/12-corporate-investment/equity-debt-investment.md
+- title: Equity incentive
+  path: references/contract-types/12-corporate-investment/equity-incentive.md
+- title: Equity transfer
+  path: references/contract-types/12-corporate-investment/equity-transfer.md
+- title: Investment agreement
+  path: references/contract-types/12-corporate-investment/investment-agreement.md
+- title: Merger division
+  path: references/contract-types/12-corporate-investment/merger-division.md
+- title: Shareholders agreement
+  path: references/contract-types/12-corporate-investment/shareholders-agreement.md
+- title: Vam agreement
+  path: references/contract-types/12-corporate-investment/vam-agreement.md
+- title: Priority clauses
+  path: references/priority-clauses.md
+- title: Review framework
+  path: references/review-framework.md
+- title: Revision strategy
+  path: references/revision-strategy.md
+- title: Setup dependencies
+  path: references/setup-dependencies.md
 ---
 
 # Contract Copilot（合同助手）
@@ -17,6 +156,25 @@ language: zh
 ## 一、定位
 
 调用时，先按本文件确定运行流程。
+
+### 1.1 强制文件交付规则
+
+当用户提供或通过会话传入 DOCX 合同文件，并提出“审查、审核、修改、批注、修订、出审查意见、帮我看合同”等合同审查类请求时，默认必须走文件交付链路：
+
+1. 先完成必要澄清与分层审查。
+2. 将审查结论整理为 `review-plan.json`（**运行时产物**，由 contract-copilot 在审查过程中生成；不是 skill 包内随附文件，每次审查都会重新生成）。
+3. 运行 `scripts/review/apply_review_plan.py` 或 `scripts/run_apply_review_plan.ps1`，传入上一步生成的 `review-plan.json`。
+4. `apply_review_plan.py` 会在 `archive/<时间戳_合同名>/` 内自动生成 `review-plan_enriched.json`（**运行时产物**，含法律依据补全等扩展信息，不是 skill 包内随附文件）。
+5. 对外交付审核修订版 DOCX 与 Word 审查意见书 DOCX。
+
+不得仅输出文字版风险清单、审查摘要或聊天回复来替代文件交付，除非出现以下情形之一：
+
+- 用户明确表示“只要文字意见 / 不需要 Word 文件 / 不需要批注修订版”。
+- 当前没有可访问的 DOCX 合同文件，且用户暂未补充文件。
+- 缺少审查人身份、客户名称、审查立场、审查目的或审查口径等必需信息，且无法从本地记忆或用户回复中确认。
+- 当前运行环境无法写入文件、无法运行脚本或无法回传附件。
+
+出现例外时，必须明确说明阻塞原因，并告诉用户补齐哪些条件后可以继续生成 Word 文件。若文件已生成但暂时无法回传附件，应保留产物路径或文件对象，并明确说明“已生成但尚未完成会话回传”。
 
 用于合同起草与审查的专业辅助技能，重点服务以下场景：
 
@@ -67,6 +225,13 @@ language: zh
 - 若用户未明确立场与审查口径，必须先确认“甲方 / 乙方 / 中立 / 其他”及“克制 / 常规 / 强势”。
 - 如本地 `config/review_memory.json` 已命中同名合同，默认沿用上次记录的客户名称、立场与审查口径；仅在用户指出不一致时再改。
 
+阻塞项（缺一即暂停）：**审查立场**、**审查目的**、**审查口径**。三者构成同一张阻塞清单，缺任意一项都必须暂停实质审查并请求确认，不因其余两项已具备而继续推进。
+
+- 立场缺失时，必须显式请求用户确认“代表哪一方”，不得把空立场解析为“中立”“其他”或任何默认值后继续。
+- 审查目的缺失时，必须显式请求用户确认本轮目标（“签约前把关 / 谈判修订 / 其他”），不得自行选定默认目的、不得自行选择交付强度、不得出具正式审查结论。
+- 暂停期间只允许输出：已识别的缺口清单、待确认问题、以及补齐后可继续的说明；不得输出风险分级结论或三档签署结论。
+- 仅当用户明确回复“由你按默认口径处理”或等价授权时，才可采用默认值继续，并在报告中记明该授权来源。
+
 2. 分层扫描
 - 先宏观后中观再微观，先框架后细节。
 
@@ -76,6 +241,7 @@ language: zh
 4. 交付与跟进
 - 输出报告、沟通重点、谈判清单、复核要点。
 - 若本轮任务由飞书或其他 IM 会话发起，且合同文件由该会话传入，默认沿原会话交付最终产物。
+- 对 DOCX 合同审查任务，最终产物默认是审核修订版 DOCX 与 Word 审查意见书 DOCX；仅文字输出不视为完成。
 
 ## 四、标准输出规范
 
@@ -106,6 +272,15 @@ language: zh
 - 能否签：可签 / 有条件可签 / 不建议签。
 - 先决事项：签署前必须完成的前置动作。
 - 谈判优先级：P0 → P1 → P2。
+
+出具正式三档结论的前提：本次审查依据充分，关键条款可作实质判断。
+
+若存在关键事实缺口，导致核心条款无法实质判断（典型如：验收标准与付款节点脱钩且验收口径缺失、变更范围与费用调整无授权依据、违约金与赔偿条款堆叠且计算基数缺失、正文引用的附件未提供），则：
+
+- **不得**输出“可签 / 有条件可签 / 不建议签”中的任何一档，也不得使用“建议签 / 不予签署”等等价表述。
+- 改为输出“**结论待定——信息补齐前不作签署判断**”，并列明：缺什么、为什么该缺口导致无法判断、补齐后如何继续。
+- 已识别的风险点照常分级输出，但须标注“待确认”，不得据此推导出签署结论。
+- 仅在缺口补齐或用户明确表示“就按现有材料给结论”后，才转为正式三档结论，并记明该口径来源。
 
 ### 4.4 起草输出写法
 
@@ -175,7 +350,7 @@ language: zh
 
 ## 八、文档操作（批注/修订/报告）
 
-直接运行 `scripts/*.py` 或 `scripts/run_apply_review_plan.ps1` 前，先确认 `references/setup-dependencies.md` 中的运行前提已经满足。最小要求是：本机 Python 已安装 `defusedxml` 与 `lxml`。OOXML 打包、解包和校验功能已内嵌在 `scripts/docx/` 中，无需外部依赖。
+直接运行 `scripts/*.py` 或 `scripts/run_apply_review_plan.ps1` 前，先确认 `references/setup-dependencies.md` 中的运行前提已经满足。最小要求是：本机 Python 已按 `scripts/requirements.txt` 安装固定版本的 `defusedxml`。OOXML 打包、解包和校验功能已内嵌在 `scripts/docx/` 中，无需额外 Office 解析包。
 
 ### 8.1 处理流程
 
@@ -242,7 +417,7 @@ python scripts/review/enrich_review_plan.py \
 - 首次执行时，会优先读取 `config/reviewer_profile.json`；若尚无配置、缺少姓名/机构，或当前环境尚未确认过该身份配置，则在交互模式询问审查人姓名、律所/公司和可选部门，或在首次显式传入 `--author` 与 `--organization` 时按当前输入生成并保存。
 - 该配置只保存在当前本地 skill 的 `config/` 目录，不会自动上传；后续可随时通过自然语言要求更新。
 - `initials` 为可选项；若留空，不自动生成，也不写入 Word 批注。
-- 写入 Word 的批注与修订时间线会先读取本机当前时区与本地时间，再以本次命令执行时点为起点按 5 到 10 分钟区间向后错开；`w:date` 使用本地时区格式写入，避免显示出错误时区或回写到运行前的时间戳。
+- 写入 Word 的批注与修订时间线会先读取本机当前时区与本地时间，再以本次命令执行时点为起点按 5 到 10 分钟区间向后错开；`w:date` 使用本地时区格式写入，扩展 UTC 字段使用同一时点的 UTC 格式，避免显示出错误时区或回写到运行前的时间戳。
 - 时间线默认采用“两层错峰”：同一条审查意见内部，每个实际修订/批注批次默认顺延 `1-2` 分钟；不同审查意见之间继续保持 `5-10` 分钟的大间隔。
 - Word 批注作者默认显示为 `姓名｜机构`；审查报告中的审查人、所属机构/公司和所属部门仍保持分项展示。
 - 审查报告中的审查人、所属机构/公司和所属部门与上述本地配置保持一致。
@@ -275,6 +450,8 @@ python scripts/review/enrich_review_plan.py \
 
 - 必问信息：
   我方代表哪一方；本轮目标是“签约前把关”还是“谈判修订”；截止时间和优先级；是否允许重构交易结构，还是只改文本。
+- 阻塞校验（对齐 §3.2）：
+  审查立场、审查目的、审查口径三项缺一即暂停实质审查，先请求确认再继续；不得因“该项不在某处清单内”而自行取默认值推进。截止时间与优先级缺失不构成阻塞，可标注“未提及/待补充”后继续。
 - 首次使用校验：
   若 `config/reviewer_profile.json` 缺少审查人姓名或所属机构/公司，或当前环境尚未确认过该身份配置，先提醒用户补录或确认审查人姓名、律所/公司名称和可选部门，并说明该配置只保存在本地、后续可随时通过自然语言修改。
 - 输入材料清单：
@@ -311,10 +488,15 @@ python scripts/review/enrich_review_plan.py \
   风险汇总表、关键条款修改建议、签署前先决事项清单、二次复核问题列表。
 - 文件交付物：
   审核修订版 DOCX、审查报告 DOCX。
+- 完成口径：
+  当本轮存在可访问 DOCX 合同文件时，必须生成并交付上述两个 Word 文件；只输出聊天文字、Markdown 摘要或风险清单，不构成完成。
+- 报告完整性复核：
+  报告生成脚本自身“运行成功”不等于报告合格。`scripts/report/integrity.py` 会独立复核占位数量、结构化计划中每项法律依据及渲染后逐项依据覆盖；`apply_review_plan.py` 会在写出任何正式 DOCX 前执行该门禁。未通过时非零退出并不留下正式交付物；如需保留草稿只能由上层调用方在授权后自行留存过程文件。
 - IM 回传口径：
   若任务来自飞书或其他 IM 渠道，默认在原对话框回传上述两个文件；如运行时不具备发附件能力，需明确说明“文件已生成但尚未完成会话回传”。
 - 结论模板：
   可签 / 有条件可签 / 不建议签 + 前提条件 + 主要保留意见。
+  存在关键事实缺口、核心条款无法实质判断时，按 §4.3 改用“结论待定——信息补齐前不作签署判断”+ 缺口清单 + 补齐路径，不得强行套用三档结论。
 
 ### 9.5 复核与常见失误
 
@@ -362,7 +544,13 @@ python scripts/review/enrich_review_plan.py \
 - 仅保留可公开表达的审查理念、结构和实务规则。
 - 无法确认的信息明确标注“未提及/待补充”。
 
-## 十二、版本
+## 十二、权限与数据边界
 
-- 当前版本：`1.5.1`
-- 更新日期：`2026-04-19`
+- 脚本只读取用户明确提供的合同、审查计划及本 Skill 的本地配置；默认在用户指定输出目录和本 Skill 的 `archive/` 写入修订件、报告与日志。
+- 首次运行可能在 `config/` 写入经确认的审查人资料和审查记忆；不得把这些本地配置、合同内容或产物自动发送到网络、IM、邮箱或第三方服务。
+- `--no-archive` 仅用于本地调试；任何外发、上传或原会话附件回传均须由具备相应能力的上层工具和用户授权单独完成。
+
+## 十三、版本
+
+- 当前版本：`1.6.3`
+- 更新日期：`2026-08-13`

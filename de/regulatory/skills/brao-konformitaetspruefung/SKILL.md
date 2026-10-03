@@ -1,11 +1,11 @@
 ---
 name: brao-konformitaetspruefung
 title: BRAO-Konformitätsprüfung
-description: 'E-Mail auf BRAO-Konformität prüfen bevor sie versandt wird. §§ 43 43a 43b BRAO Grundpflichten Sachlichkeitsgebot Werbung. Prüfraster: Verschwiegenheitspflicht Interessenkonflikt unabhängige Berufsausübung Werbegrenzen Mandatsbeziehung. Output: BRAO-Prüfprotokoll Beanstandungen Korrekturvorschlaege. Abgrenzung: nicht für BORA-Detailprüfung (bora-konformitätsprüfung).'
+description: 'Für BRAO-Konformitätsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/brao-konformitaetspruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,7 +14,11 @@ language: de
 
 # BRAO-Konformitätsprüfung
 
-Dieser Skill prüft Ausgangsschreiben von Rechtsanwälten auf Einklang mit den Berufspflichten der Bundesrechtsanwaltsordnung. Der Fokus liegt auf § 43a BRAO (allgemeine Berufspflichten) mit dem darin enthaltenen Sachlichkeitsgebot sowie auf den Werbevorschriften des § 43b BRAO.
+## Fachkern: BRAO-Konformitätsprüfung
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
+
+Prüft Ausgangsschreiben von Rechtsanwälten auf Einklang mit den Berufspflichten der Bundesrechtsanwaltsordnung. Der Fokus liegt auf § 43a BRAO (allgemeine Berufspflichten) mit dem darin enthaltenen Sachlichkeitsgebot sowie auf den Werbevorschriften des § 43b BRAO.
 
 ## § 43a BRAO — Allgemeine Berufspflichten
 
@@ -42,7 +46,3 @@ Die relevanten Normen sind: § 43a Abs. 3 BRAO (Sachlichkeitsgebot), § 43b BRAO
 
 **Vorher:** "Der Gegner handelt bösgläubig und versucht, uns zu täuschen."
 **Nachher (Prüfergebnis):** Tatsachenbehauptung ohne Belegbasis — Risiko gemäß § 43a Abs. 3 Satz 2 BRAO. Empfehlung: "Die Darstellung der Gegenseite weicht von den uns vorliegenden Unterlagen erheblich ab."
-
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Liste problematischer Textstellen mit Zitat. (2) Einordnung (Sachlichkeitsverstoß / Werberechtsproblem / Tatsachenbehauptung ohne Grundlage). (3) Berufsrechtliches Risiko. (4) Vorgeschlagene konforme Alternativformulierung.

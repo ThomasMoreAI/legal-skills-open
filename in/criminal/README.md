@@ -8,7 +8,7 @@ Jurisdiction: `in` · Practice: `criminal` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Indian Constitution + BNS Lawyer Skill`](skills/indian-constitution/) | Query Indian Constitution articles and BNS 2023 (Bharatiya Nyaya Sanhita) criminal law sections using RAG… |
+| [`Indian Constitution + BNS Lawyer Skill`](skills/indian-constitution/) | Query Indian Constitution articles and BNS 2023 (Bharatiya Nyaya Sanhita) criminal law sections using… |
 
 ## Cold-start context
 

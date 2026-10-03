@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-geschaeftsfuehrerhaftung
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu fachanwalt handels gesellschaftsrecht geschaeftsfuehrerhaftung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Geschäftsführerhaftung aus Organakten und Schadensbelegen prüfen
+description: 'Für Fachanwalt Handels Gesellschaftsrecht Geschäftsführerhaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/fachanwalt-handels-gesellschaftsrecht-geschaeftsfuehrerhaftung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
 language: de
 ---
+
+# Geschäftsführerhaftung aus Organakten und Schadensbelegen prüfen
+
+Lies zuerst die Organ- und Beschlussunterlagen, den beanstandeten Geschäftsvorgang, Schadensbelege und vorhandene Versicherungsunterlagen. Bestimme Mandatsseite, betroffenen Zeitraum und den konkreten Haftungsvorwurf. Liefere einen ausformulierten Haftungsvermerk mit Anspruchsprüfung, Entlastungsargumenten und nachvollziehbarer Schadenszuordnung; bei Klageauftrag ergänze den fallbezogenen Schriftsatz mit Beweisangeboten und Anlagen.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -37,9 +43,8 @@ language: de
 | § 93 Abs. 2 S. 2 AktG | Beweislastumkehr: Vorstand / Geschäftsführer muss Pflichterfüllung und fehlendes Verschulden darlegen |
 | § 93 Abs. 2 S. 3 AktG | D&O-Selbstbehalt: zwingend 10 % des Schadens, mindestens bis 1,5-faches der Festvergütung |
 | § 93 Abs. 3 AktG | Qualifizierte Sonderhaftungstatbestände: verbotene Kapitalrückzahlung, Bezahlung eigener Aktien, verbotene Kreditgewährung |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | § 46 Nr. 8 GmbHG | Gesellschafterbeschluss zur Geltendmachung von Schadensersatz gegen Geschäftsführer |
-| § 15a InsO | Insolvenzantragspflicht: spätestens 6 Wochen nach Zahlungsunfähigkeit; 8 Wochen nach Überschuldung |
+| Paragraf 15a InsO | Insolvenzantrag ohne schuldhaftes Zögern; höchstens drei Wochen nach Zahlungsunfähigkeit und sechs Wochen nach Überschuldung |
 | § 15b InsO | Zahlungsverbot bei Insolvenzreife (seit 1.1.2021 rechtsformneutral; ersetzt § 64 GmbHG und § 92 Abs. 2 AktG aF) |
 | § 30 GmbHG | Kapitalerhaltung: Verbot der Auszahlung von Stammkapital |
 | § 69 AO | Haftung des Vertreters für Steuerschulden der Gesellschaft; vorsätzliche oder grob fahrlässige Pflichtverletzung |
@@ -51,7 +56,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Geschäftsführerhaftung
 
@@ -67,7 +71,6 @@ language: de
 | 5 | Kausalität? | Conditio-sine-qua-non | Würde pflichtgemäßes Handeln Schaden verhindert haben? |
 | 6 | Verschulden? | Beweislastumkehr § 93 Abs. 2 S. 2 AktG | GF/Vorstand muss exculpieren |
 | 7 | Sonderhaftungstatbestände? | § 43 Abs. 3 GmbHG; § 15a, § 15b InsO; § 69 AO; § 266a StGB | Verschärfte Haftung ohne Business Judgement Rule |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Gesellschafterbeschluss zur Klage gefasst? (GmbH) | § 46 Nr. 8 GmbHG | Ohne Beschluss: GF kann einwenden, Klage ohne Befugnis |
 
 ## Sonderhaftungstatbestände im Detail
@@ -76,8 +79,8 @@ language: de
 
 | Tatbestand | Frist | Sanktion |
 |-----------|-------|---------|
-| Zahlungsunfähigkeit | Spätestens 6 Wochen nach Eintritt | § 15a InsO: Strafbarkeit; Schadensersatz (Massedifferenzschaden) |
-| Überschuldung (§ 19 InsO) | Spätestens 8 Wochen nach Eintritt | Gleiches wie Zahlungsunfähigkeit |
+| Zahlungsunfähigkeit | Antrag ohne schuldhaftes Zögern, höchstens drei Wochen nach Eintritt | Strafbarkeit nach Paragraf 15a InsO und weitere Haftungsrisiken prüfen |
+| Überschuldung nach Paragraf 19 InsO | Antrag ohne schuldhaftes Zögern, höchstens sechs Wochen nach Eintritt | Strafbarkeit nach Paragraf 15a InsO und weitere Haftungsrisiken prüfen |
 | Zahlungen nach Insolvenzreife | Verboten nach § 15b InsO | Erstattungspflicht: jede Zahlung, die Insolvenzmasse mindert (Ausnahme: zur Aufrechterhaltung des Geschäftsbetriebs erforderlich) |
 
 ### § 69 AO — Steuerhaftung
@@ -174,7 +177,6 @@ Der Klägerin ist ein Schaden in Höhe von EUR [Betrag] entstanden
 Schaden nicht entstanden.
 
 V. Beweislastumkehr
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 der Beklagte seine Pflichterfüllung und fehlendes Verschulden darzulegen.
 
 VI. Verjährung
@@ -230,8 +232,8 @@ Die Gesellschafterversammlung beschließt mit [Stimmen für/gegen]:
 |-------|--------|------|
 | 5 Jahre | Verjährung Innenhaftung GmbH-Geschäftsführer | § 43 Abs. 4 GmbHG |
 | 5 / 10 Jahre | Verjährung Vorstandshaftung AG (10 Jahre bei börsennotierter AG) | § 93 Abs. 6 AktG |
-| 6 Wochen | Insolvenzantragspflicht nach Zahlungsunfähigkeit | § 15a Abs. 1 InsO |
-| 8 Wochen | Insolvenzantragspflicht nach Überschuldung | § 15a Abs. 1 InsO |
+| Ohne schuldhaftes Zögern, höchstens drei Wochen | Insolvenzantrag nach Zahlungsunfähigkeit | Paragraf 15a Absatz 1 InsO |
+| Ohne schuldhaftes Zögern, höchstens sechs Wochen | Insolvenzantrag nach Überschuldung | Paragraf 15a Absatz 1 InsO |
 | 3 Monate | Berichtspflicht D&O-Versicherung nach Kenntnis des Versicherungsfalls | D&O-Vertrag (Claims-made) |
 
 ## Gegenargumente und Reaktion
@@ -240,17 +242,16 @@ Die Gesellschafterversammlung beschließt mit [Stimmen für/gegen]:
 |--------------|---------|----------|
 | "Business Judgement Rule schützt mich" | Geschäftsführer | Vier Kriterien kumulativ prüfen: unternehmerische Entscheidung? Angemessene Information? Wohl der Gesellschaft? Kein Eigeninteresse? |
 | "Gesellschaftereinverständnis befreit von Haftung" | Geschäftsführer | § 43 Abs. 3 S. 3 GmbHG: nur wenn alle Gesellschafter einverstanden und Stammkapital nicht berührt; Insolvenzreife ausgeschlossen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "D&O-Versicherung zahlt" | Partei | Anzeige unverzüglich; Claims-made-Prinzip beachten; Ausschlüsse (vorsätzliche Pflichtverletzung) prüfen |
 | "Verjährung abgelaufen" | Geschäftsführer | Verjährungsbeginn: nicht Handlungszeitpunkt, sondern Schadensentstehung; § 199 BGB; Hemmung bei laufendem Insolvenzverfahren |
 | "Insolvenzantrag war nicht verzögert — Zahlungsunfähigkeit bestand nicht" | Geschäftsführer | Buchhaltungsanalyse durch Sachverständigen; FCF-Prüfung; Überschuldungsbilanz |
 
 ## Streitwert und Kosten
 
-**Streitwert:** Konkrete Schadenshöhe.  
+**Streitwert:** Konkrete Schadenshöhe.
 Beispiel: Zahlungen nach Insolvenzreife EUR 200.000.
 
-**Gerichtsgebühren (3.0 LG aus EUR 200.000):** ca. EUR 5.238.  
+**Gerichtsgebühren (3.0 LG aus EUR 200.000):** ca. EUR 5.238.
 **Anwaltsgebühren (1.3 VV RVG aus EUR 200.000):** ca. EUR 3.816 netto je Seite.
 
 **D&O-Versicherung:**

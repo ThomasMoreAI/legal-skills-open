@@ -1,11 +1,11 @@
 ---
 name: betreiber-deployer-pflichten-art-26
 title: Betreiber-Pflichten (Deployer) — Art. 26 und 27 KI-VO
-description: 'Unternehmen oder Behoerde setzt ein Hochrisiko-KI-System, GPAI-System oder allgemeinen Chatbot ein und fragt nach Betreiberpflichten. Art. 26 KI-VO: bestimmungsgemaesse Verwendung, menschliche Aufsicht, Eingabedaten, Protokolle, Vorfallmeldungen, Informationspflichten; Art. 27 Grundrechte-Folgenabschaetzung. Besonderer Fokus: Off-label-Nutzung durch Mitarbeitende, Zweckaenderung, Art. 25 Anbieterwerden, Governance fuer allgemeine Chatbots in Hochrisiko-Kontexten. Output: Betreiber-Compliance-Checkliste mit Fehlgebrauchs- und Re-Evaluationsplan.'
+description: 'Für Betreiber-Pflichten (Deployer) — Art. 26 und 27 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: europäischem Technikregulierungsrecht. Route: betreiber-deployer-pflichten-art-26.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/betreiber-deployer-pflichten-art-26
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Betreiber-Pflichten (Deployer) — Art. 26 und 27 KI-VO
-
-## Zweck
-
-Betreiber sind natürliche oder juristische Personen, Behörden, Einrichtungen oder sonstige Stellen, die ein KI-System unter eigener Verantwortung verwenden. Dieser Skill prüft die Pflichten beim Einsatz von Hochrisiko-KI und ergänzt einen Governance-Check für allgemeine Chatbots/GPAI-Systeme, die intern zweckwidrig für Hochrisiko-Kontexte genutzt werden könnten.
 
 ## Pflicht 1 — Bestimmungsgemäße Verwendung
 
@@ -28,9 +24,9 @@ Prüffragen:
 - Werden Prompt-Vorlagen, Workflows, Rollenrechte oder Schnittstellen so gestaltet, dass keine unzulässige Zweckänderung entsteht?
 - Gibt es ein Freigabeverfahren für neue KI-Use-Cases?
 
-## Sonderthema — Mitarbeitende nutzen ein allgemeines KI-Tool hochriskant
+## Sonderthema — Mitarbeiter nutzen ein allgemeines KI-Tool hochriskant
 
-Wenn Mitarbeitende ein allgemeines Tool entgegen der Zweckbestimmung für Personal, Kredit, Bildung, Verwaltung, Justiz oder andere Anhang-III-Kontexte einsetzen, prüfe die Organisationsverantwortung:
+Wenn Mitarbeiter ein allgemeines Tool entgegen der Zweckbestimmung für Personal, Kredit, Bildung, Verwaltung, Justiz oder andere Anhang-III-Kontexte einsetzen, prüfe die Organisationsverantwortung:
 
 | Befund | Einordnung |
 |---|---|
@@ -66,7 +62,7 @@ Prüffragen:
 - Welche Eingabedaten werden vom Betreiber bereitgestellt?
 - Sind personenbezogene, vertrauliche oder besondere Daten betroffen?
 - Sind die Daten zweckgeeignet und aktuell?
-- Wird verhindert, dass Mitarbeitende sensible Personal-, Kredit-, Gesundheits- oder Justizdaten in allgemeine Tools eingeben?
+- Wird verhindert, dass Mitarbeiter sensible Personal-, Kredit-, Gesundheits- oder Justizdaten in allgemeine Tools eingeben?
 
 ## Pflicht 4 — Protokolle und Nachvollziehbarkeit
 
@@ -151,4 +147,4 @@ Risikoklasse: [HOCHRISIKO / UNKLAR / ALLGEMEINES GPAI-SYSTEM]
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 3 Nr. 4, Nr. 12, Nr. 13 und Nr. 23, Art. 4, Art. 25, Art. 26 und Art. 27 KI-VO. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 3 Nr. 4, Nr. 12, Nr. 13 und Nr. 23, Art. 4, Art. 25, Art. 26 und Art. 27 KI-VO. Keine Rechtsberatung.

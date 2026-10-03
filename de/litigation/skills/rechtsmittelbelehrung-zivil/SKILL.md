@@ -1,100 +1,61 @@
 ---
 name: rechtsmittelbelehrung-zivil
-title: Rechtsmittelbelehrung Zivil
-description: Workflow-Skill zu rechtsmittelbelehrung zivil. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Rechtsmittelbelehrung im Zivilverfahren
+description: Erstellt und kontrolliert die Rechtsmittelbelehrung für zivilgerichtliche Urteile und Beschlüsse; bestimmt Rechtsbehelf, Belehrungspflicht, Gericht, Sitz, Form, Einlegungs- und Begründungsfrist sowie mögliche Wiedereinsetzung und liefert einen unmittelbar einsetzbaren Entscheidungsbaustein.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/rechtsmittelbelehrung-zivil
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Rechtsmittelbelehrung Zivil
+# Rechtsmittelbelehrung im Zivilverfahren
 
-Paragraf 232 ZPO verlangt eine Rechtsmittelbelehrung bei jeder Entscheidung, gegen die ein selbständiges Rechtsmittel statthaft ist.
+## 1. Direktstart
 
+Lies zuerst Entscheidungsart, Tenor, Verfahrensart, Zustellungslage, Streitwert und etwaige Zulassungsentscheidung aus der Akte. Erstelle anschließend unmittelbar die passende Belehrung. Frage nur nach einem Punkt, der die Statthaftigkeit, das zuständige Gericht, die Frist oder die Form tatsächlich verändert.
 
-## Triage zu Beginn
+## 2. Prüfmatrix
 
-1. Handelt es sich um ein Endurteil (→ Berufung § 511 ZPO) oder einen Beschluss (→ sofortige Beschwerde § 567 ZPO)?
-2. Ist die Beschwer der Berufungsklägerin über 600 EUR (§ 511 Abs. 2 Nr. 1 ZPO)?
-3. Hat das Gericht die Berufung zugelassen (§ 511 Abs. 4 ZPO)?
-4. Welches Berufungsgericht ist zuständig — LG (bei AG-Urteilen) oder OLG (bei LG-Urteilen)?
+2.1. Bestimme, ob Urteil, Versäumnisurteil, Beschluss, Kostenentscheidung, einstweilige Verfügung oder sonstige Entscheidung vorliegt.
 
-## Aktuelle Rechtsprechung
+2.2. Trenne Berufung, Revision, Nichtzulassungsbeschwerde, sofortige Beschwerde, Rechtsbeschwerde, Einspruch, Widerspruch und Anhörungsrüge. Ein bloß denkbarer außerordentlicher Rechtsbehelf gehört nicht ohne Weiteres in die Belehrung.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+2.3. Prüfe Statthaftigkeit und Zulassung anhand des konkreten Tenors. Bei der Berufung sind insbesondere ZPO Paragraf 511, bei der Revision ZPO Paragrafen 542 und 543, bei der sofortigen Beschwerde ZPO Paragraf 567 und bei der Rechtsbeschwerde ZPO Paragraf 574 zuzuordnen.
 
-## Zentrale Normen
+2.4. Ermittle für Einlegung und Begründung getrennt Fristbeginn, Fristdauer, zuständiges Gericht, Form, Vertretungszwang und erforderlichen Inhalt. Maßgeblich sind unter anderem ZPO Paragrafen 517 und 520, Paragrafen 569 und 571 sowie Paragraf 575.
 
-- § 232 ZPO — Pflicht zur Rechtsmittelbelehrung
-- § 511 ZPO — Berufung (statthaft gegen Endurteile über 600 EUR Beschwer oder bei Zulassung)
-- § 517 ZPO — Berufungsfrist (1 Monat nach Zustellung)
-- § 520 ZPO — Berufungsbegründungsfrist (2 Monate nach Zustellung)
-- § 567 ZPO — sofortige Beschwerde gegen Beschlüsse (Frist 2 Wochen)
-- § 78 ZPO — Anwaltszwang vor LG und OLG
+2.5. Prüfe vor der Ausgabe die Belehrungspflicht nach ZPO Paragraf 232. In Verfahren mit Anwaltszwang ist die dort geregelte Ausnahme zu beachten; Einspruch und Widerspruch sind davon ausgenommen. Eine Sprungrevision muss nach ZPO Paragraf 232 nicht erläutert werden.
 
-## Quellenregel
+## 3. Ausgabebaustein
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Schritt-für-Schritt-Workflow
+Formuliere in vollständigen Sätzen:
 
-1. **Entscheidungsart bestimmen:** Urteil (→ Berufung) oder Beschluss (→ sofortige Beschwerde)?
-2. **Statthaftigkeit prüfen:** Beschwer > 600 EUR oder Berufungszulassung?
-3. **Berufungsgericht bestimmen:** AG-Urteil → LG; LG-Urteil → OLG.
-4. **Fristen einsetzen:** 1 Monat Einlegung, 2 Monate Begründung — jeweils ab Zustellung.
-5. **Standardformel einfügen** (s. unten).
+3.1. Bezeichnung des statthaften Rechtsbehelfs.
 
-## Output-Template
+3.2. Gericht und vollständiger Sitz, bei dem der Rechtsbehelf einzulegen ist.
 
-**Adressat:** Urteil/Beschluss → Rechtsmittelbelehrung — Tonfall: formal-amtlich
+3.3. Frist und fristauslösendes Ereignis, ohne einen aus der Akte nicht gesicherten Zustelltag zu erfinden.
 
-```
-## Rechtsmittelbelehrung
+3.4. Einlegungsform, notwendiger Inhalt und gegebenenfalls Vertretungszwang.
 
-Gegen dieses Urteil ist die Berufung statthaft.
+3.5. Gesonderte Begründungsfrist und zuständiges Gericht, wenn das Verfahrensrecht eine Begründung verlangt.
 
-Die Berufung ist binnen einer Frist von einem Monat nach Zustellung dieses Urteils beim
-[Landgericht / Oberlandesgericht] [ORT], [ANSCHRIFT], schriftlich oder zu Protokoll der
-Geschäftsstelle einzulegen und binnen einer weiteren Frist von einem Monat nach Zustellung
-zu begründen.
+## 4. Fehlerfolgen und Gegenkontrolle
 
-Vor dem Berufungsgericht besteht Anwaltszwang.
+Eine fehlende oder fehlerhafte Belehrung ändert die gesetzliche Rechtsmittelfrist nicht automatisch. Prüfe bei Fristversäumnis ZPO Paragrafen 233, 234 und 236 zur Wiedereinsetzung und trenne Kausalität, Verschulden, Nachholung und Glaubhaftmachung. Eine Anhörungsrüge nach ZPO Paragraf 321a ist nur bei entscheidungserheblicher Verletzung rechtlichen Gehörs zu prüfen; sie ersetzt kein versäumtes statthaftes Rechtsmittel.
 
-[Falls keine Berufung statthaft (Beschwer unter 600 EUR, keine Zulassung):]
-Gegen dieses Urteil ist ein Rechtsmittel nicht gegeben.
-```
+## 5. Qualitätskontrolle
 
-## Berufung
+5.1. Passt der Rechtsbehelf genau zur Entscheidungsart und zum Tenor?
 
-Statthaft gegen Endurteile (Paragraf 511 Abs. 1 ZPO). Voraussetzungen:
-- Beschwer der Berufungsklägerin / des Berufungsklägers über 600 EUR (Paragraf 511 Abs. 2 Nr. 1 ZPO) ODER
-- Zulassung der Berufung durch das erstinstanzliche Gericht (Paragraf 511 Abs. 4 ZPO)
+5.2. Sind Einlegungs- und Begründungsfrist getrennt und vollständig?
 
-Form und Frist:
-- Einlegung binnen einer Frist von einem Monat nach Zustellung des Urteils
-- Begründung binnen einer Frist von zwei Monaten nach Zustellung
-- Vor dem Berufungsgericht (LG bei AG-Urteilen, OLG bei LG-Urteilen) Anwaltszwang
+5.3. Stimmen Gericht, Sitz, Form und Vertretungszwang?
 
-## Sofortige Beschwerde
+5.4. Beruht jedes Kalenderdatum auf einem Aktenfund oder ist es ausdrücklich als Rechenbeispiel gekennzeichnet?
 
-Statthaft gegen Beschlüsse (Paragraf 567 ZPO). Voraussetzungen ergeben sich aus der jeweiligen Vorschrift.
-
-Form und Frist:
-- Einlegung binnen einer Frist von zwei Wochen nach Zustellung
-- Bei dem Gericht, das die Entscheidung erlassen hat, oder beim Beschwerdegericht
-
-## Standardformulierung
-
-"Gegen dieses Urteil ist die Berufung statthaft. Die Berufung ist binnen einer Frist von einem Monat nach Zustellung des Urteils beim Landgericht Hamburg (Sievekingplatz Nummer 1 in 20355 Hamburg) schriftlich oder zu Protokoll der Geschäftsstelle einzulegen und binnen einer Frist von zwei Monaten nach Zustellung schriftlich zu begründen. Vor dem Berufungsgericht besteht Anwaltszwang."
-
-
----
-
-<!-- AUDIT 27.05.2026 -->
-## Audit-Hinweis (27.05.2026)
-
-Dieser Skill wurde im Rahmen von Bundle 046 auf halluzinierte Rechtsprechungsnachweise geprüft und korrigiert.
+5.5. Ist die Belehrung ohne interne Hinweise unmittelbar in die Entscheidung einsetzbar?

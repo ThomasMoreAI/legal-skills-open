@@ -10,7 +10,7 @@ Jurisdiction: `at` · Practice: `real-estate` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht miet — Mietrechtliche Analyse`](skills/recht-miet-momarcode1/) | Austrian tenancy law analysis — MRG applicability, rent limits (Richtwertmietzins/angemessener Mietzins),… |
+| [`/recht miet — Mietrechtliche Analyse`](skills/recht-miet-momarcode1/) | Austrian tenancy law analysis — MRG applicability, rent limits (Richtwertmietzins/angemessener… |
 
 ## Cold-start context
 

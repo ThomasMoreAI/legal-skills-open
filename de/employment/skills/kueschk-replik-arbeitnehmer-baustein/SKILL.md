@@ -1,22 +1,37 @@
 ---
 name: kueschk-replik-arbeitnehmer-baustein
-title: Replik des Arbeitnehmers auf Klageerwiderung
-description: 'Reaktion auf die Klageerwiderung des Arbeitgebers: Bestreiten von Behauptungen; Anforderungen an die Substantiierungstiefe; Replik-Baustein mit typischen Gegenargumenten; Beweismittel-Strategie für den Kammertermin.'
+title: 'Reaktion auf die Klageerwiderung des Arbeitgebers: Bestreiten von Behauptungen'
+description: 'Für Reaktion auf die Klageerwiderung des Arbeitgebers: Bestreiten von Behauptungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-replik-arbeitnehmer-baustein
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Replik des Arbeitnehmers auf Klageerwiderung
+# Reaktion auf die Klageerwiderung des Arbeitgebers: Bestreiten von Behauptungen
 
-## Zweck
 
-Nach Erhalt der Klageerwiderung des Arbeitgebers hat der Arbeitnehmer (bzw. sein Anwalt) die Möglichkeit, eine Replik einzureichen. Dieser Skill bietet Bausteine für eine substanzielle Replik.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Reaktion auf die Klageerwiderung des Arbeitgebers: Bestreiten von Behauptungen; Anforderungen an die Substantiierungstiefe; Replik-Baustein mit typischen Gegenargumenten; Beweismittel-Strategie für den Kammertermin.
+
+### Replik des Arbeitnehmers auf Klageerwiderung
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Replik des Arbeitnehmers auf Klageerwiderung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Ablauf nach der Klageerwiderung
 
@@ -43,14 +58,13 @@ Die Beklagte behauptet, der Betrieb beschäftige regelmäßig weniger als zehn A
 **II. Zum behaupteten Kündigungsgrund**
 
 *Bei betriebsbedingter Kündigung:*
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Bei verhaltensbedingter Kündigung:*
 Eine Abmahnung wurde nie ausgesprochen. Dies ist unstreitig. Ohne vorherige Abmahnung ist die verhaltensbedingte Kündigung unverhältnismäßig.
 
 **III. Zur behaupteten Sozialauswahl [bei betriebsbed. Kündigung]**
 
-Die Beklagte hat keine nachvollziehbare Sozialauswahl-Tabelle vorgelegt. Der Kläger bestreitet, dass die Sozialauswahl ordnungsgemäß durchgeführt wurde. Kollegin K (Sozialdaten: Alter [ALTER], Betriebszugehörigkeit [DAUER], keine Unterhaltspflichten) ist mit dem Kläger vergleichbar. Sie hätte nach Maßgabe des § 1 Abs. 3 KSchG vorrangig entlassen werden müssen.
+Die Beklagte hat keine nachvollziehbare Sozialauswahl-Tabelle vorgelegt. Der Kläger bestreitet, dass die Sozialauswahl ordnungsgemäß durchgeführt wurde. Kollegin K (Sozialdaten: Alter [ALTER], Betriebszugehörigkeit [DAUER], keine Unterhaltspflichten) ist mit dem Kläger vergleichbar. Sie hätte nach Maßgabe des Paragraf 1 Abs. 3 KSchG vorrangig entlassen werden müssen.
 
 **IV. Zur Betriebsratsanhörung [sofern streitig]**
 
@@ -82,19 +96,12 @@ Step 6: Schriftsatz fristgerecht einreichen
 
 ## Zentrale Normen
 
-- **§ 1 Abs. 2 Satz 4 KSchG** — Darlegungs- und Beweislast beim Arbeitgeber für Kündigungsgrund
-- **§ 1 Abs. 3 Satz 3 KSchG** — Darlegungs- und Beweislast beim Arbeitgeber für Sozialauswahl
-- **§ 102 Abs. 1 BetrVG** — Betriebsratsanhörung vor Kündigung (Fehler = Unwirksamkeit)
-- **§ 138 Abs. 2, 3 ZPO i.V.m. § 46 Abs. 2 ArbGG** — Erklärungslast über Tatsachenbehauptungen der Gegenseite
-- **§ 139 ZPO** — Richterliche Hinweispflicht; Gericht fördert vollständigen Vortrag
+- **Paragraf 1 Abs. 2 Satz 4 KSchG** — Darlegungs- und Beweislast beim Arbeitgeber für Kündigungsgrund
+- **Paragraf 1 Abs. 3 Satz 3 KSchG** — Darlegungs- und Beweislast beim Arbeitgeber für Sozialauswahl
+- **Paragraf 102 Abs. 1 BetrVG** — Betriebsratsanhörung vor Kündigung (Fehler = Unwirksamkeit)
+- **Paragraf 138 Abs. 2, 3 ZPO i.V.m. Paragraf 46 Abs. 2 ArbGG** — Erklärungslast über Tatsachenbehauptungen der Gegenseite
+- **Paragraf 139 ZPO** — Richterliche Hinweispflicht; Gericht fördert vollständigen Vortrag
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Substantiierungstiefe — Was wird erwartet?
 
 Das Gericht erwartet **konkretes, substantiiertes Bestreiten**. Pauschal "Wird bestritten" genügt nicht, wenn der Arbeitgeber seinerseits substantiiert vorgetragen hat. Der Arbeitnehmer muss dann die konkrete Tatsache benennen, die er bestreitet, und wenn möglich Gegenbeweis anbieten.
@@ -102,3 +109,5 @@ Das Gericht erwartet **konkretes, substantiiertes Bestreiten**. Pauschal "Wird b
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

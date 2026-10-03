@@ -1,11 +1,11 @@
 ---
 name: aufstellungsbeschluss-bekanntmachung
 title: Aufstellungsbeschluss und Bekanntmachung
-description: 'Mandant prüft ob ein Bebauungsplan an einem Verfahrensfehler beim Aufstellungsbeschluss oder der Bekanntmachung leidet. §§ 2 10 BauGB Verfahrenskette. Prüfraster: Aufstellungsbeschluss ortsuebl. Bekanntmachung § 2 Abs. 1 Beschluss als Satzung § 10 Abs. 1 ortsuebliche Bekanntmachung § 10 Abs. 3 Identität ausgelegte und beschlossene Fassung Zuständigkeit Beschlussfähigkeit. Output: Verfahrensfehlerprüfung-Protokoll. Abgrenzung zu beteiligung-frueh-foermlich (Beteiligungsverfahren) und planerhaltung-214-215-baugb.'
+description: 'Für Aufstellungsbeschluss und Bekanntmachung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/aufstellungsbeschluss-bekanntmachung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Aufstellungsbeschluss und Bekanntmachung
-
-## Zweck
-
-Audit der formellen Verfahrenskette des B-Plans. Häufigste Treffer im Normenkontrollverfahren liegen hier: Bekanntmachung fehlerhaft, Beschlussvorlage abweichend, Anstoßfunktion verletzt.
 
 ## Schritt 1 — Verfahrenskette im Überblick
 
@@ -156,8 +152,4 @@ Audit der formellen Verfahrenskette des B-Plans. Häufigste Treffer im Normenkon
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

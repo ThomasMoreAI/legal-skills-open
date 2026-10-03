@@ -1,26 +1,25 @@
 ---
 name: gutachten-erstellen
-title: Forprüfungs-Gutachten erstellen
-description: Erstelle das zusammenfassende Forprüfungs-Gutachten zum KI-Anbietervertrag. Aufbau Eingangsdaten Norm-Adapter Prüfpunkte Erforderlichkeit Verschwiegenheit Belehrung Subunternehmer Strafprozess TOM Drittstaat Ampelbewertung Lueckenliste Handlungsempfehlung. Ausdrücklich keine Rechtsberatung sondern strukturierte Argumentationshilfe für das Anbietergespraech.
+title: Vorprüfungs-Gutachten erstellen
+description: 'Für Vorprüfungs-Gutachten erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/gutachten-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
 language: de
 ---
 
-# Forprüfungs-Gutachten erstellen
+# Vorprüfungs-Gutachten erstellen
 
-## Disclaimer
+## Fachkern: Vorprüfungs-Gutachten erstellen
 
-**Diese Forprüfung ist keine Rechtsberatung.** Sie ist eine strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung im konkreten Einzelfall bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
-
-## Zweck
-
-Das Gutachten fasst alle Einzelprüfungen zu einem strukturierten Dokument zusammen. Es ist intern für die Kanzlei bestimmt, kann aber auszugsweise als Argumentationsgrundlage gegenüber dem Anbieter verwendet werden.
+- **KI-/Berufsrechtsproblem (Vorprüfungs-Gutachten erstellen):** Erstelle das zusammenfassende Vorprüfungs-Gutachten zum KI-Anbietervertrag. Aufbau Eingangsdaten Norm-Adapter Prüfpunkte Erforderlichkeit Verschwiegenheit Belehrung Subunternehmer Strafprozess TOM Drittstaat Ampelbewertung Lückenliste Handlungsempfehlung. Ausdrücklich keine Rechtsberatung sondern strukturierte Argumentationshilfe für das Anbietergespräch.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Dienstleisterregelungen der freien Berufe, Auftragsverarbeitung und technische Geheimnisschutzrealität.
+- **Entscheidende Weiche:** Mustertext, Anbieterbehauptung, technische Wirklichkeit, Berufsgeheimnis und Datenschutzrolle müssen getrennt bleiben.
+- **Arbeitsprodukt:** Vertragsbaustein, Gutachtenstruktur, Redline oder Anbieter-Fragenliste; Ergebnis bleibt Vorprüfung und wird nicht als fertige Berufsrechtsfreigabe ausgegeben.
 
 ## Aufbau
 
@@ -34,7 +33,7 @@ Aus `parallelnormen-andere-berufe`. Tabelle der einschlägigen Normen. Hinweis a
 
 ### 3. Maßstab
 
-Goldstandard: DAV-Stellungnahme Nr. 32/2025. BRAK-Leitfaden Dezember 2024 wird kurz erwähnt — zurückhaltend.
+Maßstab sind zuerst die geltenden Normen und ihre Gesetzesmaterialien. Berufsrechtliche Stellungnahmen, Kammerhinweise und Fachdebatten werden nur als Auslegungshilfe verarbeitet und in ihrer Bindungswirkung kenntlich gemacht.
 
 ### 4. Einzelne Prüfpunkte
 
@@ -52,7 +51,7 @@ Pro Skill ein Abschnitt:
 Jeder Abschnitt enthält:
 
 - die einschlägige Norm
-- die DAV-Lesart
+- die vertretbare Auslegungslinie und Gegenpositionen
 - die konkrete Bewertung am vorgelegten Vertrag (Ampel grün/gelb/rot)
 - Lücken und offene Punkte
 
@@ -87,7 +86,7 @@ Drei Stufen:
 
 Am Ende jedes Gutachtens steht:
 
-> Dieses Forprüfungs-Gutachten ist keine Rechtsberatung. Es ist eine strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung im konkreten Einzelfall bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten. Quellen: Memorandum zu § 43e BRAO und § 203 StGB; DAV-Initiativstellungnahme Nr. 32/2025; BT-Drs. 18/12940; einschlägige Gesetzestexte (BRAO StBerG WPO PAO BNotO StGB StPO DS-GVO).
+> Dieses Vorprüfungs-Gutachten ist keine Rechtsberatung. Es ist eine strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung im konkreten Einzelfall bleibt der nutzenden Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten. Quellenbasis: geltende Gesetzestexte, Gesetzesmaterialien, verifizierbare Kammerhinweise, Rechtsprechung und aktueller berufsrechtlicher Debattenstand.
 
 ## Stil
 
@@ -101,9 +100,13 @@ Am Ende jedes Gutachtens steht:
 
 Markdown, ca. 5 bis 10 Seiten. PDF-Export optional via Plugin `office`.
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Zentrale Normen (Paragrafenkette)
 
@@ -112,36 +115,33 @@ Markdown, ca. 5 bis 10 Seiten. PDF-Export optional via Plugin `office`.
 - §§ 53a, 97 StPO — Strafprozessuale Absicherung
 - Art. 28, 32 DSGVO — Datenschutzrechtliche Parallelprüfung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Wurden alle Einzelprüfungen aus den Teilskills (Verschwiegenheit, Belehrung, Subunternehmer, Strafprozess, TOM, Drittstaat) durchgeführt?
 2. Liegen alle Vertragsdokumente vor (Hauptvertrag, AGB, AVV, Subunternehmerliste, TOM-Anlage)?
 3. Sind offene Punkte aus dem Rückfragebrief beantwortet?
 4. Welches Ergebnis soll das Gutachten haben (Freigabe / Nachverhandlung / Ablehnung)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — datenschutzrechtliches Gutachten erstellen | Vollgutachten-Format nach Template unten |
 | Variante A — nur kurze Stellungnahme noetig | Kurzgutachten-Format; Normenkette komprimieren |
-| Variante B — politisch heikle Einschaetzung fuer Mandanten | Ergebnis-offen formulieren; Risiken deutlich benennen |
+| Variante B — politisch heikle Einschaetzung für Mandanten | Ergebnis-offen formulieren; Risiken deutlich benennen |
 | Variante C — internes Compliance-Memo ohne externe Wirkung | Schlankeres Format; auf Vollzitierung teilweise verzichten |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
-## Output-Template — Forprüfungs-Gutachten (Auszug)
+## Output-Template — Vorprüfungs-Gutachten (Auszug)
 
 **Adressat:** Kanzlei intern (ggf. auszugsweise für Anbieter) — Tonfall: sachlich-juristisch
 
 ```
-Forpruefungs-Gutachten KI-Anbietervertrag
+Vorpruefungs-Gutachten KI-Anbietervertrag
 Datum: [DATUM] | Verfasser: [SACHBEARBEITER]
 Anbieter: [NAME] | Produkt: [PRODUKT]
 Beruf: [BERUF] | Norm-Adapter: § [NORM]
@@ -156,16 +156,16 @@ Datenschutz: Art. 28, 32 DSGVO
 Strafprozess: §§ 53a, 97 StPO
 
 III. Einzelprüfungen (Ampeltabelle)
-| Pruefpunkt              | Ampel | Begruendung |
+| Pruefpunkt | Ampel | Begruendung |
 |-------------------------|-------|-------------|
-| Erforderlichkeit        |       |             |
-| Verschwiegenheitsklausel|       |             |
-| Belehrung §§ 203/204    |       |             |
-| Subunternehmer          |       |             |
-| Strafprozess §§ 53a/97  |       |             |
-| TOM / Zertifizierungen  |       |             |
-| Drittstaat / CLOUD Act  |       |             |
-| AVV Art. 28 DSGVO       |       |             |
+| Erforderlichkeit | | |
+| Verschwiegenheitsklausel| | |
+| Belehrung §§ 203/204 | | |
+| Subunternehmer | | |
+| Strafprozess §§ 53a/97 | | |
+| TOM / Zertifizierungen | | |
+| Drittstaat / CLOUD Act | | |
+| AVV Art. 28 DSGVO | | |
 
 IV. Gesamtergebnis
 [GRUEN / GELB / ROT]
@@ -175,13 +175,15 @@ V. Handlungsempfehlung
 [Konkrete naechste Schritte]
 
 VI. Disclaimer
-Dieses Forpruefungs-Gutachten ist keine Rechtsberatung. Es ist strukturierte
-Argumentationshilfe. Abschliessende Beurteilung bleibt der inhabilen Kanzlei
+Dieses Vorpruefungs-Gutachten ist keine Rechtsberatung. Es ist strukturierte
+Argumentationshilfe. Abschließende Beurteilung bleibt der nutzenden Kanzlei
 beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
-Quellen: DAV-Stellungnahme Nr. 32/2025; BRAO, StBerG, WPO, PAO, BNotO; StGB; StPO; DSGVO.
+Quellen: geltende Gesetzestexte, Gesetzesmaterialien, verifizierbare Kammerhinweise, Rechtsprechung und aktueller berufsrechtlicher Debattenstand.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

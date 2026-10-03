@@ -1,11 +1,11 @@
 ---
 name: veraenderungssperre-zurueckstellung-14-15-baugb
 title: Veränderungssperre und Zurückstellung — §§ 14, 15 BauGB
-description: 'Bauherr oder Investor hat Bauantrag eingereicht aber Gemeinde hat Veraenderungssperre verhaengt und Antrag wird zurückgestellt. §§ 14 15 BauGB. Prüfraster: Aufstellungsbeschluss Voraussetzung § 14 Abs. 1 BauGB Wirkung Dauer 2 plus 1 plus Verlaengerungen Entschaedigung § 18 BauGB. Zurückstellung § 15 BauGB als milderes Mittel. Anfechtung § 47 VwGO oder Inzident. Output: Entschaedigungs- und Anfechtungsanalyse Veraenderungssperre. Abgrenzung zu normenkontrollantrag-schriftsatz (Hauptsache B-Plan) und statthaftigkeit-47-vwgo.'
+description: 'Für Veränderungssperre und Zurückstellung — Paragrafen 14. 15 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. Route: veraenderungssperre-zurueckstellung-14-15-baugb.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/veraenderungssperre-zurueckstellung-14-15-baugb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -14,9 +14,17 @@ language: de
 
 # Veränderungssperre und Zurückstellung — §§ 14, 15 BauGB
 
-## Zweck
+## Arbeitsbereich
 
-Während der Bauleitplanung kann die Gemeinde die Realisierung von Bauvorhaben, die der Plan-Entwicklung widersprechen würden, sichern — durch Veränderungssperre § 14 BauGB oder Zurückstellung § 15 BauGB. Beide Instrumente sind sowohl von Behörden- als auch von Bauherren-/Nachbarseite zu prüfen.
+Bauherr oder Investor hat Bauantrag eingereicht aber Gemeinde hat Veraenderungssperre verhaengt und Antrag wird zurückgestellt. §§ 14 15 BauGB. Prüfraster: Aufstellungsbeschluss Voraussetzung § 14 Abs. 1 BauGB Wirkung Dauer 2 plus 1 plus Verlaengerungen Entschaedigung § 18 BauGB. Zurückstellung § 15 BauGB als milderes Mittel. Anfechtung § 47 VwGO oder Inzident. Output: Entschaedigungs- und Anfechtungsanalyse Veraenderungssperre. Abgrenzung zu normenkontrollantrag-schriftsatz (Hauptsache B-Plan) und statthaftigkeit-47-vwgo. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: VwGO § 47 Abs. 2 Antrag 1 Jahr nach Bekanntmachung, BauGB § 3 Abs. 2 Auslegung 1 Monat, Einwendungen 1 Monat, § 215 BauGB Rüge formeller/materieller Fehler 1 Jahr.
+- Tragende Normen verifizieren: VwGO § 47, BauGB §§ 1, 1a, 2, 3, 4, 4a, 10, 13, 13a, 13b, 30, 34, 35, BImSchG, BNatSchG, UVPG, EU-Plan-UP-RL 2001/42 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Antragsteller (Eigentümer, Gemeinde, Verband), Gemeinde als Antragsgegnerin, OVG/VGH (zuständig), BVerwG (4. Senat), Träger öffentlicher Belange.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Bebauungsplan, Begründung mit Umweltbericht, Abwägungsmaterial, Beteiligungsstellungnahmen, Satzungsbeschluss, Normenkontrollantrag, Eilantrag § 47 Abs. 6 VwGO — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -31,7 +39,6 @@ Während der Bauleitplanung kann die Gemeinde die Realisierung von Bauvorhaben, 
 ### Voraussetzungen
 
 a) **Aufstellungsbeschluss** für Bebauungsplan, der für das Gebiet gelten soll
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 c) **Sicherungs-Bedürfnis** zur Wahrung der Plan-Ziele
 
 ### Inhalt § 14 Abs. 1 BauGB
@@ -97,7 +104,6 @@ c) **Befürchten** dass das Vorhaben die Plan-Entwicklung gefährdet
 
 - Wertminderung im Sinne der Eigentumsgarantie
 - Wirtschaftliche Folgen für Eigentümer
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 4 — Wirkung auf Vorhabenträger / Bauherrn
 
@@ -136,7 +142,6 @@ c) **Befürchten** dass das Vorhaben die Plan-Entwicklung gefährdet
 #### Konkretisierungs-Mangel
 
 - Plan-Ziele zu unbestimmt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 #### Verhältnismäßigkeit
 
@@ -256,14 +261,9 @@ d) Damit: **kein § 14-Verfahren möglich**, aber **Indiz für Gefälligkeitspla
 ## Quellen
 
 - BauGB §§ 14, 15, 17, 18, 24, 42
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Ernst/Zinkahn/Bielenberg BauGB
 - Battis/Krautzberger/Löhr BauGB
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

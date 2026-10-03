@@ -1,0 +1,84 @@
+---
+name: commercial-leo-destinations-iss-nachfolge
+title: Commercial LEO Destinations - ISS-Nachfolge
+description: 'Für Commercial LEO Destinations - ISS-Nachfolge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weltraumrecht/skills/commercial-leo-destinations-iss-nachfolge
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: regulatory
+language: de
+---
+
+# Commercial LEO Destinations - ISS-Nachfolge
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Sofortfragen
+
+1. Rolle: Crew-Provider, Cargo-Provider, Modul-Eigentümer, Endnutzer, Versicherer, Investor, staatliche Stelle?
+2. Welche Plattform: Axiom Station, Orbital Reef, Starlab, Haven-1 oder europaeische Loesung?
+3. Vertragsmodell: NASA Space Act Agreement, ESA-Beteiligung, kommerzielle Direktbeziehung?
+4. Welche Nutzung: bemannte Forschung, In-Space-Manufacturing, Tourismus, Wartungs-/Service-Mission?
+5. Welche Mikrogravitations- oder Vakuum-Anforderungen?
+
+## NASA Commercial LEO Destinations Program
+
+- **Phase 1 (2021-2023)**: Funded Space Act Agreements (SAA) mit Axiom Space, Blue Origin (Orbital Reef), Voyager Space (Starlab), Nanoracks.
+- **Phase 2 (2024-2026)**: Wettbewerb um Anchor-Customer-Status; NASA als Ankerkunde mit bestimmten Crew-Anteilen.
+- **NASA Crew-Anchor-Pflicht**: zwei NASA-Crewmitglieder dauerhaft, vier mit Rotation, bis zu sieben mit Erweiterung.
+- **ISS-Deorbit 2030/31**: NASA Authorization Act 2022 mit Deorbit-Plan; SpaceX-Vertrag 2024 für USDV (U.S. Deorbit Vehicle).
+
+## Vertragsarchitektur
+
+### Eigentumsstruktur
+- Modul- und Stationsbetreiber haelt Eigentum (z. B. Axiom an seinen Modulen).
+- Crew-Provider (SpaceX Crew Dragon, Boeing Starliner kuenftig auch andere) als eigene Vertragslinie.
+- Cargo-Provider (SpaceX Cargo Dragon, Sierra Space Dream Chaser, Northrop Cygnus).
+- Forschungsnutzer durch dedizierte SLAs.
+
+### Vertragstypen
+- **Hauptvertrag NASA SAA**: vergibt Ankerkunden-Status.
+- **Operator-Customer-Agreement (OCA)**: Service Level für Bahnkorrektur, Lebenserhaltungssystem, Crew-Pflege.
+- **Module Hosting Agreement (MHA)**: Anbringung externer Module.
+- **Payload Hosting Agreement (PHA)**: temporaere Experimente an Bord.
+- **Tourism-Vertrag**: spezifische Haftung-, Versicherungs- und Verzichtsklauseln.
+
+### Anwendbares Recht
+- **Voelkerrecht**: Outer Space Treaty Art. VIII (Eigentum am Modul bleibt beim Registrierungsstaat), Liability Convention Art. III (Verschuldenshaftung im All).
+- **Nationales US-Recht**: 51 U.S.C. § 50901 ff. für kommerzielle Raumfahrt; Reciprocal Waivers of Claims (Cross-Waiver) zwingend in NASA SAAs.
+- **EU/Deutschland**: ESA-Konvention 1975 für ESA-Module; spaetere Beteiligung am US-Marktrecht.
+
+## IP-Schutz an Bord
+
+- **Patentrechtliche Fragen**: Erfindungen an Bord der Station werden nach Recht des Eintragungsstaates des Moduls bewertet (Art. VIII OST).
+- **CIS-Erfindungen** (Crewmember-Inventions in Space): Sondervorschriften je nach Crew-Heimatstaat.
+- **US 35 U.S.C. § 105**: Erfindungen an Bord eines US-Raumfahrzeugs gelten als in den USA gemacht.
+- **Forschungsdaten**: Lizenzierung an Forschungsuniversitaeten und Pharmafirmen mit ueblicherweise mehrjaehrigen Embargo-Klauseln.
+
+## Versicherbarkeit
+
+- Bahnkorrektur-Versicherung (Stationkeeping).
+- Crew-Verletzung-Versicherung (Cross-Waiver schliesst US-Government-Hauptklagen aus; nicht aber Dritte).
+- Cargo-Verlust.
+- Modul-Verlust.
+- Liability gegenueber anderen Operatoren (Konjunktionsereignis).
+- Lloyd's LMA-Klauseln für Spacelegal-Risiken.
+
+## Prüfraster
+
+1. Vertragsstuktur (NASA SAA, OCA, MHA, PHA)?
+2. Anwendbares Recht (US, ESA-Mitgliedstaat, gemischt)?
+3. Cross-Waiver beruecksichtigt?
+4. IP-Schutz und Lizenzkette geklaert?
+5. Versicherbarkeit aller Risikoschichten?
+6. Exportkontrolle (ITAR / EAR / EU Dual-Use)?
+7. Crew-Anforderungen (Medizincheck, Versicherbarkeit, Schadensersatz)?

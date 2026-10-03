@@ -8,7 +8,7 @@ Jurisdiction: `gb` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Draft British Statutory Instruments`](skills/draft-british-statutory-instruments/) | Drafts hypothetical British Statutory Instruments, Regulations, or Byelaws using formal UK legal language and… |
+| [`Draft British Statutory Instruments`](skills/draft-british-statutory-instruments/) | Drafts hypothetical British Statutory Instruments, Regulations, or Byelaws using formal UK legal… |
 
 ## Cold-start context
 

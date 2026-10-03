@@ -1,0 +1,46 @@
+---
+name: versr-pkv-beitragsanpassung-medizinische-notwendigkeit
+title: PKV-Mandate zu Beitragsanpassung § 203 VVG, medizinischer Notwendigkeit, GOÄ/GOZ-Kürzung, Tarifwechsel und Rückforderung
+description: 'Für Versr Pkv Beitragsanpassung Medizinische Notwendigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/versr-pkv-beitragsanpassung-medizinische-notwendigkeit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: insurance
+language: de
+---
+
+# PKV-Mandate zu Beitragsanpassung § 203 VVG, medizinischer Notwendigkeit, GOÄ/GOZ-Kürzung, Tarifwechsel und Rückforderung.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** PKV-Mandate zu Beitragsanpassung § 203 VVG, medizinischer Notwendigkeit, GOÄ/GOZ-Kürzung, Tarifwechsel und Rückforderung.
+
+### FA Versicherungsrecht: PKV Beitrag und Leistung
+
+## Norm- und Quellenanker
+
+VVG §§ 192–208, § 203; MB/KK; GOÄ/GOZ; VAG.
+
+### Kalkulationsbestreiten und Limitierung
+
+[BGH, Beschluss vom 28.01.2026, IV ZR 41/25](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IV_ZS/2025/IV_ZR__41-25.pdf?__blob=publicationFile&v=1), Rn. 10–18 und 20: Unbekannte PKV-Kalkulationsgrundlagen grundsätzlich mit Nichtwissen bestreitbar; Versicherer trägt Beweis erhöhter Prämie auch bei Rückforderung. Zusätzliche Beitragslimitierung nach Paragraf 155 Absatz 2 VAG hat andere Lastverteilung; nach Sachverständigenbeweis konkrete Einwendungen prüfen. Benenne Tarif, Anpassungszeitraum und Beweisthema; formuliere das Bestreiten unbekannter Kalkulationsgrundlagen und trenne davon die zusätzliche Beitragslimitierung.
+
+## Red Flags
+
+- Treuhänderfrage isoliert überschätzt
+- Rechnung ohne Tarifprüfung
+- Verjährung vergessen
+
+## Arbeitsstil
+
+Konkrete Normen, konkrete Unterlagen, konkrete nächste Handlung. Keine pauschalen Empfehlungen; Rechtsprechung nur verifiziert mit Gericht, Datum, Aktenzeichen und frei zugänglicher Quelle.

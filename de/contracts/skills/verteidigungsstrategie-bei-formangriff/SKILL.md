@@ -1,11 +1,11 @@
 ---
 name: verteidigungsstrategie-bei-formangriff
 title: Verteidigungsstrategie bei Formangriff
-description: 'Mandant wird von Vertragspartner mit Formmangel-Einwand konfrontiert und Anwalt muss Verteidigung aufbauen. Verteidigung Formverstoß §§ 125 242 BGB. Prüfraster: Heilungsmöglichkeiten nach Vollzug (§ 311b BGB) Nachholung der Form § 242 BGB Treuwidrigkeitseinwand (Berufung auf Formmangel wer selbst arglistig handelte) Beweislastverteilung. Output: Verteidigungsstrategie-Memo und Klausel-Aenderungsvorschlaege. Abgrenzung zu anspruchsformulierungen-bei-formverstoss (Angreifer-Seite) und form-checker-fuer-vertrag-oder-willenserklärung.'
+description: 'Für Verteidigungsstrategie bei Formangriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftform-und-textform-bgb/skills/verteidigungsstrategie-bei-formangriff
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -14,20 +14,31 @@ language: de
 
 # Verteidigungsstrategie bei Formangriff
 
+## Arbeitsbereich
+
+Mandant wird von Vertragspartner mit Formmangel-Einwand konfrontiert und Anwalt muss Verteidigung aufbauen. Verteidigung Formverstoß Paragrafen 125 242 BGB. Prüfraster: Heilungsmöglichkeiten nach Vollzug (Paragraf 311b BGB) Nachholung der Form Paragraf 242 BGB Treuwidrigkeitseinwand (Berufung auf Formmangel wer selbst arglistig handelte) Beweislastverteilung. Output: Verteidigungsstrategie-Memo und Klausel-Änderungsvorschlaege. Abgrenzung zu anspruchsformulierungen-bei-formverstoss (Angreifer-Seite) und form-checker-für-vertrag-oder-willenserklärung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Rechtsgrundlagen
 
-- **§ 125 BGB** — Nichtigkeit und Zweifelsregel bei Formmangel
-- **§ 242 BGB** — Treu und Glauben: Einwand der Treuwidrigkeit gegen Formmangel-Berufung
-- **§ 311b Abs. 1 S. 2 BGB** — Heilung Grundstückskauf
-- **§ 766 S. 3 BGB** — Heilung Bürgschaft
-- **§ 518 Abs. 2 BGB** — Heilung Schenkungsversprechen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragraf 125 BGB** — Nichtigkeit und Zweifelsregel bei Formmangel
+- **Paragraf 242 BGB** — Treu und Glauben: Einwand der Treuwidrigkeit gegen Formmangel-Berufung
+- **Paragraf 311b Abs. 1 S. 2 BGB** — Heilung Grundstückskauf
+- **Paragraf 766 S. 3 BGB** — Heilung Bürgschaft
+- **Paragraf 518 Abs. 2 BGB** — Heilung Schenkungsversprechen
 
 ## BGH-Linie
 
-### § 242 BGB — Treuwidrigkeitseinwand
+### Paragraf 242 BGB — Treuwidrigkeitseinwand
 
-Die Berufung auf einen Formmangel kann nach ständiger BGH-Rechtsprechung treuwidrig (§ 242 BGB) sein. Die Hürden sind hoch — der BGH lässt den Treuwidrigkeitseinwand nur in Ausnahmefällen zu:
+Die Berufung auf einen Formmangel kann nach ständiger BGH-Rechtsprechung treuwidrig (Paragraf 242 BGB) sein. Die Hürden sind hoch — der BGH lässt den Treuwidrigkeitseinwand nur in Ausnahmefällen zu:
 
 **Voraussetzungen (kumulativ, BGH-Dauerrechtsprechung)**:
 - Die Partei, die sich auf den Formmangel beruft, hat den Formmangel selbst veranlasst oder von ihm gewusst
@@ -41,12 +52,12 @@ Die Berufung auf einen Formmangel kann nach ständiger BGH-Rechtsprechung treuwi
 
 | Rechtsgeschäft | Heilungsnorm | Voraussetzung |
 |---------------|-------------|--------------|
-| Grundstückskauf § 311b BGB | § 311b Abs. 1 S. 2 BGB | Auflassung + Eintragung im Grundbuch |
-| Bürgschaft § 766 BGB | § 766 S. 3 BGB | Bürge erfüllt Hauptschuld |
-| Schenkungsversprechen § 518 BGB | § 518 Abs. 2 BGB | Leistung des Versprochenen |
-| Arbeitsvertrag § 14 Abs. 4 TzBfG | Keine gesetzliche Heilung | — |
-| Maklervertrag § 656a BGB | Keine gesetzliche Heilung | — |
-| Kündigung § 568 BGB | Keine Heilung; Neuerklärung erforderlich | — |
+| Grundstückskauf Paragraf 311b BGB | Paragraf 311b Abs. 1 S. 2 BGB | Auflassung + Eintragung im Grundbuch |
+| Bürgschaft Paragraf 766 BGB | Paragraf 766 S. 3 BGB | Bürge erfüllt Hauptschuld |
+| Schenkungsversprechen Paragraf 518 BGB | Paragraf 518 Abs. 2 BGB | Leistung des Versprochenen |
+| Arbeitsvertrag Paragraf 14 Abs. 4 TzBfG | Keine gesetzliche Heilung | — |
+| Maklervertrag Paragraf 656a BGB | Keine gesetzliche Heilung | — |
+| Kündigung Paragraf 568 BGB | Keine Heilung; Neuerklärung erforderlich | — |
 
 ### Nachholung der Form
 
@@ -60,31 +71,30 @@ Wenn keine gesetzliche Heilungsnorm existiert, können die Parteien das Rechtsge
 
 ```
 SCHRITT 1: Liegt tatsächlich ein Formmangel vor?
-  → Welche Form war vorgeschrieben? (Gesetzliche oder gewillkürte Form?)
-  → Wurde die Form eingehalten? (Unterschrift? qES? Textform?)
-  Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ → Welche Form war vorgeschrieben? (Gesetzliche oder gewillkürte Form?)
+ → Wurde die Form eingehalten? (Unterschrift? qES? Textform?)
 
 SCHRITT 2: Ist Heilung möglich?
-  → § 311b Abs. 1 S. 2 BGB (Grundstück): Auflassung + Eintragung?
-  → § 766 S. 3 BGB (Bürgschaft): Hauptschuld erfüllt?
-  → § 518 Abs. 2 BGB (Schenkung): Leistung vollzogen?
-  → Sonstige gesetzliche Heilungsnorm?
+ → Paragraf 311b Abs. 1 S. 2 BGB (Grundstück): Auflassung + Eintragung?
+ → Paragraf 766 S. 3 BGB (Bürgschaft): Hauptschuld erfüllt?
+ → Paragraf 518 Abs. 2 BGB (Schenkung): Leistung vollzogen?
+ → Sonstige gesetzliche Heilungsnorm?
 
 SCHRITT 3: Nachholung der Form möglich?
-  → Neuerklärung in der gesetzlich vorgeschriebenen Form
-  → Sind alle Voraussetzungen für eine wirksame Neuerklärung erfüllbar?
-  → Frist: Liegt noch Zeit für formwirksame Neuerklärung vor Verjährung / Fristablauf?
+ → Neuerklärung in der gesetzlich vorgeschriebenen Form
+ → Sind alle Voraussetzungen für eine wirksame Neuerklärung erfüllbar?
+ → Frist: Liegt noch Zeit für formwirksame Neuerklärung vor Verjährung / Fristablauf?
 
-SCHRITT 4: § 242 BGB — Treuwidrigkeitseinwand?
-  → Hat die andere Partei den Formmangel selbst veranlasst?
-  → Liegt schützenswertes Vertrauen oder Vollzug vor?
-  → Ist die Berufung auf den Formmangel schlechthin unerträglich?
-  → Ist Spekulationsabsicht der anderen Partei erkennbar?
+SCHRITT 4: Paragraf 242 BGB — Treuwidrigkeitseinwand?
+ → Hat die andere Partei den Formmangel selbst veranlasst?
+ → Liegt schützenswertes Vertrauen oder Vollzug vor?
+ → Ist die Berufung auf den Formmangel schlechthin unerträglich?
+ → Ist Spekulationsabsicht der anderen Partei erkennbar?
 
 SCHRITT 5: Beweislast
-  → Wer behauptet den Formmangel?
-  → Wer trägt die Beweislast für die Formwahrung?
-  → Welche Beweismittel stehen zur Verfügung?
+ → Wer behauptet den Formmangel?
+ → Wer trägt die Beweislast für die Formwahrung?
+ → Welche Beweismittel stehen zur Verfügung?
 ```
 
 ### Einwand gegen Räumungsklage nach formwidriger Kündigung
@@ -92,21 +102,21 @@ SCHRITT 5: Beweislast
 ```
 Formwidrigkeitseinwand (Mieter):
 
-Die Kündigung vom [Datum] wahrte nicht die Schriftform des § 568 Abs. 1 BGB.
+Die Kündigung vom [Datum] wahrte nicht die Schriftform des Paragraf 568 Abs. 1 BGB.
 [Begründung: keine eigenhändige Unterschrift / kein zugegangenes qES-Dokument]
 
-Die Kündigung ist daher gemäß § 125 S. 1 BGB unwirksam. Das Mietverhältnis
+Die Kündigung ist daher gemäß Paragraf 125 S. 1 BGB unwirksam. Das Mietverhältnis
 besteht fort. Der Räumungsantrag ist unbegründet.
 ```
 
-### § 174 BGB Zurückweisung (sofort nach Erhalt)
+### Paragraf 174 BGB Zurückweisung (sofort nach Erhalt)
 
 ```
 Sehr geehrte Damen und Herren,
 
 wir weisen die durch Herrn Rechtsanwalt [Name] in Ihrem Namen erklärte
 Kündigung vom [Datum] unverzüglich zurück, da uns keine Vollmachtsurkunde
-im Original vorgelegt wurde (§ 174 S. 1 BGB).
+im Original vorgelegt wurde (Paragraf 174 S. 1 BGB).
 
 Die Kündigung gilt daher als nicht zugegangen. Wir behalten uns vor,
 die Unwirksamkeit im Rechtsstreit geltend zu machen.
@@ -116,44 +126,32 @@ die Unwirksamkeit im Rechtsstreit geltend zu machen.
 
 ## Templates
 
-### Argumentationsrahmen § 242 BGB Treuwidrigkeitseinwand
+### Argumentationsrahmen Paragraf 242 BGB Treuwidrigkeitseinwand
 
 ```
-§ 242 BGB — Treuwidrigkeitseinwand gegen Berufung auf Formmangel
+Paragraf 242 BGB — Treuwidrigkeitseinwand gegen Berufung auf Formmangel
 
 I. Die Gegenpartei hat den Formmangel selbst veranlasst:
-   [Sachverhaltsdarstellung: Wer hat warum die Schriftform nicht eingehalten?]
+ [Sachverhaltsdarstellung: Wer hat warum die Schriftform nicht eingehalten?]
 
 II. Schützenswertes Vertrauen / Vollzug:
-   [Darstellung: Partei hat auf Wirksamkeit des Vertrags vertraut, Leistungen erbracht]
+ [Darstellung: Partei hat auf Wirksamkeit des Vertrags vertraut, Leistungen erbracht]
 
 III. Unzumutbarkeit der Formmangel-Berufung:
-   [Darstellung: welche konkreten Nachteile entstehen bei Nichtigkeitserklärung?]
+ [Darstellung: welche konkreten Nachteile entstehen bei Nichtigkeitserklärung?]
 
 IV. Kein Schutzzweck der Formnorm verletzt:
-   [Prüfung: Schutzzweck der verletzten Formnorm — verlangt der Schutzzweck hier
-    wirklich Nichtigkeit oder schützt § 242 BGB die schutzwürdigere Partei?]
+ [Prüfung: Schutzzweck der verletzten Formnorm — verlangt der Schutzzweck hier
+ wirklich Nichtigkeit oder schützt Paragraf 242 BGB die schutzwürdigere Partei?]
 
 Ergebnis: Die Berufung auf den Formmangel ist im konkreten Fall nach
-§ 242 BGB ausgeschlossen.
+Paragraf 242 BGB ausgeschlossen.
 ```
 
 ## Fallstricke
 
-- **Hohe Hürden § 242 BGB**: Der BGH lässt den Treuwidrigkeitseinwand nur in engen Grenzen zu. Wer lediglich argumentiert, es sei "unfair", sich auf den Formmangel zu berufen, wird damit regelmäßig scheitern.
-- **Heilung ≠ Rückwirkung**: Selbst wenn Heilung möglich ist (z. B. § 766 S. 3 BGB), wirkt sie nicht auf den ursprünglichen Zeitpunkt zurück — Zwischenzeiträume (z. B. Zinslauf) bleiben ggf. unberührt.
-- **§ 174 BGB Unverzüglichkeit**: Wer nicht unverzüglich (d. h. ohne schuldhaftes Zögern, in der Regel binnen einer Woche) zurückweist, verliert das Recht zur Zurückweisung wegen fehlender Vollmacht — die Kündigung gilt dann als wirksam erklärt.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Hohe Hürden Paragraf 242 BGB**: Der BGH lässt den Treuwidrigkeitseinwand nur in engen Grenzen zu. Wer lediglich argumentiert, es sei "unfair", sich auf den Formmangel zu berufen, wird damit regelmäßig scheitern.
+- **Heilung ≠ Rückwirkung**: Selbst wenn Heilung möglich ist (z. B. Paragraf 766 S. 3 BGB), wirkt sie nicht auf den ursprünglichen Zeitpunkt zurück — Zwischenzeiträume (z. B. Zinslauf) bleiben ggf. unberührt.
+- **Paragraf 174 BGB Unverzüglichkeit**: Wer nicht unverzüglich (d. h. ohne schuldhaftes Zögern, in der Regel binnen einer Woche) zurückweist, verliert das Recht zur Zurückweisung wegen fehlender Vollmacht — die Kündigung gilt dann als wirksam erklärt.
 
-## Querverweise
-
-- → `anspruchsformulierungen-bei-formverstoss`
-- → `formerfordernisse-im-bgb-ueberblick`
-- → `gewerberaummiete-paragraph-550-bgb-langzeitform` (§ 242 BGB bei § 550 BGB)
-- → `klauselgenerator-formvorbehalt-und-aenderungsvorbehalt`
-
-<!-- AUDIT 27.05.2026 bundle_043
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Maßnahme: Keine Änderung am Skill-Text erforderlich. AZ und Inhalt bestätigt.
-Quelle: https://www.otto-schmidt.de/blog/zivil-und-zivilverfahrensrecht-blog/montagsblog-neues-vom-bgh-ZRBLOG0004000.html
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

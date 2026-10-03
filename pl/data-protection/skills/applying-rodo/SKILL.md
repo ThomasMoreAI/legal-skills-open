@@ -1,18 +1,18 @@
 ---
 name: applying-rodo
-title: applying-rodo
+title: law-pl-applying-rodo
 description: Use when drafting or reviewing RODO documents — mapping GDPR articles to obligations, legal basis (art. 6/9), klauzule informacyjne (art. 13–14), umowa powierzenia (art. 28), naruszenia (art. 33–34), DPIA (art. 35), wnioski osób (art. 15–22). RODO (2016/679) + UODO z 10.05.2018
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-rodo
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: data-protection
 language: pl
 ---
 
-# applying-rodo
+# law-pl-applying-rodo
 
 RODO (GDPR) — rozporządzenie 2016/679 — jest stosowane bezpośrednio w Polsce. Ustawa z 10.05.2018 o ochronie danych osobowych (UODO) jest aktem uzupełniającym, głównie w zakresie wymaganym przez sam RODO (np. art. 8 ust. 1 — wiek zgody dzieci dla usług społeczeństwa informacyjnego, art. 88 — dane w kontekście zatrudnienia).
 

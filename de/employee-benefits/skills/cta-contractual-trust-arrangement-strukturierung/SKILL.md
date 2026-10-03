@@ -1,11 +1,11 @@
 ---
 name: cta-contractual-trust-arrangement-strukturierung
 title: 'CTA — Contractual Trust Arrangement: Strukturierung und Dokumentation'
-description: 'CTA-Struktur für Auslagerung von Pensionsverpflichtungen aufsetzen: Treuhandmodell, IFRS-Saldierung. Normen: § 6a EStG, IFRS, BetrAVG. Prüfraster: Treuhandvertragsstruktur, Insolvenzsicherung, Bilanzauswirkung. Output: CTA-Strukturierungsmemo. Abgrenzung: nicht PSV-Pflichtversicherung (gesetzlich).'
+description: 'Für CTA — Contractual Trust Arrangement: Strukturierung und Dokumentation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/cta-contractual-trust-arrangement-strukturierung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: employee-benefits
@@ -14,10 +14,20 @@ language: de
 
 # CTA — Contractual Trust Arrangement: Strukturierung und Dokumentation
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: CTA — Contractual Trust Arrangement: Strukturierung und Dokumentation
+
+- **bAV-Problem:** Treuhandmodell, IFRS-Saldierung. Normen: § 6a EStG, IFRS, BetrAVG. Prüfraster: Treuhandvertragsstruktur, Insolvenzsicherung, Bilanzauswirkung. Output: CTA-Strukturierungsmemo. Abgrenzung: nicht PSV-Pflichtversicherung (gesetzlich).
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -28,21 +38,18 @@ Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 - §§ 328 ff. BGB (Vertrag zugunsten Dritter — Grundlage der Begünstigungsstruktur)
 - §§ 35–37 InsO (Insolvenzfestigkeit — aussonderungsfähiges Treuhandgut)
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - §§ 903, 929 ff. BGB (Übereignung Treuhandvermögen)
 - IORP II Art. 18–19 (Ring-Fencing bei EbAV)
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Vorgehen
 
 ### Schritt 1: Entscheidung für CTA-Strukturierung
 
-Dr. von Sompeh-Ostermann empfiehlt eine CTA-Prüfung bei folgenden Ausgangssituationen:
+fachliche Leitung empfiehlt eine CTA-Prüfung bei folgenden Ausgangssituationen:
 
 1. **IFRS-Bilanzentlastung:** DBO > EUR 50 Mio. — plan asset-Saldierung reduziert Net Pension Liability erheblich
 2. **HGB-Bilanzentlastung:** Saldierung nach § 246 Abs. 2 S. 2 HGB reduziert Bilanzsumme und verbessert Eigenkapitalquote
@@ -51,21 +58,16 @@ Dr. von Sompeh-Ostermann empfiehlt eine CTA-Prüfung bei folgenden Ausgangssitua
 
 ### Schritt 2: Grundstruktur Doppeltreuhand
 
-Die von Treuenfels Yamamoto entwickelte Standardstruktur basiert auf einem **Doppeltreuhand-Modell** mit zwei Schichten:
+Die von bAV-Projektteam entwickelte Standardstruktur basiert auf einem **Doppeltreuhand-Modell** mit zwei Schichten:
 
 **Schicht 1 — Sicherungstreuhand (Treugeber = Arbeitgeber → Treuhänder):**
 - Arbeitgeber übereignet Vermögenswerte (Wertpapiere, Bankguthaben, Immobilien) an Treuhänder (z.B. Konzerngesellschaft als Treuhänder oder externe Treuhandgesellschaft)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Treuhänder hält Vermögen als Sicherungstreuhänder zugunsten der Versorgungsberechtigten
 
 **Schicht 2 — Verwaltungstreuhand (Treuhänder → Begünstigte):**
 - Treuhandvertrag begründet Rechte der Versorgungsberechtigten als Drittbegünstigte (§ 328 BGB)
 - Bei Insolvenz des Arbeitgebers: Versorgungsberechtigte können Aussonderung des Treuhandvermögens aus Insolvenzmasse verlangen (§ 47 InsO)
 - Treuhänder verwaltet Vermögen nach Investment Policy Statement (IPS)
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 1. **Dingliche Übertragung:** Das Vermögen muss dinglich auf den Treuhänder übertragen sein — schuldrechtliche Zweckbindung allein genügt nicht.
 2. **Unwiderrufliche Drittbegünstigung:** Die Versorgungsberechtigten müssen als unwiderruflich Begünstigte im Treuhandvertrag genannt sein — der Arbeitgeber darf das Treuhandvermögen nicht ohne Zustimmung der Berechtigten zurückfordern können.
@@ -78,7 +80,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 **HGB (§ 246 Abs. 2 S. 2 HGB):**
 Voraussetzungen für Saldierung:
 - Vermögensgegenstände ausschließlich zur Erfüllung von Schulden aus Versorgungsleistungen bestimmt (Zweckbindung)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Saldierung erfolgt mit Rückstellungen (nicht mit anderen Verbindlichkeiten)
 - Grundsatz: Saldierung zum beizulegenden Zeitwert (§ 253 Abs. 1 S. 3 HGB); Rückstellungen bleiben nach § 253 Abs. 2 HGB abgezinst
 
@@ -152,24 +153,23 @@ unmittelbar zur Erfüllung der Versorgungsansprüche der Versorgungsberechtigten
 zu verwenden. Weisungen des Insolvenzverwalters des Treugebers, die dem
 Treuhandzweck zuwiderlaufen, sind unwirksam.
 (3) Diese Insolvenzfestigkeits-Regelungen entsprechen den Anforderungen aus
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 § 5 Kapitalanlage (Investment Policy Statement)
 (1) Der Treuhänder legt das Treuhandvermögen nach Maßgabe des Investment Policy
 Statement (IPS, Anlage 3) an.
 (2) Das IPS wird vom Treuhandausschuss (§ 8) jährlich überprüft und ggf. angepasst.
 (3) Grundsätze:
-    a) Sicherheit und Kapitalerhalt haben Vorrang vor Renditeoptimierung;
-    b) Anlagediversifikation nach dem Prudent-Investor-Standard;
-    c) ESG-Kriterien werden berücksichtigt soweit sie die Rendite nicht beeinträchtigen;
-    d) Maximale Aktienquote: [X]% des Treuhandvermögens;
-    e) Fremdwährungs-Exposure wird auf [X]% begrenzt und abgesichert.
+ a) Sicherheit und Kapitalerhalt haben Vorrang vor Renditeoptimierung;
+ b) Anlagediversifikation nach dem Prudent-Investor-Standard;
+ c) ESG-Kriterien werden berücksichtigt soweit sie die Rendite nicht beeinträchtigen;
+ d) Maximale Aktienquote: [X]% des Treuhandvermögens;
+ e) Fremdwährungs-Exposure wird auf [X]% begrenzt und abgesichert.
 
 § 6 Rückübertragung
 (1) Der Treugeber kann eine Rückübertragung von Treuhandvermögen verlangen, soweit
-    a) das Treuhandvermögen den Barwert der gedeckten Versorgungsverpflichtungen
-       (HGB-Rückstellungswert) übersteigt (Überschussrückübertragung) und
-    b) die Versorgungsberechtigten durch die Rückübertragung nicht benachteiligt werden.
+ a) das Treuhandvermögen den Barwert der gedeckten Versorgungsverpflichtungen
+ (HGB-Rückstellungswert) übersteigt (Überschussrückübertragung) und
+ b) die Versorgungsberechtigten durch die Rückübertragung nicht benachteiligt werden.
 (2) Die Rückübertragung bedarf der Zustimmung des Treuhandausschusses.
 (3) Eine Rückübertragung im Insolvenzfall des Treugebers ist ausgeschlossen.
 
@@ -181,9 +181,9 @@ Der Treuhänder erhält für seine Tätigkeit eine jährliche Verwaltungsgebühr
 (1) Zur Überwachung des Treuhänders wird ein Treuhandausschuss gebildet
 (→ Governance-Regelung: Skill `governance-und-anpassungsmechanismen`).
 (2) Dem Treuhandausschuss gehören an:
-    a) zwei Vertreter des Treugebers,
-    b) zwei von den Versorgungsberechtigten gewählte Vertreter,
-    c) ein unabhängiger Sachverständiger.
+ a) zwei Vertreter des Treugebers,
+ b) zwei von den Versorgungsberechtigten gewählte Vertreter,
+ c) ein unabhängiger Sachverständiger.
 (3) Der Treuhandausschuss ist zu informieren über alle wesentlichen Änderungen
 der Kapitalanlage, des IPS sowie etwaige Interessenkonflikte des Treuhänders.
 
@@ -202,15 +202,15 @@ Dieser Vertrag unterliegt deutschem Recht. Gerichtsstand ist Düsseldorf.
 
 Düsseldorf, den [Datum]
 
-[Konzern Muster AG]                    [Konzern Pension Treuhand GmbH]
-[Geschäftsführung]                     [Geschäftsführung]
+[Konzern Muster AG] [Konzern Pension Treuhand GmbH]
+[Geschäftsführung] [Geschäftsführung]
 ```
 
 ### Template 2: Bilanzielle Checkliste CTA-Anerkennung
 
 ```
 CHECKLISTE — BILANZIELLE ANERKENNUNG CTA
-Treuenfels Yamamoto · Dr. von Sompeh-Ostermann
+bAV-Projektteam · fachliche Leitung
 
 HGB § 246 Abs. 2 S. 2:
 □ Dingliche Übereignung auf Treuhänder vollzogen

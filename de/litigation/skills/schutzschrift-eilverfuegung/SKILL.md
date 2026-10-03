@@ -1,11 +1,11 @@
 ---
 name: schutzschrift-eilverfuegung
 title: Schutzschrift gegen Eilverfügung
-description: 'Mandant hat Abmahnung oder Verletzungsschreiben erhalten und befuerchtet einstweilige Verfuegung ohne Anhoerung. § 945a ZPO Schutzschrift ZSER. Prüfraster: Hinterlegung zentrales elektronisches Schutzschriftenregister § 945a ZPO Sachverhalt Gegenrede Glaubhaftmachung eidesstattliche Versicherung Wertangabe Senatsauswahl. Output: Schutzschrift-Entwurf für sofortige Hinterlegung. Abgrenzung zu unterlassungsverlangen (Abwehr der Abmahnung selbst) und verletzungs-triage.'
+description: 'Für Schutzschrift gegen Eilverfügung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gewerblicher-rechtsschutz/skills/schutzschrift-eilverfuegung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Schutzschrift gegen Eilverfügung
 
-## Zweck
+## Arbeitsweg
 
-Wenn eine einstweilige Verfügung droht, kann eine Schutzschrift im zentralen elektronischen Schutzschriftenregister hinterlegt werden — das Gericht muss sie bei jeder EV-Prüfung berücksichtigen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Schritt 1 — Anwendungsbereich
 
@@ -91,12 +95,12 @@ Es wird beantragt:
 1. Der Antrag der [potenzielle Antragstellerin] wird abgelehnt.
 
 2. Hilfsweise: Über den Antrag wird mündlich verhandelt
-   und der Anhörung der Schutzschrift-Einreicherin
-   Gelegenheit gegeben.
+ und der Anhörung der Schutzschrift-Einreicherin
+ Gelegenheit gegeben.
 
 3. Höchst hilfsweise: Bei Erlass einer einstweiligen
-   Verfügung wird Sicherheit Leistung in angemessener
-   Höhe angeordnet.
+ Verfügung wird Sicherheit Leistung in angemessener
+ Höhe angeordnet.
 ```
 
 ## Schritt 4 — Glaubhaftmachung
@@ -228,10 +232,13 @@ Es wird beantragt:
 - Hinterlegungs-Dokumentation BESR
 - Frist im Fristenbuch (sechs Monate Gültigkeit)
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Quellen
 
@@ -242,6 +249,4 @@ Es wird beantragt:
 - Koehler/Bornkamm/Feddersen UWG
 - Ingerl/Rohnke MarkenG
 
-<!-- AUDIT 27.05.2026: Bundle 032 Halluzinations-Reparatur
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,161 @@
+---
+name: kostenfestsetzung-103-104-zpo
+title: 'Kostenfestsetzung: Bei Erfolg Geld zurueckholen'
+description: 'Für Kostenfestsetzung: bei Erfolg Geld zurückholen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/kostenfestsetzung-103-104-zpo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Kostenfestsetzung: Bei Erfolg Geld zurueckholen
+
+## Worum geht es?
+
+Wenn Sie gewonnen haben, traegt die Gegenseite die Kosten (§ 91 ZPO). Aber: Das passiert nicht automatisch. Sie müssen die Kosten **festsetzen** lassen — Antrag an die Geschäftsstelle. Mit dem Festsetzungs-Beschluss können Sie vollstrecken.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie haben gewonnen und Urteil ist rechtskraeftig.
+- Sie wollen Ihre Auslagen erstattet bekommen.
+- Vergleich mit klarer Kosten-Regelung.
+- Die Gegenseite hat erst nach Klageeinreichung gezahlt und es gibt bereits eine gerichtliche Entscheidung, dass sie die Kosten tragen muss.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Kostenfestsetzung**: Verbindliche Feststellung der zu erstattenden Kosten.
+- **Erstattungsfaehige Kosten**: Was die Gegenseite zahlen muss.
+- **Auslagen**: Konkrete Kosten (Gerichtskosten, Sachverstaendiger, Reisekosten).
+
+## Rechtsgrundlagen
+
+- **§ 91 ZPO** — Kostenfolge.
+- **§ 92 ZPO** — Bei Teilobsiegen.
+- **§ 103 ZPO** — Kostenfestsetzungs-Antrag.
+- **§ 104 ZPO** — Verfahren.
+- **§ 91 II 1 ZPO** — Anwaltskosten.
+
+## Wichtige Abgrenzung: Zahlung nach Klageeinreichung
+
+Wenn die Gegenseite nach Einreichung Ihrer Klage zahlt, aber bevor die Klage zugestellt wurde, ist die Kostenfrage gefährlich. Eine normale Kostenfestsetzung nach §§ 103, 104 ZPO hilft erst, wenn Sie einen Kostengrundtitel haben, also zum Beispiel ein Urteil, einen Vergleich oder eine Kostenentscheidung.
+
+War die Gegenseite bei Klageeinreichung bereits in Verzug, kann es eine weitere Möglichkeit geben: Sie stellen den Antrag um und verlangen die Feststellung, dass die Gegenseite die Kosten des Rechtsstreits als Verzugsschaden nach §§ 280, 286 BGB tragen muss. Das ist für Laien anspruchsvoll. Vor einer Klagerücknahme oder Erledigungserklärung sollten Sie jedenfalls die Zeitpunkte Klageeinreichung, Zustellung und Zahlung sauber notieren und prüfen lassen.
+
+Ein möglicher Antrag lautet:
+
+```text
+Es wird festgestellt, dass die Beklagte verpflichtet ist, mir die durch
+die Einreichung der Klage entstandenen Kosten des Rechtsstreits als
+Verzugsschaden zu ersetzen.
+```
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Voraussetzung: Kosten-Titel
+
+Sie brauchen ein Urteil (oder Vergleich), das die Kostenfolge regelt:
+
+- "Der Beklagte traegt die Kosten."
+- "Die Kosten werden quoteliert: Kläger 30 %, Beklagter 70 %."
+
+### Schritt 2 — Was ist erstattungsfaehig?
+
+Aus § 91 ZPO und Rechtsprechung:
+
+- **Gerichtskosten**: Vorschuss, Sachverstaendigen-Auslagen.
+- **Anwaltskosten**: Wenn Sie Anwalt hatten (nach RVG). Bei Selbstvertretung: kein Erstattungs-Anspruch für eigene Zeit.
+- **Reisekosten** zum Gericht (km-Pauschale, ggf. Hotel).
+- **Verdienstausfall** bei eigener Anwesenheit (begrenzt).
+- **Porto, Telekommunikation**.
+- **Sachverstaendigen-Auslagen** (wenn von Ihnen vorschuss-bezahlt).
+
+### Schritt 3 — Was NICHT erstattungsfaehig (Selbstvertretung)?
+
+- Eigene Arbeitszeit.
+- Eigene "Anwaltsgebuehr-äquivalente" Beratung.
+- Eigene Recherche-Auslagen (uebersichtlich).
+
+Selbstvertreter bekommen also weniger erstattet als bei Anwalts-Vertretung.
+
+### Schritt 4 — Antrag formulieren
+
+```
+Aktenzeichen: [AZ]
+
+An das Amtsgericht [Ort]
+- Geschaeftsstelle -
+
+In der Sache [Klaeger] ./. [Beklagter]
+beantrage ich Festsetzung folgender Kosten:
+
+1. Gerichtskosten-Vorschuss vom [Datum]
+ 324,00 EUR
+2. Sachverstaendigen-Vorschuss vom [Datum]
+ 850,00 EUR
+3. Reisekosten zum Termin am [Datum]
+ (250 km hin/zurueck, 0,30 EUR/km)
+ 75,00 EUR
+4. Verdienstausfall
+ 1 Tag x 8 h x 17 EUR
+ 136,00 EUR
+5. Porto
+ 12,30 EUR
+ -------
+Gesamt 1.397,30 EUR
+
+Zugunsten von:
+[Ihr Name, IBAN]
+
+Belege beigefuegt:
+- Anlage 1: Gerichtskosten-Beleg
+- Anlage 2: Sachverstaendigen-Beleg
+- ...
+```
+
+### Schritt 5 — Belege beifuegen
+
+Pro Kostenposition:
+
+- Quittung / Rechnung.
+- Sendebeleg.
+- Kontoauszug.
+
+### Schritt 6 — Verfahren
+
+Geschäftsstelle prüft den Antrag. Gegnerseite bekommt Gelegenheit zur Stellungnahme. Dann **Kostenfestsetzungs-Beschluss**.
+
+### Schritt 7 — Vollstreckung des Beschlusses
+
+Mit dem Kostenfestsetzungs-Beschluss können Sie:
+
+- Vollstreckungsklausel beantragen.
+- Vollstrecken (Skill `zwangsvollstreckung-querverweis-substitutionsagent`).
+
+### Schritt 8 — Beschwerde
+
+§ 11 II RPflG, § 567 ZPO: Sofortige Beschwerde gegen Kostenfestsetzungs-Beschluss binnen 2 Wochen, wenn:
+
+- Sie meinen, eine Position falsch berechnet.
+- Mehr beantragt wurde, als zugesprochen.
+
+## Worauf Sie besonders achten müssen
+
+- **Belege aufbewahren** waehrend des Verfahrens.
+- **Selbstvertretung erhaelt weniger Kostenfestsetzung** als Anwalts-Mandate.
+- **Beschwerde-Frist 2 Wochen**.
+- **Vollstreckung mit Beschluss** wie mit Urteil.
+- **Nicht voreilig zurücknehmen:** Wenn die Gegenseite erst nach Klageeinreichung zahlt, kann eine falsche Klagerücknahme oder Erledigungserklärung dazu führen, dass Sie auf Kosten sitzen bleiben.
+
+## Typische Fehler
+
+- "Ich vergesse die Kostenfestsetzung." → Auslagen nicht erstattet.
+- "Belege weggeworfen." → Festsetzung schwierig.
+- "Hohe Arbeitszeit als Erstattung." → Bei Selbstvertretung nicht.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. §§ 103, 104 ZPO unveraendert.

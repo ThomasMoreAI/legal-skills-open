@@ -5,11 +5,16 @@ description: 资本市场尽职调查 Skill：公司章程及组织机构（三�
 author: zeweihan
 author_url: https://github.com/zeweihan/A-market-ecm-lawyer-plugin/tree/main/skills/ecm-dd-charter
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: corporate
 language: zh
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Regulations index
+  path: references/regulations-index.md
 ---
 
 # ecm-dd-charter

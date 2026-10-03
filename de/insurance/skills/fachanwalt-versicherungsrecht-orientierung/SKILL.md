@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-versicherungsrecht-orientierung
 title: Fachanwalt für Versicherungsrecht — Orientierung
-description: Orientierung im Versicherungsvertragsrecht für Mandate und Fachanwaltschaft nach FAO. Anwendungsfall Kanzlei will Versicherungsmandat beurteilen oder Anwalt bereitet sich auf Fachanwaltsprüfung Versicherungsrecht vor. Normen VVG VAG GDV-Musterbedingungen AVB-Sparten BU KV LV Sach-Haftpflicht D-und-O. Prüfraster Sparten Normen FAO-Voraussetzungen verifizierbare Quellen typische Mandate Fristen. Output Rechtsgebietsuebersicht Normen verifizierbare Quellen und Routing zu Versicherungsmandats-Skills. Abgrenzung zu mandat-triage-versicherungsrecht und fachanwalt-versicherungsrecht-deckungsklage.
+description: 'Für Fachanwalt für Versicherungsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/fachanwalt-versicherungsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
@@ -73,11 +73,11 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 Vor Versand jeweils Volltext in offener Quelle aufrufen (juris.bundesgerichtshof.de, dejure.org, openjur.de):
 
-1. **BGH, Urt. v. 12.3.2025, IV ZR 32/24** — Krankentagegeldversicherung: Klauselersetzung nach Unwirksamkeit nicht ohne Weiteres zulässig; Versicherer kann unwirksame Tagessatz-Herabsetzung nicht durch im Kern gleiche neue Klausel ersetzen. Pressemitteilung Nr. 47/25 vom 12.3.2025.
-2. **BGH, IV ZR 70/25, 2025** — PKV-Beitragsanpassung: Mitteilungsschreiben muss die konkrete Rechnungsgrundlage benennen (§ 203 Abs. 5 VVG).
-3. **BGH, IV ZR 86/24, Urt. v. 15.10.2025** — Beitragsanpassung PKV; Prüfungsmaßstab. Quelle: bundesgerichtshof.de.
+1. **BGH, Urteil vom 12. März 2025, IV ZR 32/24** — Krankentagegeldversicherung: Ersetzung unwirksamer Bedingungen nach Paragraf 164 Absatz 1 VVG setzt mindestens die Voraussetzungen ergänzender Vertragsauslegung voraus; der Versicherer kann sich nicht schon wegen der Vertragslücke auf unzumutbare Härte berufen.
+2. **BGH, Urteil vom 22. April 2026, IV ZR 70/25** — PKV-Beitragsanpassung: Die Mitteilung nach Paragraf 203 Absatz 5 VVG muss nicht zusätzlich erklären, dass die Veränderung der maßgeblichen Rechnungsgrundlage nicht nur vorübergehend ist. Für die materielle Rechtmäßigkeit trägt der Versicherer die Darlegungs- und Beweislast; formelle Mitteilung und materielle Kalkulation getrennt prüfen.
+3. **BGH, Urteil vom 15. Oktober 2025, IV ZR 86/24** — Verkehrs-Rechtsschutz: Auslegung unklarer VRB-Klauseln bei Anschaffung eines Ersatzfahrzeugs; Paragraf 305c Absatz 2 BGB. Quelle: bundesgerichtshof.de.
 4. **BGH, Urt. v. 14.7.2021, IV ZR 153/20** — Versicherungsfall BU: Eintritt nach Ablauf der bedingungsgemäßen sechs-monatigen Prognosezeit.
-5. **BGH, Urt. v. 28.1.2025, VI ZR 183/22** — DSGVO-Schadensersatz hat reine Ausgleichsfunktion; SCHUFA-Meldung bei streitiger Forderung unzulässig.
+5. **BGH, Urteil vom 28. Januar 2025, VI ZR 183/22** — DSGVO-Schadensersatz hat ausschließlich Ausgleichsfunktion; Dauer, Empfängerkreis und konkrete Folgen eines SCHUFA-Eintrags können für die Schadensbemessung maßgeblich sein. Die Rechtmäßigkeit der Meldung war im Revisionsverfahren nicht mehr Streitgegenstand.
 
 ### Paragrafenkette (Überblick VVG-Struktur)
 

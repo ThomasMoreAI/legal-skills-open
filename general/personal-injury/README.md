@@ -8,11 +8,11 @@ Jurisdiction: `general` · Practice: `personal-injury` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`FirmVault Search`](skills/firmvault-search/) | Search FirmVault legal case documents — medical records, legal filings, insurance papers, correspondence. Use… |
+| [`FirmVault Search`](skills/firmvault-search/) | Search FirmVault legal case documents — medical records, legal filings, insurance papers… |
 | [`ICD-10 / CPT Code Normalization`](skills/icd-cpt-normalization/) | Normalizes diagnostic and procedure codes from medical records into clean, attorney-readable form.… |
 | [`Incident Report Summary`](skills/incident-report-summary/) | Generates structured, litigation-ready summaries from police reports, crash reports, workplace incident… |
-| [`Initial Contact Summary`](skills/initial-contact-summary/) | Generates a structured initial contact summary memorandum from a potential client's first interaction with… |
-| [`Medical Treatment Summary`](skills/medical-treatment-summary/) | Generates litigation-ready narrative medical treatment summaries for personal injury cases. Triggers when… |
+| [`Initial Contact Summary`](skills/initial-contact-summary/) | Generates a structured initial contact summary memorandum from a potential client's first interaction… |
+| [`Medical Treatment Summary`](skills/medical-treatment-summary/) | Generates litigation-ready narrative medical treatment summaries for personal injury cases. Triggers… |
 | [`Pre-Hearing Statement of Proof`](skills/pre-hearing-statement/) | Drafts a Pre-Hearing Statement of Proof for personal injury litigation. Use when preparing prehearing… |
 | [`Warranty Request Timeline`](skills/warranty-timeline/) | Generates a chronological timeline of warranty requests, claims, and complaints for product defect… |
 

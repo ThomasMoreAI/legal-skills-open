@@ -1,0 +1,107 @@
+---
+name: krankenversicherung-selbststaendige-mindestbeitrag
+title: 'Selbstständige: Mindestbeitrag und Einkommensteuerbescheid'
+description: 'Für Selbstständige: Mindestbeitrag und Einkommensteuerbescheid: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/krankenversicherung-selbststaendige-mindestbeitrag
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Selbstständige: Mindestbeitrag und Einkommensteuerbescheid
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+Selbstständige sind in der GKV freiwillig versichert. Kläre **Beitragsbemessung, Mindestbeitrag, Nachweis­pflichten gegenüber der Kasse und Strategien bei überhöhten Beiträgen**.
+
+## Rechtlicher Rahmen
+
+- **§ 240 SGB V** – Beitragsbemessung freiwillig Versicherter; Einkommensbegriff
+- **§ 236 SGB V** – Mindestbemessungsgrundlage (2025: 1.178,33 €/Monat)
+- **§ 226 Abs. 2 SGB V** – Beitrag aus Arbeitseinkommen + weiteren Einkünften
+- **GKV-Spitzenverband – Beitragsverfahrensgrundsätze Selbstzahler** (BVGdS)
+- BSG B 12 KR 7/18 R (Beitragsbemessung Selbstständige), BSG B 12 KR 21/11 R
+- BVerfG 1 BvR 209/07 (Beitrag freiwillig Versicherter, Verfassungsmäßigkeit)
+
+## Beitragsbemessung Selbstständige
+
+| Einkommensquelle | Beitragspflichtig? |
+|-----------------|-------------------|
+| Gewinn aus Gewerbebetrieb | Ja (§ 15 EStG) |
+| Einkünfte aus selbstständiger Arbeit | Ja (§ 18 EStG) |
+| Einkünfte aus Vermietung | Ja |
+| Kapitalerträge | Ja, wenn Besteuerung nicht KapErtSt final |
+| Kindergeld | Nein |
+| Sozialhilfe | Nein |
+| Mindestbemessungsgrundlage | 1.178,33 €/Monat (auch wenn Einkommen niedriger) |
+
+## Prüfprogramm
+
+### Schritt 1 – Einkommensnachweise
+- Aktuellster Einkommensteuerbescheid als Grundlage (Beitragsverfahrensgrundsätze)
+- Neugründung/Einkommensverschlechterung: Prognose-/Schätzungsantrag möglich
+- Kasse setzt vorläufigen Beitrag; Spitzabrechnung nach Vorlage des ESt-Bescheids
+
+### Schritt 2 – Mindestbeitrag
+- Auch wenn Einkommen unter 1.178,33 €/Monat: Mindestbeitrag gilt
+- Ausnahme: hauptberuflich Selbstständige mit sehr niedrigem Einkommen → Härtefallprüfung
+- Neugründer: Prognose kann unter Mindestgrundlage liegen wenn glaubhaft; Nachweis erforderlich
+
+### Schritt 3 – Spitzabrechnung
+- Vorläufiger Beitrag aus Vorjahreseinkommen → Steueränderungsbescheid eingehen lassen
+- Spitzabrechnung: Kasse verrechnet Soll-Beitrag mit tatsächlichem Einkommen
+- Nachzahlung oder Erstattung; Verjährung 4 Jahre (§ 25 SGB IV)
+
+### Schritt 4 – Widerspruch bei überhöhtem Beitrag
+- Kasse setzt Beitrag auf Mindestbemessungsgrundlage oder höher fest
+- Einkommen niedriger: glaubhaft machen + Nachweise
+- BSG: Kasse muss alle Einkommensquellen berücksichtigen, aber auch nur diese
+
+### Schritt 5 – Einkommensoptimierung
+- Betriebsausgaben mindern Gewinn und damit Beitrag
+- Verluste aus anderen Einkunftsarten: seit BSG-Rechtsprechung nicht uneingeschränkt verrechenbar
+- Investitionen in Betrieb: steuerrechtliche Minderung wirkt sich auf GKV-Beitrag aus
+
+## Typische Fallen
+
+- **Kein ESt-Bescheid verfügbar**: Kasse setzt Maximalgrundlage; Prognose mit Kontoauszügen, BWA stellen.
+- **Nebengewerbe bei Anstellung**: Wenn Nebentätigkeit hauptberuflich selbstständig → Versicherungsfreiheit prüfen (§ 5 Abs. 5 SGB V).
+- **Verlustvortrag**: GKV-Beitragsrecht unterscheidet sich von Steuerrecht; Verluste nicht automatisch mindernd.
+- **Jahresausgleich vergessen**: Ohne Spitzabrechnung zu viel gezahlter Beitrag verjährt nach 4 Jahren.
+
+## Output-Formate
+
+- Beitragsschätzungsantrag (Neugründung)
+- Spitzabrechnungsantrag mit ESt-Bescheid
+- Widerspruch gegen Beitragsfestsetzung
+- Einkommens-Beitragsberechnung (Tabelle)
+- Mindestbeitrag-Härtefallantrag
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Quellen
+
+- [§ 240 SGB V – Beitragsbemessung](https://www.gesetze-im-internet.de/sgb_5/__240.html)
+- [GKV-Spitzenverband Beitragsverfahrensgrundsätze](https://www.gkv-spitzenverband.de)
+- [BSG B 12 KR 7/18 R](https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html)
+- [§ 236 SGB V – Mindestbeitrag](https://www.gesetze-im-internet.de/sgb_5/__236.html)
+- [BVerfG 1 BvR 209/07](https://www.bverfg.de/entscheidungen.html)
+- [dejure.org § 240 SGB V](https://dejure.org/gesetze/SGB_V/240.html)

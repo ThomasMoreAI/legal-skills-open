@@ -1,0 +1,120 @@
+---
+name: lessons-learned-nach-rueckgabe
+title: Lessons Learned nach der Leasingrückgabe
+description: 'Für Lessons Learned nach der Leasingrückgabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/leasingrecht-praxis/skills/lessons-learned-nach-rueckgabe
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# Lessons Learned nach der Leasingrückgabe
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Analyse nach der Rückgabe
+
+### Checkliste der Rückgabepunkte
+- War das Rückgabeprotokoll vollständig? Fotos und Unterschriften vorhanden?
+- Hat LN das Objekt in korrektem Zustand zurückgegeben?
+- War der vereinbarte Rückgabezeitpunkt eingehalten?
+- War das Objekt vollständig (Zubehör, Schlüssel, Dokumentation)?
+- Gibt es Streit über Minderwert?
+
+### Ursachenanalyse bei Minderwertstreit
+- Klausel unklar: „Normaler Abnutzung" nicht präzise definiert?
+- Gutachtenprozess: Einseitig oder kontradiktorisch?
+- Keine gemeinsame Besichtigung: Protokoll fehlt
+- § 548 BGB: Wurde die 6-Monate-Frist fast versäumt?
+
+## Häufige Fehlerquellen
+
+### Vertragliche Lücken
+| Fehler | Ursache | Verbesserung |
+|---|---|---|
+| Minderwert unklar | Keine Toleranzdefinition | Katalog normaler Abnutzung einführen |
+| Mehrkilometer streitig | Meilensteine nicht verifiziert | Km-Stand bei Übergabe dokumentiert |
+| Rückgabeort unklar | Nicht im Vertrag | Rückgabeort explizit benennen |
+| Restwert-Überraschung | LN wusste nicht | Bessere Aufklärung bei Vertragsschluss |
+| Versicherungsnachweis vergessen | Kein System | Regelmäßiger Check (jährlich) |
+
+### Prozessschwächen
+- Rückgabeprotokoll ohne Fotos → Beweis fehlt
+- Gutachter zu spät beauftragt → § 548 BGB-Frist knapp
+- Kommunikationslücken zwischen LG-Abteilungen
+
+## Vertragsoptimierungen
+
+### Änderungen im Leasingvertrag
+1. Normaler Abnutzungs-Katalog mit Beispielen (inkl. Fotos als Anlage)
+2. Minderwert-Schwellenwerte (z.B. Kratzer < 10 cm: keine Nachforderung)
+3. Gemeinsame Besichtigungsklausel
+4. Vorabgutachten 3 Monate vor Vertragsende
+5. Kfz: Km-Stand-Dokumentation bei Rückgabe
+
+### Prozessverbesserungen
+1. Erinnerungssystem: 3 Monate vor Vertragsende Besichtigung ankündigen
+2. Standardisierte Rückgabeprotokolle (digital, mit Fotoplätzen)
+3. 6-Monate-Frist-Alarm § 548 BGB automatisch im System
+4. Gutachter-Rahmenvertrag: Schnelle Beauftragung ohne Ausschreibung
+
+## Portfolioentwicklung
+
+### Datenauswertung
+- Wie viele Verträge haben Minderwert-Nachforderungen? (Quote)
+- Welche Objekte haben häufig Streit? (Schadensklasse)
+- Welche LN-Segmente sind problematisch? (Verbraucher, Gewerbe)
+- Ø Minderwert je Objekt und Vertrag
+
+### Kalkulationsanpassung
+- Wenn Rückgabe-Erlöse systematisch unter Restwert: Restwert-Kalkulation anpassen
+- Wenn Minderwert-Quote hoch: Rücklage oder Versicherung?
+
+## Kundenbindung
+
+### Kommunikation mit LN
+- Streit bei Rückgabe: Fundstelle für zukünftige Beziehung?
+- Wenn LN regelmäßiger Kunde: Kulanz bei kleinen Streitigkeiten sinnvoll?
+- Anschlussprojekt: Neue Leasingvertrag besprechen
+
+## Prüfprogramm
+
+1. Rückgabeprotokoll vollständig analysiert?
+2. Minderwert-Streit: Ursache identifiziert (Klausel, Prozess, Gutachten)?
+3. Vertragsklausel überarbeitet (Normalabnutzungs-Katalog, gemeinsame Besichtigung)?
+4. Prozessanpassung (Frist-Alarm, Protokoll-Standard)?
+5. Portfolio-Daten: Minderwertquote, Rückgabeerlöse ausgewertet?
+6. Kundenbindung: Feedback-Gespräch mit LN geführt?
+
+## Normen und Quellen
+
+- § 548 BGB (Verjährung): https://dejure.org/gesetze/BGB/548.html
+- BGH VIII ZR 172/05 (normale Abnutzung): https://www.bgh.de
+- § 307 BGB (AGB Inhaltskontrolle): https://dejure.org/gesetze/BGB/307.html
+- openjur.de Rückgabe-Rechtsprechung: https://openjur.de
+- BGH, Urteil vom 28.05.2014 - VIII ZR 179/13 und VIII ZR 241/13 (Restwertgarantie): https://www.bgh.de
+
+## Output-Formate
+
+- **Lessons-Learned-Protokoll**: Analyse je Rückgabe-Fall
+- **Klausel-Update-Liste**: Welche Klauseln nach Erfahrung anpassen
+- **Prozess-Verbesserungsplan**: Maßnahmen, Verantwortliche, Fristen
+- **Portfolio-Auswertung**: Minderwertquote, Rückgabeerlöse, Trends
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

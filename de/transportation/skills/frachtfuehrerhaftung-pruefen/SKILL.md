@@ -1,18 +1,31 @@
 ---
 name: frachtfuehrerhaftung-pruefen
-title: Frachtführer-Haftung prüfen
-description: 'Frachtführerhaftung für Verlust oder Beschaedigung des Gutes nach HGB prüfen. Normen: §§ 425 427 428 HGB. Prüfraster: Obhutszeitraum, Haftungsbefreiungstatbestaende, Haftungshoechstbetrag 8.33 SZR je Kilogramm. Output: Frachtführerhaftungs-Prüfergebnis. Abgrenzung: nicht Speditionshaftung §§ 454 ff. HGB.'
+title: Frachtführerhaftung für Verlust oder Beschaedigung des Gutes nach HGB prüfen
+description: 'Für Frachtführerhaftung für Verlust oder Beschädigung des Gutes nach HGB prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-transport-speditionsrecht/skills/frachtfuehrerhaftung-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: transportation
 language: de
 ---
 
-# Frachtführer-Haftung prüfen
+# Frachtführerhaftung für Verlust oder Beschaedigung des Gutes nach HGB prüfen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 407 ff. Frachtvertrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Frachtführerhaftung für Verlust oder Beschaedigung des Gutes nach HGB prüfen. Normen: §§ 425 427 428 HGB. Prüfraster: Obhutszeitraum, Haftungsbefreiungstatbestaende, Haftungshoechstbetrag 8.33 SZR je Kilogramm. Output: Frachtführerhaftungs-Prüfergebnis. Abgrenzung: nicht Speditionshaftung §§ 454 ff. HGB.
+
+### Frachtführer-Haftung prüfen
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +43,7 @@ Die Frachtführerhaftung ist das Herzstück des Transportrechts. Der entscheiden
 8. Ist ein Unterfrachtführer (Subunternehmer) beteiligt und wer ist Vertragspartner der Mandantschaft?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -67,8 +80,6 @@ Die Frachtführerhaftung ist das Herzstück des Transportrechts. Der entscheiden
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
@@ -89,23 +100,22 @@ Die Frachtführerhaftung ist das Herzstück des Transportrechts. Der entscheiden
 | 11 | Verjährung berechnen: 1 Jahr ab Ablieferung; Hemmung durch Reklamation | CMR Art. 32, § 439 HGB |
 | 12 | Gerichtsstand bestimmen: CMR Art. 31 Wahl; HGB: § 30 ZPO | CMR Art. 31 |
 | 13 | ADSp-Prüfung: wirksam in Vertrag einbezogen? AGB-Kontrolle § 305 ff. BGB | § 449 HGB, §§ 305 ff. BGB |
-| 14 | Regressmöglichkeiten: Frachtführer gegen Unterfrachtführer | § 437 HGB, CMR Art. 34 ff. |
+| 14 | Regressgrundlage aus Unterfrachtvertrag und gegebenenfalls Gesamtschuldnerausgleich bestimmen; § 437 HGB betrifft die Außenhaftung | §§ 407, 425 HGB, § 426 BGB; CMR Art. 34 ff. nur bei deren besonderen Voraussetzungen |
 
 ---
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Frachtfuehrerhaftung pruefen | Haftungsgutachten; Template unten |
-| Variante A — Mehrere Haftungsgrundlagen | CMR + HGB + StVG konkurrierend pruefen |
+| Standard — Frachtfuehrerhaftung prüfen | Haftungsgutachten; Template unten |
+| Variante A — Mehrere Haftungsgrundlagen | CMR + HGB + StVG konkurrierend prüfen |
 | Variante B — Subunternehmer-Haftung | Durchgriff auf Hauptfrachtfuehrer; CMR Art. 34 ff. |
 | Variante C — Versicherungsuebergang | § 67 VVG Regress Versicherer gegen Frachtfuehrer |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -156,7 +166,6 @@ Haftungshöchstbetrag Art. 23 Abs. 3 CMR: [Y] kg × 8.33 SZR
 IV. Hilfsweise: Qualifiziertes Verschulden
 Hilfsweise machen wir geltend, dass die Beklagte Art. 29 CMR /
 § 435 HGB unterliegt. Sie hat [Darlegung des Organisations-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Bei Erfolg: voller Warenwert EUR [X].
 
 C. ANTRAG
@@ -176,26 +185,25 @@ Aktenzeichen: [...]
 Frachtführer: [Name]
 Transport: [Strecke, Datum]
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 1. EINGANGSSCAN FEHLT
-   [ ] Kein Scan bei Übernahme dokumentiert
-   → Frachtführer kann Übernahme in ordnungsgemäßem Zustand
-     nicht beweisen → Beweislastumkehr
+ [ ] Kein Scan bei Übernahme dokumentiert
+ → Frachtführer kann Übernahme in ordnungsgemäßem Zustand
+ nicht beweisen → Beweislastumkehr
 
 2. SCHNITTSTELLENKONTROLLE
-   [ ] Keine Dokumentation an Umladestation [Ort]
-   → Lücke im Obhutszeitraum nicht erklärbar
+ [ ] Keine Dokumentation an Umladestation [Ort]
+ → Lücke im Obhutszeitraum nicht erklärbar
 
 3. PARKPLATZ / ABSTELLVORGANG
-   [ ] LKW auf unbeleuchtetem, unbewachtem Parkplatz abgestellt
-   [ ] Übernachtung ohne ausreichende Sicherung
-   → Diebstahlrisiko bei hochwertigem Gut nicht ausreichend
-     beachtet (BGH: Frachtführer haftet unbegrenzt)
+ [ ] LKW auf unbeleuchtetem, unbewachtem Parkplatz abgestellt
+ [ ] Übernachtung ohne ausreichende Sicherung
+ → Diebstahlrisiko bei hochwertigem Gut nicht ausreichend
+ beachtet (BGH: Frachtführer haftet unbegrenzt)
 
 4. FAZIT
-   Leichtfertigkeit i.S.d. Art. 29 CMR bejaht:
-   → Unbegrenzte Haftung, voller Warenwert EUR [X]
+ Leichtfertigkeit i.S.d. Art. 29 CMR bejaht:
+ → Unbegrenzte Haftung, voller Warenwert EUR [X]
 
 Belege: [Auflistung]
 ```
@@ -224,14 +232,13 @@ II. KEINE LEICHTFERTIGKEIT
 
 Die Beklagte hat alle üblichen Sicherungsmaßnahmen getroffen:
 [Darlegung: Scans, Kontrollen, Parkplatzsicherung, GPS]
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 kann keine Rede sein.
 
 [Ort, Datum]
 [Unterschrift]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -270,7 +277,6 @@ kann keine Rede sein.
 | "Schaden entstand nicht bei uns, sondern beim Unterfrachtführer" | CMR Art. 3: Frachtführer haftet für alle eingesetzten Personen wie für eigenes Handeln; Regress gegen Unterfrachtführer CMR Art. 37 |
 | "ADSp schränkt unsere Haftung auf 8.33 SZR/kg ein" | § 449 HGB: ADSp-Haftungsbeschränkungen gelten nicht bei qualifiziertem Verschulden; § 435 HGB geht vor |
 | "Eigene Versicherung hat gezahlt; kein Schaden mehr" | § 86 VVG: Versicherung tritt in Ansprüche ein; Direktanspruch gegen Frachtführer bleibt bestehen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -291,7 +297,6 @@ kann keine Rede sein.
 | Situation | Empfehlung |
 |---|---|
 | Haftungshöchstbetrag deckt Schaden | Standardklage nach CMR Art. 17/23 oder § 425/431 HGB; kein Aufwand für qualifiziertes Verschulden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Frachtführer bestreitet Übernahme in ordnungsgemäßem Zustand | CMR Art. 9: Frachtbrief-Vermutung zugunsten Absender; keine gegenteiligen Frachtführer-Vermerke = Frachtführer muss Gegenteil beweisen |
 | Unterfrachtführer-Kette | Direktklage gegen Hauptfrachtführer (CMR Art. 3) und Regressklage gegen Unterfrachtführer (CMR Art. 37) separat führen |
 | Spedition mit ADSp | Prüfen ob Festpreisvereinbarung § 459 HGB: dann volle Frachtführerhaftung trotz ADSp |
@@ -309,4 +314,4 @@ kann keine Rede sein.
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

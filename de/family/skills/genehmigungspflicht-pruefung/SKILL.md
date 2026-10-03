@@ -1,11 +1,11 @@
 ---
 name: genehmigungspflicht-pruefung
 title: Genehmigungspflicht-Prüfung (§§ 1848 ff. BGB)
-description: Prüft, ob ein konkretes Rechtsgeschäft, eine Maßnahme oder eine Entscheidung des Betreuers der Genehmigung des Betreuungsgerichts bedarf (§§ 1848 ff. BGB) — etwa Grundstücksverkauf, Erbausschlagung, Heimvertragsabschluss, Wohnungsauflösung, freiheitsentziehende Maßnahmen. Lädt, wenn Schlagwörter wie "Genehmigung Betreuungsgericht", "§ 1848 BGB", "§ 1850 BGB", "§ 1851 BGB", "freiheitsentziehende Maßnahme" oder "Heimvertrag" auftreten.
+description: 'Für Genehmigungspflicht-Prüfung (Paragrafen 1848 ff. BGB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/genehmigungspflicht-pruefung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: family
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill prüft, ob ein konkret geplantes Rechtsgeschäft oder eine
+Prüfe, ob ein konkret geplantes Rechtsgeschäft oder eine
 Maßnahme des Betreuers nach dem **Vier-Augen-Prinzip** der Genehmigung
 des Betreuungsgerichts bedarf. Die Reform 2023 hat das System der
 Genehmigungspflichten neu strukturiert (§§ 1848–1858 BGB für Vermögens-
@@ -27,7 +27,7 @@ erforderliche Genehmigung sind Geschäfte schwebend unwirksam (§ 1855 BGB).
 
 - **Aufgabenkreise** des Betreuers (Bestellungsurkunde)
 - **Konkret geplante Maßnahme** (z. B. "Verkauf der Eigentumswohnung der
-  betreuten Person in Berlin-Charlottenburg")
+ betreuten Person in Berlin-Charlottenburg")
 - **Beteiligte Personen** (Vertragspartner, Heimträger, Arzt)
 - **Wirtschaftliche Eckdaten** (Kaufpreis, Heimkosten, Darlehenssumme)
 - **Wünsche/Willen der betreuten Person** zum Geschäft (§ 1821 BGB)
@@ -40,29 +40,29 @@ erforderliche Genehmigung sind Geschäfte schwebend unwirksam (§ 1855 BGB).
 Die §§ 1848–1858 BGB regeln **vermögensbezogene** Genehmigungspflichten:
 
 - § 1848 BGB — Grundsatz: Genehmigung des Gerichts bei wesentlichen
-  Vermögensverfügungen
+ Vermögensverfügungen
 - § 1849 BGB — Genehmigung bei Geschäften über Grundstücke und Rechte an
-  Grundstücken
+ Grundstücken
 - § 1850 BGB — Genehmigung bei Erbschaftsangelegenheiten (Annahme/
-  Ausschlagung der Erbschaft, Erbteilsverkauf)
+ Ausschlagung der Erbschaft, Erbteilsverkauf)
 - § 1851 BGB — Genehmigung bei Aufgabe/Auflösung der Wohnung der
-  betreuten Person
+ betreuten Person
 - § 1852 BGB — Genehmigung bei Geschäften über erwerbsmäßige Tätigkeit
 - § 1853 BGB — Genehmigung bei Kreditaufnahme, Verfügungen über Wertpapiere
 - § 1854 BGB — Genehmigung bei Schenkungen (Ausschluss anstandspflichtiger
-  Schenkungen)
+ Schenkungen)
 - § 1855 BGB — Rechtsfolge: schwebende Unwirksamkeit ohne Genehmigung
 
 ### Personenbezogene Maßnahmen (§§ 1828–1834 BGB)
 
 - § 1828 BGB — Einwilligung in ärztliche Maßnahmen
 - § 1829 BGB — Genehmigung bei lebensgefährlichen oder schwer
-  beeinträchtigenden ärztlichen Maßnahmen
+ beeinträchtigenden ärztlichen Maßnahmen
 - § 1831 BGB — Genehmigung **freiheitsentziehender Unterbringung**
-  (geschlossene Heimunterbringung, geschlossene psychiatrische Klinik)
+ (geschlossene Heimunterbringung, geschlossene psychiatrische Klinik)
 - § 1832 BGB — Genehmigung **freiheitsentziehender Maßnahmen** in offener
-  Einrichtung (Bettgitter, Bauchgurt, sedierende Medikamente zur
-  Bewegungseinschränkung)
+ Einrichtung (Bettgitter, Bauchgurt, sedierende Medikamente zur
+ Bewegungseinschränkung)
 
 ### § 1855 BGB — Schwebende Unwirksamkeit
 
@@ -85,71 +85,36 @@ Weitere Rechtsprechung nicht aus Modellwissen zitieren; vor Ausgabe über bundes
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 1. **Aufgabenkreis prüfen**
-   Liegt die geplante Maßnahme überhaupt im übertragenen Aufgabenkreis?
-   (Vermögenssorge / Gesundheitssorge / Aufenthaltsbestimmung — § 1815 BGB).
-   Fehlt der Aufgabenkreis, ist Erweiterung beim Gericht zu beantragen.
+ Liegt die geplante Maßnahme überhaupt im übertragenen Aufgabenkreis?
+ (Vermögenssorge / Gesundheitssorge / Aufenthaltsbestimmung — § 1815 BGB).
+ Fehlt der Aufgabenkreis, ist Erweiterung beim Gericht zu beantragen.
 
 2. **Tatbestand der Genehmigungspflicht prüfen**
-   Subsumtion unter konkreten §§ 1848 ff. BGB bzw. §§ 1831, 1832 BGB.
+ Subsumtion unter konkreten §§ 1848 ff. BGB bzw. §§ 1831, 1832 BGB.
 
 3. **Wunsch der betreuten Person ermitteln (§ 1821 BGB)**
-   Auch bei genehmigungspflichtigen Geschäften ist der Wille der betreuten
-   Person primärer Maßstab.
+ Auch bei genehmigungspflichtigen Geschäften ist der Wille der betreuten
+ Person primärer Maßstab.
 
 4. **Antrag beim Betreuungsgericht stellen**
-   Schriftlich oder zur Niederschrift der Geschäftsstelle. Beizufügen:
-   - Begründung der Maßnahme
-   - Wirtschaftliche Eckdaten (Verkehrswertgutachten, Kostenvoranschlag)
-   - Stellungnahme zum Willen der betreuten Person
-   - Bei medizinischen Maßnahmen: ärztliches Zeugnis / Gutachten
+ Schriftlich oder zur Niederschrift der Geschäftsstelle. Beizufügen:
+ - Begründung der Maßnahme
+ - Wirtschaftliche Eckdaten (Verkehrswertgutachten, Kostenvoranschlag)
+ - Stellungnahme zum Willen der betreuten Person
+ - Bei medizinischen Maßnahmen: ärztliches Zeugnis / Gutachten
 
 5. **Anhörung durch das Gericht abwarten**
-   Persönliche Anhörung der betreuten Person grundsätzlich Pflicht
-   (§ 278 FamFG); bei Unterbringung Sachverständigengutachten
-   zwingend (§ 321 FamFG).
+ Persönliche Anhörung der betreuten Person grundsätzlich Pflicht
+ (§ 278 FamFG); bei Unterbringung Sachverständigengutachten
+ zwingend (§ 321 FamFG).
 
 6. **Genehmigungsbeschluss umsetzen**
-   Geschäft erst nach Rechtskraft des Beschlusses vollziehen. Bei
-   Grundstücken: Beschluss als Anlage zum Notarvertrag.
-
-## Ausgabeformat
-
-Strukturierte Prüfung in folgender Form:
-
-```
-Genehmigungspflicht-Prüfung
-Geplante Maßnahme:    [konkret]
-Geprüft am:           [Datum]
-Betreute Person:      [Name, AZ]
-Aufgabenkreise:       [Aufzählung]
-
-1. Aufgabenkreis-Zuordnung
-   [Ja/Nein, Begründung]
-
-2. Einschlägige Rechtsnorm
-   [§ XXXX BGB — Tatbestand]
-
-3. Subsumtion
-   [Tatbestandsmerkmal 1 — erfüllt/nicht erfüllt — Begründung]
-   [Tatbestandsmerkmal 2 — ...]
-
-4. Wunsch und Wille der betreuten Person (§ 1821 BGB)
-   [Ermittelt durch ..., Inhalt: ...]
-
-5. Ergebnis
-   [ ] genehmigungspflichtig — Antrag beim Betreuungsgericht erforderlich
-   [ ] nicht genehmigungspflichtig — Begründung
-   [ ] Aufgabenkreis-Erweiterung erforderlich
-
-6. Empfohlene Anlagen für Genehmigungsantrag
-   [Liste]
-
-7. Belege
-   [BGH-Entscheidungen, Kommentarstellen]
-```
+ Geschäft erst nach Rechtskraft des Beschlusses vollziehen. Bei
+ Grundstücken: Beschluss als Anlage zum Notarvertrag.
 
 ## Beispiel
 
@@ -165,10 +130,9 @@ anzubringen sowie ein leichtes Sedativum (Pipamperon 20 mg) zu verabreichen.
 >
 > *3. Subsumtion:*
 > - Maßnahme: Bettgitter + sedierende Medikation
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
->   Rn. 27 ff. — auch in offener Einrichtung)
+> Rn. 27 ff. — auch in offener Einrichtung)
 > - Sedativum: Wenn primär zur Bewegungseinschränkung verabreicht
->   (nicht therapeutisch), ebenfalls § 1832 BGB
+> (nicht therapeutisch), ebenfalls § 1832 BGB
 > - Regelmäßigkeit: jede Nacht — Tatbestand erfüllt
 >
 > *4. Wille der betreuten Person:* Frau K. wurde am 18.02.2026 befragt
@@ -217,7 +181,6 @@ greift bei vorzeitiger Antragstellung.
 
 **6. Verkehrswert nicht belegt**
 Beim Grundstücksverkauf ist Verkehrswertgutachten oder Maklerwert-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Behauptungen genügen nicht.
 
 **7. Vorsorgevollmacht verdrängt Betreuung**
@@ -230,7 +193,6 @@ ist subsidiär.
 Bei jeder Ausgabe sind mindestens folgende Belege anzugeben:
 
 - §§ 1848 ff. BGB, §§ 1831, 1832 BGB (einschlägige Rechtsnormen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 - Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; nur Nutzerquelle oder lizenzierte Live-Verifikation verwenden.
@@ -239,3 +201,5 @@ Bei jeder Ausgabe sind mindestens folgende Belege anzugeben:
 *Dieser Skill ersetzt keine konkrete fachliche Beratung im Einzelfall.
 Vor jeder genehmigungspflichtigen Maßnahme ist der Antrag durch den
 verantwortlichen Betreuer zu prüfen.*
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

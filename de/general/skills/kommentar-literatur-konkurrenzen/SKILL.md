@@ -1,0 +1,73 @@
+---
+name: kommentar-literatur-konkurrenzen
+title: Quellenhinweis ohne Blindzitate
+description: 'Für Quellenhinweis ohne Blindzitate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/kommentar-literatur-konkurrenzen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Quellenhinweis ohne Blindzitate
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Quellenklassen und Umgang
+
+### Klasse 1 — Gesetzestext (frei prüfbar, höchste Verlässlichkeit)
+
+- **Bundesrecht:** gesetze-im-internet.de (amtlich, tagesaktuell)
+- **EU-Recht:** eur-lex.europa.eu (konsolidierte Fassungen)
+- **Landesrecht:** jeweilige Landesrechtsdatenbanken (z. B. landesrecht.nrw.de)
+- **Nutzung:** Norm direkt zitieren mit Fassungsstand; kein "nach h. M. gilt §..." ohne eigene Prüfung
+
+### Klasse 2 — Verifizierte Rechtsprechung (frei prüfbar bei Aktenzeichen-Angabe)
+
+- **BGH:** bgh.de, dejure.org, openjur.de
+- **BVerfG:** bverfg.de
+- **BAG, BVerwG, BSG, BFH:** jeweilige Behördenwebseiten; dejure.org als Querverweisquelle
+- **EuGH/EuG:** curia.europa.eu
+- **Nutzung:** Gericht + Entscheidungsform + Datum + Aktenzeichen + tragender Rechtssatz; immer als Prüfpunkt markieren, wenn nicht live verifiziert
+
+### Klasse 3 — Nutzerbereitgestellte Literatur (erlaubt mit Kennzeichnung)
+
+- Kommentare (Palandt/Grüneberg, MüKo, Staudinger, Schönke/Schröder etc.), die der Nutzer als Text einstellt
+- Aufsätze, Handbücher, Gutachten aus lizenzierter Datenbank, wenn der Nutzer den Volltext bereitstellt
+- **Nutzung:** Zitierung mit Fundstelle (Autor, Werk, Auflage, Rn.); als "aus Nutzerquelle" kennzeichnen; nicht als frei verifizierbarer Nachweis behandeln
+
+### Klasse 4 — Modellwissen (verboten für Zitate)
+
+- BeckRS-, juris-, NJW-, NZA-, NJW-RR-Blindzitate aus dem Modellwissen
+- Randnummern, die nicht live geprüft wurden
+- "nach allgemeiner Ansicht" oder "h. M." ohne konkrete Quelle
+
+## Ausgabe-Tabelle
+
+| Punkt | Prüfbedarf | Quelle |
+|---|---|---|
+| Norm/TBM | Welche dogmatische Frage ist offen? | Gesetz (gesetze-im-internet.de) oder verifizierte Rechtsprechung oder Nutzerquelle |
+
+## Recherche-Strategie für offene Fragen
+
+Wenn Nutzer keine Literatur bereithält und eine Frage literaturbedürftig ist:
+
+1. **Gesetzestext zuerst:** Wortlaut, systematischer Kontext, Überschriften, Legaldefinitionen
+2. **Rechtsprechungsrecherche:** dejure.org (Suchfeld Norm + Stichworte); bgh.de (Volltext); curia.europa.eu (EU-Fragen)
+3. **Suchstrategie-Hinweis:** Konkrete Suchbegriffe benennen (z. B. "§ 280 BGB Pflichtverletzung Unterlassen Verkehrssicherung") für kostenpflichtige Datenbanken (beck-online, juris)
+4. **Offene Frage markieren:** Was ist noch zu klären, bevor der Schriftsatz finalisiert wird?
+
+## Schneller Arbeitsmodus
+
+- Dieses Fachmodul als Quellenhygiene-Gate: keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+- Frage nach vorhandenen lizenzierten Quellen oder frei zugänglichen Materialien. Wenn keine vorliegen, liefere nur Normen, Rechtsprechungs-Recherchefragen und Suchstrategie.
+- Trenne sauber zwischen gesichertem Gesetzestext, verifizierter Rechtsprechung, Nutzerquelle und offenem Literaturbedarf.

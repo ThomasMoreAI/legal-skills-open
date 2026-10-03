@@ -1,11 +1,11 @@
 ---
 name: privacy-policy-drafting
 title: Privacy Policy Drafting
-description: Generate GDPR and CCPA-compliant privacy policies tailored to specific business models and data collection practices.
+description: Draft privacy-policy language and a review checklist tailored to a business model, data practices, and relevant jurisdictions. Use when the user requests a privacy policy or needs to map disclosures for GDPR, CCPA, or similar frameworks; do not use it to guarantee legal compliance.
 author: seb1n
 author_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main/legal-and-compliance/privacy-policy-drafting
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection
@@ -14,7 +14,7 @@ language: en
 
 # Privacy Policy Drafting
 
-Generate comprehensive, legally-informed privacy policies that address GDPR, CCPA, and other applicable data protection regulations. This skill takes business context, data collection practices, and technical architecture as inputs and produces a structured privacy policy with all required disclosures, consent mechanisms, and data subject rights sections.
+Draft legally informed privacy-policy language that addresses potentially applicable privacy frameworks and exposes unresolved business inputs. Treat the result as a working draft and review checklist, not proof of compliance. Verify current law, regulator guidance, product behavior, and jurisdiction with qualified counsel before publication.
 
 ## Workflow
 
@@ -93,6 +93,13 @@ Given the sensitive nature of location and health data, we implement layered con
 - Provide a data retention schedule with specific timeframes rather than "as long as necessary."
 - Address cookie consent with granular categories (strictly necessary, functional, analytics, advertising) per ePrivacy Directive requirements.
 - Include a direct contact method (email, form) for privacy inquiries with a stated response timeframe (e.g., 30 days for GDPR requests).
+
+## Safety Boundaries
+
+- Treat the output as informational drafting or issue spotting, not legal advice.
+- Identify the governing jurisdiction and relevant effective date; verify changing requirements against current primary sources.
+- Do not claim that language is compliant, enforceable, or complete. Flag uncertainty and recommend qualified counsel for material decisions.
+- Do not file, publish, accept, sign, or send legal terms without the user reviewing and explicitly authorizing that action.
 
 ## Edge Cases
 

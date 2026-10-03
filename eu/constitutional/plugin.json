@@ -1,0 +1,14 @@
+{
+  "name": "eu-constitutional",
+  "displayName": "Constitutional & Public Law — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "constitutional",
+  "language": "de",
+  "skills": [
+    "skills/eu-2024-900-politische-werbung"
+  ]
+}

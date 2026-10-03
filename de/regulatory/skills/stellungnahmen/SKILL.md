@@ -1,11 +1,11 @@
 ---
 name: stellungnahmen
 title: Konsultationsbeiträge
-description: 'Stellungnahme zu Regulierungsvorhaben oder Konsultationsverfahren verfassen. GG Art. 12 Art. 80 AEUV DSGVO KWG WpHG. Prüfraster: Konsultationsumfang regulatorische Ziele Kritikpunkte Alternativvorschlaege Verhältnismäßigkeit. Output: strukturierte Stellungnahme mit Einzelanmerkungen Aenderungsvorschlaegen. Abgrenzung: nicht für interne Compliance-Analysen.'
+description: 'Für Konsultationsbeiträge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/regulatorisches-recht/skills/stellungnahmen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,13 @@ language: de
 
 # Konsultationsbeiträge
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill unterstützt bei der Bearbeitung offener Konsultationszeiträume von Aufsichtsbehörden. Er hilft, Konsultationsentwürfe zu analysieren, die eigene Betroffenheit zu beurteilen, eine Entscheidung zur Teilnahme zu treffen und einen begründeten Stellungnahmebeitrag zu verfassen. Einsatzfelder: BaFin-Konsultationen (Rundschreiben, Merkblätter), BNetzA-Konsultationen (EnWG, TKG), EBA- und ESMA-Konsultationen (CRR, MiFID II, DORA), EU-Kommissions-Konsultationen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: WpHG; EnWG; HeilMWerbG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -33,15 +37,15 @@ Falls noch nicht im Kommentar-Tracker eingetragen:
 
 ```yaml
 konsultation:
-  behoerde: "[BaFin / EBA / ESMA / BNetzA / EU-Kommission]"
-  titel: "[Vollständiger Titel des Konsultationsdokuments]"
-  referenz: "[z. B. BaFin-RS 2024/xx | EBA/CP/2024/xx]"
-  kommentierungsfrist: "[TT.MM.JJJJ]"
-  einreichungsform: "[E-Mail / Online-Portal / Postalisch]"
-  einreichungsadresse: "[URL oder E-Mail]"
-  status: "offen"
-  entscheidung: "[teilnehmen / nicht teilnehmen / offen]"
-  eigentuemer: "[Name / Team]"
+ behoerde: "[BaFin / EBA / ESMA / BNetzA / EU-Kommission]"
+ titel: "[Vollständiger Titel des Konsultationsdokuments]"
+ referenz: "[z. B. BaFin-RS 2024/xx | EBA/CP/2024/xx]"
+ kommentierungsfrist: "[TT.MM.JJJJ]"
+ einreichungsform: "[E-Mail / Online-Portal / Postalisch]"
+ einreichungsadresse: "[URL oder E-Mail]"
+ status: "offen"
+ entscheidung: "[teilnehmen / nicht teilnehmen / offen]"
+ eigentuemer: "[Name / Team]"
 ```
 
 Datei schreiben: `~/.claude/plugins/config/claude-fuer-deutsches-recht/regulatorisches-recht/comment-tracker.yaml`
@@ -118,17 +122,10 @@ einreichungsdatum: "[TT.MM.JJJJ]"
 einreichungsbestaetigung: "[Aktenzeichen / Eingangsbestätigung]"
 ```
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
-§§ 47-51 GGO (Verbands-Anhoerung, Stellungnahme-Verfahren) — Art. 41 GRCh (Recht auf gute Verwaltung, Anhoerungsrecht) — §§ 28, 29 VwVfG (Anhoerungsrecht im Verwaltungsverfahren) — §§ 2, 3 UmwRG (Verbandsklage, Stellungnahme)
+§§ 47-51 GGO (Verbands-Anhörung, Stellungnahme-Verfahren) — Art. 41 GRCh (Recht auf gute Verwaltung, Anhörungsrecht) — §§ 28, 29 VwVfG (Anhörungsrecht im Verwaltungsverfahren) — §§ 2, 3 UmwRG (Verbandsklage, Stellungnahme)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Quellen und Zitierweise
 
 Zitierweise: `../../../references/zitierweise.md`
@@ -144,13 +141,6 @@ Einschlägige Normen und Verlautbarungen:
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.
 - Lerch, ZAG, 2. Aufl. 2020 (Zahlungsdiensteaufsicht).
-
-## Ausgabeformat
-
-- **Tracking-Tabelle:** Offene Konsultationen mit Frist, Status, Eigentümer
-- **Relevanzmatrix:** Tabelle der betroffenen Abschnitte
-- **Stellungnahmenentwurf:** Behördenkonformes Format (Brief oder Antwortbogen)
-- Reviewer-Header und Prüfernotiz wie in CLAUDE.md definiert
 
 ## Beispiel
 
@@ -191,6 +181,4 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ---
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -10,7 +10,7 @@ Jurisdiction: `eu` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Structured e-invoicing in Europe`](skills/einvoicing-eu-clemensjl/) | Use when building, sending, receiving or validating structured electronic invoices in Europe — EN 16931, UBL… |
+| [`Structured e-invoicing in Europe`](skills/einvoicing-eu-clemensjl/) | Use when building, sending, receiving or validating structured electronic invoices in Europe — EN 16931… |
 
 ## Cold-start context
 

@@ -1,22 +1,44 @@
 ---
 name: klage-versicherer-strategie
-title: Klage gegen Versicherer — Strategie
-description: Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz. Anwendungsfall alle außergerichtlichen Einigungsversuche sind gescheitert und Klage muss strategisch vorbereitet werden. Normen § 14 VVG Fälligkeit Verzug § 215 VVG örtliche Zuständigkeit § 204 BGB Hemmung § 256 ZPO Feststellungsantrag GVG Streitwert. Prüfraster Streitwert Zuständigkeit Klageantrag Substantiierung Beweisangebote Sachverständiger Zeugen Urkundenbeweis Mahnverfahren Zinsen Anwaltskosten. Output Klage-Strategie-Memo mit Antragsformulierung Beweiskonzept Kostenrisikobewertung. Abgrenzung zu fachanwalt-versicherungsrecht-deckungsklage und schriftsatzkern-substantiierung.
+title: Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz
+description: 'Für Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/klage-versicherer-strategie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
 language: de
 ---
 
-# Klage gegen Versicherer — Strategie
+# Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz
 
-## Zweck
 
-Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — bezifferter Hauptantrag plus Hilfsanträge plus Beweisangebote. Dieser Skill deckt alle Spartenspezifika ab (Sachversicherung, BU, Lebensversicherung, Haftpflicht, Cyber) und führt durch die prozessualen Besonderheiten des Versicherungsprozesses.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Klagestrategie gegen Versicherer nach erfolgloser außergerichtlicher Korrespondenz. Anwendungsfall alle außergerichtlichen Einigungsversuche sind gescheitert und Klage muss strategisch vorbereitet werden. Normen § 14 VVG Fälligkeit Verzug § 215 VVG örtliche Zuständigkeit § 204 BGB Hemmung § 256 ZPO Feststellungsantrag GVG Streitwert. Prüfraster Streitwert Zuständigkeit Klageantrag Substantiierung Beweisangebote Sachverständiger Zeugen Urkundenbeweis Mahnverfahren Zinsen Anwaltskosten. Output Klage-Strategie-Memo mit Antragsformulierung Beweiskonzept Kostenrisikobewertung. Abgrenzung zu fachanwalt-versicherungsrecht-deckungsklage und schriftsatzkern-substantiierung.
+
+### Klage gegen Versicherer — Strategie
 
 ## Kaltstart-Rückfragen
 
@@ -28,7 +50,7 @@ Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — beziffert
 6. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 7. Wurde die Ombudsstelle eingeschaltet — Hemmungswirkung § 204 BGB dokumentiert?
 8. Droht Verjährung (3 Jahre §§ 195, 199 BGB)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -39,7 +61,6 @@ Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — beziffert
 - **§ 28 VVG** — Obliegenheitsverletzung; Leistungsfreiheit bei Vorsatz; quotal bei grober Fahrlässigkeit; Kausalität § 28 Abs. 3 VVG.
 - **§ 81 VVG** — Herbeiführung Versicherungsfall grob fahrlässig; quotale Kürzung.
 - **§ 215 VVG** — Gerichtsstand Wohnsitz des VN; Verbraucherschutz; alternativ allgemeiner Gerichtsstand Versicherer § 17 ZPO.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **§ 9 ZPO** — Streitwert bei wiederkehrenden Leistungen: 3,5-facher Jahreswert (deckelnder Wert bei kürzerer Restlaufzeit).
 - **§§ 280, 286, 288 BGB** — Verzug; Zinsen 5 Prozentpunkte über Basiszinssatz; Ersatz Verzugsschadens (Anwaltskosten).
 - **§§ 195, 199, 203, 204 BGB** — Verjährung 3 Jahre; Hemmung durch Verhandlungen, Ombudsstelle.
@@ -50,14 +71,11 @@ Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — beziffert
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Nr. | Prüfschritt | Norm | Konsequenz |
 |---|---|---|---|
@@ -66,7 +84,6 @@ Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — beziffert
 | 3 | Örtliche Zuständigkeit? | § 215 VVG | Wohnsitz VN (Verbraucherschutz) |
 | 4 | Verjährung noch nicht abgelaufen? | §§ 195, 199, 203, 204 BGB | Hemmung durch Ombudsstelle dokumentieren |
 | 5 | Vollständige außergerichtliche Phase? | § 14 VVG | Pflicht zur Abmahnung vor Klage bei noch laufender Prüfung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 7 | Beweisführung Versicherungsfall? | Urkundenbeweis, SV, Zeugen | Alle Beweismittel benennen |
 | 8 | Obliegenheitsverletzung des VN? | § 28 VVG | Kausalitätsdefense § 28 Abs. 3 VVG |
 | 9 | Grob fahrlässige Herbeiführung? | § 81 VVG | Quotale Kürzung; Verschuldensgrad |
@@ -75,21 +92,19 @@ Nach erfolgloser außergerichtlicher Phase die Klage strukturieren — beziffert
 | 12 | Anwaltskosten außergerichtlich einklagbar? | § 249 BGB | Ab Verzugseinritt erstattungsfähig |
 | 13 | Sachverständige bestellt / vorgesehen? | § 411 ZPO; § 379 ZPO | Bei BU: medizinischer SV; bei Sachschaden: technischer SV |
 | 14 | PKH-Antrag oder Rechtsschutz-Deckung? | § 114 ZPO | Deckungszusage RS-Versicherung vorab |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Klage gegen Versicherer strategisch planen | Klagestrategie nach Pruefschema; Template unten |
+| Standard — Klage gegen Versicherer strategisch planen | Klagestrategie nach Prüfschema; Template unten |
 | Variante A — Aussichten gut aber Vergleich schneller | Vergleichsverhandlung vor Klageerhebung einleiten |
-| Variante B — Beweislage unsicher Sachverstaendiger noetig | Selbstaendiges Beweisverfahren zuerst; Klage nach Gutachten |
+| Variante B — Beweislage unsicher Sachverstaendiger noetig | Selbständiges Beweisverfahren zuerst; Klage nach Gutachten |
 | Variante C — Mehrere Versicherer beteiligt Abstimmung noetig | Federführungs-Versicherer bestimmen; Klagen koordiniert stellen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -101,13 +116,13 @@ An das [Amtsgericht / Landgericht] [Ort]
 KLAGESCHRIFT
 
 [Vorname Nachname], [Adresse]
-                                              — Kläger —
+ — Kläger —
 Prozessbevollmächtigte: Rechtsanwältinnen/Rechtsanwälte [Kanzlei]
 
 gegen
 
 [Versicherungs-AG], vertreten durch den Vorstand
-                                              — Beklagte —
+ — Beklagte —
 
 wegen Versicherungsleistung (Hausrat/Gebäude/[Sparte])
 Streitwert: EUR ____
@@ -115,18 +130,18 @@ Streitwert: EUR ____
 I. ANTRÄGE
 
 1. Die Beklagte wird verurteilt, an den Kläger EUR [Hauptforderung]
-   nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz
-   seit [Datum Verzugseinritt] zu zahlen.
+ nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz
+ seit [Datum Verzugseinritt] zu zahlen.
 
 2. Die Beklagte wird verurteilt, an den Kläger vorgerichtliche
-   Anwaltskosten in Höhe von EUR [Betrag] (1,3 Geschäftsgebühr
-   Nr. 2300 VV RVG aus EUR [Gegenstandswert] + USt + Auslagen)
-   zu zahlen.
+ Anwaltskosten in Höhe von EUR [Betrag] (1,3 Geschäftsgebühr
+ Nr. 2300 VV RVG aus EUR [Gegenstandswert] + USt + Auslagen)
+ zu zahlen.
 
 3. Die Kosten des Rechtsstreits trägt die Beklagte.
 
 4. Das Urteil ist gegen Sicherheitsleistung in Höhe von 110 %
-   des zu vollstreckenden Betrags vorläufig vollstreckbar.
+ des zu vollstreckenden Betrags vorläufig vollstreckbar.
 
 II. SACHVERHALT
 
@@ -144,16 +159,16 @@ Anlage K3, ab.
 III. RECHTLICHE WÜRDIGUNG
 
 1. Versicherungsfall liegt vor (vgl. § [X AVB])
-   [Subsumtion]
+ [Subsumtion]
 
 2. Ablehnungsgrund trägt nicht
-   [Obliegenheitsverletzung fehlt / Risikoausschluss unwirksam /
-    Kausalität fehlt § 28 Abs. 3 VVG]
-   BGH-Rechtsprechung zu Transparenzgebot (§ 307 Abs. 1 S. 2 BGB).
+ [Obliegenheitsverletzung fehlt / Risikoausschluss unwirksam /
+ Kausalität fehlt § 28 Abs. 3 VVG]
+ BGH-Rechtsprechung zu Transparenzgebot (§ 307 Abs. 1 S. 2 BGB).
 
 3. Fälligkeit und Verzug
-   Der Anspruch ist gemäß § 14 VVG fällig. Verzug trat am
-   [Datum] ein (Ablauf der Frist aus Anwaltsschreiben Anlage K4).
+ Der Anspruch ist gemäß § 14 VVG fällig. Verzug trat am
+ [Datum] ein (Ablauf der Frist aus Anwaltsschreiben Anlage K4).
 
 IV. BEWEISANGEBOTE
 
@@ -161,7 +176,7 @@ IV. BEWEISANGEBOTE
 - Anlage K2: Versicherungsschein mit AVB
 - Anlage K3: Ablehnungsschreiben
 - Sachverständigengutachten zum Nachweis des Schadens:
-  Sachverständiger [Name] oder gerichtlich zu bestellen
+ Sachverständiger [Name] oder gerichtlich zu bestellen
 - Zeuge: [Name, Anschrift, Beweisthema]
 
 [Rechtsanwälte]
@@ -173,15 +188,15 @@ IV. BEWEISANGEBOTE
 II. ANTRÄGE BU-VERSICHERUNG
 
 1. Es wird festgestellt, dass die Beklagte verpflichtet ist, dem
-   Kläger ab dem [Datum] aus dem Versicherungsvertrag (Police Nr.
-   [Nr.]) eine monatliche Berufsunfähigkeitsrente in Höhe von
-   EUR [X] sowie Beitragsbefreiung zu gewähren, solange Berufs-
-   unfähigkeit von mindestens 50 % im Beruf des Klägers als
-   [Berufsbezeichnung] besteht.
+ Kläger ab dem [Datum] aus dem Versicherungsvertrag (Police Nr.
+ [Nr.]) eine monatliche Berufsunfähigkeitsrente in Höhe von
+ EUR [X] sowie Beitragsbefreiung zu gewähren, solange Berufs-
+ unfähigkeit von mindestens 50 % im Beruf des Klägers als
+ [Berufsbezeichnung] besteht.
 
 2. Die Beklagte wird verurteilt, die aufgelaufenen Rückstände
-   für den Zeitraum [Beginn] bis [aktuell] in Höhe von EUR [X]
-   nebst Zinsen von 5 % über Basiszinssatz ab [Datum] zu zahlen.
+ für den Zeitraum [Beginn] bis [aktuell] in Höhe von EUR [X]
+ nebst Zinsen von 5 % über Basiszinssatz ab [Datum] zu zahlen.
 
 III. VERSICHERUNGSFALL BERUFSUNFÄHIGKEIT
 
@@ -191,7 +206,6 @@ auszuüben. Sein konkretes Berufsbild umfasste folgende Tätigkeiten:
 [Detailbeschreibung der Haupttätigkeiten mit Zeitanteilen].
 
 Beweis: Sachverständigengutachten bezogen auf die konkrete
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Eine Verweisung auf Vergleichsberufe ist nach § [X] AVB
 ausgeschlossen / nach aktuellen AVB nicht vorgesehen.
@@ -199,7 +213,6 @@ ausgeschlossen / nach aktuellen AVB nicht vorgesehen.
 IV. FESTSTELLUNGSINTERESSE
 
 Feststellungsinteresse besteht, da die Beklagte die Leistungspflicht
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
 
 ### Baustein 3 — Antrag auf Prozesskostenhilfe
@@ -227,17 +240,16 @@ Ratenzahlung in Höhe von EUR [Betrag] monatlich wird angeboten.
 [Rechtsanwälte]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Beweislast und Darlegungslast
 
@@ -267,7 +279,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 |---|---|
 | Versicherungsfall nicht eingetreten | AVB-Definition schmal auslegen versuchen; § 305c Abs. 2 BGB gegen Versicherer |
 | Obliegenheitsverletzung — Verspätete Anzeige | § 28 Abs. 3 VVG: Kausalität; fehlende Kausalität beseitigt Leistungsfreiheit |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Forderung verjährt | Hemmungszeiträume (Ombudsstelle, Verhandlungen) in Rechnung stellen |
 | AVB-Ausschluss eindeutig | Transparenztest § 307 Abs. 1 S. 2 BGB; Auslegung § 305c Abs. 2 BGB |
 | Mahnverfahren zumutbar | Bei BU oder Feststellungsklage: Mahnverfahren ungeeignet; direkte Klage |
@@ -301,14 +312,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Ergänzung
 

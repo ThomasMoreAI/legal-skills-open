@@ -1,15 +1,22 @@
 ---
 name: gdpr-dsgvo-expert
 title: GDPR/DSGVO Expert
-description: GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Use for GDPR compliance assessments, privacy audits, data protection planning, DPIA generation, and data subject rights management.
+description: GDPR and German DSGVO compliance. Use for GDPR compliance assessments, privacy audits, scanning codebases for privacy risks, DPIA generation, data protection planning, and data subject rights management.
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/gdpr-dsgvo-expert
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
 language: en
+sources:
+- title: Dpia methodology
+  path: references/dpia_methodology.md
+- title: Gdpr compliance guide
+  path: references/gdpr_compliance_guide.md
+- title: German bdsg requirements
+  path: references/german_bdsg_requirements.md
 ---
 
 # GDPR/DSGVO Expert
@@ -166,6 +173,16 @@ Step-by-step DPIA process:
 - Templates and checklists
 
 ---
+
+## Clarify First
+
+Before running the assessment, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Task** — codebase compliance scan, DPIA generation, or data-subject-rights tracking (selects the tool and workflow)
+- [ ] **Role and jurisdiction** — controller vs processor; GDPR-only vs German BDSG applies (BDSG adds the DPO threshold, §26 employment, and §4 video rules)
+- [ ] **Processing characteristics** — high-risk processing such as profiling, AI, or large-scale special-category data (determines whether a DPIA is required)
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the assessment.
 
 ## Workflows
 

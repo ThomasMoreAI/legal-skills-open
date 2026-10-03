@@ -1,24 +1,21 @@
 ---
 name: plain-english-jeremylongshore
 title: Plain English — Legalese to Plain Language Translator
-description: 'Translates every clause of a contract into plain language at an 8th-grade
-
-  reading level and flags deliberately confusing language patterns. Use when
-
-  a user says "explain this contract", "what does this mean", or needs a
-
-  non-lawyer to understand an agreement. Trigger with "/plain-english" or
-
-  "translate this contract to plain English".'
+description: Translates every clause of a contract into plain language at an 8th-grade reading level and flags deliberately confusing language patterns. Use when a user says "explain this contract", "what does this mean", or needs a non-lawyer to understand an agreement. Trigger with "/plain-english" or "translate this contract to plain English".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/plain-english
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, plain-language, readability, translation, accessibility]
+tags:
+- legal
+- plain-language
+- readability
+- translation
+- accessibility
 ---
 
 # Plain English — Legalese to Plain Language Translator

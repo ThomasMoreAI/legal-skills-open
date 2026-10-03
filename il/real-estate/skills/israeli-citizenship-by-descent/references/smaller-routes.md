@@ -1,0 +1,21 @@
+# Smaller descent and restitution routes (Tier 3)
+
+Moved out of SKILL.md on 2026-09-19 to keep the body under the 5,000-word cap. Content unchanged. SKILL.md keeps the two traps an agent must never miss (Greece is for the victim only; Latvia's dual-citizenship allowance).
+
+| Route | Status | Who qualifies | Key points |
+|-------|--------|---------------|------------|
+| Czechia | Open | Children and grandchildren of a former Czech or Czechoslovak citizen, by declaration, not open to current Slovak citizens | The ancestor must have lost citizenship by 31 December 2013. Confirm generational reach and current fees with the Czech mission |
+| Latvia | Open, narrow | Someone who was a Latvian citizen on 17 June 1940, or a descendant, where that person left Latvia between 17 June 1940 and 4 May 1990 escaping the U.S.S.R. or German occupation regime or was deported, and did not return for permanent residence by 4 May 1990 | Section 8.1 of the Citizenship Law. Critical for Israelis: paragraph (3) says dual citizenship may occur for these registrants, which matters because Israel is not on Latvia's general dual-citizenship list in Section 9. Trap: paragraph (2) covers descendants born until 1 October 2014. An application is examined within four months. A family that emigrated before 1940 is outside Section 8.1 |
+| Greece, Holocaust-victim restoration | Open, but the victim only | Living persons of Jewish descent, citizens of Israel or another country, born in Greece up to 9 May 1945, who previously held Greek citizenship from birth and lost it for any reason | A dedicated restoration procedure, filed at the Greek consulate for the place of residence, in person or by post, decided by the Minister of the Interior and published in the government gazette. Highly relevant to Salonika families. Note carefully: as published this is for the former citizen personally, not for descendants, so an Israeli grandchild cannot use it |
+| Lithuania | Verify before relying on it | Descendants of interwar Lithuanian citizens | Reinstatement exists, and Holocaust-era document gaps are the practical hurdle. Generational reach and the dual-citizenship exception change; confirm the current statute with the Lithuanian Migration Department before the user spends money |
+| Bulgaria, Slovakia | Verify before relying on it | Descent through a parent or grandparent, sometimes further | Routes exist but the procedure and generational reach vary, and Bulgaria's is a discretionary facilitated naturalization rather than an entitlement. Confirm with the consulate |
+
+## בעברית
+
+| מסלול | סטטוס | מי זכאי | נקודות מפתח |
+|-------|-------|---------|-------------|
+| צ'כיה | פתוח | ילדים ונכדים של אזרח צ'כי או צ'כוסלובקי לשעבר, בהצהרה, ולא פתוח לאזרחי סלובקיה כיום | האב הקדמון צריך היה לאבד את האזרחות עד 31 בדצמבר 2013. אמתו את טווח הדורות ואת האגרות העדכניות מול הנציגות הצ'כית |
+| לטביה | פתוח, צר | מי שהיה אזרח לטביה ב־17 ביוני 1940, או צאצא שלו, כשאותו אדם עזב את לטביה בין 17 ביוני 1940 ל־4 במאי 1990 בבריחה ממשטר הכיבוש הסובייטי או הגרמני או שהוגלה, ולא חזר למגורי קבע עד 4 במאי 1990 | סעיף 8.1 לחוק האזרחות. קריטי לישראלים: פסקה (3) קובעת שאזרחות כפולה אפשרית לנרשמים האלה, וזה חשוב כי ישראל לא נמצאת ברשימה הכללית של אזרחות כפולה בסעיף 9. מלכודת: פסקה (2) חלה על צאצאים שנולדו עד 1 באוקטובר 2014. בקשה נבחנת בתוך ארבעה חודשים. משפחה שהיגרה לפני 1940 נמצאת מחוץ לסעיף 8.1 |
+| יוון, השבת אזרחות לקורבנות השואה | פתוח, אבל לקורבן עצמו | אנשים חיים ממוצא יהודי, אזרחי ישראל או מדינה אחרת, שנולדו ביוון עד 9 במאי 1945, שהחזיקו בעבר באזרחות יוונית מלידה ואיבדו אותה מכל סיבה | הליך השבה ייעודי, שמוגש בקונסוליה היוונית של מקום המגורים, אישית או בדואר, ומוכרע בידי שר הפנים ומתפרסם ברשומות. רלוונטי מאוד למשפחות מסלוניקי. שימו לב היטב: כפי שהוא מפורסם, ההליך הוא לאזרח לשעבר עצמו ולא לצאצאיו, אז נכד ישראלי לא יכול להשתמש בו |
+| ליטא | אמתו לפני שמסתמכים | צאצאים של אזרחי ליטא של התקופה שבין המלחמות | מסלול השבה קיים, ופערי תיעוד מתקופת השואה הם המכשול המעשי. טווח הדורות והחריג לאזרחות כפולה משתנים; אמתו את החוק העדכני מול רשות ההגירה הליטאית לפני שהמשתמש מוציא כסף |
+| בולגריה, סלובקיה | אמתו לפני שמסתמכים | מוצא דרך הורה או סבא, ולעיתים רחוק יותר | המסלולים קיימים אבל הנוהל וטווח הדורות משתנים, ובבולגריה מדובר בהתאזרחות מוקלת שבשיקול דעת ולא בזכות. אמתו מול הקונסוליה |

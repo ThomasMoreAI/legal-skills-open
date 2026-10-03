@@ -1,0 +1,233 @@
+---
+name: fluggastrechte-kaltstart-triage
+title: Flugstörung und nächsten Anspruchsschritt bestimmen
+description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fluggastrechte.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: aviation
+language: de
+sources:
+- title: Fachmodule
+  path: references/fachmodule.md
+---
+
+# Flugstörung und nächsten Anspruchsschritt bestimmen
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Schnellstart-Workflow
+
+Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Fluggastrechte**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+
+**Plugin-Fokus:** Fluggastrechte selber geltend machen — VO (EG) Nr. 261/2004 plus EuGH-Rspr. Tickets erfassen Annullierung vs Verspaetung prüfen außergewoehnliche Umstaende Distanz und Ausgleich Forderungsschreiben Mahnung Klage Amtsgericht. Vollmacht Familie. Katalog Airline-Standardausreden.
+
+### 0. Stummer Upload — Material ohne Begleittext
+
+Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+
+**Pflicht-Reihenfolge bei stummem Upload:**
+
+1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
+2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
+3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
+4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
+5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
+6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
+
+**Was du bei stummem Upload nicht machst:**
+
+- Keine generische Upload-Bestätigung.
+- Keine vollständige Intake-Liste aus Abschnitt 1.
+- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
+- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
+
+**Antwortformat bei stummem Upload:**
+
+- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
+- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
+- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
+- **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
+- **Alternativen:** `...`, `...`
+- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
+
+### 1. Intake in 60 Sekunden
+
+Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
+
+| Punkt | Frage | Warum wichtig? |
+|---|---|---|
+| Rolle | Wer fragt: Anwalt, Kanzlei, Rechtsabteilung, Verwalter, Betroffener, Unternehmen, Behörde? | Perspektive und Ton bestimmen. |
+| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
+| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
+| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
+| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
+| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
+| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
+
+### 2. Sofort-Triage
+
+Arbeite danach in dieser Reihenfolge:
+
+1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
+2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
+3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
+6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
+
+### 3. Routing-Regeln
+
+- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
+- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
+- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
+- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
+- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
+- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
+
+### 4. Antwortformat für den Einstieg
+
+Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
+
+**Kurzbild**
+- Ziel: [...]
+- Rolle/Perspektive: [...]
+- Eilt wegen: [...]
+- Fehlende Unterlagen: [...]
+
+**Vorgeschlagener Workflow**
+1. [...]
+2. [...]
+3. [...]
+
+**Passende Skills aus diesem Plugin**
+| Skill | Warum jetzt? | Erwarteter Output |
+|---|---|---|
+| `...` | [...] | [...] |
+
+**Nächste Frage**
+[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
+
+### 5. Fachmodule gezielt und sparsam laden
+
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
+
+## Worum geht es?
+
+Die Verordnung (EG) Nr. 261/2004 gibt Fluggaesten bei Annullierung, erheblicher Verspaetung (ab drei Stunden am Endziel nach EuGH-Sturgeon-Rechtsprechung) und Nichtbefoerderung wegen Ueberbuchung einen Ausgleichsanspruch von 250 bis 600 EUR pro Person gegen das ausfuehrende Luftfahrtunternehmen. Das Plugin deckt den vollstaendigen Mandatsablauf ab: von der Falldaten-Erfassung über die Berechnung der Ausgleichszahlung, die Prüfung von Airline-Ausreden, das Forderungsschreiben bis hin zur Klageschrift vor dem Amtsgericht.
+
+Dieses Plugin richtet sich sowohl an Verbraucher, die ihre Ansprueche selbst geltend machen wollen, als auch an Anwalte, die Fluggaeste vertreten.
+
+## Wann brauchen Sie diese Skill?
+
+- Ihr Flug wurde annulliert oder Sie sind wegen Ueberbuchung nicht befoerdert worden und Sie wollen Ihre Ansprueche klären.
+- Ihr Flug hatte Verspaetung und Sie wollen wissen, ob Sie mehr als drei Stunden am Endziel verspaetet angekommen sind.
+- Die Airline hat Ihre Forderung mit einer Standardausrede (technischer Defekt, aussergewoehnliche Umstaende) abgelehnt und Sie wollen dagegen vorgehen.
+- Sie vertreten mehrere Familienmitglieder und benoetigen Vollmachten für die Durchsetzung.
+- Sie wollen eine Klageschrift für das Amtsgericht erstellen, nachdem aussergerichtliche Schritte erfolglos waren.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Annullierung** — Streichung eines zuvor geplanten Fluges (Art. 5 VO 261/2004); unterscheidet sich rechtlich von einer Verspaetung.
+- **Aussergewoehnliche Umstaende** — Ereignisse, die sich der Kontrolle des Luftfahrtunternehmens entziehen (Art. 5 Abs. 3 VO 261/2004); entlastet die Airline von der Ausgleichspflicht.
+- **Grosskreisdistanz** — die für die Stufenberechnung der Ausgleichszahlung massgebliche Entfernung zwischen Abflug- und Zielflughafen.
+- **Operating Carrier** — das tatsaechlich ausfuehrende Luftfahrtunternehmen; massgeblich für die Passivlegitimation, nicht das vermarktende Unternehmen bei Codeshare.
+- **PNR** — Passenger Name Record (Buchungscode); identifiziert eine zusammenhaengende Buchung bei Verbindungsfluegen.
+- **Sturgeon-Linie** — EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 — bei Ankunftsverspaetung am Endziel von 3+ Stunden gleicher Ausgleichsanspruch wie bei Annullierung (curia.europa.eu).
+
+## Rechtsgrundlagen
+
+- Art. 3 VO (EG) 261/2004 — Anwendungsbereich (EU-Abflug oder EU-Ankunft mit EU-Carrier)
+- Art. 4 VO (EG) 261/2004 — Nichtbefoerderung
+- Art. 5 VO (EG) 261/2004 — Annullierung
+- Art. 6 VO (EG) 261/2004 — Verspaetung
+- Art. 7 VO (EG) 261/2004 — Ausgleichszahlung (250/400/600 EUR)
+- § 23 Nr. 1 GVG — sachliche Zuständigkeit Amtsgericht bis 10.000 EUR (seit 01.01.2026)
+
+Zentrale EuGH-Entscheidungen (Stand Mai 2026; jeweils Volltext in curia.europa.eu vor Versand aufrufen):
+
+- EuGH, Urt. v. 19.11.2009, C-402/07 und C-432/07 (Sturgeon u.a.) — 3-Stunden-Schwelle
+- EuGH, Urt. v. 23.10.2012, C-581/10 und C-629/10 (Nelson u.a.) — Bestaetigung Sturgeon
+- EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — übliche technische Betriebsprobleme regelmäßig nicht außergewöhnlich; externe Ursachen und Gegenmaßnahmen gesondert prüfen
+- EuGH, Urt. v. 26.2.2013, C-11/11 (Folkerts) — Endziel-Verspaetung bei Anschlussfluegen
+- EuGH, Urt. v. 4.5.2017, C-315/15 (Pesková) — Vogelschlag als außergewöhnlicher Umstand
+- EuGH, Urt. v. 31.5.2018, C-537/17 (Wegener) — einheitliche Buchung in Drittstaat
+- EuGH, Urt. v. 21.12.2021, C-146/20, C-188/20, C-196/20 — Vorverlegung als Annullierung
+- EuGH, Urt. v. 16.5.2024, C-405/23 — Personalmangel Flughafen
+- EuGH, Urt. v. 9.1.2025, C-394/23 — Vorverlegung bestaetigend
+- EuGH, Urt. v. 13.6.2025, C-411/23 — versteckter Konstruktionsfehler Triebwerk
+- EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag
+
+## Schritt-für-Schritt: Einstieg ins Plugin
+
+1. Mandantenkonstellation klären: Einzelperson oder Reisegruppe/Familie? Selbstmandat oder anwaltliche Vertretung?
+2. Phase des Mandats bestimmen: Stoerungsereignis noch nicht eingeordnet (Annullierung vs. Verspaetung?), aussergerichtliche Phase oder Klage?
+3. Passenden Skill auswaehlen (siehe Skill-Tour unten).
+4. Eilfristen prüfen: Verjaebrung der Ansprueche aus VO 261/2004 richtet sich nach nationalem Recht; in Deutschland 3 Jahre (§ 195 BGB) zum Jahresende.
+5. Anschluss-Skill bestimmen: Nach Einordnung des Stoerungsereignisses Ausgleichszahlung berechnen, dann Forderungsschreiben.
+
+## Skill-Tour (was gibt es hier?)
+
+- `fluggastrechte-kaltstart-interview` — Ersteinrichtung des Plugins: Anwendungsrolle, Buchungskonvention und Profil anlegen.
+- `ticket-und-fluginformationen-erfassen` — Falldaten aus Tickets und Buchungsbestaetigungen extrahieren und Fallakte anlegen.
+- `annullierung-oder-verspaetung-einordnen` — Rechtliche Einordnung des Stoerungsereignisses nach Art. 4-6 VO 261/2004 und Sturgeon-Rechtsprechung.
+- `distanz-und-ausgleich-berechnen` — Ausgleichszahlung nach Art. 7 VO 261/2004 berechnen (Grosskreis-Distanz, Staffelung 250/400/600 EUR).
+- `ausnahmen-aussergewoehnliche-umstaende-pruefen` — Prüfung Art. 5 Abs. 3 VO 261/2004 mit aktuellem EuGH-Katalog.
+- `airline-standardausreden-pruefen` — Katalog typischer Airline-Ablehnungsgruende mit Gegenargumenten und EuGH-Rechtsprechungs-Pinpoints.
+- `anschlussflug-und-reiseplan` — Berechnung bei Verbindungsfluegen: Endziel-Verspaetung nach EuGH Folkerts massgeblich.
+- `vollmacht-familienmitglieder` — Vollmachten für Mitreisende erstellen, damit ein Hauptansprechpartner alle Ansprueche buendeln kann.
+- `forderungsschreiben-erste-stufe` — Erstes Forderungsschreiben an die Airline mit Rechtsbegruendung und Fristsetzung.
+- `forderungsschreiben-mahnung` — Zweite Stufe nach Ablauf der Erstfrist; Nachfrist, Verzugszinsen, Klageandrohung.
+- `fluggastrechte-anlagen-bauen` — BeA-konformes Anlagenkonvolut (Buchungsbestaetigung, Boardingpass, E-Mails) für Schriftsaetze erstellen.
+- `klage-amtsgericht-fluggast` — Vollstaendiger Klageschrift-Entwurf für das Amtsgericht mit Streitwert und EuGH-Begruendung.
+
+## Worauf besonders achten
+
+- **Operating Carrier identifizieren**: Bei Codeshare-Fluegen ist nicht das vermarktende Unternehmen, sondern der tatsaechliche Ausfuehrungs-Carrier passivlegitimiert; das Ticket nennt bisweilen nur den Verkaeufer.
+- **Sturgeon-Dreistunden-Schwelle**: Die Verspaetung wird an der tatsaechlichen Ankunftszeit am Endziel gemessen — nicht an der Abflugverspaetung; der Zeitpunkt, zu dem die Passagiertuer geoeffnet wird, gilt als Ankunftszeit.
+- **Anschlussflug unter einer PNR**: Wenn ein Anschlussflug verpaesst wird, zaehlt die Gesamtverspaetung am Endziel für den Ausgleich; separate PNRs begrenzen den Anspruch auf die jeweilige Strecke.
+- **Aussergewoehnliche Umstaende begruendungspflichtig**: Die Airline muss sowohl das aussergewoehnliche Ereignis als auch die zumutbaren Gegenmassnahmen darlegen; pauschale Verweise genügen nicht.
+- **Verjaebrung**: Der Anspruch verjaehrt in drei Jahren nach § 195 BGB; auf Jahresende-Berechnung nach § 199 BGB achten.
+
+## Typische Fehler
+
+- Annullierung und lange Verspaetung werden nicht unterschieden: Beide können Ausgleichsansprueche ausloesen, aber die Beweislage ist unterschiedlich.
+- Volle Ausgleichszahlung wird beansprucht, obwohl die Airline einen Ersatzflug mit kurzer Verspaetung angeboten hat: Art. 7 Abs. 2 VO 261/2004 sieht eine Halbierung vor.
+- Forderungsschreiben ohne Bankverbindung: Airline kann nicht leisten; Verzug tritt erst mit konkreter Zahlungsmoeglichkeit ein.
+- Umbuchungs-Voucher als Erfuellung akzeptiert: Ein Gutschein ersetzt den Baranspruch nicht, wenn der Passagier dem nicht ausdruecklich zugestimmt hat.
+- Ansprueche von Mitreisenden ohne Vollmacht geltend gemacht: Prozessual fehlt dann die Ermaechtigung zur Einziehung fremder Forderungen.
+
+## Quellen und Aktualitaet (Stand Mai 2026)
+
+- VO (EG) Nr. 261/2004 in geltender Fassung
+- § 23 Nr. 1 GVG: Streitwertgrenze 10.000 EUR seit 01.01.2026
+- EuGH-Rechtsprechung (verifiziert mit curia.europa.eu, Auszug):
+ - C-402/07 / C-432/07 (Sturgeon, 19.11.2009) — 3-Stunden-Schwelle
+ - C-549/07 (Wallentin-Hermann, 22.12.2008) — übliche technische Betriebsprobleme regelmäßig nicht außergewöhnlich; externe Ursachen und Gegenmaßnahmen gesondert prüfen
+ - C-11/11 (Folkerts, 26.2.2013) — Endziel-Verspätung bei Anschlussfluegen
+ - C-315/15 (Pesková, 4.5.2017) — Vogelschlag
+ - C-537/17 (Wegener, 31.5.2018) — einheitliche Buchung Drittstaat
+ - C-146/20, C-188/20, C-196/20 (21.12.2021) — Vorverlegung als Annullierung
+ - C-405/23 (16.5.2024) — Personalmangel Flughafen
+ - C-394/23 (9.1.2025) — Vorverlegung bestaetigend
+ - C-411/23 (13.6.2025) — versteckter Konstruktionsfehler
+ - C-399/24 (16.10.2025) — Blitzschlag
+- Leitlinien der Kommission zur Auslegung VO 261/2004: ABl. EU C 2024/05687

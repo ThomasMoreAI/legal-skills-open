@@ -1,11 +1,11 @@
 ---
 name: umweltrecht-bussgeld-sanktionen
 title: Bussgeld, Sanktionen und Anhoerung im Umweltrecht
-description: Unternehmen erhaelt Anhoerung oder Bußgeld-Bescheid wegen Umwelt-Ordnungswidrigkeit und will sich verteidigen. Normen OWiG §§ 55 67 68 BImSchG §§ 62 64 KrWG §§ 69 70 WHG § 103 BNatSchG §§ 69 71a Bußgeld bis 100000 EUR. Prüfraster Tatbestandsprüfung Verjährung Verwertungsverbote Verteidigungsargumente. Output Verteidigungsschrift Widerspruch Akteneinsicht-Antrag. Abgrenzung zu umweltrecht-verfahren (Verwaltungsklage) und umweltrecht-immissionsschutz-bimschg (Genehmigung).
+description: 'Für Bussgeld, Sanktionen und Anhörung im Umweltrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Umweltrecht. Route: umweltrecht-bussgeld-sanktionen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/umweltrecht/skills/umweltrecht-bussgeld-sanktionen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: environmental
@@ -37,10 +37,6 @@ language: de
 - **§ 68 OWiG** — Hauptverhandlung beim Amtsgericht
 - **§ 30 OWiG** — Verbandsgeldbuse gegen jur. Person
 - **§ 31 OWiG** — Verjaeahrung (3 Jahre bei max. Bussgeld > 1.000 EUR)
-
-## Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -129,6 +125,13 @@ Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Vertiefung: Verbandsbussgeld § 30 OWiG
 
@@ -151,3 +154,5 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `umweltrecht-verfahren` — Gerichtsverfahren nach Einspruch
 - `umweltrecht-immissionsschutz-bimschg` — Nachtraegliche Auflagen als Busjgeld-Alternative
 - `umweltrecht-kommandocenter` — Intake und Mandats-Triage
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

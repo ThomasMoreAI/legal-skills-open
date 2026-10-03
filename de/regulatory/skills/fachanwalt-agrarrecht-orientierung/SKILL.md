@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-agrarrecht-orientierung
 title: Fachanwalt für Agrarrecht — Orientierung
-description: 'Anwalt will ueberblicken welche Normen und Mandate das Agrarrecht umfasst oder Fachanwaltschaft vorbereiten. Orientierung HoefeO Anerbenrecht Landpachtrecht §§ 581 ff. BGB GVG-Grund EU-Agrarpolitik GAP Direktzahlungen Duengerecht Tierschutz Pflanzenschutz Naturschutz Forstrecht. FAO-Voraussetzungen typische Mandate Notfristen Sammelantrag 15. Mai. Output Orientierungs-Übersicht mit Norm-Landkarte und Routing zu Spezial-Skills. Abgrenzung: mandat-triage-agrarrecht für konkreten Mandats-Einstieg.'
+description: 'Für Fachanwalt für Agrarrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/fachanwalt-agrarrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -51,13 +51,13 @@ language: de
 - **Hofübergabe** Hofbezugnahme nach Erbfall — siehe Höfeordnung Anerbenrechte.
 - **Landpachtkündigung** § 585 BGB iVm Landpachtvertrag (oft jaehrlich zu festgelegten Terminen).
 - **GrdstVG** Genehmigungsverfahren läuft über Landwirtschaftsbehörde.
-- **Widerspruch gegen Förderbescheid** ein Monat (VwGO § 70 / SGG § 84 je nach Behörde).
+- Widerspruch gegen Förderbescheid: VwGO Paragraf 70 nur bei eröffnetem Vorverfahren; Klagefrist nach VwGO Paragraf 74, Rechtsbehelfsbelehrung und einschlägiges Landes- oder Fachrecht gesondert prüfen.
 
 ## Hauptforen
 
-- **Landwirtschaftsgericht** (beim AG / LG je Bundesland — Landwirtschaftsverfahren-Gesetz LwVG).
-- **Verwaltungsgericht** bei öffentlich-rechtlichen Förderbescheiden.
-- **BGH** Senat für Landwirtschaftssachen (V. Zivilsenat).
+- Landwirtschaftsgericht: nach LwVfG Paragraf 2 ausschließlich das Amtsgericht im ersten Rechtszug, Oberlandesgericht im zweiten und Bundesgerichtshof im dritten Rechtszug.
+- Verwaltungsgericht bei öffentlich-rechtlichen Förderbescheiden, soweit kein abweichender Rechtsweg eröffnet ist.
+- Bundesgerichtshof, Senat für Landwirtschaftssachen.
 - **EuGH** bei GAP-Vorabentscheidungen.
 
 ## Quellenregel
@@ -75,19 +75,9 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Paragrafenkette (Überblick Agrarrecht)
 
-BGB §§ 581-597 (Landpacht) → LPachtVG (Pachtverkehr, Genehmigung) → GrdstVG (Grundstücksverkehr) → HöfeO §§ 1 ff. (Erbrecht landwirtschaftlicher Betriebe) → VO (EU) 2021/2115 + 2021/2116 (GAP, Direktzahlungen, Konditionalität) → DüG i.V.m. DüV (Düngerecht) → BNatSchG §§ 13 ff. (Naturschutz, Eingriffsregelung) → § 35 BauGB (Außenbereich landwirtschaftliche Privilegierung) → TierSchG, TierGesG → LwVG (Verfahren Landwirtschaftsgericht)
+BGB Paragrafen 581 bis 597 (Pacht und Landpacht) → LPachtVG (Anzeige und Beanstandung) → GrdstVG (Grundstücksverkehr) → HöfeO Paragrafen 1 ff. (Erbrecht landwirtschaftlicher Betriebe) → Verordnungen (EU) 2021/2115 und 2021/2116 (GAP, Direktzahlungen, Konditionalität) → DüG und DüV (Düngerecht) → BNatSchG Paragrafen 13 ff. (Naturschutz, Eingriffsregelung) → BauGB Paragraf 35 (Außenbereich) → TierSchG und TierGesG → LwVfG Paragrafen 1 und 2 (Landwirtschaftsgericht)
 
 ### Quellenregel
 
@@ -111,3 +101,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 4. **Düngerecht / OWiG** → `fachanwalt-agrarrecht-duenge-ordnungswidrigkeit`
 5. **Tierhaltungsgenehmigung** → `fachanwalt-agrarrecht-tierhaltung-genehmigung`
 6. **Wolfsentnahme / Naturschutz** → `fachanwalt-agrarrecht-wolfsentnahme-genehmigung-bnatschg`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

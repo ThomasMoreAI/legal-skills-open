@@ -1,0 +1,66 @@
+---
+name: werbung-social-media-steuern-rechtsprechungscheck
+title: 'Steuerberater: werbung social media steuern - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur'
+description: 'Für Werbung Social Media Steuern Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-steuerberater/skills/werbung-social-media-steuern-rechtsprechungscheck
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Steuerberater: werbung social media steuern - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 32 StBerG` — Hilfeleistung in Steuersachen.
+- `§ 33 StBerG` — Befugnis der Steuerberater.
+- `§ 57 Abs. 1 StBerG` — allgemeine Berufspflichten.
+- `§ 57a StBerG` — Werbung.
+- `§ 64 StBerG` — Gebühren.
+- `§ 66 StBerG` — Handakten.
+- `§ 80 AO` — Bevollmaechtigte und Beistand.
+- `§ 153 AO` — Berichtigungspflicht.
+- `§ 370 AO` — Steuerhinterziehung als Risikogrenze.
+- `§ 203 Abs. 1 Nr. 3 StGB` — Verschwiegenheit.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Verifizierter Rechtsprechungsanker
+
+- BVerfG, Beschluss vom 26.10.2004 - 1 BvR 981/00: Berufliche Werbung eines Steuerberaters ist durch Artikel 12 Absatz 1 GG geschützt. Weder ein auffälliger Werbeträger noch eine bislang unübliche Form genügt allein für ein Verbot; maßgeblich sind Inhalt, Sachlichkeit und eine konkret belegte Gefährdung berufsrechtlicher Schutzgüter. Übertrage den Fall nicht schematisch auf irreführende oder einzelfallbezogene Mandatswerbung.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; StBerG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Konkreter Berufsrechtskern: Steuerberater: werbung social media steuern - Rechtsprechungscheck, stärkste Gegenansicht und Red-Team-Korrektur
+- **Normenanker:** StBerG, BOStB, StBVV, AO-Schnittstellen, GwG, Verschwiegenheit, Interessenkollision und berufsgerichtliches Verfahren.
+- **Institutionen:** Steuerberaterkammer, Berufsgerichtsbarkeit, Finanzverwaltung und bei Straf-/Bußgeldnähe die Ermittlungsbehörden.
+- **Spezialspur:** Werbung an Sachlichkeitsgebot, Irreführungsverbot, Mandatsakquise und berufsrechtlicher Außendarstellung messen.
+- **Falllösung:** Baue eine Pflichtverletzungs-/Entlastungsmatrix mit Norm, Tatsache, Beleg, Verschulden, Verhältnismäßigkeit, möglicher Kammerantwort und prozessualem nächsten Schritt.
+
+## Fallweichen dieser Speziallage
+
+1. Rolle, Ziel und Entscheidungsdruck klären.
+2. Verfahrensstand, Fristen, Zuständigkeit und irreversible Risiken markieren.
+3. Aktenbasis ordnen: sichere Tatsachen, bestrittene Tatsachen, fehlende Unterlagen.
+4. Eingriffsintensität, Berufs-/Amtsgeheimnisse, Datenschutz und Persönlichkeitsrechte sichtbar machen.
+5. Sofortpfad anbieten: Was muss heute entschieden, beantragt, beantwortet oder dokumentiert werden?
+
+## Prüfprogramm
+
+- **Normenanker:** StBerG, BOStB, StBVV, AO, GwG, DSGVO, Kammerpraxis und Berufsgerichtsbarkeit live prüfen
+- **Tatsachenarbeit:** Beweisquelle, Beweiswert, Gegenbeweis, Dokumentationslücke und mögliche Fehlinterpretation trennen.
+- **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
+- **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
+- **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.

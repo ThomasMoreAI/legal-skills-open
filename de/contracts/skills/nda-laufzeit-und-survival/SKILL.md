@@ -1,0 +1,97 @@
+---
+name: nda-laufzeit-und-survival
+title: 'NDA: Laufzeit/Survival'
+description: 'Für NDA: Laufzeit/Survival: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/nda-abgleich/skills/nda-laufzeit-und-survival
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# NDA: Laufzeit/Survival
+
+## Spezialwissen: NDA: Laufzeit/Survival
+- **Normen-/Quellenanker:** GeschGehG, NDA.
+
+## Fallweichen
+Frage zu Beginn nur ab, was für den naechsten Schritt unverzichtbar ist. Wenn Material vorliegt, mit dem Material arbeiten und nur eine gezielte Rueckfrage stellen.
+
+1. **Rolle und Ziel:** Wer fragt, welche Rolle, welcher gewuenschte Output (Memo, Schriftsatz, Tabelle, Checkliste)?
+2. **Sachverhalt:** Welche unstreitigen Tatsachen liegen vor, was ist streitig, was fehlt noch?
+3. **Fristen:** Gibt es Termine, Fristen, eilbeduerftige Schritte?
+4. **Unterlagen:** Welche Dokumente, Bescheide, Verträge, Auszuege liegen vor?
+5. **Format:** Wie ausfuehrlich, für wen, in welcher Tonalitaet?
+
+## Prüfraster
+
+Der Output muss als verwertbares Arbeitsprodukt aufgebaut sein:
+
+1. **Sachverhalt fixieren** – streitige und unstreitige Tatsachen trennen, Lueckentafel.
+2. **Rechtliche Einordnung** - nur einschlaegige Normen, verifizierte Rechtsprechung und frei prüfbare amtliche Quellen; keine Literatur- oder Datenbankfundstellen erfinden.
+3. **Prüfung im Gutachtenstil** – Obersatz, Definition, Subsumtion, Zwischenergebnis.
+4. **Handlungsempfehlung** – konkret, mit naechstem Schritt, verantwortlicher Person, Frist.
+
+## Fachpruefraster Laufzeit / Survival
+
+### Zwei Zeitachsen unterscheiden
+
+1. **Laufzeit des NDA selbst (Kuendigung/Ende der aktiven Phase):** Wie lange bestehen aktive Pflichten (z.B. Prüfung des Projekts, laufender Datenaustausch)?
+2. **Survival der Geheimhaltungspflicht (nach Vertragsende):** Wie lange wirkt die Geheimhaltungspflicht über das Vertragsende hinaus?
+
+### Marktstandard Survival-Fristen
+
+- **Operationale Informationen (Preise, Konditionen, Kundennamen):** 2-3 Jahre.
+- **Strategische Informationen (Business Plan, Marktstrategien):** 3-5 Jahre.
+- **R&D / Know-how / nicht patentfaehige Erfindungen:** 5-10 Jahre.
+- **Echte Geschäftsgeheimnisse (§ 2 Nr. 1 GeschGehG):** "Solange die Information die Voraussetzungen eines Geschäftsgeheimnisses erfuellt" - keine starre Befristung; deckt sich mit der öffentlichen Bekanntheit oder Veroeffentlichung. Marktstandard wachsende Akzeptanz dieser Klausel.
+- **Personenbezogene Daten (DSGVO):** Survival mit Art. 5 Abs. 1 lit. e DSGVO (Speicherbegrenzung) abstimmen; nach Zweckwegfall Loeschpflicht; Geheimhaltungspflicht endet faktisch mit Loeschung.
+
+### Wertung B2B / Branchen
+
+- **M&A:** Survival 3 Jahre bei Standardprozessen; bei kartellrechtlich sensiblen Daten 5 Jahre.
+- **R&D Joint Venture:** Survival 5-10 Jahre; "as long as confidential" bei Patenten/Know-how.
+- **IT/SaaS-Vendor:** Survival 3 Jahre für Standardvertragsdaten; "as long as confidential" für Source Code, technische Spezifikationen.
+- **Arbeitsrecht:** Nachvertragliche Verschwiegenheitspflicht über gesetzliche Treuepflicht hinaus nur, soweit angemessen; nachvertragliche Wettbewerbsverbote nach §§ 74 ff. HGB mit Karenzentschaedigung.
+
+### Rechtliche Schranken
+
+- **§ 138 BGB Sittenwidrigkeit:** Survival über Lebensdauer der Information hinaus oder ohne sachliche Begrenzung kann sittenwidrig sein.
+- **§ 307 BGB (AGB-Kontrolle):** Pauschale Survival-Klauseln "auf unbestimmte Zeit" in AGB regelmaessig kritisch; zumindest sachliche Bezugnahme auf die Vertraulichkeit der Information erforderlich.
+- **Kartellrecht:** Nachvertragliche Beschraenkungen, die über den Schutz der Information hinaus Wettbewerbsverbote enthalten, sind kartellrechtlich prüfen (Art. 101 AEUV, § 1 GWB).
+- **DSGVO:** Bei personenbezogenen Daten endet die Geheimhaltungspflicht spaetestens mit Loeschung; bei Auftragsverarbeitung enge Verzahnung mit Art. 28 DSGVO.
+
+### Empfehlungen nach Rolle
+
+- **Offenlegende Partei:** Survival so lang wie möglich, ideal "as long as confidential" bei echten Geschäftsgeheimnissen; sonst 5 Jahre.
+- **Empfangende Partei:** Survival eng begrenzt (2-3 Jahre); Definition vertraulicher Information nicht ueberdehnen; explizite Ausnahmen (allgemein bekannt, eigene Entwicklung, gesetzliche Offenlegungspflicht).
+
+### Mustertext
+
+> Die Vertraulichkeitspflicht beginnt mit Offenlegung der Vertraulichen Information und besteht waehrend der Vertragslaufzeit fort. Sie wirkt für einen Zeitraum von [3/5/10] Jahren über das Ende dieses Vertrages hinaus. Für Informationen, die Geschäftsgeheimnisse i.S.d. § 2 Nr. 1 GeschGehG sind, besteht die Vertraulichkeitspflicht solange fort, wie diese Informationen die Voraussetzungen eines Geschäftsgeheimnisses erfuellen.
+
+## Plugin-Kontext
+Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Normen, Fristen, Belege und Gegenargumente und erzeugt einen unmittelbar nutzbaren nächsten Schritt.
+
+## Output-Module
+- Strukturierter Prüfvermerk im Gutachtenstil mit klaren Ueberschriften.
+- Tabellen/Checklisten, wo das die Lesbarkeit erhoeht.
+- Anschreiben-, Antrags- oder Klageschriftsatz-Geruest, wenn die Aufgabe das verlangt.
+- Quellenliste mit Gericht, Datum, Aktenzeichen, frei prüfbarem Link.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Was dieser Arbeitsgang nicht macht
+- Kein Ersatz für eine vollstaendige Mandantenberatung.
+- Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
+- Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
+- Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.

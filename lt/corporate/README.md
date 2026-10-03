@@ -10,7 +10,7 @@ Jurisdiction: `lt` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`lithuania-company-registry`](skills/lithuania-company-registry-nolpak14/) | Look up Lithuanian companies for free via the official Register of Legal Entities (Juridiniu asmenu registras… |
+| [`lithuania-company-registry`](skills/lithuania-company-registry-nolpak14/) | Look up Lithuanian companies for free via the official Register of Legal Entities (Juridiniu asmenu… |
 
 ## Cold-start context
 

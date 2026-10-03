@@ -1,11 +1,11 @@
 ---
 name: markenrecherche
 title: Markenrecherche (Clearance)
-description: 'Unternehmen oder Mandant plant neue Marke oder Produktname und fragt: Bestehen Kollisionsrisiken mit aelteren Marken? Markenrecherche vor Anmeldung. Prüfraster: Identitäts- und Aehnlichkeitsprüfung DPMAregister EUIPO eSearch+ WIPO Global Brand DB Warenklassen. Ergebnis Recherchepaket für anwaltliche Entscheidung kein Freigabegutachten. Output: Recherche-Bericht mit Kollisionsrisiken. Abgrenzung zu markenanmeldung-dpma (Anmeldung nach Recherche) und verletzungs-triage.'
+description: 'Für Markenrecherche (Clearance): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gewerblicher-rechtsschutz/skills/markenrecherche
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip
@@ -14,9 +14,13 @@ language: de
 
 # Markenrecherche (Clearance)
 
-## Zweck
+## Arbeitsweg
 
-Erste Verwechslungsrisikoprüfung für eine geplante Marke oder Unternehmensbezeichnung. Der Skill führt einen Knockout-Scan durch, identifiziert potenziell kollidierende Voreintragungen und analysiert die relevanten Verwechslungsfaktoren. Ergebnis ist ein Recherchepaket für den beratenden Anwalt – kein Freigabe- oder Sperrurteil. Einsatzfelder: Produktneueinführungen, Rebranding, Domainregistrierungen, Unternehmensneugründungen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -38,7 +42,6 @@ Art des Zeichens bestimmen und Schutzfähigkeit vorprüfen:
 | Wortmarke (Fantasiebegriff) | i. d. R. schutzfähig; Prüfung auf absolute Schutzhindernisse |
 | Wortmarke (beschreibend) | Schutzhindernis § 8 Abs. 2 Nr. 2 MarkenG; Art. 7 Abs. 1 lit. c UMV; Verkehrsdurchsetzung möglich |
 | Bildmarke / Logo | Schutz für bildliche Gestaltung; Wortbestandteile separat prüfen |
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 | Dreidimensionale Marke | Funktionale Formen vom Schutz ausgeschlossen (§ 3 Abs. 2 MarkenG) |
 
 Absolute Schutzhindernisse prüfen (§ 8 MarkenG; Art. 7 UMV): Fehlende Unterscheidungskraft, beschreibende Angaben, täuschende Angaben, Gattungsbezeichnungen.
@@ -68,7 +71,6 @@ Absolute Schutzhindernisse prüfen (§ 8 MarkenG; Art. 7 UMV): Fehlende Untersch
 
 ### 3. Kollidierende Zeichen analysieren – Verwechslungsfaktoren
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Faktoren der Verwechslungsgefahr (§ 9 Abs. 1 Nr. 2 MarkenG; Art. 8 Abs. 1 lit. b UMV):**
 
@@ -84,7 +86,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - Klangliche Ähnlichkeit: Vokal- und Silbenstruktur, Akzentuierung, dominierender Bestandteil
 - Schriftbildliche Ähnlichkeit: Buchstabenfolge, Länge, Groß-/Kleinschreibung
 - Konzeptionelle Ähnlichkeit: Bedeutungsgehalt; bei Fantasiebegriffen ohne Bedeutung entfällt dieser Aspekt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### 4. Risikobewertung erstellen
 
@@ -114,16 +115,11 @@ Zitierweise nach `../references/zitierweise.md`.
 **Normen:** §§ 4, 5, 8, 9, 14, 26 MarkenG; Art. 7, 8 VO (EU) 2017/1001 (UMV).
 
 **Leitentscheidungen:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, § 9 Rn. 165 ff.; § 14 Rn. 345 ff. `[Modellwissen – prüfen; neuere Rspr. beachten]`
 - Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 9 Rn. 95 ff.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-
-## Ausgabeformat
-
-**Clearance-Report:** Tabellarische Zusammenfassung der Rechercheergebnisse (Zeichen, Inhaber, Klassen, Risikobewertung), gefolgt von Einzelanalyse der 🔴/🟠-Treffer im Gutachtenstil, Offene-Punkte-Liste, Entscheidungsbaum.
 
 ## Beispiel (Gutachtenstil)
 
@@ -137,7 +133,6 @@ Zitierweise nach `../references/zitierweise.md`.
 
 *Waren-/Dienstleistungsähnlichkeit:* Kl. 25 identisch.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 🔴 **Bewertung: Blocking.** Identische Eintragung in identischer Klasse. Anmeldung unter diesem Zeichen nicht empfehlenswert ohne Abstandsvergrößerung oder vorherige Freigabe durch Inhaber.
 
@@ -151,8 +146,4 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

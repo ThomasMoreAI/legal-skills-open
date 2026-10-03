@@ -1,11 +1,11 @@
 ---
 name: verfahrenszusammenfassung-absatz
 title: Verfahrenszusammenfassung — Absatz
-description: Anwalt will sich schnell in Akte einarbeiten ohne vollständige Lektuere. Acht bis zehn Saetze Hintergrund Streitstand prozessuale Lage anstehende Verfahrenshandlungen. Normen §§ 253 261 ZPO. Prüfraster Vollständigkeit Neutralitaet Verstaendlichkeit Aktualitaet. Output Zusammenfassungs-Absatz. Abgrenzung zu aktenauszug-erstellen (vollständig) und schwerpunktthemen-identifikation (Streitpunkte).
+description: 'Für Verfahrenszusammenfassung — Absatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/verfahrenszusammenfassung-absatz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Verfahrenszusammenfassung — Absatz
 
-## Zweck
+## Arbeitsweg
 
-Der Zusammenfassungsabsatz bietet dem Leser nach dem Einleitungssatz eine kompakte Gesamtschau des Verfahrens. Er ist kein Sachverhaltsnarrativ und keine Chronologie, sondern ein strukturierter Fließtext, der Hintergrund, Streitpunkte, Stand und Ausblick verbindet.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Erstellung
 
@@ -24,7 +28,7 @@ Der Zusammenfassungsabsatz bietet dem Leser nach dem Einleitungssatz eine kompak
 2. Welcher Sachverhalt ist unstreitig, welcher wird bestritten?
 3. Hat das Gericht bereits Hinweise nach § 139 ZPO erteilt?
 4. Steht ein Termin unmittelbar bevor?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zentrale Normen
 
@@ -32,10 +36,6 @@ Der Zusammenfassungsabsatz bietet dem Leser nach dem Einleitungssatz eine kompak
 - § 261 ZPO — Anhängigkeit und Rechtshängigkeit (Verfahrensstand)
 - § 139 ZPO — Richterliche Prozessleitung (Hinweise des Gerichts beeinflussen den Stand)
 - § 286 ZPO — Freie Beweiswürdigung (offene Fragen zur Beweiswürdigung)
-
-## Rechtsprechung zur Verfahrensdokumentation und Einarbeitung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Aufbau (acht bis zehn Sätze)
 
@@ -63,11 +63,11 @@ Der Zusammenfassungsabsatz bietet dem Leser nach dem Einleitungssatz eine kompak
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Zusammenfassung fuer Akte oder Uebergabe | Vorlage unten nach acht bis zehn Saetzen |
+| Standard — Zusammenfassung für Akte oder Übergabe | Vorlage unten nach acht bis zehn Saetzen |
 | Variante A — Adressat ist Laie (Mandant) | Vereinfachte Sprache; keine Paragrafenverweise |
 | Variante B — sehr fruehes Stadium ohne Entscheidung | Vorlaeufige Zusammenfassung mit Offenhalten des Ausgangs |
 | Variante C — Verfahren laueft noch | Zwischenbericht-Format statt abschliessender Zusammenfassung |
@@ -89,11 +89,10 @@ Nächste Verfahrenshandlung ist [Termin / Schriftsatzfrist].
 Rechtlich offen ist die Frage [zentrale Rechtsfrage].
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
 
 ## Besonderheiten nach Verfahrensart
 
@@ -114,4 +113,4 @@ Rechtlich offen ist die Frage [zentrale Rechtsfrage].
 - [ ] Keine Wertung, keine Prognose?
 - [ ] Richterliche Hinweise nach § 139 ZPO berücksichtigt?
 
-<!-- AUDIT 27.05.2026: BGH VI ZR 146/19 (NOT_FOUND auf dejure.org) entfernt und ersetzt durch BGH VI ZR 84/19, NJW 2021, 2364 (verifiziert auf dejure.org). -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

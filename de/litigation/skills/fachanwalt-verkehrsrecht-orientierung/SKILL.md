@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-verkehrsrecht-orientierung
 title: Fachanwalt für Verkehrsrecht — Orientierung
-description: 'Einstieg in den Skill-Verbund Verkehrsrecht. Orientierung im Verkehrsrecht FAO Voraussetzungen §§ 14g bis 14i FAO Verkehrsrecht. Typische Mandate Verkehrsunfall Schadensregulierung OWi-Bußgeld Fahrerlaubnis MPU Verkehrsstrafrecht §§ 315c 316 StGB. Normen StVO StVG OWiG StGB VVG. verifizierbare Quellen. Schnittstellen zu fachanwalt-versicherungsrecht und fachanwalt-strafrecht. Output: Routing zu passendem Folge-Skill. Abgrenzung zu mandat-triage-verkehrsrecht (konkrete Falltriage).'
+description: 'Für Fachanwalt für Verkehrsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/fachanwalt-verkehrsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -67,10 +67,8 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **fachanwalt-versicherungsrecht** bei Versicherungsstreit.
 - **fachanwalt-strafrecht** bei Verkehrsstrafrecht.
 
-## Aktuelle Rechtsprechung Verkehrsrecht
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

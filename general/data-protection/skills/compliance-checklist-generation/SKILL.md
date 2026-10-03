@@ -1,11 +1,11 @@
 ---
 name: compliance-checklist-generation
 title: Compliance Checklist Generation
-description: Generate compliance checklists for SOC2, HIPAA, PCI-DSS, and GDPR with gap analysis and remediation priorities.
+description: Build evidence-oriented readiness checklists for frameworks such as SOC 2, HIPAA, PCI DSS, and GDPR, with gaps and remediation priorities. Use when the user needs an internal readiness assessment or control-mapping plan; do not use it to certify compliance or replace an auditor or counsel.
 author: seb1n
 author_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main/legal-and-compliance/compliance-checklist-generation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -103,6 +103,13 @@ Generate a SOC2 Type II readiness checklist for our Series A startup. We're a B2
 - Document "Not Applicable" justifications formally — auditors will question every N/A item and require documented rationale.
 - Set calendar reminders for recurring controls (quarterly access reviews, annual risk assessments, penetration tests) to avoid lapses between audit periods.
 - Treat the checklist as a living document — update status weekly during active remediation and review quarterly once compliant.
+
+## Safety Boundaries
+
+- Treat the output as informational drafting or issue spotting, not legal advice.
+- Identify the governing jurisdiction and relevant effective date; verify changing requirements against current primary sources.
+- Do not claim that language is compliant, enforceable, or complete. Flag uncertainty and recommend qualified counsel for material decisions.
+- Do not file, publish, accept, sign, or send legal terms without the user reviewing and explicitly authorizing that action.
 
 ## Edge Cases
 

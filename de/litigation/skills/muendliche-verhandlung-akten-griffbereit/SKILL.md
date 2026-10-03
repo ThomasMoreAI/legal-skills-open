@@ -1,0 +1,145 @@
+---
+name: muendliche-verhandlung-akten-griffbereit
+title: In den Termin gehen — Akten griffbereit, Notizen parat
+description: 'Für In den Termin gehen — Akten griffbereit, Notizen parat: ordnet Akte, Belege und Lücken; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/muendliche-verhandlung-akten-griffbereit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# In den Termin gehen — Akten griffbereit, Notizen parat
+
+## Worum geht es?
+
+Sie haben eine Klage eingereicht oder eine Klageerwiderung geschrieben. Jetzt kommt der Termin im Gerichtssaal (oder per Video). Diese Skill zeigt, **wie Sie Ihre Akten so vorbereiten, dass Sie im Termin nichts suchen müssen** und auf jede Frage des Richters die richtige Anlage in der Hand haben.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie haben eine Ladung zum Termin bekommen.
+- Sie haben mehrere Anlagen und Schriftsaetze.
+- Sie wollen sich nicht im Termin blamieren, weil Sie etwas suchen müssen.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Termin**: Die muendliche Verhandlung vor dem Richter. Beim Amtsgericht typisch im Gerichtssaal.
+- **Akten-Reiter**: Eine Trennlasche im Ordner, beschriftet, damit Sie Anlagen schnell finden.
+- **Termin-Stichwort-Liste**: Eine selbst gemachte Liste mit den wichtigsten Themen, die Sie ansprechen wollen.
+- **Mitschreib-Block**: Ein Notizblock, auf dem Sie im Termin festhalten, was der Richter sagt und was die Gegenseite sagt.
+
+## Schritt-für-Schritt-Vorbereitung
+
+### Schritt 1 — Akten-Ordner anlegen
+
+Besorgen Sie einen Ordner (Schnell-Hefter oder Ringordner). Erstellen Sie Trennlaschen mit:
+
+- **Tab 1: Klageschrift**
+- **Tab 2: Anlagenverzeichnis**
+- **Tab 3: Anlage K1**
+- **Tab 4: Anlage K2**
+- ... (so viele wie Sie Anlagen haben)
+- **Tab "Klageerwiderung"**
+- **Tab "Replik"**
+- **Tab "Termin-Notizen"** (leerer Block)
+
+Schreiben Sie auf die Trennlasche **groß und lesbar** den Tab-Namen.
+
+### Schritt 2 — Stichwort-Liste erstellen
+
+Erstellen Sie ein eigenes Blatt mit **maximal 1 Seite** mit den Punkten, die Sie unbedingt ansprechen wollen:
+
+```
+Termin-Stichwort-Liste
+
+1. Anspruch: 1.250 EUR aus Kaufvertrag vom 12.03.2025
+2. Kernpunkt: Beklagter hat die Lieferung verweigert.
+3. Beweise:
+ - K1 = Vertrag (S. 2 Klausel III)
+ - K2 = Rechnung (saldiert 1.250 EUR)
+ - K3 = E-Mail Beklagter 20.04.2025 ("kann nicht zahlen")
+ - K4 = Mahnung 02.05.2025
+4. Gegen-Argumente Beklagter:
+ - sagt: Vertrag war nichtig wegen Wuchers
+ - meine Antwort: marktueblicher Preis (siehe K5 = Vergleichs-Angebote)
+5. Vergleichs-Bereitschaft: ja, ab 900 EUR
+6. Zeugen vorhanden: Zeuge Mueller zu Anruf vom 18.04.2025
+```
+
+### Schritt 3 — Streit-Punkte gegenueberstellen
+
+Auf einem weiteren Blatt machen Sie eine **Tabelle** mit den Streit-Punkten:
+
+| Punkt aus Klageerwiderung | Meine Antwort / Replik | Beweis |
+|-------------------------------------|----------------------------------|---------------|
+| Vertrag war nichtig wegen Wuchers | Preis war marktueblich | K5 |
+| Lieferung war mangelhaft | War zur Zeit der Übergabe ok | K1 Klausel V |
+| Mahnung kam zu spaet | Frist eingehalten — 14 Tage | K4 Datum |
+
+Diese Tabelle hilft Ihnen, im Termin **keinen Punkt zu vergessen**.
+
+### Schritt 4 — Termin-Notizen vorbereiten
+
+Legen Sie einen leeren Block oder Notizblock in die letzte Trennlasche. Im Termin schreiben Sie auf:
+
+- Was sagt der Richter?
+- Was sagt die Gegenseite?
+- Was wird beschlossen?
+- Welche Frist setzt das Gericht?
+
+### Schritt 5 — Was kommt auf den Tisch, was in die Tasche?
+
+**Auf den Tisch im Termin:**
+- Stichwort-Liste (1 Blatt)
+- Streit-Punkte-Tabelle (1 Blatt)
+- Klageschrift (gut sichtbar)
+- Mitschreib-Block
+
+**Im Ordner griffbereit:**
+- Alle Anlagen K1-Kn
+- Klageerwiderung der Gegenseite
+- Replik (falls Sie eine geschrieben haben)
+
+**In der Tasche als Reserve:**
+- Personalausweis
+- Ladungs-Schreiben
+- Wasser-Flasche
+- Kugelschreiber + Reserve-Stift
+
+### Schritt 6 — Anlagen-Reiter können Lebensretter sein
+
+Beschriften Sie jede Trennlasche so groß, dass Sie sie aus 30 cm Entfernung lesen können. So können Sie im Termin schnell zur richtigen Stelle blaettern, ohne lange zu suchen.
+
+## Bei Video-Verhandlung (§ 128a ZPO)
+
+Wenn der Termin als Video stattfindet, brauchen Sie:
+
+- Computer/Tablet mit Webcam und Mikrofon.
+- Ruhigen Raum.
+- **Akten-Ordner offen neben dem Geraet** — Sie können waehrend des Videos kurz reinschauen.
+- **Zweites Geraet (z.B. Tablet)** mit den wichtigsten PDFs offen — als Backup, wenn Sie schnell etwas zeigen sollen.
+- Stabile Internet-Verbindung.
+- Personalausweis für Identitaets-Prüfung griffbereit.
+
+## Worauf Sie besonders achten müssen
+
+- **Vor dem Termin durchblaettern**: Die Akten den Tag vor dem Termin noch einmal durchgehen. So sind Sie sicher, wo was steht.
+- **Frueh erscheinen**: 30 Min. vor Termin im Gericht sein (Sicherheits-Kontrolle, Saal suchen, anmelden).
+- **Hoeflicher Auftritt**: Aufstehen wenn der Richter den Saal betritt; Anrede sachlich-knapp "Herr Vorsitzender" / "Frau Vorsitzende" oder "Herr Richter" / "Frau Richterin". Veraltete Formeln wie "Hohes Gericht" oder "Hoher Herr Vorsitzender" sind nicht erforderlich. Skill `verhalten-gerichtssaal-laienleitfaden`.
+- **Nichts unaufgefordert sagen**: Warten, bis der Richter Sie aufruft.
+- **Klar und kurz sprechen**: Punkte aus der Stichwort-Liste der Reihe nach abarbeiten.
+
+## Typische Fehler
+
+- **Fehler:** Akten unsortiert in einer Plastiktuete. → **So vermeiden:** Ordner mit Trennlaschen vorbereiten.
+- **Fehler:** Im Termin merken: eine Anlage zuhause vergessen. → **So vermeiden:** Vor Abfahrt Checkliste durchgehen.
+- **Fehler:** Vor lauter Aufregung Stichwort-Liste vergessen. → **So vermeiden:** Stichwort-Liste GANZ OBEN auf den Stapel.
+- **Fehler:** Bei Video-Verhandlung Webcam nicht getestet. → **So vermeiden:** Einen Tag vorher Probe-Verbindung machen.
+- **Fehler:** Mitschreib-Block vergessen, nichts notiert. → **So vermeiden:** Block und Stift IMMER mit.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. Termin-Vorbereitung ist Praxis-Konvention; die hier beschriebenen Akten-Methoden sind in der anwaltlichen Praxis Standard und auch für Selbstvertreter geeignet.

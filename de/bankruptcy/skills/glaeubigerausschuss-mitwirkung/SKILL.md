@@ -1,11 +1,11 @@
 ---
 name: glaeubigerausschuss-mitwirkung
 title: Gläubigerausschuss-Mitwirkung
-description: 'Mandant ist Mitglied des Gläubiger-ausschusses oder soll in den Ausschuss gewählt werden und fragt nach Rechten Pflichten und Haftung. Prüfraster §§ 67 ff. InsO Gläubigerausschuss vorlaeufiger Gläubigerausschuss § 22a InsO Schwellenwerte. Aufgaben Überwachung Insolvenzverwalter Beschlussfassung wesentliche Verwertungs-Entscheidungen Verguetungsprüfung. Rechte Akteneinsicht Anhoerung Beschlussantrag Kassen-Prüfung Haftung § 71 InsO. Output Ausschuss-Arbeitsmemo mit Checkliste laufender Pflichten und Risiko-Hinweisen. Abgrenzung: gläubigerantrag-prüfung für Eroefffnungsantrag des Gläubiger.'
+description: 'Für Gläubigerausschuss-Mitwirkung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/glaeubigerausschuss-mitwirkung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,9 +14,23 @@ language: de
 
 # Gläubigerausschuss-Mitwirkung
 
-## Zweck
+## Arbeitsbereich
 
-Der Gläubigerausschuss ist das wichtigste Mitwirkungs-Organ der Gläubiger im Insolvenzverfahren — Überwachung des Verwalters und wichtigste Entscheidungen.
+Mandant ist Mitglied des Gläubiger-ausschusses oder soll in den Ausschuss gewählt werden und fragt nach Rechten Pflichten und Haftung. Prüfraster §§ 67 ff. InsO Gläubigerausschuss vorläufiger Gläubigerausschuss § 22a InsO Schwellenwerte. Aufgaben Überwachung Insolvenzverwalter Beschlussfassung wesentliche Verwertungs-Entscheidungen Verguetungsprüfung. Rechte Akteneinsicht Anhörung Beschlussantrag Kassen-Prüfung Haftung § 71 InsO. Output Ausschuss-Arbeitsmemo mit Checkliste laufender Pflichten und Risiko-Hinweisen. Abgrenzung: gläubigerantrag-prüfung für Eroefffnungsantrag des Gläubiger. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Gläubigerausschuss-Mitwirkung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Schritt 1 — Bestellung
 
@@ -30,9 +44,9 @@ Der Gläubigerausschuss ist das wichtigste Mitwirkungs-Organ der Gläubiger im I
 
 - **Schon im Eröffnungsverfahren** durch Insolvenzgericht bestellt
 - Pflicht bei größeren Unternehmen
-  - **§ 22a Abs. 1 InsO** Bilanzsumme mehr als sechs Millionen Euro
-  - oder Umsatz mehr als zwölf Millionen Euro
-  - oder Mitarbeiter mehr als fünfzig
+ - **§ 22a Abs. 1 InsO** Bilanzsumme mehr als sechs Millionen Euro
+ - oder Umsatz mehr als zwölf Millionen Euro
+ - oder Mitarbeiter mehr als fünfzig
 - **Antrag** beim Insolvenzgericht möglich
 - **Eilbestellung** bei Eröffnungsantrag
 
@@ -211,6 +225,14 @@ Der Gläubigerausschuss ist das wichtigste Mitwirkungs-Organ der Gläubiger im I
 - Frist im Fristenbuch (Sitzungs-Termine)
 - Bei Konflikt: Strategie-Memo
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - InsO §§ 22a 59 67–73 156 160 175 270 270d
@@ -220,24 +242,19 @@ Der Gläubigerausschuss ist das wichtigste Mitwirkungs-Organ der Gläubiger im I
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - HK-InsO
 
+## Aktuelle Leitentscheidungen — Gläubigerausschuss (Stand Mai 2026)
 
-## Aktuelle Leitentscheidungen — Glaeubigerausschuss (Stand Mai 2026)
-
-- Konkrete BGH/LG-Linien zu Haftung und Pflichten des Gläubigerausschusses (§§ 67–73, 160 InsO), insbesondere zur Mitwirkung bei bedeutenden Massnahmen, vor Ausgabe über dejure.org / openjur.de mit Datum und Aktenzeichen verifizieren.
+- Konkrete BGH/LG-Linien zu Haftung und Pflichten des Gläubigerausschusses (§§ 67–73, 160 InsO), insbesondere zur Mitwirkung bei bedeutenden Maßnahmen, vor Ausgabe über dejure.org / openjur.de mit Datum und Aktenzeichen verifizieren.
 - **BGH IX ZR 127/24 vom 13.11.2025** (Wirecard) — Bei AG-Insolvenzen mit großem Aktionärsanteil: Aktionärsforderungen sind nachrangig; Auswirkungen auf Stimmrechtsausübung und Ausschussbesetzung beachten.
 
-## Paragrafenkette Glaeubigerausschuss
+## Paragrafenkette Gläubigerausschuss
 
-§ 67 InsO (Einsetzung) → § 68 InsO (Mitglieder) → § 69 InsO (Pflichten und Rechte) → § 70 InsO (Entlassung) → § 71 InsO (Haftung) → § 72 InsO (Verguetung) → § 73 InsO (Verguetung) → § 160 InsO (besonders bedeutsame Rechtshandlungen)
+§ 67 InsO (Einsetzung) → § 68 InsO (Mitglieder) → § 69 InsO (Pflichten und Rechte) → § 70 InsO (Entlassung) → § 71 InsO (Haftung) → § 72 InsO (Vergütung) → § 73 InsO (Vergütung) → § 160 InsO (besonders bedeutsame Rechtshandlungen)
 
-## Triage — Glaeubigerausschuss
+## Triage — Gläubigerausschuss
 
 Bevor losgelegt wird, klaere:
-1. **Ausschuss obligatorisch?** § 67 Abs. 2 InsO: bei grossen Verfahren (>250 AN, >6 Mio. EUR Bilanzsumme oder >12 Mio. EUR Umsatz) ist vorlaeufiger Ausschuss zwingend.
-2. **Zustimmungspflicht § 160 InsO?** Welche Geschaefte benoetigen Ausschuss-Zustimmung (Betriebsveraesserung, ungewoehnlich hohe Verbindlichkeiten, Rechtsstreitigkeiten ueber EUR 10.000)?
-3. **Interessenkonflikt?** Ausschussmitglied ist gleichzeitig Glaeubiger und Bieter in Verwertung → § 71 InsO Haftungsrisiko.
-4. **Informations-Hol-Pflicht?** Mitglieder muessen aktiv Informationen vom IV anfordern; passives Warten genuegt nicht.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+1. **Ausschuss obligatorisch?** § 67 Abs. 2 InsO: bei großen Verfahren (>250 AN, >6 Mio. EUR Bilanzsumme oder >12 Mio. EUR Umsatz) ist vorläufiger Ausschuss zwingend.
+2. **Zustimmungspflicht § 160 InsO?** Welche Geschäfte benoetigen Ausschuss-Zustimmung (Betriebsveraesserung, ungewoehnlich hohe Verbindlichkeiten, Rechtsstreitigkeiten über EUR 10.000)?
+3. **Interessenkonflikt?** Ausschussmitglied ist gleichzeitig Gläubiger und Bieter in Verwertung → § 71 InsO Haftungsrisiko.
+4. **Informations-Hol-Pflicht?** Mitglieder müssen aktiv Informationen vom IV anfordern; passives Warten genuegt nicht.

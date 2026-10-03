@@ -1,0 +1,88 @@
+---
+name: verbraucherschutzverband-durchsetzung-kaltstart-triage
+title: Verbraucherschutzverband Durchsetzung - Allgemeiner Einstieg
+description: 'Für Verbraucherschutzverband Durchsetzung - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verbraucherschutzverband-durchsetzung/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: consumer
+language: de
+---
+
+# Verbraucherschutzverband Durchsetzung - Allgemeiner Einstieg
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 13 BGB` — Verbraucherbegriff.
+- `§ 14 BGB` — Unternehmerbegriff.
+- `§ 312c BGB` — Fernabsatzvertrag.
+- `§ 312d BGB` — Informationspflichten.
+- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
+- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
+- `§ 434 BGB` — Sachmangel.
+- `§ 475 BGB` — Verbrauchsgüterkauf.
+- `§ 477 BGB` — Beweislastumkehr.
+- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Startfragen
+
+1. Wer nutzt das Plugin: Laie, Verband, Kanzlei, Behörde, Unternehmen, Presse, Verwaltung oder Fachabteilung?
+2. Welche Entscheidung steht jetzt an und welche Frist läuft?
+3. Welche Dokumente liegen vor, welche fehlen und welche Quelle muss live geprüft werden?
+4. Welche Behörde, welches Gericht, welches Register oder welcher private Akteur ist betroffen?
+5. Soll am Ende ein Antrag, ein Widerspruch, eine Klage-/Eilantragslinie, ein Dashboard, ein Memo oder ein Schreiben entstehen?
+
+## Workflow
+
+1. Sachverhalt in Akte, Normpfad, Zuständigkeit, Frist, Beweis und Ziel zerlegen.
+2. Die einschlägige Norm nicht aus dem Gedächtnis final behaupten, sondern als Live-Check gegen amtliche Quelle markieren.
+3. Ablehnungs-, Kosten-, Zuständigkeits- und Beweisrisiken offen in einer Ampel führen.
+4. Bei Mehr-Ebenen-Recht immer Bund, Land, Kommune, EU/international und Spezialgesetz trennen.
+5. Ausgabe mit konkretem nächsten Schritt, offenen Rückfragen und einer kurzen Fassung für Nichtjuristen schließen.
+
+## Verbraucherzentrale-Routing
+
+- Bankgebühren/Zustimmungsfiktion: `vdg-101-bankentgelte-zustimmungsfiktion-serie`.
+- Inkasso/Konzerninkasso/Nebenforderungen: `vdg-102-inkasso-konzerninkasso-musterfeststellung`.
+- Fehlerhafte Checkout-Buttons: `vdg-103-bestellbutton-uklag-uwg-abmahnung`.
+- Probeabo, Kündigungsbutton, automatische Verlängerung: `vdg-104-probeabo-widerruf-verbandsstrategie`.
+- SCHUFA, Scoring, Restschuldbefreiung: `vdg-105-schufa-scoring-dsgvo-verbandsfall`.
+- Diesel-/Fahrzeug-Serienfälle: `vdg-106-diesel-differenzschaden-serienfall`.
+
+## Typische Ausgaben
+
+- Prüfvermerk mit Normpfad und Live-Check-Liste
+- Fristen- und Zuständigkeitsmatrix
+- Entwurf für Antrag, Widerspruch, Klagebaustein oder Behördenbrief
+- Dashboard-/Tracker-Eintrag mit Status, Risiko und nächster Aktion
+
+## Red Flags
+
+- blindes Zitieren nicht verifizierter Rechtsprechung oder alter Gesetzesstände
+- falsche Behörde, falscher Rechtsweg oder unbemerkte Spezialzuständigkeit
+- Gebühren-, Frist-, Präklusions-, Geheimschutz-, Datenschutz- oder Drittbetroffenenproblem
+- politisch klingende Bewertung ohne saubere Rechtsgrundlage und Beleglogik
+
+## Quellen- und Qualitätsregel
+
+Primär mit amtlichen Gesetzestexten, Behördenhinweisen, Gerichtsentscheidungen mit Datum/Aktenzeichen und frei prüfbaren Quellen arbeiten. Literatur, Datenbanken hinter Paywalls und Fundstellen ohne Nutzerquelle nicht behaupten. Wenn Landesrecht, EU-Recht oder ausländisches Recht berührt ist, den Rechtsstand ausdrücklich live prüfen und die Ausgabe als Arbeitsfassung kennzeichnen.

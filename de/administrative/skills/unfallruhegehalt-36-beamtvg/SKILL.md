@@ -1,0 +1,77 @@
+---
+name: unfallruhegehalt-36-beamtvg
+title: Unfallruhegehalt nach § 36 BeamtVG
+description: 'Für Unfallruhegehalt nach Paragraf 36 BeamtVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/unfallruhegehalt-36-beamtvg
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: administrative
+language: de
+---
+
+# Unfallruhegehalt nach § 36 BeamtVG
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Widerspruch 1 Monat (VwGO § 70), Disziplinarverfahren nach BDG, Beihilfeantrag i.d.R. 1 Jahr, Beförderung-Auswahlentscheidung Bewährungsfristen.
+- Tragende Normen verifizieren: BeamtStG §§ 3, 4, 21-25, 30, 33-41, BBG, BBesG, BeamtVG, LBG der Länder, GG Art. 33 Abs. 4 und 5, BDG, LDG, VwGO §§ 126 ff., LPVG/BPersVG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Dienstherr (Bund/Land/Kommune), Beamter, Dienstvorgesetzter, Personalrat, Personalvertretung, Disziplinarvorgesetzter, VG, OVG, BVerwG (2. Senat).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Ernennungsurkunde, dienstliche Beurteilung, Konkurrentenklage, Disziplinarverfügung, Versorgungsbescheid, Beihilfeantrag, Personalratsentscheidung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## 1. Zweck und Anwendungsfall
+
+Skill für Beamte, die infolge eines Dienstunfalls dienstunfaehig in den Ruhestand versetzt werden und Unfallruhegehalt nach § 36 BeamtVG geltend machen.
+
+## 2. Eingaben
+
+- Dienstunfallbescheid (Anerkennung)
+- Diagnose und Grad der Dienstunfaehigkeit
+- Bisheriger Statusamt und Bezuege
+- Festgesetztes Ruhegehalt
+- Beruecksichtigungsfaehige Dienstjahre
+
+## 3. Ablauf / Checkliste
+
+### a) Voraussetzungen
+- Anerkennung des Dienstunfalls als Ursache der Dienstunfaehigkeit.
+- Ruhestandsversetzung wegen Dienstunfaehigkeit.
+
+### b) Bemessungsgrundlage
+- Unfallruhegehalt mindestens 66 v. H. der ruhegehaltfaehigen Dienstbezuege; Sonderbestimmungen für qualifizierte Dienstunfaelle.
+- Erhoehte Versorgung für Einsatzunfaelle bei Auslandsverwendung und im polizeilichen Einsatz.
+
+### c) Verhältnis zum regulaeren Ruhegehalt
+- Hoehere Versorgung als die normale Berechnung; Versorgungsabschlag bei vorzeitigem Ruhestand entfaellt.
+
+### d) Einmalige Unfallentschaedigung (§ 43 BeamtVG)
+- Bei dauernder Pflegebeduerftigkeit, schweren Verletzungen oder bestimmten Einsatzunfaellen zusaetzliche einmalige Entschaedigung.
+
+### e) Hinterbliebenenversorgung
+- Hinterbliebene erhalten erhoehte Witwen- bzw. Waisenversorgung; Bezug zur einmaligen Unfallentschaedigung.
+
+## 4. Quellenpflicht
+
+- Normen: §§ 30, 31, 36, 43 BeamtVG; Auslandsverwendungsgesetz; landesrechtliche Äquivalente.
+- Rspr.: BVerwG zum Unfallruhegehalt — nur nach Live-Check mit Gericht, Datum, Aktenzeichen und freier Quelle.
+- Zitierregeln: `beamtenrecht/references/QUELLEN.md`; keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate.
+
+## 5. Ausgabeformat
+
+- Prüfraster Anspruchsvoraussetzungen.
+- Antrag auf Festsetzung des Unfallruhegehalts.
+
+## 6. Verifizierte Quellenanker
+
+- BeamtVG und jeweiliges Landesversorgungsrecht sauber trennen; Versorgung ist bei Landesbeamten seit der Föderalismusreform grundsätzlich Landesrecht.
+- BVerfG, 27.09.2005 - 2 BvR 1387/02: Versorgungsänderungsrecht und Alimentationsprinzip als verfassungsrechtlicher Anker.
+- BVerfG, 20.03.2007 - 2 BvL 11/04: Versorgung aus dem letzten Amt und Wartefrist.
+- BVerwG, 25.10.2018 - 2 C 33.17 sowie BVerwG, 30.10.2018 - 2 C 32.17 als verifizierte Anker für Besoldungs-/Versorgungsvorlagen; Reichweite auf konkrete Versorgungsfrage jeweils prüfen.
+- Konkrete Berechnung nie aus Modellwissen: Bescheid, Dienstzeiten, Ruhensnormen, Rentenbescheide und Landesrecht in Tabelle nachziehen.
+
+## 7. Beispiel (Kurzfassung)
+
+Polizeihauptmeister wird nach Schussverletzung im Streifeneinsatz dienstunfaehig. Skill liefert Antrag auf Unfallruhegehalt von mindestens 66 v. H. und auf einmalige Unfallentschaedigung.

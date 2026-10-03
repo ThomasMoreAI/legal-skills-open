@@ -1,0 +1,95 @@
+---
+name: daenemark-proportionalitetsprincip
+title: Daenemark Proportionalitetsprincip
+description: 'Für Dänemark Proportionalitetsprincip: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verhaeltnismaessigkeitspruefer/skills/daenemark-proportionalitetsprincip
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: constitutional
+language: de
+---
+
+# Daenemark Proportionalitetsprincip
+
+## Verfassungsrahmen
+
+Die Danmarks Riges Grundlov von 1849 / 1953 (Grundloven) enthaelt einen
+historisch geschnittenen Grundrechtskatalog (Personenfreiheit Art 71,
+Hausrecht Art 72, Versammlung Art 79, Religion Art 67 ff). Eigenheiten:
+
+- Kein selbständiges Verfassungsgericht; verfassungsrechtliche Kontrolle
+  über die ordentliche Gerichtsbarkeit, letztinstanzlich Hoejesteret.
+- Hoejesteret hat in U 1999.841 H (Maastricht-Urteil) das Praerogativ
+  inzidenter Verfassungspruefung bestaetigt; faktisch sehr
+  zurueckhaltend.
+- EMRK wurde durch Inkorporationsgesetz Nr 285/1992 in daenisches
+  Recht uebernommen; Prüfungsmassstab für Eingriffe in Praxis
+  ueberwiegend EMRK-foermig.
+
+## Proportionalitetsprincip im Verwaltungsrecht
+
+Das **proportionalitetsprincip** ist ungeschriebener allgemeiner
+Verwaltungsrechtsgrundsatz, in Teilen kodifiziert:
+
+- **Politilov § 2 Nr 6** und **§ 16**: Polizei darf nur in dem
+  unbedingt erforderlichen Mass eingreifen.
+- **Retsplejeloven § 783** (Tvangsindgreb): Verhältnismäßigkeit
+  prozessualer Zwangsmittel.
+- **Udlaendingeloven §§ 26, 31**: Verhältnismäßigkeit bei
+  Ausweisungen.
+
+Strukturell prüft die daenische Verwaltungsrechtsdoktrin in drei
+Stufen:
+
+1. **Egnethed**: Eignung zur Zielerreichung.
+2. **Noedvendighed**: kein milderes gleich wirksames Mittel.
+3. **Proportionalitet i snaever forstand**: keine unverhaeltnismaessige
+   Belastung des Betroffenen.
+
+## Hoejesteret und EMRK-Linie
+
+Hoejesteret prüft Eingriffe ueberwiegend über die EMRK
+(Inkorporationsgesetz 1992). Leading cases:
+
+- U 1996.234 H (Tvind-skoler, Eigentum und Verhältnismäßigkeit),
+- U 1999.841 H (Maastricht-Urteil, EU-Recht und Verfassung),
+- U 2008.2394 H (Ekstrablad / Pressefreiheit Art 10 EMRK),
+- U 2013.1916 H (Tvangsindgreb / Telefonkontrolle).
+
+Bei verwaltungsgerichtlichen Verfahren (Klagebehandlung) wird die
+**rimelighedsgrundsaetning** (Sachlichkeitsgebot) mitgepruft. Im
+Strafrecht gilt **proportionalitet** über Strafprocessloven §§ 752 ff
+für Zwangsmittel.
+
+## Strukturunterschiede
+
+| Deutschland | Daenemark |
+| --- | --- |
+| Vier Stufen sequenziell | Drei Stufen Egnethed Noedvendighed Proportionalitet |
+| Wesensgehalt Art 19 II GG | Kein expliziter Wesensgehalt; Schutz über EMRK Art 3 und Verbot des Wesensgehaltsentzugs in Eigentumsschutz Art 73 Grundloven |
+| Verfassungsgericht mit Normenkontrolle | Inzidenzkontrolle der ordentlichen Gerichte; Hoejesteret zurueckhaltend |
+| EMRK über Goerguelue rezipiert | EMRK seit 1992 inkorporiert, faktisch dominant |
+| Praktische Konkordanz | Afvejning / belangenafvejning |
+| Untermassverbot ausgeprägt | Positive forpligtelser nach EMRK |
+
+## Bedeutung für den Prüfer
+
+Bei daenischen Bezuegen:
+
+- Verhältnismäßigkeit primaer über Politilov, Retsplejelov und
+  Udlaendingelov stuetzen, EMRK als Maßstab ergaenzen.
+- Hoejesteret-Zurueckhaltung in Verfassungsfragen einkalkulieren;
+  Eingriffsargumente gehen schneller über EMRK durch.
+- Proportionalitetsprincip im daenischen Verwaltungsrecht als
+  ungeschriebenen Grundsatz benennen.
+- Bei Polizeimassnahmen § 2 Nr 6 Politilov und §§ 783 ff Retsplejelov
+  zitieren.
+
+## Live-Recherche-Disclaimer
+
+Urteile vor Zitierung verifizieren über Karnov / UfR (Ugeskrift for
+Retsvaesen) und domstol dk. Gesetzestexte über retsinformation dk.
+EMRK-Inkorporationsgesetz Nr 285/1992 und Änderungen prüfen.

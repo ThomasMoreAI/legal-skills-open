@@ -5,12 +5,20 @@ description: Use when users say "does this authority support the point", "check 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/proposition-checking
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
-tags: [briefs, citations, factual-record, proposition-checking, hallucination-detection]
+tags:
+- briefs
+- citations
+- factual-record
+- proposition-checking
+- hallucination-detection
+sources:
+- title: Proposition checking model
+  path: references/proposition-checking-model.md
 ---
 
 # proposition-checking

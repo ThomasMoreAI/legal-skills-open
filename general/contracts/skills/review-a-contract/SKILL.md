@@ -5,7 +5,7 @@ description: 'Read a contract someone sent you and tell you what''s in it. Pick 
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/review-a-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -42,6 +42,7 @@ Reads `config/context-ledger.json` first.
 Required field missing → ask ONE targeted question with modality hint (connect Google Drive / paste contract text / URL to public PDF), write it, continue.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read ledger + legal context.** Gather missing required fields per above. Write atomically.
 2. **Acquire contract.** Priority: connected document-storage (Google Drive) > URL + Firecrawl scrape > file drop > paste. Only PDF supplied + no text-extraction tool connected → say so, ask for text-extractable version.

@@ -5,11 +5,18 @@ description: 监管问询回复助手（再融资版）- 协助撰写再融资�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/regulatory-inquiry-response-refinancing
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: capital-markets
 language: zh
+sources:
+- title: Raising rules
+  path: references/raising-rules.md
+- title: Refinancing inquiry types
+  path: references/refinancing-inquiry-types.md
+- title: Response templates refinancing
+  path: references/response-templates-refinancing.md
 ---
 
 # 监管问询回复助手（再融资版）

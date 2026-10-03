@@ -1,11 +1,11 @@
 ---
 name: tatbestand-zivil-schreiben
 title: Tatbestand schreiben
-description: 'Tatbestand eines Zivilurteils nach § 313 Abs. 2 ZPO schreiben: Richter muss den Prozessstoff sachlich und knapp wiedergeben. Normen: § 313 Abs. 2 ZPO (Tatbestand-Anforderungen), § 314 ZPO (Beweiskraft des Tatbestands). Prüfraster: Einleitungssatz, unstreitiger Sachverhalt, streitiges Klaegervorbringen mit Antrag, Beklagtenvorbringen mit Antrag, Bezugnahmen auf Anlagen. Output Tatbestand-Entwurf: knapp, nuechtern, objektiv im Urteilsstil. Abgrenzung: Entscheidungsgründe siehe entscheidungsgründe-zivil-schreiben; Relation (Vorstufe) siehe relation-zivil.'
+description: 'Für Tatbestand schreiben: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/tatbestand-zivil-schreiben
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -22,11 +22,7 @@ Form und Inhalt: Paragraf 313 Abs. 2 ZPO. Knapp, nuechtern, objektiv, im Praesen
 2. Sind alle streitigen und unstreitigen Tatsachen aus dem Aktenintake eindeutig getrennt?
 3. Hat das Gericht Hinweisbeschlüsse nach § 139 ZPO erlassen — wurden sie befolgt?
 4. Gibt es Widerklage oder Hilfsanträge — müssen im Tatbestand vollständig erscheinen?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zentrale Normen
 
@@ -35,12 +31,9 @@ Form und Inhalt: Paragraf 313 Abs. 2 ZPO. Knapp, nuechtern, objektiv, im Praesen
 - § 320 ZPO — Tatbestandsberichtigung auf Antrag
 - § 286 ZPO — Beweiswürdigung (gehört in Entscheidungsgründe, nicht Tatbestand)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 1. **Einleitungssatz formulieren:** "Die Parteien streiten über [STREITGEGENSTAND] aus [VERTRAGSART/DELIKT]."
 2. **Unstreitige Tatsachen:** Chronologisch — Vertragsschluss, Lieferung, Zahlung etc.
@@ -52,12 +45,12 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Tatbestand fuer Zivilurteil schreiben | Tatbestand nach Schema; Template unten |
-| Variante A — Sachverhalt sehr komplex viele Beteiligte | Komprimierter Tatbestand; Anlage fuer Details verwenden |
+| Standard — Tatbestand für Zivilurteil schreiben | Tatbestand nach Schema; Template unten |
+| Variante A — Sachverhalt sehr komplex viele Beteiligte | Komprimierter Tatbestand; Anlage für Details verwenden |
 | Variante B — Partien sind einig nur formale Niederlegung noetig | Vereinfachter Tatbestand; nur wesentliche streitige Punkte |
 | Variante C — Tatbestand wird angesteuert auf Revision | Revisionssichere Tatbestandsdarstellung; alle relevanten Tatsachen |
 
@@ -75,7 +68,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
@@ -91,12 +84,12 @@ Die Beklagte lieferte am [DATUM].
 Der Kläger behauptet, [STREITIGE TATSACHE KLÄGER].
 
 Der Kläger beantragt,
-    die Beklagte zu verurteilen, an ihn [BETRAG] EUR nebst Zinsen zu zahlen.
+ die Beklagte zu verurteilen, an ihn [BETRAG] EUR nebst Zinsen zu zahlen.
 
 Die Beklagte behauptet, [STREITIGE TATSACHE BEKLAGTE].
 
 Die Beklagte beantragt,
-    die Klage abzuweisen.
+ die Klage abzuweisen.
 
 Das Gericht hat Beweis erhoben durch Vernehmung des Zeugen [NAME] sowie durch Einholung
 eines schriftlichen Sachverständigengutachtens des Sachverständigen [NAME] vom [DATUM].
@@ -122,3 +115,5 @@ Auf Anlagen, Schriftsätze, Protokolle nach Paragraf 313 Abs. 2 Satz 2 ZPO konkr
 - Parteien werden als "Kläger" / "Beklagte" bezeichnet (nicht namentlich, außer zur Unterscheidung mehrerer Beklagter)
 - Streitwertangaben im Tatbestand vermeiden (gehören in den Tenor / Streitwertbeschluss)
 - "Wegen ..." gehört in den Einleitungssatz, nicht in das Rubrum
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

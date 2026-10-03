@@ -1,0 +1,51 @@
+---
+name: registeranmeldung-risk-map-satzung
+title: Registeranmeldung
+description: 'Für Registeranmeldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktienrecht-hauptversammlung-ag-se/skills/registeranmeldung-risk-map-satzung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Registeranmeldung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Registeranmeldung
+- **Normen-/Quellenanker:** AktG §§ 118 ff., 121 ff., 126/127, 130, 131, 243 ff., WpHG, MAR, ARUG-II-Regime, SE-VO/SEAG und Satzung.
+- **Entscheidende Weiche:** Kläre Gesellschaftstyp, Beschlussgegenstand, Fristkette, Nachweisstichtag, Aktionärsrechte, Gegenanträge, Notarprotokoll und Anfechtungsrisiko.
+
+## Kaltstart-Fragen
+
+Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
+
+1. Wer handelt, in welcher Rolle, und welches Ergebnis wird gebraucht?
+2. Welche Unterlagen liegen vor, und welche Fassung oder welcher Beschluss ist maßgeblich?
+3. Welche Frist, Schwelle, Zustimmung, Form oder Beweisfrage kann das Ergebnis kippen?
+4. Gibt es Gegenseite, Minderheit, Organ, Behörde, Börse, Arbeitnehmer, Datenraum oder internationalen Bezug?
+5. Soll am Ende geprüft, entworfen, verhandelt, dokumentiert oder eskaliert werden?
+
+## Spezifische Prüfachse
+
+- Notarielle Niederschrift nach § 130 AktG nicht als Nachgang, sondern als Live-Regie planen.
+- Registerrelevante Beschlüsse mit Anlagen, Vollmachten, Nachweisen und ggf. Freigabe-/Heilungspfad ausstatten.
+- Protokoll muss streitfest, aber nicht geschwätzig sein.
+
+## Arbeitsmodus
+
+1. **Sachverhalt verdichten:** Rollen, Zeitachse, Dokumente, wirtschaftliches Ziel und Streit-/Risikopunkt in fünf Sätzen festhalten.
+2. **Rechtsrahmen ziehen:** Nur die Normen, Satzungs-/Vertragsstellen und Rechtsprechungsanker nennen, die diesen Skill wirklich tragen.
+3. **Varianten bilden:** konservativ, verhandlungsstark, pragmatisch und prozessfest getrennt ausgeben.
+4. **Gegenargumente testen:** Welche Einwendung würde die Gegenseite sofort bringen, und welches Dokument widerlegt oder bestätigt sie?
+5. **Anschluss vorschlagen:** Zwei bis vier passende weitere Skills aus demselben Plugin nennen, wenn der Fall dadurch besser geführt wird.
