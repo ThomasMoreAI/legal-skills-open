@@ -5,7 +5,7 @@ description: Get an external patent examiner review of a patent application. Use
 author: wanshuiyin
 author_url: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/main/skills/patent-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -20,15 +20,15 @@ Adapted from `/research-review`. The reviewer persona is a patent examiner, not 
 
 ## Constants
 
-- `REVIEWER_MODEL = gpt-5.5` — Model used via Codex MCP
+- `REVIEWER_MODEL = gpt-6-astra` — Model used via Codex MCP
 - `REVIEW_ROUNDS = 2` — Number of review rounds
-- `EXAMINER_PERSONA = "patent-examiner"` — GPT-5.4 persona
+- `EXAMINER_PERSONA = "patent-examiner"` — GPT-6-Astra persona
 
 ## Prerequisites
 
 - Codex MCP Server configured:
   ```bash
-  claude mcp add codex -s user -- codex mcp-server
+  claude mcp add codex -s user -- python3 "$HOME/aris_repo/mcp-servers/codex-exec/server.py"   # your ARIS clone's path
   ```
 
 ## Inputs
@@ -55,6 +55,7 @@ Send to `REVIEWER_MODEL` via `mcp__codex__codex` with xhigh reasoning:
 
 ```
 mcp__codex__codex:
+  model: gpt-6-astra
   config: {"model_reasoning_effort": "xhigh"}
   prompt: |
     You are a senior patent examiner at the [USPTO/CNIPA/EPO].
@@ -135,11 +136,12 @@ For each fix:
 
 ### Step 4: Round 2 — Follow-Up Review
 
-Use `mcp__codex__codex` with the threadId from Round 1:
+Use `mcp__codex__codex-reply` with the threadId from Round 1:
 
 ```
-mcp__codex__codex:
+mcp__codex__codex-reply:
   threadId: [from Round 1]
+  # inherits the thread's model/effort — do not re-send
   prompt: |
     Here is the revised patent application after addressing your office action.
 

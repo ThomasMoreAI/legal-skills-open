@@ -1,29 +1,57 @@
 ---
 name: massenentlassung-17-kschg
-title: Massenentlassung § 17 KSchG
-description: Workflow-Skill zu massenentlassung 17 kschg. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Massenentlassung 17 KSchG: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belast'
+description: 'Für Massenentlassung 17 Kschg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Arbeitsrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/massenentlassung-17-kschg
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Massenentlassung § 17 KSchG
+# Massenentlassung 17 KSchG: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
 
-## Zweck
 
-Bei Massenentlassungen ist § 17 KSchG zwingend zu beachten — sonst sind alle Kündigungen unwirksam. Strenge Vorgaben aus EuGH- und BAG-Rechtsprechung; Heilung nach Ausspruch der Kuendigung ist ausgeschlossen.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Massenentlassung 17 KSchG: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+### Massenentlassung Paragraf 17 KSchG
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Massenentlassung Paragraf 17 KSchG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Aktuelle Leitentscheidungen (Stand Mai 2026)
 
 - **BAG, Urteile vom 01.04.2026 - 6 AZR 152/22 und 6 AZR 157/22**: Fehler im Anzeigeverfahren (komplett fehlende oder vor Abschluss des Konsultationsverfahrens verfruehte Massenentlassungsanzeige) fuehren zur Unwirksamkeit aller Kuendigungen; eine Heilung nach Kuendigungsausspruch ist ausgeschlossen.
-  - Quelle: dejure.org, Vernetzung BAG 01.04.2026 - 6 AZR 152/22; BAG-Pressemitteilung "Massenentlassung - Rechtsfolge von Fehlern im Anzeigeverfahren"; Volltext PDF auf bundesarbeitsgericht.de (Wp-Content) verfuegbar.
+ - Quelle: dejure.org, Vernetzung BAG 01.04.2026 - 6 AZR 152/22; BAG-Pressemitteilung "Massenentlassung - Rechtsfolge von Fehlern im Anzeigeverfahren"; Volltext PDF auf bundesarbeitsgericht.de (Wp-Content) verfuegbar.
 - **EuGH, Urteile vom 30.10.2025 - C-134/24 (Tomann) und C-402/24 (Sewel)**: Die Massenentlassungsanzeige nach Art. 4 RL 98/59/EG ist Wirksamkeitsvoraussetzung der Kuendigung; eine fehlende oder verfruehte Anzeige kann nach Kuendigungsausspruch nicht nachgeholt oder geheilt werden. Die 30-Tage-Sperrfrist beginnt erst mit ordnungsgemaesser Anzeige.
-  - Quelle: dejure.org, Vernetzung EuGH 30.10.2025 - C-134/24 und C-402/24.
+ - Quelle: dejure.org, Vernetzung EuGH 30.10.2025 - C-134/24 und C-402/24.
 
 ## Schritt 1 — Schwellenwert prüfen
 
@@ -54,7 +82,7 @@ Bei Massenentlassungen ist § 17 KSchG zwingend zu beachten — sonst sind alle 
 - **Befristungs-Ablauf** zählt nicht
 - **Eigen-Kündigung** Arbeitnehmer zählt nicht
 
-## Schritt 2 — Konsultations-Pflicht Betriebsrat § 17 Abs. 2 KSchG
+## Schritt 2 — Konsultations-Pflicht Betriebsrat Paragraf 17 Abs. 2 KSchG
 
 ### Zeitpunkt
 
@@ -83,7 +111,7 @@ Schriftlich an Betriebsrat:
 - **Erfolgreich beraten** — Bescheinigung BR oder Pflicht-Hinweis "BR hat sich nicht geäußert"
 - **Nichtbeteiligung BR** — Kündigung unwirksam
 
-## Schritt 3 — Massenentlassungs-Anzeige § 17 Abs. 1 KSchG
+## Schritt 3 — Massenentlassungs-Anzeige Paragraf 17 Abs. 1 KSchG
 
 ### Adressat
 
@@ -91,7 +119,7 @@ Schriftlich an Betriebsrat:
 - **Schriftform** Original
 - **Vor Zugang Kündigung**
 
-### Inhalt (§ 17 Abs. 3 KSchG)
+### Inhalt (Paragraf 17 Abs. 3 KSchG)
 
 - Name Anschrift Arbeitgeber
 - Zahl Berufsgruppen Gesamt-Beschäftigung
@@ -104,25 +132,25 @@ Schriftlich an Betriebsrat:
 ### Bestätigung Eingang
 
 - Agentur für Arbeit bestätigt Eingang
-- **Sperrfrist** ein Monat ab Anzeige § 18 KSchG
+- **Sperrfrist** ein Monat ab Anzeige Paragraf 18 KSchG
 - Vorzeitige Beendigung möglich auf Antrag
 
 ### Folge bei Mangel der Anzeige
 
 - BAG, Urteile vom 01.04.2026 - 6 AZR 152/22 und 6 AZR 157/22, sowie EuGH, Urteile vom 30.10.2025 - C-134/24 und C-402/24: Fehlende oder verfruehte (vor Abschluss der BR-Konsultation eingereichte) Massenentlassungsanzeige fuehrt zur Unwirksamkeit aller davon erfassten Kuendigungen. Eine Heilung nach Kuendigungsausspruch ist ausgeschlossen. Quellen: dejure.org-Vernetzungen; BAG-Pressemitteilung "Massenentlassung - Rechtsfolge von Fehlern im Anzeigeverfahren".
-- Nicht jeder Verfahrensfehler fuehrt zur Unwirksamkeit; insbesondere die bloss unterbliebene Uebermittlung der Abschrift nach § 17 Abs. 3 Satz 1 KSchG ist nach BAG 6 AZR 155/21 fuer sich allein kein zur Unwirksamkeit fuehrender Fehler.
+- Nicht jeder Verfahrensfehler fuehrt zur Unwirksamkeit; insbesondere die bloss unterbliebene Uebermittlung der Abschrift nach Paragraf 17 Abs. 3 Satz 1 KSchG ist nach BAG 6 AZR 155/21 für sich allein kein zur Unwirksamkeit fuehrender Fehler.
 
 ## Schritt 4 — Reihenfolge der Schritte
 
 1. **Plan** Massenentlassung intern
 2. **Beratung mit Betriebsrat** zwei Wochen ab Info-Übergabe
-3. **Sozialplan / Interessensausgleich** § 111 BetrVG
+3. **Sozialplan / Interessensausgleich** Paragraf 111 BetrVG
 4. **Anzeige Agentur für Arbeit** vor Kündigungen
 5. **Eingangsbestätigung abwarten**
 6. **Sperrfrist berücksichtigen** ein Monat
 7. **Kündigungen aussprechen** unter Beachtung KSchG Schutzbestimmungen
 
-## Schritt 5 — Sozialplan und Interessensausgleich § 111 BetrVG
+## Schritt 5 — Sozialplan und Interessensausgleich Paragraf 111 BetrVG
 
 ### Betriebsänderung
 
@@ -138,15 +166,15 @@ Schriftlich an Betriebsrat:
 
 ### Sozialplan
 
-- **Erzwingbar** durch Einigungsstelle § 112 Abs. 4 BetrVG
+- **Erzwingbar** durch Einigungsstelle Paragraf 112 Abs. 4 BetrVG
 - Inhalt: Abfindungen Umschulungs-Hilfen Wegfall-Ausgleich
 
-### Nachteilsausgleich § 113 BetrVG
+### Nachteilsausgleich Paragraf 113 BetrVG
 
 - Bei Massenentlassung ohne Interessensausgleich
 - Anspruch des einzelnen Arbeitnehmers
 
-## Schritt 6 — Sozialauswahl § 1 Abs. 3 KSchG
+## Schritt 6 — Sozialauswahl Paragraf 1 Abs. 3 KSchG
 
 ### Soziale Kriterien
 
@@ -158,7 +186,7 @@ Schriftlich an Betriebsrat:
 ### Gewichtung
 
 - Punkteschema möglich
-- Auswahlrichtlinie mit Betriebsrat § 95 BetrVG
+- Auswahlrichtlinie mit Betriebsrat Paragraf 95 BetrVG
 - Spielraum begrenzt
 
 ### Berechtigte Interessen Arbeitgeber
@@ -169,26 +197,26 @@ Schriftlich an Betriebsrat:
 
 ## Schritt 7 — Kündigungsschutz-Sonderfälle
 
-### Schwerbehinderte § 168 SGB IX
+### Schwerbehinderte Paragraf 168 SGB IX
 
 - Zustimmung Integrationsamt
 
-### Schwangere § 17 MuSchG
+### Schwangere Paragraf 17 MuSchG
 
 - Zustimmung obere Landesbehörde
 
-### Elternzeit § 18 BEEG
+### Elternzeit Paragraf 18 BEEG
 
 - Zustimmung obere Landesbehörde
 
-### Betriebsratsmitglieder § 15 KSchG
+### Betriebsratsmitglieder Paragraf 15 KSchG
 
 - Außerordentlich nur — Zustimmung BR
 
 ## Schritt 8 — Kündigungsschutzklage parallel
 
-- **Drei-Wochen-Frist** § 4 KSchG individuell beachten
-- Bei Mängeln § 17 KSchG ohnehin Klage erfolgsversprechend
+- **Drei-Wochen-Frist** Paragraf 4 KSchG individuell beachten
+- Bei Mängeln Paragraf 17 KSchG ohnehin Klage erfolgsversprechend
 - Skill `kuendigungsschutzklage`
 
 ## Schritt 9 — Strategische Aspekte
@@ -202,9 +230,8 @@ Schriftlich an Betriebsrat:
 
 ### Bei Massenentlassung in Insolvenz
 
-- § 125 InsO Sonder-Regelungen
+- Paragraf 125 InsO Sonder-Regelungen
 - Erleichterte Kündigungsfrist
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 10 — Beweissicherung
 
@@ -236,12 +263,14 @@ Schriftlich an Betriebsrat:
 
 ## Quellen
 
-- KSchG §§ 1 4 17 18
-- BetrVG §§ 95 111 112 113
-- SGB IX § 168
-- MuSchG § 17
-- BEEG § 18
+- KSchG Paragrafen 1 4 17 18
+- BetrVG Paragrafen 95 111 112 113
+- SGB IX Paragraf 168
+- MuSchG Paragraf 17
+- BEEG Paragraf 18
 - Richtlinie 98/59/EG (Massenentlassungs-Richtlinie), insbesondere Art. 2 (Konsultation) und Art. 4 (Anzeige; 30-Tage-Sperrfrist)
 - BAG, Urteile vom 01.04.2026 - 6 AZR 152/22 und 6 AZR 157/22 (Unwirksamkeit bei Fehlern im Anzeigeverfahren) - dejure.org / bundesarbeitsgericht.de
 - EuGH, Urteile vom 30.10.2025 - C-134/24 und C-402/24 (keine Heilung fehlender oder verfruehter Anzeige) - dejure.org
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

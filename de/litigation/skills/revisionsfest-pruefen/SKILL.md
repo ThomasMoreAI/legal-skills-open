@@ -1,11 +1,11 @@
 ---
 name: revisionsfest-pruefen
 title: Revisionsfestigkeit prüfen
-description: 'Prüfung gegen Aufhebung in der Revision: absolute Revisionsgründe Paragraf 547 ZPO Revisionszulassung Paragraf 543 ZPO grundsaetzliche Bedeutung Rechtsfortbildung Sicherung einheitlicher Rechtsprechung. Begründungstiefe Beweiswürdigung Vollständigkeit Tatsachenfeststellung. Mit BGH-Linien typischen Fallstricken Beispielen aus aktueller Rspr und Selbstprüfliste vor Urteilsversand.'
+description: 'Für Revisionsfestigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/revisionsfest-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,32 +14,24 @@ language: de
 
 # Revisionsfestigkeit prüfen
 
-## Zweck
-
-Bei LG- und OLG-Endurteilen, gegen die Revision möglich ist (Paragraf 542 ZPO), muss das Urteil so geschrieben sein, dass es einer Prüfung durch den BGH standhaelt. "Revisionsfest" ist das Urteil, wenn es weder einen absoluten Revisionsgrund (Paragraf 547 ZPO) noch eine Verletzung von materiellem oder Verfahrensrecht im Sinne der Paragrafen 545, 546 ZPO erkennen laesst, das die Aufhebung tragen koennte.
-
-Dieser Skill liefert die Selbstprüfung **vor** Verkündung — nicht erst, wenn die Revisionsbegründung schon vorliegt.
-
 ## 1) Absolute Revisionsgründe Paragraf 547 ZPO
 
 Der Klassiker — bei diesen Gründen ist die Aufhebung zwingend, ohne dass es auf Kausalitaet ankommt:
 
-1. **Nicht vorschriftsmaessige Besetzung** des Gerichts (Nr. 1)
-   - Geschäftsverteilungsplan eingehalten?
-   - Bei Einzelrichter: Übertragung Paragraf 348a ZPO begründet?
-   - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+1. **Nicht vorschriftsmäßige Besetzung** des Gerichts (Nr. 1)
+ - Geschäftsverteilungsplan eingehalten?
+ - Bei Einzelrichter: Übertragung Paragraf 348a ZPO begründet?
 2. **Mitwirkung eines ausgeschlossenen Richters** (Nr. 2)
-   - Selbst-Ausschluss Paragraf 41 ZPO geprüft (Verwandtschaft, Voreintragung)
+ - Selbst-Ausschluss Paragraf 41 ZPO geprüft (Verwandtschaft, Voreintragung)
 3. **Mitwirkung eines mit Erfolg abgelehnten Richters** (Nr. 3)
 4. **Verletzung der OEffentlichkeit** Paragrafen 169 ff. GVG (Nr. 4)
-   - OEffentlichkeitsausschluss richtig begründet?
+ - OEffentlichkeitsausschluss richtig begründet?
 5. **Vertretungsmangel** Paragraf 51, 56 ZPO (Nr. 5)
-   - Prozessunfähiger ohne gesetzlichen Vertreter?
+ - Prozessunfähiger ohne gesetzlichen Vertreter?
 6. **Begründungsmangel** (Nr. 6) — **der haeufigste Fall**:
-   - Keine Entscheidungsgründe überhaupt
-   - Gründe lassen die wesentliche Erwaegung nicht erkennen
-   - Widerspruch zwischen Tatbestand und Gründen
-   - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ - Keine Entscheidungsgründe überhaupt
+ - Gründe lassen die wesentliche Erwaegung nicht erkennen
+ - Widerspruch zwischen Tatbestand und Gründen
 
 ## 2) Verfahrensrecht — Paragraf 545 ZPO
 
@@ -60,7 +52,6 @@ Die Beweiswürdigung muss erkennen lassen:
 - **wie** das Gericht zur Überzeugung gelangt ist
 - **warum** Gegenbeweise nicht durchgreifen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 3) Materielles Recht — Paragraf 546 ZPO
 
@@ -97,13 +88,13 @@ Der BGH ist an die festgestellten Tatsachen gebunden, soweit nicht
 ### Zulassungsgründe (alle gleichberechtigt)
 
 1. **Grundsaetzliche Bedeutung** (Abs. 2 S. 1 Nr. 1)
-   - Eine bislang ungeklärte oder unterschiedlich beantwortete Rechtsfrage
-   - In einer unbestimmten Zahl von Fällen auftretend
+ - Eine bislang ungeklärte oder unterschiedlich beantwortete Rechtsfrage
+ - In einer unbestimmten Zahl von Fällen auftretend
 2. **Rechtsfortbildung** (Abs. 2 S. 1 Nr. 2)
-   - Bedürfnis nach richterlicher Leitsatzbildung
+ - Bedürfnis nach richterlicher Leitsatzbildung
 3. **Sicherung einheitlicher Rechtsprechung** (Abs. 2 S. 1 Nr. 2 Alt. 2)
-   - Abweichende OLG-Rspr. zu derselben Rechtsfrage
-   - Eigene Abweichung vom BGH-Linie
+ - Abweichende OLG-Rspr. zu derselben Rechtsfrage
+ - Eigene Abweichung vom BGH-Linie
 
 ### Tenorierung
 
@@ -130,13 +121,10 @@ Wenn die Revision nicht zugelassen ist, ist nach Paragraf 544 ZPO Nichtzulassung
 ## 6) Aktuelle BGH-Linien zu typischen Fallen
 
 ### Begründungsmangel
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Rechtliches Gehoer
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Beweiswürdigung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## 7) Selbstpruefliste vor Urteilsversand
 
@@ -149,7 +137,7 @@ Wenn die Revision nicht zugelassen ist, ist nach Paragraf 544 ZPO Nichtzulassung
 ### Tatbestand
 - [ ] Unstreitige Tatsachen erkennbar
 - [ ] Streitige Tatsachen erkennbar (klägerischer und beklagter Vortrag)
-- [ ] Vortrag durch Aktenbezugnahme (Paragraf 313 II 2 ZPO) ggf. zulaessig?
+- [ ] Vortrag durch Aktenbezugnahme (Paragraf 313 II 2 ZPO) ggf. zulässig?
 - [ ] Anträge wortlautgetreu (auch Hilfsanträge)
 
 ### Entscheidungsgründe
@@ -179,10 +167,12 @@ Wenn die Revision nicht zugelassen ist, ist nach Paragraf 544 ZPO Nichtzulassung
 
 - `tatbestand-zivil-schreiben` — vollständig und widerspruchsfrei
 - `tenor-bauen-zivil` — vollstreckbar
-- `vorlaeufige-vollstreckbarkeit` — Paragraf 708 ff. ZPO
+- `vorläufige-vollstreckbarkeit` — Paragraf 708 ff. ZPO
 - `relation-zivil` — Gesamtaufbau
 
 ## Anschluss
 
 - Wenn revisionsfest: `dokumente-rendern-urteil-docx` zum finalen DOCX-/PDF-Export
 - Wenn nicht: zurueck zum mangelhaften Skill (`tatbestand-zivil-schreiben`, `entscheidungsgruende-zivil-schreiben`, `beweiswuerdigung-mit-richter-input` oder `anspruchsgrundlagen-pruefen`, je nach Mangel)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

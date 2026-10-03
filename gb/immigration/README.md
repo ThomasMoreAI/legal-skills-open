@@ -10,7 +10,7 @@ Jurisdiction: `gb` · Practice: `immigration` · Skill language: zh
 
 | Skill | What it does |
 |---|---|
-| [`/apostille`](skills/apostille-torlyai/) | 关于英国 FCDO apostille（公证认证）的指引，用于申根签证申请 — 何时 需要（外国出具的民事文件如结婚证、出生证、离婚证）、如何申请（ gov.uk Get a Document Legalised… |
+| [`/apostille`](skills/apostille-torlyai/) | 关于英国 FCDO apostille（公证认证）的指引，用于申根签证申请 — 何时 需要（外国出具的民事文件如结婚证、出生证、离婚证）、如何申请（ gov.uk Get a Document… |
 
 ## Cold-start context
 

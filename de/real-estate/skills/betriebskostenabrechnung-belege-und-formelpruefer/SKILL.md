@@ -1,0 +1,34 @@
+---
+name: betriebskostenabrechnung-belege-und-formelpruefer
+title: 'Betriebskostenabrechnung: Belege, Umlageschlüssel, Abflussprinzip und Fristen'
+description: 'Für Betriebskostenabrechnung: Belege, Umlageschlüssel, Abflussprinzip und Fristen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/betriebskostenabrechnung-belege-und-formelpruefer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Betriebskostenabrechnung: Belege, Umlageschlüssel, Abflussprinzip und Fristen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtskern
+- **Abrechnungspflicht und Fristen:** § 556 Abs. 3 BGB; Nachforderung grundsätzlich nur bei rechtzeitiger Abrechnung, Einwendungen binnen zwölf Monaten.
+- **Umlage:** Betriebskosten nur bei wirksamer Vereinbarung; BetrKV, HeizkostenV, § 556a BGB, Gewerbe-Vorwegabzug nur bei relevanter Mehrbelastung.
+- **BGH-Linie:** BGH, Urteil vom 20.01.2016 - VIII ZR 93/15: Bei den Gesamtkosten genügt der umlagefähige Gesamtbetrag, nicht jede Vorberechnung; BGH, Urteil vom 15.12.2021 - VIII ZR 66/20: Belegeinsicht betrifft grundsätzlich Originale, Kopien/Scans nur ausnahmsweise.
+
+## Arbeitsmodus
+1. Mietvertrag, Abrechnungszeitraum, Wirtschaftseinheit und Vorauszahlungen erfassen.
+2. Je Kostenart prüfen: umlagefähig, belegt, Zeitraum korrekt, Umlageschlüssel vereinbart/gesetzlich, Vorwegabzug, Leerstand, Nutzerwechsel.
+3. Heiz-/Warmwasserkosten gesondert nach HeizkostenV prüfen.
+4. Formelle Fehler von materiellen Fehlern trennen; nur das richtige Angriffsziel wählen.

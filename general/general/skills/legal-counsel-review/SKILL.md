@@ -5,11 +5,24 @@ description: Use this skill when reviewing legal, contractual, regulatory, priva
 author: Raishin
 author_url: https://github.com/Raishin/vanguard-frontier-agentic/tree/master/skills/legal/legal-counsel-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Australia
+  path: references/jurisdictions/australia.md
+- title: Eu
+  path: references/jurisdictions/eu.md
+- title: Singapore
+  path: references/jurisdictions/singapore.md
+- title: Uk
+  path: references/jurisdictions/uk.md
+- title: Us
+  path: references/jurisdictions/us.md
+- title: Workflow and output
+  path: references/workflow-and-output.md
 ---
 
 # Legal Counsel Review

@@ -1,195 +1,53 @@
 ---
 name: mandat-triage-iwr
-title: Mandat-Triage Internationales Wirtschaftsrecht
-description: 'Neues internationales Wirtschaftsrechtsmandat kommt rein und Anwalt klaert Sachgebiet und Sofort-Fristen. Eingangs-Triage IWR. Prüfraster: Mandantenrolle (Exporteur Importeur Investor) Geschäft (Warenkauf Investition Lizenz) Jurisdiktionen Sanktionen Embargos (Russland EU US OFAC UK) Exportkontrolle AWG Korruptionsrisiko. Sofort-Fristen Klagezustellung Auslandsbezug § 183 ZPO Apostille Schiedseinleitung. Output: Routing-Entscheidung mit Folge-Skill. Abgrenzung zu fachanwalt-internationales-wirtschaftsrecht-orientierung (Übersicht).'
+title: 1 Internationales Wirtschaftsmandat aufnehmen und bearbeiten
+description: 'Für Mandat Triage Iwr: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/mandat-triage-iwr
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: commercial
 language: de
 ---
 
-# Mandat-Triage Internationales Wirtschaftsrecht
+# 1 Internationales Wirtschaftsmandat aufnehmen und bearbeiten
 
-## Zweck
+Lies vorhandenen Auftrag, Vertrag und Verfahrensunterlagen. Übernimm bekannte Parteirolle, Geschäftsart, Länder, Termine und Zielsetzung. Kläre nur offene entscheidende Angaben und bearbeite den verlangten Vertrag, Vermerk oder Entwurf, statt bei einer Modulauswahl stehenzubleiben.
 
-Internationale Geschäfte berühren immer mehrere Rechtsordnungen, Sanktionen, Sprachen. Triage stellt die richtigen Fragen zu Beginn — sonst kostet jede Korrektur später Vielfaches.
+## 1.1 Geschäft und Eilbedarf einordnen
 
-## Ablauf — acht Fragen
+Unterscheide Exporteur, Importeur, Investor, Vermittler, Anlagenbauer, Lizenzpartei und Beteiligten eines Auslandsverfahrens. Warenkauf, Anlagenbau, Dienstleistung, Vertrieb, Unternehmenskauf, Joint Venture und Vollstreckung benötigen unterschiedliche Prüfungen. Vertragsabschluss, laufende Durchführung, Leistungsstörung und Prozessstand auseinanderhalten.
 
-### Frage 1 — Mandantenrolle?
+Lies zugestellte Schriftstücke und Rechtsbehelfsbelehrungen vollständig; Fristen nicht aus allgemeinen Mustern ableiten. Bei Liefermängeln Untersuchung und Rüge nach CISG gesondert prüfen. Verjährung nach dem berufenen Recht ermitteln, nicht automatisch nach deutschem Recht. Bei Schiedssprüchen Anerkennung, Vollstreckung und die einschlägigen nationalen Fristen getrennt prüfen; keine pauschale Frist aus Artikel V des New Yorker Übereinkommens unterstellen.
 
-- Deutscher Exporteur
-- Deutscher Importeur
-- Investor (Outbound Inbound)
-- Vermittler / Handelsvertreter
-- Anlagenbauer
-- Lizenzgeber / Lizenznehmer
-- Joint-Venture-Partner
-- Beklagter im Auslandsverfahren
+## 1.2 Forum, Sachrecht und Nachweise
 
-### Frage 2 — Geschäftsart?
+Prüfe Gerichtsstands- und Schiedsklausel, Rechtswahl, Leistungsort und betroffene Niederlassungen. Brüssel Ia, Lugano, einschlägige Staatsverträge und nationales Verfahrensrecht nach ihrem Anwendungsbereich zuordnen. Rom I, Rom II und CISG getrennt prüfen. Eine Wahl deutschen Rechts ist nicht automatisch eine Abwahl des CISG.
 
-- Warenkauf (Single Multi-Shipment)
-- Anlagenbau
-- Maschinenexport
-- Software- / IP-Lizenz
-- Dienstleistung
-- Vertrieb-/Distributionsvertrag
-- Beteiligungs-Akquisition
-- Joint Venture
-- Bauprojekt im Ausland
-- Auslandsverfahren-Vertretung
+Fehlt die maßgebliche Vertragsanlage, fordere diese Fassung mit Einbeziehungsnachweis nach. Nach Eingang Forum, Sachrecht und betroffene Vertrags- oder Prozesspassage aktualisieren. Bei unklarem Lieferstreit die fehlende Rüge oder Aufhebung samt Zugang erfragen; neue Angaben mit den Dokumenten abgleichen, nicht ungeprüft als wirksame Erklärung behandeln.
 
-### Frage 3 — Akute Eilbedürftigkeit?
+Bei fremdem Recht den Inhalt aus überprüfbaren Quellen ermitteln. Übersetzung, Beglaubigung, Apostille und Zustellungsanforderungen nach konkretem Verfahren prüfen. Eine Auslandskanzlei nur bei tatsächlichem Bedarf mit Aufgabe und Kostenrahmen vorschlagen, nicht ohne Freigabe beauftragen.
 
-- Sanktionsmeldung an BAFA
-- Embargo-Verstoß-Verdacht (Strafanzeige)
-- Hausdurchsuchung Zollkriminalamt
-- Auslandsforderung verjährungsbedroht
-- Auslandsgericht-Klage zugestellt — Frist läuft
-- Joint Venture Krisensitzung
-- Asset-Freeze gegen Mandanten
+## 1.3 Sanktionen und weitere Schnittstellen
 
-### Frage 4 — Beteiligte Jurisdiktionen?
+Bei Export- oder Zahlungsfragen Parteien, Kontrolle, Güter, Endverwendung, Länder und Zahlungsweg anhand aktueller EU-Sanktionsregelungen, AWG/AWV und Verordnung (EU) 2021/821 prüfen. US-, UK- und UN-Recht nur mit geklärtem Anwendungsbezug hinzunehmen. Ein Land allein ist kein vollständiges Prüfungsergebnis.
 
-- Liste aller relevanten Länder
-- EU-Mitgliedstaat
-- Drittstaat
-- Sanktionsstaat (Iran Russland Nordkorea Venezuela Cuba)
-- Steuer-Hochrisiko-Liste
+Bei unklarem Endverbleib gezielt Nachweise anfordern und nach Eingang Genehmigungs- oder Vertragsbewertung aktualisieren. Bis zur Klärung keine betroffene Lieferung oder Zahlung freigeben, aber unabhängige Rechtsarbeit fortsetzen. Korruptions-, Zoll- oder Strafrechtsfragen als konkrete Schnittstelle behandeln; keine Anzeige oder Behördenmeldung eigenmächtig veranlassen.
 
-### Frage 5 — Sanktionen / Embargo?
+Interessenkonflikte, Vertretungsumfang und Sprachbedarf nach dem Mandat prüfen. Fachanwaltsnachweise nach FAO sind kein Bestandteil jeder Mandatsfristprüfung.
 
-- EU-Sanktionsliste (Konsolidierte Liste)
-- US OFAC SDN-Liste
-- UK HMT
-- UN Security Council
-- Dual-Use-VO (EU) 2021/821
-- AWG / AWV deutsches Exportkontrollrecht
-- Re-Export Klausel
+## 1.4 Bis zum verlangten Ergebnis fortsetzen
 
-### Frage 6 — Vertragsstand?
+Weitere kurze Fragen zulassen, wenn eine neue Antwort eine entscheidende Lücke zeigt; bekannte Angaben nicht erneut erheben. Bei einem Hindernis tragfähige Teile liefern und den offenen Schluss benennen. Nach Klärung die betroffene Rechnung oder Argumentation erneuern und das bestellte Dokument fertigschreiben.
 
-- Vor Vertragsabschluss (Beratung Term Sheet LOI)
-- Vertrag geschlossen — Durchführung
-- Durchführung gestört (Verzug Mangel höhere Gewalt)
-- Streit / Schiedsverfahren / Gerichtsverfahren
-- Vollstreckung Auslandsurteil
+Bei Vergleichsauftrag wirtschaftliches Ziel, realistische Alternative, Kosten, Zeit und Vollstreckbarkeit prüfen. Vertrauliche Mindestposition intern halten; keine fachfremden Fragen zu Zeugnis oder Freistellung stellen. Ein Gutachtenauftrag löst keinen ungefragten Arrest, Prozess oder Schiedsantrag aus.
 
-### Frage 7 — Frist?
+## 1.5 Ausgabe, Quellen und Grenzen
 
-- Klagezustellung Auslandsbezug § 183 ZPO HZÜ EuZVO
-- Verjährung anwendbares Recht (CISG zumeist deutsches Verjährungsrecht)
-- Schiedsverfahren-Einleitung
-- Sanktionsmeldung BAFA Frist
-- Klage-Hauptsache nach EV
+Liefere vollständige Begründungen und Formulierungen. Übersichten nur, soweit sie Fristen, Länderbezug oder Rechnungen verständlich machen. Weitere Fachskills sind optional. Tragende Normen und Entscheidungen amtlich prüfen; nicht eingesehene Literatur, auch benannte Standardwerke, nicht zitieren. Quellenstatus und Recherchegrenzen in einer getrennten Arbeitsnotiz führen, nicht im Mandantenbrief.
 
-### Frage 8 — Sprache und Dokumentation?
+Keine Erklärung, Zahlung, Lieferung oder Einreichung ohne ausdrückliche Freigabe. Dezimale Gliederung; Exportstandard Times New Roman 11 pt.
 
-- Vertragssprache
-- Übersetzungsbedarf
-- Beglaubigung Apostille
-- Zustellungs-Sprachen
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Routing-Matrix
-
-| Vorgang | Folge-Skill |
-|---|---|
-| Vertragsentwurf international | `gerichtsstand-und-rechtswahl-pruefen` |
-| Vertragsstreit international | `gerichtsstand-und-rechtswahl-pruefen` plus Klage-Strategie |
-| Sanktionen / Embargo | (Skill sanktions-compliance — perspektivisch) |
-| Exportkontrolle Dual-Use | (Skill exportkontrolle — perspektivisch) |
-| Schiedsverfahren | (Skill schiedsverfahren-führen — perspektivisch) |
-| Vollstreckung Auslandsurteil | (Skill vollstreckung-ausland — perspektivisch) |
-| Anti-Korruption FCPA UKBA | weiter an `mandat-triage-strafrecht` plus Spezial |
-
-## Mandatsannahme
-
-- **Konflikt-Check** — keine doppelte Vertretung an mehreren Standorten
-- **Sprachfähigkeit** Mandantenmuttersprache und Vertragssprache
-- **Kooperation Auslandskanzlei** häufig nötig — Sprachzwang Kostenrahmen
-- **Streitwert** typisch hoch — sechs- bis achtstellig
-
-## Eskalation
-
-- **Telefon-Sofort** Hausdurchsuchung Sanktionsmeldung Asset-Freeze
-- **Binnen einer Stunde** Auslandsbeschluss Zustellung Klagefrist
-- **Heute** BAFA-Meldung Schutzschrift wegen drohendem Auslandsverfahren
-- **Diese Woche** Vertragsentwurf Schiedsverfahrens-Einleitung
-
-## Strategische Optionen (vor dem Template entscheiden)
-
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
-
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Mandat IWR triage und routen | Triage-Protokoll; Template unten |
-| Variante A — Mehrere Rechtsordnungen betroffen | Multi-Jurisdictions-Ansatz; lokale Korrespondenzanwaelte einbeziehen |
-| Variante B — Schnelle Sicherungsmassnahme noetig | Eilzustaendigkeit pruefen; vorher Arrest / einstweilige Verfuegung |
-| Variante C — Mandant will Streit vermeiden | ADR-Pfad pruefen bevor Klage/Schied |
-
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-
-## Ausgabe
-
-- `triage-protokoll-iwr.md`
-- Aktenanlage mit Sprache und beteiligten Jurisdiktionen
-- Frist im Fristenbuch
-- Sanktions-Check Liste konsolidiert
-- Mandatsvereinbarung mit Honorar (häufig RVG-überschritten — Honorarvereinbarung)
-- Empfehlung Folge-Skill plus eventuell Auslandskanzlei
-
---- vor Versand klaeren ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-## Quellen
-
-- Brüssel Ia VO (EU) 1215/2012
-- Rom I/II VO
-- CISG
-- AWG/AWV
-- EU-Sanktions-Verordnungen
-- US OFAC UK HMT
-- Geimer/Schütze IZPR
-
-## Vertiefung: Leitsaetze und Output-Template
-
-### Schluessel-Leitsaetze IWR-Triage
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-### Normen-Ueberblick IWR-Triage
-- Bruessel Ia VO Art. 4, 7, 25 — Gerichtsstand
-- Rom I VO Art. 3, 4 — Anwendbares Recht Vertrag
-- CISG Art. 1-5 — Anwendungsbereich
-- §§ 1025-1066 ZPO — Schiedsrecht
-- NY Convention Art. V — Versagungsgruende Vollstreckung
-
-### Output-Template Triage-Protokoll IWR
-**Adressat:** Intern — Tonfall: schnell, strukturiert
-
-```
-TRIAGE-PROTOKOLL IWR
-=========================================
-Eingangsdatum:            [TT.MM.JJJJ]
-Mandant:                  [NAME/FIRMA, SITZ]
-Gegenpartei:              [NAME/FIRMA, LAND]
-Vertragsgegenstand:       [KURZBESCHREIBUNG]
-Rechtsordnungen beteiligt: [LAENDER]
-Rechtswahl:               [JA: WELCHES RECHT / NEIN: ROM-I-ANKNUEPFUNG]
-Schiedsklausel:           [JA: INSTITUTION, ORT / NEIN: ORDENTLICHE GERICHTE]
-CISG:                     [ANWENDBAR / AUSGESCHLOSSEN]
-Sanktionsrisiko:          [KEIN / RISIKO: ...]
-Sofortfrist:              [DATUM + NORM]
-Prioritaet:               [ROT / GELB / GRUEN]
-Folge-Skill:              [CISG-PRUEFUNG / SCHIEDSKLAUSEL / GERICHTSSTAND ...]
-=========================================
-```
+Nur zugängliche Unterlagen und Werkzeuge verwenden und fehlende Teile konkret benennen. Technische Hindernisse lassen nur den abhängigen Schluss offen. Ohne Export den vollständigen Text liefern; keine nicht erfolgte Prüfung oder Dateierzeugung behaupten.

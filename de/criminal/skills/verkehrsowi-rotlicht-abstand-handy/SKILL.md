@@ -1,11 +1,11 @@
 ---
 name: verkehrsowi-rotlicht-abstand-handy
 title: Rotlicht, Abstand und Handy — §§ 23, 37, 4 StVO
-description: 'Rotlicht-OWi, Abstand-OWi und Handy-OWi verteidigen: Mandant hat Bußgeldbescheid wegen Rotlicht, zu geringem Abstand oder Handynutzung erhalten. Normen: § 37 StVO (Rotlicht: einfach vs. qualifiziert 1 Sekunde), § 4 StVO (Abstand-Berechnung Tacho-Laenge), § 23 Abs. 1a StVO (Festhalten-Begriff BGH). Prüfraster: Beweisgrundlagen (Videobeweise, Polizeizeugen), typische Verteidigungsargumente je Tatvorwurf. Output Verteidigungs-Strategie, Beweisantrags-Entwurf. Abgrenzung: Geschwindigkeit siehe verkehrsowi-messverfahren-geschwindigkeit; Zeugen-Strategie siehe verkehrsowi-zeugen-polizei-strategie.'
+description: 'Für Rotlicht, Abstand und Handy — Paragrafen 23. 37. 4 StVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/verkehrsowi-rotlicht-abstand-handy
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -13,6 +13,18 @@ language: de
 ---
 
 # Rotlicht, Abstand und Handy — §§ 23, 37, 4 StVO
+
+## Arbeitsbereich
+
+Rotlicht-OWi, Abstand-OWi und Handy-OWi verteidigen: Mandant hat Bußgeldbescheid wegen Rotlicht, zu geringem Abstand oder Handynutzung erhalten. Normen: § 37 StVO (Rotlicht: einfach vs. qualifiziert 1 Sekunde), § 4 StVO (Abstand-Berechnung Tacho-Laenge), § 23 Abs. 1a StVO (Festhalten-Begriff BGH). Prüfraster: Beweisgrundlagen (Videobeweise, Polizeizeugen), typische Verteidigungsargumente je Tatvorwurf. Output Verteidigungs-Strategie, Beweisantrags-Entwurf. Abgrenzung: Geschwindigkeit siehe verkehrsowi-messverfahren-geschwindigkeit; Zeugen-Strategie siehe verkehrsowi-zeugen-polizei-strategie. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 
@@ -27,7 +39,7 @@ language: de
 - **§ 37 StVO** — Wechsellichtzeichen; Rotlicht-Verstos
 - **§ 4 StVO** — Abstandspflicht; Sicherheitsabstand
 - **§ 23 Abs. 1a StVO** — Verbot des Festhaltens elektronischer Geraete beim Fahren
-- **§ 24 StVG i.V.m. Anlage BKatV** — Geldbusse und Punkte fuer die genannten Delikte
+- **§ 24 StVG i.V.m. Anlage BKatV** — Geldbusse und Punkte für die genannten Delikte
 - **§ 49 StVO** — Bussgeldbewehrung der StVO-Verstösse
 
 ## Aktuelle Rechtsprechung
@@ -36,9 +48,6 @@ language: de
 - OLG-Linien zu § 23 Abs. 1a StVO (Handynutzung): vor Versand in openjur.de und offenen Landesjustiz-Datenbanken verifizieren — insbesondere zur Abgrenzung "Halten" vs. "blosses Berühren".
 - Abstandsverstoss § 4 StVO: standardisiertes Messverfahren mit Videoabstandsmessung VAMA/VKS und ProViDa; konkrete OLG-Aktenzeichen vor Versand in offener Quelle aufrufen.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Besonderheiten je Verstos-Typ
 
 ### Rotlicht (§ 37 StVO)

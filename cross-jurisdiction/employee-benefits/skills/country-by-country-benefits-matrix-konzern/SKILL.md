@@ -1,11 +1,11 @@
 ---
 name: country-by-country-benefits-matrix-konzern
 title: Country-by-Country Benefits-Matrix für Konzerne
-description: 'Laenderuebergreifende Benefits-Matrix für internationalen Konzern erstellen: Versorgungsniveaus im Vergleich. Normen: IORP-II, lokale Pensionsgesetze. Prüfraster: Leistungsebenen, gesetzliche Mindeststandards, Harmonisierungsbedarf. Output: Country-by-Country-Benefits-Matrix. Abgrenzung: nicht nationale bAV-Strategie.'
+description: 'Für Country-by-Country Benefits-Matrix für Konzerne: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/country-by-country-benefits-matrix-konzern
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: employee-benefits
@@ -14,11 +14,20 @@ language: de
 
 # Country-by-Country Benefits-Matrix für Konzerne
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
-Kyoto-Büro: Yuki Yamamoto-Brennecke (Japan/Singapur-Koordination)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Country-by-Country Benefits-Matrix für Konzerne
+
+- **bAV-Problem:** Versorgungsniveaus im Vergleich. Normen: IORP-II, lokale Pensionsgesetze. Prüfraster: Leistungsebenen, gesetzliche Mindeststandards, Harmonisierungsbedarf. Output: Country-by-Country-Benefits-Matrix. Abgrenzung: nicht nationale bAV-Strategie.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -35,24 +44,6 @@ Je Land — kurze Übersicht (Details je Skill `internationale-harmonisierung-ko
 
 ---
 
-## Vorgehen
-
-### Schritt 1: Matrix-Struktur und Erhebungsmethodik
-
-Die Country-by-Country Benefits-Matrix ist das zentrale Steuerungsinstrument für internationale Konzerne. Dr. von Sompeh-Ostermann etabliert folgende Standardstruktur:
-
-**Dimensionen der Matrix:**
-1. Obligatorische Systeme (staatliche Pflicht)
-2. Branchenweite / tarifliche Zusatzsysteme
-3. Betriebliche freiwillige Systeme
-4. Steuerliche Fördergrenzen
-5. PSV-Äquivalente / Insolvenzsicherung
-6. Governance-Anforderungen
-7. Expat-Behandlung
-8. Portabilität
-
----
-
 ## Matrix (Standardübersicht)
 
 ### Deutschland (DE)
@@ -66,7 +57,6 @@ Die Country-by-Country Benefits-Matrix ist das zentrale Steuerungsinstrument fü
 | Insolvenzsicherung | PSV (§ 7 ff. BetrAVG) — Direktzusage/UK/PF |
 | Governance | IORP II (§§ 232 ff. VAG) für PK/PF; Mitbestimmung § 87 BetrVG |
 | Expat | Typischerweise GRV-pflichtig; Doppelversicherung bei Kurzentsendung durch A1-Bescheinigung vermieden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ### Vereinigtes Königreich (UK)
 
@@ -160,7 +150,7 @@ Die Country-by-Country Benefits-Matrix ist das zentrale Steuerungsinstrument fü
 ```
 COUNTRY FACT SHEET — BETRIEBLICHE ALTERSVERSORGUNG
 [Land: DEUTSCHLAND]
-Erstellt durch: Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB
+Erstellt durch: bAV-Projektteam
 
 Kategorien:
 A. Obligatorische Systeme: [...]
@@ -195,16 +185,11 @@ J. Lokaler Rechtsberater-Kontakt: [...]
 - → `expatriate-pensionsplanung-und-totalization` — Expatriate-Sonderfragen
 - → `japan-bav-und-corporate-pension-iorp` — Japan-Vertiefung
 
-## Aktuelle Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage — vor der Matrix-Erstellung
 
-1. Welche Laender sind im Konzern-Fussabdruck enthalten?
+1. Welche Länder sind im Konzern-Fussabdruck enthalten?
 2. Gibt es DB-Plaene mit bilanzieller Relevanz (IAS 19)?
-3. Kommen Expats vor, die Anwartschaften in mehreren Laendern aufgebaut haben?
+3. Kommen Expats vor, die Anwartschaften in mehreren Ländern aufgebaut haben?
 4. Ist eine M&A-Transaktion der Anlass? → Dann Due-Diligence-Fokus
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

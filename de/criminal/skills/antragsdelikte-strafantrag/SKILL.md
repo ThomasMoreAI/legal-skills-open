@@ -1,0 +1,50 @@
+---
+name: antragsdelikte-strafantrag
+title: Antragsdelikte und Drei-Monats-Frist
+description: 'Für Antragsdelikte und Drei-Monats-Frist: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafanzeige-vorbereiter/skills/antragsdelikte-strafantrag
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Antragsdelikte und Drei-Monats-Frist
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Norm- und Quellenanker
+
+StGB §§ 77, 77a, 77b, 77d; StPO § 158; jeweiliger Straftatbestand.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- § 77 StGB (Strafantrag)
+- § 77b StGB (3-Monats-Frist)
+- § 77 Abs. 1 StGB (Antragsberechtigung)
+- § 158 Abs. 2 StPO (Form)
+- § 77 StGB
+- § 77b StGB (3-Monats-Antragsfrist)
+- § 77a StGB (Antragsrücknahme)
+- § 158 StPO
+
+## Red Flags
+
+- Kenntnisdatum unklar
+- Antrag nur mündlich behauptet
+- Rücknahmefolgen ungeprüft
+
+## Arbeitsstil
+
+Erst bremsen, dann prüfen, dann schreiben: nur Tatsachen behaupten, Vermutungen als Vermutung kennzeichnen, entlastende Umstände nicht unterschlagen, Strafantragsfristen prüfen und Strafrecht nicht als unlauteres Druckmittel benutzen.

@@ -1,11 +1,11 @@
 ---
 name: leitfaden-erstellen
 title: /leitfaden-erstellen
-description: 'Leitfaden und Merkblatt für Rechtsberatungsstelle erstellen: Anwendungsfall Studenten der Rechtsberatungsstelle brauchen praxistaugliche Leitfaeden für häufige Mandats-Konstellationen in leicht verstaendlicher Sprache. BeratungsHiG niedrigschwellige Beratung, Verbraucherrecht Mietrecht Arbeitsrecht. Prüfraster Zielgruppe und Sprachniveau, Rechtsgebiet und Kern-Probleme, Checkliste Handlungsschritte, Fristen und Risiken. Output Leitfaden in verstaendlicher Sprache mit Schritt-fuer-Schritt-Anleitung und Norm-Referenzen. Abgrenzung zu Einarbeitung-Skill für Ausbilder-Training und zu Recherche-Start.'
+description: 'Für /leitfaden-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/leitfaden-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,41 +14,38 @@ language: de
 
 # /leitfaden-erstellen
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
 1. Lade `CLAUDE.md` → Rolle (muss Anleitender Volljurist sein), Fachbereiche, Rechtsgrundlage.
 2. Nutze den untenstehenden Ablauf.
-3. Wenn der Nutzer kein Anleitender Volljurist ist: Stopp und weiterleiten (Studierende → `/rechtsberatungsstelle:einarbeitung`).
+3. Wenn der Nutzer kein Anleitender Volljurist ist: Stopp und weiterleiten (Studenten → `/rechtsberatungsstelle:einarbeitung`).
 4. Durchlaufe: Fachbereich → Intake-Fragen → Pädagogikhaltung → Prüfungsgates → Querprüfungen → örtliche Besonderheiten.
 5. Schreibe `guides/<fachbereich>.md`. Erstelle das Verzeichnis `guides/` bei Bedarf.
-6. Biete einen Testlauf an: `/rechtsberatungsstelle:entwurf` unter der konfigurierten Haltung ausführen, damit der Anleiter sieht, was Studierende sehen.
+6. Biete einen Testlauf an: `/rechtsberatungsstelle:entwurf` unter der konfigurierten Haltung ausführen, damit der Anleiter sieht, was Studenten sehen.
 
 ---
 
-# Build Guide: Anleitungsgeführter Fachbereichsleitfaden
-
+### Build Guide: Anleitungsgeführter Fachbereichsleitfaden
 
 ## Triage zu Beginn
-1. Fuer welchen Fachbereich soll der Leitfaden erstellt werden (Mietrecht, Sozialrecht, Aufenthaltsrecht, Strafrecht)?
+1. Für welchen Fachbereich soll der Leitfaden erstellt werden (Mietrecht, Sozialrecht, Aufenthaltsrecht, Strafrecht)?
 2. Welche Paedagogikhaltung soll der Leitfaden vorgeben: ausfuehren, anleiten oder lehren?
 3. Gibt es einen bestehenden Leitfaden, der ueberarbeitet werden soll, oder wird er neu erstellt?
-4. Welche spezifischen Prüfungsgates und RDG-Grenzen sollen fuer diesen Fachbereich konfiguriert werden?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+4. Welche spezifischen Prüfungsgates und RDG-Grenzen sollen für diesen Fachbereich konfiguriert werden?
 
 ## Zentrale Normen
 - § 6 Abs. 2 Nr. 2 RDG — Erlaubnisfreie Rechtsberatung in Beratungsstellen unter Anleitung eines Volljuristen; Leitfaden konfiguriert den Anleitungsrahmen
-- § 43a Abs. 2 BRAO — Verschwiegenheitspflicht des anleitenden Anwalts: gilt auch fuer Leitfaden-Inhalte und Mandatsdaten
-- § 203 Abs. 4 StGB — Einbeziehung Dritter (Studierende) erfordert vertragliche Absicherung der Verschwiegenheit
-- § 43a Abs. 4 BRAO i.V.m. § 3 BORA — Interessenkonflikt-Regeln muessen im Leitfaden fuer jeden Fachbereich verankert sein
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Der Anleiter-Leitfaden ist der Regler, der studierendengerichtete Skills von "Arbeit erledigen" auf "Studierenden die Arbeit lehren" umstellt. Jeder studierendengerichtete Skill liest den Leitfaden, bevor er eine Ausgabe produziert: Intake stellt die Fragen, die der Anleiter gewünscht hat; Entwurfs-Skills wählen eine Pädagogikhaltung (ausführen / anleiten / lehren); Prüfungsgates leiten zu den Punkten weiter, die dem Anleiter wichtig sind.
-
-**Zielgruppe: der anleitende Volljurist.** Nicht Studierende. Studierende starten mit `/rechtsberatungsstelle:einarbeitung`.
+- § 43a Abs. 2 BRAO — Verschwiegenheitspflicht des anleitenden Anwalts: gilt auch für Leitfaden-Inhalte und Mandatsdaten
+- § 203 Abs. 4 StGB — Einbeziehung Dritter (Studenten) erfordert vertragliche Absicherung der Verschwiegenheit
+- § 43a Abs. 4 BRAO i.V.m. § 3 BORA — Interessenkonflikt-Regeln müssen im Leitfaden für jeden Fachbereich verankert sein
 
 ## Berufsrechtlicher Rahmen
 
@@ -63,11 +60,11 @@ Dieser Leitfaden ist ein internes Konfigurationsdokument. Er legt fest, wie die 
 
 Biete dies als Checkliste an, die der Anleiter durcharbeiten oder als Inhaltsverzeichnis nutzen kann:
 
-- Was müssen Studierende wissen, bevor sie einen Fall berühren? (Verschwiegenheit nach § 43a BRAO analog / § 203 StGB; RDG-Grenzen; Umfang ihrer Befugnisse)
-- Was sind die 3–5 häufigsten Fehler von Studierenden in diesem Fachbereich, und wie soll der Skill sie erkennen?
-- Wann muss der Studierende pausieren und Rücksprache halten? (Einreichung, Versand, Strategieentscheidung, Vergleich)
+- Was müssen Studenten wissen, bevor sie einen Fall berühren? (Verschwiegenheit nach § 43a BRAO analog / § 203 StGB; RDG-Grenzen; Umfang ihrer Befugnisse)
+- Was sind die 3–5 häufigsten Fehler von Studentenn in diesem Fachbereich, und wie soll der Skill sie erkennen?
+- Wann muss der Studenten pausieren und Rücksprache halten? (Einreichung, Versand, Strategieentscheidung, Vergleich)
 - Welches Sprachniveau ist für Mandantenmitteilungen anzustreben? (Leichte Sprache Niveau B1/B2 als Ziel bei Mandanten ohne juristische Vorbildung; ggf. mehrsprachig bei Geflüchteten)
-- Welche örtlichen Sonderregeln, Formulare oder Fristen muss jede Studierende kennen?
+- Welche örtlichen Sonderregeln, Formulare oder Fristen muss jede Studenten kennen?
 - Wann soll der Skill lehren statt tun? (Je Dokumenttyp – Default und Ausnahmen festlegen)
 
 ## Ablauf
@@ -76,7 +73,7 @@ Biete dies als Checkliste an, die der Anleiter durcharbeiten oder als Inhaltsver
 
 Dies ist ein Anleiter-Skill. Lies `CLAUDE.md` → `Rolle`. Wenn die Rolle nicht "Anleitender Volljurist" ist:
 
-> Dieser Skill ist für Anleiter – er konfiguriert das Verhalten der studierendengerichteten Skills. Wenn Sie der Anleiter sind, stellen Sie sicher, dass Ihre Rolle in `/rechtsberatungsstelle:rechtsberatungsstelle-kaltstart-interview` auf "Anleitender Volljurist" gesetzt ist. Wenn Sie Studierende/r sind, ist dies nicht der richtige Skill für Sie – starten Sie mit `/rechtsberatungsstelle:einarbeitung`.
+> Dieser Skill ist für Anleiter – er konfiguriert das Verhalten der studierendengerichteten Skills. Wenn Sie der Anleiter sind, stellen Sie sicher, dass Ihre Rolle in `/rechtsberatungsstelle:kaltstart-interview` auf "Anleitender Volljurist" gesetzt ist. Wenn Sie Studenten/r sind, ist dies nicht der richtige Skill für Sie – starten Sie mit `/rechtsberatungsstelle:einarbeitung`.
 
 Stopp, wenn Rolle nicht Anleiter.
 
@@ -92,7 +89,7 @@ Falls ein Leitfaden für diesen Bereich bereits existiert: "Möchten Sie (a) abs
 
 ### Schritt 3: Intake-Fragen
 
-> Was sollten Studierende eine neue Mandantin/einen neuen Mandanten für diesen Fachbereich fragen? Ich starte mit einem generischen Intake für [Fachbereich] – sagen Sie mir, was hinzugefügt, entfernt oder geändert werden soll. Welche Warnsignale sollten Studierende erkennen? Welche Fälle passen gut zur Beratungsstelle, welche sollten weitervermittelt werden?
+> Was sollten Studenten eine neue Mandantin/einen neuen Mandanten für diesen Fachbereich fragen? Ich starte mit einem generischen Intake für [Fachbereich] – sagen Sie mir, was hinzugefügt, entfernt oder geändert werden soll. Welche Warnsignale sollten Studenten erkennen? Welche Fälle passen gut zur Beratungsstelle, welche sollten weitervermittelt werden?
 
 Fachbereichs-Defaults (wenn keine Angaben vorhanden):
 
@@ -127,9 +124,9 @@ Drei Stufen – Anleiter wählt Default und kann je Dokumenttyp übersteuern:
 
 | Haltung | Was der Skill tut | Geeignet für |
 |---|---|---|
-| **Ausführen** | Entwurf vollständig ausarbeiten; Studierende analysieren und übergeben | Routineschriftsätze im 3. Semester+ |
-| **Anleiten** | Gliederung und Schlüsselpunkte ausgeben; Studierende füllen aus | Memos, neue Fachbereiche |
-| **Lehren** | Nur Fragen stellen; Studierenden zur Lösung führen | 1. Semester, neue Fachbereiche, komplexe Rechtsfragen |
+| **Ausführen** | Entwurf vollständig ausarbeiten; Studenten analysieren und übergeben | Routineschriftsätze im 3. Semester+ |
+| **Anleiten** | Gliederung und Schlüsselpunkte ausgeben; Studenten füllen aus | Memos, neue Fachbereiche |
+| **Lehren** | Nur Fragen stellen; Studentenn zur Lösung führen | 1. Semester, neue Fachbereiche, komplexe Rechtsfragen |
 
 ### Schritt 5: Prüfungsgates
 
@@ -147,7 +144,7 @@ Welche anderen Fachbereiche überschneiden sich regelmäßig?
 
 ### Schritt 7: Örtliche Besonderheiten
 
-> Gibt es örtliche Regeln, Sonderformulare oder Fristen, die jede Studierende kennen muss? Welche lokalen Anlaufstellen (Gerichte, Behörden, Dolmetscherdienste, Kooperationspartner) sind wichtig?
+> Gibt es örtliche Regeln, Sonderformulare oder Fristen, die jede Studenten kennen muss? Welche lokalen Anlaufstellen (Gerichte, Behörden, Dolmetscherdienste, Kooperationspartner) sind wichtig?
 
 **Berlin-Beispiele:**
 - Berliner Mietspiegel 2023/2024 (qualifiziert nach § 558d BGB)
@@ -175,13 +172,11 @@ Ausgabe: `guides/<fachbereich>.md` mit den Sektionen:
 7. Wichtige Fristen auf einen Blick
 8. Empfohlene Quellen und Datenbanken
 
-## Ausgabeformat
-
-Supervisor-gerichtetes Konfigurationsdokument in Markdown. Kein `[KI-GESTÜTZTER ENTWURF]`-Vermerk – dies ist kein Studierenden-Output, sondern Anleiter-Konfiguration. Länge: 80–150 Zeilen pro Leitfaden.
-
 ## Risiken / typische Fehler
 
 - **Fristenversäumnis:** Der Leitfaden muss für jeden Fachbereich die kritischsten Fristen explizit benennen. Besonders gefährlich: § 36 AsylG (1 Woche), § 74 AsylG (2 Wochen bei beschleunigtem Verfahren), § 4 KSchG (3 Wochen).
-- **RDG-Grenzen nicht klar kommuniziert:** Studierende ohne klare Anleitungsstruktur überschreiten versehentlich § 3 RDG.
-- **Fehlende Konfliktprüfung:** Ohne explizite Gate-Regel übersehen Studierende, wann sie den Anleiter einschalten müssen.
+- **RDG-Grenzen nicht klar kommuniziert:** Studenten ohne klare Anleitungsstruktur überschreiten versehentlich § 3 RDG.
+- **Fehlende Konfliktprüfung:** Ohne explizite Gate-Regel übersehen Studenten, wann sie den Anleiter einschalten müssen.
 - **Sprachbarrieren bei Geflüchteten:** Leitfaden sollte Dolmetscherressourcen und Sprach-Level-Anforderungen an Mandantenbriefe festlegen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

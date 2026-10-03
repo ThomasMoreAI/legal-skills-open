@@ -1,11 +1,11 @@
 ---
 name: parallelnormen-andere-berufe
 title: Parallelnormen — alle fünf Berufe
-description: Norm-Adapter-Referenz für alle fuenf Berufsgeheimnistraeger Rechtsanwalt Steuerberater Wirtschaftsprüfer Patentanwalt Notar. Mapping der Dienstleisterregelungen Verschwiegenheitspflichten und § 203 StGB-Tatbestaende. Sonderregeln für Berufsausübungsgesellschaften (§ 59c WPO) Anwaltsnotare gemischte Sozietaeten und multidisziplinaere Praxen.
+description: 'Für Parallelnormen — alle fünf Berufe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: anwaltlichem Berufsrecht und Vertragsprüfung. Route: parallelnormen-andere-berufe.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/parallelnormen-andere-berufe
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,13 @@ language: de
 
 # Parallelnormen — alle fünf Berufe
 
-## Disclaimer
+## Fachkern: Parallelnormen — alle fünf Berufe
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+- **KI-/Berufsrechtsproblem (Parallelnormen — alle fünf Berufe):** Norm-Adapter-Referenz für alle fuenf Berufsgeheimnistraeger Rechtsanwalt Steuerberater Wirtschaftsprüfer Patentanwalt Notar. Mapping der Dienstleisterregelungen Verschwiegenheitspflichten und § 203 StGB-Tatbestaende. Sonderregeln für Berufsausübungsgesellschaften (§ 59c WPO) Anwaltsnotare gemischte Sozietaeten und multidisziplinaere Praxen.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Übersichtstabelle
 
@@ -91,14 +95,6 @@ Folgende Felder sollten in jeder Skill-Ausgabe gefüllt sein:
 - Einzelfall-Variante: Mandat oder Amtsgeschäft
 ```
 
-## Output
-
-Diese Skill liefert primär Referenzdaten für andere Skills. Sie kann auch eigenständig aufgerufen werden, um eine Übersichtstabelle zu erzeugen.
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 - § 43a Abs. 2 BRAO / § 43e BRAO — Rechtsanwalt
@@ -109,9 +105,6 @@ Diese Skill liefert primär Referenzdaten für andere Skills. Sie kann auch eige
 - §§ 203, 204 StGB — Straftatbestände für alle Berufsgruppen
 - §§ 53a, 97 StPO — Strafprozessuale Absicherung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Welche Berufsgruppe(n) sind betroffen — einzeln oder gemischte Sozietät?
@@ -127,21 +120,16 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 Norm-Adapter-Tabelle [DATUM]
 Beteiligte Berufsgruppen: [LISTE]
 
-| Beruf              | Verschwiegenheit      | Dienstleisterregelung | § 203 StGB Abs. |
+| Beruf | Verschwiegenheit | Dienstleisterregelung | § 203 StGB Abs. |
 |--------------------|-----------------------|-----------------------|-----------------|
-| Rechtsanwalt       | § 43a Abs. 2 BRAO     | § 43e BRAO            | Abs. 1 Nr. 3    |
-| Steuerberater      | § 57 Abs. 1 StBerG    | § 62a StBerG          | Abs. 1 Nr. 3    |
-| Wirtschaftspruefer | § 43 Abs. 1 WPO       | § 50a WPO             | Abs. 1 Nr. 3    |
-| Patentanwalt       | § 39a Abs. 2 PAO      | § 39c PAO             | Abs. 1 Nr. 3    |
-| Notar              | § 18 BNotO            | § 26a BNotO           | Abs. 1 Nr. 1    |
+| Rechtsanwalt | § 43a Abs. 2 BRAO | § 43e BRAO | Abs. 1 Nr. 3 |
+| Steuerberater | § 57 Abs. 1 StBerG | § 62a StBerG | Abs. 1 Nr. 3 |
+| Wirtschaftsprüfer | § 43 Abs. 1 WPO | § 50a WPO | Abs. 1 Nr. 3 |
+| Patentanwalt | § 39a Abs. 2 PAO | § 39c PAO | Abs. 1 Nr. 3 |
+| Notar | § 18 BNotO | § 26a BNotO | Abs. 1 Nr. 1 |
 
 Anzuwendende Norm (strengste bei gemischter Sozietät): § [NORM]
 Besonderheiten: [SONDERREGELN]
 ```
 
-<!-- AUDIT 27.05.2026
-Task: Bundle 016 – Halluzinations-Reparatur
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Massnahme: Eintrag vollständig gelöscht (nicht verifizierbare Entscheidung – Halluzination).
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=08.03.2022&Aktenzeichen=X+ARZ+148/22
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

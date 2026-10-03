@@ -1,60 +1,49 @@
 ---
 name: geldwaesche-verpflichteten-check
-title: Verpflichtetenstatus nach GwG
-description: Prüft ob und in welcher Rolle ein Unternehmen oder Berufsstraeger nach GwG verpflichtet ist. Anwendungsfall Unternehmen oder Kanzlei will wissen ob GwG-Pflichten bestehen und welche Konsequenzen das hat. Normen § 2 GwG Verpflichtetenkatalog § 2 Abs. 1 Nr. 10 GwG Rechtsanwaelte § 1 Abs. 24 GwG Geldwäsche-Definition. Prüfraster Tätigkeitsbereich Kataloggeschäft Schwellen Rolleneinschraenkungen Befreiungen. Output Verpflichtetencheck-Ergebnis mit Pflichtenkatalog Risikoeinstufung und Implementierungsplan. Abgrenzung zu geldwäsche-kyc-onboarding und geldwäsche-risikoanalyse-unternehmen.
+title: 1. Verpflichtetenstatus und Pflichtenumfang
+description: Klärt den GwG-Verpflichtetenstatus für ein konkretes Mandat oder Geschäft. Trennt anwaltliche Katalogtätigkeit, Notariat, Güterhandel und freiwillige Kundenkontrolle und erstellt einen begrenzten Pflichtenspiegel.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-verpflichteten-check
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
 language: de
 ---
 
-# Verpflichtetenstatus nach GwG
+# 1. Verpflichtetenstatus und Pflichtenumfang
 
-## Zweck
+## 1. Zweck und Anwendungsfall
 
-Dieser Skill sortiert Branchen, Tätigkeiten, Schwellen, Ausnahmen, Aufsichtszuständigkeit und Pflichtenkatalog.
+Wer trägt bei welchem Geschäft welche Pflichten? Nicht von „Kanzlei“ oder „GmbH“ unmittelbar auf sämtliche Pflichten schließen.
 
-## Wann verwenden
+## 2. Eingaben
 
-- wenn ein neues AML/KYC-, GwG-, Sanktions- oder Compliance-Thema aufgenommen wird
-- wenn Kunden, wirtschaftlich Berechtigte, Transaktionen, Länder, Produkte oder Vertriebskanäle risikobasiert geprüft werden müssen
-- wenn ein Alert, Treffer, Behördenkontakt, Verdachtsmoment, Pressefall oder Remediation-Projekt vorliegt
+Mandatsgegenstand, tatsächliche Leistung, handelnde Person, Standort, Zahlungsart und gegebenenfalls Erlaubnis. Gemischte Tätigkeiten getrennt aufnehmen; nicht vor Klärung des Anwendungsbereichs eine vollständige KYC-Akte verlangen.
 
-## Arbeitsweise
+## 3. Ablauf
 
-1. **Rolle und Pflichtenkreis klären.** Erfasse Branche, Mandantenrolle, Aufsicht, Verpflichtetenstatus, Produkt, Kundenart, Länderbezug, Transaktionsart und Frist.
-2. **Daten sauber ziehen.** Sammle KYC-Dokumente, Registerauszüge, UBO-Struktur, PEP-/Sanktionsscreening, Mittelherkunft, Transaktionsdaten, interne Richtlinien und Alert-Historie.
-3. **Quellenstand protokollieren.** Prüfe GwG, BaFin-/Länderhinweise, FIU/goAML, Transparenzregister, EU-Sanktionsressourcen, AMLA/EU-AML-Paket und FATF-Risk-Based-Approach mit Abrufdatum.
-4. **Risikobasiert entscheiden.** Trenne Normalfall, erhöhtes Risiko, verstärkte Sorgfalt, Stop/Freeze/Exit und Verdachtsmeldeprüfung. Keine automatische Freigabe bei Datenlücken.
-5. **Verzeihend nachziehen.** Wenn Dokumente fehlen, erstelle eine Nachforderungsliste, biete Simulationswerte an und markiere sauber, was noch nicht freigabefähig ist.
-6. **Arbeitsprodukt liefern.** Erzeuge KYC-Vermerk, Risikoanalyse, Trefferlog, Verdachtsmeldungsentwurf, Richtlinie, Schulung, Audit-Finding, Behördenantwort oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Freigaben, Vier-Augen-Prinzip, Quellen, Fristen, Datenschutz, Mandatsgeheimnis, Aufbewahrung, Löschung und Auditierbarkeit.
+### 3.1. Tätigkeit zuordnen
 
-## Rückfragen, wenn unklar
+GwG Paragraf 2 Absatz 1 anwenden. Bei Rechtsanwälten und Notaren Nummer 10 einschließlich einschlägigem Buchstaben prüfen: Transaktionsmitwirkung, Geschäfte im Namen und auf Rechnung des Mandanten und weitere Beratungsgegenstände unterscheiden. Beim Syndikus Paragraf 10 Absatz 8a als Zuordnung bestimmter Sorgfaltspflichten prüfen, nicht als pauschale Befreiung.
 
-- Welche Branche, Rolle und Aufsichtszuständigkeit hat der Mandant?
-- Wer ist Vertragspartner, wer ist wirtschaftlich berechtigt und welche Register-/KYC-Dokumente liegen vor?
-- Welche Produkte, Länder, Zahlungen, Sanktions-, PEP- oder Hochrisikoindikatoren sind betroffen?
-- Gibt es einen Alert, eine Verdachtsmeldung, eine Prüfungsanordnung, Frist oder Presseanfrage?
-- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+### 3.2. Status von Schwellen trennen
 
-## Ausgabeformat
+Ein Güterhändler kann Verpflichteter sein, obwohl eine konkrete Geschäftsschwelle nicht erreicht wird. Sorgfaltspflichten nach Paragraf 10 Absatz 6a, Risikomanagement nach Paragraf 4 und Meldepflicht nach Paragraf 43 getrennt prüfen. Einen Verdachtsfall nicht wegen kleinen Betrags aussortieren. Bei einem Dienstleistungsunternehmen ohne Katalogtätigkeit freiwillige Prüfung als solche bezeichnen.
 
-- Kurzlage mit Risikoampel und Sofortmaßnahmen
-- KYC-/UBO-/Sanktions- oder Monitoring-Matrix mit Quellenstand
-- Entscheidungsvorschlag mit Freigabe-, Eskalations- oder Stop-Workflow
-- prüfbarer Entwurf für Richtlinie, Verdachtsmeldung, Behördenantwort, Schulung oder Remediation
-- offene Annahmen, fehlende Nachweise und Review-Hinweise
+### 3.3. Person und Aufsicht bestimmen
 
-## Typische Fehler vermeiden
+Berufsträger, Beschäftigungsform, Berufsausübungsgesellschaft und Niederlassung unterscheiden. Kammerhinweise und Paragraf 50 heranziehen. Nicht jede Konzerngesellschaft ist Finanzinstitut; nicht jede Kanzlei wird von der BaFin beaufsichtigt. Beauftragtenbestellung nach Paragraf 7 und einschlägiger Anordnung prüfen.
 
-- Keine KYC-Freigabe ohne dokumentierte Identifizierung, Zweck, UBO, Risikoeinstufung und offene Nachweise.
-- Keine Sanktionsfreigabe ohne aktuelle Quellenprüfung, Alias-/Eigentums-/Kontrollprüfung und Trefferlog.
-- Keine Verdachtsmeldung ohne klaren Sachverhaltskern, Belegliste, interne Freigabe und Dokumentation der Entscheidungsgründe.
-- Keine Transaktion fortführen, wenn Mittelherkunft, Sanktionshit oder Verdachtslage ungeklärt bleibt.
-- Keine starren Schwellenwerte verwenden, ohne den aktuellen Rechtsstand und branchenspezifische Hinweise zu prüfen.
-- Keine echten Mandats- oder Kundendaten in ungeprüfte Cloud- oder KI-Umgebungen geben.
+## 4. Quellenpflicht
+
+[GwG Paragraf 2](https://www.gesetze-im-internet.de/gwg_2017/__2.html), [Paragraf 10](https://www.gesetze-im-internet.de/gwg_2017/__10.html), [Quellenkarte](../../references/rechtsstand-2026-und-eu-uebergang.md). EU-Änderungen separat ab 10. Juli 2027 ausweisen, nicht rückwirkend anwenden.
+
+## 5. Ausgabeformat
+
+Ausformulierter Pflichtenspiegel: „Für die Tätigkeit … ist … nach … verpflichtet. Ausgelöst sind …; noch nicht belegt ist …“. Tabelle mit Person, Tätigkeit, Norm, Pflicht und Aufsicht. Times New Roman 11 pt, dezimale Gliederung. Kein allgemeines Gütesiegel „GwG-konform“.
+
+## 6. Beispiele
+
+Maschinenverkauf gegen Überweisung: Händlerstatus und konkrete Sorgfaltspflicht getrennt prüfen. Wechsel von Zahlungsprozess zu Unternehmenskauf: neuen Mandatsumfang gesondert beurteilen.

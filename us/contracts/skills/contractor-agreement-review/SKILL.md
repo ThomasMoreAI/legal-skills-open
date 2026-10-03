@@ -5,11 +5,16 @@ description: 'Review contractor/consulting agreements for misclassification, IP,
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/contractor-agreement-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: contracts
 language: en
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Playbook
+  path: references/playbook.md
 ---
 
 # Contractor Agreement Review

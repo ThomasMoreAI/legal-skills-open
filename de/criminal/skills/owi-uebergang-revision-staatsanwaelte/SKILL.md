@@ -1,0 +1,106 @@
+---
+name: owi-uebergang-revision-staatsanwaelte
+title: 'Übergang zwischen Bußgeld- und Strafverfahren: Hinweis, Rollenwechsel und keine Verfahrensfalle'
+description: 'Für Owi Übergang Revision Staatsanwälte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/staatsanwaltschaft-praxis-einstieg/skills/owi-uebergang-revision-staatsanwaelte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Übergang zwischen Bußgeld- und Strafverfahren: Hinweis, Rollenwechsel und keine Verfahrensfalle
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: OWiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Übergang zwischen Bußgeld- und Strafverfahren: Hinweis, Rollenwechsel und keine Verfahrensfalle
+- **Normen-/Quellenanker:** StPO, GVG, RiStBV, OWiG, JGG, BtMG, Vermögensabschöpfung, Durchsuchung/Beschlagnahme, Abschlussverfügung und Sitzungsdienst.
+- **Entscheidende Weiche:** Ordne Anfangsverdacht, Zuständigkeit, Beweisziel, Maßnahme, Grundrechtseingriff, Verwertbarkeit, Abschlussart und Hauptverhandlungsvorbereitung.
+
+## Einstieg
+
+1. Verfahrensart klären: Strafverfahren, reine OWi-Sache, Mischfall oder Übergang zwischen beiden.
+2. Zuständigkeit klären: Verwaltungsbehörde, Staatsanwaltschaft, Amtsgericht, Jugendrichter, Landgericht bei Datenschutz-Sonderfall oder Rechtsbeschwerdegericht.
+3. Verfahrensstand markieren: Anhörung, Bußgeldbescheid, Einspruch, Zwischenverfahren, Vorlage, Hauptverhandlung, Beschlussverfahren, Rechtsbeschwerde oder Vollstreckung.
+4. Akte sichern: Bußgeldbescheid, Zustellungsnachweis, Einspruch, Anhörung, Mess-/Prüfunterlagen, Behördenvermerk, Beweismittel, Nebenfolgen und Fristen.
+5. Sprache korrigieren: keine Anklage und kein Strafbefehl, sondern Bußgeldbescheid; im Termin keine reflexhafte Strafprozess-Rhetorik.
+
+## Arbeitsprodukt
+
+Gib je nach Lage einen Kurzvermerk, Verfügungsvorschlag, Nachermittlungsauftrag, Sitzungszettel, Antrag, Einstellungsvotum, Rechtsbeschwerde-Check oder Abschlussverfügung aus. Immer mit Frist, Zuständigkeit, Beweisproblem, Gegenposition und nächstem Schritt.
+
+## Norm- und Verfahrensanker
+
+Paragrafen 81, 82 OWiG; Paragraf 265 StPO sinngemäß; Strafklageverbrauch und Tatidentität live prüfen.
+
+## Fachlicher Fokus
+
+Der Skill behandelt Mischfälle: Das Gericht ist an die OWi-Einordnung nicht gebunden, darf aber nur nach Strafgesetz entscheiden, wenn der Betroffene hingewiesen wird und Verteidigungsrechte bekommt. Umgekehrt kann im Strafverfahren eine OWi beurteilt werden. Der Skill baut eine Warnmatrix für rechtliche Gesichtspunkte.
+
+## Prüfschritte
+
+- Was ist der konkrete Tatvorwurf und welche Bußgeldnorm trägt ihn wirklich?
+- Ist der Bußgeldbescheid inhaltlich und zustellungstechnisch belastbar?
+- Ist der Einspruch wirksam, beschränkt oder unklar?
+- Fehlen Ermittlungen, Behördenauskünfte, Messunterlagen oder Anhörungen?
+- Ist eine Einstellung nach Paragraf 47 OWiG sachgerecht oder braucht es eine gerichtliche Klärung?
+- Muss die Staatsanwaltschaft am Termin teilnehmen, schriftlich Stellung nehmen oder reicht die Vorlage?
+
+## Typische Fehler
+
+- Bußgeldverfahren wie eine kleine Strafsache behandeln und die Opportunitätslogik übersehen.
+- Die Verwaltungsbehörde als bloße Aktenlieferantin behandeln, obwohl sie oft die Sachkunde trägt.
+- Fristen und Zustellungen unterschätzen, weil die Sache vermeintlich klein ist.
+- Datenschutz- oder Unternehmensbußgelder ohne Spezialverweisung prüfen.
+- Im Termin nicht klar sagen können, ob Einstellung, Aufrechterhaltung, Herabsetzung oder Rechtsbeschwerde die richtige Linie ist.
+
+## Normen & Rechtsprechung
+
+- Paragrafen 79 und 80 OWiG: Rechtsbeschwerde, Zulassung und Beschränkung sind vor jeder staatsanwaltschaftlichen Stellungnahme zu trennen.
+- Paragrafen 344, 345 und 349 StPO entsprechend über Paragraf 79 Abs. 3 OWiG: Sachrüge und Verfahrensrüge brauchen unterschiedliche Begründungstiefe.
+- Paragraf 80 Abs. 1 OWiG: Zulassung kommt insbesondere zur Fortbildung des Rechts, Sicherung einheitlicher Rechtsprechung oder bei Gehörsverletzung in Betracht.
+- Paragraf 79 Abs. 1 OWiG: Statthafte Rechtsbeschwerde hängt von Geldbuße, Nebenfolge und Zulassung ab.
+- Ständige Rechtsprechung zu OWi-Rechtsbeschwerden: Pauschaler Angriff auf Beweiswürdigung ersetzt keine zulässige Verfahrensrüge; konkretes OLG-Aktenzeichen vor produktiver Zitierung verifizieren.
+
+## Prüf- und Arbeitslogik
+
+1. Übergang zwischen Bußgeld- und Strafverfahren: Hinweis, Rollenwechsel und keine Verfahrensfalle: Tatbestand, Zuständigkeit der Verwaltungsbehörde, Einspruchslage und gerichtliche Rolle zuerst prüfen.
+2. Bußgeldbescheid, Einspruchsfrist, Aktenvorlage, Opportunität und Verfahrenshindernisse getrennt kontrollieren.
+3. Datenschutz-, Verkehrs- oder Wirtschafts-OWi nach Spezialgesetz und OWiG-Tatbestand subsumieren.
+4. Beweismaß, Betroffenenrechte und Unternehmensgeldbuße gesondert behandeln.
+5. Sitzungsantrag oder Stellungnahme mit Rechtsfolge, Nebenfolge und Kostenfolge formulieren.
+
+## Antrags- bzw. Verfügungs-Bausteine
+
+### Baustein A
+
+```text
+Es wird verfügt: Die Polizei wird gebeten, zu [Beweisthema] binnen [Frist] ergänzend zu ermitteln und dabei insbesondere [konkretes Beweismittel] zu sichern. Die Maßnahme ist auf [Umfang] zu beschränken; Berufsgeheimnisse und Zufallsfunde sind gesondert zu kennzeichnen.
+```
+
+### Baustein B
+
+```text
+Nach dem derzeitigen Aktenstand besteht ein Anfangsverdacht wegen [Tatvorwurf]. Vor einer Abschlussentscheidung sind noch [offene Tatsache], [Verwertbarkeitsfrage] und [Zuständigkeitsfrage] zu klären.
+```
+
+## Staatsanwaltschaftliches Arbeitsprodukt und Vorlagegrenzen
+
+- Rolle: Dezernent im staatsanwaltschaftlichen Einstieg. Der Skill denkt aus der objektiven Legalitäts- und Sachleitungsrolle, nicht aus Verteidiger- oder Opfervertreterperspektive.
+- Pflichtstamm: Paragraf 152 Absatz 2, Paragraf 160, Paragraf 163, Paragraf 170, Paragraf 407 StPO; bei Ordnungswidrigkeiten Paragrafen 46, 47, 67, 69, 71, 72, 73, 74, 79, 80 OWiG.
+- Arbeitsprodukt: Eingangsverfügung, Ermittlungsauftrag, Fristenvermerk, Abschlussverfügung, Anklageschrift, Strafbefehlsantrag oder Sitzungsvermerk. Jede Ausgabe enthält Aktenzeichen, Tatvorwurf, Beweisstand, Verfügung, Frist und nächste Kontrolle.
+- Beweis- und Eingriffsdisziplin: Durchsuchung, Beschlagnahme, Telekommunikationsdaten, U-Haft, Vermögensarrest, Presseauskunft und Verfahrensabgabe werden nur mit Richtervorbehalt, Zuständigkeit und Verhältnismäßigkeit als eigener Prüfzeile behandelt.
+- Stop-Kriterium: Bei Aktengeheimnis, Pressebezug, Amtshaftungsrisiko, möglichem Beweisverwertungsverbot, Befangenheit oder unklarem Richtervorbehalt wird eine Vorlage an Abteilungsleitung oder Gericht formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trägt zur staatsanwaltschaftlichen Streitstoff-Sortierung bei, indem Sachverhalts-Eckdaten, Beweismittel, rechtliche Würdigung und Anschlussverfügung getrennt werden. Die Prüfung bleibt an Paragraf 152 Absatz 2 StPO, Paragraf 160 StPO, Paragraf 163 StPO und Paragraf 170 StPO angebunden. Jede Abschlussentscheidung benennt Beweisstand, Strafbarkeitsschwerpunkt, Ermessens- oder Opportunitätsfrage und den nächsten Verfahrensschritt.

@@ -1,18 +1,31 @@
 ---
 name: ruegeschriftsatz-erstellen
-title: Rügeschriftsatz nach § 160 Abs. 3 GWB
-description: Ruegeschriftsatz nach § 160 Abs. 3 GWB als Pflichtvoraussetzung jeder Vergabenachprüfung. Adressat öffentlicher Auftraggeber. Konkret bezeichneter Vergabeverstoß mit Norm und Sachverhalt. Antrag auf Abhilfe und hilfsweise Aufhebung. Unverzuegliche Einreichung bei Erkennbarkeit. Bei Nichtabhilfe Antragsfrist 15 Kalendertage zur Vergabekammer. Aufbau Sachverhalt, rechtlicher Verstoß, Beweismittel, Antrag. Form Schriftform oder qualifiziert elektronische Signatur. Schwellenwertprüfung nach § 106 GWB obligatorisch. Checkliste Rechtzeitigkeit, Bestimmtheitsgebot, Praeklusionsrisiko und Nachprüfungsstrategie enthalten.
+title: Ruegeschriftsatz nach § 160 Abs
+description: 'Für Rügeschriftsatz nach Paragraf 160 Abs: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/ruegeschriftsatz-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: government-contracts
 language: de
 ---
 
-# Rügeschriftsatz nach § 160 Abs. 3 GWB
+# Ruegeschriftsatz nach § 160 Abs
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die vergaberechtlich einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Ruegeschriftsatz nach § 160 Abs. 3 GWB als Pflichtvoraussetzung jeder Vergabenachprüfung. Adressat öffentlicher Auftraggeber. Konkret bezeichneter Vergabeverstoß mit Norm und Sachverhalt. Antrag auf Abhilfe und hilfsweise Aufhebung. Unverzuegliche Einreichung bei Erkennbarkeit. Bei Nichtabhilfe Antragsfrist 15 Kalendertage zur Vergabekammer. Aufbau Sachverhalt, rechtlicher Verstoß, Beweismittel, Antrag. Form Schriftform oder qualifiziert elektronische Signatur. Schwellenwertprüfung nach § 106 GWB obligatorisch. Checkliste Rechtzeitigkeit, Bestimmtheitsgebot, Praeklusionsrisiko und Nachprüfungsstrategie enthalten.
+
+### Rügeschriftsatz nach § 160 Abs. 3 GWB
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +43,7 @@ Ein Bieter nimmt an einem europaweiten Vergabeverfahren teil und stellt entweder
 8. Liegen Beweismittel vor (Vergabeunterlagen, Korrespondenz, Angebots-Vergleichszahlen, Marktpreiserhebungen, Sachverständigengutachten)?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -63,17 +76,14 @@ Ein Bieter nimmt an einem europaweiten Vergabeverfahren teil und stellt entweder
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | VK Bund VK 2-19/22 | Vergabekammer Bund, 2022 | Unklare Leistungsbeschreibung verletzt § 121 GWB; Neufassung angeordnet |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | VK Südbayern Z3-3-3194-1-46-11/23 | VK Südbayern, 2023 | Wertungsmatrix ohne vorab bekannte Gewichtung verstößt gegen § 58 VgV |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
 ## Prüfschema: Rügeschriftsatz Vergaberecht
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Inhalt | Grundlage |
 |---------|--------|-----------|
@@ -85,10 +95,8 @@ Ein Bieter nimmt an einem europaweiten Vergabeverfahren teil und stellt entweder
 | 6 | **Form wählen**: Schriftlich (Brief, Fax, qualifiziert elektronische Signatur) mit Empfangsnachweis; E-Mail ohne QES nur wenn Auftraggeber Empfang bestätigt | § 160 Abs. 3 GWB |
 | 7 | **Adressat bestimmen**: Vergabestelle exakt nach Bekanntmachungsangaben; bei Zuständigkeitsteilung übergeordnete Behörde nachrichtlich | § 160 Abs. 2 GWB |
 | 8 | **Sachverhalt darlegen**: Knapp, präzise; Verfahrensbezeichnung, Az, eigene Beteiligung, Stand des Verfahrens, Entdeckungszeitpunkt | Bestimmtheitsgebot |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | **Antrag formulieren**: Primär Abhilfe (konkrete Maßnahme), hilfsweise Aufhebung; bei Zuschlagsankündigung ggf. Wiederholung der Wertung | § 160 GWB |
 | 11 | **Nachprüfungsdrohung aufnehmen**: Ankündigung des Nachprüfungsantrags bei Nichtabhilfe binnen 15 Kalendertagen | § 160 Abs. 3 Nr. 4 GWB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 13 | **Nachprüfungsantrag vorbereiten**: Parallelarbeit bei Eilbedürftigkeit; Antrag an Vergabekammer Bund oder zuständige Länderkammer | §§ 161–163 GWB |
 | 14 | **Beiladungsrisiko bewerten**: Konkurrent als Beigeladener im Nachprüfungsverfahren erhält Akteneinsicht in Rügeunterlagen | § 163 Abs. 2 GWB |
 | 15 | **Schadensersatz im Blick**: Bei erfolglosem Nachprüfungsverfahren ggf. Schadensersatzanspruch gegen Auftraggeber prüfen | § 179 GWB |
@@ -97,14 +105,14 @@ Ein Bieter nimmt an einem europaweiten Vergabeverfahren teil und stellt entweder
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Bieter ruegt Vergaberechtsverstoß fristgerecht | Ruegeschriftsatz nach § 160 Abs. 3 GWB; Template unten |
-| Variante A — Mandant will Auftrag behalten nicht streiten | Informelles Klaerungsgespraech mit Vergabestelle vor formeller Ruege |
+| Variante A — Mandant will Auftrag behalten nicht streiten | Informelles Klärungsgespraech mit Vergabestelle vor formeller Ruege |
 | Variante B — Zuschlag bereits erteilt keine 15-Tage-Frist | Nachpruefungsantrag auf Feststellung Unwirksamkeit § 135 GWB direkt |
-| Variante C — Unterschwellenvergabe kein GWB-Nachpruefungsverfahren | Unterlassungsklage vor Zivilgericht § 1 UWG analog pruefen |
+| Variante C — Unterschwellenvergabe kein GWB-Nachpruefungsverfahren | Unterlassungsklage vor Zivilgericht § 1 UWG analog prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -113,7 +121,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 ### Baustein 1 — Rüge wegen unklarer Leistungsbeschreibung
 
 ```
-[Briefkopf Rechtsanwalt]                         [Ort, Datum]
+[Briefkopf Rechtsanwalt] [Ort, Datum]
 
 [Vergabestelle]
 [Adresse gemäß Bekanntmachung]
@@ -177,7 +185,7 @@ Mit freundlichen Grüßen
 ### Baustein 2 — Rüge wegen diskriminierender Eignungsanforderung
 
 ```
-[Briefkopf Rechtsanwalt]                         [Ort, Datum]
+[Briefkopf Rechtsanwalt] [Ort, Datum]
 
 [Vergabestelle]
 [Adresse]
@@ -218,7 +226,7 @@ III. Antrag
 
 Wir beantragen:
 1. Streichung der Mindestwertvorgabe je Referenz, ersatzweise
-   Absenkung auf maximal [50 % des Auftragswerts] Euro,
+ Absenkung auf maximal [50 % des Auftragswerts] Euro,
 2. Erweiterung des Referenzzeitraums auf fünf Jahre,
 3. Verlängerung der Angebotsfrist nach Klarstellung.
 
@@ -236,7 +244,7 @@ Mit freundlichen Grüßen
 ### Baustein 3 — Rüge wegen fehlerhafter Wertung / ungewöhnlich niedrigem Angebot
 
 ```
-[Briefkopf Rechtsanwalt]                         [Ort, Datum]
+[Briefkopf Rechtsanwalt] [Ort, Datum]
 
 [Vergabestelle]
 [Adresse]
@@ -278,7 +286,7 @@ Wir beantragen:
 1. Nachträgliche Durchführung der Aufklärung nach § 60 VgV,
 2. Dokumentation des Aufklärungsverfahrens im Vergabevermerk,
 3. Ggf. Ausschluss des Angebots der [Bieter-Firma X] bei unzureichender
-   Aufklärung und Neubewertung der verbleibenden Angebote,
+ Aufklärung und Neubewertung der verbleibenden Angebote,
 4. Aussetzung der Zuschlagserteilung bis zur Entscheidung über diese Rüge.
 
 Bei Nichtabhilfe werden wir binnen 15 Kalendertagen den
@@ -290,13 +298,13 @@ Mit freundlichen Grüßen
 [Rechtsanwalt]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
@@ -336,7 +344,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Gegenargument des Auftraggebers | Erwiderung |
 |---|---|
 | "Rüge erfolgte nicht unverzüglich" | Unverzüglichkeit ist objektiv zu beurteilen; 1–2 Werktage nach Erkennbarkeit sind regelmäßig ausreichend (OLG Düsseldorf Verg 23/17); bei komplexen Sachverhalten bis zu 5 Werktage anerkannt |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Bieter hat Unterlagen akzeptiert durch Angebotsabgabe" | Präklusion durch Angebotsabgabe gilt nur bei erkennbaren Unterlagenfehlern vor Abgabefrist; für Wertungsfehler nach Abgabe kein Präklusionsrisiko |
 | "Rüge hat keine aufschiebende Wirkung" | Korrekt; aufschiebende Wirkung entsteht erst mit Eingang des Nachprüfungsantrags (§ 169 Abs. 1 GWB); Rüge dient als Zulässigkeitsvoraussetzung |
 | "Aufklärung nach § 60 VgV wurde intern durchgeführt" | Dokumentationspflicht aus § 134 VgV; ohne Nachweis im Vergabevermerk besteht Verstoß; Akteneinsicht via Vergabekammer möglich |
@@ -354,7 +361,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Gebühren Vergabekammer Bund | Mindestgebühr 2.500 Euro, maximal 50.000 Euro | § 182 Abs. 2 GWB |
 | Anwaltsgebühren (Antragsteller) | Nach RVG: 1.3 Verfahrensgebühr aus Streitwert, ggf. Einigungsgebühr | § 182 Abs. 4 GWB (Kostenerstattung bei Obsiegen) |
 | Sofortige Beschwerde OLG | Gerichtsgebühren nach GKG; anwaltliche Vertretungspflicht | § 172 GWB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Eilverfahren (§ 169 GWB) | Keine eigenständigen Gebühren; Zuschlagsverbot automatisch | § 169 GWB |
 
 ---
@@ -366,7 +372,6 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Verstoß erkannt vor Angebotsabgabe | Sofort rügen und Fristverlängerung beantragen; parallele Angebotsabgabe mit Vorbehalt erwägen |
 | Informationsschreiben § 134 GWB eingegangen | 15-Tage-Wartefrist nutzen: Rüge sofort; bei Nichtabhilfe Nachprüfungsantrag vor Fristablauf stellen |
 | Kurze Frist bis Zuschlagsdrohung | Rüge und Nachprüfungsantrag simultan vorbereiten; Zuschlagsverbot § 169 GWB löst sofort aus |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Mehrere Verstöße | Jeden Verstoß eigenständig rügen mit separater Norm; keine Sammelrüge |
 | Vertrauliche Verfahrensinformation (aus Bieteranfragen) | Öffentlich zugängliche Vergabeinformationen als Beweismittel nutzen; keine internen Informanden |
 | Bieterkonsortium | Rüge kann auch durch Mitglied der Bietergemeinschaft gestellt werden; Vollmacht beifügen |
@@ -391,9 +396,9 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - VgV, SektVO, KonzVgV
 - VO (EU) 2014/24, VO (EU) 2022/1031 (IPI), VO (EU) 2023/1441 (Schwellenwerte)
 - EuGH 28.10.2020, C-521/18 (Pegaso) — De-facto-Vergaben (curia.europa.eu)
-- EuGH 03.06.2022, C-376/21 (Zamestnik) — Verhaeltnismaessigkeit Ausschluss (curia.europa.eu)
+- EuGH 03.06.2022, C-376/21 (Zamestnik) — Verhältnismäßigkeit Ausschluss (curia.europa.eu)
 - EuGH 21.12.2023, C-66/22 (Infraestruturas) — Wettbewerbsverstoss (curia.europa.eu)
-- OLG Vergabesenate (oeffentliche Datenbanken: olg-duesseldorf.nrw.de, openjur.de, landesrecht-bw.de)
+- OLG Vergabesenate (öffentliche Datenbanken: olg-duesseldorf.nrw.de, openjur.de, landesrecht-bw.de)
 - VK Bund: bundeskartellamt.de/Vergabe
 
 ## Vertiefung: Output-Template Ruegeschriftsatz
@@ -410,28 +415,43 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 Vergabe [BEZEICHNUNG], Az./TED-Nr. [NR.]
 Unser Mandant: [BIETER], vertreten durch [Kanzlei]
 
-R U E G E  nach § 160 Abs. 3 GWB
+R U E G E nach § 160 Abs. 3 GWB
 
 1. Kenntniszeitpunkt: [DATUM] aus [QUELLE]
 2. Verstoss:
-   Verletzung von [§ XY GWB / § ZY VgV]:
-   [Konkrete Beschreibung]
+ Verletzung von [§ XY GWB / § ZY VgV]:
+ [Konkrete Beschreibung]
 3. Frist: Die 10-Tage-Frist des § 160 Abs. 3 Nr. 1 GWB
-   ist gewahrt (Kenntnisdatum [DATUM]).
+ ist gewahrt (Kenntnisdatum [DATUM]).
 4. Antrag auf Abhilfe:
-   [Massnahme: z.B. Neuberechnung Wertung /
-   Einsicht in Wertungsunterlagen /
-   Aufhebung diskriminierender Anforderung]
+ [Massnahme: z.B. Neuberechnung Wertung /
+ Einsicht in Wertungsunterlagen /
+ Aufhebung diskriminierender Anforderung]
 5. Androhung:
-   Bei Nichtabhilfe werden wir binnen 15 Tagen
-   Nachpruefungsantrag bei der Vergabekammer stellen
-   (§ 160 Abs. 3 Nr. 4 GWB).
+ Bei Nichtabhilfe werden wir binnen 15 Tagen
+ Nachpruefungsantrag bei der Vergabekammer stellen
+ (§ 160 Abs. 3 Nr. 4 GWB).
 
 [Rechtsanwalt/-anwaeltin, Fachanwalt Vergaberecht]
 ```
 
 ---
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 026:
--->
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Für Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Für Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Prüfe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

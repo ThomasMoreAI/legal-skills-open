@@ -1,0 +1,93 @@
+---
+name: transparenzgebot-bgb-us-uk
+title: Transparenzgebot nach § 307 I S. 2 BGB
+description: 'Für Transparenzgebot nach Paragraf 307 I S. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/transparenzgebot-bgb-us-uk
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Transparenzgebot nach § 307 I S. 2 BGB
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DSGVO Art. 33 Datenpanne 72h, ZPO § 130d aktive beA-Nutzung seit 01.01.2022, GwG § 8 Aufbewahrung 5 Jahre, KI-VO Art. 50 Kennzeichnung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 49b, DSGVO Art. 6, 28, 32, 35, BORA § 19a (technische Sorgfalt), beA-Bedingungen, ZPO § 130a (eVa), § 130d (aktive Nutzungspflicht), GwG § 8 Aufbewahrung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anwalt, Sekretariat, IT-Verantwortlicher, Datenschutzbeauftragter, KI-Anbieter (Auftragsverarbeiter), Kammer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Word-Dokumentvorlage, beA-Schriftsatz, AV-Vertrag mit KI-Anbieter, DSFA, Sicherheitskonzept, AGB-/Mandantenklauseln zu KI-Einsatz — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Eingaben
+
+- Vorgesehener Klauseltext oder Drafting-Auftrag.
+- Adressatenkreis (Verbraucher, Unternehmer, mittelständische Beschaffung, Online-Massenkundschaft).
+- Zugehörigkeit zu einem Klauselwerk (Bezugnahmen auf andere Klauseln und Anlagen).
+- Gestaltungsspielraum (Layout, Hervorhebungen, Tabellen).
+
+## Rechtlicher und methodischer Rahmen
+
+- **Rechtsgrundlage:** § 307 I S. 2 BGB. Eine unangemessene Benachteiligung kann sich auch daraus ergeben, dass die Bestimmung nicht klar und verständlich ist.
+- **Geltungsbereich:** Sowohl Verbraucher- als auch Unternehmergeschäft. Im B2B gilt das Transparenzgebot über § 310 I i. V. m. § 307 BGB.
+- **Maßstab:** Durchschnittlicher Vertragspartner aus dem typischerweise angesprochenen Kreis, ohne juristisches oder branchenspezifisches Spezialwissen.
+- **Funktion:** Transparenzgebot verlangt nicht nur sprachliche Klarheit, sondern auch wirtschaftliche Nachvollziehbarkeit: Der Vertragspartner muss die finanziellen Folgen und Rechte/Pflichten erkennen können.
+- **Folgen der Intransparenz:** Unwirksamkeit der Klausel; das dispositive Recht greift (§ 306 II BGB).
+- **Rechtsprechung:** Eine umfangreiche BGH-Linie zu Preisanpassungs-, Wechsel- und Verlängerungsklauseln präzisiert den Maßstab. Konkrete Fundstellen sind vom Nutzer zu verifizieren.
+
+## Ablauf / Checkliste
+
+1. Adressatenkreis identifizieren: Welcher Bildungs- und Erfahrungshorizont ist anzunehmen?
+2. Klauseltext laut lesen oder vorlesen lassen. Wo der Leser stockt, droht Intransparenz.
+3. Strukturelle Klarheit prüfen: Überschriften, kurze Absätze, Nummerierung, Tabellen für Tarif- und Preisinformationen.
+4. Sprachliche Klarheit prüfen: kurze Sätze, aktive Form, keine doppelten Negationen, Fachbegriffe erläutern oder ersetzen.
+5. Verweistechnik prüfen: kaskadierte Verweise (Klausel verweist auf Anlage, die auf weitere Anlage verweist) sind kritisch. Im Zweifel Klausel volltext aufnehmen.
+6. Wirtschaftliche Folgen sichtbar machen: Beispielsrechnungen, Hinweise auf Höchst-/Mindestwerte, Beispiele für Anpassungen.
+7. Doppelregelungen vermeiden: Wenn dieselbe Frage in zwei Klauseln unterschiedlich beantwortet wird, ist eine intransparent (mehrdeutig, § 305c II BGB).
+8. Konsistenz der Defined Terms (vgl. `definitionen-klauseln-stringent`).
+9. Layout-Tools nutzen: Fettungen für zentrale Pflichten, Tabellen für Preise und Fristen, ggf. Hinweisboxen.
+10. Lesbarkeitstest mit branchenfremder Person; Anmerkungen einsammeln.
+
+## Typische Drafting-Fehler
+
+- "Im Übrigen gelten die gesetzlichen Bestimmungen": ohne Hinweis auf relevante Normen häufig intransparent in Verbraucher-AGB, insbesondere bei Widerrufsrecht und Mängelrechten.
+- Verweis auf "die jeweils gültige Preisliste" ohne Mechanismus der Bekanntgabe: intransparent.
+- Doppelte Negationen ("nicht unzulässig"): wirkt verschleiernd.
+- Schachtelsätze mit über vierzig Wörtern: schwer lesbar.
+- Fachbegriffe ohne Erläuterung ("Aufrechnung", "Zurückbehaltungsrecht", "Verzugszinsen ab Mahnung") gegenüber Verbrauchern.
+- Pauschalkostenklauseln ohne Höhe: intransparent.
+- Verlängerungsklauseln, die die Verlängerungsdauer und die Kündigungsfrist nicht zusammen erkennen lassen.
+- Mehrere Klauseln widersprechen sich (Haftungsausschluss in § X widerspricht Garantie in § Y).
+
+## Beispiele
+
+Vorher (Preisanpassungsklausel, Verbraucher):
+
+> "Der Anbieter ist berechtigt, die vereinbarten Preise nach billigem Ermessen unter Berücksichtigung wesentlicher Kostenfaktoren anzupassen, wobei eine Erhöhung im Übrigen nicht ausgeschlossen ist und Kostensenkungen entsprechend zu berücksichtigen sind, soweit dies angemessen erscheint."
+
+Nachher:
+
+> § X Preisanpassung
+> (1) Der Anbieter kann den monatlichen Grundpreis erhöhen, wenn sich die Kosten für Vorleistungen (Strom, Netznutzung, Lohn) seit dem letzten Anpassungszeitpunkt um mehr als drei Prozent erhöht haben.
+> (2) Eine Erhöhung darf den prozentualen Anstieg der Vorleistungskosten nicht überschreiten. Sinken die Vorleistungskosten, senkt der Anbieter den Grundpreis entsprechend.
+> (3) Eine Preisanpassung wird mindestens sechs Wochen vorher in Textform angekündigt. Der Kunde kann innerhalb eines Monats nach Zugang der Ankündigung ordentlich kündigen.
+
+Vorher (Widerrufsbelehrungspflicht):
+
+> "Im Übrigen gelten die gesetzlichen Vorschriften."
+
+Nachher (sachgerecht in Verbraucher-AGB):
+
+> Über das gesetzliche Widerrufsrecht und die Mängelrechte werden Sie gesondert in der beigefügten Widerrufsbelehrung und in § Z dieses Vertrages informiert. Diese Vorschriften gehen abweichenden Regelungen in diesen AGB vor.
+
+## Quellen (Stand 05/2026)
+
+- § 307 I S. 2 BGB; § 305c II BGB; § 306 II BGB; § 310 I BGB.
+- BGH-Linie zu Preisanpassungs-, Tarif- und Verlängerungsklauseln (verschiedene Senate) ist vom Nutzer fundstellengenau zu verifizieren.
+- Zitierweise: `references/zitierweise.md`.

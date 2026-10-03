@@ -10,7 +10,7 @@ Jurisdiction: `ro` · Practice: `general` · Skill language: ro
 
 | Skill | What it does |
 |---|---|
-| [`Legislație RO: legislatie.just.ro`](skills/legislatie-ro-sw33tr/) | Sursa implicită pentru ORICE întrebare despre legislația românească. Folosește-l înainte de a răspunde din… |
+| [`Legislație RO: legislatie.just.ro`](skills/legislatie-ro-sw33tr/) | Sursa implicită pentru ORICE întrebare despre legislația românească. Folosește-l înainte de a răspunde… |
 
 ## Cold-start context
 

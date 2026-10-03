@@ -1,0 +1,55 @@
+---
+name: kelsen-stufenbau-gueltigkeit-und-methodendisziplin
+title: Nutzt kelsenianische Rechtsquellenklarheit zur Trennung von Normgeltung, Moral, Politik, Kompetenz, Verfahren und Rechts
+description: 'Für Kelsen Stufenbau Gültigkeit und Methodendisziplin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtstheorie-rechtsphilosophie/skills/kelsen-stufenbau-gueltigkeit-und-methodendisziplin
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Nutzt kelsenianische Rechtsquellenklarheit zur Trennung von Normgeltung, Moral, Politik, Kompetenz, Verfahren und Rechtsschutz.
+
+
+## Regelungs- und Quellenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `Art. 1 Abs. 1 GG` — normative Grenze jeder Rechtsanwendung.
+- `Art. 20 Abs. 3 GG` — Gesetzesbindung und Rechtsbindung.
+- `Art. 19 Abs. 4 GG` — effektiver Rechtsschutz.
+- `Art. 97 Abs. 1 GG` — richterliche Unabhaengigkeit.
+- `§ 133 BGB` — Auslegung von Willenserklaerungen.
+- `§ 157 BGB` — Vertragsauslegung nach Treu und Glauben.
+- `§ 242 BGB` — Korrektiv der Rechtsausuebung.
+- `§ 1 StGB` — Bestimmtheit im Strafrecht.
+- `Art. 6 Abs. 1 EMRK` — faires Verfahren.
+- `Art. 47 GRCh` — wirksamer Rechtsbehelf.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: keine prozessualen Fristen — Argumentationslast hingegen verfahrenslogisch (Begründungsdichte, Subsumtionsspielraum, Auslegungsmethoden).
+- Tragende Normen verifizieren: GG Art. 20 Abs. 3, Art. 79 Abs. 3, Art. 103 Abs. 2, methodische Grundlagen: Larenz/Canaris, Bydlinski, Engisch, Alexy (Theorie der juristischen Argumentation), Radbruch'sche Formel, Hart, Kelsen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Wissenschaft, Gesetzgeber, Verfassungsgericht (BVerfG), Rechtsprechung, juristische Methodik in Studium und Praxis.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Methodengutachten, dogmatische Stellungnahme, BVerfG-Verfassungsbeschwerde-Schriftsatz, akademische Argumentationskette, juristische Hausarbeit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Nutzt kelsenianische Rechtsquellenklarheit zur Trennung von Normgeltung, Moral, Politik, Kompetenz, Verfahren und Rechtsschutz.
+
+### Kelsen: Stufenbau, Geltung, Kompetenz und Methodendisziplin
+
+## Leitidee
+Kelsen zwingt die juristische Arbeit zur Disziplin: Eine Aussage ist nicht schon Recht, weil sie sinnvoll, moralisch oder praktisch wirkt. Sie braucht eine Quelle, eine Kompetenz, ein Verfahren und einen Platz im Normengefüge.
+
+## Prüfschritte
+1. **Normtyp:** Verfassung, EU-Recht, Gesetz, Verordnung, Satzung, Verwaltungsakt, Vertrag, Urteil, Soft Law.
+2. **Kompetenzkette:** Wer durfte das setzen und in welchem Verfahren?
+3. **Rang und Konflikt:** Lex superior, lex specialis, lex posterior, unionsrechtlicher Anwendungsvorrang, Grundrechtsbindung.
+4. **Geltung vs. Bewertung:** Ist die Norm gültig, anwendbar, nichtig, unanwendbar oder nur moralisch/politisch problematisch?
+5. **Rechtsschutz:** Welcher Weg kontrolliert sie, wer ist antragsbefugt, welche Frist gilt?

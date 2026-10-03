@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sozialrecht-sgb-ii-bescheid
 title: SGB-II-Bescheid (Bürgergeld)
-description: Workflow-Skill zu fachanwalt sozialrecht sgb ii bescheid. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für SGB-II-Bescheid (Bürgergeld): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/fachanwalt-sozialrecht-sgb-ii-bescheid
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: social-security
@@ -61,7 +61,8 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | § 21 SGB II | Mehrbedarfe: Schwangerschaft, Alleinerziehung, Behinderung, Ernährung, Warmwasser |
 | § 22 SGB II | Kosten der Unterkunft (tatsächlich bis zur Angemessenheitsgrenze; Heizkosten separat) |
 | § 31 SGB II | Pflichtverletzung; Leistungsminderung |
-| § 31a SGB II | Höhe der Leistungsminderung nach Pflichtverletzung — Sanktionen nach BVerfG 5.11.2019 — 1 BvL 7/16 in Schwere begrenzt |
+| § 31a, § 31b SGB II | Seit 1. Juli 2026 grundsätzlich 30 Prozent für drei Monate; Sonderfolge bei willentlicher Nichtaufnahme unmittelbar möglicher zumutbarer Arbeit; Härte, Aufhebung und Dauer gesondert prüfen |
+| § 65a Abs. 2 SGB II | Für Pflichtverletzungen und Meldeversäumnisse vor dem 1. Juli 2026 gilt das bis 30. Juni 2026 geltende Recht weiter |
 | § 39 SGB II | Kein Suspensiveffekt bei Widerspruch; Ausnahme bei drohender Unzumutbarkeit |
 | § 41a SGB II | Vorläufige Leistungserbringung bei ungeklärtem Sachverhalt |
 | § 43 SGB II | Aufrechnung von Erstattungsansprüchen (max. 30 % des Regelbedarfs) |
@@ -69,7 +70,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | § 45 SGB X | Rücknahme rechtswidriger begünstigender Verwaltungsakte (Vertrauensschutz) |
 | § 48 SGB X | Aufhebung bei wesentlicher Änderung der Verhältnisse |
 
-### Leitentscheidungen (Stand Mai 2026)
+### Leitentscheidungen (Stand Juli 2026)
 
 | Aktenzeichen | Gericht/Datum | Tragende Aussage | Offene Fundstelle |
 |---|---|---|---|
@@ -78,7 +79,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | B 4 AS 4/24 R | BSG 26.03.2025 | § 6b SGB II — Bundeserstattung Verwaltungskosten | https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_03_26_B_04_AS_04_24_R.html |
 | B 7 AS 17/24 R | BSG 04.06.2025 | Vollstreckung von Erstattungsforderungen durch BA | https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_06_04_B_07_AS_17_24_R.html |
 | B 7 AS 19/24 R | BSG 16.07.2025 | Durchschnittseinkommens-Berechnung § 41a SGB II | https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2025/2025_07_16_B_07_AS_19_24_R.html |
-| 1 BvL 7/16 | BVerfG 05.11.2019 | Sanktionen § 31a SGB II in Höhe begrenzt | https://dejure.org/dienste/vernetzung/rechtsprechung?Text=1+BvL+7/16 |
+| 1 BvL 7/16 | BVerfG, Urteil vom 05.11.2019 | Verfassungsrechtliche Leitplanken für Existenzminimum, Verhältnismäßigkeit, Härte und vorzeitige Beendigung; keine automatische Bestätigung des seit 1. Juli 2026 geltenden Rechts | https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2019/11/ls20191105_1bvl000716.html |
 
 Weitere Entscheidungen vor Ausgabe in dejure.org / bsg.bund.de live verifizieren.
 
@@ -98,7 +99,6 @@ Weitere Entscheidungen vor Ausgabe in dejure.org / bsg.bund.de live verifizieren
 | 8 | Freibetrag Erwerbstätigkeit korrekt berechnet? | § 11b Abs. 2, 3 SGB II |
 | 9 | Vermögensfreibetrag EUR 15000 pro Person beachtet? | § 12 Abs. 2 SGB II |
 | 10 | Karenzjahr-Schutz greift (erste 12 Monate)? | § 12 Abs. 3 SGB II |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Verfahrensfehler: Anhörung § 24 SGB X, Begründung § 35 SGB X? | §§ 24, 35 SGB X |
 | 13 | Aufhebungsbescheid: Rechtsgrundlage § 45, 48 SGB X korrekt? | §§ 45, 48 SGB X |
 | 14 | Erstattungsbetrag zutreffend und Aufrechnungsgrenze § 43 beachtet? | § 43 SGB II |
@@ -115,7 +115,7 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Standard — SGB-II-Bescheid pruefen und anfechten | Widerspruch; Template unten |
 | Variante A — Mandant will sofortige Zahlung | Eilantrag § 86b SGG parallel zum Widerspruch |
 | Variante B — Rueckforderungsbescheid | § 45 vs. § 48 SGB X unterscheiden; Vertrauensschutz |
-| Variante C — Sanktionsbescheid | Verfassungswidrigkeit BVerfGE 1 BvL 7/16 pruefen |
+| Variante C — Minderungsbescheid | Ereignisdatum und Fassung über Paragraf 65a Absatz 2 SGB II bestimmen; Tatbestand und Rechtsfolge nach Paragrafen 31 bis 32 SGB II prüfen; BVerfG 1 BvL 7/16 als verfassungsrechtlichen Maßstab anwenden |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -163,7 +163,6 @@ Angesetzt: EUR [Betrag]
 Das vom Jobcenter zugrundeliegende Schlüssige Konzept ist
 angreifbar, weil [Argumentation, z.B. veraltete Daten, keine
 Differenzierung nach Wohnungsgrößen, keine Verfügbarkeitsanalyse]
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Betrag unterhalb der tatsächlichen Kosten ist unzulässig.
 
 V. Einkommensbereinigung (§ 11b SGB II)
@@ -174,7 +173,7 @@ Fehler: [Konkrete Rechenfehler des Jobcenters].
 
 VI. Verfahrensfehler
 Eine Anhörung nach § 24 SGB X wurde vor Erlass des belastenden
-Bescheids nicht durchgeführt. Dies ist heilbar (§ 41 SGB X), 
+Bescheids nicht durchgeführt. Dies ist heilbar (§ 41 SGB X),
 aber im Widerspruchsverfahren zu korrigieren.
 
 Wir beantragen:
@@ -235,12 +234,10 @@ der Sanktionsbescheid ist rechtswidrig, weil:
    und der genauen Rechtsfolge (BSG-Linie zu § 31 SGB II).
 
 2. Kein Verschulden: Die Pflichtverletzung war nicht ver-
-   schuldet, weil [konkreter Grund: Krankheit, Irrtum, 
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+   schuldet, weil [konkreter Grund: Krankheit, Irrtum,
    Sanktionen sind nur bei Verschulden verfassungskonform.
 
 3. Verhältnismäßigkeit: Die festgesetzte Minderung von [X %]
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
    muss ein Härteparagraph greifen.
 
 Wir beantragen: Aufhebung des Sanktionsbescheids.
@@ -287,10 +284,8 @@ Mit freundlichen Grüßen
 
 | Jobcenter-Argument | Rechtliche Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Einnahmen als Einkommen angerechnet" | § 11a SGB II: Ausnahmen prüfen (Aufwandsentschädigungen, Wohngeld, Kindergeld-Teile) |
 | "Vermögen vorhanden" | § 12 Abs. 2: Freibetrag EUR 15000 pro Person; Karenzjahr § 12 Abs. 3; Schonvermögen (Hausrat, Altersvorsorge) |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Aufhebung § 48 SGB X korrekt" | Handlungs-/Kenntnis-Verschulden nicht vorhanden; Vertrauensschutz § 45 SGB X |
 | "Vorläufige Leistung § 41a wird endabgerechnet" | Höhe der Nachforderung begrenzt; Billigkeitslösung § 43 SGB II |
 | "Keine Anhörung nötig" | § 24 SGB X gilt bei allen belastenden VA; Heilung nur im Widerspruch, nicht im Bescheid |
@@ -314,7 +309,6 @@ Mit freundlichen Grüßen
 | Fallkonstellation | Empfehlung |
 |---|---|
 | KdU-Kürzung | Schlüssiges Konzept des Jobcenters prüfen; Mietspiegel / Marktatlas gegenüberstellen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Aufhebungs-/Erstattungsbescheid | § 45 oder § 48 SGB X Rechtsgrundlage? Vertrauensschutz und Jahresfristen prüfen |
 | Eilschutz nötig | § 86b Abs. 2 SGG sofort stellen; kein Suspensiveffekt § 39 SGB II beachten |
 | Mehrfach-Bescheide | Jeden Bescheid einzeln anfechten; Sammelwiderspruch vermeiden |
@@ -329,6 +323,14 @@ Mit freundlichen Grüßen
 
 ---
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anschluss-Skills
 
 - `fachanwalt-sozialrecht-widerspruch-sozialleistung` — allgemeine Widerspruchslogik
@@ -337,4 +339,4 @@ Mit freundlichen Grüßen
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

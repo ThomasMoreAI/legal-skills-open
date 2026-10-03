@@ -1,30 +1,23 @@
 ---
 name: nda-durchsetzer
 title: NDA-Durchsetzer — Redline der Gegenseite im Änderungsmodus + strukturierte Analyse
-description: Überarbeitet ein NDA der Gegenseite **konservativ im Änderungsmodus**, ohne Struktur, Nummerierung, Reihenfolge oder Look-&-Feel zu verändern, und erstellt parallel eine strukturierte Analyse (Executive Summary, struktureller Vergleich, Klausel-für-Klausel-Vergleich mit Risikoampel GÜNSTIG/NEUTRAL/NACHTEILIG/ROTE LINIE, fehlende Regelungen, Klauselentwürfe, priorisierte Änderungsliste). Lädt, wenn Schlagwörter wie "NDA durchsetzen", "NDA Redline", "NDA Gegenseite überarbeiten", "Geheimhaltungsvereinbarung Änderungsmodus", "Mindeststandard NDA" oder "NDA-Verhandlung" auftreten.
+description: 'Für NDA-Durchsetzer — Redline der Gegenseite im Änderungsmodus + strukturierte Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsrecht/skills/nda-durchsetzer
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
 language: de
+sources:
+- title: Analyse vorlage
+  path: references/analyse-vorlage.md
+- title: Mindeststandards
+  path: references/mindeststandards.md
 ---
 
 # NDA-Durchsetzer — Redline der Gegenseite im Änderungsmodus + strukturierte Analyse
-
-## Zweck
-
-Dieser Skill bearbeitet ein **gegnerisches NDA** so, dass
-
-1. **die optische und strukturelle Identität des Dokuments erhalten bleibt** (Format, Nummerierung, Reihenfolge, Klauselbezeichnungen, Schriftbild) — damit die Gegenseite ihr eigenes Papier wiedererkennt; und
-2. **unsere Mindeststandards aus Vorlage und Checkliste materiell vollständig integriert sind** — durch punktuelle Wort- und Satzergänzungen im Änderungsmodus, **nicht** durch Neufassung.
-
-Parallel zum Redline-Dokument erzeugt der Skill eine strukturierte
-Klausel-für-Klausel-Analyse mit Risikoampel und priorisierter
-Änderungsliste, die als Verhandlungsgrundlage für die Mandantin oder den
-Mandanten dient.
 
 ## Eingaben
 
@@ -52,18 +45,13 @@ Falls Referenzvorlage oder Checkliste fehlen, fragt der Skill zunächst nach —
 - **Art. 25, 28, 32 DSGVO** — bei personenbezogenen Daten im Austauschumfang ggf. AVV-Bedarf neben dem NDA
 - **§ 203 StGB** — berufsspezifische Schweigepflicht (Rechtsanwalt, Steuerberater, Arzt) tritt **neben** das NDA
 
-### Kanonische Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Mindeststandard-Katalog
 
 Die folgenden zehn Bereiche sind in **jedem** NDA zu prüfen.
-Detaillierte Soll-Klauseln und rote Linien siehe
-[`references/mindeststandards.md`](./references/mindeststandards.md).
 
 1. **Definition `Confidential Information`** — weit gefasst, einschließlich auch mündlich übermittelter, nicht gekennzeichneter und nicht ausdrücklich als vertraulich bezeichneter Informationen, sofern erkennbar vertraulich.
 2. **Ausnahmen** — abschließend (öffentlich bekannt ohne Verschulden, vorbekannt, Dritter ohne Verschwiegenheitspflicht, eigenständig entwickelt; gesetzliche Offenlegungspflicht mit Vorabbenachrichtigung).
@@ -82,12 +70,12 @@ Detaillierte Soll-Klauseln und rote Linien siehe
 
 1. **Vollständige Erfassung des Prüflings** — Klausel für Klausel, mit Nummerierung und Überschriften übernehmen.
 2. **Strukturschutz** — keine Klausel löschen, keine Klauseln umstellen, keine neue Nummerierung. Änderungen nur durch:
-   - Einfügung einzelner Wörter (z. B. `mindestens`, `auch mündlich`, `unwiderruflich`, `verschuldensunabhängig`)
-   - Einfügung kurzer Halbsätze (z. B. `einschließlich verbundener Unternehmen i. S. d. § 15 AktG`)
-   - Streichung einzelner kritischer Wörter (z. B. "**ausschließlich** schriftlich gekennzeichnete" → "schriftlich gekennzeichnete")
-   - Ersetzung problematischer Begriffe durch minimale sprachliche Anpassung
+ - Einfügung einzelner Wörter (z. B. `mindestens`, `auch mündlich`, `unwiderruflich`, `verschuldensunabhängig`)
+ - Einfügung kurzer Halbsätze (z. B. `einschließlich verbundener Unternehmen i. S. d. § 15 AktG`)
+ - Streichung einzelner kritischer Wörter (z. B. "**ausschließlich** schriftlich gekennzeichnete" → "schriftlich gekennzeichnete")
+ - Ersetzung problematischer Begriffe durch minimale sprachliche Anpassung
 3. **Neue Absätze nur, wenn zwingend** — und dann möglichst als Unterabsatz innerhalb der nächstgelegenen bestehenden Klausel (z. B. `(neu) Im Übrigen gilt …`).
-4. **Mindeststandards integrieren** — gegen den Katalog (Abschnitt oben + `references/mindeststandards.md`) jede Klausel matchen und nur fehlende Bestandteile minimal ergänzen.
+4. **Mindeststandards integrieren** — gegen den Katalog (Abschnitt oben) jede Klausel matchen und nur fehlende Bestandteile minimal ergänzen.
 5. **Format und Look erhalten** — Schriftart, Aufzählungszeichen, Einrückungen, Schriftgrößen und Klauselbezeichnungen beibehalten.
 
 **Verbotene Eingriffe:**
@@ -98,8 +86,7 @@ Detaillierte Soll-Klauseln und rote Linien siehe
 
 ### B — Strukturierte Analyse (separates Dokument)
 
-Die Analyse folgt strikt der vorgegebenen Sechs-Abschnitts-Struktur
-(siehe [`references/analyse-vorlage.md`](./references/analyse-vorlage.md)):
+Die Analyse folgt strikt der vorgegebenen Sechs-Abschnitts-Struktur:
 
 1. **Executive Summary** — 3 bis 5 kritischste Abweichungen, Gesamtbewertung, Handlungsempfehlung (Redline & Verhandeln vs. eigenes NDA als Gegenvorschlag).
 2. **Struktureller Vergleich** — Tabellarische Gegenüberstellung aller Regelungsbereiche; fehlende Regelungen ausdrücklich kennzeichnen.
@@ -135,6 +122,14 @@ Drei Artefakte:
 | Begründung | Schutzlücke bei mündlich offengelegten Geschäftsgeheimnissen; widerspricht § 2 Nr. 1 lit. b GeschGehG ("angemessene Geheimhaltungsmaßnahmen" verlangt umfassenden Schutz). |
 | Redline-Vorschlag | Einfügung von "erkennbar oder" sowie Halbsatz "einschließlich mündlich, visuell oder in sonstiger Form offengelegter Informationen" |
 | Verhandlungsargument | Marktstandard nach GeschGehG-Inkrafttreten 2019; auch im Eigeninteresse der Gegenseite, da sie bei eigener Offenlegung gleichermaßen geschützt ist (bilateral). |
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Beispiel-Ablauf
 
@@ -186,7 +181,6 @@ Bei jeder Ausgabe sind mindestens folgende Belege anzugeben:
 - §§ 241 Abs. 2, 311 Abs. 2, 280 Abs. 1, 339, 343 BGB; § 348 HGB; § 15 AktG
 - §§ 2, 3, 5, 6, 7, 10 GeschGehG
 - §§ 305, 307 BGB (bei AGB-Konstellation)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Köhler, in: Köhler/Bornkamm/Feddersen, UWG, 43. Aufl. 2025, § 1 GeschGehG Rn. 12 ff.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.

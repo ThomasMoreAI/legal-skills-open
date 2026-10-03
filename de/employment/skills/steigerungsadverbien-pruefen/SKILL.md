@@ -1,0 +1,31 @@
+---
+name: steigerungsadverbien-pruefen
+title: Steigerungs- und Einschränkungswörter prüfen
+description: Prüft Grad- und Einschränkungswörter in Leistungs- und Verhaltenssätzen eines Arbeitszeugnisses auf ihre konkrete Bewertungswirkung. Liefert kontextgerechte Ersatzformulierungen statt einer starren Wort-zu-Note-Zuordnung; reine Häufigkeits- und Dauerangaben werden gesondert geprüft.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnispruefer/skills/steigerungsadverbien-pruefen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Steigerungs- und Einschränkungswörter prüfen
+
+## 1. Auslegung im Satz
+
+Prüfe nach Paragraf 109 Absätze 1 und 2 GewO. Für die Zufriedenheitsskala siehe BAG, Urteil vom 18. November 2014, 9 AZR 584/13, Rn. 10 bis 13 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-584-13/)); verwende diese Skala nicht für beliebige andere Prädikate. „Sehr engagiert“ kann Einsatz beschreiben, ohne ein bestimmtes Arbeitsergebnis zu bescheinigen. Kläre bei einer gewünschten Verstärkung deshalb zuerst, ob Einsatz, Können oder Erfolg gemeint ist.
+
+Bestimme, auf welches Prädikat und welchen Beurteilungsgegenstand ein Wort wie „voll“, „äußerst“, „überwiegend“ oder „im Wesentlichen“ bezogen ist. Unterscheide Intensität und Einschränkung. Die Wirkung ergibt sich erst aus Grammatik, Gesamtsatz, üblicher Formulierungspraxis und dem übrigen Zeugnis; ein einzelnes Wort hebt oder senkt nicht automatisch um genau eine Notenstufe. Häufigkeits- und Dauerangaben leitest du an den dafür vorgesehenen Prüfschritt weiter.
+
+Prüfe besonders, ob eine Einschränkung konkrete Ausnahmen nahelegt, ob ein Superlativ sprachlich stimmig ist und ob Gesamt- und Einzelbewertungen zusammenpassen. Das Fehlen eines Steigerungsworts in einem Detailsatz ist nicht ohne Weiteres ein Mangel. Leite die Leistungs- oder Verhaltensnote nicht aus einer bloßen Wortliste ab und bewerte die Schlussformel getrennt.
+
+## 2. Ergebnis
+
+Dokumentiere Originalsatz, grammatischen Bezug, vertretbare Bewertungswirkung, Kontext und Beweisgrundlage. Unterscheide eine eindeutige Abschwächung, eine mehrdeutige Formulierung und eine stilistische Variante. Formuliere bei erheblicher Abweichung einen vollständigen Ersatzsatz auf dem belegten Bewertungsniveau.
+
+## 3. Fortführung des Auftrags
+
+Führe den Ersatzsatz in die laufende Gesamtbewertung und das bestellte Dokument zurück. Frage nur nach einer Leistungstatsache, die zwischen zwei Formulierungsstufen entscheidet; unabhängige Teile werden fertiggestellt. Nach der Antwort passt du nur die betroffene Passage an und setzt ohne Neustart fort. Eine Liste gefundener Adverbien genügt nicht als Endprodukt.

@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-arbeitsrecht-befristung-tzbfg
 title: Befristung nach TzBfG (Teilzeit- und Befristungsgesetz)
-description: Befristungskontrolle und Befristungsgestaltung nach TzBfG für Arbeitgeber und Arbeitnehmer. Anwendungsfall befristeter Arbeitsvertrag soll geprüft oder neuer Befristungsvertrag gestaltet werden. Normen § 14 TzBfG Sachgrundbefristung sachgrundlose Befristung § 14 Abs. 4 TzBfG Schriftform vor Beschaeftigungsbeginn § 17 TzBfG Klagefrist drei Wochen. Prüfraster Schriftform-Zeitpunkt Sachgrund Vorbeschaeftigungsverbot § 14 Abs. 2 S. 2 BAG-Linie. Output Befristungsprüf-Protokoll oder Befristungsvertrags-Entwurf mit Klagefrist-Hinweis. Abgrenzung zu fachanwalt-arbeitsrecht-kündigungsschutzklage und fachanwalt-arbeitsrecht-betriebsratsanhoerung.
+description: 'Für Befristung nach TzBfG (Teilzeit- und Befristungsgesetz): prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-befristung-tzbfg
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
@@ -17,22 +17,21 @@ language: de
 ## Kaltstart-Rückfragen
 
 1. Liegt schriftlicher Arbeitsvertrag mit Befristung **vor** Beschäftigungsbeginn vor?
-2. Sachgrundbefristung (§ 14 Abs. 1 TzBfG) oder sachgrundlos (§ 14 Abs. 2 TzBfG)?
+2. Sachgrundbefristung (Paragraf 14 Abs. 1 TzBfG) oder sachgrundlos (Paragraf 14 Abs. 2 TzBfG)?
 3. Bei sachgrundloser Befristung: Vorbeschäftigung bei diesem Arbeitgeber?
 4. Verlängerungen oder echte Neubefristung?
 5. Wann endet die Befristung?
 
 ## Rechtsgrundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **Sachgrundbefristung:** § 14 Abs. 1 TzBfG, sachliche Gründe in S. 2 Nr. 1 bis 8.
-- **Sachgrundlos:** § 14 Abs. 2 TzBfG — bis zu zwei Jahre, höchstens dreimalige Verlängerung in dieser Zeit.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **Befristungskontrollklage:** § 17 TzBfG — drei Wochen nach vereinbartem Ende; Versäumung führt zur Fiktion der Wirksamkeit (§ 17 S. 2 iVm § 7 KSchG).
-- **Neueinstellung Älterer:** § 14 Abs. 3 TzBfG — sachgrundlose Befristung bis fünf Jahre, wenn der Arbeitnehmer bei Beginn des befristeten Arbeitsverhältnisses das 52. Lebensjahr vollendet hat **und** unmittelbar vor Beginn des Arbeitsverhältnisses **mindestens vier Monate** beschäftigungslos war (§ 138 SGB III), Transferkurzarbeitergeld bezog oder an einer Maßnahme nach SGB II/III teilgenommen hat. Mehrfachverlaengerung innerhalb der Gesamtdauer von fünf Jahren zulaessig.
+- **Sachgrundbefristung:** Paragraf 14 Abs. 1 TzBfG, sachliche Gründe in S. 2 Nr. 1 bis 8.
+- **Sachgrundlos:** Paragraf 14 Abs. 2 TzBfG — bis zu zwei Jahre, höchstens dreimalige Verlängerung in dieser Zeit.
+- **Form der Befristungsabrede:** Paragraf 14 Abs. 4 TzBfG verlangt weiterhin Schriftform. Zulässig sind Papieroriginal mit eigenhändiger Unterschrift beider Parteien (Paragraf 126 BGB) oder echte qES beider Parteien (Paragraf 126a BGB). Textform, E-Mail, PDF-Scan, einfache Signatur und fortgeschrittene Signatur ohne qualifiziertes Zertifikat genügen nicht.
+- **Befristungskontrollklage:** Paragraf 17 TzBfG — drei Wochen nach vereinbartem Ende; Versäumung führt zur Fiktion der Wirksamkeit (Paragraf 17 S. 2 iVm Paragraf 7 KSchG).
+- **Neueinstellung Älterer:** Paragraf 14 Abs. 3 TzBfG — sachgrundlose Befristung bis fünf Jahre, wenn der Arbeitnehmer bei Beginn des befristeten Arbeitsverhältnisses das 52. Lebensjahr vollendet hat **und** unmittelbar vor Beginn des Arbeitsverhältnisses **mindestens vier Monate** beschäftigungslos war (Paragraf 138 SGB III), Transferkurzarbeitergeld bezog oder an einer Maßnahme nach SGB II/III teilgenommen hat. Mehrfachverlaengerung innerhalb der Gesamtdauer von fünf Jahren zulaessig.
 - **Wissenschaftszeitvertragsgesetz (WissZeitVG):** Sondergesetz für Wissenschaft.
 
-## Sachgründe (§ 14 Abs. 1 S. 2 TzBfG)
+## Sachgründe (Paragraf 14 Abs. 1 S. 2 TzBfG)
 
 | Nr. | Sachgrund |
 |---|---|
@@ -48,17 +47,18 @@ language: de
 ## Prüfschema
 
 ```
-1. Schriftform § 14 Abs. 4 TzBfG
-   - Originale beider Parteien vor Beschäftigungsbeginn?
+1. Schriftform Paragraf 14 Abs. 4 TzBfG
+   - Papieroriginal mit eigenhändiger Unterschrift beider Parteien oder echte qES beider Parteien vor Beschäftigungsbeginn?
+   - Bei Plattformsignatur: qualifiziertes Zertifikat, Identifizierung, Zeitstempel, Dokumentbezug und Prüfprotokoll sichern; Standard-DocuSign/Adobe-Sign ohne qES-Stufe genügt nicht.
 2. Verlängerungen oder Neubefristung?
-   - Verlängerung iSd § 14 Abs. 2 S. 1 Hs. 2 TzBfG ist nur die nahtlose Anschluss-Befristung ohne inhaltliche Änderung.
+   - Verlängerung iSd Paragraf 14 Abs. 2 S. 1 Hs. 2 TzBfG ist nur die nahtlose Anschluss-Befristung ohne inhaltliche Änderung.
 3. Sachgrund oder sachgrundlos?
    - Bei sachgrundlos: Vorbeschäftigung prüfen (BAG-Linie post-BVerfG).
    - Bei Sachgrund: Stichhaltigkeit der konkreten Gründe.
 4. Höchstdauer
-   - § 14 Abs. 2 TzBfG zwei Jahre / drei Verlängerungen.
-   - Tarifvertragliche Abweichungen § 14 Abs. 2 S. 3, 4 TzBfG.
-5. Klagefrist § 17 TzBfG
+   - Paragraf 14 Abs. 2 TzBfG zwei Jahre / drei Verlängerungen.
+   - Tarifvertragliche Abweichungen Paragraf 14 Abs. 2 S. 3, 4 TzBfG.
+5. Klagefrist Paragraf 17 TzBfG
    - Drei Wochen ab vereinbartem Ende.
 6. Folge bei Unwirksamkeit
    - Arbeitsverhältnis als unbefristet abgeschlossen.
@@ -88,7 +88,7 @@ und beantragen,
 Sachverhalt: [Einstellung, Vertragsverlauf, Befristungen, Verlängerungen, ggf. Vorbeschäftigung]
 
 Rechtliche Bewertung:
-1. Klagefrist § 17 TzBfG ist gewahrt (vereinbartes Ende: [Datum]).
+1. Klagefrist Paragraf 17 TzBfG ist gewahrt (vereinbartes Ende: [Datum]).
 2. Befristung ist unwirksam, weil [Schriftformverstoß / Vorbeschäftigung / fehlender Sachgrund].
 3. Folge: Arbeitsverhältnis besteht unbefristet fort.
 
@@ -97,24 +97,30 @@ Rechtliche Bewertung:
 
 ## Übergabe
 
-- Klagefrist § 17 TzBfG **ab vereinbartem Ende** — anders als § 4 KSchG (ab Zugang).
+- Klagefrist Paragraf 17 TzBfG **ab vereinbartem Ende** — anders als Paragraf 4 KSchG (ab Zugang).
 - Bei einvernehmlicher Verlängerung Schriftform peinlich genau wahren (Originale, Unterschriften vor Beginn).
 - Zitierweise nach `zitierweise-deutsches-recht` v3.0.
 
 ## Aktuelle Rechtsprechung (Stand Mai 2026)
 
-- **BAG, Urteil vom 18.06.2025 - 7 AZR 50/24**: § 14 Abs. 2 TzBfG ist uneingeschraenkt auf Betriebsratsmitglieder anwendbar; eine teleologische Reduktion zur Begruenstigung von Betriebsratsmitgliedern findet nicht statt. Verweigert der Arbeitgeber dem befristet beschaeftigten Betriebsratsmitglied jedoch wegen des Mandats einen Folgevertrag, hat das Mitglied einen Schadensersatzanspruch gerichtet auf Abschluss des verweigerten Folgevertrags (§ 78 BetrVG i.V.m. § 280 BGB). Quelle: dejure.org / luther-lawfirm.com Newsroom; vor Schriftsatzverwendung Volltextpruefung empfohlen.
+- **BAG, Urteil vom 18.06.2025 - 7 AZR 50/24**: Paragraf 14 Abs. 2 TzBfG ist uneingeschraenkt auf Betriebsratsmitglieder anwendbar; eine teleologische Reduktion zur Begruenstigung von Betriebsratsmitgliedern findet nicht statt. Verweigert der Arbeitgeber dem befristet beschaeftigten Betriebsratsmitglied jedoch wegen des Mandats einen Folgevertrag, hat das Mitglied einen Schadensersatzanspruch gerichtet auf Abschluss des verweigerten Folgevertrags (Paragraf 78 BetrVG i.V.m. Paragraf 280 BGB). Quelle: dejure.org / luther-lawfirm.com Newsroom; vor Schriftsatzverwendung Volltextpruefung empfohlen.
+- **ArbG Berlin, Urteil vom 28.09.2021 - 36 Ca 15296/20**: Elektronische Signatur ohne qES genügt Paragraf 14 Abs. 4 TzBfG nicht; die Befristung ist unwirksam und Paragraf 16 TzBfG greift.
+- **LAG Berlin-Brandenburg, Urteil vom 16.03.2022 - 23 Sa 1133/21**: Eingescannte Unterschrift wahrt die Schriftform der Befristungsabrede nicht; spätere Originalunterzeichnung heilt nicht rückwirkend.
+- **ArbG Gera, Urteil vom 07.03.2024 - 2 Ca 936/23**: Echte qES per DocuSign-qES kann Paragraf 14 Abs. 4 TzBfG wahren; maßgeblich ist die qualifizierte Signatur, nicht der Plattformname.
 - Hinweis: Aeltere Leitentscheidungen zur sachgrundlosen Befristung (z.B. BVerfG, Beschl. vom 06.06.2018 - 1 BvL 7/14 u.a., zur Verfassungsmaessigkeit des Vorbeschaeftigungsverbots; BAG-Folgerechtsprechung) bleiben massgeblich; Aktenzeichen vor Zitat ueber dejure.org / openjur.de verifizieren.
 
 ## Paragrafenkette
 
-- § 14 Abs. 1 TzBfG — Sachgrundbefristung (Nr. 1-8)
-- § 14 Abs. 2 TzBfG — Sachgrundlose Befristung (max. zwei Jahre, drei Verlängerungen)
-- § 14 Abs. 2 S. 2 TzBfG — Vorbeschäftigungsverbot
-- § 14 Abs. 4 TzBfG i.V.m. § 126 BGB — Schriftformerfordernis
-- § 17 TzBfG — Befristungskontrollklage (Frist drei Wochen ab vereinbartem Ende)
-- § 16 TzBfG — Rechtsfolge Unwirksamkeit: Arbeitsverhältnis gilt als unbefristet geschlossen
+- Paragraf 14 Abs. 1 TzBfG — Sachgrundbefristung (Nr. 1-8)
+- Paragraf 14 Abs. 2 TzBfG — Sachgrundlose Befristung (max. zwei Jahre, drei Verlängerungen)
+- Paragraf 14 Abs. 2 S. 2 TzBfG — Vorbeschäftigungsverbot
+- Paragraf 14 Abs. 4 TzBfG i.V.m. Paragraf 126 BGB — Schriftformerfordernis
+- Paragraf 126a BGB — elektronische Form nur bei echter qualifizierter elektronischer Signatur beider Parteien
+- Paragraf 17 TzBfG — Befristungskontrollklage (Frist drei Wochen ab vereinbartem Ende)
+- Paragraf 16 TzBfG — Rechtsfolge Unwirksamkeit: Arbeitsverhältnis gilt als unbefristet geschlossen
 
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

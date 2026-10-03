@@ -1,23 +1,42 @@
 ---
 name: versorgungsordnung-und-betriebsvereinbarung-drafting
-title: Versorgungsordnung und Betriebsvereinbarung — Drafting (Düsseldorfer Schule)
-description: 'Versorgungsordnung und Betriebsvereinbarung zur bAV-Einführung entwerfen. Normen: §§ 1 17 BetrAVG, §§ 77 87 BetrVG. Prüfraster: Leistungszusagen, Unverfallbarkeit, Mitbestimmung, Finanzierungsklauseln. Output: Versorgungsordnungs-Entwurf und BV-Muster. Abgrenzung: nicht Geschäftsführervertrag.'
+title: Versorgungsordnung und Betriebsvereinbarung zur bAV-Einführung entwerfen
+description: 'Für Versorgungsordnung und Betriebsvereinbarung zur bAV-Einführung entwerfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/versorgungsordnung-und-betriebsvereinbarung-drafting
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employee-benefits
 language: de
 ---
 
-# Versorgungsordnung und Betriebsvereinbarung — Drafting (Düsseldorfer Schule)
+# Versorgungsordnung und Betriebsvereinbarung zur bAV-Einführung entwerfen
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 
----
+## 1. Vertragliche Rentendynamik
+
+BAG, Urteil vom 12.05.2026 – 3 AZR 159/25, [Rn. 13–17](https://www.bundesarbeitsgericht.de/entscheidung/3-azr-159-25/): Bei der dortigen Betriebsvereinbarung erfasste die jährliche Anpassung am 1. Juli nur Tariferhöhungen bis zum Vortag. Eine zum 1. Juli 2023 wirksame Tariferhöhung floss deshalb erst zum 1. Juli 2024 ein. Fordere Klauselwortlaut, Referenzzeitraum und Wirksamkeitsdatum an und ordne die Erhöhung dem richtigen Anpassungstermin zu. Keine allgemeine einjährige Verzögerung aller Betriebsrenten und keine Entscheidung über die gesetzliche Anpassungsprüfung nach Paragraf 16 BetrAVG.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Versorgungsordnung und Betriebsvereinbarung zur bAV-Einführung entwerfen. Normen: §§ 1 17 BetrAVG, §§ 77 87 BetrVG. Prüfraster: Leistungszusagen, Unverfallbarkeit, Mitbestimmung, Finanzierungsklauseln. Output: Versorgungsordnungs-Entwurf und BV-Muster. Abgrenzung: nicht Geschäftsführervertrag.
+
+### Versorgungsordnung und Betriebsvereinbarung — Drafting (Düsseldorfer Schule)
+
+## Fachkern: Versorgungsordnung und Betriebsvereinbarung — Drafting (Düsseldorfer Schule)
+
+- **bAV-Problem:** §§ 1 17 BetrAVG, §§ 77 87 BetrVG. Prüfraster: Leistungszusagen, Unverfallbarkeit, Mitbestimmung, Finanzierungsklauseln. Output: Versorgungsordnungs-Entwurf und BV-Muster. Abgrenzung: nicht Geschäftsführervertrag.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -28,21 +47,17 @@ Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 - § 17 BetrAVG (persönlicher Geltungsbereich — auch leitende Angestellte)
 - §§ 77, 87 BetrVG (Betriebsvereinbarung als Regelungsform; Mitbestimmung § 87 Abs. 1 Nr. 8 und 10 BetrVG)
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - AGG §§ 1–26 (Diskriminierungsverbote — Geschlecht/Alter in Versorgungsregelungen)
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Vorgehen
 
 ### Schritt 1: Strukturentscheidungen vor dem Drafting
 
-Vor Aufnahme des Drafting-Prozesses klärt Dr. von Sompeh-Ostermann mit dem Mandanten:
+Vor Aufnahme des Drafting-Prozesses klärt fachliche Leitung mit dem Mandanten:
 
 1. **Zusageart** gem. § 1 Abs. 2 BetrAVG: Leistungszusage / beitragsorientierte Leistungszusage / Beitragszusage mit Mindestleistung / reine DC-Zusage
 2. **Durchführungsweg** (→ Skill `pensionsmodelle-fuenf-durchfuehrungswege`)
@@ -78,15 +93,15 @@ Direktzusage gewährt. Für Mitglieder des Betriebsrats gilt diese Versorgungsor
 unter Beachtung des § 78 BetrVG.
 
 § 1 Geltungsbereich
-(1) Diese Versorgungsordnung gilt für alle Arbeitnehmerinnen und Arbeitnehmer des
+(1) Diese Versorgungsordnung gilt für alle Arbeitnehmer des
 Unternehmens, die nach dem [Einführungsdatum] eingestellt werden und das 18.
 Lebensjahr vollendet haben, sofern das Arbeitsverhältnis auf unbestimmte Zeit
 geschlossen ist (nachfolgend "Berechtigte").
 (2) Ausgenommen sind:
-    a) Mitglieder des Vorstands und der Geschäftsführung,
-    b) Mitarbeiterinnen und Mitarbeiter, die einer anderen Versorgungsregelung
-       des Unternehmens unterfallen,
-    c) Auszubildende und Praktikanten.
+ a) Mitglieder des Vorstands und der Geschäftsführung,
+ b) Mitarbeiter, die einer anderen Versorgungsregelung
+ des Unternehmens unterfallen,
+ c) Auszubildende und Praktikanten.
 (3) Leitende Angestellte i.S.d. § 5 Abs. 3 BetrVG unterliegen dieser
 Versorgungsordnung, soweit nicht eine individuelle Versorgungsvereinbarung
 getroffen wurde (§ 17 Abs. 1 S. 2 BetrAVG).
@@ -102,9 +117,9 @@ Das Unternehmen verpflichtet sich zur Gewährung folgender Leistungen:
 (1) Altersrente wird gewährt, wenn das Arbeitsverhältnis nach Vollendung des
 67. Lebensjahres (Regelaltersgrenze) endet.
 (2) Der jährliche Rentenbetrag berechnet sich nach folgender Formel:
-    Altersrente = Anspruchsbetrag × (Jahre der Betriebszugehörigkeit / 
-    Höchstanrechnungsjahre [35])
-    Anspruchsbetrag: [X] % des rentenfähigen Einkommens × 12.
+ Altersrente = Anspruchsbetrag × (Jahre der Betriebszugehörigkeit /
+ Höchstanrechnungsjahre [35])
+ Anspruchsbetrag: [X] % des rentenfähigen Einkommens × 12.
 (3) Das rentenfähige Einkommen ist das vertraglich vereinbarte Grundgehalt
 im Jahresdurchschnitt des letzten vollen Kalenderjahres vor Rentenbeginn,
 höchstens jedoch EUR [Kappungsgrenze] p.a.
@@ -134,12 +149,11 @@ gesetzlichen Unverfallbarkeit (§ 1b BetrAVG), erhält der überlebende Ehegatte
 eingetragene Lebenspartner 60 % der unverfallbaren Anwartschaft des Berechtigten.
 (3) Voraussetzung für die Hinterbliebenenrente ist, dass die Ehe / Lebenspartnerschaft
 vor Eintritt des Versorgungsfalles geschlossen wurde.
-    ANMERKUNG TREUENFELS YAMAMOTO: Eine Altersgrenze für die Eheschließung ist nach
-    Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-    reine "Spätehenklausel" (z.B. Heirat nach 60. Lebensjahr ausgeschlossen) ohne
-    weitere sachliche Begründung ist unzulässig und AGG-widrig. Zulässig ist hingegen
-    eine Klausel, die den Zeitpunkt der Eheschließung im Verhältnis zu bereits
-    erdienten Anwartschaften berücksichtigt (zeitproportionale Berechnung).
+ ANMERKUNG TREUENFELS YAMAMOTO: Eine Altersgrenze für die Eheschließung ist nach
+ reine "Spätehenklausel" (z.B. Heirat nach 60. Lebensjahr ausgeschlossen) ohne
+ weitere sachliche Begründung ist unzulässig und AGG-widrig. Zulässig ist hingegen
+ eine Klausel, die den Zeitpunkt der Eheschließung im Verhältnis zu bereits
+ erdienten Anwartschaften berücksichtigt (zeitproportionale Berechnung).
 (4) Die Hinterbliebenenrente erlischt bei Wiederheirat des überlebenden Ehegatten.
 (5) Abfindungsangebot: Das Unternehmen kann mit Einverständnis des Berechtigten
 vor Eintritt des Versorgungsfalles eine Abfindung der Hinterbliebenenversorgung
@@ -182,7 +196,6 @@ Lage des Unternehmens überfordert (Schema im Skill `anpassungspruefung-paragrap
 § 10 Widerrufsvorbehalte
 (1) Das Unternehmen behält sich vor, die Versorgungsordnung mit Wirkung für die
 Zukunft zu ändern oder aufzuheben, soweit triftige Gründe i.S. der Drei-Stufen-Theorie
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Anwartschaften durch sachliche und verhältnismäßige Gründe gerechtfertigt ist.
 (2) Eingriffe in bereits erdiente Anwartschaften und in bereits laufende Renten
 (Stufe 1 der Drei-Stufen-Theorie) sind unzulässig.
@@ -191,15 +204,14 @@ Drei-Stufen-Theorie (→ Skill `drei-stufen-theorie-eingriffsanalyse`).
 
 § 11 Anrechnung anderer Versorgungsleistungen
 (1) Auf die Versorgungsleistungen dieser Versorgungsordnung werden angerechnet:
-    a) Leistungen aus anderen betrieblichen Versorgungswerken des Unternehmens oder
-       verbundener Unternehmen i.S.d. §§ 15 ff. AktG, sofern diese für denselben
-       Versorgungsfall bestimmt sind;
-    b) Leistungen der gesetzlichen Rentenversicherung bis zu [X] % der
-       Regelaltersrente (Gesamtversorgungskonzept — nur bei ausdrücklicher
-       Gestaltung als Gesamtversorgungszusage).
-    ANMERKUNG: Gesamtversorgungszusagen mit Vollanrechnung der gesetzlichen Rente
-    sind nach BAG-Rechtsprechung zulässig, aber bei Rentenreformen besonders
-    Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ a) Leistungen aus anderen betrieblichen Versorgungswerken des Unternehmens oder
+ verbundener Unternehmen i.S.d. §§ 15 ff. AktG, sofern diese für denselben
+ Versorgungsfall bestimmt sind;
+ b) Leistungen der gesetzlichen Rentenversicherung bis zu [X] % der
+ Regelaltersrente (Gesamtversorgungskonzept — nur bei ausdrücklicher
+ Gestaltung als Gesamtversorgungszusage).
+ ANMERKUNG: Gesamtversorgungszusagen mit Vollanrechnung der gesetzlichen Rente
+ sind nach BAG-Rechtsprechung zulässig, aber bei Rentenreformen besonders
 
 § 12 Übertragung und Portabilität
 (1) Bei Beendigung des Arbeitsverhältnisses und Aufnahme einer neuen Beschäftigung
@@ -266,13 +278,13 @@ des Unternehmens erforderlich ist.
 Quartalsende schriftlich gekündigt werden. Nach Kündigung wirkt diese
 Betriebsvereinbarung gem. § 77 Abs. 6 BetrVG nach, bis eine neue Regelung
 getroffen ist.
-    ANMERKUNG: Die Nachwirkung nach § 77 Abs. 6 BetrVG gilt nur bei
-    erzwingbaren Mitbestimmungsangelegenheiten (§ 87 BetrVG).
+ ANMERKUNG: Die Nachwirkung nach § 77 Abs. 6 BetrVG gilt nur bei
+ erzwingbaren Mitbestimmungsangelegenheiten (§ 87 BetrVG).
 
 Düsseldorf, den [Datum]
 
-[Geschäftsführung]                    [Betriebsratsvorsitzende/r]
-[Konzern Muster AG]                   Betriebsrat der [Konzern Muster AG]
+[Geschäftsführung] [Betriebsratsvorsitzende/r]
+[Konzern Muster AG] Betriebsrat der [Konzern Muster AG]
 ```
 
 ### Template 3: Anpassungsklausel § 16 Abs. 3 Nr. 1 BetrAVG (Inflationsindexierung)
@@ -310,7 +322,3 @@ Unternehmens vorbehalten.
 - → `governance-und-anpassungsmechanismen` — Pension Committee, Trustee
 - → `drei-stufen-theorie-eingriffsanalyse` — bei Änderungen der VO
 - → `mitbestimmung-betriebsrat-einigungsstelle-bav` — Mitbestimmungsrechte bei BV-Änderungen
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->

@@ -1,26 +1,29 @@
 ---
 name: leitende-positionen-zeugnisse
 title: Arbeitszeugnisse für leitende Positionen
-description: Analyse von Arbeitszeugnissen für Führungskräfte und leitende Angestellte. Besondere Formulierungen zu Mitarbeiterführung, Personalentwicklung, strategischer Verantwortung und Repräsentation. Fehlende Führungsbausteine als Ampelsignale.
+description: 'Für Arbeitszeugnisse für leitende Positionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/leitende-positionen-zeugnisse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Arbeitszeugnisse für leitende Positionen
 
-Zeugnisse für Führungskräfte und leitende Angestellte unterliegen erhöhten inhaltlichen Erwartungen. Zu den allgemeinen Bausteinen (Leistung, Verhalten, Schlussformel) treten positionsspezifische Erwartungsbausteine: Mitarbeiterführung und -entwicklung, strategische Verantwortung, wirtschaftliche Verantwortung (Budget, P&L), Repräsentation nach außen und Unternehmensloyalität auf Führungsebene. Das Fehlen eines solchen Bausteins ist vor allem dann ein starkes rotes Signal, wenn die Führungsverantwortung unstreitig war und im Aufgabenblock selbst genannt wird.
+## Fachlicher Anker
 
-Die Mitarbeiterführungsaussage ist das wichtigste Merkmal des Führungskräfte-Zeugnisses. Formeln wie "führte ihre Mitarbeiter stets motivierend und mit großem Erfolg" (Grün) bis zu "pflegte einen kooperativen Führungsstil" (Orange) bis zum Fehlen jeglicher Führungsaussage (Rot) decken die Bandbreite ab. Besonders abwertend ist das Fehlen einer Aussage zur Führungsleistung kombiniert mit einer allgemeinen Kollegen-Verhaltensaussage — es suggeriert, dass die Führungsaufgabe gar nicht ausgeübt wurde.
-
-Strategische Verantwortung wird durch Formulierungen wie "war maßgeblich an der strategischen Ausrichtung beteiligt", "verantwortete die langfristige Planung des Bereichs" oder "trug wesentlich zur Unternehmensstrategie bei" ausgedrückt. Fehlt eine solche Aussage bei einem leitenden Angestellten, kann das darauf hinweisen, dass strategische Verantwortung tatsächlich nicht übernommen wurde — oder dass der Aussteller dies bewusst verschweigt.
-
-Für Mitglieder der Geschäftsführung oder des Vorstands sind zusätzliche Bausteine relevant: Aufsichtsratskontakte, Eigentümerbeziehungen, Investorenrepräsentation und Unternehmenskultur-Prägung. Das Zeugnis eines Geschäftsführers ohne Aussage zu seiner Wirkung auf das Unternehmen als Ganzes ist unvollständig.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -45,15 +48,20 @@ Für Mitglieder der Geschäftsführung oder des Vorstands sind zusätzliche Baus
 
 **Beispiel 5 – Vollständiges GF-Zeugnis (Grün):** Alle Bausteine vorhanden: Führung, Strategie, Budget, Repräsentation, Loyalität, vollständige Schlussformel mit persönlichem Bedauern → Note 1 bis 2.
 
-## Ausgabeformat
-
-Der Skill prüft zunächst, ob es sich um ein Führungskräfte-Zeugnis handelt (anhand der beschriebenen Position). Dann gibt er die Führungskräfte-Checkliste aus (Baustein / vorhanden / Ampel) und integriert die Ergebnisse in die allgemeine Ampeltabelle. Fehlende Führungsbausteine erhalten besonderes Gewicht in der Gesamtnotenberechnung.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis; Grundlage aller Bewertungen
-- **§§ 195, 199 BGB** — Verjährung drei Jahre ab Jahresende
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis; Grundlage aller Bewertungen
+- **Paragrafen 195, 199 BGB** — Verjährung drei Jahre ab Jahresende
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Notenstufen + Empfaengerhorizont)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

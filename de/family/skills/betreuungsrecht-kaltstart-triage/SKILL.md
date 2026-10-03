@@ -1,0 +1,235 @@
+---
+name: betreuungsrecht-kaltstart-triage
+title: Betreuungsakte und vorrangigen Handlungsbedarf einordnen
+description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Betreuungsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/kaltstart-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: family
+language: de
+sources:
+- title: Fachmodule
+  path: references/fachmodule.md
+---
+
+# Betreuungsakte und vorrangigen Handlungsbedarf einordnen
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Schnellstart-Workflow
+
+Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Betreuungsrecht**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+
+**Plugin-Fokus:** Betreuungsrechtliche Skills für ehrenamtliche Familienbetreuer und professionelle Betreuung: erster Monat, Scan-Akte, Kalender/Reminder, Gerichtskommunikation, Wunschermittlung, Jahresbericht, Vermögensverzeichnis, Genehmigungspflichten, Kontoanalyse, Verdachtsverträge und Schutzplan nach BtOG und BGB.
+
+### Ehrenamtlicher Familienbetreuer-Modus
+
+Wenn der Nutzer als Angehöriger, Familienbetreuer oder erstmaliger ehrenamtlicher Betreuer schreibt, führe besonders niedrigschwellig:
+
+1. **Beruhigen und ordnen:** Erst klären, ob überhaupt schon ein Beschluss vorliegt und welche Aufgabenkreise genau gelten.
+2. **Nicht überfordern:** keine juristische Gesamtabhandlung, sondern drei Ebenen: `heute`, `diese Woche`, `laufend beobachten`.
+3. **Schutz der betreuten Person:** Wunschermittlung nach § 1821 BGB, mildestes Mittel, keine automatische Bevormundung.
+4. **Gerichtstaugliche Ordnung:** Scans, Belege, Aktenzeichen, Fristen, Jahresbericht, Vermögensverzeichnis.
+5. **Hilfe aktivieren:** Betreuungsgericht, Betreuungsbehörde, Betreuungsverein, Verhinderungsbetreuung und anwaltliche Hilfe an den richtigen Stellen.
+6. **Überforderung ernst nehmen:** Bei Immobilien, Erbe, hohem Vermögen, Familienkonflikt, freiheitsentziehenden Maßnahmen, Zwangsbehandlung oder verworrener Vermögenslage früh eskalieren.
+
+### 0. Stummer Upload — Material ohne Begleittext
+
+Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+
+**Pflicht-Reihenfolge bei stummem Upload:**
+
+1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
+2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
+3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
+4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
+5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
+6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
+
+**Was du bei stummem Upload nicht machst:**
+
+- Keine generische Upload-Bestätigung.
+- Keine vollständige Intake-Liste aus Abschnitt 1.
+- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
+- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
+
+**Antwortformat bei stummem Upload:**
+
+- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
+- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
+- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
+- **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
+- **Alternativen:** `...`, `...`
+- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
+
+### 1. Intake in 60 Sekunden
+
+Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
+
+| Punkt | Frage | Warum wichtig? |
+|---|---|---|
+| Rolle | Wer fragt: betreute Person, Angehöriger/Familienbetreuer, ehrenamtlicher Betreuer, Berufs-/Vereinsbetreuer, Betreuungsbehörde, Anwalt? | Perspektive, Ton und Hilfen bestimmen. |
+| Aufgabenkreise | Welche Aufgabenkreise stehen im Beschluss: Vermögenssorge, Gesundheitssorge, Wohnen, Behörden, Post, Aufenthalt? | Nur innerhalb des Aufgabenkreises handeln. |
+| Wunsch | Was will die betreute Person selbst, heute oder früher erkennbar? | § 1821 BGB ist der Kern der Betreuung. |
+| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
+| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
+| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
+| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
+| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
+| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
+
+### 2. Sofort-Triage
+
+Arbeite danach in dieser Reihenfolge:
+
+1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
+2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
+3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
+6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
+
+### 3. Routing-Regeln
+
+- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
+- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
+- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
+- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
+- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
+- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
+
+### 4. Antwortformat für den Einstieg
+
+Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
+
+**Kurzbild**
+- Ziel: [...]
+- Rolle/Perspektive: [...]
+- Eilt wegen: [...]
+- Fehlende Unterlagen: [...]
+
+**Vorgeschlagener Workflow**
+1. [...]
+2. [...]
+3. [...]
+
+**Passende Skills aus diesem Plugin**
+| Skill | Warum jetzt? | Erwarteter Output |
+|---|---|---|
+| `...` | [...] | [...] |
+
+**Nächste Frage**
+[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
+
+### 5. Fachmodule gezielt und sparsam laden
+
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
+
+## Worum geht es?
+
+Das Betreuungsrecht regelt die rechtliche Fürsorge für Erwachsene, die ihre Angelegenheiten ganz oder teilweise nicht selbst besorgen können. Seit der Reform zum 01.01.2023 gilt das Betreuungsorganisationsgesetz (BtOG) neben den materiellen Normen der §§ 1814 ff. BGB. Das Reformgesetz staerkt das Selbstbestimmungsrecht der betreuten Person, praezisiert die Pflichten des Betreuers und regelt erstmals umfassend die Registrierung und Vergütung beruflicher Betreuer.
+
+Dieses Plugin unterstützt ehrenamtliche Familienbetreuer, berufliche Betreuer, Vereins- und Behördenbetreuer sowie deren Rechtsbeistände bei der täglich anfallenden Schutz-, Organisations-, Dokumentations-, Berichts- und Genehmigungsarbeit gegenüber betreuter Person, Betreuungsgericht, Behörden, Banken, Heimen, Ärzten und Pflegekassen.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie sind als Angehöriger oder ehrenamtlicher Betreuer neu bestellt und wollen nichts falsch machen.
+- Sie müssen Post scannen, Bescheide verstehen, Fristen notieren und mit Gericht, Bank, Heim oder Pflegekasse kommunizieren.
+- Sie sind neu im Betreuungsrecht und möchten einen strukturierten Einstieg in Zuständigkeiten, Aufgabenkreise und Pflichten.
+- Sie sind bereits Betreuer und wollen prüfen, welches Rechtsgeschaeft genehmigungspflichtig ist.
+- Sie müssen den Jahresbericht nach § 1863 BGB für das Betreuungsgericht erstellen.
+- Sie haben Zweifel, ob Kontobewegungen oder Verträge der betreuten Person auf Missbrauch hindeuten.
+- Sie moechten wissen, ob Sie als Berufsbetreuer testamentarisch bedacht werden dürfen.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Betreuer** — vom Betreuungsgericht bestellte Person (§ 1814 BGB), die die betreute Person in bestimmten Aufgabenkreisen rechtlich vertritt.
+- **Aufgabenkreis** — der konkret durch das Gericht festgelegte Wirkungsbereich des Betreuers (z.B. Vermögenssorge, Gesundheitssorge, Aufenthaltsbestimmung).
+- **Berufsbetreuer** — registrierter Betreuer nach §§ 23 ff. BtOG, der Betreuungen entgeltlich fuehrt und bestimmte Sachkundeanforderungen erfuellt.
+- **Genehmigungsvorbehalt** — Rechtsgeschaefte, die der Betreuer nur mit vorheriger Zustimmung des Betreuungsgerichts vornehmen darf (§§ 1848 ff. BGB).
+- **Vermögensverzeichnis** — Aufstellung aller Vermögensgegenstaende und Verbindlichkeiten der betreuten Person bei Amtsuebernahme (§ 1835 BGB).
+- **Jahresbericht** — jährliche Berichtspflicht des Betreuers gegenüber dem Betreuungsgericht (§ 1863 Abs. 3 BGB).
+- **Betreuungsverein** — anerkannte Stelle, die ehrenamtliche Betreuer einführt, fortbildet, berät und unterstützen kann (§ 15 BtOG).
+- **VBVG** — Vergütung beruflicher Betreuer nach dem Vormünder- und Betreuervergütungsgesetz.
+
+## Rechtsgrundlagen
+
+- § 1814 BGB — Voraussetzungen der Betreuung
+- §§ 1816 ff. BGB — Auswahl und Eignung des Betreuers
+- § 1821 BGB — Pflichten des Betreuers und Wünsche der betreuten Person
+- §§ 1835 ff. BGB — Vermögensverzeichnis und Rechnungslegung
+- § 1863 BGB — Anfangsbericht, Jahresbericht und Schlussbericht
+- §§ 15, 21, 22 BtOG — Unterstützung, Eignung und Anbindung ehrenamtlicher Betreuer
+- §§ 1848 ff. BGB — Genehmigungspflichtige Rechtsgeschaefte
+- § 30 BtOG — Verbot des Erwerbs von Vermögensvorteilen
+- §§ 23 ff. BtOG — Registrierung als Berufsbetreuer
+- VBVG — Vergütung beruflicher Betreuer
+
+## Schritt-für-Schritt: Einstieg ins Plugin
+
+1. Rolle klären: betreute Person, Angehöriger, ehrenamtlicher Betreuer, Berufsbetreuer, Verein/Behörde oder anwaltliche Begleitung?
+2. Phase des Mandats bestimmen: Ersteinrichtung (Registrierung, Vermögensverzeichnis), laufende Betreuung (Jahresbericht, Genehmigungen) oder Krisenfall (Missbrauchsverdacht, Erbschaftsfragen)?
+3. Passenden Skill auswaehlen (siehe Skill-Tour unten).
+4. Eilfristen prüfen: Genehmigungsantraege nach §§ 1848 ff. BGB sind vor der Maßnahme einzuholen; Jahresbericht hat gerichtliche Einreichungsfristen.
+5. Anschluss-Skill bestimmen: Nach Jahresbericht ggf. Vermögensverzechnis-Prüfung; nach Missbrauchsverdacht ggf. Genehmigungspflicht-Prüfung.
+
+## Skill-Tour (was gibt es hier?)
+
+- `ehrenamtlicher-betreuer-erster-monat` — erste 30 Tage nach Bestellung: Beschluss, Hilfe-System, Akte, Fristen, Gericht.
+- `familienbetreuer-alltagscockpit` — Wochensteuerung für Post, Pflege, Bank, Arzt, Heim, Behörden und Gericht.
+- `dokumentenscan-aktenablage-und-belegmappe` — macht aus Scans und Fotos eine gerichtstaugliche Belegmappe.
+- `kalender-reminder-und-fristenmanagement` — baut aus Bescheiden, Gerichtspost und Routinepflichten einen Reminderplan.
+- `betreuungsgericht-kommunikation-für-angehoerige` — formuliert knappe Rückfragen, Sachstandsmitteilungen und Genehmigungsanfragen.
+- `wunschermittlung-unterstuetzte-entscheidung` — dokumentiert Wünsche, Präferenzen und unterstützte Entscheidungen nach § 1821 BGB.
+- `betreuungsrecht-kaltstart-interview` — Ersteinrichtung des Plugins: Praxisprofil mit Betreuerrolle, Gericht und Aufgabenkreisen anlegen.
+- `betreuer-registrierung` — Erklaert Registrierungsweg, Sachkundeanforderungen und Berufshaftpflicht für Berufsbetreuer nach BtOG.
+- `genehmigungspflicht-pruefung` — Prüft, ob ein konkretes Rechtsgeschaeft der Genehmigung des Betreuungsgerichts bedarf (§§ 1848 ff. BGB).
+- `jahresbericht-betreuungsgericht` — Erstellt den vollständigen Jahresbericht nach § 1863 BGB für das Betreuungsgericht.
+- `vermoegensverzeichnis-pruefung` — Erstellt und prüft das Vermögensverzeichnis nach § 1835 BGB bei Amtsuebernahme oder Kontrollpruefung.
+- `kontodaten-vertragsverdacht-pruefung` — Forensische Prüfung von Kontobewegungen und Vertraegen auf Missbrauch zum Nachteil der betreuten Person.
+- `betreuer-als-erbe` — Beraet zur Zulaessigkeit testamentarischer Zuwendungen an Berufsbetreuer nach § 30 BtOG.
+
+## Worauf besonders achten
+
+- **Genehmigung vor der Maßnahme**: Genehmigungspflichtige Rechtsgeschaefte (§§ 1848 ff. BGB) darf der Betreuer erst nach Erteilung der Genehmigung vornehmen; ein nachtraegliches Genehmigungsverfahren ist nur in engen Ausnahmefaellen möglich.
+- **Subsidiaritaet**: Ein Berufsbetreuer darf nur bestellt werden, wenn geeignete ehrenamtliche oder Angehoerigenbetreuer nicht zur Verfuegung stehen (§ 1816 Abs. 5 BGB).
+- **Unterstützung vor Vertretung**: Erst die betreute Person zur eigenen Entscheidung befähigen; Vertretungsmacht nur nutzen, soweit erforderlich (§ 1821 Abs. 1 BGB).
+- **Trennung von Betreuervermoegen und eigenem Vermögen**: Einnahmen und Ausgaben der betreuten Person sind lückenlos zu dokumentieren; Vermischung mit eigenem Vermögen ist ein Haftungsrisiko (§ 1836 BGB).
+- **§ 30 BtOG-Verbot**: Berufsbetreuer dürfen sich von der betreuten Person keine Vermögensvorteile versprechen oder gewähren lassen; Verstoss ist berufsrechtlich relevant.
+
+## Typische Fehler
+
+- Jahresbericht, Vermögensverzeichnis und Rechnungslegung werden zusammengeworfen: § 1863 BGB, § 1835 BGB und Vermögens-/Rechnungslegungspflichten sind sauber zu trennen.
+- Genehmigungen werden nach der Maßnahme beantragt: Insbesondere bei Grundstuecksveraeusserungen und Heimvertraegen laeuft der Betreuer in eine Unwirksamkeitsfalle.
+- Vermögensverzeichnis wird bei Amtsantritt vergessen oder unvollstaendig aufgestellt: Das Gericht kann später keine Veraenderungen mehr nachvollziehen.
+- Berufsrechtliche Konsequenzen von § 30 BtOG werden unterschaetzt: Ein Testament zugunsten des Betreuers ist zivilrechtlich nicht automatisch nichtig (OLG Nuernberg 19.07.2023), kann aber berufsrechtliche Folgen nach § 27 BtOG ausloesen.
+- Subsidiaritaetsprinzip wird nicht geprueft: Wenn ein geeigneter Angehoeriger vorhanden ist, darf kein Berufsbetreuer bestellt werden.
+
+## Quellen und Aktualitaet
+
+- Stand: 06/2026
+- BGB §§ 1814 ff. in der Fassung ab 01.01.2023 (BtOG-Reform)
+- BtOG in der Fassung ab 01.01.2023
+- VBVG in der aktuellen Fassung
+- Aktuelle BGH-Rechtsprechung XII. Zivilsenat (verifiziert):
+ - BGH 24.09.2025 - XII ZB 513/24 (Verhinderungsbetreuer; Vorrang Angehörigen-Wunsch; Amtsermittlung § 26 FamFG)
+ - BGH 12.02.2025 - XII ZB 433/24 (Bestimmtheitsanforderungen an Beschluss zur medikamentösen Zwangsbehandlung; § 323 Abs. 1 Nr. 1 FamFG)
+- Weitere Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle (bundesgerichtshof.de, dejure.org, openjur.de) mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

@@ -1,11 +1,11 @@
 ---
 name: berufungsfest-pruefen
 title: Berufungsfestigkeit prüfen
-description: 'Fertiges Urteil gegen häufigste Aufhebungsgründe selbst prüfen: Richter will vor Urteilsversand Aufhebungsrisiken minimieren. Normen: § 529 ZPO (Tatsachenfeststellung Berufung), § 546 ZPO (Rechtsverletzung), § 547 Nr. 6 ZPO (Begründungsmangel). Prüfraster: Tatsachenfeststellung vollständig, kein Verfahrensmangel, keine uebergangenen Angriffs-/Verteidigungsmittel, Begründungstiefe ausreichend. Output Berufungsfest-Checkliste mit Ampelstatus. Abgrenzung: Revisionsfestigkeitsprüfung siehe revisionsfest-prüfen; Tenorierung siehe tenor-bauen-zivil.'
+description: 'Für Berufungsfestigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/berufungsfest-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -21,8 +21,6 @@ language: de
 3. Sind alle Anträge beschieden (§ 308 ZPO — ne ultra petita)?
 4. Ist der Tenor vollstreckungsfähig und bestimmt genug?
 5. Besteht eine Berufungszulassungsfrage (§ 511 Abs. 4 ZPO — Streitwert unter 600 EUR)?
-
-## Aktuelle Rechtsprechung zu Berufungsgründen
 
 ## Zentrale Normen
 
@@ -57,7 +55,3 @@ language: de
 - [ ] Rechtsmittelbelehrung beigefügt (§ 232 ZPO)?
 - [ ] Unterschrift der erkennenden Richter (§ 315 Abs. 1 ZPO)?
 - [ ] Hinweispflicht § 139 ZPO dokumentiert?
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

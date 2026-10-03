@@ -1,11 +1,11 @@
 ---
 name: folgenabschaetzung-erfuellungsaufwand
 title: Folgenabschätzung - Erfüllungsaufwand
-description: Erfuellungsaufwand für Buerger Wirtschaft und Verwaltung ermitteln und darstellen. Anwendungsfall Referentenentwurf soll NKR-konformes Vorblatt und Begründung erhalten oder NKR verlangt Nachbesserung. Methodik Leitfaden BMJ BMI Statistisches Bundesamt Fallzahlen Bearbeitungszeit Lohnsatz. Pro Vorschrift pro Adressat Bagatell-Schwelle KMU-Aspekt mittelstandsrelevant. One-in-one-out-Regel der Bundesregierung. Output Erfuellungsaufwand-Tabelle Vorblatt Begründung Empfehlung NKR-Vorlage. Abgrenzung zu folgenabschaetzung-nachhaltigkeit SDG-Folgen.
+description: 'Für Folgenabschätzung - Erfüllungsaufwand: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/folgenabschaetzung-erfuellungsaufwand
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,7 +14,19 @@ language: de
 
 # Folgenabschätzung - Erfüllungsaufwand
 
-> Was kostet die neue Norm den Bürger, die Wirtschaft, die Verwaltung?
+## Normenanker
+
+Arbeitsfokus: **Folgenabschätzung - Erfüllungsaufwand**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 44 Abs. 1 GGO` — Darstellung der Gesetzesfolgen.
+- `§ 44 Abs. 4 GGO` — Erfüllungsaufwand.
+- `§ 45 GGO` — Beteiligung betroffener Kreise.
+- `§ 46 GGO` — Rechtsförmlichkeit.
+- `Art. 20 Abs. 3 GG` — Rechtsbindung.
+- `Art. 80 Abs. 1 GG` — Bestimmtheit bei Verordnungsermächtigungen.
+- `§ 7 Abs. 1 BHO` — Wirtschaftlichkeit bei Vollzugskosten.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 
 ## Methodik
 
@@ -55,21 +67,26 @@ Wenn KMU betroffen: Prüfung Verhältnismaessigkeit. Ggf. Schwellenwerte einfüh
 
 ## Aktuelle Rechtsprechung & Leitsätze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
-§§ 44a, 62 GGO (Erfuellungsaufwand-Berechnung, Folgenabschaetzung) — §§ 1-4 SKMBericht (Statistisches Bundesamt, Standardkosten-Modell) — Art. 5 Abs. 4 EUV (EU-Verhaeltnismaessigkeit) — § 39a VwVfG (Vorwegbegruendung bei Massenverfahren)
+§§ 44a, 62 GGO (Erfuellungsaufwand-Berechnung, Folgenabschaetzung) — §§ 1-4 SKMBericht (Statistisches Bundesamt, Standardkosten-Modell) — Art. 5 Abs. 4 EUV (EU-Verhältnismäßigkeit) — § 39a VwVfG (Vorwegbegruendung bei Massenverfahren)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 Tabelle plus Beschreibung in Vorblatt-Abschnitt E und in Begründung-Abschnitt A.VI.4.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anschluss
 
 `folgenabschaetzung-nachhaltigkeit`, `normenkontrollrat-kmu-check`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

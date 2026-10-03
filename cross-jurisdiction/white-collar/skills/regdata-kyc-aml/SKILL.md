@@ -5,15 +5,15 @@ description: 'KYC/AML and KYB (Know Your Business) entity verification across of
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-kyc-aml
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
 language: en
 sources:
-- title: Entity Verification Workflow
+- title: Entity verification workflow
   path: references/entity-verification-workflow.md
-- title: Kyc Checklist
+- title: Kyc checklist
   path: references/kyc-checklist.md
 ---
 

@@ -1,11 +1,11 @@
 ---
 name: verfassungsrecht-grundrechtspruefung
 title: Verfassungsrecht — Grundrechts-Prüfung
-description: 'Student prüft Grundrechte in der Hausarbeit: Schutzbereich Eingriff verfassungsrechtliche Rechtfertigung Verhältnismäßigkeit. Art. 1-19 GG Drittwirkung mittelbar Schranken-Schranken. Normen GG Art. 1 2 3 4 5 8 12 14. Prüfraster Drei-Schritt-Schema pro Grundrecht Verhältnismäßigkeitsprüfung Schluss-Saetze. Output Grundrechts-Prüfungsschema Argumentation. Abgrenzung zu öffentliches-recht-statthaft (Klage-Schema) und methodenlehre-auslegung (Methoden).'
+description: 'Für Verfassungsrecht — Grundrechts-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/verfassungsrecht-grundrechtspruefung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: constitutional
@@ -14,28 +14,32 @@ language: de
 
 # Verfassungsrecht — Grundrechts-Prüfung
 
-## Zweck
+## Arbeitsweg
 
-Bei jeder Grundrechts-Frage: Schutzbereich – Eingriff – Verfassungsrechtliche Rechtfertigung. Das ist das Standard-Schema, das fast jede Aufgabe verlangt.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Schritt 1 — Drei-Stufen-Schema
 
 ```
 A. Schutzbereich
-   I. Persönlich (wer ist Träger?)
-   II. Sachlich (welches Verhalten ist erfasst?)
+ I. Persönlich (wer ist Träger?)
+ II. Sachlich (welches Verhalten ist erfasst?)
 
 B. Eingriff
-   Hoheitliches Handeln greift in Schutzbereich ein
+ Hoheitliches Handeln greift in Schutzbereich ein
 
 C. Verfassungs-rechtliche Rechtfertigung
-   I. Eingriffs-Befugnis (Gesetz, Grundrechts-Schranke)
-   II. Verfassungsmäßigkeit des Eingriffs-Gesetzes
-   III. Verhältnismäßigkeit im Einzelfall
-      1. Legitimer Zweck
-      2. Geeignetheit
-      3. Erforderlichkeit
-      4. Angemessenheit (Verhältnismäßigkeit i.e.S.)
+ I. Eingriffs-Befugnis (Gesetz, Grundrechts-Schranke)
+ II. Verfassungsmäßigkeit des Eingriffs-Gesetzes
+ III. Verhältnismäßigkeit im Einzelfall
+ 1. Legitimer Zweck
+ 2. Geeignetheit
+ 3. Erforderlichkeit
+ 4. Angemessenheit (Verhältnismäßigkeit i.e.S.)
 ```
 
 ## Schritt 2 — Schutzbereich
@@ -179,9 +183,9 @@ Welches Gesetz erlaubt den Eingriff?
 
 - Beruf-Wahl + Beruf-Ausübung
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  - 1. Stufe: Berufsausübungs-Regelung
-  - 2. Stufe: subjektive Berufswahl-Schranke
-  - 3. Stufe: objektive Berufswahl-Schranke
+ - 1. Stufe: Berufsausübungs-Regelung
+ - 2. Stufe: subjektive Berufswahl-Schranke
+ - 3. Stufe: objektive Berufswahl-Schranke
 
 ### Art. 14 GG — Eigentum
 
@@ -232,22 +236,22 @@ Welches Gesetz erlaubt den Eingriff?
 
 ```
 A. Schutzbereich
-   I. Persönlich: Deutscher (Veranstalter), juristische Person
-   II. Sachlich: friedliche Versammlung im Freien
+ I. Persönlich: Deutscher (Veranstalter), juristische Person
+ II. Sachlich: friedliche Versammlung im Freien
 
 B. Eingriff
-   Verbots-Verfügung der Stadt ist klassischer Eingriff
+ Verbots-Verfügung der Stadt ist klassischer Eingriff
 
 C. Verfassungs-rechtliche Rechtfertigung
-   I. Art. 8 II GG einfacher Gesetzes-Vorbehalt für Versammlungen im Freien
-   II. § 15 VersG als Ermächtigungs-Norm
-   III. Verfassungsmäßigkeit § 15 VersG
-   IV. Verhältnismäßigkeit im Einzelfall
-      1. Legitimer Zweck (Sicherheit, Verkehrs-Funktion)
-      2. Geeignet (Verbot verhindert Versammlung)
-      3. Erforderlich? (Auflagen wären milder)
-      4. Angemessen? (Konkordanz Versammlungs-Freiheit / öffentliche Sicherheit)
-      → Eingriff voraussichtlich unverhältnismäßig
+ I. Art. 8 II GG einfacher Gesetzes-Vorbehalt für Versammlungen im Freien
+ II. § 15 VersG als Ermächtigungs-Norm
+ III. Verfassungsmäßigkeit § 15 VersG
+ IV. Verhältnismäßigkeit im Einzelfall
+ 1. Legitimer Zweck (Sicherheit, Verkehrs-Funktion)
+ 2. Geeignet (Verbot verhindert Versammlung)
+ 3. Erforderlich? (Auflagen wären milder)
+ 4. Angemessen? (Konkordanz Versammlungs-Freiheit / öffentliche Sicherheit)
+ → Eingriff voraussichtlich unverhältnismäßig
 ```
 
 ## Hilfsfragen für Deine Reflexion
@@ -262,5 +266,5 @@ C. Verfassungs-rechtliche Rechtfertigung
 
 - `methodenlehre-auslegung` — Verfassungs-konforme Auslegung
 - `meinungsstreit-darstellen` — Bei strittigen Grundrechts-Fragen
-- `oeffentliches-recht-statthaft-zulaessig-begruendet` — bei Verwaltungs-Klage mit Grundrechts-Bezug
-- `subsumtion-schritt-fuer-schritt` — Subsumtions-Praxis
+- `öffentliches-recht-statthaft-zulaessig-begruendet` — bei Verwaltungs-Klage mit Grundrechts-Bezug
+- `subsumtion-schritt-für-schritt` — Subsumtions-Praxis

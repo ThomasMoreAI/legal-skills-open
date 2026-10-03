@@ -1,11 +1,11 @@
 ---
 name: risikoklassen-uebersicht-und-triage
 title: Risikoklassen-Übersicht und Triage — KI-VO
-description: 'Schnelle Risikoklassen-Triage nach KI-VO mit Fokus auf Art. 6 Abs. 2 und Anhang III. Prueft verboten, Hochrisiko nach Art. 6 Abs. 1/2, Rueckausnahme Art. 6 Abs. 3, begrenztes Risiko Art. 50, GPAI und minimales Risiko. Behandelt allgemeine Chatbots/GPAI: nicht automatisch Hochrisiko, sondern zweck- und einsatzbezogen. Output: Risikoklassen-Erstdiagnose mit passenden Folge-Skills und Dokumentationshinweisen.'
+description: 'Für Risikoklassen-Übersicht und Triage — europäischer Technikregulierungsrahmen: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/risikoklassen-uebersicht-und-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,9 +14,18 @@ language: de
 
 # Risikoklassen-Übersicht und Triage — KI-VO
 
-## Zweck
+## Direktstart: lesen, entscheiden, liefern
 
-Dieser Skill gibt eine schnelle, aber dokumentierbare Ersteinschätzung der KI-VO-Risikoklasse. Der Schwerpunkt liegt auf der richtigen Abzweigung zwischen allgemeinem KI-System/GPAI, begrenztem Risiko und Hochrisiko nach Art. 6 Abs. 2 i.V.m. Anhang III.
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
 ## Vorfrage: Ist es ein KI-System?
 
@@ -123,4 +132,4 @@ System: [NAME]
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 3, 5, 6, 50, 51 bis 55 und Anhang III KI-VO. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 3, 5, 6, 50, 51 bis 55 und Anhang III KI-VO. Keine Rechtsberatung.

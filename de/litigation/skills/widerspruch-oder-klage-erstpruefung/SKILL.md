@@ -1,22 +1,30 @@
 ---
 name: widerspruch-oder-klage-erstpruefung
-title: Widerspruch oder Klage — Erstprüfung
-description: 'Entscheidung Widerspruch vs. direkte Klage treffen: Mandant fragt was als naechstes zu tun ist nach Erhalt eines Bescheids. Normen: § 68 VwGO (Vorverfahren statthaft?), § 42 VwGO (Anfechtungs-/Verpflichtungsklage), § 74 VwGO (Klagefrist), §§ 80 und 80a und 123 VwGO (vorlaeufiger Rechtsschutz). Prüfraster: Vorverfahrenspflicht (Bundesland), Statthaftigkeit, Klagebefugnis, Frist, vorlaeufiger Rechtsschutz-Bedarf. Output Vorabbewertung Erfolgsaussicht, Streitwert § 52 GKG, Routing. Abgrenzung: Widerspruchsschrift siehe fachanwalt-verwaltungsrecht-widerspruchsschrift; Eilantrag siehe eilantrag-80-abs-5-vwgo.'
+title: 'Widerspruch oder Klage: verwaltungsrechtliche Erstprüfung'
+description: Entscheidet anhand Verwaltungsakt, Rechtsschutzziel, Landesrecht, Bekanntgabe und Eilbedarf zwischen Widerspruch, unmittelbarer Klage, Untätigkeitsklage und vorläufigem Rechtsschutz. Erstellt ein Fristenblatt, eine Zulässigkeitsmatrix und den passenden fristwahrenden Rechtsbehelf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/widerspruch-oder-klage-erstpruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Widerspruch oder Klage — Erstprüfung
+# Widerspruch oder Klage: verwaltungsrechtliche Erstprüfung
 
-## Zweck
 
-Der typische Erstkontakt im Verwaltungsrecht: Mandant kommt mit Bescheid. Frage ist: Widerspruch einlegen Klage erheben Eilantrag stellen — alle drei? Dieses Raster sortiert.
+## Direktauftrag
+
+Lies Bescheid, Zustell- oder Bekanntgabenachweis und Rechtsbehelfsbelehrung zuerst. Bestimme Rechtsschutzziel und Klageart, prüfe anhand des einschlägigen Bundes- oder Landesrechts, ob ein Vorverfahren erforderlich, ausgeschlossen oder fakultativ ist, und sichere Hauptsache sowie Eilrechtsschutz in getrennten Anträgen.
+
+- Start: Mit einem Fristenblatt und einer Zulässigkeitsmatrix beginnen; danach den statthaften Rechtsbehelf mit bestimmtem Antrag, Tatsachenvortrag, Rechtsgründen, Beweisangeboten und Anlagenbezug entwerfen.
+- Tatbestand und Beweis: Ordne jedem entscheidungserheblichen Merkmal einen Aktenfund oder eine ausdrücklich bezeichnete Lücke zu; bloße Plausibilität ersetzt weder Vortrag noch Beweis.
+- Kernnormen: VwVfG Paragraf 35: Verwaltungsakt als zentrale Handlungsform. VwVfG Paragraf 40: Ermessen und Ermessensgrenzen.
+- Rechtsprechung: Kein Urteil nur zur Dekoration einsetzen. Rechtsprechung erst verwenden, wenn Gericht, Datum, Aktenzeichen, tragender Satz und Übertragungsgrenze in einer amtlichen oder frei zugänglichen Volltextquelle geprüft sind.
+- Einsatzgrenze: Normfassung und tragende Aussage am amtlichen Volltext prüfen; eine Entscheidung nicht auf andere Tatbestands-, Beweis- oder Verfahrensstufen übertragen.
+- Abschluss: Das Ergebnis benennt eindeutig Widerspruch oder Klage, die richtige Eilspur, die fristwahrende Handlung und den noch fehlenden Aktenfund.
 
 ## Eingaben
 
@@ -129,13 +137,14 @@ Wenn nein — Realakt informelle Maßnahme — andere Klagearten Feststellungs- 
 - Streitwert-Anzeige zur Kostenabschätzung
 - Mandatsvereinbarung Vorlage
 
-## Aktuelle Leitentscheidungen
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Quellen
 
 - VwGO §§ 40 ff. 42 43 47 58 60 68 70 74 75 80 80a 123
@@ -144,3 +153,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - BVerwGE Std.Spruch zur Klagebefugnis und Schutznorm
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Eyermann VwGO
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

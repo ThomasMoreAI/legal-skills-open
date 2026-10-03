@@ -1,18 +1,31 @@
 ---
 name: wenn-prognose-negativ-naechste-schritte
-title: Wenn die Prognose negativ ist — nächste Schritte
-description: Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter. Antragspflicht § 15a InsO sechs Wochen bei Überschuldung drei Wochen bei Zahlungsunfähigkeit. Zahlungsverbot § 15b InsO. Prüfung der drohenden Zahlungsunfähigkeit § 18 InsO mit StaRUG-Option. Einbindung Insolvenzanwalt zwingend. Prüfung Selbstantrag oder Eigenverwaltung oder Schutzschirmverfahren oder StaRUG-Restrukturierungsplan.
+title: Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter
+description: 'Für Wenn Prognose Negativ Nächste Schritte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/wenn-prognose-negativ-naechste-schritte
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# Wenn die Prognose negativ ist — nächste Schritte
+# Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Wenn die Fortbestehensprognose negativ ausfaellt — Eskalations- und Pflichtenkatalog für den Geschäftsleiter. Antragspflicht § 15a InsO sechs Wochen bei Überschuldung drei Wochen bei Zahlungsunfähigkeit. Zahlungsverbot § 15b InsO. Prüfung der drohenden Zahlungsunfähigkeit § 18 InsO mit StaRUG-Option. Einbindung Insolvenzanwalt zwingend. Prüfung Selbstantrag oder Eigenverwaltung oder Schutzschirmverfahren oder StaRUG-Restrukturierungsplan.
+
+### Wenn die Prognose negativ ist — nächste Schritte
 
 ## Disclaimer (Schlüsselstelle)
 
@@ -84,30 +97,30 @@ Ausnahmen (§ 15b Abs. 1 InsO):
 
 ```yaml
 verfahren-pruefraster:
-  zahlungsunfaehigkeit-eingetreten:
-    frist: drei-Wochen
-    optionen:
-      - Regelinsolvenzantrag (Selbstantrag)
-      - Eigenverwaltung (wenn Voraussetzungen erfüllt)
-      - Schutzschirmverfahren nur bei drohender Zahlungsunfähigkeit
-        BEVOR Zahlungsunfähigkeit eintrat
-    ausgeschlossen: StaRUG (zu spaet)
-    
-  überschuldung-eingetreten-aber-zahlungsfähig:
-    frist: sechs-Wochen
-    optionen:
-      - Regelinsolvenzantrag
-      - Eigenverwaltung
-      - Schutzschirmverfahren
-    pruefung-staerug: nur wenn drohende Zahlungsunfähigkeit
-      separat festgestellt werden kann (Prognose 24 Monate negativ)
-    
-  drohende-zahlungsunfaehigkeit:
-    frist: keine
-    optionen:
-      - StaRUG-Restrukturierungsrahmen (bevorzugt)
-      - Eigenantrag § 18 InsO mit Eigenverwaltung
-      - Schutzschirmverfahren
+ zahlungsunfaehigkeit-eingetreten:
+ frist: drei-Wochen
+ optionen:
+ - Regelinsolvenzantrag (Selbstantrag)
+ - Eigenverwaltung (wenn Voraussetzungen erfüllt)
+ - Schutzschirmverfahren nur bei drohender Zahlungsunfähigkeit
+ BEVOR Zahlungsunfähigkeit eintrat
+ ausgeschlossen: StaRUG (zu spaet)
+
+ überschuldung-eingetreten-aber-zahlungsfähig:
+ frist: sechs-Wochen
+ optionen:
+ - Regelinsolvenzantrag
+ - Eigenverwaltung
+ - Schutzschirmverfahren
+ pruefung-staerug: nur wenn drohende Zahlungsunfähigkeit
+ separat festgestellt werden kann (Prognose 24 Monate negativ)
+
+ drohende-zahlungsunfaehigkeit:
+ frist: keine
+ optionen:
+ - StaRUG-Restrukturierungsrahmen (bevorzugt)
+ - Eigenantrag § 18 InsO mit Eigenverwaltung
+ - Schutzschirmverfahren
 ```
 
 ## Beratungsbedarf
@@ -139,11 +152,11 @@ Ich bitte um umgehende Terminvereinbarung zur Prüfung des weiteren Vorgehens
 (Regelinsolvenz / Eigenverwaltung / Schutzschirmverfahren / ggf. StaRUG).
 
 Anlagen:
-  - Fortbestehensprognose mit allen Anlagen (Datum [...])
-  - Bilanz [Jahr]
-  - Aktuelle BWA SuSa
-  - 12-Monats-Liquiditätsplan
-  - Sanierungsbausteine-Empfehlung
+ - Fortbestehensprognose mit allen Anlagen (Datum [...])
+ - Bilanz [Jahr]
+ - Aktuelle BWA SuSa
+ - 12-Monats-Liquiditätsplan
+ - Sanierungsbausteine-Empfehlung
 
 Mit freundlichen Grüßen
 [Geschäftsführer]
@@ -160,6 +173,13 @@ Wenn nicht klar ist ob die Prognose negativ ist (Grenzfall): **lieber Anwalt ein
 - Status-Eintrag im Sanierungsbausteine-Tracker: "Prüfung negativ — Eskalation eingeleitet".
 - Ende dieses Plugin-Workflows; Fortführung im Plugin `insolvenzrecht` durch Insolvenzanwalt.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Aktuelle Leitentscheidungen — Negative Prognose und Handlungspflichten (Stand Mai 2026)
 
@@ -176,9 +196,5 @@ Wenn nicht klar ist ob die Prognose negativ ist (Grenzfall): **lieber Anwalt ein
 
 1. **Insolvenzanwalt sofort einschalten!** Frist § 15a InsO laeuft ab heute: 6 Wochen (Ueberschuldung), 3 Wochen (ZU). Sofort-Kalender-Alarm.
 2. **Zahlungen einfrieren?** § 15b InsO: keine Zahlungen die Masse schmälern; Masselohn und Betriebskosten OK; Gesellschafterrueckzahlungen VERBOTEN.
-3. **StaRUG-Option pruefen:** Drohende ZU § 18 InsO? Dann StaRUG-Restrukturierungsplan als Alternative zum Insolvenzantrag.
-4. **Dokumentation sichern:** Alle Unterlagen fuer Insolvenzantrag vorbereiten: Verzeichnisse, Bilanzen, Glaeubigerliste, Antrag-Vorläufer.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+3. **StaRUG-Option prüfen:** Drohende ZU § 18 InsO? Dann StaRUG-Restrukturierungsplan als Alternative zum Insolvenzantrag.
+4. **Dokumentation sichern:** Alle Unterlagen für Insolvenzantrag vorbereiten: Verzeichnisse, Bilanzen, Gläubigerliste, Antrag-Vorläufer.

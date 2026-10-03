@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-bau-architektenrecht-werkmangel-pruefen
 title: Werkmangel prüfen — Bau- und Werkvertragsrecht
-description: 'Werkmaengel an Bauwerk nach BGB und VOB/B prüfen: Beschaffenheitsvereinbarung, Ist-Zustand, Ursache. Normen: §§ 633 634 640 BGB, § 13 VOB/B. Prüfraster: Mangeldefinition, Dokumentation, Fristsetzung Nacherfuellung, Gewaehrleistungsfristen. Output: Mangelruege und Nacherfuellungsaufforderung. Abgrenzung: nicht Abnahme.'
+description: 'Für Werkmangel prüfen — Bau- und Werkvertragsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills/fachanwalt-bau-architektenrecht-werkmangel-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: construction
@@ -86,7 +86,6 @@ Weitere Entscheidungen vor Ausgabe ueber dejure.org / bundesgerichtshof.de mit A
 
 **Kostenvorschuss § 637 Abs. 3 BGB**: Vor Ausführung der Selbstvornahme einklagbar; Höhe: voraussichtliche Selbstvornahmekosten nach SV-Gutachten.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Minderung § 638 BGB
 
@@ -122,7 +121,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Konstellation | Mangelbestand | Kausalität | Verschulden |
 |---|---|---|---|
 | Vor Abnahme | AN beweist Mangelfreiheit | — | — |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Arglist | AG muss arglistiges Verschweigen beweisen | AG | AG |
 | VOB/B nach Abnahme | AG beweist Mangel | AG | — |
 | Selbstvornahmekosten | AG beweist Notwendigkeit + Höhe | AG | — |
@@ -214,7 +212,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Beweislage unklar | Beweissicherungsverfahren § 485 ZPO | Gerichtlicher SV mit Hemmungswirkung |
 | AN verweigert Nacherfüllung | Direkt Selbstvornahme-Kostenvorschuss einklagen | Kein weiteres Zuwarten erforderlich |
 | Arglist (Mängel verborgen) | 10-Jahres-Verjährung prüfen | Verlängerte Anspruchslage |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Anschluss-Skills
 
@@ -223,7 +220,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - `fachanwalt-bau-architektenrecht-bauablauf-vbg` — parallele Bauablaufstörungen
 
 ---
-<!-- AUDIT 27.05.2026: Bundle 010 Halluzinations-Reparatur -->
-<!-- VII ZR 17/02 (behauptet 18.07.2002, NJW 2003, 200): NOT_FOUND auf dejure.org — ersetzt durch VII ZR 181/00 (09.01.2003, NJW 2003, 1188), verifiziert auf dejure.org -->
-<!-- VII ZR 119/10 (behauptet NJW 2013, 1670, Thema: Selbstvornahme): WRONG_TOPIC — real: Nachbesserungsverlangen vor Abnahme / Art der Maengelbeseitigung, NJW 2013, 1528, verifiziert auf dejure.org/2013,7541 — korrigiert -->
+
+
 <!-- UPDATE 05/2026: BGH VII ZR 46/17 (22.02.2018), VII ZR 26/20 (08.10.2020), VII ZR 301/13 (19.01.2017) ergaenzt — alle verifiziert ueber dejure.org / BGHZ 218,1 -->

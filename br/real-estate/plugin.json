@@ -9,12 +9,9 @@
   "practice": "real-estate",
   "language": "pt",
   "skills": [
-    "skills/gerador-contrato-locacao-preview",
-    "skills/leiloeiro-edital",
     "skills/leiloeiro-edital-foolhardy45",
     "skills/leiloeiro-edital-ranbot-ai",
     "skills/leiloeiro-ia",
-    "skills/leiloeiro-ia-sickn33",
     "skills/leiloeiro-risco"
   ]
 }

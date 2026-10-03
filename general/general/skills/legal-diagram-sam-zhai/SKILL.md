@@ -5,13 +5,13 @@ description: 'Use when a user needs a legal or legal-adjacent Mermaid diagram fr
 author: Sam Zhai
 author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/legal-diagram-sam-zhai
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
 sources:
-- title: Extraction Schema
+- title: Extraction schema
   path: references/extraction-schema.md
 ---
 

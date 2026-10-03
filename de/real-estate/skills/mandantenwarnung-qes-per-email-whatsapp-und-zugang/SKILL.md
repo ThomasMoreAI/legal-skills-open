@@ -1,11 +1,11 @@
 ---
 name: mandantenwarnung-qes-per-email-whatsapp-und-zugang
 title: 'Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis'
-description: Workflow-Skill zu mandantenwarnung qes per email whatsapp und zugang. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftform-und-textform-bgb/skills/mandantenwarnung-qes-per-email-whatsapp-und-zugang
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -14,16 +14,27 @@ language: de
 
 # Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis
+
+- **Spezialfrage (Mandantenwarnung: qES per E-Mail und WhatsApp — Zugang im Mietverhältnis):** Mandantenwarnung Qes Per Email Whatsapp Und Zugang: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+- **Arbeitsweise:** Erst Sachverhalt, Norm, Frist, Zuständigkeit und Beweis klären; Rechtsprechung nur verifiziert als tragenden Beleg einsetzen.
+
 ## Rechtsgrundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **§ 568 Abs. 1 BGB** — Schriftform Wohnraummiete-Kündigung
-- **§ 126a Abs. 1 BGB** — qES als Schriftformersatz
-- **§ 130 Abs. 1 BGB** — Zugang empfangsbedürftiger Willenserklärungen
+- **Paragraf 568 Abs. 1 BGB** — Schriftform Wohnraummiete-Kündigung
+- **Paragraf 126a Abs. 1 BGB** — qES als Schriftformersatz
+- **Paragraf 130 Abs. 1 BGB** — Zugang empfangsbedürftiger Willenserklärungen
 
 ## BGH-Linie
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Folge für die Praxis**: Vermieter können künftig wirksame Kündigungen per E-Mail-Anhang (PDF mit qES) oder ggf. per WhatsApp-Dateianhang übermitteln. Mieter, die solche digitalen Nachrichten ignorieren, löschen oder nicht zur Kenntnis nehmen, riskieren, dass eine wirksame Kündigung bereits zugegangen ist.
 
@@ -35,7 +46,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 1. E-Mail-Postfach regelmäßig prüfen (auch Spam-Ordner)
 2. Unbekannte Absender mit Dateianhängen (PDF) nicht vorschnell löschen
 3. PDF-Anhänge öffnen und auf qES-Signaturanzeige achten
-   (in Adobe Acrobat Reader: blaues Signaturfeld oder Zertifikats-Panel)
+ (in Adobe Acrobat Reader: blaues Signaturfeld oder Zertifikats-Panel)
 4. Bei qES-Kündigung: sofort anwaltlichen Rat einholen
 5. Datei sichern — nicht löschen, nicht bloß ausdrucken
 6. WhatsApp-Dateianhänge ebenfalls sichern (Backup aktivieren)
@@ -48,7 +59,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 2. qES über qualifizierten Anbieter anbringen (nicht FES/einfache Signatur)
 3. PDF-Datei per E-Mail als Anhang an Mieter senden
 4. In der E-Mail ausdrücklich darauf hinweisen, dass ein rechtliches
-   Dokument mit qualifizierter elektronischer Signatur beigefügt ist
+ Dokument mit qualifizierter elektronischer Signatur beigefügt ist
 5. Eingangsbestätigung anfordern
 6. Sendebericht / Auslieferungsnachweis sichern
 7. Alternativ: zusätzlich Papierkündigung mit Originalunterschrift per Boten
@@ -61,24 +72,23 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ```
 MANDANTENMEMO — VERTRAULICH
 
-An:      [Name Mieter]
-Von:     [Kanzleiname]
-Datum:   [Datum]
+An: [Name Mieter]
+Von: [Kanzleiname]
+Datum: [Datum]
 Betreff: Achtung — Wohnraumkündigung kann künftig wirksam per E-Mail zugehen
 
 Sehr geehrte(r) Frau/Herr [Name],
 
 nach live verifizierter Rechtsprechung zu elektronischer Form, qES und Zugang
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Wohnraumkündigung wirksam per E-Mail oder WhatsApp übermitteln, wenn
 er dabei eine qualifizierte elektronische Signatur (qES) verwendet.
 
 Was bedeutet das für Sie?
 
 - Eine E-Mail von Ihrem Vermieter (oder dessen Anwalt) mit einem
-  PDF-Anhang kann eine wirksame Kündigung enthalten.
+ PDF-Anhang kann eine wirksame Kündigung enthalten.
 - Die Kündigung gilt als zugegangen, sobald die E-Mail in Ihrem
-  Postfach eingegangen ist — auch wenn Sie sie noch nicht gelesen haben.
+ Postfach eingegangen ist — auch wenn Sie sie noch nicht gelesen haben.
 - Sie müssen Ihren E-Mail-Spam-Ordner regelmäßig prüfen.
 - WhatsApp-Dateianhänge ebenfalls beachten.
 
@@ -86,10 +96,10 @@ Was sollten Sie tun?
 
 - Öffnen Sie alle PDF-Anhänge von Ihrem Vermieter oder dessen Anwalt.
 - Prüfen Sie, ob das PDF eine Signaturmarkierung enthält (sichtbar in
-  Adobe Acrobat Reader als blaues/grünes Zertifikatsfeld).
+ Adobe Acrobat Reader als blaues/grünes Zertifikatsfeld).
 - Löschen Sie solche E-Mails und Dateien NICHT.
 - Kontaktieren Sie uns umgehend, wenn Sie eine mögliche Kündigung
-  erhalten haben.
+ erhalten haben.
 
 Wir empfehlen, Ihren E-Mail-Posteingang und WhatsApp-Verlauf auf
 solche Nachrichten hin zu überprüfen und uns bei Unsicherheit sofort
@@ -104,14 +114,13 @@ Mit freundlichen Grüßen
 ```
 MANDANTENMEMO — VERTRAULICH
 
-An:      [Name Vermieter]
-Von:     [Kanzleiname]
-Datum:   [Datum]
+An: [Name Vermieter]
+Von: [Kanzleiname]
+Datum: [Datum]
 Betreff: Kündigung Wohnraummietverhältnis — Formempfehlung 2025/2026
 
 Sehr geehrte(r) Frau/Herr [Name],
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 des Wohnraummietverhältnisses per qualifizierter elektronischer Signatur
 (qES) erklären, wenn das qES-Dokument dem Mieter so digital zugeht,
 dass er die Signatur prüfen kann.
@@ -119,16 +128,15 @@ dass er die Signatur prüfen kann.
 Unsere Empfehlung in der Reihenfolge der Sicherheit:
 
 Option A (sicherste Methode):
-  Papierkündigung mit eigenhändiger Unterschrift, übergeben durch
-  einen Boten gegen schriftliche Empfangsquittung.
+ Papierkündigung mit eigenhändiger Unterschrift, übergeben durch
+ einen Boten gegen schriftliche Empfangsquittung.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  PDF mit qES per E-Mail an den Mieter. Eingangsbestätigung anfordern.
-  Sendebericht aufbewahren. Hinweistext in der E-Mail einfügen.
+ PDF mit qES per E-Mail an den Mieter. Eingangsbestätigung anfordern.
+ Sendebericht aufbewahren. Hinweistext in der E-Mail einfügen.
 
 Option C (vermeiden):
-  Nur Papierdruck der qES-Kündigung — der Mieter erhält damit kein
-  prüfbares Dokument. Zugang der Schriftform fraglich.
+ Nur Papierdruck der qES-Kündigung — der Mieter erhält damit kein
+ prüfbares Dokument. Zugang der Schriftform fraglich.
 
 Wir stehen für weitere Beratung zur Verfügung.
 
@@ -143,12 +151,12 @@ Schritt-für-Schritt: qES in PDF-Datei erkennen
 
 1. Öffnen Sie die PDF-Datei mit Adobe Acrobat Reader (kostenlos).
 2. Achten Sie auf ein blaues oder grünes Banner oben oder ein
-   Signaturfeld im Dokument.
+ Signaturfeld im Dokument.
 3. Klicken Sie auf das Signaturfeld oder "Signaturen" im Menü.
 4. Prüfen Sie: Ist das Zertifikat gültig? Ist der Name des
-   Unterzeichners korrekt?
+ Unterzeichners korrekt?
 5. Alternativ: Laden Sie die Datei auf validator.bund.de hoch.
-   (Kostenloser Signaturprüfdienst der Bundesverwaltung.)
+ (Kostenloser Signaturprüfdienst der Bundesverwaltung.)
 
 Wenn Sie unsicher sind: Senden Sie uns die Datei per E-Mail.
 Löschen Sie die Datei NICHT, bevor wir sie geprüft haben.
@@ -161,10 +169,4 @@ Löschen Sie die Datei NICHT, bevor wir sie geprüft haben.
 - **Fehlende qES erkannt**: Wenn das PDF keine prüfbare qES enthält, ist die Schriftform nicht gewahrt — Kündigung formunwirksam. Diesen Einwand unverzüglich gegenüber dem Vermieter erheben.
 - **Frist versäumt durch Ignorieren der E-Mail**: Selbst wenn der Mieter die E-Mail nicht gelesen hat, beginnt die Frist für ggf. erforderliche Handlungen ab Zugang zu laufen.
 
-## Querverweise
-
-- → `zugang-formgerechter-erklaerung-bgh-viii-zr-159-23`
-- → `wohnraummiete-kuendigung-paragraph-568-bgb`
-- → `elektronische-form-paragraph-126a-bgb-qes`
-- → `dokumentations-und-beweisarchitektur`
-- → `mandantenkorrespondenz-form-und-zugang-templates`
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

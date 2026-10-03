@@ -1,60 +1,72 @@
 ---
 name: kueschk-klageschrift-laie-baustein
-title: Klageschrift für Laien — Baustein
-description: 'Bauklastenartige Klageschrift für Laien: Rubrum-Vorlage; punktueller Feststellungsantrag nach § 4 KSchG; allgemeiner Feststellungsantrag; Begründungsbausteine; Beweisangebote; Schritt-fuer-Schritt zum Selbstausfuellen mit Warnkopf.'
+title: 'Bauklastenartige Klageschrift für Laien: Rubrum-Vorlage'
+description: 'Für Bauklastenartige Klageschrift für Laien: Rubrum-Vorlage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-klageschrift-laie-baustein
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Klageschrift für Laien — Baustein
+# Bauklastenartige Klageschrift für Laien: Rubrum-Vorlage
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Bauklastenartige Klageschrift für Laien: Rubrum-Vorlage; punktueller Feststellungsantrag nach Paragraf 4 KSchG; allgemeiner Feststellungsantrag; Begründungsbausteine; Beweisangebote; Schritt-für-Schritt zum Selbstausfuellen mit Warnkopf.
+
+### Klageschrift für Laien — Baustein
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Klageschrift für Laien — Baustein` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre VOR Einreichung
 
-1. Drei-Wochen-Frist § 4 KSchG gewahrt? Verbleibende Tage bis Fristablauf?
+1. Drei-Wochen-Frist Paragraf 4 KSchG gewahrt? Verbleibende Tage bis Fristablauf?
 2. KSchG anwendbar? Betrieb > 10 Arbeitnehmer und Beschäftigung > 6 Monate?
 3. Welches Arbeitsgericht ist zuständig? (Sitz des Betriebs oder Wohnort)
 4. Gibt es einen offensichtlichen Formfehler (kein Original, per Fax etc.)?
 5. Soll Klage zu Protokoll erklärt werden oder schriftlich eingereicht werden?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zentrale Normen
 
-- § 4 Satz 1 KSchG — Klagefrist 3 Wochen; Ausschlussfrist
-- § 7 KSchG — Wirksamkeitsfiktion bei Fristversäumnis
-- § 11 Abs. 1 ArbGG — kein Anwaltszwang erste Instanz Arbeitsgericht
-- § 46 Abs. 2 ArbGG i.V.m. § 496 ZPO a.F. — Klage zu Protokoll des Urkundsbeamten
-- § 48 ArbGG i.V.m. §§ 12 ff. ZPO — örtliche Zuständigkeit
-- § 42 Abs. 2 GKG — Streitwert: 3 Bruttomonatsgehalter
-- § 12a ArbGG — kein Kostenerstattungsanspruch erste Instanz (jede Seite trägt eigene Anwaltskosten)
+- Paragraf 4 Satz 1 KSchG — Klagefrist 3 Wochen; Ausschlussfrist
+- Paragraf 7 KSchG — Wirksamkeitsfiktion bei Fristversäumnis
+- Paragraf 11 Abs. 1 ArbGG — kein Anwaltszwang erste Instanz Arbeitsgericht
+- Paragraf 46 Abs. 2 ArbGG i.V.m. Paragraf 496 ZPO a.F. — Klage zu Protokoll des Urkundsbeamten
+- Paragraf 48 ArbGG i.V.m. Paragrafen 12 ff. ZPO — örtliche Zuständigkeit
+- Paragraf 42 Abs. 2 GKG — Streitwert: 3 Bruttomonatsgehalter
+- Paragraf 12a ArbGG — kein Kostenerstattungsanspruch erste Instanz (jede Seite trägt eigene Anwaltskosten)
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Zweck
 
-Dieser Skill erzeugt eine ausfüllbare Klageschrift-Vorlage für Arbeitnehmer ohne Rechtsanwalt. In der ersten Instanz vor dem Arbeitsgericht besteht kein Anwaltszwang (§ 11 Abs. 1 ArbGG). Die Klageschrift kann auch direkt zu Protokoll des Urkundsbeamten der Geschäftsstelle erklärt werden (§ 46 Abs. 2 ArbGG i.V.m. § 496 ZPO a.F.).
+Erzeugt eine ausfüllbare Klageschrift-Vorlage für Arbeitnehmer ohne Rechtsanwalt. In der ersten Instanz vor dem Arbeitsgericht besteht kein Anwaltszwang (Paragraf 11 Abs. 1 ArbGG). Die Klageschrift kann auch direkt zu Protokoll des Urkundsbeamten der Geschäftsstelle erklärt werden (Paragraf 46 Abs. 2 ArbGG i.V.m. Paragraf 496 ZPO a.F.).
 
 **Vor Verwendung dieser Vorlage:** Stelle sicher, dass du `kueschk-grundwarnung-falsche-wiese-und-haftung` gelesen hast. Die Drei-Wochen-Frist läuft.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Klage ohne Anwalt am Arbeitsgericht einreichen | Vorlage unten vollstaendig ausfuellen; Frist drei Wochen ab Zugang |
-| Variante A — Mandant ist unentschlossen ob er klagen will | Frist wahren durch Einreichen; Ruecknahme spaeter noch moeglich |
-| Variante B — Klaeger will eigentlich Abfindung | Klage als Druckmittel; im Guetetermin Abfindungsgespraech ansprechen |
+| Variante A — Mandant ist unentschlossen ob er klagen will | Frist wahren durch Einreichen; Rücknahme später noch möglich |
+| Variante B — Kläger will eigentlich Abfindung | Klage als Druckmittel; im Guetetermin Abfindungsgespraech ansprechen |
 | Variante C — Beratungshilfe oder PKH noetig | Antrag zeitgleich stellen; Klage unabhaengig davon einreichen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
@@ -80,7 +92,7 @@ vertreten durch [VERTRETUNGSBERECHTIGTE PERSON, z.B. Geschäftsführer],
 
 — Beklagte(r) —
 
-**Streitwert:** Drei Bruttomonatsgehälter (§ 42 Abs. 2 GKG), also vorläufig [3 × MONATSLOHN] Euro
+**Streitwert:** Drei Bruttomonatsgehälter (Paragraf 42 Abs. 2 GKG), also vorläufig [3 × MONATSLOHN] Euro
 
 ---
 
@@ -114,7 +126,7 @@ Die Kündigung ist aus folgenden Gründen unwirksam:
 [HIER BEGRÜNDUNG EINFÜGEN — Bausteine:]
 
 *Option A — Keine soziale Rechtfertigung betriebsbedingt:*
-Die Beklagte hat keinen dringenden betrieblichen Grund nachgewiesen. Der Wegfall meines Arbeitsplatzes ist nicht belegt. Zudem wurde keine ordnungsgemäße Sozialauswahl nach § 1 Abs. 3 KSchG durchgeführt. Kollegen mit geringerer sozialer Schutzbedürftigkeit wurden bevorzugt.
+Die Beklagte hat keinen dringenden betrieblichen Grund nachgewiesen. Der Wegfall meines Arbeitsplatzes ist nicht belegt. Zudem wurde keine ordnungsgemäße Sozialauswahl nach Paragraf 1 Abs. 3 KSchG durchgeführt. Kollegen mit geringerer sozialer Schutzbedürftigkeit wurden bevorzugt.
 
 *Option B — Keine Abmahnung (verhaltensbedingt):*
 Die Kündigung ist unverhältnismäßig. Eine Abmahnung, die Voraussetzung für eine verhaltensbedingte Kündigung ist, wurde nicht ausgesprochen.
@@ -140,14 +152,13 @@ Die Kündigung ist formunwirksam. [FORMFEHLER BESCHREIBEN — z.B.: Die Kündigu
 ## Hinweise zum Einreichen
 
 - Die Klage muss **innerhalb von drei Wochen** nach Zugang der Kündigung beim zuständigen Arbeitsgericht eingehen.
-- Zuständiges Arbeitsgericht: Arbeitsgericht am Sitz des Betriebes oder am Wohnort des Arbeitnehmers (§ 48 ArbGG i.V.m. §§ 12 ff. ZPO).
+- Zuständiges Arbeitsgericht: Arbeitsgericht am Sitz des Betriebes oder am Wohnort des Arbeitnehmers (Paragraf 48 ArbGG i.V.m. Paragrafen 12 ff. ZPO).
 - Alternativ: Klageschrift zu Protokoll der Geschäftsstelle des Arbeitsgerichts erklären (persönlich vorbeigehen und diktieren).
-- Gerichtsgebühren: In der ersten Instanz trägt jede Partei ihre eigenen Anwaltskosten (§ 12a ArbGG). Gerichtsgebühren nach GKG fallen an.
+- Gerichtsgebühren: In der ersten Instanz trägt jede Partei ihre eigenen Anwaltskosten (Paragraf 12a ArbGG). Gerichtsgebühren nach GKG fallen an.
 
 ---
 
-
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -155,3 +166,5 @@ Die Kündigung ist formunwirksam. [FORMFEHLER BESCHREIBEN — z.B.: Die Kündigu
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

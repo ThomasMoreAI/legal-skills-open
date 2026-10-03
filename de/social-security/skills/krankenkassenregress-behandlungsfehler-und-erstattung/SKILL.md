@@ -1,0 +1,97 @@
+---
+name: krankenkassenregress-behandlungsfehler-und-erstattung
+title: 'Krankenkassenregress: Behandlungsfehler und Erstattung'
+description: 'Für Krankenkassenregress: Behandlungsfehler und Erstattung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/krankenkassenregress-behandlungsfehler-und-erstattung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Krankenkassenregress: Behandlungsfehler und Erstattung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+Wenn ein Behandlungsfehler Zusatzkosten für die GKV verursacht, kann die Kasse Regress nehmen. Kläre **Regressansprüche nach § 116 SGB X, Verhältnis zum Schadensersatzanspruch des Patienten und Koordinationspflichten**.
+
+## Rechtlicher Rahmen
+
+- **§ 116 SGB X** – Gesetzlicher Übergang von Schadensersatzansprüchen auf Sozialversicherungsträger
+- **§ 119 SGB X** – Anspruchsübergang auf Kranken-/Pflegeversicherung
+- **§ 83 SGB X** – Erstattungsansprüche zwischen Leistungsträgern
+- **§ 630a ff. BGB** – Behandlungsvertrag; Schadensersatz bei Behandlungsfehlern
+- **§ 291a SGB V** – Patientendaten-Schutz-Gesetz (Dokumentation)
+- **PatRechteG 2013** – Patientenrechtegesetz (§ 630a–h BGB)
+- Paragraf 116 SGB X ordnet den gesetzlichen Anspruchsübergang auf den Sozialleistungsträger an. Haftungsgrund, Kausalität, übergegangene Schadensposition, sachliche und zeitliche Kongruenz sowie Quotenvorrecht sind anhand des konkreten Behandlungsfalls getrennt zu prüfen; kein Aktenzeichen ohne verifizierte tragende Aussage verwenden.
+
+## Regressstruktur § 116 SGB X
+
+| Element | Inhalt |
+|---------|--------|
+| Schadensereignis | Behandlungsfehler, Unfall, Delikt durch Dritten |
+| Schädiger | Arzt, Krankenhaus, sonstiger Dritter |
+| Übergegangener Anspruch | Schadensersatz des Patienten geht auf GKV über (in Höhe der GKV-Leistungen) |
+| Verjährung | 3 Jahre nach Kenntnis; absolute Grenze 30 Jahre (§ 199 BGB) |
+| Koordination | GKV-Anspruch geht vor privatem Anspruch des Patienten auf gleichen Schadenposten |
+
+## Prüfprogramm
+
+### Schritt 1 – Regressvoraussetzungen
+- Liegt ein Behandlungsfehler vor? (medizinischer Standard verletzt)
+- Hat GKV Leistungen erbracht die kausal auf den Fehler zurückgehen?
+- Schädiger identifiziert: Arzt, Krankenhaus, Haftpflichtversicherer?
+
+### Schritt 2 – Anspruchsübergang (§ 116 SGB X)
+- Übergang ist kraft Gesetzes automatisch (nicht konstitutiv)
+- GKV-Leistungen: KH-Kosten, Medikamente, Reha, Krankengeld
+- Umfang: GKV kann nur ihre eigenen Leistungen zurückfordern, nicht Schmerzensgeld
+
+### Schritt 3 – Verhältnis zum Patienten
+- Patient hat eigene Schadensersatzansprüche (Schmerzensgeld, Erwerbsausfall)
+- GKV-Regress und Patientenanspruch können parallel bestehen; keine Doppelerstattung
+- Informationspflicht: GKV muss Patienten über Regressanspruch informieren (indirekt)
+
+### Schritt 4 – Patient fordert Schadensersatz
+- Patient kann eigene Ansprüche neben GKV-Regress geltend machen
+- Wichtig: Kein Vergleich über Ansprüche schließen ohne Zustimmung der GKV (soweit übergegangen)
+- § 116 Abs. 1 Satz 2: Übergang gilt nicht soweit GKV-Mitglied keine wirtschaftlichen Nachteile hat
+
+### Schritt 5 – MDK-Regress (§ 275 ff. SGB V)
+- Andere Regressart: MDK prüft Krankenhausabrechnung; Kasse fordert zuviel gezahlte DRG zurück
+- Kein Zusammenhang mit Behandlungsfehler-Regress
+
+## Typische Fallen
+
+- **Vergleich ohne GKV-Zustimmung**: Patient schließt Vergleich mit Arzt über alle Schäden; GKV-Anspruch trotzdem übergegangen → Vergleich bindet GKV nicht.
+- **Verjährung Regress**: GKV muss Regress kennen; Verjährung beginnt mit Kenntnis, nicht mit Schadenseintritt.
+- **Kausalität unklar**: Regressanspruch setzt gleiche Kausalitätsanforderungen wie Schadensersatzrecht (BGH VI ZR); schwieriger als im Sozialrecht.
+- **Beweislast beim Arzt**: Bei groben Behandlungsfehlern Beweislastumkehr (§ 630h Abs. 5 BGB); hilft Patienten und damit indirekt der GKV.
+
+## Output-Formate
+
+- Regressanzeige an GKV (durch Patient)
+- Koordinationsschreiben Patient ↔ GKV ↔ Haftpflichtversicherer
+- Vergleichs-Checkliste (GKV-Beteiligung prüfen)
+- Verjährungs-Fristenkalender
+- MDK-Überprüfungsantrag (Behandlungsqualität)
+
+## Quellen
+
+- [§ 116 SGB X – Anspruchsübergang](https://www.gesetze-im-internet.de/sgb_10/__116.html)
+- [§ 630a BGB – Behandlungsvertrag](https://www.gesetze-im-internet.de/bgb/__630a.html)
+- [Entscheidungsdatenbank des Bundessozialgerichts](https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html)
+- [Entscheidungsdatenbank des Bundesgerichtshofs](https://www.bundesgerichtshof.de/DE/Entscheidungen/entscheidungen_node.html)
+- [dejure.org § 116 SGB X](https://dejure.org/gesetze/SGB_X/116.html)
+- [Bundesärztekammer Behandlungsfehler](https://www.bundesaerztekammer.de)

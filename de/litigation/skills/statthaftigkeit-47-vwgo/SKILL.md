@@ -1,11 +1,11 @@
 ---
 name: statthaftigkeit-47-vwgo
 title: Statthaftigkeit § 47 VwGO
-description: 'Mandant fragt ob Normenkontrollantrag gegen eine bestimmte Planung zulässig ist. § 47 Abs. 1 VwGO Statthaftigkeit Normenkontrolle. Prüfraster: Antragsgegenstand Bebauungsplan § 10 BauGB vorhabenbezogener B-Plan § 12 BauGB § 13a-B-Plan örtliche Bauvorschriften Art. 81 BayBO FNP grundsaetzlich nicht statthaft (Ausnahme Konzentrationsflaeche § 35 Abs. 3 S. 3 BauGB) Inkrafttreten Norm. Output: Statthaftigkeits-Entscheidung. Abgrenzung zu antragsbefugnis-eigentuemer-nachbar (Befugnis) und jahresfrist-47-abs-2-vwgo (Frist).'
+description: 'Für Statthaftigkeit Paragraf 47 VwGO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/statthaftigkeit-47-vwgo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Statthaftigkeit § 47 VwGO
-
-## Zweck
-
-Klärung, ob die angegriffene Vorschrift überhaupt Gegenstand eines Normenkontrollverfahrens sein kann. Statthaftigkeit ist die erste der vier Zulässigkeits-Säulen und wird vor Antragsbefugnis, Frist und Rechtsschutzbedürfnis geprüft.
 
 ## Schritt 1 — Grundtatbestand § 47 Abs. 1 VwGO
 
@@ -144,7 +140,3 @@ Klärung, ob die angegriffene Vorschrift überhaupt Gegenstand eines Normenkontr
 - **BVerwG 11.04.2024, 4 BN 50.23**: Klimaschutz als Abwaegungs- und ggf. Antragsbefugnis-relevanter Belang. Quelle: bverwg.de.
 
 Konkrete Aktenzeichen vor Ausgabe per bverwg.de verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

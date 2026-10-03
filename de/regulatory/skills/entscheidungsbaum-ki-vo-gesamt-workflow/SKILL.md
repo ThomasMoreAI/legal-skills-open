@@ -1,11 +1,11 @@
 ---
 name: entscheidungsbaum-ki-vo-gesamt-workflow
 title: 'Master-Workflow: KI-VO-Gesamtprüfung'
-description: 'Master-Workflow fuer die vollstaendige KI-VO-Pruefung. Fuehrt von Art. 3 KI-System-Definition ueber Anwendungsbereich, Rollen, Art. 6 Abs. 2/Anhang III-Hochrisiko, Rueckausnahme, GPAI/Chatbot-Abgrenzung, Betreiber-Fehlgebrauch, Pflichten, Standards und Output-Dokumentation. Schwerpunkt: allgemeine Chatbots sind nicht automatisch Hochrisiko; Zweckbestimmung und tatsaechlicher Einsatz entscheiden. Output: strukturierter Pruefpfad mit Folge-Skills.'
+description: 'Für Master-Workflow: europäischer Technikregulierungsrahmen-Gesamtprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: europäischem Technikregulierungsrecht. Route: entscheidungsbaum-ki-vo-gesamt-workflow.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/entscheidungsbaum-ki-vo-gesamt-workflow
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,17 +14,13 @@ language: de
 
 # Master-Workflow: KI-VO-Gesamtprüfung
 
-## Zweck
-
-Dieser Skill ist der zentrale Entscheidungsbaum des KI-VO-Prüfers. Er führt vom ersten Art.-3-Check bis zum dokumentierbaren Endvermerk. Er soll nicht nur klassifizieren, sondern den Prüfpfad so steuern, dass Zweckbestimmung, tatsächliche Nutzung und Off-label-Risiken sauber sichtbar werden.
-
 ## Grundsatz
 
 Nicht der Produktname entscheidet, sondern der geprüfte Funktionszuschnitt und die Zweckbestimmung. Ein allgemeiner Chatbot oder ein GPAI-System ist nicht automatisch Hochrisiko. Wird er aber für Bewerberbewertung, Beschäftigtenmanagement, Kreditwürdigkeit, Bildung, Justiz, Migration, Strafverfolgung, Notfalltriage oder andere Anhang-III-Zwecke bestimmt oder faktisch eingesetzt, muss Art. 6 Abs. 2 i.V.m. Anhang III vertieft geprüft werden.
 
 ## Schritt 0 — Intake
 
-Starte bei unklarer Lage mit `triage-ki-vo-vorpruefung` oder `allgemein`.
+Starte bei unklarer Lage mit `triage-ki-vo-vorpruefung` oder `ki-vo-ai-act-pruefer-allgemein`.
 
 Mindestfragen:
 1. Was genau ist das System oder die Komponente?
@@ -60,7 +56,7 @@ Prüfe EU-Bezug, Ausgaben in der EU, Inverkehrbringen, Betrieb und sachliche Aus
 ## Schritt 3 — Rollen
 
 Skills:
-- `persoenlicher-anwendungsbereich-rollen-art-3`
+- `persönlicher-anwendungsbereich-rollen-art-3`
 - `rolle-anbieter-pruefen-art-3-nr-3`
 - `rolle-betreiber-pruefen-art-3-nr-4`
 - bei Zweckänderung: `anbieter-werden-art-25`
@@ -92,7 +88,7 @@ Pflichtfragen:
 - Geht es um Bewertung, Zugang, Ranking, Entscheidung, Priorisierung, Risiko, Rechtsanwendung oder Überwachung?
 - Ist der Einsatz ausdrücklich intendiert, technisch angelegt, organisatorisch geduldet oder nur theoretisch möglich?
 - Ist ein allgemeiner Chatbot/GPAI-System nur Hilfsmittel oder in einen sensiblen Entscheidungsprozess eingebettet?
-- Wie werden Mitarbeitenden-Fehlgebrauch und Zweckabweichung verhindert?
+- Wie werden Mitarbeitern-Fehlgebrauch und Zweckabweichung verhindert?
 
 ## Schritt 7 — Rückausnahme Art. 6 Abs. 3
 
@@ -114,7 +110,7 @@ Skills:
 
 Leitsatz:
 - Allgemeiner Chatbot: typischerweise Art. 50/GPAI prüfen, nicht automatisch Hochrisiko.
-- Konkreter Fachworkflow in Anhang III: Hochrisiko-Prüfung aktivieren.
+- Konkreter Fachin Anhang III: Hochrisiko-Prüfung aktivieren.
 
 ## Schritt 9 — Pflichten und Standards
 
@@ -142,7 +138,7 @@ Das Enddokument muss enthalten:
 - Anhang-III-Matrix
 - Art. 6 Abs. 3-Bewertung
 - Rollen und Pflichten
-- Off-label-/Mitarbeitenden-Nutzungsplan
+- Off-label-/Mitarbeitern-Nutzungsplan
 - Standards-/Normenhinweis
 - offene Tatsachen und Re-Evaluation-Trigger
 
@@ -152,7 +148,7 @@ Das Enddokument muss enthalten:
 1. triage-ki-vo-vorpruefung / allgemein
 2. liegt-ki-system-vor-art-3-nr-1
 3. territorialer-anwendungsbereich-art-2
-4. persoenlicher-anwendungsbereich-rollen-art-3
+4. persönlicher-anwendungsbereich-rollen-art-3
 5. risikoklassen-uebersicht-und-triage
 6. hochrisiko-art-6-abs-2-anhang-iii (wenn Zwecknaehe)
 7. rueckausnahme-art-6-abs-3 (bei Anhang-III-Treffer)
@@ -163,4 +159,4 @@ Das Enddokument muss enthalten:
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 2, 3, 5, 6, 25, 26, 27, 40, 50, 51 bis 56 und Anhang III KI-VO. Keine Rechtsberatung.
+Stand: 07/2026. Maßgeblich sind Art. 2, 3, 5, 6, 25, 26, 27, 40, 50, 51 bis 56 und Anhang III KI-VO. Keine Rechtsberatung.

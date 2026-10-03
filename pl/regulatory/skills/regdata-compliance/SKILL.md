@@ -5,15 +5,15 @@ description: Extract data from Poland's UOKiK abusive clauses registry (court-ru
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-compliance
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: regulatory
 language: en
 sources:
-- title: Clause Categories
+- title: Clause categories
   path: references/clause-categories.md
-- title: Waste Codes
+- title: Waste codes
   path: references/waste-codes.md
 ---
 

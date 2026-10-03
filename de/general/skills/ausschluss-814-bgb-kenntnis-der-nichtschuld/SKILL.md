@@ -1,11 +1,11 @@
 ---
 name: ausschluss-814-bgb-kenntnis-der-nichtschuld
 title: Ausschluss nach § 814 BGB — Kenntnis der Nichtschuld
-description: 'Bereicherungsanspruch scheitert an § 814 BGB wegen positiver Kenntnis des Leistenden von der Nichtschuld. Normen: § 814 BGB. Prüfraster: positive Kenntnis vs. bloss Zweifel, Zeitpunkt der Kenntnis, Abgrenzung zu condictio indebiti. Output: Prüfergebnis Ausschlussgrund § 814 BGB mit Begründung. Abgrenzung: nicht § 817 BGB (Gesetzes-/Sittenverstoß).'
+description: 'Für Ausschluss nach Paragraf 814 BGB — Kenntnis der Nichtschuld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/ausschluss-814-bgb-kenntnis-der-nichtschuld
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -26,19 +26,6 @@ language: de
 
 § 814 BGB (Ausschluss bei Kenntnis der Nichtschuld bzw. sittlicher Pflicht) — § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) — § 813 BGB (dauernde Einrede) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 242 BGB (Treu und Glauben, venire contra factum proprium)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Obersatz
 
 Hat der Leistende gewusst, dass er zur Leistung nicht verpflichtet war, ist die Rückforderung nach § 814 Alt. 1 BGB ausgeschlossen.
@@ -96,3 +83,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

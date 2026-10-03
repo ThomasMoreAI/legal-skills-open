@@ -1,11 +1,11 @@
 ---
 name: haptik-und-tastmarke
 title: Tastmarken und Haptik-Marken
-description: Workflow-Skill zu haptik und tastmarke. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Tastmarken und Haptik-Marken: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/haptik-und-tastmarke
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Tastmarken und Haptik-Marken
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Tastmarken und Haptik-Marken
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Das faszinierendste Grenzgebiet des nichtvisuellen Markenrechts: Kann die charakteristische Oberflächenstruktur eines Seidenschals oder die Mikrogravur eines Parfumflakons als Marke geschützt werden? Für klôtzzkètté SA ist dies hochrelevant — die Seidenschalkollektionen "K°° Touch Royal" mit ihrer einzigartigen dreidimensionalen Seiden-Twill-Köper-Struktur und der Parfumflakon "K°° pour Femme" mit seiner gestrichelten Mikro-Haptik-Oberfläche sind sensorische Erkennungszeichen ersten Ranges.
 
@@ -23,7 +36,6 @@ Die Antwort ist ernüchternd ehrlich: Tastmarken sind rechtlich kaum eintragbar,
 ### Markenrecht (Eintragungsversuch)
 - **§ 3 I MarkenG / Art. 4 UMV:** Markenfähigkeit offen für jede Art von Zeichen — Tasteindrücke sind abstrakt denkbar
 - **§ 8 II Nr. 1 MarkenG n.F. / Art. 4 UMV:** Seit UMV-Reform 2017 keine grafische Darstellbarkeit mehr erforderlich — "klare und eindeutige" Darstellung genügt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **USPTO US-Marke 3.896.100 (David Yurman — Fabrikgewebe-Haptik):** US-Trademark für die haptische Wahrnehmung eines geflochtenen Kabelmusters auf Schmuckstücken — eingetragen mit Nachweis von Secondary Meaning. Zeigt: In den USA ist Haptik-Marke theoretisch möglich (vgl. Skill `us-trade-dress-und-secondary-meaning`)
 - **DPMA-Praxis:** Sehr restriktiv; keine bekannte erfolgreiche Tastmarken-Eintragung in Deutschland
@@ -41,51 +53,51 @@ Die Antwort ist ernüchternd ehrlich: Tastmarken sind rechtlich kaum eintragbar,
 ### Schritt 1: Eintragungsversuch DPMA/EUIPO (Vollständigkeitshalber)
 
 1. **Darstellungsformen prüfen:**
-   - Textliche Beschreibung: "Die Marke besteht aus einer regelmäßigen dreidimensionalen Twill-Köper-Struktur mit [X mm] Erhöhung, [Y mm] Absenkung, Diagonalwinkel 45°, auf Seidenstoff"
-   - Mikroskopie-Aufnahme/REM-Scan (Rasterelektronenmikroskop): präzise, aber fachspezifisch — nicht "leicht zugänglich"
-   - 3D-CAD-Modell: präzise und eindeutig, aber Sieckmann-Kriterium "verständlich" fraglich
-   - Physikalische Probe: nicht hinterlegbar beim DPMA/EUIPO; kein akzeptiertes Darstellungsmittel
+ - Textliche Beschreibung: "Die Marke besteht aus einer regelmäßigen dreidimensionalen Twill-Köper-Struktur mit [X mm] Erhöhung, [Y mm] Absenkung, Diagonalwinkel 45°, auf Seidenstoff"
+ - Mikroskopie-Aufnahme/REM-Scan (Rasterelektronenmikroskop): präzise, aber fachspezifisch — nicht "leicht zugänglich"
+ - 3D-CAD-Modell: präzise und eindeutig, aber Sieckmann-Kriterium "verständlich" fraglich
+ - Physikalische Probe: nicht hinterlegbar beim DPMA/EUIPO; kein akzeptiertes Darstellungsmittel
 
 2. **Sieckmann-Check für Tastmarke:**
 
-   | Kriterium | Ergebnis für Twill-Köper-Struktur |
-   |---|---|
-   | Klar | Ja (mit präziser Beschreibung) |
-   | Eindeutig | Bedingt (Mikrotoleranzen?) |
-   | In sich abgeschlossen | Ja |
-   | Leicht zugänglich | Nein (REM-Scan nicht allgemein zugänglich) |
-   | Verständlich | Nein (nur für Textilfachleute) |
-   | Dauerhaft | Ja (Beschreibung bleibt) |
-   | Objektiv | Bedingt (taktile Wahrnehmung = subjektiv) |
-   
-   **Ergebnis: Wahrscheinliche Zurückweisung durch DPMA/EUIPO**
+ | Kriterium | Ergebnis für Twill-Köper-Struktur |
+ |---|---|
+ | Klar | Ja (mit präziser Beschreibung) |
+ | Eindeutig | Bedingt (Mikrotoleranzen?) |
+ | In sich abgeschlossen | Ja |
+ | Leicht zugänglich | Nein (REM-Scan nicht allgemein zugänglich) |
+ | Verständlich | Nein (nur für Textilfachleute) |
+ | Dauerhaft | Ja (Beschreibung bleibt) |
+ | Objektiv | Bedingt (taktile Wahrnehmung = subjektiv) |
+
+ **Ergebnis: Wahrscheinliche Zurückweisung durch DPMA/EUIPO**
 
 3. **Strategische Entscheidung:** Eintragungsversuch als Dokumentation der Schutzrechtsrelevanz, aber Hauptstrategie liegt bei Alternativen
 
 ### Schritt 2: Design-Schutz (Primäre Schutzstrategie)
 
 4. **Eingetragenes Design (DesignG / GGM):**
-   - Seiden-Twill-Köper-Struktur als eingetragenes Design beim DPMA oder als GGM beim EUIPO
-   - Neuheitserfordernis: § 2 DesignG — muss gegenüber dem vorbekannten Formenschatz neu sein
-   - Eigencharakter (§ 2 DesignG): Gesamteindruck unterscheidet sich vom Gesamteindruck des Standes des Entwurfs
-   - Schutzdauer: 5 Jahre, verlängerbar bis 25 Jahre (§ 27 DesignG)
-   - Anmeldung beim DPMA: EUR 60 je Design (Sammelanmeldung möglich)
+ - Seiden-Twill-Köper-Struktur als eingetragenes Design beim DPMA oder als GGM beim EUIPO
+ - Neuheitserfordernis: § 2 DesignG — muss gegenüber dem vorbekannten Formenschatz neu sein
+ - Eigencharakter (§ 2 DesignG): Gesamteindruck unterscheidet sich vom Gesamteindruck des Standes des Entwurfs
+ - Schutzdauer: 5 Jahre, verlängerbar bis 25 Jahre (§ 27 DesignG)
+ - Anmeldung beim DPMA: EUR 60 je Design (Sammelanmeldung möglich)
 
 5. **Geschmacksmuster (GGM) beim EUIPO:**
-   - Sammelanmeldung: bis 100 Designs in einer Anmeldung
-   - Günstig: EUR 350 für erste 10 Designs
-   - EU-weiter Schutz ohne Vollzugsbedarf
+ - Sammelanmeldung: bis 100 Designs in einer Anmeldung
+ - Günstig: EUR 350 für erste 10 Designs
+ - EU-weiter Schutz ohne Vollzugsbedarf
 
 ### Schritt 3: UWG-Schutz (§ 4 Nr. 3)
 
 6. **Wettbewerbliche Eigenart belegen:**
-   - Besonderheit der Oberflächenstruktur gegenüber Marktstandard
-   - Verbraucherkenntnis der spezifischen Haptik als klôtzzkètté-typisch
-   - Messung: Haptik-Expertengutachten, Verbraucherbefragung
+ - Besonderheit der Oberflächenstruktur gegenüber Marktstandard
+ - Verbraucherkenntnis der spezifischen Haptik als klôtzzkètté-typisch
+ - Messung: Haptik-Expertengutachten, Verbraucherbefragung
 
 7. **Nachahmungsnachweis:**
-   - Genaue Analyse der Konkurrenzstruktur (Textilanalyse, Materialprüfung)
-   - Identität oder sklavische Übernahme erforderlich (nicht nur Ähnlichkeit)
+ - Genaue Analyse der Konkurrenzstruktur (Textilanalyse, Materialprüfung)
+ - Identität oder sklavische Übernahme erforderlich (nicht nur Ähnlichkeit)
 
 ## Falltypische Konstellationen
 
@@ -98,14 +110,11 @@ Die gestrichelte Mikro-Haptik des K°°-Flakons wird als eingetragenes Design be
 ### Konstellation 3: Brezelmann kopiert Gewebestruktur
 Brezelmann Discount KG (Bad Mergentheim) verkauft Schals mit identischer Webestruktur wie K°° Touch Royal. UWG § 4 Nr. 3 Klage: (1) wettbewerbliche Eigenart des Originals (Alleinstellungsmerkmale der Webstruktur, Marktbekanntheit), (2) nachgemachte Struktur (Textilanalyse-Gutachten), (3) besondere Umstände (bewusste Anlehnung, unlauterer Wettbewerb). Streitwert: ca. EUR 50.000.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- USPTO, Reg. Nr. 3.896.100 (David Yurman) — Haptik-Marke Schmuck
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 3 Rn. 150 ff. (nichtvisuelle Marken)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -156,8 +165,4 @@ Bevor der Schutzweg gewaehlt wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sozialrecht-orientierung
 title: Fachanwalt für Sozialrecht — Orientierung
-description: 'Einstieg in den Skill-Verbund Sozialrecht. Orientierung im Sozialrecht Fachanwaltschaft nach § 14 FAO Weiterbildungspflicht. SGB I bis XIV im Überblick SGB II Buergergeld SGB VI Rente SGB V Krankenversicherung SGB IX Reha SGB XI Pflege. Verfahren SGG drei Instanzen SG LSG BSG. verifizierbare Quellen lizenzpflichtige Literaturquellen Kasseler Kommentar. Output: Routing-Empfehlung zu passendem Folge-Skill. Abgrenzung zu mandat-triage-sozialrecht (Eingangstriage) und sozialrecht-fallaufnahme-routing (Master-Routing).'
+description: 'Für Fachanwalt für Sozialrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/fachanwalt-sozialrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: social-security
@@ -13,9 +13,6 @@ language: de
 ---
 
 # Fachanwalt für Sozialrecht — Orientierung
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -67,7 +64,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Sozialgericht (SG) — erste Instanz, Kammern.
 - Landessozialgericht (LSG) — Berufung.
 - Bundessozialgericht (BSG) — Revision, Kassel.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
@@ -89,3 +85,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **`kanzlei-allgemein`** für Fristen und Versand.
 - **`fachanwalt-arbeitsrecht`** bei Sperrzeit Arbeitslosengeld und Schwerbehinderung im Arbeitsverhältnis.
 - **`fachanwalt-medizinrecht`** bei medizinischer Begutachtung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

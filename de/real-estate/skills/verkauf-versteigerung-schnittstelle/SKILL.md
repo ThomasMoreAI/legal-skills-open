@@ -1,0 +1,92 @@
+---
+name: verkauf-versteigerung-schnittstelle
+title: Schnittstelle zu Verkauf und Zwangsversteigerung
+description: 'Für Schnittstelle zu Verkauf und Zwangsversteigerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zwangsverwaltung-zvg/skills/verkauf-versteigerung-schnittstelle
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Schnittstelle zu Verkauf und Zwangsversteigerung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: ZVG § 149 Beschlagnahme mit Anordnung, Rechnungslegung 12 Monate, Verteilungstermin nach Plan, sofortige Beschwerde 2 Wochen.
+- Tragende Normen verifizieren: ZVG §§ 146-161 (Zwangsverwaltung), 1-150 (Zwangsversteigerung), §§ 869-882 ZPO, GVKostG, RPflG, GBO §§ 19, 20, 53 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Gläubiger, Schuldner, Zwangsverwalter, Vollstreckungsgericht (AG), Rechtspfleger, Grundbuchamt, Mieter, Hausverwaltung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zwangsverwaltungsantrag, Anordnungsbeschluss, Verwalterbestallung, Verwaltervergütungsfestsetzung, Rechnungslegung, Verteilungsplan, Aufhebungsbeschluss — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Startet bei
+
+- Zwangsversteigerung parallel läuft
+- Bieter oder Sachverständige Objektinformationen anfragen
+- Verwaltung auf Zuschlag oder Aufhebung zuläuft
+
+## Eingaben
+
+- Versteigerungsakte, Wertgutachten, Besichtigungstermine
+- Mieterliste, Objektzustand, laufende Kosten
+- Gerichtliche Terminsdaten
+
+## Workflow
+
+1. **Informationspaket** - Objektzustand, Mieterlage, Versicherungen, Lasten und Rückstände zusammenstellen.
+2. **Besichtigung** - Zutritt, Mieterkommunikation, Datenschutz und Protokoll steuern.
+3. **Werterhalt** - notwendige Maßnahmen bis Zuschlag oder Aufhebung priorisieren.
+4. **Übergang** - Aufhebung, Schlussrechnung, Endabrechnung und Übergabe planen.
+
+## Ausgabe
+
+- Objektinfopaket
+- Besichtigungsplan
+- Übergabe- und Aufhebungscheck
+
+## Qualitätsgates
+
+- Mieterrechte beachtet
+- Daten nicht unnötig offengelegt
+- Schlussrechnung vorbereitet
+
+## Rote Schwellen
+
+- Bieterzugang ohne Abstimmung
+- Objektwertgefährdung
+- Aufhebung ohne Endabrechnungspfad
+
+## Interne Vorlagen
+
+- assets/templates/besitzuebernahme-protokoll.md
+- assets/templates/schlussrechnung-aufhebung.md
+
+## Amtliche Erstquellen
+
+- ZVG Gesamtfassung
+- § 12 ZwVwV
+
+## Paragrafenkette Versteigerungsschnittstelle
+
+§ 180 ZVG (Anordnung Zwangsversteigerung parallel) → § 55 ZVG (Zuschlag Wirkungen) → § 56 ZVG (Übergabepflicht) → § 57 ZVG (Mieterschutz Ersteher) → § 57a ZVG (Sonderkündigung Ersteher) → §§ 566 BGB (Kauf bricht nicht Miete) → § 155 ZVG (Schlussrechnung bei Zuschlag)
+
+## Triage Versteigerungsschnittstelle
+
+1. Läuft parallel ein Zwangsversteigerungsverfahren?
+2. Wann ist der Versteigerungstermin? (Schlussrechnung vorzubereiten)
+3. Liegen alle Mietvertragsdaten für die Bieterinformation vor?
+4. Sind Mietkautions-Guthaben der Mieter dokumentiert? (Übertragung auf Ersteher)
+
+## bei Zuschlag
+
+1. Zuschlagsdatum und Ersteher festhalten
+2. Nutzungen bis Zuschlagsdatum verbuchen
+3. Schlussrechnung nach § 15 ZwVwV erstellen
+4. Kontostand an Vollstreckungsgericht melden
+5. Mietverhältnisse und Kautionen an Ersteher übergeben
+6. Abschluss-Bericht an Gericht und Gläubiger
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

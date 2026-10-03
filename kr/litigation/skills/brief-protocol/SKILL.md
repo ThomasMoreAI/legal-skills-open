@@ -1,11 +1,11 @@
 ---
 name: brief-protocol
 title: 준비서면 작성 표준 절차 (Brief Protocol)
-description: 준비서면 작성 표준 절차 - 사건 인테이크부터 정본 등록·PDF 추출까지 일관된 오케스트레이션. brief-draft, korean-law, beopgoeul-search, JuriSupport(또는 MD) 스킬을 순서대로 호출하고 각 단계에서 사용자 승인을 받음. 판례 자동 검증은 korean-law 1차 + 법고을 2차 (lbox-search 스킬 자동 호출 안 함, lbox는 사용자 수동 검색용). 법원 전자제출 자체는 자동화하지 않으며 사용자가 직접 수행.
+description: 준비서면 작성 표준 절차 - 사건 인테이크부터 정본 등록·PDF 추출까지 일관된 오케스트레이션. 사건기록 탐색·초안 작성을 직접 수행하고, korean-law, beopgoeul-search, legal-books, JuriSupport(또는 MD) 스킬을 사용 가능한 환경에 맞춰 활용하며 승인된 범위에서 산출물까지 진행함. 판결 검증은 korean-law 1차 + 법고을 2차. 법원 전자제출 자체는 자동화하지 않으며 사용자가 직접 수행.
 author: jurisupport
-author_url: https://github.com/jurisupport/jurisupport-plugins/tree/main/plugins/songmu-legal/skills/brief-protocol
+author_url: https://github.com/jurisupport/jurisupport-plugins/tree/main/plugins/jurisupport/skills/brief-protocol
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: litigation
@@ -14,20 +14,14 @@ language: ko
 
 # 준비서면 작성 표준 절차 (Brief Protocol)
 
-## What this skill does
+먼저 [공통 실행 규칙](../../references/runtime.md)을 읽고 현재 호스트에서 사용 가능한 기능으로 수행한다.
 
-준비서면(또는 답변서·의견서·소장) 작성을 **인테이크 → MD 초안 → 인용 검증 → 정본 등록(JuriSupport 또는 MD) → PDF 추출** 5단계로 표준화한다. 각 단계에서 사용자 승인을 받고 다음으로 진행한다. **법원 전자제출(ecfs 등) 자체는 본 스킬의 범위에 포함하지 아니하며, 사용자가 직접 수행한다.**
+## 실행 계약
 
-## When to use
-
-- "○○ 사건 준비서면 작성해줘"
-- "○○ 사건 답변서 표준 절차로 작성"
-- "/songmu-legal:brief-protocol" 직접 호출
-- 사건번호 + 서면 유형 언급 시 자동 트리거
-
-## Prerequisites
-
-플러그인의 `CLAUDE.md` 플레이북이 채워져 있어야 한다. 비어있으면 `/songmu-legal:cold-start-interview` 먼저 실행.
+- 시작할 때 `~/.jurisupport/playbook.md`(Windows `%USERPROFILE%\.jurisupport\playbook.md`)를 읽는다. 없으면 공통 실행 규칙에 따라 필요한 설정만 확인하거나 `cold-start-interview`를 수행한다.
+- **인테이크 → MD 초안 → 인용 검증 → 정본 등록(JuriSupport 또는 MD) → PDF 추출** 순서와 공통 실행 규칙의 승인 범위를 지킨다.
+- 진행 보고는 결정, 누락 자료, 검증 실패만 짧게 알리고 반복적인 계획·자체 점검 설명은 생략한다.
+- **법원 전자제출(ecfs 등)은 범위 밖이며 사용자가 직접 수행한다.**
 
 ## Workflow
 
@@ -44,27 +38,67 @@ language: ko
 #### 사건 메타데이터 조회 (다음 순서)
 1. JuriSupport MCP 연동 시: `get_case` / `list_cases` 로 사건 정보 확보
 2. 미연동 또는 못 찾으면: **`case-index` 스킬** 로 CSV 인덱스 조회 — `case_index.py --csv <CSV 사건 인덱스 경로> get <사건번호>`
-3. 두 곳 모두 없으면 사용자에게 직접 묻고, 확인된 정보는 CSV에 `add` 하거나 (JuriSupport 연동 시) `create_case` 호출
+3. 두 곳 모두 없으면 사용자에게 직접 묻고, 사용자가 등록을 요청한 경우 확인된 정보만 CSV에 `add` 하거나 JuriSupport `create_case`로 등록한다
 
 > **신규 사건이면**: JuriSupport 연동 사용자는 먼저 https://jurisupport.com/cases 에서 사건을 등록한 뒤 작업을 진행하시면 좋습니다.
 > 전자소송 사건목록을 엑셀로 저장하여 업로드하면 사건이 자동으로 일괄 등록됩니다.
-> 또는 사건번호만 있으면 `mcp__jurisupport__create_case` 로 즉시 등록 가능.
+> 또는 사건번호만 있으면 `create_case` (현재 호스트의 실제 도구명·스키마 확인) 로 즉시 등록 가능.
 
-`hearing-check` 스킬(있다면) 또는 case-index의 `list --upcoming-days 14`로 임박 기일 확인:
+임박 기일 확인 (JuriSupport 연동 시 `list_cases`/기일 조회, 또는 `case-index`의 `list --upcoming-days 14`):
 - 2주 이내 기일이 있으면 알림
 - 기한 역산 (제출 기한이 없으면 기일 5일 전 권장)
 
 ### Phase 2: 사건기록 분석 + 초안 (Draft)
 
-`brief-draft` 스킬 호출 (기존 글로벌 스킬, `~/.claude/skills/brief-draft/`):
-- Phase 1: 사건기록 탐색 (JuriSupport → 로컬 → OneDrive)
-- Phase 2: 쟁점 추출
-- Phase 3: 교과서 검색 (`legal-books` DB)
-- Phase 4: 목차 작성 → **사용자 승인 대기**
-- Phase 5: 초안 생성
+**이 단계는 brief-protocol이 직접 수행한다** (외부 글로벌 스킬에 의존하지 않는다). 경로·탐색 순서는 플레이북 §5를 그대로 따른다.
+
+#### 2-1. 사건기록 탐색 (§5 우선순위 순)
+
+1. **JuriSupport MCP** 연동 시: 사건 문서·증거 조회
+2. **CSV 사건 인덱스**(`case-index` 스킬): 사건번호로 의뢰인·메타 확인 (인덱스가 채워져 있으면)
+3. **사건기록 디렉토리**에서 해당 사건 폴더 매칭:
+   - 클라우드(rclone, 예: OneDrive) 사용 시: `rclone lsf <사건기록 경로> | grep <사건번호>`로 폴더를 찾고, `rclone cat`/`copy`로 본문 확보
+   - 로컬 디렉토리 사용 시: 사건번호로 폴더 매칭
+4. **작성서류(작업본) 디렉토리**에서 기존 초안·증거자료 확인
+
+> ⚠️ 사건기록이 **0건이면 추측으로 작성하지 말 것.** §5 경로가 비어 있거나 사건번호 매칭이 실패한 것일 수 있으니, 경로·사건번호·(필요 시) 의뢰인 폴더명을 사용자에게 확인한 뒤 진행한다. (진행중사건은 사건번호로, 작성서류는 의뢰인명으로 정리된 경우 둘을 잇는 인덱스가 필요할 수 있음 — §5-2 참조.)
+
+#### 2-2. 쟁점 추출
+
+사건기록(소장·답변서·기존 준비서면·서증)에서 다툼 있는 쟁점을 추출한다. (연표·쟁점표 산출물이 있으면 활용.)
+
+#### 2-3. 교과서·문헌 검색
+
+`legal-books` 스킬(보유 시)로 관련 교과서를 검색하고 출처(저자·서명·페이지)를 확보한다.
+
+#### 2-4. 목차 작성과 쟁점 방향
+
+플레이북 §8(서면 유형별 표준 구조) + 하우스 스타일(목차 단계 체계)을 적용한 목차를 잡는다. 사용자가 목차 승인을 요청했으면 확인받고, 전체 초안 작성을 요청했으면 정한 구조를 짧게 알린 뒤 계속한다.
+
+쟁점 방향이 애매하면 단일 결론으로 밀어붙이지 말고 **A~C안 선택지**를 먼저 제시한다. 각 안은 `핵심 논지 / 유리한 점 / 위험 / 추천 여부`만 짧게 적고, 사용자가 고른 안으로 하나의 초안을 작성한다. 불필요하게 A~C 전체 초안을 모두 쓰지 않는다.
+
+#### 2-5. 초안 생성
+
+확정된 작업 범위와 목차로 초안을 작성한다. 문체는 플레이북 §9 격식체. MD 작성 규칙은 플레이북 §4-1A를 따른다. 모든 법령·판결·직접인용은 Phase 3 검증 대상으로 표시한다.
+
+초안 맨 위에는 사람이 읽기 쉬운 선택적 힌트 태그 블록을 둘 수 있다. JS/JSON 문법으로 만들지 않는다.
+
+```md
+<!-- jurisupport
+문서태그: 소송문서
+서면유형: 준비서면
+출력형식: Markdown
+JuriSupport등록: 요청시
+사건번호: 2025가단12345
+사건명: 손해배상(기)
+당사자방향: 원고
+-->
+```
+
+태그가 없어도 작성은 계속한다. 없는 값은 사건 메타데이터·파일명·본문에서 추론하고, 확신이 없을 때만 사용자에게 묻는다.
 
 추가 확장:
-- 유사 사건이 있는지 `case-records` DB 검색 (538개 사건)
+- 유사 사건이 있는지 `case-records` 스킬로 검색 (완료·확정 사건)
 - 우리측 과거 서면 패턴 참조
 
 ### Phase 3: 인용 검증 (Verify)
@@ -76,33 +110,40 @@ language: ko
 #### 3-1. 법령 인용 검증
 ```
 초안의 모든 "○○법 제○조" 패턴 추출
-→ korean-law MCP get_law_text 호출
+→ search_law로 lawId 또는 mst 확보
+→ 해당 식별자와 조문으로 get_law_text 호출 (공통 실행 규칙의 스키마 확인)
 → 조문 실존 + 텍스트 일치 확인
 → 불일치 시 사용자에게 보고
 ```
 
-#### 3-2. 판례 인용 검증
+`korean-law` MCP가 없거나 법제처 OC 발급 전인 경우:
+
+- 사용자가 시연·강의·실습 목적이라고 명시하면 `/jurisupport:offline-law-fallback`을 사용해 플러그인 내장 법령 전문 스냅샷에서 조문을 확인한다.
+- 이 폴백은 헌법, 민법, 민사소송법, 형법, 형사소송법, 상법, 주요 특별형법 전문만 대상으로 한다.
+- 검증 리포트에는 `오프라인 스냅샷(기준일: 2026-06-14)`과 `실제 제출 전 korean-law MCP 또는 국가법령정보센터 재검증 필요`를 표시한다.
+- 실제 사건 제출용 문서는 이 상태로 Phase 3 통과 처리하지 않는다. 온라인 재검증이 될 때까지 "실습 검증"으로만 둔다.
+- MCP가 없다는 이유만으로 WebSearch/WebFetch 또는 일반 웹사이트 검색으로 우회하지 않는다. 먼저 `offline-law-fallback/references/statutes/INDEX.md`와 해당 전문 파일을 확인한다.
+
+#### 3-2. 판결 인용 검증
 ```
 초안의 모든 "대법원 0000. 0. 00. 선고 0000다00000 판결" 패턴 추출
 
 [1차 검증 — korean-law MCP, 플러그인 기본 동작]
-→ korean-law MCP search_precedents(query=판례번호 또는 키워드) 호출
-→ 결과에 동일 판례번호가 있으면 ✅ 일치
-→ get_precedent_text 로 본문 확보 후 인용구 글자단위 비교
+→ search_decisions(domain="precedent", query=키워드, options={caseNumber: 판결번호}) 호출
+  (사건번호가 없으면 options 생략; 구형 서버는 공통 실행 규칙의 대체 도구 확인)
+→ 결과에 동일 판결번호가 있으면 ✅ 일치
+→ 검색 결과 ID로 get_decision_text(domain="precedent", id=ID, full=true) 호출 후 인용구 대조
 
 [2차 검증 — 법고을(beopgoeul-search), 무료 공식 인프라]
-→ 1차에서 못 찾은 판례만 beopgoeul-search 스킬로 재조회
+→ 1차에서 못 찾은 판결만 beopgoeul-search 스킬로 재조회
   (대법원도서관 lx.scourt.go.kr, ~/jurisupport-beopgoeul/ toolkit)
 → 사건번호·법원·선고일·PDF URL을 구조화 데이터로 반환
 → beopgoeul-search 스킬이 없으면 이 단계는 자동 스킵
 
-⚠️ lbox-search **스킬 자동 호출 금지** — 도구 불안정으로 결과 신뢰 불가.
-   다만 lbox.kr 사이트 자체는 사용자가 직접 수동 검색해도 됨 (필요 시 사용자에게 안내).
-
 [최종 처리]
 → 두 경로 모두 실패 → "(미확인)" 표시하고 사용자에게 보고
-→ 사용자가 lbox.kr 등에서 수동으로 확인해 알려주면 그 결과를 반영
-→ 절대 가짜 판례번호를 그대로 두지 말 것
+→ 추가 확인 결과를 알려주면 그 결과를 반영
+→ 절대 가짜 판결번호를 그대로 두지 말 것
 ```
 
 #### 3-3. 직접인용 정확도 검증
@@ -116,17 +157,30 @@ language: ko
 ```
 ■ 인용 검증 결과
 - 법령 인용: 12건 중 12건 일치 ✅
-- 판례 인용: 5건 중 4건 일치, 1건 미확인 ⚠️
+- 판결 인용: 5건 중 4건 일치, 1건 미확인 ⚠️
   - 대법원 2020. 5. 14. 선고 2020다12345 판결 → 검색 결과 없음
 - 직접인용: 8건 중 7건 일치, 1건 불일치 ⚠️
   - "고의 또는 중대한 과실" → 원문 "고의 또는 중과실" (간접인용 권장)
 ```
 
-사용자가 보고 수정 지시 → 반영 → 다시 검증.
+검증 실패가 있으면 근거로 바로잡을 수 있는 부분을 수정하고 다시 검증한다. 사용자 판단·추가 자료가 필요한 항목만 묻는다.
+
+#### 3-5. (선택) 모의변론 약점 점검
+
+모의변론을 함께 요청했으면 정본 확정 전에 수행한다. 요청이 없으면 선택 기능으로 안내하되 답을 기다리며 문서 작성을 중단하지 않는다:
+
+> "정본 확정 전에 `/jurisupport:mock-hearing`(모의변론)으로 상대방·재판부 관점의 약점을 점검할까요? 평결이 '보강' 또는 '재구성'이면 Phase 2(초안)로 되돌려 반영합니다."
+
+- 사용자가 원하면 `mock-hearing` 스킬을 BRIEF 모드로 호출(초안 MD를 검토 대상으로 전달).
+- 사건이론 자체에 문제가 확인되면 `mock-hearing` THEORY 모드로 전환하여 법령·판결·교과서 근거 정리표를 먼저 만들고 청구원인/항변 구성을 보강한다.
+- 평결이 **제출 가능(PROCEED)**: 그대로 Phase 4로 진행.
+- 평결이 **보강(REINFORCE)/재구성(REFRAME)**: 보강 과제를 Phase 2로 되돌려 반영 후 다시 Phase 3 검증.
+- 평결이 **출구(EXIT)**: 정본화·제출을 멈추고 의뢰인 상의를 권고.
+- 요청이 없으면 건너뛰고 Phase 4로 진행(강제 아님).
 
 ### Phase 4: 정본 확정 (MD 유지)
 
-**모든 단계의 정본은 MD 파일.** 자동으로 PDF·DOCX·JuriSupport에 올리지 않는다.
+**기본 정본은 MD 파일.** 사용자가 처음부터 요청한 출력 형식은 Phase 5에서 함께 산출한다. 요청되지 않은 외부 등록·변환을 추가하지 않는다.
 
 #### 4-1. MD 파일 위치 및 명명
 
@@ -135,6 +189,17 @@ language: ko
   (예: ~/작성문서/2025가단12345_홍길동/준비서면_1차_20260519.md)
 버전 관리: 파일명 날짜 변경 또는 git 커밋
 ```
+
+#### 4-1A. MD 내용 점검
+
+정본 확정 전 다음을 점검한다:
+
+- H1 제목이 서면 제목과 일치하는가.
+- 힌트 태그 블록이 있으면 서면유형·출력형식·JuriSupport등록 값이 사용자 지시와 충돌하지 않는가.
+- 소송서류 본문이 `~합니다 / ~입니다` 격식체인가.
+- `## 입증방법`과 `## 첨부서류`가 구분되어 있는가.
+- 서증 인용은 `(갑 제N호증, 제목)` 형식으로 제목을 병기했는가.
+- 서증·첨부서류 원본을 MD 본문에 붙여넣지 않았는가.
 
 #### 4-2. 문서 전달 (Delivery)
 
@@ -154,8 +219,8 @@ language: ko
 
 | 옵션 | 용도 | 도구 | 비고 |
 |---|---|---|---|
-| **PDF** | 법원 제출·외부 전달 | `pandoc`(typst 엔진) / `kordoc` | 가장 범용. 서증 첨부 시 PDF merge |
-| **DOCX** | 의뢰인 편집용·재단작성 | `pandoc` | 점(•) 금지, 들여쓰기+prefix |
+| **PDF** | 법원 제출·외부 전달 | 호스트의 PDF 스킬 또는 설치된 `pandoc`(typst 엔진) / `kordoc` | 가장 범용. 서증 첨부 시 PDF merge |
+| **DOCX** | 의뢰인 편집용·재단작성 | 호스트의 문서 스킬 또는 설치된 `pandoc` | 점(•) 금지, 들여쓰기+prefix |
 | **JuriSupport** | 소송서류 정본 보관 | `create_legal_document` | **소송서류 한정**: 소장·답변서·준비서면·항소·상고이유서. 신청서·보정서·의견서 등은 PDF/DOCX만 선택 |
 
 요청 형식이 모호하면 위 세 옵션을 사용자에게 제시하고 선택받기.
@@ -164,7 +229,7 @@ language: ko
 
 ```
 pandoc <md경로> --pdf-engine=typst \
-  -V mainfont="Apple SD Gothic Neo" -V monofont="Apple SD Gothic Neo" \
+  -V mainfont="<설치된 한글 글꼴>" -V monofont="<설치된 한글 글꼴>" \
   -o <md경로>.pdf
 ```
 
@@ -195,6 +260,18 @@ create_legal_document(
 )
 → 반환된 문서 ID 보관
 ```
+
+MD에 힌트 태그 블록이 있으면 다음처럼 해석한다:
+
+- `서면유형` → `documentType` 후보로 매핑
+  - 소장: `complaint`
+  - 답변서: `answer`
+  - 준비서면: `brief`
+  - 항소이유서·상고이유서: `appeal`
+- `출력형식: JuriSupport` 또는 `JuriSupport등록: 등록` → 사용자의 명시적 등록 요청·승인이 있는지 확인. 태그만 있으면 실제 내용을 보여 주고 승인받는다
+- `출력형식: Markdown/PDF/DOCX` 또는 `JuriSupport등록: 요청시/미등록` → 자동 등록하지 않음
+
+태그는 힌트일 뿐이다. JuriSupport MCP 도구 명세가 요구하는 값과 충돌하면 도구 명세를 우선하고, 불확실한 값은 사용자에게 묻는다.
 
 등록 후 수정 사이클:
 - 작은 수정: `inline_edit_legal_document(documentId, ...)`
@@ -230,37 +307,33 @@ create_legal_document(
 
 ### Phase 7: 제출 후 상태 갱신
 
-사용자가 "제출 완료" 알림 → 다음 중 해당하는 항목만 수행:
+사용자가 "제출 완료"를 알리고 상태 갱신을 요청하면 다음 중 승인된 항목만 수행:
 
 - MD 파일명에 `_submitted_<YYYYMMDD>` suffix 추가 (rename)
 - JuriSupport에 등록한 서면이 있다면: `update_legal_document(documentId, status: "submitted")`
 - 관련 할일 완료 처리 (`update_task_status` — JuriSupport 연동 시)
 - 사건 진행 메모 갱신: "<날짜> <서면 유형> 제출"
-- 차회 기일·후속 할일 확인 (`hearing-check` 호출)
+- 차회 기일·후속 할일 확인 (JuriSupport `list_cases`/기일 조회 또는 `case-index list --upcoming-days 14`)
 - CSV 사건 인덱스 사용 시: 진행단계 갱신
 
-## 사용자 승인 게이트 (Hard Gates)
+## 진행·완료 조건
 
-다음 지점에서 **반드시 사용자 승인**을 받아야 다음 단계로 진행:
-
-1. Phase 2 → Phase 3: **목차 확인** 후
-2. Phase 3 → Phase 4: **검증 리포트 확인** 후
-3. Phase 4 → Phase 5: **MD 정본 확정** 후, "출력 형식 변환할까요? (PDF/DOCX/JuriSupport, 또는 건너뛰기)" 묻기
-4. Phase 5 → Phase 6: **선택한 출력 형식 산출 완료** 후 (옵션 건너뛴 경우 즉시 진입)
-5. Phase 6 → 종료: 사용자가 "전자제출 완료" 알려줄 때
-
-각 게이트에서 AskUserQuestion으로 사용자에게 명시적으로 묻는다.
+- 사용자가 승인한 범위에서는 목차 → 초안 → 검증 → 요청한 출력 형식 산출까지 진행한다. 단계별 승인 요청이 따로 있으면 그 지점만 기다린다.
+- 인용 검증은 생략하지 않는다. 미확인 근거를 검증 완료로 처리하지 않으며, 필요한 사용자 판단·자료를 구체적으로 묻는다.
+- 외부 등록·발송은 실제 대상과 내용에 대한 명시적 요청·승인이 있어야 한다. 기존 승인이 있으면 반복 확인하지 않되 호스트가 요구하는 승인 절차는 따른다.
+- Phase 6에서 산출물을 전달하면 작성 작업은 완료다. 법원 제출 완료를 기다리며 세션을 붙잡지 않는다.
+- Phase 7은 사용자가 나중에 실제 제출 사실을 알려주고 해당 상태 갱신을 요청했을 때 수행한다.
 
 ## 서면 유형별 분기
 
-각 유형에 맞는 표준 구조는 플러그인 `CLAUDE.md` §8 참조.
+각 유형에 맞는 표준 구조는 플레이북 §8 참조.
 
 - **준비서면**: `~합니다 / ~입니다` 경어체
 - **소장**: `~합니다 / ~입니다` 경어체
 - **답변서·의견서·신청서·보정서**: `~합니다 / ~입니다` 경어체
 - **항소·상고이유서**: `~합니다 / ~입니다` 경어체, 항소·상고 이유 명확히 항목화
 
-> 모든 소송서류는 `~합니다 / ~입니다` 격식체로 통일한다 (CLAUDE.md §9 참조).
+> 모든 소송서류는 `~합니다 / ~입니다` 격식체로 통일한다 (플레이북 §9 참조).
 
 ## Notes
 

@@ -5,7 +5,7 @@ description: Generate a legal research memo with claim-level source verification
 author: CoWork-OS
 author_url: https://github.com/CoWork-OS/CoWork-OS/tree/main/resources/skills/legal-verified-research-memo
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -43,13 +43,13 @@ Generate a legal research memo with claim-level source verification, confidence 
 
 ## Parameters
 
-| Name | Type | Required | Description |
-|---|---|---|---|
-| question | string | Yes | Legal question to research |
-| jurisdictions | string | No | Jurisdiction scope |
-| output_report_path | string | No | Where to write the research memo |
+| Name               | Type   | Required | Description                      |
+| ------------------ | ------ | -------- | -------------------------------- |
+| question           | string | Yes      | Legal question to research       |
+| jurisdictions      | string | No       | Jurisdiction scope               |
+| output_report_path | string | No       | Where to write the research memo |
 
 ## Runtime Prompt
 
 - Current runtime prompt length: 1212 characters.
-- Runtime prompt is defined directly in `../legal-verified-research-memo.json`. 
+- Runtime prompt is defined directly in `../legal-verified-research-memo.json`.

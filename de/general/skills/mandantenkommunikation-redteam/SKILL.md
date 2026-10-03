@@ -1,0 +1,52 @@
+---
+name: mandantenkommunikation-redteam
+title: Mandantenkommunikation
+description: 'Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvorlage. Fachgebiet: mandantenanfragen-assistent.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/mandantenkommunikation-redteam
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Mandantenkommunikation
+
+## Arbeitsauftrag
+
+Dieser Arbeitsgang macht **Mandantenkommunikation** im Bereich **mandantenanfragen-assistent** sofort bearbeitbar: erst Akte lesen, dann Rollen, Ziel, Fristen, Belege und Entscheidungspunkte ordnen. Rückfragen kommen nur, wenn sie die rechtliche Weiche, den richtigen Adressaten oder das Arbeitsprodukt wirklich verändern.
+
+## Aktenstart ohne Leerlauf
+
+1. Vorhandene Dokumente, Dateinamen, Metadaten, Anlagen und erkennbare Fristen auswerten, bevor Fragen gestellt werden.
+2. Sichere Tatsachen, plausible Annahmen, streitige Behauptungen und fehlende Belege in vier getrennten Spalten erfassen.
+3. Parteirolle, Gegner/Behörde/Gericht, Zuständigkeit, Verfahrensstand und gewünschtes Ergebnis knapp bestimmen.
+4. Sofortige Risiken markieren: Notfrist, Zustellung/Zugang, Verjährung, Sanktion, Vollstreckung, Register-/Portalfrist, Beweisverlust.
+5. Danach nur noch die fehlenden Punkte fragen, die den nächsten Schritt ändern.
+
+## Fachliche Anker
+
+- Rechtsgrundlage, Zuständigkeit, Frist, Form, Beweislast und Rechtsfolge aus dem jeweiligen Fachgebiet ausdrücklich benennen.
+- Spezialnormen aus den angrenzenden Fachskills dieses Plugins vor Ausgabe gegen Gesetzestext oder amtliche Quelle prüfen.
+- Keine Rechtsprechung oder Literatur aus Modellwissen erzwingen; nur verifizierte, frei prüfbare Fundstellen verwenden.
+
+## Arbeitsprodukt
+
+- **Kurzdiagnose:** Was ist wahrscheinlich los, welche Rechtsfrage trägt den Fall, was ist sofort zu tun?
+- **Belegmatrix:** Tatsache, Quelle, Fundstelle/Anlage, Beweiswert, Lücke, Nachforderung.
+- **Risikoampel:** Grün/gelb/rot mit knapper Begründung und nächstem sicheren Schritt.
+- **Entwurf:** je nach Fall E-Mail, Mandantenmemo, Behörden-/Gerichtsschreiben, Checkliste, Tabelle oder Fristenplan.
+- **Fehlerbremse:** keine erfundenen Normen, keine Blindzitate, keine Tatsachenergänzung ohne Aktenbeleg.
+
+## Ergänzende Hinweise
+
+## Mandantenkommunikation — Pflichtbausteine
+- **Anrede + Bezug:** "In dem Mandat .../In Sachen ...". Sie-Form als Default, Du-Form nur bei ausdrücklicher Mandatsvereinbarung.
+- **Sachstand:** kurz, faktentreu, ohne juristisches Fachgerede; offene Punkte als "[noch zu klären]" markieren.
+- **Empfehlung:** klare Handlungsoption; Alternativen mit Pro/Contra; bei Risiko Ampelfarbe und Schadenshöhe.
+- **Nächste Schritte / Frist:** konkrete Daten, kein "alsbald"; bei Klagefrist § 187 BGB Fristbeginn explizit nennen.
+- **Kostenhinweis (§ 49b Abs. 5 BRAO):** voraussichtliche Gebühren nach RVG-VV oder Honorarvereinbarung; bei Streitwertberechnung GKG/RVG live prüfen.
+- **Unterschrift:** Berufsbezeichnung (Rechtsanwalt/Fachanwalt für ...), Kanzleidaten, ggf. Postulationsfähigkeit (§ 78 ZPO).
+- Falle: Erfolgsversprechen jenseits der vertretbaren Aussichten verletzt § 43a Abs. 3 BRAO.

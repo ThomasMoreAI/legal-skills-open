@@ -1,16 +1,22 @@
 ---
 name: patent
 title: Patent — Prior-Art + Landscape Intelligence
-description: 'Patent prior-art and landscape intelligence skill — not generic patent help. Commits to one of five sub-use-cases via forcing intake (novelty search / freedom-to-operate / competitive landscape / acquisition diligence / litigation prior-art) before any search runs. Searches Google Patents, Espacenet, USPTO, and optionally Lens.org for citation-graph signals. Output is an editable Word document (.docx) with verdict, ranked closest art (claim-text extracted), CPC-class-aware landscape, family-resolved hits, geographic coverage, FTO flags where applicable, strategy recommendations, and full audit log. Triggers: ''prior art search for [invention]'', ''patent search on [topic]'', ''freedom to operate analysis'', ''FTO for [product]'', ''patent landscape for [field]'', ''is [invention] novel'', ''patents on [topic]'', ''competitive patent analysis'', ''prior art for litigation'', ''patent diligence on [company]''. Produces search signal, not legal advice — always recommends consulting
-  a patent attorney before filing or licensing decisions. Trademark, copyright, and trade-secret questions are out of scope.'
+description: Patent prior-art and landscape intelligence skill — not generic patent help. Commits to one of five sub-use-cases via forcing intake (novelty search / freedom-to-operate / competitive landscape / acquisition diligence / litigation prior-art) before any search runs. Searches Google Patents, Espacenet, USPTO, and optionally Lens.org for citation-graph signals. Output is an editable Word document (.docx) with verdict, ranked closest art (claim-text extracted), CPC-class-aware landscape, family-resolved hits, geographic coverage, FTO flags where applicable, strategy recommendations, and full audit log. Use when the user asks for patent searching or analysis (e.g., 'prior art search for [invention]', 'freedom to operate analysis for [product]'). Produces search signal, not legal advice — always recommends consulting a patent attorney before filing or licensing decisions. Trademark, copyright, and trade-secret questions are out of scope.
 author: alirezarezvani
 author_url: https://github.com/alirezarezvani/claude-skills/tree/main/research/patent/skills/patent
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: en
+sources:
+- title: Cpc classification canon
+  path: references/cpc_classification_canon.md
+- title: Legal disclaimer discipline
+  path: references/legal_disclaimer_discipline.md
+- title: Sub use case routing
+  path: references/sub_use_case_routing.md
 ---
 
 # Patent — Prior-Art + Landscape Intelligence
@@ -108,7 +114,7 @@ Asked for novelty and FTO; skipped for pure landscape (always signal-gathering b
 Deterministic from intake answers. Use `scripts/sub_use_case_router.py`:
 
 ```bash
-python ../scripts/sub_use_case_router.py \
+python scripts/sub_use_case_router.py \
   --sub-use-case novelty \
   --jurisdictions "" \
   --risk strict \
@@ -183,7 +189,7 @@ If no Lens.org key: skip; note in audit log; recommend manual citation review on
 Same invention often filed in multiple jurisdictions (US + EP + JP + CN). Group by family ID or priority number to avoid double-counting. Use `scripts/family_resolver.py`:
 
 ```bash
-python ../scripts/family_resolver.py --hits-file hits.json
+python scripts/family_resolver.py --hits-file hits.json
 # Returns: deduplicated family list + family-member jurisdictions
 ```
 
@@ -238,7 +244,7 @@ Surface the **legally-relevant date** per sub-use-case:
 
 - Save: `<output-dir>/patent_<invention-slug>_<sub-use-case>_<YYYY-MM-DD>.docx`
 - Chat summary: file path + sub-use-case + verdict + audit counts + plan-tier
-- Validate: `python scripts/office/validate.py <docx>`
+- Validate: check zip integrity with `python3 -c "import zipfile,sys; zipfile.ZipFile(sys.argv[1]).testzip()" <docx>` (no output = intact), then confirm the required sections are present
 - Reminder: "Consult patent attorney before filing/licensing"
 
 ## Tooling
@@ -287,5 +293,5 @@ Surface the **legally-relevant date** per sub-use-case:
 ---
 
 **Version:** 1.0.0
-**Source spec:** [`megaprompts/11-patent-megaprompt.md`](../../../../megaprompts/11-patent-megaprompt.md)
+**Source spec:** `megaprompts/11-patent-megaprompt.md` (maintainer-local draft spec — gitignored, not present in the public repository)
 **Build pattern:** Path B (direct conversion). Research-pack sibling, sub-use-case routing variant.

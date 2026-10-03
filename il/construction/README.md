@@ -10,7 +10,7 @@ Jurisdiction: `il` · Practice: `construction` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Renovation Scope Builder`](skills/israeli-renovation-scope-builder-skills-il/) | Not legal advice. Builds a written scope of work and engagement terms for an Israeli home renovation, for a… |
+| [`Israeli Renovation Scope Builder`](skills/israeli-renovation-scope-builder-skills-il/) | Not legal advice. Builds a written scope of work and engagement terms for an Israeli home renovation… |
 
 ## Cold-start context
 

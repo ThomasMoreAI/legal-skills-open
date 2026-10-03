@@ -10,12 +10,12 @@ Jurisdiction: `at` · Practice: `contracts` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht compare -- Vertragsvergleich`](skills/recht-compare-momarcode1/) | Side-by-side comparison of two contract versions under Austrian law. Flags additions, removals, and dangerous… |
-| [`/recht missing -- Fehlende Klauseln`](skills/recht-missing-momarcode1/) | Finds clauses that SHOULD be in a contract under Austrian law but are missing. Checks against type-specific… |
-| [`/recht negotiate — Verhandlungsstrategie`](skills/recht-negotiate-momarcode1/) | Generates counter-proposals with replacement language (Formulierungsvorschlaege) for unfavorable contract… |
-| [`/recht plain — Klartext-Ubersetzung`](skills/recht-plain-momarcode1/) | Translates Austrian legal language (Juristendeutsch) into plain German (Klartext). Every clause explained in… |
+| [`/recht compare -- Vertragsvergleich`](skills/recht-compare-momarcode1/) | Side-by-side comparison of two contract versions under Austrian law. Flags additions, removals, and… |
+| [`/recht missing -- Fehlende Klauseln`](skills/recht-missing-momarcode1/) | Finds clauses that SHOULD be in a contract under Austrian law but are missing. Checks against… |
+| [`/recht negotiate — Verhandlungsstrategie`](skills/recht-negotiate-momarcode1/) | Generates counter-proposals with replacement language (Formulierungsvorschlaege) for unfavorable… |
+| [`/recht plain — Klartext-Ubersetzung`](skills/recht-plain-momarcode1/) | Translates Austrian legal language (Juristendeutsch) into plain German (Klartext). Every clause… |
 | [`/recht review — Vertragsprüfung (Full Review)`](skills/recht-review-momarcode1/) | Full contract and legal document review for Austrian law with 5 parallel agents. Returns a… |
-| [`/recht risks -- Risikoanalyse (Deep Risk Analysis)`](skills/recht-risks-momarcode1/) | Deep risk analysis for contracts and legal situations under Austrian law. Severity scoring per clause,… |
+| [`/recht risks -- Risikoanalyse (Deep Risk Analysis)`](skills/recht-risks-momarcode1/) | Deep risk analysis for contracts and legal situations under Austrian law. Severity scoring per clause… |
 
 ## Cold-start context
 

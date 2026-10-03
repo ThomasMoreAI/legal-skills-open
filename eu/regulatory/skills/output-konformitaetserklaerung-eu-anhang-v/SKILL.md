@@ -1,11 +1,11 @@
 ---
 name: output-konformitaetserklaerung-eu-anhang-v
 title: 'Output: EU-Konformitätserklärung — Art. 47 und Anhang V KI-VO'
-description: 'Anbieter benoetigt das fertige Musterdokument für die EU-Konformitätserklärung zum Ausfuellen und Unterzeichnen. Art. 47 i.V.m. Anhang V KI-VO EU-Konformitätserklärung. Pflichtinhalt Anhang V: eindeutige Systemidentifikation Anbieter Bevollmaechtigter Verweis auf harmonisierte Normen gemeinsame Spezifikationen oder andere Referenzen Unterzeichnung. Output: vollständige Muster-Konformitätserklärung als Formular. Abgrenzung zu hochrisiko-konformitätsbewertung-art-43-bis-49 (Bewertungsverfahren) und eu-datenbank-registrierung-art-49-und-71 (Registrierung).'
+description: 'Für Output: EU-Konformitätserklärung — Art. 47 und Anhang V europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/output-konformitaetserklaerung-eu-anhang-v
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Output: EU-Konformitätserklärung — Art. 47 und Anhang V KI-VO
-
-## Zweck
-
-Dieser Skill generiert ein Musterdokument für die EU-Konformitätserklärung, die Anbieter von Hochrisiko-KI-Systemen nach Art. 47 i.V.m. Anhang V KI-VO ausstellen müssen.
 
 ## Rechtliche Grundlage
 
@@ -33,52 +29,52 @@ nach Anhang V der Verordnung (EU) 2024/1689
 Nr.: [Eindeutige Erklärungsnummer]
 
 1. Bezeichnung des KI-Systems:
-   [Produktname, Modellbezeichnung, Version]
+ [Produktname, Modellbezeichnung, Version]
 
 2. Name und Anschrift des Anbieters:
-   [Firma]
-   [Straße und Hausnummer]
-   [PLZ Ort]
-   [EU-Mitgliedstaat]
+ [Firma]
+ [Straße und Hausnummer]
+ [PLZ Ort]
+ [EU-Mitgliedstaat]
 
 3. Name und Anschrift des Bevollmächtigten
-   (falls außerhalb EU):
-   [Name und Anschrift des Bevollmächtigten]
+ (falls außerhalb EU):
+ [Name und Anschrift des Bevollmächtigten]
 
 4. Die alleinige Verantwortung für die
-   Ausstellung dieser Konformitätserklärung
-   trägt der Anbieter.
+ Ausstellung dieser Konformitätserklärung
+ trägt der Anbieter.
 
 5. Gegenstand der Erklärung
-   (Identifikation des KI-Systems, das eine
-   Rückverfolgung ermöglicht):
-   [Beschreibung des KI-Systems]
-   [Verwendungszweck]
-   [Versionsnummer oder Seriennummer]
+ (Identifikation des KI-Systems, das eine
+ Rückverfolgung ermöglicht):
+ [Beschreibung des KI-Systems]
+ [Verwendungszweck]
+ [Versionsnummer oder Seriennummer]
 
 6. Der oben beschriebene Gegenstand der
-   Erklärung entspricht den einschlägigen
-   Unionsrechtsvorschriften:
-   Verordnung (EU) 2024/1689 (KI-VO)
+ Erklärung entspricht den einschlägigen
+ Unionsrechtsvorschriften:
+ Verordnung (EU) 2024/1689 (KI-VO)
 
 7. Angaben zu den angewandten harmonisierten
-   Normen, gemeinsamen Spezifikationen oder
-   sonstigen Spezifikationen, auf die sich
-   die Konformitätserklärung bezieht:
-   [Harmonisierte Norm nur nennen, wenn einschlaegige Fundstelle im Amtsblatt der EU veroeffentlicht ist]
-   [Verweis auf gemeinsame Spezifikationen, falls einschlaegig]
-   [Verweis auf sonstige technische Spezifikationen, z.B. interne Tests oder ISO/IEC-Standards ohne Vermutungswirkung]
+ Normen, gemeinsamen Spezifikationen oder
+ sonstigen Spezifikationen, auf die sich
+ die Konformitätserklärung bezieht:
+ [Harmonisierte Norm nur nennen, wenn einschlaegige Fundstelle im Amtsblatt der EU veroeffentlicht ist]
+ [Verweis auf gemeinsame Spezifikationen, falls einschlaegig]
+ [Verweis auf sonstige technische Spezifikationen, z.B. interne Tests oder ISO/IEC-Standards ohne Vermutungswirkung]
 
 8. Angaben zur beteiligten benannten Stelle
-   (falls zutreffend):
-   [Name der benannten Stelle]
-   [Kennnummer der benannten Stelle]
-   [Art der Konformitätsbewertung]
-   [Bescheinigungsnummer und -datum]
+ (falls zutreffend):
+ [Name der benannten Stelle]
+ [Kennnummer der benannten Stelle]
+ [Art der Konformitätsbewertung]
+ [Bescheinigungsnummer und -datum]
 
 9. Zusätzliche Informationen
-   [Besondere Einsatzbedingungen,
-    Einschränkungen oder Hinweise]
+ [Besondere Einsatzbedingungen,
+ Einschränkungen oder Hinweise]
 
 Unterzeichnet für und im Namen des Anbieters:
 
@@ -119,28 +115,22 @@ Die Erklärung ist zu aktualisieren, wenn:
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
 - Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
 2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
 3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
 4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
+5. Ist die Maßnahme nach aktuellem Art. 113- und Digital-Omnibus-Zeitstrahl fristgerecht umgesetzt?
 
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
+## Output-Template — Prüfergebnis
+**Adressat:** Prüfer / Rechtsberater — Tonfall: strukturiert-rechtlich
 ```
 PRUEFERGEBNIS — OUTPUT KONFORMITAETSERKLAERUNG EU ANHANG V
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
@@ -151,10 +141,12 @@ Gepruefte Norm(en): [Anhang V Rn. 2]
 Ergebnis:
 [ ] Anforderung erfuellt
 [ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
+ 1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
 [ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
 
 Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

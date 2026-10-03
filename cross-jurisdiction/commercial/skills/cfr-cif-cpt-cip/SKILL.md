@@ -1,0 +1,59 @@
+---
+name: cfr-cif-cpt-cip
+title: 'CFR, CIF, CPT, CIP: C-Klauseln'
+description: 'Für CFR, CIF, CPT, CIP: C-Klauseln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/cfr-cif-cpt-cip
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# CFR, CIF, CPT, CIP: C-Klauseln
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Die C-Klauseln (CFR, CIF, CPT, CIP) sind Hybrid-Klauseln: Gefahrübergang am Abgangsort (wie F-Klauseln), aber Kostentragung bis zum Bestimmungsort durch den Verkäufer. Incoterms 2020 hat CIP aufgewertet: Verkäufer muss jetzt mit Institute Cargo Clauses (A) versichern (All-Risk), während CIF bei der Mindestdeckung (Klausel C) bleibt.
+
+## Kernnormen / Kernquellen
+
+- **Incoterms 2020 CFR A3/B3**: Kosten bis Bestimmungshafen; Gefahr nach Verladung
+- **Incoterms 2020 CIF A5**: Versicherungspflicht — ICC-Klausel C (Mindestdeckung); nur Seefracht
+- **Incoterms 2020 CPT A3/B3**: Multimodal; Kosten bis benannten Ort; Gefahr nach Übergabe an Frachtführer
+- **Incoterms 2020 CIP A5**: Versicherungspflicht — ICC-Klausel A (All Risk); Upgrade ggü. 2010
+- **Institute Cargo Clauses (A), (B), (C)**: Lloyd's Market Association (LMA/IUA)
+- **UCP 600 Art. 28**: Transportversicherungsdokument im Akkreditivrecht
+
+## Schlüsselbegriffe
+
+- Gefahrübergang bei C-Klauseln: am Abgangsort (nicht am Bestimmungsort — trotz Kostentragung)
+- CIF vs. CIP: Seefracht (CIF) vs. multimodal (CIP); Versicherungsniveau unterschiedlich
+- Institute Cargo Clauses A: umfassende Deckung inkl. Diebstahl, Beschädigung; B/C eingeschränkter
+- Akkreditiv und CIF: UCP 600 Art. 28 — Mindestanforderungen Versicherungszeugnis
+- Named Port of Destination: möglichst spezifisch (Terminal) für Kostenzwecke
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. CIF: Ware beschädigt nach Verladung — Käufer trägt Gefahr, aber Verkäufer hat versichert — wer klagt Versicherer?
+2. CIP 2020: Kann Käufer downgrade auf ICC Klausel C verlangen?
+3. CFR vs. CIF im Akkreditiv: Was wenn Akkreditiv CIF fordert aber Vertrag CFR hat?
+4. CPT multimodal: Wann genau geht Gefahr über bei Containerübergabe (FCA und CPT identisch)?
+5. Akkreditiv: UCP 600 Art. 28 — Mindestversicherungswert (110% Fakturwert)?
+
+## Methodik
+
+- C-Klauseln: Gefahrübergang IMMER am Abgangsort, nicht am Bestimmungsort kommunizieren
+- CIF vs. CIP Entscheidung: Transportmodus (See vs. multimodal) und Versicherungsbedarf
+- Versicherungszeugnis für Akkreditiv: UCP 600 Art. 28 Anforderungen vor Vertragsabschluss abstimmen
+- Named Destination: Terminal-Level-Spezifizierung für Frachtkostentransparenz

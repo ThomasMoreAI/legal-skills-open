@@ -1,11 +1,11 @@
 ---
 name: mietkaution-rueckforderung
 title: Mietkaution-Rückforderung
-description: Workflow-Skill zu mietkaution rueckforderung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Mietkaution-Rückforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mietkaution-rueckforderung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -14,9 +14,19 @@ language: de
 
 # Mietkaution-Rückforderung
 
-## Zweck
+## Arbeitsweg
 
-Nach Auszug aus der Wohnung ist die Rückforderung der Mietkaution ein häufiges Streitthema. Strukturierte Bearbeitung des Mieter-Anspruchs.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mietkaution-Rückforderung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -86,8 +96,8 @@ Nach Auszug aus der Wohnung ist die Rückforderung der Mietkaution ein häufiges
 ### Schönheitsreparaturen
 
 - **Wirksamkeit der Klausel** prüfen — viele Klauseln unwirksam
-- **BGH 18.03.2015, VIII ZR 185/14** (Aufgabe der „starren" Fristenplaene): Klauseln, die Schoenheitsreparaturen-Pflicht ohne Beruecksichtigung des konkreten Verschleisses vorschreiben, sind unwirksam (dejure.org/2015,4682).
-- **BGH 22.08.2018, VIII ZR 277/16**: Schoenheitsreparaturen-Klausel bei unrenoviert uebernommener Wohnung — § 538 BGB; ohne Ausgleich unwirksam (dejure.org/2018,21586).
+- BGH, Urteil vom 18.03.2015 - VIII ZR 185/14: Eine formularmäßige Schönheitsreparaturklausel für unrenoviert oder renovierungsbedürftig überlassenen Wohnraum ist ohne angemessenen Ausgleich unwirksam; den Anfangszustand beweist der Mieter, den Ausgleich der Vermieter.
+- BGH, Urteil vom 22.08.2018 - VIII ZR 277/16: Eine Renovierungsvereinbarung des Mieters mit dem Vormieter ändert im Verhältnis zum Vermieter nichts daran, dass die Wohnung unrenoviert überlassen wurde.
 
 ## Schritt 5 — Forderungs-Schreiben
 
@@ -142,7 +152,7 @@ Mit freundlichen Grüßen
 
 ### Sachlich
 
-- AG bei Wohnraum-Mietsache § 23 Nr. 2 a) GVG ausschließlich
+- AG bei Wohnraummietsachen ausschließlich und streitwertunabhängig nach Paragraf 23 Nummer 2a GVG; für Gewerberaummiete gilt die allgemeine Wertzuständigkeit nach Paragraf 23 Nummer 1 GVG und Paragraf 71 Absatz 1 GVG.
 
 ### Örtlich
 

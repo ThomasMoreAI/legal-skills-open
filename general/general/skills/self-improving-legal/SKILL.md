@@ -5,11 +5,18 @@ description: 'Captures clause risks, compliance gaps, precedent shifts, contract
 author: aAAaqwq
 author_url: https://github.com/aAAaqwq/AGI-Super-Team/tree/master/skills/self-improving-legal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Examples
+  path: references/examples.md
+- title: Hooks setup
+  path: references/hooks-setup.md
+- title: Openclaw integration
+  path: references/openclaw-integration.md
 ---
 
 # Self-Improving Legal Skill

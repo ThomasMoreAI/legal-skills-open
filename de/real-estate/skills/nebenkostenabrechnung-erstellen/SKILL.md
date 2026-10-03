@@ -1,11 +1,11 @@
 ---
 name: nebenkostenabrechnung-erstellen
 title: Nebenkostenabrechnung erstellen (Vermieter / Hausverwaltung)
-description: Vermieter- und Hausverwaltungssicht — Workflow für rechtssichere Betriebskostenabrechnungen nach § 556 BGB und BetrKV. Deckt Abrechnungszeitraum Zugangsfrist (zwoelf Monate) Umlagefähigkeit Verteilerschluessel HeizkostenV Vorauszahlungen und Mindestinhalt ab. Hinweise zu typischen Fehlerquellen die zur Unwirksamkeit führen. Erzeugt eine Mustergliederung und Prüfroutine vor Versand. Disclaimer im Skill und vor jedem Versand-Schritt.
+description: 'Für Nebenkostenabrechnung erstellen (Vermieter / Hausverwaltung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/nebenkostenabrechnung-erstellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -72,6 +72,14 @@ Der nachstehende Workflow ist eine Arbeitsgrundlage. Vor Versand einer Abrechnun
 ## Ausgabe
 
 Mustergliederung der Abrechnung als Markdown plus Checkliste vor Versand. Vor der finalen Freigabe Disclaimer wiederholen.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Aktuelle Rechtsprechung — Leitsaetze (Stand 05/2026, verifiziert dejure.org)
 

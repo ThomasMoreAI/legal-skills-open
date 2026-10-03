@@ -1,0 +1,75 @@
+---
+name: bauvertrag-und-verbraucherbauvertrag
+title: Bauvertrag und Verbraucherbauvertrag
+description: 'Für Bauvertrag und Verbraucherbauvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bgb-bt-pruefer/skills/bauvertrag-und-verbraucherbauvertrag
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Bauvertrag und Verbraucherbauvertrag
+
+## Fachkern: Bauvertrag und Verbraucherbauvertrag
+- **Normen-/Quellenanker:** BGB Besonderer Teil: Kaufrecht, Werk-/Dienstvertrag, Auftrag/Geschäftsbesorgung, Miet-/Leasingnähe, GoA, Bereicherung, Delikt, Verjährung und AGB-Schnittstellen.
+- **Entscheidende Weiche:** Anspruchsgrundlage, Vertragstyp/Mischvertrag, Pflichtverletzung, Vertretenmüssen, Schaden, Einwendung und Beweisfrage sauber trennen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Normanker
+
+- §§ 650a–650v BGB: Bauvertrag, Verbraucherbauvertrag, Architekten- und Ingenieurvertrag
+- §§ 631–650 BGB: allgemeines Werkvertragsrecht als Basis
+- § 640 BGB: Abnahme und Abnahmepflicht
+- § 641 BGB: Fälligkeit der Vergütung
+- § 650b BGB: Anordnungsrecht des Bestellers
+- § 650c BGB: Vergütungsanpassung bei Anordnungen
+- § 650e BGB: Sicherungshypothek des Unternehmers
+- § 650f BGB: Bauhandwerkersicherheit
+- §§ 650i–650n BGB: Verbraucherbauvertrag (Informationspflichten, Widerrufsrecht)
+- VOB/B als ergänzendes Regelwerk (nur wenn vereinbart)
+
+## Intake
+
+- Handelt es sich um einen einfachen Bauvertrag oder einen Verbraucherbauvertrag?
+- Ist die VOB/B wirksam in den Vertrag einbezogen worden?
+- Welche Leistungspflichten wurden vereinbart und welche Abweichungen sind eingetreten?
+- Wurde die Abnahme erklärt oder verweigert; liegen Mängel vor?
+- Gibt es Anordnungen des Bestellers nach § 650b BGB und wie wurde die Vergütung angepasst?
+- Welche Sicherheiten wurden gestellt oder gefordert?
+- Bestehen Kündigungsrechte nach § 648 oder § 648a BGB?
+
+## Prüfraster
+
+1. Vertragstyp: Bauvertrag (§ 650a BGB), Verbraucherbauvertrag (§ 650i BGB) oder allgemeiner Werkvertrag?
+2. VOB/B-Einbeziehung und AGB-Wirksamkeit nach §§ 305 ff. BGB prüfen
+3. Abnahme: ordnungsgemäße Erklärung, fiktive Abnahme, verweigerte Abnahme mit Mängelrüge
+4. Mängel: Sachmangel nach § 633 BGB, Nacherfüllungspflicht, Fristsetzung
+5. Vergütungsanpassung bei Anordnungen nach § 650c BGB
+6. Sicherungshypothek (§ 650e BGB) und Bauhandwerkersicherheit (§ 650f BGB) prüfen
+7. Kündigung: freie Kündigung (§ 648 BGB), außerordentliche Kündigung (§ 648a BGB)
+8. Verjährung der Mängelrechte: § 634a BGB (5 Jahre bei Bauwerken)
+
+## Fallstricke
+
+- Beim Verbraucherbauvertrag gelten strenge Informationspflichten und ein Widerrufsrecht nach § 650l BGB.
+- Die fiktive Abnahme setzt eine ordnungsgemäße Fristsetzung voraus.
+- Vergütungsanpassung nach § 650c BGB muss rechtzeitig geltend gemacht werden.
+- VOB/B-Klauseln können gegenüber Verbrauchern als AGB unwirksam sein.
+
+## Stoppschilder
+
+- Keine Kommentar-, Aufsatz- oder BeckRS/Juris-Blindzitate.
+- Tragende Gesetzesstände live gegen amtliche/frei zugängliche Quellen prüfen.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarer Quelle verwenden.
+- Bei Unsicherheit die Annahme ausdrücklich markieren und eine Rückfrage oder Quellenprüfung auslösen.
+
+## Anschluss-Skills
+
+- werkvertrag-grundschema-paragraph-631
+- werkvertrag-abnahme-und-faelligkeit
+- werkvertrag-maengelrechte
+- workflow-fristen-ruecktritt-kuendigung

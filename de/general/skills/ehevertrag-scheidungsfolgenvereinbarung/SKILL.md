@@ -1,0 +1,59 @@
+---
+name: ehevertrag-scheidungsfolgenvereinbarung
+title: 1. Ehevertrag und Scheidungsfolgen urkundlich vorbereiten
+description: Bereitet Eheverträge und Scheidungsfolgenvereinbarungen im Notariat vor. Verbindet Güterrecht, Unterhalt, Versorgung und Grundstücksübertragung mit konkreten Wünschen, Wertnachweisen und getrennten Formanforderungen, ohne einseitige Verzichtswünsche als Einigung auszugeben.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/ehevertrag-scheidungsfolgenvereinbarung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# 1. Ehevertrag und Scheidungsfolgen urkundlich vorbereiten
+
+## 1. Zweck und Anwendungsfall
+
+Erstelle aus abgestimmten Zielen und tatsächlichen Verhältnissen eine notarielle Vertragsvorlage. Die Mitarbeiterarbeit ist neutral gegenüber beiden Beteiligten; Belehrung und rechtliche Gestaltungsentscheidung bleiben beim Notar. Keine Interessenvertretung eines Ehegatten vortäuschen.
+
+## 2. Eingaben
+
+Bestehender Ehevertrag, Heirats- und gegebenenfalls Trennungsdaten, Regelungswünsche, Kinderbetreuung, Erwerbsverlauf, Vermögensnachweise, Versorgungsanrechte und Grundbuchunterlagen. Bei einem vollständigen anwaltlichen Entwurf nicht nochmals eine allgemeine Aufnahme durchführen. Frage bei fehlendem Ziel, ob Güterstand, konkrete Ausgleichszahlung oder sämtliche Scheidungsfolgen geregelt werden sollen.
+
+## 3. Ablauf
+
+### 3.1. Jeden Regelungsgegenstand abgrenzen
+
+Güterstand und Zugewinnausgleich von Unterhalt, Versorgungsausgleich und Eigentumsübertragung trennen. Eine Hausübernahme entlässt niemanden ohne Zustimmung der Bank aus der Darlehensschuld. Für Abfindung und Gegenleistung Werte mit Stichtag und Quelle verwenden. Fehlende Bewertung nicht durch eine frei erfundene Pauschale ersetzen.
+
+### 3.2. Form und Wirksamkeitsfragen gezielt prüfen
+
+BGB Paragraf 1410 verlangt für den Ehevertrag gleichzeitige Anwesenheit beider Teile bei der notariellen Niederschrift; zulässige Vertretung und ihre Grenzen gesondert prüfen, keine pauschale Pflicht zum persönlichen Erscheinen beider behaupten. Versorgungsausgleich nach VersAusglG Paragrafen 6 bis 8 und nachehelichen Unterhalt nach BGB Paragraf 1585c jeweils mit eigenem Zeitpunkt und Formtatbestand prüfen. Grundstücksübertragung nach BGB Paragraf 311b Absatz 1 hinzunehmen.
+
+Wirksamkeitskontrolle nach BGB Paragraf 138 und Ausübungskontrolle nach Paragraf 242 anhand konkreter Verhandlungs- und Lebensumstände auseinanderhalten. Schwangerschaft, einseitige Erwerbsaufgabe und wirtschaftliche Abhängigkeit sind aufzuklärende Umstände, keine automatische Unwirksamkeitsformel. Zukünftigen Kindes- oder Trennungsunterhalt nicht ungeprüft in einen Generalverzicht aufnehmen.
+
+### 3.3. Vertrag und offene Entscheidung entwickeln
+
+Ausgleichsbetrag, Fälligkeit, Sicherung, Vollzugsabhängigkeit und Folgen einer verweigerten Bankfreigabe ausformulieren. Bei abweichenden Wünschen nur die streitige Klausel mit verständlichen Alternativen zur notariellen Prüfung vorlegen. Medizinische, steuerliche oder versicherungsmathematische Feststellungen nicht fingieren.
+
+### 3.4. Rückmeldung in die Vereinbarung übernehmen
+
+Nach Bankzustimmung Schuldhaftung und Grundbuchvollzug neu abstimmen; ohne Zustimmung nur das Innenverhältnis regeln, soweit gewollt. Nach korrigierter Versorgungsauskunft den betroffenen Ausgleich, nicht sämtliche Vermögenswerte ändern. Abschließend an `urkundenmappe-zur-freigabe` übergeben; kein erneutes Interview.
+
+### 3.5. Wirksamkeit und spätere Ausübung getrennt begründen
+
+[BGH, Urteil vom 11.02.2004, XII ZR 265/02](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/XII_ZS/2002/XII_ZR_265-02.pdf?__blob=publicationFile&v=1), amtlicher Volltext Seiten 23 bis 26, unterscheidet die Wirksamkeitskontrolle anhand der Verhältnisse bei Vertragsschluss nach BGB Paragraf 138 von der Ausübungskontrolle bei späterer Berufung auf den Vertrag nach Paragraf 242. Betreuungsbelastung, Erwerbsverzicht, Versorgung und vereinbarte Kompensation im Gesamtzusammenhang erfassen. Weder Schwangerschaft noch Einkommensunterschied begründen für sich eine automatische Gesamtnichtigkeit; notarielle Belehrung ersetzt umgekehrt keine Inhaltskontrolle. Die damaligen Versorgungsausgleichsnormen nicht fortschreiben: heute VersAusglG Paragrafen 6 bis 8 verwenden. Nach veränderter Familienplanung die konkret betroffenen Verzichts- und Ausgleichsregelungen neu entwerfen, nicht nur eine allgemeine salvatorische Klausel ergänzen.
+
+## 4. Quellenpflicht
+
+[BGB Paragraf 1410](https://www.gesetze-im-internet.de/bgb/__1410.html), [Paragraf 1585c](https://www.gesetze-im-internet.de/bgb/__1585c.html), [VersAusglG](https://www.gesetze-im-internet.de/versausglg/) und [Zitierweise](../../references/zitierweise.md). Rechtsprechung zu Inhaltskontrolle nur mit konkretem Vergleich der dortigen Vertragssituation verwenden; ein bloßes Aktenzeichen ersetzt diesen Vergleich nicht.
+
+## 5. Ausgabeformat
+
+Vollständig ausformulierte Vereinbarung als „Entwurf zur notariellen Prüfung“ und getrennte kurze Entscheidungsfragen. Times New Roman 11 pt, dezimale Gliederung. Keine behauptete Belehrung, Zustimmung, Bankfreigabe oder Unterzeichnung.
+
+## 6. Beispiel
+
+Ein Ehegatte übernimmt das Haus gegen Ausgleich; die finanzierende Bank hat den anderen noch nicht entlassen. Formuliere die vereinbarte interne Lastentragung und lege den offenen Entlassungsweg vor, statt schon persönliche Haftungsfreiheit zu versprechen.

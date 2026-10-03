@@ -8,7 +8,7 @@ Jurisdiction: `de` · Practice: `arbitration` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`Schiedsklausel — Prüfung und Gestaltung`](skills/fachanwalt-internationales-wirtschaftsrecht-schiedsklausel/) | Mandant verhandelt internationalen Vertrag und fragt: Sollen wir eine Schiedsklausel aufnehmen und wie… |
+| [`Schiedsklausel — Prüfung und Gestaltung`](skills/fachanwalt-internationales-wirtschaftsrecht-schiedsklausel/) | Für Schiedsklausel — Prüfung und Gestaltung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 
 ## Cold-start context
 

@@ -5,11 +5,18 @@ description: 监管问询回复助手（IPO 版）- 协助撰写 IPO 审核问�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/regulatory-inquiry-response-ipo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: capital-markets
 language: zh
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Ipo inquiry types
+  path: references/ipo-inquiry-types.md
+- title: Response templates
+  path: references/response-templates.md
 ---
 
 # 监管问询回复助手（IPO 版）

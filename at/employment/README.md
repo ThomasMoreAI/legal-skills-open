@@ -10,7 +10,7 @@ Jurisdiction: `at` · Practice: `employment` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht arbeit — Arbeitsrechtliche Analyse`](skills/recht-arbeit-momarcode1/) | Austrian employment law analysis — employment contracts, KollV identification and classification, working… |
+| [`/recht arbeit — Arbeitsrechtliche Analyse`](skills/recht-arbeit-momarcode1/) | Austrian employment law analysis — employment contracts, KollV identification and classification… |
 | [`/recht arbeit-verfahren — Arbeitsrechtliche Verfahren`](skills/recht-arbeit-verfahren-momarcode1/) | Austrian employment law procedures — Kuendigungsanfechtung (§105 ArbVG), Entlassungsanfechtung, ASG… |
 
 ## Cold-start context

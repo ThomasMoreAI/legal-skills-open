@@ -1,0 +1,49 @@
+---
+name: paket-internationaler-bezug-schnittstellen
+title: 'Paket: Internationaler Bezug und Schnittstellen'
+description: 'Für Paket: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Datenschutzrecht. Route: paket-internationaler-bezug-schnittstellen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/paket-internationaler-bezug-schnittstellen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Paket: Internationaler Bezug und Schnittstellen
+
+## Spezialwissen: Paket: Internationaler Bezug und Schnittstellen
+- **Normen-/Quellenanker:** DSGVO, BDSG, TDDDG, PIA, DPIA, AVV, Art. 15, Art. 33, Art. 44, US, DPF, SCC.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Behördenpaket Drittlandstransfer** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## Internationaler Bezug Datenschutz — Schnittstellen
+- **Räumlicher Anwendungsbereich DSGVO Art. 3:**
+ - Abs. 1: Verantwortlicher/Auftragsverarbeiter mit Niederlassung in EU/EWR.
+ - Abs. 2: Drittlandsanbieter, der Waren/Dienste an EU-Betroffene anbietet (lit. a) oder Verhalten in EU beobachtet (lit. b).
+- **Drittlandstransfer Art. 44 ff. DSGVO:**
+ - **Adäquanzbeschluss Art. 45**: aktuelle Liste auf ec.europa.eu (z. B. Schweiz, UK, Israel, Japan, Korea, Andorra, Argentinien etc.).
+ - **DPF (US-Adäquanz)**: VO 2023/1795 — nur teilnehmende US-Unternehmen (Liste dataprivacyframework.gov).
+ - **SCC** (Beschluss 2021/914): Modul 1 (C-C), 2 (C-P), 3 (P-P), 4 (P-C); + Annex II TOM + Annex III Subunternehmer + ggf. Annex I Beteiligte.
+ - **TIA (Transfer Impact Assessment)**: nach Schrems II (Rs. C-311/18) Pflicht; nach EDSA-Empfehlung 01/2020.
+- **Behördenpaket:** Standardformulare BfDI/LDI/LDA; ggf. Auskunftsersuchen Art. 58 Abs. 1 lit. a, Anordnungen lit. d.
+- **EU/EWR-Niederlassung:** Bei Anbieter aus Drittstaat → Pflicht Vertreter Art. 27 DSGVO.
+
+## Praxis-Tipp
+DPF-Mitgliedschaft prüfen mit Datum: ein US-Unternehmen kann zwischenzeitlich aus dem DPF ausscheiden. Eine "wir nutzen DPF"-Aussage ohne aktuelle Listenüberprüfung trägt rechtlich nicht — vor jeder Bewertung dataprivacyframework.gov-Liste sichtbar dokumentieren (Screenshot, Datum).

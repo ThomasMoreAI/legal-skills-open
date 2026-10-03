@@ -1,0 +1,60 @@
+---
+name: kruzifix-bverfge-93-1
+title: Kruzifix BVerfGE 93 1
+description: 'Für Kruzifix BVerfGE 93 1: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verhaeltnismaessigkeitspruefer/skills/kruzifix-bverfge-93-1
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: constitutional
+language: de
+---
+
+# Kruzifix BVerfGE 93 1
+
+## Sachverhalt
+
+Bayerisches Schulrecht ordnete an, in jedem Klassenzimmer einer staatlichen
+Volksschule ein Kruzifix anzubringen. Familie weltanschaulich nicht
+gebunden beschwerte sich.
+
+## Entscheidung
+
+Senat 1 BVerfG, Beschluss 16.05.1995, BVerfGE 93, 1 (Kruzifix).
+Anbringungsanordnung verletzt Glaubensfreiheit Art 4 I GG in Verbindung
+mit Elternrecht Art 6 II GG.
+
+## Praktische Konkordanz als Loesungsweg
+
+Konflikt zwischen:
+- **Glaubensfreiheit** der nicht-christlichen Familie Art 4 I GG.
+- **Staatliche Schulhoheit** Art 7 I GG und positive Religionsfreiheit
+  der christlichen Mehrheit.
+
+Praktische Konkordanz:
+- Generelle Anbringungsanordnung ueberdehnt das Neutralitaetsgebot.
+- Aber: kein vollstaendiges Verbot kirchlicher Symbole an Schulen.
+- Einzelfalloesung bei begruendetem Widerspruch.
+
+## Vier-Stufen-Spiegel
+
+Stufe 1 (legitimer Zweck): Erziehungsauftrag Art 7 GG, positive Religionsfreiheit.
+Stufe 2 (Geeignetheit): Symbolwirkung des Kruzifix bejaht.
+Stufe 3 (Erforderlichkeit): mildere Mittel (Einzelfallpruefung) verfuegbar.
+Stufe 4 (Angemessenheit): Zwangsweise Konfrontation mit Glaubenssymbol
+in staatlicher Pflichtschule verletzt negative Bekenntnisfreiheit.
+
+## Bedeutung
+
+- Praktische Konkordanz hat sich als Methodik etabliert.
+- Negative Bekenntnisfreiheit als Schutzbereich anerkannt.
+- Schule als Pflichtraum mit besonderer Neutralitaetspflicht.
+
+## Kritik und Fortwirkung
+
+- BVerfGE 108 282 Kopftuch I: Religionsfreiheit der Lehrerin gegen
+  staatliche Neutralitaet (verfassungsimmanente Schranke).
+- BVerfGE 138 296 Kopftuch II: bundesweite Pauschalverbote
+  unverhaeltnismaessig.

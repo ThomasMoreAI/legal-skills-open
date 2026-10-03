@@ -5,11 +5,14 @@ description: Check regulatory feeds now and report what's new since the last che
 author: alexchlou
 author_url: https://github.com/alexchlou/codex-for-legal/tree/main/plugins/regulatory-legal/skills/reg-feed-watcher
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
+sources:
+- title: Source catalog
+  path: references/source-catalog.md
 ---
 
 > Codex v1 local-input note: This migrated skill supports local files and pasted text by default. References to Drive, CLM IDs, Slack, Westlaw, iManage, Ironclad, eDiscovery, dockets, or other remote systems require a separately configured Codex connector/MCP server. When a connector is unavailable, ask for a local export, local file path, or pasted excerpts. If `config/local/codex-for-legal/<practice>/CLAUDE.md` is missing, ask the user to run the relevant `cold-start-interview` or `customize` skill and copy from `config/templates/codex-for-legal/<practice>/CLAUDE.md`.

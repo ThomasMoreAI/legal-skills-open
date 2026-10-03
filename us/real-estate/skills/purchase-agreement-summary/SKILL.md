@@ -5,12 +5,20 @@ description: Produces structured operational summaries from fully executed resid
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/purchase-agreement-summary
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: real-estate
 language: en
-tags: [transactional, summary, summarization]
+tags:
+- transactional
+- summary
+- summarization
+sources:
+- title: Output structure
+  path: references/OUTPUT-STRUCTURE.md
+- title: State overlays
+  path: references/STATE-OVERLAYS.md
 ---
 
 # Purchase Agreement Summary

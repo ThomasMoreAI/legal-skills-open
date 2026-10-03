@@ -1,0 +1,73 @@
+---
+name: steuerberater-stberg-allgemeine-berufliche
+title: Steuerberater-Modus (StBerG/BOStB)
+description: 'Für Steuerberater-Modus (StBerG/BOStB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: E-Mail-Umformulierer. Route: steuerberater-stberg-allgemeine-berufliche.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/steuerberater-stberg-allgemeine-berufliche
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Steuerberater-Modus (StBerG/BOStB)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Steuerberater-Modus (StBerG/BOStB)
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
+
+Dieser Skill passt den Umformulierungsprozess an die spezifischen Berufspflichten von Steuerberatern an. Während viele Grundsätze mit dem anwaltlichen Berufsrecht übereinstimmen, gibt es steuerberaterliche Besonderheiten in Normen, Standesregeln und typischen Kommunikationssituationen.
+
+## Triage zu Beginn
+1. Wer ist der Adressat: Finanzamt, Finanzgericht (BFH), Mandant oder Steuerbraterkollege?
+2. Welche berufsrechtliche Norm ist primaer relevant: Gewissenhaftigkeit (§ 57 StBerG), Kollegialitaet (§ 9 BOStB) oder Verschwiegenheit (§ 5 BOStB)?
+3. Enthalt das Schreiben kritische Aeusserungen über den Vorgaenger-Steuerberater oder das Finanzamt?
+4. Hat das Schreiben rechtsverbindliche Wirkung (Einspruch, Klage) oder ist es nur informell?
+
+## Zentrale Normen
+- § 57 StBerG — Allgemeine Berufspflichten: Gewissenhaftigkeit, Verschwiegenheit, Sachlichkeit
+- § 57a StBerG — Werbung: sachliche, berufsrechtlich zulaessige Kommunikation
+- § 5 BOStB — Verschwiegenheitspflicht (analog § 2 BORA)
+- § 9 BOStB — Kollegialitaetsgebot für Steuerberater
+
+## § 57 StBerG — Gewissenhafte Berufsausübung
+
+§ 57 Abs. 1 StBerG verpflichtet Steuerberater zu Unabhängigkeit, Gewissenhaftigkeit, Verschwiegenheit und einem Verhalten, das dem Vertrauen in den Berufsstand entspricht. In der Korrespondenz bedeutet dies: sachliche Kommunikation mit Mandanten, Finanzbehörden und Kollegen; keine Äußerungen, die das Ansehen des Berufsstands schädigen könnten; Trennung von persönlicher Meinung und beruflicher Stellungnahme.
+
+## § 9 BOStB — Verhalten gegenüber Berufsangehörigen
+
+§ 9 der Berufsordnung der Steuerberaterkammer (BOStB) regelt den Umgang unter Steuerberatern analog zum anwaltlichen Kollegialitätsgebot. Steuerberater sollen sich gegenseitig mit Achtung begegnen. Herabsetzende Äußerungen über Kollegen — auch wenn diese fachliche Fehler gemacht haben — sind unzulässig. Die Kritik muss sachlich und auf den Fehler, nicht auf die Person bezogen sein.
+
+## Besonderheiten der Steuerberater-Kommunikation
+
+Typische Adressaten sind: Finanzbehörden (Finanzämter, Bundeszentralamt für Steuern), Gerichte (Finanzgericht, BFH), Mandanten und Kollegen. Schreiben an Finanzbehörden haben besonderen Charakter: Sie sind Teil eines Verwaltungsverfahrens und unterliegen besonderer Sachlichkeitspflicht. Schreiben an Mandanten müssen verständlich und ohne unnötige Fachjargon-Überladung formuliert sein.
+
+## Berufsrechtlicher Hintergrund
+
+Einschlägige Normen: § 57 StBerG (Allgemeine Berufspflichten), § 57a StBerG (Werbung), § 9 BOStB (Kollegialitätsgebot), § 5 BOStB (Verschwiegenheit). Ergänzend gelten die Richtlinien der Bundessteuerberaterkammer. Soweit steuerberaterliche Berufsrechtsregeln keine eigene Lösung bieten, können die entsprechenden Grundsätze aus BRAO und BORA analog herangezogen werden.
+
+## Beispiele Vorher/Nachher
+
+**Vorher:** "Ihr Vorsteuerberater hat Ihnen wirklich einen Bärendienst erwiesen."
+**Nachher:** "Die steuerliche Gestaltung aus den Vorjahren enthält Ansatzpunkte, die wir nun optimieren werden."
+
+**Vorher:** "Das Finanzamt irrt sich mal wieder."
+**Nachher:** "Der Bescheid vom TT.MM.JJJJ weicht von der einschlägigen BFH-Rechtsprechung ab. Ich werde Einspruch einlegen."
+
+**Vorher:** "Ich kann nicht verstehen, wie das Finanzamt zu dieser absurden Auffassung gelangt."
+**Nachher:** "Die Rechtsauffassung des Finanzamts erscheint nach dem Urteil des BFH vom TT.MM.JJJJ (Az. XY) nicht haltbar."
+
+**Vorher:** "Das habe ich Ihnen doch schon hundertmal erklärt!"
+**Nachher:** "Wie bereits in meinem Schreiben vom TT.MM.JJJJ dargelegt, gilt folgendes..."
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

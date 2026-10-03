@@ -1,11 +1,11 @@
 ---
 name: automatisierte-entscheidungen-art-22-dsgvo
 title: Automatisierte Entscheidungen Art. 22 DSGVO
-description: 'Automatisierte Einzelentscheidungen nach Art. 22 DSGVO in Kanzleien prüfen: Anwendungsfall Kanzlei plant KI-gestützte Mandatszuordnung Honorarberechnung oder Bonitätsprüfung und muss prüfen ob automatisierte Entscheidung ohne Mensch zulässig ist. Art. 22 DSGVO Verbot automatisierter Einzelentscheidungen, Art. 6 DSGVO Rechtsgrundlage, DSGVO Einwilligung. Prüfraster erhebliche Auswirkung der Entscheidung, Ausnahmen Einwilligung Vertrag gesetzliche Grundlage, Widerspruchsrecht und Gegendarstellung. Output Prüfprotokoll mit Einordnung und notwendigen Schutzmaßnahmen. Abgrenzung zu KI-VO-Betreiber-Pflichten und zu DSGVO-Compliance.'
+description: 'Für Automatisierte Entscheidungen Art. 22 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/automatisierte-entscheidungen-art-22-dsgvo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,6 +13,20 @@ language: de
 ---
 
 # Automatisierte Entscheidungen Art. 22 DSGVO
+
+## Arbeitsbereich
+
+Automatisierte Einzelentscheidungen nach Art. 22 DSGVO in Kanzleien prüfen: Anwendungsfall Kanzlei plant KI-gestützte Mandatszuordnung Honorarberechnung oder Bonitätsprüfung und muss prüfen ob automatisierte Entscheidung ohne Mensch zulässig ist. Art. 22 DSGVO Verbot automatisierter Einzelentscheidungen, Art. 6 DSGVO Rechtsgrundlage, DSGVO Einwilligung. Prüfraster erhebliche Auswirkung der Entscheidung, Ausnahmen Einwilligung Vertrag gesetzliche Grundlage, Widerspruchsrecht und Gegendarstellung. Output Prüfprotokoll mit Einordnung und notwendigen Schutzmaßnahmen. Abgrenzung zu KI-VO-Betreiber-Pflichten und zu DSGVO-Compliance. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Art. 22 DSGVO schützt Personen vor Entscheidungen, die ausschließlich auf automatisierter Verarbeitung — also ohne menschliche Überprüfung — beruhen und erhebliche Auswirkungen auf die betroffene Person haben. Beim Einsatz von KI-Systemen in Kanzleien ist dieses Verbot besonders relevant: Keine rechtlich bedeutsame Entscheidung darf allein auf der Grundlage eines KI-Outputs getroffen werden.
 
@@ -35,7 +49,7 @@ Art. 22 Abs. 1 DSGVO: Betroffene haben das Recht, nicht einer ausschließlich au
 Kein KI-System trifft in der Kanzlei eine abschließende Entscheidung mit rechtlicher Wirkung oder erheblicher tatsächlicher Beeinträchtigung für eine natürliche Person. Alle von KI-Systemen erzeugten Empfehlungen, Einstufungen oder Bewertungen sind ausnahmslos von einer qualifizierten menschlichen Person zu überprüfen, zu bewerten und freizugeben. Dies gilt insbesondere für: Mandatszuordnungen, Honorarberechnungen, Bonitätsbewertungen von Mandanten sowie Personalentscheidungen.
 
 **Baustein Menschliche Überprüfung:**
-Mitarbeitende, die KI-generierte Ergebnisse für Entscheidungsprozesse nutzen, sind angewiesen, das KI-Ergebnis stets als Hilfsmittel — nicht als Entscheidung — zu behandeln. Die menschliche Überprüfung muss inhaltlich erfolgen; ein rein formales "Abnicken" des KI-Outputs ohne eigene Prüfung genügt nicht den Anforderungen des Art. 22 DSGVO.
+Mitarbeiter, die KI-generierte Ergebnisse für Entscheidungsprozesse nutzen, sind angewiesen, das KI-Ergebnis stets als Hilfsmittel — nicht als Entscheidung — zu behandeln. Die menschliche Überprüfung muss inhaltlich erfolgen; ein rein formales "Abnicken" des KI-Outputs ohne eigene Prüfung genügt nicht den Anforderungen des Art. 22 DSGVO.
 
 **Baustein Betroffenenrechte:**
 Sofern KI-Systeme an Entscheidungen mit Auswirkungen auf Mandanten oder Dritte beteiligt sind, informiert die Kanzlei betroffene Personen auf Anfrage über die Logik der Entscheidungsfindung sowie über das Recht, eine menschliche Überprüfung der Entscheidung zu verlangen (Art. 22 Abs. 3 DSGVO).
@@ -44,24 +58,21 @@ Sofern KI-Systeme an Entscheidungen mit Auswirkungen auf Mandanten oder Dritte b
 
 Mit zunehmender Integration von KI-Systemen in Kanzleimanagement-Software (z.B. automatische Mandatszuordnung, Dokumentenpriorisierung) steigt die Relevanz des Art. 22 DSGVO. Neue EuGH- oder BGH-Entscheidungen zur Auslegung von Art. 22 DSGVO sowie Leitlinien des Europäischen Datenschutzausschusses (EDSA) sind regelmäßig zu prüfen.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 22 Abs. 1 DSGVO — Verbot vollautomatisierter Einzelentscheidungen mit Rechtswirkung
 - Art. 22 Abs. 2 lit. a-c DSGVO — Ausnahmen (Vertrag, gesetzliche Pflicht, Einwilligung)
-- Art. 22 Abs. 3 DSGVO — Widerspruchsrecht und menschliche Pruefung
+- Art. 22 Abs. 3 DSGVO — Widerspruchsrecht und menschliche Prüfung
 - Art. 13/14 DSGVO — Informationspflichten bei automatisierten Entscheidungen
-- § 26 BDSG — Beschaeftigtendatenschutz bei KI-Mitarbeiterbewertung
+- § 26 BDSG — Beschäftigtendatenschutz bei KI-Mitarbeiterbewertung
 
 ## Triage zu Beginn
 1. Liegt eine vollautomatisierte Entscheidung mit Rechtswirkung oder erheblicher Beeintraechtigung vor?
 2. Ist eine Rechtsgrundlage nach Art. 22 Abs. 2 lit. a-c DSGVO gegeben?
-3. Ist ein menschlicher Ueberpruefer vorgesehen — oder stempelt er nur ab (Stempel-Risiko)?
-4. Werden Betroffene nach Art. 13/14 DSGVO ueber die automatisierte Entscheidung informiert?
+3. Ist ein menschlicher Überprüfer vorgesehen — oder stempelt er nur ab (Stempel-Risiko)?
+4. Werden Betroffene nach Art. 13/14 DSGVO über die automatisierte Entscheidung informiert?
 5. Ist ein Widerspruchsrecht und eine Korrekturmoeglichkeit nach Art. 22 Abs. 3 DSGVO implementiert?
 
-## Output-Template — Art. 22 DSGVO-Pruefprotokoll
+## Output-Template — Art. 22 DSGVO-Prüfprotokoll
 **Adressat:** DSB / Compliance — Tonfall: strukturiert, rechtlich
 ```
 ART. 22 DSGVO-PRUEFPROTOKOLL
@@ -84,3 +95,13 @@ Ergebnis: [ZULASSIG / UNZULASSIG — MASSNAHME ERFORDERLICH]
 Massnahme: [BESCHREIBUNG bis DATUM]
 Geprueft von: [NAME], [DATUM]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

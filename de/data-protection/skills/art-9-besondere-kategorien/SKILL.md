@@ -1,0 +1,62 @@
+---
+name: art-9-besondere-kategorien
+title: Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall
+description: 'Für Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/art-9-besondere-kategorien
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+sources:
+- title: Vertiefung dsv art 9 besondere kategorien
+  path: references/vertiefung-dsv-art-9-besondere-kategorien.md
+---
+
+# Besondere Kategorien Art. 9 DSGVO im Datenschutzvorfall
+
+## Triage — kläre vor der Bearbeitung
+
+1. Liegen Daten im Sinne Art. 9 Abs. 1 DSGVO vor — wenn ja welche konkret?
+2. Wie viele Betroffene und welche Mengen?
+3. Sind die Daten im Klartext oder verschlüsselt oder pseudonymisiert?
+4. Welche besondere Aufsicht (Sektorbehörde) ist zuständig?
+5. Welche besondere Bußgeldhöhe droht (Art. 83 Abs. 5 DSGVO)?
+- Was will der Mandant wirklich erreichen? (Schadensbegrenzung; rechtskonforme Benachrichtigung)
+
+## Rechtsgrundlagen
+
+- **Art. 9 Abs. 1 DSGVO** Verbot mit Erlaubnisvorbehalt; **Art. 9 Abs. 2 DSGVO** Ausnahmen.
+- **Art. 34 Abs. 1 DSGVO** Benachrichtigung bei hohem Risiko — bei Art. 9 regelmäßig zu bejahen.
+- **Art. 83 Abs. 5 lit. a DSGVO** verschärfter Bußgeldrahmen bis 20 Mio. EUR oder 4 Prozent.
+- **Erwägungsgrund 75 DSGVO** besondere Risiken bei sensiblen Daten.
+
+## Aktuelle Rechtsprechung
+
+Nicht aus Modellwissen; insbesondere zu Gesundheitsdaten-Leaks und Bußgeldhöhen vor Ausgabe verifizieren.
+
+## Zentrale Normen
+
+Art. 9 Abs. 1; Art. 9 Abs. 2; Art. 34 Abs. 1; Art. 83 Abs. 5 lit. a DSGVO; Erwägungsgrund 75.
+
+## Praxisformulierung — Schutzbedarfsanalyse Art. 9
+
+Welche Kategorie liegt vor; in welcher Form (Klartext / pseudonymisiert / verschlüsselt); welche Anzahl; welche Folgen sind plausibel.
+
+Conclusion: bei Art. 9-Daten im Klartext regelmäßig Meldung Art. 33 und Benachrichtigung Art. 34; Begründung schriftlich für die Akte.
+
+## Abgrenzung zu anderen Skills
+
+- `dsv-aufnahme-statusinformation` bildet die strukturierte Erstaufnahme; dieser Skill setzt darauf auf.
+- `dsv-meldung-art-33-pflichtangaben` deckt die Behördenmeldung ab; bei Bedarf zusätzlich ziehen.
+- `dsv-benachrichtigung-art-34-betroffene` deckt die Benachrichtigung Betroffener ab.
+- `dsv-bussgeldverteidigung-art-83` und `dsv-schadensersatz-art-82` decken die anwaltliche Nachbearbeitung ab.
+
+- `dsv-paragraf-203-stgb-berufsgeheimnis` deckt strafrechtliche Geheimnistraeger ab.
+- `dsv-sozialdaten-sgb` deckt Sozialdaten ab.
+
+## Vertiefung bei Bedarf
+
+- Bei `dsv-art-9-besondere-kategorien` beziehungsweise Bewertet einen Datenschutzvorfall mit besonderen Kategorien personenbezogener Daten nach Art: [die zusätzliche Vertiefung laden](./references/vertiefung-dsv-art-9-besondere-kategorien.md).

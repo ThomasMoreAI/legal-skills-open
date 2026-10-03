@@ -1,11 +1,11 @@
 ---
 name: terminologie-konsistenz
 title: Terminologie-Konsistenz
-description: Terminologie-Konsistenz im legistischen Entwurf prüfen und Begriffstabelle aufbauen. Anwendungsfall Entwurf enthaelt neue Legaldefinitionen oder Referent prüft ob Begriffe konsistent verwendet werden und keine ungewollten Abweichungen von bestehenden Legaldefinitionen in anderen Gesetzen vorliegen. Faustregel ein Begriff eine Bedeutung. Prüfung gegen HdR und GGO. Abweichung gerechtfertigt und ausdrücklich oder versehentliche Bruchbildung. Output Begriffsliste kritische Faelle markiert Aenderungsvorschlag.
+description: 'Für Terminologie-Konsistenz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/terminologie-konsistenz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -61,21 +61,24 @@ Geschlechtergerechte Sprache. Bei Personenbezeichnungen entweder:
 
 Inkonsistenz vermeiden - eine Formel je Gesetz.
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
 §§ 43-46 HdR (einheitliche Begriffsverwendung, Terminologie-Gebot) — Art. 20 Abs. 3 GG (Bestimmtheitsgebot, Normenklarheit) — § 288 AEUV (EU-Richtlinie verlangt einheitliche terminologische Umsetzung) — §§ 1-5 DIN 1422 (Norm Terminologie-Konsistenz in Rechtstexten)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 Begriffstabelle als Anhang zum Entwurf. Kritische Fälle (Bruchbildung) markiert.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anschluss
 
 `zirkelschluss-pruefen`, dann `referentenentwurf-bauen`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: loesungsschemata
 title: Lösungsschemata
-description: 'Stellt klassische Lösungsschemata für die deutsche Juristenklausur bereit — Anspruchsprüfung, Verbrechensaufbau, Grundrechtsprüfung, Verhältnismäßigkeit, Klageart-Bestimmung, EBV, Bereicherung, GoA, c.i.c., culpa-Strukturen. Mit ehrlichem Disclaimer: Schemata sind dogmatisch nicht zwingend, können aber das Verständnis tragen. Lädt, wenn der Nutzer "Schema BGB", "Schema StGB", "Anspruchsprüfung Aufbau", "Verbrechensaufbau", "Grundrechtsschema" oder "brauche ich Schemata" sagt.'
+description: 'Für Lösungsschemata: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jurastudium/skills/loesungsschemata
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,6 +14,13 @@ language: de
 
 # Lösungsschemata
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DRiG § 5a Studiendauer 9 Semester (Regelstudienzeit), Freischuss-Frist (i.d.R. 8 Semester nach JAG), Wiederholungsfrist, Hausarbeit 4-6 Wochen.
+- Tragende Normen verifizieren: DRiG §§ 5, 5a, 5b (Erste Prüfung), JAG der Länder, JAPO Bayern, JAG NRW, BBesG (Referendariat), Hochschulgesetze, Studienordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Justizprüfungsamt (Landesjustizverwaltung), Universität, Repetitorium, Klausurleiter, Mündliche-Prüfungs-Kommission.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Klausurgutachten (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis), Hausarbeit, Aktenvortrag (Referendar), Probeklausur, Prüfungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 1. Welches Schema wird benoetigt: Anspruchspruefung, Verbrechensaufbau, Grundrechtspruefung, Klageart-Bestimmung?
@@ -21,25 +28,19 @@ language: de
 3. Gibt es Streitfragen zum Schema selbst (z.B. Aufbaufragen im Strafrecht)?
 4. Soll das Schema als Gedaechtnisstuetze oder zum Verstaendnis-Aufbau verwendet werden?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 - §§ 433, 280 BGB — Vertrag und Leistungsstoerung: Kern des Anspruchspruefungs-Schemas
 - §§ 13-35 StGB — Allgemeiner Teil: Fundament des Verbrechensaufbau-Schemas
 - Art. 1, 19 GG — Grundrechte: Schutzbereich als erster Schritt des Grundrechtsschemas
 - §§ 40, 42 VwGO — Rechtsweg und Klageart als erster Schritt des Verwaltungsrecht-Schemas
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ehrlicher Disclaimer vorweg
 
 **Schemata sind nicht das Gesetz, nicht die Lehre und nicht das Examen. Sie sind didaktische Krücken — manchmal sehr gute, manchmal irreführende.**
 
 Die ehrliche Lage:
-- Die ausgezeichneten Studierenden brauchen keine Schemata. Sie haben die innere Struktur verstanden und arbeiten direkt aus dem Gesetz.
-- Für viele andere — auch sehr ordentliche Studierende — sind Schemata ein **Verständniskatalysator**. Wer mit einem Schema im Kopf einsteigt, fragt sich beim Lesen des Sachverhalts: "An welchem Punkt bin ich jetzt im Schema?" Das gibt Halt und Reihenfolge.
+- Die ausgezeichneten Studentenn brauchen keine Schemata. Sie haben die innere Struktur verstanden und arbeiten direkt aus dem Gesetz.
+- Für viele andere — auch sehr ordentliche Studenten — sind Schemata ein **Verständniskatalysator**. Wer mit einem Schema im Kopf einsteigt, fragt sich beim Lesen des Sachverhalts: "An welchem Punkt bin ich jetzt im Schema?" Das gibt Halt und Reihenfolge.
 - Wer die innere Begründung kennt und das Schema dann als Stütze nutzt, ist gut bedient. Wer Schemata abspult, **ohne** zu verstehen warum, schreibt mediokere Klausuren.
 - **Whatever works**: Wenn ein Schema dir hilft, die nächste Klausur zu schreiben — nimm es. Wenn du es nicht brauchst — auch gut.
 
@@ -105,18 +106,18 @@ Sperrwirkung: §§ 987 ff. BGB regeln die Folgen abschließend, daneben kein § 
 
 ### Verbrechensaufbau (jedes Delikt)
 1. **Tatbestand**
-   - Objektiver Tatbestand (Handlung, Erfolg, Kausalität, objektive Zurechnung)
-   - Subjektiver Tatbestand (Vorsatz § 15, besondere subjektive Merkmale)
+ - Objektiver Tatbestand (Handlung, Erfolg, Kausalität, objektive Zurechnung)
+ - Subjektiver Tatbestand (Vorsatz § 15, besondere subjektive Merkmale)
 2. **Rechtswidrigkeit** (Rechtfertigungsgründe)
 3. **Schuld** (Schuldfähigkeit, Entschuldigungsgründe, Unrechtsbewusstsein)
 
 ### § 242 StGB — Diebstahl
 1. Objektiver Tatbestand:
-   - Fremde bewegliche Sache.
-   - Wegnahme: Bruch fremden, Begründung neuen Gewahrsams.
+ - Fremde bewegliche Sache.
+ - Wegnahme: Bruch fremden, Begründung neuen Gewahrsams.
 2. Subjektiver Tatbestand:
-   - Vorsatz bzgl. obj. Merkmalen.
-   - Zueignungsabsicht: Aneignungs**absicht** (Vorsatz 1. Grades) + Enteignungs**vorsatz** (dolus eventualis reicht), Rechtswidrigkeit der Zueignung.
+ - Vorsatz bzgl. obj. Merkmalen.
+ - Zueignungsabsicht: Aneignungs**absicht** (Vorsatz 1. Grades) + Enteignungs**vorsatz** (dolus eventualis reicht), Rechtswidrigkeit der Zueignung.
 3. Rechtswidrigkeit (Notwehr § 32, Notstand § 34, Einwilligung — selten).
 4. Schuld.
 
@@ -131,8 +132,8 @@ Sperrwirkung: §§ 987 ff. BGB regeln die Folgen abschließend, daneben kein § 
 1. **Schutzbereich**: persönlich + sachlich.
 2. **Eingriff**.
 3. **Verfassungsrechtliche Rechtfertigung**:
-   - Schranke (Vorbehalt des Gesetzes).
-   - Schranken-Schranken (Verhältnismäßigkeit, Wesensgehalt Art. 19 II GG, Zitiergebot Art. 19 I 2 GG, Bestimmtheit).
+ - Schranke (Vorbehalt des Gesetzes).
+ - Schranken-Schranken (Verhältnismäßigkeit, Wesensgehalt Art. 19 II GG, Zitiergebot Art. 19 I 2 GG, Bestimmtheit).
 
 ### Verhältnismäßigkeit
 1. Legitimer Zweck.
@@ -143,13 +144,13 @@ Sperrwirkung: §§ 987 ff. BGB regeln die Folgen abschließend, daneben kein § 
 ### Klage im Verwaltungsprozess
 1. **Klageart bestimmen** (Anfechtung, Verpflichtung, Leistung, Feststellung, FFK, Normenkontrolle).
 2. **Zulässigkeit**:
-   - Verwaltungsrechtsweg (§ 40 VwGO).
-   - Statthaftigkeit (richtige Klageart).
-   - Klagebefugnis (§ 42 II VwGO, "möglicherweise verletzt").
-   - Vorverfahren (§ 68 VwGO).
-   - Klagefrist (§ 74 VwGO).
-   - Form (§ 81 VwGO).
-   - Beteiligten- und Prozessfähigkeit (§§ 61, 62 VwGO).
+ - Verwaltungsrechtsweg (§ 40 VwGO).
+ - Statthaftigkeit (richtige Klageart).
+ - Klagebefugnis (§ 42 II VwGO, "möglicherweise verletzt").
+ - Vorverfahren (§ 68 VwGO).
+ - Klagefrist (§ 74 VwGO).
+ - Form (§ 81 VwGO).
+ - Beteiligten- und Prozessfähigkeit (§§ 61, 62 VwGO).
 3. **Begründetheit** (z. B. § 113 I 1 VwGO bei Anfechtungsklage: VA rechtswidrig + Kläger in seinen Rechten verletzt).
 
 ### Verwaltungsaktqualität (§ 35 VwVfG)
@@ -167,14 +168,7 @@ Die Skill stellt das Schema bereit, **erklärt aber jeden Schritt** mit der dogm
 > Frage: "Warum prüft man bei § 985 BGB drei Voraussetzungen?"
 > Antwort der Skill: "Weil die Norm den Anspruch des **Eigentümers** gegen den **Besitzer** auf Herausgabe regelt, **wenn** der Besitzer kein Recht zum Besitz hat. Die drei Schritte sind keine Konvention, sondern direkt der Wortlaut."
 
-Im Drill-Modus stellt die Skill Schritt-für-Schritt-Fragen, die der Studierende erst aus dem Gesetz beantwortet, dann mit dem Schema abgleicht.
-
-## Querverweise
-
-- `subsumtionslehre` — Schemata strukturieren, aber die Subsumtion **innerhalb** jedes Schemapunkts ist das eigentliche Lernziel.
-- `methodenlehre-zivilrecht`, `methodenlehre-strafrecht`, `methodenlehre-oeffentliches-recht` — fachspezifischer Hintergrund.
-- `gutachten-uebung` — Schema in der Klausur anwenden.
-- `tatbestaende-lernen` — Definitionen, ohne die Schemata leer bleiben.
+Im Drill-Modus stellt die Skill Schritt-für-Schritt-Fragen, die der Studenten erst aus dem Gesetz beantwortet, dann mit dem Schema abgleicht.
 
 ## Was diese Skill nicht tut
 
@@ -185,3 +179,5 @@ Im Drill-Modus stellt die Skill Schritt-für-Schritt-Fragen, die der Studierende
 ## Schlusswort
 
 Schemata sind wie Stützräder am Fahrrad. Solange sie tragen, lassen sie sich nicht ohne Folgen abbauen. Wer fahren kann, fährt ohne. Wer das Fahren lernt, fährt erstmal mit — und schämt sich nicht.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

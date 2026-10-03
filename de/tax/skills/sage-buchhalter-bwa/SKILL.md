@@ -1,0 +1,96 @@
+---
+name: sage-buchhalter-bwa
+title: Sage Buchhalter BWA
+description: 'Für Sage Buchhalter BWA: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: sage-buchhalter-bwa.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/sage-buchhalter-bwa
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# Sage Buchhalter BWA
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Sage Buchhalter BWA` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Kernsachverhalt
+
+Sage ist eine internationale ERP- und Buchhaltungsplattform, in Deutschland mit Sage 100, Sage 50 für KMU. Insbesondere bei mittelstaendischen Mandanten haeufig im Einsatz. BWA-Module sind äquivalent zu DATEV/Addison, aber mit anderer Bedienlogik. Steuerberater, die mit Sage-Mandanten arbeiten, brauchen Schnittstellen oder Datenuebernahme.
+
+## Kaltstart-Rueckfragen
+
+1. Welche Sage-Version (Sage 100, Sage 50, Sage Office Line)?
+2. Wer betreibt Sage — Mandant selbst oder StB?
+3. Welche BWA-Form ist konfiguriert?
+4. Welcher Kontenrahmen (SKR 03, SKR 04, individuell)?
+5. Welche Schnittstellen zu DATEV (falls vorhanden)?
+6. Welche Module aktiv?
+7. Welche Mandantenbeguenstigung?
+8. Welcher Updates-Stand?
+
+## Workflow
+
+### Phase 1 — System-Setup
+
+- Variante A: Mandant betreibt Sage selbst (Sage 50 Cloud, Sage 100, Sage Office Line); StB erhaelt Lese-Zugriff oder Monats-Export.
+- Variante B: StB betreibt Sage als Service-Provider (selten; in der Regel DATEV-Bevorzugung in Kanzleien).
+- Konten-Konfiguration: Sage unterstuetzt SKR 03/04 sowie eigene Kontenrahmen; Branchenkontenrahmen über Sage-Vorlagen.
+
+### Phase 2 — BWA-Konfiguration
+
+- Sage-Standard-BWA gliedert ueblicherweise nach Erloesen, variable Kosten, Deckungsbeitrag, Fixkosten, Betriebsergebnis (vergleichbar mit DATEV BWA 01).
+- Vorjahresvergleich automatisch bei vorhandener Historie; Planwerte über das Sage-Planungsmodul.
+- Anpassung der BWA-Zeilen über `Auswertungen → BWA → Konfiguration` (konkreter Programmpfad variiert je Sage-Version — im Zweifelsfall in der Sage-Onlinehilfe unter "BWA-Konfiguration" nachschlagen).
+
+### Phase 3 — Schnittstellen
+
+- Sage-eRechnung-Modul für XRechnung/ZUGFeRD-Empfang und -Versand (§ 14 UStG; siehe Skill `stb-erechnung-pflicht-b2b-2025-2026`).
+- Bank-Anbindung über PSD2-Schnittstelle (HBCI/FinTS) oder Sage Banking.
+- Export im DATEV-CSV-Format (DATEV ASCII-Format) über `Stammdaten → Datenexport → DATEV` (Programmpfad version-abhaengig).
+
+### Phase 4 — Datenaustausch mit StB
+
+- Standardisierter Monats-Export aus Sage; Termin- und Format-Vereinbarung schriftlich.
+- StB-Seite: Import in DATEV Kanzlei-Rechnungswesen über `Datei → Datenuebernahme → Buchungsstapel`.
+- Mapping-Tabelle Sage-Konten zu SKR 03/04 vorab abstimmen — Differenzen sonst pro Monat zu klären.
+
+### Phase 5 — Lohn
+
+- Sage HR / Sage Lohn als separate Module bzw. externes Lohnprogramm (DATEV LODAS, eGecko, etc.).
+- Buchungssatz-Schnittstelle zum Hauptbuch (typischerweise monatlicher Buchungsbeleg).
+- Bei Mandantenwechsel zu DATEV: Lohn meist parallel migriert (siehe `stb-lohn-mandantenaufnahme-onboarding`).
+
+### Phase 6 — Updates
+
+- Jaehrliche Programm-Updates zum 1. Januar (LSt/SV-Tabellen, USt-Änderungen, AfA-Tabellen).
+- Sage Cloud-Versionen: automatische Updates über den Cloud-Anbieter.
+- Update-Pflicht aus § 146 AO (Programm muss aktuelle Tabellen abbilden).
+
+## Strategie und Praxis-Tipps
+
+- Bei Sage-Mandanten Datenaustausch standardisieren — CSV-Export ist Standard.
+- Datenuebernahme Sage zu DATEV ist Aufwand — Mandantenwechsel sorgfaeltig planen.
+- Sage-Schulung über Sage-Akademie.
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- Sage Programm- und Bedienungsdokumentation (aktuelle Version prüfen).
+- AO § 146 (Update-Pflicht der Buchfuehrungsprogramme).
+- Hinweis: konkrete Programmpfade und Modulbezeichnungen können je Sage-Version abweichen; aktuelle Informationen in der Sage-Onlinehilfe prüfen.

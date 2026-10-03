@@ -1,11 +1,11 @@
 ---
 name: pdf-bericht-erzeugen
 title: /tabellenreview-3d:pdf-bericht-erzeugen
-description: '3D-Review-Ergebnis als PDF-Bericht erzeugen: Zusammenfassung, Tabellen, Risikoampeln. Normen: §§ 174 ff. InsO. Prüfraster: Vollständigkeit Berichtinhalte, Layout, Signaturfeld. Output: PDF-Bericht 3D-Tabellenreview. Abgrenzung: nicht Excel-Export.'
+description: 'Für /tabellenreview-3d:pdf-bericht-erzeugen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/pdf-bericht-erzeugen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:pdf-bericht-erzeugen
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Mandanten lesen lieber PDF als Excel. Der PDF-Bericht ist die Erzählfassung des Würfels: vom Aggregat über die Perspektiven bis in die Belegkette.
 
 ## Struktur
 
@@ -98,3 +91,5 @@ Alle zitierten Quellen mit:
 ## Grenzen
 
 Bei sehr großen Würfeln (mehr als 50.000 Zellen) wird der PDF unhandlich. In diesem Fall: PDF nur für Management-Summary und Anhang A pro Arbeitsblatt als separate PDFs. Vollständige Daten weiter in Excel.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

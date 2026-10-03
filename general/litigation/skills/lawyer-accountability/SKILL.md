@@ -5,7 +5,7 @@ description: Track and evaluate solicitor performance, costs, and accountability
 author: odin33g
 author_url: https://github.com/odin33g/family-court-strategist/tree/main/plugin/skills/lawyer-accountability
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
@@ -15,6 +15,8 @@ language: en
 # Lawyer Accountability
 
 Help the user systematically track, evaluate, and hold their legal representation accountable. Whether they currently have a solicitor or are reviewing past representation, this skill builds an evidence-based assessment.
+
+Read `_system/verified-facts.md` when present. Reuse canonical references for verified dates, amounts, statements and communications. Never paraphrase their factual value, edit registry JSON or alter generated lock blocks. Record competing evidence as a conflict for explicit human review. Do not infer verification from a quote match or self-verify. Run the toolkit fact command's `check` before sharing dependent documents; preserve existing locks if the command is unavailable.
 
 ## What to Track
 
@@ -77,7 +79,7 @@ Flag any of these to the user:
 - Billing for work that wasn't done or didn't advance the case
 - Not explaining the implications of consent orders
 - Failing to follow up on expert recommendations
-- Not raising alienation when evidence supports it
+- Not raising relationship interference (contact obstruction, influence on the child's views) when documented evidence supports it
 
 ## For Self-Represented Parents
 

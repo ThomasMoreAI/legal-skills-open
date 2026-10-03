@@ -1,11 +1,11 @@
 ---
 name: feature-risikobewertung
 title: Feature-Risikobewertung
-description: 'Tiefgehende Risikobewertung für ein einzelnes Feature oder einen Produktbereich wenn der Launch-Review etwas gefunden hat das mehr als eine Tabellenzeile braucht. Strukturierte Analyse: was könnte schiefgehen, wie wahrscheinlich, wie schlimm, was mildert es. Verwenden wenn der Nutzer sagt "tiefer Einblick in dieses Risiko", "Risikobewertung für [Feature]", "was könnte schiefgehen mit", oder wenn launch-prüfung eine neuartige Frage flaggt. Besonders einschlägig bei: UWG-Verstoßrisiken, DSGVO-Verletzung, DSA-Pflichten, KI-VO-Anforderungen, Verbraucherschutz nach BGB.'
+description: 'Für Feature-Risikobewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/feature-risikobewertung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,17 +14,19 @@ language: de
 
 # Feature-Risikobewertung
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GPSR Geltungsbeginn 13.12.2024, MaschinenVO 20.01.2027, ProdHaftRL-Umsetzung 09.12.2026, Rückruf unverzüglich, Meldung schwerer Unfall innerhalb 2 Tagen.
+- Tragende Normen verifizieren: ProdSG, ProdHaftG, EU-Marktüberwachungs-VO 2019/1020, EU-Produktsicherheits-VO 2023/988 (GPSR ab 13.12.2024), Produkthaftungs-RL 2024/2853, MaschinenVO 2023/1230, GPSGV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Hersteller, Importeur, Händler, Fulfillment-Dienstleister, Marktüberwachungsbehörde (BAuA, Länder), benannte Stelle, Endverbraucher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung, technische Dokumentation, Risikoanalyse, CE-Kennzeichnung, Rückrufkonzept, Sicherheitsbericht, Online-Marktplatz-AGB — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Mandat-Kontext
 
-**Mandat-Kontext.** `## Mandate-Workspaces` in der praxisseitigen CLAUDE.md prüfen. Wenn `Aktiviert` `✗` ist (Standard für In-House-Nutzer), diesen Absatz überspringen. Wenn aktiviert und kein aktives Mandat, fragen: "Für welches Mandat ist das? `/produktrecht:produktrecht-mandat-arbeitsbereich switch <kürzel>` ausführen oder 'Praxisebene' sagen." Das aktive `mandat.md` für mandatsspezifischen Kontext laden. Ausgaben in den Mandat-Ordner schreiben. Niemals Dateien eines anderen Mandats lesen außer `Mandats-übergreifender Kontext` ist `ein`.
+**Mandat-Kontext.** `## Mandate-Workspaces` in der praxisseitigen CLAUDE.md prüfen. Wenn `Aktiviert` `✗` ist (Standard für In-House-Nutzer), diesen Absatz überspringen. Wenn aktiviert und kein aktives Mandat, fragen: "Für welches Mandat ist das? `/produktrecht:mandat-arbeitsbereich switch <kürzel>` ausführen oder 'Praxisebene' sagen." Das aktive `mandat.md` für mandatsspezifischen Kontext laden. Ausgaben in den Mandat-Ordner schreiben. Niemals Dateien eines anderen Mandats lesen außer `Mandats-übergreifender Kontext` ist `ein`.
 
 ---
-
-## Zweck
-
-Der Launch-Review ist breit. Dies ist tief. Wenn eine einzelne Frage mehr als eine Tabellenzeile braucht – ein neuartiges KI-Feature, ein Produkt für Minderjährige, etwas das ein Behörde aktiv beobachtet – erstellt dieser Skill eine eigenständige Bewertung.
-
-Nicht jeder Launch braucht eine. Die meisten nicht. Dies ist für die 10% wo "DSFA fertig, geshippt" nicht das richtige Prüfungsniveau ist.
 
 ## Eingaben
 
@@ -100,7 +102,6 @@ Nur einbeziehen wenn eine Behörde sich aktiv für diesen Bereich interessiert. 
 Hat ein anderes Unternehmen etwas Ähnliches gemacht? Was passierte?
 
 **Relevante Präzedenzfälle im deutschen Produktrecht:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Vorrang nicht überschätzen. Regulierungsbehörden ändern Prioritäten; dass ein Unternehmen damit durchgekommen ist bedeutet nicht dass das nächste es auch tut.
 
@@ -142,7 +143,6 @@ Vor der Fertigstellung gegen `~/.claude/plugins/config/claude-fuer-deutsches-rec
 
 Prüfen:
 - Könnte das Feature Verbraucher über wesentliche Merkmale irren? (§ 5 UWG)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Werden wesentliche Informationen verschwiegen? (§ 5a UWG)
 - Werden Verbraucher unzumutbar belästigt? (§ 7 UWG: unerwünschte E-Mail, Telefonwerbung, Push-Nachrichten)
 - Vergleichende Werbung: objektiv, kein Anschwärzen, Vergleich wesentlicher Merkmale? (§ 6 UWG)
@@ -191,7 +191,7 @@ Prüfen:
 - AGB-Klauseln: Einbeziehungsanforderungen (§§ 305, 305c BGB), überraschende Klauseln, Inhaltskontrolle (§§ 307–309 BGB)
 - Fernabsatz: Widerrufsrecht (§§ 312g, 355 BGB), Widerrufsbelehrung (Muster-Widerrufsformular)
 - Verbraucherverträge: wesentliche Informationen (Art. 246a EGBGB), Buttonlösung (§ 312j BGB)
-  - **Button-Beschriftung isoliert prüfen** — maßgeblich sind nur die Worte auf dem Button, nicht Kontext oder Begleitumstände (EuGH C-249/21 "Fuhrmann-2"). Verstoß = endgültige Unwirksamkeit (§ 312j Abs. 4 BGB) plus Rückabwicklung nach § 812 BGB; gilt branchenübergreifend, auch für regulierte Bereiche wie Online-Glücksspiel (LG Aachen, Urteil vom 27.05.2026, 10 O 306/25 – "Wette abgeben" unzureichend; Quelle: Pressehinweis Gamesright/rightmart, 28.05.2026, Volltext bei Aufnahme noch nicht veröffentlicht).
+ - **Button-Beschriftung isoliert prüfen** — maßgeblich sind nur die Worte auf dem Button, nicht Kontext oder Begleitumstände (EuGH, Urteil vom 7. April 2022, C-249/21, Fuhrmann-2). Verstoß und Rechtsfolge anhand BGB Paragraf 312j Absatz 3 und 4 sowie der konkreten Bestellstrecke prüfen. Nicht amtlich veröffentlichte Presseberichte zu Einzelfallurteilen sind kein Rechtsprechungsanker.
 - Gewährleistung: § 434 BGB (Produktmangel, Übereinstimmung mit öffentlichen Äußerungen inkl. Werbeaussagen)
 
 ## Übergaben
@@ -200,21 +200,12 @@ Prüfen:
 - **An Datenschutzrecht:** Wenn das Feature neue Datenerhebung oder -verarbeitung beinhaltet, `/datenschutzrecht:dsfa-erstellung [Feature]` ausführen.
 - **An KI-Governance-Lieferantenprüfung:** Wenn das Feature einen neuen KI-Anbieter verwendet, `/ki-governance:ki-anbieter-prüfung [Lieferantenvertrag]` ausführen.
 
-## Ausgabeformat
-
-Eigenständiges Dokument, 2–4 Seiten. Arbeitsvermerk aus `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` `## Ausgaben` voranstellen.
-
-Kein Foliensatz, kein Memo zur Akte – ein Entscheidungsdokument das jemand liest und dann entscheidet.
-
-Speichern wo `~/.claude/plugins/config/claude-fuer-deutsches-recht/produktrecht/CLAUDE.md` → Launch-Review-Prozess sagt wohin Review-Dokumente gehen.
-
 ## Quellen und Zitierweise
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 **Pflicht-Beispielzitate für häufige Konstellationen:**
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Köhler, in: Köhler/Bornkamm/Feddersen UWG, 42. Aufl. 2024, § 5 Rn. 1.50 ff.
 
 ## Zitierprüfung
@@ -231,8 +222,4 @@ Wenn die Bewertung Fälle, Normen, Verordnungen oder Vollzugsmaßnahmen zitiert 
 
 ---
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VI ZR 721/15 ("Nutzerdaten") – Zitatfehler (WRONG_TOPIC). Das Urteil behandelt unzulässige E-Mail-Werbung / § 7 UWG, nicht Datenhaftung bei Plattform-Nutzerdaten (dejure.org/2017,9951). Eintrag ersatzlos gelöscht.
-Quelle   : https://dejure.org/2017,9951
-Aktion   : Zeile entfernt
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

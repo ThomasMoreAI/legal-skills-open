@@ -1,0 +1,116 @@
+---
+name: subsumtion-obersatz-rewrite-klausurton-triage
+title: 'Subsumtion: Obersatz – Definition – Untersatz – Ergebnis'
+description: 'Für Subsumtion: Obersatz – Definition – Untersatz – Ergebnis: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/subsumtion-obersatz-rewrite-klausurton-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Subsumtion: Obersatz – Definition – Untersatz – Ergebnis
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn — kläre vor dem Vier-Schritt
+
+1. Ist die Norm in TBM zerlegt? → falls nein: zuerst `norm-zerlegen-mandantenbrief`
+2. Welches TBM soll jetzt subsumiert werden? (Nummerierung aus TBM-Liste)
+3. Hat der Nutzer konkrete Sachverhaltstatsachen für dieses TBM mitgeteilt?
+4. Ist die Definition des TBM aus Gesetz, h.M. oder BGH-Rechtsprechung bekannt?
+5. Ist das TBM ein unbestimmter Rechtsbegriff? → Skill `unbestimmte-rechtsbegriffe-pruefen` parallel
+
+## Das Vier-Schritt-Schema
+
+### Schritt 1 — Obersatz
+
+**Struktur:** "[Person A] könnte gegen [Person B] einen Anspruch auf [Rechtsfolge] aus [§ Norm] haben."
+
+**Beispiel:** "K könnte gegen V einen Anspruch auf Schadensersatz in Höhe von EUR 5.000 aus § 280 Abs. 1 BGB haben."
+
+### Schritt 2 — Definition
+
+Das TBM wird aus der herrschenden Meinung und/oder der Rechtsprechung definiert.
+
+**Struktur:** "[TBM] liegt vor, wenn [Definition aus h.M./Rspr.]."
+
+**Beispiel:** "Eine Pflichtverletzung liegt vor, wenn der Schuldner eine ihm obliegende Pflicht aus dem Schuldverhältnis nicht, nicht rechtzeitig oder nicht wie geschuldet erfüllt (§ 241 Abs. 1 BGB; BGH ständige Rechtsprechung)."
+
+Das System gibt die Quelle der Definition an (Gesetz, BGH, EuGH, h.M.). Wenn die Definition unsicher ist, wird dies ausdrücklich markiert.
+
+### Schritt 3 — Untersatz (Subsumtion)
+
+Der Sachverhalt wird unter die Definition subsumiert.
+
+**Struktur:** "Hier [hat A / liegt vor / fehlt es an]: [konkrete Sachverhaltsangabe des Nutzers]."
+
+**Beispiel:** "Hier hat V die Lieferpflicht aus § 433 Abs. 1 BGB nicht erfüllt, indem er die Ware trotz Fälligkeit am 01.03.2025 nicht geliefert hat (Nutzerangabe: keine Lieferung erfolgt)."
+
+**Kennzeichnung von Lücken:** Fehlt eine Tatsachenangabe, markiert das System das TBM als "offen" und listet auf, welche Beweise erforderlich sind.
+
+### Schritt 4 — Ergebnis
+
+Das System schließt mit einem Ergebnis für das jeweilige TBM:
+- "TBM [Name] ist erfüllt."
+- "TBM [Name] ist nicht erfüllt, weil [Grund]."
+- "TBM [Name] ist fraglich; Ergebnis hängt von weiteren Tatsachen / Beweisen / Auslegung ab."
+
+## Gesamtergebnis
+
+Nach Durchlauf aller TBM bildet das System ein Gesamtergebnis:
+- Alle TBM erfüllt → Anspruch/Tatbestand besteht dem Grunde nach (vorbehaltlich Einreden)
+- Ein oder mehrere TBM nicht erfüllt → Anspruch/Tatbestand scheitert an [TBM-Name]
+- TBM fraglich → Ergebnis offen; Hinweis auf Klärungsbedarf
+
+## Entscheidungsbaum
+
+```
+TBM-Definition bekannt?
+├─ Ja (Gesetz/BGH) → Definition formulieren → Untersatz → Ergebnis
+└─ Nein / unsicher → h.M. recherchieren → Kommentarhinweis geben
+ → Untersatz mit Vorbehalt → Ergebnis fraglich
+```
+
+## Output-Template Vier-Schritt (Auszug)
+
+**Adressat:** Richter/Anwalt — Tonfall sachlich-juristisch
+```
+[Aktenzeichen / TBM Nr. X]
+
+Obersatz:
+[Person A] könnte gegen [Person B] einen Anspruch auf [RF] aus [§ Norm] haben.
+
+Definition:
+[TBM] liegt vor, wenn [Definition aus h.M./Rspr.].
+
+Untersatz:
+Hier [liegt vor / fehlt es an]: [Sachverhaltsbeschreibung].
+
+Ergebnis:
+TBM [Name] ist [erfüllt / nicht erfüllt / fraglich].
+```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

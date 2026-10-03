@@ -5,7 +5,7 @@ description: Get ready for your Delaware annual report and franchise tax (due Ma
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/prepare-the-delaware-annual-filing
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate
@@ -29,6 +29,7 @@ lower tax (often $400-$1,000 small startup). Run both, flag savings.
 - Founder got scary invoice from Delaware, want recalc.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read shared context.** Read `context/legal-context.md`.
    If missing or empty, ask the user in plain language: "I need a few basics about your company first (state of formation, authorized shares, directors). Want to set those up now?" Then run `set-up-my-legal-info` if they say yes. Stop until that's done.

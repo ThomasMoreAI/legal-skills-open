@@ -3,9 +3,9 @@ name: legal-matter-tracker
 title: Legal Matter Tracker
 description: 'Scan local workspace folders by client or case name and assemble a chronological timeline of events with key facts. No external integrations required. Triggers: ''matter tracker'', ''case timeline'', ''track [client]'', ''timeline for [case]'', ''client history'', ''matter report'', ''summarize [client] matter'', ''трекер дела'', ''хронология дела'', ''история клиента'', ''что было по [клиент]'', ''отчёт по делу'', ''хронология событий по [клиент/дело]''.'
 author: KirKruglov
-author_url: https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/legal-matter-tracker
+author_url: https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/business-ops/legal-matter-tracker
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

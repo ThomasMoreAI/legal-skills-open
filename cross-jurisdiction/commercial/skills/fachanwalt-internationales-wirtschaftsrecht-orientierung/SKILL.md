@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-internationales-wirtschaftsrecht-orientierung
 title: Fachanwalt für Internationales Wirtschaftsrecht — Orientierung
-description: 'Einstieg in den Skill-Verbund Internationales Wirtschaftsrecht. FAO § 14i IWR CISG UN-Kaufrecht Bruessel-Ia-VO Rom I und II VO grenzüberschreitende Vertragspraxis Schiedsverfahren ICC UNCITRAL VIAC. Investitionsschutzrecht ICSID Welthandelsrecht WTO. Sanktionen EU-Russland USA-OFAC LkSG. Output: Routing zu passendem Folge-Skill. Abgrenzung zu mandat-triage-iwr (konkrete Falltriage) und sanktions-compliance-prüfung.'
+description: 'Für Fachanwalt für Internationales Wirtschaftsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/fachanwalt-internationales-wirtschaftsrecht-orientierung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: commercial
@@ -82,7 +82,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ### Schluessel-Leitsaetze Internationales Wirtschaftsrecht
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Ueberblick IWR
 | Materie | Zentralnorm |
@@ -106,3 +105,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Verjaebrung (BGB) | §§ 195, 199 BGB: 3 Jahre |
 | Schiedsklage-Einleitung | Vertraglich vereinbart oder Verjaebrung Hauptanspruch |
 | Vollstreckungsantrag NY Convention | Kein Zeitlimit; aber Einrede moeglich |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

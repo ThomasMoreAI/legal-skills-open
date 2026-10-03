@@ -8,8 +8,8 @@ Jurisdiction: `eu` · Practice: `trade` · Skill language varies per skill (see 
 
 | Skill | What it does |
 |---|---|
-| [`Antidumping- und Ausgleichszölle`](skills/aussenwirtschaft-antidumping-ausgleich/) | Antidumping Antisubvention und Ausgleichsmassnahmen im EU-Aussenhandelsrecht. Anwendungsfall Import- oder… |
-| [`CBAM und CO2-Grenzausgleich`](skills/aussenwirtschaft-cbam-co2-zoll/) | Carbon Border Adjustment Mechanism CBAM CO2-Grenzausgleich für Einfuhren aus Drittlaendern. Anwendungsfall… |
+| [`Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung`](skills/aussenwirtschaft-antidumping-ausgleich/) | Für Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung: ordnet Norm, Beweislast und… |
+| [`CBAM CO2-Zoll: Zertifikatspflicht und Kostenberechnung ab 2026`](skills/aussenwirtschaft-cbam-co2-zoll/) | Für CBAM CO2-Zoll: Zertifikatspflicht und Kostenberechnung ab 2026: ordnet Norm, Beweislast und… |
 
 ## Cold-start context
 

@@ -1,11 +1,11 @@
 ---
 name: contract-and-proposal-writer-borghei
 title: Contract & Proposal Writer
-description: Generate production-ready business documents including freelance contracts, project proposals, SOWs, NDAs, and MSAs with jurisdiction-aware clauses. Covers US (Delaware), EU (GDPR), UK, and DACH (German law) legal frameworks. Includes contract templates, clause libraries, and DOCX conversion. Use when starting client engagements, writing proposals, drafting partnership agreements, or needing GDPR-compliant data processing addenda.
+description: Generate business documents — contracts, proposals, SOWs, NDAs, MSAs — with jurisdiction-aware clauses for US, EU, UK, and DACH. Use when starting client engagements, writing proposals, drafting agreements, or needing GDPR-compliant DPAs.
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/business-growth/contract-and-proposal-writer
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: contracts
@@ -40,6 +40,17 @@ Generate professional, jurisdiction-aware business documents: freelance contract
 - Change order and scope management clauses
 
 ---
+
+## Clarify First
+
+Before drafting the document, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Document type** — contract, proposal, SOW, NDA, or MSA (selects the template and required clauses)
+- [ ] **Jurisdiction** — US-Delaware, EU, UK, or DACH (drives IP, liability, and governing-law clauses; DACH needs Nutzungsrechte, EU needs a DPA)
+- [ ] **Engagement model + value** — fixed-price, hourly, retainer, or revenue-share and total value (drives payment terms and liability cap)
+- [ ] **Personal data involved** — triggers a mandatory GDPR Art. 28 DPA for EU/DACH engagements
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the document.
 
 ## Workflow
 

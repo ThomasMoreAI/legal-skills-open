@@ -5,11 +5,14 @@ description: Build or review an element chart — a patent claim chart (infringe
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/claim-chart
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
+sources:
+- title: Element templates
+  path: references/element-templates.md
 ---
 
 # /claim-chart

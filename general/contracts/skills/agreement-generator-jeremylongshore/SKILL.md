@@ -1,22 +1,20 @@
 ---
 name: agreement-generator-jeremylongshore
 title: Business Agreement Generator
-description: 'Generates customized business agreements for 10 common relationship types with
-
-  plain English annotations. Use when formalizing a business relationship, creating
-
-  a partnership agreement, or drafting a service contract from scratch.
-
-  Trigger with "/agreement-generator" or "create a freelancer agreement".'
+description: Generates customized business agreements for 10 common relationship types with plain English annotations. Use when formalizing a business relationship, creating a partnership agreement, or drafting a service contract from scratch. Trigger with "/agreement-generator" or "create a freelancer agreement".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/agreement-generator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, agreements, business, document-generation]
+tags:
+- legal
+- agreements
+- business
+- document-generation
 ---
 
 # Business Agreement Generator

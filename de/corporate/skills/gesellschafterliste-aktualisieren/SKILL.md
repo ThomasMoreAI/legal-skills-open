@@ -1,11 +1,11 @@
 ---
 name: gesellschafterliste-aktualisieren
 title: Gesellschafterliste aktualisieren (§ 40 GmbHG)
-description: 'Gesellschafterliste nach Kapitalerhohung durch Wandlung aktualisieren und beim Handelsregister einreichen. § 40 GmbHG Gesellschafterliste § 16 GmbHG Legitimationswirkung. Prüfraster: neue Gesellschafter Anteile Stammnummern Notar Einreichungsfrist. Output: aktualisierte Gesellschafterliste Einreichungsschreiben. Abgrenzung: nicht für Cap-Table-Kalkulation (cap-table-update-pre-post).'
+description: 'Für Gesellschafterliste aktualisieren (Paragraf 40 GmbHG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/gesellschafterliste-aktualisieren
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Gesellschafterliste aktualisieren (§ 40 GmbHG)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill erstellt die aktualisierte Gesellschafterliste nach der Kapitalerhöhung und dem Eintritt des Lenders als neuer Gesellschafter. Die Liste wird beim Handelsregister eingereicht. Phase D des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -35,9 +39,6 @@ Dieser Skill erstellt die aktualisierte Gesellschafterliste nach der Kapitalerh�
 - § 16 GmbHG (Gutglaubenswirkung der Gesellschafterliste: nur als Gesellschafter gilt, wer eingetragen ist)
 - § 15 GmbHG (Anteilsübertragung – Vollwirkung erst mit Eintragung)
 - § 19 GwG (Transparenzregister – wirtschaftlich Berechtigte nach Änderung melden; Vollregister seit August 2021)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -74,10 +75,10 @@ Berlin, HRB 123456 B, Amtsgericht Charlottenburg
 Stand: [Datum nach Kapitalerhöhung]
 
 Nr. | Name | Geburtsdatum / HRB | Anschrift | Anteile | Nennwert EUR | Erwerb
-1   | Dr. Mira Schoeneck | [Datum] | [Anschrift] | 40 | 40 | [Gründungsdatum]
-2   | Lina Habersaat | [Datum] | [Anschrift] | 35 | 35 | [Gründungsdatum]
-3   | [Treasury GmbH] | HRB ●, AG ● | [Anschrift] | 25 | 25 | [Datum]
-4   | Northstar Pre-Seed Partners GmbH & Co. KG | HRA 99999, AG Frankfurt | [Anschrift] | 7 | 7 | [Beurkundungsdatum KE]
+1 | Dr. Mira Schoeneck | [Datum] | [Anschrift] | 40 | 40 | [Gründungsdatum]
+2 | Lina Habersaat | [Datum] | [Anschrift] | 35 | 35 | [Gründungsdatum]
+3 | [Treasury GmbH] | HRB ●, AG ● | [Anschrift] | 25 | 25 | [Datum]
+4 | Northstar Pre-Seed Partners GmbH & Co. KG | HRA 99999, AG Frankfurt | [Anschrift] | 7 | 7 | [Beurkundungsdatum KE]
 
 Gesamt: 107 Anteile, Stammkapital EUR 107
 ```
@@ -91,24 +92,14 @@ Gesamt: 107 Anteile, Stammkapital EUR 107
 | Transparenzregister nicht aktualisiert | GwG-Bußgeld (§ 56 GwG) | Frist läuft | Aktualisierung bestätigt |
 | Lender als Gesellschafter ohne HR-Eintragung | Stimmrechte, Gewinnrechte blockiert | Eintragung beantragt | Eintragung erfolgt |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/notar-paket-uebermittlung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/handelsregisteranmeldung-kapitalerhoehung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/post-eintragung-checkliste/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG § 40/§ 16 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 40 GmbHG (Gesellschafterliste, Einreichungspflicht, Haftung des GF) → § 16 GmbHG (Legitimationswirkung, gutgläubiger Erwerb) → § 15 GmbHG (Abtretung Geschäftsanteile) → § 12 HGB i.V.m. FamFG (Handelsregisteranmeldung) → § 57 GmbHG (Anmeldung Kapitalerhöhung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-versicherungsrecht-regress-abwehr
 title: Regress-Abwehr
-description: Regressabwehr gegen Sozialversicherungstraeger und Versicherungstraeger nach Schadensersatzleistung. Anwendungsfall Sozialversicherungstraeger oder Versicherung macht Regress auf Haftenden geltend. Normen § 116 SGB X Forderungsuebergang § 86 VVG Übergang § 76 LBG Dienstherrenregress. Prüfraster sachliche und zeitliche Kongruenz Quotenvorrecht Geschaedigter § 116 Abs. 3 SGB X Familienprivileg § 86 Abs. 3 VVG Mitverschulden Verjährung Hemmung Verhandlungen. Output Regressabwehrschreiben mit Konkurrenz-Einrede Quotenvorrecht-Argumentation und Verjährungseinrede. Abgrenzung zu klage-versicherer-strategie und schriftsatzkern-substantiierung.
+description: 'Für Regress-Abwehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/fachanwalt-versicherungsrecht-regress-abwehr
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
@@ -54,7 +54,6 @@ Ein Schädiger oder dessen Haftpflichtversicherer wird nach einem Schadensereign
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Regress-Abwehr
 
@@ -109,9 +108,7 @@ Ein Schädiger oder dessen Haftpflichtversicherer wird nach einem Schadensereign
 | Gegenargument des Regressnehmers | Gegenstrategie |
 |---|---|
 | "Kongruenz ist evident — Krankenbehandlungskosten für Unfallverletzung" | Einzelpositionen prüfen: Wahlleistungen, Eigenanteile, nicht unfallbedingte Behandlungen herausrechnen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Quote mindert Regress nicht, weil Gesamtschaden gedeckt ist" | § 116 Abs. 3 SGB X ist zwingend: Quotenvorrecht des Geschädigten geht vor; Übergang nur soweit Haftungsanteil vorhanden |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hemmung durch Korrespondenz" | Nur echte Verhandlungen hemmen; reine Sachverhaltsaufklärung oder bloße Forderungsübermittlung sind keine Verhandlungen i.S.d. § 203 BGB |
 | "Vorteilsausgleichung ist ausgeschlossen" | Vorteilsausgleichung greift nur bei Vorteilen die kausal durch das Schadensereignis entstanden sind und nicht unzumutbar sind |
 
@@ -318,18 +315,11 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Geigel, Der Haftpflichtprozess, 28. Aufl. 2022
 - Küppersbusch/Höher, Ersatzansprüche bei Personenschaden, 13. Aufl. 2021
 - Eichenhofer/Wenner, SGB X, 3. Aufl. 2022
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Paragrafenkette
 
@@ -345,5 +335,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 | AZ | Status | Massnahme |
 |---|---|---|
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

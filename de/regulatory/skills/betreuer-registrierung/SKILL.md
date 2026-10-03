@@ -1,11 +1,11 @@
 ---
 name: betreuer-registrierung
 title: Berufliche und ehrenamtliche Betreuung; Weg zur Registrierung
-description: Erklärt die Abgrenzung beruflicher / ehrenamtlicher (privater) Betreuer nach BtOG seit 01.01.2023 sowie den Weg zur Registrierung als beruflicher Betreuer nach Paragraphen 23 ff. BtOG und der Betreuerregistrierungsverordnung. Behandelt Sachkundenachweis (270 Stunden, Anerkennung für Volljuristen und Sozialarbeiter), Berufshaftpflicht 250000 EUR pro Fall und 1000000 EUR jaehrlich, Eignungsgespraech bei der Stammbehoerde, Vergueturung nach VBVG, Bestandsbetreuer-Übergangsregelung Paragraph 32 BtOG, Subsidiaritaetsprinzip Paragraph 1816 Abs. 5 BGB. Verwenden bei Fragen wie 'Wie werde ich Berufsbetreuer', 'Sachkunde Betreuer', 'Anerkennung als Volljurist', 'Vergueturung Betreuer', 'Berufshaftpflicht Betreuer', 'Subsidiaritaet ehrenamtlich beruflich'.
+description: 'Für Berufliche und ehrenamtliche Betreuung; WEG zur Registrierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/betreuer-registrierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -28,11 +28,7 @@ Wenn der Nutzer wissen will, **wer** überhaupt Betreuer werden darf, **wie** si
 ## Aktuelle Rechtsprechung (Stand 05/2026, Live-Verifikation vor Verwendung)
 
 - BGH, Beschluss vom 24.09.2025 - XII ZB 513/24: Bei der Bestellung eines Verhinderungsbetreuers gelten die Auswahlkriterien des § 1816 BGB. Der Wunsch der/des Betroffenen, durch eine nahe Angehörige (hier: Mutter) betreut zu werden, hat Vorrang vor der Bestellung eines Berufsbetreuers. Wenn Zweifel an der Eignung der gewünschten Person bestehen, muss das Gericht von Amts wegen ermitteln (§ 26 FamFG) und die Wunschperson persönlich anhören. Quelle: bundesgerichtshof.de / dejure.org.
-- Weitere Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle (bundesgerichtshof.de, dejure.org, openjur.de) verifizieren.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## I. Der "rechtliche Betreuer" als Oberbegriff
 
 Der Gesetzgeber spricht systematisch vom **rechtlichen Betreuer** im Sinne des § 1814 Abs. 1 BGB n.F. — er handelt für volljährige Personen, die ihre Angelegenheiten wegen Krankheit oder Behinderung ganz oder teilweise rechtlich nicht selbst besorgen können.
@@ -159,7 +155,7 @@ Laufende Aufsicht: Stammbehörde nach §§ 25, 26 BtOG.
 
 ## VII. Rechtsanwalt als Berufsbetreuer
 
-Berufsbegleitende Tätigkeit als Berufsbetreuer ist berufsrechtlich grundsaetzlich zulässig (§ 7 BRAO im Umkehrschluss), bedarf aber der **Anzeige bei der zuständigen Rechtsanwaltskammer**.
+Berufsbegleitende Tätigkeit als Berufsbetreuer ist berufsrechtlich grundsätzlich zulässig (§ 7 BRAO im Umkehrschluss), bedarf aber der **Anzeige bei der zuständigen Rechtsanwaltskammer**.
 
 Steuerlich: nicht klassischer Katalogberuf des § 18 EStG, in der Praxis aber regelmäßig entsprechend behandelt; im Zweifel mit Steuerberater prüfen.
 
@@ -181,3 +177,5 @@ Bei Beratung zur Berufsbetreuung immer mitnehmen:
 - BtRegV vom 26.10.2022, BGBl. I S. 1934.
 - BGB §§ 1814, 1816 Abs. 5, 1865, 1871, 1872, 1877, 1878 (jeweils n.F.).
 - VBVG §§ 7 ff. für die Vergueturung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

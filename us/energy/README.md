@@ -8,13 +8,13 @@ Jurisdiction: `us` · Practice: `energy` · Skill language varies per skill (see
 
 | Skill | What it does |
 |---|---|
-| [`Energy Regulation Summary`](skills/energy-regulation-summaries/) | Generates structured summaries of U.S. energy sector regulations and landmark cases with compliance-focused… |
+| [`Energy Regulation Summary`](skills/energy-regulation-summaries/) | Generates structured summaries of U.S. energy sector regulations and landmark cases with… |
 | [`Farmout Agreement`](skills/farmout-agreement/) | Drafts U.S. upstream oil and gas farmout agreements transferring working interests through earn-in… |
-| [`FERC Market-Based Rate Tariff`](skills/ferc-market-based-rate-tariff/) | Drafts eTariff-ready FERC Market-Based Rate Tariffs for wholesale electric energy, capacity, and ancillary… |
-| [`Gas Gathering Agreement`](skills/gas-gathering-agreement/) | Drafts a Gas Gathering Agreement for receipt, compression, dehydration, and transportation of natural gas… |
-| [`Joint Operating Agreement`](skills/joint-operating-agreement/) | Drafts U.S. Joint Operating Agreements (JOA) for oil and gas exploration, development, and production. Covers… |
+| [`FERC Market-Based Rate Tariff`](skills/ferc-market-based-rate-tariff/) | Drafts eTariff-ready FERC Market-Based Rate Tariffs for wholesale electric energy, capacity, and… |
+| [`Gas Gathering Agreement`](skills/gas-gathering-agreement/) | Drafts a Gas Gathering Agreement for receipt, compression, dehydration, and transportation of natural… |
+| [`Joint Operating Agreement`](skills/joint-operating-agreement/) | Drafts U.S. Joint Operating Agreements (JOA) for oil and gas exploration, development, and production.… |
 | [`Master Service Agreement — Oilfield Services`](skills/oilfield-msa/) | Drafts a Master Service Agreement for upstream oilfield services (Operator-Contractor). Covers… |
-| [`Power Purchase Agreement (PPA)`](skills/power-purchase-agreement/) | Drafts U.S. power purchase agreements (PPAs) between generators and offtakers covering delivery, pricing,… |
+| [`Power Purchase Agreement (PPA)`](skills/power-purchase-agreement/) | Drafts U.S. power purchase agreements (PPAs) between generators and offtakers covering delivery… |
 | [`REC Purchase Agreement`](skills/rec-purchase-agreement/) | Drafts Renewable Energy Credit (REC) Purchase Agreements for US jurisdictions, covering product… |
 
 ## Cold-start context

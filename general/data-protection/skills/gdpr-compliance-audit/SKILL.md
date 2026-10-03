@@ -2,14 +2,19 @@
 name: gdpr-compliance-audit
 title: Conducting Data Protection Audit
 description: 'Guides a comprehensive organisational data protection audit against key GDPR requirements including Articles 5, 24, 25, 28, 30, 32, 35, and 37. Includes 50+ control points covering principles, accountability, security, and governance. Activate when performing compliance audits, preparing for supervisory authority inspections, or assessing organisational GDPR maturity. Keywords: data protection audit, compliance audit, GDPR audit, control points, accountability.'
-author: onfire7777
-author_url: https://github.com/onfire7777/universal-ai-skills-library/tree/main/skills/gdpr-compliance-audit
-license: MIT
-version: 0.1.0
+author: mukul975
+author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/gdpr-compliance-audit
+license: Apache-2.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Conducting Data Protection Audit

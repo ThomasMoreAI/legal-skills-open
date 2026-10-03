@@ -1,11 +1,11 @@
 ---
 name: kyc-aml-geldwaesche
 title: KYC / AML / Geldwäscheprävention
-description: 'KYC- und AML-Anforderungen bei Wandeldarlehensmandat prüfen wenn Investor oder Darlehensgeberin auftritt. §§ 10 11 GwG Sorgfaltspflichten. Prüfraster: wirtschaftlich Berechtigter Risikoklasse PEP-Status Herkunft Kapital Dokumentation. Output: KYC-Checkliste Risikoeinschaetzung Dokumentationspaket. Abgrenzung: nicht für Vertragsprüfung oder Wandlungsmechanik.'
+description: 'Für KYC / AML / Geldwäscheprävention: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/kyc-aml-geldwaesche
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
@@ -14,9 +14,13 @@ language: de
 
 # KYC / AML / Geldwäscheprävention
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill führt die vollständige KYC-Prüfung nach dem Geldwäschegesetz (GwG) für alle Parteien des Wandeldarlehens durch: wirtschaftlich Berechtigte, PEP-Status, Sanktionslisten, Mittelherkunft des Darlehensbetrags. Phase B des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -35,9 +39,6 @@ Dieser Skill führt die vollständige KYC-Prüfung nach dem Geldwäschegesetz (G
 - § 43 GwG (Verdachtsmeldepflicht bei Geldwäscheverdacht)
 - § 47 GwG (Dokumentationspflicht – fünf Jahre nach Vertragsende)
 - Art. 2 VO (EU) 765/2006 (EU-Konsolidierte Sanktionsliste)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -81,26 +82,14 @@ Darlehensbetrag: Woher stammt das Kapital? Kontoauszüge, Jahresabschluss des Le
 | PEP ohne verstärkte Sorgfalt | GwG-Verstoß | PEP-Status in Prüfung | Keine PEP |
 | Transparenzregister-Unstimmigkeit | Meldepflicht § 23a GwG | Abweichung erklärbar | Konsistent |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/parteien-erfassen/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandlung-kommunikation-paketverteilung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/notar-paket-uebermittlung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. GwG in der Fassung 05/2026. Bei Änderung GwG oder EU-Sanktionsregime aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 §§ 10, 11 GwG (KYC-Pflichten, Identifizierung wirtschaftlich Berechtigter) → § 43 GwG (Meldepflicht) → § 56 GwG (Bußgeld bei Pflichtverletzung) → § 261 StGB (Geldwäsche n.F.) → Art. 3 EU-Geldwäsche-RL 2018/843 (5. AMLD) → § 42 AO (Steuerlicher Gestaltungsmissbrauch)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: formulierungshilfe-bauen
 title: Formulierungshilfe und parlamentarische Vorlage bauen
-description: Formulierungshilfen, Aenderungsantraege, Gesetzentwuerfe aus der Mitte des Bundestages oder Landtages, Entschliessungsantraege und parlamentarische Antraege bauen. Anwendungsfall Bundesministerium liefert fachlich zu, Koalitionsfraktion will einen laufenden Gesetzentwurf aendern, Oppositionsfraktion baut einen eigenen Antrag oder Entwurf, Landtagsfraktion braucht eine landesspezifische Vorlage. Klaert formalen Initiator, fachlichen Verfasser, Parlament, Bundesland, Drucksache, Ausschuss, Lesung, GO-BT oder Landtags-GO. Output einreichungsfaehiger Antrag mit Normtext, Begruendung, Kurzvermerk, Synopse-Hinweis und Pflichtquercheck.
+description: 'Für Formulierungshilfe und parlamentarische Vorlage bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/formulierungshilfe-bauen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -123,6 +123,14 @@ Immer mitliefern, wenn das praktisch hilft:
 - Synopse-/Lesefassungsbedarf
 - offene Prüf- und Abstimmungspunkte
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Pflichtquercheck
 
 Auch bei schnellen parlamentarischen Texten intern prüfen und sichtbar dokumentieren:
@@ -146,9 +154,6 @@ Auch bei schnellen parlamentarischen Texten intern prüfen und sichtbar dokument
 
 Art. 76 Abs. 1 GG — GO-BT Vorlagen/Anträge — Art. 70-74 GG — Art. 20 Abs. 3 GG — Art. 103 Abs. 2 GG bei Straf- oder Bußgeldnormen — Landesverfassung und Landtags-GO bei Landesvorhaben — GGO bei ministerieller Zulieferung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 - `Parlamentarische_Vorlage_[Kurztitel].md` mit Normtext oder Antrag, Begründung und internem Kurzvermerk

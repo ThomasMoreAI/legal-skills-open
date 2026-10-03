@@ -1,11 +1,11 @@
 ---
 name: lernsitzung
 title: Lerneinheit
-description: 'Lernsitzung für Jurastudium interaktiv durchführen: Anwendungsfall Student will aktive Lernsitzung zu bestimmtem Thema absolvieren mit Erklärungen Uebungsaufgaben und sofortigem Feedback. Tatbestaende, Subsumtion, Lösungsschemata Zivilrecht Strafrecht öffentliches Recht. Prüfraster Thema und Lernziel festlegen, Erklärung Kontrollfragen Uebungsfall Feedback, Wissenslücken identifizieren. Output strukturierte Lernsitzung mit Erklärungen und Zwischentest. Abgrenzung zu Karteikarten für Memorierung und zu Gutachten-Uebung für Klausurtraining.'
+description: 'Für Lerneinheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jurastudium/skills/lernsitzung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,9 +14,13 @@ language: de
 
 # Lerneinheit
 
-## Zweck
+## Arbeitsweg
 
-Eine strukturierte Lerneinheit mit einer festen Anzahl an Fragen — Karteikarten-Drill, Klausurfrage im Gutachtenstil oder Mündlichkeitssimulation. Die Ergebnisse fließen in den Lernplan ein, sodass die nächste Einheit auf dem aufsetzt, was in dieser Einheit schwierig war.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DRiG § 5a Studiendauer 9 Semester (Regelstudienzeit), Freischuss-Frist (i.d.R. 8 Semester nach JAG), Wiederholungsfrist, Hausarbeit 4-6 Wochen.
+- Tragende Normen verifizieren: DRiG §§ 5, 5a, 5b (Erste Prüfung), JAG der Länder, JAPO Bayern, JAG NRW, BBesG (Referendariat), Hochschulgesetze, Studienordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Justizprüfungsamt (Landesjustizverwaltung), Universität, Repetitorium, Klausurleiter, Mündliche-Prüfungs-Kommission.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Klausurgutachten (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis), Hausarbeit, Aktenvortrag (Referendar), Probeklausur, Prüfungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -32,10 +36,8 @@ Die Fragen folgen dem Examensrelevanzkanon für das Erste und Zweite Staatsexame
 **Leitentscheidungen (Beispiele je Modus):**
 
 Karteikarten-Drill (Definitionen):
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Gutachtenstil-Klausurfragen:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Literatur:**
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
@@ -77,14 +79,14 @@ Sitzungsbericht schreiben:
 
 ```yaml
 sitzungs_verlauf:
-  - datum: 2026-05-08
-    rechtsgebiet: Schuldrecht AT
-    typ: karteikarten          # oder klausurfrage / mündlich
-    fragen_anzahl: 10
-    richtig: 7
-    teilweise: 1
-    falsch: 2
-    schwache_themen: [§ 275 Abs. 1 BGB Unmöglichkeit, § 286 Abs. 2 BGB Verzug ohne Mahnung]
+ - datum: 2026-05-08
+ rechtsgebiet: Schuldrecht AT
+ typ: karteikarten # oder klausurfrage / mündlich
+ fragen_anzahl: 10
+ richtig: 7
+ teilweise: 1
+ falsch: 2
+ schwache_themen: [§ 275 Abs. 1 BGB Unmöglichkeit, § 286 Abs. 2 BGB Verzug ohne Mahnung]
 ```
 
 Falls Lernplan vorhanden: Sitzungsbericht an `lernplan.yaml` → `sitzungs_verlauf` anhängen.
@@ -93,13 +95,6 @@ Falls kein Lernplan: in `sitzungs_verlauf.yaml` schreiben.
 ### Schritt 5: Anschlussempfehlung
 
 > "Auf Basis dieser Sitzung empfiehlt sich als nächster Schritt: [konkrete Empfehlung — z. B. 'Definitionen § 275 BGB mit karteikarten vertiefen' oder 'gutachtenstil-übung: Klausurfall zu § 286 BGB']."
-
-## Ausgabeformat
-
-- Fragen einzeln, eine nach der anderen
-- Rückmeldung je Frage: kurz und normgenau
-- Sitzungsabschluss: tabellarische Auswertung + Verlaufsmuster (ab 2+ Sitzungen zu demselben Rechtsgebiet)
-- YAML-Sitzungsbericht für den Lernplan
 
 ## Beispiel
 
@@ -127,3 +122,5 @@ Pushback falls unvollständig: "Sie haben § 242 StGB benannt — gut. Was ist W
 Normangaben und Definitionen in Fragen und Korrekturen folgen gefestigter Rechtsprechung und kanonischer Literatur. Werden Fragen aus meinem Wissen generiert (nicht aus bereitgestellten Quellen), gilt: inhaltliche Korrektheit ist mit `[PRÜFEN]` markiert, wenn keine sichere Verifikation möglich ist. Vor dem Einlernen gegen Skript oder Kommentar abgleichen.
 
 Hinweis: Diese Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

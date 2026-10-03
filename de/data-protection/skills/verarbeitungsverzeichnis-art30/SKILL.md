@@ -1,0 +1,51 @@
+---
+name: verarbeitungsverzeichnis-art30
+title: 'Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik'
+description: 'Für Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/verarbeitungsverzeichnis-art30
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `Art. 5 Abs. 1 DSGVO` — Grundsaetze der Verarbeitung.
+- `Art. 6 Abs. 1 DSGVO` — Rechtsgrundlagen.
+- `Art. 12 DSGVO` — transparente Information.
+- `Art. 15 DSGVO` — Auskunft.
+- `Art. 17 DSGVO` — Loeschung.
+- `Art. 24 DSGVO` — Verantwortung des Verantwortlichen.
+- `Art. 32 DSGVO` — Sicherheit der Verarbeitung.
+- `Art. 33 DSGVO` — Meldung von Datenschutzverletzungen.
+- `Art. 58 DSGVO` — Befugnisse der Aufsichtsbehoerden.
+- `Art. 83 DSGVO` — Geldbussen.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Spezialwissen: Verarbeitungsverzeichnis: Formular, Portal und Einreichungslogik
+- **Normen-/Quellenanker:** DSGVO, BDSG, TDDDG, PIA, DPIA, AVV, Art. 15, Art. 33, Art. 44, US, DPF, SCC.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Verarbeitungsverzeichnis** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.

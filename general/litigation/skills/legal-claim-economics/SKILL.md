@@ -5,12 +5,21 @@ description: Use when users say "model claim economics", "litigation funding wat
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/legal-claim-economics
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
-tags: [litigation-finance, claim-economics, damages, funding, waterfall, monte-carlo]
+tags:
+- litigation-finance
+- claim-economics
+- damages
+- funding
+- waterfall
+- monte-carlo
+sources:
+- title: Engine model
+  path: references/engine-model.md
 ---
 
 # legal-claim-economics

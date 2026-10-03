@@ -1,11 +1,11 @@
 ---
 name: umweltbericht-umweltpruefung
 title: Umweltbericht und Umweltprüfung
-description: 'Mandant greift Bebauungsplan wegen unzureichender Umweltprüfung oder fehlendem Umweltbericht an. § 2 Abs. 4 BauGB § 2a BauGB Umweltbericht. Prüfraster: Schutzgueter nach Anhang 1 BauGB Mensch Tiere Pflanzen Boden Wasser Luft Klima Landschaft Kultur Nullvariante Alternativen FFH-Vertraeglichkeit § 1a Abs. 4 BauGB. Beschleunigtes Verfahren § 13a BauGB ohne Umweltprüfung. Output: Umweltprüfungs-Audit und Angriffspunkte Normenkontrolle. Abgrenzung zu artenschutz-naturschutz-planung (Artenschutz) und beteiligung-frueh-foermlich.'
+description: 'Für Umweltbericht und Umweltprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/umweltbericht-umweltpruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: environmental
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Umweltbericht und Umweltprüfung
-
-## Zweck
-
-Der Umweltbericht ist nach dem Abwägungsgebot eines der wichtigsten Prüffelder. Fehler hier wirken doppelt: als Verfahrensfehler bei der Beteiligung und als materieller Abwägungsfehler.
 
 ## Schritt 1 — Pflicht zur Umweltprüfung § 2 Abs. 4 BauGB
 
@@ -179,8 +175,4 @@ Der Umweltbericht ist nach dem Abwägungsgebot eines der wichtigsten Prüffelder
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,11 +5,11 @@ description: Use when writing, reviewing, or fixing legally required texts for a
 author: clemensjl
 author_url: https://github.com/clemensjl/claude-skills/tree/main/skills/legal-de
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
-language: de
+language: en
 sources:
 - title: Barrierefreiheit
   path: references/barrierefreiheit.md

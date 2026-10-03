@@ -1,0 +1,85 @@
+---
+name: onboarding-mandantenkommunikation
+title: Mandantenkommunikation und Aufklaerungspflicht im Steuerrecht
+description: 'Für Mandantenkommunikation und Aufklärungspflicht im Steuerrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder Entscheidungsvorlage.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/onboarding-mandantenkommunikation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Mandantenkommunikation und Aufklaerungspflicht im Steuerrecht
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, § 371 AO, § 153 AO.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Welche Handlungsalternativen bestehen und welche Mehr- oder Minder-Steuer ist mit jeder verbunden?
+2. Welches Steuerstrafrisiko ist erkennbar — muss zwingend auf § 371 AO und § 153 AO hingewiesen werden?
+3. Welche Fristen laufen — hat der Mandant verstanden dass Untaetigkeit zur Bestandskraft fuehrt?
+4. Wurde der Mandant über Honorarrahmen und Kostenrisiken aufgeklaert?
+5. Wurde die Empfehlung schriftlich oder mit Aktenvermerk dokumentiert?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 280 BGB** — Schadensersatz wegen Pflichtverletzung; Anwalts- und Steuerberaterhaftung.
+- **§ 675 BGB** — entgeltliche Geschäftsbesorgung.
+- **§ 33 StBerG** — Berufsbild Steuerberater; eigenverantwortliche Vertretung.
+- **§ 43a Abs. 3 BRAO** — Sachlichkeitsgebot; Beratung sachlich und vollstaendig.
+- **§ 153 AO** — Berichtigungspflicht bei nachtraeglich erkannter Unrichtigkeit.
+- **§ 371 AO** — Selbstanzeige.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 280 BGB · § 675 BGB · § 33 StBerG · § 43a BRAO · § 153 AO · § 371 AO · § 89 AO (verbindliche Auskunft) · § 204 AO (verbindliche Zusage)
+
+## Praxisformulierung / Antragsmuster
+
+```
+AUFKLAERUNGS- UND ENTSCHEIDUNGSBESTAETIGUNG
+
+Mandant: [NAME], [ADRESSE]
+Berater: [NAME], [KANZLEI]
+Sache: [STEUERART, JAHR, AKTENZEICHEN]
+
+Heute am [DATUM] habe ich folgende Handlungsoptionen erlaeutert:
+1. [OPTION A] — voraussichtliche Mehrsteuer: [BETRAG]; Risiken: [...]
+2. [OPTION B] — voraussichtliche Mehrsteuer: [BETRAG]; Risiken: [...]
+3. Untaetigkeit — Folge: Bestandskraft des Bescheids.
+
+Ausdruecklich hingewiesen wurde auf:
+- Berichtigungspflicht nach § 153 AO bei nachtraeglichem Erkennen einer Unrichtigkeit
+- Moeglichkeit der Selbstanzeige nach § 371 AO und ihre Sperrgruende
+- Nachzahlungszinsen § 233a AO und Hinterziehungszinsen § 235 AO
+- Frist und Kosten
+
+Der Mandant entscheidet sich für Option [...].
+
+[ORT, DATUM] [UNTERSCHRIFT MANDANT] [UNTERSCHRIFT BERATER]
+```
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

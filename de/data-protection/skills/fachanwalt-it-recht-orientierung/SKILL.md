@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-it-recht-orientierung
 title: Fachanwalt für Informationstechnologierecht — Orientierung
-description: Orientierung im IT-Recht für Mandate und Fachanwaltschaft nach FAO. Anwendungsfall Kanzlei will IT-Mandat beurteilen oder Anwalt bereitet sich auf Fachanwaltsprüfung IT-Recht vor. Normen DSGVO BDSG TDDDG TKG NIS2UmsuCG BSIG DDG DSA DMA KI-VO 2024/1689 EVB-IT. Prüfraster Sachgebiet IT-Vertragsrecht Datenschutzrecht IT-Sicherheitsrecht NIS-2 KI-VO Cyber-Vorfall. Output Rechtsgebietsuebersicht mit Normenhierarchie verifizierbare Quellen und Routing zu Folge-Skills. Abgrenzung zu mandat-triage-it-recht und erstgespraech-mandatsannahme.
+description: 'Für Fachanwalt für Informationstechnologierecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/fachanwalt-it-recht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -75,10 +75,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - **vertragsrecht** bei SaaS-/Cloud-AGB-Prüfung.
 - **kanzlei-allgemein** Fristen Versand.
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Welches IT-Rechtsgebiet ist primär einschlägig?
@@ -104,3 +100,13 @@ Fristen im Blick:
 
 Anschlusskills: [LISTE WEITERFÜHRENDER SKILLS]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

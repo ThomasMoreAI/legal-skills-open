@@ -1,0 +1,123 @@
+---
+name: jahresabschluss-kassenfuehrung-gobd
+title: Kassenfuehrung — GoBD-Pflichten
+description: 'Für Kassenführung — GoBD-Pflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: jahresabschluss-kassenfuehrung-gobd.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/jahresabschluss-kassenfuehrung-gobd
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Kassenfuehrung — GoBD-Pflichten
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, § 146 AO, § 146a AO.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Kernsachverhalt
+
+Bei Mandanten mit Bargeschaeft (Gastronomie, Einzelhandel) ist die Kassenfuehrung ein sensibler Prüfpunkt. § 146 AO verlangt Zeitgerechtigkeit und Vollstaendigkeit; § 146a AO erfordert seit 01.01.2020 (BMF-Nichtbeanstandungsregelung bis 30.09.2020) eine zertifizierte Technische Sicherheitseinrichtung (TSE) bei elektronischen Aufzeichnungssystemen. Seit 01.01.2020 besteht zudem die Belegausgabepflicht nach § 146a Abs. 2 AO. Verstoesse können zur Schaetzungsbefugnis (§ 162 AO), Bussgeld (§ 379 AO) bzw. zu steuerstrafrechtlicher Bewertung als Steuerhinterziehung fuehren.
+
+## Kaltstart-Rueckfragen
+
+1. Welche Kassenart — offene Ladenkasse, elektronische Kasse, mobile Kasse?
+2. TSE eingebaut?
+3. Welches Kassensystem (Hersteller, Modell)?
+4. Wer fuehrt Kassenbuch (Mandant, StB)?
+5. Welche Sondersituation (Trinkgeld, Wechselgeld, Skontoabzug)?
+6. Welche Prüfungen Vergangenheit (Kassenpruefung, Aussenpruefung)?
+7. Welche Belegpflicht-Vorgaben?
+8. Welche taegliche Z-Bon-Routine?
+
+## Rechtlicher Rahmen
+
+### Primaernormen
+
+**§ 146 AO** — Zeitgerechtigkeit, Vollstaendigkeit.
+
+**§ 146a AO** — Aufzeichnungspflicht elektronische Aufzeichnungssysteme; TSE.
+
+**§ 146b AO** — Belegausgabepflicht.
+
+**§ 379 AO** — Bussgeld bei Verstoss.
+
+**§ 162 AO** — Schaetzung bei Maengeln.
+
+### Verwaltungsanweisungen
+
+- BMF v. 28.11.2019 zu GoBD.
+- **BMF v. 11.03.2024** — 1. Änderung GoBD (Anpassung an gesetzliche Änderungen); abrufbar bundesfinanzministerium.de (BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/AO-Anwendungserlass/2024-03-11-aenderung-gobd).
+- **BMF v. 14.07.2025** — 2. Änderung GoBD (Folge von eRechnung, weitere gesetzliche Anpassungen); abrufbar bundesfinanzministerium.de.
+- BMF v. 17.06.2019 zu § 146a AO (TSE).
+- BMF v. 11.06.2020 zur Kassennachschau § 146b AO.
+- **Meldepflicht elektronischer Aufzeichnungssysteme § 146a Abs. 4 AO**: Pflicht seit 01.01.2025 (ELSTER/Mein ELSTER, ERiC-Schnittstelle); Altsysteme vor 01.07.2025 anzumelden bis 31.07.2025; ab 01.07.2025 erworbene Systeme innerhalb 1 Monats nach Anschaffung.
+
+## Workflow
+
+### Phase 1 — Kassensystem prüfen
+
+| System | TSE-Pflicht | Anforderungen |
+|---|---|---|
+| Offene Ladenkasse (Geldkasten) | Keine TSE; aber tagliche Aufzeichnung in Kassenbericht | Manuelle Kassenfuehrung |
+| Elektronische Kasse / Registrierkasse | TSE seit 01.01.2020 | Zertifizierte TSE eingebaut |
+| Cloud-Kassensystem | TSE | Auch Cloud-Loesungen brauchen TSE |
+| App-Kasse | TSE | Bei elektronischer Speicherung |
+
+### Phase 2 — TSE-Prüfung
+
+- TSE-Modul muss zertifiziert sein (BSI).
+- TSE-Daten werden mit jeder Buchung erstellt (Signatur, Zeitstempel).
+- Speicherung 10 Jahre.
+
+### Phase 3 — Tagliche Routine
+
+- Z-Bon (Tagesabschluss): am Tagesende ausdrucken.
+- Kassensturz: Soll-Bestand vs. Ist-Bestand.
+- Differenzen klären.
+- Kassenbericht oder elektronisch.
+
+### Phase 4 — Belegpflicht § 146b AO
+
+- Seit 01.01.2020: jeder Verkauf Beleg.
+- Beleg kann Papier oder elektronisch sein.
+- Verstoss: § 379 AO Bussgeld.
+
+### Phase 5 — Bei Prüfung
+
+- Kassennachschau § 146b AO: unangemeldet möglich.
+- Aussenpruefer: Kassenfuehrung vorlegen.
+- Bei wesentlichen Maengeln: Schaetzung § 162 AO.
+
+### Phase 6 — Verfahrensdokumentation
+
+- Verfahrensdokumentation des Kassensystems (Pflicht).
+- Bedienungsanleitung TSE.
+- Beleg-Archivierung GoBD-konform 10 Jahre.
+
+## Strategie und Praxis-Tipps
+
+- Die TSE-Pflicht ist hart durchgesetzt; der Bussgeldrahmen reicht nach § 379 Abs. 6 AO bis 25.000 EUR pro Verstoss.
+- Die Verfahrensdokumentation (Konfiguration, Bedienungsanleitung, Änderungsprotokoll) ist haeufig vernachlaessigt, aber ausdruecklich Pflichtbestandteil nach GoBD (BMF v. 28.11.2019, Rz. 153 ff.).
+- Bei Mandanten mit hohem Bargeschäft ist eine kontinuierliche Begleitung sinnvoll. Bei konkretem Manipulationsverdacht die Berichtigungs-, Mitwirkungs-, Haftungs- und Sanktionsrisiken nach Abgabenordnung und Strafrecht mandatsgerecht dokumentieren. Paragraf 102 StaRUG nur zusätzlich prüfen, wenn ein Jahresabschluss erstellt wird, Anhaltspunkte für einen möglichen Insolvenzgrund offenkundig sind und die mögliche Insolvenzreife dem Mandanten vermutlich nicht bewusst ist.
+- Die Kassennachschau nach § 146b AO erfolgt unangekuendigt — auch zu Beginn der Geschäftsoeffnung; Mandanten sollten auf den Umgang mit dem Prüfer (Vorlage Kassen-Z-Bons, TSE-DSFinV-K-Daten) geschult werden.
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- AO §§ 146, 146a, 146b, 162, 379.
+- BMF v. 28.11.2019 zu GoBD; BMF v. 11.03.2024 (1. Änderung GoBD); BMF v. 14.07.2025 (2. Änderung GoBD).
+- BMF v. 17.06.2019 (TSE).
+- BMF v. 11.06.2020 (Kassennachschau).
+- § 146a Abs. 4 AO Meldepflicht (Mein ELSTER) seit 01.01.2025; Altsysteme bis 31.07.2025, Neusysteme ab 01.07.2025 innerhalb 1 Monats.

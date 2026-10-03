@@ -1,11 +1,11 @@
 ---
 name: rueckausnahme-art-6-abs-3
 title: Rückausnahme vom Hochrisiko — Art. 6 Abs. 3 KI-VO
-description: 'Prueft nach positiver Anhang-III-Zuordnung, ob ein KI-System ausnahmsweise nicht Hochrisiko ist. Art. 6 Abs. 3 KI-VO: kein erhebliches Risiko fuer Gesundheit, Sicherheit oder Grundrechte, vier enge Fallgruppen, Profiling-Sperre, Begruendungs- und Dokumentationspflicht nach Art. 6 Abs. 4. Besonders wichtig fuer allgemeine Assistenzsysteme, Chatbots und vorbereitende Tools in Personal, Justiz, Bildung, Kredit und Verwaltung. Output: begruendeter Rueckausnahme-Vermerk mit Risikobegruendung und Folge-Skills.'
+description: 'Für Rückausnahme vom Hochrisiko — Art. 6 Abs. 3 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/rueckausnahme-art-6-abs-3
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,12 +13,6 @@ language: de
 ---
 
 # Rückausnahme vom Hochrisiko — Art. 6 Abs. 3 KI-VO
-
-## Zweck
-
-Dieser Skill wird nur genutzt, wenn zuvor ein Anhang-III-Tatbestand nach Art. 6 Abs. 2 KI-VO möglich oder wahrscheinlich ist. Er prüft, ob das System ausnahmsweise nicht als Hochrisiko-KI-System gilt, weil es kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte darstellt und in eine der eng auszulegenden Fallgruppen fällt.
-
-Der Skill ist besonders wichtig bei allgemeinen Assistenzsystemen, LLM-Tools, Chatbots und Dokumentationshilfen, die in sensiblen Bereichen eingesetzt werden, aber nur vorbereitende oder eng begrenzte Aufgaben erfüllen sollen.
 
 ## Prüfungsreihenfolge
 
@@ -167,4 +161,4 @@ Anhang-III-Treffer: [NR. / BEREICH / KONKRETER TATBESTAND]
 
 ## Quellen- und Aktualitätshinweis
 
-Stand: 05/2026. Maßgeblich sind Art. 6 Abs. 3 und 4 KI-VO, Art. 3 Nr. 12/13/23 KI-VO und Anhang III. Keine Rechtsberatung; die Rückausnahme ist eng und tatsachenabhängig.
+Stand: 07/2026. Maßgeblich sind Art. 6 Abs. 3 und 4 KI-VO, Art. 3 Nr. 12/13/23 KI-VO und Anhang III. Keine Rechtsberatung; die Rückausnahme ist eng und tatsachenabhängig.

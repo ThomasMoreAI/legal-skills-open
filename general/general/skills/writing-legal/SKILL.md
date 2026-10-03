@@ -1,287 +1,163 @@
 ---
 name: writing-legal
-title: Academic Legal Writing
-description: Internal skill for academic legal writing. Loaded by /writing when style=legal. Based on Volokh's "Academic Legal Writing".
+title: Legal register (`legal`)
+description: 'ALWAYS load BEFORE drafting, revising or grading LAW REVIEW prose — ''write the article'', ''draft this Part'', ''revise my note'', ''polish the law review piece'', ''does this sound like a law review article'', ''edit my seminar paper'', ''is this Part well written'', ''should I write This Article or This paper'', ''do I cross-reference by Part or Section'', ''how do I transition between Parts'', ''the sections don''t connect'', ''is pursuant to legalese''. Covers T14 flagship articles, student notes, seminar papers and any legal scholarship carrying footnotes and Bluebook short forms. This skill carries ONLY what is additional to the base register: load `writing-general` alongside it — the diction, tic, vindicated-phrase and formatting rules live there and are assumed here. Do NOT load this for a finance or accounting journal submission (use `writing-econ`) or for a comment letter, memo, brief or professional email (`writing-general` alone) — importing a law review rule into
+  either of those makes the prose worse.'
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/writing-legal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
 ---
 
-# Academic Legal Writing
-
-Style guide for law review articles, seminar papers, and legal scholarship based on Eugene Volokh's *Academic Legal Writing*.
-
-## On Skill Load
-
-**Step 1: Load base writing rules**
-
-Read `${CLAUDE_SKILL_DIR}/../../skills/writing/SKILL.md` and follow its instructions.
-
-**Step 2: Check for active workflow**
-
-If `.planning/ACTIVE_WORKFLOW.md` exists and `workflow: writing`, update `style: legal`.
-
-If no `.planning/PRECIS.md` exists in the project:
-- Suggest: "No PRECIS.md found. Consider `/writing` to set up thesis, audience, and claims first."
-
-**Step 3: Apply legal-specific rules below**
-
-## When to Use
-
-Invoke this skill for:
-- Law review articles and student notes
-- Seminar papers and legal scholarship
-- Academic legal writing with footnotes
-- Editing legal prose for structure and argument
-
-**For general writing**: Use `/writing` skill (Strunk & White)
-**For economics/finance**: Use `/writing-econ` skill (McCloskey)
-
-## Required Skills
-
-When generating Word documents (`.docx`), you MUST load the `/docx` skill first. The docx skill provides proper document manipulation capabilities.
-
-## Template Requirement
-
-**Template location:** `templates/law_review_template.docx`
-
-When creating or converting a docx, load `references/formatting.md` for heading styles, body text styles, pandoc `--reference-doc` usage, and the document creation gate function.
-
-## Enforcement
-
-### IRON LAW #1: NO DOCX WITHOUT TEMPLATE FIRST
-
-Before creating ANY Word document for legal writing:
-1. Load the `/docx` skill
-2. Copy `templates/law_review_template.docx` as the base
-3. THEN add content to the template copy
-
-If you created a blank docx without the template, DELETE IT and START OVER with the template.
-
-### IRON LAW #2: NO CLAIM WITHOUT CONFRONTING COUNTERARGUMENTS
-
-If your draft makes a prescriptive claim but doesn't address obvious objections, DELETE the section and START OVER. Legal scholarship requires anticipating and answering counterarguments, not ignoring them.
-
-### IRON LAW #3: NO SECONDARY SOURCE CITATIONS FOR PRIMARY SOURCES
-
-If you cite a case/statute/historical fact via an intermediate source (law review, treatise), DELETE the citation and READ THE ORIGINAL. Even Supreme Court opinions misstate precedents.
-
-### Rationalization Table - STOP If You Think:
-
-| Excuse | Reality | Do Instead |
-|--------|---------|------------|
-| "This article discusses..." | Bores reader instantly | START with concrete problem or controversy |
-| "Table-of-contents paragraph helps" | Readers skip it | INTEGRATE roadmap into intro |
-| "Background section comes first" | Not before establishing relevance | SHOW problem first, background second |
-| "Case-by-case summary is thorough" | Tedious and unhelpful | SYNTHESIZE: "Courts hold X except Y" |
-| "Counterargument would hurt my claim" | Ignoring it hurts worse | CONFRONT and refine claim |
-| "Treatise summary is good enough" | Treatises have errors | READ original cases |
-| "Arguably" makes my point | Acknowledges controversy without arguing | MAKE the argument explicitly |
-| "This metaphor is clear" | Metaphors hide incomplete logic | UNPACK: what's the actual argument? |
-
-### Drive-Aligned Framing
-
-**Citing a case without reading its holding is NOT HELPFUL — the user submits a paper with a wrong citation and reviewers destroy their credibility.** Relying on headnotes or training data is not legal research.
-
-- You omitted the strongest counterargument to make the thesis look stronger. The reader sees through it — your omission destroyed credibility.
-- You cited a treatise instead of the primary case. The reader checks and finds the user didn't read the original — your shortcut destroyed their scholarly reputation.
-- You wrote the analysis free-form to be "more natural." The argument has no structure — your creativity produced confusion.
-
-### Red Flags - STOP Immediately If You Think:
-
-**Content Red Flags:**
-- "Let me write standard intro" → NO. Find concrete problem first.
-- "I'll address objections later" → NO. Confront counterarguments NOW.
-- "This treatise explains the case" → NO. Read the original case.
-- "Background section needs more" → NO. Only include what proves claim.
-
-### Delete & Restart Pattern
-
-**When to delete and restart:**
-
-1. **Intro starts with "This article discusses"** → Delete, start with concrete problem
-2. **Background exceeds proof section** → Delete excessive background
-3. **Claim made without addressing objections** → Delete section, add counterargument confrontation
-4. **Citation chain to primary source** → Delete citation, read and cite original
-5. **Unpacked metaphor used as argument** → Delete, write actual logical argument
-
-**How to restart:**
-
-```
-Old: "This article discusses privacy concerns in Fourth Amendment doctrine..."
-New: "When police drones photograph backyards, does the Fourth Amendment require a warrant?
-      Courts disagree, but three features of aerial surveillance suggest yes."
-```
-
-Start with CONCRETE QUESTION that matters, not abstract topic description.
-
-## Law Review Article Structure
-
-### Introduction
-
-The introduction serves three functions:
-1. Persuade readers to keep reading
-2. Summarize the article for those who won't read it
-3. Frame how readers interpret what follows
-
-**Requirements:**
-- Show the problem concretely with specific examples or hypotheticals
-- State the claim clearly—what does the article contribute?
-- Integrate the roadmap into the introduction, not as a separate paragraph
-- Hook the reader: concrete question, engaging story, controversy, or argument to rebut
-
-**Anti-patterns:**
-- Starting with "This article discusses..."
-- Separate table-of-contents paragraph (readers skip it)
-- Historical background before establishing relevance
-- Vague generalities about the importance of the topic
-
-### Background Section
-
-Synthesize precedents; do not summarize each case sequentially. Focus only on facts and rules necessary for the argument.
-
-| Problem | Solution |
-|---------|----------|
-| Summarizing each case | Synthesize: "Courts generally hold X, except when Y" |
-| Mini-treatise on the area | Only what's needed for the claim |
-| 80% background, 20% claim | Balance must favor the original contribution |
-
-### Proof of the Claim
-
-For prescriptive claims: Show the proposal is both doctrinally sound AND good policy.
-
-**Use a test suite:** Apply the proposal to concrete scenarios (easy cases, hard cases, edge cases) to demonstrate it works.
-
-**Confront counterarguments:**
-- Turn problems to advantage: refine the claim, acknowledge uncertainty
-- Stay on offense—address objections without becoming defensive
-- Acknowledge costs honestly; readers respect candor
-
-**Connect to broader issues:**
-- How does the claim relate to parallel debates?
-- What subsidiary discoveries emerged?
-- What questions remain for future research?
-
-### Conclusion
-
-Keep conclusions brief. The real work is rewriting the introduction after the draft is complete, ensuring it accurately reflects the article's contributions.
-
-## Legal Argument Problems
-
-Common logical problems in legal writing (see `references/volokh-distilled.md` for detailed examples):
-
-| Problem | Issue |
-|---------|-------|
-| Categorical assertions | "Always" and "never" invite counterexamples |
-| Unpacked metaphors | "Slippery slope" and "chilling effect" hide incomplete arguments |
-| Missing logical pieces | Syllogisms that skip steps (subject to scrutiny ≠ fails scrutiny) |
-| Universal criticisms | "Chilling effect" applies to most laws—explain why *this* one matters |
-| Undefined abstractions | "Privacy," "paternalism," "democratic legitimacy" need definitions |
-| "Arguably" as argument | Acknowledges controversy but doesn't make the case |
-
-## Evidence and Citation
-
-### Read Original Sources
-
-Never rely on intermediate sources for cases, statutes, or historical facts. Even Supreme Court opinions misstate precedents.
-
-| Source Type | Rule |
-|-------------|------|
-| Cases/statutes | Read the original; don't trust treatises or other cases |
-| Historical facts | Go to history books, not law review articles citing them |
-| Scientific studies | Read the study, not the article summarizing it |
-| Newspapers | Unreliable; track down underlying documents |
-| Wikipedia | Use to find sources, but cite originals |
-
-### Be Precise with Terms
-
-Avoid false synonyms: "murder" ≠ "homicide" ≠ "killing"; "foreign-born" ≠ "noncitizen"; "children" is ambiguous (0-14? 0-17? 0-24?).
-
-Include necessary qualifiers: "*falsely* shouting fire" is quite different from "shouting fire."
-
-### Be Explicit About Assumptions
-
-Make clear when inferring:
-- From correlation to causation
-- From one time/place to another
-- From one variable to another (arrest rate ≠ crime rate)
-
-Acknowledge the inference and defend it; don't hide it.
-
-### Handle Surveys Carefully
-
-Surveys measure only what respondents said in response to specific questions. Valid surveys require:
-- Random sampling (not self-selected, not convenience samples)
-- High response rates (70%+)
-- Sufficient sample size (1000+ for ±3% margin)
-- Unambiguous questions
-
-"Online survey" and "Internet poll" are almost sure signs of invalidity.
-
-## Rhetoric and Tone
-
-| Principle | Application |
-|-----------|-------------|
-| Understate criticism | "Mistaken" not "idiotic"—overstating raises the burden of proof |
-| Attack arguments, not people | "This argument fails" not "Volokh is wrong" |
-| Avoid caricature | Quote adherents, not critics, when explaining a position |
-
-See `references/volokh-distilled.md` for extended discussion of rhetorical problems.
-
-## Quick Reference
-
-| Problem | Solution |
-|---------|----------|
-| "This article discusses X" | Hook with concrete problem |
-| Case-by-case summaries | Synthesize precedents |
-| Undefended metaphors | Unpack the concrete mechanism |
-| "Arguably" / "raises concerns" | Give the actual argument |
-| Relying on intermediate source | Read original case/study |
-| "Many children" | Specify: "111 children age 0-17" |
-| "Correlation shows causation" | Explain why inference is valid |
-| "Volokh's argument is idiotic" | "This argument seems unsound" |
-
-## Progressive Disclosure
-
-For comprehensive guidance, consult:
-
-### Reference Files
-
-- **`references/formatting.md`** - Template formatting reference:
-  - Heading hierarchy and Title Case rules
-  - Body text styles
-  - Document creation gate function (5-step)
-  - Pandoc `--reference-doc` usage
-  - Template rationalization table and red flags
-
-- **`references/volokh-distilled.md`** - Extended Volokh guidance covering:
-  - Full logical problems taxonomy
-  - Word and phrase problems to avoid
-  - Extended evidence handling
-  - Survey analysis methodology
-  - Editing principles and exercises
-
-### When to Load References
-
-Load `references/formatting.md` when:
-- Creating or converting a Word document
-- Applying template styles or pandoc conversion
-
-Load `references/volokh-distilled.md` when:
-- Encountering specific evidence evaluation questions
-- Needing detailed survey methodology guidance
-- Working on substantial manuscript revision
-- Checking specific word choice or usage questions
-
-## Integration
-
-**Required skills for document generation:**
-- `/docx` - Load BEFORE creating any Word document
-- `/bluebook` - Load when formatting legal citations
-
-After completing any legal writing task, invoke `/ai-anti-patterns` to check for AI writing indicators. The `/writing` skill covers general prose principles (active voice, omit needless words) that complement this skill.
+# Legal register (`legal`)
+
+**What this skill carries** — grep `references/` for any subject the names below miss:
+!`d=${CLAUDE_SKILL_DIR}; command -v skill-toc >/dev/null 2>&1 && exec skill-toc "$d"; s=$HOME/.claude/skills/plugin-utils/bin/skill-toc; [ -x "$s" ] && exec "$s" "$d"; echo "(skill-toc unavailable: references and scripts are NOT listed here — install the plugin-utils plugin, or start a new session so its bin/ reaches PATH)"`
+
+**The base is `writing-general`, and it is assumed loaded alongside this file.** Everything below is
+what is *additional* for law review prose. Nothing from the base is restated here.
+
+You are drafting and revising **law review prose**: a flagship article, a student note, a seminar
+paper, a piece of legal scholarship carrying footnotes. Voice, citation form and register follow the
+conventions below.
+
+Everything here is measured, not asserted. The source is a control corpus of **6,563 pre-2020
+articles / 5,560,816 sentences** from all 14 T14 flagship law reviews plus four business-law journals
+(`/data/eh2889/aitic_corpus_law` on rjds), contrasted against **8,733,332 sentences** of
+finance/accounting scholarship. Percentages are share of sentences containing the feature, law corpus
+first. Rates written `n/M` are hits per million sentences.
+
+## Register: what actually distinguishes this corpus
+
+| feature | law | finance | do |
+|---|---|---|---|
+| `we` | **0.87%** | 7.75% | Avoid the authorial `we`. It is nine times rarer here. Prefer the impersonal construction or `This Article`. |
+| `we find / show / document` | **0.02%** | 0.58% | Effectively absent — 29× rarer. Never open a claim this way. Say what is true, then cite. |
+| `supra` / `infra` / `id.` | **1.91%** | 0.00% | Bluebook short forms are the norm and appear in roughly one sentence in fifty. |
+| quotation marks | **8.36%** | 1.68% | Quote sources directly and often — five times the rate of the finance register. |
+| `court` / `holding` / `held` / `statute` / `doctrine` | **6.41%** | 0.73% | The vocabulary of authority is the substance, not decoration. |
+| semicolons | **4.33%** | 2.27% | Twice the finance rate. Long coordinate structures are idiomatic here. |
+| `may` / `might` | **3.56%** | 1.99% | Hedging is register-appropriate. Do not strip it out to sound decisive. |
+| `Part I` / `Part II` | **0.20%** | 0.00% | Cross-reference by **Part**, never by "Section 2". |
+| `This Article` | **0.06%** | 0.00% | The self-reference. Capital A. `This Note` for student work. |
+| `This paper` | 0.02% | **0.28%** | Wrong register. Do not write it. |
+| parentheticals | 1.93% | **4.73%** | Less parenthetical throat-clearing than the finance register; put the qualification in a footnote. |
+| `regression` / `coefficient` | 0.05% | **2.25%** | Empirical vocabulary is 45× rarer here. If the Article is empirical, it still narrates rather than tabulates. |
+
+## Conventions
+
+- **Footnotes carry the citations.** Substantive text goes in the body; support, parentheticals and
+  qualifications go below the line. Never inline a full citation in body prose.
+- **Cross-reference by Part** (`Part II.B`), not section number.
+- **Signals matter**: `see`, `see also`, `cf.`, `but see`, `e.g.` — italicized, and each means
+  something different. Do not use `see` where the source states the proposition directly.
+- **`supra` / `infra` / `id.`** for short forms once a source is established.
+- **Small caps** for journal names in citations.
+- **Three body Parts is the default** — Background, the Argument with counterarguments folded in, the
+  Prescription. Splitting into four or five Parts is an exception you reach, not a starting point.
+
+## Boundaries: the objection hinge
+
+**Every Part and Section boundary is a hinge. The reader crosses the heading already holding a
+reasonable objection, plus a commitment that the next unit answers it and a statement of what the
+answer is.** This is a brief's discipline carried into an Article, and the source is Bebchuk &
+Kastiel, *Controllers Unbound* (2026). **Copy its structure, not its sentences.** The prose is
+brief-like rather than good. A variant of "it might be argued" carries six boundaries (III.A, III.B.1, VIII.A–D), and
+"We would like to stress" and "ten times(!)" appear too. Build the hinge the
+way the table shows, then write each sentence to the `writing-general` rules. A hinge has two
+halves, and a boundary missing either half has no transition:
+
+1. **The objection**, stated the way a reasonable reader would state it, without attribution:
+   `It might be argued, however, that…`, `Some might question our conclusions on the grounds
+   that…`. Concede the part that is true (`We fully agree with this proposition.`). Say who holds
+   the view in a footnote, never at the hinge.
+2. **The promise, and it names the answer, not the topic.** Write `As explained below, however,
+   SB 21 leaves public investors vulnerable to partial freezeouts`, never `We now turn to partial
+   freezeouts`. Bebchuk's `as we now explain` and `the question to which we now turn` are his
+   idiolect, at 0.00/M and 0.18/M in the law corpus. Use the form, not the phrase.
+
+**Measured** with `ai-tic`'s `fp-check.sh` triage (line-level, so absolute rates undercount phrases
+that wrap across lines; the law/finance ratio is like for like). The law corpus averages about 850
+sentences per article.
+
+| phrase | law | finance | what it tells you |
+|---|---|---|---|
+| `it might be argued` | **52.7/M** | 6.5/M | The objection voice is legal register, 8× the finance rate |
+| `some might question / argue / object` | **11.7/M** | 2.1/M | 5.7× |
+| `one might argue` · `it could be argued` | 39.4 · 35.4/M | 22.4 · 19.0/M | Under 2×, so these forms are shared rather than marked |
+| all four objection openers | ~139/M | ~50/M | About **one every eight law articles**. Bebchuk's six in one Article is roughly 50× the norm |
+| `as explained below, however` | **2.7/M** | 0.46/M | The answer-naming promise is law-marked (5.9×) |
+| `we (now) turn to` | 24.5/M | **140.8/M** | The topic-only promise is finance register (5.8×) |
+| `the next section` · `in this section` | 56 · 137/M | **377 · 1,165/M** | Finance signposts by Section, 7–8× the law rate |
+| `this Part` · `the next Part` | **598 · 53/M** | 31 · 2.4/M | Law signposts by Part |
+| `thus far` | 158/M | 123/M | Shared, and safe for lifting an assumption |
+
+| boundary | the move in *Controllers Unbound* |
+|---|---|
+| Section → Section (hinge closes the unit) | III.A ends: "It might be argued, however, that fiduciary duties and norms … generally lead directors who are independent … to oppose decisions that would adversely affect public investors. Whether this is in fact the case is the question to which we now turn." III.B's first sentence answers it: controllers "should commonly be able to have in place at least two independent directors that tend to go along." |
+| Subsection → subsection | III.B.1 ends: "It might nonetheless be argued that … Independent directors are moral agents and might elect 'to do the right thing.' We fully agree with this proposition. However, as we now explain, the constraint this places on controlling shareholders is far weaker than it may appear given controllers' power to select, and reselect as needed …" |
+| Part → Part by lifting an assumption (hinge opens the unit) | Part V opens: "Thus far, the discussion has examined the rules governing controlled companies taking the existence and number of such companies as given. An important conclusion of our analysis, however, is that SB 21 … will also have a major impact on the incidence and nature of control blocks." VI.B uses the same move. |
+| An objection Part, in the roadmap and its opener | Intro: "Some might question our conclusions on the grounds that … various mechanisms could provide substitute protections. Part VIII addresses such objections." The Part VIII opener ends with the verdict first: "these four 'mechanisms,' will fail to adequately make up for the weakening of controller constraints." |
+| A rebuttal Section's opener | VIII.A: "One might argue that controllers could be partially deterred … However, as explained below, … the expected decline in the market value of the controller's block rarely discourages the controller …, and almost never does it in dual-class controlled companies." The objection comes in sentence one and the verdict in sentence two. |
+| A Section with no natural objection | IV.D: "The drafters of SB 21 accepted that controller-favoring freezeouts raise especially serious concerns … As explained below, however, SB 21 leaves public investors vulnerable to … 'partial freezeouts.'" The concession stands in for the objection. |
+
+- **The promise is a debt.** The first paragraph of the next unit must deliver the proposition the
+  promise named, and deliver that exact one. A hinge that promises Y and then delivers Y′ is worse
+  than no hinge.
+- **Cross-references are directional and numbered:** `In Part II above`, `As Part V below will
+  further detail`, `as explained in Section B`.
+- **Grading TRANSITION on a legal draft** (`writing/references/writing-checks.md`) means quoting
+  both halves at every boundary. If either half is missing, report a finding.
+
+| About to | Why wrong | Do instead |
+|---|---|---|
+| End a unit on `In sum, …` and open the next with its topic | Nothing is handed forward. It is the one boundary in *Controllers Unbound* without a hinge: VI.A and VI.B end on the same "In sum" paragraph, word for word | End on the objection the next unit answers, or open the next unit by lifting an assumption (`Thus far … taking X as given. However, …`) |
+| Write `We now turn to X` / `The next section examines X` | The promise names only a topic, so the reader has no claim to test the next unit against. It is also the finance register's signpost: `we turn to` runs at 140.8/M in finance and 24.5/M in law | `As explained below, however, [answer]`, or `Part V shows that [answer]` |
+| Open a Section with `This Section discusses X` | Meta-commentary with no claim | `In this Section, we explain that [claim]`, or objection + `however` |
+| Reuse one objection formula (`It might be argued`) at boundary after boundary | This is Bebchuk's tic, not his method. The law corpus uses the four objection openers together about once every eight articles | Use a formula for at most one or two hinges per Article. Elsewhere state the objection as a plain claim (`Fiduciary duties might seem to restrain these directors.`) or use a concession (`The drafters accepted that …`) |
+| Attribute the hinge objection to a named scholar in the body | Turns the boundary into a literature review | Keep the voice impersonal at the hinge and put the name in the footnote |
+
+## Volokh, run through the law corpus
+
+The source guide is Volokh's *Academic Legal Writing*, distilled in full at
+`${CLAUDE_PLUGIN_ROOT}/skills/writing/references/volokh-distilled.md` — read it there for the full
+text of any rule below. **Where this file and that guide disagree, this file controls.** Volokh's
+prescriptions were checked against the same corpora and sorted three ways.
+
+### Ship
+
+| rule | why it holds |
+|---|---|
+| Never open with `This article discusses…` | It is throat-clearing, and the corpus opens with the concrete problem. Hook with the question or the controversy. |
+| Confront counterarguments **in the Part that makes the claim** | Deferring them to a separate Part reads as evasion and forces the reader to hold the objection unanswered. |
+| Read the original source | A case cited from a headnote, a treatise, or training data is an unverified claim presented as fact. Even Supreme Court opinions misstate precedents. |
+| Synthesize precedents; do not summarize case by case | `Courts generally hold X, except when Y` — not a sequential digest. |
+| Be precise with terms | `murder` ≠ `homicide` ≠ `killing`; `foreign-born` ≠ `noncitizen`; `children` is ambiguous until you give the age range. |
+| Understate criticism | `mistaken`, not `idiotic`. Overstating raises your own burden of proof. |
+| Unpack the metaphor | `slippery slope` and `chilling effect` hide the argument rather than making it. Name the mechanism. |
+
+### Advisory
+
+| rule | measured reality | what to actually do |
+|---|---|---|
+| Cut the hedges (`may`, `might`, `arguably`) | `may`/`might` in **3.56%** of law sentences, 1.8× the finance rate | Hedging is register-appropriate here. Cut `arguably` where it substitutes for the argument; leave the rest. |
+| Prefer active voice | passive 7.91% law vs 8.55% finance — not a register marker | Ask who acted. Do not convert on principle. |
+| Avoid long coordinate sentences | semicolons **4.33%**, twice the finance rate | Long coordinate structures are idiomatic in this corpus. Break the ones that lose the reader, not the ones that are merely long. |
+
+### Dropped
+
+| rule | why it is dropped |
+|---|---|
+| Avoid `pursuant to` | 837/M in the law corpus — **26× the finance rate**. This is not legalese to be purged; it is the legal register. Flagging it teaches the drafter to write like an economist. |
+| Avoid the passive throughout | See above. The measurement refutes the rule as a register claim. |
+
+## Vindicated in this corpus specifically
+
+Beyond the shared list in `writing-general`: `To be sure,` runs **194.0/M** here (against 11.5/M in
+finance) and `Admittedly,` **63.3/M**. `cuts against` (13.1/M) and `cuts the other way` are standard
+analytical vocabulary. A reviewer who flags any of these as an AI tell is wrong, and the corpus says
+so.

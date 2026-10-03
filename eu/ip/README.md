@@ -8,5 +8,5 @@ Jurisdiction: `eu` · Practice: `ip` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`EUIPO-Widerspruchsverfahren`](skills/euipo-widerspruchsverfahren/) | EUIPO-Widerspruchsverfahren nach Art. 8 UMV führen: aeltere Marke kollidiert mit juengerer… |
-| [`Unionsmarken-Anmeldung beim EUIPO`](skills/unionsmarken-anmeldung-euipo/) | Unionsmarke beim EUIPO anmelden nach UMV (EU) 2017/1001: Modehaus will EU-weiten Markenschutz in einem… |
+| [`Schutzumfang eines Unionsdesigns prüfen`](skills/eu-design-schutzumfang-gesamteindruck-pruefen/) | Prüft den Schutzumfang eines eingetragenen oder nicht eingetragenen Unionsdesigns anhand Darstellung… |
+| [`EUIPO-Widerspruchsverfahren`](skills/euipo-widerspruchsverfahren/) | Führt ein EUIPO-Widerspruchsverfahren von Veröffentlichung und Dreimonatsfrist über Widerspruchsgrund… |

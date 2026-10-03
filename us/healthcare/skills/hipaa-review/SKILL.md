@@ -5,12 +5,14 @@ description: Performs a HIPAA Security Rule compliance review against all Admini
 author: UnitOneAI
 author_url: https://github.com/UnitOneAI/SecuritySkills/tree/main/skills/compliance/hipaa-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: healthcare
 language: en
-tags: [compliance, hipaa]
+tags:
+- compliance
+- hipaa
 ---
 
 # HIPAA Security Rule Review
@@ -561,6 +563,16 @@ Policies, Procedures, and Documentation — 164.316
 4. **Confusing HIPAA Security Rule with HIPAA Privacy Rule.** The Security Rule (Subpart C) applies only to ePHI and focuses on technical, physical, and administrative safeguards. The Privacy Rule (Subpart E) covers all PHI including paper records and addresses permitted uses and disclosures. A Security Rule review does not satisfy Privacy Rule obligations and vice versa.
 
 5. **Failing to document the "why" behind security decisions.** The Security Rule is designed to be flexible and scalable. But that flexibility requires documentation. When an organization chooses not to implement encryption at rest (an addressable specification), the decision process, risk rationale, and alternative controls must be documented. OCR auditors expect written justification, not verbal explanations.
+
+---
+
+## Limitations
+
+- **Blind spots:** This skill depends on available code, configuration, logs, documentation, and user-provided context; it cannot prove controls exist or threats are absent when evidence is missing, runtime-only, or outside the review scope.
+- **False-positive risks:** Treat findings as hypotheses until validated against asset criticality, compensating controls, environment intent, and recent authorized changes.
+- **Required evidence:** Support each finding with concrete artifacts such as file paths and line numbers, policy snippets, scanner output, logs, screenshots, control records, or reproducible steps.
+- **Normalized JSON:** When machine-readable output is requested, findings MUST be available as JSON that validates against [`schemas/finding.schema.json`](../../../schemas/finding.schema.json).
+- **Escalation rules:** Escalate immediately for suspected active compromise, exposed secrets, regulated-data exposure, critical exploitable vulnerabilities, privileged-access abuse, or when evidence is insufficient to safely disposition a high-impact risk.
 
 ---
 

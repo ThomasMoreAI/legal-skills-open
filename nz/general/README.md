@@ -11,9 +11,9 @@ Jurisdiction: `nz` · Practice: `general` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`New Zealand Legislation`](skills/legislation-nz-thecolab-ai/) | Resolves, searches, and checks New Zealand Acts, Bills, secondary legislation, sections, point-in-time… |
-| [`NZ Case Law`](skills/nz-case-law-thecolab-ai/) | Search publicly available official New Zealand judgments by citation, court, party, judge, date and subject.… |
-| [`NZ Hansard`](skills/nz-hansard-thecolab-ai/) | Search official New Zealand parliamentary debates, speeches and oral-question transcripts by speaker, date,… |
-| [`NZ Parliament`](skills/nz-parliament-thecolab-ai/) | Track New Zealand Parliament bills and their legislative progress from the public bills.parliament.nz API.… |
+| [`NZ Case Law`](skills/nz-case-law-thecolab-ai/) | Search publicly available official New Zealand judgments by citation, court, party, judge, date and… |
+| [`NZ Hansard`](skills/nz-hansard-thecolab-ai/) | Search official New Zealand parliamentary debates, speeches and oral-question transcripts by speaker… |
+| [`NZ Parliament`](skills/nz-parliament-thecolab-ai/) | Track New Zealand Parliament bills and their legislative progress from the public bills.parliament.nz… |
 
 ## Cold-start context
 

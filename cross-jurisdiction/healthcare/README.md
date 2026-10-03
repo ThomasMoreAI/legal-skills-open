@@ -8,7 +8,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `healthcare` · Skill language: 
 
 | Skill | What it does |
 |---|---|
-| [`Healthcare AI Privacy — HIPAA and AI Act Intersection`](skills/healthcare-ai-privacy/) | Addresses healthcare AI privacy at the intersection of HIPAA and the EU AI Act for clinical decision support… |
+| [`Healthcare AI Privacy — HIPAA and AI Act Intersection`](skills/healthcare-ai-privacy/) | Addresses healthcare AI privacy at the intersection of HIPAA and the EU AI Act for clinical decision… |
 
 ## Cold-start context
 

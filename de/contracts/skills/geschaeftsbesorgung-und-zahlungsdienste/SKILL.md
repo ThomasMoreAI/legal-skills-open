@@ -1,0 +1,76 @@
+---
+name: geschaeftsbesorgung-und-zahlungsdienste
+title: Geschäftsbesorgung und Zahlungsdienste
+description: 'Für Geschäftsbesorgung und Zahlungsdienste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BGB BT Prüfer. Route: geschaeftsbesorgung-und-zahlungsdienste.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bgb-bt-pruefer/skills/geschaeftsbesorgung-und-zahlungsdienste
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Geschäftsbesorgung und Zahlungsdienste
+
+## Fachkern: Geschäftsbesorgung und Zahlungsdienste
+- **Normen-/Quellenanker:** BGB Besonderer Teil: Kaufrecht, Werk-/Dienstvertrag, Auftrag/Geschäftsbesorgung, Miet-/Leasingnähe, GoA, Bereicherung, Delikt, Verjährung und AGB-Schnittstellen.
+- **Entscheidende Weiche:** Anspruchsgrundlage, Vertragstyp/Mischvertrag, Pflichtverletzung, Vertretenmüssen, Schaden, Einwendung und Beweisfrage sauber trennen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Normanker
+
+- §§ 675c–676c BGB: Zahlungsdienstrecht (Umsetzung der PSD2)
+- § 675j BGB: Autorisierung von Zahlungsvorgängen
+- § 675u BGB: Erstattungsanspruch bei nicht autorisiertem Zahlungsvorgang
+- § 675v BGB: Haftung des Zahlungsdienstnutzers bei unautorisierten Zahlungen
+- § 675w BGB: Nachweis der Autorisierung
+- § 676a BGB: Ausführungsfrist
+- ZAG: Zahlungsdiensteaufsichtsgesetz als öffentlich-rechtlicher Rahmen
+
+## Intake
+
+- Wurde ein Zahlungsvorgang ohne Autorisierung des Zahlers ausgeführt?
+- Hat der Zahlungsdienstleister die Transaktion ordnungsgemäß ausgeführt?
+- Liegt ein Betrugsfall (Phishing, SIM-Swap) oder ein technischer Fehler vor?
+- Wann wurde der nicht autorisierte Zahlungsvorgang bemerkt und gemeldet?
+- Hat der Zahlungsnutzer grob fahrlässig oder vorsätzlich gehandelt?
+
+## Prüfraster
+
+1. Autorisierung nach § 675j BGB: hat der Zahler zugestimmt (ausdrücklich oder konkludent)?
+2. Nicht autorisierter Zahlungsvorgang: Erstattungsanspruch nach § 675u BGB
+3. Haftungsverteilung nach § 675v BGB: grobe Fahrlässigkeit oder Vorsatz des Nutzers?
+4. Nachweis der Autorisierung nach § 675w BGB: beweisrechtliche Stellung des Zahlungsdienstleisters
+5. Korrekte Ausführung: hat Bank richtige IBAN und richtigen Betrag ausgeführt?
+6. Fehlüberweisung: Rückrufverfahren und Schadensersatz
+7. Meldefrist für nicht autorisierte Zahlungen: 13 Monate nach Belastung
+8. Verjährung: § 195 BGB
+
+## Fallstricke
+
+- Bank muss bei Erstattungsanspruch nach § 675u BGB sofort erstatten, sofern kein Betrugsnachweis.
+- Grobe Fahrlässigkeit des Nutzers (PIN-Weitergabe) schließt Erstattungsanspruch nach § 675v Abs. 3 BGB aus.
+- Nachweis der Autorisierung liegt nach § 675w BGB beim Zahlungsdienstleister.
+- Fehlüberweisung auf falsche IBAN: Bank haftet nur bei eigener Pflichtverletzung.
+
+## Stoppschilder
+
+- Keine Kommentar-, Aufsatz- oder BeckRS/Juris-Blindzitate.
+- Tragende Gesetzesstände live gegen amtliche/frei zugängliche Quellen prüfen.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und überprüfbarer Quelle verwenden.
+- Bei Unsicherheit die Annahme ausdrücklich markieren und eine Rückfrage oder Quellenprüfung auslösen.
+
+## Anschluss-Skills
+
+- geschaeftsbesorgung-auftrag-mandat
+- darlehen-und-finanzierung
+- schnittstelle-bgb-at-methodenlehre-agb
+- workflow-livequellen-rechtsstand
+
+## Quellen
+
+- https://www.gesetze-im-internet.de/bgb/__675.html
+- https://www.gesetze-im-internet.de/bgb/__675c.html
+- https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015L2366

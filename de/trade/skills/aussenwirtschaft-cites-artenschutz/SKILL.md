@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-cites-artenschutz
+title: 'CITES-Artenschutz: Genehmigungen für geschuetzte Arten im Aussenhandel'
+description: 'Für CITES-Artenschutz: Genehmigungen für geschützte Arten im Außenhandel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-cites-artenschutz
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# CITES-Artenschutz: Genehmigungen für geschuetzte Arten im Aussenhandel
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Kunsthaendler moechte Elfenbein-Schnitzereien aus den 1960er Jahren importieren; CITES-Status klären.
+- Reptilienhaendler exportiert Terrarien-Tiere; welche CITES-Genehmigungen erforderlich?
+- Moebelhaendler bezieht Holz aus tropischen Ländern; CITES-Holzarten prüfen.
+
+## Erste Schritte
+
+1. Art und Anhang-Einstufung in CITES-Anhang A-D (VO 338/97) und CITES-Appendix I-III prüfen.
+2. Für Anhang A/B: Aus- und Einfuhrgenehmigung bei zuständiger Behörde beantragen (BfN/Landeslbehoerden).
+3. Für Anhang C: Exportbescheinigung des Herkunftslandes und Einfuhrnotifizierung.
+4. Für Pre-Convention-Objekte: Herkunftsnachweis vor CITES-Listierung (Art. 2 Abs. 2 VO 338/97).
+5. Zollanmeldung mit CITES-Referenz und Genehmigungsnummer.
+6. Archivierung und Aufbewahrung aller CITES-Unterlagen (Lebensdauer des Exemplars).
+
+## Rechtsrahmen
+
+- **VO (EG) 338/97**: EU-Artenschutz-Grundverordnung.
+- **VO (EG) 865/2006**: Durchfuehrung der Artenschutzverordnung.
+- **CITES-Uebereinkommen**: Washingtoner Artenschutzuebereinkommen (1973).
+- **§§ 71-73 BNatSchG**: Nationales Strafrecht bei Artenschutzverletzungen.
+- **AWG § 18**: Aussenwirtschaftsrechtliche Strafbarkeit bei Verstoss.
+
+## Prüf-Raster
+
+- [ ] Art korrekt bestimmt und CITES-Anhang-Einstufung geprueft?
+- [ ] Genehmigung für Anhang A/B beantragt und erteilt?
+- [ ] Pre-Convention-Herkunftsnachweis für aeltere Objekte vorhanden?
+- [ ] CITES-Dokumente bei Zollanmeldung beigefuegt?
+- [ ] Archivierung für Lebensdauer des Exemplars sichergestellt?
+- [ ] Straf- und Ordnungswidrigkeits-Risiko bewertet?
+
+## Typische Fallstricke
+
+- CITES-Anhang-Einstufung ändert sich; Jahreslisten prüfen.
+- Pre-Convention-Ausnahme ist eng; Beweislast liegt beim Importeur.
+- Illegale CITES-Waren können nicht nachtraeglich legalisiert werden.
+- Zoll und Strafverfolgungsbehoerden kooperieren bei CITES-Kontrollen intensiv.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [VO (EG) 338/97 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:31997R0338)
+- [Bundesamt für Naturschutz CITES](https://www.bfn.de/themen/cites.html)
+- [Zoll.de Artenschutz](https://www.zoll.de/DE/Fachthemen/Verbote-Beschraenkungen/Artenschutz/artenschutz_node.html)
+- [BNatSchG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/bnatschg_2009/index.html)

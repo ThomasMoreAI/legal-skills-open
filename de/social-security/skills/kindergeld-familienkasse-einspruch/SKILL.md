@@ -1,0 +1,65 @@
+---
+name: kindergeld-familienkasse-einspruch
+title: Kindergeld Familienkasse Einspruch
+description: 'Für Kindergeld Familienkasse Einspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/kindergeld-familienkasse-einspruch
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Kindergeld Familienkasse Einspruch
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Rechtsweg-Warnung
+
+Kindergeld nach EStG wird über die Familienkasse im Einspruchsverfahren nach der AO angegriffen; der gerichtliche Weg führt regelmäßig zum **Finanzgericht**, nicht zum Sozialgericht. BKGG-Sonderfälle können sozialrechtlich wirken, müssen aber sauber getrennt werden. Deshalb zuerst Anspruchsgrundlage (EStG oder BKGG) und Rechtsbehelfsbelehrung lesen.
+
+## Anspruchsgrundlagen
+
+- Kindergeld nach EStG (§§ 62 ff.) — Steuerprivileg.
+- Kindergeld nach BKGG (Bundeskindergeldgesetz) — Sozialleistung für Ausländer / EU-Buerger.
+
+## Familienkasse
+
+- Bundesagentur für Arbeit Familienkasse (Standard).
+- Familienkasse des Arbeitgebers (öffentlicher Dienst Bundeswehr).
+
+## Anspruch für Kinder
+
+- Bis 18 Jahre.
+- Bis 25 Jahre bei Ausbildung Studium oder Berufsausbildung.
+- Ohne Altersgrenze bei dauerhafter Behinderung vor 25.
+
+## Auslandskinder
+
+- EU/EWR-Kinder gleichgestellt.
+- Drittstaatskinder nur mit Aufenthaltsrecht.
+
+## Einspruch
+
+- Form: schriftlich (E-Mail nicht ausreichend ohne qualifizierte elektronische Signatur).
+- Frist: 1 Monat nach Bekanntgabe (§ 355 AO).
+- Adressat: Familienkasse, die den Bescheid erlassen hat.
+
+## Prüfraster
+
+1. Bescheid bezeichnen.
+2. Kindergeld-Anspruch belegen.
+3. Frist gewahrt?
+4. Schriftlich eingereicht?
+5. Bei Streit zum Finanzgericht (kein Sozialgericht!).

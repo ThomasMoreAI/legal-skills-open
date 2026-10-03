@@ -9,10 +9,10 @@ Jurisdiction: `us` · Practice: `antitrust` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`Antitrust Internal Investigation Summary`](skills/antitrust-investigation-summary/) | Drafts privilege-protective, board-ready executive summary memoranda of internal antitrust investigation… |
-| [`Design Antitrust Compliance Program`](skills/design-antitrust-compliance-program-jeffreytse/) | Use when a company competing in a concentrated market needs a compliance program preventing antitrust and… |
-| [`HSR Premerger Notification Filing`](skills/hsr-filing/) | Prepares Hart-Scott-Rodino Act premerger notification filings for FTC/DOJ submission under 15 U.S.C. § 18a… |
-| [`Antitrust Investigation Summary`](skills/investigation-summary/) | Produces structured antitrust investigation summaries for executives and counsel. Triggers on FTC/DOJ probes,… |
-| [`US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies`](skills/us-selektivvertrieb-und-mfp-tiffany-vs-costco/) | US-Vertriebsrecht für Luxusmarken: Resale Price Maintenance und MAP-Policies kartellrechtskonform gestalten.… |
+| [`Design Antitrust Compliance Program`](skills/design-antitrust-compliance-program-jeffreytse/) | Use when a company competing in a concentrated market needs a compliance program preventing antitrust… |
+| [`HSR Premerger Notification Filing`](skills/hsr-filing/) | Prepares Hart-Scott-Rodino Act premerger notification filings for FTC/DOJ submission under 15 U.S.C. §… |
+| [`Antitrust Investigation Summary`](skills/investigation-summary/) | Produces structured antitrust investigation summaries for executives and counsel. Triggers on FTC/DOJ… |
+| [`US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies`](skills/us-selektivvertrieb-und-mfp-tiffany-vs-costco/) | Für US-Selektivvertrieb, Resale Price Maintenance und MAP-Policies: ordnet Norm, Beweislast und… |
 
 ## Cold-start context
 

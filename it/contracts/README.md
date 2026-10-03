@@ -6,14 +6,21 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): general/temp
 
 Jurisdiction: `it` · Practice: `contracts` · Skill language: it
 
-## Skills (4)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
+| [`Cold-start civile`](skills/cold-start-civile/) | Cold-start profilo civile: contenzioso vs contratti, foro, 1341-1342, playbook clausole. Scrive… |
+| [`Cronologia contenzioso (contrattualistica / pre-contenzioso)`](skills/cronologia-contenzioso/) | Cronologia fatti e prove da fascicolo civile: timeline, gap probatori, allegati. Per contenzioso e… |
+| [`Escalation clausole`](skills/escalation-clausole/) | Flag clausole ad alto rischio per escalation interna (socio, DPO, assicurazione). EN escalation-flagger.… |
 | [`Fascicolo civile (matter workspace)`](skills/fascicolo-civile-pixari/) | Matter workspace civile: contratti, negoziazione, pre-contenzioso. Collega contenzioso-civile se lite.… |
+| [`Revisione contratto SaaS`](skills/revisione-contratto-saas/) | Revisione MSA/licenza SaaS B2B: SLA uptime, dati, subfornitura cloud, exit, limitazione responsabilità.… |
+| [`Revisione contratto fornitore`](skills/revisione-fornitore/) | Revisione contratto fornitura / approvvigionamento B2B (logistica, componenti, servizi). EN… |
 | [`Revisione MSA fornitore`](skills/revisione-msa-fornitore-pixari/) | Revisione MSA master + ordini (SaaS/fornitura). Unisce SaaS e vendor EN. Nessuna consulenza legale. |
+| [`Revisione NDA`](skills/revisione-nda/) | Revisione NDA / accordo riservatezza B2B italiano: definizioni, scopo, durata, carve-out, legge… |
 | [`Rinnovo contratto`](skills/rinnovo-contratto-pixari/) | Analisi rinnovo tacito / scadenza contratto, preavviso, rinegoziazione. EN renewal-tracker. Nessuna… |
-| [`Storico amendment contratto`](skills/storico-amendment-pixari/) | Ricostruisce storico amendment / versioni contratto, conflitti tra allegati. EN amendment-history. Nessuna… |
+| [`Sintesi cliente / stakeholder`](skills/sintesi-cliente-stakeholder/) | Executive summary non tecnica da atti, bozze contratto o pareri per cliente/management. Linguaggio… |
+| [`Storico amendment contratto`](skills/storico-amendment-pixari/) | Ricostruisce storico amendment / versioni contratto, conflitti tra allegati. EN amendment-history.… |
 
 ## Cold-start context
 

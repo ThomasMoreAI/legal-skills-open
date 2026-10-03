@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-medizinrecht-orientierung
 title: Fachanwalt für Medizinrecht — Orientierung
-description: Orientierung im Medizinrecht — FAO Voraussetzungen Normen typische Mandate Fristen verifizierbare Quellen. Arzthaftung §§ 630a ff. BGB (Patientenrechtegesetz seit 2013) Vertragsarztrecht SGB V Berufsrecht Aerzte (Berufsordnung Heilberufsgesetze Laender) Krankenhausrecht KHG Pflegeversicherungsrecht SGB XI Medizinprodukterecht MPDG Apothekenrecht ApoG. Schnittstelle Plugin sozialrecht-kanzlei und kanzlei-allgemein.
+description: 'Für Fachanwalt für Medizinrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/fachanwalt-medizinrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: healthcare
@@ -35,7 +35,7 @@ language: de
 ## Typische Mandate
 
 - Arzthaftung (Behandlungsfehler Aufklärungsfehler Dokumentationsmangel)
-- Patientenanspruch auf Krankenversicherung-Leistungen (siehe sozialrecht-kanzlei)
+- Patientenanspruch auf Krankenversicherung-Leistungen (siehe `fachanwalt-sozialrecht`)
 - Vertragsarztrecht (Zulassung Disziplinar Wirtschaftlichkeitsprüfung)
 - Ärztliche Berufsrechtsverfahren
 - Krankenhaus-Abrechnungsstreit (DRG)
@@ -66,21 +66,11 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Schnittstellen
 
-- **sozialrecht-kanzlei** bei SGB V SGB XI.
+- **fachanwalt-sozialrecht** bei SGB V SGB XI.
 - **kanzlei-allgemein** Fristen Versand.
 - **fachanwalt-strafrecht** bei Vorwurf Behandlungsfehler mit strafrechtlichem Bezug.
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Paragrafenkette
 
@@ -128,7 +118,9 @@ Sachgebiet?
 ├─ Behandlungsfehler / Aufklärung → behandlungsfehler-anspruch-pruefen
 ├─ Vertragsarztrecht / KV → fachanwalt-medizinrecht-kassenarztrecht
 ├─ Approbation / Widerruf → fachanwalt-medizinrecht-approbations-widerspruch
-├─ GKV-Leistungsstreit → sozialrecht-kanzlei
+├─ GKV-Leistungsstreit → fachanwalt-sozialrecht
 ├─ Honorar GOÄ → fachanwalt-medizinrecht-honorarvertrag-kv
 └─ Schlichtung Ärztekammer → fachanwalt-medizinrecht-gutachterkommission-aek-schlichtung
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

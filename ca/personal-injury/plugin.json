@@ -9,6 +9,8 @@
   "practice": "personal-injury",
   "language": "en",
   "skills": [
-    "skills/canada-memo"
+    "skills/canada-memo",
+    "skills/pi-brief-format",
+    "skills/web-fallback"
   ]
 }

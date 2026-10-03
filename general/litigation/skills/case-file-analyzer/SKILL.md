@@ -5,12 +5,28 @@ description: Use when running structured, adversarial analysis across large case
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/case-file-analyzer
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
-tags: [case-files, multi-agent, adversarial, ralph-loop, verification]
+tags:
+- case-files
+- multi-agent
+- adversarial
+- ralph-loop
+- verification
+sources:
+- title: Prd
+  path: references/PRD.md
+- title: Configuration
+  path: references/configuration.md
+- title: Definitions
+  path: references/definitions.md
+- title: Ralphing skill
+  path: references/ralphing_skill.md
+- title: Templates
+  path: references/templates.md
 ---
 
 # Stateless Case File Analyzer (Ralph Loop Edition)

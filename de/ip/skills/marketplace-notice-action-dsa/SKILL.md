@@ -1,0 +1,56 @@
+---
+name: marketplace-notice-action-dsa
+title: Marketplace Notice-and-Action
+description: 'Für Marketplace Notice-and-Action: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/marketplace-notice-action-dsa
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Marketplace Notice-and-Action
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Marketplace Notice-and-Action
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Norm- und Plattformanker
+
+- MarkenG §§ 14, 15, 18, 19 für Verletzung, Entfernung/Rückruf und Auskunft.
+- Digital Services Act (VO (EU) 2022/2065), besonders Art. 16 Notice-and-Action, Art. 20 Beschwerdemanagement und Art. 22 Trusted Flagger.
+- Produktsicherheits-/Zollrecht nur ziehen, wenn Fälschung, gefährliches Produkt oder Grenzbeschlagnahme betroffen ist.
+- Plattformregeln live prüfen: Amazon Brand Registry, eBay VeRO, Meta/TikTok/Google IP-Formulare, Marketplace-Policy, Counter-Notice.
+
+## Pflichtfragen
+
+- Plattform, Listing-URL, Verkäufer, Land, Waren, Screenshots, Testkauf?
+- Eingetragenes Recht mit Registerauszug und Markeninhaber?
+- Welche Verletzung: Counterfeit, identisches Zeichen, Verwechslungsgefahr, Rufausbeutung, Irreführung?
+- Vorherige Meldungen, Reaktion, Wiederholungstäter, Eilbedarf?
+
+## Prüfprogramm
+
+1. **Belegpaket bauen:** Registerauszug, Vollmacht, Screenshots, Produktvergleich, Testkauf, Seriennummern.
+2. **DSA-Notice:** Präzise Rechtsverletzung, URL, Erklärung der Gutgläubigkeit, Kontakt, gewünschte Maßnahme.
+3. **Plattformprozess:** Brand Registry, IP-Portal, DSA-Meldung, Trusted Flagger, Beschwerde gegen Ablehnung.
+4. **Gegenschlag einplanen:** Counter-Notice, Account-Sperre des Mandanten, unberechtigte Schutzrechtsverwarnung.
+5. **Eskalation:** Abmahnung Verkäufer, Auskunft, einstweilige Verfügung, Plattform als Störer/Intermediär nur quellengeprüft bewerten.
+6. **Overblocking vermeiden:** Nur konkrete Listings/Verkäufer melden, keine pauschale Marktbereinigung ohne Schutzrechts- und Belegbasis.
+7. **Wiederholungstäter:** Verkäufer-ID, USt-ID, Impressum, Lieferadresse, Zahlungsdaten, verbundene Shops und Testkäufe zusammenführen.
+
+## Qualitätsgate
+
+DSA und Plattformregeln live prüfen; keine Plattformformulare aus Gedächtnis behaupten.

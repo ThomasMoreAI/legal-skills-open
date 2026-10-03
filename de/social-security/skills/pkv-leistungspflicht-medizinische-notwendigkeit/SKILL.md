@@ -1,0 +1,98 @@
+---
+name: pkv-leistungspflicht-medizinische-notwendigkeit
+title: 'PKV-Leistungspflicht: Medizinische Notwendigkeit'
+description: 'Für PKV-Leistungspflicht: Medizinische Notwendigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/pkv-leistungspflicht-medizinische-notwendigkeit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# PKV-Leistungspflicht: Medizinische Notwendigkeit
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Paragraf 192 VVG, konkret vereinbarter Tarif und Versicherungsbedingungen; bei gerichtlicher Durchsetzung Paragraf 13 GVG und ZPO. Die gewöhnliche private Krankheitskostenforderung gehört vor die Zivilgerichte, nicht in ein sozialrechtliches Widerspruchsverfahren. GKV- und Pflegeversicherungssonderfälle getrennt zuordnen; keine SGG-Frist auf die PKV-Leistungsablehnung übertragen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+In der PKV schuldet der Versicherer Leistungen für **medizinisch notwendige Heilbehandlungen**. Analysiere den Leistungsanspruch, die Prüfung der medizinischen Notwendigkeit und typische Streitfälle.
+
+## Rechtlicher Rahmen
+
+- **§ 192 VVG** – Leistungspflicht des Versicherers: Erstattung ärztlicher Kosten
+- **§ 193 VVG** – Versicherungspflicht in der PKV (Basistarif)
+- **MB/KK 2009 § 1** – Gegenstand der Versicherung: medizinisch notwendige Heilbehandlungen
+- **MB/KK 2009 § 4** – Umfang der Leistungspflicht; Ausschlüsse
+- **GOÄ, GOZ** – Ärztliche und zahnärztliche Honorarordnungen
+- BGH IV ZR 194/07 (medizinische Notwendigkeit), BGH IV ZR 231/15 (Kostenbegrenzung)
+- BVerfG 1 BvR 2019/17 (Basistarif-Leistungsumfang)
+
+## Begriff der medizinischen Notwendigkeit
+
+| Dimension | Inhalt |
+|-----------|--------|
+| Diagnose | Muss gesichert oder hinreichend wahrscheinlich sein |
+| Behandlungserforderlichkeit | Behandlung muss zur Bekämpfung der Krankheit oder Minderung von Beschwerden geeignet und erforderlich sein |
+| Wissenschaftlicher Standard | Schulmedizin grundsätzlich maßgeblich; Außenseitermethoden → Evidenzprüfung |
+| Prognose | Exante-Beurteilung: was war zum Behandlungszeitpunkt vertretbar? |
+
+## Prüfprogramm
+
+### Schritt 1 – Leistungsanspruch bestimmen
+- Liegt eine Krankheit vor? (Krankenbehandlungs-Begriff: Abweichung vom normalen Körper- oder Geisteszustand)
+- Welche Behandlung ist ärztlich verordnet und warum?
+- Welcher Tarif gilt? (Tarif, Zusatztarif, Basistarif) – Tarif­bedingungen lesen
+
+### Schritt 2 – Medizinische Notwendigkeit prüfen
+- PKV-Gutachter: überprüft ex ante, ob Behandlung zum Zeitpunkt der Durchführung notwendig war
+- BGH-Maßstab: „ex ante Betrachtung eines verständigen, informierten Arztes"
+- Nachträgliche Erfolglosigkeit der Behandlung schließt Notwendigkeit nicht aus
+
+### Schritt 3 – Außenseitermethoden
+- Methode nicht in schulmedizinischen Leitlinien: PKV darf ablehnen wenn wissenschaftliche Wirksamkeit fehlt
+- Ausnahme: PKV-Tarif deckt explizit alternative Methoden ab
+- BGH IV ZR 194/07: Alternativmethode erstattungsfähig wenn ernsthaft auf Heilung gerichtet und keine schulmedizinische Alternative
+
+### Schritt 4 – Stationäre Notwendigkeit
+- PKV prüft: War stationäre Behandlung notwendig oder ambulant ausreichend?
+- Kriterien: Überwachungsbedarf, Infusionen, Bettruhe, fehlende ambulante Kapazität
+- Gutachten der PKV: Gegengutachten des Krankenhauses organisieren
+
+### Schritt 5 – Kostenbegrenzungsklauseln
+- Tarif enthält Kostenbegrenzung (z.B. max. Tagessatz, Modultarif): Klausel prüfen auf AGB-Kontrolle (§§ 307–309 BGB)
+- BGH: überraschende und unangemessene Klauseln unwirksam
+- Transparenzgebot: Klausel muss klar und verständlich sein
+
+## Typische Fallen
+
+- **Schönheitsoperation**: Grundsätzlich keine medizinische Notwendigkeit; außer krankhafte Entstellung, psychische Erkrankungsfolge.
+- **Wahlleistungen Krankenhaus**: Einzelzimmer, Chefarzt: Wahlleistung = PKV-Leistung nach Tarif; immer im Tarif nachsehen.
+- Präventionsleistungen: Kein pauschaler Ausschluss. Paragraf 192 Absatz 1 VVG erfasst auch ambulante Vorsorgeuntersuchungen zur Früherkennung nach gesetzlich eingeführten Programmen. Konkrete Untersuchung und vereinbarten Leistungsumfang prüfen; zusätzliche Prävention tarifbezogen beurteilen.
+- **GOÄ-Abrechnung**: Arzt rechnet nach GOÄ ab; Steigerungsfaktoren können PKV-interne Beschränkungen unterliegen.
+
+## Output-Formate
+
+- PKV-Leistungsbrief (Anspruchsbegründung)
+- Vertraglich begründeter Leistungsbrief oder Überprüfungsbitte gegen die PKV-Ablehnung; kein förmlicher SGG-Widerspruch. Versand und Klageerhebung nur nach ausdrücklichem Auftrag.
+- Gutachten-Briefing (medizinische Notwendigkeit)
+- GOÄ-Prüfungsprotokoll
+- Klageschrift gegen den privaten Krankenversicherer; sachlich grundsätzlich Amtsgericht bis einschließlich 10.000 Euro, darüber Landgericht, jeweils vorbehaltlich einer Sonderzuweisung.
+
+## Quellen
+
+- [Paragraf 13 GVG: ordentlicher Rechtsweg](https://www.gesetze-im-internet.de/gvg/__13.html)
+- [§ 192 VVG – PKV-Leistungspflicht](https://www.gesetze-im-internet.de/vvg_2008/__192.html)
+- [MB/KK 2009](https://www.pkv.de/service/broschueren/mustervertragsbedingungen/)
+- [BGH IV ZR 194/07](https://www.bundesgerichtshof.de/DE/Entscheidungen/entscheidungen_node.html)
+- [GOÄ – Ärztliche Gebührenordnung](https://www.bundesaerztekammer.de/fileadmin/user_upload/downloads/GOAe_20130901.pdf)
+- [dejure.org § 192 VVG](https://dejure.org/gesetze/VVG/192.html)
+- [PKV-Verband Leistungspflicht](https://www.pkv.de)

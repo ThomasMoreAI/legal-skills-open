@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-verwaltungsrecht-widerspruchsschrift
 title: Widerspruchsschrift
-description: 'Widerspruchsschrift nach §§ 68 ff. VwGO gegen belastenden Verwaltungsakt formulieren: Mandant hat Bescheid erhalten und will innerhalb der Frist Widerspruch einlegen. Normen: § 68 VwGO (Vorverfahren), § 70 Abs. 1 VwGO (Frist 1 Monat), § 80 Abs. 1 VwGO (aufschiebende Wirkung), § 58 Abs. 2 VwGO (Jahresfrist ohne Rechtsbehelfsbelehrung). Prüfraster: Statthaftigkeit (Bundesland?), Fristberechnung, aufschiebende Wirkung vs. sofortige Vollziehung, Begründung. Output Widerspruchsschrift. Abgrenzung: Anfechtungsklage direkt (kein Widerspruch statthaft) siehe fachanwalt-verwaltungsrecht-anfechtungsklage; Eilantrag siehe eilantrag-80-abs-5-vwgo.'
+description: 'Für Widerspruchsschrift: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/fachanwalt-verwaltungsrecht-widerspruchsschrift
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -58,7 +58,6 @@ Gegen einen belastenden Verwaltungsakt ist als Vorverfahren — sofern nicht dur
 
 | Gericht | Aktenzeichen | Datum | Leitsatz |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Widerspruch
 
@@ -110,7 +109,6 @@ Gegen einen belastenden Verwaltungsakt ist als Vorverfahren — sofern nicht dur
 | Gegenargument der Behörde | Gegenstrategie |
 |---|---|
 | "Anhörungsmangel geheilt — Widerspruch ist Nachholung" | § 45 Abs. 1 Nr. 3 VwVfG: Heilung nur durch eigenständige, nicht nur pro forma erfolgte Anhörung; bloße Übersendung des Bescheids genügt nicht |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Widerspruchsverfahren ausgeschlossen" | Landespezifische Ausnahmen genau prüfen; bei Ausschluss nur in bestimmten Sachgebieten prüfen ob hier ein solches vorliegt |
 
 ## Strategische Optionen (vor dem Template entscheiden)
@@ -316,15 +314,12 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 - `energieanlagen-bimschg-genehmigung-verfahren` — Widerspruch gegen BImSchG-Bescheid
 - `energietrassen-planfeststellung-rechtsschutz` — Einwendungen im Planfeststellungsverfahren
 
-## Aktuelle Leitentscheidungen (v14.2 Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen
 
 - VwGO §§ 42, 58, 68–79, 80, 113, 114
 - VwVfG §§ 28, 35, 39, 40, 41, 43, 44, 45, 80
 - GKG § 52
 - RVG Nr. 2300 VV
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

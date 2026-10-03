@@ -5,12 +5,20 @@ description: Use when users say "build a chronology", "make a timeline", "what h
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/building-chronologies
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
 language: en
-tags: [chronology, timeline, evidence, disclosure, source-attribution]
+tags:
+- chronology
+- timeline
+- evidence
+- disclosure
+- source-attribution
+sources:
+- title: Chronology model
+  path: references/chronology-model.md
 ---
 
 # building-chronologies

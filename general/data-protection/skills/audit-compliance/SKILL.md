@@ -5,7 +5,7 @@ description: 'Check that your legal compliance is still in good shape. Pick what
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/audit-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -45,6 +45,7 @@ Read `config/context-ledger.json` first.
 Required field missing → ask ONE targeted question with modality hint (connect Google Drive / paste landing URL / connect Firecrawl), write, continue.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read ledger + legal context.** Gather missing required fields. Write atomically.
 2. **Discover tools via Composio.** Run `composio search web-scrape` (privacy-posture, subprocessors) or `composio search document-storage` (template-library) per scope. No tool connected → name category to link, stop.

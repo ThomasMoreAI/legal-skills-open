@@ -1,0 +1,56 @@
+---
+name: verfassungsrecht-quellen-livecheck
+title: Rechtsquellen-Livecheck
+description: 'Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: verfassungsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verfassungsrecht/skills/quellen-livecheck
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: constitutional
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Rechtsquellen-Livecheck
+
+## Einsatzlage
+
+Dieser Quellen-Livecheck für **Verfassungsrecht** trennt amtliche Normfassung, frei prüfbare Rechtsprechung, Behördenhinweise, Formularstand und offene Aktualitätsrisiken.
+
+## Fachlandkarte dieses Plugins
+
+- `acht-zahlen-schwellen-und-berechnung` — Acht Zahlen Schwellen und Berechnung
+- `bundesverfassungsgericht-quellenkarte-check` — Bundesverfassungsgericht Quellenkarte Check
+- `bverfg-rechtsprechung-recherchieren` — Bverfg Rechtsprechung Recherchieren
+- `bverfg-verfahrenssicht-und-annahmerisiko` — Bverfg Verfahrenssicht und Annahmerisiko
+- `formelle-mehrparteien-konflikt-und-interessen` — Formelle Mehrparteien Konflikt und Interessen
+- `formelle-verfassungsmaessigkeit` — Formelle Verfassungsmaessigkeit
+- `gesetzentwurf-gg-konformitaet-pruefen` — Gesetzentwurf GG Konformitaet Prüfen
+- `gesetzgebungskompetenz-grundrechtspruefung` — Gesetzgebungskompetenz Grundrechtspruefung
+- `gesetzgebungskompetenz-pruefen` — Gesetzgebungskompetenz Prüfen
+- `grundgesetz-fristen-form-und-zustaendigkeit` — Grundgesetz Fristen Form und Zustaendigkeit
+- `grundrechte-fehlerkatalog` — Grundrechte Fehlerkatalog
+- `grundrechtspruefung-acht-formelle-interessen` — Grundrechtspruefung Acht Formelle Interessen
+- `grundrechtspruefung-und-verhaeltnismaessigkeit` — Grundrechtspruefung und Verhältnismäßigkeit
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Tragende Normen (GG Art. 1–19, 20, 28, 33, 38, 79, 93, 100, BVerfGG §§ 13, 23, 31, 32, 90–95a, EMRK Art. 6, 8, 10, 13) zuerst amtlich verifizieren: gesetze-im-internet.de oder spezialisiertes Bundesgesetzblatt-Portal; nicht aus Modellwissen finalisieren.
+- Rechtsprechung nur mit vollständiger Zitatkette: Gericht, Senat, Entscheidungsform, Datum, Aktenzeichen, Fundstelle (BGHZ/BVerfGE/amtl. Sammlung) und frei prüfbare Quelle (dejure.org, openJur, Pressemitteilungen des Gerichts, BGH-/BVerfG-Datenbank).
+- Paywall-Quellen (juris, beck-online) nicht als alleinige Verifikation nutzen; immer eine freie Bestätigung beilegen.
+- Dynamische Bereiche im Verfassungsrecht (Rechtsverordnungen, Verwaltungspraxis, Mietspiegel, Tarife) gesondert tagesaktuell prüfen, weil Modellwissen veraltet ist.
+- Quellenstand und offene Unsicherheit im Output sichtbar machen — kein Pseudo-Zitat ohne Live-Check.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

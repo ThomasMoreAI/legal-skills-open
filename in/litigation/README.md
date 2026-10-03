@@ -10,9 +10,9 @@ Jurisdiction: `in` · Practice: `litigation` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Commercial Suit Filing Checker`](skills/commercial-suit-filing-checker-rohasnagpal/) | Checks filing readiness for an Indian commercial suit, including commercial-dispute status, forum, pecuniary… |
+| [`Commercial Suit Filing Checker`](skills/commercial-suit-filing-checker-rohasnagpal/) | Checks filing readiness for an Indian commercial suit, including commercial-dispute status, forum… |
 | [`India Legal-Notice Response Strategist`](skills/india-legal-notice-response-strategist-rohasnagpal/) | Builds a response strategy for a legal notice governed by Indian law before drafting the reply. Use to… |
-| [`Pre-Institution Mediation Advisor (India)`](skills/pre-institution-mediation-advisor-rohasnagpal/) | Assesses pre-institution and pre-litigation mediation requirements in India, especially section 12A of the… |
+| [`Pre-Institution Mediation Advisor (India)`](skills/pre-institution-mediation-advisor-rohasnagpal/) | Assesses pre-institution and pre-litigation mediation requirements in India, especially section 12A of… |
 
 ## Cold-start context
 

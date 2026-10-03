@@ -1,11 +1,11 @@
 ---
 name: dsgvo-compliance-bausteine
 title: DSGVO-Compliance-Bausteine
-description: 'DSGVO-Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt oder aktualisiert KI-Richtlinie und benoetigt prazise datenschutzrechtliche Formulierungen. Art. 2 Abs. 1 DSGVO Anwendungsbereich, Art. 6 DSGVO Rechtsgrundlage, Art. 9 DSGVO besondere Kategorien, Art. 28 DSGVO AVV. Prüfraster Datenminimierung, Zweckbindung, Drittlandtransfer, Anonymisierung, AVV-Pflicht, Löschkonzept. Output DSGVO-Bausteine-Sammlung anpassbar für Kanzlei-Profil mit Normreferenzen. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Anonymisierung-Pseudonymisierung.'
+description: 'Für DSGVO-Compliance-Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/dsgvo-compliance-bausteine
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,6 +13,20 @@ language: de
 ---
 
 # DSGVO-Compliance-Bausteine
+
+## Arbeitsbereich
+
+DSGVO-Textbausteine für KI-Nutzungsrichtlinien in Kanzleien: Anwendungsfall Kanzlei erstellt oder aktualisiert KI-Richtlinie und benoetigt prazise datenschutzrechtliche Formulierungen. Art. 2 Abs. 1 DSGVO Anwendungsbereich, Art. 6 DSGVO Rechtsgrundlage, Art. 9 DSGVO besondere Kategorien, Art. 28 DSGVO AVV. Prüfraster Datenminimierung, Zweckbindung, Drittlandtransfer, Anonymisierung, AVV-Pflicht, Löschkonzept. Output DSGVO-Bausteine-Sammlung anpassbar für Kanzlei-Profil mit Normreferenzen. Abgrenzung zu Auftragsverarbeitungsvertrag-Prüfen und zu Anonymisierung-Pseudonymisierung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Der datenschutzrechtliche Teil einer KI-Nutzungsrichtlinie muss die Grundsätze der DSGVO kohärent auf den Einsatz von KI-Systemen in der Kanzlei übertragen. Da KI-Systeme regelmäßig personenbezogene Daten verarbeiten, kommt Art. 2 Abs. 1 DSGVO zur Anwendung, was umfangreiche Dokumentations- und Rechtfertigungspflichten auslöst.
 
@@ -32,7 +46,7 @@ Zentrale Normen: Art. 2 Abs. 1 DSGVO (Sachlicher Anwendungsbereich), Art. 5 DSGV
 ## Vorlagentext / Bausteine
 
 **Baustein DSGVO-Grundsätze:**
-Die Kanzlei stellt sicher, dass beim Einsatz von KI-Systemen die Grundsätze des Art. 5 DSGVO eingehalten werden: Personenbezogene Daten werden nur für festgelegte, eindeutige und legitime Zwecke erhoben (Zweckbindung) und beschränkt auf das notwendige Minimum (Datenminimierung). Mitarbeitende sind angewiesen, keine personenbezogenen Daten in KI-Systeme einzugeben, die nicht für die jeweilige Aufgabe erforderlich sind.
+Die Kanzlei stellt sicher, dass beim Einsatz von KI-Systemen die Grundsätze des Art. 5 DSGVO eingehalten werden: Personenbezogene Daten werden nur für festgelegte, eindeutige und legitime Zwecke erhoben (Zweckbindung) und beschränkt auf das notwendige Minimum (Datenminimierung). Mitarbeiter sind angewiesen, keine personenbezogenen Daten in KI-Systeme einzugeben, die nicht für die jeweilige Aufgabe erforderlich sind.
 
 **Baustein Erlaubnistatbestand:**
 Die Verarbeitung personenbezogener Daten durch KI-Systeme erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (Vertragsdurchführung mit dem Mandanten) oder Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse der Kanzlei an effizienter Rechtsdienstleistung), soweit nicht im Einzelfall eine Einwilligung nach Art. 6 Abs. 1 lit. a DSGVO erforderlich ist. Sensible Daten nach Art. 9 Abs. 1 DSGVO werden nur auf Grundlage von Art. 9 Abs. 2 lit. f DSGVO verarbeitet, wenn dies zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist.
@@ -47,14 +61,11 @@ Beim Einsatz von KI-Anbietern mit Sitz außerhalb des Europäischen Wirtschaftsr
 
 Drittlandtransfer-Regelungen sind besonders anfällig für Änderungen (Schrems-Urteile, neue Kommissionsbeschlüsse). Der Baustein ist bei neuen EuGH-Entscheidungen oder Änderungen des EU-US-Rahmens sofort zu aktualisieren. Ebenso bei neuen Datenschutzbehörden-Entscheidungen zu konkreten KI-Anbietern.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 6 DSGVO — Rechtsgrundlagen der Verarbeitung
 - Art. 9 DSGVO — Besondere Kategorien personenbezogener Daten
 - Art. 28 DSGVO — Auftragsverarbeitung
-- Art. 32 DSGVO — Technische und organisatorische Massnahmen
+- Art. 32 DSGVO — Technische und organisatorische Maßnahmen
 - Art. 35 DSGVO — Datenschutz-Folgenabschaetzung
 
 ## Triage zu Beginn
@@ -93,3 +104,13 @@ Art. 35 DSGVO — DSFA:
 Gesamtbewertung: [KONFORM / LUECKEN — MASSNAHMEN ERFORDERLICH]
 Geprueft von: [NAME DSB], [DATUM]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

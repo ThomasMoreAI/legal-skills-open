@@ -5,17 +5,17 @@ description: 'Expert CMMC 2.0 (Cybersecurity Maturity Model Certification) advis
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/cmmc/skills/cmmc
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: cybersecurity
 language: en
 sources:
-- title: Cmmc Assessment
+- title: Cmmc assessment
   path: references/cmmc-assessment.md
-- title: Cmmc Levels
+- title: Cmmc levels
   path: references/cmmc-levels.md
-- title: Cmmc Practices
+- title: Cmmc practices
   path: references/cmmc-practices.md
 ---
 

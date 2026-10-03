@@ -1,118 +1,87 @@
 ---
 name: aussenwirtschaft-awv-bundesbank
-title: AWV- und Bundesbank-Meldepflichten
-description: Meldepflichten nach Aussenwirtschaftsverordnung AWV gegenüber Bundesbank für grenzüberschreitende Zahlungen und Beteiligungen. Anwendungsfall Unternehmen hat Zahlungen ins Ausland oder Auslandsforderungen und prüft AWV-Meldepflichten. Normen §§ 63 ff. AWV Zahlungsmeldungen § 56 AWV Auslandsforderungen BundesbankMerkblatt. Prüfraster grenzüberschreitende Zahlungen Auslandsforderungen Beteiligungen Z4/Z8/Z10-15 Freigrenzen Nachmeldung Offenlegung. Output Meldepflichtencheck mit Ergebnis Formularausfuellung und Fristen für Bundesbank-Meldungen. Abgrenzung zu aussenwirtschaft-bafa-genehmigungen und aussenwirtschaft-zollverfahren-bewilligungen.
+title: 'AWV-Bundesbank-Meldungen: Z-Formulare und Kapitalverkehrspflichten'
+description: 'Für AWV-Bundesbank-Meldungen: Z-Formulare und Kapitalverkehrspflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-awv-bundesbank
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: trade
 language: de
 ---
 
-# AWV- und Bundesbank-Meldepflichten
+# AWV-Bundesbank-Meldungen: Z-Formulare und Kapitalverkehrspflichten
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill erzeugt einen Meldekalender und Nachholplan für Bundesbank-Meldungen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Unternehmen erhalt Zahlungen aus dem Ausland über 12.500 EUR und weiss nicht, ob Z4-Meldung noetig.
+- Bank fragt nach korrektem Formular für Wertpapierkaeufe eines Kunden aus Drittstaaten.
+- Exporteur zahlungsabwicklung über Auslandsbank; interessen Compliancepruefung aller Meldepflichten.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. Art der Transaktion bestimmen: Zahlung, Wertpapiergeschaeft, Direktinvestition oder Kapitalverkehr.
+2. Schwellenwert prüfen: >= 12.500 EUR loest in vielen Faellen Meldepflicht aus (§ 67 AWV).
+3. Zustaendiges Z-Formular auswaehlen (Z1 allg. Zahlung, Z4 Direktinvestitionen, Z10 Wertpapiere etc.).
+4. Fristen beachten: in der Regel 7. Werktag des Folgemonats.
+5. Formulare digital über Bundesbank ExtraNet einreichen.
+6. Archivierung der Meldungsbestaetigung.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **AWV §§ 67-71**: Zahlungsmeldepflichten gegenueber Bundesbank.
+- **§ 67 AWV**: 12.500-EUR-Schwellenwert und Meldepflicht.
+- **AWG §§ 13-14**: Auskunfts- und Aufzeichnungspflichten.
+- **§ 24 AWV**: Aufbewahrungspflichten für Meldungsbelege.
+- **EU-Kapitalverkehrsfreiheit (Art. 63-66 AEUV)**: Rahmenbedingungen für Kapitalverkehr.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] Transaktion >= 12.500 EUR und meldepflichtig?
+- [ ] Richtiges Z-Formular ausgewaehlt?
+- [ ] Fristen (7. Werktag Folgemonat) eingehalten?
+- [ ] Meldung digital über Bundesbank ExtraNet eingereicht?
+- [ ] Archivierungsbeleg gesichert?
+- [ ] Jaehrliche Bestandsmeldungen separat geprueft?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- Meldepflicht gilt auch bei Zahlungen über ausländische Banken (wenn Inlaender zahlender Teil).
+- Formular-Auswahl abhaengig von Transaktionsart; falsches Formular fuehrt zu Nachbearbeitungsauflage.
+- Direktinvestitions-Transaktionen fallen unter eigene Z4/Z5-Meldepflicht; nicht vergessen.
+- Netting und Verrechnungskonten können Meldeschwelle kuenstlich unterschreiten; Aggregationsregel beachten.
 
-## Triage vor AWV-/Bundesbank-Meldepruefung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Handelt es sich um eine Zahlungsmeldung nach § 67 AWV (ab 12.500 EUR) oder um eine Bestandsmeldung (§§ 56-66 AWV)?
-2. Liegt eine grenzueberschreitende Zahlung, Direktinvestition, Portfolioinvestition oder Kreditgewaehrung vor?
-3. Wer ist meldepflichtig — inlaendischer Auftraggeber der Zahlung oder inlaendisches Unternehmen mit Auslandsbeteiligung?
-4. Besteht gleichzeitig eine BAFA-Meldepflicht (§§ 68 ff. AWV) fuer Exportkontrollzwecke?
-5. Sind Rueckzahlungen oder Gegenleistungen in der Meldung korrekt zu benennen (Verrechnungspreise)?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## Quellen
 
-## Normen-Kette AWV/Bundesbank
-
-- §§ 56-68 AWV — Meldepflichten Kapitalverkehr, Direktinvestitionen, Zahlungen
-- § 67 AWV — Zahlungsmeldepflicht ab 12.500 EUR, Frist 1 Monat nach Monat der Zahlung
-- § 19 AWG — Ordnungswidrigkeiten, Bussgeld bis 30.000 EUR
-- Art. 63-66 AEUV — Kapitalverkehrsfreiheit, Grenze nationaler Beschraenkungen
-- § 4 AWG — Investitionspruefung durch BMWi (Aussenwirtschaftsgesetz)
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: AWV-Meldecheckliste
-
-**Adressat:** Treasury / Compliance — **Tonfall:** meldepflichtig-pragmatisch, fristengenau
-
-```
-AWV-MELDECHECKLISTE
-Datum Transaktion: [DATUM]
-Transaktionstyp: [Zahlung / Direktinvestition / Kredit / Portfolio]
-Betrag: [EUR]  Meldepflicht ab 12.500 EUR: [ ] Ausgeloest / [ ] Nicht ausgeloest
-Bearbeiter: [NAME]
-
-1. MELDETATBESTAND
-   § [AWV-Paragraf]: [KURZBESCHREIBUNG]
-   Meldepflichtiger: [FIRMA/PERSON]
-
-2. MELDEFRIST
-   Zahlung im Monat: [MONAT/JAHR]
-   Meldefrist: letzter Tag Folgemonat = [DATUM]
-   Gemeldet am: [DATUM] / [ ] Noch ausstehend
-
-3. MELDEINHALT
-   Zahlungsgrund: [CODE gemaess Bundesbank-Verzeichnis]
-   Betrag: [EUR]
-   Gegenpartei im Ausland: [LAND / NAME (soweit meldepflichtig)]
-
-4. OFFENE PUNKTE
-   [ ] Verrechnungspreise korrekt dokumentiert?
-   [ ] BAFA-Parallelmelde-pflicht geprueft?
-
-5. DOKUMENTATION
-   Meldungsnachweis abgelegt unter: [ABLAGEORT]
-```
+- [AWV auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awv_2013/index.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [Bundesbank AWV-Formulare](https://www.bundesbank.de/de/aufgaben/aussenwirtschaft/meldepflichten)
+- [AEUV Art. 63 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:12016E063)

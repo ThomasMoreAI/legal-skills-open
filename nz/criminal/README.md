@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `criminal` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Justice Data NZ`](skills/justice-data-nz-thecolab-ai/) | Query New Zealand Ministry of Justice data tables for finalised charges, convictions, sentencing outcomes,… |
+| [`Justice Data NZ`](skills/justice-data-nz-thecolab-ai/) | Query New Zealand Ministry of Justice data tables for finalised charges, convictions, sentencing… |
 
 ## Cold-start context
 

@@ -1,18 +1,18 @@
 ---
 name: determining-ua-jurisdiction
-title: determining-ua-jurisdiction
+title: law-ua-determining-ua-jurisdiction
 description: Use when determining the proper Ukrainian court for a lawsuit — identifying the correct type of proceedings (civil/commercial/administrative/criminal), territorial jurisdiction (which specific court), subject-matter jurisdiction, exclusive vs. alternative vs. contractual jurisdiction, or handling jurisdictional conflicts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-determining-ua-jurisdiction
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: litigation
 language: uk
 ---
 
-# determining-ua-jurisdiction
+# law-ua-determining-ua-jurisdiction
 
 Невірне визначення підсудності = повернення позову або передача справи, втрата часу і процесуальних строків. Перевірка підсудності — перший крок перед складанням позову.
 

@@ -1,0 +1,61 @@
+---
+name: konkurs-und-glaeubigerquoten-rangfolge
+title: Rom 120 Konkurs Und Gläubigerquoten Rangfolge
+description: 'Für Rom 120 Konkurs und Gläubigerquoten Rangfolge: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Römisches Recht. Route: konkurs-und-glaeubigerquoten-rangfolge.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/konkurs-und-glaeubigerquoten-rangfolge
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom 120 Konkurs Und Gläubigerquoten Rangfolge
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: historisch — usucapio (Ersitzung) 1/2 Jahre Mobilia/Immobilia, praescriptio longi temporis, longissimi temporis; heute über § 195 BGB / § 937 BGB.
+- Tragende Normen verifizieren: Corpus Iuris Civilis (Institutionen, Digesten, Codex, Novellen), Zwölftafelgesetz, Lex Aquilia, Lex Iulia et Papia, römisches Personen-, Sachen-, Obligationen-, Familien- und Erbrecht; dogmenhistorisch fortwirkend in BGB §§ 90 ff. (Sachen), 433 ff., 812 ff., 854 ff. — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Wissenschaftliche Rezipienten, Lehrstühle für Bürgerliches Recht/Rechtsgeschichte, Gesetzgeber (historisches Argumentum), Rechtsprechung (Auslegungshilfe).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lehrbuchexegese, Quellenkritik (Digesten-Stelle), historisch-rechtsvergleichendes Gutachten, dogmatische Aufsatz, Klausur (Pandektistik) — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Pfandglaeubiger
+
+- Hypothecarii / pignoraticii creditores hatten Vorrang bei Sachen mit dinglicher Sicherung.
+- Hypothek / Pfand musste vor allgemeiner Gläubigerverteilung bedient werden.
+- D. 20.1 ff. Hypothecarius creditor.
+
+## Bevorrechtigte Gläubiger (privilegium personae)
+
+- Krasse Beispiele:
+ - Beerdigungskosten ("funeris causa").
+ - Ehevermoegen der Witwe (dos).
+ - Pflegevormundschaft für Muendelvermoegen.
+ - Steuerforderungen des Fiscus.
+
+## Quotale Verteilung
+
+- Allgemeine Gläubiger erhielten nach Sicherung und Vorrechten den Rest quotal.
+- Magister bonorum berechnete die Quote.
+- Bonorum emptor war verpflichtet, anteilig zu zahlen — typische Quote 50-90 Prozent, abhaengig vom Erloes.
+
+## Vergleich zu InsO
+
+| roemisch | InsO |
+|---|---|
+| hypothecarii | Absonderung § 50 InsO |
+| privilegium personae | Massevorrang § 53 InsO |
+| Funeralia | Beerdigungskosten als Massekosten |
+| Steuerforderungen Fiscus | Insolvenzforderungen mit besonderem Vorrang? Nicht mehr (KO-Reform 1994) |
+| dos | Ehegueterrecht heute zivilrechtlich |
+| quotal | Insolvenzforderungen quotale Verteilung § 187 InsO |
+
+## Prüfraster
+
+1. Welche Gläubigerstellung?
+2. Sicherungsrecht vorhanden?
+3. Privilegium personae anwendbar?
+4. Quote zu berechnen?

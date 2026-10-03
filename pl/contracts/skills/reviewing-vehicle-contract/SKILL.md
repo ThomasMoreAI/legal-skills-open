@@ -1,18 +1,18 @@
 ---
 name: reviewing-vehicle-contract
-title: reviewing-vehicle-contract
+title: law-pl-reviewing-vehicle-contract
 description: Use when auditing Polish vehicle sale contract (umowa kupna-sprzedaży pojazdu) — VIN / przebieg, title chain, obciążenia (zastaw rejestrowy, leasing, przewłaszczenie), import / cło, obowiązkowe klauzule, PCC-3, typowe schematy oszustwa (cofnięty licznik, klonowany VIN, pełnomocnictwa-pułapki, parallel imports), rejestry (CEPiK, Mój Pojazd, Rejestr Zastawów, biała lista VAT, historiapojazdu.gov.pl)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-vehicle-contract
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: contracts
 language: pl
 ---
 
-# reviewing-vehicle-contract
+# law-pl-reviewing-vehicle-contract
 
 Umowa kupna-sprzedaży pojazdu (UKS) to umowa sprzedaży wg art. 535 KC. Forma — dowolna (wystarczy pisemna). Problem nie w formie, a w ukrytych ryzykach: podrobiony VIN, ukryte obciążenia, odmiana stanu licznika, leasing niezakończony, pojazd z kradzieży. Ten skill — checklist audytu i lista rejestrów do weryfikacji przed podpisem.
 
@@ -164,7 +164,7 @@ IV. ZALECENIE
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla pełnego projektowania umowy sprzedaży pojazdu — agent `pl:contract-drafter` (sporządzanie).
-- Dla weryfikacji sprzedawcy-przedsiębiorcy (reprezentacja, upadłość, VAT) — skill `pl:searching-krs`.
+- Dla pełnego projektowania umowy sprzedaży pojazdu — agent `law-pl-contract-drafter` (sporządzanie).
+- Dla weryfikacji sprzedawcy-przedsiębiorcy (reprezentacja, upadłość, VAT) — skill `law-pl-searching-krs`.
 - Dla obliczenia PCC-3 lub postępowania sporu przed organem skarbowym — rozważyć konsultacje podatkowe (poza zakresem tego skillu).
-- Dla spór sądowy o wady pojazdu — agent `pl:claim-drafter` (pozew), ewentualnie `pl:consumer-drafter` dla B2C.
+- Dla spór sądowy o wady pojazdu — agent `law-pl-claim-drafter` (pozew), ewentualnie `law-pl-consumer-drafter` dla B2C.

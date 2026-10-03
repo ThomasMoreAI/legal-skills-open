@@ -8,7 +8,7 @@ Jurisdiction: `il` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Standards Import Checker`](skills/israeli-standards-import-checker/) | Check whether a product requires Standards Institution of Israel (SII, Mechon HaTikanim) approval under an… |
+| [`Israeli Standards Import Checker`](skills/israeli-standards-import-checker/) | Not legal advice and not a filed customs declaration. Check whether a product needs Standards… |
 
 ## Cold-start context
 

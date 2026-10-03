@@ -1,0 +1,56 @@
+---
+name: bav-strategie-konzern-einstieg-routing
+title: Einstieg und Routing
+description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/einstieg-routing
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employee-benefits
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Einstieg und Routing
+
+## Einsatzlage
+
+Dieser Einstieg routet **Bav Strategie Konzern** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+
+## Fachlandkarte dieses Plugins
+
+- `altersversorgung-boutique-fristennotiz-psv` — Altersversorgung Boutique Fristennotiz PSV
+- `bav-cta-treuhand-spezial` — BAV CTA Treuhand Spezial
+- `bav-erstattung-fuenftelregelung` — BAV Erstattung Fuenftelregelung
+- `bav-grenzueberschreitend-mobil-spezial` — BAV Grenzueberschreitend Mobil Spezial
+- `bav-konzern-design-workflow` — BAV Konzern Design Workflow
+- `bav-pensionsfond-rueckdeckung-spezial` — BAV Pensionsfond Rueckdeckung Spezial
+- `benefits-mandantenkommunikation-entscheidungsvorlage` — Benefits Mandantenkommunikation Entscheidungsvorlage
+- `betrieblichen-drei-duesseldorfer-sonderfall` — Betrieblichen Drei Duesseldorfer Sonderfall
+- `boutique-fristennotiz-und-naechster-schritt` — Boutique Fristennotiz und Naechster Schritt
+- `buyout-ma-country-by-cta-contractual` — Buyout MA Country BY CTA Contractual
+- `buyouts-quellenkarte` — Buyouts Quellenkarte
+- `country-by-country-benefits-matrix-konzern` — Country BY Country Benefits Matrix Konzern
+- `cta-contractual-trust-arrangement-strukturierung` — CTA Contractual Trust Arrangement Strukturierung
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
+- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
+- Fachpfad wählen: zentrale Anker im Bav Strategie Konzern sind die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
+- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
+- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

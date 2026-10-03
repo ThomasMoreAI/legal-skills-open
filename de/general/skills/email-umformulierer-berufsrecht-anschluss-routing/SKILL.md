@@ -1,0 +1,56 @@
+---
+name: email-umformulierer-berufsrecht-anschluss-routing
+title: Anschluss-Routing
+description: 'Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: E-Mail-Umformulierer.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/anschluss-routing
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Anschluss-Routing
+
+## Einsatzlage
+
+Dieses Anschluss-Routing für **Email Umformulierer Berufsrecht** wählt nach dem ersten Ergebnis die passende Vertiefung, Eskalation, Fristensicherung oder Dokumentenerstellung.
+
+## Fachlandkarte dieses Plugins
+
+- `allgemeine-sonderfall-edge-case` — Allgemeine Sonderfall Edge Case
+- `anrede-und-grussformeln` — Anrede und Grussformeln
+- `berufliche-fristennotiz-emotionale` — Berufliche Fristennotiz Emotionale
+- `berufliche-fristennotiz-naechster-schritt` — Berufliche Fristennotiz Naechster Schritt
+- `berufsrechtskonform-verhandlung-vergleich-und-eskalation` — Berufsrechtskonform Verhandlung Vergleich und Eskalation
+- `bora-internationaler-bezug-und-schnittstellen` — BORA Internationaler Bezug und Schnittstellen
+- `bora-konformitaetspruefung` — BORA Konformitaetspruefung
+- `bora-konformitaetspruefung-brao-email` — BORA Konformitaetspruefung BRAO Email
+- `brao-interessen-fokus-formuliert` — BRAO Interessen Fokus Formuliert
+- `brao-konformitaetspruefung` — BRAO Konformitaetspruefung
+- `chronologie-und-belegmatrix` — Chronologie und Belegmatrix
+- `edge-case-verhandlung-bora-international` — Edge Case Verhandlung BORA International
+- `email-berufsrecht-berufliche-korrespondenz` — Email Berufsrecht Berufliche Korrespondenz
+- `dokumente-intake` — Dokumente Intake
+- `einstieg-routing` — Einstieg Routing
+
+## Arbeitsweg
+
+- Ergebnis sichten: Welche Email Umformulierer Berufsrecht-Fragen sind nach diesem Skill beantwortet, welche bleiben offen oder neu entstehen?
+- Anschlussweichen identifizieren: drohende Frist (die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren), notwendige Dokumente (Vertragsurkunden, Schriftsätze, Verwaltungsakte, Protokolle, Bescheide und externe Beweismittel des Fachgebiets), nächste Verfahrensstufe oder Sachgebiet.
+- Konkreten Folge-Skill aus der Fachlandkarte oben benennen — nicht generisch "weitermachen", sondern Skill-Slug nennen.
+- Eskalation an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen oder Spezialisten klären, wenn der Vorgang die Skill-Grenze überschreitet.
+- Mandantenkommunikation vorbereiten: Was muss der Mandant tun, bis wann, welche Unterlagen bringen, welche Risiken sind offen?
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

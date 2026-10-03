@@ -1,0 +1,18 @@
+{
+  "name": "eu-commercial",
+  "displayName": "Commercial — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Commercial skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "commercial",
+  "language": "de",
+  "skills": [
+    "skills/eu-china-trade-risk-dashboard",
+    "skills/eu-kartellrecht-informationsaustausch-c-286-13",
+    "skills/eu-kartellrecht-self-preferencing-google-shopping",
+    "skills/eu-richtlinie-86-653",
+    "skills/eu-vertikal-gvo-und-franchise"
+  ]
+}

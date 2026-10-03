@@ -10,7 +10,7 @@ Jurisdiction: `general` · Practice: `employee-benefits` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`ESOP Scheme Drafter`](skills/esop-scheme-drafter-rohasnagpal/) | Drafts an employee stock option scheme document and individual grant letter template — eligibility, vesting,… |
+| [`ESOP Scheme Drafter`](skills/esop-scheme-drafter-rohasnagpal/) | Drafts an employee stock option scheme document and individual grant letter template — eligibility… |
 
 ## Cold-start context
 

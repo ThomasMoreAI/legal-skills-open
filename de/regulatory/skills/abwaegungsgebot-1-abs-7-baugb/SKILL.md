@@ -1,11 +1,11 @@
 ---
 name: abwaegungsgebot-1-abs-7-baugb
 title: Abwägungsgebot § 1 Abs. 7 BauGB
-description: 'Mandant greift Bebauungsplan wegen fehlerhafter Interessenabwaegung an. § 1 Abs. 7 BauGB Abwaegungsgebot. Prüfraster: vier Abwaegungsfehler-Stufen Abwaegungsausfall Abwaegungsdefizit Abwaegungsfehleinschaetzung Abwaegungsdisproportionalitaet. § 214 Abs. 3 BauGB filtert nur Vorgangsfehler nicht Ergebnisfehler. Vorfestlegung und formelhafte Abwaegungsdokumentation als Angriffspunkte. Output: Abwaegungsfehler-Analyse und Bausteine für Normenkontrollantrag. Abgrenzung zu planerhaltung-214-215-baugb (Fehlererheblichkeit) und normenkontrollantrag-schriftsatz.'
+description: 'Für Abwägungsgebot Paragraf 1 Abs. 7 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/abwaegungsgebot-1-abs-7-baugb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Abwägungsgebot § 1 Abs. 7 BauGB
-
-## Zweck
-
-Das Abwägungsgebot ist das Herzstück der materiellen Plan-Prüfung. Vier Stufen-Fehler-Lehre des BVerwG seit 1969 ist die Grundlage jedes Normenkontroll-Schriftsatzes.
 
 ## Schritt 1 — Wortlaut und Bedeutung
 
@@ -170,7 +166,3 @@ Das Abwägungsgebot ist das Herzstück der materiellen Plan-Prüfung. Vier Stufe
 - **BVerwG 23.06.2020, 9 A 22.19** (Klimaschutz-Belang Verkehrsplanung; uebertragbar auf Bauleitplanung): Klima als bei Planungen zwingend einzustellender Belang. Quelle: bverwg.de.
 
 Konkrete Entscheidungen vor Verwendung per bverwg.de mit Datum verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

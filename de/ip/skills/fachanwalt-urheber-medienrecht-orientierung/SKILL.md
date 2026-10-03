@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-urheber-medienrecht-orientierung
 title: Fachanwalt fuer Urheber- und Medienrecht — Orientierung
-description: 'Urheber- und Medienrechtsmandat einordnen und Bearbeitungsroute bestimmen. §§ 1 2 7 UrhG §§ 97 ff. UrhG §§ 22 ff. KUG. Prüfraster: Schutzgegenstand Verletzungshandlung Parteistellung Route Fristen. Output: Mandat-Einordnung Normenmap naechste Schritte. Abgrenzung: Orientierungsskill; Detailarbeit in Spezialist-Skills.'
+description: 'Für Fachanwalt für Urheber- und Medienrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/fachanwalt-urheber-medienrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -62,10 +62,6 @@ KI-Training und Text-Data-Mining?
 | EU-Recht | InfoSoc-RL 2001/29; DSM-RL 2019/790; DSA |
 | KI-Training | § 44b UrhG; DSM-RL Art. 3, 4 |
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Typische Mandate mit Zeitschiene
 
 | Mandatstyp | Erstschritte | Frist |
@@ -92,3 +88,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Bei markenrechtlichen Aspekten: Plugin `gewerblicher-rechtsschutz` / `fachanwalt-gewerblicher-rechtsschutz`.
 - Bei Verlagsvertraegen: Plugin `verlagsredaktion`.
 - Bei Plattformhaftung/DSA: Plugin `fachanwalt-it-recht` / DSA-Kompetenz.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

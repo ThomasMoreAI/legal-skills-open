@@ -1,11 +1,11 @@
 ---
 name: inso-bargeschaeft-142
 title: Bargeschäft — § 142 InsO
-description: 'Bargeschäft nach § 142 InsO prüfen: unmittelbarer gleichwertiger Leistungsaustausch, Geschäftsverkehrsübung, Arbeitsentgelt-Drei-Monats-Regel, Verhältnis zu §§ 130-132 und Vorsatzanfechtung § 133 mit erkannter Unlauterkeit. Output: Verteidigungs- und Risikoanalyse ohne pauschale 30-Tage-Regel.'
+description: 'Für Bargeschäft — Paragraf 142 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/inso-bargeschaeft-142
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy

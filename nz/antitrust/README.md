@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `antitrust` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`NZ Commerce Commission`](skills/nz-comcom-thecolab-ai/) | Search New Zealand Commerce Commission cases, news, decisions, and reports from comcom.govt.nz. Use when the… |
+| [`NZ Commerce Commission`](skills/nz-comcom-thecolab-ai/) | Search New Zealand Commerce Commission cases, news, decisions, and reports from comcom.govt.nz. Use when… |
 
 ## Cold-start context
 

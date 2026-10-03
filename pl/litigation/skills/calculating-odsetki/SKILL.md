@@ -1,18 +1,18 @@
 ---
 name: calculating-odsetki
-title: calculating-odsetki
+title: law-pl-calculating-odsetki
 description: Use when calculating Polish odsetki — ustawowe (art. 359 KC), za opóźnienie (art. 481 KC), w transakcjach handlowych (ustawa z 08.03.2013), maksymalne (art. 359 § 2¹). Stawka na dany okres, rekompensata 40/70/100 euro w B2B
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-calculating-odsetki
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# calculating-odsetki
+# law-pl-calculating-odsetki
 
 Polski system ma **trzy reżimy** odsetek cywilnoprawnych, każdy z własnym algorytmem stawki i zakresem stosowania. Mylenie ich jest najczęstszym błędem w pozwach. Ten skill mapuje reżimy, pokazuje jak dobrać stawkę na datę i jak liczyć kwotę.
 

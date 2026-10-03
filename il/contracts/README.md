@@ -10,7 +10,7 @@ Jurisdiction: `il` · Practice: `contracts` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Freelancer Service Agreement`](skills/israeli-freelancer-service-agreement-skills-il/) | Draft a tailored Israeli freelancer service agreement (heskem matan sherutim) between an independent service… |
+| [`Israeli Freelancer Service Agreement`](skills/israeli-freelancer-service-agreement-skills-il/) | Draft a tailored Israeli freelancer service agreement (heskem matan sherutim) between an independent… |
 
 ## Cold-start context
 

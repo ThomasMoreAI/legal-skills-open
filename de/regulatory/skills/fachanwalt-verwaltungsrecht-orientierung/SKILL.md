@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-verwaltungsrecht-orientierung
 title: Fachanwalt für Verwaltungsrecht — Orientierung
-description: 'Orientierung im Fachanwaltsrecht Verwaltungsrecht: FAO-Voraussetzungen, Kerngebiete, typische Mandate und Fristen ueberblicken. Normen: VwGO (Anfechtungs-, Verpflichtungs-, Leistungs-, Feststellungsklage, Eilrechtsschutz §§ 80 und 123 VwGO), VwVfG, Polizei- und Ordnungsrecht, Baurecht. Prüfraster: Sachgebiet (Bau, Gewerbe, Polizei, Beamtenrecht), Verfahrensarten, Fristen-Überblick. Output Orientierungs-Memo, Routing zu Spezialskills. Abgrenzung: Detailarbeit in Spezialskills; Mandats-Triage siehe mandat-triage-verwaltungsrecht.'
+description: 'Für Fachanwalt für Verwaltungsrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/fachanwalt-verwaltungsrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -63,10 +63,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - ARGE Verwaltungsrecht DAV.
 
-## Aktuelle Rechtsprechung (Leitsaetze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Fristen im Ueberblick
 
 | Verfahrensschritt | Frist | Grundlage |
@@ -86,4 +82,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - **kanzlei-allgemein** fuer Fristen Versand.
 - **fachanwalt-migrationsrecht** bei Auslaenderrecht.
-- **sozialrecht-kanzlei** Abgrenzung Sozialgericht vs. Verwaltungsgericht.
+- **fachanwalt-sozialrecht** bei Abgrenzung Sozialgericht vs. Verwaltungsgericht.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -9,6 +9,9 @@
   "practice": "commercial",
   "language": "es",
   "skills": [
+    "skills/entrevista-inicial-4",
+    "skills/escalado",
+    "skills/renovaciones",
     "skills/revision-mercantil"
   ]
 }

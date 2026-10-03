@@ -1,0 +1,98 @@
+---
+name: lph8-bauueberwachung-vob-c-din-checklisten
+title: VOB/C-DIN-Checklisten in der Bauueberwachung LPH 8
+description: 'Für VOB/C-DIN-Checklisten in der Bauüberwachung LPH 8: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-vob-c-din-checklisten
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# VOB/C-DIN-Checklisten in der Bauueberwachung LPH 8
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+VOB/C-Abnahmechecklisten sind das systematische Werkzeug des Bauueberwachungsingenieurs: Jede VOB/C-Norm definiert Prüfpflichten, Aufmassregeln und Abnahmevoraussetzungen. Dieser Skill beschreibt die Erstellung gewerkeweiser digitaler Checklisten, die Werkzeuge Dalux Field und PlanRadar für die mobile Nutzung und die Integration in SAP PM für die lueckenlose Mangeldokumentation.
+
+## Bauwerk und Auftrag
+
+- Krankenhaus Neubau Duesseldorf: 42 Gewerke mit je eigener VOB/C-Checkliste, 1.840 Prüfpunkte, digitale Dalux-Workflow, Bausumme 110 Mio. EUR
+- Logistikzentrum Hamburg: 8 Hauptgewerke, PlanRadar-Checklisten mit QR-Code je Prüfpunkt, 520 Punkte, Bausumme 32 Mio. EUR
+- Wohnkomplex Berlin: Standardisierte Checklisten für 240 Wohneinheiten, Abnahme mit Mieter nach VOB/B § 12, Bausumme 45 Mio. EUR
+
+## Erste Schritte Checklisten-Erstellung
+
+1. Gewerk-Analyse und Normen-Zuordnung: Je Leistungsposition LV die zugehoerige VOB/C-DIN bestimmen, DIN 18331 Beton, DIN 18330 Mauerwerk, DIN 18360 Metalltuer, DIN 18382 Elektro usw.
+2. Prüfpunkte ableiten: Aus Normentext Abschnitt Ausfuehrung und Abnahme Prüfanweisungen ableiten, 5-8 Prüfpunkte je Gewerk, Reihenfolge logisch nach Bauablauf
+3. Checklisten-Digital Dalux: Vorlage erstellen Dalux Field, Prüfpunkte mit Eingabetype Checkbox, Text, Foto-Pflicht, Messwert, Auswahlliste, QR-Code-Generierung je Punkt
+4. QR-Code-Planung auf Baustelle: Je Prüfpunkt oder Bauteil QR-Code-Aufkleber, Scan mit Mobilgeraet oeffnet Dalux-Formular automatisch
+5. Erstpruefung und Nachpruefung: Prüfung durch Bauueberwacher, Mangel-Pin bei Nicht-Bestehen, AN-Benachrichtigung, Maßnahme, Nachpruefung Bestehen oder Eskalation
+6. SAP PM Integration: Checklisten-Ergebnis automatisch SAP PM Meldung M3 Aktivitaetenmeldung bei abgeschlossener Prüfung, M2 bei Mangel
+
+## Normen und Rechtsrahmen
+
+- § 650p BGB, § 650q BGB: Architektenvertrag, Abnahmepflicht und Maengelerfassung
+- HOAI 2021 § 34 Anlage 10 LPH 8: Bauueberwachung Grundleistungen Abnahme und Maengelliste
+- VOB/C DIN 18299 Allgemeine Regelungen: Alle Gewerke, Aufmassregeln, Nebenleistungen, Abrechnungseinheiten
+- VOB/C DIN 18331 bis DIN 18459: Spezifische Normen je Gewerk von Betonarbeiten bis Abbrucharbeiten
+- VOB/B § 12 Abnahme: Abnahmevoraussetzungen, Teilabnahme, Abnahmeprotokoll-Pflicht, Faelligkeitsbeginn Maengelansprueche
+- DIN EN ISO 9001:2015 Qualitaetsmanagementsysteme: Prüfpflichten, Nachweisdokumentation, Lieferantenbewertung als Rahmen für Checklistensystem
+
+## Prüferaster und Kontrollpunkte
+
+1. VOB/C-Prüfpunkte vollstaendig: Alle Normen-Abschnitte Ausfuehrung und Abnahme abgedeckt, kein Punkt vergessen, Revision wenn Norm aktualisiert
+2. Foto-Pflicht-Punkte: Kritische Prüfpunkte mit Foto-Pflicht markiert, kein Bestehen ohne Foto, Zeitstempel und GPS automatisch
+3. Messwert-Eingaben: Quantitative Prüfpunkte mit numerischer Eingabe und Grenzwert-Ampel, z.B. Ebenheitsmass 5 mm Grenzwert
+4. Checklisten-Status-Auswertung: Bestehensquote je Gewerk, offene Maengel gefiltert, Faelligkeit ueberschrittene Punkte rot markiert
+5. Versionskontrolle Checklisten: Normenrevisionen fuehren zu Checklist-Update, Versionsnummer und Datum je Checkliste, Aeltere Versionen archiviert
+6. Unterschrift Abnahme: Qualifizierte eIDAS-Signatur Bauueberwacher und AN-Bauleiter bei Gesamtabnahme, einzeln je Gewerk bei Teilabnahme
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Dalux Field Management: Checklisten-Modul mit QR-Code, Offline-Faehigkeit, iOS und Android, PDF-Export, BIM360-Verknuepfung
+- PlanRadar Abnahmecheckliste: Grundrissplan als Hintergrund, Prüfpunkte auf Flaeche verortet, GPS-Tag, Zeitstempel, Foto-Pflicht
+- BIM360 Checklist-Modul: Prüfpunkte an IFC-Bauteile verknuepft, Status in 3D-Modell farblich, Exportpaket Abnahme-Dokumentation
+- Procore Quality Management: Abnahmechecklisten mit Punch-List-Funktion, Foto-Pflicht je Mangel, Kostenstellen-Zuordnung
+- SAP PM Prüfplan: Planmäßige Erstpruefung als Prüflos konfiguriert, Checklisten-Ergebnis als Messwert-Erfassung, Statistik-Auswertung
+
+## Meldungserstellung im ERP / SAP
+
+- SAP PM Meldungsart M3 Checkliste abgeschlossen: Equipment-Nr Gewerk-Bauteil, alle Prüfpunkte bestanden, Archivierung Datum Unterschrift
+- SAP PM Meldungsart M2 Checklisten-Mangel: Prüfpunkt nicht bestanden, Schadenscode aus Checklisten-Katalog, automatisch aus Dalux-Export
+- SAP PS Abnahme-Meilenstein: Nach vollstaendiger Checklisten-Abnahme Gewerk Meilenstein gesetzt, Zahlungsfreigabe Abschlagsrechnung ausgeloest
+- Dalux-SAP-Schnittstelle: REST-API Export Checklisten-Ergebnis JSON, Import SAP PM Meldung M2 oder M3, Mapping Dalux-Code zu SAP-Schadenscode
+- Workflow: Checkliste durchgefuehrt, Mangel-Punkte automatisch PlanRadar Meldung, AN informiert, Nachpruefung, Abschlussmeldung, SAP PS Meilenstein
+
+## Typische Fallstricke
+
+- Veraltete VOB/C-Version in Checkliste: Normen werden alle 2-4 Jahre aktualisiert, DIN 18331 Neufassung 2019 enthalt neue Anforderungen
+- Prüfpunkte zu allgemein: Wasser ist dicht Ja/Nein ohne Messwert und Methode hat kein Beweiswert vor Gericht
+- Checkliste nicht gepfuegt: Bei Sonderbauteilen keine passende Checkliste vorhanden, Prüfung unvollstaendig
+- QR-Code-Aufkleber beschaedigt: Scan nicht möglich, manuelle Eingabe erforderlich, GPS-Genauigkeit schlechter
+
+## Hinweise zur Qualitaetssicherung
+
+- Alle Abnahmeprotokolle müssen vom Bauueberwacher und dem ausfuehrenden Unternehmen unterschrieben sein
+- Fristen nach VOB/B § 13 Abs. 4: Maengelansprueche Bauwerk 4 Jahre, Gesamtwerk nach BGB § 634a 5 Jahre
+- Bauwerksbuch nach HOAI Anlage 10 LPH 9 wird durch Bautagebuecher LPH 8 vorbereitet
+
+## Quellen
+
+- [HOAI 2021 § 34 Anlage 10](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [VOB/B § 12 Abnahme](https://www.gesetze-im-internet.de/vob/)
+- [§ 650q BGB Ingenieurvertrag](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [BGB § 634 Maengelansprueche](https://www.gesetze-im-internet.de/bgb/__634.html)
+- [BGB § 640 Abnahme](https://www.gesetze-im-internet.de/bgb/__640.html)

@@ -9,19 +9,19 @@ Jurisdiction: `general` · Practice: `arbitration` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`ADR Outcomes Summary`](skills/adr-outcomes-summary/) | Generates structured summaries of mediation and arbitration proceedings, extracting outcomes, settlement… |
-| [`arbitration-clause`](skills/arbitration-clause/) | Draft arbitration clauses with procedural rules. TRIGGERS - Use when user needs help with arbitration-clause… |
-| [`Arbitrator`](skills/arbitrator/) | Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use when… |
+| [`Arbitrator`](skills/arbitrator/) | Senior arbitrator specializing in dispute resolution, arbitration proceedings, and neutral judgment. Use… |
 | [`Caucus Strategy Planner`](skills/caucus-strategy-planner-rohasnagpal/) | Plans what a party should disclose, hold back, or route through the mediator during a private mediation… |
-| [`Conciliation Proposal Drafter`](skills/conciliation-proposal-drafter-rohasnagpal/) | Drafts a structured settlement proposal for use in conciliation or mediation, converting a party's interests,… |
-| [`fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП… |
+| [`Conciliation Proposal Drafter`](skills/conciliation-proposal-drafter-rohasnagpal/) | Drafts a structured settlement proposal for use in conciliation or mediation, converting a party's… |
+| [`刑事律師 Agent (Criminal Lawyer)`](skills/criminal-lawyer/) | 扮演資深刑事律師，提供刑事訴訟程序指導、辯護策略分析、法律條文解釋與被告權益保護。適用於刑事辯護、偵查中法律諮詢、量刑評估。當用戶面臨刑事指控、警察偵訊或刑事訴訟問題時啟動。 |
+| [`law-ua-fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП… |
 | [`法律談判專家 Agent (Legal Negotiator)`](skills/legal-negotiator/) | 扮演法律談判專家，提供合約談判策略、糾紛調解技巧、BATNA分析與和解方案設計。適用於商業合約談判、勞資糾紛調解、離婚財產分配協商。當用戶需要談判策略指導或調解建議時啟動。 |
-| [`Mediation — Alternative Dispute Resolution Reference`](skills/mediation/) | Mediation and ADR reference — dispute resolution processes, mediator techniques, caucus strategy, settlement… |
-| [`Mediation Analysis`](skills/mediation-analysis/) | Dispute analysis and mediation preparation framework. Use when preparing for mediation, analyzing disputes,… |
+| [`Mediation — Alternative Dispute Resolution Reference`](skills/mediation/) | Mediation and ADR reference — dispute resolution processes, mediator techniques, caucus strategy… |
+| [`Mediation Analysis`](skills/mediation-analysis/) | Dispute analysis and mediation preparation framework. Use when preparing for mediation, analyzing… |
 | [`Mediation / Arbitration Statement`](skills/mediation-arbitration-statement/) | Drafts confidential mediation or arbitration statements presenting a party's position on facts, law, and… |
 | [`Mediation Brief`](skills/mediation-brief/) | Drafts mediation briefs for commercial litigation that educate the mediator on facts, law, damages, and… |
-| [`Mediation Opening Drafter`](skills/mediation-opening-drafter-rohasnagpal/) | Drafts the opening statement delivered at the start of a joint mediation session — calibrated for a spoken,… |
-| [`Party Interest Analyst`](skills/party-interest-analyst-rohasnagpal/) | Separates each party's stated position from their actual underlying interests, for both sides of a dispute,… |
-| [`People's Mediator`](skills/people-mediator/) | Professional people's mediator with 10+ years of experience in community dispute resolution, civil conflict… |
+| [`Mediation Opening Drafter`](skills/mediation-opening-drafter-rohasnagpal/) | Drafts the opening statement delivered at the start of a joint mediation session — calibrated for a… |
+| [`Party Interest Analyst`](skills/party-interest-analyst-rohasnagpal/) | Separates each party's stated position from their actual underlying interests, for both sides of a… |
+| [`People's Mediator`](skills/people-mediator/) | Professional people's mediator with 10+ years of experience in community dispute resolution, civil… |
 
 ## Cold-start context
 

@@ -1,0 +1,60 @@
+---
+name: geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung
+title: 'Geschäftsführerhaftung: Zahlen, Schwellenwerte und Berechnung im Handels- und Gesellschaftsrecht: fachlich vertieftes Mo'
+description: 'Für Geschäftsführerhaftung Zahlen Schwellen und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+sources:
+- title: Vertiefung spezial geschaeftsfuehrerhaftung zahlen schwellen und berechnung
+  path: references/vertiefung-spezial-geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung.md
+---
+
+# Geschäftsführerhaftung: Zahlen, Schwellenwerte und Berechnung im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); HGB §§ 84-92c, EuGH zu Ausgleichsanspruch, BGB §§ 305 ff.; § 14i. HGB. AktG. GmbHG. PartGG. UmwG. Geschäftsführerhaftung; § 89b HGB. MoPeG GbR seit 2024. Schnittstellen kanzlei-allgemein — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Geschäftsführerhaftung: Zahlen, Schwellenwerte und Berechnung im Handels- und Gesellschaftsrecht: fachlich vertieftes Modul mit Normenradar (HGB/GmbHG/AktG/UmwG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
+
+### Geschäftsführerhaftung: Zahlen, Schwellenwerte und Berechnung
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Geschaeftsfuehrerhaftung: Zahlen, Schwellenwerte und Berechnung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Spezialwissen: Geschäftsführerhaftung: Zahlen, Schwellenwerte und Berechnung
+- **Normen-/Quellenanker:** FAO, HGB, AktG, GmbHG, PartGG, UmwG, MoPeG.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Haftungsanker und Berechnung:** § 43 Abs. 2 GmbHG (Sorgfalt eines ordentlichen Geschäftsmanns, Verschuldensmaßstab, Beweislastumkehr nach BGH ständige Rechtsprechung); § 93 Abs. 2 AktG analog für Vorstände; § 15a InsO Insolvenzantragspflicht 3 Wochen bei Zahlungsunfähigkeit, 6 Wochen bei Überschuldung; § 15b InsO Zahlungsverbote nach Eintritt Insolvenzreife.
+3. **Schadensberechnung:** Differenzhypothese (Schaden = Vermögenslage ohne Pflichtverletzung minus aktuelle Vermögenslage); bei Insolvenzverschleppung Quotenschaden für Altgläubiger, Vertrauensschaden für Neugläubiger (BGH ständige Rechtsprechung). Cap durch D&O-Versicherung (in der Praxis: Selbstbehalt § 93 Abs. 2 Satz 3 AktG mindestens 10 % bis 1,5fache Jahresfestvergütung).
+4. **Verjährung:** § 43 Abs. 4 GmbHG 5 Jahre ab Entstehung; § 93 Abs. 6 AktG 5 Jahre, börsennotierte AG 10 Jahre. Kenntnisunabhängig.
+5. **Business Judgment Rule (§ 93 Abs. 1 Satz 2 AktG analog für GmbH-Geschäftsführer):** unternehmerische Entscheidung, freier Pflichtenkonflikt, hinreichende Information, Handeln zum Wohl der Gesellschaft, Gutgläubigkeit. Anschluss: Beschluss zur Geltendmachung (§ 46 Nr. 8 GmbHG bzw. § 147 AktG), Klage zuständig LG Kammer für Handelssachen.
+
+## Vertiefung bei Bedarf
+
+- Bei `spezial-geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung` beziehungsweise Geschaeftsfuehrerhaftung: Zahlen, Schwellenwerte und Berechnung: [die zusätzliche Vertiefung laden](./references/vertiefung-spezial-geschaeftsfuehrerhaftung-zahlen-schwellen-und-berechnung.md).

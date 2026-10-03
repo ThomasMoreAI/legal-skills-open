@@ -1,16 +1,29 @@
 ---
 name: sanktions-compliance-pruefung
-title: Mandantenfragen beim Kaltstart
-description: 'Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-Sicherheitsrat-Resolutionen. Asset-Freeze, sektorale Embargos, Dienstleistungsverbote, Re-Export-Klauseln. AWG §§ 18–19 Strafbarkeit, BAFA-Genehmigungen. Screening-Tools, Dokumentationspflicht 10 Jahre. Sofortmaßnahmen bei Verdacht.'
+title: 'Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-S'
+description: 'Für Sanktions Compliance Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/sanktions-compliance-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: sanctions
 language: de
 ---
+
+# Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-Sicherheitsrat-Resolutionen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FAO § 5 36 Monate Praxis, CISG Art. 39 angemessene Frist Mängelrüge, Brüssel Ia Art. 35 einstweiliger Rechtsschutz, NYÜ Art. V Anerkennung 3 Jahre.
+- Tragende Normen verifizieren: FAO § 14r, Rom I (VO 593/2008), Rom II (VO 864/2007), Brüssel Ia (VO 1215/2012), CISG, UNCITRAL Model Law, INCOTERMS 2020, IPR-G, AWG, AWV, EU-Sanktionsverordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Internationale Vertragsparteien, ICC, UNCITRAL, Schiedsgericht (DIS, ICC, SCC), nationale Gerichte, Zoll, BAFA, BMWK, EuGH.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Internationaler Kaufvertrag, Schiedsklausel, ICC-Schiedsverfahren-Eingabe, Exportlizenz BAFA, Sanktionsprüfung, INCOTERMS-Klausel, Letter of Credit — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-Sicherheitsrat-Resolutionen. Asset-Freeze, sektorale Embargos, Dienstleistungsverbote, Re-Export-Klauseln. AWG §§ 18–19 Strafbarkeit, BAFA-Genehmigungen. Screening-Tools, Dokumentationspflicht 10 Jahre. Sofortmaßnahmen bei Verdacht.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -22,7 +35,7 @@ language: de
 6. Lagen in der Vergangenheit Geschäftsbeziehungen mit gelisteten Personen vor – besteht Selbstanzeige-Bedarf bei BAFA?
 7. Welche internen Compliance-Strukturen bestehen (Screening-Tool, Compliance-Officer, Dokumentationsarchiv)?
 8. Hat eine Bank die Transaktion gesperrt oder Anfragen gestellt – liegt ein konkreter Verdachtsfall vor?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -46,7 +59,6 @@ language: de
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | OFAC | TSECO 2023 | 2023 | Secondary-Sanctions-Enforcement: nicht-US-Unternehmen mit USD-Transaktionen zu sanktionierten Einheiten; Bußgeld ohne Strafverfolgung in USA |
 
 ## Prüfschema
@@ -66,17 +78,16 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Sanktions-Compliance-Pruefung | Compliance-Gutachten; Template unten |
-| Variante A — Laufendes Geschaeft sanktionsbetroffen | Sofort-Winddown; BAFA-Genehmigung pruefen |
-| Variante B — Counterparty auf Sanktionsliste | Vertragsaushaengung / Force-Majeure-Klausel pruefen |
-| Variante C — US-Sekundaersanktionen relevant | OFAC-Exposure pruefen; US-Anwalt hinzuziehen |
+| Standard — Sanktions-Compliance-Prüfung | Compliance-Gutachten; Template unten |
+| Variante A — Laufendes Geschäft sanktionsbetroffen | Sofort-Winddown; BAFA-Genehmigung prüfen |
+| Variante B — Counterparty auf Sanktionsliste | Vertragsaushaengung / Force-Majeure-Klausel prüfen |
+| Variante C — US-Sekundaersanktionen relevant | OFAC-Exposure prüfen; US-Anwalt hinzuziehen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatz-Bausteine
 
@@ -86,25 +97,25 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 Article [X] – Sanctions Compliance and Re-Export Restriction
 
 1. The Buyer represents and warrants that neither the Buyer nor, to its
-   knowledge, any of its ultimate beneficial owners appear on any
-   applicable sanctions list, including the EU Consolidated Sanctions
-   List, the OFAC SDN List, or the UK HMT Sanctions List.
+ knowledge, any of its ultimate beneficial owners appear on any
+ applicable sanctions list, including the EU Consolidated Sanctions
+ List, the OFAC SDN List, or the UK HMT Sanctions List.
 
 2. The Buyer undertakes not to (re-)export, transfer, sell, supply or
-   otherwise make available the Goods or any products derived therefrom,
-   directly or indirectly, to or for use in or by:
-   (a) the Russian Federation, the Republic of Belarus, or any other
-       country subject to comprehensive sanctions; or
-   (b) any person or entity listed on any applicable sanctions list.
+ otherwise make available the Goods or any products derived therefrom,
+ directly or indirectly, to or for use in or by:
+ (a) the Russian Federation, the Republic of Belarus, or any other
+ country subject to comprehensive sanctions; or
+ (b) any person or entity listed on any applicable sanctions list.
 
 3. The Buyer shall ensure that this obligation is binding on all
-   subsequent purchasers, distributors and end-users by incorporating
-   a provision equivalent to this Article in all subsequent contracts.
+ subsequent purchasers, distributors and end-users by incorporating
+ a provision equivalent to this Article in all subsequent contracts.
 
 4. Breach of this Article entitles the Seller to terminate the contract
-   immediately without notice and to claim all damages resulting therefrom.
-   The Buyer shall indemnify the Seller against any fines or penalties
-   imposed on the Seller due to the Buyer's non-compliance.
+ immediately without notice and to claim all damages resulting therefrom.
+ The Buyer shall indemnify the Seller against any fines or penalties
+ imposed on the Seller due to the Buyer's non-compliance.
 ```
 
 ### BAFA-Anfrage bei zweifelhaftem Exportgeschäft
@@ -147,15 +158,15 @@ Erstellt durch: [Compliance-Officer Name]
 2. Betroffenes Geschäft: [Vertrags-Nr., Beschreibung, Wert EUR X]
 3. Gelistete Person/Unternehmen: [Name, Listenposition]
 4. Sofortmaßnahmen:
-   a) Transaktion gestoppt: [Datum, durch wen]
-   b) Zahlung storniert/gesperrt: [Bankname, Referenz]
-   c) Geschäftsleitung informiert: [Name, Datum]
-   d) Anwalt kontaktiert: [Kanzlei, Datum]
+ a) Transaktion gestoppt: [Datum, durch wen]
+ b) Zahlung storniert/gesperrt: [Bankname, Referenz]
+ c) Geschäftsleitung informiert: [Name, Datum]
+ d) Anwalt kontaktiert: [Kanzlei, Datum]
 5. Nächste Schritte: [BAFA-Anfrage / Selbstanzeige prüfen / Vertragsauflösung]
 6. Archivierungspflicht: 10 Jahre (§ 18 AWG Verjährung)
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -229,26 +240,18 @@ Compliance-Kosten (Prävention): Screening-Software 5.000–50.000 EUR/Jahr; Rec
 - EG-VO 428/2009 (Dual-Use-VO)
 - OFAC Regulations 31 CFR Part 500 ff.; SDN List (treasury.gov)
 - UK Sanctions and Anti-Money Laundering Act 2018; OFSI
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BAFA-Merkblätter Embargorecht (bafa.de), Stand 2024
-
-## Vertiefung: Aktuelle Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Normen-Kette Sanktions-Compliance
 
 - **EU VO 269/2014** Art. 2 — Asset-Freeze und Bereitstellungsverbot; **VO 833/2014** Art. 2a-5n — Sektor- und Dienstleistungsverbote
-- **EU VO 2271/96** (Blocking-Statut) — Schutz vor US-Sekundaersanktionen; Meldepflicht Bundesamt fuer Wirtschaft
+- **EU VO 2271/96** (Blocking-Statut) — Schutz vor US-Sekundaersanktionen; Meldepflicht Bundesamt für Wirtschaft
 - **EG-VO 428/2009** — Dual-Use-Gueterliste; BAFA-Genehmigungspflicht
 - **§ 18 AWG** — vorsaetzlicher/fahrlassiger Embargoverstoß; **§ 30 OWiG** — Verbandsgeldbuße
 - **§ 43 GwG** — Verdachtsmeldung FIU; **§ 11 GwG** — Identifizierungspflicht UBO
 - **§ 134 BGB** — Nichtigkeit Rechtsgeschaeft bei Gesetzesverstoß
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: Sanktions-Compliance-Pruefungsbericht
+## Output-Template: Sanktions-Compliance-Prüfungsbericht
 
 **Adressat:** Geschaftsfuehrung und Legal / Compliance-Beauftragter
 **Tonfall:** Sachlich-analytisch, handlungsorientiert, vertraulich
@@ -257,7 +260,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 VERTRAULICH — ANWALTLICHER PRUEFUNGSBERICHT
 Datum: [DATUM]
 Auftraggeber: [FIRMENNAME, SITZ]
-Aufgabe: Sanktions-Compliance-Pruefung fuer [BESCHREIBUNG GESCHAEFT]
+Aufgabe: Sanktions-Compliance-Pruefung für [BESCHREIBUNG GESCHAEFT]
 
 A. GEPRUEFTE REGIME
 [X] EU (VO 269/2014, VO 833/2014, VO 765/2006)
@@ -268,9 +271,9 @@ A. GEPRUEFTE REGIME
 
 B. SCREENINGERGEBNISSE
 1. Personenscreening (Geschaeftspartner + UBO):
-   - [PARTNER NAME]: [Kein Treffer / Treffer AZ LISTUNG]
-   - UBO [NAME]: [Kein Treffer / Treffer]
-2. Laender-Embargo-Check: Bestimmungsland [LAND] — [Totalemb. / Teilemb. / Kein Emb.]
+ - [PARTNER NAME]: [Kein Treffer / Treffer AZ LISTUNG]
+ - UBO [NAME]: [Kein Treffer / Treffer]
+2. Länder-Embargo-Check: Bestimmungsland [LAND] — [Totalemb. / Teilemb. / Kein Emb.]
 3. Dual-Use-Pruefung Gueter [CN-CODE]: [Genehmigungspflichtig Pos. X / Frei]
 4. Dienstleistungsverbot Art. 5n VO 833/2014: [Betroffen / Nicht betroffen]
 5. Re-Export-Risiko Drittland: [Vorhanden — Massnahme: X / Nicht vorhanden]
@@ -293,3 +296,5 @@ Naechster Review: [DATUM — z.B. bei Erneuerung/Zahlungseingang]
 [KANZLEI], [ORT], [DATUM]
 [RECHTSANWAELTIN NAME], LL.M.
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -8,8 +8,8 @@ Jurisdiction: `jp` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Japan APPI Compliance (2022 Amendments)`](skills/japan-appi/) | Guides compliance with Japan's Act on the Protection of Personal Information (APPI, 2022 amendments). Covers… |
-| [`Japan APPI Expert`](skills/jp-appi-expert/) | Japan APPI expert for the Act on the Protection of Personal Information. Reference-depth framework plugin… |
+| [`Japan APPI Compliance (2022 Amendments)`](skills/japan-appi/) | Guides compliance with Japan's Act on the Protection of Personal Information (APPI, 2022 amendments).… |
+| [`Japan APPI Expert`](skills/jp-appi-expert/) | Japan APPI expert for the Act on the Protection of Personal Information. Reference-depth framework… |
 
 ## Cold-start context
 

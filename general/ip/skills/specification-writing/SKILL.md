@@ -5,7 +5,7 @@ description: Write the full patent specification from claims and invention discl
 author: wanshuiyin
 author_url: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/main/skills/skills-codex/specification-writing
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -20,7 +20,7 @@ Adapted from `/paper-write` for patent specifications. The specification support
 
 ## Constants
 
-- `REVIEWER_MODEL = gpt-5.5` — External reviewer for specification quality
+- `REVIEWER_MODEL = gpt-6-astra` — External reviewer for specification quality
 - `JURISDICTION = "auto"` — Inherit from pipeline or detect from args; `CN`, `US`, `EP`, `ALL`
 - `OUTPUT_FORMAT = "markdown"` — Markdown drafts; converted to filing format by `/jurisdiction-format`
 - `OUTPUT_DIR = "patent/"` — Base output directory
@@ -157,13 +157,13 @@ Verify every claim element finds support in the specification:
 
 If any element lacks support, add the necessary description before proceeding.
 
-### Step 10: Cross-Model Review
+### Step 10: Fresh-Agent Review (same-family provisional by default)
 
 Call `REVIEWER_MODEL` via a dedicated Codex reviewer agent at xhigh reasoning:
 
 ```text
 spawn_agent:
-  model: gpt-5.5
+  model: gpt-6-astra
   reasoning_effort: xhigh
   message: |
     You are a patent examiner reviewing a specification for completeness.

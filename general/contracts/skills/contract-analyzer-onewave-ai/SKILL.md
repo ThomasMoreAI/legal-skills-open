@@ -5,7 +5,7 @@ description: Review contracts for concerning clauses, extract key terms, compare
 author: OneWave-AI
 author_url: https://github.com/OneWave-AI/claude-skills/tree/main/contract-analyzer
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -13,11 +13,11 @@ language: en
 sources:
 - title: Examples
   path: references/examples.md
-- title: Key Terms
+- title: Key terms
   path: references/key-terms.md
-- title: Output Template
+- title: Output template
   path: references/output-template.md
-- title: Risk Flags
+- title: Risk flags
   path: references/risk-flags.md
 ---
 

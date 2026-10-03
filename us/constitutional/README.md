@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): constitution
 
 Jurisdiction: `us` · Practice: `constitutional` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`SCOTUS Checker`](skills/scotuschecker-dgk-law-and-cognition-lab/) | Analyze Supreme Court opinions for principle invocation and methodological consistency. Use when the user… |
+| [`SCOTUS Checker`](skills/scotuschecker-dgk-law-and-cognition-lab/) | Analyze Supreme Court opinions for principle invocation and methodological consistency. Use when the… |
+| [`USA Tiers of Scrutiny`](skills/usa-tiers-of-scrutiny/) | Für USA Tiers of Scrutiny: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 
 ## Cold-start context
 

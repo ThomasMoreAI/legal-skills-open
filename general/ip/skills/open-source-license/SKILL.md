@@ -5,11 +5,34 @@ description: Open Source License guidance, selection, compliance review, and dra
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/open-source-license
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: en
+sources:
+- title: Checklist
+  path: references/compliance/checklist.md
+- title: Common issues
+  path: references/compliance/common-issues.md
+- title: Compatibility
+  path: references/compliance/compatibility.md
+- title: Copyleft
+  path: references/licenses/copyleft.md
+- title: Permissive
+  path: references/licenses/permissive.md
+- title: Specialty
+  path: references/licenses/specialty.md
+- title: Comparison matrix
+  path: references/selection/comparison-matrix.md
+- title: Decision tree
+  path: references/selection/decision-tree.md
+- title: License files
+  path: references/templates/license-files.md
+- title: Notice files
+  path: references/templates/notice-files.md
+- title: Source headers
+  path: references/templates/source-headers.md
 ---
 
 *First published on [Skala Legal Skills](https://www.skala.io/legal-skills)*

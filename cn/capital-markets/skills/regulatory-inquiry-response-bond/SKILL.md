@@ -5,11 +5,18 @@ description: 监管问询回复助手（债券版）- 协助撰写债券审核�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/regulatory-inquiry-response-bond
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: capital-markets
 language: zh
+sources:
+- title: Bond rules
+  path: references/bond-rules.md
+- title: Credit analysis
+  path: references/credit-analysis.md
+- title: Response templates bond
+  path: references/response-templates-bond.md
 ---
 
 # 监管问询回复助手（债券版）

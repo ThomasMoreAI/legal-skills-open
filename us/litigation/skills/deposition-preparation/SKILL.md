@@ -5,11 +5,20 @@ description: Produces a comprehensive deposition preparation package for taking 
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/deposition-preparation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation
 language: en
+sources:
+- title: Jurisdiction adaptations
+  path: references/jurisdiction-adaptations.md
+- title: Legal standards
+  path: references/legal-standards.md
+- title: Quality checklist
+  path: references/quality-checklist.md
+- title: Witness types
+  path: references/witness-types.md
 ---
 
 # Deposition Preparation: Strategic Planning and Execution

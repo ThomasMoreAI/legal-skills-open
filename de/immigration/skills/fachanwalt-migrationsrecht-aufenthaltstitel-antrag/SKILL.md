@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-migrationsrecht-aufenthaltstitel-antrag
 title: Aufenthaltstitel-Antrag
-description: Antrag auf Erteilung oder Verlaengerung eines Aufenthaltstitels nach AufenthG bei der Auslaenderbehoerde. Typen § 4 AufenthG Visum Aufenthaltserlaubnis Niederlassungserlaubnis Erlaubnis zum Daueraufenthalt-EU Blaue Karte EU. Allgemeine Erteilungsvoraussetzungen § 5 AufenthG Lebensunterhalt geklaerte Identität kein Ausweisungsinteresse. Verlaengerung § 8 AufenthG. Fiktionswirkung § 81 Abs. 4 AufenthG bei rechtzeitiger Antragstellung.
+description: 'Für Aufenthaltstitel-Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/fachanwalt-migrationsrecht-aufenthaltstitel-antrag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: immigration
@@ -57,7 +57,6 @@ language: de
 
 | Aktenzeichen | Gericht/Datum | Inhalt |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -68,7 +67,6 @@ language: de
 | 1 | Aufenthaltszweck identifizieren | § 4 AufenthG |
 | 2 | Spezialnorm finden (§§ 16–26 AufenthG) | Zweck-Matrix |
 | 3 | Allgemeine Voraussetzungen § 5 AufenthG vollständig prüfen | § 5 Abs. 1, 2 AufenthG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | Ausweisungsinteresse § 54 AufenthG prüfen (Vorstrafen, Ermittlungen) | §§ 53–55 AufenthG |
 | 6 | Identität und Pass § 3, § 5 Abs. 1 Nr. 1a AufenthG prüfen | § 3, § 5 AufenthG |
 | 7 | Visumserfordernis § 5 Abs. 2 AufenthG — mit dem richtigen Visum eingereist? | § 5 Abs. 2, § 39 AufenthV |
@@ -178,7 +176,6 @@ II. Rechtslage
 1. Allgemeine Erteilungsvoraussetzungen § 5 AufenthG sind erfüllt:
    a) Lebensunterhalt gesichert (monatl. Nettoeinkommen EUR [Betrag]
       übersteigt Regelbedarf SGB II EUR [Betrag] für [Personen]),
-      Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
    b) Identität geklärt, Pass gültig (Anlage K1).
    c) Kein Ausweisungsinteresse § 54 AufenthG (Anlage K2:
       Führungszeugnis ohne Eintrag).
@@ -268,7 +265,6 @@ Mit freundlichen Grüßen
 
 | Behörden-Argument | Rechtliche Gegenstrategie |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Sprachnachweis A1 fehlt" | Ausnahmen § 30 Abs. 1 Satz 3 AufenthG prüfen (Integrationsprogramm, Deutschkurs, Krankheit) |
 | "Visumserfordernis nicht erfüllt" | § 39 AufenthV-Ausnahmen (nachträgliche Erteilung im Inland) prüfen |
 | "Ausweisungsinteresse § 54 AufenthG" | Abwägung § 53 Abs. 1 AufenthG: Bleibeinteressen § 55 gegen Ausweisungsinteressen abwägen |
@@ -297,7 +293,6 @@ Mit freundlichen Grüßen
 | Fallkonstellation | Empfehlung |
 |---|---|
 | Verlängerungsantrag kurz vor Ablauf | Sofort stellen; Fiktionsbescheinigung beantragen; Arbeitgeber informieren |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Ablehnung wegen Ausweisungsinteresse | Abwägung § 53 AufenthG; Einzelfallgutachten; Ermessensreduktion |
 | Duldung läuft aus | § 25b AufenthG (nachhaltige Integration) prüfen; § 25a für Jugendliche |
 | Fehlendes Visum nachträgliche Erteilung | § 39 Nr. 1 AufenthV (Familienangehörige Deutscher); Nr. 5 (Aufenthalt > 6 Monate) |
@@ -365,3 +360,13 @@ Anlagen: 1 Vollmacht, 2 Einkommensnachweise, 3 Reisepass, 4 Fuehrungszeugnis,
 [KANZLEI], [ORT], [DATUM]
 [RA-NAME]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

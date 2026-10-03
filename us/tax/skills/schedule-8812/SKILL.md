@@ -5,11 +5,22 @@ description: 'Use this skill when an individual taxpayer needs to claim the Chil
 author: jupid-tax
 author_url: https://github.com/jupid-tax/jupid-skills/tree/main/forms/schedule-8812
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: tax
 language: en
+sources:
+- title: Actc refundability
+  path: references/actc-refundability.md
+- title: Common mistakes
+  path: references/common-mistakes.md
+- title: Line by line
+  path: references/line-by-line.md
+- title: Qualifying child test
+  path: references/qualifying-child-test.md
+- title: Qualifying relative test
+  path: references/qualifying-relative-test.md
 ---
 
 # Schedule 8812 — Credits for Qualifying Children and Other Dependents

@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `cybersecurity` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`New Zealand Information Security Manual (NZISM) Skill`](skills/nzism-sushegaad/) | Expert New Zealand Information Security Manual (NZISM) advisor for NZ government agencies and their supply… |
+| [`New Zealand Information Security Manual (NZISM) Skill`](skills/nzism-sushegaad/) | Expert New Zealand Information Security Manual (NZISM) advisor for NZ government agencies and their… |
 
 ## Cold-start context
 

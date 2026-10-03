@@ -1,11 +1,11 @@
 ---
 name: werbeaussagen-pruefung
 title: Werbeaussagen-Prüfung (Marketing Claims Review)
-description: Prüfung von Werbeaussagen auf Irreführungs- und Wettbewerbsrechtsrisiken nach deutschem und europäischem Recht. Lädt, wenn der Nutzer "Werbetext prüfen", "Marketingaussagen freigeben", "UWG-Prüfung", "Health Claims", "klimaneutral prüfen" oder vergleichbare Werbebehauptungen zur Überprüfung vorlegt.
+description: 'Für Werbeaussagen-Prüfung (Marketing Claims Review): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/werbeaussagen-pruefung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: consumer
@@ -14,11 +14,13 @@ language: de
 
 # Werbeaussagen-Prüfung (Marketing Claims Review)
 
-## Zweck
+## Arbeitsweg
 
-Das Marketing möchte das Produkt bestmöglich darstellen. Das Recht verlangt, dass Werbeaussagen wahr oder zumindest nicht nachweislich falsch sind. Dieser Skill identifiziert Behauptungen, die Abmahnrisiken, behördliche Anfragen (Bundeskartellamt, Verbraucherschutzverbände) oder eine UWG-Klage auslösen können, und schlägt Alternativformulierungen vor, die Werbewirkung und Rechtskonformität verbinden.
-
-Die Skill lädt automatisch, wenn der Nutzer Werbetexte, Landingpages, Produktbeschreibungen, E-Mail-Kampagnen, Anzeigentexte oder Influencer-Briefings zur Prüfung vorlegt.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GPSR Geltungsbeginn 13.12.2024, MaschinenVO 20.01.2027, ProdHaftRL-Umsetzung 09.12.2026, Rückruf unverzüglich, Meldung schwerer Unfall innerhalb 2 Tagen.
+- Tragende Normen verifizieren: ProdSG, ProdHaftG, EU-Marktüberwachungs-VO 2019/1020, EU-Produktsicherheits-VO 2023/988 (GPSR ab 13.12.2024), Produkthaftungs-RL 2024/2853, MaschinenVO 2023/1230, GPSGV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Hersteller, Importeur, Händler, Fulfillment-Dienstleister, Marktüberwachungsbehörde (BAuA, Länder), benannte Stelle, Endverbraucher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Konformitätserklärung, technische Dokumentation, Risikoanalyse, CE-Kennzeichnung, Rückrufkonzept, Sicherheitsbericht, Online-Marktplatz-AGB — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -42,7 +44,6 @@ Die Skill lädt automatisch, wenn der Nutzer Werbetexte, Landingpages, Produktbe
 - Anlage 1 zu § 3 Abs. 3 UWG: Stets unzulässige geschäftliche Handlungen (Schwarze Liste)
 
 **Klimaaussagen und Nachhaltigkeitswerbung**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - RL (EU) 2024/825 (EmpCo-RL, Umsetzung bis 27.03.2026): Verschärfte Anforderungen an Nachhaltigkeitsaussagen, insbesondere gegen unbelegte generische Umweltaussagen und nicht transparente Kompensations-/Klimaneutralitätsclaims.
 
 **Gesundheitsbezogene Angaben**
@@ -51,15 +52,14 @@ Die Skill lädt automatisch, wenn der Nutzer Werbetexte, Landingpages, Produktbe
 - LMIV VO (EU) 1169/2011: Irreführungsverbot für Lebensmittelkennzeichnung und -werbung
 
 **Vergleichende Werbung und Konkurrentennennung**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Influencer-Werbung und Kennzeichnungspflicht**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 22 MStV (Medienstaatsvertrag): Werbekennzeichnungspflicht für Telemedien und Social Media
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 1: Standards laden und Branchenkontext klären
@@ -105,7 +105,6 @@ Messbare, spezifische Aussagen, auf die ein vernünftiger Verbraucher vertraut.
 
 **Klimaneutralitäts- und Nachhaltigkeitsaussagen (besonderer Fokus)**
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Aussage | Prüfmuster |
 |---|---|
@@ -163,7 +162,7 @@ Entspricht das Produkt wirklich dem, was der Werbetext verspricht? Häufiges Ph�
 ### Schritt 5: Ausgabe zusammenstellen
 
 ```markdown
-# Werbeaussagen-Prüfvermerk: [Kampagne / Asset-Name]
+### Werbeaussagen-Prüfvermerk: [Kampagne / Asset-Name]
 
 **Geprüft:** [Datum]
 **Werbemittel:** [Landingpage / E-Mail / Anzeige / etc.]
@@ -199,27 +198,19 @@ Für längere Assets (> 300 Wörter): Änderungs-Diff als Aufzählung.]
 | [Behauptung] | [Datentyp / Studie / Zertifikat] | [PM / Marketing / Recht] |
 ```
 
-## Ausgabeformat
-
-Prüfvermerk im internen Format gemäß CLAUDE.md. Für kurze Assets (Tagline, Headline) ist das Ergebnis die tatsächlich überarbeitete Formulierung, nicht eine Metabeschreibung der Änderungen.
-
 ## Beispiel
 
 **Sachverhalt:** Landingpage für ein Nahrungsergänzungsmittel mit folgenden Aussagen: (1) "Stärkt Ihr Immunsystem", (2) "Klimaneutral produziert", (3) "50 % wirksamer als Vitamin-C-Tabletten der Konkurrenz".
 
 **Beispiel-Ergebnis:**
 - **(1) "Stärkt Ihr Immunsystem"** → 🔴 **Streichen oder ersetzen.** Gesundheitsbezogene Angabe für Nahrungsergänzungsmittel nur zulässig, wenn in der Positivliste der Health-Claims-VO (EG) 1924/2006 gelistet. "Vitamin C trägt zur normalen Funktion des Immunsystems bei" wäre zulässig (Art. 13-Claim, zugelassen). Allgemein gehaltener Immunsystem-Claim ohne Nährstoffbezug ist nicht gelistet → Abmahnrisiko.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **(3) "50 % wirksamer als…"** → ⚠️ **Nachweis erforderlich.** Vergleichende Werbung (§ 6 UWG) zulässig nur mit objektivem, aktuellem, nachweisbarem Vergleich. Head-to-Head-Studie mit offengelegter Methodik vorlegen oder Formulierung streichen.
 
 ## Risiken und typische Fehler
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Ungesicherte Alleinstellungsbehauptungen:** "Die Nr. 1", "Marktführer", "Einzig" — nur zulässig mit aktuellem, belastbarem Beleg (Marktanteilsstudie, Zertifikat o. Ä.).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Health-Claims außerhalb der Positivliste:** Jede gesundheitsbezogene Angabe für Lebensmittel und Nahrungsergänzungsmittel benötigt einen zugelassenen Claim nach Art. 13 oder 14 VO 1924/2006. Eigene Formulierungen sind grundsätzlich unzulässig.
 - **HWG-Verstöße in Heilmittelwerbung:** § 3 HWG verbietet irreführende Werbung für Arzneimittel, Medizinprodukte und Verfahren. § 11 HWG verbietet spezifisch Laienempfehlungen, Vorher-Nachher-Bilder, Angst- und Druckwerbung gegenüber Verbrauchern.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Fehlende Substantiierung bei absoluten Behauptungen:** "100 %" und "immer" unterliegen einem Nulltoleranzmaßstab; ein einziges dokumentiertes Gegenbeispiel genügt für eine begründete Abmahnung.
 
 ## Quellenpflicht
@@ -235,5 +226,4 @@ Quellen, die nur aus Modellwissen stammen, nicht als zitierfähige Fundstelle au
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
 
-<!-- AUDIT 27.05.2026 bundle_040
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

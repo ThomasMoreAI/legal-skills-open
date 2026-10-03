@@ -1,18 +1,18 @@
 ---
 name: applying-zus-procedures
-title: applying-zus-procedures
+title: law-pl-applying-zus-procedures
 description: Use when navigating ZUS procedures — rejestracja płatnika (ZFA/ZPA/ZUA/ZCNA), zgłoszenie pracowników, zasiłki chorobowy / macierzyński / opiekuńczy (Z-3, Z-15A/B), emerytura (EMP), renta (N-9), świadczenie rehabilitacyjne (Np-7), ulgi w spłacie (RSR/RSO/RSU), odwołanie do sądu ubezpieczeń społecznych (art. 477⁹ KPC). Formularze, PUE ZUS, terminy (SUS, ZasChMac, EmRenFUS), ścieżka odwoławcza
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-zus-procedures
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: social-security
 language: pl
 ---
 
-# applying-zus-procedures
+# law-pl-applying-zus-procedures
 
 ZUS (Zakład Ubezpieczeń Społecznych) — państwowa jednostka organizacyjna realizująca ubezpieczenia społeczne (emerytalne, rentowe, chorobowe, wypadkowe). Najliczniejszy urząd obsługujący ludność. Procedury uregulowane głównymi ustawami:
 
@@ -188,7 +188,7 @@ Formularze — zawsze pobierać w **aktualnej wersji** z `https://www.zus.pl/wzo
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla odwołania od decyzji ZUS do sądu — agent `claim-drafter` (pozew / odwołanie przed sądem ubezpieczeń społecznych; art. 477⁹ KPC).
-- Dla sporów o ustalenie istnienia stosunku pracy (wpływa na tytuł ubezpieczenia) — agent `labor-drafter` (art. 22 § 1¹ KP).
-- Dla spraw pracodawca-ZUS o zaległe składki → egzekucja przez ZUS → skarga — agent `enforcement-agent`.
-- Dla obliczenia zaległych składek z odsetkami — skill `calculating-odsetki` (art. 23 SUS — odsetki od zaległych składek na poziomie odsetek za zaległości podatkowe).
+- Dla odwołania od decyzji ZUS do sądu — agent `law-pl-claim-drafter` (pozew / odwołanie przed sądem ubezpieczeń społecznych; art. 477⁹ KPC).
+- Dla sporów o ustalenie istnienia stosunku pracy (wpływa na tytuł ubezpieczenia) — agent `law-pl-labor-drafter` (art. 22 § 1¹ KP).
+- Dla spraw pracodawca-ZUS o zaległe składki → egzekucja przez ZUS → skarga — agent `law-pl-enforcement-agent`.
+- Dla obliczenia zaległych składek z odsetkami — skill `law-pl-calculating-odsetki` (art. 23 SUS — odsetki od zaległych składek na poziomie odsetek za zaległości podatkowe).

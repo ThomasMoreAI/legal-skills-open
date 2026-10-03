@@ -1,11 +1,11 @@
 ---
 name: box-legal-workflows-intake
 title: Client Intake & Onboarding
-description: Automate legal client intake and onboarding with Box MCP — review uploaded intake documents for completeness against firm requirements, assess risk levels based on client profile and document content (PEP status, conflicts, sanctions, litigation history), route incomplete or high-risk submissions to appropriate attorneys with context and risk summaries, extract structured metadata (client name, matter type, jurisdiction, value), and generate engagement letters from Box DocGen templates for approved low-risk clients. Use this skill when the user mentions client intake, client onboarding, new client review, intake documents, engagement letters, or needs to process prospective client submissions stored in Box.
+description: Automate legal client intake and onboarding with Box MCP — review intake documents for completeness against firm requirements, summarize risk for attorney review, route incomplete or high-risk submissions to the right attorney, extract client and matter metadata to Box, and generate engagement letters from Box DocGen templates. Use this skill when the user mentions client intake, client onboarding, new client review, intake documents, or engagement letters.
 author: box
 author_url: https://github.com/box/box-for-ai/tree/main/skills/box-legal-workflows-intake
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -15,222 +15,55 @@ language: en
 # Client Intake & Onboarding
 
 > **PREREQUISITES:**
-> - Read `box:box` for Box MCP auth, tool selection, base workflows. If missing, run: `npx skills add https://github.com/box/box-for-ai --skill box`
-> - Read `box-legal-workflows` for risk frameworks, confidentiality, human-in-the-loop requirements, Box AI governance. If missing, ensure it's installed from the same skill package.
+> - Use the `box` skill for Box MCP auth, tool selection, and base workflows. If it is not installed, run: `npx skills add https://github.com/box/skills --skill box`
+> - Use the `box-legal-workflows` skill for Box collaboration role definitions, Box AI usage boundaries, and reusable confirmation phrasings. If it is not installed, run: `npx skills add box/skills --skill box-legal-workflows`
 
-Legal client intake determines if the firm can and should take on a prospective client. This skill automates completeness checks, risk assessment, intelligent routing, and engagement letter generation.
+Do client intake *in Box*: inventory the intake folder, check completeness with Box AI against the firm's checklist, extract intake data into Box metadata, route via comments and collaborations, and generate the engagement letter with Box DocGen. This skill is the intake-specific recipe; the underlying Box tool mechanics live in the capability references below. The firm supplies the required-document checklist and risk criteria; conflict, PEP, and sanctions determinations run through the firm's screening system — not the agent or Box AI. Not legal advice.
 
-**Core principles:** Completeness first, risk-based routing, transparent decisions, human oversight for high-risk.
+## Box capability references
 
----
+Reach for these for tool mechanics rather than restating them here:
 
-## Completeness & Risk Framework
+- The `box` skill's `references/content-workflows.md` — inventory the folder, metadata templates, `set_file_metadata`, file comments
+- The `box` skill's `references/ai-and-retrieval.md` — completeness checks and data extraction; pacing, limits, citations
+- The `box` skill's `references/mcp-doc-gen.md` — generate the engagement letter from a template
+- The `box` skill's `references/collaboration.md` — tag/route the attorney and share with the client
+- The `box` skill's `references/mcp-search.md` — find/inspect the firm's metadata template
 
-### Required Documents Checklist
+## Box metadata model
 
-**[CONFIRM: What documents required for intake?]**
+Record the intake outcome as file metadata so submissions stay searchable. Find or create the firm's template using the `box` skill's `references/mcp-search.md` and its `references/content-workflows.md`.
 
-**Typical:**
-- Client intake form (completed questionnaire)
-- Valid government ID (passport, driver's license)
-- Conflict check authorization
-- Source of funds documentation (certain practice areas)
-- Business entity documents (corporate: articles, operating agreement)
+- **Representative fields** (confirm the firm's actual set): `client_name`, `matter_name`, `practice_area`, `matter_owner`, `jurisdiction`, `matter_value`, `intake_status` (complete/incomplete), `risk_rating`, `assigned_attorney`, `decision`, `decision_date`.
+- Store the firm/attorney's rating and decision, not the agent's.
 
-**Optional/practice-specific:**
-- Financial statements (bankruptcy, tax)
-- Prior legal proceedings (litigation)
-- Contracts or agreements (transactional)
+## Tool selection
 
-**Validation questions:**
-1. Document present?
-2. Complete? (not blank, has expected info)
-3. Valid? (ID not expired, forms signed, dates current)
+| Intake task | Tool | Notes |
+|------|------|-------|
+| Inventory submission | `list_folder_content_by_folder_id` | All files in the intake folder |
+| Check completeness | `ai_qa_multi_file` | Present/complete/valid vs. firm checklist, with citations |
+| Extract intake data | `ai_extract_structured_from_fields_enhanced` | Client, matter, jurisdiction, value |
+| Write metadata | `set_file_metadata` | Record status, rating, decision, attorney |
+| Tag attorney | `create_file_comment` | Route with the factual summary |
+| Grant access | `create_collaboration` | Give the attorney access |
+| Generate engagement letter | `create_docgen_batch` | Only if the firm approves |
+| Share with client | `add_folder_shared_link` or `create_collaboration` | Confirm audience/expiration |
 
-### Risk Rating
+## Workflow
 
-**[CONFIRM: Low/medium/high risk criteria for your firm?]**
+1. **Inventory**: `list_folder_content_by_folder_id`. **[CONFIRM: intake folder ID]**
+2. **Completeness**: `ai_qa_multi_file` — is each required doc (per the firm's checklist) present, complete, and valid, with citations? **[CONFIRM: firm's required-document list]**
+3. **Extract intake data**: `ai_extract_structured_from_fields_enhanced` (client_name, matter_name, practice_area, jurisdiction, matter_value, …).
+4. **Surface risk indicators (facts only)**: `ai_qa_multi_file` to surface the facts the firm's criteria reference (value, jurisdiction, named parties) with citations. Do **not** use AI to determine conflicts, PEP status, or sanctions — pass names/entities/locations to the firm's screening system.
+5. **Persist**: `set_file_metadata` with the firm-confirmed `risk_rating`, `intake_status`, and `decision`.
+6. **Route**: `create_file_comment` to tag the attorney with the factual summary; `create_collaboration` for access. **[CONFIRM: who, access level]**
+7. **Engagement letter (only if the firm approves)**: `create_docgen_batch` against the firm's template → output to the confirmed folder → share via `create_collaboration` or `add_folder_shared_link`. **[CONFIRM: DocGen template, destination folder, share method/expiration]**
 
-**See box-legal-workflows for:** General risk framework.
+## Legal guardrails
 
-**Low-risk:** Individual client, standard matter, no litigation, clear funds, all docs complete, no conflicts, value below threshold.
+Box mechanics (DocGen template/tag requirements, external-sharing confirmation, AI pacing/limits/citations, metadata writes) are governed by the capability references above and `box-legal-workflows`. Specific to intake:
 
-**High-risk:** PEP, high-value, cross-border with sanctions, conflict identified, criminal with media, reputational risk.
-
-### Routing Logic
-
-**[CONFIRM: How to route intakes?]**
-
-**Route based on:**
-1. **Practice area**: Match matter to attorney expertise
-2. **Risk level**: Low → associate, Medium → senior, High → partner
-3. **Workload**: Current caseload if known
-4. **Jurisdiction**: Attorney bar admission
-5. **Language**: Attorney language capabilities
-
-**Example matrix:**
-
-| Risk | Route To | Action |
-|------|----------|--------|
-| Low | Auto-approve OR associate | Generate engagement letter (if allowed) |
-| Medium | Senior attorney | Add comment with risk summary |
-| High | Partner + Compliance | Detailed analysis, block auto-processing |
-| Incomplete | Intake coordinator | List missing documents |
-
----
-
-## Tool Selection
-
-| Task | Primary Tool | Notes |
-|------|--------------|-------|
-| List intake folder | `list_folder_content_by_folder_id` | Get all submission files |
-| Review documents | `ai_qa_multi_file` | Completeness & validity |
-| Extract data | `ai_extract_structured_from_fields_enhanced` | Name, matter, dates |
-| Assess risk | `ai_qa_multi_file` | Multi-file risk analysis |
-| Create summary | `upload_file` | Write summary doc |
-| Write metadata | `set_file_metadata` | Record decision, risk, attorney |
-| Tag for review | `create_file_comment` | Tag attorney with instructions |
-| Grant access | `create_collaboration` | Give attorney access |
-| Generate letter | **[CONFIRM: DocGen?]** | Need template access |
-| Share with client | `add_folder_shared_link` OR `create_collaboration` | Provide client access |
-
----
-
-## Implementation Workflow
-
-### Phase 1: Intake Review
-1. **Authenticate**: `who_am_i`
-2. **[CONFIRM: Intake folder ID?]**
-3. **Inventory**: `list_folder_content_by_folder_id`
-4. **[CONFIRM: Map files to required checklist]**
-5. **Assess completeness**: `ai_qa_multi_file` (questions for each doc)
-6. **Extract info**: **[CONFIRM: Fields?]** → `ai_extract_structured_from_fields_enhanced`
-
-### Phase 2: Risk Assessment
-7. **Risk analysis**: `ai_qa_multi_file` (PEP, sanctions, conflicts, litigation, high value, inconsistencies)
-8. **Assign rating**: **[CONFIRM: Match firm's criteria?]**
-
-### Phase 3: Decision & Routing
-9. **Determine action**:
-   - **INCOMPLETE**: **[CONFIRM: Who follows up?]**
-   - **HIGH RISK**: **[CONFIRM: Who reviews? Block auto-processing?]**
-   - **MEDIUM RISK**: **[CONFIRM: Who based on practice area?]**
-   - **LOW RISK**: **[CONFIRM: Auto-approve or needs review?]**
-
-10. **Save summary**: `upload_file` (completeness, risk, factors, action)
-11. **Write metadata**: **[CONFIRM: Template exists?]** → `set_file_metadata`
-
-### Phase 4: Routing & Collaboration
-12. **Add comment**: **[CONFIRM: Who to tag?]** → `create_file_comment`
-13. **Grant access**: **[CONFIRM: Permission level?]** → `create_collaboration`
-
-### Phase 5: Engagement Letter (If Low-Risk Auto-Approve)
-14. **Generate letter**: **[CONFIRM: DocGen template ID?]** → Use DocGen if available
-15. **Save**: `upload_file`
-16. **Share**: **[CONFIRM: How? Expiration?]** → `create_collaboration` or `add_folder_shared_link`
-
----
-
-## Guardrails
-
-**See box-legal-workflows for:** Human-in-the-loop requirements, confidentiality, Box AI governance.
-
-**Intake-specific:**
-
-**ALWAYS confirm before:**
-1. Auto-approving any client (even low-risk)
-2. Generating engagement letters without attorney review
-3. Sharing engagement letters with clients
-4. Assigning risk ratings
-5. Routing to specific attorneys
-6. Copying files to externally-accessible folders (if file was NOT already externally accessible)
-
-**CONFIRM if uncertain:**
-7. Document completeness (if missing docs or validity is ambiguous)
-8. Extracted metadata (if values are unclear or contradictory)
-
-**Proceed autonomously when confident:**
-- Writing metadata when extraction is clear and unambiguous
-- Copying/organizing intake files between folders (internal-only to internal-only, or external to external)
-- Creating intake summary reports
-- Extracting client information with high confidence
-- Assessing document completeness when criteria are clear
-
-**NEVER auto-approve without authorization:**
-- High-risk clients
-- Matters above value threshold
-- Clients in sanctioned jurisdictions
-- Matters with conflicts
-- Any category requiring human review per firm policy
-
-**Decision transparency:**
-- Document WHY (risk factors, missing docs)
-- Cite which documents reviewed
-- Record WHO decided (human or automated)
-- Timestamp
-- Make summary available to assigned attorney
-
-**Box AI usage:**
-- Pace 1-2 seconds apart
-- Context: "Assessing risk for law firm intake. Identify red flags..."
-- Surface specific passages supporting assessment
-- Human attorney must review final decision
-
----
-
-## Example Workflows
-
-### Example 1: Complete Low-Risk
-**Request:** "Review John Smith intake, ready to approve?"
-
-**Flow:**
-1. **[CONFIRM]**: "Folder ID?"
-2. `list_folder_content_by_folder_id`
-3. Inventory: intake_form.pdf, drivers_license.jpg, conflict_check.pdf
-4. **[CONFIRM]**: "Required: form, ID, conflict check. All present. Assess?"
-5. `ai_qa_multi_file`: "Form complete? ID valid? Conflict check signed?"
-6. `ai_extract_structured_from_fields_enhanced`: name, matter, value, jurisdiction
-7. **[CONFIRM]**: "$5K estate planning - low-risk?"
-8. **[CONFIRM]**: "Auto-approve or route to Sarah?"
-9. Create summary, `set_file_metadata`, `create_file_comment`, `create_collaboration`
-10. Report: "Docs complete, low-risk. Routed to Sarah."
-
-### Example 2: Incomplete
-**Request:** "Review Acme Corp, what's missing?"
-
-**Flow:**
-1. Get folder ID
-2. `list_folder_content_by_folder_id`
-3. Inventory: intake_form.pdf, business_license.pdf
-4. **[CONFIRM]**: "Required: form, articles, operating agreement, officer ID, conflict check. Only have form and license. Confirm?"
-5. `ai_qa_multi_file` verify
-6. **[CONFIRM]**: "Missing: articles, agreement, ID, conflict check. Who follows up?"
-7. Create summary, metadata, comment, collaboration
-8. Report: "Incomplete. Missing 4 docs. Routed to Maria."
-
-### Example 3: High-Risk
-**Request:** "Review International Trading LLC."
-
-**Flow:**
-1. Get folder ID
-2. `list_folder_content_by_folder_id`
-3. **[CONFIRM]**: "Check PEP, sanctions, cross-border, high value?"
-4. `ai_qa_multi_file`: "Red flags? PEP? Cross-border? Sanctions jurisdictions? Value > $500K?"
-5. AI: "Cross-border OFAC country, $2M, former gov official (PEP)"
-6. **[CONFIRM]**: "HIGH RISK: OFAC, $2M, PEP. Partner + compliance. Who?"
-7. Create risk memo, metadata, comment, collaboration
-8. Report: "HIGH RISK. Routed to James + Rachel. Recommend sanctions screening."
-
-### Example 4: Low-Risk + Engagement Letter
-**Request:** "Review Jane Doe, generate engagement letter if approved."
-
-**Flow:**
-1. Complete Example 1 steps (completeness, risk)
-2. Determine: low-risk, complete
-3. **[CONFIRM]**: "Auto-approve for estate planning?"
-4. **[CONFIRM]**: "DocGen template ID?"
-5. Generate via DocGen OR **[CONFIRM]**: "DocGen unavailable. Draft or manual?"
-6. `upload_file` (save letter)
-7. **[CONFIRM]**: "Share with Jane? Collaboration or link?"
-8. `create_collaboration`, `set_file_metadata`
-9. Report: "Approved. Letter generated and shared."
+- Conflict, PEP, and sanctions clearance are firm screening + attorney/compliance calls — the agent surfaces the underlying text only and never clears them.
+- Risk rating and routing/staffing are firm policy + attorney calls, never the agent's.
+- Prompt Box AI to surface facts and cite the source, not to determine risk.

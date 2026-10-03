@@ -5,12 +5,47 @@ description: Regulatory compliance and audit agent. Maps business regulatory req
 author: seaworld008
 author_url: https://github.com/seaworld008/Commonly-used-high-value-skills/tree/main/openclaw-skills/comply
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: cybersecurity
 language: en
-tags: ['[', '"', c, o, m, p, l, y, ',', s, e, u, r, i, t, ']']
+tags:
+- '['
+- '"'
+- c
+- o
+- m
+- p
+- l
+- y
+- ','
+- s
+- e
+- u
+- r
+- i
+- t
+- ']'
+sources:
+- title: Audit readiness
+  path: references/audit-readiness.md
+- title: Audit trail design
+  path: references/audit-trail-design.md
+- title: Compliance reporting
+  path: references/compliance-reporting.md
+- title: Control mapping
+  path: references/control-mapping.md
+- title: Gdpr eu ai act
+  path: references/gdpr-eu-ai-act.md
+- title: Handoff formats
+  path: references/handoff-formats.md
+- title: Policy as code
+  path: references/policy-as-code.md
+- title: Regulatory frameworks
+  path: references/regulatory-frameworks.md
+- title: Vendor risk assessment
+  path: references/vendor-risk-assessment.md
 ---
 
 <!--
@@ -82,9 +117,12 @@ Route elsewhere when the task is primarily:
 - Track HIPAA Security Rule evolution: proposed rule (NPRM published 2025-01-06 in the Federal Register) eliminates the required/addressable distinction — all safeguards become mandatory; mandates encryption at rest and in transit for all ePHI; requires business associates to report security incidents within 24 hours. OCR's Spring 2025 Unified Agenda targets finalization in May 2026, giving regulated entities a 240-day window (60 days to effective date + 180 days to compliance per 45 CFR 160.105) — typical compliance deadline lands ~Q4 2026. Factor proposed requirements into readiness assessments even before final rule. [Source: Federal Register — HIPAA Security Rule NPRM (2025-01-06)](https://www.federalregister.gov/documents/2025/01/06/2024-30983/hipaa-security-rule-to-strengthen-the-cybersecurity-of-electronic-protected-health-information)
 - Classify gaps by severity (Critical / High / Medium / Low) with remediation timelines tied to audit deadlines.
 - Delegate implementation to Builder — Comply designs controls and verifies compliance, never writes application code.
-- Author for Opus 4.7 defaults. Apply `_common/OPUS_47_AUTHORING.md` principles **P3 (eagerly Read target regulation version, control implementations, evidence artifacts, and scope boundaries at ASSESS — framework-version conflation is an audit failure; SOC 2 CC6.1 vs PCI-DSS v4.0.1 vs ISO 27001:2022 vs HIPAA NPRM demands current citations), P5 (think step-by-step at gap severity classification, policy-as-code vs manual control trade-off, and cross-framework control consolidation)** as critical for Comply. P2 recommended: calibrated compliance report preserving regulation citations, Implemented/Partial/Missing/N-A verdicts, evidence references, and remediation timelines. P1 recommended: front-load target framework(s) with exact version and scope at INTAKE.
+- Identify exact framework versions and scope; report control status, source evidence, gaps, and remediation priorities.
 
 ## Boundaries
+
+`_common/` references require the separately installed upstream ecosystem. Use them only when available and selected for this task; otherwise follow host instructions and the domain workflow. Persist journals only when requested by the user or project.
+
 
 Agent role boundaries -> `_common/BOUNDARIES.md`
 
@@ -97,7 +135,7 @@ Agent role boundaries -> `_common/BOUNDARIES.md`
 - Recommend policy-as-code enforcement where feasible.
 - Check/log to `.agents/PROJECT.md`.
 
-### Ask First
+### Ask First When Not Already Authorized
 
 - Which regulatory frameworks are in scope (SOC2, PCI-DSS, HIPAA, ISO 27001, or combination).
 - Assessment type: readiness (pre-audit) vs gap analysis vs continuous monitoring.
@@ -273,7 +311,6 @@ Every compliance deliverable must include:
 | `references/audit-readiness.md` | Evidence tier model, evidence-room structure, chain-of-custody, AICPA sampling, auditor interview prep, continuous audit |
 | `references/vendor-risk-assessment.md` | Vendor inventory, tier classification, DPA/BAA/SCC contracts, SIG/CAIQ handling, SOC 2 report review, subprocessor chain |
 | `references/handoff-formats.md` | Inbound/outbound handoff YAML templates for all collaboration partners |
-| `_common/OPUS_47_AUTHORING.md` | Sizing the compliance report, deciding adaptive thinking depth at gap classification, or front-loading target framework/version/scope at INTAKE. Critical for Comply: P3, P5. |
 | `_common/GROWTH_BRAND_PROOF.md` | You own G14 Regulatory Envelope Pre-Flight Check across `nexus growth-acceptance` Phase 2 (ship-time). Quarterly G14 Regulatory Horizon Scan: Legal + DataEng publish expected upcoming changes (iOS ATT semantics, Cookie deprecation, EU AI Act, DMA / DSA, 薬機 / 景表 / 金商法). Per-concept Assumption Document maintenance. Pre-built fallback measurement stacks (MMM / geo-experiments / synthetic control) for jurisdiction-restricted measurement scenarios. |
 
 ## Operational

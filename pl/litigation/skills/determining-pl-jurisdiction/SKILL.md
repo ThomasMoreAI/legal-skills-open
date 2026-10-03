@@ -1,18 +1,18 @@
 ---
 name: determining-pl-jurisdiction
-title: determining-pl-jurisdiction
+title: law-pl-determining-pl-jurisdiction
 description: Use when determining the proper Polish court for a lawsuit — identifying the correct type of proceedings (civil/commercial/administrative/criminal), territorial jurisdiction (which specific court), subject-matter jurisdiction (sąd rejonowy vs okręgowy), exclusive vs alternative vs contractual jurisdiction, or handling jurisdictional conflicts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-pl-jurisdiction
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# determining-pl-jurisdiction
+# law-pl-determining-pl-jurisdiction
 
 Niewłaściwe ustalenie właściwości = przekazanie sprawy lub zwrócenie pozwu, utrata czasu i terminów procesowych. Sprawdzenie właściwości — pierwszy krok przed sporządzeniem pozwu.
 

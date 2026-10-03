@@ -1,11 +1,11 @@
 ---
 name: verarbeitungsverzeichnis-vvt-generator
 title: VVT — Verzeichnis von Verarbeitungstätigkeiten
-description: 'Verzeichnis der Verarbeitungstätigkeiten nach Art. 30 DSGVO erstellen oder aktualisieren. Art. 30 DSGVO VVT-Pflicht. Prüfraster: Pflichtangaben Art. 30 Abs. 1 Verantwortlicher Zweck Kategorien Empfaenger Fristen Massnahmen. Output: vollständiges VVT je Verarbeitungstätigkeit. Abgrenzung: nicht für Datenschutz-Folgenabschaetzung (dsfa-erstellung).'
+description: 'Für VVT — Verzeichnis von Verarbeitungstätigkeiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/verarbeitungsverzeichnis-vvt-generator
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # VVT — Verzeichnis von Verarbeitungstätigkeiten
-
-## Zweck
-
-Art. 30 DSGVO Pflicht-Dokument für alle datenverarbeitenden Stellen ab Schwellenwerten. Dieses Skill bedient den Aufbau und die Aktualisierung des VVT.
 
 ## Eingaben
 
@@ -177,11 +173,11 @@ TOMs:
 - **Drittland bezeichnen**
 - **Empfänger nennen**
 - **Garantie nach Art. 46 DSGVO** spezifizieren:
-  - SCC (Standard-Vertrags-Klauseln)
-  - BCR (Binding Corporate Rules)
-  - Verhaltens-Regeln Art. 40
-  - Zertifizierung Art. 42
-  - Internationales Abkommen (z.B. EU-US Data Privacy Framework)
+ - SCC (Standard-Vertrags-Klauseln)
+ - BCR (Binding Corporate Rules)
+ - Verhaltens-Regeln Art. 40
+ - Zertifizierung Art. 42
+ - Internationales Abkommen (z.B. EU-US Data Privacy Framework)
 - Bei Art. 49 Ausnahme bezeichnen (Einwilligung Vertrag Lebenswichtige Interessen etc.)
 
 ### Anhang TIA (Transfer Impact Assessment)
@@ -341,7 +337,7 @@ TIA durchgeführt: ja, Skill drittlandstransfer-pruefung
 Lösch-Frist:
 - Aktive Abonnenten: Bis zum Widerruf
 - Nach Widerruf: 3 Jahre Aufbewahrung der
-  Widerrufs-Information (Beweis-Funktion)
+ Widerrufs-Information (Beweis-Funktion)
 - Click-Verhalten: 13 Monate (Statistik-Auswertung)
 
 TOMs:
@@ -368,6 +364,14 @@ TOMs:
 - Aufsichts-Behörden-Antwort-Vorbereitung
 - Frist im Fristenbuch (jährlich Vollprüfung)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - DSGVO Art. 30 5 6 9 30 32 35 46 49
@@ -377,10 +381,6 @@ TOMs:
 - DSK Kurzpapiere zur VVT
 - EDSA Guidelines
 - BVerfG-Linien zur Datenschutz-Verantwortung
-
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -409,4 +409,4 @@ TOM (Verweis): Art. 32 DSGVO — Anlage [X]
 Rechtsgrundlage (Empfehlung): Art. [X] DSGVO [§ BDSG]
 ```
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

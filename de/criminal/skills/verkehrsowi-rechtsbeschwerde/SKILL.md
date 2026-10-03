@@ -1,11 +1,11 @@
 ---
 name: verkehrsowi-rechtsbeschwerde
 title: Rechtsbeschwerde im OWi-Verfahren — § 79 OWiG
-description: 'Rechtsbeschwerde im OWi-Verfahren nach § 79 OWiG einlegen: AG hat OWi-Urteil gesprochen und Mandant will Rechtsbeschwerde. Normen: § 79 OWiG (Zulassigkeit: Geldbusse über 250 EUR oder Fahrverbot), § 80 OWiG (Zulassungsbeschwerde), § 344 StPO i.V.m. § 79 Abs. 3 OWiG (Begründungspflicht), Frist 1 Woche ab Urteil. Prüfraster: Statthaftigkeit, Verfahrensruege vs. Sachruege, Formalanforderungen, OLG als Rechtsbeschwerdeinstanz. Output Rechtsbeschwerde-Schrift. Abgrenzung: Einspruch gegen Bußgeldbescheid siehe verkehrsowi-fristen-einspruch; HV vorher siehe verkehrsowi-hauptverhandlung-amtsgericht.'
+description: 'Für Rechtsbeschwerde im OWi-Verfahren — Paragraf 79 OWiG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/verkehrsowi-rechtsbeschwerde
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,13 +14,25 @@ language: de
 
 # Rechtsbeschwerde im OWi-Verfahren — § 79 OWiG
 
+## Arbeitsbereich
+
+Rechtsbeschwerde im OWi-Verfahren nach § 79 OWiG einlegen: AG hat OWi-Urteil gesprochen und Mandant will Rechtsbeschwerde. Normen: § 79 OWiG (Zulassigkeit: Geldbusse über 250 EUR oder Fahrverbot), § 80 OWiG (Zulassungsbeschwerde), § 344 StPO i.V.m. § 79 Abs. 3 OWiG (Begründungspflicht), Frist 1 Woche ab Urteil. Prüfraster: Statthaftigkeit, Verfahrensruege vs. Sachruege, Formalanforderungen, OLG als Rechtsbeschwerdeinstanz. Output Rechtsbeschwerde-Schrift. Abgrenzung: Einspruch gegen Bußgeldbescheid siehe verkehrsowi-fristen-einspruch; HV vorher siehe verkehrsowi-hauptverhandlung-amtsgericht. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
-1. **Ist Rechtsbeschwerde zulaessig?** — § 79 Abs. 1 OWiG: zulaessig bei Geldbusse > 250 EUR ODER Fahrverbot; ansonsten nur Zulassungsbeschwerde nach § 80 OWiG.
-2. **Welches Gericht ist zustaendig?** — OLG im jeweiligen Bundesland (Ausnahme: bei Grundsatzfragen auch BGH denkbar, sehr selten).
+1. **Ist Rechtsbeschwerde zulässig?** — § 79 Abs. 1 OWiG: zulässig bei Geldbusse > 250 EUR ODER Fahrverbot; ansonsten nur Zulassungsbeschwerde nach § 80 OWiG.
+2. **Welches Gericht ist zuständig?** — OLG im jeweiligen Bundesland (Ausnahme: bei Grundsatzfragen auch BGH denkbar, sehr selten).
 3. **Was soll angegriffen werden?** — Rechtsfehler (Verfahrensruege oder Sachruge); keine Tatsachenpruefung in der Rechtsbeschwerde!
 4. **Frist beachten?** — 1 Woche ab Urteilsverkuendung; Begründungsfrist 1 Monat ab Urteilszustellung (§ 79 Abs. 3 OWiG i.V.m. § 345 StPO).
-5. **Kostenrisiko?** — Bei erfolgloser Rechtsbeschwerde: Gebuehren + ggf. Kosten der Gegenpartei.
+5. **Kostenrisiko?** — Bei erfolgloser Rechtsbeschwerde: Gebühren + ggf. Kosten der Gegenpartei.
 
 ## Zentrale Normen
 
@@ -31,14 +43,7 @@ language: de
 - **§ 341 StPO i.V.m. § 79 Abs. 3 OWiG** — Einlegungsfrist 1 Woche ab Urteilsverkuendung
 - **§ 338 StPO i.V.m. § 79 OWiG** — Absolute Revisionsgründe gelten auch in der Rechtsbeschwerde
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Pruefschema Rechtsbeschwerde-Zulaessigkeit
+## Prüfschema Rechtsbeschwerde-Zulaessigkeit
 
 ```
 § 79 Abs. 1 OWiG — Zulaessigkeit:
@@ -88,9 +93,19 @@ erfolgt innerhalb der gesetzlichen Frist nach § 79 Abs. 3 OWiG.
 Mit freundlichen Gruessen [KANZLEI]
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Harte Leitplanken
 
 - Rechtsbeschwerde nur bei Rechtsfehler — keine Tatsachenpruefung!
 - Begründungsfrist 1 Monat nach Urteilszustellung — nicht nach Verkuendung!
 - Zulassungsbeschwerde bei Geldbusse <= 250 EUR: Grundsatzrechtsfrage benennen.
 - Anwaltliche Endkontrolle bei Ruge-Formulierung.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

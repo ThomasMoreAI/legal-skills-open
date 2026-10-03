@@ -1,11 +1,11 @@
 ---
 name: strafbefehl-abwesenheit-vertretung
 title: Abwesenheit in der Hauptverhandlung — § 411 Abs. 2 StPO
-description: 'Mandant kann oder will zur Hauptverhandlung nach Strafbefehl-Einspruch nicht erscheinen und Verteidiger soll ihn vertreten. Prüfraster Entbindung von Erscheinungspflicht § 411 Abs. 2 StPO Voraussetzungen und Antrag. Verwerfung des Einspruchs § 412 StPO bei unentschuldigtem Ausbleiben Folgen. Wiedereinsetzung nach Verwerfung § 44 StPO. Output Entbindungsantrag Vertretungsvollmacht Muster-Sprechzettel für Verhandlung ohne Mandant. Abgrenzung: strafbefehl-hauptverhandlung-vorbereitung für allgemeine HV-Vorbereitung.'
+description: 'Für Abwesenheit in der Hauptverhandlung — Paragraf 411 Abs. 2 StPO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-abwesenheit-vertretung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -13,6 +13,18 @@ language: de
 ---
 
 # Abwesenheit in der Hauptverhandlung — § 411 Abs. 2 StPO
+
+## Arbeitsbereich
+
+Mandant kann oder will zur Hauptverhandlung nach Strafbefehl-Einspruch nicht erscheinen und Verteidiger soll ihn vertreten. Prüfraster Entbindung von Erscheinungspflicht § 411 Abs. 2 StPO Voraussetzungen und Antrag. Verwerfung des Einspruchs § 412 StPO bei unentschuldigtem Ausbleiben Folgen. Wiedereinsetzung nach Verwerfung § 44 StPO. Output Entbindungsantrag Vertretungsvollmacht Muster-Sprechzettel für Verhandlung ohne Mandant. Abgrenzung: strafbefehl-hauptverhandlung-vorbereitung für allgemeine HV-Vorbereitung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 
@@ -26,32 +38,25 @@ language: de
 
 - **§ 411 Abs. 2 StPO** — Entbindung von Erscheinungspflicht: Gericht kann anordnen, Verteidiger kann allein handeln
 - **§ 412 StPO** — Verwerfung des Einspruchs: unentschuldigtes Ausbleiben → Einspruch gilt als zurueckgenommen; Beschluss
-- **§ 412 Satz 2 StPO** — Wiedereinsetzung moeglich wenn Ausbleiben entschuldigt
+- **§ 412 Satz 2 StPO** — Wiedereinsetzung möglich wenn Ausbleiben entschuldigt
 - **§ 44 StPO** — Wiedereinsetzung allgemein (s. separaten Skill)
 - **§ 231 StPO** — Unterbrechung bei Ausbleiben des Angeklagten (in der allgemeinen Hauptverhandlung; § 411 lex specialis)
-- **§ 213 StPO** — Terminbestimmung; Terminsverlegung moeglich
+- **§ 213 StPO** — Terminbestimmung; Terminsverlegung möglich
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Entscheidungsbaum Abwesenheits-Strategie
 
 ```
 Mandant erscheint nicht zur HV — warum?
 ├─ Vorab Entbindungsantrag gestellt und genehmigt?
-│   └─ Verteidiger leitet HV allein → regulaere Beweisaufnahme und Plaedoyer
+│ └─ Verteidiger leitet HV allein → regulaere Beweisaufnahme und Plaedoyer
 ├─ Mandant krank am HV-Tag?
-│   ├─ Attest vorhanden → Terminsverlegung beantragen, Fax ans Gericht
-│   └─ Kein Attest → Gericht informieren, Terminverlegung muendlich beantragen
+│ ├─ Attest vorhanden → Terminsverlegung beantragen, Fax ans Gericht
+│ └─ Kein Attest → Gericht informieren, Terminverlegung muendlich beantragen
 ├─ Mandant hat vergessen / nicht erschienen ohne Entschuldigung?
-│   └─ Einspruch kann verworfen werden (§ 412 StPO)
-│       └─ Sofort Wiedereinsetzungsantrag (§ 44 StPO) + Einspruch nachholen
+│ └─ Einspruch kann verworfen werden (§ 412 StPO)
+│ └─ Sofort Wiedereinsetzungsantrag (§ 44 StPO) + Einspruch nachholen
 └─ Mandant weigert sich zu erscheinen?
-    └─ Entbindungsantrag stellen und erklaeren dass HV ohne ihn moeglich
+ └─ Entbindungsantrag stellen und erklaeren dass HV ohne ihn moeglich
 ```
 
 ## Output-Template Entbindungsantrag
@@ -64,7 +69,7 @@ Hauptverhandlungstermin: [DATUM]
 Antrag auf Entbindung von der Erscheinungspflicht nach § 411 Abs. 2 StPO
 
 Ich beantrage meinen Mandanten [NAME] von der Pflicht zum
-persoenlichen Erscheinen in der Hauptverhandlung am [DATUM]
+persönlichen Erscheinen in der Hauptverhandlung am [DATUM]
 zu entbinden.
 
 Begruendung: Der Sachverhalt ist unstreitig. Es werden lediglich
@@ -74,9 +79,19 @@ Mein Mandant ist durch mich vollstaendig vertreten.
 Mit freundlichen Gruessen [KANZLEI]
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Harte Leitplanken
 
 - Entbindungsantrag vor dem Termin stellen, nicht am Terminstag.
 - Bei Verwerfung nach § 412 StPO: sofort Wiedereinsetzungsantrag (1-Woche-Frist § 45 StPO).
-- Mandant immer ueber Folgen des Nichterscheinens aufklaeren.
+- Mandant immer über Folgen des Nichterscheinens aufklaeren.
 - Anwaltliche Endkontrolle vor dem Termin.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,11 +5,11 @@ description: Check compliance with Saudi Personal Data Protection Law (PDPL)
 author: salmandev
 author_url: https://github.com/salmandev/arabic-skills-library/tree/main/skills/government/pdpl-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: sa
 practice: data-protection
-language: en
+language: ar
 ---
 
 ## Purpose | الهدف

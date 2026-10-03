@@ -1,0 +1,55 @@
+---
+name: automatische-verlaengerung
+title: Automatische Verlängerung
+description: 'Für Automatische Verlängerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/agb-recht-pruefer/skills/automatische-verlaengerung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+sources:
+- title: Klauselfamilien
+  path: references/KLAUSELFAMILIEN.md
+- title: Prueflogik
+  path: references/PRUEFLOGIK.md
+- title: Quellen
+  path: references/QUELLEN.md
+---
+
+# Automatische Verlängerung
+
+## Fachkern: Automatische Verlängerung
+
+- **Klauselproblem (Automatische Verlängerung):** prüft, redlined und entwirft die Klausel mit Risikoampel, Verbraucher-/B2B-Unterscheidung und praxistauglicher Ersatzfassung.
+- **AGB-Weiche:** Einbeziehung (§ 305 BGB), überraschende Klausel (§ 305c BGB), Transparenz (§ 307 Abs. 1 S. 2 BGB), Inhaltskontrolle (§§ 307-309 BGB), Rechtsfolge (§ 306 BGB) und Prozess-/Verbandsrisiko sauber trennen.
+- **Beleglogik:** Originalklausel, Vertragsumfeld, Verwendungsnachweis, Verhandlungsspuren, Kundengruppe, Marktstandard und wirtschaftliche Wirkung als Matrix erfassen.
+- **Arbeitsprodukt:** Klauselampel, Redline, Ersatzformulierung, Verhandlungsposition und gerichtsfeste Kurzbegründung mit Live-Check amtlicher Normenquellen.
+
+## Prüfpfad
+
+1. **Normenstand sichern:** Vor tragenden Aussagen BGB §§ 305 bis 310 auf Gesetze im Internet prüfen; bei Verbandsrisiko UKlaG ergänzen.
+2. **Anwendungsbereich:** AGB-Eigenschaft, Einbeziehung, Individualabrede, Verbraucher-/Unternehmerstatus und Sondermaterie klären.
+3. **Auslegung:** kundenfeindlichste vertretbare Auslegung, Überraschung, Mehrdeutigkeit und Transparenz prüfen.
+4. **Inhaltskontrolle:** § 307 BGB als Grundprüfung, danach einschlägige Klauselverbote aus §§ 308, 309 BGB und § 310 BGB einordnen.
+5. **Spezialfokus Automatische Verlaengerung (§ 309 Nr. 9 BGB n.F. seit 01.03.2022):**
+ - **Verbrauchervertraege über wiederkehrende Lieferung von Waren/Dienstleistungen:** Maximal 2 Jahre Erstlaufzeit; danach nur Verlaengerung auf unbestimmte Zeit mit Kuendigung jederzeit mit Frist max. 1 Monat.
+ - **§ 309 Nr. 9 lit. a:** Vertragslaufzeit > 2 Jahre - im B2C unwirksam.
+ - **§ 309 Nr. 9 lit. b BGB n.F.:** Stillschweigende Verlaengerung um eine bestimmte Dauer ist in B2C-Vertraegen über wiederkehrende Lieferung/Dienste generell unwirksam. Zulässig ist nur die Verlaengerung auf unbestimmte Zeit, sofern der Verbraucher jederzeit mit einer Frist von hoechstens einem Monat kuendigen kann. Achtung: Die alte Schwelle "Verlaengerung > 1 Jahr unwirksam" gilt seit dem 01.03.2022 nicht mehr - auch eine 12-Monats-Verlaengerung ist im B2C unwirksam.
+ - **§ 309 Nr. 9 lit. c BGB n.F.:** Kuendigungsfrist von mehr als einem Monat zum Ablauf der zunaechst vorgesehenen Vertragsdauer - unwirksam (B2C). Hinweis: Der frueher hier ebenfalls erfasste Verlaengerungszeitraum ist mit der Reform entfallen, weil lit. b nur noch die Verlaengerung auf unbestimmte Zeit mit jederzeitiger Kuendbarkeit (max. 1 Monat) zulaesst; Fragen zur Kuendigungsfrist nach Verlaengerung beurteilen sich daher über lit. b bzw. § 307 BGB, nicht über lit. c.
+ - **§ 312k BGB (Kuendigungsbutton für Online-Verträge):** Verbrauchervertraege im elektronischen Geschäftsverkehr über entgeltliche Leistungen müssen einen Kuendigungsbutton aufweisen, der ohne Login erreichbar ist. Verstoss: jederzeit kuendbar.
+ - **B2B-Wertung über § 307 BGB:** Erstlaufzeiten > 2 Jahre und Verlaengerungen > 1 Jahr im B2B kritisch, insbesondere bei branchenuntypisch langen Bindungen. Ausnahme: substantielle Investitionsamortisation (Server-Hosting, Lieferketten mit Vorlaufzeiten) sachlich begruendbar.
+ - **EU-Verbraucherrechtsrichtlinie 2011/83/EU Art. 27:** Verbot unaufgeforderter Lieferungen mit Bindungswirkung; durch Stillschweigen keine Verlaengerung herbeifuehrbar.
+ - **Praxis-Tipp Auslandsbezug:** Frankreich, Belgien, Niederlande haben ähnlich restriktive Regelungen; in UK/USA evergreen-Klauseln verbreiteter, aber bei deutschem Verbraucher unbeachtlich.
+6. **Rechtsfolge:** Unwirksamkeit; Vertrag endet zum urspruenglichen Endtermin oder ist jederzeit kuendbar (je nach Klauselart).
+7. **Verbesserung:** mindestens eine sichere Ersatzfassung und bei Bedarf eine verhandelbare Fallback-Fassung formulieren.
+
+### Mustertext B2C konform
+
+> Der Vertrag wird auf bestimmte Zeit von [maximal 24] Monaten geschlossen. Wird er nicht spaetestens einen Monat vor Ablauf der Mindestlaufzeit in Textform gekuendigt, verlaengert er sich auf unbestimmte Zeit. Nach der Verlaengerung kann er von beiden Parteien jederzeit mit einer Frist von einem Monat in Textform gekuendigt werden.
+
+## Quellenanker
+
+Siehe `references/QUELLEN.md`, `references/PRUEFLOGIK.md` und `references/KLAUSELFAMILIEN.md`.

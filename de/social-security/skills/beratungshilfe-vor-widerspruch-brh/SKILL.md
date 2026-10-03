@@ -1,0 +1,125 @@
+---
+name: beratungshilfe-vor-widerspruch-brh
+title: Beratungshilfe — Anwalt vor dem Widerspruch
+description: 'Für Beratungshilfe — Anwalt vor dem Widerspruch: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/beratungshilfe-vor-widerspruch-brh
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Beratungshilfe — Anwalt vor dem Widerspruch
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Worum geht es?
+
+Bevor Sie Widerspruch oder Klage einlegen, können Sie sich von einem Anwalt beraten lassen. Wenn Sie wenig Geld haben, gibt es Beratungshilfe: der Staat zahlt fast alles, Sie nur 15 EUR Eigenanteil. Diese Skill zeigt, wie Sie den Berechtigungsschein bekommen.
+
+## In einfacher Sprache
+
+Sie wollen vor dem Widerspruch einen Anwalt fragen. Das geht fast gratis. Sie zahlen nur 15 Euro. Den Rest zahlt der Staat. Sie müssen einen Schein beim Amtsgericht holen.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie sind unsicher, ob Sie einen Widerspruch / Klage formulieren können.
+- Sie wollen vor Frist-Ablauf von Anwalt beraten werden.
+- Sie haben wenig Einkommen.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Beratungshilfe**: Staatliche Uebernahme von Anwaltskosten für ausserhalb des Gerichtsverfahrens.
+- **Berechtigungsschein**: Schein vom Amtsgericht, dass Sie Beratungshilfe bekommen.
+- **Eigenanteil**: 15 EUR, die der Buerger an den Anwalt zahlt.
+- **BerHG**: Beratungshilfegesetz.
+
+## Rechtsgrundlagen
+
+- **Beratungshilfegesetz (BerHG)** — Gesetzliche Grundlage.
+- **§ 2 BerHG** — Voraussetzungen (wirtschaftliche Lage).
+- **§ 8 BerHG** — Beratungshilfe-Schein.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Beim Amtsgericht Beratungshilfe-Schein holen
+
+Das **Amtsgericht** (nicht das Sozialgericht!) ist zuständig. Speziell die Rechtsantragsstelle.
+
+Adresse: www.justiz.de → Amtsgericht in Ihrer Stadt.
+
+Sie können den Schein:
+
+- **Persoenlich** auf der Geschäftsstelle abholen (mit Ausweis und Belegen)
+- **Schriftlich** per Antrag holen
+
+### Schritt 2 — Voraussetzungen
+
+- Wirtschaftliche Lage: ähnlich wie Buergergeld-Berechtigung.
+- Keine andere zumutbare Hilfe (z.B. Rechtsschutz-Versicherung).
+- Mutwilligkeit nicht erkennbar.
+
+### Schritt 3 — Unterlagen mitbringen
+
+- Personalausweis
+- Einkommensnachweise (Buergergeld-Bescheid, Renten-Bescheid, Lohnabrechnung)
+- Mietvertrag
+- Bescheid, gegen den Sie sich wehren wollen
+- ggf. Schreiben der Behörde
+
+### Schritt 4 — Schein bekommen
+
+Im Erfolgsfall bekommen Sie:
+
+- Den Beratungshilfe-Schein (Berechtigungsschein)
+- Mit diesem Schein gehen Sie zum Anwalt Ihrer Wahl
+- Anwalt rechnet mit dem Staat ab; Sie zahlen 15 EUR
+
+### Schritt 5 — Anwalt finden
+
+- Anwaltsregister: www.rechtsanwaltsregister.org
+- Anwaelte für Sozialrecht im Branchenbuch
+- Sozialverband VdK / SoVD (manchmal kostenlos)
+- Caritas / Diakonie
+
+Nicht jeder Anwalt nimmt Beratungshilfe-Mandate. Vorher anrufen.
+
+### Schritt 6 — Beratung in Anspruch nehmen
+
+- Termin beim Anwalt machen.
+- Schein und Bescheid mitbringen.
+- Frage stellen.
+- 15 EUR bezahlen.
+- Anwalt kann auch helfen, Widerspruch zu formulieren.
+
+### Schritt 7 — Bei laufender Klage: PKH statt Beratungshilfe
+
+Beratungshilfe ist VOR dem Gerichtsverfahren. Im laufenden Verfahren brauchen Sie PKH (siehe `pkh-vor-sozialgericht-73a-sgg`).
+
+## Worauf Sie besonders achten müssen
+
+- **Manchmal kein Schein noetig**: Sie können auch direkt zum Anwalt; dieser stellt dann nachtraeglich den Antrag. Anwalt fragen.
+- **Mehrfache Beratungshilfe in einer Sache**: meist nur einmal pro Streitgegenstand. Bei Folgefragen prüfen.
+- **Familiengruende**: Bei familienrechtlichen Themen aussagen, ob das mit Sozialrecht zusammenhaengt.
+
+## Typische Fehler
+
+- Beratungshilfe ans SG → Amtsgericht ist zuständig
+- Anwalt ohne Schein aufsucht, ohne Vereinbarung → Anwalt kann volles Honorar verlangen
+- Belege fehlen → Schein nicht bewilligt
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. BerHG aktuell. Eigenanteil seit Jahren 15 EUR. Prüfen Sie aktuellen Stand auf www.justiz.de.

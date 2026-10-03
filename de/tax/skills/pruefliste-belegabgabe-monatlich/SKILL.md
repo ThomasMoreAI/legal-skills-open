@@ -1,0 +1,155 @@
+---
+name: pruefliste-belegabgabe-monatlich
+title: Prüfliste monatliche Belegabgabe
+description: 'Für Prüfliste monatliche Belegabgabe: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte. Route: pruefliste-belegabgabe-monatlich.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/pruefliste-belegabgabe-monatlich
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Prüfliste monatliche Belegabgabe
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, § 146 AO, § 147 AO.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Kernsachverhalt
+
+Die Belegabgabe-Disziplin des Mandanten ist Erfolgsfaktor der Monatsabschluss-Routine. Fehlt ein Beleg, verzoegert sich die BWA, die USt-VA wird ungenau, der Jahresabschluss bekommt Probleme. Der Steuerberater fuehrt eine Prüfliste, prüft die Vollstaendigkeit eingegangener Belege und mahnt bei Verzoegerungen. Bei wiederholten Verspaetungen Honoraranknuepfung oder Eskalation.
+
+## Kaltstart-Rueckfragen
+
+1. Welche Belegart wird abgegeben (Papier, DUO, scan-zentrum)?
+2. Welche Frequenz vereinbart (taeglich, woechentlich, monatlich)?
+3. Welche Mandantenbranche und Belegvolumen?
+4. Welche Sondervorgaenge in der Periode (Reisekosten, Geschenke)?
+5. Welche Frist für Belegabgabe?
+6. Welche Eskalation bei Verspaetung?
+7. Welche Wiederkehrenden Belegart (Mieten, Versicherungen)?
+8. Welcher Eskalationsstand?
+
+## Rechtlicher Rahmen
+
+### Primaernormen
+
+**§ 146 AO** — Zeitgerechtigkeit, Vollstaendigkeit.
+
+**§ 147 AO** — Aufbewahrung.
+
+**§ 90 AO** — Mitwirkungspflicht Mandant.
+
+**§ 33 StBerG** — StB-Aufgabenkreis.
+
+**§ 4 StBVV** — Honorarvereinbarung.
+
+## Workflow
+
+### Phase 1 — Standard-Prüfliste
+
+```
+BELEGABGABE-PRUEFLISTE
+Mandant: [Firma]
+Monat: [Monat]
+
+A. BANK
+[ ] Alle Bankauszuege für den Monat
+[ ] PSD2-Online-Banking-Anbindung funktioniert
+[ ] Ueberweisungen mit Verwendungszweck
+
+B. KASSE
+[ ] Kassenbuch komplett
+[ ] Z-Bons taeglich
+[ ] Tageseinnahmen-Aufzeichnung GoBD-konform
+
+C. EINGANGSRECHNUNGEN
+[ ] Lieferantenrechnungen alle erfasst
+[ ] eRechnungen empfangen
+[ ] Beleg-Pruefung (USt-Pflichtangaben)
+
+D. AUSGANGSRECHNUNGEN
+[ ] Kundenrechnungen alle erfasst
+[ ] eRechnungs-Versand (B2B Pflicht seit 01.01.2025)
+[ ] Skonti-Belege
+
+E. LOHN
+[ ] Lohnauswertung aus Lohnprogramm
+[ ] SV-Beitragsbescheide
+[ ] Sondervergueteungen, Boni
+
+F. SONSTIGE
+[ ] Reisekosten-Belege
+[ ] Bewirtungsbelege
+[ ] Geschenk-Belege
+[ ] Kfz-Belege
+[ ] Versicherungs-Bescheide
+[ ] FA-Bescheide
+
+G. SONDERVORGAENGE
+[ ] Anlagenkauf/-verkauf
+[ ] Darlehensvereinbarungen
+[ ] Gesellschaftervereinbarungen
+
+H. STATUS
+Belege vollstaendig: [Ja/Nein]
+Fehlende Belege: [Liste]
+Mahnstand: [keine / 1. / 2. Mahnung]
+```
+
+### Phase 2 — Eingangskontrolle
+
+- Mandant uebermittelt Belege.
+- Sachbearbeiter laed in DATEV.
+- Vollstaendigkeit prüfen (Bank-Cut-off: alle Buchungen bis Monatsende erfasst; Lohnbuchungen aus dem Lohnprogramm mit gleicher Periode synchron).
+
+### Phase 3 — Mahnung bei Verspaetung
+
+- Stufe 1: telefonische Nachfrage.
+- Stufe 2: schriftliche Erinnerung (E-Mail).
+- Stufe 3: Mandantenakte mit Vermerk; ggf. Honorar-Aufschlag.
+- Stufe 4: Mandantenniederlegung (§ 627 BGB) im Extremfall.
+
+### Phase 4 — Belege für wiederkehrende Vorgaenge
+
+- Miet-, Pacht-, Leasing-Verträge als Stamm-Dokumente einmalig erfassen (jaehrliche Anpassung prüfen).
+- Versicherungs-Bescheide jaehrlich (Prüfung Versicherungssumme, Beitragsanpassung).
+- Dauerauftraege für Strom, Heizung, Wasser, Telekommunikation (Buchung als wiederkehrend); Jahresabrechnungen separat erfassen.
+
+### Phase 5 — Bei Verlust eines Beleges
+
+- Mandant um Ersatzbeleg bitten.
+- Schaetzung (mit Vermerk) als letzte Option.
+- Bei wiederholten Verlusten: GoBD-Risiko.
+
+### Phase 6 — Reporting an Mandant
+
+- Bei jedem Monatsabschluss: Prüfprotokoll mit Status.
+- Bei wesentlichen Maengeln: Mandantengespraech.
+
+## Strategie und Praxis-Tipps
+
+- Prüfliste konsequent durchgehen — fehlende Belege sind haeufige Ursache von Buchungsfehlern.
+- Bei wiederholten Verzoegerungen: Honorar-Aufschlag (z.B. 25 Prozent Eilzuschlag) abrechnen.
+- DATEV-DUO ist Effizienz-Hebel — Mandanten konsequent zur Nutzung ermutigen.
+- StBVV: in Pauschal; Eilbearbeitung Sonderhonorar.
+- DATEV-Tipp: DATEV DUO Belegfluss-Statistik nutzen.
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- AO §§ 90, 146, 147.
+- StBerG § 33.
+- StBVV § 4.
+- BMF v. 28.11.2019 zu GoBD.

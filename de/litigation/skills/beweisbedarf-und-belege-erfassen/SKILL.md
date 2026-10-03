@@ -1,11 +1,11 @@
 ---
 name: beweisbedarf-und-belege-erfassen
 title: Beweisbedarf und Belege erfassen
-description: 'Erfasst pro Tatbestandsmerkmal den Beweisbedarf: Beweismittel-Katalog (Urkunden, Zeugen, Sachverständige, Augenschein, Parteivernehmung), Belege hochladen, Tatsachenbehauptung eintragen oder ''beweise ich spaeter''-Markierung setzen. Strukturiertes Beweis-Tracking nach §§ 355-484 ZPO.'
+description: 'Für Beweisbedarf und Belege erfassen: ordnet Akte, Belege und Lücken; Ergebnis: Beweislast- und Substantiierungsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/beweisbedarf-und-belege-erfassen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,6 +14,14 @@ language: de
 
 # Beweisbedarf und Belege erfassen
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn — kläre vor der Beweiserfassung
 
 1. In welchem Verfahren wird Beweis geführt? (ZPO / VwGO / StPO / SGG / FamFG)
@@ -21,10 +29,6 @@ language: de
 3. Ist die Tatsache streitig — oder unstreitig/offenkundig (§ 291 ZPO)?
 4. Liegt bereits ein Beweisbeschluss (§ 359 ZPO) vor?
 5. Besteht Gefahr im Verzug? → Antrag auf Sicherung des Beweises §§ 485-494a ZPO prüfen
-
-## Zweck
-
-Jede Subsumtion steht und fällt mit dem Beweisergebnis. Dieser Skill erfasst für jedes Tatbestandsmerkmal (TBM), welche Beweismittel benötigt werden, welche der Nutzer bereits hat und welche noch beschafft werden müssen. Er erstellt eine strukturierte Beweisliste.
 
 ## Zentrale Normen
 
@@ -37,10 +41,6 @@ Jede Subsumtion steht und fällt mit dem Beweisergebnis. Dieser Skill erfasst f�
 - §§ 371 ff. ZPO — Augenschein und elektronische Dokumente
 - §§ 445-455 ZPO — Parteivernehmung (subsidiär)
 - §§ 485-494a ZPO — Selbständiges Beweisverfahren
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweismittel-Katalog (ZPO)
 
@@ -62,10 +62,10 @@ Das System geht jedes TBM der Reihe nach durch und fragt:
 1. **Tatsachenbehauptung:** Was behauptet der Nutzer für dieses TBM? (Freitext-Eingabe)
 2. **Beweislast:** Wer muss beweisen? — Grundsatz: Wer einen Anspruch geltend macht, trägt die Beweislast für dessen Voraussetzungen; Gegenseite für Einwendungen/Einreden.
 3. **Beleg vorhanden?** Der Nutzer kann angeben:
-   - (A) Beleg liegt vor (Dokument, Foto, Screenshot) → Hochladen oder Benennen
-   - (B) Zeuge bekannt → Name und Erreichbarkeit notieren
-   - (C) Tatsache behaupte ich; Beleg beschaffe ich später → Markierung "offen"
-   - (D) Keine Tatsache vorhanden für dieses TBM → TBM als nicht erfüllt markieren
+ - (A) Beleg liegt vor (Dokument, Foto, Screenshot) → Hochladen oder Benennen
+ - (B) Zeuge bekannt → Name und Erreichbarkeit notieren
+ - (C) Tatsache behaupte ich; Beleg beschaffe ich später → Markierung "offen"
+ - (D) Keine Tatsache vorhanden für dieses TBM → TBM als nicht erfüllt markieren
 4. **Sekundäre Darlegungslast:** Liegt ein Fall vor, in dem der Gegner näherliegende Informationen hat? → Verweis auf BGH-Rechtsprechung zur sekundären Darlegungslast
 5. **Beweiswert-Hinweis:** Das System gibt einen groben Hinweis auf den typischen Beweiswert des genannten Beweismittels (z.B. öffentliche Urkunde: voller Beweis § 415 ZPO; Privaturkunde: § 416 ZPO begrenzt).
 
@@ -75,12 +75,12 @@ Das System geht jedes TBM der Reihe nach durch und fragt:
 Ist die Tatsache streitig?
 ├─ Nein → unstreitig oder offenkundig → kein Beweismittel nötig
 └─ Ja → Beweislast bestimmen
-        ├─ Kläger trägt Last → Beweismittel aus Katalog wählen
-        │   ├─ Urkunde verfügbar? → Urkundsbeweis §§ 415 ff. ZPO
-        │   ├─ Zeuge vorhanden? → Zeugenbeweis §§ 373 ff. ZPO
-        │   ├─ Technische Frage? → Sachverständiger §§ 402 ff. ZPO
-        │   └─ Kein direktes Beweismittel? → Anscheinsbeweis prüfen
-        └─ Beklagter trägt Last → Einwand/Einrede belegen
+ ├─ Kläger trägt Last → Beweismittel aus Katalog wählen
+ │ ├─ Urkunde verfügbar? → Urkundsbeweis §§ 415 ff. ZPO
+ │ ├─ Zeuge vorhanden? → Zeugenbeweis §§ 373 ff. ZPO
+ │ ├─ Technische Frage? → Sachverständiger §§ 402 ff. ZPO
+ │ └─ Kein direktes Beweismittel? → Anscheinsbeweis prüfen
+ └─ Beklagter trägt Last → Einwand/Einrede belegen
 ```
 
 ## Besondere Konstellationen
@@ -108,9 +108,6 @@ Das System fragt nach vollständigem Namen und Adresse des Zeugen. Es weist dara
 
 Das System weist darauf hin, dass Originale stets vorzuziehen sind. Kopien können bestritten werden (§ 420 ZPO).
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Beweis-Tracking-Liste
 
 Am Ende der Beweiserfassung erstellt das System eine tabellarische Übersicht:
@@ -147,6 +144,11 @@ Mit freundlichen Grüßen
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
 
-<!-- AUDIT 27.05.2026
-BGH VI ZR 290/18 (NOT_FOUND): Aktenzeichen existiert auf dejure.org nicht. Gesamte Zeile aus "Aktuelle Rechtsprechung" entfernt.
--->
+
+
+
+## Quellenkontrolle
+
+Die Darlegungs- und Beweislast folgt aus der jeweils geprüften Anspruchsgrundlage, Einwendung oder Vermutung; es gibt keine universelle Fallliste für jede Subsumtion. Im Zivilprozess Paragraf 138, Paragraf 286 und Paragraf 292 ZPO fallbezogen prüfen. Rechtsprechung nur einem konkreten Tatbestandsmerkmal zuordnen und mit Gericht, Datum, Aktenzeichen, tragender Aussage sowie Quelle belegen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

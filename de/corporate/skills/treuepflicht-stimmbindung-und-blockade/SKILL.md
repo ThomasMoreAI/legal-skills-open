@@ -1,0 +1,54 @@
+---
+name: treuepflicht-stimmbindung-und-blockade
+title: Treuepflicht, Stimmbindung und Blockade
+description: 'Für Treuepflicht, Stimmbindung und Blockade: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/treuepflicht-stimmbindung-und-blockade
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Treuepflicht, Stimmbindung und Blockade
+
+Nutze diesen Skill, wenn Gesellschafterrechte formal bestehen, ihre Ausübung aber treuwidrig, blockierend oder durch Stimmbindung begrenzt sein kann. Der Skill macht aus Lagerdenken eine belastbare Pflichtenanalyse.
+
+## Kaltstartfragen
+
+1. Welche Entscheidung ist blockiert?
+2. Welche Stimmen, Vetos, Quoren oder Sonderrechte bestehen?
+3. Gibt es Stimmbindungsvertrag, Poolvertrag oder Gesellschaftervereinbarung?
+4. Wer profitiert von der Blockade?
+5. Droht Schaden für Gesellschaft oder einzelne Gesellschafter?
+6. Gibt es Exit-, Deadlock- oder Schiedsmechanismen?
+
+## Blockadebild
+
+| Element | Frage | Beleg | Lösung |
+| --- | --- | --- | --- |
+| Vetorecht | ausdrücklich geregelt? | Satzung | Auslegung |
+| Stimmbindung | wirksam und fällig? | Vertrag | Erfüllung, Schadensersatz |
+| Treuepflicht | Rücksicht geboten? | Interessenlage | Zustimmungspflicht |
+| Deadlock | Verfahren vorgesehen? | SHA | Call, Put, Mediation |
+
+## Prüfraster
+
+1. Formale Rechtsmacht feststellen.
+2. Vertragliche Bindung und Satzungslage prüfen.
+3. Gesellschaftsinteresse und Sonderinteresse trennen.
+4. Treuwidrigkeit nur konkret begründen, nicht pauschal behaupten.
+5. Durchsetzung wählen: Beschlussersetzung, Unterlassung, Schadensersatz, Verhandlung.
+
+## Rechtsprechungs- und Normanker
+
+- Paragraf 242 BGB: Treuepflicht und Rechtsmissbrauch.
+- Paragraf 705 ff. BGB: gesellschaftsvertragliche Bindung als Grundmodell.
+- Paragraf 47 GmbHG: Stimmrechtsausübung und Beschlussfassung.
+- Paragraf 133 und 157 BGB: Auslegung von Stimmbindung und Deadlock-Klauseln.
+
+## Output
+
+Erzeuge eine Blockadeanalyse mit Rechtsmacht, Bindung, Pflichtverletzung, Gegenargument und Lösungspfad.

@@ -1,11 +1,11 @@
 ---
 name: dreidimensionale-marke
 title: Dreidimensionale Marken (3D-Formmarken)
-description: Workflow-Skill zu dreidimensionale marke. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Dreidimensionale Marken (3D-Formmarken): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/dreidimensionale-marke
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Dreidimensionale Marken (3D-Formmarken)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Dreidimensionale Marken (3D-Formmarken)
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Die Form eines Produkts als Marke zu schützen ist eine der anspruchsvollsten Disziplinen. Für klôtzzkètté SA steht die Absicherung des charakteristischen Parfumflakons "K°° pour Femme" (zylindrisch, Goldfaden-Spiralprägung auf Mattglas, asymmetrischer Verschluss) sowie der charakteristischen Schutzform der Damen-Slingback-Kollektion auf dem Prüfstand.
 
@@ -22,40 +35,38 @@ Die Hürden sind hoch: Das Zeichen darf weder ausschließlich durch die Natur de
 
 - **§ 3 I MarkenG:** Dreidimensionale Formen sind markenfähig
 - **§ 3 II MarkenG** (absolute Ausschlussgründe für Formen):
-  - Nr. 1: Form durch die Natur der Ware selbst bedingt
-  - Nr. 2: Form zur Erreichung einer technischen Wirkung notwendig
-  - Nr. 3: Form verleiht der Ware wesentlichen Wert
+ - Nr. 1: Form durch die Natur der Ware selbst bedingt
+ - Nr. 2: Form zur Erreichung einer technischen Wirkung notwendig
+ - Nr. 3: Form verleiht der Ware wesentlichen Wert
 - **Art. 7 I lit. e UMV:** Inhaltsgleich mit § 3 II MarkenG
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfungsschritte
 
 1. **Darstellung des 3D-Zeichens:**
-   - DPMA: Mindestens 6 Ansichten (Vorder-/Rück-/Seiten-/Ober-/Unterseite, Perspektive), JPG/PNG 300 dpi
-   - EUIPO: 1-7 Ansichten (MP4-Video der Form akzeptiert), optionale 3D-Beschreibung
-   - Konturstudie auf weißem Hintergrund
+ - DPMA: Mindestens 6 Ansichten (Vorder-/Rück-/Seiten-/Ober-/Unterseite, Perspektive), JPG/PNG 300 dpi
+ - EUIPO: 1-7 Ansichten (MP4-Video der Form akzeptiert), optionale 3D-Beschreibung
+ - Konturstudie auf weißem Hintergrund
 
 2. **Prüfung § 3 II MarkenG — drei Ausschlussgründe:**
-   - **Nr. 1 (Natur der Ware):** Ist die Form für die Ware typisch, unvermeidbar? (Flakon-Grundform für Parfum = kein Ausschluss; bloßer Zylinder = Ausschluss)
-   - **Nr. 2 (Technische Funktion):** Erfüllt die Form eine technische Funktion, die ohne diese Form nicht erreichbar ist? (Asymmetrischer Verschluss: Ästhetik-Funktion, nicht technisch zwingend → kein Ausschluss)
-   - **Nr. 3 (Wesentlicher Wert):** Verleiht die Form der Ware ihren Hauptwert? (Bei Luxus-Parfum: Form ist einer unter vielen Wertfaktoren → kein Ausschluss; bei reinem Design-Objekt möglicherweise Ausschluss)
+ - **Nr. 1 (Natur der Ware):** Ist die Form für die Ware typisch, unvermeidbar? (Flakon-Grundform für Parfum = kein Ausschluss; bloßer Zylinder = Ausschluss)
+ - **Nr. 2 (Technische Funktion):** Erfüllt die Form eine technische Funktion, die ohne diese Form nicht erreichbar ist? (Asymmetrischer Verschluss: Ästhetik-Funktion, nicht technisch zwingend → kein Ausschluss)
+ - **Nr. 3 (Wesentlicher Wert):** Verleiht die Form der Ware ihren Hauptwert? (Bei Luxus-Parfum: Form ist einer unter vielen Wertfaktoren → kein Ausschluss; bei reinem Design-Objekt möglicherweise Ausschluss)
 
 3. **Unterscheidungskraft (§ 8 II Nr. 2 MarkenG):**
-   - 3D-Zeichen haben nach EuGH grundsätzlich keine inhärente Unterscheidungskraft bei branchenüblichen Formen
-   - Anforderungen höher als bei Wortmarken
-   - Prüfung: Weicht die Form erheblich von der Norm und den Gewohnheiten der Branche ab?
-   - Klôtzzkètté Flakon: spiralförmige Goldprägung auf Mattglas ist unbranchenüblich → Unterscheidungskraft möglicherweise gegeben
+ - 3D-Zeichen haben nach EuGH grundsätzlich keine inhärente Unterscheidungskraft bei branchenüblichen Formen
+ - Anforderungen höher als bei Wortmarken
+ - Prüfung: Weicht die Form erheblich von der Norm und den Gewohnheiten der Branche ab?
+ - Klôtzzkètté Flakon: spiralförmige Goldprägung auf Mattglas ist unbranchenüblich → Unterscheidungskraft möglicherweise gegeben
 
 4. **Verkehrsdurchsetzung (§ 8 III MarkenG):**
-   - Bei zweifelhafter Unterscheidungskraft: Nachweis von 5+ Jahren Marktpräsenz, Verbraucherbefragung, Werbeaufwand
-   - Olfaktorik-Parallele zu Sieckmann: auch ohne grafische Darstellung eindeutig beschreibbar
+ - Bei zweifelhafter Unterscheidungskraft: Nachweis von 5+ Jahren Marktpräsenz, Verbraucherbefragung, Werbeaufwand
+ - Olfaktorik-Parallele zu Sieckmann: auch ohne grafische Darstellung eindeutig beschreibbar
 
 5. **Parallelschutz über Geschmacksmuster:**
-   - Eingetragenes Muster (DesignG / Gemeinschaftsgeschmacksmuster GGM)
-   - 25 Jahre Schutz möglich; Neuheitserfordernis
-   - Ergänzung zur 3D-Marke, nicht Ersatz
+ - Eingetragenes Muster (DesignG / Gemeinschaftsgeschmacksmuster GGM)
+ - 25 Jahre Schutz möglich; Neuheitserfordernis
+ - Ergänzung zur 3D-Marke, nicht Ersatz
 
 ## Falltypische Konstellationen
 
@@ -68,12 +79,11 @@ klôtzzkètté will die charakteristische Schuhsilhouette (geschwungener Blockab
 ### Konstellation 3: Brezelmann-Kopierflakon
 Brezelmann Discount KG vertreibt Imitatparfum "KLOTZ NACHT" in einem Flakon, der dem K°°-Flakon zum Verwechseln ähnlich sieht. Verletzungsklage nach § 14 II MarkenG, § 4 Nr. 3 UWG; Eilantrag auf Unterlassung.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 3 Rn. 160-250 (3D-Marken)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, § 3 Rn. 50 ff.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -83,7 +93,7 @@ Die Marke ist eine dreidimensionale Marke. Sie stellt einen
 zylindrischen Parfumflakon dar mit folgenden Merkmalen:
 - Zylinderform, Höhe-Durchmesser-Verhältnis 3:1
 - Spiralförmige Mikrogravur auf der gesamten Außenfläche
-  (Steigungswinkel ca. 15°, Rillenbreite ca. 1 mm)
+ (Steigungswinkel ca. 15°, Rillenbreite ca. 1 mm)
 - Asymmetrischer Goldverschluss (ovale Kappe, seitlich versetzt)
 - Mattiertes Klarglas ohne Farbanspruch
 Farbanspruch wird nicht geltend gemacht.
@@ -122,8 +132,4 @@ Bevor die dreidimensionale Marke eingereicht wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

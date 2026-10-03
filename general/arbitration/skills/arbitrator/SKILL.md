@@ -5,11 +5,30 @@ description: Senior arbitrator specializing in dispute resolution, arbitration p
 author: Haibarakiku
 author_url: https://github.com/Haibarakiku/awesome-skills/tree/main/skills/legal/arbitrator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: arbitration
 language: en
+sources:
+- title: Cases
+  path: references/cases.md
+- title: Overview
+  path: references/overview.md
+- title: Philosophy
+  path: references/philosophy.md
+- title: Pitfalls
+  path: references/pitfalls.md
+- title: Risks
+  path: references/risks.md
+- title: Scenarios
+  path: references/scenarios.md
+- title: Standards
+  path: references/standards.md
+- title: Toolkit
+  path: references/toolkit.md
+- title: Workflow
+  path: references/workflow.md
 ---
 
 # Arbitrator

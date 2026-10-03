@@ -1,19 +1,31 @@
 ---
 name: zivilrecht-anspruchsgrundlagen-pruefung
-title: Zivilrecht — Anspruchsgrundlagen-Prüfung
-description: 'Student prüft zivilrechtliche Ansprüche in der Hausarbeit: Reihenfolge V-C-G-D-D-B Vertrag culpa in contrahendo GoA dinglich Delikt Bereicherung. Prüfungsschemata je Anspruchsgrundlage §§ 433 280 823 812 BGB. Prüfraster Anspruchsgrundlagen-Reihenfolge Spezialitaet Konkurrenzen lex specialis. Output Anspruchsprüfungs-Schema Begründung. Abgrenzung zu strafrecht-tatbestand (Strafrecht) und öffentliches-recht-statthaft (Verwaltungsrecht).'
+title: 'Student prüft zivilrechtliche Ansprüche in der Hausarbeit: Reihenfolge V-C-G-D-D-B Vertrag culpa in contrahendo GoA ding'
+description: 'Für Zivilrecht Anspruchsgrundlagen Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/zivilrecht-anspruchsgrundlagen-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
 language: de
 ---
 
-# Zivilrecht — Anspruchsgrundlagen-Prüfung
+# Student prüft zivilrechtliche Ansprüche in der Hausarbeit: Reihenfolge V-C-G-D-D-B Vertrag culpa in contrahendo GoA dinglich Delikt Bereicherung
 
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Student prüft zivilrechtliche Ansprüche in der Hausarbeit: Reihenfolge V-C-G-D-D-B Vertrag culpa in contrahendo GoA dinglich Delikt Bereicherung. Prüfungsschemata je Anspruchsgrundlage §§ 433 280 823 812 BGB. Prüfraster Anspruchsgrundlagen-Reihenfolge Spezialitaet Konkurrenzen lex specialis. Output Anspruchsprüfungs-Schema Begründung. Abgrenzung zu strafrecht-tatbestand (Strafrecht) und öffentliches-recht-statthaft (Verwaltungsrecht).
+
+### Zivilrecht — Anspruchsgrundlagen-Prüfung
 
 ## Triage zu Beginn
 1. Welche Anspruchsgrundlagen kommen nach V-C-G-D-D-B in Betracht?
@@ -21,21 +33,11 @@ language: de
 3. Welche Voraussetzungen der primaer einschlaegigen Anspruchsgrundlage sind streitig?
 4. Gibt es Einreden oder Einwendungen (Erloeschung, Verjährung, § 320 BGB)?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- §§ 433, 634, 611, 677 BGB — Vertragsrecht als erste Pruefungsstufe der V-C-G-D-D-B
+- §§ 433, 634, 611, 677 BGB — Vertragsrecht als erste Prüfungsstufe der V-C-G-D-D-B
 - § 311 Abs. 2 BGB — Culpa in contrahendo als vorvertragliche Haftung
 - §§ 823 ff. BGB — Deliktsrecht als vierte Stufe
 - §§ 812 ff. BGB — Bereicherungsrecht als letzte Auffangnorm
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Im Zivilrecht ist die Reihenfolge der Anspruchsgrundlagen entscheidend. Wer durcheinander prüft, kommt zu falschen Konkurrenzen.
 
 ## Schritt 1 — Die V-C-G-D-D-B-Regel
 
@@ -62,18 +64,18 @@ Im Zivilrecht ist die Reihenfolge der Anspruchsgrundlagen entscheidend. Wer durc
 #### Schema
 
 1. Wirksamer Kaufvertrag
-   - Angebot
-   - Annahme
-   - Wirksamkeit (Geschäftsfähigkeit, AGB, Sittenwidrigkeit, Form)
+ - Angebot
+ - Annahme
+ - Wirksamkeit (Geschäftsfähigkeit, AGB, Sittenwidrigkeit, Form)
 2. Anspruch nicht erloschen
-   - Erfüllung § 362 BGB
-   - Aufrechnung § 387 BGB
-   - Erlass § 397 BGB
-   - Rücktritt § 346 BGB
+ - Erfüllung § 362 BGB
+ - Aufrechnung § 387 BGB
+ - Erlass § 397 BGB
+ - Rücktritt § 346 BGB
 3. Anspruch durchsetzbar
-   - Verjährung §§ 195 und 199 und 214 BGB
-   - § 320 BGB (Synallagma)
-   - § 273 BGB (Zurückbehaltung)
+ - Verjährung §§ 195 und 199 und 214 BGB
+ - § 320 BGB (Synallagma)
+ - § 273 BGB (Zurückbehaltung)
 
 ### § 280 I BGB — Schadensersatz wegen Pflichtverletzung
 
@@ -285,6 +287,8 @@ Im Zivilrecht ist die Reihenfolge der Anspruchsgrundlagen entscheidend. Wer durc
 
 ## Übergang zu
 
-- `subsumtion-schritt-fuer-schritt` — Subsumtions-Praxis
+- `subsumtion-schritt-für-schritt` — Subsumtions-Praxis
 - `meinungsstreit-darstellen` — bei Streit-Punkten innerhalb der Anspruchs-Grundlagen
 - `gliederung-mit-tiefenstruktur` — Gliederung mit Anspruchs-Grundlagen
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

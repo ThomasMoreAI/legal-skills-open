@@ -4,13 +4,12 @@ Consumer complaints and claim letters — escalation steps and formal demand dra
 
 Jurisdiction: `general` · Practice: `consumer` · Skill language: fr
 
-## Skills (3)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`Complaint Letter Writer`](skills/complaint-letter-writer-khalilbenaz/) | Rédige une lettre de réclamation formelle pour un litige consommateur, administratif ou professionnel. Se… |
-| [`Consumer Pleading Drafter`](skills/consumer-pleading-drafter-rohasnagpal/) | Drafts the two sides of a consumer-forum pleading — the complaint (complainant side) or the reply/written… |
-| [`Complaint Letter Writer`](skills/legal-complaint-letter-writer-khalilbenaz/) | Rédige une lettre de réclamation formelle pour un litige consommateur, administratif ou professionnel. Se… |
+| [`Consumer Pleading Drafter`](skills/consumer-pleading-drafter-rohasnagpal/) | Drafts the two sides of a consumer-forum pleading — the complaint (complainant side) or the… |
+| [`Complaint Letter Writer`](skills/legal-complaint-letter-writer-khalilbenaz/) | Rédige une lettre de réclamation formelle pour un litige consommateur, administratif ou professionnel.… |
 
 ## Cold-start context
 

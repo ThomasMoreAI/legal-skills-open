@@ -5,12 +5,20 @@ description: Use when users say "review this disclosure list", "QC disclosure", 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-disclosure-list-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: litigation
 language: en
-tags: [disclosure, cpr, privilege, england-and-wales, documents]
+tags:
+- disclosure
+- cpr
+- privilege
+- england-and-wales
+- documents
+sources:
+- title: Disclosure review playbook
+  path: references/disclosure-review-playbook.md
 ---
 
 # uk-disclosure-list-review

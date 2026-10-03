@@ -5,7 +5,7 @@ description: Systematic 7-step methodology for comprehensive patent prior art se
 author: RobThePCGuy
 author_url: https://github.com/RobThePCGuy/Claude-Patent-Creator/tree/main/skills/prior-art-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -68,7 +68,17 @@ Implements a professional 7-step prior art search methodology combining:
 2. Synonyms and variations
 3. Technical terminology
 4. Industry-specific terms
-5. Boolean search strings
+5. Synonym sets to run as separate searches
+
+**Query syntax (important):** the keyword search splits a query into terms and
+requires **every term** to appear (AND), each matching the title, abstract, or
+claims (results are ranked by relevance, title hits weighted highest). It does
+**not** parse Boolean operators — `AND`/`OR`/parentheses are ignored. So:
+
+- Use plain space-separated terms for the AND set: `blockchain authentication`.
+- Wrap a phrase in double quotes to require it verbatim: `"distributed ledger"`.
+- For OR / synonyms, run **separate searches** and merge the results — don't put
+  `OR` in one query.
 
 **Output**: Keyword search strategy document
 
@@ -78,10 +88,11 @@ Primary: blockchain authentication
 Synonyms: distributed ledger verification, cryptographic authentication
 Technical: public key infrastructure, digital signature
 Related: decentralized identity, trustless verification
-Searches:
-- "blockchain AND (authentication OR verification)"
-- "(distributed ledger) AND (identity OR credential)"
-- "cryptographic AND (login OR access control)"
+Searches (run each separately, then merge/dedupe):
+- blockchain authentication
+- "distributed ledger" verification
+- cryptographic authentication
+- "public key infrastructure" signature
 ```
 
 ---
@@ -99,14 +110,14 @@ Searches:
 
 **Code**:
 ```python
-from python.bigquery_search import BigQueryPatentSearch
+from mcp_server.bigquery_search import BigQueryPatentSearch
 searcher = BigQueryPatentSearch()
 
-results = searcher.search_patents(
-    query="blockchain authentication",
+results = searcher.search_by_keywords(
+    query="blockchain authentication",  # terms AND-matched, ranked by relevance
     limit=30,
     country="US",
-    start_year=2015  # Look back 5-10 years
+    start_year=2015,  # filing year; look back 5-10 years
 )
 ```
 

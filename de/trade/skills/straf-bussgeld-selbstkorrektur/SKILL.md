@@ -1,0 +1,92 @@
+---
+name: straf-bussgeld-selbstkorrektur
+title: 'Zollstrafrecht und Selbstkorrektur: Strafbarkeit Bussgeld und Selbstanzeige'
+description: 'Für Zollstrafrecht und Selbstkorrektur: Strafbarkeit Bussgeld und Selbstanzeige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/straf-bussgeld-selbstkorrektur
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Zollstrafrecht und Selbstkorrektur: Strafbarkeit Bussgeld und Selbstanzeige
+
+## Arbeitsbereich
+
+Zollstraf- und Bussgeldsachen sowie freiwillige Selbstkorrektur nach § 22 Abs. 4 AWG und § 22 ZollVG: Straftatbestaende (§ 18 AWG Schmuggeldelikt § 370 AO) Ordnungswidrigkeiten und Wirkung der Selbstanzeige. Strafmilderung durch Kooperation und BAFA-Praxis bei freiwilliger Offenlegung. Output: Strafbarkeits-Risikobewertung und Selbstkorrektur-Strategie. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Unternehmen hat uber Jahre Waren unter falscher KN-Nummer eingereiht; Nachzahlung und Strafbarkeit prüfen.
+- BAFA entdeckt bei Prüfung ungenehmigten Export von Dual-Use-Gut; Selbstanzeige erwagen.
+- Zollfahndung ermittelt wegen Schmuggel; Verteidigungsstrategie und Schadensbegrenzung.
+
+## Erste Schritte
+
+1. Sachverhalt vollstaendig rekonstruieren: Zeitraum betroffene Waren Verfahren und Beteiligte.
+2. Strafbarkeit einordnen: § 18 AWG (vorsaetzlicher Verstoss) oder Ordnungswidrigkeit (§ 19 AWG)?
+3. Selbstkorrektur-Option prüfen: § 22 Abs. 4 AWG für Exportkontrolle; § 22 ZollVG für Zoll.
+4. Schadenspotenzial quantifizieren: Zollnacherhebung Zinsen Bussgelder und moegliche Strafbarkeit.
+5. Anwalt und ggf. Steuerberater einschalten; Legal Hold einrichten.
+6. Selbstkorrektur-Schreiben mit vollstaendiger Offenlegung und Schadensbehebungskonzept vorbereiten.
+
+## Rechtsrahmen
+
+- **§ 18 AWG**: Straftatbestaende im Aussenwirtschaftsrecht (Freiheitsstrafe bis 5 Jahre).
+- **§ 19 AWG**: Ordnungswidrigkeitentatbestaende mit Bussgeldbewehrung.
+- **§ 22 Abs. 4 AWG**: Strafmildernde Wirkung freiwilliger Offenlegung gegenueber BAFA.
+- **§ 370 AO**: Steuerhinterziehung bei Falschdeklaration im Zollrecht.
+- **§ 22 ZollVG**: Nacherhebung und Selbstkorrektur-Verfahren.
+
+## Prüf-Raster
+
+- [ ] Strafbarkeit nach § 18 AWG oder Ordnungswidrigkeit nach § 19 AWG eingeordnet?
+- [ ] Selbstkorrektur-Option geprueft und Fristen beachtet?
+- [ ] Schadenspotenzial vollstaendig quantifiziert?
+- [ ] Legal Hold eingerichtet und Dokumentation gesichert?
+- [ ] Anwalt mit Selbstkorrektur-Erfahrung eingeschaltet?
+- [ ] Offenlegungsschreiben vollstaendig und korrekt vorbereitet?
+
+## Typische Fallstricke
+
+- Selbstkorrektur muss vollstaendig sein; teilweise Offenlegung verschlimmert die Situation.
+- Selbstanzeige wirkt nicht strafbefreiend wenn BAFA-Prüfung bereits eingeleitet.
+- Keine Selbstkorrektur ohne vorherige rechtliche Beratung; Reihenfolge entscheidend.
+- Konzernweite Implikationen: Andere Konzerneinheiten müssen einbezogen werden.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [§ 18 AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/__18.html)
+- [§ 22 AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/__22.html)
+- [BAFA Freiwillige Offenlegung](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Allgemeine_Informationen/allgemeine_informationen_node.html)
+- [ZollVG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zollvg/index.html)
+- [§ 370 AO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/ao_1977/__370.html)

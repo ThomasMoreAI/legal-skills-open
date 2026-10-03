@@ -1,0 +1,116 @@
+---
+name: relationstechnik-zivilrecht-99-finale-entscheidung-volltext
+title: Finale Entscheidung als Volltext (Urteil oder Beschluss Zivil)
+description: 'Für Finale Entscheidung als Volltext (Urteil oder Beschluss Zivil): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/relationstechnik-zivilrecht/skills/99-finale-entscheidung-volltext
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Finale Entscheidung als Volltext (Urteil oder Beschluss Zivil)
+
+## Zweck
+
+Dieser Skill erzeugt die finale Entscheidung des Spruchkörpers nicht als bloßen Vorschlag oder Votum, sondern als versandfertigen Volltext im richtigen Layout — so, wie er das Gericht verlassen würde. Die Entscheidung wird zur Unterschrift fertig gebaut: mit Rubrum, vollständigem Tenor, Tatbestand oder Sachverhalt, Entscheidungsgründen, Nebenentscheidungen und Rechtsmittelbelehrung.
+
+Gegenstand: Urteil oder Beschluss im Zivilprozess.
+
+## Rechtlicher Rahmen
+
+Paragrafen 313, 313a, 313b ZPO für den Urteilsaufbau; Paragrafen 91 ff. ZPO für Kostenentscheidung; Paragrafen 708, 709, 711 ZPO für vorläufige Vollstreckbarkeit.
+
+## Eingangsvoraussetzungen
+
+Vor der Volltext-Erstellung müssen die vorbereitenden Skills dieses Plugins durchlaufen sein. Insbesondere müssen vorliegen:
+
+- Rubrum mit allen Parteien, Vertretern und Aktenzeichen;
+- vollständig erfasster Sachverhalt und Streitstand;
+- geprüfte Anspruchsgrundlagen oder Tatbestandsmerkmale mit Subsumtion;
+- gewürdigte Beweise oder Akten;
+- Tenor-Skizze mit Entscheidungsformel zu Hauptsache, Kosten und vorläufiger Vollstreckbarkeit oder Rechtsmittelbelehrung.
+
+Fehlt eines dieser Stücke, weist der Skill darauf hin und unterbricht die Volltext-Erstellung, bevor er Phantasie produziert.
+
+## Aufbau des Volltextes
+
+### 1. Briefkopf und Rubrum
+
+Gerichtsbezeichnung in der ersten Zeile (zum Beispiel „Amtsgericht München"), Aktenzeichen, Verkündungsdatum, vollständiges Rubrum mit Parteien, Prozessbevollmächtigten, Streitgegenstand und Spruchkörper.
+
+### 2. Tenor (Entscheidungsformel)
+
+Der Tenor wird vollständig ausformuliert. Er ist die rechtskraftfähige Anordnung. Beispiel für diesen Spruchkörper:
+
+1. Die Beklagte wird verurteilt, an die Klägerin EUR 12.500 nebst Zinsen in Höhe von fuenf Prozentpunkten über dem Basiszinssatz seit dem 1. März 2024 zu zahlen.
+2. Im Übrigen wird die Klage abgewiesen.
+3. Die Kosten des Rechtsstreits tragen die Klägerin zu einem Drittel und die Beklagte zu zwei Dritteln.
+4. Das Urteil ist vorläufig vollstreckbar. Der jeweilige Vollstreckungsschuldner kann die Vollstreckung durch Sicherheitsleistung in Höhe von 110 Prozent des aus dem Urteil vollstreckbaren Betrages abwenden, wenn nicht der jeweilige Vollstreckungsgläubiger vor der Vollstreckung Sicherheit in gleicher Höhe leistet.
+
+Der Tenor enthält zwingend: Hauptausspruch zur Sache, Kostenentscheidung, ggf. Aussprache zur vorläufigen Vollstreckbarkeit, ggf. Streitwertfestsetzung.
+
+### 3. Tatbestand oder Sachverhalt
+
+Knappe, sachlich-distanzierte Darstellung des unstreitigen Sachverhalts und des streitigen Parteivortrags. Bei Beschlüssen entsprechend „Gründe I."; bei Strafurteilen die Feststellungen zum Tatgeschehen. Verwende den Imperfekt für Geschehensschilderung, das Präsens für Antrag und Verfahrensstand.
+
+### 4. Entscheidungsgründe
+
+Strenge Subsumtionsstruktur: Anspruchsgrundlage oder Tatbestandsmerkmal, Tatbestandsvoraussetzungen, Subsumtion mit Belegen aus den Akten, Ergebnis. Einreden und Einwendungen am Ende der jeweiligen Prüfungsebene. Bei Strafurteilen Beweiswürdigung und Strafzumessung getrennt darstellen.
+
+### 5. Nebenentscheidungen
+
+Kosten, vorläufige Vollstreckbarkeit, Streitwertfestsetzung. Bei Familien- und Sozialsachen die jeweils einschlägigen Kostenregeln.
+
+### 6. Rechtsmittelbelehrung
+
+Vollstaendige Belehrung über statthaftes Rechtsmittel, Frist, Form und Adressat. Niemals weglassen, niemals abkuerzen.
+
+### 7. Unterschriftenzeile
+
+Ort, Datum, Name(n) der entscheidenden Berufs- und Laienrichter mit Funktionsbezeichnung. Bei Verhinderung Vertretungsvermerk.
+
+## Prozessuale Glanzkontrolle
+
+Vor der finalen Entscheidung wird zwingend geprüft:
+
+1. Antrag, Rechtsschutzziel und Tenor sind deckungsgleich und vollstreckbar.
+2. Schlüssigkeit, Erheblichkeit, Beweisbedürftigkeit und Beweislast wurden nicht vermischt.
+3. Hinweise nach Paragraf 139 ZPO sind bei überraschenden oder übersehenen Punkten früh, konkret und aktenkundig erteilt.
+4. Artikel 103 Absatz 1 GG ist sichtbar gewahrt: entscheidungserheblicher Vortrag ist zur Kenntnis genommen und erwogen.
+5. Beweiswürdigung nach Paragraf 286 ZPO und gegebenenfalls Schätzung nach Paragraf 287 ZPO sind nachvollziehbar begründet.
+6. Nebenentscheidungen zu Kosten, Vollstreckbarkeit, Streitwert und Rechtsmittelbelehrung passen zum Tenor.
+7. Rechtsprechungsanker: BVerfG, 19.05.1992 - 1 BvR 986/91 für das Verbot der Überraschungsentscheidung; BVerfG, 03.05.2021 - 2 BvR 1176/20 für Gehör, Kenntnisnahme und Erwägung.
+
+## Format und Stil
+
+- Echte Umlaute (ae, oe, ue, ss als ae-Umschrift nur in Slugs; im Volltext durchgehend echte ae, oe, ue, ss).
+- Sachlich, knapp, in deutscher Gerichtssprache.
+- Generisches Maskulinum.
+- Paragrafenzeichen ausgeschrieben als „Paragraf".
+- Aktenzeichen Punkt- oder Schrägstrich-Stil, niemals Komma.
+- Keine Doppelsterne für Fettschrift im Fliesstext.
+
+## Ergebnis
+
+Ein vollständiger, versandfertiger Entscheidungstext, der von Rubrum bis Unterschrift alles enthält. Der Spruchkörper kann ihn unterschreiben — oder vor der Unterschrift redaktionell pruefen. Bei offenen Lückenpunkten bleibt der Volltext stehen, die Lücken werden in eckigen Klammern markiert und am Ende in einer Lücken-Liste zusammengefasst.
+
+## Eigenkontrolle
+
+Bevor der Volltext freigegeben wird, durchlaeuft der Skill eine Eigenkontrolle:
+
+1. Stimmt der Tenor mit den Entscheidungsgründen überein?
+2. Ist die Kostenentscheidung folgerichtig?
+3. Ist die Rechtsmittelbelehrung vollständig und richtig?
+4. Sind alle Parteibezeichnungen einheitlich?
+5. Sind alle Daten, Aktenzeichen und Betraege widerspruchsfrei?
+6. Sind alle Lückenpunkte explizit markiert?
+
+Erst nach bestandener Eigenkontrolle wird der Volltext als final ausgegeben.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill ist in die Vier-Stationen-Relation einzuhängen: Klägerstation, Beklagtenstation, Beweisstation und Entscheidungsstation bleiben getrennt. Er benennt zu jedem Streitpunkt die tragende Tatsache, den Vortrag der Gegenseite, das Beweisangebot, die Beweislast und die Rechtsfolge. Fehlt eine Station, wird nicht frei ergänzt, sondern als Lücke mit Anschlussverfügung ausgewiesen.

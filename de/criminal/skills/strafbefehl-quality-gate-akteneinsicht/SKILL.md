@@ -1,0 +1,97 @@
+---
+name: strafbefehl-quality-gate-akteneinsicht
+title: Strafbefehl-Verteidiger — Kommandocenter
+description: 'Für Strafbefehl-Verteidiger — Kommandocenter: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-quality-gate-akteneinsicht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Strafbefehl-Verteidiger — Kommandocenter
+
+## Arbeitsbereich
+
+Einstieg in das Strafbefehl-Mandat — Ampel-Schnelldiagnose zeigt kritische Fristen und offene Handlungsfelder auf einen Blick. Zentrales Steuerungsmodul routet auf Subskills: Frist § 410 StPO Akteneinsicht § 147 StPO Inhaltsprüfung § 409 StPO Beweis Einlassung Verständigung Einstellung Tagessaetze Nebenfolgen Pflichtverteidiger Wiedereinsetzung. Normen §§ 407-412 StPO. Output Mandats-Ampelstatus mit priorisierten naechsten Schritten. Abgrenzung: strafbefehl-fristen-einspruch für die isolierte Fristprüfung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Sofort-Triage bei Mandatsaufnahme
+
+**Die drei kritischen Fragen zuerst:**
+
+1. **Fristlage:** Wann wurde der Strafbefehl zugestellt? Einspruchsfrist § 410 Abs. 1 StPO: 2 Wochen ab Zustellung. Ist die Frist noch offen oder abgelaufen?
+ - Frist offen → Einspruch sofort einlegen, dann vertiefen
+ - Frist abgelaufen → Wiedereinsetzung § 44 StPO prüfen
+
+2. **Delikt und Sanktion:** Was wird vorgeworfen (§§ StGB/StVG/OWiG)? Welche Rechtsfolge ist angesetzt (Tagessaetze, Geldstrafe, Fahrverbot, Bewaehrungsstrafe)?
+
+3. **Mandantenziel:** Freispruch / Einstellung / Strafmassreduzierung / Fahrverbots-Vermeidung?
+
+## Ampel-Schnelldiagnose
+
+| Situation | Ampel | Maßnahme |
+|-----------|-------|-----------|
+| Frist laeuft in < 3 Tagen | ROT | Einspruch SOFORT, dann vertiefen |
+| Frist laeuft in 4-7 Tagen | GELB | Einspruch und Akteneinsicht parallel |
+| Frist > 7 Tage | GRUEN | Strukturierte Bearbeitung |
+| Frist abgelaufen, keine Wiedereinsetzungsgruende | ROT | Strafbefehl rechtskraeftig |
+| Frist abgelaufen, Grund für Wiedereinsetzung | GELB | Wiedereinsetzungsantrag § 44 StPO |
+
+## Routing-Matrix
+
+| Aufgabe | Subskill |
+|---------|---------|
+| Einspruchsfrist berechnen + einlegen | `strafbefehl-fristen-einspruch` |
+| Strafbefehl-Inhalt auf § 409 prüfen | `strafbefehl-inhalt-409-pruefung` |
+| Akteneinsicht anfordern | `strafbefehl-akteneinsicht-147` |
+| Beweis- und Einlassungsstrategie | `strafbefehl-beweis-und-einlassung` |
+| Beschraenkter Einspruch | `strafbefehl-einspruch-beschraenkung` |
+| Verstaendigung / § 153a | `strafbefehl-deal-verstaendigung` |
+| Einstellung § 153 / § 153a / § 170 | `strafbefehl-einstellung-153-153a-170` |
+| Tagessatz-Berrechnung | `strafbefehl-tagessaetze-geldstrafe` |
+| Nebenfolgen Fahrerlaubnis | `strafbefehl-nebenfolgen-fahrerlaubnis` |
+| Pflichtverteidiger-Bestellung | `strafbefehl-pflichtverteidiger` |
+| Wiedereinsetzung nach Fristversaeumnis | `strafbefehl-wiedereinsetzung` |
+| Hauptverhandlung vorbereiten | `strafbefehl-hauptverhandlung-vorbereitung` |
+| Abwesenheit in der HV | `strafbefehl-abwesenheit-vertretung` |
+| Rechtsmittel nach Urteil | `strafbefehl-rechtsmittel-nach-urteil` |
+| Zeugen befragen | `strafbefehl-zeugen-befragungsstrategie` |
+| Rechtsprechungsrecherche | `strafbefehl-rechtsprechungsrecherche` |
+| Quality Gate | `strafbefehl-quality-gate` |
+| Aktenanlage | `strafbefehl-aktenanlage` |
+
+## Zentrale Normen im Strafbefehlsverfahren
+
+- **§ 407 StPO** — Zulassungsvoraussetzungen
+- **§ 408 StPO** — Richterliche Entscheidung
+- **§ 409 StPO** — Pflichtinhalt
+- **§ 410 StPO** — Einspruch, 2-Wochen-Frist, Beschraenkung
+- **§ 411 StPO** — Hauptverhandlung nach Einspruch
+- **§ 412 StPO** — Verwerfung des Einspruchs bei unentschuldigtem Ausbleiben
+- **§ 44 StPO** — Wiedereinsetzung
+
+## Aktuelle Querschnitts-Rechtsprechung (Stand Mai 2026)
+
+- BGH (GSSt) 03.02.2025 — GSSt 1/24 (KCanG, Querschnittswirkung im Cannabis-Strafbefehl): https://dejure.org/dienste/vernetzung/rechtsprechung?Text=GSSt+1/24
+- BGH 15.07.2025 — 2 StR 644/24 (KCanG-Strafzumessung): https://dejure.org/dienste/vernetzung/rechtsprechung?Text=2+StR+644/24
+- BGH 20.11.2025 — 4 StR 232/25 (TOA § 46a Nr. 1 StGB): https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=20.11.2025&Aktenzeichen=4+StR+232/25
+- BVerfG, Beschluss vom 23. September 2025, 2 BvR 625/25: Nichtannahme einer Verfassungsbeschwerde gegen eine auf ANOM-Daten gestützte Verurteilung; nach dem dortigen Vortrag keine verfassungsrechtlichen Bedenken gegen die Verwertung, aber keine allgemeine Verwertbarkeits- oder Akteneinsichtsregel. Amtliche Quelle: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2025/09/rk20250923_2bvr062525.html
+- Weitere Rechtsprechung vor Ausgabe in dejure.org / openjur.de mit Gericht, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Harte Leitplanken
+
+- Frist immer zuerst — kein Schritt ohne Fristensicherung.
+- Vollmacht vor Akteneinsicht.
+- Keine Einlassung ohne Aktenkenntnis.
+- Anwaltliche Endkontrolle bei allen Fristen, Antraegen und Einlassungen.

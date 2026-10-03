@@ -1,40 +1,44 @@
 ---
 name: zugang-formgerechter-erklaerung-bgh-viii-zr-159-23
-title: Rechtsgrundlagen
-description: Workflow-Skill zu zugang formgerechter erklaerung bgh viii zr 159 23. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Formgerechten Zugang elektronisch signierter Erklärungen prüfen
+description: 'Für Zugang Formgerechter Erklärung BGH Viii Zr 159 23: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftform-und-textform-bgb/skills/zugang-formgerechter-erklaerung-bgh-viii-zr-159-23
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+# Formgerechten Zugang elektronisch signierter Erklärungen prüfen
+
+Lies zuerst die Erklärung im vorliegenden Dateiformat, Signaturprüfberichte, Übermittlungs- und Empfangsnachweise sowie gerichtliche Zustellungsunterlagen. Rekonstruiere, welche Fassung wann auf welchem Weg den Empfänger erreicht haben soll. Liefere einen ausformulierten Prüfvermerk, der Form, Zugang und Nachweis getrennt bewertet und konkrete Beleglücken benennt; ordne die nachfolgende Entscheidung erst nach Prüfung des maßgeblichen Zeitpunkts und der amtlichen Quellen ein.
+
+Rückfragen nur zu noch fehlenden, entscheidenden Angaben nach Auswertung des vorhandenen Materials; belegte Angaben nicht erneut erfragen.
 
 ## Rechtsgrundlagen
 
-- BGH, Urt. v. 27.11.2024 – Az. VIII ZR 159/23 — qES-Wohnraumkuendigung; Anforderungen an Zugang in der korrespondierenden Form; Stand der Norm vor Einfuehrung des § 130e ZPO am 17.07.2024. Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.11.2024&Aktenzeichen=VIII+ZR+159/23
-- **§ 568 Abs. 1 BGB** — Schriftform der Wohnraummiete-Kündigung
-- **§ 126 Abs. 3 BGB** i.V.m. **§ 126a Abs. 1 BGB** — Ersatz der Schriftform durch qES
-- **§ 130 Abs. 1 S. 1 BGB** — Zugang empfangsbedürftiger Willenserklärungen
-- **§ 130e ZPO** — Zugangsfiktion bei gerichtlicher Weiterleitung qualifiziert signierter Dokumente (eingefuehrt 17.07.2024)
-- **§ 298 Abs. 3 ZPO** — Transfervermerk bei Ausdruck elektronischer Dokumente durch Gericht
+- BGH, Urt. v. 27.11.2024 – Az. VIII ZR 159/23 — qES-Wohnraumkuendigung; Anforderungen an Zugang in der korrespondierenden Form; Stand der Norm vor Einfuehrung des Paragraf 130e ZPO am 17.07.2024. Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.11.2024&Aktenzeichen=VIII+ZR+159/23
+- **Paragraf 568 Abs. 1 BGB** — Schriftform der Wohnraummiete-Kündigung
+- **Paragraf 126 Abs. 3 BGB** i.V.m. **Paragraf 126a Abs. 1 BGB** — Ersatz der Schriftform durch qES
+- **Paragraf 130 Abs. 1 S. 1 BGB** — Zugang empfangsbedürftiger Willenserklärungen
+- **Paragraf 130e ZPO** — Zugangsfiktion bei gerichtlicher Weiterleitung qualifiziert signierter Dokumente (eingefuehrt 17.07.2024)
+- **Paragraf 298 Abs. 3 ZPO** — Transfervermerk bei Ausdruck elektronischer Dokumente durch Gericht
 - **eIDAS-Verordnung** VO (EU) Nr. 910/2014 — Definition der qualifizierten elektronischen Signatur
 
 ## BGH-Linie — Lehrsatz der Entscheidung
 
 ### Sachverhalt (vereinfacht)
 
-Ein Vermieter erklärte die Kündigung des Wohnraummietverhältnisses durch ein elektronisch übermitteltes Dokument mit qualifizierter elektronischer Signatur. Im Rechtsstreit wurde das Dokument durch das Gericht ausgedruckt und mit einem Transfervermerk nach § 298 Abs. 3 ZPO in die Akte aufgenommen. Die Frage war, ob dieser Ausdruck den formgerechten Zugang der Kündigung beim Mieter bewirkte.
+Ein Vermieter erklärte die Kündigung des Wohnraummietverhältnisses durch ein elektronisch übermitteltes Dokument mit qualifizierter elektronischer Signatur. Im Rechtsstreit wurde das Dokument durch das Gericht ausgedruckt und mit einem Transfervermerk nach Paragraf 298 Abs. 3 ZPO in die Akte aufgenommen. Die Frage war, ob dieser Ausdruck den formgerechten Zugang der Kündigung beim Mieter bewirkte.
 
 ### Entscheidung des BGH
 
-> **Leitsatz**: Die Kündigung eines Wohnraummietverhältnisses durch ein mit einer qualifizierten elektronischen Signatur versehenes Dokument wahrt die Schriftform des § 568 Abs. 1 BGB i.V.m. § 126a Abs. 1 BGB nur dann, wenn das elektronische Dokument dem Empfänger so zugegangen ist, dass er die Echtheit der qualifizierten elektronischen Signatur selbst prüfen kann.
+> **Leitsatz**: Die Kündigung eines Wohnraummietverhältnisses durch ein mit einer qualifizierten elektronischen Signatur versehenes Dokument wahrt die Schriftform des Paragraf 568 Abs. 1 BGB i.V.m. Paragraf 126a Abs. 1 BGB nur dann, wenn das elektronische Dokument dem Empfänger so zugegangen ist, dass er die Echtheit der qualifizierten elektronischen Signatur selbst prüfen kann.
 
-> **Zur Frage des Transfervermerks**: Der Ausdruck eines elektronischen Dokuments durch das Gericht mit einem Transfervermerk gemäß § 298 Abs. 3 ZPO stellt keinen formgerechten Zugang gegenüber dem Erklärungsempfänger dar. Der Transfervermerk dient allein der Dokumentation für die Gerichtsakte, nicht der Herstellung des Zugangs beim Empfänger.
+> **Zur Frage des Transfervermerks**: Der Ausdruck eines elektronischen Dokuments durch das Gericht mit einem Transfervermerk gemäß Paragraf 298 Abs. 3 ZPO stellt keinen formgerechten Zugang gegenüber dem Erklärungsempfänger dar. Der Transfervermerk dient allein der Dokumentation für die Gerichtsakte, nicht der Herstellung des Zugangs beim Empfänger.
 
 ### Dogmatische Begründung
 
@@ -42,7 +46,7 @@ Der BGH stützt die Entscheidung auf folgende Überlegungen:
 
 **Erstens** — **Formzweck**: Die qualifizierte elektronische Signatur soll Identität und Erklärungswillen des Unterzeichners für den Empfänger nachweisbar machen. Dieser Zweck wird nur erfüllt, wenn der Empfänger die Signatur tatsächlich prüfen kann — also das digitale Dokument mit der eingebetteten kryptographischen Signaturinformation erhält.
 
-**Zweitens** — **Gerichtlicher Ausdruck und § 298 ZPO**: Der Transfervermerk nach § 298 Abs. 3 ZPO dokumentiert, dass eine elektronische Datei existiert hat und wie sie im Zeitpunkt des Ausdrucks aussah. Er ersetzt aber nicht den direkten Zugang des digitalen Dokuments beim Erklärungsempfänger. Der Mieter hatte das qES-Dokument selbst nie erhalten.
+**Zweitens** — **Gerichtlicher Ausdruck und Paragraf 298 ZPO**: Der Transfervermerk nach Paragraf 298 Abs. 3 ZPO dokumentiert, dass eine elektronische Datei existiert hat und wie sie im Zeitpunkt des Ausdrucks aussah. Er ersetzt aber nicht den direkten Zugang des digitalen Dokuments beim Erklärungsempfänger. Der Mieter hatte das qES-Dokument selbst nie erhalten.
 
 **Drittens** — **Form und Zugang als kumulative Voraussetzungen**: Schriftform/elektronische Form und Zugang sind zwei eigenständige Tatbestandsmerkmale. Die Form muss beim Zugang gewahrt sein — nicht erst nachträglich bei Gericht nachgewiesen werden.
 
@@ -77,7 +81,7 @@ Schritt 4: Empfänger muss Signatur prüfen können
 |--------|------------|
 | Vermieter (Kündigung) | Ohne sicheren digitalen Zugang der qES-Datei beim Mieter: Kündigung formunwirksam |
 | Mieter | Muss qES-Anhänge in E-Mails und WhatsApp auf Künd. prüfen (→ Mandantenwarnung) |
-| Gerichte | § 298 Abs. 3 ZPO-Ausdruck reicht für Zugang beim Erklärungsempfänger nicht |
+| Gerichte | Paragraf 298 Abs. 3 ZPO-Ausdruck reicht für Zugang beim Erklärungsempfänger nicht |
 | Anwälte | Schriftsatz mit qES-Anlage muss über Postfach des Mandanten zugehen, nicht nur Gerichtspost |
 
 ### Empfehlung für die Praxis bis zur gesetzlichen Klarstellung
@@ -93,12 +97,11 @@ Schritt 4: Empfänger muss Signatur prüfen können
 ```
 Thema: Kündigung Wohnraummiete per qualifizierter elektronischer Signatur
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Die Kündigung per qES ist grundsätzlich zulässig (§ 568 Abs. 1 BGB i.V.m.
-§ 126a Abs. 1 BGB). Aber: Das qES-Dokument muss dem Mieter so zugehen,
+Die Kündigung per qES ist grundsätzlich zulässig (Paragraf 568 Abs. 1 BGB i.V.m.
+Paragraf 126a Abs. 1 BGB). Aber: Das qES-Dokument muss dem Mieter so zugehen,
 dass er die Signatur prüfen kann. Ein späterer Gerichtsausdruck mit
-Transfervermerk (§ 298 Abs. 3 ZPO) reicht nicht.
+Transfervermerk (Paragraf 298 Abs. 3 ZPO) reicht nicht.
 
 Unsere Empfehlung: Kündigung als PDF mit qES per E-Mail an Mieter;
 Eingangsbestätigung anfordern; Sendebericht sichern. Alternativ: Papier
@@ -107,7 +110,7 @@ mit Originalunterschrift, übergeben durch Boten gegen Quittung.
 
 ## Fallstricke
 
-- **Nur ein Ausdruck ist kein Zugang**: Viele Anwälte und Richter übersehen, dass § 298 Abs. 3 ZPO-Ausdrucke nur für die Gerichtsakte bestimmt sind — nicht für den Beweis des Zugangs beim Erklärungsempfänger.
+- **Nur ein Ausdruck ist kein Zugang**: Viele Anwälte und Richter übersehen, dass Paragraf 298 Abs. 3 ZPO-Ausdrucke nur für die Gerichtsakte bestimmt sind — nicht für den Beweis des Zugangs beim Erklärungsempfänger.
 - **E-Mail im Spam**: qES-Dokument per E-Mail gesendet, landet im Spam-Filter des Mieters → technisch eingegangen, aber Zugang str. Besser: Eingangsbestätigung anfordern.
 - **WhatsApp-Anhang mit qES**: Technisch möglich, aber unüblich und Zugang schwer nachzuweisen. Empfehlung: E-Mail mit Eingangsbestätigung bevorzugen.
 
@@ -118,3 +121,5 @@ mit Originalunterschrift, übergeben durch Boten gegen Quittung.
 - → `wohnraummiete-kuendigung-paragraph-568-bgb`
 - → `mandantenwarnung-qes-per-email-whatsapp-und-zugang`
 - → `kuendigung-per-schriftsatz-zustellung-formfragen`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

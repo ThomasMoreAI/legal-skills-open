@@ -1,0 +1,66 @@
+---
+name: stgb-risikoampel-und-gegenargumente
+title: 'Stgb: Risikoampel, Gegenargumente und Verteidigungslinien'
+description: 'Für Stgb: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills/stgb-risikoampel-und-gegenargumente
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Stgb: Risikoampel, Gegenargumente und Verteidigungslinien
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StPO; StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Stgb: Risikoampel, Gegenargumente und Verteidigungslinien.
+
+## Spezialwissen: Stgb: Risikoampel, Gegenargumente und Verteidigungslinien
+- **Normen-/Quellenanker:** StPO.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Stgb** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.
+
+## StGB-Risikoampel / Gegenargumente Bausteine
+- **Prüfungsstruktur jedes Tatbestands** (objektiver / subjektiver TB / Rechtswidrigkeit / Schuld):
+ - **Objektiver Tatbestand:** Erfolg, Handlung, Kausalitaet (Äquivalenztheorie / objektive Zurechnung), Tatobjekt, ggf. Taeterqualifikation (Sonderdelikt).
+ - **Subjektiver Tatbestand:** Vorsatz (§ 15 StGB - dolus directus 1./2./eventualis); Tatbestandsirrtum § 16 StGB; ggf. besondere Absichtsmerkmale.
+ - **Rechtswidrigkeit:** Rechtfertigungsgruende - § 32 (Notwehr), § 34 (Notstand), § 228 BGB / § 229 BGB Selbsthilfe, mutmasse Einwilligung.
+ - **Schuld:** Schuldfaehigkeit § 19/20 StGB; Verbotsirrtum § 17 StGB; entschuldigender Notstand § 35 StGB; Schulduebernahmehandlung.
+- **Verteidigungslinien:**
+ - **Schuldspruch-Verteidigung:** Tatbestand nicht erfuellt (Vollendung vs. Versuch; Tatobjekt-/Zurechnungsproblem); Rechtswidrigkeit (Notwehr, Notstand); Schuld (§§ 20, 21 StGB, Verbotsirrtum).
+ - **Strafmilderung:** § 49 StGB-Verschiebung; Regelbeispiel-Wiederlegung; minderschwerer Fall (z. B. § 213 StGB).
+ - **Verfahrenseinstellung:** §§ 153, 153a StPO; § 154 StPO (Teil-Einstellung); § 170 II StPO.
+ - **TOA § 46a StGB:** Strafmilderung oder Absehen von Strafe.
+- **Risikoampel-Triage:**
+ - **Rot:** Verbrechen mit Mindeststrafe; Beweislage erdrueckend; Vorstrafenlage; Untersuchungshaftrisiko.
+ - **Gelb:** Beweislage uneindeutig; Strafrahmen mittlere Bandbreite; Bewaehrungsfaehigkeit möglich.
+ - **Gruen:** Einstellung absehbar; Tat geringfuegig; Erfolg dokumentiert (TOA, Wiedergutmachung).
+- **Gegenargumente staendiger Praxis:**
+ - "Tatzeuge eindeutig" -> Aussagepsychologische Prüfung; Erinnerungsverlust; Beeinflussung.
+ - "Gestaendnis am Tatort" -> Schweigerecht § 136 StPO; Belehrungsmangel; Beweisverwertungsverbot.
+ - "DNA / Fingerabdruck" -> Untersuchung Probekette / Asservatenhandhabung; Sekundärtransfer.
+ - "Bestaetigte Identitaet" -> Lichtbildvergleich; Aehnlichkeitsfehler bei Zwillingen / Familien.

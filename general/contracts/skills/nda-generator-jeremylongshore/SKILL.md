@@ -1,22 +1,20 @@
 ---
 name: nda-generator-jeremylongshore
 title: NDA Generator
-description: 'Generates custom non-disclosure agreements with plain English annotations.
-
-  Use when creating an NDA for business discussions, hiring, vendor relationships,
-
-  or partnerships. Supports mutual, one-way, employee, and vendor variants.
-
-  Trigger with "/nda-generator" or "create an NDA for our partnership".'
+description: Generates custom non-disclosure agreements with plain English annotations. Use when creating an NDA for business discussions, hiring, vendor relationships, or partnerships. Supports mutual, one-way, employee, and vendor variants. Trigger with "/nda-generator" or "create an NDA for our partnership".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/nda-generator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [legal, nda, confidentiality, document-generation]
+tags:
+- legal
+- nda
+- confidentiality
+- document-generation
 ---
 
 # NDA Generator

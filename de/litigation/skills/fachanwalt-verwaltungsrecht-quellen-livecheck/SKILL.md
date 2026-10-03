@@ -1,0 +1,56 @@
+---
+name: fachanwalt-verwaltungsrecht-quellen-livecheck
+title: Rechtsquellen-Livecheck
+description: 'Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Verwaltungsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/quellen-livecheck
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Rechtsquellen-Livecheck
+
+## Einsatzlage
+
+Dieser Quellen-Livecheck für **Fachanwalt Verwaltungsrecht** trennt amtliche Normfassung, frei prüfbare Rechtsprechung, Behördenhinweise, Formularstand und offene Aktualitätsrisiken.
+
+## Fachlandkarte dieses Plugins
+
+- `amtshaftung-paragraf-839-bgb-art-34-gg` — Amtshaftung Paragraf 839 BGB ART 34 GG
+- `anfechtungs-risikoampel-und-gegenargumente` — Anfechtungs Eilrechtsschutz ABS
+- `anhoerung-paragraf-28-vwvfg` — Anhoerung Paragraf 28 Vwvfg
+- `anordnung-quellenkarte` — Anordnung Quellenkarte
+- `drittanfechtung-umwelt` — Drittanfechtung
+- `eilrechtsschutz-paragraf-80-vwgo` — Eilrechtsschutz Paragraf 80 Vwgo
+- `einstweilige-verhandlung-vergleich-und-eskalation` — Einstweilige Fachanwalt Kanzlei
+- `ermessen-paragraf-40-vwvfg` — Ermessen Paragraf 40 Vwvfg
+- `erstgespraech-mandatsannahme` — Erstgespraech Mandatsannahme FA Vwgo
+- `workflow-mandantenkommunikation` — FA Verwaltungsrecht Mandant Redteam Gate
+- `einstieg-schnelltriage-fallrouting` — FA Verwaltungsrecht Start Chronologie Fristen
+- `rechtsbehelfsbelehrung-jahresfrist-vwgo` — Rechtsbehelfsbelehrung und Jahresfrist prüfen
+- `kommunalrecht-paragraf-2-go` — Kommunalrecht Paragraf 2 GO
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Tragende Normen (VwGO, VwVfG, § 80 Abs 5 VwGO einstweilige Anordnung Normenkontrolle Polizei) zuerst amtlich verifizieren: gesetze-im-internet.de oder spezialisiertes Bundesgesetzblatt-Portal; nicht aus Modellwissen finalisieren.
+- Rechtsprechung nur mit vollständiger Zitatkette: Gericht, Senat, Entscheidungsform, Datum, Aktenzeichen, Fundstelle (BGHZ/BVerfGE/amtl. Sammlung) und frei prüfbare Quelle (dejure.org, openJur, Pressemitteilungen des Gerichts, BGH-/BVerfG-Datenbank).
+- Paywall-Quellen (juris, beck-online) nicht als alleinige Verifikation nutzen; immer eine freie Bestätigung beilegen.
+- Dynamische Bereiche im Fachanwalt Verwaltungsrecht (Rechtsverordnungen, Verwaltungspraxis, Mietspiegel, Tarife) gesondert tagesaktuell prüfen, weil Modellwissen veraltet ist.
+- Quellenstand und offene Unsicherheit im Output sichtbar machen — kein Pseudo-Zitat ohne Live-Check.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

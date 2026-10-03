@@ -1,11 +1,11 @@
 ---
 name: erfindungsmeldung-aufnahme
 title: Erfindungseingang — Erstprüfung
-description: 'Mitarbeiter meldet eine Erfindung oder Unternehmen prüft eingegangene Erfindungsmeldung. ArbnErfG Arbeitnehmererfindungsgesetz. Prüfraster: Neuheit erfinderische Tätigkeit technischer Charakter EPUe Schutzfähigkeit Arbeitnehmererfindung Inanspruchnahme vs. Freistellung Frist 4 Monate § 6 ArbnErfG strategischer Wert. Output: Ersteinschaetzung Anmeldung/Weiterverfolgung/Ablehnung. Abgrenzung zu fto-triage (Freiheitsgrad) und schutzrechts-portfolio (Portfolioverwaltung).'
+description: 'Für Erfindungseingang — Erstprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gewerblicher-rechtsschutz/skills/erfindungsmeldung-aufnahme
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -14,13 +14,13 @@ language: de
 
 # Erfindungseingang — Erstprüfung
 
-## Zweck
+## Arbeitsweg
 
-Diese Skill führt eine strukturierte Erstprüfung einer Erfindungsmeldung durch. Sie schirmt offensichtliche Ausschlussgründe ab, identifiziert kritische Fristen (insbesondere neuheitsschädliche Vorveröffentlichungen nach § 3 PatG) und empfiehlt eine von drei Handlungsoptionen: **WEITERVERFOLGEN** (Beauftragung einer Patentrecherche und Einschaltung eines Patentanwalts), **KLÄREN** (Rückfragen an den Erfinder oder Spezialisten) oder **ABLEHNEN** (mit konkreter Begründung).
-
-Die Skill trifft keine Patentierbarkeitsaussage. Eine solche setzt eine vollständige Patentrecherche, Anspruchskonstruktion und das fachliche Urteil eines zugelassenen Patentanwalts voraus.
-
-Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -46,10 +46,6 @@ Bei formeller Erfindungsmeldung (IDF oder Unternehmensformular): Felder daraus e
 - **§ 3 Abs. 1 PatG** — Absolutes Neuheitserfordernis: jede Offenbarung vor dem Anmeldetag ist neuheitsschädlich; eine Schonfrist für Vorveröffentlichungen gilt im deutschen und europäischen Patentrecht nicht
 - **§§ 1–3 GebrMG** — Gebrauchsmuster als schnellerer Schutzrechtsweg (keine erfinderische Tätigkeit im gleichen Maßstab, aber Neuheit + erfinderischer Schritt erforderlich)
 - **§ 26 GeschGehG** — Geschäftsgeheimnis als Alternative bei mangelnder Erkennbarkeit der Verletzung
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Kommentare
 
@@ -204,12 +200,6 @@ Wenn der Erfinder Arbeitnehmer ist:
 - **§§ 9 ff. ArbnErfG — Vergütungspflicht:** Bei Inanspruchnahme entsteht Vergütungsanspruch. Bemessung nach den Richtlinien für die Vergütung von Arbeitnehmererfindungen im privaten Dienst (1959/zuletzt geändert). Faktoren: Erfindungswert, Anteilsfaktor, Mitarbeiterstellung.
 - Frist im Vermerk dokumentieren und in das Fristenkontrollsystem des Mandanten eintragen.
 
-## Ausgabeformat
-
-Der Erfindungsprüfungsvermerk enthält: Titel, Ergebnis (WEITERVERFOLGEN / KLÄREN / ABLEHNEN), Prüftabelle, offene Punkte, nächste Schritte. Bei aktiver Mandatssache: Ausgabe in den Mandatsordner.
-
-Kein internes Arbeitsnarrativ im Vermerk. Der Vermerk ist sofort verwendbar.
-
 ## Beispiel
 
 **Eingabe:** "Neuer Cache-Algorithmus auf Basis eines erlernten Modells anstelle von LRU; im ersten Quartal dieses Jahres entwickelt, noch nicht veröffentlicht, Prototyp intern im Staging."
@@ -250,17 +240,10 @@ Jede Aussage zu Neuheit, erfinderischer Tätigkeit oder Vergütung muss auf konk
 
 Bevor die Erfindung aufgenommen und bewertet wird, klaere:
 1. Liegt eine Diensterfindung (§ 4 ArbnErfG — Arbeitgeber hat Inanspruchnahmerecht) oder eine Freierfindung vor?
-2. Laeuft die 4-Monats-Frist des § 6 I ArbnErfG fuer die Inanspruchnahme bereits?
+2. Laeuft die 4-Monats-Frist des § 6 I ArbnErfG für die Inanspruchnahme bereits?
 3. Gibt es neuheitsschaedliche Vorveröffentlichungen (Veroeffentlichung vor Anmeldedatum)?
 4. Besteht technischer Charakter im Sinne des EPÜ Art. 52 (Software: loest technisches Problem auf technischem Weg)?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-<!-- AUDIT 27.05.2026
-Task: Bundle 031 / Halluzinations-Reparatur
-Korrektur: Zitat aus "Aktuelle Rechtsprechung"-Block entfernt (bei Zweifel loeschen).
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

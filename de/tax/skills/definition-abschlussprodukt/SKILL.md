@@ -1,0 +1,50 @@
+---
+name: definition-abschlussprodukt
+title: 'Definition: Abschlussprodukt und Übergabe'
+description: 'Für Definition: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung. Route: definition-abschlussprodukt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forschungszulage-antragstellung/skills/definition-abschlussprodukt
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# Definition: Abschlussprodukt und Übergabe
+
+## Normenanker
+
+Arbeitsfokus: **Definition: Abschlussprodukt und Übergabe**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 2 Abs. 1 FZulG` — begünstigtes Forschungs- und Entwicklungsvorhaben.
+- `§ 6 FZulG` — Bescheinigungsverfahren.
+- `§ 7 FZulG` — Bindungs- und Verfahrensbezug der Bescheinigung.
+- `§ 28 Abs. 1 VwVfG` — Anhörung bei nachteiliger Verwaltungsentscheidung.
+- `§ 37 Abs. 1 VwVfG` — Bestimmtheit des Bescheids.
+- `§ 39 Abs. 1 VwVfG` — Begründung des Bescheids.
+- `§ 48 Abs. 1 VwVfG` — Rücknahme rechtswidriger Bescheide.
+- `§ 70 Abs. 1 VwGO` — Widerspruch, soweit eröffnet.
+- `Frascati Manual Kriterien` — Neuheit, Ungewissheit, Systematik, Übertragbarkeit als fachliche Abgrenzung live einordnen.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Spezialwissen: Definition: Abschlussprodukt und Übergabe
+- **Normen-/Quellenanker:** FZulG, BSFZ.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Definition** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.

@@ -1,0 +1,48 @@
+---
+name: euipo-beschwerdekammer-eu-gerichte
+title: EUIPO-Beschwerde und EU-Gerichte
+description: 'Für EUIPO-Beschwerde und EU-Gerichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/euipo-beschwerdekammer-eu-gerichte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# EUIPO-Beschwerde und EU-Gerichte
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: EUIPO-Beschwerde und EU-Gerichte
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Pflichtfragen
+
+- Entscheidung: absolute Hindernisse, Widerspruch, Nichtigkeit, Verfall?
+- Zustellung, Frist, Sprache, Aktenzeichen, Parteien.
+- Neue Belege oder nur Rechtsfehler?
+- Parallelverfahren vor nationalen Gerichten?
+
+## Prüfprogramm
+
+1. **Fristen:** Beschwerde und Begründung strikt trennen und live prüfen.
+2. **Angriffsziel:** Tatsachenwürdigung, Rechtsfehler, Verfahrensfehler, Beweiswürdigung.
+3. **Belege:** Zulässigkeit neuer Belege und strategische Nachreichung prüfen.
+4. **Vergleichsfenster:** Einschränkung, Koexistenz, Rücknahme, Kosten.
+5. **Weitere Route:** Gericht der EU und EuGH nicht als zweite Tatsacheninstanz missverstehen.
+6. **Parallelität:** Nationale Verletzungsverfahren und EUIPO-Bestandsverfahren synchronisieren.
+
+## Quellen
+
+UMV, Verfahrensordnung, EUIPO Guidelines und konkrete Entscheidung live prüfen.

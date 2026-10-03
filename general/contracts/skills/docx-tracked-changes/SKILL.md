@@ -5,7 +5,7 @@ description: Produce properly-formatted tracked changes for a Word document. Use
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/plugins/pm-essentials/skills/docx-tracked-changes
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -118,6 +118,14 @@ Instructions for applying the redline:
 - [ ] Comments are written as the reviewer would write them, not meta-commentary
 - [ ] Pattern issues identified separately from individual changes
 - [ ] Application instructions match the target platform
+
+## Anti-Patterns
+
+- [ ] Do not paraphrase original text when creating tracked deletions — the original text must be preserved exactly, character for character, or the tracked change cannot be reviewed against source
+- [ ] Do not mix substantive changes with stylistic edits in the same section — reviewers need to approve substantive changes at a different threshold than copy edits
+- [ ] Do not write margin comments as meta-commentary about the review process ("This section needs work") — comments must be actionable instructions the author can act on
+- [ ] Do not flag every imperfect sentence as a change — over-redlining trains authors to accept changes without reading, which defeats the purpose of tracked review
+- [ ] Do not produce a redline without a summary of top-level changes — reviewers read the summary first and use it to decide which changes to scrutinise in detail
 
 ## Example Trigger Phrases
 - "Redline this contract"

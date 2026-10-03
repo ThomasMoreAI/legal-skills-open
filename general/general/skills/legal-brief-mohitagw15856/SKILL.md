@@ -5,7 +5,7 @@ description: Draft a structured legal brief, case summary, or legal argument out
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/skills/legal-brief
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -73,6 +73,14 @@ WARNING: This draft requires review by a qualified legal professional. It does n
 - [ ] Areas of legal uncertainty are noted (not hidden in confident language)
 - [ ] Caveats section lists what would change the analysis
 - [ ] Disclaimer is included
+
+## Anti-Patterns
+
+- [ ] Do not present uncertain legal positions with confident language — areas of legal ambiguity must be flagged explicitly, not smoothed over
+- [ ] Do not omit the disclaimer — every legal brief output must include the professional review caveat before the user treats it as advice
+- [ ] Do not structure the brief chronologically — IRAC format (Issue, Rule, Application, Conclusion) must be used regardless of how the user framed the request
+- [ ] Do not cite cases or statutes from memory without flagging them as [REQUIRES VERIFICATION] — hallucinated citations are worse than no citations
+- [ ] Do not conflate jurisdiction — legal positions in England & Wales, US, and EU can differ materially; always confirm jurisdiction before stating the rule
 
 ## Example Trigger Phrases
 - "Draft a legal memo on [issue]"

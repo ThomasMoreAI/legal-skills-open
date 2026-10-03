@@ -1,115 +1,42 @@
 ---
 name: verfahrensidentifikation
-title: Verfahrensidentifikation
-description: 'Extrahiert strukturiert alle Verfahrensstammdaten: Gericht Kammer Aktenzeichen Streitwert Parteien (Klaeger Beklagte Streithelfer mit Anschrift gesetzlicher Vertretung Prozessbevollmaechtigten) Instanz und Verfahrensart (Klage Eilverfahren Berufung Revision Beschwerde). Normen §§ 253 261 ZPO Klageerhebung.'
+title: 'Verfahrensidentifikation: Dokumentenmatrix, Lückenliste und Nachforderung'
+description: 'Für Verfahrensidentifikation: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/verfahrensidentifikation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Verfahrensidentifikation
+# Verfahrensidentifikation: Dokumentenmatrix, Lückenliste und Nachforderung
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill extrahiert alle Stammdaten eines Gerichtsverfahrens aus der vorgelegten Akte und stellt sie in einem standardisierten Block dar. Der Block dient als Kopfzeile jedes Aktenauszugs.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Triage — kläre vor Erstellung
+## Spezialwissen: Verfahrensidentifikation: Dokumentenmatrix, Lückenliste und Nachforderung
+- **Normen-/Quellenanker:** einschlägige Fachnormen, Behördenhinweise, Formulare, Verfahrensrecht und frei prüfbare Rechtsprechung live prüfen.
 
-1. Liegt die Klageschrift oder der Eröffnungsbeschluss vor? (Aktenzeichen, Parteien)
-2. Sind die Prozessbevollmächtigten beider Seiten aus der Akte ersichtlich?
-3. Wurde der Streitwert festgesetzt (Streitwertbeschluss) oder nur vorläufig angegeben?
-4. Gibt es Streithelfer oder Nebenintervenienten?
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
 
-## Zentrale Normen
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
 
-- § 253 Abs. 2 Nr. 1 ZPO — Klageschrift muss Gericht, Parteien und Streitgegenstand bezeichnen
-- § 261 Abs. 1 ZPO — Anhängigkeit mit Einreichung der Klage; Rechtshängigkeit mit Zustellung
-- §§ 3-9 ZPO — Streitwert (Bewertung Klageantrag, Früchte, Zinsen, Kosten)
-- § 63 GKG — Streitwertfestsetzung durch das Gericht; § 68 GKG — Streitwertbeschwerde
-- §§ 66-74 ZPO — Streithelfer / Nebenintervention (Voraussetzungen, Rechte)
-
-## Rechtsprechung zur Verfahrensidentifikation
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zu extrahierende Felder
-
-### Gericht und Spruchkörper
-
-- Gericht (vollständige Bezeichnung, z. B. Landgericht Frankfurt am Main)
-- Kammer oder Senat (z. B. 3. Zivilkammer, 14. Senat)
-- Aktenzeichen (z. B. 3 O 123/23)
-- Instanz (Erste Instanz / Berufung / Revision / Beschwerde / Rechtsbeschwerde)
-
-### Verfahrensart
-
-- Ordentliches Klageverfahren (ZPO)
-- Eilverfahren (einstweilige Verfügung § 935 ff. ZPO / einstweilige Anordnung)
-- Berufungsverfahren (§ 511 ff. ZPO)
-- Revisionsverfahren (§ 542 ff. ZPO)
-- Strafverfahren (StPO)
-- Verwaltungsverfahren (VwGO)
-- Arbeitsgerichtsverfahren (ArbGG)
-- Sozialgerichtsverfahren (SGG)
-- Sonstiges (Beschwerde, PKH, Streitwertbeschwerde)
-
-### Streitwert
-
-- Festgesetzter Streitwert (soweit bekannt)
-- Vorläufiger Streitwert (soweit Antrag gestellt)
-- Gebührenstreitwert (sofern abweichend)
-
-### Parteien
-
-Für jede Partei:
-
-| Feld | Inhalt |
-|---|---|
-| Bezeichnung | Kläger / Beklagter / Berufungskläger / Streithelfer etc. |
-| Name / Firma | Vollständige Bezeichnung |
-| Anschrift | Straße PLZ Ort |
-| Gesetzliche Vertretung | (bei juristischen Personen) |
-| Prozessbevollmächtigter | Kanzlei und Rechtsanwalt |
-| Anschrift Bevollmächtigter | Straße PLZ Ort |
-
-### Streithelfer / Nebenintervenienten
-
-- Benennung der Partei, auf deren Seite der Streithelfer steht
-- Eigene Bevollmächtigung wenn vorhanden
-
-## Output-Vorlage
-
-```
-## Verfahrensidentifikation
-
-**Gericht:** Landgericht [Stadt]
-**Kammer:** [X]. Zivilkammer
-**Aktenzeichen:** [AZ]
-**Instanz:** Erste Instanz
-**Verfahrensart:** Ordentliches Klageverfahren (ZPO)
-**Streitwert:** [EUR oder "nicht festgesetzt"]
-
-### Parteien
-
-| Rolle | Partei | Anschrift | Prozessbevollmächtigter |
-|---|---|---|---|
-| Kläger | [Name] | [Adresse] | [Kanzlei / RA] |
-| Beklagter | [Name] | [Adresse] | [Kanzlei / RA] |
-```
-
-## Hinweise
-
-- Fehlende Felder werden als "nicht aus Akte ersichtlich" gekennzeichnet, nicht geschätzt.
-- Bei mehreren Klägern oder Beklagten wird jede Person separat aufgeführt.
-- Streithelfer werden gesondert unter der Hauptparteitabelle gelistet.
-- Keine Bewertung der Parteibezeichnung (z. B. ob Kläger wirklich klagebefugt ist).
-
----
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Verfahrensidentifikation** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.

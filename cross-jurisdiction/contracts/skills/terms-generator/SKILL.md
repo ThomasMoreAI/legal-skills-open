@@ -1,22 +1,21 @@
 ---
 name: terms-generator
 title: Terms of Service Generator
-description: 'Generates comprehensive terms of service by analyzing a website or application
-
-  to detect business type, data collection, and user interactions. Use when launching
-
-  a website, app, or SaaS product that needs terms of service with GDPR/CCPA compliance.
-
-  Trigger with "/terms-generator" or "create terms of service for my website".'
+description: Generates comprehensive terms of service by analyzing a website or application to detect business type, data collection, and user interactions. Use when launching a website, app, or SaaS product that needs terms of service with GDPR/CCPA compliance. Trigger with "/terms-generator" or "create terms of service for my website".
 author: jeremylongshore
 author_url: https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/business-tools/general-legal-assistant/skills/terms-generator
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: contracts
 language: en
-tags: [legal, terms-of-service, compliance, gdpr, ccpa]
+tags:
+- legal
+- terms-of-service
+- compliance
+- gdpr
+- ccpa
 ---
 
 # Terms of Service Generator

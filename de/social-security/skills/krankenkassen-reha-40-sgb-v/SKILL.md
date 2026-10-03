@@ -1,0 +1,71 @@
+---
+name: krankenkassen-reha-40-sgb-v
+title: Krankenkassen Reha 40 Sgb V
+description: 'Für Krankenkassen Reha 40 SGB V: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/krankenkassen-reha-40-sgb-v
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Krankenkassen Reha 40 Sgb V
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Anspruch
+
+§ 40 Abs. 1 SGB V: Reha ambulant stationaer als Leistung der Krankenkasse, wenn ambulante Behandlung nicht ausreicht.
+
+## Voraussetzungen
+
+- Erkrankung mit Reha-Bedarf.
+- Aerztliche Verordnung.
+- Krankenkasse pruet Geeignetheit.
+
+## Formen
+
+### Ambulante Reha
+- 4-6 Stunden tgl. über 3 Wochen.
+- Wohnortnah.
+
+### Stationaere Reha
+- Klinikaufenthalt.
+- 3 Wochen, Verlaengerung möglich.
+
+### Mutter-Vater-Kind-Kur § 41 SGB V
+- 3 Wochen Klinikaufenthalt mit Kindbetreuung.
+
+### Anschlussheilbehandlung (AHB)
+- Nach Krankenhausaufenthalt.
+- Direkter Uebergang in Reha.
+
+## Abgrenzung zur DRV-Reha
+
+- Krankenkasse: bei akuter Erkrankungsfolge.
+- Rentenversicherung: bei drohender Erwerbsminderung (Pflicht der DRV § 11 SGB VI).
+- "Reha vor Rente" — DRV prüft Reha vor EM-Rente.
+
+## Wahlrecht § 8 SGB IX
+
+- Wunsch- und Wahlrecht hinsichtlich Klinik.
+
+## Prüfraster
+
+1. Aerztliche Verordnung (Muster 61)?
+2. Reha-Bedarf belegbar?
+3. Welcher Traeger zuständig?
+4. Wahlrecht beachtet?
+5. AHB-Anschluss möglich?

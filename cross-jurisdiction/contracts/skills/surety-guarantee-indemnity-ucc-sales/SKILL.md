@@ -1,0 +1,114 @@
+---
+name: surety-guarantee-indemnity-ucc-sales
+title: Surety, Guarantee und Indemnity
+description: 'Für Surety, Guarantee und Indemnity: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/common-law-kompass/skills/surety-guarantee-indemnity-ucc-sales
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: contracts
+language: en
+---
+
+# Surety, Guarantee und Indemnity
+
+## Regelungs- und Quellenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `UCC § 2-201` — Statute of Frauds für Warenkauf.
+- `UCC § 2-313` — express warranties.
+- `UCC § 2-314` — implied warranty of merchantability.
+- `Restatement (Second) of Contracts § 17` — formation by bargain.
+- `Restatement (Second) of Contracts § 71` — consideration.
+- `Restatement (Second) of Contracts § 90` — promissory estoppel.
+- `CISG Art. 14` — Angebot.
+- `CISG Art. 18` — Annahme.
+- `CISG Art. 25` — wesentliche Vertragsverletzung.
+- `CISG Art. 35` — Vertragsmaessigkeit der Ware.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: England Limitation Act 1980 (6 Jahre Contract, 6 Jahre Tort), US-Statutes of Limitations einzelstaatlich (oft 3-6 Jahre), ICC-Schiedsverfahren Antwort 30 Tage.
+- Tragende Normen verifizieren: Englisches Recht (Common Law / Equity), US-Recht (Restatements, UCC), Vergleich BGB-System, IPR-Anknüpfung (Rom I, Rom II), HCCH-Konventionen, New Yorker Übereinkommen (Schiedssprüche) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant mit US/UK-Bezug, Solicitor, Barrister, US-Attorney, deutscher Anwalt, Schiedsgericht (ICC, LCIA, ICDR), High Court, Court of Appeal.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Letter of Engagement, Statement of Claim / Particulars of Claim, Defence, Affidavit, Witness Statement, Discovery/Disclosure, Settlement Agreement — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Wann verwenden
+
+- bei Verträgen, Memos, Redlines, Übersetzungen oder Schulungen mit Common-Law-Bezug
+- wenn deutsche Rechtsbegriffe ins Englische übertragen werden
+- wenn UK/US-Unterschiede oder False Friends drohen
+
+## Rückfragen, wenn unklar
+
+- Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
+- Welche Partei oder Rolle vertreten wir?
+- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+- Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
+
+## Typische Fehler vermeiden
+
+- Bürgschaft, guarantee, suretyship und indemnity nicht gleichsetzen.
+- Consideration nicht als deutsche Gegenleistung behandeln.
+- UK, USA, New York, Delaware und UCC nicht vermischen.
+- Keine erfundenen Fälle oder Quellen verwenden.
+
+## Ton
+
+Common-Law-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf leicht sein, aber nie auf Kosten der juristischen Trennschärfe.
+
+## Triage
+
+Before proceeding, clarify:
+1. Is it a guarantee (secondary obligation — only liability if principal fails) or indemnity (primary, independent obligation)?
+2. UK or US context — different rules on writing requirements and discharge?
+3. Is the guarantee being altered/discharged by variation of principal debt?
+
+## Key Case Law
+
+- **Holme v Brunskill** (1878) 3 QBD 495 (CA) — Guarantee discharge by material variation: any variation in principal contract without guarantor's consent discharges guarantor unless variation is evidently insubstantial or beneficial.
+- **Moschi v Lep Air Services** [1973] AC 331 (HL) — Distinction guarantee/indemnity: indemnor is primarily liable independent of principal; guarantor liable only if principal defaults; indemnity survives variation of principal contract.
+- **Trafalgar House v General Surety** [1996] AC 199 (HL) — Demand guarantee: on-demand bonds are payable on demand without proof of default; court will not inquire into underlying dispute.
+- **Marubeni Hong Kong v Mongolian Government** [2005] 1 WLR 2497 (CA) — State guarantee interpretation: same principles as commercial; clear words needed to override Holme v Brunskill rule for state guarantees.
+
+## Normen und Quellen
+
+- **UK:** Statute of Frauds 1677 s 4 (guarantee in writing); Misrepresentation Act 1967
+- **US:** UCC § 3-419 (accommodation party); Restatement (Third) Suretyship and Guaranty (1996)
+- Andrews & Millett, Law of Guarantees (8th ed. 2020)
+
+## Output Template: Guarantee / Indemnity Classification
+
+```
+GUARANTEE / INDEMNITY REVIEW
+Date: [DATE] — Instrument: [DESCRIPTION]
+Jurisdiction: [England/Wales / New York]
+
+1. CLASSIFICATION
+ [ ] Guarantee: secondary liability; principal must default first
+ [ ] On-demand bond: payable on demand; no proof of default required
+ [ ] Indemnity: primary independent liability; variation does not discharge
+
+2. FORMAL REQUIREMENTS
+ UK: Writing under Statute of Frauds 1677 s 4: [YES — signed / NO — invalid]
+ US: Statute of Frauds applicable state: [YES / NO]
+
+3. DISCHARGE RISKS (Holme v Brunskill)
+ Material variation without consent: [YES — RISK / NO]
+ Extension of time to principal: [YES — RISK if no reservation of rights / NO]
+ Release of co-guarantor: [YES — RISK / NO]
+ Reservation of rights clause present: [YES / NO — ADD]
+
+4. DEMAND REQUIREMENTS
+ Notice required: [YES — [X] business days / NO — on demand]
+ Conforming demand: [documentary requirements met?]
+
+5. RECOMMENDED ACTION
+[...]
+```

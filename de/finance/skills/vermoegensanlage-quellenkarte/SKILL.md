@@ -1,0 +1,64 @@
+---
+name: vermoegensanlage-quellenkarte
+title: Vermögensanlage Quellenkarte
+description: 'Für Vermögensanlage Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/vermoegensanlage-quellenkarte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Vermögensanlage Quellenkarte
+
+## Zweck
+
+Diese Quellenkarte sichert für **Fachanwalt Bank- und Kapitalmarktrecht** jede tragende Aussage ab: Norm, Rechtsprechung, Behördenpraxis und Zitierfähigkeit werden vor Ausgabe verifiziert.
+
+## Tragende Normen (live prüfen)
+
+- **BGB §§ 488, 491-505** — amtlichen Stand vor tragender Aussage prüfen
+- **WpHG** — amtlichen Stand vor tragender Aussage prüfen
+- **KAGB** — amtlichen Stand vor tragender Aussage prüfen
+- **ZAG** — amtlichen Stand vor tragender Aussage prüfen
+- **MiFID II** — amtlichen Stand vor tragender Aussage prüfen
+
+## Zuständige Spruchkörper und Behörden
+
+- BaFin
+- Bundesbank
+- ESMA
+
+## Amtliche und frei zugängliche Datenbanken
+
+- gesetze-im-internet.de (Bundesrecht amtlich)
+- rechtsprechung-im-internet.de
+- dejure.org / openJur (frei zugängliche Rechtsprechung)
+- bafin.de (Verlautbarungen, Merkblätter)
+- EBA/ESMA-Guidelines
+- bundesbank.de
+
+## Fristen mit Quellenrelevanz
+
+- Widerrufsfrist Verbraucherdarlehen 14 Tage § 355 BGB
+- MiFID II-Reports
+
+## Prüfroute
+
+1. Normtext gegen die amtliche Quelle prüfen (Fassung, Inkrafttreten, Übergangsrecht).
+2. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Fundstelle ausgeben; Senat/Spruchkörper benennen.
+3. Behördenpraxis (Merkblätter, Erlasse, FAQ) mit Stand-Datum zitieren.
+4. Ergebnis als Quellenmatrix: Aussage — Quelle — Stand — Tragweite — Restunsicherheit.
+
+## Fehlerbremse
+
+- Keine BeckRS-/juris-Blindzitate aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+- Zitierform nach `references/zitierweise.md`; Quellenhygiene nach `references/quellenhygiene.md`.

@@ -1,0 +1,102 @@
+---
+name: kanzlei-automationen-bea-journal
+title: Automationen und Routinen
+description: 'Für Automationen und Routinen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/kanzlei-automationen-bea-journal
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Automationen und Routinen
+
+## Arbeitsbereich
+
+Plant und dokumentiert wiederkehrende Kanzlei-Routinen als sichere automatisierte Ablaeufe. Anwendungsfall Kanzlei will Postlauf Fristencheck UStVA-Vorbereitung oder Payroll automatisieren. Normen Art. 6 Art. 28 Art. 32 DSGVO Auftragsverarbeitung § 43 BRAO. Prüfraster Rechtsgrundlage Freigabe Datenschutzfolgeabschaetzung Art. 35 DSGVO TOM Konflikte mit bestehenden Prozessen. Output Automationsplan mit Triggern Verantwortlichen Freigabeprotokoll und Datenschutznachweis. Abgrenzung zu kanzlei-allgemein-kanzleitag-simulation und kanzlei-allgemein-postlauf. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO §§ 43, 43a, 43e, 45, 49b, 53, 59b, 73; BORA §§ 2, 3, 4, 5, 6, 10, 11, 12; RVG §§ 3a, 10; GwG §§ 2, 10, 11, 43; DSGVO Art. 5, 6, 9, 28, 32; BDSG § 26; ZPO § 130d; BRAO § 31a/beA und lokale Kammerhinweise live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+1. Welche Routine soll automatisiert werden: Postlauf, Zeitabfrage, Fristencheck, UStVA oder Tagesabschluss?
+2. Ist eine echte Systemanbindung verfuegbar (beA-Connect, Outlook, DATEV) oder soll simuliert werden?
+3. Wer muss die Automation freigeben und welche Datenschutzfolgeabschaetzung ist erforderlich (Art. 35 DSGVO)?
+4. Gibt es Konflikte mit bestehenden Kanzlei-Prozessen oder Doppelzuständigkeiten?
+
+## Zentrale Normen
+- Art. 6 DSGVO — Rechtsgrundlage für automatisierte Datenverarbeitung in der Kanzlei
+- Art. 28 DSGVO — Auftragsverarbeitungsvertrag bei Einsatz externer Dienstleister
+- Art. 32 DSGVO — Technisch-organisatorische Maßnahmen für sichere Automation
+- § 43 BRAO — Berufsrechtliche Pflichten bei Einsatz technischer Hilfsmittel
+
+## Typische Routinen
+
+- Täglicher Postlauf um 11 Uhr.
+- beA-Journallauf mit Screenshot, ZIP-Export, Entpacken, EB-Prüfung und Fristenübergabe, wenn der Nutzer beA-Connect ausdrücklich freigegeben hat.
+- Stündliche Zeiterfassungsfrage.
+- Ordner-Monitoring für neue Eingänge.
+- Fristencheck morgens und nachmittags.
+- Tagesabschluss mit offenen Action-Items.
+- Nächste-beste-Aktion-Review aus dem Kommandocenter: Fristen, beA, GwG, Rechnungen, offene Posten, Recherche und HR priorisieren.
+- Wochenreview für Rechnungen und ruhende Akten.
+- Rechnungsreview mit offenen Narrativen, nicht abgerechneten Zeiten, Vorschüssen, Rechtsschutz, GoBD-Ablage und E-Rechnungsvalidierung.
+- Geschäftskonto-Review mit neuen Zahlungseingängen, offenen Posten, Bankmatching, Klärfällen und Mahnvorschlägen.
+- Monatliche UStVA-Vorbereitung mit Ausgangsrechnungen, Eingangsrechnungen, Betriebsausgaben, Vorsteuer, ELSTER- oder Steuerkanzlei-Übergabe.
+- Monatliche Payroll-Vorbereitung mit Fehlzeiten, Bonus, Gratifikation, Lohnsoftware- oder Steuerkanzlei-Übergabe.
+- Urlaubs- und Krankheitsreview mit Vertretungscheck für Fristen, beA, Postlauf und Telefon.
+- Kanzleikalender-Tagesblick mit Terminen, Abwesenheiten, Payroll, UStVA und Jour fixe.
+- Freundlicher Schreib-Canvas-Hinweis, wenn ein Entwurf juristisch unsubstantiiert, unvollständig oder versandnah ist.
+- Qualitätsgate für Klagen, Repliken, Verträge und beA-Versand vor Fristablauf.
+- Rechtsprechungsmonitor für freigegebene Suchfragen in amtlichen Quellen, OpenJur und dejure.org mit Aktenablage und Aktualitätsvermerk.
+- Handelsregisterabruf-Erinnerung bei neuen Unternehmensgegnern, Vertragsparteien oder Rechnungsempfängern.
+- Mandatsannahme-/GwG-Reminder für fehlende Identifizierung, wirtschaftlich Berechtigte, Handelsregister, Ausweiskopie, Mandatsvereinbarung, Vorschuss, PEP-Prüfung, Risikobewertung und periodische Aktualisierung.
+- Acht-Stunden-Kanzleitag-Simulation für Training, Demo und Testakte.
+
+## Vor jeder Automation fragen
+
+1. Was soll geprüft werden?
+2. Welche Akten oder Ordner sind umfasst?
+3. Welche Daten dürfen verarbeitet werden?
+4. Wer bekommt das Ergebnis?
+5. Soll nur berichtet oder auch ein Entwurf vorbereitet werden?
+6. Wie wird verhindert, dass echte Fristen nur im Modell hängen?
+7. Wie wird verhindert, dass Rechnungen ohne Freigabe, Validierung oder Archivierung erzeugt werden?
+8. Ist dies ein Echtlauf oder eine Simulation?
+9. Wie werden Personal-, Lohn- und Gesundheitsdaten geschützt?
+
+## Fallback ohne Automationsfunktion
+
+Wenn keine technische Automation verfügbar ist:
+
+- Checkliste erzeugen.
+- Kalendertext formulieren.
+- Manuelle Routine im Tagesbrief vormerken.
+
+## Sicherheitsregel
+
+Keine stille Überwachung von Messenger, E-Mail, beA oder lokalen Ordnern. Immer transparent machen, was geprüft wird.
+
+Bei beA-Automationen nie PIN, Token, Zertifikatsdateien oder Passwörter entgegennehmen. Jeder EB, jeder Versand und jeder Nachrichtenexport braucht eine nachvollziehbare Einzelentscheidung oder einen vorher klar bestätigten, protokollierten Leselauf ohne Versand.
+
+Bei Rechnungsautomationen nie automatisch finale Rechnungen versenden oder buchen. Zulässig sind offene Narrative, Rechnungsvorschläge, E-Rechnungsdatenblätter, GoBD-Prüfprotokolle und Erinnerungen an Validierung oder Freigabe.
+
+Bei Bank- und Buchhaltungsautomationen nie Bankzugangsdaten entgegennehmen, keine Zahlungsaufträge auslösen und keine endgültige Buchung behaupten. Zulässig sind Kontoauszugsimport, Simulation, Matchingvorschläge, Klärfälle, Mahnvorschläge und Fachsystem-Übergabe.
+
+Bei UStVA-Automationen nie automatisch übermitteln. Zulässig sind Belegsammlung, Summenblatt, Vorsteuer-Unsicherheiten, ELSTER-Checkliste, Steuerberater-Rückfragen und Erinnerung an das Übertragungsprotokoll.
+
+Bei HR- und Payroll-Automationen keine Diagnosen, keine unnötigen Gesundheitsdaten und keine stille Lohn-, SV- oder Lohnsteuerübermittlung. Zulässig sind Register, Erinnerungen, Übergabelisten und Fachsystem-Checklisten.
+
+Bei Rechtsprechungsmonitoring keine vertraulichen Mandatsdaten in öffentliche Suchfelder übernehmen und keine Fundstellen öffentlich ablegen. Zulässig sind pseudonymisierte Suchabfragen, Trefferlisten, Verwertungsnotizen und Ablageprotokolle nach Freigabe.
+
+Bei Mandatsannahme- und GwG-Automationen keine Ausweisdokumente ungeschützt auslesen, keine Verdachtsmeldungen automatisch versenden und keine Mandatsannahme fingieren. Zulässig sind Erinnerungen, Checklisten, Dokumentationsentwürfe, Ablageprotokolle und Freigabeanforderungen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

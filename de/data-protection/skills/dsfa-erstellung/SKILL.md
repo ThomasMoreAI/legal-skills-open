@@ -1,11 +1,11 @@
 ---
 name: dsfa-erstellung
 title: DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO
-description: 'Datenschutz-Folgenabschaetzung nach Art. 35 DSGVO durchführen wenn hohes Risiko für Betroffene vorliegt. Art. 35 36 DSGVO DSFA § 67 BDSG. Prüfraster: Risikobewertung Verarbeitungsbeschreibung Notwendigkeit Verhältnismäßigkeit Massnahmen Restrisiko Vorabkonsultation. Output: DSFA-Dokument Massnahmenkatalog. Abgrenzung: nicht für regulaere Verarbeitungen ohne hohes Risiko.'
+description: 'Für DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsfa-erstellung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # DSFA – Datenschutz-Folgenabschätzung Art. 35 DSGVO
-
-## Zweck
-
-Vollständige Datenschutz-Folgenabschätzung nach Art. 35 DSGVO: von der Schwellwertanalyse über die Risikoidentifikation bis zur Maßnahmenplanung und Freigabe. Das Format richtet sich nach dem Hausformat aus der Referenz-DSFA in `CLAUDE.md`; fehlt diese, wird die EDSA-Methodik (Leitlinien 09/2022) genutzt.
 
 ## Eingaben
 
@@ -29,71 +25,71 @@ Vollständige Datenschutz-Folgenabschätzung nach Art. 35 DSGVO: von der Schwell
 
 1. **Schwellwertanalyse (Muss-DSFA-Prüfung).**
 
-   Art. 35 Abs. 1 DSGVO: DSFA erforderlich bei voraussichtlich hohem Risiko. Mindestens zwei der folgenden Kriterien aus EDSA-Leitlinien 09/2022 treffen zu:
+ Art. 35 Abs. 1 DSGVO: DSFA erforderlich bei voraussichtlich hohem Risiko. Mindestens zwei der folgenden Kriterien aus EDSA-Leitlinien 09/2022 treffen zu:
 
-   | Kriterium | Prüfung |
-   |---|---|
-   | Bewertung / Scoring | Ja / Nein |
-   | Automatisierte Entscheidung mit Rechtswirkung (Art. 22 DSGVO) | Ja / Nein |
-   | Systematische Überwachung | Ja / Nein |
-   | Verarbeitung sensibler Daten (Art. 9/10 DSGVO) | Ja / Nein |
-   | Verarbeitung großer Mengen oder im großen Umfang | Ja / Nein |
-   | Abgleich oder Zusammenführung von Datensätzen | Ja / Nein |
-   | Verarbeitung betreffend schutzbedürftige Personen (Kinder, Patienten) | Ja / Nein |
-   | Einsatz neuer Technologien (KI, Biometrie, IoT) | Ja / Nein |
-   | Verarbeitung verhindert Betroffenenrechte oder Dienstnutzung | Ja / Nein |
+ | Kriterium | Prüfung |
+ |---|---|
+ | Bewertung / Scoring | Ja / Nein |
+ | Automatisierte Entscheidung mit Rechtswirkung (Art. 22 DSGVO) | Ja / Nein |
+ | Systematische Überwachung | Ja / Nein |
+ | Verarbeitung sensibler Daten (Art. 9/10 DSGVO) | Ja / Nein |
+ | Verarbeitung großer Mengen oder im großen Umfang | Ja / Nein |
+ | Abgleich oder Zusammenführung von Datensätzen | Ja / Nein |
+ | Verarbeitung betreffend schutzbedürftige Personen (Kinder, Patienten) | Ja / Nein |
+ | Einsatz neuer Technologien (KI, Biometrie, IoT) | Ja / Nein |
+ | Verarbeitung verhindert Betroffenenrechte oder Dienstnutzung | Ja / Nein |
 
-   Art. 35 Abs. 3 DSGVO: In jedem Fall DSFA bei systematischer umfangreicher Verarbeitung besonderer Kategorien, umfangreicher Überwachung öffentlicher Bereiche, oder wenn auf der BfDI-Blacklist aufgeführt.
+ Art. 35 Abs. 3 DSGVO: In jedem Fall DSFA bei systematischer umfangreicher Verarbeitung besonderer Kategorien, umfangreicher Überwachung öffentlicher Bereiche, oder wenn auf der BfDI-Blacklist aufgeführt.
 
 2. **BfDI-Blacklist-Abgleich.**
-   Abgleich gegen die Blacklist des BfDI (§ 67 BDSG i.V.m. Art. 35 Abs. 4 DSGVO). `[Modellwissen – aktuellen Stand auf bfdi.bund.de prüfen]`
-   Typische Blacklist-Einträge: Biometrische Erfassungssysteme zur eindeutigen Identifizierung, Videoüberwachung öffentlicher Bereiche im großen Umfang, Scoring-Systeme für Kreditwürdigkeit, Gesundheitsdaten-Plattformen für Forschung.
+ Abgleich gegen die Blacklist des BfDI (§ 67 BDSG i.V.m. Art. 35 Abs. 4 DSGVO). `[Modellwissen – aktuellen Stand auf bfdi.bund.de prüfen]`
+ Typische Blacklist-Einträge: Biometrische Erfassungssysteme zur eindeutigen Identifizierung, Videoüberwachung öffentlicher Bereiche im großen Umfang, Scoring-Systeme für Kreditwürdigkeit, Gesundheitsdaten-Plattformen für Forschung.
 
-   BfDI-Whitelist (§ 67 Abs. 2 BDSG): Wenn Verarbeitungsart auf Whitelist, entfällt DSFA-Pflicht. `[Modellwissen – prüfen]`
+ BfDI-Whitelist (§ 67 Abs. 2 BDSG): Wenn Verarbeitungsart auf Whitelist, entfällt DSFA-Pflicht. `[Modellwissen – prüfen]`
 
 3. **Beschreibung der Verarbeitungstätigkeit (Art. 35 Abs. 7 lit. a DSGVO).**
-   - Zweck und Art der Verarbeitung
-   - Datenkategorien und betroffene Personengruppen
-   - Empfänger, Übermittlungen (inkl. Drittland)
-   - Aufbewahrungsfristen
-   - Technische Umgebung (Hosting, Sub-AVs)
-   - Eigentümer der Verarbeitung (Fachabteilung, Produkt)
+ - Zweck und Art der Verarbeitung
+ - Datenkategorien und betroffene Personengruppen
+ - Empfänger, Übermittlungen (inkl. Drittland)
+ - Aufbewahrungsfristen
+ - Technische Umgebung (Hosting, Sub-AVs)
+ - Eigentümer der Verarbeitung (Fachabteilung, Produkt)
 
 4. **Notwendigkeit und Verhältnismäßigkeit (Art. 35 Abs. 7 lit. b DSGVO).**
-   - Ist die Verarbeitung für den Zweck erforderlich (Erforderlichkeit)?
-   - Werden nicht mehr Daten verarbeitet als nötig (Datenminimierung Art. 5 Abs. 1 lit. c DSGVO)?
-   - Ist die Zweckbindung eingehalten (Art. 5 Abs. 1 lit. b DSGVO)?
-   - Ist die Rechtsgrundlage klar (Art. 6, 9 DSGVO)?
-   - Ist die Speicherfrist verhältnismäßig (Art. 5 Abs. 1 lit. e DSGVO)?
+ - Ist die Verarbeitung für den Zweck erforderlich (Erforderlichkeit)?
+ - Werden nicht mehr Daten verarbeitet als nötig (Datenminimierung Art. 5 Abs. 1 lit. c DSGVO)?
+ - Ist die Zweckbindung eingehalten (Art. 5 Abs. 1 lit. b DSGVO)?
+ - Ist die Rechtsgrundlage klar (Art. 6, 9 DSGVO)?
+ - Ist die Speicherfrist verhältnismäßig (Art. 5 Abs. 1 lit. e DSGVO)?
 
 5. **Risikoidentifikation und -bewertung (Art. 35 Abs. 7 lit. c DSGVO).**
-   Für jeden identifizierten Risikotyp: Eintrittswahrscheinlichkeit × Schwere des Schadens:
+ Für jeden identifizierten Risikotyp: Eintrittswahrscheinlichkeit × Schwere des Schadens:
 
-   | Risiko | Kategorie | Eintrittsws. | Schwere | Risikostufe |
-   |---|---|---|---|---|
-   | Unbefugter Zugriff | Vertraulichkeit | [hoch/mittel/gering] | [hoch/mittel/gering] | 🔴/🟠/🟡/🟢 |
-   | Datenverlust | Verfügbarkeit | … | … | … |
-   | Profiling ohne Kenntnis | Transparenz | … | … | … |
-   | Diskriminierung | Schaden Betroffener | … | … | … |
-   | Identitätsdiebstahl | Sicherheit | … | … | … |
+ | Risiko | Kategorie | Eintrittsws. | Schwere | Risikostufe |
+ |---|---|---|---|---|
+ | Unbefugter Zugriff | Vertraulichkeit | [hoch/mittel/gering] | [hoch/mittel/gering] | 🔴/🟠/🟡/🟢 |
+ | Datenverlust | Verfügbarkeit | … | … | … |
+ | Profiling ohne Kenntnis | Transparenz | … | … | … |
+ | Diskriminierung | Schaden Betroffener | … | … | … |
+ | Identitätsdiebstahl | Sicherheit | … | … | … |
 
-   Referenz: EDSA-Leitlinien 09/2022, Abschn. 6; ENISA-Leitfaden DSFA.
+ Referenz: EDSA-Leitlinien 09/2022, Abschn. 6; ENISA-Leitfaden DSFA.
 
 6. **Maßnahmen zur Risikominimierung (Art. 35 Abs. 7 lit. d DSGVO).**
-   Für jedes Risiko ≥ 🟡 konkrete Maßnahme:
-   - Technische Maßnahmen (Verschlüsselung, Pseudonymisierung, Zugriffskontrolle)
-   - Organisatorische Maßnahmen (Schulungen, Vier-Augen-Prinzip, Berechtigungskonzept)
-   - Vertragsmaßnahmen (AVV, SCC)
-   - Restrisiko nach Maßnahmen (bleibt 🔴? → Vorab-Konsultation Art. 36 DSGVO)
+ Für jedes Risiko ≥ 🟡 konkrete Maßnahme:
+ - Technische Maßnahmen (Verschlüsselung, Pseudonymisierung, Zugriffskontrolle)
+ - Organisatorische Maßnahmen (Schulungen, Vier-Augen-Prinzip, Berechtigungskonzept)
+ - Vertragsmaßnahmen (AVV, SCC)
+ - Restrisiko nach Maßnahmen (bleibt 🔴? → Vorab-Konsultation Art. 36 DSGVO)
 
 7. **Vorab-Konsultation Art. 36 DSGVO.**
-   Wenn nach Maßnahmen ein hohes Restrisiko verbleibt: Pflicht zur Vorab-Konsultation bei der zuständigen Aufsichtsbehörde (Art. 36 Abs. 1 DSGVO). Frist: Aufsichtsbehörde hat 8 Wochen zur Antwort (Art. 36 Abs. 2 DSGVO), verlängerbar um 6 Wochen.
+ Wenn nach Maßnahmen ein hohes Restrisiko verbleibt: Pflicht zur Vorab-Konsultation bei der zuständigen Aufsichtsbehörde (Art. 36 Abs. 1 DSGVO). Frist: Aufsichtsbehörde hat 8 Wochen zur Antwort (Art. 36 Abs. 2 DSGVO), verlängerbar um 6 Wochen.
 
 8. **DSB-Beteiligung.**
-   DSB ist bei der DSFA zu beteiligen (Art. 35 Abs. 2 DSGVO). Stellungnahme des DSB einholen und dokumentieren.
+ DSB ist bei der DSFA zu beteiligen (Art. 35 Abs. 2 DSGVO). Stellungnahme des DSB einholen und dokumentieren.
 
 9. **Freigabe und Dokumentation.**
-   Freigabeprozess aus `CLAUDE.md`; DSFA im Verarbeitungsverzeichnis vermerken (Art. 30 Abs. 1 DSGVO). DSFA ist bei wesentlicher Änderung der Verarbeitung zu wiederholen (Art. 35 Abs. 11 DSGVO).
+ Freigabeprozess aus `CLAUDE.md`; DSFA im Verarbeitungsverzeichnis vermerken (Art. 30 Abs. 1 DSGVO). DSFA ist bei wesentlicher Änderung der Verarbeitung zu wiederholen (Art. 35 Abs. 11 DSGVO).
 
 ## Quellen und Zitierweise
 
@@ -112,31 +108,16 @@ Verbindlich nach `../../references/zitierweise.md`.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — DSFA fuer neue Verarbeitung durchfuehren | Schwellenwertanalyse und vollstaendige DSFA nach Template unten |
-| Variante A — Verarbeitung schon laeuft ohne DSFA | Nachtraegliche DSFA; Massnahmen-Umsetzungsplan erstellen |
+| Standard — DSFA für neue Verarbeitung durchfuehren | Schwellenwertanalyse und vollstaendige DSFA nach Template unten |
+| Variante A — Verarbeitung schon laeuft ohne DSFA | Nachtraegliche DSFA; Maßnahmen-Umsetzungsplan erstellen |
 | Variante B — Ergebnis der DSFA negativ (hohes Restrisiko) | Verarbeitung anpassen oder Aufsichtsbehoerde konsultieren |
-| Variante C — DSFA fuer mehrere aehnliche Verarbeitungen | Muster-DSFA-Dokument erstellen; individuell anpassen |
+| Variante C — DSFA für mehrere aehnliche Verarbeitungen | Muster-DSFA-Dokument erstellen; individuell anpassen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Ausgabeformat
-
-DSFA im Hausformat (aus Referenz-DSFA in `CLAUDE.md`) oder, falls nicht verfügbar, folgendes Standardformat:
-
-1. Deckblatt (Vorhaben, Datum, Verantwortlicher, DSB, Version)
-2. Zusammenfassung (Executive Summary: Risikostufe Gesamt, Ergebnis, Freigabe-Status)
-3. Beschreibung Verarbeitungstätigkeit
-4. Schwellwertanalyse (Tabelle + Begründung)
-5. Notwendigkeit und Verhältnismäßigkeit
-6. Risikoidentifikation und -bewertung (Risikotabelle)
-7. Maßnahmen (Tabelle: Risiko | Maßnahme | Verantwortlich | Frist | Restrisiko)
-8. DSB-Stellungnahme (Platzhalter für Unterschrift)
-9. Freigabe-Dokumentation
-10. Überprüfungsplan (wann wiederholen)
 
 ## Beispiel (Schwellwertanalyse)
 
@@ -167,16 +148,12 @@ Stand: 05/2026. Aktualität prüfen bei EDSA-Aktualisierungen der Leitlinien 09/
 - `datenschutzrecht/skills/drittlandstransfer-pruefung/SKILL.md` — TIA als Bestandteil der DSFA bei Drittlandbezug
 - `datenschutzrecht/skills/datenpanne-meldung/SKILL.md` — Vorab-Konsultation Art. 36 DSGVO nach negativer DSFA
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Faktische Updates (Stand 05/2026)
 
-- **DSFA + FRIA (Art. 27 KI-VO) bei Hochrisiko-KI:** Ab 02.08.2026 muessen Betreiber bestimmter Hochrisiko-KI-Systeme (oeffentliche Stellen, oeffentlich-finanzierte Dienste, Kreditwuerdigkeitsbewertung, Kranken-/Lebensversicherungs-Risikobewertung) eine Grundrechte-Folgenabschaetzung (Fundamental Rights Impact Assessment, FRIA) durchfuehren. DSFA und FRIA koennen integriert werden, sind aber rechtlich eigenstaendig. Quelle: VO (EU) 2024/1689, Art. 27.
-- **EDSA-Stellungnahme 28/2024 zu KI-Modellen:** verbindliche Auslegungshilfe zur DSGVO-Bewertung von KI-Modellen und KI-Diensten, insb. zu personenbezogenen Daten in Modell-Gewichten und Training. Quelle: edpb.europa.eu.
-- **BfDI-/LfDI-Blacklist Art. 35 Abs. 4 DSGVO:** Aktuelle Liste verpflichtender DSFA-Faelle live ueber bfdi.bund.de pruefen; auch Landesdatenschutzbehoerden veroeffentlichen Listen (z.B. LfDI BW, LDA Bayern).
-- **Art. 36 DSGVO Vorab-Konsultation:** Bei Restrisiko nach DSFA Pflicht zur Konsultation der Aufsichtsbehoerde. Frist 8 Wochen, Verlaengerung 6 Wochen moeglich.
+- **DSFA + FRIA (Art. 27 KI-VO) bei Hochrisiko-KI:** Art. 50-Transparenzpflichten bleiben ab 02.08.2026 gesondert zu prüfen. Für Hochrisiko-Systeme nach Anhang III ist nach Artikel 113 in der Fassung 2026/1744 ab 02.12.2027 einzuplanen; Anhang-I-Systeme ab 02.08.2028. DSFA und FRIA können integriert werden, bleiben aber rechtlich eigenständig. Die Verschiebung betrifft Kapitel III Abschnitte 1 bis 3 außer Artikel 6 Absatz 5, nicht die Datenschutzpflichten.
+- **EDSA-Stellungnahme 28/2024 zu Modellen:** nicht bindende aufsichtsbehördliche Orientierungshilfe zur Bewertung personenbezogener Daten in Modellgewichten und Trainingsvorgängen; Normtext und einschlägige Rechtsprechung gehen vor. Quelle: edpb.europa.eu.
+- **BfDI-/LfDI-Blacklist Art. 35 Abs. 4 DSGVO:** Aktuelle Liste verpflichtender DSFA-Faelle live über bfdi.bund.de prüfen; auch Landesdatenschutzbehoerden veröffentlichen Listen (z.B. LfDI BW, LDA Bayern).
+- **Art. 36 DSGVO Vorab-Konsultation:** Bei Restrisiko nach DSFA Pflicht zur Konsultation der Aufsichtsbehoerde. Frist 8 Wochen, Verlaengerung 6 Wochen möglich.
 
 ## Triage zu Beginn
 
@@ -184,7 +161,7 @@ Stand: 05/2026. Aktualität prüfen bei EDSA-Aktualisierungen der Leitlinien 09/
 2. Welche EDSA-Kriterien sind erfüllt? (Mindestens 2 für DSFA-Pflicht)
 3. Ist die Verarbeitung auf der BfDI-Blacklist?
 4. Gibt es ein Hausformat in CLAUDE.md?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Output-Template — DSFA-Zusammenfassung
 
@@ -217,7 +194,17 @@ Genehmigende Person: [NAME, FUNKTION]
 Datum: [DATUM]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

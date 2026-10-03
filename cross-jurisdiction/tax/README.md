@@ -10,7 +10,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Treaty Analyst`](skills/treaty-analyst-rohasnagpal/) | Analyses treaty entitlement and relief on given facts — treaty residency, the applicable income article,… |
+| [`Treaty Analyst`](skills/treaty-analyst-rohasnagpal/) | Analyses treaty entitlement and relief on given facts — treaty residency, the applicable income article… |
 
 ## Cold-start context
 

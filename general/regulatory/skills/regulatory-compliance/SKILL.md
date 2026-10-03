@@ -5,11 +5,18 @@ description: Multi-sector regulatory compliance skill for industry-specific regu
 author: judicialmind
 author_url: https://github.com/judicialmind/legal-skills/tree/main/skills/regulatory-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
+sources:
+- title: Agency guide
+  path: references/agency-guide.md
+- title: Investigation playbook
+  path: references/investigation-playbook.md
+- title: Program design
+  path: references/program-design.md
 ---
 
 # Regulatory Compliance

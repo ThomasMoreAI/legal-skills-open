@@ -8,9 +8,9 @@ Jurisdiction: `us` · Practice: `arbitration` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Employee Arbitration Agreement`](skills/employee-arbitration-agreement/) | Drafts a mutual, enforceable Employee Arbitration Agreement for binding arbitration of employment disputes.… |
-| [`Employment Arbitration Agreement`](skills/employment-arbitration-agreement/) | Drafts enforceable mutual employment arbitration agreements under the FAA and state law. Covers claim scope,… |
-| [`Mediation Summary Statement`](skills/mediation-summary/) | Drafts confidentiality-compliant mediation summary statements documenting session process, outcomes,… |
+| [`Employee Arbitration Agreement`](skills/employee-arbitration-agreement/) | Drafts a mutual, enforceable Employee Arbitration Agreement for binding arbitration of employment… |
+| [`Employment Arbitration Agreement`](skills/employment-arbitration-agreement/) | Drafts enforceable mutual employment arbitration agreements under the FAA and state law. Covers claim… |
+| [`Mediation Summary Statement`](skills/mediation-summary/) | Drafts confidentiality-compliant mediation summary statements documenting session process, outcomes… |
 
 ## Cold-start context
 

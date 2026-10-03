@@ -1,0 +1,145 @@
+---
+name: mahnbescheid-online
+title: Mahnbescheid online
+description: 'Für Mahnbescheid online: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forderungsmanagement — Klagewerkstatt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forderungsmanagement-klagewerkstatt/skills/mahnbescheid-online
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Mahnbescheid online
+
+Strategische und technische Anleitung zum gerichtlichen Mahnverfahren Paragrafen 688-703d ZPO als kostenguenstige Alternative zur Klage.
+
+## Wann ist der Mahnbescheid sinnvoll?
+
+| Sachverhalt | MB sinnvoll? |
+|---|---|
+| Schuldner zahlt nicht, kein Widerspruch zu erwarten | JA |
+| Schuldner hat angekuendigt Widerspruch zu erheben | NEIN (direkt Klage) |
+| Beweislage komplex, viele Einwendungen erwartet | NEIN |
+| Verbraucher, Bestreiten wahrscheinlich | NEIN |
+| Hauptzweck Verjährungshemmung | JA (Paragraf 204 Abs. 1 Nr. 3 BGB) |
+| Forderung auch über 10.000 EUR mit niedrigem Einwendungsrisiko | JA; das Mahnverfahren wird nicht durch die allgemeine Amtsgerichts-Wertgrenze gesperrt |
+| Unbestimmter Anspruch (Schadensersatz dem Grunde nach) | NICHT zulässig Paragraf 688 Abs. 2 Nr. 1 ZPO |
+| Gegenseitige Verträge mit Gegenleistungseinrede | nicht über MB (Paragraf 688 Abs. 2 Nr. 2 ZPO) |
+
+## Voraussetzungen Paragraf 688 ZPO
+
+- Anspruch auf Zahlung **bestimmten Geldbetrages in Euro**.
+- Forderung ist **nicht** von Gegenleistung abhaengig oder Gegenleistung erbracht.
+- Bei Verbrauchergeschaeft: Zinssatz max. 12 % uebersteigt den Basiszinssatz nicht.
+- Zustellung im Inland möglich (Ausnahme EuMVVO für EU-Auslandsfaelle).
+
+Ausgeschlossen Paragraf 688 Abs. 2 ZPO:
+- Nr. 1: unbestimmte Forderungen.
+- Nr. 2: gegenseitige Verträge mit offener Gegenleistung.
+- Nr. 3: öffentliche Zustellung notwendig.
+
+## Zuständigkeit Paragraf 689 ZPO
+
+**Ausschließlich** das zentrale Mahngericht des Landes, in dem der Gläubiger seinen allgemeinen Gerichtsstand hat:
+
+| Bundesland | Zentrales Mahngericht |
+|---|---|
+| Berlin, Brandenburg | AG Wedding (Berlin) |
+| Bayern | AG Coburg |
+| Baden-Wuerttemberg | AG Stuttgart |
+| Hessen | AG Hueningen |
+| Niedersachsen, Bremen | AG Uelzen |
+| NRW (3 Mahngerichte) | AG Hagen / AG Euskirchen / AG Mettmann |
+| Hamburg, Schleswig-Holstein, Mecklenburg-Vorpommern | AG Schleswig |
+| Sachsen, Sachsen-Anhalt, Thueringen | AG Aschersleben |
+| Saarland, Rheinland-Pfalz | AG Mayen |
+
+Bei Gläubiger im Ausland: Wahl unter den Mahngerichten (Paragraf 689 Abs. 2 ZPO), AG Wedding (Berlin) für ausl. Gläubiger gegen Bekl. mit Wohnsitz in DE.
+
+## Online-Antragstellung
+
+- Portal: [online-mahnantrag.de](https://www.online-mahnantrag.de) (Bund-Länder-Kooperation)
+- Format: Barcode-Antrag, professioneller XJustiz-Datensatz oder Online-Formular
+- Anwaltspflicht: nein; das automatisierte Mahnverfahren und die erste Instanz vor dem Amtsgericht setzen keinen Anwaltszwang voraus. Anwaltszwang entsteht erst vor Landgericht und höheren Gerichten nach Paragraf 78 Absatz 1 Satz 1 ZPO.
+- Bei beruflichem Antrag durch Anwalt: über beA EDA-Schnittstelle (Paragraf 690 Abs. 3 ZPO)
+
+## Inhalt des Antrags Paragraf 690 ZPO
+
+1. Bezeichnung der Parteien mit ladungsfaehiger Anschrift.
+2. Bezeichnung des Gerichts.
+3. Bestimmter Antrag (Hauptforderung, Zinsen, Nebenforderungen genau).
+4. Bezeichnung des Anspruchs (Katalog-Code, z.B. "Kaufvertrag", "Werklohn", "Mietzins").
+5. Erklaerung zur Gegenleistung.
+6. Bei Verbrauchergeschaeft: Effektivzinssatz, Hauptbetrag, Bezugsforderung.
+
+Achtung: Paragraf 690 Abs. 1 Nr. 5 ZPO – Belehrung an Verbraucher uneingeschraenkte Pflicht.
+
+## Kosten
+
+- Gerichtsgebuehr: 0,5 (mindestens 36 EUR) nach KV 1100 GKG.
+- Anwaltsgebuehr: 1,0 Geschäftsgebuehr VV 3305 RVG (etwa Streitwert 5.000 EUR = 303 EUR).
+- Erheblich guenstiger als Klage (3,0 Verfahrensgebuehr + 1,2 Terminsgebuehr).
+
+## Verfahrensablauf
+
+```
+Antrag (online) -> Pruefung Mahngericht -> Erlass MB
+   -> Zustellung an Schuldner
+      -> KEIN Widerspruch in 2 Wochen
+         -> Antrag Vollstreckungsbescheid (binnen 6 Monaten Paragraf 701 ZPO)
+            -> Erlass VB -> Zustellung -> ggf. Einspruch 2 Wochen
+               -> Rechtskraft -> Vollstreckung
+      -> Widerspruch (Vordruck oder formfrei)
+         -> Abgabe ans Prozessgericht (auf Antrag Paragraf 696 ZPO)
+            -> Anspruchsbegruendung Klaeger binnen Frist
+               -> Streitiges Verfahren
+```
+
+## Widerspruch Paragraf 694 ZPO
+
+- Frist: 2 Wochen ab Zustellung (Paragraf 692 Abs. 1 Nr. 3 ZPO).
+- Form: Schriftlich oder über elektronisches Formular.
+- Inhalt: keine Begruendung erforderlich; pauschaler Widerspruch genuegt.
+- Teilwiderspruch möglich (Paragraf 694 Abs. 1 ZPO).
+- Verspaeteter Widerspruch wirkt als Einspruch gegen den Vollstreckungsbescheid (Paragraf 694 Abs. 2 ZPO).
+
+## Abgabe an Prozessgericht Paragraf 696 ZPO
+
+- Antrag durch Kläger oder Beklagten.
+- Beweis: Kläger muss Anspruch innerhalb der gesetzten Frist begruenden (Anspruchsbegruendung als Klageschrift, Paragraf 697 ZPO).
+- Saeumnisurteil möglich, wenn Kläger nicht begruendet.
+
+## Vollstreckungsbescheid Paragraf 699 ZPO
+
+- Antrag nach Ablauf 2-Wochen-Frist, spaetestens 6 Monate (Paragraf 701 ZPO).
+- Wirkung: Vollstreckungstitel (Paragraf 794 Abs. 1 Nr. 4 ZPO).
+- Verjährung: 30 Jahre (Paragraf 197 Abs. 1 Nr. 4 BGB).
+- Einspruch: 2 Wochen ab Zustellung (Paragraf 700 Abs. 1 ZPO i.V.m. Paragrafen 338 ff. ZPO).
+- Vorlaeufige Vollstreckbarkeit ohne Sicherheit (Paragraf 700 Abs. 1 ZPO i.V.m. Paragraf 708 Nr. 2 ZPO).
+
+## EuMVVO (Europaeisches Mahnverfahren VO 1896/2006)
+
+Bei grenzueberschreitenden Forderungen im EU-Inland (ausser DK):
+- Antrag Formblatt A
+- Zustellung in jedem EU-Mitgliedstaat
+- Einspruchsfrist 30 Tage
+- Vollstreckungstitel europaweit
+- Zentrales Mahngericht: AG Wedding (Berlin)
+
+## Typische Fehler
+
+- Forderung nicht bezifferbar (Schadensersatz dem Grunde nach).
+- Gegenleistung nicht erbracht aber so erklaert.
+- Zinssatz bei Verbrauchergeschaeft über zulaessigem Hoechstsatz.
+- Anspruch falsch katalogisiert (Code falsch).
+- Adresse nicht ladungsfaehig.
+- Bei Widerspruch keine fristgerechte Anspruchsbegruendung.
+
+## Quellen
+- ZPO Paragrafen 688-703d [gesetze-im-internet.de/zpo/](https://www.gesetze-im-internet.de/zpo/__688.html)
+- Online-Mahnantrag [online-mahnantrag.de](https://www.online-mahnantrag.de)
+- EuMVVO 1896/2006 [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32006R1896)
+- GKG KV 1100 [gesetze-im-internet.de/gkg_2004](https://www.gesetze-im-internet.de/gkg_2004/)

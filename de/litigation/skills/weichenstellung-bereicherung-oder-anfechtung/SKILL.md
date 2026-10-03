@@ -1,11 +1,11 @@
 ---
 name: weichenstellung-bereicherung-oder-anfechtung
 title: 'Weichenstellung: Bereicherung oder Anfechtung?'
-description: 'Triage-Entscheidung: welcher Regelungskreis ist einschlägig - Bereicherungsrecht, außerinsolvenzliche Anfechtung oder Insolvenzanfechtung. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Rechtsgrundmangel, Insolvenzeröffnung, vollstreckbarer Titel. Output: Weiterleitungsmatrix zum richtigen Prüf-Skill. Abgrenzung: kein inhaltlicher Anspruchsgutachter.'
+description: 'Für Weichenstellung: Bereicherung oder Anfechtung?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/weichenstellung-bereicherung-oder-anfechtung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -26,19 +26,6 @@ language: de
 
 § 812 Abs. 1 BGB (Leistungskondiktion: kein Rechtsgrund) — §§ 129 ff. InsO (Insolvenzanfechtung: Verfahren eröffnet) — §§ 1–13 AnfG (Gläubigeranfechtung: Titel vorhanden, kein Insolvenzverfahren) — § 985 BGB (Vindikation: Eigentum noch vorhanden) — § 17 InsO (Zahlungsunfähigkeit) — § 2 AnfG (Titel + Fruchtlosigkeit) — § 826 BGB (sittenwidrige Schädigung, Konkurrenz)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Weichenstellungs-Schema
 
 ### Frage 1: Liegt ein Rechtsgrund für die Vermögensverschiebung vor?
@@ -114,3 +101,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

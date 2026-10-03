@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu fachanwalt internationales wirtschaftsrecht cisg pruefung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: UN-Kaufrecht für grenzüberschreitende Warenkäufe prüfen
+description: 'Für Fachanwalt Internationales Wirtschaftsrecht Cisg Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/fachanwalt-internationales-wirtschaftsrecht-cisg-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: commercial
 language: de
 ---
+
+# UN-Kaufrecht für grenzüberschreitende Warenkäufe prüfen
+
+Lies zuerst Vertrag und AGB, Bestell- und Lieferunterlagen, Untersuchungsberichte, Mängelrügen und Schadensbelege. Ordne Niederlassungen, Rechtswahl und den zeitlichen Ablauf mit Fundstellen zu. Liefere ein ausformuliertes CISG-Prüfmemo mit Anwendungsbereich, Anspruchs- und Einwendungsprüfung sowie einer Schnittstellenkarte zu Zuständigkeit und Nachweisen; ergänze nur das beauftragte Rüge-, Aufhebungs- oder Erwiderungsschreiben.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -54,7 +60,6 @@ language: de
 
 | Gericht | AZ | Datum | Kernaussage |
 |---------|----|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 | ICC Schied | 13194/MS | 2013 | Art. 35 CISG Beschaffenheit: Abweichung von Probe = Vertragsverletzung auch ohne ausdrückliche Vereinbarung |
 
 ## Prüfschema
@@ -63,12 +68,10 @@ language: de
 |---------|-----------|------|-------------|
 | 1 | Anwendungsbereich: Parteien in versch. CISG-Staaten? Warenkauf bewegliche Sachen? | Art. 1–3 CISG | CISG anwendbar; sonst nationales Recht |
 | 2 | Ausnahmen Art. 2 CISG: Verbraucher, Auktion, Schiffe, Wertpapiere? | Art. 2 CISG | Ausnahme → nationales Kaufrecht |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 4 | Vertragsschluss Art. 14–24: Angebot bestimmt? Annahme fristgerecht? Abweichende Antwort Art. 19? | Art. 14, 18, 19 CISG | Wesentliche Abweichung = Ablehnung + Gegenangebot |
 | 5 | Pflichten Verkäufer Art. 30: Lieferung vertragsgemäß, vollständig, rechtzeitig | Art. 30, 35 CISG | Pflichtverstoß → Käuferrechte Art. 45 ff. |
 | 6 | Vertragsmäßigkeit Art. 35: Beschaffenheit vereinbart oder gewöhnliche Verwendung | Art. 35 CISG | Mangel wenn Ware nicht vertragsgemäß; Beweislast Käufer |
 | 7 | Untersuchung Art. 38: so bald wie möglich nach Übergabe/Ankunft | Art. 38 CISG | Unterlassene Untersuchung → Rechtsverlust |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Wesentliche Vertragsverletzung Art. 25: Vertragsaufhebungsrecht Art. 49 | Art. 25, 49 CISG | Wesentlich: Käufer bekommt nicht was er erwarten durfte; Verkäufer hätte Konsequenz vorhersehen können |
 | 10 | Rechtsbehelfe wählen: Nachbesserung Art. 46, Minderung Art. 50, SE Art. 74, Aufhebung Art. 49 | Art. 45–52 CISG | Wahl des Rechtsbehelfs nach Interessenlage |
 | 11 | Schadensersatz Art. 74–77: vorhersehbar + Mitigation | Art. 74, 77 CISG | Vorhersehbarkeit bei Vertragsschluss; Minderungspflicht des Geschädigten |
@@ -109,7 +112,6 @@ Ware [genaue Bezeichnung, Menge] folgende Mängel aufweist:
 
 Die Mängel wurden am [Entdeckungsdatum] nach pflichtgemäßer Untersuchung gemäß
 Art. 38 CISG festgestellt. Die Rüge erfolgt hiermit fristgerecht gemäß Art. 39 Abs. 1
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Wir behalten uns alle Rechte gemäß Art. 45 ff. CISG vor, insbesondere Nachbesserung
 (Art. 46 Abs. 3 CISG), Minderung (Art. 50 CISG) und Schadensersatz (Art. 74 CISG).
@@ -206,11 +208,8 @@ Art. 49 CISG bleiben unberührt.
 
 | Gegenargument | Rechtliche Grundlage | Reaktion |
 |---------------|---------------------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Rüge verspätet | Art. 39 Abs. 1 CISG | Entdeckungszeitpunkt belegen (Untersuchungsbericht, E-Mail); versteckte Mängel: späterer Fristbeginn |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Mitigation versäumt | Art. 77 CISG | Deckungskauf nachweisen; Marktpreis-Alternative nachweisen; Mitigation war unmöglich (Art. 79) |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 | Zinshöhe Art. 78 CISG unklar | Art. 78 CISG | Nationales Recht des Schuldnerstatuts bestimmt Zinssatz; dt. Recht: § 288 BGB (9 Prozentpunkte über Basiszinssatz im B2B) |
 
 ## Streitwert und Kosten
@@ -247,7 +246,6 @@ Anwaltsgebühren: RVG 1.3 VG + 1.2 TG; bei intl. Schiedsverfahren Zeithonorar 30
 - Aktueller Vertragsstaaten-Stand (12/2024: 97 Staaten; Ruanda seit 01.10.2024) — Liste: https://uncitral.un.org/en/texts/salegoods/conventions/sale_of_goods/status
 - UNCITRAL CLOUT-Datenbank (Case Law on UNCITRAL Texts): https://uncitral.un.org/en/case_law
 - Pace-CISG-Database: https://iicl.law.pace.edu/cisg/cisg
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe ueber offizielle oder frei zugaengliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Literatur (Schlechtriem/Schwenzer, Brunner/Gottlieb etc.): nur mit Nutzerquelle oder lizenziertem Live-Zugriff zitieren (Quellenregel).
 
 ## Vertiefung: Triage und Output-Template CISG
@@ -262,7 +260,6 @@ Anwaltsgebühren: RVG 1.3 VG + 1.2 TG; bei intl. Schiedsverfahren Zeithonorar 30
 
 ### Ergaenzende Leitsaetze CISG
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Output-Template CISG-Gutachten
 **Adressat:** Mandant oder Schiedsgericht — Tonfall: sachlich-juristisch
@@ -289,7 +286,3 @@ Parteien: [KLAEGER, SITZ] ./. [BEKLAGTER, SITZ]
 4. Ergebnis:
    [Anspruch begrundet / verjährt / praekkludiert]
 ```
-
-<!-- AUDIT 27.05.2026
-Alle übrigen Zitate in diesem Skill wurden nicht beanstandet.
--->

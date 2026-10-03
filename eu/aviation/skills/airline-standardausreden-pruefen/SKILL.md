@@ -1,15 +1,18 @@
 ---
 name: airline-standardausreden-pruefen
 title: Airline-Standardausreden — Katalog und Gegenargumente
-description: Katalog typischer Standardausreden der Fluggesellschaften mit Gegenargumenten und Pinpoint auf EuGH-Rechtsprechung. Behandelt technischer Defekt wilder Streik Streik der Gewerkschaft Crew-Engpass verdeckter Konstruktionsfehler vorheriger Flugausfall Wetter Slot-Verschiebung Vogelschlag Versaeumung der Meldefrist Akzeptanz der Umbuchung Voucher als Erfuellung Zuständigkeitseinrede. Für Reaktion auf Airline-Ablehnungsschreiben in Skill `forderungsschreiben-mahnung` oder Klage.
+description: 'Für Airline-Standardausreden — Katalog und Gegenargumente: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fluggastrechte. Route: airline-standardausreden-pruefen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/airline-standardausreden-pruefen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: aviation
 language: de
+sources:
+- title: Eugh rechtsprechung fluggastrechte
+  path: references/eugh-rechtsprechung-fluggastrechte.md
 ---
 
 # Airline-Standardausreden — Katalog und Gegenargumente
@@ -26,7 +29,7 @@ language: de
 
 **Gegenargument**:
 
-> EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — technische Defekte sind grundsaetzlich Teil der normalen Tätigkeit eines Luftfahrtunternehmens und kein außergewöhnlicher Umstand. Volltext auf curia.europa.eu vor Versand aufrufen und Randnummer (typisch Rn. 24 ff.) einsetzen.
+> EuGH, Urt. v. 22.12.2008, C-549/07 (Wallentin-Hermann) — Übliche technische Betriebs-/Wartungsprobleme entlasten regelmäßig nicht. Rn. 23–27 und 39–43 unterscheiden externe, nicht beherrschbare Ursachen wie einen verdeckten Fabrikationsfehler; auch dann Kausalität und zumutbare Gegenmaßnahmen konkret belegen. Keine ungeprüften Randnummern einsetzen.
 >
 > Ausnahme: versteckter Konstruktionsfehler des Herstellers — EuGH, Urt. v. 13.6.2025, C-411/23 (curia.europa.eu) — kann ausnahmsweise außergewöhnlich sein, auch wenn die Airline Monate vor dem Flug informiert war.
 
@@ -74,7 +77,7 @@ Praktisch: oft im Detail strittig — Airlines berufen sich pauschal; aber zumut
 
 **Außergewöhnlich aber**:
 
-> EuGH, Urt. v. 4.5.2017, C-315/15 (Pesková) — Vogelschlag ist grundsaetzlich außergewöhnlicher Umstand i.S.v. Art. 5 Abs. 3 VO 261/2004 (curia.europa.eu). Vor Versand Volltext aufrufen und Randnummer einsetzen.
+> EuGH, Urt. v. 4.5.2017, C-315/15 (Pesková) — Vogelschlag ist grundsätzlich außergewöhnlicher Umstand i.S.v. Art. 5 Abs. 3 VO 261/2004 (curia.europa.eu). Vor Versand Volltext aufrufen und Randnummer einsetzen.
 >
 > ABER: die Airline muss zusätzlich nachweisen dass alle **zumutbaren Maßnahmen** ergriffen wurden — z. B. zuegige technische Prüfung schnellstmögliche Wiederinbetriebnahme Umbuchung auf anderen Flug.
 
@@ -82,7 +85,7 @@ Praktisch: oft im Detail strittig — Airlines berufen sich pauschal; aber zumut
 
 **Außergewöhnlich aber**:
 
-> EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag mit nachfolgender sicherheitsbedingter Pruefung kann außergewöhnlicher Umstand sein (curia.europa.eu).
+> EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag mit nachfolgender sicherheitsbedingter Prüfung kann außergewöhnlicher Umstand sein (curia.europa.eu).
 >
 > ABER: zumutbare Maßnahmen sind weiterhin nachzuweisen (Ersatzflugzeug, Umbuchung, Information).
 
@@ -103,7 +106,7 @@ Praktisch: oft im Detail strittig — Airlines berufen sich pauschal; aber zumut
 **Gegenargument**:
 
 > Akzeptanz einer Ersatzbeförderung schließt den Ausgleichsanspruch nach Art. 7 VO 261/2004 nicht aus. Anspruchsgrundlage Art. 7 ist eigenständig und greift parallel zur Erstattung oder Ersatzbeförderung (Art. 8 VO 261/2004).
-> 
+>
 > Voucher können Ausgleichsanspruch nur dann ersetzen wenn der Fluggast **schriftlich und ausdrücklich** auf seinen Ausgleichsanspruch verzichtet hat. Ein blosser Voucher-Erhalt ohne Verzichtserklärung ist kein Anspruchsverzicht.
 
 ### 11. "Wir sind nicht zuständig (Codeshare)"
@@ -142,3 +145,11 @@ Diesen Katalog vor jedem Mahnungsschreiben durchgehen — Standardausreden mit P
 
 - `airline-ausreden-gegenargumente.md` zur Vorbereitung von Mahnung oder Klage.
 - Verweis auf entsprechenden Pinpoint im EuGH-Rspr-Katalog (`references/eugh-rechtsprechung-fluggastrechte.md`).
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

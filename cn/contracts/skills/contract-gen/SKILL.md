@@ -5,11 +5,20 @@ description: 合同生成技能，以资深法律专家身份生成完整合同�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/contract-gen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: contracts
 language: zh
+sources:
+- title: 00 合同框架
+  path: references/00-合同框架.md
+- title: 01 立场策略
+  path: references/01-立场策略.md
+- title: 02 合同类型适配
+  path: references/02-合同类型适配.md
+- title: 03 质量标准
+  path: references/03-质量标准.md
 ---
 
 # 合同生成

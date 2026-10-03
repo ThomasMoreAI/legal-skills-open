@@ -5,11 +5,14 @@ description: Background legal and regulatory context for the shinkoku tax filing
 author: kazukinagata
 author_url: https://github.com/kazukinagata/shinkoku/tree/main/skills/tax-legal-context
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: jp
 practice: tax
 language: ja
+sources:
+- title: Disclaimer
+  path: references/disclaimer.md
 ---
 
 # 税務法的コンテキスト（Tax Legal Context）

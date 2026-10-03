@@ -4,12 +4,11 @@ Tax advice and compliance — direct and indirect taxes, planning, and disputes.
 
 Jurisdiction: `in` · Practice: `tax` · Skill language: en
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`GST Notice Interpreter — Master Skill`](skills/gst-notice-interpreter/) | Master orchestrator skill for the GST Notice Responder. Load this skill first for ANY GST notice. It reads… |
-| [`Legal Opinion Drafter`](skills/legal-opinion-drafter-rohasnagpal/) | Drafts a structured written legal opinion — the question presented, the facts relied on, the analysis, the… |
+| [`Legal Opinion Drafter`](skills/legal-opinion-drafter-rohasnagpal/) | Drafts a structured written legal opinion — the question presented, the facts relied on, the analysis… |
 
 ## Cold-start context
 

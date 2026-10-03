@@ -9,8 +9,8 @@ Jurisdiction: `general` · Practice: `trusts-and-estates` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`الهدف`](skills/arabic-islamic-law-salmandev/) | Master Islamic jurisprudence basics in Arabic |
-| [`Succession Planning Summary`](skills/succession-planning-summary/) | Synthesizes wills, trusts, beneficiary designations, powers of attorney, and healthcare directives into a… |
-| [`Will Drafter`](skills/will-drafter-rohasnagpal/) | Drafts jurisdiction-specific wills with clear gifts, fiduciary powers, residue and execution safeguards. Use… |
+| [`Succession Planning Summary`](skills/succession-planning-summary/) | Synthesizes wills, trusts, beneficiary designations, powers of attorney, and healthcare directives into… |
+| [`Will Drafter`](skills/will-drafter-rohasnagpal/) | Drafts jurisdiction-specific wills with clear gifts, fiduciary powers, residue and execution safeguards.… |
 
 ## Cold-start context
 

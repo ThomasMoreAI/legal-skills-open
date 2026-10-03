@@ -5,11 +5,16 @@ description: Generate templated responses for common legal inquiries with escala
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/legal-canned-responses
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Escalation triggers
+  path: references/escalation_triggers.md
+- title: Response templates
+  path: references/response_templates.md
 ---
 
 > **⚠️ EXPERIMENTAL** — This skill is provided for educational and informational purposes only. It does NOT constitute legal advice. All responsibility for usage rests with the user. Consult qualified legal professionals before acting on any output.
@@ -32,6 +37,16 @@ Production-ready toolkit for generating templated responses to common legal inqu
 - [Scope & Limitations](#scope--limitations)
 - [Anti-Patterns](#anti-patterns)
 - [Tool Reference](#tool-reference)
+
+## Clarify First
+
+Before generating the response, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Inquiry category + sub-type** — DSR-acknowledgment vs subpoena-objection select completely different templates
+- [ ] **The raw inquiry text** — required to run escalation detection first; a litigation, regulator, law-enforcement, or press trigger means STOP and route to counsel, not a templated reply
+- [ ] **Substitution variables** — requestor name, dates, matter, and regulation — populate the response; missing values leave placeholders and the wrong timelines (GDPR 30-day vs CCPA 45-day)
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the response.
 
 ## Tools
 

@@ -5,11 +5,14 @@ description: Structured intake — practice-area templates, cross-area issue spo
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/client-intake
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Readme
+  path: references/intake-templates/README.md
 ---
 
 # /client-intake

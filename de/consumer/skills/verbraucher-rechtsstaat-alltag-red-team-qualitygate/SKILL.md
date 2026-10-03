@@ -1,0 +1,53 @@
+---
+name: verbraucher-rechtsstaat-alltag-red-team-qualitygate
+title: Red-Team-Qualitygate
+description: 'Für Red-Team-Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: Verbraucher im Rechtsstaat Alltag.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verbraucher-rechtsstaat-alltag/skills/red-team-qualitygate
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: consumer
+language: de
+---
+
+# Red-Team-Qualitygate
+
+## Fachkern: Red-Team-Qualitygate
+- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
+- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Kaltstart in fünf Schritten
+
+1. Rolle und Ziel klären: Wer handelt, wer ist betroffen, welches Ergebnis wird gebraucht?
+2. Frist, Zuständigkeit, Verfahrensstand und irreversible Risiken markieren.
+3. Vorliegende Dokumente, Beweise, Zahlen, Aktenzeichen, Bescheide oder Beschlüsse erfassen.
+4. Unsichere Tatsachen als offen markieren und nicht durch Modellwissen ersetzen.
+5. Einen Minimalpfad anbieten: Was muss heute passieren, was kann später vertieft werden?
+
+## Prüf- und Arbeitslogik
+
+- **Normenanker:** BGB Kauf- und Werkvertragsrecht, Verbraucherrecht, VSBG, ZPO-Mahnverfahren, PAngV, DDG und einschlägige EU-Regeln live prüfen
+- **Tatsachenarbeit:** sichere Tatsachen, streitige Tatsachen, fehlende Unterlagen und Beweisprobleme trennen.
+- **Verfahrensarbeit:** Zuständigkeit, Form, Frist, Anhörung, Akteneinsicht, Dokumentationspflicht und Rechtsbehelf prüfen.
+- **Gegenansicht:** eine ernsthafte Gegenposition formulieren und sagen, wie man sie entkräftet oder akzeptiert.
+- **Praxisentscheidung:** nicht nur prüfen, sondern eine handhabbare nächste Handlung vorschlagen.
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 13 BGB` — Verbraucherbegriff.
+- `§ 14 BGB` — Unternehmerbegriff.
+- `§ 312c BGB` — Fernabsatzvertrag.
+- `§ 312d BGB` — Informationspflichten.
+- `§ 355 Abs. 1 BGB` — Widerrufsrecht.
+- `§ 357 BGB` — Rechtsfolgen des Widerrufs.
+- `§ 434 BGB` — Sachmangel.
+- `§ 475 BGB` — Verbrauchsgüterkauf.
+- `§ 477 BGB` — Beweislastumkehr.
+- `§ 5 UWG` — irrefuehrende geschäftliche Handlung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

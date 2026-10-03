@@ -2,14 +2,19 @@
 name: data-portability
 title: Executing Data Portability Requests
 description: Executes GDPR Article 20 data portability requests, covering machine-readable format requirements (JSON, CSV, XML), direct controller-to-controller transfer mechanisms, and scope limitations to data provided by the subject on consent or contract basis. Activate for portability, data export, Art. 20, data transfer queries.
-author: onfire7777
-author_url: https://github.com/onfire7777/universal-ai-skills-library/tree/main/skills/data-portability
-license: MIT
-version: 0.1.0
+author: mukul975
+author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/data-portability
+license: Apache-2.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Executing Data Portability Requests

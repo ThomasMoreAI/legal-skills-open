@@ -1,11 +1,11 @@
 ---
 name: lesefassung-konsolidiert
 title: Lesefassung konsolidiert
-description: Konsolidierte Lesefassung des geaenderten Stammgesetzes nach Inkrafttreten erstellen. Anwendungsfall Fachreferat Vollzugsbehoerde oder Anwalt will wissen wie das Gesetz nach Aenderung aussieht ohne Aenderungsmarkierungen. Einheitlich lesbar ohne Aenderungsmarkierung Datierung Stand nach Inkrafttreten. Format-Konventionen Inkrafttretens-Handling Verweis-Pflege DOCX-Ausgabe. Output Lesefassung pro Stammgesetz bereinigt datiert. Abgrenzung zu synopse-erstellen Gegenüberestellung alt und neu.
+description: 'Für Lesefassung konsolidiert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/lesefassung-konsolidiert
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -15,15 +15,6 @@ language: de
 # Lesefassung konsolidiert
 
 > Wie sieht das Gesetz aus, wenn das neue Gesetz in Kraft getreten ist? Klipp und klar zum Mitlesen.
-
-## Zweck
-
-Die Lesefassung zeigt das Stammgesetz in der nach Inkrafttreten gültigen Form — **ohne** Änderungsmarkierung, **mit** allen Änderungen eingearbeitet. Adressaten (Bürger, Unternehmen) und Vollzugsbehörden brauchen diese Fassung, um zu sehen, "wie es ab Tag X heisst", ohne den Änderungs-Diff lesen zu müssen.
-
-Komplementär zu:
-- **Synopse**: zeigt alt vs. neu in zwei Spalten
-- **Änderungsanordnung**: zeigt die Änderung als Befehl ("Paragraf 3 Absatz 2 wird wie folgt geändert: ...")
-- **Lesefassung**: zeigt das fertige neue Gesetz
 
 ## 1) Inhalte pro Datei
 
@@ -109,7 +100,7 @@ Das Datum des **Inkrafttretens** ist massgeblich. Bei stufenweisem Inkrafttreten
 1. **Inkrafttretens-Verschachtelung übersehen.** Wenn das Änderungsgesetz mehrere Inkrafttretens-Daten hat (typisch bei Übergangsregelungen), braucht es mehrere Lesefassungen.
 2. **Verweise nicht nachgezogen.** Wenn Paragraf 3 Absatz 3 entfaellt, muss in Paragraf 7 der Verweis auf "Paragraf 3 Absatz 3" angepasst werden.
 3. **Anlagen vergessen.** Bei BGBl-Veröffentlichung sind Anlagen oft separat — leicht zu übersehen.
-4. **Standard-Header fehlt.** Adressaten müssen erkennen koennen, **welcher** Stand vorliegt.
+4. **Standard-Header fehlt.** Adressaten müssen erkennen können, **welcher** Stand vorliegt.
 5. **DOCX mit Track Changes ausgegeben.** Lesefassung ist per Definition ohne Änderungsmarkierung — Word-Datei vor Export bereinigen.
 6. **Zwei Stammgesetze in einer Datei.** Bei einem Änderungsgesetz, das BGB und HGB anpasst, **zwei** Lesefassungen — eine für BGB, eine für HGB.
 
@@ -128,16 +119,11 @@ Die Lesefassung ist **kein** amtliches Dokument. Die amtliche Konsolidierung erf
 - `xml-paralleldarstellung` — bei XML-pflichtigen Veröffentlichungen
 - `synopse-erstellen` — für den Änderungs-Diff alt vs. neu
 - `dokumente-rendern-docx-pdf` — für den DOCX-/PDF-Export der Lesefassung
-- `referentenentwurf-bauen` — bei aenderbarem Entwurfsstand
+- `referentenentwurf-bauen` — bei änderbarem Entwurfsstand
 - `inkrafttreten-uebergangsrecht` — bei stufenweisem Inkrafttreten oder Übergangsregelungen
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 
 Art. 82 GG (Ausfertigung und Verkuendung) — § 1 BGBlG (Bundesgesetzblatt als amtliche Quelle) — §§ 1-5 NormDokVO (Normdokumentations-Verordnung) — Art. 20 Abs. 3 GG (Normklarheit als Rechtsstaatsprinzip)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

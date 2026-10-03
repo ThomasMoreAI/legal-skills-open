@@ -1,26 +1,29 @@
 ---
 name: zufriedenheitsformel-decodierung
 title: Zufriedenheitsformel-Decodierung
-description: 'Decodiert die fünfstufige Zufriedenheitsformel deutscher Arbeitszeugnisse: von Note 1 bis Note 5. Tabellarische Ampelzuordnung aller Standardformulierungen mit Erklärung der sprachlichen Feinheiten und ihrer rechtlichen Bedeutung.'
+description: 'Für Zufriedenheitsformel-Decodierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/zufriedenheitsformel-decodierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Zufriedenheitsformel-Decodierung
 
-Die Zufriedenheitsformel ist das Herzstück des deutschen Arbeitszeugnisses. Sie ist die am häufigsten verwendete und am stärksten kodierte Formulierung — und für Laien oft kaum von einer guten Note zu unterscheiden. Vier Worte können den Unterschied zwischen einer Eins und einer Vier ausmachen.
+## Fachlicher Anker
 
-Die fünfstufige Skala folgt einem präzisen Steigerungssystem, das auf den Wörtern "stets" (immer, ohne Ausnahme), "vollsten" (Superlativ) und "vollen" (Positiv) beruht. Jede Stufe unterscheidet sich von der nächsten durch das Fehlen eines Wortes oder dessen Abschwächung. Wer diese Abstufungen nicht kennt, liest eine Note-4-Formulierung als positiv — genau das ist der Geheimcode der Zeugnissprache.
-
-Wichtig: Die Formel erscheint selten isoliert. Sie ist oft Teil eines längeren Satzes, der auch Arbeitsbereitschaft und Fachkenntnisse umfasst. Der Gesamtsatz ist nach seiner schwächsten Komponente zu beurteilen. "Ihre Fachkenntnisse und ihre stets überzeugende Arbeitsweise überzeugten uns; die Ergebnisse entsprachen unseren Erwartungen" — die schwache Schlusskomponente zieht die Note herunter.
-
-Verstärker und Abschwächer können die Grundformel verändern: Adverbien wie "jederzeit", "durchweg" oder "in jeder Hinsicht" können als positive Verstärker wirken. Einschränkungen wie "im Wesentlichen", "in aller Regel" oder "soweit beurteilt werden konnte" schwächen die Formel deutlich ab.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -47,15 +50,18 @@ Verstärker und Abschwächer können die Grundformel verändern: Adverbien wie "
 
 **Beispiel 5 – Note 5 (Rot):** "Sie hat ihre Aufgaben im Großen und Ganzen zu unserer Zufriedenheit erledigt." — Einschränkung durch "im Großen und Ganzen" → Note 5.
 
-## Ausgabeformat
-
-Der Skill gibt die erkannte Formel im Wortlaut aus, ordnet sie der Note zu (Note 1 bis Note 5), zeigt die Ampelfarbe und erklärt das entscheidende sprachliche Merkmal. Bei mehreren Zufriedenheitsformeln im Zeugnis (Leistung und Verhalten getrennt) werden beide separat ausgewiesen.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Notenstufen & Beweislast)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 14.10.2003 - 9 AZR 12/03** | Zur vollen Zufriedenheit bescheinigt durchschnittliche Leistung (Note 3); Beweislast für bessere Note beim Arbeitnehmer, für schlechtere beim Arbeitgeber. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 18.11.2014 - 9 AZR 584/13** | "Befriedigend" als Mitte der Skala; Arbeitnehmer traegt Beweislast für bessere Note; Branchenueblichkeit guter Noten verschiebt die Beweislast nicht. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

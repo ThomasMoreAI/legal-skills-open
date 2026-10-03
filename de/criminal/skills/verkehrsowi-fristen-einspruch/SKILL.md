@@ -1,11 +1,11 @@
 ---
 name: verkehrsowi-fristen-einspruch
 title: Einspruchsfrist und Einspruch — § 67 OWiG
-description: 'Einspruchsfrist im OWi-Verfahren berechnen und wahren: Drohende Rechtsbestandskraft des Bußgeldbescheids. Normen: § 67 OWiG (Einspruch 2 Wochen ab Zustellung), §§ 33 OWiG, 177-182 ZPO (Zustellungsfiktion), § 52 OWiG (Wiedereinsetzung), § 74 OWiG (Verwerfung bei Versaeumnis). Prüfraster: Zustellungsdatum und -art, Fristberechnung, Beschraenkter Einspruch § 67 Abs. 2 OWiG (nur Fahrverbot). Output Fristenblatt, Einspruchs-Template, ggf. Wiedereinsetzungsantrag. Abgrenzung: Inhalt des Einspruchs siehe verkehrsowi-beweisverwertung-standardisiert; Rechtsbeschwerde siehe verkehrsowi-rechtsbeschwerde.'
+description: 'Für Einspruchsfrist und Einspruch — Paragraf 67 OWiG: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/verkehrsowi-fristen-einspruch
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,13 +14,25 @@ language: de
 
 # Einspruchsfrist und Einspruch — § 67 OWiG
 
+## Arbeitsbereich
+
+Einspruchsfrist im OWi-Verfahren berechnen und wahren: Drohende Rechtsbestandskraft des Bußgeldbescheids. Normen: § 67 OWiG (Einspruch 2 Wochen ab Zustellung), §§ 33 OWiG, 177-182 ZPO (Zustellungsfiktion), § 52 OWiG (Wiedereinsetzung), § 74 OWiG (Verwerfung bei Versaeumnis). Prüfraster: Zustellungsdatum und -art, Fristberechnung, Beschraenkter Einspruch § 67 Abs. 2 OWiG (nur Fahrverbot). Output Fristenblatt, Einspruchs-Template, ggf. Wiedereinsetzungsantrag. Abgrenzung: Inhalt des Einspruchs siehe verkehrsowi-beweisverwertung-standardisiert; Rechtsbeschwerde siehe verkehrsowi-rechtsbeschwerde. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
 1. **Wann wurde der Bussgeldbescheid zugestellt?** — Ausgangspunkt der 2-Wochen-Frist § 67 Abs. 1 OWiG.
-2. **Zustellungsform?** — Persoenliche Uebergabe, Einwurf-Einschreiben (§§ 33 OWiG, 180 ZPO), PZU.
-3. **Mandant kennt Zugangsdatum?** — Falls unsicher: Zustellungsfiktion pruefen; fuer Mandanten spaetestes bekanntes Datum nehmen.
-4. **Frist bereits abgelaufen?** — Wiedereinsetzungsantrag nach § 52 OWiG pruefen.
-5. **Beschraenkt oder unbeschraenkt einlegen?** — § 67 Abs. 2 OWiG: Beschraenkung auf Rechtsfolgen moeglich.
+2. **Zustellungsform?** — Persoenliche Übergabe, Einwurf-Einschreiben (§§ 33 OWiG, 180 ZPO), PZU.
+3. **Mandant kennt Zugangsdatum?** — Falls unsicher: Zustellungsfiktion prüfen; für Mandanten spaetestes bekanntes Datum nehmen.
+4. **Frist bereits abgelaufen?** — Wiedereinsetzungsantrag nach § 52 OWiG prüfen.
+5. **Beschraenkt oder unbeschraenkt einlegen?** — § 67 Abs. 2 OWiG: Beschraenkung auf Rechtsfolgen möglich.
 
 ## Zentrale Normen
 
@@ -31,19 +43,12 @@ language: de
 - **§ 74 OWiG** — Verwerfung des Einspruchs bei unentschuldigtem Ausbleiben
 - **§ 28 OWiG** — Bekanntmachung des Bussgeldbescheids; Fristbeginn
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Fristen-Berechnungsschema
 
 ```
 Zustellungsdatum: [DATUM]
-+ 14 Tage:        [DATUM + 14 Tage]
-= Fristende:      [DATUM]
++ 14 Tage: [DATUM + 14 Tage]
+= Fristende: [DATUM]
 
 Besonderheiten:
 - Fristende Samstag/Sonntag/Feiertag → naechster Werktag (§ 43 StPO)
@@ -56,13 +61,13 @@ Besonderheiten:
 ```
 Frist noch offen?
 ├─ Ja → Einspruch sofort formulieren und einlegen
-│   ├─ Beschraenkt (nur Rechtsfolgen)? → § 67 Abs. 2 OWiG
-│   └─ Unbeschraenkt → Standardvorgehen
+│ ├─ Beschraenkt (nur Rechtsfolgen)? → § 67 Abs. 2 OWiG
+│ └─ Unbeschraenkt → Standardvorgehen
 └─ Nein (Frist abgelaufen)
-    ├─ Kein Verschulden? → Wiedereinsetzung § 52 OWiG
-    │   ├─ Krankheit, Urlaub, Fehler der Behoerde
-    │   └─ Eidesstattliche Versicherung + gleichzeitiger Einspruch
-    └─ Verschulden → Bussgeldbescheid rechtskraeftig; Vollstreckung abwenden
+ ├─ Kein Verschulden? → Wiedereinsetzung § 52 OWiG
+ │ ├─ Krankheit, Urlaub, Fehler der Behörde
+ │ └─ Eidesstattliche Versicherung + gleichzeitiger Einspruch
+ └─ Verschulden → Bussgeldbescheid rechtskraeftig; Vollstreckung abwenden
 ```
 
 ## Output-Template Einspruchsschreiben
@@ -92,9 +97,19 @@ Anlage: Vollmacht [NAME]
 Mit freundlichen Gruessen [KANZLEI]
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Harte Leitplanken
 
 - Frist unmittelbar nach Mandatsuebernahme berechnen und im Kalender eintragen.
 - 3-Tage-Vorlauffrist-Erinnerung setzen.
 - Beschraenkter Einspruch nur nach Mandantenruecksprache.
 - Anwaltliche Endkontrolle vor dem Versand.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

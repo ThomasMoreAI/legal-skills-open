@@ -1,0 +1,84 @@
+---
+name: affiliate-link-geschenk-pr-umsatzsteuer
+title: 'Influencer-Recht: Affiliate-Link, Rabattcode und Provision'
+description: 'Für Influencer-Recht: Affiliate-Link, Rabattcode und Provision: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/influencer-recht/skills/affiliate-link-geschenk-pr-umsatzsteuer
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: entertainment
+language: de
+---
+
+# Influencer-Recht: Affiliate-Link, Rabattcode und Provision
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UWG §§ 3, 5, 5a, 8, 13, MStV § 22, DDG/TMG-Impressumspflichten, PAngV, HWG, MarkenG §§ 14, 15, UrhG §§ 15 ff., 19a, KUG §§ 22, 23, DSGVO Art. 5, 6, 9, 12-22, EStG/UStG/AO nur fallbezogen und live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Kontext und Regelungslage
+
+Affiliate-Links und Rabattcodes sind wirtschaftliche Gegenleistungen – auch wenn keine Fixvergütung fließt:
+
+- **§ 5a Abs. 4 UWG**: Provisionsbeteiligung ist kommerzieller Zweck → Kennzeichnungspflicht.
+- **§ 22 MStV**: Trennungsgebot gilt auch für Affiliate-Content.
+- **BGH „Luisa-Maxime Huss"** (I ZR 90/20): Gegenleistung und performance-basierte Vergütung begründen regelmäßig eine klare Kennzeichnungspflicht.
+- **Steuer § 15/22 EStG**: Provisionen sind Betriebseinnahmen; auch Kleinstbeträge von 0,01 € pro Klick sind steuerpflichtig.
+- **UStG**: Affiliate-Provision = umsatzsteuerpflichtiger Umsatz; bei Auslandsplattform ggf. Reverse Charge.
+- **DSGVO Art. 13**: Tracking-Pixel und Affiliate-Cookies erfordern Einwilligung und Datenschutzhinweis.
+
+### Kennzeichnungsformate für Affiliate
+
+| Format | Mindestanforderung |
+|--------|--------------------|
+| Link in Bio | „*Affiliate-Link" oder „*Werbung (Provision)" |
+| Story-Swipe-Up | Label „Werbung" im ersten Frame |
+| YouTube-Beschreibung | Klarer Hinweis vor dem ersten Link |
+| Blog/Website | DSGVO-konforme Cookie-Einwilligung + Hinweis |
+
+## Kaltstart-Fragen (6)
+
+1. Welche Plattform und welches Affiliate-Netzwerk (z. B. AWIN, Amazon, ShareASale)?
+2. Wie hoch ist die monatliche Provision – Schwelle Kleinunternehmer relevant?
+3. Werden Tracking-Cookies gesetzt? Liegt Einwilligungsmechanismus vor?
+4. Ist der Affiliate-Link klar als solcher im Post / in der Bio markiert?
+5. Gibt es daneben noch Fixvergütung, die eine separate Kennzeichnung nötig macht?
+6. Gewünschtes Ergebnis: Compliance-Check, Buchhaltungsvorlage oder Datenschutztext?
+
+## Prüfprogramm
+
+- Wirtschaftliche Abhängigkeit: Provision, auch wenn gering → Kennzeichnung.
+- Label-Positionierung: Vor dem Klick sichtbar, nicht im Fließtext versteckt.
+- Steuer: Provision in Einnahmen-Überschuss-Rechnung erfassen; Jahresbelege vom Netzwerk sichern.
+- USt: Ist die Affiliate-Plattform in DE oder EU-Ausland? → Reverse Charge prüfen.
+- DSGVO: Affiliate-Tracking = personenbezogenes Datum → Consent-Management-Plattform erforderlich.
+- Vertrag mit Affiliate-Netzwerk prüfen: Exklusivität, Mindestleistung, Kündigungsrecht.
+
+## Typische Fallen
+
+- „*" am Ende des Links ohne Erklärung → nicht ausreichend nach deutschem Recht.
+- Jahresprovisionen unter der Wahrnehmungsschwelle trotzdem steuerpflichtig.
+- Amazon-Associates ohne Cookie-Einwilligungsbanner → DSGVO-Verstoß.
+- Affiliate + Fixvergütung: Doppelkennzeichnung vergessen.
+- Plattform sperrt Account, wenn Affiliate-Links nicht korrekt deklariert werden (TikTok-AGB).
+
+## Normen und Quellen
+
+- § 5a Abs. 4 UWG: https://www.gesetze-im-internet.de/uwg_2004/__5a.html
+- § 22 MStV: https://www.gesetze-im-internet.de/mstv/__22.html
+- § 15 EStG: https://www.gesetze-im-internet.de/estg/__15.html
+- DSGVO Art. 13: https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679
+- BGH I ZR 90/20: https://openjur.de/u/2395894.html
+
+## Output-Formate
+
+- Kennzeichnungsampel
+- Muster-Affiliate-Hinweis (Story, Post, Bio, Blog)
+- Steuernotiz: Provisionsbuchung
+- DSGVO-Kurzcheck: Tracking, Cookies, Einwilligung

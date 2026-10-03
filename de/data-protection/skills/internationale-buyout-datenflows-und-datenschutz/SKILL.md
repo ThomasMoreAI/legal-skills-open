@@ -1,11 +1,11 @@
 ---
 name: internationale-buyout-datenflows-und-datenschutz
 title: Internationale Buyout-Datenflows und Datenschutz
-description: 'Datenfluesse bei internationalem bAV-Buyout datenschutzrechtlich absichern: DSGVO, Drittlandtransfers. Normen: DSGVO Art. 44 ff., BDSG. Prüfraster: Datenkategorie, Transfermechanismen, Einwilligung vs. Vertrag. Output: Datenschutz-Memo internationaler bAV-Buyout. Abgrenzung: nicht Datenverarbeitung im laufenden bAV-Betrieb.'
+description: 'Für Internationale Buyout-Datenflows und Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/internationale-buyout-datenflows-und-datenschutz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,11 +14,20 @@ language: de
 
 # Internationale Buyout-Datenflows und Datenschutz
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
-Kyoto-Büro-Beteiligung: Yuki Yamamoto-Brennecke (APPI/PIPC-Expertise)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Internationale Buyout-Datenflows und Datenschutz
+
+- **bAV-Problem:** DSGVO, Drittlandtransfers. Normen: DSGVO Art. 44 ff., BDSG. Prüfraster: Datenkategorie, Transfermechanismen, Einwilligung vs. Vertrag. Output: Datenschutz-Memo internationaler bAV-Buyout. Abgrenzung: nicht Datenverarbeitung im laufenden bAV-Betrieb.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -26,7 +35,6 @@ Kyoto-Büro-Beteiligung: Yuki Yamamoto-Brennecke (APPI/PIPC-Expertise)
 - DSGVO Art. 6 (Rechtmäßigkeit der Verarbeitung — Interessenabwägung, Vertrag, rechtliche Verpflichtung)
 - DSGVO Art. 46 (Drittlandübermittlung — Standardvertragsklauseln SCC; Binding Corporate Rules BCR)
 - DSGVO Art. 28 (Auftragsverarbeitungsvertrag — AV-Vertrag mit Versicherer/Buyout-Partner)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - EU-US Data Privacy Framework (DPF, seit 10.7.2023) — neuer Angemessenheitsbeschluss USA
 - DSGVO Art. 13/14 (Informationspflichten bei Datenerhebung/-weitergabe — Berechtigte informieren)
 - DSGVO Art. 30 (Verarbeitungsverzeichnis)
@@ -75,7 +83,6 @@ Bei jedem Pension Buyout (Buy-in, Buy-out, Longevity Swap) werden hochsensible p
 ### Schritt 3: Drittlandtransfers
 
 #### Deutschland → USA
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 **Aktuell:** EU-US Data Privacy Framework (DPF) — Angemessenheitsbeschluss vom 10.7.2023 (Beschluss 2023/1795). US-Unternehmen, die sich selbst-zertifiziert haben, gelten als ausreichend geschützt.
 **Risiko:** Schrems III — politische Stabilität des DPF ungewiss. Empfehlung: Parallel immer EU-SCC (Standard Contractual Clauses) als Fallback.
 
@@ -90,7 +97,7 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 Japan APPI (最終改正 2022年, 施行 2022年4月) schreibt vor:
 - Bei Übermittlung personenbezogener Daten ins Ausland: Information des Betroffenen + Einwilligung, es sei denn Ausnahmetatbestand (Art. 24 APPI a.F. / Art. 28 APPI n.F.)
 - PIPC-Richtlinien: Drittlandtransfer nur in Länder mit ausreichendem Schutzniveau (Japan hat EU auf diese Liste gesetzt) oder mit vertraglicher Absicherung
-- Yuki Yamamoto-Brennecke koordiniert APPI-Compliance für das Kyoto-Büro
+- Japan-/Datenschutz-Team koordiniert APPI-Compliance für das Kyoto-Büro
 
 **Versicherer-Datenraum Japan:**
 Bei Einbindung japanischer Versicherungsgesellschaften in einen globalen Buyout ist zu beachten:
@@ -162,23 +169,23 @@ jedoch innerhalb von 24 Stunden nach Feststellung, an den Verantwortlichen.
 
 ```
 CHECKLISTE DRITTLANDTRANSFER DSGVO Art. 46
-Treuenfels Yamamoto · Dr. von Sompeh-Ostermann
+bAV-Projektteam · fachliche Leitung
 
 Empfängerland USA:
 □ Empfänger im EU-US DPF-Register eingetragen? (www.dataprivacyframework.gov)
-  Wenn Ja: Kein SCC erforderlich; TIA trotzdem empfohlen für Gesundheitsdaten
-  Wenn Nein: EU-SCC (Standard Contractual Clauses 2021) verwenden
+ Wenn Ja: Kein SCC erforderlich; TIA trotzdem empfohlen für Gesundheitsdaten
+ Wenn Nein: EU-SCC (Standard Contractual Clauses 2021) verwenden
 □ Transfer Impact Assessment (TIA) für Gesundheitsdaten (Art. 9 DSGVO) durchgeführt?
 □ Schrems-II-Zusatzklauseln im AV-Vertrag aufgenommen?
 
 Empfängerland Japan:
 □ Angemessenheitsbeschluss EU-Kommission 2019/419 für Japan: Gültig (Stand 2024)
 □ APPI-Compliance des japanischen Empfängers bestätigt?
-□ Yuki Yamamoto-Brennecke (Kyoto-Büro) für PIPC-Fragen eingebunden?
+□ Japan-/Datenschutz-Team (Kyoto-Büro) für PIPC-Fragen eingebunden?
 
 UK:
 □ UK GDPR Angemessenheitsbeschluss gültig?
-  (Überprüfung empfohlen — Laufzeit bis Mitte 2025)
+ (Überprüfung empfohlen — Laufzeit bis Mitte 2025)
 
 Allgemein:
 □ Datenschutz-Folgenabschätzung (DSFA Art. 35 DSGVO) durchgeführt?
@@ -211,8 +218,4 @@ Allgemein:
 
 ## Aktuelle Rechtsprechung und Leitsaetze (Ergaenzung v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

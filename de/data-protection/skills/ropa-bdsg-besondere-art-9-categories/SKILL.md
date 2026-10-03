@@ -1,0 +1,103 @@
+---
+name: ropa-bdsg-besondere-art-9-categories
+title: RoPA bei besonderen Datenkategorien – Art. 9 DSGVO, § 26 BDSG, Art. 10 DSGVO
+description: 'Für RoPA bei besonderen Datenkategorien – Art. 9 DSGVO, Paragraf 26 BDSG, Art. 10 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/ropa-bdsg-besondere-art-9-categories
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# RoPA bei besonderen Datenkategorien – Art. 9 DSGVO, § 26 BDSG, Art. 10 DSGVO
+
+## Zweck
+
+Behandelt die erhoehten Dokumentationsanforderungen im Verzeichnis von Verarbeitungstaetigkeiten bei besonderen Datenkategorien nach Art. 9 DSGVO (sensitive Daten), Beschäftigtendaten nach § 26 BDSG und Daten über strafrechtliche Verurteilungen oder Straftaten nach Art. 10 DSGVO. Solche Verarbeitungen brechen die KMU-Ausnahme nach Art. 30 Abs. 5 DSGVO und ziehen ueblicherweise eine DSFA-Pflicht (Art. 35 DSGVO) nach sich.
+
+## Wann dieses Modul hilft
+
+- Arztpraxis, Krankenhaus, Pflegedienst, Apotheke baut RoPA auf.
+- Personalabteilung dokumentiert Krankheitstage, BEM-Daten, Schwerbehindertenstatus.
+- Kanzlei verarbeitet Mandantendaten mit Bezug zu Gesundheit, Religion, sexueller Orientierung, Strafverfahren.
+- Versicherer dokumentiert Gesundheits- oder Schadendaten.
+- Verein dokumentiert religioese oder gewerkschaftliche Zugehoerigkeit der Mitglieder.
+- Biometrische Verfahren (Fingerprint-Login, Gesichtserkennung) im Einsatz.
+
+## Rechtlicher Rahmen
+
+### Art. 9 Abs. 1 DSGVO – Verbotsprinzip
+
+Verarbeitung ist verboten, soweit sie ergibt:
+
+- rassische und ethnische Herkunft,
+- politische Meinungen,
+- religioese oder weltanschauliche Ueberzeugungen,
+- Gewerkschaftszugehoerigkeit,
+- genetische Daten,
+- biometrische Daten zur eindeutigen Identifizierung,
+- Gesundheitsdaten,
+- Daten zum Sexualleben oder der sexuellen Orientierung.
+
+### Art. 9 Abs. 2 DSGVO – Ausnahmen
+
+Verarbeitung zulässig u. a. bei: ausdruecklicher Einwilligung (lit. a), Arbeitsrecht und Sozialrecht (lit. b), lebenswichtigem Interesse (lit. c), Vereinen und Religionsgemeinschaften (lit. d), öffentlich gemachten Daten (lit. e), Rechtsanspruechen (lit. f), erhebliches öffentliches Interesse (lit. g), Gesundheits- und Sozialfürsorge (lit. h), öffentliche Gesundheit (lit. i), Archiv-/Forschungs-/Statistikzwecke (lit. j).
+
+### § 26 BDSG – Beschäftigtendaten
+
+§ 26 BDSG bleibt nach Aufhebung durch BVerfG-Rechtsprechung und nachfolgende Gesetzgebung als Rechtsgrundlage praeskriptiv relevant; daneben kommen Kollektivvereinbarungen (§ 26 Abs. 4 BDSG) und Einwilligung (§ 26 Abs. 2 BDSG) in Betracht.
+
+### § 22 BDSG
+
+§ 22 BDSG regelt die Verarbeitung besonderer Datenkategorien zu im öffentlichen Interesse liegenden Zwecken, für Beschäftigungszwecke, für praeventive Medizin u. a.; § 22 Abs. 2 BDSG verlangt **spezifische TOMs**, die im RoPA dokumentiert werden müssen.
+
+### Art. 10 DSGVO
+
+Daten über strafrechtliche Verurteilungen und Straftaten dürfen nur unter behoerdlicher Aufsicht oder aufgrund nationalen Rechts verarbeitet werden.
+
+## Ablauf / Checkliste
+
+1. **Identifikation:** Welche der oben genannten Kategorien faellt an? Prüfe sowohl direkte Erhebung als auch Rueckschluss (z. B. Fotos können ethnische oder gesundheitliche Hinweise enthalten).
+2. **Rechtsgrundlage:** Doppelte Rechtsgrundlage erforderlich – Art. 6 Abs. 1 DSGVO **und** Art. 9 Abs. 2 DSGVO bzw. § 26 oder § 22 BDSG.
+3. **Erforderlichkeit:** strenger Maßstab; prüfe Alternativen (Pseudonymisierung, Aggregation).
+4. **DSFA-Prüfung:** Art. 35 Abs. 3 lit. b DSGVO – DSFA in der Regel obligatorisch bei umfangreicher Verarbeitung besonderer Kategorien.
+5. **TOMs:** § 22 Abs. 2 BDSG fordert spezifische Maßnahmen (Pseudonymisierung, Zugriffsbeschraenkung, Auditing, Schulung).
+6. **RoPA-Eintrag:** zusaetzliche Spalte oder Markierung "Art. 9 DSGVO" mit Verweis auf Rechtsgrundlage und DSFA.
+7. **Loeschfristen:** restriktiv; Gesundheitsdaten oft 10 Jahre (§ 630f Abs. 3 BGB Patientenakte), aber nicht laenger.
+
+## Mustertext / Template
+
+### Zusatzspalten für besondere Datenkategorien
+
+| Verarbeitung | Datenkategorie (Art. 9) | Doppelte Rechtsgrundlage | DSFA-Verweis | Spezifische TOMs (§ 22 Abs. 2 BDSG) |
+|---|---|---|---|---|
+| Patientenakte | Gesundheitsdaten | Art. 6 Abs. 1 lit. b + Art. 9 Abs. 2 lit. h DSGVO; § 22 Abs. 1 Nr. 1 lit. b BDSG | DSFA-Ziff. 3 | Rollenbasierter Zugriff, Pseudonymisierung Forschungsdatensatz, Verschluesselung at-rest |
+| BEM-Verfahren | Gesundheitsdaten Beschäftigte | Art. 6 Abs. 1 lit. c + Art. 9 Abs. 2 lit. b DSGVO; § 26 Abs. 3 BDSG | DSFA-Ziff. 7 | Getrennte Akte, eingeschraenkter Personenkreis, dokumentierter Zugriff |
+| Glaubensbekenntnis Lohnsteuer | Religioese Ueberzeugung | Art. 6 Abs. 1 lit. c + Art. 9 Abs. 2 lit. b DSGVO; § 39 EStG | DSFA-Ziff. 9 | Zugriff nur Lohnbuchhaltung, kein CRM-Sync |
+| Biometrischer Zutritt | Biometrische Daten | Art. 6 Abs. 1 lit. f + Art. 9 Abs. 2 lit. a DSGVO (Einwilligung) | DSFA-Ziff. 11 | Lokale Speicherung Template, kein Bild, Loeschung bei Austritt |
+
+### Erweiterung Versionierungs-Footer
+
+Zusatzhinweis: "Diese Verarbeitung beinhaltet besondere Kategorien personenbezogener Daten. DSFA-Pflicht und § 22 Abs. 2 BDSG sind beachtet."
+
+## Typische Fehler
+
+- Nur Art. 6 DSGVO geprueft, Art. 9 DSGVO uebersehen.
+- Schwerbehindertenstatus aus dem Personalstammdatensatz ohne gesonderte Markierung als Gesundheitsdatum gefuehrt.
+- Biometrie-Login ohne ausdrueckliche Einwilligung und ohne Alternative.
+- Keine DSFA, obwohl umfangreiche Gesundheitsdatenverarbeitung.
+- "Sensible Daten" pauschal eingetragen ohne konkrete Kategorie.
+- TOMs nach Art. 32 statt nach § 22 Abs. 2 BDSG (zusaetzliche Anforderungen).
+- Religionszugehoerigkeit aus Lohnsteuerklasse abgeleitet und ungesichert im allgemeinen HR-System.
+
+## Quellen Stand 06/2026
+
+- VO (EU) 2016/679 (DSGVO), Art. 9, Art. 10, Art. 30, Art. 35.
+- BDSG, §§ 22, 26.
+- BGB § 630f (Patientenakte).
+- EStG § 39 (Lohnsteuermerkmale).
+- EDSA: Leitlinien 03/2019 zur Verarbeitung personenbezogener Daten durch Videoeinrichtungen (Version 2.0 vom 29.01.2020).
+- BVerfG, Beschluss vom 11.11.2020 – 1 BvR 3214/15 (Antiterrordatei-Folgeentscheidung) – bei Anpassung des § 22 BDSG sinngemäß beachten; vor Zitierung amtliche Fundstelle prüfen.

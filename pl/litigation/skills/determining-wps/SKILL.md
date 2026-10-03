@@ -1,22 +1,22 @@
 ---
 name: determining-wps
-title: determining-wps
+title: law-pl-determining-wps
 description: Use when calculating wartość przedmiotu sporu (WPS) under Polish KPC (art. 19–26) — determining its impact on subject-matter jurisdiction (rejonowy vs okręgowy), applicable court fee (opłata stosunkowa), rules for summing up multiple claims, treatment of interest, recurring benefits, claims concerning ownership / possession, and claims for declaration
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-wps
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# determining-wps
+# law-pl-determining-wps
 
 Wartość przedmiotu sporu (WPS) — kluczowa kategoria procesowa w sprawach cywilnych. Decyduje o:
 - **Właściwości rzeczowej** — sąd rejonowy vs. okręgowy (art. 17 pkt 4 KPC — okręgowy przy WPS > 100 000 zł _(art. 17 pkt 4 KPC — weryfikować w ISAP)_ w sprawach majątkowych; z wyjątkami).
-- **Opłacie sądowej** — opłata stosunkowa vs. stała; tabelaryczna skala do 20 000 zł _(art. 505¹ KPC — weryfikować w ISAP)_, od 20 000 zł — 5% WPS (skill `calculating-oplata-sadowa`).
+- **Opłacie sądowej** — opłata stosunkowa vs. stała; tabelaryczna skala do 20 000 zł _(art. 505¹ KPC — weryfikować w ISAP)_, od 20 000 zł — 5% WPS (skill `law-pl-calculating-oplata-sadowa`).
 - **Trybie postępowania** — uproszczone (do 20 000 zł — art. 505¹ KPC).
 - **Kosztach zastępstwa procesowego** — stawki minimalne wg WPS (rozporządzenie o opłatach za czynności adwokackie / radcy prawnego).
 
@@ -200,7 +200,7 @@ Gdy powód dochodzi kilku roszczeń **w tym samym pozwie** — WPS = **suma wart
 - **KPC** — art. 19–26 (WPS), art. 16–17 (właściwość rzeczowa), art. 20 (wyłączenia), art. 505¹ (uproszczone). ISAP: `WDU19640430296`.
 - **UKSC** — art. 13 (opłata stosunkowa), art. 18 (uzupełnienie), art. 79 (zwrot). ISAP: `WDU20051671398`.
 - **Rozporządzenie MS o stawkach minimalnych za czynności adwokackie / radcy prawnego** — zawierają tabele wg WPS.
-- **Orzecznictwo SN** — postanowienia w kwestii sumowania, ewentualnych, skapitalizowanych odsetek. Przez skill `searching-orzeczenia`.
+- **Orzecznictwo SN** — postanowienia w kwestii sumowania, ewentualnych, skapitalizowanych odsetek. Przez skill `law-pl-searching-orzeczenia`.
 
 ## Najczęstsze błędy
 

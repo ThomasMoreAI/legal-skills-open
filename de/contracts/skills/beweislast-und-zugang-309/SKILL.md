@@ -1,0 +1,81 @@
+---
+name: beweislast-und-zugang-309
+title: Beweislast und Zugang 309
+description: 'Für Beweislast und Zugang 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/agb-recht-pruefer/skills/beweislast-und-zugang-309
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+sources:
+- title: Klauselfamilien
+  path: references/KLAUSELFAMILIEN.md
+- title: Prueflogik
+  path: references/PRUEFLOGIK.md
+- title: Quellen
+  path: references/QUELLEN.md
+---
+
+# Beweislast und Zugang 309
+
+## Fachkern: Beweislast und Zugang 309
+
+- **Klauselproblem (Beweislast und Zugang 309):** prüft die AGB-Kontrolle quellenstreng entlang BGB §§ 305 bis 310 und ordnet Rechtsfolge, Risiko und bessere Fassung.
+- **AGB-Weiche:** Einbeziehung (§ 305 BGB), überraschende Klausel (§ 305c BGB), Transparenz (§ 307 Abs. 1 S. 2 BGB), Inhaltskontrolle (§§ 307-309 BGB), Rechtsfolge (§ 306 BGB) und Prozess-/Verbandsrisiko sauber trennen.
+- **Beleglogik:** Originalklausel, Vertragsumfeld, Verwendungsnachweis, Verhandlungsspuren, Kundengruppe, Marktstandard und wirtschaftliche Wirkung als Matrix erfassen.
+- **Arbeitsprodukt:** Klauselampel, Redline, Ersatzformulierung, Verhandlungsposition und gerichtsfeste Kurzbegründung mit Live-Check amtlicher Normenquellen.
+
+## Prüfpfad
+
+1. **Normenstand sichern:** Vor tragenden Aussagen BGB §§ 305 bis 310 auf Gesetze im Internet prüfen; bei Verbandsrisiko UKlaG ergänzen.
+2. **Anwendungsbereich:** AGB-Eigenschaft, Einbeziehung, Individualabrede, Verbraucher-/Unternehmerstatus und Sondermaterie klären.
+3. **Auslegung:** kundenfeindlichste vertretbare Auslegung, Überraschung, Mehrdeutigkeit und Transparenz prüfen.
+4. **Inhaltskontrolle:** § 307 BGB als Grundprüfung, danach einschlägige Klauselverbote aus §§ 308, 309 BGB und § 310 BGB einordnen.
+5. **Spezialfokus § 309 Nr. 12 BGB (Beweislast) und § 308 Nr. 6 BGB (Zugangsfiktion):**
+ - **§ 309 Nr. 12 BGB - Beweislast:** Eine Klausel, durch die der Verwender die Beweislast zum Nachteil des Kunden ändert, ist unwirksam. Hierunter fallen insbesondere:
+ - **lit. a:** Klausel, die dem Kunden die Beweislast für Umstaende auferlegt, die im Verantwortungsbereich des Verwenders liegen.
+ - **lit. b:** Klausel, durch die der Kunde bestimmte Tatsachen bestaetigt (z.B. "Kunde bestaetigt vollstaendige Information").
+ - **Konkrete Beispiele unwirksamer Klauseln:**
+ - "Der Anspruch des Kunden auf Mangelbeseitigung setzt voraus, dass er den Mangel innerhalb von 14 Tagen anzeigt" (Beweislastumkehr).
+ - "Der Kunde bestaetigt, über das Widerrufsrecht informiert worden zu sein" (Tatsachen-Bestaetigung).
+ - "Die Sache ist bei Lieferung in ordnungsgemaessem Zustand" (Beweisbelastung).
+ - **§ 308 Nr. 6 BGB - Zugangsfiktion (Klauselverbot mit Wertungsmoeglichkeit):** Klausel, nach der eine Erklaerung des Verwenders bei besonderem Bedeutung als zugegangen gilt - nur bei angemessener Frist und Hinweisfunktion zulässig. Pauschale Zugangsfiktion wie "Mitteilung an die letzte uns bekannte Adresse gilt als zugegangen" ist regelmaessig unwirksam.
+ - **B2B-Ausstrahlung:**
+ - § 309 Nr. 12 BGB strahlt über § 307 BGB ins B2B aus (BGH, ständige Rechtsprechung).
+ - § 308 Nr. 6 BGB ist im B2B unter Wertung des § 307 BGB anwendbar; pauschale Zugangsfiktionen auch im B2B kritisch.
+ - **Zugang nach § 130 BGB:** Bei Empfangsbeduerftigen Willenserklaerungen "Zugang in den Machtbereich des Empfaengers + Moeglichkeit der Kenntnisnahme". Bei E-Mail: in Eingang des Empfangsservers + Kenntnisnahmemoeglichkeit (BGH-Linie). Ausserhalb von Geschäftszeiten: am naechsten Werktag.
+ - **Beweissicherung im Vertrag:** Statt Zugangsfiktion ist Lieferantragsdokumentation zu empfehlen (Einschreiben, Lesebestaetigung, qualifizierter elektronischer Zustelldienst).
+6. **Rechtsfolge:** Unwirksamkeit; gesetzliche Beweislastregeln und Zugangsregeln greifen.
+7. **Verbesserung:** mindestens eine sichere Ersatzfassung und bei Bedarf eine verhandelbare Fallback-Fassung formulieren.
+
+### Mustertext (zulaessige Anschriftenklausel)
+
+> Erklaerungen des Anbieters sind dem Kunden an die zuletzt mitgeteilte Anschrift zu senden. Der Kunde verpflichtet sich, Adressaenderungen rechtzeitig in Textform mitzuteilen. Unterlaesst der Kunde die Mitteilung schuldhaft, gehen Erklaerungen ihm in dem Zeitpunkt zu, in dem sie ohne die Anschriftenaenderung zugegangen waeren. Diese Regelung gilt nicht für Kuendigungen und sonstige Erklaerungen mit besonderer rechtlicher Bedeutung.
+
+## Aktuelle BGH-Linie zu Beweislast und Zugang
+
+### Norm
+- § 309 Nr. 12 BGB Änderung der Beweislast zum Nachteil des Vertragspartners ist unwirksam.
+- § 309 Nr. 13 BGB Strengere Form als die Textform für Anzeigen oder Erklaerungen.
+
+### Schriftformklauseln
+- Schriftform statt Textform: gemäß § 309 Nr. 13 BGB unwirksam, soweit AGB strengere Anforderungen vorsehen, als das Gesetz vorschreibt.
+- BGB-Reform 2016: Textform genuegt; alle "Schriftform"-Klauseln in Verbraucher-AGB sind zu prüfen.
+
+### Zugangsfiktion
+- Zugangsfiktion und Empfangsbestaetigung: in AGB i. d. R. unwirksam, wenn sie zu Lasten des Vertragspartners gehen.
+- § 308 Nr. 6 BGB zur Fiktion des Zugangs.
+- Für E-Mail-Zugang Übermittlung an den richtigen Empfangsserver, gewöhnliche Abrufbarkeit, Geschäftszeiten, Fehlermeldungen und technische Protokolle konkret beweisen; Versand und Zugang nicht gleichsetzen.
+
+### Prüfraster
+1. Beweislastverteilung modifiziert? — § 309 Nr. 12 BGB.
+2. Strengere Form als gesetzlich? — § 309 Nr. 13 BGB.
+3. Zugang fiktiv geregelt? — § 308 Nr. 6 BGB.
+4. B2B? — Prüfung nach § 307 BGB, Indizwirkung der Wertung des § 309 BGB.
+
+## Quellenanker
+
+Siehe `references/QUELLEN.md`, `references/PRUEFLOGIK.md` und `references/KLAUSELFAMILIEN.md`.

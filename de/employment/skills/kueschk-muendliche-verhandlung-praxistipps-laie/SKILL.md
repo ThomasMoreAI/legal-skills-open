@@ -1,22 +1,37 @@
 ---
 name: kueschk-muendliche-verhandlung-praxistipps-laie
-title: 'Mündliche Verhandlung: Praxistipps für Laien'
-description: 'Praxistipps für Laien in der muendlichen Verhandlung beim Arbeitsgericht: Auftreten; Kleidung; Anrede des Gerichts; Sitzungsverlauf; Verhalten bei Vergleichsvorschlag; Stressbewaeltigung und Dokumentation.'
+title: 'Praxistipps für Laien in der muendlichen Verhandlung beim Arbeitsgericht: Auftreten'
+description: 'Für Praxistipps für Laien in der mündlichen Verhandlung beim Arbeitsgericht: Auftreten: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-muendliche-verhandlung-praxistipps-laie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Mündliche Verhandlung: Praxistipps für Laien
+# Praxistipps für Laien in der muendlichen Verhandlung beim Arbeitsgericht: Auftreten
 
-## Zweck
 
-Wer ohne Anwalt vor dem Arbeitsgericht erscheint, kann durch richtiges Auftreten und Vorbereitung viel gewinnen — oder durch unnötige Fehler verlieren. Dieser Skill gibt praktische Hinweise für Laien.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Praxistipps für Laien in der muendlichen Verhandlung beim Arbeitsgericht: Auftreten; Kleidung; Anrede des Gerichts; Sitzungsverlauf; Verhalten bei Vergleichsvorschlag; Stressbewaeltigung und Dokumentation.
+
+### Mündliche Verhandlung: Praxistipps für Laien
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mündliche Verhandlung: Praxistipps für Laien` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Vor dem Termin
 
@@ -70,7 +85,7 @@ Ein Vergleich, den du im Stress unterschreibst, ist bindend. Meist gibt es zumin
 ## Triage zu Beginn — kläre vor Ausgabe der Verhandlungstipps
 
 1. Handelt es sich um den Gütertermin (ca. 2–4 Wochen nach Klageerhebung) oder den Kammertermin (Haupttermin mit ehrenamtlichen Richtern)?
-2. Tritt der Nutzer als Laie ohne Anwalt auf (§ 11 Abs. 1 ArbGG: kein Anwaltszwang erste Instanz)?
+2. Tritt der Nutzer als Laie ohne Anwalt auf (Paragraf 11 Abs. 1 ArbGG: kein Anwaltszwang erste Instanz)?
 3. Liegt ein Vergleichsangebot der Gegenseite vor, das vorbereitet werden muss?
 4. Besteht besonderer Stress- oder Zeitdruck (z.B. Termin innerhalb von 24 Stunden)?
 
@@ -86,20 +101,13 @@ Ein Vergleich, den du im Stress unterschreibst, ist bindend. Meist gibt es zumin
 
 ## Zentrale Normen
 
-- **§ 54 ArbGG** — Güterverhandlung (obligatorisch, Einigungsversuch)
-- **§ 55 ArbGG** — Allgemeine Verfahrensförderung, Gütliche Einigung
-- **§ 60 ArbGG** — Kammertermin; Kammer mit Vorsitzenden und zwei ehrenamtlichen Richtern
-- **§ 11 Abs. 1 ArbGG** — Kein Anwaltszwang in erster Instanz
-- **§ 278 ZPO i.V.m. § 46 Abs. 2 ArbGG** — Gütliche Einigung jederzeit möglich
-- **§ 794 Abs. 1 Nr. 1 ZPO** — Gerichtlicher Vergleich als Vollstreckungstitel
+- **Paragraf 54 ArbGG** — Güterverhandlung (obligatorisch, Einigungsversuch)
+- **Paragraf 55 ArbGG** — Allgemeine Verfahrensförderung, Gütliche Einigung
+- **Paragraf 60 ArbGG** — Kammertermin; Kammer mit Vorsitzenden und zwei ehrenamtlichen Richtern
+- **Paragraf 11 Abs. 1 ArbGG** — Kein Anwaltszwang in erster Instanz
+- **Paragraf 278 ZPO i.V.m. Paragraf 46 Abs. 2 ArbGG** — Gütliche Einigung jederzeit möglich
+- **Paragraf 794 Abs. 1 Nr. 1 ZPO** — Gerichtlicher Vergleich als Vollstreckungstitel
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Nach dem Termin
 
 - Protokoll des Vergleichs oder Sitzungsprotokoll aufheben
@@ -111,3 +119,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

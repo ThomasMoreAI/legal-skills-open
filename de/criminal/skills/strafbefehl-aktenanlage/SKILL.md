@@ -1,11 +1,11 @@
 ---
 name: strafbefehl-aktenanlage
 title: Aktenanlage im Strafbefehlsverfahren
-description: 'Neues Strafbefehl-Mandat anlegen und Mandatsakte strukturieren damit Fristen und Beweismittel sicher verwaltet werden. Prüfraster Aktenstruktur Vollmacht Fristenkalender Beweismittelverzeichnis. Normen § 410 StPO Einspruchsfrist § 147 StPO Akteneinsicht § 43 StPO Fristberechnung. Output Mandatsakte-Template Fristenuebersicht Excel-Export Akten-Checkliste. Abgrenzung: strafbefehl-kommandocenter für uebergreifende Mandats-Steuerung.'
+description: 'Für Aktenanlage im Strafbefehlsverfahren: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-aktenanlage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,11 +14,23 @@ language: de
 
 # Aktenanlage im Strafbefehlsverfahren
 
+## Arbeitsbereich
+
+Neues Strafbefehl-Mandat anlegen und Mandatsakte strukturieren damit Fristen und Beweismittel sicher verwaltet werden. Prüfraster Aktenstruktur Vollmacht Fristenkalender Beweismittelverzeichnis. Normen § 410 StPO Einspruchsfrist § 147 StPO Akteneinsicht § 43 StPO Fristberechnung. Output Mandatsakte-Template Fristenuebersicht Excel-Export Akten-Checkliste. Abgrenzung: strafbefehl-kommandocenter für uebergreifende Mandats-Steuerung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
 1. **Liegt die Vollmacht des Mandanten vor?** — Ohne Vollmacht keine Verfahrenshandlungen.
-2. **Zugangsdatum des Strafbefehls dokumentiert?** — Ausgangspunkt fuer alle Fristen.
-3. **Delikt und Aktenzeichen notiert?** — Grundlage fuer alle Schriftsaetze.
+2. **Zugangsdatum des Strafbefehls dokumentiert?** — Ausgangspunkt für alle Fristen.
+3. **Delikt und Aktenzeichen notiert?** — Grundlage für alle Schriftsaetze.
 4. **Mandantenziel festgehalten?** — Freispruch, Einstellung, Strafmassreduzierung, Fahrverbots-Vermeidung.
 5. **Sofortmassnahmen ausgeloest?** — Einspruch fristgerecht eingelegt? Akteneinsicht beantragt?
 
@@ -26,46 +38,46 @@ language: de
 
 ```
 01_MANDANT
-   - Vollmacht Original
-   - Personalien, Kontakt
-   - Mandantenziel (schriftlich)
+ - Vollmacht Original
+ - Personalien, Kontakt
+ - Mandantenziel (schriftlich)
 
 02_STRAFBEFEHL
-   - Strafbefehl Original / Kopie
-   - Zustellungsurkunde
-   - § 409-Pruefungs-Notiz
+ - Strafbefehl Original / Kopie
+ - Zustellungsurkunde
+ - § 409-Pruefungs-Notiz
 
 03_FRISTEN
-   - Fristen-Uebersicht (Excel oder Tabelle)
-   - Einspruchsfrist: [DATUM]
-   - Revisionsbegründungsfrist (falls noetig): [DATUM]
+ - Fristen-Uebersicht (Excel oder Tabelle)
+ - Einspruchsfrist: [DATUM]
+ - Revisionsbegründungsfrist (falls noetig): [DATUM]
 
 04_SCHRIFTSAETZE_AUSGEHEND
-   - Einspruch (mit Eingangsbestaetigung)
-   - Akteneinsichtsantrag
-   - Weitere Antraege
+ - Einspruch (mit Eingangsbestaetigung)
+ - Akteneinsichtsantrag
+ - Weitere Antraege
 
 05_AKTENEINSICHT
-   - Ermittlungsakte vollstaendig
-   - Messakte (bei Verkehrsdelikten)
-   - Beweismittelverzeichnis
+ - Ermittlungsakte vollstaendig
+ - Messakte (bei Verkehrsdelikten)
+ - Beweismittelverzeichnis
 
 06_KORRESPONDENZ
-   - Behörden, Gericht, StA
-   - E-Mails chronologisch
+ - Behörden, Gericht, StA
+ - E-Mails chronologisch
 
 07_HAUPTVERHANDLUNG
-   - Einlassung (Endfassung)
-   - Beweisantraege
-   - Plaedoyer
+ - Einlassung (Endfassung)
+ - Beweisantraege
+ - Plaedoyer
 
 08_URTEIL_RECHTSMITTEL
-   - Urteil Original
-   - Rechtsmittelschrift
-   - Revisionsbegründung
+ - Urteil Original
+ - Rechtsmittelschrift
+ - Revisionsbegründung
 ```
 
-## Fristen-Uebersicht — Template
+## Fristen-Übersicht — Template
 
 | Frist | Rechtsgrundlage | Datum | Erledigt |
 |-------|----------------|-------|---------|
@@ -82,7 +94,7 @@ language: de
 |-----|-------------|-----|----------|-------------|--------|
 | 1 | Zeuge [Name] | Zeuge | Bl. [X] | [Thema] | auswerten |
 | 2 | Polizeibericht | Urkunde | Bl. [X] | Tathergang | auswerten |
-| 3 | Messprotokoll | Urkunde | Bl. [X] | Geschwindigkeit | kritisch pruefen |
+| 3 | Messprotokoll | Urkunde | Bl. [X] | Geschwindigkeit | kritisch prüfen |
 
 ## Zentrale Normen
 

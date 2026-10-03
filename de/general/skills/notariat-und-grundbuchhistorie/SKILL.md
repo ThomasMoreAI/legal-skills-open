@@ -1,0 +1,57 @@
+---
+name: notariat-und-grundbuchhistorie
+title: Notariat und Grundbuchhistorie
+description: 'Für Notariat und Grundbuchhistorie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/deutsche-rechtsgeschichte/skills/notariat-und-grundbuchhistorie
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Notariat und Grundbuchhistorie
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: historisch — Verjährung nach jeweiliger Quelle; heutige Relevanz über Art. 184 ff. EGBGB und Auslegungshilfe für Grundrechtsverständnis.
+- Tragende Normen verifizieren: Sachsenspiegel, Schwabenspiegel, Carolina (CCC 1532), Preußisches ALR 1794, Code civil (1804), Sächsisches BGB 1865, BGB 1900, WRV 1919, GG 1949; rechtshistorische Quellen MGH, Constitutiones — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Rechtshistoriker, Quelleneditionen, Lehrstühle für deutsche Rechtsgeschichte, Verfassungsrechtler (Auslegungshintergrund), Restitutionsverfahren mit historischem Anker.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Quellenedition, rechtshistorisches Gutachten, Vorlesungsskript, dogmenhistorischer Aufsatz, Verfassungsentstehungsgeschichte — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Das Notariat hat mittelalterliche Wurzeln im kaiserlichen und paepstlichen Notariat (notarius publicus). In Deutschland entwickelte sich das Notariat unterschiedlich je nach Region: Rheinisches Notariat (nach Code Civil-Muster, hauptberuflich), Preussisches Notariat (Justiznotar, kombiniert mit Gerichtsfunktionen). Die Grundbuchordnung 1897 (RGBl. 1897, 139) schuf das moderne Grundbuchsystem, für das notarielle Beurkundung bei Grundstuecksgeschaeften notwendig wurde (§ 311b BGB). Das Beurkundungsgesetz 1969 (BeurkG, BGBl. I 1969, 1513) regelt die Beurkundungstaetigkeit der Notare heute.
+
+## Kernnormen / Kernquellen
+
+- **BGB § 311b Abs. 1**: Beurkundungspflicht bei Grundstueckskaufvertraegen
+- **BeurkG 1969 (BGBl. I 1969, 1513)**: Beurkundungsverfahren und Notarspflichten
+- **GBO 1897 (RGBl. 1897, 139)**: Grundbuchordnung
+- **BNotO (BGBl. I 1961, 97)**: Bundesnotarordnung, Rechtsstellung der Notare
+- **Nuernberger Notariatsordnung 1512**: Historisches Beispiel fruehneuzeitlicher Notariatsregeln
+
+## Akteure und Institutionen
+
+- **Notarkammern**: Standesorganisationen der Notare
+- **Deutsche Notarrechtliche Vereinigung**: Wissenschaftliche Aufarbeitung
+- **Joachim Gernhuber** (1921-2001): Privatrechtler, Beurkundungsrecht
+- **Justizministerien der Länder**: Aufsicht über das Notariat
+
+## Typische Streitfragen / Forschungsfragen
+
+1. Haupt- vs. Nebenamt-Notariat: Vor- und Nachteile verschiedener Notariatssysteme
+2. Beurkundungszwang § 311b BGB: Verbraucherpaternalismus oder sinnvoller Schutz?
+3. Elektronisches Grundbuch: Gefaehrdet es die Verlaeesslichkeit des Grundbuchs?
+4. Notarielle Protokolle als historische Quelle: Verlaeesslichkeit und Zugang
+5. Rheinisches Notariat nach 1900: Kontinuitaet oder Assimilation ans preussische Modell?
+
+## Methodik
+
+- GBO und BeurkG: gesetze-im-internet.de
+- BNotO: gesetze-im-internet.de
+- BGB § 311b: gesetze-im-internet.de; historisch Mugdan Bd. III
+- Historische Notariatsakten: Landesarchive (Bestaende der Notariatsprotokolle)

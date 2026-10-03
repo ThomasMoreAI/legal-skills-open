@@ -5,7 +5,7 @@ description: Legal Sanity Review Workflow — mandatory pre-gate in the cross-re
 author: vamseeachanta
 author_url: https://github.com/vamseeachanta/workspace-hub/tree/main/.agents/skills/_internal/workflows/legal-sanity-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -25,7 +25,7 @@ Ensures no client project names, proprietary tool references, or legally sensiti
 ## Review Flow
 
 ```
-Codex/Gemini performs task
+Claude/Gemini performs task
          ↓
     Commit changes
          ↓
@@ -88,7 +88,7 @@ Deny lists control what patterns are scanned:
 - **Global**: `.legal-deny-list.yaml` (workspace root)
 - **Per-project**: `<submodule>/.legal-deny-list.yaml`
 
-See `.Codex/rules/legal-compliance.md` for the full policy.
+See `.claude/rules/legal-compliance.md` for the full policy.
 
 ---
 

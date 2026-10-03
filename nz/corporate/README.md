@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Companies Office NZ`](skills/companies-office-nz-thecolab-ai/) | Search and inspect New Zealand Companies Register records through read-only public website endpoints. Use… |
+| [`Companies Office NZ`](skills/companies-office-nz-thecolab-ai/) | Search and inspect New Zealand Companies Register records through read-only public website endpoints.… |
 
 ## Cold-start context
 

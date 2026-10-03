@@ -1,18 +1,18 @@
 ---
 name: determining-ua-request-regime
-title: determining-ua-request-regime
-description: "Use when choosing the Ukrainian legal regime for letters, requests, applications, complaints, consular status inquiries, public-information requests, administrative-service applications, access to administrative case materials, personal-data access, registry extracts, or lawyer requests. Prevents mixing ЗУ «Про доступ до публічної інформації», ЗУ «Про звернення громадян», ЗУ «Про адміністративну процедуру», ЗУ «Про адміністративні послуги», ЗУ «Про захист персональних даних», and advocate-request regimes."
+title: law-ua-determining-ua-request-regime
+description: Use when choosing the Ukrainian legal regime for letters, requests, applications, complaints, consular status inquiries, public-information requests, administrative-service applications, access to administrative case materials, personal-data access, registry extracts, or lawyer requests. Prevents mixing ЗУ «Про доступ до публічної інформації», ЗУ «Про звернення громадян», ЗУ «Про адміністративну процедуру», ЗУ «Про адміністративні послуги», ЗУ «Про захист персональних даних», and advocate-request regimes.
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-determining-ua-request-regime
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: administrative
 language: uk
 ---
 
-# determining-ua-request-regime
+# law-ua-determining-ua-request-regime
 
 Цей скіл визначає, у якому правовому режимі готувати письмовий документ до органу влади, консульства, установи, реєстру або іншого розпорядника інформації. Мета — не допустити змішування запиту, звернення, скарги, заяви в адміністративній справі та інших процедур в одному тексті.
 
@@ -100,8 +100,8 @@ language: uk
 
 ## Handoff до інших агентів і скілів
 
-- Для складання самого документа після вибору режиму — агент `request-drafter`.
-- Для консульських процедур — `applying-consular-procedures`, але статусні інформаційні запити все одно маршрутизуй через цей скіл.
-- Для позову після відмови, ненадання відповіді або протиправної бездіяльності — `claim-drafter`.
-- Для аналізу редакції статей і точних цитат — `legislation-analyst` або `fetching-zakon-rada`.
+- Для складання самого документа після вибору режиму — агент `law-ua-request-drafter`.
+- Для консульських процедур — `law-ua-applying-consular-procedures`, але статусні інформаційні запити все одно маршрутизуй через цей скіл.
+- Для позову після відмови, ненадання відповіді або протиправної бездіяльності — `law-ua-claim-drafter`.
+- Для аналізу редакції статей і точних цитат — `law-ua-legislation-analyst` або `law-ua-fetching-zakon-rada`.
 - Для спеціальних галузевих процедур (податкова, митниця, закупівлі, виконавче провадження, судовий доступ до матеріалів справи) не вигадуй універсальний режим. Визнач спеціальний закон і за потреби передай відповідному агенту або попроси уточнення.

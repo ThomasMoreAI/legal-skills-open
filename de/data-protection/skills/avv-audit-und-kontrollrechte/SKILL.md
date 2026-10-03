@@ -1,0 +1,113 @@
+---
+name: avv-audit-und-kontrollrechte
+title: AVV-Audit und Kontrollrechte – Art. 28 Abs. 3 lit. h DSGVO
+description: 'Für AVV-Audit und Kontrollrechte – Art. 28 Abs. 3 lit. h DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/avv-audit-und-kontrollrechte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# AVV-Audit und Kontrollrechte – Art. 28 Abs. 3 lit. h DSGVO
+
+## Zweck / Purpose
+
+Ausgestaltung des Audit- und Kontrollrechts des Verantwortlichen gegenueber dem Auftragsverarbeiter mit Balance zwischen wirksamer Kontrolle und Wahrung der Geschäftsablaeufe. Purpose (EN): Audit and inspection rights under Article 28 (3) (h) GDPR.
+
+## Wann dieses Modul hilft
+
+- Audit-Klauseln im AVV werden verhandelt.
+- Verantwortlicher will ein Vor-Ort-Audit durchfuehren.
+- Auftragsverarbeiter verweist auf Zertifikate (ISO 27001, SOC 2, BSI C5) und will Vor-Ort-Audit ausschliessen.
+- Aufsichtsbehoerde fordert Audit-Nachweise.
+
+## Rechtlicher Rahmen
+
+- Art. 28 Abs. 3 lit. h DSGVO: Auftragsverarbeiter stellt dem Verantwortlichen alle erforderlichen Informationen zum Nachweis der Einhaltung der in Art. 28 niedergelegten Pflichten zur Verfuegung und ermoeglicht Überprüfungen, einschliesslich Inspektionen, die vom Verantwortlichen oder einem anderen vom Verantwortlichen beauftragten Prüfer durchgefuehrt werden, und traegt zu diesen bei.
+- Art. 32 DSGVO: TOM-Pflicht, die Audit-Grundlage ist.
+- Art. 42, Art. 43 DSGVO: Zertifizierungen und Prüfstellen.
+- Art. 40 DSGVO: Verhaltensregeln (Codes of Conduct).
+- § 17 UWG, § 203 StGB: Schutz von Geschäftsgeheimnissen und Berufsgeheimnis bei Audit.
+
+## Ablauf / Checkliste
+
+1. **Audit-Frequenz.**
+ - Regelfall: einmal pro Kalenderjahr.
+ - Anlassbezogen: bei Datenpanne, Änderung der Verarbeitung, Aufsichtsbehoerdenfrage, konkreten Verdachtsmomenten.
+ - Aufsichtsbehoerde direkt: keine Frequenzbegrenzung.
+
+2. **Audit-Form.**
+
+ | Form | Anwendungsfall | Aussagekraft |
+ |---|---|---|
+ | Selbstauskunft (Self-Assessment) | Standardpruefung | Niedrig |
+ | Zertifikatseinsicht (ISO 27001, SOC 2 Type II, BSI C5 Typ 2) | Routine | Mittel |
+ | Schriftlicher Auditbericht des Auftragsverarbeiters | Routine | Mittel |
+ | Vor-Ort-Audit durch den Verantwortlichen oder dessen Prüfer | Anlassbezogen / kritisch | Hoch |
+ | Aufsichtsbehoerdliche Prüfung | bei Anordnung | Hoechste |
+
+3. **Ankuendigungsfrist und Auditor.**
+ - Praxis: 30 Kalendertage Vorankuendigung bei planmäßigem Audit.
+ - Verzicht auf Vorankuendigung bei akuter Datenpanne.
+ - Auditor: Verantwortlicher selbst oder ein vom Verantwortlichen beauftragter Wirtschaftspruefer / Datenschutzauditor.
+ - Wettbewerber-Ausschluss zulässig, soweit konkret begruendet.
+
+4. **Geschäftsgeheimnis-Schutz.**
+ - NDA für Auditoren.
+ - Schutz von Quellcode, Konfigurationen, Sub-AV-Vertraegen.
+ - Recht des Auftragsverarbeiters, sensible Informationen zu schwaerzen oder in Aggregatsform vorzulegen.
+ - Bei Berufsgeheimnistraegern (§ 203 StGB): Auditor unterliegt selbst der Schweigepflicht.
+
+5. **Kostenregelung.**
+ - Praxis: Verantwortlicher traegt Kosten des planmäßigen Audits.
+ - Auftragsverarbeiter traegt Kosten bei festgestellten Verstoessen.
+ - Bei anlassbezogenen Audits oft 50/50 oder Verursacherprinzip.
+
+6. **Auditergebnis und Folgen.**
+ - Auditbericht binnen 30 Kalendertagen.
+ - Stellungnahme des Auftragsverarbeiters binnen 14 Kalendertagen.
+ - Mangelbehebungsplan mit Fristen.
+ - Eskalation bei wesentlichen Maengeln: Anordnungen, Vertragsanpassung, Sonderkuendigung.
+
+## Mustertext / Template
+
+Audit-Klausel:
+
+> "§ X Audit- und Kontrollrechte
+>
+> (1) Der Auftragsverarbeiter stellt dem Verantwortlichen alle erforderlichen Informationen zum Nachweis der Einhaltung der in Art. 28 DSGVO und in diesem Vertrag festgelegten Pflichten zur Verfuegung (Art. 28 Abs. 3 lit. h DSGVO).
+>
+> (2) Der Verantwortliche kann einmal pro Kalenderjahr ein planmäßiges Audit beim Auftragsverarbeiter durchfuehren oder durch einen von ihm beauftragten unabhaengigen Prüfer durchfuehren lassen. Das planmäßige Audit ist mindestens dreissig (30) Kalendertage im Voraus schriftlich anzukuendigen.
+>
+> (3) Über das planmäßige Audit hinaus ist der Verantwortliche bei begruendetem Anlass zur Durchfuehrung eines anlassbezogenen Audits ohne die Frist aus Absatz (2) berechtigt. Ein begruendeter Anlass liegt insbesondere vor bei einer Datenpanne, bei einer Anordnung der Aufsichtsbehoerde sowie bei einem konkreten Hinweis auf eine Pflichtverletzung des Auftragsverarbeiters.
+>
+> (4) Der Auftragsverarbeiter kann anstelle eines Vor-Ort-Audits die Vorlage eines aktuellen Prüfberichts eines unabhaengigen Prüfers nach anerkannten Standards (z. B. ISO 27001 oder SOC 2 Type II oder BSI C5 Typ 2) anbieten. Der Verantwortliche kann dieses Angebot annehmen, wenn der Prüfbericht die zu prüfenden Verarbeitungstaetigkeiten abdeckt und nicht aelter als zwoelf (12) Monate ist.
+>
+> (5) Der Auditor unterliegt der Verschwiegenheit. Der Auftragsverarbeiter kann sensible Geschäftsgeheimnisse (insbesondere Quellcode, Konfigurationen, Sub-AV-Verträge) in geschwaerzter Form oder durch geeignete Aggregation vorlegen.
+>
+> (6) Die Kosten des planmäßigen Audits traegt der Verantwortliche. Werden bei einem Audit Pflichtverletzungen des Auftragsverarbeiters festgestellt, traegt der Auftragsverarbeiter die Kosten des betreffenden Audits sowie etwaiger Folgeaudits zur Nachpruefung.
+>
+> (7) Der Auditbericht ist dem Auftragsverarbeiter binnen dreissig (30) Kalendertagen nach Audit zur Stellungnahme vorzulegen. Der Auftragsverarbeiter erstellt einen Mangelbehebungsplan mit angemessenen Fristen.
+>
+> (8) Werden bei einem Audit wesentliche Pflichtverletzungen festgestellt, die der Auftragsverarbeiter trotz angemessener Frist nicht behebt, ist der Verantwortliche zur ausserordentlichen Kuendigung des Hauptvertrags und dieses Auftragsverarbeitungsvertrags berechtigt."
+
+## Typische Drafting-Fehler
+
+- Audit-Recht durch Verweis auf Zertifikate vollstaendig ersetzt – verstoesst gegen Art. 28 Abs. 3 lit. h DSGVO (Mindestrecht auf Inspektion bei berechtigtem Anlass muss bestehen).
+- Kein Frequenz- und Anlasskonzept; entweder unbegrenzte Audits oder gar keine.
+- Kostenregelung pauschal zulasten einer Partei.
+- Geschäftsgeheimnis-Schutz fehlt; Auditor verpflichtet sich nicht zu NDA.
+- Sub-AV-Audit-Kette nicht geregelt.
+- Bei Berufsgeheimnistraegern (Kanzlei, Praxis) keine Auditor-Schweigepflichtklausel – kann § 203 StGB-Problem ausloesen.
+
+## Quellen Stand 06/2026
+
+- Art. 28 Abs. 3 lit. h DSGVO.
+- Art. 32, Art. 40, Art. 42, Art. 43 DSGVO.
+- § 17 UWG, § 203 StGB, § 43a Abs. 2 BRAO.
+- ISO/IEC 27001:2022, SOC 2 Trust Services Criteria, BSI C5:2020.
+- Zitierweise: `../../../references/zitierweise.md`.

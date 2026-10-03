@@ -1,11 +1,11 @@
 ---
 name: anpassungsgebot-flaechennutzungsplan
 title: Anpassungsgebot — Flächennutzungsplan
-description: 'Mandant greift Bebauungsplan an weil er nicht aus dem Flaechennutzungsplan entwickelt wurde. § 8 Abs. 2 BauGB Entwicklungsgebot und Anpassungsgebot. Prüfraster: Entwicklungssaussage des FNP bezogen auf Plangebiet Konflikt FNP-Darstellung vs. B-Plan-Festsetzung Ausnahmen § 8 Abs. 3 und 4 BauGB Parallelverfahren § 13a Abs. 2 BauGB. Output: Entwicklungsgebot-Prüfprotokoll und Angriffspunkt für Normenkontrollantrag. Abgrenzung zu abwaegungsgebot-1-abs-7-baugb (Abwaegungsfehler) und planerhaltung-214-215-baugb.'
+description: 'Für Anpassungsgebot — Flächennutzungsplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/anpassungsgebot-flaechennutzungsplan
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Anpassungsgebot — Flächennutzungsplan
-
-## Zweck
-
-Das Entwicklungsgebot bindet den B-Plan an den FNP. Verletzung ist beachtlicher Verfahrensfehler und häufig übersehener Angriffspunkt.
 
 ## Schritt 1 — Wortlaut § 8 BauGB
 
@@ -123,8 +119,8 @@ Das Entwicklungsgebot bindet den B-Plan an den FNP. Verletzung ist beachtlicher 
 
 ### Strategischer Hebel
 - Wenn Entwidmung nicht vorliegt — B-Plan wirft zwei Probleme auf:
-  - FNP-Konflikt
-  - Eisenbahnrechts-Konflikt
+ - FNP-Konflikt
+ - Eisenbahnrechts-Konflikt
 - Beides als Verstoß gegen Erforderlichkeit oder beachtlicher Fehler
 
 ## Schritt 8 — Rechtsfolge bei Verstoß gegen § 8 Abs. 2 BauGB
@@ -161,8 +157,4 @@ Das Entwicklungsgebot bindet den B-Plan an den FNP. Verletzung ist beachtlicher 
 
 ## Aktuelle Rechtsprechung — Leitsaetze
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

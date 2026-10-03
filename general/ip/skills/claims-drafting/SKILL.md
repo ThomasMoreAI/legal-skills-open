@@ -5,7 +5,7 @@ description: Draft patent claims for an invention. Use when user says "撰写权
 author: wanshuiyin
 author_url: https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/tree/main/skills/skills-codex/claims-drafting
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -20,7 +20,7 @@ This is the most critical skill in the patent pipeline. Claims define the legal 
 
 ## Constants
 
-- `REVIEWER_MODEL = gpt-5.5` — External examiner for claim quality review
+- `REVIEWER_MODEL = gpt-6-astra` — External examiner for claim quality review
 - `MAX_CLAIM_REVISION_ROUNDS = 3` — Maximum revision iterations
 - `CLAIM_STYLE = "auto"` — `US` (Jepson or open), `EP` (two-part mandatory), `CN` (two-part), `auto` (detect from jurisdiction)
 - `MIN_INDEPENDENT_CLAIMS = 2` — Typically method + system. For utility model (实用新型): apparatus/device only, NO method claims.
@@ -137,13 +137,13 @@ Create a preliminary mapping to verify enablement:
 
 If any element lacks specification support, add it to the specification requirements.
 
-### Step 5: Cross-Model Examiner Review
+### Step 5: Fresh-Agent Examiner Review (same-family provisional by default)
 
 Start the examiner review with a dedicated Codex reviewer agent at xhigh reasoning:
 
 ```
 spawn_agent:
-  model: gpt-5.5
+  model: gpt-6-astra
   reasoning_effort: xhigh
   message: |
     You are a senior patent examiner at the [USPTO/CNIPA/EPO].

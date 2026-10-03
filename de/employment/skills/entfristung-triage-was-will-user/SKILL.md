@@ -1,35 +1,59 @@
 ---
 name: entfristung-triage-was-will-user
-title: 'Entfristungsklage: Was will der Nutzer?'
-description: 'Einstieg Entfristungsklage-Workflow: Erkennung ob Nutzer Befristungskontrollklage oder Entfristungsklage anstrebt; Abgrenzung zu Kündigungsschutzklage; Überblick Prüfprogramm TzBfG; Weiterleitung zu passenden Folge-Skills.'
+title: 'Einstieg Entfristungsklage-Workflow: Erkennung ob Nutzer Befristungskontrollklage oder Entfristungsklage anstrebt'
+description: 'Für Entfristung Triage Was Will User: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/entfristung-triage-was-will-user
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Entfristungsklage: Was will der Nutzer?
+# Einstieg Entfristungsklage-Workflow: Erkennung ob Nutzer Befristungskontrollklage oder Entfristungsklage anstrebt
+
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Einstieg Entfristungsklage-Workflow: Erkennung ob Nutzer Befristungskontrollklage oder Entfristungsklage anstrebt; Abgrenzung zu Kündigungsschutzklage; Überblick Prüfprogramm TzBfG; Weiterleitung zu passenden Folge-Skills.
+
+### Entfristungsklage: Was will der Nutzer?
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Entfristungsklage: Was will der Nutzer?` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Zentrale Normen (Überblick)
 
-- § 17 TzBfG — 3-Wochen-Klagefrist (kritischste Frist; läuft auch bei Weiterbeschäftigung)
-- § 14 Abs. 4 TzBfG — Schriftformerfordernis (häufig übersehener Unwirksamkeitsgrund)
-- § 14 Abs. 2 Satz 2 TzBfG — Vorbeschäftigungsverbot
-- § 16 TzBfG — Rechtsfolge: Vertrag gilt als unbefristet
-- § 4 KSchG — Klagefrist Kündigungsschutz (zur Abgrenzung)
-- § 623 BGB — Schriftformerfordernis Kündigung (zur Abgrenzung)
-
-## Aktuelle Rechtsprechung (Kurzüberblick für Triage)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zweck
-
-Dieser Skill ist der Einstieg in den Entfristungs-Workflow. Er klärt, ob das Ziel des Nutzers ist, festzustellen, dass ein angeblich befristeter Vertrag in Wirklichkeit **unbefristet** ist (Befristungskontrollklage / Entfristungsklage).
+- Paragraf 17 TzBfG — 3-Wochen-Klagefrist (kritischste Frist; läuft auch bei Weiterbeschäftigung)
+- Paragraf 14 Abs. 4 TzBfG — Schriftformerfordernis (häufig übersehener Unwirksamkeitsgrund)
+- Paragraf 14 Abs. 2 Satz 2 TzBfG — Vorbeschäftigungsverbot
+- Paragraf 16 TzBfG — Rechtsfolge: Vertrag gilt als unbefristet
+- Paragraf 4 KSchG — Klagefrist Kündigungsschutz (zur Abgrenzung)
+- Paragraf 623 BGB — Schriftformerfordernis Kündigung (zur Abgrenzung)
 
 ## Abgrenzung: Entfristungsklage vs. Kündigungsschutzklage
 
@@ -37,9 +61,9 @@ Dieser Skill ist der Einstieg in den Entfristungs-Workflow. Er klärt, ob das Zi
 |---|---|---|
 | Ausgangssituation | Befristeter Vertrag läuft aus | Kündigung durch Arbeitgeber |
 | Ziel | Feststellung: Vertrag ist unbefristet | Feststellung: Kündigung ist unwirksam |
-| Rechtsgrundlage | §§ 17, 16 TzBfG | § 4 KSchG |
+| Rechtsgrundlage | Paragrafen 17, 16 TzBfG | Paragraf 4 KSchG |
 | Frist | 3 Wochen ab vereinbartem Ende | 3 Wochen ab Zugang der Kündigung |
-| Norm Schriftform | § 14 Abs. 4 TzBfG | § 623 BGB |
+| Norm Schriftform | Paragraf 14 Abs. 4 TzBfG | Paragraf 623 BGB |
 
 ## Typische Einstiegssituation
 
@@ -56,11 +80,11 @@ Das System erkennt den Entfristungs-Bedarf wenn:
 - Der Arbeitnehmer behauptet, die Befristung sei unwirksam
 - Das Ende des Vertrags noch nicht eingetreten ist oder erst kürzlich eingetreten ist
 
-## Kritische Sofortfrage: Dreiwochenfrist § 17 TzBfG
+## Kritische Sofortfrage: Dreiwochenfrist Paragraf 17 TzBfG
 
 **Sofort prüfen:**
 
-> § 17 TzBfG: Will der Arbeitnehmer geltend machen, dass die Befristung eines Arbeitsvertrags rechtsunwirksam ist, so muss er innerhalb von **drei Wochen nach dem vereinbarten Ende des befristeten Arbeitsvertrags** Klage beim Arbeitsgericht auf Feststellung erheben, dass das Arbeitsverhältnis auf Grund der Befristung nicht beendet ist.
+> Paragraf 17 TzBfG: Will der Arbeitnehmer geltend machen, dass die Befristung eines Arbeitsvertrags rechtsunwirksam ist, so muss er innerhalb von **drei Wochen nach dem vereinbarten Ende des befristeten Arbeitsvertrags** Klage beim Arbeitsgericht auf Feststellung erheben, dass das Arbeitsverhältnis auf Grund der Befristung nicht beendet ist.
 
 **Wann läuft die Frist?** Ab dem **vereinbarten** (nicht tatsächlichen) Vertragsende. Sie läuft auch wenn der Arbeitnehmer tatsächlich weiterbeschäftigt wird.
 
@@ -69,7 +93,7 @@ Das System erkennt den Entfristungs-Bedarf wenn:
 | Schritt | Skill |
 |---|---|
 | Laie oder Anwalt? | `entfristung-laie-oder-anwalt-frage` |
-| Dreiwochenfrist § 17 TzBfG | `entfristung-grundwarnung-drei-wochen-frist` |
+| Dreiwochenfrist Paragraf 17 TzBfG | `entfristung-grundwarnung-drei-wochen-frist` |
 | Sachgrund prüfen | `entfristung-sachgrund-pruefen-14-abs-1` |
 | Schriftform prüfen | `entfristung-schriftform-14-abs-4-erkennen` |
 | Elektronische Signatur | `entfristung-elektronische-signatur-vorsicht` |
@@ -80,3 +104,17 @@ Das System erkennt den Entfristungs-Bedarf wenn:
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+## Aktuelle BAG-Linie 2025/2026 (live verifizieren vor Schriftsatzverwendung)
+
+Drei aktuelle Leitentscheidungen, die über das Arbeitsrecht in den letzten zwoelf Monaten besonders weit ausstrahlen:
+
+| Entscheidung | Tragende Aussage | Skill-Vertiefung |
+| --- | --- | --- |
+| **BAG, Urt. v. 23.10.2025 - 8 AZR 300/24** | **Equal Pay - Paarvergleich genuegt.** Eine einzige besser bezahlte Vergleichsperson des anderen Geschlechts mit gleicher oder gleichwertiger Arbeit reicht, um die Vermutung des Paragraf 22 AGG auszuloesen. Der Arbeitgeber muss konkret darlegen, dass die Differenz ausschließlich auf objektiven, geschlechtsneutralen Gruenden beruht. Pauschale Hinweise auf Medianwerte, Durchschnittsbetrachtungen oder Verhandlungsgeschick reichen nicht. Art. 157 AEUV bekommt damit Schaerfe. | `bag-equal-pay-paarvergleich` (fachanwalt-arbeitsrecht) / `bag-equal-pay-paarvergleich-8azr30024` (arbeitsrecht) |
+| **BAG, Urt. v. 03.06.2025 - 9 AZR 104/24** | **Kein Verzicht auf gesetzlichen Mindesturlaub.** Im bestehenden Arbeitsverhaeltnis können Arbeitnehmer:innen auf den gesetzlichen Mindesturlaub nicht wirksam verzichten - auch nicht durch gerichtlichen Vergleich. Gilt selbst dann, wenn die Beendigung bereits feststeht und absehbar ist, dass der Urlaub krankheitsbedingt nicht mehr genommen werden kann. Ausgleichs-/Erledigungs-/Abgeltungsklauseln müssen sauber zwischen gesetzlichem Mindesturlaub, vertraglichem Mehrurlaub und bereits entstandener Urlaubsabgeltung unterscheiden. | `bag-mindesturlaub-kein-verzicht` (fachanwalt-arbeitsrecht) / `bag-mindesturlaub-kein-verzicht-9azr10424` (arbeitsrecht) |
+| **BAG, Urt. v. 25.03.2026 - 5 AZR 108/25** | **Pauschale Freistellungsklauseln in Arbeitsvertragsformularen unwirksam.** Eine formularmaessige Freistellungsklausel, die dem Arbeitgeber das einseitige Recht gibt, Beschäftigte nach Kuendigung unter Fortzahlung der Vergütung freizustellen, ist nach AGB-Kontrolle unwirksam, wenn sie Arbeitnehmer:innen unangemessen benachteiligt. Freistellung bleibt im konkreten Fall möglich - braucht aber einen tragfaehigen Grund (ueberwiegende schutzwuerdige Arbeitgeberinteressen). Die pauschale Vorratsklausel reicht nicht. | `bag-freistellungsklausel-unwirksam` (fachanwalt-arbeitsrecht) / `bag-freistellungsklausel-unwirksam-5azr10825` (arbeitsrecht) |
+
+> Diese drei Aktenzeichen sind Sucheinstieg. Vor Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (bundesarbeitsgericht.de, dejure.org) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung. Spezial-Skills oben enthalten Prüfschemata, Klagebausteine und Verteidigungsmuster.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

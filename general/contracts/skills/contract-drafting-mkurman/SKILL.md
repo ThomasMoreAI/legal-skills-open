@@ -5,12 +5,20 @@ description: Use this skill when drafting NDAs, MSAs, SaaS agreements, licensing
 author: mkurman
 author_url: https://github.com/mkurman/zorai/tree/main/skills/nontechnical/absolutelyskilled/contract-drafting
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [nda, msa, saas-agreement, licensing, legal]
+tags:
+- nda
+- msa
+- saas-agreement
+- licensing
+- legal
+sources:
+- title: Clause library
+  path: references/clause-library.md
 ---
 
 ## Key principles

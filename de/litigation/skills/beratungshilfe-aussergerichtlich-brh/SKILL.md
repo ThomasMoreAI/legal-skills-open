@@ -1,0 +1,111 @@
+---
+name: beratungshilfe-aussergerichtlich-brh
+title: 'Beratungshilfe: Anwalt vor Klage (fast) umsonst'
+description: 'Für Beratungshilfe: Anwalt vor Klage (fast) umsonst: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/beratungshilfe-aussergerichtlich-brh
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Beratungshilfe: Anwalt vor Klage (fast) umsonst
+
+## Worum geht es?
+
+Bevor Sie klagen, kann ein Anwaltsgespraech viel klären: Habe ich Erfolgsaussichten? Wie formuliere ich den Antrag? Welche Beweise? Wenn Sie beduerftig sind, können Sie **Beratungshilfe** nach dem Beratungshilfegesetz (BerHG) bekommen — der Anwalt wird vom Staat bezahlt, Sie zahlen nur eine Schutzgebuehr von 15 EUR.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie ueberlegen Klage und wollen eine Beratung vor der Entscheidung.
+- Sie wurden verklagt und brauchen ersten Rat.
+- Sie haben Anwaltsbedarf, kein Geld.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Beratungshilfe**: Staatliche Förderung der aussergerichtlichen Anwaltsberatung für Beduerftige.
+- **Berechtigungsschein**: Vom Amtsgericht ausgestellter Schein, der dem Anwalt die Berechnung gegenueber dem Staat ermoeglicht.
+- **Schutzgebuehr**: Selbst zu tragender Anteil; pauschal 15 EUR.
+
+## Rechtsgrundlagen
+
+- **§ 1 BerHG** — Anwendungsbereich Beratungshilfe.
+- **§ 4 BerHG** — Antrag beim Amtsgericht.
+- **§ 6a BerHG** — Schutzgebuehr 15 EUR.
+- **§ 7 BerHG** — Gebührenrechnung Anwalt zum Staat.
+- **§ 116 ZPO** — Verweisung auf PKH bei Klage.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Voraussetzungen prüfen
+
+- Beduerftigkeit (ähnlich PKH).
+- Keine anderweitige Beratungsmoeglichkeit (z. B. nicht durch Mitgliedschaft in Mieterverein etc.).
+- Rechtsangelegenheit nicht mutwillig.
+
+### Schritt 2 — Wahl: Selbst zum AG oder zum Anwalt
+
+Variante A: Sie gehen **zum Amtsgericht**, fuellen Antrag aus, holen Berechtigungsschein und gehen damit zum Anwalt.
+
+Variante B: Sie gehen **direkt zum Anwalt** und beantragen den Schein nachtraeglich (binnen 4 Wochen).
+
+Variante A ist sicherer — Anwalt weiss, dass Schein bewilligt.
+
+### Schritt 3 — Antrag stellen
+
+Beim Amtsgericht Ihres Wohnsitzes:
+
+- Formular für Beratungshilfe.
+- Belege für Beduerftigkeit (Lohnabrechnungen, Sozialleistungs-Bescheid).
+- Kurze Schilderung der Rechtsangelegenheit.
+
+Sie bekommen einen Berechtigungsschein, mit dem Sie zum Anwalt gehen.
+
+### Schritt 4 — Beim Anwalt
+
+- Schein vorlegen.
+- 15 EUR Schutzgebuehr zahlen (oder Anwalt schreibt Rechnung).
+- Beratung erhalten — Anwalt erklaert, formuliert, prüft.
+
+Der Anwalt rechnet seine Gebuehr direkt mit dem Staat ab.
+
+### Schritt 5 — Was die Beratungshilfe abdeckt
+
+- Beratungsgespraech.
+- Schriftverkehr mit Gegenseite (Mahnung, Reklamation).
+- Prüfung von Vertraegen.
+- Entwurf von Schriftstuecken (Kuendigung etc.).
+
+### Schritt 6 — Was sie NICHT abdeckt
+
+- Klageerhebung (dafür PKH).
+- Vertretung im Prozess (PKH).
+- Verfahren vor Verwaltungsbehoerden in mehreren Bundeslaendern ausgeschlossen (Prüfen!).
+
+### Schritt 7 — Uebergang zu PKH
+
+Wenn nach Beratung klar wird: Sie müssen klagen — beantragen Sie PKH (Skill `prozesskostenhilfe-pkh-114-zpo`). Beratungshilfe und PKH sind unterschiedliche Förderungen.
+
+### Schritt 8 — Welche Anwaelte?
+
+Jeder Anwalt darf Beratungshilfe-Mandate annehmen — er muss aber **nicht**. Manche Anwaelte lehnen wegen niedriger Gebühren ab. Suchen Sie ggf. mehrere.
+
+## Worauf Sie besonders achten müssen
+
+- **Beratungshilfe vor Klage**, PKH **für Klage**. Verwechseln nicht.
+- **15 EUR Schutzgebuehr** ist obligatorisch (auch für Beduerftige).
+- **Beratungshilfe ist EINMAL pro Angelegenheit** — nicht beliebig oft.
+- **Belege vollstaendig**: Sonst Antrag-Ablehnung.
+
+## Typische Fehler
+
+- "Beratungshilfe deckt Klage." → Nein, für Klage PKH.
+- "Ich muss zuerst einen Anwalt nehmen." → Sie können auch direkt zum AG für Schein.
+- "Beratungshilfe ist kostenlos." → 15 EUR Schutzgebuehr.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. BerHG unveraendert.

@@ -10,8 +10,8 @@ Jurisdiction: `at` · Practice: `family` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht familie — Familienrecht (Advisory)`](skills/recht-familie-momarcode1/) | Austrian family law analysis — divorce (EheG), alimony/maintenance (Unterhalt), child custody (Obsorge),… |
-| [`/recht familie-verfahren — Familienrechtliche Verfahren (Procedural)`](skills/recht-familie-verfahren-momarcode1/) | Austrian family law procedures — consensual and contested divorce proceedings, maintenance applications,… |
+| [`/recht familie — Familienrecht (Advisory)`](skills/recht-familie-momarcode1/) | Austrian family law analysis — divorce (EheG), alimony/maintenance (Unterhalt), child custody (Obsorge)… |
+| [`/recht familie-verfahren — Familienrechtliche Verfahren (Procedural)`](skills/recht-familie-verfahren-momarcode1/) | Austrian family law procedures — consensual and contested divorce proceedings, maintenance applications… |
 
 ## Cold-start context
 

@@ -10,8 +10,8 @@ Jurisdiction: `il` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`israel-companies-registry`](skills/israel-companies-registry-nolpak14/) | Look up Israeli companies for free via the official Israel Corporations Authority (Rasham HaChavarot) open… |
-| [`validate-companies-docx`](skills/validate-companies-docx-shaishulman/) | ALWAYS use this skill instead of validate-companies when a .docx file is involved. Validates Israeli company… |
+| [`israel-companies-registry`](skills/israel-companies-registry-nolpak14/) | Look up Israeli companies for free via the official Israel Corporations Authority (Rasham HaChavarot)… |
+| [`validate-companies-docx`](skills/validate-companies-docx-shaishulman/) | ALWAYS use this skill instead of validate-companies when a .docx file is involved. Validates Israeli… |
 | [`validate-companies`](skills/validate-companies-shaishulman/) | Validate, look up, or complete Israeli company details in conversation text or pasted content (NOT .docx… |
 
 ## Cold-start context

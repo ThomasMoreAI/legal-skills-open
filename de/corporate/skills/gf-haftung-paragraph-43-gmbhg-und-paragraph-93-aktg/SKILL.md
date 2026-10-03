@@ -1,11 +1,11 @@
 ---
 name: gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg
 title: Geschäftsführerhaftung — § 43 GmbHG und § 93 AktG in der Krise
-description: 'Geschäftsführerhaftung bei Krisenversagen prüfe und begrenzen: GF oder Berater will Haftungsrisiken einschaetzen und Enthaftungsstrategien entwickeln. Normen: § 43 GmbHG (Sorgfaltspflicht), § 93 AktG (Vorstandshaftung), § 93 Abs. 2 S. 2 AktG (Beweislastumkehr). Prüfraster: Business Judgment Rule in der Krise, Beweislastumkehr, Enthaftungsstrategien (BJR-Dokumentation, Sanierungsberater). Output Haftungsrisiko-Analyse, Enthaftungs-Memo, Aktionsplan. Abgrenzung: Dokumentation siehe dokumentationspflicht-und-protokollierung-geschäftsführung; Insolvenzantragspflicht siehe insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist.'
+description: 'Für Geschäftsführerhaftung — Paragraf 43 GmbHG und Paragraf 93 AktG in der Krise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -13,6 +13,20 @@ language: de
 ---
 
 # Geschäftsführerhaftung — § 43 GmbHG und § 93 AktG in der Krise
+
+## Arbeitsbereich
+
+Geschäftsführerhaftung bei Krisenversagen prüfe und begrenzen: GF oder Berater will Haftungsrisiken einschaetzen und Enthaftungsstrategien entwickeln. Normen: § 43 GmbHG (Sorgfaltspflicht), § 93 AktG (Vorstandshaftung), § 93 Abs. 2 S. 2 AktG (Beweislastumkehr). Prüfraster: Business Judgment Rule in der Krise, Beweislastumkehr, Enthaftungsstrategien (BJR-Dokumentation, Sanierungsberater). Output Haftungsrisiko-Analyse, Enthaftungs-Memo, Aktionsplan. Abgrenzung: Dokumentation siehe dokumentationspflicht-und-protokollierung-geschäftsführung; Insolvenzantragspflicht siehe insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StaRUG; § 1 StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Die persönliche Haftung des Geschäftsführers ist kein theoretisches Konstrukt — sie ist das scharfe Ende eines stumpfer werdenden Unternehmens. § 43 GmbHG und § 93 AktG halten das Heft des Handelns mit voller Kraft gegen die Person des Managers, sobald die Krise eintritt und Pflichten verletzt wurden. Wer in der Krise nicht dokumentiert, nicht eskaliert und nicht handelt, findet sich später als Beklagter in einem Regressprozess wieder, in dem er beweisen muss, dass er alles richtig gemacht hat.
 
@@ -74,8 +88,8 @@ Seit dem 1. Januar 2021 (SanInsFoG) gilt das Zahlungsverbot des § 15b InsO: Nac
 Das StaRUG ist ein vorinsolvenzliches Instrument. Es schützt denjenigen, der rechtzeitig handelt — also bei drohender Zahlungsunfähigkeit (§ 18 InsO), nicht bei eingetretener. Das Verhältnis:
 
 ```
-StaRUG-Zugang:    Drohende Zahlungsunfähigkeit (§ 18 InsO) — 24-Monats-Horizont
-InsO-Pflicht:     Eingetretene Zahlungsunfähigkeit (§ 17 InsO) ODER Überschuldung (§ 19 InsO)
+StaRUG-Zugang: Drohende Zahlungsunfähigkeit (§ 18 InsO) — 24-Monats-Horizont
+InsO-Pflicht: Eingetretene Zahlungsunfähigkeit (§ 17 InsO) ODER Überschuldung (§ 19 InsO)
 Drei-Wochen-Frist: Ab Kenntnis des Insolvenzgrundes
 ```
 
@@ -127,30 +141,30 @@ Monat: [MM/JJJJ]
 Erstellt von: [Name GF]
 
 1. LIQUIDITÄTSLAGE
-   Liquiditätsreichweite aktuell: [x] Monate
-   Vormonat: [x] Monate
-   Trend: [Verbesserung / stabil / Verschlechterung]
+ Liquiditätsreichweite aktuell: [x] Monate
+ Vormonat: [x] Monate
+ Trend: [Verbesserung / stabil / Verschlechterung]
 
 2. FRÜHWARNINDIKATOREN
-   EBITDA lfd. Jahr: EUR [___] (Plan: EUR [___])
-   Net-Debt/EBITDA: [x,xx]x
-   Covenant-Headroom: [x] %
+ EBITDA lfd. Jahr: EUR [___] (Plan: EUR [___])
+ Net-Debt/EBITDA: [x,xx]x
+ Covenant-Headroom: [x] %
 
 3. MASSNAHMEN
-   Laufende Maßnahmen: [Beschreibung]
-   Neu beschlossen: [Beschreibung]
-   Verantwortlich: [Name]
-   Frist: [Datum]
+ Laufende Maßnahmen: [Beschreibung]
+ Neu beschlossen: [Beschreibung]
+ Verantwortlich: [Name]
+ Frist: [Datum]
 
 4. ESKALATION
-   Gesellschafter informiert am: [Datum / noch nicht]
-   AR informiert am: [Datum / nicht anwendbar]
-   Berater (StB/WP/RA) informiert am: [Datum]
+ Gesellschafter informiert am: [Datum / noch nicht]
+ AR informiert am: [Datum / nicht anwendbar]
+ Berater (StB/WP/RA) informiert am: [Datum]
 
 5. INSOLVENZREIFE-PRÜFUNG
-   Zahlungsunfähigkeit eingetreten? [ ] Ja [ ] Nein
-   Überschuldung eingetreten? [ ] Ja [ ] Nein
-   Grundlage der Einschätzung: [eigene Analyse / Beratertestat / IDW S 11 Gutachten]
+ Zahlungsunfähigkeit eingetreten? [ ] Ja [ ] Nein
+ Überschuldung eingetreten? [ ] Ja [ ] Nein
+ Grundlage der Einschätzung: [eigene Analyse / Beratertestat / IDW S 11 Gutachten]
 
 Unterschrift: _________________________ Datum: _____________
 ```
@@ -167,11 +181,11 @@ Anwesend: alle Gesellschafter / [x von y Anteilen]
 Die Gesellschafterversammlung beschließt einstimmig / mit [x/y-Mehrheit]:
 
 1. Die Geschäftsführung wird beauftragt, ein Krisenfrüherkennungssystem
-   nach § 1 StaRUG und IDW PS 340 n.F. zu implementieren.
+ nach § 1 StaRUG und IDW PS 340 n.F. zu implementieren.
 2. Es wird eine rollierende 24-Monats-Liquiditätsplanung eingeführt
-   mit monatlicher Berichterstattung an die Gesellschafter.
+ mit monatlicher Berichterstattung an die Gesellschafter.
 3. Die Geschäftsführung wird ermächtigt, externe Restrukturierungsberater
-   zu beauftragen.
+ zu beauftragen.
 4. Sanierungsmaßnahmen gemäß Anlage 1 werden genehmigt.
 
 [Ort], [Datum]
@@ -193,15 +207,6 @@ Unterschriften aller Gesellschafter: _______________________
 5. **Quasi-Geschäftsführer haften wie echte** — faktische Geschäftsführer (Gesellschafter mit Dominanz über die GF) unterliegen denselben Haftungsregeln, auch ohne formelle Bestellung.
 
 ---
-
-## Querverweise
-
-- → `paragraph-1-starug-pflichten-und-24-monats-horizont` — Früherkennungspflicht
-- → `pflichtenkollision-und-shift-of-fiduciary-duties` — Pflichtenwandel in der Krise
-- → `insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist` — § 15a InsO
-- → `dokumentationspflicht-und-protokollierung-geschaeftsfuehrung` — Protokollierungspflichten
-- → `fortbestehensprognose-zweistufig` — IDW S 11 als Enthaftungsanker
-
 
 ## Triage — Erste Einordnung
 

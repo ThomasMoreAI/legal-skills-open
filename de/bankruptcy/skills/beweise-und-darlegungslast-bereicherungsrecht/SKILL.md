@@ -1,0 +1,109 @@
+---
+name: beweise-und-darlegungslast-bereicherungsrecht
+title: Beweise und Darlegungslast im Bereicherungsrecht
+description: 'Für Beweise und Darlegungslast im Bereicherungsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/beweise-und-darlegungslast-bereicherungsrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Beweise und Darlegungslast im Bereicherungsrecht
+
+## Einsatzbereich
+
+Anwendungsfall: darlegung, Beweislast und Belegbedarf anspruchsbezogen geplant werden müssen. Der Skill zwingt zu einer vermögensorientierten Prüfung: erst Vorteil und Zurechnung, dann Rechtsgrund und Behaltensgrund, zuletzt Umfang, Einreden und prozessuales Ziel.
+
+## Triage — zuerst klären
+
+1. Welcher Vermögensvorteil ist exakt gemeint?
+2. Welcher Zweck oder welche Erwartung wurde rechtlich relevant?
+3. Ist der Rechtsgrund nie entstanden, später entfallen oder nur teilweise fehlend?
+4. Gibt es trotz Fehler einen Behaltensgrund?
+5. Welche Tatsachen fehlen für eine belastbare Subsumtion?
+
+## Spezifischer Prüfungsfokus
+
+- Bestimme den konkreten Vermögensvorteil und seine heutige Spur im Vermögen.
+- Ordne den Vorteil einer Leistungsbeziehung, einem Eingriff oder einer sonstigen Erwerbslage zu.
+- Prüfe Rechtsgrund und Behaltensgrund getrennt.
+- Kontrolliere, ob § 818 BGB den Anspruch erweitert, begrenzt oder verschärft.
+- Leite erst danach Anspruchsgegner, Anspruchshöhe und prozessuales Ziel ab.
+
+## Prüfungslogik
+
+- Arbeite vom Vermögensvorteil zur Zweck- und Rechtsgrundebene vor.
+- Trenne innere Motivation von erkennbarer Zweckbindung.
+- Prüfe Teilmängel und zeitliche Zäsuren betragsgenau.
+- Kontrolliere § 814 BGB, § 815 BGB, § 817 S. 2 BGB und Spezialregime.
+- Gib am Ende ein Anspruchsziel mit Beweisbedarf aus.
+
+## Typische Fehler
+
+- Zweck mit Motiv verwechseln.
+- Rechtsgrundmangel nur behaupten.
+- Behaltensgrund nicht gesondert prüfen.
+
+## Beweislastverteilung im Bereicherungsrecht
+
+- **Kläger trägt Beweislast für:**
+ - Bereicherung des Beklagten (Vermögensvorteil).
+ - Eigene Leistung an Beklagten oder Eingriff in eigenen Zuweisungsgehalt.
+ - Fehlen des Rechtsgrunds (anspruchsbegründende Tatsache).
+- **Beklagter trägt Beweislast für:**
+ - Bestehen eines Rechtsgrunds (rechtsvernichtende Einwendung) — h.M. dreht insoweit die Beweislast.
+ - § 814 BGB Kenntnis der Nichtschuld.
+ - § 817 S. 2 BGB Gesetzes-/Sittenverstoß auf Seiten des Leistenden.
+ - § 818 Abs. 3 BGB Entreicherung mit konkretem Vermögensweg (substantiiert).
+ - § 818 Abs. 4 i.V.m. § 819 BGB Wegfall der Entreicherungseinrede bei Bösgläubigkeit.
+
+## Substantiierungspflicht § 138 ZPO
+
+- Behaupten nicht ausreichend — Tatsachen konkretisiert und mit Datum, Beträgen, Belegen darlegen.
+- Bei Geldzahlung: Kontoauszug, Buchungsbeleg, Verwendungszweck.
+- Bei Verfügung über Gegenstand: Übergabe-Beleg, Lieferschein, Eigentumsnachweis.
+- Bei Entreicherungseinrede: konkrete Vermögensspur ("EUR X wurden für Miete im Monat Y verwendet, weil Sparvermögen nicht vorhanden").
+
+## Beweismittel im Bereicherungsprozess
+
+- Urkunden (Verträge, Quittungen, Rechnungen, Kontoauszüge) — § 415 ff. ZPO.
+- Zeugenbeweis (zur Übergabe, Erklärung, Vereinbarung) — § 373 ff. ZPO.
+- Sachverständige (Wertgutachten für § 818 Abs. 2 BGB Wertersatz) — § 402 ff. ZPO.
+- Parteivernehmung subsidiär — § 445 ZPO.
+- Augenschein bei verkörperten Gegenständen.
+
+## Strategische Hinweise
+
+- **§ 142, § 144 ZPO Vorlage- und Auskunftsanordnung:** Gericht kann Vorlage von Urkunden anordnen.
+- **§ 421 ff. ZPO Beweisantretung durch Urkunde:** Antrag auf Vorlage durch Gegner.
+- **§ 286 ZPO freie Beweiswürdigung:** Gesamtwürdigung aller Umstände — Indizien können ausreichen.
+- **Stufenklage § 254 ZPO:** Auskunft → eidesstattliche Versicherung → bezifferte Leistungsklage — geeignet, wenn Anspruchshöhe unbekannt.
+
+## Arbeitsausgabe
+
+| Punkt | Ergebnis | Belegbedarf |
+|---|---|---|
+| Anspruchsziel | [...] | [...] |
+| beteiligte Personen | [...] | [...] |
+| Vermögensvorteil | [...] | [...] |
+| Zweck/Zurechnung | [...] | [...] |
+| Rechtsgrund/Behaltensgrund | [...] | [...] |
+| § 818 BGB | [...] | [...] |
+| Einreden/Spezialregime | [...] | [...] |
+| vorläufiges Ergebnis | [...] | [...] |
+
+## Mini-Check vor Output
+
+- Kein Direktanspruch ohne begründete Zurechnung.
+- Kein Wertersatz ohne Bewertungsmethode.
+- Keine Entreicherung ohne konkreten Vermögensweg.
+- Keine Saldierung ohne beiderseitige Leistungstabelle.
+- Offene Tatsachen bleiben als offen markiert.
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.

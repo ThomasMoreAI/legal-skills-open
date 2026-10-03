@@ -1,0 +1,56 @@
+---
+name: fachanwalt-internationales-wirtschaftsrecht-einstieg-routing
+title: Einstieg und Routing
+description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Internationales Wirtschaftsrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/einstieg-routing
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Einstieg und Routing
+
+## Einsatzlage
+
+Dieser Einstieg routet **Fachanwalt Internationales Wirtschaftsrecht** vom ersten Sachverhalt zu Rollen, Fristen, zuständiger Stelle, passendem Spezialpfad und nächstem Arbeitsprodukt.
+
+## Fachlandkarte dieses Plugins
+
+- `anti-dumping-zoll-eu-grundverordnung` — Anti Dumping Zoll EU Grundverordnung
+- `bruessel-risikoampel-und-gegenargumente` — Bruessel CISG Sonderfall Edge
+- `china-shipping-bills-of-lading` — China Shipping Bills OF Lading
+- `embargo-fristennotiz-und-naechster-schritt` — Embargo Fristennotiz Schiedsverfahren
+- `eu-kartellrecht-informationsaustausch-c-286-13` — Informationsaustausch nach Artikel 101 AEUV prüfen
+- `eu-kartellrecht-self-preferencing-google-shopping` — 1. Self-Preferencing nach Artikel 102 AEUV
+- `eu-mwst-betrug-mtic` — EU Mwst Betrug Mtic
+- `eugv-zustaendigkeit-art-7-eugvvo` — Eugv Zustaendigkeit ART 7 Eugvvo
+- `einstieg-schnelltriage-fallrouting` — FA INT Wirtschaft Start Chronologie Fristen
+- `gerichtsstand-und-rechtswahl-pruefen` — Gerichtsstand Rechtswahl Intwr CISG ROM
+- `icsid-quellenkarte` — Icsid Quellenkarte
+- `incoterms-2020-fca-versendungskauf` — Incoterms 2020 FCA Versendungskauf
+- `erstpruefung-und-mandatsziel` — Intwr RED Team Korrektur
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Rolle und Ziel klären: Welche Partei vertritt der Mandant, welcher Ergebnistyp wird gebraucht (Schriftsatz, Bescheidprüfung, Vertragsentwurf, Stellungnahme), welches Verfahren oder Dokument liegt vor?
+- Eilfristen isolieren: die im Fachgebiet einschlägigen Verfahrens- und materiellen Fristen pflichtmäßig vorab markieren und nicht aus Modellwissen finalisieren.
+- Fachpfad wählen: zentrale Anker im Fachanwalt Internationales Wirtschaftsrecht sind CISG, LkSG. Anhand des Sachverhalts in einen Sach-Cluster routen und den passenden Spezial-Skill aus der Fachlandkarte oben benennen.
+- Zuständige Stelle bestimmen: Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen.
+- Nur die Rückfragen stellen, die die nächste Weiche tatsächlich ändern.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

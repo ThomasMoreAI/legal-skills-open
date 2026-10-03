@@ -8,8 +8,8 @@ Jurisdiction: `in` · Practice: `data-protection` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`India DPDPA — Digital Personal Data Protection Act, 2023 Skill`](skills/dpdpa/) | Expert India Digital Personal Data Protection Act, 2023 (DPDPA) compliance advisor. Use this skill whenever a… |
-| [`India DPDPA Expert`](skills/ind-dpdpa-expert/) | India DPDPA expert for the Digital Personal Data Protection Act 2023 and the DPDP Rules 2025. Covers Data… |
+| [`India DPDPA — Digital Personal Data Protection Act, 2023 Skill`](skills/dpdpa/) | Expert India Digital Personal Data Protection Act, 2023 (DPDPA) compliance advisor. Use this skill… |
+| [`India DPDPA Expert`](skills/ind-dpdpa-expert/) | India DPDPA expert for the Digital Personal Data Protection Act 2023 and the DPDP Rules 2025. Covers… |
 
 ## Cold-start context
 

@@ -1,0 +1,98 @@
+---
+name: lph8-bauueberwachung-elektro-erdung-blitzschutz
+title: Bauueberwachung Elektro Erdung und Blitzschutz
+description: 'Für Bauüberwachung Elektro Erdung und Blitzschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-elektro-erdung-blitzschutz
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Elektro Erdung und Blitzschutz
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Eine fehlerhafte oder fehlende Erdungs- und Blitzschutzanlage ist einer der teuersten Versicherungsrisiken im Gebaeude: Direkte Blitzeinschlaege können Millionenhaeden verursachen. Die Bauueberwachung in LPH 8 kontrolliert den Fundamenterder, alle Potentialausgleichsleiter und das aeussere Blitzschutzsystem und stellt sicher, dass die Messprotokolle vor Inbetriebnahme vorliegen.
+
+## Bauwerk und Auftrag
+
+- Industriehalle Hannover Stahlbau Blitzschutzklasse II: Aeusseres Blitzschutzsystem Maschenweite 10 m x 10 m, 6 Ableiter, Fundamenterder Cu 50 mm2, Bausumme Blitzschutz 85.000 EUR
+- Hochhaus Frankfurt 22 Geschosse Blitzschutz I: Fangeinrichtung Dach, 12 Ableiter, Trennungsabstand-Nachweis, Potentialausgleich je Etage, Bausumme 210.000 EUR
+- Photovoltaik-Anlage Freiflaeche mit Blitzschutz: Erdungssystem Cu-Masche 50 m x 50 m, Ueberspannungsschutz SPD Typ 1 Trafostation, Bausumme 45.000 EUR
+
+## Erste Schritte auf der Baustelle
+
+1. Fundamenterder Einbaukontrolle: Bandstahl 30 mm x 3.5 mm oder Runddraht 10 mm Cu, Verlegung nach DIN 18014 Abschnitt 5, 50 mm Betondeckung allseitig, Foto vor Betonage
+2. Trennungsabstand-Berechnung: Berechnung nach DIN EN 62305-3 Abschnitt 6.3, ki km und kc Parameter, Abstand Ableiterbahn zu Metallinstallation
+3. Ableiter-Befestigung: Rohrdubel oder Schellen alle 1 m an senkrechtem Ableiter, Rohrleitung Korrosionsschutz Klasse 2 nach DIN EN 62305-3
+4. Dachfangeinrichtung-Kontrolle: Maschenweite nach Schutzklasse I-IV, 10 x 10 m für LPL I, Fangstange Höhe nach Schutzwinkel-Methode
+5. Potentialausgleich Innenschutz: PA-Schiene Hauptgebaeude, Anbindung alle metallischen Installationen, Querschnitt Cu 6 mm2 mindestens nach DIN VDE 0100-540
+6. SPD-Einbau Ueberspannungsschutz: Typ 1 Haupteinspeisung, Typ 2 Unterverteilungen, Koordination nach DIN EN 61643-11 Iimp und Uc
+
+## Normen und Rechtsrahmen
+
+- § 650p BGB, § 650q BGB: Ingenieurvertrag Elektroanlagen, DGUV-Pflichten Betreiber
+- HOAI 2021 § 34 Anlage 10 LPH 8: Bauueberwachung Elektrische Anlagen TGA
+- VOB/C DIN 18382 Kabelleitungstiefbauarbeiten und DIN 18386 Blitzschutzanlagen
+- DIN EN 62305-3:2011-10 Blitzschutz Teil 3 Schutz baulicher Anlagen: Aeusseres Blitzschutzsystem, Klassen I-IV
+- DIN VDE 0100-540 Auswahl und Errichtung elektrischer Betriebsmittel Erdung: Fundamenterder, Schutzleiter
+- DIN 18014:2014-03 Fundamenterder: Anordnung im Beton, Material, Messung, Protokoll
+
+## Prüferaster und Kontrollpunkte
+
+1. Fundamenterder-Sichtpruefung: Vor Betonage Foto Verlegung, Kreuzverbindungen geschweisst und abgenommen, Anschlussfahnen an Potentialausgleich sichtbar
+2. Messung Erdungswiderstand: Dreipolmethode nach DIN VDE 0100-610, Grenzwert kleiner 10 Ohm für TN-System, Protokoll Messgeraet Megger DET2/3
+3. Ableiterwiderstand-Messung: Leitungswiderstands-Messung je Ableiter kleiner 0.2 Ohm, Zaehlmessprotokoll alle Verbindungsstellen
+4. Trennungsabstand-Prüfung vor Ort: Bandmass zur naechsten metallischen Unterinstallation, Protokoll Mess-Ergebnis vs. Berechnung
+5. SPD-Prüfung: Fabrikat und Typ auf Lieferschein konform mit Planung, Anschlussquerschnitt nach Herstellervorschrift, Sicherungsschutz installiert
+6. DGUV Prüfprotokoll: Erstpruefung nach DGUV Vorschrift 3 durch Elektrofachkraft, Protokoll Muster 4 mit allen Prüfpunkten und Freigabe
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Fotodokumentation Fundamenterder-Einbau: Foto vor Betonage jede Bandstahl-Kreuzung, Zeitstempel, GPS, Ablage BIM360 Erdgeschoss
+- Messprotokolle digital: Megger Messdaten CSV-Export, Auswertung Kalkulationstabelle Grenzwert-Ampel, Import SAP PM als Anlage Meldung
+- Lieferschein Blitzschutzmaterial: Zertifikat Materialguete Cu oder Stahl feuerverzinkt nach DIN EN 62561-1, Chargen-Nr
+- PlanRadar Dachplan: SPD-Standorte markiert, Ableiter-Positionen eingetragen, Foto je Ableiterbefestigung
+- Prüfprotokoll DGUV Vorschrift 3: Scan Prüfprotokoll Erstpruefung Elektrofachkraft, Archivierung 10 Jahre
+
+## Meldungserstellung im ERP / SAP
+
+- SAP PM Meldungsart M2 Erdungswiderstand groesser 10 Ohm: Equipment-Nr Erdungsanlage z.B. ERDE-GA-001, Schadenscode E005 Erdungsfehler, Maßnahme Nacherdung Tiefenerder
+- SAP PS Netzplan Blitzschutz: FUNDERR-010 Fundamenterder, ABLEITER-020 Aeusseres System, IPASCHUTZ-030 Innenschutz PA, SPD-040 Ueberspannungsschutz, DGUV-ABNAHME-050
+- BIM360 MEP-Modell Elektroanlagen: Erdungsanlage-Bauteil-ID, Messwert als Attribut, Freigabe-Status farblich
+- Dalux Blitzschutz-Checkliste: Ableiterzahl, Maschenweite, Trennungsabstand-Nachweis, DGUV-Protokoll-Upload, Unterschrift Elektroplaner
+- Workflow: Erdungswiderstand zu hoch, Tiefenerder nachgerammt, Messung wiederholt, Protokoll SAP PM, Freigabe Elektrofachkraft
+
+## Typische Fallstricke
+
+- Fundamenterder nicht eingebaut: Nach Betonage nicht mehr nachruestbar ohne Aufbruch, Tiefenerder als Notloesung teuer
+- Trennungsabstand zu gering bei Dachinstallation: PV-Anlage oder Klimaanlage zu nahe am Ableiter, Ueberschlag bei Blitzeinschlag, Brandgefahr
+- SPD Typ 1 fehlt: Ueberspannungsschutz nicht koordiniert, Blitzteilstroeme zerstoren Endgeraete
+- Erstpruefung nicht durch Elektrofachkraft: Betreiber haftet nach BGV A3 selbst wenn kein Prüfprotokoll vorhanden
+
+## Hinweise zur Qualitaetssicherung
+
+- Alle Abnahmeprotokolle müssen vom Bauueberwacher und dem ausfuehrenden Unternehmen unterschrieben sein
+- Fristen nach VOB/B § 13 Abs. 4: Maengelansprueche Bauwerk 4 Jahre, Gesamtwerk nach BGB § 634a 5 Jahre
+- Bauwerksbuch nach HOAI Anlage 10 LPH 9 wird durch Bautagebuecher LPH 8 vorbereitet
+
+## Quellen
+
+- [HOAI 2021 § 34 Anlage 10](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [VOB/C DIN 18386 Blitzschutzanlagen](https://www.gesetze-im-internet.de/vob/)
+- [§ 650q BGB Ingenieurvertrag](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [BGB § 634 Maengelansprueche](https://www.gesetze-im-internet.de/bgb/__634.html)
+- [BGB § 823 Schadensersatz](https://www.gesetze-im-internet.de/bgb/__823.html)

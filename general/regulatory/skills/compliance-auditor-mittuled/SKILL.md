@@ -5,11 +5,16 @@ description: This skill conducts comprehensive compliance audits across 7 regula
 author: mittuled
 author_url: https://github.com/mittuled/skill-os/tree/main/agents/legal/security-compliance-programme-manager/compliance-auditor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Scoring rubric
+  path: references/scoring-rubric.md
 ---
 
 # compliance-auditor

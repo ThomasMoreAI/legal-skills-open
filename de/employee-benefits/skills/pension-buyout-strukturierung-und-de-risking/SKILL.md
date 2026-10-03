@@ -1,11 +1,11 @@
 ---
 name: pension-buyout-strukturierung-und-de-risking
 title: Pension Buyout Strukturierung und De-Risking
-description: 'Pensionsbuyout und De-Risking strukturieren: Risikoauslagerung an Versicherungsunternehmen oder CTA. Normen: §§ 4 BetrAVG, VAG, IFRS. Prüfraster: Buyout-Voraussetzungen, Versicherungslösungen, Bilanzbereinigung. Output: Buyout-Strukturierungsmemo. Abgrenzung: nicht laufende Pensionsverwaltung.'
+description: 'Für Pension Buyout Strukturierung und De-Risking: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/pension-buyout-strukturierung-und-de-risking
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: employee-benefits
@@ -14,10 +14,20 @@ language: de
 
 # Pension Buyout Strukturierung und De-Risking
 
-**Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB**
-Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
+## Arbeitsweg
 
----
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BetrAVG § 1b Unverfallbarkeitsfrist 3 Jahre/21. Lebensjahr, § 16 Anpassungsprüfung 3 Jahre, EStG § 3 Nr. 63 Beitragsgrenze 8 % BBG, PSV-Beitrag jährlich.
+- Tragende Normen verifizieren: BetrAVG §§ 1, 1a, 1b, 2, 3, 7, 9, 11, 16, 17, 17b, 18, EStG §§ 3 Nr. 63, 4d, 4e, 6a, 19 Abs. 2, KStG § 5 (Pensionsfonds), VAG (Pensionskassen), HGB § 246 Abs. 2 S. 2, IDW RS HFA 30 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Arbeitgeber, Arbeitnehmer, Pensionskasse, Pensionsfonds, Versicherer, Versorgungsträger, PSVaG (Insolvenzsicherung), Versorgungsausgleichskasse, Betriebsrat (§ 87 Abs. 1 Nr. 10 BetrVG).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Versorgungsordnung, Pensionszusage, Entgeltumwandlungsvereinbarung, PSV-Anzeige, IFRS/HGB-Pensionsgutachten, versicherungsmathematisches Gutachten, Betriebsvereinbarung bAV — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Pension Buyout Strukturierung und De-Risking
+
+- **bAV-Problem:** Risikoauslagerung an Versicherungsunternehmen oder CTA. Normen: §§ 4 BetrAVG, VAG, IFRS. Prüfraster: Buyout-Voraussetzungen, Versicherungslösungen, Bilanzbereinigung. Output: Buyout-Strukturierungsmemo. Abgrenzung: nicht laufende Pensionsverwaltung.
+- **Normenanker:** BetrAVG, EStG/LSt, SGB IV, HGB/IFRS-Bilanzierung, InsO, ArbGG und arbeitsrechtliche Zusage-/Änderungsdogmatik je nach Durchführungsweg prüfen.
+- **Entscheidende Weiche:** Zusageart, Durchführungsweg, Unverfallbarkeit, Anpassung, PSV-Schutz, Steuer-/SV-Folge und M&A-/Insolvenzrisiko getrennt ausweisen.
+- **Arbeitsprodukt:** bAV-Entscheidungsvorlage mit Leistungsversprechen, Zahlenbasis, Risikoampel, HR-/Finance-To-dos und belastbarer Kommunikationslinie.
 
 ## Rechtsgrundlagen
 
@@ -32,7 +42,6 @@ Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 - IAS 19.8 (qualifying insurance policy als plan asset)
 - IAS 19.44–60 (Bilanztransfer bei plan amendments / settlements)
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
 
@@ -40,7 +49,7 @@ Federführung: Prof. Dr. Adalbert von Sompeh-Ostermann, LL.M. (Oxford)
 
 ### Schritt 1: De-Risking-Strategie — Instrumentenauswahl
 
-Dr. von Sompeh-Ostermann stellt zunächst die drei klassischen De-Risking-Instrumente gegenüber:
+fachliche Leitung stellt zunächst die drei klassischen De-Risking-Instrumente gegenüber:
 
 #### Buy-in
 **Definition:** Arbeitgeber bleibt Versorgungsschuldner; schließt aber eine Versicherung (Gruppenrentenversicherung) ab, die die Versicherungsleistungen exakt den Versorgungsansprüchen entsprechen lässt. Der Versicherungsvertrag ist plan asset (IAS 19.8).
@@ -62,7 +71,6 @@ Dr. von Sompeh-Ostermann stellt zunächst die drei klassischen De-Risking-Instru
 - Vollständige Bilanzentlastung (HGB und IFRS) bei echter Enthaftung
 - IAS 19.99–101: Settlement-Buchung (Gewinn/Verlust aus Verpflichtungsablösung)
 - Regulatorische Genehmigung BaFin erforderlich bei Portfolioübertragung auf Pensionskasse/Pensionsfonds
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 #### Longevity Swap
 **Definition:** Derivative Absicherung des Langlebigkeitsrisikos ohne Übergang der Verpflichtung; Arbeitgeber zahlt festgelegte Leistungen basierend auf erwarteten Sterblichkeitskurven; Swap-Partner (Bank oder Rückversicherer) zahlt tatsächliche Leistungen.
@@ -75,7 +83,7 @@ Dr. von Sompeh-Ostermann stellt zunächst die drei klassischen De-Risking-Instru
 
 ### Schritt 2: Versichererauswahl (marktüblicher Prozess)
 
-Dr. von Sompeh-Ostermann begleitet den Mandanten bei einem strukturierten Ausschreibungsverfahren (RFP — Request for Proposals). Ohne Nennung realer Versicherer gilt folgendes Prüfschema:
+fachliche Leitung begleitet den Mandanten bei einem strukturierten Ausschreibungsverfahren (RFP — Request for Proposals). Ohne Nennung realer Versicherer gilt folgendes Prüfschema:
 
 **Auswahlkriterien:**
 1. Solvency II-Bedeckungsquote (Solvency Capital Requirement — SCR-Quote; Mindest: 150 % empfohlen)
@@ -110,87 +118,87 @@ Bei Portfolioübertragung (Buy-out über Pensionskasse oder Pensionsfonds):
 TERM SHEET — PENSION BUY-IN
 Vertraulich — Entwurf
 
-Auftraggeber:     [Konzern Muster AG], Düsseldorf
-Versicherer:      [Versicherungsgesellschaft]
-Datum:            [Datum]
-Beratung:         Treuenfels Yamamoto Rechtsanwälte Partnerschaft mbB
-                  Prof. Dr. Adalbert von Sompeh-Ostermann
+Auftraggeber: [Konzern Muster AG], Düsseldorf
+Versicherer: [Versicherungsgesellschaft]
+Datum: [Datum]
+Beratung: bAV-Projektteam
+ fachliche Leitung
 
 1. GEGENSTAND
-   Abschluss einer Gruppenrentenversicherung (Buy-in) zur Absicherung der
-   Versorgungsansprüche des Rentner-Kollektivs der [Konzern Muster AG].
+ Abschluss einer Gruppenrentenversicherung (Buy-in) zur Absicherung der
+ Versorgungsansprüche des Rentner-Kollektivs der [Konzern Muster AG].
 
 2. VERSICHERTER PERSONENKREIS
-   Alle Rentenempfänger per Stichtag [Datum]: [Anzahl] Personen
-   Gesamte jährliche Rentenlast: EUR [Betrag]
-   Hinterbliebenenversorgung: eingeschlossen / nicht eingeschlossen
+ Alle Rentenempfänger per Stichtag [Datum]: [Anzahl] Personen
+ Gesamte jährliche Rentenlast: EUR [Betrag]
+ Hinterbliebenenversorgung: eingeschlossen / nicht eingeschlossen
 
 3. LEISTUNGSUMFANG
-   Versicherungsleistungen entsprechen 1:1 den Versorgungsansprüchen gem.
-   Versorgungsordnung [Bezeichnung] in der Fassung vom [Datum].
-   Anpassungen gem. § 16 BetrAVG: [passthrough / eingeschlossen bis X% / nicht]
+ Versicherungsleistungen entsprechen 1:1 den Versorgungsansprüchen gem.
+ Versorgungsordnung [Bezeichnung] in der Fassung vom [Datum].
+ Anpassungen gem. § 16 BetrAVG: [passthrough / eingeschlossen bis X% / nicht]
 
 4. PRÄMIE
-   Einmalprämie (Indikation): EUR [Betrag]
-   Entspricht ca. [X]% der IAS 19 DBO des Rentner-Kollektivs
-   (Longevity Loading: ca. [X]% über Best-Estimate)
+ Einmalprämie (Indikation): EUR [Betrag]
+ Entspricht ca. [X]% der IAS 19 DBO des Rentner-Kollektivs
+ (Longevity Loading: ca. [X]% über Best-Estimate)
 
 5. LAUFZEIT UND KÜNDIGUNG
-   Laufzeit: Lebenslange Rente bis zum Tod des letzten Berechtigten
-   Vorzeitige Kündigung: nur mit Rückkaufswert-Vereinbarung; nicht vor [Jahr]
+ Laufzeit: Lebenslange Rente bis zum Tod des letzten Berechtigten
+ Vorzeitige Kündigung: nur mit Rückkaufswert-Vereinbarung; nicht vor [Jahr]
 
 6. QUALIFYING INSURANCE POLICY (IAS 19)
-   Beide Parteien bestätigen, dass der Buy-in die Anforderungen an eine
-   qualifying insurance policy gem. IAS 19.8 erfüllt (ausschließliche
-   Zweckbindung, Zahlungsausfallrisiko beim Versicherer, kein Zugriff Dritter).
+ Beide Parteien bestätigen, dass der Buy-in die Anforderungen an eine
+ qualifying insurance policy gem. IAS 19.8 erfüllt (ausschließliche
+ Zweckbindung, Zahlungsausfallrisiko beim Versicherer, kein Zugriff Dritter).
 
 7. SUBSIDIÄRHAFTUNG
-   Arbeitgeber bleibt gem. § 1 Abs. 1 S. 3 BetrAVG subsidiär haftbar,
-   sofern der Versicherer ausfällt. Dieses Restrisiko ist durch Solvency
-   II-Kapitalanforderungen begrenzt.
+ Arbeitgeber bleibt gem. § 1 Abs. 1 S. 3 BetrAVG subsidiär haftbar,
+ sofern der Versicherer ausfällt. Dieses Restrisiko ist durch Solvency
+ II-Kapitalanforderungen begrenzt.
 
 8. WESENTLICHE CLOSING-BEDINGUNGEN
-   □ BaFin-Genehmigung (sofern Portfolioübertragung)
-   □ Zustimmung Betriebsrat (Information gem. § 87 BetrVG, soweit erforderlich)
-   □ Aktualitätsbestätigung Sterbetafeln durch unabhängigen Aktuar
-   □ Signing Gruppenversicherungsvertrag
+ □ BaFin-Genehmigung (sofern Portfolioübertragung)
+ □ Zustimmung Betriebsrat (Information gem. § 87 BetrVG, soweit erforderlich)
+ □ Aktualitätsbestätigung Sterbetafeln durch unabhängigen Aktuar
+ □ Signing Gruppenversicherungsvertrag
 
 9. GEPLANTER ZEITPLAN
-   Indikation: [Datum]
-   Due Diligence: [Datum] – [Datum]
-   Verbindliches Angebot: [Datum]
-   Signing: [Datum]
-   Closing/Prämientransfer: [Datum]
+ Indikation: [Datum]
+ Due Diligence: [Datum] – [Datum]
+ Verbindliches Angebot: [Datum]
+ Signing: [Datum]
+ Closing/Prämientransfer: [Datum]
 ```
 
 ### Template 2: Checkliste Buy-out Due Diligence (Datenraum-Anforderungen)
 
 ```
 DATENRAUM-ANFORDERUNGEN PENSION BUY-OUT
-Treuenfels Yamamoto · Dr. von Sompeh-Ostermann
+bAV-Projektteam · fachliche Leitung
 
 A. VERSORGUNGSBERECHTIGTE
-   □ Vollständige Bestandsliste (Name, Geburtsdatum, Rentenbeginn, 
-     monatliche Rente, Hinterbliebenen-Status)
-   □ Sterbetafeln (zuletzt verwendete Grundtafeln — z.B. DAV 2004 R)
-   □ Geschlechterverteilung, Altersstruktur
-   □ Hinterbliebenen-Proportion (Verhältnis Witwen/Witwer zu Rentnern)
+ □ Vollständige Bestandsliste (Name, Geburtsdatum, Rentenbeginn,
+ monatliche Rente, Hinterbliebenen-Status)
+ □ Sterbetafeln (zuletzt verwendete Grundtafeln — z.B. DAV 2004 R)
+ □ Geschlechterverteilung, Altersstruktur
+ □ Hinterbliebenen-Proportion (Verhältnis Witwen/Witwer zu Rentnern)
 
 B. LEISTUNGSDATEN
-   □ Versorgungsordnung(en) mit allen Anlagen und Änderungen
-   □ Anpassungshistorie (§ 16 BetrAVG, letzte zehn Jahre)
-   □ Sonderzahlungen, Einmalleistungen (Kapitalwahlrechte)
+ □ Versorgungsordnung(en) mit allen Anlagen und Änderungen
+ □ Anpassungshistorie (§ 16 BetrAVG, letzte zehn Jahre)
+ □ Sonderzahlungen, Einmalleistungen (Kapitalwahlrechte)
 
 C. FINANZIELLE DATEN
-   □ IAS 19-Gutachten letzter zwei Jahre (inkl. Annahmen)
-   □ HGB-Rückstellungen letzter zwei Jahre
-   □ PSV-Meldungen letzter zwei Jahre
+ □ IAS 19-Gutachten letzter zwei Jahre (inkl. Annahmen)
+ □ HGB-Rückstellungen letzter zwei Jahre
+ □ PSV-Meldungen letzter zwei Jahre
 
 D. RECHTLICHE DOKUMENTATION
-   □ Alle Versorgungsverträge (Einzel- und Kollektivzusagen)
-   □ Betriebsvereinbarungen mit BAV-Bezug
-   □ Etwaige Rechtsstreitigkeiten (laufend oder drohend)
-   □ Sonstige Zusagen (Gesamtzusagen, Auswahlrichtlinien)
+ □ Alle Versorgungsverträge (Einzel- und Kollektivzusagen)
+ □ Betriebsvereinbarungen mit BAV-Bezug
+ □ Etwaige Rechtsstreitigkeiten (laufend oder drohend)
+ □ Sonstige Zusagen (Gesamtzusagen, Auswahlrichtlinien)
 ```
 
 ---
@@ -216,7 +224,3 @@ D. RECHTLICHE DOKUMENTATION
 - → `buyout-im-ma-deal-asset-vs-share` — Buy-out im M&A-Kontext
 - → `internationale-buyout-datenflows-und-datenschutz` — Datenschutz bei Datenraum
 - → `drei-stufen-theorie-eingriffsanalyse` — Eingriff in Versorgungsrechte durch Ablösung
-
-## Ergaenzende Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.

@@ -5,15 +5,15 @@ description: Draft Israeli employment contracts (chozeh avoda) with all mandator
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-employment-contracts
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: employment
 language: en
 sources:
-- title: Labor Law
+- title: Labor law
   path: references/labor-law.md
-- title: Mandatory Clauses
+- title: Mandatory clauses
   path: references/mandatory-clauses.md
 ---
 

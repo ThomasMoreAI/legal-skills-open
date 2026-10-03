@@ -1,0 +1,89 @@
+---
+name: eigentuemerversammlung-vorbereiten
+title: Eigentümerversammlung Vorbereiten
+description: 'Für Eigentümerversammlung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/eigentuemerversammlung-vorbereiten
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Eigentümerversammlung Vorbereiten
+
+## Fachlicher Anker
+
+- **Normen:** §§ 535, §§ 18, § 16 Abs. 2.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: Eigentümerversammlung Vorbereiten
+- **Normen-/Quellenanker:** WEG §§ 18-28, 44/45, BGB-Miet-/Werkvertragsrecht, BetrKV, HeizkostenV, GEG, DSGVO und landesrechtliche Bau-/Sicherheitsfragen.
+- **Entscheidende Weiche:** Trenne Beschlusskompetenz, ordnungsmäßige Verwaltung, Kostenverteilung, Anfechtungsfrist, Verwalterpflicht, Belegprüfung und Vollzug.
+
+Stand: 05/2026.
+
+## Ziel
+
+Die Versammlung soll beschlussfähig, verständlich und anfechtungsarm vorbereitet werden. Der Skill baut aus Roh-Themen eine Tagesordnung mit Unterlagenpaket und Beschlussreife-Ampel.
+
+## Vorbereitungsfahrplan (typisch 6 Wochen vor Termin)
+
+| Zeitpunkt | Aufgabe |
+| --- | --- |
+| T-6 W | Themenstapel vom Beirat einsammeln, Beschlussbedarf vorprüfen |
+| T-5 W | Unterlagen anfordern (Angebote, Gutachten, Abrechnung, Vermögensbericht) |
+| T-4 W | Beschlussreife-Ampel, Entwurf der TOP |
+| T-3 W | **Einladung versenden** (Ladungsfrist 3 Wochen, § 24 Abs. 4 WEG; GO kann verlängern) |
+| T-2 W | Klarstellungsfragen, Anlagen ergänzen, Vollmachten organisieren |
+| T-1 W | Raum/virtuelle Plattform testen, Stimmrechtsliste, Tagesablauf |
+| T-0 | Versammlung, Protokollführung, Beschlussverkündung |
+| T+2 W | Nachbereitung: Protokollversand, Beschlusssammlung, Umsetzung |
+
+## Prüfpunkte
+
+- Welche Beschlüsse müssen zwingend in die Versammlung?
+- Welche Themen sind nur Information, Aussprache oder Auftrag an den Verwalter?
+- Welche Unterlagen gehören vorab dazu: Angebote (mindestens 2-3 Vergleichsangebote bei substanziellen Maßnahmen), Abrechnung, Vermögensbericht, Plan, Fotos, Gutachten, Belegliste, Finanzierungsvorschlag?
+- Welche Beschlüsse brauchen Alternativen, Kostenrahmen, Finanzierung oder Ausführungsmodalitäten?
+- Gibt es virtuelle/hybride Teilnahme (Beschlussgrundlage nach § 23 Abs. 1a WEG vorhanden?), Vollmachten (Form? GO?), Stimmverbote (§ 25 Abs. 4 WEG) oder Interessenkonflikte?
+- Bei Schlüsseländerung: sachlicher Grund schriftlich vorbereitet?
+
+## Beschlussreife-Ampel
+
+| Farbe | Bedeutung |
+| --- | --- |
+| Grün | Beschlusskompetenz, Unterlagen, Kostenfolge plausibel; Wortlaut präzise; Auflagen klar |
+| Gelb | möglich, aber Unterlagen, Mehrheit, Kostenfolge oder sachlicher Grund (bei Schlüsseländerung) nachschärfen |
+| Rot | hohe Anfechtungs- oder Nichtigkeitsgefahr (Kompetenz, Vereinbarungserfordernis, fehlende Angebote, mangelhafte Vorbefassung); Anwalt nötig |
+
+## Wichtige BGH-Befunde 2024–2025 für die Vorbereitung
+
+- **Vorbefassung Beschlussersetzungsklage**: Antragsteller muss in der Versammlung exakt den Beschluss verlangen, der später gerichtlich begehrt wird, aber keine vollständige Beweisaufnahme leisten — BGH, Urteil vom 14.02.2025, V ZR 86/24 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=14.02.2025&Aktenzeichen=V+ZR+86/24). Verwalter sollten Anträge so übernehmen, dass der Wortlaut bestimmbar ist.
+- **Jahresabrechnung**: TOP klar als "Abrechnungsspitzen" (Nachschüsse, Vorschussanpassung) formulieren — BGH, Urteil vom 19.07.2024, V ZR 102/23 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=19.07.2024&Aktenzeichen=V+ZR+102/23).
+- **Schlüsseländerung**: Schlüssel, Belastungsvergleich und sachgerechte Interessenwahrung im Begründungstext erläutern; besonderer Änderungsgrund nach Fallgruppe prüfen — BGH, Urteile vom 14.02.2025, V ZR 236/23 und V ZR 128/23 (https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=14.02.2025&Aktenzeichen=V+ZR+236/23 ; https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=14.02.2025&Aktenzeichen=V+ZR+128/23).
+
+## Cross-Refs
+
+- Einladung und Fristen → `einladung-tagesordnung-fristen`
+- Beschlussformulierung → `beschlussvorlagen-erstellen`
+- Anfechtungsrisiko → `beschlussanfechtung-risiko`
+- Nachbereitung → `beschlusssammlung-protokoll`
+
+## Quellenpflicht
+
+`rechtsstand-mai-2026-faktenbank` laden. § 23, § 24, § 25 WEG: https://www.gesetze-im-internet.de/woeigg/__23.html, https://www.gesetze-im-internet.de/woeigg/__24.html, https://www.gesetze-im-internet.de/woeigg/__25.html .
+
+## Umlaufbeschluss und Stimmrechte: Entscheidungen 2026
+
+BGH, Urt. v. 17.07.2026 – Az. V ZR 190/25, Rn. 11–18 und 30–34: Absenkungsbeschluss nach § 23 Abs. 3 Satz 2 WEG und nachfolgenden Sachbeschluss getrennt protokollieren, verkünden und in der Fristenakte führen. Die Nichtigkeit/Anfechtung der Absenkung macht den Folgebeschluss nicht automatisch nichtig; dessen Bestandskraft kann das Interesse am Angriff gegen die verbrauchte Absenkung entfallen lassen. BGH, Urt. v. 27.02.2026 – Az. V ZR 189/24, Rn. 14–24: Ein Ausschluss von Tiefgarageneigentümern bei Verwalterbestellung und § 28-Entscheidungen ist nichtig. Bei anderen objektbezogenen Angelegenheiten Vereinbarung, Betroffenheit und Kosten gesondert prüfen; nicht sämtliche Stimmrechtsregelungen einer Mehrhausanlage gleich behandeln.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

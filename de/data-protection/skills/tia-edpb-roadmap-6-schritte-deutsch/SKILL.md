@@ -1,0 +1,168 @@
+---
+name: tia-edpb-roadmap-6-schritte-deutsch
+title: Sechs-Schritte-Roadmap für das Transfer Impact Assessment (EDPB 01/2020)
+description: 'Für Sechs-Schritte-Roadmap für das Transfer Impact Assessment (EDPB 01/2020): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/tia-edpb-roadmap-6-schritte-deutsch
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Sechs-Schritte-Roadmap für das Transfer Impact Assessment (EDPB 01/2020)
+
+## Wann dieses Modul hilft
+
+- Erstes TIA-Dokument für einen konkreten Transfer.
+- Aktualisierung eines bestehenden TIA nach Provider-Wechsel oder neuer Behördenpraxis.
+- Vorlage gegenueber Aufsichtsbehoerde.
+- Vorbereitung einer Vertragsverhandlung mit US-Anbieter.
+- Schulung interner Reviewer.
+
+## Rechtlicher Rahmen
+
+- EuGH **C-311/18** Schrems II vom 16.07.2020.
+- **EDPB Empfehlung 01/2020** "Recommendations on measures that supplement transfer tools to ensure compliance with the EU level of protection of personal data", Final 18.06.2021.
+- **EDPB Empfehlung 02/2020** "Recommendations on the European Essential Guarantees for surveillance measures" vom 10.11.2020 – ergaenzt Schritt 3 (Assess law and practice).
+- Art. 44 ff. DSGVO.
+
+## Ablauf / Checkliste
+
+### Schritt 1 – Know your transfers
+
+Ziel: alle Transfers erfassen.
+
+Prüfen:
+
+- Welche Daten werden uebermittelt? Direkter Export, Remote Access, Onward Transfers?
+- Wer ist Exporteur (Verantwortlicher oder Auftragsverarbeiter)?
+- Wer ist Importeur (Land, Rechtstraeger, Konzerneinbindung)?
+- Welche Datenarten? Welche besonderen Kategorien (Art. 9 DSGVO)?
+- Welche Subprozessoren / Sub-Sub-Prozessoren?
+- Verarbeitungszwecke und Datenfluesse (auch innerhalb des Importeurs).
+
+Output: Transfer-Inventar als Tabelle (siehe Skill `ropa-art-30-controller-deutsch-vorlage` für Querverweis).
+
+### Schritt 2 – Identify transfer tool
+
+Ziel: Rechtsgrundlage des Transfers bestimmen.
+
+Optionen:
+
+- **Art. 45 DSGVO – Angemessenheitsbeschluss** (z. B. UK, Schweiz, Japan, Suedkorea, EU-US DPF für gelistete Importeure).
+- **Art. 46 DSGVO – Geeignete Garantien**:
+ - SCC (Beschluss (EU) 2021/914, Module 1-4),
+ - BCR (Art. 47),
+ - Genehmigte Verhaltensregeln / Zertifizierungen,
+ - Behoerdliche Standardvertragsklauseln.
+- **Art. 49 DSGVO – Ausnahmen** (Einwilligung, Vertragserfuellung, Rechtsanspruch) – nur eng auslegen, keine Dauerloesung.
+
+Bei Art. 45 endet die TIA-Prüfung haeufig hier (Schritt 3-5 dann reduziert).
+
+### Schritt 3 – Assess law and practice
+
+Ziel: Drittlandsrecht und tatsaechliche Praxis bewerten.
+
+Prüfen:
+
+- Welche Behörden haben Zugriffsbefugnisse?
+- Welche Eingriffstiefe? Welche Garantien (gerichtliche Kontrolle, Anlassbezug)?
+- Empfehlung 02/2020 – Europaeische Wesentliche Garantien (EEG):
+ - Garantie A: klare, praezise und vorhersehbare Regelungen.
+ - Garantie B: Notwendigkeit und Verhältnismäßigkeit.
+ - Garantie C: unabhaengiger Prüfmechanismus.
+ - Garantie D: effektive Rechtsschutzmoeglichkeiten der betroffenen Person.
+- Sind die Garantien im Recht **und** in der Praxis erfuellt?
+
+Quellen für Bewertung: offizielle Berichte, Transparenzberichte des Importeurs, EDPB-Empfehlungen, frei zugaengliche Auswertungen.
+
+### Schritt 4 – Adopt supplementary measures
+
+Falls Schritt 3 negativ: ergaenzende Schutzmassnahmen.
+
+Drei Kategorien:
+
+- **Technische Maßnahmen** (oft entscheidend): starke Verschluesselung mit Key Management ausserhalb des Drittlands; Pseudonymisierung mit unkorrelierten Schlüsseln; Split Processing; ueberhaupt kein Klartext-Zugriff durch Importeur.
+- **Vertragliche Maßnahmen**: erweiterte Audit- und Transparenzrechte, Behördenanfragen-Berichtspflichten, Warrant Canary, sofortige Aussetzungspflichten.
+- **Organisatorische Maßnahmen**: Mitarbeiterschulung, klare Eskalationsprozesse, Lieferantenbewertung, dokumentierte Anfechtungspolitik.
+
+EDPB-Anhang 2 zu Empfehlung 01/2020 listet Use Cases 1-7 (Use Case 6 und 7 ohne wirksame Schutzmassnahmen denkbar).
+
+### Schritt 5 – Procedural steps
+
+Wenn ergaenzende Maßnahmen erforderlich:
+
+- AVV/DPA anpassen.
+- SCC ergaenzende Anhaenge ausfuellen (Annex I, II, III).
+- Falls SCC angepasst werden (Klauselzusatz, nicht Streichung) – Konsultation Aufsichtsbehoerde prüfen.
+- Bei BCR – Updates an die Lead-Behörde melden.
+- Genehmigung beantragen, wo erforderlich.
+
+### Schritt 6 – Re-evaluate
+
+Erneute Prüfung bei Änderungen:
+
+- Änderungen im Drittlandsrecht (Gesetze, Urteile).
+- Änderungen in der Behördenpraxis.
+- Änderungen beim Importeur (Konzernstruktur, Subprozessoren, Dienste).
+- Änderungen beim Exporteur (neue Datenarten, neue Zwecke).
+- Mindestens jaehrlich.
+
+## Mustertext / Template
+
+Kapitelueberschriften für das TIA-Dokument:
+
+```
+1. Know your transfers
+ 1.1 Transferparteien
+ 1.2 Datenarten
+ 1.3 Subprozessoren und Onward Transfers
+ 1.4 Datenflussdiagramm
+
+2. Transfer tool
+ 2.1 Gewaehltes Instrument
+ 2.2 Begruendung der Wahl
+
+3. Bewertung Drittlandsrecht und -praxis
+ 3.1 Behoerdliche Zugriffsbefugnisse
+ 3.2 EEG-Pruefung (A, B, C, D)
+ 3.3 Transparenzberichte und Erfahrungswerte des Importeurs
+
+4. Ergaenzende Schutzmassnahmen
+ 4.1 Technisch
+ 4.2 Vertraglich
+ 4.3 Organisatorisch
+ 4.4 Wirkungsbewertung
+
+5. Verfahrensschritte
+ 5.1 Vertraglich umgesetzte Massnahmen
+ 5.2 Aufsichtsbehoerden-Konsultation (falls erforderlich)
+ 5.3 Sign-off
+
+6. Re-evaluation
+ 6.1 Trigger für Neubewertung
+ 6.2 Naechstes Review-Datum
+ 6.3 Notfallaussetzungs-Prozess
+```
+
+## Typische Fehler
+
+- Schritt 1 unvollstaendig: nur Direkttransfer betrachtet, nicht Onward Transfer.
+- Schritt 2: DPF gewaehlt, aber Importeur nicht aktiv gelistet.
+- Schritt 3: keine Praxispruefung – nur abstrakte Rechtsanalyse.
+- Schritt 4: ausschließlich vertragliche Maßnahmen ohne technische Untermauerung – nach EDPB regelmaessig unzureichend.
+- Schritt 5: SCC inhaltlich veraendert (statt nur ergaenzt) – riskant.
+- Schritt 6: kein Review-Termin.
+- TIA wird gemacht, aber nicht zur Akte genommen.
+
+## Quellen Stand 06/2026
+
+- EuGH C-311/18 vom 16.07.2020 (Schrems II).
+- EDPB Empfehlung 01/2020 vom 10.11.2020, Final 18.06.2021.
+- EDPB Empfehlung 02/2020 vom 10.11.2020 (EEG).
+- Durchfuehrungsbeschluss (EU) 2021/914 vom 04.06.2021 (SCC).
+- Durchfuehrungsbeschluss (EU) 2023/1795 vom 10.07.2023 (EU-US DPF).
+- Art. 44–49 DSGVO.

@@ -1,0 +1,61 @@
+---
+name: design-verletzergewinn-kostenabgleich
+title: 1. Zweck und Anwendungsfall
+description: Prüft Rechnungslegung und Verletzergewinn bei Verletzung eines deutschen eingetragenen Designs anhand von Artikeln, Retouren, Kostenbelegen und Gewinnzurechnung. Liefert eine belastbare Betragsbrücke für Zahlungsforderung oder Verteidigung; keine allgemeine Designanmeldung oder Patentprüfung.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/design-verletzergewinn-kostenabgleich
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# 1. Zweck und Anwendungsfall
+
+Bereite den Zahlungsstreit nach einer Designverletzung auf. Gleiche Verkaufsdaten, abzugsfähige Kosten und den durch die Verletzung erzielten Gewinn ab. Im Mittelpunkt steht die prüffähige Rechnungslegung je Artikel, nicht eine allgemeine Verletzungsprüfung oder ein Vergleich der Schadensberechnungsmethoden im Patentrecht. Nicht automatisch den gesamten Unternehmensgewinn abschöpfen.
+
+## 2. Eingaben
+
+Lies zuerst Auftrag, Register- und Titelunterlagen, Rechnungslegung, Einzelrechnungen, Gutschriften, Warenwirtschaft und Kostenkonten. Erfasse Parteirolle, Schutzrecht, konkrete Produkte, Gebiet, Verletzungszeitraum, Verschulden, Bindungsumfang eines Feststellungstitels und bereits gewählte Berechnungsmethode. Kennzeichne nicht gelesene Daten und streitige Aussagen. Fehlende Rechnungen, Retourenbelege oder Kostenaufteilungen gezielt anfordern; Materialverfügbarkeit beweist nicht die Vollständigkeit der Rechnungslegung. Bearbeitbare Positionen vorläufig berechnen, fehlende Tatsachen nicht unterstellen.
+
+## 3. Ablauf und Checkliste
+
+### 3.1. Abrechnungsgrenze und Mengen
+
+Bestimme für jedes Produkt, welche Verkäufe vom Anspruch erfasst sind. Trenne abweichende Modelle, Auslandsumsätze und Zeiträume außerhalb des Titels. Gleiche Stückzahl, Preis, Rechnung, Retoure und Gutschrift über eindeutige Belegnummern ab. Retouren nur einmal abziehen; ein Lagerabgang ist kein Verkauf. Umsatzsteuer, Rabatte und Skonti getrennt erfassen. Bei wechselnden Nettopreisen zeilenweise rechnen, keinen ungewichteten Durchschnitt verwenden.
+
+### 3.2. Kostenprüfung
+
+Bilde je Produkt: bereinigter Nettoerlös minus belegte abzugsfähige Kosten gleich vorläufiger Produktgewinn. Führe für Material, Fertigung, Verpackung, Fracht, Provision und behauptete Gemeinkosten jeweils Betrag, Beleg, Zuordnung und Entscheidung. Ein pauschaler Verwaltungs- oder Mietkostenschlüssel genügt nicht; prüfe, ob und in welchem Umfang Kosten den Verletzungsgegenständen unmittelbar zurechenbar sind. Vermeide den doppelten Abzug von Kosten bereits gutgeschriebener Retouren. Ein rechnerischer Verlust eines anderen Produkts wird nicht stillschweigend verrechnet.
+
+BGH, Urteil vom 02.11.2000, I ZR 246/98, Gemeinkostenanteil, Leitsatz a verlangt für Gemeinkosten die ausnahmsweise unmittelbare Zuordnung zu den Verletzungsgegenständen. Fordere bei einem pauschalen Umsatzschlüssel die konkrete Zuordnungsgrundlage an. Die historische Entscheidung zu Paragraf 14a GeschmMG ersetzt nicht Paragraf 42 Absatz 2 DesignG und begründet keinen Kausalanteil von 100 Prozent.
+
+### 3.3. Zurechnung und Gegenrechnung
+
+Prüfe nach Paragraf 42 Absatz 2 DesignG, welcher Gewinn durch die Verletzung erzielt wurde. Trenne Kostenabzug von der kausalen Gewinnzurechnung; die Ablehnung einer Kostenposition beweist keinen Kausalanteil von 100 Prozent. Begründe relevante Kaufmotive, technische Funktion, Preis, weitere Schutzrechte und Gestaltung anhand von Belegen. Ein eigener guter Vertrieb rechtfertigt nach dem historischen Anker nicht schon einen pauschalen Abschlag. Bei offenem Kausalanteil rechne ausdrücklich bezeichnete Szenarien, nicht eine angeblich gerichtsfeste Quote. Konkreten Schaden und Lizenzanalogie nur als alternative Methode darstellen, nicht für denselben Schaden addieren. Keine erfundenen Lizenzsätze.
+
+### 3.4. Beweis und Abschluss
+
+Ordne jeder streitigen Rechenzeile Anspruchsvoraussetzung, Darlegung, Gegenbeleg und Auswirkung zu. Unterscheide Auskunft über Herkunft und Vertriebswege nach Paragraf 46 DesignG von ergänzender Rechnungslegung für den Schaden nach Paragraf 242 BGB; keinen unbegrenzten Datenraumzugang unterstellen. Nach Eingang fehlender Rechnungen oder Kostenbelege die zugehörigen Verkäufe, Abzüge und Zurechnungsszenarien aktualisieren und Summen unabhängig nachrechnen. Zeigt eine Gutschrift einen neuen Widerspruch zur Artikelzuordnung, gezielt nachfassen; bereits beantwortete Fragen nicht wiederholen. Anschließend den bestellten Forderungs- oder Erwiderungstext fertigschreiben. Keine Forderung versenden, keinen Methodenverzicht oder Vergleich eigenmächtig erklären.
+
+## 4. Quellenpflicht
+
+Nutze [Zitierweise](../../references/zitierweise.md), soweit verfügbar; der Arbeitsweg bleibt ohne diese Datei ausführbar. Norm und Aussage vor fallbezogener Verwendung amtlich prüfen, zeitliche Fassung festhalten, Unverifiziertes offen kennzeichnen.
+
+- [Paragraf 42 DesignG](https://www.gesetze-im-internet.de/geschmmg_2004/__42.html): verschuldensabhängiger Schadensersatz und Berechnungsalternativen.
+- [Paragraf 287 ZPO](https://www.gesetze-im-internet.de/zpo/__287.html): Schätzung anhand tatsächlicher Grundlagen.
+- [BGH, Urteil vom 02.11.2000, I ZR 246/98, Gemeinkostenanteil](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/I_ZS/1998/I_ZR_246-98.pdf?__blob=publicationFile&v=1): amtliche Leitsätze zum unmittelbaren Gemeinkostenbezug und zu eigenen Vertriebsleistungen am 22.09.2026 im Suchauszug geprüft. Volltext nicht abrufbar; keine Randnummer ergänzen.
+
+## 5. Ausgabeformat
+
+Erstelle Anspruchsrahmen, Mengenabgleich, Kostenentscheidungen, nachvollziehbare Herleitung des Betrags und Zurechnungsszenarien. Den bestellten Forderungs- oder Erwiderungstext ausformulieren; ein reiner Berechnungsauftrag verlangt keinen zusätzlichen Schriftsatz. Ein vorgegebener Dateiname ist maßgeblich, andernfalls `ergebnis.md` verwenden.
+
+Tabellen ergänzen die Begründung, ersetzen sie nicht. Quellenprüfvermerke getrennt vom Außenentwurf halten. Das Endprodukt besteht aus vollständigen Sätzen, nicht aus Skeletten oder Halbsätzen. Ausschließlich dezimale Überschriften; Times New Roman 11 pt bei formatiertem Export, sonst ausdrücklicher Exporthinweis.
+
+Bei einem Hindernis den vorläufigen Stand und benötigten Beitrag nennen, nach Eingang bis zur Endfassung fortsetzen. Ist kein Dateiexport möglich, den bestellten Forderungs- oder Erwiderungstext mit der erforderlichen Mengen-, Kosten- und Gewinnrechnung vollständig in der Antwort ausgeben; keinen Download behaupten.
+
+## 6. Beispiele
+
+Passend: Eine Designinhaberin will eine Rechnungslegung mit Retouren und pauschalen Verwaltungskosten in einen Zahlungsentwurf überführen. Ebenso passend ist die beleggestützte Verteidigung des Herstellers gegen diese Berechnung. Nicht passend sind eine Neuheitsrecherche vor Anmeldung oder die technische Merkmalsanalyse einer Patentverletzung.

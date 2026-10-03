@@ -10,7 +10,7 @@ Jurisdiction: `us` · Practice: `administrative` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Gap Analysis Agent`](skills/gap-analysis-osenv/) | Read a statute or regulation and identify where an agency has failed to perform a mandatory, deadline-bound… |
+| [`Gap Analysis Agent`](skills/gap-analysis-osenv/) | Read a statute or regulation and identify where an agency has failed to perform a mandatory… |
 
 ## Cold-start context
 

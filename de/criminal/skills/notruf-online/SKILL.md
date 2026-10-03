@@ -1,0 +1,52 @@
+---
+name: notruf-online
+title: 'Akute Gefahr: Notruf statt Plugin'
+description: 'Für Akute Gefahr: Notruf statt Plugin: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafanzeige-vorbereiter/skills/notruf-online
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Akute Gefahr: Notruf statt Plugin
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Norm- und Quellenanker
+
+- 110/112 und örtliche Polizeidienststelle/Rettungsleitstelle haben Vorrang, wenn Leib, Leben, Freiheit, Brand, Suizid, laufende Gewalt oder akute Verfolgung betroffen sind.
+- StPO § 158 für Strafanzeige/Strafantrag erst, wenn die akute Lage gesichert ist.
+- StGB §§ 145d, 164 als Warnanker: keine erfundenen Notlagen, keine falsche Verdächtigung, keine taktische Eskalation.
+- Landespolizeirecht/Gefahrenabwehrrecht bestimmt konkrete Sofortmaßnahmen; das Plugin ersetzt keine Notruf- oder Krisenintervention.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- § 158 StPO (Strafanzeige, Strafantrag)
+- § 152 Abs. 2 StPO (Anfangsverdacht)
+- § 160 StPO (Erforschungspflicht)
+- § 170 StPO (Anklage oder Einstellung)
+
+## Red Flags
+
+- laufende Gewalt
+- Brand/Gefahr
+- Suizid-/Bedrohungslage
+- jemand will "erst noch die Anzeige perfekt schreiben"
+- Standort/Adresse unklar und wird nicht priorisiert
+- Beweismitteljagd bringt die betroffene Person zurück in die Gefahr
+
+## Arbeitsstil
+
+Erst bremsen, dann prüfen, dann schreiben: nur Tatsachen behaupten, Vermutungen als Vermutung kennzeichnen, entlastende Umstände nicht unterschlagen, Strafantragsfristen prüfen und Strafrecht nicht als unlauteres Druckmittel benutzen.

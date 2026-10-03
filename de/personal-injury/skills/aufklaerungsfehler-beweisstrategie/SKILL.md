@@ -1,18 +1,35 @@
 ---
 name: aufklaerungsfehler-beweisstrategie
-title: Aufklärungsfehler — Beweisstrategie
-description: Workflow-Skill zu aufklaerungsfehler beweisstrategie. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Aufklaerungsfehler Beweisstrategie: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu ein'
+description: 'Für Aufklärungsfehler Beweisstrategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/aufklaerungsfehler-beweisstrategie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: personal-injury
 language: de
 ---
 
-# Aufklärungsfehler — Beweisstrategie
+# Aufklaerungsfehler Beweisstrategie: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; BGB §§ 630a-h, MBO-Ä, GKV-Vorgaben, SGB V, PrüfvV, HeilberufsG der Länder; SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Aufklaerungsfehler Beweisstrategie: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+### Aufklärungsfehler — Beweisstrategie
+
+## Fachkern: Aufklärungsfehler — Beweisstrategie
+- **Normen-/Quellenanker:** BGB §§ 630a ff., SGB V, ärztliches Berufsrecht, GOÄ/EBM, MPDG/MDR, AMG, Krankenhausrecht, Vertragsarztrecht und Arzthaftungsprozess.
+- **Entscheidende Weiche:** Trenne Behandlungsfehler, Aufklärung, Dokumentation, Kausalität, Beweislast, Sozialleistungsbezug, Zulassung und Haftpflichtdeckung.
 
 ## Kaltstart-Rückfragen
 
@@ -24,7 +41,7 @@ language: de
 6. Liegt ein Aufklärungsbogen vor — handschriftliche Eintragungen oder nur Standardtext?
 7. War eine Begleitperson beim Gespräch anwesend (möglicher Zeuge)?
 8. Welcher Schaden ist eingetreten — ist er von den verschwiegenen Risiken umfasst?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -34,10 +51,6 @@ language: de
 - **§ 630e Abs. 2 BGB** — Formvorschriften: Nr. 1 mündlich, persönlich durch den Behandelnden oder eine Person mit notwendiger Ausbildung; Nr. 2 rechtzeitig so dass Patient wohlüberlegt entscheiden kann; Nr. 3 in für den Patienten verständlicher Weise; schriftliche Bögen ergänzen nur.
 - **§ 630c Abs. 3 BGB** — wirtschaftliche Aufklärung: bei Kenntnis, dass Behandlungskosten nicht vollständig übernommen werden, ist aufzuklären.
 - **§ 630h Abs. 2 BGB** — Beweislastumkehr: Behandelnder muss beweisen, dass Aufklärung ordnungsgemäß erfolgt ist und wirksame Einwilligung des Patienten vorliegt.
-
-### BGH-Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema
 
@@ -53,22 +66,24 @@ language: de
 | 8 | Wirksame Einwilligung | § 630d BGB | Einwilligungsfähig? Ausreichend informiert? |
 | 9 | Beweislastumkehr | § 630h Abs. 2 BGB | Arzt hat Beweis für ordnungsgemäße Aufklärung? |
 | 10 | Kausalität Aufklärungsmangel — Schaden | § 630h Abs. 2 BGB analog | Eingetretene Folge von nicht aufgeklärtem Risiko? |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Schadensumfang | §§ 249, 253 BGB | Körperverletzung rechtswidrig = alle Schadensfolgen |
+
+### Tatsächlicher Eingriff und Alternativverlauf
+
+[BGH, Urteil vom 25.11.2025, VI ZR 165/23](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2023/VI_ZR_165-23.pdf?__blob=publicationFile&v=1), Rn. 16–22: Hypothetische Einwilligung betrifft die tatsächlich vorgenommene Maßnahme; Zustimmung zu einer späteren Operation reicht nicht. Rechtmäßiges Alternativverhalten gesondert prüfen: Den gleichen Schaden auch bei rechtmäßigem Verlauf muss die Behandlungsseite beweisen. Zeitpunkt, gewünschten Aufschub und Gegenursache gezielt klären.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — Aufklaerungsfehler Beweisstrategie | Beweissicherungs-Protokoll; Template unten |
 | Variante A — Mandant will Vergleich | Gutachterkommission / Schlichtung statt Klage; Skill gutachterkommission |
-| Variante B — Kein Aufklaerungsfehler feststellbar | Behandlungsfehler pruefen; anderes Skill |
+| Variante B — Kein Aufklaerungsfehler feststellbar | Behandlungsfehler prüfen; anderes Skill |
 | Variante C — Strafanzeige geplant | Koordination Straf- und Zivilverfahren; Akteneinsicht § 406e StPO |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -78,40 +93,40 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 Aufklaerungs-Anamnese [Name, Datum, AZ]
 
 1. Wer hat aufgeklaert?
-   [ ] Operateur selbst
-   [ ] Anderer Facharzt (Name?)
-   [ ] Assistenzarzt / Unterarzt
-   [ ] Pflegekraft (unzureichend nach § 630e Abs. 2 Nr. 1 BGB)
+ [ ] Operateur selbst
+ [ ] Anderer Facharzt (Name?)
+ [ ] Assistenzarzt / Unterarzt
+ [ ] Pflegekraft (unzureichend nach § 630e Abs. 2 Nr. 1 BGB)
 
 2. Wann?
-   [ ] Vor Eingriff: ___ Tage/Stunden
-   [ ] Ort: Sprechstunde / Bettenstation / Aufnahme / OP-Vorbereitung
+ [ ] Vor Eingriff: ___ Tage/Stunden
+ [ ] Ort: Sprechstunde / Bettenstation / Aufnahme / OP-Vorbereitung
 
 3. Wie lange dauerte das Gespraech?
-   ___ Minuten. (Kurzgespraech unter 5 Min. Indiz fuer unzureichende Aufklaerung)
+ ___ Minuten. (Kurzgespraech unter 5 Min. Indiz für unzureichende Aufklaerung)
 
 4. Welche Risiken wurden konkret genannt?
-   [freitextlich]
+ [freitextlich]
 
 5. Wurde ueber Alternativen gesprochen?
-   [ ] Konservative Behandlung
-   [ ] Anderes Operationsverfahren
-   [ ] Abwarten / Watchful Waiting
-   [ ] Keine Alternativen genannt
+ [ ] Konservative Behandlung
+ [ ] Anderes Operationsverfahren
+ [ ] Abwarten / Watchful Waiting
+ [ ] Keine Alternativen genannt
 
 6. Lag ein Aufklaerungsbogen vor?
-   [ ] Ja — war er beim Gespraech oder erst danach ausgehaendigt?
-   [ ] Handschriftliche Eintragungen vorhanden? Welche?
-   [ ] Nur Standardtext angekreuzt
+ [ ] Ja — war er beim Gespraech oder erst danach ausgehaendigt?
+ [ ] Handschriftliche Eintragungen vorhanden? Welche?
+ [ ] Nur Standardtext angekreuzt
 
 7. War eine Begleitperson anwesend?
-   [ ] Ja: Name, Verhaeltnis, Anschrift
-   [ ] Nein
+ [ ] Ja: Name, Verhaeltnis, Anschrift
+ [ ] Nein
 
 8. Koennte Mandant bei richtiger Aufklaerung abgelehnt haben?
-   [ ] Ja — wegen: [Familienplanung / Berufliche Gruende / Religioese Gruende /
-                     Fruehere negative Operationserfahrung]
-   [ ] Unklar
+ [ ] Ja — wegen: [Familienplanung / Berufliche Gruende / Religioese Gruende /
+ Fruehere negative Operationserfahrung]
+ [ ] Unklar
 ```
 
 ### Schriftsatz-Baustein Aufklärungsfehler Klagebegründung
@@ -120,43 +135,41 @@ Aufklaerungs-Anamnese [Name, Datum, AZ]
 II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
 
 1. Inhaltliche Maengel der Aufklaerung
-   Der behandelnde Arzt hat die Klaegerin / den Klaeger vor dem
-   Eingriff vom [Datum] nicht ordnungsgemaess aufgeklaert.
-   Insbesondere hat er es unterlassen, auf folgende Risiken
-   hinzuweisen:
-   a) [eingriffsspezifisches Risiko]
-   b) [Alternativmethode mit geringerer Morbiditat]
-   c) [Risiko aus individuellen Vorerkrankungen]
+ Der behandelnde Arzt hat die Klaegerin / den Klaeger vor dem
+ Eingriff vom [Datum] nicht ordnungsgemaess aufgeklaert.
+ Insbesondere hat er es unterlassen, auf folgende Risiken
+ hinzuweisen:
+ a) [eingriffsspezifisches Risiko]
+ b) [Alternativmethode mit geringerer Morbiditat]
+ c) [Risiko aus individuellen Vorerkrankungen]
 
-   Der verwendete Standard-Aufklaerungsbogen enthalt keine
-   handschriftlichen Eintragungen zu den persoenlichen Risiken
-   der Klaegerin / des Klaegers. Er ist damit kein Beleg fuer
-   ein individualisiertes Aufklaerungsgespraech.
+ Der verwendete Standard-Aufklaerungsbogen enthalt keine
+ handschriftlichen Eintragungen zu den persönlichen Risiken
+ der Klaegerin / des Klaegers. Er ist damit kein Beleg für
+ ein individualisiertes Aufklaerungsgespraech.
 
 2. Mangelnde Rechtzeitigkeit
-   Die Aufklaerung erfolgte am [Datum, Uhrzeit], mithin nur
-   [X Stunden] vor dem Eingriff / nach Vergabe der Praemedikation.
-   Ein freier Willensentschluss war der Klaegerin / dem Klaeger
-   zu diesem Zeitpunkt nicht mehr moeglich.
+ Die Aufklaerung erfolgte am [Datum, Uhrzeit], mithin nur
+ [X Stunden] vor dem Eingriff / nach Vergabe der Praemedikation.
+ Ein freier Willensentschluss war der Klaegerin / dem Klaeger
+ zu diesem Zeitpunkt nicht mehr moeglich.
 
 3. Beweislast
-   Gemaess § 630h Abs. 2 BGB traegt die Beklagte die Beweis-
-   last fuer eine ordnungsgemaesse Aufklaerung und eine
-   wirksame Einwilligung. Diese Beweislast kann mit dem
-   vorgelegten Standard-Aufklaerungsbogen nicht erfuellt werden
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ Gemaess § 630h Abs. 2 BGB traegt die Beklagte die Beweis-
+ last für eine ordnungsgemaesse Aufklaerung und eine
+ wirksame Einwilligung. Diese Beweislast kann mit dem
+ vorgelegten Standard-Aufklaerungsbogen nicht erfuellt werden
 
 4. Keine hypothetische Einwilligung
-   Die Beklagte kann sich nicht mit Erfolg auf eine
-   hypothetische Einwilligung berufen. Die Klaegerin / der
-   Klaeger befand sich bei ordnungsgemaesser Aufklaerung in
-   einem plausiblen Entscheidungskonflikt, weil [konkret:
-   Familienplanung, weniger invasive Alternative bekannt etc.].
-   Dies ergibt sich aus [Mandantenvortrag + ggf. Zeuge].
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ Die Beklagte kann sich nicht mit Erfolg auf eine
+ hypothetische Einwilligung berufen. Die Klaegerin / der
+ Klaeger befand sich bei ordnungsgemaesser Aufklaerung in
+ einem plausiblen Entscheidungskonflikt, weil [konkret:
+ Familienplanung, weniger invasive Alternative bekannt etc.].
+ Dies ergibt sich aus [Mandantenvortrag + ggf. Zeuge].
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -186,10 +199,8 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
 
 | Einwand Arzt | Reaktion Patient |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Patient kannte Risiko aus früherer Behandlung | Aufklärungspflicht bleibt bei jedem Eingriff; früheres Wissen entlastet nur bei identischen Risiken und sehr kurzem Abstand |
 | Eingriff war eilbedürftig | § 630d Abs. 1 Satz 4 BGB — bei Notfall mutmaßliche Einwilligung; Eilbedürftigkeit muss dokumentiert sein |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -217,6 +228,5 @@ II. Aufklaerungsfehler §§ 630e 630h Abs. 2 BGB
 ## Quellen
 
 - BGB §§ 630c, 630d, 630e, 630h, 249, 253
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentar-, Handbuch- oder Aufsatzblindzitate.
 - Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden.

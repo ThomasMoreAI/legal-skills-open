@@ -8,7 +8,7 @@ Jurisdiction: `cn` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Tax Law Research Skill`](skills/tax-law-research/) | This skill should be used when the user wants to "search tax regulations", "find latest tax laws", "look up… |
+| [`Tax Law Research Skill`](skills/tax-law-research/) | This skill should be used when the user wants to "search tax regulations", "find latest tax laws", "look… |
 
 ## Cold-start context
 

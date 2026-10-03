@@ -1,11 +1,11 @@
 ---
 name: anfg-grundtatbestand-und-anfechtungsberechtigte
 title: AnfG-Grundtatbestand und Anfechtungsberechtigte
-description: 'Grundvoraussetzungen der außerinsolvenzlichen Gläubigeranfechtung klären: vollstreckbarer Titel, fällige Forderung, Gläubigerbenachteiligung. Normen: §§ 1 2 AnfG, §§ 195 199 BGB. Prüfraster: Anfechtungsberechtigung, Rechtshandlungsbegriff, Schuldnereigenschaft. Output: Prüfergebnis Anspruchsgrundlage mit Lückenanalyse. Abgrenzung: nicht InsO-Grundtatbestand § 129 InsO ohne Insolvenzeröffnung.'
+description: 'Für AnfG-Grundtatbestand und Anfechtungsberechtigte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: anfg-grundtatbestand-und-anfechtungsberechtigte.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-grundtatbestand-und-anfechtungsberechtigte
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,6 +13,18 @@ language: de
 ---
 
 # AnfG-Grundtatbestand und Anfechtungsberechtigte
+
+## Arbeitsbereich
+
+Grundvoraussetzungen der außerinsolvenzlichen Gläubigeranfechtung klären: vollstreckbarer Titel, fällige Forderung, Gläubigerbenachteiligung. Normen: §§ 1 2 AnfG, §§ 195 199 BGB. Prüfraster: Anfechtungsberechtigung, Rechtshandlungsbegriff, Schuldnereigenschaft. Output: Prüfergebnis Anspruchsgrundlage mit Lückenanalyse. Abgrenzung: nicht InsO-Grundtatbestand § 129 InsO ohne Insolvenzeröffnung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 812 ff. BGB, AnfG und Insolvenzanfechtung; §§ 129-147 InsO. Mit KI-Screening von Schuldnerakten; § 135 Gesellschafterdarlehen, Bargeschäft; § 142 und Verteidigung des Anfechtungsgegners. Keine Rechtsberatung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Zweck des Anfechtungsgesetzes
 
@@ -34,13 +46,6 @@ Das Anfechtungsgesetz (AnfG) ermöglicht Gläubigern außerhalb des Insolvenzver
 - §§ 195 199 BGB — Verjährung (3 Jahre ab Kenntnis)
 - §§ 704-945 ZPO — Zwangsvollstreckung (Grundlage des Vollstreckungstitels)
 
-## Rechtsprechung (BGH — Leitsätze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Anfechtungsberechtigung — § 2 AnfG
 
 **Voraussetzungen:**
@@ -75,3 +80,10 @@ Die Anfechtung erfolgt durch Erhebung einer Anfechtungsklage (§ 13 AnfG) oder d
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+
+## Materien- und Quellenkontrolle
+
+Anfechtung einer Willenserklärung nach Paragraf 119 oder 123 BGB, bereicherungsrechtliche Rückabwicklung nach Paragraf 812 folgende BGB, Gläubigeranfechtung nach dem Anfechtungsgesetz und Insolvenzanfechtung nach Paragraf 129 folgende InsO sind getrennte Anspruchssysteme. Zuerst Anspruchsberechtigter, Anfechtungsgegner, Rechtshandlung, Benachteiligung, subjektive Merkmale, Frist und Rechtsfolge bestimmen. Eine Entscheidung aus einem anderen System nur nach ausdrücklicher Prüfung ihrer Übertragbarkeit verwenden; jedes Zitat benötigt Gericht, Datum, Aktenzeichen, tragende Aussage und Quelle.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

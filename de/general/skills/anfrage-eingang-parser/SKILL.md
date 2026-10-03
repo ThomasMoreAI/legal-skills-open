@@ -1,11 +1,11 @@
 ---
 name: anfrage-eingang-parser
 title: Anfrage-Eingang-Parser
-description: 'Sekretariat oder Anwalt erhielt E-Mail-Anfrage eines potentiellen Mandanten und will sie schnell strukturiert auswerten. E-Mail-Parser Kanzlei. Prüfraster: Anrede Name Absender E-Mail-Adresse Telefon Sachverhaltsfetzen Stichwörter dringliche Hinweise auf Fristen oder Haftungsrisiken. Output: strukturiertes Datenblatt mit Kontaktdaten und Sachverhalts-Extrakt. Abgrenzung zu erstantwort-generator (Antwort erstellen) und dringlichkeitsmarker (Eilbedarf).'
+description: 'Für Anfrage-Eingang-Parser: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/anfrage-eingang-parser
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,30 +14,29 @@ language: de
 
 # Anfrage-Eingang-Parser
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
 Dieser Skill extrahiert aus einer eingehenden Mandantenanfrage per E-Mail alle relevanten Informationen in strukturierter Form, damit das Sekretariat und die bearbeitende Rechtsanwältin sofort den Überblick haben.
 
-
 ## Triage zu Beginn
-1. Ueber welchen Kanal ist die Anfrage eingegangen: E-Mail, Webformular, beA, Telefonnotiz, Messenger?
+1. Über welchen Kanal ist die Anfrage eingegangen: E-Mail, Webformular, beA, Telefonnotiz, Messenger?
 2. Gibt es eindeutige Fristen-Signale oder Eile-Marker, die sofortige Weiterleitung erfordern?
 3. Kann die anfragende Person identifiziert werden (Name, E-Mail, Telefon) oder ist die Anfrage anonym?
 4. Ist die Anfrage in deutscher Sprache oder in einer Fremdsprache (Weiterleitung an mehrsprachige-antwort)?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- Art. 6 Abs. 1 lit. b, f DSGVO — Rechtsgrundlage fuer Verarbeitung von Erstanfrage-Daten
+- Art. 6 Abs. 1 lit. b, f DSGVO — Rechtsgrundlage für Verarbeitung von Erstanfrage-Daten
 - Art. 5 Abs. 1 lit. c DSGVO — Datensparsamkeit: nur notwendige Daten aus der Anfrage extrahieren
 - § 43 BRAO — Sorgfaltspflicht: sofortige Bearbeitung und Dokumentation eingehender Anfragen
-- § 49b Abs. 5 BRAO — Kostenbelehrungspflicht: vor Mandatsannahme ueber voraussichtliche Kosten informieren
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Eingehende Mandantenanfragen sind oft unstrukturiert. Sie können als Fließtext, als kurze Notiz oder als ausführlicher Erlebnisbericht formuliert sein. Dieser Skill normiert die Extraktion und legt eine Grundlage für alle folgenden Skills (Anrede, Erstantwort, Dringlichkeit, Konfliktcheck, CRM-Eintrag).
+- § 49b Abs. 5 BRAO — Kostenbelehrungspflicht: vor Mandatsannahme über voraussichtliche Kosten informieren
 
 ## Extraktionsfelder
 
@@ -80,31 +79,6 @@ Eingehende Mandantenanfragen sind oft unstrukturiert. Sie können als Fließtext
 - Haftungsrisiken: Versäumnisurteil, Zwangsvollstreckung, Insolvenzantrag
 - Hinweis an den Skill `dringlichkeitsmarker` weitergeben
 
-## Ausgabeformat
-
-```
-PARSED ANFRAGE
-==============
-
-Anrede (roh):        [Originaltext der Anrede / Grußformel]
-Name:                [Vollständiger Name mit Titeln]
-E-Mail:              [Absenderadresse]
-Telefon:             [Nummer oder "nicht genannt"]
-Weitere Kontakte:    [Adresse, Fax, etc. — oder "keine"]
-
-Rechtsgebiet:        [Ersteinschätzung oder "unklar"]
-Sachverhalt-Stichwörter:
-  - [Stichwort 1]
-  - [Stichwort 2]
-  - [...]
-
-Beteiligte:          [Gegner/Behörde/weitere Personen oder "nicht genannt"]
-Relevante Daten/Beträge: [oder "nicht genannt"]
-
-DRINGLICHKEIT:       [HOCH / MITTEL / NIEDRIG / UNBEKANNT]
-Dringlichkeit-Grund: [Kurze Begründung oder "keiner erkannt"]
-```
-
 ## Heuristiken und Sonderfälle
 
 ### E-Mail-Adresse als Namenquelle
@@ -136,7 +110,7 @@ Bei "Wir möchten uns melden ..." oder "Ich schreibe im Namen meiner Mutter ..."
 Nach der Extraktion:
 1. Vollständigkeit prüfen: Fehlen Pflichtfelder (Name, E-Mail), kennzeichnen und für manuelle Ergänzung markieren.
 2. Keine Interpretation über den Wortlaut hinaus: Sachverhaltsfetzen sind Zitate oder direkte Zusammenfassungen, keine rechtliche Würdigung.
-3. Keine Rechtsberatung: Dieser Skill erstellt keine rechtliche Bewertung — nur Faktenextraktion.
+3. Keine Rechtsberatung: Erstelle keine rechtliche Bewertung — nur Faktenextraktion.
 
 ## Verweise auf andere Skills
 
@@ -145,3 +119,10 @@ Nach der Extraktion:
 - `spam-und-massen-anfrage-filter` — prüft die geparste Anfrage auf Spam-Muster
 - `konfliktcheck-vorab` — verwendet Beteiligte und Gegner aus der Extraktion
 - `folgekorrespondenz-vorbereiten` — befüllt den CRM-Skeleton-Eintrag mit den hier extrahierten Daten
+
+
+## Quellenkontrolle
+
+Für Eingang, Weiterleitung und Antwort einer Mandantenanfrage zuerst Mandatsstatus, Interessenkollision, Verschwiegenheit, Datenschutz und laufende Fristen bestimmen. Paragraf 43a BRAO, Paragraf 2 BORA, Paragraf 203 StGB und Artikel 5, 6 und 32 DSGVO nur nach konkreter Datenverarbeitung anwenden. Rechtsprechung gehört nur dann in das Arbeitsergebnis, wenn ihre tragende Aussage die konkrete Anfrage tatsächlich entscheidet.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

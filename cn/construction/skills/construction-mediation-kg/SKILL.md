@@ -5,12 +5,35 @@ description: 建设工程商事调解知识图谱专家技能。基于《人民�
 author: ruiyongwang
 author_url: https://github.com/ruiyongwang/dlh/tree/main/skills/construction-mediation-kg
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: construction
 language: zh
-tags: [工程纠纷, 商事调解, 调解知识图谱, 调解策略, 争议解决, 工程款纠纷, 工期争议, 质量争议, 调解协议, 调解流程, batna, watna]
+tags:
+- 工程纠纷
+- 商事调解
+- 调解知识图谱
+- 调解策略
+- 争议解决
+- 工程款纠纷
+- 工期争议
+- 质量争议
+- 调解协议
+- 调解流程
+- batna
+- watna
+sources:
+- title: Agreement template
+  path: references/agreement-template.md
+- title: Batna framework
+  path: references/batna-framework.md
+- title: Dispute types
+  path: references/dispute-types.md
+- title: Legal basis
+  path: references/legal-basis.md
+- title: Mediation strategies
+  path: references/mediation-strategies.md
 ---
 
 # 建设工程商事调解知识图谱

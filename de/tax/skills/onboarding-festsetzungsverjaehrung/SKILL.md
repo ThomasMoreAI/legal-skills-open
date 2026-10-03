@@ -1,0 +1,59 @@
+---
+name: onboarding-festsetzungsverjaehrung
+title: Festsetzungsverjaehrung — §§ 169 bis 171 AO in der Praxis
+description: 'Für Festsetzungsverjährung — Paragrafen 169 bis 171 AO in der Praxis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/onboarding-festsetzungsverjaehrung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Festsetzungsverjaehrung — §§ 169 bis 171 AO in der Praxis
+
+## Fachlicher Anker
+
+- **Normen:** §§ 169 bis 171 AO, insbesondere § 170 Abs. 2 AO und § 171 Abs. 4, 5 und 10 AO.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Welche Steuerart und welcher Veranlagungszeitraum sind betroffen?
+2. Wurde Steuererklaerung abgegeben — sonst Anlaufhemmung bis spaetestens drei Jahre § 170 Abs. 2 AO?
+3. Gilt die regulaere vier Jahres Frist § 169 Abs. 2 Nr. 2 AO oder verlaengerte zehn Jahre bei Hinterziehung § 169 Abs. 2 S. 2 AO?
+4. Liegt Ablaufhemmung wegen Aussenpruefung § 171 Abs. 4 AO oder Steuerstrafverfahren § 171 Abs. 5 AO vor?
+5. Bei Schenkungen und Erbfaellen besondere Anlaufhemmung § 170 Abs. 5 AO beachten.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 169 AO** — Festsetzungsverjaehrung; Regelfrist vier Jahre.
+- **§ 169 Abs. 2 S. 2 AO** — Verlaengerung auf zehn Jahre bei Hinterziehung; fuenf Jahre bei leichtfertiger Verkuerzung.
+- **§ 170 AO** — Beginn der Festsetzungsfrist; Anlaufhemmung.
+- **§ 171 AO** — Ablaufhemmung; insbesondere Abs. 4 (Außenprüfung), Abs. 5 (Ermittlungen oder bekannt gegebenes Straf-/Bußgeldverfahren) und Abs. 10 (Grundlagenbescheid). Abs. 14 betrifft dagegen zusammenhängende Erstattungsansprüche. [Amtlicher Normtext](https://www.gesetze-im-internet.de/ao_1977/__171.html), geprüft am 25.09.2026; zeitliche Anwendungsbestimmungen im EGAO beachten.
+- **§ 47 AO** — Erloeschen durch Festsetzungsverjaehrung.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 169 AO · § 170 AO · § 171 AO · § 47 AO · § 181 AO (gesonderte Feststellung) · § 191 Abs. 3 AO (Haftungsbescheid)
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

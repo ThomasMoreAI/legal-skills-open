@@ -1,15 +1,18 @@
 ---
 name: fachanwalt-verkehrsrecht-fahrerlaubnis-entzug
 title: Fahrerlaubnis-Entzug
-description: 'Mandant hat Führerschein entzogen bekommen oder befuerchtet Entziehung und fragt nach Möglichkeiten. § 69 StGB strafgerichtlich § 3 StVG verwaltungsrechtlich. Prüfraster: Sperrfrist § 69a StGB vorlaeufige Entziehung § 111a StPO Wiedererteilung § 20 FeV MPU-Anordnung §§ 13 14 FeV Beschwerde § 304 StPO Widerspruch Verwaltungsverfahren Punkteabbau § 4 Abs. 7 StVG. Output: Verteidigungsstrategie und Antragsschriftsatz. Abgrenzung zu fachanwalt-verkehrsrecht-mpu-vorbereitung (MPU-Prep) und mandat-triage-verkehrsrecht.'
+description: 'Für Fahrerlaubnis-Entzug: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/fachanwalt-verkehrsrecht-fahrerlaubnis-entzug
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
 language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Fahrerlaubnis-Entzug
@@ -298,5 +301,12 @@ Aktueller Stand Mai 2026:
 
 ---
 
-<!-- AUDIT 27.05.2026 — Bundle 027 Halluzinations-Reparatur
--->
+
+
+## Qualitäts-Hardening
+
+- Arbeite aktennah: Tatsachen, Belege, Fristen, Zuständigkeit und gewünschtes Arbeitsprodukt zuerst klären.
+- Keine Rechtsprechung aus Modellwissen zitieren. Jede Entscheidung vor Ausgabe mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei oder amtlich prüfbarer Quelle absichern.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate. Literatur nur verwenden, wenn der Nutzer sie bereitstellt oder ein lizenzierter Live-Zugriff im konkreten Arbeitsschritt dokumentiert ist.
+- Wenn eine Quelle, Randnummer, Behördenpraxis oder Frist nicht sicher geprüft ist, sichtbar als Prüfpunkt markieren und keine Scheinpräzision erzeugen.
+- Ergebnisse so liefern, dass sie sofort weiterverwendbar sind: Kurzbild, Prüfpfad, Risikoampel, Lückenliste und konkrete nächste Schritte.

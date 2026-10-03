@@ -10,8 +10,8 @@ Jurisdiction: `it` · Practice: `securities` · Skill language: it
 
 | Skill | What it does |
 |---|---|
-| [`Analisi Delibere CONSOB`](skills/analisi-delibere-consob-capazme/) | Ricerca e analisi delibere CONSOB su un tema con lettura provvedimenti, quadro normativo TUF/MiFID e sintesi… |
-| [`Novita CONSOB`](skills/novita-consob-capazme/) | Riepilogo delle ultime delibere e provvedimenti CONSOB con sintesi orientamenti per tipologia o argomento.… |
+| [`Analisi Delibere CONSOB`](skills/analisi-delibere-consob-capazme/) | Ricerca e analisi delibere CONSOB su un tema con lettura provvedimenti, quadro normativo TUF/MiFID e… |
+| [`Novita CONSOB`](skills/novita-consob-capazme/) | Riepilogo delle ultime delibere e provvedimenti CONSOB con sintesi orientamenti per tipologia o… |
 
 ## Cold-start context
 

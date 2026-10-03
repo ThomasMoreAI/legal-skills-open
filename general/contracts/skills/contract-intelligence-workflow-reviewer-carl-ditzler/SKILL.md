@@ -1,68 +1,67 @@
 ---
 name: contract-intelligence-workflow-reviewer-carl-ditzler
 title: Contract Intelligence & Workflow Reviewer
-description: Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full contract lifecycle review process from intake and playbook normalization through clause review, deviation scoring, negotiation planning, approval routing, QA, and action recommendations. Reviews legal, business, operational, compliance, privacy, security, technology, and AI-related risks across contracts and legal documents. Supports NDAs, SaaS agreements, DPAs, procurement contracts, commercial agreements, contract comparisons, redlines, approval packages, clause research, and drafting. Warning-Comprehensive reviews can consume significant Claude/OpenAI tokens, especially for large agreements, playbooks, exhibits, schedules, and multi-document reviews.
+description: Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full contract lifecycle review process from intake and playbook normalization through clause review, deviation scoring, negotiation planning, approval routing, QA, and action recommendations. Reviews legal, business, operational, compliance, privacy, security, technology, and AI-related risks across contracts and legal documents. Supports NDAs, SaaS agreements, DPAs, procurement contracts, commercial agreements, contract comparisons, redlines, approval packages, clause research, and drafting. Warning- Comprehensive reviews can consume significant Claude/OpenAI tokens, especially for large agreements, playbooks, exhibits, schedules, and multi-document reviews.
 author: Carl Ditzler
 author_url: https://github.com/carlditzler/AI-Skills/tree/main/legal/Contract-Reviewer-carl-ditzler-SKILL
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
 sources:
-- title: Action Schema
+- title: Action schema
   path: references/action-schema.md
-- title: Automation Metrics
+- title: Automation metrics
   path: references/automation-metrics.md
 - title: Benchmarking
   path: references/benchmarking.md
-- title: Claude Codex Compatibility
+- title: Claude codex compatibility
   path: references/claude-codex-compatibility.md
-- title: Document Structure And Attention
+- title: Document structure and attention
   path: references/document-structure-and-attention.md
-- title: Drafting Mode
+- title: Drafting mode
   path: references/drafting-mode.md
-- title: Execution Playbook
+- title: Execution playbook
   path: references/execution-playbook.md
-- title: Failure Modes
+- title: Failure modes
   path: references/failure-modes.md
-- title: Filesystem Workflow
+- title: Filesystem workflow
   path: references/filesystem-workflow.md
-- title: Human Approval Gates
+- title: Human approval gates
   path: references/human-approval-gates.md
-- title: Intake Form
+- title: Intake form
   path: references/intake-form.md
-- title: Legal Research Mode
+- title: Legal research mode
   path: references/legal-research-mode.md
-- title: Legal Review Best Practices
+- title: Legal review best practices
   path: references/legal-review-best-practices.md
-- title: Mcp Integrations
+- title: Mcp integrations
   path: references/mcp-integrations.md
-- title: Output Formats
+- title: Output formats
   path: references/output-formats.md
-- title: Playbook Deviation Scoring
+- title: Playbook deviation scoring
   path: references/playbook-deviation-scoring.md
-- title: Playbook Ingestion
+- title: Playbook ingestion
   path: references/playbook-ingestion.md
-- title: Playbook Schema
+- title: Playbook schema
   path: references/playbook-schema.md
-- title: Priority Matrix
+- title: Priority matrix
   path: references/priority-matrix.md
-- title: Security And Privacy
+- title: Security and privacy
   path: references/security-and-privacy.md
-- title: Setup And Persistence
+- title: Setup and persistence
   path: references/setup-and-persistence.md
-- title: Subagent Orchestration
+- title: Subagent orchestration
   path: references/subagent-orchestration.md
-- title: Test Plan
+- title: Test plan
   path: references/test-plan.md
-- title: Workflow State Machine
+- title: Workflow state machine
   path: references/workflow-state-machine.md
 ---
 
 # Contract Intelligence & Workflow Reviewer
-
 
 Use this skill when the user needs a full contract workflow: review, redline package, negotiation plan, fallback positions, approval routing, clause research, drafting, summarization, or a machine-readable next action.
 

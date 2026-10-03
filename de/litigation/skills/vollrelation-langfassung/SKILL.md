@@ -1,11 +1,11 @@
 ---
 name: vollrelation-langfassung
 title: Vollrelation Langfassung - Schulstandard für Prüfung
-description: 'Vollständige Relation im Schulstandard für Referendar-/Assessorprüfung ausformulieren: Kandidat benoetigt Langfassung mit gutachterlichem Stil. Normen: §§ 253 ff. und 286 und 313 ZPO. Prüfraster: Sachbericht, Auslegung Streitgegenstand, jede Station (Zulässigkeit, Schluessigkeit, Erheblichkeit, Replik, Beweisstation, Tenorierung) als eigener Abschnitt mit ORSA (Obersatz, Regel, Subsumtion, Abschluss). Output Vollrelation bis 20 Seiten, alle Stationen. Abgrenzung: Kurzfassung für Praxis siehe relation-zivil; Schulung siehe schulung-urteilsbauer.'
+description: 'Für Vollrelation Langfassung - Schulstandard für Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/vollrelation-langfassung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -16,7 +16,7 @@ language: de
 
 **Vorsicht: hiermit bitte nicht mogeln im Studium.** Dieser Skill schreibt eine ausformulierte Vollrelation auf Prüfungsstandard. Genau deswegen ist die Verwendung als eingereichte Klausur- oder Hausarbeitsleistung im juristischen Vorbereitungsdienst eine Prüfungstaeuschung (Paragraf 14 JAG NRW Paragraf 12 JAPO Bayern und vergleichbare Vorschriften der Länder). Folge: Nichtbestehen Aberkennung Disziplinarverfahren. Erlaubt und sinnvoll: Erst selbst schreiben dann mit dieser Vollrelation abgleichen und Schwaechen finden.
 
-Dieser Skill schreibt eine ausformulierte Vollrelation in der Form wie sie im Referendariat und in der Assessor/-innen-Prüfung verlangt wird. Im Gegensatz zur Praxis-Kurzform werden alle Stationen ausgeschrieben als Fliesstext mit Obersatz Definition Subsumtion Ergebnis (Gutachtenstil im Sachverhalt-Teil; Urteilsstil nur dort wo am Ende übernommen wird).
+Dieser Skill schreibt eine ausformulierte Vollrelation in der Form wie sie im Referendariat und in der Assessoren-Prüfung verlangt wird. Im Gegensatz zur Praxis-Kurzform werden alle Stationen ausgeschrieben als Fliesstext mit Obersatz Definition Subsumtion Ergebnis (Gutachtenstil im Sachverhalt-Teil; Urteilsstil nur dort wo am Ende übernommen wird).
 
 Laenge: 8 bis 20 Seiten je nach Aktenumfang. Schreibstil: gutachterlich klar normverankert. Jedes Zitat einer Norm in der Form **Paragraf 433 BGB** oder **Artikel 35 CISG**.
 
@@ -34,11 +34,11 @@ Genau bezeichnen welcher Streitgegenstand vorliegt. Bei Klagehaeufung jeden Antr
 
 ### Teil C Zulässigkeit
 
-Jeden Pruefpunkt mit eigenem Absatz. Beispielstruktur:
+Jeden Prüfpunkt mit eigenem Absatz. Beispielstruktur:
 
 > **Internationale Zuständigkeit.** Die internationale Zuständigkeit deutscher Gerichte ergibt sich aus Artikel 7 Nummer 1 b der Verordnung Nummer 1215 2012 (EuGVVO). Danach kann eine Person die ihren Wohnsitz im Hoheitsgebiet eines Mitgliedstaats hat in einem anderen Mitgliedstaat vor dem Gericht des Erfüllungsorts verklagt werden. Erfüllungsort ist nach Artikel 7 Nummer 1 b erster Spiegelstrich der Ort der vertraglichen Lieferung. Hier wurde die Brille nach Hamburg geliefert. Die internationale Zuständigkeit ist gegeben.
 
-Für jeden Pruefpunkt einen solchen Absatz schreiben. Bei nicht problematischen Punkten kurz halten (eine Zeile genuegt).
+Für jeden Prüfpunkt einen solchen Absatz schreiben. Bei nicht problematischen Punkten kurz halten (eine Zeile genuegt).
 
 ### Teil D Schlüssigkeit
 
@@ -112,7 +112,3 @@ Fragenkatalog am Ende:
 - Indikativ für Unstreitiges (Die Klägerin hat die Brille am 19. Februar 2026 erhalten).
 - Normzitate ausgeschrieben (Paragraf 433 Absatz 1 Satz 1 BGB).
 - Keine Abkürzungen wie BGH BVerfG sondern Bundesgerichtshof Bundesverfassungsgericht beim ersten Auftreten ausschreiben.
-
-## Ausgabeformat
-
-Markdown mit klaren Hierarchien (## A Sachbericht ## B Auslegung ...). Bei DOCX-Render-Wunsch kann das Ergebnis mit dem Skill `dokumente-rendern-urteil-docx` als Relations-Dokument im Schul-Layout ausgegeben werden (separater Modus --typ relation).

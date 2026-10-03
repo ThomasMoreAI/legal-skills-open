@@ -1,11 +1,11 @@
 ---
 name: patent-application-creator
 title: Patent Application Creator Skill
-description: Complete end-to-end patent application creation from invention disclosure to USPTO-ready filing - prior art search, claims drafting, specification writing, diagrams, compliance checking
+description: End-to-end patent campaign from ANY raw material ("here is some information; make a patent") to a filing-ready provisional package - invention mining, worth-it economics (design-around cost, detectability), exhaustive adversarial prior art, claims-first drafting, machine-verified compliance, hostile-examiner attack pass, and an honest no-go when nothing clears the bar or the fence is not worth the money
 author: RobThePCGuy
 author_url: https://github.com/RobThePCGuy/Claude-Patent-Creator/tree/main/skills/patent-application-creator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip
@@ -14,413 +14,317 @@ language: en
 
 # Patent Application Creator Skill
 
-Complete end-to-end patent application creation from invention disclosure to USPTO-ready filing.
-
-## When to Use
-
-Invoke this skill when users ask to:
-- Create a complete patent application
-- Draft a provisional patent application
-- Prepare a utility patent application
-- Write patent claims and specification
-- Generate a full patent filing package
-
-## What This Skill Does
-
-Orchestrates the complete patent creation workflow:
-
-1. **Prior Art Search** → Identify existing patents
-2. **Claims Drafting** → Write independent and dependent claims
-3. **Specification Writing** → Create detailed description
-4. **Diagram Generation** → Produce technical figures
-5. **Abstract Creation** → Write concise summary
-6. **Compliance Checking** → Validate USPTO requirements
-7. **IDS Preparation** → List prior art for disclosure
-
-## Complete Workflow
-
-### Phase 1: Discovery & Research (15-30 min)
-
-1. **Invention Interview**:
-   - Get detailed invention description from user
-   - Extract key features and novel aspects
-   - Identify problem being solved
-   - List all components/steps
-
-2. **Prior Art Search**:
-   - Use **Prior Art Search** skill (7-step methodology)
-   - Find 10-20 most relevant patents
-   - Document key differences
-   - Assess patentability
-
-3. **Technology Landscape**:
-   - Identify CPC classifications
-   - Review competing approaches
-   - Find terminology used in field
-
-**Output**: Research summary with prior art analysis
-
----
-
-### Phase 2: Claims Drafting (20-40 min)
-
-1. **Claim Strategy**:
-   - Define claim scope based on prior art
-   - Identify distinguishing features
-   - Plan independent/dependent structure
-   - Choose claim types (system, method, etc.)
-
-2. **Independent Claims**:
-   - Draft 1-3 broad independent claims
-   - Use preamble-transition-body structure
-   - Include all essential elements
-   - Distinguish from prior art
-
-3. **Dependent Claims**:
-   - Add 10-20 dependent claims
-   - Cover specific implementations
-   - Add fall-back positions
-   - Include preferred embodiments
-
-4. **Claim Review**:
-   - Use **Patent Claims Analyzer** skill
-   - Check antecedent basis
-   - Fix definiteness issues
-   - Validate dependencies
-
-**Output**: Complete claims section (20-25 claims)
-
----
-
-### Phase 3: Specification Writing (40-90 min)
-
-1. **Title**:
-   - Clear, descriptive (< 500 characters)
-   - Matches invention scope
-   - Includes key technology terms
-
-2. **Field of the Invention**:
-   - 1-2 paragraphs
-   - Describe technical field
-   - Reference relevant classifications
-
-3. **Background**:
-   - Problem statement (2-3 paragraphs)
-   - Limitations of existing solutions
-   - Need for invention
-   - Cite prior art from search
-
-4. **Summary**:
-   - High-level description (3-5 paragraphs)
-   - Main features and advantages
-   - How it solves the problem
-   - Independent claims in prose
-
-5. **Brief Description of Drawings**:
-   - List each figure
-   - One sentence per figure
-   - Reference numbers introduced
-
-6. **Detailed Description**:
-   - Complete description of all embodiments
-   - Multiple embodiments (preferred + variations)
-   - Step-by-step for methods
-   - Component-by-component for systems
-   - Reference numbers throughout
-   - Support ALL claim elements (35 USC 112(a))
-
-7. **Examples/Embodiments**:
-   - Specific implementations
-   - Working examples
-   - Alternative designs
-
-8. **Advantages/Benefits**:
-   - List key advantages
-   - Explain improvements over prior art
-
-9. **Specification Review**:
-   - Use **Patent Claims Analyzer** skill (specification mode)
-   - Verify all claims are supported
-   - Check enablement
-   - Validate completeness
-
-**Output**: Complete specification (20-50 pages)
-
----
-
-### Phase 4: Diagrams & Figures (15-30 min)
-
-1. **Identify Figures Needed**:
-   - System block diagrams
-   - Method flowcharts
-   - Component details
-   - Alternative embodiments
-
-2. **Generate Diagrams**:
-   - Use **Patent Diagram Generator** skill
-   - Create all required figures
-   - Add reference numbers (10, 20, 30...)
-   - Ensure clarity
-
-3. **Figure Descriptions**:
-   - Write detailed figure descriptions
-   - Explain all reference numbers
-   - Describe relationships between components
-
-**Output**: 3-10 patent figures (SVG/PNG/PDF)
-
----
-
-### Phase 5: Abstract & Front Matter (10-15 min)
-
-1. **Abstract**:
-   - 50-150 words (USPTO requirement)
-   - Single paragraph
-   - No claim limitations
-   - Broad technical description
-
-2. **Title Page Info**:
-   - Inventors
-   - Assignee
-   - Correspondence address
-   - Prior applications (if any)
-
-3. **Cross-References**:
-   - Related applications
-   - Priority claims
-   - Provisional references
-
-**Output**: Complete front matter
-
----
-
-### Phase 6: Compliance & Validation (15-20 min)
-
-1. **Formalities Check**:
-   - Use **Patent Claims Analyzer** skill (formalities mode)
-   - Abstract length: 50-150 words
-   - Title length: < 500 characters
-   - Required sections present
-   - Drawing references valid
-
-2. **Claims Compliance**:
-   - 35 USC 112(b) definiteness
-   - Antecedent basis correct
-   - No indefinite terms
-   - Proper dependencies
-
-3. **Specification Compliance**:
-   - 35 USC 112(a) written description
-   - Enablement complete
-   - Best mode disclosed
-   - All claims supported
-
-4. **MPEP Guidance**:
-   - Use **MPEP Search** skill
-   - Verify format requirements
-   - Check section 608 compliance
-   - Review any special requirements
-
-**Output**: Compliance report with fixes
-
----
-
-### Phase 7: Final Assembly (10-15 min)
-
-1. **Document Assembly**:
-   - Title page
-   - Abstract
-   - Drawings (brief description)
-   - Specification
-   - Claims
-   - Abstract (at end)
-
-2. **IDS Preparation**:
-   - List all prior art from search
-   - Include publication numbers
-   - Add filing/grant dates
-   - Note relevance
-
-3. **Filing Package**:
-   - Specification document
-   - Claims document
-   - Figures (separate files)
-   - IDS form data
-   - Assignment (if applicable)
-
-**Output**: USPTO-ready filing package
-
----
-
-## Document Templates
-
-### Specification Structure
-
-```markdown
-[TITLE]
-
-FIELD OF THE INVENTION
-
-[Technical field description]
-
-BACKGROUND
-
-[Problem statement and prior art]
-
-SUMMARY
-
-[High-level invention description]
-
-BRIEF DESCRIPTION OF THE DRAWINGS
-
-FIG. 1 illustrates...
-FIG. 2 shows...
-FIG. 3 depicts...
-
-DETAILED DESCRIPTION
-
-[Comprehensive description with reference numbers]
-
-First Embodiment
-
-[Detailed description of main embodiment]
-
-Second Embodiment
-
-[Alternative embodiment]
-
-Examples
-
-[Working examples]
-
-ADVANTAGES
-
-[Key benefits and improvements]
-
-CONCLUSION
-
-[Broad scope statement]
-
-CLAIMS
-
-[Claims section]
-```
-
-### Claims Structure
-
-```
-What is claimed is:
-
-1. A [system/method/apparatus] for [purpose], comprising:
-    a [first element];
-    a [second element]; and
-    wherein [novel relationship/function].
-
-2. The [system/method/apparatus] of claim 1, wherein [additional limitation].
-
-3. The [system/method/apparatus] of claim 1, wherein [alternative limitation].
-
-...
-
-[Continue through all claims]
-```
-
-## Quality Checklist
-
-Before finalizing, verify:
-
-- [ ] Prior art search completed (Top 10 documented)
-- [ ] Claims drafted (1-3 independent, 10-20 dependent)
-- [ ] Specification written (20+ pages)
-- [ ] All claim elements supported in specification
-- [ ] Diagrams created (3+ figures with reference numbers)
-- [ ] Abstract written (50-150 words)
-- [ ] Title created (< 500 characters)
-- [ ] Antecedent basis checked (no critical issues)
-- [ ] Definiteness verified (no indefinite terms)
-- [ ] Enablement complete (sufficient detail)
-- [ ] Formalities compliant (MPEP 608)
-- [ ] IDS list prepared (all prior art included)
-- [ ] Figures match description
-- [ ] Reference numbers consistent
-- [ ] USPTO format requirements met
-
-## File Organization
-
-```
-patent-application/
-├── 01-research/
-│   ├── prior-art-search.md
-│   ├── top-10-patents.md
-│   └── patentability-assessment.md
-├── 02-claims/
-│   ├── claims-draft-v1.md
-│   ├── claims-final.md
-│   └── claims-analysis-report.md
-├── 03-specification/
-│   ├── specification-outline.md
-│   ├── specification-full.md
-│   └── specification-review.md
-├── 04-diagrams/
-│   ├── fig1-system-diagram.svg
-│   ├── fig2-method-flowchart.svg
-│   ├── fig3-component-detail.svg
-│   └── figures-list.md
-├── 05-front-matter/
-│   ├── abstract.md
-│   ├── title.md
-│   └── bibliographic-data.md
-├── 06-compliance/
-│   ├── formalities-check.md
-│   ├── claims-compliance.md
-│   └── spec-compliance.md
-└── 07-filing-package/
-    ├── complete-specification.pdf
-    ├── claims.pdf
-    ├── drawings.pdf
-    └── ids-list.md
-```
-
-## Integration with Other Skills
-
-This workflow orchestrates:
-- **Prior Art Search** skill (Phase 1)
-- **Patent Claims Analyzer** skill (Phase 2, 6)
-- **Patent Diagram Generator** skill (Phase 4)
-- **MPEP Search** skill (Phase 6)
-- **BigQuery Patent Search** skill (Phase 1)
-
-## Estimated Timeline
-
-**Provisional Application** (Lighter requirements):
-- Research: 15 min
-- Claims: 20 min
-- Specification: 40 min
-- Diagrams: 15 min
-- **Total: ~90 minutes**
-
-**Utility Application** (Full formal requirements):
-- Research: 30 min
-- Claims: 40 min
-- Specification: 90 min
-- Diagrams: 30 min
-- Compliance: 20 min
-- **Total: ~3.5 hours**
-
-## User Interaction Points
-
-Throughout the workflow, pause to:
-
-1. **After Research**: Present patentability assessment, ask if should proceed
-2. **After Claims**: Show draft claims, get feedback on scope
-3. **After Specification Outline**: Review structure before full writing
-4. **After Diagrams**: Confirm figures match invention description
-5. **After Compliance**: Show any issues found, make fixes
-6. **Before Final**: Present complete package for review
-
-## Tools Available
-
-- **Bash**: Run Python tools for search, analysis
-- **Write**: Save all documents and sections
-- **Read**: Load user invention descriptions, prior art
-- **Grep**: Search through generated content
+Run a complete patent campaign: take whatever the user has — a codebase, an
+invention disclosure, scattered notes — and either produce a filing-ready
+provisional package or a reasoned, evidence-backed explanation of why not.
+
+This workflow was hardened by running it for real (a full campaign over a
+production codebase, July 2026). Every phase below exists because skipping
+it cost something in that campaign.
+
+## The contract
+
+- **The honest outcome is the deliverable.** "Nothing here clears the
+  novelty bar, and here is the prior art that kills each candidate" is a
+  SUCCESS, not a failure. So is "this is patentable but not worth your
+  money — file nothing, or publish defensively." Never inflate a weak
+  candidate.
+- **The campaign guards the user's money, not just their filing.** The
+  population this tool serves cannot afford a technically perfect package
+  for a commercially worthless patent. The worth-it question is asked
+  BEFORE the expensive phases and re-asked every time the claims narrow —
+  a campaign that only discovers "small fence" at the end has already
+  spent the user's budget answering the wrong question.
+- **Machine checks gate, humans verify.** Every automated finding marked
+  LOW confidence gets manual verification; every clean bill of health names
+  the checks that ran AND the checks that were skipped.
+- **Dates matter.** Prior art is being published continuously; note recency
+  threats found during the sweep and say so in the package. Filing sooner
+  beats polishing longer for a provisional.
+- **The AI is never the inventor.** The user is. The AI mines, searches,
+  drafts, and verifies; the user's creation is what gets protected.
+
+## Phase 0 — Intake (any raw material)
+
+Accept the rough ask as-is. If the material is a codebase, do NOT ask for a
+disclosure — mining is Phase 1's job. Ask only what cannot be derived:
+inventor name(s), and whether any of it has been publicly disclosed or sold
+(statutory bar dates). Then AUDIT the inventor's own public footprint —
+released products, demos, public repositories, marketing pages — and record
+first-disclosure dates: the inventor's own disclosures start the US
+grace-period clock and can immediately forfeit foreign rights. Do this
+before drafting, not after.
+
+## Phase 1 — Invention mining
+
+Hunt CONCRETE TECHNICAL MECHANISMS, not features. For a codebase, fan out
+readers (one per subsystem) with this lens: a candidate must be (a) specific
+and implemented, (b) solving a technical problem, (c) arguably
+unconventional — never textbook auth/CRUD/caching. For each candidate
+capture: mechanism (how, not what), evidence location, problem solved,
+conventional alternative beaten, why the difference is non-obvious.
+
+Then triage (kill/pursue) with these screens:
+
+- **Section 101 screen**: billing, commerce, and organizing-human-activity
+  subject matter draws Alice rejections regardless of cleverness —
+  deprioritize.
+- **Crowded-field screen**: thread pools, retries, distributed sync,
+  testing methods — demand an unusual twist or kill.
+- **Unification screen**: look for ONE principle several candidates
+  instantiate; a system claim with multiple embodiments beats scattered
+  small claims.
+
+## Phase 1-H — History mining (when the material is a git repository)
+
+The current code shows WHAT exists; history shows what it BEAT, how hard
+it was, and when — and it holds mechanisms that no reader of HEAD can ever
+find, because they died in abandoned branches. For an inventor who rebuilds
+often, the abandoned branches are where the cleanest ground lives: **a
+mechanism that never merged never deployed, so it has no disclosure clock
+running and full foreign rights intact.** Run this pass alongside the
+Phase 1 code mining whenever the raw material has git history.
+
+The funnel (validated on a real 808-commit, 9-branch + 92-PR-ref repo:
+~2.5M agent tokens, minutes of wall clock):
+
+1. **Enumerate everything.** Mirror-clone; fetch `+refs/pull/*/head` too.
+   `git rev-list --all` is the universe. State the limit honestly: a host
+   only serves commits still reachable from refs — force-pushed-away
+   history is gone, so the stamp says "what the host still has," never
+   "all that ever existed."
+2. **Collapse by patch-id.** `git rev-list --all | git diff-tree --stdin
+   -p -r | git patch-id --stable` — cherry-picks and rebases across
+   hundreds of branches collapse to one entry each. Cost scales with
+   unique patches, not branches. (Do NOT pass `--no-commit-id`; patch-id
+   needs the commit lines to attribute patches.)
+3. **Mechanical triage into NAMED buckets.** Exclude noise subjects
+   (deps/docs/merges), lockfile/binary-only patches, and tiny diffs —
+   every exclusion lands in a bucket with its subject recorded. Coverage
+   must stay arithmetic: universe = read + excluded, reconcilable.
+4. **Read EVERY survivor.** Batch patches (~30/agent, diffs capped
+   ~7KB with the cap disclosed) and require each reader to return one
+   verdict per patch AND the count of patches it saw — reconcile counts
+   per batch. MECHANISM vs ROUTINE, with "what conventional approach the
+   diff replaces" captured. Instruct readers explicitly: NEVER downgrade
+   abandoned or unfinished work — abandoned cleverness is the target.
+5. **Cluster and locate.** Same mechanism across many commits is one
+   cluster. For each needle: `git branch --contains` and reachability
+   against the default branch, then verify against the SHIPPED code
+   whether the mechanism migrated (a bridge branch can make "stranded"
+   commits' content live elsewhere — check the deployed source, not the
+   branch topology). Only "absent from everything shipped" earns the
+   no-disclosure-clock label.
+6. **Second adversarial pass until dry.** One lens misses; re-read the
+   ROUTINE pile with a "what did pass 1 misjudge?" prompt until a pass
+   finds nothing new.
+
+History also supplies what HEAD cannot: the diff shows the conventional
+alternative being replaced (Phase 1's hardest field to fill), a string of
+failed attempts before the breakthrough is objective non-obviousness
+evidence, and commit dates + authorship are conception records. Feed the
+surviving needles into the Phase 1 triage screens (including worth-it)
+like any other candidate.
+
+## Phase 2 — Prior art: every outlet, adversarially
+
+Patents alone are NOT sufficient for software: the killing art usually
+lives in products, open source, standards, and papers. Sweep ALL of:
+
+1. **Patents**: `search_patents_bigquery` (keyword search is term-AND, so
+   3-4 terms max), `search_patents_by_cpc_bigquery` (identify the CPC
+   classes first), Google Patents pages for deep reads (free). Cost
+   awareness: a default keyword search scans roughly 325 GiB (about $2
+   billed, or a third of a sandbox project's free month).
+2. **Non-patent literature**: fan out adversarial web-research agents per
+   claim cluster, each instructed to KILL the claim: products (what do the
+   incumbent writing/coding assistants actually do?), open source (read
+   the code), standards bodies, arXiv, engineering blogs.
+3. Instruct every agent to return per-item verdicts: "what ours has that
+   this lacks" or "ANTICIPATES". Aggregate into: CLEAN GROUND (recite in
+   independent claims), KILL ZONES (never claim alone), MANDATORY CLAIM
+   READS (references an attorney must read before the utility filing),
+   and UNRESOLVED LEADS (bot-blocked pages and the like — escalate to the
+   user, never silently drop).
+
+**Language discipline (non-negotiable).** Sweep results support only
+statements of the form "no anticipation found in [outlets searched] as of
+[date]" backed by a dated element-by-element chart. Never write "nobody",
+"no art exists", "swept clean", or "survives" as facts — an agent's read of
+a repository is a snapshot of an evolving codebase, and a second read weeks
+later can contradict it. And a date rule that is easy to get wrong under
+urgency: **published third-party art can never be outrun.** Anything
+already public is prior art against any later filing, grace period or not;
+filing-urgency arguments apply only to disclosures that have not happened
+yet.
+
+Decision gate: if no candidate has clean ground, write the no-go report
+(candidates, killing references, per-candidate reasoning) and STOP. That
+report is the deliverable. Then re-run the worth-it screen on each
+survivor AT ITS POST-SWEEP WIDTH: the clean ground is always narrower
+than the Phase 1 candidate, and the question is whether the SMALLER
+fence still costs a competitor anything. A survivor that is now avoidable
+by an obvious variant goes in the no-go report too — with its design-around
+named, and with the defensive-publication alternative stated (near-free,
+permanent, kills later third-party patents on the same mechanism).
+
+## Phase 3 — Claims-first drafting
+
+Draft claims BEFORE the specification; the clean ground dictates them.
+
+- Each independent claim's load-bearing limitation must be an element the
+  sweep found nowhere. Elements found in isolation go in dependents.
+- Proper form: "The method of claim N, wherein ..." — never shorthand
+  (the analyzer's dependency tracking and the examiner both need it).
+- Consistent terms: introduce with "a/an", reference with "the" using the
+  IDENTICAL noun phrase.
+- Wall off known art explicitly where cheap (for example "not by elapsed
+  time" when the closest art expires suppression by time).
+- **Track the shrinking yard.** Every wall-off and every narrowing
+  amendment (here and again after the Phase 5 attack pass) makes the
+  claim easier to design around. After the attack pass settles the final
+  claim shape, re-run the worth-it screen one last time on what actually
+  survived; record the verdict (design-around cost, detectability,
+  provisional-vs-defensive-publication recommendation) in the package
+  README so the user decides about the patent they can GET, not the one
+  they imagined.
+
+Then the specification: field, background (the problems, framed
+technically), summary (one paragraph per independent claim), brief
+description of drawings, detailed description covering EVERY embodiment
+with reference numerals, reduction to practice, and a variations paragraph
+(broaden: any model, any similarity metric, thresholds exemplary). The spec
+must contain each claim term VERBATIM — the support checker verifies this.
+
+**Source-verified claims (mandatory).** Every limitation of every claim
+must be verified against the IMPLEMENTATION itself — open the code — not
+against a mining agent's summary and not against header comments, which go
+stale (a real campaign found a contract doc describing closest-match
+relocation while the executable body below it contained an ambiguity-
+refusal gate; the claim drafted from the summary was wrong in a way that
+contradicted the specification). The reduction to practice is the tiebreak
+for what claims, spec, and figures must all say — and they must all say
+the SAME algorithm, or each variant must be expressly a separate
+embodiment. Never claim behavior the implementation does not have (a
+"valid result of a preservation-type plan" reclassification that the code
+never performs is new matter waiting to be rejected).
+
+**Terminal-state completeness.** Any specification asserting deterministic
+termination, bounded retries, or guaranteed outcomes must enumerate EVERY
+terminal state and every budget transition — including the unglamorous
+ones (mechanical exhaustion, global overrun backstops) — and the figure
+must show every branch with labeled edges.
+
+Figures: `create_block_diagram` for the system (numbered components
+matching the spec), `render_diagram` with hand-written DOT per independent
+claim so decision branches carry Yes/No edge labels (`create_flowchart`
+does not label edges), with reference numerals on every node.
+
+## Phase 4 — Machine verification loop (iterate to clean)
+
+1. `patent-creator config set PATENT_ENABLE_ANTECEDENT_CHECK 1` — the
+   antecedent check is opt-in; a campaign MUST run it.
+2. `review_patent_claims` on the full claim set. Fix genuine findings
+   (form, term drift); manually verify each remaining LOW-confidence flag
+   and record the verdicts — that manual pass is part of the workflow, not
+   optional.
+3. `review_specification` (claims + spec) — iterate until ZERO critical
+   issues: every flagged claim element gets woven into the spec verbatim.
+4. `check_formalities` (abstract 50-150 words, title limits, sections).
+
+**Verification stamps carry content hashes, and edits invalidate them.**
+Every recorded check result must state the SHA-256 (or equivalent) of the
+exact artifact text it checked. Any subsequent edit — adding one claim,
+touching one sentence — invalidates every stamp on that artifact; re-run
+the checks before packaging. A README that says "verified" about an
+artifact edited after its verification is the single most damaging
+falsehood a package can carry, because a reviewer who catches it stops
+trusting everything else. (This is the same input-fingerprint discipline
+the campaign's own subject matter implements for AI scans; apply it to
+yourself.)
+
+## Phase 5 — Two red teams, not one
+
+**5a. Hostile-examiner attack pass (claims).** Spawn adversarial agents
+playing USPTO examiner against the final claims, armed with the sweep's
+closest references: strongest anticipation (102) argument, strongest
+obviousness (103) combination with per-limitation reference mapping and
+motivation to combine, and the Alice (101) attack plus its
+technical-solution counter. If an attack lands, narrow the claim or move
+the defeated element to a dependent — then re-run Phase 4 on the changed
+claims.
+
+**5b. Package red team (the whole artifact).** Attacking the claims is not
+enough: a package can have perfect claims and still be unfit to file.
+First run the deterministic gate: `check_package` on the assembled
+directory. It recomputes every content-hash verification stamp (an edit
+after a recorded check is a critical failure), cross-checks claim counts
+against every "N claims" assertion, flags readiness language beside draft
+markers, catches commentary inside filing copies, and sanity-checks
+dates. Fix every critical before spending reviewer effort. Then hand
+the ASSEMBLED package — every file, nothing else — to a fresh adversarial
+reviewer with zero campaign context, tasked to find: internal
+contradictions between README, claims, spec, and figures; statements of
+verification that the artifacts themselves contradict; stamps that predate
+edits; date errors; strategy commentary that must not be filed; sweeping
+prior-art characterizations; and unsupported claim language. Nothing may
+be described as filing-ready until the package red team passes. (A real
+campaign's package — claims attacked and hardened — was caught by exactly
+this kind of fresh-eyes review with a stale "not yet compliance-checked"
+header beside a README saying "verified," a claim added after its recorded
+check, and three artifacts describing three different reconciliation
+algorithms. The claims red team caught none of that, because none of it
+was a claims problem.)
+
+## Phase 6 — Package
+
+**Working copies and filing copies are separate files, and the filing
+copies are generated mechanically.** Filing documents contain claims and
+disclosure text only — zero bracketed strategy notes, zero checker scores,
+zero "vs art" commentary, zero next-steps sections, zero restriction
+strategy. Backgrounds make no categorical admissions about prior art
+("known to the inventor" phrasing, not "no system does X"). Generate the
+filing copy by stripping the working copy with a script, then diff-check
+that nothing but claims/disclosure text remains.
+
+A filing directory containing: specification and claims (filing copies),
+figures (converted to PDF meeting Patent Center requirements — letter/A4,
+embedded fonts, visually inspected after conversion; printing SVGs from a
+browser is not a QC process), the SB/16 cover sheet data (inventor
+residence, correspondence address), micro-entity certification if claimed
+(note: gross-income basis also requires small-entity eligibility, the
+counted-application limit, and qualification of ownership-interest
+holders), and a README with the pro-se provisional path and the 12-month
+utility clock, plus the mandatory-claim-read list and unresolved leads for
+the eventual attorney review. State plainly what the package is: a
+provisional built so the human legal review is fast — not a substitute for
+it — and state its verification status with content-hashed stamps, never
+with the word "verified" alone.
+
+## Failure modes this workflow exists to prevent
+
+- Trusting a disclosure interview when the invention is in the code.
+- Patents-only prior art (the killing reference is usually a product).
+- Claiming an element the sweep found (it goes in a dependent, or dies).
+- "100% compliant" reports with the load-bearing check silently off.
+- Spec paraphrasing claim terms (support gaps surface in prosecution).
+- Polishing past a publishing competitor (date pressure is real).
+- Shipping a weak application instead of an honest no-go.
+- A README that says "verified" about artifacts edited after the check
+  (stamps without content hashes are lies waiting to be discovered).
+- Claims drafted from an agent's summary instead of the source, or from a
+  stale header comment instead of the executable body.
+- Claims, specification, and figures describing three different versions
+  of the same algorithm.
+- Claim language describing behavior the implementation does not have.
+- "Deterministic termination" asserted without enumerating every terminal
+  state.
+- "File before X" urgency about art that is already published (it cannot
+  be outrun; only future art can).
+- Strategy commentary, checker scores, and novelty absolutes left inside
+  documents headed for the Patent Office.
+- Attacking only the claims and never the assembled package.
+- Spending the budget proving a claim patentable without ever asking
+  whether the resulting fence is worth owning — worth-it is asked at
+  triage, re-asked when the sweeps narrow the ground, and re-asked when
+  the attack pass narrows the claims.

@@ -1,11 +1,11 @@
 ---
 name: audit-archive
 title: 'Phase 6: Archive'
-description: Archives non-permanent URLs in legal document footnotes using the perma.cc API, then writes the resulting perma.cc links back to the DOCX file. Use this during a Bluebook audit workflow after footnote data has been extracted.
+description: Use when archiving footnote URLs to perma.cc during a Bluebook footnote audit - 'archive the links', 'perma the URLs', 'these links will rot', 'add perma.cc archives to the footnotes', 'the journal wants archived URLs', or reaching Phase 6 of a bluebook-audit run.
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/bluebook-audit/skills/audit-archive
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -13,6 +13,9 @@ language: en
 ---
 
 # Phase 6: Archive
+
+**What this skill carries** — grep `references/` for any subject the names below miss:
+!`d=${CLAUDE_SKILL_DIR}; command -v skill-toc >/dev/null 2>&1 && exec skill-toc "$d"; s=$HOME/.claude/skills/plugin-utils/bin/skill-toc; [ -x "$s" ] && exec "$s" "$d"; echo "(skill-toc unavailable: references and scripts are NOT listed here — install the plugin-utils plugin, or start a new session so its bin/ reaches PATH)"`
 
 Archive all non-permanent URLs in footnotes via perma.cc API.
 

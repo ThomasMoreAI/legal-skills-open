@@ -1,0 +1,53 @@
+---
+name: agb-im-konzernverbund
+title: Agb Im Konzernverbund
+description: 'Für AGB im Konzernverbund: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/agb-recht-pruefer/skills/agb-im-konzernverbund
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Agb Im Konzernverbund
+
+## Fachkern: Agb Im Konzernverbund
+
+- **Klauselproblem (Agb Im Konzernverbund):** Cash-Pooling Cross-Cluster-Services Konzernverrechnungspreise und § 307 BGB. Liefert Prüfraster.
+- **AGB-Weiche:** Einbeziehung (§ 305 BGB), überraschende Klausel (§ 305c BGB), Transparenz (§ 307 Abs. 1 S. 2 BGB), Inhaltskontrolle (§§ 307-309 BGB), Rechtsfolge (§ 306 BGB) und Prozess-/Verbandsrisiko sauber trennen.
+- **Beleglogik:** Originalklausel, Vertragsumfeld, Verwendungsnachweis, Verhandlungsspuren, Kundengruppe, Marktstandard und wirtschaftliche Wirkung als Matrix erfassen.
+- **Arbeitsprodukt:** Klauselampel, Redline, Ersatzformulierung, Verhandlungsposition und gerichtsfeste Kurzbegründung mit Live-Check amtlicher Normenquellen.
+
+## Norm
+
+- § 305 Abs. 1 BGB: AGB-Eigenschaft setzt Stellung für "Vielzahl von Vertraegen" voraus.
+- In Konzernvertraegen oft vorformuliert, aber individuell ausgehandelt.
+- § 310 Abs. 1 BGB: B2B-Wertungen.
+
+## Typische Konzernklauseln
+
+### Service-Level-Agreements (SLA)
+- Standardisierte Leistungsbeschreibungen mit Sanktionen bei Nichterfuellung.
+- AGB-rechtliche Prüfung der Haftungsbegrenzung.
+
+### Cash-Pooling-Vereinbarungen
+- BGH II ZR 102/07 zu Cash-Pool-Risiken.
+- Haftungsausschluesse müssen § 307 BGB standhalten.
+
+### Konzernverrechnungspreise
+- Steuerlich Transferpreise nach OECD-RL.
+- AGB-rechtlich Transparenzgebot.
+
+### Cross-Cluster-Services
+- Verträge zwischen verschiedenen Konzernteilen über gemeinsame Dienstleistungen (IT, HR, Finance).
+- Standardisierung typisch — § 305 BGB greift.
+
+## Prüfraster
+
+1. Vorformulierung für Vielzahl von Vertraegen?
+2. Individuell ausgehandelt?
+3. § 307 BGB-Risiko?
+4. Steuerliche und kartellrechtliche Wechselwirkung?

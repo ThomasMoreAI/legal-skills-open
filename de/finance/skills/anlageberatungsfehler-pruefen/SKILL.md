@@ -1,22 +1,31 @@
 ---
 name: anlageberatungsfehler-pruefen
-title: Anlageberatungsfehler prüfen
-description: Workflow-Skill zu anlageberatungsfehler pruefen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 'Anlageberatungsfehler Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer bel'
+description: 'Für Anlageberatungsfehler Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/anlageberatungsfehler-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
 language: de
 ---
 
-# Anlageberatungsfehler prüfen
+# Anlageberatungsfehler Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
 
-## Zweck
 
-Schadensersatzansprüche eines Anlegers gegen seine Bank oder einen Vermögensverwalter wegen falscher Anlageberatung. Das praxistypische Mandat im Bankrecht: geschlossene Fonds, Zertifikate, Swaps, Schiffsfonds, Lehman-Papiere oder aktuelle Krypto-Anleihen.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: WpHG; WpIG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Anlageberatungsfehler Prüfen: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu einer belastbaren Prüfung.
+
+### Anlageberatungsfehler prüfen
 
 ## Mandantenfragen — Kaltstart
 
@@ -75,7 +84,7 @@ Vor Versand jeweils Volltext in offener Quelle (juris.bundesgerichtshof.de, deju
 | Gericht | Aktenzeichen | Datum | Kernaussage | Offene Quelle |
 |---|---|---|---|---|
 | BGH XI. ZS | XI ZR 22/24 | 20.5.2025 | Verbraucherdarlehen Immobilien: AGB-Klausel zur Vorfälligkeitsentschädigung muss Berechnung transparent darstellen; intransparente Klausel führt zum Verlust des Anspruchs auf Vorfälligkeitsentschädigung | juris.bundesgerichtshof.de |
-| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Referenzzins für Zinsanpassungen in Prämiensparverträgen (Folgeentscheidung) | bundesgerichtshof.de PM Nr. 225/2025 |
+| BGH XI. ZS | XI ZR 133/24 | 21.10.2025 | Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen; Bedeutung für Widerrufsfrist und Abwicklung | bundesgerichtshof.de |
 | BGH XI. ZS | XI ZR 553/19 | 2024 | Stärkung der Rechte von Darlehensnehmern bei Altforderungen — Volltext und Datum vor Versand verifizieren | juris.bundesgerichtshof.de |
 
 Hinweis: Es gibt keine Praejudizienbindung im deutschen Recht (Ausnahme § 31 BVerfGG). BGH-Linien werden zitiert als Auslegungshilfe, nicht als verbindliches Recht.
@@ -113,14 +122,14 @@ Hinweis: Es gibt keine Praejudizienbindung im deutschen Recht (Ausnahme § 31 BV
 
 ```
 Schaden = Vermögenslage mit Pflichtverletzung
-        ./. Vermögenslage ohne Pflichtverletzung
+ ./. Vermögenslage ohne Pflichtverletzung
 
 Konkret:
-Eingesetztes Kapital inkl. Ausgabeaufschlag:  EUR [Betrag]
-Aktueller Rücknahme-/Verkaufswert:       ./. EUR [Betrag]
-Entgangene Alternativrendite:             ./. EUR [4% × Betrag × Jahre]
-Gezahlter Ausgabeaufschlag / Kosten:       + EUR [Betrag]
-Schadensumme:                              EUR [Netto]
+Eingesetztes Kapital inkl. Ausgabeaufschlag: EUR [Betrag]
+Aktueller Rücknahme-/Verkaufswert: ./. EUR [Betrag]
+Entgangene Alternativrendite: ./. EUR [4% × Betrag × Jahre]
+Gezahlter Ausgabeaufschlag / Kosten: + EUR [Betrag]
+Schadensumme: EUR [Netto]
 ```
 
 ### Methode 2 — Negatives Interesse (Rückabwicklung)
@@ -130,8 +139,8 @@ Anleger gibt Anlage-Gegenstand zurück
 und erhält:
 - Eingesetztes Kapital zurück
 - Entgangene Alternativrendite (typisch 4 % p.a. — konkret darzulegen
-  durch alternative Anlageform; nicht aus Modellwissen pauschalisieren,
-  sondern Vergleichsanlage nachvollziehbar belegen)
+ durch alternative Anlageform; nicht aus Modellwissen pauschalisieren,
+ sondern Vergleichsanlage nachvollziehbar belegen)
 - Anwaltskosten aus Verzug
 ```
 
@@ -172,7 +181,7 @@ und erhält:
 ### Schritt 1 — Außergerichtliches Schreiben
 
 ```
-[Kanzlei]                                            [Ort, Datum]
+[Kanzlei] [Ort, Datum]
 
 [Bank / Vermögensverwalter]
 [Anschrift]
@@ -187,21 +196,21 @@ pflichten aus dem Beratungsgespräch vom [Datum] geltend.
 
 Beratungsfehler:
 1. [Keine anlegergerechte Beratung: Risikoprofil
-   konservativ, empfohlenes Produkt hochriskant]
+ konservativ, empfohlenes Produkt hochriskant]
 2. [Keine Aufklärung über Rückvergütungen in Höhe von
-   EUR [Betrag] (ca. [x] % des Anlagevolumens)]
+ EUR [Betrag] (ca. [x] % des Anlagevolumens)]
 3. [Unzureichende Risikoaufklärung bzgl. Totalverlust]
 
 Schadenshöhe:
-Investiertes Kapital:    EUR [Betrag]
-Aktueller Wert:     ./. EUR [Betrag]
-Entgangene Rendite:  ./. EUR [4% × Betrag × Jahre]
-Gesamtschaden:           EUR [Summe]
+Investiertes Kapital: EUR [Betrag]
+Aktueller Wert: ./. EUR [Betrag]
+Entgangene Rendite: ./. EUR [4% × Betrag × Jahre]
+Gesamtschaden: EUR [Summe]
 
 Ich fordere Sie auf, den Schaden bis zum [Datum + 4 Wochen]
 zu erstatten. Anderenfalls erhebe ich Klage.
 
-[Rechtsanwalt/-anwaeltin, Fachanwalt fuer Bank- und
+[Rechtsanwalt/-anwaeltin, Fachanwalt für Bank- und
 Kapitalmarktrecht]
 ```
 
@@ -219,7 +228,7 @@ Kapitalmarktrecht]
 ## Streitwert und Kosten
 
 - **Streitwert**: Schadensumme + entgangene Zinsen = klageweiser Gesamtanspruch.
-- **LG-Zuständigkeit**: ab 5.000 EUR Streitwert § 23 GVG; Bankrecht-Fälle fast immer LG.
+- Sachliche Zuständigkeit: kapitalmarktrechtliche Sonderzuweisungen zuerst prüfen; sonst Amtsgericht bis einschließlich 10.000 Euro, Landgericht darüber. Weder die Beteiligung einer Bank noch die Bezeichnung als Anlagesache begründet für sich allein eine Landgerichtszuständigkeit.
 - **Kostenrisiko**: Bei 100.000 EUR Streitwert: ca. 7.000 EUR Gerichtsgebühren (3 Instanzen); Anwalt nach RVG.
 - **Ombudsstelle**: kostenfrei, hemmt Verjährung; Empfehlung als erste Stufe wenn Bank ggf. verhandlungsbereit.
 
@@ -237,10 +246,7 @@ Kapitalmarktrecht]
 - MiFID-II Richtlinie 2014/65/EU
 - PRIIPs-VO (EU) Nr. 1286/2014 — KID-Pflicht für verpackte Anlageprodukte
 - Aktuelle Aktenzeichen (Volltext jeweils vor Versand prüfen in juris.bundesgerichtshof.de, dejure.org, openjur.de, curia.europa.eu):
-  - BGH XI ZR 22/24, Urt. v. 20.5.2025 — Vorfälligkeitsentschädigung intransparente AGB
-  - BGH XI ZR 133/24, Urt. v. 21.10.2025 — Referenzzins Prämiensparvertrag
-  - LG Nürnberg-Fürth, Urt. v. 21.2.2025 — PRIIPs-KID Gesamtrisikoindikator bei offenem Immobilienfonds (nicht rechtskräftig; instanzgerichtlich)
+ - BGH XI ZR 22/24, Urt. v. 20.5.2025 — Vorfälligkeitsentschädigung intransparente AGB
+ - BGH XI ZR 133/24, Urt. v. 21.10.2025 — Pflichtangaben und Effektivzins beim Immobiliar-Verbraucherdarlehen
+ - LG Nürnberg-Fürth, Urt. v. 21.2.2025 — PRIIPs-KID Gesamtrisikoindikator bei offenem Immobilienfonds (nicht rechtskräftig; instanzgerichtlich)
 - Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; nicht aus Modellwissen.
-
-<!-- AUDIT 27.05.2026 bundle_021
--->

@@ -1,0 +1,118 @@
+---
+name: inkasso-leasingforderung
+title: Inkasso von Leasingforderungen
+description: 'Für Inkasso von Leasingforderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/leasingrecht-praxis/skills/inkasso-leasingforderung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# Inkasso von Leasingforderungen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Außergerichtliches Mahnverfahren
+
+### Mahnstufenfolge
+1. **1. Mahnung**: Zahlungserinnerung, keine Kosten (Kulanz)
+2. **2. Mahnung**: Setze Frist (z.B. 14 Tage), drohe Inkasso an
+3. **3. Mahnung / Letzte Mahnung**: Kündigung und Klage ankündigen
+4. **Inkasso-Beauftragung** oder **gerichtliches Mahnverfahren**
+
+### Verzugszinsen
+- § 286 BGB: Verzug tritt ein nach Mahnung oder bei kalendarisch bestimmtem Fälligkeitstermin
+- § 288 BGB: Verzugszinsen 5 % über Basiszinssatz (B2C); 9 % über Basiszinssatz (B2B)
+- § 289 BGB: Zinseszinsverbot
+
+### Inkassokosten
+- RDG § 10: Inkassounternehmen darf Kosten nach RVG-Tabelle berechnen
+- Inkassokosten als Verzugsschaden geltend machen (§ 280 I, II BGB)
+
+## Gerichtliches Mahnverfahren (§§ 688 ff. ZPO)
+
+### Antrag auf Mahnbescheid
+- Formular: Bundesweites Online-Mahnportal (egvp.de)
+- Kosten: Gerichtsgebühren nach GKG (günstiger als Klage)
+- Zustellung: Zustellung durch Gericht an Schuldner
+- Widerspruch: Schuldner kann widersprechen (dann → streitiges Verfahren)
+
+### Vollstreckungsbescheid
+- Kein Widerspruch: Vollstreckungsbescheid auf Antrag
+- Vollstreckungsbescheid = Vollstreckungstitel (§ 794 I Nr. 4 ZPO)
+
+## Zwangsvollstreckung (§§ 803 ff. ZPO)
+
+### Pfändungsarten
+
+**Kontopfändung (§§ 828 ff. ZPO)**:
+- Pfändungs- und Überweisungsbeschluss (PfÜB) an Bank
+- Konto P-Konto (§ 850k ZPO): Mindestpfändungsfreigrenze (2024: 1.410 €/Monat)
+
+**Lohnpfändung (§§ 850 ff. ZPO)**:
+- Pfändung des Arbeitseinkommens; Pfändungsfreigrenze beachten
+- Tabelle nach § 850c ZPO: Abhängig von Nettoeinkommen und Unterhaltsverpflichtungen
+
+**Sachpfändung (§§ 808 ff. ZPO)**:
+- Gerichtsvollzieher pfändet bewegliche Sachen beim Schuldner
+- Unpfändbare Sachen: §§ 811 f. ZPO (Gegenstände für Grundbedarf)
+
+### Vermögensauskunft (§ 802a ZPO)
+- Schuldner muss vollständige Vermögensauskunft erteilen
+- Eintragung ins Schuldnerverzeichnis bei Falschaussage oder Nichtzahlung
+
+## Verbraucher: Restschuldbefreiung
+
+- §§ 286 ff. InsO: Privatinsolvenz mit Wohlverhaltensperiode (3 Jahre seit 2021)
+- Restschuldbefreiung: Leasingforderung nach Wohlverhaltensperiode erlischt
+- Ausnahme: Vorsätzliche unerlaubte Handlung (§ 302 Nr. 1 InsO)
+
+## Prüfprogramm
+
+1. Vollständige Forderungsaufstellung: Raten, Zinsen, Kosten?
+2. Außergerichtlich erfolglos? Mahnbescheid-Antrag stellen?
+3. Vollstreckungstitel vorhanden? Vollstreckungsbescheid oder Urteil?
+4. Vermögensauskunft: Was hat Schuldner?
+5. Pfändungsart: Konto, Lohn oder Sachpfändung?
+6. Privatinsolvenz: Restschuldbefreiung zu erwarten?
+
+## Typische Fallen
+
+- Verjährung vergessen (§ 195 BGB: 3 Jahre ab Fälligkeit) → Forderung verjährt
+- P-Konto nicht beachtet → Pfändung scheitert an Freibetrag
+- Restschuldbefreiung nicht geprüft → kostspielige Vollstreckung ohne Ergebnis
+- Vollstreckungsbescheid nicht rechtszeitig vollstreckt → 30-jährige Verjährung läuft ab 2024 nicht mehr automatisch
+
+## Normen und Quellen
+
+- §§ 286–290 BGB (Verzug, Zinsen): https://dejure.org/gesetze/BGB/286.html
+- §§ 688 ff. ZPO (Mahnverfahren): https://www.gesetze-im-internet.de/zpo/__688.html
+- §§ 803 ff. ZPO (Zwangsvollstreckung): https://www.gesetze-im-internet.de/zpo/__803.html
+- § 850c ZPO (Pfändungsfreigrenze): https://www.gesetze-im-internet.de/zpo/__850c.html
+- §§ 286 ff. InsO (Restschuldbefreiung): https://www.gesetze-im-internet.de/inso/__286.html
+- RDG § 10 (Inkassorecht): https://www.gesetze-im-internet.de/rdg/__10.html
+
+## Output-Formate
+
+- **Mahnschreiben-Reihe**: Stufen 1–3 mit Fristen und Ankündigungen
+- **Mahnbescheids-Antrag**: Formularanleitung für egvp.de
+- **Pfändungs-Checkliste**: Konto, Lohn, Sachen – Voraussetzungen und Fristen
+- **Vollstreckungsübersicht**: Schuldner-Vermögen – geeignete Maßnahme
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

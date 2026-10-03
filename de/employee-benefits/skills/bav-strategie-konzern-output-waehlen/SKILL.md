@@ -1,0 +1,56 @@
+---
+name: bav-strategie-konzern-output-waehlen
+title: Output wählen
+description: 'Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: BAV Strategie Konzern — Treuenfels Yamamoto Rechtsanwälte.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bav-strategie-konzern/skills/output-waehlen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employee-benefits
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Output wählen
+
+## Einsatzlage
+
+Diese Output-Weiche für **Bav Strategie Konzern** entscheidet, ob Memo, Antrag, Schriftsatz, Tabelle, Risikoampel, Fragenliste oder Mandantenbrief der richtige nächste Schritt ist.
+
+## Fachlandkarte dieses Plugins
+
+- `altersversorgung-boutique-fristennotiz-psv` — Altersversorgung Boutique Fristennotiz PSV
+- `bav-cta-treuhand-spezial` — BAV CTA Treuhand Spezial
+- `bav-erstattung-fuenftelregelung` — BAV Erstattung Fuenftelregelung
+- `bav-grenzueberschreitend-mobil-spezial` — BAV Grenzueberschreitend Mobil Spezial
+- `bav-konzern-design-workflow` — BAV Konzern Design Workflow
+- `bav-pensionsfond-rueckdeckung-spezial` — BAV Pensionsfond Rueckdeckung Spezial
+- `benefits-mandantenkommunikation-entscheidungsvorlage` — Benefits Mandantenkommunikation Entscheidungsvorlage
+- `betrieblichen-drei-duesseldorfer-sonderfall` — Betrieblichen Drei Duesseldorfer Sonderfall
+- `boutique-fristennotiz-und-naechster-schritt` — Boutique Fristennotiz und Naechster Schritt
+- `buyout-ma-country-by-cta-contractual` — Buyout MA Country BY CTA Contractual
+- `buyouts-quellenkarte` — Buyouts Quellenkarte
+- `country-by-country-benefits-matrix-konzern` — Country BY Country Benefits Matrix Konzern
+- `cta-contractual-trust-arrangement-strukturierung` — CTA Contractual Trust Arrangement Strukturierung
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Ergebnistyp bestimmen: Schriftsatz an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen, Mandantenmemo, Risikobericht, Vertragsentwurf, Entscheidungsvorlage, Behörden-Stellungnahme — was braucht der Mandant wirklich?
+- Pflichtformate festlegen: Tenor / Antrag / Begründung (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis); konkrete Norm-Pinpoints im Bav Strategie Konzern (die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen) einarbeiten.
+- Adressat-Klarheit: Sprache, Detailtiefe und juristische Vorbildung des Empfängers berücksichtigen; bei Mandant ohne Vorbildung Klartext-Zusammenfassung voranstellen.
+- Beweis- und Anlagenstruktur planen (chronologisch, thematisch, K- und B-Anlagen); Bezugnahmen sauber kennzeichnen.
+- Quellenfußnoten und Zitierweise sichern; offene Punkte und Annahmen explizit als solche kennzeichnen.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

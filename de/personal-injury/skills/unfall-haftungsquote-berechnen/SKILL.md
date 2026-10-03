@@ -1,22 +1,31 @@
 ---
 name: unfall-haftungsquote-berechnen
-title: Unfall-Haftungsquote berechnen
-description: 'Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten koennen geltend gemacht werden? §§ 7 17 18 StVG iVm § 254 BGB Haftungsquote. Prüfraster: Betriebsgefahr beidseitig Anscheinsbeweis Auffahrunfall Spurwechsel Rotlicht Vorfahrt Mithaftung Tempo Sicherheitsabstand Anschnall. Schadenspositionen Reparatur fiktive Abrechnung Mietwagen Nutzungsausfall Sachverständige Schmerzensgeld. Output: Haftungsquoten-Berechnung und Schadenstabelle. Abgrenzung zu fachanwalt-verkehrsrecht-regulierungsanforderung (Gläubigerseite vs. Versicherer) und fachanwalt-verkehrsrecht-versicherer-quotenverhandlung-vergleich.'
+title: 'Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten können geltend gemacht werden? §§ '
+description: 'Für Unfall Haftungsquote Berechnen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verkehrsrecht/skills/unfall-haftungsquote-berechnen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: personal-injury
 language: de
 ---
 
-# Unfall-Haftungsquote berechnen
+# Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten können geltend gemacht werden? §§ 7 17 18 StVG iVm § 254 BGB Haftungsquote
 
-## Zweck
 
-Konkrete Quotelung der Haftung zwischen Unfallbeteiligten — Grundlage für Schadensregulierung gegenüber gegnerischer Versicherung. Der Skill führt durch alle Prüfschritte: Anspruchsgrundlage, Quotelung nach Verursachungsbeiträgen, Schadensberechnung und Schriftsatzerstellung.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StVG; PflVG; §§ 315c 316 StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Mandant hatte Verkehrsunfall und fragt: Wer haftet wie viel und welche Schadensposten können geltend gemacht werden? §§ 7 17 18 StVG iVm § 254 BGB Haftungsquote. Prüfraster: Betriebsgefahr beidseitig Anscheinsbeweis Auffahrunfall Spurwechsel Rotlicht Vorfahrt Mithaftung Tempo Sicherheitsabstand Anschnall. Schadenspositionen Reparatur fiktive Abrechnung Mietwagen Nutzungsausfall Sachverständige Schmerzensgeld. Output: Haftungsquoten-Berechnung und Schadenstabelle. Abgrenzung zu fachanwalt-verkehrsrecht-regulierungsanforderung (Gläubigerseite vs. Versicherer) und fachanwalt-verkehrsrecht-versicherer-quotenverhandlung-vergleich.
+
+### Unfall-Haftungsquote berechnen
 
 ## Kaltstart-Rückfragen
 
@@ -28,7 +37,7 @@ Konkrete Quotelung der Haftung zwischen Unfallbeteiligten — Grundlage für Sch
 6. Hat der Mandant eigene Mithaftung durch Tempoverstoß, fehlenden Sicherheitsabstand, Anschnallpflichtverletzung oder Alkohol?
 7. Wer ist die gegnerische Haftpflichtversicherung — liegt § 134 GWB analoge Information vor, oder Ablehnung?
 8. Droht Verjährung (3 Jahre ab Schluss des Jahres der Kenntnis, § 195 BGB)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -48,12 +57,10 @@ Konkrete Quotelung der Haftung zwischen Unfallbeteiligten — Grundlage für Sch
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema in Tabellenform
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Nr. | Prüfschritt | Norm | Ergebnis / Konsequenz |
 |---|---|---|---|
@@ -62,9 +69,7 @@ Konkrete Quotelung der Haftung zwischen Unfallbeteiligten — Grundlage für Sch
 | 3 | Fahrerverschulden feststellbar? | § 18 StVG; § 823 BGB | Entlastungsnachweis durch Fahrer möglich |
 | 4 | Direktanspruch gegen Versicherer? | § 115 VVG | Deckungsschutz prüfen; Versicherungsschein beschaffen |
 | 5 | Beidseitige Betriebsgefahr — Quote? | § 17 StVG; § 254 BGB | Verursachungsbeiträge: Verschulden + Betriebsgefahr |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 7 | Mitverschulden Mandant? | § 254 BGB | Tempo, Abstand, Anschnallen, Alkohol |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Quellenregel | Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden. |
 | 13 | Verdienstausfall? | § 252 BGB | Bruttolohn-Ausfall; Eigenanteil Krankengeld abziehen |
 | 14 | SGB X-Regress droht? | § 116 SGB X | Krankenkasse, BG regressieren — Quote beachten |
@@ -93,44 +98,44 @@ SCHADENSBERECHNUNG — Unfall vom [Datum]
 Mandant: [Name]
 
 A. FAHRZEUGSCHADEN
-   1. Reparaturkosten netto lt. SV-Gutachten      EUR ______
-      (alternativ: WBW EUR _____ minus Restwert
-       EUR _____ = Totalschadensersatz netto       EUR ______)
-   2. Merkantile Wertminderung lt. SV-Gutachten   EUR ______
-   3. Sachverständigenkosten lt. Rechnung          EUR ______
-   4. Abschleppkosten lt. Rechnung                 EUR ______
-   5. Standgeld lt. Rechnung                       EUR ______
+ 1. Reparaturkosten netto lt. SV-Gutachten EUR ______
+ (alternativ: WBW EUR _____ minus Restwert
+ EUR _____ = Totalschadensersatz netto EUR ______)
+ 2. Merkantile Wertminderung lt. SV-Gutachten EUR ______
+ 3. Sachverständigenkosten lt. Rechnung EUR ______
+ 4. Abschleppkosten lt. Rechnung EUR ______
+ 5. Standgeld lt. Rechnung EUR ______
 
 B. NUTZUNGSAUSFALL / MIETWAGENKOSTEN
-   6a. Nutzungsausfall [X] Tage × EUR [Y]
-       (Sanden/Danner/Klass Tabelle, Gruppe [Z])  EUR ______
-   6b. Mietwagenkosten lt. Rechnung               EUR ______
+ 6a. Nutzungsausfall [X] Tage × EUR [Y]
+ (Sanden/Danner/Klass Tabelle, Gruppe [Z]) EUR ______
+ 6b. Mietwagenkosten lt. Rechnung EUR ______
 
 C. PERSONENSCHADEN
-   7. Schmerzensgeld § 253 Abs. 2 BGB             EUR ______
-   8. Heilbehandlungskosten lt. Belege             EUR ______
-   9. Verdienstausfall netto [X] Tage              EUR ______
-  10. Haushaltsführungsschaden [X] Std × EUR [Y]  EUR ______
+ 7. Schmerzensgeld § 253 Abs. 2 BGB EUR ______
+ 8. Heilbehandlungskosten lt. Belege EUR ______
+ 9. Verdienstausfall netto [X] Tage EUR ______
+ 10. Haushaltsführungsschaden [X] Std × EUR [Y] EUR ______
 
 D. NEBENKOSTEN
-  11. Unkostenpauschale (Telefon, Porto, Fahrtkosten) EUR 30,00
-  12. Rechtsanwaltsgebühren (außergerichtlich)
-      1,3 Geschäftsgebühr Nr. 2300 VV RVG aus EUR ____
-      + Auslagenpauschale Nr. 7002 VV                EUR ______
+ 11. Unkostenpauschale (Telefon, Porto, Fahrtkosten) EUR 30,00
+ 12. Rechtsanwaltsgebühren (außergerichtlich)
+ 1,3 Geschäftsgebühr Nr. 2300 VV RVG aus EUR ____
+ + Auslagenpauschale Nr. 7002 VV EUR ______
 
-GESAMTSCHADEN BRUTTO                              EUR ______
+GESAMTSCHADEN BRUTTO EUR ______
 
 ANZUWENDENDE HAFTUNGSQUOTE
-Gegnerisch [X %] × EUR [Gesamtschaden]           EUR ______
+Gegnerisch [X %] × EUR [Gesamtschaden] EUR ______
 
-davon bereits reguliert                          - EUR ______
+davon bereits reguliert - EUR ______
 
-RESTFORDERUNG                                     EUR ______
+RESTFORDERUNG EUR ______
 ```
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -140,7 +145,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Variante C — Personenschaden Schmerzensgeld im Fokus | Haftungsquote als Grundlage; dann Schmerzensgeld-Skill separat |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -171,7 +175,6 @@ unseres Mandanten liegt nicht vor, da [Begründung].
 [Bei Anscheinsbeweis: Der Anscheinsbeweis des Auffahrunfalls
 spricht für alleiniges Verschulden Ihres VN gemäß
 § 4 Abs. 1 StVO; ein atypischer Geschehensverlauf ist nicht
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Schaden
 [Schadensaufstellung wie oben, konkret ausfüllen]
@@ -210,21 +213,19 @@ Zu [Anschnallpflicht]: Soweit behauptet wird, unser Mandant
 sei nicht angeschnallt gewesen, fehlt hierfür jeder Beleg.
 Im Übrigen wäre die konkrete Kausalität der Anschnallpflicht-
 verletzung für die eingetretenen Verletzungen darzulegen —
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Kausalität.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 
 ## Beweislast und Darlegungslast
 
@@ -253,9 +254,7 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 | Einwand Versicherer | Reaktion |
 |---|---|
 | Mandant war selbst zu schnell | Nachfragen: Konkrete Messung? Zeugen? Beweislast liegt beim Versicherer |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Sachverständigenkosten zu hoch | BGH: Geschädigter darf Vertrauenssachverständigen beauftragen; nur grobe Unverhältnismäßigkeit schadet |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | SGB X-Übergang bestimmte Positionen | Nur sachlich und zeitlich kongruente Positionen; Quotenvorrecht des Geschädigten § 116 Abs. 3 SGB X |
 | Quellenregel | Quellenregel: Keine Kommentar-, Handbuch-, Aufsatz- oder Tabellenfundstellen aus Modellwissen; nur Nutzerquelle, amtliche/freie Quelle oder lizenzierte Live-Verifikation verwenden. |
 
@@ -284,4 +283,4 @@ Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite inner
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

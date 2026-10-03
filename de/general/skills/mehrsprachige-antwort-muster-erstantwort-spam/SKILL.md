@@ -1,0 +1,162 @@
+---
+name: mehrsprachige-antwort-muster-erstantwort-spam
+title: Mehrsprachige-Antwort
+description: 'Für Mehrsprachige-Antwort: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/mehrsprachige-antwort-muster-erstantwort-spam
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Mehrsprachige-Antwort
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Dieser Skill erkennt die Sprache der eingehenden Mandantenanfrage und schaltet die Erstantwort in die entsprechende Sprache um. Die Sprachauswahl folgt der Sprache der Anfrage — nicht der Sprache der Kanzlei-Oberfläche.
+
+## Triage zu Beginn
+1. Welche Sprache wurde in der Anfrage verwendet und welche Sprache soll für die Antwort verwendet werden?
+2. Gibt es landesspezifische Anredekonventionen (EN, FR, IT) die abweichen von deutschen Regeln?
+3. Muss der Datenschutzhinweis (Art. 13 DSGVO) und der Kein-Mandat-Disclaimer ebenfalls in der Fremdsprache formuliert werden?
+4. Ist die Anfrage moeglicherweise automatisch übersetzt worden (Qualitaet der Sprache prüfen)?
+
+## Zentrale Normen
+- Art. 13 DSGVO — Informationspflicht in verstaendlicher Sprache: gilt bei Fremdsprachler uneingeschraenkt
+- Art. 12 DSGVO — Transparenz: klar und in einfacher Sprache; Fremdsprachler haben Anspruch auf verstaendliche Information
+- § 49b Abs. 5 BRAO — Kostenbelehrung: muss für Mandanten verstaendlich sein (Sprache relevant)
+- § 43 BRAO — Sorgfaltspflicht: Sprachbarriere als organisatorisches Risiko in der Kanzlei
+
+## Sprach-Erkennung
+
+| Erkannte Sprache | Antwortsprache | Fallback |
+|---|---|---|
+| Deutsch | Deutsch | — |
+| Englisch | Englisch | — |
+| Französisch | Französisch | — |
+| Italienisch | Italienisch | — |
+| Andere Sprache | Deutsch (Standard) + interner Hinweis | Sekretariat entscheidet |
+| Gemischt (Mehrere Sprachen) | Sprache des Haupttextes | Manuelle Entscheidung |
+
+## Sprachanpassung: Englisch
+
+### Anredekonventionen (EN)
+
+| Situation | Anrede |
+|---|---|
+| Vollständiger Name bekannt, Herr | "Dear Mr [Nachname]," |
+| Vollständiger Name bekannt, Frau | "Dear Ms [Nachname]," (Ms als Standardform — kein Mrs/Miss ohne explizite Nennung) |
+| Titel vorhanden | "Dear Dr [Nachname]," / "Dear Prof [Nachname]," |
+| Name unbekannt | "Dear Sir or Madam," |
+
+### Dank-Formulierung (EN)
+
+"Thank you for contacting us. We have received your enquiry."
+
+### Telefontermin-Hinweis (EN)
+
+"To arrange an initial appointment, please contact our office by telephone: [SEKRETARIATS-TELEFON] (available: [ERREICHBARKEITSZEITEN])."
+
+### Sachverhalt-Bitte (EN)
+
+"To enable us to prepare for your matter, we kindly ask you to send us a brief written summary by email, covering: the nature of your concern, the relevant dates, the parties involved, and any deadlines you are aware of."
+
+### Transkriptionsservice-Hinweis (EN)
+
+"If you find it difficult to describe your matter in writing, we offer an automated transcription service. You may call [TRANSKRIPTIONS-TELEFON], state your concern verbally, and the recording will be automatically transcribed and forwarded to us. Please note: At the start of the call, you will be asked to confirm your consent to the recording. No recording will be made without your consent."
+
+### Datenschutz-Kurzform (EN)
+
+"Please note that as no client relationship has yet been established, the processing of your voice data is based on your explicit consent (Art. 6(1)(a) GDPR). You may withdraw your consent at any time."
+
+### Disclaimer (EN)
+
+"Please be aware that this acknowledgement does not establish a client-solicitor relationship and does not constitute legal advice. No obligations are created for [KANZLEI-NAME] by this communication."
+
+### Schlussformel (EN)
+
+"Yours sincerely," (formell) / "Kind regards," (etwas weniger formell, aber gebräuchlich)
+
+## Sprachanpassung: Französisch
+
+### Anredekonventionen (FR)
+
+| Situation | Anrede |
+|---|---|
+| Herr, Name bekannt | "Madame, Monsieur [Nachname]," oder "Monsieur [Nachname]," |
+| Frau, Name bekannt | "Madame [Nachname]," |
+| Dr. | "Monsieur le Docteur [Nachname]," / "Madame le Docteur [Nachname]," |
+| Unbekannt | "Madame, Monsieur," |
+
+### Dank-Formulierung (FR)
+
+"Nous vous remercions de votre prise de contact et avons bien reçu votre demande."
+
+### Telefontermin-Hinweis (FR)
+
+"Pour convenir d'un premier rendez-vous, nous vous invitons à nous contacter par téléphone: [SEKRETARIATS-TELEFON] (disponibilité: [ERREICHBARKEITSZEITEN])."
+
+### Disclaimer (FR)
+
+"Veuillez noter que la présente confirmation de réception ne constitue pas une relation avocat-client et ne représente pas un conseil juridique."
+
+### Schlussformel (FR)
+
+"Veuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées,"
+
+## Sprachanpassung: Italienisch
+
+### Anredekonventionen (IT)
+
+| Situation | Anrede |
+|---|---|
+| Herr, Name bekannt | "Gentile Sig. [Nachname]," |
+| Frau, Name bekannt | "Gentile Sig.ra [Nachname]," |
+| Dr. | "Gentile Dott. [Nachname]," / "Gentile Dott.ssa [Nachname]," |
+| Prof. | "Gentile Prof. [Nachname]," |
+| Unbekannt | "Gentile Signora/Signore," oder "Spett.le [Kanzleiname]," (an Kanzleien) |
+
+### Dank-Formulierung (IT)
+
+"La ringraziamo per averci contattati e confermiamo la ricezione della Sua richiesta."
+
+### Telefontermin-Hinweis (IT)
+
+"Per fissare un primo appuntamento, La invitiamo a contattarci telefonicamente: [SEKRETARIATS-TELEFON] (orari: [ERREICHBARKEITSZEITEN])."
+
+### Disclaimer (IT)
+
+"Si prega di notare che questa conferma di ricezione non costituisce un rapporto avvocato-cliente e non rappresenta una consulenza legale."
+
+### Schlussformel (IT)
+
+"Distinti saluti," oder "Con i migliori saluti,"
+
+## Interne Hinweise für das Sekretariat (bei nicht-deutscher Antwort)
+
+```
+INTERNE NOTIZ — MEHRSPRACHIGE ANFRAGE
+Erkannte Sprache: [EN / FR / IT / Sonstiges]
+Antwort generiert in: [Sprache]
+Bitte prüfen: Haben Sie einen Anwalt mit entsprechenden Sprachkenntnissen,
+der das Erstgespräch führen kann? Falls nein: Hinweis in der Mail aufnehmen.
+```
+
+## Verweise auf andere Skills
+
+- `anfrage-eingang-parser` — erkennt die Sprache der Anfrage
+- `erstantwort-generator` — erhält den Sprachmodus
+- `anrede-uebernehmen` — liefert die sprachangepasste Anrede
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

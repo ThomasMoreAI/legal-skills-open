@@ -1,18 +1,18 @@
 ---
 name: applying-new-york-convention
-title: applying-new-york-convention
+title: law-ua-applying-new-york-convention
 description: Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine, applications for setting aside arbitral awards, or opposing such applications — mapping Article V of the 1958 New York Convention to Article 478 of the Ukrainian CPC, identifying grounds for refusal, structuring public policy arguments
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-applying-new-york-convention
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: arbitration
 language: uk
 ---
 
-# applying-new-york-convention
+# law-ua-applying-new-york-convention
 
 Нью-Йоркська конвенція 1958 («Конвенція про визнання і виконання іноземних арбітражних рішень») — базовий міжнародний договір про визнання і виконання іноземних арбітражних рішень. Україна — сторона Конвенції. Розділ IX ЦПК (ст. 474–482) імплементує NYC у національне процесуальне право; ст. 478 ЦПК дослівно повторює ст. V NYC.
 
@@ -61,7 +61,7 @@ language: uk
 
 ## Public policy exception — стандарти застосування
 
-**Ключова позиція ВС:** [вставити ✓ верифіковану через searching-edrsr постанову КЦС ВС щодо вузького тлумачення публічного порядку: номер справи, дата, ЄДРСР-ID]
+**Ключова позиція ВС:** [вставити ✓ верифіковану через law-ua-searching-edrsr постанову КЦС ВС щодо вузького тлумачення публічного порядку: номер справи, дата, ЄДРСР-ID]
 
 **Вузьке тлумачення** — публічний порядок охоплює лише:
 - Основоположні принципи правопорядку України (заборона корупції, легалізації злочинних доходів, фінансування тероризму).
@@ -78,7 +78,7 @@ language: uk
 
 1. **Вичерпність переліку ст. V NYC / ст. 478 ЦПК.** Суд не розширює підстави.
 2. **Тягар доведення підстав ст. V(1)** — на стороні-заперечувачі; доведення — документами, а не презумпціями.
-3. **Вузьке тлумачення public policy** — посилання на усталену практику КЦС ВС (див. searching-edrsr).
+3. **Вузьке тлумачення public policy** — посилання на усталену практику КЦС ВС (див. law-ua-searching-edrsr).
 4. **Pro-enforcement bias NYC** — преамбула + ст. III: держави зобов'язані визнавати, винятки застосовуються обмежувально.
 5. **Заборона merits review** — суд не переглядає рішення по суті (ст. V NYC, ст. 478 ЦПК).
 6. **Дотримання формальних вимог ст. IV NYC / ст. 476 ЦПК** — повний пакет документів поданий.
@@ -104,7 +104,7 @@ language: uk
 
 ## Після ухвали про визнання
 
-Ухвала про визнання і надання дозволу на виконання є підставою для видачі виконавчого листа. Виконання — через виконавче провадження за ЗУ «Про виконавче провадження» (№ 1404-VIII). Відповідальний агент проєкту — `enforcement-agent`.
+Ухвала про визнання і надання дозволу на виконання є підставою для видачі виконавчого листа. Виконання — через виконавче провадження за ЗУ «Про виконавче провадження» (№ 1404-VIII). Відповідальний агент проєкту — `law-ua-enforcement-agent`.
 
 ## Workflow
 
@@ -114,7 +114,7 @@ language: uk
 4. **Оцінити потенційні ст. V заперечення** з обох сторін. Мапінг NYC → ЦПК — дослівний.
 5. **Перевірити строк** (3 роки від набрання чинності — ст. 475 ЦПК).
 6. **Підсудність** — апеляційний суд за місцем знаходження боржника/майна.
-7. **Для public policy** — перевірити актуальну практику ВС через скіл `searching-edrsr`.
+7. **Для public policy** — перевірити актуальну практику ВС через скіл `law-ua-searching-edrsr`.
 8. **Посилання** — завжди пара: NYC ст. V(...) + ст. 478 ЦПК (у міжнародних справах NYC — первинний інструмент).
 
 ## Common mistakes

@@ -1,0 +1,64 @@
+---
+name: satzweise-notenmatrix
+title: Satzweise Notenmatrix
+description: 'Für Satzweise Notenmatrix: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/satzweise-notenmatrix
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Satzweise Notenmatrix
+
+## Fachlicher Anker
+
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Geheimcode-Regeln
+
+| Sprachmuster | Note |
+|---|---|
+| Steigerungsadverb plus Superlativ ("stets äußerst", "jederzeit hervorragend") | Note 1 |
+| Superlativ ohne Adverb oder Adverb ohne Superlativ | Note 2 |
+| Grundaussage ohne Adverb, ohne Superlativ ("gute Ideen", "hohe Lernbereitschaft") | Note 3 |
+| Einschränkung ("im Wesentlichen", "weitgehend") oder Codewort "bemüht" | Note 4 |
+| "angemessen", "korrekt" im Leistungsteil, fehlende positive Aussage | Note 5 |
+| "zeigte", "fand", "war in der Lage zu" ohne Steigerung | Note 3 |
+| "verfügt über" ohne Steigerung | Note 3 |
+| "verfügt über äußerst profundes" plus Maximalbereich | Note 1 |
+
+## Beispiele
+
+**Beispiel 1 – Note 1:** "verfuegt auch in Randbereichen seines vielfaeltigen Aufgabenbereiches über aeusserst profundes Fachwissen" → Steigerungsadverb "aeusserst", Maximalbereichsangabe "auch in Randbereichen", Superlativ "profundes". Themenbereich Fachkenntnisse.
+
+**Beispiel 2 – Note 3:** "nahm in eigener Initiative regelmaessig erfolgreich an internen und externen Weiterbildungsseminaren teil" → kein Steigerungsadverb, kein Superlativ ("regelmaessig" ist Haeufigkeit, kein Steigerer). Themenbereich Lernbereitschaft.
+
+**Beispiel 3 – Note 1:** "Alle Aufgaben fuehrte er jederzeit vollkommen selbststaendig, aeusserst sorgfaeltig und planvoll durchdacht aus" → drei Steigerer ("jederzeit", "vollkommen", "aeusserst"). Themenbereich Arbeitsweise.
+
+**Beispiel 4 – Note 3:** "war Neuem gegenueber aufgeschlossen, fand gute neue Ideen und innovative Ansaetze" → "gute" statt "hervorragende", kein Steigerungsadverb, Verb "fand" statt "entwickelte". Themenbereich Innovation.
+
+**Beispiel 5 – Note 1:** "Arbeitsergebnisse lagen stets sehr weit über unseren Anforderungen" → Steigerer "stets sehr weit", expliziter Vergleich "über unseren Anforderungen". Themenbereich Arbeitsergebnis.
+
+**Beispiel 6 – Note 3:** "war ein geschaetzter Ansprechpartner, sein persönliches Verhalten war einwandfrei" → "geschaetzt" ohne Steigerung, "einwandfrei" ohne "stets". Themenbereich Sozialverhalten.
+
+**Beispiel 7 – Note 4:** "war stets bemueht" → Codewort, unabhaengig vom restlichen Satz. Themenbereich je nach Kontext.
+
+## Rechtliche Einordnung und Normen
+
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+
+## Aktuelle Rechtsprechung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

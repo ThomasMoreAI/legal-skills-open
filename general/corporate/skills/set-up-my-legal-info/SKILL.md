@@ -5,7 +5,7 @@ description: Tell me the basics about your company so I can give you better lega
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/legal/.agents/skills/set-up-my-legal-info
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate
@@ -23,6 +23,7 @@ This is the foundation document this agent reads before every substantive task. 
 - Called implicitly by any other skill needing shared context when doc missing  -  only after confirming with user.
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read config.** Load `config/entity.json`, `config/posture.json`, `config/templates.json`, `config/profile.json`. If any missing, ask ONE missing piece just-in-time using plain language (best-modality hint: connected app > file drop > URL > paste).
 

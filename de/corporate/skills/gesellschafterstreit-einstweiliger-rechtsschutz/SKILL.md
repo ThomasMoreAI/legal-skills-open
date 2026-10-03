@@ -1,0 +1,53 @@
+---
+name: gesellschafterstreit-einstweiliger-rechtsschutz
+title: Gesellschafterstreit und einstweiliger Rechtsschutz
+description: 'Für Gesellschafterstreit und einstweiliger Rechtsschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrecht/skills/gesellschafterstreit-einstweiliger-rechtsschutz
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Gesellschafterstreit und einstweiliger Rechtsschutz
+
+Nutze diesen Skill, wenn ein gesellschaftsrechtlicher Konflikt schnell eingeordnet und prozessual arbeitsfähig gemacht werden muss. Der Skill trennt materielles Recht, Beweisführung und Eilbedürftigkeit.
+
+## Kaltstartfragen
+
+1. Was ist der aktuelle Auslöser: Beschluss, Abberufung, Liste, Ausschluss, Informationsverweigerung?
+2. Welche Frist läuft und welches Gericht ist zuständig?
+3. Wer steht in der Gesellschafterliste und wer behauptet welche Quote?
+4. Welche Unterlagen sind vorhanden: Satzung, Einladung, Protokoll, Liste, Handelsregisterauszug?
+5. Geht es um Unterlassung, Handlung, einstweilige Sicherung oder Hauptsache?
+6. Was passiert, wenn bis zur Hauptsache nichts geschieht?
+
+## Streitbild
+
+| Angriffsziel | Anspruchsziel | Eilgrund | Beleg | Risiko |
+| --- | --- | --- | --- | --- |
+| Beschluss | Nichtigerklärung, Anfechtung | Umsetzung droht | Einladung, Protokoll | Frist |
+| Liste | Korrektur, Widerspruch | Legitimationsverlust | Liste, Abtretung | Registerlage |
+| Information | Auskunft, Einsicht | Entscheidung blockiert | Anfrage | Missbrauchseinwand |
+
+## Prüfraster
+
+1. Aktivlegitimation und aktuelle Gesellschafterliste prüfen.
+2. Anspruchsgrundlage und Rechtsfolge genau benennen.
+3. Verfügungsanspruch, Verfügungsgrund und Glaubhaftmachung trennen.
+4. Hauptsachefrist und taktische Anschlussmaßnahmen planen.
+5. Vergleichsfenster und Eskalationskosten sichtbar machen.
+
+## Rechtsprechungs- und Normanker
+
+- Paragraf 16 und 40 GmbHG: Legitimationswirkung der Gesellschafterliste.
+- Paragraf 47 und 48 sowie Paragraf 51 GmbHG: Beschlussfassung und Gesellschafterversammlung.
+- Paragraf 935 und 940 ZPO: einstweilige Verfügung.
+- BGH, 20.11.2018 - II ZR 12/17: Listenlage als praktischer Drehpunkt der Rechtsausübung.
+
+## Output
+
+Gib eine Eilrechtsschutz-Matrix, einen vollständig ausformulierten Antragsentwurf mit Verfügungsanspruch und Verfügungsgrund sowie eine Belegliste zur Glaubhaftmachung aus.

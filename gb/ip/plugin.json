@@ -1,0 +1,14 @@
+{
+  "name": "gb-ip",
+  "displayName": "Intellectual Property — GB",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "ip",
+  "language": "de",
+  "skills": [
+    "skills/uk-patentrecht-patents-court-ipec-ukipo"
+  ]
+}

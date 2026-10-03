@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-sozialrecht-widerspruch-sozialleistung
 title: Widerspruch gegen Sozialleistungsbescheid (§ 84 SGG)
-description: 'Mandant hat Sozialleistungsbescheid erhalten und Anwalt formuliert Widerspruch. § 84 SGG Widerspruchsfrist ein Monat. Prüfraster: Frist (Bekanntgabe Vier-Tage-Fiktion § 37 Abs. 2 SGB X seit 1.1.2025 PostModG) aufschiebende Wirkung § 86a SGG Antrag § 86b SGG Tatsachen und Rechtsgrundlagen Beweisangebote. Output: Widerspruchsschriftsatz mit Begründung. Abgrenzung zu bescheid-frist-quick-check (Fristkontrolle vorab) und klage-sozialgericht (nach Widerspruchsbescheid).'
+description: 'Für Widerspruch gegen Sozialleistungsbescheid (Paragraf 84 SGG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/fachanwalt-sozialrecht-widerspruch-sozialleistung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: social-security
@@ -20,9 +20,6 @@ language: de
 3. Verfahrensmangel (§ 24 SGB X Anhörung, § 35 SGB X Begründung) — führt zur Aufhebung unabhängig von materieller Rechtslage.
 4. Bei bestandskräftigem Bescheid: Überprüfungsantrag § 44 SGB X möglich (4 Jahre rückwirkend)?
 5. Folgeantrag oder Widerspruch? Einige Leistungen müssen neu beantragt werden.
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Quellenregel
 
@@ -70,10 +67,6 @@ Das Postmodernisierungsgesetz (PostModG) hat die Bekanntgabefiktion von drei auf
 
 | Aktenzeichen | Gericht/Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 
 ---
 
@@ -333,6 +326,14 @@ Mit freundlichen Grüßen
 - Eintrag im Fristenbuch (`fristenbuch-sozialrecht`).
 - Eintrag im Postausgang.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Versand-Check
 
 Vor Versand Skill `bescheid-frist-quick-check` konsultieren. Prüft Inhalt, Signatur, Empfängeradresse und Anlagenständigkeit.
@@ -354,6 +355,7 @@ Bei Bescheiden über Aufhebung, Rückforderung oder Sanktion: Widerspruch hat ke
 
 ## Quellen
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

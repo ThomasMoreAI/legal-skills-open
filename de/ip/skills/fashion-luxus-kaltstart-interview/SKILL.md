@@ -1,205 +1,76 @@
 ---
 name: fashion-luxus-kaltstart-interview
-title: Kaltstart-Interview und IP-Audit für Luxus-Modehäuser
-description: 'Mandantenaufnahme Modehaus und IP-Audit-Erstgespraech: Neues Luxus-Mode-Mandat beginnt, Portfolio-Inventur und Prioritaeten-Matrix sind zu erstellen. Normen: BRAO § 43a, § 32 MarkenG, Art. 32 UMV. Prüfraster: IP-Audit-Fragenkatalog (Marken, Design, Urheberrecht, Patente), Portfolio-Inventur, Verletzungs-Risiko-Matrix, laufende Verfahren. Output Mandatsprofil, IP-Inventur-Tabelle, Prioritaeten-Matrix, naechste Schritte. Abgrenzung: Detailarbeiten in Spezialskills dieses Plugins; für USPTO siehe nyc-korrespondenz-und-conflict-check.'
+title: 1. Schutzrechte und Verträge eines Modehauses prüfen
+description: 'Für Kaltstart-Interview und IP-Audit für Luxus-Modehäuser: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/fashion-luxus-kaltstart-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
 language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
-# Kaltstart-Interview und IP-Audit für Luxus-Modehäuser
+# 1. Schutzrechte und Verträge eines Modehauses prüfen
 
-Das erste Mandantengespräch mit einem neuen Modehaus ist die Basis für alles, was folgt. In 90 Minuten mit der Comtesse Beatrice de Klotzzkettie habe ich klôtzzkètté SA vollständig durchleuchtet: bestehende Schutzrechte, Lücken, Risiken, Prioritäten. Kein Mandant verlässt dieses Gespräch ohne einen klaren Maßnahmenplan.
+## 1.1. Auftrag und vorhandenes Portfolio
 
-Dieser strukturierte Fragenkatalog und die IP-Audit-Checkliste sind das Handwerkszeug für dieses Gespräch.
+Prüfe die vorhandenen Schutzrechte, Benutzungsbelege und Verträge des Modehauses auf die für den Auftrag maßgeblichen Lücken. Erarbeite daraus die gewünschte Beratung oder die bestellten Anmeldungs-, Vertrags- oder Anspruchsentwürfe.
 
-## Rechtsrahmen
+Lies bestehende Verzeichnisse, Registerauszüge, Fristenlisten und bisherige Antworten zuerst. Unternehmensname, Sitz, Gesellschaften, IP-Verantwortliche, Absatzmärkte und Zielprodukte nur nachfragen, soweit sie nicht feststehen und die Prüfung verändern. Keine Beispielpersonen, Mustermarken, Umsätze oder Budgets als Mandatsdaten übernehmen.
 
-- **Anwaltliche Beratungspflicht (§ 43a IV BRAO / § 1 BORA):** Vollständige Beratung im Mandat; Hinweis auf alle rechtsrelevanten Aspekte, auch wenn nicht explizit gefragt
-- **Interessenkonflikt-Prüfung (§ 43a IV BRAO):** Vor Mandatsannahme: keine entgegenstehenden Interessen zu anderen Mandanten (Modehäuser, Konkurrenten)
-- **Datenschutz (DSGVO / § 4 BORA):** Mandanteninformationen streng vertraulich; Aktenführung nach Kanzlei-Standards
-- **IP-Audit-Grundlage:** Markenrecht (§§ 3-9 MarkenG, UMV), Designrecht (DesignG, GGV), Urheberrecht (UrhG), Patentrecht (PatG), Know-how (GeschGehG)
+Prüfe Mandatsumfang, Interessenwiderstreit und Vertraulichkeit nach dem einschlägigen Berufsrecht. Die alten Verweise auf Paragraf 43a Absatz 4 BRAO, Paragraf 1 und Paragraf 4 BORA sind vor Verwendung ihrer jeweiligen tatsächlichen Regelungsfrage zuzuordnen; sie begründen keinen pauschalen Auftrag zur vollständigen Untersuchung jedes Rechtsgebiets. Gleiche Produktklassen allein ersetzen keine konkrete Konfliktprüfung.
 
-## Aktuelle Rechtsprechung fuer IP-Audit Luxusmarken
+## 1.2. Rechte und tatsächliche Nutzung zuordnen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Unterscheide eingetragene Marken, Anmeldungen und behauptete Benutzungsmarken. Erfasse Register, Länder, Inhaber, Waren oder Dienstleistungen, Status und Fristen. Paragraf 4 Nummer 2 und Paragrafen 3 bis 9 MarkenG sowie die UMV nach der jeweiligen Schutzfrage prüfen, nicht aus einem Domainnamen auf ein Markenrecht schließen.
 
-## Prüfungsschritte — Fragenkatalog
+Ordne Produktformen, Prints und Verpackungen dem möglichen Designschutz zu. Für Kollektionen, Werbefotos, Webgestaltung und Kampagnen Urheberschaft und eingeräumte Nutzungsrechte anhand der Verträge prüfen. Bei Produktionsverfahren technische Schutzrechte, bei Rezepturen, Webtechniken und Lieferanteninformationen die tatsächlichen Geheimhaltungsmaßnahmen untersuchen. DesignG, unionsrechtlichen Designrahmen, UrhG, PatG und GeschGehG nur entsprechend dem Material vertiefen.
 
-### Abschnitt 1: Unternehmens-Grunddaten
+Erfasse Domains und Social-Media-Kennungen mit tatsächlichem Inhaber und Nutzung. Ein einheitlicher Markenauftritt ist eine praktische Frage, aber kein Ersatz für Rechtebestand und Berechtigung.
 
-```
-1.1 Vollständige Firmenbezeichnung (DE/EU/INT)?
-    → klôtzzkètté SA, RCS Paris / klôtzzkètté Inc. New York
+## 1.3. Schutzlücken gezielt klären
 
-1.2 Gesellschaftsform und Sitz?
-    → SA (Société Anonyme) Paris; Tochter Inc. New York
+Vergleiche belegte Absatzmärkte und geplante Produkte mit dem tatsächlichen Schutzumfang. Klassen wie 3, 14, 18, 25, 35, 40, 41 oder 42 nicht als pauschales Pflichtpaket anmelden; die aktuellen Begriffe und das konkrete Waren- oder Dienstleistungsverzeichnis prüfen. Schutzdauer, Verlängerung und Benutzungszeiträume aus dem jeweiligen Recht und Registerstand ermitteln.
 
-1.3 Geschäftsführung / IP-Verantwortliche?
-    → Comtesse Beatrice de Klotzzkettie (CEO); Legal Counsel?
+Fehlt die Verbindung einer Marke zu einem Produkt, frage nach datiertem Etikett, Verpackung oder Vertriebsbeleg. Nach Eingang ordne die Antwort dem Zeitraum und Warenumfang zu und aktualisiere die Benutzungs- und Schutzlückenbewertung. Ein weiterer entscheidender Widerspruch darf eine kurze Folgerunde auslösen; bereits geklärte Unternehmensdaten nicht erneut erheben.
 
-1.4 Jahresumsatz (Größenklasse)?
-    → Relevant für Marktanteilsberechnung (Vertikal-GVO), Gebührenprognose
+Fehlt für einen Zielmarkt ein belastbarer Registerstand, beschaffe oder erfrage genau diesen Nachweis. Formuliere anschließend die beauftragte Anmeldestrategie oder das Warenverzeichnis fertig. Weder ein fehlender Aktenbeleg noch eine unvollständige Liste beweist bereits das Fehlen des Rechts.
 
-1.5 Hauptmärkte (Länder)?
-    → DE/FR/IT/CH/UK/US/JP → Prioritäten für IP-Schutz
-```
+## 1.4. Konflikte, Plattformen und Zoll priorisieren
 
-### Abschnitt 2: Bestehende IP-Rechte
+Lies laufende Widerspruchs- und Löschungsverfahren, Abmahnungen, Unterlassungserklärungen und Plattformantworten. Sichere konkrete Angebotsadressen, Verkäuferkennungen, Produktvarianten und Datum. Fälschung, Parallelimport, Erschöpfung und bloßer Händlervertragsverstoß sind getrennte Fragen.
 
-```
-2.1 Welche Marken sind eingetragen? Wo? (DE/EU/INT)
-    Bitte DPMA- und EUIPO-Registernummern, Klassen, Ablaufdaten
+Bei einer Fälschungswelle zuerst den konkreten Nachweis und die tatsächlich laufenden Fristen bearbeiten. Eine DSA-Meldung oder ein Eilantrag wird nur entsprechend dem Auftrag ausgearbeitet; die umfassende Portfolioprüfung darf die dringliche Sache nicht verzögern. Nach neuen Produkt- oder Lieferbelegen den Umfang der Beanstandung und das bestellte Schreiben aktualisieren.
 
-2.2 Welche Marken sind angemeldet (noch nicht eingetragen)?
-    Status, Fristen, ausstehende Entscheidungen?
+Prüfe bestehende Zollanträge nach zuständiger Behörde, Schutzgebiet, Laufzeit und Warenbeschreibung. EU-Verfahren und US-CBP-Recordation nicht vermischen. Ein besonderer Melderstatus oder ein Zollantrag ist kein pauschaler Pflichtschritt jedes Modehauses.
 
-2.3 Gibt es ältere nicht eingetragene Marken (Benutzungsmarken)?
-    Nachweise der Benutzung (§ 4 Nr. 2 MarkenG)?
+## 1.5. Verträge und Rechtskette
 
-2.4 Domains / Social-Media-Handles?
-    Konsistenz mit Markenregistrierungen?
+Prüfe selektive Händlerverträge, Lizenzen, Agentur- und Designervereinbarungen nach dem konkreten Vertriebs- und Nutzungsmodell. Reichweite, Gebiet, Kontrolle, Unterlizenzierung und Nachweise der Rechtekette getrennt behandeln. Eine pauschale Bezeichnung als „Coty-konform“ ersetzt keine Prüfung des Systems und der einschlägigen verifizierten Rechtsprechung.
 
-2.5 Eingetragene Designs/Geschmacksmuster (DesignG/GGM)?
-    Produktformen, Prints, Verpackungen
+Fehlt bei einer Kampagne die Nutzungsrechtseinräumung eines Fotografen oder Designers, fordere den betroffenen Vertrag an. Nach dessen Eingang passe die Bewertung und die bestellte Lizenz- oder Nachtragsklausel an. Das geltende Recht bestimmt, welche Rechte übertragen oder eingeräumt werden können; keine umfassende Übertragung allein aus der Bezahlung ableiten.
 
-2.6 Patente / Gebrauchsmuster?
-    Produktionsverfahren, technische Innovationen
+US-Aktivitäten nur bei tatsächlichem Bezug gesondert anhand USPTO- und CBP-Unterlagen bearbeiten. Vorhandene ausländische Konzerngesellschaften und deren Rechte nicht erfinden.
 
-2.7 Urheberrechtliche Werke?
-    Kollektionen, Werbefotos, Webseiten-Design — Urheber dokumentiert?
+## 1.6. Ergebnis bis zur Endfassung
 
-2.8 Know-how / Geschäftsgeheimnisse?
-    Parfumrezepturen, Webtechniken, Lieferantenlisten (GeschGehG-Schutz?)
-```
+Liefere die beauftragte Beratung mit konkret begründeten Prioritäten und die verlangten ausformulierten Entwürfe. Fristen und Kosten aus dem jeweiligen Vorgang und den aktuellen amtlichen Gebührenangaben ableiten; keine erfundenen 30-Tage-Termine oder Musterbudgets einsetzen. Eine Tabelle ist sinnvoll für mehrere Rechte und Maßnahmen, ersetzt aber nicht den bestellten Brief oder Vertrag.
 
-### Abschnitt 3: Lücken-Analyse
+Bei Mandatsübernahme Angaben der Vorkanzlei mit Register und Akte abgleichen, statt sie pauschal zu verwerfen oder ungeprüft zu übernehmen. Offene entscheidende Nachweise benennen und den belegten Teil vorläufig liefern. Nach der Antwort dort fortsetzen, bis das bestellte Ergebnis vorliegt; kein Abbruch nach zwei Fragen.
 
-```
-3.1 Sind Schlüsselmärkte ohne Markenschutz?
-    → Prioritätenliste für Nachregistrierungen
+Optional vertiefen `anmeldung-strategie-portfolio`, `markenmonitoring-und-watchlist` und `nyc-korrespondenz-und-conflict-check` die jeweilige Anschlussfrage. Ohne Zugriff nach diesem Ablauf weiterarbeiten. Nutzerdateinamen gehen vor, `ergebnis.md` ist nur ein Standard ohne Vorgabe. Versand, Meldung, Anmeldung oder verbindliche Erklärung nur nach ausdrücklicher Freigabe.
 
-3.2 Gibt es Waren-/Dienstleistungsklassen ohne Abdeckung?
-    → Nizza-Klassen-Check (3/14/18/25/35/40/41/42)
+## 1.7. Quellen, Format und Beispiel
 
-3.3 Wurden Marken verlängert?
-    → Ablauf-Monitor (10 Jahre DPMA/EUIPO)
+Registerdaten und Amtsabläufe bei DPMA, EUIPO, WIPO und USPTO prüfen; Gebühren, Formulare und Fristen nicht aus Modellwissen behaupten. Entscheidungen nur mit überprüftem Gericht, Datum, Aktenzeichen und tragender Aussage verwenden; Literatur nur aus bereitgestellter oder verifiziert zugänglicher Quelle. `references/zitierweise.md` bei Zugriff beachten. Quellenstatus und technische Hinweise getrennt vom Mandantenbrief halten.
 
-3.4 Benutzungsnachweis für alle Marken vorhanden?
-    → 5-Jahres-Benutzungspflicht; Belege sammeln
-```
+Endprodukte enthalten vollständige Sätze, keine bloßen Checklisten oder Klauselrümpfe. Formatierte Texte verwenden Times New Roman 11 Punkt und dezimale Gliederung; bei Markdown den Formatwunsch als Exporthinweis aufnehmen.
 
-### Abschnitt 4: Verletzungen und laufende Konflikte
+Beispiel: Die Portfolioliste enthält eine Marke, der neue Produktbereich ist im Verzeichnis aber nicht erkennbar. Kläre das konkrete Angebot, prüfe den Schutzumfang und erarbeite danach die bestellte Ergänzungsstrategie, ohne eine fehlende Klasse vorschnell mit fehlendem Schutz gleichzusetzen.
 
-```
-4.1 Bekannte Markenverletzungen / Produktfälschungen?
-    → Aktuelle Fälle, bisherige Maßnahmen
-
-4.2 Laufende Widerspruchs-/Löschungsverfahren (DE/EU/INT)?
-    → Aktenzeichen, Fristen, Verfahrensstand
-
-4.3 Abmahnungen erhalten oder ausgesprochen?
-    → Dokumentation, Reaktion, Unterlassungserklärungen
-
-4.4 Plattform-Beschwerden (Donauzon, Amazon)?
-    → DSA-Meldungen, Account-Sperren
-
-4.5 Zoll-AWA-Antrag aktiv?
-    → Welche Behörden, Gültigkeitsdauer
-```
-
-### Abschnitt 5: Vertrieb und Verträge
-
-```
-5.1 Selektives Vertriebssystem vorhanden?
-    → Händlerverträge vorhanden/aktuell/coty-konform?
-
-5.2 Lizenzverträge?
-    → Lizenznehmer, Territorien, Kontrolle
-
-5.3 Agenturverträge (Marketing, PR)?
-    → IP-Klauseln in Verträgen (Urheberrecht-Übertragung?)
-
-5.4 Designer-Arbeitsverträge?
-    → Urheberrechtsübertragung/-einräumung geregelt?
-
-5.5 US-Handelsaktivitäten?
-    → klôtzzkètté Inc. NYC: USPTO-Marken, CBP-Recordation
-```
-
-### Abschnitt 6: Prioritäten-Matrix (Ergebnis des Interviews)
-
-Nach dem Interview: gemeinsame Erstellung einer Prioritäten-Matrix:
-
-| Priorität | Maßnahme | Frist | Budget-Schätzung |
-|---|---|---|---|
-| KRITISCH | DPMA-Marke verlängern | 30 Tage | EUR 300 |
-| HOCH | EUIPO-AWA-Antrag | 60 Tage | EUR 800 |
-| MITTEL | Madrid-Anmeldung US | 6 Monate | EUR 3.500 |
-| NIEDRIG | Klasse-40-Anmeldung | 12 Monate | EUR 400 |
-
-## Falltypische Konstellationen
-
-### Konstellation 1: Erstamandat klôtzzkètté SA
-90-Minuten-Gespräch mit Comtesse Beatrice de Klotzzkettie in Paris. Ergebnis: 3 DPMA-Marken abgelaufen, EUIPO-Anmeldung für Klasse 3 fehlt, kein AWA-Zoll-Antrag aktiv, Händlerverträge aus 2015 nicht Coty-konform. Sofortpaket: EUR 2.400 für Verlängerungen und Neuanmeldungen; mittelfristiger Maßnahmenplan.
-
-### Konstellation 2: Mandats-Übernahme von Vorkanzlei
-Übernahme von einer anderen Kanzlei — Akten unvollständig. IP-Audit als erstes: alle Marken aus Registern eigenständig abrufen, Benutzungsnachweise sichten, laufende Verfahren prüfen. Kein Verlass auf Vorkanzlei-Aussagen.
-
-### Konstellation 3: Krisenmandat nach Fälschungswelle
-klôtzzkètté SA kommt mit akutem Problem (Fälschungswelle auf Donauzon). Parallelspor: (1) sofortiger Krisenmodus mit DSA-Meldungen und Eilanträgen; (2) gleichzeitig strukturiertes IP-Audit um Schutzlücken zu schließen.
-
-## Belege & Kommentare
-
-- Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, Einleitung Rn. 1 ff. (Markenrechts-Überblick)
-- Eisenmann/Jautz, Grundriss des gewerblichen Rechtsschutzes, 10. Aufl. 2015 (Gesamtüberblick IP)
-- EUIPO, Leitfaden für Rechteinhaber: IP Management Best Practices, 2024
-- DPMA, Merkblatt Markenrecht für Anmelder, 2023
-
-## Templates
-
-### IP-Audit Checkliste (1-Seite-Version)
-```
-KLÔTZZKÈTTÉ SA — IP-AUDIT-CHECKLISTE
-Stand: [Datum]
-
-MARKEN
-[ ] DE-Marken: Reg.-Nr., Klassen, Ablauf — Status?
-[ ] EU-Marken: Reg.-Nr., Klassen, Ablauf — Status?
-[ ] Madrid IR: Reg.-Nr., Länder, Ablauf — Status?
-[ ] Benutzungsnachweise (5-Jahres-Check)?
-
-DESIGNS
-[ ] Eingetragene Designs DE/EU — vollständig?
-
-DOMAINS/SOCIAL MEDIA
-[ ] Domains konsistent mit Marken?
-[ ] Social Media Handles gesichert?
-
-VERTRÄGE
-[ ] Händlerverträge Coty-konform (2024)?
-[ ] Designer-Verträge mit Urheberrechts-Übertragung?
-
-ENFORCEMENT
-[ ] AWA-Zoll aktiv?
-[ ] DSA-Trusted-Flagger-Status beantragt?
-[ ] Watchlist aktiv (DPMA/EUIPO)?
-```
-
-## Verweise auf andere Skills
-
-- `anmeldung-strategie-portfolio` — Lückenfüllung nach Audit
-- `markenmonitoring-und-watchlist` — Dauerhafte Überwachung nach Audit
-- `nyc-korrespondenz-und-conflict-check` — Intake-Protokoll für US-Mandat
-
-## Risiken & Stolperfallen
-
-- **Interessenkonflikt:** Vor Mandatsannahme prüfen: Keine laufenden Mandate gegen klôtzzkètté-Konkurrenten (Dior, Chanel, Balenciaga) in gleichen Produktklassen
-- **Unvollständige Inventur:** Fehlende Marken werden erst bei Verletzungsfall entdeckt — regelmäßige Updates des Audits (jährlich)
-- **Fristenkontrolle sofort:** Bereits im Erstgespräch alle Ablauffristen notieren; keine Woche Pause bis zur Fristenübersicht
-- **Vertraulichkeit des Mandats:** Mandantendaten (Umsätze, Designpläne, Kampagnen) streng nach DSGVO behandeln; keine Nutzung in anderen Mandaten
+Bei einem Zugriffsfehler einen geeigneten anderen Weg versuchen oder den erforderlichen Ausschnitt anfordern. Zugängliche Teile weiterbearbeiten, ohne vollständige Registerprüfung oder erfolgreiche Dateierzeugung zu behaupten.

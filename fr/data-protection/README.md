@@ -4,12 +4,11 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `fr` · Practice: `data-protection` · Skill language: fr
 
-## Skills (2)
+## Skills (1)
 
 | Skill | What it does |
 |---|---|
-| [`User Input`](skills/arckit-fr-rgpd/) | [COMMUNITY] Assess CNIL-specific GDPR obligations for French deployments — cookies, health data (HDS),… |
-| [`Implementing CNIL-Compliant Cookies`](skills/cnil-compliant-cookies/) | Implementation guide for CNIL cookie guidelines compliance. References the EUR 150M Google fine and EUR 60M… |
+| [`Implementing CNIL-Compliant Cookies`](skills/cnil-compliant-cookies/) | Implementation guide for CNIL cookie guidelines compliance. References the EUR 150M Google fine and EUR… |
 
 ## Cold-start context
 

@@ -10,7 +10,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `cybersecurity` · Skill languag
 
 | Skill | What it does |
 |---|---|
-| [`Cybersecurity Compliance`](skills/cybersecurity-compliance-fdu-ins/) | Use when identifying cybersecurity-specific regulations and incident reporting obligations. Covers NIS2,… |
+| [`Cybersecurity Compliance`](skills/cybersecurity-compliance-fdu-ins/) | Use when identifying cybersecurity-specific regulations and incident reporting obligations. Covers NIS2… |
 
 ## Cold-start context
 

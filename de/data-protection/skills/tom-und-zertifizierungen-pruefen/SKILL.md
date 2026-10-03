@@ -1,11 +1,11 @@
 ---
 name: tom-und-zertifizierungen-pruefen
 title: TOM und Zertifizierungen prüfen
-description: Prüfe technische und organisatorische Massnahmen des KI-Anbieters und seine Zertifizierungen. Maßstab Art. 32 DS-GVO ISO 27001 BSI C5 (Cloud Computing Compliance Criteria Catalogue) SOC zwei Typ zwei TISAX. Zentral für Berufsrecht no training Zero-Retention EU-Hosting Verschluesselung Löschkonzept Audit-Recht. DAV-Stellungnahme Seite dreizehn vierzehn.
+description: 'Für TOM und Zertifizierungen prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/tom-und-zertifizierungen-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,13 +14,17 @@ language: de
 
 # TOM und Zertifizierungen prüfen
 
-## Disclaimer
+## Fachkern: TOM und Zertifizierungen prüfen
 
-Diese Forprüfung ist keine Rechtsberatung, sondern strukturierte Argumentationshilfe für das Anbietergespräch. Die abschließende berufsrechtliche und strafrechtliche Beurteilung bleibt der inhabilen Kanzlei beziehungsweise einer beauftragten Spezialkanzlei vorbehalten.
+- **KI-/Berufsrechtsproblem (TOM und Zertifizierungen prüfen):** Prüfe technische und organisatorische Maßnahmen des KI-Anbieters und seine Zertifizierungen. Maßstab Art. 32 DS-GVO ISO 27001 BSI C5 (Cloud Computing Compliance Criteria Catalogue) SOC zwei Typ zwei TISAX. Zentral für Berufsrecht no training Zero-Retention EU-Hosting Verschluesselung Löschkonzept Audit-Recht. berufsrechtliche KI-Debatte Seite dreizehn vierzehn.
+- **Normenanker:** BRAO, BORA, § 203 StGB, § 204 StGB, DSGVO/BDSG, Auftragsverarbeitung, Dienstleisterregelungen der freien Berufe und prozessuale Akten-/Mandatsgeheimnisse fallbezogen prüfen.
+- **Entscheidende Weiche:** Anbieterbehauptung, Vertragswortlaut, technische Realität, Berufsgeheimnis, Datenschutzrolle und Strafbarkeitsrisiko auseinanderziehen.
+- **Arbeitsprodukt:** Anbieter-Fragenliste, Risikomatrix, Vertragsredline und Entscheidung, ob Pilot, Stop oder Nachverhandlung.
+- **Hinweis:** Ergebnis bleibt Vorprüfung für Kanzlei- oder Spezialberatung; keine Scheinsicherheit gegenüber Berufsrecht oder Strafrecht.
 
 ## Norm und Rahmen
 
-Berufsrechtlich verlangt die Sorgfaltspflicht bei der Dienstleisterauswahl (Abs. 2 der jeweiligen Dienstleisterregelung), dass die technische und organisatorische Sicherheit des Anbieters überzeugt. Datenschutzrechtlich präzisiert das Art. 32 DS-GVO. Die DAV-Stellungnahme 32/2025 (Seite 13) stellt klar: Die Verschlüsselung darf nicht so weit gefordert werden, dass sie die KI-Dienstleistung entwertet. Eine Ende-zu-Ende-Verschlüsselung, die das KI-System-Inferencing unmöglich macht, ist berufsrechtlich nicht zu verlangen.
+Berufsrechtlich verlangt die Sorgfaltspflicht bei der Dienstleisterauswahl (Abs. 2 der jeweiligen Dienstleisterregelung), dass die technische und organisatorische Sicherheit des Anbieters überzeugt. Datenschutzrechtlich präzisiert das Art. 32 DS-GVO. Die berufsrechtliche KI-Debatte 32/2025 (Seite 13) stellt klar: Die Verschlüsselung darf nicht so weit gefordert werden, dass sie die KI-Dienstleistung entwertet. Eine Ende-zu-Ende-Verschlüsselung, die das KI-System-Inferencing unmöglich macht, ist berufsrechtlich nicht zu verlangen.
 
 ## "no training" — Zentralfrage
 
@@ -95,7 +99,7 @@ DSGVO-spezifisches Konformitätsverfahren nach Art. 40 DS-GVO. Hilfreich, aber k
 
 ## Prüfschema
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Punkt | Status | Ampel | Bemerkung |
 |---|---|---|---|
@@ -119,13 +123,8 @@ DSGVO-spezifisches Konformitätsverfahren nach Art. 40 DS-GVO. Hilfreich, aber k
 - Löschung nur "auf Anforderung", keine automatische
 - Keine "no training"-Klausel für das verwendete Modell
 
-## Output
-
-Tabellarische Bewertung. Defizite landen im Rückfragebrief mit der Aufforderung, Zertifikate, Geltungsbereiche und Vertragsklauseln vorzulegen.
-
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
@@ -134,9 +133,6 @@ Tabellarische Bewertung. Defizite landen im Rückfragebrief mit der Aufforderung
 - Art. 28 Abs. 3 lit. c DSGVO — TOM-Anlage als Pflichtbestandteil der AVV
 - Art. 83 Abs. 4 DSGVO — Bußgeld bei Verstoß gegen Art. 32: bis 10 Mio. EUR oder 2 %
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 
 1. Liegt eine aktuelle TOM-Anlage (mit Datum) zum Vertrag vor?
@@ -144,16 +140,16 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 3. Bei Cloud-Anbieter: BSI C5 Typ 2 Testat vorhanden?
 4. Sind "no training" und Zero-Retention-Regelungen in den TOMs enthalten?
 5. Gibt es ein Audit-Recht der Kanzlei?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
 | Standard — TOM-Abschnitt im Vertrag bewerten | Checkliste Art. 32 DSGVO; Template unten |
-| Variante A — Zertifizierung ISO 27001 vorhanden | Zertifikat pruefen ob aktuell; Scope-Abdeckung beachten |
+| Variante A — Zertifizierung ISO 27001 vorhanden | Zertifikat prüfen ob aktuell; Scope-Abdeckung beachten |
 | Variante B — keine TOM-Anlage vorhanden | Ergaenzung fordern; Muster-TOM-Anlage als Verhandlungsgrundlage |
 | Variante C — Hochrisiko-Verarbeitung | Erweiterte TOM-Anforderungen; ggf. Pen-Test-Pflicht vereinbaren |
 
@@ -189,7 +185,9 @@ Ampel TOM/Zertifizierungen: GRUEN / GELB / ROT
 Luecken: [BESCHREIBUNG]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

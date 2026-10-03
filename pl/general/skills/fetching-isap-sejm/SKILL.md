@@ -1,18 +1,18 @@
 ---
 name: fetching-isap-sejm
-title: fetching-isap-sejm
+title: law-pl-fetching-isap-sejm
 description: Use when retrieving Polish legislation text from the official portal isap.sejm.gov.pl (Internetowy System Aktów Prawnych) — fetching specific historical redactions by date, verifying current validity of a norm, tracking amendments, working with consolidated texts (tekst jednolity), or constructing URLs for Polish codes and acts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-fetching-isap-sejm
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: general
 language: pl
 ---
 
-# fetching-isap-sejm
+# law-pl-fetching-isap-sejm
 
 ISAP — Internetowy System Aktów Prawnych Sejmu RP. Wraz z dziennikustaw.gov.pl stanowi jedyne autorytatywne źródło tekstów polskich aktów prawnych. Prawidłowy URL pozwala uzyskać brzmienie obowiązujące lub na konkretną datę historyczną.
 

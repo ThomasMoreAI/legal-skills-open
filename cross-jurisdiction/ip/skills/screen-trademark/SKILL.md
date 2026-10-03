@@ -5,7 +5,7 @@ description: Screen proposed trademark → conflicts + distinctiveness pre-filin
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/caveman-ultra/skills/screen-trademark
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip
@@ -202,7 +202,7 @@ Compile all → structured actionable report.
    - **Distinctiveness**: Abercrombie, registration implications
    - **Conflict matrix**: all conflicts + risk
 
-```
+```text
 Conflict Risk Matrix:
 +----+-------------------+----------+---------+-------+---------+
 | #  | Prior Mark        | Classes  | Juris.  | Type  | Risk    |

@@ -1,122 +1,87 @@
 ---
 name: aussenwirtschaft-us-ear-itar
-title: US EAR, ITAR und Extraterritorialität
-description: US-Exportkontrolle EAR ITAR und OFAC für Unternehmen mit US-Bezug im Aussenhandel. Anwendungsfall Produkt enthaelt US-Komponenten oder unterliegt US-Recht und Reexport- oder Weitergabepflichten muessen geprüft werden. Normen EAR 15 CFR §§ 730-774 ITAR 22 CFR §§ 120-130 OFAC SDN-Liste Foreign Direct Product Rule. Prüfraster US-Touchpoints Reexport-Risiken US-Origin-Komponenten De-minimis-Regel Foreign Direct Product Rule ITAR-Bezug OFAC-Bezug. Output US-Exportkontroll-Dossier mit Reexport-Klassifizierung Lizenzpfad und OFAC-Screening-Nachweis. Abgrenzung zu aussenwirtschaft-exportkontrolle-dual-use und aussenwirtschaft-sanktionen-embargos.
+title: US-Exportkontrolle EAR und ITAR als Touchpoint im EU-Mandat
+description: 'Für US-Exportkontrolle EAR und ITAR als Touchpoint im EU-Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-us-ear-itar
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: sanctions
 language: de
 ---
 
-# US EAR, ITAR und Extraterritorialität
+# US-Exportkontrolle EAR und ITAR als Touchpoint im EU-Mandat
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill markiert US-Rechtsrisiken als Prüf- und Counsel-Themen, ohne US-Rechtsberatung zu simulieren.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- EU-Unternehmen reexportiert Software mit US-Komponenten in Drittland; de-minimis-Prüfung noetig.
+- Ruestungsunternehmen erhalt ITAR-kontrollierte Technologie von US-Partner; Weitergabe an EU-Partner erlaubt?
+- Europaeischer Halbleiterhersteller nutzt US-Produktionsanlagen; Foreign-Direct-Product-Rule greift.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. US-Ursprungsanteil des Produkts bestimmen: Technologie Software Ausruestung US-Herkunft?
+2. De-minimis-Schwelle prüfen (10 Prozent für CCL-Waren; 0 Prozent für Russland/China Militaer).
+3. Foreign-Direct-Product-Rule (FDPR) auf Relevanz prüfen bei US-Produktionsausruestung.
+4. ITAR-Anwendbarkeit prüfen: US-Ruestungsgueter nach USML; Reexport-Genehmigung noetig?
+5. ECCN-Klassifizierung des Produkts anhand CCL (Commerce Control List) prüfen.
+6. US-Touchpoint-Vermerk erstellen und klar als US-Risikomarker kennzeichnen.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **EAR 15 CFR Part 730-774**: US-Exportkontrolle für Dual-Use-Gueter.
+- **ITAR 22 CFR Parts 120-130**: US-Ruestungsguterkontrolle für USML-Produkte.
+- **EAR Part 734.4**: De-minimis-Schwellen für US-Ursprungsanteile.
+- **EAR Part 734.9**: Foreign-Direct-Product-Rule bei US-Technologieeinsatz.
+- **AWG § 1**: Abgrenzung des deutschen Rechts zu US-extraterritorialen Regelungen.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] US-Ursprungsanteil quantifiziert?
+- [ ] De-minimis-Schwelle berechnet und dokumentiert?
+- [ ] Foreign-Direct-Product-Rule auf Relevanz geprueft?
+- [ ] ITAR-Anwendbarkeit für militaerische Produkte geprueft?
+- [ ] ECCN-Klassifizierung anhand CCL durchgefuehrt?
+- [ ] US-Touchpoint-Vermerk als Risikomarker im Mandat gesetzt?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- FDPR greift auch bei EU-Produkten die mit US-Ausruestung hergestellt wurden.
+- De-minimis gilt nicht bei Gutern für Russland China Militaer; 0-Prozent-Schwelle beachten.
+- ITAR verbietet jede Weitergabe ohne spezifische US-Genehmigung; kein EU-Pendant akzeptabel.
+- US-Re-Export-Controls können EU-Sanktionsausnahmen unterlaufen.
 
-## Triage vor US-EAR-/ITAR-Pruefung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Liegt ein US-Ursprung der Ware, Software, Technologie oder ein US-Person-Nexus vor?
-2. Handelt es sich um Dual-Use-Gueter (EAR, 15 CFR Part 774 CCL) oder Ruestungsguter (ITAR, 22 CFR Part 121 USML)?
-3. Bestimme den Export Control Classification Number (ECCN) oder prüfe ob EAR99 (nicht gelistet).
-4. Zielland: Country Chart-Pruefung — Reasons for Control (NS, MT, NP, CB, AT)?
-5. Gilt die De-Minimis-Regel (25 % US-Wertanteil bei Drittlandsware) oder die Foreign Direct Product Rule (FDP)?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- US Court of Appeals, *United States v Zhen Zhou Wu* (1st Cir. 2012) — Mens-Rea-Anforderungen beim EAR-Verstos: Kenntnis der US-Origin und der Genehmigungspflicht genuegt; willful blindness als Vorsatzaequivalent.
-- US District Court SDNY, *United States v Oleg Zhelobovsky* (2014) — Tatbestandsmaessigkeit von Reexport-Transaktionen unter EAR; auch auslaendische Zwischenhaendler koennen haften, wenn US-Nexus feststeht.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## Quellen
 
-## Normen-Kette US EAR/ITAR
-
-- 15 CFR Part 730-774 — Export Administration Regulations (EAR), ECCN, CCL
-- 22 CFR Parts 120-130 — International Traffic in Arms Regulations (ITAR), USML
-- 15 CFR § 734.4 — De Minimis Rule (25 % / 10 % Schwelle)
-- 15 CFR § 736.2(b)(3) — Foreign Direct Product Rule (FDP)
-- VO (EG) 2271/96 — EU-Blocking-Statute gegen extraterritoriale US-Sanktionen
-- § 4 I AWG — Nationales Verbot der Unterstuetzung auslaendischer Sanktionen
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: EAR/ITAR-Klassifizierungsvermerk
-
-**Adressat:** Export Compliance Officer — **Tonfall:** regulierungstechnisch, ECCN-praezise
-
-```
-US EXPORTKONTROLLE (EAR/ITAR) — KLASSIFIZIERUNGSVERMERK
-Datum: [DATUM]
-Produkt: [BEZEICHNUNG]  Hersteller: [LAND/FIRMA]
-US-Ursprung: [ ] Ja / [ ] Nein / [ ] Unklar
-Bearbeiter: [NAME]
-
-1. KLASSIFIZIERUNG
-   ECCN (CCL Anh. I): [CODE z.B. 5E002] — Begruendung: [...]
-   Alternativ EAR99: [ ] (wenn kein ECCN zugewiesen)
-   ITAR-USML-Kategorie: [KATEGORIE / entfallt]
-
-2. ZIELLAND-CHECK (Country Chart)
-   Zielland: [LAND]
-   Reasons for Control: NS1 / MT / NP / CB / AT / EI / RS
-   Genehmigungspflicht: [ ] Ja / [ ] Nein / [ ] License Exception anwendbar: [AUSNAHME]
-
-3. DE MINIMIS / FDP
-   US-Wertanteil: [%] — De-Minimis-Grenze: [ ] 25% / [ ] 10% (AT/Embargo)
-   FDP Rule ausgeloest: [ ] Ja / [ ] Nein — Begruendung: [...]
-
-4. ERFORDERLICHE GENEHMIGUNG
-   [ ] Keine (License Exception: [CODE])
-   [ ] BIS-Einzellizenz erforderlich — Bearbeitungszeit ca. [WOCHEN]
-   [ ] ITAR-License (DDTC) erforderlich
-
-5. EU-BLOCKING-STATUTE
-   VO (EG) 2271/96 relevant: [ ] Ja — Abwaegung: [...] / [ ] Nein
-```
+- [BIS Export Administration Regulations](https://www.bis.doc.gov/index.php/regulations/export-administration-regulations-ear)
+- [DDTC ITAR](https://www.pmddtc.state.gov/ddtc_public/ddtc_public?id=ddtc_public_portal_itar_landing)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [BAFA Dual-Use](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Dual_Use/dual_use_node.html)

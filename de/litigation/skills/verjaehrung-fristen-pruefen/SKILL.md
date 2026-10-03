@@ -1,11 +1,11 @@
 ---
 name: verjaehrung-fristen-pruefen
 title: Verjährung und Fristen prüfen
-description: 'Prüft Verjährungsfristen: Regelfrist 3 Jahre (§§ 195/199 BGB), kenntnisabhaengige Fristen, absolute 10- und 30-Jahresfristen, Hemmung (§§ 203 ff. BGB), Neubeginn (§ 212 BGB), prozessuale Notfristen und EU-Verjährungsregeln. Ergebnis: verjährt ja/nein/fraglich.'
+description: 'Für Verjährung und Fristen prüfen: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/verjaehrung-fristen-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,6 +13,18 @@ language: de
 ---
 
 # Verjährung und Fristen prüfen
+
+## Arbeitsbereich
+
+Prüft Verjährungsfristen: Regelfrist 3 Jahre (§§ 195/199 BGB), kenntnisabhaengige Fristen, absolute 10- und 30-Jahresfristen, Hemmung (§§ 203 ff. BGB), Neubeginn (§ 212 BGB), prozessuale Notfristen und EU-Verjährungsregeln. Ergebnis: verjährt ja/nein/fraglich. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn — kläre vor der Verjährungsprüfung
 
@@ -33,10 +45,6 @@ language: de
 - § 214 BGB — Verjährungseinrede: muss erhoben werden, kein Amtsbeweise
 - § 438 BGB — Sonderverjährung Kaufmängel (2 Jahre / 5 Jahre Bau)
 - § 634a BGB — Sonderverjährung Werkvertragsansprüche (2 Jahre / 5 Jahre)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Verjährungsfristen im deutschen Recht
 
@@ -63,7 +71,6 @@ language: de
 
 ### Verjährung im Arbeitsrecht
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Hemmung der Verjährung §§ 203–213 BGB
 
@@ -72,13 +79,11 @@ Hemmung: Die Verjährungsfrist läuft nicht; die Restfrist läuft nach Ende des 
 **Wichtige Hemmungstatbestände:**
 - Klageerhebung (§ 204 Abs. 1 Nr. 1 BGB): Hemmung mit Einreichung, wenn demnächst zugestellt
 - Mahnbescheid (§ 204 Abs. 1 Nr. 3 BGB): Hemmung bei Zustellung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Stillhaltevereinbarung (§ 205 BGB): vertragliche Stundung
 
 ## Neubeginn der Verjährung § 212 BGB
 
 Der Neubeginn löscht die bisher abgelaufene Verjährungszeit:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Zwangsvollstreckungshandlung
 
 ## Prozessuale Notfristen
@@ -93,16 +98,14 @@ Der Neubeginn löscht die bisher abgelaufene Verjährungszeit:
 ```
 Anspruch entstanden wann?
 └─ Beginn: 31.12. des Entstehungsjahres
-   ├─ Regelfrist: 3 Jahre (§ 195 BGB)
-   ├─ Sonderverjährung einschlägig? → Tabelle oben
-   ├─ Hemmungstatbestand vorhanden?
-   │  ├─ Ja → Hemmungszeitraum herausrechnen
-   │  └─ Nein → weiter
-   └─ Neubeginn ausgelöst?
-      ├─ Ja → neue Frist ab Neubeginnzeitpunkt
-      └─ Nein → Ergebnis: verjährt / nicht verjährt
+ ├─ Regelfrist: 3 Jahre (§ 195 BGB)
+ ├─ Sonderverjährung einschlägig? → Tabelle oben
+ ├─ Hemmungstatbestand vorhanden?
+ │ ├─ Ja → Hemmungszeitraum herausrechnen
+ │ └─ Nein → weiter
+ └─ Neubeginn ausgelöst?
+ ├─ Ja → neue Frist ab Neubeginnzeitpunkt
+ └─ Nein → Ergebnis: verjährt / nicht verjährt
 ```
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -8,8 +8,8 @@ Jurisdiction: `lu` · Practice: `real-estate` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`Skill : Notaire Luxembourg`](skills/notaire-gregherbe76/) | Notaire luxembourgeois — frais d'acte (droits d'enregistrement + transcription + Bëllegen Akt), plus-values… |
-| [`Skill : Syndic de Copropriété Luxembourg`](skills/syndic-gregherbe76/) | Syndic de copropriété au Luxembourg — gestion d'un parc selon la loi du 16 mai 1975 modifiée (notamment loi… |
+| [`Skill : Notaire Luxembourg`](skills/notaire-gregherbe76/) | Notaire luxembourgeois — frais d'acte (droits d'enregistrement + transcription + Bëllegen Akt)… |
+| [`Skill : Syndic de Copropriété Luxembourg`](skills/syndic-gregherbe76/) | Syndic de copropriété au Luxembourg — gestion d'un parc selon la loi du 16 mai 1975 modifiée (notamment… |
 
 ## Cold-start context
 

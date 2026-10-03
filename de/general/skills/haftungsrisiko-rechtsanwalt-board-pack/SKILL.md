@@ -1,0 +1,69 @@
+---
+name: haftungsrisiko-rechtsanwalt-board-pack
+title: Haftungsrisiko-Memo
+description: 'Für Haftungsrisiko-Memo: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/memorandums-ersteller/skills/haftungsrisiko-rechtsanwalt-board-pack
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Haftungsrisiko-Memo
+
+## Arbeitsweg
+
+Bei neuen Gegenentscheidungen oder verschlechterter Beweislage gilt ergänzend [BGH, Urteil vom 30.04.2026 – IX ZR 154/24, Rn. 19–33](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/IX_ZS/2024/IX_ZR_154-24.pdf?__blob=publicationFile&v=1): Bewerte selbst, wie sich die Erfolgsaussichten ändern, und berate den Mandanten schon vor völliger Aussichtslosigkeit erneut. Bloßer Versand der Parallelentscheidung oder der Hinweis, die Rechtsschutzversicherung zahle ohnehin, genügt nicht. Formuliere das ungefähre Risikomaß und den begründeten Rat zur Fortsetzung, Anpassung oder Beendigung neu; frage nach der darauf gestützten Entscheidung des Mandanten. Beratungspflicht, hypothetisches Verhalten, kausaler Schaden und Anscheinsbeweis bleiben getrennt. Der BGH hat die Haftung nicht abschließend zugesprochen.
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Verjährung Anwaltshaftung § 195 BGB 3 Jahre, ggf. § 199 (Kenntnis), Mandatsannahme/Ablehnung unverzüglich, BRAO § 44 Annahme/Ablehnung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 43b, 49b (Verschwiegenheit/Haftung), BORA §§ 2, 5, 11, BGB §§ 280, 675 (Anwaltshaftung), HOAI-/RVG-Aspekte, ZPO § 138 (Wahrheitspflicht) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Rechtsanwalt, Auftraggeber (intern: Rechtsabteilung), Gegner, ggf. Gericht (bei Vorlage), externer Spezialist.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Memo (Sachverhalt, Frage, Kurzergebnis, Begründung, Risiko, Empfehlung), Akteneinsichtsantrag, Vollmacht, Honorarvereinbarung, Tatsachenpaket — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen: Haftungsrisiko-Memo
+- **Normen-/Quellenanker:** Paragrafen 675 Absatz 1, 280 Absatz 1 BGB für anwaltliche Vertragshaftung. Versicherungsrecht nur für tatsächlich beauftragte Deckungsfragen; Rechtsschutzdeckung ersetzt die eigenständige Beratung zur Prozesschance nicht.
+
+## Fallweichen
+Frage zu Beginn nur ab, was für den naechsten Schritt unverzichtbar ist. Wenn Material vorliegt, mit dem Material arbeiten und nur eine gezielte Rueckfrage stellen.
+
+1. **Rolle und Ziel:** Wer fragt, welche Rolle, welcher gewuenschte Output (Memo, Schriftsatz, Tabelle, Checkliste)?
+2. **Sachverhalt:** Welche unstreitigen Tatsachen liegen vor, was ist streitig, was fehlt noch?
+3. **Fristen:** Gibt es Termine, Fristen, eilbeduerftige Schritte?
+4. **Unterlagen:** Welche Dokumente, Bescheide, Verträge, Auszuege liegen vor?
+5. **Format:** Wie ausfuehrlich, für wen, in welcher Tonalitaet?
+
+## Prüfraster
+
+Der Output muss als verwertbares Arbeitsprodukt aufgebaut sein:
+
+1. **Sachverhalt fixieren** – streitige und unstreitige Tatsachen trennen, Lueckentafel.
+2. **Rechtliche Einordnung** - nur einschlaegige Normen, verifizierte Rechtsprechung und frei prüfbare amtliche Quellen; keine Literatur- oder Datenbankfundstellen erfinden.
+3. **Prüfung im Gutachtenstil** – Obersatz, Definition, Subsumtion, Zwischenergebnis.
+4. **Handlungsempfehlung** – konkret, mit naechstem Schritt, verantwortlicher Person, Frist.
+
+## Plugin-Kontext
+Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Normen, Fristen, Belege und Gegenargumente und erzeugt einen unmittelbar nutzbaren nächsten Schritt.
+
+## Output-Module
+- Strukturierter Prüfvermerk im Gutachtenstil mit klaren Ueberschriften.
+- Tabellen/Checklisten, wo das die Lesbarkeit erhoeht.
+- Anschreiben-, Antrags- oder Klageschriftsatz-Geruest, wenn die Aufgabe das verlangt.
+- Quellenliste mit Gericht, Datum, Aktenzeichen, frei prüfbarem Link.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Was dieser Arbeitsgang nicht macht
+- Kein Ersatz für eine vollstaendige Mandantenberatung.
+- Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
+- Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
+- Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.

@@ -5,11 +5,16 @@ description: Assessoria judicial completa para processos penais. Use esta skill 
 author: marcosmarf27
 author_url: https://github.com/marcosmarf27/tecjustica/tree/main/skills/analise-processo-penal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: criminal
 language: pt
+sources:
+- title: Modelos decisoes penais
+  path: references/modelos-decisoes-penais.md
+- title: Ritos penais
+  path: references/ritos-penais.md
 ---
 
 # Assessor Judicial — Processo Penal

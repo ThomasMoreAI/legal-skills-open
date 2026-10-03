@@ -1,11 +1,11 @@
 ---
 name: oeffentliches-recht-statthaft-zulaessig-begruendet
 title: Öffentliches Recht — Statthaftigkeit, Zulässigkeit, Begründetheit
-description: 'Student bearbeitet öffentlich-rechtliche Klage in der Hausarbeit: Statthaftigkeit Zulässigkeit Begründetheit. VwGO §§ 40 42 47 113 BVerfGG Verfassungsbeschwerde Normenkontrolle. Prüfraster Klagearten Anfechtungs- Verpflichtungs- Leistungsklage einstweiliger Rechtsschutz. Output prüfungsschema öffentliches Recht Statthaftigkeits-Prüfung. Abgrenzung zu verfassungsrecht-grundrechtsprüfung (Grundrechte) und fachgebiet-routing (Fachgebiet-Wahl).'
+description: 'Für Öffentliches Recht — Statthaftigkeit, Zulässigkeit, Begründetheit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/oeffentliches-recht-statthaft-zulaessig-begruendet
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,26 +14,30 @@ language: de
 
 # Öffentliches Recht — Statthaftigkeit, Zulässigkeit, Begründetheit
 
-## Zweck
+## Arbeitsweg
 
-Im Öffentlichen Recht ist das Drei-Stufen-Schema (Statthaftigkeit – Zulässigkeit – Begründetheit) der Standard-Aufbau jeder Klage-Prüfung.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Schritt 1 — Drei-Stufen-Schema
 
 ```
 A. Zulässigkeit (oder "Zulässigkeit der Klage")
-   I. Verwaltungsrechtsweg § 40 VwGO
-   II. Statthafte Klageart
-   III. Klagebefugnis
-   IV. Vorverfahren / Klagefrist
-   V. Beteiligten- und Prozess-Fähigkeit
-   VI. Allgemeines Rechtsschutz-Interesse
+ I. Verwaltungsrechtsweg § 40 VwGO
+ II. Statthafte Klageart
+ III. Klagebefugnis
+ IV. Vorverfahren / Klagefrist
+ V. Beteiligten- und Prozess-Fähigkeit
+ VI. Allgemeines Rechtsschutz-Interesse
 
 B. Begründetheit
-   I. Anspruchsgrundlage / Rechtsgrundlage
-   II. Formelle Rechtmäßigkeit
-   III. Materielle Rechtmäßigkeit
-   IV. Rechts-Verletzung Kläger
+ I. Anspruchsgrundlage / Rechtsgrundlage
+ II. Formelle Rechtmäßigkeit
+ III. Materielle Rechtmäßigkeit
+ IV. Rechts-Verletzung Kläger
 ```
 
 ## Schritt 2 — Verwaltungsrechtsweg § 40 VwGO
@@ -133,8 +137,8 @@ Möglichkeit, dass der Kläger in eigenen Rechten verletzt ist.
 1. Anspruchsgrundlage / Ermächtigungs-Grundlage für VA
 2. Formelle Rechtmäßigkeit (Zuständigkeit, Verfahren, Form)
 3. Materielle Rechtmäßigkeit
-   a) Tatbestand erfüllt
-   b) Rechtsfolge / Ermessen ausgeübt
+ a) Tatbestand erfüllt
+ b) Rechtsfolge / Ermessen ausgeübt
 4. Rechts-Verletzung Kläger
 ```
 
@@ -221,36 +225,36 @@ Möglichkeit, dass der Kläger in eigenen Rechten verletzt ist.
 
 ```
 A. Zulässigkeit Verpflichtungsklage
-   I. Verwaltungsrechtsweg § 40 VwGO (öffentlich-rechtlich)
-   II. Statthafte Klageart § 42 I VwGO (Verpflichtungsklage)
-   III. Klagebefugnis § 42 II VwGO (Bauherr)
-   IV. Vorverfahren §§ 68 ff. VwGO (Widerspruch erfolgt)
-   V. Frist § 74 VwGO (Klage rechtzeitig)
+ I. Verwaltungsrechtsweg § 40 VwGO (öffentlich-rechtlich)
+ II. Statthafte Klageart § 42 I VwGO (Verpflichtungsklage)
+ III. Klagebefugnis § 42 II VwGO (Bauherr)
+ IV. Vorverfahren §§ 68 ff. VwGO (Widerspruch erfolgt)
+ V. Frist § 74 VwGO (Klage rechtzeitig)
 
 B. Begründetheit
-   I. Anspruchsgrundlage § 70 BauO Bauerlaubnis
-   II. Voraussetzungen erfüllt (Vorhaben planungs-rechtlich zulässig)
-   III. Kein Versagungs-Grund
-   IV. Ermessens-Reduktion auf null (bei gebundener Entscheidung) oder günstige Ermessens-Entscheidung
+ I. Anspruchsgrundlage § 70 BauO Bauerlaubnis
+ II. Voraussetzungen erfüllt (Vorhaben planungs-rechtlich zulässig)
+ III. Kein Versagungs-Grund
+ IV. Ermessens-Reduktion auf null (bei gebundener Entscheidung) oder günstige Ermessens-Entscheidung
 ```
 
 ### Beispiel: Polizei-Anordnung anfechten
 
 ```
 A. Zulässigkeit Anfechtungsklage
-   I. § 40 VwGO
-   II. § 42 I VwGO
-   III. § 42 II VwGO
-   IV. Vorverfahren entbehrlich (§ 68 VwGO Sonderregel)
-   V. § 74 VwGO
+ I. § 40 VwGO
+ II. § 42 I VwGO
+ III. § 42 II VwGO
+ IV. Vorverfahren entbehrlich (§ 68 VwGO Sonderregel)
+ V. § 74 VwGO
 
 B. Begründetheit
-   I. Ermächtigungs-Grundlage § X PolG
-   II. Formelle Rechtmäßigkeit (Zuständigkeit, Verfahren, Form)
-   III. Materielle Rechtmäßigkeit
-      1. Tatbestand
-      2. Rechtsfolge / Ermessen
-   IV. Rechts-Verletzung Kläger
+ I. Ermächtigungs-Grundlage § X PolG
+ II. Formelle Rechtmäßigkeit (Zuständigkeit, Verfahren, Form)
+ III. Materielle Rechtmäßigkeit
+ 1. Tatbestand
+ 2. Rechtsfolge / Ermessen
+ IV. Rechts-Verletzung Kläger
 ```
 
 ## Hilfsfragen für Deine Reflexion
@@ -266,4 +270,4 @@ B. Begründetheit
 - `verfassungsrecht-grundrechtspruefung` — bei Grundrechts-Bezug
 - `europarecht-anwendbarkeit-vorrang-vorabentscheidung` — bei EU-Bezug
 - `gliederung-mit-tiefenstruktur` — Gliederung
-- `subsumtion-schritt-fuer-schritt` — Subsumtions-Praxis
+- `subsumtion-schritt-für-schritt` — Subsumtions-Praxis

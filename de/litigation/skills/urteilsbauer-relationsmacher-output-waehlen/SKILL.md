@@ -1,0 +1,56 @@
+---
+name: urteilsbauer-relationsmacher-output-waehlen
+title: Output wählen
+description: 'Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Urteilsbauer und Relationsmacher.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/output-waehlen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Output wählen
+
+## Einsatzlage
+
+Diese Output-Weiche für **Urteilsbauer Relationsmacher** entscheidet, ob Memo, Antrag, Schriftsatz, Tabelle, Risikoampel, Fragenliste oder Mandantenbrief der richtige nächste Schritt ist.
+
+## Fachlandkarte dieses Plugins
+
+- `aktenintake-schriftsatz-brief-und-memo-bausteine` — Aktenintake Schriftsatz Brief und Memo Bausteine
+- `aktenintake-zivil` — Aktenintake Zivil
+- `amts-aktenintake-zivil-anspruchsgrundlagen` — Amts Aktenintake Zivil Anspruchsgrundlagen
+- `amts-fristen-form-zustaendigkeit` — Amts Fristen Form Zustaendigkeit
+- `anspruchsgrundlagen-pruefen` — Anspruchsgrundlagen Prüfen
+- `berufungsfest-beschluss-bauen-beweisbeschluss` — Berufungsfest Beschluss Bauen Beweisbeschluss
+- `berufungsfest-pruefen` — Berufungsfest Prüfen
+- `beschluss-bauen-zpo` — Beschluss Bauen ZPO
+- `beschluss-tatbestand-beweis-und-belege` — Beschluss Tatbestand Beweis und Belege
+- `beschluss-tatbestandsmerkmale` — Beschluss Tatbestandsmerkmale
+- `beweisbeschluss-vorbereiten` — Beweisbeschluss Vorbereiten
+- `beweiswuerdigung-mit-richter-input` — Beweiswuerdigung mit Richter Input
+- `beweiswuerdigung-quellenkarte` — Beweiswuerdigung Quellenkarte
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Ergebnistyp bestimmen: Schriftsatz an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen, Mandantenmemo, Risikobericht, Vertragsentwurf, Entscheidungsvorlage, Behörden-Stellungnahme — was braucht der Mandant wirklich?
+- Pflichtformate festlegen: Tenor / Antrag / Begründung (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis); konkrete Norm-Pinpoints im Urteilsbauer Relationsmacher (ZPO) einarbeiten.
+- Adressat-Klarheit: Sprache, Detailtiefe und juristische Vorbildung des Empfängers berücksichtigen; bei Mandant ohne Vorbildung Klartext-Zusammenfassung voranstellen.
+- Beweis- und Anlagenstruktur planen (chronologisch, thematisch, K- und B-Anlagen); Bezugnahmen sauber kennzeichnen.
+- Quellenfußnoten und Zitierweise sichern; offene Punkte und Annahmen explizit als solche kennzeichnen.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

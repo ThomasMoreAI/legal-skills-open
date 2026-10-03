@@ -1,11 +1,11 @@
 ---
 name: form-checker-fuer-vertrag-oder-willenserklaerung
 title: Form-Checker — Vertrag oder Willenserklärung
-description: 'Mandant hat Vertrag oder Willenserklärung und fragt: Welche Form ist vorgeschrieben wurde sie eingehalten und was passiert wenn nicht? Form-Checker BGB. Prüfraster: gesetzliche vs. gewillkuerte Form Formhierarchie Nichtigkeitsfolge § 125 BGB Heilungsmöglichkeiten Abgrenzung zu Textform Schriftform notarieller Beurkundung. Output: Formanalyse-Ergebnis und praktischer Workflow mit Klausel-Vorschlag. Abgrenzung zu formerfordernisse-im-bgb-ueberblick (systematischer Überblick) und klauselgenerator-formvorbehalt-und-aenderungsvorbehalt.'
+description: 'Für Form-Checker — Vertrag oder Willenserklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/schriftform-und-textform-bgb/skills/form-checker-fuer-vertrag-oder-willenserklaerung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -14,35 +14,42 @@ language: de
 
 # Form-Checker — Vertrag oder Willenserklärung
 
-## Triage — kläre vor dem Check
+Prüfe die konkrete Erklärung und ihre vollständige Fassung auf Form und Zugang. Lies Vertrag, Nachträge, Signaturdatei und Empfangsnachweis zuerst und erstelle den bestellten Prüfvermerk oder korrigierten Entwurf.
+
+## Arbeitsweg
+
+- Übernimm Erklärenden, Vertretung, Empfänger, Rechtsgeschäft und Ziel aus den Unterlagen; kläre nur entscheidende offene Angaben.
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Rechtliche Prüfung anhand der Unterlagen
+
+Die folgenden Fragen sind selbst zu prüfen, nicht als juristischer Fragebogen an den Nutzer zurückzugeben. Fehlende Tatsachen oder Dokumente werden dagegen konkret nachgefordert.
 
 1. **Rechtsgeschäftstyp:** Welches Rechtsgeschäft soll geprüft werden (Kaufvertrag, Mietvertrag, Kündigung, Bürgschaft, Grundstückskauf)?
-2. **Gesetzliches oder vertragliches Formerfordernis:** Ist die Form gesetzlich vorgeschrieben oder nur vertraglich vereinbart (§ 127 BGB)?
-3. **Sanktion:** Was ist die Rechtsfolge bei Formverstoß — Nichtigkeit (§ 125 S. 1 BGB) oder Anfechtbarkeit?
-4. **Heilungsmöglichkeit:** Ist der Formfehler heilbar (Grundstück: § 311b Abs. 1 S. 2 BGB, Bürgschaft: § 766 S. 3 BGB)?
-5. **Elektronische Form:** Kann qES (§ 126a BGB) die Schriftform ersetzen, oder ist die Papierform zwingend?
+2. **Gesetzliches oder vertragliches Formerfordernis:** Ist die Form gesetzlich vorgeschrieben oder nur vertraglich vereinbart (Paragraf 127 BGB)?
+3. **Sanktion:** Was ist die Rechtsfolge bei Formverstoß — Nichtigkeit (Paragraf 125 S. 1 BGB) oder Anfechtbarkeit?
+4. **Heilungsmöglichkeit:** Ist der Formfehler heilbar (Grundstück: Paragraf 311b Abs. 1 S. 2 BGB, Bürgschaft: Paragraf 766 S. 3 BGB)?
+5. **Elektronische Form:** Kann qES (Paragraf 126a BGB) die Schriftform ersetzen, oder ist die Papierform zwingend?
 
 ## Zentrale Normen (ergänzend)
-- § 125 BGB (Nichtigkeit bei Formmangel — gesetzlich und vertraglich)
-- § 127 BGB (Vertragliche Formvorschriften — im Zweifel schwächer als gesetzliche)
-- § 139 BGB (Teilnichtigkeit)
-- § 140 BGB (Umdeutung)
-- § 311b BGB (Grundstück — Heilung)
-- § 623 BGB (Kündigungsschutz Arbeitsrecht — Schriftformzwang)
+- Paragraf 125 BGB (Nichtigkeit bei Formmangel — gesetzlich und vertraglich)
+- Paragraf 127 BGB (Vertragliche Formvorschriften — im Zweifel schwächer als gesetzliche)
+- Paragraf 139 BGB (Teilnichtigkeit)
+- Paragraf 140 BGB (Umdeutung)
+- Paragraf 311b BGB (Grundstück — Heilung)
+- Paragraf 623 BGB (Kündigungsschutz Arbeitsrecht — Schriftformzwang)
 
 ## Rechtsprechung
-1. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-2. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-4. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Quellenregel
+Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Rechtsgrundlagen
 
-- §§ 125-129 BGB — Formerfordernisse und Sanktionen
-- Spezialgesetze: § 14 Abs. 4 TzBfG, § 623 BGB, § 568 BGB, § 656a BGB, § 550 BGB, § 766 BGB, § 311b BGB u.a.
+- Paragrafen 125-129 BGB — Formerfordernisse und Sanktionen
+- Spezialregeln: Paragraf 14 Absatz 4 TzBfG, Paragraf 623 BGB, Paragraf 568 BGB, Paragraf 656a BGB, Paragraf 578 in Verbindung mit Paragraf 550 BGB, Paragraf 766 BGB und Paragraf 311b BGB.
 
 ## Workflow
 
@@ -54,89 +61,88 @@ SCHRITT 1 — Art des Rechtsgeschäfts identifizieren
 Welches Rechtsgeschäft liegt vor?
 
 → Grundstückskauf / Grundstücksschenkung
-   → Notarielle Beurkundung § 311b BGB
-   → Heilung durch Auflassung + Eintragung
+ → Notarielle Beurkundung Paragraf 311b BGB
+ → Heilung durch Auflassung + Eintragung
 
 → GmbH-Anteilsübertragung
-   → Notarielle Beurkundung § 15 GmbHG
+ → Notarielle Beurkundung Paragraf 15 GmbHG
 
 → Ehevertrag / Scheidungsfolgenvereinbarung
-   → Notarielle Beurkundung § 1410 BGB
+ → Notarielle Beurkundung Paragraf 1410 BGB
 
 → Erbvertrag
-   → Notarielle Beurkundung § 2276 BGB
+ → Notarielle Beurkundung Paragraf 2276 BGB
 
 → Schenkungsversprechen (nicht sofortige Handschenkung)
-   → Notarielle Beurkundung § 518 BGB
+ → Notarielle Beurkundung Paragraf 518 BGB
 
 → Wohnraummiete-Kündigung
-   → Schriftform § 568 Abs. 1 BGB
-   → qES möglich, aber Zugang mit prüfbarer Signatur erforderlich
-     Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ → Schriftform Paragraf 568 Abs. 1 BGB
+ → qES möglich, aber Zugang mit prüfbarer Signatur erforderlich
 
-→ Gewerberaummietvertrag länger als 1 Jahr
-   → Schriftform § 550 BGB
-   → Alle wesentlichen Vertragsbestandteile in Urkunde
+→ Gewerberaummietvertrag länger als ein Jahr
+ → Textform nach Paragraf 578 Absatz 1 in Verbindung mit Paragraf 550 BGB
+ → Erklärender, lesbarer Inhalt, dauerhafter Datenträger und vollständige Vertragskette prüfen
+ → Bei Altverträgen Entstehungs- und Änderungsdatum nach Artikel 229 Paragraf 70 EGBGB einordnen
 
 → Maklervertrag Wohnraum (Kauf)
-   → Textform § 656a BGB
-   → E-Mail-Austausch reicht, kein Bereicherungsanspruch bei Verstoß
-     Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+ → Textform Paragraf 656a BGB
+ → E-Mail-Austausch reicht, kein Bereicherungsanspruch bei Verstoß
 
 → Bürgschaft (Nicht-Kaufmann)
-   → Schriftform § 766 BGB
-   → Originalunterschrift Bürge
+ → Schriftform Paragraf 766 BGB
+ → Originalunterschrift Bürge
 
 → Verbraucherdarlehensvertrag
-   → Schriftform § 492 BGB
-   → Bei Verstoß: § 494 BGB (Anpassungsfolge, keine Nichtigkeit)
+ → Schriftform Paragraf 492 BGB
+ → Bei Verstoß: Paragraf 494 BGB (Anpassungsfolge, keine Nichtigkeit)
 
 → Befristeter Arbeitsvertrag
-   → Schriftform vor Arbeitsbeginn § 14 Abs. 4 TzBfG
-   → Keine Heilung, bei Verstoß: unbefristetes Arbeitsverhältnis
+ → Schriftform vor Arbeitsbeginn Paragraf 14 Abs. 4 TzBfG
+ → Keine Heilung, bei Verstoß: unbefristetes Arbeitsverhältnis
 
 → Kündigung Arbeitsvertrag / Aufhebungsvertrag
-   → Schriftform § 623 BGB
-   → direkte elektronische Form ausgeschlossen
-   → Papier empfohlen; im Arbeitsgerichtsverfahren § 46h ArbGG gesondert prüfen
+ → Schriftform Paragraf 623 BGB
+ → direkte elektronische Form ausgeschlossen
+ → Papier empfohlen; im Arbeitsgerichtsverfahren Paragraf 46h ArbGG gesondert prüfen
 
 → Mieterhöhungsverlangen
-   → Textform § 558a Abs. 1 BGB (E-Mail zulässig)
+ → Textform Paragraf 558a Abs. 1 BGB (E-Mail zulässig)
 
 → Verbraucherwiderruf
-   → Textform (§ 355 BGB i.V.m. Widerrufsbelehrung)
+ → Textform (Paragraf 355 BGB i.V.m. Widerrufsbelehrung)
 
 → Sonstiger Vertrag ohne spezifische Norm
-   → Formfreiheit als Regel
-   → Prüfe: vertragliche Schriftformklausel vereinbart?
+ → Formfreiheit als Regel
+ → Prüfe: vertragliche Schriftformklausel vereinbart?
 
 SCHRITT 2 — Formwahl und Empfehlung
 ─────────────────────────────────────
 Welche Form ist möglich und welche ist empfohlen?
 
 Notarielle Beurkundung erforderlich:
-  → Notar aufsuchen; kein Ersatz durch qES
+ → Notar aufsuchen; kein Ersatz durch qES
 
 Schriftform erforderlich:
-  → Option A (sicherste): Papier + Originalunterschrift + Bote/Einschreiben
-  → Option B (technisch möglich): qES-Dokument elektronisch übermitteln
-     — Zugang als prüfbares Dokument beim Empfänger sicherstellen
-     — Eingangsbestätigung anfordern
+ → Option A (sicherste): Papier + Originalunterschrift + Bote/Einschreiben
+ → Option B (technisch möglich): qES-Dokument elektronisch übermitteln
+ — Zugang als prüfbares Dokument beim Empfänger sicherstellen
+ — Eingangsbestätigung anfordern
 
 Textform erforderlich:
-  → E-Mail mit Namen und erkennbarem Abschluss ausreichend
-  → WhatsApp: möglich, aber Sicherung empfehlen
-  → Empfehlung: schriftliche Quittung / Bestätigung einholen
+ → E-Mail mit Namen und erkennbarem Abschluss ausreichend
+ → WhatsApp: möglich, aber Sicherung empfehlen
+ → Empfehlung: schriftliche Quittung / Bestätigung einholen
 
 Keine Formvorschrift:
-  → Empfehlung trotzdem: schriftliche Dokumentation für Beweis
+ → Empfehlung trotzdem: schriftliche Dokumentation für Beweis
 
 SCHRITT 3 — Sanktion bei Verstoß
 ──────────────────────────────────
-→ Nichtigkeit § 125 S. 1 BGB (gesetzliche Form)
-→ Nur Zweifelsregel § 125 S. 2 BGB (gewillkürte Form)
-→ Spezialfolge (§ 494 BGB, § 16 TzBfG)
-→ Heilung möglich? (§ 311b Abs. 1 S. 2, § 766 S. 3, § 518 Abs. 2 BGB)
+→ Nichtigkeit Paragraf 125 S. 1 BGB (gesetzliche Form)
+→ Nur Zweifelsregel Paragraf 125 S. 2 BGB (gewillkürte Form)
+→ Spezialfolge (Paragraf 494 BGB, Paragraf 16 TzBfG)
+→ Heilung möglich? (Paragraf 311b Abs. 1 S. 2, Paragraf 766 S. 3, Paragraf 518 Abs. 2 BGB)
 
 SCHRITT 4 — Sicherungs-Workflow
 ──────────────────────────────────
@@ -149,6 +155,8 @@ SCHRITT 4 — Sicherungs-Workflow
 
 ## Templates
 
+Die folgenden Übersichten und Klauseln ersetzen weder die Spezialnormprüfung noch die Prüfung von AGB, Individualabrede und zeitlicher Anwendung. Eine Klausel wird nur auf Auftrag und nach Anpassung an den konkreten Vertrag vorgeschlagen.
+
 ### Schnell-Referenz Form-Tabelle
 
 | Rechtsgeschäft | Mindestform | Empfohlene Form |
@@ -156,45 +164,39 @@ SCHRITT 4 — Sicherungs-Workflow
 | Grundstückskauf | Notarielle Beurkundung | Notar |
 | GmbH-Anteilsübertragung | Notarielle Beurkundung | Notar |
 | Ehevertrag | Notarielle Beurkundung | Notar |
-| Wohnraummiete-Kündigung | Schriftform § 568 | Papier + Bote |
-| Gewerberaummiete >1 Jahr | Schriftform § 550 | Papier + Urkundeneinheit |
-| Maklervertrag Wohnraum | Textform § 656a | E-Mail + Bestätigung |
-| Bürgschaft | Schriftform § 766 | Papier + Originalunterschrift |
-| Arbeitsbefristung | Schriftform § 14 TzBfG | Papier vor Arbeitsbeginn |
-| Kündigung Arbeitsverhältnis | Schriftform § 623 | Papier + Bote |
-| Mieterhöhung | Textform § 558a | E-Mail |
+| Wohnraummiete-Kündigung | Schriftform Paragraf 568 | Papier + Bote |
+| Gewerberaummiete über ein Jahr | Textform nach Paragraf 578 Absatz 1 und Paragraf 550 | E-Mail oder anderes dauerhaft speicherbares Dokument; Vertragskette sichern |
+| Maklervertrag Wohnraum | Textform Paragraf 656a | E-Mail + Bestätigung |
+| Bürgschaft | Schriftform Paragraf 766 | Papier + Originalunterschrift |
+| Arbeitsbefristung | Schriftform Paragraf 14 TzBfG | Papier vor Arbeitsbeginn |
+| Kündigung Arbeitsverhältnis | Schriftform Paragraf 623 | Papier + Bote |
+| Mieterhöhung | Textform Paragraf 558a | E-Mail |
 | Verbraucherwiderruf | Textform | E-Mail / Brief |
 
 ### Klausel-Vorschlag allgemein: einfache Schriftformklausel
 
 ```
 Änderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform
-gemäß § 126 BGB. Dies gilt auch für die Aufhebung dieser Klausel.
+gemäß Paragraf 126 BGB. Dies gilt auch für die Aufhebung dieser Klausel.
 ```
 
 ### Klausel-Vorschlag: qualifizierte Schriftformklausel (doppelt)
 
 ```
 Änderungen und Ergänzungen dieses Vertrages — einschließlich dieser
-Schriftformklausel — bedürfen der Schriftform gemäß § 126 BGB.
+Schriftformklausel — bedürfen der Schriftform gemäß Paragraf 126 BGB.
 Mündliche Nebenabreden sind ausgeschlossen. Auf das Schriftformerfordernis
 kann nur durch eine schriftliche Vereinbarung beider Parteien verzichtet werden.
 ```
 
 ## Fallstricke
 
-- **Formfreiheit vs. Formklausel**: Auch wenn das Gesetz keine Form vorschreibt, kann ein vertraglich vereinbartes Schriftformerfordernis gelten (§ 127 BGB). Immer den Vertrag auf Schriftformklauseln prüfen.
-- **§ 305b BGB**: Individuelle Abreden gehen AGB (einschließlich Schriftformklausel in AGB) vor — auch mündlich. Doppelte Schriftformklausel kann Schutz bieten, ist aber selbst AGB-pflichtig.
+- **Formfreiheit vs. Formklausel**: Auch wenn das Gesetz keine Form vorschreibt, kann ein vertraglich vereinbartes Schriftformerfordernis gelten (Paragraf 127 BGB). Immer den Vertrag auf Schriftformklauseln prüfen.
+- Paragraf 305b BGB: Individuelle Abreden gehen AGB einschließlich einer doppelten Formklausel vor. Eine solche Klausel ist kein verlässlicher Ausschluss mündlicher Individualabreden; BGH, Beschluss vom 25. Januar 2017, XII ZR 69/16.
 - **Formhierarchie**: Wer Textform hat, hat noch keine Schriftform. Wer Schriftform hat, hat automatisch auch Textform gewahrt.
 
-## Querverweise
+## Fehlende Nachweise und Endfassung
 
-- → `klauselgenerator-formvorbehalt-und-aenderungsvorbehalt`
-- → `prozessablauf-papier-vs-elektronisch`
-- → `formerfordernisse-im-bgb-ueberblick`
-- → alle spezifischen Form-Skills
+Fehlt die tatsächlich versandte signierte Datei oder ist ein Nachtrag unvollständig, fordere diese konkrete Fassung an. Bewerte technische Ungeprüftheit getrennt von einem nachgewiesenen Formmangel und vom fehlenden Zugangsbeleg. Nach Eingang betroffene Form- und Zugangsprüfung sowie den Korrekturentwurf aktualisieren; neue entscheidende Widersprüche gezielt klären, statt die Aufnahme zu wiederholen.
 
-<!-- AUDIT 27.05.2026 bundle_043
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=25.11.2015&Aktenzeichen=XII+ZR+114%2F14
--->
+Liefere den bestellten Vermerk oder Erklärungstext in vollständigen Sätzen. Ein offener Nachweis darf einen vorläufigen Teilstand erfordern, beendet aber nicht die weitere Bearbeitung nach seiner Bereitstellung. Beachte gewünschten Dateinamen, dezimale Gliederung und soweit möglich Times New Roman 11 pt; interne Quellen- und Technikvermerke vom Empfängertext trennen. Keine Unterschrift, Versendung oder rückwirkende Heilung fingieren.

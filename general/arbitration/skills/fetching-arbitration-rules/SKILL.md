@@ -1,18 +1,18 @@
 ---
 name: fetching-arbitration-rules
-title: fetching-arbitration-rules
+title: law-ua-fetching-arbitration-rules
 description: Use when retrieving arbitration institutional rules (ICC, LCIA, SCC, SIAC, HKIAC, VIAC, МКАС/МАК при ТПП України, UNCITRAL) — fetching current version, verifying redaction applicable to the date of arbitration agreement, constructing URLs for official rule texts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-fetching-arbitration-rules
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: arbitration
 language: uk
 ---
 
-# fetching-arbitration-rules
+# law-ua-fetching-arbitration-rules
 
 Регламенти арбітражних інституцій періодично переглядаються (ICC — 2012/2017/2021; LCIA — 1998/2014/2020; SCC — 2017/2023; SIAC — 2013/2016/2025; HKIAC — 2013/2018/2024). Різні редакції по-різному регулюють консолідацію, emergency arbitrator, expedited procedure, early dismissal, third-party funding — тому цитата без указання року редакції не має доказової цінності. Для українського арбітражу релевантні МКАС і МАК при ТПП України, а серед провідних іноземних — ICC, LCIA, SCC, SIAC, HKIAC, VIAC; для ad hoc арбітражу — UNCITRAL Arbitration Rules.
 

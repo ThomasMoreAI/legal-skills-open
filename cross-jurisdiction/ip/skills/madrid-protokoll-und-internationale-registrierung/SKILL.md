@@ -1,11 +1,11 @@
 ---
 name: madrid-protokoll-und-internationale-registrierung
 title: Madrid-Protokoll und Internationale Registrierung
-description: 'Madrid-Protokoll WIPO und internationale Registrierung von Marken: Modehaus will Markenschutz in mehreren Laendern über IR-Anmeldung. Normen: Madrid-Protokoll (WIPO), § 107 MarkenG (IR-Marke), 15 U.S.C. § 1126 (Section 66(a) USPTO). Prüfraster: Basismarke DE/EU, Subsequent Designations für US/JP/CN/GB, Central-Attack-Risiko 5 Jahre, Transformation nach Basismarkenverlust. Output IR-Anmelde-Strategie, Designations-Liste, Central-Attack-Risikoabwaegung. Abgrenzung: Einzelne Anmeldungen je Amt siehe wortmarke-anmeldung-dpma, unionsmarken-anmeldung-euipo, uspto-anmeldung-und-lanham-act.'
+description: 'Für Madrid-Protokoll und Internationale Registrierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/madrid-protokoll-und-internationale-registrierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Madrid-Protokoll und Internationale Registrierung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Madrid-Protokoll und Internationale Registrierung
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Das Madrid-System der WIPO ist klôtzzkètté SAs Schlüsselinstrument für globale Markenpräsenz mit einem einzigen Verfahren. Statt Einzelanmeldungen in 30 Ländern: Eine WIPO-Anmeldung, eine Sprache, eine Gebührenzahlung — mit internationaler Wirkung.
 
@@ -107,12 +120,11 @@ klôtzzkètté SA nutzt EUTM Reg.-Nr. [XY] als Basis. EUIPO reicht MM2 an WIPO e
 ### Konstellation 3: UK Subsequent Designation post-Brexit
 Nach Brexit mussten UK-Schutze neu beantragt werden (UKIPO). Subsequent Designation für UK durch MM4. UKIPO hat eigene Prüfungsstandards (sehr ähnlich wie EUIPO, aber eigenständig).
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- WIPO-Leitfaden Madrid System for the International Registration of Marks, 2024
-- McCarthy on Trademarks, Vol. 4, § 29 (International Registration)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, §§ 107-125 (IR-Marken)
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -145,15 +157,15 @@ Nach Brexit mussten UK-Schutze neu beantragt werden (UKIPO). Subsequent Designat
 ## Triage-Fragen vor Madrid-IR-Anmeldung
 
 Bevor die internationale Registrierung beantragt wird, klaere:
-1. Ist die Basismarke eingetragen (nicht nur angemeldet) und unangreifbar fuer die naechsten 5 Jahre (Central Attack Period)?
-2. Sind die Ziellaender alle Madrid-Protokoll-Mitglieder (WIPO-Liste pruefen)?
+1. Ist die Basismarke eingetragen (nicht nur angemeldet) und unangreifbar für die naechsten 5 Jahre (Central Attack Period)?
+2. Sind die Ziellaender alle Madrid-Protokoll-Mitglieder (WIPO-Liste prüfen)?
 3. Ist das Warenverzeichnis der Basismarke mit den Ziellaendern kompatibel (insb. USA: SOU-Erfordernis)?
-4. Gibt es eine Section 66(a)-Designation fuer die USA — und ist US-Gebrauch belegt oder geplant?
+4. Gibt es eine Section 66(a)-Designation für die USA — und ist US-Gebrauch belegt oder geplant?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> **EUIPO BoA, Entsch. v. 23.05.2018 — R 1511/2017-5 (Transformation Madrid):** Bei Central Attack und anschliessender Transformation gemaess Art. 9quinquies PMMA bleibt der urspruengliche IR-Anmeldetag als Prioritaetsdatum erhalten; die Transformation ist fristgebunden (3 Monate nach IR-Streichung) und erfordert aktives Handeln des Rechteinhabers.
+> **EUIPO BoA, Entsch. v. 23.05.2018 — R 1511/2017-5 (Transformation Madrid):** Bei Central Attack und anschliessender Transformation gemäß Art. 9quinquies PMMA bleibt der urspruengliche IR-Anmeldetag als Prioritaetsdatum erhalten; die Transformation ist fristgebunden (3 Monate nach IR-Streichung) und erfordert aktives Handeln des Rechteinhabers.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

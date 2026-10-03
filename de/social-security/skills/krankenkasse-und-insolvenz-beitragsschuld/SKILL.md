@@ -1,0 +1,98 @@
+---
+name: krankenkasse-und-insolvenz-beitragsschuld
+title: 'Krankenkasse und Insolvenz: Beitragsschuld'
+description: 'Für Krankenkasse und Insolvenz: Beitragsschuld: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/krankenkasse-und-insolvenz-beitragsschuld
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Krankenkasse und Insolvenz: Beitragsschuld
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+Beitragsschulden bei der Krankenversicherung können erheblich sein. In der Insolvenz stellen sich besondere Fragen. Kläre **Rang der Beitragsschulden, Insolvenzverfahren, Restschuldbefreiung und Krankenversicherungsschutz während Insolvenz**.
+
+## Rechtlicher Rahmen
+
+- **§ 38 InsO** – Insolvenzforderungen (vor Insolvenzeröffnung)
+- **§ 55 InsO** – Masseverbindlichkeiten (nach Insolvenzeröffnung)
+- **§ 286 InsO** – Restschuldbefreiung
+- **§ 302 InsO** – Ausnahmen von der Restschuldbefreiung (vorsätzliche unerlaubte Handlungen; gilt für Sozialversicherungsbeiträge? → BSG prüfen)
+- **§ 25 SGB IV** – Verjährung Beitragsansprüche (4 Jahre, vorsätzlich: 30 Jahre)
+- **§ 24 SGB IV** – Säumniszuschlag
+- BSG B 12 KR 26/09 R (Insolvenz und GKV-Beiträge)
+
+## Insolvenzrechtliche Einordnung GKV-Beiträge
+
+| Zeitraum | Insolvenzrechtliche Einordnung |
+|----------|-------------------------------|
+| Beiträge vor Insolvenzeröffnung | Insolvenzforderungen (§ 38 InsO); quotal befriedigt |
+| Beiträge nach Eröffnung (Selbstständiger) | Masseverbindlichkeiten (§ 55 InsO); vorrangig |
+| Angestelltenanteil (AG-Pflicht) | Masseforderung wenn nach Eröffnung |
+
+## Prüfprogramm
+
+### Schritt 1 – Beitragsschulden zeitlich einordnen
+- Welche Beitragsschulden entstanden vor Insolvenzeröffnung? → Insolvenzforderung
+- Welche entstanden nach Eröffnung? → Masseverbindlichkeit oder neue Pflichtmitgliedschaft
+- GKV muss Insolvenzforderungen beim Insolvenzverwalter anmelden
+
+### Schritt 2 – Krankenversicherung im Insolvenzverfahren
+- Pflichtmitglied bleibt pflichtmitglied; kein Ruhen der Mitgliedschaft
+- Freiwillig Versicherter: Beitragsrückstand → Leistungsruhen (§ 16 Abs. 3a SGB V) weiterhin möglich
+- Insolvenzverwalter zahlt laufende Beiträge aus Masse (wenn vorhanden)
+
+### Schritt 3 – Restschuldbefreiung
+- § 286 InsO: nach 3 Jahren wird Versicherter von Restschulden befreit
+- GKV-Beitragsschulden: grundsätzlich von Restschuldbefreiung umfasst
+- Ausnahme § 302 InsO: nur bei vorsätzlicher unerlaubter Handlung; strittig ob GKV-Beiträge hierunter fallen
+- BSG: keine generelle Ausnahme für Sozialversicherungsbeiträge von Restschuldbefreiung
+
+### Schritt 4 – Verhalten der GKV im Insolvenzverfahren
+- GKV kann eigene Versicherungsschutzpflicht während Insolvenz nicht einstellen
+- Beitragseinzug: über Insolvenzverwalter für Masseverbindlichkeiten
+- Leistungsruhen möglich aber Akutversorgung immer
+- Kasse sollte Schuldenbescheid nicht erlassen während laufendem Insolvenzverfahren
+
+### Schritt 5 – Nach Restschuldbefreiung
+- Schulden erlöschen mit Restschuldbefreiung
+- Neue GKV-Mitgliedschaft auf sauberem Stand
+- PKV: Schulden erlöschen ebenfalls; aber Neuvertrag erfordert Risikoprüfung
+
+## Typische Fallen
+
+- **Säumniszuschläge in Insolvenz**: Laufen weiter solange nicht Insolvenzforderung; sorgfältig abgrenzen.
+- **Freiwillig Versicherter und Selbstständige**: Beiträge als Masseverbindlichkeit wenn Selbstständigkeit fortgesetzt; erhebliche Priorität für Insolvenzverwalter.
+- **GKV kündigt Mitgliedschaft**: Nicht möglich; Pflichtmitgliedschaft kann nicht wegen Insolvenz beendet werden.
+- **Strafrecht und Beitragsschulden**: Vorsätzliche Beitragshinterziehung (§ 266a StGB); auch GKV-Beiträge umfasst.
+
+## Output-Formate
+
+- Insolvenzforderungsanmeldung (GKV-intern)
+- Restschuldbefreiungsantrag mit GKV-Schuldenübersicht
+- Stundungsantrag während Insolvenz
+- Masseverbindlichkeits-Berechnung
+- Post-Insolvenz GKV-Neustartplanung
+
+## Quellen
+
+- [§ 38 InsO – Insolvenzforderungen](https://www.gesetze-im-internet.de/inso/__38.html)
+- [§ 286 InsO – Restschuldbefreiung](https://www.gesetze-im-internet.de/inso/__286.html)
+- [§ 25 SGB IV – Verjährung](https://www.gesetze-im-internet.de/sgb_4/__25.html)
+- [BSG B 12 KR 26/09 R](https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html)
+- [dejure.org § 286 InsO](https://dejure.org/gesetze/InsO/286.html)
+- [§ 302 InsO – Ausnahmen](https://www.gesetze-im-internet.de/inso/__302.html)

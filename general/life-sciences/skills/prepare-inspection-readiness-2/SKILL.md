@@ -5,11 +5,11 @@ description: 備組織受監管檢查：對機構特定焦點區（FDA, EMA, MHR
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/wenyan/skills/prepare-inspection-readiness
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: life-sciences
-language: zh
+language: en
 ---
 
 # 備檢查就緒

@@ -1,0 +1,98 @@
+---
+name: lph8-bauueberwachung-rohbau-betongueteklasse
+title: Bauueberwachung Rohbau und Betongueteklassen
+description: 'Für Bauüberwachung Rohbau und Betongüteklassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-rohbau-betongueteklasse
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Rohbau und Betongueteklassen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Der Rohbau ist das Herzstuck jedes Bauvorhabens: Betongueteklassen, Bewehrungslage und Schalungspraezision bestimmen die langfristige Tragfaehigkeit und Dauerhaftigkeit des Bauwerkes. Die Bauueberwachung in LPH 8 stellt sicher, dass kein Beton vergossen wird, ohne zuvor Bewehrung und Schalung abgenommen zu haben, und dass die Prüfkoerper lueckenlos für die 28-Tage-Drueckfestigkeit eingelagert werden.
+
+## Bauwerk und Auftrag
+
+- Buerogebaeude Frankfurt 12-geschossig: Stahlbeton-Skelettbau C25/30 XC1, Flachdecken, Bausumme Rohbau 18 Mio. EUR, Bauherr Investmentfonds DEKA
+- Strassenbruecke Bundesstrasse B31: Spannbetonueberbau C35/45 XD1 XF2, Widerlager und Pfeiler C30/37, Bausumme 8 Mio. EUR, Auftraggeber Regierungspraesidium Freiburg
+- Wohngebaeude Muenchen Fertigteil: Stahlbeton-Deckenplatten Fertigteile C30/37, Auflagerdetails in-situ Beton, Bausumme Rohbau 12 Mio. EUR
+
+## Erste Schritte auf der Baustelle
+
+1. Schalungsabnahme: Schalungspruefung auf Sauberkeit, Abformungsqualitaet, Stuetzenabstaende nach Schalungsplan, Sicherung gegen Aufschwimmen
+2. Bewehrungsabnahme: Stahlsorte BSt 500 S Werksbescheinigung 3.1, Abstandhalter-Typ und Anordnung, Biegerollendurchmesser, Stosslage nicht in Momentenmaximum
+3. Frischbetonprobenahme: DIN EN 12350-1 bis -7, Konsistenz F3, Rohdichte, Luftgehalt, Temperatur, Chargen-Nummer und Transportbegleitschein
+4. Betonierprotokoll: Einbaugeschwindigkeit je Schalungseinheit, Verdichtungsabstand Innenruettler max. 0.5 m, Aussetzmethode dokumentiert
+5. Prüfkoerperherstellung: 3 Wuerfel 150 mm je 50 m3 oder je Bauteil, Lagerung normtemperate 20 degC nach DIN EN 12390-2, Prüfung nach 7 und 28 Tagen
+6. Sichtbeton-Klasseneinstufung: SB1-SB4 nach DBV-Merkblatt Sichtbeton 2015, Abnahmebegehung mit Auftraggeber vor Freistellung
+
+## Normen und Rechtsrahmen
+
+- § 650p BGB, § 650q BGB: Architektenvertrag Rohbau, Bauueberwachungspflicht
+- HOAI 2021 § 34 Anlage 10 LPH 8: Grundleistungen Bewehrungsabnahme, Betonierprotokoll, Prüfung Bausubstanz
+- VOB/C DIN 18331 Betonarbeiten: Einteilung Betone, Prüfpflichten, Aufmass nach Einbaumassen
+- DIN EN 206:2021-06 und DIN 1045-2:2023-08: Konformitaetsnachweis Beton, Chargen-Prüfung, Eignungspruefung
+- DIN EN 1992-1-1 Eurocode 2: Betondeckung, Mindestbewehrung, Rissbreitenbegrenzung
+- DIN EN 12390 (Prüfung von Festbeton): Teile 1-8, Wuerfelherstellung, Druckfestigkeit, Wasserundurchlaessigkeit
+
+## Prüferaster und Kontrollpunkte
+
+1. Bewehrungsabnahme-Protokoll: Bewehrungsplan-Revision aktuell, Stabdurchmesser gemessen, Bewehrungslage und Abdeckung protokolliert, Unterschrift Statik-Prüfingenieur
+2. Frischbetonzertifikat: Lieferschein Betonwerk mit Bestellbeton-Bezeichnung, Chargen-Nr, Einbauzeit max. 90 Minuten nach Mischbeginn
+3. Luftgehalt bei XF-Exposition: Messung DIN EN 12350-7 je Liefercharge, Grenzwert 4.0-5.5 Prozent, bei Unterschreitung Rueckweisung Lieferung
+4. Prüfwuerfeldokumentation: Wuerfel-Nummer, Herstelldatum, Prüftermin, Druckfestigkeit kN und N/mm2, Konformitaetsbewertung
+5. Rissbreitenkontrolle Ausschalen: Beurteilung Risse nach Grenzwert WO 0.3 mm, bei Ueberschreitung Sachverstaendiger einschalten
+6. Sichtbetonbewertung: Fotos nach Ausschalen, Farb- und Porositaetsbewertung, Klasseneinstufung SB1-SB4 mit Auftraggeber gemeinsam
+
+## Foto-, Video- und Dokumentenanalyse
+
+- BIM360 Photo Tracking: Fotos getaggt an IFC-Bauteil-ID, Schalung und Bewehrung vor Betonage, After-Casting nach Ausschalen
+- Drohnenbefliegung DJI Mavic 3 Enterprise nach jedem Stockwerk: Grundrissorthofoto 2 cm/px, Massen-Soll/Ist, Stuetzen-Rastelab gleich mit CAD
+- Lieferschein-Scan: Mobile Scan-App oder PlanRadar Dokumenten-Upload, Verknuepfung mit Bauteil-ID, Archivierung für 10 Jahre
+- Prüfwuerfel-Fotoprotokoll: Foto je Wuerfelgruppe mit Chargen-Nr auf Schild, Einlagerungs-Foto Prüflabor, Ergebnis-Scan Prüfbericht
+- Schadensdokumentation Ausschalen: Lochfrass, Kiesnest, Risse in Rissbild-Zeichnung, Foto und GPS, PlanRadar-Meldung an Polier
+
+## Meldungserstellung im ERP / SAP
+
+- SAP PM Meldungsart M2 bei Betonmangel nach Ausschalen: Equipment-Nr Bauteil-ID z.B. STUETZE-EG-B04, Schadenscode K005 Kiesnest Beton, Sanierungsangebot anfordern
+- SAP PS Netzplan: SCHAL-010 Schalungsstellung, BEWEH-020 Bewehrungseinbau und Abnahme, BETON-030 Betonage, AUSSCH-040 Ausschalen, NACH-050 Nachbehandlung
+- Nevaris Kalkulationsabgleich: Betonmengen Soll-Ist Abrechnung nach DIN 18331 Aufmass Einbaumasse, Mulitiplier Schalkontaktflaeche
+- PlanRadar Maengelverfolgung Rohbau: Mangel-Nr, Foto, Bauteil-Tag aus IFC-Export, Faelligkeit, Bauleiter-Benachrichtigung automatisch
+- Workflow: Kiesnest erkannt, Fotos, PlanRadar M2-Meldung, Stellungnahme AN 48 h, Sanierungsplan, Ausfuehrung, Abschlussfoto, Freigabe
+
+## Typische Fallstricke
+
+- Betonage ohne Bewehrungsabnahme-Protokoll: Fehlende Unterschrift Statiker gilt als nicht abgenommen, Haftungsrisiko Bauueberwacher
+- Prüfwuerfel falsch gelagert: Wuerfel bei Frost oder direkter Sonne gelagert, Druckfestigkeit verfaelscht, kein Konformitaetsnachweis möglich
+- Sichtbeton-Klasse nicht schriftlich vereinbart: Auftraggeber beanstandet später Farbtoene, keine vertragliche Grundlage, teurer Nachtragsstreit
+- Zu fruehes Ausschalen: Mindest-Ausschalfristen nach DIN 1045-3 nicht eingehalten, Rissbildung durch Eigengewicht
+
+## Hinweise zur Qualitaetssicherung
+
+- Alle Abnahmeprotokolle müssen vom Bauueberwacher und dem ausfuehrenden Unternehmen unterschrieben sein
+- Fristen nach VOB/B § 13 Abs. 4: Maengelansprueche Bauwerk 4 Jahre, Gesamtwerk nach BGB § 634a 5 Jahre
+- Bauwerksbuch nach HOAI Anlage 10 LPH 9 wird durch Bautagebuecher LPH 8 vorbereitet
+
+## Quellen
+
+- [HOAI 2021 § 34 Anlage 10](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [VOB/C DIN 18331 Betonarbeiten](https://www.gesetze-im-internet.de/vob/)
+- [§ 650q BGB Ingenieurvertrag](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [BGB § 634 Maengelansprueche](https://www.gesetze-im-internet.de/bgb/__634.html)
+- [BGB § 640 Abnahme](https://www.gesetze-im-internet.de/bgb/__640.html)

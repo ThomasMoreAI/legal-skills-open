@@ -1,0 +1,107 @@
+---
+name: kassenwahl-kuendigung-bindungsfrist-wahltarif
+title: 'Kassenwahl: Kündigung, Bindungsfrist und Wahltarif'
+description: 'Für Kassenwahl: Kündigung, Bindungsfrist und Wahltarif: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenkassenrecht-krankenversicherung/skills/kassenwahl-kuendigung-bindungsfrist-wahltarif
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+---
+
+# Kassenwahl: Kündigung, Bindungsfrist und Wahltarif
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Skill-Zweck
+
+Dieser Skill regelt das **Kassenwahlrecht in der GKV**: Wie kann man die Kasse wechseln, wann greift das Sonderkündigungsrecht, was sind Wahltarife und wie ist die Bindungsfrist zu beachten?
+
+## Rechtlicher Rahmen
+
+- **§ 175 SGB V** – Ausübung des Kassenwahlrechts, Bindungsfrist, Kündigung
+- **§ 53 SGB V** – Wahltarife: Selbstbehalt, Beitragsrückgewähr, Kostenerstattung, Tarifsonderbedingungen
+- **§ 173 SGB V** – Wahlrecht, offene Kassen
+- **§ 174 SGB V** – Einschränkungen des Wahlrechts
+- **§ 242 SGB V** – Zusatzbeitrag und Sonderkündigungsrecht
+- BSG B 1 KR 14/17 R (Wahltarife und Bindungsfristen)
+
+## Kündigungsregeln GKV
+
+| Situation | Frist | Rechtsgrundlage |
+|-----------|-------|----------------|
+| Ordentliche Kündigung | 2 Monate zum Monatsende | § 175 Abs. 4 Satz 1 |
+| Bindungsfrist (Neuzugang) | Mindestens 18 Monate Mitgliedschaft | § 175 Abs. 4 Satz 2 |
+| Sonderkündigung Zusatzbeitragserhöhung | 1 Monat Frist | § 175 Abs. 4 Satz 5 i.V.m. § 242 |
+| Wahltarif Selbstbehalt | Gesonderte Bindung 3 Jahre | § 53 Abs. 8 |
+
+## Prüfprogramm
+
+### Schritt 1 – Ordentliche Kündigung
+- Mitgliedschaft mind. 18 Monate? (Bindungsfrist)
+- Kündigung schriftlich, spätestens am letzten Tag des Kalendermonats der 2-Monats-Frist
+- Nachweis neuer Mitgliedschaft beifügen (Mitgliedsbescheinigung neue Kasse)
+- Alte Kasse muss Kündigung bestätigen
+
+### Schritt 2 – Sonderkündigungsrecht bei Zusatzbeitragserhöhung
+- Kasse erhöht Zusatzbeitrag → Sonderkündigungsrecht entsteht
+- Kündigung innerhalb 1 Monat nach Erhöhung zum Zeitpunkt des Inkrafttretens
+- Information durch Kasse: muss schriftlich mit Hinweis auf Sonderkündigungsrecht erfolgen
+- Ohne Information: Sonderkündigungsrecht bleibt bestehen bis Kasse nachträglich informiert
+
+### Schritt 3 – Wahltarife (§ 53 SGB V)
+- Selbstbehalt-Tarif: Versicherter zahlt bis Schwellenwert selbst; dafür Beitragsrabatt
+- Beitragsrückgewähr: Keine Leistungsinanspruchnahme → anteilige Rückerstattung am Jahresende
+- Kostenerstattungstarif: Versicherter zahlt Arzt und erhält Erstattung von Kasse
+- Bindung 3 Jahre: Wahltarif-Kündigung nur bei Beitragserhöhung oder nach 3 Jahren
+
+### Schritt 4 – Wechsel zu PKV
+- GKV-Mitglied kann bei JAEG-Überschreitung (> 73.800 €/Jahr 2025) zur PKV wechseln
+- Rückkehr zur GKV: nur bei Unterschreiten der JAEG oder Statuswechsel (→ kv-003)
+- Beratungspflicht der Kasse: § 175 Abs. 5 SGB V
+
+### Schritt 5 – Mitgliedsbescheinigung und Übergangsversicherung
+- Neue Kasse bestätigt Mitgliedschaft sofort; auch rückwirkend zum Tag nach Kündigung
+- Lücke in Versicherung darf nicht entstehen
+- Wenn neue Kasse ablehnt (z.B. Satzungsleistungen): Auffangpflichtversicherung
+
+## Typische Fallen
+
+- **Wahltarif und Kündigung der Kasse**: Kassenentaustritt beendet Wahltarif; Rückforderung bei Selbstbehalt-Tarif beachten.
+- **18-Monats-Frist nach Kassenwechsel**: Beginnt neu nach jedem Kassenwechsel.
+- **Familienversicherung und Kassenwechsel**: Familienmitglieder versichern sich automatisch bei Hauptmitglied mit.
+- **Elektronische Kündigung**: Nur per Kassen-App oder gesicherter Verbindung zulässig; einfache E-Mail reicht nicht.
+
+## Output-Formate
+
+- Kündigungsschreiben (Muster)
+- Sonderkündigungsrechts-Schreiben
+- Wahltarif-Vergleichstabelle
+- Widerspruch gegen Kündigung-Ablehnung
+- Mitgliedsbescheinigung-Anforderung
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Quellen
+
+- [§ 175 SGB V – Kassenwahlrecht](https://www.gesetze-im-internet.de/sgb_5/__175.html)
+- [§ 53 SGB V – Wahltarife](https://www.gesetze-im-internet.de/sgb_5/__53.html)
+- [§ 242 SGB V – Zusatzbeitrag](https://www.gesetze-im-internet.de/sgb_5/__242.html)
+- [BSG Kassenwechsel-Rechtsprechung](https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen_node.html)
+- [dejure.org § 175 SGB V](https://dejure.org/gesetze/SGB_V/175.html)
+- [GKV-Spitzenverband Kassenwahl](https://www.gkv-spitzenverband.de)

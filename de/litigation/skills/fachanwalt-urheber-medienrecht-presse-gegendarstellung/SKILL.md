@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-urheber-medienrecht-presse-gegendarstellung
 title: Presse-Gegendarstellung
-description: 'Gegendarstellungsanspruch in der Presse prüfen und Gegendarstellung verfassen. §§ 10 ff. LPG Gegendarstellungsrecht Art. 5 GG Pressefreiheit. Prüfraster: Tatsachenbehauptung Erstmitteilung Frist Form Umfang Gegendarstellungsrecht Abdruck. Output: Gegendarstellungstext Aufforderungsschreiben. Abgrenzung: nicht für Widerruf oder Unterlassung von Tatsachenbehauptungen.'
+description: 'Für Presse-Gegendarstellung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/fachanwalt-urheber-medienrecht-presse-gegendarstellung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -35,7 +35,6 @@ language: de
 - Rundfunkrechtliche Gegendarstellung § 9 MStV (früher Rundfunkstaatsvertrag) — analoge Voraussetzungen für Rundfunk und Telemedien.
 - Abdruckpflicht — gleichwertige Platzierung in nächster erreichbarer Ausgabe ohne Veränderung, ohne Einschaltungen, lediglich kurzer redaktioneller Hinweis zulässig.
 - Einstweilige Verfügung § 935, § 940 ZPO — bei Eilbedürftigkeit und Dringlichkeitsvermutung im Presserecht regelmäßig gegeben.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
@@ -98,10 +97,6 @@ Mit freundlichen Gruessen
 in Vollmacht des Betroffenen
 ```
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Übergabe
 
 - Bei Verweigerung durch Redaktion: einstweilige Verfügung beim Landgericht (Pressekammer § 32 ZPO Gerichtsstand Verbreitung).
@@ -111,7 +106,4 @@ in Vollmacht des Betroffenen
 
 ---
 
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 026:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

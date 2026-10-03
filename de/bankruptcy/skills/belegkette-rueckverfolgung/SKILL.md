@@ -1,11 +1,11 @@
 ---
 name: belegkette-rueckverfolgung
 title: /tabellenreview-3d:belegkette-rueckverfolgung
-description: 'Belegkette für Forderungen und Zahlungen zurückverfolgen: Originalbeleg, Buchung, Zahlung. Normen: §§ 238 257 HGB, §§ 174 ff. InsO. Prüfraster: Belegverknuepfung, fehlende Belege, Doppelbuchungen. Output: Belegketten-Übersicht. Abgrenzung: nicht Excel-Export.'
+description: 'Für /tabellenreview-3d:belegkette-rückverfolgung: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Tabellenreview 3D. Route: belegkette-rueckverfolgung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/belegkette-rueckverfolgung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:belegkette-rueckverfolgung
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Eine Tabellenzelle die behauptet etwas zu sagen ohne dass man die Stelle im Dokument findet ist wertlos. Schlimmer: gefährlich. Dieser Skill macht jede Zellaussage rückverfolgbar.
 
 ## Komponenten der Belegkette
 
@@ -71,3 +64,5 @@ Diese Datei MUSS bei jeder Mandatsübergabe mitgehen. Sie ist die Reproduzierbar
 
 - Bei geänderten Dokumenten (Vertragsversion 2 überschreibt Version 1) erhält die Belegkette die alte Fassung — der Prüfer entscheidet ob neu zu rechnen ist.
 - Bei OCR-Fehlern (Zitat hat OCR-Wortwahl die im Original anders steht) kann die Volltextsuche fehlschlagen — das ist ein bekannter OCR-Falschalarm, kein Belegkette-Bruch.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

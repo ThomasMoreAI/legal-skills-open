@@ -1,0 +1,65 @@
+---
+name: beratungshaftung-zahlen-schwellen-und-berechnung
+title: 'Beratungshaftung: Zahlen, Schwellenwerte und Berechnung'
+description: 'Für Beratungshaftung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis: Berechnungstabelle mit Annahmen und Kontrollfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/beratungshaftung-zahlen-schwellen-und-berechnung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# Beratungshaftung: Zahlen, Schwellenwerte und Berechnung
+
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 1 Abs. 1 KWG` — Bankgeschaefte.
+- `§ 32 Abs. 1 KWG` — Erlaubnispflicht.
+- `§ 25a Abs. 1 KWG` — ordnungsgemaesse Geschäftsorganisation.
+- `§ 44 Abs. 1 KWG` — Auskunfts- und Prüfungsrechte.
+- `§ 1 Abs. 1 ZAG` — Zahlungsdienste.
+- `§ 10 Abs. 1 ZAG` — Erlaubnis Zahlungsinstitut.
+- `Art. 16 DORA` — vereinfachter IKT-Risikomanagementrahmen.
+- `Art. 28 DORA` — IKT-Drittparteienrisiko.
+- `§ 675f BGB` — Zahlungsdiensterahmenvertrag.
+- `§ 765 BGB` — Bürgschaft.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: WpHG; WpIG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Beratungshaftung: Zahlen, Schwellenwerte und Berechnung.
+
+## Spezialwissen: Beratungshaftung: Zahlen, Schwellenwerte und Berechnung
+- **Konkreter Gegenstand:** Beratungshaftung: Zahlen, Schwellenwerte und Berechnung.
+- **Normen-/Verfahrensanker:** KWG, ZAG, WpHG, WpIG, MAR, MiFID-II/MiFIR, MiCAR, BGB-Verbraucherkredit, AGB-Recht und BaFin-Verwaltungspraxis.
+- **Entscheidende Weiche:** Produkt, Kundentyp, Aufklärung, Geeignetheit, Dokumentation, Erlaubnispflicht, Interessenkonflikt, Prospekt-/Ad-hoc-Risiko und Verjährung auseinanderziehen.
+- **Arbeitsprodukt:** Erstelle eine fallbezogene Matrix `Behauptung / Norm / Beleg / Risiko / Gegenargument / nächster Schritt`; keine bloße Wiederholung des allgemeinen Plugin-Workflows.
+
+## Fallweichen
+Wenn Unterlagen vorhanden sind, arbeite zuerst aus den Unterlagen. Stelle nur Rückfragen, die die nächste Weiche verändern:
+
+1. Welche Rolle hat die fragende Person und wer ist Gegenüber?
+2. Welches konkrete Ziel soll erreicht oder verhindert werden?
+3. Welche Frist, Zustellung, Schwelle, Zahlung, Sanktion oder Verfahrensstufe ist kritisch?
+4. Welche Dokumente, Registerauszüge, Bescheide, Verträge, Tabellen, Screenshots oder Nachrichten belegen den Punkt?
+5. Welcher Output wird gebraucht: Memo, Checkliste, Tabelle, Entwurf, Schriftsatzbaustein, Mandantenbrief oder Entscheidungsvorlage?
+
+## Arbeitsworkflow
+1. **Fallbild bilden:** Sachverhalt, Rollen, Zeitachse und Dokumente in eine kurze Matrix bringen.
+2. **Rechtsrahmen setzen:** Normen, Zuständigkeiten, Fristen, Formfragen und Verfahrensstand zum Themenfeld **Beratungshaftung** prüfen.
+3. **Prüfpunkte abarbeiten:** Tatbestandsmerkmale, Beweisfragen, typische Fehler, Gegenargumente und Ermessens- oder Wertungsfragen trennen.
+4. **Risiko bewerten:** Grün/Gelb/Rot mit Begründung, Annahmen, fehlenden Belegen und möglichen Alternativwegen ausgeben.
+5. **Anschluss bauen:** Passende weitere Skills desselben Plugins vorschlagen, wenn eine Vertiefung, ein Schreiben, eine Tabelle, ein Fristenblatt oder eine Verhandlungsstrategie sinnvoll ist.

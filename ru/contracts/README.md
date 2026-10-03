@@ -8,7 +8,7 @@ Jurisdiction: `ru` · Practice: `contracts` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Russian Legal Contract Review`](skills/ru-legal-contract-review/) | Use when reviewing Russian-law contracts, offers, policies, personal-data/Roskomnadzor compliance, or legal… |
+| [`Russian Legal Contract Review`](skills/ru-legal-contract-review/) | Use when reviewing Russian-law contracts, offers, policies, personal-data/Roskomnadzor compliance, or… |
 
 ## Cold-start context
 

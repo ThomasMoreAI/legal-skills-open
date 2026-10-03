@@ -1,11 +1,11 @@
 ---
 name: nda
 title: nda
-description: Draft and fill NDA templates — mutual NDA, one-way NDA, confidentiality agreement. Produces signable DOCX files from Common Paper and Bonterms standard forms. Use when user says "NDA," "non-disclosure agreement," "confidentiality agreement," "mutual NDA," or "one-way NDA."
+description: Draft and fill NDA contract templates — mutual NDA, one-way NDA, confidentiality agreement. Produces signable DOCX files from Common Paper and Bonterms standard forms. Use when user says "NDA," "non-disclosure agreement," "confidentiality contract," "confidentiality agreement," "mutual NDA," or "one-way NDA." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/nda
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/nda
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -13,6 +13,10 @@ language: en
 ---
 
 # nda
+
+This is the NDA-focused spoke of the `open-agreements` hub. Use
+`open-agreements` for mixed agreement work or when the agreement type is not yet
+clear.
 
 Draft and fill NDA (non-disclosure agreement) templates to produce signable DOCX files.
 

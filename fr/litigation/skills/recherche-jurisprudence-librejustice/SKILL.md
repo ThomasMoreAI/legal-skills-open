@@ -5,11 +5,11 @@ description: Search and cite French and European case law with the LibreJustice 
 author: librejustice
 author_url: https://github.com/librejustice/librejustice/tree/main/plugins/librejustice/skills/recherche-jurisprudence
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: litigation
-language: fr
+language: en
 sources:
 - title: Install Mcp
   path: references/install-mcp.md

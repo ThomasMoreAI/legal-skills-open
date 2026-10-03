@@ -5,11 +5,16 @@ description: Prepare structured briefings for meetings with legal relevance and 
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/legal-meeting-briefing
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Briefing templates
+  path: references/briefing_templates.md
+- title: Meeting type guides
+  path: references/meeting_type_guides.md
 ---
 
 > **⚠️ EXPERIMENTAL** — This skill is provided for educational and informational purposes only. It does NOT constitute legal advice. All responsibility for usage rests with the user. Consult qualified legal professionals before acting on any output.
@@ -31,6 +36,17 @@ Production-ready toolkit for preparing structured briefings for meetings with le
 - [Scope & Limitations](#scope--limitations)
 - [Anti-Patterns](#anti-patterns)
 - [Tool Reference](#tool-reference)
+
+## Clarify First
+
+Before generating the briefing, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Meeting type** — deal-review, board, regulatory, litigation, etc. — selects which type-specific sections appear (e.g. privilege considerations only for regulatory/litigation)
+- [ ] **Participants with orgs and roles** — populate the counterparty-dynamics and interests sections; without them the brief is generic
+- [ ] **Objective / agenda** — sets the depth and which sections matter; drives the preparation-gap list
+- [ ] **Privilege sensitivity** — for regulatory/government or litigation meetings, determines what goes in the privilege section vs what can be shared
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the briefing.
 
 ## Tools
 

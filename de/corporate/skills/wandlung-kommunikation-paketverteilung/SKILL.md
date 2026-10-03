@@ -1,11 +1,11 @@
 ---
 name: wandlung-kommunikation-paketverteilung
 title: Wandlung – Kommunikation und Paketverteilung
-description: 'Kommunikation und Dokumentenversand an alle Beteiligten nach Wandlungsentscheidung organisieren. §§ 130 132 BGB Zugang §§ 15 55 GmbHG. Prüfraster: Empfaengerliste Dokumente Zugang Fristen Bestätigung. Output: Kommunikationsplan Versandprotokoll. Abgrenzung: nicht für inhaltliche Prüfung der Wandlung (wandelereignis-eingang).'
+description: 'Für Wandlung – Kommunikation und Paketverteilung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/wandlung-kommunikation-paketverteilung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Wandlung – Kommunikation und Paketverteilung
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill koordiniert alle Kommunikationsmaßnahmen nach der Wandlungsentscheidung: Bestätigungsschreiben, Mitwirkungsaufforderungen und Buchungsanweisungen an alle beteiligten Stellen. Phase C des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -34,9 +38,6 @@ Dieser Skill koordiniert alle Kommunikationsmaßnahmen nach der Wandlungsentsche
 - § 272 Abs. 2 Nr. 4 HGB (Kapitalrücklage nach Einlage der Forderung)
 - § 246 HGB (Vollständigkeit der Buchführung)
 - § 8 Wandeldarlehensvertrag (Vertraulichkeit – an wen darf kommuniziert werden?)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -64,11 +65,11 @@ Alle Schreiben mit Sendenachweis archivieren (Textform-Anforderung). Kommunikati
 Buchungstag: [Eintragungsdatum Handelsregister]
 
 Soll:
-  Verbindlichkeit Wandeldarlehen Northstar:     EUR 275694
+ Verbindlichkeit Wandeldarlehen Northstar: EUR 275694
 
 Haben:
-  Gezeichnetes Kapital (§ 272 Abs. 1 HGB):     EUR 7
-  Kapitalrücklage (§ 272 Abs. 2 Nr. 4 HGB):    EUR 275687
+ Gezeichnetes Kapital (§ 272 Abs. 1 HGB): EUR 7
+ Kapitalrücklage (§ 272 Abs. 2 Nr. 4 HGB): EUR 275687
 ```
 
 ## Risiken und Red Flags
@@ -80,24 +81,14 @@ Haben:
 | Gesellschafterinnen nicht eingeladen | Mitwirkungspflicht verletzt | Einladung verspätet | Rechtzeitige Einladung |
 | Kommunikation gegen Vertraulichkeitsklausel | § 8-Verstoß | Empfänger nicht § 8-berechtigt | Alle Empfänger § 8 lit. a berechtigt |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterversammlung-einberufen/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/post-eintragung-checkliste/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung HGB § 272 oder UmwStG § 20 aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 47 Abs. 4 GmbHG (Stimmverbot eigene Sache) → § 40 GmbHG (Gesellschafterliste nach Wandlung) → § 53 Abs. 1 GmbHG (Zustimmung Gesellschafter zur Satzungsänderung) → § 16 GmbHG (Legitimationswirkung) → §§ 130, 132 BGB (Zugang Erklärungen)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

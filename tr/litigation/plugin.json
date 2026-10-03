@@ -10,9 +10,17 @@
   "language": "tr",
   "skills": [
     "skills/brief-section-drafter-zekaisuni",
+    "skills/chronology-zekaisuni",
+    "skills/claim-chart-zekaisuni",
+    "skills/cold-start-interview-zekaisuni",
     "skills/demand-draft-zekaisuni",
     "skills/demand-intake-zekaisuni",
+    "skills/demand-received-zekaisuni",
+    "skills/deposition-prep-zekaisuni",
     "skills/legal-hold-zekaisuni",
-    "skills/privilege-log-review-zekaisuni"
+    "skills/matter-intake-zekaisuni",
+    "skills/portfolio-status-zekaisuni",
+    "skills/privilege-log-review-zekaisuni",
+    "skills/subpoena-triage-zekaisuni"
   ]
 }

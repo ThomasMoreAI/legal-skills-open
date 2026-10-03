@@ -10,7 +10,7 @@ Jurisdiction: `ie` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`ireland-cro`](skills/ireland-cro-nolpak14/) | Look up Irish companies for free via the official Companies Registration Office (CRO) Open Services API -… |
+| [`ireland-cro`](skills/ireland-cro-nolpak14/) | Look up Irish companies for free via the official Companies Registration Office (CRO) Open Services API… |
 
 ## Cold-start context
 

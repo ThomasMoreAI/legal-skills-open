@@ -1,119 +1,71 @@
 ---
 name: entfristung-schriftform-14-abs-4-erkennen
-title: 'KERNSKILL: Schriftform § 14 Abs. 4 TzBfG — Die häufig übersehene Falle'
-description: 'KERNSKILL: Schriftform nach § 14 Abs. 4 TzBfG für Befristungsabreden; Papierunterschrift nach § 126 BGB oder echte qualifizierte elektronische Signatur nach § 126a BGB prüfen; Scan/einfache Signatur genügt nicht; Rechtsfolge § 16 Satz 1 TzBfG Vertrag gilt als unbefristet.'
+title: Entfristung wegen Schriftformmangel nach Paragraf 14 Absatz 4 TzBfG
+description: 'Für Entfristung wegen Schriftformmangel nach Paragraf 14 Absatz 4 TzBfG: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/entfristung-schriftform-14-abs-4-erkennen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# KERNSKILL: Schriftform § 14 Abs. 4 TzBfG — Die häufig übersehene Falle
+# Entfristung wegen Schriftformmangel nach Paragraf 14 Absatz 4 TzBfG
 
-## Triage zu Beginn
+## Ziel
 
-1. Wie wurde der Arbeitsvertrag unterzeichnet? (Papieroriginal / QES / einfache Signatur / Scan / E-Mail / einseitig)
-2. Hat der Arbeitnehmer eine Originalurkunde mit eigenhändiger Unterschrift beider Parteien erhalten oder liegt ein prüfbares QES-Zertifikat vor?
-3. Lag die wirksame Unterzeichnung beider Parteien vor dem ersten Arbeitstag vor?
-4. Falls Verlängerungsvereinbarung: Wurde diese ebenfalls formwirksam geschlossen?
-5. Gibt es Belege für die Art der Unterzeichnung (Original, E-Mail, Zertifikat, Audit-Trail, Signier-Portal)?
+Dieser Skill erkennt Befristungen, die wegen Formmangels nicht tragen. Er prüft, ob die Befristungsabrede vor Arbeitsaufnahme formwirksam geschlossen wurde, ob alle Beteiligten eigenhändig oder qualifiziert elektronisch signiert haben und ob wegen Formmangels ein unbefristetes Arbeitsverhältnis geltend zu machen ist.
 
-## Zentrale Normen
+## Eingang
 
-- § 14 Abs. 4 TzBfG — Schriftformerfordernis der Befristungsabrede (konstitutive Wirksamkeitsvoraussetzung)
-- § 126 BGB — gesetzliche Schriftform: eigenhändige Namensunterschrift
-- § 126 Abs. 3 BGB — elektronische Form kann Schriftform ersetzen, wenn gesetzlich nicht ausgeschlossen
-- § 126a BGB — elektronische Form durch qualifizierte elektronische Signatur
-- § 16 Satz 1 TzBfG — Rechtsfolge Formverstos: Vertrag gilt als unbefristet
-- § 17 TzBfG — 3-Wochen-Klagefrist ab vereinbartem Vertragsende
+- Arbeitsvertrag, Verlängerungsvereinbarung oder Zusatzabrede mit Signaturseite.
+- Datum des Vertragsangebots, Datum der Annahme, erster Arbeitstag und tatsächlicher Tätigkeitsbeginn.
+- Signaturweg: Papieroriginal, qualifizierte elektronische Signatur, E-Mail, Scan, Portal, einfache Signaturplattform oder DocuSign-ähnlicher Ablauf.
+- Befristungsende, Weiterarbeit, Einwand des Arbeitgebers und bisherige Vertragskette.
 
-## Aktuelle Rechtsprechung
+## Prüfraster
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+1. Befristungsabrede isolieren: Nur die Befristung braucht die Form aus TzBfG Paragraf 14 Absatz 4; der übrige Arbeitsvertrag kann wirksam sein.
+2. Zeitpunkt prüfen: Die formwirksame Befristung muss vor Arbeitsaufnahme abgeschlossen sein.
+3. Signatur prüfen: BGB Paragraf 126 verlangt Papierurkunde mit eigenhändiger Namensunterschrift; BGB Paragraf 126a verlangt qualifizierte elektronische Signatur aller Erklärenden.
+4. Unzureichende Wege markieren: E-Mail, Scan, kopierte Unterschrift, einfache elektronische Signatur, Standardplattform ohne qualifizierte elektronische Signatur und nachträgliche Unterzeichnung heilen die Befristung regelmäßig nicht.
+5. Rechtsfolge ziehen: TzBfG Paragraf 16 Satz 1 führt zur unbefristeten Geltung des Arbeitsvertrags.
+6. Klagefrist sichern: TzBfG Paragraf 17 verlangt die Befristungskontrollklage binnen drei Wochen nach vereinbartem Ende.
+7. Sachgrund nur hilfsweise prüfen: Erst wenn die Form trägt, wird TzBfG Paragraf 14 Absatz 1 oder Absatz 2 relevant.
 
-## Quellenregel
+## Pflichtnormen
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Entscheidungsbaum: Schriftformmangel erkennen
+- TzBfG Paragraf 14 Absatz 4: zwingende Schriftform für die Befristung.
+- BGB Paragraf 126: eigenhändige Namensunterschrift auf Urkunde.
+- BGB Paragraf 126a: elektronische Form nur mit qualifizierter elektronischer Signatur.
+- TzBfG Paragraf 16: unwirksame Befristung lässt das Arbeitsverhältnis als unbefristet gelten.
+- TzBfG Paragraf 17: dreiwöchige Klagefrist für die Befristungskontrolle.
 
-```
-Frage 1: Original-Urkunde mit eigenhändiger Unterschrift beider Parteien oder echte QES beider Parteien?
-  ├── Nein → SCHRIFTFORMMANGEL → § 16 Satz 1 TzBfG: Vertrag gilt als unbefristet
-  └── Ja → weiter zu Frage 2
+## Leitentscheidungen
 
-Frage 2: Unterzeichnung vor Arbeitsaufnahme?
-  ├── Nein (Unterschrift erst nach erstem Arbeitstag) → SCHRIFTFORMMANGEL
-  └── Ja → weiter zu Frage 3
+- BVerfG, Beschluss vom 06.06.2018, 1 BvL 7/14 und 1 BvR 1375/14: Befristungsrecht begrenzt Kettenbefristungen und schützt den Bestand des Arbeitsverhältnisses.
+- LAG Berlin-Brandenburg, Urteil vom 16.03.2022, 23 Sa 1133/21: Elektronische Signaturabläufe müssen die gesetzliche Form tatsächlich erfüllen; einfache digitale Unterschriften genügen nicht.
+- ArbG Gera, Urteil vom 07.03.2024, 2 Ca 936/23: Wird die Schriftform der Befristung nicht eingehalten, ist die Befristung unwirksam und die Entfristungsklage naheliegend.
 
-Frage 3: Einheitlichkeit/Formverbund? (dieselbe Urkunde oder jeweils für die andere Seite bestimmte gleichlautende Ausfertigung; bei QES nachvollziehbarer elektronischer Dokumentbezug?)
-  ├── Nein (jede Seite hat eigene Kopie unterschrieben, kein Verbindungswille) → fraglich
-  └── Ja → Schriftform gewahrt
+## Arbeitsprodukt
 
-Frage 4 (bei Verlängerung): Verlaengerungsvereinbarung ebenfalls formwirksam (Papier/QES)?
-  ├── Nein (mündlich / per E-Mail) → SCHRIFTFORMMANGEL bei der Verlängerung
-  └── Ja → Verlängerung wirksam
-```
+- Formprüfungsvermerk mit Signaturweg, Zeitachse und Ergebnis.
+- Entfristungsklage oder Anspruchsschreiben mit Antrag auf Feststellung eines unbefristeten Arbeitsverhältnisses.
+- Hinweis an Arbeitgeber oder HR, dass einfache elektronische Signatur für Befristungen nicht genügt.
+- Fristenblatt zu TzBfG Paragraf 17.
 
-## Zweck
+## Stolpersteine
 
-Dies ist der wichtigste Skill im Entfristungs-Bündel. § 14 Abs. 4 TzBfG legt fest, dass die **Befristungsabrede** — also die Klausel im Arbeitsvertrag, die eine zeitliche Begrenzung festlegt — der Schriftform bedarf. Fehlt diese Schriftform, gilt der Vertrag als unbefristet.
+- Vertragsdatei akzeptieren, ohne die Signaturqualität zu prüfen.
+- Formmangel mit fehlendem Sachgrund vermischen.
+- Klagefrist nach dem Befristungsende übersehen.
+- Nachträgliche Papierunterzeichnung als sichere Heilung behandeln.
+- Nur den Arbeitnehmer signieren lassen, obwohl die Arbeitgebererklärung formbedürftig bleibt.
 
-## Die Norm — § 14 Abs. 4 TzBfG
+## Anti-Muster
 
-> Die Befristung eines Arbeitsvertrags bedarf zu ihrer Wirksamkeit der Schriftform.
-
-## Was bedeutet Schriftform?
-
-**§ 126 Abs. 1 BGB:** Die gesetzliche Schriftform erfordert eine **eigenhändige Unterschrift** (Namensunterschrift oder handschriftliches Kreuz) auf einer Urkunde.
-
-**Nicht ausreichend für die Schriftform:**
-- E-Mail (auch wenn PDF angehängt)
-- Fax (str., aber h.M.: nicht ausreichend für § 14 Abs. 4 TzBfG)
-- einfache elektronische Signatur, eingescannte Unterschrift, Signaturbild
-- fortgeschrittene elektronische Signatur ohne QES-Qualität
-- Mündliche Vereinbarung
-- Bestätigung per Klick in einem Online-Portal
-
-**Erforderlich:**
-- Originalurkunde mit eigenhändiger Unterschrift beider Parteien oder elektronische Form nach § 126a BGB durch echte QES
-
-## Elektronische Form richtig einordnen
-
-§ 126 Abs. 3 BGB erlaubt es grundsätzlich, die gesetzliche Schriftform durch elektronische Form (§ 126a BGB — qualifizierte elektronische Signatur) zu ersetzen, wenn das Gesetz die elektronische Form nicht ausschließt. § 14 Abs. 4 TzBfG enthält in der aktuell geprüften Fassung keinen ausdrücklichen Ausschluss wie etwa § 623 BGB.
-
-**Bedeutung in der Praxis:** Eine echte QES kann genügen; die meisten Alltagsfälle sind aber gerade keine QES, sondern Scan, Klicksignatur oder fortgeschrittene Signatur. Deshalb immer Zertifikat, Identifizierung, Audit-Trail, Dokumentbezug und Zugang prüfen.
-
-**Abgrenzung:** Für Kündigung und Aufhebungsvertrag gilt § 623 BGB; dort ist elektronische Form ausdrücklich ausgeschlossen. Diese Wertung darf nicht unbesehen auf § 14 Abs. 4 TzBfG übertragen werden.
-
-## Wann liegt ein Schriftformmangel vor?
-
-**Häufige Szenarien:**
-- Arbeitsvertrag wurde per E-Mail zugesandt und per E-Mail "unterschrieben" (eingescannte Unterschrift im PDF)
-- Vertragsunterzeichnung über ein Online-Portal (z.B. Workday, DocuSign) ohne qualifizierte elektronische Signatur
-- Nur der Arbeitgeber hat unterschrieben, der Arbeitnehmer nicht (oder umgekehrt)
-- Die Befristungsklausel wurde per E-Mail vereinbart, der Grundvertrag ist zwar schriftlich, aber die Verlängerungsvereinbarung nicht
-
-**Kritische Frage an den Nutzer:**
-- Wie wurde der Arbeitsvertrag geschlossen?
-- Hast du eine Originalurkunde mit echter Unterschrift erhalten?
-- Wurde der Vertrag digital unterzeichnet, und falls ja: mit einfacher Signatur, fortgeschrittener Signatur oder echter QES?
-
-## Wer muss unterschreiben?
-
-Beide Parteien müssen das **selbe Dokument** unterzeichnen — Arbeitgeber und Arbeitnehmer. Tauschen die Parteien nur Kopien aus oder unterschreibt nur eine Seite, kann die Schriftform fehlen.
-
-## Rechtsfolge bei Schriftformmangel
-
-Fehlt die Schriftform bei der Befristungsabrede: **→ § 16 Satz 1 TzBfG** (Skill `entfristung-rechtsfolge-16-tzbfg-unbefristet`).
-
-Der Arbeitsvertrag selbst bleibt wirksam — nur die Befristung ist unwirksam. Der Arbeitnehmer hat einen unbefristeten Arbeitsvertrag.
-
----
-
-Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
-
-Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+- Keine Aussage „digital unterschrieben reicht“ ohne Prüfung qualifizierter elektronischer Signatur.
+- Keine Entfristungsbewertung ohne ersten Arbeitstag und Signaturdatum.
+- Keine pauschale Berufung auf Vertragsfreiheit gegen TzBfG Paragraf 14 Absatz 4.

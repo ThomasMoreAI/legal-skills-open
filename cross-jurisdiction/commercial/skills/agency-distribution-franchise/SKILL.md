@@ -1,0 +1,59 @@
+---
+name: agency-distribution-franchise
+title: Handelsvertreter, Vertriebsvertrag und Franchise
+description: 'Für Handelsvertreter, Vertriebsvertrag und Franchise: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/agency-distribution-franchise
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Handelsvertreter, Vertriebsvertrag und Franchise
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Handelsvertreter (HV), Alleinvertriebshändler und Franchisegeber haben unterschiedliche Rechtsverhältnisse zum Auftraggeber. Die EU-HV-Richtlinie 86/653/EWG schützt HV (Ausgleichsanspruch bei Kündigung). Alleinvertriebshändler haben nach EU-Recht keinen vergleichbaren Schutz. Franchise-Rechte erfordern Disclosure-Dokumentation (nur in einigen Ländern gesetzlich vorgeschrieben).
+
+## Kernnormen / Kernquellen
+
+- **EU-HV-RL 86/653/EWG Art. 17**: Ausgleich (§ 89b HGB) oder Schadensersatz bei Vertragsbeendigung
+- **HGB § 84**: Handelsvertreter-Definition (selbständig, ständig beauftragt, fremde Geschäfte)
+- **HGB § 89b**: Ausgleichsanspruch — 1 Jahresprovision als Maximum
+- **VO (EU) 330/2010 (VBER)**: Vertikale Gruppenfreistellungsverordnung — Alleinvertrieb
+- **Neue VBER (EU) 2022/720**: Aktualisiertes Vertikale-Kartellrecht
+- **FTC Franchise Disclosure Rule (USA)**: US-Franchise-Disclosure-Anforderungen
+
+## Schlüsselbegriffe
+
+- Handelsvertreter vs. Eigenhändler: HV im fremden Namen; Eigenhändler auf eigene Rechnung
+- Ausgleichsanspruch § 89b HGB: nach Kündigung; max. 1 Jahresprovision; entfällt bei vertragswidrigem Verhalten
+- Wettbewerbsverbot: max. 2 Jahre nach Beendigung; territoriale und sachliche Beschränkung (VBER)
+- Franchise: Know-how-Überlassung + Markenrecht + Systemkonformitätspflicht
+- Parallelhandel: VBER erlaubt Beschränkungen; Ausschließlichkeit + Gebietsschutz unter Bedingungen
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. HV-Ausgleich: Gilt § 89b HGB bei außereuropäischem Handelsvertreter und deutschem Recht?
+2. VBER 2022: Darf Lieferant Online-Verkäufe des Alleinvertriebshändlers beschränken?
+3. Franchise: Ist ein Wettbewerbsverbot von 5 Jahren nach Beendigung kartellrechtskonform?
+4. Kündigung Alleinvertriebshändler: Schadensersatz nach nationalem Recht ohne HV-RL-Schutz?
+5. Vertriebsvertrag und CISG: Gilt CISG für den Rahmenvertrag oder nur für Einzelaufträge?
+
+## Methodik
+
+- HV vs. Eigenhändler: Vertragsgestaltung klären — trägt er Risiko? Eigenname?
+- § 89b-Ausgleich: berechnen auf Basis Provisionen der letzten 5 Jahre
+- VBER-Compliance: Gebietsschutz nur in zulässigem Rahmen; Hardcore-Beschränkungen vermeiden
+- Franchise: Disclosure-Dokument für US-Franchising vorbereiten (FTC-Regel)

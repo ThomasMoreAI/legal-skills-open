@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-freiwillige-offenlegung-bafa-zoll
+title: 'Freiwillige Offenlegung bei BAFA und Zoll: Strategie und Vorbereitung'
+description: 'Für Freiwillige Offenlegung bei BAFA und Zoll: Strategie und Vorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-freiwillige-offenlegung-bafa-zoll
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Freiwillige Offenlegung bei BAFA und Zoll: Strategie und Vorbereitung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Unternehmen stellt bei interner Revision fest, dass Dual-Use-Maschinen ohne Genehmigung exportiert wurden.
+- Banktransfer an Tochtergesellschaft in Russland versehentlich getaetigt; Sanktionsverstoß erkannt.
+- Zollanmeldungen enthielten falsche Ursprungsangaben; Gesamtschaden noch nicht beziffert.
+
+## Erste Schritte
+
+1. Sachverhalt vollstaendig intern aufklaeren und sichern (Legal Hold) bevor Offenlegung.
+2. Strafbarkeit und Ordnungswidrigkeitenrisiko für jede Handlung bewerten.
+3. Zeitpunkt prüfen: Noch vor Behordenerkenntnis oder bereits im Ermittlungsverfahren?
+4. Anzeigeinhalte formulieren: Sachverhalt, Ausmass, betroffene Personen, Maßnahmen.
+5. Koordination mit Strafverteidiger; keine Selbstbelastung einzelner Mitarbeiter ohne Schutzkonzept.
+6. Korrekturmassnahmen und ICP-Verbesserungen als Anlage beifuegen.
+
+## Rechtsrahmen
+
+- **§ 22 Abs. 4 AWG**: Strafmilderung bei freiwilliger Offenlegung von Verstoessen.
+- **§ 371 AO**: Strafbefreiende Selbstanzeige (analog bei Zollverstoss).
+- **§ 153 AO**: Berichtigungspflicht bei erkannter Fehlererklaerung.
+- **§ 154 StPO**: Einstellung von Nebenverfahren bei Kooperation.
+- **§ 18 AWG**: Strafrahmen Ausfuhrdelikt (bis 5 Jahre Freiheitsstrafe).
+
+## Prüf-Raster
+
+- [ ] Sachverhalt vollstaendig intern aufgeklaert und gesichert?
+- [ ] Behordenerkenntnis noch nicht eingetreten?
+- [ ] Strafbarkeit einzelner Personen bewertet, Schutzkonzept vorhanden?
+- [ ] Anzeigeninhalt vollstaendig (Sachverhalt, Ausmass, Betroffene)?
+- [ ] Korrektur- und ICP-Maßnahmen formuliert?
+- [ ] Abgestimmte Kommunikationsstrategie (intern/extern) bereit?
+
+## Typische Fallstricke
+
+- Unvollstaendige Offenlegung ist schlimmer als keine Offenlegung; alles oder nichts.
+- Mitarbeiter müssen gesondert beraten und geschuetzt werden (kein Selbstbelastungszwang).
+- Bei laufenden Ermittlungen ist Offenlegung nur im Rahmen der Verteidigungsstrategie sinnvoll.
+- Nachtraegliche Korrekturen in ATLAS-Systemen sind moeglicher Beweis; nur mit Behördenabstimmung.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [BAFA Exportkontrolle Verstoss](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/ausfuhrkontrolle_node.html)
+- [AO auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/ao_1977/index.html)
+- [Zoll.de Zollrecht und Strafrecht](https://www.zoll.de/DE/Fachthemen/Zoelle/Zollkodex/zollkodex_node.html)

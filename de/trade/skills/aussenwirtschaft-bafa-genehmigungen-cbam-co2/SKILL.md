@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-bafa-genehmigungen-cbam-co2
+title: 'BAFA-Genehmigungsverfahren: Einzel- Sammel- und Globalgenehmigung'
+description: 'Für BAFA-Genehmigungsverfahren: Einzel- Sammel- und Globalgenehmigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-bafa-genehmigungen-cbam-co2
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# BAFA-Genehmigungsverfahren: Einzel- Sammel- und Globalgenehmigung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Exporteur beantragt Einzelgenehmigung für Lieferung von Laseranlagen nach China; Bearbeitung laeuft seit 3 Monaten.
+- Unternehmen mit laufenden Lieferbeziehungen in Länder der Partnerliste moechte auf Sammelgenehmigung umstellen.
+- BAFA verweigert Genehmigung; Widerspruchsmoeglichkeit und Erfolgschancen prüfen.
+
+## Erste Schritte
+
+1. Genehmigungsart bestimmen: Einzel-, Sammel- oder Globalgenehmigung? Nullbescheid-Option prüfen.
+2. Antrag über ELAN-K2 vollstaendig einreichen (EUC, technische Beschreibung, Gueterlisten-Code).
+3. Bearbeitungsfristen nach AWG § 22 Abs. 1 kalkulieren; Untaetigkeitsklage bei Fristablauf prüfen.
+4. BAFA-Nachfragen schnell und vollstaendig beantworten; Fristverlaengerung beantragen wenn noetig.
+5. Genehmigungsauflagen im Betrieb umsetzen (Endverwender-Berichte, Wiederausfuhrverbote).
+6. Widerspruch formgerecht einlegen; Begrenztheit der Ermessens-Nachpruefung beachten.
+
+## Rechtsrahmen
+
+- **AWG §§ 8-10, 22**: Genehmigungsverfahren und Fristen.
+- **AWV §§ 8-12**: Nationale Genehmigungspflichten und Ausfuehrungsvorschriften.
+- **Art. 10-13 VO (EU) 2021/821**: Einzelgenehmigung, Globalgenehmigung und AGG.
+- **§ 24 VwVfG**: Untersuchungsgrundsatz im Verwaltungsverfahren.
+- **§ 68 VwGO**: Widerspruchsverfahren vor Verwaltungsgericht.
+
+## Prüf-Raster
+
+- [ ] Antragsunterlagen vollstaendig und konsistent?
+- [ ] Bearbeitungsfristen des BAFA kalkuliert und Eskalationsplan vorhanden?
+- [ ] Nachfragen des BAFA vollstaendig beantwortet?
+- [ ] Genehmigungsauflagen im Betrieb implementierbar?
+- [ ] Widerspruch fristgerecht eingelegt (1 Monat nach Bescheid)?
+- [ ] Alternative Genehmigungsform (Sammelgenehmigung) geprueft?
+
+## Typische Fallstricke
+
+- Keine aufschiebende Wirkung des Widerspruchs bei Versagung; Lieferung darf nicht stattfinden.
+- Auflagen in der Genehmigung werden nicht vollstaendig umgesetzt; Genehmigungswiderruf droht.
+- Sammelgenehmigung ist an engere Länderliste gebunden als Einzelgenehmigung.
+- BAFA-Nachfragen oft zeitkritisch; verspaetete Antwort verlaengert Verfahren signifikant.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [BAFA Ausfuhrkontrolle](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/ausfuhrkontrolle_node.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)
+- [AWV auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awv_2013/index.html)
+- [VwVfG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/vwvfg/index.html)

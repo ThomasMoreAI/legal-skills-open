@@ -1,0 +1,101 @@
+---
+name: einreichung-fax-und-grenzen
+title: Einreichung per Fax — was noch geht
+description: 'Für Einreichung per Fax — was noch geht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/einreichung-fax-und-grenzen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Einreichung per Fax — was noch geht
+
+## Worum geht es?
+
+Fax war jahrzehntelang der Standard für kurzfristige Einreichungen im Justizalltag. Auch heute ist es nicht tot — viele Gerichte halten Fax-Anschluesse. Für Buerger ist Fax oft eine pragmatische Loesung, wenn die Frist droht und MJP nicht eingerichtet ist. Aber: Fax ist fehleranfaellig und nicht uneingeschraenkt rechtssicher. Diese Skill zeigt die Grenzen.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie haben eine kurze Frist und keine andere Moeglichkeit.
+- Sie wollen wissen, ob Fax bei Ihrem Gericht noch funktioniert.
+- Sie haben per Fax gesendet und sind unsicher, ob es angekommen ist.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Fax**: Telefax-Uebertragung; auch heute praktisch noch genutzt.
+- **Sendebericht / OK-Bestaetigung**: Fax-Geraet stellt aus, wenn Uebertragung erfolgreich war.
+- **Computerfax**: Email-zu-Fax-Dienste, technisch ähnlich Fax.
+
+## Rechtsgrundlagen
+
+- **§ 130 Nr. 6 ZPO** — Unterschrift; bei Telefax reicht eingescannte handschriftliche Unterschrift (BGH-Rspr.).
+- **§ 130a ZPO** — Elektronisches Dokument (Fax faellt grundsätzlich darunter, wenn Anforderungen erfuellt).
+- **§ 167 ZPO** — Rueckwirkung Zustellung.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Fax-Nummer des Gerichts ermitteln
+
+- Website des Amtsgerichts (justiz.de).
+- Telefonisch erfragen über Geschäftsstelle.
+- Bei Eilbeduerftigkeit unbedingt telefonisch bestaetigen, ob Fax aktiv und betriebsbereit.
+
+### Schritt 2 — Schriftsatz vorbereiten
+
+- Original unterschrieben (handschriftlich).
+- Sauberer Druck, hoher Kontrast — Fax verschlechtert die Qualitaet.
+
+### Schritt 3 — Versenden
+
+- Eigenes Fax-Geraet, Online-Fax-Dienst, Hostel/Buero.
+- Achten Sie auf vollstaendige Uebertragung (Letzte Seite enthalten?).
+
+### Schritt 4 — Sendebericht aufbewahren
+
+Das **wichtigste**: der **Sendebericht** mit "OK"-Vermerk, Datum, Uhrzeit, Empfaenger-Nummer und Seitenanzahl.
+
+- Fax-Geraet druckt automatisch.
+- Online-Dienst zeigt Bestaetigung.
+
+Aufbewahren! Im Fristen-Streit ist er Ihr Beweis.
+
+### Schritt 5 — Empfangsbestaetigung anfordern
+
+Wenn Frist droht und Sie unsicher sind: am naechsten Werktag bei der Geschäftsstelle anrufen und Empfang bestaetigen lassen.
+
+### Schritt 6 — Fax ist eingegangen, wenn ...
+
+BGH-Linie: Fax ist eingegangen, sobald es auf dem **Empfangsgeraet** des Gerichts vollstaendig gespeichert ist. Speicher-Zeitpunkt des Empfangs-Faxes zaehlt.
+
+Wenn das Fax wegen Geraete-Stoerung beim Empfaenger nicht ankommt — und Sie das nicht erkennen konnten — wirkt sich BGH-Wiedereinsetzungs-Rechtsprechung guenstig aus. Aber: Sie tragen das **Uebertragungsrisiko**, sofern Sie ein technisches Problem haetten erkennen müssen.
+
+### Schritt 7 — Computerfax / Online-Fax
+
+- Email-zu-Fax-Dienst: rechtlich ähnlich Fax.
+- Aber: Authentizitaet kann schwerer beweisbar sein.
+- BGH hat Online-Fax bei korrektem Sendebericht akzeptiert.
+
+### Schritt 8 — Alternativen wenn möglich
+
+Fax ist Ueberbrueckung — wenn Sie laufend Schriftsaetze einreichen, richten Sie MJP ein.
+
+## Worauf Sie besonders achten müssen
+
+- **Sendebericht ist Beweis**. Ohne ihn keine Frist-Wahrung.
+- **Vollstaendigkeit prüfen**: Manchmal verzichtet das Fax-Geraet bei langen Sendungen auf einzelne Seiten.
+- **Lesbarkeit**: Schlechter Druck wird durch Fax noch schlechter.
+- **Fristwahrung**: Eingang vor 24:00 Uhr des Fristtags reicht.
+
+## Typische Fehler
+
+- "Ich sende und vergesse Sendebericht." → Beweisfrei.
+- "Ich sehe nur 'gesendet' im Display." → "Gesendet" heisst nicht "empfangen". Sendebericht "OK" ist entscheidend.
+- "Fax statt MJP für staendige Einreichung." → Auf Dauer zu fehleranfaellig. Wenden Sie sich an MJP.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. Fax-Einreichung weiterhin möglich; mehrere Gerichte planen aber Abbau. Vor Verlass auf Fax telefonisch bestaetigen, dass Anschluss aktiv ist.

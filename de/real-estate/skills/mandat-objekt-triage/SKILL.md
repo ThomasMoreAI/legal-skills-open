@@ -1,0 +1,86 @@
+---
+name: mandat-objekt-triage
+title: Mandat- und Objekt-Triage
+description: 'Für Mandat- und Objekt-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/mandat-objekt-triage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Mandat- und Objekt-Triage
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Fachlicher Anker
+
+- **Normen:** §§ 535, §§ 18, § 16 Abs. 2.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: Mandat- und Objekt-Triage
+- **Normen-/Quellenanker:** WEG §§ 18-28, 44/45, BGB-Miet-/Werkvertragsrecht, BetrKV, HeizkostenV, GEG, DSGVO und landesrechtliche Bau-/Sicherheitsfragen.
+- **Entscheidende Weiche:** Trenne Beschlusskompetenz, ordnungsmäßige Verwaltung, Kostenverteilung, Anfechtungsfrist, Verwalterpflicht, Belegprüfung und Vollzug.
+
+Stand: 05/2026.
+
+## Ziel
+
+Aus einer ungeordneten Verwaltungsakte entsteht ein arbeitsfähiges Objektprofil mit Fristen, Zuständigkeiten, Dokumentenlage und nächstem Skill.
+
+## Abfrage
+
+| Bereich | Klären |
+| --- | --- |
+| Objekt | Adresse, Einheiten, Wohn-/Gewerbeanteil, Baujahr, Verwaltung seit wann, Bundesland |
+| Rollen | GdWE, Verwalter, Beirat, einzelne Eigentümer, vermietende Eigentümer, Mieter |
+| Grundakte | Teilungserklärung, Gemeinschaftsordnung, Aufteilungsplan, Beschlusssammlung |
+| Verwaltung | Verwaltervertrag, Vollmachten, Beiratsbestellung, Sonderzuständigkeiten, Sondervergütungen |
+| Finanzen | Wirtschaftsplan, Jahresabrechnung, Vermögensbericht, Erhaltungsrücklage, Hausgeldrückstände, Sonderumlagen |
+| Bau/Technik | Instandhaltungsstau, Angebote, Gutachten, Gewährleistungsfristen, GEG-Heizungsstatus, Steckersolar/Wallbox-Anträge |
+| Streit | laufende Beschlussklagen, Beschwerden, Störungen, Datenschutzprobleme, vermieterspezifische Mieter-Konflikte |
+| Energie/CO₂ | Energieausweis, Brennstoff/Heizart, CO₂-Stufe nach CO2KostAufG, anstehende GEG § 71-Fristen |
+
+## Arbeitsweise
+
+1. **Dokumente benennen und Lücken markieren.** (Liste: vorhanden / fehlt / unklar)
+2. **Fristen und irreversible Risiken nach oben ziehen.**
+ - § 45 WEG: 1 Monat Klage, 2 Monate Begründung (§ 45 WEG).
+ - Zustellung nachhalten; V ZR 17/24 enthält nur eine äußerste Einjahresgrenze nach bereits erfüllten eigenen Mitwirkungspflichten, keine Warteempfehlung.
+ - § 556 Abs. 3 BGB: 12 Monate Betriebskostenabrechnung Mieter.
+ - Gewährleistung Werkvertrag 5 J. / VOB 4 J.
+ - GEG § 71 Übergangsfristen für Heizungstausch (Großstädte 30.06.2026, sonst 30.06.2028).
+3. **Vorgänge in Körbe sortieren**: Versammlung, Beschluss, Abrechnung, Bau, Hausgeld, Kommunikation, Datenschutz, Gericht.
+4. **Primären Folge-Skill vorschlagen**.
+
+## Cross-Refs
+
+- Bei Versammlung-Stapel → `eigentuemerversammlung-vorbereiten`
+- Bei Abrechnungsfragen → `wirtschaftsplan-jahresabrechnung-28-weg`
+- Bei Hausgeld/Liquidität → `hausgeld-sonderumlage-liquiditaet`
+- Bei baulichen Veränderungen → `bauliche-veraenderungen-20-weg`
+- Bei Konflikt / Eskalation → `eskalation-anwalt-amtsgericht`
+
+## Quellenpflicht
+
+`rechtsstand-mai-2026-faktenbank` laden, sobald rechtliche Bewertung erfolgt.

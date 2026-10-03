@@ -5,7 +5,7 @@ description: 涵盖 EUIPO（欧盟）、USPTO（美国）和 WIPO Madrid Protoco
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/zh-CN/skills/file-trademark
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip
@@ -40,7 +40,7 @@ language: zh
 ## 申请费用参考
 
 | 办公室 | 基本费用 | 每类别 | 备注 |
-|--------|----------|-----------|-------|
+|---|---|---|---|
 | EUIPO | 850 EUR | +50 EUR（第 2 类）、+150 EUR（第 3 类+） | SME Fund：75% 退款 |
 | USPTO（TEAS Plus） | $250 | 每类 | 外国申请人需要美国律师 |
 | USPTO（TEAS Standard） | $350 | 每类 | 商品描述更灵活 |

@@ -1,0 +1,56 @@
+---
+name: fachanwalt-bank-kapitalmarktrecht-quellen-livecheck
+title: Rechtsquellen-Livecheck
+description: 'Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bank Kapitalmarktrecht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/quellen-livecheck
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Rechtsquellen-Livecheck
+
+## Einsatzlage
+
+Dieser Quellen-Livecheck für **Fachanwalt Bank Kapitalmarktrecht** trennt amtliche Normfassung, frei prüfbare Rechtsprechung, Behördenhinweise, Formularstand und offene Aktualitätsrisiken.
+
+## Fachlandkarte dieses Plugins
+
+- `anlageberatung-fehlerhaft` — Anlageberatung Fehlerhaft Cybertrading
+- `anlageberatungsfehler-pruefen` — Anlageberatungsfehler Bankrecht Akkreditiv
+- `bankaufsicht-erlaubnis-und-vertrieb` — Bankaufsicht Erlaubnis Emissionsprospekt
+- `bankrecht-buergschaft-aval-garantie-routing` — Bankrecht Buergschaft Aval Garantieabruf
+- `bankrecht-privatbuergschaft-sittenwidrigkeit` — Bankrecht Privatbuergschaft Regress BK
+- `praemiensparvertrag-zinsanpassung-bgh-xi-zr-44-23` — Zinsanpassung im Prämiensparvertrag prüfen
+- `beratungshaftung-zahlen-schwellen-und-berechnung` — Beratungshaftung Haftung Beweislast BK CUM
+- `bk-bankenfehlberatung-grundzuege` — BK Bankenfehlberatung Grundzuege Einfuehrung
+- `bk-mifid-suitability-spezial` — BK Mifid BK Prip Erstgespraech Mandatsannahme
+- `cum-ex-beihilfe-bgh-1-str-519-20` — CUM EX Beihilfe BGH 1 STR 519 20
+- `variabler-sparzins-zinsanpassung-pruefen` — Variablen Sparzins und Zinsanpassung prüfen
+- `einstieg-schnelltriage-fallrouting` — FA Bank Kapitalmarkt BK Bafin Chronologie
+- `workflow-fristen-und-risikoampel` — FA Bank Kapitalmarkt Fristen Risiko Mandant
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Tragende Normen (KWG, WpHG, WpIG, ZAG) zuerst amtlich verifizieren: gesetze-im-internet.de oder spezialisiertes Bundesgesetzblatt-Portal; nicht aus Modellwissen finalisieren.
+- Rechtsprechung nur mit vollständiger Zitatkette: Gericht, Senat, Entscheidungsform, Datum, Aktenzeichen, Fundstelle (BGHZ/BVerfGE/amtl. Sammlung) und frei prüfbare Quelle (dejure.org, openJur, Pressemitteilungen des Gerichts, BGH-/BVerfG-Datenbank).
+- Paywall-Quellen (juris, beck-online) nicht als alleinige Verifikation nutzen; immer eine freie Bestätigung beilegen.
+- Dynamische Bereiche im Fachanwalt Bank Kapitalmarktrecht (Rechtsverordnungen, Verwaltungspraxis, Mietspiegel, Tarife) gesondert tagesaktuell prüfen, weil Modellwissen veraltet ist.
+- Quellenstand und offene Unsicherheit im Output sichtbar machen — kein Pseudo-Zitat ohne Live-Check.
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

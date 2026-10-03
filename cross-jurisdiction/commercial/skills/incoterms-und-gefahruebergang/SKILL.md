@@ -1,11 +1,11 @@
 ---
 name: incoterms-und-gefahruebergang
 title: Incoterms und Gefahrübergang
-description: 'Incoterms-Klausel und Gefahruebergang in internationalem Kaufvertrag prüfen: Streit über Transportschaden oder Lieferpflicht. Normen: Incoterms 2020 (FOB, CIF, EXW, DAP, DDP), CISG Art. 31 und 67 ff. (Gefahruebergang). Prüfraster: Einschlaegige Incoterms-Klausel, Lieferort, Gefahruebergang-Zeitpunkt, Versicherungspflicht, Zoll, Verhaltnis zu CISG. Output Rechtsgutachten-Entwurf zu Gefahruebergang, Anspruchsschema. Abgrenzung: CISG Anwendbarkeit siehe cisg-prüfen; IPR siehe internationales-privatrecht.'
+description: 'Für Incoterms und Gefahrübergang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/incoterms-und-gefahruebergang
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: commercial
@@ -16,17 +16,12 @@ language: de
 
 Die Incoterms (International Commercial Terms) der Internationalen Handelskammer (ICC) regeln Lieferort, Gefahrübergang, Kostenverteilung und Versicherungspflichten.
 
-
 ## Triage zu Beginn
 
 1. Welche Incoterms-Klausel wurde vereinbart — Fassung 2020, 2010 oder älter?
 2. Welcher Lieferort ist im Vertrag benannt (Ort muss bei DAP, DDP, FCA genau angegeben sein)?
 3. Wurde die Klausel wirksam einbezogen (AGB-Recht, Einbeziehungsvereinbarung)?
 4. Hat ein Gefahrübergang stattgefunden — wann und wo?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -37,9 +32,6 @@ Die Incoterms (International Commercial Terms) der Internationalen Handelskammer
 - § 346 HGB — Handelsgebräuche
 - § 305 ff. BGB — AGB-Einbeziehung (bei B2C-Geschäften)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Klausel identifizieren:** Welche Klausel, welche Fassung? Im Vertrag oder AGB?
@@ -51,6 +43,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Output-Template
 
 **Adressat:** Entscheidungsgründe — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## Incoterms / Gefahrübergang
@@ -89,3 +89,5 @@ Incoterms sind keine gesetzliche Regelung, sondern Vertragsklausel. Sie konkreti
 ## Tatbestand
 
 Im Tatbestand die Klausel wörtlich oder als Bezugnahme angeben, im Entscheidungsgrund subsumieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

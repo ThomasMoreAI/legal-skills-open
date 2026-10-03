@@ -1,11 +1,11 @@
 ---
 name: gesellschaftsgruender-transparenzregister
 title: Transparenzregister
-description: 'Transparenzregister-Meldung für GmbH oder UG: wirtschaftlich Berechtigte, Fristen, Bußgelder. Normen: §§ 18 ff. GwG, GeldwäscheG. Prüfraster: Identifikation wirtschaftlich Berechtigter, Meldepflicht, Meldefristen, Aktualisierungen. Output: Checkliste Transparenzregister-Meldung. Abgrenzung: nicht AML-Geldwäsche-Beratung.'
+description: 'Für Transparenzregister: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Einreichungsplan mit Form- und Nachweischeck.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsgruender/skills/gesellschaftsgruender-transparenzregister
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -25,16 +25,16 @@ language: de
 
 ## Zentrale Normen
 
-- **§ 3 GwG** — Wirtschaftlich Berechtigter: natürliche Person mit > 25 % Kapital-/Stimmrechtsanteil oder vergleichbarer Kontrolle.
-- **§ 19 GwG** — Meldepflicht: eingetragene Gesellschaften müssen wirtschaftlich Berechtigte ans Transparenzregister melden.
-- **§ 20 GwG** — Inhalt der Meldung; Angaben zum wirtschaftlich Berechtigten.
-- **§ 21 GwG** — Aktualisierungspflicht: Änderungen unverzüglich melden.
-- **§ 23a GwG** — Einsichtsrecht: Behörden (uneingeschränkt), Verpflichtete (für Sorgfaltspflichten), Personen mit berechtigtem Interesse.
-- **§ 56 GwG** — Ordnungswidrigkeit: Bußgeld bis 150.000 EUR; bei vorsätzlichen / wiederholten Verstößen bis 1 Mio. EUR.
+- **Paragraf 3 GwG** — Wirtschaftlich Berechtigter: natürliche Person mit > 25 % Kapital-/Stimmrechtsanteil oder vergleichbarer Kontrolle.
+- **Paragraf 19 GwG** — Meldepflicht: eingetragene Gesellschaften müssen wirtschaftlich Berechtigte ans Transparenzregister melden.
+- **Paragraf 20 GwG** — Inhalt der Meldung; Angaben zum wirtschaftlich Berechtigten.
+- **Paragraf 21 GwG** — Aktualisierungspflicht: Änderungen unverzüglich melden.
+- **Paragraf 23a GwG** — Einsichtsrecht: Behörden (uneingeschränkt), Verpflichtete (für Sorgfaltspflichten), Personen mit berechtigtem Interesse.
+- **Paragraf 56 GwG** — Ordnungswidrigkeit: Bußgeld bis 150.000 EUR; bei vorsätzlichen / wiederholten Verstößen bis 1 Mio. EUR.
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
 
 ## Quellenregel
 
@@ -48,7 +48,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | 3 | Mittelbare Beteiligung über Holding/Konzern? | Durchschau auf natürliche Person oben |
 | 4 | Fiktiver wB erforderlich? (kein natürlicher > 25 %) | Gesetzliche Vertreter als Ersatz |
 | 5 | Trust / Stiftung / Foundation als Gesellschafter? | Trustee, Treugeber, Begünstigte prüfen |
-| 6 | Sonderstimmrechte / Golden Share / Vetorechtskonstruktionen? | Kontrolle i.S.v. § 3 GwG prüfen |
+| 6 | Sonderstimmrechte / Golden Share / Vetorechtskonstruktionen? | Kontrolle i.S.v. Paragraf 3 GwG prüfen |
 | 7 | Angaben vollständig? (Name, Geb.datum, Wohnsitz, Staatsangeh., Art des Interesses) | Vollständigkeit prüfen |
 | 8 | Meldung aktuell? Letzte Änderung der Struktur wann? | Aktualisierungspflicht prüfen |
 
@@ -99,7 +99,7 @@ Frühwarnung: Jede Änderung der Gesellschafterstruktur → sofort melden
 
 ## Rote Schwellen
 
-- Meldung nicht unverzüglich nach Gründung → Bußgeld bis 150.000 EUR (§ 56 GwG).
+- Meldung nicht unverzüglich nach Gründung → Bußgeld bis 150.000 EUR (Paragraf 56 GwG).
 - Mehrstufige Holding-Struktur ohne Durchschau-Test → fehlerhafte Meldung; Bußgeldrisiko.
 - Trust / Stiftung als Gesellschafter ohne Meldung der Begünstigten → systematische Pflichtverletzung.
 - Änderung der Gesellschafterstruktur ohne Aktualisierung der Transparenzregistermeldung → laufende Ordnungswidrigkeit.
@@ -107,10 +107,10 @@ Frühwarnung: Jede Änderung der Gesellschafterstruktur → sofort melden
 
 ## Quellen und Vertiefung
 
-- §§ 3, 19-23a, 56 GwG (Transparenzregister komplett)
+- Paragraf 3, 19-23a, 56 GwG (Transparenzregister komplett)
 - TraFinG 2021 (Vollregister)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Zentes/Glaab, GwG, § 19 Rn. 1-30
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle verwenden.
+- Zentes/Glaab, GwG, Paragraf 19 Rn. 1-30
 
 ## Übergabe an andere Skills
 

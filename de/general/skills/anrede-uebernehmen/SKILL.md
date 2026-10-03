@@ -1,11 +1,11 @@
 ---
 name: anrede-uebernehmen
 title: Anrede-Übernehmen
-description: 'Antwort-E-Mail soll mit exakt richtiger Anrede des potentiellen Mandanten beginnen ohne Fehler bei Titeln oder Doppelnamen. Anredekonventionen Kanzlei. Prüfraster: Titel (Dr. Prof. Mag.) Doppelnamen Adelspraeifikate kirchliche Titel Komposita Ehepaare Erbengemeinschaften namenlose Anfragen. Output: korrekte formelle Anredezeile für E-Mail-Antwort. Abgrenzung zu anfrage-eingang-parser (Datenparsing) und erstantwort-generator (vollständige E-Mail).'
+description: 'Für Anrede-Übernehmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/anrede-uebernehmen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,17 +14,23 @@ language: de
 
 # Anrede-Übernehmen
 
-Dieser Skill übernimmt die exakte Anrede aus der eingehenden E-Mail und wandelt sie — wo nötig — in eine formelle Anredezeile für das Antwortschreiben um. Grundprinzip: Was die anfragende Person über sich selbst sagt, hat Vorrang vor jeder Heuristik.
+## Arbeitsweg
 
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Dieser Skill übernimmt die exakte Anrede aus der eingehenden E-Mail und wandelt sie — wo nötig — in eine formelle Anredezeile für das Antwortschreiben um. Grundprinzip: Was die anfragende Person über sich selbst sagt, hat Vorrang vor jeder Heuristik.
 
 ## Triage zu Beginn
 1. Wie hat sich die anfragende Person angesprochen oder bezeichnet (Titel, Nachname, Vorname, Doppelname)?
-2. Gibt es Unsicherheiten bei Titel, Geschlecht oder Namensbestandteilen, die gekennzeichnet werden muessen?
+2. Gibt es Unsicherheiten bei Titel, Geschlecht oder Namensbestandteilen, die gekennzeichnet werden müssen?
 3. Ist die Anfrage nicht auf Deutsch — andere Anredekonventionen (EN, FR, IT) beachten?
 4. Handelt es sich um eine Erbengemeinschaft, ein Ehepaar oder eine juristische Person mit besonderer Anredeform?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 2 BORA — Gewissenhaftigkeit: korrekte Mandantenkommunikation als Grundpflicht
@@ -32,9 +38,6 @@ Dieser Skill übernimmt die exakte Anrede aus der eingehenden E-Mail und wandelt
 - § 43 BRAO — Sorgfaltspflicht: fehlerfreie Kommunikation als Bestandteil anwaltlicher Berufspflichten
 - § 12 BGB — Namensrecht: Recht auf korrekte Namensnennung auch in der Korrespondenz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Grundprinzip: Exaktheit vor Heuristik
 
 Die Anrede aus der Eingangsmail wird buchstabengenau übernommen, sofern sie bereits formal korrekt ist. Eigenhändig gewählte Anredeformen sind zu respektieren:
@@ -117,26 +120,17 @@ Hierarchie der Titelführung nach deutschem Recht:
 - "Mx." oder "Divers" aus der Eingangsmail: "Sehr geehrte Person [Nachname]," oder die von der anfragenden Person gewünschte Formulierung übernehmen.
 - Im Zweifel vollständigen Namen ohne Geschlechtsmarkierung verwenden: "Sehr geehrte[r/s] [Vollständiger Name],"
 
-## Ausgabeformat
-
-```
-ANREDEZEILE (Erstantwort):
-Sehr geehrte[r/s/e] [Titel] [Vorname] [Nachname],
-
-INTERNE NOTIZ:
-Quelle der Anrede: [Signatur / Fließtext / E-Mail-Header / Heuristik]
-Angewendete Heuristik: [Typ 1-10 oder keine]
-Unsicherheit: [ja/nein — wenn ja: manuell prüfen]
-```
-
 ## Verweise auf andere Skills
 
 - `anfrage-eingang-parser` — liefert die rohe Anrede und den Namen
 - `erstantwort-generator` — verwendet die fertige Anredezeile aus diesem Skill
 - `muster-erstantwort` — enthält Anrede-Platzhalter `[ANREDE]` die durch diesen Skill befüllt werden
 
-<!-- AUDIT 27.05.2026 | bundle_053
-Geprüft: BGH VI ZR 7/20 (NOT_FOUND auf dejure.org)
-Ersatz: BGH VI ZR 246/19, NJW 2020, 3715 (verifiziert auf dejure.org)
-Thema: Allgemeines Persönlichkeitsrecht — thematisch passend für Persönlichkeitsschutz-Kontext
--->
+
+
+
+## Quellenkontrolle
+
+Für Eingang, Weiterleitung und Antwort einer Mandantenanfrage zuerst Mandatsstatus, Interessenkollision, Verschwiegenheit, Datenschutz und laufende Fristen bestimmen. Paragraf 43a BRAO, Paragraf 2 BORA, Paragraf 203 StGB und Artikel 5, 6 und 32 DSGVO nur nach konkreter Datenverarbeitung anwenden. Rechtsprechung gehört nur dann in das Arbeitsergebnis, wenn ihre tragende Aussage die konkrete Anfrage tatsächlich entscheidet.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

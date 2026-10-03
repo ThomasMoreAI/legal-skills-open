@@ -5,11 +5,14 @@ description: 'IPC/CPC 국제특허분류 체계 가이드. 특허 검색 시 IPC
 author: orientpine
 author_url: https://github.com/orientpine/honeypot/tree/main/plugins/patent-trend-analyzer/skills/ipc-classification-guide
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: ko
+sources:
+- title: G06n scheme
+  path: references/g06n-scheme.md
 ---
 
 # IPC/CPC 국제특허분류 가이드

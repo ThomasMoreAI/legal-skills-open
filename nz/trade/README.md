@@ -10,7 +10,7 @@ Jurisdiction: `nz` · Practice: `trade` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Customs Tariff NZ`](skills/customs-tariff-nz-thecolab-ai/) | Search and look up official New Zealand Customs tariff classifications, rates, levies and formula records.… |
+| [`Customs Tariff NZ`](skills/customs-tariff-nz-thecolab-ai/) | Search and look up official New Zealand Customs tariff classifications, rates, levies and formula… |
 
 ## Cold-start context
 

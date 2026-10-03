@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-voruebergehende-verwendung-ata-carnet
+title: 'Voruebergehende Verwendung und ATA-Carnet: Messeware und Berufsausruestung'
+description: 'Für Vorübergehende Verwendung und ATA-Carnet: Messeware und Berufsausrüstung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-voruebergehende-verwendung-ata-carnet
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Voruebergehende Verwendung und ATA-Carnet: Messeware und Berufsausruestung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Messebauer transportiert Ausstellungsexponate nach Dubai; ATA-Carnet für Nicht-EU-Land beantragen.
+- Filmproduktion nimmt Kameraausruestung zum Drehen nach Kanada mit; ATA-Carnet Berufsausruestung.
+- Maschinenexporteur bringt Demonstrationsgeraet nach Japan; Zollabruf und Wiedereinf uehrung.
+
+## Erste Schritte
+
+1. Bestimmungsland prüfen: ATA-Carnet-Partnerland (WCO-Mitglied) oder EU-Bewilligung voruebergehende Verwendung?
+2. Warenart prüfen: Messeware Berufsausruestung Transportmittel oder Ersatzteile?
+3. ATA-Carnet bei zuständiger Handelskammer (IHK) beantragen; Buergschaftshoehe kalkulieren.
+4. Carnet vollstaendig ausfuellen; Warenliste mit HS-Codes Werten und Seriennummern.
+5. Ausreise: Carnet bei Abgangszollstelle abstempeln lassen.
+6. Wiedereinf uehrung innerhalb der Gueltigkeitsdauer; Gegenzeichnung bei Rieder eintrittszollstelle.
+
+## Rechtsrahmen
+
+- **UZK Art. 250-262**: Voruebergehende Verwendung als EU-Zollverfahren.
+- **Istanbul-Konvention (1990)**: Voelkerrechtliche Grundlage für ATA-Carnet-System.
+- **UZK-DA Art. 322 ff.**: Voraussetzungen für Bewilligung voruebergehende Verwendung.
+- **UZK Art. 79**: Zollschuldentstehung bei Nichtrueckfuehr.
+- **ATA-Convention Annex B.2 (Messe)**: Spezifische Regeln für Ausstellungsgueter.
+
+## Prüf-Raster
+
+- [ ] Bestimmungsland ist ATA-Carnet-Partnerland?
+- [ ] Warenart unter ATA-Carnet-Anwendung?
+- [ ] Carnet vollstaendig und mit korrekten Warenbeschreibungen ausgefuellt?
+- [ ] Buergschaft gueltig und ausreichend?
+- [ ] Abgangszollstelle hat Carnet korrekt abgestempelt?
+- [ ] Rueckfuehrungsfrist eingehalten und Gegenzeichnung erhalten?
+
+## Typische Fallstricke
+
+- Rueckfuehrungsfrist versaeumt: Zollschuldentstehung und IHK haftet aus Buergschaft.
+- Warenveraenderung im Ausland (Reparatur) fuehrt zu Statusverlust voruebergehende Verwendung.
+- ATA-Carnet gilt nicht in der EU selbst; dort gelten EU-Zollverfahren.
+- Verlust des Carnets im Ausland: Notfallverfahren über IHK und WCO.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [UZK Art. 250 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de Voruebergehende Verwendung](https://www.zoll.de/DE/Fachthemen/Zoelle/Zollverfahren-allgemein/Besondere-Verfahren/Voruebergehende-Verwendung/voruebergehende-verwendung_node.html)
+- [DIHK ATA-Carnet](https://www.dihk.de/de/themen-und-positionen/internationales/zoll/ata-carnet)
+- [UZK-DA auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R2446)

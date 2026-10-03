@@ -5,7 +5,7 @@ description: Search for prior art relevant to a specific invention or patent cla
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/caveman/skills/search-prior-art
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -55,7 +55,7 @@ Break invention into constituent technical features.
    - Alternative descriptions of same concept
 5. Document **Search Map**: elements, terms, relationships
 
-```
+```text
 Search Map Example:
 +------------------+-----------------------------------+-----------+
 | Element          | Search Terms                      | Priority  |
@@ -140,7 +140,7 @@ Evaluate how collected prior art relates to invention.
 
 1. Make **claim chart** mapping prior art to invention elements.
 
-```
+```text
 Claim Element vs. Prior Art Matrix:
 +------------------+--------+--------+--------+--------+
 | Element          | Ref #1 | Ref #2 | Ref #3 | Ref #4 |

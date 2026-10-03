@@ -1,11 +1,11 @@
 ---
 name: gesellschafterdarlehen-rangruecktritt
 title: Gesellschafterdarlehen — qualifizierter Rangrücktritt
-description: Workflow-Skill zu gesellschafterdarlehen rangruecktritt. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Gesellschafterdarlehen — qualifizierter Rangrücktritt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/gesellschafterdarlehen-rangruecktritt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,24 +14,36 @@ language: de
 
 # Gesellschafterdarlehen — qualifizierter Rangrücktritt
 
-## Zweck
+## Arbeitsweg
 
-Eine bestehende Forderung des Gesellschafters gegen die Gesellschaft (Darlehen Verkaufsforderung Mietforderung) wird mit einem **qualifizierten Rangrücktritt** versehen. Folge:
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: IDW S 11 12-Monats-Prognose ab Stichtag, § 15a InsO 6 Wochen bei Überschuldung, Drei-Wochen-Liquiditätsstockungs-Test, jährliche Aktualisierung.
+- Tragende Normen verifizieren: InsO § 19 Abs. 2 (zweistufige Prüfung), IDW S 11 (Anforderungen), IDW PS 800, HGB § 252 Abs. 1 Nr. 2 (Going Concern), StaRUG §§ 1, 102 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-- Die Forderung wird im insolvenzrechtlichen Status **nicht passiviert** (§ 19 Abs. 2 S. 2 InsO).
-- Der Status verbessert sich um den Nennbetrag der Forderung.
-- Bei späterer Insolvenz tritt der Gesellschafter hinter alle anderen Gläubiger zurück.
+## BGH- und BFH-Anforderungen
 
-## BGH-Anforderungen
+Rechtsprechung vor Ausgabe über offizielle oder frei zugängliche Quelle prüfen; keine Blindzitate.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+1. Rangrücktritt ist kein einseitiger Höflichkeitssatz, sondern Schuldänderungsvertrag zwischen Gläubiger und Schuldner.
+2. Der qualifizierte Rangrücktritt muss vor und nach Verfahrenseröffnung wirken. Er braucht eine vorinsolvenzliche Durchsetzungssperre, sonst entlastet er den Überschuldungsstatus nicht zuverlässig.
+3. Befriedigung darf nur aus freiem Vermögen oder freien Liquiditätsüberschüssen erfolgen, also nur soweit dadurch weder Zahlungsunfähigkeit noch Überschuldung eintritt oder vertieft wird und vorrangige Gläubiger nicht beeinträchtigt werden.
+4. Die Forderung darf im Insolvenzfall nur nachrangig nach Maßgabe des Paragraf 39 InsO bedient werden; Zinsen, Nebenforderungen und Sicherheitenfolgen sind ausdrücklich einzubeziehen.
+5. Die Vereinbarung wirkt als Vertrag zugunsten der Gläubigergesamtheit. Ab Eintritt der Insolvenzreife kann sie nicht durch eine bloße Abrede zwischen Schuldner und Rangrücktrittsgläubiger zulasten der übrigen Gläubiger aufgehoben werden.
+6. Steuerlich ist die Rückzahlungsquelle zu formulieren: reine Tilgung nur aus künftigem Bilanzgewinn oder Liquidationsüberschuss kann Paragraf 5 Absatz 2a EStG auslösen; Tilgung auch aus sonstigem freien Vermögen oder freiem Liquiditätsüberschuss hält die Passivierung eher offen. Steuerberater einschalten.
 
-1. **Insolvenzfall** der Gesellschaft.
-2. **Gläubigergleichbehandlung** — Rücktritt hinter alle anderen Gläubiger.
-3. **Geschäftsbeendigung und Liquidation** außerhalb der Insolvenz.
-4. **Vorinsolvenzliche Krisenlage** — Rückforderung nur nach gleichrangiger Befriedigung aller anderen Gläubiger.
+## Schnellprüfung vor Verwendung
 
-Ohne diese vier Komponenten ist der Rangrücktritt **insolvenzrechtlich unwirksam** und die Forderung muss weiterhin passiviert werden.
+| Frage | Muss-Antwort | Risiko bei Nein |
+| --- | --- | --- |
+| Erfasst die Sperre Vorinsolvenz und Verfahren? | Ja, ausdrücklich | Forderung bleibt im Überschuldungsstatus |
+| Darf nur aus freiem Vermögen oder freiem Liquiditätsüberschuss gezahlt werden? | Ja, ohne Gefährdung vorrangiger Gläubiger | Zahlung kann Insolvenzreife auslösen oder vertiefen |
+| Gilt der Nachrang für Zinsen, Kosten und Nebenforderungen? | Ja | Teilpassivierung bleibt offen |
+| Ist die Gläubigergesamtheit begünstigt? | Ja, als Schutzwirkung/Drittwirkung sichtbar | spätere Aufhebung zu leicht |
+| Ist die Steuerwirkung mit Abschlussprüfer oder Steuerberater abgestimmt? | Ja, dokumentiert | unerwartete Ausbuchung oder Sanierungsertrag |
+
+Leitentscheidungen: BGH, Urteil vom 05.03.2015 - IX ZR 133/14; BGH, Urteil vom 06.12.2018 - IX ZR 143/17; BGH, Urteil vom 24.02.2022 - IX ZR 250/20; BFH, Urteil vom 10.08.2016 - I R 25/15; BFH, Urteil vom 19.08.2020 - XI R 32/18.
 
 ## Mustervorlage
 
@@ -40,26 +52,26 @@ QUALIFIZIERTER RANGRUECKTRITT
 
 zwischen
 
-  [Vor- und Nachname Gesellschafter]
-  [Anschrift]
-  - im Folgenden "der Gläubiger" -
+ [Vor- und Nachname Gesellschafter]
+ [Anschrift]
+ - im Folgenden "der Gläubiger" -
 
 und
 
-  [Firma der Gesellschaft]
-  vertreten durch [Geschäftsführer]
-  [Anschrift]
-  HRB [...] AG [...]
-  - im Folgenden "die Schuldnerin" -
+ [Firma der Gesellschaft]
+ vertreten durch [Geschäftsführer]
+ [Anschrift]
+ HRB [...] AG [...]
+ - im Folgenden "die Schuldnerin" -
 
 1. Praeambel
 
 Der Gläubiger ist Inhaber folgender Forderung gegen die Schuldnerin:
 
-  Darlehensvertrag vom [Datum]
-  Hauptforderung in Höhe von [Betrag] EUR
-  zuzueglich vereinbarter Zinsen
-  zum [Stichtag] insgesamt [Gesamtbetrag] EUR.
+ Darlehensvertrag vom [Datum]
+ Hauptforderung in Höhe von [Betrag] EUR
+ zuzueglich vereinbarter Zinsen
+ zum [Stichtag] insgesamt [Gesamtbetrag] EUR.
 
 2. Rangrücktritt
 
@@ -70,33 +82,41 @@ Schuldnerin im Rang zurück.
 
 2.2 Der Rangrücktritt erstreckt sich auf folgende Fälle:
 
-  a) Insolvenz der Schuldnerin (Eröffnungsverfahren und eroeffnetes Verfahren),
-  b) Liquidation der Schuldnerin außerhalb der Insolvenz,
-  c) jeden anderen Fall der Geschäftsbeendigung der Schuldnerin,
-  d) jede vorinsolvenzliche Krisenlage in der die Schuldnerin nicht
-     überwiegend wahrscheinlich zahlungsfähig fortgeführt werden kann.
+ a) Insolvenz der Schuldnerin (Eröffnungsverfahren und eroeffnetes Verfahren),
+ b) Liquidation der Schuldnerin außerhalb der Insolvenz,
+ c) jeden anderen Fall der Geschäftsbeendigung der Schuldnerin,
+ d) jede vorinsolvenzliche Krisenlage, in der die Befriedigung dieser Forderung
+ eine Zahlungsunfähigkeit oder Überschuldung der Schuldnerin herbeiführen
+ oder vertiefen würde.
 
-2.3 Tilgung Zinszahlung oder sonstige Befriedigung der Forderung kann nur
-erfolgen wenn
+2.3 Tilgung, Zinszahlung oder sonstige Befriedigung der Forderung darf nur
+erfolgen, soweit die Zahlung aus freiem Vermögen oder freien
+Liquiditätsüberschüssen geleistet wird und nach Zahlung sämtliche fälligen
+gegenwärtigen und künftig im Drei-Wochen-Zeitraum fällig werdenden
+Verbindlichkeiten gegenüber anderen Gläubigern erfüllt werden können.
+Eine Zahlung ist ausgeschlossen, wenn sie eine Zahlungsunfähigkeit oder
+Überschuldung der Schuldnerin herbeiführt, vertieft oder wieder aufleben lässt.
 
-  - alle anderen Gläubiger der Schuldnerin gleichrangig befriedigt sind, ODER
-  - die Befriedigung aus dem freien — nicht zur Erfüllung gegenüber Gläubigern
-    gleichen oder vorrangigen Ranges erforderlichen — Vermögen der Schuldnerin
-    erfolgt.
+2.4 Diese Vereinbarung wird zugunsten der Gläubigergesamtheit geschlossen.
+Ab Eintritt einer Insolvenzreife kann sie nicht durch Vereinbarung allein
+zwischen dem Gläubiger und der Schuldnerin aufgehoben oder zum Nachteil
+der übrigen Gläubiger geändert werden.
 
-2.4 Diese Erklärung ist unwiderruflich.
+2.5 Diese Erklärung ist unwiderruflich, solange und soweit ihre Aufhebung
+eine Insolvenzreife herbeiführen oder vertiefen würde.
 
 3. Wirkung im Insolvenzstatus
 
-Die Parteien sind sich einig dass aufgrund des Rangrücktritts die Forderung
+Die Parteien sind sich einig, dass aufgrund des Rangrücktritts die Forderung
 des Gläubigers im insolvenzrechtlichen Überschuldungsstatus der Schuldnerin
-nach § 19 Abs. 2 S. 2 InsO nicht zu passivieren ist.
+nach Paragraf 19 Absatz 2 Satz 2 InsO nicht zu passivieren ist.
 
 4. Steuerrechtliche Hinweise
 
-Die Parteien sind sich bewusst dass der Rangrücktritt steuerrechtliche Folgen
-ausloesen kann (Ertragsbuchung beim Schuldner bei nachhaltiger Rückzahlungsunfähigkeit
-§ 5 Abs. 2a EStG analog). Vor Unterzeichnung wurde steuerlicher Rat eingeholt.
+Die Parteien sind sich bewusst, dass der Rangrücktritt steuerrechtliche Folgen
+auslösen kann. Die Rückzahlungsquelle wurde bewusst so formuliert, dass
+neben künftigen Gewinnen auch freies Vermögen und freie Liquiditätsüberschüsse
+erfasst sind. Vor Unterzeichnung wurde steuerlicher Rat eingeholt.
 
 5. Form und Wirksamkeit
 
@@ -112,7 +132,6 @@ Beurkundung wird empfohlen aber ist nicht zwingend.
 ___________________________
 [Gläubiger]
 
-
 ___________________________
 [Geschäftsführer]
 für die Schuldnerin
@@ -126,15 +145,15 @@ Nicht zwingend aber **empfohlen** bei hohen Forderungen — Beweis- und Anfechtu
 
 ### Anfechtungsrisiko
 
-Bei nachfolgender Insolvenz prüfbar nach § 135 Abs. 1 InsO (Gesellschafterdarlehen — Insolvenzanfechtung). Der Rangrücktritt selbst ist nicht anfechtbar — er konkretisiert die ohnehin nach § 39 Abs. 1 Nr. 5 InsO bestehende Nachrangigkeit.
+Bei nachfolgender Insolvenz prüfbar nach Paragraf 135 Absatz 1 InsO (Gesellschafterdarlehen — Insolvenzanfechtung). Der Rangrücktritt selbst ist nicht anfechtbar — er konkretisiert die ohnehin nach Paragraf 39 Absatz 1 Nummer 5 InsO bestehende Nachrangigkeit.
 
 ### Verzicht auf bereits geleistete Zahlungen?
 
-Nicht im Rangrücktritt. Wenn der Gesellschafter Rückzahlungen erhalten hat: prüfen ob diese nach § 135 InsO anfechtbar sind.
+Nicht im Rangrücktritt. Wenn der Gesellschafter Rückzahlungen erhalten hat: prüfen ob diese nach Paragraf 135 InsO anfechtbar sind.
 
 ### Steuerrechtliche Folge — Buchungsfrage
 
-Wenn nach Bilanzansatz die Forderung dauerhaft nicht mehr werthaltig (kein freies Vermögen jemals zur Tilgung): ggf. Ertragsbuchung beim Schuldner zwingend. Vor Unterzeichnung Steuerberater konsultieren.
+Nicht jeder insolvenzrechtlich wirksame Rangrücktritt ist steuerlich neutral formuliert. Wenn Rückzahlung nur aus künftigen Gewinnen oder Liquidationsüberschuss erlaubt ist, kann das Passivierungsverbot nach Paragraf 5 Absatz 2a EStG greifen. Wenn Rückzahlung auch aus sonstigem freien Vermögen oder freien Liquiditätsüberschüssen möglich bleibt, spricht die BFH-Linie eher gegen eine Ausbuchung. Diese Weiche ausdrücklich mit Steuerberater und Abschlussprüfer abstimmen.
 
 ### Pflicht zur Anzeige?
 
@@ -147,22 +166,20 @@ Es besteht keine eigenständige Anzeigepflicht. Aber bei Insolvenzantrag ist der
 - Eintrag im Status (Skill `bilanzieller-status-aufnehmen`) — Forderung wird nicht passiviert.
 - Wiedervorlage zur Prüfung Steuerfolge (steuerberatung).
 
+## Aktuelle Leitentscheidungen — Gesellschafterdarlehen und Rangrücktritt
 
-## Aktuelle Leitentscheidungen — Gesellschafterdarlehen und Rangruecktritt
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- BGH, Urteil vom 05.03.2015 - IX ZR 133/14: qualifizierter Rangrücktritt als Schuldänderungsvertrag und Vertrag zugunsten der Gläubigergesamtheit.
+- BGH, Urteil vom 06.12.2018 - IX ZR 143/17: vorinsolvenzliche Durchsetzungssperre muss die Insolvenzgründe sauber erfassen; AGB-Kontrolle an der Hauptleistungsabrede ausrichten.
+- BGH, Urteil vom 24.02.2022 - IX ZR 250/20: Rangrücktritt kann Fälligkeit und Durchsetzbarkeit prägen und dadurch die Kenntnis von Zahlungsunfähigkeit beeinflussen.
+- BFH, Urteil vom 10.08.2016 - I R 25/15 und BFH, Urteil vom 19.08.2020 - XI R 32/18: steuerliche Passivierung hängt an der vereinbarten Rückzahlungsquelle; freies Vermögen gesondert formulieren.
 
 ## Paragrafenkette Gesellschafterdarlehen
 
-§ 19 Abs. 2 S. 2 InsO (qualifizierter Rangruecktritt — Nicht-Passivierung) → § 135 InsO (Anfechtung Gesellschafterdarlehen 1 Jahr) → § 39 Abs. 4 InsO (Sanierungsprivileg) → § 39 Abs. 1 Nr. 5 InsO (Nachrang Gesellschafterdarlehen) → §§ 488 ff. BGB (Darlehensvertrag)
+Paragraf 19 Absatz 2 Satz 2 InsO (qualifizierter Rangrücktritt — Nicht-Passivierung) -> Paragraf 135 InsO (Anfechtung Gesellschafterdarlehen 1 Jahr) -> Paragraf 39 Absatz 4 InsO (Sanierungsprivileg) -> Paragraf 39 Absatz 1 Nummer 5 InsO (Nachrang Gesellschafterdarlehen) -> Paragrafen 488 ff. BGB (Darlehensvertrag)
 
 ## Triage — Gesellschafterdarlehen Check
 
 1. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-2. **Darlehens-Restlaufzeit?** Innerhalb 1 Jahr → Tilgung anfechtungsgefaehrdet § 135 InsO.
-3. **Sanierungskonzept vorhanden?** Ohne IDW S 6 kein Sanierungsprivileg § 39 Abs. 4 InsO.
-4. **Zinsen laufen?** Nachrangige Zinsen sollten ebenfalls durch Rangruecktritt erfasst sein.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+2. **Darlehens-Restlaufzeit?** Innerhalb 1 Jahr -> Tilgung anfechtungsgefaehrdet nach Paragraf 135 InsO.
+3. **Sanierungskonzept vorhanden?** Ohne IDW S 6 kein Sanierungsprivileg nach Paragraf 39 Absatz 4 InsO.
+4. **Zinsen laufen?** Nachrangige Zinsen sollten ebenfalls durch Rangrücktritt erfasst sein.

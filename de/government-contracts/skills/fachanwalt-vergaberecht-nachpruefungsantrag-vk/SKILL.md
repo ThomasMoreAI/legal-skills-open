@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-vergaberecht-nachpruefungsantrag-vk
 title: Nachprüfungsantrag VK
-description: 'Nachprüfungsantrag bei der Vergabekammer nach §§ 160 ff. GWB stellen: Bieter ist unzulässig ausgeschlossen worden oder Zuschlag soll verhindert werden. Normen: § 160 Abs. 1 GWB (Nachprüfungsantrag), § 160 Abs. 2 GWB (Antragsbefugnis drohender Schaden), § 160 Abs. 3 GWB (Ruegerobliegenheit 10 Tage), § 167 GWB (Entscheidungsfrist VK 5 Wochen). Prüfraster: Statthaftigkeit (EU-Schwelle § 106 GWB), Antragsbefugnis, Praeklusion nach § 160 Abs. 3 GWB, Suspensiveffekt § 169 GWB. Output Nachprüfungsantrag-Entwurf. Abgrenzung: Ruege vorher siehe fachanwalt-vergaberecht-ruege-vor-zuschlag; Sofortige Beschwerde OLG siehe fachanwalt-vergaberecht-nachprüfungsverfahren-vk.'
+description: 'Für Nachprüfungsantrag VK: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-nachpruefungsantrag-vk
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: government-contracts
@@ -244,12 +244,10 @@ aufschiebende Wirkung bis zur Entscheidung des OLG.
 | Einwand Auftraggeber / Beigeladener | Reaktion |
 |---|---|
 | Rüge nicht rechtzeitig erhoben | Nachweis: Rügeschreiben mit Datum; Frist § 160 Abs. 3 Nr. 1 (10 Tage) oder bis Angebotsabgabe |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Fehler nicht kausal für Ergebnis | Denkbarer Einfluss ausreicht; Umkehr der Darlegungslast beim AG |
 | VK territorial nicht zuständig | § 159 Abs. 3 GWB: Sitz des AG entscheidet; ggf. VK Bund |
 | Beigeladener: Zuschlag im öffentlichen Interesse | § 169 Abs. 3 GWB: strenge Anforderungen; überragendes öffentliches Interesse muss glaubhaft gemacht werden |
 | Akteneinsicht gefährdet Betriebsgeheimnisse | § 165 Abs. 2 GWB: VK entscheidet nach Anhörung; schwärzen von Geheimnissen möglich |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ## Streitwert und Kosten
 
@@ -337,3 +335,21 @@ als Anlage K2. Frist § 160 Abs. 3 Nr. 4 GWB gewahrt.
 
 [Rechtsanwalt/-anwaeltin, Fachanwalt Vergaberecht]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Fuer Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Fuer Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Pruefe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

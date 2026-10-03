@@ -1,11 +1,11 @@
 ---
 name: inso-inkongruente-deckung-131
 title: Inkongruente Deckung — § 131 InsO
-description: 'Inkongruente Deckungsanfechtung nach § 131 InsO prüfen: Sicherung oder Befriedigung, die der Gläubiger nicht, nicht in der Art oder nicht zu der Zeit beanspruchen konnte. Fristen letzter Monat, zweiter oder dritter Monat; Zahlungsunfähigkeit oder Kenntnis der Gläubigerbenachteiligung. Output: Normmatrix mit Abgrenzung zu § 130, § 133 und § 142.'
+description: 'Für Inkongrünte Deckung — Paragraf 131 InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/inso-inkongruente-deckung-131
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy

@@ -1,18 +1,22 @@
 ---
 name: sachlichkeitsgebot-anwendung
 title: Sachlichkeitsgebot-Anwendung
-description: 'Sachlichkeitsgebot nach § 26 BORA auf konkrete Korrespondenz anwenden und Verbesserungen vornehmen. § 26 BORA Sachlichkeit § 43a BRAO. Prüfraster: unsachliche Formulierungen Emotionalisierung Abwertungen Versachlichungspotenzial. Output: Prüfprotokoll ueberarbeitete sachliche Version. Abgrenzung: systematischer Sachlichkeits-Skill; nicht für spezifische Situationen wie Ironie oder Angriffe.'
+description: 'Für Sachlichkeitsgebot-Anwendung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/sachlichkeitsgebot-anwendung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
-language: en
+language: de
 ---
 
 # Sachlichkeitsgebot-Anwendung
+
+## Fachkern: Sachlichkeitsgebot-Anwendung
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
 Dieser Skill erläutert das anwaltliche Sachlichkeitsgebot in seiner normativen Tiefe und wendet es auf konkrete Formulierungen an. Das Sachlichkeitsgebot ist einer der wichtigsten berufsrechtlichen Standards und gleichzeitig einer der am häufigsten missverstandenen.
 
@@ -34,7 +38,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 
 ## Berufsrechtlicher Hintergrund
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beispiele Vorher/Nachher
 
@@ -47,6 +50,4 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 **Vorher:** "Ich erwarte von einem Richter, dass er das Gesetz kennt."
 **Nachher:** Herabsetzend. Konform: "Ich bitte das Gericht, die Ausführungen zu § 284 BGB in der Berufungsbegründung zu berücksichtigen."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Einordnung der Äußerung (Tatsache / Werturteil / Schmähkritik). (2) Berufsrechtliche Bewertung. (3) Einschlägige Norm und ggf. Rechtsprechung. (4) Konforme Alternativformulierung.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

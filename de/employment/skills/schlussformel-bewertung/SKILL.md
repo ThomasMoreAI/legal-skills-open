@@ -1,62 +1,44 @@
 ---
 name: schlussformel-bewertung
-title: Schlussformel-Bewertung
-description: Workflow-Skill zu schlussformel bewertung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Schlussformeln im Arbeitszeugnis im Gesamtkontext bewerten
+description: 'Für Schlussformel Bewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/schlussformel-bewertung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Schlussformel-Bewertung
+# Schlussformeln im Arbeitszeugnis im Gesamtkontext bewerten
 
-Die Schlussformel ist das letzte, was ein potenzieller neuer Arbeitgeber im Zeugnis liest. Sie prägt deshalb den Ton des gesamten Dokuments. Eine warme Schlussformel besteht typischerweise aus drei Elementen: (1) Bedauern über das Ausscheiden, (2) Dank für die geleistete Arbeit und (3) Wünsche für die Zukunft.
+Lies zuerst das vollständige Zeugnis und vorhandene frühere Fassungen. Vergleiche den genauen Wortlaut der Schlussformel mit Leistungsbewertung, Verhalten und Beendigungsangaben. Liefere eine kurze, ausformulierte Bewertung mit Textbelegen, getrennt nach sprachlicher Wirkung und rechtlich zu prüfendem Änderungsziel; ergänze bei Bedarf einen konkreten Formulierungsvorschlag. Die folgenden Beispiele sind einzelne Vergleichsausschnitte, keine vollständige Bewertungsfolge.
 
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Das Bedauern signalisiert, dass der Arbeitgeber den Verlust als schmerzhaft empfindet. Formeln wie "Wir bedauern es sehr, Herrn Müller zu verlieren" oder "Wir hätten Frau Weber gerne gehalten" sind starke Signale. Schwächere Varianten wie "Wir nehmen Abschied von Herrn Fischer" oder das vollständige Fehlen eines Bedauerns sind Distanzsignale. Das bloße "Das Arbeitsverhältnis endet auf eigenen Wunsch" ohne weitere Wertung ist nicht automatisch rechtswidrig, kann aber den guten Leistungsteil abkühlen.
-
-Der Dank bezieht sich auf die geleisteten Beiträge. "Wir danken ihr herzlich für ihre engagierte und erfolgreiche Arbeit" ist stark. "Wir danken für die geleistete Arbeit" ist schwächer — der fehlende Superlativ und das fehlende Adverb senken den Ton erheblich.
-
-Die Zukunftswünsche sollten persönlich und nicht-generisch klingen. "Wir wünschen ihr für ihre berufliche und private Zukunft alles Gute und weiterhin viel Erfolg" ist eine warme Standardformel. "Wir wünschen ihr Erfolg auf ihrem weiteren Lebensweg" klingt sachlich und kühl. Völlig fehlende Zukunftswünsche sind vor allem dann auffällig, wenn der übrige Zeugnistext sehr positiv ist oder frühere Zwischenzeugnisse deutlich wärmer formuliert waren.
-
-## Geheimcode-Regeln
-
-| Schlussformel-Variante | Signalwirkung | Rechtliche Angreifbarkeit |
-|---|---|---|
-| Alle drei Elemente vollständig und warm formuliert | Stark positiv | Regelmäßig kein Angriffspunkt |
-| Alle drei Elemente, aber nüchtern | Solide bis kühl | Nur im Kontext prüfen |
-| Dank und Wunsch vorhanden, kein Bedauern | Leicht distanziert | Meist nur verhandelbar |
-| Nur Zukunftswunsch, kein Dank, kein Bedauern | Deutlich distanziert | Einzelfall: Vergleich, Vorzeugnis, Übung, Gesamtbild prüfen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| "auf eigenen Wunsch" ohne Bedauern | Ambivalent | Kontext der Eigenkündigung prüfen |
-| "Wir wünschen Herrn X für seinen weiteren Weg alles Gute" | Minimalformel | Eher Verhandlungs- als Klagepunkt |
-
-## Beispiele
-
-**Beispiel 1 – Grün (Note 1):** "Wir bedauern es außerordentlich, Frau Hoffmann zu verlieren, und danken ihr herzlich für ihre hervorragenden Leistungen. Für ihren weiteren beruflichen und persönlichen Weg wünschen wir ihr alles erdenklich Gute und weiterhin viel Erfolg."
+Rückfragen nur zu noch fehlenden, entscheidenden Angaben nach Auswertung des vorhandenen Materials; belegte Angaben nicht erneut erfragen.
 
 **Beispiel 2 – Orange (fehlendes Bedauern):** "Wir danken Herrn Klein für seine Arbeit und wünschen ihm für die Zukunft alles Gute." — Kein Bedauern; im Bewerbungsverkehr kühl, rechtlich aber nicht automatisch angreifbar.
 
 **Beispiel 3 – Rot/Orange (nur Wunsch):** "Wir wünschen Herrn Fuchs für seinen weiteren Weg alles Gute." — Kein Dank, kein Bedauern; deutliches Distanzsignal, aber nur mit Kontext als Berichtigungspunkt führen.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Beispiel 5 – Orange (kühle Formulierung):** "Das Arbeitsverhältnis endet auf Wunsch von Herrn Bauer. Wir wünschen ihm für die Zukunft alles Gute." — Sachliche Distanz durch Passivformulierung, fehlendes Bedauern.
 
-## Ausgabeformat
-
-Der Skill gibt die erkannten Schlussformel-Elemente einzeln aus (Bedauern: ja/nein/schwach; Dank: ja/nein/schwach; Wunsch: ja/nein/schwach), bewertet die Signalwirkung mit Ampelfarbe und trennt davon die rechtliche Durchsetzbarkeit. Danach folgt eine Empfehlung: akzeptieren, nachverhandeln, in Vergleich aufnehmen oder nur als Kontextargument verwenden.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Schlussformel)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 20.02.2001 - 9 AZR 44/00** | Beginn der staendigen Linie: kein Anspruch auf Schlussformel mit Dank und guten Wuenschen; Fehlen kein unzulaessiges Geheimzeichen. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 11.12.2012 - 9 AZR 227/11** | Kein Anspruch auf Dank/Wuensche; bei unzufriedener Mandantschaft mit erteilter Schlussformel ist nur ein Zeugnis OHNE Schlussformel einklagbar - keine Umformulierung. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 25.01.2022 - 9 AZR 146/21** | Bestaetigung der Linie; Abwaegung mit Meinungsfreiheit des Arbeitgebers (Art. 5 I GG). | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Versäumnisurt. v. 06.06.2023 - 9 AZR 272/22** | Maßregelungsverbot Paragraf 612a BGB: eine einmal erteilte Dankes-/Wunschformel darf nicht in späterer Fassung gestrichen werden, nur weil der Arbeitnehmer berechtigte Änderungswünsche geltend gemacht hat. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

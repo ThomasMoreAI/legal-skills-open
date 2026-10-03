@@ -1,0 +1,65 @@
+---
+name: einfache-leichte-sprache-jura-output-waehlen
+title: Output wählen
+description: 'Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Einfache und Leichte Sprache für juristische Texte.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/einfache-leichte-sprache-jura/skills/output-waehlen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Output wählen
+
+## Einsatzlage
+
+Diese Output-Weiche für **Einfache Leichte Sprache Jura** entscheidet, ob Memo, Antrag, Schriftsatz, Tabelle, Risikoampel, Fragenliste oder Mandantenbrief der richtige nächste Schritt ist.
+
+## Fachlandkarte dieses Plugins
+
+- `annaeherung-quellenkarte` — Annaeherung Quellenkarte
+- `aufenthaltsrecht-mandant` — Aufenthaltsrecht Mandant
+- `aufenthaltsrecht-mandant-betreuung` — Aufenthaltsrecht Mandant Betreuung
+- `bauen-fristennotiz-naechster-schritt` — Bauen Fristennotiz Naechster Schritt
+- `bauen-fristennotiz-und-naechster-schritt` — Bauen Fristennotiz und Naechster Schritt
+- `bescheidmodus` — Bescheidmodus
+- `bescheidmodus-02` — Bescheidmodus 02
+- `betreuung-vormundschaft` — Betreuung Vormundschaft
+- `chronologie-und-belegmatrix` — Chronologie und Belegmatrix
+- `einfache-sprache` — Einfache Sprache
+- `experimentelle-glossar-sonderfall-jura` — Experimentelle Glossar Sonderfall Jura
+- `experimentelle-schriftsatz-brief-memo-bausteine` — Experimentelle Schriftsatz Brief Memo Bausteine
+- `familienrecht-erstgespraech` — Familienrecht Erstgespraech
+- `anschluss-routing` — Anschluss Routing
+- `dokumente-intake` — Dokumente Intake
+
+## Arbeitsweg
+
+- Ergebnistyp bestimmen: Schriftsatz an Mandant, Gegner, zuständiges Gericht oder Behörde, etwaige Sachverständige oder beauftragte Stellen, Mandantenmemo, Risikobericht, Vertragsentwurf, Entscheidungsvorlage, Behörden-Stellungnahme — was braucht der Mandant wirklich?
+- Pflichtformate festlegen: Tenor / Antrag / Begründung (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis); konkrete Norm-Pinpoints im Einfache Leichte Sprache Jura (die einschlägigen Normen des Fachgebiets live über gesetze-im-internet.de und dejure.org prüfen) einarbeiten.
+- Adressat-Klarheit: Sprache, Detailtiefe und juristische Vorbildung des Empfängers berücksichtigen; bei Mandant ohne Vorbildung Klartext-Zusammenfassung voranstellen.
+- Beweis- und Anlagenstruktur planen (chronologisch, thematisch, K- und B-Anlagen); Bezugnahmen sauber kennzeichnen.
+- Quellenfußnoten und Zitierweise sichern; offene Punkte und Annahmen explizit als solche kennzeichnen.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- § 11 SGB I (Verständlichkeit)
+- BGG (Behindertengleichstellungsgesetz) § 11
+- BITV 2.0 (Barrierefreie Informationstechnik-Verordnung)
+- UN-BRK Art. 9, 21
+
+## Qualitätsanker
+
+- Normen und Rechtsprechung nach `references/quellenhygiene.md` und `references/zitierweise.md` behandeln.
+- Wenn eine Spezialfrage sichtbar wird, den passenden Skill nennen und kurz erklären, warum genau dieser Arbeitsgang passt.
+- Bei Zeitdruck zuerst Frist, Zuständigkeit, Form und Beweislast sichern.

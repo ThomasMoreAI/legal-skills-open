@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-bau-architektenrecht-orientierung
 title: Fachanwalt für Bau- und Architektenrecht — Orientierung
-description: 'Orientierungs-Skill Bau- und Architektenrecht: richtigen Skill anhand Sachverhalt auswaehlen. Normen: §§ 631 ff. 650a ff. BGB, VOB/B, HOAI. Prüfraster: Vertragstyp, Schadenstyp, Phase Planung/Bau/Abnahme. Output: Skillauswahl-Empfehlung Bau-Architektenrecht. Abgrenzung: kein inhaltlicher Prüf-Skill.'
+description: 'Für Fachanwalt für Bau- und Architektenrecht — Orientierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills/fachanwalt-bau-architektenrecht-orientierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: construction
@@ -74,10 +74,6 @@ language: de
 - **Verwaltungsgericht** öffentliches Baurecht, Baugenehmigung, Bebauungsplan
 - **Vergabekammer** (Bund/Länder) + OLG-Vergabesenat bei Vergaberechtssachen
 
-## Aktuelle Rechtsprechung BGH VII. Zivilsenat (Auswahl)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
@@ -109,3 +105,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - ARGE Baurecht im Deutschen Anwaltverein (DAV)
 - Deutscher Baugerichtstag (alle zwei Jahre Hamm)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

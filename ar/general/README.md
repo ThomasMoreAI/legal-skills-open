@@ -8,7 +8,7 @@ Jurisdiction: `ar` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`ley-ar — Argentine Legal Database Search`](skills/ley-ar/) | Search Argentine legal databases (SAIJ, JUBA, CSJN, JUSCABA) for jurisprudence, legislation, case summaries,… |
+| [`ley-ar — Argentine Legal Database Search`](skills/ley-ar/) | Search Argentine legal databases (SAIJ, JUBA, CSJN, JUSCABA) for jurisprudence, legislation, case… |
 
 ## Cold-start context
 

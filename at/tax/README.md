@@ -10,8 +10,8 @@ Jurisdiction: `at` · Practice: `tax` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht steuer — Steuerrechtliche Analyse`](skills/recht-steuer-momarcode1/) | Austrian tax law analysis — income tax (EStG), corporate tax (KStG), VAT (UStG), municipal tax (KommStG), tax… |
-| [`/recht steuer-verfahren — Abgabenverfahren und Rechtsmittel`](skills/recht-steuer-verfahren-momarcode1/) | Austrian tax procedure — filing appeals (Beschwerde) against tax assessments, BAO deadlines, Vorlageantrag to… |
+| [`/recht steuer — Steuerrechtliche Analyse`](skills/recht-steuer-momarcode1/) | Austrian tax law analysis — income tax (EStG), corporate tax (KStG), VAT (UStG), municipal tax… |
+| [`/recht steuer-verfahren — Abgabenverfahren und Rechtsmittel`](skills/recht-steuer-verfahren-momarcode1/) | Austrian tax procedure — filing appeals (Beschwerde) against tax assessments, BAO deadlines… |
 | [`Steuer und Rechnungsstellung Österreich`](skills/steuer-at-clemensjl/) | Use when building or reviewing anything that issues invoices, receipts, or tax records for an Austrian… |
 
 ## Cold-start context

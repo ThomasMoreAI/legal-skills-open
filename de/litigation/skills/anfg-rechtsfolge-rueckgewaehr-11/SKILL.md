@@ -1,11 +1,11 @@
 ---
 name: anfg-rechtsfolge-rueckgewaehr-11
 title: 'Rechtsfolge: Rückgewähr — § 11 AnfG'
-description: 'Rechtsfolge bei erfolgreicher AnfG-Anfechtung bestimmen: Duldungspflicht des Anfechtungsgegners und Wertersatz nach § 11 AnfG. Normen: § 11 AnfG, §§ 819 ff. BGB analog. Prüfraster: Duldung vs. Wertersatz, Bösgläubigkeit, Umfang der Rückgewähr. Output: Tenorvorschlag Duldungsurteil und Wertersatzberechnung. Abgrenzung: nicht InsO-Rechtsfolgen §§ 143 ff. InsO.'
+description: 'Für Rechtsfolge: Rückgewähr — Paragraf 11 AnfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-rechtsfolge-rueckgewaehr-11
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -29,13 +29,6 @@ language: de
 - §§ 812 ff. BGB — Bereicherungsrecht (Gegenleistungs-Rückforderung gegen Schuldner)
 - § 143 InsO — Rechtsfolge Insolvenzanfechtung (Vergleich: dort Rückgewähr zur Masse, hier nur Duldung)
 
-## Rechtsprechung (BGH — Rechtsfolge AnfG)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Grundsatz
 
 Die Anfechtung nach dem AnfG führt nicht zur Nichtigkeit der angefochtenen Rechtshandlung. Sie begründet nur eine Duldungspflicht des Anfechtungsgegners.
@@ -69,3 +62,5 @@ Hat der Anfechtungsgegner eine Gegenleistung erbracht, kann er bei Rückgewähr 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

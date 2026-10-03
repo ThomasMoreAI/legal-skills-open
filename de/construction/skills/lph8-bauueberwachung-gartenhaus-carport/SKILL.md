@@ -1,0 +1,95 @@
+---
+name: lph8-bauueberwachung-gartenhaus-carport
+title: Bauueberwachung Gartenhaus und Carport (LPH 8)
+description: 'Für Bauüberwachung Gartenhaus und Carport (LPH 8): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-gartenhaus-carport
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Gartenhaus und Carport (LPH 8)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Gartenhaeuser und Carports gelten baurechtlich je nach Landesbauordnung als genehmigungspflichtige Vorhaben. Die Bauueberwachung nach HOAI LPH 8 prüft Fundament, Holztragwerk, Verbindungsmittel und Dachdichtheit und dokumentiert alle Kontrollen für Bauherr und Behörde. Selbst kleine Nebenanlagen können bei fehlerhafter Ausfuehrung zu erheblichen Haftungsrisiken fuehren.
+
+## Bauwerk und Auftrag
+
+- Privatgartenhaus 18 qm in Bayern, Holzstaenderbau mit Pultdach, Bauherr Privatperson, Auftragssumme Bauueberwachung ca. 1200 Euro netto
+- Doppelcarport Stahl-Leichtbau 30 qm, Gewerbepark Nordrhein-Westfalen, Nutzfahrzeugstellplaetze, Statik nach DIN EN 1993
+- Holzcarport mit Photovoltaik-Dach, Einfamilienhaus Sachsen, Aluminium-Unterkonstruktion, Bauvolumen 28000 Euro
+
+## Erste Schritte auf der Baustelle
+
+1. Begehung mit Baugenehmigung: Abgleich Standort, Abstandsflaechennachweis, Bodenklasse laut Baugrunduntersuchung
+2. Kontrolle Fundamentaushub: Tiefe und Breite nach statischem Nachweis, Bodenfrostfreiheit min. 80 cm in sueddeutschen Lagen
+3. Prüfung Betonlieferschein: Gueteklasse C20/25 oder C25/30, Konsistenzklasse, w/z-Wert laut Lieferschein
+4. Abnahme Holzstaenderwerk vor Beplankung: Holzfeuchte max. 18 Prozent (Protimeter Surveymaster), Verbindungsmittel Edelstahl A2
+5. Kontrolle Dacheindeckung: Regenablauf, Dachanschluss, Schneelastzonen-Nachweis nach DIN EN 1991-1-3
+6. Schlusskontrolle: Fotodokumentation aller Verbindungen, Aufmass Ist-Zustand vs. Plan im Bautagebuch
+
+## Normen und Rechtsrahmen
+
+- HOAI 2021 Anlage 10 zu § 34 LPH 8 Grundleistungen Bauueberwachung
+- § 650p BGB Architekten- und Ingenieurvertrag, § 650q BGB Kuendigung
+- DIN 1054 Baugrund: Sicherheitsnachweise im Erd- und Grundbau
+- DIN 68800-2 Holzschutz: Vorbeugende bauliche Maßnahmen, Holzschutzklassen GK 0 bis GK 3
+- DIN EN 1993-1-1 Stahlbau: Bemessung und Konstruktion von Stahlbauten für Stahl-Carports
+- Bayerische Bauordnung Art. 57 BayBO (Verfahrensfreiheit) bzw. LBO NRW § 65
+
+## Prüferaster und Kontrollpunkte
+
+1. Fundamentsohle: Tiefe min. 80 cm unter Gelaende, Breite laut Statik, keine Aufweichung durch Sickerwasser
+2. Bewehrung Streifenfundament: Betondeckung min. 4 cm, Stababstand, Koppelung und Anker für Stuetzen nach Plan
+3. Holzverbindungen: Nagelplattenverbinder, Winkelverbinder und Schrauben auf Korrosionsschutz und Massgenauigkeit
+4. Holzfeuchte: Einbaufeuchte max. 18 Prozent, Messprotokoll mit Geraet, Messwert und Bauteilangabe
+5. Dichtheit Dachrand und Traufe: Dachfolie ueberlappend 15 cm, Folienstoesse abgeklebt, Rinne dicht
+6. Abstandsflaechennachweis: Grenzabstand laut genehmigtem Plan mit Massband kontrollieren, Ergebnis im Bautagebuch
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Systematische Fotodokumentation mit GPS und Zeitstempel: Fundament vor Verfuellung, Verbindungsmittel, Dachaufbau in PlanRadar-App
+- Drohnenflug mit DJI Mini 3 Pro für Dachkontrolle (Regenrinne, Dachbelag, Anschluesse) und Lageabgleich auf Luftbild
+- Prüfung Lieferscheine Beton (Gueteklasse, Lieferdatum, Mischanlage) und Werkbescheinigung Stahlteile nach EN 10204 Typ 2.1
+- Aufmassblatt Ist vs. Plan: Stuetzenabstaende, Firsthoehe, Traufhoehe mit Lasermessgeraet Bosch GLM 50 C
+- Fotovergleich vor/nach Mangelbeseitigung als Nachweis für Gewaehrleistungsakte
+
+## Meldungserstellung im ERP / SAP
+
+- PlanRadar: Mangelticket mit Kategorie Holzbau, Fotozuordnung, Auftragnehmer, Faelligkeitsdatum Maengelbeseitigung
+- Dalux Field: Mangel-PIN auf Grundriss, Beschreibung und Foto, automatische E-Mail an Auftragnehmer
+- SAP PM Meldungsart M2 bei kommunalem Auftraggeber: Equipment-Nr. Aussenanlagen, Schadenscode 0012 Feuchte/Holzfaeule
+- Felder SAP PM: Kurzbeschreibung, Schadensort, Prioritaet 2-Normal oder 3-Hoch, Verantwortlicher Planer als Bearbeiter
+- Rueckmeldung Maengelbeseitigung: Status ERLD, Abschlussdatum, Prüfvermerk Bauueberwacher mit Handzeichen
+
+## Typische Fallstricke
+
+- Fehlende Baugenehmigung: Gartenhaeuser ab bestimmten Schwellengrossen (10 bis 30 qm je Bundesland) sind genehmigungspflichtig
+- Unterschaetzte Holzschutzklasse: Aussenbereich ohne Ueberdachung erfordert GK 3, haeufig vom Bauherrn eingespart
+- Mangelhafte Betongute: C12/15 geliefert statt vorgeschriebenem C20/25 laut Statik - ablehnen und dokumentieren
+- Abstandsflaechenverstoss: Carport an Grundstuecksgrenze ohne Baulast kann Abbruchanordnung ausloesen
+
+## Quellen
+
+- [HOAI 2021 § 34 Anlage 10](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB Architektenvertrag](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [§ 650q BGB Kuendigung](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [VOB/C DIN 18334 Zimmer- und Holzbauarbeiten](https://www.gesetze-im-internet.de/)
+- [DIN EN 1993 Stahlbau](https://www.gesetze-im-internet.de/)
+- [§ 650q BGB Kuendigung](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [BGH, Urteil vom 9. November 2000, VII ZR 362/99](https://dejure.org/dienste/vernetzung/rechtsprechung?Text=VII+ZR+362/99): Bei wichtigen oder kritischen Baumaßnahmen mit erfahrungsgemäß hohem Mängelrisiko ist erhöhte Aufmerksamkeit und intensivere Bauaufsicht erforderlich; daraus keine schematische Dauerüberwachung ableiten.
+- [DIN 1054 Baugrund](https://www.gesetze-im-internet.de/)
+- [DIN 68800 Holzschutz](https://www.gesetze-im-internet.de/)

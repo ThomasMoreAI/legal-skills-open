@@ -4,11 +4,13 @@ Bodily-injury and accident claims — liability, causation, and damages.
 
 Jurisdiction: `ca` · Practice: `personal-injury` · Skill language: en
 
-## Skills (1)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
-| [`canada-memo`](skills/canada-memo/) | When the user's message starts with "Canada" (case-insensitive), generate a full Ontario PI Case Assessment… |
+| [`canada-memo`](skills/canada-memo/) | When the user's message starts with "Canada" (case-insensitive), generate a full Ontario PI Case… |
+| [`pi-brief-format`](skills/pi-brief-format/) | After harvester-query returns a hit, render the result as a PI-lawyer-grade brief block (bluebook… |
+| [`web-fallback`](skills/web-fallback/) | When the Harvester misses a citation, fetch the statute live from an authoritative government source… |
 
 ## Cold-start context
 

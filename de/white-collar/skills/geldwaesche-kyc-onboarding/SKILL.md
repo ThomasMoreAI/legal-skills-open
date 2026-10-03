@@ -1,78 +1,53 @@
 ---
 name: geldwaesche-kyc-onboarding
-title: KYC-Onboarding und Kundenprüfung
-description: KYC-Onboarding neuer Kunden mit Identifizierung Risikoklassifizierung und Freigabe nach GwG. Anwendungsfall neue Geschäftsbeziehung soll aufgenommen werden und GwG-Identifizierung muss durchgeführt werden. Normen §§ 10 11 GwG allgemeine Sorgfaltspflichten § 15 GwG verstaerkte Sorgfaltspflicht § 14 GwG vereinfachte Sorgfaltspflicht. Prüfraster Identifizierung Zweck Geschäftsbeziehung Mittelherkunft Eigentumsstruktur Risikoeinstufung Freigabe. Output KYC-Akte mit Identifizierungsprotokoll Risikoeinstufung Freigabevermerk und periodischer Aktualisierungsplan. Abgrenzung zu geldwäsche-pep-hochrisikoland und geldwäsche-ubo-wirtschaftlich-berechtigte.
+title: 1. Kundenprüfung bis zum belegten Stand
+description: 'Bearbeitet die Aufnahme oder Aktualisierung einer konkreten Kundenbeziehung: Identität, Vertretung, Geschäftszweck und fehlende Nachweise. Liefert gezielte Nachforderung und dokumentierten Bearbeitungsstand statt einer unbelegten KYC-Freigabe.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-kyc-onboarding
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
 language: de
 ---
 
-# KYC-Onboarding und Kundenprüfung
+# 1. Kundenprüfung bis zum belegten Stand
 
-## Triage zu Beginn
-1. Handelt es sich um eine natuerliche Person, juristische Person oder einen Trust/Stiftung?
-2. Gibt es PEP-Indikatoren, Hochrisikobezug oder komplexe Eigentumsstrukturen (mehr als zwei Ebenen)?
-3. Welche Unterlagen liegen bereits vor und welche fehlen fuer die vollstaendige Identifizierung nach § 10 GwG?
-4. Welche Risikoklasse (niedrig/normal/erhoehte Sorgfalt/verstaerkte Sorgfalt) wird erwartet?
+## 1. Zweck und Anwendungsfall
 
-## Aktuelle Rechtsprechung und Behoerdenpraxis
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Für neue Kunden, neue Mandate im erfassten Tätigkeitsbereich und maßgebliche Änderungen bestehender Beziehungen. Voraussetzung ist ein geklärter Verpflichtetenstatus; ein Routineaktualisierungswunsch startet nicht die gesamte Unternehmensanalyse.
 
-## Zentrale Normen
-- §§ 10-17 GwG — Allgemeine und vereinfachte Sorgfaltspflichten
-- § 13 GwG — Identifizierung des wirtschaftlich Berechtigten
-- § 15 GwG — Verstaerkte Sorgfaltspflichten (PEP, Hochrisikoland)
-- § 11 Abs. 6 GwG — Risikobasierte Aktualisierungspflicht der KYC-Daten
+## 2. Eingaben
 
-## Quellenregel
+Kundenbogen, Ausweisdaten, Registerauszug, Vertretungsnachweis und konkretes Geschäft lesen. Herkunft und Aktualität jedes Nachweises festhalten. Ausweisnummern nicht in unnötigen Berichten wiederholen.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
+## 3. Ablauf
 
-Dieser Skill macht aus unvollständigen Kundenunterlagen einen geführten, verzeihenden KYC-Prozess.
+### 3.1. Erheben und überprüfen
 
-## Wann verwenden
+Vertragspartner, auftretende Person und Vertretungsmacht auseinanderhalten. Nach GwG Paragrafen 11 bis 13 unterscheiden, welche Angaben vorliegen und durch welches zulässige Verfahren sie überprüft wurden. Keine Identität allein aus einem unscharfen Ausweisfoto bestätigen. Bei Gesellschaften Name, Rechtsform, Sitz, Register und gesetzliche Vertreter abgleichen.
 
-- wenn ein neues AML/KYC-, GwG-, Sanktions- oder Compliance-Thema aufgenommen wird
-- wenn Kunden, wirtschaftlich Berechtigte, Transaktionen, Länder, Produkte oder Vertriebskanäle risikobasiert geprüft werden müssen
-- wenn ein Alert, Treffer, Behördenkontakt, Verdachtsmoment, Pressefall oder Remediation-Projekt vorliegt
+### 3.2. Zweck und Eigentümer klären
 
-## Arbeitsweise
+Art und Zweck der Geschäftsbeziehung aus Auftrag oder Vertrag übernehmen. Wirtschaftlich Berechtigte über den [Eigentümer-Skill](../geldwaesche-ubo-wirtschaftlich-berechtigte/SKILL.md) ermitteln, wenn die Struktur nicht bereits nachvollziehbar dokumentiert ist. PEP- und Risikoprüfung anhand konkreter Person und Geschäft, nicht nach Staatsangehörigkeit pauschalisieren.
 
-1. **Rolle und Pflichtenkreis klären.** Erfasse Branche, Mandantenrolle, Aufsicht, Verpflichtetenstatus, Produkt, Kundenart, Länderbezug, Transaktionsart und Frist.
-2. **Daten sauber ziehen.** Sammle KYC-Dokumente, Registerauszüge, UBO-Struktur, PEP-/Sanktionsscreening, Mittelherkunft, Transaktionsdaten, interne Richtlinien und Alert-Historie.
-3. **Quellenstand protokollieren.** Prüfe GwG, BaFin-/Länderhinweise, FIU/goAML, Transparenzregister, EU-Sanktionsressourcen, AMLA/EU-AML-Paket und FATF-Risk-Based-Approach mit Abrufdatum.
-4. **Risikobasiert entscheiden.** Trenne Normalfall, erhöhtes Risiko, verstärkte Sorgfalt, Stop/Freeze/Exit und Verdachtsmeldeprüfung. Keine automatische Freigabe bei Datenlücken.
-5. **Verzeihend nachziehen.** Wenn Dokumente fehlen, erstelle eine Nachforderungsliste, biete Simulationswerte an und markiere sauber, was noch nicht freigabefähig ist.
-6. **Arbeitsprodukt liefern.** Erzeuge KYC-Vermerk, Risikoanalyse, Trefferlog, Verdachtsmeldungsentwurf, Richtlinie, Schulung, Audit-Finding, Behördenantwort oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Freigaben, Vier-Augen-Prinzip, Quellen, Fristen, Datenschutz, Mandatsgeheimnis, Aufbewahrung, Löschung und Auditierbarkeit.
+### 3.3. Lücke mit Rechtsfolge verbinden
 
-## Rückfragen, wenn unklar
+Je fehlendem Beleg benennen, welche Pflicht nicht erfüllt werden kann. GwG Paragraf 10 Absatz 9 mit Rechtsberatungsausnahme und notariellen Sonderregeln prüfen. Eine fehlende Information ist nicht automatisch ein meldepflichtiger Verdacht; Tatsachen im Sinne des Paragraf 43 gesondert bewerten. Nur notwendige Angaben nachfordern, keine pauschale lebenslange Kontohistorie.
 
-- Welche Branche, Rolle und Aufsichtszuständigkeit hat der Mandant?
-- Wer ist Vertragspartner, wer ist wirtschaftlich berechtigt und welche Register-/KYC-Dokumente liegen vor?
-- Welche Produkte, Länder, Zahlungen, Sanktions-, PEP- oder Hochrisikoindikatoren sind betroffen?
-- Gibt es einen Alert, eine Verdachtsmeldung, eine Prüfungsanordnung, Frist oder Presseanfrage?
-- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+### 3.4. Aktualisierung statt Neustart
 
-## Ausgabeformat
+Geänderten Geschäftsführer, neue Beteiligung oder abweichendes Zahlungsprofil gezielt nachziehen. Vorhandene unveränderte Belege wiederverwenden, ihre Eignung prüfen und den nächsten risikobasierten Überprüfungsanlass festlegen.
 
-- Kurzlage mit Risikoampel und Sofortmaßnahmen
-- KYC-/UBO-/Sanktions- oder Monitoring-Matrix mit Quellenstand
-- Entscheidungsvorschlag mit Freigabe-, Eskalations- oder Stop-Workflow
-- prüfbarer Entwurf für Richtlinie, Verdachtsmeldung, Behördenantwort, Schulung oder Remediation
-- offene Annahmen, fehlende Nachweise und Review-Hinweise
+## 4. Quellenpflicht
 
-## Typische Fehler vermeiden
+GwG Paragraf 10 bis Paragraf 15 und [Rechtsstand](../../references/rechtsstand-2026-und-eu-uebergang.md). Eine Bankrichtlinie nicht ungeprüft als gesetzliche Pflicht einer Kanzlei behandeln.
 
-- Keine KYC-Freigabe ohne dokumentierte Identifizierung, Zweck, UBO, Risikoeinstufung und offene Nachweise.
-- Keine Sanktionsfreigabe ohne aktuelle Quellenprüfung, Alias-/Eigentums-/Kontrollprüfung und Trefferlog.
-- Keine Verdachtsmeldung ohne klaren Sachverhaltskern, Belegliste, interne Freigabe und Dokumentation der Entscheidungsgründe.
-- Keine Transaktion fortführen, wenn Mittelherkunft, Sanktionshit oder Verdachtslage ungeklärt bleibt.
-- Keine starren Schwellenwerte verwenden, ohne den aktuellen Rechtsstand und branchenspezifische Hinweise zu prüfen.
-- Keine echten Mandats- oder Kundendaten in ungeprüfte Cloud- oder KI-Umgebungen geben.
+## 5. Ausgabeformat
+
+Ausformulierter Nachforderungsbrief und interne Feststellung mit überprüftem Punkt, Beleg, Restlücke und zuständiger Entscheidung. Times New Roman 11 pt, dezimale Gliederung. Nicht „identifiziert“ schreiben, wenn nur Daten erhoben wurden.
+
+## 6. Beispiele
+
+Ein neuer Geschäftsführer ist im aktuellen Register verzeichnet, aber der auftretende Einkäufer hat keine Vollmacht. Die Nachforderung betrifft die Vertretung; Eigentümerdaten nur bei einem Änderungsanlass erneut beschaffen.

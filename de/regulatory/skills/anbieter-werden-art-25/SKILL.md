@@ -1,11 +1,11 @@
 ---
 name: anbieter-werden-art-25
 title: Anbieter-Werden — Art. 25 KI-VO
-description: 'Betreiber Einführer oder Haendler fragt: Werde ich durch mein Verhalten selbst zum Anbieter eines KI-Systems mit allen daraus folgenden Pflichten? Art. 25 KI-VO Re-Provisioning. Prüfraster: vier Fallgruppen wesentliche Aenderung des Systems Bestimmungsaenderung Inverkehrbringen unter eigenem Namen Hochrisiko-Abdeckung ohne Anbieterbenennung. Output: Entscheidungsbaum mit Ja/Nein-Ergebnis und konkreten Folgepflichten. Abgrenzung zu rolle-anbieter-prüfen-art-3-nr-3 (Grunddefinition) und betreiber-deployer-pflichten-art-26 (Betreiberpflichten).'
+description: 'Für Anbieter-Werden — Art. 25 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/anbieter-werden-art-25
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Anbieter-Werden — Art. 25 KI-VO
-
-## Zweck
-
-Art. 25 KI-VO ist eine zentrale Schutznorm der KI-VO: Sie verhindert, dass Akteure durch die Wahl einer bestimmten Rolle in der Lieferkette den strengen Anbieter-Pflichten ausweichen. Wer unter bestimmten Umständen ein KI-System weiterverbreitet oder verändert, wird selbst zum Anbieter — mit allen Konsequenzen.
 
 ## Vier Fallgruppen (Art. 25 Abs. 1 KI-VO)
 
@@ -87,28 +83,22 @@ Vor jeder Anpassung oder Umwidmung eines KI-Systems sollte geprüft werden:
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
 - Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
 2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
 3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
 4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
+5. Ist die Maßnahme nach aktuellem Art. 113- und Digital-Omnibus-Zeitstrahl fristgerecht umgesetzt?
 
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
+## Output-Template — Prüfergebnis
+**Adressat:** Prüfer / Rechtsberater — Tonfall: strukturiert-rechtlich
 ```
 PRUEFERGEBNIS — ANBIETER WERDEN ART 25
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
@@ -119,10 +109,12 @@ Gepruefte Norm(en): [Art. 25 Rn. 5]
 Ergebnis:
 [ ] Anforderung erfuellt
 [ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
+ 1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
 [ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
 
 Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-handels-gesellschaftsrecht-gesellschafterstreit
-title: Mandantenfragen beim Kaltstart
-description: Workflow-Skill zu fachanwalt handels gesellschaftsrecht gesellschafterstreit. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: Gesellschafterstreit und Beschlussmängel aktennah aufbereiten
+description: 'Für Fachanwalt Handels Gesellschaftsrecht Gesellschafterstreit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-handels-gesellschaftsrecht/skills/fachanwalt-handels-gesellschaftsrecht-gesellschafterstreit
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
 language: de
 ---
+
+# Gesellschafterstreit und Beschlussmängel aktennah aufbereiten
+
+Lies zuerst Satzung, Gesellschafterliste, Einladungen, Beschlussprotokolle und die Streitkorrespondenz. Ordne Mandatsrolle, streitigen Beschluss, Abstimmungsverlauf und belegte Daten. Liefere einen ausformulierten Vermerk zu Angriff, Verteidigung und Einigung mit Fristenprüfpunkten; erstelle bei entsprechendem Auftrag den passenden Klage- oder Eilantragsentwurf mit konkretem Beschlusswortlaut und zugeordneten Belegen.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -49,7 +55,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Beschlussanfechtungsklage GmbH
 
@@ -74,7 +79,6 @@ language: de
 | 1 | Ausschlussklausel in Satzung vorhanden? | § 34 GmbHG | Bei Fehlen: Ausschlussklage mit Gestaltungsurteil |
 | 2 | Wichtiger Grund: Pflichtverletzung, Zerrüttung, Schaden? | BGH-Rspr. | Konkrete Tatsachen darlegen |
 | 3 | Abmahnung vor Ausschluss? | Treu und Glauben | Bei wiederholten Verstößen Abmahnung erforderlich |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 5 | Einziehungsbeschluss in GV mit erforderlicher Mehrheit? | § 34 GmbHG; Satzung | Einstimmigkeit oder qualifizierte Mehrheit je nach Satzung |
 | 6 | Einstweilige Verfügung auf Amtsniederlegung Geschäftsführer? | §§ 935, 940 ZPO | Gefährdungsnachweis |
 
@@ -208,7 +212,6 @@ Diese Pflichtverletzungen machen das Verbleiben des Beklagten in der
 Gesellschaft unzumutbar.
 
 II. Abfindung
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Satzungsklauseln mit Buchwertabfindung sind anzupassen, soweit sie zu
 einer evident unangemessenen Unterbewertung führen.
 
@@ -250,19 +253,18 @@ einer evident unangemessenen Unterbewertung führen.
 |--------------|---------|----------|
 | "Anfechtungsfrist versäumt" | Beklagte | Fristbeginn exakt dokumentieren; bei AG: Bekanntmachung maßgeblich |
 | "Verfahrensmangel war kausal irrelevant" | Beklagte | BGH: Kausalität nur bei offensichtlicher Unerheblichkeit entfallen; Zweifel gehen zu Lasten der Gesellschaft |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Kein wichtiger Grund für Ausschluss" | Beklagter (Ausschlossener) | Schwere der Pflichtverletzung + Zumutbarkeit des Verbleibs darlegen; mehrere Vorfälle kumulativ |
 
 ## Streitwert und Kosten
 
-**Streitwert Anfechtungsklage:** § 247 AktG analog; Interesse der Gesellschaft, typisch 10–30 % des Unternehmenswerts, max. 10 % des Grund-/Stammkapitals.  
+**Streitwert Anfechtungsklage:** § 247 AktG analog; Interesse der Gesellschaft, typisch 10–30 % des Unternehmenswerts, max. 10 % des Grund-/Stammkapitals.
 Praktische Richtwert: EUR 15.000–250.000 je nach Bedeutung des Beschlusses.
 
 **Einstweilige Verfügung:** Streitwert Bruchteil der Hauptsache (1/3 bis 1/2).
 
 **Ausschlussklage:** Streitwert = Wert des Geschäftsanteils; Unternehmensbewertung erforderlich.
 
-**Gerichtsgebühren (LG, 3.0-Gebühr aus EUR 100.000):** ca. EUR 3.036.  
+**Gerichtsgebühren (LG, 3.0-Gebühr aus EUR 100.000):** ca. EUR 3.036.
 **Anwaltsgebühren (1.3 VV RVG aus EUR 100.000):** ca. EUR 2.318 netto je Seite.
 
 ## Strategische Empfehlung

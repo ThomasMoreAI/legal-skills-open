@@ -5,7 +5,7 @@ description: Get the standard clauses out of a contract or a whole folder of the
 author: gethouston
 author_url: https://github.com/gethouston/houston/tree/main/store/agents/operations/.agents/skills/read-a-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -38,6 +38,7 @@ I read your operations context first. For every required field that's missing I 
 - **Operating context doc**  -  Required. Why I need it: anchors hard nos so I flag clauses that would violate them. If missing I ask: "Want me to set up your operating context first? Helps me catch unfavorable terms more reliably."
 
 ## Steps
+<!-- houston-workflow:v1 -->
 
 1. **Read `context/operations-context.md`.** If missing: stop, ask user run `set-up-my-ops-info` skill first. Vendor posture + hard nos anchor "unfavorable terms" flags.
 

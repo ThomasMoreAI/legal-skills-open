@@ -1,11 +1,11 @@
 ---
 name: do-versicherung-manager-haftung
 title: D&O-Versicherung bei Manager-Haftung
-description: 'Insolvenzverwalter verklagt Geschäftsführer und D&O-Versicherung soll Deckung prüfen oder Manager fragt nach Versicherungsschutz in der Krise. Prüfraster D&O-Versicherung Claims-made-Prinzip Schadensereignis vs. Anspruchserhebung. Insolvenz-spezifische Pflichten § 15a InsO Antragspflicht § 15b InsO Zahlungsverbot. Deckungs-Ausschluesse wissentliche Pflichtverletzung Vorsatz Selbstbedienung. BGH-Linie zur Insolvenz-Anfechtung Praemien-Zahlung. Output D&O-Deckungs-Memo mit Versicherungs-Lage und Pflichten des Versicherten. Abgrenzung: antragspflicht-15a-inso für die Haftung selbst.'
+description: 'Für D&O-Versicherung bei Manager-Haftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/do-versicherung-manager-haftung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
@@ -14,9 +14,23 @@ language: de
 
 # D&O-Versicherung bei Manager-Haftung
 
-## Zweck
+## Arbeitsbereich
 
-Bei Insolvenz wird der Geschäftsführer regelmäßig nach §§ 15a 15b InsO in Anspruch genommen. Die D&O-Versicherung ist dann zentrale Verteidigungs- und Deckungs-Quelle. Dieses Skill bedient Mandanten als Versicherten / Versicherer-Korrespondenz.
+Insolvenzverwalter verklagt Geschäftsführer und D&O-Versicherung soll Deckung prüfen oder Manager fragt nach Versicherungsschutz in der Krise. Prüfraster D&O-Versicherung Claims-made-Prinzip Schadensereignis vs. Anspruchserhebung. Insolvenz-spezifische Pflichten § 15a InsO Antragspflicht § 15b InsO Zahlungsverbot. Deckungs-Ausschluesse wissentliche Pflichtverletzung Vorsatz Selbstbedienung. BGH-Linie zur Insolvenz-Anfechtung Praemien-Zahlung. Output D&O-Deckungs-Memo mit Versicherungs-Lage und Pflichten des Versicherten. Abgrenzung: antragspflicht-15a-inso für die Haftung selbst. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: Zuerst den im Skilltitel bezeichneten InsO- oder StaRUG-Tatbestand im aktuellen Gesetzestext prüfen. Eröffnungsantrag nach Paragraf 13 InsO, Gläubigerantrag nach Paragraf 14 InsO und Antragspflicht organschaftlicher Vertreter nach Paragraf 15a InsO strikt trennen; Steuerrecht, IDW-Standards oder Auslandsrecht nur bei einer konkreten Schnittstelle ergänzen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Insolvenz- und Sanierungsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `D&O-Versicherung bei Manager-Haftung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Insolvenzgrund, Frist, Organpflicht, Verfahrensstand, Sicherheiten, Massebezug und Anfechtungszeitraum klären; dann Sanierungsfähigkeit, Plan/StaRUG, Haftung und Dokumentationsschutz.
+- **Outputpflicht:** Krisenzeitachse, Liquiditätsstatus, Anfechtungsmatrix, Sicherheitenradar, IDW-S6-/Sanierungscheck, Register-/Grundbuch-Nachweispaket oder Schriftsatzbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Eingaben
 
@@ -100,9 +114,9 @@ Bei Insolvenz wird der Geschäftsführer regelmäßig nach §§ 15a 15b InsO in 
 ### BGH-Rechtsprechung
 
 - **BGH IV ZR 66/25 vom 19.11.2025** — Wissentlichkeitsausschluss in D&O-Bedingungen erfordert positive Kenntnis des Versicherten von der konkreten Pflichtverletzung. Verletzung der Insolvenzantragspflicht (§ 15a InsO) indiziert nicht automatisch wissentliche Verletzung der Masseerhaltungspflicht (§ 15b InsO). Der Versicherer muss für jede einzelne verbotswidrige Zahlung gesondert darlegen und beweisen; "Aufkoppeln" verschiedener Pflichtverletzungen ist unzulässig.
-  Quelle: <https://www.noerr.com/de/insights/bgh-zum-do-versicherungsschutz-verletzung-der-insolvenzantragspflicht-durch-geschaftsleiter-indiziert-keine-wissentliche-verletzung-der-masseerhaltungspflicht> (Az.-Verifizierung über bundesgerichtshof.de)
+ Quelle: <https://www.noerr.com/de/insights/bgh-zum-do-versicherungsschutz-verletzung-der-insolvenzantragspflicht-durch-geschaftsleiter-indiziert-keine-wissentliche-verletzung-der-masseerhaltungspflicht> (Az.-Verifizierung über bundesgerichtshof.de)
 - **BGH II ZR 206/22 vom 23.07.2024** — Haftung des ausgeschiedenen Geschäftsführers für Neugläubigerschäden bleibt bestehen, solange die durch ihn geschaffene Gefährdungslage fortwirkt. Auswirkung auf D&O-Deckung in der Nachhaftungsphase.
-  Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
+ Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
 
 ## Schritt 5 — Deckungs-Ausschlüsse
 
@@ -209,7 +223,7 @@ Bei Insolvenz wird der Geschäftsführer regelmäßig nach §§ 15a 15b InsO in 
 ### Insolvenz-Anfechtung § 130 ff. InsO
 
 - Insolvenz-Verwalter kann Prämien-Zahlung anfechten
-- Bei kongruenten Prämienzahlungen ist die Anfechtung nach **BGH IX ZR 129/22 vom 18.04.2024** restriktiv zu prüfen; konkrete Bedrohungslage und Erwartung dauerhafter Unterdeckung sind darzulegen.
+- Bei kongruenten Prämienzahlungen ist der Benachteiligungsvorsatz nach BGH, Urteil vom 18.04.2024 - IX ZR 239/22, anhand der erkannten Deckungslücke und der erwartbaren künftigen Gläubigerbefriedigung zu prüfen. BGH IX ZR 129/22 betrifft nur die Darlegung eines Liquiditätsstatus gegenüber außenstehenden Dritten.
 - Versicherer als Anfechtungs-Adressat
 
 ### Folge
@@ -344,6 +358,14 @@ Mit freundlichen Gruessen
 - Versicherungs-Vertrags-Optimierungs-Empfehlung
 - Frist im Fristenbuch (Klage-Antwort Versicherer-Anzeige)
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - VVG §§ 30 43 44 28
@@ -353,14 +375,11 @@ Mit freundlichen Gruessen
 - ZPO § 72
 - **BGH IV ZR 66/25 vom 19.11.2025** — Wissentlichkeitsausschluss / D&O bei verspätetem Insolvenzantrag (Verifikation über bundesgerichtshof.de / dejure.org)
 - **BGH II ZR 206/22 vom 23.07.2024** — Fortwirkende Haftung des ausgeschiedenen Geschäftsführers
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
 - **BGH 5 StR 287/24 vom 27.02.2025** — Faktischer Geschäftsführer / Firmenbestattung
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
+ <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle.
-
 
 ## Ergaenzende Leitentscheidungen
 
 - Konkrete BGH-Linie zur Direkthaftung des D&O-Versicherers gegenüber dem Insolvenzverwalter (Abtretung, Deckungsanspruch) sowie BGH IV ZR 360/15 (NJW 2017, 2466) zum versicherungsrechtlichen Trennungsprinzip vor Ausgabe über dejure.org/openjur.de verifizieren.
-
-<!-- AUDIT 27.05.2026: BGH VI ZR 111/12 (NOT_FOUND auf dejure.org) entfernt und ersetzt durch BGH IV ZR 360/15, NJW 2017, 2466 (verifiziert auf dejure.org). -->

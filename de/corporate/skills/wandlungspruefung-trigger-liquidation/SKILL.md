@@ -1,11 +1,11 @@
 ---
 name: wandlungspruefung-trigger-liquidation
 title: Wandlungsprüfung – Trigger Liquidation Event
-description: 'Wandlung bei Liquidationsereignis Auflösung oder Exit prüfen. §§ 60 ff. GmbHG Auflösungsgründe § 179a AktG. Prüfraster: Liquidationstatbestand Liquidationspraeference Verwasserungsschutz Rangordnung Zahlungsreihenfolge. Output: Prüfprotokoll Liquidationsszenarien. Abgrenzung: nicht für Qualified-Financing-Trigger (wandlungsprüfung-trigger-qualified-financing).'
+description: 'Für Wandlungsprüfung – Trigger Liquidation Event: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/wandlungspruefung-trigger-liquidation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Wandlungsprüfung – Trigger Liquidation Event
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill prüft, ob ein Liquidationsereignis (Exit/Trade Sale/IPO/Fusion) als Wandlungsauslöser vorliegt, und begleitet die Wahl des Lenders zwischen Barausschüttung (mit Liquidationspräferenz) und Wandlung. Phase C des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -34,9 +38,6 @@ Dieser Skill prüft, ob ein Liquidationsereignis (Exit/Trade Sale/IPO/Fusion) al
 - § 4.2 lit. d (Fusion/IPO mit Kontrollwechsel)
 - § 15 Abs. 3, Abs. 4 GmbHG (Anteilsübertragung – notarielle Beurkundung)
 - § 20 UmwStG analog (steuerliche Behandlung der Wandlung bei Tauschvorgang)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -79,12 +80,6 @@ Bei Barausschüttung: Aus Transaktionserlösen vor Ausschüttung an Gesellschaft
 | Participating vs. non-participating unklar | Streit über Präferenzumfang | Klausel auslegungsbedürftig | Klar non-participating |
 | Transaktion unter fünfzig Prozent | Kein Liquidationsereignis nach Vertrag | Knapp über fünfzig Prozent | Eindeutig über fünfzig Prozent |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/wandlungspreis-berechnung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandlungspruefung-trigger-maturity/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG § 15/UmwStG § 20 aktualisieren.
@@ -99,7 +94,4 @@ Stand: 05/2026. Bei Änderung GmbHG § 15/UmwStG § 20 aktualisieren.
 
 § 161 UmwG (Spaltung als Liquidation Event?) → § 2 UmwG (Verschmelzung als Exit) → §§ 60 ff. GmbHG (Liquidation GmbH) → § 39 InsO (Nachrang bei Insolvenz) → § 15 GmbHG (Share Deal — Anteilsübertragung)
 
-<!-- AUDIT 27.05.2026
-Geprüfte AZ (task_254.json, 3 Probleme):
-Alle Löschungen gemäß Reparaturregel "bei Zweifel löschen". Frontmatter unverändert.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

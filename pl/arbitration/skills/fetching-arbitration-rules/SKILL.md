@@ -1,18 +1,18 @@
 ---
 name: fetching-arbitration-rules
-title: fetching-arbitration-rules
+title: law-pl-fetching-arbitration-rules
 description: Use when retrieving arbitration institutional rules (SAKIG przy KIG, Sąd Arbitrażowy Lewiatan, ICC, LCIA, SCC, SIAC, HKIAC, VIAC, UNCITRAL) — fetching current version, verifying redaction applicable to the date of arbitration agreement, constructing URLs for official rule texts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-fetching-arbitration-rules
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: arbitration
 language: pl
 ---
 
-# fetching-arbitration-rules
+# law-pl-fetching-arbitration-rules
 
 Regulaminy sądów arbitrażowych i instytucji administrujących są okresowo nowelizowane (ICC — 2012/2017/2021; LCIA — 1998/2014/2020; SCC — 2017/2023; SIAC — 2013/2016/2025; HKIAC — 2013/2018/2024; SAKIG — 2015/2025). Różne wersje odmiennie regulują konsolidację, emergency arbitrator, expedited procedure, early dismissal, third-party funding — cytowanie bez wskazania roku redakcji nie ma wartości dowodowej. W sprawach z polskim elementem najczęściej w grze są: SAKIG przy KIG, Sąd Arbitrażowy Lewiatan, a spośród zagranicznych — ICC, LCIA, SCC, VIAC; dla ad hoc — UNCITRAL Arbitration Rules.
 

@@ -1,11 +1,11 @@
 ---
 name: aktenintake-zivil
 title: Aktenintake Zivilprozess
-description: 'Eingehende Zivilakte vor erster Prüfung strukturieren: Richter oder Referendar erhalt neue Akte und muss Überblick gewinnen. Normen: § 313 ZPO (Urteilsinhalt), § 286 ZPO (freie Beweiswürdigung), § 139 ZPO (richterliche Hinweispflicht). Prüfraster: Klagschrift mit Anträgen, Streitwert, Sachvortrag, Beweisangebote, Anlagen, Zustellung, Klageerwiderung, Replik, Beweisbeschluss, Protokolle, Gutachten. Output Aktenuebersicht-Tabelle, Prüfliste Hinweispflichten, Schnittstelle zur Relation. Abgrenzung: Detailprüfung Zulässigkeit siehe zulässigkeit-prüfen; Relationserstattung siehe relation-zivil.'
+description: 'Für Aktenintake Zivilprozess: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/aktenintake-zivil
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,6 +14,18 @@ language: de
 
 # Aktenintake Zivilprozess
 
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
 ## Triage zu Beginn
 
@@ -23,10 +35,6 @@ language: de
 4. Liegen Sachverständigengutachten oder Zeugenaussagen vor, die auszuwerten sind?
 5. Sind Erledigungserklärungen, Widerklagen oder Aufrechnung im Akt?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - § 139 ZPO — richterliche Hinweis- und Aufklärungspflicht
@@ -34,13 +42,6 @@ language: de
 - § 313 ZPO — Form und Inhalt des Urteils
 - § 358 ff. ZPO — Beweisbeschluss und Beweisaufnahme
 - § 286 ZPO — freie Beweiswürdigung
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Erster, systematischer Pruefschritt nach dem Eingang einer neuen Sache — sei es bei Aktenzuteilung an einen Berichterstatter, beim Wechsel des zuständigen Richters oder bei der Vorbereitung einer Beweisaufnahme. Ziel ist eine **vollständige Aktenübersicht**, die in der nachfolgenden Relation und in den prozessleitenden Maßnahmen (Paragraf 139 ZPO Hinweise, Beweisbeschluss, Vergleichsvorschlag) tragfähig ist.
 
 ## 1) Bestandteile einer typischen Zivilakte
 
@@ -76,15 +77,15 @@ Erster, systematischer Pruefschritt nach dem Eingang einer neuen Sache — sei e
 ## 3) Aktenübersicht — Tabellen-Template
 
 ```
-| Nr. | Datum     | Stueck                          | Verfasser     | Bezugnahme | Bewertung |
+| Nr. | Datum | Stueck | Verfasser | Bezugnahme | Bewertung |
 | --- | --------- | ------------------------------- | ------------- | ---------- | --------- |
-| 1   | 01.03.2025| Klagschrift                     | RA Mueller    | -          | schluessig vorgetragen |
-| 2   | 01.03.2025| Anlagen K1-K5                   | RA Mueller    | KS S. 3-7  | Lesbar, vollstaendig |
-| 3   | 12.03.2025| EB Zustellung Klagschrift       | -             | -          | Zustellung 10.03.2025 |
-| 4   | 31.03.2025| Klageerwiderung mit Widerklage  | RA Schmidt    | KS S.2     | Substanziiert; Widerklage zulaessig |
-| 5   | 14.04.2025| Replik                          | RA Mueller    | KE S.4-6   | neue Tatsache S.3 -> Paragraf 296 ZPO pruefen |
-| 6   | 15.05.2025| Hinweisbeschluss Paragraf 139   | Gericht       | -          | Hinweis zur Substanziierung der Hoehe |
-| 7   | 14.06.2025| Schriftsatznachreichung Klaeger | RA Mueller    | HinwB      | Hinweise befolgt; Frist gewahrt |
+| 1 | 01.03.2025| Klagschrift | RA Mueller | - | schluessig vorgetragen |
+| 2 | 01.03.2025| Anlagen K1-K5 | RA Mueller | KS S. 3-7 | Lesbar, vollstaendig |
+| 3 | 12.03.2025| EB Zustellung Klagschrift | - | - | Zustellung 10.03.2025 |
+| 4 | 31.03.2025| Klageerwiderung mit Widerklage | RA Schmidt | KS S.2 | Substanziiert; Widerklage zulaessig |
+| 5 | 14.04.2025| Replik | RA Mueller | KE S.4-6 | neue Tatsache S.3 -> Paragraf 296 ZPO pruefen |
+| 6 | 15.05.2025| Hinweisbeschluss Paragraf 139 | Gericht | - | Hinweis zur Substanziierung der Hoehe |
+| 7 | 14.06.2025| Schriftsatznachreichung Klaeger | RA Mueller | HinwB | Hinweise befolgt; Frist gewahrt |
 ```
 
 ## 4) Prüfliste für gerichtliche Pflichten
@@ -152,3 +153,10 @@ Als Berichterstatter:
 - `relation-zivil` baut auf der Aktenübersicht auf
 - `tatbestand-zivil-schreiben` übernimmt unstreitige Tatsachen
 - `beschluss-bauen-zpo` bei Hinweisbedarf oder Beweisbeschluss
+
+
+## Quellenkontrolle
+
+Für die Relation gelten keine universellen materiell-rechtlichen Leitentscheidungen. Zuerst Anspruchsgrundlage und Einwendungen des konkreten Streitstoffs bestimmen; pro Rechtssatz nur eine Entscheidung mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle verwenden. Verfahrensrechtlich insbesondere Paragraf 138, Paragraf 139, Paragraf 253 Absatz 2 Nummer 2, Paragraf 286, Paragraf 296 und Paragraf 308 ZPO fallbezogen prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,55 @@
+---
+name: paulianische-anfechtung-fortwirkung
+title: Rom 118 Paulianische Anfechtung Fortwirkung Anfg Inso
+description: 'Für Rom 118 Paulianische Anfechtung Fortwirkung Anfg InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Römisches Recht. Route: paulianische-anfechtung-fortwirkung.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/paulianische-anfechtung-fortwirkung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom 118 Paulianische Anfechtung Fortwirkung Anfg Inso
+
+## Strukturparallelen
+
+| actio Pauliana | AnfG | InsO |
+|---|---|---|
+| consilium fraudis | Vorsatz Schuldner § 3 | Vorsatz § 133 |
+| scientia des Dritten | Kenntnis Dritter § 3 | Kenntnis § 133 |
+| unentgeltliches Geschäft (keine scientia noetig) | § 4 | § 134 |
+| nahestehende Personen Vermutung | § 6 | § 138 |
+| annus utilis | 4-10 Jahre Frist | 4-10 Jahre Frist |
+| Restitution durch bonorum emptor | Rueckgewaehr § 11 AnfG | Rueckgewaehr § 143 InsO |
+
+## Abweichungen
+
+### Vorsatz vs. consilium
+- Roemisches Recht: Bewusstsein der Schaedigung.
+- Modernes Recht: Gläubigerbenachteiligungsvorsatz.
+
+### Frist
+- annus utilis: ein "nutzbares" Jahr ab Kenntnis.
+- AnfG / InsO: bis 10 Jahre (Vorsatzanfechtung).
+
+### Inkongruenz
+- Roemisches Recht: nicht ausdifferenziert.
+- InsO § 131: eigene Kategorie.
+
+## Rezeption
+
+- Glossatoren des 12./13. Jh. (Bologna) bearbeiteten D. 42.8 systematisch.
+- Pandektisten (Savigny, Windscheid) entwickelten die actio Pauliana zur "allgemeinen Gläubigeranfechtungsklage".
+- BGB-Gesetzgeber 1900 verzichtete auf Aufnahme ins BGB, weil AnfG (1879) bereits geregelt.
+- AnfG 1879 als selbständiges Gesetz; Reformen 1899, 1994 (im Zuge der Insolvenzrechtsreform).
+
+## Prüfraster
+
+1. Welcher Tatbestand?
+2. Welche Frist?
+3. Beweislage?
+4. Rechtsfolge Restitution?
+5. Quellenmatrix.

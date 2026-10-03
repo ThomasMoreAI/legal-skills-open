@@ -5,11 +5,11 @@ description: Use when building or reviewing anything that issues invoices, recei
 author: clemensjl
 author_url: https://github.com/clemensjl/claude-skills/tree/main/skills/steuer-at
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: tax
-language: de
+language: en
 sources:
 - title: Aufbewahrung
   path: references/aufbewahrung.md

@@ -1,0 +1,58 @@
+---
+name: patentverletzung-claim-patr2
+title: Claim Chart
+description: 'Für Claim Chart: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecht/skills/patentverletzung-claim-patr2
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Claim Chart
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: PatG § 34 Anmeldetag, § 41 Priorität 12 Monate, § 81 Nichtigkeitsklage, EPÜ Art. 99 Einspruch 9 Monate, R. 161/162 EPÜ 6 Monate, UPC Opt-out bis Ablauf Transition.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 14, 21, 24, 34, 38, 41, 59, 81, 139, 140a, 140b, EPÜ Art. 52, 54, 56, 64, 69, 87-89, PCT Art. 3, 8, UPCA, EinheitspatentVO 1257/2012 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Erfinder, Patentanwalt, DPMA, EPA, BPatG, BGH X. Senat, UPC, Wettbewerber (Einsprechende).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Patentanmeldung, Patentschrift, Recherchebericht, Prüfungsbescheid, Einspruchsschrift, Nichtigkeitsklage, FTO-Gutachten, UPC-Klage — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Input
+
+- geltender Patentanspruch.
+- Produktdaten, Fotos, Handbuch, CAD, Stückliste, Prüfbericht, Quellcode, Prozessbeschreibung.
+- Registerstand und Territory.
+- Ziel: Angriff, Verteidigung, FTO oder Vergleich.
+
+## Tabelle
+
+| Merkmal | Anspruchswortlaut | Produkt-/Verfahrensbefund | Beleg | Bewertung |
+| --- | --- | --- | --- | --- |
+
+Bewertung: erfüllt, nicht erfüllt, unklar, nur äquivalent denkbar, Beleg fehlt.
+
+## Zusatzprüfungen
+
+- Anspruchsauslegung: Begriffe aus Beschreibung/Figuren verstehen.
+- Äquivalenz: gleiche Wirkung, Auffindbarkeit, Gleichwertigkeit; Gegenargumente.
+- Beweisqualität: Mandantenangabe, Foto, Test, reverse engineering, Zeuge, Sachverständiger.
+- Geheimhaltungs-/GeschG-Risiko bei technischen Unterlagen beachten.
+
+## Auslegungs- und Äquivalenz-Pflichtkern
+
+- **§ 14 PatG / Art. 69 EPÜ und Auslegungsprotokoll:** Schutzbereich bestimmt sich nach den Ansprüchen; Beschreibung und Zeichnungen zur Auslegung; Mittelweg zwischen Wortsinn und Inhaltsidee.
+- **Wortsinngemäße Verletzung:** Jedes Merkmal muss vollständig im angegriffenen Produkt/Verfahren erfüllt sein. Lückenfreiheit zwingend; einzelnes fehlendes Merkmal verhindert Wortsinn-Verletzung.
+- **Äquivalenz (BGH "Schneidmesser" GRUR 2002, 511 / BGH X ZR 168/00):** Drei Voraussetzungen kumulativ:
+ 1. **Gleiche Wirkung** des Austauschmittels.
+ 2. **Auffindbarkeit** für den Fachmann mit dem Anspruch als Vorbild.
+ 3. **Gleichwertigkeit aus dem Anspruch** — Auswahlpflicht.
+- **Mittelbare Verletzung § 10 PatG:** Lieferung wesentlicher Erfindungsmittel; sowohl objektives Element (Bezug auf wesentliches Mittel) als auch subjektives Element (Wissen/Erkennbarkeit).
+- **Einwendungen:** Vorbenutzungsrecht § 12 PatG, Erschöpfung § 9 S. 2 PatG, Lizenz, Versuchsprivileg § 11 Nr. 2 PatG, Bolar-Klausel.
+- **Beweisqualität:** Mandantenangabe < Foto/Video < Demonstration vor Notar/Sachverständigen < Marktproduktprüfung im Labor < unabhängiger Sachverständiger.
+- **Geheimnisschutz:** Bei Reverse Engineering § 23 GeschGehG beachten; In-camera-Verfahren UPC oder §§ 16-20 GeschGehG.
+- Falle: Claim Chart ohne Anspruchsversion und Stand-Verifikation (DPMA/EPA-Register-Abrufdatum) — bei Einspruch/Beschränkung kann sich der maßgebliche Anspruchstext ändern.

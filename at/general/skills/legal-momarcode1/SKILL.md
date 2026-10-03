@@ -5,11 +5,18 @@ description: Austrian law assistant (Rechtsassistent) for Claude Code. Full case
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/legal
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: general
 language: en
+sources:
+- title: Common output rules
+  path: references/common-output-rules.md
+- title: Ogh case presentation
+  path: references/ogh-case-presentation.md
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # Austrian Legal Assistant — Rechtsassistent für österreichisches Recht

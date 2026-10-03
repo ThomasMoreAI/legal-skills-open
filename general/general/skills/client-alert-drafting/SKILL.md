@@ -5,11 +5,14 @@ description: 'Draft professional legal client alerts and publications that infor
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/client-alert-drafting
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Examples
+  path: references/examples.md
 ---
 
 *First published on [Skala Legal Skills](https://www.skala.io/legal-skills)*

@@ -1,26 +1,29 @@
 ---
 name: rote-flaggen-katalog
 title: Rote-Flaggen-Katalog
-description: 'Katalog klassischer roter Warnsignale im deutschen Arbeitszeugnis: Formulierungen, die trotz positiv klingendem Wortlaut eine schlechte Beurteilung kodieren. Umfasst alle Note-4- und Note-5-Signale mit Erklärung und Alternativformulierungen.'
+description: 'Für Rote-Flaggen-Katalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/rote-flaggen-katalog
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Rote-Flaggen-Katalog
 
-Rote Flaggen im Arbeitszeugnis sind Formulierungen, die eine Beurteilung der Note 4 oder schlechter kodieren. Das Tückische: Viele dieser Formulierungen klingen für Uneingeweihte positiv oder zumindest neutral. Ein klassisches Beispiel ist "bemüht" — wer jemandem Bemühen bescheinigt, klingt freundlich, signalisiert aber dem Kundigen: Die Ergebnisse entsprachen nicht den Anforderungen.
+## Fachlicher Anker
 
-Der Katalog roter Flaggen gliedert sich in drei Gruppen: Erstens direkte Abwertungsformeln, die trotz wohlklingendem Gewand als Note 4-5 kodiert sind. Zweitens strukturelle rote Signale, also Mängel im Aufbau oder in der Vollständigkeit des Zeugnisses. Drittens versteckte Negationen, bei denen die Formulierung scheinbar positiv ist, aber durch Kontext oder Betonung ein negatives Signal sendet.
-
-Besonders gefährlich sind Mischformen, bei denen ein roter Satz in einem ansonsten ordentlichen Zeugnis steht und dadurch weniger auffällt. Potenzielle neue Arbeitgeber kennen den Code oft sehr gut — gerade in großen Personalverantwortlichkeits-Strukturen — und picken solche Formulierungen gezielt heraus.
-
-Das Wort "zufriedenstellend" ist im deutschen Zeugniscode besonders hinterhältig: Im Alltagsdeutsch klingt es positiv. Im Zeugnis entspricht es einer schwachen Note-4-Formulierung. Ähnliches gilt für "hat die Erwartungen erfüllt" — scheinbar ein Kompliment, tatsächlich ein Signal, dass keine Leistung über das Minimum hinausging.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -42,7 +45,6 @@ Das Wort "zufriedenstellend" ist im deutschen Zeugniscode besonders hinterhälti
 
 **Beispiel 1 – Klassische "bemüht"-Falle:** "Herr Mayer war stets bemüht, seinen Aufgaben gerecht zu werden, und zeigte dabei guten Willen." → Klares Note-4-Signal durch "bemüht".
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Beispiel 3 – Erwartungserfüllung als Negativsignal:** "Er hat unsere Erwartungen stets erfüllt und war ein zuverlässiger Mitarbeiter." — "Erfüllt" statt "übertroffen" → Note 4.
 
@@ -50,15 +52,18 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 **Beispiel 5 – Euphemismus-Falle:** "Frau Schneider zeichnete sich durch eine direkte Art der Kommunikation aus und pflegte eine eigenständige Arbeitsweise." → Doppeltes rotes Signal: schwierig im Team und schwierig in der Hierarchie.
 
-## Ausgabeformat
-
-Der Skill listet alle erkannten roten Signale mit Zitat, Signaltyp (Direktformulierung/Strukturmangel/Negation/Euphemismus), Notentendenz und einer kurzen Handlungsempfehlung (Nachverhandlung empfohlen: ja/nein). Am Ende folgt eine Zusammenfassung mit der Gesamtzahl roter Flaggen.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Ironie und Unterschriftsgeheimzeichen)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **LAG Hamm, Beschl. v. 14.11.2016 - 12 Ta 475/16** | Ironisch überzogenes Lob ist unzulaessig; Arbeitnehmer hat Anspruch auf geschaeftsuebliche Unterschrift des Ausstellers; quer-laufende Unterschrift weckt Zweifel an Ernsthaftigkeit. | nrwe.de / justiz.nrw.de |
+| **ArbG Kiel, Urt. v. 18.04.2013 - 5 Ca 80 b/13** | In die Unterschrift eingearbeiteter Smiley mit herabgezogenen Mundwinkeln ist ein unzulaessiges Geheimzeichen (Paragraf 109 II 2 GewO). | frei publiziert / dejure-Suche |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,220 +1,121 @@
 ---
 name: insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist
-title: Insolvenzantragspflicht — § 15a InsO und die Drei-Wochen-Frist
-description: 'Insolvenzantragspflicht nach § 15a InsO und Drei-Wochen-Frist: GF prüft ob Insolvenzantrag gestellt werden muss. Normen: § 15a InsO (Antragspflicht), § 15a Abs. 4 InsO (Strafbarkeit), § 18 InsO (drohende ZU als StaRUG-Tor), § 1 StaRUG (Fruehwarnung). Prüfraster: Triggerlogik (ZU oder Überschuldung), Maximalfrist 3 Wochen, Handlungskorridore in der Frist, Verhältnis zu StaRUG. Output Handlungs-Memo mit Optionen (Antrag, StaRUG, außergerichtliche Sanierung), Zeitplan. Abgrenzung: Fortbestehensprognose siehe fortbestehensprognose-zweistufig; StaRUG-Plan siehe restrukturierungsplan-architektur-paragraph-7ff-starug.'
+title: 1. Insolvenzantragspflicht nach Paragraf 15a InsO
+description: Prüft die Insolvenzantragspflicht nach Paragraf 15a InsO ab objektivem Eintritt von Zahlungsunfähigkeit oder Überschuldung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# Insolvenzantragspflicht — § 15a InsO und die Drei-Wochen-Frist
+# 1. Insolvenzantragspflicht nach Paragraf 15a InsO
 
-§ 15a InsO ist das härteste Instrument im deutschen Insolvenzrecht gegenüber Geschäftsführern. Wer nach Eintritt der Zahlungsunfähigkeit oder Überschuldung nicht innerhalb von drei Wochen Insolvenzantrag stellt, begeht eine Straftat — und haftet persönlich für Schäden, die nach Fristablauf eintreten. Diese Norm ist kein Papiertiger: Staatsanwaltschaften verfolgen sie aktiv, und Insolvenzverwalter nutzen sie systematisch als Regressgrundlage. Das Heft des Handelns verliert, wer diese Frist verstreichen lässt.
+## 1.1 Direktstart
 
----
+Lies zuerst Liquiditätsstatus, Bankstände, offene Posten, Fälligkeitslisten, Vollstreckungsunterlagen, Rangrücktritte, Fortführungsprognose, Organ- und Registerunterlagen sowie bisherige Sanierungsentscheidungen. Beginne mit einer Ereigniszeitachse und einer Statusmatrix; frage nur nach fehlenden Daten, die den objektiven Eintritt oder den nächsten sicheren Schritt verändern.
 
-## Rechtsgrundlagen
+## 1.2 Sofortmatrix
 
-- § 15a InsO (Antragspflicht)
-- § 15a Abs. 4 InsO (Straftatbestand: Freiheitsstrafe bis zu drei Jahre oder Geldstrafe)
-- § 15a Abs. 5 InsO (fahrlässige Variante)
-- § 15b InsO (Zahlungsverbote nach Insolvenzreife)
-- § 43 GmbHG (Sorgfaltspflicht)
-- § 64 GmbHG a.F. / § 15b InsO n.F. (Masseerhaltungspflicht)
-- **BGH II ZR 206/22 vom 23.07.2024** — Fortwirkende Haftung des ausgeschiedenen Geschäftsführers für Neugläubigerschäden, solange die durch ihn geschaffene Gefährdungslage fortwirkt. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=23.07.2024&Aktenzeichen=II+ZR+206/22>
-- **BGH 5 StR 287/24 vom 27.02.2025** — Faktische Geschäftsführung / Firmenbestattung: auch Hintermänner ohne Außenauftritt können als faktische Geschäftsführer haften. <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=27.02.2025&Aktenzeichen=5+StR+287/24>
-- **BGH IV ZR 66/25 vom 19.11.2025** — D&O-Versicherung: Wissentlichkeitsausschluss erfordert positive Kenntnis pro Pflichtverletzung; § 15a / § 15b InsO nicht koppelbar.
+| Prüfung | Stichtag | Ergebnis | Tragender Beleg | Nächster Schritt |
+| --- | --- | --- | --- | --- |
+| Zahlungsunfähigkeit nach Paragraf 17 InsO | [Datum] | [ja/nein/offen] | [Beleg] | [Handlung] |
+| Überschuldung nach Paragraf 19 InsO | [Datum] | [ja/nein/offen] | [Beleg] | [Handlung] |
+| drohende Zahlungsunfähigkeit nach Paragraf 18 InsO | [Zeitraum] | [ja/nein/offen] | [Beleg] | [Option, keine Pflicht allein daraus] |
+| Antragspflichtiger und Vertretung | [Datum] | [Person] | [Register und Organakte] | [Handlung] |
+| frühester objektiver Eintritt | [Datum] | [Grund] | [Belegkette] | [sofort] |
+| subjektive Kenntnis | [Datum] | [Person] | [E-Mail, Bericht, Protokoll] | [Straf- und Haftungsprüfung] |
 
----
+## 1.3 Fristen richtig behandeln
 
-## Pflichten
+Paragraf 15a Absatz 1 InsO verlangt den Antrag ohne schuldhaftes Zögern:
 
-### 1. Tatbestand des § 15a InsO
+1. spätestens drei Wochen nach Eintritt der Zahlungsunfähigkeit,
+2. spätestens sechs Wochen nach Eintritt der Überschuldung.
 
-Die Antragspflicht wird ausgelöst, wenn:
+Diese Zeiträume sind Höchstgrenzen und keine Schonfristen. Die Pflicht knüpft an den objektiven Eintritt des Insolvenzgrundes an, nicht erst an seine Kenntnis. Kenntnis, Irrtum und Erkennbarkeit bleiben für Verschulden, Strafbarkeit und Haftung wichtig, verschieben aber den objektiven Eintritt nicht.
 
-**Tatbestandsalternative 1 — Zahlungsunfähigkeit § 17 InsO:**
-- Fällige Verbindlichkeiten können nicht mehr bezahlt werden
-- Zahlungsrückstand übersteigt 10 % der Gesamtverbindlichkeiten (BGH-Wesentlichkeitsschwelle)
-- Das Unvermögen ist nicht nur vorübergehend
+Der Höchstzeitraum darf nur genutzt werden, soweit ernsthafte und aussichtsreiche Maßnahmen zur nachhaltigen Beseitigung des Insolvenzgrundes oder eine sorgfältige Antragvorbereitung dies tragen. Sanierungsverhandlungen verlängern die gesetzliche Höchstgrenze nicht. Fällt ihre Erfolgsaussicht weg, ist der Antrag sofort zu stellen.
 
-**Tatbestandsalternative 2 — Überschuldung § 19 InsO:**
-- Aktiva < Passiva auf Liquidationsbasis (rechnerische Überschuldung)
-- KEINE positive Fortbestehensprognose vorhanden
+## 1.4 Zahlungsunfähigkeit nach Paragraf 17 InsO
 
-**Normadressaten:**
+1. Fällige und ernsthaft eingeforderte Zahlungspflichten einzelpostengenau erfassen.
+2. Frei verfügbare Zahlungsmittel und sicher abrufbare Linien gegenüberstellen.
+3. Drei-Wochen-Entwicklung mit belegten Zuflüssen und Abflüssen rechnen.
+4. Eine Lücke von zehn Prozent oder mehr spricht regelmäßig für Zahlungsunfähigkeit, wenn nicht ausnahmsweise eine fast vollständige kurzfristige Schließung mit an Sicherheit grenzender Wahrscheinlichkeit und zumutbarem Zuwarten belegt ist.
+5. Unterhalb von zehn Prozent bleibt zu prüfen, ob die Lücke absehbar anwächst oder nicht in überschaubarer Zeit geschlossen wird.
+6. Zahlungseinstellung und weitere Indizien als Gesamtbild würdigen; keine Kennzahl ersetzt die Einzelfallprüfung.
 
-| Rechtsform | Antragspflichtige Person |
-|---|---|
-| GmbH | Geschäftsführer (alle, nicht nur einer) |
-| AG | Vorstandsmitglieder (alle) |
-| GmbH & Co. KG | GF der Komplementär-GmbH |
-| Verein (rechtsfähig) | Vorstand |
-| Genossenschaft | Vorstand |
-| Faktischer GF | Ebenfalls antragspflichtig (BGH-Rspr.) |
+## 1.5 Streitige und titulierte Forderungen
 
-### 2. Die Drei-Wochen-Frist — Inhalt und Berechnung
+Nach BGH, Urteil vom 23. Januar 2025, IX ZR 229/22, ECLI:DE:BGH:2025:230125UIXZR229.22.0, Randnummern 34 bis 35, ist die objektive Rechtslage maßgeblich:
 
-Drei-Wochen-Frist nach § 15a Abs. 1 S. 1 InsO bei Zahlungsunfähigkeit (§ 17 InsO); Sechs-Wochen-Frist seit 01.01.2021 (SanInsFoG) bei Überschuldung (§ 19 InsO). Beide Fristen sind Höchstfristen, keine "Schonfrist". Konkrete Aktenzeichen der BGH-Linie zur Fristberechnung über offene Quellen verifizieren.
+1. Besteht eine fällige Forderung objektiv, ist sie grundsätzlich einzustellen, auch wenn sie bestritten wird.
+2. Besteht sie objektiv nicht oder ist sie nicht fällig, begründet sie keine Zahlungsunfähigkeit.
+3. Prozessrisiken werden nicht prozentual auf den Forderungsbetrag angewandt.
+4. Liegt ein vorläufig vollstreckbarer Titel vor, bestehen die Vollstreckungsvoraussetzungen und hat der Gläubiger die Vollstreckung eingeleitet, ist die Forderung im Nennwert zu berücksichtigen.
+5. Wer eine Forderung herausnimmt, muss Anspruch, Fälligkeit, Einreden, Titel- und Vollstreckungsstand mit einer belastbaren Beleg- und Rechtsprüfung dokumentieren.
 
-**Berechnung:**
-```
-Tag 0:  Kenntnis des Insolvenzgrundes (Datum + Uhrzeit protokollieren!)
-Tag 1:  Beginn der Drei-Wochen-Frist
-Tag 21: Ablauf der Frist — Antragstellung muss erfolgt sein
+Subjektive Rechtsirrtümer nur getrennt vom objektiven Status prüfen. Randnummer 27 der Entscheidung behandelt im Kontext der Vorsatzanfechtung einen engen Korridor bei seit langem umstrittenen, höchstrichterlich ungeklärten Rechtsfragen; die Auslegung eines Vertrags, an dem der Schuldner selbst mitgewirkt hat, wird dadurch nicht ohne Weiteres entschuldigt. Diese Aussage entscheidet weder den objektiven Eintritt der Antragspflicht noch abschließend das Verschulden in einem späteren Verfahren nach Paragraf 15a oder Paragraf 15b InsO. Ein Rechtsgutachten kann die Sorgfalts- und Kenntnislage dokumentieren, ändert aber den objektiven Forderungsbestand nicht und gewährleistet keine Entlastung.
 
-Achtung: Drei Wochen = 21 Tage, nicht drei Kalenderwochen mit flexiblem Ende.
-```
+## 1.6 Überschuldung nach Paragraf 19 InsO
 
-**Verlängerung der Frist:** Die Drei-Wochen-Frist kann nur dann länger dauern, wenn innerhalb der Frist ernsthafte und aussichtsreiche Sanierungsverhandlungen geführt werden. Dies ist eng auszulegen — Gerichte prüfen ex post sehr genau, ob die Sanierungsbemühungen tatsächlich aussichtsreich waren.
+1. Prüfen, ob das Vermögen die bestehenden Verbindlichkeiten deckt.
+2. Forderungen mit wirksam vereinbartem Nachrang nach Paragraf 39 Absatz 2 InsO entsprechend Paragraf 19 Absatz 2 Satz 2 InsO behandeln.
+3. Fortführung über regelmäßig zwölf Monate ab Prognosestichtag mit integrierter Ertrags-, Bilanz- und Liquiditätsplanung beurteilen.
+4. Finanzierung nur berücksichtigen, wenn Rechtsverbindlichkeit, Bedingungen, Abrufbarkeit und Bonität belegt sind.
+5. Rangrücktritt, Patronat und Gesellschafterbeitrag anhand des vollständigen Textes prüfen; bloße Absichtserklärungen genügen nicht.
 
-**Maximale Gesamtfrist:** Auch bei laufenden Sanierungsverhandlungen gibt es keine unbegrenzte Verlängerung. Die absolute Höchstgrenze liegt bei drei Monaten (§ 15a Abs. 1 S. 2 InsO n.F.: "ohne schuldhaftes Zögern, spätestens aber drei Wochen").
+## 1.7 Antragspflichtige und Zuständigkeit
 
-### 3. Strafrechtliche Sanktion — § 15a Abs. 4 InsO
+Bestimme die antragspflichtige Person nach Rechtsform und Vertretungslage. Bei Führungslosigkeit die Sonderregeln des Paragrafen 15a Absatz 3 InsO prüfen. Eine interne Ressortverteilung, Gesellschafterweisung oder bloße Delegation beseitigt die organschaftliche Verantwortung nicht.
 
-**Vorsätzliche Verletzung:** Freiheitsstrafe bis zu drei Jahre oder Geldstrafe  
-**Fahrlässige Verletzung:** Freiheitsstrafe bis zu einem Jahr oder Geldstrafe (§ 15a Abs. 5 InsO)
+Zuständiges Insolvenzgericht, wirksame Vertretung, Antragsgrund und notwendige Angaben anhand der aktuellen InsO, der Insolvenzrechtlichen Vergütungsverordnung und der örtlichen Einreichungswege prüfen. Kein Musteraktenzeichen erfinden.
 
-Strafverfolgung durch Staatsanwaltschaft erfolgt regelmäßig, wenn:
-- Der Insolvenzantrag erkennbar verspätet gestellt wurde
-- Schadensersatzansprüche anderer Gläubiger bestehen
-- Gläubiger Strafanzeige erstattet haben
+## 1.8 Zahlungen nach Insolvenzreife
 
-### 4. § 15b InsO — Das Zahlungsverbot
+Jede Zahlung ab objektivem Eintritt einzeln an Paragraf 15b InsO messen:
 
-Parallel zur Antragspflicht gilt das Zahlungsverbot des § 15b InsO: Nach Eintritt der Insolvenzreife dürfen nur noch Zahlungen geleistet werden, die
+| Zahlung | Datum | Empfänger | Zweck | Gegenwert | Vereinbarkeit mit Organpflicht | Beleg |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Zahlung] | [Datum] | [Name] | [Zweck] | [EUR] | [ja/nein/offen] | [Beleg] |
 
-- im gewöhnlichen Geschäftsgang anfallen und
-- mit der Sorgfalt eines ordentlichen Kaufmanns vereinbar sind.
+Keine pauschale Positivliste verwenden. Maßgeblich sind Zeitpunkt, Zweck, Gegenwert, Massenauswirkung, sorgfältige Sanierungs- oder Antragvorbereitung und die gesetzlichen Vermutungen des Paragrafen 15b InsO.
 
-Unzulässige Zahlungen nach Insolvenzreife begründen Schadensersatzansprüche des späteren Insolvenzverwalters gegen den Geschäftsführer persönlich. Die Beweislast liegt beim Geschäftsführer (§ 93 Abs. 2 S. 2 AktG analog für GmbH-GF).
+## 1.9 Verhältnis zum StaRUG
 
-### 5. Der "Quasi-Notgeschäftsführer"
+Drohende Zahlungsunfähigkeit nach Paragraf 18 InsO kann eine Restrukturierungsroute eröffnen, begründet aber allein keine Antragspflicht. Eingetretene Zahlungsunfähigkeit oder Überschuldung löst dagegen die Prüfung nach Paragraf 15a InsO aus. Anzeige, Stabilisierungsanordnung oder Planarbeit setzen die Antragspflicht nicht außer Kraft; Paragraf 33 StaRUG ist zusätzlich zu beachten.
 
-In der Praxis entsteht nach Eintritt der Insolvenzreife und Ausscheiden des regulären GF die Situation, dass kein neuer GF bestellt wird. In diesem Fall:
+## 1.10 Arbeitsprodukte
 
-- Gesellschafter sind subsidiär antragspflichtig (§ 15a Abs. 3 InsO)
-- Faktische Geschäftsführer (wer tatsächlich die Geschäfte führt) sind ebenfalls antragspflichtig
-- Ein "kommissarischer" GF, der die Geschäfte fortführt ohne formal bestellt zu sein, haftet wie ein regulärer GF
+1. Objektiver Status mit Einzelposten und Belegen.
+2. Ereigniszeitachse mit frühestem und spätestem vertretbaren Eintrittsdatum.
+3. Getrennte Kenntnis- und Kommunikationschronologie.
+4. Organmemo mit sofortiger Handlung, Höchstzeitraum und Abbruchkriterien jeder Sanierungsmaßnahme.
+5. Zahlungsregister nach Paragraf 15b InsO.
+6. Antragsfahrplan mit Gericht, Vertretung, Unterlagen, Verantwortlichem und Tagesfrist.
 
----
+## 1.11 Fehlerbremsen
 
-## Vorgehen
+1. Fristbeginn nicht an Kenntnis statt objektiven Eintritt knüpfen.
+2. Drei und sechs Wochen nicht als erlaubte Wartezeit darstellen.
+3. Sanierungsverhandlungen nicht als Fristverlängerung bezeichnen.
+4. Drohende Zahlungsunfähigkeit nicht mit Antragspflicht gleichsetzen.
+5. Streitige Forderungen nicht mit Prozessrisikoquoten abwerten.
+6. Titulierte Forderungen nur nach Titel-, Vollstreckbarkeits- und Vollstreckungsstand einordnen.
+7. Zahlungsunfähigkeit nicht allein aus negativem Eigenkapital ableiten.
+8. Überschuldung nicht allein aus der Handelsbilanz ableiten.
+9. Zahlungen nicht pauschal als erlaubt oder verboten etikettieren.
+10. Rechtsprechung nur mit Primärquelle, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verwenden.
 
-### Schritt 1: Insolvenzreife-Check — Sofortprüfung
+## 1.12 Primärquellen
 
-Bei jedem Krisenalarm-Signal sofort prüfen:
-
-- [ ] Können aktuell fällige Verbindlichkeiten bezahlt werden? (§ 17 InsO)
-- [ ] Wurde die letzte Lohnzahlung vollständig und rechtzeitig geleistet?
-- [ ] Wurden Steuern/Sozialversicherungsbeiträge fristgerecht bezahlt?
-- [ ] Gibt es gerichtliche Mahnbescheide oder Vollstreckungsandrohungen?
-- [ ] Ist das Eigenkapital aufgezehrt? Gibt es eine positive FBP? (§ 19 InsO)
-
-Wenn ein Punkt kritisch: Sofortiger Anruf beim Restrukturierungs-/Insolvenzrechtsberater.
-
-### Schritt 2: Fristbeginn protokollieren
-
-Das genaue Datum (und die Uhrzeit) der Erkenntnis des Insolvenzgrundes muss protokolliert werden:
-
-```
-PROTOKOLL — ERKENNTNIS INSOLVENZREIFE
-
-Gesellschaft: [Firma GmbH]
-Datum und Uhrzeit der Erkenntnis: [TT.MM.JJJJ, HH:MM Uhr]
-Art des Insolvenzgrundes: [ ] § 17 InsO  [ ] § 19 InsO  [ ] beide
-Grundlage der Erkenntnis:
-  [ ] Eigene Analyse der Liquiditätsplanung
-  [ ] Beratereinschätzung von [fiktive Kanzlei], [Datum]
-  [ ] Ergebnis IDW S 11-Gutachten
-  
-Fristablauf (21 Tage): [TT.MM.JJJJ]
-
-Sofortmaßnahmen eingeleitet:
-  [ ] Insolvenzrechtsberater beauftragt am [Datum]
-  [ ] Sanierungsverhandlungen begonnen am [Datum]
-  [ ] Insolvenzantrag beim AG [Ort] gestellt am [Datum]
-
-Unterschrift GF: ___________________
-```
-
-### Schritt 3: Erlaubte Zahlungen nach Insolvenzreife
-
-Nach Insolvenzreife nur noch folgende Zahlungen leisten:
-
-- Löhne und Gehälter für laufenden Zeitraum (Masseschutz)
-- Zahlungen zur Aufrechterhaltung des Betriebs im normalen Geschäftsgang
-- Steuervoranmeldungen (Steuerzahlungen können Masseschuld sein)
-- KEINE Ausschüttungen, Gesellschafterdarlehen zurückzahlen, präferenzielle Gläubiger befriedigen
-
----
-
-## Templates
-
-### Muster: Insolvenzantrag-Checkliste
-
-```
-CHECKLISTE — VORBEREITUNG INSOLVENZANTRAG
-
-Gesellschaft: [Firma GmbH]
-Zuständiges AG: [Insolvenzgericht — i.d.R. am Sitz der Hauptniederlassung]
-
-DOKUMENTE FÜR DEN ANTRAG:
-  [ ] Aktueller Jahresabschluss (letzter testierter)
-  [ ] Aktuelle BWA mit Kommentar
-  [ ] Liquiditätsplan (kurzfristig, 13 Wochen)
-  [ ] Gläubigerliste mit Forderungshöhen
-  [ ] Handelsregisterauszug (nicht älter als drei Monate)
-  [ ] Gesellschafterliste
-  [ ] IDW S 11-Gutachten (sofern vorhanden)
-
-INFORMATIONEN ZUM ANTRAG:
-  [ ] Insolvenzgrund benennen (§ 17 / § 18 / § 19 InsO)
-  [ ] Antragsberechtigung nachweisen (GF-Bestellungsurkunde)
-  [ ] Insolvenzmasse schätzen (Aktiva, verwertbar)
-  [ ] Verfahrenskosten vorfinanzieren oder glaubhaft machen
-
-NACH ANTRAGSTELLUNG:
-  [ ] Mitarbeiter informieren
-  [ ] Banken benachrichtigen
-  [ ] Wichtige Vertragspartner informieren
-  [ ] Buchhaltung sichern
-```
-
----
-
-## Fallstricke
-
-1. **Fristbeginn falsch berechnet** — die Frist beginnt mit der Kenntnis, nicht mit dem Eintritt des Insolvenzgrundes. Wer "es schon länger wusste", hat möglicherweise die Frist bereits verpasst.
-
-2. **Sanierungsverhandlungen als Fristaufschub** — nur echte, aussichtsreiche Verhandlungen verlängern die Frist. Gespräche ohne konkretes Ergebnis schützen nicht.
-
-3. **Ein GF stellt Antrag, anderer nicht** — alle antragspflichtigen GF müssen den Antrag stellen. Derjenige, der keinen Antrag stellt, haftet gesondert.
-
-4. **Gesellschafterweisung zur Weiterführung** — Weisungen der Gesellschafter, die Antragstellung zu unterlassen, schützen den GF nicht. § 15a InsO ist zwingend.
-
-5. **Zahlungen nach Insolvenzreife** — jede nicht mehr zulässige Zahlung nach Eintritt der Insolvenzreife ist vom Insolvenzverwalter rückforderbar. Kreditkartenzahlungen, Barabhebungen, Überweisungen — alles wird geprüft.
-
----
-
-## Querverweise
-
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Abgrenzung vor Antragspflicht
-- → `fortbestehensprognose-zweistufig` — FBP als Voraussetzung für modifizierten Überschuldungsbegriff
-- → `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — persönliche Haftungsfolgen
-- → `pflichtenkollision-und-shift-of-fiduciary-duties` — Pflichtenwandel bei Insolvenzreife
-- → `restrukturierungsplan-architektur-paragraph-7ff-starug` — letzte StaRUG-Chance vor § 15a InsO
-
-
-## Triage — Erste Einordnung
-
-Bevor losgelegt wird, klaere:
-1. **Krisenstadium?** Ertragskrise (EBIT negativ), Liquiditaetskrise (Cashflow negativ) oder akute Insolvenznaehe (ZU/Ueberschuldung)?
-2. **Insolvenzgrund?** § 17 InsO (ZU), § 18 InsO (drohende ZU), § 19 InsO (Ueberschuldung)?
-3. **Fristen?** Antragspflicht § 15a InsO: 3 Wochen (ZU), 6 Wochen (Ueberschuldung).
-4. **Sanierungs-Pfad?** StaRUG (drohende ZU), Schutzschirm, Eigenverwaltung oder Regelverfahren?
+- [Paragraf 15a InsO](https://www.gesetze-im-internet.de/inso/__15a.html)
+- [Paragraf 15b InsO](https://www.gesetze-im-internet.de/inso/__15b.html)
+- [Paragraf 17 InsO](https://www.gesetze-im-internet.de/inso/__17.html)
+- [Paragraf 19 InsO](https://www.gesetze-im-internet.de/inso/__19.html)
+- [BGH, Urteil vom 24. Mai 2005, IX ZR 123/04](https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Blank=1&Datum=2005-5&Gericht=bgh&Seite=2&Sort=1026&anz=93&nr=8691&pos=63)
+- [BGH, Urteil vom 23. Januar 2025, IX ZR 229/22, ECLI:DE:BGH:2025:230125UIXZR229.22.0](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1152&nr=140413&pos=16)

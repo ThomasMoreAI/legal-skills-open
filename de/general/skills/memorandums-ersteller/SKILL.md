@@ -1,11 +1,11 @@
 ---
 name: memorandums-ersteller
 title: Memorandums-Ersteller
-description: Erstellt ein professionelles juristisches Memorandum aus heterogenen Mandantenunterlagen. Anwendungsfall Mandant hat Unterlagen eingereicht und Kanzlei soll Rechtslage in Memorandumsform aufbereiten. Normen rechtsgebietsneutral einsetzbar für Arbeitsrecht Mietrecht Gesellschaftsrecht Vertragsrecht und alle weiteren Gebiete. Prüfraster Vier-Teile-Gliederung Sachverhalt mit Quellenreferenz Fragestellung als Ein-Satz-Fragen Antworten als Ein-Satz-Zusammenfassung Rechtliche Ausführungen mit Anspruchsgrundlage Tatbestandsmerkmale Subsumtion Ergebnis. Identifiziert Widersprueche offene Punkte und bietet Piercing-Questions. Output Strukturiertes Rechtsmemorandum mit Pinpoint-Zitierung aktueller Rechtsprechung. Abgrenzung zu kanzlei-allgemein-schreibcanvas und kanzlei-allgemein-schriftsatz-turbo.
+description: 'Für Memorandums-Ersteller: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/memorandums-ersteller/skills/memorandums-ersteller
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Memorandums-Ersteller
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Verjährung Anwaltshaftung § 195 BGB 3 Jahre, ggf. § 199 (Kenntnis), Mandatsannahme/Ablehnung unverzüglich, BRAO § 44 Annahme/Ablehnung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 43b, 49b (Verschwiegenheit/Haftung), BORA §§ 2, 5, 11, BGB §§ 280, 675 (Anwaltshaftung), HOAI-/RVG-Aspekte, ZPO § 138 (Wahrheitspflicht) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Rechtsanwalt, Auftraggeber (intern: Rechtsabteilung), Gegner, ggf. Gericht (bei Vorlage), externer Spezialist.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Memo (Sachverhalt, Frage, Kurzergebnis, Begründung, Risiko, Empfehlung), Akteneinsichtsantrag, Vollmacht, Honorarvereinbarung, Tatsachenpaket — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor der Erstellung
 
@@ -35,9 +43,6 @@ language: de
 2. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Leitidee
 
 Strukturierte Sachverhaltsaufbereitung ist das Fundament jeder
@@ -52,8 +57,8 @@ Aliasnamen je nach Kanzleikultur: Memorandumsmacher, Memorandumisierer.
 ## Inputs
 
 - Mandantenunterlagen in beliebiger Mischform: E-Mails Verträge
-  Fotos handschriftliche Notizen Chats Kontoauszüge Gutachten
-  Aktenvermerke Gesprächsnotizen
+ Fotos handschriftliche Notizen Chats Kontoauszüge Gutachten
+ Aktenvermerke Gesprächsnotizen
 - Optional: vorgegebene Prüfungsrichtung (gerichtete Prüfung)
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Optional: vorhandenes Memorandum zur Aktualisierung
@@ -94,23 +99,31 @@ der Prüfung durch den bearbeitenden Rechtsanwalt. Insbesondere
 alle Zitate sind anhand der Originalquellen zu verifizieren.
 ```
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Methodik
 
 1. Dokumenten-Inventur — pro Eingangsdokument Typ Datum Quelle
-   notieren
+ notieren
 2. Tatsachen-Extraktion — jede Tatsache erhält Quellenreferenz im
-   Format `[Anlage K1 S. 2]` `[E-Mail v. 15.03.2024]`
-   `[Telefonat lt. Vermerk v. 20.03.2024]`
+ Format `[Anlage K1 S. 2]` `[E-Mail v. 15.03.2024]`
+ `[Telefonat lt. Vermerk v. 20.03.2024]`
 3. Chronologische Sortierung
 4. Widerspruchsprüfung — abweichende Datums- oder Sachangaben
-   werden BEIDE dokumentiert und als klärungsbedürftig markiert
+ werden BEIDE dokumentiert und als klärungsbedürftig markiert
 5. Abschnitt "Noch zu klären" am Ende des Sachverhalts
 6. Identifikation der Rechtsfragen — entweder nach Vorgabe oder
-   offen mit Piercing-Questions
+ offen mit Piercing-Questions
 7. Ein-Satz-Fragen formulieren und durchnummerieren
 8. Ein-Satz-Antworten formulieren und entsprechend nummerieren
 9. Rechtliche Ausführungen — pro Frage ein eigener Block mit
-   sauberer Prüfungsstruktur
+ sauberer Prüfungsstruktur
 10. Zitate verifizieren oder mit `[Quelle zu verifizieren]` markieren
 
 ## Ein-Satz-Regel
@@ -145,9 +158,6 @@ Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor A
 
 Juengere Entscheidungen stehen zuerst.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Pinpoint-Zitierung Aufsätze
 
 Format: Autor Titel Zeitschrift Jahr Anfangsseite konkrete Seite.
@@ -159,12 +169,12 @@ konkret S. 1237.
 
 - Nur Quellen zitieren die existieren und verifizierbar sind
 - Bei Unsicherheit `[Quelle zu verifizieren]` einfügen ODER auf
-  Zitat verzichten
+ Zitat verzichten
 - Niemals plausibel klingende aber erfundene Aktenzeichen oder
-  Fundstellen ausgeben
+ Fundstellen ausgeben
 - Eigene Wertungen NICHT als Tatsache darstellen
 - Bei Tatsachen die nicht aus den Unterlagen folgen wird im
-  Sachverhalt eine Lücke markiert nicht ergänzt
+ Sachverhalt eine Lücke markiert nicht ergänzt
 
 ## Prüfungsmodi
 
@@ -195,9 +205,9 @@ Der pauschale Hinweis im Output ist Pflicht und nicht zu löschen.
 ## Output-Datei
 
 - `Memorandum_<Mandat>_<ISO-Datum>.docx` auf Kanzlei- oder
-  Abteilungsbriefkopf falls Vorlage beigefügt
+ Abteilungsbriefkopf falls Vorlage beigefügt
 - Optional `Memorandum_<Mandat>_<ISO-Datum>.md` als reine
-  Textversion
+ Textversion
 
 ## Fortlaufende Aktualisierung
 
@@ -209,20 +219,20 @@ werden in "Noch zu klären" sichtbar gemacht.
 ## Beispielformulierungen
 
 - "Hier sind alle Mandantenunterlagen zum Fall Mueller gegen ABC
-  GmbH. Erstelle ein Memorandum mit offener Prüfung und
-  Piercing-Questions."
+ GmbH. Erstelle ein Memorandum mit offener Prüfung und
+ Piercing-Questions."
 - "Prüfe gerichtet die Wirksamkeit der Kündigung vom fünfzehnten
-  Juni. Memorandum auf Kanzlei-Briefkopf."
+ Juni. Memorandum auf Kanzlei-Briefkopf."
 - "Hier ist das bisherige Memorandum und neue Korrespondenz vom
-  letzten Monat. Aktualisiere bitte und markiere Neuzugänge."
+ letzten Monat. Aktualisiere bitte und markiere Neuzugänge."
 - "Memorandum-Kurzversion für einfache Rechtsfrage zum
-  Gewährleistungsausschluss."
+ Gewährleistungsausschluss."
 
 ## Variationen
 
 - Kurzversion für einfache Einzelfragen
 - Ausführliche Version mit Zeitleiste und Beteiligtenliste als
-  Anhang
+ Anhang
 - Gutachten-Version mit Alternativprüfungen und Risikoanalyse
 - Prozess-Version mit Beweiswürdigung und Prozessrisikoanalyse
 - Due-Diligence-Version mit Risikoklassifizierung
@@ -236,7 +246,3 @@ vertraglicher Zusicherung und tatsächlicher Gewährleistung sind
 zulässig. Der Skill weist im Output-Hinweis darauf hin.
 
 ---
-<!-- AUDIT 27.05.2026 | bundle_037 | task 4/5
-Vorkommen 1: Rechtsprechungsliste Eintrag Nr. 1 geloescht, Nummerierung korrigiert (3->2, 4->3).
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->

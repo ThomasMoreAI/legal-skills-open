@@ -1,175 +1,202 @@
 ---
 name: lovstudio-review-doc
-title: review-doc — Review & Annotate Documents / 批阅文档与合同
-description: 'Review and annotate documents/contracts — output annotated docx with comments or tracked changes. Core: contract review (risk clauses, rights imbalance, vague wording, missing clauses); also general document review (grammar, logic, formatting). 批阅文档/合同 — 审阅任意文档并以批注或修订模式输出带标注的 docx。 核心场景：合同/协议审查（风险条款、权利义务、模糊表述、缺失条款）， 也支持通用文档审阅（语法、逻辑、格式）。 Trigger when: user asks to "审阅", "批阅", "批注", "review", "审查合同", "review contract", "review agreement", "annotate document", "check contract", "合同审查", "文档批注", or provides a document (.docx) for review.'
+title: 合同精修 · Contract Polish
+description: 专业合同分析、审阅、批注与红线修订。用于用户要求审查合同、协议、条款、NDA、采购或服务合同、SaaS 或数据协议、劳动或顾问协议、知识产权许可、投融资文件，或要求风险分析、逐条批注、修订模式、谈判建议、审阅报告时；支持 DOCX 原位批注和修订，以及 PDF、图片或纯文本的定位审阅。
 author: lovstudio
 author_url: https://github.com/lovstudio/skills/tree/main/skills/review-doc
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: zh
+sources:
+- title: Annotation schema
+  path: references/annotation-schema.md
+- title: Prc legal baseline
+  path: references/prc-legal-baseline.md
+- title: Review playbook
+  path: references/review-playbook.md
 ---
 
-# review-doc — Review & Annotate Documents / 批阅文档与合同
+# 合同精修 · Contract Polish
 
-AI-powered document and contract review. Outputs annotated docx with comments
-and/or tracked changes.
+以资深交易律师与法务负责人的工作标准审阅合同。既判断法律风险，也判断交易能否履行、责任是否对等、证据是否留得住、争议时是否执行得了。不要把关键词扫描冒充专业审阅。
 
-审阅文档或合同，AI 进行审查分析，将审查意见以批注（comment）或修订模式
-（track changes）写回文档，输出带批注的 docx。
+## 不可降低的标准
 
-## When to Use
+- 先确认审阅立场、法域、合同类型、交易目标和风险偏好；信息不足时列明合理假设并继续，不因非关键缺口停工。
+- 区分三类判断：`文本事实`、`法律判断`、`商业判断`。不得把商业偏好写成法律强制要求。
+- 引用法律结论前核验当前有效的官方来源、施行日期和适用法域。不得凭记忆引用条号。
+- 保留原文件，输出新文件；不得覆盖用户原件。
+- 每个高风险问题必须包含后果、建议和可落地的替代文本。只写“建议咨询律师”不算完成。
+- 不臆造缺失附件、主体资质、金额、日期、法条、判例或谈判背景。未知项标为“待确认”。
+- 对重大交易、跨境、监管、争议中或需要正式法律意见的事项，明确建议由对应法域执业律师复核；这不替代本次实质审阅。
 
-- User provides a document for review, annotation, or audit
-  用户提供文档要求审阅、审查、批注、批阅
-- Contract/agreement review: risk clauses, rights imbalance, vague wording, missing clauses
-  合同/协议审查：识别风险条款、权利义务失衡、模糊表述、缺失条款
-- General document review: grammar, logic, formatting, completeness
-  通用文档审阅：语法、逻辑、格式、内容完整性
-- Supports .docx input / 当前支持 .docx 格式输入
+## 工作流程
 
-## Workflow
+### 1. 建立审阅任务书
 
-### Step 1: Extract text
+优先从用户材料和上下文提取以下信息：
 
-Extract paragraph text and indices / 用脚本提取段落文本和索引：
+- 我方身份与希望保护的利益
+- 对方身份、主体类型和履约能力
+- 适用法、争议解决地、合同语言
+- 合同类型、交易金额、期限和关键时间点
+- 必须接受、可以交换、不可接受的商务条件
+- 当前阶段：初稿、对方稿、谈判稿、待签稿或履约争议
+- 交付偏好：仅批注、仅修订、批注加修订，或审阅报告
 
-    python3 lovstudio-review-doc/scripts/annotate_docx.py extract --input <path.docx>
+缺少信息时采用默认值：站在提供文件一方的利益立场；中国大陆一般商事合同；中等风险偏好；输出“批注 + 修订 + 审阅报告”。在报告开头显著列出这些假设。
 
-Outputs JSON array, each item has `index` (paragraph number) and `text`.
-Includes text inside tracked changes (`<w:ins>`) — e.g. counterparty revisions
-visible in Track Changes mode.
-输出 JSON 数组，每项含 `index`（段落序号）和 `text`（含修订追踪内容）。
+### 2. 准备并完整读取文件
 
-**Important:** If the document has tracked changes (e.g. Schedule A added via
-Track Changes), these paragraphs are now included in extraction. Always review
-the full extracted output before generating annotations.
-如果文档包含修订追踪内容（如对方以 Track Changes 添加的附件），这些段落
-现已包含在提取结果中。
+根据输入格式处理：
 
-### Step 2: Ask the user
+- **DOCX**：运行 `scripts/contract_docx.py extract`，读取正文、表格、页眉和页脚。不得只看正文段落。
+- **PDF**：使用可用的 PDF/OCR 能力，保留页码和条款号；扫描件先检查 OCR 置信度。无法安全写回时输出页码级批注表，不伪称已写入原文件。
+- **图片**：逐页 OCR，保留图片序号和区域定位。
+- **纯文本/Markdown**：按标题、条款号和原文短引定位。
 
-**IMPORTANT: Use `AskUserQuestion` BEFORE generating annotations.**
+同时检查附件、定义、目录、签署页、价税表、SLA、DPA、订单和引用文件是否齐全。缺失材料单独列为“审阅范围限制”。
 
-    Review mode / 审阅模式确认
+DOCX 命令：
 
-    ━━━ Review type / 审阅类型 ━━━
-    a) Contract review — risk clauses, rights, vague wording, missing clauses
-       合同/协议审查 — 风险条款、权利义务、模糊表述、缺失条款
-    b) General document review — grammar, logic, formatting, completeness
-       通用文档审阅 — 语法、逻辑、格式、内容完整性
+```bash
+python3 scripts/contract_docx.py extract --input 合同.docx --output 合同-blocks.json
+python3 scripts/contract_docx.py validate --input 合同.docx --annotations 审阅数据.json
+python3 scripts/contract_docx.py annotate --input 合同.docx --annotations 审阅数据.json --output 合同-批注修订版.docx
+```
 
-    ━━━ Annotation mode / 批注方式 ━━━
-    a) Comments only (default) — add comments alongside text, no changes
-       批注模式（默认） — 在原文旁加 comment，不改原文
-    b) Track changes — directly modify text, recipient can accept/reject
-       修订模式 — 用 track changes 直接改原文，对方可逐条接受/拒绝
-    c) Comments + track changes — comments for analysis, revisions for suggestions
-       批注 + 修订 — 批注写分析意见，修订写建议改法
+需要 `python-docx>=1.0` 与 `lxml>=4.9`。如果缺失，先在隔离环境安装；不要修改用户项目依赖。
 
-    ━━━ Author name / 批注者署名 ━━━
-    Default "手工川", customizable
+### 3. 确定法律与行业基线
 
-### Step 3: AI Review
+先识别适用法域，再选择权威来源。中国大陆合同先阅读 [中国大陆法律核验基线](references/prc-legal-baseline.md)。其他法域仅使用对应立法机关、法院、监管机构或官方法库；无法可靠核验时明确限制，不把中国法规则套用到境外合同。
 
-Review the extracted text. For contract review, focus on:
+对数据、金融、医疗、教育、广告、消费者、劳动、建设工程、房地产、进出口等受监管交易，追加行业专项核验。
 
-根据提取的文本进行审查。对于合同审查，重点关注：
+### 4. 做七轮审阅
 
-1. **Risk clauses / 风险条款** — one-sided rights, disclaimers, force majeure abuse
-2. **Rights imbalance / 权利义务失衡** — disproportionate obligations, inadequate consideration
-3. **Vague wording / 模糊表述** — "reasonable", "appropriate" without objective criteria
-4. **Missing clauses / 缺失条款** — dispute resolution, post-termination obligations, IP ownership
-5. **Terms & amounts / 期限与金额** — unreasonable durations or amounts
-6. **Legal compliance / 法律合规** — governing law, arbitration clauses
+按顺序完成，不因发现前几项问题而跳过后续检查：
 
-生成 annotations JSON，格式：
+1. **交易结构**：主体、授权、标的、对价、税费、交付、验收、付款闭环。
+2. **定义与一致性**：定义是否完整；条款、附件、日期、金额、币种、比例和交叉引用是否一致。
+3. **权利义务**：触发条件、履行标准、期限、依赖项、审批权、变更机制是否清晰且可执行。
+4. **风险分配**：陈述保证、赔偿、违约责任、责任上限、免责、保险、不可抗力和第三方索赔。
+5. **生命周期**：生效、续期、暂停、解除、终止、交接、退款、数据返还或删除、存续条款。
+6. **合规与争议**：强制性规则、审批登记、知识产权、保密、数据、出口管制、反商业贿赂、适用法和争议解决。
+7. **可操作与可举证**：通知、确认、记录、审计、送达、签署、版本优先级、证据留存和执行成本。
 
-    {
-      "comments": [
-        {
-          "paragraph": 18,
-          "text": "【风险】Sourced Deal 认定...",
-          "author": "手工川"
-        }
-      ],
-      "revisions": [
-        {
-          "paragraph": 12,
-          "old": "terminates automatically",
-          "new": "terminates automatically, provided that...",
-          "author": "手工川"
-        }
-      ]
-    }
+按合同类型加载 [合同类型与条款检查表](references/review-playbook.md)，但不要机械套模板。
 
-Annotation text format / 批注文本格式规范：
-- Lead with tag / 以标签开头：`【风险/Risk】`、`【建议/Suggestion】`、`【缺失/Missing】`、`【模糊/Vague】`、`【注意/Note】`
-- Concise, 1-3 sentences per annotation / 简明扼要，每条批注控制在 1-3 句话
-- Provide concrete revision direction when suggesting changes / 有建议时给出具体修改方向
-- Match the document language — Chinese docs get Chinese annotations, English docs get English, mixed docs get bilingual / 批注语言跟随文档语言
+### 5. 形成问题清单并定级
 
-### Step 4: Apply annotations
+每个问题记录：原文定位、原文短引、风险等级、问题类型、结论、依据、可能后果、首选修订、退让方案、是否需业务确认。
 
-将 JSON 写入临时文件，调用脚本：
+风险等级：
 
-    python3 lovstudio-review-doc/scripts/annotate_docx.py annotate \
-      --input <原文.docx> \
-      --annotations <annotations.json> \
-      --output <输出路径.docx>
+- **致命**：可能导致交易目的不能实现、重大无上限责任、明显无效或重大监管风险；签署前必须解决。
+- **高**：发生概率或损失显著，且现有文本明显不利；原则上必须修改或取得书面风险接受。
+- **中**：会增加履约、举证或争议成本；建议修改，可用商务条件交换。
+- **低**：清晰度、格式或轻微不一致；有余力时修正。
+- **提示**：不是缺陷，但需要业务决策、补资料或持续关注。
 
-### Step 5: Output naming
+谈判优先级另行标记为 `必须坚持`、`优先争取`、`可交换`、`可接受`。风险等级与谈判优先级不得混为一谈。
 
-输出文件名规范：`手工川-{原文件名}-审阅-{YYYY-MM-DD}-v0.1.docx`
+### 6. 写批注与修订
 
-放在原文件同目录下。
+默认同时提供批注和红线修订。批注解释“为什么改”，修订文本解决“怎么改”。遵循 [批注数据与交付格式](references/annotation-schema.md)。
 
-## CLI Reference
+每条批注使用以下结构，控制在 2 至 5 句：
 
-    python3 annotate_docx.py extract --input <path.docx>
-    python3 annotate_docx.py annotate --input <path.docx> --annotations <json> --output <path.docx>
+```text
+【高风险｜责任限制｜必须坚持】本条将间接损失排除仅适用于对方，且未设置我方累计责任上限。发生服务中断时，我方可能承担不可预测且无上限的赔偿。建议改为双方对等排除间接损失，并将一般责任上限设为过去十二个月已付费用；保密、知识产权侵权和故意重大过失可另设例外。
+```
 
-| Subcommand | Argument | Description |
-|------------|----------|-------------|
-| `extract` | `--input` | 输入 docx 路径 |
-| `annotate` | `--input` | 输入 docx 路径 |
-| `annotate` | `--annotations` | JSON 批注文件路径 |
-| `annotate` | `--output` | 输出 docx 路径 |
+修订时：
 
-## Comment JSON Fields
+- 尽量做最小必要修改，保留原有措辞、编号、格式和商业口径。
+- 给出可直接粘贴的完整句子或完整条款，不用“酌情调整”“按法律规定”等空话。
+- 高风险条款同时给出首选版本和可接受的退让版本；不要把所有条件都改成极端单边保护。
+- 中英文合同保持术语和定义一致；如两种文本同等效力，检查冲突处理机制。
+- 不确定的商业数字使用 `[待业务确认：…]`，不得自行填数。
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `paragraph` | Yes | 0-based 段落索引 |
-| `text` | Yes | 批注内容 |
-| `author` | No | 批注者署名（默认 "Reviewer"） |
-| `start` | No | 字符偏移起始位置（精确高亮） |
-| `end` | No | 字符偏移结束位置 |
+### 7. 输出完整交付物
 
-## Revision JSON Fields
+默认生成：
 
-| Field | Required | Description |
-|-------|----------|-------------|
-| `paragraph` | Yes | 0-based 段落索引 |
-| `old` | Yes | 要替换的原文 |
-| `new` | Yes | 修改后的文本 |
-| `author` | No | 修订者署名 |
+1. `原文件名-合同审阅-YYYY-MM-DD.docx`：含批注和修订痕迹。
+2. `原文件名-审阅报告-YYYY-MM-DD.md`：便于决策和谈判。
+3. `原文件名-审阅数据-YYYY-MM-DD.json`：可复核的结构化批注与修订数据。
 
-## Caveats
+审阅报告采用以下结构：
 
-- **Revisions match per-run**: `old` text in revisions must match a single
-  `<w:r>` (run) in the paragraph. If the target text is split across multiple
-  runs (common with smart quotes, spell-check, or mixed formatting), the
-  revision will be skipped. Workaround: match a substring within one run, or
-  use a comment instead.
-  修订的 `old` 文本必须完整匹配段落中的单个 run。如果目标文本跨 run，修订会
-  被跳过。可改用批注替代。
-- **Pre-existing comments**: the script auto-detects max existing comment ID
-  and starts new IDs after it. No manual ID management needed.
-  脚本自动检测已有批注的最大 ID，新批注从其后开始编号。
+```markdown
+# 合同审阅报告
 
-## Dependencies
+## 审阅结论
+签署建议：可签 / 修改后可签 / 暂缓签署
+用一段话说明总体风险、关键前提和审阅范围。
 
-    pip install python-docx --break-system-packages
+## 审阅任务书与假设
+我方立场、适用法、合同类型、风险偏好、材料范围、待确认项。
+
+## 必须在签署前解决
+只列致命和高风险事项，按谈判顺序排列。
+
+## 风险清单
+表格列：编号、定位、风险、类别、问题、后果、建议、谈判优先级。
+
+## 缺失条款与材料
+列出缺失附件、空白字段、未闭环机制和建议补充文本。
+
+## 谈判方案
+首选条件、可交换条件、底线、建议话术。
+
+## 法律依据与核验日期
+只列实际使用的权威来源、条文或规则、链接、核验日期。
+
+## 审阅范围限制
+列出 OCR、材料缺失、法域或行业专项意见等限制。
+```
+
+### 8. 做签署前质量检查
+
+交付前逐项确认：
+
+- 原文件未被覆盖，输出文件能正常打开。
+- DOCX 的批注和修订数量与 JSON 一致；运行 `validate` 无错误。
+- 每个致命和高风险问题都有明确替代文本或可执行动作。
+- 所有定位、原文短引、定义、条款号和交叉引用准确。
+- 金额、日期、币种、税率、付款比例、期限和附件名称前后一致。
+- 争议解决条款写明机构或法院、地点、适用规则、语言和适用法，且组合可执行。
+- 法律来源为当前有效的官方文本，并记录核验日期。
+- 报告明确签署建议、谈判底线、待确认项和审阅限制。
+
+如果质量检查失败，先修复再交付；不要把脚本“执行成功”当成审阅完成。
+
+## 交付边界
+
+- 不声称自己是用户的执业律师，不出具律师事务所法律意见书或法律认证。
+- 不协助伪造签名、日期、审批、证据或交易背景。
+- 不因风险提示而擅自替用户接受条款、签署、发送给对方或提交监管机构。
+- 涉及高额、控制权、股权、担保、破产、刑事、制裁、跨境数据或迫近诉讼时，在完成实质审阅后建议专项律师复核。
+
+## Runtime context (shared)
+
+运行前读取本 Skill 包的 `skill.yaml`，由宿主提供 `skill-runtime/v1` 上下文。字段解析顺序为：当前请求、项目上下文、个人 Preferences、品牌 Profile、通用默认值。
+
+- 只使用 Manifest 声明的字段；Profile 保存公开品牌事实，Preferences 保存个人工作偏好。
+- `required: true` 字段缺失时，按 Manifest 的问题配置向用户提出一个聚焦问题；用户明确同意后再保存回答。
+- 报错提供可复制的 `context_id`、字段路径与来源，诊断内容避开秘密、完整私人路径和原始配置。
+
+## 通用反馈闭环
+
+用户在 Skill 驱动任务中提出修改意见时，继续当前产物前必须执行：
+
+1. 先判断意见是 `task-specific`（仅本次）还是 `reusable`（可跨任务复用）。
+2. `task-specific` 只修改当前任务，不改 Skill。
+3. `reusable` 先确定作用域：领域规则先更新对应 canonical Skill；适用于所有 Skill 的规则先更新共享规范。
+4. 完成规则更新、版本、lint 与分发核验后，再把修改应用到当前任务。
+5. `reusable` 修改会使此前的“确认”“继续”“发吧”失效；完成当前产物修改和回读后必须停下，等待用户下一步指示，不自动进入发布、提交或其他外部写入。

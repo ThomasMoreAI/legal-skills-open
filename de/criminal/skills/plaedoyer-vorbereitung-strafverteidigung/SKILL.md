@@ -1,18 +1,44 @@
 ---
 name: plaedoyer-vorbereitung-strafverteidigung
-title: Plädoyer-Vorbereitung Strafverteidigung
-description: 'Plaedoyer für Strafverteidigung vorbereiten und strukturieren: Anwendungsfall nach Abschluss der Beweisaufnahme muss Strafverteidiger Schlusspledoyer mit Schuldfrage Strafzumessung und Verfahrenshindernissen vorbereiten. § 258 StPO Schlusspledoyer, § 46 StGB Strafzumessung, § 261 StPO freie Beweiswürdigung. Prüfraster Schuldfrage anhand Beweisaufnahme, Beweiswürdigungs-Angriff, Strafzumessung Milderungsgründe, Verfahrenshindernisse. Output Plaedoyer-Gliederung mit Kernargumentation und Antragsformulierungen. Abgrenzung zu Hauptverhandlung-Vorbereiten für Gesamtvorbereitung und zu Schriftsatzkern.'
+title: 'Plaedoyer für Strafverteidigung vorbereiten und strukturieren: Anwendungsfall nach Abschluss der Beweisaufnahme muss Str'
+description: 'Für Plädoyer Vorbereitung Strafverteidigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-strafrecht/skills/plaedoyer-vorbereitung-strafverteidigung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
 language: de
 ---
 
-# Plädoyer-Vorbereitung Strafverteidigung
+# Plaedoyer für Strafverteidigung vorbereiten und strukturieren: Anwendungsfall nach Abschluss der Beweisaufnahme muss Strafverteidiger Schlusspledoyer mit Schuldfrage Strafzumessung und Verfahrenshindernissen vorbereiten
+
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: StGB §§ 13, 22, 23, 25, 32, 35, 46, 47, 56, 57, StPO §§ 100a, 102, 105, 112, 136, 137, 140, 147, 152, 153a, 244, 257c, 261, 264, 265, 267, 304, 341, 344, 349; StPO; StGB — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Plaedoyer für Strafverteidigung vorbereiten und strukturieren: Anwendungsfall nach Abschluss der Beweisaufnahme muss Strafverteidiger Schlusspledoyer mit Schuldfrage Strafzumessung und Verfahrenshindernissen vorbereiten. § 258 StPO Schlusspledoyer, § 46 StGB Strafzumessung, § 261 StPO freie Beweiswürdigung. Prüfraster Schuldfrage anhand Beweisaufnahme, Beweiswürdigungs-Angriff, Strafzumessung Milderungsgründe, Verfahrenshindernisse. Output Plaedoyer-Gliederung mit Kernargumentation und Antragsformulierungen. Abgrenzung zu Hauptverhandlung-Vorbereiten für Gesamtvorbereitung und zu Schriftsatzkern.
+
+### Plädoyer-Vorbereitung Strafverteidigung
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +56,7 @@ Das Plädoyer ist der letzte große Auftritt der Verteidigung in der Hauptverhan
 8. Besteht die Möglichkeit einer Verständigung nach § 257c StPO oder ist das Plädoyer ohne Absprache zu halten?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -63,7 +89,6 @@ Das Plädoyer ist der letzte große Auftritt der Verteidigung in der Hauptverhan
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -90,7 +115,7 @@ Das Plädoyer ist der letzte große Auftritt der Verteidigung in der Hauptverhan
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -100,7 +125,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Variante C — Strafmass streitig | Strafzumessungs-Plaedoyer; § 46 StGB-Aspekte |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -113,47 +137,46 @@ Aktenzeichen: [...]
 Hauptverhandlung am [Datum]
 
 I. ERÖFFNUNG
-   Zusammenfassung des Sachverhalts aus Verteidigersicht.
-   "Was ist in dieser Sache tatsächlich passiert?"
+ Zusammenfassung des Sachverhalts aus Verteidigersicht.
+ "Was ist in dieser Sache tatsächlich passiert?"
 
 II. BEWEISWÜRDIGUNG – TATSÄCHLICHES
-   A. Zeugenaussagen
-      - Zeuge X: Widerspruch zwischen polizeilicher Vernehmung
-        vom [Datum] (Protokoll Bl. [X]) und HV-Aussage am
-        [Datum]; Aussage daher nicht glaubwürdig.
-      - Zeuge Y: Eigeninteresse; Vorwurf von [Datum].
-   B. Sachverständigengutachten
-      - Methode anerkannt? Anknüpfungstatsachen vollständig?
-      - Gegen-Auslegung möglich?
-   C. Verwertungsverbote
-      - Beschlagnahme vom [Datum]: ohne richterliche Anordnung
-        (§ 105 StPO); Beweisverwertungsverbot geltend machen.
+ A. Zeugenaussagen
+ - Zeuge X: Widerspruch zwischen polizeilicher Vernehmung
+ vom [Datum] (Protokoll Bl. [X]) und HV-Aussage am
+ [Datum]; Aussage daher nicht glaubwürdig.
+ - Zeuge Y: Eigeninteresse; Vorwurf von [Datum].
+ B. Sachverständigengutachten
+ - Methode anerkannt? Anknüpfungstatsachen vollständig?
+ - Gegen-Auslegung möglich?
+ C. Verwertungsverbote
+ - Beschlagnahme vom [Datum]: ohne richterliche Anordnung
+ (§ 105 StPO); Beweisverwertungsverbot geltend machen.
 
 III. RECHTLICHE WÜRDIGUNG
-   A. Tatbestand
-      - Objektiver Tatbestand: [Handlung X] führte nicht zu
-        [Erfolg Y]; Kausalität fehlt / obj. Zurechnung ausgeschlossen.
-      - Subjektiver Tatbestand: Vorsatz nicht nachgewiesen.
-   B. Schuldfähigkeit / Versuch / Konkurrenzen
-      - [Ggf. § 21 StGB; § 23 Abs. 2 StGB; § 52 StGB.]
+ A. Tatbestand
+ - Objektiver Tatbestand: [Handlung X] führte nicht zu
+ [Erfolg Y]; Kausalität fehlt / obj. Zurechnung ausgeschlossen.
+ - Subjektiver Tatbestand: Vorsatz nicht nachgewiesen.
+ B. Schuldfähigkeit / Versuch / Konkurrenzen
+ - [Ggf. § 21 StGB; § 23 Abs. 2 StGB; § 52 StGB.]
 
 IV. STRAFZUMESSUNG (hilfsweise)
-   Strafrahmen: § [X] StGB: [Mindeststrafe] bis [Höchststrafe].
-   Strafmilderung:
-   - Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-   - Erstmals straffällig
-   - Schadenswiedergutmachung: [Betrag EUR] bereits geleistet
-   - Familie: [X] Kinder, Alleinverdiener
-   - Lange Verfahrensdauer: [X] Jahre; Belastung für Mandanten
+ Strafrahmen: § [X] StGB: [Mindeststrafe] bis [Höchststrafe].
+ Strafmilderung:
+ - Erstmals straffällig
+ - Schadenswiedergutmachung: [Betrag EUR] bereits geleistet
+ - Familie: [X] Kinder, Alleinverdiener
+ - Lange Verfahrensdauer: [X] Jahre; Belastung für Mandanten
 
 V. BEWÄHRUNG (§ 56 StGB)
-   Sozialprognose positiv: keine Vorstrafen, stabiles Umfeld,
-   Arbeitsstelle gesichert, Wohnverhältnisse geordnet.
+ Sozialprognose positiv: keine Vorstrafen, stabiles Umfeld,
+ Arbeitsstelle gesichert, Wohnverhältnisse geordnet.
 
 VI. ANTRAG
-   Ich beantrage, [Name] vom Vorwurf der [Straftat]
-   freizusprechen / zu einer Freiheitsstrafe von [X] Monaten
-   auf Bewährung zu verurteilen.
+ Ich beantrage, [Name] vom Vorwurf der [Straftat]
+ freizusprechen / zu einer Freiheitsstrafe von [X] Monaten
+ auf Bewährung zu verurteilen.
 ```
 
 ### Baustein 2 – Hilfsbeweisantrag (vor Schluss der Beweisaufnahme)
@@ -189,27 +212,27 @@ VORBEREITUNG LETZTES WORT
 Empfehlung für Inhalt des letzten Wortes:
 
 1. Reue / Entschuldigung:
-   Falls Geständnis oder Teilgeständnis: Kurze ehrliche
-   Entschuldigung gegenüber dem Gericht und ggf. der Verletzten.
-   Nicht ausschweifend – Glaubwürdigkeit durch Kürze.
+ Falls Geständnis oder Teilgeständnis: Kurze ehrliche
+ Entschuldigung gegenüber dem Gericht und ggf. der Verletzten.
+ Nicht ausschweifend – Glaubwürdigkeit durch Kürze.
 
 2. Sachverhaltshinweise:
-   Nur wenn Plädoyer und letztes Wort koordiniert:
-   "Ich möchte noch einmal betonen, dass ich nie die Absicht
-   hatte, [Person X] zu schädigen."
+ Nur wenn Plädoyer und letztes Wort koordiniert:
+ "Ich möchte noch einmal betonen, dass ich nie die Absicht
+ hatte, [Person X] zu schädigen."
 
 3. Persönliche Situation:
-   Kurz: Familie, Arbeit, Therapie, Wiedergutmachung.
+ Kurz: Familie, Arbeit, Therapie, Wiedergutmachung.
 
 4. Was NICHT sagen:
-   – Schuldzuweisung an Zeugen oder Opfer
-   – Rechtsmittelankündigung
-   – Lange Stellungnahmen zur Rechtslage (das ist Sache der Verteidigung)
+ – Schuldzuweisung an Zeugen oder Opfer
+ – Rechtsmittelankündigung
+ – Lange Stellungnahmen zur Rechtslage (das ist Sache der Verteidigung)
 
 Timing: Kurz (1–3 Minuten). Wirkung: Menschlichkeit zeigen.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -246,7 +269,6 @@ Timing: Kurz (1–3 Minuten). Wirkung: Menschlichkeit zeigen.
 |---|---|
 | "Geständnis wurde freiwillig abgelegt" | § 136a StPO prüfen; Geständnis nach langer Vernehmung ohne Pause, unter psychischem Druck oder nach falscher Versprechung kann Verwertungsverbot begründen |
 | "Zeuge ist glaubwürdig, kein Grund zur Zweifel" | Methodische Glaubwürdigkeitsprüfung: Konstanz (Aussage-Polizei vs. HV), Detailreichtum, Eigeninteresse; BGH-Maßstäbe (BGH NStZ 2007, 112) |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Keine Revision möglich, da Berufungsurteil" | § 333 StPO erlaubt Revision auch gegen Berufungsurteile; Verfahrensrügen aus der Berufungsverhandlung sind rügefähig |
 
 ---
@@ -288,3 +310,5 @@ Timing: Kurz (1–3 Minuten). Wirkung: Menschlichkeit zeigen.
 ## Quellen
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

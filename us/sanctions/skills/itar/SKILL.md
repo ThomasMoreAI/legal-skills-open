@@ -5,17 +5,17 @@ description: Expert ITAR compliance advisor for US defense contractors, exporter
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/itar/skills/itar
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: sanctions
 language: en
 sources:
-- title: Compliance Program
+- title: Compliance program
   path: references/compliance-program.md
-- title: Licensing Guide
+- title: Licensing guide
   path: references/licensing-guide.md
-- title: Usml Categories
+- title: Usml categories
   path: references/usml-categories.md
 ---
 

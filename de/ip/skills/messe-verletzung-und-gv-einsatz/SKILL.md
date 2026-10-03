@@ -1,11 +1,11 @@
 ---
 name: messe-verletzung-und-gv-einsatz
 title: Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz
-description: 'Markenverletzung auf Messen (Pitti Uomo, Berlin Fashion Week) schnell unterbinden: Eilantrag und Gerichtsvollzieher-Einsatz vorbereiten. Normen: §§ 935 und 940 ZPO (einstweilige Verfuegung), § 19 MarkenG (Auskunftsanspruch), § 18 MarkenG (Vernichtungsanspruch), § 14 MarkenG. Prüfraster: Dringlichkeit, Schutzschrift einreichen, GV-Sicherstellung, Auskunfts-Durchsetzung. Output Antrag auf einstweilige Verfuegung, Schutzschrift, GV-Beauftragungsschreiben. Abgrenzung: Außergerichtliche Abmahnung siehe abmahnung-markenrecht-uwg; Plattform-Verletzung siehe plattform-piraterie-donauzon.'
+description: 'Für Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/messe-verletzung-und-gv-einsatz
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,23 @@ language: de
 ---
 
 # Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz
+
+## Arbeitsbereich
+
+Markenverletzung auf Messen (Pitti Uomo, Berlin Fashion Week) schnell unterbinden: Eilantrag und Gerichtsvollzieher-Einsatz vorbereiten. Normen: §§ 935 und 940 ZPO (einstweilige Verfuegung), § 19 MarkenG (Auskunftsanspruch), § 18 MarkenG (Vernichtungsanspruch), § 14 MarkenG. Prüfraster: Dringlichkeit, Schutzschrift einreichen, GV-Sicherstellung, Auskunfts-Durchsetzung. Output Antrag auf einstweilige Verfuegung, Schutzschrift, GV-Beauftragungsschreiben. Abgrenzung: Außergerichtliche Abmahnung siehe abmahnung-markenrecht-uwg; Plattform-Verletzung siehe plattform-piraterie-donauzon. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Markenverletzung auf Messen und Gerichtsvollzieher-Einsatz
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
 
 Auf der Berlin Fashion Week 2024: Ein Stand von Donauzon Marketplace GmbH zeigt gefälschte klôtzzkètté-Taschen, Schal-Kollektionen mit dem Doppel-K-Signet und Parfumflakons, die dem K°°-Flakon täuschend ähnlich sehen. Die Comtesse Beatrice de Klotzzkettie ruft mich um 8:00 Uhr morgens an. Um 11:00 Uhr liegt der Eilantrag beim LG Berlin vor.
 
@@ -35,50 +52,50 @@ Messe-Verletzungen erfordern blitzschnelles Handeln: Die Ware verschwindet nach 
 ### Phase 1: Sofortmaßnahmen vor Ort (Messe-Tag)
 
 1. **Beweissicherung:**
-   - Fotos und Videos der verletzenden Waren (Zeitstempel!)
-   - Testkauf (Kaufbeleg aufbewahren)
-   - Visitenkarte / Aussteller-Daten vom Messekatalog
-   - Zeugen benennen (Messepersonal, Mitarbeiter klôtzzkètté)
+ - Fotos und Videos der verletzenden Waren (Zeitstempel!)
+ - Testkauf (Kaufbeleg aufbewahren)
+ - Visitenkarte / Aussteller-Daten vom Messekatalog
+ - Zeugen benennen (Messepersonal, Mitarbeiter klôtzzkètté)
 
 2. **Verständigung der Messe-Sicherheit:**
-   - Messe-Direktion informieren (meist sofortige Unterstützung bei nachgewiesener Markenverletzung)
-   - Ausstellerregistrierung: Stand-Inhaber und Verantwortlicher identifizieren
+ - Messe-Direktion informieren (meist sofortige Unterstützung bei nachgewiesener Markenverletzung)
+ - Ausstellerregistrierung: Stand-Inhaber und Verantwortlicher identifizieren
 
 3. **Sofortige Unterrichtung der Kanzlei:**
-   - Bilder, Kaufbeleg, Ausstellerdaten sofort übermitteln
-   - Parallele Prüfung: Schutzschriften-Register (zentrale Schutzschriften-Datenbank ZSSR) auf Schutzschrift des Gegners prüfen
+ - Bilder, Kaufbeleg, Ausstellerdaten sofort übermitteln
+ - Parallele Prüfung: Schutzschriften-Register (zentrale Schutzschriften-Datenbank ZSSR) auf Schutzschrift des Gegners prüfen
 
 ### Phase 2: Eilantrag (innerhalb von Stunden)
 
 4. **Abwägung: Abmahnung zuerst oder direkt zum Gericht?**
-   - Bei klarer Fälschung (Produktpiraterie): direkt einstweilige Verfügung ohne Abmahnung
-   - Begründung Eilbedürftigkeit: Messeende droht; Ware verlässt nach Messe das Land
+ - Bei klarer Fälschung (Produktpiraterie): direkt einstweilige Verfügung ohne Abmahnung
+ - Begründung Eilbedürftigkeit: Messeende droht; Ware verlässt nach Messe das Land
 
 5. **Antrag auf Erlass einstweiliger Verfügung (§§ 935/940 ZPO):**
-   - Verfügungsanspruch: § 14 V MarkenG (Unterlassung)
-   - Verfügungsgrund: Eilbedürftigkeit — Messe endet in 2/3 Tagen
-   - Glaubhaftmachung durch Anwaltseidesstattliche Versicherung + Fotos + Kaufbeleg
-   - Beantragung beim zuständigen LG (Messestadt: LG Berlin / LG Frankfurt / LG München I)
+ - Verfügungsanspruch: § 14 V MarkenG (Unterlassung)
+ - Verfügungsgrund: Eilbedürftigkeit — Messe endet in 2/3 Tagen
+ - Glaubhaftmachung durch Anwaltseidesstattliche Versicherung + Fotos + Kaufbeleg
+ - Beantragung beim zuständigen LG (Messestadt: LG Berlin / LG Frankfurt / LG München I)
 
 6. **Gerichtsvollzieher-Beauftragung (§§ 753/759 ZPO):**
-   - Nach Erlass der einstweiligen Verfügung: GV-Beauftragung mit Vollstreckungsauftrag
-   - Messestand aufsuchen, Waren sicherstellen
-   - GV-Protokoll = gesicherter Beweis
+ - Nach Erlass der einstweiligen Verfügung: GV-Beauftragung mit Vollstreckungsauftrag
+ - Messestand aufsuchen, Waren sicherstellen
+ - GV-Protokoll = gesicherter Beweis
 
 7. **Ordnungsmittelantrag (§ 890 ZPO):**
-   - Bei Zuwiderhandlung nach Zustellung der einstweiligen Verfügung
-   - Ordnungsgeld bis EUR 250.000 oder Ordnungshaft
+ - Bei Zuwiderhandlung nach Zustellung der einstweiligen Verfügung
+ - Ordnungsgeld bis EUR 250.000 oder Ordnungshaft
 
 ### Phase 3: Hauptsacheverfahren und Abwicklung
 
 8. **Auskunftsklage (§ 19 MarkenG):**
-   - Lieferkette: Hersteller, Importeure, Vorbesitzer
-   - Mengen: Stückzahlen produzierten und gelieferten Ware
-   - Grundlage für Schadensersatz
+ - Lieferkette: Hersteller, Importeure, Vorbesitzer
+ - Mengen: Stückzahlen der produzierten und gelieferten Ware
+ - Grundlage für Schadensersatz
 
 9. **Vernichtung (§ 18 MarkenG):**
-   - Gefälschte Ware vernichten oder unbrauchbar machen
-   - Gerichtliche Anordnung erforderlich (kein Selbstvollzug!)
+ - Gefälschte Ware vernichten oder unbrauchbar machen
+ - Gerichtliche Anordnung erforderlich (kein Selbstvollzug!)
 
 ## Falltypische Konstellationen
 
@@ -91,12 +108,11 @@ Brezelmann Discount KG präsentiert auf einer Düsseldorfer Modemesse Schal-Koll
 ### Konstellation 3: Ausländischer Aussteller auf Pitti Uomo Florenz
 Chinesischer Hersteller zeigt auf der Pitti Uomo in Florenz klôtzzkètté-Kopien. Zuständigkeit: Tribunale di Firenze (italienische Zuständigkeit). Abstimmung mit Whitman Brennan Forsythe NYC für US-Parallelvorgehen; Kooperation mit Mailänder Korrespondenzkanzlei für IT-Enforcement.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, §§ 14/18/19 Rn. 1 ff.
-- Ströbele/Hacker/Thiering, MarkenG, 13. Aufl. 2021, § 14 Rn. 400 ff. (Rechtsfolgen)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -109,13 +125,13 @@ Antrag auf Erlass einer einstweiligen Verfügung
 Antragstellerin: klôtzzkètté SA, Paris, vertr. durch RA'in [Name]
 Antragsgegnerin: [Donauzon/Brezelmann], [Adresse Messestand]
 
-I.   ANTRAG
+I. ANTRAG
 Es wird beantragt, der Antragsgegnerin im Wege der einstweiligen
 Verfügung zu untersagen, im geschäftlichen Verkehr Waren mit dem
 Zeichen [KLOTZ-KETTEN / Abbildung] anzubieten, zu vertreiben oder
 zu bewerben, insbesondere auf der [Messe], [Datum], Stand [Nr.].
 
-II.  VERFÜGUNGSANSPRUCH (§ 14 V MarkenG)
+II. VERFÜGUNGSANSPRUCH (§ 14 V MarkenG)
 [...]
 
 III. VERFÜGUNGSGRUND (§§ 935/940 ZPO)
@@ -123,7 +139,7 @@ Messeende: [Datum]. Nach Messeende verlassen die Waren die
 Bundesrepublik und sind für Vollstreckungsmaßnahmen nicht mehr
 erreichbar. Eilbedürftigkeit liegt auf der Hand.
 
-IV.  GLAUBHAFTMACHUNG
+IV. GLAUBHAFTMACHUNG
 - Eidesstattliche Versicherung RA'in [Name] (Anlage 1)
 - Fotografische Beweise (Anlage 2-7)
 - Testkauf-Quittung (Anlage 8)
@@ -148,18 +164,15 @@ IV.  GLAUBHAFTMACHUNG
 
 Bevor der Eilantrag gestellt wird, klaere:
 1. Ist die Beweissicherung vollstaendig (Fotos mit Zeitstempel, Testkauf, Ausstellerdaten)?
-2. Ist das Gericht des Messeorts zustaendig (LG Berlin/Frankfurt/Duesseldorf/Muenchen I)?
-3. Wann endet die Messe — genuegt die Zeit fuer Antrag und Erlass noch am Messtag?
+2. Ist das Gericht des Messeorts zuständig (LG Berlin/Frankfurt/Duesseldorf/Muenchen I)?
+3. Wann endet die Messe — genuegt die Zeit für Antrag und Erlass noch am Messtag?
 4. Hat der Verletzer moglicherweise bereits eine Schutzschrift im ZSSR hinterlegt?
-5. Handelt es sich um Produktpiraterie (direkte einstweilige Verfuegung) oder Zeichenaehnlichkeit (zuerst Abmahnung pruefe)?
+5. Handelt es sich um Produktpiraterie (direkte einstweilige Verfuegung) oder Zeichenaehnlichkeit (zuerst Abmahnung prüfe)?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
-<!-- AUDIT 27.05.2026 | bundle_037 | task 1/5
-Massnahme: Beide Vorkommen (Belege-Liste und Aktuelle-Rechtsprechung-Block) geloescht.
--->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

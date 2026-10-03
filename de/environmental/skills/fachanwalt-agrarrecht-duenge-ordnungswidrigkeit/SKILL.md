@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-agrarrecht-duenge-ordnungswidrigkeit
 title: Düngerechtliche Ordnungswidrigkeit
-description: Ordnungswidrigkeit nach Duengeverordnung DueV verteidigen. Bußgeldtatbestaende § 13a Abs. 2 DueG i.V.m. § 14 DueV. Aufzeichnungs- und Meldepflichten Nmin Stoffstrombilanz § 11a DueG. Sperrfristen Ausbringungsobergrenzen Roter Gebiete Nitratrichtlinie 91/676/EWG. Verfahren OWiG Anhoerung Einspruch binnen zwei Wochen § 67 OWiG. Bußgeldhoehe bis 150 000 EUR. Verjährung § 31 OWiG.
+description: 'Für Düngerechtliche Ordnungswidrigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/fachanwalt-agrarrecht-duenge-ordnungswidrigkeit
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: environmental
@@ -30,7 +30,6 @@ language: de
 - Ausbringungsobergrenzen 170 kg N/ha pro Jahr aus organischem Dünger § 6 Abs. 4 DüV.
 - Stoffstrombilanz § 11a DüG — Pflicht je nach Betriebsgröße/Tierhaltung.
 - Rote Gebiete § 13a DüV — verschärfte Auflagen (20% reduzierte N-Obergrenze, längere Sperrfristen).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Verfahrensrecht OWiG: Anhörung § 55 OWiG, Bußgeldbescheid § 65 OWiG, Einspruch § 67 OWiG.
 - Verjährung § 31 OWiG: Ordnungswidrigkeiten bei Geldbußen über 15.000 EUR drei Jahre; sonst zwei Jahre.
 
@@ -110,14 +109,6 @@ Mit freundlichen Gruessen
 
 ## Vertiefung — Aktuelle Rechtsprechung und Normen
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 14 DüV (Bußgeldtatbestände — Liste der Verstöße) → § 13a DüV (Rote Gebiete: 20%-Reduktion, verlängerte Sperrfristen) → § 11 DüG (Aufzeichnungspflicht) → § 11a DüG (Stoffstrombilanz) → § 31 OWiG (Verjährung: 3 Jahre bei Bußgeld über 15.000 EUR, 2 Jahre darunter) → § 17 OWiG (Zumessung, Verhältnismäßigkeit) → § 49 OWiG (Akteneinsicht)
@@ -125,3 +116,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

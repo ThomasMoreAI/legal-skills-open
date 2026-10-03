@@ -1,0 +1,104 @@
+---
+name: condictio-ob-causam-finitam-wegfall
+title: 'Condictio ob causam finitam: Wegfall des Rechtsgrundes'
+description: 'Für Condictio ob causam finitam: Wegfall des Rechtsgrundes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: condictio-ob-causam-finitam-wegfall.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/condictio-ob-causam-finitam-wegfall
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Condictio ob causam finitam: Wegfall des Rechtsgrundes
+
+## Einsatzbereich
+
+Anwendungsfall: ein zunächst bestehender Rechtsgrund später entfallen sein kann. Der Skill zwingt zu einer vermögensorientierten Prüfung: erst Vorteil und Zurechnung, dann Rechtsgrund und Behaltensgrund, zuletzt Umfang, Einreden und prozessuales Ziel.
+
+## Triage — zuerst klären
+
+1. Welcher Vermögensvorteil ist exakt gemeint?
+2. Welcher Zweck oder welche Erwartung wurde rechtlich relevant?
+3. Ist der Rechtsgrund nie entstanden, später entfallen oder nur teilweise fehlend?
+4. Gibt es trotz Fehler einen Behaltensgrund?
+5. Welche Tatsachen fehlen für eine belastbare Subsumtion?
+
+## Spezifischer Prüfungsfokus
+
+- Bestimme den konkreten Vermögensvorteil und seine heutige Spur im Vermögen.
+- Ordne den Vorteil einer Leistungsbeziehung, einem Eingriff oder einer sonstigen Erwerbslage zu.
+- Prüfe Rechtsgrund und Behaltensgrund getrennt.
+- Kontrolliere, ob § 818 BGB den Anspruch erweitert, begrenzt oder verschärft.
+- Leite erst danach Anspruchsgegner, Anspruchshöhe und prozessuales Ziel ab.
+
+## Prüfungslogik
+
+- Arbeite vom Vermögensvorteil zur Zweck- und Rechtsgrundebene vor.
+- Trenne innere Motivation von erkennbarer Zweckbindung.
+- Prüfe Teilmängel und zeitliche Zäsuren betragsgenau.
+- Kontrolliere § 814 BGB, § 815 BGB, § 817 S. 2 BGB und Spezialregime.
+- Gib am Ende ein Anspruchsziel mit Beweisbedarf aus.
+
+## Typische Fehler
+
+- Zweck mit Motiv verwechseln.
+- Rechtsgrundmangel nur behaupten.
+- Behaltensgrund nicht gesondert prüfen.
+
+## Condictio ob causam finitam (§ 812 Abs. 1 S. 2 Alt. 1 BGB)
+
+- **Tatbestand:** Leistung zur Erfüllung einer bestehenden Verbindlichkeit; der Rechtsgrund **entfällt nachträglich** mit Wirkung ex nunc oder ex tunc.
+- **Abgrenzung condictio indebiti § 812 Abs. 1 S. 1 Alt. 1 BGB:** Rechtsgrund fehlt von Anfang an (z. B. nichtiger Vertrag § 134, § 138 BGB).
+- **Abgrenzung condictio ob rem § 812 Abs. 1 S. 2 Alt. 2 BGB:** ein gar nicht bezweckter Erfolg tritt nicht ein; condictio ob causam finitam dagegen bezieht sich auf einen bestehenden, später wegfallenden Rechtsgrund.
+
+## Typische Wegfallsereignisse
+
+- **§ 142 BGB Anfechtung:** ex tunc-Nichtigkeit — Rückabwicklung nach §§ 812 ff. BGB; **Hinweis:** beim Streit um Subsumtion ggf. condictio indebiti (Rechtsgrund von Anfang an fehlend, weil ex tunc) — h.M. ordnet aber unter § 812 Abs. 1 S. 2 Alt. 1 BGB ein.
+- **Auflösende Bedingung § 158 Abs. 2 BGB:** mit Bedingungseintritt entfällt der Rechtsgrund ex nunc.
+- **Auflösender Endtermin § 163 BGB:** Vertrag endet zum Termin, danach Rückabwicklung der nach Termin erfolgten Leistungen.
+- **Wegfall der Geschäftsgrundlage § 313 BGB:** Vorrang Anpassung; bei Unmöglichkeit der Anpassung Rücktrittsrecht und Rückabwicklung nach §§ 346 ff. BGB (kein direkter Bereicherungsanspruch).
+- **Erlöschen eines Erbteils** durch Anfechtung der Erbschaftsannahme § 1957 BGB.
+
+## Saldotheorie und § 818 Abs. 3 BGB
+
+- Bei gegenseitigem Vertrag mit Wegfall des Rechtsgrunds: Saldotheorie wie bei Rückabwicklung nichtiger Verträge.
+- Entreicherungseinrede § 818 Abs. 3 BGB für gutgläubigen Empfänger; § 819 BGB Verschärfung ab Kenntnis vom Wegfallsereignis.
+
+## Konkurrenz und Vorrang
+
+- **Rücktritt §§ 346 ff. BGB:** Bei wirksamem Rücktritt **kein** Bereicherungsanspruch — § 346 BGB ist abschließendes Spezialregime.
+- **Widerruf §§ 355, 357 BGB:** ebenfalls Spezialregime mit eigenen Rückabwicklungsregeln.
+- **Anfechtung § 142 BGB:** Rechtsgrund ex tunc nichtig, dann §§ 812 ff. BGB.
+
+## Beweis
+
+- Anspruchsteller: Bestehen des ursprünglichen Rechtsgrunds + Wegfallsereignis mit Datum.
+- Anspruchsgegner: Entreicherung, Bösgläubigkeitsausschluss.
+
+## Arbeitsausgabe
+
+| Punkt | Ergebnis | Belegbedarf |
+|---|---|---|
+| Anspruchsziel | [...] | [...] |
+| beteiligte Personen | [...] | [...] |
+| Vermögensvorteil | [...] | [...] |
+| Zweck/Zurechnung | [...] | [...] |
+| Rechtsgrund/Behaltensgrund | [...] | [...] |
+| § 818 BGB | [...] | [...] |
+| Einreden/Spezialregime | [...] | [...] |
+| vorläufiges Ergebnis | [...] | [...] |
+
+## Mini-Check vor Output
+
+- Kein Direktanspruch ohne begründete Zurechnung.
+- Kein Wertersatz ohne Bewertungsmethode.
+- Keine Entreicherung ohne konkreten Vermögensweg.
+- Keine Saldierung ohne beiderseitige Leistungstabelle.
+- Offene Tatsachen bleiben als offen markiert.
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.

@@ -1,11 +1,11 @@
 ---
 name: case-records
 title: 사건기록 검색 스킬 (case-records)
-description: 사무소 과거 사건기록을 로컬 FTS로 검색. 명시적으로 외부 임베딩을 허용한 환경에서는 하이브리드 검색도 가능. 우리측 서면·상대측 서면·판결문 검색하여 "비슷한 사건이 있었나, 우리가 어떻게 주장했나, 법원이 어떻게 판단했나"에 답한다. 사건 0건일 때는 검색 시도하지 말고 사용자에게 추가 안내.
+description: 사무소 과거 사건기록과 작성서류를 로컬 FTS로 검색. 명시적으로 외부 임베딩을 허용한 환경에서는 하이브리드 검색도 가능. 주장서면·신청서면 위주로 "비슷한 사건이 있었나, 우리가 어떻게 주장했나, 어떤 신청을 했나"에 답한다. 사건 0건일 때는 검색 시도하지 말고 사용자에게 추가 안내.
 author: jurisupport
 author_url: https://github.com/jurisupport/jurisupport-plugins/tree/main/skills/case-records
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation
@@ -20,13 +20,29 @@ language: ko
 - "우리가 전에 이런 주장한 적 있어?"
 - "상대측이 보통 뭐라고 반박하지?"
 - "이 쟁점 법원은 어떻게 판단했어?"
-- 서면 작성 시 과거 우리 서면의 표현·구성 참조
+- 의견서/준비서면 작성 시 과거 우리 서면의 표현·구성 참조
+- 작성서류 폴더와 사건기록 폴더를 사건번호 기준으로 함께 검색해야 할 때
 
 ## legal-books와의 차이
 
 - **legal-books** (포트 8766): 교과서 → "법리가 무엇인가"
-- **case-records** (포트 8767): 사건기록 → "우리가 어떻게 주장했고 법원이 어떻게 판단했는가" (기본 로컬 FTS)
+- **case-records** (포트 8767): 사건기록/작성서류 → "우리가 어떻게 주장했고 어떤 신청을 했는가" (기본 로컬 FTS)
 - 서면 작성 시 **둘 다 검색** 권장
+
+## 저장·인덱싱 전략
+
+- 원본 파일은 복사하지 않는다. DB에는 텍스트 청크, 원본 경로, 출처만 저장한다.
+- `source_kind=record`: 사건기록 폴더(받은 자료, 상대방 서면 등)
+- `source_kind=draft`: 작성서류 폴더(우리 주장서면, 의견서, 신청서 등)
+- 기본 인덱싱 범위는 `doc_category=argument/application` 이다.
+- 증거, 계약서, 등본, 영수증, 기일통지, 판결문 등은 기본 제외한다. 필요하면 `--doc-scope all`.
+
+## 파싱 범위
+
+- 기본 지원: PDF, DOCX, MD, TXT
+- HWPX: zip/xml 구조를 로컬에서 직접 읽는다.
+- DOC: macOS `textutil` 또는 `antiword`가 있으면 읽는다.
+- HWP: `hwpjs`가 설치되어 있으면 읽는다. 없으면 건너뛴다.
 
 ## 사전 확인
 
@@ -41,7 +57,7 @@ curl -s http://localhost:8767/health
 ## 검색 API
 
 ```bash
-~/case-records/scripts/search_case_records.py "검색어" --top-k 5 --doc-type 준비서면
+~/case-records/scripts/search_case_records.py "검색어" --top-k 5 --doc-category argument
 ```
 
 응답:
@@ -54,8 +70,11 @@ curl -s http://localhost:8767/health
       "case_id": "2018가단11111",
       "case_name": "홍○○ 대여금",
       "doc_type": "준비서면",
+      "doc_category": "argument",
+      "source_kind": "draft",
       "doc_date": "2018-09-20",
       "author_role": "피고 대리인",
+      "source_file": "/Users/me/작성문서/2018가단11111_홍○○_대여금/020_준비서면.docx",
       "chunk_text": "...",
       "score": 0.84
     }
@@ -88,6 +107,7 @@ curl -s http://localhost:8767/health
 
 - 사건 1건 추가: `~/case-records/scripts/ingest_case.sh`
 - 사건폴더 일괄 인덱싱: `~/case-records/scripts/ingest_all.sh --root ~/사건`
+- 사건기록+작성서류 동시 인덱싱: `~/case-records/scripts/sync_records.sh --record-root ~/사건기록 --draft-root ~/작성문서`
 - 검색 helper: `~/case-records/scripts/search_case_records.py "검색어" --top-k 5`
 - 서버 관리: `~/case-records/scripts/server.sh {start|stop|restart|status}`
 - 가이드: `~/jurisupport-plugins/guides/03_case_records.md`

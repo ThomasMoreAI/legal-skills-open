@@ -1,11 +1,11 @@
 ---
 name: rechtsprechung-recherche-strategie
 title: Rechtsprechung-Recherche-Strategie
-description: 'Gibt eine Strategie für die Rechtsprechungsrecherche: wann systeminternes Wissen genuegt, wann Web-Suche bei BVerfG/BGH/BAG/BSG/BVerwG/OLG/EuGH noetig ist. Nennt Fundstellen: curia.europa.eu, dejure.org, openjur, rechtsprechung-im-internet, bundesgerichtshof.de.'
+description: 'Für Rechtsprechung-Recherche-Strategie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/rechtsprechung-recherche-strategie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,42 +14,80 @@ language: de
 
 # Rechtsprechung-Recherche-Strategie
 
-## Zweck
+## Arbeitsbereich
 
-Subsumtion ohne Rechtsprechung ist unvollständig. Dieser Skill vermittelt, wie und wo Rechtsprechung zu einer geprüften Norm recherchiert werden sollte. Er unterscheidet, wann das Wissen des Systems ausreichend ist und wann eine eigenständige Webrecherche unbedingt empfohlen wird.
+Gibt eine Strategie für die Rechtsprechungsrecherche: wann systeminternes Wissen genuegt, wann Web-Suche bei BVerfG/BGH/BAG/BSG/BVerwG/OLG/EuGH noetig ist. Nennt Fundstellen: curia.europa.eu, dejure.org, openjur, rechtsprechung-im-internet, bundesgerichtshof.de. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
 
-## Wann reicht das Systemwissen?
+## Arbeitsweg
 
-Das System kann aus seinem Wissenstand zitieren bei:
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Grundlegenden EuGH-Leitentscheidungen (z. B. Francovich, Simmenthal, Marleasing, CILFIT, Courage/Crehan)
-- Grundsatzurteilen des BVerfG (z. B. Lüth, Apothekenurteil, Solange I und II, Lissabon)
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-**Aber:** Das System hat ein Wissensende-Datum. Entscheidungen, die danach ergangen sind, sind ihm nicht bekannt. Bei allem, was in den letzten ein bis zwei Jahren entschieden wurde, empfiehlt das System immer eine manuelle Überprüfung.
+## Triage: Wann Live-Recherche zwingend?
 
-## Wann ist Web-Recherche zwingend empfohlen?
-
-- Wenn der Sachverhalt einen spezifischen OLG- oder LAG-Bezirk betrifft (divergierende Rechtsprechung der Oberlandesgerichte)
-- Wenn neue Gesetze (nach dem Wissensende) betroffen sind
-- Wenn ein konkretes Aktenzeichen geprüft werden soll
-- Bei frischer EuGH-Rechtsprechung (Vorabentscheidung der letzten zwei Jahre)
-- Bei strittigen Fragen mit divergierender Rechtsprechung (das System weist auf Divergenz hin)
+1. Enthält das Ergebnis ein konkretes Aktenzeichen oder Datum? → immer live prüfen
+2. Liegt die Entscheidung nach dem Wissensende des Systems? → immer live prüfen
+3. Divergierende Rechtsprechung zwischen OLG-Bezirken? → live prüfen
+4. Frische EuGH-Rechtsprechung (Vorabentscheidungen)? → curia.europa.eu
+5. Bundesgerichtliche Grundsatzentscheidung älter als 3 Jahre? → kann mit Einschränkungen aus Systemwissen benannt, aber muss verifiziert werden
 
 ## Fundstellen nach Gericht
 
-| Gericht | Kostenlose Fundstelle | Hinweis |
-|---------|----------------------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| OLG / LG | openjur.de, dejure.org (je nach Gericht und Land) | Nicht alle Urteile veröffentlicht |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Kommentare | beck-online.de (kostenpflichtig), juris.de (kostenpflichtig) | Kurzhinweise frei; Volltexte kostenpflichtig |
+| Gericht | Kostenlose Fundstelle | Suchfunktion | Besonderheit |
+|---------|----------------------|--------------|--------------|
+| BGH | bgh.de / dejure.org / openjur.de | Aktenzeichen, Stichwort, Norm | Volltext; dejure.org mit Querverweisen zu Kommentaren |
+| BVerfG | bverfg.de | Suchmaske; BVerfGE-Band | Volltext; leitsätze frei |
+| BAG | bag.bund.de / dejure.org | Aktenzeichen, Stichwort | Nicht alle Entscheidungen veröffentlicht |
+| BVerwG | bverwg.de | Aktenzeichen | Volltext für ausgewählte Entscheidungen |
+| BSG | bsg.bund.de | Aktenzeichen | Volltext für ausgewählte Entscheidungen |
+| BFH | bundesfinanzhof.de | Stichwort, Datum | Volltext; BFHE-Verweise |
+| OLG / LG | openjur.de / dejure.org (je nach Land) | Gericht, Aktenzeichen, Norm | Nicht alle Urteile veröffentlicht |
+| EuGH / EuG | curia.europa.eu | Rechtssache, Datum, Norm | Volltext in allen Amtssprachen; ECLI-Nummern |
 
-## Zitierweise
+## Recherchestrategie
 
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+### Schritt 1 — Norm identifizieren
+Welche Norm soll durch Rechtsprechung ausgefüllt werden? Genaue Normbezeichnung (§, Absatz, Satz, Nummer) für die Suche verwenden.
 
-Bei ungesicherten Zitaten weist das System ausdrücklich darauf hin und empfiehlt Verifikation in dejure.org oder curia.europa.eu.
+### Schritt 2 — Gericht und Instanz bestimmen
+BGH-Entscheidungen haben grundsätzlich Vorrang; OLG-Rechtsprechung nur relevant, wenn BGH-Rechtsprechung fehlt oder divergiert. Bei EU-Bezug immer EuGH prüfen.
 
-## Quellenregel
+### Schritt 3 — Suchbegriffe wählen
+- Norm + Tatbestandsmerkmal (z. B. "§ 280 BGB Pflichtverletzung Unterlassen")
+- Obersatz-Schlagwort (z. B. "Anscheinsbeweis Auffahrunfall BGH")
+- Negativabgrenzung: "Wann greift X NICHT?"
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+### Schritt 4 — Entscheidung prüfen
+- Datum: Ist die Entscheidung aktuell? Zwischenzeitlich aufgegeben?
+- Tragender Rechtssatz vs. Obiter dictum: Nur tragender Rechtssatz bindet
+- Instanz: BGH-Grundsatz vs. OLG-Abweichung dokumentieren
+
+### Schritt 5 — Zitierweise
+- Gericht + Entscheidungsform + Datum + Aktenzeichen + Fundstelle
+- Zitiermuster: [Gericht], [Entscheidungsform] vom [Datum], [Aktenzeichen], [amtliche URL] [Prüfpunkt: Volltext und tragende Aussage live verifiziert?]
+
+## Wann reicht das Systemwissen?
+
+Das System kann Leitentscheidungen nennen als **Prüfpunkte**, nicht als Zitate, bei:
+- Grundlegenden EuGH-Leitentscheidungen (Costa/ENEL, Simmenthal, Francovich, CILFIT — live zu prüfen unter curia.europa.eu)
+- BVerfG-Grundsatzurteilen (Lüth, Apothekenurteil, Solange I und II — live zu prüfen unter bverfg.de)
+- BGH-Grundsatzlinien zu bekannten Rechtsgebieten
+
+**Immer:** Das System weist auf sein Wissensende-Datum hin und empfiehlt manuelle Überprüfung, wenn Entscheidungen neuer als 12–18 Monate sein könnten.
+
+## Zitierverbot
+
+- Keine BeckRS-, juris-Nummern aus Modellwissen zitieren
+- Keine Randnummern aus Kommentaren, die nicht live geprüft wurden
+- Keine NJW-Fundstellen ohne Verifikation in dejure.org oder Originalheft
+
+## Ausgabe
+
+Recherche-Protokoll: Norm → Such-Strategie → Gefundene Entscheidungen (mit Live-Prüfvermerk) → Tragender Rechtssatz → Relevanz für die konkrete Subsumtion.
+
+---
+
+Hinweis: Keine Rechtsberatung. Systemwissen ersetzt keine Live-Recherche.

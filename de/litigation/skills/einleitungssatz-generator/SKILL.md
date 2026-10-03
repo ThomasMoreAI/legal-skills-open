@@ -1,11 +1,11 @@
 ---
 name: einleitungssatz-generator
 title: Einleitungssatz-Generator
-description: 'Aktenauszug braucht praegnanten Einleitungssatz: wer streitet mit wem worueber welche Hauptnorm. Juristisch praezise neutral ohne Wertung ohne Erfolgsprognose. Normen §§ 253 304 ZPO. Prüfraster Praegnanz Vollständigkeit Neutralitaet Haupt-Norm-Nennung. Output Ein-Zwei-Satz-Kern Rechtstreit. Abgrenzung zu verfahrenszusammenfassung-absatz (laengerer Überblick) und verfahrensidentifikation (Stammdaten).'
+description: 'Für Einleitungssatz-Generator: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/einleitungssatz-generator
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,13 @@ language: de
 
 # Einleitungssatz-Generator
 
-## Zweck
+## Arbeitsweg
 
-Der Einleitungssatz gibt dem Leser in einem bis zwei Sätzen den Kern des Rechtsstreits wieder. Er nennt die handelnden Parteien, den Streitgegenstand und — wo möglich — die anwendbare Hauptnorm. Er ersetzt nicht die Zusammenfassung, sondern eröffnet sie.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Formulierung
 
@@ -33,13 +37,6 @@ Der Einleitungssatz gibt dem Leser in einem bis zwei Sätzen den Kern des Rechts
 - § 42 VwGO — Anfechtungs- und Verpflichtungsklage
 - § 4 KSchG — Kündigungsschutzklage (Frist und Antrag)
 
-## Rechtsprechung zum Streitgegenstand und Klagebegehren
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Struktur des Einleitungssatzes
 
 **Muster:**
@@ -97,3 +94,5 @@ Nach Erstellung prüfen:
 - [ ] Keine Wertung? ja/nein
 - [ ] Maximal zwei Sätze? ja/nein
 - [ ] Streitgegenstand i.S.v. § 253 Abs. 2 Nr. 2 ZPO hinreichend bestimmt? ja/nein
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: zeuge-vorbereitung
 title: Zeugenvernehmung-Vorbereitung
-description: 'Zeuge für Gerichtstermin vorbereiten: Aussagerecht, Zeugnisverweigerung, Vernehmungsablauf. Normen: §§ 373 ff. 383 ff. ZPO. Prüfraster: Zeugnisverweigerungsrecht, Glaubwürdigkeitsfragen, Vernehmungsthemen. Output: Zeugenvorbereitungsprotokoll. Abgrenzung: nicht Sachverständigenbestellung §§ 402 ff. ZPO.'
+description: 'Für Zeugenvernehmung-Vorbereitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/prozessrecht/skills/zeuge-vorbereitung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,14 +14,22 @@ language: de
 
 # Zeugenvernehmung-Vorbereitung
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Zweck
 
 Vorbereitung auf eine Zeugenvernehmung im deutschen Zivil- oder Strafverfahren. Drei Perspektiven:
-- **Eigener Zeuge vorbereiten** (Information des Mandanten über Ablauf, § 373 ff. ZPO; § 395 StPO)
+- **Eigener Zeuge vorbereiten** (Information des Mandanten über Ablauf, Paragraf 373 ff. ZPO; Paragraf 395 StPO)
 - **Gegnerischen Zeugen befragen** (Fragenkatalog aus der Mandatstheorie entwickeln)
-- **Strafverteidigung:** Vorbereitung auf Hauptverhandlung (§§ 244 ff. StPO), Pflichtverteidiger-Gespräch
+- **Strafverteidigung:** Vorbereitung auf Hauptverhandlung (Paragrafen 244 ff. StPO), Pflichtverteidiger-Gespräch
 
-> Die Zeugenvernehmung findet ausschließlich vor dem Gericht statt (§ 396 ZPO, § 238 Abs. 2 StPO). Eine vorgerichtliche anwaltliche Befragung von Zeugen kennt das deutsche Recht nicht. Eine informelle Zeugen-"Vorbefragung" durch den Anwalt ist berufsrechtlich sensibel (§ 1 BORA – Sachlichkeit; vgl. § 26 BRAO) und darf Zeugen nicht beeinflussen.
+> Die Zeugenvernehmung findet ausschließlich vor dem Gericht statt (Paragraf 396 ZPO, Paragraf 238 Abs. 2 StPO). Eine vorgerichtliche anwaltliche Befragung von Zeugen kennt das deutsche Recht nicht. Eine informelle Zeugen-"Vorbefragung" durch den Anwalt ist berufsrechtlich sensibel (Paragraf 1 BORA – Sachlichkeit; vgl. Paragraf 26 BRAO) und darf Zeugen nicht beeinflussen.
 
 ## Eingaben
 
@@ -34,9 +42,9 @@ Vorbereitung auf eine Zeugenvernehmung im deutschen Zivil- oder Strafverfahren. 
 
 ### Modus: Eigener Zeuge vorbereiten (`--eigener-zeuge`)
 
-1. **Ablaufbelehrung:** Dem Mandanten/Zeugen den Vernehmungsablauf erklären (§§ 395, 396, 402 ZPO): Vorführung, allgemeine Personalien, Belehrung, freie Schilderung, Befragung durch Gericht, Fragen der Parteien, Eid/eidesstattliche Versicherung (§ 391 ZPO).
+1. **Ablaufbelehrung:** Dem Mandanten/Zeugen den Vernehmungsablauf erklären (Paragrafen 395, 396, 402 ZPO): Vorführung, allgemeine Personalien, Belehrung, freie Schilderung, Befragung durch Gericht, Fragen der Parteien, Eid/eidesstattliche Versicherung (Paragraf 391 ZPO).
 
-2. **Zeugnisverweigerungsrecht prüfen:** §§ 383–385 ZPO (Angehörige, Berufsgeheimnisträger, Selbstbelastungsverbot); § 52 StPO; § 55 StPO (Auskunftsverweigerungsrecht).
+2. **Zeugnisverweigerungsrecht prüfen:** Paragrafen 383–385 ZPO (Angehörige, Berufsgeheimnisträger, Selbstbelastungsverbot); Paragraf 52 StPO; Paragraf 55 StPO (Auskunftsverweigerungsrecht).
 
 3. **Erinnerungslücken identifizieren:** Aus Chronologie bekannte Ereignisse mit Zeugenwissen abgleichen; offene Punkte markieren.
 
@@ -49,9 +57,9 @@ Vorbereitung auf eine Zeugenvernehmung im deutschen Zivil- oder Strafverfahren. 
 1. **Zeugenprofil erstellen:** Aus Mandatsakte und Chronologie: Was weiß der Zeuge, was hat er gesagt, welche Dokumente hat er unterzeichnet?
 
 2. **Themengliederung:**
-   - Kernthemen (direkt anspruchsrelevant)
-   - Glaubwürdigkeitsthemen (Widersprüche zu früheren Aussagen, Eigeninteresse)
-   - Bestätigungsthemen (ungünstige Tatsachen aus Zeugen-Sicht bestätigen lassen)
+ - Kernthemen (direkt anspruchsrelevant)
+ - Glaubwürdigkeitsthemen (Widersprüche zu früheren Aussagen, Eigeninteresse)
+ - Bestätigungsthemen (ungünstige Tatsachen aus Zeugen-Sicht bestätigen lassen)
 
 3. **Fragenkatalog:** Geschlossene Kontrollfragen (auf ein Ja/Nein ausgerichtet) zuerst; offene Fragen nur bei sicherer Antwort; Fangfragen vermeiden (Prozessrisiko: Zeuge weicht aus).
 
@@ -61,53 +69,21 @@ Vorbereitung auf eine Zeugenvernehmung im deutschen Zivil- oder Strafverfahren. 
 
 ### Modus: Strafverfahren (`--strafverfahren`)
 
-1. **Akteneinsicht § 147 StPO:** Vernehmungsprotokolle aus der Ermittlungsakte identifizieren.
-2. **Belehrung § 136 StPO / § 55 StPO:** Sicherstellen, dass Auskunftsverweigerungsrecht bekannt ist.
-3. **Hauptverhandlung § 244 StPO:** Beweisantragsrecht der Verteidigung (Beweisantrag auf Zeugenladung, § 244 Abs. 3, 6 StPO).
+1. **Akteneinsicht Paragraf 147 StPO:** Vernehmungsprotokolle aus der Ermittlungsakte identifizieren.
+2. **Belehrung Paragraf 136 StPO / Paragraf 55 StPO:** Sicherstellen, dass Auskunftsverweigerungsrecht bekannt ist.
+3. **Hauptverhandlung Paragraf 244 StPO:** Beweisantragsrecht der Verteidigung (Beweisantrag auf Zeugenladung, Paragraf 244 Abs. 3, 6 StPO).
 
 ## Quellen und Zitierweise
 
 Verbindlich: `../references/zitierweise.md`.
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Ausgabeformat
-
-### Vernehmungs-Vorbereitung – Eigener Zeuge
-
-**Zeuge:** [Name]  
-**Vernehmungsdatum:** TT.MM.JJJJ  
-**Verfahren:** [Mandat-Slug], [Gericht], Az.: [Aktenzeichen]
-
-**Kernwissen des Zeugen (aus Chronologie):**
-| Datum | Ereignis | Belegdokument | Zeugen-Relevanz |
-|---|---|---|---|
-| 12.03.2022 | Vertragsschluss | Anlage K1 | Zeuge anwesend |
-
-**Fragenkatalog – erwartete Fragen:**
-1. Wann wurden Sie auf das Projekt aufmerksam?
-2. Waren Sie beim Vertragsschluss am 12.03.2022 anwesend?
-...
-
-**Vorhalte (antizipiert):**
-- E-Mail v. 05.04.2022 (Anlage B3): Zeuge bat um Verlängerung – klären, warum.
-
-**Zeugnisverweigerungsrecht:** Nicht einschlägig (kein Angehöriger, kein Berufsgeheimnisträger).
 
 ## Risiken / typische Fehler
 
-- **Zeugencoaching verboten:** Der Anwalt darf den Zeugen nicht zu einer bestimmten Aussage anleiten; nur Erläuterung des Ablaufs und Erinnerungshilfe auf Basis vorhandener Dokumente zulässig (vgl. § 1 BORA).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **Gegnerischer Zeuge – keine Kontaktaufnahme:** Kontaktaufnahme mit gegnerischem Zeugen außerhalb des Verfahrens ist berufsrechtlich problematisch (§ 12 BORA).
-- **Vereidigung:** § 391 ZPO – Gericht entscheidet; falsche Zeugenaussage ist strafbar (§ 153 StGB); Zeuge vor Vernehmung hierüber belehren.
+- **Zeugencoaching verboten:** Der Anwalt darf den Zeugen nicht zu einer bestimmten Aussage anleiten; nur Erläuterung des Ablaufs und Erinnerungshilfe auf Basis vorhandener Dokumente zulässig (vgl. Paragraf 1 BORA).
+- **Gegnerischer Zeuge – keine Kontaktaufnahme:** Kontaktaufnahme mit gegnerischem Zeugen außerhalb des Verfahrens ist berufsrechtlich problematisch (Paragraf 12 BORA).
+- **Vereidigung:** Paragraf 391 ZPO – Gericht entscheidet; falsche Zeugenaussage ist strafbar (Paragraf 153 StGB); Zeuge vor Vernehmung hierüber belehren.
 
-<!-- AUDIT 27.05.2026
-einziger Treffer ist XI ZR 224/09 (06.07.2010, XI. Zivilsenat, Bankrecht/Anscheinsbeweis
-Kreditkarte) - falscher Senat, falsches Thema. Behauptetes Thema "Freie Beweiswuerdigung
-bei Zeugenaussagen § 286 ZPO" ist eine Halluzination. Referenz geloescht.
-Keine Ersatzquelle ergaenzt.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

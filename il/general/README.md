@@ -8,7 +8,7 @@ Jurisdiction: `il` · Practice: `general` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Hebrew Legal Research`](skills/hebrew-legal-research/) | Assist with Israeli legal research including legislation lookup, case law concepts, Hebrew legal terminology,… |
+| [`Hebrew Legal Research`](skills/hebrew-legal-research/) | Assist with Israeli legal research including legislation lookup, case law concepts, Hebrew legal… |
 
 ## Cold-start context
 

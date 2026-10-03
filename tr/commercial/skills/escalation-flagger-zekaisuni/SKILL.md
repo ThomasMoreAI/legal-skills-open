@@ -5,11 +5,11 @@ description: Route a contract issue to the right approver per the escalation mat
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/commercial-legal/skills/escalation-flagger
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: commercial
-language: tr
+language: en
 ---
 
 # /escalation-flagger

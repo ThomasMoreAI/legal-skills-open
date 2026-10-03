@@ -10,7 +10,7 @@ Jurisdiction: `general` · Practice: `sanctions` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Sanctions Screening Documenter`](skills/sanctions-screening-documenter-rohasnagpal/) | Document sanctions screening of customers, counterparties, beneficial owners, controllers, vessels, aircraft,… |
+| [`Sanctions Screening Documenter`](skills/sanctions-screening-documenter-rohasnagpal/) | Document sanctions screening of customers, counterparties, beneficial owners, controllers, vessels… |
 
 ## Cold-start context
 

@@ -1,18 +1,31 @@
 ---
 name: werkmangel-vob-bgb-pruefen
-title: Werkmangel — VOB/B oder BGB?
-description: 'Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung. Normen: §§ 633 634 640 BGB, § 13 VOB/B. Prüfraster: BGB-Mangel vs. VOB/B-Mangel, Gewaehrleistungsfristen, Ruegeregeln. Output: Vergleichende Maengelprüfung BGB und VOB. Abgrenzung: nicht ausschließlich BGB-Werkvertrag.'
+title: 'Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung'
+description: 'Für Werkmangel VOB BGB Prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bau-architektenrecht/skills/werkmangel-vob-bgb-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: construction
 language: de
 ---
 
-# Werkmangel — VOB/B oder BGB?
+# Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Werkmaengel sowohl nach VOB/B als auch nach BGB-Werkvertragsrecht prüfen: Abgrenzung und Parallelprüfung. Normen: §§ 633 634 640 BGB, § 13 VOB/B. Prüfraster: BGB-Mangel vs. VOB/B-Mangel, Gewaehrleistungsfristen, Ruegeregeln. Output: Vergleichende Maengelprüfung BGB und VOB. Abgrenzung: nicht ausschließlich BGB-Werkvertrag.
+
+### Werkmangel — VOB/B oder BGB?
 
 ## Mandantenfragen beim Kaltstart
 
@@ -24,7 +37,7 @@ language: de
 6. Wie hoch sind die Mängelbeseitigungskosten laut Kostenvoranschlag oder SV-Schätzung?
 7. Sind Verjährungsfristen (5 Jahre BGB, 4 Jahre VOB/B) abgelaufen? Besteht Hemmungstatbestand § 203 BGB (Verhandlungen)?
 8. Liegt Mangelfolgeschaden vor (z.B. Schimmel, Wasserschaden, Betriebsunterbrechung)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -46,7 +59,7 @@ language: de
 | § 12 VOB/B | Förmliche Abnahme — gemeinsame Begehung, Niederschrift mit Vorbehalten |
 | § 13 Abs. 4 VOB/B | Verjährung — 4 Jahre für Bauwerk (Standard); 2 Jahre maschinelle und elektrische Anlagen |
 
-## Leitentscheidungen (Stand 05/2026, soweit verifizierbar — vor Ausgabe pruefen)
+## Leitentscheidungen (Stand 05/2026, soweit verifizierbar — vor Ausgabe prüfen)
 
 | Gericht | Aktenzeichen | Datum | Kernaussage | Quelle |
 |---------|-------------|-------|-------------|--------|
@@ -56,23 +69,20 @@ language: de
 | EuGH | C-377/17 | 04.07.2019 | HOAI-Mindestsaetze unionsrechtswidrig (Dienstleistungs-RL) | curia.europa.eu/juris/document/document.jsf?docid=215724 |
 | EuGH | C-261/20 | 18.01.2022 | Thelen Technopark — keine unmittelbare horizontale Wirkung der RL gegenueber Privaten | curia.europa.eu/juris/document/document.jsf?docid=252035 |
 
-Weitere konkrete Entscheidungen (insb. VII ZR 26/20 zum Vorschussanspruch ohne sichere Beseitigungsabsicht) vor Ausgabe ueber dejure.org / bundesgerichtshof.de mit Datum und Aktenzeichen verifizieren.
+Weitere konkrete Entscheidungen (insb. VII ZR 26/20 zum Vorschussanspruch ohne sichere Beseitigungsabsicht) vor Ausgabe über dejure.org / bundesgerichtshof.de mit Datum und Aktenzeichen verifizieren.
 
 ## Prüfschema — Stufenweise Anspruchsprüfung
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfpunkt | Norm | Ergebnis |
 |---------|-----------|------|---------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 2 | Mangelbegriff erfüllt? (vereinbarte Beschaffenheit / a.R.d.T.) | § 633 BGB / § 13 Nr. 1 VOB/B | Ja → Anspruchsgrundlage; Nein → kein Mangel |
 | 3 | Abnahme erfolgt? Zeitpunkt? Form? | § 640 BGB / § 12 VOB/B | Beweislastverteilung; Verjährungsbeginn |
 | 4 | Bei Abnahme mit Kenntnis Mangel: Vorbehalt § 640 Abs. 3 erklärt? | § 640 Abs. 3 BGB | Nein → Anspruchsverlust für bekannte Mängel |
 | 5 | Fristsetzung zur Nacherfüllung (angemessen, schriftlich)? | § 634 Nr. 2 BGB | Erforderlich für Sekundärrechte |
 | 6 | Ausnahme Fristsetzung (ernsthafte Verweigerung, Unzumutbarkeit)? | § 281 Abs. 2 BGB | Ja → Direktanspruch Schadensersatz |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Selbstvornahme nach § 637 BGB — Vorschussklage? | § 637 BGB | Vorschuss in Höhe voraussichtlicher Selbstvornahmekosten |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 10 | Verjährung — Fristbeginn, Hemmung, Neubeginn? | § 634a BGB, §§ 203, 204, 212 BGB | Anspruch verjährt oder gehemmt? |
 
 ## Schritt 1 — VOB/B-Einbeziehung
@@ -87,7 +97,6 @@ VOB/B ist AGB-Klauselwerk und erfordert wirksame Einbeziehung:
 **Bei B2C (Verbraucher-Bauvertrag § 650i ff. BGB):**
 - VOB/B regelmäßig nicht wirksam einbezogen wegen fehlender zumutbarer Kenntnisnahme
 - § 309 Nr. 8 BGB-Problematik: verkürzte Verjährung, Nacherfüllungsrecht
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Folge bei Nichteinbeziehung:** BGB-Werkvertragsrecht §§ 631–650v BGB, insbes. 5-Jahres-Verjährung § 634a BGB statt VOB/B-4-Jahres-Frist.
 
@@ -115,7 +124,6 @@ VOB/B ist AGB-Klauselwerk und erfordert wirksame Einbeziehung:
 
 ### Anerkannte Regeln der Technik (a.R.d.T.)
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - DIN 4108 — Wärmeschutz
 - DIN 4109 — Schallschutz
 - DIN 18195 — Abdichtung von Bauwerken
@@ -129,7 +137,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Abnahmeform | Voraussetzungen | Wirkungen |
 |------------|----------------|---------|
 | Förmliche Abnahme | Protokoll, Unterschriften | Stärkste Beweiskraft; Vorbehalt im Protokoll |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Fiktive Abnahme § 640 Abs. 2 BGB | Fristsetzung + Ablauf | Abnahme kraft Gesetzes; Vorbehalt davor nötig |
 | Fiktive Abnahme VOB/B § 12 Nr. 5 | Schlussrechnung + 12-Werktage-Frist | Besondere VOB/B-Regelung |
 
@@ -151,10 +158,8 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | Zeitpunkt | Beweislast | Beweisführer | Beweismittel |
 |-----------|-----------|-------------|-------------|
 | Vor Abnahme | Mangelfreiheit | Auftragnehmer | Abnahmeprotokoll, Eigenüberwachung, Prüfzeugnisse |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Verjährung | Hemmungstatbestand | Auftraggeber (Kläger) | Verhandlungskorrespondenz § 203 BGB |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 6 — Rechtsfolgen und Sekundärrechte
 
@@ -162,7 +167,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 - **Wahlrecht des Unternehmers:** Nachbesserung oder Neuherstellung
 - **Frist** muss angemessen sein (abhängig von Komplexität; regelmäßig 2–6 Wochen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Sekundärrechte nach Fristablauf
 
@@ -218,7 +222,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 | 1–4 | Grundlagen, Vorplanung, Entwurf, Genehmigung | Planungsfehler; Verstoß gegen a.R.d.T. |
 | 5 | Ausführungsplanung | Detailplanungsfehler — häufig Ursache für Ausführungsmängel |
 | 6, 7 | Vorbereitung und Mitwirkung Vergabe | Auswahl ungeeigneter Auftragnehmer |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Objektbetreuung | Mängelanzeige, Fristsetzung gegenüber Unternehmern |
 
 ### Gesamtschuldnerische Haftung
@@ -239,15 +242,14 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - Klageantrag: Zahlung von EUR [X] als Vorschuss für Selbstvornahme-Maßnahmen
 - Berechnung: Kostenvoranschlag Drittunternehmer (Bruttokosten)
 - Abrechnung nach Durchführung (Restforderung oder Rückzahlung)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Werkmangel nach VOB/B und BGB stufenweise pruefen | Neunstufiges Pruefschema; Schriftsatzbausteine unten |
+| Standard — Werkmangel nach VOB/B und BGB stufenweise prüfen | Neunstufiges Prüfschema; Schriftsatzbausteine unten |
 | Variante A — kein VOB/B-Vertrag (reines BGB) | Schritte 1-2 verkuerzen; ab Schritt 3 voll durchpruefen |
 | Variante B — Verjährung laeuft ab | Hemmung durch Verhandlung oder Klage unverzueglich; § 203 BGB |
 | Variante C — Architekt als Gesamtschuldner | Doppelklage AN und Architekt; Gesamtschuldner-Ausgleich beachten |
@@ -268,18 +270,18 @@ Sehr geehrte Damen und Herren,
 bei der Bauleistung [Gewerk] wurden folgende Mängel festgestellt:
 
 1. [Mangelbeschreibung] — Lokalisation: [Bauteil/Raum]
-   Symptom: [Beschreibung Erscheinungsbild]
-   Verstoß gegen: [DIN/ETB/vereinbarte Beschaffenheit]
+ Symptom: [Beschreibung Erscheinungsbild]
+ Verstoß gegen: [DIN/ETB/vereinbarte Beschaffenheit]
 
 2. [Mangelbeschreibung] — Lokalisation: [Bauteil/Raum]
-   [...]
+ [...]
 
 Wir fordern Sie auf, die vorgenannten Mängel bis zum [Datum]
 (Frist: 3 Wochen) vollständig zu beseitigen.
 
 Nach fruchtlosem Fristablauf werden wir ohne weitere Ankündigung
 — Selbstvornahme nach § 637 BGB vornehmen und Vorschuss
-  in Höhe von EUR [geschätzter Betrag] netto geltend machen,
+ in Höhe von EUR [geschätzter Betrag] netto geltend machen,
 — Minderung der Vergütung nach § 638 BGB erklären,
 — Schadensersatz nach §§ 280, 281 BGB geltend machen.
 
@@ -305,7 +307,7 @@ Die voraussichtlichen Kosten der Selbstvornahme belaufen sich
 auf EUR [Betrag] netto gemäß Kostenvoranschlag vom [Datum], Anlage [K1].
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -332,9 +334,7 @@ auf EUR [Betrag] netto gemäß Kostenvoranschlag vom [Datum], Anlage [K1].
 | Gegenargument Auftragnehmer | Reaktion |
 |-----------------------------|---------|
 | "Mangel liegt an Planung des Architekten, nicht Ausführung" | Gesamtschuldnerische Haftung § 421 BGB; Besteller kann AN trotzdem in Anspruch nehmen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Vorbehaltlose Abnahme — Mängel abgenommen" | Gilt nur für bei Abnahme bekannte Mängel § 640 Abs. 3 BGB; versteckte Mängel bleiben unberührt |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Verjährung" | Hemmung durch Mängelverhandlungen § 203 BGB; Anerkenntnis des Mangels → Neubeginn § 212 BGB |
 | "Mangel durch Auftraggeber-Sphäre verursacht" | Beweislast beim Unternehmer nach Abnahme; Mitverschulden § 254 BGB prüfen |
 
@@ -375,7 +375,7 @@ auf EUR [Betrag] netto gemäß Kostenvoranschlag vom [Datum], Anlage [K1].
 - HOAI (Honorarordnung für Architekten und Ingenieure)
 - BGH VII. Zivilsenat — laufende Rspr.
 - Werner/Pastor, Der Bauprozess, 16. Aufl.
-- Kniffka/Koeble, Kompendium des Baurechts, 5. Aufl.
+- Kniffka/Koeble, Fachüberblick des Baurechts, 5. Aufl.
 - Stand: 05/2026
 
 ## Audit-Hinweis (Stand 05/2026)

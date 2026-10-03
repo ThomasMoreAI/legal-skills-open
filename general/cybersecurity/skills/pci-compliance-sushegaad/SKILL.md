@@ -5,17 +5,17 @@ description: Expert PCI DSS compliance advisor covering PCI DSS v4.0.1 (current)
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/pci-compliance/skills/pci-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: cybersecurity
 language: en
 sources:
-- title: Pci Dss Requirements
+- title: Pci dss requirements
   path: references/pci-dss-requirements.md
-- title: Pci Dss Saq Guide
+- title: Pci dss saq guide
   path: references/pci-dss-saq-guide.md
-- title: Pci Dss V4 Changes
+- title: Pci dss v4 changes
   path: references/pci-dss-v4-changes.md
 ---
 

@@ -1,18 +1,33 @@
 ---
 name: contract-review-pro-lovstudio
-title: Contract Review Skill
+title: 合同批注专家 · Contract Reviewer
 description: Professional-grade contract review skill that adds comment-based issue annotations without changing original text. Enforces a four-layer review (entity verification, basic, business, legal), writes structured comments (issue type, risk reason, revision suggestion) with risk level encoded via reviewer name, and generates a contract summary, consolidated opinion, and Mermaid business flowchart (with rendered image). Output language must follow the contract’s language.
 author: lovstudio
 author_url: https://github.com/lovstudio/skills/tree/main/skills/contract-review-pro
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Examples
+  path: references/examples.md
+- title: Flowchart
+  path: references/flowchart.md
+- title: Language
+  path: references/language.md
+- title: Opinion
+  path: references/opinion.md
+- title: Summary
+  path: references/summary.md
+- title: Technical
+  path: references/technical.md
 ---
 
-# Contract Review Skill
+# 合同批注专家 · Contract Reviewer
 
 ## Overview
 
@@ -161,3 +176,13 @@ SPDX-License-Identifier: Apache-2.0
 Copyright (c) 2026 JiCheng
 
 Licensed under the Apache License, Version 2.0. See repository root `LICENSE`.
+
+## 通用反馈闭环
+
+用户在 Skill 驱动任务中提出修改意见时，继续当前产物前必须执行：
+
+1. 先判断意见是 `task-specific`（仅本次）还是 `reusable`（可跨任务复用）。
+2. `task-specific` 只修改当前任务，不改 Skill。
+3. `reusable` 先确定作用域：领域规则先更新对应 canonical Skill；适用于所有 Skill 的规则先更新共享规范。
+4. 完成规则更新、版本、lint 与分发核验后，再把修改应用到当前任务。
+5. `reusable` 修改会使此前的“确认”“继续”“发吧”失效；完成当前产物修改和回读后必须停下，等待用户下一步指示，不自动进入发布、提交或其他外部写入。

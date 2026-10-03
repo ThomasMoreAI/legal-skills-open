@@ -5,12 +5,20 @@ description: Use when users say "review these Particulars of Claim", "check this
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-particulars-of-claim-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: litigation
 language: en
-tags: [particulars-of-claim, pleadings, cpr, england-and-wales, drafting]
+tags:
+- particulars-of-claim
+- pleadings
+- cpr
+- england-and-wales
+- drafting
+sources:
+- title: Pleading review playbook
+  path: references/pleading-review-playbook.md
 ---
 
 # uk-particulars-of-claim-review

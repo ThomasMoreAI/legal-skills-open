@@ -8,8 +8,8 @@ Jurisdiction: `cm` · Practice: `real-estate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Land Title Verifier`](skills/land-title-verifier/) | Validates land titles against the Cameroon digital registry to prevent fraud and verify ownership. |
 | [`Skill: Land Title Verifier`](skills/land-title-verifier-wutsi/) | Validates land titles against the Cameroon digital registry to prevent fraud and verify ownership. |
+| [`Land Title Verifier`](skills/no-header/) | Land Title Verifier. This skill allows the agent to check the authenticity of a "Titre Foncier" (Land… |
 
 ## Cold-start context
 

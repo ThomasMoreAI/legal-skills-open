@@ -1,0 +1,106 @@
+---
+name: bwbes-auslandsverwendungszuschlag
+title: Auslandsverwendungszuschlag und Einsatzversorgung
+description: 'Für Auslandsverwendungszuschlag und Einsatzversorgung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bundeswehrrecht-wehrrecht/skills/bwbes-auslandsverwendungszuschlag
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: military
+language: de
+---
+
+# Auslandsverwendungszuschlag und Einsatzversorgung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Auslandsverwendungszuschlag und Einsatzversorgung
+- **Normen-/Quellenanker:** SG, WSG, WPflG, KDVG, WDO, SVG, BBesG, VwGO, truppendienstgerichtliche Zuständigkeiten und Grundrechte.
+- **Entscheidende Weiche:** Status, Befehl/Dienstpflicht, Gewissen/KDV, Besoldung/Versorgung, Disziplinarweg, Eilrechtsschutz und Nachweisführung trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Fachlicher Kontext
+
+Auslandseinsätze lösen besondere Besoldungs- und Versorgungsansprüche aus. AVZ tageweise nach Gefährdungsstufen; SVG §§ 63a ff. regeln Einsatzversorgung bei einsatzbedingten Schäden.
+
+PTBS und psychische Einsatzfolgen sind anerkannte Wehrdienstbeschädigungen. Das EinsatzWVG sichert Weiterverwendung bei einsatzbedingten Schäden.
+
+## Einschlägige Normen und Quellen
+
+- §§ 56–58 BBesG — AVZ
+- AuslVZV — Auslandsverwendungszulagenverordnung
+- SVG §§ 63a–63h — Einsatzversorgung
+- EinsatzWVG — Einsatzweiterverwendungsgesetz
+- § 27 SVG — Wehrdienstbeschädigung
+- SGB XIV — Soziales Entschädigungsrecht
+
+## Sachverhaltsaufnahme — Startfragen
+
+- In welchem Einsatz und welchem Zeitraum?
+- Welche Gefährdungsstufe galt?
+- Wurde der volle AVZ korrekt ausgezahlt?
+- Einsatzbedingte Erkrankung oder Verletzung?
+- Wurden Nachversorgungsansprüche geltend gemacht?
+- Streit über Kausalität (Einsatz → Schaden)?
+
+## Prüf- und Arbeitslogik
+
+### Schritt 1 — AVZ Berechnung §§ 56–58 BBesG
+
+Stufen 1–7 AuslVZV: Gefahrenlage und Region.
+Tageweise Berechnung inkl. An-/Abreisetage.
+Abgrenzung: AVZ (Kampfeinsatz) vs. Auslandsdienstbezüge § 52 BBesG (stationäre NATO-Verwendung).
+Fehler: Stufenzuordnung korrekt? Alle Einsatztage erfasst?
+
+### Schritt 2 — Einsatzversorgung SVG §§ 63a ff.
+
+Einsatzbedingte Gesundheitsschäden: erleichterte Kausalitätsvermutung § 63c SVG.
+Einsatz-Versorgungskrankengeld, Übergangsgeld.
+Antrag beim BAPersBw, Versorgungsreferat.
+Schäden unverzüglich melden — Beweissicherung!
+
+### Schritt 3 — EinsatzWVG
+
+Zweck: Weiterverwendung einsatzgeschädigter Soldaten.
+Anspruch auf erneute Einstellung zur Rehabilitation.
+Subsidiarität: erst SVG-Ansprüche, dann EinsatzWVG.
+
+### Schritt 4 — PTBS und psychische Folgen
+
+PTBS: anerkannte Wehrdienstbeschädigung.
+Kausalität: 'hinreichende Wahrscheinlichkeit'.
+Eigene Fachärzte einschalten, Gegengutachten.
+Verwaltungsstreit: VG + Sozialgericht für Versorgungsleistungen.
+
+## Arbeitsergebnisse
+
+Erzeuge je nach Auftrag eines oder mehrere dieser Ergebnisse:
+
+- Kurzvermerk mit Risikoampel (grün/gelb/rot)
+- Prüfschema mit Tatbestandselementen und offenen Punkten
+- Fragenliste für Mandanten/Sachverhaltsgespräch
+- Entwurfsbausteine (Beschwerde, Antrag, Schriftsatz, Stellungnahme)
+- Dokumentenanforderungsliste
+- Nächster Schritt mit konkreter Frist
+
+- Tabelle: AVZ-Gefährdungsstufen und Tagessätze
+- Prüfschema: Einsatzversorgungsansprüche SVG
+- Checkliste: Einsatzbedingte Schäden dokumentieren
+
+## Qualitätsgate
+
+Vor Ausgabe prüfen:
+
+- Fristen, Zuständigkeit und Rechtsgrundlage vollständig?
+- Offene Tatsachen als `[offen: ...]` markiert?
+- Gegenargumente und Verteidigungslinien formuliert?
+- Beweislastverteilung geklärt?
+- Output entspricht dem gewünschten Arbeitsergebnis?

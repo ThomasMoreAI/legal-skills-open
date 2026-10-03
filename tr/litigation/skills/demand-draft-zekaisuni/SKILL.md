@@ -5,11 +5,11 @@ description: Draft a Turkish ihtarname from a completed demand-intake file. Appl
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/demand-draft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: litigation
-language: tr
+language: en
 ---
 
 # /demand-draft

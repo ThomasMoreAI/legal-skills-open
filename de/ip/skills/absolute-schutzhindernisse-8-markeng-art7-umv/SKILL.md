@@ -1,0 +1,54 @@
+---
+name: absolute-schutzhindernisse-8-markeng-art7-umv
+title: Absolute Schutzhindernisse
+description: 'Für Absolute Schutzhindernisse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/absolute-schutzhindernisse-8-markeng-art7-umv
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Absolute Schutzhindernisse
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Absolute Schutzhindernisse
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
+## Pflichtfragen
+
+- DPMA, EUIPO oder internationale Registrierung mit Schutzgesuch für Deutschland oder EU?
+- Zeichenform: Wort, Bild, Wort-Bild, 3D, Farbe, Klang, Position, Bewegung oder sonstige Marke?
+- Waren und Dienstleistungen mit Klassen und konkreten Begriffen?
+- Liegt bereits ein Beanstandungsbescheid vor, mit Frist und Begründung?
+- Gibt es Benutzungsnachweise für Verkehrsdurchsetzung?
+
+## Prüfprogramm
+
+1. **Zeichen sauber lesen:** Schreibweise, Sprache, Bestandteile, grafische Elemente, Aussprache, Übersetzungen und Branchenverständnis trennen.
+2. **Unterscheidungskraft prüfen:** Kann das Zeichen betriebliche Herkunft anzeigen oder bleibt es nur Werbespruch, Sachhinweis, Qualitätshinweis, Form, Dekor oder Preisversprechen?
+3. **Freihaltebedürfnis prüfen:** Brauchen Wettbewerber die Angabe zur Beschreibung von Art, Qualität, Menge, Bestimmung, Wert, geografischer Herkunft oder sonstigen Merkmalen?
+4. **Sonderhindernisse prüfen:** Täuschungsgefahr, öffentliche Ordnung, Hoheitszeichen, geschützte geografische Angaben, Sortenbezeichnungen, religiöse/politische Sensibilität.
+5. **Formmarken-Falle:** Wesentliche Form durch Art der Ware, technische Wirkung oder wesentlichen Wert der Ware prüfen; kein Schutzrechts-Hopping durch Marke.
+6. **Rettungsoptionen:** Waren-/Dienstleistungsverzeichnis verengen, Bildbestandteile stärken, Priorität ändern, Benutzungsdurchsetzung belegen, Design/UWG/GeschGehG als Alternative prüfen.
+
+## Quellen-Hardening
+
+Normtext und Behördenpraxis live prüfen: MarkenG, UMV, DPMA-Hinweise, EUIPO Guidelines. Rechtsprechung nur mit verifizierter Quelle ausgeben.
+
+
+## Quellenkontrolle
+
+Deutsche Marke und Unionsmarke getrennt prüfen. Für absolute Schutzhindernisse insbesondere Paragraf 8 Markengesetz und Artikel 7 UMV, für Widerspruch und Verletzung die jeweils einschlägigen Tatbestände, Benutzungsschonfrist und Verfahrensregeln verwenden. Entscheidungen von Bundesgerichtshof, Bundespatentgericht, Gericht der Europäischen Union oder Gerichtshof der Europäischen Union nur mit konkretem Prüfmerkmal und verifizierter tragender Aussage zuordnen.

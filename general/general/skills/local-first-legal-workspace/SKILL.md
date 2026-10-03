@@ -5,12 +5,21 @@ description: Use when users say "is this legal AI app local-first", "what leaves
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/local-first-legal-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [local-first, privacy, legal-ai, document-management, byok, security]
+tags:
+- local-first
+- privacy
+- legal-ai
+- document-management
+- byok
+- security
+sources:
+- title: Local first model
+  path: references/local-first-model.md
 ---
 
 # local-first-legal-workspace

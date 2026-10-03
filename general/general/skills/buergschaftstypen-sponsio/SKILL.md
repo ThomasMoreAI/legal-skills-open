@@ -1,0 +1,41 @@
+---
+name: buergschaftstypen-sponsio
+title: Rom 134 Buergschaftstypen Sponsio Fidepromissio Fideiussio
+description: 'Für Rom 134 Bürgschaftstypen Sponsio Fidepromissio Fideiussio: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Römisches Recht. Route: buergschaftstypen-sponsio.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/buergschaftstypen-sponsio
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom 134 Buergschaftstypen Sponsio Fidepromissio Fideiussio
+
+## Quellenanker
+
+- **Gaius, Institutiones 3.115-127** — Drei Bürgschaftstypen: sponsio (nur cives), fidepromissio, fideiussio (universal)
+- **D. 46.1.8 pr.** — fideiussio: akzessorisch zur Hauptschuld, auch künftig und bedingt
+- **Nov. 4 (Justinian, 535)** — beneficium excussionis: erst der Hauptschuldner
+- **Gaius, Institutiones 3.121-122** — lex Furia, epistula Hadriani: beneficium divisionis unter Mitbürgen
+
+## Kernregeln
+
+Die fideiussio (jüngster, universaler Typ) ist streng akzessorisch: nicht über die Hauptschuld hinaus (in duriorem causam nicht), vererblich, für jede Obligation möglich. Mehrere Bürgen haften solidarisch, aber die epistula Hadriani teilt auf Einrede unter den solventen Mitbürgen (beneficium divisionis); Justinian fügt das beneficium excussionis hinzu (Vorausklage gegen den Hauptschuldner). Regress des zahlenden Bürgen über mandatum/negotiorum gestio oder beneficium cedendarum actionum (Abtretungszwang der Gläubigerklagen).
+
+## Moderne Parallele
+
+§§ 765 ff. BGB sind fideiussio in Reinform: Akzessorietät § 767, Einrede der Vorausklage § 771 (= excussionis; im Handelsrecht § 349 HGB ausgeschlossen — selbstschuldnerisch wie die klassische Solidarhaftung), Forderungsübergang § 774 (= cedendarum actionum als cessio legis).
+
+## Typische Fehler
+
+Sponsio/fidepromissio (Verbalformen, unvererblich, zeitlich begrenzt durch lex Furia) nicht mit fideiussio in einen Topf werfen — die Typengeschichte erklärt, warum das BGB nur EINEN Typ kennt.
+
+## Arbeitsweise
+
+1. Quellen zuerst: einschlägige Stellen (Gaius, Digesten, Codex) mit Inskription benennen; Rekonstruktionsgrad und Interpolationsverdacht offenlegen.
+2. Epochen trennen: vorklassisch — klassisch — justinianisch — Rezeption; nichts rückprojizieren.
+3. Funktional vergleichen: erst die römische Funktion, dann die heutige Norm mit gleicher Aufgabe; Unterschiede ausdrücklich benennen.
+4. Für Klausur/Lehre: Institutionensystem (personae — res — actiones) als Gliederungsraster nutzen; lateinische Begriffe beim ersten Auftreten übersetzen.

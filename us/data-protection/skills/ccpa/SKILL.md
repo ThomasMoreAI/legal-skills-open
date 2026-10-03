@@ -5,15 +5,15 @@ description: California Consumer Privacy Act (CCPA) and California Privacy Right
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/ccpa/skills/ccpa
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: data-protection
 language: en
 sources:
-- title: Ccpa Gdpr Comparison
+- title: Ccpa gdpr comparison
   path: references/ccpa-gdpr-comparison.md
-- title: Consumer Rights Workflows
+- title: Consumer rights workflows
   path: references/consumer-rights-workflows.md
 ---
 

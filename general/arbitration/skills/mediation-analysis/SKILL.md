@@ -5,11 +5,16 @@ description: Dispute analysis and mediation preparation framework. Use when prep
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/mediation-analysis
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: arbitration
 language: en
+sources:
+- title: Mediation process
+  path: references/mediation_process.md
+- title: Negotiation concepts
+  path: references/negotiation_concepts.md
 ---
 
 > **⚠️ EXPERIMENTAL** — This skill is provided for educational and informational purposes only. It does NOT constitute legal advice. All responsibility for usage rests with the user. Consult qualified legal professionals before acting on any output.
@@ -37,6 +42,16 @@ Production-ready framework for analyzing disputes and preparing mediation strate
 - [Tool Reference](#tool-reference)
 
 ---
+
+## Clarify First
+
+Before the analysis, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Which party you represent** — frames the positions, interests, and BATNA/WATNA from your side; a neutral framing produces a different analysis
+- [ ] **Claimed amount, each side's litigation costs, and success probability** — these are the settlement-calculator inputs; BATNA, WATNA, and ZOPA all derive from them
+- [ ] **Whether there is an ongoing relationship** — determines whether the analysis weights an interest-based or package-deal scenario over a straightforward monetary compromise
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the analysis.
 
 ## Operating Modes
 

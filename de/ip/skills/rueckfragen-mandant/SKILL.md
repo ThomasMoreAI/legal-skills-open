@@ -1,11 +1,11 @@
 ---
 name: rueckfragen-mandant
 title: rückfragen-mandant
-description: 'Generiert Rückfragen an den Mandanten wenn das vorgelegte Material für eine sinnvolle Recherche nicht ausreicht oder Abgrenzungsfragen offen sind. Pflichtfragen: Was ist der wesentliche Lösungsbeitrag der Erfindung gegenüber dem Stand der Technik den der Mandant kennt; Welcher Anspruch ist der wichtigste; Welcher Markt und welche Zielstaaten; Gibt es eigene fruehere Veröffentlichungen Anmeldungen Vortraege Messeauftritte (Eigenstand der Technik); Gibt es Konkurrenten die das Plugin in den Watch nehmen soll; Welcher Recherchezweck. Formuliert die Rückfragen als Brief oder als Frageliste die in eine Mandantenrückfrage uebernommen werden kann. Disclaimer keine Rechtsberatung Patentanwaeltin verantwortet die Mandantenkommunikation.'
+description: 'Für rückfragen-mandant: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/rueckfragen-mandant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -14,17 +14,13 @@ language: de
 
 # rückfragen-mandant
 
-## Zweck
+## Arbeitsweg
 
-Wenn das Material des Mandanten für eine seriöse Recherche nicht ausreicht — typische Fälle:
-
-- Erfindung nur in einem Satz beschrieben
-- Kein Anspruchsentwurf vorhanden
-- Zielmarkt unklar
-- Eigene frühere Veröffentlichungen des Mandanten nicht offengelegt
-- Konkurrenten-Liste fehlt
-
-— dann erzeugt dieses Skill eine Rückfrageliste oder einen Mandanten-Brief.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Pflichtfragen
 
@@ -135,15 +131,11 @@ Mit freundlichen Grüßen
 ## Triage-Fragen vor Mandanten-Rueckfragen
 
 Bevor die Rueckfrageliste erstellt wird, klaere:
-1. Welches Rechercheprodukt benoetigt die Informationen — Neuheitspruefung, FTO, Pruefungsbescheid-Antwort oder Valorisierung?
+1. Welches Rechercheprodukt benoetigt die Informationen — Neuheitspruefung, FTO, Prüfungsbescheid-Antwort oder Valorisierung?
 2. Hat der Mandant bereits Unterlagen eingereicht (Anspruchsentwurf, Produktbeschreibung, Skizze)?
 3. Besteht ein zeitlicher Druck (Patent-Frist, Messe-Neuheitsfrist, Vertragsverhandlung)?
 4. Ist der Mandant technischer Fachmann oder berufslaie (Fragebogen-Sprachstil anpassen)?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

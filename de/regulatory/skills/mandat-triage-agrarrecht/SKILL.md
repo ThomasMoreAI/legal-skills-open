@@ -1,22 +1,31 @@
 ---
 name: mandat-triage-agrarrecht
-title: Mandat-Triage Agrarrecht
-description: Eingangs-Abfrage für agrarrechtliche Mandate — Landwirt fragt nach Pacht Hof-Erbfolge EU-Foerderung Tierhaltungs-Genehmigung Duenge-Bußgeld oder Direktzahlungen-Kuerzung. Klaert Sachgebiet (Landpacht HoefeO GAP ELER Tierhaltung Pflanzenschutz Duenge-VO Hofnachfolge) und Mandantenrolle (Landwirt Verpaechter Paechter Erbe Genossenschaft). Sofort-Fristen Sammelantrag 15. Mai Pachtvertragsanzeige § 2 LPachtVG OWiG-Einspruch zwei Wochen. Normen §§ 581 ff. BGB HoefeO GAP-VO 2021/2115 DueV. Eskalation Telefon-Sofort bei Sammelantragsfrist Tierseuche. Output Triage-Memo Fristen-Ampel Routing zu landpacht-und-hoferbfolge-prüfen. Abgrenzung zu erstgespraech-mandatsannahme (Mandatsaufnahme-Leitfaden).
+title: Eingangs-Abfrage für agrarrechtliche Mandate — Landwirt fragt nach Pacht Hof-Erbfolge EU-Förderung Tierhaltungs-Genehmig
+description: 'Für Mandat Triage Agrarrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/mandat-triage-agrarrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
 ---
 
-# Mandat-Triage Agrarrecht
+# Eingangs-Abfrage für agrarrechtliche Mandate — Landwirt fragt nach Pacht Hof-Erbfolge EU-Förderung Tierhaltungs-Genehmigung Duenge-Bußgeld oder Direktzahlungen-Kuerzung
 
-## Zweck
 
-Agrarrecht-Mandate sind oft saisonal und förderrechtlich fristbeladen. Triage stellt sicher dass Sammelantrag und LPachtVG-Frist nicht verloren gehen.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Bekanntgabe, Vertragsschluss, Förderjahr, Kontrollereignis und konkretes Pachtjahr bestimmen; BGB Paragraf 594a Absatz 1 verlangt bei unbestimmter Landpacht die Kündigung spätestens am dritten Werktag eines Pachtjahrs zum Schluss des nächsten Pachtjahrs.
+- Tragende Normen verifizieren: FAO § 14b, BGB §§ 581 ff. (Landpacht), GrdstVG, Landwirtschaftsanpassungsgesetz (LwAnpG), HöfeO, EU-GAP-VO (2021/2115, 2021/2116, 2021/2117), MarktorganisationsG, BNatSchG, DüV, AwSV — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Landwirt, Bundesanstalt für Landwirtschaft und Ernährung (BLE), Landwirtschaftskammer, Genehmigungsbehörde nach GrdstVG, Landpächter/-verpächter, Amtsgericht Landwirtschaftsgericht.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Mehrfachantrag (Flächenförderung), Pachtvertrag, GrdstVG-Genehmigung, Düngeplan, Cross-Compliance-Nachweis, Hofübergabevertrag — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Eingangs-Abfrage für agrarrechtliche Mandate — Landwirt fragt nach Pacht Hof-Erbfolge EU-Förderung Tierhaltungs-Genehmigung Duenge-Bußgeld oder Direktzahlungen-Kuerzung. Klaert Sachgebiet (Landpacht HoefeO GAP ELER Tierhaltung Pflanzenschutz Duenge-VO Hofnachfolge) und Mandantenrolle (Landwirt Verpaechter Paechter Erbe Genossenschaft). Sofort-Fristen Sammelantrag 15. Mai Pachtvertragsanzeige § 2 LPachtVG OWiG-Einspruch zwei Wochen. Normen §§ 581 ff. BGB HoefeO GAP-VO 2021/2115 DueV. Eskalation Telefon-Sofort bei Sammelantragsfrist Tierseuche. Output Triage-Memo Fristen-Ampel Routing zu landpacht-und-hoferbfolge-prüfen. Abgrenzung zu erstgespraech-mandatsannahme (Mandatsaufnahme-Leitfaden).
+
+### Mandat-Triage Agrarrecht
 
 ## Ablauf — sieben Fragen
 
@@ -134,6 +143,14 @@ Agrarrecht-Mandate sind oft saisonal und förderrechtlich fristbeladen. Triage s
 - Mandatsvereinbarung mit Honorar
 - Empfehlung Folge-Skill
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - BGB §§ 585 ff. 1922 ff.
@@ -145,18 +162,12 @@ Agrarrecht-Mandate sind oft saisonal und förderrechtlich fristbeladen. Triage s
 
 ## Vertiefung — Rechtsprechung und Normenkette Triage
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung Triage-Routing
 
-LwVG §§ 1 ff. (Zuständigkeit Landwirtschaftsgericht) → § 70 VwGO (Widerspruch Förderbescheid) → §§ 195, 199 BGB (Verjährung Pacht, Abfindung) → § 203 BGB (Hemmung durch Verhandlungen) → GrdstVG (Grundstücksverkehr-Genehmigung) → LPachtVG § 2 (Pachtanzeige-Frist)
+LwVfG Paragrafen 1 und 2 (Gegenstand und ausschließliche Eingangsinstanz) → VwGO Paragrafen 70 und 74 (Vorverfahren und Klagefrist bei Förderbescheiden) → BGB Paragrafen 195, 199 und 203 (Verjährung und Verhandlungshemmung) → GrdstVG (Genehmigung im Grundstücksverkehr) → LPachtVG Paragraf 2 (Anzeige binnen eines Monats)
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

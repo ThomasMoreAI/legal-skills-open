@@ -1,11 +1,11 @@
 ---
 name: gliederung-mit-tiefenstruktur
 title: Gliederung mit Tiefen-Struktur
-description: Student erstellt Gliederung für juristische Hausarbeit mit korrekter Tiefenstruktur A Roemisch Arabisch Kleinbuchstaben. Anspruchsgrundlagen-Reihenfolge Zivilrecht öffentlich-rechtlicher Aufbau Strafrecht Drei-Stufen. Normen §§ 133 157 BGB Methodenlehre. Prüfraster Gliederungs-Logik Hierarchie Prüfungsschema-Sichtbarkeit Vollständigkeit. Output Gliederungs-Entwurf Tiefenstruktur-Template. Abgrenzung zu gutachtenstil-vs-urteilsstil (Stil) und subsumtion-schritt-fuer-schritt (Inhalt).
+description: 'Für Gliederung mit Tiefen-Struktur: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/gliederung-mit-tiefenstruktur
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,41 +14,38 @@ language: de
 
 # Gliederung mit Tiefen-Struktur
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
-1. Welches Fachgebiet und wie viele Anspruchsgrundlagen/Pruefungspunkte sind zu erwarten?
+1. Welches Fachgebiet und wie viele Anspruchsgrundlagen/Prüfungspunkte sind zu erwarten?
 2. Wie ist die gewuenschte Tiefe der Gliederung (Anfaenger: A.I.1.a), Examen: tiefer)?
-3. Gibt es Konkurrenzen zwischen Anspruchsgrundlagen, die in der Gliederung sichtbar sein muessen?
-4. Sollen Hilfsweise-Pruefungen als eigene Gliederungspunkte oder als Unterpunkte erscheinen?
-
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+3. Gibt es Konkurrenzen zwischen Anspruchsgrundlagen, die in der Gliederung sichtbar sein müssen?
+4. Sollen Hilfsweise-Prüfungen als eigene Gliederungspunkte oder als Unterpunkte erscheinen?
 
 ## Zentrale Normen
 - § 242 BGB — Treu und Glauben: Gliederung muss die rechtlichen Beziehungen vollstaendig abbilden
-- § 308 ZPO — Bindung an Antraege: Gliederung darf nicht ueber den Bearbeitungsvermerk hinausgehen
+- § 308 ZPO — Bindung an Antraege: Gliederung darf nicht über den Bearbeitungsvermerk hinausgehen
 - §§ 195 ff. BGB — Verjährung als eigener Gliederungspunkt bei Anspruchs-Erloesung
 - § 362 BGB — Erfuellung als erster Erloeschungsgrund in Gliederungs-Unterebene
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Eine gute Gliederung zeigt schon im Inhaltsverzeichnis, ob Du das Problem verstanden hast. Sie ist die Schiene, auf der die Argumentation läuft.
 
 ## Schritt 1 — Standard-Tiefenstruktur
 
 ```
 A. Erster Hauptpunkt
-   I. Erster Unter-Hauptpunkt
-      1. Erste Voraussetzung
-         a) Erste Teilvoraussetzung
-            aa) Erste Teil-Teil-Voraussetzung
-            bb) Zweite Teil-Teil-Voraussetzung
-         b) Zweite Teilvoraussetzung
-      2. Zweite Voraussetzung
-   II. Zweiter Unter-Hauptpunkt
+ I. Erster Unter-Hauptpunkt
+ 1. Erste Voraussetzung
+ a) Erste Teilvoraussetzung
+ aa) Erste Teil-Teil-Voraussetzung
+ bb) Zweite Teil-Teil-Voraussetzung
+ b) Zweite Teilvoraussetzung
+ 2. Zweite Voraussetzung
+ II. Zweiter Unter-Hauptpunkt
 B. Zweiter Hauptpunkt
 ```
 
@@ -60,66 +57,66 @@ B. Zweiter Hauptpunkt
 
 ```
 A. Anspruch K gegen B aus § 433 II BGB (Kaufpreiszahlung)
-   I. Wirksamer Kaufvertrag
-      1. Angebot
-      2. Annahme
-      3. Wirksamkeit (Geschäftsfähigkeit, Form, AGB)
-   II. Anspruch nicht erloschen
-      1. Erfüllung § 362 I BGB
-      2. Aufrechnung § 387 BGB
-      3. Verjährung
-   III. Anspruch durchsetzbar
-      1. Einreden (z.B. § 320 BGB)
+ I. Wirksamer Kaufvertrag
+ 1. Angebot
+ 2. Annahme
+ 3. Wirksamkeit (Geschäftsfähigkeit, Form, AGB)
+ II. Anspruch nicht erloschen
+ 1. Erfüllung § 362 I BGB
+ 2. Aufrechnung § 387 BGB
+ 3. Verjährung
+ III. Anspruch durchsetzbar
+ 1. Einreden (z.B. § 320 BGB)
 
 B. Anspruch K gegen B aus § 280 I BGB iVm § 433 BGB (Schadensersatz statt der Leistung)
-   I. Schuldverhältnis
-   II. Pflichtverletzung
-   III. Vertretenmüssen
-   IV. Schaden
+ I. Schuldverhältnis
+ II. Pflichtverletzung
+ III. Vertretenmüssen
+ IV. Schaden
 ```
 
 ### Öffentliches Recht (Verwaltungsklage)
 
 ```
 A. Zulässigkeit
-   I. Verwaltungsrechtsweg § 40 VwGO
-   II. Statthafte Klageart § 42 I VwGO
-   III. Klagebefugnis § 42 II VwGO
-   IV. Vorverfahren §§ 68 ff. VwGO
-   V. Klagefrist § 74 VwGO
-   VI. Zuständigkeit (sachlich, örtlich)
+ I. Verwaltungsrechtsweg § 40 VwGO
+ II. Statthafte Klageart § 42 I VwGO
+ III. Klagebefugnis § 42 II VwGO
+ IV. Vorverfahren §§ 68 ff. VwGO
+ V. Klagefrist § 74 VwGO
+ VI. Zuständigkeit (sachlich, örtlich)
 
 B. Begründetheit
-   I. Anspruchsgrundlage / Rechtsgrundlage
-   II. Formelle Rechtmäßigkeit (Zuständigkeit, Verfahren, Form)
-   III. Materielle Rechtmäßigkeit
-      1. Tatbestand
-      2. Rechtsfolge / Ermessen
-   IV. Rechtsverletzung Kläger
+ I. Anspruchsgrundlage / Rechtsgrundlage
+ II. Formelle Rechtmäßigkeit (Zuständigkeit, Verfahren, Form)
+ III. Materielle Rechtmäßigkeit
+ 1. Tatbestand
+ 2. Rechtsfolge / Ermessen
+ IV. Rechtsverletzung Kläger
 ```
 
 ### Strafrecht
 
 ```
 A. Strafbarkeit T wegen Diebstahl gemäß § 242 StGB
-   I. Tatbestand
-      1. Objektiver Tatbestand
-         a) Fremde bewegliche Sache
-         b) Wegnahme
-            aa) Bruch fremden Gewahrsams
-            bb) Begründung neuen Gewahrsams
-      2. Subjektiver Tatbestand
-         a) Vorsatz
-         b) Zueignungsabsicht
-            aa) Aneignungs-Element
-            bb) Enteignungs-Element
-   II. Rechtswidrigkeit
-   III. Schuld
-      1. Schuldfähigkeit
-      2. Schuldformen / Unrechtsbewusstsein
-      3. Entschuldigungsgründe
-   IV. Strafzumessungs-Erwägungen (ggf.)
-   V. Ergebnis
+ I. Tatbestand
+ 1. Objektiver Tatbestand
+ a) Fremde bewegliche Sache
+ b) Wegnahme
+ aa) Bruch fremden Gewahrsams
+ bb) Begründung neuen Gewahrsams
+ 2. Subjektiver Tatbestand
+ a) Vorsatz
+ b) Zueignungsabsicht
+ aa) Aneignungs-Element
+ bb) Enteignungs-Element
+ II. Rechtswidrigkeit
+ III. Schuld
+ 1. Schuldfähigkeit
+ 2. Schuldformen / Unrechtsbewusstsein
+ 3. Entschuldigungsgründe
+ IV. Strafzumessungs-Erwägungen (ggf.)
+ V. Ergebnis
 ```
 
 ## Schritt 3 — Anspruchsgrundlagen-Reihenfolge im Zivilrecht (V-C-G-D-D-B)
@@ -164,33 +161,33 @@ A. Strafbarkeit T wegen Diebstahl gemäß § 242 StGB
 
 ```
 A. Anspruch A gegen B auf Kaufpreis aus § 433 II BGB
-   I. Wirksamer Kaufvertrag
-      1. Angebot
-      2. Annahme
-      3. Wirksamkeit (AGB-Kontrolle? Sittenwidrigkeit?)
-   II. Anspruch nicht erloschen
-      1. Erfüllung
-      2. Rücktritt B (§ 437 Nr. 2 sowie §§ 323 und 326 BGB)
-         a) Mangel
-            aa) Vereinbarte Beschaffenheit
-            bb) Übliche Beschaffenheit
-         b) Nacherfüllungs-Frist gesetzt?
-         c) Folge: Rücktritt durchgreifend?
-      3. Aufrechnung (Schadensersatz B)
-   III. Anspruch durchsetzbar
-      1. Verjährung
-      2. § 320 BGB Einrede
+ I. Wirksamer Kaufvertrag
+ 1. Angebot
+ 2. Annahme
+ 3. Wirksamkeit (AGB-Kontrolle? Sittenwidrigkeit?)
+ II. Anspruch nicht erloschen
+ 1. Erfüllung
+ 2. Rücktritt B (§ 437 Nr. 2 sowie §§ 323 und 326 BGB)
+ a) Mangel
+ aa) Vereinbarte Beschaffenheit
+ bb) Übliche Beschaffenheit
+ b) Nacherfüllungs-Frist gesetzt?
+ c) Folge: Rücktritt durchgreifend?
+ 3. Aufrechnung (Schadensersatz B)
+ III. Anspruch durchsetzbar
+ 1. Verjährung
+ 2. § 320 BGB Einrede
 
 B. Anspruch A gegen B auf Schadensersatz aus §§ 280 I, 437 Nr. 3 BGB
-   I. Schuldverhältnis (Kaufvertrag)
-   II. Pflichtverletzung
-   III. Vertretenmüssen
-   IV. Schaden
+ I. Schuldverhältnis (Kaufvertrag)
+ II. Pflichtverletzung
+ III. Vertretenmüssen
+ IV. Schaden
 
 C. Gegenanspruch B gegen A auf Lieferung mangelfreier Sache aus § 437 Nr. 1 BGB
-   I. Mangel
-   II. Frist
-   III. Anspruch nicht ausgeschlossen
+ I. Mangel
+ II. Frist
+ III. Anspruch nicht ausgeschlossen
 ```
 
 ## Schritt 6 — Probleme bei der Gliederung
@@ -214,8 +211,8 @@ Wenn ein Punkt am Ergebnis nicht entscheidet, aber zur Vollständigkeit zu prüf
 
 ```
 III. Hilfsweise: Annahme der Wirksamkeit des Vertrags
-   1. ...
-   2. ...
+ 1. ...
+ 2. ...
 ```
 
 ### Problem 4: Mehrere Anspruchssteller
@@ -224,11 +221,11 @@ Bei mehreren Klägern: pro Kläger eigenen Hauptpunkt.
 
 ```
 A. Ansprüche des A
-   I. Anspruch gegen B
-   II. Anspruch gegen C
+ I. Anspruch gegen B
+ II. Anspruch gegen C
 B. Ansprüche des K
-   I. Anspruch gegen B
-   II. Anspruch gegen C
+ I. Anspruch gegen B
+ II. Anspruch gegen C
 ```
 
 ## Schritt 7 — Inhaltsverzeichnis
@@ -239,13 +236,13 @@ B. Ansprüche des K
 INHALTSVERZEICHNIS
 
 A. Ansprüche des A gegen B........................................ 5
-   I. Anspruch aus § 433 II BGB................................... 5
-      1. Wirksamer Kaufvertrag.................................... 5
-         a) Angebot............................................... 5
-         b) Annahme............................................... 6
-         c) Wirksamkeit........................................... 7
-      2. Anspruch nicht erloschen.................................. 9
-   II. Anspruch aus § 823 I BGB................................... 12
+ I. Anspruch aus § 433 II BGB................................... 5
+ 1. Wirksamer Kaufvertrag.................................... 5
+ a) Angebot............................................... 5
+ b) Annahme............................................... 6
+ c) Wirksamkeit........................................... 7
+ 2. Anspruch nicht erloschen.................................. 9
+ II. Anspruch aus § 823 I BGB................................... 12
 B. Ansprüche des B gegen A....................................... 15
 ...
 ```
@@ -276,5 +273,7 @@ B. Ansprüche des B gegen A....................................... 15
 
 - `gutachtenstil-vs-urteilsstil` — Schreib-Stil
 - `zivilrecht-anspruchsgrundlagen-pruefung` — Detail Zivilrecht-Schema
-- `oeffentliches-recht-statthaft-zulaessig-begruendet` — ÖR-Schema
+- `öffentliches-recht-statthaft-zulaessig-begruendet` — ÖR-Schema
 - `strafrecht-tatbestand-rechtswidrigkeit-schuld` — Strafrecht-Schema
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

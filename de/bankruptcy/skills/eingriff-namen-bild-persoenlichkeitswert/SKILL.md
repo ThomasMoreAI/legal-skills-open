@@ -1,0 +1,105 @@
+---
+name: eingriff-namen-bild-persoenlichkeitswert
+title: Eingriff in Name, Bild und Persönlichkeitswert
+description: 'Für Eingriff in Name, Bild und Persönlichkeitswert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: eingriff-namen-bild-persoenlichkeitswert.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/eingriff-namen-bild-persoenlichkeitswert
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Eingriff in Name, Bild und Persönlichkeitswert
+
+## Einsatzbereich
+
+Anwendungsfall: kommerzieller Persönlichkeitswert ohne Zustimmung genutzt wurde. Der Skill zwingt zu einer vermögensorientierten Prüfung: erst Vorteil und Zurechnung, dann Rechtsgrund und Behaltensgrund, zuletzt Umfang, Einreden und prozessuales Ziel.
+
+## Triage — zuerst klären
+
+1. Welche Rechtsposition weist den wirtschaftlichen Nutzen zu?
+2. Hat der Gegner diese Position ohne Leistung des Anspruchstellers genutzt?
+3. Gab es Lizenz, Gestattung oder gesetzliche Erlaubnis?
+4. Ist § 816 BGB oder § 822 BGB spezieller?
+5. Wie wird der objektive Nutzungs- oder Lizenzwert bestimmt?
+
+## Spezifischer Prüfungsfokus
+
+- Bestimme den konkreten Vermögensvorteil und seine heutige Spur im Vermögen.
+- Ordne den Vorteil einer Leistungsbeziehung, einem Eingriff oder einer sonstigen Erwerbslage zu.
+- Prüfe Rechtsgrund und Behaltensgrund getrennt.
+- Kontrolliere, ob § 818 BGB den Anspruch erweitert, begrenzt oder verschärft.
+- Leite erst danach Anspruchsgegner, Anspruchshöhe und prozessuales Ziel ab.
+
+## Prüfungslogik
+
+- Prüfe zuerst, ob wirklich keine Leistungsbeziehung vorliegt.
+- Bestimme den Zuweisungsgehalt der verletzten Position.
+- Ordne Nutzung, Verfügung oder Weitergabe der passenden Anspruchsgrundlage zu.
+- Bewerte nach objektivem Markt-, Lizenz- oder Erlöswert.
+- Trenne Bereicherung von Schaden, Gewinnabschöpfung und Unterlassung.
+
+## Typische Fehler
+
+- Alt. 2 als Auffangtatbestand ohne Zuweisungsgehalt nutzen.
+- Schadensersatz und Bereicherung vermischen.
+- Lizenzwert ohne Methode schätzen.
+
+## Vermögenswerte Bestandteile des Persönlichkeitsrechts
+
+- **Recht am eigenen Bild §§ 22, 23 KUG:** kommerzielle Nutzung ohne Einwilligung verletzt; § 22 KUG verlangt Einwilligung des Abgebildeten oder Erben innerhalb 10 Jahren nach Tod.
+- **Namensrecht § 12 BGB:** unbefugte kommerzielle Verwendung des Namens für Werbung, Domain, Produktbezeichnung.
+- **Stimme:** kommerzielle Nutzung der Stimme einer Person (z. B. Werbespot mit nachgeahmter Stimme) — vermögenswerter Bestandteil des Persönlichkeitsrechts (BGH-Linie zur Marlene-Dietrich-Rechtsprechung).
+- **Persönlichkeitswert allgemein:** vermögenswerte Bestandteile sind nach BGH-Linie postmortal **vererblich** (anders als ideelle Bestandteile, die mit dem Tod erlöschen) — vermögenswerter Schutz erstreckt sich gem. § 22 S. 3 KUG analog auf 10 Jahre nach dem Tod (umstritten).
+
+## Schrankenfrei vs. zustimmungspflichtig
+
+- **§ 23 KUG-Ausnahmen** (Bildverwendung zulässig ohne Einwilligung):
+ - Bilder aus dem Bereich der Zeitgeschichte (§ 23 Abs. 1 Nr. 1 KUG) — abgestufte Wertung BVerfG/BGH.
+ - Bilder als Beiwerk (Nr. 2), Versammlungen/Aufzüge (Nr. 3), höhere Interessen der Kunst (Nr. 4).
+ - **Schranke der Schranke § 23 Abs. 2 KUG:** berechtigte Interessen des Abgebildeten dürfen nicht verletzt werden.
+- **Kommerzielle Nutzung:** nahezu immer zustimmungspflichtig, da kein § 23 Abs. 1 KUG.
+
+## Eingriffskondiktion — Berechnung
+
+- **Lizenzanalogie:** marktübliche Lizenzgebühr für vergleichbare Werbeverträge (Prominente, Kategorie, Umfang der Nutzung — Print, TV, Online, Dauer, Reichweite).
+- **Drei-fache Berechnungsmethode** (BGH-Linie zu Immaterialgüterrechten und Persönlichkeitsrechten):
+ 1. Konkreter Schaden.
+ 2. Verletzergewinn.
+ 3. Lizenzanalogie.
+- **Gewinnabschöpfung:** bei vorsätzlich-sittenwidriger Verletzung höhere Werte zulässig.
+
+## Konkurrenz und parallele Ansprüche
+
+- **§ 823 Abs. 1 BGB:** Schadensersatz (sonstiges Recht — Persönlichkeitsrecht).
+- **§ 1004 BGB analog:** Unterlassungsanspruch.
+- **DSGVO Art. 82:** Schadensersatz bei datenschutzrechtlich relevantem Eingriff (Personenbezug).
+- **Geldentschädigung wegen schwerer Persönlichkeitsverletzung:** eigenständiger ideeller Anspruch, kein Bereicherungsanspruch — BGH-Linie zur schwerwiegenden Persönlichkeitsverletzung.
+
+## Arbeitsausgabe
+
+| Punkt | Ergebnis | Belegbedarf |
+|---|---|---|
+| Anspruchsziel | [...] | [...] |
+| beteiligte Personen | [...] | [...] |
+| Vermögensvorteil | [...] | [...] |
+| Zweck/Zurechnung | [...] | [...] |
+| Rechtsgrund/Behaltensgrund | [...] | [...] |
+| § 818 BGB | [...] | [...] |
+| Einreden/Spezialregime | [...] | [...] |
+| vorläufiges Ergebnis | [...] | [...] |
+
+## Mini-Check vor Output
+
+- Kein Direktanspruch ohne begründete Zurechnung.
+- Kein Wertersatz ohne Bewertungsmethode.
+- Keine Entreicherung ohne konkreten Vermögensweg.
+- Keine Saldierung ohne beiderseitige Leistungstabelle.
+- Offene Tatsachen bleiben als offen markiert.
+
+---
+
+Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.

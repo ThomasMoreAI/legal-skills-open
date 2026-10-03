@@ -1,11 +1,11 @@
 ---
 name: anrede-und-grussformeln
 title: Anrede und Grußformeln
-description: 'Anrede und Grussformeln in Anwaltskorrespondenz prufen und berufsrechtskonform optimieren. § 43a BRAO § 26 BORA Kollegialitätsgebot. Prüfraster: korrekte Anrede Titel akademischer Grad Kollegialformel Schlussformel Mandantensprache. Output: optimierte Anrede und Grussformel mit Begründung. Abgrenzung: nicht für den Briefkorpus (allgemeine-berufliche-korrespondenz).'
+description: 'Für Anrede und Grußformeln: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/anrede-und-grussformeln
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,17 +14,17 @@ language: de
 
 # Anrede und Grußformeln
 
-Dieser Skill regelt die korrekte Wahl von Anrede und Schlussformel in beruflicher Korrespondenz. Die richtige Anrede signalisiert Respekt und Professionalität — eine falsche oder zu lässige Anrede kann den gesamten Ton eines Schreibens beschädigen, noch bevor der eigentliche Inhalt gelesen wird.
+## Fachkern: Anrede und Grußformeln
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill regelt die korrekte Wahl von Anrede und Schlussformel in beruflicher Korrespondenz. Die richtige Anrede signalisiert Respekt und Professionalität — eine falsche oder zu lässige Anrede kann den gesamten Ton eines Schreibens beschädigen, noch bevor der eigentliche Inhalt gelesen wird.
 
 ## Triage zu Beginn
 1. Ist der Name des Empfaengers bekannt oder unbekannt?
-2. Welche Funktion hat der Empfaenger: Richter, Staatsanwalt, Kollegin, Mandant, Behoerde?
+2. Welche Funktion hat der Empfaenger: Richter, Staatsanwalt, Kollegin, Mandant, Behörde?
 3. Traeigt der Empfaenger akademische Grade (Dr., Prof.) oder Amtsbezeichnungen?
 4. Wie eng ist die Beziehung: erstmalig, laufend, langjahrig bekannt?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 25 BORA — Kollegialitaetsgebot: korrekte Anrede als Ausdruck gegenseitigen Respekts
@@ -32,9 +32,6 @@ Dieser Skill regelt die korrekte Wahl von Anrede und Schlussformel in berufliche
 - § 823 Abs. 1 BGB — Persoenlichkeitsrecht; fehlerhafte Titelanrede kann Verletzung sein
 - § 1 BJagdG analog — Respekt vor Amtstiteln in hoheitlichem Schriftverkehr
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Output-Template: Anrede-Empfehlung
 
 **Situation:** [Beschreibung Adressat und Kontext]
@@ -47,6 +44,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 | Bekannter Kollege | Lieber Herr [NAME], | Herzliche Gruesse |
 
 **Begruendung:** [Verweis auf Norm oder Konvention]
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Hierarchie der Anreden
 
@@ -79,6 +84,4 @@ Die Wahl der Schlussformel spiegelt die Intensität der Förmlichkeit wider. "Mi
 **Vorher:** (kein Abschlusssatz, nur Unterschrift)
 **Nachher:** "Mit freundlichen Grüßen" / "Mit kollegialen Grüßen"
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Empfohlene Anrede in der konkreten Situation. (2) Alternative Anreden nach Förmlichkeitsgrad. (3) Empfohlene Schlussformel. (4) Begründung mit Verweis auf berufsrechtliche oder konventionelle Grundlage.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,11 +5,14 @@ description: Austrian family law procedures — consensual and contested divorce
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-familie-verfahren
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: family
 language: de
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht familie-verfahren — Familienrechtliche Verfahren (Procedural)

@@ -1,11 +1,11 @@
 ---
 name: spaltenprompts-definieren
 title: /tabellenreview-3d:spaltenprompts-definieren
-description: 'Spaltenprompts für die drei Prüfperspektiven des 3D-Tabellenreviews definieren. Normen: §§ 174 ff. InsO. Prüfraster: Prompt-Formulierung je Spalte, Normverankerung, Eindeutigkeit. Output: Spaltenprompts-Dokument. Abgrenzung: nicht Zeilenprompts.'
+description: 'Für /tabellenreview-3d:spaltenprompts-definieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/spaltenprompts-definieren
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:spaltenprompts-definieren
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Die erste Würfel-Achse — Spalten — ist die wichtigste. Ein schlechter Spaltenprompt erzeugt schlechte Zellen über den gesamten Stapel. Dieser Skill kuratiert Spaltenprompts: aus Bibliothek wählen, anpassen, neu schreiben.
 
 ## Bibliothek (Auszug)
 
@@ -61,15 +54,15 @@ Die erste Würfel-Achse — Spalten — ist die wichtigste. Ein schlechter Spalt
 
 ```yaml
 - id: change-of-control
-  titel: "Change of Control"
-  prompt: |
-    Enthält der Vertrag eine Klausel die bei Kontrollwechsel ...
-  antworttyp: zitat-mit-fundstelle
-  pflichtfeld: true
-  ampel-regel:
-    rot: "Klausel vorhanden + harte Kündigungsfolge ohne Heilung"
-    gelb: "Zustimmungsvorbehalt mit unklarer Schwelle"
-    gruen: "Keine Klausel oder branchenüblicher Standard"
+ titel: "Change of Control"
+ prompt: |
+ Enthält der Vertrag eine Klausel die bei Kontrollwechsel ...
+ antworttyp: zitat-mit-fundstelle
+ pflichtfeld: true
+ ampel-regel:
+ rot: "Klausel vorhanden + harte Kündigungsfolge ohne Heilung"
+ gelb: "Zustimmungsvorbehalt mit unklarer Schwelle"
+ gruen: "Keine Klausel oder branchenüblicher Standard"
 ```
 
 ## Ausgabe
@@ -77,6 +70,16 @@ Die erste Würfel-Achse — Spalten — ist die wichtigste. Ein schlechter Spalt
 - `spaltenprompts.yaml` — fertige Spaltenprompts mit allen Pflichtfeldern
 - Optional: `spaltenprompt-bibliothek.yaml` als wiederverwendbare Bibliothek
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Grenzen
 
 Spaltenprompts ersetzen nicht das Lesen des Dokuments. Sie machen das Lesen reproduzierbar und vergleichbar.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: anfg-fristen-und-anfechtungszeitraum
 title: Fristen und Anfechtungszeitraum — AnfG
-description: 'Anfechtungsfristen im außerinsolvenzlichen Anfechtungsrecht bestimmen: zehn Jahre Vorsatzanfechtung, vier Jahre unentgeltliche Leistung. Normen: §§ 3 4 AnfG, §§ 195 199 BGB. Prüfraster: Fristbeginn, Fristberechnung, Verjährungsverhältnis, Hemmungstatbestände. Output: Fristenblatt mit Anfechtungszeiträumen. Abgrenzung: nicht InsO-Anfechtungsfristen §§ 130 ff. InsO.'
+description: 'Für Fristen und Anfechtungszeitraum — AnfG: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-fristen-und-anfechtungszeitraum
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -29,13 +29,6 @@ language: de
 - §§ 195 199 BGB — Verjährungsfrist 3 Jahre ab Kenntnis Jahresende
 - §§ 203-211 BGB — Hemmung der Verjährung (Verhandlungen, Klageerhebung)
 
-## Rechtsprechung (BGH — Leitsätze Fristen AnfG)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Überblick Anfechtungsfristen
 
 | Anfechtungstatbestand | Frist | Fristbeginn |
@@ -71,3 +64,10 @@ Der Anfechtungsanspruch verjährt nach § 15 AnfG in drei Jahren (§ 195 BGB), b
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+
+## Materien- und Quellenkontrolle
+
+Anfechtung einer Willenserklärung nach Paragraf 119 oder 123 BGB, bereicherungsrechtliche Rückabwicklung nach Paragraf 812 folgende BGB, Gläubigeranfechtung nach dem Anfechtungsgesetz und Insolvenzanfechtung nach Paragraf 129 folgende InsO sind getrennte Anspruchssysteme. Zuerst Anspruchsberechtigter, Anfechtungsgegner, Rechtshandlung, Benachteiligung, subjektive Merkmale, Frist und Rechtsfolge bestimmen. Eine Entscheidung aus einem anderen System nur nach ausdrücklicher Prüfung ihrer Übertragbarkeit verwenden; jedes Zitat benötigt Gericht, Datum, Aktenzeichen, tragende Aussage und Quelle.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

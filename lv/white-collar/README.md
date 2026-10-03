@@ -10,7 +10,7 @@ Jurisdiction: `lv` · Practice: `white-collar` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`latvia-company-registry`](skills/latvia-company-registry-nolpak14/) | Look up Latvian companies for free via the official Register of Enterprises (Uznemumu registrs) open data on… |
+| [`latvia-company-registry`](skills/latvia-company-registry-nolpak14/) | Look up Latvian companies for free via the official Register of Enterprises (Uznemumu registrs) open… |
 
 ## Cold-start context
 

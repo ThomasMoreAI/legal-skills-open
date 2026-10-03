@@ -5,12 +5,20 @@ description: Use when users say "Companies House search", "investigate this UK c
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/corporate-registry-investigation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: corporate
 language: en
-tags: [companies-house, investigation, registry, due-diligence, uk]
+tags:
+- companies-house
+- investigation
+- registry
+- due-diligence
+- uk
+sources:
+- title: Companies house investigation model
+  path: references/companies-house-investigation-model.md
 ---
 
 # corporate-registry-investigation

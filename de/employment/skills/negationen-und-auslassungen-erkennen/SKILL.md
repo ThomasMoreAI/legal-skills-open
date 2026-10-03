@@ -1,26 +1,29 @@
 ---
 name: negationen-und-auslassungen-erkennen
 title: Negationen und Auslassungen erkennen
-description: 'Erkennt fehlende Pflichtaussagen im Arbeitszeugnis: Was nicht gesagt wird, ist oft entscheidend. Prüft Checkliste auf fehlende Loyalität, Ehrlichkeit, Pünktlichkeit und andere Standardaussagen und bewertet Auslassungen nach Ampelsystem.'
+description: 'Für Negationen und Auslassungen erkennen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/negationen-und-auslassungen-erkennen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Negationen und Auslassungen erkennen
 
-Im deutschen Arbeitszeugnisrecht gilt ein fundamentaler Grundsatz: Was weggelassen wird, sagt häufig mehr als das, was gesagt wird. Da Arbeitgeber verpflichtet sind, ein wohlwollendes Zeugnis auszustellen, können sie negative Eigenschaften nicht direkt benennen. Die Alternative ist das strategische Weglassen positiver Aussagen. Fehlende Standardformulierungen lassen sich daher als verdeckte Negativaussagen lesen.
+## Fachlicher Anker
 
-Typische Auslassungen betreffen: Ehrlichkeit und Integrität (wenn diese Eigenschaften nicht erwähnt werden, entsteht der Verdacht auf Unregelmäßigkeiten), Pünktlichkeit (bei einem Zeugnis ohne jede Aussage zur Zuverlässigkeit im zeitlichen Sinne), Loyalität (fehlende Loyalitätsaussage bei Führungskräften ist ein rotes Signal), und Eigeninitiative (kein Wort zur selbstständigen Arbeitsweise bei einer Position, die Eigenverantwortung erfordert).
-
-Subtile Negationsformen: Manchmal werden negative Eigenschaften durch das Muster "Er hat nie..." oder "Zu keiner Zeit..." kodiert. Diese scheinbar positiven Verneinungen können seltsam betont wirken und auf das Gegenteil hinweisen — eine sogenannte Verneinungs-Doppelung. "Es wurde nie ein Verdacht laut" ist eine bekannte Warnung vor Unregelmäßigkeiten. "Er war nicht in Vorfälle verwickelt" klingt entlastend, kann aber das Gegenteil suggerieren.
-
-Die Auslassungs-Checkliste wird nach Zeugnisart justiert: Ein einfaches Zeugnis hat andere Mindestinhalte als ein qualifiziertes Endzeugnis einer Führungskraft. Der Skill prüft systematisch alle positionsbezogen erwarteten Aussagen und kennzeichnet fehlende als rote oder orange Signale, ohne aus jeder Lücke automatisch einen Anspruch zu machen.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -46,15 +49,18 @@ Die Auslassungs-Checkliste wird nach Zeugnisart justiert: Ein einfaches Zeugnis 
 
 **Beispiel 5 – Fehlender Kundenkontakt-Verweis:** Vertriebsmitarbeiter-Zeugnis ohne ein einziges Wort zu Kunden oder Verkaufserfolgen → deutliches rotes Signal.
 
-## Ausgabeformat
-
-Der Skill gibt eine Auslassungs-Checkliste aus: Erwartete Aussage | Vorhanden (ja/nein) | Ampel | Begründung. Darunter folgt eine Liste aller erkannten Negationsformeln mit Interpretation. Die Gesamtzahl der fehlenden Standardaussagen fließt in die Gesamtnoten-Aggregation ein.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
-## Aktuelle Rechtsprechung
+## Leitentscheidungs-Anker (Empfaengerhorizont, Grenzen der Decodierung)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Diese Entscheidungen sind als Sucheinstieg gepflegt. Vor jeder Verwendung in Schriftsatz, Memo oder Mandantenbrief: konkrete Entscheidung in der freien Quelle (`bundesarbeitsgericht.de`, `dejure.org`, Rechtsprechungsportal des Bundes) live verifizieren - Datum, Aktenzeichen, Randnummer, Fortgeltung.
+
+| Entscheidung | Tragende Aussage | Freie Quelle |
+| --- | --- | --- |
+| **BAG, Urt. v. 21.06.2005 - 9 AZR 352/04** | Nach einer vom Arbeitnehmer veranlassten Berichtigung darf der Arbeitgeber unbeanstandete Zeugnisbestandteile grundsätzlich nicht grundlos verschlechtern; Zeugnisklarheit beurteilt sich nach dem objektiven Empfängerhorizont. | bundesarbeitsgericht.de / dejure.org |
+| **BAG, Urt. v. 15.11.2011 - 9 AZR 386/10** | Bestaetigung: "kennen gelernt" ist allein und losgeloest vom uebrigen Zeugnisinhalt kein unzulaessiger Geheimcode; Werturteile-Spielraum mit Grenze Zeugniswahrheit/-klarheit. | bundesarbeitsgericht.de / dejure.org |
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

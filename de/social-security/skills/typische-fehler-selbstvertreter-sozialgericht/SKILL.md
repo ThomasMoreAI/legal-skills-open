@@ -1,0 +1,153 @@
+---
+name: typische-fehler-selbstvertreter-sozialgericht
+title: Typische Fehler — und wie Sie sie vermeiden
+description: 'Für Typische Fehler — und wie Sie sie vermeiden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/typische-fehler-selbstvertreter-sozialgericht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Typische Fehler — und wie Sie sie vermeiden
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Worum geht es?
+
+Es gibt Fehler, die viele Buerger machen. Diese Skill zeigt sie alle — damit Sie sie nicht wiederholen.
+
+## In einfacher Sprache
+
+Andere haben schon viele Fehler gemacht. Lernen Sie daraus. Wir zeigen Ihnen die haeufigsten Fehler und wie Sie es besser machen.
+
+## Wann brauchen Sie diese Skill?
+
+- Bevor Sie wichtige Schritte machen.
+- Als Checkliste, um sicherzugehen.
+
+## Fachbegriffe
+
+(In der jeweiligen Skill bereits erklaert.)
+
+## Rechtsgrundlagen
+
+Generelle SGG- und SGB-Prüfung.
+
+## Schritt-für-Schritt-Anleitung
+
+### Fehler 1 — Frist verpasst
+
+**Problem**: Widerspruch nach 35 Tagen — Recht weg.
+
+**Loesung**: Frist sofort eintragen, mit Vor-Frist 7 Tage vorher, mit Smartphone-Reminder.
+
+### Fehler 2 — Falscher Empfaenger
+
+**Problem**: Widerspruch ans Gericht statt an die Behörde.
+
+**Loesung**: Widerspruch geht IMMER an die Behörde, Klage an das SG.
+
+### Fehler 3 — Kein Beweis für Versand
+
+**Problem**: Normalpost am letzten Tag — Brief verschollen.
+
+**Loesung**: Einschreiben, Fax, MJP oder persönliche Abgabe mit Stempel.
+
+### Fehler 4 — Keine Begruendung beigefuegt
+
+**Problem**: Nur "Widerspruch" geschrieben, keine Begruendung.
+
+**Loesung**: Widerspruch sofort einlegen, Begruendung kann nachgereicht werden. Frist sichern!
+
+### Fehler 5 — Genehmigungsfiktion uebersehen
+
+**Problem**: KK schweigt 8 Wochen, dann lehnt ab. Sie glauben, der Anspruch ist weg.
+
+**Loesung**: § 13 Abs. 3a SGB V — Antrag gilt als genehmigt nach 3 bzw. 5 Wochen.
+
+### Fehler 6 — Aerztliche Atteste alt
+
+**Problem**: Attest 3 Jahre alt — wirkt schwach.
+
+**Loesung**: Aktuelle Atteste einholen (nicht aelter als 6-12 Monate).
+
+### Fehler 7 — Pflegeprotokoll fehlt
+
+**Problem**: Im Pflegegrad-Streit nur Behauptungen.
+
+**Loesung**: 14 Tage tagesgenaues Pflegeprotokoll fuehren.
+
+### Fehler 8 — Versicherungsverlauf nicht geprueft
+
+**Problem**: EM-Rente-Antrag, ohne dass Wartezeit erfuellt ist.
+
+**Loesung**: Versicherungsverlauf bei DRV anfordern und prüfen.
+
+### Fehler 9 — Eilantrag ohne Notlage-Belege
+
+**Problem**: Eilantrag mit "ich brauche Geld" ohne Kontoauszuege.
+
+**Loesung**: Konkrete Notlage mit Belegen (Kontoauszug, Mahnungen).
+
+### Fehler 10 — Sanktion ohne Wichtigen Grund argumentiert
+
+**Problem**: Termin verpasst, keine Erklaerung.
+
+**Loesung**: Bei Krankheit AU-Bescheinigung; bei Familienpflicht Beleg; immer dokumentieren.
+
+### Fehler 11 — § 109 SGG ohne Geld
+
+**Problem**: Eigenes Gutachten beantragt, dann steht die Vorschuss-Forderung im Briefkasten.
+
+**Loesung**: Vorab Kosten klären; mit Anwalt oder Sozialverband sprechen.
+
+### Fehler 12 — Anwalt zu spaet
+
+**Problem**: Erst nach LSG-Niederlage einen Anwalt aufgesucht.
+
+**Loesung**: Beratungshilfe schon vor dem Widerspruch nutzen; bei laufenden Verfahren PKH.
+
+### Fehler 13 — Gutachten nicht widersprochen
+
+**Problem**: Negatives Gutachten akzeptiert.
+
+**Loesung**: Schriftliche Stellungnahme, ggf. § 109 SGG.
+
+### Fehler 14 — Vergleich vorschnell zugestimmt
+
+**Problem**: Im Termin schnell zugestimmt — Rest des Anspruchs verloren.
+
+**Loesung**: Bedenkzeit erbitten, mit Familie/VdK besprechen.
+
+### Fehler 15 — Berufungsfrist verpasst
+
+**Problem**: SG-Urteil bekommen, nach 5 Wochen Berufung versucht.
+
+**Loesung**: Innerhalb 1 Monat ab Zustellung; Frist sofort eintragen.
+
+## Worauf Sie besonders achten müssen
+
+- **Fristen oben halten**: 1 Monat für alles Wichtige.
+- **Beweise sammeln**: jede Behauptung mit Beleg.
+- **Aktualitaet**: Atteste, Pflegeprotokolle aktuell halten.
+
+## Typische Fehler
+
+Die gesamte Skill ist eine Aufzaehlung typischer Fehler — siehe oben Fehler 1 bis 15.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. Praxis-Erfahrung.

@@ -1,18 +1,31 @@
 ---
 name: reklamationsschreiben-cmr-hgb
-title: Reklamationsschreiben CMR und HGB
-description: 'Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten. Normen: § 438 HGB, Art. 30 CMR. Prüfraster: Reklamationsfrist sieben Tage, schriftliche Anzeige, Schadensnachweis. Output: Reklamationsschreiben HGB oder CMR. Abgrenzung: nicht Klageschrift.'
+title: 'Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten'
+description: 'Für Reklamationsschreiben für Ladungsschäden nach HGB oder CMR verfassen: Fristen beachten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-transport-speditionsrecht/skills/reklamationsschreiben-cmr-hgb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: transportation
 language: de
 ---
 
-# Reklamationsschreiben CMR und HGB
+# Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 407 ff. Frachtvertrag — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Reklamationsschreiben für Ladungsschaeden nach HGB oder CMR verfassen: Fristen beachten. Normen: § 438 HGB, Art. 30 CMR. Prüfraster: Reklamationsfrist sieben Tage, schriftliche Anzeige, Schadensnachweis. Output: Reklamationsschreiben HGB oder CMR. Abgrenzung: nicht Klageschrift.
+
+### Reklamationsschreiben CMR und HGB
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +43,7 @@ Das Reklamationsschreiben ist im Transport- und Speditionsrecht die entscheidend
 8. Ist die Identität des Frachtführers klar oder besteht eine Speditionskette mit Subfrachtführern?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -60,9 +73,6 @@ Das Reklamationsschreiben ist im Transport- und Speditionsrecht die entscheidend
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -87,7 +97,7 @@ Das Reklamationsschreiben ist im Transport- und Speditionsrecht die entscheidend
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -97,7 +107,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Variante C — Teilschaden | Quotelung; Selbstbeteiligung Versicherung koordinieren |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -119,7 +128,7 @@ Genaue Schadenbezifferung nach interner Prüfung vorbehalten.
 Alle Ansprüche aus dem Frachtvertrag bleiben ausdrücklich
 vorbehalten.
 
-[Unterschrift Empfänger]   [ggf. Unterschrift Fahrer]
+[Unterschrift Empfänger] [ggf. Unterschrift Fahrer]
 ```
 
 ### Baustein 2 – Förmliches Reklamationsschreiben (CMR Art. 30)
@@ -143,49 +152,49 @@ wir zeigen die anwaltliche Vertretung der [Mandantschaft]
 an und machen folgende Schadensersatzansprüche geltend:
 
 1. SACHVERHALT
-   Transport: von [Verladeort] nach [Entladeort]
-   Datum Übernahme: [Datum]
-   Datum Ablieferung: [Datum]
-   Sendung: [Bezeichnung], Bruttogewicht [X] kg
-   Wert laut Handelsrechnung: EUR [Betrag] (Anlage K1)
+ Transport: von [Verladeort] nach [Entladeort]
+ Datum Übernahme: [Datum]
+ Datum Ablieferung: [Datum]
+ Sendung: [Bezeichnung], Bruttogewicht [X] kg
+ Wert laut Handelsrechnung: EUR [Betrag] (Anlage K1)
 
 2. SCHADEN
-   Art: [vollständiger Verlust / Teilverlust / Beschädigung /
-         Lieferverspätung um [X] Tage]
-   Feststellung: [bei Annahme / nach Entpacken am Datum]
-   Vorbehalt im Frachtbrief: [ja/nein; Datum]
+ Art: [vollständiger Verlust / Teilverlust / Beschädigung /
+ Lieferverspätung um [X] Tage]
+ Feststellung: [bei Annahme / nach Entpacken am Datum]
+ Vorbehalt im Frachtbrief: [ja/nein; Datum]
 
 3. REKLAMATIONSFRIST
-   Die Reklamation erfolgt innerhalb der Fristen des
-   Art. 30 CMR / § 438 HGB:
-   – Bei erkennbarem Schaden: sofort bei Annahme
-     (Frachtbrief-Vorbehalt vom [Datum], Anlage K2)
-   – Bei verdecktem Schaden: innerhalb 7 Tage (Datum
-     Ablieferung [X], Frist endet [X+7 Werktage]).
+ Die Reklamation erfolgt innerhalb der Fristen des
+ Art. 30 CMR / § 438 HGB:
+ – Bei erkennbarem Schaden: sofort bei Annahme
+ (Frachtbrief-Vorbehalt vom [Datum], Anlage K2)
+ – Bei verdecktem Schaden: innerhalb 7 Tage (Datum
+ Ablieferung [X], Frist endet [X+7 Werktage]).
 
 4. SCHADENSBERECHNUNG
-   Verkehrswert der Sendung: EUR [Betrag]
-   Haftungshöchstbetrag Art. 23 CMR: [X] kg × 8.33 SZR
-   × Tageskurs [EUR/SZR] = EUR [Betrag]
-   [Bei qualifiziertem Verschulden Art. 29 CMR: voller
-   Schadenersatz EUR [Betrag]]
+ Verkehrswert der Sendung: EUR [Betrag]
+ Haftungshöchstbetrag Art. 23 CMR: [X] kg × 8.33 SZR
+ × Tageskurs [EUR/SZR] = EUR [Betrag]
+ [Bei qualifiziertem Verschulden Art. 29 CMR: voller
+ Schadenersatz EUR [Betrag]]
 
 5. BEWEISMITTEL
-   Anlage K1: Handelsrechnung
-   Anlage K2: Frachtbrief (Kopie mit Vorbehalt)
-   Anlage K3: Fotos des Schadens
-   Anlage K4: Sachverständigenprotokoll / Schadengutachten
+ Anlage K1: Handelsrechnung
+ Anlage K2: Frachtbrief (Kopie mit Vorbehalt)
+ Anlage K3: Fotos des Schadens
+ Anlage K4: Sachverständigenprotokoll / Schadengutachten
 
 6. FORDERUNG
-   Wir fordern Sie auf, bis zum [Datum, 14 Tage] folgende
-   Beträge zu zahlen:
-   – Schadensersatz: EUR [Betrag]
-   – Frachtrückerstattung: EUR [Betrag]
-   – Zinsen 5 % p.a. ab Reklamationsdatum (Art. 27 CMR)
-   – Gesamtforderung: EUR [Summe]
+ Wir fordern Sie auf, bis zum [Datum, 14 Tage] folgende
+ Beträge zu zahlen:
+ – Schadensersatz: EUR [Betrag]
+ – Frachtrückerstattung: EUR [Betrag]
+ – Zinsen 5 % p.a. ab Reklamationsdatum (Art. 27 CMR)
+ – Gesamtforderung: EUR [Summe]
 
-   Bei ausbleibender Zahlung behalten wir uns Klage vor.
-   Die Verjährungsfrist Art. 32 CMR endet am [Datum].
+ Bei ausbleibender Zahlung behalten wir uns Klage vor.
+ Die Verjährungsfrist Art. 32 CMR endet am [Datum].
 
 Mit freundlichen Grüßen
 [Kanzlei, Unterschrift]
@@ -196,27 +205,26 @@ Mit freundlichen Grüßen
 ```
 SCHADENSBERECHNUNG gemäß CMR Art. 23
 
-Sendung:           Maschinenteile, 850 kg Bruttogewicht
-Warenwert:         EUR 75.000 (Handelsrechnung, Anlage K1)
+Sendung: Maschinenteile, 850 kg Bruttogewicht
+Warenwert: EUR 75.000 (Handelsrechnung, Anlage K1)
 
 1. Haftungshöchstbetrag CMR Art. 23 Abs. 3:
-   850 kg × 8.33 SZR/kg = 7.080 SZR
-   × SDR-Kurs 1.33 EUR/SZR (Ablieferungstag) = EUR 9.417
+ 850 kg × 8.33 SZR/kg = 7.080 SZR
+ × SDR-Kurs 1.33 EUR/SZR (Ablieferungstag) = EUR 9.417
 
 2. Frachtanteil CMR Art. 23 Abs. 4:
-   Fracht EUR 1.200 + Zoll EUR 0 = EUR 1.200
+ Fracht EUR 1.200 + Zoll EUR 0 = EUR 1.200
 
 3. Anspruch bei Regelhaftung: EUR 9.417 + EUR 1.200 = EUR 10.617
 
 4. Bei qualifiziertem Verschulden Art. 29 CMR:
-   Warenwert EUR 75.000 + Frachtanteil EUR 1.200 = EUR 76.200
+ Warenwert EUR 75.000 + Frachtanteil EUR 1.200 = EUR 76.200
 
 Differenz zu regulärer Haftung: EUR 65.583
 → Nachweis qualifiziertes Verschulden Art. 29 CMR
-  Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -230,7 +238,6 @@ Differenz zu regulärer Haftung: EUR 65.583
 | Übernahme in ordnungsgemäßem Zustand | Absender/Empfänger; erleichtert durch Frachtbrief ohne Vorbehalt seitens Frachtführer |
 | Schaden zwischen Übernahme und Ablieferung | Anspruchsteller; durch Frachtbrief mit Vorbehalt und Fotos |
 | Haftungsausschluss CMR Art. 17 Abs. 2/4 | Frachtführer |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Wertdeklaration (erhöhte Haftung) | Absender: Nachweis des Eintrags im Frachtbrief; fehlender Eintrag geht zu seinen Lasten |
 
 ---
@@ -244,7 +251,7 @@ Differenz zu regulärer Haftung: EUR 65.583
 | 21 Tage nach Ablieferung | Lieferfristüberschreitung (Verspätung) | CMR Art. 30 Abs. 3, § 438 Abs. 4 HGB |
 | 1 Jahr ab Ablieferung | Verjährungsfrist (regulär) | CMR Art. 32, § 439 HGB |
 | 3 Jahre | Verlängerte Verjährung bei Vorsatz oder gleichstehendem Verschulden | CMR Art. 32 Abs. 1 S. 2 |
-| Ab schriftlicher Reklamation | Hemmung der Verjährung bis schriftliche Ablehnung | CMR Art. 32 Abs. 2, § 439 Abs. 3 HGB |
+| Ab qualifizierter Anspruchserhebung | HGB: Anspruchserhebung und Ablehnung in Textform; gleiche erneute Erklärung hemmt nicht nochmals. CMR: schriftliche Reklamation und eigene Voraussetzungen nach Art. 32 Abs. 2 separat prüfen | § 439 Abs. 3 HGB; CMR Art. 32 Abs. 2 |
 
 ---
 
@@ -252,9 +259,7 @@ Differenz zu regulärer Haftung: EUR 65.583
 
 | Gegenargument | Erwiderung |
 |---|---|
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 | "Schaden entstand nicht während Transport" | Frachtbrief ohne Beanstandungen seitens Frachtführer bei Übernahme begründet Vermutung ordnungsgemäßer Übergabe; Frachtführer muss gegenteiligen Beweis führen |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Reklamationsfrist verpasst; Anspruch erloschen" | § 438 HGB / Art. 30 CMR begründen nur Beweiserleichterung zugunsten des Frachtführers, kein materieller Anspruchsverlust; Anspruch bleibt bestehen, aber schwerer zu beweisen |
 | "Cargo-Versicherung hat bereits gezahlt; kein Schaden mehr" | Subrogation nach § 86 VVG; Versicherung tritt in Anspruch des Versicherungsnehmers ein; eigene Regulierung des Frachtführers gegenüber Versicherer möglich |
 
@@ -296,3 +301,5 @@ Differenz zu regulärer Haftung: EUR 65.583
 ## Quellen
 
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

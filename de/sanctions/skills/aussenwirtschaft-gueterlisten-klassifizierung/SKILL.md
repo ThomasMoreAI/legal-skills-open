@@ -1,123 +1,87 @@
 ---
 name: aussenwirtschaft-gueterlisten-klassifizierung
-title: Güterlisten- und Klassifizierungslog
-description: Klassifizierungsdossier für Exportkontrolle Zolltarif und Dual-Use-Einordnung. Anwendungsfall Produkt muss für Exportkontrolle und Zoll einheitlich klassifiziert werden. Normen EU-Dual-Use-Liste Anhang I Verordnung 2021/821 UZK Art. 33 VzTA Kombinierte Nomenklatur KN. Prüfraster Produktdaten Zolltarifnummer technische Parameter Gueterlistenbezug Dual-Use-Position offene Nachweise. Output Nachvollziehbares Klassifizierungsdossier mit CN-Code Dual-Use-Ergebnis und Begründungskette für BAFA und Zoll. Abgrenzung zu aussenwirtschaft-exportkontrolle-dual-use und aussenwirtschaft-zolltarif-vzta.
+title: 'Gueterlistenklassifizierung: Systematische Einreihung in Dual-Use und Ruestungsgueterlisten'
+description: 'Für Außenwirtschaft Güterlisten Klassifizierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-gueterlisten-klassifizierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sanctions
 language: de
 ---
 
-# Güterlisten- und Klassifizierungslog
+# Gueterlistenklassifizierung: Systematische Einreihung in Dual-Use und Ruestungsgueterlisten
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill verhindert Bauchgefühl-Einstufungen und zwingt zur dokumentierten technischen Prüfung.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Maschinenbauer fragt, ob seine neue Praezisionsfraesmaschine unter Kategorie 2B002 der Dual-Use-Liste faellt.
+- Chemiehersteller muss Exportkontrollstatus eines Vorlaeuferchemikals klaren; CWC-Bezug geprueft.
+- Ruestungsunternehmen exportiert Bauelemente; Abgrenzung EG-Dual-Use zu Kriegswaffe unklar.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. Produkt technisch vollstaendig beschreiben: Funktion, Parameter, Betriebsbedingungen, Software.
+2. Gueterliste systematisch durchsuchen: Anhang I VO (EU) 2021/821, Kategorien 0-9, alle Untereintraege.
+3. Technische Parameter mit Listenschwellenwerten abgleichen (z.B. Genauigkeit, Geschwindigkeit, Frequenz).
+4. Kriegswaffenliste prüfen (KrWaffKontrG Anlage), Abgrenzung zu ML-Position des Wassenaar-Arrangements.
+5. Bei Listentreffer: Eintrag genau dokumentieren mit Kategorie, Eintragsnummer und Schwellenwertvergleich.
+6. Ergebnis als Klassifizierungsgutachten dokumentieren; BAFA-Auskunftsverfahren bei Unsicherheit.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **Anhang I VO (EU) 2021/821**: EU-Dual-Use-Gueterliste, Kategorien EG0-EG9.
+- **KrWaffKontrG Anlage Teil A/B**: Kriegswaffenliste Deutschland.
+- **§ 1 KrWaffKontrG**: Genehmigungspflicht für Kriegswaffen.
+- **AWV Anlage AL**: Nationale Ausfuhrliste (komplementaer zur EU-Liste).
+- **Art. 3 VO (EU) 2021/821**: Genehmigungspflicht bei Listentreffer.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] Alle 10 Kategorien des Anhangs I VO (EU) 2021/821 systematisch durchsucht?
+- [ ] Technische Parameter exakt mit Schwellenwerten verglichen?
+- [ ] Kriegswaffenliste und Munitionsliste separat geprueft?
+- [ ] Nationale Ausfuhrliste (AWV Anlage AL) beachtet?
+- [ ] Abgrenzung EG-Dual-Use vs. ML-Gueter geklaert?
+- [ ] Klassifizierungsergebnis mit Listenstelle und Begruendung dokumentiert?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- Suche nach Produktbeschreibung ist unzureichend; nur Parametervergleich entscheidet.
+- Softwarekomponenten und technische Unterstuetzung können hoher klassifiziert sein als die Hardware.
+- Änderungen der Gueterliste (jaehrliche Aktualisierung) werden nicht nachverfolgt.
+- 'Entwickelt für' vs. 'geeignet für': Kriterium variiert je nach Listeneintrag.
 
-## Triage vor Guterlistenklassifizierung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Klassifizierung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Liegt ein Datenblatt oder eine technische Spezifikation vor, die alle sicherheitsrelevanten Parameter (Frequenzen, Reichweiten, Material, Toleranzen) beschreibt?
-2. Ist die Ware oder Technologie dual-use-verdaechtig oder ausschliesslich zivil verwendbar?
-3. Welche Ausfuhrliste(n) sind relevant — EU-Dual-Use-Anhang I, nationale Ausfuhrliste (AWV Anlage AL), MTCR-Raketentechnologie, NSG-Nuklear, AG-Chemiewaffen?
-4. Liegt eine uebereinstimmende Einordnung eines anderen EU-Mitgliedstaates oder des Herstellers vor (Hersteller-Klassifizierung)?
-5. Soll eine verbindliche Auskunft bei der BAFA eingeholt werden, oder reicht interne Expertenmeinung?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-## Normen-Kette Guterlistenklassifizierung
+## Quellen
 
-- Anhang I VO (EU) 2021/821 — EU-Dual-Use-Guterliste (Kategorien 0-9)
-- AWV Anlage AL — Nationale Ausfuhrliste
-- Kategorie ML (Military List) — Rustungsguterliste
-- MTCR Annex I/II — Raketentechnologie-Kontrollregime
-- NSG Part I/II — Nuklearer Lieferantenkreis
-- AG-Kontrolllisten — Chemische und Biologische Vorlaeufer
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: Guterlistenklassifizierung
-
-**Adressat:** Exportkontroll-Sachbearbeiter — **Tonfall:** technisch-regulatorisch, quellengenau
-
-```
-GUTERLISTENKLASSIFIZIERUNGSVERMERK
-Datum: [DATUM]
-Produkt: [HANDELSNAME]
-Technische Parameter: [SCHLUESSELDATEN — z.B. Frequenz, Reichweite, Werkstoffe]
-Bearbeiter: [NAME]
-
-1. EU-DUAL-USE (Anh. I VO (EU) 2021/821)
-   Gepruefter Code: [z.B. 5A002.a.1] — Beschreibung: [AUSZUG LISTENTEXT]
-   Ergebnis: [ ] Erfasst / [ ] Nicht erfasst / [ ] Grenzfall
-
-2. NATIONALE AUSFUHRLISTE (AWV Anlage AL)
-   Gepruefter AL-Code: [CODE] — Ergebnis: [ ] Erfasst / [ ] Nicht erfasst
-
-3. CATCH-ALL-PRUEFUNG (Art. 4 VO (EU) 2021/821)
-   Red Flags bekannt: [ ] Nein / [ ] Ja: [Beschreibung]
-   Catch-All ausgeloest: [ ] Nein / [ ] Ja — Begruendung: [...]
-
-4. WEITERE KONTROLLREGIME
-   [ ] ML (Rustung): [Code / entfallt]
-   [ ] MTCR: [Code / entfallt]
-   [ ] NSG: [Code / entfallt]
-   [ ] AG: [Code / entfallt]
-
-5. ERGEBNIS
-   Genehmigungspflichtig: [ ] Nein / [ ] Ja — Grundlage: [NORM]
-   BAFA-Auskunft empfohlen: [ ] Ja / [ ] Nein
-   Dokumentation abgelegt: [ABLAGEORT]
-```
-
-<!-- AUDIT 27.05.2026
-Halluzinations-Reparatur Bundle 014:
--->
+- [VO (EU) 2021/821 Anhang I auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32021R0821)
+- [BAFA Gueterlisten](https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Dual_Use/Gueterlisten/gueterlisten_node.html)
+- [KrWaffKontrG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/krwaffkontrg/index.html)
+- [AWV Anlage AL](https://www.gesetze-im-internet.de/awv_2013/index.html)

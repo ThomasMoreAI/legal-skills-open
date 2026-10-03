@@ -1,11 +1,11 @@
 ---
 name: portfolio-status
 title: Prozessportfolio-Status
-description: 'Statusuebersicht aller laufenden Prozessmandate: Fristen, Verfahrensstand, naechste Schritte. Normen: ZPO, RVG. Prüfraster: Fristenliste, offene Anträge, Termine, Mahnfristen. Output: Portfolio-Statusbericht Prozessmandate. Abgrenzung: nicht Einzelmandat-Briefing.'
+description: 'Für Prozessportfolio-Status: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/prozessrecht/skills/portfolio-status
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Prozessportfolio-Status
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor der Übersicht
 
@@ -23,24 +31,17 @@ language: de
 5. **CLAUDE.md geladen:** Ist das Praxisprofil (Risikokalibrierung, Wesentlichkeitsschwelle) aktuell?
 
 ## Zentrale Normen
-- § 43a Abs. 3 BRAO (Sorgfaltspflicht — Fristenkontrolle)
-- § 43a Abs. 6 BRAO (Pflicht zur zeitnahen Mandatsbearbeitung)
-- § 196 BGB (Verjährung von Ansprüchen auf Übertragung von Rechten)
-- § 232 ff. ZPO (Fristen und Wiedereinsetzung)
-- § 233 ZPO (Wiedereinsetzung in den vorigen Stand bei Fristversäumnis)
+- Paragraf 43a Abs. 3 BRAO (Sorgfaltspflicht — Fristenkontrolle)
+- Paragraf 43a Abs. 6 BRAO (Pflicht zur zeitnahen Mandatsbearbeitung)
+- Paragraf 196 BGB (Verjährung von Ansprüchen auf Übertragung von Rechten)
+- Paragraf 232 ff. ZPO (Fristen und Wiedereinsetzung)
+- Paragraf 233 ZPO (Wiedereinsetzung in den vorigen Stand bei Fristversäumnis)
 
 ## Rechtsprechung (ergänzt)
 1. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 2. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 4. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Eine Abfrage, die beantwortet: Was führe ich gerade, was erfordert Aufmerksamkeit, was droht zu versanden? Die Ausgabe ist auf schnelles Überfliegen ausgelegt — geeignet für einen Anwalt, der drei Minuten vor dem nächsten Termin hat. Lädt bei allen Anfragen zu einer Gesamtübersicht aktiver oder aller Prozessmandate.
 
 ## Eingaben
 
@@ -52,20 +53,17 @@ Eine Abfrage, die beantwortet: Was führe ich gerade, was erfordert Aufmerksamke
 
 ### Kernvorschriften
 
-- **§ 43a Abs. 1 BRAO i.V.m. § 11 BORA** — Sorgfaltspflicht; lückenlose Fristen- und Sachstandskontrolle als Berufspflicht; Verfahren ohne aktuellen Eintrag können auf Versäumnisse hinweisen.
-- **§§ 214–233 ZPO; §§ 516, 520, 548, 569 ZPO** — Fristen im Zivilprozess; versäumte Fristen sind einer der häufigsten Anwaltshaftungsgründe.
-- **§ 317 StPO** — Berufungsfrist im Strafverfahren (eine Woche ab Urteilsverkündung); besondere Überwachungspflicht.
-- **§ 74 VwGO** — Klagefrist im Verwaltungsgerichtsverfahren (ein Monat); versäumt grundsätzlich nicht wiedereinsetzungsfähig.
-- **§ 249 HGB** — Rückstellungspflicht für drohende Verluste aus schwebenden Rechtsstreitigkeiten; relevant für die Wesentlichkeitsklassifizierung.
-- **§ 285 Nr. 3a HGB; § 340e Abs. 3 HGB** — Offenlegung wesentlicher Rechtsstreitigkeiten im Jahresabschluss; Berührungspunkt mit der Wesentlichkeitskennzeichnung.
-
-### Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Paragraf 43a Abs. 1 BRAO i.V.m. Paragraf 11 BORA** — Sorgfaltspflicht; lückenlose Fristen- und Sachstandskontrolle als Berufspflicht; Verfahren ohne aktuellen Eintrag können auf Versäumnisse hinweisen.
+- **Paragrafen 214–233 ZPO; Paragrafen 516, 520, 548, 569 ZPO** — Fristen im Zivilprozess; versäumte Fristen sind einer der häufigsten Anwaltshaftungsgründe.
+- **Paragraf 317 StPO** — Berufungsfrist im Strafverfahren (eine Woche ab Urteilsverkündung); besondere Überwachungspflicht.
+- **Paragraf 74 VwGO** — Klagefrist im Verwaltungsgerichtsverfahren (ein Monat); versäumt grundsätzlich nicht wiedereinsetzungsfähig.
+- **Paragraf 249 HGB** — Rückstellungspflicht für drohende Verluste aus schwebenden Rechtsstreitigkeiten; relevant für die Wesentlichkeitsklassifizierung.
+- **Paragraf 285 Nr. 3a HGB; Paragraf 340e Abs. 3 HGB** — Offenlegung wesentlicher Rechtsstreitigkeiten im Jahresabschluss; Berührungspunkt mit der Wesentlichkeitskennzeichnung.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 1: Kontext laden
@@ -95,18 +93,7 @@ Sieben Prüfregeln (Details im Abschnitt Auffälligkeitsregeln).
 
 Abschluss mit Nächste-Schritte-Entscheidungsbaum gemäß Kanzleikonfiguration `## Ausgaben`. Optionen an die Ausgabe anpassen (Entwurf erstellen, eskalieren, weitere Fakten beschaffen, beobachten, anderes). Bei mehr als ca. 10 Mandaten oder auf Anfrage: Dashboard-Angebot (Risikoverteilung, Fristatimeline, sortierbare Mandatsliste mit Status und letztem Bearbeitungsdatum).
 
-## Ausgabeformat
-
 ```markdown
-[ARBEITSERGEBNIS-KOPFZEILE — gemäß Kanzleikonfiguration]
-
-# Prozessportfolio-Status — [heute]
-
-**Aktive Mandate:** [N]
-**Geschlossen (lfd. Jahr):** [N] *(nur bei --alle)*
-
----
-
 ## Nach Risiko
 
 | Risiko | Anzahl | Mandate |
@@ -169,7 +156,7 @@ Abschluss mit Nächste-Schritte-Entscheidungsbaum gemäß Kanzleikonfiguration `
 - Überfällige Fristen: keine
 - Veraltet (>30 Tage): bauer-ag-revision-2024 (45 Tage)
 - Kritisches Risiko ohne externe Bevollmächtigte: mueller-gmbh-strafverfolgung-2025
-  → Empfehlung: unverzüglich externe Strafverteidigung mandatieren
+ → Empfehlung: unverzüglich externe Strafverteidigung mandatieren
 ```
 
 ## Auffälligkeitsregeln
@@ -192,8 +179,7 @@ Abschluss mit Nächste-Schritte-Entscheidungsbaum gemäß Kanzleikonfiguration `
 
 ## Quellenpflicht
 
-- Gesetzestexte: §§ 43a BRAO; § 11 BORA; §§ 214 ff., 516, 520, 548, 569 ZPO; § 317 StPO; § 74 VwGO; §§ 249, 285 HGB
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Gesetzestexte: Paragrafen 43a BRAO; Paragraf 11 BORA; Paragrafen 214 ff., 516, 520, 548, 569 ZPO; Paragraf 317 StPO; Paragraf 74 VwGO; Paragrafen 249, 285 HGB
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.

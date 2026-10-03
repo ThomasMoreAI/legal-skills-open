@@ -1,0 +1,69 @@
+---
+name: wegh-verwalterhaftung-spezial
+title: 'WEGh: Verwalterhaftung'
+description: 'Für WEGh: Verwalterhaftung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/wegh-verwalterhaftung-spezial
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# WEGh: Verwalterhaftung
+
+## Fachlicher Anker
+
+- **Normen:** §§ 535, §§ 18, § 16 Abs. 2.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: WEGh: Verwalterhaftung
+- **Normen-/Quellenanker:** WEG §§ 18-28, 44/45, BGB-Miet-/Werkvertragsrecht, BetrKV, HeizkostenV, GEG, DSGVO und landesrechtliche Bau-/Sicherheitsfragen.
+- **Entscheidende Weiche:** Trenne Beschlusskompetenz, ordnungsmäßige Verwaltung, Kostenverteilung, Anfechtungsfrist, Verwalterpflicht, Belegprüfung und Vollzug.
+
+## Fallweichen
+Frage zu Beginn nur ab, was für den naechsten Schritt unverzichtbar ist. Wenn Material vorliegt, mit dem Material arbeiten und nur eine gezielte Rueckfrage stellen.
+
+1. **Rolle und Ziel:** Wer fragt, welche Rolle, welcher gewuenschte Output (Memo, Schriftsatz, Tabelle, Checkliste)?
+2. **Sachverhalt:** Welche unstreitigen Tatsachen liegen vor, was ist streitig, was fehlt noch?
+3. **Fristen:** Gibt es Termine, Fristen, eilbeduerftige Schritte?
+4. **Unterlagen:** Welche Dokumente, Bescheide, Verträge, Auszuege liegen vor?
+5. **Format:** Wie ausfuehrlich, für wen, in welcher Tonalitaet?
+
+## Prüfraster
+
+Der Output muss als verwertbares Arbeitsprodukt aufgebaut sein:
+
+1. **Sachverhalt fixieren** - streitige und unstreitige Tatsachen trennen, Lueckentafel.
+2. **Rechtliche Einordnung** - einschlaegige Normen, Rechtsprechung BGH/BVerfG/EuGH, Literatur.
+3. **Prüfung im Gutachtenstil** - Obersatz, Definition, Subsumtion, Zwischenergebnis.
+4. **Handlungsempfehlung** - konkret, mit naechstem Schritt, verantwortlicher Person, Frist.
+
+## Plugin-Kontext
+Dieses Fachmodul arbeitet den konkreten Schwerpunkt aus, prüft Aktenlage, Normen, Fristen, Belege und Gegenargumente und erzeugt einen unmittelbar nutzbaren nächsten Schritt.
+
+## Output-Module
+- Strukturierter Prüfvermerk im Gutachtenstil mit klaren Ueberschriften.
+- Tabellen und Checklisten, wo das die Lesbarkeit erhoeht.
+- Anschreiben-, Antrags- oder Klageschriftsatz-Geruest, wenn die Aufgabe das verlangt.
+- Quellenliste mit Gericht, Datum, Aktenzeichen, frei prüfbarem Link.
+
+## Was dieser Arbeitsgang nicht macht
+- Kein Ersatz für eine vollstaendige Mandantenberatung.
+- Keine Festlegung des Mandanten ohne dessen ausdrueckliche Entscheidung.
+- Keine Bewertung von Tatsachen, die nicht durch Unterlagen oder klare Mandantenangaben gedeckt sind.
+- Bei erkennbaren Interessenkonflikten oder Berufsrechtsfragen Hinweis an den fallfuehrenden Anwalt.
+
+## Haftung nach Aufgaben- und Ursachenzuordnung
+
+V ZR 34/24 vom 05.07.2024, Rn. 18–24: Keine Schutzwirkung des Verwaltervertrags zugunsten einzelner Eigentümer; deliktische Direktansprüche nicht ausgeschlossen. V ZR 18/25 vom 27.02.2026, Rn. 16–24: keine automatische Haftung für jeden Schaden aus Gemeinschaftseigentum. Kenntnis, gebotene Reaktion, rechtzeitige Entscheidungs-/Sanierungsmöglichkeit, Verschulden, konkreten Schaden und hypothetischen schadensvermeidenden Ablauf belegen. Eigentümeranspruch gegen GdWE und deren Regress getrennt ausformulieren; bei unwirksamer Bestellung zusätzlich V ZR 76/25 vom 30.01.2026, Rn. 18–19, prüfen.
+
+Die amtlichen Volltexte, exakten Daten und Anwendungsgrenzen stehen in der [Arbeitsreferenz Oktober 2026](../../references/rechtsstand-oktober-2026.md).

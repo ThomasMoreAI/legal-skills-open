@@ -10,8 +10,8 @@ Jurisdiction: `in` · Practice: `arbitration` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`ADR Brief Drafter`](skills/adr-brief-drafter-rohasnagpal/) | Drafts the brief a party submits to a mediator or conciliator ahead of a session — position, facts,… |
-| [`Arbitral Award Enforcement Advisor`](skills/arbitral-award-enforcement-advisor-rohasnagpal/) | Advises on recognition, challenge resistance and enforcement of an arbitral award in India, distinguishing… |
+| [`ADR Brief Drafter`](skills/adr-brief-drafter-rohasnagpal/) | Drafts the brief a party submits to a mediator or conciliator ahead of a session — position, facts… |
+| [`Arbitral Award Enforcement Advisor`](skills/arbitral-award-enforcement-advisor-rohasnagpal/) | Advises on recognition, challenge resistance and enforcement of an arbitral award in India… |
 
 ## Cold-start context
 

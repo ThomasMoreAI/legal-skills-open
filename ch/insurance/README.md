@@ -8,7 +8,7 @@ Jurisdiction: `ch` · Practice: `insurance` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`Schadenfall-Guide & Entscheidungslogik`](skills/claims-guide/) | Schadenfall-Guide und Entscheidungslogik. Leitet Schritt fuer Schritt durch jeden Schadenfall (Unfall,… |
+| [`Schadenfall-Guide & Entscheidungslogik`](skills/claims-guide/) | Schadenfall-Guide und Entscheidungslogik. Leitet Schritt fuer Schritt durch jeden Schadenfall (Unfall… |
 
 ## Cold-start context
 

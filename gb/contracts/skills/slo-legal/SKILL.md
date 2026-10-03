@@ -5,11 +5,34 @@ description: 'Use this skill when a UK seed-stage founder needs first-cut legal 
 author: kerberosmansour
 author_url: https://github.com/kerberosmansour/SunLitOrchestra/tree/main/skills/slo-legal
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: contracts
 language: en
+sources:
+- title: Artifact schema
+  path: references/biz/artifact-schema.md
+- title: Cost baseline jpp law 2026
+  path: references/biz/cost-baseline-jpp-law-2026.md
+- title: Ico duaa index
+  path: references/biz/ico-duaa-index.md
+- title: Jurisdiction uk
+  path: references/biz/jurisdiction-uk.md
+- title: Legal intake contract
+  path: references/biz/legal-intake-contract.md
+- title: Onenda uk
+  path: references/biz/templates/onenda-uk.md
+- title: Triage gate
+  path: references/biz/triage-gate.md
+- title: Uk consumer statute anchors
+  path: references/biz/uk-consumer-statute-anchors.md
+- title: Uk employment statute anchors
+  path: references/biz/uk-employment-statute-anchors.md
+- title: Uk marketing statute anchors
+  path: references/biz/uk-marketing-statute-anchors.md
+- title: Uk regulator enumeration
+  path: references/biz/uk-regulator-enumeration.md
 ---
 
 # /slo-legal — UK legal advisor + first-cut document drafter

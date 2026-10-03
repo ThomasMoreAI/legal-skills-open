@@ -5,11 +5,16 @@ description: Austrian asylum and immigration appeals — drafting Beschwerde aga
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-asyl-beschwerde
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: immigration
 language: de
+sources:
+- title: Ogh case presentation
+  path: references/ogh-case-presentation.md
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht asyl-beschwerde — Asyl-Beschwerde und Rechtsmittel (Procedural)

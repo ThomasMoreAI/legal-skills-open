@@ -1,0 +1,52 @@
+---
+name: agb-anwaltsvertrag-allg-mandatsbedingungen
+title: Agb Anwaltsvertrag Und Allg Mandatsbedingungen
+description: 'Für AGB Anwaltsvertrag und Allg Mandatsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: AGB-Recht-Prüfer. Route: agb-anwaltsvertrag-allg-mandatsbedingungen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/agb-recht-pruefer/skills/agb-anwaltsvertrag-allg-mandatsbedingungen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: contracts
+language: de
+---
+
+# Agb Anwaltsvertrag Und Allg Mandatsbedingungen
+
+## Fachkern: Agb Anwaltsvertrag Und Allg Mandatsbedingungen
+
+- **Klauselproblem (Agb Anwaltsvertrag Und Allg Mandatsbedingungen):** AGB im Anwaltsvertrag und Allgemeine Mandatsbedingungen. Skill klaert die AGB-rechtliche Prüfung typischer Mandatsbedingungen Verguetungsklauseln Verzugsregelungen Verschwiegenheit Auflagen RVG-konforme Honorarvereinbarungen und Sondervorschriften der BRAO. Liefert Prüfraster.
+- **AGB-Weiche:** Einbeziehung (§ 305 BGB), überraschende Klausel (§ 305c BGB), Transparenz (§ 307 Abs. 1 S. 2 BGB), Inhaltskontrolle (§§ 307-309 BGB), Rechtsfolge (§ 306 BGB) und Prozess-/Verbandsrisiko sauber trennen.
+- **Beleglogik:** Originalklausel, Vertragsumfeld, Verwendungsnachweis, Verhandlungsspuren, Kundengruppe, Marktstandard und wirtschaftliche Wirkung als Matrix erfassen.
+- **Arbeitsprodukt:** Klauselampel, Redline, Ersatzformulierung, Verhandlungsposition und gerichtsfeste Kurzbegründung mit Live-Check amtlicher Normenquellen.
+
+## Norm
+
+- §§ 305-310 BGB.
+- BRAO §§ 43, 49b zur Honorarvereinbarung.
+- RVG.
+
+## Typische Klauseln
+
+### Honorar
+- Honorarvereinbarung in Textform (§ 3a RVG) erforderlich.
+- AGB-Klauseln müssen Pauschalierungen und Mindesthonorare klar darlegen.
+
+### Auslagenpauschale
+- Pauschalierte Telekommunikationskosten - Verifizierung der Anforderungen.
+- BGH IX ZR 119/14 zur Anwaltshonorarvereinbarung.
+
+### Haftungsbeschraenkung
+- § 52 BRAO: in vorformulierten Mandatsbedingungen ist eine Haftungsbeschraenkung nur für einfache Fahrlaessigkeit und nur bis zur vierfachen Mindestversicherungssumme zulässig (§ 51 Abs. 4 BRAO; Mindestversicherungssumme 250.000 Euro pro Versicherungsfall, somit Obergrenze in AGB 1 Mio. Euro); § 51a BRAO regelt demgegenueber die Berufshaftpflicht von Berufsausuebungsgesellschaften.
+- Hoehere Pflicht bei groberen Faellen.
+
+### Verschwiegenheit
+- Im Anwaltsvertrag zwingend (§ 43a Abs. 2 BRAO).
+
+## Prüfraster
+
+1. Honorarvereinbarung formgerecht?
+2. RVG-Konformitaet?
+3. Haftungsbeschraenkung im Rahmen § 52 BRAO (nur einfache Fahrlaessigkeit, max. vierfache Mindestversicherungssumme)?
+4. Beratungspflichten?

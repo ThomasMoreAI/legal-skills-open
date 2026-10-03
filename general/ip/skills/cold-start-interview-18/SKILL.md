@@ -1,60 +1,63 @@
 ---
 name: cold-start-interview-18
-title: /cold-start-interview
+title: $ip-legal:cold-start-interview
 description: Run the cold-start interview to learn your IP practice and write your practice profile. Use on first install when the practice profile is missing or still contains placeholders, when re-onboarding with --redo, or when re-probing integrations with --check-integrations after connecting or disconnecting an MCP. This is the ONLY skill that should run on a fresh install.
-author: ZekaiSuni
-author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/ip-legal/skills/cold-start-interview
+author: alexchlou
+author_url: https://github.com/alexchlou/codex-for-legal/tree/main/plugins/ip-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: en
 ---
 
-# /cold-start-interview
+> Codex v1 local-input note: This migrated skill supports local files and pasted text by default. References to Drive, CLM IDs, Slack, Westlaw, iManage, Ironclad, eDiscovery, dockets, or other remote systems require a separately configured Codex connector/MCP server. When a connector is unavailable, ask for a local export, local file path, or pasted excerpts. If `config/local/codex-for-legal/<practice>/CLAUDE.md` is missing, ask the user to run the relevant `cold-start-interview` or `customize` skill and copy from `config/templates/codex-for-legal/<practice>/CLAUDE.md`.
 
-Runs the cold-start interview. First run writes `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`; subsequent runs with `--redo` re-interview and show a diff before overwriting.
+
+# $ip-legal:cold-start-interview
+
+Runs the cold-start interview. First run writes `config/local/codex-for-legal/ip-legal/CLAUDE.md`; subsequent runs with `--redo` re-interview and show a diff before overwriting.
 
 ## Instructions
 
-1. **Check current state:** Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. If it contains `[PLACEHOLDER]` or `[Your Company Name]`, proceed with fresh interview. If populated and `--redo` not passed, ask: "Looks like you're already set up. Want to re-run the interview? This will overwrite `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` (I'll show you a diff first)."
+1. **Check current state:** Read `config/local/codex-for-legal/ip-legal/CLAUDE.md`. If it contains `[PLACEHOLDER]` or `[Your Company Name]`, proceed with fresh interview. If populated and `--redo` not passed, ask: "Looks like you're already set up. Want to re-run the interview? This will overwrite `config/local/codex-for-legal/ip-legal/CLAUDE.md` (I'll show you a diff first)."
 
 2. **Follow the interview script below.**
 
-3. **Ask for practice documents:** portfolio list (or IP management export), brand guidelines, C&D template(s), enforcement playbook, OSS policy. Accept file paths, Google Drive links, or IP-management record IDs.
+3. **Ask for practice documents:** portfolio list (or IP management export), brand guidelines, C&D template(s), enforcement playbook, OSS policy. Accept file paths, Google local file path or pasted text (Drive requires a separately configured connector)s, or IP-management record IDs.
 
 4. **Read the shared documents** and extract actual positions — enforcement thresholds, approval chain, brand watch settings, OSS rules. Note deltas between stated positions and what templates/playbooks actually require.
 
-5. **Migration:** If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `~/.claude/plugins/cache/claude-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
+5. **Migration:** If a populated CLAUDE.md (no `[PLACEHOLDER]` markers) exists at `config/local/cache/codex-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it to the config path and show the user what was migrated.
 
-6. **Write `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`** (create parent directories as needed) per the structure below. Use the lawyer's own words where possible.
+6. **Write `config/local/codex-for-legal/ip-legal/CLAUDE.md`** (create parent directories as needed) per the structure below. Use the lawyer's own words where possible.
 
-7. **Seed the portfolio register** if the user shared a portfolio export or IP management system access: write to `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml`. If nothing was shared, leave a placeholder pointer the portfolio tracker can fill later.
+7. **Seed the portfolio register** if the user shared a portfolio export or IP management system access: write to `config/local/codex-for-legal/ip-legal/portfolio.yaml`. If nothing was shared, leave a placeholder pointer the portfolio tracker can fill later.
 
 8. **Show summary + propose next steps:**
-   - "Here's what I heard — `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` is written. What did I get wrong?"
+   - "Here's what I heard — `config/local/codex-for-legal/ip-legal/CLAUDE.md` is written. What did I get wrong?"
    - Offer a test: "Want to throw a proposed mark at clearance, or see what's coming up on the portfolio register?"
    - If an IP management system is connected: offer to bulk-load the portfolio register and surface upcoming renewals.
 
 ## `--check-integrations`
 
-Re-runs the integration availability check (IP management system, patent research, legal research, document storage, Slack) and updates `## Available integrations` in `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
+Re-runs the integration availability check (IP management system, patent research, legal research, document storage, Slack (connector optional; not enabled in v1)) and updates `## Available integrations` in `config/local/codex-for-legal/ip-legal/CLAUDE.md`. Does not re-interview. Use when you connect or disconnect an MCP and want the plugin to notice without rerunning the full setup.
 
 When probing: only report ✓ if an MCP tool call actually succeeded. Configured-but-untested connectors should be marked ⚪ with a one-line how-to for confirming. Never report ✓ based on `.mcp.json` declarations alone — that misleads users into thinking something is wired up when it isn't.
 
 ## Examples
 
 ```
-/ip-legal:cold-start-interview
+$ip-legal:cold-start-interview
 ```
 
 ```
-/ip-legal:cold-start-interview --redo
+$ip-legal:cold-start-interview --redo
 ```
 
 ```
-/ip-legal:cold-start-interview --check-integrations
+$ip-legal:cold-start-interview --check-integrations
 ```
 
 ---
@@ -67,7 +70,7 @@ The lawyer should leave this conversation feeling like they just onboarded a sha
 
 ## What "cold start" means
 
-Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`:
+Read `config/local/codex-for-legal/ip-legal/CLAUDE.md`:
 - **Does not exist** → start the interview.
 - **Contains `<!-- SETUP PAUSED AT: -->`** → greet the user and offer to resume from that section.
 - **Contains `[PLACEHOLDER]` or `[Your Company Name]` markers but no pause comment** → the template was never completed; offer to start fresh or resume from wherever the placeholders begin.
@@ -75,13 +78,13 @@ Read `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md`:
 
 The template structure lives at `${CLAUDE_PLUGIN_ROOT}/CLAUDE.md` — use it as the section scaffold. Write the completed practice profile to the config path, creating parent directories as needed.
 
-If a CLAUDE.md exists at the old cache path `~/.claude/plugins/cache/claude-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it forward to the config path before proceeding.
+If a CLAUDE.md exists at the old cache path `config/local/cache/codex-for-legal/ip-legal/*/CLAUDE.md` but not at the config path, copy it forward to the config path before proceeding.
 
 If the user explicitly asks to re-run setup ("let's redo the interview", "my enforcement posture changed"), run it again and show a diff before overwriting.
 
 ## Check for the shared company profile
 
-Look for `~/.claude/plugins/config/claude-for-legal/company-profile.md`.
+Look for `config/local/codex-for-legal/company-profile.md`.
 
 - **If it exists:** Read it. Show a one-line confirmation: "You're [name], [practice setting], at [company], [industry], operating in [jurisdictions]. Right? (Or say 'update' to change the shared profile.)" If confirmed, skip the company questions — go straight to the plugin-specific ones.
 - **If it doesn't exist:** You'll be the first plugin this user set up. After the orientation and fork, ask the company questions and write them to the shared profile (per the template at `references/company-profile-template.md` in the plugin root), then continue with the plugin-specific questions. Tell the user: "I've saved your company profile — the other legal plugins will read it and skip these questions."
@@ -100,13 +103,13 @@ Ask the user to confirm before proceeding: continue with project scope, or pause
 
 Open with the fork-first preamble. Keep it to 3-4 short lines. Ask quick-or-full before anything else.
 
-> **`ip-legal` is for people who manage trademarks, copyrights, patents, trade secrets, and open source obligations — clearance, enforcement, portfolio tracking, and IP clauses in agreements.** Not your area? `/legal-builder-hub:related-skills-surfacer`.
+> **`ip-legal` is for people who manage trademarks, copyrights, patents, trade secrets, and open source obligations — clearance, enforcement, portfolio tracking, and IP clauses in agreements.** Not your area? `$legal-builder-hub:related-skills-surfacer`.
 >
 > **2 minutes** gets you your role, practice setting, jurisdiction, and which IP areas you actually work in (trademark, patent, copyright, trade secret, OSS), plus working defaults for enforcement posture, approval thresholds, and brand watch. **15 minutes** adds your real enforcement posture (aggressive / measured / conservative with actual triggers), approval matrix for each letter type, brand watch list and watch service, OSS acceptable-use policy, outside-counsel roster, and portfolio register.
 >
-> Quick or full? (Upgrade any time with `/cold-start-interview --full`.)
+> Quick or full? (Upgrade any time with `$ip-legal:cold-start-interview --full`.)
 
-**Quick start path:** ask only Part 0 (role, practice setting, integrations) and Part 1 (practice-area mix). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for enforcement posture, approval thresholds, and brand watch. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `/ip-legal:cold-start-interview --redo` anytime to do the whole interview."
+**Quick start path:** ask only Part 0 (role, practice setting, integrations) and Part 1 (practice-area mix). Write the config with `[DEFAULT]` markers on everything else. Close with: "Done. You can start using the commands now. I've used sensible defaults for enforcement posture, approval thresholds, and brand watch. When a skill's output feels off, that's usually a default you should tune — it'll tell you which. Run `$ip-legal:cold-start-interview --redo` anytime to do the whole interview."
 
 **Full setup path:** the existing interview flow below. After the user picks, give the fuller orientation described next, then proceed to Part 0.
 
@@ -135,7 +138,7 @@ Corollary: the interview's inputs are the user's typed answers and documents the
 - **For uploads and seed docs:** "Paste the contents, share a file path, or say 'skip for now.' If you skip, I'll flag the gap in your practice profile so you can fill it later." Then actually wait.
 - **Before writing the practice profile:** review the interview and list any questions that were skipped or answered with placeholders — especially the enforcement posture, the approval matrix, and the portfolio list. Say: "Before I write your practice profile, here's what's still open: [list]. Want to fill any of these now, or leave them as placeholders?" Then wait.
 - **Never** write a practice profile with silent gaps. Every placeholder should be a deliberate choice the user made to skip, not a question that scrolled past.
-- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `/ip-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run /ip-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
+- **Pause and resume.** Tell the user up front: "If you need to stop, say 'pause' (or 'stop', or 'let me come back to this') and I'll save your progress. Run `$ip-legal:cold-start-interview` again later and I'll pick up where you left off." When the user pauses, write a partial configuration to `config/local/codex-for-legal/ip-legal/CLAUDE.md` with a `<!-- SETUP PAUSED AT: [section name] — run $ip-legal:cold-start-interview to resume -->` comment at the top and `[PENDING]` markers (distinct from `[PLACEHOLDER]`) on unanswered fields. When setup re-runs and finds a paused config, greet the user: "Welcome back. You paused at [section]. Your earlier answers are saved. Pick up where we left off, or start over?" Do not re-ask questions already answered.
 
 **Verify user-stated legal facts as they come up in setup.** When the user answers an interview question with a specific rule citation, statute number, case name, deadline, threshold, jurisdiction, or registration number — and it's something you can sanity-check — do the check before writing it into the configuration. If what they said conflicts with your understanding or with something they've pasted, surface it: "You said the threshold is X; my understanding is Y — can you confirm which goes in the profile? `[premise flagged — verify]`" A wrong fact written into CLAUDE.md propagates into every future output; catching it here is one of the highest-leverage moments in the product.
 
@@ -155,10 +158,10 @@ Two quick questions before we get into IP specifics. These shape how the plugin 
 
 #### Who's using this?
 
-> Who'll be using this plugin day to day? (This feeds the work-product header on every clearance memo, C&D draft, and portfolio memo — and for registered Marka/Patent Vekilis, drives the narrower privilege header on TÜRKPATENT matters only.)
+> Who'll be using this plugin day to day? (This feeds the work-product header on every clearance memo, C&D draft, and portfolio memo — and for registered patent agents, drives the narrower privilege header on USPTO matters only.)
 >
 > 1. **Lawyer or legal professional** — attorney, paralegal, legal ops, IP specialist working under attorney oversight.
-> 2. **Registered Marka/Patent Vekili** — you're registered to practice before the TÜRKPATENT but are not a licensed attorney. Your client communications on patent prosecution matters are privileged under *In re Queen's University at Kingston*; on anything outside TÜRKPATENT practice (trademark, copyright, OSS, contracts), they are not.
+> 2. **Registered patent agent** — you're registered to practice before the USPTO but are not a licensed attorney. Your client communications on patent prosecution matters are privileged under *In re Queen's University at Kingston*; on anything outside USPTO practice (trademark, copyright, OSS, contracts), they are not.
 > 3. **Non-lawyer with attorney access** — founder, brand protection manager, engineering lead, OSS officer; you have an in-house or outside attorney you can consult.
 > 4. **Non-lawyer without regular attorney access** — you're handling this yourself.
 
@@ -175,9 +178,9 @@ If the answer is 4, add:
 
 > If you need to find a licensed attorney, solicitor, barrister, or other authorised legal professional in your jurisdiction: your professional regulator's referral service is the fastest starting point (state bar in the US, SRA/Bar Standards Board in England & Wales, Law Society in Scotland/NI/Ireland/Canada/Australia, or your jurisdiction's equivalent). Many offer free or low-cost initial consultations. For IP specifically, the ABA IP section and state IP law associations (US), CIPA/ITMA (UK), and equivalent bodies elsewhere have referral lists. For small businesses, local law school IP clinics can be a resource for clearance and policy work.
 
-If the answer is 2 (registered Marka/Patent Vekili), say this in addition to the Role-2/3 framing above:
+If the answer is 2 (registered patent agent), say this in addition to the Role-2/3 framing above:
 
-> A note on how I'll handle privilege for your work. On matters "reasonably necessary and incident" to the prosecution of patents before the TÜRKPATENT, your client communications carry the Avukatlık Kanunu (m.36) ve SMK (m.162) kapsamındaki sır saklama yükümlülüğü — I'll mark those outputs as privileged. On anything outside TÜRKPATENT practice (trademark, copyright, OSS, trade secret, contracts, general advice), that privilege doesn't reach, so I'll mark those outputs as `CONFIDENTIAL — NOT PRIVILEGED` and flag them to bring to a supervising attorney before relying on them. This isn't a cautious default; it's the actual scope of the privilege. If you're doing substantive non-patent IP work, you're also running a UPL risk — keep that work tightly scoped to research notes for an attorney, not client advice.
+> A note on how I'll handle privilege for your work. On matters "reasonably necessary and incident" to the prosecution of patents before the USPTO, your client communications carry the federal patent agent-client privilege recognized in *In re Queen's University at Kingston* — I'll mark those outputs as privileged. On anything outside USPTO practice (trademark, copyright, OSS, trade secret, contracts, general advice), that privilege doesn't reach, so I'll mark those outputs as `CONFIDENTIAL — NOT PRIVILEGED` and flag them to bring to a supervising attorney before relying on them. This isn't a cautious default; it's the actual scope of the privilege. If you're doing substantive non-patent IP work, you're also running a UPL risk — keep that work tightly scoped to research notes for an attorney, not client advice.
 
 #### Practice mix
 
@@ -192,7 +195,7 @@ interview; a specialist gets a 3-minute one.
 >
 > - **Patents** (prosecution / litigation / licensing / both)
 > - **Trademarks** (clearance / prosecution / enforcement / brand protection)
-> - **Copyright** (clearance / licensing / FSEK Uyar-Kaldır / 5651 / enforcement)
+> - **Copyright** (clearance / licensing / DMCA / enforcement)
 > - **Trade secrets** (protection programs / misappropriation / employee exit)
 > - **Open source** (compliance / licensing / policy)
 > - **Design** (design patents / trade dress)
@@ -236,7 +239,7 @@ skipped because they don't apply.
 
 #### What's connected?
 
-> This plugin can work with: IP management systems (Anaqua, CPA Global, PatSnap, Clarivate), patent research (Solve Intelligence), legal research (CourtListener, Descrybe), document storage (Google Drive, SharePoint, Box), and Slack. Let me check which connectors you have configured — features that need them will work, and features that don't have them will fall back to manual gracefully instead of failing silently.
+> This plugin can work with: IP management systems (Anaqua, CPA Global, PatSnap, Clarivate), patent research (Solve Intelligence), legal research (CourtListener (connector optional; not enabled in v1), Descrybe (connector optional; not enabled in v1)), document storage (Google Drive (connector optional; not enabled in v1), SharePoint, Box), and Slack (connector optional; not enabled in v1). Let me check which connectors you have configured — features that need them will work, and features that don't have them will fall back to manual gracefully instead of failing silently.
 
 **Check what's actually connected, not what's configured.** A connector listed in `.mcp.json` is *available*. A connector that's actually responding is *connected*. These are different, and confusing them destroys trust. For each connector this plugin uses:
 
@@ -244,7 +247,7 @@ skipped because they don't apply.
 - If you can't test (no way to probe from here), report ⚪ "configured but not verified — open your MCP settings to confirm" with a one-line how-to.
 - Never report ✓ based on configuration alone.
 
-For connectors that show as not connected, tell the user how to connect. Example phrasing: "Anaqua isn't connected. In Claude Cowork: Settings → Connectors → Add → Anaqua → sign in. In Claude Code: add the Anaqua MCP to your config or via `/mcp`. This plugin works without it — portfolio lives in `portfolio.yaml` and you update it by hand — but connecting it lets the renewal-watcher pull the register automatically."
+For connectors that show as not connected, tell the user how to connect. Example phrasing: "Anaqua isn't connected. In Codex: add the Anaqua MCP to your config or via `/mcp`. This plugin works without it — portfolio lives in `portfolio.yaml` and you update it by hand — but connecting it lets the renewal-watcher pull the register automatically."
 
 Then report findings in this form:
 
@@ -252,7 +255,7 @@ Then report findings in this form:
 > - ⚪ [Integration] — configured but not verified. Open your MCP settings to confirm.
 > - ✗ [Integration] — not found. [Feature] will fall back to [manual alternative]. [How to connect.]
 
-You don't need all of these. Core features work with file access alone. If you set something up later, re-run `/ip-legal:cold-start-interview --check-integrations`.
+You don't need all of these. Core features work with file access alone. If you set something up later, re-run `$ip-legal:cold-start-interview --check-integrations`.
 
 #### Practice setting
 
@@ -285,11 +288,11 @@ Write `## Who's using this` and `## Available integrations` sections immediately
 
 **What does [your company] do?** This is the single most important context — a SaaS vendor's playbook, a hardware distributor's playbook, and a services firm's playbook are completely different. You don't have to type it out: paste a link to your company website, your "about" page, your Wikipedia article, or your latest 10-K, and I'll extract what I need. Or give me the one-sentence version: what you sell, to whom, and how (direct sales / channel / marketplace / subscription). If you're a private practice firm, the same applies to the clients you do most of your IP work for.
 
-> Which IP areas do you actually work in? I'll skip questions in the ones you don't. (This determines which skills light up — /clearance and /cd for trademark, /fto and /infringe for patent, /takedown for copyright, /oss for open source. Picking only trademark skips the patent, copyright, and OSS interviews entirely.)
+> Which IP areas do you actually work in? I'll skip questions in the ones you don't. (This determines which skills light up — $ip-legal:clearance and /cd for trademark, /fto and /infringe for patent, $ip-legal:takedown for copyright, /oss for open source. Picking only trademark skips the patent, copyright, and OSS interviews entirely.)
 >
 > - **Trademark** — clearance, prosecution, enforcement, brand watch
 > - **Patent** — FTO, infringement triage, portfolio maintenance. *(Not claim drafting — this plugin doesn't go there.)*
-> - **Copyright** — registration, FSEK Uyar-Kaldır / 5651, licensing, fair use triage
+> - **Copyright** — registration, DMCA, licensing, fair use triage
 > - **Trade secret** — classification, misappropriation response, policy
 > - **Open source** — license compliance, copyleft obligations, outbound OSS
 > - **All of the above**
@@ -304,11 +307,11 @@ Record in the practice profile as context, not a gate. Volume affects the cadenc
 
 ### Part 2: Jurisdiction footprint (1-2 minutes)
 
-> Where do you hold registrations and where do you enforce? (This feeds /clearance, /fto, /portfolio — every clearance check and FTO triage needs to know which jurisdictions matter, and the portfolio register tracks renewals in each one.)
+> Where do you hold registrations and where do you enforce? (This feeds $ip-legal:clearance, /fto, $ip-legal:portfolio — every clearance check and FTO triage needs to know which jurisdictions matter, and the portfolio register tracks renewals in each one.)
 >
-> - **Marks registered in:** US (TÜRKPATENT)? EU (EUIPO)? UK (UKIPO)? Madrid member states — which? National filings elsewhere? Common-law only?
+> - **Marks registered in:** US (USPTO)? EU (EUIPO)? UK (UKIPO)? Madrid member states — which? National filings elsewhere? Common-law only?
 > - **Patents granted in:** US? EPO? PCT national phase countries? Any specific jurisdictions that matter (Germany, Japan, China)?
-> - **Where you enforce:** Türkiye geneli? Yurt dışı? Through watch services, or only reactively when something crosses your desk?
+> - **Where you enforce:** US federal / state? Outside US? Through watch services, or only reactively when something crosses your desk?
 
 Ask the three in one batch. If the user only practices one area, ask only the relevant subquestion.
 
@@ -318,7 +321,7 @@ Record in `## IP practice profile` under `Registered in:`, and note enforcement 
 
 Before asking enforcement or approval questions, check what they already have.
 
-> Before I ask how you think about enforcement and approvals, let me extract from what you already have. Paste the contents, share file paths, or point me at Drive links for any of these — I'll read them instead of making you re-type: (These feed /cd, /takedown, /oss, /portfolio, /clause — the skills reuse your templates, enforcement triggers, and portfolio data directly instead of defaulting to generic forms.)
+> Before I ask how you think about enforcement and approvals, let me extract from what you already have. Paste the contents, share file paths, or point me at local file path or pasted text (Drive requires a separately configured connector)s for any of these — I'll read them instead of making you re-type: (These feed /cd, $ip-legal:takedown, /oss, $ip-legal:portfolio, /clause — the skills reuse your templates, enforcement triggers, and portfolio data directly instead of defaulting to generic forms.)
 >
 > - **Portfolio list** (from your IP management system, or a spreadsheet) — mark / patent / copyright registrations with jurisdictions, status, renewal dates
 > - **Brand guidelines** — the trademark-use guide, brand book, or house rules for external parties
@@ -354,9 +357,9 @@ Then drill in:
 
 **Who approves sending?** Ask one batch:
 
-> Who signs off on each of these before they go out? (This feeds /cd and /takedown — when you tell the skill to draft a letter, it runs the draft through the named approver and waits for sign-off before it goes anywhere.)
+> Who signs off on each of these before they go out? (This feeds /cd and $ip-legal:takedown — when you tell the skill to draft a letter, it runs the draft through the named approver and waits for sign-off before it goes anywhere.)
 >
-> - **FSEK Uyar-Kaldır / 5651 takedown (ordinary):** often delegated to counsel or brand protection; who owns it on your team?
+> - **DMCA takedown (ordinary):** often delegated to counsel or brand protection; who owns it on your team?
 > - **Soft letter:** same question.
 > - **Cease-and-desist:** who approves before it leaves?
 > - **Filing suit:** who approves — GC? CEO? business sponsor?
@@ -377,7 +380,7 @@ Plain English:
 > - **FTO blocker (a patent the product plausibly reads on):** who gets the memo? who decides — engineering? product? GC?
 > - **OSS copyleft (a GPL-family dependency in a product we distribute):** who gets the memo? who decides whether to remove, open-source the product, or re-architect?
 
-> How do people escalate today — Slack, email, a ticket, a standing meeting? What's a realistic turnaround expectation — same day, 24 hours, end of week?
+> How do people escalate today — Slack (connector optional; not enabled in v1), email, a ticket, a standing meeting? What's a realistic turnaround expectation — same day, 24 hours, end of week?
 
 Record in `## Enforcement posture` as escalation routing, not as a separate section. Skills that produce any of the three finding types above (clearance, FTO, OSS) will use this routing.
 
@@ -400,7 +403,7 @@ Write the plugin config following the structure in `${CLAUDE_PLUGIN_ROOT}/CLAUDE
 
 Before writing, re-read any documents shared during Part 3 — portfolio, templates, playbook, OSS policy. Do not rely on memory from earlier in the conversation.
 
-Write to `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` (create parent directories as needed). If the user shared a portfolio export, also seed `~/.claude/plugins/config/claude-for-legal/ip-legal/portfolio.yaml` with the extracted registrations.
+Write to `config/local/codex-for-legal/ip-legal/CLAUDE.md` (create parent directories as needed). If the user shared a portfolio export, also seed `config/local/codex-for-legal/ip-legal/portfolio.yaml` with the extracted registrations.
 
 **Role-conditional work-product header.** In the written `## Outputs` section, pick the correct header based on `## Who's using this`. Don't write both variants. Lawyer → privileged/work-product; non-lawyer → research-notes.
 
@@ -416,14 +419,14 @@ If yes, show this tailored list (not a generic template — these are the concre
 
 > **Here's what I'm good at in intellectual property practice:**
 >
-> - **Clear a proposed trademark** — e.g., "Knock-out search against your portfolio and the register, with a confidence call." Try: `/ip-legal:clearance`
-> - **Triage a potential infringement** — e.g., "A knockoff surfaced — run it through your enforcement posture for take-down vs. cease-and-desist vs. monitor." Try: `/ip-legal:infringement-triage`
-> - **Freedom-to-operate analysis** — e.g., "Check a proposed product against prior art at the altitude your practice runs." Try: `/ip-legal:fto-triage`
-> - **Draft a takedown or cease-and-desist** — e.g., "From intake to drafted letter in house voice, with escalation routing." Try: `/ip-legal:cease-desist`
-> - **Open-source compliance check** — e.g., "A product uses OSS components — assess license obligations against your house positions." Try: `/ip-legal:oss-review`
-> - **Portfolio renewal status** — e.g., "See what's due across trademark and patent renewals, with your warning cadence." Try: `/ip-legal:portfolio`
+> - **Clear a proposed trademark** — e.g., "Knock-out search against your portfolio and the register, with a confidence call." Try: `$ip-legal:clearance`
+> - **Triage a potential infringement** — e.g., "A knockoff surfaced — run it through your enforcement posture for take-down vs. cease-and-desist vs. monitor." Try: `$ip-legal:infringement-triage`
+> - **Freedom-to-operate analysis** — e.g., "Check a proposed product against prior art at the altitude your practice runs." Try: `$ip-legal:fto-triage`
+> - **Draft a takedown or cease-and-desist** — e.g., "From intake to drafted letter in house voice, with escalation routing." Try: `$ip-legal:cease-desist`
+> - **Open-source compliance check** — e.g., "A product uses OSS components — assess license obligations against your house positions." Try: `$ip-legal:oss-review`
+> - **Portfolio renewal status** — e.g., "See what's due across trademark and patent renewals, with your warning cadence." Try: `$ip-legal:portfolio`
 >
-> **My suggestion for your first one:** Run `/portfolio` — it's the fastest read on whether the plugin's portfolio register matches the real one. Or tell me what's on your plate and I'll pick.
+> **My suggestion for your first one:** Run `$ip-legal:portfolio` — it's the fastest read on whether the plugin's portfolio register matches the real one. Or tell me what's on your plate and I'll pick.
 
 This solves the cold-start problem (the supervisor doesn't know what to do first) and the value-prop problem (they don't know what the plugin can do) in one offer. Make the list specific. Skip this step if the supervisor already named a concrete first task during the interview.
 
@@ -439,15 +442,15 @@ This solves the cold-start problem (the supervisor doesn't know what to do first
 
 4. **Close with a note on changeability.** End with something like:
 
-   > "Done. Your practice profile is at `~/.claude/plugins/config/claude-for-legal/ip-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
+   > "Done. Your practice profile is at `config/local/codex-for-legal/ip-legal/CLAUDE.md` — it's a plain text file you can read and edit directly. Anything you answered can be changed:
    >
    > - Edit the file directly for a quick change (a new approver, a revised watch list, a jurisdiction swap)
-   > - Run `/ip-legal:cold-start-interview --redo` for a full re-interview
-   > - Run `/ip-legal:cold-start-interview --check-integrations` to re-check what's connected
+   > - Run `$ip-legal:cold-start-interview --redo` for a full re-interview
+   > - Run `$ip-legal:cold-start-interview --check-integrations` to re-check what's connected
    >
    > The sections most often adjusted after first setup are **enforcement posture** (teams often realize the real trigger is different from what they wrote), **jurisdiction footprint** (a new filing, a dropped registration), and **watched marks** (adds and removes as the brand portfolio moves). When a skill's output feels off, the fix is usually here."
 
-5. **Before your first clearance**: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Claude Code: authorize when a skill prompts you.
+5. **Before your first clearance**: connect a research tool. Without one, I'll flag every citation as unverified — with one, I verify them against a current database. In Cowork: Settings → Connectors. In Codex: authorize when a skill prompts you.
 
 <!-- COLLATERAL LINKS: when onboarding collateral exists, add here:
      "Want a walkthrough? [Watch the 3-minute intro](URL) or [read the getting-started guide](URL)." -->
@@ -461,7 +464,7 @@ After writing the practice profile, close with this note:
 > - When a skill's output feels off, that's usually a position to tune. The output will tell you which one.
 > - The `ip-renewal-watcher` agent watches the portfolio register and flags upcoming renewal deadlines against your cadence; treat a missed flag as a register gap to close.
 > - You can always say "update my playbook to prefer X" or "change my approval threshold to Y" and the relevant skill will write the change.
-> - Run `/cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
+> - Run `$ip-legal:cold-start-interview --redo <section>` to re-interview one part, or edit the config file directly.
 >
 > Ten minutes of setup gets you a working profile. A month of use gets you one that reads like you wrote it yourself.
 

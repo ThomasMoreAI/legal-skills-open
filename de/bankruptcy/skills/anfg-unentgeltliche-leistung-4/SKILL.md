@@ -1,11 +1,11 @@
 ---
 name: anfg-unentgeltliche-leistung-4
 title: Unentgeltliche Leistung — § 4 AnfG
-description: 'Anfechtung unentgeltlicher Leistungen außerhalb der Insolvenz prüfen: Schenkungsanfechtung in den letzten vier Jahren nach § 4 AnfG. Normen: § 4 AnfG. Prüfraster: Unentgeltlichkeitsbegriff, gemischte Schenkungen, Ausnahmen für Anstandsschenkungen, kein Verschuldenserfordernis. Output: Prüfergebnis Anfechtbarkeit mit Anfechtungszeitraum. Abgrenzung: nicht § 134 InsO (erfordert Insolvenzeröffnung).'
+description: 'Für Unentgeltliche Leistung — Paragraf 4 AnfG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: bereicherungs-und-anfechtungsrecht-prüfer. Route: anfg-unentgeltliche-leistung-4.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/anfg-unentgeltliche-leistung-4
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -28,13 +28,6 @@ language: de
 - §§ 516 ff. BGB — Schenkung (Vergleichsbegriff; AnfG-Unentgeltlichkeit ist weiter)
 - §§ 195 199 BGB — Verjährung des Anfechtungsanspruchs
 
-## Rechtsprechung (BGH — Leitsätze § 4 AnfG / unentgeltliche Leistung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Obersatz
 
 Anfechtbar sind unentgeltliche Leistungen des Schuldners, es sei denn, sie sind früher als vier Jahre vor der Anfechtungserklärung vorgenommen worden (§ 4 Abs. 1 AnfG).
@@ -77,3 +70,5 @@ Typische Anwendungsfälle:
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

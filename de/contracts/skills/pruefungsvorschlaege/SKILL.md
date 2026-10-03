@@ -1,11 +1,11 @@
 ---
 name: pruefungsvorschlaege
 title: Playbook-Vorschläge prüfen und genehmigen
-description: Prüft und genehmigt (oder lehnt ab) ausstehende Playbook-Aktualisierungsvorschläge des Playbook-Monitor-Agenten und überträgt genehmigte Änderungen in das Kanzleiprofil. Lädt, wenn der Monitor Vorschläge gemeldet hat, wenn der Nutzer "Playbook-Vorschläge prüfen", "welche Playbook-Updates sind ausstehend" oder "Abweichungsvorschläge durchgehen" sagt.
+description: 'Für Playbook-Vorschläge prüfen und genehmigen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsrecht/skills/pruefungsvorschlaege
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -14,16 +14,12 @@ language: de
 
 # Playbook-Vorschläge prüfen und genehmigen
 
-## Zweck
+## Arbeitsweg
 
-Diese Skill führt durch ausstehende Vorschläge des Playbook-Monitor-Agenten
-und überträgt genehmigte Änderungen in das Kanzleiprofil. Der Monitor beobachtet
-Verhandlungsmuster: wenn ein Anwalt eine Abweichung vom Standard-Playbook
-wiederholt billigt (Schwellenwert: 5 Mal in den letzten 12 Monaten), generiert
-er einen Vorschlag, das Playbook an die gelebte Praxis anzupassen.
-
-Lädt automatisch nach einer Monitor-Meldung oder wenn der Nutzer ausstehende
-Vorschläge explizit abfragen möchte.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -40,18 +36,18 @@ des BGB-Schuldrechts und des AGB-Rechts. Jede Anpassung einer Playbook-Position
 muss an den gesetzlichen Grenzen gemessen werden:
 
 - § 305 BGB — Einbeziehungsvoraussetzungen; eine Klausel, die nicht wirksam
-  einbezogen wurde, ist keine Verhandlungsposition, die in ein Playbook gehört
+ einbezogen wurde, ist keine Verhandlungsposition, die in ein Playbook gehört
 - § 305c BGB — Überraschende und mehrdeutige Klauseln; eine Klausel, die
-  nach Entstehung und Inhalt so ungewöhnlich ist, dass der Vertragspartner
-  nicht mit ihr rechnet, wird nicht Vertragsbestandteil — auch ein Playbook,
-  das solche Klauseln als "Standard" führt, erzeugt keine belastbaren Positionen
+ nach Entstehung und Inhalt so ungewöhnlich ist, dass der Vertragspartner
+ nicht mit ihr rechnet, wird nicht Vertragsbestandteil — auch ein Playbook,
+ das solche Klauseln als "Standard" führt, erzeugt keine belastbaren Positionen
 - § 307 Abs. 1 S. 2 BGB — Transparenzgebot; das Playbook muss die eigene
-  Position klar und verständlich formulieren, um sie in Verhandlungen
-  durchzusetzen und AGB-rechtliche Kontrolle zu bestehen
+ Position klar und verständlich formulieren, um sie in Verhandlungen
+ durchzusetzen und AGB-rechtliche Kontrolle zu bestehen
 - § 307 Abs. 2 BGB — Abweichung von wesentlichen Grundgedanken der gesetzlichen
-  Regelung als Indiz für unangemessene Benachteiligung
+ Regelung als Indiz für unangemessene Benachteiligung
 - §§ 308, 309 BGB — Klauselverbote; Positionen, die gegen diese Verbote
-  verstoßen, dürfen nicht als reguläre Playbook-Positionen geführt werden
+ verstoßen, dürfen nicht als reguläre Playbook-Positionen geführt werden
 
 ### Begründungspflicht mit verifizierten Quellen
 
@@ -63,23 +59,19 @@ nicht aus Modellwissen ergänzt werden.
 
 ### Leitentscheidungen für Playbook-Anpassungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (Haftungsbeschränkung in AGB; Grenze der zulässigen Absenkung;
-  § 309 Nr. 7 BGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (Transparenzgebot; Änderungsklauseln müssen klar und verständlich sein)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (Haftungsfreizeichnung für Vorsatz unwirksam; § 276 Abs. 3 BGB;
-  § 309 Nr. 7 lit. b BGB; kein Verhandlungsspielraum für das Playbook)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (Klauselkontrolle Gewährleistungsverkürzung; § 309 Nr. 8 BGB;
-  Grenzen für Mängelrechtsausschluss in AGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (AGB-Einbeziehung im unternehmerischen Verkehr; § 305 Abs. 2 BGB)
+ (Haftungsbeschränkung in AGB; Grenze der zulässigen Absenkung;
+ § 309 Nr. 7 BGB)
+ (Transparenzgebot; Änderungsklauseln müssen klar und verständlich sein)
+ (Haftungsfreizeichnung für Vorsatz unwirksam; § 276 Abs. 3 BGB;
+ § 309 Nr. 7 lit. b BGB; kein Verhandlungsspielraum für das Playbook)
+ (Klauselkontrolle Gewährleistungsverkürzung; § 309 Nr. 8 BGB;
+ Grenzen für Mängelrechtsausschluss in AGB)
+ (AGB-Einbeziehung im unternehmerischen Verkehr; § 305 Abs. 2 BGB)
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 1 — Vorschlagsdatei laden
@@ -113,6 +105,7 @@ Nur nach ausdrücklicher Bestätigung durch den Anwalt übertragen.
 **Format des Diffs:**
 
 ```
+
 ## Playbook — Haftungsbeschränkung (Verwender-Seite)
 
 AKTUELL:
@@ -154,13 +147,6 @@ Ergebnis:
 Kanzleiprofil aktualisiert. Vorschlagsdatei archiviert.
 ```
 
-## Ausgabeformat
-
-Für jeden Vorschlag: Vollständiger Vorschlagsblock (Klausel, aktueller Wert,
-vorgeschlagener neuer Wert, Begründung, Quellenbeleg) + vier Optionen.
-Nach Entscheidung: Diff-Anzeige vor Schreiben.
-Am Ende: Gesamtübersicht aller Entscheidungen.
-
 ## Beispiel
 
 **Szenario:** Der Playbook-Monitor hat festgestellt, dass die Kanzlei in
@@ -184,10 +170,9 @@ Begründung: 8/10 unterzeichneter Verträge aus den letzten 12 Monaten
 wurden mit 2 Jahren abgeschlossen.
 
 Quelle:
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-  (Grenzen Gewährleistungsverkürzung in AGB)
+ (Grenzen Gewährleistungsverkürzung in AGB)
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-  (Zulässige Verjährungszeiträume in AGB)
+ (Zulässige Verjährungszeiträume in AGB)
 ```
 
 Anwalt wählt "Übernehmen" → Diff angezeigt → Kanzleiprofil aktualisiert.
@@ -195,17 +180,17 @@ Anwalt wählt "Übernehmen" → Diff angezeigt → Kanzleiprofil aktualisiert.
 ## Risiken und typische Fehler
 
 - **Vorschlag ohne Quellenbeleg akzeptieren.** Jeder Vorschlag zur Änderung
-  Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-  unterlegt sein. Vorschläge ohne Beleg nicht als "Übernehmen"-fähig markieren.
+ Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
+ unterlegt sein. Vorschläge ohne Beleg nicht als "Übernehmen"-fähig markieren.
 - **Diff nicht anzeigen.** Ohne Anzeige des exakten Diffs kann der Anwalt
-  nicht beurteilen, ob die Änderung korrekt ist. Niemals direkt schreiben
-  ohne Bestätigung.
+ nicht beurteilen, ob die Änderung korrekt ist. Niemals direkt schreiben
+ ohne Bestätigung.
 - **Zwingende Verbote als veränderbar darstellen.** Wenn ein Vorschlag eine
-  Position betrifft, die gegen §§ 308, 309 BGB oder § 276 Abs. 3 BGB verstößt
-  (z. B. Ausschluss der Haftung für Vorsatz oder Körperverletzung), diesen
-  Vorschlag mit Fehlermeldung zurückweisen und nicht zur Genehmigung stellen.
+ Position betrifft, die gegen §§ 308, 309 BGB oder § 276 Abs. 3 BGB verstößt
+ (z. B. Ausschluss der Haftung für Vorsatz oder Körperverletzung), diesen
+ Vorschlag mit Fehlermeldung zurückweisen und nicht zur Genehmigung stellen.
 - **Zurückgestellte Vorschläge vergessen.** Zurückgestellte Vorschläge bleiben
-  in der Datei und werden beim nächsten Aufruf erneut vorgelegt.
+ in der Datei und werden beim nächsten Aufruf erneut vorgelegt.
 
 ## Quellenpflicht
 
@@ -213,6 +198,8 @@ Jeder Vorschlag in der Ausgabe muss enthalten:
 - Den betroffenen Paragraphen (z. B. § 309 Nr. 7 BGB, § 438 BGB)
 - Mindestens eine BGH-Entscheidung zur Klauselgrenze in korrekter Zitierweise
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-  Ist eine Literaturquelle erforderlich, nur als "vom Nutzer bereitgestellte/lizenziert live geprüfte Quelle" mit exakter Fundstelle kennzeichnen.
+ Ist eine Literaturquelle erforderlich, nur als "vom Nutzer bereitgestellte/lizenziert live geprüfte Quelle" mit exakter Fundstelle kennzeichnen.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

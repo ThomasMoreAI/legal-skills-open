@@ -5,12 +5,21 @@ description: Drafts ASTM E1527-21 environmental site assessment reports under 40
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/phase-i-esa
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: environmental
 language: en
-tags: [analysis, drafting, regulatory, transactional]
+tags:
+- analysis
+- drafting
+- regulatory
+- transactional
+sources:
+- title: Authority status
+  path: references/AUTHORITY-STATUS.md
+- title: Pfas and emerging contaminants
+  path: references/PFAS-AND-EMERGING-CONTAMINANTS.md
 ---
 
 # Phase I Environmental Site Assessment Report

@@ -1,11 +1,11 @@
 ---
 name: territorialer-anwendungsbereich-art-2
 title: Territorialer Anwendungsbereich — Art. 2 KI-VO
-description: 'Nicht-EU-Unternehmen oder Exporteur fragt: Gilt die KI-VO auch für uns obwohl wir außerhalb der EU sind? Art. 2 KI-VO territorialer Anwendungsbereich. Prüfraster: Inverkehrbringen in der EU Nutzung in der EU durch Betreiber Ausgaben die in der EU verwendet werden auch bei Betrieb außerhalb der EU Marktortprinzip. Drittstaaten-Konstellationen und extraterritoriale Wirkung. Output: Anwendbarkeits-Entscheidung mit Begründung. Abgrenzung zu sachlicher-ausschluss-art-2-abs-3-bis-12 (sachliche Ausnahmen) und persoenlicher-anwendungsbereich-rollen-art-3.'
+description: 'Für Territorialer Anwendungsbereich — Art. 2 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/territorialer-anwendungsbereich-art-2
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Territorialer Anwendungsbereich — Art. 2 KI-VO
-
-## Zweck
-
-Die KI-VO hat wie die DSGVO eine extraterritoriale Wirkung. Anbieter und Betreiber außerhalb der EU können trotzdem dem Geltungsbereich unterliegen. Dieser Skill klärt, ob die KI-VO auf den geschilderten Sachverhalt anwendbar ist.
 
 ## Drei Anknüpfungspunkte nach Art. 2 KI-VO
 
@@ -76,16 +72,13 @@ Art. 2 Abs. 3 bis 12 KI-VO enthält explizite Ausnahmen. Relevante Ausnahmen wer
 
 ## Ergebnis und Routing
 
-- **Territorialer Anwendungsbereich gegeben:** weiter zu `persoenlicher-anwendungsbereich-rollen-art-3` und dann zu `rolle-anbieter-pruefen-art-3-nr-3` oder `rolle-betreiber-pruefen-art-3-nr-4`
+- **Territorialer Anwendungsbereich gegeben:** weiter zu `persönlicher-anwendungsbereich-rollen-art-3` und dann zu `rolle-anbieter-pruefen-art-3-nr-3` oder `rolle-betreiber-pruefen-art-3-nr-4`
 - **Territorialer Anwendungsbereich fraglich (Drittstaaten):** Hinweis auf Klärungsbedarf; weiter mit Vorbehalt
 - **Kein territorialer Anwendungsbereich:** KI-VO findet keine Anwendung; andere Rechtsordnungen können gelten
 
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen (Paragrafenkette)
 - Art. 2 Abs. 1 KI-VO — Anwendungsbereich (EU-Marktplatzierung, EU-Inbetriebnahme, Betreiber in EU)
@@ -101,7 +94,7 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 5. Ist ein bevollmaechtigter Vertreter nach Art. 22 KI-VO erforderlich?
 
 ## Output-Template — Territorialer Anwendungsbereich
-**Adressat:** Pruefer / Rechtsberater — Tonfall: entscheidungsbaum-strukturiert
+**Adressat:** Prüfer / Rechtsberater — Tonfall: entscheidungsbaum-strukturiert
 ```
 TERRITORIALER ANWENDUNGSBEREICH ART. 2 KI-VO
 [DATUM] — System: [SYSTEMNAME] — Anbieter-Sitz: [LAND]
@@ -119,6 +112,8 @@ Ausnahme (Art. 2 Abs. 3-12):
 ☑/☐ Sonstiges: [BESCHREIBUNG]
 
 Ergebnis: [KI-VO ANWENDBAR / NICHT ANWENDBAR: Ausnahme Art. 2 Abs. X]
-Naechster Schritt: [sachlicher-ausschluss-art-2 / persoenlicher-anwendungsbereich-rollen-art-3]
+Naechster Schritt: [sachlicher-ausschluss-art-2 / persönlicher-anwendungsbereich-rollen-art-3]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

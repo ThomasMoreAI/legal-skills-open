@@ -1,11 +1,11 @@
 ---
 name: gesellschafterbeschluss-vorbereiten
 title: Gesellschafterbeschluss vorbereiten (vor Unterzeichnung)
-description: 'Gesellschafterbeschluss für Wandeldarlehensaufnahme oder Satzungsaenderung vorbereiten. §§ 46 53 GmbHG Gesellschafterbeschluesse. Prüfraster: Beschlussgegenstand Mehrheiten Ladungspflicht Form Anlagen. Output: Beschlussentwurf Sitzungsprotokoll. Abgrenzung: nicht für Beschluss zur Kapitalerhohung nach Wandlung (gesellschafterbeschluss-kapitalerhoehung).'
+description: 'Für Gesellschafterbeschluss vorbereiten (vor Unterzeichnung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-vorbereiten
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Gesellschafterbeschluss vorbereiten (vor Unterzeichnung)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill erstellt einen vorbereitenden Gesellschafterbeschluss, mit dem die Gesellschafterinnen ihre grundsätzliche Bereitschaft bekunden, im Wandlungsfall eine Kapitalerhöhung durchzuführen und den neuen Gesellschafter aufzunehmen. Phase B des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -34,9 +38,6 @@ Dieser Skill erstellt einen vorbereitenden Gesellschafterbeschluss, mit dem die 
 - § 51 Abs. 3 GmbHG (Beschlussfassung ohne Einberufung bei Anwesenheit / Einverständnis aller)
 - § 47 GmbHG (Abstimmung, Mehrheitserfordernisse)
 - § 53 GmbHG (Satzungsänderung bedarf drei Viertel der abgegebenen Stimmen und notarieller Beurkundung)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -88,24 +89,14 @@ Abstimmung: einstimmig angenommen.
 | Gesellschafterin verweigert Mitwirkung | Wandlungsblockade | Gesellschafterin unentschlossen | Alle bereit |
 | Grundsatzbeschluss als Kapitalerhöhungsbeschluss fehlverstanden | Notarielle Beurkundung irrtümlich unterlassen | Unklare Beschlussfassung | Eindeutige Unterscheidung |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterversammlung-einberufen/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandelereignis-eingang/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG §§ 46 ff. aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 51 GmbHG (Einberufung Gesellschafterversammlung, Ladungsfrist eine Woche) → § 47 GmbHG (Beschlussfassung, Mehrheitserfordernisse) → § 53 GmbHG (Satzungsänderung, notarielle Form) → § 43 GmbHG (Geschäftsführerhaftung bei Pflichtverletzung) → § 56 Abs. 2 GmbHG (Sacheinlagebericht, Werthaltigkeit)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

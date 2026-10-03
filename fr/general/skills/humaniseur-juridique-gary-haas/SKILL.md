@@ -1,15 +1,11 @@
 ---
 name: humaniseur-juridique-gary-haas
 title: 'Humanizer Juridique : Supprimer les Traces d''Écriture IA dans les Textes de Droit Français'
-description: 'Les LLM écrivent du juridique qui ressemble à du juridique sans en être. Formules creuses, attributions vagues, hedging systématique, latin décoratif : un praticien repère ces tics en trois lignes. Un juge aussi.
-
-  LawyerScrib est un skill pour Claude Code et Cursor qui nettoie ces traces. Il scanne 17 patterns typiques de l''écriture IA appliquée au droit français (conclusions, consultations, notes, mails, actes) et réécrit chaque passage pour retrouver le ton d''un avocat qui argumente, pas d''un modèle qui rédige.
-
-  Le résultat : un texte engagé, précis, avec des références sourcées et une position claire. Pas un texte neutre qui "reste à disposition pour tout complément".'
+description: 'Les LLM écrivent du juridique qui ressemble à du juridique sans en être. Formules creuses, attributions vagues, hedging systématique, latin décoratif : un praticien repère ces tics en trois lignes. Un juge aussi. LawyerScrib est un skill pour Claude Code et Cursor qui nettoie ces traces. Il scanne 17 patterns typiques de l''écriture IA appliquée au droit français (conclusions, consultations, notes, mails, actes) et réécrit chaque passage pour retrouver le ton d''un avocat qui argumente, pas d''un modèle qui rédige. Le résultat : un texte engagé, précis, avec des références sourcées et une position claire. Pas un texte neutre qui "reste à disposition pour tout complément".'
 author: Gary Haas
 author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/humaniseur-juridique-gary-haas
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: general

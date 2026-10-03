@@ -1,18 +1,18 @@
 ---
 name: applying-usc-procedures
-title: applying-usc-procedures
+title: law-pl-applying-usc-procedures
 description: Use when navigating Polish USC procedures — rejestracja urodzenia (art. 60–69 ASC), małżeństwo cywilne / konkordatowe (art. 76–85), zmiana imienia / nazwiska (ustawa z 17.10.2008), transkrypcja aktów zagranicznych (art. 104–108), sprostowanie / unieważnienie aktu, odpisy (zupełne, skrócone, wielojęzyczne CIEC). Dokumenty, opłata skarbowa, terminy KPA, odwołania. Ustawa z 28.11.2014 o aktach stanu cywilnego
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-usc-procedures
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: family
 language: pl
 ---
 
-# applying-usc-procedures
+# law-pl-applying-usc-procedures
 
 Urząd Stanu Cywilnego (USC) — organ administracji wykonujący zadania państwa dotyczące rejestracji stanu cywilnego. Prowadzi akty urodzenia, małżeństwa, zgonu, przyjmuje oświadczenia, wydaje zaświadczenia. Regulowany **ustawą z 28.11.2014 o aktach stanu cywilnego** (Dz.U. 2014 poz. 1741 ze zm., skrót: **ASC**). Poza ASC — **ustawa z 17.10.2008 o zmianie imienia i nazwiska** (Dz.U. 2008 nr 220 poz. 1414) — dla zmian imienia/nazwiska; **KPA** (art. 35 ff.) — dla terminów i trybu odwoławczego.
 
@@ -196,7 +196,7 @@ W załączeniu:
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla spraw rodzinnych po transkrypcji (rozwód, alimenty, ustalenie ojcostwa) — agent `pl:family-drafter`.
-- Dla odmowy kierownika USC w sprawie zmiany imienia / nazwiska i skargi do sądu — agent `pl:appeal-drafter` (odwołanie KPA + skarga PPSA).
-- Dla odmowy transkrypcji z powodów sprzeczności z porządkiem publicznym (np. akty małżeństw jednopłciowych z państw, które uznają — sprawa kontrowersyjna, opinia rzecznika) — rozważyć konsultację; agent `pl:legal-memo`.
-- Dla sporu między rodzicami o imię / nazwisko dziecka (władza rodzicielska) — agent `pl:family-drafter`.
+- Dla spraw rodzinnych po transkrypcji (rozwód, alimenty, ustalenie ojcostwa) — agent `law-pl-family-drafter`.
+- Dla odmowy kierownika USC w sprawie zmiany imienia / nazwiska i skargi do sądu — agent `law-pl-appeal-drafter` (odwołanie KPA + skarga PPSA).
+- Dla odmowy transkrypcji z powodów sprzeczności z porządkiem publicznym (np. akty małżeństw jednopłciowych z państw, które uznają — sprawa kontrowersyjna, opinia rzecznika) — rozważyć konsultację; agent `law-pl-legal-memo`.
+- Dla sporu między rodzicami o imię / nazwisko dziecka (władza rodzicielska) — agent `law-pl-family-drafter`.

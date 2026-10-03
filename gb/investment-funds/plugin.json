@@ -1,0 +1,14 @@
+{
+  "name": "gb-investment-funds",
+  "displayName": "Investment Funds & Asset Management — GB",
+  "version": "0.1.0",
+  "description": "Investment Funds & Asset Management skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "investment-funds",
+  "language": "de",
+  "skills": [
+    "skills/uk-us-deal-docs-verstehen"
+  ]
+}

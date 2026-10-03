@@ -8,7 +8,7 @@ Jurisdiction: `ch` · Practice: `sports` · Skill language varies per skill.
 
 | Skill | What it does |
 |---|---|
-| [`CAS-Berufung vorbereiten`](skills/cas-berufung-vorbereiten/) | Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne… |
+| [`Sportler oder Verein will Entscheidung eines Sportverbands vor dem Court of Arbitration for Sport Lausanne anfechten`](skills/cas-berufung-vorbereiten/) | Für Cas Berufung Vorbereiten: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 
 ## Cold-start context
 

@@ -1,119 +1,87 @@
 ---
 name: aussenwirtschaft-antidumping-ausgleich
-title: Antidumping- und Ausgleichszölle
-description: Antidumping Antisubvention und Ausgleichsmassnahmen im EU-Aussenhandelsrecht. Anwendungsfall Import- oder Exporteur ist von Antidumping-Massnahmen betroffen oder will Erstattungsantrag stellen. Normen EU-Antidumpingverordnung 2016/1036 Antisubventionsverordnung 2016/1037 UZK Art. 117 ff. Rückzahlung. Prüfraster Antidumping Antisubvention Umgehung Zusatzzoll Erstattungsantrag Befreiung Kommissionsverfahren Abgabenbescheid. Output Antidumping-Prüfbericht mit Abgabenberechnung Erstattungsantrag und Widerspruchsstrategie. Abgrenzung zu aussenwirtschaft-zolltarif-vzta und aussenwirtschaft-zollverfahren-bewilligungen.
+title: 'Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung'
+description: 'Für Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-antidumping-ausgleich
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: trade
 language: de
 ---
 
-# Antidumping- und Ausgleichszölle
+# Antidumping-Ausgleich: TARIC-Maßnahmen und Herstellerzuordnung
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill sortiert Trade-Defence-Risiken aus Sicht von Einführern, Drittstaatsherstellern und Verbänden.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Importeur kauft Solarpaneele aus China; TARIC-Abfrage zeigt Antidumping-Maßnahmen. Welcher Zollsatz gilt?
+- Stahlhaendler erhaelt Nachzollbescheid, weil Ursprungsnachweise des chinesischen Lieferanten nicht anerkannt.
+- Unternehmen importiert Keramik aus Vietnam; fragt nach Antidumping-Risiko und Nullzoll-Optionen.
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. TARIC-Datenbank (ec.europa.eu/taxation_customs/dds2/taric) aufrufen: Maßnahmen für KN-Code und Ursprungsland prüfen.
+2. Hersteller-ID und TARIC-Unternehmenscode (TARIC ADD-Code) des Lieferanten ermitteln.
+3. Individualzoll vs. Restzoll klären; Ursprungszeugnis und EU-Anerkennungsstatus prüfen.
+4. Antidumping-Zoll auf CIF-Wert berechnen; Vergleich mit eventueller Preisverpflichtung (Price Undertaking).
+5. Überprüfen ob Befreiungsantrag möglich (Art. 11 VO 2016/1036: Auslaufrevision).
+6. Zollwertdeklaration und Ursprungsdokumentation für Audit-Compliance sicherstellen.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **VO (EU) 2016/1036**: EU-Antidumping-Grundverordnung (Methodik und Verfahren).
+- **Art. 1-2 VO 2016/1036**: Dumping-Definition und Schadenstest.
+- **UZK Art. 56-63**: Zolltarifanwendung und Praeferenzketten.
+- **VO (EU) 952/2013 Art. 59-63**: Ursprungsbestimmung für Antidumpingzwecke.
+- **AWG § 21**: Verfahrensbeteiligung bei Handelspolitikuntersuchungen.
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] TARIC-Maßnahmen für exakten KN-Code und Ursprungsland aktuell geprueft?
+- [ ] Hersteller-TARIC-Code gueltig und anerkannt?
+- [ ] Ursprungsnachweis zulässig und nachweisbar?
+- [ ] CIF-Wert korrekt für Antidumping-Berechnungsgrundlage?
+- [ ] Preisverpflichtung (Price Undertaking) aktiv und nutzbar?
+- [ ] Rueckerstattungsantrag bei Dumping-Margin-Review möglich?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- TARIC-Maßnahmen ändern sich durch Revisionen und Auslaufverfahren laufend; immer tagesaktuelle Abfrage.
+- Zusammengesetzte Waren: Antidumpingzoll kann an Bestandteil haengen, nicht am Endprodukt.
+- Hersteller-ID des Lieferanten nicht geprueft: Restzoll statt Individualzoll wird faellig.
+- Umgehungsrisiko bei Transhipment über Drittlaender.
 
-## Triage vor Antidumping-/Ausgleichszoll-Pruefung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Liegt eine aktuelle EU-Antidumping-Massnahme (Verordnung) fuer die betreffende KN-Position und das Ursprungsland vor?
-2. Ist der Importeur als Unternehmen einzeln in der Verordnung benannt (unternehmensspezifischer Zollsatz) oder gilt der Residual-Zollsatz?
-3. Gibt es eine Preisverpflichtung (Price Undertaking) des Exporteurs, die die Antidumping-Massnahme ersetzt?
-4. Besteht ein Umgehungsverdacht (Montage in Drittland, Erweiterung des Geltungsbereichs)?
-5. Ist eine Erstattung gezahlter Antidumping-Zolle (Art. 21 VO (EU) 2016/1036) moeglich?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## Quellen
 
-## Normen-Kette Antidumping/Ausgleich
-
-- VO (EU) 2016/1036 — Grundantidumping-Verordnung (Verfahren, Massnahmen, Erstattung)
-- VO (EU) 2016/1037 — Grundantisubventionsverordnung
-- Art. 21 VO (EU) 2016/1036 — Erstattungsantrag bei nachgewiesenem Fehlern des Dumpings
-- Art. 13 VO (EU) 2016/1036 — Umgehungsregeln
-- TARIC-Datenbank — aktuelle Antidumping-Massnahmen mit Zollsaetzen
-- Art. 9 UZK — Rechtsbehelfsverfahren gegen Zollbescheide mit AD-Zollen
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: Antidumping-Pruefungsvermerk
-
-**Adressat:** Importabteilung / Rechtsabteilung — **Tonfall:** bescheidnah, erstattungsorientiert
-
-```
-ANTIDUMPING-PRUEFUNGSVERMERK
-Datum: [DATUM]
-Ware: [BEZEICHNUNG]  KN-Nr.: [NUMMER]
-Ursprungsland: [LAND]  Hersteller/Exporteur: [NAME]
-
-1. AKTIVE AD-MASSNAHME
-   EU-Verordnung: VO (EU) [NR./JAHR]  (TARIC-Check: [DATUM])
-   Geltungsbereich: [ ] Ware und Ursprungsland erfasst / [ ] Nicht erfasst
-   Unternehmensspezifischer Zollsatz: [%] / Residual-Zollsatz: [%]
-
-2. PREISVERPFLICHTUNG
-   Preisverpflichtung aktiv: [ ] Ja — Verordnung: VO (EU) [NR.] / [ ] Nein
-
-3. UMGEHUNGSPRUEFUNG
-   Montageoperation in Drittland: [ ] Ja / [ ] Nein
-   Erweiterungsverordnung: [ ] Vorhanden: VO (EU) [NR.] / [ ] Keine
-
-4. ERSTATTUNGSPOTENZIAL
-   Gezahlter AD-Zoll: [BETRAG EUR]
-   Erstattungsantrag moeglich: [ ] Ja — Frist: [DATUM] / [ ] Nein
-   Begruendung: [...]
-
-5. NAECHSTE SCHRITTE
-   - [Schritt mit Frist und Verantwortlichem]
-```
+- [VO (EU) 2016/1036 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R1036)
+- [TARIC-Datenbank Europaeische Kommission](https://ec.europa.eu/taxation_customs/dds2/taric/taric_consultation.jsp)
+- [UZK auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de Antidumping](https://www.zoll.de/DE/Fachthemen/Zoelle/Zollrechtliche-Einfuhrbestimmungen/Besondere-Einfuhrabgaben/besondere-einfuhrabgaben_node.html)

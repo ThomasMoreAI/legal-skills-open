@@ -14,11 +14,52 @@ description: 'Texas title examination for residential and commercial real estate
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/tx-title-analysis
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: real-estate
 language: en
+sources:
+- title: Sample exception analysis
+  path: references/sample-outputs/sample-exception-analysis.md
+- title: Sample requirements checklist
+  path: references/sample-outputs/sample-requirements-checklist.md
+- title: Sample title opinion
+  path: references/sample-outputs/sample-title-opinion.md
+- title: Tx commercial
+  path: references/tx-commercial.md
+- title: Tx condemnation
+  path: references/tx-condemnation.md
+- title: Tx data schema
+  path: references/tx-data-schema.md
+- title: Tx entities
+  path: references/tx-entities.md
+- title: Tx exam standards
+  path: references/tx-exam-standards.md
+- title: Tx exceptions
+  path: references/tx-exceptions.md
+- title: Tx foreclosure
+  path: references/tx-foreclosure.md
+- title: Tx forms
+  path: references/tx-forms.md
+- title: Tx liens
+  path: references/tx-liens.md
+- title: Tx manufactured housing
+  path: references/tx-manufactured-housing.md
+- title: Tx minerals
+  path: references/tx-minerals.md
+- title: Tx opinion template
+  path: references/tx-opinion-template.md
+- title: Tx probate
+  path: references/tx-probate.md
+- title: Tx quality checklist
+  path: references/tx-quality-checklist.md
+- title: Tx requirements
+  path: references/tx-requirements.md
+- title: Tx survey
+  path: references/tx-survey.md
+- title: Tx water rights
+  path: references/tx-water-rights.md
 ---
 
 # Texas Title Analysis Skill

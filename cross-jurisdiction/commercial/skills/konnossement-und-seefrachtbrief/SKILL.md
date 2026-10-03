@@ -1,0 +1,59 @@
+---
+name: konnossement-und-seefrachtbrief
+title: Konnossement und Seefrachtbrief
+description: 'Für Konnossement und Seefrachtbrief: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/konnossement-und-seefrachtbrief
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Konnossement und Seefrachtbrief
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+Das Konnossement (Bill of Lading, B/L) ist das Kernwertpapier des Seehandels: es verbrieft den Beförderungsanspruch und ist Traditionspapier (Übergabe des Papiers = Übergabe der Ware). Der Seefrachtbrief (Sea Waybill) ist kein Wertpapier — er dient nur als Beweisdokument und schließt dokumentären Kredit mit Original-BL-Vorlage aus.
+
+## Kernnormen / Kernquellen
+
+- **HGB §§ 513-549**: Deutsches Konnossementrecht
+- **HVR Art. 3 Abs. 3-7**: Mindestangaben und Wirkung des Konnossements
+- **UCP 600 Art. 20**: Konnossement im Akkreditivrecht — Anforderungen (On-Board, Vollständigkeit)
+- **CMI Rules for Electronic Bills of Lading 1990**: Erstes E-BL-Regelwerk
+- **MLETR (UNCITRAL 2017)**: Model Law on Electronic Transferable Records
+- **Bolero, essDOCS, WAVE**: Private E-BL-Plattformen
+
+## Schlüsselbegriffe
+
+- Order-BL vs. Straight-BL vs. Bearer-BL: Indossierbarkeit und Legitimation
+- On-Board-Konnossement: Bestätigung tatsächlicher Verladung (nicht nur Empfang)
+- Switch-BL: Austausch Konnossement im Transithafen — Risiken und Missbrauchspotenzial
+- Claused BL: Vermerke über Verpackungsmängel → Akkreditiv-Komplikationen
+- E-BL: Plattforminteroperabilität noch kein Standard (DCSA Initiative)
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Bank verlangt Clean On-Board-BL: Was bedeutet das und wie sicherstellen?
+2. Straight-BL ohne Indossament: Wie kommt Käufer an Ware ohne Original-BL?
+3. Akkreditiv friert bei Claused BL: Wie Lösung vor Verladung?
+4. Switch-BL: Wer haftet bei Doppelausstellung (Fraud-Risiko)?
+5. E-BL unter Bolero/essDOCS: Gilt MLETR national wenn Land nicht ratifiziert hat?
+
+## Methodik
+
+- BL-Typ nach Kreditrisiko wählen (Order-BL für Akkreditiv, Sea Waybill bei Konzerntransfer)
+- UCP 600 Art. 20 Anforderungen vorab mit Bank abstimmen
+- E-BL: nur wenn beide Parteien kompatible Plattform nutzen
+- Switch-BL: immer nur Original-Set vernichten vor Neuausstellung

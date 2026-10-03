@@ -1,11 +1,11 @@
 ---
 name: normenkontrollrat-kmu-check
 title: Normenkontrollrat / KMU-Check
-description: Vorlage an Nationalen Normenkontrollrat NKR vorbereiten und KMU-Check durchführen. Anwendungsfall Referentenentwurf muss vor Kabinettsbefassung dem NKR vorgelegt werden. Standard-Kostenmodell SKK Buerokratiekosten. KMU-Aspekt mittelstandsrelevante Vorschriften. One-in-one-out-Regel Entlastungsnachweis. Statistik-Pflichten. Output NKR-Vorlage-Datei Anschreiben Erfuellungsaufwand-Tabelle KMU-Test One-in-one-out-Nachweis. Anschluss gesetzesentwurf-kabinett. Abgrenzung zu folgenabschaetzung-erfuellungsaufwand Methodik-Skill.
+description: 'Für Normenkontrollrat / KMU-Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/normenkontrollrat-kmu-check
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,7 +14,19 @@ language: de
 
 # Normenkontrollrat / KMU-Check
 
-> Der NKR ist die wichtigste Pruefinstanz für Erfüllungsaufwand.
+## Normenanker
+
+Arbeitsfokus: **Normenkontrollrat / KMU-Check**. Prüfe diese Anker am Sachverhalt; ergänze nur Normen, die denselben Output, dieselbe Frist oder dieselbe Beweisfrage tragen:
+
+- `§ 44 Abs. 1 GGO` — Darstellung der Gesetzesfolgen.
+- `§ 44 Abs. 4 GGO` — Erfüllungsaufwand.
+- `§ 45 GGO` — Beteiligung betroffener Kreise.
+- `§ 46 GGO` — Rechtsförmlichkeit.
+- `Art. 20 Abs. 3 GG` — Rechtsbindung.
+- `Art. 80 Abs. 1 GG` — Bestimmtheit bei Verordnungsermächtigungen.
+- `§ 7 Abs. 1 BHO` — Wirtschaftlichkeit bei Vollzugskosten.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.
 
 ## Nationaler Normenkontrollrat (NKR)
 
@@ -24,15 +36,15 @@ Unabhängiges Beratungsgremium der Bundesregierung. Einrichtung durch NKRG (Gese
 
 Prüfung des Erfüllungsaufwands und der Folgekosten von Bundesgesetzen, Verordnungen und Allgemeinverwaltungsvorschriften.
 
-### Pruefberichte
+### Prüfberichte
 
-Der NKR erstellt einen Pruefbericht, der dem Kabinettsentwurf als Anlage beigefügt wird. Negative Berichte erschweren das parlamentarische Verfahren.
+Der NKR erstellt einen Prüfbericht, der dem Kabinettsentwurf als Anlage beigefügt wird. Negative Berichte erschweren das parlamentarische Verfahren.
 
 ## KMU-Test
 
 Mittelstandsrelevante Vorschriften müssen einen besonderen KMU-Check bestehen:
 
-- Welche Adressaten sind Unternehmen mit weniger als 250 Beschaeftigten?
+- Welche Adressaten sind Unternehmen mit weniger als 250 Beschäftigten?
 - Welche Umsetzungskosten?
 - Welche Alternativen sind milder?
 - Welche Ausnahmen / Schwellenwerte?
@@ -46,26 +58,29 @@ Seit 2015 Bundesregierungsregel: Jeder neue Bürokratieaufwand für die Wirtscha
 - Pro neuem Aufwand: identifizieren Sie das Pendant zur Entlastung
 - Methodische Hilfe: SKK Standard-Kostenmodell
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
-§§ 1-8 NKRG (Normenkontrollrat-Gesetz) — § 62 Abs. 1 GGO (NKR-Beteiligung Pflicht) — Art. 5 EUV (EU-Verhaeltnismaessigkeit, KMU-Test) — Leitlinien KMU-Test Europaeische Kommission COM 2009 (SME-Test)
+§§ 1-8 NKRG (Normenkontrollrat-Gesetz) — § 62 Abs. 1 GGO (NKR-Beteiligung Pflicht) — Art. 5 EUV (EU-Verhältnismäßigkeit, KMU-Test) — Leitlinien KMU-Test Europaeische Kommission COM 2009 (SME-Test)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 - NKR-Vorlagedatei
 - Anschreiben
 - Anlagen:
-  - Erfüllungsaufwand-Tabelle
-  - KMU-Test-Bericht
-  - One-in-one-out-Nachweis
+ - Erfüllungsaufwand-Tabelle
+ - KMU-Test-Bericht
+ - One-in-one-out-Nachweis
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Anschluss
 
 `gesetzesentwurf-kabinett`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

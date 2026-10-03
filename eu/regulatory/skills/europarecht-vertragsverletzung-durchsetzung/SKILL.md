@@ -1,11 +1,11 @@
 ---
 name: europarecht-vertragsverletzung-durchsetzung
 title: Vertragsverletzung und Durchsetzung
-description: 'Vertragsverletzungsverfahren der EU-Kommission gegen Mitgliedstaaten einordnen oder Reaktion eines Mitgliedstaats vorbereiten. Art. 258 260 AEUV Vertragsverletzung. Prüfraster: Verletzungshandlung Mahnschreiben Klage Urteil Sanktion Abhilfemassnahmen. Output: Verfahrensstand-Memo Reaktionsstrategie. Abgrenzung: nicht für Nichtigkeitsklage (europarecht-klagearten-eugh).'
+description: 'Für Vertragsverletzung und Durchsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/europarecht-kompass/skills/europarecht-vertragsverletzung-durchsetzung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -14,23 +14,19 @@ language: de
 
 # Vertragsverletzung und Durchsetzung
 
-## Zweck
+## Arbeitsweg
 
-Kommissionsbeschwerde, nationale Rechtsbehelfe, politischer Druck und Fristen werden realistisch eingeordnet.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: AEUV Art. 263 Nichtigkeitsklage 2 Monate, Art. 265 Untätigkeitsklage 2 Monate, Art. 267 Vorlage jederzeit, Vertragsverletzungsverfahren Art. 258 unbefristet.
+- Tragende Normen verifizieren: EUV, AEUV (insb. Art. 4, 5, 18, 20, 21, 34, 49, 56, 101, 102, 107, 108, 263, 267, 288, 340), GRCh, EU-VO (Beispiele 2016/679 DSGVO, 2024/1689 KI-VO, 139/2004 FKVO), EU-Richtlinien, EuGH-Rechtsprechung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: EU-Kommission, Rat, Europäisches Parlament, EuGH, EuG, Mitgliedstaaten, nationale Gerichte (Vorlage Art. 267 AEUV), Bundesregierung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Vorlagebeschluss Art. 267 AEUV, Nichtigkeitsklage, Beschwerde an EU-KOM, Stellungnahme im Vertragsverletzungsverfahren, Notifizierung, EuGH-Urteilsbeleg — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Wann verwenden
 
 - bei Memos, Behördenbriefen, Schriftsätzen oder Compliance-Projekten mit EU-Bezug
 - wenn deutsche Kategorien die EU-Eigenlogik verdecken könnten
 - wenn Rechtsquelle, Wirkung, Verfahren oder Frist unklar sind
-
-## Arbeitsweise
-
-1. **Rechtsquelle fixieren.** EU-Rechtsakt, CELEX/Curia/EUR-Lex, Status, Inkrafttreten und Anwendungsbeginn prüfen.
-2. **Wirkung bestimmen.** Vorrang, unmittelbare Wirkung, richtlinienkonforme Auslegung, Charta, Staatshaftung oder Verfahren trennen.
-3. **Deutsche Denkfehler markieren.** Nationale Kategorien nur nutzen, wenn sie unionsrechtlich passen.
-4. **Verfahrensweg planen.** Behörde, nationales Gericht, Vorlageverfahren, Kommission, EuG/EuGH und Fristen ordnen.
-5. **Qualitätstor setzen.** Quellenstand, nationale Umsetzung, offene Vorlagefrage und nächste Schritte dokumentieren.
 
 ## Rückfragen, wenn unklar
 
@@ -41,7 +37,7 @@ Kommissionsbeschwerde, nationale Rechtsbehelfe, politischer Druck und Fristen we
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -51,13 +47,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Variante C — Vorlageverfahren an EuGH schneller | Art. 267 AEUV Vorabentscheidung wenn nationale Gerichte befasst |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
-## Ausgabeformat
-
-- Kurzlage mit Ampel
-- Prüfmatrix mit Fundstelle, Risiko, Vorschlag und Review-Level
-- anwaltlich prüfbarer Entwurf oder Mandantenhinweis
-- offene Annahmen, Quellenstand und nächste Schritte
 
 ## Typische Fehler vermeiden
 
@@ -75,24 +64,17 @@ Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf 
 Bevor losgelegt wird, klaere:
 1. Hat die Kommission bereits ein Vorverfahren (Mahnschreiben, Stellungnahme Art. 258 AEUV) eroeeffnet?
 2. Welches Umsetzungsdefizit liegt vor — formelle Nichtumsetzung oder materielle Unvereinbarkeit?
-3. Kann der Mandant Beschwerde an die Kommission einlegen (kein Klagerecht fuer Private)?
+3. Kann der Mandant Beschwerde an die Kommission einlegen (kein Klagerecht für Private)?
 4. Alternativ: Staatshaftungsklage vor nationalem Gericht (Francovich) als direkter Rechtsbehelf?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Normen-Kette
 
 - **Art. 258 AEUV** — Vertragsverletzungsverfahren durch Kommission; Vorverfahren; EuGH-Klage
 - **Art. 259 AEUV** — Mitgliedstaat-Klage gegen Mitgliedstaat (sehr selten)
 - **Art. 260 AEUV** — Zwangsgeld und Pauschalstrafe bei Nichtbefolgung des ersten Urteils
-- **§ 839 BGB / Art. 34 GG** iVm Staatshaftungsgrundsaetzen — nationales Instrument fuer Private
+- **§ 839 BGB / Art. 34 GG** iVm Staatshaftungsgrundsaetzen — nationales Instrument für Private
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Output-Template: Beschwerde an EU-Kommission
 
 **Adressat:** Europaeische Kommission, Generaldirektion [ZUSTAENDIG]
@@ -129,7 +111,17 @@ Wir bitten die Kommission, ein Vorverfahren nach Art. 258 AEUV zu eroeeffnen.
 [RA-NAME]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

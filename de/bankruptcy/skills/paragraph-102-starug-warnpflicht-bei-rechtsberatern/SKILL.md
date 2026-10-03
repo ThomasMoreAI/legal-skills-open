@@ -1,227 +1,157 @@
 ---
 name: paragraph-102-starug-warnpflicht-bei-rechtsberatern
-title: § 102 StaRUG — Warnpflicht der Rechtsberater
-description: Workflow-Skill zu paragraph 102 starug warnpflicht bei rechtsberatern. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+title: 1. Hinweis nach Paragraf 102 StaRUG
+description: Prüft den eng begrenzten Hinweis nach Paragraf 102 StaRUG bei der Erstellung eines Jahresabschlusses.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/paragraph-102-starug-warnpflicht-bei-rechtsberatern
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# § 102 StaRUG — Warnpflicht der Rechtsberater
+# 1. Hinweis nach Paragraf 102 StaRUG
 
-§ 102 StaRUG begründet eine gesetzlich normierte Hinweispflicht für Steuerberater, Wirtschaftsprüfer und Rechtsanwälte bei drohender Insolvenz ihrer Mandanten. Diese Pflicht ist keine Kulanzleistung, sondern ein scharfes Haftungsschwert — in beide Richtungen: Wer warnt und dokumentiert, ist geschützt. Wer schweigt, haftet.
+## 1.1 Direktstart
 
----
+Lies zuerst Auftragsschreiben, Jahresabschlussunterlagen, Fortführungsannahmen, Saldenlisten, offene Posten, Mahnungen, Vollstreckungsunterlagen, frühere Hinweise und Gesprächsvermerke. Frage nur nach Tatsachen, die aus den vorhandenen Dateien nicht hervorgehen und für den nächsten Arbeitsschritt entscheidend sind.
 
-## Rechtsgrundlagen
+Liefere zunächst eines dieser Arbeitsprodukte:
 
-- § 102 StaRUG (Hinweispflichten der Berater)
-- § 43 StBerG (Allgemeine Berufspflichten des Steuerberaters)
-- § 43 WPO (Berufspflichten des Wirtschaftsprüfers)
-- § 43a BRAO (Grundpflichten des Rechtsanwalts)
-- **BGH IX ZR 285/14 vom 26.01.2017** — Grundsatzentscheidung zur Hinweis- und Warnpflicht des Steuerberaters bei drohender Insolvenz; Steuerberater haftet auf den durch die unterlassene Warnung verursachten Insolvenzvertiefungsschaden.
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.01.2017&Aktenzeichen=IX+ZR+285/14>
-- **BGH IX ZR 56/22 vom 29.06.2023** — Drittschutzwirkung der Hinweis- und Warnpflicht zugunsten des (faktischen) Geschäftsführers; der GF kann eigenen Schadensersatzanspruch gegen Berater haben, wenn er bestimmungsgemäß in den Schutzbereich des Mandatsvertrags einbezogen ist.
-  <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=29.06.2023&Aktenzeichen=IX+ZR+56/22>
-- IDW PS 340 n.F. (Risikofrüherkennungssysteme)
+1. Tatbestandsvermerk zu Paragraf 102 StaRUG.
+2. Konkretes Hinweisschreiben an den Mandanten.
+3. Aktenvermerk mit Beleg- und Zugangsplan.
+4. Abgrenzungsvermerk, wenn Paragraf 102 StaRUG nicht greift, aber andere Mandatspflichten zu prüfen sind.
 
----
+## 1.2 Tatbestand ohne Ausweitung
 
-## Pflichten
+Paragraf 102 StaRUG greift nur, wenn sämtliche Voraussetzungen belegt sind:
 
-### 1. Norminhalt § 102 StaRUG
+| Tatbestandsmerkmal | Leitfrage | Mindestbeleg |
+| --- | --- | --- |
+| Berufsträger | Handelt ein Steuerberater, Steuerbevollmächtigter, Wirtschaftsprüfer, vereidigter Buchprüfer oder Rechtsanwalt? | Auftrag und verantwortlicher Bearbeiter |
+| Jahresabschlusserstellung | Gehört die Erstellung eines Jahresabschlusses zum konkreten Auftrag? | Auftragsschreiben, Honorarabrede, Arbeitspapiere |
+| Möglicher Insolvenzgrund | Deuten offenkundige Tatsachen oder Rechtsfragen auf einen möglichen Insolvenzgrund nach den Paragrafen 17 bis 19 InsO hin? | konkrete Zahlen, Fälligkeiten, Titel, Fortführungsannahmen |
+| Offenkundigkeit | Ergeben sich die Anhaltspunkte ohne insolvenzrechtliche Sonderermittlung aus den verfügbaren Unterlagen und bekannten Umständen? | Fundstelle und Erkenntnisdatum |
+| Vermutete Unkenntnis | Muss der Berufsträger annehmen, dass dem Mandanten die mögliche Insolvenzreife nicht bewusst ist? | bisherige Kommunikation, Organprotokolle, fehlende Prüfung |
 
-§ 102 Abs. 1 StaRUG verpflichtet jeden Berater, der aufgrund seiner beruflichen Tätigkeit Umstände erkennt, die auf eine drohende Zahlungsunfähigkeit oder Überschuldung hindeuten, seinen Mandanten unverzüglich darauf hinzuweisen. Die Hinweispflicht gilt:
+Eine laufende Buchführung, Monats-BWA, Lohnabrechnung, Due Diligence oder ein sonstiges Beratungsmandat löst Paragraf 102 StaRUG für sich allein nicht aus. Entsteht dort ein Krisensignal, sind gesonderte vertragliche und berufsrechtliche Pflichten zu prüfen. Diese Prüfung darf nicht als gesetzlicher Hinweis nach Paragraf 102 StaRUG ausgegeben werden, wenn kein Auftrag zur Jahresabschlusserstellung besteht.
 
-- **Steuerberater** bei Jahresabschluss-Erstellung, laufender Finanzbuchhaltung, Lohnbuchhaltung, Betriebswirtschaftlichen Auswertungen (BWA)
-- **Wirtschaftsprüfer** bei Jahresabschlussprüfung, Sonderprüfungen, Due Diligence
-- **Rechtsanwälte** bei gesellschaftsrechtlicher Beratung, Vertragsgestaltung, Inkasso, Vertragsverhandlungen
+## 1.3 Insolvenzindizien richtig einordnen
 
-### 2. Auslöser der Warnpflicht
+Ordne jedes Signal einem möglichen Insolvenzgrund zu, ohne aus einem Bilanz- oder Buchungswert vorschnell Insolvenzreife abzuleiten:
 
-Die Warnpflicht wird ausgelöst, sobald der Berater Anhaltspunkte erkennt — nicht erst bei Gewissheit. Zu den typischen Auslösern gehören:
+| Signal | Prüfspur | Fehlerbremse |
+| --- | --- | --- |
+| Nicht gedeckter Fehlbetrag oder negatives Eigenkapital | Paragraf 19 InsO und Fortführungsannahme nach Paragraf 252 Absatz 1 Nummer 2 HGB | bilanzielle Unterdeckung ist nicht automatisch insolvenzrechtliche Überschuldung |
+| Dauerhaft überfällige Verbindlichkeiten, Vollstreckungen, Rücklastschriften | Paragraf 17 InsO, Fälligkeit, ernsthaftes Einfordern, verfügbare Mittel | keine starre Prozent- oder Altersregel als alleinigen Nachweis verwenden |
+| Auslaufende Kreditlinie oder sichere künftige Finanzierungslücke | Paragraf 18 InsO mit regelmäßigem 24-Monats-Zeitraum | Paragraf 18 InsO ist keine Insolvenzantragspflicht |
+| Zweifel an Unternehmensfortführung | Fortführungswerte und belastbare Fortführungsprognose | der Abschlussersteller schuldet ohne Zusatzauftrag keine vollständige Insolvenzreifeprüfung |
 
-| Signal | Typischer Kontext |
-|---|---|
-| BWA zeigt nachhaltiges Umsatzminus | Steuerberater im Rahmen der Monatsbuchhaltung |
-| Zahlungsverzögerungen gegenüber Lieferanten > 60 Tage | Inkassobeauftragter RA |
-| Covenant-Unterschreitung im Kreditvertrag | WP bei der Jahresabschlussprüfung |
-| Negativer Eigenkapital-Trend | StB bei Bilanzierungsgespräch |
-| Forderungsausfälle > 15 % des Umsatzes | Jeder Berater, dem dies bekannt wird |
+Trenne stets:
 
-### 3. Inhalt der Warnung
+1. beobachtete Tatsache,
+2. Belegstelle,
+3. mögliche rechtliche Bedeutung,
+4. ungeklärte Annahme,
+5. erforderliche Prüfung durch Geschäftsleitung oder spezialisierten Berater.
 
-Die Warnung muss konkret, verständlich und nachweisbar sein. Bloßer Hinweis in einer Besprechung ohne Niederschrift genügt nicht. Die Warnung muss enthalten:
+## 1.4 Inhalt des Hinweises
 
-1. **Sachverhaltsbeschreibung** — welche Umstände wurden erkannt?
-2. **Rechtliche Einordnung** — was bedeutet das im Hinblick auf drohende Zahlungsunfähigkeit/Überschuldung?
-3. **Handlungsempfehlungen** — welche Sofortmaßnahmen sind zu prüfen?
-4. **Fristsetzung** — bis wann erwartet der Berater Rückmeldung?
-5. **Hinweis auf Insolvenzantragspflicht** — § 15a InsO und Drei-Wochen-Frist benennen
+Das Schreiben muss die konkrete Warnfunktion erfüllen. Es enthält:
 
-**BGH IX ZR 285/14 vom 26.01.2017** ist die Grundsatzentscheidung zur Hinweis- und Warnpflicht des Steuerberaters bei möglicher Insolvenzreife: Ein Steuerberater, der bei der Erstellung des Jahresabschlusses auf Anzeichen einer Unternehmenskrise stößt, ist verpflichtet, den Mandanten unaufgefordert auf das Risiko einer Insolvenzantragspflicht hinzuweisen. Diese Pflicht besteht auch bei Teilauftrag. Der Schutzbereich des Beratungsvertrags umfasst den wirtschaftlichen Gesamtschaden des Mandanten.
+1. Anlass und Umfang des Jahresabschlussauftrags.
+2. Tatsachen und Unterlagen, aus denen sich die offenkundigen Anhaltspunkte ergeben.
+3. Den Hinweis auf einen möglichen Insolvenzgrund nach Paragraf 17, 18 oder 19 InsO, ohne ein ungeprüftes Endergebnis vorzugeben.
+4. Die daran anknüpfenden Prüfungs-, Überwachungs- und gegebenenfalls Antragspflichten der Geschäftsleiter und Mitglieder der Überwachungsorgane.
+5. Die Aufforderung zu einer sofortigen fachkundigen Prüfung, wenn Zahlungsunfähigkeit oder Überschuldung möglich erscheint.
+6. Einen dokumentierbaren Übermittlungsweg und eine Wiedervorlage.
 
-Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=26.01.2017&Aktenzeichen=IX+ZR+285/14>
+Paragraf 102 StaRUG bestimmt keine feste Antwortfrist von sieben oder vierzehn Tagen und schreibt keine bestimmte Versandart vor. Bestimme Dringlichkeit und Wiedervorlage nach dem konkreten Insolvenzrisiko. Bei möglicher bereits eingetretener Zahlungsunfähigkeit oder Überschuldung ist ein bloßer Routinetermin ungeeignet.
 
-**BGH IX ZR 56/22 vom 29.06.2023** erweitert die Schutzwirkung des Beratungsmandats: Auch der (faktische) Geschäftsführer kann in den Schutzbereich einbezogen sein, wenn er bestimmungsgemäß mit der Hauptleistung in Berührung kommt — d.h. der Berater haftet ggf. auch dem GF persönlich auf Ersatz seines Insolvenzvertiefungsschadens (insb. Haftung nach § 15b InsO, § 823 II BGB iVm § 15a InsO).
+## 1.5 Muster für ein tatbestandsgebundenes Hinweisschreiben
 
-Quelle: <https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BGH&Datum=29.06.2023&Aktenzeichen=IX+ZR+56/22>
-
-**Praktische Konsequenz:** Kein Berater kann sich auf den Umfang seines Mandats zurückziehen, wenn er krisensignifikante Informationen in der Hand hält. Die Warnung gehört zum Mindestinhalt jedes Beratungsverhältnisses.
-
----
-
-## Vorgehen
-
-### Schritt 1: Checkliste Auslöser-Erkennung
-
-Monatliche Prüfung durch den Berater anhand der BWA:
-
-- [ ] Ist die Eigenkapitalquote unter 10 % gesunken?
-- [ ] Ist EBIT/EBITDA seit drei Monaten negativ?
-- [ ] Bestehen Zahlungsverzögerungen an das Finanzamt oder Sozialversicherungsträger?
-- [ ] Wurden Kreditlinien vollständig ausgeschöpft?
-- [ ] Gibt es Klagen, Vollstreckungsmaßnahmen oder Pfändungen?
-- [ ] Hat der Mandant Lieferantenrechnungen > 60 Tage offen?
-- [ ] Wurde die Bank über Covenant-Unterschreitungen informiert?
-
-Wenn mehr als zwei dieser Fragen mit "ja" beantwortet werden: Warnpflicht ist ausgelöst.
-
-### Schritt 2: Warnung aussprechen und dokumentieren
-
-1. Gespräch mit Mandant führen (persönlich oder Videocall, protokolliert)
-2. Schriftliche Bestätigung per Brief oder E-Mail (Muster s.u.)
-3. Empfangsbestätigung einholen (Lesebestätigung, Antwort-E-Mail, Unterschrift)
-4. Akte anlegen: Datum der Erkenntnis, Datum der Warnung, Reaktion des Mandanten
-
-### Schritt 3: Eskalation bei Untätigkeit des Mandanten
-
-Reagiert der Mandant nicht innerhalb der gesetzten Frist (i.d.R. zwei Wochen), folgt:
-
-1. Schriftliche Wiederholung der Warnung mit Fristmahnung
-2. Prüfung der Mandatsfortführungspflicht — ggf. Mandatsniederlegung
-3. Dokumentation der Mandatsniederlegung aus Haftungsgründen
-
----
-
-## Templates
-
-### Muster: § 102-StaRUG-Warnbrief (Steuerberater an Mandant)
-
-```
-[Kanzlei-Briefkopf — fiktive Kanzlei]
+```text
+[Briefkopf des Berufsträgers]
 
 [Ort], [Datum]
 
-[Firma GmbH]
-z.Hd. der Geschäftsführung
-[Adresse]
+[Mandant und Geschäftsleitung]
+[Anschrift]
 
-Betreff: Krisenfrühwarnung gemäß § 102 StaRUG — Dringende Handlungsempfehlung
+Unser Zeichen: [Zeichen]
+Betreff: Jahresabschluss zum [Stichtag] - Hinweis auf einen möglichen
+Insolvenzgrund und die Pflichten der Geschäftsleitung
 
 Sehr geehrte Damen und Herren,
 
-im Rahmen unserer laufenden Mandatstätigkeit haben wir folgende
-Entwicklungen festgestellt, die auf eine bestandsgefährdende Lage
-im Sinne des § 1 StaRUG und auf das Vorliegen von Umständen
-hindeuten können, die zu einer drohenden Zahlungsunfähigkeit
-im Sinne des § 18 InsO führen könnten:
+wir sind mit der Erstellung des Jahresabschlusses zum [Stichtag]
+beauftragt. Aus den uns hierzu vorliegenden Unterlagen ergeben sich
+folgende offenkundige Anhaltspunkte:
 
-1. [Beschreibung Sachverhalt 1, z.B.: Die BWA per [Datum] weist
-   ein kumuliertes EBIT von EUR [Betrag] aus — gegenüber dem
-   Vorjahreswert von EUR [Betrag] entspricht dies einem Rückgang
-   von [x] Prozent.]
+1. [Tatsache, Betrag, Stichtag und genaue Unterlage]
+2. [Tatsache, Betrag, Stichtag und genaue Unterlage]
+3. [gegebenenfalls widersprechende oder noch fehlende Information]
 
-2. [Beschreibung Sachverhalt 2, z.B.: Die offenen Verbindlichkeiten
-   gegenüber Lieferanten betragen zum Stichtag EUR [Betrag], davon
-   sind EUR [Betrag] seit mehr als 60 Tagen überfällig.]
+Diese Umstände können auf einen Insolvenzgrund nach Paragraf [17, 18
+oder 19] InsO hindeuten. Damit ist noch keine abschließende Feststellung
+der Insolvenzreife verbunden. Die Geschäftsleitung muss die mögliche
+Insolvenzreife und die daraus folgenden Pflichten unverzüglich fachkundig
+prüfen lassen.
 
-3. [Beschreibung Sachverhalt 3]
+Bei Zahlungsunfähigkeit oder Überschuldung ist ein Antrag nach Paragraf
+15a InsO ohne schuldhaftes Zögern zu stellen. Die dort genannten
+Höchstzeiträume von drei Wochen bei Zahlungsunfähigkeit und sechs Wochen
+bei Überschuldung sind keine erlaubten Wartefristen. Zahlungen nach
+Eintritt der Insolvenzreife sind zusätzlich an Paragraf 15b InsO zu
+messen.
 
-Wir weisen Sie ausdrücklich darauf hin, dass bei Vorliegen von
-Zahlungsunfähigkeit (§ 17 InsO) oder Überschuldung (§ 19 InsO)
-eine Insolvenzantragspflicht nach § 15a InsO besteht, die
-grundsätzlich innerhalb von drei Wochen zu erfüllen ist.
-
-Wir empfehlen dringend, unverzüglich:
-a) eine rollierende Liquiditätsplanung für die nächsten 24 Monate
-   zu erstellen,
-b) einen auf Restrukturierung spezialisierten Rechtsberater
-   hinzuzuziehen,
-c) die Gesellschafter über die aktuelle Lage zu informieren.
-
-Bitte bestätigen Sie den Erhalt dieses Schreibens und teilen Sie
-uns bis zum [Datum, ca. 14 Tage] mit, welche Maßnahmen Sie
-einleiten.
+Bitte lassen Sie uns bis [risikogerecht bestimmter Zeitpunkt] den Erhalt
+und den Ansprechpartner für die sofortige Prüfung bestätigen. Für die
+Prüfung fehlen derzeit insbesondere [Unterlagen oder Entscheidungen].
 
 Mit freundlichen Grüßen
 
-[Name Steuerberater]
-[Kanzlei — fiktiv]
+[Name und Berufsbezeichnung]
 
-Anlage: Aktuelle BWA, Offene-Posten-Liste
+Anlagen:
+1. [Unterlage]
+2. [Unterlage]
 ```
 
-### Muster: Dokumentations-Quittung (Empfangsbestätigung Mandant)
+## 1.6 Rechtsprechungsanker
 
-```
-Empfangsbestätigung
+1. BGH, Urteil vom 26. Januar 2017, IX ZR 285/14: Der mit der Erstellung eines Jahresabschlusses für eine GmbH beauftragte Steuerberater muss bei offenkundigen Anhaltspunkten auf einen möglichen Insolvenzgrund und die Prüfungspflicht des Geschäftsführers hinweisen, wenn er annehmen muss, dass dem Mandanten die mögliche Insolvenzreife nicht bewusst ist. Ohne gesonderten Auftrag schuldet er jedoch keine umfassende Suche nach Insolvenzgründen und keine eigene Fortführungsprognose.
+2. BGH, Urteil vom 29. Juni 2023, IX ZR 56/22: Die Hinweis- und Warnpflicht des Rechtsberaters bei möglichem Insolvenzgrund kann den Geschäftsleiter, auch einen faktischen Geschäftsleiter, in den Schutzbereich des Mandatsvertrags einbeziehen. Erforderlich bleibt ein Näheverhältnis zur geschuldeten Hauptleistung; Drittschutz und Haftung treten nicht automatisch ein.
 
-Ich/Wir bestätigen, das Warnschreiben der Kanzlei [fiktiv] vom
-[Datum] gemäß § 102 StaRUG erhalten und zur Kenntnis genommen
-zu haben.
+Primärquellen:
 
-Ich/Wir sind informiert worden, dass:
-- die beschriebenen wirtschaftlichen Kennzahlen auf eine
-  bestandsgefährdende Entwicklung hindeuten können,
-- eine Insolvenzantragspflicht nach § 15a InsO bestehen kann,
-- unverzügliches Handeln erforderlich ist.
+- [Paragraf 102 StaRUG](https://www.gesetze-im-internet.de/starug/__102.html)
+- [BGH IX ZR 285/14](https://juris.bundesgerichtshof.de/cgi-bin/bgh_notp/document.py?Art=en&Datum=2017-1&Gericht=bgh&Seite=1&anz=231&pos=35)
+- [BGH IX ZR 56/22](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2023-6-29&Gericht=bgh&anz=16&nr=134407&pos=12)
 
-Wir werden bis zum [Datum] folgende Maßnahmen einleiten:
-[___________________________________________________]
+## 1.7 Dokumentation und Beweis
 
-[Ort], [Datum]
+Führe einen Aktenvermerk mit:
 
-___________________________
-Unterschrift Geschäftsführer
-```
+1. Auftrag und erfasster Abschlussperiode.
+2. Erkenntnisdatum, Bearbeiter und genaue Fundstellen.
+3. geprüften Tatbestandsmerkmalen des Paragrafen 102 StaRUG.
+4. bekannten Hinweisen auf die Kenntnis oder Unkenntnis des Mandanten.
+5. Wortlaut, Anlagen, Versandweg und Zugangsnachweis des Hinweises.
+6. Reaktion des Mandanten und risikogerechter Wiedervorlage.
+7. sauberer Trennung zwischen gesicherten Tatsachen, Annahmen und fachlich noch zu prüfenden Fragen.
 
----
+## 1.8 Qualitätskontrolle
 
-## Fallstricke
+Vor Ausgabe prüfen:
 
-1. **Mündliche Warnung ohne Protokoll ist wertlos** — im Haftungsprozess muss der Berater beweisen, wann er gewarnt hat. Ohne Schriftlichkeit kein Beweis.
-
-2. **"Vertrauliche" Warnung in der BWA-Erläuterung reicht nicht** — die Warnung muss explizit, unmissverständlich und dem Mandanten formal zugegangen sein.
-
-3. **Mandatsniederlegung ohne Warnung schützt nicht** — wer das Mandat niederlegt, ohne vorher zu warnen, haftet für den während der Mandatszeit entstandenen Schaden.
-
-4. **Berater-Eigeninteresse schützt nicht** — auch wenn der Berater befürchtet, den Mandanten zu verlieren: die Warnpflicht geht vor. Wer aus wirtschaftlichem Eigeninteresse schweigt, riskiert nach §§ 280, 634 BGB die volle Haftung.
-
-5. **Die Warnung muss an den richtigen Empfänger gehen** — bei der GmbH ist das die Geschäftsführung, nicht nur den Buchhalter. Bei der AG: der Vorstand.
-
-6. **Zeitdruck beachten** — zwischen Erkenntnis und Warnung darf keine unangemessene Zeit verstreichen. "Unverzüglich" bedeutet in der Praxis: innerhalb einer Woche nach Erkenntnis.
-
----
-
-## Querverweise
-
-- → `paragraph-1-starug-pflichten-und-24-monats-horizont` — Früherkennungspflicht der Geschäftsführung
-- → `mandantenbrief-warnung-paragraph-102-starug-template` — ausführliche Briefvorlagen
-- → `dokumentationspflicht-und-protokollierung-geschaeftsfuehrung` — Protokollierungspflichten
-- → `insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist` — Dreiwochen-Frist
-- → `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — GF-Haftung
-
-
-## Triage — Erste Einordnung
-
-Bevor losgelegt wird, klaere:
-1. **Krisenstadium?** Ertragskrise (EBIT negativ), Liquiditaetskrise (Cashflow negativ) oder akute Insolvenznaehe (ZU/Ueberschuldung)?
-2. **Insolvenzgrund?** § 17 InsO (ZU), § 18 InsO (drohende ZU), § 19 InsO (Ueberschuldung)?
-3. **Fristen?** Antragspflicht § 15a InsO: 3 Wochen (ZU), 6 Wochen (Ueberschuldung).
-4. **Sanierungs-Pfad?** StaRUG (drohende ZU), Schutzschirm, Eigenverwaltung oder Regelverfahren?
+1. Kein gesetzlicher Hinweis ohne Auftrag zur Jahresabschlusserstellung.
+2. Keine automatische Gleichsetzung von Krisensignal und Insolvenzreife.
+3. Keine erfundene gesetzliche Antwort- oder Warnfrist.
+4. Paragraf 1 StaRUG als Pflicht der Geschäftsleitung, Paragraf 102 StaRUG als begrenzte Berufsträgerpflicht behandeln.
+5. Höchstfristen nach Paragraf 15a InsO nicht als Wartefrist darstellen.
+6. Entscheidung, Datum, Aktenzeichen und Aussageumfang vor Verwendung in der Primärquelle prüfen.
+7. Ergebnis mit Risiko, Beleglage und nächstem konkreten Schritt schließen.

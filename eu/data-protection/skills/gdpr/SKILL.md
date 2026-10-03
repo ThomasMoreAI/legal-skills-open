@@ -5,11 +5,20 @@ description: Use when the user asks about GDPR — lawful bases for processing, 
 author: scytale-labs
 author_url: https://github.com/scytale-labs/GRC-Claude-Skills/tree/main/skills/gdpr
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: data-protection
 language: en
+sources:
+- title: Data subject rights
+  path: references/data-subject-rights.md
+- title: Dpia template
+  path: references/dpia-template.md
+- title: Lawful bases
+  path: references/lawful-bases.md
+- title: Ropa template
+  path: references/ropa-template.md
 ---
 
 # GDPR Skill

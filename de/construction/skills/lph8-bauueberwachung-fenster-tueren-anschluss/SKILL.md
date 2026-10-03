@@ -1,0 +1,98 @@
+---
+name: lph8-bauueberwachung-fenster-tueren-anschluss
+title: Bauueberwachung Fenster und Tueren Einbauanschluss
+description: 'Für Bauüberwachung Fenster und Türen Einbauanschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/lph8-bauueberwachung-fenster-tueren-anschluss
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# Bauueberwachung Fenster und Tueren Einbauanschluss
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HOAI Paragrafen 1 bis 13 sowie nur das einschlägige Leistungsbild für Gebäude und Innenräume nach Paragraf 34, Freianlagen nach Paragraf 39, Ingenieurbauwerke nach Paragraf 43, Verkehrsanlagen nach Paragraf 47, Tragwerksplanung nach Paragraf 51 oder Technische Ausrüstung nach Paragraf 55; Architekten- und Ingenieurvertrag nach BGB Paragrafen 650p bis 650t. VOB/B nur anwenden, wenn sie wirksam vereinbart und für die konkrete Bauleistung einschlägig ist.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Der Fenstereinbau ist Schnittstelle zwischen Rohbau, Waermedaemmung und Dichtigkeit: Ein falscher Anschluss loest Kondenswasser-Schimmelprobleme aus, ein fehlender Sturmschaden-Riegel fuehrt zu Haftungsfaellen. Die Bauueberwachung in LPH 8 kontrolliert die 3-Ebenen-Dichtigkeit, die statisch ausreichende Befestigung und die Einhaltung der Schallschutz-Klassen und gibt Fenster erst nach vollstaendiger Anschluss-Kontrolle zur Fugendichtung frei.
+
+## Bauwerk und Auftrag
+
+- Mehrfamilienhaus Koeln 6-geschossig: 240 Fenstereinheiten Aluminium 3-Scheiben-Verglasung Uw 0.8, RAL-Einbauprotokoll je Fenster, Bausumme Fenster 580.000 EUR
+- Buerogebaeude Berlin Pfosten-Riegel-Fassade: 1.800 qm Elementfassade Schucco FW 50+, Einbauklasse 2 nach RAL Leitfaden, Blower-Door-Test nach Fertigstellung
+- Kindergarten Neubau Hamburg Holzfenster: 85 Fenstereinheiten mit Rolladen-Integration, Schallschutz Uw 1.0, barrierefreie Tueren nach DIN 18040-1
+
+## Erste Schritte auf der Baustelle
+
+1. Einbauoeffnung-Aufmass: Rohbaumass und Fensterrahmen-Aussenmaass, Einbaufuge Breite 10-30 mm nach RAL, Rechtwinkligkeit mit Diagonalenmass
+2. Befestigungsnachweis Rahmendubel: Schraubentiefe in Mauerwerk mindestens 40 mm, Abstands max. 700 mm, Ausriss-Zugtest 10 Prozent der Befestigungen mit Prüfgeraet
+3. Aussenabdichtung: Kompriband vorverdichtet 600 Pa schlagregensdicht, Ueberlappung an Ecken, kein Butt-Stoss
+4. Dampfsperre Innenanschluss: Selbstklebende Innenabdichtungsfolie, Anschluss an Unterputz-Anputzleiste, Klemmleisten-Verbindung Rahmen
+5. Waermebrueckenfreiheit Einbau: Einbautiefe Fenster in der Wandebene nach Aussenwaermedaemmung oder hinter Laibung nach PHPP-Grundsatz
+6. Schimngelschutz-Kontrolle Laibung: Waermebruecken-Simulation Isover PSI-Nemo-Rechenprogramm, Temperaturfaktor f(Rsi) groesser 0.7 nachgewiesen
+
+## Normen und Rechtsrahmen
+
+- § 650p BGB, § 650q BGB: Architektenvertrag, Koordinationspflicht Fenstereinbau
+- HOAI 2021 § 34 Anlage 10 LPH 8: Bauueberwachung Fenster und Tueren, Luftdichtigkeit
+- VOB/C DIN 18360 Metalltuerarbeiten, DIN 18361 Verglasung, DIN 18355 Tischlerarbeiten
+- DIN 4109-1:2018-01 Schallschutz im Hochbau: Mindestanforderungen, Nachweisverfahren, Einbaukategorien
+- RAL-Leitfaden zur Planung und Ausfuehrung der Montage von Fenstern 2016: 3-Ebenen-Konzept aussen-mitte-innen
+- DIN EN ISO 9972 Messung der Luftdurchlaessigkeit von Gebaeuden: Blower-Door-Test, n50-Wert, Prüfdruckniveau 50 Pa
+
+## Prüferaster und Kontrollpunkte
+
+1. Kompriban-Kontrolle: Breite und Kompressionsgrad nach RAL-Lieferschein, aussen vollstaendig umlaufend, Ecke ohne Unterbrechung
+2. Befestigungs-Abstand: Rahmendubel-Abstand kleiner 700 mm, Abstand Eckpunkt kleiner 150 mm, Ausriss-Prüfprotokoll
+3. Innenabdichtung-Dichtheitspruefung: Locales Blower-Door einzelner Einbaupositionen, Leckage-Detektierung Foliensound mit Neopor-Stab
+4. Einbautiefe-Kontrolle: Fensterscheibenunterseite mindestens 50 mm hinter Bauteil-Aussenkante bei WDVS-Fassade
+5. Schallschutz-Einbauprotokoll: Glas-Zwischenscheibe Schallschutz-Klasse nach Bestellung, Rahmen-Akustik-Klasse, Einbau-Protokoll Nr je Einheit
+6. Schwellenlosigkeit barrierefreie Tueren: Höhe unter 2 cm, Ablaufboden Querneigung 2 Prozent, Manoevrierflaeche 1.5 m x 1.5 m nach DIN 18040-1
+
+## Foto-, Video- und Dokumentenanalyse
+
+- Fotodokumentation je Fenstereinbau: Foto vor Einbau Rohbaumass, nach Einbau Kompriband aussen, nach Innenabdichtung, nach Anputzleiste, 4 Pflichtfotos je Einheit
+- Thermografiekamera FLIR E8 nach Innentemperierung: Waermebruecken Laibung und Sturz erkennbar, Schwellenwert f(Rsi) kleiner 0.7 als Alarm
+- Blower-Door-Bericht DIN EN ISO 9972: Druckkurve n50 Gesamtgebaeude, Leckage-Detektierung mit Nebelpistole Rauch-Methode, Foto je Leckstelle
+- Lieferschein-Archiv Fenster: CE-Kennzeichnung nach EN 14351-1, Uw-Wert, RC-Klasse Einbruchhemmung, Chargen-Nr je Lieferung
+- PlanRadar Grundriss-Markierung: Mangel-Pin je Fenstereinheit, Foto-Anhang, Faelligkeit T+3 Werktage
+
+## Meldungserstellung im ERP / SAP
+
+- SAP PM Meldungsart M2 Anschlussmangel Fenster: Equipment-Nr Fenster-ID z.B. F-3OG-SW-04, Schadenscode D007 Luftdichtheitsmangel, Maßnahme Innenabdichtung nachbessern
+- SAP PS Netzplan: FENST-010 Einbaumass-Prüfung, FENST-020 Montage, FENST-030 Abdichtung Innen-Aussen, FENST-040 Blower-Door-Test, FENST-050 Abnahme
+- Nevaris Aufmass Fenster: Einzelposition je Fenstertyp, Flaeche Rohbaulichtes Mass, Vergleich Plan-Ist, Rechnungspruefung automatisch
+- Dalux Qualitaetscheckliste Fenster: Uw-Wert aus Lieferschein eingetragen, RAL-Einbaukategorie, Kompriband Bild, Innenabdichtung Bild
+- Workflow: Luftdichtigkeitsmangel Blower-Door, Leckage lokalisiert, Reparaturmassnahme, Nachpruefung lokales Blower-Door, Freigabe
+
+## Typische Fallstricke
+
+- Kompriband zu eng eingebaut: Kein Vorverdichtungs-Spielraum, Schlagregen dringt bei 600 Pa-Druck ein
+- Fenster in Kalkputz eingeklebt statt Rahmendubel: Kalkputz zerbricht bei Windlast, Fenster nicht ausreichend befestigt nach EN 14592
+- Blower-Door-Test zu frueh ohne geschlossene Dampfsperre: n50 zu schlecht, kein Rueckschluss möglich, Nachtest nach Fertigstellung Pflicht
+- Fehlende Einbaukategorie-Vereinbarung: RAL-Leitfaden Kategorie nicht vertraglich festgelegt, Leistungsstreit über Einbautiefe
+
+## Hinweise zur Qualitaetssicherung
+
+- Alle Abnahmeprotokolle müssen vom Bauueberwacher und dem ausfuehrenden Unternehmen unterschrieben sein
+- Fristen nach VOB/B § 13 Abs. 4: Maengelansprueche Bauwerk 4 Jahre, Gesamtwerk nach BGB § 634a 5 Jahre
+- Bauwerksbuch nach HOAI Anlage 10 LPH 9 wird durch Bautagebuecher LPH 8 vorbereitet
+
+## Quellen
+
+- [HOAI 2021 § 34 Anlage 10](https://www.gesetze-im-internet.de/hoai_2021/__34.html)
+- [§ 650p BGB](https://www.gesetze-im-internet.de/bgb/__650p.html)
+- [VOB/C DIN 18355 Tischlerarbeiten](https://www.gesetze-im-internet.de/vob/)
+- [§ 650q BGB Ingenieurvertrag](https://www.gesetze-im-internet.de/bgb/__650q.html)
+- [BGB § 634 Maengelansprueche](https://www.gesetze-im-internet.de/bgb/__634.html)
+- [BGB § 640 Abnahme](https://www.gesetze-im-internet.de/bgb/__640.html)

@@ -1,11 +1,11 @@
 ---
 name: services-agreement
 title: services-agreement
-description: Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement of work, professional services agreement. Produces signable DOCX files from Common Paper and Bonterms standard forms. Use when user says "consulting contract," "contractor agreement," "SOW," "statement of work," "services agreement," or "freelancer contract."
+description: Draft and fill services agreement templates — consulting contract, contractor agreement, SOW, statement of work, professional services agreement. Produces signable DOCX files from Common Paper and Bonterms standard forms. Use when user says "consulting contract," "contractor agreement," "SOW," "statement of work," "services agreement," or "freelancer contract." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/services-agreement
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/services-agreement
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
@@ -13,6 +13,10 @@ language: en
 ---
 
 # services-agreement
+
+This is the services-contract-focused spoke of the `open-agreements` hub. Use
+`open-agreements` for mixed agreement work or when the agreement type is not yet
+clear.
 
 Draft and fill professional services agreement templates to produce signable DOCX files.
 
@@ -72,7 +76,7 @@ Use this skill when the user wants to:
 
 ## Execution
 
-Follow the [standard template-filling workflow](../shared/template-filling-execution.md) with these skill-specific details:
+Follow the [standard template-filling workflow](template-filling-execution.md) with these skill-specific details:
 
 ### Template options
 

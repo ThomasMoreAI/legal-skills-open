@@ -1,0 +1,58 @@
+---
+name: stberg-vereinbare-taetigkeit
+title: Vereinbare Taetigkeiten Steuerberater — § 57 Abs. 3 StBerG
+description: 'Für Vereinbare Tätigkeiten Steuerberater — Paragraf 57 Abs. 3 StBerG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/stberg-vereinbare-taetigkeit
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Vereinbare Taetigkeiten Steuerberater — § 57 Abs. 3 StBerG
+
+## Fachlicher Anker
+
+- **Normen:** § 57 Abs. 3, § 6a, § 57 Abs. 4.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Liegt eine vereinbare Taetigkeit § 57 Abs. 3 StBerG vor?
+2. Greift ein Verbot § 57 Abs. 4 StBerG (z. B. gewerbliche Taetigkeit Kreditinstitut)?
+3. Ist eine Genehmigung der Steuerberaterkammer erforderlich?
+4. Werberecht § 57a StBerG gewahrt?
+5. Kollidiert die Taetigkeit mit Interessenkonfliktverbot § 57 Abs. 1 StBerG?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 57 StBerG** — Grundpflichten; vereinbare und unvereinbare Taetigkeiten.
+- **§ 57a StBerG** — Werbung.
+- **§ 33 StBerG** — Berufsbild.
+- **§ 76 StBerG** — Aufsicht durch Steuerberaterkammer.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 33 StBerG · § 57 StBerG · § 57a StBerG · § 76 StBerG · § 64 StBerG (Gebührenrahmen)
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

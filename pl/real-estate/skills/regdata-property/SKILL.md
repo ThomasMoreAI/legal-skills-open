@@ -5,13 +5,13 @@ description: Extract data from Poland's EKW electronic land registry (Elektronic
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-property
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: real-estate
 language: en
 sources:
-- title: Land Registry Guide
+- title: Land registry guide
   path: references/land-registry-guide.md
 ---
 

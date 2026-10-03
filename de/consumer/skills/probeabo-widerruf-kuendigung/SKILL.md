@@ -1,0 +1,57 @@
+---
+name: probeabo-widerruf-kuendigung
+title: Probeabo Widerruf Kündigung
+description: 'Für Probeabo Widerruf Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verbraucher-rechtsstaat-alltag/skills/probeabo-widerruf-kuendigung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: consumer
+language: de
+---
+
+# Probeabo Widerruf Kündigung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Probeabo Widerruf Kündigung
+- **Normen-/Quellenanker:** BGB-Verbraucherrecht, VwVfG/VwGO, ZPO/Mahnverfahren, SGB-Schnittstellen, Datenschutz, Widerruf, Gewährleistung, Fristen und Zuständigkeit.
+- **Entscheidende Weiche:** Dokument zuerst verstehen: Rolle, Frist, Anspruch, Behörde/Gegner, Belege, Risiko der freiwilligen Auskunft und nächster sicherer Schritt.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+## Rechtsanker
+
+- §§ 312g, 312j, 312k, 355, 356 BGB.
+- Art. 9 Verbraucherrechterichtlinie 2011/83/EU.
+- EuGH, Urteil vom 05.10.2023, C-565/22, Sofatutor: Das Widerrufsrecht bei Probeabo und automatischer Verlängerung hängt wesentlich davon ab, ob über spätere Kosten klar informiert wurde.
+- § 309 Nr. 9 BGB bei Laufzeit- und Verlängerungsfragen live prüfen.
+
+## Intake
+
+Frage:
+
+- Wann registriert, wann erste Zahlung, wann Kündigungsversuch?
+- Was war kostenlos, was wurde ab wann kostenpflichtig?
+- Gab es einen Kündigungsbutton nach § 312k BGB?
+- Welche Widerrufsbelehrung wurde wann übermittelt?
+- Wurde die Leistung schon genutzt und gab es Zustimmung zum sofortigen Leistungsbeginn?
+
+## Prüfung
+
+1. **Vertragsschluss:** Button-Lösung und Preisangaben prüfen.
+2. **Widerruf:** Beginn der Frist, Belehrung, Dienstleistungsbeginn, Wertersatz.
+3. **Kündigung:** Kündigungsbutton, Laufzeit, automatische Verlängerung, Nachweis des Kündigungszugangs.
+4. **Zahlungsabwehr:** Forderung bestreiten, Lastschrift zurückgeben, Zahlungsdienstleister/Inkasso informieren.
+5. **Kommunikation:** Nie nur "ich wollte das nicht" schreiben; immer konkrete Rechtslinie und Belege nennen.
+
+## Red Flags
+
+Bei Minderjährigen, Identitätsmissbrauch, wiederkehrenden Abbuchungen oder gerichtlichem Mahnbescheid sofort zusätzliche Fachmodule nutzen.

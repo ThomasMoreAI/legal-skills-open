@@ -5,12 +5,20 @@ description: Use when users say "check this Court of Appeal skeleton", "judicial
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-court-of-appeal-judicial-preference-check
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: litigation
 language: en
-tags: [court-of-appeal, skeleton-arguments, grounds-of-appeal, judicial-preferences, legal-writing]
+tags:
+- court-of-appeal
+- skeleton-arguments
+- grounds-of-appeal
+- judicial-preferences
+- legal-writing
+sources:
+- title: Appellate preference model
+  path: references/appellate-preference-model.md
 ---
 
 # uk-court-of-appeal-judicial-preference-check

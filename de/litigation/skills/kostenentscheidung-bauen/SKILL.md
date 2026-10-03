@@ -1,11 +1,11 @@
 ---
 name: kostenentscheidung-bauen
 title: Kostenentscheidung
-description: 'Kostenentscheidung nach §§ 91 ff. ZPO erstellen: Richter muss Kostenquote und -grundentscheidung formulieren. Normen: § 91 ZPO (vollständiges Obsiegen), § 92 ZPO (teilweises Obsiegen), § 100 ZPO (mehrere Beklagte), § 101 ZPO (Streitgenossenschaft/Nebenintervenient), § 93 ZPO (sofortiges Anerkenntnis). Prüfraster: Obsiegens-Quote, Streitwert-Aufteilung, Nebenintervenient, sofortiges Anerkenntnis. Output Kostenentscheidung-Entwurf mit Quote. Abgrenzung: Vollstreckbarkeit siehe vorlaeufige-vollstreckbarkeit; Rechtsmittelbelehrung siehe rechtsmittelbelehrung-zivil.'
+description: 'Für Kostenentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/kostenentscheidung-bauen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -21,10 +21,6 @@ language: de
 3. Sind mehrere Beklagte vorhanden — Gesamtschuldner (§ 100 Abs. 4 ZPO) oder anteilig (§ 100 Abs. 1 ZPO)?
 4. Liegt sofortiges Anerkenntnis ohne Veranlassung vor (§ 93 ZPO — Kostenfolge für Kläger)?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - § 91 ZPO — vollständige Kostentragung durch Unterliegenden
@@ -34,9 +30,6 @@ language: de
 - § 101 ZPO — Kosten bei Nebenintervention
 - § 3 ZPO — Streitwertschätzung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Obsiegen/Unterliegen feststellen:** Welche Klageanträge wurden zugesprochen, welche abgewiesen?
@@ -49,6 +42,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Output-Template
 
 **Adressat:** Urteil → Tenor (Ziff. 2) und Entscheidungsgründe — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## Kostenentscheidung
@@ -90,5 +91,4 @@ Dies ergibt eine Obsiegensquote von [X] Prozent.
 
 Streitwertbeschluss separat oder im Tenor. Pflicht zur Begründung bei Abweichung vom Klagantrag.
 
-<!-- AUDIT 27.05.2026
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

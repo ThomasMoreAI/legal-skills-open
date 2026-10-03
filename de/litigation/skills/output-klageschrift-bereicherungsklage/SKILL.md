@@ -1,11 +1,11 @@
 ---
 name: output-klageschrift-bereicherungsklage
 title: 'Output: Klageschrift Bereicherungsklage'
-description: 'Klageschrift aus Bereicherungsrecht §§ 812 ff. BGB aufbauen: Klageantrag auf Zahlung oder Herausgabe, ODUE-Schema. Normen: §§ 812 818 BGB, §§ 253 313 ZPO. Prüfraster: Obersatz, Definition, Untersatz, Ergebnis, Streitwert, Beweisangebot. Output: Klageschriftentwurf Bereicherungsklage. Abgrenzung: nicht AnfG-Anfechtungsklage (dort Duldungsantrag).'
+description: 'Für Output: Klageschrift Bereicherungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/output-klageschrift-bereicherungsklage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -20,28 +20,15 @@ language: de
 2. Was konkret ist herauszugeben (Geld, Sache, Nutzung) — Naturalrestitution oder Wertersatz (§ 818 Abs. 2 BGB)?
 3. Greift Entreicherung (§ 818 Abs. 3 BGB), und ist der Beklagte bösgläubig (§ 819 BGB)?
 4. Greift § 814 BGB oder § 817 S. 2 BGB als Ausschlussgrund?
-5. Welches Gericht ist zuständig (Amtsgericht bis 5.000 EUR Streitwert, Landgericht ab 5.001 EUR)?
+5. Welches Gericht ist zuständig (Amtsgericht bis einschließlich 10.000 Euro Streitwert, Landgericht darüber; Sonderzuweisungen und Übergangsrecht prüfen)?
 
 ## Zentrale Normen
 
 § 812 Abs. 1 S. 1 BGB (Leistungs-/Nichtleistungskondiktion) — § 814 BGB (Ausschluss) — § 817 BGB (Gesetzes-/Sittenverstoß) — § 818 BGB (Umfang der Herausgabe) — § 819 BGB (verschärfte Haftung) — § 291 BGB (Prozesszinsen) — §§ 253, 256 ZPO (Klageerhebung) — §§ 23, 71 GVG (Zuständigkeit)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Hinweis
 
-Dieser Skill liefert ein strukturiertes Muster für eine Klageschrift auf Grundlage der §§ 812 ff. BGB. Er ersetzt keine anwaltliche Leistung. Bezeichnungen und Beträge sind Platzhalter.
+Liefert ein strukturiertes Muster für eine Klageschrift auf Grundlage der §§ 812 ff. BGB. Er ersetzt keine anwaltliche Leistung. Bezeichnungen und Beträge sind Platzhalter.
 
 ## Vorarbeit: Kondiktionskarte
 
@@ -124,3 +111,5 @@ Soweit das Gericht von einer Rückabwicklung eines gegenseitigen Vertrags ausgeh
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

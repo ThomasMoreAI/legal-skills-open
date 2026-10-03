@@ -1,11 +1,11 @@
 ---
 name: dsgvo-auskunft
 title: DSGVO-Auskunftsrecht (Art. 15 DSGVO)
-description: 'Auskunftsersuchen nach Art. 15 DSGVO prüfen und beantworten wenn Betroffener Auskunft verlangt. Art. 15 12 DSGVO Betroffenenrechte. Prüfraster: Identitätsnachweis Vollständigkeitsprüfung Auskunftsinhalt Fristen Einschraenkungsgründe. Output: Auskunftserteilung oder Ablehnungsbegrundung. Abgrenzung: nicht für Auskunftsantwort-Gestaltung (dsgvo-auskunft-antwort).'
+description: 'Für DSGVO-Auskunftsrecht (Art. 15 DSGVO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsgvo-auskunft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # DSGVO-Auskunftsrecht (Art. 15 DSGVO)
-
-## Zweck
-
-Dieser Skill begleitet Verantwortliche (und deren Berater) bei der vollständigen und fristgerechten Bearbeitung von Auskunftsersuchen nach Art. 15 DSGVO. Er deckt ebenso die Beratung betroffener Personen ab, die ein Auskunftsverlangen stellen wollen. Anwendungsfälle: Unternehmen erhält Auskunftsanfrage eines Kunden, ehemaligen Mitarbeiters oder Behörde; Arbeitnehmer fragt nach gespeicherten HR-Daten; Betroffener begehrt Auskunft von Auskunftei.
 
 ## Eingaben
 
@@ -38,18 +34,20 @@ Das Modell benötigt folgende Informationen:
 - **Art. 15 Abs. 3 DSGVO**: Anspruch auf Kopie der verarbeiteten personenbezogenen Daten; bei elektronischer Antragstellung in gängigem elektronischem Format.
 - **Art. 12 Abs. 3 DSGVO**: Frist von einem Monat ab Eingang des Ersuchens; Verlängerung um bis zu zwei weitere Monate bei Komplexität oder Vielzahl von Anfragen – Mitteilung über Verlängerung und Gründe innerhalb eines Monats.
 - **Art. 12 Abs. 5 DSGVO**: Unentgeltlichkeit; bei offenkundig unbegründeten oder exzessiven Anträgen: Gebühr oder Ablehnung möglich.
-- **§ 34 BDSG**: Ausnahmen vom Auskunftsrecht, insbesondere bei Vertraulichkeitspflichten, Gefährdung öffentlicher Ordnung, Unmöglichkeit oder unverhältnismäßigem Aufwand.
-- **§ 29 Abs. 1 BDSG**: Einschränkungen bei Datenverarbeitung zu journalistischen oder wissenschaftlichen Zwecken sowie bei Berufsgeheimnisträgern.
+- **Paragraf 34 BDSG**: Nur die konkreten Tatbestände anwenden; bei Absatz 1 Nummer 2 müssen Speicherzweck, unverhältnismäßiger Aufwand und technisch-organisatorischer Ausschluss anderer Zwecke zusammen vorliegen. Absatz 2 regelt Dokumentation und Begründung. [Norm](https://www.gesetze-im-internet.de/bdsg_2018/__34.html).
+- **Paragraf 29 Absatz 1 Satz 2 BDSG**: Auskunftsbegrenzung bei gesetzlich oder ihrem Wesen nach geheimhaltungsbedürftigen Informationen; konkrete Drittinteressen abwägen. Kein allgemeines Journalismus- oder Wissenschaftsprivileg. [Norm](https://www.gesetze-im-internet.de/bdsg_2018/__29.html).
 
 ### Leitentscheidungen
 
-1. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-2. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+1. EuGH, Urteil vom 12.01.2023 - C-154/21: Empfänger personenbezogener Daten sind auf Verlangen grundsätzlich konkret zu benennen; bloße Empfängerkategorien genügen nur bei fehlender Identifizierbarkeit oder nachgewiesen offenkundig unbegründetem beziehungsweise exzessivem Antrag. [Tenor](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62021CJ0154).
+2. EuGH, Urteil vom 04.05.2023 - C-487/21: Die Datenkopie bezieht sich auf personenbezogene Daten, nicht automatisch auf vollständige Dokumente; Dokumentauszüge oder ganze Dokumente sind zu geben, wenn das zur wirksamen Rechteausübung erforderlich ist.
+3. EuGH, Urteil vom 26.10.2023 - C-307/22: Die erste Kopie ist grundsätzlich unentgeltlich; der Antragsteller muss den Zweck der Auskunft nicht begründen.
+4. EuGH, Urteil vom 04.05.2023 - C-300/21 und BGH, Urteil vom 18.11.2024 - VI ZR 10/24: Für Datenschutz-Schadensersatz braucht es Verstoß, Schaden und Kausalität; eine Erheblichkeitsschwelle gibt es nicht, Kontrollverlust kann ein immaterieller Schaden sein.
 
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 **Schritt 1 – Eingangserfassung und Fristsetzen**
@@ -65,7 +63,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 - Beauftragung von Auftragsverarbeitern, relevante Daten zu melden (Art. 28 Abs. 3 lit. f DSGVO).
 
 **Schritt 4 – Prüfung von Ausnahmetatbeständen**
-- § 34 Abs. 1 BDSG: Vertraulichkeit steuerlicher Daten; § 34 Abs. 2 BDSG: Daten zu präventiven und repressiven Zwecken.
+- Paragraf 34 Absatz 1 BDSG mit exakt passender Tatbestandsnummer prüfen; Absatz 2 enthält Dokumentations- und Begründungspflichten, keinen allgemeinen Strafverfolgungsausschluss.
 - § 29 Abs. 1 BDSG: Berufsgeheimnisträger (Rechtsanwälte, Ärzte, Steuerberater); Drittinteressen nach Art. 15 Abs. 4 DSGVO (Geschäftsgeheimnisse).
 - Konkurrierende Interessen nach ErwGr. 63 DSGVO abwägen.
 
@@ -77,13 +75,6 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Schritt 6 – Dokumentation**
 - Interne Dokumentation der Anfrage, Prüfschritte, Ergebnis und Versanddatum (Nachweispflicht Art. 5 Abs. 2 DSGVO).
 
-## Ausgabeformat
-
-- **Auskunftsschreiben** (Brief oder E-Mail) an Betroffenen: strukturierte Tabelle der Datenkategorien, Zwecke, Empfänger, Fristen; Anlage: Datenkopie.
-- **Internes Prüfmemo** (bei komplexen Fällen): Tatbestand, Rechtslage, Ausnahmeprüfung, Ergebnis, Fristprotokoll.
-- **Ablehnungsschreiben** mit Begründung und Belehrung über Beschwerderecht.
-- Stil: klar, präzise, ohne Fachjargon gegenüber dem Betroffenen; juristisch präzise im Mandanten-Memo.
-
 ## Beispiel
 
 **Sachverhalt**: Ehemalige Mitarbeiterin M verlangt am 03.02.2025 per E-Mail Auskunft über alle sie betreffenden Daten sowie eine Datenkopie gemäß Art. 15 DSGVO vom Unternehmen U.
@@ -92,7 +83,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 *Frist*: Die einmonatige Frist des Art. 12 Abs. 3 Satz 1 DSGVO läuft bis zum 03.03.2025. Eine Verlängerung setzt voraus, dass U spätestens bis 03.03.2025 unter Angabe der Gründe Mitteilung macht (Art. 12 Abs. 3 Satz 3 DSGVO).
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+*Empfänger*: Verlangt M konkrete Empfänger, darf U nicht pauschal auf Kategorien ausweichen. Konkrete Empfänger werden benannt; bloßer Aufwand ersetzt den Nachweis einer Ausnahme nach dem Tenor von C-154/21 nicht.
 
 *Ausnahmen*: Soweit E-Mails Geschäftsgeheimnisse Dritter enthalten, sind diese nach Art. 15 Abs. 4 DSGVO i.V.m. ErwGr. 63 DSGVO zu schwärzen. § 34 BDSG greift hier nicht, da keine der dort genannten Konstellationen vorliegt.
 
@@ -100,23 +91,22 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 
 ## Risiken und typische Fehler
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Unvollständige Datenermittlung**: Fehlende Protokolldateien, Backup-Daten oder Cloud-Systeme begründen Pflichtverletzung; Beweislast beim Verantwortlichen (Art. 5 Abs. 2 DSGVO).
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Identifizierung übertrieben**: Unverhältnismäßige Ausweispflicht abwehren; Art. 12 Abs. 6 DSGVO erlaubt zusätzliche Informationen nur bei begründetem Zweifel.
 - **§ 34 BDSG-Ausnahme zu weit**: Ausnahmen sind restriktiv auszulegen; pauschale Berufung auf "unverhältnismäßigen Aufwand" ohne konkrete Begründung genügt nicht.
-- **Berufsrecht**: Bei anwaltlicher Beratung des Verantwortlichen: Keine unzulässige Auskunftsverzögerung; § 43a Abs. 2 BRAO (Gewissenhaftigkeit) gebietet korrekte Beratung zur Frist.
+- **Berufsrecht**: Bei anwaltlicher Beratung des Verantwortlichen: Keine unzulässige Auskunftsverzögerung; Paragraf 43 BRAO (gewissenhafte Berufsausübung) gebietet korrekte Beratung zur Frist.
 - **Mehrfachanträge**: Erst bei offenkundig exzessivem Verhalten darf Gebühr erhoben werden (Art. 12 Abs. 5 DSGVO); Dokumentationspflicht der Exzessivität.
+- **Empfänger nur abstrakt genannt**: Wenn konkrete Empfänger verlangt sind, Kategorien nur bei fehlender Identifizierbarkeit oder nachgewiesener Ausnahme nach Artikel 12 Absatz 5 verwenden.
+- **Datenkopie mit Akteneinsicht verwechselt**: Nicht jedes Dokument ist geschuldet; geschuldet sind die personenbezogenen Daten, vollständige Dokumente nur bei Erforderlichkeit für wirksame Rechteausübung.
 
 ## Quellenpflicht
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Leitentscheidung
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+EuGH, Urteil vom 19.03.2026, C-526/24, Brillen Rottler: Auch ein erster Auskunftsantrag kann exzessiv sein, wenn der Verantwortliche die Absicht nachweist, künstlich einen Schadensersatzanspruch herbeizuführen. Kurze Zeitabstände oder frühere Anträge nicht allein genügen lassen; alle Fallumstände würdigen. Eine Auskunftsverletzung kann Artikel 82 auslösen, aber nur bei nachgewiesenem Schaden und Kausalität. [Gerichtliche Pressemitteilung Nr. 38/26](https://curia.europa.eu/site/upload/docs/application/pdf/2026-03/cp260038de.pdf); der Volltextabruf war bei diesem Abgleich blockiert, Randnummern deshalb vor prozessualem Zitat nachprüfen.
 
 ### Grundsatz
 
@@ -139,41 +129,34 @@ Missbräuchliche Absicht der betroffenen Person, das Verfahren zu instrumentalis
 
 | Indiz | Gewicht | Erläuterung |
 |---|---|---|
-| Zeitpunkt und Abstand Datenerhebung → Anfrage | mittel–hoch | Sehr kurzer Abstand ohne erkennbaren Anlass erhöht Missbrauchsverdacht |
-| Art der Datenerhebung (aktive Anmeldung kurz vor Anfrage) | hoch | Spricht für künstliches Herbeiführen der Situation |
+| Zeitpunkt und Abstand Datenerhebung → Anfrage | nur im Zusammenhang | Kurzer Abstand allein belegt keinen Missbrauch; kein Begründungszwang für den Antrag |
+| Art der Datenerhebung (aktive Anmeldung kurz vor Anfrage) | nur im Zusammenhang | Zweck und Gesamtumstände prüfen; Anmeldung allein ist rechtmäßige Datennutzung |
 | Verhalten vor und nach Antragstellung | mittel | Kommunikationsmuster, öffentliche Äußerungen |
-| Art der Kommunikation | mittel | Formulierungsgleichheit mit Serienmustern, sofortiger Schadensersatzhinweis |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
+| Art der Kommunikation | allein nicht ausreichend | Formular oder Schadensersatzankündigung ersetzen den Nachweis einer missbräuchlichen Absicht nicht |
 | Frühere ähnliche Anfragen derselben Person | allein nicht ausreichend | Geltendmachung von Rechten ist nicht per se missbräuchlich |
 
 ### Konsequenzen für den Verantwortlichen
 
 - **Ablehnung nur bei vollständigem Nachweis beider Stufen:** Weder das objektive noch das subjektive Element allein genügt; beide müssen durch konkrete, dokumentierte Umstände belegt werden.
 - **Dokumentationspflicht:** Alle zur Ablehnung herangezogenen Umstände sind intern zu dokumentieren (Zeitachse, Newsletter-Anmeldedaten, Korrespondenzverlauf) — Rechenschaftspflicht Art. 5 Abs. 2 DSGVO.
-- **Risiko unberechtigter Ablehnung:** Lehnt der Verantwortliche eine Auskunft ab, ohne den zweistufigen Nachweis führen zu können, stellt dies einen eigenständigen DSGVO-Verstoß dar, der einen eigenständigen Schadensersatzanspruch nach Art. 82 DSGVO auslöst — auch wenn die zugrundeliegende Datenverarbeitung selbst vollständig DSGVO-konform war.
+- **Risiko unberechtigter Ablehnung:** Lehnt der Verantwortliche eine Auskunft ab, ohne den zweistufigen Nachweis führen zu können, stellt dies einen eigenständigen DSGVO-Verstoß dar, der bei nachgewiesenem Schaden und Kausalität einen Schadensersatzanspruch nach Art. 82 DSGVO begründen kann — auch wenn die zugrundeliegende Datenverarbeitung selbst vollständig DSGVO-konform war.
 - **Kein Automatismus beim Schadensersatz:** Der bloße Verstoß löst nicht automatisch Schadensersatz aus; die betroffene Person muss den konkreten materiellen oder immateriellen Schaden darlegen (Kontrollverlust, Ungewissheit über Verarbeitung). Kein verschuldensunabhängiges Haftungsregime.
 - **Eigenverschulden der betroffenen Person:** Ist das Verhalten der betroffenen Person selbst die entscheidende Schadensursache, entfällt der Anspruch.
 
 ### Empfehlung
 
-Vorzugsweise vollständige, fristgerechte Auskunft erteilen. Ablehnung nur als ultima ratio bei lückenlos dokumentiertem zweistufigen Nachweis. Im Zweifel Auskunft erteilen und ggf. Gebühr nach Art. 12 Abs. 5 DSGVO erheben.
+Vorzugsweise vollständige, fristgerechte Auskunft erteilen. Ablehnung nur als ultima ratio bei lückenlos dokumentiertem zweistufigen Nachweis. Bei nicht nachgewiesenem Exzess fristgerecht und unentgeltlich Auskunft erteilen; eine Gebühr ist keine Alternative bei bloßem Verdacht.
 
 ### Querverweise
 
 - `datenschutzrecht/skills/dsgvo-auskunft-antwort/SKILL.md` — Abschnitt "Ablehnung wegen Rechtsmissbrauch" mit Formulierungsbausteinen
 
-## Ergänzende Rechtsprechung (Aktualitäten)
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Faktische Updates (Stand 05/2026)
 
-- **EuGH-Linie zu Art. 15 DSGVO und Datenkopie (Art. 15 Abs. 3):** Mehrere EuGH-Vorabentscheidungsverfahren haben das Auskunftsrecht und den Umfang der Datenkopie konkretisiert. Aktuelle Entscheidungen vor Ausgabe live ueber curia.europa.eu pruefen; auch BGH VI. ZS und BAG zur arbeitsrechtlichen Auskunft beobachten (Aktenzeichen vor Zitat verifizieren).
-- **EDSA-Guidelines:** Die Guidelines 01/2022 on data subject rights (Right of Access) sind in der Endfassung verbindliche Auslegungshilfe. Quelle: edpb.europa.eu. Bei nachfolgenden Updates des EDSA live pruefen.
-- **Art. 82 DSGVO — Schadensersatz-Linie EuGH:** Der EuGH hat in mehreren Verfahren entschieden, dass auch der blosse Kontrollverlust einen ersatzfaehigen immateriellen Schaden begruenden kann, dass aber Kausalitaet und konkrete Darlegung erforderlich bleiben (kein verschuldensunabhaengiges Haftungsregime mit Pauschalierung; keine Bagatellgrenze, jedoch kein automatischer Anspruch aus blossem Verstoss). Konkrete Aktenzeichen und tragende Saetze vor Zitat ueber curia.europa.eu verifizieren.
-- **Verweigerung wegen Rechtsmissbrauch (Art. 12 Abs. 5 DSGVO):** Der EuGH hat zur restriktiven Auslegung der "offensichtlich unbegruendet oder exzessiv"-Klausel Stellung genommen. Zweistufiges Prüfschema (objektives + subjektives Element; Nachweislast beim Verantwortlichen) ist in mehreren EuGH-Entscheidungen abgesichert. Vor Zitat live pruefen.
+- **EuGH-Linie zu Art. 15 DSGVO und Datenkopie (Art. 15 Abs. 3):** Mehrere EuGH-Vorabentscheidungsverfahren haben das Auskunftsrecht und den Umfang der Datenkopie konkretisiert. Aktuelle Entscheidungen vor Ausgabe live über curia.europa.eu prüfen; auch BGH VI. ZS und BAG zur arbeitsrechtlichen Auskunft beobachten (Aktenzeichen vor Zitat verifizieren).
+- **EDSA-Guidelines:** Die Guidelines 01/2022 on data subject rights (Right of Access) sind eine nicht bindende, fachlich gewichtige Orientierungshilfe. Quelle: edpb.europa.eu. Nachfolgende Aktualisierungen des EDSA vor Verwendung prüfen.
+- **Art. 82 DSGVO — Schadensersatz-Linie EuGH:** Der EuGH hat in mehreren Verfahren entschieden, dass auch der blosse Kontrollverlust einen ersatzfaehigen immateriellen Schaden begruenden kann, dass aber Kausalitaet und konkrete Darlegung erforderlich bleiben (kein verschuldensunabhaengiges Haftungsregime mit Pauschalierung; keine Bagatellgrenze, jedoch kein automatischer Anspruch aus blossem Verstoss). Konkrete Aktenzeichen und tragende Saetze vor Zitat über curia.europa.eu verifizieren.
+- **Verweigerung wegen Rechtsmissbrauch (Art. 12 Abs. 5 DSGVO):** Der EuGH hat zur restriktiven Auslegung der "offensichtlich unbegruendet oder exzessiv"-Klausel Stellung genommen. Zweistufiges Prüfschema (objektives + subjektives Element; Nachweislast beim Verantwortlichen) ist in mehreren EuGH-Entscheidungen abgesichert. Vor Zitat live prüfen.
 
 ### Quellen / Updates
 
@@ -183,10 +166,6 @@ Quellen-URLs:
 - curia.europa.eu — EuGH-Suche zu Art. 15 DSGVO und Art. 82 DSGVO
 - edpb.europa.eu — EDSA Guidelines 01/2022 Right of Access
 - dejure.org / openjur.de — nationale Rechtsprechung BGH / BAG / OLG
-
-## Aktuelle Rechtsprechung (v14.2 — Ergaenzung)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Triage zu Beginn
 
@@ -206,7 +185,7 @@ wir bestätigen den Eingang Ihres Auskunftsersuchens vom [DATUM] und erteilen
 Ihnen hiermit Auskunft gemäß Art. 15 DSGVO:
 
 1. Verarbeitete Datenkategorien:
-   [LISTE NACH Art. 15 Abs. 1 lit. a DSGVO]
+ [LISTE NACH Art. 15 Abs. 1 lit. a DSGVO]
 
 2. Verarbeitungszwecke: [ZWECKE]
 
@@ -215,10 +194,12 @@ Ihnen hiermit Auskunft gemäß Art. 15 DSGVO:
 4. Speicherdauer / -kriterien: [FRIST ODER KRITERIEN]
 
 5. Rechte: Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18),
-   Widerspruch (Art. 21), Beschwerde Aufsichtsbehörde (Art. 77 DSGVO): [BEHOERDE].
+ Widerspruch (Art. 21), Beschwerde Aufsichtsbehörde (Art. 77 DSGVO): [BEHOERDE].
 
 6. Datenkopie: [ANLAGE / GESONDERT ÜBERMITTELT]
 
 [Unterschrift, Datenschutzbeauftragter]
 [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

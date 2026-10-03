@@ -5,11 +5,14 @@ description: Run the cold-start interview to learn your IP practice and write yo
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/cold-start-interview
 license: Apache-2.0
-version: 0.1.3
+version: 0.1.4
 execution_mode: open
 jurisdiction: br
 practice: ip
 language: en
+sources:
+- title: Company profile template
+  path: references/company-profile-template.md
 ---
 
 # /cold-start-interview

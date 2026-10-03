@@ -5,19 +5,19 @@ description: Reads a contract and generates redline suggestions with replacement
 author: OneWave-AI
 author_url: https://github.com/OneWave-AI/claude-skills/tree/main/contract-redliner
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
 sources:
-- title: Contract Types
+- title: Contract types
   path: references/contract-types.md
-- title: Output Template
+- title: Output template
   path: references/output-template.md
-- title: Redline Format
+- title: Redline format
   path: references/redline-format.md
-- title: Risk Categories
+- title: Risk categories
   path: references/risk-categories.md
 ---
 

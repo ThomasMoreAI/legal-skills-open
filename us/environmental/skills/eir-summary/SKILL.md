@@ -5,12 +5,19 @@ description: Produces legally focused summaries of California Environmental Impa
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/eir-summary
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: environmental
 language: en
-tags: [analysis, litigation, regulatory, summarization]
+tags:
+- analysis
+- litigation
+- regulatory
+- summarization
+sources:
+- title: Authority status
+  path: references/AUTHORITY-STATUS.md
 ---
 
 # Environmental Impact Report Summary

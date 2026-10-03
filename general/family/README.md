@@ -8,9 +8,9 @@ Jurisdiction: `general` · Practice: `family` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Asset & Liability Summary`](skills/asset-liability-summaries/) | Produces structured asset and liability summaries from financial documents for legal proceedings. Extracts… |
-| [`Custody Evaluation Summary`](skills/custody-evaluation-summary/) | Summarizes custody evaluation reports into a structured memorandum covering evaluator credentials,… |
-| [`Maintenance Calculator`](skills/maintenance-calculator-rohasnagpal/) | Models transparent spousal, child or family maintenance scenarios from verified income, resources and needs.… |
+| [`Asset & Liability Summary`](skills/asset-liability-summaries/) | Produces structured asset and liability summaries from financial documents for legal proceedings.… |
+| [`Custody Evaluation Summary`](skills/custody-evaluation-summary/) | Summarizes custody evaluation reports into a structured memorandum covering evaluator credentials… |
+| [`Maintenance Calculator`](skills/maintenance-calculator-rohasnagpal/) | Models transparent spousal, child or family maintenance scenarios from verified income, resources and… |
 
 ## Cold-start context
 

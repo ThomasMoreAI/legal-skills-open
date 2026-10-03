@@ -1,0 +1,176 @@
+---
+name: dba-map-eu-streitbeilegung
+title: 'DBA: MAP und EU-Streitbeilegung'
+description: 'Für DBA: MAP und EU-Streitbeilegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/dba-map-eu-streitbeilegung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+---
+
+# DBA: MAP und EU-Streitbeilegung
+
+## Fachlicher Kern — Steuerrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `DBA: MAP und EU-Streitbeilegung` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Steuerart, Zeitraum, Verwaltungsstand, Frist/Festsetzung, Zuständigkeit, Form/Portal und Beleglage klären; dann BMF-Verwaltungslinie von BFH-Rechtsprechung und Gesetz trennen.
+- **Outputpflicht:** Steuerartenmatrix, BMF-Radar, Einspruchsbaustein, ELSTER-/Portal-To-do, Risikoampel, DBA-/GrESt-/USt-Tabelle oder Mandantenmemo.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Wann einsetzen?
+
+- Zwei Staaten besteuern denselben Betrag.
+- Quellensteuer wurde nicht entlastet.
+- Betriebsstättengewinn oder Verrechnungspreis wird doppelt erfasst.
+- Ansässigkeit/Tie-Breaker bleibt streitig.
+- Lohn wurde nach Tätigkeitsstaat und Wohnsitzstaat besteuert.
+
+## Prüfung
+
+1. DBA-Art. 25 oder Sonderregel prüfen.
+2. Frist im konkreten DBA/EU-DBA-SBG bestimmen.
+3. Zuständige Behörde identifizieren.
+4. Nationale Rechtsbehelfe parallel sichern.
+5. Doppelbesteuerung rechnerisch darstellen.
+6. Belege: Bescheide, Zahlungen, Tätigkeitskalender, Verträge, Transfer-Pricing-Doku.
+
+## EU-Schicht
+
+Bei EU-Mitgliedstaaten zusätzlich EU-DBA-Streitbeilegungsgesetz prüfen. MAP und EU-Streitbeilegung können strategisch zusammenhängen; keine Frist opfern, weil ein Verfahren informeller wirkt.
+
+## Praktiker-Tipps "Schnell zum Bescheid"
+
+- **Frist im konkreten DBA prüfen**: viele DBA setzen 3 Jahre ab erster Mitteilung der Maßnahme. EU-DBA-SBG: 3 Jahre ab erster Mitteilung. Frist nicht verpassen — Verlust des Anspruchs.
+- **Zustaendige Behörde DE**: BMF (Bundesministerium der Finanzen, Bereich Internationales Steuerrecht — Referate IV B 2 / IV B 5; aktuelle Referatszuständigkeit vom Anwender über bundesfinanzministerium.de verifizieren). Antrag schriftlich oder über elektronische Kommunikation des BMF — Standardweg vom Anwender mit aktueller BMF-Verfahrensbeschreibung abzugleichen.
+- **MAP-Antrag-Struktur**: Sachverhalt, Doppelbesteuerung-Berechnung, betroffene DBA-Artikel, Argumentation, Bescheide aller Staaten, Beleg-Anlagen.
+- **Doppelbesteuerung rechnerisch quantifizieren**: ohne konkrete Zahlen (Bemessungsgrundlage Staat A, Bemessungsgrundlage Staat B, Steuersaetze, Bescheide) wird der Antrag nicht effizient bearbeitet.
+- **Nationale Rechtsbehelfe parallel sichern**: Einspruch beim FA innerhalb 1 Monat, Klage beim FG, ggf. AdV-Antrag. MAP-Antrag suspendiert nicht automatisch die nationale Bestandskraft.
+- **EU-DBA-SBG-Antrag separat formulieren**: bei EU-Sachverhalten parallel zum bilateralen MAP — EU-Verfahren hat Schiedszwang nach 2 Jahren, MAP nicht.
+- **Belege im Original und Beglaubigung**: Steuerbescheide aller Staaten, Zahlungen, Verträge, Transfer-Pricing-Dokumentation, Reisekalender (bei Lohnsteuer-MAP), CRM-Auszug (bei Vertreter-BS-MAP).
+
+## Trade-off-Tabelle
+
+| Trade-off | Pfad A | Pfad B | Empfehlung |
+|---|---|---|---|
+| MAP Art. 25 MA (bilateral) vs. EU-DBA-SBG | flexibler; ohne Schiedszwang | strenge Fristen; Schiedszwang nach 2 Jahren | bei EU-Sachverhalten beide parallel — EU-Frist nicht opfern |
+| MAP vor Bestandskraft DE-Bescheid vs. nach | vor: nationale Rechtsbehelfe noch offen | nach: nur MAP-Korrektur möglich | vor Bestandskraft frueh stellen |
+| Nationale Klage allein vs. MAP | unilaterale Korrektur | bilaterale Korrektur — bindet beide Staaten | bei Doppelbesteuerung MAP, nationale Klage parallel |
+| Verstaendigung mit Behördenbeschluss vs. Schiedsverfahren | Verhandlungsergebnis (Konsens) | Schiedsverfahren (Zwangsentscheidung) | erst Verhandlung versuchen — Schiedsverfahren nur bei Verweigerung |
+| MAP-Verfahren öffentlich vs. vertraulich | regelmaessig vertraulich, keine Veroeffentlichung | — | Vertraulichkeit ist Standardregel — kein Praezedenz-Effekt |
+
+## Was Reviewer/Prüfer triggert
+
+- **MAP-Antrag-Frist versaeumt** — Verlust des Anspruchs.
+- **Doppelbesteuerung nicht quantifiziert** — Antrag wird zurueckgewiesen oder verzoegert bearbeitet.
+- **Nationale Bestandskraft nicht beachtet** — Bescheid wird bestandskraeftig, waehrend MAP laeuft.
+- **EU-Sachverhalt nur als MAP gestellt** ohne EU-DBA-SBG — Frist für Schiedszwang verfaellt.
+- **Zustaendige Behörde falsch adressiert** — Antrag verbleibt im Postlauf.
+- **Bescheide aller Staaten fehlen** als Anlage — Prüfer kann Doppelbesteuerung nicht nachvollziehen.
+- **Argumentation nur national** ohne DBA-Bezug — MAP-Antrag wird inhaltlich abgelehnt.
+- **Verrechnungspreis-Korrespondenzanpassung Art. 9 Abs. 2 nicht beantragt** — bei VP-Korrekturen Pflicht.
+
+## MAP-Antragsstruktur (Vorlage)
+
+1. **Antragsteller**: Name, Anschrift, Steuernummer, Ansaessigkeitsstaat.
+2. **Sachverhalt**: chronologisch, mit allen relevanten Daten und Belegen.
+3. **Doppelbesteuerung-Berechnung**: Bemessungsgrundlage Staat A vs. Staat B, anwendbare Steuersaetze, Doppelbesteuerungsbetrag.
+4. **DBA-Bezug**: konkrete DBA-Artikel, Argumentation.
+5. **Anwendbare Verfahrensnorm**: Art. 25 MA / Art. 9 Abs. 2 (VP) / EU-DBA-SBG.
+6. **Bisherige Verfahren**: Einspruch, Klage, ggf. Bescheid.
+7. **Antrag**: konkrete Forderung (z.B. Korrektur Steuerbescheid Staat A um Betrag x).
+8. **Anlagen**: Bescheide aller Staaten, Zahlungen, Verträge, TP-Doku, Reisekalender, Substanz-Doku.
+
+## Berechnungsbeispiel: VP-Doppelbesteuerung
+
+Sachverhalt: DE-Tochter (BG: 100k EUR Gewinn) bezieht Management-Fee 200k EUR von US-Mutter. US-Prüfer korrigiert auf 300k EUR (Art. 9 Abs. 1 US-DBA — fremduebliche Verrechnung), DE-Prüfer korrigiert nicht.
+
+| Position | DE | USA |
+|---|---|---|
+| Gewinn vor Korrektur | 100k EUR | (Mutter, vor Tochterabzug) |
+| US-Korrektur Art. 9 Abs. 1 | — | + 100k EUR (Erhoehung Mutter-Gewinn) |
+| DE-Korrektur Art. 9 Abs. 2 (Korrespondenz)? | Antrag im MAP | — |
+| Doppelbesteuerung | + 100k EUR DE | + 100k EUR USA (effektive Doppelerfassung) |
+| MAP-Antrag Art. 9 Abs. 2 + Art. 25 MA | Korrespondenzanpassung in DE | Bestaetigung USA-Korrektur |
+| Ergebnis bei Erfolg | DE-Gewinn auf 0 EUR | USA-Gewinn um 100k erhoeht |
+| EU-DBA-SBG | nicht anwendbar (USA Drittstaat) | — |
+
+(**Werte sind Beispiel — Art. 9 DBA-USA und MAP-Praxis live abrufen.**)
+
+## Frist- und Zuständigkeitsblatt (Mustertabelle)
+
+| Frage | Antwort / Verifikationsquelle |
+|---|---|
+| Anwendbares DBA | DBA-[Land] Art. 25 |
+| Frist im DBA | konkret prüfen (oft 3 Jahre) |
+| EU-DBA-SBG anwendbar? | bei EU-Sachverhalt: ja; bei Drittstaat: nein |
+| Frist EU-DBA-SBG | 3 Jahre ab erster Mitteilung |
+| Zustaendige Behörde DE | BMF, Internationales Steuerrecht |
+| Zustaendige Behörde Ausland | je Staat (vom Anwender mit aktuellem OECD-Verzeichnis abzugleichen) |
+| Sprache Antrag | DE oder EN; je nach Zuständigkeit |
+| Parallel-Verfahren | nationaler Einspruch / Klage / AdV / EU-DBA-SBG |
+
+## Parallelverfahrens-Strategie
+
+| Verfahren | Wann einsetzen | Wirkung |
+|---|---|---|
+| MAP Art. 25 MA | nach Doppelbesteuerung erkannt | bilateral, ohne Schiedszwang (ausser MLI Art. 19 — prüfen) |
+| EU-DBA-SBG | EU-Sachverhalt mit Doppelbesteuerung | bilateral mit Schiedszwang nach 2 Jahren |
+| Nationaler Einspruch | innerhalb 1 Monat nach Bescheid | suspendiert nicht MAP-Frist |
+| Klage FG | innerhalb 1 Monat nach Einspruchsbescheid | parallel MAP möglich |
+| AdV-Antrag | bei vollziehbarem Bescheid | aufschiebende Wirkung |
+| Art. 9 Abs. 2 Korrespondenzanpassung | bei VP-Korrektur Quellenstaat | spezielle MAP-Variante |
+
+## MAP-Antragsentwurf (Strukturvorlage zum Ausarbeiten)
+
+```
+[Briefkopf Kanzlei]
+An: Bundesministerium der Finanzen
+ Wilhelmstrasse 97
+ 10117 Berlin
+ z.Hd. [Referat für Internationales Steuerrecht — aktuelles Referat aus BMF-Internet]
+
+Betreff: Antrag auf Einleitung eines Verstaendigungsverfahrens nach Art. 25 DBA-[Land]
+
+Sehr geehrte Damen und Herren,
+
+namens und in Vollmacht des Mandanten [...] beantragen wir die Einleitung
+eines Verstaendigungsverfahrens nach Art. 25 DBA-[Land].
+
+1. Sachverhalt
+[...]
+
+2. Doppelbesteuerung
+[Berechnung: BG Staat A, BG Staat B, Steuern beider Staaten]
+
+3. DBA-Rechtliche Wuerdigung
+[Welcher Artikel; warum Doppelbesteuerung]
+
+4. Antrag
+Es wird beantragt, dass das BMF Verstaendigung mit der zuständigen
+Behörde von [Staat] aufnimmt mit dem Ziel der Korrektur ...
+
+Anlagen:
+- Steuerbescheid DE vom [...]
+- Steuerbescheid [Staat] vom [...]
+- Zahlungsnachweise
+- Vertraege
+- Transfer-Pricing-Dokumentation (falls VP-Fall)
+- Vollmacht
+```
+
+## Belegliste (vollstaendig)
+
+| Beleg | Verwendung |
+|---|---|
+| Steuerbescheid DE | Nachweis DE-Besteuerung |
+| Steuerbescheid Ausland (Original + Übersetzung) | Nachweis Auslands-Besteuerung |
+| Zahlungsnachweise (DE + Ausland) | tatsaechliche Steuerlast |
+| Verträge (Arbeitsvertrag, Lizenzvertrag, VP-Vertrag) | wirtschaftliche Grundlage |
+| Transfer-Pricing-Dokumentation | bei VP-Faellen Pflicht |
+| Reisekalender (bei Lohnsteuer-MAP) | Aufenthaltstage |
+| Substanzdokumentation | bei Holding/Vertreter-BS |
+| Ansaessigkeitsbescheinigungen beider Staaten | DBA-Anwendung |
+| Vollmacht | Steuerberater-Vertretung |

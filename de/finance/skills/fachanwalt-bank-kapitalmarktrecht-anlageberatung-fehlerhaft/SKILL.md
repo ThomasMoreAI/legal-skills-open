@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-bank-kapitalmarktrecht-anlageberatung-fehlerhaft
 title: Anlageberatung fehlerhaft
-description: Workflow-Skill zu fachanwalt bank kapitalmarktrecht anlageberatung fehlerhaft. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Anlageberatung fehlerhaft: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/fachanwalt-bank-kapitalmarktrecht-anlageberatung-fehlerhaft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -25,12 +25,9 @@ language: de
 
 ## Anspruchsgrundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Anleger- und anlagegerechte Beratung — Pflicht zur vollständigen, richtigen und verständlichen Information.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Anspruchsgrundlage: §§ 280 Abs. 1, 311 Abs. 2 BGB i.V.m. Beratungsvertrag (Schadensersatz wegen Pflichtverletzung).
 - Bei Vorsatz oder Sittenwidrigkeit zusätzlich § 826 BGB und § 31 BGB für Organhaftung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Frist
 
@@ -89,7 +86,6 @@ Beratungsfehler liegen in folgenden Punkten:
 1. Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
    510/07 Beschl. v. 20.01.2009 Rn. 12 ff.)
 2. unterlassene Aufklaerung ueber Innenprovision von [...] Prozent
-   Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 3. anlegerunabhaengige Empfehlung trotz Risikoklasse [...]
 
 Wir fordern Sie auf bis [Datum vier Wochen] Zug um Zug gegen Rueckgabe
@@ -124,7 +120,6 @@ Mit freundlichen Gruessen
 5. Schadenshoehe: Differenzhypothese oder negatives Interesse berechnen?
 
 ### Ergaenzende Leitsaetze
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Schritt-fuer-Schritt-Workflow Anlageberatungsfehler
 1. **Mandantengespräch:** Produkt, Datum Beratung, Risikoprofil, Verlusthoehe dokumentieren.
@@ -133,4 +128,4 @@ Mit freundlichen Gruessen
 4. **Schadensberechnung:** Eingesetztes Kapital minus aktueller Wert + entgangene 4 %-Verzinsung.
 5. **Ausforderungsschreiben** an Bank mit 4-Wochen-Frist, Schadensaufstellung, Klageandrohung.
 6. **Ombudsmann** einschalten (hemmt Verjaebrung § 204 BGB).
-7. **Klage** bei Ablehnung: LG (§ 23 GVG Streitwert ab EUR 5.000).
+7. Klage bei Ablehnung: sachliche Zuständigkeit nach Spezialzuweisung und Streitwert prüfen; sonst Amtsgericht bis einschließlich 10.000 Euro, Landgericht darüber (Paragrafen 23 Nummer 1, 71 Absatz 1 GVG).

@@ -1,11 +1,11 @@
 ---
 name: vorhabenbezogener-bebauungsplan-12-baugb
 title: Vorhabenbezogener Bebauungsplan § 12 BauGB
-description: Workflow-Skill zu vorhabenbezogener bebauungsplan 12 baugb. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Vorhabenbezogener Bebauungsplan Paragraf 12 BauGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/vorhabenbezogener-bebauungsplan-12-baugb
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Vorhabenbezogener Bebauungsplan § 12 BauGB
-
-## Zweck
-
-Bei vielen Plänen ist die Frage zentral, ob es sich um einen qualifizierten Bebauungsplan oder einen vorhabenbezogenen Bebauungsplan (VEP) handelt. Die Abgrenzung hat erhebliche Folgen für Aktivlegitimation, Anfechtbarkeit, Realisierungs-Pflicht und Beendigung.
 
 ## Eingaben
 
@@ -39,7 +35,6 @@ Fehlt eine Säule, ist es kein VEP. Fehlt der Plan im förmlichen Sinne und die 
 
 ### Vorhabenträger gleich Plan-Schuldner
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Vorhabenträger muss zur Plan-Realisierung **verpflichtet und in der Lage** sein
 - Wechselt der Vorhabenträger nach Plan-Beschluss, bleibt der Plan nur wirksam wenn der Nachfolger den Durchführungsvertrag übernimmt
 - § 12 Abs. 5 BauGB ausdrücklich
@@ -78,7 +73,6 @@ Fehlt eine Säule, ist es kein VEP. Fehlt der Plan im förmlichen Sinne und die 
 - Durchführungsvertrag mit Vorhabenträger vor Aufstellungs-Beschluss
 - Festsetzungen sind passgenau auf das Vorhaben des Vorhabenträgers zugeschnitten
 - **Rechtsfolge:** Vertrag als § 11 BauGB-Vertrag zu prüfen, nicht § 12 BauGB
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Konstellation C — Reiner Erschließungs-Vertrag
 
@@ -155,7 +149,6 @@ Die Antragsbefugnis nach § 47 Abs. 2 VwGO ist beim VEP häufig erleichtert:
 ### Rechtsschutz
 
 - Antragsteller kann Aufhebungs-Erforderlichkeit feststellen lassen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Schritt 9 — Prüfraster für die Mandantin-Vertretung
 
@@ -179,7 +172,6 @@ Die Antragsbefugnis nach § 47 Abs. 2 VwGO ist beim VEP häufig erleichtert:
 ### Schritt 9.4 — Argumentations-Linien
 
 - Bei VEP: Vorhabenträger-Identität, Realisierungs-Status, Wirksamkeits-Folgen
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Stets Vorprägungs-Argument
 
 ## Schritt 10 — Anwendung auf Bebauungsplan Augsburg Nr. 900
@@ -224,7 +216,3 @@ Die Antragsbefugnis nach § 47 Abs. 2 VwGO ist beim VEP häufig erleichtert:
 - BVerwG 06.06.2019, 4 CN 7.18 — VEP-Konkretisierung (bverwg.de)
 - BVerwG 11.04.2024, 4 BN 50.23 — Klimaschutz § 1 Abs. 5 S. 2 BauGB Abwaegungsmaengel (bverwg.de)
 - Weitere Aktenzeichen vor Ausgabe per bverwg.de verifizieren
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.

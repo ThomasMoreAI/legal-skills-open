@@ -5,19 +5,19 @@ description: 'Expert DORA (Regulation (EU) 2022/2554 — Digital Operational Res
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/dora/skills/dora
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: cybersecurity
 language: en
 sources:
-- title: Article Reference
+- title: Article reference
   path: references/article-reference.md
-- title: Incident Classification
+- title: Incident classification
   path: references/incident-classification.md
-- title: Rts Its Guide
+- title: Rts its guide
   path: references/rts-its-guide.md
-- title: Third Party Risk
+- title: Third party risk
   path: references/third-party-risk.md
 ---
 

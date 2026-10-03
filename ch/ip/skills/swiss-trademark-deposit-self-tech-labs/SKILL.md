@@ -5,11 +5,11 @@ description: Prepare Swiss trademark deposits before the IPI. Use for protecting
 author: self-tech-labs
 author_url: https://github.com/self-tech-labs/ogram-for-IP/tree/main/plugins/swiss-trademark-deposit/skills/swiss-trademark-deposit
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ch
 practice: ip
-language: fr
+language: en
 sources:
 - title: Classification Nice
   path: references/classification-nice.md

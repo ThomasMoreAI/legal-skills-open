@@ -1,18 +1,31 @@
 ---
 name: cyber-incident-response-72h
-title: Cyber-Incident-Response 72 Stunden
-description: Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat. Anwendungsfall Cyberangriff ist entdeckt und IT-rechtliche Meldepflichten sowie Beweissicherung muessen binnen Stunden eingeleitet werden. Normen Art. 33 DSGVO 72-Stunden-Meldung Datenpanne Art. 34 DSGVO Betroffeneninformation NIS2UmsuCG § 32 BSIG n.F. §§ 202a 303b StGB. Prüfraster Sofort-Eindaemmung Forensik-Sicherung DSGVO-Meldepflicht NIS-2-Fruehwarnung 24 Stunden Strafanzeige Cybersecurity-Versicherer Beweiskette. Output Sofortmassnahmen-Protokoll mit 72-Stunden-Plan Meldungsformulierung und Chain-of-Custody-Dokumentation. Abgrenzung zu fachanwalt-it-recht-cyber-vorfall-sofortmassnahmen und fachanwalt-it-recht-datenschutz-folgenabschaetzung.
+title: Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat
+description: 'Für Cyber Incident Response 72h: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/cyber-incident-response-72h
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: cybersecurity
 language: de
 ---
 
-# Cyber-Incident-Response 72 Stunden
+# Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: DSGVO Art. 5, 6, 7, 9, 12-22, 25, 28, 30, 32, 33-34, 35, 51-58, 77-83, BDSG §§ 22-25, 26, 30; DSGVO; BDSG; TTDSG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Sofortmassnahmen bei aktivem Cyber-Vorfall Ransomware Datenexfiltration oder Insider-Threat. Anwendungsfall Cyberangriff ist entdeckt und IT-rechtliche Meldepflichten sowie Beweissicherung müssen binnen Stunden eingeleitet werden. Normen Art. 33 DSGVO 72-Stunden-Meldung Datenpanne Art. 34 DSGVO Betroffeneninformation NIS2UmsuCG § 32 BSIG n.F. §§ 202a 303b StGB. Prüfraster Sofort-Eindaemmung Forensik-Sicherung DSGVO-Meldepflicht NIS-2-Fruehwarnung 24 Stunden Strafanzeige Cybersecurity-Versicherer Beweiskette. Output Sofortmassnahmen-Protokoll mit 72-Stunden-Plan Meldungsformulierung und Chain-of-Custody-Dokumentation. Abgrenzung zu fachanwalt-it-recht-cyber-vorfall-sofortmassnahmen und fachanwalt-it-recht-datenschutz-folgenabschaetzung.
+
+### Cyber-Incident-Response 72 Stunden
 
 ## Kaltstart-Rückfragen
 
@@ -24,7 +37,7 @@ language: de
 6. Wurden bereits Maßnahmen ergriffen — Systeme abgeschaltet (Forensik-Problem!), Passwörter geändert, Backups überprüft?
 7. Liegt eine Erpressungsforderung vor — Betrag, Zahlungsanweisung, Frist?
 8. Ist eine betroffene Begleitperson oder Datenschutzbeauftragter vorhanden?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -62,7 +75,6 @@ language: de
 
 ### Entscheidungen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfschema / Zeitplan
@@ -85,7 +97,7 @@ language: de
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -149,29 +161,29 @@ Verantwortlicher: [Unternehmen]
 Auftragsverarbeiter: [Forensik-Dienstleister]
 
 1. Gegenstand: Sicherung und Analyse digitaler Beweismittel
-   im Zusammenhang mit Sicherheitsvorfall vom [Datum].
+ im Zusammenhang mit Sicherheitsvorfall vom [Datum].
 
 2. Weisungsgebundenheit: Dienstleister handelt ausschliesslich
-   nach Weisung des Verantwortlichen.
+ nach Weisung des Verantwortlichen.
 
 3. Vertraulichkeit: Alle im Rahmen des Auftrags erlangten
-   Informationen sind streng vertraulich zu behandeln.
+ Informationen sind streng vertraulich zu behandeln.
 
 4. Technische und organisatorische Massnahmen: Dienstleister
-   wendet mindestons die in Anlage 1 beschriebenen TOMs an.
+ wendet mindestons die in Anlage 1 beschriebenen TOMs an.
 
 5. Sub-Verarbeiter: Nur mit vorheriger schriftlicher Zustimmung.
 
 6. Rueckgabe/Loeschung: Nach Abschluss des Auftrags werden
-   alle personenbezogenen Daten unverzueglich zurueckgegeben
-   oder geloescht, soweit keine gesetzliche Aufbewahrungspflicht
-   entgegensteht.
+ alle personenbezogenen Daten unverzueglich zurueckgegeben
+ oder geloescht, soweit keine gesetzliche Aufbewahrungspflicht
+ entgegensteht.
 
 7. Chain of Custody: Alle Beweismittel werden mit Hash-Werten
-   gesichert und lueckenlos protokolliert.
+ gesichert und lueckenlos protokolliert.
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -181,7 +193,6 @@ Auftragsverarbeiter: [Forensik-Dienstleister]
 | Frage | Last | Norm |
 |---|---|---|
 | Verletzung der Meldepflicht Art. 33 | Behörde; Entlastung durch Dokumentation des Verantwortlichen | Art. 5 Abs. 2 DSGVO (Rechenschaftspflicht) |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Entlastung Verantwortlicher | Verantwortlicher: Nachweis angemessener TOMs | Art. 82 Abs. 3 DSGVO |
 | Straftat § 202a StGB | Staatsanwaltschaft | StPO |
 | Versicherungsschutz | Versicherungsnehmer | AVB Cyber-Police |
@@ -240,23 +251,19 @@ Auftragsverarbeiter: [Forensik-Dienstleister]
 - DSGVO Art. 28, 32–34, 82, 83
 - NIS2UmsuCG in Kraft seit 06.12.2025; §§ 32, 65 BSIG n. F.
 - StGB §§ 202a–202d, 261, 263a, 269, 303a, 303b
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-- BSI IT-Grundschutz-Kompendium
+- BSI IT-Grundschutz-Fachüberblick
 - BSI-Lageberichte Cybersicherheit
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Faktische Updates (Stand 05/2026)
 
-- **NIS-2-UmsuCG (Umsetzungsgesetz):** Das NIS-2-Umsetzungs- und Cybersicherheitsstaerkungsgesetz setzt die NIS-2-Richtlinie (EU) 2022/2555 in deutsches Recht um. Stand des Inkrafttretens (urspruenglich Frist 17.10.2024, verzoegert in Deutschland) ueber bgbl.de / BMI live pruefen. Bei Verzoegerung: ggf. Direktwirkung der Richtlinie gegenueber dem Staat (vertikale Direktwirkung), nicht gegenueber Privaten.
+- **NIS-2-UmsuCG (Umsetzungsgesetz):** Das NIS-2-Umsetzungs- und Cybersicherheitsstaerkungsgesetz setzt die NIS-2-Richtlinie (EU) 2022/2555 in deutsches Recht um. Stand des Inkrafttretens (urspruenglich Frist 17.10.2024, verzoegert in Deutschland) über bgbl.de / BMI live prüfen. Bei Verzoegerung: ggf. Direktwirkung der Richtlinie gegenueber dem Staat (vertikale Direktwirkung), nicht gegenueber Privaten.
 - **§ 32 BSIG n. F. — Meldefristen:** Drei-Stufen-Meldung: 24 h Fruehwarnung (early warning), 72 h vollstaendige Vorfallsmeldung (incident notification), 1 Monat Abschlussbericht (final report). Quelle: bsi.bund.de, BSIG (BGBl 2025).
-- **NIS-2-Adressatenkreis:** Wesentliche (essential) und wichtige (important) Einrichtungen nach Anhang I und II der Richtlinie. Size-cap-Rule (mittlere/grosse Unternehmen) plus sektorale Ausnahmen. Sektoren: Energie, Verkehr, Bankwesen, Finanzmarktinfrastruktur, Gesundheit, Trinkwasser, Abwasser, digitale Infrastruktur, IKT-Dienstleistungs-Management, Oeffentliche Verwaltung, Raumfahrt; wichtig: Post/Kurier, Abfall, Chemie, Lebensmittel, Industrie, Anbieter digitaler Dienste, Forschung.
-- **CRA — Cyber Resilience Act:** VO (EU) 2024/2847 (Cyber Resilience Act) ergaenzt mit Produktsicherheits-Anforderungen fuer Produkte mit digitalen Elementen. Hauptpflichten gestaffelt ab 2026/2027. Vor Beratung Stand pruefen ueber eur-lex.europa.eu.
-- **DORA — Digital Operational Resilience Act:** VO (EU) 2022/2554 (DORA) ist seit 17.01.2025 anwendbar fuer Finanzunternehmen; Cyber-Vorfallsmeldungen an BaFin nach ITSV-DORA bei Schnittstelle zu DSGVO-Meldung beachten.
-- **Art. 82 DSGVO — Schadensersatz:** EuGH-Linie zum immateriellen Schadensersatz bei Datenpannen (Kontrollverlust kann genuegen, aber keine Pauschalierung). Konkrete Aktenzeichen live ueber curia.europa.eu pruefen.
-- **OFAC-Sanktionen / EU-Sanktionen bei Loesegeld:** Bei Loesegeld-Zahlung an sanktionierte Tätergruppen drohen Verstoesse gegen EU-Verordnungen (z.B. VO 269/2014 Russland, VO 833/2014) sowie US-OFAC-Sanktionen. Vor jeder Zahlung Sanktionsliste pruefen. Quellen: sanctionsmap.eu, ofac.treasury.gov.
+- **NIS-2-Adressatenkreis:** Wesentliche (essential) und wichtige (important) Einrichtungen nach Anhang I und II der Richtlinie. Size-cap-Rule (mittlere/große Unternehmen) plus sektorale Ausnahmen. Sektoren: Energie, Verkehr, Bankwesen, Finanzmarktinfrastruktur, Gesundheit, Trinkwasser, Abwasser, digitale Infrastruktur, IKT-Dienstleistungs-Management, Oeffentliche Verwaltung, Raumfahrt; wichtig: Post/Kurier, Abfall, Chemie, Lebensmittel, Industrie, Anbieter digitaler Dienste, Forschung.
+- **CRA — Cyber Resilience Act:** VO (EU) 2024/2847 (Cyber Resilience Act) ergaenzt mit Produktsicherheits-Anforderungen für Produkte mit digitalen Elementen. Hauptpflichten gestaffelt ab 2026/2027. Vor Beratung Stand prüfen über eur-lex.europa.eu.
+- **DORA — Digital Operational Resilience Act:** VO (EU) 2022/2554 (DORA) ist seit 17.01.2025 anwendbar für Finanzunternehmen; Cyber-Vorfallsmeldungen an BaFin nach ITSV-DORA bei Schnittstelle zu DSGVO-Meldung beachten.
+- **Art. 82 DSGVO — Schadensersatz:** EuGH-Linie zum immateriellen Schadensersatz bei Datenpannen (Kontrollverlust kann genügen, aber keine Pauschalierung). Konkrete Aktenzeichen live über curia.europa.eu prüfen.
+- **OFAC-Sanktionen / EU-Sanktionen bei Loesegeld:** Bei Loesegeld-Zahlung an sanktionierte Tätergruppen drohen Verstoesse gegen EU-Verordnungen (z.B. VO 269/2014 Russland, VO 833/2014) sowie US-OFAC-Sanktionen. Vor jeder Zahlung Sanktionsliste prüfen. Quellen: sanctionsmap.eu, ofac.treasury.gov.
 
 ## Output-Template — DSGVO-Meldung Art. 33
 **Adressat:** Zustaendige Datenschutz-Aufsichtsbehoerde — Tonfall: sachlich-berichtend
@@ -294,3 +301,5 @@ Hinweis gemaess Art. 33 Abs. 4 DSGVO: Nachmeldung vorbehalten.
 
 [KANZLEI / UNTERNEHMEN], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -5,17 +5,17 @@ description: Expert CSRD (Corporate Sustainability Reporting Directive, EU 2022/
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/csrd/skills/csrd
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
 language: en
 sources:
-- title: Compliance Program
+- title: Compliance program
   path: references/compliance-program.md
-- title: Double Materiality
+- title: Double materiality
   path: references/double-materiality.md
-- title: Esrs Standards
+- title: Esrs standards
   path: references/esrs-standards.md
 ---
 

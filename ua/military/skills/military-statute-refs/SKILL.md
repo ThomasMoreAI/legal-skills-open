@@ -1,18 +1,18 @@
 ---
 name: military-statute-refs
-title: military-statute-refs
-description: "Use when fetching Ukrainian military statutes, orders MO, or CMU resolutions for service members. Verified zakon.rada ID table: Дисциплінарний статут ЗС, статути внутрішньої / гарнізонної / караульної служби, ЗУ про військовий обов'язок і соцзахист військовослужбовців, наказ МО про ВЛК, постанови КМУ про виплати."
+title: law-ua-military-statute-refs
+description: 'Use when fetching Ukrainian military statutes, orders MO, or CMU resolutions for service members. Verified zakon.rada ID table: Дисциплінарний статут ЗС, статути внутрішньої / гарнізонної / караульної служби, ЗУ про військовий обов''язок і соцзахист військовослужбовців, наказ МО про ВЛК, постанови КМУ про виплати.'
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-military-statute-refs
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: military
 language: uk
 ---
 
-# military-statute-refs
+# law-ua-military-statute-refs
 
 Коли працюєш із військово-правовими питаннями, не шукай акти через Google — бери URL напряму з цієї таблиці. Усі ID — це ідентифікатори на `zakon.rada.gov.ua/laws/show/<ID>`.
 
@@ -109,7 +109,7 @@ language: uk
 
 ## Обов'язкова перевірка перед використанням
 
-Для кожного НПА — **звірити редакцію на дату звернення**. У плагіні вже є скіл `fetching-zakon-rada` для деталей URL-конструкції з історичними редакціями.
+Для кожного НПА — **звірити редакцію на дату звернення**. У плагіні вже є скіл `law-ua-fetching-zakon-rada` для деталей URL-конструкції з історичними редакціями.
 
 ```
 https://zakon.rada.gov.ua/laws/show/<ID>/ed<YYYYMMDD>
@@ -120,7 +120,7 @@ https://zakon.rada.gov.ua/laws/show/<ID>/ed<YYYYMMDD>
 
 ## Суміжні ресурси для перевірки практики
 
-- **ЄДРСР** (reyestr.court.gov.ua) — шукати за ключовими словами «військово-лікарська комісія», «ТЦК», «СЗЧ», «стаття 407», «грошове забезпечення військовослужбовця». Скіл `searching-edrsr`.
+- **ЄДРСР** (reyestr.court.gov.ua) — шукати за ключовими словами «військово-лікарська комісія», «ТЦК», «СЗЧ», «стаття 407», «грошове забезпечення військовослужбовця». Скіл `law-ua-searching-edrsr`.
 - **Офіс Військового омбудсмана** (milomb.gov.ua) — позиції, розслідування, рекомендації.
 - **Мін'юст** (minjust.gov.ua) — реєстри, роз'яснення.
 - **Мінветеранів** (mva.gov.ua) — роз'яснення щодо виплат, статусів.
@@ -137,6 +137,6 @@ https://zakon.rada.gov.ua/laws/show/<ID>/ed<YYYYMMDD>
 
 ## Коли цей скіл не підходить
 
-- Для загального права (ЦК, ГК, КК в цілому) — використовуй `fetching-zakon-rada`.
-- Для судової практики — `searching-edrsr`.
+- Для загального права (ЦК, ГК, КК в цілому) — використовуй `law-ua-fetching-zakon-rada`.
+- Для судової практики — `law-ua-searching-edrsr`.
 - Для міжнародного гуманітарного права (Женевські конвенції, МКСЄ) — окремий пошук.

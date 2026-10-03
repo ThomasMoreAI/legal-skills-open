@@ -1,30 +1,11 @@
 ---
 name: using-legal-toolkit
 title: using-legal-toolkit
-description: 'Router skill for legal-toolkit — the entry point that recognises user intent across 6 clusters (📋 Playbook / 📝 Template / 🚨 Runbook / 🔍 IRAC / 📅 Tracker / 🏛️ Compliance) and dispatches to the right specialist sub-skill. 7 active sub-skills (legal-contract-review / legal-playbook-author / legal-document-draft / legal-incident-response / legal-issue-spot / legal-research / this router); 4 more sub-skills (legal-contract-tracker / legal-regulation-watch / legal-corporate-governance / legal-dd-quickscan) are listed as not-yet-available with their planned phase. Returns a 6-cluster menu when intent is ambiguous — never guesses.
-
-
-  台灣 in-house 法務工具組 router。法務工具のルーター。
-
-
-  TRIGGER (中英雙語):
-
-  - legal / contract / NDA / playbook / 合約 / 法律 / 法務
-
-  - "I have a contract to review" / "需要審合約" / "建紅線"
-
-  - "legal-toolkit" / "什麼 legal 的 skill 可以用"
-
-  - first install / 剛裝好
-
-
-  USE WHEN: user mentions anything legal-toolkit-related and the
-
-  specific sub-skill is not clear from the request.'
+description: Router for legal-toolkit (Taiwan in-house 法務) — recognises intent across Playbook / Template / Runbook / IRAC / Tracker / Compliance, dispatches to the right sub-skill; menu when ambiguous. Use on 'legal', '合約', 'NDA', '需要審合約'.
 author: kouko
 author_url: https://github.com/kouko/monkey-skills/tree/main/legal-toolkit/skills/using-legal-toolkit
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

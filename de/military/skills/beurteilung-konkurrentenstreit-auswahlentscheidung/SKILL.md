@@ -1,0 +1,112 @@
+---
+name: beurteilung-konkurrentenstreit-auswahlentscheidung
+title: Beurteilung, Konkurrentenstreit und Auswahlentscheidung
+description: 'Für Beurteilung, Konkurrentenstreit und Auswahlentscheidung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bundeswehrrecht-wehrrecht/skills/beurteilung-konkurrentenstreit-auswahlentscheidung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: military
+language: de
+---
+
+# Beurteilung, Konkurrentenstreit und Auswahlentscheidung
+
+## Arbeitsbereich
+
+Beurteilung, Konkurrentenstreit, Auswahlentscheidung: prüft Beurteilungsfehlerlehre, Bestenauslese, Auswahlvermerk und einstweiligen Rechtsschutz. Norm-/Quellenanker: Art. 33 Abs. 2 GG, § 3 SG, ZDv A-1340/50. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Beurteilung, Konkurrentenstreit und Auswahlentscheidung
+- **Normen-/Quellenanker:** SG, WSG, WPflG, KDVG, WDO, SVG, BBesG, VwGO, truppendienstgerichtliche Zuständigkeiten und Grundrechte.
+- **Entscheidende Weiche:** Status, Befehl/Dienstpflicht, Gewissen/KDV, Besoldung/Versorgung, Disziplinarweg, Eilrechtsschutz und Nachweisführung trennen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
+
+[BVerwG, Beschluss vom 25.06.2026 – 1 WB 64.25](https://www.bverwg.de/de/250626B1WB64.25.0), Rn. 35–40: Mehrere zeitnah wegen derselben konkret erläuterten Kindeserkrankung abgelehnte Dienstposten belegen nicht schon fehlende grundsätzliche Mobilitätsbereitschaft. Auswahlzeitpunkt, tatsächliche frühere Verwendungen und familiären Hinderungszeitraum abgleichen. Die Zulassung zum Laufbahnaufstieg und die Rechtmäßigkeit einer konkreten Versetzung bleiben verschiedene Fragen; fehlende Nachweise des Versetzungshindernisses beweisen keine innere Mobilitätsverweigerung. Zugesprochen wurde Neubescheidung, kein Wunschdienstposten.
+
+## Fachlicher Kontext
+
+Beurteilungen sind Grundlage für Beförderungen und Verwendungsentscheidungen. Fehlerhafte Beurteilungen blockieren Karrieren; unterlegene Bewerber haben Konkurrentenschutzrecht aus Art. 33 Abs. 2 GG.
+
+Typische Fehler: unzuständiger Beurteiler, fehlende Begründung, Nichtberücksichtigung wesentlicher Leistungen, Verstoß gegen ZDv-Maßstäbe. Einstweiliger Rechtsschutz ist oft zeitkritisch.
+
+## Einschlägige Normen und Quellen
+
+- Art. 33 Abs. 2 GG — Bestenauslese
+- § 3 SG — Ernennungs- und Verwendungsgrundsätze
+- Personalaktenrecht und Beurteilungsgrundlage getrennt prüfen; § 23 SG regelt Dienstvergehen, nicht Personalakten.
+- ZDv A-1340/50 — Beurteilungsbestimmungen
+- §§ 6, 17 WBO — Beschwerde und gerichtlicher Antrag
+- § 123 VwGO — Einstweiliger Rechtsschutz (analog)
+
+## Sachverhaltsaufnahme — Startfragen
+
+- Welche Beurteilung oder Auswahlentscheidung wird angefochten?
+- Wann wurde die Beurteilung eröffnet (Fristbeginn!)?
+- Welche konkreten Fehler werden gerügt?
+- Gibt es Auswahlentscheidung zugunsten eines Konkurrenten?
+- Ist die Stelle noch unbesetzt (einstweiliger Rechtsschutz sinnvoll)?
+- Soll Besetzungsstopp beantragt werden?
+
+## Prüf- und Arbeitslogik
+
+### Schritt 1 — Beurteilungsfehlerlehre
+
+Dienstherr hat Beurteilungsspielraum: nur Fehler kontrollierbar, nicht Richtigkeit.
+Kontrollfähige Fehler: Unzuständigkeit des Beurteilers, Verfahrensfehler, sachfremde Erwägungen, Widerspruch zum Akteninhalt.
+Nicht prüfbar: Wertung an sich, solange nachvollziehbar.
+
+### Schritt 2 — Auswahlentscheidung und Bestenauslese
+
+Art. 33 Abs. 2 GG: Eignung, Befähigung, fachliche Leistung.
+Aktuelle Beurteilung hat Vorrang vor älteren.
+Gleichwertigkeit: Hilfskriterien zulässig (Vorbildung, Einsatzerfahrung).
+Auswahlvermerk: muss Bewerbervergleich erkennbar machen.
+
+### Schritt 3 — WBO-Beschwerde gegen Beurteilung
+
+Frist: 1 Monat nach Eröffnung (§ 6 WBO).
+Ziel: Aufhebung und Neubeurteilung.
+Gleichzeitig: WBO-Beschwerde gegen Auswahlentscheidung (separate Maßnahme!).
+Eröffnungsprotokoll aufbewahren.
+
+### Schritt 4 — Einstweiliger Rechtsschutz
+
+Antrag auf gerichtliche Entscheidung § 17 WBO beim TDG.
+Besetzungsstopp: TDG kann vorläufig untersagen.
+Sofort handeln: Beförderung schafft vollendete Tatsachen!
+Akteneinsicht beantragen (Auswahlvermerk, Beurteilungen Mitbewerber).
+
+## Arbeitsergebnisse
+
+Erzeuge je nach Auftrag eines oder mehrere dieser Ergebnisse:
+
+- Kurzvermerk mit Risikoampel (grün/gelb/rot)
+- Prüfschema mit Tatbestandselementen und offenen Punkten
+- Fragenliste für Mandanten/Sachverhaltsgespräch
+- Entwurfsbausteine (Beschwerde, Antrag, Schriftsatz, Stellungnahme)
+- Dokumentenanforderungsliste
+- Nächster Schritt mit konkreter Frist
+
+- Muster-WBO-Beschwerde gegen Beurteilung
+- Checkliste: Beurteilungsfehler — Typen und Nachweis
+- Prüfschema: Auswahlentscheidung Art. 33 Abs. 2 GG
+
+## Qualitätsgate
+
+Vor Ausgabe prüfen:
+
+- Fristen, Zuständigkeit und Rechtsgrundlage vollständig?
+- Offene Tatsachen als `[offen: ...]` markiert?
+- Gegenargumente und Verteidigungslinien formuliert?
+- Beweislastverteilung geklärt?
+- Output entspricht dem gewünschten Arbeitsergebnis?

@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-bank-kapitalmarktrecht-kreditkuendigung
 title: Kreditkündigung
-description: Workflow-Skill zu fachanwalt bank kapitalmarktrecht kreditkuendigung. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Kreditkündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Bank Kapitalmarktrecht. Route: fachanwalt-bank-kapitalmarktrecht-kreditkuendigung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-bank-kapitalmarktrecht/skills/fachanwalt-bank-kapitalmarktrecht-kreditkuendigung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: finance
@@ -29,7 +29,6 @@ language: de
 - Allgemeines Kündigungsrecht aus wichtigem Grund § 314 BGB — Abmahnung erforderlich falls Pflichtverletzung.
 - Bei Verbraucherdarlehen § 498 BGB: qualifizierter Zahlungsverzug erforderlich (zwei aufeinander folgende Raten ganz oder teilweise; bei Restlaufzeit > 3 Jahre 10 %, bei kürzerer 5 % des Nennbetrags); zweiwöchige Heilungsfrist nach Mahnung.
 - AGB-Banken Nr. 19 (ordentliche Kündigung) und Nr. 26 (außerordentliche Kündigung) — AGB-Kontrolle § 307 BGB.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Treu und Glauben § 242 BGB — Kündigung zur Unzeit oder ohne überwiegenden Bankinteressen.
 
 ## Beweislast und Frist
@@ -99,7 +98,6 @@ Mit freundlichen Gruessen
 
 ### Leitsaetze Kreditkuendigung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Normen-Kette
 
@@ -157,3 +155,11 @@ Wir fordern Zuruecknahme der Kuendigung bis [DATUM +7 Tage].
 
 [Rechtsanwalt/-anwaeltin]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

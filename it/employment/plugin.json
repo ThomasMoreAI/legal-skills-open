@@ -9,10 +9,14 @@
   "practice": "employment",
   "language": "it",
   "skills": [
+    "skills/bozza-memo-disciplinare",
     "skills/bozza-policy-interna-pixari",
     "skills/checklist-licenziamento-pixari",
+    "skills/cold-start-lavoro",
     "skills/fascicolo-lavoro-pixari",
+    "skills/hiring-review-lavoro",
     "skills/indagine-interna-disciplinare-pixari",
+    "skills/qa-rapida-lavoro",
     "skills/qualificazione-rapporto-pixari",
     "skills/revisione-licenziamento-pixari"
   ]

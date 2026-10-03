@@ -6,14 +6,17 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): real estate 
 
 Jurisdiction: `il` · Practice: `real-estate` · Skill language: en
 
-## Skills (4)
+## Skills (7)
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Building Committee (Vaad Bayit)`](skills/israeli-building-committee-skills-il/) | Not legal advice. Helps residents of an Israeli bayit meshutaf run or deal with the vaad bayit (ועד בית):… |
-| [`Israeli New-Apartment Defect Log`](skills/israeli-home-defect-report-skills-il/) | Not legal advice. Helps a buyer of a new Israeli apartment document construction defects and act in time.… |
-| [`Israeli Tabu Extract Decoder`](skills/israeli-tabu-extract-decoder-skills-il/) | Not legal advice. Reads an Israeli nesach tabu (land registry extract) and explains it line by line: who is… |
-| [`Israeli Urban Renewal Owner's Guide`](skills/israeli-urban-renewal-owner-guide-skills-il/) | Not legal advice. Explains Israeli urban renewal (hitchadshut ironit) from the apartment owner's side: the… |
+| [`Israeli Building Committee (Vaad Bayit)`](skills/israeli-building-committee-skills-il/) | Not legal advice. Helps residents of an Israeli bayit meshutaf run or deal with the vaad bayit (ועד… |
+| [`European Passport by Descent Navigator`](skills/israeli-citizenship-by-descent/) | Not legal advice. Help an Israeli check whether they can claim a European passport by descent or… |
+| [`Israeli Divorce Navigator`](skills/israeli-divorce-navigator/) | Not legal advice. Walks a person through the Israeli divorce process end to end: the rabbinical-court… |
+| [`Israeli New-Apartment Defect Log`](skills/israeli-home-defect-report-skills-il/) | Not legal advice. Helps a buyer of a new Israeli apartment document construction defects and act in… |
+| [`Israeli Rental Agreements`](skills/israeli-rental-agreements/) | Guide users through Israeli rental agreements, tenant and landlord rights, and lease negotiation. Use… |
+| [`Israeli Tabu Extract Decoder`](skills/israeli-tabu-extract-decoder-skills-il/) | Not legal advice. Reads an Israeli nesach tabu (land registry extract) and explains it line by line: who… |
+| [`Israeli Urban Renewal Owner's Guide`](skills/israeli-urban-renewal-owner-guide-skills-il/) | Not legal advice. Explains Israeli urban renewal (hitchadshut ironit) from the apartment owner's side… |
 
 ## Cold-start context
 

@@ -1,11 +1,11 @@
 ---
 name: patentfamilien-analyse
 title: patentfamilien-analyse
-description: Patentfamilien-Analyse über INPADOC und Espacenet-Family-View. Sammelt zu einem konkreten Treffer alle Familienmitglieder weltweit DE EP US JP CN KR WO und sonstige Aemter mit gleichem Prioritaetstag. Liefert eine Familientabelle pro Familienmitglied mit Veröffentlichungsnummer Anmeldetag Prioritaetstag Status Klassifikation Validierungsstaaten Anmelder Link. Erlaeutert den Unterschied zwischen INPADOC-Familie (gleicher Prioritaetstag) und Domestic Patent Family (gleicher Anmelder und enge technische Verwandtschaft). Markiert wann die Familie in welchem Staat noch geschützt ist und wann ein Mitglied bereits abgelaufen ist. Disclaimer Familiendaten koennen luekenhaft sein nicht alle Aemter melden vollständig.
+description: 'Für patentfamilien-analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/patentfamilien-analyse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -14,9 +14,13 @@ language: de
 
 # patentfamilien-analyse
 
-## Zweck
+## Arbeitsweg
 
-Ein einzelnes Patentdokument steht selten allein — es ist Teil einer **Patentfamilie**, die aus der gleichen Erstanmeldung hervorgegangen ist. Für die FTO-Recherche, die Stand-der-Technik-Recherche und die Einspruchsstrategie ist es entscheidend, die ganze Familie zu kennen.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: EPÜ R. 36 Teilanmeldung, PatG § 41 Priorität 12 Monate, USPTO Provisional 12 Monate, EPO Recherchebericht typ. 6 Monate.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 139, EPÜ Art. 54, 56, 64, 69, 87 ff., Straßburger IPC-Abkommen, PCT, Espacenet-Datenbankzugriff, DEPATISnet-Bedingungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Patentanwalt, DPMA-Prüfer, EPO-Examiner, USPTO, WIPO, Wettbewerber.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Recherchebericht, FTO-Gutachten, Patentlandschaftsanalyse, Espacenet/DEPATISnet/Patentscope/PatFT-Ausdruck, IPC-Klassifikationsbaum — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Konzepte
 
@@ -66,7 +70,6 @@ Pro Familienmitglied:
 | EP 3 456 789 A1 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt | H02J 3/14 | DE FR GB | EPO-Register-Link |
 | EP 3 456 789 B1 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt 12.09.2021 | H02J 3/14 | DE FR GB IT NL | EPO-Register-Link |
 | US 10,876,543 B2 | Siemens AG | 15.03.2019 | DE 15.03.2018 | erteilt 05.10.2020 | H02J 3/14 | US | USPTO-Link |
-| Rechtsprechung live prüfen | Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren. |
 | CN 110123456 A | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt CN | H02J 3/14 | CN | Espacenet-CN-Link |
 | JP 6789012 B2 | Siemens AG | 14.03.2019 | DE 15.03.2018 | erteilt JP | H02J 3/14 | JP | Espacenet-JP-Link |
 
@@ -107,8 +110,7 @@ Bevor die Familienanalyse begonnen wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
-> **EPA, Erweiterte Beschwerdekammer, G 2/10 (Teilanmeldung):** Eine EP-Teilanmeldung kann nur Gegenstande umfassen, die in der Stammanmeldung zum Zeitpunkt der Einreichung der Teilanmeldung offenbart waren; neue Merkmale koennen nicht nachtraeglich in eine Teilanmeldung eingefuehrt werden.
+> **EPA, Erweiterte Beschwerdekammer, G 2/10 (Teilanmeldung):** Eine EP-Teilanmeldung kann nur Gegenstande umfassen, die in der Stammanmeldung zum Zeitpunkt der Einreichung der Teilanmeldung offenbart waren; neue Merkmale können nicht nachtraeglich in eine Teilanmeldung eingefuehrt werden.
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

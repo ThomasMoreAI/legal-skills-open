@@ -8,7 +8,7 @@ Jurisdiction: `jp` · Practice: `tax` · Skill language: ja
 
 | Skill | What it does |
 |---|---|
-| [`税務法的コンテキスト（Tax Legal Context）`](skills/tax-legal-context/) | Background legal and regulatory context for the shinkoku tax filing plugin. Contains the standard disclaimer… |
+| [`税務法的コンテキスト（Tax Legal Context）`](skills/tax-legal-context/) | Background legal and regulatory context for the shinkoku tax filing plugin. Contains the standard… |
 
 ## Cold-start context
 

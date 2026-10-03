@@ -1,11 +1,11 @@
 ---
 name: regulierungs-luecken-analyse
 title: DS-Gap-Analyse – Datenschutzrecht
-description: 'Regulatorische Luecken im Datenschutzrecht identifizieren und Handlungsoptionen aufzeigen. Art. 5 6 24 DSGVO BDSG. Prüfraster: Bestandsaufnahme bestehender Massnahmen Soll-Ist-Abgleich Lueckenbewertung Prioritaeten. Output: Lueckenanalyse Massnahmenkatalog Prioritaetenliste. Abgrenzung: nicht für spezifische Prüfungen wie AVV oder DSFA.'
+description: 'Für DS-Gap-Analyse – Datenschutzrecht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/regulierungs-luecken-analyse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -13,10 +13,6 @@ language: de
 ---
 
 # DS-Gap-Analyse – Datenschutzrecht
-
-## Zweck
-
-Systematische Lückenanalyse zwischen dem aktuellen Datenschutz-Status der Organisation und neuen oder geänderten Anforderungen aus: EDSA-Leitlinien, DSK-Orientierungshilfen, Gesetzesnovellen (BDSG, TDDDG, sektorspezifisches Recht), Aufsichtsbeschlüssen oder EuGH-Entscheidungen. Ergebnis ist ein priorisierter Umsetzungsplan – kein pauschales Compliance-Dashboard.
 
 ## Eingaben
 
@@ -27,47 +23,47 @@ Systematische Lückenanalyse zwischen dem aktuellen Datenschutz-Status der Organ
 ## Ablauf
 
 1. **Anforderungsanalyse.**
-   - Dokument oder URL lesen: Was sind die normativen Kernaussagen?
-   - Handelt es sich um verbindliche Anforderungen (VO, Beschluss Art. 65 DSGVO) oder Leitlinien mit Empfehlungscharakter (die dennoch Behördenpraxis widerspiegeln)?
-   - Sachlicher Anwendungsbereich: Gilt die Anforderung für diese Organisation? (Branche, Verarbeitungsart, Größe, Drittlandbezug)
-   - Zeitlicher Geltungsbeginn und ggf. Übergangsfristen?
+ - Dokument oder URL lesen: Was sind die normativen Kernaussagen?
+ - Handelt es sich um verbindliche Anforderungen (VO, Beschluss Art. 65 DSGVO) oder Leitlinien mit Empfehlungscharakter (die dennoch Behördenpraxis widerspiegeln)?
+ - Sachlicher Anwendungsbereich: Gilt die Anforderung für diese Organisation? (Branche, Verarbeitungsart, Größe, Drittlandbezug)
+ - Zeitlicher Geltungsbeginn und ggf. Übergangsfristen?
 
 2. **Anforderungs-Inventur.**
-   Aus dem Dokument alle konkreten Anforderungen extrahieren und strukturieren:
+ Aus dem Dokument alle konkreten Anforderungen extrahieren und strukturieren:
 
-   | Nr. | Anforderung | Norm / Quelle | Verbindlich? | Frist |
-   |---|---|---|---|---|
-   | 1 | [Konkrete Pflicht] | [Art. X DSGVO / EDSA-Leitlinie Y] | Ja/Empfehlung | [Datum] |
-   | … | … | … | … | … |
+ | Nr. | Anforderung | Norm / Quelle | Verbindlich? | Frist |
+ |---|---|---|---|---|
+ | 1 | [Konkrete Pflicht] | [Art. X DSGVO / EDSA-Leitlinie Y] | Ja/Empfehlung | [Datum] |
+ | … | … | … | … | … |
 
 3. **Ist-Zustand-Abgleich.**
-   Für jede Anforderung: Erfüllt die aktuelle Praxis die Anforderung?
-   - Vollständig erfüllt ✅
-   - Teilweise erfüllt ⚠️ (Lücke beschreiben)
-   - Nicht erfüllt 🔴 (Lücke beschreiben)
-   - Nicht anwendbar auf diese Organisation ⬜
+ Für jede Anforderung: Erfüllt die aktuelle Praxis die Anforderung?
+ - Vollständig erfüllt ✅
+ - Teilweise erfüllt ⚠️ (Lücke beschreiben)
+ - Nicht erfüllt 🔴 (Lücke beschreiben)
+ - Nicht anwendbar auf diese Organisation ⬜
 
 4. **Gap-Bewertung.**
-   Für jede Lücke (⚠️ oder 🔴):
-   - Rechtliches Risiko (Bußgeld Art. 83 DSGVO, Unterlassung, Schadensersatz Art. 82 DSGVO)
-   - Reputationsrisiko
-   - Umsetzungsaufwand (hoch / mittel / gering)
-   - Priorität (kombiniert aus Risiko und Aufwand)
+ Für jede Lücke (⚠️ oder 🔴):
+ - Rechtliches Risiko (Bußgeld Art. 83 DSGVO, Unterlassung, Schadensersatz Art. 82 DSGVO)
+ - Reputationsrisiko
+ - Umsetzungsaufwand (hoch / mittel / gering)
+ - Priorität (kombiniert aus Risiko und Aufwand)
 
 5. **Maßnahmenplan.**
-   Priorisierte Liste konkreter Umsetzungsschritte:
+ Priorisierte Liste konkreter Umsetzungsschritte:
 
-   | Priorität | Lücke | Maßnahme | Verantwortlich | Frist | Status |
-   |---|---|---|---|---|---|
-   | 🔴 Kritisch | [Beschreibung] | [Konkrete Maßnahme] | [Abteilung] | [Datum] | Offen |
-   | 🟠 Hoch | … | … | … | … | … |
-   | 🟡 Mittel | … | … | … | … | … |
+ | Priorität | Lücke | Maßnahme | Verantwortlich | Frist | Status |
+ |---|---|---|---|---|---|
+ | 🔴 Kritisch | [Beschreibung] | [Konkrete Maßnahme] | [Abteilung] | [Datum] | Offen |
+ | 🟠 Hoch | … | … | … | … | … |
+ | 🟡 Mittel | … | … | … | … | … |
 
 6. **EDSA-/DSK-Positionierung.**
-   Bei widersprüchlichen Leitlinien zwischen EDSA und DSK (z.B. Cookie-Einwilligung): DSK-Position für Deutschland maßgeblich; EDSA-Position als EU-weiter Standard vermerken; Abweichungen kennzeichnen.
+ Bei widersprüchlichen Leitlinien zwischen EDSA und DSK (z.B. Cookie-Einwilligung): DSK-Position für Deutschland maßgeblich; EDSA-Position als EU-weiter Standard vermerken; Abweichungen kennzeichnen.
 
 7. **Muster-Dokumente oder Klauseln.**
-   Für häufig nachgefragte Anpassungen: Textbausteine oder Klauselentwürfe anbieten (AVV-Anlagen, DSFA-Trigger-Kriterien, Datenschutzerklärungsabschnitte).
+ Für häufig nachgefragte Anpassungen: Textbausteine oder Klauselentwürfe anbieten (AVV-Anlagen, DSFA-Trigger-Kriterien, Datenschutzerklärungsabschnitte).
 
 ## Quellen und Zitierweise
 
@@ -84,19 +80,8 @@ Verbindlich nach `../../references/zitierweise.md`.
 - EDSA-Leitlinien 05/2020 zu Einwilligung
 - EDSA-Empfehlungen 01/2020 (TIA)
 - DSK-Orientierungshilfe zu Telemedien (aktuell Stand) `[Modellwissen – aktuellen Stand auf dskonferenz.de prüfen]`
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-
-## Ausgabeformat
-
-1. **Kopfzeile:** Analysierte Anforderung, Datum, Anwendungsbereich (ja/nein/teilweise)
-2. **Anforderungs-Inventur** (Tabelle)
-3. **Ist-Zustand-Abgleich** (Gap-Tabelle: Anforderung | Status | Lückenbeschreibung)
-4. **Gap-Bewertung** (mit Risikobeschreibung)
-5. **Maßnahmenplan** (Prioritäts-Tabelle mit Fristen)
-6. **Entscheidungsoptionen**
 
 ## Beispiel (EDSA-Leitlinie zu Drittlandtransfers)
 
@@ -109,7 +94,6 @@ Organisation nutzt AWS US-East als Backup-System. AVV enthält EU-SCC Modul 2. K
 - EDSA-Empfehlungen 01/2020, Schritt 3: Rechtslage im Empfängerland bewerten.
 - EDSA-Empfehlungen 01/2020, Schritt 4: Auf Lücken in Schutzäquivalenz prüfen.
 - EDSA-Empfehlungen 01/2020, Schritte 5–6: Ergänzende Maßnahmen / Zurückhalten der Übermittlung.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Maßnahme (Priorität 🟠):**
 1. TIA für AWS US-East nach EDSA-Empfehlungen 01/2020 erstellen (2 Wochen, DSB + IT-Sicherheit).
@@ -133,10 +117,6 @@ Stand: 05/2026. Lückenliste laufend aktualisieren bei neuen EDSA-Leitlinien (ed
 - `datenschutzrecht/skills/richtlinien-monitor/SKILL.md` — Interner Praxis-Drift nach regulatorischer Änderung
 - `datenschutzrecht/skills/dsfa-erstellung/SKILL.md` — DSFA-Pflicht bei neuen regulatorischen Anforderungen
 
-## Aktuelle Rechtsprechung (v14.2)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage zu Beginn
 
 1. Welcher Anlass? (Neues Gesetz/EDSA-Leitlinie, Audit-Befund, Behördenentscheidung, Regelmäßige Überprüfung)
@@ -155,11 +135,11 @@ Scope: [BESCHREIBUNG]
 Anlass: [NEUES GESETZ / AUDIT / REGELMAESSIG]
 
 Gap-Tabelle:
-| Nr. | Anforderung (Norm)    | Ist-Stand        | Luecke            | Prioritaet | Frist |
+| Nr. | Anforderung (Norm) | Ist-Stand | Luecke | Prioritaet | Frist |
 |-----|----------------------|------------------|-------------------|------------|-------|
-|  1  | Art. 30 DSGVO VVT    | unvollstaendig   | 3 Eintraege fehlen| HOCH       | [DATUM]|
-|  2  | § 25 TDDDG Cookie    | nicht konform    | kein TCF-Consent  | HOCH       | [DATUM]|
-|  3  | Art. 37 DSGVO DSB    | kein DSB bestellt| Bestellungspflicht| MITTEL     | [DATUM]|
+| 1 | Art. 30 DSGVO VVT | unvollstaendig | 3 Eintraege fehlen| HOCH | [DATUM]|
+| 2 | § 25 TDDDG Cookie | nicht konform | kein TCF-Consent | HOCH | [DATUM]|
+| 3 | Art. 37 DSGVO DSB | kein DSB bestellt| Bestellungspflicht| MITTEL | [DATUM]|
 
 Zusammenfassung:
 Kritische Lücken (ROT): [X]
@@ -168,3 +148,5 @@ Geringe Lücken (GRUEN): [X]
 
 Empfehlung: Maßnahmenplan bis [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

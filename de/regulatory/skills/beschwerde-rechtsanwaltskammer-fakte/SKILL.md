@@ -1,0 +1,62 @@
+---
+name: beschwerde-rechtsanwaltskammer-fakte
+title: 'Anwälte: beschwerde bei rechtsanwaltskammer - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen'
+description: 'Für Beschwerde Rechtsanwaltskammer Fakte: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-anwaelte/skills/beschwerde-rechtsanwaltskammer-fakte
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: regulatory
+language: de
+---
+
+# Anwälte: beschwerde bei rechtsanwaltskammer - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
+
+## Konkreter Berufsrechtskern: Anwälte: beschwerde bei rechtsanwaltskammer - Kaltstart mit Faktenmatrix, Risikoampel und fehlenden Unterlagen
+- **Normenanker:** BRAO, BORA, FAO, RVG, RDG, GwG, beA-Pflichten, anwaltliche Verschwiegenheit und anwaltsgerichtliches Verfahren.
+- **Institutionen:** Rechtsanwaltskammer, Anwaltsgericht, AGH/BGH-Anwaltssenat und gegebenenfalls Aufsichts-/Strafbehörden.
+- **Spezialspur:** Leite aus dem konkreten Slug die berufsrechtliche Pflicht, den Tatsachenbeleg, den Verfahrensgegner und das mildeste tragfähige Gegenmittel ab.
+- **Falllösung:** Baue eine Pflichtverletzungs-/Entlastungsmatrix mit Norm, Tatsache, Beleg, Verschulden, Verhältnismäßigkeit, möglicher Kammerantwort und prozessualem nächsten Schritt.
+
+## Fallweichen dieser Speziallage
+
+1. Rolle, Ziel und Entscheidungsdruck klären.
+2. Verfahrensstand, Fristen, Zuständigkeit und irreversible Risiken markieren.
+3. Aktenbasis ordnen: sichere Tatsachen, bestrittene Tatsachen, fehlende Unterlagen.
+4. Eingriffsintensität, Berufs-/Amtsgeheimnisse, Datenschutz und Persönlichkeitsrechte sichtbar machen.
+5. Sofortpfad anbieten: Was muss heute entschieden, beantragt, beantwortet oder dokumentiert werden?
+
+## Prüfprogramm
+
+- **Normenanker:** BRAO, BORA, FAO, RVG, RDG, GwG, ZPO/StPO-Schnittstellen, Kammerhinweise und Anwaltsgerichtsbarkeit live prüfen
+- **Tatsachenarbeit:** Beweisquelle, Beweiswert, Gegenbeweis, Dokumentationslücke und mögliche Fehlinterpretation trennen.
+- **Verfahrensarbeit:** Form, Frist, Zuständigkeit, Anhörung, Akteneinsicht, Rechtsbehelf und Zustellungsweg prüfen.
+- **Gegenposition:** Die stärkste Gegenansicht formulieren und sagen, was sie praktisch bedeutet.
+- **Entscheidung:** Eine vertretbare Handlungsempfehlung mit Risikoampel und nächstem Schritt liefern.
+
+## Normen & Rechtsprechung
+
+Konkret zu prüfen:
+
+- §§ 60-91 BRAO
+- § 73 BRAO
+- § 76a BRAO (Beschwerdeverfahren)
+
+## Normenanker
+
+Vor einer rechtlichen Schlussfolgerung diese Anker am aktuellen Normtext prüfen; Spezial- und Landesrecht nur hinzunehmen, wenn es den konkreten Auftrag traegt:
+
+- `§ 43 BRAO` — allgemeine Berufspflicht.
+- `§ 43a Abs. 2 BRAO` — Verschwiegenheit.
+- `§ 43a Abs. 4 BRAO` — Interessenkollision.
+- `§ 49b BRAO` — Verguetungsrechtliche Grenzen.
+- `§ 50 BRAO` — Handakten.
+- `§ 2 BORA` — Verschwiegenheit.
+- `§ 3 BORA` — Interessenkollision.
+- `§ 10 BORA` — Briefbogen/Information.
+- `Paragraf 3a RVG` — Verguetungsvereinbarung.
+- `§ 10 RVG` — Abrechnung.
+
+Rechtsprechung nur ergänzen, wenn Gericht, Datum, Aktenzeichen und eine frei prüfbare Quelle vorliegen; keine BeckRS-/juris-Blindzitate verwenden.

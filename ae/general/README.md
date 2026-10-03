@@ -10,7 +10,7 @@ Jurisdiction: `ae` · Practice: `general` · Skill language: ar, en
 
 | Skill | What it does |
 |---|---|
-| [`Justinian — UAE Bar Exam Prep`](skills/justinian-bar-exam-prep-uae-sboghossian/) | Use when a user is preparing for the UAE legal profession qualification examination under the UAE Federal… |
+| [`Justinian — UAE Bar Exam Prep`](skills/justinian-bar-exam-prep-uae-sboghossian/) | Use when a user is preparing for the UAE legal profession qualification examination under the UAE… |
 | [`Social Media / Knowledge Content Prompt`](skills/prompt-pack-social-media-knowledge-content-prompt-sboghossian/) | Use when a law firm, legal team, or lawyer needs to create accessible knowledge content for professional… |
 
 ## Cold-start context

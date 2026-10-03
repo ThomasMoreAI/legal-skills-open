@@ -1,267 +1,117 @@
 ---
 name: landpacht-und-hoferbfolge-pruefen
-title: Landpacht und Höfeerbfolge prüfen
-description: 'Landwirt oder Hoferbe fragt nach Pachtvertrag-Bedingungen oder Erbfolge auf dem Hof nach HoefeO. Prüfraster Landpachtvertrag §§ 585 ff. BGB Pachtvertragsanzeige § 2 LPachtVG Pachtpreisanpassung § 593 BGB. Hoefeerbrecht HoefeO Anerbenrecht Hofeszession Abfindungsanspruch weichender Erben § 12 HoefeO Hofeswert. GAP-Foerderrecht Direktzahlungen Cross-Compliance Agrarumweltmassnahmen als Schnittstelle. Output Prüf-Memo Pacht-Vertrag oder Erb-Abfindungs-Berechnung mit Hofeswert-Ermittlung. Abgrenzung: fachanwalt-agrarrecht-hoefe-uebergabe für Hofuebergabe zu Lebzeiten.'
+title: Landpacht und Hofnachfolge prüfen
+description: Prüft Landpacht und Hofnachfolge in zwei getrennten, anschließend verzahnten Spuren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/landpacht-und-hoferbfolge-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: trusts-and-estates
 language: de
 ---
 
-# Landpacht und Höfeerbfolge prüfen
-
-## Zweck
-
-Zwei zentrale Instrumente des Agrarrechts: Landpachtvertrag und Höfeerbfolge. Beide weichen erheblich vom allgemeinen Zivil- und Erbrecht ab. Dieses Prüfraster erfasst die wichtigsten Konstellationen und verknüpft sie mit GAP-Förderrecht.
-
-## Mandantenfragen — Kaltstart
+# Landpacht und Hofnachfolge prüfen
 
-1. **Wer ist Eigentümer, wer Pächter der Flächen?** — Bestimmt Antrags­berechtigung im GAP-Sammelantrag; Pächterflächen setzen wirksam angezeigten Pachtvertrag voraus (§ 2 LPachtVG).
-2. **Wie lange läuft der Pachtvertrag noch?** — Bei weniger als zwei Jahren läuft die ordentliche Kündigung bereits; Pächterschutz durch LWK-Beanstandungsrecht prüfen.
-3. **Wurde der Pachtvertrag bei der Landwirtschaftsbehörde angezeigt?** — Unterlassene Anzeige ist OWi (§ 10 LPachtVG), außerdem Anfechtbarkeit der Pachtflächen-Anrechnung im GAP-Antrag.
-4. **Handelt es sich um einen Hof im Sinne der HöfeO?** — Bundesland prüfen; HöfeO gilt nur in NW, NI, SH, HB; andere Bundesländer haben eigene Regeln oder allgemeines Erbrecht.
-5. **Gibt es einen Hofvermerk im Grundbuch?** — Grundbuch­einsicht Pflichtschritt; ohne Hofvermerk keine HöfeO-Anwendung, selbst wenn Wert- und Größenschwelle erfüllt.
-6. **Wurde Hofübergabe zu Lebzeiten beurkundet?** — Altenteil, Wohnrecht, Leibrente, Rückforderungsklauseln auf Angemessenheit und steuerliche Wirkungen prüfen.
-7. **Sind weichende Erben vorhanden?** — Abfindungsanspruch § 12 HöfeO nach Hofeswert (nicht Verkehrswert); Nachabfindung § 13 HöfeO bei Verkauf innerhalb 20 Jahre.
-8. **Besteht Streit über Pachtzins-Anpassung?** — § 593 BGB: wesentliche Änderung der Verhältnisse; aktuelle LWK-Pachtpreisstatistik als Maßstab.
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+## 1. Direktstart
 
-## Rechtlicher Rahmen
+Lies zuerst Pachtvertrag und Nachträge, Flächen- und Übergabeprotokolle, Anzeige- oder Beanstandungsakte, Kündigung, Grundbuch, Hofvermerk, Grundsteuerwertbescheid, Verfügung von Todes wegen, Erbschein oder Übergabevertrag und Familienübersicht. Erstelle zwei Spuren:
 
-### Teil 1 — Landpacht
+1. Landpacht: Parteien, Fläche, Laufzeit, Form, Anzeige, Pachtjahr, Kündigung, Bewirtschaftung und Streitpunkt.
+2. Hofnachfolge: Bundesland, Stichtag, Eigentumsform, Hofstelle, Grundsteuerwert, Hofvermerk, Hoferbe, weichende Erben und Verwertungsvorgänge.
 
-#### Primärnormen
+Verbinde beide Spuren erst danach, etwa bei Tod des Verpächters, Hofübergabe während laufender Pacht, Kündigung durch den Hoferben oder Zuordnung von Pachtforderungen und Betriebsmitteln.
 
-- **§ 585 BGB** — Begriff Landpacht: Pacht eines Grundstücks mit landwirtschaftlicher Nutzung; §§ 585–597 BGB als Sonderrecht gegenüber allgemeinem Pachtrecht.
-- **§ 585a BGB** — Schriftform bei Pacht über zwei Jahre; ohne Schriftform gilt Vertrag als für unbestimmte Zeit geschlossen.
-- **§ 586 BGB** — Bewirtschaftungspflicht: Pächter muss ordnungsgemäß wirtschaften, Bodenfruchtbarkeit erhalten.
-- **§ 593 BGB** — Pachtpreisanpassung: Anspruch bei wesentlicher Änderung der wirtschaftlichen Verhältnisse, die die Parteien bei Vertragsschluss nicht vorhergesehen haben.
-- **§ 594a BGB** — Ordentliche Kündigung: zwei Jahre vor Ende des Pachtjahres (nicht des Kalenderjahres).
-- **§ 594c BGB** — Außerordentliche Kündigung bei wichtigem Grund.
-- **§ 594 BGB** — Stillschweigende Verlängerung bei Fortsetzung der Nutzung nach Vertragsende.
-- **LPachtVG** — Landpachtverkehrsgesetz: Anzeigepflicht (§ 2), Beanstandungsrecht der Behörde (§ 4), Vorkaufsrecht des Pächters (§ 13), OWi bei Unterlassung (§ 10).
+## 2. Landpachtspur
 
-#### Leitentscheidungen
-
-| Gericht | Aktenzeichen | Kernaussage |
-|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-
-### Teil 2 — Höfeerbfolge
+### 2.1 Vertrag und Form
 
-#### HöfeO (NW, NI, SH, HB)
+- BGB Paragraf 585: überwiegende landwirtschaftliche Nutzung und Abgrenzung zu allgemeiner Pacht, Gewerbemiete oder bloßer Flächennutzung.
+- BGB Paragraf 585a: Ein Vertrag für längere Zeit als zwei Jahre, der nicht in Textform geschlossen ist, gilt als auf unbestimmte Zeit geschlossen.
+- EGBGB Artikel 229 Paragraf 70 Absatz 2: Für vor dem 01.01.2025 entstandene Landpachtverhältnisse galt die frühere Schriftform grundsätzlich bis einschließlich 01.07.2026 fort; Änderungen ab 01.01.2025 unterlagen bereits der neuen Fassung. Bei historischen Formfragen die jeweils geltende Fassung taggenau bestimmen.
+- BGB Paragraf 586 und Paragraf 596: Erhaltung durch den Verpächter, ordnungsmäßige Bewirtschaftung durch den Pächter und Rückgabezustand.
 
-- **§ 1 HöfeO** — Hof-Definition: land- oder forstwirtschaftliche Besitzung mit Wirtschaftswert ab 10.000 EUR (länderspezifisch); Hofvermerk im Grundbuch Pflicht.
-- **§ 5 HöfeO** — Hoferben-Bestimmung: durch Erblasser (Hofvermerk), sonst gesetzliche Anerbenfolge.
-- **§ 6 HöfeO** — Gesetzliche Erbfolge: bei Fehlen von Hofvermerk oder letztwilliger Verfügung ältester Sohn / älteste Tochter je nach Landesrecht (heute geschlechtsneutral ausgelegt).
-- **§ 12 HöfeO** — Abfindung weichender Erben: nach einheitlichem Hofeswert (§ 48 BewG, deutlich unter Verkehrswert). Abfindung = ½ Hofeswert minus Hofeschulden.
-- **§ 13 HöfeO** — Nachabfindung: bei Verkauf oder Aufgabe Landwirtschaft innerhalb 20 Jahre nach Erbfall; Differenz zwischen Erlös und damaligem Hofeswert an weichende Erben.
-- **§ 17 HöfeO** — Hofübergabe zu Lebzeiten: notarieller Übergabevertrag mit Altenteil, Wohnrecht, Versorgungsrechten.
+Prüfe Dokumentation und Vollständigkeit der Vertragsabrede auch dann streng, wenn Textform genügt. Fläche, Pachtgegenstand, Dauer und Vertragsleistungen müssen einer dauerhaften Wiedergabe und eindeutigen Zuordnung zugänglich sein.
 
-#### Landesrecht außerhalb HöfeO
+### 2.2 Anzeige und Beanstandung
 
-| Bundesland | Regelung |
-|---|---|
-| Baden-Württemberg | Bäuerliches Anerbengesetz (BWHöfeG) |
-| Bayern | Allgemeines BGB-Erbrecht (kein Anerbenrecht kraft Gesetzes) |
-| Hessen | Hessische Landgüterordnung (HessLGO) |
-| Nordrhein-Westfalen | HöfeO (Bundesrecht) |
-| Niedersachsen | HöfeO (Bundesrecht) |
-| Schleswig-Holstein | HöfeO (Bundesrecht) |
-| Alle anderen | BGB-Erbrecht; kein Sonderrecht |
+- LPachtVG Paragraf 2: Anzeige durch den Verpächter binnen eines Monats; auch der Pächter ist anzeigeberechtigt. Änderungen von Pachtsache, Pachtdauer oder Vertragsleistungen können erneut anzeigepflichtig sein.
+- LPachtVG Paragraf 3: familiäre, verfahrensbezogene und landesrechtlich bestimmte Ausnahmen prüfen.
+- LPachtVG Paragraf 4 und Paragraf 5: ungesunde Verteilung, unwirtschaftliche Aufteilung, unangemessenes Verhältnis zum nachhaltig erzielbaren Ertrag und Härteklausel.
+- LPachtVG Paragraf 7: Beanstandungsbescheid grundsätzlich binnen eines Monats nach Anzeige; rechtzeitiger Zwischenbescheid kann auf zwei Monate verlängern.
+- LPachtVG Paragraf 9: Antrag nach BGB Paragraf 593 Absatz 4 auf gerichtliche Vertragsänderung ist bei anzeigepflichtigem Vertrag nur nach Anzeige zulässig.
+- LPachtVG Paragraf 13 ist weggefallen und begründet kein gesetzliches Pächtervorkaufsrecht.
 
-## Prüfschema Landpachtvertrag
+### 2.3 Anpassung, Ende und Fortsetzung
 
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+- BGB Paragraf 593: nachträgliche wesentliche und dauerhafte Veränderung der für Vertragsleistung maßgeblichen Verhältnisse, Unzumutbarkeit unveränderter Bindung, Anpassungsverlangen und Landwirtschaftsgericht.
+- BGB Paragraf 594: befristetes Ende und formgebundene Fortsetzungsanfrage im drittletzten Pachtjahr.
+- BGB Paragraf 594a Absatz 1: Bei unbestimmter Pacht Kündigung spätestens am dritten Werktag eines Pachtjahrs zum Schluss des nächsten Pachtjahrs; im Zweifel ist das Kalenderjahr Pachtjahr.
+- BGB Paragraf 594c und Paragraf 594e: Berufsunfähigkeit oder Tod des Pächters mit eigenen Voraussetzungen und Fristen von sonstigen Kündigungsrechten trennen.
+- BGB Paragraf 595: Härtefortsetzung, Ausschlüsse, Textform des Verlangens sowie gerichtlicher Antrag grundsätzlich spätestens neun Monate vor Ende; bei kurzer Kündigungsfrist Sonderfrist beachten.
 
-| Schritt | Prüfpunkt | Norm | Rechtsfolge bei Fehler |
-|---|---|---|---|
-| 1 | Schriftform bei Laufzeit > 2 Jahre? | § 585a BGB | Gilt als unbestimmte Zeit |
-| 2 | Anzeige bei Landwirtschaftsbehörde? | § 2 LPachtVG | OWi; Förderanrechnung gefährdet |
-| 3 | Beanstandungsrecht geprüft? | § 4 LPachtVG | Vertrag vorbehaltlich Genehmigung |
-| 4 | Pacht-Zins marktgerecht? | § 593 BGB | Anpassungsanspruch des Unterverdienenden |
-| 5 | Kündigungsfristen eingehalten? | § 594a BGB | Verspätete Kündigung verlängert Pacht |
-| 6 | Bewirtschaftungs-Protokoll bei Übergabe? | § 586 BGB | Mangel-Streit bei Rückgabe |
-| 7 | Vorkaufsrecht des Pächters beachtet? | § 13 LPachtVG | Vorkaufsrechtsklage + Schadensersatz |
-| 8 | GAP-Sammelantrag auf Pächternamen? | Art. 4 VO 2021/2116 | Aberkennung Förderfähigkeit |
+### 2.4 Landpachtrechtsprechung
 
-## Prüfschema Höfeerbfolge
+- BGH, Urteil vom 06.11.2020 - LwZR 5/19: Bei einer Gesellschaft bürgerlichen Rechts als Partei eines langfristigen Vertrags konnte die Unterschrift nur eines Gesellschafters ohne Vertretungszusatz die damalige Schriftform verfehlen. Für heutige Verträge die geänderte Textform und für Altfälle das Übergangsrecht voranstellen.
+- BGH, Beschluss vom 29.04.2016 - BLw 2/15: Ein anzeigepflichtiger Landpachtvertrag kann wegen ungesunder Verteilung der Bodennutzung beanstandet und gerichtlich aufgehoben werden; die gerichtliche Prüfung wird nicht durch eine behauptete anderweitige Unwirksamkeit überflüssig.
+- BGH, Urteil vom 28.04.2017 - LwZR 4/16: Bei als Ackerland verpachteten Flächen kann ordnungsmäßige Bewirtschaftung verlangen, die Ackerlandeigenschaft durch rechtzeitigen Umbruch zu erhalten; ein Mitverschulden des sachkundigen Verpächters ist gesondert zu prüfen.
 
-| Schritt | Prüfpunkt | Norm | Rechtsfolge bei Fehler |
-|---|---|---|---|
-| 1 | Hofvermerk im Grundbuch? | § 1 HöfeO | Keine HöfeO-Anwendung |
-| 2 | Wirtschaftswert ≥ 10.000 EUR? | § 1 HöfeO | Kein Hof i.S.d. HöfeO |
-| 3 | Hoferbe bestimmt (Verfügung)? | § 5 HöfeO | Gesetzliche Anerbenfolge greift |
-| 4 | Abfindung weichender Erben berechnet? | § 12 HöfeO | Nachforderungsklage + Zinsen |
-| 5 | Nachabfindungs-Frist 20 Jahre bekannt? | § 13 HöfeO | Unerwartete Belastung bei Verkauf |
-| 6 | Hofübergabe notariell beurkundet? | § 17 HöfeO | Formunwirksamkeit |
-| 7 | Altenteil steuerlich bewertet? | §§ 12 ErbStG, 13 BewG | Fehlerhafter ErbSt-Bescheid |
+## 3. Hofnachfolgespur
 
-## Strategische Optionen (vor dem Template entscheiden)
+### 3.1 Anwendbarkeit
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+- Die Höfeordnung gilt in Hamburg, Niedersachsen, Nordrhein-Westfalen und Schleswig-Holstein.
+- HöfeO Paragraf 1: Hofeigenschaft grundsätzlich ab 54.000 EUR zuletzt festgestelltem Grundsteuerwert. Zwischen 27.000 EUR und unter 54.000 EUR entsteht sie erst durch Erklärung und Eintragung des Hofvermerks.
+- HöfeO Paragraf 19 Absatz 3: Abweichungen zwischen alter und neuer Hofeigenschaft können bis längstens 31.12.2026 fortwirken. Stichtag und Grundbuchverlauf ausdrücklich prüfen.
+- Ein fehlender Hofvermerk schließt Hofeigenschaft nicht in jeder Konstellation aus. Eigentumsform, geeignete Hofstelle, Grundsteuerwert, Erklärungslage und Löschungstatbestand gemeinsam prüfen.
 
-| Konstellation | Empfohlener Weg |
-|---|---|
-| Standard — Landpachtvertrag und Hoferbfolge gemeinsam pruefen | Beide Pruefschemas unten; Schriftsatzbausteine |
-| Variante A — nur Landpacht ohne Hoferbfolge | Teil 1 Pruefschema; Schriftsatzbaustein § 593 BGB |
-| Variante B — nur Hoferbfolge ohne laufenden Pachtvertrag | Teil 2 HoeFO-Pruefung; Abfindungsberechnung |
-| Variante C — Verpachter und Erblasser dieselbe Person | Verknuepfung Pachtverhaeltnis und Erbrecht beachten; Sonderkuendigungsrecht pruefen |
+### 3.2 Hoferbe und Ansprüche
 
-Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+- HöfeO Paragraf 4 bis Paragraf 7: Sondererbfolge, gesetzliche Hoferbenordnung, Wirtschaftsfähigkeit und Bestimmung durch den Eigentümer. Keine geschlechtsbezogene Faustregel verwenden.
+- HöfeO Paragraf 12: Geldabfindung der nicht zum Hoferben gewordenen Miterben; Ausgangswert sind 60 Prozent des Grundsteuerwerts, korrigierbar bei erheblichen besonderen Umständen, danach hofbezogene Verbindlichkeiten und allgemeine Erbquote.
+- HöfeO Paragraf 13: Nachabfindung bei den gesetzlich bestimmten Verwertungs- und Nutzungsereignissen innerhalb von zwanzig Jahren; kein Rückkaufrecht und keine pauschale Differenzrechnung zwischen Verkaufspreis und Hofeswert.
+- HöfeO Paragraf 16 Absatz 2: höferechtlicher Wertansatz bei der Pflichtteilsberechnung.
+- HöfeO Paragraf 17: Wirkungen des Übergabevertrags; bei Übergabe an einen hoferbenberechtigten Abkömmling gilt der Erbfall hinsichtlich des Hofes zugunsten der anderen Abkömmlinge mit der Übertragung als eingetreten.
+- BGB Paragraf 311b Absatz 1: notarielle Form der Grundstücksübertragung. Altenteil, Wohnungsrecht und Reallast folgen aus Vertrag und dinglicher Sicherung, nicht pauschal aus HöfeO Paragraf 14.
 
-## Schriftsatzbaustein — Anpassungs-Verlangen § 593 BGB
+[BGH, Beschluss vom 09.05.2025 – BLw 2/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/UebrigeSenate/LdwS/2024/BLw___2-24.pdf?__blob=publicationFile&v=1), Rn. 8–17: Beim Verkauf eines einzelnen Erbteils zunächst feststellen, ob zum Nachlass nur Agrargrundstücke oder ein landwirtschaftlicher Betrieb gehören. Einzelne Grundstücke allein lösen Paragraf 2 Absatz 2 Nummer 2 GrdstVG nicht aus. Für eine Umgehung alle Anteilsgeschäfte, Erwerber und abgestimmte Gesamtabsicht prüfen; der bloße Wunsch des Erwerbers, weitere Erbteile zu kaufen, genügt nicht. Keine Freistellung sämtlicher Anteilsgeschäfte daraus ableiten.
 
-```
-[Kanzlei]                                           [Ort, Datum]
+## 4. Verzahnungsmatrix
 
-[Verpächter / Pächter — je nach Partei]
-[Anschrift]
+| Frage | Landpachtbeleg | Hofnachfolgebeleg | Arbeitsfolge |
+| --- | --- | --- | --- |
+| Wer ist Vertragspartner nach dem Stichtag? | Vertrag, Anzeige, Nachtrag | Erbschein, Übergabevertrag, Grundbuch | Rechtsnachfolge und Adressat klären |
+| Welche Flächen gehören zu Pacht und Hof? | Flurstücksanlage, Besitzprotokoll | Hofbestand, Hofeszubehör | Überschneidung und Lücken markieren |
+| Welche Zahlung steht wem zu? | Fälligkeit, Pachtkonto | Stichtag, Nachlass- oder Übergaberegel | zeitanteilige Zuordnung rechnen |
+| Kann gekündigt oder fortgesetzt werden? | Pachtjahr, Zugang, Härte | Person des neuen Verpächters | Frist und Antrag sichern |
+| Verändert die Pacht den Hofeswert? | Ertrag, Dauer, Konditionen | Grundsteuerwert, besondere Umstände | nur begründeten Zu- oder Abschlag prüfen |
+| Löst eine Nutzung Nachabfindung aus? | Nutzungszweck, Entgelt | HöfeO Paragraf 13 | Dauer, Gewinn und höferechtlichen Zweck prüfen |
 
-Pachtzins-Anpassung gemäss § 593 BGB
-Pachtvertrag vom [Datum], Objekt [Flur/Grundbuch]
+## 5. Beweis- und Fristenblatt
 
-Sehr geehrte/r Frau / Herr [Name],
+| Punkt | Darlegung und Beleg | Frist oder Stichtag |
+| --- | --- | --- |
+| Textform | dauerhaft lesbare, zuordenbare Erklärungen und Nachträge | Vertragsschluss und jede Änderung |
+| Anzeige | Anzeigeinhalt und Eingang bei zuständiger Behörde | ein Monat nach Vereinbarung |
+| Beanstandung | Bescheid oder Zwischenbescheid und Bekanntgabe | ein oder zwei Monate nach Anzeige |
+| Kündigung | Pachtjahr, Zugang und gesetzlicher Tatbestand | nach BGB Paragraf 594a ff. |
+| Fortsetzung | Existenzgrundlage, Härte, Interessen und rechtzeitiger Antrag | BGB Paragraf 595 Absatz 5 und Absatz 7 |
+| Hofstatus | Stichtag, Grundsteuerwert, Eigentumsform, Hofstelle und Hofvermerk | Erbfall oder Übertragung |
+| Abfindung | Quote, Grundsteuerwert, Korrektur, Hofschulden und Vorausempfang | HöfeO Paragraf 12 |
+| Nachabfindung | Ereignis, Erlös, Abzug, Kenntnis und Mitteilung | zwanzigjähriges Fenster; Verjährung gesondert |
 
-aus dem zwischen uns bestehenden Pachtvertrag vom [Datum]
-über [ha] Ackerfläche / Grünland [Flur, Gemeinde] machen
-wir namens und in Vollmacht unserer Mandantschaft den
-Anspruch auf Anpassung des Pachtpreises nach § 593 BGB
-geltend.
+## 6. Gegenpositionen
 
-Seit Vertragsschluss haben sich die wirtschaftlichen
-Verhältnisse wesentlich geändert:
+- Es liegt keine Landpacht, sondern allgemeine Pacht oder bloße Nutzungsüberlassung vor.
+- Die Textform ist gewahrt oder der Formmangel führt nur zur unbestimmten Laufzeit, nicht zur Nichtigkeit.
+- Anzeige war ausgenommen; Beanstandung war verspätet oder materiell unbegründet.
+- Eine Pachtanpassung scheitert an fehlender dauerhafter Veränderung oder zumutbarer Risikozuweisung.
+- Kündigung oder Fortsetzungsantrag verfehlt Pachtjahr, Form oder Frist.
+- Der Besitz ist am Stichtag kein Hof oder fällt unter das Übergangsrecht.
+- Abfindungsrechnung verwendet falschen Wert, falsche Quote oder nicht hofbezogene Verbindlichkeiten.
+- Ein behaupteter Nachabfindungsvorgang erfüllt Tatbestand, Erlös- oder Verjährungsvoraussetzungen nicht.
 
-a) Der Bodenrichtpreis in [Region] ist von [Wert EUR/ha]
-   auf [Wert EUR/ha] gestiegen (Quelle: LWK-Pachtstatistik
-   [Jahr], Gutachterausschuss Beschluss [Nr.]).
-b) Die ortsübliche Pacht für vergleichbare Flächen beträgt
-   nach LWK-Auswertung [Betrag EUR/ha]; der vereinbarte
-   Pacht liegt bei [Betrag EUR/ha].
+## 7. Ausgabe
 
-Wir schlagen daher Anpassung auf EUR [neuer Pacht/ha]
-ab dem [Datum = nächstmöglicher Termin, mind. 3 Monate]
-vor.
-
-Sollte keine Einigung möglich sein, regen wir
-Schlichtungsversuch nach § 23 LwVG beim Landwirt­schafts­
-gericht [Ort] an.
-
-Frist zur Stellungnahme: [Datum + 21 Tage]
-
-Mit freundlichen Grüßen
-[Rechtsanwalt/-anwaeltin, Fachanwalt fuer Agrarrecht]
-```
-
-## Schriftsatzbaustein — Abfindungsberechnung weichender Erben § 12 HöfeO
-
-```
-Abfindungsberechnung nach § 12 HöfeO
-Erbfall: [Name Erblasser], gestorben [Datum]
-Hof: [Grundbuchbezeichnung], Wirtschaftswert [EUR]
-
-1. Einheitlicher Hofeswert (§ 48 BewG):
-   Landwirtschaftlicher Ertragswert × Vervielfältiger = [EUR]
-
-2. Abzug Hofeschulden (gesicherte Grundpfandrechte, Verbindlichkeiten
-   des Hofbetriebs laut Inventar):                   ./. [EUR]
-
-3. Netto-Hofeswert:                                      [EUR]
-
-4. Abfindungsanspruch weichender Erbe (je nach Zahl):
-   [Anzahl weichende Erben]: je 1/[n] × Netto-Hofeswert / 2
-   = EUR [Betrag] je Person
-
-5. Bei Verkauf innerhalb 20 Jahre — Nachabfindung § 13 HöfeO:
-   Verkaufserlös [EUR] ./. damaliger Hofeswert [EUR]
-   × Anteil weichender Erbe = Nachzahlungspflicht EUR [Betrag]
-
-Hinweis: Ertragswert und Vervielfältiger sind mit aktuell
-zertifiziertem Sachverständigen zu ermitteln; länderspezifische
-Wertermittlungsrichtlinien beachten.
-```
-
---- vor Versand klaeren ---
-1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
-2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
-3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
-
-## Beweislast und Darlegungslast
-
-**Landpacht:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Bei Beanstandung durch LWK: Behörde muss Beanstandungsgründe substantiieren; Vertragsgegner trägt Verteidigungs-Darlegungslast.
-- Bewirtschaftungsmangel bei Rückgabe: Verpächter trägt Beweislast für konkrete Schäden.
-
-**Höfeerbfolge:**
-- Hoferbe muss Hofqualität (Wirtschaftswert, Hofvermerk) positiv nachweisen.
-- Weichender Erbe trägt Darlegungslast für Wert des Hofes bei Nachabfindungsklage.
-- Bei Anfechtung Hofvermerk: Anfechter muss Anfechtungsgrundlage (§ 2078 BGB) darlegen.
-
-## Fristen
-
-| Frist | Dauer | Rechtsgrundlage |
-|---|---|---|
-| Anzeige Pachtvertrag | 1 Monat ab Abschluss | § 2 LPachtVG |
-| Ordentliche Kündigung | 2 Jahre vor Pachtjahresende | § 594a BGB |
-| Widerspruch gegen LWK-Beanstandung | 1 Monat | § 4 LPachtVG i.V.m. VwGO |
-| Nachabfindung § 13 HöfeO | 20 Jahre ab Erbfall | § 13 HöfeO |
-| Anfechtung Hofvermerk-Verfügung | 1 Jahr ab Kenntnis | § 2082 BGB |
-| Ausschlagung Hoferbe | 6 Wochen ab Kenntnis | § 1944 BGB i.V.m. § 11 HöfeO |
-
-## Gegenargumente und Reaktion
-
-| Gegenargument | Reaktion |
-|---|---|
-| Pächter: Kein wesentlicher Wandel der Verhältnisse | LWK-Pachtstatistik einreichen; Gutachterausschuss-Bodenrichtwerte |
-| Verpächter: Hofvermerk nicht bindend (veraltet) | Grundbuch-Auszug, ggf. Antrag Löschung nur nach § 5 HöfeO-Verfahren |
-| Weichender Erbe: Hofeswert zu niedrig | Sachverständigen-Gegengutachten; Ertragswert-Ansatz prüfen |
-| Nachabfindung verjährt | 20-Jahres-Frist § 13 HöfeO ist absolut; keine Verjährungseinrede möglich |
-| Übergabevertrag sittenwidrig | § 138 BGB: Gesamtbewertung aller Gegenleistungen |
-
-## Streitwert und Kosten
-
-- **Pachtanpassung**: dreifacher Jahreswert der Differenz (§ 41 Abs. 1 ZPO).
-- **Höfeerbfolge-Abfindung**: Streitwert = kapitalisierter Abfindungsanspruch.
-- **Landwirtschaftsgericht**: Sondergericht beim Amtsgericht; keine Berufungsrichter-Anforderung, aber ehrenamtliche Beisitzer aus Landwirtschaft.
-- **Schlichtungsversuch § 23 LwVG**: Pflicht vor Klageerhebung in Pacht-/Höfe-Sachen; bei Nichtbetreibung Klage unzulässig.
-
-## Strategische Empfehlung
-
-| Konstellation | Empfehlung |
-|---|---|
-| Pächter will Pachtzins-Reduzierung | Außergerichtlich mit LWK-Gutachten; bei Ablehnung § 23 LwVG-Schlichtung |
-| Hoferbe will Hof erhalten | Frühzeitig Hofübergabe-Vertrag planen; Nachabfindungs-Klausel und Rückforderungsrecht einbauen |
-| Weichender Erbe unzufrieden mit Abfindung | Sachverständigen-Gutachten Hofeswert; Klage nur bei erheblicher Differenz lohnend |
-| Pacht endet, Streit über Verlängerung | Stillschweigende Verlängerung dokumentieren; fristgerechte Kündigung sichern |
-
-## Anschluss-Skills
-
-- `sammelantrag-gap-checkliste` — GAP-Förderantragsrecht für Pachtflächen
-- `fachanwalt-agrarrecht-verhandlung-landpacht-schlichtung` — Schlichtungs- und Verhandlungsstrategie
-- `fachanwalt-erbrecht-testamentsvollstreckung` — bei Testamentsvollstreckung über Hof
-
-## Quellen
-
-- BGB §§ 585–597, §§ 1944 ff. (Erbrecht), § 2082 (Anfechtung)
-- LPachtVG (insb. §§ 2–13)
-- HöfeO §§ 1–18
-- BWHöfeG, HessLGO
-- LwVG (§ 23 Schlichtung)
-- BauGB § 35 (Außenbereich-Privilegierung)
-- VO (EU) 2021/2115 GAP
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
-
-## Ergänzung — Aktuelle Rechtsprechung 2022-2024
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
----
-<!-- AUDIT 27.05.2026 -->
+Liefere je nach Auftrag eine Vertrags-Redline, Anzeige- und Beanstandungsmatrix, Kündigungs- oder Fortsetzungsprüfung, Hofnachfolgematrix, Abfindungsrechnung oder Nachabfindungsanlage. Trenne beide Rechtsgebiete sichtbar und füge erst zum Schluss einen gemeinsamen Maßnahmenplan mit Adressat, Frist, Beleg und nächstem Dokument an.

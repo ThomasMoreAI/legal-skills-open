@@ -1,0 +1,57 @@
+---
+name: rechtsstand-mai-2026-faktenbank
+title: Rechtsstand Mai 2026 — Faktenbank Mietrecht und WEG
+description: 'Für Rechtsstand Mai 2026 — Faktenbank Mietrecht und WEG: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/rechtsstand-mai-2026-faktenbank
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Rechtsstand Mai 2026 — Faktenbank Mietrecht und WEG
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Rechtsstand Mai 2026 — Faktenbank Mietrecht und WEG` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Verifizierte Rechtsstandsanker
+
+| Thema | Gesicherter Anker | Praktische Aussage | Freie Quelle |
+|---|---|---|---|
+| Mietpreisbremse | § 556d BGB; BGH, Urteil vom 18.12.2024, VIII ZR 16/23 | Mietpreisbremse immer dreistufig prüfen: Gebiet/Verordnung, Ausgangsmiete und Ausnahmen, dann Rüge/Rückforderung. Verfassungs- und Verordnungsfragen nicht aus Modellwissen behaupten. | https://www.gesetze-im-internet.de/bgb/__556d.html / https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&nr=140461 |
+| Modernisierung und Mietpreisbremse | BGH, Urteil vom 27.11.2024, VIII ZR 36/23 | Modernisierungsausnahmen sauber nach Vor-/Nachmaßnahmen, Informationslage und konkreter Berechnung trennen; umfassende Modernisierung nicht pauschal unterstellen. | https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&nr=140073 |
+| Steckersolargeräte Miete | § 554 BGB | Mieter können eine bauliche Veränderung für Steckersolargeräte verlangen; Interessenabwägung, Zumutbarkeit, technische Sicherheit und Rückbau dokumentieren. | https://www.gesetze-im-internet.de/bgb/__554.html |
+| Steckersolargeräte WEG | § 20 Abs. 2 WEG | Wohnungseigentümer haben einen Anspruch auf angemessene bauliche Veränderungen u. a. für Steckersolargeräte; Ausführung bleibt ordnungsmäßig zu beschließen. | https://www.gesetze-im-internet.de/woeigg/__20.html |
+| Virtuelle Eigentümerversammlung | § 23 Abs. 1a WEG; § 48 Abs. 6 WEG | Rein virtuelle Versammlung nur aufgrund Beschlusses mit qualifizierter Mehrheit und befristeter Wirkung; bis Ende 2028 Übergangsrecht mit Präsenzversammlung beachten. | https://www.gesetze-im-internet.de/woeigg/__23.html / https://www.gesetze-im-internet.de/woeigg/__48.html |
+| Verwalterabberufung | § 26 Abs. 3 WEG | Verwalter kann jederzeit abberufen werden; der Verwaltervertrag endet spätestens sechs Monate nach Abberufung. "Nur bei wichtigem Grund" ist seit WEMoG falsch. | https://www.gesetze-im-internet.de/woeigg/__26.html |
+| WEG bauliche Veränderung | BGH, Urteil vom 28.03.2025, V ZR 105/24 | Bei baulichen Veränderungen § 20 WEG und Kostenfolge § 21 WEG getrennt prüfen; § 20 Abs. 4 WEG bleibt Grenze bei grundlegender Umgestaltung/unbilliger Benachteiligung. | https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&nr=141815 |
+| WEG Störerhaftung bei Mietern | BGH, Urteil vom 21.03.2025, V ZR 1/24 | Vermietende Wohnungseigentümer können gegenüber der Gemeinschaft als mittelbare Handlungsstörer haften, wenn ihr Mieter unzulässig in Gemeinschaftseigentum eingreift. | https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Gericht=bgh&nr=141725 |
+
+## Workflow-Gate
+
+1. **Rolle klären:** Mieter, Vermieter, WEG-Eigentümer, Gemeinschaft, Verwalter, Beirat.
+2. **Objekt klären:** Wohnraum, Gewerbe, Mischmiete, Wohnungseigentum, Sonder-/Gemeinschaftseigentum.
+3. **Eilfristen zuerst:** Kündigung, Räumung, Mieterhöhung, WEG-Beschlussklage (§ 45 WEG: Klage 1 Monat, Begründung 2 Monate), Betriebskostenfrist.
+4. **Quelle auswählen:** Mietspiegel/Landesverordnung, BGB, WEG, BetrKV, BGH/Amts-/Landgericht nur wenn frei geprüft.
+5. **Output anschließen:** `mieterhoehung-pruefen-widersprechen`, `mietsenkungsverlangen`, `nebenkostenabrechnung-pruefen`, `mahnung-zahlungsverzug-mieter`, `weg-beschluss-anfechten`, `klageentwurf-amtsgericht`.
+
+## Kurzkorrekturen für bestehende Workflows
+
+- WEG-Sachen nach §§ 43 ff. WEG gehen erstinstanzlich grundsätzlich zum Amtsgericht der Belegenheit; nicht nach allgemeiner Streitwertlogik zum Landgericht springen.
+- Bauliche Veränderungen: Beschluss/Anspruch, ordnungsmäßige Ausführung, Grenzen des § 20 Abs. 4 WEG und Kostenverteilung § 21 WEG getrennt prüfen.
+- Schonfristzahlung heilt die fristlose Kündigung wegen Zahlungsverzugs, nicht automatisch eine hilfsweise ordentliche Kündigung; konkrete BGH-Linie live verifizieren.
+- Mietpreisbremse nie ohne lokale Landesverordnung, Mietspiegel und Ausnahmen prüfen.

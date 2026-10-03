@@ -1,11 +1,11 @@
 ---
 name: client-disclosures
 title: Client Disclosures
-description: Guide the creation, content, and delivery of required client disclosure documents for investment advisers and broker-dealers. Use when the user asks about Form ADV Part 2A or 2B content, Form CRS requirements, prospectus delivery obligations, privacy notice delivery, trade confirmation timing, account statement distribution, or electronic vs paper delivery compliance. Also trigger when users mention 'onboarding document checklist', 'what disclosures do we owe new clients', 'annual brochure update', 'brochure supplement for a new adviser', 'CRS conversation starters', or ask when and how disclosure documents must be delivered.
+description: Guide which client disclosure documents must exist, what each must contain, and when and how they must be delivered to clients of investment advisers and broker-dealers. Use when the user asks about Form ADV Part 2A or 2B content, Form CRS content and delivery, prospectus delivery obligations, privacy notice delivery, trade confirmation timing, account statement distribution, electronic vs paper delivery compliance, or the content and client-delivery side of the annual brochure update. Also trigger when users mention 'onboarding document checklist', 'what disclosures do we owe new clients', 'brochure supplement for a new adviser', or 'CRS conversation starters'. (For filing mechanics and regulatory deadlines — IARD amendments, Form PF, 13F — use regulatory-reporting; for whether fee disclosure content is adequate, use fee-disclosure.)
 author: JoelLewis
 author_url: https://github.com/JoelLewis/finance_skills/tree/main/plugins/compliance/skills/client-disclosures
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: securities
@@ -14,25 +14,7 @@ language: en
 
 # Client Disclosures
 
-## Purpose
-Guide the understanding of disclosure document requirements — what documents must exist, what they must contain, and when they must be delivered. This skill covers Form ADV, Form CRS, prospectus obligations, privacy notices, trade confirmations, account statements, and delivery methods — enabling a user or agent to design compliant disclosure workflows.
-
-## Layer
-9 — Compliance & Regulatory Guidance
-
-## Direction
-prospective
-
-## When to Use
-- Designing client onboarding workflows that include required document delivery
-- Reviewing Form ADV Part 2A content for completeness
-- Implementing Form CRS delivery and filing requirements
-- Building prospectus delivery tracking systems
-- Establishing privacy notice delivery and opt-out processes
-- Ensuring timely trade confirmation delivery
-- Designing account statement generation and distribution
-- Evaluating electronic vs paper delivery compliance
-- Establishing document retention and delivery audit trails
+Regulatory status current as of June 2026 — verify effective dates, dollar thresholds, and pending rulemakings against current SEC/FINRA/FinCEN sources before advising.
 
 ## Core Concepts
 
@@ -107,13 +89,14 @@ Required for both RIAs and BDs. Maximum 2 pages (4 for dual registrants). Must f
 
 **Statement of Additional Information (SAI):** Not routinely delivered but must be available upon request. Contains additional detail on investment policies, portfolio turnover, taxation, financial statements, and fund governance.
 
-### Regulation S-P (Privacy Notices)
+### Regulation S-P (Privacy Notices and Breach Notification)
 Regulation S-P (17 CFR Part 248) requires financial institutions to protect customer nonpublic personal information (NPI):
 
 - **Initial privacy notice** — delivered at account opening; describes information collected, information shared, opt-out rights, and security practices
 - **Annual privacy notice** — historically required annually; the FAST Act (2015) created an exception: firms with unchanged privacy practices that do not share NPI (other than with permitted exceptions) may post privacy notices online instead of mailing them annually
 - **Opt-out notice** — if the firm shares NPI with nonaffiliated third parties (beyond permitted exceptions), customers must be given a reasonable opportunity to opt out before sharing
 - **Safeguards rule** — requires written policies and procedures to protect customer information, including administrative, technical, and physical safeguards
+- **Breach notification (2024 amendments)** — the May 2024 Reg S-P amendments added a required written incident response program and a customer breach-notification obligation: affected individuals must be notified as soon as practicable, and no later than 30 days after the firm becomes aware that sensitive customer information was, or is reasonably likely to have been, accessed or used without authorization (compliance dates: December 3, 2025 for larger entities; June 3, 2026 for smaller entities). Breach notices are now part of the firm's required client-disclosure inventory — see the privacy-data-security skill for program design
 
 ### Trade Confirmations
 SEC Rule 10b-10 requires broker-dealers to send trade confirmations to customers at or before completion of each transaction:
@@ -182,7 +165,7 @@ Firms must maintain records of electronic delivery consent and have systems to t
 ### Example 3: BD not providing timely trade confirmations for fixed income
 **Scenario:** A broker-dealer's back-office system delays trade confirmations for fixed-income transactions by 5-7 business days after settlement due to a systems processing bottleneck. Equity confirmations are sent on trade date. The delay affects approximately 2,000 fixed-income transactions per quarter.
 **Compliance Issues:** SEC Rule 10b-10 requires confirmations at or before completion of the transaction. A 5-7 day delay after settlement is a clear violation. Fixed-income confirmations must include accrued interest calculations, which may explain the processing delay, but the regulatory requirement does not accommodate systems limitations.
-**Analysis:** The firm must: (1) remediate the systems bottleneck to ensure timely confirmation delivery, (2) review the scope of the issue (how many clients affected, over what period), (3) consider filing a FINRA rule violation with compliance, (4) assess whether the delay caused client harm (e.g., inability to identify errors or unauthorized trades in a timely manner), and (5) implement monitoring to prevent recurrence. Firms should prioritize confirmation delivery systems for all asset classes, not just equities.
+**Analysis:** The firm must: (1) remediate the systems bottleneck to ensure timely confirmation delivery, (2) review the scope of the issue (how many clients affected, over what period), (3) assess whether the deficiency must be reported to FINRA under FINRA Rule 4530 (which requires reporting of certain rule violations the firm self-identifies), (4) assess whether the delay caused client harm (e.g., inability to identify errors or unauthorized trades in a timely manner), and (5) implement monitoring to prevent recurrence. Firms should prioritize confirmation delivery systems for all asset classes, not just equities.
 
 ## Common Pitfalls
 - Delivering Form ADV but forgetting Form CRS (or vice versa)
@@ -197,8 +180,9 @@ Firms must maintain records of electronic delivery consent and have systems to t
 - Sending account statements through the registered representative rather than directly to the customer
 
 ## Cross-References
-- **fee-disclosure** (Layer 9): Form ADV Item 5 and Form CRS fee section are key fee disclosure vehicles
-- **reg-bi** (Layer 9): Reg BI Disclosure Obligation drives much of the BD disclosure framework
-- **fiduciary-standards** (Layer 9): Full and fair disclosure is a core fiduciary obligation; Form ADV is the primary vehicle
-- **conflicts-of-interest** (Layer 9): Conflict disclosure is embedded throughout Form ADV, Form CRS, and Reg BI disclosures
-- **advertising-compliance** (Layer 9): Marketing materials must be consistent with disclosure documents
+- **fee-disclosure** (compliance plugin): Form ADV Item 5 and Form CRS fee section are key fee disclosure vehicles
+- **reg-bi** (compliance plugin): Reg BI Disclosure Obligation drives much of the BD disclosure framework
+- **fiduciary-standards** (compliance plugin): Full and fair disclosure is a core fiduciary obligation; Form ADV is the primary vehicle
+- **conflicts-of-interest** (compliance plugin): Conflict disclosure is embedded throughout Form ADV, Form CRS, and Reg BI disclosures
+- **advertising-compliance** (compliance plugin): Marketing materials must be consistent with disclosure documents
+- **private-placements** (compliance plugin): PPM delivery, Rule 502(b) disclosure to non-accredited investors, and placement-compensation disclosure in exempt offerings

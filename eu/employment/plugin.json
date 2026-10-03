@@ -1,0 +1,14 @@
+{
+  "name": "eu-employment",
+  "displayName": "Employment & Labor — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "employment",
+  "language": "de",
+  "skills": [
+    "skills/eu-richtlinie-abgleich"
+  ]
+}

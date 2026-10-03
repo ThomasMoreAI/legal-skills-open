@@ -1,0 +1,116 @@
+---
+name: abwehr-schuldner
+title: Schuldnerabwehr in der Zwangsvollstreckung
+description: 'Für Schuldnerabwehr in der Zwangsvollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zwangsvollstreckung/skills/abwehr-schuldner
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Schuldnerabwehr in der Zwangsvollstreckung
+
+## Arbeitsbereich
+
+Schuldner will sich gegen laufende Zwangsvollstreckung wehren oder hat unrechtmäßigen Pfaendungs-Beschluss erhalten. §§ 766 767 768 771 765a 850k 769 ZPO Schuldnerrechte. Prüfraster: Erinnerung § 766 formale Maengel Vollstreckungsabwehrklage § 767 materielle Einwendungen Klauselgegenklage § 768 Drittwiderspruchsklage § 771 Vollstreckungsschutz § 765a P-Konto-Freigabe § 850k Einstellung § 769. Output: Abwehrstrategie-Memo und passender Schriftsatz-Entwurf. Abgrenzung zu vollstreckungsschutz-haertefall-765a (Haertefall-Schutz) und pfaendungstabelle-pfueb-arbeitsentgelt (Pfaendungsberechnung). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: §§ 704 ff. ZPO; § 802l Kontensuche, Vermögensauskunft, Räumung; § 800 ZPO Notar; § 201 InsO, ZVG, EU-Kontenpfändung VO 655; § 765a Härtefall, Schuldnerschutz — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Startet bei
+
+- Mandant ist Schuldner einer laufenden Vollstreckung
+- Pfändung oder Räumung steht bevor / läuft
+- Gläubiger geht aus aufgehobener oder bezahlter Forderung vor / Pfändung verstößt gegen Pfändungsfreigrenzen
+- Restschuldbefreiung wurde erteilt und trotzdem wird vollstreckt
+
+## Rechtsgrundlagen
+
+- § 765a ZPO – Vollstreckungsschutz, Härtefall
+- § 766 ZPO – Erinnerung gegen Art und Weise der Vollstreckung
+- § 767 ZPO – Vollstreckungsabwehrklage (materielle Einwendungen nach Schluss der mündlichen Verhandlung)
+- § 768 ZPO – Klauselgegenklage
+- § 769 ZPO – einstweilige Einstellung
+- § 771 ZPO – Drittwiderspruchsklage
+- § 850c-l ZPO – Pfändungsfreigrenze, § 850k ZPO P-Konto-Freigabe
+- § 802d ZPO – Sperrfrist Vermögensauskunft
+- § 301 InsO – Wirkung Restschuldbefreiung
+
+## Verteidigungslandkarte
+
+| Angriff des Gläubigers | Gegenmittel | Gericht |
+| --- | --- | --- |
+| Pfändung formal fehlerhaft (z. B. Zustellungsmangel) | Erinnerung § 766 ZPO | Vollstreckungsgericht |
+| Forderung erfüllt, gestundet, verjährt, aufgerechnet (nach mündl. Verhandlung) | Vollstreckungsabwehrklage § 767 ZPO | Prozessgericht 1. Instanz |
+| Klauselumschreibung § 727 ZPO angreifbar | Klauselgegenklage § 768 ZPO | Prozessgericht |
+| Drittgut wird gepfändet (mein Eigentum) | Drittwiderspruchsklage § 771 ZPO | Prozessgericht |
+| Existenzbedrohende Härte (Krankheit, Suizid) | § 765a ZPO Antrag | Vollstreckungsgericht |
+| Pfändungsfreigrenze unterschritten | Antrag § 850c, § 850k ZPO | Vollstreckungsgericht |
+| Pfändung trotz Restschuldbefreiung | § 767 ZPO + § 301 InsO | Prozessgericht |
+| Räumung mit Mitbewohnern ohne Titel | Erinnerung § 766 oder Drittwiderspruch | Vollstreckungs- / Prozessgericht |
+
+## Workflow
+
+1. **Lagebild aufnehmen**: Welcher Titel? Welcher Vollstreckungsschritt? Frist?
+2. **Sofortmaßnahmen**: einstweilige Einstellung § 769 ZPO mit Antrag, ggf. einstweilige Verfügung.
+3. **Hauptweg wählen** (siehe Tabelle).
+4. **Bei P-Konto**: Antrag § 850k Abs. 4 ZPO auf höheren Freibetrag (Unterhaltspflichten, einmalige Sozialleistungen).
+5. **Insolvenzaspekte**: Verbraucher kann Insolvenzantrag stellen (sechs Monate Vollstreckungssperre nach Eröffnung § 89 InsO; nicht aber im Eröffnungsverfahren regelmäßig).
+6. **Restschuldbefreiung**: § 767 ZPO mit Vorlage des Beschlusses; § 302 InsO prüfen, ob doch Privilegierung.
+
+## Vollstreckungsschutz § 765a ZPO
+
+Sehr hohe Hürde – sittenwidrige Härte. Beispiele aus der Rechtsprechung:
+
+- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- schwere Erkrankung, kurz bevorstehende Operation
+- Hochschwangerschaft
+- Tod naher Angehöriger
+- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+Antrag muss vor Vollstreckungsmaßnahme gestellt sein; Aussetzung § 769 ZPO mitbeantragen.
+
+## Leitentscheidungen
+
+- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+
+## Ausgabeformat
+
+```
+SCHULDNERABWEHR [Mandant Schuldner], Az [Vollstreckungsgericht]
+
+Vollstreckung: [Art, durch wen, Datum]
+Mandantenposition: [Schuldner / Dritter / Eigentümer]
+Hauptangriff: [Erinnerung § 766 / Klage § 767 / 768 / 771]
+Eilantrag § 769: [ja, mit Begründung ... / nein]
+Schutzschirm: [§ 765a / § 850k / § 302 InsO]
+Beweismittel: [Zahlungsnachweis, Erlassvertrag, Eigentumsurkunde]
+Risiko: [Kostenrisiko, Eilrisiko, Zwangsverkauf]
+
+NÄCHSTER SCHRITT: [Antrag heute einreichen / Klage einreichen]
+WIEDERVORLAGE: DD.MM.JJJJ
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Qualitätsgates
+
+- Niemals materielle Einwendungen über § 766 ZPO geltend machen – falscher Rechtsbehelf.
+- Niemals § 767 ZPO ohne Präklusionsprüfung – Einwendungen müssen nach Schluss der mündlichen Verhandlung entstanden sein.
+- Niemals Drittgut über § 766 ZPO verteidigen – das ist § 771 ZPO.
+- Bei § 765a ZPO niemals nur Standardvortrag – konkrete Härte mit Beweismitteln.

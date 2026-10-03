@@ -1,180 +1,137 @@
 ---
 name: paragraph-1-starug-pflichten-und-24-monats-horizont
-title: § 1 StaRUG — Krisenfrüherkennungspflicht und 24-Monats-Horizont
-description: '§ 1 StaRUG Krisenfrueherkenungspflicht und 24-Monats-Horizont erklären und umsetzen: GF oder Berater fragt was StaRUG konkret verlangt. Normen: § 1 StaRUG (Frueherkennungspflicht GmbH/AG), § 18 InsO (drohende ZU als StaRUG-Zugang). Prüfraster: Adressatenkreis nach Rechtsform, 24-Monats-Planungshorizont als Standard, Abgrenzung § 18 InsO, Haftungsfolgen bei Pflichtverletzung. Output § 1-StaRUG-Compliance-Memo, Umsetzungsplan Fruehwarnsystem. Abgrenzung: System-Architektur siehe fruehwarnsystem-architektur-zwei-jahres-horizont; Kennzahlen-Ampel siehe kennzahlenset-und-ampelsystem-starug-konform.'
+title: 1. Paragraf 1 StaRUG und die 24-Monats-Prognose richtig verbinden
+description: Trennt die fortlaufende Krisenfrüherkennungs- und Reaktionspflicht nach Paragraf 1 StaRUG sauber von der regelmäßigen 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/paragraph-1-starug-pflichten-und-24-monats-horizont
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# § 1 StaRUG — Krisenfrüherkennungspflicht und 24-Monats-Horizont
+# 1. Paragraf 1 StaRUG und die 24-Monats-Prognose richtig verbinden
 
-Krisenfrüherkennung ist keine betriebswirtschaftliche Kür, sondern gesetzliche Pflicht. § 1 StaRUG kodifiziert seit dem 1. Januar 2021 eine eigenständige, von der Insolvenzordnung unabhängige Früherkennungspflicht für alle haftungsbeschränkten Rechtsträger. Wer die Datenlage nicht im Griff hat, verliert das Heft des Handelns — und mit ihm den Zugriff auf moderne Sanierungswerkzeuge, die das Gesetz nur demjenigen öffnet, der rechtzeitig handelt.
+## 1.1. Arbeitsauftrag
 
----
+Prüfe, welche Überwachungs-, Reaktions- und Berichtspflichten die Geschäftsleitung nach Paragraf 1 StaRUG treffen. Beurteile getrennt, ob für die Prüfung drohender Zahlungsunfähigkeit nach Paragraf 18 Absatz 2 InsO eine regelmäßig 24 Monate umfassende Liquiditätsprognose erforderlich ist.
 
-## Rechtsgrundlagen
+Der Skillname bleibt aus Kompatibilitätsgründen unverändert. Inhaltlich gilt: Paragraf 1 StaRUG nennt keinen festen 24-Monats-Zeitraum. Dieser Zeitraum folgt aus Paragraf 18 Absatz 2 InsO.
 
-- § 1 StaRUG (Stabilisierungs- und Restrukturierungsrahmen für Unternehmen)
-- § 18 InsO (drohende Zahlungsunfähigkeit)
-- § 17 InsO (eingetretene Zahlungsunfähigkeit)
-- § 19 InsO (Überschuldung)
-- § 43 GmbHG (Sorgfaltspflicht und Verantwortlichkeit der Geschäftsführer)
-- § 93 AktG (Sorgfaltspflicht und Verantwortlichkeit der Vorstandsmitglieder)
-- IDW PS 340 n.F. (Anforderungen an Risikofrüherkennungssysteme)
-- IDW S 6 (Anforderungen an Sanierungskonzepte)
+## 1.2. Sofortausgabe
 
----
+Liefere zuerst:
 
-## Pflichten
+1. Adressat und betroffene Gesellschaft.
+2. Erkannte oder erkennbare Bestandsgefährdung mit Belegdatum.
+3. Ergriffene Gegenmaßnahme und verantwortliche Person.
+4. Bericht an Überwachungsorgan oder Befassung eines anderen zuständigen Organs.
+5. Prüfung nach Paragrafen 17 bis 19 InsO mit Stichtag.
+6. Nächster Beschluss, nächste Frist und fehlender Beleg.
 
-### 1. Normadressaten nach Rechtsform
+## 2. Pflichtenkern des Paragrafen 1 StaRUG
 
-§ 1 StaRUG richtet sich an "die Mitglieder des zur Geschäftsführung berufenen Organs einer juristischen Person" sowie an Personen, die bei einer Gesellschaft ohne Rechtspersönlichkeit die Vertretung ausüben. Im Einzelnen:
+### 2.1. Normadressaten
 
-| Rechtsform | Normadressaten |
-|---|---|
-| GmbH | Geschäftsführer (§ 43 GmbHG) |
-| AG / KGaA | Vorstandsmitglieder (§ 93 AktG) |
-| GmbH & Co. KG | Geschäftsführer der Komplementär-GmbH |
-| eG (Genossenschaft) | Vorstand |
-| Rechtsfähiger Verein | Vorstand (§ 26 BGB) |
-| UG (haftungsbeschränkt) | Geschäftsführer |
+Paragraf 1 Absatz 1 StaRUG richtet sich an die Mitglieder des zur Geschäftsführung berufenen Organs einer juristischen Person. Paragraf 1 Absatz 2 StaRUG erstreckt die Regel auf die Geschäftsleiter des geschäftsführenden Gesellschafters einer rechtsfähigen Personengesellschaft im Sinne des Paragrafen 15a Absatz 1 Satz 3 und Absatz 2 InsO.
 
-Einzelkaufleute und Personengesellschaften ohne Haftungsbeschränkung sind vom Wortlaut des § 1 StaRUG nicht erfasst, unterliegen aber wirtschaftlich denselben Sorgfaltspflichten aus Deliktsrecht und allgemeinem Handelsrecht.
+| Rechtsform | Typischer Adressat | Ergänzende Organpflicht |
+| --- | --- | --- |
+| GmbH oder UG | Geschäftsführer | insbesondere Paragraf 43 GmbHG |
+| AG oder KGaA | Vorstand | insbesondere Paragrafen 91 und 93 AktG |
+| Genossenschaft | Vorstand | genossenschaftsrechtliche Organpflichten |
+| Rechtsfähiger Verein | Vorstand | insbesondere Paragraf 27 Absatz 3 in Verbindung mit Paragraf 664 BGB sowie Satzung |
+| GmbH und Co. KG ohne natürliche Person als persönlich haftenden Gesellschafter | Geschäftsleiter der Komplementärgesellschaft | Paragraf 1 Absatz 2 StaRUG |
 
-### 2. Inhalt der Früherkennungspflicht
+Andere Unternehmen können aus ihrer jeweiligen Organisations- und Sorgfaltspflicht ebenfalls zu Krisenüberwachung verpflichtet sein. Das ist jedoch nicht als unmittelbare Anwendung des Paragrafen 1 StaRUG auszugeben.
 
-§ 1 Abs. 1 StaRUG verlangt:
+### 2.2. Drei gesetzliche Handlungsschritte
 
-1. **Fortlaufende Überwachung** der wirtschaftlichen Lage des Unternehmens
-2. **Rechtzeitige Ergreifung** geeigneter Gegenmaßnahmen bei erkannten bestandsgefährdenden Entwicklungen
-3. **Unterrichtung** der Gesellschafter bzw. des Aufsichtsrats bei erkannter bestandsgefährdender Entwicklung
+1. Fortlaufend über Entwicklungen wachen, die den Fortbestand der juristischen Person gefährden können.
+2. Bei erkannter Bestandsgefährdung geeignete Gegenmaßnahmen ergreifen.
+3. Dem zur Überwachung der Geschäftsleitung berufenen Organ unverzüglich Bericht erstatten; berührt die Maßnahme die Zuständigkeit eines anderen Organs, unverzüglich auf dessen Befassung hinwirken.
 
-"Bestandsgefährdend" im Sinne des § 1 StaRUG ist weiter zu verstehen als der Insolvenzbegriff — es geht nicht erst um die drohende Zahlungsunfähigkeit, sondern um jede Entwicklung, die den Fortbestand des Unternehmens gefährden kann.
+Die Norm verlangt keine bestimmte Software, kein ausdrücklich bezeichnetes Handbuch und keine gesetzlich festgelegte Protokollform. Ein belastbares, dokumentiertes System ist dennoch die sachgerechte Organisations- und Beweisvorsorge: Ohne zeitnahe Unterlagen lassen sich Erkennung, Reaktion und Berichtsweg später kaum verlässlich belegen.
 
-### 3. Der 24-Monats-Planungshorizont als gesetzlicher Standard
+## 3. Verhältnis zur Insolvenzordnung
 
-Der 24-Monats-Horizont ergibt sich systematisch aus dem Zusammenspiel mehrerer Normen:
+### 3.1. Keine feste Frist in Paragraf 1 StaRUG
 
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- **§ 29 Abs. 2 StaRUG** setzt für die Antragsstellung auf Eröffnung des Restrukturierungsverfahrens voraus, dass drohende Zahlungsunfähigkeit noch nicht eingetreten ist — der Zugang zum StaRUG-Verfahren erfordert also zwingend eine belastbare 24-Monats-Sicht.
-- **IDW S 11** und **IDW S 6** verankern den 24-Monats-Horizont in der Praxis der Sanierungsberatung.
+Der Überwachungshorizont muss zur Art, Größe, Struktur und Risikolage des Unternehmens passen. Paragraf 1 StaRUG selbst schreibt weder 13 Wochen noch 24 Monate vor.
 
-Ein Unternehmen, das keinen validierten Liquiditätsplan mit 24 Monaten Reichweite vorhält, kann im Ernstfall weder den Zugang zu StaRUG nachweisen noch den Vorwurf der Verletzung von § 1 StaRUG entkräften.
+### 3.2. Regelmäßig 24 Monate nach Paragraf 18 Absatz 2 InsO
 
----
+Für die drohende Zahlungsunfähigkeit ist in aller Regel ein Prognosezeitraum von 24 Monaten zugrunde zu legen. Deshalb ist ein rollierender 24-Monats-Liquiditätsplan ein starkes Werkzeug innerhalb eines Frühwarnsystems, aber nicht der Wortlaut einer eigenständigen 24-Monats-Pflicht aus Paragraf 1 StaRUG.
 
-## Vorgehen
+Praktische Architektur:
 
-### Schritt 1: Standortbestimmung — Welche Pflichten gelten konkret?
+1. Liquiditätsstatus am Stichtag und kurzfristige Drei-Wochen-Prüfung für Paragraf 17 InsO.
+2. Wochenplanung für mindestens 13 Wochen als Steuerungsinstrument.
+3. Monatsplanung für den restlichen regelmäßigen 24-Monats-Zeitraum des Paragrafen 18 Absatz 2 InsO.
+4. Zwölfmonats-Fortführungsprognose für Paragraf 19 Absatz 2 InsO getrennt ausweisen.
 
-Checkliste für jede Gesellschaft:
+Diese Zeitraster sind funktionale Modelle. Sie dürfen nicht als identische gesetzliche Tatbestände vermischt werden.
 
-- [ ] Liegt eine haftungsbeschränkte Rechtsform vor? → Wenn ja: § 1 StaRUG anwendbar
-- [ ] Existiert ein formales Risikoüberwachungssystem (IDW PS 340 n.F.)?
-- [ ] Wird eine rollierende Liquiditätsplanung mit Horizont ≥ 24 Monate erstellt?
-- [ ] Sind Eskalationsschwellen und Berichtspflichten an GF/AR dokumentiert?
-- [ ] Werden Abweichungsanalysen systematisch durchgeführt und protokolliert?
+### 3.3. Zugang zu gerichtlichen StaRUG-Instrumenten
 
-### Schritt 2: 24-Monats-Planung implementieren
+Paragraf 29 Absatz 1 StaRUG stellt die gerichtlichen Instrumente zur nachhaltigen Beseitigung drohender Zahlungsunfähigkeit bereit. Paragraf 30 StaRUG regelt die Restrukturierungsfähigkeit. Vor Inanspruchnahme eines gerichtlichen Instruments ist das Restrukturierungsvorhaben nach Paragraf 31 StaRUG anzuzeigen.
 
-Die Planung muss folgende Elemente umfassen:
+Paragraf 1 StaRUG ist weder die Zugangsnorm noch der 24-Monats-Tatbestand. Ein privater Restrukturierungsplan kann vorbereitet und angeboten werden, ohne bereits ein gerichtliches Instrument in Anspruch zu nehmen.
 
-1. **GuV-Planung** (monatlich, auf Basis realistischer Szenarien)
-2. **Bilanzplanung** (quartalsweise, mit Working-Capital-Modellierung)
-3. **Liquiditätsplanung** (Wochen 1-13 wöchentlich; Monat 14-24 monatlich)
-4. **Integrierte Plan-Ist-Abweichungsanalyse** mit Kommentierung
-5. **Stresstest-Szenarien** (Base / Bear / Distress)
+## 4. Frühwarn- und Eskalationsmatrix
 
-### Schritt 3: Eskalationsmatrix festlegen
+| Signal | Beleg | Bewertungsstichtag | Verantwortlicher | Maßnahme | Organbericht | InsO-Prüfung |
+| --- | --- | --- | --- | --- | --- | --- |
+| Covenant-Verstoß | Bankbericht | [Datum] | [Name] | Waiver und Szenario | [Datum/Organ] | Paragrafen 17 bis 19 |
+| Umsatz- oder Margeneinbruch | Monatsabschluss | [Datum] | [Name] | Kosten- und Finanzierungsplan | [Datum/Organ] | [Ergebnis] |
+| Auslaufende Kreditlinie | Kreditvertrag | [Datum] | [Name] | Refinanzierungsprozess | [Datum/Organ] | [Ergebnis] |
+| Rückstand bei Lohn, Steuer oder Sozialversicherung | OPOS und Konto | [Datum] | [Name] | Sofortstatus und Rechtsprüfung | [Datum/Organ] | [Ergebnis] |
 
-| Indikator | Schwelle Gelb | Schwelle Rot | Eskalation |
-|---|---|---|---|
-| Liquiditätsreichweite | < 6 Monate | < 3 Monate | GF-Runde / AR |
-| EBITDA-Coverage | < 1,5x | < 1,0x | Gesellschafterinfo |
-| Covenant-Headroom | < 20 % | < 10 % | Bankgespräch |
-| Net-Debt/EBITDA | > 4,0x | > 5,5x | GF-Sofortmaßnahmen |
+## 5. Beschluss- und Dokumentationsgerüst
 
-### Schritt 4: Dokumentation und Protokollierung
+```text
+Gesellschaft: [Firma]
+Sitzung und Datum: [Angabe]
+Anwesende und Zuständigkeit: [Angabe]
 
-Jede Erkennung einer bestandsgefährdenden Entwicklung muss unverzüglich protokolliert werden. Ohne Dokumentation kein Beweis — ohne Beweis keine Haftungsfreistellung.
+1. Festgestellte Entwicklung
+[Tatsache, Quelle, Stichtag, Auswirkung]
 
----
+2. Bestandsgefährdung
+[Bewertung, Szenario, Eintrittswahrscheinlichkeit, Zeithorizont]
 
-## Templates
+3. Insolvenzrechtlicher Status
+Paragraf 17 InsO: [Ergebnis und Beleg]
+Paragraf 18 InsO: [Ergebnis der regelmäßigen 24-Monats-Prognose]
+Paragraf 19 InsO: [Ergebnis und Fortführungsprognose]
 
-### Muster: Beschlussprotokoll Geschäftsführersitzung — Ersteinführung Frühwarnsystem
+4. Gegenmaßnahmen
+[Maßnahme, Verantwortlicher, Termin, Finanzierung, Erfolgskennzahl]
 
-```
-Gesellschaft: [Firma GmbH]
-Sitzung: Geschäftsführerbesprechung
-Datum: [TT.MM.JJJJ]
-Anwesend: [Name GF 1], [Name GF 2]
+5. Organbefassung
+[Überwachungsorgan, anderes zuständiges Organ, Bericht oder Beschluss]
 
-TOP 1: Einführung Krisenfrüherkennungssystem gemäß § 1 StaRUG
-
-Die Geschäftsführung beschließt:
-
-1. Mit Wirkung zum [Datum] wird ein Krisenfrüherkennungssystem nach
-   Maßgabe des § 1 StaRUG und IDW PS 340 n.F. eingeführt.
-2. Die rollierende Liquiditätsplanung wird auf einen Horizont von
-   24 Monaten ausgeweitet (Wochen 1-13 wöchentlich; M14-M24 monatlich).
-3. Zuständig für die Pflege und Vorlage: [Name].
-4. Reportingzyklus: monatlich an die Geschäftsführung; quartalsweise
-   an den Gesellschafter/Aufsichtsrat.
-5. Eskalationsschwellen: siehe beigefügte KPI-Ampeltabelle (Anlage 1).
-
-Festgestellt: [Ort], [Datum]
-Unterschriften: _________________ / _________________
+6. Wiedervorlage
+[Datum, Schwellenwert, Eskalationsfolge]
 ```
 
-### Muster: 24-Monats-Horizont — Prüfungsfragen für das Beratungsgespräch
+## 6. Haftungs- und Beweisprüfung
 
-```
-1. Liegt für die nächsten 24 Monate eine integrierte Unternehmensplanung
-   (GuV / Bilanz / Cashflow) vor?
-2. Enthält die Liquiditätsplanung wöchentliche Granularität für
-   die ersten 13 Wochen?
-3. Sind mindestens zwei Stresstest-Szenarien dokumentiert?
-4. Wurden die Planprämissen von der Geschäftsführung formal freigegeben?
-5. Gibt es eine Plan-Ist-Abweichungsanalyse des Vormonats?
-6. Ist dokumentiert, wann und an wen eskaliert wird?
-```
+Paragraf 1 StaRUG formuliert Organpflichten, aber keine pauschale eigenständige Direktanspruchsgrundlage für jeden Gläubiger. Haftung ist nach Rechtsform, Anspruchsteller, verletzter Organpflicht, Kausalität, Schaden und den einschlägigen gesellschafts- oder insolvenzrechtlichen Normen gesondert zu prüfen.
 
----
+Dokumentation beweist nicht automatisch pflichtgemäßes Handeln. Sie muss zeitnah sein und zu Kontobewegungen, Planversionen, Berichten und tatsächlich umgesetzten Maßnahmen passen.
 
-## Fallstricke
+## 7. Fehlerbremse
 
-1. **"Wir machen das immer schon so"** ist kein Nachweis für § 1 StaRUG-Compliance — gefordert ist eine formale, dokumentierte Struktur, keine informelle Routine.
+1. Paragraf 1 StaRUG nicht als gesetzliche 24-Monats-Pflicht bezeichnen.
+2. Paragraf 29 StaRUG nicht als Anzeige- oder Eröffnungsantrag behandeln.
+3. Berichtsadressat ist das Überwachungsorgan; andere Organe sind bei berührter Zuständigkeit zu befassen.
+4. Dokumentation als Organisations- und Beweisvorsorge kennzeichnen, nicht als ausdrücklich vorgeschriebene Form.
+5. Keine direkte persönliche Haftung ohne Anspruchsgrundlage, Pflichtverletzung, Kausalität und Schaden behaupten.
+6. Bei möglicher Zahlungsunfähigkeit oder Überschuldung die unverzügliche Prüfung nach Paragraf 15a InsO vorziehen.
 
-2. **Der 24-Monats-Horizont gilt für die Liquiditätsplanung, nicht nur für die GuV** — eine reine Ergebnisplanung ohne Cashflow-Modell erfüllt die Pflicht nicht.
+## 8. Quellenregel
 
-3. **Kein Zugriffsrecht auf StaRUG ohne rechtzeitigen Nachweis drohender Zahlungsunfähigkeit** — wer zu spät kommt, steht mit § 15a InsO (Insolvenzantragspflicht) vor der Tür, nicht mit § 29 StaRUG.
-
-4. **Passive Überwachung reicht nicht** — § 1 Abs. 1 StaRUG verlangt aktives Gegensteuern. Wer erkennt und nicht handelt, haftet nach § 43 GmbHG / § 93 AktG.
-
-5. **Fehlende Unterrichtung der Gesellschafter** ist eine eigenständige Pflichtverletzung — selbst wenn die GF intern gegengesteuert hat, muss die vorgeschriebene Informationskette eingehalten werden.
-
-6. **Outsourcing schützt nicht** — auch wenn die Buchhaltung oder Planung extern liegt, bleibt die Überwachungspflicht bei der Geschäftsführung. Delegation verringert, aber eliminiert die Haftung nicht.
-
----
-
-## Querverweise
-
-- → `fruehwarnsystem-architektur-zwei-jahres-horizont` — technische Architektur des Frühwarnsystems
-- → `rollierende-liquiditaetsplanung-24-monate-template` — konkrete Planungsstruktur
-- → `kennzahlenset-und-ampelsystem-starug-konform` — KPI-Set und Schwellenwerte
-- → `gf-haftung-paragraph-43-gmbhg-und-paragraph-93-aktg` — Haftungsfolgen
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Abgrenzung § 18 InsO
-- → `dokumentationspflicht-und-protokollierung-geschaeftsfuehrung` — Protokollführung
-
-
-## Weitere Leitentscheidungen
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Verwende Rechtsprechung nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage. Berufsständische Standards nur mit überprüfter Fassung und als methodischen Standard, nicht als Gesetz ausgeben.

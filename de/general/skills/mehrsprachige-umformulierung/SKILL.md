@@ -1,11 +1,11 @@
 ---
 name: mehrsprachige-umformulierung
 title: Mehrsprachige Umformulierung
-description: 'Anwaltskorrespondenz in einer anderen Sprache berufsrechtskonform und sachgerecht umformulieren. § 43a BRAO §§ 26 ff. BORA internat. Anwaltsstandards. Prüfraster: Aequivalenz der Rechtsbegriffe Sachlichkeit Kollegialität Zielkultur. Output: umformulierte Version mit Erklärung sprachlicher Besonderheiten. Abgrenzung: nicht für rein deutsche Korrespondenz.'
+description: 'Für Mehrsprachige Umformulierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/mehrsprachige-umformulierung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,27 +14,24 @@ language: de
 
 # Mehrsprachige Umformulierung
 
-Dieser Skill stellt höfliche, sachliche Formulierungshilfen für internationale berufliche Korrespondenz in den vier wichtigsten Weltsprachen der deutschen Rechtspraxis bereit: Englisch, Französisch, Italienisch und Spanisch. Er enthält Anreden, Schlussformeln und typische Phrasen für anwaltliche und berufliche Schreiben.
+## Fachkern: Mehrsprachige Umformulierung
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill stellt höfliche, sachliche Formulierungshilfen für internationale berufliche Korrespondenz in den vier wichtigsten Weltsprachen der deutschen Rechtspraxis bereit: Englisch, Französisch, Italienisch und Spanisch. Er enthält Anreden, Schlussformeln und typische Phrasen für anwaltliche und berufliche Schreiben.
 
 ## Triage zu Beginn
 1. In welcher Sprache soll die Korrespondenz verfasst werden: Englisch, Franzoesisch, Italienisch oder Spanisch?
 2. Welcher Berufsstand: Rechtsanwalt, Notar, Steuerberater oder allgemeines Unternehmen?
-3. Welche Jurisdiktion gilt: Deutschland mit auslaendischem Empfaenger, oder auslaendisches Recht anwendbar?
+3. Welche Jurisdiktion gilt: Deutschland mit ausländischem Empfaenger, oder ausländisches Recht anwendbar?
 4. Gibt es berufsrechtliche Besonderheiten der Zielsprach-Jurisdiktion zu beachten?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot gilt sprachunabhaengig
-- Art. 56, 57 AEUV — Dienstleistungsfreiheit fuer grenzueberschreitende Anwaltskorrespondenz
+- Art. 56, 57 AEUV — Dienstleistungsfreiheit für grenzueberschreitende Anwaltskorrespondenz
 - § 184 GVG — Gerichtssprache Deutsch; Ausnahmen bei internationalen Sachverhalten
-- Richtlinie 77/249/EWG — Dienstleistungsrichtlinie fuer Anwaelte (grenzueberschreitend)
+- Richtlinie 77/249/EWG — Dienstleistungsrichtlinie für Anwaelte (grenzueberschreitend)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Englisch (Englischsprachige Jurisdiktionen und internationale Praxis)
 
 Anreden: "Dear Sir or Madam" (allgemein), "Dear Mr./Ms. Smith" (namentlich), "Dear Counsel" (unter Anwälten), "Dear Judge Smith" (an Richter im angloamerikanischen Raum). Schlussformeln: "Yours sincerely" (wenn Name bekannt), "Yours faithfully" (wenn nur Firma/Funktion bekannt), "Kind regards" (förmlich-freundlich), "Best regards" (kollegial). Berufliche Anreden in Schriftsätzen: "To the Honourable Court", "Dear Registrar".
@@ -59,6 +56,4 @@ Für grenzüberschreitende anwaltliche Kommunikation gilt: Die BRAO schreibt kei
 
 "Please find enclosed..." → "Veuillez trouver ci-joint..." → "In allegato trova..." → "Adjunto encontrará..." "We refer to our previous correspondence..." → "Suite à notre précédente correspondance..." "We look forward to your response." → "Nous attendons votre réponse avec intérêt." → "In attesa di una Sua risposta..." → "Quedamos a la espera de su respuesta."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Empfohlene Anrede in der Zielsprache. (2) Schlussformel mit Varianten nach Förmlichkeitsgrad. (3) Überarbeiteter Text in der Zielsprache (soweit gegeben). (4) Hinweis auf berufsrechtliche Besonderheiten der Zielsprache/Jurisdiktion.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

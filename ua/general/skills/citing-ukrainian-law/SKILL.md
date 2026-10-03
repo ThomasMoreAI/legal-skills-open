@@ -1,18 +1,18 @@
 ---
 name: citing-ukrainian-law
-title: citing-ukrainian-law
+title: law-ua-citing-ukrainian-law
 description: Use when formatting citations to Ukrainian legislation, court rulings, or Constitutional Court decisions in legal memos, drafts, or analytical notes, requiring consistent format with article/part/point, NPA name, redaction date, and source URL
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-citing-ukrainian-law
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: general
 language: uk
 ---
 
-# citing-ukrainian-law
+# law-ua-citing-ukrainian-law
 
 Стандартизований формат цитування робить правові позиції перевіряними, читабельними та відтворюваними.
 

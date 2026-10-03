@@ -1,0 +1,153 @@
+---
+name: kanzlei-rechtsprechungsrecherche-fristenbuch
+title: Rechtsprechungsrecherche und Fundstellenablage
+description: 'Für Rechtsprechungsrecherche und Fundstellenablage: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/kanzlei-rechtsprechungsrecherche-fristenbuch
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Rechtsprechungsrecherche und Fundstellenablage
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO §§ 43, 43a, 43e, 45, 49b, 53, 59b, 73; BORA §§ 2, 3, 4, 5, 6, 10, 11, 12; RVG §§ 3a, 10; GwG §§ 2, 10, 11, 43; DSGVO Art. 5, 6, 9, 28, 32; BDSG § 26; ZPO § 130d; BRAO § 31a/beA und lokale Kammerhinweise live prüfen; keine BeckRS-/juris-Blindzitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+1. Für welche Akte und welches Rechtsgebiet wird die Rechtsprechung benoetigt?
+2. Welche amtlichen Datenbanken stehen zur Verfuegung: Bundesgerichtsdatenbank, juris, Beck-online, OpenJur?
+3. Muss der Sachverhalt vor der Suche abstrahiert/anonymisiert werden (Mandatsgeheimnis)?
+4. Soll die Fundstelle in die Akte oder in einen Schriftsatz eingearbeitet werden?
+
+## Zentrale Normen
+- § 43 BRAO — Sorgfaltspflicht: Recherchepflicht als Teil der anwaltlichen Beratung
+- § 43a Abs. 2 BRAO — Verschwiegenheit: Abstrahierung des Sachverhalts vor Datenbanksuche
+- Art. 3 GG i.V.m. Art. 20 Abs. 3 GG — Bindung an Gesetz und Recht: einschlaegige Rechtsprechung ist massgebend
+- § 139 ZPO — Richterliche Hinweispflicht: Gericht nutzt bekannte Rechtsprechung; Anwalt muss vorbereitet sein
+
+## Sicherheitsregeln
+
+- Keine Mandatsgeheimnisse in öffentliche Suchfelder kopieren. Sachverhalt vorher abstrahieren.
+- Personen, Gegner, interne Aktenzeichen und vertrauliche Vertragsdetails pseudonymisieren, wenn sie für die Suche nicht nötig sind.
+- Amtliche Volltexte und PDF-Dateien bevorzugen.
+- OpenJur und dejure.org als Ergänzung nutzen, nicht als alleinige Primärquelle, wenn eine amtliche Fassung erreichbar ist.
+- Jede Fundstelle mit URL, Abrufdatum, Quelle, Gericht, Datum, Aktenzeichen, ECLI, Entscheidungsart, Rn./Seite und Relevanz dokumentieren.
+- Keine Entscheidung als aktuell oder herrschend darstellen, ohne spätere Rechtsprechung und Gegenansichten zu prüfen.
+- Online-Ablage, DMS, Cloud, GitHub oder geteilte Ordner nur nach ausdrücklicher Freigabe verwenden.
+
+## Quellenkaskade
+
+1. **Bundesübergreifend amtlich**: `https://www.rechtsprechung-im-internet.de` und Justizportal `https://www.justiz.de/onlinedienste/rechtsprechung/index.php`.
+2. **Bundesgerichte direkt**:
+ - Bundesverfassungsgericht: `https://www.bundesverfassungsgericht.de/SiteGlobals/Forms/Suche/Entscheidungensuche_Formular.html`
+ - Bundesgerichtshof: `https://www.bundesgerichtshof.de/DE/Entscheidungen/entscheidungen.html`
+ - Bundesverwaltungsgericht: `https://www.bverwg.de/rechtsprechung`
+ - Bundesarbeitsgericht: `https://www.bundesarbeitsgericht.de/entscheidungen/`
+ - Bundesfinanzhof: `https://www.bundesfinanzhof.de/de/entscheidungen/entscheidungen-online/`
+ - Bundessozialgericht: `https://www.bsg.bund.de/DE/Entscheidungen/entscheidungen.html`
+ - Bundespatentgericht: `https://www.bundespatentgericht.de/DE/Rechtsprechung/Entscheidungen/entscheidungen_node.html`
+3. **Länderrechtsprechung**: über das Justizportal und die Rechtsprechungsdatenbanken der Länder, z. B. NRWE für Nordrhein-Westfalen.
+4. **Ergänzend**: OpenJur und dejure.org für zusätzliche Treffer, Parallelfundstellen, Verlinkungen, Vorinstanzen, Zitatnetz und Presse-/Literaturhinweise.
+
+## Schnellstart
+
+Bei einer neuen Recherche zuerst fragen:
+
+1. Akte oder Arbeitsergebnis: Klage, Replik, Antrag, Vertrag, Gutachten, Mandantenbrief.
+2. Rechtsfrage in einem Satz.
+3. Gerichtsbarkeit: Zivil, Straf, Arbeits, Verwaltung, Finanz, Sozial, Verfassungsrecht, Patent/Marke.
+4. Relevante Normen, Stichworte und bekannte Aktenzeichen.
+5. Zeitraum: aktuell, letzte fünf Jahre, Grundsatzrechtsprechung, historisch.
+6. Ziel: Fundstellenliste, Schriftsatzbaustein, Argumentationsmatrix, Warnung vor Gegenrechtsprechung oder Monitoring.
+7. Ablageort: nur lokal in der Akte, DMS/Cloud/Online-Akte oder Simulation.
+
+Wenn wenig Zeit ist, sofort eine Suchmatrix aus `Norm + Rechtsproblem + Gerichtsbarkeit + Synonyme` erstellen.
+
+## Suchstrategie
+
+1. Rechtsfrage normalisieren: Anspruch, Einwendung, Prozessfrage, Beweisfrage oder Vertragsrisiko.
+2. Suchbegriffe bilden:
+ - Normen mit und ohne Paragrafenzeichen.
+ - juristische Kernbegriffe.
+ - Synonyme und alte Begriffe.
+ - Aktenzeichen und ECLI, wenn vorhanden.
+ - typische Phrasen aus Leitsätzen.
+3. Gerichtshierarchie priorisieren:
+ - Bundesgericht oder Verfassungsgericht vor Instanzrechtsprechung.
+ - Zuständige Fachgerichtsbarkeit vor allgemeiner Suche.
+ - Landesrecht zuerst im betroffenen Bundesland, danach vergleichbare Länder.
+4. Treffer sichten:
+ - amtlicher Volltext vorhanden?
+ - Leitsatz oder Orientierungssatz?
+ - Tragende Gründe oder obiter dictum?
+ - aktuell oder überholt?
+ - passt der Sachverhalt wirklich?
+5. Gegenrecherche:
+ - abweichende Senate, andere Obergerichte, spätere Entscheidungen, Nichtannahme- oder Nichtzulassungsfragen suchen.
+ - dejure/OpenJur nur ergänzend für Verweise und Vernetzung nutzen.
+
+## Bewertung
+
+Jeden Treffer einstufen:
+
+- `A`: zentrale amtliche Entscheidung, direkt verwertbar.
+- `B`: hilfreich, aber Sachverhalt oder Gerichtsbarkeit weicht ab.
+- `C`: nur Hintergrund, ältere Linie, Vorinstanz oder Randaspekt.
+- `GEGEN`: spricht gegen die eigene Position oder begrenzt sie.
+- `UNSICHER`: Quelle, Aktualität, Volltext oder Kontext unklar.
+
+## Ablage
+
+Standardordner in der Akte:
+
+```text
+rechtsprechung/
+ YYYY-MM-DD_recherchefrage-kurz/
+ suchplan.md
+ fundstellen-register.md
+ entscheidungen/
+ zitiervorschlaege.md
+ verwertungsnotiz.md
+ ablageprotokoll.md
+```
+
+Wenn eine Online-Ablage gewünscht ist:
+
+- Zielsystem und Berechtigung bestätigen.
+- Keine vertraulichen Suchbegriffe oder Volltexte öffentlich ablegen.
+- Datei- und Ordnernamen ohne Mandatsgeheimnisse wählen.
+- Upload- oder Sync-Protokoll mit Zeit, Ziel, Bearbeiter und Dateiliste erstellen.
+- Bei fehlender Integration Simulation anbieten.
+
+## Übergabe an andere Skills
+
+- Für Klage, Replik oder Antrag: Ergebnisse an `kanzlei-allgemein-schriftsatz-turbo` übergeben.
+- Für Vertrag: Risiken an `kanzlei-allgemein-vertragsentwurf` übergeben.
+- Für finale Ausgabe: `kanzlei-allgemein-qualitaetsgate-hardening` ausführen.
+- Für Fristen oder Monitoring: `kanzlei-allgemein-automationen` nur mit ausdrücklicher Zustimmung nutzen.
+
+## Ausgabe
+
+- `assets/templates/rechtsprechungsrecherche-suchplan.md`
+- `assets/templates/rechtsprechungsfundstellen-register.md`
+- `assets/templates/rechtsprechungsablage-protokoll.md`
+- optional `assets/templates/rechtsprechungsmonitor.md`
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

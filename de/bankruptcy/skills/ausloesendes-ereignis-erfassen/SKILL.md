@@ -1,11 +1,11 @@
 ---
 name: ausloesendes-ereignis-erfassen
 title: Auslösendes Ereignis erfassen
-description: Erfasst den Anlass der Fortbestehensprognose. Typische Auslöser sind Hinweis des Steuerberaters nach § 102 StaRUG Hinweis des Wirtschaftsprüfers Bekanntwerden negativen Eigenkapitals Bilanzaufstellung mit negativem EK Liquiditaetsengpass Gesellschafterhinweis eigene Sorge des Geschäftsführers. Dokumentiert Anlass Datum Hinweisgeber Mitteilungsform. Wichtig für spaeteren Nachweis dass der Geschäftsführer auf Insolvenzanzeichen rechtzeitig reagiert hat (Haftungsfrage § 15b InsO).
+description: 'Für Auslösendes Ereignis erfassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/ausloesendes-ereignis-erfassen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -14,15 +14,23 @@ language: de
 
 # Auslösendes Ereignis erfassen
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: zwölfmonatige Fortführungsprognose nach Paragraf 19 Absatz 2 InsO; Antrag nach Paragraf 15a InsO ohne schuldhaftes Zögern, spätestens binnen drei Wochen bei Zahlungsunfähigkeit und sechs Wochen bei Überschuldung; Drei-Wochen-Liquiditätsstatus für Paragraf 17 InsO.
+- Tragende Normen verifizieren: Paragraf 19 Absatz 2 InsO, Paragraf 252 Absatz 1 Nummer 2 HGB sowie Paragrafen 1 und 102 StaRUG. Berufsständische Standards nur aus bereitgestellter oder lizenzierter aktueller Fassung verwenden. Paragraf 102 StaRUG setzt einen Jahresabschlussauftrag, offenkundige Anhaltspunkte und vermutete Unkenntnis des Mandanten voraus.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Geschäftsführer, Steuerberater, Wirtschaftsprüfer, Restrukturierungsberater, IV (falls beauftragt), Bank, Gesellschafter.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Fortbestehensprognose-Bericht, Integrierte Planung (P&L, BS, CF) 12+ Monate, Stresstest-Szenarien, Sanierungskonzept IDW S 6, Sanierungsgutachten, GF-Erklärung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Zweck
 
 Die Fortbestehensprognose ist kein Selbstzweck — sie ist die Antwort auf einen konkreten Anlass. Der Anlass wird dokumentiert weil **er Beweis ist**: bei späteren Haftungsfragen (§ 15b InsO, § 43 GmbHG, § 826 BGB ggue Gläubigern) zeigt die Dokumentation dass der Geschäftsführer **zeitnah** auf Anzeichen reagiert hat.
 
 ## Typische Auslöser
 
-### 1. Hinweis des Steuerberaters nach § 102 StaRUG
+### 1. Möglicher Hinweis bei Jahresabschlusserstellung
 
-Seit 01.01.2021 hat der Steuerberater eine **Hinweispflicht**: wenn ihm bei der Bilanzaufstellung Anhaltspunkte für einen möglichen Insolvenzeröffnungsgrund auffallen muss er den Mandanten darauf hinweisen.
+Paragraf 102 StaRUG verpflichtet einen dort genannten Berufsträger bei der Erstellung eines Jahresabschlusses zum Hinweis auf einen möglichen Insolvenzgrund und die daran anknüpfenden Organpflichten, wenn die Anhaltspunkte offenkundig sind und er annehmen muss, dass dem Mandanten die mögliche Insolvenzreife nicht bewusst ist. Eine BWA, laufende Buchführung oder sonstige Beratung löst die Norm für sich allein nicht aus.
 
 - Datum des Hinweises (schriftlich / mündlich / im Gespräch)
 - Wortlaut wenn schriftlich
@@ -69,35 +77,37 @@ Bei prüfungspflichtigen Gesellschaften (mittelgroße oder große KapGes nach §
 fall-id: FP-2026-0001
 stichtag-pruefung: 2026-05-20
 ausloeser:
-  typ: hinweis-steuerberater  # hinweis-steuerberater / hinweis-wp / eigene-feststellung-bilanz / liquiditätsengpass / gesellschafterhinweis / eigene-sorge / externes-ereignis
-  datum: 2026-05-15
-  hinweisgeber: Steuerberater Mueller, Kanzlei XYZ
-  mitteilungsform: schriftlich  # schriftlich / muendlich / e-mail
-  wortlaut: |
-    "Nach Aufstellung des Jahresabschlusses 2025 ergibt sich ein negatives 
-    Eigenkapital von 82.000 EUR. Wir weisen Sie nach § 102 StaRUG auf die 
-    Pflicht zur Prüfung einer Fortbestehensprognose nach § 19 Abs. 2 InsO 
-    hin."
-  konkrete-anhaltspunkte:
-    - Eigenkapital negativ 82.000 EUR Stichtag 31.12.2025
-    - SuSa weist Lieferantenverbindlichkeiten 410.000 EUR (Vorjahr 180.000)
-    - Sozialversicherungsbeitraege drei Monate offen 45.000 EUR
-  reaktion-geschaeftsfuehrung:
-    erste-reaktion-am: 2026-05-20
-    schritte:
-      - Beauftragung Erstellung Fortbestehensprognose
-      - Aktivierung Plugin fortbestehensprognose
-      - Termin mit Insolvenzanwalt vereinbart für 2026-05-27 als Sicherheit
+ typ: hinweis-steuerberater # hinweis-steuerberater / hinweis-wp / eigene-feststellung-bilanz / liquiditätsengpass / gesellschafterhinweis / eigene-sorge / externes-ereignis
+ datum: 2026-05-15
+ hinweisgeber: Steuerberater Mueller, Kanzlei XYZ
+ mitteilungsform: schriftlich # schriftlich / muendlich / e-mail
+ wortlaut: |
+ "Bei der Erstellung des Jahresabschlusses 2025 sind die nachfolgend
+ bezeichneten Anhaltspunkte für einen möglichen Insolvenzgrund offenkundig
+ geworden. Da nach der bisherigen Korrespondenz anzunehmen ist, dass Ihnen
+ die mögliche Insolvenzreife nicht bewusst ist, weisen wir Sie nach
+ Paragraf 102 StaRUG auf den möglichen Insolvenzgrund und die daran
+ anknüpfenden Organpflichten hin."
+ konkrete-anhaltspunkte:
+ - Eigenkapital negativ 82.000 EUR Stichtag 31.12.2025
+ - SuSa weist Lieferantenverbindlichkeiten 410.000 EUR (Vorjahr 180.000)
+ - Sozialversicherungsbeitraege drei Monate offen 45.000 EUR
+ reaktion-geschaeftsfuehrung:
+ erste-reaktion-am: 2026-05-20
+ schritte:
+ - Beauftragung Erstellung Fortbestehensprognose
+ - Aktivierung Plugin fortbestehensprognose
+ - Termin mit Insolvenzanwalt vereinbart für 2026-05-27 als Sicherheit
 ```
 
 ## Pflichthinweis Frist
 
-Mit Eintritt der **Insolvenzreife** (Zahlungsunfähigkeit § 17 oder Überschuldung § 19 InsO) beginnen die Antragsfristen des § 15a InsO. **Die Fortbestehensprognose ist nicht zu verwechseln mit dieser Frist** — sie ist die Prüfung **ob** Überschuldung trotz negativen Bilanzbildes verneint werden kann.
+Mit Eintritt der Insolvenzreife nach Paragraf 17 oder 19 InsO entsteht die Antragspflicht des Paragrafen 15a InsO. Der Antrag ist ohne schuldhaftes Zögern zu stellen. Die Fortführungsprognose ist kein Aufschub, sondern ein Tatbestandselement der Überschuldungsprüfung.
 
-- Frist Zahlungsunfähigkeit: **drei Wochen** (§ 15a Abs. 1 S. 2 InsO).
-- Frist Überschuldung: **sechs Wochen** (§ 15a Abs. 1 S. 2 InsO seit SanInsFoG 2021).
+- Zahlungsunfähigkeit: höchstens drei Wochen nach Eintritt.
+- Überschuldung: höchstens sechs Wochen nach Eintritt.
 
-Im Zweifel **vor Ablauf der Frist** Insolvenzanwalt zu Rate ziehen.
+Bei belastbaren Anzeichen unverzüglich spezialisierten Rechtsrat einholen; die Höchstzeiträume dürfen nicht als reguläre Bearbeitungsfristen ausgeschöpft werden.
 
 ## Ausgabe
 
@@ -105,22 +115,15 @@ Im Zweifel **vor Ablauf der Frist** Insolvenzanwalt zu Rate ziehen.
 - Erste Risikobewertung (grün / gelb / rot).
 - Empfehlung: bei rot direkt zu `wenn-prognose-negativ-naechste-schritte` und Insolvenzanwalt einschalten — diese Prüfung kann fortgesetzt werden aber nicht ohne anwaltliche Begleitung.
 
-
-## Aktuelle Leitentscheidungen — Ausloesende Ereignisse
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Paragrafenkette Ausloesende Ereignisse
 
-§ 102 StaRUG (Warnpflicht Rechtsberater) → § 19 InsO (Ueberschuldung als Eröffnungsground) → § 15a InsO (Antragspflicht 3/6 Wochen) → § 15b InsO (Haftung GF) → § 43 GmbHG (Sorgfaltspflicht)
+Paragraf 102 StaRUG (begrenzter Hinweis bei Jahresabschlusserstellung) → Paragraf 19 InsO (Überschuldung) → Paragraf 15a InsO (Antrag ohne schuldhaftes Zögern, Höchstzeiträume drei beziehungsweise sechs Wochen) → Paragraf 15b InsO (Zahlungen nach Insolvenzreife) → Paragraf 43 GmbHG (Organhaftung)
 
 ## Triage — Ausloesende Ereignisse
 
-1. **Wer hat das Signal gesandt?** Steuerberater (§ 102 StaRUG), Wirtschaftspruefer, eigene Erkenntnis GF, Bank-Gespraech?
-2. **Datum des Signals?** Tag-genau dokumentieren → Beginn der Haftungszeit-Uhr.
+1. **Wer hat das Signal gesandt?** Berufsträger bei Jahresabschlusserstellung, Wirtschaftsprüfer, Geschäftsleitung, Bank oder anderer Hinweisgeber?
+2. **Datum des Signals?** Taggenau dokumentieren; das Signal ist ein Beweisdatum, bestimmt aber nicht automatisch den objektiven Eintritt der Insolvenzreife.
 3. **Schriftliche Dokumentation?** E-Mail, Aktenvermerk, Protokoll vorhanden?
 4. **Sofortmassnahmen?** Liquiditaetsplanung starten, Anwalt einschalten, Steuerberater beauftragen?
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

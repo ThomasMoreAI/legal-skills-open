@@ -10,7 +10,7 @@ Jurisdiction: `il` · Practice: `trusts-and-estates` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`Israeli Estate Settlement Navigator`](skills/israeli-estate-settlement-navigator-skills-il/) | Operational project manager for settling an estate after a death in Israel. Use when someone has died and the… |
+| [`Israeli Estate Settlement Navigator`](skills/israeli-estate-settlement-navigator-skills-il/) | Operational project manager for settling an estate after a death in Israel. Use when someone has died… |
 | [`Israeli Wills & Inheritance Navigator`](skills/israeli-wills-inheritance-skills-il/) | Not legal advice. Draft an Israeli will in the form the Succession Law 1965 requires and navigate the… |
 
 ## Cold-start context

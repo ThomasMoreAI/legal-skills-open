@@ -1,0 +1,57 @@
+---
+name: ma-npl-portfolio-und-loan-to-own
+title: 'Big Law M&A: NPL Portfolio und Loan-to-own'
+description: 'Für Big Law M&A: NPL Portfolio und Loan-to-own: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grosskanzlei-corporate-ma/skills/ma-npl-portfolio-und-loan-to-own
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Vertiefung gk ma npl portfolio und loan to own
+  path: references/vertiefung-gk-ma-npl-portfolio-und-loan-to-own.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Big Law M&A: NPL Portfolio und Loan-to-own
+
+## Fachlicher Anker
+
+- **Normenradar:** Paragraf 15, 16, 40, 43, 46 GmbHG; Paragraf 76, 93, 111 AktG; HGB-, UmwG-, GWB- und AWV-Bezug nur, wenn der konkrete Vorgang ihn trägt.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: Big Law M&A: NPL Portfolio und Loan-to-own
+- **Prüfachse:** Ordne den konkreten Auftrag nach Gesellschaftsform, Dokument, Entscheidungsträger, Form, Frist, Beleg und Rechtsfolge; Spezialnormen nur nennen, wenn sie den Fall tragen.
+- **Entscheidende Weiche:** Trenne Sachverhalt, Zuständigkeit, Zustimmung, Haftung, Vollzug und taktischen nächsten Schritt.
+- **Arbeitsprodukt:** Liefere eine verwertbare Matrix mit `Tatsache / Norm / Beleg / Wertung / Gegenargument / nächster Schritt` und bei Bedarf einen ausformulierten Textbaustein.
+
+## Wofür dieser Arbeitsgang da ist
+
+Fokus auf praktische DD, Transfer, Servicing, Sicherheiten und Insolvenz-/StaRUG-Hebel.
+
+## Rechts- und Praxisanker
+
+KrZwMG, InsO/StaRUG, BGB, DSGVO, Sicherheiten, ZVG.
+
+## Workflow
+
+1. Hochgeladenes Finanzierungsdokument, Schuldschein, Transfer Notice, LMA Facility Agreement oder NPL-Portfolio zuerst identifizieren.
+2. Parteiperspektive, Deal-Ziel, Fristen, Consent-Erfordernisse, Sicherheiten und Datenschutzfragen klären.
+3. Übertragungsweg, Rechtswirkung, offene Dokumente und Risiken in einer Closing-/Verfahrensmatrix darstellen.
+4. Bei Insolvenz-/Krisenbezug Rang, Anfechtung, Planrechte, Enforcement und Geschäftsleiterpflichten gesondert prüfen.
+
+## Qualitätsgate
+
+- Keine Blindzitate: Rechtsprechung, Behördenpraxis und Schwellenwerte vor tragender Aussage live anhand amtlicher oder frei zugänglicher Quellen prüfen.
+- Keine LMA-, Banken- oder Fondsformularsprache nacherzählen: Nutzer soll das aktuelle Dokument hochladen; der Skill arbeitet dann am konkreten Text.
+- Jede Annahme sichtbar markieren, insbesondere Zahlen, Fristen, regulatorische Rollen, Genehmigungsstand und Parteiperspektive.
+
+## Vertiefung bei Bedarf
+
+- Bei `gk-ma-npl-portfolio-und-loan-to-own` beziehungsweise Strukturiert NPL-Portfoliokauf, distressed secondary loan trade, enforcement und Debt-Equity-Strategie.: [die zusätzliche Vertiefung laden](./references/vertiefung-gk-ma-npl-portfolio-und-loan-to-own.md).

@@ -10,8 +10,8 @@ Jurisdiction: `at` · Practice: `immigration` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`/recht asyl-beschwerde — Asyl-Beschwerde und Rechtsmittel (Procedural)`](skills/recht-asyl-beschwerde-momarcode1/) | Austrian asylum and immigration appeals — drafting Beschwerde against BFA decisions, BVwG proceedings,… |
-| [`/recht asyl — Asyl- und Fremdenrecht (Advisory)`](skills/recht-asyl-momarcode1/) | Austrian asylum and immigration law analysis — asylum procedure (AsylG 2005), residence permits (NAG),… |
+| [`/recht asyl-beschwerde — Asyl-Beschwerde und Rechtsmittel (Procedural)`](skills/recht-asyl-beschwerde-momarcode1/) | Austrian asylum and immigration appeals — drafting Beschwerde against BFA decisions, BVwG proceedings… |
+| [`/recht asyl — Asyl- und Fremdenrecht (Advisory)`](skills/recht-asyl-momarcode1/) | Austrian asylum and immigration law analysis — asylum procedure (AsylG 2005), residence permits (NAG)… |
 
 ## Cold-start context
 

@@ -5,7 +5,7 @@ description: 技術ドメインまたは製品分野の知的財産ランドス�
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/ja/skills/assess-ip-landscape
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -71,7 +71,7 @@ language: ja
    - キーワード検索 + 分類コードを組み合わせて最良のカバレッジを得る
 2. 体系的に検索クエリを構築する:
 
-```
+```text
 Query Construction:
 +-------------------+------------------------------------------+
 | Component         | Example                                  |

@@ -8,7 +8,7 @@ Jurisdiction: `general` · Practice: `healthcare` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`COPYRIGHT NOTICE`](skills/regulatory-drafting/) | Drafts regulatory documents for healthcare workflows using an automated agent. Use this skill when regulatory… |
+| [`COPYRIGHT NOTICE`](skills/regulatory-drafting/) | Drafts regulatory documents for healthcare workflows using an automated agent. Use this skill when… |
 
 ## Cold-start context
 

@@ -1,11 +1,11 @@
 ---
 name: memo-klotzkette
 title: 'Internes Rechtsgutachten: Gutachten-Gerüst'
-description: Erstellt ein Gutachten-Gerüst nach der deutschen Gutachtenmethode (Obersatz — Definition/Norm — Subsumtion — Ergebnis) mit gekennzeichneten Recherchelücken — das Gerüst, nicht die Analyse selbst. Normblöcke sind mit RECHERCHE ERFORDERLICH markiert, die Subsumtion mit STUDENTISCHE ANALYSE, das Ergebnis ist bewusst offen gelassen. Lädt, wenn ein Studierender ein internes Rechtsgutachten strukturieren, eine Fallanalyse aufschreiben oder ein Kurz-Gutachten für einen Fall erstellen muss.
+description: 'Für Internes Rechtsgutachten: Gutachten-Gerüst: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/memo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,13 +14,13 @@ language: de
 
 # Internes Rechtsgutachten: Gutachten-Gerüst
 
-## Zweck
+## Arbeitsweg
 
-Das interne Rechtsgutachten ist das Herzstück studentischen Arbeitens in der Beratungsstelle. Diese Skill liefert das Gerüst nach der deutschen Gutachtenmethode (Obersatz — Norm/Definition — Subsumtion — Ergebnis) und kennzeichnet die Recherchelücken. Die Analyse selbst kommt vom Studierenden.
-
-**Die Analyse ist Aufgabe des Studierenden.** Diese Skill strukturiert; sie schlussfolgert nicht.
-
-Hinweis: Die Gutachtenmethode entspricht dem deutschen juristischen Standard. Kurzgutachten (direkter Einstieg mit Ergebnis, dann Begründung) sind für interne Berichte möglich; für die Ausbildung innerhalb der Beratungsstelle wird die volle Gutachtenform bevorzugt.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -37,13 +37,10 @@ Hinweis: Die Gutachtenmethode entspricht dem deutschen juristischen Standard. Ku
 - **§ 43a Abs. 2 BRAO / § 203 StGB** — Mandatsgeheimnis: Das Gutachten enthält vertrauliche Mandanteninformationen und darf die Beratungsstelle nicht ohne Supervisoren-Freigabe verlassen.
 - Materialrecht des jeweiligen Rechtsgebiets (wird im Gutachten konkretisiert).
 
-### Leitentscheidungen (exemplarisch für häufige Rechtsgebiete)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 1: Rechtsfragen formulieren
@@ -60,7 +57,7 @@ Für jede Frage:
 
 **Obersatz:** Als Fragesatz formuliert (aus Schritt 1).
 
-**Norm/Definition:** Dies ist eine Recherche-Lücke, keine Schlussfolgerung. Was der/die Studierende finden muss:
+**Norm/Definition:** Dies ist eine Recherche-Lücke, keine Schlussfolgerung. Was der/die Studenten finden muss:
 
 > `[RECHERCHE ERFORDERLICH: § 536 BGB — Mietminderung wegen Sachmangel;
 > Voraussetzungen: erheblicher Mangel, Anzeige durch Mieter (§ 536c BGB),
@@ -77,7 +74,7 @@ Falls der Skill einen allgemeinen Normrahmen mit hoher Sicherheit kennt, kann di
 > mindert. Die Minderung tritt kraft Gesetzes ein; einer Erklärung bedarf es nicht.
 > `[PRÜFEN: aktuelle Fassung und einschlägige Rspr. für diesen Sachverhalt]`
 
-**Subsumtion:** Hier steht die Analyse des Studierenden. Gerüst strukturieren, nicht ausfüllen:
+**Subsumtion:** Hier steht die Analyse des Studentenn. Gerüst strukturieren, nicht ausfüllen:
 
 > `[STUDENTISCHE ANALYSE: Norm auf Sachverhalt anwenden. Relevante Tatsachen:
 > - Heizung seit November defekt — seit wann ist dies ein "erheblicher" Mangel?
@@ -94,34 +91,19 @@ Falls der Skill einen allgemeinen Normrahmen mit hoher Sicherheit kennt, kann di
 
 Separater Abschnitt nach den Prüfungsblöcken:
 
-**Stärken (aus dem Sachverhalt — Studierende/-r soll diese testen):**
+**Stärken (aus dem Sachverhalt — Studenten/-r soll diese testen):**
 - [Hilfreiche Tatsache und warum]
 
-**Schwächen (aus dem Sachverhalt — Studierende/-r soll Gewicht abschätzen):**
+**Schwächen (aus dem Sachverhalt — Studenten/-r soll Gewicht abschätzen):**
 - [Problematische Tatsache und warum]
 - `[UNSICHER: ob [X] tatsächlich eine Schwäche ist — hängt von [Norm/Rspr.] zu [Y] ab]`
 
 **Offene Fragen (aus dem Gutachten nicht beantwortbar):**
 - Sachverhaltlich: [Was wissen wir nicht über den Mandanten/die Mandantin?]
 - Rechtlich: [Was erfordert Recherche?]
-- Strategisch: [Ermessensentscheidungen für Studierenden/Supervisor]
-
-## Ausgabeformat
+- Strategisch: [Ermessensentscheidungen für Studentenn/Supervisor]
 
 ```markdown
-═══════════════════════════════════════════════════════════════════════
-  KI-GESTÜTZTES GERÜST — DIE ANALYSE IST VON IHNEN ZU VERFASSEN
-  Jeder [RECHERCHE ERFORDERLICH]- und [STUDENTISCHE ANALYSE]-Block ist
-  eine Aufgabe, kein Platzhalter zum Löschen. Der Bildungswert liegt
-  im Ausfüllen dieser Blöcke.
-═══════════════════════════════════════════════════════════════════════
-
-# Internes Rechtsgutachten: [Mandant] — [Rechtsfrage]
-
-**Datum:** [Datum] | **Verfasser/-in:** [Studierender] | **Für:** [Supervisor]
-
----
-
 ## Kurzergebnis
 
 [Mandat annehmen / Ablehnen, weil X / Weitere Informationen zu Y erforderlich —
@@ -174,7 +156,7 @@ nächster Schritt: Z]
 
 ## Recherchelücken-Zusammenfassung
 
-[Alle RECHERCHE ERFORDERLICH-Blöcke in einer Liste, damit der/die Studierende
+[Alle RECHERCHE ERFORDERLICH-Blöcke in einer Liste, damit der/die Studenten
 sie systematisch abarbeiten kann — und /recherche-start für jede starten kann]
 
 ═══════════════════════════════════════════════════════════════════════
@@ -194,7 +176,7 @@ Normblock enthält: `[RECHERCHE ERFORDERLICH: § 536 BGB, § 536c BGB (Anzeigepf
 - **Unsicherheiten stillschweigend übergehen:** Wenn ein UNSICHER-Flag gesetzt ist, ist das ein Hinweis zur Recherche oder zum Supervisorengespräch, kein Tippfehler.
 - **Kurzergebnis ohne Analyse:** Das Kurzergebnis am Anfang des Gutachtens ist eine Orientierung; es muss durch die Prüfungsblöcke belegt sein.
 - **Gutachten verlässt Klinik ohne Freigabe:** Das interne Gutachten enthält vertrauliche Mandanteninformationen (§ 203 StGB, § 43a Abs. 2 BRAO). Kein Versand ohne Supervisoren-Freigabe.
-- **Falsches Prüfungsschema:** Das Gerüst folgt der üblichen deutschen Gutachtenreihenfolge. Abweichende Prüfungsreihenfolgen (z. B. Prozessvoraussetzungen zuerst im Verwaltungsrecht) müssen vom Studierenden eigenständig berücksichtigt werden.
+- **Falsches Prüfungsschema:** Das Gerüst folgt der üblichen deutschen Gutachtenreihenfolge. Abweichende Prüfungsreihenfolgen (z. B. Prozessvoraussetzungen zuerst im Verwaltungsrecht) müssen vom Studentenn eigenständig berücksichtigt werden.
 
 ## Quellenpflicht
 
@@ -204,7 +186,4 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 ---
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Befund: KORRIGIERT. Skill hatte falschen Thementext: "Verbraucherrecht: Widerruf nach § 355 BGB". Echtes Thema: Eigenbedarfskündigung; Suizidgefahr des Mieters als Haertegrund (§ 574 BGB); Fortsetzung des Mietverhaeltnisses auf unbestimmte Zeit. Fundstelle korrigiert: NZM 2023 35 Rn. 24 (statt NJW 2023 142 Rn. 20). Quelle: dejure.org/2022,33020.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

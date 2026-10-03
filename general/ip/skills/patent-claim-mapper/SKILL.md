@@ -5,11 +5,14 @@ description: Use when mapping patent claims to products, analyzing patent infrin
 author: aipoch
 author_url: https://github.com/aipoch/medical-research-skills/tree/main/scientific-skills/Evidence Insight/patent-claim-mapper
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
 language: en
+sources:
+- title: Audit reference
+  path: references/audit-reference.md
 ---
 
 > **Source**: [https://github.com/aipoch/medical-research-skills](https://github.com/aipoch/medical-research-skills)

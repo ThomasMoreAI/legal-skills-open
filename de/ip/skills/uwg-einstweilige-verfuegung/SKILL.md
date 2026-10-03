@@ -1,0 +1,197 @@
+---
+name: uwg-einstweilige-verfuegung
+title: Einstweilige Verfuegung im UWG-Verfahren beantragen oder abwehren bei dringenden Wettbewerbs- oder Markenrechtsverletzun
+description: 'Für Uwg Einstweilige Verfügung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/uwg-einstweilige-verfuegung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Einstweilige Verfuegung im UWG-Verfahren beantragen oder abwehren bei dringenden Wettbewerbs- oder Markenrechtsverletzungen
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Einstweilige Verfuegung im UWG-Verfahren beantragen oder abwehren bei dringenden Wettbewerbs- oder Markenrechtsverletzungen. §§ 935 940 ZPO §§ 8 12 UWG § 14 MarkenG. Prüfraster: Verfuegungsanspruch Verfuegungsgrund Dringlichkeit Glaubhaftmachung Verhältnismäßigkeit. Output: Verfuegungsantrag oder Schutzschrift. Abgrenzung: nicht für Hauptsacheverfahren.
+
+### UWG-Einstweilige Verfuegung
+
+## Triage zu Beginn
+
+1. **Eigene Kenntnis des Verstosses** — wann? (Selbstwiderlegungsfrist: max. 4 Wochen ab Kenntnis)
+2. **Wettbewerbs-Verstoss:** Irreführende Werbung (§ 5 UWG), vergleichende Werbung (§ 6 UWG), Belaestigung (§ 7 UWG), Rechtsbruch (§ 3a UWG), Mitbewerberschutz (§ 4 UWG)?
+3. **Aktivlegitimation** gemäß § 8 Abs. 3 UWG: Mitbewerber, qualifizierter Wirtschaftsverband, Kammer?
+4. **Abmahnung versandt?** Ohne Abmahnung: Kostenrisiko bei sofortigem Verfuegungsantrag (§ 13 Abs. 3 UWG).
+5. **Schutzschrift hinterlegt** (Verteidigung)? Wenn ja: muendliche Verhandlung wahrscheinlich.
+6. **Missbrauch prüfe** (§ 8c UWG): Serienabmahner-Check vor jedem Antrag.
+
+## Zentrale Normen und Paragrafenkette
+
+§ 3 ff. UWG (Tatbestand) → § 8 Abs. 1 UWG (Unterlassung) → § 8 Abs. 3 UWG (Aktivlegitimation) → § 13 UWG (Abmahnverfahren) → § 12 Abs. 1 UWG (Dringlichkeit) → § 8c UWG (Missbrauch) → §§ 935, 940 ZPO (Eilverfahren) → § 924 ZPO (Widerspruch) → § 14 UWG (Gerichtsstand)
+
+## Dringlichkeit und Selbstwiderlegung
+
+```
+Kenntnis-Datum feststellen (Tag und Uhrzeit moeglichst genau)
+ ↓
+Liegt Kenntnis weniger als 4 Wochen zurueck?
+ Ja → Dringlichkeit noch gegeben; sofort handeln
+ Nein → Dringlichkeit widerlegt; nur Hauptsacheklage moeglich
+
+Hat Mandant nach Kenntnis noch laenger zugewartet?
+ → Zoegevorgehen dokumentieren, ggf. erklaeren
+ → Gericht kann trotzdem Dringlichkeit verneinen
+```
+
+## Schritt-für-Schritt-Workflow
+
+```
+Schritt 1: Dringlichkeit pruefen
+ → Kenntnisdatum exakt feststellen
+ → 4-Wochen-Frist berechnen
+ → Sofort: Abmahnung vorbereiten
+
+Schritt 2: Abmahnung versenden
+ → Inhalt: Verstoss, Unterlassungsanspruch, strafbewehrte UE, Frist 7-10 Tage
+ → Kostenerstattungsanspruch sichern § 13 Abs. 3 UWG
+ → Per Fax + Einschreiben (Empfangsbekenntnis!)
+
+Schritt 3: Reaktion abwarten (7-10 Tage)
+ → Modifizierte UE akzeptable? → Anti-Hammer-Klausel beachten
+ → Keine Reaktion → Verfuegungsantrag vorbereiten
+ → Abweisung → Verfuegungsantrag einreichen
+
+Schritt 4: Verfuegungsantrag erstellen
+ → Rubrum, Verfuegungsantrag, Tatsachenvortrag, Rechtswuerdigung
+ → Eidesstattliche Versicherung (EV) des Mandanten
+ → Urkunden-Belege (Screenshots datiert, Kaufbelege)
+ → Streitwertangabe (ueblicherweise 10.000-100.000 EUR)
+
+Schritt 5: Gerichtsstand waehlen § 14 UWG
+ → LG am Ort der Niederlassung des Antragsgegners
+ → LG am Ort des Handlungsorts
+ → Forum-Shopping zulaessig — spezialisierte Kammern bevorzugen
+
+Schritt 6: Schutzschrift des Gegners pruefen
+ → Im Zentralen Schutzschriftenregister (ZSSR) recherchieren
+ → Wenn vorhanden: muendliche Verhandlung vorbereiten
+
+Schritt 7: Nach Erlass der Verfuegung
+ → Widerspruch des Beklagten abwarten (14 Tage § 924 ZPO)
+ → Hauptsacheklage ggf. einreichen (zur dauerhaften Unterlassung)
+```
+
+## Output-Template Abmahnung UWG (Auszug)
+
+**Adressat:** Gegenseite — Tonfall scharf-fristsetzend
+
+```
+[KANZLEI]
+[ORT, DATUM]
+
+Abmahnung wegen [VERSTOSSTATKURZBEZEICHNUNG]
+
+An: [FIRMA BEKLAGTE], [ADRESSE]
+
+Sehr geehrte Damen und Herren,
+
+wir vertreten [MANDANT]. Wir mahnen Sie wegen [KURZBESCHREIBUNG DES VERSTOSSES]
+ab und fordern Sie auf, bis zum [DATUM, ca. 7-10 Werktage] die beigefuegte
+Unterlassungserklaerung zu unterzeichnen und uns zu uebersenden.
+
+Verstosskurzdarstellung:
+[DETAILLIERTE BESCHREIBUNG: Werbeanzeige/Website/Email vom TT.MM.JJJJ, Inhalt,
+Verstoß gegen § [X] UWG]
+
+Belege: Anlage A1 (Screenshot vom TT.MM.JJJJ)
+
+Im Unterlassungsfall werden wir ohne weitere Ankuendigung Antrag auf Erlass einer
+einstweiligen Verfuegung stellen.
+
+Unsere Aufwendungen für diese Abmahnung betragen [BETRAG] EUR (berechnet auf
+Basis Streitwert [BETRAG] EUR).
+
+Mit freundlichen Gruessen
+[KANZLEI / NAME]
+```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Output-Template Verfuegungsantrag (Grundgeruest)
+
+**Adressat:** LG [ORT], [Kammer für UWG] — Tonfall sachlich-juristisch
+
+```
+An das Landgericht [ORT]
+[Kammer für Handelssachen / UWG-Kammer]
+
+ANTRAG AUF ERLASS EINER EINSTWEILIGEN VERFUEGUNG
+
+des/der [ANTRAGSTELLER], [ADRESSE]
+— Antragsteller/in —
+Prozessbevollmaechtigte: [KANZLEI]
+
+gegen
+
+[ANTRAGSGEGNER], [ADRESSE]
+— Antragsgegner/in —
+
+I. ANTRAG
+
+Der Antragsgegnerin wird bei Meidung eines Ordnungsgeldes bis EUR 250.000,
+ersatzweise Ordnungshaft, untersagt, im geschaeftlichen Verkehr [GENAUE BESCHREIBUNG
+DER UNTERSAGTEN HANDLUNG].
+
+II. BEGRUENDUNG
+
+A. Tatsachen
+[CHRONOLOGISCH, MIT DATUM UND BELEGEN — Screenshot K1, Kaufbeleg K2 etc.]
+
+B. Dringlichkeit
+Erstmalige Kenntnis des Antragstellers am [DATUM]. Seitdem sind [X] Tage vergangen.
+Die 4-Wochen-Frist des § 12 Abs. 1 UWG ist gewahrt.
+
+C. Anspruchsgrundlage
+§ 8 Abs. 1 i.V.m. § [X] UWG
+
+III. GLAUBHAFTMACHUNG
+Eidesstattliche Versicherung des Antragstellers als Anlage K [X].
+
+Streitwert: [BETRAG] EUR
+
+[ORT, DATUM, UNTERSCHRIFT]
+ANLAGEN: K1 [Screenshot], K2 [Kaufbeleg], K3 [Eidesstattliche Versicherung]
+```
+
+## Vertiefung: Vertragsstrafe bei UWG-Verstoss
+
+| Verstosstypus | Uebliche Höhe | Grundlage |
+|---------------|---------------|---------|
+| Irreführende Werbung klein | 5.001-10.000 EUR | Hamburger Brauch |
+| Irreführende Werbung groß | 15.000-30.000 EUR | Bekanntheitsgrad |
+| Wiederholungsverstoß | mind. Verdoppelung | § 339 BGB Angemessenheit |
+
+## Cross-Refs
+
+- `fachanwalt-gewerblicher-rechtsschutz-abmahnung-uwg` — vollstaendige UWG-Abmahnung
+- `fachanwalt-gewerblicher-rechtsschutz-abmahnung-vergleich-wipo` — Vergleichsstrategie nach Abmahnung
+- `gewerblicher-rechtsschutz/schutzschrift-eilverfuegung` — Schutzschrift auf Gegenseite
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

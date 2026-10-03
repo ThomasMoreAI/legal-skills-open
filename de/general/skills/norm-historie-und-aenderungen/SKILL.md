@@ -1,11 +1,11 @@
 ---
 name: norm-historie-und-aenderungen
 title: Norm-Historie und Änderungen
-description: 'Prüft die Norm-Historie: geltende Fassung zum massgeblichen Zeitpunkt, Übergangsvorschriften, intertemporales Recht, aenderungsrelevante Gesetzgebungsverfahren. Warnt bei Normen, die seit dem Wissensstand des Systems geaendert worden sein koennten.'
+description: 'Für Norm-Historie und Änderungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/subsumtions-pruefer/skills/norm-historie-und-aenderungen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -13,6 +13,14 @@ language: de
 ---
 
 # Norm-Historie und Änderungen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn — kläre vor der Norm-Historienprüfung
 
@@ -22,10 +30,6 @@ language: de
 4. Hat der Sachverhalt EU-Bezug? → Anwendungsbeginn und Übergangszeitraum der EU-Verordnung prüfen
 5. Gibt es Übergangsvorschriften, die alte Rechtslage für Altfälle erhalten?
 
-## Zweck
-
-Subsumtion setzt voraus, dass die richtige Normfassung angewendet wird. Für zurückliegende Sachverhalte gilt das Recht zum Zeitpunkt des relevanten Ereignisses (Tatzeit, Vertragsschluss, Bescheiderlass).
-
 ## Zentrale Normen zum intertemporalen Recht
 
 - § 2 StGB — lex mitior: Mildestes Gesetz zwischen Tat und Urteil gilt
@@ -33,10 +37,6 @@ Subsumtion setzt voraus, dass die richtige Normfassung angewendet wird. Für zur
 - Art. 20 Abs. 3 GG — Rechtsstaatsprinzip: Vertrauensschutz gegen echte Rückwirkung
 - Art. 49 GRCh — Rückwirkungsverbot auf Unionsebene
 - Art. 99 KI-VO — gestaffeltes Inkrafttreten (August 2024 - August 2027)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfungsschritte
 
@@ -56,9 +56,9 @@ Das System fragt: Wann hat das relevante Ereignis stattgefunden?
 ```
 Liegt das Ereignis vor einer bekannten Normänderung?
 ├─ Ja → alte Normfassung anwenden (intertemporales Recht)
-│       → Übergangsvorschriften prüfen
+│ → Übergangsvorschriften prüfen
 └─ Nein → aktuelle Normfassung anwenden
-          → gesetze-im-internet.de verifizieren
+ → gesetze-im-internet.de verifizieren
 ```
 
 Bekannte wichtige Zäsuren:
@@ -85,9 +85,6 @@ Das System unterscheidet:
 
 Das System gibt in jedem Fall den Hinweis: "Diese Angaben zur Normfassung entsprechen dem Wissensstand des Systems. Für Änderungen danach ist gesetze-im-internet.de oder eur-lex.europa.eu zu prüfen."
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 - Maßgeblicher Zeitpunkt (Nutzerangabe)
@@ -100,7 +97,4 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen und der vom Nutzer gewählten Norm. Falsche Normwahl oder falsche Sachverhaltsdarstellung kann das gesamte Ergebnis entwerten.
 
-<!-- AUDIT 27.05.2026 bundle_044
-  → Falsche Rechtsprechungszeile entfernt
-  → kein gesicherter Ersatz für lex-temporis-actus-Aussage gefunden; Grundsatz weiterhin durch BVerfG Art. 20 Abs. 3 GG / lizenzpflichtige Literaturquelle BGB Einl. gedeckt
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

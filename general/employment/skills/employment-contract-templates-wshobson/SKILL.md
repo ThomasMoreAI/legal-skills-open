@@ -5,11 +5,14 @@ description: Create employment contracts, offer letters, and HR policy documents
 author: wshobson
 author_url: https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance/skills/employment-contract-templates
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment
 language: en
+sources:
+- title: Details
+  path: references/details.md
 ---
 
 # Employment Contract Templates

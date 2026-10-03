@@ -1,24 +1,21 @@
 ---
 name: launch-pruefung
 title: Produkt-Launch-Freigabeprüfung
-description: 'Produktmanager oder Rechtsabteilung will vor dem Launch prüfen, ob das Produkt oder Feature produktrechtlich freigegeben werden kann. Vollständige rechtliche Freigabeprüfung gegen konfiguriertes Prüfrahmenwerk und Risikokalibrierung. Normen ProdSG Produktsicherheitsgesetz Marktüberwachung CE-Konformität EU-Produktsicherheits-VO 2023/988. Prüfraster KI-VO-Anforderungen UWG-Verstoßrisiken DSGVO DSA Verbraucherschutz BGB. Output Launch-Freigabe-Checkliste mit Ampel-Status, offenen Punkten und Eskalations-Empfehlung. Abgrenzung: feature-risikobewertung für vertiefte Einzel-Risiko-Analyse.'
+description: 'Für Produkt-Launch-Freigabeprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/produktrecht/skills/launch-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
+sources:
+- title: Seven category framework
+  path: references/seven-category-framework.md
 ---
 
 # Produkt-Launch-Freigabeprüfung
-
-## Zweck
-
-Dieser Skill führt eine vollständige produktrechtliche Freigabeprüfung durch: Er liest das PRD oder die technische Produktbeschreibung, prüft jede Kategorie des konfigurierten Prüfrahmenwerks und kalibriert die Befunde gegen die hinterlegten Risikoschwellen. Das Ergebnis ist ein Prüfvermerk, den ein Produktmanager liest und daraus genau weiß, was vor der Markteinführung erledigt sein muss.
-
-Der Skill lädt automatisch, wenn der Nutzer eine Markteinführung, eine CE-Prüfung, eine Konformitätsbewertung oder eine Produktsicherheitsprüfung anspricht.
 
 ## Eingaben
 
@@ -44,12 +41,10 @@ Der Skill lädt automatisch, wenn der Nutzer eine Markteinführung, eine CE-Prü
 **Produkthaftung**
 - §§ 1–15 ProdHaftG: Haftung des Herstellers für fehlerhafte Produkte, unabhängig vom Verschulden
 - §§ 823 Abs. 1, 826 BGB: deliktische Haftung (Parallelweg)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Verbraucher- und Wettbewerbsrecht**
 - §§ 433 ff. BGB: Kaufvertrag, Gewährleistung, Beschaffenheitsgarantie (§ 443 BGB)
 - § 5 UWG: Irreführende Werbung (betrifft auch Produktbeschreibungen)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Marktüberwachung**
 - Marktüberwachungs-VO (EU) 2019/1020
@@ -58,6 +53,7 @@ Der Skill lädt automatisch, wenn der Nutzer eine Markteinführung, eine CE-Prü
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
 ## Ablauf
 
 ### Schritt 1: Eingaben erfassen
@@ -124,7 +120,7 @@ Jeden Befund gegen die Kalibrierungstabelle in der CLAUDE.md abgleichen:
 ### Schritt 5: Prüfvermerk zusammenstellen
 
 ```markdown
-# Produkt-Launch-Prüfvermerk: [Produktname / Feature-Name]
+### Produkt-Launch-Prüfvermerk: [Produktname / Feature-Name]
 
 **Geprüft:** [Datum] | **Launch-Datum:** [Datum] | **Prüfer:** [Name]
 **PRD:** [Link] | **Ticket:** [Link, sofern verbunden]
@@ -177,10 +173,6 @@ Jeden Befund gegen die Kalibrierungstabelle in der CLAUDE.md abgleichen:
 
 Der bereinigte Block enthält weder rechtliche Begründungen noch interne Überlegungen, keine Normenverweise, keine Eskalationsnotizen.
 
-## Ausgabeformat
-
-Prüfvermerk im internen Format gemäß CLAUDE.md. Falls kein Hausformat vorgegeben, Standard aus Schritt 5 verwenden. Immer beide Ausgaben erzeugen: vollständiger Vermerk und bereinigter Tracker-Kommentar.
-
 ## Beispiel
 
 **Sachverhalt:** Neues Haushaltsgerät mit WLAN-Schnittstelle soll in Deutschland und Österreich auf den Markt gebracht werden.
@@ -210,4 +202,6 @@ Jede Norm, Entscheidung oder Behördenaussage im Prüfvermerk muss belegt sein:
 
 Quellen, die nur aus Modellwissen stammen, nicht als zitierfähige Fundstelle ausgeben. Pinpoint-Zitate nur verwenden, wenn Randnummer, Seite oder amtlicher Leitsatz aus der konkreten Quelle geprüft wurde.
 
-Hinweis: Dieser Skill strukturiert die Launch-Freigabe so, dass juristische und technische Teams Risiken früh sehen, sauber dokumentieren und gezielt entscheiden können; die fachliche Endverantwortung bleibt beim zuständigen Menschen.
+Hinweis: Strukturiere die Launch-Freigabe so, dass juristische und technische Teams Risiken früh sehen, sauber dokumentieren und gezielt entscheiden können; die fachliche Endverantwortung bleibt beim zuständigen Menschen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

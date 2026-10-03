@@ -1,11 +1,11 @@
 ---
 name: verkehrsowi-rechtsprechungsrecherche
 title: Rechtsprechungsrecherche OWi-Verkehrsrecht
-description: 'Rechtsprechungsrecherche für OWi-Verkehrsmandate: Anwalt sucht OLG-Entscheidungen zu Messverfahren, Rohmessdaten und Fahrverbot. Normen: §§ 24 StVG, 25 StVG, 4 StVG; OWiG §§ 67 und 79 und 80. Prüfraster: OLG-Datenbanken (amtliche oder frei zugängliche Quellen; lizenzierte Datenbanken nur bei vorhandenem Zugang), Suchstrategien für Messverfahren/Rohmessdaten/Verjährung/Fahrverbot, Kernzitate BVerfG, BGH, OLGs. Output Fundstellen-Liste mit Aktenzeichen, Datum, Leitsatz, Verwertungsnotiz. Abgrenzung: Messverfahren-Details siehe verkehrsowi-messverfahren-geschwindigkeit; Corporate-Rspr-Recherche siehe corporate-kanzlei-rechtsprechungsrecherche.'
+description: 'Für Rechtsprechungsrecherche OWi-Verkehrsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verkehrsowi-verteidiger/skills/verkehrsowi-rechtsprechungsrecherche
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,12 +14,24 @@ language: de
 
 # Rechtsprechungsrecherche OWi-Verkehrsrecht
 
+## Arbeitsbereich
+
+Rechtsprechungsrecherche für OWi-Verkehrsmandate: Anwalt sucht OLG-Entscheidungen zu Messverfahren, Rohmessdaten und Fahrverbot. Normen: §§ 24 StVG, 25 StVG, 4 StVG; OWiG §§ 67 und 79 und 80. Prüfraster: OLG-Datenbanken (amtliche oder frei zugängliche Quellen; lizenzierte Datenbanken nur bei vorhandenem Zugang), Suchstrategien für Messverfahren/Rohmessdaten/Verjährung/Fahrverbot, Kernzitate BVerfG, BGH, OLGs. Output Fundstellen-Liste mit Aktenzeichen, Datum, Leitsatz, Verwertungsnotiz. Abgrenzung: Messverfahren-Details siehe verkehrsowi-messverfahren-geschwindigkeit; Corporate-Rspr-Recherche siehe corporate-kanzlei-rechtsprechungsrecherche. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: § 67 OWiG Einspruch 2 Wochen; Verjährung nach Delikt und anwendbarer Fassung (aktuell § 26 Abs. 3 StVG grundsätzlich 6 Monate bei § 24 Abs. 1, §§ 31–33 OWiG); Fahrverbot § 25 Abs. 2, 3 und 6 StVG (grundsätzlich spätestens 1 Monat nach Rechtskraft wirksam, Viermonatsprivileg nur bei erfüllten Voraussetzungen; Verbotsfrist gesondert); § 79 OWiG Rechtsbeschwerde 1 Woche. Historische Fassung und Übergang prüfen; [amtlich belegte Einzelheiten](../../references/verkehrsowi-leitplanken.md).
+- Tragende Normen verifizieren: StVG §§ 24, 24a, 25, 26, OWiG §§ 17, 26a, 47, 65, 66, 67, 68, 73, 74, 79, 80, BKatV, BußgeldkatalogVO, StVO, FZV, MessgeräteG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Betroffener, Verteidiger, Bußgeldstelle (Polizei/Verwaltungsbehörde), Amtsgericht (Bußgeldrichter), OLG-Senat, PTB (Eichbehörde).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zeugenfragebogen, Anhörungsbogen, Bußgeldbescheid, Einspruchsschrift, Messprotokoll, Eichschein, Hauptverhandlungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
 1. **Konkrete Rechtsfrage?** — "Darf der Betroffene Rohmessdaten anfordern?" vs. "War die Eichung gueltig?" — Suchstrategien verschieden.
-2. **Gericht?** — OLG des jeweiligen Bundeslandes fuer Rechtsbeschwerde-Entscheidungen; BGH fuer grundsaetzliche Fragen; BVerfG fuer Grundrechtsfragen.
+2. **Gericht?** — OLG des jeweiligen Bundeslandes für Rechtsbeschwerde-Entscheidungen; BGH für grundsaetzliche Fragen; BVerfG für Grundrechtsfragen.
 3. **Verifikation Pflicht:** Aktenzeichen, Datum und Leitsatz vor Verwendung in offener Quelle (bundesverfassungsgericht.de, bundesgerichtshof.de, openjur.de, dejure.org) aufrufen — nicht aus Modellwissen.
-4. **Messgeraet-spezifische Rspr.?** — Fuer PoliScan, ESO, TraffiStar gibt es geraetespezifische OLG-Entscheidungen.
+4. **Messgeraet-spezifische Rspr.?** — Für PoliScan, ESO, TraffiStar gibt es geraetespezifische OLG-Entscheidungen.
 
 ## Zentrale Rechtsprechungs-Kette OWi (Stand Mai 2026)
 
@@ -35,7 +47,7 @@ Alle Zitate vor Versand in offener Quelle (BGH-Datenbank, openjur.de, dejure.org
 - OLG Köln, Beschl. v. ... (NZV 2021, 42 — Aktenzeichen vor Versand verifizieren): Vollständige Messakte einschließlich Rohmessdaten.
 
 ### Verjährung
-- OLG Hamm, NZV 2020, 418 — 3-Monats-Frist § 26 Abs. 3 StVG (Aktenzeichen vor Versand in offener Quelle prüfen)
+- Historischer, ungeprüfter Recherchehinweis: OLG Hamm, NZV 2020, 418 — frühere 3-Monats-Frist des § 26 Abs. 3 StVG. Aktenzeichen und Inhalt vor Nutzung amtlich ermitteln; kein Beleg für die aktuelle Sechsmonatsregel. Normfassung und zeitliche Übertragbarkeit gesondert prüfen.
 - OLG Düsseldorf, NZV 2020, 526 — Verjährung bei Verkehrs-OWi (Aktenzeichen vor Versand prüfen)
 
 ### Zustellung / Fristbeginn
@@ -50,7 +62,7 @@ Alle Zitate vor Versand in offener Quelle (BGH-Datenbank, openjur.de, dejure.org
 
 ### Fahrverbot Haertefall
 - OLG Frankfurt, Beschl. v. 18.3.2021, 2 Ss OWi 148/21 (NZV 2021, 448) — Berufsbedingte Angewiesenheit allein kein Haertefall. Quelle: openjur.de bzw. Justiz Hessen.
-- OLG München, NZV 2021, 54 — Vier-Monats-Frist § 25 Abs. 2a StVG (Aktenzeichen verifizieren)
+- Historischer, ungeprüfter Recherchehinweis: OLG München, NZV 2021, 54 — Viermonatsregel im früheren § 25 Abs. 2a StVG. Aktenzeichen und Inhalt vor Nutzung amtlich ermitteln; heute steht das Privileg in Abs. 3. Die ältere Absatzangabe nicht als aktuellen Normstand ausgeben.
 
 ### Fahreridentifikation
 - BVerfG-Linie zu § 31a StVG (Fahrtenbuchauflage / Halterauskunft) konkret aus bundesverfassungsgericht.de aufrufen
@@ -59,13 +71,13 @@ Alle Zitate vor Versand in offener Quelle (BGH-Datenbank, openjur.de, dejure.org
 ## Suchstrategien Datenbanken
 
 **juris:**
-- Normsuche: "§ 26 StVG" + "Verjaehrung" + "Verkehr"
+- Normsuche: "§ 26 StVG" + "Verjährung" + "Verkehr"
 - Normen-Kombination: "§ 25 StVG" + "Haertefall" + "Beruf"
 - Volltext: "Rohmessdaten" + "Verwertungsverbot"
 - Gericht-Filter: OLG + BVerfG; Zeitraum 2019-2024
 
 **beck-online:**
-- NZV durchsuchen (Neue Zeitschrift fuer Verkehrsrecht)
+- NZV durchsuchen (Neue Zeitschrift für Verkehrsrecht)
 - DAR durchsuchen (Deutsches Autorecht)
 - Themenfilter: Bussgeldbescheidverfahren
 
@@ -78,26 +90,26 @@ Alle Zitate vor Versand in offener Quelle (BGH-Datenbank, openjur.de, dejure.org
 
 | Abkuerzung | Zeitschrift |
 |-----------|------------|
-| NZV | Neue Zeitschrift fuer Verkehrsrecht |
+| NZV | Neue Zeitschrift für Verkehrsrecht |
 | DAR | Deutsches Autorecht |
 | NZV-RR | NZV-Rechtsprechungs-Report |
 | VRS | Verkehrsrechts-Sammlung |
 | NJW | Neue Juristische Wochenschrift |
-| NStZ | Neue Zeitschrift fuer Strafrecht |
-| zfs | Zeitschrift fuer Schadensrecht |
+| NStZ | Neue Zeitschrift für Strafrecht |
+| zfs | Zeitschrift für Schadensrecht |
 
-## Schritt-fuer-Schritt-Recherche-Workflow
+## Schritt-für-Schritt-Recherche-Workflow
 
 1. **Rechtsfrage praezisieren:** "Kann Betroffener Rohmessdaten verlangen?"
 2. **Normenkette aufbauen:** Art. 103 GG, § 77 OWiG, § 49 OWiG, § 147 StPO.
 3. **Datenbanksuche mit Normen:** "Art. 103 GG Rohmessdaten OWi".
 4. **Verifikation in offener Quelle:** BVerfG-Datenbank (bundesverfassungsgericht.de), BGH-Datenbank, openjur.de, dejure.org; bei Bundesländern: nrwe.de, justiz.hessen.de, justiz.bayern.de etc. — niemals Modellwissen.
-5. **Kernaussage paraphrasieren** fuer Schriftsatz.
+5. **Kernaussage paraphrasieren** für Schriftsatz.
 6. **Vollstaendiges Zitat:** Gericht + Datum + Az + Fundstelle + Randnummer wenn vorhanden.
 
 ## Harte Leitplanken
 
 - Keine erfundenen Aktenzeichen oder Fundstellen.
 - Bei Unsicherheit: konservativen Klassiker nennen (BGH BGHSt 43, 277).
-- OLG-Rspr. ist regional verschieden — passendes OLG des Bundeslandes pruefen.
+- OLG-Rspr. ist regional verschieden — passendes OLG des Bundeslandes prüfen.
 - Anwaltliche Endkontrolle bei Zitaten in Schriftsaetzen.

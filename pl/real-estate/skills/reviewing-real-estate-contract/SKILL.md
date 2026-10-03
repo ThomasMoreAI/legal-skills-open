@@ -1,18 +1,18 @@
 ---
 name: reviewing-real-estate-contract
-title: reviewing-real-estate-contract
+title: law-pl-reviewing-real-estate-contract
 description: Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW (działy I–IV), obciążenia (hipoteka, służebności, dożywocie), prawo pierwokupu (KOWR, gmina, spółdzielnia, SP), forma aktu notarialnego pod rygorem nieważności (art. 158 KC), zadatek vs zaliczka (art. 394 KC), PCC-3 2% (fallback) vs VAT 8%/23% (fallback), rejestry (ekw.ms.gov.pl, EGiB, MPZP, zabytki)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-real-estate-contract
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: real-estate
 language: pl
 ---
 
-# reviewing-real-estate-contract
+# law-pl-reviewing-real-estate-contract
 
 Umowa sprzedaży nieruchomości — **forma aktu notarialnego pod rygorem nieważności** (art. 158 KC). Projekt aktu prowadzi notariusz; rola prawnika — wczytać projekt, wskazać ryzyka klientowi przed podpisem, często równolegle sporządzić **umowę przedwstępną** (art. 389 KC) zabezpieczającą pozycję klienta na czas finansowania (kredyt, BGK, środki własne). Ten skill — checklist audytu i lista rejestrów do weryfikacji przed podpisaniem.
 
@@ -254,8 +254,8 @@ VI. DALSZE DZIAŁANIA
 
 ## Kiedy ten skill uzupełniany jest agentem / innym skillem
 
-- Dla sporządzenia umowy przedwstępnej — agent `pl:contract-drafter` (sporządzanie).
-- Dla weryfikacji sprzedawcy-spółki — skill `pl:searching-krs`.
-- Dla sporu wokół nieważności umowy lub wad fizycznych / prawnych — agent `pl:claim-drafter`.
-- Dla spraw spadkowych (dział spadku przed sprzedażą) — agent `pl:inheritance-drafter`.
-- Dla spraw rodzinnych (rozdzielność majątkowa, podział majątku) — agent `pl:family-drafter`.
+- Dla sporządzenia umowy przedwstępnej — agent `law-pl-contract-drafter` (sporządzanie).
+- Dla weryfikacji sprzedawcy-spółki — skill `law-pl-searching-krs`.
+- Dla sporu wokół nieważności umowy lub wad fizycznych / prawnych — agent `law-pl-claim-drafter`.
+- Dla spraw spadkowych (dział spadku przed sprzedażą) — agent `law-pl-inheritance-drafter`.
+- Dla spraw rodzinnych (rozdzielność majątkowa, podział majątku) — agent `law-pl-family-drafter`.

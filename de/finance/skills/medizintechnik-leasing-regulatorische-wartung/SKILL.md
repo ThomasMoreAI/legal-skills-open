@@ -1,0 +1,114 @@
+---
+name: medizintechnik-leasing-regulatorische-wartung
+title: 'Medizintechnik-Leasing: Regulatorische Anforderungen und Wartung'
+description: 'Für Medizintechnik-Leasing: Regulatorische Anforderungen und Wartung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/leasingrecht-praxis/skills/medizintechnik-leasing-regulatorische-wartung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: finance
+language: de
+---
+
+# Medizintechnik-Leasing: Regulatorische Anforderungen und Wartung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Regulatorischer Rahmen
+
+- **EU-MDR (VO 2017/745)**: Medizinprodukte Klasse I–III; Konformitätsbewertung, CE-Kennzeichnung, UDI
+- **EU-IVDR (VO 2017/746)**: In-vitro-Diagnostika
+- **MPG (bis 2021) / MPDG (ab 2021)**: Deutsches Medizinprodukterecht
+- **MPBetreibV**: Pflichten des Betreibers (= Leasingnehmer in der Regel)
+- **DGSV / DIN EN ISO**: Hygiene- und Wartungsstandards für Medizinprodukte
+
+## Betreiberverantwortung (MPBetreibV)
+
+Der **Betreiber** ist gemäß MPBetreibV diejenige Person oder Organisation, die das Medizinprodukt im Betrieb nutzt. Im Leasingverhältnis ist das typischerweise der **Leasingnehmer** (Krankenhaus, Arztpraxis, Labor).
+
+### Kernpflichten des Betreibers (LN)
+- Bestellung eines Beauftragten für Medizinproduktesicherheit (§ 83 MPDG ab 5 Produkten)
+- Führung des Medizinproduktebuchs (Bestandsverzeichnis, §§ 13, 14 MPBetreibV)
+- Sicherheitsüberprüfungen (STK) gemäß Herstellervorgabe und MPBetreibV
+- Messtechnische Kontrollen (MTK) für bestimmte Gerätetypen
+- Einweisung der Anwender (§ 10 MPBetreibV)
+- Meldepflicht bei Vorkommnissen (§§ 85 ff. MPDG)
+
+### Folgen von Pflichtverletzungen
+- Ordnungswidrigkeit (§ 97 MPDG): Bußgeld bis 30.000 €
+- Strafbarkeit bei Körperverletzung durch fehlerhafte Wartung (§§ 223, 229 StGB)
+- Zivilrechtliche Haftung: LN haftet Patienten aus § 630a BGB (Behandlungsvertrag) und deliktisch (§ 823 BGB)
+
+## Wartung im Leasingvertrag
+
+### Wer ist wartungspflichtig?
+- Leasingvertrag: Häufig LN (Betreiber) ist wartungspflichtig
+- Full-Service-Leasing: LG/Hersteller übernimmt Wartung
+- Wichtig: Unabhängig von vertraglicher Vereinbarung ist MPBetreibV zwingend → LN bleibt Betreiber
+
+### Wartungsnachweis
+- Jährliche Wartungsprotokolle (Serviceheft/CMMS)
+- STK-Sticker auf Gerät
+- Fehlende Wartung → Minderwert bei Rückgabe UND regulatorisches Risiko
+
+## Zulassung und CE-Kennzeichnung
+
+- Beim Abschluss des Leasingvertrags: Ist das Produkt CE-gekennzeichnet gemäß MDR?
+- Für ältere Geräte: MDR-Übergangsfristen ausgelaufen? (MDR gilt ab 26.05.2021; Klasse III/IIb bis 2026)
+- Wenn CE-Kennzeichnung wegfällt während Leasinglaufzeit: LN darf Gerät nicht mehr betreiben!
+
+## Haftungsverteilung
+
+| Sachverhalt | Haftung |
+|---|---|
+| Konstruktionsfehler Produkt | Hersteller (ProdHaftG) |
+| Wartungsfehler durch LN | LN (MPBetreibV, § 823 BGB) |
+| Lieferung mangelhafter Ware | Lieferant (abgetretener Anspruch) |
+| Fehler durch fehlende Einweisung | LN (§ 10 MPBetreibV) |
+| Vorkommnis nicht gemeldet | LN (MPDG §§ 85 ff.) |
+
+## Insolvenz und Medizintechnik-Leasing
+
+- §§ 108, 109 InsO: Insolvenzverwalter kann fortführen oder kündigen
+- Besonderheit: Wenn das Gerät lebenserhaltend ist (z.B. Dialyse), kann Kündigung aus ethischen/rechtlichen Gründen faktisch unmöglich sein
+- Praxis: Insolvenzverwalter sucht Käufer oder setzt auf Drittbetreiber
+
+## Prüfprogramm
+
+1. CE-Kennzeichnung nach MDR vorhanden und aktuell?
+2. MPBetreibV-Pflichten: Medizinproduktebuch, STK, Einweisung, Meldesystem
+3. Wartungsvertrag oder Eigenverantwortung? LG oder LN?
+4. Vorkommnismeldung: Prozess implementiert?
+5. Insolvenz: Gerät lebenserhaltend? Fortführungsverpflichtung faktisch?
+6. EOL-Zulassung: Läuft MDR-Übergangsfrist ab während Leasingdauer?
+
+## Typische Fallen
+
+- MDR-Übergangsfrist während Leasinglaufzeit abgelaufen → CE weg → Betrieb illegal
+- Keine Wartungsnachweise → regulatorisches Risiko + Minderwert bei Rückgabe
+- Vorkommnis nicht gemeldet → MPDG-Bußgeld
+- LN unterschreibt Leasingvertrag, aber vergisst MPBetreibV-Pflichten zu organisieren
+
+## Normen und Quellen
+
+- EU-MDR 2017/745: https://eur-lex.europa.eu
+- MPDG (Medizinprodukterecht-Durchführungsgesetz): https://www.gesetze-im-internet.de/mpdg/
+- MPBetreibV: https://www.gesetze-im-internet.de/mpbetreibv/
+- ProdHaftG: https://www.gesetze-im-internet.de/prodhaftg/
+- §§ 108, 109 InsO: https://www.gesetze-im-internet.de/inso/__108.html
+- § 823 BGB: https://dejure.org/gesetze/BGB/823.html
+
+## Output-Formate
+
+- **Betreiberpflichten-Checkliste**: MDR/MPBetreibV für Leasingnehmer
+- **Wartungsplan-Vorlage**: STK/MTK-Kalender für Medizintechnik
+- **Vorkommnis-Meldungsschema**: MPDG §§ 85 ff.
+- **Leasingvertrag-Check**: Wartungsklausel, Rückgabe, Minderwert

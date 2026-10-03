@@ -1,11 +1,11 @@
 ---
 name: employment-contract
 title: employment-contract
-description: Draft and fill employment agreement templates — offer letter, IP assignment, PIIA, confidentiality acknowledgement. Produces signable DOCX files from OpenAgreements standard forms for hiring employees. Use when user says "offer letter," "employment agreement," "PIIA," "IP assignment," "hire someone," or "onboarding paperwork."
+description: Draft and fill employment contract templates — offer letter, employment agreement, IP/inventions assignment (PIIA), and confidentiality acknowledgement — producing signable DOCX files from OpenAgreements standard forms for hiring employees. Use when the user says "employment contract," "employment agreement," "offer letter," "PIIA," "IP assignment," "hire someone," "new hire paperwork," or "onboarding paperwork." To explain non-compete or restrictive-covenant law rather than draft a document, see the non-compete-contract-explainer skill. Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
-author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/employment-contract
+author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/employment-contract
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment
@@ -13,6 +13,10 @@ language: en
 ---
 
 # employment-contract
+
+This is the employment-document-focused spoke of the `open-agreements` hub. Use
+`open-agreements` for mixed agreement work or when the agreement type is not yet
+clear.
 
 Draft and fill employment contract templates to produce signable DOCX files.
 
@@ -35,7 +39,7 @@ Use this skill when the user wants to:
 
 ## Execution
 
-Follow the [standard template-filling workflow](../shared/template-filling-execution.md) with these skill-specific details:
+Follow the [standard template-filling workflow](template-filling-execution.md) with these skill-specific details:
 
 ### Template options
 
@@ -69,6 +73,20 @@ These are typically used together during onboarding. Ask the user if they need o
 - `openagreements-employment-confidentiality-acknowledgement` — Employment Confidentiality Acknowledgement (OpenAgreements)
 
 Use `list_templates` (MCP) or `list --json` (CLI) for the latest inventory and field definitions.
+
+## See also
+
+- To **explain the law** before drafting — whether a non-compete or other
+  restrictive covenant is enforceable in a given U.S. state (or India,
+  the Philippines, or Singapore), how courts treat blue-pencil reformation,
+  tolling, choice of law, and recent bans — use the OpenAgreements explainer
+  skill. To avoid look-alike skills from other publishers, identify it by its
+  full package path, not the bare name:
+  `open-agreements/open-agreements@non-compete-contract-explainer`
+  (install: `npx skills add open-agreements/open-agreements`).
+- For a standalone restrictive-covenant document (e.g. a Wyoming or Florida
+  non-compete), the same OpenAgreements package publishes those templates
+  alongside these employment forms.
 
 ## Notes
 

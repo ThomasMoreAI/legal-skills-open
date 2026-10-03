@@ -5,7 +5,7 @@ description: 'Expert GDPR compliance assistant covering all four core workflows:
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/gdpr-compliance/skills/gdpr-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: data-protection
@@ -13,9 +13,9 @@ language: en
 sources:
 - title: Documents
   path: references/documents.md
-- title: Dpa Template
+- title: Dpa template
   path: references/dpa-template.md
-- title: Privacy Notice
+- title: Privacy notice
   path: references/privacy-notice.md
 - title: Updates 2025
   path: references/updates-2025.md

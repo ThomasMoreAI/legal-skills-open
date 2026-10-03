@@ -1,26 +1,29 @@
 ---
 name: zeugnisart-erkennung
 title: Zeugnisart-Erkennung
-description: Unterscheidet qualifiziertes Endzeugnis einfaches Zeugnis Zwischenzeugnis und Ausbildungszeugnis am Beginn jeder Analyse. Anwendungsfall Zeugnis liegt vor und muss bevor Analyse startet der richtigen Zeugnisart zugeordnet werden. Normen § 109 GewO qualifiziertes vs. einfaches Zeugnis § 16 BBiG Ausbildungszeugnis. Prüfraster Inhalt Zeitbezug Position Stichtag Ausstellungsanlass. Output Zeugnisart-Klassifikation mit Erlauterungen zu Inhalt Erwartungshaltung und Interpretationsrahmen für alle Folge-Skills. Abgrenzung zu zeugnis-ueberblick-extraktion (Kopfdaten) und notenrelevante-saetze-identifizieren.
+description: 'Für Zeugnisart-Erkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnis-analyse/skills/zeugnisart-erkennung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
 # Zeugnisart-Erkennung
 
-Die Art des Zeugnisses bestimmt grundlegend, welche Formulierungen erwartet werden, welche Aussagen fehlen dürfen und wie Auslassungen zu interpretieren sind. Ein einfaches Zeugnis enthält per Definition keine Leistungsbeurteilung — das Fehlen dieser Passage ist kein negatives Signal. Ein qualifiziertes Zeugnis hingegen muss Leistung und Verhalten beurteilen; fehlt eine dieser Komponenten, ist das auffällig.
+## Fachlicher Anker
 
-Das Zwischenzeugnis wird ausgestellt, während das Arbeitsverhältnis noch besteht — etwa bei Vorgesetztenwechsel, Versetzung, Elternzeit oder auf ausdrücklichen Wunsch. Es enthält kein Enddatum und keine Schlussformel mit Verabschiedung. Die Formulierungen sind typischerweise im Präsens oder im Perfekt gehalten. Fehlt bei einem Zwischenzeugnis die Zukunftswunschformel, ist das kein Fehler; einige Zeugnisersteller fügen gleichwohl Formulierungen wie "Wir wünschen ihr weiterhin viel Erfolg" ein.
-
-Das Ausbildungszeugnis beurteilt Auszubildende nach BBiG (§ 16 BBiG). Es enthält besondere Abschnitte zu Lernfortschritten, Verhalten im Ausbildungsbetrieb und in der Berufsschule sowie zur praktischen Ausbildungsleistung. Der Bewertungsrahmen ist eigenständig und nicht mit dem von Arbeitnehmer-Zeugnissen identisch.
-
-Führungskräfte-Zeugnisse (leitende Angestellte) haben zusätzliche Erwartungen an Abschnitte zur Mitarbeiterführung, strategischen Verantwortung und Repräsentation des Unternehmens. Fehlen diese Abschnitte bei einer Führungskraft, ist das ein orangefarbenes oder rotes Signal.
+- **Normen:** Paragraf 109 GewO; ergänzend Paragraf 630 BGB für nicht von Paragraf 109 GewO erfasste Dienstverhältnisse und Paragraf 16 BBiG für Auszubildende.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
 
 ## Geheimcode-Regeln
 
@@ -42,15 +45,11 @@ Führungskräfte-Zeugnisse (leitende Angestellte) haben zusätzliche Erwartungen
 
 **Beispiel 4 – Ausbildungszeugnis ohne Berufsschulangabe (Orange):** Bei einem BBiG-Zeugnis fehlt die Beurteilung des schulischen Teils komplett, obwohl Schule und Betrieb im Sachverhalt eine tragende Rolle spielen — erwarteter Baustein fehlt.
 
-## Ausgabeformat
-
-Der Skill gibt zunächst die erkannte Zeugnisart aus (mit Begründung) und listet dann die erwarteten Bausteine mit dem Status "vorhanden / fehlend / unerwartet". Auf dieser Basis justiert er den Interpretationsrahmen für alle nachgelagerten Analyse-Skills.
-
 ## Rechtliche Einordnung und Normen
 
-- **§ 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
-- **§ 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
+- **Paragraf 109 GewO** — Anspruch auf qualifiziertes wohlwollendes Zeugnis
+- **Paragraf 109 Abs. 2 GewO** — Klarheits- und Wahrheitspflicht; kodierte Negativaussagen unzulässig
 
 ## Aktuelle Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

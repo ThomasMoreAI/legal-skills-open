@@ -1,0 +1,31 @@
+---
+name: personenreihenfolge-pruefen
+title: Bezugsgruppen und Personenreihenfolge prüfen
+description: Prüft im Verhaltensabschnitt eines Arbeitszeugnisses, ob die genannten Bezugsgruppen vollständig, sachgerecht und im konkreten Kontext verständlich angeordnet sind. Beanstandet Reihenfolgen nur bei nachvollziehbarer objektiver Nachteilswirkung.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitszeugnispruefer/skills/personenreihenfolge-pruefen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Bezugsgruppen und Personenreihenfolge prüfen
+
+## 1. Kontextbezogene Prüfung
+
+Maßstab ist Paragraf 109 Absatz 2 GewO, nicht eine feste Reihenfolgenliste. Der objektive Empfängerhorizont aus BAG, Urteil vom 15. November 2011, 9 AZR 386/10 ([Volltext](https://www.bundesarbeitsgericht.de/entscheidung/9-azr-386-10/)), ist auf die konkrete Aussage anzuwenden; die Entscheidung ist kein Spezialurteil über die Reihenfolge von Vorgesetzten und Kollegen.
+
+Ermittle zunächst, zu welchen Gruppen tatsächlich beruflicher Kontakt bestand, etwa Vorgesetzten, Mitarbeitern, Kollegen, Kunden oder Geschäftspartnern. Die verbreitete Folge „Vorgesetzte, Kollegen und Kunden“ ist eine sprachliche Konvention, aber keine ausnahmslos verbindliche gesetzliche Reihenfolge. Funktion, Führungsverantwortung, Außenkontakt und der übrige Zeugnistext bestimmen, welche Gruppen zu nennen sind und welche Reihenfolge sachgerecht wirkt.
+
+Leite aus einer Umstellung allein weder einen Leistungsmangel noch ein Konfliktverhalten ab. Eine Beanstandung kommt erst in Betracht, wenn die konkrete Reihenfolge im Gesamtzusammenhang für einen objektiven Leser eine erkennbare abwertende oder mehrdeutige Wirkung erzeugt. Begründe diese Wirkung am Wortlaut und an der tatsächlichen Tätigkeit; behaupte ohne tragfähige Fundstelle weder eine selbständige Klageposition noch eine besondere Rechtfertigungslast des Arbeitgebers.
+
+## 2. Ergebnis
+
+Gib die vorhandene Reihenfolge, die tatsächlich relevanten Bezugsgruppen, die objektive Textwirkung und den Grad der rechtlichen Tragfähigkeit an. Fehlt eine prägende Gruppe oder entsteht eine erhebliche Mehrdeutigkeit, formuliere einen vollständigen, neutral geordneten Ersatzsatz. Ein bloßer Wunsch nach der üblichen Reihenfolge ist als Gestaltungswunsch auszuweisen.
+
+## 3. Fortführung des Auftrags
+
+Übernimm den Satz in den laufenden Prüfvermerk und die bestellte Neufassung oder das Schreiben. Frage nur nach einer Bezugsgruppe, wenn deren tatsächliche Relevanz das Ergebnis ändert; bearbeite die übrigen Punkte fertig. Nach der Antwort ergänzt du die offene Gruppe und setzt ohne erneute Gesamtaufnahme fort. Ist ein Dokument bestellt, darf die Bearbeitung nicht bei der Reihenfolgeanalyse enden.

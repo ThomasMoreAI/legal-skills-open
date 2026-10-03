@@ -5,11 +5,14 @@ description: Austrian asylum and immigration law analysis — asylum procedure (
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-asyl
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: immigration
 language: de
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht asyl — Asyl- und Fremdenrecht (Advisory)

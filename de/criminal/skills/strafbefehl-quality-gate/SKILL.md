@@ -1,11 +1,11 @@
 ---
 name: strafbefehl-quality-gate
 title: Quality Gate — Strafbefehl-Mandat
-description: 'Vor dem Einspruch-Versand vor der Hauptverhandlung oder nach dem Urteil eine Abschlussprüfung durchführen. Prüfraster Fristen Vollmacht Zulässigkeit Einlassung Beweisanträge Strafzumessung Protokoll. Normen § 410 StPO Einspruchsfrist § 409 StPO Strafbefehlsinhalt § 46 StGB Strafzumessung. Output Fehlerliste mit Ampel-Bewertung und Checkliste offener Punkte. Abgrenzung: strafbefehl-kommandocenter für laufende Mandats-Steuerung.'
+description: 'Für Quality Gate — Strafbefehl-Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-quality-gate
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,18 +14,23 @@ language: de
 
 # Quality Gate — Strafbefehl-Mandat
 
-## Zweck
+## Arbeitsbereich
 
-Dieser Skill ist die abschliessende Qualitaetssicherung fuer das Strafbefehlsmandat. Er ist an drei kritischen Punkten einzusetzen:
-1. **Vor Einspruch-Versand** — alle formalen Voraussetzungen erfuellt?
-2. **Vor der Hauptverhandlung** — vollstaendige Vorbereitung?
-3. **Nach dem Urteil** — Rechtsmitteloptionen geprueft?
+Vor dem Einspruch-Versand vor der Hauptverhandlung oder nach dem Urteil eine Abschlussprüfung durchführen. Prüfraster Fristen Vollmacht Zulässigkeit Einlassung Beweisanträge Strafzumessung Protokoll. Normen § 410 StPO Einspruchsfrist § 409 StPO Strafbefehlsinhalt § 46 StGB Strafzumessung. Output Fehlerliste mit Ampel-Bewertung und Checkliste offener Punkte. Abgrenzung: strafbefehl-kommandocenter für laufende Mandats-Steuerung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Gate 1: Vor Einspruch-Versand
 
 ```
 □ Einspruchsfrist § 410 Abs. 1 StPO berechnet und noch offen?
-   Zustellungsdatum: [DATUM] + 14 Tage = Fristende: [DATUM]
+ Zustellungsdatum: [DATUM] + 14 Tage = Fristende: [DATUM]
 □ Vollmacht des Mandanten liegt vor?
 □ Strafbefehl-Inhalt auf § 409 StPO geprueft (Pflicht-Inhalte)?
 □ Delikt ist Vergehen (kein Verbrechen § 12 StGB)?
@@ -45,7 +50,7 @@ AMPEL: GRUEN wenn alle Punkte erfuellt / ROT wenn Frist nicht mehr offen
 □ Einlassung mit Mandant abgestimmt (Schweigen oder Aussage)?
 □ Beweisantraege vorbereitet (Beweisthema + Beweismittel)?
 □ Sachverstaendiger beauftragt wenn noetig?
-□ Einkommensnachweise fuer Tagessatz-Pruefung vollstaendig?
+□ Einkommensnachweise für Tagessatz-Pruefung vollstaendig?
 □ § 153a-Antrag bei Staatsanwaltschaft gestellt oder abgelehnt?
 □ Verstaendigung § 257c StPO geprueft und entschieden?
 □ Mandant ueber HV-Ablauf informiert (Aufruf, Vernehmung, Plaedoyer, Letztes Wort)?
@@ -76,5 +81,5 @@ AMPEL: GRUEN wenn zufriedenstellend / GELB wenn Rechtsmittel moeglich / ROT wenn
 
 - Quality Gate niemals ueberspringen — auch bei einfachen Faellen.
 - ROT-Punkte immer dokumentieren und ansprechen.
-- Mandant ueber jeden Schritt informieren und Entscheidungen schriftlich bestaetigen.
+- Mandant über jeden Schritt informieren und Entscheidungen schriftlich bestaetigen.
 - Anwaltliche Endkontrolle bei jedem Gate zwingend.

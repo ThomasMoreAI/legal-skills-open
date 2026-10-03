@@ -1,0 +1,59 @@
+---
+name: richter-amtsgericht-ins-prozessuale-kniffe-und-rechtsprechungsan
+title: Prozessuale Kniffe und Rechtsprechungsanker
+description: 'Für Prozessuale Kniffe und Rechtsprechungsanker: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Insolvenz- und Restrukturierungsgericht am Amtsgericht.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-amtsgericht-insolvenz-restrukturierung/skills/prozessuale-kniffe-und-rechtsprechungsanker
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: bankruptcy
+language: de
+---
+
+# Prozessuale Kniffe und Rechtsprechungsanker
+
+Nutze diesen Skill, wenn ein Insolvenz- oder Restrukturierungsverfahren schnell, eingriffsarm und beschwerdefest gesteuert werden muss.
+
+## Leitanker
+
+- Paragraf 13, 14, 15a und 16 bis 19 InsO: Antrag, Antragspflicht und Eröffnungsgründe sauber trennen.
+- Paragraf 21 InsO: Sicherungsmaßnahmen nur erforderlich, geeignet und verhältnismäßig.
+- Paragraf 27 InsO: Eröffnungsbeschluss mit Verwalterbestellung und Wirkungen klar fassen.
+- Paragraf 270 ff. InsO: Eigenverwaltung mit Eignungs- und Schutzprüfung.
+- StaRUG bei präventiver Restrukturierung: Eingriffstiefe und Gläubigerrechte kontrollieren.
+
+## Kniffe
+
+| Lage | Kniff | Fehlerbremse |
+| --- | --- | --- |
+| unklarer Eröffnungsgrund | Gutachtenauftrag mit präzisem Beweisthema | keine Pauschalbegutachtung |
+| Sicherungsdruck | Maßnahme, Zweck, Dauer und mildere Mittel trennen | kein Übergriff |
+| Eigenverwaltung | Planung, Finanzierung, Nachteile für Gläubiger prüfen | keine bloße Schuldnerbehauptung |
+| Planverfahren | Gruppen, Stimmrechte und Minderheitenschutz früh ordnen | keine spätere Planblockade |
+
+## Arbeitsmodus
+
+1. Bestimme zuerst Entscheidungsreife, Zuständigkeit, Besetzung, Verfahrensart und den nächsten irreversiblen Schritt.
+2. Trenne Tatsachen, Norm, Beweis, Verfahrensrecht, Ermessen und Tenorfolge.
+3. Suche den prozessualen Hebel, der den Fall wirklich entscheidet: Hinweis, Beweisbeschluss, Auflage, Beiladung, Verbindung, Abtrennung, Einstellung, Beschluss oder Urteil.
+4. Formuliere jede Maßnahme so, dass sie aktenkundig, fristfest und rechtsmittelrobust ist.
+5. Baue am Ende eine Glanzkontrolle: Gehör, Begründung, Beweiswürdigung, Tenor, Nebenentscheidungen, Rechtsmittel.
+
+## Output-Matrix
+
+| Kniff | Normanker | Aktenbeleg | Risiko | Formulierung | nächster Schritt |
+| --- | --- | --- | --- | --- | --- |
+| Hinweis | | | Überraschung | | |
+| Beweis | | | Lücke | | |
+| Verfahrensleitung | | | Verzögerung | | |
+| Entscheidung | | | Rechtsmittel | | |
+
+## Entscheidungsanker
+
+Jeder Beschluss benennt Eröffnungsgrund, Tatsachenbasis, Verhältnismäßigkeit, Anhörungslage, Rechtsmittel und konkrete Wirkungen.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trennt Antrag, Gläubigerstellung, Forderung, Eröffnungsgrund, Sicherungsbedarf, Schuldnereinwand und Beschlussfolge. Er macht sichtbar, ob eine Aufklärungsverfügung, Sicherungsmaßnahme, Gutachterbestellung, Eröffnung oder Abweisung vorzubereiten ist.

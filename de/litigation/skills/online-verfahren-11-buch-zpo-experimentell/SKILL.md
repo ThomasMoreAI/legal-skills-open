@@ -1,0 +1,146 @@
+---
+name: online-verfahren-11-buch-zpo-experimentell
+title: Online-Verfahren — das neue digitale Zivilverfahren
+description: 'Für Online-Verfahren — das neue digitale Zivilverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/online-verfahren-11-buch-zpo-experimentell
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Online-Verfahren — das neue digitale Zivilverfahren
+
+## Worum geht es?
+
+Seit 2025 gibt es in Deutschland ein **experimentelles vollstaendig digitales Zivilverfahren** ("Online-Verfahren"). Es ermoeglicht, einen Zivilrechtsstreit von Anfang bis Ende über eine Internet-Plattform zu fuehren — ohne Papier, ohne persönliche Termine vor Ort. Das Verfahren ist in einem neuen Buch der ZPO (vermutlich 11. Buch) verankert und gilt zunaechst nur an **teilnehmenden Amtsgerichten** und für **bestimmte Streit-Typen**.
+
+**Wichtig:** Die genaue Norm-Verortung (Paragraphennummer, Geltungsbereich, Schwellenwerte) ist im laufenden Gesetzgebungs- und Erprobungs-Verfahren. **Verifizieren Sie die aktuellen Normen in amtliche/freie Quellen oder lizenzierte Datenbanken und auf der Webseite Ihres oertlich zuständigen Amtsgerichts.**
+
+## In einfacher Sprache
+
+Es gibt ein neues Online-Gericht. Sie machen alles am Computer. Sie reichen die Klage ein. Sie sehen die Antwort der Gegenseite am Bildschirm. Manchmal gibt es ein Video-Treffen. Das gibt es nur bei einigen Gerichten und nur für bestimmte Streit-Themen.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie wollen klagen und Ihr Amtsgericht bietet das Online-Verfahren an.
+- Sie wurden in einem Online-Verfahren verklagt.
+- Sie wollen wissen, ob das Online-Verfahren für Ihren Fall passt.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Online-Verfahren**: Ein voll-digitales Zivilverfahren auf einer Internet-Plattform.
+- **Experimentier-Klausel**: Eine Gesetzesregelung, die ein neues Verfahren erstmal in einem Test-Modus zulaesst.
+- **Strukturierte Eingabe-Maske**: Ein Formular auf der Plattform, in das Sie Ihren Sachverhalt Schritt für Schritt eintippen.
+- **Teilnehmende Gerichte**: Nicht jedes Amtsgericht bietet das Online-Verfahren an. Eine Liste finden Sie auf der Webseite der Justiz Ihres Bundeslandes.
+
+## Rechtsgrundlagen (Stand 2026)
+
+- **11. Buch ZPO (Online-Verfahren)** — neues Buch der Zivilprozessordnung, eingefuehrt mit dem Gesetz zur Förderung digitaler Justiz-Verfahren (genaues Inkrafttreten und Paragraphen verifizieren).
+- **§ 128a ZPO** — Video-Verhandlung (auch im klassischen Verfahren möglich, vgl. `video-verhandlung-128a-zpo`).
+- **§ 130a ZPO** — elektronische Einreichung (gilt auch im klassischen Verfahren).
+
+**Verifizieren Sie die aktuelle Rechtslage** in amtliche/freie Quellen oder lizenzierte Datenbanken — die Normen-Nummerierung und der Anwendungsbereich des Online-Verfahrens werden im Erprobungs-Zeitraum noch praezisiert.
+
+## Was unterscheidet das Online-Verfahren vom normalen Verfahren?
+
+| Merkmal | Normales Verfahren | Online-Verfahren |
+|-----------------------|------------------------------------------|---------------------------------------------------------|
+| Klage einreichen | Papier oder MJP oder § 130a ZPO | Strukturierte Eingabe-Maske auf der Plattform |
+| Klageschrift | Freier Text in Word/PDF | Vorgegebene Felder (Antrag, Sachverhalt, Beweise) |
+| Schriftverkehr | E-Mail, Post, MJP | Plattform-internes Postfach |
+| Termin | Im Gerichtssaal | Video-Konferenz auf der Plattform |
+| Urteil | Schriftlich per Post | Im Plattform-Postfach |
+| Akteneinsicht | Geschäftsstelle, Anwalt | Plattform jederzeit |
+
+## Vorteile
+
+- **Niedrigschwellig**: Strukturierte Maske hilft Laien, alles Wichtige anzugeben.
+- **Kein Papier**: Alles digital.
+- **Termin von zuhause**: Per Video, kein Anreise-Stress.
+- **Schneller**: Erprobte Standard-Wege, weniger Wartezeit.
+
+## Risiken und Grenzen
+
+- **Nicht für komplexe Faelle**: Schwierige Sachverhalte (medizinische Gutachten, technische Details) lassen sich in der Eingabe-Maske nur eingeschraenkt darstellen.
+- **Technik-Voraussetzungen**: Sie brauchen Computer, stabile Internet-Verbindung, Webcam, Mikrofon.
+- **Identifikation**: Sie müssen sich elektronisch ausweisen (z.B. Mein Justizpostfach, eID Personalausweis).
+- **Akten-Backup**: Sie sollten regelmaessig Kopien Ihrer Eingaben lokal speichern (z.B. als PDF herunterladen).
+- **Nicht ueberall verfuegbar**: Nur an teilnehmenden Amtsgerichten.
+- **Nicht für alle Streit-Typen**: Bestimmte Sachgebiete können ausgeschlossen sein.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Prüfen, ob Ihr Amtsgericht teilnimmt
+
+Schauen Sie auf der Webseite der Justiz Ihres Bundeslandes oder direkt auf der Webseite des oertlich zuständigen Amtsgerichts nach. Beispiele:
+
+- Justizportal Bund-Länder
+- "Online-Verfahren" als Stichwort suchen.
+- Bei der Geschäftsstelle des Amtsgerichts nachfragen.
+
+### Schritt 2 — Prüfen, ob Ihr Streit-Typ zugelassen ist
+
+Das Online-Verfahren ist nicht für alle Streit-Typen offen. Typisch zugelassen sind z.B. Zahlungsklagen unter einem bestimmten Streitwert. Lesen Sie die Bedingungen der Plattform.
+
+### Schritt 3 — Auf der Plattform registrieren
+
+Identifikation typisch über:
+- **Mein Justizpostfach (MJP)** — siehe `einreichung-mein-justizpostfach-mjp-2024`.
+- **eID** mit dem Personalausweis und einem Lesegeraet/Smartphone-NFC.
+- Login-Daten über Bund-ID-Verfahren.
+
+### Schritt 4 — Klage in der Eingabe-Maske erfassen
+
+Die Plattform fuehrt Sie durch:
+- Antrag (was wollen Sie?)
+- Beklagter (Name, Adresse)
+- Sachverhalt (was ist passiert?)
+- Beweise (welche Beweise haben Sie?)
+- Anlagen (PDF hochladen)
+
+Speichern Sie regelmaessig (die Plattform speichert meistens automatisch).
+
+### Schritt 5 — Einreichen und Vorschuss zahlen
+
+- Eingabe-Maske absenden.
+- Plattform berechnet die Gerichtskosten.
+- Zahlung per SEPA-Lastschrift, Überweisung oder Karte.
+- Sobald gezahlt: Klage wird zugestellt.
+
+### Schritt 6 — Reaktion der Gegenseite abwarten
+
+Sie sehen im Plattform-Postfach, wenn die Gegenseite antwortet. Sie reagieren wieder über die Maske.
+
+### Schritt 7 — Video-Termin
+
+Wenn ein Termin stattfindet, bekommen Sie einen Link. Loggen Sie sich rechtzeitig ein (z.B. 15 Min. vorher). Achten Sie auf:
+- Ruhiger Raum, kein Hintergrund-Laerm.
+- Webcam auf Augenhoehe.
+- Stabile Internet-Verbindung.
+- Personalausweis griffbereit für Identitaets-Prüfung.
+
+### Schritt 8 — Urteil im Plattform-Postfach
+
+Das Urteil erscheint im Plattform-Postfach. Laden Sie es als PDF herunter und speichern Sie es lokal.
+
+## Worauf Sie besonders achten müssen
+
+- **Speichern Sie alles lokal als PDF.** Wenn die Plattform mal nicht laeuft, sind Sie nicht hilflos.
+- **Prüfen Sie die Fristen.** Auch im Online-Verfahren gelten die normalen Fristen der ZPO.
+- **Lassen Sie sich nicht von der Eingabe-Maske eingeengen**: Wenn Ihr Sachverhalt komplexer ist, fuegen Sie ein ergaenzendes PDF als Anlage hinzu.
+- **Bei Zweifel: klassisches Verfahren waehlen.** Das Online-Verfahren ist freiwillig.
+
+## Typische Fehler
+
+- **Fehler:** Plattform für hochkomplexe Faelle nutzen — Eingabe-Maske ist zu eng. → **So vermeiden:** Bei komplexen Faellen klassisches Verfahren waehlen.
+- **Fehler:** Plattform-Postfach nicht regelmaessig prüfen — Fristen verpasst. → **So vermeiden:** Mehrmals pro Woche einloggen oder Benachrichtigungs-E-Mail aktivieren.
+- **Fehler:** Lokale Sicherungs-Kopien vergessen. → **So vermeiden:** Nach jeder Eingabe als PDF herunterladen.
+- **Fehler:** Bei Video-Termin technische Probleme — kein Backup-Geraet. → **So vermeiden:** Vor dem Termin Funktion testen, Smartphone als Backup griffbereit.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. Das Online-Verfahren wurde 2025 als Experimentier-Verfahren eingefuehrt; die genaue Norm-Verortung im 11. Buch ZPO und der Anwendungsbereich werden im laufenden Erprobungs-Zeitraum praezisiert. **Verifizieren Sie die aktuelle Rechtslage in amtliche/freie Quellen oder lizenzierte Datenbanken und auf der Webseite Ihres oertlich zuständigen Amtsgerichts vor Klageeinreichung.**

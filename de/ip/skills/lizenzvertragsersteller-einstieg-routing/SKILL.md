@@ -1,0 +1,84 @@
+---
+name: lizenzvertragsersteller-einstieg-routing
+title: Anwalts-Dashboard Lizenzvertragsersteller
+description: 'Für Anwalts-Dashboard Lizenzvertragsersteller: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/lizenzvertragsersteller/skills/einstieg-routing
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+sources:
+- title: Anwalts dashboard konvention
+  path: references/anwalts-dashboard-konvention.md
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+---
+
+# Anwalts-Dashboard Lizenzvertragsersteller
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+> Sie sehen die Sofort-Triage. Keine Rueckfragen, bis die Tabelle steht. Bei klarer Faktenlage gehen wir sofort zum Baukasten — Sie entscheiden, ob.
+
+## Sofort-Triage
+
+| Punkt | Schnellpruefung | Standardquelle |
+| --- | --- | --- |
+| IP-Typ | Urheberrecht/Software · Patent · Marke · Design (GeschmacksmusterG) · Gebrauchsmuster · Geschäftsgeheimnis/Know-how | Schutzrechtsregister (DPMA, EUIPO, EPA), Vertragsunterlagen |
+| Rolle Mandant | Lizenzgeber · Lizenznehmer · Sicherheitengeber · Sicherheitennehmer · Verwahrer (Escrow) · Beide (cross-license) | Mandatsmail, Vollmacht |
+| Lizenzumfang | Territorium · Zeit · Anwendungsfeld · exklusiv/non-exklusiv/sole | Geschäftsmodell, Roadmap |
+| Vertragssprache | DE · EN · Bilingual mit Massgebbung | Mandantenwunsch, Gegenseite |
+| Rechtswahl | Deutsches Recht · Schweiz · EN&W · NY · Rom-I-VO bei Mehrlaender | Standortverteilung, Vollstreckungsstrategie |
+| Vorbefassung | NDA, LOI, MOU schon unterschrieben? | Aktenlage |
+
+## Risiko-Ampel
+
+- **Insolvenz-Risiko Lizenzgeber:** 🔴 bei Software-Abhaengigkeit ohne Escrow · 🟠 bei mittelgrosser Lizenzgeberin · 🟢 etablierter Konzern.
+- Kartellrecht TTBER: Kritisch bei einem gemeinsamen Marktanteil der Wettbewerber über 20 Prozent oder einem Anteil einer Partei unter Nichtwettbewerbern über 30 Prozent sowie bei Kernbeschränkungen oder ausgeschlossenen Klauseln. Auch unterhalb der Schwelle ist der konkrete Klauselinhalt zu prüfen.
+- **Steuern/Quellensteuer:** 🔴 bei Cross-Border ohne DBA-Prüfung · 🟠 bei DBA mit Quellensteuer-Reduktion · 🟢 bei rein nationaler Lizenz.
+
+## Anschluss-Skills (Router)
+
+| Wenn der Fall traegt … | dann Skill | Erwartung |
+| --- | --- | --- |
+| IP-Identifikation noch offen | `ip-identifikation-und-bestandsaufnahme` | IP-Inventarliste, Schutzstatus, Belastungen |
+| Parteienrollen noch nicht klar | `parteienrolle-klaeren-lizenzgeber-nehmer-sicherheiten-verwahrer` | Rollenmatrix |
+| Software-Lizenz | `lizenz-urheberrecht-und-software-urhg` | UrhG-Bausteine, Source-Code-Escrow Hinweis |
+| Patent-Lizenz | `lizenz-patent-patg` | PatG-Bausteine, Marktanteils-Check TT-GVO |
+| Marke-Lizenz | `lizenz-marke-markeng` | MarkenG, Qualitaetskontrolle, Eintrag DPMA |
+| Insolvenzfeste Gestaltung | `insolvenz-fortbestand-paragraf-103-inso-lizenz` + `escrow-quellcode-verwahrer-vereinbarung` | Klausel + Escrow-Mustertext |
+
+**Vorrang:** Wenn IP nicht identifiziert ist, zuerst Skill 2 (Identifikation). Erst danach Klausel-Baukasten.
+
+## Norm-Radar
+
+- **UrhG** §§ 31, 32, 32a (Urheberrechtslizenzen, angemessene Vergütung); § 69a ff. (Software); § 137l UrhG (unbekannte Nutzungsarten)
+- **PatG** §§ 9, 15 (Lizenz); § 24 (Zwangslizenz)
+- **MarkenG** §§ 30 (Lizenz), 27 (Uebertragung)
+- **DesignG** §§ 31 ff.; **GebrMG** §§ 22 ff.
+- **GeschGehG** §§ 1-12 (Schutz von Geschäftsgeheimnissen; Lizenz nach § 3)
+- **InsO** § 103 (Wahlrecht des Verwalters bei gegenseitigen Vertraegen)
+- Verordnung (EU) 2026/877 und Leitlinien C/2026/2323 - seit 1. Mai 2026 geltender Rahmen für Technologietransfervereinbarungen
+- **Rom-I-VO** Art. 4 (Lizenzvertraege Statut)
+
+## Genau eine Rueckfrage (nur wenn noetig)
+
+> Welcher IP-Typ steht im Vordergrund — und ist der Mandant Lizenzgeber, Lizenznehmer oder beide (Cross-License)?
+
+## Hinweis
+
+Diese Triage ist Ihre Vorbereitung, nicht Ihre Entscheidung. Sie fuehren das Mandat; der Skill liefert die Karte. Quellenhygiene nach `references/quellenhygiene.md`. Konvention dieses Dashboards: `references/anwalts-dashboard-konvention.md`.

@@ -10,7 +10,7 @@ Jurisdiction: `pe` · Practice: `tax` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`peru-ruc`](skills/peru-ruc-nolpak14/) | Look up Peruvian companies for free by RUC (Registro Unico de Contribuyentes, the 11-digit Peruvian tax ID)… |
+| [`peru-ruc`](skills/peru-ruc-nolpak14/) | Look up Peruvian companies for free by RUC (Registro Unico de Contribuyentes, the 11-digit Peruvian tax… |
 
 ## Cold-start context
 

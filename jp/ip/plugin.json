@@ -1,0 +1,14 @@
+{
+  "name": "jp-ip",
+  "displayName": "Intellectual Property — JP",
+  "version": "0.1.0",
+  "description": "Intellectual Property skills for JP (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "jp",
+  "practice": "ip",
+  "language": "de",
+  "skills": [
+    "skills/japan-jpo-kanada-cipo-loeschung-widerruf"
+  ]
+}

@@ -1,0 +1,59 @@
+---
+name: nichtigkeit-125-ao
+title: Nichtigkeit eines Steuerbescheids — § 125 AO
+description: 'Für Nichtigkeit eines Steuerbescheids — Paragraf 125 AO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/nichtigkeit-125-ao
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Nichtigkeit eines Steuerbescheids — § 125 AO
+
+## Fachlicher Anker
+
+- **Normen:** § 125 AO, § 6a, § 125 Abs. 1 AO.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Triage — kläre vor der Bearbeitung
+
+1. Leidet der Bescheid an einem besonders schweren Fehler iSd § 125 Abs. 1 AO?
+2. Ist der Fehler offenkundig — für einen verstaendigen Beobachter erkennbar?
+3. Liegt einer der Sondertatbestaende des § 125 Abs. 2 AO vor (Schriftform Zustellungsmangel Bestimmtheit Inhalt)?
+4. Ist die Nichtigkeit für den Mandanten guenstig oder waere ein Einspruch klueger?
+5. Vollstreckung laeuft — sofortige Vollstreckungsabwehr nach § 218 AO durch Nichtigkeitseinrede?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Rechtsgrundlagen
+
+- **§ 125 AO** — Nichtigkeit eines Verwaltungsakts.
+- **§ 124 AO** — Wirksamkeit; Verhältnis zur Nichtigkeit.
+- **§ 41 FGO** — Feststellungsklage auf Nichtigkeit.
+- **§ 218 AO** — Vollstreckungsabwehr.
+- **Art. 19 Abs. 4 GG** — Rechtsschutzgarantie.
+
+## Aktuelle Rechtsprechung
+
+- Keine Pauschalzitate aus BeckRS allein; jede Entscheidung muss auf eine primaere oder offene Sekundaerquelle ruckfuehrbar sein.
+
+## Zentrale Normen
+
+§ 124 AO · § 125 AO · § 41 FGO · § 218 AO · Art. 19 Abs. 4 GG · § 122 AO (Bekanntgabemaengel als Nichtigkeitsindikator)
+
+## Abgrenzung zu anderen Skills dieses Plugins
+
+- Verfahrens-Sklls (`anw-einspruch-finanzamt`, `anw-aussetzung-vollziehung`, `anw-akteneinsicht-steuerakte`) decken den prozessualen Rahmen ab; dieser Skill liefert die **materielle** Begruendung.
+- Bei steuerstrafrechtlichen Beruehrungspunkten parallel `fa-stu-steuerhinterziehung-370-ao` und `fa-stu-selbstanzeige-371-ao` aufrufen.
+- Bei berufsrechtlichen Fragestellungen `fa-stu-stberg-vereinbare-taetigkeit` bzw. `fa-stu-rvg-steuerstreit` parallel ziehen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

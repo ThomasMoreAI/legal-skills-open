@@ -1,11 +1,11 @@
 ---
 name: europarechtskonformitaet
 title: Europarechtskonformität
-description: Gesetzesentwurf oder Verordnung auf Vereinbarkeit mit EU-Recht prüfen. Anwendungsfall Referent oder Verband fragt ob nationales Vorhaben mit EU-Recht vereinbar ist oder ob Notifizierungspflicht besteht. Primaerrecht EUV AEUV Grundrechtecharta Sekundaerrecht Verordnungen Richtlinien. Prüfung Anwendungsbereich Schutzbereich Eingriff Rechtfertigung Verhältnismäßigkeit. Notifizierungspflicht Richtlinie 2015/1535 technische Vorschriften IT-Vorschriften. Subsidiaritaet Verhältnismäßigkeit Art. 5 EUV Vorlagepflicht Art. 267 AEUV. Output Prüfgutachten ein bis drei Seiten Notifizierungs-Vermerk Empfehlung. Abgrenzung zu verfassungsmäßigkeit-quercheck nationales Verfassungsrecht.
+description: 'Für Europarechtskonformität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: Legistik-Werkstatt. Route: europarechtskonformitaet.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/europarechtskonformitaet
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory
@@ -14,9 +14,19 @@ language: de
 
 # Europarechtskonformität
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: GGO Ressortbeteiligung i.d.R. 4 Wochen, NKR-Stellungnahme 4 Wochen, Bundesrat 1. Durchgang 6 Wochen / 9 Wochen, Vermittlungsausschuss nach Bedarf.
+- Tragende Normen verifizieren: GGO §§ 40-49 (Rechtsetzungsverfahren), Handbuch der Rechtsförmlichkeit (BMJ), NKR-Gesetz, BGleiG, IT-Konsolidierungs-Konzept, eNorm-Standard, GG Art. 76, 77, 78 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Ressort (BMJ und Fachressort), Bundeskanzleramt, Bundesrat, NKR, Bundestagsausschüsse, Bundesregierung, Wissenschaftliche Dienste, Lobbyregister.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Referentenentwurf, BT-Drucksache, Gesetzesfolgenabschätzung, NKR-Stellungnahme, Verbändeanhörungs-Stellungnahme, Synopse, Erfüllungsaufwandsberechnung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
 > EU-Recht läuft im Hintergrund mit. Wer es übersieht, riskiert EuGH-Vertragsverletzungsverfahren.
 
-## Pruefstation 1 - EU-Anwendungsbereich
+## Prüfstation 1 - EU-Anwendungsbereich
 
 Beruehrt das Vorhaben einen unionsrechtlich harmonisierten oder mitgeregelten Bereich? Beispiele:
 
@@ -28,30 +38,29 @@ Beruehrt das Vorhaben einen unionsrechtlich harmonisierten oder mitgeregelten Be
 - VO 1215/2012 (Brussel Ia) - Gerichtsstand
 - VO 1393/2007 (Zustellungs-VO)
 
-## Pruefstation 2 - Primärrecht
+## Prüfstation 2 - Primärrecht
 
 - Grundfreiheiten Warenverkehr, Personenverkehr, Niederlassung, Dienstleistung, Kapitalverkehr (Art. 28 ff., 45 ff., 49 ff., 56 ff., 63 ff. AEUV)
 - Diskriminierungsverbot Art. 18 AEUV
 - Grundrechte-Charta (insbesondere Art. 7 und Art. 8 - Privatleben und Datenschutz; Art. 11 - Freiheit der Meinungsaeusserung; Art. 16 - unternehmerische Freiheit; Art. 47 - effektiver Rechtsschutz)
 
-## Pruefstation 3 - Sekundärrecht
+## Prüfstation 3 - Sekundärrecht
 
 - Welche Richtlinien und Verordnungen sind einschlaegig?
 - Bei Richtlinien: Hat die nationale Umsetzungsfrist abgelaufen? Erfüllt das deutsche Recht bereits die RL?
 - Bei VO: Direkt anwendbar - keine Umsetzung erforderlich, aber Ausführungsbestimmungen möglich.
 
-## Pruefstation 4 - Verhältnismaessigkeit nach EU-Massstab
+## Prüfstation 4 - Verhältnismaessigkeit nach EU-Maßstab
 
 - legitimer Zweck
 - geeignet
 - erforderlich (mildestes Mittel)
 - angemessen
 
-EuGH ist im Massstab oft strenger als BVerfG.
+EuGH ist im Maßstab oft strenger als BVerfG.
 
-## Pruefstation 5 - Notifizierungspflicht 2015/1535
+## Prüfstation 5 - Notifizierungspflicht 2015/1535
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Prüfen: Faellt das Vorhaben unter:
 - "technische Vorschrift" iSd Art. 1 Nr. 11 RL 2015/1535
@@ -59,28 +68,21 @@ Prüfen: Faellt das Vorhaben unter:
 
 Bei elektronischen Postfaechern, technischen Datenformaten, IT-Schnittstellen: in der Regel notifizierungspflichtig.
 
-## Pruefstation 6 - Subsidiaritaet Art. 5 EUV
+## Prüfstation 6 - Subsidiaritaet Art. 5 EUV
 
-Auch wenn die EU zustaendig waere - hat sie tatsächlich Recht gesetzt? Wenn nicht, kann der Mitgliedstaat regeln, soweit keine Sperrwirkung.
+Auch wenn die EU zuständig waere - hat sie tatsächlich Recht gesetzt? Wenn nicht, kann der Mitgliedstaat regeln, soweit keine Sperrwirkung.
 
-## Pruefstation 7 - Vorlagepflicht Art. 267 AEUV
+## Prüfstation 7 - Vorlagepflicht Art. 267 AEUV
 
 Anwendung im Vollzug: Wenn das nationale Gesetz zu EU-Recht Auslegungszweifel weckt, wird das Tatgericht ggf. den EuGH anrufen müssen.
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
-Art. 288 AEUV (Rechtsakte, Verordnung, Richtlinie) — Art. 5 EUV (Subsidiaritaet, Verhaeltnismaessigkeit) — Art. 267 AEUV (Vorlagepflicht) — RL 2015/1535/EU Art. 1, 5 (Notifizierungspflicht) — Art. 51 Charta (Anwendungsbereich Grundrechte-Charta)
+Art. 288 AEUV (Rechtsakte, Verordnung, Richtlinie) — Art. 5 EUV (Subsidiaritaet, Verhältnismäßigkeit) — Art. 267 AEUV (Vorlagepflicht) — RL 2015/1535/EU Art. 1, 5 (Notifizierungspflicht) — Art. 51 Charta (Anwendungsbereich Grundrechte-Charta)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
-Pruefgutachten ein bis drei Seiten:
+Prüfgutachten ein bis drei Seiten:
 
 1. EU-Bezug ja / nein / unsicher
 2. Einschlaegiges Primärrecht
@@ -90,6 +92,16 @@ Pruefgutachten ein bis drei Seiten:
 6. Empfehlung: Notifizierung einleiten / nicht erforderlich
 7. Empfehlung: bestimmte Änderungen am Entwurf
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anschluss
 
 `goldplating-vermeiden`, `verfassungsmaessigkeit-quercheck`.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -4,12 +4,11 @@ Environmental regulation, contamination liability, permitting, and impact review
 
 Jurisdiction: `general` · Practice: `environmental` · Skill language: en
 
-## Skills (3)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Climate Legislation Summary`](skills/climate-legislation-summary/) | Produces structured, citation-ready summaries of climate change legislation for compliance and policy… |
-| [`environmental-compliance`](skills/environmental-compliance/) | Design environmental compliance programs. TRIGGERS - Use when user needs help with environmental-compliance… |
 | [`MSDS编写`](skills/msds-writer/) | Drafts Material Safety Data Sheets (MSDS/SDS) with all required sections, verified data citations, and… |
 
 ## Cold-start context

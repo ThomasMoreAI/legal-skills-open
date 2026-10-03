@@ -1,22 +1,44 @@
 ---
 name: mandat-triage-versicherungsrecht
-title: Mandat-Triage Versicherungsrecht
-description: Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check. Anwendungsfall neues Versicherungsmandat geht ein und muss schnell triagiert werden. Normen § 195 BGB Verjährung drei Jahre §§ 12 14 VVG Fälligkeit Schadensmeldung AVB-Klagefristen. Prüfraster Sparte Ereignis Stichtag Deckungsablehnung Hoehe Frist-Sofort-Check Eskalation bei BU-Ablehnung oder lebensbedrohlichen Krankheitskosten. Output Triage-Ergebnis mit Routing zu deckungsanfrage-prüfen und Fristen-Eskalationshinweis. Abgrenzung zu deckungsanfrage-prüfen und erstgespraech-mandatsannahme.
+title: Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check
+description: 'Für Mandat Triage Versicherungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-versicherungsrecht/skills/mandat-triage-versicherungsrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: insurance
 language: de
 ---
 
-# Mandat-Triage Versicherungsrecht
+# Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check
 
-## Zweck
 
-Versicherungsmandate sind sparten-spezifisch — KFZ-Vollkasko ist anders als BU oder Industrieversicherung. Strukturierte Triage stellt sicher dass die richtige Bedingungslage zugrunde gelegt wird.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Strukturierte Eingangs-Abfrage für versicherungsrechtliche Mandate mit Fristen-Sofort-Check. Anwendungsfall neues Versicherungsmandat geht ein und muss schnell triagiert werden. Normen § 195 BGB Verjährung drei Jahre §§ 12 14 VVG Fälligkeit Schadensmeldung AVB-Klagefristen. Prüfraster Sparte Ereignis Stichtag Deckungsablehnung Höhe Frist-Sofort-Check Eskalation bei BU-Ablehnung oder lebensbedrohlichen Krankheitskosten. Output Triage-Ergebnis mit Routing zu deckungsanfrage-prüfen und Fristen-Eskalationshinweis. Abgrenzung zu deckungsanfrage-prüfen und erstgespraech-mandatsannahme.
+
+### Mandat-Triage Versicherungsrecht
 
 ## Ablauf — sieben Fragen
 
@@ -118,6 +140,14 @@ Versicherungsmandate sind sparten-spezifisch — KFZ-Vollkasko ist anders als BU
 - Mandatsvereinbarung mit Honorarvereinbarung über RVG
 - Empfehlung Folge-Skill
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Quellen
 
 - VVG §§ 1 ff.
@@ -132,9 +162,9 @@ Versicherungsmandate sind sparten-spezifisch — KFZ-Vollkasko ist anders als BU
 
 Vor Versand jeweils Volltext in juris.bundesgerichtshof.de oder dejure.org aufrufen:
 
-- BGH IV ZR 32/24, Urt. v. 12.3.2025 — Krankentagegeld; Klauselersetzung nach Intransparenz unzulässig (Pressemitteilung Nr. 47/25 v. 12.3.2025)
-- BGH IV ZR 70/25 — PKV-Beitragsanpassung; Mitteilungspflicht
-- BGH IV ZR 86/24, Urt. v. 15.10.2025 — PKV-Beitragsanpassung; Prüfungsmaßstab
+- BGH, Urteil vom 12. März 2025, IV ZR 32/24 — Krankentagegeld: Ersetzung unwirksamer Versicherungsbedingungen nach Paragraf 164 Absatz 1 VVG nur, wenn mindestens die Voraussetzungen ergänzender Vertragsauslegung vorliegen; Festhalten am lückenhaften Vertrag ist für den Versicherer nicht schon deshalb unzumutbar
+- BGH, Urteil vom 22. April 2026, IV ZR 70/25 — PKV-Beitragsanpassung: Inhalt der Mitteilung nach Paragraf 203 Absatz 5 VVG sowie Darlegungs- und Beweislast für die materielle Rechtmäßigkeit getrennt prüfen
+- BGH, Urteil vom 15. Oktober 2025, IV ZR 86/24 — Verkehrs-Rechtsschutz: Unklare VRB-Klauseln zur Ersatzfahrzeuganschaffung gehen nach Paragraf 305c Absatz 2 BGB zulasten des Versicherers; Deckung kann auch für ein Ereignis vor Zulassung des Ersatzfahrzeugs bestehen
 - BGH IV ZR 153/20, Urt. v. 14.7.2021 — Versicherungsfall BU nach Ablauf der sechs-monatigen Prognosezeit
 - BGH VI ZR 183/22, Urt. v. 28.1.2025 — DSGVO-Schadensersatz Art. 82 hat nur Ausgleichs-, keine Straffunktion
 

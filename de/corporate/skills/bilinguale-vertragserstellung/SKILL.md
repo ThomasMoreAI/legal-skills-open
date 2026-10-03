@@ -1,11 +1,11 @@
 ---
 name: bilinguale-vertragserstellung
 title: Bilinguale Vertragserstellung DE/EN
-description: 'Wandeldarlehensvertrag zweisprachig deutsch und englisch erstellen für internationale Transaktionen oder ausl. Investoren. BGB Darlehen §§ 488 ff. BGB GmbHG Kapitalerhohung. Prüfraster: Terminologie-Konsistenz Rechtswahl governing-law jurisdiction. Output: bilingualer Vertragsentwurf mit Gegenüberstell. Abgrenzung: nicht für einsprachige Fassung (einsprachige-vertragsfassung-de).'
+description: 'Für Bilinguale Vertragserstellung DE/EN: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/bilinguale-vertragserstellung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Bilinguale Vertragserstellung DE/EN
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill erstellt den vollständigen Wandeldarlehensvertrag in bilingualer Fassung (DE/EN) als zweispaltige Word-Tabelle. Die deutsche Fassung ist allein verbindlich (§ 10.1 Sprachklausel). Phase A des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -35,9 +39,6 @@ Dieser Skill erstellt den vollständigen Wandeldarlehensvertrag in bilingualer F
 - § 128 BGB (Notarielle Beurkundung – nur falls erforderlich)
 - § 15 Abs. 3, Abs. 4 GmbHG (Beurkundungspflicht Anteilsübertragung)
 - § 10.1 Standardklausel: Vorrang der deutschen Fassung
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Vorgehen
 
@@ -83,28 +84,14 @@ German terms in parentheses in the English version are binding references.
 | Platzhalter [●] verbleiben | Vertrag nicht unterzeichnungsreif | Einzelne Felder offen | Alle Felder ausgefüllt |
 | DocuSign-Hinweis fehlt | Unterzeichner unsicher über Verfahren | Hinweis nur mündlich | Schriftlicher Hinweis |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/einsprachige-vertragsfassung-de/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/textform-vs-schriftform-vs-notariell/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/beurkundungserfordernis-pruefung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung BGB-Formvorschriften oder GmbHG aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
-§§ 133, 157 BGB (Auslegung mehrdeutiger Verträge) → Art. 3 Rom-I-VO (Rechtswahl im Vertrag) → § 184 Abs. 2 GVG (Amtssprache Deutsch bei Gericht) → § 55 Abs. 2 GmbHG (notarielle Beurkundung auf Deutsch)
+Paragrafen 133 und 157 BGB (Auslegung mehrdeutiger Verträge) → Artikel 3 Rom-I-VO (Rechtswahl) → Paragraf 5 BeurkG (Urkundssprache) → Paragraf 55 Absatz 1 GmbHG (Form der Übernahmeerklärung). Gerichtssprache nach Paragraf 184 GVG und Urkundssprache nicht vermischen.
 
-<!-- AUDIT 27.05.2026
-Problem : BGH VI ZR 232/09 (NJW 2010, 2812) – WRONG_TOPIC; tatsächlich: Schadensabrechnung und Restwert nach Kfz-Unfall (§ 249 Abs. 2 BGB), kein Bezug zu zweisprachigen Verträgen. Korrekte Fundstelle: NJW 2010, 2724.
-Maßnahme: Leitsatz-Zitat entfernt. Kein verifizierter BGH-Ersatz zur Sprachpriorität in zweisprachigen Verträgen gefunden; OLG München 31 Wx 79/16 (GmbHR 2016, 543) verbleibt als valide Quelle.
-Quelle: https://dejure.org/2010,477
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

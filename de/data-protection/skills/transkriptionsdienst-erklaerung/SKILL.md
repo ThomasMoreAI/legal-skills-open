@@ -1,11 +1,11 @@
 ---
 name: transkriptionsdienst-erklaerung
 title: Transkriptionsdienst-Erklärung
-description: 'Mandant kann seinen Fall nicht schriftlich schildern und soll stattdessen anrufen. Transkriptionsservice Erklärung in Erstantwort. Prüfraster: Telefonnummer Ablauf des Anrufs Verarbeitungshinweis DSGVO-Einwilligung Kein-Mandat-Hinweis. Output: Transkriptionsservice-Hinweis für Erstantwort. Abgrenzung zu einwilligung-hinweis-datenschutz (DSGVO-Klausel) und erstantwort-generator.'
+description: 'Für Transkriptionsdienst-Erklärung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/transkriptionsdienst-erklaerung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,26 +14,30 @@ language: de
 
 # Transkriptionsdienst-Erklärung
 
-Dieser Skill formuliert den vollständigen Abschnitt in der Erstantwort-Mail, in dem der automatisierte Transkriptionsservice beschrieben wird. Er kommt zum Einsatz, wenn die anfragende Person signalisiert, dass sie ihren Sachverhalt nicht schriftlich schildern kann oder möchte.
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Formuliert den vollständigen Abschnitt in der Erstantwort-Mail, in dem der automatisierte Transkriptionsservice beschrieben wird. Er kommt zum Einsatz, wenn die anfragende Person signalisiert, dass sie ihren Sachverhalt nicht schriftlich schildern kann oder möchte.
 
 ## Triage zu Beginn
-1. Liegt ein Ausloeser fuer den Transkriptionsservice vor (Anfrage kurz/fragmentarisch, Nutzer kann nicht schreiben, expliziter Wunsch)?
+1. Liegt ein Ausloeser für den Transkriptionsservice vor (Anfrage kurz/fragmentarisch, Nutzer kann nicht schreiben, expliziter Wunsch)?
 2. Ist ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO mit dem Transkriptions-Dienstleister vorhanden?
 3. Enthaelt die Sprachaufnahme potenziell besondere Datenkategorien (Gesundheit, Strafrecht — Art. 9 DSGVO)?
 4. Wird die Einwilligung per automatisierter Ansage (Tastendruck) oder schriftlich eingeholt?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage fuer Sprachaufnahme vor Mandatsannahme
+- Art. 6 Abs. 1 lit. a DSGVO — Einwilligung als Rechtsgrundlage für Sprachaufnahme vor Mandatsannahme
 - Art. 28 DSGVO — AVV mit Transkriptionsdienstleister: zwingend vor Inbetriebnahme
 - Art. 9 Abs. 2 lit. a DSGVO — Ausdrückliche Einwilligung bei besonderer Datenkategorien (Gesundheit, Strafrecht)
 - Art. 13 DSGVO — Informationspflicht bei Ersterhebung von Sprachdaten: vollstaendige Vorab-Aufklaerung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Wann wird dieser Skill aktiviert?
 
 Aktivierung wenn einer der folgenden Auslöser erkannt wird:
@@ -63,14 +67,14 @@ automatisierten Transkriptionsservice an:
 Sie rufen unter der folgenden Nummer an und schildern Ihr Anliegen
 mündlich:
 
-  Transkriptionsservice: [TRANSKRIPTIONS-TELEFON]
+ Transkriptionsservice: [TRANSKRIPTIONS-TELEFON]
 
 Ablauf:
-  1. Automatische Ansage mit Datenschutzhinweis
-  2. Bestätigung Ihres Einverständnisses (Tastendruck oder mündliches "Ja")
-     — Ohne Bestätigung wird keine Aufnahme gestartet.
-  3. Freie Schilderung Ihres Anliegens
-  4. Automatische Verschriftung und vertrauliche Weiterleitung an uns
+ 1. Automatische Ansage mit Datenschutzhinweis
+ 2. Bestätigung Ihres Einverständnisses (Tastendruck oder mündliches "Ja")
+ — Ohne Bestätigung wird keine Aufnahme gestartet.
+ 3. Freie Schilderung Ihres Anliegens
+ 4. Automatische Verschriftung und vertrauliche Weiterleitung an uns
 
 Bitte beachten Sie: Da zwischen uns noch kein Mandatsverhältnis besteht,
 gilt für die Verarbeitung Ihrer Sprachdaten das ausdrückliche
@@ -110,6 +114,4 @@ Aus `kanzlei.json`:
 - `telefon-konfiguration` — liefert `telefon_transkription`
 - `erstantwort-generator` — bettet diesen Abschnitt in die Antwortmail ein
 
-<!-- AUDIT 27.05.2026
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

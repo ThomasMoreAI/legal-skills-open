@@ -5,11 +5,14 @@ description: Austrian enforcement and execution law — Exekutionstitel, Exekuti
 author: MoMarcode1
 author_url: https://github.com/MoMarcode1/austrian-legal-claude/tree/main/skills/recht-exekution
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: litigation
 language: de
+sources:
+- title: Ris protocol
+  path: references/ris-protocol.md
 ---
 
 # /recht exekution — Exekutionsrecht (Procedural)

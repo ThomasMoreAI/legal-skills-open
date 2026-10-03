@@ -1,11 +1,11 @@
 ---
 name: gesetzesentwurf-kabinett
 title: Gesetzesentwurf Kabinett
-description: Kabinettsentwurf der Bundesregierung oder Landesregierung aus dem Referentenentwurf nach Ressortabstimmung erstellen. Anwendungsfall Ressortabstimmung und Verbandeanhoerung sind abgeschlossen Kabinettsvorlage muss fertiggestellt werden. Beschlussvorlage Kabinett Anschreiben Hausspitze Vorblatt Entwurfstext Begründung Ressortabstimmungsdokumentation Synopse Lesefassung. Pflichtdokumente NKR-Prüfbericht KMU-Test Erfuellungsaufwand Klimacheck Nachhaltigkeit. Output komplette Kabinettsmappe bereit zur Vorlage. Anschluss begründung-allgemein-und-besonders verbaendeanhoerung-ressortabstimmung.
+description: 'Für Gesetzesentwurf Kabinett: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Legistik-Werkstatt. Route: gesetzesentwurf-kabinett.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/gesetzesentwurf-kabinett
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -50,7 +50,7 @@ Geaenderte Stammgesetze in der nach Inkrafttreten gültigen Fassung.
 
 Welche Ressorts wurden beteiligt, welche Änderungswünsche gab es, wie wurde damit umgegangen.
 
-### 9. Pruefbericht Normenkontrollrat
+### 9. Prüfbericht Normenkontrollrat
 
 (Bund: Nationaler Normenkontrollrat / NKR; Land: oft nicht vorhanden, aber teilweise Landes-NKR oder Verbändeanhörung)
 
@@ -72,7 +72,7 @@ Auswirkungen auf demografische Entwicklung.
 
 Liste der angehörten Verbände, eingegangene Stellungnahmen, Bewertung.
 
-## Workflow vom Referentenentwurf zum Kabinettsentwurf
+## vom Referentenentwurf zum Kabinettsentwurf
 
 1. Referentenentwurf erstellt (siehe `referentenentwurf-bauen`)
 2. Verbändeanhörung durchgeführt (siehe `verbaendeanhoerung-ressortabstimmung`)
@@ -83,21 +83,24 @@ Liste der angehörten Verbände, eingegangene Stellungnahmen, Bewertung.
 7. Änderungen
 8. Kabinettsmappe zusammenstellen
 
-## Aktuelle Rechtsprechung & Leitsätze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 
-Art. 65 GG (Ressortprinzip) — Art. 76 GG (Einbringung Bundesgesetze) — §§ 15-28 GGO (Kabinettssache, Ressortabstimmung) — § 62 GGO (Rechts- und Gesetzesfolgen-Pruefung) — Art. 80 GG (Verordnungsermaechtigung in Kabinettsbeschluss)
+Art. 65 GG (Ressortprinzip) — Art. 76 GG (Einbringung Bundesgesetze) — §§ 15-28 GGO (Kabinettssache, Ressortabstimmung) — § 62 GGO (Rechts- und Gesetzesfolgen-Prüfung) — Art. 80 GG (Verordnungsermaechtigung in Kabinettsbeschluss)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Ausgabe
 
 Vollständige Mappe mit allen 14 Bestandteilen als getrennte Dateien plus Inhaltsverzeichnis.
 
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
 ## Anschluss
 
 Nach Kabinettsbeschluss: Einbringung in den Bundestag oder Bundesrat (Bundesregierung wählt erste Lesung - Bundestag oder Bundesrat).
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

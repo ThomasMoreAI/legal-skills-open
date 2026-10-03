@@ -1,11 +1,11 @@
 ---
 name: anspruchsgrundlagen-pruefen
 title: Anspruchsgrundlagen-Prüfung
-description: 'Anspruchsgrundlagen identifizieren und Prüfungsreihenfolge bestimmen: Richter oder Kandidat muss Anspruchskonkurrenz lösen. Normen: §§ 433 ff., 280 ff., 812 ff., 823 ff. BGB; HGB; CISG; GmbHG; StVG; ProdHG; IPR Rom-I/II. Prüfraster: Reihenfolge vertraglich, quasi-vertraglich, dinglich, deliktisch, bereicherungsrechtlich; Tatbestandsmerkmale, Rechtsfolge, Einwendungen, Einreden, Verjährung. Output Anspruchsgrundlagen-Baum mit Prüfungsschema. Abgrenzung: CISG-spezifisch siehe cisg-prüfen; IPR siehe internationales-privatrecht; Tenorierung siehe tenor-bauen-zivil.'
+description: 'Für Anspruchsgrundlagen-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/anspruchsgrundlagen-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -16,17 +16,12 @@ language: de
 
 Identifiziert alle in Betracht kommenden Anspruchsgrundlagen und prüft sie schemamaessig.
 
-
 ## Triage zu Beginn
 
 1. Welches Schuldverhältnis liegt zugrunde — Vertrag, Gesetz, Bereicherung, Delikt?
 2. Besteht Auslandsbezug — Rom-I, Rom-II, CISG anwendbar?
 3. Welche Partei trägt die Beweislast für die streitigsten Tatbestandsmerkmale?
 4. Droht Verjährung (§§ 195, 199 BGB — regelmäßig 3 Jahre ab Jahresende Kenntnis)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -37,9 +32,6 @@ Identifiziert alle in Betracht kommenden Anspruchsgrundlagen und prüft sie sche
 - § 985, 1004 BGB — dingliche Ansprüche
 - Art. 1 ff. Rom-I, Art. 4 ff. Rom-II — IPR-Kollisionsrecht
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Sachverhalt scannen:** Welche Parteien, welche Rechtsbeziehung, welches Ziel des Klägers?
@@ -51,6 +43,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Output-Template
 
 **Adressat:** Richter/Berichterstatter — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 ## Anspruchsgrundlagen-Übersicht
@@ -78,14 +78,14 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 5. **Bereicherungsrechtlich** (Paragraf 812 ff BGB)
 6. **Familien- / erbrechtlich** soweit einschlaegig
 
-## Pruefschema für jede Anspruchsgrundlage
+## Prüfschema für jede Anspruchsgrundlage
 
 1. Anwendbarkeit (sachlich, persönlich, raeumlich, zeitlich)
 2. Tatbestandsmerkmale - bei jedem: Wer hat die Beweislast?
 3. Rechtsfolge
 4. Einwendungen (rechtshindernd, rechtsvernichtend)
 5. Einreden (durchsetzbarkeitshemmend)
-6. Verjaehrung (Paragraf 195 BGB, Paragraf 199 BGB, Paragraf 438 BGB usw.)
+6. Verjährung (Paragraf 195 BGB, Paragraf 199 BGB, Paragraf 438 BGB usw.)
 
 ## IPR
 
@@ -99,10 +99,10 @@ Bei Auslandsbezug immer prüfen:
 
 Pro Anspruchsgrundlage eine eigene Tabelle mit allen Tatbestandsmerkmalen.
 
-<!-- AUDIT 27.05.2026
-Geprüfte AZ (task_286):
-- BGH VI ZR 373/18 (behauptet NJW 2020, 466): NOT FOUND auf dejure.org — ersetzt durch BGH VII ZR 158/03, NJW 2005, 1423 (verifiziert auf dejure.org)
-- BGH VI ZR 395/16 (behauptet NJW 2018, 386): NOT FOUND auf dejure.org — ersetzt durch BGH VI ZR 107/08, NJW 2009, 2952 (verifiziert auf dejure.org)
-- BGH VII ZR 101/14 (behauptet NJW 2016, 560): NOT FOUND auf dejure.org — ersetzt durch BGH VII ZR 184/04, NJW 2005, 1356 (verifiziert auf dejure.org)
-Alle drei Ersatz-AZ wurden über dejure.org-Direktabfrage verifiziert.
--->
+
+
+## Quellenkontrolle
+
+Für die Relation gelten keine universellen materiell-rechtlichen Leitentscheidungen. Zuerst Anspruchsgrundlage und Einwendungen des konkreten Streitstoffs bestimmen; pro Rechtssatz nur eine Entscheidung mit Gericht, Datum, Aktenzeichen, tragender Aussage und Quelle verwenden. Verfahrensrechtlich insbesondere Paragraf 138, Paragraf 139, Paragraf 253 Absatz 2 Nummer 2, Paragraf 286, Paragraf 296 und Paragraf 308 ZPO fallbezogen prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

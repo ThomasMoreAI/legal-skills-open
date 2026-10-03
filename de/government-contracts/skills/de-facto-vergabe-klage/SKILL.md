@@ -1,0 +1,224 @@
+---
+name: de-facto-vergabe-klage
+title: 'De-facto-Vergabe ohne Ausschreibung angreifen: Bieter stellt fest dass öffentlicher Auftraggeber Auftrag direkt vergeben'
+description: 'Für De Facto Vergabe Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/de-facto-vergabe-klage
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: government-contracts
+language: de
+---
+
+# De-facto-Vergabe ohne Ausschreibung angreifen: Bieter stellt fest dass öffentlicher Auftraggeber Auftrag direkt vergeben hat
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die vergaberechtlich einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** De-facto-Vergabe ohne Ausschreibung angreifen: Bieter stellt fest dass öffentlicher Auftraggeber Auftrag direkt vergeben hat. Normen: § 135 GWB (Unwirksamkeit), §§ 160 ff. GWB (Nachprüfungsantrag VK), § 132 GWB (wesentliche Vertragsaenderung). Prüfraster: Aufdeckung der direkten Vergabe, Schadensersatzanspruch § 181 GWB, Unwirksamkeitsklage, Ausnahme-Tatbestaende. Output Klageschrift-Geruest, Schadensbeschreibung. Abgrenzung: Regulaerer Nachprüfungsantrag siehe fachanwalt-vergaberecht-nachprüfungsantrag-vk; Unterschwelle siehe mandat-triage-vergaberecht.
+
+### De-facto-Vergabe-Klage
+
+## 1) De-facto-Vergabe — Begriff
+
+- Vergabestelle erteilt Auftrag **ohne** Bekanntmachung / Verfahren
+- Oder Direktvergabe ohne Ausnahmen-Tatbestand
+
+### Beispiele
+
+- Verlängerung Bestandsauftrag über 50 %
+- Wesentliche Änderung ohne Neuvergabe
+- Inhouse-Vergabe ohne Voraussetzungen
+- "Notvergabe" ohne tatsächliche Eilbedürftigkeit
+
+## 2) Unwirksamkeits-Klage § 135 GWB
+
+### Voraussetzungen
+
+- De-facto-Vergabe oder Pflichtverstoß
+- Antrag bei VK / Klage
+
+### Folgen
+
+- Vertrag wird unwirksam
+- Rückabwicklung
+- Neuvergabe erforderlich
+
+### Frist
+
+- 30 Tage nach Kenntnis
+- 6 Monate nach Vertragsschluss
+
+## 3) Inhouse-Vergabe Voraussetzungen
+
+### EuGH-Linie (Teckal-Kriterien)
+
+- Kontrolle wie über eigene Dienststelle
+- Wesentliche Tätigkeit für Eigentümer
+- Keine Beteiligung privater Kapitals
+
+### Prüfung § 108 GWB
+
+- Detaillierte Voraussetzungen
+- Bei Verstoß: De-facto-Vergabe
+
+## 4) Schadensersatz § 181 GWB
+
+### Voraussetzungen
+
+- Pflichtverletzung Vergabestelle
+- Eigene Bewerbung
+- Schaden
+
+### Höhe
+
+- Negativ-Interesse: Bewerbungs-Kosten
+- Positiv-Interesse: entgangener Gewinn (BGH-Linie)
+
+## 5) Aufdeckung
+
+### Phase 1 — Information
+
+- Auftrags-Vergabe ohne Bekanntmachung erkannt
+- Konkurrent / Bieter-Information
+
+### Phase 2 — Beweis-Sammlung
+
+- Vergabe-Akten (IFG-Antrag)
+- Vertrag (Akteneinsicht)
+- Konkurrenten-Befragung
+
+### Phase 3 — Klage VK / OLG
+
+- Unwirksamkeits-Antrag
+- Schadensersatz-Anspruch
+
+## 6) IFG-Antrag § 5 IFG
+
+### Prüfung
+
+- Vergabe-Akten öffentlich zugaenglich
+- Schwarzanteile bei Geschäftsgeheimnis
+
+### Frist
+
+- 1 Monat Antrags-Behandlung
+- Bei Schweigen: Klage
+
+## 7) Typische Konstellationen
+
+### Versorgungs-Verträge
+
+- Strom, Gas, Telekom
+- Vertrags-Verlängerung ohne Ausschreibung
+
+### IT-Verträge
+
+- Modular-Erweiterungen
+- Lock-In-Faktor missbraucht
+
+### Bauauftraege
+
+- Folge-Aufträge ohne Neuvergabe
+- Nachtraege über Schwelle
+
+## 8) Typische Fehler
+
+1. **30-Tage-Frist verpasst**
+2. **IFG-Antrag nicht gestellt**
+3. **Schadensersatz-Anspruch pauschal**
+4. **Inhouse-Vergabe-Voraussetzungen falsch geprüft**
+
+## 9) BGH-/EuGH-Linien (Stand 05/2026, verifiziert curia.europa.eu / openjur.de)
+
+- **EuGH 11.06.2009, C-300/07 (Hans & Christophorus Oymanns)**: Begriff des öffentlichen Auftraggebers nach RL 2004/18; Krankenkassen als Einrichtungen öffentlichen Rechts. Quelle: curia.europa.eu (CELEX 62007CJ0300).
+- **EuGH 19.12.2018, C-216/17 (Coopservice)**: Ausschreibungspflicht Rahmenvereinbarungen; Volumenbegrenzungen zwingend. Quelle: curia.europa.eu.
+- **EuGH 28.10.2020, C-521/18 (Pegaso)**: Vergabe ohne wettbewerbliches Verfahren — De-facto-Vergabe ist nichtig nach Art. 2d RL 89/665 / § 135 GWB, wenn EU-weite Bekanntmachung pflichtwidrig unterblieben ist. Quelle: curia.europa.eu.
+- **EuGH 27.11.2019, C-402/18 (Tedeschi)**: Direktvergabe — Inhouse-Voraussetzungen § 108 GWB / Art. 12 RL 2014/24 strikt: Kontrolle wie eigene Stelle, > 80% Taetigkeit für kontrollierende Behörde, keine private Kapitalbeteiligung. Quelle: curia.europa.eu.
+
+Aktuelle OLG-Vergabesenat-Entscheidungen vor Ausgabe per olg-... bzw. openjur.de mit Aktenzeichen und Datum verifizieren.
+
+## Anschluss
+
+- `fachanwalt-vergaberecht-ruegeschriftsatz-160-gwb` — bei Verfahrensmangel
+- `fachanwalt-vergaberecht-nachpruefungsverfahren-vk` — bei VK-Verfahren
+- `fachanwalt-vergaberecht-orientierung` — Triage
+
+## Strategische Optionen (vor dem Template entscheiden)
+
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+
+| Konstellation | Empfohlener Weg |
+|---|---|
+| Standard — De-facto-Vergabe Klage § 135 GWB | Feststellungsantrag VK; Template unten |
+| Variante A — Auftrag bereits vollstaendig abgewickelt | § 135 Abs. 2 GWB Antrag moegliche weise verfristet; Schadensersatz § 181 GWB |
+| Variante B — Inhouse-Ausnahme streitig | § 108 GWB Voraussetzungen prüfen; eigentuemlicher Sachverhalt |
+| Variante C — Unterhalb EU-Schwellenwert | Primaerechtsschutz; Haushaltsrecht statt GWB |
+
+Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+
+## Vertiefung: Output-Template de-facto-Vergabe
+
+### Triage — Bevor losgelegt wird, klaere:
+
+1. Wurde Auftrag ohne jedes Vergabeverfahren erteilt?
+2. Liegt der Auftragswert über EU-Schwellenwert?
+3. Bestand Auftraggeberpflicht zur Ausschreibung (kein Inhouse, kein In-state)?
+4. Wurde § 135 GWB Feststellungsantrag rechtzeitig gestellt (30 Tage nach Bekanntmachung, max. 6 Monate)?
+5. Alternativ: § 181 GWB Schadensersatz?
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+### Output-Template Antrag Feststellung Unwirksamkeit § 135 GWB
+**Adressat:** Vergabekammer — Tonfall: sachlich-juristisch
+
+```
+Vergabekammer [NAME]
+
+Antrag auf Feststellung der Unwirksamkeit des Zuschlags
+nach § 135 Abs. 1 GWB
+
+Antragsteller: [BIETER]
+Antragsgegner: [AUFTRAGGEBER]
+
+Wir beantragen festzustellen, dass der am [DATUM] erteilte
+Zuschlag unwirksam ist, weil der Auftraggeber den Auftrag
+ohne die vorgeschriebene europaweite Ausschreibung erteilt hat
+(de-facto-Vergabe i.S.d. § 135 Abs. 1 Nr. 2 GWB).
+
+Frist: Der Antrag wird binnen 30 Tagen nach Bekanntmachung
+des Auftrags im Amtsblatt der EU gestellt. Hilfsweise binnen
+6 Monaten nach Vertragsschluss (§ 135 Abs. 2 GWB).
+
+[Rechtsanwalt/-anwaeltin]
+```
+
+--- vor Versand klären ---
+1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
+2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
+3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Für Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Für Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Prüfe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

@@ -1,18 +1,18 @@
 ---
 name: checking-martial-law-overrides
-title: checking-martial-law-overrides
+title: law-ua-checking-martial-law-overrides
 description: Use when analyzing Ukrainian law on topics where default norms may be modified, suspended, or adjusted under martial law since 2022-02-24 — especially procedural deadlines, statute of limitations, registration actions, labor/property relations, judicial territorial jurisdiction, or mobilization-related regulations
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-checking-martial-law-overrides
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ua
 practice: general
 language: uk
 ---
 
-# checking-martial-law-overrides
+# law-ua-checking-martial-law-overrides
 
 З 24.02.2022 в Україні діє правовий режим воєнного стану. Численні норми модифіковані спеціальним регулюванням. Застосування довоєнної норми без перевірки спецрегулювання — ризик серйозної помилки.
 

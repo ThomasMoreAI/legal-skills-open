@@ -1,18 +1,18 @@
 ---
 name: calculating-alimenty
-title: calculating-alimenty
+title: law-pl-calculating-alimenty
 description: Use when determining the amount of alimony under Polish KRO — calculating justified needs of the entitled person vs. earning/property capacity of the obligor (art. 135 KRO), applying equal-standard-of-living principle, setting up documentary evidence, drafting interim security motions under art. 754¹ KPC, or coordinating with the Fundusz Alimentacyjny when enforcement fails
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-calculating-alimenty
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: family
 language: pl
 ---
 
-# calculating-alimenty
+# law-pl-calculating-alimenty
 
 Alimenty w prawie polskim nie mają sztywnych tabel (inaczej niż w Niemczech z Düsseldorfer Tabelle czy niektórych stanach USA). Każdą sprawę sąd ocenia indywidualnie wg dwóch osi: **usprawiedliwionych potrzeb uprawnionego** i **zarobkowych oraz majątkowych możliwości zobowiązanego** (art. 135 § 1 KRO). Tam, gdzie decyduje zbieranie dowodów — ten skill jest mapą.
 

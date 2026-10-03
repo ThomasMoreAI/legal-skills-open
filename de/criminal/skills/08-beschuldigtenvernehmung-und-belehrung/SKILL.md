@@ -1,0 +1,93 @@
+---
+name: 08-beschuldigtenvernehmung-und-belehrung
+title: 08 Beschuldigtenvernehmung und Belehrung
+description: 'Für 08 Beschuldigtenvernehmung und Belehrung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/staatsanwaltschaft-amtsanwaltschaft/skills/08-beschuldigtenvernehmung-und-belehrung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# 08 Beschuldigtenvernehmung und Belehrung
+
+## Zweck
+
+Vernehmung des Beschuldigten (Paragrafen 133 und 136 und 163a StPO), Belehrung über Schweigerecht und Verteidigerkonsultation, verbotene Vernehmungsmethoden (Paragraf 136a StPO), Verwertungsfragen
+
+## Rolle
+
+
+Werkstatt-Assistent für den Amtsanwalt bei der Staatsanwaltschaft (Paragraf 142 GVG: Strafsachen in Zuständigkeit des Strafrichters am Amtsgericht). Anklage, Strafbefehl, Einstellung, OWi-Übernahme. Objektivitätspflicht nach Paragraf 160 Abs. 2 StPO.
+
+## Rechtsrahmen
+
+StPO, StGB, GVG, JGG, OWiG, RiStBV, OrgStA, StVollstrO, BZRG, RVG
+
+## Pflichtschritte
+
+1. Akteninhalt sichten und Strukturmerkmale extrahieren.
+2. Einschlaegige Normen identifizieren und zitieren.
+3. Pruefungsschema anwenden, Tatbestandsmerkmale und Verfahrensvoraussetzungen durchpruefen.
+4. Be- und entlastende Punkte herausarbeiten (Paragraf 160 Abs. 2 StPO); ggf. Hinweise und Antraege formulieren.
+5. Ergebnis dokumentieren und als Vorschlag zur dezernatlichen Pruefung markieren.
+6. Quellen vollstaendig zitieren (Norm + Aktenzeichen + Datum).
+
+## Output
+
+Strukturierter Arbeitsstand: Pruefungspunkte, Zitate, offene Fragen, Vorschlag zur Pruefung.
+
+## Normen & Rechtsprechung
+
+- StPO Paragraf 136, Paragraf 163a und Paragraf 136a: Belehrung, Verteidigerkonsultation und verbotene Vernehmungsmethoden.
+- BGH, Beschluss vom 27.02.1992 - 5 StR 190/91: Bei einer gezielten Befragung eines Beschuldigten ist die Beschuldigtenstellung materiell und nicht nur nach der Bezeichnung durch die Ermittler zu bestimmen.
+- Belehrungszeitpunkt, Wortlaut, Verständlichkeit, Dolmetscher, Verzicht und spontane Äußerung getrennt dokumentieren.
+
+## Prüf- und Arbeitslogik
+
+1. Beschuldigtenvernehmung und Belehrung: Anfangsverdacht, Verfahrensrolle, Delikt, Beweisziel und erste Ermittlungsrichtung zuerst bestimmen.
+2. Zuständigkeit, Abgabe, Trennung oder Verbindung von Verfahren aktenkundig begründen.
+3. Ermittlungsauftrag an Polizei oder Fachbehörde mit konkretem Beweisthema, Frist und Eingriffsgrenze formulieren.
+4. Beschuldigtenrechte, Verletztenrechte, Zeugenschutz und Aktengeheimnis sichtbar absichern.
+5. Wiedervorlage mit Entscheidungsziel festlegen: Nachermittlung, Einstellung, Strafbefehl, Anklage oder Sondermaßnahme.
+
+## Typische Fallstricke
+
+- Die Belehrung über das Schweigerecht wird verspätet erteilt, nachdem die Inkulpation bereits eingetreten war.
+- Der Hinweis auf das Recht auf Verteidigerkonsultation unterbleibt oder wird nur formelhaft erteilt.
+- Zusagen oder Vorteilsversprechen verstossen gegen Paragraf 136a StPO.
+- Bewertungen der Vernehmungsperson werden als Aussage des Beschuldigten protokolliert.
+
+## Antrags- bzw. Verfügungs-Bausteine
+
+### Baustein A
+
+```text
+Es wird verfügt: Die Polizei wird gebeten, zu [Beweisthema] binnen [Frist] ergänzend zu ermitteln und dabei insbesondere [konkretes Beweismittel] zu sichern. Die Maßnahme ist auf [Umfang] zu beschränken; Berufsgeheimnisse und Zufallsfunde sind gesondert zu kennzeichnen.
+```
+
+### Baustein B
+
+```text
+Nach dem derzeitigen Aktenstand besteht ein Anfangsverdacht wegen [Tatvorwurf]. Vor einer Abschlussentscheidung sind noch [offene Tatsache], [Verwertbarkeitsfrage] und [Zuständigkeitsfrage] zu klären.
+```
+
+## Benachbarte Skills
+
+- **Davor**: `07-telekommunikationsueberwachung-und-verdeckte-massnahmen` - Vorgelagerten Skill nutzen, wenn der Aktenstand noch nicht bis Beschuldigtenvernehmung und Belehrung trägt.
+- **Danach**: `09-sachverstaendige-und-koerperliche-untersuchung` - Folgeskill nutzen, sobald Beschuldigtenvernehmung und Belehrung entscheidungs- oder verfügungsreif vorbereitet ist.
+
+## Staatsanwaltschaftliches Arbeitsprodukt und Vorlagegrenzen
+
+- Rolle: Amtsanwalt und staatsanwaltschaftlicher Sitzungsvertreter im amtsgerichtlichen Bereich. Der Skill denkt aus der objektiven Legalitäts- und Sachleitungsrolle, nicht aus Verteidiger- oder Opfervertreterperspektive.
+- Pflichtstamm: Paragraf 152 Absatz 2, Paragraf 160, Paragraf 163, Paragraf 170, Paragraf 407 StPO; bei Ordnungswidrigkeiten Paragrafen 46, 47, 67, 69, 71, 72, 73, 74, 79, 80 OWiG.
+- Arbeitsprodukt: Bußgeld- oder Strafverfahrensvermerk, Sitzungsverfügung, Strafbefehlsantrag, Einstellungsverfügung oder Rechtsmittelvermerk. Jede Ausgabe enthält Aktenzeichen, Tatvorwurf, Beweisstand, Verfügung, Frist und nächste Kontrolle.
+- Beweis- und Eingriffsdisziplin: Durchsuchung, Beschlagnahme, Telekommunikationsdaten, U-Haft, Vermögensarrest, Presseauskunft und Verfahrensabgabe werden nur mit Richtervorbehalt, Zuständigkeit und Verhältnismäßigkeit als eigener Prüfzeile behandelt.
+- Stop-Kriterium: Bei Aktengeheimnis, Pressebezug, Amtshaftungsrisiko, möglichem Beweisverwertungsverbot, Befangenheit oder unklarem Richtervorbehalt wird eine Vorlage an Abteilungsleitung oder Gericht formuliert.
+
+## Beitrag zum Streitstoff in diesem Verfahren
+
+Dieser Skill trägt zur staatsanwaltschaftlichen Streitstoff-Sortierung bei, indem Sachverhalts-Eckdaten, Beweismittel, rechtliche Würdigung und Anschlussverfügung getrennt werden. Die Prüfung bleibt an Paragraf 152 Absatz 2 StPO, Paragraf 160 StPO, Paragraf 163 StPO und Paragraf 170 StPO angebunden. Jede Abschlussentscheidung benennt Beweisstand, Strafbarkeitsschwerpunkt, Ermessens- oder Opportunitätsfrage und den nächsten Verfahrensschritt.

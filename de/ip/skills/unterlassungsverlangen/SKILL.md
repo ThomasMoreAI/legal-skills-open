@@ -1,11 +1,11 @@
 ---
 name: unterlassungsverlangen
 title: Abmahnung
-description: 'Schutzrechtsinhaber will Verletzung abmahnen oder hat selbst Abmahnung erhalten. Abmahnung Unterlassung MarkenG PatG UrhG UWG. Prüfraster: Abmahnungsentwurf modifizierte Unterlassungserklärung Streitwert Kostenansatz RVG oder Reaktions-Optionsmemo bei erhaltener Abmahnung. Output: Abmahnungsschreiben oder Optionsmemo mit Risikobewertung. Abgrenzung zu schutzschrift-eilverfuegung (Praeventiv) und verletzungs-triage (Eingangsentscheidung).'
+description: 'Für Abmahnung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gewerblicher-rechtsschutz/skills/unterlassungsverlangen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -13,6 +13,16 @@ language: de
 ---
 
 # Abmahnung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
 
 Zwei Modi. Einen wählen:
 
@@ -47,22 +57,18 @@ Gegenstand bestimmen:
 - Verletzungsform: Identität (§ 14 Abs. 2 Nr. 1), Verwechslungsgefahr (§ 14 Abs. 2 Nr. 2), Rufausnutzung/-beeinträchtigung bekannter Marken (§ 14 Abs. 2 Nr. 3)
 - Prüfung: Benutzung im geschäftlichen Verkehr, für Waren/Dienstleistungen, ohne Zustimmung
 - Benutzungsschonfrist: eingetragene Marke muss 5 Jahre ernsthaft benutzt sein (§ 26 MarkenG), sonst Einrede nach § 25 MarkenG
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Urheberrecht (§ 97 Abs. 1 UrhG):**
 - Schutzvoraussetzungen: persönliche geistige Schöpfung (§ 2 Abs. 2 UrhG); keine Neuheitsprüfung
 - Verletzungshandlungen: Vervielfältigung (§ 16 UrhG), Verbreitung (§ 17 UrhG), öffentliche Zugänglichmachung (§ 19a UrhG)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Wettbewerbsrecht (§ 8 Abs. 1 UWG):**
 - Unlautere geschäftliche Handlung: §§ 3 ff. UWG; Beispiele: Irreführung (§ 5 UWG), Anschwärzung (§ 4 Nr. 2 UWG), vergleichende Werbung (§ 6 UWG), unzumutbare Belästigung (§ 7 UWG)
 - Mitbewerber, Verbraucherverbände, qualifizierte Einrichtungen (§ 8 Abs. 3 UWG) anspruchsberechtigt
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Patentrecht (§ 139 PatG):**
 - Patentanspruch muss in Kraft sein, nicht nichtig
 - Verletzungshandlungen: § 9 PatG (Herstellung, Anbieten, Inverkehrbringen, Gebrauch, Einfuhr)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### 3. Abmahnschreiben formulieren
 
@@ -95,7 +101,6 @@ Streitwert bestimmt Gerichtskostenvorschuss und RVG-Gebühren:
 | UWG (Wettbewerbsverstoß, mittelständisch) | 10.000 – 100.000 € |
 | Patent (kommerziell bedeutend) | 250.000 – 2.000.000 € |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### 5. Kostenerstattungsanspruch berechnen (RVG)
 
@@ -106,7 +111,6 @@ Abmahnkosten nach § 13 Abs. 3 UWG (bei UWG-Abmahnungen) oder allgemeinen Grunds
 - Zzgl. Auslagenpauschale (Nr. 7002 VV RVG): 20 € (max. 20 % der Gebühren)
 - Zzgl. Umsatzsteuer (§ 19a UStG beachten, falls USt-pflichtig)
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### 6. Pre-Delivery-Gate
 
@@ -146,18 +150,11 @@ Zitierweise nach `../references/zitierweise.md`.
 **Wichtige Normen:** §§ 8, 12, 13, 14 UWG; § 97 Abs. 1, § 97a, § 139 UrhG; §§ 14, 26 MarkenG; § 139 PatG; § 42 DesignG.
 
 **Leitentscheidungen:**
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 - Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen zitieren. Literatur nur nutzen, wenn der Nutzer die Quelle bereitstellt oder ein lizenzierter Live-Zugriff sie verifiziert.
 - Köhler, in: Köhler/Bornkamm/Feddersen, UWG, 43. Aufl. 2025, § 8 Rn. 1.1 ff.
 - Ingerl/Rohnke, MarkenG, 3. Aufl. 2010, § 14 Rn. 345 ff. (vor. auf BGH-Rspr. aktualisieren).
 - Dreier/Schulze, UrhG, 7. Aufl. 2022, § 97a Rn. 12 ff.
-
-## Ausgabeformat
-
-**Sendemodus:** Abmahnschreiben als vollständiger Briefentwurf (Briefkopf, Datum, Empfänger, Betreff, Sachverhalt, Rechtslage, Forderungen, Fristangabe, Anlagen-Verzeichnis: modifizierte UE) + separater Prüfvermerk.
-
-**Empfangsmodus:** Optionen-Memo mit Zusammenfassung der Abmahnung, Fristnotiz, Risikoeinschätzung je Option (Ampel 🔴/🟠/🟡/🟢), Empfehlung und Entscheidungsbaum.
 
 ## Beispiel (Sendemodus – Markenrechtliche Abmahnung)
 
@@ -165,13 +162,11 @@ Zitierweise nach `../references/zitierweise.md`.
 
 **Rechtliche Einordnung (Gutachtenstil):**
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Benutzungsschonfrist:* Die Marke ist seit 2019 eingetragen; die Fünfjahresfrist (§ 26 Abs. 5 MarkenG) läuft ab 2024; ernsthafte Benutzung durch Mandant zu dokumentieren. `[prüfen]`
 
 *Unterlassungsanspruch:* Es besteht Wiederholungsgefahr (tatsächliche Verletzungshandlung); Unterlassungsanspruch aus § 14 Abs. 5 MarkenG gegeben.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 *Kosten:* 1,3-Geschäftsgebühr aus 50.000 € nach Nr. 2300 VV RVG = 1.641,40 € zzgl. 20 € Auslagenpauschale = 1.661,40 € zzgl. MwSt.
 
@@ -181,7 +176,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - **Unklarer Unterlassungsgegenstand:** Die abgemahnte Handlung muss vollstreckungstauglich beschrieben sein; andernfalls kann ein Unterlassungstitel nicht vollstreckt werden (§ 890 ZPO).
 - **Missbräuchlichkeit (§ 8c UWG):** Serielle Abmahnungen mit primärem Kostenerzielungszweck sind missbräuchlich und begründen Schadensersatzpflichten; Massenfälle vorab auf Missbrauchsrisiko prüfen.
 - **Benutzungsschonfrist (§ 26 MarkenG):** Unterlassene Prüfung gefährdet das gesamte Abmahnungsverfahren, wenn der Verletzer die Einrede erhebt.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Kein Versand ohne Freigabe:** Das Plugin sendet keine Abmahnung; es entwirft und wartet auf Genehmigung durch den konfigurierten Genehmiger.
 
 ## Triage-Fragen vor Unterlassungsverlangen
@@ -190,18 +184,4 @@ Bevor das Unterlassungsverlangen formuliert wird, klaere:
 1. Liegt Wiederholungsgefahr (tatsaechliche Verletzung) oder nur Erstbegehungsgefahr vor?
 2. Ist die abgemahnte Handlung vollstreckungstauglich beschreibbar (§ 890 ZPO — keine vagen Formulierungen)?
 3. Wurde die Unterlassungserklaerung ausreichend strafbewehrt (Hamburger Brauch vs. feste Vertragsstrafe)?
-4. Ist die Dringlichkeitsfrist fuer eine spaetere einstweilige Verfuegung gewahrt (BGH: max. 4-6 Wochen nach Kenntniserlangung)?
-
-## Aktuelle Rechtsprechung
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Audit-Hinweis (27.05.2026)
-
-Im Halluzinations-Audit 2026-05-27 wurden in diesem Skill folgende
-Aktenzeichen geprueft und korrigiert:
-- BGH I ZR 153/16 (WRONG_TOPIC: tatsaechlich "19% MwSt. GESCHENKT" — irrefuehrende Werbung, nicht Unterlassungserklaerung-Praezision): ersetzt durch verifizierte Entscheidung BGH I ZR 82/99 vom 31.05.2001 (Weit-Vor-Winter-Schluss-Verkauf), GRUR 2002, 180 (Quelle: dejure.org/2001,536)
+4. Ist die Dringlichkeitsfrist für eine spaetere einstweilige Verfuegung gewahrt (BGH: max. 4-6 Wochen nach Kenntniserlangung)?

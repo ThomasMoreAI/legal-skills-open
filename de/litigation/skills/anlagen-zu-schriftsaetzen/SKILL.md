@@ -1,125 +1,62 @@
 ---
 name: anlagen-zu-schriftsaetzen
-title: Zuordnung von Anlagen zu gerichtlichen Schriftsätzen
-description: 'Anwalt hat Schriftsatz fertig und muss Anlagen korrekt benennen nummerieren und als PDF-Konvolut aufbereiten. Anlagemanagement gerichtliche Schriftsaetze. Prüfraster: Schriftsatz lesen Beweisstuecke erkennen sortieren beA-konforme Benennung (Anlage K1 B1 A1) PDF-Konvertierung Stempel oben rechts Arial 12. Modi Auto-Benennung Schriftsatz folgt Prüfmodus. Output: nummeriertes Anlagenpaket in beA-Konvention. Abgrenzung zu anlagen-erstellen im Sozialrecht (K/W/A-Konvention) und normenkontrollantrag-schriftsatz.'
+title: Anlagen zu Schriftsätzen bauen
+description: 'Hauptworkflow für gerichtliche Anlagenproduktion: liest Schriftsatz und Aktenordner zuerst, verbindet jede Behauptung mit ihrem Beleg, hält K-, B-, AST- oder AG-Nummern fort, erkennt Lücken und Dubletten und routet bei bevorstehendem Versand unmittelbar in die beA-Endfertigung mit PDF-, Stempel-, Dateinamen-, Signatur- und Eingangskontrolle.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anlagen-zu-schriftsaetzen/skills/anlagen-zu-schriftsaetzen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
+sources:
+- title: Bea endproduktion recht technik
+  path: references/BEA-ENDPRODUKTION-RECHT-TECHNIK.md
 ---
 
-# Zuordnung von Anlagen zu gerichtlichen Schriftsätzen
+# Anlagen zu Schriftsätzen bauen
 
-## Triage — kläre vor dem Einsatz
+## 1. Direktstart
 
-1. In welchem Modus soll der Skill arbeiten — Auto-Benennung (Schriftsatz noch ohne Anlage-Nummern), Schriftsatz folgt (Nummern schon im Schriftsatz) oder Prüfmodus (Zuordnung bereits fertig)?
-2. Welche Parteirolle hat der Mandant im konkreten Schriftsatz (Kläger → K, Beklagter → B, Antragsteller → A/AST, Antragsgegner → AG, Nebenintervenient → NI)?
-3. Sind alle Anlagen-Dateien in einem Ordner bereitgestellt und in verwertbarem Format (PDF, DOCX, XLSX, JPG, EML/MSG)?
-4. Gibt es Konvolute (mehrere Dokumente unter einer Anlage-Nummer), und soll der Stempel auf jeder Seite oder nur auf Seite 1 erscheinen?
-5. Soll ein einziges kombiniertes PDF (Schriftsatz + Anlagenkonvolut) erzeugt werden?
+Wenn Schriftsatz und Dateien vorliegen, lies zuerst den maßgeblichen Schriftsatz und erfasse die Dateinamen. Öffne anschließend die darin zitierten Belege; bei großen Ordnern arbeite abschnittsweise und kennzeichne noch nicht gelesene Unterlagen. Frage nicht erneut nach bereits belegten Angaben. Erzeuge eine Belegmatrix und kennzeichne:
 
-## Zentrale Normen
+1. Anlagenzitate ohne Datei,
+2. Dateien ohne Anlagenzitat,
+3. widersprüchliche Nummern oder Bezeichnungen,
+4. entscheidungserheblichen Vortrag, der nur in einer Anlage steht,
+5. Frist-, Lesbarkeits-, Schwärzungs- oder Formatrisiken.
 
-§ 253 ZPO (Klageschrift, Anlagen) — § 130 ZPO (Schriftsätze allgemein) — § 130a ZPO (elektronisches Dokument) — § 130d ZPO (beA-Pflicht ab 01.01.2022) — § 520 Abs. 2 ZPO (Anlage zur Berufungsbegründung) — §§ 286, 371 ZPO (Beweisaufnahme, Urkundenbeweis) — BRAO § 43e (beA-Nutzungspflicht) — BeAZulV (beA-Zulassungsverordnung)
+Frage höchstens nach der Rolle oder dem bisher verwendeten Nummernkreis, wenn diese Weiche nicht aus Schriftsatz und Akte folgt.
 
-## Rechtsprechung
+## 2. Belegmatrix
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+| Schriftsatzstelle | Tatsachenbehauptung | Beweisangebot | Anlage | Quelldatei | Status |
+| --- | --- | --- | --- | --- | --- |
+| Seite und Absatz | ausformulierter Tatsachenkern | Urkunde, Zeuge oder anderes Beweismittel | K 1 oder B 1 | eindeutiger Dateiname | vorhanden, fehlt oder widersprüchlich |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Die Reihenfolge folgt dem Beweisgang des Schriftsatzes, nicht dem zufälligen Ordnernamen. Eine Anlage belegt eine im Schriftsatz vorgetragene Tatsache; sie ersetzt den Vortrag nicht.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+## 3. Nummernkreis
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Klägeranlagen laufen als `K`, Beklagtenanlagen als `B`, Antragsteller- und Antragsgegneranlagen nach dem erkennbaren Gerichts- oder Kanzleistandard. Replik und Duplik setzen den bisherigen Nummernkreis fort. Beginne nie stillschweigend wieder bei 1.
 
-## Quellenregel
+## 4. Produktionsweiche
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
+Wenn nur die inhaltliche Zuordnung offen ist, arbeite die Belegmatrix und Lückenliste ab. Sobald der Schriftsatz versandt werden soll, wechsle ohne erneutes Vollinterview in `bea-versandmappe-endfertigung`.
 
-Dieser Skill nimmt einen vorliegenden Schriftsatz-Entwurf und eine Sammlung kuratierter Anlagen und macht daraus ein beA-fertiges Anlagenkonvolut mit korrekter Reihenfolge, PDF-Konvertierung, beA-tauglicher Benennung und Arial-12-Stempel oben rechts.
+Das Werkzeug `werkzeuge/build_anlagenkonvolut.py` erzeugt aus vorbereiteten Dateien einen Versandordner und interne Prüfunterlagen. Es stempelt standardmäßig jede Seite und versendet nichts. Die juristische Zuordnung und die anwaltliche Freigabe bleiben vorgelagert.
 
-## Eingaben
+Der Office-Lauf verwendet ein eigenes temporäres Profil und akzeptiert nur eine neu erzeugte, lesbare PDF. Nach 120 Sekunden endet die Konvertierung der betroffenen Anlage; unter Linux und macOS werden auch ihre Kindprozesse beendet. Sichere den Fehler in der Stop-Liste, bearbeite die übrigen Belege weiter und verlange gezielt einen Ersatzexport. Keine unveränderte Wiederholungsschleife, kein stilles Weglassen der Anlage und keine Versandfreigabe trotz fehlgeschlagener Konvertierung.
 
-- **Schriftsatz-Entwurf** (PDF oder DOCX) — Pflicht.
-- **Anlagen-Sammlung** als Ordner oder Liste von Dateien (PDF, DOCX, XLSX, JPG, PNG, EML, MSG).
-- **Parteirolle:** K / B / A / AST / AG / NI — oder eigener Präfix.
-- **Modus**: Auto-Benennung / Schriftsatz folgt / Prüfmodus.
+## 5. Ergebnis
 
-## Drei Modi
+Liefere je nach Arbeitsstand:
 
-### Modus 1 — Auto-Benennung
+1. Belegmatrix und Lückenliste,
+2. fortgeschriebenes Anlagenverzeichnis,
+3. konkrete Umbenennungs- und Konvertierungsanweisung,
+4. versandfertige Einzel-PDFs und interne Prüffassung,
+5. Freigabevermerk und Eingangskontrollplan.
 
-Schriftsatz ohne Anlage-Nummern → Skill liest Anker, ordnet Dateien zu, vergibt Nummern in Reihenfolge der ersten Erwähnung, erzeugt Vorschlag im Schriftsatz.
-
-### Modus 2 — Schriftsatz folgt
-
-Nummern bereits im Schriftsatz → Skill ordnet Dateien den vorhandenen Nummern zu, meldet Lücken und Überschüsse.
-
-### Modus 3 — Prüfmodus
-
-Alles schon zugeordnet → Skill validiert: Numerierungslücken, Doppelte, fehlende Dateien, Stempel-Fehlanpassungen, Format-Fehler.
-
-## Stempel-Spezifikation
-
-- **Position:** rechter oberer Rand, ca. 1.5 cm vom oberen / rechten Rand.
-- **Schrift:** Arial 12 pt regular.
-- **Format:** `Anlage K 7` (Leerzeichen zwischen Präfix und Zahl).
-- **Mehrseitige Anlagen:** Stempel nur Seite 1 (Standard); Option `--stempel jede-seite`.
-- **Konvolute:** Deckblatt + Einzeldokumente mit Suffix `K 5/1`, `K 5/2` usw.
-
-## Datei-Benennung (beA-tauglich)
-
-Beispiel: `Anlage_K-03_Vertrag-vom-2024-03-15.pdf`
-
-Regeln: keine Umlaute (ae/oe/ue/ss), kein Leerzeichen, Zahlen zweistellig, max. ca. 90 Zeichen, Datum im Format JJJJ-MM-TT.
-
-## Ausgabe
-
-```
-anlagen/
-  Anlage_K-01_<Kurzbeschreibung>.pdf
-  Anlage_K-02_<Kurzbeschreibung>.pdf
-  …
-  Anlagenkonvolut.pdf
-  Anlagenverzeichnis.pdf
-  Anlagenverzeichnis.md
-```
-
-Optional: `Schriftsatz_mit_Anlagen.pdf` — Schriftsatz vorab, dann Konvolut, mit durchlaufenden Lesezeichen.
-
-## Was der Skill NICHT tut
-
-- Keine inhaltliche Schwärzung (DSGVO).
-- Keine Echtheits- oder Authentizitätsprüfung.
-- Keine elektronische Signatur und kein direktes beA-Hochladen.
-
-## Output-Template
-
-**Prüfmodus-Report: Anlagenkonvolut**
-
-Schriftsatz: [...]
-Parteirolle: [...] (K / B / A)
-Anzahl Anlagen im Schriftsatz zitiert: [...]
-Anzahl Anlagen-Dateien vorhanden: [...]
-
-| Fehlerklasse | Befund |
-|---|---|
-| Numerierungslücken | keine / K [...] fehlt |
-| Doppelt vergebene Nummern | keine / K [...] doppelt |
-| Zitiert aber Datei fehlt | keine / K [...] |
-| Vorhanden aber nicht zitiert | keine / K [...] |
-| Stempel-Fehlanpassungen | keine / K [...] |
-| Format-Fehler (Umlaute, Leerzeichen) | keine / Datei: [...] |
-
-**Ergebnis:** [Kein Handlungsbedarf / Korrekturen erforderlich — Korrekturplan: ...]
-
----
-
-Hinweis: Die Letztverantwortung für Vollständigkeit und Berufspflichten (§ 43e BRAO, § 203 StGB, DSGVO) liegt beim Anwalt.
-
-<!-- AUDIT 27.05.2026: BGH VI ZB 53/20 (NOT_FOUND auf dejure.org) entfernt und ersetzt durch BGH VII ZR 21/16, BauR 2018, 2056 (verifiziert auf dejure.org). -->
+Die Rechts- und Technikanker stehen in `references/BEA-ENDPRODUKTION-RECHT-TECHNIK.md`.

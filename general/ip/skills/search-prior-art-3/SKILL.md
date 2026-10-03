@@ -5,7 +5,7 @@ description: Search for prior art relevant to a specific invention or patent cla
 author: pjt222
 author_url: https://github.com/pjt222/agent-almanac/tree/main/i18n/wenyan-lite/skills/search-prior-art
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -55,7 +55,7 @@ language: zh
    - 同概念之替代描述
 5. 記錄**搜尋圖**：元素、詞與關係
 
-```
+```text
 Search Map Example:
 +------------------+-----------------------------------+-----------+
 | Element          | Search Terms                      | Priority  |
@@ -140,7 +140,7 @@ Search Map Example:
 
 1. 建立對應先前技術至發明元素之**請求項表**：
 
-```
+```text
 Claim Element vs. Prior Art Matrix:
 +------------------+--------+--------+--------+--------+
 | Element          | Ref #1 | Ref #2 | Ref #3 | Ref #4 |

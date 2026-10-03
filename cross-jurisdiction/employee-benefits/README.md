@@ -4,13 +4,12 @@ Employee benefits and executive compensation — ERISA/qualified plans, equity i
 
 Jurisdiction: `cross-jurisdiction` · Practice: `employee-benefits` · Skill language varies per skill.
 
-## Skills (3)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`Country-by-Country Benefits-Matrix für Konzerne`](skills/country-by-country-benefits-matrix-konzern/) | Laenderuebergreifende Benefits-Matrix für internationalen Konzern erstellen: Versorgungsniveaus im Vergleich.… |
-| [`Internationale Harmonisierung Konzern-BAV`](skills/internationale-harmonisierung-konzern-bav/) | Internationale bAV-Systeme im Konzern harmonisieren: Governance, Finanzierungsniveaus, lokale Compliance.… |
-| [`Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive`](skills/japan-bav-und-corporate-pension-iorp/) | Japanisches betriebliches Altersversorgungssystem und IORP-Vergleich für europaeische Konzerne. Normen:… |
+| [`Country-by-Country Benefits-Matrix für Konzerne`](skills/country-by-country-benefits-matrix-konzern/) | Für Country-by-Country Benefits-Matrix für Konzerne: ordnet Norm, Beweislast und Gegenargument… |
+| [`Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive`](skills/japan-bav-und-corporate-pension-iorp/) | Für Japan BAV und Corporate Pension — Deutsch-Japanische Perspektive: ordnet Norm, Beweislast und… |
 
 ## Cold-start context
 

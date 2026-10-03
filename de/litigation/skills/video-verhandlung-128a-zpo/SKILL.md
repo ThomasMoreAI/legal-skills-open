@@ -1,0 +1,135 @@
+---
+name: video-verhandlung-128a-zpo
+title: Video-Verhandlung nach § 128a ZPO
+description: 'Für Video-Verhandlung nach Paragraf 128a ZPO: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-amtsgericht/skills/video-verhandlung-128a-zpo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Video-Verhandlung nach § 128a ZPO
+
+## Worum geht es?
+
+Seit einigen Jahren ist Video-Verhandlung im Zivilprozess möglich (§ 128a ZPO). Sie nehmen aus dem eigenen Wohn-/Arbeitszimmer am Termin teil — per Video-Konferenz. Praktisch für lange Anfahrt, Krankheit, Auslandsaufenthalt. Diese Skill zeigt, wann und wie.
+
+## Wann brauchen Sie diese Skill?
+
+- Sie wohnen weit weg vom Gericht.
+- Sie sind krank oder eingeschraenkt mobil.
+- Sie wollen Reisekosten sparen.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Video-Verhandlung**: Teilnahme per Bild- und Ton-Uebertragung.
+- **§ 128a ZPO**: Rechtsgrundlage.
+- **Sitzungsoeffentlichkeit**: Auch bei Video-Verhandlung sind Zuhoerer im Saal möglich.
+
+## Rechtsgrundlagen
+
+- **§ 128a ZPO** — Video-Verhandlung.
+- **§ 128a I ZPO** — Voraussetzungen, Antrag.
+- **§ 128a II ZPO** — Pflicht zum Erscheinen im Saal auch bei Video möglich.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Antrag stellen
+
+Antrag auf Video-Verhandlung kann gestellt werden:
+
+- Bereits in der Klage / Klageerwiderung.
+- Vor dem Termin schriftlich.
+- Mit Begruendung warum praesente Teilnahme schwierig.
+
+Beispiel:
+
+```
+Aktenzeichen: [AZ]
+
+Ich beantrage gemaess § 128a ZPO die
+Teilnahme an der muendlichen Verhandlung
+vom [Datum] per Video-Konferenz.
+
+Begruendung:
+
+Mein Wohnort liegt 350 km vom Amtsgericht
+entfernt. Die Reisekosten und der Zeitaufwand
+waeren erheblich. Ich verfuege ueber ein
+PC-Geraet mit Web-Kamera und stabile
+Internet-Verbindung.
+
+[Ort, Datum, Unterschrift]
+```
+
+### Schritt 2 — Gericht entscheidet
+
+Das Gericht entscheidet nach Ermessen. Bei AG: i. d. R. positiv, wenn Begruendung plausibel.
+
+Wenn abgelehnt: Sie müssen persoenlich erscheinen — oder Vertreter senden.
+
+### Schritt 3 — Technische Voraussetzungen
+
+Gericht teilt Verbindungs-Daten mit:
+
+- Software (Jitsi, Webex, Zoom etc.).
+- Login-Daten.
+- Test-Termin (manchmal).
+
+Sie brauchen:
+
+- PC / Tablet / Smartphone mit Kamera und Mikrofon.
+- Stabile Internet-Verbindung.
+- Ruhiger Hintergrund.
+
+### Schritt 4 — Test vorab
+
+Vor Termin testen:
+
+- Einwahl.
+- Bild- und Ton-Qualitaet.
+- Sichtbarkeit.
+
+Bei Problemen: Gericht informieren.
+
+### Schritt 5 — Im Termin
+
+- Punktlich einwaehlen (5-10 Min vorab).
+- Kamera an, Mikrofon stumm (entstummen bei Wortmeldung).
+- Anrede wie im Saal: "Herr Vorsitzender" / "Frau Vorsitzende".
+- Identifizierung: Personalausweis hochhalten ggf.
+
+### Schritt 6 — Dokumente
+
+Wenn Sie Anlagen vorlegen wollen: vorab per MJP einreichen — oder per Video-Konferenz Bildschirm teilen.
+
+### Schritt 7 — Beweisaufnahme per Video
+
+Zeugen können auch per Video vernommen werden (§ 128a I 2 ZPO). Erleichtert lange Anfahrtswege.
+
+### Schritt 8 — Pflichten und Saeumnis
+
+Wenn Sie zur Video-Verhandlung nicht erscheinen: gleiche Folge wie bei Saeumnis im Saal — Versaeumnisurteil möglich.
+
+Skill `saeumnis-im-termin-330-zpo`.
+
+## Worauf Sie besonders achten müssen
+
+- **Antrag stellen** — nicht ohne Genehmigung.
+- **Technik vorher testen**.
+- **Anwesenheit Pflicht** waehrend der gesamten Verhandlung.
+- **Ruhig und identifizierbar** im Video.
+
+## Typische Fehler
+
+- "Ich logge mich auf eigene Faust ein." → Ohne Genehmigung nicht möglich.
+- "Im Cafe oder im Auto." → Stoerend; ruhiger Hintergrund noetig.
+- "Kamera aus." → Pflicht zur Sichtbarkeit waehrend der Verhandlung.
+
+## Quellen und Aktualitaet
+
+Stand: 05/2026. § 128a ZPO Video-Verhandlung in Reformbewegung — die genaue Ausgestaltung kann sich nach Justizmodernisierungs-Gesetz ändern. Verifizieren Sie aktuellen Stand.

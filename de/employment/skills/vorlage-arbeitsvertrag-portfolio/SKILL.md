@@ -1,11 +1,11 @@
 ---
 name: vorlage-arbeitsvertrag-portfolio
 title: /tabellenreview-3d:vorlage-arbeitsvertrag-portfolio
-description: 'Vorlagetabelle für Portfolio-Review von Arbeitsvertraegen im 3D-Format: Forderung/Prüfung/Stellung. Normen: BGB, KSchG, ArbZG. Prüfraster: Vertragsbedingungen, Klauselgueltigkeit, HR-Compliance. Output: Arbeitsvertrag-Portfolio-Tabelle. Abgrenzung: nicht allgemeine 3D-Review-Konfiguration.'
+description: 'Für /tabellenreview-3d:vorlage-arbeitsvertrag-portfolio: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/vorlage-arbeitsvertrag-portfolio
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
@@ -13,10 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:vorlage-arbeitsvertrag-portfolio
-
-## Zweck
-
-Wer einen Mittelstaendler erwirbt steht vor 200 Arbeitsverträgen mit jeweils 12 bis 30 Klauseln. Diese Vorlage macht das prüfbar — in einem Lauf 200 mal 15 mal 3 = 9000 Zellen mit konsolidierter Ampel.
 
 ## Spalten (15 Datenpunkte)
 
@@ -44,7 +40,7 @@ Wer einen Mittelstaendler erwirbt steht vor 200 Arbeitsverträgen mit jeweils 12
 - Prüfer: Arbeitsrechtler
 - Materialität rot: unwirksame Ausschlussfrist unter 3 Monaten; Wettbewerbsverbot ohne Karenzentschädigung; Widerrufsvorbehalt für Hauptleistung
 
-### DSGVO-Beschaeftigtendatenschutz
+### DSGVO-Beschäftigtendatenschutz
 
 - Zusatzspalten: Einwilligungen zu Bild- und Datenverarbeitung / BDSG Paragraph 26 / Löschpflichten / Mitarbeiterüberwachungsklausel
 - Prüfer: Datenschutzbeauftragter
@@ -71,8 +67,16 @@ Wer einen Mittelstaendler erwirbt steht vor 200 Arbeitsverträgen mit jeweils 12
 - **ArbZG** — Arbeitszeit
 - **MuSchG / BEEG** — Mutterschutz Elternzeit
 - **BUrlG** — Urlaub
-- **BDSG** — Paragraph 26 Beschaeftigtendatenschutz
+- **BDSG** — Paragraph 26 Beschäftigtendatenschutz
 
 ## Ausgabe
 
 Würfel-Schema fix und fertig. Direkt einsatzbereit.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->

@@ -4,29 +4,31 @@ Tort claims for personal injury: negligence, liability, causation, and damages.
 
 Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 
-## Skills (27)
+## Skills (29)
 
 | Skill | What it does |
 |---|---|
-| [`Authorization Packet Summary`](skills/auth-packet-summary/) | Validates and summarizes the four required authorization forms in a personal injury matter (retainer, HIPAA… |
+| [`Architecture Decision Records`](skills/architecture-decision-records/) | Record architectural decisions as ADRs in FirmVault/decisions/. Cherry-picked from stirps-ai/stirps-gov.… |
+| [`Authorization Packet Summary`](skills/auth-packet-summary/) | Validates and summarizes the four required authorization forms in a personal injury matter (retainer… |
 | [`Case Viability & Conflict Check Report`](skills/case-viability-report/) | Produces internal case viability and conflict check memos for personal injury litigation intake. Screens… |
 | [`Complaint for Negligence`](skills/complaint-for-negligence/) | Drafts a court-ready Complaint for Negligence establishing duty, breach, causation, and damages with… |
-| [`Personal Injury Damages Calculator`](skills/damages-calculator/) | Builds auditable personal injury damages calculations separating special damages (medical, wage loss,… |
+| [`Personal Injury Damages Calculator`](skills/damages-calculator/) | Builds auditable personal injury damages calculations separating special damages (medical, wage loss… |
 | [`Lost Wage & Economic Loss Report`](skills/economic-loss-report/) | Generates a Lost Wage & Economic Loss Report for personal injury litigation. Calculates past/future lost… |
-| [`Evidence & Liability Summary`](skills/evidence-liability-summary/) | Generates a structured evidence and liability summary for plaintiff-side personal injury negligence claims.… |
-| [`Expert Medical Record Omissions`](skills/expert-medical-record-omissions/) | Analyzes expert witness reports, depositions, and testimony to identify gaps in medical record review, map… |
-| [`Expert Omissions Analysis`](skills/expert-omissions-analysis/) | Analyzes expert witness reports against complete medical record sets to identify omissions, bias patterns,… |
+| [`Evidence & Liability Summary`](skills/evidence-liability-summary/) | Generates a structured evidence and liability summary for plaintiff-side personal injury negligence… |
+| [`Expert Medical Record Omissions`](skills/expert-medical-record-omissions/) | Analyzes expert witness reports, depositions, and testimony to identify gaps in medical record review… |
+| [`Expert Omissions Analysis`](skills/expert-omissions-analysis/) | Analyzes expert witness reports against complete medical record sets to identify omissions, bias… |
 | [`Expert Witness Medical Records Omissions Analysis`](skills/expert-witness-omissions/) | Identifies medical records an expert witness failed to review, cite, or address by cross-referencing the… |
-| [`IME Report Critical Analysis`](skills/ime-report-analysis/) | Analyzes defense Independent Medical Examination (IME) reports for personal injury litigation, producing a… |
-| [`IME Report Critical Analysis`](skills/ime-report-summary/) | Critically analyzes defense IME reports by auditing record completeness, comparing findings against treating… |
-| [`Interrogatories to Defendant — Personal Injury`](skills/interrogatories-to-defendant/) | Drafts plaintiff's interrogatories to defendant in personal injury litigation with caption, definitions,… |
+| [`IME Report Critical Analysis`](skills/ime-report-analysis/) | Analyzes defense Independent Medical Examination (IME) reports for personal injury litigation, producing… |
+| [`IME Report Critical Analysis`](skills/ime-report-summary/) | Critically analyzes defense IME reports by auditing record completeness, comparing findings against… |
+| [`Interrogatories to Defendant — Personal Injury`](skills/interrogatories-to-defendant/) | Drafts plaintiff's interrogatories to defendant in personal injury litigation with caption, definitions… |
 | [`Law Firm Wiki Compiler`](skills/law-firm-wiki-compiler/) | Compile institutional PI practice knowledge from FirmVault activity logs into a structured Obsidian wiki… |
-| [`Legal Letter Drafting`](skills/legal-letter/) | Drafts professional legal letters for personal injury litigation including settlement demands,… |
-| [`Lien Resolution Summary`](skills/lien-resolution-summary/) | Generates a structured internal lien resolution summary for personal injury settlement cases. Triggers when… |
-| [`Medical Malpractice Summary`](skills/med-mal-summary/) | Produces structured medical malpractice case summaries from medical records for personal injury litigation.… |
-| [`Medical Billing Analysis`](skills/medical-billing-analysis/) | Produces a litigation-ready analysis of medical bills and supporting records for personal injury,… |
-| [`Medical Record Chronology`](skills/medical-record-chronology/) | Creates verified, Bates-cited chronological summaries of medical records for litigation. Extracts treatment… |
-| [`PFS Analyzer`](skills/pfs-analyzer/) | Extracts and reconciles medical provider, wage-loss, and insurance/lien data from personal injury plaintiff… |
+| [`Lawyer Incorporated — System Architecture Map`](skills/lawyer-inc-architecture/) | Complete architecture map of the Lawyer Incorporated AI paralegal stack. Five systems, how they… |
+| [`Legal Letter Drafting`](skills/legal-letter/) | Drafts professional legal letters for personal injury litigation including settlement demands… |
+| [`Lien Resolution Summary`](skills/lien-resolution-summary/) | Generates a structured internal lien resolution summary for personal injury settlement cases. Triggers… |
+| [`Medical Malpractice Summary`](skills/med-mal-summary/) | Produces structured medical malpractice case summaries from medical records for personal injury… |
+| [`Medical Billing Analysis`](skills/medical-billing-analysis/) | Produces a litigation-ready analysis of medical bills and supporting records for personal injury… |
+| [`Medical Record Chronology`](skills/medical-record-chronology/) | Creates verified, Bates-cited chronological summaries of medical records for litigation. Extracts… |
+| [`PFS Analyzer`](skills/pfs-analyzer/) | Extracts and reconciles medical provider, wage-loss, and insurance/lien data from personal injury… |
 | [`Personal Injury Demand Summary`](skills/pi-demand-summary/) | Generates structured personal injury demand summaries covering liability analysis, chronological injury… |
 | [`Personal Injury Client Intake Form`](skills/pi-intake-form/) | Drafts a structured personal injury client intake form for initial consultations covering client… |
 | [`Insurance Defense Pre-Trial Report`](skills/pre-trial-report/) | Drafts objective pre-trial reports for insurance carriers in personal injury defense litigation. Covers… |
@@ -34,7 +36,7 @@ Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 | [`Release of All Claims — Personal Injury`](skills/release-of-claims/) | Drafts enforceable Release of All Claims documents for personal injury settlement resolution. Produces… |
 | [`Settlement Distribution Statement`](skills/settlement-distribution/) | Drafts settlement distribution statements for personal injury cases with itemized accounting of gross… |
 | [`Spoliation Letter (Evidence Preservation Demand)`](skills/spoliation-letter/) | Drafts spoliation and evidence preservation demand letters for personal injury litigation. Generates… |
-| [`Summons and Service Packet`](skills/summons-service-packet/) | Drafts court-ready summons and service packets for civil personal injury litigation. Produces civil cover… |
+| [`Summons and Service Packet`](skills/summons-service-packet/) | Drafts court-ready summons and service packets for civil personal injury litigation. Produces civil… |
 
 ## Cold-start context
 

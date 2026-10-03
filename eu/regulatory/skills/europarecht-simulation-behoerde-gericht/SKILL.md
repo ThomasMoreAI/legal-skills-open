@@ -1,11 +1,11 @@
 ---
 name: europarecht-simulation-behoerde-gericht
 title: Simulation Behörde, Gericht und Kommission
-description: 'Verhandlung vor EU-Behoerde oder nationalem Gericht mit EU-Rechtsbezug simulieren und Argumentation testen. Art. 267 AEUV Art. 263 AEUV EuGH-Verfahren. Prüfraster: Argumente Gegenargumente Vorlageentscheidung Richterperspektive Schwachstellen. Output: Simulationsprotokoll Argumentation-Feinschliff. Abgrenzung: nicht für Klageentwuerfe (europarecht-klagearten-eugh).'
+description: 'Für Simulation Behörde, Gericht und Kommission: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/europarecht-kompass/skills/europarecht-simulation-behoerde-gericht
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -14,9 +14,17 @@ language: de
 
 # Simulation Behörde, Gericht und Kommission
 
-## Zweck
+## Arbeitsbereich
 
-Fiktive Verfahren trainieren Beihilfe, Richtlinienumsetzung, Vorlagefrage, Charta und Vertragsverletzung.
+Verhandlung vor EU-Behörde oder nationalem Gericht mit EU-Rechtsbezug simulieren und Argumentation testen. Art. 267 AEUV Art. 263 AEUV EuGH-Verfahren. Prüfraster: Argumente Gegenargumente Vorlageentscheidung Richterperspektive Schwachstellen. Output: Simulationsprotokoll Argumentation-Feinschliff. Abgrenzung: nicht für Klageentwuerfe (europarecht-klagearten-eugh). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: AEUV Art. 263 Nichtigkeitsklage 2 Monate, Art. 265 Untätigkeitsklage 2 Monate, Art. 267 Vorlage jederzeit, Vertragsverletzungsverfahren Art. 258 unbefristet.
+- Tragende Normen verifizieren: EUV, AEUV (insb. Art. 4, 5, 18, 20, 21, 34, 49, 56, 101, 102, 107, 108, 263, 267, 288, 340), GRCh, EU-VO (Beispiele 2016/679 DSGVO, 2024/1689 KI-VO, 139/2004 FKVO), EU-Richtlinien, EuGH-Rechtsprechung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: EU-Kommission, Rat, Europäisches Parlament, EuGH, EuG, Mitgliedstaaten, nationale Gerichte (Vorlage Art. 267 AEUV), Bundesregierung.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Vorlagebeschluss Art. 267 AEUV, Nichtigkeitsklage, Beschwerde an EU-KOM, Stellungnahme im Vertragsverletzungsverfahren, Notifizierung, EuGH-Urteilsbeleg — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Wann verwenden
 
@@ -24,27 +32,12 @@ Fiktive Verfahren trainieren Beihilfe, Richtlinienumsetzung, Vorlagefrage, Chart
 - wenn deutsche Kategorien die EU-Eigenlogik verdecken könnten
 - wenn Rechtsquelle, Wirkung, Verfahren oder Frist unklar sind
 
-## Arbeitsweise
-
-1. **Rechtsquelle fixieren.** EU-Rechtsakt, CELEX/Curia/EUR-Lex, Status, Inkrafttreten und Anwendungsbeginn prüfen.
-2. **Wirkung bestimmen.** Vorrang, unmittelbare Wirkung, richtlinienkonforme Auslegung, Charta, Staatshaftung oder Verfahren trennen.
-3. **Deutsche Denkfehler markieren.** Nationale Kategorien nur nutzen, wenn sie unionsrechtlich passen.
-4. **Verfahrensweg planen.** Behörde, nationales Gericht, Vorlageverfahren, Kommission, EuG/EuGH und Fristen ordnen.
-5. **Qualitätstor setzen.** Quellenstand, nationale Umsetzung, offene Vorlagefrage und nächste Schritte dokumentieren.
-
 ## Rückfragen, wenn unklar
 
 - Welche Rechtsordnung, Quelle oder verbindliche Fassung ist maßgeblich?
 - Welche Partei oder Rolle vertreten wir?
 - Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
 - Welches Arbeitsprodukt wird gebraucht und wie eilig ist es?
-
-## Ausgabeformat
-
-- Kurzlage mit Ampel
-- Prüfmatrix mit Fundstelle, Risiko, Vorschlag und Review-Level
-- anwaltlich prüfbarer Entwurf oder Mandantenhinweis
-- offene Annahmen, Quellenstand und nächste Schritte
 
 ## Typische Fehler vermeiden
 
@@ -57,14 +50,10 @@ Fiktive Verfahren trainieren Beihilfe, Richtlinienumsetzung, Vorlagefrage, Chart
 
 Europarecht-Kompass arbeitet freundlich, präzise und verzeihend. Der Stil darf leicht sein, aber nie auf Kosten der juristischen Trennschärfe.
 
-## Vertiefung: Rechtsprechung und Leitsaetze
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage Simulation
 
 Bevor losgelegt wird, klaere:
-1. Wird eine Behoerden- oder Gerichts-Reaktion simuliert — welche Seite?
+1. Wird eine Behörden- oder Gerichts-Reaktion simuliert — welche Seite?
 2. Welches Argument wird auf EU-Recht-Konformitaet geprueft?
 3. Wie realistisch soll die Simulation sein — Planspiel oder praezise Einschaetzung?
 
@@ -79,7 +68,7 @@ EU-Recht-Bezug: [Art. X AEUV / VO / RL]
 Rechtsfrage: [FORMULIERUNG]
 
 SIMULIERTES ERGEBNIS
-a) Aus Sicht Behoerde: [Bescheid-Ergebnis mit Begruendung]
+a) Aus Sicht Behörde: [Bescheid-Ergebnis mit Begruendung]
 b) Aus Sicht Gericht 1. Instanz: [Urteil und Begruendung]
 c) Vorlage Art. 267 AEUV: [wahrscheinlich / nicht wahrscheinlich — Begründung]
 d) Gegenargument Mandant: [...]
@@ -87,3 +76,13 @@ d) Gegenargument Mandant: [...]
 HANDLUNGSEMPFEHLUNG:
 [...]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

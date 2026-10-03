@@ -10,13 +10,13 @@
   "description": "Investment funds and asset management — PE/VC/hedge fund formation (LPA, capital calls, carried interest, side letters, subscriptions) and investment-adviser registration and compliance (Form ADV, advisory agreements).",
   "skills": [
     "skills/capital-call-notice",
-    "skills/carta-form-adv",
     "skills/form-adv",
     "skills/fund-subscription-agreement",
     "skills/investment-advisory-agreement",
     "skills/limited-partnership-agreement",
     "skills/lpa-agreement",
     "skills/management-rights-letter",
-    "skills/side-letter"
+    "skills/side-letter",
+    "skills/us-securities-accredited-investor"
   ]
 }

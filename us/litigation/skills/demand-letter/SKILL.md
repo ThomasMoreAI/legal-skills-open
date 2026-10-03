@@ -5,12 +5,25 @@ description: Drafts litigation-ready U.S. pre-suit demand letters that function 
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/demand-letter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation
 language: en
-tags: [drafting, letter]
+tags:
+- drafting
+- letter
+sources:
+- title: Archetype index
+  path: references/ARCHETYPE-INDEX.md
+- title: Damages methodology
+  path: references/DAMAGES-METHODOLOGY.md
+- title: Ethics and privilege
+  path: references/ETHICS-AND-PRIVILEGE.md
+- title: Jurisdiction presuit
+  path: references/JURISDICTION-PRESUIT.md
+- title: Template
+  path: references/TEMPLATE.md
 ---
 
 # Pre-Suit Demand Letter

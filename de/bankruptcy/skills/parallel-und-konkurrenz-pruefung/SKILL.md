@@ -1,11 +1,11 @@
 ---
 name: parallel-und-konkurrenz-pruefung
 title: Parallel- und Konkurrenzprüfung
-description: 'Bereicherungsrecht und Anfechtungsrecht gleichzeitig prüfen: Anspruchskonkurrenzen und gegenseitige Beeinflussung aller drei Regelungskreise. Normen: §§ 812 ff. BGB, AnfG, §§ 129 ff. InsO. Prüfraster: Parallelität, Subsidiarität, wechselseitige Auswirkungen. Output: Konkurrenzmatrix mit Handlungsempfehlung. Abgrenzung: nicht Einzelprüfung je Regelungskreis.'
+description: 'Für Parallel- und Konkurrenzprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/parallel-und-konkurrenz-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
@@ -26,19 +26,6 @@ language: de
 
 § 812 Abs. 1 BGB (Leistungs-/Nichtleistungskondiktion) — §§ 129 ff. InsO (Insolvenzanfechtung) — §§ 1–13 AnfG (Gläubigeranfechtung) — § 985 BGB (Vindikation) — § 826 BGB (sittenwidrige Schädigung) — § 55 InsO (Masseverbindlichkeiten) — § 144 InsO (Gegenleistungsrückgewähr)
 
-## Rechtsprechung
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Konstellation 1: § 812 BGB neben AnfG
 
 **Möglich, wenn:** Rechtsgrund nachträglich weggefallen (§ 142 BGB) UND Gläubigerbenachteiligung. Gläubiger wählt günstigeren Weg; Doppelherausgabe ausgeschlossen.
@@ -81,3 +68,5 @@ Sachverhalt (kurz): [...]
 ---
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Normwahl oder unvollständiger Sachverhalt kann das Ergebnis vollständig entwerten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

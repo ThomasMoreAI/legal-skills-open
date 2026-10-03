@@ -1,0 +1,129 @@
+---
+name: verl-abstimmung-mit-lektorat-format
+title: Abstimmung Lektorat / Redaktion (Format-Klaerung)
+description: 'Für Abstimmung Lektorat / Redaktion (Format-Klärung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Verlagsredaktion. Route: verl-abstimmung-mit-lektorat-format.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verlagsredaktion/skills/verl-abstimmung-mit-lektorat-format
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Abstimmung Lektorat / Redaktion (Format-Klaerung)
+
+## Worum geht es konkret
+
+Lektorat und Redaktion arbeiten am selben Manuskript, oft parallel. Ohne klare Schnittstelle entstehen Doppelarbeit, widerspruechliche Eingriffe und Versionschaos. Dieser Skill klaert die Schnittstelle: Zustaendigkeiten, Versionierungsregeln, Track-Changes-Konventionen, Eskalationswege.
+
+## Wann brauchen Sie diesen Skill / Kaltstart-Fragen
+
+Sie brauchen ihn, wenn Lektorat und Redaktion neu aufgestellt sind, ein neues Manuskript-Tool eingefuehrt wird oder Konflikte aufkommen. Klaeren Sie:
+
+1. Welche Lektoratsdienste (intern, freie Lektorinnen, beides)?
+2. Welche Tools (Word Track Changes, LaTeX-Diff, CMS)?
+3. Welche Versionierungslogik?
+4. Welche Eskalation bei inhaltlichen Lektoratseingriffen?
+
+## Material- bzw. Sachrahmen
+
+- Aktueller Lektoratsleitfaden / Style Guide.
+- Workflow-Diagramm (falls vorhanden).
+- Liste der typischen Reibungspunkte.
+
+## Praxisleitfaden / Schritt fuer Schritt
+
+1. **Schnittstelle festlegen.**
+   - **Redaktion:** inhaltliche Beurteilung, Annahme/Ablehnung, Heftslot, Beitragsformat.
+   - **Lektorat:** Sprache, Stil, Format, Zitiernorm, Konsistenz, ggf. Korrekturlauf.
+2. **Uebergabeprotokoll.** Jede Uebergabe mit Datum, Bearbeiter, Versionsstand, was gemacht wurde, was noch offen ist.
+3. **Versionierungsregeln.** Dateiname `Autor-Titel_vN_status.docx` mit klarem Status (`eingang`, `lekt1`, `lekt2`, `red1`, `freigabe`, `druck`).
+4. **Track-Changes-Konvention.** Wer schaltet TC ein/aus? Wer kommentiert? Wer akzeptiert? Bei Word: jeweils Autorinnenname in den Einstellungen.
+5. **Inhaltliche Eingriffe.** Lektorat darf nicht inhaltlich umstellen ohne Ruecksprache Redaktion. Markierung "INH:" als Vorschlag.
+6. **Eskalation.** Wenn Redaktion und Lektorat verschiedene Meinungen haben, dokumentiert in Kommentaren, Entscheidung Schriftleitung.
+7. **Schluss-Uebergabe** mit Pruefliste (Format, Zitate, Stil, Konsistenz).
+
+## Trade-off-Matrix
+
+| Pfad | A: Strikte Zustaendigkeitstrennung | B: Hybride Arbeitsweise | Empfehlung |
+|------|-------------------------------------|--------------------------|------------|
+| Klarheit | hoch | mittel | A bei groesserem Verlag |
+| Flexibilitaet | gering | hoch | B bei kleinem Team |
+| Konflikthaeufigkeit | gering | mittel | A schuetzt vor Drift |
+
+## Praxistipps der alten Redaktion
+
+- "Track-Changes ist ein Versprechen: jeder Strich wird gesehen. Wer es nicht respektiert, baut Schattenversionen."
+- Versionsstaende immer im Dateinamen - Word-Versionierungs-Funktion ist nicht zuverlaessig.
+- Inhaltliche Lektoratseingriffe in Kommentaren begruenden - das schuetzt die Schriftleitungsentscheidung.
+- Wenn das Lektorat extern (Freelancer) ist: NDA und Hauseigene Stilkatalog vorab.
+- Konflikte werden in der Akte dokumentiert - sonst sind sie nach drei Wochen vergessen.
+
+## Mustertexte / Vorlagen
+
+**Uebergabeprotokoll (Vorlage):**
+
+```
+Uebergabeprotokoll
+Manuskript: Mueller, "Plattformhaftung" / NJW 14/2026
+Datum: 12.06.2026
+Von: Lektorat (Frau Schmidt)
+An: Redaktion (Herr Lehmann)
+Versionsstand: Mueller-Plattform_v3_lekt1.docx
+Geleistet:
+- Format-Check (siehe Befund)
+- Zitiernorm-Check (siehe Befund)
+- Sprachlektorat (Track-Changes)
+- 7 inhaltliche Vorschlaege als Kommentare markiert (INH:)
+Offen:
+- Aussagensicherheits-Pruefung (Mandantenfrage S. 12) - bei Redaktion
+- Bildrechte fuer 2 Schaubilder
+```
+
+**Eskalations-Notiz:**
+
+> Sehr geehrte Schriftleitung, wir bitten um Klaerung zu drei inhaltlichen Differenzen zwischen Lektorat und Redaktion bei Mueller "[Titel]":
+>
+> 1. S. 7: Lektorat schlaegt Glaettung "innovativ" -> "neuartig" vor; Redaktion will Autorenstimme respektieren.
+> 2. S. 18: Lektorat sieht Mandantenbezug als zu duenn anonymisiert; Redaktion sieht ausreichend.
+> 3. S. 23: Lektorat schlaegt Streichung der Spitze gegen BAFin vor; Redaktion sieht durch Belege gedeckt.
+>
+> Bitte um Entscheidung bis 19.06.2026 (Heftschluss).
+
+**Versionsstand-Schema:**
+
+```
+Mueller-Plattform_v1_eingang.docx        (vom Autor)
+Mueller-Plattform_v2_lekt0.docx          (nach Format-Check)
+Mueller-Plattform_v3_lekt1.docx          (nach Sprachlektorat)
+Mueller-Plattform_v4_red1.docx           (nach Redaktion)
+Mueller-Plattform_v5_aut.docx            (Autor-Rueckmeldung)
+Mueller-Plattform_v6_freigabe.docx       (alle Aenderungen akzeptiert)
+Mueller-Plattform_v7_druck.docx          (an Produktion)
+```
+
+## Typische Fehler / Pitfalls
+
+- Track-Changes ausgeschaltet ohne Hinweis - Schattenversionen.
+- Inhaltliche Lektoratseingriffe ohne Ruecksprache.
+- Versionsstand nur in Word-Eigenschaften, nicht im Dateinamen.
+- Externe Lektorinnen ohne NDA.
+- Konfliktdokumentation fehlt - alte Streits werden neu gefuehrt.
+
+## Querverweise
+
+- `verl-formatvorlage-check-autor-manuskript` - Format-Check vor Lektorat.
+- `verl-zitierweise-pruefung-zeitschrift-jus-njw` - Zitat-Pruefung.
+- `verl-redaktionelle-rueckmeldung-formulieren` - Stil der Rueckmeldung.
+- `lektorat-struktur-redaktion` - Strukturlektorat.
+- `verl-jourfix-vorbereiten-protokoll` - Jourfix-Werkzeug.
+
+## Quellen Stand 06/2026
+
+- Allgemeine Workflow- und Kollaborationsstandards: keine spezifische juristische Quelle.
+- Duden, Die deutsche Rechtschreibung, 29. Aufl. 2024.
+- Byrd / Lehmann, Zitierfibel fuer Juristen, 2. Aufl. 2016.
+- Moellers, Juristische Arbeitstechnik, 11. Aufl. 2023.
+- Plachta, Editionswissenschaft, 4. Aufl. 2020 (zu Versionierungsdisziplin).

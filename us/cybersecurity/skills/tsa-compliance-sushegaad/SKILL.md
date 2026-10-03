@@ -5,17 +5,17 @@ description: Expert TSA cybersecurity compliance advisor for critical infrastruc
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/tsa-compliance/skills/tsa-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: cybersecurity
 language: en
 sources:
-- title: Tsa Crmp Requirements
+- title: Tsa crmp requirements
   path: references/tsa-crmp-requirements.md
-- title: Tsa Directives Overview
+- title: Tsa directives overview
   path: references/tsa-directives-overview.md
-- title: Tsa Incident Reporting
+- title: Tsa incident reporting
   path: references/tsa-incident-reporting.md
 ---
 

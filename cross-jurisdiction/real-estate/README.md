@@ -10,7 +10,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `real-estate` · Skill language:
 
 | Skill | What it does |
 |---|---|
-| [`Tool — Stamp Duty / Transfer Tax Calculator`](skills/tool-calculator-stamp-duty-tax-sboghossian/) | Use when computing stamp duty, transfer tax, or real-estate transaction tax on property or share transfers… |
+| [`Tool — Stamp Duty / Transfer Tax Calculator`](skills/tool-calculator-stamp-duty-tax-sboghossian/) | Use when computing stamp duty, transfer tax, or real-estate transaction tax on property or share… |
 
 ## Cold-start context
 

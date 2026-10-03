@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-vergaberecht-ruege-vor-zuschlag
 title: Rüge vor Zuschlag
-description: 'Vergaberechtliche Ruege nach § 160 Abs. 3 GWB vor Zuschlag erheben: Bieter hat Vergabeverstoesse erkannt und muss rügen bevor Zuschlag erteilt wird. Normen: § 160 Abs. 3 GWB (Ruegerobliegenheit als Praeklusionsvoraussetzung). Prüfraster: Fristen (Bekanntmachungs-Verstoesse bis Angebotsabgabe, sonstige Verstoesse 10 Tage), Inhaltliche Anforderungen, Reaktionspflicht Auftraggeber (Abhilfe/Zurückweisung). Output Ruege-Schreiben mit konkretem Verstoß, Norm und Sachverhalt. Abgrenzung: Nachprüfungsantrag nach Ruege siehe fachanwalt-vergaberecht-nachprüfungsantrag-vk; Ruegeschriftsatz-Detail siehe ruegeschriftsatz-erstellen.'
+description: 'Für Rüge vor Zuschlag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-ruege-vor-zuschlag
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: government-contracts
@@ -151,3 +151,14 @@ Schritt 5: Zuschlag erteilt?
 ### Quellenregel
 
 Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Fuer Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Fuer Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Pruefe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

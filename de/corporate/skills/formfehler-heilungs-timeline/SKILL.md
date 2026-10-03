@@ -1,11 +1,11 @@
 ---
 name: formfehler-heilungs-timeline
 title: Formfehler und Heilungs-Timeline
-description: 'Formfehler in Wandeldarlehen oder Kapitalerhohungsdokumenten identifizieren und Heilungsmassnahmen planen. §§ 125 311b BGB Nichtigkeit §§ 15 55 GmbHG Formerfordernisse. Prüfraster: Formmangel Nichtigkeit Heilung Nachbeurkundung Fristen. Output: Fehlerliste Heilungsplan Fristenkalender. Abgrenzung: nicht für allgemeine Beurkundungsprüfung (beurkundungserfordernis-prüfung).'
+description: 'Für Formfehler und Heilungs-Timeline: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/formfehler-heilungs-timeline
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Formfehler und Heilungs-Timeline
 
-## Zweck
+## Arbeitsweg
 
-Bei Wandeldarlehen sind Form-Fragen oft komplex (Textform reicht für Verpflichtung, Notar für Übertragung neu-emittierter Anteile). Verzögerung der Heilung birgt Insolvenz-/Anfechtungs-Risiken. Dieses Skill strukturiert die Heilungs-Timeline.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -51,12 +55,11 @@ Bei Wandeldarlehen sind Form-Fragen oft komplex (Textform reicht für Verpflicht
 
 - **Textform § 126b BGB** ausreichend (Lenders Beweis-Sicherheit)
 - **Schriftform empfohlen** für Rangrücktritt-Klarheit
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Verfügungs-Geschäft (Anteils-Übertragung bei Wandlung)
 
 - **Notarielle Beurkundung** zwingend § 15 Abs. 3 GmbHG bei Verfügung über existierende Anteile
-- **Bei Wandlung durch Kapitalerhöhung** Kapitalerhöhungs-Beschluss notariell zu beurkunden § 53 Abs. 2 GmbHG
+- **Bei Wandlung durch Kapitalerhöhung:** Dreiviertelmehrheit nach Paragraf 53 Absatz 2 GmbHG und notarielle Beurkundung des Beschlusses nach Absatz 3 getrennt prüfen.
 - **Übernahme-Erklärung** beim Notar
 - **Handelsregister-Anmeldung** notariell beglaubigt § 12 Abs. 1 HGB
 
@@ -104,15 +107,15 @@ Bei Wandeldarlehen sind Form-Fragen oft komplex (Textform reicht für Verpflicht
 ### Beispiel-Fall
 
 ```
-Tag 0:    Wandeldarlehens-Vertrag unterzeichnet
-          (Textform via DocuSign mit SMS-OTP)
-Tag 1-7:  Auszahlung Darlehen
-Tag 8:    Gesellschaft uebermittelt Quartals-Bericht
-          Liquiditaets-Schwierigkeiten erkennbar
-Tag 9:    Geschaeftsfuehrer-Sitzung — Sanierungs-Plan
-          Pruefung Zahlungs-Unfaehigkeit § 17 InsO
-Tag 14:   Insolvenz-Antrag droht
-Tag 15:   Insolvenz-Antrag eingereicht
+Tag 0: Wandeldarlehens-Vertrag unterzeichnet
+ (Textform via DocuSign mit SMS-OTP)
+Tag 1-7: Auszahlung Darlehen
+Tag 8: Gesellschaft uebermittelt Quartals-Bericht
+ Liquiditaets-Schwierigkeiten erkennbar
+Tag 9: Geschaeftsfuehrer-Sitzung — Sanierungs-Plan
+ Pruefung Zahlungs-Unfaehigkeit § 17 InsO
+Tag 14: Insolvenz-Antrag droht
+Tag 15: Insolvenz-Antrag eingereicht
 ```
 
 #### Risiko-Konstellation
@@ -192,7 +195,6 @@ Vertrags-Schluss.
 
 - **Sofortige Form-Heilung** sicherstellen
 - **Beratung mit Skill** `mandat-triage-insolvenzrecht`
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Wandlung erwägen** vor Insolvenz-Eröffnung
 
 ### Nach Insolvenz-Eröffnung
@@ -213,9 +215,9 @@ Vertrags-Schluss.
 ### Notar-Auftrag
 
 ```
-Sehr geehrte/r Notar/in,
+Sehr geehrte/r Notar,
 
-wir benoetigen Beurkundungs-Termin fuer:
+wir benoetigen Beurkundungs-Termin für:
 
 - Kapitalerhoehungs-Beschluss § 53 Abs. 2 GmbHG
 - Uebernahme-Erklaerung Wandeldarlehens-Lender
@@ -312,14 +314,6 @@ Termin-Vorschlag: [Datum-Vorschlaege]
 - Anfechtungs-Risiko-Memo
 - Frist im Fristenbuch (Heilung sofort)
 
-## Vertiefung — Aktuelle Rechtsprechung
-
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Quellen
 
 - BGB §§ 125 126 126a 126b 128 177
@@ -327,5 +321,6 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 - HGB § 12
 - InsO §§ 39 130 131 132 133 174
 - eIDAS-VO 910/2014 und 2024/1183
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - GNotKG
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

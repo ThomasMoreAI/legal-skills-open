@@ -1,11 +1,11 @@
 ---
 name: anschlussflug-und-reiseplan
 title: Anschlussflug und Reiseplan
-description: Workflow-Skill zu anschlussflug und reiseplan. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Anschlussflug und Reiseplan: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/anschlussflug-und-reiseplan
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: aviation
@@ -79,14 +79,14 @@ Wenn die Reise innerhalb der EU mit Umsteigen in einem **Drittstaat** stattfinde
 ```
 Anschlussflug-Analyse
 Buchung: eine PNR (ABC123) über Lufthansa
-Etappen: 
-  1. BER 12.05.2026 08:00 → MAD 12.05.2026 11:30 (LH 1234)
-  2. MAD 12.05.2026 13:00 → EZE 13.05.2026 06:00 (LH 5678)
+Etappen:
+ 1. BER 12.05.2026 08:00 → MAD 12.05.2026 11:30 (LH 1234)
+ 2. MAD 12.05.2026 13:00 → EZE 13.05.2026 06:00 (LH 5678)
 
 Stoerung:
-  Etappe 2 annulliert
-  Ersatz: EZE Ankunft 14.05.2026 10:00
-  
+ Etappe 2 annulliert
+ Ersatz: EZE Ankunft 14.05.2026 10:00
+
 Endzielverspätung: 28 Stunden
 Distanz BER-EZE (Endziel): 11.940 km nicht-innergemeinschaftlich
 Stufe: 3 → 600 EUR pro Passagier
@@ -105,9 +105,6 @@ Verifiziert mit Quelle curia.europa.eu (Volltext jeweils vor Versand aufrufen):
 - EuGH, Urt. v. 9.1.2025, C-394/23 — bestätigend für Vorverlegung.
 - EuGH, Urt. v. 16.10.2025, C-399/24 — Blitzschlag als außergewöhnlicher Umstand.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Hinweise
 
 - Bei einheitlicher Buchung lohnt eine sorgfaeltige Prüfung — viele Airlines berechnen falsch.

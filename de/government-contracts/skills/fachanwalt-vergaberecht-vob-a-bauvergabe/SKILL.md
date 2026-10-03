@@ -1,0 +1,96 @@
+---
+name: fachanwalt-vergaberecht-vob-a-bauvergabe
+title: VOB-A-Bauvergabe (Abschnitte 1 und 2)
+description: 'Für VOB-A-Bauvergabe (Abschnitte 1 und 2): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-vob-a-bauvergabe
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: government-contracts
+language: de
+---
+
+# VOB-A-Bauvergabe (Abschnitte 1 und 2)
+
+## Aufgabe
+Bauvergaben nach VOB-A (Abschnitt 1 Unterschwelle, Abschnitt 2 Oberschwelle) strukturieren oder angreifen. Schnittstelle: VOB-B regelt anschliessenden Bauvertrag, ist aber nicht Gegenstand des Vergabeskills.
+
+## Kaltstart
+1. Bauleistung i. S. § 1 VOB-A?
+2. Schwellenwert oberschwellig (EUR 5404000 ab 01.01.2026)? Abschnitt 2 + VgV-Baubereich; sonst Abschnitt 1.
+3. Auftraggebertyp (oeffentlich, sektorenbezogen, privat mit Foerdermittel mit Bindungsklausel)?
+4. Leistungsbeschreibung bereits vorhanden (Leistungsverzeichnis vs. funktionale LB)?
+5. Fachloseinteilung erfolgt?
+
+## Verfahrenstypen
+### Abschnitt 1 (Unterschwelle, fuer Bund + groesstenteils Laender)
+- Oeffentliche Ausschreibung.
+- Beschraenkte Ausschreibung mit/ohne TW.
+- Freihaendige Vergabe.
+
+### Abschnitt 2 (Oberschwelle, ergaenzend zu VgV)
+- Offenes Verfahren.
+- Nicht-offenes Verfahren.
+- Verhandlungsverfahren mit TW.
+- Wettbewerblicher Dialog.
+- Innovationspartnerschaft.
+
+## Leistungsbeschreibung § 7 VOB-A
+- **Detaillierte LB** (Leistungsverzeichnis mit Positionen, Mengen, Einheitspreisen).
+- **Funktionale LB** mit Leistungsprogramm (ueblich bei komplexen oder GU-Vergaben).
+- Eindeutigkeit, Vollstaendigkeit, Hinweis auf besondere Umstaende.
+- Risiko des Auftraggebers fuer unvollstaendige LB (BGH VII ZR 113/17 Rechtsprechungslinie ueberpruefen).
+
+## Wertung § 16d VOB-A
+- Eignungspruefung (Fachkunde, Leistungsfaehigkeit, Zuverlaessigkeit).
+- Pruefung Auskoemmlichkeit (§ 16d Abs. 1 Nr. 1 VOB-A).
+- Wirtschaftlichstes Angebot, Zuschlagskriterien wie in Bekanntmachung gewichtet.
+
+## Nebenangebote § 8 VOB-A
+- Zulassung im LV erforderlich; Mindestanforderungen vorgeben.
+- Nebenangebote werden gleichwertig gewertet, sofern Mindestanforderungen erfuellt (EuGH C-561/12 Nordecon).
+
+## Bietergemeinschaften und Eignungsleihe
+- Bietergemeinschaft zulaessig, gesamtschuldnerische Haftung im LV vorsehen.
+- Eignungsleihe nach § 6d VOB-A unter Bedingungen (insb. Vorhalten der geliehenen Eignung beim Auftragnehmer waehrend Ausfuehrung).
+
+## Schnittstellen
+- VOB-B regelt Vertragsbedingungen nach Zuschlag.
+- VgV-Baubereich (§§ 14 ff. VgV) ergaenzt VOB-A Abschnitt 2.
+- Bauplanung freiberuflich -> § 50 VgV.
+
+## Typische Fehler
+- Funktionale LB ohne ausreichende Rahmenbedingungen -> Bieter koennen nicht kalkulieren -> spaetere Nachtraege.
+- Mengenangaben falsch -> § 2 Abs. 3 VOB-B Mehrmengenproblem im Vertrag.
+- Eignungspruefung wird mit Auskoemmlichkeitspruefung vermischt.
+- Nebenangebote ohne Mindestanforderungen.
+- Vergabevermerk § 20 VOB-A fehlt oder ist unvollstaendig.
+
+## Output
+- Verfahrenswahl-Pruefvermerk.
+- Leistungsbeschreibungs-Checkliste (detailliert vs. funktional).
+- Vergabevermerk-Vorlage § 20 VOB-A.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Quellenregel
+BGH-Linien zur LB-Verantwortung und zur Wertung Nebenangebote vor Ausgabe ueber bundesgerichtshof.de / dejure.org verifizieren; VOB-A aktuelle Fassung pruefen.
+
+
+## Vergabe-Workbench-Boost v61.2
+
+- Starte jedes Mandat mit Rolle, Verfahrensstand, Schwellenwert/Rechtsweg, Frist und Dokumentenlage.
+- Biete bei mehr als drei Einzelthemen ein Padlet oder eine Tabelle an: Vergabefehler, Belege, Norm, Kausalitaet, Abhilfe, Risiko.
+- Fuer Anfaenger: erklaere `Ruge`, `Nachpruefung`, `Stillhaltefrist`, `Eignung`, `Zuschlag`, `Auftragswert` und `Praeklusion` jeweils in einem Satz und arbeite dann praktisch weiter.
+- Fuer Profis: liefere sofort Schriftsatzkern, Vergabevermerk, Bewertungsmatrix oder Entscheidungsvorlage.
+- Pruefe Schwellenwerte 2026/2027, Paragraph 134 GWB, Paragraph 135 GWB, Paragraph 160 Abs. 3 GWB und Paragraph 171 GWB nie aus dem Bauch heraus, sondern als Fristen-/Quellen-Gate.
+- Auftraggeber-Output braucht immer Dokumentationslogik; Bieter-Output braucht immer Ruge-/Kausalitaets-/Chance-Logik.
+- Wenn eine Position schwach ist, benenne die Schwachstelle freundlich und repariere sie: fehlender Beleg, falscher Rechtsweg, zu pauschale Ruge, unsaubere Wertung, fehlende Kausalitaet oder verspaetete Reaktion.

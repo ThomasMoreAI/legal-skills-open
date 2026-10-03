@@ -1,0 +1,26 @@
+{
+  "name": "de-nonprofit",
+  "displayName": "Nonprofit & Charity — DE",
+  "version": "0.1.0",
+  "description": "Nonprofit & Charity skills for DE (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "de",
+  "practice": "nonprofit",
+  "language": "de",
+  "skills": [
+    "skills/anfechtung-beschluss",
+    "skills/aufloesung-liquidation-beschlussvorlagen",
+    "skills/datenschutz-mitgliederliste",
+    "skills/ehrenamtspauschale-uebungsleiter",
+    "skills/entlastung-vorstand",
+    "skills/gemeinnuetzigkeit-antrag",
+    "skills/gruendung-eingetragener-verein",
+    "skills/haftung-vorstand-ehrenamtspauschale",
+    "skills/mitgliederversammlung-einberufung",
+    "skills/verein-dokumentenpaket-politik-social-media",
+    "skills/verein-redteam-qualitygate",
+    "skills/vereinsrecht-vereinsmanager-juristischer-argumentationskern",
+    "skills/vereinsrecht-vereinsmanager-kaltstart-triage"
+  ]
+}

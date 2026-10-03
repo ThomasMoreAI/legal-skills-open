@@ -1,0 +1,215 @@
+---
+name: regulierung-start-chronologie-fristen
+title: DSA DMA und Digitalregulierung EU — Allgemein
+description: 'Für DSA DMA und Digitalregulierung EU — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/dsa-dma-digitalregulierung/skills/regulierung-start-chronologie-fristen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: eu
+practice: tmt
+language: de
+sources:
+- title: Fachmodule
+  path: references/fachmodule.md
+---
+
+# DSA DMA und Digitalregulierung EU — Allgemein
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DSA Art. 16 Notice-and-Action unverzügliche Reaktion, Art. 24 jährlicher Transparenzbericht, Art. 34 Risikoassessment jährlich/bei Bedarf, DMA Art. 11 Compliance-Bericht 6 Monate nach Benennung.
+- Tragende Normen verifizieren: Digital Services Act (VO 2022/2065) Art. 4-15 (Haftung), 16-22 (Meldung), 24-32 (mittelgroße/VLOP), 33-43 (sehr große), 50-66 (Aufsicht), Digital Markets Act (VO 2022/1925) Art. 3 (Gatekeeper), 5-7 (Pflichten), DDG, TMG (außer Kraft), NetzDG (auslaufend) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anbieter Vermittlungsdienst / Hosting / Online-Plattform / sehr große Online-Plattform (VLOP) / Suchmaschine (VLOSE), BNetzA als DSC, EU-KOM (DMA-Vollzug), nationaler Koordinator, Beschwerdeführer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: AGB nach Art. 14 DSA, Transparenzbericht, Risikoassessment, Compliance-Officer-Konzept, Streitbeilegung Art. 21 DSA, DSC-Meldung, DMA-Compliance-Bericht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Schnellstart-Workflow
+
+Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **DSA DMA Digitalregulierung**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+
+**Plugin-Fokus:** Digitalregulierung der EU: DSA (VO 2022/2065) und DMA (VO 2022/1925) plus Data Act DGA AI Act NIS-2 DORA CRA eIDAS 2.0 DDG P2B-VO und § 19a GWB. Gatekeeper-Schwellen VLOP-Einordnung Risikobewertung Art. 34 Forschungsdatenzugang Art. 40 Account-Sperre Art. 20-23 Zustellung Art. 13 DSA Klagewege.
+
+### 0. Stummer Upload — Material ohne Begleittext
+
+Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+
+**Pflicht-Reihenfolge bei stummem Upload:**
+
+1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
+2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
+3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
+4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
+5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
+6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
+
+**Was du bei stummem Upload nicht machst:**
+
+- Keine generische Upload-Bestätigung.
+- Keine vollständige Intake-Liste aus Abschnitt 1.
+- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
+- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
+
+**Antwortformat bei stummem Upload:**
+
+- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
+- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
+- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
+- **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
+- **Alternativen:** `...`, `...`
+- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
+
+### 1. Intake in 60 Sekunden
+
+Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
+
+| Punkt | Frage | Warum wichtig? |
+|---|---|---|
+| Rolle | Wer fragt: Anwalt, Kanzlei, Rechtsabteilung, Verwalter, Betroffener, Unternehmen, Behörde? | Perspektive und Ton bestimmen. |
+| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
+| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
+| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
+| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
+| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
+| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
+
+### 2. Sofort-Triage
+
+Arbeite danach in dieser Reihenfolge:
+
+1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
+2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
+3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
+6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
+
+### 3. Routing-Regeln
+
+- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
+- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
+- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
+- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
+- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
+- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
+
+### 4. Antwortformat für den Einstieg
+
+Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
+
+**Kurzbild**
+- Ziel: [...]
+- Rolle/Perspektive: [...]
+- Eilt wegen: [...]
+- Fehlende Unterlagen: [...]
+
+**Vorgeschlagener Workflow**
+1. [...]
+2. [...]
+3. [...]
+
+**Passende Skills aus diesem Plugin**
+| Skill | Warum jetzt? | Erwarteter Output |
+|---|---|---|
+| `...` | [...] | [...] |
+
+**Nächste Frage**
+[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
+
+### 5. Fachmodule gezielt und sparsam laden
+
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
+
+## Worum geht es?
+
+Dieses Plugin ist der strukturierte Einstiegspunkt für die EU-Digitalregulierung. Es hilft dabei, den richtigen Rechtsakt für einen konkreten Sachverhalt zu identifizieren und die jeweils zuständige Pflichtenmatrix zu aktivieren. Die EU-Digitalregulierung besteht aus einem dichten Regelwerk, das sich nach Akteurstyp, Dienst-Typ, Datentyp und Risikoklasse staffelt: Digital Services Act (DSA, VO 2022/2065), Digital Markets Act (DMA, VO 2022/1925), Data Act (VO 2023/2854), Data Governance Act (DGA), AI Act (VO 2024/1689), NIS-2, DORA, CRA, eIDAS 2.0, Digitale-Dienste-Gesetz (DDG), P2B-VO und § 19a GWB.
+
+Das Plugin richtet sich an Anwaelte, Compliance-Verantwortliche und Unternehmensjuristen, die mit der Pflichtendichte der EU-Digitalregulierung umgehen müssen. Es ist kein Rechtsberatungsersatz.
+
+## Wann brauchen Sie diese Skill?
+
+- Unternehmen fragt, ob es als VLOP (sehr große Online-Plattform) oder VLOSE (sehr große Suchmaschine) nach DSA einzustufen ist.
+- Plattformbetreiber moechte wissen, ob eine DMA-Gatekeeper-Designation droht und welche Pflichten folgen.
+- Nutzer oder Unternehmen wurde von einer Plattform gesperrt und will die DSA-Beschwerdewege nutzen.
+- Anwalt muss feststellen, welche von mehreren EU-Digitalakten auf einen Sachverhalt gleichzeitig anwendbar sind.
+- Grossplattform muss eine Risikobewertung nach Art. 34 DSA dokumentieren oder Forschungsdatenzugang nach Art. 40 DSA einrichten.
+
+## Fachbegriffe (kurz erklaert)
+
+- **DSA (Digital Services Act)** — EU-Verordnung 2022/2065; regelt Haftung und Pflichten von Vermittlungsdiensten, Online-Plattformen, VLOP und VLOSE.
+- **DMA (Digital Markets Act)** — EU-Verordnung 2022/1925; regelt Pflichten für Gatekeeper bei Kernplattformdiensten.
+- **VLOP** — Sehr große Online-Plattform nach Art. 33 DSA; Designierungsschwelle 45 Mio. monatlich aktive Nutzer in der EU.
+- **Gatekeeper** — Designierter Kernplattformdienst-Betreiber nach Art. 3 DMA; quantitative Schwellen und qualitative Designierung durch die Kommission.
+- **Kernplattformdienste** — Abschliessender Katalog in Art. 2 Nr. 2 DMA: soziale Netzwerke, App-Stores, Suchmaschinen, Werbenetzwerke usw.
+- **Systemisches Risiko** — Art. 34 DSA: VLOPs müssen jaehrlich vier Risikoarten bewerten (illegale Inhalte, Grundrechte, Diskurs/Wahlen, Minderjaerige).
+- **P2B-VO** — Plattform-zu-Business-Verordnung (VO 2019/1150); regelt Bedingungen in Handelsbeziehungen zwischen Plattformen und gewerblichen Nutzern.
+- **DDG** — Digitale-Dienste-Gesetz; nationales Ausfuehrungsgesetz zum DSA in Deutschland.
+
+## Rechtsgrundlagen
+
+- DSA (EU) 2022/2065 — Digital Services Act; insb. Art. 13 (Vertreter), Art. 17 (Begruendungspflicht), Art. 20-23 (Beschwerdesystem), Art. 33-43 (VLOP-Pflichten).
+- DMA (EU) 2022/1925 — Digital Markets Act; insb. Art. 2-3 (Gatekeeper), Art. 5-7 (Pflichten), Art. 37 (Vertreter).
+- Art. 263 Abs. 4 AEUV — Nichtigkeitsklage gegen Designierungsbeschluss.
+- P2B-VO (EU) 2019/1150 — Plattform-Nutzer-Beziehungen.
+- § 19a GWB — Unterhalb DMA-Schwellen: ergaenzende nationale Regulierung besonders marktmaechtiger Unternehmen.
+- DDG §§ 1 ff. — Nationales Ausfuehrungsrecht zum DSA.
+
+## Schritt-für-Schritt: Einstieg ins Plugin
+
+1. Sachverhalt einordnen: Skill `digitalregulierung-pyramide-check` für die richtige Regulierungsebene.
+2. Schnittstellen identifizieren: `digitalregulierung-schnittstellen-dsgvo-p2b-19a-gwb` bei Mehrrechtsakten.
+3. Spezifischen Pflichtenkatalog aktivieren: VLOP-Check, Gatekeeper-Check, Account-Sperre oder Forschungsdatenzugang.
+4. Verfahren und Klagewege klaren: Beschwerde, Klage oder Zustellungsfragen.
+5. Eilrechtsschutz prüfen bei Sperren oder Designierungsbeschluessen.
+
+## Skill-Tour (was gibt es hier?)
+
+**Einstieg und Triage**
+
+- `digitalregulierung-pyramide-check` — Sachverhalt den richtigen EU-Digitalregulierungs-Rechtsakten zuordnen; Routing.
+- `digitalregulierung-schnittstellen-dsgvo-p2b-19a-gwb` — Schnittstellen zwischen DSA/DMA und DSGVO, P2B-VO, § 19a GWB analysieren.
+
+**DSA-spezifisch**
+
+- `dsa-vlop-vlose-einordnung-und-pflichten` — VLOP/VLOSE-Einordnung und Pflichtenkatalog Art. 33 bis 43 DSA.
+- `dsa-art-34-systemische-risikobewertung` — Jaehrliche Risikobewertung nach Art. 34 DSA für VLOP/VLOSE durchfuehren.
+- `dsa-art-40-forschungsdatenzugang-algorithmen` — Forschungsdatenzugang nach Art. 40 DSA beantragen oder einrichten.
+- `account-sperre-soziales-netzwerk-rechtsbehelfe-art-20-23-dsa` — Account-Sperre anfechten; Stufenmodell Art. 17-21 DSA; Klageschrift.
+
+**DMA-spezifisch**
+
+- `dma-gatekeeper-schwellen-und-kernplattformdienste` — Gatekeeper-Designation nach Art. 3 DMA prüfen; Pflichtenkatalog.
+
+**Klagewege und Verfahren**
+
+- `klage-gegen-vlop-einordnung-art-263-aeuv` — Nichtigkeitsklage gegen Designierungsbeschluss vor EuG.
+- `zustellung-und-vertreter-art-13-dsa-art-37-dma` — Zustellung gegen Plattform mit Sitz ausserhalb der EU; EU-Vertreter-Pflichten.
+
+## Worauf besonders achten
+
+- **DSA und DMA sind parallel anwendbar** — Eine Plattform kann gleichzeitig VLOP (DSA) und Gatekeeper (DMA) sein; die Pflichten kumulieren sich.
+- **Schwellenwerte sind dynamisch** — Meldepflicht nach Art. 24 Abs. 3 DSA bei Erreichen der Nutzerschwelle; Kommission designiert unabhaengig von Meldestand.
+- **DSA verdraengt DSGVO nicht** — Art. 2 Abs. 4 DSA stellt klar, dass DSGVO vorgeht; DSA-Compliance schutzt nicht vor DSGVO-Bussgeld.
+- **§ 19a GWB als Luecken-Fuelung** — Unterhalb DMA-Schwellen greift das BKartA auf § 19a GWB zurueck; Unternehmen müssen beide Ebenen im Blick haben.
+- **Zustellung gegen ausländische Plattformen** — EU-Vertreter-Pflicht nach Art. 13 DSA ist Voraussetzung für Zustellung; ohne Vertreter komplexes Auslandsverfahren.
+
+## Typische Fehler
+
+- DSA-Beschwerdepflicht nach Art. 20 DSA wird nicht ausgeschoepft, bevor Klage erhoben wird; Zulassigkeitsproblem.
+- VLOP-Meldepflicht nach Art. 24 Abs. 3 DSA wird vergessen; Bussgeldrisiko.
+- DMA-Gatekeeper-Designation wird mit kartellrechtlicher Marktbeherrschung gleichgesetzt; verschiedene Rechtsfragen.
+- Nichtigkeitsklage nach Art. 263 AEUV wird verspaetet eingereicht; Zweimonatsfrist ab Designierungsbeschluss.
+- Schnittstelle zu P2B-VO wird nicht geprueft, obwohl gewerbliche Nutzer betroffen sind.
+
+## Quellen und Aktualitaet
+
+- Stand: 05/2026
+- DSA (EU) 2022/2065 in der geltenden Fassung
+- DMA (EU) 2022/1925 in der geltenden Fassung
+- P2B-VO (EU) 2019/1150 in der geltenden Fassung
+- DDG in der geltenden Fassung

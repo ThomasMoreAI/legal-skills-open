@@ -1,0 +1,96 @@
+---
+name: datenschutz-dokumentenfreigabe
+title: Datenschutz und Dokumentenfreigabe
+description: 'Für Datenschutz und Dokumentenfreigabe: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weg-hausverwaltung/skills/datenschutz-dokumentenfreigabe
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Datenschutz und Dokumentenfreigabe
+
+## Fachlicher Anker
+
+- **Normen:** §§ 535, §§ 18, § 16 Abs. 2.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Fachkern: Datenschutz und Dokumentenfreigabe
+- **Normen-/Quellenanker:** WEG §§ 18-28, 44/45, BGB-Miet-/Werkvertragsrecht, BetrKV, HeizkostenV, GEG, DSGVO und landesrechtliche Bau-/Sicherheitsfragen.
+- **Entscheidende Weiche:** Trenne Beschlusskompetenz, ordnungsmäßige Verwaltung, Kostenverteilung, Anfechtungsfrist, Verwalterpflicht, Belegprüfung und Vollzug.
+
+Stand: 05/2026.
+
+## Ziel
+
+Transparenz in der GdWE ermöglichen, ohne personenbezogene Daten unnötig breit zu streuen. Maßstab: DSGVO (Erforderlichkeit, Zweckbindung, Datenminimierung), berechtigte Interessen der GdWE und einzelner Eigentümer.
+
+## Prüfpunkte
+
+- **Wer braucht welches Dokument wofür?** (Eigentümer, Beirat, Verwalter, Anwalt, Handwerker, Mieter)
+- **Welche Daten?** Eigentümerdaten (Name, Adresse, Anteil), Mieterdaten, Kontodaten, Gesundheitsdaten, Beschwerdedaten, Strafdaten.
+- **Schwärzung / Auszug / Einsicht** statt breitem Versand.
+- **Cloud-Freigaben**: Linkablaufzeit, Berechtigungen, Protokoll, AVV mit Anbieter (Art. 28 DSGVO).
+- **Schnittstelle Datenschutzrecht-Plugin** bei hohem Risiko (z. B. Datenpanne, sensible Daten, größere Eigentümerzahl betroffen).
+
+## Typische Konstellationen
+
+| Anliegen | Empfehlung |
+| --- | --- |
+| Eigentümerliste an alle versenden | Eigentümerstellung und Zweck prüfen; für notwendige Verwaltung/Kontaktaufnahme erforderliche Namen/ladungsfähige Anschriften nicht pauschal sperren; Telefon/E-Mail und weitere Daten benötigen eigene Grundlage/Erforderlichkeit |
+| Belegeinsicht Jahresabrechnung | Vor Ort oder über sicheres Portal; sensible Belege (Krankheits-/Gesundheitsdaten) schwärzen |
+| Mieterbeschwerde an WEG-Verwalter | mit Eigentümer kommunizieren; Klartext-Daten der Mieter nur, soweit erforderlich |
+| Handwerker erhält Eigentümerliste | regelmäßig **nicht**; nur Kontakt der WEG-Verwaltung oder benannte Ansprechpartner |
+| Kameraüberwachung Eingang | Beschluss erforderlich; Beschilderung Art. 13 DSGVO; Speicherzeit minimieren; Schutzraum Anwohner |
+| Versand via Messenger / private E-Mail | vermeiden; Verwalter-Mail / Portal nutzen |
+
+## Belegeinsicht / Vermögensbericht
+
+- **§ 18 Abs. 4 WEG**: Anspruch jedes Wohnungseigentümers auf Einsicht in die Verwaltungsunterlagen — das ist die Rechtsgrundlage für die Belegeinsicht (Rechnungen, Verträge, Kontoauszüge, Abrechnungsunterlagen). Anspruch besteht gegen die GdWE, in der Praxis erfüllt durch den Verwalter (https://www.gesetze-im-internet.de/woeigg/__18.html).
+- **§ 28 Abs. 4 WEG**: Anspruch auf Vorlage des Vermögensberichts (Aufstellung des Gemeinschaftsvermögens, Erhaltungsrücklage, Forderungen/Verbindlichkeiten) — nicht die Anspruchsgrundlage für die Belegeinsicht, sondern eigene Informationspflicht (https://www.gesetze-im-internet.de/woeigg/__28.html).
+- Praxis: Belegeinsicht auf Verlangen, Ort und Zeit billigerweise festlegen, kein Verbot der Anfertigung von Kopien/Fotos, soweit nicht durch Datenschutz Dritter (z. B. Mieter-Belege, Gehaltsabrechnungen Hauspersonal) eingeschränkt.
+- Empfehlenswert: kontrollierter Einsichtstermin oder geschütztes Portal mit Audit-Log.
+
+## Mustertext Freigabeentscheidung
+
+> **Freigabevermerk**
+> Dokument: [Bezeichnung, Stand]
+> Empfänger: [Liste mit Rolle]
+> Rechtsgrundlage: [berechtigtes Interesse / Einwilligung / Vertragserfüllung / gesetzliche Pflicht]
+> Datenminimierung: [Schwärzungen vorgenommen / Auszug erstellt / vollständig erforderlich]
+> Übermittlungsweg: [Portal / E-Mail verschlüsselt / Postversand / Vor-Ort-Einsicht]
+> Speicherdauer / Linkablauf: [...]
+> Risikoeinschätzung: [niedrig / mittel / hoch]; bei hoch → Eskalation an Datenschutzrecht-Plugin
+
+## Datenpanne (Art. 33 DSGVO)
+
+- Bewertung binnen Stunden, Risikoeinschätzung für Betroffene.
+- Meldung an Aufsichtsbehörde binnen 72h, soweit Risiko für Rechte und Freiheiten.
+- Information der Betroffenen, wenn hohes Risiko.
+- Vorgang dokumentieren (Datum, Vorfall, Maßnahmen, Beteiligte).
+
+## Cross-Refs
+
+- Vermögensbericht / Belegeinsicht → `wirtschaftsplan-jahresabrechnung-28-weg`
+- Beschwerde / Kamera → `stoerung-hausordnung-mieter-eigentuemer`, `eigentuemerkommunikation-beschwerde`
+- Eskalation Anwalt / Aufsicht → `eskalation-anwalt-amtsgericht`, Datenschutzrecht-Plugin
+
+## Quellenpflicht
+
+`rechtsstand-mai-2026-faktenbank` laden. § 18 Abs. 4 WEG: https://www.gesetze-im-internet.de/woeigg/__18.html ; § 28 Abs. 4 WEG: https://www.gesetze-im-internet.de/woeigg/__28.html ; DSGVO siehe Datenschutzrecht-Plugin.
+
+## Konkrete Belegfreigabe und Kameraprüfung
+
+Bei § 18 Abs. 4 WEG für jede Schwärzung benennen, welche sachfremden Daten betroffen sind und warum die Prüfung der Rechnung weiterhin möglich bleibt. Datenschutz nicht pauschal gegen Eigentümereinsicht ausspielen; Anspruch, Empfänger und sichere Ausführung gemeinsam prüfen. Der Vermögensbericht nach § 28 Abs. 4 ist jedem Eigentümer bereitzustellen. Für Mietereinsicht gilt zusätzlich der separate Weg über den Vermieter nach § 556 Abs. 4 BGB.
+
+Diebstahl rechtfertigt keine unbegrenzte Kamera- oder Audiodatensammlung. Vorfälle, mildere Mittel, Erfassungsbereich, maskierte Bereiche, Zugang, Löschung und notwendige Ereignissicherung konkret festlegen. Für die aktualisierten Kameraanker und gesetzlichen Grenzen [Miet-, Befalls- und Datenschutzreferenz](../../references/miete-befall-datenschutz-oktober-2026.md) lesen. Kein Eigentümerbeschluss ersetzt die heutige Datenschutzprüfung.

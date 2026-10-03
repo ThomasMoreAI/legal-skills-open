@@ -1,27 +1,21 @@
 ---
 name: aufsichts-feed-monitor
 title: Regulatorischer Feed-Watcher
-description: 'Aufsichtsbehoerden-Mitteilungen und regulatorische Feeds monitoren und relevante Aenderungen für Mandanten identifizieren. KWG WpHG DORA VAG BaFin-Rundschreiben. Prüfraster: Relevanz für Mandant Umsetzungsfrist Handlungsbedarf Meldepflicht. Output: Monitoring-Bericht relevante Aenderungen Handlungsliste. Abgrenzung: nicht für tiefe Regulierungsanalyse (stellungnahmen).'
+description: 'Für Regulatorischer Feed-Watcher: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/regulatorisches-recht/skills/aufsichts-feed-monitor
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
 language: de
+sources:
+- title: Source catalog
+  path: references/source-catalog.md
 ---
 
 # Regulatorischer Feed-Watcher
-
-## Zweck
-
-Die Skill ruft konfigurierte regulatorische Quellen ab, filtert nach Wesentlichkeit und
-gibt aus, was seit dem letzten Lauf neu ist. Der Filter ist der eigentliche Mehrwert —
-ungefilterter Rohinput ist Rauschen. Quellen: Bundesgesetzblatt (BGBl.), Amtsblatt der
-EU (ABl. EU), EUR-Lex, BaFin-Rundschreiben, BSI-Verlautbarungen, EuGH-/BGH-Newsletter,
-Bundesanzeiger, BMJ-Referentenentwürfe, Bundesrat-Drucksachen. Themen: Finanzaufsicht,
-IT-Sicherheit, Datenschutz, KI-Regulierung (EU-KI-VO), ESG/CSRD.
 
 ## Eingaben
 
@@ -38,12 +32,12 @@ IT-Sicherheit, Datenschutz, KI-Regulierung (EU-KI-VO), ESG/CSRD.
 - **BGBl.** — amtliches Verkündungsblatt; maßgeblich für Inkrafttreten von Normen.
 - **ABl. EU, Reihe L + C** — verbindliche EU-Rechtsakte und Leitlinien.
 - **BaFin-Rundschreiben** (z. B. MaRisk BA 2023, BAIT, ZAIT) — konkretisieren
-  aufsichtsrechtliche Anforderungen; §§ 6, 25b KWG, §§ 6, 23 VAG, §§ 6 ff. WpHG.
+ aufsichtsrechtliche Anforderungen; §§ 6, 25b KWG, §§ 6, 23 VAG, §§ 6 ff. WpHG.
 - **BSI** — Technische Richtlinien und Kritis-Verlautbarungen (§§ 8a ff. BSIG).
 - **EU-KI-VO (VO (EU) 2024/1689)** — Hochrisiko-Klassifikation, Konformitätspflichten.
 - **CSRD (RL (EU) 2022/2464)** — nichtfinanzielle Berichterstattung, ESRS-Standards.
 - **Art. 20 Abs. 3 GG** — Rechtsstaatsprinzip, Normenklarheit; Maßstab für die
-  Bewertung behördlicher Verlautbarungen ohne formelle Ermächtigungsnorm.
+ Bewertung behördlicher Verlautbarungen ohne formelle Ermächtigungsnorm.
 
 ### Leitentscheidungen / Aktualitäts-Anker
 
@@ -60,11 +54,11 @@ Stand 05/2026. Vor Verwendung im Schriftsatz live verifizieren — keine Aktenze
 ### Kommentare
 
 - `Sachs (Hrsg.), GG, 10. Aufl. 2021, Art. 20 Rn. 78 ff.` — Rechtsstaatsprinzip
-  und Normenklarheit als Bewertungsmaßstab für behördliche Verlautbarungen.
+ und Normenklarheit als Bewertungsmaßstab für behördliche Verlautbarungen.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
-  Rechtsetzungskompetenzen; relevant für Verbindlichkeitsgrad von BaFin-Rundschreiben.
+ Rechtsetzungskompetenzen; relevant für Verbindlichkeitsgrad von BaFin-Rundschreiben.
 - `Schwennicke/Auerbach (Hrsg.), KWG/CRR, 4. Aufl. 2022, § 6 KWG Rn. 5 ff.`
-  — Praxis der BaFin-Verlautbarungen und deren Rechtswirkung.
+ — Praxis der BaFin-Verlautbarungen und deren Rechtswirkung.
 
 ## Ablauf
 
@@ -83,7 +77,6 @@ bekannt und akzeptiert ist.
 | ABl. EU / EUR-Lex | EU-Rechtsakte, konsolidierter Bestand |
 | BaFin (bafin.de/RSS) | Rundschreiben, Merkblätter, Allgemeinverfügungen |
 | BSI (bsi.bund.de) | Technische Richtlinien, Kritis-Warnungen |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich |
 | BMJ | Referentenentwürfe, Pressemitteilungen |
 | Bundesrat | Drucksachen, Stellungnahmen |
 | Bundesanzeiger | Behördenbekanntmachungen |
@@ -119,9 +112,7 @@ Compliance-Pflicht. Im Eintrag explizit vermerken: "Vorstufe. Kommentierungsfris
 Für jeden Eintrag oberhalb "Zur Kenntnis": einzeilige Zusammenfassung + Relevanzhinweis
 + Link + Inkrafttreten bzw. Kommentierungsfrist. "Zur Kenntnis"-Einträge: nur Anzahl.
 
-## Ausgabeformat
-
-```
+```markdown
 ## Regulatorischer Feed-Check — [Datum]
 Zeitraum: [letzter Lauf] – [jetzt] | Quellen: [...] | Einträge: [N]
 
@@ -167,12 +158,12 @@ In Kraft: 01.08.2024. [ABl. EU L 2024/XXX] [ABl. EU]
 ## Risiken und typische Fehler
 
 - **Sekundärquelle als Primärquelle verwenden:** Kanzlei-Newsletter berichten über
-  Entscheidungen, sind aber nicht die Entscheidung. Immer auf BGBl., ABl. oder
-  Behördenwebsite verweisen.
+ Entscheidungen, sind aber nicht die Entscheidung. Immer auf BGBl., ABl. oder
+ Behördenwebsite verweisen.
 - **Referentenentwurf als geltendes Recht einstufen:** Klare Kennzeichnung als Vorstufe.
 - **Kommentierungsfristen übergehen:** Fristen sind real und oft kurz — immer im Tracker.
 - **Verbindlichkeitsgrad verwischen:** BaFin-Rundschreiben sind keine Gesetze.
-  Unterschied Gesetz / VO / Leitlinie / Merkblatt in der Ausgabe erkennbar halten.
+ Unterschied Gesetz / VO / Leitlinie / Merkblatt in der Ausgabe erkennbar halten.
 - **Stille Ergänzung durch Websuche:** Ohne Rückfrage unzulässig.
 
 Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall.
@@ -181,6 +172,7 @@ Hinweis: Dieser Skill ersetzt keine anwaltliche Beratung im konkreten Einzelfall
 
 Jeder Eintrag muss enthalten: Behörde, Dokumenttyp, Datum, Direktlink zur Primärquelle,
 Quellenkennung und ggf. Kommentierungsfrist. Zitierweise Rechtsprechung:
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Zitierweise Kommentare:
 `Sachs/Sachs, GG, 10. Aufl. 2021, Art. 20 Rn. 78`
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

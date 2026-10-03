@@ -5,11 +5,40 @@ description: 法律AI求职助手 - 帮助法律人（法务/律师）使用AI�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/legal-job-search
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: zh
+sources:
+- title: Company research framework
+  path: references/frameworks/company-research-framework.md
+- title: Firm research framework
+  path: references/frameworks/firm-research-framework.md
+- title: Legal risk framework
+  path: references/frameworks/legal-risk-framework.md
+- title: Fallback queries
+  path: references/mcp-tools/fallback-queries.md
+- title: Mcp catalog
+  path: references/mcp-tools/mcp-catalog.md
+- title: Firm research extension
+  path: references/prompts/firm-research-extension.md
+- title: Html resume template
+  path: references/prompts/html-resume-template.md
+- title: Materials prompt template
+  path: references/prompts/materials-prompt-template.md
+- title: Memo word spec
+  path: references/prompts/memo-word-spec.md
+- title: Preparation checklist
+  path: references/prompts/preparation-checklist.md
+- title: Business elite
+  path: references/styles/business-elite.md
+- title: Custom guide
+  path: references/styles/custom-guide.md
+- title: Minimal clean
+  path: references/styles/minimal-clean.md
+- title: Modern tech
+  path: references/styles/modern-tech.md
 ---
 
 # 法律AI求职助手

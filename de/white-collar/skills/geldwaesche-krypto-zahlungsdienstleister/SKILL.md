@@ -1,78 +1,49 @@
 ---
 name: geldwaesche-krypto-zahlungsdienstleister
-title: Krypto, Zahlungsdienste und FinTech
-description: AML/KYC-Prüfung für Krypto-Assets Wallets Travel Rule und Zahlungsdienstleister. Anwendungsfall Krypto-Transaktion soll bewertet oder Krypto-Dienstleister muss KYC-Prozess aufsetzen. Normen § 2 Abs. 1 Nr. 10b GwG Kryptowertehandel Verordnung 2023/1113 Travel Rule MiCAR Art. 59. Prüfraster Wallets Travel Rule Mittelherkunft Krypto-Red-Flags Zahlungsdienstleister E-Geld technische Kontrollpunkte. Output KYC-Prüfprotokoll mit Wallet-Analyse Red-Flag-Liste Travel-Rule-Nachweis und Verdachtsprüfung. Abgrenzung zu geldwäsche-transaktionsmonitoring und geldwäsche-sanktionsscreening.
+title: 1. Kryptotransfer und Zahlungsdienst prüfen
+description: Ordnet Kryptotransfers und Zahlungsdienstleister nach Rolle, Transferdaten und selbst gehosteter Adresse ein. Trennt Travel Rule, MiCAR-Erlaubnis und GwG-Prüfung und bewertet konkrete Lücken ohne Blockchain-Pauschalverdacht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-krypto-zahlungsdienstleister
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: white-collar
 language: de
 ---
 
-# Krypto, Zahlungsdienste und FinTech
+# 1. Kryptotransfer und Zahlungsdienst prüfen
 
-## Triage zu Beginn
-1. Handelt es sich um einen Kryptowertedienstleister, E-Geld-Institut oder regulaeren Zahlungsdienstleister?
-2. Welche Wallets oder Transaktionen sind betroffen; greift die Travel Rule (ueber 1.000 EUR)?
-3. Gibt es Hinweise auf Mixer, Anonymisierungstools oder High-Risk-Wallets laut Blockchain-Analyse?
-4. Ist der VASP (Virtual Asset Service Provider) in der EU registriert oder aus einem Drittland?
+## 1. Zweck und Anwendungsfall
 
-## Aktuelle Rechtsprechung und Behoerdenpraxis
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Für verpflichtete Anbieter, einen Transferdatenmangel oder die Einordnung eines eingesetzten Dienstleisters. Ein Unternehmen wird durch gelegentlichen Kryptobesitz nicht automatisch Kryptowerte-Dienstleister.
 
-## Zentrale Normen
-- § 2 Abs. 1 Nr. 2a GwG — Kryptowertedienstleister als Verpflichtete
-- Art. 14-16 TFR (Transfer of Funds Regulation) — Travel Rule ab 1.000 EUR
-- § 64y KWG — Registrierungs- und Zulassungspflicht fuer Krypto-Custodians
-- § 15 GwG — Verstaerkte Sorgfalt bei hohem Geldwaescherisiko (Privacy Coins, Mixer)
+## 2. Eingaben
 
-## Quellenregel
+Dienstleisterrolle, Erlaubnisangaben, Auftraggeber und Begünstigter, Transferbetrag, Zeitpunkt, Wallet-Adressen und vorhandene Transferdaten. Kein Seed, privater Schlüssel oder Zugangscode anfordern.
 
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
+## 3. Ablauf
 
-Dieser Skill bildet risikoreiche digitale Geschäftsmodelle in KYC- und Monitoring-Workflows ab.
+### 3.1. Rolle und Transfer trennen
 
-## Wann verwenden
+GwG-Kategorie, Zahlungsdienst und Kryptowerte-Dienstleistung bestimmen. Die MiCAR-Erlaubnis beantwortet nicht, ob die konkreten Angaben zur Transaktion vollständig sind. Grenzüberschreitenden Anbieter und anwendbaren Rechtsraum dokumentieren.
 
-- wenn ein neues AML/KYC-, GwG-, Sanktions- oder Compliance-Thema aufgenommen wird
-- wenn Kunden, wirtschaftlich Berechtigte, Transaktionen, Länder, Produkte oder Vertriebskanäle risikobasiert geprüft werden müssen
-- wenn ein Alert, Treffer, Behördenkontakt, Verdachtsmoment, Pressefall oder Remediation-Projekt vorliegt
+### 3.2. Transferinformationen prüfen
 
-## Arbeitsweise
+Verordnung (EU) 2023/1113 gilt seit 30. Dezember 2024. Erforderliche Angaben zu Auftraggeber und Begünstigtem, fehlende Daten und Nachforderungsweg anhand der konkreten Transferart prüfen. Selbst gehostete Adressen nach einschlägigen Vorgaben und GwG Paragraf 15a behandeln. Keine erfundene allgemeine Pflicht, sämtliche Wallets öffentlich zuzuordnen.
 
-1. **Rolle und Pflichtenkreis klären.** Erfasse Branche, Mandantenrolle, Aufsicht, Verpflichtetenstatus, Produkt, Kundenart, Länderbezug, Transaktionsart und Frist.
-2. **Daten sauber ziehen.** Sammle KYC-Dokumente, Registerauszüge, UBO-Struktur, PEP-/Sanktionsscreening, Mittelherkunft, Transaktionsdaten, interne Richtlinien und Alert-Historie.
-3. **Quellenstand protokollieren.** Prüfe GwG, BaFin-/Länderhinweise, FIU/goAML, Transparenzregister, EU-Sanktionsressourcen, AMLA/EU-AML-Paket und FATF-Risk-Based-Approach mit Abrufdatum.
-4. **Risikobasiert entscheiden.** Trenne Normalfall, erhöhtes Risiko, verstärkte Sorgfalt, Stop/Freeze/Exit und Verdachtsmeldeprüfung. Keine automatische Freigabe bei Datenlücken.
-5. **Verzeihend nachziehen.** Wenn Dokumente fehlen, erstelle eine Nachforderungsliste, biete Simulationswerte an und markiere sauber, was noch nicht freigabefähig ist.
-6. **Arbeitsprodukt liefern.** Erzeuge KYC-Vermerk, Risikoanalyse, Trefferlog, Verdachtsmeldungsentwurf, Richtlinie, Schulung, Audit-Finding, Behördenantwort oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Freigaben, Vier-Augen-Prinzip, Quellen, Fristen, Datenschutz, Mandatsgeheimnis, Aufbewahrung, Löschung und Auditierbarkeit.
+### 3.3. Risiko aus Tatsachen
 
-## Rückfragen, wenn unklar
+Kontrolle über eine Adresse, Herkunft des Vermögens und wirtschaftlichen Zweck unterscheiden. Ein Analyseanbieter-Label belegt nicht allein eine Straftat; Transaktionshash, Zeitpunkt und Methodengrenze offenlegen. Konkrete Verdachtstatsachen unverzüglich zum Meldeskill geben. Fehlende Transferdaten nicht mit einem simulierten Namen auffüllen.
 
-- Welche Branche, Rolle und Aufsichtszuständigkeit hat der Mandant?
-- Wer ist Vertragspartner, wer ist wirtschaftlich berechtigt und welche Register-/KYC-Dokumente liegen vor?
-- Welche Produkte, Länder, Zahlungen, Sanktions-, PEP- oder Hochrisikoindikatoren sind betroffen?
-- Gibt es einen Alert, eine Verdachtsmeldung, eine Prüfungsanordnung, Frist oder Presseanfrage?
-- Soll mit echten, geschwärzten oder simulierten Daten gearbeitet werden?
+## 4. Quellenpflicht
 
-## Ausgabeformat
+[Verordnung (EU) 2023/1113](https://eur-lex.europa.eu/eli/reg/2023/1113/oj/deu), [GwG Paragraf 15a](https://www.gesetze-im-internet.de/gwg_2017/__15a.html), [Quellenkarte](../../references/rechtsstand-2026-und-eu-uebergang.md). Neue AMLR-Pflichten ab 2027 gesondert führen.
 
-- Kurzlage mit Risikoampel und Sofortmaßnahmen
-- KYC-/UBO-/Sanktions- oder Monitoring-Matrix mit Quellenstand
-- Entscheidungsvorschlag mit Freigabe-, Eskalations- oder Stop-Workflow
-- prüfbarer Entwurf für Richtlinie, Verdachtsmeldung, Behördenantwort, Schulung oder Remediation
-- offene Annahmen, fehlende Nachweise und Review-Hinweise
+## 5. Ausgabeformat
 
-## Typische Fehler vermeiden
+Vollständiger Transfervermerk mit vorhandenen und fehlenden Daten, Rechtsgrund und zuständigem nächsten Schritt. Times New Roman 11 pt, dezimale Gliederung. Keine automatische Transferfreigabe oder Wallet-Sperre.
 
-- Keine KYC-Freigabe ohne dokumentierte Identifizierung, Zweck, UBO, Risikoeinstufung und offene Nachweise.
-- Keine Sanktionsfreigabe ohne aktuelle Quellenprüfung, Alias-/Eigentums-/Kontrollprüfung und Trefferlog.
-- Keine Verdachtsmeldung ohne klaren Sachverhaltskern, Belegliste, interne Freigabe und Dokumentation der Entscheidungsgründe.
-- Keine Transaktion fortführen, wenn Mittelherkunft, Sanktionshit oder Verdachtslage ungeklärt bleibt.
-- Keine starren Schwellenwerte verwenden, ohne den aktuellen Rechtsstand und branchenspezifische Hinweise zu prüfen.
-- Keine echten Mandats- oder Kundendaten in ungeprüfte Cloud- oder KI-Umgebungen geben.
+## 6. Beispiele
+
+Anbieter liefert Hash und Betrag, aber keine belastbaren Begünstigtendaten. Der Entwurf fordert die konkret erforderlichen Angaben an; fehlende Angaben werden nicht aus einem ähnlichen öffentlichen Wallet-Namen ersetzt.

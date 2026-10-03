@@ -1,11 +1,11 @@
 ---
 name: selektiver-vertrieb-coty
 title: Selektiver Vertrieb für Luxusgüter nach Coty
-description: Workflow-Skill zu selektiver vertrieb coty. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Selektiver Vertrieb für Luxusgüter nach Coty: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/markenrecht-fashion-luxus/skills/selektiver-vertrieb-coty
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: antitrust
@@ -14,49 +14,60 @@ language: de
 
 # Selektiver Vertrieb für Luxusgüter nach Coty
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: MarkenG § 47 Schutzdauer 10 Jahre, § 25 Benutzungsschonfrist 5 Jahre, Widerspruch DPMA 3 Monate, Nichtigkeitsantrag § 50 (10 Jahre Bösgläubigkeit).
+- Tragende Normen verifizieren: MarkenG §§ 4, 8, 9, 14, 15, 24 (Erschöpfung), UMV (VO 2017/1001), MMA, GemmuVO, UrhG §§ 2, 69, UWG §§ 3, 4 Nr. 3, 6, EU-Geoblocking-VO, ZollVO 608/2013 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Markeninhaber, Lizenznehmer, Distributor, Online-Marktplatz, Zollbehörde, DPMA, EUIPO, LG (Markensenat), Wettbewerber/Fälscher.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Markenanmeldung, Lizenzvertrag, Selektiv-Vertriebsvertrag, Abmahnung, Zollbeschlagnahme-Antrag, Verletzungsklage, Lookbook, EUIPO-Widerspruch — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Selektiver Vertrieb für Luxusgüter nach Coty
+- **Normen-/Quellenanker:** MarkenG, UMV, DesignG/GGV, UWG, UrhG, GeschGehG, Zoll-/Grenzbeschlagnahme, DSA/Marketplace, Erschöpfung, Rufausbeutung und Schadensersatz.
+- **Entscheidende Weiche:** Kennzeichen/Design, Priorität, Benutzung, Verwechslungsgefahr, Bekanntheit, Erschöpfung, Plattformbeweis, Auskunft und Vollstreckung getrennt prüfen.
+- **Arbeitsprodukt:** Liefere eine fallbezogene `Norm / Tatsache / Beleg / Wertung / Gegenargument / nächster Schritt`-Matrix und einen direkt nutzbaren Textbaustein, wenn der Nutzer einen Entwurf braucht.
+
 Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Als Anwältin entwerfe ich selektive Vertriebsverträge, die Coty-konform sind, kartellrechtlich standhalten und die Exklusivität von klôtzzkètté SA absichern.
 
 ## Rechtsrahmen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Art. 101 AEUV:** Kartellverbot — selektive Vertriebssysteme können unter Art. 101 I fallen, sind aber in der Regel nach Art. 101 III freigestellt
 - **Vertikal-GVO (EU) 2022/720:** Gruppenfreistellung für vertikale Vereinbarungen; Marktanteilsschwelle 30 % für Lieferant und Händler; vgl. Skill `vertikale-preisbindung-vbe-vo`
 - **Art. 4 lit. b/c Vertikal-GVO:** Hardcore-Beschränkungen (auch bei Selektivvertrieb)
 - **§ 1 GWB:** Deutsches Kartellverbot (inhaltsgleich mit Art. 101 AEUV für DE-Markt)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Prüfungsschritte
 
 1. **Selektionskriterien formulieren — Zulässigkeitstest nach Coty:**
 
-   **Pflicht-Voraussetzungen (Metro-Kriterien, bestätigt durch Coty):**
-   - Kriterium muss durch die Natur der Ware gerechtfertigt sein (qualitative Begründung)
-   - Kriterium muss einheitlich und nicht-diskriminierend angewendet werden
-   - Kriterium muss verhältnismäßig sein (kein Übermaß)
+ **Pflicht-Voraussetzungen (Metro-Kriterien, bestätigt durch Coty):**
+ - Kriterium muss durch die Natur der Ware gerechtfertigt sein (qualitative Begründung)
+ - Kriterium muss einheitlich und nicht-diskriminierend angewendet werden
+ - Kriterium muss verhältnismäßig sein (kein Übermaß)
 
-   **Typische qualitative Kriterien für klôtzzkètté:**
-   - Flagship-Store oder Shop-in-Shop mit definiertem Design-Standard (Lichtkonzept, Bodenbelag, Display-Materialien nach Brand-Manual)
-   - Ausgebildetes Verkaufspersonal (Mindest-Schulungsstunden: 8 h/Jahr bei klôtzzkètté-Akademie)
-   - Keine Mischung mit Discount-Waren in unmittelbarer Präsenz
-   - Kein Verkauf über Drittmarktplätze ohne Zustimmung klôtzzkètté (Coty-Plattformverbot)
-   - Geheimhaltung von Einkaufspreisen (MFN-Klausel — vgl. Skill `agb-haendlervertrag-luxus`)
+ **Typische qualitative Kriterien für klôtzzkètté:**
+ - Flagship-Store oder Shop-in-Shop mit definiertem Design-Standard (Lichtkonzept, Bodenbelag, Display-Materialien nach Brand-Manual)
+ - Ausgebildetes Verkaufspersonal (Mindest-Schulungsstunden: 8 h/Jahr bei klôtzzkètté-Akademie)
+ - Keine Mischung mit Discount-Waren in unmittelbarer Präsenz
+ - Kein Verkauf über Drittmarktplätze ohne Zustimmung klôtzzkètté (Coty-Plattformverbot)
+ - Geheimhaltung von Einkaufspreisen (MFN-Klausel — vgl. Skill `agb-haendlervertrag-luxus`)
 
 2. **Plattformverbot formulieren:**
-   - Klausel: "Händler darf Vertragsware nicht über Online-Marktplätze Dritter (insbesondere Donauzon, [weitere]) anbieten, es sei denn, klôtzzkètté SA stimmt vorher schriftlich zu."
-   - Begründung: Marktplätze entsprechen nicht den Qualitätsstandards des Selektivvertriebssystems; fehlende Kontrolle über Markenpräsentation
-   - Coty-Linie: Luxusimage-Argument genügt; kein generelles Internet-Verbot (eigener Online-Shop des Händlers erlaubt)
+ - Klausel: "Händler darf Vertragsware nicht über Online-Marktplätze Dritter (insbesondere Donauzon, [weitere]) anbieten, es sei denn, klôtzzkètté SA stimmt vorher schriftlich zu."
+ - Begründung: Marktplätze entsprechen nicht den Qualitätsstandards des Selektivvertriebssystems; fehlende Kontrolle über Markenpräsentation
+ - Coty-Linie: Luxusimage-Argument genügt; kein generelles Internet-Verbot (eigener Online-Shop des Händlers erlaubt)
 
 3. **Kartellrechtliche Freistellung prüfen:**
-   - Marktanteil klôtzzkètté < 30 %? → Vertikal-GVO-Freistellung greift automatisch
-   - Marktanteil > 30 %? → Einzelfallprüfung nach Art. 101 III AEUV / § 2 GWB
+ - Marktanteil klôtzzkètté < 30 %? → Vertikal-GVO-Freistellung greift automatisch
+ - Marktanteil > 30 %? → Einzelfallprüfung nach Art. 101 III AEUV / § 2 GWB
 
 4. **Vertragsdokumentation:**
-   - Selektiver Händlervertrag mit vollständigen Kriterien-Katalog (Anlage)
-   - Schulungsnachweispflicht (jährlich)
-   - Revisionspflicht (klôtzzkètté darf unangekündigt oder mit 24h-Vorankündigung prüfen)
-   - Laufzeit: 2-3 Jahre, Kündigung mit 6 Monaten Frist
+ - Selektiver Händlervertrag mit vollständigen Kriterien-Katalog (Anlage)
+ - Schulungsnachweispflicht (jährlich)
+ - Revisionspflicht (klôtzzkètté darf unangekündigt oder mit 24h-Vorankündigung prüfen)
+ - Laufzeit: 2-3 Jahre, Kündigung mit 6 Monaten Frist
 
 ## Falltypische Konstellationen
 
@@ -69,12 +80,11 @@ Brezelmann Discount KG beantragt Aufnahme ins Händlernetz. Ablehnung auf Basis 
 ### Konstellation 3: Online-Pure-Player beantragt Partnerschaft
 Reines Online-Unternehmen ohne physischen Store beantragt Händlerpartnerschaft. Nach Coty: Eigener Online-Shop zulässig; aber: Selektion nach Qualitätskriterien für Online-Präsentation (eigene Domain, klôtzzkètté-konforme Produktpräsentation, kein Mischsortiment auf Landing Page). Partnerschaft möglich bei Erfüllung der Qualitätskriterien für Online-Vertrieb.
 
-## Belege & Kommentare
+## Quellen-Hardening
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Bundeskartellamt, Fallbericht Asics 2015 (Plattformverbot vor Coty)
-- Europäische Kommission, Vertikalleitlinien 2022/C 248, Rn. 210 ff. (selektiver Vertrieb)
-- Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
+- Keine Kommentar-, Handbuch-, Aufsatz-, BeckRS- oder juris-Blindzitate aus Modellwissen.
+- Registerdaten, Amtsformulare, Fristen, Gebühren und Behördenpraxis live bei DPMA, EUIPO, WIPO, USPTO oder den jeweils zuständigen Stellen prüfen.
+- Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und amtlicher oder frei zugänglicher Quelle ausgeben.
 
 ## Templates
 
@@ -119,8 +129,4 @@ Bevor das selektive Vertriebssystem eingerichtet oder ein Haendler ausgeschlosse
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

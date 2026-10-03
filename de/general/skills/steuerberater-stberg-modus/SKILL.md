@@ -1,11 +1,11 @@
 ---
 name: steuerberater-stberg-modus
 title: Steuerberater-Modus (StBerG/BOStB)
-description: 'Korrespondenz von Steuerberatern auf StBerG- und Berufsrechts-Konformität anpassen. §§ 57 57a StBerG Berufspflichten DVStB. Prüfraster: Verschwiegenheit Sachlichkeit Werbegrenzen fachliche Kompetenz Unabhängigkeit. Output: angepasste Version mit Prüfprotokoll. Abgrenzung: nicht für allgemeine Anwaltskorrespondenz.'
+description: 'Für Steuerberater-Modus (StBerG/BOStB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen. Fachgebiet: E-Mail-Umformulierer. Route: steuerberater-stberg-modus.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/steuerberater-stberg-modus
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,27 +14,24 @@ language: de
 
 # Steuerberater-Modus (StBerG/BOStB)
 
-Dieser Skill passt den Umformulierungsprozess an die spezifischen Berufspflichten von Steuerberatern an. Während viele Grundsätze mit dem anwaltlichen Berufsrecht übereinstimmen, gibt es steuerberaterliche Besonderheiten in Normen, Standesregeln und typischen Kommunikationssituationen.
+## Fachkern: Steuerberater-Modus (StBerG/BOStB)
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
 
+Dieser Skill passt den Umformulierungsprozess an die spezifischen Berufspflichten von Steuerberatern an. Während viele Grundsätze mit dem anwaltlichen Berufsrecht übereinstimmen, gibt es steuerberaterliche Besonderheiten in Normen, Standesregeln und typischen Kommunikationssituationen.
 
 ## Triage zu Beginn
 1. Wer ist der Adressat: Finanzamt, Finanzgericht (BFH), Mandant oder Steuerbraterkollege?
 2. Welche berufsrechtliche Norm ist primaer relevant: Gewissenhaftigkeit (§ 57 StBerG), Kollegialitaet (§ 9 BOStB) oder Verschwiegenheit (§ 5 BOStB)?
-3. Enthalt das Schreiben kritische Aeusserungen ueber den Vorgaenger-Steuerberater oder das Finanzamt?
+3. Enthalt das Schreiben kritische Aeusserungen über den Vorgaenger-Steuerberater oder das Finanzamt?
 4. Hat das Schreiben rechtsverbindliche Wirkung (Einspruch, Klage) oder ist es nur informell?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 57 StBerG — Allgemeine Berufspflichten: Gewissenhaftigkeit, Verschwiegenheit, Sachlichkeit
 - § 57a StBerG — Werbung: sachliche, berufsrechtlich zulaessige Kommunikation
 - § 5 BOStB — Verschwiegenheitspflicht (analog § 2 BORA)
-- § 9 BOStB — Kollegialitaetsgebot fuer Steuerberater
+- § 9 BOStB — Kollegialitaetsgebot für Steuerberater
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## § 57 StBerG — Gewissenhafte Berufsausübung
 
 § 57 Abs. 1 StBerG verpflichtet Steuerberater zu Unabhängigkeit, Gewissenhaftigkeit, Verschwiegenheit und einem Verhalten, das dem Vertrauen in den Berufsstand entspricht. In der Korrespondenz bedeutet dies: sachliche Kommunikation mit Mandanten, Finanzbehörden und Kollegen; keine Äußerungen, die das Ansehen des Berufsstands schädigen könnten; Trennung von persönlicher Meinung und beruflicher Stellungnahme.
@@ -65,6 +62,4 @@ Einschlägige Normen: § 57 StBerG (Allgemeine Berufspflichten), § 57a StBerG (
 **Vorher:** "Das habe ich Ihnen doch schon hundertmal erklärt!"
 **Nachher:** "Wie bereits in meinem Schreiben vom TT.MM.JJJJ dargelegt, gilt folgendes..."
 
-## Ausgabeformat
-
-Der Skill gibt aus: (1) Analyse des Textes auf steuerberaterliche Berufspflichten. (2) Identifizierte Risikostellen. (3) Konforme Alternativformulierung. (4) Einschlägige StBerG/BOStB-Norm.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

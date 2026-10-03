@@ -1,0 +1,128 @@
+---
+name: routine-quartalsabschluss-prozess
+title: Quartalsabschluss-Prozess
+description: 'Für Quartalsabschluss-Prozess: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/routine-quartalsabschluss-prozess
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Quartalsabschluss-Prozess
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, §§ 238, § 18 UStG.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Kernsachverhalt
+
+Der Quartalsabschluss ist ein vertiefter Monatsabschluss: ueblicherweise mit vollstaendigeren Periodenabgrenzungen, Quartals-BWA, Bilanzentwurf-Vorlauf, Quartalsgespraech mit dem Mandanten. Standard für Mittelstand und groessere KMU. Bei Konzern-Mandanten Pflicht (Konsolidierungs-Anforderung).
+
+## Kaltstart-Rueckfragen
+
+1. Welche Mandantengroesse — Quartalsabschluss Standard oder ausnahmsweise?
+2. Welche Periodenabgrenzung-Tiefe (Bestand, RAP, Rueckstellungen)?
+3. Liegt Inventur vor (Quartals-Zwischeninventur)?
+4. Welche Konsolidierungs-Anforderung Konzern?
+5. Welche Bank- oder Investor-Reporting?
+6. Welches Quartals-Gespraech (Termin, Teilnehmer)?
+7. Welche Steuerthemen anstehend (Vorauszahlungs-Anpassung)?
+8. Welche Sondervorgaenge (Anlagenkauf, Personalveraenderung)?
+
+## Rechtlicher Rahmen
+
+### Primaernormen
+
+**§§ 238, 252 HGB** — Buchfuehrungs- und Bewertungsgrundsaetze.
+
+**§ 18 UStG** — USt-VA (vierteljaehrlich möglich bei kleineren Mandanten).
+
+**§ 33 StBerG** — StB-Aufgabenkreis.
+
+## Workflow
+
+### Phase 1 — Quartals-Plan
+
+```
+WOCHE 1-2 NACH QUARTALSENDE: BELEGE UND BUCHUNG
+- Letzte Belege Quartal komplett
+- Buchung abschliessen
+- OPOS-Pflege
+
+WOCHE 3: PERIODENABGRENZUNG VERTIEFT
+- Bestandsfortschreibung (Schaetzung bei Industrie)
+- Rueckstellungen quartalsweise
+- AfA aktualisieren
+- Bestandsveraenderungen erfassen
+
+WOCHE 4: ABSTIMMUNG UND BWA
+- Hauptbuch-Nebenbuch
+- Anlagen-Konten
+- USt-Quartals-VA
+- BWA mit Vorjahresvergleich kumuliert
+
+WOCHE 5: REPORTING UND GESPRAECH
+- Quartalsbericht
+- Mandantengespraech
+- Strategiethemen
+```
+
+### Phase 2 — Quartals-BWA-Inhalte
+
+- Kumulierter Jahresblock seit Jahresbeginn.
+- Vorjahresvergleich Quartal.
+- Plan-Ist-Vergleich.
+- Kennzahlen aktualisiert.
+
+### Phase 3 — Quartalsgespraech
+
+- 1-2 Stunden mit GF.
+- Standard-Agenda (siehe stb-mandantenkommunikation-bwa-uebergabe-quartal).
+- Dokumentation.
+
+### Phase 4 — Steuerthemen
+
+- USt-Voranmeldung quartalsweise.
+- Steuervorauszahlungen anpassen (Antrag § 37 EStG).
+- Investitionsabzugsbetrag § 7g EStG.
+- Sonderabschreibung prüfen.
+
+### Phase 5 — Sonderfall Konzern
+
+- Konsolidierungs-Daten an Mutter.
+- IFRS-Reporting separat möglich.
+- Konzernbericht zeitnah.
+
+### Phase 6 — Wiedervorlage Folgequartal
+
+- Naechster Termin im Kalender.
+- Maßnahmen-Liste aus Gespraech.
+- Strategie-Themen kontrollieren.
+
+## Strategie und Praxis-Tipps
+
+- Bei A-Mandanten Quartalsabschluss Standard, nicht nur Monatsabschluss.
+- Quartal-Periodenabgrenzung tiefer als Monat (Bestand-Schaetzung sorgfaeltiger).
+- Bei Konzern-Mandanten Termincontrolling kritisch (Konzern-Frist meist eng).
+- StBVV: Quartalsabschluss als gesonderter Auftrag oder in Pauschalvereinbarung.
+- DATEV-Tipp: DATEV Quartals-BWA mit kumuliertem Vergleich.
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- HGB §§ 238, 252.
+- UStG § 18.
+- StBerG § 33.
+- EStG § 37.

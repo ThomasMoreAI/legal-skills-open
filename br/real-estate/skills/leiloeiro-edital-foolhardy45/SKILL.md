@@ -5,12 +5,19 @@ description: Analise e auditoria de editais de leilao judicial e extrajudicial. 
 author: foolhardy45
 author_url: https://github.com/foolhardy45/portfolio/tree/master/.claude/skills/leiloeiro-edital
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: real-estate
 language: pt
-tags: [auction, legal-analysis, risk, brazilian]
+tags:
+- auction
+- legal-analysis
+- risk
+- brazilian
+sources:
+- title: Fontes
+  path: references/fontes.md
 ---
 
 # SKILL DE EDITAL — ANÁLISE PERICIAL DE EDITAIS DE LEILÃO

@@ -1,16 +1,22 @@
 ---
 name: fachanwalt-gewerblicher-rechtsschutz-markenanmeldung
-title: Mandantenfragen beim Kaltstart
-description: 'Markenanmeldung beim DPMA oder EUIPO vorbereiten und stratgisch gestalten. §§ 3 7 8 9 MarkenG Schutzvoraussetzungen Art. 4 7 EUTMR. Prüfraster: Markenfähigkeit absolute Schutzhindernisse Waren- und Dienstleistungsverzeichnis Klassen Strategie. Output: Anmeldungsunterlagen Klasseneinteilung Strateiegempfehlung. Abgrenzung: nicht für Markenrechtsverletzungen (§ 14 MarkenG).'
+title: Markenanmeldungen mit Schutzgebiets- und Warenverzeichnisprüfung vorbereiten
+description: 'Für Fachanwalt Gewerblicher Rechtsschutz Markenanmeldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-gewerblicher-rechtsschutz/skills/fachanwalt-gewerblicher-rechtsschutz-markenanmeldung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
 language: de
 ---
+
+# Markenanmeldungen mit Schutzgebiets- und Warenverzeichnisprüfung vorbereiten
+
+Lies zuerst die konkrete Zeichendarstellung, Produkt- und Dienstleistungsbeschreibung, vorhandene Rechercheergebnisse und frühere Anmeldeunterlagen. Erstelle eine begründete Anmeldeempfehlung mit Schutzgebiet, Kollisionsprüfpunkten und konkret gefasstem Waren- und Dienstleistungsverzeichnis. Bereite bei entsprechendem Auftrag die Anmeldedaten und Anlagen vor; offene Recherche, Gebührenprüfung und Freigabe bleiben ausdrücklich sichtbar.
+
+Vorrang für die Bearbeitung: Alle nachfolgenden Mandanten-, Triage- und Versandfragen sind interne Prüfpunkte, kein Fragekatalog. Werte zuerst das vorhandene Material aus; frage nur nach noch fehlenden, entscheidenden Angaben. Bereits Beantwortetes nicht erneut erheben. Erstelle den möglichen Entwurf mit klar markierten Lücken; fehlende entscheidende Angaben nicht durch Annahmen ersetzen.
 
 ## Mandantenfragen beim Kaltstart
 
@@ -51,7 +57,6 @@ language: de
 
 | Gericht | Aktenzeichen | Datum | Kernaussage |
 |---------|-------------|-------|-------------|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema Markenanmeldung
 
@@ -66,7 +71,6 @@ language: de
 | 4 | Üblichkeit? | § 8 Abs. 2 Nr. 3 MarkenG | Zurückweisung bei Gattungsbezeichnungen |
 | 5 | Weitere absolute Hindernisse (Hoheitszeichen, Sittenverstoß, Täuschung)? | § 8 Abs. 2 Nr. 4–10 MarkenG | Zurückweisung |
 | 6 | Ähnlichkeitsrecherche: ältere identische oder ähnliche Zeichen? | § 9 MarkenG | Widerspruch möglich nach Eintragung |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 8 | Priorität aus Voranmeldung nutzbar? | § 34 MarkenG; PVÜ Art. 4 | Prioritätsfrist 6 Monate prüfen |
 | 9 | Schutzumfang (national/EU/international) festlegen | UMV 2017/1001; Madrider Protokoll | Kostenkalkulation je Schutzgebiet |
 | 10 | Benutzungsbereitschaft realistisch? | § 25 MarkenG | Einrede Nichtbenutzung nach 5 Jahren |
@@ -117,7 +121,6 @@ Klasse [Nr.]: [Konkrete Aufzählung der Waren, z. B. "Bekleidungsstücke,
 nämlich T-Shirts, Hemden und Hosen; Schuhwaren; Kopfbedeckungen"]
 Klasse [Nr.]: [Konkrete Aufzählung der Dienstleistungen]
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Priorität:
 [ ] Keine
@@ -243,7 +246,6 @@ W 3: Benutzungsnachweise (Kataloge, Rechnungen, Umsatzzahlen)
 | "Fehlende Unterscheidungskraft" | DPMA | Benutzungsnachweis vor Anmeldung (Verkehrsgeltung); Beschwerde BPatG § 66 MarkenG |
 | "Verwechslungsgefahr mit älterer Marke" | Widerspruch | Klanglich/schriftbildlich/begrifflich differenzieren; geringe Ähnlichkeit der Waren beantragen; ältere Marke auf Benutzungszwang prüfen (§ 25 MarkenG) |
 | "Ältere Marke nicht benutzt" | Markeninhaber gegen Angreifer | Einrede Nichtbenutzung § 25 MarkenG nach 5 Jahren; Benutzungsnachweise anfordern |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Internationale Registrierung abgelaufen" | Markeninhaber | Verlängerung beim WIPO Central Attack nicht rechtzeitig; abhängige Marke verlischt ohne Basismarke |
 
 ## Streitwert und Kosten
@@ -299,8 +301,4 @@ Bevor die Anmeldestrategie festgelegt wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

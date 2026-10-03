@@ -9,6 +9,7 @@
   "practice": "personal-injury",
   "language": "en",
   "skills": [
+    "skills/architecture-decision-records",
     "skills/auth-packet-summary",
     "skills/case-viability-report",
     "skills/complaint-for-negligence",
@@ -22,6 +23,7 @@
     "skills/ime-report-summary",
     "skills/interrogatories-to-defendant",
     "skills/law-firm-wiki-compiler",
+    "skills/lawyer-inc-architecture",
     "skills/legal-letter",
     "skills/lien-resolution-summary",
     "skills/med-mal-summary",

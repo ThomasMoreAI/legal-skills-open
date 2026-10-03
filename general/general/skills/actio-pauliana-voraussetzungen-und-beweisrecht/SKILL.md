@@ -1,0 +1,59 @@
+---
+name: actio-pauliana-voraussetzungen-und-beweisrecht
+title: Rom 116 Actio Pauliana Voraussetzungen Und Beweisrecht
+description: 'Für Rom 116 Actio Pauliana Voraussetzungen und Beweisrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und Substantiierungsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/roemisches-recht/skills/actio-pauliana-voraussetzungen-und-beweisrecht
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: general
+practice: general
+language: de
+---
+
+# Rom 116 Actio Pauliana Voraussetzungen Und Beweisrecht
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: historisch — usucapio (Ersitzung) 1/2 Jahre Mobilia/Immobilia, praescriptio longi temporis, longissimi temporis; heute über § 195 BGB / § 937 BGB.
+- Tragende Normen verifizieren: Corpus Iuris Civilis (Institutionen, Digesten, Codex, Novellen), Zwölftafelgesetz, Lex Aquilia, Lex Iulia et Papia, römisches Personen-, Sachen-, Obligationen-, Familien- und Erbrecht; dogmenhistorisch fortwirkend in BGB §§ 90 ff. (Sachen), 433 ff., 812 ff., 854 ff. — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Wissenschaftliche Rezipienten, Lehrstühle für Bürgerliches Recht/Rechtsgeschichte, Gesetzgeber (historisches Argumentum), Rechtsprechung (Auslegungshilfe).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lehrbuchexegese, Quellenkritik (Digesten-Stelle), historisch-rechtsvergleichendes Gutachten, dogmatische Aufsatz, Klausur (Pandektistik) — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Beweislast
+
+- Gläubiger traegt die Beweislast für:
+ - eventus damni
+ - consilium fraudis des Schuldners
+ - scientia oder conscientia des Dritten (bei entgeltlich)
+
+## Indizienbeweis
+
+- Verkauf zu marktnotorisch zu niedrigem Preis: Indiz für scientia.
+- Verkauf unter Freunden in zeitlicher Naehe zur Insolvenz.
+- Verschwiegene Geschäfte über Mittelsmaenner.
+
+## Vermutungen
+
+- Bei Verfuegungen an Familienangehoerige greifen verstaerkte Indizien (vergleichbar modernen AnfG-Vorschriften zu nahestehenden Personen).
+- D. 42.8.10.16 (Ulpian) zum Anscheinsbeweis bei Schenkung an Verwandte.
+
+## Sondervorschriften
+
+- Verschleierung waehrend laufender Vollstreckung: erleichterte Beweisfuehrung.
+- Geschäftspartner als Reflexbeteiligter.
+
+## Vergleich zu modernem Recht
+
+- Beweisrecht / Pflicht zum substanziierten Bestreiten: § 138 Abs. 2 ZPO; freie Beweiswuerdigung § 286 ZPO. (Die fruehere Erwaehnung von § 133 und § 138 II BGB war hier falsch: § 133 BGB ist Auslegung der Willenserklaerung, § 138 II BGB ist Wucher — nicht Beweisrecht.)
+- Anfechtungsrecht: AnfG § 3 Abs. 2: Vermutung der scientia bei nahestehenden Personen.
+- Insolvenzanfechtung: InsO § 133 Abs. 1 Satz 2: Vermutung der Kenntnis bei drohender Zahlungsunfaehigkeit.
+
+## Prüfraster
+
+1. Welche Tatbestaende müssen bewiesen werden?
+2. Welche Indizien stehen zur Verfuegung?
+3. Greifen Vermutungen?
+4. Welcher Quellenanker (D. 42.8)?

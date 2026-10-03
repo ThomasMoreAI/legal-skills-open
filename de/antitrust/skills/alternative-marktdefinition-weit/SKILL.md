@@ -1,11 +1,11 @@
 ---
 name: alternative-marktdefinition-weit
 title: Alternative Marktdefinition — Weiter
-description: 'Mandant will eine weitere Marktabgrenzung argumentieren um niedrigere Marktanteile zu zeigen oder Behoerden-Markt anzugreifen. Generiert weitere alternative Marktdefinition mit juristischer und oekonomischer Begründung. Normen § 18 GWB Art. 102 AEUV EU-Bekanntmachung Marktdefinition 2024. Prüfraster einzuschließende Produkte Regionen Supply-Side-Faktoren Nachfragesubstitution. Auswirkung auf Marktanteil und Widerlegung Marktbeherrschungsvermutung. Output Argumentationsmemo mit Begründung und Angreifbarkeits-Analyse. Abgrenzung: alternative-marktdefinition-eng für engere Abgrenzung.'
+description: 'Für Alternative Marktdefinition — Weiter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/alternative-marktdefinition-weit
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: antitrust
@@ -14,12 +14,18 @@ language: de
 
 # Alternative Marktdefinition — Weiter
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill generiert eine systematisch weitere alternative Marktdefinition. Anwendungsfälle:
-- Fusionskontrolle: Verringerung des kombinierten Marktanteils durch breitere Definition.
-- Missbrauchsabwehr: Entkräftung der Marktbeherrschungsvorwürfe durch breiteren Markt.
-- Eigenes Team: Stress-Test zur Stärkung der eigenen Position.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FKVO Art. 4 Anmeldepflicht vor Vollzug, GWB § 40 1-Monats-Frist Phase I / 4 Monate Phase II, Bagatellschwellen § 35 GWB (50/17,5 Mio. EUR).
+- Tragende Normen verifizieren: GWB §§ 18, 19, 20, 35, 36, 39, AEUV Art. 101, 102, FKVO (VO 139/2004), Bekanntmachung Kommission Marktabgrenzung 2024 (C/2024/1645), Leitlinien horizontale/vertikale Zusammenarbeit, HMG-Index — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Bundeskartellamt, EU-KOM (DG COMP), Anmelder, Wettbewerber, OLG Düsseldorf (Kartellsenat), EuG, EuGH.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zusammenschlussanmeldung Form CO, Marktabgrenzungsanalyse, SSNIP-Test, HMG-Berechnung, Critical-Loss-Analyse, Datenanalyse (PoS/Scanner), Marktbefragung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Alternative Marktdefinition — Weiter
+- **Normen-/Quellenanker:** Art. 101/102 AEUV, VO 1/2003, FKVO, GWB, Vertikal-GVO, DMA/DSA-Schnittstellen, private damages und Behördenpraxis.
+- **Entscheidende Weiche:** Markt, Verhalten, Beteiligte, Schwelle, Effekt, Effizienzrechtfertigung, Verfahren, Dawn Raid/Leniency und Schadensersatz getrennt ordnen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
 
 ## Vorgehensweise
 
@@ -42,7 +48,6 @@ Kriterien für den Einschluss:
 
 Referenz auf Rechtsprechung, die breitere Definitionen stützt:
 - EU-Bekanntmachung 2024, Rn. 28 ff.: Supply-Side Substitution als Marktabgrenzungsinstrument.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Praxis der Kommission: Fusionsfälle, in denen Markt breit definiert wurde.
 
 ### Schritt 4: Ökonomische Begründung
@@ -69,13 +74,8 @@ Auswirkung auf Verfahrensergebnis: [...]
 
 ## Leitentscheidungen Weitere Marktdefinition
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- EK, Beschl. v. 04.09.2019 — COMP/M.9064 (Google/Fitbit) — Weiter Markt Wearables; Substitution zwischen Smart-Watch und Fitness-Band trotz Unterschiede moeglich.
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- EK, Beschl. v. 04.09.2019 — COMP/M.9064 (Google/Fitbit) — Weiter Markt Wearables; Substitution zwischen Smart-Watch und Fitness-Band trotz Unterschiede möglich.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Standardformulierung für Schriftsatz
 
 > "Bezieht man — dem Verständnis der Nachfrager entsprechend — auch [Produkt X] in den relevanten Markt ein, weil [Begründung], reduziert sich der Marktanteil auf [Y%]. Die Marktbeherrschungsvermutung des § 18 Abs. 4 GWB wäre dann nicht erfüllt."
@@ -85,3 +85,5 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 Wenn nationale Marktdefinition angegriffen werden soll:
 - EWR-weiter Markt: Importquote analysieren, Preiskonvergenz nachweisen.
 - Globaler Markt: Globale Anbieter und Handelsströme dokumentieren.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

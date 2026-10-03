@@ -9,7 +9,7 @@
   "practice": "real-estate",
   "language": "en",
   "skills": [
-    "skills/land-title-verifier",
-    "skills/land-title-verifier-wutsi"
+    "skills/land-title-verifier-wutsi",
+    "skills/no-header"
   ]
 }

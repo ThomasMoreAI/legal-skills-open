@@ -5,11 +5,11 @@ description: 'Use when a user is preparing for the UAE legal profession qualific
 author: sboghossian
 author_url: https://github.com/sboghossian/mini-claude-for-legal/tree/main/skills/justinian/justinian-bar-exam-prep-uae
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ae
 practice: general
-language: ar
+language: en
 ---
 
 # Justinian — UAE Bar Exam Prep

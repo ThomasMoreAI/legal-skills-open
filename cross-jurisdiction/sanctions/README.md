@@ -8,9 +8,9 @@ Jurisdiction: `cross-jurisdiction` · Practice: `sanctions` · Skill language va
 
 | Skill | What it does |
 |---|---|
-| [`Sanktionen, Embargos und Bereitstellungsverbote`](skills/aussenwirtschaft-sanktionen-embargos/) | Prüfung von Laenderembargos personenbezogenen Sanktionen und Umgehungsrisiken im Aussenhandel. Anwendungsfall… |
-| [`New Designation Screening Test Generator`](skills/new-designation-screening-test-amir-fadavi/) | Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists plus… |
-| [`Mandantenfragen beim Kaltstart`](skills/sanktions-compliance-pruefung/) | Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste,… |
+| [`EU-Sanktionen und Embargos: Triage und Sanktionslage-Übersicht`](skills/aussenwirtschaft-sanktionen-embargos/) | Für EU-Sanktionen und Embargos: Triage und Sanktionslage-Übersicht: ordnet Norm, Beweislast und… |
+| [`New Designation Screening Test Generator`](skills/new-designation-screening-test-amir-fadavi/) | Generate a spreadsheet of test entries — newly designated names from OFAC, OFSI, and EU sanctions lists… |
+| [`Sanktions-Compliance: EU-Sanktionen (VO 269/2014 und 833/2014 Russland-Paket 1–14), US-OFAC SDN-Liste, UK-HMT/OFSI, UN-S`](skills/sanktions-compliance-pruefung/) | Für Sanktions Compliance Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 
 ## Cold-start context
 

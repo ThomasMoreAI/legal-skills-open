@@ -1,11 +1,11 @@
 ---
 name: entfristung-output-warnschriftsatz-laie
 title: 'Ausgabe: Vollständige Klageschrift Entfristungsklage mit Pflicht-Disclaimer (Laie)'
-description: Vollständige Klageschrift Entfristungsklage mit Pflicht-Disclaimer für Laien; Zusammenführung aller Bausteine; Ausfuellanleitung; Einreichungshinweise; Dreiwochenfrist-Warnblock prominent am Anfang.
+description: 'Für Ausgabe: Vollständige Klageschrift Entfristungsklage mit Pflicht-Disclaimer (Laie): erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/entfristung-output-warnschriftsatz-laie
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
@@ -14,17 +14,19 @@ language: de
 
 # Ausgabe: Vollständige Klageschrift Entfristungsklage mit Pflicht-Disclaimer (Laie)
 
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Ausgabe: Vollständige Klageschrift Entfristungsklage mit Pflicht-Disclaimer (Laie)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
 ## Zentrale Normen
 
-- § 17 TzBfG — Klagefrist 3 Wochen ab vereinbartem Vertragsende
-- §§ 14 Abs. 4, 16 Satz 1 TzBfG — Schriftformerfordernis und Unbefristetheit als Rechtsfolge
-- § 7 KSchG (analog) — Fiktionswirkung bei Fristversäumnis
-- § 11 Abs. 1 ArbGG — kein Anwaltszwang in 1. Instanz
-- § 42 Abs. 2 GKG — Streitwert (3 Monatsverdienste)
-
-## Rechtsprechungshinweise
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Paragraf 17 TzBfG — Klagefrist 3 Wochen ab vereinbartem Vertragsende
+- Paragrafen 14 Abs. 4, 16 Satz 1 TzBfG — Schriftformerfordernis und Unbefristetheit als Rechtsfolge
+- Paragraf 7 KSchG (analog) — Fiktionswirkung bei Fristversäumnis
+- Paragraf 11 Abs. 1 ArbGG — kein Anwaltszwang in 1. Instanz
+- Paragraf 42 Abs. 2 GKG — Streitwert (3 Monatsverdienste)
 
 ## Vollständige Klageschrift
 
@@ -32,7 +34,7 @@ language: de
 
 **⚠ WICHTIGE WARNUNG — VOR EINREICHUNG LESEN ⚠**
 
-**DREIWOCHENFRIST § 17 TzBfG:** Klage muss innerhalb von **drei Wochen nach dem vereinbarten Vertragsende** beim Arbeitsgericht eingehen. Diese Frist ist eine absolute Ausschlussfrist — sie kann nicht verlängert werden. Versäumung führt zur Wirksamkeit der Befristung (§ 7 KSchG analog).
+**DREIWOCHENFRIST Paragraf 17 TzBfG:** Klage muss innerhalb von **drei Wochen nach dem vereinbarten Vertragsende** beim Arbeitsgericht eingehen. Diese Frist ist eine absolute Ausschlussfrist — sie kann nicht verlängert werden. Versäumung führt zur Wirksamkeit der Befristung (Paragraf 7 KSchG analog).
 
 **Du könntest auf der falschen Wiese unterwegs sein.** Möglicherweise liegt kein Schriftformmangel vor, oder dein Sachverhalt erfüllt andere Voraussetzungen für eine wirksame Befristung. Dieses System kann das nicht abschließend prüfen.
 
@@ -62,7 +64,7 @@ gegen
 
 — Beklagte/r —
 
-**Streitwert:** Vorläufig [3 × MONATSLOHN] EUR (§ 42 Abs. 2 GKG)
+**Streitwert:** Vorläufig [3 × MONATSLOHN] EUR (Paragraf 42 Abs. 2 GKG)
 
 ---
 
@@ -70,7 +72,7 @@ gegen
 
 Ich beantrage:
 
-1. Es wird festgestellt, dass das Arbeitsverhältnis der Parteien nicht durch die Befristung im Arbeitsvertrag vom [VERTRAGSDAT UM] zum [VEREINBARTES VERTRAGSENDE] beendet worden ist, sondern als unbefristetes Arbeitsverhältnis über diesen Zeitpunkt hinaus fortbesteht (§§ 17, 16 Satz 1 TzBfG).
+1. Es wird festgestellt, dass das Arbeitsverhältnis der Parteien nicht durch die Befristung im Arbeitsvertrag vom [VERTRAGSDAT UM] zum [VEREINBARTES VERTRAGSENDE] beendet worden ist, sondern als unbefristetes Arbeitsverhältnis über diesen Zeitpunkt hinaus fortbesteht (Paragrafen 17, 16 Satz 1 TzBfG).
 
 2. Die Beklagte wird verurteilt, mich als [BERUFSBEZEICHNUNG] zu den bisherigen Arbeitsbedingungen weiterzubeschäftigen.
 
@@ -91,17 +93,17 @@ Der Arbeitsvertrag vom [VERTRAGSDAT UM] enthält eine Befristung bis zum [VEREIN
 [HIER BEGRÜNDUNG — EINEN ODER MEHRERE BAUSTEINE WÄHLEN:]
 
 **Baustein A — Schriftformmangel:**
-Die Befristungsabrede ist formunwirksam nach § 14 Abs. 4 TzBfG, weil weder ein eigenhändig unterschriebenes Originaldokument noch eine qualifizierte elektronische Signatur nach § 126a BGB vorliegt. Der Vertrag wurde [BESCHREIBUNG — z.B.: per E-Mail mit eingescannter Unterschrift versandt / über ein Portal nur einfach signiert]. Gemäß § 16 Satz 1 TzBfG gilt der Vertrag daher als auf unbestimmte Zeit geschlossen.
+Die Befristungsabrede ist formunwirksam nach Paragraf 14 Abs. 4 TzBfG, weil weder ein eigenhändig unterschriebenes Originaldokument noch eine qualifizierte elektronische Signatur nach Paragraf 126a BGB vorliegt. Der Vertrag wurde [BESCHREIBUNG — z.B.: per E-Mail mit eingescannter Unterschrift versandt / über ein Portal nur einfach signiert]. Gemäß Paragraf 16 Satz 1 TzBfG gilt der Vertrag daher als auf unbestimmte Zeit geschlossen.
 
 **Baustein B — Fehlender Sachgrund:**
-Ein Sachgrund nach § 14 Abs. 1 TzBfG liegt nicht vor. [BEGRÜNDEN WARUM KEIN SACHGRUND].
+Ein Sachgrund nach Paragraf 14 Abs. 1 TzBfG liegt nicht vor. [BEGRÜNDEN WARUM KEIN SACHGRUND].
 
 **Baustein C — Vorbeschäftigungsverbot:**
-Ich war bereits zuvor bei der Beklagten beschäftigt ([ZEITRAUM]), sodass die sachgrundlose Befristung nach § 14 Abs. 2 Satz 2 TzBfG unzulässig ist.
+Ich war bereits zuvor bei der Beklagten beschäftigt ([ZEITRAUM]), sodass die sachgrundlose Befristung nach Paragraf 14 Abs. 2 Satz 2 TzBfG unzulässig ist.
 
 **IV. Frist**
 
-Die Klage wird fristgerecht innerhalb von drei Wochen nach dem vereinbarten Vertragsende erhoben (§ 17 Satz 1 TzBfG). Das vereinbarte Ende des Vertrags ist der [DATUM]. Die Klage geht dem Gericht spätestens am [FRISTABLAUF] zu.
+Die Klage wird fristgerecht innerhalb von drei Wochen nach dem vereinbarten Vertragsende erhoben (Paragraf 17 Satz 1 TzBfG). Das vereinbarte Ende des Vertrags ist der [DATUM]. Die Klage geht dem Gericht spätestens am [FRISTABLAUF] zu.
 
 **V. Beweisangebote**
 
@@ -132,3 +134,5 @@ ____________________________
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

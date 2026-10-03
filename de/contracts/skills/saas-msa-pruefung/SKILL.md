@@ -1,11 +1,11 @@
 ---
 name: saas-msa-pruefung
 title: SaaS-/MSA-Prüfung
-description: Prüfung von SaaS-Abonnement- und Rahmenverträgen (MSA) mit Schwerpunkt auf AGB-Kontrolle (§§ 305–310 BGB), automatischer Verlängerung, Preiseskalation, Datenschutz (Art. 28 DSGVO), Haftungsbegrenzung und Vertragsstrafe (§ 339 BGB). Wird von /vertragsrecht:vertragsprüfung geladen, wenn ein SaaS- oder Abonnementvertrag erkannt wird.
+description: 'Für SaaS-/MSA-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsrecht/skills/saas-msa-pruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -14,9 +14,16 @@ language: de
 
 # SaaS-/MSA-Prüfung
 
-## Zweck
+## Arbeitsbereich
 
-SaaS-Verträge haben ein anderes Risikoprofil als einmalige Lieferantenverträge. Die Kosten akkumulieren über Verlängerungen, die Daten häufen sich an, und die Wechselkosten wachsen monatlich. Dieser Skill prüft unter Berücksichtigung dieser Besonderheiten. Er führt die Standard-Playbook-Prüfung aus `~/.claude/plugins/config/claude-fuer-deutsches-recht/vertragsrecht/CLAUDE.md` durch und ergänzt sie um einen SaaS-spezifischen Prüfaufschlag für die Punkte, die bei Abonnementverträgen besonders gefährlich sind.
+Prüfung von SaaS-Abonnement- und Rahmenverträgen (MSA) mit Schwerpunkt auf AGB-Kontrolle (§§ 305–310 BGB), automatischer Verlängerung, Preiseskalation, Datenschutz (Art. 28 DSGVO), Haftungsbegrenzung und Vertragsstrafe (§ 339 BGB). Wird von /vertragsrecht:vertragsprüfung geladen, wenn ein SaaS- oder Abonnementvertrag erkannt wird. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -45,7 +52,6 @@ AGB-Kontrolle nach §§ 305–310 BGB:
 - Einbeziehungsvoraussetzungen (§ 305 Abs. 2 BGB) prüfen
 - Überraschende Klauseln (§ 305c BGB)
 - Transparenzgebot (§ 307 Abs. 1 S. 2 BGB)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Bei B2B: § 310 Abs. 1 BGB – eingeschränkte Kontrolle, aber § 307 BGB gilt
 
 ### Schritt 2: Standard-Playbook-Prüfung
@@ -81,7 +87,6 @@ Prüfen und mit CLAUDE.md vergleichen:
 | Überverbrauch-Preise | Veröffentlichte Preisliste / Prämienrate / undefiniert |
 | Umfang "Vergütung" | nur Abonnement / "Zusatzleistungen" weit definiert |
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 #### 3.3 Datenportabilität und Exit
 
@@ -139,25 +144,7 @@ Falls Vertragsstrafe (z. B. bei SLA-Verstößen oder Datenschutzverstößen) ver
 - Verhältnis zur Haftungsklausel: Ist die Vertragsstrafe auf den Haftungsdeckel angerechnet?
 - Kumulationsproblem: Mehrere Vertragsstrafen-Tatbestände?
 
-## Ausgabeformat
-
-Memo mit folgendem Aufbau:
-
 ```markdown
-VERTRAULICH – ANWALTLICHES ARBEITSERGEBNIS (§ 43a II BRAO)
-
-⚠️ Prüfer-Hinweis
-[Quellen, gelesene Seiten, gekennzeichnete Punkte, Aktualitätsprüfung]
-
-# SaaS-/MSA-Prüfung: [Anbieter] – [Vertragsbezeichnung]
-
-**Seite:** [Käufer / Verkäufer]
-**Jahreswert (ACV):** [Betrag / nicht angegeben – bitte nennen für Eskalationsrouting]
-**Laufzeit:** [Dauer, Verlängerung]
-**AVV:** [beigefügt / per URL referenziert / fehlt]
-
----
-
 ## Zusammenfassung
 
 [3–5 Sätze: Was ist das Wichtigste, was muss der Anwalt wissen?]
@@ -190,7 +177,7 @@ VERTRAULICH – ANWALTLICHES ARBEITSERGEBNIS (§ 43a II BRAO)
 
 ## Empfohlene Redlines
 
-[Konkrete Klausel-Formulierungsvorschläge, chirurgisch und minimal]
+[Konkrete Klausel-Formulierungsvorschläge mit gezielten, möglichst kleinen Änderungen]
 
 ---
 
@@ -204,10 +191,8 @@ Zitierweise nach `../references/zitierweise.md`.
 
 Normen und Rspr.:
 - §§ 305–310 BGB – AGB-Recht
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 309 Nr. 7 BGB – Haftungsausschlussverbote
 - § 309 Nr. 9 BGB – Vertragslaufzeit
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Art. 28 DSGVO – AVV; Art. 82 DSGVO – Datenschutz-Schadensersatz
 - § 339 BGB – Vertragsstrafe; § 343 BGB – Herabsetzung
 
@@ -222,3 +207,5 @@ Kommentare:
 - **Credit-als-einzige-Abhilfe + Null-Haftung:** Wechselwirkung ergibt de-facto-Haftungsausschluss; im B2C regelmäßig unwirksam nach § 307 BGB.
 - **CISG-Abwahl vergessen:** Falls der SaaS-Anbieter im Ausland sitzt, CISG ausschließen.
 - **Berufsrechtlicher Hinweis:** § 43a Abs. 2 BRAO, § 203 StGB bei jeder Weitergabe beachten.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

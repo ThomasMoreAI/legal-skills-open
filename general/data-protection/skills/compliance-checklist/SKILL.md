@@ -5,7 +5,7 @@ description: Generate a prioritised compliance checklist for GDPR, SOC 2, ISO 27
 author: mohitagw15856
 author_url: https://github.com/mohitagw15856/pm-claude-skills/tree/main/plugins/pm-legal/skills/compliance-checklist
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -107,6 +107,14 @@ Once certified/compliant, what needs to continue:
 - [ ] Priorities align with organisation size and maturity
 - [ ] Quick wins clearly separated from complex implementations
 - [ ] Evidence requirements tied to specific controls
+
+## Anti-Patterns
+
+- [ ] Do not omit the legal disclaimer — this checklist does not constitute compliance advice and must never be presented as a substitute for qualified professional review
+- [ ] Do not generate a generic checklist that is not tailored to the stated framework, organisation type, and maturity level — a SOC 2 checklist for a startup and an enterprise are fundamentally different documents
+- [ ] Do not list controls without specifying what evidence is required — a control without evidence requirements cannot be audited
+- [ ] Do not mark a control as "full" implementation when it is partial — overestimating readiness leads to audit failures and regulatory risk
+- [ ] Do not skip the "common pitfalls" section — this is where organisations most frequently fail audits for the stated framework
 
 ## Example Trigger Phrases
 - "Create a GDPR compliance checklist for our SaaS"

@@ -1,11 +1,11 @@
 ---
 name: haendler-distributor-pflichten-art-24
 title: Händler-Pflichten (Distributor) — Art. 24 KI-VO
-description: 'Distributeur oder Grosshaendler von KI-Systemen fragt: Welche Sorgfaltspflichten habe ich beim Weitervertrieb von Hochrisiko-KI? Art. 24 KI-VO Haendler-Pflichten. Prüfraster: Plausibilitaetsprüfung CE-Kennzeichnung vorhanden EU-Konformitätserklärung vorhanden Lagerung und Transport risikofrei keine wesentliche Aenderung. Wann wird Haendler zum Anbieter oder Einführer Art. 25 KI-VO. Output: Checkliste Haendler-Sorgfaltspflichten. Abgrenzung zu einführer-importer-pflichten-art-23 (Import) und anbieter-werden-art-25 (Rollenwechsel).'
+description: 'Für Händler-Pflichten (Distributor) — Art. 24 europäischer Technikregulierungsrahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/haendler-distributor-pflichten-art-24
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Händler-Pflichten (Distributor) — Art. 24 KI-VO
-
-## Zweck
-
-Händler (distributor) sind alle Akteure in der Lieferkette, die ein Hochrisiko-KI-System bereitstellen, ohne Anbieter oder Einführer zu sein und ohne das System wesentlich zu verändern. Art. 24 KI-VO legt ihre Pflichten fest.
 
 ## Wer ist Händler?
 
@@ -84,28 +80,22 @@ Der Händler muss den Anbieter, den Einführer und die nationalen Behörden info
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
 - Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
 2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
 3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
 4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
+5. Ist die Maßnahme nach aktuellem Art. 113- und Digital-Omnibus-Zeitstrahl fristgerecht umgesetzt?
 
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
+## Output-Template — Prüfergebnis
+**Adressat:** Prüfer / Rechtsberater — Tonfall: strukturiert-rechtlich
 ```
 PRUEFERGEBNIS — HAENDLER DISTRIBUTOR PFLICHTEN ART 24
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
@@ -116,10 +106,12 @@ Gepruefte Norm(en): [Art. 24 Rn. 3]
 Ergebnis:
 [ ] Anforderung erfuellt
 [ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
+ 1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
 [ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
 
 Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

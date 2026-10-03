@@ -5,12 +5,20 @@ description: Use when users say "review this witness statement", "check this sta
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-witness-statement-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: litigation
 language: en
-tags: [witness-statements, cpr, evidence, england-and-wales, drafting]
+tags:
+- witness-statements
+- cpr
+- evidence
+- england-and-wales
+- drafting
+sources:
+- title: Witness review playbook
+  path: references/witness-review-playbook.md
 ---
 
 # uk-witness-statement-review

@@ -1,0 +1,65 @@
+---
+name: software-dokumentation-gui-api-schutz
+title: Dokumentation, GUI und API-Schutz
+description: 'Für Dokumentation, GUI und API-Schutz: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/softwarerecht-de-eu-us/skills/software-dokumentation-gui-api-schutz
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: tmt
+language: de
+---
+
+# Dokumentation, GUI und API-Schutz
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: UrhG §§ 69a-g, BGB §§ 433, 535, 535a, 651, EU-RL 2009/24, AGB-Recht, DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Dokumentation, GUI und API-Schutz
+- **Normen-/Quellenanker:** UrhG §§ 69a ff., BGB, AGB-Recht, DSGVO, TTDSG/TDDDG, Open-Source-Lizenzen, AI Act, Exportkontrolle, US Copyright/Work-for-Hire und Patent-/Trade-Secret-Schnittstellen.
+- **Entscheidende Weiche:** Trenne Code-Urheberschaft, Rechtekette, Lizenzmodell, SLA, Datenschutz, Security, Escrow, Open-Source-Compliance und internationale Rechteübertragung.
+
+## Rechts- und Quellenanker
+
+- UrhG §§ 2/4/69a
+- Directive 2009/24/EC
+- DSA/DMA bei Plattformen
+
+Aktuelle Fassungen, Behördenhinweise, Formulare, Guidance und Rechtsprechung vor konkreter Verwendung live prüfen. Keine Modellzitate als Beleg verwenden.
+
+## Intake-Fragen
+
+- Welche Elemente sind Code, Dokumentation, Datenbank, Design, Marke oder Geschäftsgeheimnis?
+- Ist die API-Funktion frei, aber konkrete Spezifikation oder Dokumentation geschützt?
+- Sind Screenshots, UX-Flows oder Icons gesondert lizenziert?
+- Welche Rechte fehlen in Developer-Portal, SDK oder Marketplace-Vertrag?
+
+## Workflow
+
+1. Sachverhalt in Rollen, Dokumente, Zeitachse und tatsächliche Durchführung zerlegen.
+2. Rechtsanker und zwingende Vorfragen live prüfen.
+3. Pro- und Contra-Indizien gewichten, nicht nur sammeln.
+4. Output als Memo, Matrix, Redline, Antragspaket oder Counsel-Briefing liefern.
+
+## Tiefencheck für die Akte
+
+- Welche Elemente sind Code, Dokumentation, Datenbank, Design, Marke oder Geschäftsgeheimnis?
+- Ist die API-Funktion frei, aber konkrete Spezifikation oder Dokumentation geschützt?
+- Sind Screenshots, UX-Flows oder Icons gesondert lizenziert?
+- Welche Rechte fehlen in Developer-Portal, SDK oder Marketplace-Vertrag?
+
+**Mindest-Output:** Asset-Schutzkarte mit Werkart, Rechteinhaber, Lizenz und Nutzungserlaubnis.
+
+## Qualitäts- und Risikofilter
+
+- Keine US-, EU- oder deutsche Spezialaussage ohne aktuellen Quellencheck über offizielle Quellen oder verifizierte Nutzerquelle.
+- Rechtekette, tatsächliche technische Architektur und Vertragstext immer gemeinsam prüfen; eines allein reicht bei Software fast nie.
+- Open Source, AI-Code, Freelancer und Drittland-/US-Bezug immer aktiv suchen, auch wenn die Anfrage nur nach Lizenzvertrag klingt.
+- Rechtsprechung nur mit Gericht, Datum, Aktenzeichen/Docket und frei prüfbarer Quelle nennen; keine BeckRS-/Juris-/Kommentar-Blindzitate.

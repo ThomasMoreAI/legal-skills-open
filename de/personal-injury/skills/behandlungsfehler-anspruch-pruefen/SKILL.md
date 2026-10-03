@@ -1,18 +1,35 @@
 ---
 name: behandlungsfehler-anspruch-pruefen
-title: Behandlungsfehler-Anspruch prüfen
-description: Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff. BGB iVm § 823 BGB. Behandlungsvertrag Aufklärungspflicht § 630e BGB Dokumentationspflicht § 630f BGB Beweislastregeln § 630h BGB grober Behandlungsfehler Beweislastumkehr voll beherrschbares Risiko Anfaengerstandard Schmerzensgeld § 253 BGB. Schlichtungsstelle Aerztekammer MDK-Gutachten. Verjährung drei Jahre § 195 BGB Hoechstfrist dreissig Jahre § 199 Abs. 2 BGB.
+title: Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff
+description: 'Für Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach Paragrafen 630a ff: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/behandlungsfehler-anspruch-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: personal-injury
 language: de
 ---
 
-# Behandlungsfehler-Anspruch prüfen
+# Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; BGB §§ 630a-h, MBO-Ä, GKV-Vorgaben, SGB V, PrüfvV, HeilberufsG der Länder; SGB V §§ 27, 39, 92, 109, 137, 295, 301, RisikoStruktAusglV, SGB IV, SGB X, SGG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Strukturierte Prüfung von Ansprüchen wegen Behandlungsfehler nach §§ 630a ff. BGB iVm § 823 BGB. Behandlungsvertrag Aufklärungspflicht § 630e BGB Dokumentationspflicht § 630f BGB Beweislastregeln § 630h BGB grober Behandlungsfehler Beweislastumkehr voll beherrschbares Risiko Anfaengerstandard Schmerzensgeld § 253 BGB. Schlichtungsstelle Aerztekammer MDK-Gutachten. Verjährung drei Jahre § 195 BGB Hoechstfrist dreissig Jahre § 199 Abs. 2 BGB.
+
+### Behandlungsfehler-Anspruch prüfen
+
+## Fachkern: Behandlungsfehler-Anspruch prüfen
+- **Normen-/Quellenanker:** BGB §§ 630a ff., SGB V, ärztliches Berufsrecht, GOÄ/EBM, MPDG/MDR, AMG, Krankenhausrecht, Vertragsarztrecht und Arzthaftungsprozess.
+- **Entscheidende Weiche:** Trenne Behandlungsfehler, Aufklärung, Dokumentation, Kausalität, Beweislast, Sozialleistungsbezug, Zulassung und Haftpflichtdeckung.
 
 ## Kaltstart-Rückfragen
 
@@ -24,7 +41,7 @@ language: de
 6. Besteht Rechtsschutzversicherung — Deckungsanfrage für Arzthaftungsmandat?
 7. Gibt es GKV — Regress-Interesse der Krankenkasse § 116 SGB X?
 8. Liegt strafrechtlicher Aspekt vor (Körperverletzung § 229 StGB fahrlässig, Tötung § 222 StGB)?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -79,19 +96,22 @@ Weitere Entscheidungen vor Ausgabe in dejure.org / openjur.de live verifizieren.
 | 11 | Mitverschulden | § 254 BGB | Compliance-Verletzung durch Patient? |
 | 12 | Verjährung | §§ 195, 199, 203, 204 BGB | Frist gewahrt? Hemmung? |
 
+### Nachtdienst und Organisationsfehler
+
+[BGH, Urteil vom 25.11.2025, VI ZR 51/24](https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Zivilsenate/VI_ZS/2024/VI_ZR__51-24.pdf?__blob=publicationFile&v=1), Rn. 11–18: Mangelhaften Nachtdienst als Organisations-/Behandlungsfehler prüfen, nicht als aufklärungspflichtiges Operationsrisiko. Dienstplan, Befähigung und Reaktionszeit sichern; Kausalität grundsätzlich beim Patienten, Beweiserleichterung nach Paragraf 630h Absatz 4/5 BGB gesondert. Kein Automatismus aus Organisationsmangel zu Gesamthaftung.
+
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Behandlungsfehler Anspruch pruefen | Haftungspruefung und Klage; Template unten |
+| Standard — Behandlungsfehler Anspruch prüfen | Haftungspruefung und Klage; Template unten |
 | Variante A — Mandant will aussergerichtliche Loesung | Gutachterkommission AEK einschalten; Skill aek-schlichtung |
 | Variante B — Unklare Faktenlage | Sachverstaendigenbeauftragung vor Klage; Kostenrisiko beachten |
-| Variante C — Versicherungsmandat der Gegenseite | Direktverhandlung mit Haftpflichtversicherer pruefen |
+| Variante C — Versicherungsmandat der Gegenseite | Direktverhandlung mit Haftpflichtversicherer prüfen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -120,7 +140,7 @@ dokumentation gemaess § 630g BGB zu uebersenden, insbesondere:
 - Ambulanz- und Notaufnahmeprotokolle
 
 Die Unterlagen sind vollstaendig und in lesbarer Form als Kopie
-zu uebermitteln. Die Kosten hierfuer werden gemaess § 630g
+zu uebermitteln. Die Kosten hierfür werden gemaess § 630g
 Abs. 2 Satz 2 BGB uebernommen (Kopierkosten angemessen).
 
 Sollten Teile der Dokumentation fehlen, bitten wir um
@@ -147,17 +167,17 @@ in Ihrer Einrichtung vom [Datum bis Datum] behandelt.
 
 II. Behandlungsfehler
 1. [Spezifischer Fehler]: Verstoss gegen medizinischen Standard
-   gemaess § 630a Abs. 2 BGB, naemlich [konkrete Handlung /
-   Unterlassung]. Massgeblicher Standard zum Behandlungs-
-   zeitpunkt ergibt sich aus [Leitlinie, Sachverstaendigen-
-   einschaetzung, Literatur].
+ gemaess § 630a Abs. 2 BGB, naemlich [konkrete Handlung /
+ Unterlassung]. Massgeblicher Standard zum Behandlungs-
+ zeitpunkt ergibt sich aus [Leitlinie, Sachverstaendigen-
+ einschaetzung, Literatur].
 
 2. Voll beherrschbares Risiko § 630h Abs. 1 BGB: [Hygiene-
-   mangel / Geraetedefekt] — Vermutung des Behandlungsfehlers.
+ mangel / Geraetedefekt] — Vermutung des Behandlungsfehlers.
 
 3. Befunderhebungsfehler § 630h Abs. 5 Satz 2 BGB: Unterlassen
-   der Untersuchung [X]; ein positiver Befund war hinreichend
-   wahrscheinlich; Beweislastumkehr fuer Kausalitaet.
+ der Untersuchung [X]; ein positiver Befund war hinreichend
+ wahrscheinlich; Beweislastumkehr für Kausalitaet.
 
 III. Schaeden
 - Schmerzensgeld EUR ____ (Begr.: [Tabellen-Referenz])
@@ -172,9 +192,9 @@ IV. Forderung
 Wir fordern Anerkennung des Haftpflichtgrundes bis [Datum]
 sowie Zahlung eines Vorschusses von EUR ____.
 
-V. Verjaehrung
-Zur Hemmung der Verjaehrung bitten wir um eine
-Verjaehrungsverzichtserklaerung bis [Datum + 12 Monate].
+V. Verjährung
+Zur Hemmung der Verjährung bitten wir um eine
+Verjährungsverzichtserklaerung bis [Datum + 12 Monate].
 
 Anlagen:
 - Behandlungsdokumentation
@@ -185,7 +205,7 @@ Anlagen:
 [Unterschrift]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]

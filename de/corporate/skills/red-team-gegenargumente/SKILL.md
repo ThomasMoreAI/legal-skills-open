@@ -1,0 +1,55 @@
+---
+name: red-team-gegenargumente
+title: Red Team Gegenargumente
+description: 'Für Red Team Gegenargumente: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gesellschaftsrechtliche-treuepflicht/skills/red-team-gegenargumente
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: corporate
+language: de
+---
+
+# Red Team Gegenargumente
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Red Team Gegenargumente` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Red Team Gegenargumente
+- **Normen-/Quellenanker:** GmbHG, AktG, HGB, BGB, Satzung/Gesellschaftsvertrag, Treuepflicht, Stimmrechtsbindung, Minderheitenschutz, Organhaftung und Beschlussmängelrecht.
+- **Entscheidende Weiche:** Unterscheide harte Pflichtverletzung, legitime Interessenwahrnehmung, Machtmissbrauch, Informationsdefizit, Stimmverbot und Rechtsfolge.
+
+## Kaltstart-Fragen
+
+Frage nur nach, wenn es die rechtliche Weiche wirklich verändert:
+
+1. Wer handelt, in welcher Rolle, und welches Ergebnis wird gebraucht?
+2. Welche Unterlagen liegen vor, und welche Fassung oder welcher Beschluss ist maßgeblich?
+3. Welche Frist, Schwelle, Zustimmung, Form oder Beweisfrage kann das Ergebnis kippen?
+4. Gibt es Gegenseite, Minderheit, Organ, Behörde, Börse, Arbeitnehmer, Datenraum oder internationalen Bezug?
+5. Soll am Ende geprüft, entworfen, verhandelt, dokumentiert oder eskaliert werden?
+
+## Spezifische Prüfachse
+
+- Übersetze den Slug in einen Konflikt zwischen Mitgliedschaftsrecht und gesellschaftlicher Rücksichtnahmepflicht.
+- Prüfe Rolle, Pflichtquelle, legitimes Eigeninteresse, Schädigungsnähe, Rechtfertigung, Beweis und Rechtsfolge.
+- Formuliere sowohl Angriffs- als auch Verteidigungslinie.
+
+## Arbeitsmodus
+
+1. **Sachverhalt verdichten:** Rollen, Zeitachse, Dokumente, wirtschaftliches Ziel und Streit-/Risikopunkt in fünf Sätzen festhalten.
+2. **Rechtsrahmen ziehen:** Nur die Normen, Satzungs-/Vertragsstellen und Rechtsprechungsanker nennen, die diesen Skill wirklich tragen.
+3. **Varianten bilden:** konservativ, verhandlungsstark, pragmatisch und prozessfest getrennt ausgeben.
+4. **Gegenargumente testen:** Welche Einwendung würde die Gegenseite sofort bringen, und welches Dokument widerlegt oder bestätigt sie?
+5. **Anschluss vorschlagen:** Zwei bis vier passende weitere Skills aus demselben Plugin nennen, wenn der Fall dadurch besser geführt wird.
+
+## Quellenhygiene
+
+Arbeite primär mit: BGB §§ 241 Abs. 2, 242, 705 ff.; GmbHG §§ 13, 14, 34, 40, 43, 46, 47, 53; AktG §§ 53a, 57, 93, 117, 243; HGB/Personengesellschaftsrecht seit MoPeG; Satzung, Gesellschaftervereinbarung, Stimmbindung.
+
+Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen. Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen, tragender Aussage und frei prüfbarer Quelle ausgeben. Wenn keine freie Quelle gefunden wird, als unverified markieren und nicht als tragenden Beleg verwenden.

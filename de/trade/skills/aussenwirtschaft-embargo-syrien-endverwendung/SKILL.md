@@ -1,0 +1,87 @@
+---
+name: aussenwirtschaft-embargo-syrien-endverwendung
+title: 'Embargo Syrien: Sanktionsregime und Post-Assad-Lockerungen'
+description: 'Für Embargo Syrien: Sanktionsregime und Post-Assad-Lockerungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-embargo-syrien-endverwendung
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# Embargo Syrien: Sanktionsregime und Post-Assad-Lockerungen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Unternehmen plant Baumaterial-Lieferungen für Wiederaufbau nach Syrien nach 2024; welche Sanktionen gelten noch?
+- Bank erhaelt Auftrag für Zahlung an syrisches Bauunternehmen; Listencheck und Sektorsanktionen.
+- Exporteur fragt nach aktueller Lage nach Regimewechsel Ende 2024 bezüglich Guetersanktionen.
+
+## Erste Schritte
+
+1. VO (EU) 36/2012 aktuell aufrufen (laufende Anpassungen nach Regime-Sturz 2024/2025).
+2. Personensanktionsliste auf Beteiligten screenen; Assad-Entourage und Militaer besonders beachten.
+3. Waffenembargo und Ruestungsguterliste prüfen (gilt unabhaengig vom Regime-Wechsel).
+4. Guetersanktionen: Oelembargo und sektorale Verbote auf aktuelle Fassung prüfen.
+5. Lockerungsausnahmen für humanitaere Hilfe und Wiederaufbau eruieren (Art. 25 ff. VO 36/2012).
+6. Exportgenehmigung beim BAFA für genehmigungspflichtige Gueter beantragen.
+
+## Rechtsrahmen
+
+- **VO (EU) 36/2012 konsolidiert**: EU-Syrien-Sanktionsregime.
+- **Delegierte VO und Ergaenzungsverordnungen 2024/2025**: Aktuelle Lockerungen und Anpassungen.
+- **Art. 25 ff. VO 36/2012**: Ausnahmen für humanitaere Hilfe.
+- **AWG § 18**: Strafbarkeit bei Embargo-Verstoss.
+- **UZK Art. 56**: Embargogueter in Zollanmeldung.
+
+## Prüf-Raster
+
+- [ ] VO 36/2012 in aktueller Fassung geprueft?
+- [ ] Personensanktionsliste aktuell gescreent?
+- [ ] Waffenembargo und Ruestungsguterliste geprueft?
+- [ ] Oelembargo und sektorale Verbote aktuell?
+- [ ] Humanitaere Ausnahmen und Wiederaufbau-Lockerungen geprueft?
+- [ ] BAFA-Genehmigung beantragt falls erforderlich?
+
+## Typische Fallstricke
+
+- Regime-Wechsel Ende 2024 fuehrt zu laufenden Lockerungen; keine statische Prüfliste verwenden.
+- Assad-nahe Entitaeten bleiben trotz Regime-Sturz auf Sanktionsliste; weiter screenen.
+- Waffenembargo gilt unabhaengig vom Regime.
+- Humanitaere Ausnahmen sind eng und erfordern Genehmigung.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [VO (EU) 36/2012 konsolidiert auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32012R0036)
+- [EU Sanctions Map Syrien](https://www.sanctionsmap.eu/#/main/details/41)
+- [BAFA Syrien-Embargo](https://www.bafa.de/DE/Aussenwirtschaft/Exportkontrolle/Embargolaender/embargolaender_node.html)
+- [AWG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/awg_2013/index.html)

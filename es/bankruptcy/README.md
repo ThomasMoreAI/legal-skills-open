@@ -8,7 +8,7 @@ Jurisdiction: `es` · Practice: `bankruptcy` · Skill language: es
 
 | Skill | What it does |
 |---|---|
-| [`/plan`](skills/plan/) | Estructura un plan de reestructuración conforme al Libro II del TRLC (arts. 614 y ss.). Genera el esqueleto… |
+| [`/plan`](skills/plan/) | Estructura un plan de reestructuración conforme al Libro II del TRLC (arts. 614 y ss.). Genera el… |
 
 ## Cold-start context
 

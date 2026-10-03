@@ -5,11 +5,20 @@ description: First-pass framework for reading, interpreting, and structuring sta
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/statutory-analysis
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: general
 language: en
+sources:
+- title: Canons of construction
+  path: references/canons_of_construction.md
+- title: Index
+  path: references/index.md
+- title: Practical lessons
+  path: references/practical_lessons.md
+- title: Statutory structure
+  path: references/statutory_structure.md
 ---
 
 # Statutory Interpretation Guide (US Law)

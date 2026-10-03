@@ -5,7 +5,7 @@ description: Use when the user wants USPTO patent discovery, patent metadata loo
 author: ZimoLiao
 author_url: https://github.com/ZimoLiao/scholaraio/tree/main/.claude/skills/patent-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip
@@ -163,6 +163,6 @@ scholaraio search "quantum computing"
 
 - `scholaraio patent-fetch` — 下载指定专利 PDF 到 configured patent inbox（fresh 默认 `data/spool/inbox-patent/`）
 - `scholaraio arxiv` — arXiv 论文搜索与下载
-- `scholaraio websearch` — 实时网页搜索
+- 宿主 Agent 原生网页搜索 — 开放网页补充发现
 - `scholaraio pipeline ingest` — 将 inbox-patent 中的 PDF 入库
 - `scholaraio search` / `scholaraio vsearch` — 本地知识库检索

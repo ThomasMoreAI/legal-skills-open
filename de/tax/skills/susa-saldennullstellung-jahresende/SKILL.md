@@ -1,0 +1,129 @@
+---
+name: susa-saldennullstellung-jahresende
+title: Erfolgskonten-Saldennullstellung zum Jahresende
+description: 'Für Erfolgskonten-Saldennullstellung zum Jahresende: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/susa-saldennullstellung-jahresende
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: tax
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Erfolgskonten-Saldennullstellung zum Jahresende
+
+## Fachlicher Anker
+
+- **Normen:** § 6a, §§ 242, § 268 Abs. 1 HGB.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Kernsachverhalt
+
+Zum Jahresende müssen die Erfolgskonten (Klasse 4-8 SKR 03, Klasse 4-7 SKR 04) auf null gestellt werden — ihr Saldo wird über das GuV-Konto in den Bilanzgewinn ueberfuehrt. Dieser Vorgang heisst Saldennullstellung oder GuV-Abschluss und ist Standardprozess zum Bilanzstichtag. Die DATEV/Addison-Systeme erledigen das automatisch beim Wirtschaftsjahres-Wechsel, aber der Steuerberater muss das Ergebnis dokumentieren und prüfen.
+
+## Kaltstart-Rueckfragen
+
+1. Welcher Stichtag — 31. Dezember oder abweichendes Wirtschaftsjahr?
+2. Ist die laufende Buchfuehrung bis Jahresende abgeschlossen?
+3. Sind alle Jahresabschluss-Buchungen erfasst (Periodenabgrenzung, Rueckstellungen, AfA, Inventur)?
+4. Welche Rechtsform — Bilanzgewinn auf Konto 2000 (GmbH) oder 800 (Einzelunternehmer)?
+5. Welche Verwendung Bilanzgewinn — Thesaurierung, Ausschuettung, Verlustvortrag?
+6. Liegt Gesellschafterbeschluss zur Ergebnisverwendung vor?
+7. Welche steuerlichen Korrekturen sind zu erwarten (Mehr- oder Wenigergewinn vs. Steuerbilanz)?
+8. Welche Konto-Schlussbestand Prüfung (alle Bestandskonten Endsaldo dokumentiert)?
+
+## Rechtlicher Rahmen
+
+### Primaernormen
+
+**§§ 242, 264 HGB** — Aufstellungspflicht Jahresabschluss; Schlussbilanz.
+
+**§ 268 Abs. 1 HGB** — Bilanzgewinn-Ausweis.
+
+**§ 246 HGB** — Vollstaendigkeit.
+
+**§ 252 HGB** — Bewertungsgrundsaetze.
+
+**§ 5 EStG** — Massgeblichkeit Handels- für Steuerbilanz.
+
+**§ 11 EStG** — Zufluss-Abfluss-Prinzip (bei EUER).
+
+### Standards
+
+- IDW PS 480.
+- DATEV/Addison Jahreswechsel-Module.
+
+## Workflow
+
+### Phase 1 — Vor-Prüfung Jahresend-Schluss
+
+- Alle laufenden Belege Dezember verbucht?
+- Periodenabgrenzung gebucht (RAP)?
+- Rueckstellungen gebucht?
+- Anlagenspiegel und AfA aktualisiert?
+- Bestandsfeststellung (Inventur) durchgefuehrt?
+- Saldenabstimmung Hauptbuch-Nebenbuch?
+
+### Phase 2 — Erfolgskonten saldieren
+
+```
+SCHLIESSUNG ERFOLGSKONTEN GuV:
+Soll Haben
+Konto 8000-8999 (Erloese, SKR 03) Konto 9999 GuV-Sammelkonto
+Konto 4000-4999 (Aufwand, SKR 03) Konto 9999 GuV-Sammelkonto
+
+Nach Schliessung:
+Saldo Konto 9999 (Gewinn/Verlust) → Konto 2000 (Bilanzgewinn) [GmbH]
+ oder 800 (Kapital) [Einzel]
+ oder 3010 (Privat) [Personenges.]
+```
+
+### Phase 3 — DATEV-Automatik
+
+- DATEV Jahreswechsel-Lauf: schliesst Erfolgskonten automatisch.
+- Bei manueller Korrektur in DATEV: Berater-Funktion.
+- Bei Addison: vergleichbare Automatik.
+
+### Phase 4 — Prüfung Konsistenz
+
+- Schluss-SuSa: alle Erfolgskonten Saldo 0?
+- Bilanzkonten: Endsalden mit Bilanzpositionen abgestimmt?
+- GuV-Sammelkonto Saldo = Jahresergebnis?
+
+### Phase 5 — Vortrag Bilanzgewinn
+
+- Eroeffnungsbilanz Folgejahr: Konto 2000 (GmbH) zeigt Vorjahres-Bilanzgewinn.
+- Bei Gesellschafterbeschluss-Ausschuettung: Buchung erst nach Beschluss (oft Mai/Juni Folgejahr).
+- Vortrag in Bilanzposten "Gewinnvortrag" oder "Verlustvortrag".
+
+### Phase 6 — Dokumentation
+
+- Jahresabschluss-Mappe mit Schlussbilanz und GuV.
+- Schluss-SuSa als Beleg für Schliessung.
+- Eroeffnungsbilanz Folgejahr (analytisch).
+
+## Strategie und Praxis-Tipps
+
+- Erfolgskonten-Schliessung ist der Schluss-Stempel des Jahres. Spaetere Änderungen müssen über Vorperioden-Korrekturen laufen.
+- Bei wesentlichen Nachtraegen in der Prüfung: ggf. erneut schliessen.
+- Bilanzgewinn-Verwendung erst nach Gesellschafterbeschluss buchen.
+- Bei Personenunternehmen: Privatentnahmen und -einlagen über das Jahr separat — werden in Kapitalkonto verrechnet.
+- StBVV: Jahresabschluss-Erstellung StBVV § 35 — gesonderter Auftrag.
+- DATEV-Tipp: Jahreswechsel mit DATEV-Berater-Lauf; manuelle Korrekturen nur über Berater-Funktion.
+
+## Quellen und Updates
+
+Stand: 05/2026.
+
+- HGB §§ 242, 246, 252, 264, 268.
+- EStG §§ 5, 11.
+- StBVV § 35.
+- IDW PS 480.

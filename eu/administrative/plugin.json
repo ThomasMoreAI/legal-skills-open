@@ -1,0 +1,17 @@
+{
+  "name": "eu-administrative",
+  "displayName": "Administrative Procedure & Public Services — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "administrative",
+  "language": "de",
+  "skills": [
+    "skills/eu-ebene-eu-richtlinien",
+    "skills/eu-ebene-und-better-regulation",
+    "skills/eu-justizunabhaengigkeit-art-19-euv-art-47-grch",
+    "skills/eu-richtlinien-umsetzung-und-goldplating"
+  ]
+}

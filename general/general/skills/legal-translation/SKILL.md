@@ -5,11 +5,18 @@ description: 'Expert-level legal document translation — understands law, not j
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/legal-translation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Document type library
+  path: references/document-type-library.md
+- title: Legal glossary
+  path: references/legal-glossary.md
+- title: Legal language conventions
+  path: references/legal-language-conventions.md
 ---
 
 # Legal Translation Skill  `v0.2.0`

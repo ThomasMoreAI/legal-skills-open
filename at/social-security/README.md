@@ -11,7 +11,7 @@ Jurisdiction: `at` · Practice: `social-security` · Skill language: de
 | Skill | What it does |
 |---|---|
 | [`/recht sozial-beschwerde — Sozialrechtliche Beschwerde / Klage`](skills/recht-sozial-beschwerde-momarcode1/) | Austrian social security appeals — challenging Bescheide from ÖGK/PVA/AMS/SVS, Klage to Arbeits- und… |
-| [`/recht sozial — Sozialrechtliche Analyse`](skills/recht-sozial-momarcode1/) | Austrian social security law analysis — health insurance (ASVG/GSVG/BSVG), pension (Pensionsrecht),… |
+| [`/recht sozial — Sozialrechtliche Analyse`](skills/recht-sozial-momarcode1/) | Austrian social security law analysis — health insurance (ASVG/GSVG/BSVG), pension (Pensionsrecht)… |
 
 ## Cold-start context
 

@@ -1,0 +1,110 @@
+---
+name: abfall-circular-economy
+title: Abfallrecht und Circular Economy
+description: 'Für Abfallrecht und Circular Economy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/umweltrecht/skills/abfall-circular-economy
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: environmental
+language: de
+---
+
+# Abfallrecht und Circular Economy
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BImSchG § 10 Auslegung 1 Monat / Einwendungen 1 Monat, UmwRG § 4 Klagefrist 1 Monat, BBodSchG Sanierungsuntersuchung 1 Jahr, Störfall-Anzeige unverzüglich.
+- Tragende Normen verifizieren: BImSchG, KrWG, WHG, BNatSchG, UVPG, BBodSchG, ChemG, StörfallV (12. BImSchV), TA Luft, TA Lärm, EU-IED 2010/75, UmwRG, EU-FFH-RL, EU-WRRL — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Vorhabenträger, Genehmigungsbehörde, Umweltverbände (BUND, NABU), VG, OVG, BVerwG (7. Senat), EU-KOM, Sachverständige.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Immissionsschutzrechtliche Genehmigung, UVP-Bericht, FFH-Verträglichkeitsstudie, Sanierungsplan, Verbandsklage, Einwendung, TA-Luft-/TA-Lärm-Berechnung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage — klaere zuerst
+
+1. Ist der Stoff Abfall (§ 3 Abs. 1 KrWG) oder liegt ein Nebenprodukt (§ 4 KrWG) oder Ende der Abfalleigenschaft (§ 5 KrWG) vor?
+2. Wer ist Abfallerzeuger / -besitzer? Liegt gewerbliche Sammlung (§ 17 Abs. 2 Nr. 4 KrWG) vor?
+3. Welche Entsorgungsanlage soll genutzt werden — genehmigt oder nicht?
+4. Besteht Überlassungspflicht an öffentlich-rechtliche Entsorgungstraeger (§ 17 Abs. 1 KrWG)?
+5. Welche Nachweispflichten (§§ 49 ff. KrWG, NachwV) sind einzuhalten?
+6. Gibt es Transporte — nationale Grenze? (EG-AbfVerbrV, Basler Uebereinkommen)
+
+## Zentrale Normen und Paragrafenkette
+
+- **§ 3 KrWG** — Abfallbegriff (Entledigung, Entledigungswille, Entledigungspflicht)
+- **§ 4 KrWG** — Nebenprodukt (sichere weitere Verwendung, Nachfrage, unmittelbare Nutzung)
+- **§ 5 KrWG** — Ende der Abfalleigenschaft (Aufbereitungsverfahren, Guetestandard, kein schutzloser Stoff)
+- **§ 7 KrWG** — Grundpflichten der Kreislaufwirtschaft (Vermeidung > Verwertung > Beseitigung)
+- **§ 14 KrWG** — Verpflichtung zur Getrenntsammlung
+- **§ 17 KrWG** — Überlassungspflichten Haushaltsabfaelle / gewerbliche Abfaelle
+- **§ 49 KrWG i.V.m. NachwV** — Nachweispflichten gefaehrliche Abfaelle
+- **§ 62 KrWG** — Anordnungsrecht der Behörde
+- **Art. 6 Richtlinie 2008/98/EG** — Ende der Abfalleigenschaft EU-Recht
+
+## Schritt-für-Schritt-Workflow
+
+1. **Stoff-Klassifikation**: Ist Stoff Abfall, Nebenprodukt oder nicht-Abfall nach §§ 3-5 KrWG + Europaeischem Abfallverzeichnis (AVV)?
+2. **Entsorgungsweg bestimmen**: Verwertung (§ 8 KrWG — energetisch, werkstofflich, biologisch) oder Beseitigung (§ 15 KrWG)?
+3. **Genehmigung prüfen**: Entsorgungsanlage §§ 4 ff. BImSchG, Planfeststellung (Deponie §§ 35 ff. KrWG)?
+4. **Nachweise**: Gefaehrliche Abfaelle — Begleitschein/Entsorgernachweis (NachwV); elektronisches Nachweisverfahren.
+5. **Überlassungspflicht**: § 17 KrWG — Ausnahmen für Eigenkompostierung, gemeinnuetzige Sammlung, gewerbliche Drittbeauftragung.
+6. **Grenzueberschreitend**: EG-AbfVerbrV Nr. 1013/2006 — Notifizierungspflicht bei gruenen / orangenen / roten Listen; Basel-Genehmigung bei gefaehrlichen Abfaellen in Drittstaaten.
+7. **Circular-Economy**: EU-Kreislaufwirtschaftspaket — Oekodesign-VO 2024/1781, EU End-of-Waste-Kriterien-VO (Stahl, Kupfer, Papier); CSRD-Berichtspflicht.
+
+### Entscheidungsbaum Abfalleigenschaft
+
+```
+Entledigt sich der Erzeuger des Stoffes?
+ JA → Ist Entsorgung sicher und Verwendung nachgefragt?
+ JA → Nebenprodukt § 4 KrWG pruefen
+ NEIN → Abfall → Entsorgungspflicht § 7 KrWG
+ NEIN → Verwendung weiterhin beabsichtigt → kein Abfall
+```
+
+## Output-Template: Begleitschreiben Behördenanfrage Nebenprodukt
+
+**Adressat:** Zustaendige Abfallbehoerde — Tonfall: sachlich-juristisch
+
+```
+An die [BEHOERDE] — Abteilung Abfallrecht
+
+Antrag auf Bestaetigung Nebenprodukt-Status gemaess § 4 KrWG
+
+Absender: [NAME MANDANT], [ADRESSE]
+Betr.: Stoff [BEZEICHNUNG], Anfall [MENGE] t/a, Anlage [ORT]
+
+I. Sachverhalt
+Bei der Produktion von [PRODUKT] faellt als Koppelprodukt [STOFF] an.
+Dieser wird unmittelbar an [ABNEHMER] veraeussert und dort als
+[ZWECK] verwendet.
+
+II. Voraussetzungen § 4 KrWG
+1. Sichere weitere Verwendung: Langfristiger Liefervertrag mit [ABNEHMER] liegt bei (Anlage).
+2. Kein Aufbereitungserfordernis: [STOFF] entspricht ohne weitere Behandlung der Norm [ISO/DIN].
+3. Nachfrage: Jaehrlicher Bezug seit [JAHR], Marktpreis [BETRAG] EUR/t.
+4. Keine schutzlosen Stoffe: TDS/SDS-Datenblatt liegt bei (Anlage).
+
+III. Antrag
+Wir bitten um Bestaetigung, dass [STOFF] ein Nebenprodukt i.S.d. § 4 KrWG darstellt
+und keiner Entsorgungsnachweis-Pflicht unterliegt.
+
+Anlagen: Liefervertrag, SDS-Datenblatt, Laboranalyse
+```
+
+## Vertiefung: Circular Economy Anforderungen
+
+- **EU-Oekodesign-Verordnung 2024/1781**: Produktanforderungen Haltbarkeit, Reparierbarkeit, Rezyklierbarkeit; ab 2026 schrittweise Sektoren.
+- **CSRD/ESRS E5**: Berichtspflicht zu Ressourcennutzung, Kreislaufwirtschaft, Abfallmengen.
+- **End-of-Waste-Kriterien** (EU-Verordnungen zu Stahl, Aluminium, Kupfer, Papier, Glas, Reifen): automatisches Ende der Abfalleigenschaft bei Erreichung der Qualitaetsschwellen.
+- **EU-Verpackungsverordnung 2025** (PPWR): Mindest-Recyclatanteile, Sammelquoten, Einwegverbot.
+
+## Anschluss-Skills
+
+- `umweltrecht-verfahren` — Klageverfahren gegen Abfallbescheid
+- `umweltrecht-transaktionen-dd` — Abfallrisiken in M&A
+- `esg-greenwashing-csrd` — CSRD-Berichtspflicht Kreislaufwirtschaft
+- `umweltrecht-wasser-bodenschutz` — Altlasten bei Deponien
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

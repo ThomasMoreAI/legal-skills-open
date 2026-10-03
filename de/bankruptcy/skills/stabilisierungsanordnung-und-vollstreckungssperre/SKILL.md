@@ -1,269 +1,159 @@
 ---
 name: stabilisierungsanordnung-und-vollstreckungssperre
-title: Stabilisierungsanordnung und Vollstreckungssperre — §§ 49-59 StaRUG
-description: 'Stabilisierungsanordnung und Vollstreckungssperre nach §§ 49-59 StaRUG beantragen: Schuldner braucht Schutz vor Einzelvollstreckung waehrend Restrukturierung. Normen: §§ 49-59 StaRUG (Stabilisierungsanordnung), § 51 StaRUG (Dauer max. 3 Monate plus Verlaengerung), Verhältnis zum vorlaeufigen Insolvenzverfahren. Prüfraster: Antragsvoraussetzungen, Schutzwirkung, Ausnahmen, Beendigung. Output Stabilisierungsanordnungs-Antrag, Begründungs-Memo. Abgrenzung: Gerichtliche Planbestätigung siehe restrukturierungsplan-architektur-paragraph-7ff-starug; InsO-Vorlaeufig siehe insolvenzrecht-Plugin.'
+title: 1. Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG
+description: 'Bereitet eine Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG vor: Anzeige, Adressaten, Vollstreckungs- und Verwertungssperre, sechsmonatiger Finanzplan, Anordnungsvoraussetzungen, Dauer, Vertragswirkungen und Aufhebung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/stabilisierungsanordnung-und-vollstreckungssperre
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy
 language: de
 ---
 
-# Stabilisierungsanordnung und Vollstreckungssperre — §§ 49-59 StaRUG
+# 1. Stabilisierungsanordnung nach Paragrafen 49 bis 59 StaRUG
 
-Die Stabilisierungsanordnung ist das operative Schutzschild des StaRUG-Verfahrens. Sie stoppt einzelne Gläubiger daran, während laufender Restrukturierungsverhandlungen zu vollstrecken und so den Verhandlungsprozess zu torpedieren. Damit unterscheidet sie sich fundamental vom Insolvenzverfahren — sie schützt das Unternehmen, ohne die Insolvenz zu eröffnen und ohne Publizität zu erzeugen. Wer dieses Instrument kennt und rechtzeitig einsetzt, hält das Heft des Handelns in der Hand.
+## 1.1. Arbeitsauftrag
 
----
+Prüfe, ob und gegen welche Gläubiger eine Vollstreckungs- oder Verwertungssperre benötigt wird. Lies zuerst Titel, Vollstreckungsankündigungen, Sicherheitenregister, Restrukturierungskonzept, Finanzplan und bisherige Gerichtsunterlagen. Liefere einen antragsreifen Kern mit genau bezeichnetem Adressatenkreis und Zeitraum.
 
-## Rechtsgrundlagen
+## 1.2. Normenkarte
 
-- §§ 49-59 StaRUG (Stabilisierungsanordnung)
-- § 49 StaRUG (Inhalt der Anordnung)
-- § 50 StaRUG (Gläubigerbenachrichtigung)
-- § 51 StaRUG (Wirkung auf Sicherungsrechte)
-- § 52 StaRUG (Schuldnerobliegenheiten)
-- § 53 StaRUG (Grundsätze der Zumutbarkeit)
-- §§ 55-59 StaRUG (Verfahren, Dauer, Aufhebung)
-- § 29 StaRUG (Antrag auf Restrukturierungssache als Vorbedingung)
-- Art. 6 Restrukturierungsrichtlinie 2019/1023/EU (Grundlage)
+| Norm | Funktion |
+| --- | --- |
+| Paragraf 31 StaRUG | vorherige Anzeige des Restrukturierungsvorhabens |
+| Paragraf 49 StaRUG | Inhalt und Reichweite der Vollstreckungs- oder Verwertungssperre |
+| Paragraf 50 StaRUG | Antrag, aktualisierte Restrukturierungsplanung und sechsmonatiger Finanzplan |
+| Paragraf 51 StaRUG | Anordnungsvoraussetzungen, Schlüssigkeit, Erforderlichkeit und Zustellung |
+| Paragraf 52 StaRUG | Folgeanordnung nach Verlegung des Interessenmittelpunkts |
+| Paragraf 53 StaRUG | Dauer von grundsätzlich bis zu drei Monaten und gesetzliche Verlängerungsfälle |
+| Paragraf 54 StaRUG | Zins-, Wertverlust- und Erlösausgleich bei Verwertungssperren |
+| Paragraf 55 StaRUG | begrenzte Wirkungen auf gegenseitige Verträge |
+| Paragraf 56 StaRUG | Ausnahmen für Finanzsicherheiten und Netting |
+| Paragraf 57 StaRUG | Geschäftsleiterhaftung bei schuldhaft unrichtigen Angaben |
+| Paragraf 58 StaRUG | Aussetzung eines Gläubigerinsolvenzantrags |
+| Paragraf 59 StaRUG | Aufhebung und Ende der Anordnung |
 
----
+## 2. Antragsvoraussetzungen
 
-## Pflichten
+### 2.1. Anzeige und Zuständigkeit
 
-### 1. Was ist die Stabilisierungsanordnung?
+Vor Inanspruchnahme der Stabilisierung muss das Restrukturierungsvorhaben nach Paragraf 31 StaRUG beim zuständigen Restrukturierungsgericht angezeigt sein. Paragraf 29 StaRUG bezeichnet die verfügbaren Instrumente; er ist keine Anzeigevorschrift.
 
-Die Stabilisierungsanordnung ist eine gerichtliche Verfügung, die auf Antrag des Schuldners erlassen wird und:
+### 2.2. Bestimmter Antrag
 
-- **Vollstreckungsmaßnahmen** einzelner oder aller Gläubiger vorübergehend untersagt
-- **Verwertungsmaßnahmen** (insb. Sicherheitenverwertung) ausgesetzt
-- Dem Schuldner **Atempause** für geordnete Restrukturierungsverhandlungen verschafft
-- **Selektiv** gegen einzelne Gläubiger oder gläubigerseitig umfassend eingesetzt werden kann
+Bezeichne nach Paragraf 50 Absatz 1 StaRUG:
 
-**Unterschied zum Insolvenzverfahren:** Die Stabilisierungsanordnung ist kein Insolvenzbeschlag — das Unternehmen bleibt in der vollen Verfügungsgewalt der Geschäftsführung. Keine Aufhebung von Verträgen, keine Insolvenzwirkung.
+1. beantragte Vollstreckungs- oder Verwertungssperre,
+2. jeden betroffenen Gläubiger oder den gesetzlich zulässigen Gläubigerkreis,
+3. erfasste Forderungen und Sicherheiten,
+4. beantragte Dauer,
+5. konkrete Gefährdung des Restrukturierungsziels.
 
-### 2. Voraussetzungen der Stabilisierungsanordnung
+### 2.3. Restrukturierungsplanung
 
-**Zwingend:**
-- Restrukturierungssache muss beim zuständigen Restrukturierungsgericht angezeigt sein (§ 31 StaRUG)
-- Drohende Zahlungsunfähigkeit nach § 18 InsO muss vorliegen
-- Restrukturierungsplan muss bereits vorbereitet sein oder zumindest in Vorbereitung sein
-- Kein rechtsmissbräuchlicher Einsatz (§ 53 Abs. 1 StaRUG)
+Dem Antrag sind nach Paragraf 50 Absatz 2 StaRUG beizufügen:
 
-**Inhaltliche Voraussetzungen (§ 53 StaRUG):**
-- Anordnung muss für den Restrukturierungserfolg erforderlich sein
-- Gläubigerbenachteiligung muss zumutbar sein
-- Verhältnismäßigkeit: nur soweit zur Erreichung des Restrukturierungsziels nötig
+1. ein tagesaktueller Planentwurf oder ein tagesaktuelles Restrukturierungskonzept nach Paragraf 31 Absatz 2 Satz 1 Nummer 1 StaRUG,
+2. ein Finanzplan für sechs Monate mit fundierter Darstellung der Finanzierungsquellen.
 
-### 3. Wirkung der Stabilisierungsanordnung
+Zusätzlich sind die Erklärungen nach Paragraf 50 Absatz 3 StaRUG abzugeben, insbesondere zu Rückständen bei Arbeitnehmern, Pensionen, Steuern, Sozialversicherung und Lieferanten, früheren Sperren sowie Offenlegungspflichten.
 
-**Vollstreckungssperre:**
-- Kein Gläubiger darf während der Anordnungsdauer vollstrecken (titulierte Forderungen)
-- Insolvenzantrag eines Gläubigers wird ausgesetzt
+### 2.4. Gerichtliche Prüfung
 
-**Verwertungssperre:**
-- Gesicherte Gläubiger dürfen Sicherheiten (Grundschulden, Sicherungsübereignungen, Pfandrechte) nicht verwerten
-- Ausnahme: Gericht kann auf Antrag einzelne Verwertungen gestatten
+Nach Paragraf 51 StaRUG müssen Planung und Erklärungen vollständig und schlüssig sein. Die Anordnung scheidet insbesondere aus, wenn wesentliche Angaben unrichtig sind, die Restrukturierung aussichtslos ist, drohende Zahlungsunfähigkeit noch nicht vorliegt oder die Sperre für das Restrukturierungsziel nicht erforderlich ist. Behebbare Mängel können nur eine auf höchstens 20 Tage begrenzte Zwischenanordnung tragen.
 
-**Aussetzung von Insolvenzanträgen:**
-- Gläubigerinsolvenzanträge werden während der Dauer der Anordnung ausgesetzt
+## 3. Reichweite und Grenzen
 
-**KEINE Wirkung auf:**
-- Laufende Arbeitnehmeransprüche
-- Öffentlich-rechtliche Zahlungspflichten (Steuern, Sozialversicherung)
-- Vertragserfüllung — Vertragspartner können weiterhin auf Erfüllung bestehen
+### 3.1. Vollstreckungs- und Verwertungssperre
 
-### 4. Dauer und Verlängerung
+Paragraf 49 StaRUG erlaubt eine Sperre für Zwangsvollstreckungsmaßnahmen und eine Sperre für die Verwertung bestimmter Rechte an beweglichem Vermögen sowie die Einziehung abgetretener Forderungen. Der Antrag kann sich gegen einzelne, mehrere oder alle Gläubiger richten. Forderungen, die nach Paragraf 4 StaRUG nicht durch einen Plan gestaltet werden können, bleiben ausgenommen.
 
-```
-GRUNDDAUER:         3 Monate (§ 55 Abs. 1 StaRUG)
-VERLÄNGERUNG:       + 3 Monate auf Antrag (§ 56 StaRUG)
-MAXIMAL:            8 Monate (§ 57 StaRUG, gesamt im Verfahren)
+### 3.2. Sicherheiten und Erlöse
 
-VORAUSSETZUNG DER VERLÄNGERUNG:
-  - Restrukturierungsplan liegt dem Gericht vor ODER
-  - Fortschritte bei der Planabstimmung nachgewiesen
+Bei einer Verwertungssperre sind nach Paragraf 54 StaRUG grundsätzlich geschuldete Zinsen und nutzungsbedingter Wertverlust auszugleichen. Erlöse aus der Einziehung sicherungsabgetretener Forderungen oder der Veräußerung beziehungsweise Verarbeitung sicherungsbelasteter beweglicher Sachen sind auszukehren oder unterscheidbar zu verwahren, soweit keine andere Vereinbarung besteht.
 
-AUFHEBUNG VOR FRISTABLAUF:
-  - Auf Antrag des Schuldners
-  - Von Amts wegen bei Wegfall der Voraussetzungen
-  - Auf Gläubigerantrag bei Obliegenheitsverletzung (§ 59 StaRUG)
-```
+### 3.3. Vertragswirkungen
 
----
+Paragraf 55 StaRUG verhindert unter den gesetzlichen Voraussetzungen, dass ein betroffener Gläubiger allein wegen einer rückständigen Leistung bestimmte Leistungsverweigerungs-, Beendigungs- oder Änderungsrechte ausübt. Das ist weder ein allgemeiner Vertragsstopp noch ein Recht des Schuldners zur einseitigen Vertragsbeendigung. Finanzierungszusagen und gesetzliche Ausnahmen sind gesondert zu prüfen.
 
-## Vorgehen
+### 3.4. Gläubigerinsolvenzantrag
 
-### Schritt 1: Prüfung der Anordnungsvoraussetzungen
+Das Verfahren über einen Gläubigerantrag auf Insolvenzeröffnung wird nach Paragraf 58 StaRUG für die Dauer der Anordnung ausgesetzt. Die eigene Insolvenzantragspflicht der Geschäftsleitung nach Paragraf 15a InsO wird dadurch nicht suspendiert.
 
-- [ ] Liegt drohende Zahlungsunfähigkeit vor?
-- [ ] Ist die Restrukturierungssache bereits angezeigt?
-- [ ] Welche konkreten Vollstreckungs-/Verwertungsmaßnahmen drohen?
-- [ ] Ist die Anordnung verhältnismäßig und erforderlich?
-- [ ] Gibt es alternative Schutzmaßnahmen (Verhandlungsstillhalteabkommen)?
+## 4. Dauer
 
-### Schritt 2: Antrag vorbereiten
+1. Erstanordnung: bis zu drei Monate nach Paragraf 53 Absatz 1 StaRUG.
+2. Bei unterbreitetem Planangebot und erwartbarer Annahme innerhalb eines Monats kann die Höchstdauer unter den Voraussetzungen des Paragrafen 53 Absatz 2 StaRUG um einen Monat erweitert werden; die Anordnung richtet sich dann nur gegen Planbetroffene.
+3. Nach beantragter Bestätigung eines angenommenen Plans können Folge- oder Neuanordnungen bis zur Rechtskraft, höchstens aber bis acht Monate nach der Erstanordnung, ergehen, sofern der Plan nicht offensichtlich unbestätigungsfähig ist.
 
-Der Antrag muss enthalten:
+Die Dauer folgt aus Paragraf 53 StaRUG, nicht aus Paragrafen 55 bis 57 StaRUG.
 
-1. **Darstellung der Situation:** Warum droht Vollstreckung? Von welchem Gläubiger?
-2. **Restrukturierungsplan-Status:** Wie weit ist der Plan vorbereitet?
-3. **Verhältnismäßigkeitsdarlegung:** Warum ist die Anordnung erforderlich?
-4. **Zumutbarkeitsargumentation:** Warum ist die Beeinträchtigung der Gläubiger zumutbar?
-5. **Planungsunterlagen** als Anlagen (Finanzplan, ggf. IDW S 6-Gutachten)
+## 5. Antragsgerüst
 
-### Schritt 3: Gläubigerbenachrichtigung
+```text
+An das Amtsgericht [Ort] als Restrukturierungsgericht
+Aktenzeichen: [falls vorhanden]
 
-Alle von der Anordnung betroffenen Gläubiger sind unverzüglich zu benachrichtigen (§ 50 StaRUG):
+1. Antrag
+Es wird beantragt, für den Zeitraum vom [Datum] bis [Datum]
 
-- Information über Anordnung und ihre Wirkung
-- Hinweis auf Widerspruchsrecht
-- Information über Verfahrensstatus und Zeitplan
+1.1. Vollstreckungsmaßnahmen der in Anlage A bezeichneten Gläubiger
+gegen die Schuldnerin zu untersagen und
 
----
+1.2. die Verwertung der in Anlage B einzeln bezeichneten Rechte
+an beweglichem Vermögen sowie die Einziehung der dort bezeichneten
+abgetretenen Forderungen zu untersagen.
 
-## Templates
+2. Anzeige
+Das Restrukturierungsvorhaben wurde am [Datum] nach Paragraf 31 StaRUG
+angezeigt. Beleg: Anlage C.
 
-### Muster: Antrag auf Stabilisierungsanordnung
+3. Restrukturierungsziel und Erforderlichkeit
+[Krise, Ziel, Maßnahmen, konkrete Gefährdung durch Vollstreckung]
 
-```
-An das
-Restrukturierungsgericht [Ort]
-[Abteilung]
+4. Drohende Zahlungsunfähigkeit
+[24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO]
 
-ANTRAG AUF STABILISIERUNGSANORDNUNG gemäß § 49 StaRUG
+5. Restrukturierungsplanung
+[Planentwurf oder Konzept; Verhandlungsstand]
 
-Antragsteller: [Firma GmbH], vertreten durch den Geschäftsführer
-               [Name, Adresse]
+6. Sechsmonatiger Finanzplan
+[Finanzierungsquellen, Rückstände, Fortführung]
 
-Verfahren: Restrukturierungssache [Firma GmbH]
-           (Anzeige vom [Datum], Az. [___])
+7. Gläubiger- und Sicherheitenmatrix
+[Forderung, Titel, Vollstreckungsstand, Sicherheit, beantragte Wirkung]
 
-I. BEGEHREN
-
-Die Antragstellerin beantragt, gegen folgende(n) Gläubiger:
-  1. [Gläubiger 1, Adresse]
-  2. [Gläubiger 2, Adresse]
-
-eine Stabilisierungsanordnung zu erlassen, mit der
-
-a) Vollstreckungsmaßnahmen der vorgenannten Gläubiger in das
-   Vermögen der Antragstellerin für die Dauer von drei Monaten
-   untersagt werden,
-
-b) die Verwertung von Sicherheiten (insb. [Sicherheit]) durch
-   [Gläubiger] für dieselbe Dauer ausgesetzt wird.
-
-II. SACHVERHALT UND BEGRÜNDUNG
-
-1. Drohende Zahlungsunfähigkeit:
-   [Begründung auf Basis der Liquiditätsplanung]
-
-2. Drohende Vollstreckungsmaßnahmen:
-   [Beschreibung: welcher Gläubiger plant was, wann?]
-
-3. Erforderlichkeit der Anordnung:
-   [Warum gefährdet die Vollstreckung den Restrukturierungserfolg?]
-
-4. Verhältnismäßigkeit / Zumutbarkeit:
-   [Warum ist die Anordnung verhältnismäßig?]
-   [Wie wird der Gläubiger nicht strukturell schlechtergestellt?]
-
-5. Status des Restrukturierungsplans:
-   [Stand der Planvorbereitung]
-
-III. ANLAGEN
-  Anlage A: Liquiditätsplanung 24 Monate
-  Anlage B: Fortführungsprognose (kurz)
-  Anlage C: Korrespondenz mit [Gläubiger] (Vollstreckungsankündigung)
-
-[Ort], [Datum]
-___________________________
-[Geschäftsführer — fiktiv]
+8. Erklärungen nach Paragraf 50 Absatz 3 StaRUG
+[vollständig]
 ```
 
-### Muster: Gläubigerbenachrichtigung nach § 50 StaRUG
+## 6. Anlagen- und Belegmatrix
 
-```
-[Briefkopf]
+| Anlage | Inhalt | Stichtag | Trägt welche Voraussetzung? |
+| --- | --- | --- | --- |
+| A | Gläubiger- und Forderungsliste | [Datum] | Adressatenkreis |
+| B | Sicherheitenregister | [Datum] | Verwertungssperre |
+| C | Anzeige nach Paragraf 31 StaRUG | [Datum] | Instrumentenzugang |
+| D | Planentwurf oder Konzept | [Datum] | Restrukturierungsziel |
+| E | Sechsmonatiger Finanzplan | [Datum] | Fortführungsfinanzierung |
+| F | 24-Monats-Prognose | [Datum] | Paragraf 18 InsO |
+| G | Titel und Vollstreckungsschreiben | [Datum] | Erforderlichkeit |
+| H | Erklärungen nach Paragraf 50 Absatz 3 StaRUG | [Datum] | Vollständigkeit |
 
-[Ort], [Datum]
+## 7. Aufhebung und Haftung
 
-An: [Gläubiger]
+Prüfe laufend Paragraf 59 StaRUG. Die Anordnung ist insbesondere bei Wirkungsverlust der Anzeige, Aufhebungsgründen der Restrukturierungssache, fehlendem Planentwurf oder unzutreffender Planung gefährdet. Sie endet mit Bestätigung oder Versagung der Planbestätigung.
 
-Betreff: Stabilisierungsanordnung gemäß § 49 StaRUG in der Sache
-         [Firma GmbH] — Aktenzeichen [___]
+Paragraf 57 StaRUG begründet eine besondere Geschäftsleiterhaftung, wenn eine Stabilisierungsanordnung aufgrund vorsätzlich oder fahrlässig unrichtiger Angaben erwirkt wird. Jede Zahl im Antrag benötigt deshalb Stichtag, Quelle, Bearbeiter und Abstimmungsnachweis.
 
-Sehr geehrte Damen und Herren,
+## 8. Fehlerbremse
 
-das Restrukturierungsgericht [Ort] hat in der Restrukturierungssache
-der [Firma GmbH] am [Datum] eine Stabilisierungsanordnung nach § 49
-StaRUG erlassen.
-
-Die Anordnung umfasst:
-- Vollstreckungsverbot für den Zeitraum [Datum] bis [Datum]
-- [weitere Wirkungen]
-
-Sie als Gläubiger sind von dieser Anordnung betroffen.
-Wir informieren Sie hiermit gemäß § 50 StaRUG über:
-
-1. Den Inhalt der Anordnung (Anlage: Gerichtsbeschluss)
-2. Die beabsichtigte Restrukturierung (Anlage: Kurzdarstellung Plan)
-3. Ihren Anspruch auf Information und Beteiligung
-
-Für Rückfragen stehen wir zur Verfügung.
-
-Mit freundlichen Grüßen
-[fiktive Kanzlei / Schuldner GF]
-```
-
----
-
-## Fallstricke
-
-1. **Zu späte Antragstellung** — die Stabilisierungsanordnung hilft nicht, wenn die Vollstreckung bereits durchgeführt wurde. Antrag muss gestellt werden, bevor der Gläubiger vollstreckt.
-
-2. **Obliegenheitsverletzungen als Aufhebungsgrund** — § 59 StaRUG erlaubt Gläubigern, Aufhebung zu beantragen, wenn der Schuldner seine Obliegenheiten (Liquiditätsberichterstattung, Zusammenarbeit mit Gericht) verletzt. Kein Dornröschenschlaf unter der Anordnung.
-
-3. **Verhältnismäßigkeit falsch eingeschätzt** — ein Globalantrag gegen alle Gläubiger ohne konkrete Begründung wird abgelehnt. Selektivität und Begründung sind essenziell.
-
-4. **Verwechslung mit Insolvenzmoratorium** — die Stabilisierungsanordnung ist kein InsO-Verfahren. Keine automatische Aussetzung aller Verbindlichkeiten — nur die beantragten Wirkungen gelten.
-
-5. **Dauer falsch kalkuliert** — acht Monate klingen lang, sind aber kurz für eine komplexe Restrukturierung. Planungshorizont und Zeitplan müssen von Anfang an realistisch sein.
-
----
-
-## Querverweise
-
-- → `restrukturierungsplan-architektur-paragraph-7ff-starug` — Planvoraussetzung für Anordnung
-- → `restrukturierungsbeauftragter-und-sachwalter` — Rolle externer Organe während Anordnung
-- → `drohende-zahlungsunfaehigkeit-paragraph-18-inso` — Zugangsvoraussetzung
-- → `cross-class-cram-down-und-absolute-priority` — Parallele Planabstimmung unter Schutz
-- → `dokumentationspflicht-und-protokollierung-geschaeftsfuehrung` — Pflichten während Anordnung
-
-## Aktuelle Leitentscheidungen — Stabilisierungsanordnung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Paragrafenkette Stabilisierungsanordnung
-
-§ 49 StaRUG (Stabilisierungsanordnung) → § 50 StaRUG (Vollstreckungsverbot) → § 51 StaRUG (Sicherheitsleistung) → § 52 StaRUG (Wirkung) → § 53 StaRUG (3-Monats-Frist) → § 54 StaRUG (Aufhebung)
-
-## Triage — Stabilisierungsanordnung
-
-1. **Vollstreckungsbedrohung akut?** Pfaendung, Zwangsversteigerung, Sicherheitsverwertung konkret drohen?
-2. **Sanierungsfaehigkeit glaubhaft?** Positives Sanierungsgutachten (IDW S 11 Qualitaet) vorhanden?
-3. **Restrukturierungssache angezeigt?** § 31 StaRUG als Voraussetzung fuer Stabilisierungsanordnung.
-4. **3-Monats-Frist ausreichend?** Ist Plan innerhalb von 3 Monaten abstimmungsreif?
-
----
-<!-- AUDIT 27.05.2026 | Bundle 036
-Rechtsprechung live pruefen: Thema und Fundstelle nur mit freier/amtlicher Quelle dokumentieren.
-Rechtsprechung live pruefen: Falsche Themenzuordnung ohne verifizierte Quelle nicht ausgeben.
-Kein echter StaRUG-Bezug. Aktion: Eintrag geloescht.
--->
+1. Paragraf 50 StaRUG nicht als Gläubigerbenachrichtigung bezeichnen.
+2. Paragraf 51 StaRUG nicht als Wirkungsnorm für Sicherheiten bezeichnen.
+3. Paragraf 53 StaRUG als Dauernorm verwenden.
+4. Paragraf 49 StaRUG nicht als pauschales Moratorium für sämtliche Pflichten darstellen.
+5. Ausnahmen des Paragrafen 4 und Finanzsicherheiten nach Paragraf 56 StaRUG prüfen.
+6. Die eigene Antragspflicht nach Paragraf 15a InsO nie als ausgesetzt behandeln.
+7. Rechtsprechung nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle verwenden.

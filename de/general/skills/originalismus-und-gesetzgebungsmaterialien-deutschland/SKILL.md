@@ -1,0 +1,106 @@
+---
+name: originalismus-und-gesetzgebungsmaterialien-deutschland
+title: Analysiert den deutschen Originalismus als Auslegungsansatz, der den historischen Gesetzgeberwillen konsequent in den Mi
+description: 'Für Originalismus und Gesetzgebungsmaterialien Deutschland: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/methodenlehre-buergerliches-recht/skills/originalismus-und-gesetzgebungsmaterialien-deutschland
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: general
+language: de
+---
+
+# Analysiert den deutschen Originalismus als Auslegungsansatz, der den historischen Gesetzgeberwillen konsequent in den Mittelpunkt stellt, und vergleicht ihn mit dem US-amerikanischen Originalismus
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Analysiert den deutschen Originalismus als Auslegungsansatz, der den historischen Gesetzgeberwillen konsequent in den Mittelpunkt stellt, und vergleicht ihn mit dem US-amerikanischen Originalismus. Das Skill zeigt Stärken und Schwächen des originalistischen Ansatzes für das deutsche Zivilrecht und lehrt den methodisch korrekten Rückgriff auf Gesetzgebungsmaterialien im deutschen Rechtssystem.
+
+### Originalismus und Gesetzgebungsmaterialien in Deutschland
+
+## Fachlicher Kern — Juristische Methodenlehre
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Originalismus und Gesetzgebungsmaterialien in Deutschland` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** Wortlaut, Systematik, Historie, Telos, Verfassung, Unionsrecht, Analogie, teleologische Reduktion, Generalklauseln, Präjudizien, Beweislast und prozessuale Umsetzbarkeit.
+- **Verifizierte Anker:** Dworkin als Prinzipien-/Integritätskontrolle für hard cases; Kelsen als Normstufen-/Kompetenzhygiene; Canaris-Systemdenken und Larenz-Wertungsjurisprudenz kritisch prüfen, Larenz’ NS-Vergangenheit und autoritäre Ordnungsnähe nicht ausblenden.
+- **Arbeitsmodus:** Keine Formel behaupten („Ausnahmen eng“, „h.M.“), sondern Normzweck, Lücke, Vergleichbarkeit, Kompetenz, Bindung und Folgen offenlegen; Rechtsfortbildung nur mit sauberem Grenzprotokoll.
+- **Outputpflicht:** Auslegungsmatrix, Lückenprotokoll, Schriftsatzargument, Gutachtenbaustein, Richterrechts-Red-Team oder Begründungscheck.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+Der Originalismus fragt nach dem ursprünglichen Sinn und Willen des Gesetzgebers bei Normschaffung. Im deutschen Recht hat er eine starke Tradition im Rückgriff auf BGB-Motive und Bundestags-Protokolle. Dieses Skill untersucht die methodischen Grundlagen, Grenzen und den Vergleich zum US-amerikanischen Originalismus.
+
+## Mandantenfall
+
+- Bei der Auslegung einer BGB-Norm aus dem Jahr 1900 soll der historische Gesetzgeberwille ermittelt werden. Das Skill zeigt, wie BGB-Motive, Protokolle der Kommissionen und parlamentarische Debatten methodisch ausgewertet werden und welchen Stellenwert sie gegenüber moderner Teleologie haben.
+- Im Schuldrecht wurde eine Norm im Jahr 2002 durch die Schuldrechtsmodernisierung geändert. Die originalistischen Materialien (Referentenentwürfe, Bundestags-Drucksachen) sollen für die Auslegung des neuen Begriffs "Pflichtverletzung" herangezogen werden. Das Skill prüft den methodischen Wert dieser Materialien.
+- Ein Rechtsstreit im Verfassungsrecht stellt die Frage, ob der ursprüngliche Wille der Verfassungsväter des Grundgesetzes von 1949 für die heutige Auslegung maßgeblich ist. Das Skill überträgt die Debatte auf die zivilrechtliche Methodenlehre.
+
+## Erste Schritte
+
+1. Bestimme den historischen Gesetzgeberwillen anhand der primären Quellen: Motive, Protokolle, Regierungsentwürfe, Bundesrats- und Bundestags-Drucksachen.
+2. Prüfe die Aussagekraft der Quellen: Reflektieren sie den Willen des gesetzgebenden Organs oder nur eines Mitglieds des Gesetzgebungsprozesses?
+3. Stelle fest, inwieweit der historische Wille für den aktuellen Fall unmittelbar einschlägig ist oder ob er auf einen anderen historischen Sachverhalt bezogen war.
+4. Ermittle den historischen Problemkontext: Welche Missstände sollte die Norm beheben, und sind diese Missstände heute noch relevant?
+5. Prüfe den Zeitwandel-Einwand: Gibt es Gründe, warum der historische Wille für die heutige Anwendung nicht mehr maßgeblich sein sollte?
+6. Formuliere das originalistisch-basierte Auslegungsergebnis und seine Grenzen.
+
+## Rechtsrahmen
+
+- § 133 BGB — Auslegung nach dem wirklichen Willen als Ausgangspunkt des deutschen Originalismus
+- Art. 20 Abs. 3 GG — Gesetzesbindung als normativer Rückhalt für originalistische Methodenpositionen
+- Art. 79 Abs. 3 GG — Ewigkeitsklausel als Grenze: bestimmte Verfassungsgrundsätze können nicht durch Originalismus überwunden werden
+- Art. 70 GG — Gesetzgebungskompetenz als Bestimmungsgrundlage des zuständigen Gesetzgebers, dessen Wille maßgeblich ist
+- § 2 EGBGB — Auslegungsregel für das Verhältnis von altem und neuem Recht bei originalistischer Auslegung
+- BGB-Motive von 1888-1896 — primäre Materialquellen des deutschen Originalismus im Zivilrecht
+
+## Prüfraster
+
+1. Sind die primären Materialquellen vollständig und richtig identifiziert?
+2. Reflektieren die Quellen den Willen des gesetzgebenden Organs?
+3. Ist der historische Wille für den aktuellen Fall direkt einschlägig?
+4. Gibt es Zeitwandelargumente, die den historischen Willen überholen?
+5. Ist der Unterschied zwischen deutschem Originalismus (Gesetzgeberwille) und US-amerikanischem Originalismus (Wortlautsinn bei Normschaffung) berücksichtigt?
+6. Ist das originalistische Ergebnis kompatibel mit dem aktuellen Verfassungsrahmen?
+7. Ist die Methodenwahl transparent als originalistisch ausgewiesen?
+
+## Typische Fallstricke
+
+- Deutsche und US-amerikanische Originalismus werden gleichgesetzt: Im deutschen Recht geht es um den Gesetzgeberwillen, in den USA um den historischen Wortlautsinn.
+- Gesetzgebungsmaterialien werden als verbindliche Normen zitiert statt als Auslegungshilfen.
+- Der Zeitwandel-Einwand wird ignoriert: Ein originalistischer Ansatz muss erklären, warum der historische Wille heute noch gilt.
+- Primäre Quellen (Motive, Protokolle) werden selektiv zitiert, um das gewünschte Ergebnis zu stützen.
+- Der historische Wille kann widersprüchlich sein — diese Widersprüche werden nicht aufgelöst.
+
+## Vertiefung: Komparativer Originalismus und seine Grenzen
+
+Ein komparativer Originalismus befragt nicht nur den deutschen, sondern auch den Gesetzgeberwillen anderer Rechtsordnungen, wenn es um Normen mit internationalem Kontext geht (UN-Kaufrecht, EU-Richtlinien). Hier ist der relevante historische Wille derjenige der internationalen Verhandlungsgemeinschaft, nicht allein des deutschen Gesetzgebers. Diese Besonderheit verlangt erweiterte Materialkunde.
+
+## Hinweise zur Praxis
+
+Beim Rückgriff auf historische Materialien ist die Zitierpflicht ernst zu nehmen: Fundstelle, Dokumententyp und Datum müssen stets vollständig angegeben werden. Unbelegt zitierte "Gesetzgebungsmaterialien" verlieren ihre Überzeugungskraft und können im Gegenteil den Eindruck selektiver Argumentation erwecken. Bundestagsprotokolle und -drucksachen sind über das Bundestags-Informationssystem kostenfrei zugänglich.
+
+## Weiterführende Analyse
+
+Der deutsche Originalismus unterscheidet sich fundamental vom US-amerikanischen Originalismus: Während US-amerikanische Originalisten den Text der Verfassung auf seinen historischen Bedeutungsgehalt im Zeitpunkt der Ratifizierung beschränken wollen, fragt der deutsche Ansatz nach dem Willen des Gesetzgebers, der über den Wortlaut hinausgehen kann. Diese Differenz ist für den Methodenvergleich zentral und sollte in rechtsvergleichenden Beiträgen stets klar herausgearbeitet werden.
+
+## Checkliste zur Selbstprüfung
+
+Vor Abgabe des fertigen Dokuments sollten folgende Punkte kurz geprüft werden: Sind alle Auslegungsmethoden zumindest erwähnt? Ist die Methodenwahl explizit begründet? Sind alle Behauptungen normativ oder empirisch rückgebunden? Ist das Ergebnis konsistent mit vergleichbaren Entscheidungen? Ist die institutionelle Zuständigkeit für die getroffene Entscheidung gewahrt? Wurde die Gegenposition ernsthaft berücksichtigt? Sind alle verwendeten Quellen korrekt angegeben?
+
+## Quellen
+
+- [§ 133 BGB – Auslegung](https://www.gesetze-im-internet.de/bgb/__133.html)
+- [Art. 79 GG – Ewigkeitsklausel](https://dejure.org/gesetze/GG/79.html)
+- [Art. 20 GG bei dejure](https://dejure.org/gesetze/GG/20.html)
+- [BGB-Motive – digitale Ausgabe via gesetze-im-internet](https://www.gesetze-im-internet.de/bgb/)
+- [§ 2 EGBGB bei dejure](https://dejure.org/gesetze/EGBGB/2.html)
+
+> Dieses Skill ist Teil des Methodenlehre-Curriculums im Bürgerlichen Recht und steht im Kontext des Rechtsstaats- und Demokratieprinzips des Grundgesetzes.

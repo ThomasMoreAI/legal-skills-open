@@ -1,11 +1,11 @@
 ---
 name: methodenlehre-strafrecht
 title: Methodenlehre — Strafrecht
-description: Übt die strafrechtliche Methodenlehre — dreistufiger Verbrechensaufbau (Tatbestand, Rechtswidrigkeit, Schuld), Trennung objektiver/subjektiver Tatbestand, Konkurrenzlehre (Tateinheit § 52, Tatmehrheit § 53, Gesetzeskonkurrenz), Analogieverbot Art. 103 II GG, Auslegung im Lichte des Bestimmtheitsgebots. Lädt, wenn der Nutzer "Strafrecht-Aufbau", "Verbrechensaufbau prüfen", "Konkurrenzen Strafrecht", "Analogieverbot" oder "Vorsatz subsumieren" sagt.
+description: 'Für Methodenlehre — Strafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jurastudium/skills/methodenlehre-strafrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,6 +14,17 @@ language: de
 
 # Methodenlehre — Strafrecht
 
+## Arbeitsbereich
+
+Übt die strafrechtliche Methodenlehre — dreistufiger Verbrechensaufbau (Tatbestand, Rechtswidrigkeit, Schuld), Trennung objektiver/subjektiver Tatbestand, Konkurrenzlehre (Tateinheit § 52, Tatmehrheit § 53, Gesetzeskonkurrenz), Analogieverbot Art. 103 II GG, Auslegung im Lichte des Bestimmtheitsgebots. Lädt, wenn der Nutzer "Strafrecht-Aufbau", "Verbrechensaufbau prüfen", "Konkurrenzen Strafrecht", "Analogieverbot" oder "Vorsatz subsumieren" sagt. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: DRiG § 5a Studiendauer 9 Semester (Regelstudienzeit), Freischuss-Frist (i.d.R. 8 Semester nach JAG), Wiederholungsfrist, Hausarbeit 4-6 Wochen.
+- Tragende Normen verifizieren: DRiG §§ 5, 5a, 5b (Erste Prüfung), JAG der Länder, JAPO Bayern, JAG NRW, BBesG (Referendariat), Hochschulgesetze, Studienordnungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Justizprüfungsamt (Landesjustizverwaltung), Universität, Repetitorium, Klausurleiter, Mündliche-Prüfungs-Kommission.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Klausurgutachten (Anspruchsgrundlage, Tatbestand, Subsumtion, Ergebnis), Hausarbeit, Aktenvortrag (Referendar), Probeklausur, Prüfungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 1. Welches Strafrechts-Thema wird erarbeitet: Tatbestand, Rechtswidrigkeit, Schuld oder Konkurrenzen?
@@ -21,21 +32,11 @@ language: de
 3. Welcher Aspekt ist unklar: objektiver Tatbestand, subjektiver Tatbestand oder Trennungsfragen?
 4. Liegt ein Analogieproblem oder ein Bestimmtheitsproblem (Art. 103 Abs. 2 GG) vor?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 - §§ 13-35 StGB — Allgemeiner Teil: methodischer Kern des Strafrechts
 - Art. 103 Abs. 2 GG — Bestimmtheitsgebot: Analogieverbot und seine Auswirkung auf Auslegung
 - §§ 52, 53 StGB — Konkurrenzlehre: Tateinheit und Tatmehrheit
 - § 15 StGB — Vorsatz als Regelform; Fahrlässigkeit nur bei ausdrucklicher Normierung
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Strafrecht hat den methodisch strengsten Aufbau aller drei großen Rechtsgebiete: dreistufig, formal trennscharf, mit Verboten, die in anderen Rechtsgebieten nicht gelten (Analogieverbot zulasten des Täters, Bestimmtheitsgebot, Rückwirkungsverbot, Schuldprinzip). Wer das innere Gerüst kennt, kann jede Klausur lösen — auch ohne den konkreten Tatbestand auswendig zu wissen.
 
 ## Eingaben
 
@@ -119,20 +120,15 @@ Die Konkurrenzen sind der zweite große Methodenkomplex im Strafrecht.
 
 ## Drill-Modus
 
-1. Studierender bekommt einen Sachverhalt.
+1. Studentenr bekommt einen Sachverhalt.
 2. Skill fragt: "Welche Tatbestände kommen in Betracht — und in welcher Reihenfolge prüfst du?"
 3. Pro Tatbestand: Aufbau strikt dreistufig durchgehen. Skill markiert jeden Aufbaufehler.
 4. Konkurrenzen werden **zum Schluss** geprüft, nicht zwischendrin.
 5. Skill prüft Trennung objektiv/subjektiv besonders streng.
 
-## Querverweise
-
-- `methodenlehre-grundlagen` — Auslegung allgemein (Wortlautgrenze besonders streng).
-- `subsumtionslehre` — Subsumtion innerhalb jedes Tatbestandsmerkmals.
-- `loesungsschemata` — Verbrechensaufbau als Schema (mit Disclaimer).
-- `rechtsgeschichte` — Strafrecht im NS und in der SBZ/DDR als methodisches Anschauungsmaterial dafür, was passiert, wenn Bestimmtheit fällt.
-
 ## Was diese Skill nicht tut
 
 - Sie korrigiert keine ausgeschriebenen Gutachten (das macht `gutachten-uebung`).
 - Sie übt nicht den Streit objektive/subjektive Theorie auf Detailniveau — sie übt die Anwendung in der Klausur.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: strafbefehl-rechtsprechungsrecherche
 title: Rechtsprechungsrecherche im Strafbefehlsverfahren
-description: 'Rechtsprechung zum Strafbefehlsverfahren recherchieren für Schriftsaetze oder Argumentation in der Hauptverhandlung. Prüfraster BGH OLG-Rspr zu §§ 407-412 StPO Einspruch Wiedereinsetzung Strafzumessung. Normen §§ 407 408 410 412 StPO. Workflow Datenbankrecherche juris beck-online OpenJur Suchstrategien Normenkette. Output aufbereitete Kernzitate für Schriftsaetze mit Aktenzeichen und Leitsatz. Abgrenzung: strafbefehl-beweis-und-einlassung für die inhaltliche Verteidigungsstrategie.'
+description: 'Für Rechtsprechungsrecherche im Strafbefehlsverfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehl-rechtsprechungsrecherche
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: criminal
@@ -14,10 +14,22 @@ language: de
 
 # Rechtsprechungsrecherche im Strafbefehlsverfahren
 
+## Arbeitsbereich
+
+Rechtsprechung zum Strafbefehlsverfahren recherchieren für Schriftsaetze oder Argumentation in der Hauptverhandlung. Prüfraster BGH OLG-Rspr zu §§ 407-412 StPO Einspruch Wiedereinsetzung Strafzumessung. Normen §§ 407 408 410 412 StPO. Datenbankrecherche juris beck-online OpenJur Suchstrategien Normenkette. Output aufbereitete Kernzitate für Schriftsaetze mit Aktenzeichen und Leitsatz. Abgrenzung: strafbefehl-beweis-und-einlassung für die inhaltliche Verteidigungsstrategie. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
 ## Triage zu Beginn
 
 1. **Was ist die Rechtsfrage?** — Zulaessigkeit des Strafbefehls? Einspruchsfrist? Tagessatz? Fahrerlaubnis? Rechtsfrage klar formulieren.
-2. **Welches Gericht ist zustaendig?** — BGH fuer grundsaetzliche Fragen; OLG fuer Revisionsentscheidungen vom AG; jeweilige Ober- und Bundesgerichte.
+2. **Welches Gericht ist zuständig?** — BGH für grundsaetzliche Fragen; OLG für Revisionsentscheidungen vom AG; jeweilige Ober- und Bundesgerichte.
 3. **Zeitraum der Recherche?** — Aktuelle Rechtsprechung (letzte 5 Jahre) hat Prioritaet; aeltere BGH-Grundsatzentscheidungen bleiben aber relevant.
 4. **Datenbank verfuegbar?** — amtliche oder frei zugängliche Quellen; lizenzierte Datenbanken nur bei vorhandenem Zugang, OpenJur (kostenlos), LexisNexis, Wolters Kluwer.
 1. Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
@@ -43,7 +55,7 @@ Querschnitt:
 § 44 StGB → Fahrverbot
 ```
 
-## Suchstrategien fuer Datenbanken
+## Suchstrategien für Datenbanken
 
 **amtliche/freie Quellen oder lizenzierte Datenbanken:**
 - Normen-Suche: "§ 410 StPO" + "Einspruch" + "Frist"
@@ -66,7 +78,7 @@ Vorbemerkung: Die unten genannten Fundstellen stammen aus geschlossenen Verlagsp
 ### § 407/409 StPO — Zulaessigkeit und Inhalt
 - Recherche-Anker: Verbrechen schliesst Strafbefehl aus (Nichtigkeit) — in dejure.org "§ 407 StPO Verbrechen Nichtigkeit" suchen
 - Recherche-Anker: Freiheitsstrafe ohne Bewaehrung unzulaessig — in dejure.org "§ 407 Abs. 2 StPO Freiheitsstrafe Bewaehrung" suchen
-- Recherche-Anker: Tatbeschreibung muss Art. 103 Abs. 2 GG genuegen — in dejure.org "§ 409 StPO Tatbeschreibung Bestimmtheit" suchen
+- Recherche-Anker: Tatbeschreibung muss Art. 103 Abs. 2 GG genügen — in dejure.org "§ 409 StPO Tatbeschreibung Bestimmtheit" suchen
 
 ### § 410 StPO — Einspruch und Frist
 - Recherche-Anker: Zustellungsfiktion § 180 ZPO im Strafbefehlsverfahren — in dejure.org "§ 410 StPO § 180 ZPO Zustellungsfiktion" suchen
@@ -83,7 +95,7 @@ Vorbemerkung: Die unten genannten Fundstellen stammen aus geschlossenen Verlagsp
 - BGH (GSSt) 03.02.2025 — GSSt 1/24 (KCanG, Cannabisbesitz/Handeltreiben, sanktionsfreie Mengen): Beim KCanG-Strafbefehl ist die sanktionsfreie Eigenkonsummenge sowohl bei der Schuldfrage als auch in der Einziehung zu berücksichtigen. Offene Fundstelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Text=GSSt+1/24
 - BGH 15.07.2025 — 2 StR 644/24 (KCanG-Strafzumessung): Die in § 1 Nr. 8 ff. KCanG enthaltene gesetzliche Wertung ist bestimmender Strafzumessungsgrund. Offene Fundstelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Text=2+StR+644/24
 
-## Schritt-fuer-Schritt-Recherche-Workflow
+## Schritt-für-Schritt-Recherche-Workflow
 
 1. **Rechtsfrage praezisieren:** "Wann beginnt die Einspruchsfrist bei Einwurf-Einschreiben?" (nicht pauschal: "Frist").
 2. **Normenkette aufbauen:** §§ 410, 37 StPO, 180 ZPO.
@@ -96,10 +108,10 @@ Vorbemerkung: Die unten genannten Fundstellen stammen aus geschlossenen Verlagsp
 
 | Abkuerzung | Zeitschrift |
 |-----------|------------|
-| NStZ | Neue Zeitschrift fuer Strafrecht |
+| NStZ | Neue Zeitschrift für Strafrecht |
 | NStZ-RR | NStZ-Rechtsprechungs-Report |
 | NJW | Neue Juristische Wochenschrift |
-| NZV | Neue Zeitschrift fuer Verkehrsrecht |
+| NZV | Neue Zeitschrift für Verkehrsrecht |
 | JZ | Juristenzeitung |
 | StV | Strafverteidiger |
 | BGHZ | Entscheidungen BGH Zivilsachen |

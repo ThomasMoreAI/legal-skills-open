@@ -1,26 +1,35 @@
 ---
 name: mietspiegel-quellen
 title: Mietspiegel-Quellen (amtlich)
-description: Operationalisiert die Prüfung der ortsueblichen Vergleichsmiete und der Mietpreisbremse anhand der mitgelieferten Referenz references/mietspiegel-quellen.md. Nutze diesen Skill, wenn für eine konkrete Adresse die ortsuebliche Vergleichsmiete, die Wohnlage, die Mietpreisbremse oder die Kappungsgrenze geprüft werden soll. Liefert ein strukturiertes Datenblatt für die Folgeskills mieterhoehung-prüfen-widersprechen und klageentwurf-amtsgericht.
+description: 'Für Mietspiegel-Quellen (amtlich): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mietspiegel-quellen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
 language: de
+sources:
+- title: Mietspiegel quellen
+  path: references/mietspiegel-quellen.md
 ---
 
 # Mietspiegel-Quellen (amtlich)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill macht aus einer Mandantenadresse ein **strukturiertes Datenblatt zur ortsüblichen Vergleichsmiete**, mit dem die Folgeskills `mieterhoehung-pruefen-widersprechen`, `klageentwurf-amtsgericht`, `mieterhoehungsverlangen-erstellen` und `mietsenkungsverlangen` unmittelbar weiterrechnen können.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BGB §§ 535-577a, BetrKV, WEG §§ 24, 25, 27, BGB §§ 558, 558a, 558b, 573, 573c — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-Die vollständige amtliche Quellensammlung steht in der mitgelieferten Referenz:
-
-- [references/mietspiegel-quellen.md](../../references/mietspiegel-quellen.md) — Bundesweite Rechtsgrundlagen, 16 Bundesländer, 20 größte Städte, 25 Universitätsstädte.
+## Fachlicher Kern — Miet- und WEG-Recht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Mietspiegel-Quellen (amtlich)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Immer erst Verhältnis Miete/WEG/Gewerbe/Verwaltung trennen, dann Frist, Beschlusskompetenz, Umlagefähigkeit, Belege, Gebrauchsnachteil und Kostenfolge prüfen.
+- **Outputpflicht:** Abrechnungsprüftabelle, Beschlussvorschlag, Anfechtungs-/Beschlussersetzungsskizze, Mietermail, Vermieterschreiben oder Verwalter-To-do-Liste.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Wann diesen Skill verwenden
 
@@ -91,61 +100,61 @@ Am Ende von Schritt 6 wird ein strukturiertes Datenblatt erzeugt, das die Folges
 
 ```yaml
 mietspiegel_pruefung:
-  stand_der_pruefung: "JJJJ-MM-TT"
+ stand_der_pruefung: "JJJJ-MM-TT"
 
-  adresse:
-    strasse: ""
-    hausnummer: ""
-    plz: ""
-    stadt: ""
-    bundesland: ""
+ adresse:
+ strasse: ""
+ hausnummer: ""
+ plz: ""
+ stadt: ""
+ bundesland: ""
 
-  wohnung:
-    flaeche_qm: 0.0
-    baujahr: 0
-    wohnlage: ""        # einfach | mittel | gut
-    ausstattung:
-      bad: ""
-      kueche: ""
-      heizung: ""
-      bodenbelag: ""
-      fenster: ""
-      balkon_terrasse: ""
-      aufzug: false
-      stellplatz: false
+ wohnung:
+ flaeche_qm: 0.0
+ baujahr: 0
+ wohnlage: "" # einfach | mittel | gut
+ ausstattung:
+ bad: ""
+ kueche: ""
+ heizung: ""
+ bodenbelag: ""
+ fenster: ""
+ balkon_terrasse: ""
+ aufzug: false
+ stellplatz: false
 
-  mietspiegel:
-    quelle_url: ""
-    typ: ""             # qualifiziert | einfach
-    stand_jahr: 0
-    tabellen_zelle: ""  # z. B. "60–80 qm, BJ 1949–1977, mittlere Wohnlage"
-    spanne_von_eur_qm: 0.0
-    spanne_bis_eur_qm: 0.0
-    mittelwert_eur_qm: 0.0
-    zuschlaege_abschlaege_eur_qm: 0.0
-    ortsuebliche_vergleichsmiete_eur_qm: 0.0
+ mietspiegel:
+ quelle_url: ""
+ typ: "" # qualifiziert | einfach
+ stand_jahr: 0
+ tabellen_zelle: "" # z. B. "60–80 qm, BJ 1949–1977, mittlere Wohnlage"
+ spanne_von_eur_qm: 0.0
+ spanne_bis_eur_qm: 0.0
+ mittelwert_eur_qm: 0.0
+ zuschlaege_abschlaege_eur_qm: 0.0
+ ortsuebliche_vergleichsmiete_eur_qm: 0.0
 
-  mietverhaeltnis:
-    beginn: "JJJJ-MM-TT"
-    aktuelle_nettokaltmiete_eur_gesamt: 0.0
-    aktuelle_nettokaltmiete_eur_qm: 0.0
-    neuvermietung_oder_bestand: ""  # neuvermietung | bestand
+ mietverhaeltnis:
+ beginn: "JJJJ-MM-TT"
+ aktuelle_nettokaltmiete_eur_gesamt: 0.0
+ aktuelle_nettokaltmiete_eur_qm: 0.0
+ neuvermietung_oder_bestand: "" # neuvermietung | bestand
 
-  mietpreisbremse:                  # nur bei neuvermietung
-    landesverordnung: ""
-    angespannter_markt: false
-    hoechstmiete_eur_qm: 0.0
-    ausnahmen_geprueft: []
+ mietpreisbremse: # nur bei neuvermietung
+ landesverordnung: ""
+ angespannter_markt: false
+ hoechstmiete_eur_qm: 0.0
+ ausnahmen_geprueft: []
 
-  kappungsgrenze:                   # nur bei bestand
-    verschaerft_durch_landesverordnung: false
-    obergrenze_prozent: 0           # 20 oder 15
-    wartefrist_eingehalten: true
+ kappungsgrenze: # nur bei bestand
+ verschaerft_durch_landesverordnung: false
+ obergrenze_prozent: 0 # 20 oder 15
+ wartefrist_eingehalten: true
 
-  ergebnis:
-    bewertung: ""                   # zulaessig | unzulaessig | grenzfall
-    differenz_eur_qm: 0.0
-    naechster_schritt: ""           # uebergabe an mieterhoehung-pruefen-widersprechen, klageentwurf-amtsgericht, etc.
+ ergebnis:
+ bewertung: "" # zulaessig | unzulaessig | grenzfall
+ differenz_eur_qm: 0.0
+ naechster_schritt: "" # uebergabe an mieterhoehung-pruefen-widersprechen, klageentwurf-amtsgericht, etc.
 ```
 
 ## Gerechnetes Beispiel (zur Plausibilisierung)
@@ -177,15 +186,15 @@ Diese Quellensammlung ersetzt keine Rechtsberatung. Sie ist ein Werkzeug zur Rec
 
 ## Aktueller Gesetzgebungsstand zur Mietpreisbremse (Bund)
 
-- **Verlängerungsgesetz vom 17.07.2025** — BGBl. 2025 I Nr. 163. § 556d Abs. 2 Satz 4 BGB wurde dahingehend geaendert, dass die Ermächtigung der Landesregierungen zum Erlass von Mietpreisbremse-Verordnungen bis zum 31.12.2029 verlängert wurde. Ohne diese Verlängerung wären die Landesverordnungen spätestens Ende 2025 ausgelaufen. Verfassungsgerichtliche Pruefung dieses Verlaengerungsgesetzes 2025 steht zum Stand Mai 2026 noch aus.
-- **BVerfG, Nichtannahmebeschluss vom 08.01.2026 – Az. 1 BvR 183/25** — Wichtige Klarstellung: Diese Entscheidung betrifft **nicht** das Verlaengerungsgesetz 2025, sondern die **vorangegangene Verlaengerung von 2020** (§ 556d BGB in der Fassung vom 19.03.2020) sowie mittelbar die Berliner Mietenbegrenzungsverordnung vom 19.05.2020. Die Verfassungsbeschwerde einer Berliner Wohnungsgesellschaft blieb erfolglos. Das BVerfG haelt an seiner Linie aus 1 BvL 1/18 vom 18.07.2019 fest: §§ 556d ff. BGB sind mit Art. 14 GG vereinbar; die Mietpreisbremse stellt keinen unverhaeltnismaessigen Eingriff in die Eigentumsgarantie dar.
-- **Folgerung fuer das 2025er Gesetz**: Der Beschluss bestaetigt zwar die generelle verfassungsrechtliche Tragfaehigkeit der Mietpreisbremse-Konstruktion, traegt das 2025er Verlaengerungsgesetz jedoch nicht ausdruecklich mit. Aussagen wie "die Verlaengerung bis 2029 ist bereits verfassungsrechtlich gepruefte" sind unzutreffend; richtig ist nur, dass die Argumentationslinie aus 1 BvL 1/18 und 1 BvR 183/25 auf das 2025er Gesetz uebertragbar erscheint.
-- **Praxisfolge**: Für Neuvermietungen ab dem 01.01.2026 in Bundesländern mit Mietpreisbremse-Verordnung gilt die Begrenzung auf 110 Prozent der ortsueblichen Vergleichsmiete fort. Vor Beratung pruefen, ob die jeweilige Landesverordnung selbst noch in Kraft ist oder verlängert wurde — die Bundesregelung ermächtigt nur, sie verpflichtet nicht.
+- **Verlängerungsgesetz vom 17.07.2025** — BGBl. 2025 I Nr. 163. § 556d Abs. 2 Satz 4 BGB wurde dahingehend geaendert, dass die Ermächtigung der Landesregierungen zum Erlass von Mietpreisbremse-Verordnungen bis zum 31.12.2029 verlängert wurde. Ohne diese Verlängerung wären die Landesverordnungen spätestens Ende 2025 ausgelaufen. Verfassungsgerichtliche Prüfung dieses Verlaengerungsgesetzes 2025 steht zum Stand Mai 2026 noch aus.
+- **BVerfG, Nichtannahmebeschluss vom 08.01.2026 – Az. 1 BvR 183/25** — Wichtige Klarstellung: Diese Entscheidung betrifft **nicht** das Verlaengerungsgesetz 2025, sondern die **vorangegangene Verlaengerung von 2020** (§ 556d BGB in der Fassung vom 19.03.2020) sowie mittelbar die Berliner Mietenbegrenzungsverordnung vom 19.05.2020. Die Verfassungsbeschwerde einer Berliner Wohnungsgesellschaft blieb erfolglos. Das BVerfG haelt an seiner Linie aus 1 BvL 1/18 vom 18.07.2019 fest: §§ 556d ff. BGB sind mit Art. 14 GG vereinbar; die Mietpreisbremse stellt keinen unverhaeltnismäßigen Eingriff in die Eigentumsgarantie dar.
+- **Folgerung für das 2025er Gesetz**: Der Beschluss bestaetigt zwar die generelle verfassungsrechtliche Tragfaehigkeit der Mietpreisbremse-Konstruktion, traegt das 2025er Verlaengerungsgesetz jedoch nicht ausdruecklich mit. Aussagen wie "die Verlaengerung bis 2029 ist bereits verfassungsrechtlich gepruefte" sind unzutreffend; richtig ist nur, dass die Argumentationslinie aus 1 BvL 1/18 und 1 BvR 183/25 auf das 2025er Gesetz uebertragbar erscheint.
+- **Praxisfolge**: Für Neuvermietungen ab dem 01.01.2026 in Bundesländern mit Mietpreisbremse-Verordnung gilt die Begrenzung auf 110 Prozent der ortsueblichen Vergleichsmiete fort. Vor Beratung prüfen, ob die jeweilige Landesverordnung selbst noch in Kraft ist oder verlängert wurde — die Bundesregelung ermächtigt nur, sie verpflichtet nicht.
 - Quellen: BGBl. 2025 I Nr. 163 — https://www.recht.bund.de/bgbl/1/2025/163 ; BVerfG, Beschluss vom 08.01.2026 – 1 BvR 183/25 — https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2026/01/rk20260108_1bvr018325.html
 
 ## Aktuelle Rechtsprechung — Leitsaetze Mietspiegel
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ---
-<!-- AUDIT 27.05.2026 -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

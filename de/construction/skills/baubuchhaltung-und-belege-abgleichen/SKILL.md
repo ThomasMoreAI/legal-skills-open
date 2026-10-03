@@ -1,0 +1,59 @@
+---
+name: baubuchhaltung-und-belege-abgleichen
+title: 1. Bauprojektbelege mit Buchhaltung und Bank abgleichen
+description: Gleicht Rechnungen, Gutschriften, Buchungen, offene Posten und Bankbewegungen im Bauunternehmen ab und erstellt nachvollziehbare Korrekturvorschläge. Trennt Leistungsprüfung, Umsatzsteuer und Bauabzugsteuer; keine stille Änderung des Hauptbuchs.
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/baubuchhaltung-und-belege-abgleichen
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: construction
+language: de
+---
+
+# 1. Bauprojektbelege mit Buchhaltung und Bank abgleichen
+
+## 1. Zweck und Anwendungsfall
+
+Führe jeden relevanten Geschäftsvorfall zu Beleg, Projektzuordnung und Zahlungsstand zusammen. Der Abgleich ist weder ein Jahresabschluss noch eine automatische Steuer- oder Zahlungsfreigabe. Betriebliche Buchhaltung und Bankabgleich sind gesondert vom Planerauftrag zu bestimmen; die Rechnungsprüfung und Kostenkontrolle in HOAI Phase 8 ersetzen sie nicht.
+
+## 2. Eingaben
+
+Ohne Material frage nach Rechtsträger, Zeitraum, Buchhaltungsexport und gewünschtem Abgleich. Bei Ordner ohne Auftrag lies Rechnungen, Bank und offene Posten intern und biete Differenzbereinigung oder Projektbelegübersicht an. Bei klarem Ziel führe die bestehende Liste weiter. Kontenrahmen, Steuerschlüssel und Projektkennungen nur aus bestätigtem Bestand übernehmen.
+
+## 3. Ablauf / Checkliste
+
+### 3.1. Belege eindeutig zuordnen
+
+Nutze Lieferant, Rechnungsnummer, Datum, Betrag, Projekt und Bankreferenz gemeinsam. Gleicher Betrag allein beweist keine Dublette. Original, Kopie, Storno und korrigierte Rechnung unterscheiden. E-Rechnungsdaten und sichtbare PDF-Darstellung nicht als zwei Forderungen erfassen; Originalstruktur erhalten.
+
+### 3.2. Vier Ebenen abstimmen
+
+Verbinde Leistungsbeleg, Rechnung, Buchung und Zahlung. Teilzahlungen, Sammelzahlungen, Gutschriften, Skonto und Einbehalt nachvollziehbar aufteilen. Kumulative Bauabrechnung nicht als erneuten Gesamtumsatz oder vollständige neue Verbindlichkeit verdoppeln. Unzuordenbare Zahlung offen lassen und den fehlenden Bezug gezielt erfragen.
+
+Prüfe zusätzlich je Rechtsträger, Geschäftspartner, Währung und Stichtag die Summenbrücke: Anfangsbestand offener Posten plus neue Forderungs- oder Verbindlichkeitsbeträge minus Gutschriften, zugeordnete Zahlungen und belegte weitere Ausgleiche ergibt den Endbestand. Verwende dieselbe Betragsbasis und eine erklärte Vorzeichenkonvention; kumulative Vorbeträge nicht erneut zuführen. Jede Zahlungsaufteilung muss auf die Bankbewegung zurückführen. Einbehalt oder bestrittene Fälligkeit ist keine Zahlung und allein kein Grund zur Ausbuchung. Bestehende Restforderungen nach offen, einbehalten oder streitig kennzeichnen; ungeklärte Differenzen nicht durch erfundenes Skonto schließen.
+
+### 3.3. Steuerfälle getrennt prüfen
+
+Paragraf 13b UStG hängt von Leistung und Empfänger ab, nicht allein vom Firmennamen. Bauabzugsteuer nach Paragrafen 48 und 48b EStG ist eine andere Prüfung mit eigener Freistellungsbescheinigung. Nicht aus einer Bescheinigung für den einen Bereich die Freistellung im anderen ableiten. Bei ungeklärter steuerlicher Einordnung konkrete fachliche Rückfrage erstellen.
+
+### 3.4. Differenzen bereinigen und fortsetzen
+
+Erstelle pro Differenz den belegten Iststand, Korrekturvorschlag, Begründung und zuständige Freigabe. Keine Originalbuchung löschen oder rückdatieren; Nachvollziehbarkeit erhalten. Eine neu bestätigte Sammelzahlungsaufteilung wird in denselben Belegzeilen und offenen Posten verarbeitet. Buchungsexport oder Bankaktion nur bei ausdrücklich beauftragter und geprüfter Durchführung.
+
+Vertiefung bei einem umfangreichen Auftrag: Lesen Sie in [der modularen Bauwerkstatt](../../references/werkstatt/13-rechnung-und-buchhaltung.md) nur die passenden Stationen 79 bis 86. PDF und XRechnung derselben Forderung sind keine zwei Geschäftsvorfälle. Korrektur, Storno, Doppelzahlung und Rückzahlung erhalten getrennte Ursachen. Bei gemischten Grundstücks-, Notar- und Finanzierungskosten keine automatische Gebäudeaktivierung aus der Projektkostenliste ableiten. Fragen Sie nur nach der Buchungsgrundlage, die die konkrete Zuordnung verändert. Quellen und Übertragungsgrenzen stehen in den [verifizierten Entscheidungsankern](../../references/entscheidungsanker-2026.md); für den optionalen Bauträgerzweig zusätzlich in den [Bauträgerankern](../../references/entscheidungsanker-bautraeger-2026.md). Diese Ressourcen nur bei der jeweiligen Frage laden, nicht die gesamte Werkstatt vorsorglich.
+
+## 4. Quellenpflicht
+
+Verbindlich ist die [Zitierweise](../../references/zitierweise.md). [Fachquellen](../../references/fachquellen.md): Paragrafen 238 und 239 HGB, Paragrafen 13b und 14 UStG sowie Paragrafen 48 und 48b EStG sowie HOAI Anlage 10 Nummer 10.1 Phase 8 zur Leistungsabgrenzung. E-Rechnungsübergänge, Aufbewahrung und Steueranmeldungen bei Bedarf aktuell zusätzlich verifizieren; kein ungeprüftes GoBD-Gesamturteil. Verwende nur bereitgestellte oder verifizierte Normen und Entscheidungen; keine erfundenen Fundstellen, Randnummern oder technischen Regeltexte. Bezeichne Abruflücken präzise.
+
+## 5. Ausgabeformat
+
+Liefere eine ausgefüllte Abstimmliste mit eindeutigen Belegbezügen, verbleibenden Differenzen und ausformulierten Korrekturaufträgen. Keine verbuchten Korrekturen oder geprüfte Steuererklärung behaupten.
+
+Ausformulierungspflicht: Operative Textteile werden in vollständigen, ausformulierten Sätzen geliefert; Skelette, Halbsätze und reine Aufzählungs-Auswürfe sind als Endprodukt verboten. Tabellen dürfen fachübliche Datenfelder enthalten, ersetzen aber keinen bestellten Text. Formatierte Dokumente verwenden soweit technisch möglich Times New Roman 11 pt, ausschließlich dezimale Gliederung und Leerzeilen nach Überschriften. Bei Markdown den Exporthinweis getrennt geben. Deutsch mit echten Umlauten und ß; Paragraf ausschreiben. Keine nicht erzeugte Datei oder externe Handlung behaupten.
+
+## 6. Beispiele
+
+Eine Sammelzahlung über 23800 EUR betrifft zwei Rechnungen über je 11900 EUR brutto. Nach belegter Aufteilung werden beide offenen Posten ausgeglichen, nicht nur die erste Rechnung doppelt bezahlt oder die zweite gelöscht.

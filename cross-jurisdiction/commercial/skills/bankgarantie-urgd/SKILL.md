@@ -1,0 +1,59 @@
+---
+name: bankgarantie-urgd
+title: Bankgarantien nach URDG 758
+description: 'Für Bankgarantien nach URDG 758: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/bankgarantie-urgd
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: cross-jurisdiction
+practice: commercial
+language: de
+---
+
+# Bankgarantien nach URDG 758
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: HGB §§ 1-7, 17-37 (Firma/Register), 48-58 (Prokura), 84-92c (Handelsvertreter), 343 ff. (Handelsgeschäfte), 373 ff. (Handelskauf); CISG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Worum es geht
+
+URDG 758 (Uniform Rules for Demand Guarantees, ICC 2010) ist das wichtigste Regelwerk für Nachfrage-Bankgarantien weltweit. Eine Demand Guarantee verpflichtet die Garantiebank zur Zahlung auf erste Anforderung und Vorlage einer Erklärung über Vertragsverletzung. URDG 758 bietet Gleichgewicht zwischen Begünstigten-Schutz und Missbrauchsprävention.
+
+## Kernnormen / Kernquellen
+
+- **URDG 758 Art. 5**: Unabhängigkeit der Garantie — kein Rückgriff auf Grundgeschäft
+- **URDG 758 Art. 14**: Anforderungsabruf — Erklärung über Vertragsverletzung erforderlich
+- **URDG 758 Art. 15**: Nicht-konforme Präsentation — Ablehnung und Benachrichtigung
+- **URDG 758 Art. 19**: Force Majeure bei Garantiebank
+- **URDG 758 Art. 20**: Verlängerungsanforderung (Extend-or-Pay)
+- **URDG 758 Art. 34**: Missbrauch und Fraud — keine explizite Regelung, national ergänzen
+
+## Schlüsselbegriffe
+
+- Bietungsgarantie (Bid Bond): sichert Seriosität des Angebots (2-5% Angebotssumme)
+- Erfüllungsgarantie (Performance Bond): sichert Vertragserfüllung (5-10%)
+- Anzahlungsgarantie (Advance Payment Bond): sichert Rückzahlung von Vorauszahlungen
+- Gegengarantie (Counter-Guarantee): Instruktionsbank garantiert gegenüber Garantiebank
+- Extend-or-Pay: Begünstigter verlangt Verlängerung statt Sofortabruf
+
+## Typische Streitfragen / Anwendungsfälle
+
+1. Performance Bond Abruf ohne Vertragserfüllung: Ist Missbrauchseinwand (fraud) anerkannt?
+2. Gegengarantie: Ist Instruktionsbank automatisch gebunden wenn Erstgarantiebank zahlt?
+3. Extend-or-Pay: Muss Begünstigter Verlängerung gewähren oder kann er direkt abrufen?
+4. URDG 758 vs. ISP98: Welches Regelwerk bei internationaler Bietungsgarantie im Nahen Osten?
+5. Sprache der Abrufserklärung: URDG 758 Art. 14 — welche Sprache gilt?
+
+## Methodik
+
+- Garantietyp nach Zweck: Bid Bond, Performance Bond, APB nach Risikoprofil
+- URDG 758 einbeziehen: "subject to URDG 758" in Garantietext
+- Abrufbedingungen: so einfach wie möglich (Erklärung + ggf. Dokument)
+- Fraud-Ausnahme: nationales Recht prüfen (England, Deutschland: Injunction möglich)

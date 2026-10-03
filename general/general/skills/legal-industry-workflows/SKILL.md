@@ -5,11 +5,14 @@ description: Build reusable, practice-specific legal workflows with Claude by co
 author: uygnoey
 author_url: https://github.com/uygnoey/skills-from-claude-blog/tree/main/2026.05.12_claude-for-the-legal-industry/skills/legal-industry-workflows
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
+sources:
+- title: Workflow checklists
+  path: references/workflow-checklists.md
 ---
 
 # Legal industry workflows

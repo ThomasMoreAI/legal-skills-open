@@ -1,12 +1,11 @@
 ---
 name: wa-spokane
 title: Spokane County Superior Court — Venue Skill
-description: Use when handling a Spokane County, Washington Superior Court case — civil practice at the **Spokane County Courthouse** (1116 West Broadway Avenue, Spokane), the largest Eastern Washington county with ~547,000 residents and the regional hub for Eastern WA civil + family + criminal practice. Spokane County Superior Court has **Spokane County Local Rules (SLR)** overlaying the general CR + GR. Coverage includes Spokane's **e-filing system**, the case-management order issued under SLR 16, family-law calendar, Spokane Family Law Commissioners under RCW 2.24, Spokane's participation in **Mandatory Arbitration of Civil Actions (MAR) under RCW 7.06** (current cap per RCW 7.06.020 — read from references), Spokane's **drug- court / therapeutic-court divisions**, and the General Order on remote hearings. Spokane functions as the **Eastern Washington appellate hub** with Division III of the Court of Appeals also seated in Spokane. Triggers include "Spokane County Superior Court", "Spokane
-  Superior Court", "SLR", "Spokane local rules", "Spokane e-filing", "Spokane family law", "Spokane MAR", "Division III Court of Appeals".
+description: Use when handling a Spokane County, Washington Superior Court case — civil practice at the Spokane County Courthouse (1116 West Broadway), largest Eastern Washington county (~547,000 residents), regional civil/family hub. Covers general civil + family + criminal + juvenile with Spokane County Local Rules (SLR) overlaying CR + GR. Coverage includes e-filing system, case-management order (SLR 16), family-law calendar and commissioners (RCW 2.24), Mandatory Arbitration participation (RCW 7.06), drug-court/ therapeutic-court divisions, and remote-hearing orders. Spokane is Eastern Washington appellate hub with Division III Court of Appeals also seated here. Triggers include "Spokane County Superior Court", "SLR", "Division III".
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/wa-court-docs/skills/wa-spokane
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation

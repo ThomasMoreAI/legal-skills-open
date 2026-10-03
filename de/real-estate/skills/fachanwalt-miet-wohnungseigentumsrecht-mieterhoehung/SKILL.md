@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-miet-wohnungseigentumsrecht-mieterhoehung
 title: Mieterhöhung bis zur ortsüblichen Vergleichsmiete
-description: Vermieter will Miete erhoehen oder Mieter prüft Zustimmungspflicht zur Mieterhoehung. § 558 BGB ortsuebliche Vergleichsmiete Kappungsgrenze 20 Prozent bzw. 15 Prozent in angespannten Maerkten. Normen §§ 558-558b 559 556d ff. BGB. Prüfraster Wartefrist 15 Monate Begründungsmittel Mietspiegel Kappungsgrenze Zustimmungsklage § 558b Mietpreisbremse. Output Mieterhoehungs-Schreiben Zustimmungsklage. Abgrenzung zu eigenbedarfskündigung (Kündigung) und mietminderung-schimmel (Maengelrecht).
+description: 'Für Mieterhöhung bis zur ortsüblichen Vergleichsmiete: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills/fachanwalt-miet-wohnungseigentumsrecht-mieterhoehung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
@@ -229,3 +229,12 @@ Monats kündigen.
   - BGH, Urt. v. 26.03.2025 – VIII ZR 283/23 (Modernisierungsmieterhoehung Prognose Endenergieeinsparung): https://openjur.de/u/2517641.html
 - Schmidt/Futterer Mietrecht, aktuelle Aufl.
 - Blank/Börstinghaus Miete, aktuelle Aufl.
+
+
+## Qualitäts-Hardening
+
+- Arbeite aktennah: Tatsachen, Belege, Fristen, Zuständigkeit und gewünschtes Arbeitsprodukt zuerst klären.
+- Keine Rechtsprechung aus Modellwissen zitieren. Jede Entscheidung vor Ausgabe mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei oder amtlich prüfbarer Quelle absichern.
+- Keine BeckRS-, juris-, Kommentar-, Handbuch- oder Aufsatz-Blindzitate. Literatur nur verwenden, wenn der Nutzer sie bereitstellt oder ein lizenzierter Live-Zugriff im konkreten Arbeitsschritt dokumentiert ist.
+- Wenn eine Quelle, Randnummer, Behördenpraxis oder Frist nicht sicher geprüft ist, sichtbar als Prüfpunkt markieren und keine Scheinpräzision erzeugen.
+- Ergebnisse so liefern, dass sie sofort weiterverwendbar sind: Kurzbild, Prüfpfad, Risikoampel, Lückenliste und konkrete nächste Schritte.

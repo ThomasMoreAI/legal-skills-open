@@ -1,11 +1,11 @@
 ---
 name: vorlage-vendor-onboarding-3d
 title: /tabellenreview-3d:vorlage-vendor-onboarding-3d
-description: 'Vorlagetabelle für Lieferanten-Onboarding-Review im 3D-Format: Vertrag, Compliance, Leistung. Normen: BGB, UWG, GWB. Prüfraster: Vertragskonformität, Compliance-Status, Leistungsindikatoren. Output: Vendor-Onboarding-Prüftabelle. Abgrenzung: nicht allgemeine Vertragsprüfung.'
+description: 'Für /tabellenreview-3d:vorlage-vendor-onboarding-3d: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/tabellenreview-3d/skills/vorlage-vendor-onboarding-3d
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: commercial
@@ -13,7 +13,6 @@ language: de
 ---
 
 # /tabellenreview-3d:vorlage-vendor-onboarding-3d
-
 
 ## Triage zu Beginn
 
@@ -24,12 +23,6 @@ language: de
 
 ## Rechtliche Grundlagen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-
-## Zweck
-
-Beim Onboarding eines neuen Lieferanten (oder beim Bestands-Audit der vorhandenen) sind dieselben 17 Fragen aus 5 Perspektiven zu beantworten. Dieser Würfel liefert die Standardstruktur.
 
 ## Spalten (17 Datenpunkte)
 
@@ -92,7 +85,7 @@ Beim Onboarding eines neuen Lieferanten (oder beim Bestands-Audit der vorhandene
 
 - Zusatzspalten: GwG-Transparenzregister / Sanktionslisten-Treffer / Risiko nach LkSG Paragraph 5 / Beschwerdeverfahren-Anbindung
 - Prüfer: Compliance-Officer
-- Materialität rot: Sanktionslisten-Treffer; LkSG-Hochrisiko-Region ohne Pruefkette
+- Materialität rot: Sanktionslisten-Treffer; LkSG-Hochrisiko-Region ohne Prüfkette
 
 ### Wirtschaft
 
@@ -103,7 +96,7 @@ Beim Onboarding eines neuen Lieferanten (oder beim Bestands-Audit der vorhandene
 ## Normenrahmen
 
 - **DSGVO** — Artikel 28 (Auftragsverarbeitung) Artikel 35 (DSFA) Artikel 44 ff. (Drittlandtransfer)
-- **BDSG** — Beschaeftigtendatenschutz
+- **BDSG** — Beschäftigtendatenschutz
 - **GwG** — Paragraph 10 Sorgfaltspflichten Paragraph 20 Transparenzregister
 - **LkSG** — Paragraph 5 Risikoanalyse Paragraph 6 Präventionsmaßnahmen
 - **BGB** — Paragraph 305 ff. AGB-Kontrolle
@@ -112,3 +105,13 @@ Beim Onboarding eines neuen Lieferanten (oder beim Bestands-Audit der vorhandene
 ## Ausgabe
 
 Würfel-Schema fix und fertig. Direkt einsatzbereit.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

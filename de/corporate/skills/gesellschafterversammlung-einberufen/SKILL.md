@@ -1,11 +1,11 @@
 ---
 name: gesellschafterversammlung-einberufen
 title: Gesellschafterversammlung einberufen (Kapitalerhöhung)
-description: 'Gesellschafterversammlung für Wandeldarlehensmandat einberufen und Tagesordnung aufstellen. §§ 49 51 GmbHG Ladungspflichten. Prüfraster: Ladungsfrist Form Tagesordnung Quorum Vollmachten Protokollpflicht. Output: Einberufungsschreiben Tagesordnung Vollmachtsformular. Abgrenzung: nicht für spezifische Beschlussvorbereitung (gesellschafterbeschluss-vorbereiten).'
+description: 'Für Gesellschafterversammlung einberufen (Kapitalerhöhung): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/gesellschafterversammlung-einberufen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: corporate
@@ -14,9 +14,13 @@ language: de
 
 # Gesellschafterversammlung einberufen (Kapitalerhöhung)
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill leitet die Einberufung der außerordentlichen Gesellschafterversammlung zur Beschlussfassung über die Kapitalerhöhung gegen Sacheinlage (Wandlung Wandeldarlehen) ein. Phase D des Lebenszyklus.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 
@@ -34,10 +38,7 @@ Dieser Skill leitet die Einberufung der außerordentlichen Gesellschafterversamm
 - § 50 GmbHG (Einberufungsrecht Gesellschafter mit mehr als zehn Prozent)
 - § 51 GmbHG (Form und Frist: schriftlich, mindestens eine Woche)
 - § 51 Abs. 3 GmbHG (Beschlussfassung ohne Einberufung bei Einverständnis aller Gesellschafter)
-- § 53 Abs. 2 GmbHG (Satzungsänderungsbeschluss: notarielle Beurkundung, drei Viertel-Mehrheit)
-
-### Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- Paragraf 53 Absatz 2 GmbHG (Dreiviertelmehrheit) und Absatz 3 GmbHG (notarielle Beurkundung des Satzungsänderungsbeschlusses)
 
 ## Vorgehen
 
@@ -45,13 +46,13 @@ Dieser Skill leitet die Einberufung der außerordentlichen Gesellschafterversamm
 Option A – Schnellweg (§ 51 Abs. 3 GmbHG): Alle Gesellschafterinnen stimmen der Versammlung ohne Einberufung zu und verzichten auf die Ladungsfrist. Nur möglich bei einstimmigem Einverständnis. Option B – Reguläre Einberufung (§ 51): Schriftliche Einladung mindestens eine Woche vorher, Tagesordnung beifügen.
 
 ### 2. Einladungsschreiben verfassen
-Absender: Geschäftsführerin. Empfänger: alle Gesellschafterinnen. Inhalt: Datum, Uhrzeit, Ort (oder Videokonferenz falls Satzung erlaubt), Tagesordnung vollständig. Hinweis: Notarielle Beurkundung des Beschlusses (§ 53 Abs. 2 GmbHG).
+Absender: Geschäftsführerin. Empfänger: alle Gesellschafterinnen. Inhalt: Datum, Uhrzeit, Ort oder eine satzungsmäßig zulässige virtuelle Teilnahme sowie vollständige Tagesordnung. Hinweis: Der Kapitalerhöhungsbeschluss ist nach Paragraf 53 Absatz 3 GmbHG notariell zu beurkunden.
 
 ### 3. Tagesordnung formulieren
 TOP 1: Kapitalerhöhung des Stammkapitals um EUR [Nennbetrag neue Anteile] gegen Einbringung der Forderung aus Wandeldarlehen Northstar Pre-Seed Partners GmbH & Co. KG als Sacheinlage. TOP 2: Verzicht der Altgesellschafterinnen auf Bezugsrechte. TOP 3: Zulassung des Darlehensgebers als neuer Gesellschafter. TOP 4: Änderung der Gesellschafterliste.
 
 ### 4. Notartermin koordinieren
-Kapitalerhöhungsbeschluss bedarf notarieller Beurkundung (§ 53 Abs. 2 GmbHG). Notar beurkundet Beschluss und Übernahmeerklärung des Lenders (§ 55 Abs. 2 GmbHG). Termin mindestens zwei Wochen im Voraus buchen.
+Der Kapitalerhöhungsbeschluss bedarf nach Paragraf 53 Absatz 3 GmbHG notarieller Beurkundung. Die Übernahmeerklärung des Darlehensgebers muss nach Paragraf 55 Absatz 1 GmbHG notariell aufgenommen oder beglaubigt werden. Termin mit angemessenem Vorlauf buchen.
 
 ### 5. Versand der Einladung und Dokumentation
 Versand per Einschreiben (Zugangsnachweis) oder per E-Mail wenn Satzung erlaubt. Zustellungsnachweis archivieren.
@@ -90,24 +91,14 @@ Hinweis: Die Beschlussfassung zu TOP 1 bis 3 erfordert notarielle Beurkundung.
 | Tagesordnung unvollständig | Beschluss über nicht angekündigten Punkt anfechtbar | Nachträgliche Ergänzung | Vollständige Tagesordnung |
 | Quorum nicht erreicht | Beschluss nicht gefasst | Vertretung unklar | Alle Gesellschafterinnen anwesend/vertreten |
 
-## Querverweise
-
-- `wandeldarlehen-lebenszyklus/skills/gesellschafterbeschluss-kapitalerhoehung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/notar-paket-uebermittlung/SKILL.md`
-- `wandeldarlehen-lebenszyklus/skills/wandlung-kommunikation-paketverteilung/SKILL.md`
-
 ## Quellen und Updates
 
 Stand: 05/2026. Bei Änderung GmbHG §§ 49 ff. aktualisieren.
 
 ## Vertiefung — Aktuelle Rechtsprechung
 
-### Leitsatz-Zitate
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ### Normen-Ergänzung
 
 § 51 GmbHG (Einberufung Gesellschafterversammlung, Frist 1 Woche) → § 51 Abs. 3 GmbHG (Vollversammlung mit Zustimmung) → § 53 GmbHG (notarielle Beurkundung, vollständige Beschlussangaben) → § 47 Abs. 1 GmbHG (Stimmrecht, Mehrheitserfordernisse)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,65 @@
+---
+name: chronologie-belegmatrix
+title: Chronologie und Belegmatrix
+description: 'Für Chronologie und Belegmatrix: ordnet Akte, Belege und Lücken; Ergebnis: Chronologie mit Beleg- und Widerspruchsmatrix. Fachgebiet: Forderungsmanagement — Klagewerkstatt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forderungsmanagement-klagewerkstatt/skills/chronologie-belegmatrix
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: litigation
+language: de
+---
+
+# Chronologie und Belegmatrix
+
+Jeder Schriftsatz steht und faellt mit der Belegkette. Diese Matrix verbindet Ereignisse mit Beweisen.
+
+## Matrix-Schema
+
+| Nr | Datum | Ereignis | Quelle | Anlage Kläger | Anlage Beklagter | Beweismittel |
+|---|---|---|---|---|---|---|
+| 1 | 2024-01-15 | Angebot Klägerin | E-Mail | K 1 | | Urkunde |
+| 2 | 2024-01-20 | Annahme Beklagte | E-Mail | K 2 | | Urkunde |
+| 3 | 2024-02-10 | Lieferung | Lieferschein | K 3 | | Urkunde Zeuge Mueller |
+| 4 | 2024-02-12 | Rechnung | Rechnung Nr 2024-117 | K 4 | | Urkunde |
+| 5 | 2024-03-25 | erste Mahnung | Schreiben | K 5 | | Urkunde |
+| 6 | 2024-04-15 | zweite Mahnung mit Fristsetzung | Anwaltsschreiben | K 6 | | Urkunde |
+| 7 | 2024-05-02 | keine Zahlung Verzug | rechnerisch | | | |
+
+## Anlagenkonvention
+
+- K eins K zwei Anlagen der Klägerin
+- B eins B zwei Anlagen der Beklagten
+- BK Beweisanlagen kombiniert
+- Im Text immer Bezugnahme z B Anlage K vier
+
+## Beweismittel-Katalog
+
+| Beweismittel | Norm | Form |
+|---|---|---|
+| Zeuge | ZPO 373 | Angabe Name Anschrift Beweistatsache |
+| Urkunde | ZPO 415 ff | Original oder Abschrift |
+| Sachverstaendiger | ZPO 402 ff | Beweisthema |
+| Augenschein | ZPO 371 | Ort Sache |
+| Parteivernehmung | ZPO 445 | nur subsidiaer |
+
+## Privat- öffentliche Urkunde
+
+| Typ | Beweiswirkung |
+|---|---|
+| öffentliche Urkunde ZPO 415 | voller Beweis für beurkundeten Vorgang |
+| Privaturkunde ZPO 416 | voller Beweis für Abgabe der enthaltenen Erklaerung |
+
+## Norm-Pinpoints
+
+- ZPO 138 Wahrheitspflicht
+- ZPO 373 ff Beweismittel
+- ZPO 415 416 Urkunden
+
+## Quellen
+
+- [ZPO 138](https://www.gesetze-im-internet.de/zpo/__138.html)
+- [ZPO 415](https://www.gesetze-im-internet.de/zpo/__415.html)
+- [ZPO 416](https://www.gesetze-im-internet.de/zpo/__416.html)

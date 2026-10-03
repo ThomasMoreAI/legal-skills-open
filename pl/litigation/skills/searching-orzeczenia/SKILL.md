@@ -1,18 +1,18 @@
 ---
 name: searching-orzeczenia
-title: searching-orzeczenia
+title: law-pl-searching-orzeczenia
 description: Use when searching Polish court decisions across the Common Courts Portal (Portal Orzeczeń Sądów Powszechnych), Supreme Court database (sn.pl), Supreme Administrative Court (NSA / WSA), Constitutional Tribunal (TK), or Court of Justice of the EU; verifying case citations; retrieving rulings by sygnatura akt; locating judicial practice on a specific legal issue
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-searching-orzeczenia
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# searching-orzeczenia
+# law-pl-searching-orzeczenia
 
 Polskie orzecznictwo jest rozproszone po kilku bazach — w zależności od typu sądu. Każda baza ma swoją strukturę i wyszukiwarkę.
 

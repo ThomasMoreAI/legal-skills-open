@@ -1,26 +1,29 @@
 ---
 name: zitierweise-anwenden
-title: Deutsche juristische Zitierweise anwenden (v4.0)
-description: Wende deutsche juristische Hauszitierweise v4.0 an. Rechtsprechung nur mit Gericht Entscheidungsform Datum Az. Aktenzeichen und verifizierbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate. Literatur nur bei Nutzerquelle oder lizenziertem Live-Zugriff. Unverifizierte Entscheidungen als Prüfbedarf markieren oder weglassen. Keine aktuellen Palandt-/Pahlen-Zitate.
+title: Deutsche juristische Zitierweise anwenden (v4.1)
+description: 'Für Deutsche juristische Zitierweise anwenden (v4.1): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zitierweise-deutsches-recht/skills/zitierweise-anwenden
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
 language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
-# Deutsche juristische Zitierweise anwenden (v4.0)
+# Deutsche juristische Zitierweise anwenden (v4.1)
 
-Dieser Skill verkörpert die Klotzkette-Hauszitierweise in der Fassung v4.0. Aktiviere ihn, sobald juristische Quellen zitiert, geprüft oder umformatiert werden — in Memos, Schriftsätzen, Mandantenkommunikation oder Belegapparaten. Der Skill ist zuerst eine Halluzinationsbremse: keine Fundstelle ohne echte Quelle.
+Prüfe und vereinheitliche die juristischen Zitate im vorgelegten Text nach der Hauszitierweise. Lies Text und vorhandene Quellen zuerst; fehlende Fundstellen werden nicht aus Erinnerung ergänzt.
 
 ## Pragmatik vs. Wissenschaft (Vorbemerkung)
 
 Diese Hauszitierweise ist eine pragmatische Repository-Konvention. Sie ist innerhalb dieses Repositories verbindlich, **nicht** in der Welt. Wissenschaftliche Texte (Dissertationen, Habilitationen, Theoriezeitschriften) verwenden vielfach ausführlichere Notationen. Beide Vorgehen sind legitim, solange dokumentintern konsistent.
 
-## Wann dieser Skill greift
+## Wann dieser Arbeitsgang greift
 
 - Du zitierst Rechtsprechung, Materialien oder Gesetzesnormen.
 - Du prüfst einen vorhandenen Text auf korrekte Zitierweise.
@@ -64,17 +67,15 @@ Zulässige Form:
 
 **Schema:** `<Herausgeber/Behörde>, <Titel>, <Datum oder Stand>, <Fundstelle>, <Pinpoint>, ggf. <URL>`
 
-- Deutscher Bundestag, Beschlussempfehlung, BT-Drucks. 20/9123, S. 14 ([dserver.bundestag.de](https://dserver.bundestag.de/btd/20/091/2009123.pdf)).
-- BMF-Schreiben v. 12.03.2024 – Az. IV C 6 – S 2144/19/10003 :003, BStBl. I 2024, 421 Rn. 8 ([bundesfinanzministerium.de](https://www.bundesfinanzministerium.de/)).
-- BaFin, Merkblatt zu § 32 KWG, Stand März 2024, Ziff. III.2 ([bafin.de](https://www.bafin.de/)).
+Bei Bundestagsdrucksachen Dokumentart, Drucksachennummer und Seite am Original prüfen. Bei einem Behördenschreiben Datum, Aktenzeichen, Titel und konkrete Fundstelle aus dem tatsächlich vorliegenden Dokument übernehmen; eine Behördenstartseite belegt keine bestimmte Passage.
 
 Wo kein Pinpoint vergeben ist, ist das Datum verpflichtend; eine Ziff./Abschnittsüberschrift, wenn das Dokument sie trägt.
 
 ## Aktuelle BGB-Kommentartitel und Schreibfehler
 
-Es gibt kein aktuelles BGB-Kommentarwerk mit dem Namen "Palandt". Der vormalige Palandt erscheint seit der 81. Auflage 2022 unter dem Titel Grüneberg, BGB.
+Es gibt kein aktuelles BGB-Kommentarwerk mit dem Namen "Palandt". Der frühere Palandt erscheint seit der 81. Auflage 2022 unter dem Titel Grüneberg, BGB.
 
-1. Taucht "Palandt" als aktuelle Quelle auf: nicht verwenden; nach Nutzerquelle oder Altauflage fragen.
+1. Taucht "Palandt" als aktuelle Quelle auf: als Alt-/Schreibweise markieren; für Auflagen ab 2022 auf Grüneberg umstellen, aber nur mit echter Quelle.
 2. Taucht "Pahlen" auf: als Schreib-/Quellenfehler markieren, nicht zitieren.
 3. Grüneberg nur zitieren, wenn der Nutzer die Quelle liefert oder ein lizenzierter Live-Zugriff besteht.
 
@@ -140,7 +141,11 @@ In Deutschland besteht keine Präjudizienbindung; das BVerfG bindet nach § 31 B
 
 ## Vertiefung
 
-Die vollständige Hauszitierweise steht in `references/zitierweise.md`. Lies sie als verbindliche Pflicht vor jedem Zitat.
+Die vorhandene `references/zitierweise.md` kann optional vertiefen. Ohne Zugriff anhand der hier enthaltenen Regeln weiterarbeiten, statt die Zitierprüfung abzubrechen.
+
+## Fortsetzung und Ergebnis
+
+Fehlt eine Randnummer oder Auflagenangabe, fordere den betreffenden Auszug an. Nach Eingang das Zitat und seine Unterstützung für die konkrete Aussage prüfen; neue entscheidende Widersprüche gezielt klären. Den bereits prüfbaren Text vorläufig bearbeiten und nach Klärung die bestellte Fassung fertigstellen. Prüfvermerke und offene Quellenfragen getrennt vom Empfängertext führen. Nutzerdateinamen gehen vor; `ergebnis.md` nur ohne Vorgabe. Ausformulierte Texte bestehen aus vollständigen Sätzen und verwenden dezimale Gliederung sowie bei formatierter Ausgabe soweit möglich Times New Roman 11 pt.
 
 ## Verknüpfung mit anderen Plugins
 

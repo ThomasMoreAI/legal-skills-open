@@ -1,11 +1,11 @@
 ---
 name: mehrseitige-maerkte-plattformen
 title: Mehrseitige Märkte und Plattformen
-description: Workflow-Skill zu mehrseitige maerkte plattformen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Pruefung mit Gericht, Datum und Aktenzeichen.
+description: 'Für Mehrseitige Märkte und Plattformen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/mehrseitige-maerkte-plattformen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: antitrust
@@ -13,6 +13,19 @@ language: de
 ---
 
 # Mehrseitige Märkte und Plattformen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: FKVO Art. 4 Anmeldepflicht vor Vollzug, GWB § 40 1-Monats-Frist Phase I / 4 Monate Phase II, Bagatellschwellen § 35 GWB (50/17,5 Mio. EUR).
+- Tragende Normen verifizieren: GWB §§ 18, 19, 20, 35, 36, 39, AEUV Art. 101, 102, FKVO (VO 139/2004), Bekanntmachung Kommission Marktabgrenzung 2024 (C/2024/1645), Leitlinien horizontale/vertikale Zusammenarbeit, HMG-Index — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Bundeskartellamt, EU-KOM (DG COMP), Anmelder, Wettbewerber, OLG Düsseldorf (Kartellsenat), EuG, EuGH.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Zusammenschlussanmeldung Form CO, Marktabgrenzungsanalyse, SSNIP-Test, HMG-Berechnung, Critical-Loss-Analyse, Datenanalyse (PoS/Scanner), Marktbefragung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachkern: Mehrseitige Märkte und Plattformen
+- **Normen-/Quellenanker:** Art. 101/102 AEUV, VO 1/2003, FKVO, GWB, Vertikal-GVO, DMA/DSA-Schnittstellen, private damages und Behördenpraxis.
+- **Entscheidende Weiche:** Markt, Verhalten, Beteiligte, Schwelle, Effekt, Effizienzrechtfertigung, Verfahren, Dawn Raid/Leniency und Schadensersatz getrennt ordnen.
+- **Arbeitsprodukt:** Erzeuge eine konkrete Prüf- oder Entscheidungsmatrix mit Norm, Tatbestand, Beleg, Einwand, Risikoampel und nächstem Schritt; Anschluss-Skills nur bei echter Vertiefung nennen.
 
 ## Grundproblem
 
@@ -23,8 +36,6 @@ Klassische Marktdefinition setzt einen Preis voraus. Plattformmärkte sind häuf
 ### Getrennte Märkte
 
 Der EuGH tendiert dazu, die Marktseiten als getrennte Märkte zu definieren:
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ### Integrierte Betrachtung
@@ -71,9 +82,6 @@ Probleme:
 
 ## Leitentscheidungen Mehrseitige Maerkte
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - BKartA, Beschl. v. 01.02.2022 — B6-22/21 (Facebook/Meta) — Plattformmacht; Social-Network-Markt; Nutzerdaten als Wechselkostenfaktor.
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: haeufige-fehler-vermeiden
 title: Häufige Fehler vermeiden — Top-20
-description: 'Student will typische Fehler in juristischen Hausarbeiten vermeiden: methodische stilistische formale Fehler. Liste der 20 häufigsten Fehler mit Korrekturhinweisen. Normen Methodenlehre Zitierstandards. Prüfraster Fehlertypen-Scan Selbstprüfung. Output Fehler-Checkliste Korrekturempfehlungen Beispiele. Abgrenzung zu selbstkontrolle-vor-abgabe (finaler Check) und gutachtenstil-vs-urteilsstil (Stil).'
+description: 'Für Häufige Fehler vermeiden — Top-20: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hausarbeitenmacher/skills/haeufige-fehler-vermeiden
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,6 +14,13 @@ language: de
 
 # Häufige Fehler vermeiden — Top-20
 
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: Hausarbeitsfrist i.d.R. 4-6 Wochen, kein Abgabeaufschub, JAG-Wiederholung pro Klausur, Promotionsverfahren landesrechtlich.
+- Tragende Normen verifizieren: JAG/JAPO Land (Pflicht-Hausarbeit), HRG, Studien-/Prüfungsordnung, GG Art. 5 Abs. 3, UrhG §§ 51, 51a (Zitatrecht), Promotionsordnung — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Studenten, Korrektor (Lehrstuhl/Justizprüfungsamt), Bibliothek, juris/Beck-Online (Recherche), Plagiats-Software.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Gutachten-Hausarbeit, Sachverhalt, Lösungsskizze, Literaturverzeichnis, Plagiatsbericht, Korrekturanmerkungen, Notenbescheid — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage zu Beginn
 1. Befindet sich der Text in der Rohfassung (Fehler noch einzubauen) oder der Endfassung (Endcheck)?
@@ -21,23 +28,11 @@ language: de
 3. Liegt bereits eine Bewertung eines Tutors vor, die Schwachstellen benennt?
 4. Ist die Arbeit zum ersten Mal gelesen (Ersterkennung) oder nach einer Pause (frische Perspektive)?
 
-## Aktuelle Rechtsprechung und Methodik
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- § 195 BGB — Regelverjaehrung: haeufig vergessener Pruefungspunkt, fuehrt zu Fehler 19
-- § 138 Abs. 1 ZPO — Wahrheitspflicht: mahnende Analogie fuer korrekte Sachverhaltserfassung
+- § 195 BGB — Regelverjaehrung: haeufig vergessener Prüfungspunkt, fuehrt zu Fehler 19
+- § 138 Abs. 1 ZPO — Wahrheitspflicht: mahnende Analogie für korrekte Sachverhaltserfassung
 - § 242 BGB — Treu und Glauben: verhindert uebertrieben formalistische Fehler
-- §§ 133, 157 BGB — Auslegungsgrundsaetze: Masstab fuer Definitionen und Subsumtion
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Zweck
-
-Diese Liste hilft Dir, **bevor Du anfängst zu schreiben** und **beim Endcheck**, typische Fehler zu vermeiden. Jeder Fehler kommt mit einer sanften Korrektur-Anregung.
-
----
+- §§ 133, 157 BGB — Auslegungsgrundsaetze: Masstab für Definitionen und Subsumtion
 
 ## Methodische Fehler
 
@@ -130,7 +125,6 @@ Diese Liste hilft Dir, **bevor Du anfängst zu schreiben** und **beim Endcheck**
 
 ### Fehler 11: Fehlende Fundstelle
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 **Korrektur**:
 - Volle Fundstelle: Gericht, Datum, Aktenzeichen, Zeitschrift Jahrgang Anfangs-Seite konkrete Stelle / Randnummer.
@@ -244,3 +238,5 @@ Idealerweise jemand mit juristischer Vorbildung. Selbst Nicht-Juristen finden St
 
 - `selbstkontrolle-vor-abgabe` — Endcheck-Vorgang
 - `gutachtenstil-vs-urteilsstil` — Stil-Übung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

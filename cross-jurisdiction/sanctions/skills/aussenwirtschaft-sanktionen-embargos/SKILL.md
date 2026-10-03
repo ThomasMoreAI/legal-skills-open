@@ -1,131 +1,87 @@
 ---
 name: aussenwirtschaft-sanktionen-embargos
-title: Sanktionen, Embargos und Bereitstellungsverbote
-description: Prüfung von Laenderembargos personenbezogenen Sanktionen und Umgehungsrisiken im Aussenhandel. Anwendungsfall Handelspartner koennte Sanktionslistentreffer haben oder Lieferung in Sanktionsland geht. Normen EU-Sanktionsverordnungen Art. 215 AEUV OFAC SDN-Liste AWG § 4 Genehmigungspflicht. Prüfraster Laenderembargos Personenscreening Eigentuems-Kontrolle Umgehungsrisiken Finanzmittel Dienstleistungen IP-Rechte Zahlungsstroeme. Output Sanktions-Prüfprotokoll mit Screening-Ergebnis Risikobewertung und Handlungsempfehlung Transaktion durchführen oder stoppen. Abgrenzung zu geldwäsche-sanktionsscreening und aussenwirtschaft-exportkontrolle-dual-use.
+title: 'EU-Sanktionen und Embargos: Triage und Sanktionslage-Übersicht'
+description: 'Für EU-Sanktionen und Embargos: Triage und Sanktionslage-Übersicht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-sanktionen-embargos
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: sanctions
 language: de
 ---
 
-# Sanktionen, Embargos und Bereitstellungsverbote
+# EU-Sanktionen und Embargos: Triage und Sanktionslage-Übersicht
 
-## Zweck
+## Arbeitsweg
 
-Dieser Skill führt Sanktionsprüfung mit Trefferlog, Quellenprotokoll, False-Positive-Bewertung und Eskalationspfad.
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
-## Wann verwenden
+## Mandantenfall
 
-- wenn Waren, Software, Technologie, Dienstleistungen, Zahlungen oder Beteiligte einen Auslandsbezug haben
-- wenn Exportkontrolle, Sanktionen, Embargos, Zoll, Verbrauchsteuer, CBAM, AWV oder AML/KYC berührt sind
-- wenn eine Behörde prüft, ein Verstoß offengelegt werden könnte oder Presse-/Reputationsdruck entsteht
+- Neuer Lieferauftrag mit Gegenpartei aus Russland; welche Sanktionsverordnungen sind relevant?
+- Zahlung aus iranischem Bankhandelsinstrument soll empfangen werden; Finanzsanktionen geprueft.
+- Lieferung von Konsumgueter nach Belarus; Embargo oder Ausnahme?
 
-## Arbeitsweise
+## Erste Schritte
 
-1. **Sachverhalt einfrieren.** Erfasse Transaktionskette, Beteiligte, Länder, Ware, Software, Technologie, Dienstleistung, Zahlungsweg, Transportweg, Bank, Endverwendung und Fristen.
-2. **Datenlücken markieren.** Trenne belegte Tatsachen von Annahmen. Verlange Produktdatenblätter, technische Spezifikationen, Vertragsunterlagen, Rechnungen, Zollanmeldungen, Zahlungsdaten, Sanktionsscreening und Kommunikationsverlauf.
-3. **Offizielle Quellen prüfen.** Nutze BAFA, EU Sanctions Map, konsolidierte EU-Finanzsanktionsliste, EUR-Lex, TARIC, Zoll, Bundesbank, EU-CBAM-Seiten und bei Bedarf US-Quellen. Protokolliere URL, Abrufdatum und Aussage.
-4. **Verbote vor Genehmigungen.** Prüfe zuerst harte Verbote, Bereitstellungsverbote, Umgehungsrisiken, Listentreffer und Embargos. Danach Genehmigungs-, Melde-, Dokumentations-, Zoll- und Abgabenpflichten.
-5. **Sofortmaßnahmen ausgeben.** Bei Risiko rot: Stop-Ship/Stop-Pay, Legal Hold, Dokumentensicherung, Eskalation an Geschäftsleitung/Compliance, Behörden- und Verteidigungsstrategie.
-6. **Arbeitsprodukt erstellen.** Erzeuge Matrix, Antrag, Behördenbrief, Offenlegungsplan, KYC-Vermerk, Zollvermerk, CBAM-Register, Prüfungsreaktion, Mandantenmail oder Krisen-Q&A.
-7. **Qualitätstor.** Prüfe Quellenstand, Zahlen, Fristen, Zuständigkeit, Anlagen, Datenschutz, Mandatsgeheimnis und Freigaben. Unsichere Punkte bleiben sichtbar.
+1. Sanktionsregime identifizieren: Land/Region, Rechtsgrundlage, Verordnung.
+2. EU-Finanzsanktionsliste (FSAP) und ggf. nationale Listen auf Parteien prüfen.
+3. Guetersanktionen prüfen: HS/KN-Code gegen Listen der relevanten Verordnung.
+4. Sektorsanktionen prüfen: Energie, Finanzsektor, Transport, Dienstleistungen.
+5. Ausnahmen und Ausnahmegenehmigungen sichten: humanitaere Ausnahme, Altvertraege.
+6. Sanktionslage mit Datum protokollieren; Verordnung konsultiert.
 
-## Rückfragen, wenn unklar
+## Rechtsrahmen
 
-- Welche Ware, Software, Technologie, Dienstleistung oder Zahlung ist betroffen?
-- Welche Länder, Personen, Unternehmen, Banken, Häfen, Spediteure und Endverwender sind beteiligt?
-- Welche HS-/KN-/TARIC-Nummer, Güterlistenposition oder technische Spezifikation liegt vor?
-- Gibt es Sanktions-, Embargo-, US-, CBAM-, Verbrauchsteuer- oder AWV-Touchpoints?
-- Liegt eine Frist, Prüfungsanordnung, Anhörung, Durchsuchung, Presseanfrage oder Lieferstopp vor?
+- **VO (EU) 833/2014 und 269/2014**: Russland-Embargo und Finanzsanktionen.
+- **VO (EU) 267/2012**: Iran-Sanktionen und Finanzsanktionen.
+- **VO (EU) 765/2006**: Belarus-Sanktionen.
+- **VO (EU) 2017/1509**: Nordkorea-Sanktionen.
+- **AWG § 4 Abs. 1 Nr. 3**: Nationale Ermaechtigung für Embargomassnahmen.**
 
-## Ausgabeformat
+## Prüf-Raster
 
-- Kurzlage mit Ampel und Sofortmaßnahmen
-- Quellenprotokoll mit Abrufdatum und offizieller Quelle
-- Prüfmatrix mit offenen Datenpunkten, Annahmen und Zuständigkeiten
-- behörden- oder mandantenfähiger Entwurf
-- Review-Liste für Berufsträger, Compliance, Zoll, Steuer und Geschäftsleitung
+- [ ] Sanktionsregime und anwendbare Verordnung identifiziert?
+- [ ] Parteien gegen EU-Finanzsanktionsliste geprueft?
+- [ ] Gueter gegen Sanktionsanhaenge der Verordnung geprueft?
+- [ ] Sektorsanktionen für relevante Taetigkeitsbereiche geprueft?
+- [ ] Ausnahmen und Genehmigungstatbestaende geprueft?
+- [ ] Sanktionslage mit Quellenstand und Datum dokumentiert?
 
-## Typische Fehler vermeiden
+## Typische Fallstricke
 
-- Keine Sanktionsentscheidung ohne aktuelle Quellenprüfung und Trefferlog.
-- Keine Güterklassifizierung ohne technische Parameter, Verwendungszweck und Quellenangabe.
-- Keine Zolltarifnummer ohne TARIC-/EZT-Prüfung und Begründung.
-- Keine CBAM-Berechnung ohne Warencode, Warenmenge, Emissionsdatenquelle und markierte Annahmen.
-- Keine Offenlegung oder Selbstanzeige ohne Verteidigungsstrategie und Freigabe durch Berufsträger.
-- Keine echten Mandatsgeheimnisse in ungeprüfte Cloud- oder KI-Umgebungen.
+- Sanktionspakete werden haufig aktualisiert; immer konsolidierte Fassung auf EUR-Lex nutzen.
+- Ausnahmen sind eng gefasst; humanitaere Ausnahme gilt nicht pauschal.
+- Guetersanktionen und Personensanktionen laufen parallel und unabhaengig voneinander.
+- Keine veraltete Sanktionslage annehmen; Listing-Datum und Delistings prüfen.
 
-## Triage vor Sanktionspruefung
+## Schnittstellen zu anderen Skills
 
-Kläre vor der Pruefung:
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
 
-1. Welche Sanktionsregimes sind betroffen — EU, OFAC, UN, oder Vereinigtes Koenigreich (OFSI)?
-2. Sind Personen, Entitaeten, Sektoren oder Gebiete als Sanktionsanknuepfungspunkt relevant?
-3. Handelt es sich um Bereitstellung von Finanzmitteln, Wirtschaftsressourcen, Dienstleistungen oder Transport?
-4. Liegt ein OFAC-SDN-Treffer, ein EU-konsolidierter-Listen-Treffer oder ein False Positive vor?
-5. Besteht Zeitdruck durch laufende Transaktion, Zahlung oder Lieferung?
+## Qualitaetsanforderungen
 
-## Vertiefung: Rechtsprechung und Leitsaetze
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
 
-Stand 05/2026. Rechtsprechung im Mandat live verifizieren — Aktenzeichen nicht aus Modellwissen.
+## Quellen
 
-**Aktuelle EU-Sanktionspakete Russland (Auswahl):**
-- **20. Sanktionspaket (in Kraft 24.04.2026):** Schifffahrt (Schattenflotte: +46 Schiffe auf insgesamt 632), Finanzen (+20 Kreditinstitute auf 70 ohne EU-Marktzugang), Energie. Erweiterung Sanktionen Belarus (u. a. erstmals ein chinesisches Staatsunternehmen) — [bundesregierung.de](https://www.bundesregierung.de/breg-de/aktuelles/eu-sanktionen-2250316).
-- **19. Sanktionspaket (23.10.2025):** Neue Beschränkungen russisches LNG: Verbot neuer Lieferverträge ab 25.04.2026, vollständiges Importverbot ab 01.01.2027.
-
-**Iran/Belarus/Nordkorea:** EU-Sanktionen aufgrund Unterstützung des russischen Angriffskriegs; Belarus-Sanktionen gelten bis mindestens 28.02.2027. Aktuelle Listen über [EU Sanctions Map](https://www.sanctionsmap.eu/) und EUR-Lex konsolidierte Liste.
-
-Vor jeder konkreten Sanktionsentscheidung im Mandat aktuelle Fassung der einschlägigen Sanktions-VO (EU) 833/2014, (EU) 269/2014, (EU) 765/2006 etc. abrufen — Sanktionsregime ändern sich quartalsweise.
-
-## Normen-Kette Sanktionen/Embargos
-
-- Art. 2, 3, 7 VO (EU) 833/2014 — Russland-Sektor- und Gutersanktionen
-- Art. 2 VO (EU) 269/2014 — Russland-Personensanktionen (Krim/Ukraine)
-- Art. 29 EUV, Art. 215 AEUV — Rechtsgrundlage EU-Sanktionen
-- § 18 I, II AWG — Straftatbestand Embargoverstoss, bis 15 Jahre Freiheitsstrafe
-- § 82 AWV — Embargobezogene Verbote im nationalen Recht
-- OFAC 31 CFR Part 560 (Iran), Part 589 (Russland) — US-Sanktionsregimes
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
-## Output-Template: Sanktionspruefungsvermerk
-
-**Adressat:** Compliance/Vorstand — **Tonfall:** prazise, aktionsbasiert
-
-```
-SANKTIONSPRUEFUNGSVERMERK
-Datum: [DATUM]  Abrufdatum Listen: [DATUM]
-Mandat/Transaktion: [BEZEICHNUNG]
-Bearbeiter: [NAME]
-
-1. GEPRUEFT GEGEN
-   [ ] EU-Konsolidierte Finanzsanktionsliste (EUR-Lex)
-   [ ] OFAC SDN List (US Treasury)
-   [ ] UK HM Treasury (OFSI) Sanctions List
-   [ ] UN Security Council Consolidated List
-
-2. TREFFERPROTOKOLL
-   Suchbegriff | Liste | Treffer (J/N) | Typ (Exact/Fuzzy) | Bewertung
-   ------------|-------|--------------|-------------------|----------
-   [NAME/ENTITY]| EU   | [J/N]        | [TYP]             | [Echttreffer/FP]
-
-3. BEREITSTELLUNGSVERBOT-ANALYSE
-   Gegenstand: [Ware / Zahlung / Dienstleistung]
-   Begueinstigter (direkt): [...]
-   Begueinstigter (mittelbar): [...]
-   Ergebnis: KEIN VERBOT / VERBOT / GENEHMIGUNGSPFLICHTIG
-
-4. EMPFEHLUNG
-   [ ] Transaktion freigegeben
-   [ ] Stop-Pay/-Ship — Freigabe erst nach [Bedingung]
-   [ ] Genehmigung BAFA/Bundesbank erforderlich
-   [ ] OFAC-Licence erforderlich (bei US-Nexus)
-
-5. QUELLENPROTOKOLL
-   - [Liste/Quelle] abgerufen am [DATUM] unter [URL]
-```
+- [EU-Finanzsanktionsliste FSAP](https://eeas.europa.eu/topics/sanctions-policy/8442/consolidated-list-sanctions_en)
+- [VO (EU) 833/2014 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0833)
+- [VO (EU) 267/2012 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32012R0267)
+- [BAFA Finanzsanktionen](https://www.bafa.de/DE/Aussenwirtschaft/Finanzsanktionen/finanzsanktionen_node.html)

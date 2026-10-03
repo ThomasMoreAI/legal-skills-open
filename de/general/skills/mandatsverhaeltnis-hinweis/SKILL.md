@@ -1,11 +1,11 @@
 ---
 name: mandatsverhaeltnis-hinweis
 title: Mandatsverhältnis-Hinweis
-description: 'Antwortmail muss klar machen dass noch kein Mandatsverhältnis besteht und keine Rechtsberatung erfolgt. § 43 BRAO Haftungsabgrenzung Erstanfrage. Prüfraster: Beantwortung der Anfrage = keine Rechtsberatung kein Mandatsverhältnis kein Pflichten-Begründung. Kurz- und Langform für Antwortmail und Fusszeile. Output: Disclaimer-Texte für E-Mail. Abgrenzung zu vertraulichkeit-erinnerung (Schweigepflicht) und erstantwort-generator.'
+description: 'Für Mandatsverhältnis-Hinweis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mandantenanfragen-assistent/skills/mandatsverhaeltnis-hinweis
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,8 +14,17 @@ language: de
 
 # Mandatsverhältnis-Hinweis
 
-Dieser Skill formuliert den rechtlich erforderlichen Hinweis, dass mit der Beantwortung einer Erstanfrage noch kein Mandatsverhältnis begründet wird und die Antwort keine Rechtsberatung darstellt.
+## Arbeitsweg
 
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BRAO § 44 unverzügliche Annahme/Ablehnung, RVG § 34 Erstberatung max. 190 EUR (Verbraucher), DSGVO Art. 13 Information bei Erhebung.
+- Tragende Normen verifizieren: BRAO §§ 43a, 44, 49b, BORA §§ 2, 11, BGB §§ 145 ff., 280, 627, 675, GwG §§ 10, 11, RVG §§ 1, 4, 34 (Erstberatung), DSGVO Art. 6, 13 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Anfragender (Interessent), Anwalt, Sekretariat, Compliance-Beauftragter, Mandantenbetreuer.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Erstkontaktformular, Konfliktscreening, Mandatsvertrag, Vollmacht, Honorarvereinbarung, Mandantendossier, Datenschutzhinweis — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
+Formuliert den rechtlich erforderlichen Hinweis, dass mit der Beantwortung einer Erstanfrage noch kein Mandatsverhältnis begründet wird und die Antwort keine Rechtsberatung darstellt.
 
 ## Triage zu Beginn
 1. Enthaelt die Erstantwort inhaltliche rechtliche Hinweise, die als konkludente Rechtsberatung ausgelegt werden koennten?
@@ -23,18 +32,12 @@ Dieser Skill formuliert den rechtlich erforderlichen Hinweis, dass mit der Beant
 3. Ist der Mandant Verbraucher (§ 13 BGB) — dann auch Widerrufsrecht und Fernkommunikationspflichten beachten?
 4. Muss zusaetzlich auf die Kostenpflicht hingewiesen werden (§ 49b Abs. 5 BRAO)?
 
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
-- §§ 611, 675 BGB — Anwaltsvertrag: kommt durch Angebot und Annahme zustande; konkludente Entstehung moeglich
+- §§ 611, 675 BGB — Anwaltsvertrag: kommt durch Angebot und Annahme zustande; konkludente Entstehung möglich
 - § 49b Abs. 5 BRAO — Kostenbelehrungspflicht: Hinweis auf voraussichtliche Kosten vor Mandatsannahme
 - § 13 BGB — Verbraucher: erhoehtere Informationspflichten und Widerrufsrecht (§§ 355 ff. BGB) bei Fernkommunikation
 - § 43a Abs. 2 BRAO — Verschwiegenheit: gilt auch gegenueber potenziellem Mandanten, der noch kein Mandat erteilt hat
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Rechtlicher Hintergrund
 
 ### Entstehung des Mandatsverhältnisses
@@ -115,3 +118,5 @@ einen Rechtsanwalt Ihres Vertrauens oder rufen Sie uns unter
 - `vertraulichkeit-erinnerung` — weiterführender Hinweis nach Mandatsbegründung
 - `transkriptionsdienst-erklaerung` — verwendet diesen Hinweis im Transkriptions-Abschnitt
 - `dringlichkeitsmarker` — bei HOCH: Langform mit Frist-Warnung
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

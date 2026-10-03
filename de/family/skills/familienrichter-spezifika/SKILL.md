@@ -1,11 +1,11 @@
 ---
 name: familienrichter-spezifika
 title: Familienrichter Spezifika
-description: 'FamFG-Spezifika für Familienrichter anwenden: Richter am Familiengericht muss Beschluss statt Urteil abfassen. Normen: § 38 FamFG (Beschluss), § 137 FamFG (Verbund- und Folgesachen), § 1697a BGB (Kindeswohlprüfung), FamFG §§ 58 ff. (Beschwerde), VersAusglG. Prüfraster: Verbundpflicht, Versorgungsausgleich von Amts wegen, Rechtsmittelbelehrung FamFG, Sorgerechtsbeschluesse. Output FamFG-Beschluss-Entwurf, Verbund-Checkliste. Abgrenzung: Familienrecht materiell siehe fachanwalt-familienrecht-Plugin; ZPO-Beschluesse siehe beschluss-bauen-zpo.'
+description: 'Für Familienrichter Spezifika: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/familienrichter-spezifika
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: family
@@ -23,10 +23,6 @@ Familiensachen folgen FamFG statt ZPO (mit Verweisen auf ZPO).
 3. Sind Kinder betroffen — Verfahrensbeistand (§ 158 FamFG) bestellt?
 4. Ist Versorgungsausgleich zu prüfen (§§ 1 ff. VersAusglG)?
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen
 
 - § 38 FamFG — Beschluss als Entscheidungsform (kein Urteil)
@@ -37,9 +33,6 @@ Familiensachen folgen FamFG statt ZPO (mit Verweisen auf ZPO).
 - §§ 1 ff. VersAusglG — Versorgungsausgleich
 - §§ 58 ff. FamFG — Rechtsmittel (Beschwerde, Frist 1 Monat)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Verfahrenskategorie bestimmen:** Welche Familiensache (§ 111 FamFG)?
@@ -54,6 +47,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Adressat:** Familiengericht → Beschluss — Tonfall: sachlich-formal
 
 ```
+
 ## Beschluss
 
 In der Familiensache [AKTENZEICHEN]
@@ -82,7 +76,7 @@ binnen einer Frist von einem Monat nach Bekanntgabe beim [GERICHT] einzulegen.
 - **Verfahrensbeistand** Paragraf 158 FamFG (insbesondere in Kindersachen)
 - **Verfahrenskostenhilfe** Paragraf 76 ff FamFG (entspricht PKH der ZPO)
 
-## Massstab Kindeswohl
+## Maßstab Kindeswohl
 
 Paragraf 1697a BGB - Kindeswohl ist Leitlinie aller familiengerichtlichen Entscheidungen.
 
@@ -95,3 +89,5 @@ Beschwerde nach Paragraf 58 ff FamFG, Frist 1 Monat (in Eilfällen 14 Tage), bei
 - "Im Namen des Volkes" entfaellt
 - Stattdessen: "Beschluss"
 - Tenor wie beim Urteil, aber mit den familiengerichtlichen Spezifika (z. B. Sorgerechtsregelung, Umgangsregelung)
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

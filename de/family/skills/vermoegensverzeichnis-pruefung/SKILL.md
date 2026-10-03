@@ -1,11 +1,11 @@
 ---
 name: vermoegensverzeichnis-pruefung
 title: Vermögensverzeichnis und Rechnungslegung (§§ 1835, 1839, 1865 BGB)
-description: 'Vermögensverzeichnis für Betreuung prüfen und erstellen: Anwendungsfall Betreuer muss nach § 1835 BGB Vermögensverzeichnis aufnehmen oder bestehendes Verzeichnis auf Vollständigkeit und Richtigkeit prüfen. § 1835 BGB Vermögensverzeichnis, § 1836 BGB Rechnungslegung, § 1814 BGB Betreuerbestellung Vorsorgevollmacht. Prüfraster Vermögensgegenstaende vollständig Konten Immobilien Wertpapiere, Verbindlichkeiten, Vermögensveraenderungen seit letztem Verzeichnis, Bestandsnachweis Belege. Output vollständiges Vermögensverzeichnis mit Prüfprotokoll und Differenzliste. Abgrenzung zu Jahresbericht-Betreuungsgericht und zu Kontodaten-Vertragsverdacht.'
+description: 'Für Vermögensverzeichnis und Rechnungslegung (Paragrafen 1835. 1839. 1865 BGB): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/vermoegensverzeichnis-pruefung
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: family
@@ -16,7 +16,7 @@ language: de
 
 ## Zweck
 
-Dieser Skill unterstützt den rechtlichen Betreuer mit Aufgabenkreis
+Unterstützt den rechtlichen Betreuer mit Aufgabenkreis
 Vermögenssorge bei der **Erstellung des Anfangs-Vermögensverzeichnisses**
 nach § 1835 Abs. 1 BGB (bei Übernahme der Betreuung), der laufenden
 Verwaltung mündelsicher angelegten Vermögens nach § 1839 BGB sowie der
@@ -27,13 +27,13 @@ Verwaltung mündelsicher angelegten Vermögens nach § 1839 BGB sowie der
 - Datum der Bestellung (Beginn der Vermögenssorge)
 - Bisheriger Betreuer (falls Wechsel) — dessen Schlussrechnung als Eingabe
 - Liste aller Konten der betreuten Person (Girokonto, Sparkonten,
-  Tagesgeld, Festgeld, Depots) mit IBAN, Stand zum Bestellungstag
+ Tagesgeld, Festgeld, Depots) mit IBAN, Stand zum Bestellungstag
 - Immobilieneigentum (Grundbuchauszug)
 - Bewegliche Sachen von Wert (Schmuck, Kunst, Fahrzeug)
 - Forderungen und Verbindlichkeiten (offene Rechnungen, Darlehen,
-  Bürgschaften, Erbansprüche)
+ Bürgschaften, Erbansprüche)
 - Sozialleistungsbescheide (Rente, Grundsicherung, Pflegekasse,
-  Hilfe zur Pflege § 61 SGB XII)
+ Hilfe zur Pflege § 61 SGB XII)
 - Versicherungspolicen (Lebensversicherung, Sterbegeld, Rechtsschutz)
 - Wiederkehrende Einnahmen und Ausgaben (Renten, Mieten, Heimkosten)
 
@@ -82,18 +82,15 @@ das einer Einlagensicherung angehört.
 
 ### Kanonische Rechtsprechung
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Das Vermögensverzeichnis muss alle vermögensrechtlich relevanten
 Positionen aufführen. Fahrzeugen, Schmuck und sonstigen beweglichen
 Sachen sind mit Schätzwert anzugeben; pauschale Auslassungen sind
 unzureichend.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Die Rechnungslegung muss in **kontinuierlicher** Buchführung erfolgen.
 Eine einmal jährliche zusammenfassende Aufstellung ohne Belege genügt
 nicht; das Gericht muss die Mittelverwendung nachprüfen können.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 Verstöße gegen die Pflicht zur mündelsicheren Anlage (§ 1839 BGB) können
 Ersatzansprüche der betreuten Person nach § 1826 BGB iVm § 280 Abs. 1
 BGB auslösen; Zinsausfallschäden sind ersatzfähig.
@@ -104,36 +101,36 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ## Ablauf
 
 1. **Bestandsaufnahme zum Stichtag der Bestellung**
-   Bankauskünfte einholen (Vorlage Bestellungsurkunde), Grundbuchauszug
-   beantragen, vorhandene Verträge und Versicherungspolicen sichten.
+ Bankauskünfte einholen (Vorlage Bestellungsurkunde), Grundbuchauszug
+ beantragen, vorhandene Verträge und Versicherungspolicen sichten.
 
 2. **Vermögensverzeichnis strukturieren**
-   - A. Geldvermögen (Konten, Depots, Bargeld)
-   - B. Immobilien (Anschrift, Grundbuchblatt, Verkehrswert)
-   - C. Bewegliche Sachen von Wert
-   - D. Forderungen
-   - E. Verbindlichkeiten
-   - F. Wiederkehrende Einnahmen und Ausgaben
+ - A. Geldvermögen (Konten, Depots, Bargeld)
+ - B. Immobilien (Anschrift, Grundbuchblatt, Verkehrswert)
+ - C. Bewegliche Sachen von Wert
+ - D. Forderungen
+ - E. Verbindlichkeiten
+ - F. Wiederkehrende Einnahmen und Ausgaben
 
 3. **Mündelsichere Anlage prüfen (§ 1839 BGB)**
-   Beträge, die nicht binnen 12 Monaten für laufende Ausgaben benötigt
-   werden, sind verzinslich anzulegen. Tagesgeld bei
-   einlagengesichertem Institut genügt. Bei Sperrvermerk-Anordnung:
-   Konto in "Mündelkonto mit Sperrvermerk" umwandeln.
+ Beträge, die nicht binnen 12 Monaten für laufende Ausgaben benötigt
+ werden, sind verzinslich anzulegen. Tagesgeld bei
+ einlagengesichertem Institut genügt. Bei Sperrvermerk-Anordnung:
+ Konto in "Mündelkonto mit Sperrvermerk" umwandeln.
 
 4. **Sperrvermerk einrichten**
-   Antrag beim Betreuungsgericht; nach Genehmigung Sperrvermerk-Vereinbarung
-   mit Bank schließen. Verfügungen nur noch mit Genehmigung nach
-   § 1848 BGB.
+ Antrag beim Betreuungsgericht; nach Genehmigung Sperrvermerk-Vereinbarung
+ mit Bank schließen. Verfügungen nur noch mit Genehmigung nach
+ § 1848 BGB.
 
 5. **Laufende Buchführung**
-   Jede Einnahme und Ausgabe zeitnah erfassen. Empfehlung: Excel-Tabelle
-   oder spezielle Betreuersoftware. Belege chronologisch sammeln.
+ Jede Einnahme und Ausgabe zeitnah erfassen. Empfehlung: Excel-Tabelle
+ oder spezielle Betreuersoftware. Belege chronologisch sammeln.
 
 6. **Jährliche Rechnungslegung (§ 1865 BGB)**
-   Geordnete Aufstellung Einnahmen/Ausgaben mit Belegen, Endsaldo, Abgleich
-   mit Kontoauszug. Bei Heimkosten: Hilfe zur Pflege (§ 61 SGB XII)
-   beantragen und prüfen.
+ Geordnete Aufstellung Einnahmen/Ausgaben mit Belegen, Endsaldo, Abgleich
+ mit Kontoauszug. Bei Heimkosten: Hilfe zur Pflege (§ 61 SGB XII)
+ beantragen und prüfen.
 
 ## Ausgabeformat
 
@@ -141,45 +138,53 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 Vermögensverzeichnis nach § 1835 BGB
 Stichtag: [TT.MM.JJJJ — Tag der Bestellung]
 
-Betreute Person:    [Name, Geburtsdatum]
-Aktenzeichen:       [XVII … / …]
-Betreuer:           [Name, BtOG-Reg.-Nr.]
+Betreute Person: [Name, Geburtsdatum]
+Aktenzeichen: [XVII … / …]
+Betreuer: [Name, BtOG-Reg.-Nr.]
 
 A. Geldvermögen
-   | Konto                 | IBAN              | Saldo     | Sperrvermerk |
-   |----------------------|-------------------|-----------|--------------|
-   | Sparkasse Berlin Giro | DE.. .. .. ..    | 1.234 EUR | nein         |
-   | Sparkasse Spar       | DE.. .. .. ..    | 12.000 EUR| ja           |
+ | Konto | IBAN | Saldo | Sperrvermerk |
+ |----------------------|-------------------|-----------|--------------|
+ | Sparkasse Berlin Giro | DE. . . . | 1.234 EUR | nein |
+ | Sparkasse Spar | DE. . . . | 12.000 EUR| ja |
 
 B. Immobilien
-   [Anschrift, Grundbuchblatt, geschätzter Verkehrswert]
+ [Anschrift, Grundbuchblatt, geschätzter Verkehrswert]
 
 C. Bewegliche Sachen von Wert
-   [Position, Schätzwert]
+ [Position, Schätzwert]
 
 D. Forderungen
-   [Forderung gegen wen, Betrag, Fälligkeit]
+ [Forderung gegen wen, Betrag, Fälligkeit]
 
 E. Verbindlichkeiten
-   [Gläubiger, Betrag, monatliche Rate]
+ [Gläubiger, Betrag, monatliche Rate]
 
 F. Wiederkehrende Einnahmen und Ausgaben
-   Einnahmen:  Altersrente DRV   1.213 EUR/Mon
-               Grundsicherung    [Antrag/Bescheid]
-   Ausgaben:   Heimkosten        2.341 EUR/Mon
-               Telekom            29 EUR/Mon
+ Einnahmen: Altersrente DRV 1.213 EUR/Mon
+ Grundsicherung [Antrag/Bescheid]
+ Ausgaben: Heimkosten 2.341 EUR/Mon
+ Telekom 29 EUR/Mon
 
-Gesamtvermögen zum Stichtag:    [Betrag]
+Gesamtvermögen zum Stichtag: [Betrag]
 
 Versicherung:
 Ich versichere die Richtigkeit und Vollständigkeit dieses Verzeichnisses
 (§ 1835 Abs. 2 BGB).
 
-Ort, Datum                              [Unterschrift Betreuer/in]
+Ort, Datum [Unterschrift Betreuer/in]
 ```
 
 Bei der jährlichen Rechnungslegung zusätzlich tabellarische
 Einnahmen-Ausgaben-Rechnung mit Belegnummern.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ## Beispiel
 
@@ -239,9 +244,10 @@ des Betreuers. Verstöße können strafrechtliche Folgen haben (Untreue
 Bei jeder Ausgabe sind mindestens folgende Belege anzugeben:
 
 - §§ 1835, 1839, 1841, 1845, 1865 BGB
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Quellenregel: Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff; keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen.
 - Literatur nur bei vom Nutzer bereitgestellter oder lizenziert live geprüfter Quelle; keine Kommentarblindzitate.
 
 ---
 *Dieser Skill ersetzt keine konkrete fachliche Beratung im Einzelfall.*
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,0 +1,57 @@
+---
+name: patentlizenzvertrag-review
+title: Patentlizenzvertrag prüfen
+description: 'Für Patentlizenzvertrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecht/skills/patentlizenzvertrag-review
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: ip
+language: de
+---
+
+# Patentlizenzvertrag prüfen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: PatG § 34 Anmeldetag, § 41 Priorität 12 Monate, § 81 Nichtigkeitsklage, EPÜ Art. 99 Einspruch 9 Monate, R. 161/162 EPÜ 6 Monate, UPC Opt-out bis Ablauf Transition.
+- Tragende Normen verifizieren: PatG §§ 1, 3, 4, 9, 10, 14, 21, 24, 34, 38, 41, 59, 81, 139, 140a, 140b, EPÜ Art. 52, 54, 56, 64, 69, 87-89, PCT Art. 3, 8, UPCA, EinheitspatentVO 1257/2012 — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Patentanmelder, Erfinder, Patentanwalt, DPMA, EPA, BPatG, BGH X. Senat, UPC, Wettbewerber (Einsprechende).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Patentanmeldung, Patentschrift, Recherchebericht, Prüfungsbescheid, Einspruchsschrift, Nichtigkeitsklage, FTO-Gutachten, UPC-Klage — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Red-Flag-Check
+
+| Thema | Frage |
+| --- | --- |
+| Schutzrechte | Welche Patente/Anmeldungen genau, welcher Rechtsstand, welche Länder? |
+| Lizenzart | einfach, exklusiv, allein, konzernweit, nicht übertragbar? |
+| Field of Use | Produktfeld technisch und wirtschaftlich klar? |
+| Unterlizenz | erlaubt, zustimmungspflichtig, Konzern-/OEM-/Distributor-Abdeckung? |
+| Gegenleistung | upfront, milestone, running royalty, Mindestumsatz, auditierbare Basis? |
+| Verbesserungen | wem gehören Improvements, wer darf sie nutzen, wer muss anmelden? |
+| Durchsetzung | wer klagt, wer trägt Kosten, wer kontrolliert Vergleich? |
+| Gewährleistung | Bestand, Nichtverletzung, Inhaberschaft, technische Eignung sauber begrenzt? |
+| Ende | Kündigung, Sell-off, Know-how-Rückgabe, Daten, Lagerbestand, Insolvenz? |
+
+## Typische Fehler
+
+- Territory und validierte Länder widersprechen sich.
+- Exklusivität kollidiert mit eigener Nutzung oder bestehenden Lizenzen.
+- "Patent" meint Anmeldung, aber Vertrag behandelt es wie erteiltes Schutzrecht.
+- Erfinderpersönlichkeitsrechte werden wie übertragbare Vermögensrechte formuliert.
+- Royalty Base passt nicht zu Produktbündeln, Ersatzteilen oder Dienstleistungen.
+
+## Pflicht-Normen und Doktrinen
+- **§ 15 PatG:** Übertragung und Lizenz; Lizenz ist sukzessionsfest, wenn dinglich bestellt.
+- **VertikalGVO (EU) 2022/720 + Leitlinien:** Marktanteils-Sicherheitshafen 30 %; Kernbeschränkungen (RPM, Gebiete) bleiben verboten.
+- **TTBER (EU) 2026/877:** Seit 1. Mai 2026 geltende Gruppenfreistellung für Technologietransfer; kombinierter Marktanteil bis 20 Prozent bei Wettbewerbern und Marktanteil jeder Partei bis 30 Prozent bei Nichtwettbewerbern, jeweils mit gesonderter Prüfung von Kernbeschränkungen und ausgeschlossenen Klauseln.
+- **FRAND / SEP:** EuGH Huawei/ZTE, C-170/13, Urt. v. 16.07.2015 -- pflichtgemäßes Verhandlungsritual.
+- **Insolvenz des Lizenzgebers:** § 103 InsO Wahlrecht des Insolvenzverwalters; einfache Lizenz erlischt nicht zwingend, aber Risiko der Anfechtung. Schutz durch ausschließliche Lizenz mit Eintragung im DPMA-Register (§ 30 PatG); ggf. Treuhand.
+- **AGB-Recht / B2B:** §§ 305 ff. BGB greifen im B2B-Geschäft begrenzt, aber Inhaltskontrolle nach § 307 BGB bleibt; bei Massenverträgen Klauselrisiko.
+- **Compliance:** Exportkontrolle (Dual-Use-VO (EU) 2021/821), Sanktionsrecht, Embargos.
+
+## Praxis-Tipp
+- Konkrete Beispiele für Royalty-Bemessung im Vertrag (Stücklohn vs. Umsatz), Audit-Right mit 12-Monats-Vorlauf, Vertraulichkeit auf 5-10 Jahre.

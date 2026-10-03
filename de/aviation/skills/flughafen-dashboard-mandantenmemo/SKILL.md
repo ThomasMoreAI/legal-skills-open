@@ -1,0 +1,111 @@
+---
+name: flughafen-dashboard-mandantenmemo
+title: Flughafen – Dashboard bauen
+description: 'Für Flughafen – Dashboard bauen: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/luftrecht-flughafenrecht/skills/flughafen-dashboard-mandantenmemo
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: aviation
+language: de
+---
+
+# Flughafen – Dashboard bauen
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: LuftVG; LuftSiG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Kanzlei betreut Flughafenbetreiber dauerhaft; Dashboard soll alle mandatsrelevanten Daten bündeln.
+- Investoren-Konsortium führt Due Diligence durch; Dashboard für strukturierte Datenzusammenführung.
+- Insolvenzverwalter hat Flughafen übernommen; sofortiger Überblick über Betrieb und Verbindlichkeiten nötig.
+
+## Erste Schritte
+
+1. Sachverhalt strukturieren: Flughafen Art des Problems beteiligte Behörden Fristen.
+2. Planfeststellungsstatus prüfen: LuftVG § 6/8 Genehmigung Auflagen aktuell.
+3. Grundbuch und Eigentümerstruktur klären: kommunal staatlich privatwirtschaftlich.
+4. LuftSiG-Sicherheitsprogramm auf Aktualität prüfen: EU-DVO 2015/1998 Anforderungen.
+5. Finanzlage einschätzen: EU-Beihilferechtsstatus Subventionen Darlehen.
+6. Handlungsbedarf dokumentieren: Vermerk mit Fristenstand und Empfehlungen.
+
+## Rechtsrahmen
+
+- **LuftVG §§ 6-8**: Flugplatzgenehmigung und Planfeststellungspflicht.
+- **LuftVG § 10**: Wirkung des Planfeststellungsbeschlusses.
+- **LuftSiG § 8**: Sicherheitspflichten des Flugplatzbetreibers.
+- **EU-DVO 2015/1998**: Technische Sicherheitsanforderungen.
+- **FluglärmG §§ 2-9**: Lärmschutzbereiche und Schallschutzansprüche.
+- **InsO §§ 15a 17-19**: Insolvenzantragspflicht.
+- **VwVfG §§ 72-78**: Planfeststellungsverfahren.
+- **LuftVG § 6**: Genehmigung des Flughafenbetriebs; sachliche und persönliche Voraussetzungen.
+- **LuftVG § 8**: Planfeststellungsverfahren für Flughafenausbau; UVP-Pflicht.
+- **LuftVG § 9**: Planfeststellungsbeschluss; Drittwirkung und Bestandsschutz.
+- **FluglärmG § 4**: Lärmschutzbereiche; Tagschutzzonen 1 und 2 sowie Nachtschutzzone.
+- **VwVfG § 72**: Planfeststellungsverfahren allgemein; Beteiligungsrechte betroffener Dritter.
+
+## Prüfraster
+
+1. Ist Planfeststellungsbeschluss aktuell und vollständig umgesetzt?
+2. Sind LuftSiG-Sicherheitsprogramme auf aktuellem EU-DVO-Stand?
+3. Ist Grundbuchsituation und Eigentümerstruktur klar?
+4. Bestehen offene Klagen oder Einwendungsverfahren?
+5. Zeigen Finanzkennzahlen Insolvenzfrühzeichen?
+6. Sind alle Auflagen aus Planfeststellungsbeschluss fristgerecht erfüllt?
+7. Ist eine UVP nach UVPG § 4 durchgeführt und aktuell?
+8. Sind Lärmschutzbereiche nach FluglärmG § 4 neu zu ermitteln nach Bauerweiterung?
+
+## Typische Fallstricke
+
+- Planfeststellungsauflagen veraltet und nicht auf aktuelles Recht angepasst.
+- LuftSiG-Sicherheitsprogramm nicht auf neue EU-DVO aktualisiert.
+- Insolvenzfrühzeichen bei regionalen Flughäfen unterschätzt.
+- Verfahrensfristen im Planfeststellungsverfahren versäumt.
+- Planfeststellungsbeschluss nicht vollständig umgesetzt; Auflagen aus Lärmschutzbereich vergessen.
+- Dritte (Anwohner) fristgerecht Klage erhoben; aufschiebende Wirkung ignoriert.
+
+## Vertiefung Dashboard-Struktur
+
+Ein effektives Luftrecht-Dashboard für laufende Mandate umfasst:
+
+- **Fristenmonitor**: Alle laufenden Widerspruchs- Klage- und Registrierungsfristen mit Ampelstatus; automatische Erinnerung 14 Tage vor Ablauf.
+- **Behördenstatus**: Aktueller Stand aller laufenden Verfahren (LBA EASA Fluko VG); letzte Aktualisierung sichtbar.
+- **Registerstatus**: Luftfahrzeugrolle AG Braunschweig Cape Town; Abfragedatum und Befund.
+- **Insolvenz-Frühwarnung**: Finanzkennzahlen der beteiligten Airline; Ratingänderungen; Pressemeldungen.
+- **Dokumentenablage**: Bescheide Verträge Gutachten Registerauszüge versioniert und durchsuchbar.
+
+## Quellen
+
+- LuftVG: https://www.gesetze-im-internet.de/luftvg/BJNR006810922.html
+- LuftSiG: https://www.gesetze-im-internet.de/luftsig/
+- FluglärmG: https://www.gesetze-im-internet.de/fluglaermg/
+- UVPG: https://www.gesetze-im-internet.de/uvpg/
+- BVerwG Planfeststellung: https://www.bverwg.de
+
+## Hinweise für die Praxis
+
+Dieser Skill deckt den Bereich Flughafenbetrieb und Planfeststellung ab. Folgende praktische Hinweise ergänzen die obigen Ausführungen:
+
+- Dashboard wöchentlich aktualisieren; veraltete Einträge sind gefährlicher als kein Dashboard.
+- Zugriffsrechte klar regeln; Mandantendaten nach DSGVO schützen.
+- Automatische Fristen-Erinnerungen per E-Mail aktivieren.
+- Dashboard-Vorlage nach Mandantentyp (Airline Flughafen Leasinggeber) anpassen.
+
+### Dokumentationspflichten
+
+Für Mandate im Bereich Flughafenbetrieb und Planfeststellung sind folgende Dokumente regelmäßig anzufordern:
+
+- Aktueller LBA-Luftfahrzeugrolle-Auszug mit Eigentumsangaben
+- AG-Braunschweig-Registerauszug (Luftfahrzeugpfandrecht)
+- Bei belegtem Vertragsstaatenbezug: aktuelles Search Certificate des International Registry und gegebenenfalls IDERA-Nachweis der nationalen Registerbehörde
+- Gültige Betriebsgenehmigung und AOC-Kopie
+- Leasingvertrag oder Eigentumsnachweis
+- Aktuelle Behördenbescheide und Aufsichtskorrespondenz

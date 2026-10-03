@@ -1,0 +1,103 @@
+---
+name: fachanwalt-sportrecht-stadion-hausverbot
+title: Stadion-Hausverbot
+description: 'Für Stadion-Hausverbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sportrecht/skills/fachanwalt-sportrecht-stadion-hausverbot
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: sports
+language: de
+---
+
+# Stadion-Hausverbot
+
+## Zweck
+
+Verteidigung von Fans gegen Stadion-Hausverbot.
+
+## 1) Rechtsgrundlage
+
+### Hausrecht Verein
+
+- § 858 BGB analog
+- Vereinsrecht im Stadion
+- Bei Profi-Liga: Vereine über DFL Statuten
+
+### Bundesweites Stadion-Verbot
+
+- DFL-Richtlinien
+- Datei "Gewalttaeter Sport" beim BKA
+- Eintragung 1-5 Jahre
+
+## 2) Voraussetzungen
+
+### Erforderlich
+
+- Sachgrund (z.B. Gewalt, Pyrotechnik, Beleidigung)
+- Verhältnismaessigkeit
+- Vorherige Anhörung (oft fehlend)
+- Befristung
+
+### Praxis-Probleme
+
+- Pauschal-Verbote ohne Einzel-Prüfung
+- Sippenhaft-Effekt (Verein-Zugehoerigkeit)
+- Erfassung in Datei ohne Beweis
+
+## 3) BGH-Linie
+
+
+## 4) Workflow
+
+### Schritt 1 — Bescheid prüfen
+
+- Begründung konkret?
+- Befristung?
+- Anhörungs-Mangel?
+
+### Schritt 2 — Widerspruch
+
+- An Verein-Vorstand / DFL
+- Anfechtungs-Klage AG bei Verein-Sitz
+
+### Schritt 3 — Löschungs-Antrag
+
+- BKA "Gewalttaeter Sport" Löschungs-Antrag
+- DSGVO Art. 17 Löschungs-Anspruch
+
+### Schritt 4 — Klage
+
+- AG Vereinssitz
+- Streitwert niedrig (typisch 2.500 EUR)
+
+## 5) Typische Fehler
+
+1. **Anhörung Verein nicht erfolgt** -> Verbot anfechtbar
+2. **Beweis Pyrotechnik fehlt** Verein
+3. **Befristung unklar** -> Anfechtung
+4. **DSGVO-Löschung versäumt**
+
+## 6) Praxis-Aspekte
+
+### Bei Mehrfach-Tatern
+
+- Stationaere Anwesenheits-Pflicht möglich
+- StGB-Sportgewalt-Vorwurf
+
+### Bei Bagatell
+
+- Erste Tat: oft eA-Verfahren
+- Zweite Tat: Eskalation
+
+## Anschluss
+
+- `fachanwalt-sportrecht-orientierung` — Triage
+- `datenschutzrecht` — bei DSGVO-Löschung
+- `verbandsstrafe-anfechten` — bei Verbands-Sanktion
+
+## Ergaenzende Rechtsprechung Stadion-Hausverbot
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,11 +1,11 @@
 ---
 name: sachverhalt-neutral-darstellen
 title: Sachverhalt neutral darstellen
-description: 'Sachverhalt in Anwaltskorrespondenz neutral und ohne wertende Parteinahme darstellen. § 43a BRAO Sachlichkeit §§ 86 ff. ZPO Sachverhaltspflicht. Prüfraster: Parteinahme Wertungen Auslassungen Einseitigkeit neutrale Formulierungen. Output: neutral formulierte Sachverhaltsdarstellung. Abgrenzung: nicht für rechtliche Stellungnahmen.'
+description: 'Für Sachverhalt neutral darstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/email-umformulierer-berufsrecht/skills/sachverhalt-neutral-darstellen
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
@@ -14,17 +14,17 @@ language: de
 
 # Sachverhalt neutral darstellen
 
+## Fachkern: Sachverhalt neutral darstellen
+- **Normen-/Quellenanker:** BRAO/BORA, BNotO, StBerG, WPO, PAO, Sachlichkeitsgebot, Verschwiegenheit, Datenschutz und Deeskalationspflichten.
+- **Entscheidende Weiche:** Bewahre rechtlichen Inhalt, entferne Eskalation, schütze Geheimnisse, markiere Fristen und formuliere sendefähig ohne falsches Anerkenntnis.
+
 Dieser Skill transformiert subjektiv gefärbte, vorwurfsvolle oder emotionale Sachverhaltsschilderungen in sachliche, objektive Darstellungen. Ziel ist nicht die Verschleierung des Problems, sondern seine nüchterne und präzise Beschreibung — so wie es ein guter Schriftsatz erfordert.
 
-
 ## Triage zu Beginn
-1. Welcher Abschnitt des Textes enthaelt subjektive Wertungen, die in neutrale Darstellung umgewandelt werden muessen?
+1. Welcher Abschnitt des Textes enthaelt subjektive Wertungen, die in neutrale Darstellung umgewandelt werden müssen?
 2. Muss der Sachverhalt vollstaendig erhalten bleiben oder darf er kondensiert werden?
-3. Fuer welchen Adressaten: Gericht (maximale Sachlichkeit), Mandant (erklaerend), Gegner (zurueckhaltend)?
+3. Für welchen Adressaten: Gericht (maximale Sachlichkeit), Mandant (erklaerend), Gegner (zurueckhaltend)?
 4. Gibt es Passagen, bei denen die Distanzierungsformel ("nach Ihrer Darstellung") benoetigt wird?
-
-## Aktuelle Rechtsprechung
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 - § 43a Abs. 3 BRAO — Sachlichkeitsgebot und Wahrheitspflicht bei Sachverhaltsschilderungen
@@ -32,9 +32,6 @@ Dieser Skill transformiert subjektiv gefärbte, vorwurfsvolle oder emotionale Sa
 - § 823 Abs. 1 BGB — Persoenlichkeitsrecht: neutrale Schilderung schutzt vor Haftung
 - § 193 StGB — Wahrnehmung berechtigter Interessen: Schutzbereich bei wahrheitsgemaesser sachlicher Darstellung
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Grundprinzipien der neutralen Darstellung
 
 Die wichtigsten Werkzeuge sind: Passivkonstruktionen (nicht "Sie haben versäumt" sondern "die Frist ist verstrichen"), Datumsbezüge statt unbestimmter Zeitangaben (nicht "seit Wochen" sondern "seit dem TT.MM.JJJJ"), unpersönliche Pronomen (nicht "Sie ignorieren" sondern "eine Rückmeldung steht noch aus"), Distanzierungsformeln (nicht "Sie behaupten" sondern "nach Ihrer Darstellung" oder "ausweislich Ihres Schreibens") sowie Trennung von Sachverhalt und Wertung.
@@ -65,6 +62,4 @@ Für die Wiedergabe fremder Darstellungen ohne eigene Wertung gelten folgende Fo
 **Vorher:** "Anscheinend ist Ihnen die Vertragstreue nicht wichtig."
 **Nachher:** "Die vereinbarte Leistung ist bis zum TT.MM.JJJJ nicht erbracht worden."
 
-## Ausgabeformat
-
-Der Skill gibt für jeden umzuformulierenden Satz aus: (1) Original. (2) Neutrale Fassung. (3) Erläuterung des eingesetzten Mittels (Passiv, Datumsbezug, Distanzierungsformel). (4) Optionaler Hinweis auf berufsrechtliche Relevanz.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

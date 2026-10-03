@@ -5,11 +5,11 @@ description: Find and quote legal texts and administrative guidance with the Lib
 author: librejustice
 author_url: https://github.com/librejustice/librejustice/tree/main/plugins/librejustice/skills/recherche-normes
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: litigation
-language: fr
+language: en
 sources:
 - title: Corpus
   path: references/corpus.md

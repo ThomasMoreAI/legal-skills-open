@@ -1,0 +1,171 @@
+---
+name: eilantrag-buergergeld-jobcenter
+title: Eilantrag gegen das Jobcenter — Buergergeld retten
+description: 'Für Eilantrag gegen das Jobcenter — Bürgergeld retten: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/eilantrag-buergergeld-jobcenter
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Eilantrag gegen das Jobcenter — Buergergeld retten
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Worum geht es?
+
+Das Jobcenter hat Ihr Buergergeld eingestellt oder gekuerzt. Oder es zahlt schon zwei Monate nicht. Sie haben keine Lebensmittel, keine Miete, keinen Strom mehr. Diese Skill zeigt Schritt für Schritt, wie Sie schnell Eilantrag stellen.
+
+## In einfacher Sprache
+
+Das Jobcenter zahlt nichts mehr. Sie haben kein Geld zum Leben. Gehen Sie schnell zum Sozialgericht. Es kann das Jobcenter zwingen, Ihnen Geld zu geben. Bis das Hauptverfahren entschieden ist.
+
+## Wann brauchen Sie diese Skill?
+
+- Ihr Buergergeld wurde eingestellt oder gekuerzt.
+- Sie haben einen Sanktionsbescheid bekommen, der wirkt.
+- Das Jobcenter zahlt monatelang nicht, obwohl Sie Anspruch haben.
+- Sie sind ohne Geld zum Leben.
+
+## Fachbegriffe (kurz erklaert)
+
+- **Bedarfsgemeinschaft**: Personen, die zusammen leben und Buergergeld bekommen.
+- **Regelbedarf**: Pauschal-Betrag für Lebenshaltung (2024: 563 EUR für Alleinstehende, kann sich ändern).
+- **Kosten der Unterkunft (KdU)**: Miete und Nebenkosten, die das Jobcenter zahlt.
+- **Sanktion**: Kuerzung wegen Pflichtverletzung (§ 31 SGB II).
+- **Existenzminimum**: Was Sie zum Leben brauchen, gesichert durch das Grundgesetz.
+
+## Rechtsgrundlagen
+
+- **§ 86b Abs. 2 SGG** — Einstweilige Anordnung.
+- **§ 39 SGB II** — Aufschiebende Wirkung von Widerspruch entfaellt bei vielen Jobcenter-Bescheiden.
+- **§ 41a SGB II** — Vorlaeufige Bewilligung als Druckmittel.
+- **§ 31 SGB II** — Sanktionen.
+- **§ 7 SGB II** — Leistungsberechtigte.
+- **Art. 1 Abs. 1 GG i.V.m. Art. 20 Abs. 1 GG** — Existenzminimum als Verfassungsanspruch.
+
+## Schritt-für-Schritt-Anleitung
+
+### Schritt 1 — Schnell handeln
+
+Bei Buergergeld-Stopp gilt: jede Woche zaehlt. Das Geld kommt nicht von alleine zurueck. Beginnen Sie heute.
+
+### Schritt 2 — Lage einordnen
+
+Was genau ist passiert?
+
+- **Vollstopp**: Jobcenter hat alles gestrichen (z.B. wegen Verstoss gegen Mitwirkung)
+- **Teilkuerzung**: Sanktion 10/20/30 %
+- **Verzoegerung**: Antrag laeuft, nichts kommt seit Wochen
+- **Falsche Berechnung**: Bedarfsgemeinschaft falsch eingeschaetzt
+- **Aufrechnung**: Jobcenter zieht Geld ab wegen alter Forderungen
+
+### Schritt 3 — Eilantrag-Schriftsatz
+
+```
+Sozialgericht [Ort] [Ort, Datum]
+
+In dem Verfahren
+
+[Ihr Name, Geburtsdatum]
+[Adresse]
+
+— Antragsteller —
+
+gegen
+
+Jobcenter [Ort]
+[Adresse]
+— BG-Nummer: [aus dem Bescheid] —
+
+— Antragsgegner —
+
+wegen Buergergeld; Eilantrag
+
+A N T R A G
+
+1. Der Antragsgegner wird im Wege der einstweiligen Anordnung gem. § 86b Abs. 2 SGG verpflichtet, mir vorlaeufig für die Zeit ab [Datum] bis zur Entscheidung in der Hauptsache laufende Leistungen nach dem SGB II in Hoehe der Regelbedarfsstufe 1 zuzueglich der tatsaechlichen Kosten der Unterkunft und Heizung zu gewaehren.
+
+2. Mir wird für das Verfahren Prozesskostenhilfe gewaehrt.
+
+GRUENDE
+
+I. Sachverhalt
+- Antrag auf Buergergeld am [Datum] gestellt.
+- Bescheid vom [Datum] zur Einstellung / Kuerzung.
+- Widerspruch eingelegt am [Datum].
+- Geld fehlt seit [Datum].
+
+II. Anordnungsanspruch
+Ich erfuelle die Voraussetzungen nach § 7 SGB II:
+- Ich bin erwerbsfaehig.
+- Ich bin hilfebeduerftig: kein nennenswertes Vermoegen, kein ausreichendes Einkommen.
+- Ich habe meinen gewoehnlichen Aufenthalt in Deutschland.
+
+Die Sanktion / Einstellung ist rechtswidrig, weil [Beispiel: ich aus wichtigem Grund den Termin nicht wahrnehmen konnte; ein Beleg liegt bei].
+
+III. Anordnungsgrund
+- Mein Kontostand betraegt am [Datum]: [Betrag] EUR (Anlage 1: Kontoauszug).
+- Meine monatliche Miete betraegt [Betrag] EUR; Faelligkeit am [Datum].
+- Mein Vermieter hat angedeutet, bei weiterer Nichtzahlung zu kuendigen.
+- Lebensmittel- und Hygieneartikel kann ich derzeit nicht mehr finanzieren.
+
+
+IV. Glaubhaftmachung
+Beigefuegt ist eine eidesstattliche Versicherung.
+
+V. Anlagen
+- Bescheid des Jobcenters vom [Datum]
+- Widerspruchsschreiben vom [Datum]
+- Kontoauszuege letzte 3 Monate
+- Mietvertrag, Nebenkostenabrechnung
+- Eidesstattliche Versicherung
+- PKH-Erklaerung mit Belegen
+
+[Unterschrift]
+```
+
+### Schritt 4 — Eidesstattliche Versicherung beifuegen
+
+Sehr wichtig — das Gericht braucht das für die Glaubhaftmachung. Erklaeren Sie kurz die finanzielle Notlage.
+
+### Schritt 5 — Verschicken
+
+- Sozialgericht in Ihrer Stadt finden (siehe `oertliche-zuständigkeit-57-sgg`).
+- Per Fax (schnellster Weg), per Mein Justizpostfach oder persoenlich abgeben.
+- Bei akuter Notlage (Strom-Abschaltung in 3 Tagen): "akute Eilbeduerftigkeit" hervorheben.
+
+### Schritt 6 — Bei Verzoegerung: Geschäftsstelle anrufen
+
+Das SG hat einen Eilantragsdezernenten. Anruf ist erlaubt. Sagen Sie: "Mein Eilantrag liegt vor seit [Datum]. Mein Existenzminimum ist akut bedroht."
+
+## Worauf Sie besonders achten müssen
+
+- **Sanktionen:** Aktuelle Grenzen und Folgen nur nach Prüfung von Gesetzesstand, Behördenpraxis und verifizierter Rechtsprechung darstellen.
+- **Schonvermoegen** seit Buergergeld-Reform 2023 erweitert: in der Karenzzeit 40.000 EUR für den ersten und 15.000 EUR für weitere Personen — prüfen Sie aktuelle Werte.
+- **Vorlaeufige Bewilligung**: Wenn Anspruch nicht klar ist, kann das SG vorläufige Zahlung anordnen. Das ist auch ein Erfolg.
+- **Mitwirkungspflichten** nicht ignorieren: Termine wahrnehmen, Unterlagen einreichen. Sonst verschlechtert sich Ihre Lage.
+
+## Typische Fehler
+
+- Eilantrag ohne Beweis für Notlage → Kontoauszuege immer beifuegen
+- Eilantrag ohne eidesstattliche Versicherung → wichtig
+- Schon laenger Geld weg, jetzt erst Eilantrag → "akute Bedrohung" schwerer zu argumentieren
+- Nur Widerspruch, keinen Eilantrag → das Widerspruchsverfahren dauert zu lange
+
+## Quellen und Aktualitaet
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -10,9 +10,9 @@ Jurisdiction: `nz` · Practice: `administrative` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`NZ Consultations`](skills/nz-consultations-thecolab-ai/) | List open New Zealand central-government consultations, agencies, topics, deadlines and official submission… |
+| [`NZ Consultations`](skills/nz-consultations-thecolab-ai/) | List open New Zealand central-government consultations, agencies, topics, deadlines and official… |
 | [`NZ Gazette`](skills/nz-gazette-thecolab-ai/) | Search and retrieve authoritative New Zealand Gazette notices by keyword, identifier, date, category and… |
-| [`NZ regulatory analysis`](skills/nz-regulatory-analysis-thecolab-ai/) | Use when finding or inspecting current official New Zealand Regulatory Analysis Summaries (RAS), Regulatory… |
+| [`NZ regulatory analysis`](skills/nz-regulatory-analysis-thecolab-ai/) | Use when finding or inspecting current official New Zealand Regulatory Analysis Summaries (RAS)… |
 | [`NZ Select Committees`](skills/nz-select-committees-thecolab-ai/) | Track official New Zealand select committees, open submissions, business, public evidence and reports.… |
 | [`OIA Statistics NZ`](skills/oia-statistics-nz-thecolab-ai/) | Query New Zealand Public Service Commission six-monthly OIA compliance statistics with per-period and… |
 

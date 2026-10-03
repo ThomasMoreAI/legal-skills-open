@@ -1,44 +1,68 @@
 ---
 name: entfristung-vergleichsverhandlung-checkliste
-title: 'Vergleichsverhandlung: Checkliste Entfristungsklage'
-description: 'Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung; Weiterbeschaeftigung oder Aufhebung; Zeugnis; Freistellung; Urlaubsabgeltung; Klageerledigung; Erledigungsklausel-Risiken.'
+title: 'Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung'
+description: 'Für Entfristung Vergleichsverhandlung Checkliste: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und Risikoampel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/entfristung-vergleichsverhandlung-checkliste
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Vergleichsverhandlung: Checkliste Entfristungsklage
+# Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung
+
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung; Weiterbeschaeftigung oder Aufhebung; Zeugnis; Freistellung; Urlaubsabgeltung; Klageerledigung; Erledigungsklausel-Risiken.
+
+### Vergleichsverhandlung: Checkliste Entfristungsklage
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vergleichsverhandlung: Checkliste Entfristungsklage` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre vor der Vergleichsverhandlung
 
 1. Will der Mandant Weiterbeschäftigung (unbefristetes Arbeitsverhältnis) oder Beendigung mit Abfindung?
 2. Welche Abfindungsuntergrenze ist akzeptabel?
 3. Stehen offene Urlaubstage, Überstunden oder Gehaltsansprüche aus?
-4. Sperrzeit-Risiko: Auf wessen Veranlassung wird das AV beendet? (§ 159 SGB III)
+4. Sperrzeit-Risiko: Auf wessen Veranlassung wird das AV beendet? (Paragraf 159 SGB III)
 5. Wird ein qualifiziertes Zeugnis benötigt? Welche Note?
 6. Erledigungsklausel: Gibt es weitere offene Ansprüche aus dem Arbeitsverhältnis?
 
 ## Zentrale Normen
 
-- §§ 9, 10 KSchG i.V.m. § 17 Satz 2 TzBfG — Auflösungsantrag auf Abfindung
-- § 7 Abs. 4 BUrlG — Urlaubsabgeltung bei Beendigung
-- § 615 BGB — Annahmeverzugslohn bei Weiterbeschäftigungsverweigerung
-- § 159 SGB III — Sperrzeit bei Aufhebungsvertrag auf eigene Veranlassung
-- § 34 EStG — Fünftel-Regelung für Abfindungen (steuerliche Behandlung prüfen)
-- § 109 GewO — Zeugnisanspruch
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zweck
-
-Ein Vergleich in der Entfristungsklage kann verschiedene Formen annehmen. Dieser Skill listet alle relevanten Punkte auf.
+- Paragrafen 9, 10 KSchG i.V.m. Paragraf 17 Satz 2 TzBfG — Auflösungsantrag auf Abfindung
+- Paragraf 7 Abs. 4 BUrlG — Urlaubsabgeltung bei Beendigung
+- Paragraf 615 BGB — Annahmeverzugslohn bei Weiterbeschäftigungsverweigerung
+- Paragraf 159 SGB III — Sperrzeit bei Aufhebungsvertrag auf eigene Veranlassung
+- Paragraf 34 EStG — Fünftel-Regelung für Abfindungen (steuerliche Behandlung prüfen)
+- Paragraf 109 GewO — Zeugnisanspruch
 
 ## Option A: Entfristungsbestätigung (Arbeitgeber gibt nach)
 
@@ -63,18 +87,18 @@ Häufigere Vergleichsvariante: Beide Seiten einigen sich auf eine Beendigung des
 **2. Abfindung**
 - Höhe der Abfindung (Orientierung an KüSchK-Faustformel auch hier möglich)
 - Fälligkeit und Zahlungsweg
-- Steuer- und sozialversicherungsrechtliche Behandlung (§ 34 EStG Fünftel-Regelung prüfen)
+- Steuer- und sozialversicherungsrechtliche Behandlung (Paragraf 34 EStG Fünftel-Regelung prüfen)
 
 **3. Freistellung**
 - Ab wann? Unwiderruflich oder widerruflich?
 - Anrechnung offener Urlaub auf Freistellung?
 
 **4. Urlaubsabgeltung**
-- Offene Urlaubstage ermitteln und abgelten (§ 7 Abs. 4 BUrlG)
+- Offene Urlaubstage ermitteln und abgelten (Paragraf 7 Abs. 4 BUrlG)
 
 **5. Vergütung für Zeitraum nach vereinbartem Befristungsende**
 - Falls Weiterbeschäftigung bis Vergleichsdatum: Vergütung regeln
-- Falls keine Weiterbeschäftigung: Annahmeverzugslohn § 615 BGB
+- Falls keine Weiterbeschäftigung: Annahmeverzugslohn Paragraf 615 BGB
 
 **6. Zeugnis**
 - Welche Note wird erteilt?
@@ -109,12 +133,4 @@ Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behauptete
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
 
-<!-- AUDIT 27.05.2026 | Bundle 012 | Task 4
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Befund WRONG_TOPIC + falsche NZA-Fundstelle korrigiert.
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-Rechtsprechung live prüfen: Keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über amtliche oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-schriftliche Niederlegung; keine rückwirkende Heilung; Schwäche der Arbeitgeberposition nutzbar"
-Das AZ betrifft nicht elektronische Signaturen sondern Unterzeichnung nach Arbeitsaufnahme.
-Quelle: https://dejure.org/dienste/vernetzung/rechtsprechung?Text=7+AZR+1048%2F06
--->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

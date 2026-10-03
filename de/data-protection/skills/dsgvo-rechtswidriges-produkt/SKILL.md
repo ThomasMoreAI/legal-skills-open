@@ -1,11 +1,11 @@
 ---
 name: dsgvo-rechtswidriges-produkt
 title: DSGVO-rechtswidriges Produkt
-description: 'Produkt aus dem Ausland auf DSGVO-Rechtswidrigkeit prüfen: Richter oder Anwalt muss beurteilen ob Smartglasses oder IoT-Produkt DSGVO-konform ist. Normen: Art. 3 DSGVO (räumlicher Anwendungsbereich), Art. 5 Abs. 1 lit. c (Datensparsamkeit), Art. 6 (Rechtsgrundlage), Art. 9 (biometrische Daten), Art. 13-14 (Informationspflichten), Art. 44 ff. (Drittlandtransfer), Art. 22 (automatisierte Entscheidung). Prüfraster: Anwendbarkeit, Rechtsgrundlage, Sonderkateg. Daten, Drittlandtransfer. Output DSGVO-Prüfschema mit Ergebnis und Empfehlung. Abgrenzung: allgemeine DSGVO-Beratung siehe datenschutzrecht-Plugin; DSA siehe dsa-dma-Plugin.'
+description: 'Für DSGVO-rechtswidriges Produkt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/dsgvo-rechtswidriges-produkt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,8 +14,7 @@ language: de
 
 # DSGVO-rechtswidriges Produkt
 
-Pruefschema, wenn ein technisches Produkt aus dem Ausland nach DSGVO als rechtswidrig zu bewerten ist und der Kaeufer Rückabwicklung will.
-
+Prüfschema, wenn ein technisches Produkt aus dem Ausland nach DSGVO als rechtswidrig zu bewerten ist und der Kaeufer Rückabwicklung will.
 
 ## Triage zu Beginn
 
@@ -23,10 +22,6 @@ Pruefschema, wenn ein technisches Produkt aus dem Ausland nach DSGVO als rechtsw
 2. Welche Kategorien personenbezogener Daten werden verarbeitet — biometrische Daten (Art. 9 DSGVO)?
 3. Werden Daten in Drittländer übermittelt ohne SCC oder anderen Mechanismus (Art. 44 ff. DSGVO)?
 4. Hat der Käufer wirksame Einwilligung erteilt oder scheidet Einwilligung aus (Art. 7 DSGVO)?
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Zentrale Normen
 
@@ -38,9 +33,6 @@ Pruefschema, wenn ein technisches Produkt aus dem Ausland nach DSGVO als rechtsw
 - Art. 82 DSGVO — Schadensersatz (materiell und immateriell)
 - § 134 BGB — Nichtigkeit bei Verstoß gegen Verbotsgesetz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
 1. **Anwendbarkeit DSGVO prüfen (Art. 3):** Niederlassungsprinzip oder Marktortprinzip.
@@ -55,6 +47,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 **Adressat:** Entscheidungsgründe — Tonfall: sachlich-juristisch
 
 ```
+
 ## DSGVO-Prüfung
 
 **Anwendbarkeit Art. 3 DSGVO:** Ja, weil [Niederlassungsprinzip / Marktortprinzip: Produkt
@@ -67,7 +60,7 @@ richtet sich an Personen in der EU].
 **Folge:** [Sachmangel § 434 BGB / Nichtigkeit § 134 BGB / Schadensersatz Art. 82 DSGVO].
 ```
 
-## Pruefstationen
+## Prüfstationen
 
 ### A - Anwendbarkeit der DSGVO
 
@@ -104,5 +97,4 @@ richtet sich an Personen in der EU].
 
 Im Tatbestand auf das Gutachten verweisen. In den Entscheidungsgründen konkret die verletzten DSGVO-Artikel benennen und subsumieren.
 
-<!-- AUDIT 27.05.2026 -->
-<!-- BGH VI ZR 39/20 (claimed: DSGVO-Versto\u00dfe Schadensersatz Art. 82, NJW 2021, 3041): NOT_FOUND auf dejure.org. NJW 2021, 3041 gehoert zu BGH VI ZR 40/20 (VW-Abgasskandal §826 BGB) – thematisch unverwandt. Eintrag geloescht. DSGVO-Schadensersatz wird durch bereits vorhandene EuGH-Zitate C-300/21 und C-340/21 abgedeckt. -->
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

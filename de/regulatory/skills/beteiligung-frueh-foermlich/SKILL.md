@@ -1,11 +1,11 @@
 ---
 name: beteiligung-frueh-foermlich
 title: Beteiligung — frühzeitig und förmlich
-description: 'Mandant greift Bebauungsplan wegen Fehlern in der Buerger- oder Behoerdenbeteiligung an. §§ 3 4 BauGB Beteiligungsverfahren. Prüfraster: fruehzeitige Beteiligung § 3 Abs. 1 foermliche Auslegung § 3 Abs. 2 mindestens 1 Monat Behoerdenbeteiligung §§ 4 Abs. 1 und 2 Wiederholung bei wesentlicher Aenderung § 4a Abs. 3 Online-Pflicht § 4a Abs. 4. Output: Beteiligungsfehler-Prüfprotokoll und Angriffspunkte. Abgrenzung zu aufstellungsbeschluss-bekanntmachung (formelle Verfahrenskette) und planerhaltung-214-215-baugb.'
+description: 'Für Beteiligung — frühzeitig und förmlich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Normenkontrolle Bauleitplanung — Paragraf 47 VwGO. Route: beteiligung-frueh-foermlich.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/normenkontrolle-bauleitplanung/skills/beteiligung-frueh-foermlich
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -13,10 +13,6 @@ language: de
 ---
 
 # Beteiligung — frühzeitig und förmlich
-
-## Zweck
-
-Audit der zweistufigen Beteiligung. Hier finden sich die meisten Verfahrenshebel: Auslegungsdauer, Bekanntmachung der Auslegung, Identität der ausgelegten Unterlagen, Online-Veröffentlichung, Behandlung der Stellungnahmen.
 
 ## Schritt 1 — Frühzeitige Beteiligung § 3 Abs. 1 BauGB
 
@@ -159,8 +155,4 @@ Audit der zweistufigen Beteiligung. Hier finden sich die meisten Verfahrenshebel
 
 ## Ergänzende Rechtsprechung
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

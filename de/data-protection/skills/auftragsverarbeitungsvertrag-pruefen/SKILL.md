@@ -1,11 +1,11 @@
 ---
 name: auftragsverarbeitungsvertrag-pruefen
 title: Auftragsverarbeitungsvertrag prüfen
-description: 'Auftragsverarbeitungsvertrag nach Art. 28 DSGVO bei KI-Anbietern prüfen: Anwendungsfall Kanzlei schließt Vertrag mit KI-Dienstleister und muss AVV auf DSGVO-Konformität prüfen. Art. 28 DSGVO AVV-Pflicht, § 43e BRAO IT-Dienstleister, AI Act Betreiberpflichten. Prüfraster Subprozessoren-Genehmigung, technisch-organisatorische Massnahmen TOMs, Drittlandtransfer SCC, Auditrrechte, Löschpflichten, Training-Opt-out. Output AVV-Prüfprotokoll mit Lueckenliste und Nachverhandlungsbedarf. Abgrenzung zu Musterklauseln-IT-Vertrag und zu Dienstleister-Due-Diligence.'
+description: 'Für Auftragsverarbeitungsvertrag prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/auftragsverarbeitungsvertrag-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: data-protection
@@ -14,21 +14,25 @@ language: de
 
 # Auftragsverarbeitungsvertrag prüfen
 
+## Arbeitsbereich
+
+Auftragsverarbeitungsvertrag nach Art. 28 DSGVO bei KI-Anbietern prüfen: Anwendungsfall Kanzlei schließt Vertrag mit KI-Dienstleister und muss AVV auf DSGVO-Konformität prüfen. Art. 28 DSGVO AVV-Pflicht, § 43e BRAO IT-Dienstleister, AI Act Betreiberpflichten. Prüfraster Subprozessoren-Genehmigung, technisch-organisatorische Maßnahmen TOMs, Drittlandtransfer SCC, Auditrrechte, Löschpflichten, Training-Opt-out. Output AVV-Prüfprotokoll mit Lueckenliste und Nachverhandlungsbedarf. Abgrenzung zu Musterklauseln-IT-Vertrag und zu Dienstleister-Due-Diligence. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; DSGVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Spezialwissen
+
 Jeder KI-Dienstleister, der im Auftrag der Kanzlei personenbezogene Daten verarbeitet, muss als Auftragsverarbeiter nach Art. 28 DSGVO vertraglich gebunden werden. Der Auftragsverarbeitungsvertrag (AVV) ist eine datenschutzrechtliche Pflichtgrundlage — sein Fehlen begründet einen DSGVO-Verstoß. Dieser Skill stellt eine strukturierte Prüfcheckliste bereit.
 
 ## Rechtlicher Hintergrund
 
 Art. 28 Abs. 1 DSGVO: Beauftragung nur von Auftragsverarbeitern mit hinreichenden Garantien für technisch-organisatorische Maßnahmen. Art. 28 Abs. 3 DSGVO: Pflichtinhalt des AVV (Gegenstand, Dauer, Art, Zweck, Weisungsgebundenheit, Vertraulichkeit, TOMs, Unterauftragsverarbeiter, Betroffenenrechte, Löschung/Rückgabe, Audits). Art. 28 Abs. 4 DSGVO: Unterauftragsverarbeiter müssen denselben Pflichten unterliegen. Art. 46 DSGVO: Anforderungen für Drittlandtransfers (SCC, Angemessenheitsbeschluss). Art. 83 Abs. 4 DSGVO: Bußgelder bis zu 10 Millionen Euro oder 2 % des Jahresumsatzes bei AVV-Verstößen. Art. 82 DSGVO: Schadensersatzhaftung.
-
-## Vorgehen
-
-1. **AVV-Existenz prüfen**: Besteht überhaupt ein schriftlicher (oder elektronischer) AVV mit dem KI-Anbieter?
-2. **Pflichtinhalte nach Art. 28 Abs. 3 DSGVO verifizieren**: Sind alle gesetzlich vorgeschriebenen Regelungspunkte enthalten?
-3. **Subprozessoren-Liste einholen**: Welche Unterauftragnehmer setzt der KI-Anbieter ein? Sind diese ebenfalls durch AVV gebunden? Wird eine aktuelle Liste bereitgestellt?
-4. **TOMs prüfen**: Sind die technisch-organisatorischen Maßnahmen konkret beschrieben und dem Stand der Technik entsprechend?
-5. **Drittlandtransfer-Regelung verifizieren**: Verarbeitet der Anbieter Daten außerhalb des EWR? Falls ja: Welche Rechtsgrundlage für den Drittlandtransfer (Angemessenheitsbeschluss, SCC, TIA)?
-6. **Audit- und Kontrollrechte sicherstellen**: Räumt der AVV der Kanzlei das Recht ein, die Einhaltung der DSGVO durch den Anbieter zu überprüfen oder überprüfen zu lassen?
-7. **Löschfristen definieren**: Verpflichtet der AVV den Anbieter zur Löschung oder Rückgabe aller Daten nach Vertragsende?
 
 ## Vorlagentext / Bausteine
 
@@ -54,9 +58,6 @@ Art. 28 Abs. 1 DSGVO: Beauftragung nur von Auftragsverarbeitern mit hinreichende
 
 Die Anforderungen an AVV können sich durch Entscheidungen der Datenschutzbehörden oder neue EuGH-Rechtsprechung ändern. Ebenso müssen AVV bei wesentlichen Änderungen der Datenverarbeitungstätigkeit aktualisiert werden. Bei Änderungen der Unterauftragsverarbeiter des KI-Anbieters ist zu prüfen, ob eine erneute Risikobeurteilung erforderlich ist.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 28 DSGVO — Auftragsverarbeitung (Pflichtinhalt AVV)
 - Art. 46 DSGVO — Drittlandtransfer-Garantien (SCC, Angemessenheitsbeschluss)
@@ -71,7 +72,7 @@ Die Anforderungen an AVV können sich durch Entscheidungen der Datenschutzbehör
 4. Sind Unterauftragsverarbeiter benannt und durch eigenen AVV gebunden?
 5. Sind Auditrechte der Kanzlei nach Art. 28 Abs. 3 lit. h DSGVO vereinbart?
 
-## Output-Template — AVV-Pruefungsprotokoll
+## Output-Template — AVV-Prüfungsprotokoll
 **Adressat:** Kanzlei intern / DSB — Tonfall: checklisten-strukturiert
 ```
 AVV-PRUEFUNGSPROTOKOLL
@@ -96,3 +97,18 @@ Pflichtinhalte Art. 28 Abs. 3 DSGVO:
 Naechste Pruefung: [DATUM]
 Geprueft von: [NAME]
 ```
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+
+## Quellenkontrolle
+
+Die Richtlinie muss Berufsrecht, Verschwiegenheit, Datenschutz, Arbeitsrecht und technische Organisation getrennt abbilden. Paragraf 43a Absatz 2 und Paragraf 43e BRAO, Paragraf 203 StGB sowie Artikel 5, 28 und 32 DSGVO nur für den jeweils geregelten Vorgang verwenden. Rechtsprechung nur mit einer konkret passenden tragenden Aussage aufnehmen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

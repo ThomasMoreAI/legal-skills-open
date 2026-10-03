@@ -5,11 +5,16 @@ description: 'Review board/stockholder resolutions for corporate authority, quor
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/board-resolutions-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate
 language: en
+sources:
+- title: Checklist
+  path: references/checklist.md
+- title: Playbook
+  path: references/playbook.md
 ---
 
 # Board Resolutions Review

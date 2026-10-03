@@ -1,0 +1,86 @@
+---
+name: aussenwirtschaft-eori-registrierung-stammdaten
+title: 'EORI-Registrierung: Beantragung und Stammdatenpflege'
+description: 'Für EORI-Registrierung: Beantragung und Stammdatenpflege: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aussenwirtschaft-zoll-sanktionen/skills/aussenwirtschaft-eori-registrierung-stammdaten
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: trade
+language: de
+---
+
+# EORI-Registrierung: Beantragung und Stammdatenpflege
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: AWG, AWV, EU-Dual-Use-VO 2021/821, EU-Sanktionsverordnungen, ZollkodexUnion, IranEmbargoVO, RusslandSanktionenVO — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Mandantenfall
+
+- Neugegründetes Unternehmen moechte erstmalig exportieren; EORI-Nummer beantragen.
+- UK-Tochtergesellschaft nach Brexit hat keine EU-EORI; Regelungsalternativen.
+- Unternehmen hat Sitzverlegung nicht gemeldet; Zollanmeldungen werden abgelehnt.
+
+## Erste Schritte
+
+1. EORI-Antragsformular beim Hauptzollamt herunterladen und vollstaendig ausfuellen.
+2. Erforderliche Belege zusammenstellen: Handelsregisterauszug, Steuernummer, Adresse.
+3. Antrag online einreichen (zoll.de Antragsformular oder Zoll-Portal).
+4. EORI-Nummer in alle relevanten Systeme (ATLAS, Zollagent, Bankinstrument) eintragen.
+5. Stamdaten-Update-Pflicht nach UZK Art. 9 Abs. 3 bei Änderungen von Anschrift, Rechtsform oder GF.
+6. UK-Tochtergesellschaft: Separate UK-EORI bei HMRC beantragen (kein EU-EORI nach Brexit).
+
+## Rechtsrahmen
+
+- **UZK Art. 9**: EORI-Registrierungspflicht für Wirtschaftsbeteiligte.
+- **UZK-DA Art. 3**: Informationspflichten für EORI-Registrierung.
+- **UZK-IA Art. 7**: Elektronische Systeme und EORI-Datenbank.
+- **§ 10 ZollVG**: Nationale Erweiterung für EORI-Verfahren.
+- **UZK Art. 5 Nr. 27**: Definition des Wirtschaftsbeteiligten mit EORI-Pflicht.
+
+## Prüf-Raster
+
+- [ ] EORI-Registrierung vollstaendig und aktuell?
+- [ ] Stammdaten nach jeder relevanten Änderung aktualisiert?
+- [ ] EORI in ATLAS und Zollsystemen korrekt hinterlegt?
+- [ ] UK-Tochtergesellschaft separat mit UK-EORI ausgestattet?
+- [ ] Vertretungsbefugnis für EORI-Nutzung durch Bevollmaechtigte geregelt?
+- [ ] EORI-Nummer in Shipping-Dokumenten korrekt angegeben?
+
+## Typische Fallstricke
+
+- Veraltete Stammdaten fuehren zu Ablehnungen in ATLAS.
+- UK-EORI und EU-EORI nach Brexit nicht kompatibel; separate Registrierungen noetig.
+- EORI-Delegation an Zollagenten bedarf korrekter Vollmachtserteilung.
+- Konzerngesellschaften benoetigen je eine eigene EORI-Nummer.
+
+## Schnittstellen zu anderen Skills
+
+Dieser Skill kann mit thematisch benachbarten Skills kombiniert werden, insbesondere:
+- Sanktionsscreening und Listenpruefung: `aussenwirtschaft-sanktionsscreening-fuzzy-match`
+- Exportkontrollklassifizierung: `aussenwirtschaft-gueterlisten-klassifizierung`
+- Freiwillige Offenlegung gegenueber BAFA oder Hauptzollamt: `aussenwirtschaft-freiwillige-offenlegung-bafa-zoll`
+- Interne Compliance-Programme: `aussenwirtschaft-icp-kontrollsystem`
+
+## Qualitaetsanforderungen
+
+- Sachverhalt vollstaendig: Alle Beteiligten inklusive UBO/Eigentum/Kontrolle erfasst?
+- Normverweise konkret: Artikel und Absatz zitiert, nicht nur Verordnungsnummer?
+- Quellenstand datiert: Sanktionslisten, TARIC, Gueltigkeitsdaten dokumentiert?
+- Sofortmassnahmen klar: Stop-Ship, Hold, Eskalation explizit benannt wenn Risiko rot?
+- Audit-Trail vollstaendig: Entscheidung, Begruendung, Verantwortlicher, Frist?
+- Output mandantentauglich: Kein Fachwort ohne Erläuterung für Compliance und Business?
+- Vertraulichkeit: Mandatsgeheimnisse nicht in ungesicherte externe Systeme eingeben.
+
+## Quellen
+
+- [UZK Art. 9 auf EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32013R0952)
+- [Zoll.de EORI-Registrierung](https://www.zoll.de/DE/Fachthemen/Zoelle/EORI-Nummer/eori-nummer_node.html)
+- [ZollVG auf gesetze-im-internet.de](https://www.gesetze-im-internet.de/zollvg/index.html)

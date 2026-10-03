@@ -5,11 +5,24 @@ description: Redacao de representacoes cautelares policiais e pedidos judiciais 
 author: diegocamara89
 author_url: https://github.com/diegocamara89/ai-skills-hub/tree/main/all-skills/representacoes-cautelares
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: criminal
 language: pt
+sources:
+- title: Checklist qualidade
+  path: references/checklist-qualidade.md
+- title: Formatacao docx
+  path: references/formatacao-docx.md
+- title: Modelo prisao busca cautelares
+  path: references/modelo-prisao-busca-cautelares.md
+- title: Modelo quebra sigilo
+  path: references/modelo-quebra-sigilo.md
+- title: Pedidos acessorios
+  path: references/pedidos-acessorios.md
+- title: Variantes
+  path: references/variantes.md
 ---
 
 # Representacoes Cautelares

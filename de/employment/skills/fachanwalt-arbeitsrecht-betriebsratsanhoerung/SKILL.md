@@ -1,18 +1,18 @@
 ---
 name: fachanwalt-arbeitsrecht-betriebsratsanhoerung
-title: Anhörung des Betriebsrats (§ 102 BetrVG)
-description: Betriebsratsanhoerung nach § 102 BetrVG vor jeder Kündigung. Anwendungsfall Kündigung soll ausgesprochen werden und BR-Anhoerung muss korrekt durchgeführt werden. Normen § 102 BetrVG Anhoerungs- und Widerspruchsrecht § 102 Abs. 1 S. 3 BetrVG Unwirksamkeit bei fehlerhafter Anhoerung § 102 Abs. 5 BetrVG Weiterbeschaeftigungsanspruch. Prüfraster vollständige Mitteilung Kündigungsgründe subjektive Determinationstheorie Stellungnahmefrist eine Woche ordentlich drei Tage außerordentlich Widerspruchsgründe. Output Anhoerungsschreiben-Vorlage Empfangsprotokoll und Kündigungs-Timing-Plan. Abgrenzung zu fachanwalt-arbeitsrecht-kündigungsschutzklage und fachanwalt-arbeitsrecht-massenentlassung-17-kschg.
+title: Anhörung des Betriebsrats (Paragraf 102 BetrVG)
+description: 'Für Anhörung des Betriebsrats (Paragraf 102 BetrVG): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-arbeitsrecht/skills/fachanwalt-arbeitsrecht-betriebsratsanhoerung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Anhörung des Betriebsrats (§ 102 BetrVG)
+# Anhörung des Betriebsrats (Paragraf 102 BetrVG)
 
 ## Zweck
 
@@ -20,34 +20,34 @@ Vollständige und inhaltlich korrekte Betriebsratsanhörung vor jeder Kündigung
 
 ## Mandantenfragen — Kaltstart
 
-1. **Gibt es einen Betriebsrat im Betrieb?** — § 1 BetrVG: mindestens 5 wahlberechtigte, 3 wählbare Arbeitnehmer; Betriebsabgrenzung nach § 1 BetrVG beachten.
+1. **Gibt es einen Betriebsrat im Betrieb?** — Paragraf 1 BetrVG: mindestens 5 wahlberechtigte, 3 wählbare Arbeitnehmer; Betriebsabgrenzung nach Paragraf 1 BetrVG beachten.
 2. **Welche Kündigung steht bevor — ordentlich, außerordentlich, Änderungs­kündigung?** — Bestimmt Stellungnahme-Frist und Widerspruchsmöglichkeit.
 3. Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 4. **Liegt Sonderkündigungsschutz vor?** — MuSchG, BEEG, SGB IX, Datenschutzbeauftragter: Anhörungsschreiben muss ggf. auf Schwerbehinderung, Schwangerschaft etc. eingehen.
 5. **Gibt es eine betriebsbedingte Kündigung mit Sozialauswahl?** — Vergleichsgruppe und Sozialauswahlentscheidung im Anhörungsschreiben mitteilen; sonst Anhörung unvollständig.
-6. **Ist die Zweiwochenfrist bei außerordentlicher Kündigung gefährdet?** — § 626 Abs. 2 BGB: 2 Wochen ab Kenntnis des Grundes für Arbeitgeber; Anhörung lauft innerhalb dieser Frist.
-7. **Wurde die Anhörung bereits dokumentiert?** — Datum der Übergabe / Zusendung an Vorsitzenden des Betriebsrats (§ 26 Abs. 2 BetrVG); Beginn Stellungnahmefrist.
-8. **Hat der Betriebsrat Widerspruch eingelegt?** — Wenn ja: Weiterbeschäftigungsanspruch § 102 Abs. 5 BetrVG bis zur Klärung durch Gericht.
+6. **Ist die Zweiwochenfrist bei außerordentlicher Kündigung gefährdet?** — Paragraf 626 Abs. 2 BGB: 2 Wochen ab Kenntnis des Grundes für Arbeitgeber; Anhörung lauft innerhalb dieser Frist.
+7. **Wurde die Anhörung bereits dokumentiert?** — Datum der Übergabe / Zusendung an Vorsitzenden des Betriebsrats (Paragraf 26 Abs. 2 BetrVG); Beginn Stellungnahmefrist.
+8. **Hat der Betriebsrat Widerspruch eingelegt?** — Wenn ja: Weiterbeschäftigungsanspruch Paragraf 102 Abs. 5 BetrVG bis zur Klärung durch Gericht.
 - **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
 | Norm | Inhalt |
 |---|---|
-| § 102 Abs. 1 S. 1 BetrVG | Anhörungspflicht vor jeder Kündigung |
-| § 102 Abs. 1 S. 3 BetrVG | Unwirksamkeitsfolge bei Unterlassen oder unvollständiger Anhörung |
-| § 102 Abs. 2 BetrVG | Stellungnahmefristen: 1 Woche ordentlich, 3 Tage außerordentlich |
-| § 102 Abs. 3 BetrVG | Widerspruchsgründe gegen ordentliche Kündigung |
-| § 102 Abs. 4 BetrVG | Zustimmungsfiktion bei Schweigen (nach Fristablauf ordentliche Kündigung) |
-| § 102 Abs. 5 BetrVG | Weiterbeschäftigungsanspruch bei Widerspruch + Klage |
-| § 26 Abs. 2 BetrVG | Vertretung durch Vorsitzenden als Empfangsberechtigten |
-| § 79 BetrVG | Verschwiegenheitspflicht; sensible Daten ggf. schwärzen |
+| Paragraf 102 Abs. 1 S. 1 BetrVG | Anhörungspflicht vor jeder Kündigung |
+| Paragraf 102 Abs. 1 S. 3 BetrVG | Unwirksamkeitsfolge bei Unterlassen oder unvollständiger Anhörung |
+| Paragraf 102 Abs. 2 BetrVG | Stellungnahmefristen: 1 Woche ordentlich, 3 Tage außerordentlich |
+| Paragraf 102 Abs. 3 BetrVG | Widerspruchsgründe gegen ordentliche Kündigung |
+| Paragraf 102 Abs. 4 BetrVG | Zustimmungsfiktion bei Schweigen (nach Fristablauf ordentliche Kündigung) |
+| Paragraf 102 Abs. 5 BetrVG | Weiterbeschäftigungsanspruch bei Widerspruch + Klage |
+| Paragraf 26 Abs. 2 BetrVG | Vertretung durch Vorsitzenden als Empfangsberechtigten |
+| Paragraf 79 BetrVG | Verschwiegenheitspflicht; sensible Daten ggf. schwärzen |
 
 ### Leitentscheidungen
 
 | Gericht | Aktenzeichen | Datum | Kernaussage | Quelle |
 |---|---|---|---|---|
-| BAG, 2. Senat | 2 AZR 302/96 | 27.02.1997 | Subjektive Determinationstheorie: Der Arbeitgeber muss dem Betriebsrat die Umstaende mitteilen, die seine Kuendigungsentscheidung tatsaechlich bestimmt haben; aus seiner Sicht objektiv unrichtige oder unvollstaendige Angaben fuehren zur Unwirksamkeit der Anhoerung (§ 102 Abs. 1 S. 3 BetrVG) | dejure.org-Vernetzung BAG 27.02.1997 - 2 AZR 302/96 |
+| BAG, 2. Senat | 2 AZR 302/96 | 27.02.1997 | Subjektive Determinationstheorie: Der Arbeitgeber muss dem Betriebsrat die Umstaende mitteilen, die seine Kuendigungsentscheidung tatsaechlich bestimmt haben; aus seiner Sicht objektiv unrichtige oder unvollstaendige Angaben fuehren zur Unwirksamkeit der Anhoerung (Paragraf 102 Abs. 1 S. 3 BetrVG) | dejure.org-Vernetzung BAG 27.02.1997 - 2 AZR 302/96 |
 | BAG, 2. Senat | 2 AZR 227/97 | 05.02.1998 | Praezisierung: Mitteilungspflicht umfasst auch dem AG bekannte, fuer den AN guenstige Umstaende, soweit sie objektiv relevant sind | dejure.org-Vernetzung BAG 05.02.1998 - 2 AZR 227/97 |
 | BAG, 2. Senat | 2 AZR 472/01 | 10.10.2002 | Angabe der Sozialdaten bei verhaltensbedingter Kuendigung; Beginn der Stellungnahmefrist bei ergaenzenden Informationen | dejure.org-Vernetzung BAG 10.10.2002 - 2 AZR 472/01 |
 
@@ -62,12 +62,11 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 | Schritt | Prüfpunkt | Norm | Rechtsfolge bei Fehler |
 |---|---|---|---|
-| 1 | Betriebsrat existiert im Betrieb? | § 1 BetrVG | Keine Anhörungspflicht |
-| 2 | Anhörung schriftlich oder in Textform? | § 21a Abs. 2 BetrVG | Formmangel; heilbar? |
-| 3 | Zugang beim Vorsitzenden nachweisbar? | § 26 Abs. 2 BetrVG | Frist-Beginn unklar |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| 9 | Stellungnahme abgewartet oder Frist abgelaufen? | § 102 Abs. 2 BetrVG | Kündigung vor Fristablauf = unwirksam |
-| 10 | Bei Widerspruch: § 102 Abs. 5-Anspruch beachtet? | § 102 Abs. 5 BetrVG | Weiterbeschäftigung möglicherweise einklagbar |
+| 1 | Betriebsrat existiert im Betrieb? | Paragraf 1 BetrVG | Keine Anhörungspflicht |
+| 2 | Anhörung schriftlich oder in Textform? | Paragraf 21a Abs. 2 BetrVG | Formmangel; heilbar? |
+| 3 | Zugang beim Vorsitzenden nachweisbar? | Paragraf 26 Abs. 2 BetrVG | Frist-Beginn unklar |
+| 9 | Stellungnahme abgewartet oder Frist abgelaufen? | Paragraf 102 Abs. 2 BetrVG | Kündigung vor Fristablauf = unwirksam |
+| 10 | Bei Widerspruch: Paragraf 102 Abs. 5-Anspruch beachtet? | Paragraf 102 Abs. 5 BetrVG | Weiterbeschäftigung möglicherweise einklagbar |
 
 ## Mindestinhalt der Anhörung
 
@@ -92,10 +91,10 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Anhoerungsruege § 102 BetrVG in Klageschrift | Ruege-Baustein nach Template unten |
+| Standard — Anhoerungsruege Paragraf 102 BetrVG in Klageschrift | Ruege-Baustein nach Template unten |
 | Variante A — Anhoerungsmangel klar und offensichtlich | Auf starke Unwirksamkeit setzen; Vergleich auf hohem Niveau |
 | Variante B — Anhoerung formell ok aber inhaltlich unvollstaendig | Subjektive Determinationstheorie pruefen; Einzelfall-Argumentation |
-| Variante C — Kein Betriebsrat vorhanden | § 102 BetrVG entfaellt; andere Unwirksamkeitsgruende pruefen |
+| Variante C — Kein Betriebsrat vorhanden | Paragraf 102 BetrVG entfaellt; andere Unwirksamkeitsgruende pruefen |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
 
@@ -107,7 +106,7 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 An den Betriebsrat — Herrn/Frau Vorsitzende/n — Im Hause
                                                [Ort, Datum]
 
-Anhörung gemäss § 102 BetrVG zur beabsichtigten Kündigung
+Anhörung gemäss Paragraf 102 BetrVG zur beabsichtigten Kündigung
 
 Sehr geehrter Herr / Frau [Vorsitzende/r],
 
@@ -148,7 +147,7 @@ zu kündigen und hören Sie hierzu vor Ausspruch an.
    [ ] [Sonstiges]
 
 Wir bitten um Stellungnahme binnen [1 Woche / 3 Tage] nach
-§ 102 Abs. 2 BetrVG (Frist endet am [Datum]).
+Paragraf 102 Abs. 2 BetrVG (Frist endet am [Datum]).
 
 [Unterschrift Geschäftsführung / HR-Leitung]
 ```
@@ -158,7 +157,7 @@ Wir bitten um Stellungnahme binnen [1 Woche / 3 Tage] nach
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
 
-## Widerspruchsgründe § 102 Abs. 3 BetrVG
+## Widerspruchsgründe Paragraf 102 Abs. 3 BetrVG
 
 | Widerspruchsgrund | Inhalt |
 |---|---|
@@ -170,16 +169,14 @@ Wir bitten um Stellungnahme binnen [1 Woche / 3 Tage] nach
 
 **Wichtig:** Widerspruch nur gegen **ordentliche** Kündigung möglich; gegen außerordentliche Kündigung kein gesetzliches Widerspruchsrecht.
 
-## Weiterbeschäftigungsanspruch § 102 Abs. 5 BetrVG
+## Weiterbeschäftigungsanspruch Paragraf 102 Abs. 5 BetrVG
 
-- Voraussetzungen: wirksamer Widerspruch des BR nach § 102 Abs. 3 + Kündigungsschutzklage des Arbeitnehmers
+- Voraussetzungen: wirksamer Widerspruch des BR nach Paragraf 102 Abs. 3 + Kündigungsschutzklage des Arbeitnehmers
 - Arbeitgeber muss Arbeitnehmer bis zur Klärung des Kündigungsstreits weiterbeschäftigen
 - AG kann Befreiung beantragen, wenn Kündigung offensichtlich wirksam, Weiterbeschäftigung unverhältnismäßig belastend
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 ## Beweislast und Darlegungslast
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - **Arbeitnehmer** bei Anhörungsrüge: muss konkreten Mangel darlegen (z.B. fehlende Sozialauswahl, nicht genannte Abmahnung).
 - Einwand "subjektiv vollständig": Arbeitgeber kann geltend machen, er habe gutgläubig alle ihm bekannten Gründe mitgeteilt.
 
@@ -201,10 +198,6 @@ Wir bitten um Stellungnahme binnen [1 Woche / 3 Tage] nach
 
 ## Quellen
 
-- BetrVG §§ 1, 26, 79, 102
-- KSchG §§ 1, 4
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-- Fitting BetrVG-Kommentar § 102; DKKW BetrVG § 102
-
-<!-- AUDIT 27.05.2026
--->
+- BetrVG Paragrafen 1, 26, 79, 102
+- KSchG Paragrafen 1, 4
+- Fitting BetrVG-Kommentar Paragraf 102; DKKW BetrVG Paragraf 102

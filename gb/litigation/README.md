@@ -8,15 +8,15 @@ Jurisdiction: `gb` · Practice: `litigation` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`BAILII Case Law Research`](skills/bailii-case-law/) | Search BAILII for UK case law and retrieve full judgment text. Use when someone asks to find a case, search… |
-| [`England and Wales Civil Claim Drafter`](skills/england-wales-civil-claim-drafter-rohasnagpal/) | Drafts a civil claim form and particulars framework for proceedings in England and Wales from verified facts,… |
+| [`BAILII Case Law Research`](skills/bailii-case-law/) | Search BAILII for UK case law and retrieve full judgment text. Use when someone asks to find a case… |
+| [`England and Wales Civil Claim Drafter`](skills/england-wales-civil-claim-drafter-rohasnagpal/) | Drafts a civil claim form and particulars framework for proceedings in England and Wales from verified… |
 | [`England and Wales Pre-Action Protocol Checker`](skills/england-wales-pre-action-protocol-checker-rohasnagpal/) | Checks the applicable pre-action protocol or Practice Direction requirements before civil proceedings in… |
-| [`uk-citation-verification`](skills/uk-citation-verification/) | Use when users say "verify these UK citations", "check this skeleton for hallucinated cases", "BAILII/FCL… |
-| [`uk-court-of-appeal-judicial-preference-check`](skills/uk-court-of-appeal-judicial-preference-check/) | Use when users say "check this Court of Appeal skeleton", "judicial preference check", "CoA style", "is this… |
-| [`uk-disclosure-list-review`](skills/uk-disclosure-list-review/) | Use when users say "review this disclosure list", "QC disclosure", "check privilege descriptions",… |
+| [`uk-citation-verification`](skills/uk-citation-verification/) | Use when users say "verify these UK citations", "check this skeleton for hallucinated cases"… |
+| [`uk-court-of-appeal-judicial-preference-check`](skills/uk-court-of-appeal-judicial-preference-check/) | Use when users say "check this Court of Appeal skeleton", "judicial preference check", "CoA style", "is… |
+| [`uk-disclosure-list-review`](skills/uk-disclosure-list-review/) | Use when users say "review this disclosure list", "QC disclosure", "check privilege descriptions"… |
 | [`UK neutral citation → BAILII URL`](skills/uk-law/) | Verify UK law citations — primarily case law via neutral citation format (UKSC, UKHL, EWCA, EWHC, UKUT)… |
-| [`uk-particulars-of-claim-review`](skills/uk-particulars-of-claim-review/) | Use when users say "review these Particulars of Claim", "check this PoC", "pleading gaps", "CPR 16", "PD16",… |
-| [`uk-witness-statement-review`](skills/uk-witness-statement-review/) | Use when users say "review this witness statement", "check this statement before service", "PD 57AC",… |
+| [`uk-particulars-of-claim-review`](skills/uk-particulars-of-claim-review/) | Use when users say "review these Particulars of Claim", "check this PoC", "pleading gaps", "CPR 16"… |
+| [`uk-witness-statement-review`](skills/uk-witness-statement-review/) | Use when users say "review this witness statement", "check this statement before service", "PD 57AC"… |
 
 ## Cold-start context
 

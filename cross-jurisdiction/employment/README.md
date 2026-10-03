@@ -10,8 +10,8 @@ Jurisdiction: `cross-jurisdiction` · Practice: `employment` · Skill language: 
 
 | Skill | What it does |
 |---|---|
-| [`Handbook Drafter`](skills/handbook-drafter-rohasnagpal/) | Drafts coherent employee handbooks and workplace policies with clear ownership, procedures and legal review… |
-| [`International Expansion Skill`](skills/international-expansion-bossmann007/) | Reference: implementation-planning framework for international hiring — EOR vs. entity decision framing,… |
+| [`Handbook Drafter`](skills/handbook-drafter-rohasnagpal/) | Drafts coherent employee handbooks and workplace policies with clear ownership, procedures and legal… |
+| [`International Expansion Skill`](skills/international-expansion-bossmann007/) | Reference: implementation-planning framework for international hiring — EOR vs. entity decision framing… |
 
 ## Cold-start context
 

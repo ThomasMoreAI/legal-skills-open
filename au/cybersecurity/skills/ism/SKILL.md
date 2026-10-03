@@ -5,15 +5,15 @@ description: 'Expert Australian Information Security Manual (ISM) advisor for go
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/ism/skills/ism
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: au
 practice: cybersecurity
 language: en
 sources:
-- title: Control Applicability
+- title: Control applicability
   path: references/control-applicability.md
-- title: Guidelines Overview
+- title: Guidelines overview
   path: references/guidelines-overview.md
 ---
 

@@ -1,0 +1,14 @@
+{
+  "name": "gb-trade",
+  "displayName": "International Trade & Customs — GB",
+  "version": "0.1.0",
+  "description": "International Trade & Customs skills for GB (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "gb",
+  "practice": "trade",
+  "language": "de",
+  "skills": [
+    "skills/uk-sanctions-us-ear-voruebergehende"
+  ]
+}

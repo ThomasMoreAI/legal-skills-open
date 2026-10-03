@@ -1,0 +1,48 @@
+---
+name: ueberbau-ueberhang-aeste-mediation
+title: Überbau-Prüfung
+description: 'Für Überbau-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/nachbarschaftsstreit-pruefer/skills/ueberbau-ueberhang-aeste-mediation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: real-estate
+language: de
+---
+
+# Überbau-Prüfung
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BGB § 906 Abs. 2 S. 2 nachbarrechtlicher Ausgleichsanspruch § 195 BGB 3 Jahre, NachbG-Anzeigefristen variieren (z. B. NRW § 7 Grenzwand 6 Wochen), § 15a EGZPO Schlichtung obligatorisch.
+- Tragende Normen verifizieren: BGB §§ 903, 906, 1004, 910, 912, 917, 921, 922, NachbG (Landesnachbarrechtsgesetze), BImSchG, BauO Land, BNatSchG (Bäume), Schlichtungsgesetze der Länder (z. B. § 15a EGZPO BW) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle und Adressat bestimmen: Grundstücksnachbar, nach Landesrecht erforderliche Gütestelle, Amtsgericht bei einem Streitwert bis einschließlich 10.000 Euro, sonst Landgericht sowie je nach Begehren Ordnungsamt, Bauaufsichts- oder Naturschutzbehörde; wertunabhängige Zuweisungen und den maßgeblichen Stichtag gesondert prüfen.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Schlichtungsantrag, Klage AG, Lichtbilder, Lärm-/Geruchsprotokoll, Sachverständigengutachten, Anwaltsschreiben, Vermessungsprotokoll — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Intake
+
+- Was ragt über: Gebäude, Garage, Carport, Dämmung, Dachüberstand, Fundament, Mauer?
+- Wann errichtet?
+- War die Grenze bekannt, vermessen, markiert?
+- Wurde vor oder sofort nach Grenzüberschreitung widersprochen?
+- Liegt Vorsatz oder grobe Fahrlässigkeit nahe?
+- Gibt es Baugenehmigung, Lageplan, Vermesser, Bauunternehmer?
+- Welche Fläche und welcher Wert sind betroffen?
+
+## Prüfschema
+
+1. **Gebäude/bauliche Anlage:** § 912 BGB betrifft den Überbau bei Errichtung eines Gebäudes. Andere Anlagen können über § 1004 BGB laufen.
+2. **Grenzüberschreitung:** tatsächliche Überschreitung beweisen; Vermessung erwägen.
+3. **Kein Vorsatz/grobe Fahrlässigkeit:** Duldungspflicht nur, wenn dem Bauenden dies nicht zur Last fällt.
+4. **Widerspruch:** Wurde vor oder sofort nach Grenzüberschreitung widersprochen?
+5. **Rechtsfolge:** Duldung gegen Geldrente oder Beseitigung/Unterlassung.
+6. **Rente/Abkauf:** §§ 912 Abs. 2, 913-915 BGB prüfen.
+
+## Fehler vermeiden
+
+- Baugenehmigung ersetzt nicht privatrechtliche Berechtigung.
+- "Schon lange so" heißt nicht automatisch rechtmäßig; Verjährung/Duldung getrennt prüfen.
+- Grenzüberragende Äste sind kein Überbau.

@@ -1,11 +1,11 @@
 ---
 name: triage-ki-vo-vorpruefung
 title: 'Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?'
-description: 'Nutzer kommt mit unklarer KI-VO-Frage oder möglicherweise betroffener Software und fragt: Wie starte ich die KI-VO-Prüfung? Eingangs-Triage-Skill. Prüfraster: Erfassung ob eigene Softwareentwicklung fremder Dienst Produktintegration oder Beratungsanfrage. Eingangsfragen zu Systemart Branche Einsatzgebiet Rolle des Anfragenden. Output: Weiterleitung zum naechsten passenden Skill entscheidungsbaum-ki-vo-gesamt-workflow oder risikoklassen-uebersicht-und-triage. Warnt vor typischen Fehlzuordnungen. Abgrenzung zu liegt-ki-system-vor-art-3-nr-1 (Vollprüfung KI-System-Definition).'
+description: 'Für Triage: europäischer Technikregulierungsrahmen-Vorprüfung — Was prüft der Nutzer?: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/triage-ki-vo-vorpruefung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
@@ -14,13 +14,22 @@ language: de
 
 # Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?
 
-## Zweck
+## Direktstart: lesen, entscheiden, liefern
 
-Dieser Skill ist der Einstiegspunkt in den vollständigen Prüfungsworkflow der Verordnung (EU) 2024/1689 (KI-VO). Bevor Risikoklassen, Pflichten oder Verbote geprüft werden können, muss das System verstehen, welchen Sachverhalt der Nutzer einbringt und welche Rolle er in Bezug auf das fragliche System einnimmt.
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage nach fehlenden Angaben zur konkreten Funktion, Zweckbestimmung oder Rolle, soweit diese die Vorprüfung ändern. Fehlt Material vollständig, benenne die dafür erforderlichen Unterlagen; unbelegte Systemmerkmale bleiben offen und werden nicht als Tatsachen eingesetzt.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
 
 ## Eingangsfragen
 
-Das System stellt folgende Fragen der Reihe nach:
+Entnimm die folgenden Angaben zuerst den vorhandenen Unterlagen. Frage nur noch offene Punkte ab; Reihenfolge und Umfang richten sich nach dem konkreten System.
 
 **Frage 1 — Art des Gegenstands**
 
@@ -45,12 +54,16 @@ Bitte beschreiben Sie in Stichpunkten:
 
 ## Plausibilitätsprüfung
 
+Nach einer Antwort zur Funktion oder Entscheidungswirkung die betroffene Rollen- und Risikoeinordnung aktualisieren. Widerspricht die Antwort der Systembeschreibung, die konkrete Differenz klären; bereits beantwortete Fragen nicht wiederholen. Danach den bestellten Vorprüfungsvermerk vollständig ausformulieren, ohne die mechanische Vorprüfung als abschließendes Gutachten auszugeben.
+
 Das System prüft auf Basis der Eingaben:
 - Handelt es sich möglicherweise gar nicht um ein KI-System im Sinne von Art. 3 Nr. 1 KI-VO? → Weiterleitung zu `liegt-ki-system-vor-art-3-nr-1`
 - Liegt ein offensichtlicher Ausschluss nach Art. 2 Abs. 3 bis 12 vor (Militär, rein persönliche Nutzung)? → Weiterleitung zu `sachlicher-ausschluss-art-2-abs-3-bis-12`
 - Verwechselt der Nutzer die KI-VO mit einem anderen Rechtsgebiet (DSGVO, Produkthaftung)? → Weiterleitung zu `falsche-wiese-warnung-ki-vo`
 
 ## Routing-Logik
+
+Die folgenden Skills sind optionale Vertiefungen. Die Vorprüfung endet nicht mit ihrer bloßen Benennung; vorhandene Erkenntnisse werden im bestellten Ergebnis verarbeitet.
 
 | Antwort | Nächster Skill |
 |---|---|
@@ -63,7 +76,7 @@ Das System prüft auf Basis der Eingaben:
 
 - Das System akzeptiert keine fiktiven Testdaten oder Mustersachverhalte.
 - Unvollständige Sachverhalte führen zu unvollständigen Ergebnissen — das System weist ausdrücklich darauf hin.
-- Dieser Workflow ist ein mechanisches Prüfinstrument, kein juristisches Gutachten.
+- Dieser ist ein mechanisches Prüfinstrument, kein juristisches Gutachten.
 
 ## Warnblock
 
@@ -74,28 +87,24 @@ Dieser Skill erfasst nur, was der Nutzer mitteilt. Er kann nicht prüfen, ob die
 
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Die KI-VO ist in Auslegung und Konkretisierung dynamisch; Leitlinien der Kommission und Durchführungsrechtsakte sind laufend zu beobachten.
 
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Zentrale Normen (Paragrafenkette)
 - Art. 3 Nr. 3/4 KI-VO — Anbieter / Betreiber-Definition
-- Art. 5 KI-VO — verbotene Praktiken (absolut ab 02.02.2025)
+- Artikel 5 der Verordnung (EU) 2024/1689: bisherige Verbote seit 02.02.2025; neue Buchstaben ba und bb sowie Absätze 1a und 1b ab 02.12.2026
 - Art. 6 i.V.m. Anhang III KI-VO — Hochrisiko-Klassifikation
 - Art. 26 KI-VO — Betreiberpflichten
 - Art. 99 KI-VO — Bussgelder bis 35 Mio. EUR / 7 % Jahresumsatz
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Triage zu Beginn
 1. Welche Rolle hat das Unternehmen im KI-Lieferkette (Art. 3 KI-VO — Anbieter, Betreiber, Importeur)?
 2. Liegt ein Hochrisiko-System vor (Art. 6 i.V.m. Anhang III Nr. 1-8 KI-VO)?
 3. Sind verbotene Praktiken nach Art. 5 KI-VO ausgeschlossen?
 4. Welche konkreten Pflichten aus dem aktuellen Skill-Kontext sind einschlaegig?
-5. Ist die Massnahme fristgerecht umgesetzt (KI-VO Stufenplan bis 02.08.2026)?
+5. Ist die Maßnahme nach aktuellem Art. 113- und Digital-Omnibus-Zeitstrahl fristgerecht umgesetzt?
 
-## Output-Template — Pruefergebnis
-**Adressat:** Pruefer / Rechtsberater — Tonfall: strukturiert-rechtlich
+## Output-Template — Prüfergebnis
+
+Das Schema dient der internen Kontrolle, nicht als Pflichtformular. Erläutere das Ergebnis in vollständigen Sätzen mit konkreter Systemfunktion, tragender Norm und offenen Nachweisen. Beachte den gewünschten Dateinamen und bei formatierten Dokumenten Times New Roman 11 Punkt sowie dezimale Gliederung; technische Prüfvermerke getrennt halten.
+**Adressat:** Prüfer / Rechtsberater — Tonfall: strukturiert-rechtlich
 ```
 PRUEFERGEBNIS — TRIAGE KI VO VORPRUEFUNG
 [DATUM] — System: [SYSTEMNAME] — Mandant: [NAME MANDANT]
@@ -106,10 +115,12 @@ Gepruefte Norm(en): [Art. 2 Rn. 1]
 Ergebnis:
 [ ] Anforderung erfuellt
 [ ] Anforderung nicht erfuellt — Massnahmen erforderlich:
-    1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
+ 1. [MASSNAHME — Verantwortlicher: NAME — Frist: DATUM]
 [ ] Nicht einschlaegig — Begruendung: [BEGRUENDUNG]
 
 Sanktionsrisiko: [NIEDRIG / MITTEL / HOCH — bis [BETRAG] nach Art. 99 KI-VO]
 Naechster Skill: [FOLGE-SKILL]
 Geprueft: [NAME], [DATUM]
 ```
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

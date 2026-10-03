@@ -5,11 +5,14 @@ description: Drafts an Amended and Restated Certificate of Incorporation for Del
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/restated-certificate
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate
 language: en
+sources:
+- title: Details
+  path: references/DETAILS.md
 ---
 
 # Amended and Restated Certificate of Incorporation

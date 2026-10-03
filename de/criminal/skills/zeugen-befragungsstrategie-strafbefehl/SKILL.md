@@ -1,0 +1,133 @@
+---
+name: zeugen-befragungsstrategie-strafbefehl
+title: Zeugen-Befragungsstrategie in der Hauptverhandlung
+description: 'Für Zeugen-Befragungsstrategie in der Hauptverhandlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Verhandlungs- oder Eskalationslinie.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/zeugen-befragungsstrategie-strafbefehl
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: criminal
+language: de
+---
+
+# Zeugen-Befragungsstrategie in der Hauptverhandlung
+
+## Arbeitsbereich
+
+Hauptverhandlung nach Strafbefehl-Einspruch — Zeugen erschuettern oder Entlastungszeugen foerdern. Prüfraster Glaubwürdigkeitsanalyse Aussage-Konstanz Vorhalt fruehere Aussage Fragerecht § 240 StPO. Normen § 68 StPO Zeugenpflichten § 52 StPO Zeugnisverweigerungsrecht § 244 StPO Beweisanträge. Output Befragungsstrategie-Memo Fragenkatalog für Belastungs- und Entlastungszeugen. Abgrenzung: strafbefehl-hauptverhandlung-vorbereitung für allgemeine HV-Vorbereitung. Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Triage zu Beginn
+
+1. **Wer sind die Belastungszeugen?** — Polizeibeamte, Geschaedigte, Passanten, Sachverstaendige — unterschiedliche Erschuetterungsstrategien.
+2. **Haben die Zeugen fruehere Aussagen gemacht?** — Polizeivernehmung, Anhörung im OWi-Verfahren, andere Verfahren — Inkonsistenzen nutzen.
+3. **Zeugnisverweigerungsrecht vorhanden?** — § 52 StPO: Angehoerige; § 53 StPO: Berufsgeheimnisstraeger. Zeuge über Recht belehrt?
+4. **Aussage-Konstanz prüfen:** Sind Angaben in der Polizeiaussage identisch mit der HV-Aussage? Abweichungen sind Angriffspunkt.
+5. **Schriftsatzzeugen:** Dokumentarische Beweise (Messprotokolle, Bericht der Polizei) als Ergaenzung zu Zeugenbefragung.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+
+## Zentrale Normen
+
+- **§ 52 StPO** — Zeugnisverweigerungsrecht für Angehoerige; ohne Belehrung = absolutes Beweisverwertungsverbot
+- **§ 53 StPO** — Zeugnisverweigerungsrecht für Berufsgeheimnisstraeger (Aerzte, Anwaelte, etc.)
+- **§ 55 StPO** — Auskunftsverweigerungsrecht bei Selbstbelastung (nemo tenetur)
+- **§ 68 StPO** — Zeugenpflichten: erscheinen, Zeugnis ablegen (mit Ausnahmen)
+- **§ 68a StPO** — Fragen nach Vorstrafen des Zeugen zulässig zur Glaubwuerdigkeitspruefung
+- **§ 240 StPO** — Fragerecht; alle Beteiligten können Fragen stellen
+- **§ 249 StPO** — Urkundenbeweis; Vorlesen von Dokumenten
+- **§ 254 StPO** — Verlesung von Protokollen richterlicher Vernehmung (Vorhalt)
+
+## Vorbereitung Zeugenbefragung — Checkliste
+
+```
+□ Aktenexzerpt aller Zeugenaussagen aus Ermittlungsakte erstellt?
+□ Fruehere Aussagen mit HV-Aussage (soweit vorhersehbar) abgeglichen?
+□ Bekannte Inkonsistenzen notiert (mit Blatt-/Bandangabe)?
+□ Zeugnisverweigerungsrecht geprueft? Belehrung dokumentiert in Akte?
+□ Angehoerigen-Verhaeltnis geprueft (§ 52 StPO)?
+□ Fragerechts-Strategie festgelegt (offene oder geschlossene Fragen)?
+```
+
+## Befragungs-Strategie nach Zeugentyp
+
+**Polizeibeamter:**
+- Dienstprotokoll: Wann, Wo, Was genau aufgeschrieben?
+- Erinnerung oder Protokoll-Wiedergabe? ("Erinnern Sie sich persoenlich oder lesen Sie aus Protokoll?")
+- Sicherheitsabstand, Sichtweitverhaeltnisse, Beschilderung — Messbedingungen
+- Schulung für das eingesetzte Messgeraet?
+
+**Geschaedigter/Opfer-Zeuge:**
+- Emotionale Beteiligung → Glaubwuerdigkeitsanalyse
+- Widersprueche zu frueheren Angaben vorhalt
+- Schadensbild genau beschreiben lassen
+
+**Sachverstaendiger:**
+- Methodik und Annahmen hinterfragen
+- Fehlerspannen und Unsicherheiten thematisieren
+- Eigener Gegensachverstaendiger ankuendigen
+
+## Strategische Optionen (vor dem Template entscheiden)
+
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+
+| Konstellation | Empfohlener Weg |
+|---|---|
+| Standard — Zeugen-Befragungsstrategie für Strafbefehl-Verfahren erstellen | Frageliste nach Schema; Template unten |
+| Variante A — Zeuge ist Belastungszeuge offensichtlich feindlich | Kurze konfrontative Befragung; kein ausfuehrliches Kreuzverhoer |
+| Variante B — Zeuge kennt Mandanten gut Entlastung möglich | Entlastungszeuge foerdern; ausfuehrliche Befragung zu Gunsten |
+| Variante C — Zeuge verweigert Aussage zu erwarten | Befragungsstrategie für Aussageverweigerung vorbereiten |
+
+Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
+
+## Output-Template Frageliste Zeuge
+
+```
+Zeuge: [NAME]
+Beweisthema: [Was soll durch Befragung erreicht werden?]
+
+Fragen:
+1. [Einstiegsfrage, offen und neutral]
+2. [Vertiefungsfrage zur frueheren Aussage]
+3. [Vorhalt-Frage: "In Ihrer Aussage vom [DATUM] haben Sie [X] gesagt..."]
+4. [Praezisionsfrage zur Wahrnehmungsgrundlage]
+5. [Abschlussfrage für entlastenden Aspekt]
+
+Erwartetes Ergebnis: [Entlastung / Erschuetterung / Vorhalt]
+```
+
+--- vor Versand klären ---
+1. Welches Verhandlungsziel hat der Mandant? [Durchsetzung des Anspruchs / Vergleich / Reputationsschutz / schnelle Loesung]
+2. Welche Kompromisslinien sind absolut? [Mindestforderung / Zeitrahmen / Formerfordernis]
+3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
+
+Schlussabsatz Variante A (kooperativ):
+Wir regen eine guetliche Einigung an und stehen für ein klärenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+
+Schlussabsatz Variante B (formal-streng):
+Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Harte Leitplanken
+
+- Keine Fragen stellen, deren Antwort unbekannt ist und schaden koennte.
+- Vorhalt nur mit konkreter Fundstelle in der Akte — nie pauschal.
+- Zeugnisverweigerungsrecht-Verletzung sofort in der HV ruegen.
+- Anwaltliche Endkontrolle bei Frageliste vor HV.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

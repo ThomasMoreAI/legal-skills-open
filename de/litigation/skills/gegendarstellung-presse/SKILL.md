@@ -1,18 +1,44 @@
 ---
 name: gegendarstellung-presse
-title: Gegendarstellung nach Pressegesetz
-description: 'Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren. §§ 10 ff. LPG Art. 5 GG. Prüfraster: Tatsachenbehauptung Erstmitteilung Fristen Form Umfang Abdruck Unterlassungsanspruch. Output: Gegendarstellungstext Aufforderungsschreiben. Abgrenzung: nicht für Online-Gegendarstellungen nach TMG oder DSA.'
+title: Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren
+description: 'Für Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/gegendarstellung-presse
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
 language: de
 ---
 
-# Gegendarstellung nach Pressegesetz
+# Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren
+
+
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: UrhG § 102 Verjährung 3/10 Jahre, § 97a Abmahnung Erstattung nur bei Berechtigung, § 41 Rückrufsrecht nach 2 Jahren, FAO § 5 36 Monate Praxis.
+- Tragende Normen verifizieren: FAO § 14k, UrhG §§ 1-69, 72, 73, 81, 87a-h, 95a, 97, 97a, 101, 103, VGG, KUG §§ 22, 23, MStV, JMStV, NetzDG (auslaufend), TMG/DDG, EU-RL 2019/790 (DSM) — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Urheber, Verwertungsgesellschaft (VG Wort, GEMA, GVL), Verleger, Sendeunternehmen, Plattformbetreiber, Landesmedienanstalt, ZAK, LG (Urheber-/Medienkammer).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Lizenzvertrag, Wahrnehmungsvertrag VG, Abmahnung, Unterlassungserklärung, einstweilige Verfügung, Schadensersatzklage, Gegendarstellung, NetzDG/DSA-Meldung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Gegendarstellungsrecht im Presserecht prüfen und Gegendarstellung ausformulieren. §§ 10 ff. LPG Art. 5 GG. Prüfraster: Tatsachenbehauptung Erstmitteilung Fristen Form Umfang Abdruck Unterlassungsanspruch. Output: Gegendarstellungstext Aufforderungsschreiben. Abgrenzung: nicht für Online-Gegendarstellungen nach TMG oder DSA.
+
+### Gegendarstellung nach Pressegesetz
 
 ## Kernsachverhalt & Mandantenfragen
 
@@ -30,7 +56,7 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 8. Ist das Medium bundesweit verbreitet oder regional; wer ist die zuständige Landespressebehörde?
 
 ---
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -52,10 +78,6 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -64,7 +86,6 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 | Schritt | Inhalt | Grundlage |
 |---|---|---|
 | 1 | Medientyp: Periodische Presse, Rundfunk, Online-Telemedien (journalistisch redaktionell)? Soziale Medien privat = kein Gegendarstellungsanspruch | LPG, MStV § 20 |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 3 | Betroffenheit prüfen: Mandant namentlich oder individuell bestimmbar genannt? Kollektiv: nur bei kleinem abgrenzbaren Personenkreis | LPG |
 | 4 | Fristwahrung: Veröffentlichungsdatum feststellen; Antragsfrist beim Medium prüfen (typisch 2 Wochen; länder-/medienspezifisch) | § 11 LPG NRW u.a. |
 | 5 | Form der Gegendarstellung: Schriftlich, Original-Unterschrift, sachlich, eigene Tatsachenbehauptung, nicht länger als beanstandeter Beitrag | LPG |
@@ -73,14 +94,13 @@ Das Recht auf Gegendarstellung ist ein Sonderrecht der Pressegesetzgebung: Es er
 | 8 | Reaktion des Mediums: Veröffentlichung, Ablehnung oder Schweigen? Fristen prüfen | LPG |
 | 9 | Bei Verweigerung: einstweilige Verfügung beim zuständigen Landgericht | §§ 935, 940 ZPO |
 | 10 | Parallele Ansprüche prüfen: Unterlassung § 1004 BGB, Schadensersatz § 823 BGB, Geldentschädigung bei schwerer Verletzung | § 823, § 1004 BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 12 | Verwirkung: Sehr späte Einreichung kann Rechtsmissbrauch begründen wenn Aktualität fehlt | § 242 BGB |
 
 ---
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
@@ -90,7 +110,6 @@ Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zu
 | Variante C — Strafanzeige wegen uebler Nachrede | Strafrecht § 186 StGB parallel zur Gegendarstellung |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -192,7 +211,7 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 [Ort, Datum, Unterschrift]
 ```
 
---- vor Versand klaeren ---
+--- vor Versand klären ---
 1. Welches Verhandlungsziel hat der Mandant? [Bestand / Abfindung / Reputation / Schnelle Loesung]
 2. Welche Kompromisslinien sind absolut? [Mindestabfindung / Freistellung / Zeugnisformulierung]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgespraech / Settlement vor Klageerhebung]
@@ -203,7 +222,6 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 | Konstellation | Beweislast |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Betroffenheit | Antragsteller; bei namentlicher Nennung offensichtlich; bei Kollektivbezeichnung durch Eingrenzung des Kreises |
 | Unrichtigkeit der Behauptung | Antragsteller muss im Gegendarstellungstext eigene gegenläufige Tatsache formulieren; nicht: nachweisen, dass Medium falsch liegt |
 | Fristwahrung | Antragsteller muss Eingang beim Medium innerhalb der Frist nachweisen (Einschreiben, Zugangsbestätigung) |
@@ -227,10 +245,8 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 | Gegenargument | Erwiderung |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Die Gegendarstellung ist zu lang" | LPG-Grundsatz: Gegendarstellung soll nicht länger als der beanstandete Beitrag sein; kürzerer Artikel = kürzere Gegendarstellung zulässig |
 | "Der Beitrag enthält weitere Informationen die wir kommentieren dürfen" | Gegendarstellungsveröffentlichung ohne Kommentar; Anmerkung erst in separater Ausgabe/nachfolgendem Abschnitt zulässig |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Frist überschritten; kein Gegendarstellungsanspruch mehr" | Fristversäumnis schließt nur LPG-Gegendarstellungsanspruch aus; Unterlassungs- und Schadensersatzansprüche §§ 823, 1004 BGB bleiben bestehen |
 
 ---
@@ -242,7 +258,6 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 | Streitwert einstweilige Verfügung | Typisch EUR 15.000–30.000 je nach Reichweite des Mediums und Schwere der Verletzung |
 | Anwaltsgebühren bei Streitwert EUR 20.000 | Ca. EUR 2.200 netto (VV-RVG 2300; Verfahrens- und Terminsgebühr) |
 | Einstweilige Verfügung LG | Gerichtsgebühren nach GKG 0.5-fach im einstweiligen Verfügungsverfahren |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Schadensersatz wirtschaftlicher Schaden | Konkret: Verdienstausfall, Kundenverlust; durch Belege nachzuweisen |
 
 ---
@@ -253,9 +268,7 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 |---|---|
 | Klare falsche Tatsache, aktueller Bericht | Sofortige Gegendarstellung; parallel Unterlassungsschreiben; dann je nach Reaktion EV |
 | Grenzfall Meinung/Tatsache | Vorsichtiger Ansatz: Unterlassungsschreiben statt Gegendarstellung; Gegendarstellung bei Ablehnung riskiert Ablehnung durch Gericht |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Wirtschaftlicher Schaden durch Bericht | Parallel zu Gegendarstellung: Schadensersatzanspruch § 823 BGB vorbereiten; Belege sichern |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -267,22 +280,14 @@ Beweis: Anlage K1: beanstandeter Artikel; Anlage K2: Gegendarstellungsschreiben;
 
 ---
 
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage-Fragen bei Gegendarstellungs-Mandat
 
 Bevor der Gegendarstellungsanspruch geltend gemacht wird, klaere:
 1. Handelt es sich um eine Tatsachenbehauptung (Gegendarstellungsrecht) oder eine Meinungsaeusserung (nur § 1004 BGB i.V.m. §§ 823 I BGB)?
 2. Ist die Gegendarstellung unmittelbar an den Veroeffentlichungsort gerichtet (§ 11 LPG des betreffenden Bundeslandes)?
-3. Ist die Frist fuer die Gegendarstellung eingehalten (in den meisten Bundeslaendern: 3 Monate ab Kenntnis)?
+3. Ist die Frist für die Gegendarstellung eingehalten (in den meisten Bundeslaendern: 3 Monate ab Kenntnis)?
 4. Ist die Gegendarstellung auf den Kern der falschen Tatsachenbehauptung beschraenkt (keine eigene Stellungnahme oder Kommentar)?
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

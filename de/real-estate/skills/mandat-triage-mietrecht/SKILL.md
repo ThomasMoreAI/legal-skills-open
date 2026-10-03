@@ -1,143 +1,76 @@
 ---
 name: mandat-triage-mietrecht
-title: Mandat-Triage Mietrecht
-description: Strukturierte Eingangs-Abfrage für mietrechtliche Mandate. Klaert Mandantenrolle (Vermieter Mieter WEG-Eigentuemer Verwalter) Gegenstandsart (Wohnraum Gewerbe WEG) Sachgebiet (Kündigung Mieterhoehung Mietminderung Modernisierung Nebenkostenabrechnung Mietkaution-Rückforderung Eigenbedarf Sanierung Räumung WEG-Beschluss WEG-Hausgeld-Klage). Fristen-Sofort-Check Kündigungs-Frist nach § 573c BGB Räumungs-Frist § 721 ZPO WEG-Klage ein Monat § 45 WEG Modernisierung-Ankündigung drei Monate vorher Mieterhoehung Zustimmungs-Frist zwei Monate § 558b BGB. Eskalation Telefon-Sofort bei Räumungstermin laufender Kündigungs-Frist.
+title: 1. Mietrechtlichen Streit einordnen und lösen
+description: 'Für Mandat-Triage Mietrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/mandat-triage-mietrecht
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: real-estate
 language: de
+sources:
+- title: Zitierweise
+  path: references/zitierweise.md
 ---
 
-# Mandat-Triage Mietrecht
+# 1. Mietrechtlichen Streit einordnen und lösen
 
-## Zweck
+## 1.1. Zweck und Anwendungsfall
 
-Mietrechts-Mandate sind heterogen — Wohnraummietrecht (sozial geschützt) Gewerbemietrecht (vertragsdominiert) WEG (eigene Logik). Triage stellt richtige Spur sicher.
+Bearbeite das Anliegen von Mieter, Vermieter, Eigentümer oder Verwaltung bis zum beauftragten Ergebnis. Unterscheide Beratung, außergerichtliches Schreiben und Prozessauftrag, bevor du weitere Dokumente entwirfst.
 
-## Ablauf — sieben Fragen
+## 1.2. Unterlagen und Fristen
 
-### Frage 1 — Mandantenrolle?
+Lies Vertrag, Nachträge, Abrechnung, Mietkonto, Kündigung oder WEG-Beschluss nach dem konkreten Auftrag. Übernimm bekannte Angaben zu Rolle, Objekt, Wohnraum, Gewerbe, Mischmiete, Pacht oder gesonderter Garage. Verlange keine erneute vollständige Aufnahme.
 
-- Vermieter (Privat / Wohnungsunternehmen)
-- Mieter
-- WEG-Eigentümer (in eigener Sache)
-- WEG-Verwalter / Hausverwaltung
-- Sondereigentums-Verwalter
-- Untermieter
+Prüfe bei Eile den konkreten Vorgang: Räumungstermin, Zustellung einer Klage, Mieterhöhungsverlangen, Modernisierungsankündigung oder Beschlussfassung. Der Zugang einer Mietkündigung löst nicht pauschal eine Kündigungsschutzklagefrist wie im Arbeitsrecht aus. Fehlende Zugangs- oder Zustellungsbelege sind gezielt anzufordern.
 
-### Frage 2 — Gegenstandsart?
+## 1.3. Fachliche Bearbeitung
 
-- Wohnraum
-- Gewerbe
-- Garage / Stellplatz (separat oder im Mietvertrag enthalten)
-- WEG (Sondereigentum + Gemeinschaftseigentum)
-- Pacht
-- Mischmietvertrag
+### 1.3.1. Zahlung und Kündigung
 
-### Frage 3 — Sachgebiet?
+Rechne geschuldete Miete, Vorauszahlungen und Zahlungen nach Monaten. Trenne Kaution und andere Forderungen; prüfe Minderung, Aufrechnung und Zurückbehaltung. Fehlt ein Verwendungszweck, frage danach und aktualisiere nach Antwort Rückstand und die darauf beruhende Begründung.
 
-- **Kündigung** (ordentlich außerordentlich Eigenbedarf Zahlungsverzug)
-- Räumung
-- **Mieterhöhung** (Vergleichsmiete Modernisierung)
-- **Mietminderung** (Mangel)
-- Modernisierung
-- **Nebenkostenabrechnung** (Erstellung Prüfung)
-- **Mietkaution** Rückforderung
-- **Schönheitsreparaturen** Anspruch
-- Mietmangel-Anspruch
-- WEG-Beschluss-Anfechtung
-- WEG-Hausgeld-Klage / Forderung
-- Räumungsfrist
-- Anschlussraum (Garage Stellplatz)
-- Untermiete
+Unterscheide außerordentliche und ordentliche Kündigung, Schonfristzahlung, Härtewiderspruch und Räumungsschutz. Prüfe Zugang, Form, Begründung und Frist nach dem konkreten Tatbestand, insbesondere Paragrafen 543, 569, 573, 573c und 574 BGB sowie bei Bedarf Paragraf 721 ZPO. Ein beauftragter Mandantenbrief wird nicht automatisch zur Räumungsklage.
 
-### Frage 4 — Akute Eilbedürftigkeit?
+### 1.3.2. Miethöhe und Abrechnung
 
-- **Räumungstermin** binnen Tagen — Räumungsschutz
-- **Kündigung gestern erhalten** Klage-Frist nach Vorbemerkung
-- **Eigenbedarfsräumung droht** Räumungsklage zugestellt
-- **Modernisierung morgen** unzumutbar
-- **Mietminderungs-Stopp** Vermieter klagt Mietrückstand
-- **Schimmelbefall lebensbedrohlich**
-- **WEG-Beschluss-Anfechtung** ein-Monats-Frist
+Trenne Vergleichsmiete, Staffel- oder Indexmiete, Modernisierung, Mietpreisbremse und Betriebskosten. Prüfe Vergleichs- und Berechnungsdaten, lokale Regelungen, Ausnahmen und Zeitraum. Bei Mietpreisüberhöhung oder Mietwucher sind Paragraf 5 WiStrG und Paragraf 291 StGB eigenständig zu prüfen, nicht allein aus einem Preisabstand abzuleiten.
 
-### Frage 5 — Vertragsbasis?
+Bei Paragraf 558b BGB ist für die Zustimmung der Ablauf des zweiten Kalendermonats nach Zugang maßgeblich, nicht eine pauschale Zweimonatsfrist ab Tagesdatum. Prüfe bei Betriebskosten Abrechnungs- und Einwendungsfrist gesondert nach Paragraf 556 Absatz 3 BGB. Fehlt ein Kostenbeleg, fordere ihn positionsbezogen an und vervollständige nach Eingang die Rechnung und das bestellte Schreiben.
 
-- Schriftlicher Mietvertrag (Datum)
-- Mündlicher Mietvertrag
-- Wohnraum-Mietvertrag mit gestaffelten Mieten / Indexmiete
-- Gewerbemietvertrag
-- WEG-Gemeinschaftsordnung
-- Teilungserklärung
+### 1.3.3. Mängel, Kaution und Rückgabe
 
-### Frage 6 — Frist?
+Kläre Zustand, Dauer, Anzeige, Gebrauchsnachteil und Abhilfe anhand von Protokollen, Bildern und Korrespondenz. Trenne Instandsetzung, Minderung, Zurückbehaltung und Schadensersatz. Fehlt der Zeitraum einer Beeinträchtigung, frage danach und ändere nach Antwort die betroffenen Monatsbeträge.
 
-- **Kündigungs-Frist Vermieter** § 573c BGB drei Monate (bei langer Mietdauer länger)
-- **Kündigungs-Frist Mieter** drei Monate (nicht abhängig von Mietdauer)
-- **Räumungsfrist Vollstreckung** § 721 ZPO Gewährung
-- **Mieterhöhungs-Zustimmungsfrist § 558b BGB** zwei Monate
-- **Mietminderungs-Anzeige** § 536c BGB unverzüglich
-- **Betriebskostenabrechnung** § 556 Abs. 3 BGB zwölf Monate
-- **WEG-Beschluss-Anfechtung** § 45 WEG ein Monat
+Bei Kaution, Schönheitsreparaturen und Schäden vergleiche Vertragsklausel, Anfangszustand, Rückgabe und belegte Gegenforderungen. Bei Untermiete oder zusätzlichem Stellplatz prüfe die konkrete Vertragsgrundlage. Ein allgemeiner Hinweis auf Mietrechtsschutz ersetzt keine Deckungszusage; Kosten und Prozesskostenhilfe sind nur bei Bedarf konkret zu prüfen.
 
-### Frage 7 — Wirtschaftliche Verhältnisse?
+### 1.3.4. Wohnungseigentum
 
-- Miete-Volumen
-- Eigenkapital (Mietkaution Selbstbeteiligung)
-- Rechtsschutz Mieter Vermieter
-- PKH bei Mieter
+Trenne Mietvertrag, Eigentümerrechte, Gemeinschaft und Verwaltung. Prüfe bei Beschlüssen Inhalt, Kompetenz, Verfahren, ordnungsmäßige Verwaltung und Rechtsfolge. Paragraf 45 WEG verlangt getrennte Prüfung der Monatsfrist zur Klageerhebung und Zweimonatsfrist zur Begründung ab Beschlussfassung.
 
-## Routing-Matrix
+Fehlt der Beschlusstext, fordere ihn an und bearbeite bereits belegbare Einwände vorläufig. Nach Eingang stelle die bestellte Beschlussprüfung oder beauftragte Klage fertig. Bei Hausgeldforderungen rechne Beschlussgrundlage, Sollbeträge und Zahlungen gesondert nach.
 
-| Sachgebiet | Folge-Skill |
-|---|---|
-| Eigenbedarfskündigung erstellen | `eigenbedarfskuendigung-erstellen` |
-| Mieterhöhung — Vermieter | `mieterhoehungsverlangen-erstellen` |
-| Mieterhöhung — Mieter | `mieterhoehung-pruefen-widersprechen` |
-| Mietsenkungsverlangen | `mietsenkungsverlangen` |
-| Nebenkosten erstellen | `nebenkostenabrechnung-erstellen` |
-| Nebenkosten prüfen | `nebenkostenabrechnung-pruefen` |
-| Klage am AG | `klageentwurf-amtsgericht` |
-| Mahnung Zahlungsverzug | `mahnung-zahlungsverzug-mieter` |
-| Mieteranfragen beantworten | `mieteranfragen-beantworten` |
-| Lage und Ausstattung erheben | `lage-und-ausstattung-erheben` |
-| WEG-Beschluss-Anfechtung | `weg-beschluss-anfechten` |
-| Mietkaution-Rückforderung | (Skill mietkaution-rueckforderung — perspektivisch) |
-| Mietminderung wegen Mangel | (Skill mietminderung-prüfen — perspektivisch) |
+## 1.4. Zuständigkeit und Quellen
 
-## Mandatsannahme
+Prüfe Zuständigkeit und gegebenenfalls Anwaltszwang anhand der konkreten Sache. Wohnraummietsachen gehören nach Paragraf 23 Nummer 2a GVG streitwertunabhängig zum Amtsgericht; verwende für Gewerberaum und WEG deren einschlägige Regeln. Bestimme den Streitwert aus dem tatsächlichen Antrag und den geltenden Wertvorschriften, nicht pauschal als Jahresmiete.
 
-- **Konflikt-Check** — keine Doppelmandate Mieter/Vermieter
-- **Streitwert** Wohnraum Jahresmiete EUR (KSchG-Streitwert vergleichbar)
-- **AG-Zuständigkeit** Mietrecht-Streit über Wohnraum § 23 Nr. 2 a) GVG ausschließlich AG
-- **Versicherungs-Deckung** Mietrechtsschutz häufig
+Verifiziere die einschlägigen Regelungen der Paragrafen 535 und folgenden BGB, BetrKV und WEG sowie gegebenenfalls Verfahrensrecht. Rechtsprechung der zuständigen Senate nur mit überprüftem Datum, Aktenzeichen und Aussageumfang verwenden. Beachte references/zitierweise.md, soweit verfügbar; keine ungelesenen Literatur- oder Datenbankzitate.
 
-## Eskalation
+Optional können etwa eigenbedarfskuendigung-erstellen, mieterhoehungsverlangen-erstellen, nebenkostenabrechnung-pruefen, mahnung-zahlungsverzug-mieter oder weg-beschluss-anfechten vertiefen. Ohne solche Skills wird anhand der vorstehenden Prüfung weitergearbeitet.
 
-- **Telefon-Sofort** Räumungstermin Räumungsklage Schimmel
-- **Binnen einer Stunde** WEG-Beschluss-Anfechtung Frist läuft heute
-- **Heute** Kündigungs-Widerspruch Mieterhöhungs-Antwort
-- **Diese Woche** Klageschrift Räumungsschutz
+## 1.5. Fortsetzung und Ausgabe
 
-## Ausgabe
+Frage nach entscheidenden Lücken, nicht nach längst bekannten Angaben. Nach jeder Antwort gleiche neue Angaben mit den Belegen ab und aktualisiere die betroffene Rechnung oder Argumentation. Bei einer neuen entscheidenden Unklarheit ist eine weitere kurze Runde zulässig.
 
-- `triage-protokoll-mietrecht.md`
-- Aktenanlage
-- Frist im Fristenbuch
-- Mandatsvereinbarung mit Honorar
-- Empfehlung Folge-Skill
+Liefere das bestellte Dokument in vollständigen Sätzen; bloße Listen, Textgerüste und Empfehlungen weiterer Skills genügen nicht. Bei einer Blockade kennzeichne tragfähige Teile als vorläufig und benenne den benötigten Beitrag zur Endfassung. Tabellen dienen nur tatsächlichen Berechnungen und Vergleichen.
 
-## Quellen
+Nutzerseitige Dateinamen gehen vor; ergebnis.md ist ein Standard ohne andere Vorgabe. Zusätzliche Recherchevermerke bleiben außerhalb des Mandantenbriefs. Formatierte Dokumente verwenden Times New Roman, 11 Punkt und dezimale Gliederung.
 
-- BGB §§ 535 ff. 558 558b 573c 556
-- WEG §§ 14 19 20 44 45
-- ZPO § 721 (Räumungsfrist)
-- BGH VIII. Zivilsenat und V. Zivilsenat nur mit Datum, Aktenzeichen und frei prüfbarer Quelle
+Aktenanlage, Fristenbucheintrag, Versand, Einreichung oder Mandatsannahme nicht als erfolgt behaupten oder ohne entsprechenden Auftrag veranlassen. Bei fehlendem Zugriff fordere die konkrete Unterlage an; ohne Export liefere Text.
 
-## Aktuelle Rechtsprechung — Leitsaetze (Triage-Relevant)
+## 1.6. Beispiel
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+Ein Mieter bestellt eine Antwort auf eine Betriebskostennachforderung und hat mehrere Rechnungen bereits vorgelegt. Prüfe diese, fordere nur den fehlenden Verteilungsnachweis an und bearbeite unabhängige Einwände vorläufig. Nach dessen Eingang rechne den Anteil neu und stelle die Antwort fertig, ohne erneut den gesamten Mietvertrag aufnehmen zu lassen.

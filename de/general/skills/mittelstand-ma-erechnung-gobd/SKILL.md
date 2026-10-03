@@ -1,18 +1,36 @@
 ---
 name: mittelstand-ma-erechnung-gobd
-title: Freistehender Billing-, GoBD- und E-Rechnungsworkflow (Mittelstand)
-description: 'Kanzlei braucht GoBD-konforme E-Rechnung für M&A-Mandat: XRechnung-XML ZUGFeRD Workstream-Abrechnung revisionssicheren Buchungsnachweis. Normen GoBD BMF-Schreiben 2019 UStG §§ 14 14a ZUGFeRD EN 16931. Prüfraster Pflichtfelder XRechnung Pflichtangaben Narrative Revisionssicherheit Archivierung. Output XRechnung-XML ZUGFeRD-Paket Buchungsnachweis. Abgrenzung zu billing-narratives (Texterstellung) und mittelstand-ma-tabellenreview (Datenprüfung).'
+title: Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)
+description: 'Für Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/mittelstand-ma-erechnung-gobd
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: general
 language: de
 ---
 
-# Freistehender Billing-, GoBD- und E-Rechnungsworkflow (Mittelstand)
+# Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: BRAO, BORA, FAO, BNotO, StBerG, WPO, PAO; AO §§ 38, 42, 90, 93, 153, 162, 164, 169-171, 173, 233a, 370-378, UStG, EStG, KStG, GewStG, GrEStG, ErbStG, FGO; StaRUG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+## Fachlicher Kern — Gesellschaftsrecht und Corporate Law
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Erst Gesellschaftsform, Organ, Beschlussweg, Vertretung, Registerlage, wirtschaftliches Ziel und Minderheitenposition sortieren; dann Treuepflicht, Kapitalerhaltung, Haftung, Transaktions-Closing und Beweis-/Vollzugsrisiko prüfen.
+- **Outputpflicht:** Beschluss-/Listenmatrix, Register-To-do, Board-/Beiratsvorlage, Closing-CP-Liste, Treuepflicht-Red-Team, Geschäftsführerhaftungsmemo oder Mandanten-Decision-Paper.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Fachkern: Freistehender Billing-, GoBD- und E-Rechnungs(Mittelstand)
+- **Normen-/Quellenanker:** GmbHG, HGB, BGB, UmwG, WpÜG/GWB/AWG je nach Transaktion, Satzung, Geschäftsordnung, Gesellschafterbeschluss und Beiratsordnung.
+- **Entscheidende Weiche:** Trenne Dealstruktur, Organbeschluss, Zustimmungsvorbehalt, Informationsrecht, Haftung, Interessenkonflikt und Vollzugsdokument.
 
 ## Kernsachverhalt
 
@@ -28,7 +46,7 @@ Mit der Einführung der E-Rechnungspflicht im B2B-Verkehr (§ 14 UStG n.F. ab 01
 6. Welches Rechnungsformat ist erforderlich — Standard-PDF, XRechnung, ZUGFeRD, EDIFACT?
 7. Wurden die Zeiteinträge vollständig und mit ausreichendem Narrative dokumentiert (GoBD-Anforderung)?
 8. Ist die Rechnungsnummer-Vergabe lückenlos und nicht rückdatiert?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Rechtsgrundlagen
 
@@ -51,12 +69,10 @@ Mit der Einführung der E-Rechnungspflicht im B2B-Verkehr (§ 14 UStG n.F. ab 01
 
 | Gericht | Az. | Datum | Leitsatz (kurz) |
 |---|---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | - | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ## Prüfschema / Billing-Workflow
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 | Schritt | Prüfungspunkt | Inhalt | Status |
 |---|---|---|---|
@@ -99,17 +115,16 @@ Mit der Einführung der E-Rechnungspflicht im B2B-Verkehr (§ 14 UStG n.F. ab 01
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — E-Rechnung und GoBD-Anforderungen fuer Mittelstand pruefen | GoBD-Checkliste nach Schema; Template unten |
+| Standard — E-Rechnung und GoBD-Anforderungen für Mittelstand prüfen | GoBD-Checkliste nach Schema; Template unten |
 | Variante A — Kanzlei noch in Umstellungsphase kein Vollbetrieb | Uebergangs-Checkliste; Fristen und Schritte dokumentieren |
-| Variante B — Mandant nutzt Cloud-Buchhaltung | Cloud-spezifische GoBD-Anforderungen pruefen |
-| Variante C — Steuerpruefung laeuft E-Rechnung als Beweismittel | Beweissicherung der E-Rechnungen pruefen; Zugriff sichern |
+| Variante B — Mandant nutzt Cloud-Buchhaltung | Cloud-spezifische GoBD-Anforderungen prüfen |
+| Variante C — Steuerpruefung laeuft E-Rechnung als Beweismittel | Beweissicherung der E-Rechnungen prüfen; Zugriff sichern |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Schriftsatzbausteine
 
@@ -121,14 +136,14 @@ Projekt: [Deal-Code]
 Abrechnungszeitraum: [TT.MM.JJJJ] bis [TT.MM.JJJJ]
 Erstellt: [Datum]
 
-| Datum      | Fee Earner | Phase    | Workstream | Tätigkeit (Narrative)                                    | Dauer (h) | Rate (EUR/h) | Betrag (EUR) |
+| Datum | Fee Earner | Phase | Workstream | Tätigkeit (Narrative) | Dauer (h) | Rate (EUR/h) | Betrag (EUR) |
 |------------|------------|----------|------------|----------------------------------------------------------|-----------|--------------|--------------|
-| [Datum]    | [Partner]  | DD       | Legal      | Prüfung Gesellschaftsvertrag und Gesellschafterliste;    | 2,5       | [X]          | [Y]          |
-|            |            |          |            | Identifikation Vinkulierungsklausel; Memo an Mandant     |           |              |              |
-| [Datum]    | [Assoc.]   | DD       | Finance    | Überprüfung Jahresabschlüsse 2021–2023; EBITDA-Berein.   | 4,0       | [X]          | [Y]          |
-| [Datum]    | [Partner]  | Signing  | Legal      | Vertragsverhandlung SPA mit Gegenseite; Textmarkups      | 3,0       | [X]          | [Y]          |
-| [Datum]    | [Assoc.]   | Admin    | Admin      | Notar-Koordination; Vollmachten vorbereiten              | 1,0       | [X]          | [Y]          |
-|            |            |          |            |                                              GESAMT:     | [Summe]   |              | EUR [Total]  |
+| [Datum] | [Partner] | DD | Legal | Prüfung Gesellschaftsvertrag und Gesellschafterliste; | 2,5 | [X] | [Y] |
+| | | | | Identifikation Vinkulierungsklausel; Memo an Mandant | | | |
+| [Datum] | [Assoc.] | DD | Finance | Überprüfung Jahresabschlüsse 2021–2023; EBITDA-Berein. | 4,0 | [X] | [Y] |
+| [Datum] | [Partner] | Signing | Legal | Vertragsverhandlung SPA mit Gegenseite; Textmarkups | 3,0 | [X] | [Y] |
+| [Datum] | [Assoc.] | Admin | Admin | Notar-Koordination; Vollmachten vorbereiten | 1,0 | [X] | [Y] |
+| | | | | GESAMT: | [Summe] | | EUR [Total] |
 
 AUSLAGEN:
 - Notargebühren Urkunde vom [Datum]: EUR [X] (Beleg: Kostenrechnung Anlage [X])
@@ -145,31 +160,31 @@ RECHNUNGSBETRAG (brutto): EUR [Z + USt]
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <ubl:Invoice xmlns:ubl="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
-             xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
-             xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
-  <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</cbc:CustomizationID>
-  <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
-  <cbc:ID>[RECHNUNGSNUMMER]</cbc:ID>
-  <cbc:IssueDate>[JJJJ-MM-TT]</cbc:IssueDate>
-  <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
-  <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
-  <cbc:BuyerReference>[LEITWEG-ID-MANDANT oder Bestellnummer]</cbc:BuyerReference>
-  <!-- Lieferant -->
-  <cac:AccountingSupplierParty>
-    <cac:Party>
-      <cbc:RegistrationName>[KANZLEINAME]</cbc:RegistrationName>
-      <cac:PostalAddress><cbc:StreetName>[STRASSE]</cbc:StreetName></cac:PostalAddress>
-      <cac:PartyTaxScheme><cbc:CompanyID>DE[USTID]</cbc:CompanyID></cac:PartyTaxScheme>
-    </cac:Party>
-  </cac:AccountingSupplierParty>
-  <!-- Rechnungsposition -->
-  <cac:InvoiceLine>
-    <cbc:ID>1</cbc:ID>
-    <cbc:InvoicedQuantity unitCode="HUR">[STUNDEN]</cbc:InvoicedQuantity>
-    <cbc:LineExtensionAmount currencyID="EUR">[NETTOBETRAG]</cbc:LineExtensionAmount>
-    <cac:Item><cbc:Description>[LEISTUNGSBESCHREIBUNG KURZ]</cbc:Description></cac:Item>
-    <cac:Price><cbc:PriceAmount currencyID="EUR">[STUNDENSATZ]</cbc:PriceAmount></cac:Price>
-  </cac:InvoiceLine>
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+ <cbc:CustomizationID>urn:cen.eu:en16931:2017#compliant#urn:xoev-de:kosit:standard:xrechnung_2.3</cbc:CustomizationID>
+ <cbc:ProfileID>urn:fdc:peppol.eu:2017:poacc:billing:01:1.0</cbc:ProfileID>
+ <cbc:ID>[RECHNUNGSNUMMER]</cbc:ID>
+ <cbc:IssueDate>[JJJJ-MM-TT]</cbc:IssueDate>
+ <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+ <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+ <cbc:BuyerReference>[LEITWEG-ID-MANDANT oder Bestellnummer]</cbc:BuyerReference>
+ <!-- Lieferant -->
+ <cac:AccountingSupplierParty>
+ <cac:Party>
+ <cbc:RegistrationName>[KANZLEINAME]</cbc:RegistrationName>
+ <cac:PostalAddress><cbc:StreetName>[STRASSE]</cbc:StreetName></cac:PostalAddress>
+ <cac:PartyTaxScheme><cbc:CompanyID>DE[USTID]</cbc:CompanyID></cac:PartyTaxScheme>
+ </cac:Party>
+ </cac:AccountingSupplierParty>
+ <!-- Rechnungsposition -->
+ <cac:InvoiceLine>
+ <cbc:ID>1</cbc:ID>
+ <cbc:InvoicedQuantity unitCode="HUR">[STUNDEN]</cbc:InvoicedQuantity>
+ <cbc:LineExtensionAmount currencyID="EUR">[NETTOBETRAG]</cbc:LineExtensionAmount>
+ <cac:Item><cbc:Description>[LEISTUNGSBESCHREIBUNG KURZ]</cbc:Description></cac:Item>
+ <cac:Price><cbc:PriceAmount currencyID="EUR">[STUNDENSATZ]</cbc:PriceAmount></cac:Price>
+ </cac:InvoiceLine>
 </ubl:Invoice>
 ```
 
@@ -183,7 +198,7 @@ RECHNUNGSBETRAG (brutto): EUR [Z + USt]
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
@@ -212,7 +227,6 @@ Eine rückwirkende Änderung oder Löschung der Ursprungsrechnung ist unzulässi
 | Risiko / Schadensfall | Ansatz | Norm |
 |---|---|---|
 | GoBD-Verstoß: Rechnungsänderung ohne Storno | Bußgeld bei Betriebsprüfung; Verweigerung Vorsteuerabzug Mandant | GoBD; § 15 UStG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Rückdatierung von Rechnungen | Steuerstrafrecht; § 370 AO | § 370 AO; GoBD |
 | Nicht valide XRechnung | Ablehnung durch Empfangssystem; Verzug | KoSIT-Validierungsregeln |
 
@@ -232,9 +246,8 @@ Eine rückwirkende Änderung oder Löschung der Ursprungsrechnung ist unzulässi
 
 ## Quellen
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - § 14, § 14a, § 13b, § 15 UStG; §§ 145–147 AO; GoBD-Erlass BMF 28.11.2019; §§ 4, 49b BRAO; XRechnung CEN EN 16931; ZUGFeRD 2.3 (Factur-X)
 
 ## Ergaenzende Rechtsprechung (v14.2)
 
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

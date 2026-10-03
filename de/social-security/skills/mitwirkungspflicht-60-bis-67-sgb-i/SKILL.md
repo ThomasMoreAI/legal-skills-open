@@ -1,0 +1,73 @@
+---
+name: mitwirkungspflicht-60-bis-67-sgb-i
+title: Mitwirkungspflicht 60 Bis 67 Sgb I
+description: 'Für Mitwirkungspflicht 60 bis 67 SGB I: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/mitwirkungspflicht-60-bis-67-sgb-i
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: social-security
+language: de
+sources:
+- title: Quellenhygiene
+  path: references/quellenhygiene.md
+- title: Zitierweise
+  path: references/zitierweise.md
+---
+
+# Mitwirkungspflicht 60 Bis 67 Sgb I
+
+## Fachlicher Anker
+
+- **Normen:** § 7, § 7a, §§ 20.
+- **Entscheidungs-/Quellenanker:** Tragende Rechtsprechung nur mit Gericht, Datum, Aktenzeichen und frei prüfbarer Quelle einsetzen; keine Entscheidung aus Modellwissen erzwingen.
+- **Quellenhygiene:** `references/quellenhygiene.md` und `references/zitierweise.md` beachten.
+
+## Pflichten
+
+### § 60 SGB I — Angabe
+- Tatsachen die für Leistung erheblich sind angeben.
+- Änderungen mitteilen.
+- Beweismittel vorlegen.
+
+### § 61 SGB I — Persoenliches Erscheinen
+- Bei Behörde erscheinen wenn erforderlich.
+
+### § 62 SGB I — Untersuchungen
+- Aerztliche und psychologische Untersuchungen dulden.
+
+### § 63 SGB I — Heilbehandlung
+- Maßnahmen der Heilbehandlung mitwirken.
+
+### § 64 SGB I — Berufsfoerdernde Maßnahmen
+- Mitwirkung an beruflichen Foerdermassnahmen.
+
+### § 65 SGB I — Grenzen
+- Unzumutbarkeit (z. B. erheblich Gefahr für Gesundheit Leben).
+- Verletzung anderer Schutzgueter (DSGVO Schweigepflicht Privatsphaere).
+
+## Folge bei Verstoss
+
+- § 66 SGB I — Versagung oder Entziehung der Leistung ganz oder teilweise.
+- Schriftliche Aufforderung der Behörde mit Hinweis auf Folge erforderlich.
+- Frist zur Mitwirkung muss verhaeltnismaessig sein.
+
+## Heilung
+
+- § 67 SGB I — Nachholung der Mitwirkung mit Wirkung für Zukunft.
+
+## Prüfraster
+
+1. Welche Mitwirkungspflicht?
+2. Aufforderung mit Folgenhinweis ergangen?
+3. Frist ausreichend?
+4. Unzumutbarkeit nach § 65 SGB I?
+5. Nachholung möglich?
+
+## Wenn Sie Verweigerung erwaegen
+
+- Schreiben Sie schriftlich begruendet warum die Mitwirkung unzumutbar ist.
+- Stellen Sie Alternative vor (z. B. anderer Untersuchungsort, neutraler Gutachter).
+- Behalten Sie die Frist im Auge.

@@ -1,18 +1,18 @@
 ---
 name: checking-przedawnienie
-title: checking-przedawnienie
+title: law-pl-checking-przedawnienie
 description: Use when checking Polish przedawnienie (art. 117–125 KC) — termin ogólny 6 lat vs szczególny 3 lata (okresowe / działalność), koniec roku kalendarzowego (reforma 2018), zawieszenie / przerwanie biegu, z urzędu wobec konsumenta, możliwość obejścia przedawnienia
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-checking-przedawnienie
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: pl
 practice: litigation
 language: pl
 ---
 
-# checking-przedawnienie
+# law-pl-checking-przedawnienie
 
 Upływ przedawnienia — jeden z najczęstszych powodów oddalenia powództwa. Sprawdzenie terminu — obowiązkowy krok przed sporządzeniem pozwu (powód) i przed sporządzeniem odpowiedzi na pozew (pozwany).
 

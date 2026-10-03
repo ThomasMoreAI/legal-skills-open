@@ -1,15 +1,22 @@
 ---
 name: mdr-745-specialist
 title: MDR 2017/745 Specialist
-description: EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Covers Annex VIII classification rules, Annex II/III technical files, Annex XIV clinical evaluation, and EUDAMED integration.
+description: EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Use for Annex VIII classification, GSPR, clinical evaluation, EUDAMED, and UDI.
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/mdr-745-specialist
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: life-sciences
 language: en
+sources:
+- title: Clinical evidence requirements
+  path: references/clinical-evidence-requirements.md
+- title: Mdr classification guide
+  path: references/mdr-classification-guide.md
+- title: Technical documentation templates
+  path: references/technical-documentation-templates.md
 ---
 
 # MDR 2017/745 Specialist
@@ -29,6 +36,16 @@ EU MDR compliance patterns for medical device classification, technical document
 - [Tools](#tools)
 
 ---
+
+## Clarify First
+
+Before classifying the device or analyzing gaps, confirm these inputs. If any is unknown or vague, ASK — do not assume:
+
+- [ ] **Device characteristics** — duration, invasiveness, body-system contact, and whether it is active/software (drives the Annex VIII classification)
+- [ ] **Intended purpose** — the device's claimed clinical purpose (sets the applicable rule and clinical-evidence level)
+- [ ] **Software/AI nature** — whether it is software as a medical device (MDCG 2019-11) or AI/ML (changes classification and the documentation set)
+
+Stop rule: ask only the 2-3 that most change the output. If the user says "just draft it," proceed and list your assumptions at the top of the classification.
 
 ## Device Classification Workflow
 

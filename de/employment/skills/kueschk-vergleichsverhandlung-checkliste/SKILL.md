@@ -1,22 +1,50 @@
 ---
 name: kueschk-vergleichsverhandlung-checkliste
-title: 'Vergleichsverhandlung: Checkliste'
-description: 'Checkliste für Kündigungsschutz-Vergleiche: Beendigungsdatum; Abfindung nach Faustformel; Freistellung und Urlaubsabgeltung; Zeugnisnote und -formulierung; Klageerledigung; Outplacement; Rücklage-Klausel; alle Punkte die geregelt werden sollten.'
+title: 'Checkliste für Kündigungsschutz-Vergleiche: Beendigungsdatum'
+description: 'Für Checkliste für Kündigungsschutz-Vergleiche: Beendigungsdatum: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder Eskalationslinie.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kueschk-vergleichsverhandlung-checkliste
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: employment
 language: de
 ---
 
-# Vergleichsverhandlung: Checkliste
+# Checkliste für Kündigungsschutz-Vergleiche: Beendigungsdatum
 
-## Zweck
 
-Ein Vergleich im Kündigungsschutzprozess ist mehr als nur eine Abfindungszahlung. Dieser Skill listet alle Punkte auf, die in einem Vergleich geregelt werden sollten — und erklärt, worauf es dabei ankommt.
+## Direktstart: lesen, entscheiden, liefern
+
+Beginne nicht mit einem Fragenkatalog. Wenn Material vorliegt, lies es zuerst und starte mit einer verwertbaren Arbeitshypothese:
+
+- Frist oder Sofortrisiko.
+- erkannte Rolle, Zielrichtung und Verfahrensstand.
+- tragende Tatsachen aus dem Material.
+- bester nächster Arbeitsschritt mit direkt nutzbarem Output.
+
+Frage höchstens zwei Punkte nach, und nur wenn ohne diese Antwort der nächste Schritt falsch oder riskant würde. Fehlt Material vollständig, verlange nicht allgemein alle Unterlagen, sondern nenne die drei wichtigsten Dokumente und arbeite mit sichtbaren Annahmen weiter.
+
+Starte mit einem Arbeitsprodukt, nicht mit einer Inventarliste: Kurzvermerk, Fristenblatt, Prüfmatrix, Entwurf, Fragenliste oder Entscheidungsvorschlag. Routing ist nur Mittel zum Zweck. Wenn ein Fachskill eindeutig passt, arbeite unmittelbar in dessen Richtung weiter.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Checkliste für Kündigungsschutz-Vergleiche: Beendigungsdatum; Abfindung nach Faustformel; Freistellung und Urlaubsabgeltung; Zeugnisnote und -formulierung; Klageerledigung; Outplacement; Rücklage-Klausel; alle Punkte die geregelt werden sollten.
+
+### Vergleichsverhandlung: Checkliste
+
+## Fachlicher Kern — Arbeitsrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Vergleichsverhandlung: Checkliste` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Arbeitsmodus:** Zuerst Status, Zugang, Frist, Beteiligungsrechte, Sonderkündigungsschutz, Beweislast und prozessualen nächsten Schritt sichern; dann erst Materiellrecht vertiefen.
+- **Outputpflicht:** Fristenblatt, Zugangsmatrix, Beweisangebot, Mandantenmail, Betriebsrats-/Gegnerbrief oder Klage-/Erwiderungsbaustein.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
 
 ## Triage zu Beginn — kläre vor Vergleichsverhandlung
 
@@ -32,24 +60,17 @@ Step 1: Vergleichsangebot entgegennehmen, NICHT sofort zustimmen
 Step 2: Bedenk- und Prüfzeit erbitten (mindestens eine Stunde, ggf. bis nächster Tag)
 Step 3: Alle Vergleichspunkte schriftlich festhalten (diese Checkliste)
 Step 4: Steuerliche und sozialversicherungsrechtliche Auswirkungen berücksichtigen
-Step 5: Vergleich bei Zustimmung protokollieren lassen (§ 794 Abs. 1 Nr. 1 ZPO)
+Step 5: Vergleich bei Zustimmung protokollieren lassen (Paragraf 794 Abs. 1 Nr. 1 ZPO)
 Step 6: Widerrufsvorbehalt prüfen (sofern möglich, zwei Wochen Widerrufsfrist vereinbaren)
 ```
 
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Checkliste: Was muss in den Vergleich?
 
 ### 1. Beendigungsdatum
 
 - **Welches Datum** endet das Arbeitsverhältnis?
 - Ist es das Datum der Kündigung oder ein anderes Datum (z.B. nach Verhandlung, Ende Freistellung)?
-- Hinweis: Das Beendigungsdatum beeinflusst das Arbeitslosengeld (Anwartschaftszeit, Sperrzeit § 159 SGB III bei eigenem Verstoß)
+- Hinweis: Das Beendigungsdatum beeinflusst das Arbeitslosengeld (Anwartschaftszeit, Sperrzeit Paragraf 159 SGB III bei eigenem Verstoß)
 
 ### 2. Abfindung
 
@@ -68,13 +89,12 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 ### 4. Urlaubsabgeltung
 
 - Wurden alle Urlaubstage genommen oder sind noch offene Urlaubstage vorhanden?
-- § 7 Abs. 4 BUrlG: Offener Urlaub wird bei Beendigung des Arbeitsverhältnisses abgegolten.
+- Paragraf 7 Abs. 4 BUrlG: Offener Urlaub wird bei Beendigung des Arbeitsverhältnisses abgegolten.
 - Auszahlungsbetrag: Tagesgehalt × Urlaubstage
 
 ### 5. Zeugnis
 
 - Welche **Note** wird im Zeugnis erteilt? (Mindest: "zur vollen Zufriedenheit" = befriedigend)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 - Zeugnis **ohne qualifizierte Aussage** über Führung und Leistung ist ein Schlechzeugnis.
 - Formulierung prüfen: Keine geheimen negativen Formulierungen (z.B. "bemühte sich stets" statt "erledigte stets").
 - Ausstellungsdatum: Beendigungsdatum oder anderes Datum?
@@ -95,7 +115,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 - Besteht bereits ein vertragliches Wettbewerbsverbot?
 - Wird es im Vergleich aufgehoben oder angepasst?
-- Karenzentschädigung (§ 74 Abs. 2 HGB: mindestens halbes Jahresgehalt pro Verbotsjahr)
+- Karenzentschädigung (Paragraf 74 Abs. 2 HGB: mindestens halbes Jahresgehalt pro Verbotsjahr)
 
 ### 9. Geheimhaltungsklausel
 
@@ -108,7 +128,7 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 Die Parteien schließen zur Erledigung des Rechtsstreits folgenden Vergleich:
 
 1. Das Arbeitsverhältnis der Parteien endet auf Veranlassung der Beklagten mit Ablauf des [DATUM].
-2. Die Beklagte zahlt an den Kläger eine Abfindung nach §§ 9, 10 KSchG in Höhe von [BETRAG] EUR brutto.
+2. Die Beklagte zahlt an den Kläger eine Abfindung nach Paragrafen 9, 10 KSchG in Höhe von [BETRAG] EUR brutto.
 3. Der Kläger ist ab sofort unwiderruflich von der Arbeitspflicht freigestellt; offener Urlaub wird auf die Freistellung angerechnet.
 4. Die Beklagte erteilt dem Kläger ein qualifiziertes Zeugnis mit der Gesamtnote "gut" bis zum [DATUM].
 5. Damit sind alle wechselseitigen Ansprüche aus dem Arbeitsverhältnis und seiner Beendigung erledigt.
@@ -118,3 +138,5 @@ Die Parteien schließen zur Erledigung des Rechtsstreits folgenden Vergleich:
 Hinweis: Keine Rechtsberatung. Mechanische Prüfung anhand vom Nutzer behaupteter Tatsachen. Falsche Sachverhaltsangabe oder falsche Anspruchsgrundlage entwertet das Ergebnis. Dringende Empfehlung anwaltlicher Beratung, insbesondere wegen der Drei-Wochen-Fristen.
 
 Du könntest auf der falschen Wiese unterwegs sein. Dieses System kann das nicht prüfen.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

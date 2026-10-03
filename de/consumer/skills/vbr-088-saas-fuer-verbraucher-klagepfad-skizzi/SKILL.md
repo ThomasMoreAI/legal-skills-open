@@ -1,0 +1,74 @@
+---
+name: vbr-088-saas-fuer-verbraucher-klagepfad-skizzi
+title: Saas Fuer Verbraucher Klagepfad Skizzi
+description: 'Für Saas für Verbraucher Klagepfad Skizzi: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik. Fachgebiet: Verbraucherschutzrecht Prüfer. Route: vbr-088-saas-fuer-verbraucher-klagepfad-skizzi.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/verbraucherschutzrecht-pruefer/skills/vbr-088-saas-fuer-verbraucher-klagepfad-skizzi
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: consumer
+language: de
+---
+
+# Saas Fuer Verbraucher Klagepfad Skizzi
+
+## Arbeitsauftrag
+
+Saas Fuer Verbraucher Klagepfad Skizzi wird nicht als abstraktes Schema beantwortet, sondern als Arbeitsgang im Bereich Verbraucherschutzrecht allgemein: erst Zuständigkeit und Normpfad, dann Tatsachen und Belege, dann Fristen und taktische Option, danach ein verwertbarer Output.
+
+## Einstieg ohne Leerlauf
+
+1. Rolle klären: antragstellende Person, Behörde, Verband, Unternehmen, Anwalt, Gericht, Presse, Betroffene oder Projektträger.
+2. Ziel festlegen: Auskunft, Bescheidprüfung, Gestaltung, Verteidigung, Klage/Eilrechtsschutz, Dashboard, Vertrags-/Registerprüfung oder Entscheidungsvermerk.
+3. Dokumente einsammeln: Bescheid, Antrag, Vertrag, Registerauszug, Haushaltsstelle, Behördenmail, Foto/Scan, Zeitachse, Fristen und bisherige Kommunikation.
+4. Rechtsstand als Live-Check markieren, wenn Landesrecht, EU-Recht, internationale Regeln, Gebührenordnungen oder aktuelle Rechtsprechung betroffen sind.
+
+## Norm- und Quellenanker
+
+- BGB-Verbrauchervertragsrecht, Widerruf, digitale Produkte
+- UWG, UKlaG, VSBG, PAngV, Fernabsatz, E-Commerce
+- Produktsicherheit, Right to Repair, Gewährleistung
+- EU-Verbraucherrecht live gegen EUR-Lex/Bundesrecht prüfen
+
+## Prüfroutine
+
+1. **Scope:** Was genau soll entschieden, beantragt, abgewehrt oder dokumentiert werden? Welche Einheit ist betroffen und welches Recht gilt wirklich?
+2. **Zuständigkeit:** Behörde, Gericht, Register, Aufsicht, Verband, Unternehmen oder internationale Stelle sauber benennen; falsche Adressaten als Risiko ausweisen.
+3. **Tatbestand:** Die relevanten Merkmale einzeln mit Belegen füllen. Unklare Tatsachen als Rückfrage oder Beweispunkt markieren, nicht glattbügeln.
+4. **Rechtsfolge:** Anspruch, Ermessen, Verbot, Pflicht, Gebührenfolge, Nebenfolge, Haftung, Vollzug oder Rechtsschutz getrennt ausgeben.
+5. **Taktik:** Schnellster sinnvoller Weg, sauberster Weg und Eskalationsweg nebeneinander stellen; bei Laien zusätzlich eine kurze Erklärung in Alltagssprache.
+
+## Typische Artefakte
+
+- Verbraucherrechte-Ampel
+- Anspruchs- und Fristenmatrix
+- Anschreiben an Unternehmer/Plattform
+- Beweis- und Screenshotplan
+
+## Red-Team-Fragen
+
+- B2C/B2B-Rolle unklar
+- Widerrufsfrist/Beweislast falsch gerechnet
+- Plattform- und Händlerrolle vermischt
+- AGB-Kontrolle ohne Einbeziehungskontrolle
+
+## Ausgabeformat
+
+- **Kurzbefund:** ein Absatz, der die Lage und den nächsten Schritt verständlich macht.
+- **Arbeitsmatrix:** Norm, Tatsache, Beleg, Risiko, offener Punkt, nächster Schritt.
+- **Entwurf:** Antrag, Schreiben, Vermerk, Widerspruch, Klagebaustein, Dashboard-Zeile oder Checkliste nach Bedarf.
+- **Quellenblock:** nur amtliche/frei prüfbare Quellen oder vom Nutzer bereitgestellte Quellen; keine Blindzitate, keine BeckRS-/juris-Behauptungen ohne Nutzerquelle.
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
+
+## Qualitätsregel
+
+Wenn etwas nur wahrscheinlich ist, als wahrscheinlich kennzeichnen. Wenn der Rechtsstand tagesaktuell sein kann, Live-Recherche verlangen. Wenn die Akte widersprüchlich ist, den Widerspruch stehen lassen und daraus eine Entscheidungsvorlage bauen.

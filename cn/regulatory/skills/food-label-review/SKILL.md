@@ -5,11 +5,72 @@ description: 预包装食品标签合规审核技能，用于审核食品标签�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/food-label-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: regulatory
 language: zh
+sources:
+- title: 00 版本选择与适用范围
+  path: references/00-版本选择与适用范围.md
+- title: 01 食品名称 2011
+  path: references/01-食品名称-2011.md
+- title: 01 食品名称 2025
+  path: references/01-食品名称-2025.md
+- title: 02 配料表 2011
+  path: references/02-配料表-2011.md
+- title: 02 配料表 2025
+  path: references/02-配料表-2025.md
+- title: 03 日期与保质期 2011
+  path: references/03-日期与保质期-2011.md
+- title: 03 日期与保质期 2025
+  path: references/03-日期与保质期-2025.md
+- title: 04 净含量与规格
+  path: references/04-净含量与规格.md
+- title: 05 生产者经营者信息 2011
+  path: references/05-生产者经营者信息-2011.md
+- title: 05 生产者经营者信息 2025
+  path: references/05-生产者经营者信息-2025.md
+- title: 06 贮存条件与许可证
+  path: references/06-贮存条件与许可证.md
+- title: 07 致敏物质 2011
+  path: references/07-致敏物质-2011.md
+- title: 07 致敏物质 2025
+  path: references/07-致敏物质-2025.md
+- title: 08 食品声称 2025
+  path: references/08-食品声称-2025.md
+- title: 09 进口食品 2025
+  path: references/09-进口食品-2025.md
+- title: 10 数字标签 2025
+  path: references/10-数字标签-2025.md
+- title: 11 辐照与转基因
+  path: references/11-辐照与转基因.md
+- title: 12 豁免标示
+  path: references/12-豁免标示.md
+- title: 20 营养成分表格式 2011
+  path: references/20-营养成分表格式-2011.md
+- title: 20 营养成分表格式 2025
+  path: references/20-营养成分表格式-2025.md
+- title: 21 强制标示营养素 2011
+  path: references/21-强制标示营养素-2011.md
+- title: 21 强制标示营养素 2025
+  path: references/21-强制标示营养素-2025.md
+- title: 22 nrv与允许误差 2011
+  path: references/22-NRV与允许误差-2011.md
+- title: 22 nrv与允许误差 2025
+  path: references/22-NRV与允许误差-2025.md
+- title: 23 营养声称 2011
+  path: references/23-营养声称-2011.md
+- title: 23 营养声称 2025
+  path: references/23-营养声称-2025.md
+- title: 24 营养成分功能声称 2011
+  path: references/24-营养成分功能声称-2011.md
+- title: 24 营养成分功能声称 2025
+  path: references/24-营养成分功能声称-2025.md
+- title: 25 儿童青少年警示语 2025
+  path: references/25-儿童青少年警示语-2025.md
+- title: 26 营养标签豁免
+  path: references/26-营养标签豁免.md
 ---
 
 # 预包装食品标签合规审核

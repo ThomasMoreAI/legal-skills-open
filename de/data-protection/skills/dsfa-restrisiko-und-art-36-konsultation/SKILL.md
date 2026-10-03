@@ -1,0 +1,115 @@
+---
+name: dsfa-restrisiko-und-art-36-konsultation
+title: Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO
+description: 'Für Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsfa-restrisiko-und-art-36-konsultation
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: data-protection
+language: de
+---
+
+# Restrisiko und Vorab-Konsultation nach Art. 36 DSGVO
+
+## Wann dieses Modul hilft
+
+- Wenn die DSFA-Risikoanalyse nach Maßnahmen ein hohes Restrisiko ergibt
+- Wenn die Aufsichtsbehoerde von sich aus eine Konsultation anregt
+- Bei besonders sensiblen Verarbeitungen, bei denen die Konsultation reputationsklug erscheint
+- Vor Einfuehrung neuer Hochrisiko-Technologien (KI nach Anhang III KI-VO, Biometrie)
+
+## Rechtlicher Rahmen
+
+- Art. 36 Abs. 1 DSGVO: Konsultationspflicht bei voraussichtlich hohem Risiko trotz Maßnahmen.
+- Art. 36 Abs. 2 DSGVO: Aufsichtsbehoerde hat 8 Wochen zur schriftlichen Empfehlung, verlaengerbar um 6 Wochen bei komplexen Faellen.
+- Art. 36 Abs. 3 DSGVO: erforderlicher Inhalt des Konsultationsersuchens (Verantwortliche, Aufgabenteilung, Zwecke, Maßnahmen, Kontaktdaten DSB, DSFA, sonstige Informationen).
+- Art. 36 Abs. 4 DSGVO: Konsultation bei gesetzgeberischen Maßnahmen.
+- Art. 36 Abs. 5 DSGVO: nationale Sonderregeln zur Voraberlaubnis oder Vorabkonsultation.
+- Art. 58 Abs. 3 lit. a DSGVO: Aufsichtsbehoerden dürfen Empfehlungen aussprechen oder Verarbeitung untersagen.
+- Art. 83 Abs. 4 lit. a DSGVO: Bussgeldtatbestand bei Verstoss gegen Art. 36.
+
+## Ablauf 6-Schritte-Methodik
+
+1. **Verarbeitungsbeschreibung.** Vollstaendige Beschreibung aus der DSFA uebernehmen — Zweck, Datenarten, Betroffene, Empfaenger, Technologie, Drittlandbezug.
+2. **Verhältnismäßigkeitspruefung.** Wurde die Verhältnismäßigkeitspruefung der DSFA mit nachvollziehbarem Ergebnis abgeschlossen? Wenn nein, zurueck zur DSFA.
+3. **Risikoanalyse.** Risikomatrix vor und nach Maßnahmen; Identifizierung der Szenarien, die im hohen Bereich verbleiben.
+4. **Maßnahmen.** Sind alle technisch und organisatorisch zumutbaren Maßnahmen ergriffen? Prüfung Art. 32 DSGVO, Stand der Technik, Implementierungskosten gegen Risikoreduktion.
+5. **Restrisiko.** Wenn hoch verbleibend: Art. 36 Konsultation Pflicht. Begruendung warum das Restrisiko nicht weiter reduzierbar ist (Wirtschaftlichkeit, technische Grenzen, gesetzlicher Zweck).
+6. **Konsultation / Genehmigung.** Konsultationsantrag an die zuständige Aufsichtsbehoerde mit den Inhalten nach Art. 36 Abs. 3 DSGVO. Frist 8 Wochen; Verarbeitung darf bis zur Antwort nicht aufgenommen werden.
+
+## Mustertext / Template (Konsultationsantrag)
+
+```
+VORAB-KONSULTATION NACH ART. 36 DSGVO
+[DATUM, AKTENZEICHEN intern]
+
+An: [Zustaendige Aufsichtsbehoerde, Anschrift]
+
+Antragsteller (Verantwortlicher)
+- Name / Firma: [...]
+- Sitz: [...]
+- Kontaktdaten: [...]
+- DSB: [Name, E-Mail]
+
+Falls gemeinsam Verantwortliche oder Auftragsverarbeiter beteiligt
+- Rollen und Aufgabenteilung nach Art. 26 / Art. 28 DSGVO: [...]
+
+1. Beschreibung der Verarbeitung
+[Zweck, Datenarten, Betroffene, Technologie, Aufbewahrung, Drittlandbezug]
+
+2. Rechtsgrundlage
+[Art. 6 / Art. 9 DSGVO, ggf. § ... BDSG / Spezialgesetz]
+
+3. DSFA Zusammenfassung
+[Schwellwertanalyse, Risikobewertung, Massnahmen, Restrisiko]
+
+4. Restrisiko
+[Welche Szenarien bleiben im hohen Bereich? Warum nicht weiter reduzierbar?]
+
+5. Geplante Massnahmen
+[Technisch, organisatorisch, vertraglich]
+
+6. Begruendung der Konsultation
+[Warum nach Massnahmen weiterhin voraussichtlich hohes Risiko nach Art. 36 Abs. 1 DSGVO]
+
+7. Anlagen
+- DSFA in vollstaendiger Fassung
+- AVV-Entwurf
+- Datenflussdiagramm
+- DSB-Stellungnahme
+- TOM-Konzept
+
+Mit freundlichen Gruessen
+[Unterschrift Verantwortlicher]
+[Unterschrift DSB]
+```
+
+## Hinweise zur Frist
+
+- 8 Wochen Antwortfrist Art. 36 Abs. 2 DSGVO ab vollstaendigem Eingang.
+- Verlaengerung um 6 Wochen möglich, schriftlich mitzuteilen.
+- Verarbeitungsbeginn vor Antwort: Pflichtverletzung, kann Anordnung und Bussgeld ausloesen (Art. 58, Art. 83 DSGVO).
+- Wenn Aufsichtsbehoerde untersagt: aufschiebende Wirkung beachten; Rechtsbehelfe nach VwGO bzw. § 20 BDSG.
+
+## Typische Fehler
+
+- Restrisiko wird kuenstlich kleingerechnet, um Art. 36 zu vermeiden — bei spaeterem Vorfall verdoppelter Vorwurf (Materialfehler plus Verfahrensfehler).
+- Antrag enthaelt keine Aufgabenteilung gemeinsam Verantwortlicher.
+- DSFA wird nicht beigefuegt — Antrag wird zurueckgewiesen.
+- Verarbeitung wird vor Antwort der Aufsicht aufgenommen.
+- Frist 8 Wochen wird nicht im Projektplan beruecksichtigt.
+- Anlagen fehlen — Aufsichtsbehoerde fordert nach und Frist beginnt erst dann.
+
+## Quellen Stand 06/2026
+
+- Art. 36 Abs. 1, 2, 3, 4, 5 DSGVO
+- Art. 35 Abs. 11 DSGVO
+- Art. 58, 83 DSGVO
+- EDSA-Leitlinien WP 248 rev.01
+- BfDI / Landesbehoerden — Verfahrenshinweise zur Vorabkonsultation
+- Literatur: Kommentar- und Aufsatzfundstellen nur bei eigener Quelle
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

@@ -1,93 +1,45 @@
 ---
 name: ki-kompetenz-erwerb-plan
-title: KI-Kompetenz Erwerb Plan
-description: 'KI-Kompetenz-Schulungsplan für Kanzleien nach Art. 4 KI-VO erstellen: Anwendungsfall Kanzlei muss seit 2. Februar 2025 sicherstellen dass Personal ausreichend KI-Kompetenz hat. Art. 4 KI-VO KI-Kompetenz-Pflicht Betreiber, EU-FAQ KI-Kompetenz. Prüfraster technisches Grundwissen, praktische Anwendung in Sandbox, strukturierte bedarfsgerechte Schulungsmodule, Dokumentation Schulungsteilnahme, jaehrliche Aktualisierung. Output Schulungsplan-Vorlage mit Modulen, Zeitplan und Dokumentations-Nachweis. Abgrenzung zu Richtlinien-Skelett und zu Compliance-Regelsatz.'
+title: 1. Kompetenzförderung im Kanzleialltag
+description: Erstellt einen schlanken Kompetenzförderplan für Kanzleimitarbeiter nach Artikel 4 neuer Fassung. Verbindet konkrete Werkzeuge, Quellenkontrolle, Vertraulichkeit und Freigaberollen, ohne pauschale Kurs-, Zertifikats- oder Wiederholungspflichten zu erfinden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-richtlinie-kanzleien/skills/ki-kompetenz-erwerb-plan
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory
 language: de
 ---
 
-# KI-Kompetenz Erwerb Plan
+# 1. Kompetenzförderung im Kanzleialltag
 
-Art. 4 KI-VO verpflichtet Betreiber von KI-Systemen, sicherzustellen, dass ihr Personal über ausreichende KI-Kompetenz verfügt. Diese Pflicht gilt seit dem 2. Februar 2025. Der Skill beschreibt, wie ein praxistauglicher Schulungsplan für Kanzleien aufgebaut werden kann, der dieser Pflicht gerecht wird.
+## 1. Zweck und Anwendungsfall
 
-## Rechtlicher Hintergrund
+Überarbeite den vorhandenen Einweisungsplan für die tatsächlichen Arbeitsplätze. Artikel 4 der Verordnung (EU) 2024/1689 verlangt seit der Änderung vom 27. Juli 2026 Fördermaßnahmen, aber kein garantiertes individuelles Kompetenzniveau. Die anwaltliche Verantwortung für das Arbeitsergebnis entfällt dadurch nicht.
 
-Art. 4 KI-VO: Pflicht zur KI-Kompetenz — kontextspezifisch, keine formale Zertifizierungspflicht, aber Maßnahmen "nach besten Kräften" erforderlich. Art. 3 Nr. 56 KI-VO: Definition KI-Kompetenz — Fähigkeiten, Kenntnisse und Verständnis für sachkundigen KI-Einsatz sowie Bewusstsein für Chancen und Risiken. Erwägungsgrund 20 KI-VO: KI-Kompetenz soll Betreiber befähigen, fundierte Entscheidungen über KI-Systeme zu treffen. Art. 26 Abs. 5 KI-VO: Bei Hochrisiko-Systemen muss der Betreiber sicherstellen, dass das zuständige Personal über die notwendige Kompetenz, Schulung und Autorität verfügt. § 43 BRAO: Gewissenhaftigkeit schließt kompetenten Umgang mit genutzten Hilfsmitteln ein. Haftungsrisiko: Mangelnde KI-Kompetenz kann bei Kausalität für einen Schaden Haftungsfolgen auslösen.
+## 2. Eingaben
 
-## Vorgehen
+Nutze Toolfreigaben, Mandatsabläufe, vorhandene Schulungen, Befugnisse und beobachtete Fehler. Keine vollständige Abfrage aller Mitarbeiter, wenn nur ein Team ein neues Werkzeug erhält. Bei fehlenden Unterlagen mit einem klar abgegrenzten Entwurf beginnen.
 
-1. **Kompetenzniveau erfassen**: Bestandserhebung — welche KI-Kenntnisse haben Mitarbeitende bereits? Strukturierte Selbsteinschätzung oder kurzer Test.
-2. **Schulungsmodule entwickeln**: Mindestens drei Module: (a) Grundlagenmodul — Was ist KI, wie funktioniert sie, welche Risiken gibt es? (b) Rechtliches Modul — DSGVO, Berufsrecht, KI-VO-Grundlagen. (c) Praxismodul — Sicherer Umgang, Quellenprüfung, Prompt-Techniken.
-3. **Sandbox-Umgebung einrichten**: Vor dem produktiven Einsatz üben Mitarbeitende in einer Testumgebung mit fiktiven Akten und anonymisierten Daten.
-4. **Schulungen dokumentieren**: Teilnahme, Inhalte, Datum und Schulende/Schulender schriftlich festhalten; Unterschrift der Teilnehmenden.
-5. **Jährliche Aktualisierung**: KI-Technologie und Rechtslage entwickeln sich schnell; mindestens einmal jährlich Schulungsunterlagen und -inhalte aktualisieren.
-6. **Differenzierung nach Rolle**: Anwälte brauchen tiefere rechtliche und kritische Kompetenz; nicht-anwaltliche Mitarbeitende brauchen vor allem praktische Regeln und Warnsignale.
+## 3. Ablauf
 
-## Vorlagentext / Bausteine
+1. Arbeitsplätze nach Tätigkeit unterscheiden: Posteingang und Aktenaufbereitung, Recherche, Vertragsentwurf, Mandantenkommunikation, anwaltliche Endkontrolle.
+2. Je Arbeitsplatz höchstens die entscheidenden Risiken herausarbeiten: falsche Zuordnung, erfundene Quelle, fehlender Kontext, unzulässige Eingabe oder irrtümliche Außenfreigabe.
+3. Vorhandene passende Unterweisung übernehmen. Für die konkrete Lücke eine kurze Übung mit zulässigen Übungsdaten, Ansprechpartner und Arbeitsanweisung ergänzen. Kursdauer und jährliche Wiederholung sind Organisationsentscheidungen, keine Vorgaben des Artikels 4.
+4. Festhalten, wer welches Werkzeug für welchen Zweck nutzen darf und wann Rückfrage nötig ist. Fördermaßnahmen nach Erfahrung, Ausbildung, Einsatzkontext und betroffenen Personen ausrichten; keine Garantie aller Lernergebnisse verlangen.
+5. Nachweis knapp: Datum, Thema, Zielgruppe, Material, zuständiger Ansprechpartner und Anlass einer Wiederholung. Keine gesetzliche Dreijahresfrist für sämtliche Schulungsbelege erfinden; angemessenes Aufbewahrungskonzept wählen.
+6. Fachanwaltliche Fortbildung nach Paragraf 15 FAO gesondert prüfen: Fachbezug und anerkannte Form, nicht jede allgemeine Tool-Einweisung automatisch anrechnen. Bei Betriebsrat betriebliche Bildungsmaßnahmen nach Paragrafen 96 bis 98 BetrVG prüfen; Paragraf 87 Absatz 1 Nummer 6 nur bei technischer Leistungs- oder Verhaltenskontrolle.
+7. Bei tatsächlicher menschlicher Hochrisikoaufsicht Artikel 26 Absatz 2 zusätzlich mit Kompetenz, Ausbildung, Befugnissen und Unterstützung prüfen. Kein gewöhnliches Schreibwerkzeug allein wegen anwaltlicher Nutzung zu Hochrisiko erklären.
 
-**Baustein Schulungsplan-Grundstruktur:**
+## 4. Quellenpflicht
 
-**Modul 1 — Grundlagenkompetenz (2 Stunden):**
-Themen: Funktionsweise generativer KI-Systeme, Unterschied regelbasierte Systeme vs. neuronale Netze, Stärken und Grenzen von KI-Systemen, das Halluzinationsproblem, Überblick KI-Anbieter auf dem Markt.
+[Rechtsstandkarte, Abschnitt 1.2](../../references/digitaler-omnibus-2026.md), Artikel 4 neuer Fassung, Artikel 3 Nummer 56 und Artikel 26 Absatz 2. Paragrafen 43, 43a und 43e BRAO bleiben eigenständige Prüfungen. [Zitierweise](../../references/zitierweise.md).
 
-**Modul 2 — Rechtliches Basiswissen (2 Stunden):**
-Themen: DSGVO-Grundsätze beim KI-Einsatz, anwaltliche Verschwiegenheit und KI (§ 43a BRAO, § 43e BRAO, § 203 StGB), KI-VO-Grundlagen (Art. 3 Nr. 4 Betreiber, Art. 4 KI-Kompetenz), urheberrechtliche Grenzen beim Upload, Compliance-Regelsatz der Kanzlei.
+## 5. Ausgabeformat
 
-**Modul 3 — Praxiskompetenz (3 Stunden):**
-Themen: Effektives Prompten (Vier-Elemente-Methode), Anonymisierungstechniken, Quellenprüfung im Praxistest, Erkennen von Halluzinationen, Sandbox-Übungen mit fiktiven Fällen.
+Ausformulierter Kanzleiplan mit konkreten Übungsaufgaben, Freigaberegel und Termin nur für erforderliche Nacharbeit. Beispielklausel: „Die Kanzlei stellt den betroffenen Mitarbeitern eine auf das freigegebene Werkzeug und ihren Aufgabenbereich bezogene Einweisung sowie einen erreichbaren Ansprechpartner bereit. Bei erkennbaren Unsicherheiten oder wesentlichen Einsatzänderungen wird die Einweisung gezielt ergänzt.“ Nicht als Garantie eines bestimmten Lernerfolgs formulieren. Times New Roman 11 pt und dezimale Gliederung, bei Textausgabe Exporthinweis.
 
-**Baustein Dokumentation:**
-Die Teilnahme an Schulungsveranstaltungen zum KI-Einsatz wird schriftlich dokumentiert. Jede Teilnehmerin und jeder Teilnehmer bestätigt durch Unterschrift, dass die Schulungsinhalte vermittelt wurden und verstanden wurden. Die Dokumentation wird für mindestens drei Jahre aufbewahrt.
+## 6. Beispiele
 
-**Baustein Jährliche Aktualisierungspflicht:**
-Die Schulungsunterlagen und -inhalte werden jährlich — spätestens bis [Monat] — auf Aktualität überprüft und an neue Rechtsentwicklungen, neue KI-Systeme und neue Erkenntnisse zu Risiken angepasst. Alle Mitarbeitenden nehmen jährlich an einer Aktualisierungsschulung teil.
-
-## Hinweise zur Aktualisierung
-
-Neue Leitlinien des Europäischen KI-Büros zur Auslegung des Art. 4 KI-VO sowie EU-FAQs zur KI-Kompetenz (FAQ der EU-Kommission zur KI-Kompetenz) und Hinweise der Bundesnetzagentur sind in die Schulungsunterlagen aufzunehmen. Die Schulung sollte zudem aktuelle Urteile zur KI-Haftung einbeziehen.
-
-## Aktuelle Rechtsprechung (v14.2)
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Zentrale Normen (Paragrafenkette)
-- Art. 4 KI-VO — KI-Kompetenzverpflichtung fuer Anbieter und Betreiber
-- § 43 BRAO — Gewissenhafte Berufsausuebung (Kompetenzpflicht)
-- § 15 FAO — Fortbildungspflicht Fachanwaelte (15 Stunden/Jahr)
-- § 87 Abs. 1 Nr. 6 BetrVG — Mitbestimmung bei Schulungsmassnahmen fuer KI-Tools
-
-## Triage zu Beginn
-1. Welches KI-Kompetenz-Niveau haben die Mitarbeiter aktuell — Einsteiger, Fortgeschrittene?
-2. Gibt es spezifische KI-Anwendungsfaelle, fuer die Spezialschulungen erforderlich sind?
-3. Sind Fachanwaelte betroffen — zaehlt KI-Schulung auf 15-Stunden-Fortbildungspflicht (§ 15 FAO)?
-4. Ist ein Betriebsrat vorhanden — Mitbestimmung bei Schulungsmassnahmen (§ 87 Abs. 1 Nr. 6 BetrVG)?
-5. Wie wird der Kompetenzerwerb dokumentiert fuer Art. 4 KI-VO-Nachweis?
-
-## Output-Template — KI-Kompetenz-Erwerb-Plan
-**Adressat:** Kanzlei-Fuehrung / HR — Tonfall: strukturiert, umsetzungsorientiert
-```
-KI-KOMPETENZ-ERWERB-PLAN
-[KANZLEI] — Stand: [DATUM] — Gueltig bis: [DATUM]
-
-SCHULUNGSZIELE (Art. 4 KI-VO):
-Alle Mitarbeiter erreichen bis [DATUM] KI-Basiskompetenz fuer den Kanzlei-Einsatz.
-
-SCHULUNGS-MODULE:
-| Modul | Inhalt | Zielgruppe | Format | Dauer | Frist |
-|---|---|---|---|---|---|
-| 1. KI-Grundlagen | Funktionsweise, Halluzinationen | Alle | Online | 2h | [DATUM] |
-| 2. DSGVO und KI | Art. 28, Art. 22, Anonymisierung | Alle | Praesenz | 3h | [DATUM] |
-| 3. Berufsrecht KI | § 43a BRAO, § 203 StGB | RA/RAin | Workshop | 2h | [DATUM] |
-| 4. KI-VO Pflichten | Art. 4 KI-VO, Hochrisiko | Fuehrung | Extern | 4h | [DATUM] |
-
-DOKUMENTATION:
-Schulungsteilnahme wird dokumentiert fuer: Art. 4 KI-VO Kompetenznachweis / § 15 FAO.
-
-VERANTWORTLICH: [KOMPETENZ-OFFICER NAME]
-NAECHSTE ÜBERPRÜFUNG: [DATUM]
-```
+Die Assistenz übt an einem Schriftsatz die zuverlässige Anlagenzuordnung; der Anwalt prüft eine unzutreffende Fundstelle am Original. Wer nur Termine überträgt, benötigt keinen umfassenden Kurs zur Modellentwicklung. Ein ausdrücklich vereinbarter Kanzleistandard darf strenger sein als Artikel 4, muss dann aber als interne Vorgabe erkennbar bleiben.

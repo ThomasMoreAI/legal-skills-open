@@ -1,11 +1,11 @@
 ---
 name: lksg-csddd-lieferkettensorgfalt
 title: LkSG und CSDDD — Lieferkettensorgfalt
-description: Unternehmen ab 1000 Mitarbeitern muss Lieferketten-Sorgfaltspflichten nach LkSG und kuenftig CSDDD erfuellen. LkSG seit 1.1.2023 CSDDD Richtlinie 2024/1760 Phasing ab 2027. Normen LkSG §§ 3 4 8 11 24 CSDDD Art. 1 ff. Prüfraster Anwendungsbereich Sorgfaltspflichten Risikoanalyse Beschwerdemechanismus BAFA-Aufsicht. Output Risikoanalyse-Template Grundsatzerklärung Beschwerdeverfahren. Abgrenzung zu esg-greenwashing-csrd (Berichtspflicht) und umweltrecht-transaktionen-dd (M&A).
+description: 'Für LkSG und CSDDD — Lieferkettensorgfalt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/umweltrecht/skills/lksg-csddd-lieferkettensorgfalt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: regulatory
@@ -14,11 +14,13 @@ language: de
 
 # LkSG und CSDDD — Lieferkettensorgfalt
 
-## Zweck
+## Arbeitsweg
 
-Lieferketten-Sorgfaltspflichten sind seit 2023 deutsches Recht (LkSG) und werden EU-weit ab 2027 mit der CSDDD (Richtlinie (EU) 2024/1760 vom 13.6.2024, ABl. L 2024/1760; Umsetzungsfrist 26.7.2026) verschaerft. Dieses Skill bedient Compliance-Aufbau und Verstoß-Verteidigung.
-
-**Stand 05/2026:** Im Rahmen des EU-Omnibus-Pakets (Anfang 2025) hat die Kommission Vorschlaege zur Verschiebung und Lockerung von CSDDD und CSRD vorgelegt; Kommissionsvorschlag COM(2025) 81 final ueber eur-lex.europa.eu/legal-content/DE/TXT/?uri=COM:2025:81:FIN — vor Mandatsanwendung den aktuellen legislativen Stand pruefen (eur-lex Trilog-Ergebnis 2025/2026).
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: BImSchG § 10 Auslegung 1 Monat / Einwendungen 1 Monat, UmwRG § 4 Klagefrist 1 Monat, BBodSchG Sanierungsuntersuchung 1 Jahr, Störfall-Anzeige unverzüglich.
+- Tragende Normen verifizieren: BImSchG, KrWG, WHG, BNatSchG, UVPG, BBodSchG, ChemG, StörfallV (12. BImSchV), TA Luft, TA Lärm, EU-IED 2010/75, UmwRG, EU-FFH-RL, EU-WRRL — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Vorhabenträger, Genehmigungsbehörde, Umweltverbände (BUND, NABU), VG, OVG, BVerwG (7. Senat), EU-KOM, Sachverständige.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Immissionsschutzrechtliche Genehmigung, UVP-Bericht, FFH-Verträglichkeitsstudie, Sanierungsplan, Verbandsklage, Einwendung, TA-Luft-/TA-Lärm-Berechnung — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Eingaben
 

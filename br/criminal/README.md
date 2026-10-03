@@ -4,13 +4,12 @@ Criminal law and procedure — offences, defence, prosecution, and appeals.
 
 Jurisdiction: `br` · Practice: `criminal` · Skill language: pt
 
-## Skills (3)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`ADVOGADO CRIMINALISTA SENIOR — ESPECIALISTA EM DIREITO PENAL E MARIA DA PENHA`](skills/advogado-criminal/) | Advogado criminalista especializado em Maria da Penha, violencia domestica, feminicidio, direito penal… |
-| [`Assessor Judicial — Processo Penal`](skills/analise-processo-penal/) | Assessoria judicial completa para processos penais. Use esta skill sempre que o usuario pedir para analisar… |
-| [`Representacoes Cautelares`](skills/representacoes-cautelares/) | Redacao de representacoes cautelares policiais e pedidos judiciais investigativos, com organizacao de fatos,… |
+| [`Assessor Judicial — Processo Penal`](skills/analise-processo-penal/) | Assessoria judicial completa para processos penais. Use esta skill sempre que o usuario pedir para… |
+| [`Representacoes Cautelares`](skills/representacoes-cautelares/) | Redacao de representacoes cautelares policiais e pedidos judiciais investigativos, com organizacao de… |
 
 ## Cold-start context
 

@@ -1,0 +1,14 @@
+{
+  "name": "at-constitutional",
+  "displayName": "Constitutional & Public Law — AT",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills for AT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "at",
+  "practice": "constitutional",
+  "language": "de",
+  "skills": [
+    "skills/oesterreich-vfgh-verhaeltnismaessigkeit"
+  ]
+}

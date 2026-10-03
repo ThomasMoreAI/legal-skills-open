@@ -1,11 +1,11 @@
 ---
 name: fachanwalt-urheber-medienrecht-mod-erklaerung
 title: Modifizierte Unterlassungserklärung im Urheberrecht
-description: 'Modifizierte Unterlassungserklärung als Alternative zur strafbewehrten UE prüfen und formulieren. § 97a UrhG Abmahnung und UE § 339 BGB Vertragsstrafe. Prüfraster: Wiederholungsgefahr Strafbewehrung Vertragsstrafe Einschraenkungen Unterlassungsumfang. Output: modifizierte UE-Entwurf Prüfprotokoll. Abgrenzung: nicht für vollständige Abmahnverteidigung (fachanwalt-urheber-medienrecht-abmahnung-prüfen).'
+description: 'Für Modifizierte Unterlassungserklärung im Urheberrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/fachanwalt-urheber-medienrecht-mod-erklaerung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip
@@ -53,9 +53,6 @@ Die modifizierte Unterlassungserklärung ist das präzise Instrument zur Beseiti
 
 | Aktenzeichen | Gericht / Datum | Leitsatz |
 |---|---|---|
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen zitieren; vor Ausgabe offizielle oder frei zugängliche Quelle mit Gericht, Datum, Aktenzeichen und Aussage protokollieren |
 
 ---
 
@@ -65,16 +62,13 @@ Die modifizierte Unterlassungserklärung ist das präzise Instrument zur Beseiti
 |---|---|---|
 | 1 | Abmahnung und Frist prüfen: Wann läuft die gesetzte Frist ab? Fristwahrung erforderlich um EV zu vermeiden | § 97a UrhG |
 | 2 | Vorformulierte UE analysieren: Reichweite der Verletzungsformel; Vertragsstrafen-Höhe; enthaltene Anerkenntnisse prüfen | § 97 Abs. 1 UrhG |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 4 | Vertragsstrafenklausel prüfen: Hamburger Brauch oder feste Vertragsstrafe? Betrag angemessen? | §§ 315, 307 BGB |
 | 5 | Anerkenntnisse herausstreichen: Kein Schadensersatz dem Grunde nach; keine Auskunftspflicht; keine Kostenübernahme | § 97 Abs. 2 UrhG |
 | 6 | § 97a Abs. 3 UrhG-Hinweis: Verbraucherklausel; Streitwertbegrenzung auf EUR 1.000 für Abmahnkostenberechnung | § 97a Abs. 3 UrhG |
 | 7 | Annahmevorbehalt § 130 BGB: Erklärung wird erst mit Annahmebestätigung durch Abmahner wirksam (schützt vor unilateraler Annahme) | § 130 BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | 9 | Schutzschrift: bei drohender EV; § 945a ZPO; Zuständiges Gericht | § 945a ZPO |
 | 10 | Alternative negative Feststellungsklage: bei klarer Unberechtigtheit der Abmahnung; günstigerer Gerichtsstand für Abgemahnten | § 256 ZPO |
 | 11 | Verwirkung prüfen: Hat Abmahner die Verletzung lange geduldet (§ 242 BGB)? Einrede möglich | § 242 BGB |
-| Rechtsprechung live prüfen | Live-Verifikation erforderlich | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 
 ---
 
@@ -200,7 +194,6 @@ der Unterlassung ausreicht.
 ```
 AN DAS LANDGERICHT [...]
 (= Gerichtsstand am Wohnsitz des Abgemahnten nach § 256 ZPO i.V.m.
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 Kläger: [Mandant, Anschrift]
 Beklagte: [Abmahnerin, Anschrift]
@@ -219,7 +212,6 @@ I. Zulässigkeit, § 256 ZPO:
 Die Beklagte hat den Kläger mit Schreiben vom [Datum] abgemahnt
 und konkrete Ansprüche geltend gemacht. Das rechtliche Interesse
 des Klägers an der Feststellung des Nichtbestehens dieser
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 II. Begründetheit:
 [Werkqualität verneint / Aktivlegitimation fehlt / Schranken
@@ -240,7 +232,6 @@ des Klägers nachweisbar]
 
 | Konstellation | Beweislast |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | Vertragsstrafe (Hamburger Brauch) | Gläubiger bestimmt nach § 315 BGB; Schuldner kann gerichtliche Überprüfung beantragen |
 | Schadensersatz bei Verstoß gegen UE | Gläubiger trägt Verstoß und Verschulden |
 | Negative Feststellungsklage | Kläger trägt Feststellungsinteresse; Beklagte trägt Bestand des behaupteten Anspruchs |
@@ -263,9 +254,7 @@ des Klägers nachweisbar]
 
 | Gegenargument | Erwiderung |
 |---|---|
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Hamburger Brauch reicht nicht; wir brauchen feste EUR 10.000" | § 315 BGB: Gläubiger kann Betrag nach billigem Ermessen bestimmen; Gericht kontrolliert; feste überhöhte Beträge können nach § 307 BGB unwirksam sein |
-| Rechtsprechung live prüfen | keine Entscheidung aus Modellwissen; Quelle vor Ausgabe protokollieren |
 | "Keine Anerkennung von Kosten ist treuwidrig" | § 97a Abs. 3 UrhG: Kostenerstattung begrenzt; Bestreiten ist kein Treuwidrigkeitsvorwurf sondern Rechtsverfolgung |
 
 ---
@@ -288,7 +277,6 @@ des Klägers nachweisbar]
 |---|---|
 | Verletzung klar, Abmahner hat starke Position | Modifizierte UE abgeben; Hamburgeer Brauch nutzen; Schadensersatz und Kosten separat verhandeln |
 | Verletzung zweifelhaft, Aktivlegitimation unklar | Abmahnung zurückweisen; Belege anfordern; negative Feststellungsklage bei Weiterverfolgen |
-| Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 | Mehrfachverletzungen in Vergangenheit | Höheres Vertragsstrafenrisiko; sorgfältige Reichweitenbegrenzung der UE wichtig |
 | Schutzschrift sinnvoll | Sobald EV-Antrag erwartet wird; bei großen Kanzleien mit bekanntem EV-Muster |
 
@@ -303,10 +291,6 @@ des Klägers nachweisbar]
 
 ---
 
-## Quellen
-
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
 ## Triage-Fragen bei Mod-Erklaerung
 
 Bevor die modifizierte Unterlassungserklaerung abgegeben wird, klaere:
@@ -317,8 +301,4 @@ Bevor die modifizierte Unterlassungserklaerung abgegeben wird, klaere:
 
 ## Aktuelle Rechtsprechung
 
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-> Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

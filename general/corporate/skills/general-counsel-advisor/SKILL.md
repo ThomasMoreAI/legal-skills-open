@@ -5,11 +5,18 @@ description: 'General Counsel advisory for startups: contract review (MSA, SaaS,
 author: alirezarezvani
 author_url: https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/skills/general-counsel-advisor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate
 language: en
+sources:
+- title: Contracts playbook
+  path: references/contracts_playbook.md
+- title: Ip and regulatory
+  path: references/ip_and_regulatory.md
+- title: Term sheet decoder
+  path: references/term_sheet_decoder.md
 ---
 
 # General Counsel Advisor
@@ -142,11 +149,11 @@ See `references/ip_and_regulatory.md` for sequencing.
 
 ## Adjacent Skills
 
-- `../ciso-advisor/` — Compliance overlap (SOC 2, ISO 27001, HIPAA technical safeguards)
-- `../cfo-advisor/` — Term sheet → dilution math
-- `../ma-playbook/` — Acquisition agreements, integration playbooks
-- `../../../ra-qm-team/` — ISO 13485, MDR, FDA 510(k), GDPR execution
-- `../../c-level-agents/skills/gc-review/SKILL.md` — `/cs:gc-review` slash command
+- `c-level-advisor/skills/ciso-advisor/` — Compliance overlap (SOC 2, ISO 27001, HIPAA technical safeguards)
+- `c-level-advisor/skills/cfo-advisor/` — Term sheet → dilution math
+- `c-level-advisor/skills/ma-playbook/` — Acquisition agreements, integration playbooks
+- `ra-qm-team/` — ISO 13485, MDR, FDA 510(k), GDPR execution
+- `c-level-agents/skills/gc-review/SKILL.md` — `/cs:gc-review` slash command
 
 ## References
 

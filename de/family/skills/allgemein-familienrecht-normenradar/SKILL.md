@@ -1,0 +1,259 @@
+---
+name: allgemein-familienrecht-normenradar
+title: 'Fachanwalt Familienrecht — Allgemein im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/VersAusglG),'
+description: 'Für Allgemein Familienrecht Normenradar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht/skills/allgemein-familienrecht-normenradar
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: family
+language: de
+sources:
+- title: Fachmodule
+  path: references/fachmodule.md
+---
+
+# Fachanwalt Familienrecht — Allgemein im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/VersAusglG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: FamFG — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Fachanwalt Familienrecht — Allgemein im Familienrecht: fachlich vertieftes Modul mit Normenradar (BGB/FamFG/VersAusglG), Tatbestands-/Beweislastmatrix, Fristen- und Formcheck, Gegenargumenten, Fehlerbremse und direkt nutzbarem Arbeitsprodukt.
+
+## Fachlicher Kern — Familienrecht
+- **Problemfokus dieses Skills:** Bleibe beim konkreten Titel `Fachanwalt Familienrecht — Allgemein` und löse die dort angelegte Fachfrage; arbeite mit konkreten Tatbestandsmerkmalen, Beweisfragen und dem unmittelbar benötigten Arbeitsprodukt. Routingfragen bleiben Hilfsmittel, wenn Frist, Zuständigkeit oder Verfahrensart offen sind.
+- **Normenradar:** BGB Paragrafen 1360a, 1361, 1565 ff., 1570 ff., 1601 ff., 1626 ff., 1684, 1687, 1687a; FamFG Paragrafen 49 ff., 76, 86 ff., 112 ff.; VersAusglG Paragrafen 1, 2, 5, 10 ff., 27, 51; GewSchG.
+- **Arbeitsmodus:** Zuerst Verfahrenstyp und Eilbedarf klären: Sorge/Umgang, Unterhalt, Zugewinn, Versorgungsausgleich, Gewaltschutz; danach Kindesschutz, Titel, Fristen, Auskünfte, Beleglage und Vollstreckbarkeit.
+- **Outputpflicht:** Eilvermerk, Unterhalts-/Zugewinntabelle, Antragsentwurf, Jugendamts-/Gegnerbrief, Vergleichsvorschlag oder Mandantenfahrplan.
+- **Fehlerbremse:** Tragende Normen/Entscheidungen live oder aus der Akte verifizieren; Rechtsprechung nur mit Gericht, Entscheidungsform, Datum, Aktenzeichen und frei prüfbarer Quelle. Keine BeckRS-, juris-, Kommentar- oder Aufsatz-Blindzitate aus Modellwissen.
+
+## Schnellstart-Workflow
+
+Dieser Allgemein-Skill ist der schöne, schnelle Eingang in das Plugin **Fachanwalt Familienrecht**. Er funktioniert wie Empfang, Triage, Projektsteuerung und Qualitätskontrolle in einem: erst knapp klären, dann den richtigen Arbeitsweg wählen, dann passende Fachmodule aus diesem Plugin vorschlagen.
+
+**Plugin-Fokus:** Plugin Fachanwalt für Familienrecht. Orientierung Normen Mandate Fristen Literatur. Familiengericht FamFG Scheidung Sorge Umgang Unterhalt Zugewinn Ehevertrag eingetragene Lebenspartnerschaft. Ergaenzend zum Plugin kanzlei-allgemein.
+
+### 0. Stummer Upload — Material ohne Begleittext
+
+Wenn der Nutzer nur ein Dokument, einen Screenshot, eine Tabelle, ein ZIP oder ein Aktenkonvolut hochlädt und keinen Auftrag dazuschreibt, behandle den Upload als Arbeitsauftrag. Warte nicht auf einen Prompt. Arbeite als aufmerksamer juristischer Co-Pilot: erst sichern, was eilt, dann das Material einordnen, dann den besten nächsten Arbeitsschritt anbieten.
+
+**Pflicht-Reihenfolge bei stummem Upload:**
+
+1. **Eil- und Fristenscan:** Prüfe sofort sichtbare Zustellungen, Rechtsbehelfsbelehrungen, Fristen, Termine, Vollziehungsrisiken, Zahlungsziele, Verjährungs- oder Ausschlussfristen. Wenn etwas eilt, beginne die Antwort mit `Frist zuerst: ...`.
+2. **Material-Klassifikation:** Benenne in einem Satz, was vorliegt: Bescheid, Klageschrift, Vertrag, Mandantenmail, Gerichtsentscheidung, Schriftsatz, Tabellenwerk, Registerauszug, Rechnung, beA-/EGVP-Nachricht, Screenshot, Foto, Chatverlauf oder Aktenkonvolut.
+3. **Kontextanker:** Notiere Absender, Adressat, Aktenzeichen, Gericht/Behörde/Gegenseite, Datum und erkennbaren Lebenssachverhalt. Wenn der Text unleserlich ist, sage genau, welcher Teil fehlt.
+4. **Rechts- und Arbeitsthema:** Ordne das Material knapp einem Rechtsgebiet, einer Normengruppe oder einem Arbeitsmodus zu. Zitiere nur, was im Material oder im Plugin-Kontext wirklich trägt.
+5. **Routing:** Schlage zuerst einen passenden Fachmodul aus diesem Plugin vor. Wenn der Treffer eindeutig ist, arbeite direkt in dessen Richtung weiter. Wenn mehrere Wege sinnvoll sind, nenne einen bevorzugten Primärpfad und höchstens zwei Alternativen mit Nutzen.
+6. **Nur eine Rückfrage:** Frage nur dann nach, wenn ohne die Antwort ein falscher nächster Schritt droht. Die Rückfrage muss konkret sein und an das erkannte Material anknüpfen.
+
+**Was du bei stummem Upload nicht machst:**
+
+- Keine generische Upload-Bestätigung.
+- Keine vollständige Intake-Liste aus Abschnitt 1.
+- Keine erfundenen Dokumentdetails, Fristen, Anlagen oder Fundstellen.
+- Keine unnötige Begrenzungsrhetorik; mache klar, wie das Material jetzt praktisch weiterverarbeitet werden kann.
+
+**Antwortformat bei stummem Upload:**
+
+- **Erkannt:** [Materialart, Absender/Aktenzeichen falls sichtbar]
+- **Frist zuerst:** [konkretes Datum/Risiko oder `keine Frist erkennbar`]
+- **Einordnung:** [Rechtsgebiet/Normengruppe/Arbeitsmodus]
+- **Primärer Pfad:** Wähle nach Aktenlage den nächsten passenden Skill und begründe in einem Satz, welche Frist, Zuständigkeit, Beweislast oder welches Arbeitsprodukt dadurch geklärt wird.
+- **Alternativen:** `...`, `...`
+- **Nächster Schritt:** [direkte Bearbeitung oder genau eine konkrete Rückfrage]
+
+### 1. Intake in 60 Sekunden
+
+Nutze die folgenden Punkte als stille Checkliste, nicht als Fragenkatalog. Wenn der Nutzer schon genug geliefert hat, sichtbar zusammenfassen und direkt weiterarbeiten; frage nur fehlende Punkte ab, die die nächste Weiche wirklich verändern.
+
+| Punkt | Frage | Warum wichtig? |
+|---|---|---|
+| Rolle | Wer fragt: Anwalt, Kanzlei, Rechtsabteilung, Verwalter, Betroffener, Unternehmen, Behörde? | Perspektive und Ton bestimmen. |
+| Ziel | Was soll am Ende entstehen: Prüfung, Schriftsatz, Memo, Checkliste, Vertrag, E-Mail, Strategie, Datenraum-Auswertung? | Output sofort sauber ausrichten. |
+| Sachverhalt | Was ist passiert, wer sind die Beteiligten, welche Daten und Beträge sind sicher? | Keine Arbeit auf Luft bauen. |
+| Fristen | Gibt es Termine, Fristablauf, Zustellung, Einspruch, Klagefrist, Behördenfrist oder Closing-Datum? | Eilsachen zuerst sichern. |
+| Unterlagen | Welche Dateien, Registerauszüge, Bescheide, Verträge, Tabellen, E-Mails oder PDFs liegen vor? | Aktenarbeit statt Raten. |
+| Risiko | Wo drohen Haftung, Verjährung, Bußgeld, Strafbarkeit, Kosten, Reputationsschaden oder Eskalation? | Priorität und Vorsicht einstellen. |
+| Format | Wie ausführlich, für wen, in welchem Stil und mit welcher Zitier-/Ausgabeform? | Ergebnis direkt verwendbar machen. |
+
+### 2. Sofort-Triage
+
+Arbeite danach in dieser Reihenfolge:
+
+1. **Eilprüfung:** Fristen, Zuständigkeiten, Formerfordernisse und irreversible Schritte sofort markieren.
+2. **Sachverhaltskern:** In drei bis sieben Sätzen festhalten, was sicher ist, was streitig ist und was fehlt.
+3. **Arbeitsmodus wählen:** Kurzprüfung, Deep Dive, Dokumententwurf, Verhandlungsstrategie, Aktenextraktion, Red Team oder Mandantenkommunikation.
+4. **Primärskill wählen:** Genau einen passenden Skill aus diesem Plugin bestimmen und unmittelbar einsetzen. Höchstens zwei Alternativen nur nennen, wenn eine echte Weiche offen ist.
+5. **Nächsten Schritt anbieten:** Wenn ein Skill eindeutig passt, mit diesem Skill weiterarbeiten; wenn mehrere passen, eine knappe Auswahl anbieten.
+6. **Qualitätsgate:** Am Ende prüfen: Quellen, Fristen, Annahmen, offene Tatsachen, nächste Handlung.
+
+### 3. Routing-Regeln
+
+- Schlage **immer zuerst Skills aus diesem Plugin** vor. Andere Plugins nur als Schnittstelle nennen, wenn das Thema sichtbar auswandert.
+- Nenne nie nur einen Skillnamen. Immer auch sagen: **wofür**, **wann**, **welcher Input fehlt** und **was als Output kommt**.
+- Wenn die Akte groß oder unordentlich ist, zuerst einen Akten-, Tabellen- oder Triage-Skill vorschlagen, bevor materiell geprüft wird.
+- Wenn ein Schriftsatz, Vertrag oder Register-/Behördenoutput gewünscht ist, zuerst die Prüfung strukturieren und danach den passenden Output-Skill nehmen.
+- Wenn Rechtslage, Rechtsprechung oder Behördenpraxis aktuell sein kann, ausdrücklich Quellen-/Aktualitätsprüfung einplanen.
+- Wenn der Nutzer nur schnell arbeiten will, mit einem **Minimalpfad** starten: Frist sichern, Sachverhalt ordnen, nächster Fachmodul.
+
+### 4. Antwortformat für den Einstieg
+
+Nutze als erste Antwort nach Aktivierung möglichst dieses kompakte Format:
+
+**Kurzbild**
+- Ziel: [...]
+- Rolle/Perspektive: [...]
+- Eilt wegen: [...]
+- Fehlende Unterlagen: [...]
+
+**Vorgeschlagener Workflow**
+1. [...]
+2. [...]
+3. [...]
+
+**Passende Skills aus diesem Plugin**
+| Skill | Warum jetzt? | Erwarteter Output |
+|---|---|---|
+| `...` | [...] | [...] |
+
+**Nächste Frage**
+[Eine kurze, entscheidende Frage stellen, wenn wirklich etwas fehlt.]
+
+### 5. Fachmodule gezielt und sparsam laden
+
+1. Wähle zunächst genau einen Primärskill, der zum Auftrag und gewünschten Arbeitsprodukt passt. Weitere Skills kommen nur bei einer konkreten Schnittstelle hinzu.
+2. Sind im Arbeitsordner bereits Unterlagen vorhanden, lies zuerst Dateinamen, Metadaten und Inhaltsübersichten. Frage nur nach Informationen, die daraus nicht verlässlich hervorgehen.
+3. Grenze Suchen in Microsoft 365 nach Website, Bibliothek oder Ordner, Zeitraum, Absender, Dateityp und prägnantem Suchbegriff ein. Erfasse im ersten Durchgang höchstens 20 Treffer und öffne höchstens fünf tragende Unterlagen.
+4. Lies Word- und PDF-Dokumente einmal vollständig, Tabellen nur in den einschlägigen Blättern und Bereichen sowie E-Mails im maßgeblichen Gesprächsverlauf. Verwende gewonnene Extrakte weiter, statt dieselbe Quelle erneut zu öffnen.
+5. Die [vollständige Fachmodulkarte](references/fachmodule.md) wird nur konsultiert, wenn kein eindeutiger Primärskill feststeht oder eine echte Querschnittsfrage verbleibt.
+
+## Qualitätsversprechen
+
+- Arbeite schnell, aber nicht hektisch.
+- Frage nur nach, wenn die Antwort den nächsten Schritt wirklich verändert.
+- Mache Annahmen sichtbar und halte sie knapp.
+- Schlage passende Fachmodule aus diesem Plugin vor, bevor du in Randthemen ausweichst.
+- Liefere am Ende immer einen klaren nächsten Schritt.
+
+---
+
+Hinweis: Dieser Skill stärkt die anwaltliche Arbeit, indem er Workflow, Intake und Routing strukturiert; die fachliche Endverantwortung bleibt beim zuständigen Menschen.
+
+<!-- BEGIN ACTUAL-SKILL-ROUTING -->
+
+## Aktuelle Anschluss-Skills
+
+Diese Tabelle wird aus dem tatsächlichen Skillbestand des Plugins gebildet. Wenn ein Nutzer nach dem Einstieg weitergeleitet werden soll, nimm bevorzugt diese Namen.
+
+| Skill | Wann einsetzen? |
+| --- | --- |
+| `abaenderung-versorgungsausgleich-51-versausglg` | Abänderung Versorgungsausgleich Paragraf 51 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschw... |
+| `aerztliche-versorgungswerke-berufsstaendische-versorgung` | Ärztliche Versorgungswerke berufsständische Versorgung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und... |
+| `anpassung-wegen-invaliditaet-oder-besonderer-haerte` | Anpassung wegen Invalidität oder besonderer Härte: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Besc... |
+| `anpassung-wegen-unterhalt-33-ff-versausglg` | Anpassung wegen Unterhalt Paragrafen 33 ff VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwer... |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | zur strukturierten Aufnahme, Priorisierung und Ausgabe im Thema Anrechte Dokumentenintake. |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | Anwartschaft dynamisch statisch Bewertung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde,... |
+| `ausgleich-nach-der-scheidung-20-ff-versausglg` | Ausgleich nach der Scheidung Paragrafen 20 ff VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Besch... |
+| `auslaendische-anrechte-versorgungsausgleich` | Ausländische Anrechte Versorgungsausgleich: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde,... |
+| `ausschluss-grobe-unbilligkeit-27-versausglg` | Ausschluss grobe Unbilligkeit Paragraf 27 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwer... |
+| `beamtenrechtliche-kuerzung-und-rueckausnahme` | Beamtenrechtliche Kürzung und Rückausnahme: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde,... |
+| `beamtenversorgung-versorgungsausgleich` | Beamtenversorgung Versorgungsausgleich: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB... |
+| `beschwerde-gegen-va-beschluss-famfg` | Beschwerde gegen VA-Beschluss FamFG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI... |
+| `betriebliche-altersversorgung-direktzusage-pensionskasse-fonds` | Betriebliche Altersversorgung Direktzusage Pensionskasse Fonds: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsver... |
+| `versorgungsausgleich-im-scheidungsverfahren-pruefen` | Ehezeit bestimmen Paragraf 3 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, B... |
+| `familienmandat-aufnehmen-und-sofortmassnahmen-planen` | Strukturierter Erstgespraechsleitfaden für Familien-, Kindschafts- und Versorgungsausgleichsrecht: Erfassung der Konstellation, Konflikt- und GwG-Check, Vollmacht, Streitwert/Gebührenvereinb... |
+| `eu-auslandsrenten-und-scheidung` | EU-Auslandsrenten und Scheidung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Be... |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | Excel-Prüfmatrix Anrechte: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Beamtenv... |
+| `versorgungsteilung-und-zielversorgung-pruefen` | Externe Teilung Paragraf 14 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Be... |
+| `unterhalt-berechnen-und-gegenrechnen` | Prüfungslinie für fachanwalt familienrecht duesseldorfer tabelle unterhalt. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Prüfung mit Gericht, Datum u... |
+| `fachanwalt-familienrecht-kindeswohlgefaehrdung-eilantrag` | Kindeswohlgefaehrdung nach Paragraf 1666 BGB: Eilantrag auf Sorgerechtsentzug oder Schutzanordnung stellen oder dagegen verteidigen. Normen: Paragraf 1666 BGB (Eingriff Familiengericht), Paragraf 49 FamFG (Einst... |
+| `fachanwalt-familienrecht-mediation-156-famfg-cochemer` | Familienrechtliche Mediation nach Paragraf 156 FamFG und Cochemer Modell: Vermittlungsverfahren Paragraf 165 FamFG bei Umgangsverweigerung, ADR-Pfade (Familienmediation DGFM, Familiengerichts-Mediation Paragraf... |
+| `familienmandat-aufnehmen-und-sofortmassnahmen-planen` | Orientierung im Fachanwaltsrecht Familienrecht: FAO-Voraussetzungen, Kerngebiete, Verfahren nach FamFG und BGB überblicken. Normen: FamFG (Beschluss statt Urteil, Verbund Paragraf 137 FamFG), Paragrafen 2... |
+| `fachanwalt-familienrecht-sbgg-personenstandswechsel-folgen` | Prüfungslinie für fachanwalt familienrecht sbgg personenstandswechsel folgen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Prüfung mit Gericht, Datum... |
+| `fachanwalt-familienrecht-scheidungsantrag-stellen` | Prüfungslinie für fachanwalt familienrecht scheidungsantrag stellen. Nutzt Normtext, Nutzerangaben und verifizierte Quellen; Rechtsprechung nur nach Live-Prüfung mit Gericht, Datum und Akte... |
+| `unterhalt-berechnen-und-gegenrechnen` | Kindes- und Ehegattenunterhalt vollständig berechnen: Mandant trennt sich oder wurde getrennt und will Unterhaltshoehe festlegen. Normen: Paragrafen 1601 ff. BGB (Kindesunterhalt), Paragraf 1361 BGB (Trenn... |
+| `versorgungsausgleich-im-scheidungsverfahren-pruefen` | Versorgungsausgleich im Scheidungsverbund durchführen: Rentenanrechte aus Ehe aufteilen. Normen: VersAusglG (seit 2009), Paragrafen 1 und 10 VersAusglG (Hin- und Herrechnung), Paragraf 17 VersAusglG (exter... |
+| `fachanwalt-familienrecht-zugewinnausgleich-berechnen` | Zugewinnausgleich nach Paragrafen 1372-1390 BGB berechnen: Trennung oder Scheidung erfordert Aufstellung von Anfangs- und Endvermögen. Normen: Paragraf 1373 BGB (Zugewinn), Paragraf 1374 BGB (Anfangsvermögen inkl... |
+| `familienmandat-aufnehmen-und-sofortmassnahmen-planen` | Familienrecht einfuehrend: Ehe, Scheidung, Zugewinn, Versorgungsausgleich, Unterhalt (Trennungs-, Ehegatten-, Kindes-, Volljaehrigen-), Sorgerecht, Umgangsrecht, Vaterschaft, Adoption. Entsc... |
+| `famr-kindeswohlgefaehrdung-eilantrag-spezial` | Spezialfall Kindeswohlgefaehrdung und Eilantrag: Paragraf 1666 BGB, Anordnungen Familiengericht, einstweilige Anordnung Paragraf 49 FamFG, Inobhutnahme Jugendamt Paragraf 42 SGB VIII. Prüfraster und Mustertexte... |
+| `familienmandat-aufnehmen-und-sofortmassnahmen-planen` | Mandantenaufnahme im Familienrecht: emotionale Lage, Eilbedarf (Gewaltschutz, Kindeswohlgefaehrdung, Wegnahme Kind), Vertraulichkeit Familienangehoerige, Verfahrenskostenhilfe. Strukturierte... |
+| `famr-regenbogenfamilien-recht-spezial` | Spezialfall Regenbogenfamilien: rechtliche Elternschaft nach BGH, Stiefkindadoption, Co-Mutter-Anerkennung, Reform des Abstammungsrechts (Entwurf 2024 ff.), Sorgerecht bei Trennung. Prüfras... |
+| `famr-trennungsfolgen-workflow` | Trennungsfolgen: Unterhalt (Trennung, Kind), Hausrat, Wohnungszuweisung, Sorgerecht, Umgang, Versorgungsausgleich-Vorab. Prüfraster und Erstgespraechs-Checkliste mit Mandantenfragen. |
+| `famr-trennungsjahr-praxis` | Trennungsjahr in der Praxis Paragraf 1565 BGB: Voraussetzungen, Beleg, Trennung innerhalb der Ehewohnung, Ausnahmen Haertefall. Praxistipps für Beweissicherung, Schriftverkehr, Mandantenleitfaden.... |
+| `famr-vermoegensauseinandersetzung-workflow` | Vermögensauseinandersetzung im Scheidungsfall: Zugewinnausgleich Anfangs- und Endvermoegen, Auskunftsanspruch Paragraf 1379 BGB, Bewertungsstichtag, gemeinsame Konten und Immobilien. Prue... |
+| `versorgungsausgleich-im-scheidungsverfahren-pruefen` | Spezialfall Versorgungsausgleich: VersAusglG, Anrechte Berechnung pro Versorgungstraeger, externe Teilung, interne Teilung, Anpassung wegen Unterhaltszahlung. Prüfraster und Beispielsfall.... |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | Fehlerhafte Auskunft Versorgungsträger: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB... |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | zur strukturierten Aufnahme, Priorisierung und Ausgabe im Thema Fragebogen Versorgungsausgleich ausfüllen. |
+| `geringfuegigkeit-18-versausglg` | Geringfügigkeit Paragraf 18 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Be... |
+| `gesetzliche-rentenversicherung-entgeltpunkte` | Gesetzliche Rentenversicherung Entgeltpunkte: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerd... |
+| `versorgungsausgleich-im-scheidungsverfahren-pruefen` | Grundprinzip Versorgungsausgleich Halbteilung Paragraf 1 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbu... |
+| `versorgungsteilung-und-zielversorgung-pruefen` | Interne Teilung Paragraf 10 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Be... |
+| `versorgungsauskuenfte-und-anrechtswerte-pruefen` | Kapitalwert korrespondierender Kapitalwert prüfen: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Besc... |
+| `kirchliche-zusatzversorgung` | Kirchliche Zusatzversorgung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Beamte... |
+| `versorgungsteilung-und-zielversorgung-pruefen` | Kosten Versorgungsträger Teilungskosten: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SG... |
+| `versorgungsausgleich-im-scheidungsverfahren-pruefen` | Kurze Ehezeit Paragraf 3 Abs 3 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI,... |
+| `lebensversicherung-abgrenzung-zugewinn-va` | Lebensversicherung Abgrenzung Zugewinn VA: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde,... |
+| `mandantenblatt-versorgungsausgleich-in-einfacher-sprache` | Mandantenblatt Versorgungsausgleich in einfacher Sprache: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund u... |
+| `mandantenkommunikation-rentenfolgen` | zur strukturierten Aufnahme, Priorisierung und Ausgabe im Thema Mandantenkommunikation Rentenfolgen. |
+| `familienmandat-aufnehmen-und-sofortmassnahmen-planen` | Eingangs-Triage für familienrechtliche Mandate: Routing zu Scheidung, Sorge, Umgang, Unterhalt, Zugewinn oder Versorgungsausgleich. Normen: Paragraf 63 FamFG (Beschwerde 1 Monat), Paragraf 1600b BGB (Vate... |
+| `nachtraegliche-auskunft-und-vollstreckung` | Nachträgliche Auskunft und Vollstreckung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, S... |
+| `nicht-ausgleichsreife-anrechte-19-versausglg` | Nicht ausgleichsreife Anrechte Paragraf 19 VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwe... |
+| `notarielle-scheidungsfolgenvereinbarung-va` | Notarielle Scheidungsfolgenvereinbarung VA: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde,... |
+| `öffentlicher-dienst-zusatzversorgung-vbl` | Öffentlicher Dienst Zusatzversorgung VBL: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, S... |
+| `pensionszusage-bewertung-insolvenzrisiko` | Pensionszusage Bewertung Insolvenzrisiko: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, S... |
+| `private-rentenversicherung-kapitalwahlrecht` | Private Rentenversicherung Kapitalwahlrecht: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde... |
+| `red-team-va-beschluss-rechnerisch` | Red-Team VA-Beschluss rechnerisch: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI,... |
+| `rentenluecke-nach-scheidung-handlungsoptionen` | Rentenlücke nach Scheidung Handlungsoptionen: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerd... |
+| `rentnerfall-beide-beziehen-rente` | Rentnerfall beide beziehen Rente: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, B... |
+| `riester-ruerup-versorgungsausgleich` | Riester Rürup Versorgungsausgleich: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI,... |
+| `scheidungsverbund-va-fristenplan` | zur strukturierten Aufnahme, Priorisierung und Ausgabe im Thema Scheidungsverbund VA Fristenplan. |
+| `schriftsatzkern-substantiierung` | Substantiierter Schriftsatzkern für Scheidungsantrag, Unterhaltsklage, Sorgerechtsantrag, VA-Beschwerde: Tatsachenvortrag-Geruest, Anspruchsgrundlagen-Kette, Beweisangebote, Hilfsanträge, Re... |
+| `soldatenversorgung-bundeswehr-schnittstelle` | Soldatenversorgung Bundeswehr Schnittstelle: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde... |
+| `spezial-duesseldorfer-abschlussprodukt-und-uebergabe` | Duesseldorfer: Abschlussprodukt und Übergabe. |
+| `spezial-ehevertrag-red-team-und-qualitaetskontrolle` | Ehevertrag: Red-Team und Qualitätskontrolle. |
+| `spezial-eingetragene-mandantenkommunikation-entscheidungsvorlage` | Eingetragene: Mandantenkommunikation und Entscheidungsvorlage. |
+| `spezial-ergaenzend-sonderfall-und-edge-case` | Ergaenzend: Sonderfall und Edge-Case-Prüfung. |
+| `spezial-fachanwalt-erstpruefung-und-mandatsziel` | Fachanwalt: Erstprüfung, Rollenklärung und Mandatsziel. |
+| `spezial-famfg-livequellen-und-rechtsprechungscheck` | Famfg: Livequellen- und Rechtsprechungscheck. |
+| `spezial-familiengericht-verhandlung-vergleich-und-eskalation` | Familiengericht: Verhandlung, Vergleich und Eskalation. |
+| `spezial-familienrecht-tatbestand-beweis-und-belege` | Familienrecht: Tatbestandsmerkmale, Beweisfragen und Beleglage. |
+| `spezial-fristen-behoerden-gericht-und-registerweg` | Fristen: Behörden-, Gerichts- oder Registerweg. |
+| `spezial-kanzlei-fristennotiz-und-naechster-schritt` | Kanzlei: Fristennotiz und nächster Schritt. |
+| `spezial-lebenspartnerschaft-beweislast-und-darlegungslast` | Lebenspartnerschaft: Beweislast, Darlegungslast und Substantiierung. |
+| `spezial-literatur-schriftsatz-brief-und-memo-bausteine` | Literatur: Schriftsatz-, Brief- und Memo-Bausteine. |
+| `spezial-mandate-risikoampel-und-gegenargumente` | Mandate: Risikoampel, Gegenargumente und Verteidigungslinien. |
+| `spezial-normen-dokumentenmatrix-und-lueckenliste` | Normen: Dokumentenmatrix, Lückenliste und Nachforderung. |
+| `spezial-orientierung-fristen-form-und-zuständigkeit` | Orientierung: Fristen, Form, Zuständigkeit und Rechtsweg. |
+| `spezial-scheidung-zahlen-schwellen-und-berechnung` | Scheidung: Zahlen, Schwellenwerte und Berechnung. |
+| `spezial-sorge-compliance-dokumentation-und-akte` | Sorge: Compliance-Dokumentation und Aktenvermerk. |
+| `spezial-umgang-mehrparteien-konflikt-und-interessen` | Umgang: Mehrparteienkonflikt und Interessenmatrix. |
+| `spezial-unterhalt-internationaler-bezug-und-schnittstellen` | Unterhalt: Internationaler Bezug und Schnittstellen. |
+| `spezial-zugewinn-formular-portal-und-einreichung` | Zugewinn: Formular, Portal und Einreichungslogik. |
+| `steuerliche-folgen-externe-teilung` | Steuerliche Folgen externe Teilung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI,... |
+| `tod-eines-ehegatten-anpassung-37-ff-versausglg` | Tod eines Ehegatten Anpassung Paragrafen 37 ff VersAusglG: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Besc... |
+| `tod-nach-rechtskraft-vor-umsetzung` | Tod nach Rechtskraft vor Umsetzung: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI,... |
+| `umgangsregelung-mustervorlagen` | Umgangsregelungen nach Paragrafen 1684 und 1685 BGB formulieren: Regelmäßiger Umgang oder Streit um Umgangsrecht soll durch Vereinbarung oder Beschluss gelöst werden. Normen: Paragraf 1684 BGB (Umgang Elte... |
+| `unterhalt-berechnen-und-gegenrechnen` | Kindes- und Ehegattenunterhalt nach Duesseldorfer Tabelle berechnen: Praktische Berechnungsaufgabe mit konkreten Einkommensdaten. Normen: Paragrafen 1601 ff. BGB, Paragraf 1605 BGB (Selbstauskunft), Paragraf 1613... |
+| `unternehmerversorgung-gesellschafter-geschaeftsfuehrer` | Unternehmerversorgung Gesellschafter-Geschäftsführer: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und B... |
+| `va-bei-lebenspartnerschaft` | VA bei Lebenspartnerschaft: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB VI, Beamten... |
+| `va-im-internationalen-scheidungsfall` | VA im internationalen Scheidungsfall: prüft die einschlägigen Voraussetzungen, Dokumente, Risiken und Ausnahmen. Norm-/Quellenanker: VersAusglG, FamFG Scheidungsverbund und Beschwerde, SGB V... |
+
+Weitere Skills: insgesamt 108 Anschluss-Skills in diesem Plugin.
+
+<!-- END ACTUAL-SKILL-ROUTING -->
+
+## Fachlicher Zuschnitt
+
+- **Thema:** Einstieg, Schnelltriage und Fallrouting im Fachanwalt Familienrecht-Plugin. Fragt Rolle, Ziel, Fristen, Unterlagen, Risiken und Wunsch-Output ab, schlägt passende Fachmodule aus diesem Plugin vor und führt in einen klaren Arbeitsplan. Bei Dokument-Upload ohne Begleittext reagiert der Skill eigenständig.
+- **Arbeitsfokus:** ordnet das Material, prüft Eil- und Fristenhinweise, routet in passende Fachmodule oder stellt genau eine gezielte Rückfrage.
+- **Plugin-Rahmen:** Plugin Fachanwalt für Familienrecht. Orientierung Normen Mandate Fristen Literatur. Familiengericht FamFG Scheidung Sorge Umgang Unterhalt Zugewinn Ehev....
+- **Qualitätsanspruch:** Antworte nicht mit einer austauschbaren Standard-Checkliste. Nutze die Fachlogik dieses Plugins, benenne die konkret einschlägigen Normgruppen, Behörden, Register, Fristen, Dokumente oder Verfahrenshandlungen und trenne sichere Punkte von Live-Check-Bedarf.
+- **Eloquenz und Nutzen:** Führe die Nutzerin oder den Nutzer wie eine erfahrene Fachperson: kurze Orientierung, präzise Rückfragen, dann ein verwertbares Produkt mit Varianten, Gegenargumenten und nächstem Handgriff.

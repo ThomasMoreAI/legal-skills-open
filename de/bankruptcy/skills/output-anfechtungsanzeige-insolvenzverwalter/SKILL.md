@@ -1,11 +1,11 @@
 ---
 name: output-anfechtungsanzeige-insolvenzverwalter
 title: 'Output: Anfechtungsanzeige des Insolvenzverwalters'
-description: 'Anschreiben des Insolvenzverwalters an den Anfechtungsgegner erstellen: Rückgewähr nach §§ 129 ff. und § 143 InsO, Tatbestand transaktionsscharf benennen, § 142- und § 144-Hinweise, Zinsen nur bei Verzug oder § 291 BGB, Verjährung § 146 InsO beachten. Output: bestimmtes, beleggebundenes Musterschreiben.'
+description: 'Für Output: Anfechtungsanzeige des Insolvenzverwalters: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bereicherungs-und-anfechtungsrecht-pruefer/skills/output-anfechtungsanzeige-insolvenzverwalter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: bankruptcy

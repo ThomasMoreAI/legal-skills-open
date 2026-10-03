@@ -1,11 +1,11 @@
 ---
 name: verwaltungsprozess-modus
 title: Verwaltungsprozess-Modus (VwGO)
-description: 'Aktenauszug für VwGO-Verfahren erstellen: Anfechtungs- Verpflichtungsklage Berufung § 124 VwGO Revision § 132 VwGO Eilrechtsschutz §§ 80 123 VwGO. Normen VwGO §§ 40 42 80 113 124 132. Prüfraster VwGO-spezifische Fristen Vorverfahren Widerspruchsbescheid. Output VwGO-spezifischer Aktenauszug. Abgrenzung zu zivilprozess-modus (ZPO) und strafprozess-modus (StPO).'
+description: 'Für Verwaltungsprozess-Modus (VwGO): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/verwaltungsprozess-modus
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: litigation
@@ -14,9 +14,17 @@ language: de
 
 # Verwaltungsprozess-Modus (VwGO)
 
-## Zweck
+## Arbeitsbereich
 
-Dieser Modus-Skill aktiviert die verfahrensspezifischen Einstellungen für Verwaltungsgerichtsverfahren nach der Verwaltungsgerichtsordnung (VwGO). Verwaltungsverfahren sind durch das obligatorische Vorverfahren und die besondere Stellung der Behörde als Beklagte geprägt.
+Aktenauszug für VwGO-Verfahren erstellen: Anfechtungs- Verpflichtungsklage Berufung § 124 VwGO Revision § 132 VwGO Eilrechtsschutz §§ 80 123 VwGO. Normen VwGO §§ 40 42 80 113 124 132. Prüfraster VwGO-spezifische Fristen Vorverfahren Widerspruchsbescheid. Output VwGO-spezifischer Aktenauszug. Abgrenzung zu zivilprozess-modus (ZPO) und strafprozess-modus (StPO). Arbeite entlang dieser konkreten Prüfungslinie und trenne Rolle, Frist, Zuständigkeit, Beweislast und gewünschten Output.
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: StPO § 147 Akteneinsicht im Ermittlungsverfahren auf Antrag, § 385 Abs. 3 Nebenkläger, ZPO § 299 jederzeit für Parteien, Bearbeitung i.d.R. 2-4 Wochen.
+- Tragende Normen verifizieren: ZPO §§ 299, 299a, StPO §§ 147, 385, 406e, VwGO § 100, SGG § 120, FamFG § 13, BORA § 19 (Akteneinsicht), Aktenordnung (AktO), AnwGH-Bescheinigungen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Anwalt, Geschäftsstelle, Verteidiger, Nebenklägervertreter, Beigeordneter, ggf. Sachverständiger.
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Akteneinsichtsantrag, Aktenauszug (chronologisch), Aktenvermerk, Aktenspiegel, Beweismittelübersicht, Zeitachse, Vollmacht — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
 
 ## Triage — kläre vor Aktivierung des Modus
 
@@ -37,13 +45,6 @@ Dieser Modus-Skill aktiviert die verfahrensspezifischen Einstellungen für Verwa
 - § 132 VwGO — Revisionszulassung (Divergenz, Grundsatzbedeutung, Verfahrensmangel)
 - § 58 Abs. 2 VwGO — Jahresfrist bei fehlerhafter Rechtsbehelfsbelehrung
 
-## Rechtsprechung (BVerwG — Leitsätze)
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
-
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Klagenarten (§ 42 VwGO)
 
 | Klageart | Ziel | Voraussetzung |
@@ -106,3 +107,5 @@ Berufung bedarf der Zulassung durch das Oberverwaltungsgericht. Zulassungsgründ
 - Verwaltungsakt mit vollständigem Inhalt und Datum erfassen
 - Widerspruchsbescheid als eigenes Dokument in der Sachverhaltschronologie
 - Behördliche Aktenzeichen neben Gerichtsaktenzeichen angeben
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.

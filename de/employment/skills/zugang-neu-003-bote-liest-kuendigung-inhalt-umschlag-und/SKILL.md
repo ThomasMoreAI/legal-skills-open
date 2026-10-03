@@ -1,0 +1,64 @@
+---
+name: zugang-neu-003-bote-liest-kuendigung-inhalt-umschlag-und
+title: 'Arbeitsrecht: Bote liest Kündigung Inhalt Umschlag und Zeugenbeweis mit konkreter Fachprüfung, Quellenhygiene, Fehlerbre'
+description: 'Für Zugang Neu 003 Bote Liest Kündigung Inhalt Umschlag und Zeugenb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
+author: Klotzkette
+author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/zugang-neu-003-bote-liest-kuendigung-inhalt-umschlag-und-zeugenb
+license: Apache-2.0
+version: 0.1.0
+execution_mode: open
+jurisdiction: de
+practice: employment
+language: de
+---
+
+# Arbeitsrecht: Bote liest Kündigung Inhalt Umschlag und Zeugenbeweis mit konkreter Fachprüfung, Quellenhygiene, Fehlerbremse und verwertbarem Arbeitsergebnis.
+
+
+## Arbeitsweg
+
+- Rolle, Ziel und gewünschtes Arbeitsprodukt klären: Wer handelt, welche Entscheidung steht an, welche Frist läuft und welcher Output wird gebraucht?
+- Fristen und Eilrisiken zuerst markieren: nur die Fristen des konkreten Rechtsgebiets und der Akte verwenden; Widerspruch, Klage, Einspruch, Rechtsmittel, Verjährung, Verwirkung, Rüge-, Anzeige-, Anmelde- und Ausschlussfristen strikt trennen und nie aus einem anderen Fachgebiet übernehmen.
+- Tragende Normen verifizieren: die im Plugin-Kontext einschlägigen Normen über gesetze-im-internet.de, dejure.org, eur-lex.europa.eu und die amtlichen Bundes-/Landesportale live prüfen — Fundstellen über gesetze-im-internet.de, dejure.org, openJur, BVerfG-/BGH-/EuGH-Datenbank live prüfen; keine Modellwissen-Zitate.
+- Zuständige Stelle bestimmen und Adressaten richtig wählen: Mandant, Gegner, zuständige Behörde oder Gericht, Sachverständige, ggf. EU-/internationale Stelle (siehe Skill-Detail).
+- Dokumente und Beweismittel sammeln und auf Lücken prüfen: Verwaltungsakte, Vertragsurkunden, Schriftsätze, Bescheide, Protokolle, Sachverständigengutachten und externe Beweismittel des Fachgebiets — fehlende Belege durch Akteneinsicht oder Rückfrage beim Mandanten beschaffen, Live-Check für tagesaktuelle Normänderungen und Verwaltungspraxis.
+
+**Fokus:** Arbeitsrecht: Bote liest Kündigung Inhalt Umschlag und Zeugenbeweis mit konkreter Fachprüfung, Quellenhygiene, Fehlerbremse und verwertbarem Arbeitsergebnis.
+
+### Zugang Bote Liest Kuendigung Inhalt Umschlag Und Zeugenb
+
+## Konstellation
+
+Arbeitgeber lässt die Kuendigung durch einen **Boten** uebergeben (interner Mitarbeiter, externer Zustellservice, Notar). Bote dokumentiert Einwurf oder Übergabe.
+
+## Was muss der Bote tun?
+
+1. Den Inhalt des Umschlags vor dem Einwurf/Übergabe persoenlich sehen oder lesen.
+2. Den Umschlag verschliessen.
+3. Den Umschlag in den Briefkasten einwerfen oder persoenlich uebergeben.
+4. Datum, Uhrzeit, Adresse dokumentieren.
+5. Aussagebereitschaft als Zeuge erklaeren.
+
+## Beweiswert
+
+- Bote ist Zeuge im Sinne Paragraf 373 ZPO.
+- Persoenliche Wahrnehmung als unmittelbarer Beweis.
+- BAG-Linie: Zeugenbeweis durch Boten = staerker als Anscheinsbeweis.
+
+## Pflichten Bote
+
+- Sichere Aufbewahrung der Beweismittel (eigene Notiz, ggf. Foto).
+- Verschwiegenheit beachten (kein Mitlesen Dritter).
+
+## BAG-Linie
+
+- BAG 2 AZR 369/16 zur Botenzustellung.
+- BAG 2 AZR 224/18 zum Zugang.
+- Az im Mandat live verifizieren.
+
+## Prüfraster
+
+1. Wer ist Bote?
+2. Hat er den Inhalt gesehen?
+3. Datum/Uhrzeit dokumentiert?
+4. Zeugenaussage möglich?

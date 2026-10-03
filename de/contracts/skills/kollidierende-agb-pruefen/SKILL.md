@@ -1,11 +1,11 @@
 ---
 name: kollidierende-agb-pruefen
 title: Kollidierende AGB
-description: 'Kollidierende AGB im B2B-Verkehr (Battle of the Forms) lösen: Kaufvertrag mit beiderseitigen AGB und widerspruechen. Normen: §§ 305-310 BGB (AGB-Recht B2B), CISG Art. 19 (Annahme mit Abweichungen). Prüfraster: Last-Shot-Doctrine, Knock-out-Regel (Restgueltigkeit), Rechtswahlklauseln, Gerichtsstandsklauseln, Schiedsklauseln, Haftungsbeschraenkungen, Eigentumsvorbehalt. Output Lösungs-Memo mit Vertragsinhalt nach Battle of the Forms. Abgrenzung: AGB-Kontrolle allgemein siehe Vertragsrecht-Plugin; CISG spezifisch siehe cisg-prüfen.'
+description: 'Für Kollidierende AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/urteilsbauer-relationsmacher/skills/kollidierende-agb-pruefen
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: contracts
@@ -16,18 +16,13 @@ language: de
 
 Klassisches Problem im B2B-Geschäft: Beide Parteien verweisen auf ihre eigenen AGB, die widersprechen sich.
 
-
 ## Triage zu Beginn
 
 1. Haben beide Parteien bei Vertragsschluss auf ihre eigenen AGB verwiesen?
 2. Handelt es sich um B2B oder B2C — nur B2B kommt AGB-Kollision in Betracht?
 3. Welche konkreten Klauseln kollidieren (Rechtswahlklausel, Gerichtsstand, Haftungsbeschränkung)?
 4. Wie haben die Parteien den Vertrag danach vollzogen — ist ein Vertrag zustande gekommen?
-- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist fuer den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
-
-## Aktuelle Rechtsprechung
-
-- Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
+- **Was will der Mandant wirklich erreichen?** (Nicht: was steht im Standardweg, sondern: welches Ergebnis ist für den Mandanten persoenlich/wirtschaftlich das beste? Manchmal ist der schnellere Vergleich besser als der formal "richtige" Weg.)
 
 ## Zentrale Normen
 
@@ -36,13 +31,9 @@ Klassisches Problem im B2B-Geschäft: Beide Parteien verweisen auf ihre eigenen 
 - § 310 Abs. 1 BGB — B2B: erleichterte Einbeziehung, eingeschränkte Inhaltskontrolle
 - Art. 19 CISG — modifizierte Annahme (wesentliche Abweichung = Ablehnung + neues Angebot)
 
-## Quellenregel
-
-Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwissen; Literatur nur mit Nutzerquelle oder lizenziertem Live-Zugriff.
 ## Schritt-für-Schritt-Workflow
 
-
-**Vorab:** Der untenstehende Workflow ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der Workflow ist Leitfaden, nicht Pflichtprogramm.
+**Vorab:** Der untenstehende ist die typische Standardlinie. Wenn die Mandantenlage abweicht (siehe "Strategische Optionen" oben), sind die Schritte entsprechend zu verkuerzen, umzustellen oder durch ein anderes Skill zu ersetzen — der ist Leitfaden, nicht Pflichtprogramm.
 
 1. **B2B oder B2C feststellen:** B2C → keine AGB-Kollision; B2B → weiter.
 2. **Kollidierende Klauseln identifizieren:** Welche Klauseln widersprechen sich?
@@ -52,21 +43,28 @@ Quellenregel: Keine Kommentar-, Handbuch- oder Aufsatzfundstellen aus Modellwiss
 
 ## Strategische Optionen (vor dem Template entscheiden)
 
-Bevor das Template eins-zu-eins gefuellt wird, ist zu pruefen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
+Bevor das Template eins-zu-eins gefuellt wird, ist zu prüfen welche Variante zur Mandantenkonstellation passt. Das Template ist **eine** moegliche Form — nicht die einzige.
 
 | Konstellation | Empfohlener Weg |
 |---|---|
-| Standard — Kollidierende AGB pruefen nach battle-of-forms | Pruefungsergebnis nach Schema; Template unten |
+| Standard — Kollidierende AGB prüfen nach battle-of-forms | Prüfungsergebnis nach Schema; Template unten |
 | Variante A — Letzter Schuss der Gegenseite Guillotine-Klausel | Letzte Erklaerung gegnerische AGB massgeblich; Widerspruch sofort |
-| Variante B — Keine AGB beider Seiten Individualvertrag | Kein AGB-Kollisions-Problem; Individualvertrag direkt pruefend |
-| Variante C — Internationale AGB verschiedene Rechtsordnungen | IPR pruefen; CISG als Aufangrecht beachten |
+| Variante B — Keine AGB beider Seiten Individualvertrag | Kein AGB-Kollisions-Problem; Individualvertrag direkt prüfend |
+| Variante C — Internationale AGB verschiedene Rechtsordnungen | IPR prüfen; CISG als Aufangrecht beachten |
 
 Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Template anzupassen oder durch ein anderes Skill abzuloesen — nicht das Mandat in das Schema zu pressen.
-
 
 ## Output-Template
 
 **Adressat:** Entscheidungsgründe — Tonfall: sachlich-juristisch
+
+<!-- BEGIN ausformulierungspflicht (autogen) -->
+> **Ausformulierungspflicht und Formatstandard.** Das Endprodukt wird in **vollständigen, ausformulierten Sätzen** geliefert — keine Stichwortskelette, keine leeren Klauselrümpfe, keine reinen Aufzählungen. Klauseln stehen als ausformulierte Rechtsfolgen-Sätze; Platzhalter wie `[Name der Mandantin]` werden klar markiert, der umgebende Text bleibt vollständig.
+>
+> **Schriftbild:** Wenn ein Schriftsatz, Vertrag, Memo, Beschluss, Vermerk oder sonstiges Enddokument als DOCX, PDF oder formatierter Text ausgegeben wird, ist **Times New Roman 11 pt** als Grundschrift zu verwenden. Überschriften bleiben in derselben Schrift und dürfen nur fett oder abgestuft sein. Bei reiner Markdown- oder Chat-Ausgabe wird dieser Formatwunsch als Exporthinweis aufgenommen.
+>
+> **Nummerierung:** Gliederung ausschließlich dezimal (`1`, `1.1`, `1.1.1` und so weiter). Keine römischen Ziffern, keine Buchstaben- oder Mischgliederung.
+<!-- END ausformulierungspflicht (autogen) -->
 
 ```
 
@@ -76,17 +74,15 @@ Wenn die Mandantenkonstellation **nicht** ins Standardschema passt, ist das Temp
 3. Sind Anschlusswege erwuenscht? [Mediation / Direktgesprach / Einigung vor Fristablauf]
 
 Schlussabsatz Variante A (kooperativ):
-Wir regen eine guetliche Einigung an und stehen fuer ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
+Wir regen eine guetliche Einigung an und stehen für ein klaerenden Gesprach zur Verfuegung. Eine einvernehmliche Loesung erspart beiden Seiten Zeit und Kosten.
 
 Schlussabsatz Variante B (formal-streng):
 Eine aussergerichtliche Einigung kommt nur in Betracht wenn die Gegenseite innerhalb von [X] Tagen einen akzeptablen Vorschlag unterbreitet. Anderenfalls werden wir alle rechtlichen Schritte einleiten.
-
 ## Kollidierende AGB
 
 Beide Parteien haben auf ihre jeweiligen AGB verwiesen. Die Parteien haben den Vertrag
 gleichwohl vollzogen (Lieferung / Zahlung). Ein Vertrag ist zustande gekommen.
 
-Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über offizielle oder frei zugängliche Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage verifizieren.
 
 | Klausel | AGB Kläger | AGB Beklagte | Ergebnis |
 |---|---|---|---|
@@ -118,3 +114,5 @@ Rechtsprechung: keine Entscheidung aus Modellwissen zitieren; vor Ausgabe über 
 ## Bezugnahme im Urteil
 
 Im Tatbestand: Inhalt der streitigen AGB-Klauseln knapp zitieren, Verweis auf die Anlagen mit Bezugnahme nach Paragraf 313 II 2 ZPO.
+
+> Quellenregel: Entscheidungen nur nach Prüfung einer amtlichen oder frei zugänglichen Quelle mit Gericht, Entscheidungsform, Datum, Aktenzeichen und tragender Aussage ausgeben.
