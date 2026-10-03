@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): immigration 
 
 Jurisdiction: `gb` · Practice: `immigration` · Skill language: zh
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
-| [`/apostille`](skills/apostille-torlyai/) | 关于英国 FCDO apostille（公证认证）的指引，用于申根签证申请 — 何时 需要（外国出具的民事文件如结婚证、出生证、离婚证）、如何申请（ gov.uk Get a Document… |
+| [`/apostille`](skills/apostille-torlyai/) | Guidance on UK FCDO apostille (legalisation) for Schengen visa applications — when needed… |
+| [`/apostille`](skills/apostille-zh-cn-torlyai/) | 关于英国 FCDO apostille（公证认证）的指引，用于申根签证申请 — 何时 需要（外国出具的民事文件如结婚证、出生证、离婚证）、如何申请（ gov.uk Get a Document… |
 
 ## Cold-start context
 

@@ -11,8 +11,9 @@
   "skills": [
     "skills/eu-freizuegigkeit-aufenthalt-krankenversicherung",
     "skills/first-trip-torlyai",
+    "skills/first-trip-zh-cn-torlyai",
     "skills/insurance-check-torlyai",
-    "skills/plan-trip-torlyai",
+    "skills/plan-trip-zh-cn-torlyai",
     "skills/poland-eu-mobility-xopoko"
   ]
 }

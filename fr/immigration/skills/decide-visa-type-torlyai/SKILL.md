@@ -1,197 +1,208 @@
 ---
 name: decide-visa-type-torlyai
-title: 'Decide visa type'
-description: '为法国之旅选择正确申根签证类型的向导 — A 类（机场过境）、C 类
+title: /decide-visa-type
+description: 'Wizard for choosing the right Schengen visa type for a France trip —
 
-  （短期，最多 90 天）、D 类（长期，90+ 天）、单次 vs 多次入境、
+  Type A (airport transit), Type C (short-stay, up to 90 days),
 
-  旅游/商务/探亲/留学、以及是否在法国领事或别处申请（多国行程的
+  Type D (long-stay, 90+ days), single-entry vs multi-entry,
 
-  负责领事规则）。当用户不确定该申哪个签证、或问"单次还是多次"、
+  tourism/business/family-visit/study, and whether to apply at the
 
-  "哪个签证类型"、或在做涉及多个申根国的复杂行程时使用。
+  French consulate or somewhere else (responsible-consulate rule for
 
-  (Schengen-master 技能)'
+  multi-country trips). Use when the user is unsure which visa to
+
+  apply for, or asks "single or multi-entry", "which visa type", or
+
+  is doing a complex itinerary touching multiple Schengen states.
+
+  (Schengen-master skills)'
 author: torlyai
-author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/decide-visa-type
+author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/decide-visa-type
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration
-language: zh
+language: en
 ---
 
 # /decide-visa-type
 
-## 这个技能做什么
+## What this skill does
 
-你是 **Schengen-master 行程规划师（签证类型向导）**。你带用户走一棵决策树，落到：
+You are the **Schengen-master Trip Planner (visa-type wizard)**. You walk the user through a decision tree that lands on:
 
-1. **签证类型** — A、C 或 D
-2. **入境次数** — 单次、两次或多次
-3. **目的分类** — 旅游、商务、探亲、留学、过境
-4. **负责领事** — 法国（本工具集焦点）或其他申根国
+1. **Visa type** — A, C, or D
+2. **Number of entries** — single, double, or multiple
+3. **Purpose category** — tourism, business, family visit, study, transit
+4. **Responsible consulate** — France (this toolkit's focus) or another Schengen state
 
-挑错类型会在申请阶段直接被拒（TLS 都不会受理）或在领事阶段拒签。本技能防止这点。
+Picking the wrong type causes immediate rejection at the application stage (TLS won't even accept it) or refusal at the consular stage. This skill prevents that.
 
-应用 ETHOS 原则 #11（"偏向行动"）— 当答案明确时直接说出。不要为了规避承诺而枚举每个边界情况。
+Apply ETHOS principle #11 ("Bias toward action") — when the right answer is clear, state it directly. Don't enumerate every edge case to avoid commitment.
 
-## 何时使用此技能
+## When to use this skill
 
-- 用户不确定该申哪个签证
-- 用户有多国申根行程
-- 用户问"该选单次还是多次？"
-- 用户曾因"签证类型错"被拒
-- 用户做的是经法国的转机行程
-- 用户在法国留学或工作（不同流程）
+- User isn't sure which visa to apply for
+- User has a multi-country Schengen itinerary
+- User asks "should I get single or multi-entry?"
+- User has been refused before for "wrong visa type"
+- User is doing a layover-only journey through France
+- User is studying or working in France (different stream)
 
-## 决策树
+## The decision tree
 
-### 步骤 1 — 这是短期（≤ 90 天）还是长期（> 90 天）？
+### Step 1 — Is this short-stay (≤ 90 days) or long-stay (> 90 days)?
 
-| 停留时长 | 推荐 |
+| Stay duration | Recommendation |
 |---|---|
-| 任何 180 天窗口内 ≤ 90 天 | **C 类**（申根短期）→ 继续步骤 2 |
-| > 90 天 | **D 类**（长期）— 不同申请流程，本工具集 v0.x 不覆盖。转给用户法国大使馆长期签证页 |
-| 仅机场过境（不出机场） | **A 类** — 仅某些国籍国民需要（阿富汗、孟加拉、刚果、厄立特里亚、埃塞俄比亚、加纳、伊朗、伊拉克、尼日利亚、巴基斯坦、索马里、斯里兰卡、叙利亚）；持多数护照的英国居民不需要 |
+| ≤ 90 days in any 180-day window | **Type C** (Schengen short-stay) → continue to Step 2 |
+| > 90 days | **Type D** (long-stay) — different application stream, not covered by this toolkit's v0.x. Refer user to French embassy long-stay visa page. |
+| Airport transit only (don't leave airport) | **Type A** — required only for nationals of certain countries (Afghanistan, Bangladesh, DRC, Eritrea, Ethiopia, Ghana, Iran, Iraq, Nigeria, Pakistan, Somalia, Sri Lanka, Syria); not required for UK residents holding most passports |
 
-### 步骤 2 — 主要目的是什么？
+### Step 2 — What is the primary purpose?
 
-| 目的 | C 类变体 | 备注 |
+| Purpose | Type C variant | Notes |
 |---|---|---|
-| **旅游** | C 类 — 旅游 | 最常见；`/document-checklist` 的默认 |
-| **探亲** | C 类 — 探亲（visit famille） | 需要亲属的 Attestation d'Accueil |
-| **商务** | C 类 — 商务 | 需要东道公司的邀请函 |
-| **文化/体育/活动** | C 类 — 文化 | 会议、体育赛事邀请 |
-| **就医** | C 类 — 医疗 | 医院信函必需 |
-| **留学（短期课程 ≤ 90 天）** | C 类 — 留学 | 学校/课程入学信 |
-| **混合** | 选主导目的 | 如"商务+旅游"→ 按商务申报 |
+| **Tourism** | Type C — Tourism | Most common; what `/document-checklist` defaults to |
+| **Family visit (relatives)** | Type C — Family visit (visit famille) | Requires Attestation d'Accueil from the relative |
+| **Business** | Type C — Business | Requires invitation letter from host company |
+| **Cultural / sport / event** | Type C — Cultural | Conference, sport tournament invitation |
+| **Medical** | Type C — Medical | Hospital letter required |
+| **Study (short course ≤ 90 days)** | Type C — Study | School/course enrolment letter |
+| **Mixed** | Pick the dominant purpose | E.g. "business + tourism" → file as business |
 
-### 步骤 3 — 单次、两次还是多次入境？
+### Step 3 — Single, double, or multiple entry?
 
-| 模式 | 推荐 | 原因 |
+| Pattern | Recommended | Why |
 |---|---|---|
-| **首次申根签证** | 单次入境 | 领事很少在首次申请就授予多次；申请所需，不要多 |
-| **一程一次入境**（伦敦→巴黎→回伦敦） | 单次入境 | 别为不会用的功能付费 |
-| **一程含再入英后再回申根** | 两次入境 | 如法国→英国参加婚礼→回法国 |
-| **6 个月内多次行程** | 多次入境 — 6 个月有效 | 如计划两次商务行 |
-| **回头客（第 3+ 次申根签证）** | 多次入境 — 1 年有效 | 基于之前签证正确使用的历史 |
-| **常旅（5+ 次之前签证正确使用）** | 多次入境 — 3-5 年有效 | 级联规则；领事决定实际有效期 |
+| **First Schengen visa** | Single entry | Consulates rarely grant multi-entry on a first application; ask for what you need for the trip |
+| **One trip with one entry** (London → Paris → back to London) | Single entry | Don't pay for what you won't use |
+| **One trip with re-entry to UK then back to Schengen** | Double entry | E.g. France → UK for a wedding → back to France |
+| **Multiple trips in 6 months** | Multiple entry — 6 months validity | E.g. two business trips planned |
+| **Repeat traveller (3rd+ Schengen visa)** | Multiple entry — 1 year validity | Based on history of correctly-used previous visas |
+| **Frequent traveller (5+ previous visas used correctly)** | Multiple entry — 3-5 year validity | Cascade rule; consulate decides actual validity |
 
-### 步骤 4 — 哪个领事负责？
+### Step 4 — Which consulate is responsible?
 
-| 行程 | 在哪申请 |
+| Itinerary | Apply at |
 |---|---|
-| 仅法国 | 法国领事（伦敦）— 本工具集 |
-| 多申根国，法国停留最久 | 法国领事（伦敦）— 本工具集 |
-| 多申根国，法国停留最短 | 停留最久国家的领事 |
-| 多申根国，停留相等 | 首入境国家的领事 |
-| 仅经法国过境 | 最终目的地国家 |
+| France only | French consulate (London) — this toolkit |
+| Multiple Schengen states, France is longest-stay | French consulate (London) — this toolkit |
+| Multiple Schengen states, France is shortest-stay | Consulate of the longest-stay country |
+| Multiple Schengen states, equal stays | Consulate of first entry |
+| Transit through France only | Country of final destination |
 
-## 流程
+## Procedure
 
-1. **跑步骤 1** — 确认短期（C 类）。如不是，路由出去。
+1. **Run Step 1** — confirm short-stay (Type C). If not, route out.
 
-2. **跑步骤 2** — 确立目的。保存为申请的申报目的。
+2. **Run Step 2** — establish purpose. Save it as the application's stated purpose.
 
-3. **跑步骤 3** — 推荐入境次数。默认单次，除非有明确多次理由。
+3. **Run Step 3** — recommend entries. Default is single unless multi-entry has clear justification.
 
-4. **跑步骤 4** — 确认法国是负责领事。如不是，转给用户正确领事的资源。
+4. **Run Step 4** — confirm France is the responsible consulate. If not, redirect the user to the correct consulate's resources.
 
-5. **按下方模板输出建议**。
+5. **Output the recommendation** in the template below.
 
-## 输出模板
+## Output template
 
 ```
-签证类型建议
-申请人：{{APPLICANT_NAME}}
-行程概览：{{N_DAYS}} 天，{{N_COUNTRIES}} 国
+VISA-TYPE RECOMMENDATION
+Applicant: {{APPLICANT_NAME}}
+Trip overview: {{N_DAYS}} days, {{N_COUNTRIES}} countries
 
 ═════════════════════════════════════════════════════════════════════
-建议
+RECOMMENDATION
 ═════════════════════════════════════════════════════════════════════
 
-签证类型：       C 类 — 申根短期
-目的分类：       {{PURPOSE}}
-入境次数：       {{单次 | 两次 | 多次}}
-申请有效期：     {{匹配行程日期 | 6 个月 | 1 年 | 5 年}}
-负责领事：       {{法国 — 伦敦 | 其他}}
+Visa type:          Type C — Schengen short-stay
+Purpose category:   {{PURPOSE}}
+Entries:            {{SINGLE | DOUBLE | MULTIPLE}}
+Validity requested: {{MATCHING_TRIP_DATES | 6_MONTHS | 1_YEAR | 5_YEARS}}
+Responsible consulate: {{FRANCE — LONDON | OTHER}}
 
 ═════════════════════════════════════════════════════════════════════
-为何此建议
+WHY THIS RECOMMENDATION
 ═════════════════════════════════════════════════════════════════════
 
-{{1-3 句解释}}
+{{1-3 SENTENCE EXPLANATION}}
 
 ═════════════════════════════════════════════════════════════════════
-在 FRANCE-VISAS 上怎么选
+WHAT TO SELECT ON FRANCE-VISAS
 ═════════════════════════════════════════════════════════════════════
 
-填 /france-visas-form 时，选：
-  - 签证类型："Short-stay visa (Type C)"
-  - 目的："{{PURPOSE_DROPDOWN_LABEL}}"
-  - 入境次数：{{单次 | 两次 | 多次}}
-  - 停留时长：{{N_DAYS}} 天
+When you fill /france-visas-form, select:
+  - Visa type: "Short-stay visa (Type C)"
+  - Purpose: "{{PURPOSE_DROPDOWN_LABEL}}"
+  - Number of entries: {{SINGLE | DOUBLE | MULTIPLE}}
+  - Duration of stay: {{N_DAYS}} days
 
 ═════════════════════════════════════════════════════════════════════
-本签证类型独有的文件
+DOCUMENTS UNIQUE TO THIS VISA TYPE
 ═════════════════════════════════════════════════════════════════════
 
-在标准申根文件（护照、照片、保险、求情信、财务）之外：
+In addition to standard Schengen docs (passport, photo, insurance,
+cover letter, financials):
 
-  {{探亲：     东道（亲属）的 Attestation d'Accueil（在其当地 Mairie 签）}}
-  {{商务：     东道公司公函邀请函+你雇主的"批准商务行"信}}
-  {{医疗：     医院预约信+法国医院的费用估算}}
-  {{文化：     活动邀请/会议注册}}
-  {{留学：     学校入学信+学费证明}}
+  {{FAMILY_VISIT:    Attestation d'Accueil from the host (signed at
+                     their local Mairie)}}
+  {{BUSINESS:        Invitation letter from host company on letterhead
+                     + employer letter from your employer authorising
+                     business trip}}
+  {{MEDICAL:         Hospital appointment letter + cost estimate from
+                     the French hospital}}
+  {{CULTURAL:        Event invitation / conference registration}}
+  {{STUDY:           Enrolment letter from school + tuition fee proof}}
 
 ═════════════════════════════════════════════════════════════════════
-下一步
+NEXT STEPS
 ═════════════════════════════════════════════════════════════════════
 
-1. 用目的设为 {{PURPOSE}} 跑 /document-checklist
-2. 跑 /timeline-planner 计算倒推截止日期
-3. 准备好开始申请时跑 /france-visas-form
+1. Run /document-checklist with the purpose set to {{PURPOSE}}
+2. Run /timeline-planner to compute backwards-deadlines
+3. Run /france-visas-form when ready to start the application
 ```
 
-## 路由规则
+## Routing rules
 
-| 结果 | 建议下一步 |
+| Outcome | Suggest next |
 |---|---|
-| C 类 — 旅游 | `/document-checklist`（默认流程） |
-| C 类 — 探亲 | `/document-checklist`+问用户 Attestation d'Accueil；解释东道需从其 Mairie 办 |
-| C 类 — 商务 | `/document-checklist`+`/employment-letter`（邀请函**和**雇主请假信） |
-| C 类 — 留学（≤ 90 天） | `/document-checklist`；警告用户长期课程（>90 天）需 D 类，本集不覆盖 |
-| D 类 | **路由出工具集** — 转给法国大使馆长期签证页；本工具集只覆盖 C 类 |
-| 推荐多次入境 | `/cover-letter` 应解释出行频率理由 |
-| 错领事（非法国） | **路由出去** — 解释领事规则；推荐另一国官方门户 |
+| Type C — Tourism | `/document-checklist` (default flow) |
+| Type C — Family visit | `/document-checklist` + ask user about Attestation d'Accueil; explain host needs to obtain it from their Mairie |
+| Type C — Business | `/document-checklist` + `/employment-letter` (for both invitation letter AND employer leave letter) |
+| Type C — Study (≤ 90 days) | `/document-checklist`; warn user that long-courses (> 90 days) need Type D, not covered |
+| Type D | Route OUT of toolkit — refer to French embassy long-stay visa page; this toolkit only covers Type C |
+| Multi-entry recommended | `/cover-letter` should explain frequency-of-travel justification |
+| Wrong consulate (not France) | Route OUT — explain consulate rule; recommend the other country's official portal |
 
-## 常见陷阱
+## Common pitfalls
 
-| 陷阱 | 为何有害 | 修复 |
+| Pitfall | Why it hurts | Fix |
 |---|---|---|
-| 首次申请就申多次 | 常被拒或降为单次 | 先申单次；积累履历 |
-| 活动含商务会议时选"旅游" | 虚假申报；拒签代码 9 | 选商务；提供商务文件 |
-| 法国停留最短时在法国领事申请 | TLS 可能受理但领事按"负责领事"规则拒 | 在最久停留国领事申请 |
-| 100 天停留申 C 类 | 超 90/180 限制 | 申 D 类 **或** 缩短行程 |
-| 不请求"±缓冲日" | 签证仅按请求日期授予；到达延误=浪费行程 | 请求行程前后各 2-3 天缓冲 |
-| 短期留学（<90 天）与学生签证（>90 天）混淆 | 错签证类型 | 短期课程=C 类；学位=D 类 |
+| Applying for multi-entry on first application | Often refused or downgraded to single | Apply single first; build track record |
+| Picking "Tourism" when activities include business meetings | False declaration; refusal code 9 | Choose Business purpose; provide business documents |
+| Applying at French consulate when France is shortest stay | TLS may accept but consulate refuses (responsible-consulate rule) | Apply at the longest-stay country's consulate |
+| Type C for a 100-day stay | Exceeds 90-in-180 limit | Apply Type D OR shorten trip |
+| Not requesting "± buffer days" | Visa is granted only for requested dates; arrival delay = wasted trip | Request 2-3 buffer days before and after trip dates |
+| Confusing study (< 90 days) with student visa (> 90 days) | Wrong visa type | Short course = Type C; degree = Type D |
 
-## 权威来源
+## Authoritative sources
 
-- France-Visas — 签证类型决策指南 — https://france-visas.gouv.fr/en/web/france-visas/long-or-short-stay — 2026-05-24 已核实
-- EU 签证法第 24 条（Regulation 810/2009）— 多次入境条件 — https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20200202 — 2026-05-24 已核实
-- EU 申根签证计算器（90/180 规则） — https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en — 2026-05-24 已核实
-- 法国 A 类过境签证国籍清单 — https://france-visas.gouv.fr/en/web/france-visas/airport-transit-visa — 2026-05-24 已核实
+- France-Visas — Visa Type Decision Guide — https://france-visas.gouv.fr/en/web/france-visas/long-or-short-stay — verified 2026-05-24
+- EU Visa Code (Regulation 810/2009) Article 24 — multi-entry conditions — https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20200202 — verified 2026-05-24
+- EU Schengen Visa Calculator (90/180 rule) — https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en — verified 2026-05-24
+- France Type A transit nationals list — https://france-visas.gouv.fr/en/web/france-visas/airport-transit-visa — verified 2026-05-24
 
-## 维护者注意事项
+## Notes for maintainers
 
-- **C 类是本工具集 95%+ 处理的对象。** 所有 v0.x 流程默认 C 类，除非明确路由别处。
-- "首次申请=单次"规则是经验，非法定。领事有酌情权；历史模式是先授单次再升级。首次申请多次偶尔成功但常被降级。
-- "多次入境有效期"由领事决定，不是申请人。申请人请求入境模式；领事决定时长（6 个月/1 年/5 年）。
-- 复杂多国行程，"最久停留"计算含各申根国住宿夜数。穿越一国的一日游不算 — 算夜。
-- 对留学生：France-Visas 区分"短期留学"（C 类，≤ 90 天）和"长期留学"（D 类，> 90 天，含大学学位课程）。工具集只处理 C 类；D 类路由出去。
-- 对持非英护照的英国居民，"负责领事"仍是法国（本领事）— 英国**居住权**而非国籍决定在哪申请。
-- 边界：C 类"限定地域有效性"（LTV）— 仅在一个申根国（如仅法国，非其他申根）有效。罕见；特殊情况领事签发。非用户可选。
-- 对国籍要求 A 类机场过境签证的用户，即使只在法国换机也要标出。
+- **Type C is 95%+ of what this toolkit handles.** All v0.x flows assume Type C unless explicitly routed elsewhere.
+- The "first application = single entry" rule is empirical, not statutory. Consulates have discretion; the historical pattern is to grant single on first, then escalate over time. Users who request multi-entry on first apps occasionally succeed but often get downgraded.
+- "Multi-entry validity" is decided by the consulate, not the applicant. The applicant requests an entry pattern; the consulate decides duration (6 months / 1 year / 5 years).
+- For complex multi-country itineraries, the "longest stay" calculation includes nights spent in each Schengen state. Day trips through a country don't count — count nights.
+- For students: France-Visas distinguishes between "short-stay study" (Type C, ≤ 90 days) and "long-stay study" (Type D, > 90 days, includes university degree programmes). The toolkit only handles Type C; route Type D out.
+- For UK residents with non-UK passports, the "responsible consulate" is still France (this consulate) — UK residency, not citizenship, determines where you can apply.
+- Edge case: Type C "limited territorial validity" (LTV) — visa valid only for one Schengen state (e.g. France only, not other Schengen). Rare; consulate-issued in special circumstances. Not user-selectable.
+- For users whose nationality requires Type A airport transit visa, ensure this is flagged even if they're only changing planes in France.

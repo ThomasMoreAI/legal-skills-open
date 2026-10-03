@@ -19,4 +19,4 @@ Jurisdiction: `br` · Practice: `data-protection` · Skill language: en
 | [`PII scrub`](skills/pii-scrub/) | Before sharing client or processual content with the assistant, pseudonymize PII: names →… |
 | [`Policy monitor`](skills/policy-monitor-bossmann007/) | Keep the privacy policy current with practice. Two modes: weekly sweep of saved PIAs, DPA reviews, and… |
 | [`Privacy Program Implementation / LGPD Adequacy Plan`](skills/privacy-program-implementation-bossmann007/) | Implementação de Programa de Privacidade / Plano de Adequação à LGPD para empresa: mapeamento de dados… |
-| [`Reg gap analysis`](skills/reg-gap-analysis-bossmann007/) | Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a… |
+| [`/reg-gap-analysis`](skills/reg-gap-analysis-privacy-legal-bossmann007/) | Diff a new or changed regulation against current privacy policy and practice — outputs a gap list and a… |

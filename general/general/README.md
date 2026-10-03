@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `general` · Practice: `general` · Skill language: en
 
-## Skills (492)
+## Skills (493)
 
 | Skill | What it does |
 |---|---|
@@ -305,7 +305,8 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Matter workspace`](skills/matter-workspace-28/) | 管理事项工作空间——新建、列表、切换、关闭或脱钩（实务级）。 当您为多个客户或事项工作、需要创建、列出、切换、关闭或脱钩活跃事项 以防一个委托事项的上下文泄漏到另一个时使用。 |
 | [`$litigation-legal:matter-workspace`](skills/matter-workspace-4/) | Manage matter workspaces for multi-client practices — create, list, switch, close, or detach the active… |
 | [`Matter workspace`](skills/matter-workspace-anthropics/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). File-management logic… |
-| [`Matter workspace`](skills/matter-workspace-bossmann007/) | Manage matter workspaces — create, list, switch, close, or detach the active matter (practice-level).… |
+| [`/matter-workspace`](skills/matter-workspace-commercial-legal-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when a multi-client… |
+| [`/matter-workspace`](skills/matter-workspace-product-legal-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when working across… |
 | [`Matter workspace`](skills/matter-workspace-zhou210712/) | 管理事务工作区——创建、列表、切换、关闭或解除活跃事务。 适用于多客户私人执业场景，将一个客户或委托的上下文与另一个 隔离开。也可以在实质技能需要知道它在哪个事务中工作时使用。 |
 | [`Meeting Briefing Skill`](skills/meeting-briefing-anthropic/) | Prepare structured briefings for meetings with legal relevance and track resulting action items. Use… |
 | [`Mehrsprachiges Output-Dossier`](skills/mehrsprachiges-output-dossier/) | Für Mehrsprachiges Output-Dossier: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

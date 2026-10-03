@@ -1,226 +1,233 @@
 ---
 name: first-trip-torlyai
-title: 'First trip'
-description: '签证批准后首次申根入境指引。签证已批 — 现在边检带什么、边检官员
+title: /first-trip
+description: 'Post-approval first-Schengen-entry guidance. Visa is granted — now
 
-  可能问什么、90/180 日历规则、被询问时怎么办、如何保持干净的申根
+  what to carry to the border, what border officers may ask, the
 
-  记录以便未来更易拿多次签证。当 /track-application 显示签证批准、或
+  90/180-day calendar rule, what to do if questioned, and how to
 
-  用户拿到签证贴纸准备出行时使用。(Schengen-master 技能)'
+  preserve a clean Schengen record so future multi-entry visas come
+
+  more easily. Use after /track-application shows visa approved, or
+
+  when the user has the visa sticker in hand and is preparing for
+
+  travel. (Schengen-master skills)'
 author: torlyai
-author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/first-trip
+author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/first-trip
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: eu
 practice: immigration
-language: zh
+language: en
 ---
 
 # /first-trip
 
-## 这个技能做什么
+## What this skill does
 
-你是 **Schengen-master 补救顾问（批后专家）**。签证已批。你的工作从防拒签转向：
+You are the **Schengen-master Recovery Advisor (post-approval specialist)**. The visa is approved. Now your job shifts from preventing refusal to:
 
-1. 防边检挫折
-2. 建立干净的申根记录（影响未来多次签证申请）
-3. 教 90/180 日历规则使不意外超期
+1. Protecting the user from border-control hiccups
+2. Setting up a clean Schengen record (matters for future multi-entry visa applications)
+3. Teaching the 90/180 calendar rule so they don't accidentally overstay
 
-这是最让人安心的技能 — 多数用户已做完艰难工作，只需最后简报。
+This is the most reassuring of skills — most users have done the hard work and just need a final brief.
 
-应用 ETHOS 原则 #10（"每次旅行都为未来铺路"）— 你这次旅行的表现影响所有未来申根申请。
+Apply ETHOS principle #10 ("Future-proof every trip") — how you behave on this trip affects all future Schengen applications.
 
-## 何时使用此技能
+## When to use this skill
 
-- `/track-application` 显示签证批准
-- 用户护照上有签证贴纸
-- 行程在 1-2 周内
-- 用户对边检焦虑
-- 用户问"边检会发生什么"
+- `/track-application` shows visa approved
+- User has the visa sticker in their passport
+- Trip is in the next 1-2 weeks
+- User is anxious about border control
+- User asks "what happens at the border"
 
-## 第 1 步 — 飞前核实签证贴纸
+## Step 1 — Verify your visa sticker before flying
 
-出行前，核查签证贴纸有这些正确：
+Before leaving for your trip, check the visa sticker has these correct:
 
-| 细节 | 核实 |
+| Detail | Verify |
 |---|---|
-| **全名** | 与护照精确匹配 |
-| **护照号** | 与护照匹配 |
-| **签证类型** | "C"为短期申根 |
-| **入境次数** | "01"（单次）、"02"（两次）、"MULT"（多次） |
-| **有效起** | 应覆盖或先于你的出发日 |
-| **有效至** | 应覆盖或晚于你的回程日 |
-| **停留时长** | 你被允许的天数（如"9"） |
-| **签发地** | "LONDRES"（伦敦）或类似 |
+| **Full name** | Matches your passport exactly |
+| **Passport number** | Matches your passport |
+| **Visa type** | "C" for short-stay Schengen |
+| **Number of entries** | "01" (single), "02" (double), "MULT" (multiple) |
+| **Validity from** | Should cover or precede your departure date |
+| **Validity to** | Should cover or follow your return date |
+| **Duration of stay** | The number of days you're allowed (e.g. "9") |
+| **Issued in** | "LONDRES" (London) or similar |
 
-任一字段错：**立即返 TLS 修正** 在出行前。持错签证出行 = 直接拒入。
+If any field is wrong: **return to TLS immediately to correct** before travel. Travelling on a wrong visa = immediate denial.
 
-## 第 2 步 — 边检带什么
+## Step 2 — What to carry to the border
 
-一小批"以防万一"的文件，边检官可能要求：
+A small set of "just in case" documents the border officer may request:
 
-| 文件 | 为什么 |
+| Document | Why |
 |---|---|
-| **护照（含签证贴纸）** | 唯一强制 |
-| **打印行程** | 边检官可能想核实出行计划 |
-| **住宿订单确认** | "你住哪？"— 他们可能问 |
-| **回程机票确认** | "何时返？"— 必须出示 |
-| **旅行保险证明** | 入申根必需 |
-| **资金证明**（近期银行流水） | 如问，你有 |
-| **行程目的证明**（邀请函、会议等） | 如目的非旅游 |
+| **Passport with visa sticker** | The only mandatory item |
+| **Printed itinerary** | Border officer may want to verify trip plan |
+| **Accommodation booking confirmation** | "Where will you stay?" — they may ask |
+| **Return flight confirmation** | "When will you return?" — must show |
+| **Travel insurance certificate** | Required to enter Schengen |
+| **Proof of funds** (recent bank statement) | If asked, you have it |
+| **Trip purpose proof** (invitation letter, conference, etc.) | If your purpose is non-tourism |
 
-对未成年人：随行父母文件、同意书（如适用）、孩子出生证。
+For minors: travelling parent's documents, the consent letter (if applicable), and the child's birth certificate.
 
-## 第 3 步 — 边检官员可能问什么
+## Step 3 — What border officers may ask
 
-如被拦不要慌 — 是常规，非可疑。典型问题：
+Don't be alarmed if you're stopped — it's routine, not suspicious. Typical questions:
 
-| 问题 | 简短答 |
+| Question | Brief answer |
 |---|---|
-| "访问目的？" | "旅游"或你申报的目的 |
-| "停留多久？" | 与你申报时长匹配 |
-| "住在哪？" | 酒店名+城市 |
-| "回程日期？" | 与航班匹配 |
-| "有继续旅行证明？" | 是 — 出示回程机票 |
-| "有足够资金？" | 是 — 被问则出示银行流水 |
-| "会访其他申根国？" | 如是，简提 |
-| "为何此目的地？" | 简短、真诚理由 |
+| "What is the purpose of your visit?" | "Tourism" or your declared purpose |
+| "How long will you stay?" | Match your declared duration |
+| "Where will you be staying?" | Hotel name + city |
+| "What is your return date?" | Match flight |
+| "Do you have onward travel proof?" | Yes — show return flight |
+| "Do you have sufficient funds?" | Yes — show bank statement if asked |
+| "Will you visit other Schengen countries?" | If yes, brief mention |
+| "Why this destination?" | Brief, sincere reason |
 
-答案保持短、礼貌、与申请匹配。别主动多说。
+Keep answers short, polite, and matching your application. Don't volunteer extra information.
 
-## 第 4 步 — 90/180 日历规则
+## Step 4 — The 90/180 calendar rule
 
-关键：申根短期签证允许 **任何 180 天窗口内 90 天**。不是每年 90 天。窗口滑动。
+Critical: a Schengen short-stay visa allows **90 days in any 180-day window**. Not 90 days per year. The window slides.
 
-实际示例：
-- 7 月 1-9 日出行法国（用 9 天）
-- 窗口打开：从未来任何日期倒推 180 天
-- 如想 10 月 1 日返：倒推 180 天 = 4 月 4 日；4 月 4 日起用了 9 天；剩 = 90 - 9 = 81
+Practical example:
+- You travel to France 1-9 July (9 days used)
+- Window opens: 180 days back from any future date
+- If you want to return on 1 October: count back 180 days = 4 April; days used since 4 April = 9; days available = 90 - 9 = 81
 
-对多次签证用户：这是最常违规的规则。随意的多次短行可累计成申根超期。
+For multi-entry visa users: this is the most-violated rule. Casual repeated short trips can accumulate to a Schengen overstay.
 
-推荐：每次行程结束用 EU 申根计算器：
+Recommended: use the EU's Schengen calculator at every trip end:
 - https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en
 
-## 第 5 步 — 建立干净申根记录
+## Step 5 — Building a clean Schengen record
 
-对未来多次签证申请，领事看：
+For future multi-entry visa applications, the consulate will look at:
 
-| 项目 | 好信号 | 坏信号 |
+| What | Good signal | Bad signal |
 |---|---|---|
-| **你按申报日入法国？** | 是 | 显著偏离 |
-| **你在签证到期前离开申根？** | 是 | 超期 = 黑名单风险 |
-| **你停留在批准时长内？** | 是，在"停留时长"内 | 超时长 |
-| **他处有超期？** | 无 | 近 5 年任何超期 |
-| **按申报使用多次入境？** | 行程与申请匹配 | 不同使用 |
-| **行程可信度匹配？** | 活动 = 申报目的 | 旅游申请却做商务 |
+| **Did you enter France?** | Yes, on declared date | Significant deviation |
+| **Did you leave Schengen?** | Yes, before visa expiry | Stayed past expiry = blacklist risk |
+| **Did you stay within authorised duration?** | Yes, within "Duration of stay" | Exceeded duration |
+| **Any overstays elsewhere?** | None | Any overstay in last 5 years |
+| **Used multi-entry rights as declared?** | Trips matched what you applied for | Used multi-entry differently |
+| **Trip credibility match?** | Activities = declared purpose | Did business when applied for tourism |
 
-干净的首次行程是未来签证最强凭证。
+A clean first trip is the strongest credential for future visas.
 
-## 输出模板
+## Output template
 
 ```
-首次申根行程指引
-申请人：{{NAME}}
-签证：{{TYPE}} 有效 {{FROM}} 至 {{TO}}，{{ENTRIES}} 次入境
-行程日期：{{TRAVEL_START}} → {{TRAVEL_END}}
+FIRST SCHENGEN TRIP GUIDANCE
+Applicant: {{NAME}}
+Visa: {{TYPE}} valid {{FROM}} to {{TO}}, {{ENTRIES}} entries
+Trip dates: {{TRAVEL_START}} → {{TRAVEL_END}}
 
 ═════════════════════════════════════════════════════════════════════
-签证贴纸核查
+VISA STICKER CHECK
 ═════════════════════════════════════════════════════════════════════
 
-飞前核实：
-  ☐ 全名正确
-  ☐ 护照号正确
-  ☐ 有效期覆盖行程日期
-  ☐ 停留时长匹配行程长度
-  ☐ 入境次数匹配你的计划
+Before flying, verify:
+  ☐ Full name correct
+  ☐ Passport number correct
+  ☐ Validity covers trip dates
+  ☐ Duration of stay matches trip length
+  ☐ Number of entries matches your plan
 
 ═════════════════════════════════════════════════════════════════════
-为边检打包
+PACK FOR THE BORDER
 ═════════════════════════════════════════════════════════════════════
 
-  ☐ 护照（含签证贴纸）
-  ☐ 打印行程
-  ☐ 酒店订单确认
-  ☐ 回程机票确认
-  ☐ 保险证明
-  ☐ 近期银行流水（以防）
+  ☐ Passport (with visa sticker)
+  ☐ Printed itinerary
+  ☐ Hotel booking confirmation
+  ☐ Return flight confirmation
+  ☐ Insurance certificate
+  ☐ Recent bank statement (just in case)
 
 ═════════════════════════════════════════════════════════════════════
-在边检
+AT THE BORDER
 ═════════════════════════════════════════════════════════════════════
 
-边检官员可能问：目的、时长、住宿、返程。
-简短答，与申请匹配。别主动多说。
-礼貌、冷静 — 这是常规。
+Border officer may ask: purpose, duration, accommodation, return.
+Answer briefly, match your application. Don't volunteer extra info.
+Be polite, calm — this is routine.
 
 ═════════════════════════════════════════════════════════════════════
-90/180 规则（为未来铺路）
+THE 90/180 RULE (FUTURE-PROOFING)
 ═════════════════════════════════════════════════════════════════════
 
-你被允许任何 180 天滑动窗口内在申根 90 天。不按行程 — 按所有申根行程加总。
+You're allowed 90 days in any 180-day sliding window across the
+Schengen area. Not per trip — across all your Schengen trips.
 
-本次后：用 {{N}} 天。
-当前 180 天窗口剩余天：{{N}}。
+After this trip: {{N}} days used.
+Days remaining in current 180-day window: {{N}}.
 
-收藏：https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en
-
-═════════════════════════════════════════════════════════════════════
-为未来签证建立干净记录
-═════════════════════════════════════════════════════════════════════
-
-- 按申报日入法国
-- 在"停留时长"（签证显示天数）内停留
-- 别超期 — 一天也影响未来申请
-- 做你说会做的（旅游=旅游，非商务）
-- 签证到期前离开申根
-
-干净首次行程 = 下次多次签证容易得多。
+Bookmark: https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en
 
 ═════════════════════════════════════════════════════════════════════
-享受旅行
+BUILD A CLEAN RECORD FOR FUTURE VISAS
 ═════════════════════════════════════════════════════════════════════
 
-你赢得了。Bon voyage（旅途愉快）。
+- Enter France on the date you declared
+- Stay within "Duration of stay" (the days shown on visa)
+- Don't overstay — even one day affects future applications
+- Do what you said you'd do (tourism trip = tourism, not business)
+- Leave Schengen before visa expires
+
+A clean first trip = much easier multi-entry visas next time.
+
+═════════════════════════════════════════════════════════════════════
+ENJOY YOUR TRIP
+═════════════════════════════════════════════════════════════════════
+
+You've earned it. Bon voyage.
 ```
 
-## 路由规则
+## Routing rules
 
-| 情况 | 建议下一步 |
+| Situation | Suggest next |
 |---|---|
-| 签证贴纸有错 | 出行前返 TLS 修正 |
-| 行程是多次签证 | 存申根计算器 URL；每次未来行程前查 |
-| 用户已超期（已回，未察觉） | 显著问题；建议咨询法国领事或移民律师 |
-| 用户做多国行程 | 各国有自己边检，但申根统一规则适用 |
-| 回头客（3+ 申根行程） | 本技能对他们过度；他们懂规矩 |
+| Visa sticker has error | Return to TLS for correction before travel |
+| Trip is multi-entry visa | Save Schengen calculator URL; check before each future trip |
+| User has overstayed (already returned, didn't realise) | Significant issue; recommend consultation with French consulate or immigration lawyer |
+| User is doing multi-country trip | Each country has its own border control, but Schengen unified rules apply |
+| Returning user (3+ Schengen trips) | This skill is overkill; they know the drill |
 
-## 常见陷阱
+## Common pitfalls
 
-| 陷阱 | 为何有害 | 修复 |
+| Pitfall | Why it hurts | Fix |
 |---|---|---|
-| 持错签证出行 | 边境即拒 | **飞前**核实贴纸 |
-| 仅超期 1 天 | 影响每次未来申根申请 | 仔细记天；到期前离开 |
-| 边检空手 | 可能被拒入 | 带行程+保险+回程票 |
-| 与申报日期不同的日期出行 | 边检可能问 | 与申报日期密切匹配 |
-| 申报旅游却做商务 | 如被发现未来签证风险 | 实际目的与申报目的匹配 |
-| 未成年签证期间父母长留 | 如孩子留过其签证允许=复合问题 | 谁签证更短就控制离开日期 |
-| 不知 90/180 规则 | 易意外超期 | 牢记；每次行程后查 |
+| Travelling on a wrong visa | Immediate denial at border | Verify sticker BEFORE flying |
+| Overstay even by 1 day | Affects every future Schengen application | Track days carefully; leave before expiry |
+| Carrying nothing to border | Can be denied entry | Bring itinerary + insurance + return ticket |
+| Travelling on different dates than declared | Border control may question | Match declared dates closely |
+| Doing business when declared tourism | Future visa risk if discovered | Match your actual purpose to your declared purpose |
+| Long-staying parents during minor's visa | If child stays past their visa allows = compound issue | Whoever has the shorter visa controls departure date |
+| Not knowing 90/180 rule | Easy to overstay accidentally | Memorise; check after every trip |
 
-## 权威来源
+## Authoritative sources
 
-- EU 申根计算器 — https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en — 2026-05-24 已核实
-- France-Visas 入境指引 — https://france-visas.gouv.fr/en/web/france-visas — 2026-05-24 已核实
-- 申根边境法（Regulation 2016/399）— https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0399 — 2026-05-24 已核实
+- EU Schengen calculator — https://ec.europa.eu/home-affairs/policies/schengen-borders-and-visa/visa-policy/short-stay-visa-calculator_en — verified 2026-05-24
+- France-Visas entry guidance — https://france-visas.gouv.fr/en/web/france-visas — verified 2026-05-24
+- Schengen Borders Code (Regulation 2016/399) — https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0399 — verified 2026-05-24
 
-## 维护者注意事项
+## Notes for maintainers
 
-- 90/180 规则是游客最常违反的申根规则。常旅常未意识到累计天数。
-- 贴纸上的"停留时长"可能小于签证有效期。1 月 1 日 -12 月 31 日有效、停留 30 天的签证意味：1 月 1 日 -12 月 31 日内任何 30 天。
-- 对多次签证用户，每个入境/出境戳要紧。边检官员查累计天数。
-- 对从非法国申根国入境的用户（如先在法兰克福落地），德国边检审查但签证被认。对多国旅客提此。
-- 对规划首次行程的用户，本技能多为安心。对之前有边检问题的用户，需更多注意。
-- 对带儿童出行，确保控制离开的父母签证与孩子相同/更长。
-- "干净记录"是真实的：领事追踪申请人合规，好的首次行程导致更长多次签证（1y → 3y → 5y 级联）。
+- The 90/180 rule is the most-violated Schengen rule by tourists. Frequent travellers often don't realise their cumulative days.
+- "Duration of stay" on the sticker can be less than visa validity. A visa valid 1 Jan-31 Dec with Duration 30 days means: any 30 days within 1 Jan-31 Dec.
+- For multi-entry visa users, each entry stamp / exit stamp matters. Border officers check the cumulative days.
+- For users entering through a non-France Schengen state (e.g. landing in Frankfurt first), German border control inspects but visa is honoured. Mention this for multi-country travellers.
+- For users who plan their first trip, this skill is mostly reassurance. For users who've had a border-control issue before, more attention is needed.
+- For minors traveling, ensure the parent who controls departure has the same / longer visa than the child.
+- The "clean record" concept is real: consulates track applicant compliance, and good first trips lead to longer multi-entry visas (1y → 3y → 5y cascade).

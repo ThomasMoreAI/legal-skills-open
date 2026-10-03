@@ -39,7 +39,7 @@ Jurisdiction: `general` · Practice: `employment` · Skill language: en
 | [`Log leave`](skills/log-leave/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines.… |
 | [`$employment-legal:log-leave`](skills/log-leave-alexchlou/) | Add a new leave to the leave register with the minimum information needed to start tracking deadlines.… |
 | [`$employment-legal:matter-workspace`](skills/matter-workspace-8/) | Manage matter workspaces — new, list, switch, close, or detach (practice- level). Creates, lists… |
-| [`Matter workspace`](skills/matter-workspace-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice- level). Creates, lists… |
+| [`/matter-workspace`](skills/matter-workspace-employment-legal-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice- level). Creates, lists… |
 | [`Matter workspace`](skills/matter-workspace-zekaisuni/) | Employment matter workspace'lerini yönetir: yeni dosya açma, listeleme, aktif dosya değiştirme… |
 | [`Separation Documenter`](skills/separation-documenter-rohasnagpal/) | Prepares lawful, internally consistent documents for resignation, termination, redundancy, retirement… |
 | [`Termination review`](skills/termination-review-anthropics/) | Termination review — high-risk flag detection, severance + release, and final pay timing by… |

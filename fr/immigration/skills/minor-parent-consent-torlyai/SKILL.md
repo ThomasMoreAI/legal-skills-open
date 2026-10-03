@@ -1,6 +1,6 @@
 ---
 name: minor-parent-consent-torlyai
-title: 'Minor parent consent'
+title: /minor-parent-consent
 description: 'Drafts a notarised parental consent letter for minor (under-18)
 
   Schengen visa applicants travelling without one or both parents.
@@ -17,7 +17,7 @@ description: 'Drafts a notarised parental consent letter for minor (under-18)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/minor-parent-consent
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration

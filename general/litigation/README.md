@@ -141,7 +141,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Matter update`](skills/matter-update-anthropics/) | Append a dated event to a matter's history file and refresh the log row — captures new developments… |
 | [`Matter update`](skills/matter-update-zhou210712/) | 向案件历史文件追加带日期的事件记录并刷新日志行—— 捕获新进展、状态变化、风险重评估、期限变更和和解授权变更。 当用户需要记录案件更新、标注进展或对案件组合记录状态变更时使用。 |
 | [`Matter workspace`](skills/matter-workspace-3/) | 为多客户执业场景管理案件工作空间——创建、列表、切换、关闭或脱离活跃案件。 当用户需要创建新案件工作空间、切换活跃案件、列出案件、归档案件或 仅在实务级工作而不关联特定案件时使用。 |
-| [`Matter workspace`](skills/matter-workspace-bossmann007/) | Manage matter workspaces for multi-client practices — create, list, switch, close, or detach the active… |
+| [`/matter-workspace`](skills/matter-workspace-litigation-legal-bossmann007/) | Manage matter workspaces for multi-client practices — create, list, switch, close, or detach the active… |
 | [`Mediation Statement`](skills/mediation-statement/) | Drafts persuasive mediation statements for litigation, structuring narrative across liability, damages… |
 | [`Negotiation Support`](skills/negotiation-support/) | Generates a strategic negotiation support document with leverage analysis, BATNA assessment, risk… |
 | [`New Case - 创建新案件/整理咨询材料`](skills/new-case/) | 将案件/咨询/商标/专利材料整理成标准化目录结构，并可从用户描述或已有本地目录学习个人文档规范，存入不公开的本地覆盖配置。支持诉讼、咨询、商标和专利四种预设。本技能应在用户需要创建新案件、初始化或整理案件目录，… |
