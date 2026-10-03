@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 
-## Skills (72)
+## Skills (73)
 
 | Skill | What it does |
 |---|---|
@@ -58,6 +58,7 @@ Jurisdiction: `general` · Practice: `regulatory` · Skill language: en
 | [`Lodge Recon`](skills/lodge-recon/) | Survey pending and required regulatory filings. Use when asked "what filings are due", "survey our… |
 | [`Matter workspace`](skills/matter-workspace-25/) | Birden çok müvekkil/iş/regülasyon projesi için ayrı matter workspace oluşturur, listeler, aktif hale… |
 | [`$regulatory-legal:matter-workspace`](skills/matter-workspace-9/) | Manage matter workspaces — create, list, switch, close, or detach the active matter (practice-level).… |
+| [`/matter-workspace`](skills/matter-workspace-regulatory-legal-bossmann007/) | Manage matter workspaces — create, list, switch, close, or detach the active matter (practice-level).… |
 | [`NIST AI Risk Management Framework (AI RMF 1.0) Skill`](skills/nist-ai-rmf/) | Expert NIST AI Risk Management Framework (AI RMF 1.0) advisor covering all four functions: GOVERN, MAP… |
 | [`OSCAL Document Engineering`](skills/oscal-document-engineering/) | Convert, validate, and maintain OSCAL documents from legacy SSP/PDF/DOCX/Markdown source material. |
 | [`Policy Brief`](skills/policy-brief/) | Generates structured public policy briefs analyzing legislation across economic, social, legal, and… |

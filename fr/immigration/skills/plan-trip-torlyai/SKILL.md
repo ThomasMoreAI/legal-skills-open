@@ -1,6 +1,6 @@
 ---
 name: plan-trip-torlyai
-title: 'Plan trip'
+title: /plan-trip
 description: 'Iteratively plans a France Schengen trip with the user — destinations,
 
   dates, duration, group composition, rough budget — and surfaces the
@@ -21,7 +21,7 @@ description: 'Iteratively plans a France Schengen trip with the user — destina
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/plan-trip
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration

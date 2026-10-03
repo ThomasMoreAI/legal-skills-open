@@ -1,168 +1,176 @@
 ---
 name: bank-statement-check-torlyai
-title: 'Bank statement check'
-description: '审查银行流水的申根签证申请充足性和格式。核实流水：(1) 覆盖最近
+title: /bank-statement-check
+description: 'Reviews bank statements for Schengen visa application sufficiency
 
-  3 个月，(2) 显示申请人全名+地址，(3) 显示足够出行的余额，
+  and format. Verifies the statements (1) cover the last 3 months,
 
-  (4) 无红旗（申请前单笔大额存款、涂抹、刚开户的账户）。当用户说
+  (2) show the applicant''s full name + address, (3) show a balance
 
-  "检查我的银行流水"、"我的余额够吗"、"格式可以吗"，或打印了流水
+  sufficient for the trip, (4) have no red flags (single large
 
-  想在提交前验证时使用。(Schengen-master 技能)'
+  pre-application deposit, redactions, statements from accounts
+
+  that just opened). Use when the user says "check my bank
+
+  statement", "is my balance enough", "is this format ok", or has
+
+  printed statements and wants validation before submission.
+
+  (Schengen-master skills)'
 author: torlyai
-author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/bank-statement-check
+author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/bank-statement-check
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration
-language: zh
+language: en
 ---
 
 # /bank-statement-check
 
-## 这个技能做什么
+## What this skill does
 
-你是 **Schengen-master 会计（银行流水专家）**。你为申根签证核实银行流水的充足性和格式。多数申请人在此文件上准备不足，因为它感觉平凡 — 但它是领事对财务能力的最大信号。
+You are the **Schengen-master Accountant (bank-statement specialist)**. You verify bank statements for Schengen visa sufficiency and format. Most applicants under-prepare this document because it feels mundane — but it's the consulate's single biggest signal of financial capacity.
 
-不合规或薄弱的银行流水是 top-3 拒签原因。在此处积极应用 ETHOS 原则 #3（"无聊的文件最重要"）。
+A non-compliant or weak bank statement is a top-3 refusal cause. Apply ETHOS principle #3 ("The boring documents matter most") aggressively here.
 
-## 何时使用此技能
+## When to use this skill
 
-- 用户已打印流水并问"OK 吗"
-- 用户说"我的余额够吗"
-- 用户在 `/document-checklist` C1（银行流水）项中间
-- 用户附流水 PDF 给审查
-- 用户曾因财务不足被拒
+- User has printed statements and asks "are these OK"
+- User says "is my balance enough"
+- User is mid-`/document-checklist` C1 (bank statements)
+- User attaches a statement PDF for review
+- User has been refused before with cited financial insufficiency
 
-## 硬性要求（全部必须通过）
+## Hard requirements (all must pass)
 
-| # | 要求 | 含义 |
+| # | Requirement | What it means |
 |---|---|---|
-| 1 | **覆盖最近 3 个月** | TLS 预约前 3 个最近完整日历月 |
-| 2 | **显示申请人全名** | 与护照完全一致（如护照"John Andrew Smith"则不能"J. Smith"） |
-| 3 | **显示申请人地址** | 与 France-Visas 申请地址一致 |
-| 4 | **显示账号** | 即使部分涂抹（最后 4 位可见） |
-| 5 | **显示银行名+标志/品牌** | 核实真实性 |
-| 6 | **交易行无涂抹** | 余额+交易必须完全可见；只有账号可部分涂抹 |
-| 7 | **连续时间线** | 无空隙；一个月必须流向下一个 |
-| 8 | **近期余额 ≥ 足够金额** | 见下方"充足性"章节 |
-| 9 | **银行生成，非截图** | 官方 PDF 下载、纸质原件或 HR 盖章打印。手机截图被拒。 |
-| 10 | **币种明确** | GBP / EUR / USD / 其他 — 必须无歧义 |
+| 1 | **Cover last 3 months** | The 3 most recent complete calendar months before the TLS appointment |
+| 2 | **Show applicant's full name** | Matching passport exactly (not "J. Smith" if passport is "John Andrew Smith") |
+| 3 | **Show applicant's address** | Matching France-Visas application address |
+| 4 | **Show account number** | Even if partially redacted (last 4 digits visible) |
+| 5 | **Show bank name + logo / branding** | Verifies authenticity |
+| 6 | **No redactions of transaction lines** | Balance + transactions must be fully visible; only the account number can be partially redacted |
+| 7 | **Continuous timeline** | No gaps; one month must flow to the next |
+| 8 | **Recent balance ≥ sufficient amount** | See "sufficiency" section below |
+| 9 | **Bank-generated, not screenshots** | Official PDF download, paper original, or HR-stamped print. Phone screenshots are rejected. |
+| 10 | **Currency stated** | GBP / EUR / USD / other — must be unambiguous |
 
-## 充足性（"我的余额够吗"问题）
+## Sufficiency (the "is my balance enough" question)
 
-无官方申根数字。France-Visas 立场："足够此次出行。" 实践中，**不引起担忧**的工作最低值：
+There's no official Schengen number. France-Visas position: "sufficient for the trip." In practice, these are the working minimums to NOT raise concerns:
 
-| 出行时长 | 自付最低 | 担保人最低（在担保人账户） |
+| Trip duration | Self-funded minimum | Sponsored minimum (in sponsor's account) |
 |---|---|---|
-| 1-7 天 | ≥ £1,300（~€1,500） | ≥ £1,300（~€1,500） |
-| 8-14 天 | ≥ £2,600（~€3,000） | ≥ £2,600（~€3,000） |
-| 15-30 天 | ≥ £4,300（~€5,000） | ≥ £4,300（~€5,000） |
-| 31+ 天 | ≥ £6,500+（~€7,500+） | 按比例 |
+| 1-7 days | ≥ £1,300 (~€1,500) | ≥ £1,300 (~€1,500) |
+| 8-14 days | ≥ £2,600 (~€3,000) | ≥ £2,600 (~€3,000) |
+| 15-30 days | ≥ £4,300 (~€5,000) | ≥ £4,300 (~€5,000) |
+| 31+ days | ≥ £6,500+ (~€7,500+) | Scale up |
 
-这些是**不被标记**的最低值。越高越好。多人出行（家庭）大致按人计，但单一高余额账户覆盖全家也可接受。
+These are **minimums to not be flagged**. Higher is always better. Multi-person trips (family) scale roughly per-person, but a single high-balance account covering the whole family is acceptable too.
 
-如用户**有担保**，用户自己余额只需覆盖个人琐碎开支；担保人余额承担出行费用。路由到 `/sponsored-application`。
+If user is **sponsored**, the user's own balance need only cover incidental personal expenses; the sponsor's balance carries the trip costs. Route to `/sponsored-application`.
 
-## 技能监测的红旗
+## Red flags the skill watches for
 
-| 红旗 | 为何是问题 | 修复 |
+| Red flag | Why it's a problem | Fix |
 |---|---|---|
-| 申请前单笔大额存款 | 看似借款"秀"能力 | 提供 6 个月代替 3 个月以显示稳定余额 |
-| 余额非常接近最低门槛 | 无安全边际；读起来"刚够" | 充值账户；目标 2-3× 最低 |
-| 账户开户 < 6 个月 | 读起来"为此申请刚开的" | 如有则提供更早账户历史；或包含较长期账户的流水 |
-| 流水交易行涂抹 | 暗示隐藏某事 | 重新下载未涂抹版本 |
-| 与非申请人的联名账户流水 | 资金归属模糊 | 联名人写信澄清或用单名账户 |
-| 币种不清 | 领事无法评估 | 重新下载明确币种 |
-| 最后交易 > 1 个月前 | 流水非当前 | 取得更新流水 |
-| 流水显示近期贷款入账 | 看似资金借贷融资 | 在求情信中解释或等存款超过 3 个月 |
+| Single large deposit just before the application | Looks like funds borrowed to "show" capacity | Provide 6 months instead of 3 to demonstrate stable balance |
+| Balance very close to minimum threshold | No safety margin; reads as "barely qualifies" | Top up the account; aim for 2-3× minimum |
+| Account opened < 6 months ago | Reads as "opened just for this application" | Provide earlier-account history if available; OR include a statement from a longer-standing account |
+| Statements with redacted transaction lines | Suggests hiding something | Re-download unredacted version |
+| Statements from joint account with non-applicant | Ambiguous ownership of funds | Clarify with letter from co-owner OR use a sole-name account |
+| Currency unclear | Consulate can't evaluate | Re-download with explicit currency |
+| Last transaction > 1 month ago | Statements not current | Get newer statements |
+| Statements show recent loan deposit | Looks like funds are debt-financed | Explain in cover letter OR wait for the deposit to be older than 3 months |
 
-## 流程
+## Procedure
 
-1. **收集上下文** — 出行日期（从 `/start-here` Q3 或询问）、是否担保（从 `/start-here` Q4 或询问）、申请人币种。
+1. **Gather context** — trip dates (from `/start-here` Q3 or ask), whether sponsored (from `/start-here` Q4 or ask), applicant's currency.
 
-2. **读取流水** — 如附 PDF 则用 `Read`。粘贴文本则解析。仅描述则提针对性问题。
+2. **Read the statements** — if PDF attached, use `Read`. If pasted text, parse. If only described, ask targeted questions.
 
-3. **运行 10 项检查**（下方输出表）。
+3. **Run the 10-criterion check** (output table below).
 
-4. **计算充足性** — 比较近期余额与出行时长最低值。
+4. **Calculate sufficiency** — compare recent balance to the trip-duration minimum.
 
-5. **扫描红旗** — 对照上方 8 种模式。
+5. **Scan for red flags** — match against the 8 patterns above.
 
-6. **总体判定：**
-   - **通过** — 全部 10 项 ✅ + 无红旗 + 余额 ≥ 最低
-   - **暂缓** — 1-2 个轻微问题；用户应充值账户/等存款变旧/取得更干净流水
-   - **失败** — 重大问题（币种不清、近期大额存款、余额 < 最低 50%）；建议重大补救
+6. **Aggregate verdict:**
+   - **PASS** — all 10 criteria ✅ + no red flags + balance ≥ minimum
+   - **HOLD** — 1-2 minor issues; user should top up account / wait for deposit to age / get cleaner statements
+   - **FAIL** — major issues (currency unclear, recent large deposit, balance < 50% of minimum); recommend major remediation
 
-7. **打印就绪：** 如通过，确认打印格式可接受（PDF 下载按原尺寸打印；非缩小截图）。
+7. **Print readiness:** if PASS, confirm print format is acceptable (PDF download printed at full size; not zoomed-out screenshots).
 
-## 输出模板
+## Output template
 
 ```
-银行流水合规检查
-申请人：{{APPLICANT_NAME}}
-审查的流水：{{STATEMENT_DATE_RANGE}}
-账户：{{BANK_NAME}} {{ACCOUNT_LAST4}}
-出行日期：{{TRIP_START}} 至 {{TRIP_END}}（{{DURATION_DAYS}} 天）
-资金模式：{{自付 | 担保 | 混合}}
+BANK STATEMENT COMPLIANCE CHECK
+Applicant: {{APPLICANT_NAME}}
+Statements reviewed: {{STATEMENT_DATE_RANGE}}
+Account: {{BANK_NAME}} {{ACCOUNT_LAST4}}
+Trip dates: {{TRIP_START}} to {{TRIP_END}} ({{DURATION_DAYS}} days)
+Funding model: {{SELF | SPONSORED | MIXED}}
 
-标准                                   判定     详情
+CRITERION                              VERDICT  DETAIL
 ─────────────────────────────────────  ───────  ─────────────────────────
-1. 覆盖最近 3 个月                     {{✅|❌|⚠️}}  {{DATE_OBSERVATION}}
-2. 全名与护照一致                       {{✅|❌|⚠️}}  {{NAME_OBSERVATION}}
-3. 地址与 France-Visas 一致             {{✅|❌|⚠️}}  {{ADDR_OBSERVATION}}
-4. 账号可见                             {{✅|❌|⚠️}}  {{ACCT_OBSERVATION}}
-5. 银行名+品牌                          {{✅|❌|⚠️}}  {{BANK_OBSERVATION}}
-6. 无交易行涂抹                         {{✅|❌|⚠️}}  {{REDACTION_OBSERVATION}}
-7. 连续时间线（无空隙）                 {{✅|❌|⚠️}}  {{TIMELINE_OBSERVATION}}
-8. 近期余额 ≥ 足够                      {{✅|❌|⚠️}}  余额：{{BALANCE}}；{{DURATION}}-天最低：{{MIN}}
-9. 银行生成（非截图）                   {{✅|❌|⚠️}}  {{FORMAT_OBSERVATION}}
-10. 币种明确                            {{✅|❌|⚠️}}  {{CURRENCY_OBSERVATION}}
+1. Covers last 3 months                {{✅|❌|⚠️}}  {{DATE_OBSERVATION}}
+2. Full name matches passport           {{✅|❌|⚠️}}  {{NAME_OBSERVATION}}
+3. Address matches France-Visas         {{✅|❌|⚠️}}  {{ADDR_OBSERVATION}}
+4. Account number visible               {{✅|❌|⚠️}}  {{ACCT_OBSERVATION}}
+5. Bank name + branding                 {{✅|❌|⚠️}}  {{BANK_OBSERVATION}}
+6. No transaction-line redactions       {{✅|❌|⚠️}}  {{REDACTION_OBSERVATION}}
+7. Continuous timeline (no gaps)        {{✅|❌|⚠️}}  {{TIMELINE_OBSERVATION}}
+8. Recent balance ≥ sufficient amount   {{✅|❌|⚠️}}  Balance: {{BALANCE}}; Min for {{DURATION}}-day trip: {{MIN}}
+9. Bank-generated (not screenshot)      {{✅|❌|⚠️}}  {{FORMAT_OBSERVATION}}
+10. Currency stated                     {{✅|❌|⚠️}}  {{CURRENCY_OBSERVATION}}
 
-扫描的红旗
+RED FLAGS SCANNED
 ─────────────────────────────────────
-{{每个找到的红旗：列出严重性+修复}}
+{{For each red flag found: list with severity + fix}}
 
-总体：{{通过 — 打印提交 | 暂缓 — 修复上方项 | 失败 — 需重大补救}}
+OVERALL: {{PASS — print and submit | HOLD — fix items above | FAIL — major remediation needed}}
 
-行动：
-{{一段具体下一步}}
+ACTION:
+{{One paragraph of specific next steps}}
 
-打印就绪：
-{{所有检查通过；可打印 | 打印问题：{{ISSUE}}；打印前解决}}
+PRINT READINESS:
+{{All checks pass; safe to print | Print issue: {{ISSUE}}; resolve before printing}}
 ```
 
-## 路由规则
+## Routing rules
 
-| 情况 | 建议下一步 |
+| Situation | Suggest next |
 |---|---|
-| 余额 < 最低且用户有担保 | 运行 `/sponsored-application` — 担保人余额承担出行；用户只需显示个人能力 |
-| 余额 < 最低且用户自付 | 充值账户；等存款变旧 30+ 天再提交；或加担保人 |
-| 红旗：近期大额存款 | 提供 6 个月代替 3 个月；如需要在求情信中解释 |
-| 账户 < 6 个月 | 如有则用较长期账户 |
-| 与非申请人联名账户 | 澄清归属或换单名账户 |
-| 全部检查通过 | 未运行则建议 `/document-checklist`，或 80%+ 齐则 `/audit-application` |
-| 用户有多个账户 | 选余额最清晰的；如主账户不足可加辅助账户 |
+| Balance < minimum AND user is sponsored | Run `/sponsored-application` — sponsor's balance carries the trip; user's just needs to show personal capacity |
+| Balance < minimum AND user is self-funded | Top up account; wait for deposit to age 30+ days before submission; OR add a sponsor |
+| Red flag: large recent deposit | Provide 6 months instead of 3; explain in cover letter if needed |
+| Account < 6 months old | Use a longer-standing account if available |
+| Joint account with non-applicant | Clarify ownership OR switch to sole-name account |
+| All checks PASS | Suggest `/document-checklist` if not run, OR `/audit-application` if 80%+ docs ready |
+| User has multiple accounts | Pick the one with the clearest balance; supplementary accounts can be added if main isn't sufficient |
 
-## 家庭/多申请人流水
+## Family / multi-applicant statements
 
-如以家庭申请：
-- **每位申请人一份**（每位成年申请人提交自己的流水）。配偶可用联名账户但要分别提供。
-- **未成年人**通常不需自己的银行流水 — 父母流水覆盖。
-- **担保情况**（一方配偶担保另一方）：担保人流水需显示能覆盖双方。
+If applying as a family:
+- **One per applicant** (each adult applicant submits their own statements). Spouses can use a joint account but provide separately for each.
+- **Minors** typically don't need their own bank statements — parents' statements cover them.
+- **Sponsor case** (one spouse sponsors the other): sponsor's statements need to show capacity for both.
 
-## 权威来源
+## Authoritative sources
 
-- France-Visas — 财务手段 — https://france-visas.gouv.fr/en/web/france-visas — 2026-05-24 已核实
-- TLScontact 英国财务证据指南 — https://visas-fr.tlscontact.com/en-us — 2026-05-24 已核实
+- France-Visas — financial means — https://france-visas.gouv.fr/en/web/france-visas — verified 2026-05-24
+- TLScontact UK financial-evidence guidance — https://visas-fr.tlscontact.com/en-us — verified 2026-05-24
 
-## 维护者注意事项
+## Notes for maintainers
 
-- 充足数字保守。实际领事门槛各异；France-Visas 官方立场是"足够此次出行"。这些校准为不被标记。
-- "刚开户的账户流水"是真实的拒签触发。银行视 3 个月旧账户为新；领事视 6 个月旧账户为新。用更严的门槛。
-- 与非申请人（如父母联名）联名账户因为归属分割是问题。联名人写信澄清或用单名账户。
-- 薪资发入与主账户不同账户的申请人：两份都提供。薪资入账户显示收入流；储蓄账户显示能力。
-- 近期收到退税或奖金的申请人：在求情信中简短解释，避免看起来像借入资金存款。
-- 币种：如用户有多币种账户，流水应显示其本币（英国 GBP）等值并明确币种。不要假定领事会换算。
+- The sufficiency numbers are conservative. Real consular thresholds vary; the official France-Visas position is "sufficient for the trip." These are calibrated to not be flagged.
+- "Statements from accounts that just opened" is a real refusal trigger. Banks consider 3-month-old accounts new; consulates consider 6-month-old accounts new. Use the stricter threshold.
+- Joint accounts with non-applicant (e.g. parent's joint account) are problematic because ownership is split. Clarify with a letter from the co-owner OR use a sole-name account.
+- For applicants whose salary is paid into a different account than their main account: provide both. The salary-credit account shows income flow; the savings account shows capacity.
+- For applicants who recently received a tax refund or bonus: include a brief explanation in the cover letter so it doesn't look like a borrowed-funds deposit.
+- For currency: if the user has a multi-currency account, the statement should show the equivalent in their home currency (GBP for UK) AND state the currency clearly. Don't assume the consulate will convert.

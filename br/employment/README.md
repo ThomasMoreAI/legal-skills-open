@@ -10,7 +10,7 @@ Jurisdiction: `br` · Practice: `employment` · Skill language: en, pt
 
 | Skill | What it does |
 |---|---|
-| [`Cold start interview`](skills/cold-start-interview-bossmann007/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
+| [`/cold-start-interview`](skills/cold-start-interview-employment-legal-bossmann007/) | Cold-start setup — learns your jurisdictional footprint and escalation rules from your handbook and… |
 | [`Expansion kickoff`](skills/expansion-kickoff/) | Kick off international expansion planning for a new country — gathers intake, runs EOR vs. entity… |
 | [`Hiring review`](skills/hiring-review-bossmann007/) | Revisa uma carta-proposta/contrato de trabalho e qualquer cláusula restritiva (não-concorrência… |
 | [`Internal Investigation Skill`](skills/internal-investigation-bossmann007/) | Reference: shared framework for managing internal investigations from intake through final memo… |

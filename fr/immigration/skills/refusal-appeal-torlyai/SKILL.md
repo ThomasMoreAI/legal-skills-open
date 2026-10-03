@@ -1,6 +1,6 @@
 ---
 name: refusal-appeal-torlyai
-title: 'Refusal appeal'
+title: /refusal-appeal
 description: 'Handles France Schengen visa refusals. Reads the refusal letter,
 
   decodes the refusal code (A-Z categories), determines whether to
@@ -19,7 +19,7 @@ description: 'Handles France Schengen visa refusals. Reads the refusal letter,
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/refusal-appeal
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration

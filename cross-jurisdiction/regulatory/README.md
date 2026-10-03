@@ -38,7 +38,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Weltraumrecht: Raketenstart: Exportkontrolle, Gefahrgut, Luft- und Seerecht`](skills/raketenstart-exportkontrolle-absturz/) | Für Weltraumrecht: Raketenstart: Exportkontrolle, Gefahrgut, Luft- und Seerecht: prüft Ergebnis… |
 | [`Weltraumrecht: Red Team: Space Mission Legal Readiness`](skills/red-team-mission-legal-readiness/) | Für Weltraumrecht: Red Team: Space Mission Legal Readiness: prüft Ergebnis, Beweislast und… |
 | [`Reg gap analysis`](skills/reg-gap-analysis/) | Diff a new AI regulation or guidance against your current governance posture — surfaces gaps… |
-| [`Reg gap analysis`](skills/reg-gap-analysis-bossmann007/) | Diff a new AI regulation or guidance against your current governance posture — surfaces gaps… |
+| [`/reg-gap-analysis`](skills/reg-gap-analysis-ai-governance-legal-bossmann007/) | Diff a new AI regulation or guidance against your current governance posture — surfaces gaps… |
 | [`Weltraumrecht: Registrierungsübereinkommen: Register, Staat, Zuständigkeit, Kontrolle`](skills/registrierungsuebereinkommen-register/) | Für Weltraumrecht: Registrierungsübereinkommen: Register, Staat, Zuständigkeit, Kontrolle: ordnet Norm… |
 | [`Bar Rule 5.5 — Unauthorized Practice of Law and AI`](skills/safety-bar-rule-5-5-upl-ai-sboghossian/) | Use when assessing whether AI-generated legal output may constitute unauthorized practice of law (UPL)… |
 | [`Legal-Information-Not-Advice — Rule Set`](skills/safety-no-legal-advice-disclaimer-rules-sboghossian/) | Use to govern when, where, and how the legal-information-not-legal-advice disclaimer must appear.… |

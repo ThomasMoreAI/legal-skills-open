@@ -6,14 +6,15 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): immigration 
 
 Jurisdiction: `eu` · Practice: `immigration` · Skill language: en, zh
 
-## Skills (5)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
 | [`EU-Freizügigkeit, Aufenthalt und Krankenversicherung prüfen`](skills/eu-freizuegigkeit-aufenthalt-krankenversicherung/) | Prüft Aufenthaltsrecht von Unionsbürgern und Familienangehörigen nach Erwerbsstatus, Existenzmitteln… |
-| [`First trip`](skills/first-trip-torlyai/) | 签证批准后首次申根入境指引。签证已批 — 现在边检带什么、边检官员 可能问什么、90/180 日历规则、被询问时怎么办、如何保持干净的申根 记录以便未来更易拿多次签证。当 /track-application… |
-| [`Insurance check`](skills/insurance-check-torlyai/) | Verifies a travel insurance certificate meets Schengen visa requirements. Checks coverage amount… |
-| [`Plan trip`](skills/plan-trip-torlyai/) | 与用户迭代式规划法国申根之旅 — 目的地、日期、时长、同行组成、 粗略预算 — 并提前暴露日后会影响签证申请的领事可信度检查。输出… |
+| [`/first-trip`](skills/first-trip-torlyai/) | Post-approval first-Schengen-entry guidance. Visa is granted — now what to carry to the border, what… |
+| [`/first-trip`](skills/first-trip-zh-cn-torlyai/) | 签证批准后首次申根入境指引。签证已批 — 现在边检带什么、边检官员 可能问什么、90/180 日历规则、被询问时怎么办、如何保持干净的申根 记录以便未来更易拿多次签证。当 /track-application… |
+| [`/insurance-check`](skills/insurance-check-torlyai/) | Verifies a travel insurance certificate meets Schengen visa requirements. Checks coverage amount… |
+| [`/plan-trip`](skills/plan-trip-zh-cn-torlyai/) | 与用户迭代式规划法国申根之旅 — 目的地、日期、时长、同行组成、 粗略预算 — 并提前暴露日后会影响签证申请的领事可信度检查。输出… |
 | [`Poland EU Mobility`](skills/poland-eu-mobility-xopoko/) | EU mobility. Use when Polish free-movement status matters. |
 
 ## Cold-start context

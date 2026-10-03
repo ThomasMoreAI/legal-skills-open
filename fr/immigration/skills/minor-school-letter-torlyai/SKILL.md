@@ -1,6 +1,6 @@
 ---
 name: minor-school-letter-torlyai
-title: 'Minor school letter'
+title: /minor-school-letter
 description: 'Drafts a UK school absence letter for a minor''s France Schengen visa
 
   application. Letter must come from the school on school letterhead,
@@ -17,7 +17,7 @@ description: 'Drafts a UK school absence letter for a minor''s France Schengen v
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/minor-school-letter
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration

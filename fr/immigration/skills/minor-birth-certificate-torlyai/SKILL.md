@@ -1,6 +1,6 @@
 ---
 name: minor-birth-certificate-torlyai
-title: 'Minor birth certificate'
+title: /minor-birth-certificate
 description: 'Verifies birth certificate requirements for minor (under-18) France
 
   Schengen visa applicants. UK-issued birth certificates accepted as-is;
@@ -19,7 +19,7 @@ description: 'Verifies birth certificate requirements for minor (under-18) Franc
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/minor-birth-certificate
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration

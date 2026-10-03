@@ -12,7 +12,7 @@ Jurisdiction: `br` · Practice: `ip` · Skill language: en
 |---|---|
 | [`Cease desist`](skills/cease-desist-bossmann007/) | Draft uma notificação extrajudicial (modo envio) ou faça a triagem de uma recebida (modo recebimento).… |
 | [`/clearance`](skills/clearance-bossmann007/) | Primeira passada de colidência de marca — checagem de anterioridade + marcas semelhantes gerando lista… |
-| [`Cold start interview`](skills/cold-start-interview-bossmann007/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first… |
+| [`/cold-start-interview`](skills/cold-start-interview-ip-legal-bossmann007/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first… |
 | [`Fto triage`](skills/fto-triage-bossmann007/) | Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion.… |
 | [`Infringement triage`](skills/infringement-triage-bossmann007/) | Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors… |
 | [`OSS review`](skills/oss-review-bossmann007/) | Verificação de conformidade de licença open source para lista de dependências, uma única biblioteca, ou… |

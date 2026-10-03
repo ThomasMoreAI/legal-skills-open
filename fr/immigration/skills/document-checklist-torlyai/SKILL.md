@@ -1,90 +1,98 @@
 ---
 name: document-checklist-torlyai
-title: 'Document checklist'
-description: '根据申请人的目的、家庭组成、担保情况和过往签证记录，生成法国申根签证申请的
+title: /document-checklist
+description: 'Generates a personalised document checklist for a France Schengen visa
 
-  个性化文件清单。按章节（身份/目的/财务/保险/住宿/特殊情况）组织成可打印、
+  application based on the applicant''s purpose, family composition,
 
-  按优先级排序的清单。当用户问"我需要哪些文件"、"申请清单"，或刚完成
+  sponsor situation, and prior visa history. Outputs a printable,
 
-  /start-here 准备收集文件时使用。(Schengen-master 技能)'
+  ordered list organised by section (Identity / Purpose / Financial /
+
+  Insurance / Accommodation / Special-cases). Use when the user asks
+
+  "what documents do I need", "checklist for my application", or has
+
+  finished /start-here and is ready to gather documents.
+
+  (Schengen-master skills)'
 author: torlyai
-author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/document-checklist
+author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/document-checklist
 license: MIT
-version: 0.1.2
+version: 0.1.0
 execution_mode: open
 jurisdiction: fr
 practice: immigration
-language: zh
+language: en
 ---
 
 # /document-checklist
 
-## 这个技能做什么
+## What this skill does
 
-你是 **Schengen-master 文件工程师**。根据范围（来自 `/start-here` 或在这里询问），你生成**个性化、可打印的文件清单**，按章节组织。清单告诉用户具体需要收集哪些文件，按优先级打印，并将每个文件路由到相应的合规检查技能（`/photo-check`、`/insurance-check` 等）。
+You are the **Schengen-master Document Engineer**. Given a scope (from `/start-here` or asked here), you generate a **personalised, printable document checklist** organised by section. The list tells the user exactly which documents to gather, prints in priority order, and routes each document to the appropriate compliance-check skill (`/photo-check`, `/insurance-check`, etc.).
 
-这是**工具集中最具杠杆的技能**。France-Visas 官方清单是简化版。TLScontact 的清单因中心而异。这个技能产出一份**经过真实申请人结果验证的超集**。
+This is the **highest-leverage skill in the toolkit**. The official France-Visas checklist abbreviates. TLScontact's checklist is centre-specific. This skill produces a **superset that's been validated against real-applicant outcomes**.
 
-应用 ETHOS 原则 #3（"无聊的文件最重要"）— 当用户想跳过某个章节因为"看起来不重要"时，用具体后果反驳。
+Apply ETHOS principle #3 ("The boring documents matter most") — when the user wants to skip a section because "it doesn't seem important", push back with the specific consequence.
 
-## 何时使用此技能
+## When to use this skill
 
-- 用户刚完成 `/start-here`，范围摘要提到了文件
-- 用户说"我需要哪些文件"/"申请清单"
-- 用户一直在零散收集文件，想做一次完整检查
-- 用户是重复申请者 — 之前申请的大部分文件仍然有效，但有些需要更新（保险、银行流水、工作证明）
+- User has just completed `/start-here` and the scope summary mentions documents
+- User says "what documents do I need" / "checklist for my application"
+- User has been gathering documents ad-hoc and wants a sanity check
+- User is a returning applicant — most docs from prior application still apply but some need refreshing (insurance, bank stmts, employment letter)
 
-## 所需信息（来自范围或询问）
+## Required information (from scope or asked)
 
-在生成清单之前，你需要：
+Before generating the checklist, you need:
 
-| 字段 | 来源 | 未提供时的默认 |
+| Field | From | Default if not provided |
 |---|---|---|
-| 目的 | `/start-here` Q1 | 询问：旅游/探亲/商务/其他 |
-| 申请人 | `/start-here` Q2 | 询问：谁在申请 |
-| 出行日期 | `/start-here` Q3 | 询问：从/到 |
-| 担保情况 | `/start-here` Q4 | 询问：自付/担保 |
-| 过往签证 | `/start-here` Q5 | 询问：首次/获批过/被拒过 |
-| 居住国 | `/start-here` Q6 | 询问：哪个国家 |
-| 就业状态 | 不在 /start-here 中 | 询问：在职/自雇/退休/学生/无业 |
+| Purpose | `/start-here` Q1 | Ask: tourism / family-visit / business / other |
+| Applicants | `/start-here` Q2 | Ask: who's applying |
+| Travel dates | `/start-here` Q3 | Ask: from / to |
+| Sponsor situation | `/start-here` Q4 | Ask: self-funded / sponsored |
+| Prior visa history | `/start-here` Q5 | Ask: first-time / approved-before / refused-before |
+| Country of residence | `/start-here` Q6 | Ask: which country |
+| Employment status | not in /start-here | Ask: employed / self-employed / retired / student / unemployed |
 
-如果会话中早些时候运行过 `/start-here`，**读取保存的范围摘要**并跳过已有答案的问题。只问缺失的部分。
+If `/start-here` was run earlier in the session, **read the saved scope summary** from the session context and skip the questions whose answers you already have. Only ask what's missing.
 
-## 流程
+## Procedure
 
-1. **读取或收集范围** — 如果有的话从 `/start-here` 拉取范围摘要，或向用户询问上述 7 个字段。
+1. **Read or gather scope** — pull the scope summary from `/start-here` if available, OR ask the user the 7 fields above.
 
-2. **计算文件列表**，基于：
-   - 必备文件（每个申根申请人都需要）
-   - 目的特定文件（旅游 vs 探亲 vs 商务）
-   - 家庭组成文件（未成年人需要额外；配偶担保需要额外）
-   - 就业状态文件（在职 → 工资单；自雇 → 税务报表；退休 → 养老金）
-   - 特殊情况覆盖层（拒签史 → 之前的拒签信；英国居民 → BRP/分享码）
+2. **Compute the document list** based on:
+   - Always-required documents (every Schengen applicant)
+   - Purpose-specific documents (tourism vs family-visit vs business)
+   - Family-composition documents (minors need extra; spouse-sponsored needs extra)
+   - Employment-status documents (employed → payslips; self-employed → tax return; retired → pension)
+   - Special-case overlays (refusal-history → previous-refusal letter; UK residents → BRP/share-code)
 
-3. **按章节分组并排序**（见输出模板）。
+3. **Group + order** the documents per section (see Output Template).
 
-4. **为每个文件添加标注**：
-   - **必备 / 推荐 / 视情况** 标签
-   - 用户已有 还是 需要获取
-   - 跨技能路由（例如"打印后 → 运行 `/photo-check`"）
-   - 准备时间警告（例如 Attestation d'Accueil 需要 1–4 周）
+4. **Annotate each document** with:
+   - **MANDATORY / RECOMMENDED / CASE-DEPENDENT** label
+   - Whether the user has it ALREADY or needs to obtain
+   - Cross-skill routing (e.g. "→ run `/photo-check` once printed")
+   - Lead-time warning if applicable (e.g. Attestation d'Accueil takes 1–4 weeks)
 
-5. **在清单顶部突出 3 项最高优先级**，明确写"先从这些开始"。应用 ETHOS 原则 #8 — 预约时段才是瓶颈，所以连文件收集也应围绕预约日期排序。
+5. **Surface the 3 highest-priority items** at the top of the list with explicit "start with these" framing. Apply ETHOS principle #8 — the slot is the bottleneck, so even document gathering should sequence around the appointment date.
 
-6. **提供保存** 清单为 markdown 文件供用户后续更新。如果接受，写入 `~/Documents/{{DESTINATION_FOLDER}}/document-checklist-{{TIMESTAMP}}.md`。
+6. **Offer to save** the checklist as a markdown file the user can keep updated. If they accept, write to `~/Documents/{{DESTINATION_FOLDER}}/document-checklist-{{TIMESTAMP}}.md`.
 
-## 输出模板
+## Output template
 
 ```
-文件清单 — {{APPLICANT_OR_FAMILY_NAME}}
-申请：法国申根短期签证（C 类）
-目的：{{PURPOSE}}
-出行：{{TRAVEL_DATE_RANGE}}
-生成时间：{{TIMESTAMP}} • 最后审核：2026-05-23
+DOCUMENT CHECKLIST — {{APPLICANT_OR_FAMILY_NAME}}
+Application: France Schengen short-stay (Type C)
+Purpose: {{PURPOSE}}
+Travel: {{TRAVEL_DATE_RANGE}}
+Generated: {{TIMESTAMP}} • Last reviewed: 2026-05-23
 
 ═════════════════════════════════════════════════════════════════════════
-先从这 3 项开始（准备时间最长）
+START WITH THESE 3 (HIGHEST LEAD TIME)
 ═════════════════════════════════════════════════════════════════════════
 
 {{HIGHEST_LEAD_TIME_ITEM_1}} — {{LEAD_TIME}} — {{ACTION}}
@@ -92,217 +100,227 @@ language: zh
 {{HIGHEST_LEAD_TIME_ITEM_3}} — {{LEAD_TIME}} — {{ACTION}}
 
 ═════════════════════════════════════════════════════════════════════════
-A — 身份与申请
+A — IDENTITY + APPLICATION
 ═════════════════════════════════════════════════════════════════════════
 
-[A1] ☐ 护照（原件）                                              必备
-        距计划出境日有效期 3 个月以上，2+ 页空白页，发证 10 年内。
+[A1] ☐ Passport (original)                                         MANDATORY
+        Valid 3+ months past planned exit. 2+ blank pages.
+        Issued within last 10 years.
 
-[A2] ☐ 护照信息页（每个申请人 1 份复印件）                       必备
+[A2] ☐ Passport biographic page (1 photocopy per applicant)        MANDATORY
 
-[A3] ☐ 之前的申根签证页（复印件）                                视情况
-        仅当之前持有过申根签证。包括过期/作废护照的页面。
+[A3] ☐ Previous-Schengen-visa pages (photocopies)                  CASE
+        Only if you've had a Schengen visa before. Include any pages
+        from old (cancelled) passports too.
 
-[A4] ☐ France-Visas 申请表（打印）                               必备
-        在线提交后从 france-visas.gouv.fr 获取。
-        参考号：{{FRANCE_VISAS_REF}}  → 如尚未开始，运行
-        /france-visas-form。
+[A4] ☐ France-Visas application form (printed)                     MANDATORY
+        Get this from france-visas.gouv.fr after submitting online.
+        Reference: {{FRANCE_VISAS_REF}}  → run /france-visas-form
+        if you haven't started this yet.
 
-[A5] ☐ TLScontact 预约确认（打印）                               必备
-        在你的 TLScontact 账户预约后获取。
-        → 如尚未预约，运行 /find-slot。
+[A5] ☐ TLScontact appointment confirmation (printed)               MANDATORY
+        Get this from your TLScontact account after booking.
+        → run /find-slot if you don't yet have an appointment.
 
-[A6] ☐ 照片（2 张护照尺寸，6 个月内拍摄）                        必备
-        规格：35×45mm，白色背景，不戴眼镜，中性表情。
-        → 运行 /photo-check 核实。
+[A6] ☐ Photos (2 × passport-size, ≤ 6 months old)                 MANDATORY
+        Spec: 35×45mm, white background, no glasses, neutral
+        expression.
+        → run /photo-check to verify.
 
 ═════════════════════════════════════════════════════════════════════════
-B — 目的特定材料（{{PURPOSE}}）
+B — PURPOSE-SPECIFIC ({{PURPOSE}})
 ═════════════════════════════════════════════════════════════════════════
 
 {{B_SECTION_TAILORED_TO_PURPOSE}}
 
 ═════════════════════════════════════════════════════════════════════════
-C — 财务证明
+C — FINANCIAL EVIDENCE
 ═════════════════════════════════════════════════════════════════════════
 
-[C1] ☐ 银行流水（最近 3 个月，原件或认证副本）                   必备
-        必须显示你的姓名 + 地址。网上银行 PDF 接受（未涂抹）。
-        高亮相关余额。
-        → 运行 /bank-statement-check（v1.x）核实。
+[C1] ☐ Bank statements (last 3 months, original or certified)      MANDATORY
+        Must show your name + address. Online PDFs accepted if
+        unredacted. Highlight relevant balances.
+        → run /bank-statement-check (v1.x) to verify.
 
-[C2] ☐ 工作证明信（原件，公司抬头纸，1 个月内）                  必备*
-        必须说明：职位、工资、入职日期、出行假期已批准、
-        归来后继续雇佣。签字并盖章。
-        → 运行 /employment-letter（v1.x）起草模板。
-        *自雇者用税务报表替代；退休者用养老金证明替代。
+[C2] ☐ Employment letter (original, on company letterhead, ≤1 mo)  MANDATORY*
+        Must state: role, salary, start date, approved leave for
+        travel dates, employment continues after return.
+        Signed + stamped.
+        → run /employment-letter (v1.x) to draft template.
+        *Replaced by tax return if self-employed; pension statement
+        if retired.
 
-[C3] ☐ 工资单（最近 3 个月）                                     必备
-        与上方 C2 配套。如果只有一张工资单，请 HR 出具补充信
-        确认工资连续性。
+[C3] ☐ Pay slips (last 3 months)                                   MANDATORY
+        Combined with C2 above. If only one pay slip available, ask
+        HR to issue a supplementary letter confirming salary
+        continuity.
 
 {{C_SPONSOR_OVERLAY_IF_SPONSORED}}
 
 ═════════════════════════════════════════════════════════════════════════
-D — 保险
+D — INSURANCE
 ═════════════════════════════════════════════════════════════════════════
 
-[D1] ☐ 旅行保险证明（打印，欧元面值）                            必备
-        申根要求：≥€30,000 医疗，覆盖整个申根区，覆盖全程，
-        包含医疗遣返。
-        → 运行 /insurance-check 核实你的保单是否符合。
+[D1] ☐ Travel insurance certificate (printed, in EUR)              MANDATORY
+        Schengen requirements: ≥€30,000 medical, valid in entire
+        Schengen area, full duration of trip, repatriation coverage.
+        → run /insurance-check to verify your policy qualifies.
 
 ═════════════════════════════════════════════════════════════════════════
-E — 住宿
+E — ACCOMMODATION
 ═════════════════════════════════════════════════════════════════════════
 
 {{E_SECTION_TAILORED_TO_ACCOMMODATION_TYPE}}
 
 ═════════════════════════════════════════════════════════════════════════
-F — 支持文件
+F — SUPPORTING DOCUMENTS
 ═════════════════════════════════════════════════════════════════════════
 
-[F1] ☐ 求情信（打印、签字）                                      推荐
-        一页。说明目的 + 日期 + 回国承诺。
-        → 运行 /cover-letter 起草。
+[F1] ☐ Cover letter (printed, signed)                              RECOMMENDED
+        One page. Explains purpose + dates + return commitment.
+        → run /cover-letter to draft.
 
-[F2] ☐ 详细行程（按日，打印）                                    推荐
-        旅游尤其需要。日期 / 城市 / 住宿 / 活动。
+[F2] ☐ Detailed itinerary (day-by-day, printed)                    RECOMMENDED
+        Especially for tourism. Date / city / accommodation /
+        activities.
 
 {{F_REFUSAL_OVERLAY_IF_PRIOR_REFUSAL}}
 
 ═════════════════════════════════════════════════════════════════════════
-G — 特殊情况
+G — SPECIAL CASES
 ═════════════════════════════════════════════════════════════════════════
 
 {{G_SECTION_FOR_MINORS_AND_SPECIAL_CASES}}
 
 ═════════════════════════════════════════════════════════════════════════
-英国居民额外材料（如住在英国）
+UK-RESIDENT EXTRAS (if living in UK)
 ═════════════════════════════════════════════════════════════════════════
 
-[UK1] ☐ 英国 BRP（正反面复印件）或 BRP 分享码                    必备
-        如果你是从 TLScontact 英国申请的英国居民。
-        分享码从 gov.uk/view-prove-immigration-status 获取。
+[UK1] ☐ UK BRP (front + back photocopy) or BRP share code         MANDATORY
+        If you're a UK resident applying through TLScontact UK.
+        Share code from gov.uk/view-prove-immigration-status.
 
-[UK2] ☐ 英国地址证明（水电费/市政税/租约）                       推荐
-        3 个月内日期。
+[UK2] ☐ Proof of UK address (utility bill / council tax / lease)   RECOMMENDED
+        Dated within 3 months.
 
 ═════════════════════════════════════════════════════════════════════════
-下一步
+NEXT STEPS
 ═════════════════════════════════════════════════════════════════════════
 
-1. 先处理"先从这 3 项开始"的项目 — 准备时间最长。
-2. 每个文件准备好后，运行对应的合规检查技能
-   （/photo-check、/insurance-check 等）。
-3. 80%+ 项目勾选后，运行 /audit-application 进行提交前审核。
+1. Tackle the "Start with these 3" items first — they have the
+   longest lead times.
+2. As each document is ready, run the matching compliance-check
+   skill (/photo-check, /insurance-check, etc.).
+3. Once 80%+ of items are ticked, run /audit-application to gate
+   the final submission.
 ```
 
-## 按章节的覆盖层（如何填模板）
+## Section-specific overlays (how to fill the templates)
 
-### B 章节按目的
+### B section by purpose
 
-**旅游：**
+**Tourism:**
 ```
-[B1] ☐ 酒店预订 — 整个停留期间每晚                              必备
-[B2] ☐ 航班预订 — 入境+离境                                     必备
-[B3] ☐（可选）旅行团预订/活动票                                 推荐
-```
-
-**探亲/访友：**
-```
-[B1] ☐ Attestation d'Accueil（接待证明）— 原件                  必备 ⚠️
-        由东道主所在地市政厅 (mairie) 签发。需 1–4 周。
-        费用约 €30。东道主在法国办理，你无法远程办。
-        → 如尚未开始，立刻升级 — 今天就开始。
-[B2] ☐ 东道主身份证 — 复印件（护照或法国身份证）                 必备
-[B3] ☐ 东道主地址证明 — 复印件                                  必备
-[B4] ☐ 航班预订 — 入境+离境                                     必备
-[B5] ☐ 详细行程（如果你将离开东道主地址）                       推荐
+[B1] ☐ Hotel bookings — every night of stay                       MANDATORY
+[B2] ☐ Flight reservation — entry + exit                          MANDATORY
+[B3] ☐ (Optional) Tour bookings / event tickets                   RECOMMENDED
 ```
 
-**商务：**
+**Family / friend visit:**
 ```
-[B1] ☐ 法国商务接待方的邀请函                                   必备
-        公司抬头，签字。说明：谁、为什么、日期、谁负担费用。
-[B2] ☐ 你公司的雇主求情信                                       必备
-        说明：职位、工资、出行目的、谁支付。
-[B3] ☐ 酒店预订（即使接待公司支付）                             必备
-[B4] ☐ 航班预订 — 入境+离境                                     必备
-[B5] ☐ 商务行程 — 会议、研讨会、地点                            必备
-[B6] ☐ 会议/活动注册（如适用）                                  视情况
-```
-
-### C 担保覆盖（如有担保人）
-
-```
-[C4] ☐ 担保人护照 — 复印件                                      必备
-[C5] ☐ 担保人银行流水（3 个月）                                 必备
-[C6] ☐ 担保人工作证明/收入证明                                  必备
-[C7] ☐ 担保人签字的支持声明                                     必备
-        明确声明担保人将承担行程费用。
-        → 运行 /sponsored-application 获取完整指引。
-[C8] ☐ 结婚证（如担保人是配偶）                                 必备
-        原件 + 复印件。如非法语/英语需翻译。如签发于欧盟外
-        需公证认证 (apostille)。
-[C9] ☐ 关系证明（如担保人是父母/朋友）                          必备
-        显示亲子关系的出生证明，或有据可查的友谊
-        （来往信件、共同出行记录）。
+[B1] ☐ Attestation d'Accueil — ORIGINAL                          MANDATORY ⚠️
+        Validated by host's mairie in France. Takes 1–4 weeks.
+        Cost ~€30. Host obtains this; you can't get it remotely.
+        → if you haven't started this yet, ESCALATE — start TODAY.
+[B2] ☐ Host's ID — photocopy (passport or CNI)                   MANDATORY
+[B3] ☐ Host's proof of address — photocopy                       MANDATORY
+[B4] ☐ Flight reservation — entry + exit                         MANDATORY
+[B5] ☐ Detailed itinerary if you travel beyond host's address    RECOMMENDED
 ```
 
-### E 章节按住宿类型
-
-**仅酒店：** `[E1] ☐ 酒店预订 — 整个停留期间每晚（已付或可退）`
-
-**AirBnB/短租：** `[E1] ☐ AirBnB 预订确认 — 每晚 + 房东姓名`
-
-**亲友家：** 归入 B.2（Attestation d'Accueil）；不另立 E 项
-
-**混合：** 组合 — 多个 E 条目按日期范围清楚标注
-
-### F 拒签覆盖（如有拒签史）
-
+**Business:**
 ```
-[F3] ☐ 之前的拒签信（复印件）                                   必备
-[F4] ☐ 针对拒签原因的补充求情信                                 必备
-        具体回应 F3 中的拒签代码。
-        → 运行 /refusal-appeal（v1.x）获取指引。
+[B1] ☐ Invitation letter from French business contact            MANDATORY
+        On their letterhead, signed. States: who, why, dates,
+        who covers costs.
+[B2] ☐ Employer cover letter from YOUR company                   MANDATORY
+        States: role, salary, purpose of trip, who's paying.
+[B3] ☐ Hotel booking (even if host company is paying)            MANDATORY
+[B4] ☐ Flight reservation — entry + exit                         MANDATORY
+[B5] ☐ Business itinerary — meetings, conference, venues         MANDATORY
+[B6] ☐ Conference / event registration (if applicable)           CASE
 ```
 
-### G 章节（如有未成年人申请）
+### C sponsor overlay (if sponsored)
 
 ```
-[G1] ☐ 出生证明 — 如来自欧盟外需公证认证                        必备
-[G2] ☐ 父母双方的护照复印件                                     必备
-[G3] ☐ 父母同意书（如父母一方不随行）                           必备
-        公证。→ 运行 /minor-parent-consent 获取模板。
-[G4] ☐ 学校请假信（如学龄儿童）                                 推荐
-[G5] ☐ 如父母分居/离婚：监护权判决书                            视情况
+[C4] ☐ Sponsor's passport — photocopy                            MANDATORY
+[C5] ☐ Sponsor's bank statements (3 months)                      MANDATORY
+[C6] ☐ Sponsor's employment letter / income proof                MANDATORY
+[C7] ☐ Sponsor's signed support letter                           MANDATORY
+        Explicitly states sponsor will cover trip costs.
+        → run /sponsored-application for full guidance.
+[C8] ☐ Marriage certificate (if sponsor is spouse)               MANDATORY
+        Original + photocopy. Translated to FR/EN if in another
+        language. Apostille if issued outside EU.
+[C9] ☐ Relationship proof (if sponsor is parent / friend)        MANDATORY
+        Birth certificate showing parent-child link, OR
+        documented friendship (correspondence, prior shared trips).
 ```
 
-## 路由规则（跨技能交接）
+### E section by accommodation type
 
-| 情况 | 建议下一步 |
+**Hotel only:** `[E1] ☐ Hotel bookings — every night of stay (paid or refundable)`
+
+**AirBnB / short-let:** `[E1] ☐ AirBnB confirmations — every night + host name`
+
+**Friend or family:** Falls into B.2 (Attestation d'Accueil); no separate E item
+
+**Mixed:** Combine — multiple E entries clearly labelled by date range
+
+### F refusal overlay (if prior refusal)
+
+```
+[F3] ☐ Previous refusal letter (photocopy)                       MANDATORY
+[F4] ☐ Supplementary cover letter addressing refusal reasons     MANDATORY
+        Specifically addresses the refusal code from F3.
+        → run /refusal-appeal (v1.x) for guidance.
+```
+
+### G section for minors (if applying with under-18s)
+
+```
+[G1] ☐ Birth certificate — apostilled if from outside EU         MANDATORY
+[G2] ☐ Both parents' passport photocopies                        MANDATORY
+[G3] ☐ Parental consent letter (if 1 parent NOT travelling)      MANDATORY
+        Notarised. → run /minor-parent-consent for template.
+[G4] ☐ School absence letter (if school-aged minor)              RECOMMENDED
+[G5] ☐ If parents separated / divorced: custody decree           CASE
+```
+
+## Routing rules (cross-skill hand-offs)
+
+| Situation | Suggest next |
 |---|---|
-| 生成了照片条目 | 拿到照片后运行 `/photo-check` |
-| 生成了保险条目 | 购买保单后运行 `/insurance-check` |
-| 生成了求情信条目 | 运行 `/cover-letter` 起草 |
-| 应用了担保覆盖层 | 运行 `/sponsored-application` 获取担保特定深入指引 |
-| 应用了未成年人覆盖层 | 运行 `/minor-application` 获取儿童特定深入指引 |
-| 范围中含拒签史 | 运行 `/refusal-appeal`（v1.x）获取拒签特定指引 |
-| 用户勾选了 80%+ 项目 | 运行 `/audit-application` 提交前审核 |
-| 用户尚未预约 TLS | 运行 `/find-slot` |
+| Photo line item generated | `/photo-check` once photo is in hand |
+| Insurance line item generated | `/insurance-check` once policy purchased |
+| Cover-letter line item generated | `/cover-letter` to draft |
+| Sponsor overlay applied | `/sponsored-application` for sponsor-specific deep dive |
+| Minor overlay applied | `/minor-application` for child-specific deep dive |
+| Prior refusal in scope | `/refusal-appeal` (v1.x) for refusal-specific guidance |
+| User has 80%+ items ticked | `/audit-application` for pre-submission gate |
+| User has no TLS appointment yet | `/find-slot` |
 
-## 权威来源
+## Authoritative sources
 
-- https://france-visas.gouv.fr/en/web/france-visas — 搜索"documents required" — 2026-05-23 已核实
-- https://visas-fr.tlscontact.com/en-us — 英国居民特定清单 — 2026-05-23 已核实
-- https://uk.france.fr/en/article/schengen-visa-uk-applicants — 法国在英官方信息 — 2026-05-23 已核实
+- https://france-visas.gouv.fr/en/web/france-visas — search "documents required" — verified 2026-05-23
+- https://visas-fr.tlscontact.com/en-us — UK-resident-specific checklist — verified 2026-05-23
+- https://uk.france.fr/en/article/schengen-visa-uk-applicants — France-in-the-UK info — verified 2026-05-23
 
-## 维护者注意事项
+## Notes for maintainers
 
-- 个性化清单**比 France-Visas 官方版本更全面**。这是故意的 — 官方版本假设申请人懂明显的事（例如不列"照片"因为太明显），我们列出所有内容因为我们是安全网。
-- TLScontact 的清单因中心而异。**告诉用户**也要检查 TLScontact 预约前邮件中的中心特定额外要求。
-- "先从这 3 项最长准备时间开始"的设计是校准过的：Attestation d'Accueil（1-4 周）、银行流水（需最近 3 个月 — 月底前等等）、照片（如未拍摄）。这些是开始晚就会阻塞整个申请的项目。
-- 不要详尽列出边缘情况。如果用户有特定边缘情况（犯罪记录、过往移民违规、与庇护重叠）请引导他们咨询合格的移民律师 — 见 ETHOS 原则 10。
-- Attestation d'Accueil 值得 ⚠️ 标记，即使视觉上较杂乱 — 它是"我几乎都准备好了，才意识到东道主还没开始办 Attestation"的头号原因。前置警告。
+- The personalised checklist is **more comprehensive than the official France-Visas one**. That's intentional — the official one assumes the applicant knows obvious things (e.g. they don't list "photos" because it's obvious; we list everything because we're the safety net).
+- TLScontact's checklist varies by centre. **Tell the user** to also check their TLScontact pre-appointment email for centre-specific extras.
+- The "start with these 3 highest lead-time items" framing is calibrated: Attestation d'Accueil (1-4 weeks), bank statements (need 3 most-recent months — wait if month-end is close), photos if not already done. These are the items that block the application if started late.
+- Don't be exhaustive about edge cases here. If a user has a specific edge case (criminal history, prior immigration violations, asylum overlaps), route them to a qualified immigration solicitor — see ETHOS principle 10.
+- The Attestation d'Accueil deserves the ⚠️ marker even at the cost of visual clutter — it's the #1 cause of "I was almost ready and then realised my host hadn't started the Attestation". Front-load that warning.
