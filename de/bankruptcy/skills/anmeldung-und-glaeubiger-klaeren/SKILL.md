@@ -1,6 +1,6 @@
 ---
 name: anmeldung-und-glaeubiger-klaeren
-title: 1. Anmeldung und Gläubiger klären
+title: 'Anmeldung und Gläubiger klären'
 description: Prüft Eingang und Inhalt einer Forderungsanmeldung sowie Gläubiger, Vertretung und Rechtsübergänge. Klärt Doppelanmeldungen aus Abtretung, Bürgschaft oder Insolvenzgeld und trennt Anmeldewirksamkeit von materiellem Forderungsbestand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/anmeldung-und-glaeubiger-klaeren

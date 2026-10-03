@@ -1,6 +1,6 @@
 ---
 name: determining-pl-jurisdiction
-title: law-pl-determining-pl-jurisdiction
+title: 'Law PL determining PL jurisdiction'
 description: Use when determining the proper Polish court for a lawsuit — identifying the correct type of proceedings (civil/commercial/administrative/criminal), territorial jurisdiction (which specific court), subject-matter jurisdiction (sąd rejonowy vs okręgowy), exclusive vs alternative vs contractual jurisdiction, or handling jurisdictional conflicts
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-determining-pl-jurisdiction

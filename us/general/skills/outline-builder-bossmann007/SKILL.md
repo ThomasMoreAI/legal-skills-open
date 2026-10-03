@@ -1,11 +1,11 @@
 ---
 name: outline-builder-bossmann007
-title: /outline-builder
+title: 'Outline builder'
 description: Build or extend a course outline in your format, from class notes and casebook. Scaffolds — it does not write the outline for you. Use when the user says "outline [subject]", "add to my outline", "build an outline from", or points at class materials.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/outline-builder
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: general

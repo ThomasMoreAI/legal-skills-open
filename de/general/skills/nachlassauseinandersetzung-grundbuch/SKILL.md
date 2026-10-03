@@ -1,6 +1,6 @@
 ---
 name: nachlassauseinandersetzung-grundbuch
-title: 1. Nachlass und Grundstücksübertragung zusammenführen
+title: 'Nachlass und Grundstücksübertragung zusammenführen'
 description: Bereitet notarielle Nachlassauseinandersetzungen, Grundstücksübertragungen und Erbnachweise vor. Gleicht Testament, Eröffnung, Erbquoten, Vertretung und Grundbuch ab und führt fehlende Nachweise bis zum Vertrags- oder Anmeldeentwurf fort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/nachlassauseinandersetzung-grundbuch

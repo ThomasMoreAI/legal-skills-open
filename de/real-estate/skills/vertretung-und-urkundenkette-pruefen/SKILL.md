@@ -1,6 +1,6 @@
 ---
 name: vertretung-und-urkundenkette-pruefen
-title: 1. Zweck und Anwendungsfall
+title: 'Vollmacht, Organvertretung, Nachfolge und Identität mit den für den Vollzug…'
 description: Vollmacht, Organvertretung, Nachfolge und Identität mit den für den Vollzug erforderlichen Nachweisen abgleichen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/vertretung-und-urkundenkette-pruefen

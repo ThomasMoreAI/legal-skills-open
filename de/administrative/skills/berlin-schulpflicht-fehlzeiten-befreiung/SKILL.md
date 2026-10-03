@@ -1,6 +1,6 @@
 ---
 name: berlin-schulpflicht-fehlzeiten-befreiung
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Schulbesuchspflicht, Fehlzeiten, Krankheit, Beurlaubung und Befreiung aus…'
 description: Berliner Schulbesuchspflicht, Fehlzeiten, Krankheit, Beurlaubung und Befreiung aus Eltern- und Schülersicht mit konkretem Antrag und gesicherter Beschulung bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-schulpflicht-fehlzeiten-befreiung

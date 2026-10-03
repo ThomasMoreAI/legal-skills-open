@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsplanung-redteam-qualitygate
-title: 1. Red-Team Qualitygate
+title: 'Red-Team Qualitygate'
 description: 'Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck. Fachgebiet: Liquiditätsplanung — Power.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/redteam-qualitygate

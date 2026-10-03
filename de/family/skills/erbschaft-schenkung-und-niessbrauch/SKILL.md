@@ -1,6 +1,6 @@
 ---
 name: erbschaft-schenkung-und-niessbrauch
-title: 1. Erbschaft, Schenkung und Nießbrauch
+title: 'Erbschaft, Schenkung und Nießbrauch'
 description: Prüft privilegierte Erwerbe aus Erbschaft und Schenkung mit Nettoerwerbswert, Indexierung und Nießbrauch und trennt geschützten Erwerb von ausgleichspflichtiger Wertentwicklung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/erbschaft-schenkung-und-niessbrauch

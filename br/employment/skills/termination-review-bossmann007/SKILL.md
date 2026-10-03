@@ -1,6 +1,6 @@
 ---
 name: termination-review-bossmann007
-title: /termination-review
+title: 'Termination review'
 description: Revisão de rescisão — detecção de flags de alto risco (estabilidades), verbas rescisórias + homologação, e prazo de pagamento conforme CLT art. 477. Regras específicas de base territorial/CCT e requisitos de assistência sindical são pesquisados por revisão, não armazenados. Use quando o usuário disser "revisando uma rescisão", "podemos dispensar essa pessoa", "revisão de rescisão", ou descrever um cenário de dispensa.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/termination-review

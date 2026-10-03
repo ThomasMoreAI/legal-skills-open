@@ -1,6 +1,6 @@
 ---
 name: mieterhoehung-und-kappungsgrenze-pruefen
-title: 1. Mieterhöhung und Kappungsgrenze prüfen
+title: 'Mieterhöhung und Kappungsgrenze prüfen'
 description: Prüft ein Erhöhungsverlangen zur Vergleichsmiete einschließlich Wartezeit, Begründung, Zustimmung und landesrechtlich abgesenkter Kappungsgrenze. Berechnet auch bei bisher günstiger Miete nur den rechtlich möglichen Anpassungsweg.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/mieterhoehung-und-kappungsgrenze-pruefen

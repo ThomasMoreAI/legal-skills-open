@@ -1,6 +1,6 @@
 ---
 name: romania-company-registry
-title: romania-company-registry
+title: 'Romania company registry'
 description: 'Look up Romanian companies for free by CUI (Cod Unic de Inregistrare) via the official ANAF API - registered name, address, ONRC trade-registry number (Jxx/xxxx/yyyy), CAEN activity code, VAT-payer status, and active/inactive flag, keyless and live. A genuinely rich per-CUI record, not a plain VAT check. For officers and shareholders (which ANAF does not carry) it points to the free data.gov.ro ONRC open data (CC-BY 4.0 bulk CSVs). Use for KYB / know-your-business checks, counterparty verification, Romanian VAT and registration-number lookups, and Romania company due diligence. Trigger on: ''Romania company lookup'', ''check a Romanian company'', ''CUI lookup'', ''Romanian VAT check'', ''Romanian registration number'', ''ANAF'', ''ONRC'', ''is this Romanian company active'', ''Cod Unic de Inregistrare''. ANAF is free and keyless; RECOM certified extracts are paid.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/romania-company-registry

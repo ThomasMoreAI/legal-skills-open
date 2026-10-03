@@ -1,6 +1,6 @@
 ---
 name: projektvertrag-leistung-und-abnahme-fassen
-title: 1. Projektvertrag, Leistung und Abnahme fassen
+title: 'Projektvertrag, Leistung und Abnahme fassen'
 description: Gestaltet messbaren Projekterfolg, Mitwirkung, Meilensteine, Änderungen und werkvertragliche Abnahme einschließlich Testbetrieb, Mängelvorbehalt und Wiederholungsprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/projektvertrag-leistung-und-abnahme-fassen

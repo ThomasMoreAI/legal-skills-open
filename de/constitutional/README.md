@@ -33,7 +33,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Amtstraeger Ressourcen`](skills/amtstraeger-ressourcen/) | Für Amtsträger Ressourcen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Angemessenheit Abwaegung`](skills/angemessenheit-abwaegung/) | Für Angemessenheit Abwägung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Angriff Auf Wahlleitung Vermeiden`](skills/angriff-auf-wahlleitung-vermeiden/) | Für Angriff auf Wahlleitung Vermeiden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Zweck und Anwendungsfall`](skills/anhoerung-und-eigentuemerstellungnahme-erstellen/) | Verfasst eine konkrete Anhörungs- oder Eigentümerstellungnahme zu einem… |
+| [`Verfasst eine konkrete Anhörungs- oder Eigentümerstellungnahme zu einem…`](skills/anhoerung-und-eigentuemerstellungnahme-erstellen/) | Verfasst eine konkrete Anhörungs- oder Eigentümerstellungnahme zu einem… |
 | [`Klar, fest, ohne Theater`](skills/anwaltlicher-an-anzeige-unter/) | Für Klar, fest, ohne Theater: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Anzeige, nicht Erlaubnis`](skills/anzeige-unter-freiem-himmel/) | Für Anzeige, nicht Erlaubnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Apotheken Urteil BVerfGE 7 377`](skills/apotheken-urteil-bverfge-7-377/) | Für Apotheken Urteil BVerfGE 7 377: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -51,7 +51,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Bannmeile ist Zusatzregime`](skills/bannmeile-schutzbereiche-barrierefreiheit/) | Für Bannmeile ist Zusatzregime: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Barrierefreie Und Mehrsprachige Information`](skills/barrierefreie-und-mehrsprachige-information/) | Für Barrierefreie und Mehrsprachige Information: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Basic Law for the Federal Republic of Germany`](skills/basic-law-for-the-federal-republic-of-germany-x8k/) | Comprehensive knowledge base of the Basic Law for the Federal Republic of Germany (Grundgesetz). Covers… |
-| [`1. Zweck`](skills/baulandsachen-und-eilrechtsschutz-bearbeiten/) | Bearbeitet gerichtlichen Schutz gegen BauGB-Enteignungsentscheidungen bei der Kammer für Baulandsachen.… |
+| [`Bearbeitet gerichtlichen Schutz gegen BauGB-Enteignungsentscheidungen bei der Kammer für…`](skills/baulandsachen-und-eilrechtsschutz-bearbeiten/) | Bearbeitet gerichtlichen Schutz gegen BauGB-Enteignungsentscheidungen bei der Kammer für Baulandsachen.… |
 | [`Befangenheit und Sitzungsleitung`](skills/befangenheit-und-sitzungsleitung/) | Für Befangenheit und Sitzungsleitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Knapp, freundlich, rechtlich klar`](skills/behoerdenkommunikation-bekanntgabe-social/) | Für Knapp, freundlich, rechtlich klar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Beitragsordnung Partei`](skills/beitragsordnung/) | Für Beitragsordnung Partei: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -94,14 +94,14 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Eigentum Art. 14: Inhaltsgrenze, Enteignung, Ausgleich`](skills/eigentum-art-14-inhalts-schranken-enteignung/) | Für Eigentum Art. 14: Inhaltsgrenze, Enteignung, Ausgleich: ordnet Norm, Beweislast und Gegenargument… |
 | [`Eilrechtsschutz: Folgenabwägung nach § 32 BVerfGG`](skills/eilrechtsschutz-folgenabwaegung-paragraf-32-bverfgg/) | Für Eilrechtsschutz: Folgenabwägung nach Paragraf 32 BVerfGG: ordnet Norm, Beweislast und Gegenargument… |
 | [`Eilversammlung: anzeigen sobald es geht`](skills/eilversammlung/) | Für Eilversammlung: anzeigen sobald es geht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck`](skills/eingriff-und-verfahrensstand-einordnen/) | Ordnet angekündigte Grundstückszugriffe nach Artikel 14 GG anhand vorhandener Akten ein und erstellt… |
+| [`Ordnet angekündigte Grundstückszugriffe nach Artikel 14 GG anhand vorhandener Akten ein…`](skills/eingriff-und-verfahrensstand-einordnen/) | Ordnet angekündigte Grundstückszugriffe nach Artikel 14 GG anhand vorhandener Akten ein und erstellt… |
 | [`Einschaetzungspraerogative und Kontrolldichte`](skills/einschaetzungspraerogative-kontrolldichte/) | Für Einschätzungsprärogative und Kontrolldichte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/energienetz-und-unionsrecht-abgleichen/) | Prüft die Umsetzung eines Artikel-15-Energienetzvorhabens an Entflechtung, Wegenutzungsverträgen… |
-| [`1. Zweck`](skills/enteignungsbeschluss-und-vollzug-pruefen/) | Prüft Enteignungsbeschluss, Vorabentscheidung und Ausführungsanordnung nach dem BauGB auf Gegenstand… |
-| [`1. Zweck`](skills/enteignungsverfahren-und-anhoerung-bearbeiten/) | Bearbeitet Antrag, Ladung und mündliche Verhandlung in einem BauGB-Enteignungsverfahren. Erstellt eine… |
-| [`1. Zweck`](skills/enteignungszweck-und-alternativen-pruefen/) | Prüft bei konkreter BauGB-Enteignung den gesetzlichen Zweck, die Notwendigkeit des Flächenzugriffs und… |
-| [`1. Zweck und Anwendungsfall`](skills/entschaedigung-und-finanzierung-pruefen/) | Erarbeitet eine Entschädigungs- und Finanzierungsvorlage für Vergesellschaftungen nach Artikel 15 GG.… |
-| [`1. Zweck`](skills/entschaedigung-und-folgeschaeden-pruefen/) | Prüft Verkehrswert, Nebenrechte, Restflächen- und Betriebsnachteile sowie Verfahrenskosten einer… |
+| [`Prüft die Umsetzung eines Artikel-15-Energienetzvorhabens an Entflechtung…`](skills/energienetz-und-unionsrecht-abgleichen/) | Prüft die Umsetzung eines Artikel-15-Energienetzvorhabens an Entflechtung, Wegenutzungsverträgen… |
+| [`Prüft Enteignungsbeschluss, Vorabentscheidung und Ausführungsanordnung nach dem BauGB auf…`](skills/enteignungsbeschluss-und-vollzug-pruefen/) | Prüft Enteignungsbeschluss, Vorabentscheidung und Ausführungsanordnung nach dem BauGB auf Gegenstand… |
+| [`Bearbeitet Antrag, Ladung und mündliche Verhandlung in einem BauGB-Enteignungsverfahren`](skills/enteignungsverfahren-und-anhoerung-bearbeiten/) | Bearbeitet Antrag, Ladung und mündliche Verhandlung in einem BauGB-Enteignungsverfahren. Erstellt eine… |
+| [`Prüft bei konkreter BauGB-Enteignung den gesetzlichen Zweck, die Notwendigkeit des…`](skills/enteignungszweck-und-alternativen-pruefen/) | Prüft bei konkreter BauGB-Enteignung den gesetzlichen Zweck, die Notwendigkeit des Flächenzugriffs und… |
+| [`Erarbeitet eine Entschädigungs- und Finanzierungsvorlage für Vergesellschaftungen nach…`](skills/entschaedigung-und-finanzierung-pruefen/) | Erarbeitet eine Entschädigungs- und Finanzierungsvorlage für Vergesellschaftungen nach Artikel 15 GG.… |
+| [`Prüft Verkehrswert, Nebenrechte, Restflächen- und Betriebsnachteile sowie…`](skills/entschaedigung-und-folgeschaeden-pruefen/) | Prüft Verkehrswert, Nebenrechte, Restflächen- und Betriebsnachteile sowie Verfahrenskosten einer… |
 | [`Erforderlichkeit Mildestes Mittel`](skills/erforderlichkeit-mildestes-mittel/) | Für Erforderlichkeit Mildestes Mittel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`EuGH CJEU Verhältnismäßigkeit`](skills/eugh-cjeu-verhaeltnismaessigkeit/) | Für EuGH CJEU Verhältnismäßigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EuGH und Art. 11 GRCh`](skills/eugh-grch-art-11-rechtsprechung/) | Für EuGH und Art. 11 GRCh: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
@@ -112,16 +112,16 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Formelle Verfassungsmäßigkeit prüfen`](skills/formelle-verfassungsmaessigkeit/) | Für Formelle Verfassungsmäßigkeit prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Foto Im Wahlraum Und Stimmzettel`](skills/foto-im-wahlraum-und-stimmzettel/) | Für Foto im Wahlraum und Stimmzettel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Fraktion Partei Trennung`](skills/fraktion-partei-trennung/) | Für Fraktion Partei Trennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck`](skills/freihandankauf-und-verhandlungen-fuehren/) | Bearbeitet Kauf- und Tauschangebote vor einer BauGB-Enteignung anhand von Grundstücksunterlagen… |
+| [`Bearbeitet Kauf- und Tauschangebote vor einer BauGB-Enteignung anhand von…`](skills/freihandankauf-und-verhandlungen-fuehren/) | Bearbeitet Kauf- und Tauschangebote vor einer BauGB-Enteignung anhand von Grundstücksunterlagen… |
 | [`Fremdplakate Nicht Anruehren`](skills/fremdplakate-nicht-anruehren/) | Für Fremdplakate Nicht Anrühren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Die 48 Stunden laufen oft vor der Bekanntgabe`](skills/frist-stunden-kosten-haftung/) | Für Die 48 Stunden laufen oft vor der Bekanntgabe: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Fristkalender Partei`](skills/fristkalender-partei-abgeordnetengesetz-bund/) | Für Fristkalender Partei: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Geeignetheit Prüfung`](skills/geeignetheit-pruefung/) | Für Geeignetheit Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Konkrete Tatsachen statt Fantasie`](skills/gefahrenprognose-redteam/) | Für Konkrete Tatsachen statt Fantasie: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Gegendarstellung, Entschuldigung, Deeskalation`](skills/gegendarstellung-entschuldigung-deeskalation/) | Für Gegendarstellung, Entschuldigung, Deeskalation: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/gegenstaende-und-anteile-abgrenzen/) | Prüft bei einer Vergesellschaftung nach Artikel 15 GG Grundstücke, Netzanlagen, Nutzungsrechte und… |
+| [`Prüft bei einer Vergesellschaftung nach Artikel 15 GG Grundstücke, Netzanlagen…`](skills/gegenstaende-und-anteile-abgrenzen/) | Prüft bei einer Vergesellschaftung nach Artikel 15 GG Grundstücke, Netzanlagen, Nutzungsrechte und… |
 | [`Gegenprotest ist nicht automatisch Störung`](skills/gegenveranstaltung-trennung-infostand/) | Für Gegenprotest ist nicht automatisch Störung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/gemeinwirtschaftliche-traegerschaft-entwerfen/) | Entwickelt für eine Vergesellschaftung nach Artikel 15 GG eine rechtlich verbindliche… |
+| [`Entwickelt für eine Vergesellschaftung nach Artikel 15 GG eine rechtlich verbindliche…`](skills/gemeinwirtschaftliche-traegerschaft-entwerfen/) | Entwickelt für eine Vergesellschaftung nach Artikel 15 GG eine rechtlich verbindliche… |
 | [`Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht)`](skills/gesetzentwurf-gg-konformitaet-pruefen/) | Für Gesetzentwurf — GG-Konformität prüfen (Gesetzgebersicht): ordnet Norm, Beweislast und Gegenargument… |
 | [`Gesetzgebungskompetenz: Compliance-Dokumentation und Aktenvermerk`](skills/gesetzgebungskompetenz-grundrechtspruefung/) | Für Gesetzgebungskompetenz: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und… |
 | [`Gesetzgebungskompetenz prüfen`](skills/gesetzgebungskompetenz-pruefen/) | Für Gesetzgebungskompetenz prüfen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -134,7 +134,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Grundrechte prüfen — GG und GRCh`](skills/grundrechte-pruefung-de-und-grch/) | Für Grundrechte prüfen — GG und GRCh: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Grundrechtsprüfung`](skills/grundrechtspruefung-acht-formelle-interessen/) | Für Grundrechtsprüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Grundrechtsprüfung und Verhältnismäßigkeit`](skills/grundrechtspruefung-und-verhaeltnismaessigkeit/) | Für Grundrechtsprüfung und Verhältnismäßigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck`](skills/grundstueck-rechte-und-beteiligte-klaeren/) | Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und Nebenrechte aus… |
+| [`Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und…`](skills/grundstueck-rechte-und-beteiligte-klaeren/) | Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und Nebenrechte aus… |
 | [`Hartz Iv BVerfGE 125 175`](skills/hartz-iv-bverfge-125-175/) | Für Hartz Iv BVerfGE 125 175: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Zwei Menschen können schon reichen`](skills/infostand-mahnwache-kleinstversammlung/) | Für Zwei Menschen können schon reichen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Innenraum ist nicht automatisch behördenfrei`](skills/innenraum-versammlung-kooperationsgespraech/) | Für Innenraum ist nicht automatisch behördenfrei: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -158,7 +158,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Kruzifix BVerfGE 93 1`](skills/kruzifix-bverfge-93-1/) | Für Kruzifix BVerfGE 93 1: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Der Ort spricht mit`](skills/kundgebung-stationaer-landesrecht-behoerde/) | Für Der Ort spricht mit: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Lagebild Medienresonanz`](skills/lagebild-medienresonanz/) | Für Lagebild Medienresonanz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Zweck und Anwendungsfall`](skills/landeskompetenz-und-hessenrecht-pruefen/) | Erstellt einen Kompetenz- und Landesverfassungsvermerk zu Artikel-15-Gesetzen mit Schwerpunkt Hessen.… |
+| [`Erstellt einen Kompetenz- und Landesverfassungsvermerk zu Artikel-15-Gesetzen mit…`](skills/landeskompetenz-und-hessenrecht-pruefen/) | Erstellt einen Kompetenz- und Landesverfassungsvermerk zu Artikel-15-Gesetzen mit Schwerpunkt Hessen.… |
 | [`Landesrecht Plakatierung Livecheck`](skills/landesrecht-plakatierung-livecheck/) | Für Landesrecht Plakatierung Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Föderaler Zuständigkeitsfinder`](skills/landesrecht-und-behoerde-finden/) | Für Föderaler Zuständigkeitsfinder: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leak Und Hack Notfall`](skills/leak-und-hack-notfall/) | Für Leak und Hack Notfall: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -214,7 +214,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Ordnungsmaßnahmen`](skills/parteienrecht-ordnungsmassnahmen-verfahren/) | Für Ordnungsmaßnahmen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Parteiausschluss`](skills/parteienrecht-parteiausschluss-parteigericht/) | Für Parteiausschluss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Juristischer Argumentationskern - Parteienrecht Parteiorganisation`](skills/parteienrecht-parteiorganisation-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Parteienrecht Parteiorganisation ein juristisches Arbeitsprodukt tragfähig… |
-| [`1. Parteivorgang zum bestellten Ergebnis führen`](skills/parteienrecht-parteiorganisation-kaltstart-triage/) | Für Parteienrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Parteivorgang zum bestellten Ergebnis führen`](skills/parteienrecht-parteiorganisation-kaltstart-triage/) | Für Parteienrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Rechenschaftsbericht`](skills/parteienrecht-rechenschaftsbericht-pruefung/) | Für Rechenschaftsbericht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Parteigerichtlicher Antrag`](skills/parteigericht-antrag/) | Für Parteigerichtlicher Antrag: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz… |
 | [`Parteigericht Aufbau`](skills/parteigericht-aufbau/) | Für Parteigericht Aufbau: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -245,7 +245,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Rechtsgeschichte der Verhältnismäßigkeit`](skills/rechtsgeschichte-verhaeltnismaessigkeit-linie/) | Für Rechtsgeschichte der Verhältnismäßigkeit: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Rechtsprechungsbank - verifiziert`](skills/rechtsprechungsbank-verifiziert/) | Für Rechtsprechungsbank - verifiziert: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Rechtsprechungsgetrieben: Behörden-, Gerichts- oder Registerweg`](skills/rechtsprechungsgetrieben-rechtsweg-bverfg/) | Für Rechtsprechungsgetrieben: Behörden-, Gerichts- oder Registerweg: prüft Frist, Form, Zuständigkeit… |
-| [`1. Zweck und Anwendungsfall`](skills/rechtsschutz-bei-vergesellschaftung-planen/) | Entwickelt aus einer Artikel-15-Akte den konkreten Rechtsschutz gegen Übertragung oder Entschädigung und… |
+| [`Entwickelt aus einer Artikel-15-Akte den konkreten Rechtsschutz gegen Übertragung oder…`](skills/rechtsschutz-bei-vergesellschaftung-planen/) | Entwickelt aus einer Artikel-15-Akte den konkreten Rechtsschutz gegen Übertragung oder Entschädigung und… |
 | [`Rechtsvergleich USA: Supreme Court`](skills/rechtsvergleich-usa-risikomatrix-ampel/) | Für Rechtsvergleich USA: Supreme Court: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Religionsfreiheit: Kopftuch, Neutralität, konkrete Gefahr`](skills/religionsfreiheit-kopftuch-konkrete-gefahr/) | Für Religionsfreiheit: Kopftuch, Neutralität, konkrete Gefahr: ordnet Norm, Beweislast und… |
 | [`Juristischer Argumentationskern - Richter BVerfG Verfassungsbeschwerden`](skills/richter-bverfg-verfassungsbeschw-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Richter BVerfG Verfassungsbeschwerden ein juristisches Arbeitsprodukt… |
@@ -336,8 +336,8 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Kaltstart und Routing`](skills/verfassungsrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/verfassungsrecht-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Verfassungsrechtliche Prüfung — Master-Workflow`](skills/verfassungsrechtliche-pruefung/) | Für Verfassungsrechtliche Prüfung — Master-Workflow: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Zweck und Anwendungsfall`](skills/vergesellschaftungsgesetz-ausarbeiten/) | Formuliert einen konkreten Artikel-15-Gesetzentwurf mit Übertragungsgegenständen, gemeinwirtschaftlicher… |
-| [`1. Zweck und Anwendungsfall`](skills/vergesellschaftungsvorhaben-einordnen/) | Ordnet konkrete Vergesellschaftungsvorhaben nach Artikel 15 GG anhand der Akte ein und erstellt einen… |
+| [`Formuliert einen konkreten Artikel-15-Gesetzentwurf mit Übertragungsgegenständen…`](skills/vergesellschaftungsgesetz-ausarbeiten/) | Formuliert einen konkreten Artikel-15-Gesetzentwurf mit Übertragungsgegenständen, gemeinwirtschaftlicher… |
+| [`Ordnet konkrete Vergesellschaftungsvorhaben nach Artikel 15 GG anhand der Akte ein und…`](skills/vergesellschaftungsvorhaben-einordnen/) | Ordnet konkrete Vergesellschaftungsvorhaben nach Artikel 15 GG anhand der Akte ein und erstellt einen… |
 | [`Verhältnismäßigkeit (Vier-Stufen-Prüfung)`](skills/verhaeltnismaessigkeit/) | Für Verhältnismäßigkeit (Vier-Stufen-Prüfung): ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verhältnismäßigkeit Einstieg`](skills/verhaeltnismaessigkeit-einstieg/) | Für Verhältnismäßigkeit Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Mittelbare Diskriminierung — Verhältnismäßigkeit als Rechtfertigungsmassstab`](skills/verhaeltnismaessigkeit-mittelbare-diskriminierung/) | Für Mittelbare Diskriminierung — Verhältnismäßigkeit als Rechtfertigungsmassstab: ordnet Norm… |
@@ -345,17 +345,17 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Verkehr ist wichtig, aber kein Pauschalverbot`](skills/verkehr-rettungswege-oepnv/) | Für Verkehr ist wichtig, aber kein Pauschalverbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`§ 187 StGB - Verleumdung`](skills/verleumdung-187/) | Für Paragraf 187 StGB - Verleumdung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verordnungsermaechtigung Art. 80 GG`](skills/verordnungsermaechtigung-art80/) | Für Verordnungsermächtigung Art. 80 GG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Anzeige und Kooperation bearbeiten`](skills/versammlung-anzeige-und-kooperation/) | Bereiten Sie die Anzeige einer Berliner Versammlung oder die Antwort im Kooperationsverfahren vor und… |
-| [`1. Versammlung und Grundrechte einordnen`](skills/versammlung-begriff-und-grundrechte/) | Ordnen Sie eine Berliner Zusammenkunft mit Musik, Kundgebung, Kunst oder kommerziellen Anteilen ein und… |
-| [`1. Beschränkungen, Lärm und Verkehr prüfen`](skills/versammlung-beschraenkungen-laerm-verkehr/) | Bearbeiten Sie Routenauflagen, Zeitgrenzen, Lautsprecherbeschränkungen und Verkehrsbelange einer… |
-| [`1. Gegenversammlung und Kollision ausgleichen`](skills/versammlung-gegenversammlung-und-kollision/) | Sichern Sie friedlichen Gegenprotest und prüfen Sie räumliche Konflikte, Drittgefahren und… |
-| [`1. Leitung, Ordner und Teilnahme organisieren`](skills/versammlung-leitung-ordner-und-teilnahme/) | Formulieren Sie eine rechtssichere Leitungs- und Ordnerunterweisung oder prüfen Sie einen… |
-| [`1. Berliner Versammlungsmandat zum Ergebnis führen`](skills/versammlung-mandat-zum-ergebnis/) | Hauptskill für Berliner Versammlungsmandate von vorhandenen Unterlagen und gezielten Rückfragen bis zur… |
-| [`1. Ort, Route und Flächen klären`](skills/versammlung-ort-route-und-flaechen/) | Prüfen Sie den Berliner Versammlungsort, eine Strecke oder private Verkehrsfläche und formulieren Sie… |
-| [`1. Polizei, Beobachtung und Daten prüfen`](skills/versammlung-polizei-beobachtung-und-daten/) | Prüfen Sie bei einer Berliner Versammlung Anwesenheit, Kontrollen, Aufnahmen und Datenverwendung und… |
-| [`1. Protestcamp und Infrastruktur begründen`](skills/versammlung-protestcamp-und-infrastruktur/) | Prüfen Sie ein Berliner Protestcamp mit Zelten, Nachtpräsenz, Verpflegung und Sanitärbedarf und… |
-| [`1. Rechtsschutz und Nachbereitung führen`](skills/versammlung-rechtsschutz-und-nachbereitung/) | Erstellen Sie Widerspruch, Eilantrag oder Nachbereitungsantrag im Berliner Versammlungsmandat mit… |
-| [`1. Verbot, Auflösung und Einzelmaßnahmen prüfen`](skills/versammlung-verbot-aufloesung-und-einzelmassnahmen/) | Prüfen Sie konkrete Berliner Verbots-, Auflösungs- und Ausschlussentscheidungen sowie die Grenze zu ASOG… |
+| [`Anzeige und Kooperation bearbeiten`](skills/versammlung-anzeige-und-kooperation/) | Bereiten Sie die Anzeige einer Berliner Versammlung oder die Antwort im Kooperationsverfahren vor und… |
+| [`Versammlung und Grundrechte einordnen`](skills/versammlung-begriff-und-grundrechte/) | Ordnen Sie eine Berliner Zusammenkunft mit Musik, Kundgebung, Kunst oder kommerziellen Anteilen ein und… |
+| [`Beschränkungen, Lärm und Verkehr prüfen`](skills/versammlung-beschraenkungen-laerm-verkehr/) | Bearbeiten Sie Routenauflagen, Zeitgrenzen, Lautsprecherbeschränkungen und Verkehrsbelange einer… |
+| [`Gegenversammlung und Kollision ausgleichen`](skills/versammlung-gegenversammlung-und-kollision/) | Sichern Sie friedlichen Gegenprotest und prüfen Sie räumliche Konflikte, Drittgefahren und… |
+| [`Leitung, Ordner und Teilnahme organisieren`](skills/versammlung-leitung-ordner-und-teilnahme/) | Formulieren Sie eine rechtssichere Leitungs- und Ordnerunterweisung oder prüfen Sie einen… |
+| [`Berliner Versammlungsmandat zum Ergebnis führen`](skills/versammlung-mandat-zum-ergebnis/) | Hauptskill für Berliner Versammlungsmandate von vorhandenen Unterlagen und gezielten Rückfragen bis zur… |
+| [`Ort, Route und Flächen klären`](skills/versammlung-ort-route-und-flaechen/) | Prüfen Sie den Berliner Versammlungsort, eine Strecke oder private Verkehrsfläche und formulieren Sie… |
+| [`Polizei, Beobachtung und Daten prüfen`](skills/versammlung-polizei-beobachtung-und-daten/) | Prüfen Sie bei einer Berliner Versammlung Anwesenheit, Kontrollen, Aufnahmen und Datenverwendung und… |
+| [`Protestcamp und Infrastruktur begründen`](skills/versammlung-protestcamp-und-infrastruktur/) | Prüfen Sie ein Berliner Protestcamp mit Zelten, Nachtpräsenz, Verpflegung und Sanitärbedarf und… |
+| [`Rechtsschutz und Nachbereitung führen`](skills/versammlung-rechtsschutz-und-nachbereitung/) | Erstellen Sie Widerspruch, Eilantrag oder Nachbereitungsantrag im Berliner Versammlungsmandat mit… |
+| [`Verbot, Auflösung und Einzelmaßnahmen prüfen`](skills/versammlung-verbot-aufloesung-und-einzelmassnahmen/) | Prüfen Sie konkrete Berliner Verbots-, Auflösungs- und Ausschlussentscheidungen sowie die Grenze zu ASOG… |
 | [`Versammlungsfreiheit: Brokdorf, Auflagen, Verbot`](skills/versammlungsfreiheit-brokdorf-auflagen-verbot/) | Für Versammlungsfreiheit: Brokdorf, Auflagen, Verbot: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gutes Konzept ohne Selbstfesselung`](skills/versammlungskonzept-wahlkampf-politische/) | Für Gutes Konzept ohne Selbstfesselung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Juristischer Argumentationskern - Versammlungsrecht`](skills/versammlungsrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Versammlungsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden… |
@@ -369,7 +369,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Stufe 0b: Liegt ein Eingriff vor?`](skills/vorpruefung-eingriff-klassisch-modern/) | Für Stufe 0b: Liegt ein Eingriff vor?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Stufe 0c: Welche Schranke gilt?`](skills/vorpruefung-schranke-finden/) | Für Stufe 0c: Welche Schranke gilt?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands… |
 | [`Stufe 0a: Ist der Schutzbereich eroeffnet?`](skills/vorpruefung-schutzbereich-eroeffnet/) | Für Stufe 0a: Ist der Schutzbereich eröffnet?: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck`](skills/vorzeitige-besitzeinweisung-pruefen/) | Prüft einen beantragten oder angeordneten vorzeitigen Besitzentzug nach BauGB Paragraf 116 unabhängig… |
+| [`Prüft einen beantragten oder angeordneten vorzeitigen Besitzentzug nach BauGB Paragraf…`](skills/vorzeitige-besitzeinweisung-pruefen/) | Prüft einen beantragten oder angeordneten vorzeitigen Besitzentzug nach BauGB Paragraf 116 unabhängig… |
 | [`Waehlerdaten Und Listen`](skills/waehlerdaten-und-listen/) | Für Wählerdaten und Listen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Wahl O Mat Und Thesen`](skills/wahl-o-mat-und-thesen/) | Für Wahl O Mat und Thesen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Interne Wahlanfechtung`](skills/wahlanfechtung-intern/) | Für Interne Wahlanfechtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -381,7 +381,7 @@ Jurisdiction: `de` · Practice: `constitutional` · Skill language varies per sk
 | [`Juristischer Argumentationskern - Wahlkampfrecht Praxis`](skills/wahlkampfrecht-praxis-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Wahlkampfrecht Praxis ein juristisches Arbeitsprodukt tragfähig begründet… |
 | [`Allgemeiner Kaltstart`](skills/wahlkampfrecht-praxis-kaltstart-routing/) | Für Allgemeiner Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Wahlprogramm Und Faktencheck`](skills/wahlprogramm-und-faktencheck/) | Für Wahlprogramm und Faktencheck: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Wahlprüfung nach der Wahl`](skills/wahlpruefung-nachwahl/) | Für Wahlprüfung Nachwahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
+| [`Wahlprüfung nach der Wahl`](skills/wahlpruefung-nachwahl/) | Für Wahlprüfung Nachwahl: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Tatbestands- oder… |
 | [`Wahlraum Propagandaverbot`](skills/wahlraum-propagandaverbot/) | Für Wahlraum Propagandaverbot: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Wahlverfahren Falschinfo`](skills/wahlverfahren-falschinfo/) | Für Wahlverfahren Falschinfo: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bundestag Wahlvorschlag einreichen`](skills/wahlvorschlag-bundestag-einreichen/) | Für Bundestag Wahlvorschlag einreichen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |

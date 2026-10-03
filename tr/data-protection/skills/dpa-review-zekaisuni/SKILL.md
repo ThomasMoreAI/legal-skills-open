@@ -1,6 +1,6 @@
 ---
 name: dpa-review-zekaisuni
-title: /dpa-review
+title: 'DPA review'
 description: Veri işleme sözleşmesi, veri işleyen sözleşmesi, DPA veya kişisel veri aktarımı içeren tedarikçi/müşteri ekini Türk KVKK uygulamasına göre inceler. Veri sorumlusu/veri işleyen rolünü, KVKK m.12 güvenlik yükümlülüklerini, alt işleyen, silme-iade, denetim, ihlal bildirimi, yurt dışına aktarım, standart sözleşme ve politika uyumunu kontrol eder. Kullanıcı "DPA incele", "veri işleyen sözleşmesi", "müşteri DPA gönderdi", "tedarikçi ekini kontrol et" dediğinde veya sözleşme metni eklediğinde kullanılır.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/privacy-legal/skills/dpa-review

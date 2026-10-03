@@ -1,6 +1,6 @@
 ---
 name: neuvereinbarte-miete-pruefen
-title: 1. Neu vereinbarte Miete prüfen
+title: 'Neu vereinbarte Miete prüfen'
 description: Prüft bei Wohnungsneuvermietung die Mietpreisbremse, rechtlich geschuldete Vormiete, Modernisierung und Neubauausnahmen. Führt Mieter und Vermieter zu belegter Anfangsmiete, erforderlicher Auskunft und sachlichem Korrekturschreiben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/neuvereinbarte-miete-pruefen

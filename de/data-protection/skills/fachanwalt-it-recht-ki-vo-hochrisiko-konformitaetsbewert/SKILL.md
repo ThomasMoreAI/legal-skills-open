@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-it-recht-ki-vo-hochrisiko-konformitaetsbewert
-title: 1. Konformitätsdossier und IT-Vertrag abstimmen
+title: 'Konformitätsdossier und IT-Vertrag abstimmen'
 description: Begleitet die Markteinführung eines Hochrisikosystems aus IT-vertragsrechtlicher Sicht. Ordnet Produktregime, interne oder externe Bewertung, Versionswechsel und Nachweisrechte ein und erstellt eine abgestimmte Freigabeakte.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/fachanwalt-it-recht-ki-vo-hochrisiko-konformitaetsbewertung

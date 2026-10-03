@@ -1,6 +1,6 @@
 ---
 name: hoai-9-objektbetreuung-und-maengelverfolgung-organisiere
-title: 1. Spätere Gebäudemängel, Vorfristbegehung und Sicherheiten zusammenführen
+title: 'Spätere Gebäudemängel, Vorfristbegehung und Sicherheiten zusammenführen'
 description: Bearbeitet die Gebäude-Objektbetreuung nach HOAI-Leistungsphase 9 mit Bewertung späterer Mängel, Begehung vor Fristablauf und Sicherheitenfreigabe. Für phasenweite Betreuung, nicht für isolierte Fristfragen. Trennt Anspruchsverjährung, Leistungszeitraum und gesondert zu beauftragende Sanierungsüberwachung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-9-objektbetreuung-und-maengelverfolgung-organisieren

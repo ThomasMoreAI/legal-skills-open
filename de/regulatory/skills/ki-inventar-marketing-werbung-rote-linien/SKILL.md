@@ -1,6 +1,6 @@
 ---
 name: ki-inventar-marketing-werbung-rote-linien
-title: /ki-inventar
+title: 'Ki inventar'
 description: 'Für /ki-inventar: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/ki-inventar-marketing-werbung-rote-linien

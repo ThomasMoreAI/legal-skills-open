@@ -1,6 +1,6 @@
 ---
 name: unterlagen-und-preisblatt-abgleichen
-title: 1. Unterlagen und Preisblatt abgleichen
+title: 'Unterlagen und Preisblatt abgleichen'
 description: Prüft den vollständigen Vergabeunterlagensatz auf widersprüchliche Mengen, Preisformeln, Kriterien, Laufzeiten und Fassungen. Liefert korrigierte Dokumente und eine Freigabegrundlage vor Veröffentlichung oder nach einer Änderung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/unterlagen-und-preisblatt-abgleichen

@@ -1,11 +1,11 @@
 ---
 name: investigation-add-zhou210712
-title: /investigation-add
+title: 'Investigation add'
 description: 向进行中的调查添加数据——文件、访谈记录或观察意见。 按已记录的筛选标准批量处理，浮现重要事项，记录所有已审查内容 以供覆盖验证。当新的证据、访谈记录或文件材料进入进行中的调查时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/employment-legal/skills/investigation-add
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: employment

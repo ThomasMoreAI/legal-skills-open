@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-10
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Run the cold-start interview — learns your privacy practice and writes CLAUDE.md from your policy, DPA template, and a reference PIA. Use on first run, when CLAUDE.md is missing or has placeholders, or when the user says "set up the privacy plugin", "onboard me", "configure privacy", or wants to re-run the interview or re-check integrations.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/privacy-legal/skills/cold-start-interview

@@ -1,6 +1,6 @@
 ---
 name: unternehmensvergleich-und-erfuellung-gestalten
-title: 1. Unternehmensvergleich mit gesicherter Erfüllung ausformulieren
+title: 'Unternehmensvergleich mit gesicherter Erfüllung ausformulieren'
 description: Entwickelt aus einer konkreten Unternehmensstreitigkeit einen finanzierbaren Vergleich und formuliert Zahlung, Leistung, Daten- oder Materialübergabe sowie begrenzte Erledigung. Trennt interne Verhandlungsbefugnis, wirksamen Abschluss und Vollstreckbarkeit; keine unautorisierte Annahme oder persönliche Organentlastung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/unternehmensvergleich-und-erfuellung-gestalten

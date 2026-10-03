@@ -1,6 +1,6 @@
 ---
 name: teilverlust-packstueckabgleich-haftungsdurchbrechung
-title: 1. Teilverlust, Packstückabgleich und Haftung
+title: 'Teilverlust, Packstückabgleich und Haftung'
 description: Rekonstruiert verdeckte Teilverluste aus Packlisten, Wiegedaten, Umschlagscans und Ablieferbelegen und prüft Haftungsgrenze sowie qualifiziertes Verschulden. Für wertvolle Stückgutsendungen nach HGB, nicht für reinen Lieferverzug oder abstrakte Exportkontrolle.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-transport-speditionsrecht/skills/teilverlust-packstueckabgleich-haftungsdurchbrechung

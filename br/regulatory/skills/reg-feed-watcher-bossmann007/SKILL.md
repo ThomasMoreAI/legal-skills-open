@@ -1,11 +1,11 @@
 ---
 name: reg-feed-watcher-bossmann007
-title: /reg-feed-watcher
+title: 'Reg feed watcher'
 description: Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold. Use when the user says "check the feeds", "what's new", "regulatory update", when running from the scheduled agent, or when manually pasting a regulatory development for classification and diff.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/regulatory-legal/skills/reg-feed-watcher
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: regulatory

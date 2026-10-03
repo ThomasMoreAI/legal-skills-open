@@ -1,6 +1,6 @@
 ---
 name: dienstleistung-und-servicelevel-vereinbaren
-title: 1. Dienstleistung und Servicelevel vereinbaren
+title: 'Dienstleistung und Servicelevel vereinbaren'
 description: Formuliert B2B-Dienstleistungsverträge und messbare Servicelevel mit Verantwortungsgrenzen, Reaktionszeiten, Vergütung und angemessenen Folgen wiederholter Störungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/dienstleistung-und-servicelevel-vereinbaren

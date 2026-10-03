@@ -21,15 +21,15 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Arbeitgeber will Arbeitnehmer abmahnen oder Arbeitnehmer hat Abmahnung erhalten und will sie anfechten`](skills/abmahnung-arbeitsrecht/) | Für Abmahnung Arbeitsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Abmahnung und Personalaktenentfernung prüfen`](skills/abmahnung-loeschung-personalakte-bag-2-azr-782-11/) | Für Abmahnung und Personalaktenentfernung prüfen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt… |
 | [`Äußere Form und Briefkopf prüfen`](skills/aeussere-form-und-briefkopf/) | Prüft bei einem vorhandenen deutschen Arbeitszeugnis Ausfertigung, Geschäftspapier, Datierung… |
-| [`1. Abhilfe und Vereinbarung gestalten`](skills/agg-abhilfe-und-vereinbarung-gestalten/) | Entwickelt konkrete Abhilfe, faire Auswahlregeln und eine eng gefasste Vergleichsvereinbarung im… |
-| [`1. AGG-Fall zum nächsten Schreiben führen`](skills/agg-fall-zum-schreiben-fuehren/) | Führt einen konkreten Diskriminierungsvorgang nach dem AGG vom ersten Beleg zum Beschwerdebrief… |
-| [`1. AGG-Fristen sichern`](skills/agg-fristen-und-ansprueche-sichern/) | Prüft Ausschlussfristen und erstellt eine konkrete Anspruchsgeltendmachung nach dem AGG. Trennt… |
-| [`1. AGG-Schriftsatz erstellen`](skills/agg-klage-und-erwiderung-entwerfen/) | Erstellt eine AGG-Klage oder Erwiderung aus Anspruchsschreiben und Belegen. Prüft Rechtsweg… |
+| [`Abhilfe und Vereinbarung gestalten`](skills/agg-abhilfe-und-vereinbarung-gestalten/) | Entwickelt konkrete Abhilfe, faire Auswahlregeln und eine eng gefasste Vergleichsvereinbarung im… |
+| [`AGG-Fall zum nächsten Schreiben führen`](skills/agg-fall-zum-schreiben-fuehren/) | Führt einen konkreten Diskriminierungsvorgang nach dem AGG vom ersten Beleg zum Beschwerdebrief… |
+| [`AGG-Fristen sichern`](skills/agg-fristen-und-ansprueche-sichern/) | Prüft Ausschlussfristen und erstellt eine konkrete Anspruchsgeltendmachung nach dem AGG. Trennt… |
+| [`AGG-Schriftsatz erstellen`](skills/agg-klage-und-erwiderung-entwerfen/) | Erstellt eine AGG-Klage oder Erwiderung aus Anspruchsschreiben und Belegen. Prüft Rechtsweg… |
 | [`AGG-Prüfung bei Bewerbung und Beschäftigung: Diskriminierungsmerkmale Paragraf 1 AGG, Benachteiligungsverbot Paragraf 7 `](skills/agg-pruefung-bewerber-und-beschaeftigte/) | Für Agg Prüfung Bewerber und Beschäftigte: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Aktenzeichen Fehlerkatalog`](skills/aktenzeichen-fehlerkatalog/) | Für Aktenzeichen Fehlerkatalog: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Streitige Zeugnisformulierungen vergleichen`](skills/ampel-einschaetzung-pro-satz/) | Vergleicht bei einer Arbeitszeugnisprüfung einzelne streitige Sätze mit ihrer Funktion, dem… |
 | [`Ampelsystem-Tabellenausgabe`](skills/ampelsystem-tabellenausgabe/) | Für Ampelsystem-Tabellenausgabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck und Anwendungsfall`](skills/annahmeverzugslohn-zeitraeume-und-anrechnung/) | Berechnet Annahmeverzugslohn bei Freistellung und Kündigungsstreit anhand von Vergütungsperioden… |
+| [`Berechnet Annahmeverzugslohn bei Freistellung und Kündigungsstreit anhand von…`](skills/annahmeverzugslohn-zeitraeume-und-anrechnung/) | Berechnet Annahmeverzugslohn bei Freistellung und Kündigungsstreit anhand von Vergütungsperioden… |
 | [`Gezielte Anpassung des Arbeitsrechts-Praxisprofils – Standort-Fußabdruck, Risikoeinstellung, Eskalationskontakte, Einste`](skills/anpassen-6/) | Für Anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Anwalt Und Steuerberater Briefing`](skills/anwalt-steuerberater-personalakte/) | Für Anwalt und Steuerberater Briefing: ordnet Akte, Belege und Lücken; Ergebnis: Schnittstellenkarte mit… |
 | [`Anwaltliche Meldestelle`](skills/anwaltliche-meldestelle/) | Für Anwaltliche Meldestelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -44,7 +44,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Arbeitserlaubnis Blue Card Nicht Eu`](skills/arbeitserlaubnis-blue-arbeitsschutz/) | Für Arbeitserlaubnis Blue Card Nicht Eu: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitsgericht Klage`](skills/arbeitsgericht-klage-arbeitsschutz-audit/) | Für Arbeitsgericht Klage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Arbeitsgerichtliche Versandmappe endfertigen`](skills/arbeitsgerichtliche-versandmappe-endfertigen/) | Endfertigt Kündigungsschutzklage, Zahlungsklage, Klageerwiderung, Berufungs- oder Revisionsschrift im… |
-| [`/arbeitsrecht:arbeitsrecht-anpassen`](skills/arbeitsrecht-anpassen/) | Für /arbeitsrecht:arbeitsrecht-anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Arbeitsrecht anpassen`](skills/arbeitsrecht-anpassen/) | Für /arbeitsrecht:arbeitsrecht-anpassen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitsgerichtliche Versandmappe endfertigen`](skills/arbeitsrecht-arbeitsgerichtliche-versandmappe-endfertigen/) | Macht Kündigungsschutz-, Entfristungs- und Zahlungsschriftsätze versandfertig: liest Vertrag, Kündigung… |
 | [`Juristischer Argumentationskern - Arbeitsrecht`](skills/arbeitsrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Arbeitsrecht ein juristisches Arbeitsprodukt tragfähig begründet werden muss… |
 | [`Arbeitsrechtlichen Vorgang und nächsten Schritt bestimmen`](skills/arbeitsrecht-kaltstart-triage/) | Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
@@ -109,7 +109,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Berlin Bildungszeit Und Feiertage`](skills/berlin-bildungszeit-und-feiertage/) | Für Berlin Bildungszeit und Feiertage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Allgemein Kaltstart HR Command Center`](skills/berlin-kaltstart-routing-hr-command-center/) | Für Allgemein Kaltstart HR Command Center: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Beschwerde Management`](skills/beschwerde-management/) | Für Beschwerde Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Beschwerde und Schutz bearbeiten`](skills/beschwerde-und-schutzmassnahmen-bearbeiten/) | Führt eine interne AGG-Beschwerde von der sachlichen Aufnahme über Anhörung und Schutzmaßnahmen zur… |
+| [`Beschwerde und Schutz bearbeiten`](skills/beschwerde-und-schutzmassnahmen-bearbeiten/) | Führt eine interne AGG-Beschwerde von der sachlichen Aufnahme über Anhörung und Schutzmaßnahmen zur… |
 | [`Besondere Kategorien Gesundheit Schwerbehinderung`](skills/besondere-kategorien-gesundheit-schwerbehinderung/) | Für Besondere Kategorien Gesundheit Schwerbehinderung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Betriebsratsanhörung vor Kündigung: Sachverhalt, Sozialdaten, Kündigungsgrund, Nachschieben und Fehlerfolgen.`](skills/beteiligung-betriebsrat-102-betrvg/) | Für Beteiligung Betriebsrat 102 Betrvg: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Betriebsbedingte Kuendigung Startup`](skills/betriebsbedingte-kuendigung-startup/) | Für Betriebsbedingte Kündigung Startup: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -134,7 +134,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Darlegungs- und Beweislast bei der Zeugnisnote`](skills/beweislast-bag-9-azr-584-13/) | Ordnet im Streit um die Leistungs- oder Verhaltensbewertung eines Arbeitszeugnisses die Darlegungs- und… |
 | [`Beweislastumkehr`](skills/beweislastumkehr/) | Für Beweislastumkehr: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Beweislast- und… |
 | [`Bewerber Ehemalige`](skills/bewerber-ehemalige/) | Für Bewerber Ehemalige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Bewerbungsentscheidung überprüfen`](skills/bewerbung-und-befoerderung-pruefen/) | Prüft Stellenausschreibung, Auswahlgespräch und Beförderung auf AGG-Risiken. Vergleicht tatsächliche… |
+| [`Bewerbungsentscheidung überprüfen`](skills/bewerbung-und-befoerderung-pruefen/) | Prüft Stellenausschreibung, Auswahlgespräch und Beförderung auf AGG-Risiken. Vergleicht tatsächliche… |
 | [`Boesglaeubige Meldung`](skills/boesglaeubige-meldung/) | Für Bösgläubige Meldung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Bonus Versetzung Bewertung`](skills/bonus-versetzung-case-management-cloud/) | Für Bonus Versetzung Bewertung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Branchenspezifische Formulierungen`](skills/branchen-spezifische-formulierungen/) | Für Branchenspezifische Formulierungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
@@ -178,7 +178,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Entfristung wegen Schriftformmangel nach Paragraf 14 Absatz 4 TzBfG`](skills/entfristung-schriftform-14-abs-4-erkennen/) | Für Entfristung wegen Schriftformmangel nach Paragraf 14 Absatz 4 TzBfG: prüft Frist, Form… |
 | [`Einstieg Entfristungsklage-Workflow: Erkennung ob Nutzer Befristungskontrollklage oder Entfristungsklage anstrebt`](skills/entfristung-triage-was-will-user/) | Für Entfristung Triage Was Will User: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Typische Vergleichsbausteine in der Entfristungsklage: Entfristungsbestätigung oder Beendigungsdatum mit Abfindung`](skills/entfristung-vergleichsverhandlung-checkliste/) | Für Entfristung Vergleichsverhandlung Checkliste: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
-| [`1. Entgelt und Arbeitsbedingungen vergleichen`](skills/entgelt-und-arbeitsbedingungen-vergleichen/) | Vergleicht Entgelt, Arbeitszeit, Zulagen und Arbeitsbedingungen auf mögliche Benachteiligung. Bereinigt… |
+| [`Entgelt und Arbeitsbedingungen vergleichen`](skills/entgelt-und-arbeitsbedingungen-vergleichen/) | Vergleicht Entgelt, Arbeitszeit, Zulagen und Arbeitsbedingungen auf mögliche Benachteiligung. Bereinigt… |
 | [`Setzt BAG 23.10.2025 - 8 AZR 300/24 in einen arbeitsrechtlichen Prüffür Equal Pay, variable Vergütung, Vergleichsperson,`](skills/entgeltgleichheit-paarvergleich-agg-entgtranspg/) | Für Entgeltgleichheit Paarvergleich Agg Entgtranspg: entwickelt Ziel, Vergleich und Eskalation… |
 | [`EntgTranspG Entgelttransparenzgesetz: Auskunftsanspruch Paragraf 10, Verfahren, Fristen, Verhandlungsstrategie bei Lohnl`](skills/entgtranspg-verhandlung-vergleich-und-eskalation/) | Für Entgtranspg Verhandlung Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Equal Pay bei Leiharbeit prüfen`](skills/equal-pay-leiharbeit-bag-5-azr-143-19-eugh-timepartner/) | Prüft Equal Pay in der Arbeitnehmerüberlassung anhand von Paragraf 8 AÜG, Tariföffnung… |
@@ -269,14 +269,14 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`HR Mail An Mitarbeiter Konfliktarm`](skills/hr-mail-an-mitarbeiter-konfliktarm/) | Für HR Mail an Mitarbeiter Konfliktarm: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`HR Monatsabschluss Quality Gate`](skills/hr-monatsabschluss-quality-gate/) | Für HR Monatsabschluss Quality Gate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`HR Red Team Vor Versand`](skills/hr-red-team-vor-versand/) | Für HR Red Team vor Versand: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
-| [`1. Indizien und Gegenbeweise prüfen`](skills/indizien-und-vergleichsfaelle-pruefen/) | Ordnet Anzeigen, Nachrichten, Aussagen und Vergleichsfälle dem Indizienbeweis nach Paragraf 22 AGG zu.… |
+| [`Indizien und Gegenbeweise prüfen`](skills/indizien-und-vergleichsfaelle-pruefen/) | Ordnet Anzeigen, Nachrichten, Aussagen und Vergleichsfälle dem Indizienbeweis nach Paragraf 22 AGG zu.… |
 | [`Unterlagen und Stammdaten prüfen`](skills/intake-und-stammdaten-pruefen/) | Ermittelt Zeugnisart, Stamm- und Verfahrensdaten einer Arbeitszeugnisprüfung oder verweigerten… |
 | [`Internal Investigation`](skills/internal-investigation/) | Für Internal Investigation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Implementierungsplanungs-Framework für internationale Einstellungen — Entscheidungsrahmen AÜG-Modell/EOR vs`](skills/internationale-expansion/) | Für Internationale Expansion: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`gemeinsames Framework für arbeitsrechtliche interne Untersuchungen vom Eingang einer Beschwerde bis zum abschließenden M`](skills/interne-untersuchung/) | Für Interne Untersuchung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Interne Untersuchung HR Light`](skills/interne-untersuchung-ip-rechte-krankmeldung/) | Für Interne Untersuchung HR Light: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`IP Rechte Software Und Erfindungen`](skills/ip-rechte-software-und-erfindungen/) | Für IP Rechte Software und Erfindungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`/arbeitsrecht:kaltstart-interview`](skills/kaltstart-interview-9/) | Für /arbeitsrecht:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Kaltstart interview`](skills/kaltstart-interview-9/) | Für /arbeitsrecht:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Kanzlei Berufsgeheimnis`](skills/kanzlei-berufsgeheimnis-kartellrecht/) | Für Kanzlei Berufsgeheimnis: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Kartellrecht`](skills/kartellrecht/) | Für Kartellrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Klagestrategie Zeugnisberichtigung`](skills/klage-strategie-zeugnisberichtigung/) | Für Klagestrategie Zeugnisberichtigung: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
@@ -316,7 +316,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Weiterbeschaeftigungsantrag nach BAG Großer Senat 1985: Voraussetzungen des allgemeinen Weiterbeschaeftigungsanspruchs`](skills/kueschk-weiterbeschaeftigungsantrag-grosser-senat/) | Für Kueschk Weiterbeschäftigungsantrag Großer Senat: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis`](skills/kueschk-zeugnisanspruch-und-vergleich/) | Für Zeugnisanspruch nach Paragraf 109 GewO: qualifiziertes Zeugnis: entwickelt Ziel, Vergleich und… |
 | [`Leistung und Verhalten formulieren`](skills/leistung-und-verhalten-formulieren/) | Formuliert belegte Leistungs-, Führungs- und Verhaltensbeurteilungen. Gewichtet Ergebnisse und… |
-| [`1. Leistungsbeurteilung im Zeugnis analysieren`](skills/leistungsbeurteilung-analyse/) | Für Leistungsbeurteilung-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Leistungsbeurteilung im Zeugnis analysieren`](skills/leistungsbeurteilung-analyse/) | Für Leistungsbeurteilung-Analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitszeugnisse für leitende Positionen`](skills/leitende-positionen-zeugnisse/) | Für Arbeitszeugnisse für leitende Positionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Lieferkette LkSG CSDDD`](skills/lieferkette-lksg-massnahmenplan-meldekanal/) | Für Lieferkette LkSG CSDDD: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Standortbezogene Lohn- und Arbeitszeitfragen – ArbZG (Höchstarbeitszeit, Pausen, Ruhezeiten, Aufzeichnungspflichten), Mi`](skills/lohn-arbeitszeit-fragen/) | Für Lohn Arbeitszeit Fragen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -415,7 +415,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`Tisax Iso Hinweisgeber`](skills/tisax-iso-triage-strafrecht-uk-whistleblowing/) | Für Tisax Iso Hinweisgeber: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Triage Strafrecht`](skills/triage-strafrecht/) | Für Triage Strafrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`TzBfG Schriftsatz-, Brief- und Memo-Bausteine: Klageschrift Entfristungsklage Paragraf 17 TzBfG, Klageantrag, Sachverhal`](skills/tzbfg-schriftsatz-brief-und-memo-bausteine/) | Für Tzbfg Schriftsatz Brief und Memo Bausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
-| [`1. Rechtfertigung konkret prüfen`](skills/ungleichbehandlung-und-rechtfertigung-pruefen/) | Prüft betriebliche Anforderungen und Ausnahmen vom Benachteiligungsverbot. Unterscheidet unmittelbare… |
+| [`Rechtfertigung konkret prüfen`](skills/ungleichbehandlung-und-rechtfertigung-pruefen/) | Prüft betriebliche Anforderungen und Ausnahmen vom Benachteiligungsverbot. Unterscheidet unmittelbare… |
 | [`Beantwortet Fragen gegen ein laufendes Untersuchungsprotokoll — was Zeugen gesagt haben, wo Schilderungen im Widerspruch`](skills/untersuchung-abfrage/) | Für Untersuchung Abfrage: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Compliance Untersuchung`](skills/untersuchung-datenschutz-dsgvo/) | Für Compliance Untersuchung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Fügt einer laufenden internen Untersuchung neue Daten hinzu — Dokumente, Befragungsnotizen oder Beobachtungen`](skills/untersuchung-ergaenzen/) | Für Untersuchung Ergänzen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -445,7 +445,7 @@ Jurisdiction: `de` · Practice: `employment` · Skill language: de
 | [`/tabellenreview-3d:vorlage-arbeitsvertrag-portfolio`](skills/vorlage-arbeitsvertrag-portfolio/) | Für /tabellenreview-3d:vorlage-arbeitsvertrag-portfolio: ordnet Norm, Beweislast und Gegenargument… |
 | [`Berliner Start-up-HR: Hinweisgeberschutz und HR: Meldekanal, Vertraulichkeit, Repressalienverbot, NDA-Konflikte und Pers`](skills/whistleblowing-hinschg-hr-schnittstelle/) | Für Whistleblowing Hinschg Hr Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Widersprüchliche Bewertungen erkennen und kommentieren`](skills/widerspruechliche-bewertungen/) | Für Widersprüchliche Bewertungen erkennen und kommentieren: ordnet Norm, Beweislast und Gegenargument… |
-| [`1. Zugang zu Wohnung und Dienstleistungen prüfen`](skills/wohnraum-und-dienstleistungen-pruefen/) | Prüft Benachteiligungen bei Wohnungssuche, Maklerkontakt und Dienstleistungen nach dem zivilrechtlichen… |
+| [`Zugang zu Wohnung und Dienstleistungen prüfen`](skills/wohnraum-und-dienstleistungen-pruefen/) | Prüft Benachteiligungen bei Wohnungssuche, Maklerkontakt und Dienstleistungen nach dem zivilrechtlichen… |
 | [`Zeugnisproblem Sortieren`](skills/zeugnis-problem-sortieren/) | Für Zeugnisproblem Sortieren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Zeugnis prüfen und berichtigen`](skills/zeugnis-pruefen-und-berichtigen/) | Prüft und berichtigt vorhandene Zeugnisse anhand von Wortlaut, Akte und Rechtslage. Liefert gezielte… |
 | [`Zeugnis-Überblick und Kopfdaten-Extraktion`](skills/zeugnis-ueberblick-extraktion/) | Für Zeugnis-Überblick und Kopfdaten-Extraktion: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

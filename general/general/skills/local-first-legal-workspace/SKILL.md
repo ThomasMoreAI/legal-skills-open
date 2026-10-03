@@ -1,6 +1,6 @@
 ---
 name: local-first-legal-workspace
-title: local-first-legal-workspace
+title: 'Local first legal workspace'
 description: Use when users say "is this legal AI app local-first", "what leaves the machine", "BYOK privacy", "audit network calls", "where are documents stored", or need a legal AI workspace reviewed for local storage, credentials, model-provider calls, conversion, and privacy boundaries.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/local-first-legal-workspace

@@ -1,6 +1,6 @@
 ---
 name: cost-estimate
-title: /cost-estimate
+title: 'Cost estimate'
 description: 计算法国申根签证申请的总成本，包括领事馆、TLScontact、照片、保险、 快递和其他费用。按申请人或家庭团体。帮助用户提前预算，避免赴约 时的意外费用。当用户问"这要花多少钱"、"总成本估算"、"计算费用"， 或在为申请预算时使用。(Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/cost-estimate

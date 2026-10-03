@@ -1,6 +1,6 @@
 ---
 name: cover-letter-torlyai
-title: /cover-letter
+title: 'Cover letter'
 description: '起草个性化求情信，说明出行目的、日期、资金来源和回国承诺。
 
   按目的分变体（旅游/探亲/商务/其他）。输出可打印、A4、单页、
@@ -11,7 +11,7 @@ description: '起草个性化求情信，说明出行目的、日期、资金来
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/cover-letter
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

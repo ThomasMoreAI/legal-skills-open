@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-miet-weg-waermepumpe-geg
-title: 1. Wärmepumpe und Heizungstausch in der WEG
+title: 'Wärmepumpe und Heizungstausch in der WEG'
 description: 'Vertieft Wärmepumpe und Heizungstausch für die Fachanwaltspraxis im Miet- und WEG-Recht: Heizungsrecht, Beschluss, Kosten, Schall, Förderung und Mietumlage; erstellt entscheidungsreife Prüfprodukte.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-miet-wohnungseigentumsrecht/skills/fachanwalt-miet-weg-waermepumpe-geg

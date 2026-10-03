@@ -1,6 +1,6 @@
 ---
 name: vertragstyp-form-und-vertretung-pruefen
-title: 1. Vertragstyp, Form und Vertretung prüfen
+title: 'Vertragstyp, Form und Vertretung prüfen'
 description: Ordnet B2B-Leistungspflichten dem passenden Vertragstyp zu und klärt gesetzliche Form, Unterzeichnungsbefugnis und notwendige Zustimmungen vor der Abschlussfassung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/vertragstyp-form-und-vertretung-pruefen

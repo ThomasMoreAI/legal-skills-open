@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-anthropics
-title: /matter-workspace
+title: 'Matter workspace'
 description: Manage matter workspaces — new, list, switch, close, or detach (practice-level). File-management logic for keeping one client or engagement's context separate from every other. Use when working across multiple clients or matters, when the user says "new matter", "switch matter", "list matters", "close matter", or when any substantive skill needs to know which matter it's working in.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

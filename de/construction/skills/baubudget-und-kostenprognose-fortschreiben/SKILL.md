@@ -1,6 +1,6 @@
 ---
 name: baubudget-und-kostenprognose-fortschreiben
-title: 1. Baubudget und erwartete Gesamtkosten fortschreiben
+title: 'Baubudget und erwartete Gesamtkosten fortschreiben'
 description: Erstellt und aktualisiert Baubudget, Vergabestand und Kostenprognose mit Aufträgen, Nachträgen, Restleistungen und gesonderten Risiken. Bereinigt Doppelzählungen und Bezugsgrößen; kein Zahlungsplan und keine Buchung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/baubudget-und-kostenprognose-fortschreiben

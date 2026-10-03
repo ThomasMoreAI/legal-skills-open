@@ -1,6 +1,6 @@
 ---
 name: automatisierte-entscheidung-dsgvo-art-22
-title: 1. Automatisierte Entscheidung und wirksame Kontrolle prüfen
+title: 'Automatisierte Entscheidung und wirksame Kontrolle prüfen'
 description: Prüft automatische Entscheidungen und maßgebliche Vorbewertungen durch Agenten nach Artikel 22 DSGVO. Trennt echte menschliche Prüfung von bloßer Bestätigung und erstellt Entscheidungsvermerk, Kontrollregel oder verständliche Betroffenenantwort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/automatisierte-entscheidung-dsgvo-art-22

@@ -8,8 +8,8 @@ Jurisdiction: `pl` · Practice: `arbitration` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`law-pl-applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Poland… |
-| [`law-pl-fetching-arbitration-rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (SAKIG przy KIG, Sąd Arbitrażowy Lewiatan, ICC… |
+| [`Law PL applying new york convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Poland… |
+| [`Law PL fetching arbitration rules`](skills/fetching-arbitration-rules/) | Use when retrieving arbitration institutional rules (SAKIG przy KIG, Sąd Arbitrażowy Lewiatan, ICC… |
 
 ## Cold-start context
 

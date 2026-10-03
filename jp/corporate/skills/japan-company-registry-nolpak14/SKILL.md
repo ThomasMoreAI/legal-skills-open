@@ -1,11 +1,11 @@
 ---
 name: japan-company-registry-nolpak14
-title: japan-company-registry
+title: 'Japan company registry'
 description: 'Look up Japanese companies for free via the official gBizINFO (法人インフォ) open data API - company profile, 13-digit corporate number (hojin bangou / houjin bango), name and name_en, kana, registered address, business_items, date_of_establishment, capital_stock, employee_number, representative, plus gBizINFO extras: subsidies, certifications, procurement/tenders, patents and financials. Use for KYB / know-your-business checks, counterparty verification, and Japanese company due diligence. Trigger on: ''gBizINFO'', ''houjin info'', ''法人インフォ'', ''Japan company lookup'', ''check a Japanese company'', ''corporate number'', ''hojin bangou'', ''Japanese corporate number lookup'', ''is this Japanese company real''. The Japan API is free (needs a free self-registered token); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/japan-company-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: jp
 practice: corporate

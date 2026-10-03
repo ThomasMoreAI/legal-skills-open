@@ -1,6 +1,6 @@
 ---
 name: anwendungsfall-triage-klotzkette
-title: 1. KI-Anwendungsfall beurteilen
+title: 'KI-Anwendungsfall beurteilen'
 description: 'Für digitale Werkzeuge-Anwendungsfall-Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/anwendungsfall-triage

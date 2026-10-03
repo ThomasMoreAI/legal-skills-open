@@ -1,11 +1,11 @@
 ---
 name: oc-status-anthropics
-title: /oc-status
+title: 'Oc status'
 description: Generate weekly status-request email drafts to outside counsel across the active portfolio — markdown per matter, plus Gmail drafts when the MCP is available. Use when the user asks for OC status requests, weekly outside counsel check-ins, or wants per-matter status emails drafted from the portfolio log.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/oc-status
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

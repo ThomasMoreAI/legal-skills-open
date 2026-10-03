@@ -1,6 +1,6 @@
 ---
 name: mandat-triage-sozialrecht
-title: 1. Sozialrechtlichen Auftrag aus der Akte bestimmen
+title: 'Sozialrechtlichen Auftrag aus der Akte bestimmen'
 description: 'Für Mandat Triage Sozialrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/mandat-triage-sozialrecht

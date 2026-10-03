@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-22
-title: /matter-workspace
+title: 'Matter workspace'
 description: Manage matter workspaces — create, list, switch, close, or detach the active matter. Use in multi-client private practice to keep one client's context separate from another, or when a substantive skill needs to know which matter it's working in.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/ip-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

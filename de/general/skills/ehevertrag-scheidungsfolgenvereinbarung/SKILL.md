@@ -1,6 +1,6 @@
 ---
 name: ehevertrag-scheidungsfolgenvereinbarung
-title: 1. Ehevertrag und Scheidungsfolgen urkundlich vorbereiten
+title: 'Ehevertrag und Scheidungsfolgen urkundlich vorbereiten'
 description: Bereitet Eheverträge und Scheidungsfolgenvereinbarungen im Notariat vor. Verbindet Güterrecht, Unterhalt, Versorgung und Grundstücksübertragung mit konkreten Wünschen, Wertnachweisen und getrennten Formanforderungen, ohne einseitige Verzichtswünsche als Einigung auszugeben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/ehevertrag-scheidungsfolgenvereinbarung

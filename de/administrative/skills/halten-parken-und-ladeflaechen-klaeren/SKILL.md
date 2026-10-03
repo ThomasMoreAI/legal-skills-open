@@ -1,6 +1,6 @@
 ---
 name: halten-parken-und-ladeflaechen-klaeren
-title: 1. Halten, Parken und Ladeflächen klären
+title: 'Halten, Parken und Ladeflächen klären'
 description: Klärt Halten, Parken und echte Ladetätigkeit anhand von Beschilderung und Ablauf und entwirft nutzbare Ladeanträge oder Betriebsanweisungen ohne Lieferverkehr pauschal zu privilegieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/halten-parken-und-ladeflaechen-klaeren

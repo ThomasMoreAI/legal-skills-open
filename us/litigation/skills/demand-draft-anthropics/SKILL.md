@@ -1,11 +1,11 @@
 ---
 name: demand-draft-anthropics
-title: /demand-draft
+title: 'Demand draft'
 description: Draft a demand letter from a completed intake, gated on a privilege / FRE 408 / waiver / admission checklist, with a .docx output, post-send checklist, and an offer to create a matter. Use when the user says "draft the demand", "write the [type] letter", or has a finished demand intake ready to turn into a sendable draft.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/demand-draft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: litigation

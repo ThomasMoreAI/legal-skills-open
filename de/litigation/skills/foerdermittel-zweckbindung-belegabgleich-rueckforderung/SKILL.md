@@ -1,6 +1,6 @@
 ---
 name: foerdermittel-zweckbindung-belegabgleich-rueckforderung
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck…'
 description: Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck, Nebenbestimmungen, Verwendungsbelegen und behördlichem Kenntnisstand. Liefert eine Rückforderungsrechnung und begründete Abwehr; nicht für Förderanträge oder reine Vergabenachprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-verwaltungsrecht/skills/foerdermittel-zweckbindung-belegabgleich-rueckforderung

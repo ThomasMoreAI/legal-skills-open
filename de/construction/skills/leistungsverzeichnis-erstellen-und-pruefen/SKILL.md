@@ -1,6 +1,6 @@
 ---
 name: leistungsverzeichnis-erstellen-und-pruefen
-title: 1. Ein ausführbares und prüfbares Leistungsverzeichnis erstellen
+title: 'Ein ausführbares und prüfbares Leistungsverzeichnis erstellen'
 description: Erstellt oder bereinigt ein Bauleistungsverzeichnis mit positionsbezogenen Mengen, Einheiten, Planbezug, Leistungsgrenzen und technischen Klärpunkten. Liefert vollständige Positionstexte; keine erfundenen DIN-Anforderungen oder ungeprüften Fachfreigaben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/leistungsverzeichnis-erstellen-und-pruefen

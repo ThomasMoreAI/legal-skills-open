@@ -1,6 +1,6 @@
 ---
 name: leitfaden-erstellen
-title: /leitfaden-erstellen
+title: 'Leitfaden erstellen'
 description: 'Für /leitfaden-erstellen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/leitfaden-erstellen

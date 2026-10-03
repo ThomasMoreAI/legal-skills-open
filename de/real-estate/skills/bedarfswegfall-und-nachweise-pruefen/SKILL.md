@@ -1,6 +1,6 @@
 ---
 name: bedarfswegfall-und-nachweise-pruefen
-title: 1. Geänderten oder nicht verwirklichten Bedarf aufklären
+title: 'Geänderten oder nicht verwirklichten Bedarf aufklären'
 description: Prüft geänderte Einzugspläne und Hinweise auf nicht verwirklichten Eigenbedarf. Ordnet den Zeitpunkt des Wegfalls, Mitteilungspflichten und mögliche Schäden ein und erstellt eine belegte Nachfrage, ohne Leerstand automatisch als Täuschung zu behandeln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/bedarfswegfall-und-nachweise-pruefen

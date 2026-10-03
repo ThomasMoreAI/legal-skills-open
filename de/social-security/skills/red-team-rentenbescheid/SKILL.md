@@ -1,6 +1,6 @@
 ---
 name: red-team-rentenbescheid
-title: red-team-rentenbescheid
+title: 'Red team rentenbescheid'
 description: 'Für red-team-rentenbescheid: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit Beweis- und Fristencheck.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rentenpruefer/skills/red-team-rentenbescheid

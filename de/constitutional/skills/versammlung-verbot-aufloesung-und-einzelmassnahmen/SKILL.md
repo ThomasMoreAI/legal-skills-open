@@ -1,6 +1,6 @@
 ---
 name: versammlung-verbot-aufloesung-und-einzelmassnahmen
-title: 1. Verbot, Auflösung und Einzelmaßnahmen prüfen
+title: 'Verbot, Auflösung und Einzelmaßnahmen prüfen'
 description: Prüfen Sie konkrete Berliner Verbots-, Auflösungs- und Ausschlussentscheidungen sowie die Grenze zu ASOG und Strafverfahren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-verbot-aufloesung-und-einzelmassnahmen

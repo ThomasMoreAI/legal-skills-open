@@ -15,7 +15,7 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Arbeitsmarkt No-Poach Wage-Fixing`](skills/art-arbeitsmarkt-no-aeuv-kooperationspruefung/) | Für Arbeitsmarkt No-Poach Wage-Fixing: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Auswirkungen auf Marktanteile und Marktbeherrschung`](skills/auswirkungen-marktanteile-marktbeherrschung/) | Für Auswirkungen auf Marktanteile und Marktbeherrschung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Cluster- und Systemmärkte`](skills/cluster-und-systemmaerkte/) | Für Cluster- und Systemmärkte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Grenzüberschreitenden Kartellrechtsauftrag prüfen`](skills/competition-global-kaltstart/) | Für Global Competition Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Grenzüberschreitenden Kartellrechtsauftrag prüfen`](skills/competition-global-kaltstart/) | Für Global Competition Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`DMA und Gatekeeper-Markt`](skills/dma-gatekeeper-einkaufskooperation/) | Für DMA und Gatekeeper-Markt: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Elastizitäten und Diversion Ratios`](skills/elastizitaeten-diversion-ratios/) | Für Elastizitäten und Diversion Ratios: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`EuGH-Rechtsprechung — Leitentscheidungen zur Marktdefinition`](skills/eugh-rechtsprechung-beweislast-jurisdiktion/) | Für EuGH-Rechtsprechung — Leitentscheidungen zur Marktdefinition: ordnet Norm, Beweislast und… |
@@ -28,14 +28,14 @@ Jurisdiction: `de` · Practice: `antitrust` · Skill language: de
 | [`Internationale Kartellrechtsjurisdiktionen`](skills/internationale-kartellrechts-jurisdiktionen/) | Für internationale Fusionskontrolle, Kartellverfahren und Competition-Authority-Fragen: wählt Staat und… |
 | [`Joint Venture Full Function`](skills/joint-venture-full-function/) | Für Joint Venture Full Function: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kart: Innovationswettbewerb`](skills/kart-innovationswettbewerb/) | Für Kart: Innovationswettbewerb: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Kartellrechtsmandat anhand der Unterlagen klären`](skills/kartellrecht-kaltstart-mandat-neu/) | Für Kartellrecht Kaltstart Mandat neu: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
+| [`Kartellrechtsmandat anhand der Unterlagen klären`](skills/kartellrecht-kaltstart-mandat-neu/) | Für Kartellrecht Kaltstart Mandat neu: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Anschluss-Skills Router`](skills/kartellrecht-marktabgrenzung-pr-workflow-anschluss-skills-router/) | Für Anschluss-Skills Router: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Fristen- und Risikoampel`](skills/kartellrecht-marktabgrenzung-pr-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Juristischer Argumentationskern - Kartellrecht Marktabgrenzung Prüfung`](skills/kartellrecht-marktabgrenzung-pru-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Kartellrecht Marktabgrenzung Prüfung ein juristisches Arbeitsprodukt… |
-| [`1. Markt- und Verfahrensprüfung zum Ergebnis führen`](skills/kartellrecht-marktabgrenzung-prue-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Markt- und Verfahrensprüfung zum Ergebnis führen`](skills/kartellrecht-marktabgrenzung-prue-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Kartellrecht-Marktabgrenzungs-Prüfer — Allgemein`](skills/kartellrecht-marktabgrenzung-pruefung-anschluss/) | Für Kartellrecht-Marktabgrenzungs-Prüfer — Allgemein: ordnet Norm, Beweislast und Gegenargument… |
 | [`Dokumentenintake`](skills/kartellrecht-marktabgrenzung-pruefung-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
-| [`1. Kartellrechtlichen Prüfauftrag bearbeiten`](skills/kartellrecht-marktabgrenzung-pruefung-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Kartellrechtlichen Prüfauftrag bearbeiten`](skills/kartellrecht-marktabgrenzung-pruefung-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Output wählen`](skills/kartellrecht-marktabgrenzung-pruefung-output-waehlen/) | Für Output wählen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Rechtsquellen-Livecheck`](skills/kartellrecht-marktabgrenzung-pruefung-quellen-livecheck/) | Für Rechtsquellen-Livecheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Unterlagen und Lücken`](skills/kartellrecht-marktabgrenzung-pruefung-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |

@@ -1,6 +1,6 @@
 ---
 name: vertragsrangfolge-und-agb-bereinigen
-title: 1. Widersprechende Vertragsunterlagen und B2B-AGB bereinigen
+title: 'Widersprechende Vertragsunterlagen und B2B-AGB bereinigen'
 description: Bereinigt widersprechende Angebote, Bestellungen, Leistungsanlagen und AGB in einem B2B-Einzelvertrag und schreibt die erforderlichen Vorrang- und Ersatzklauseln. Verwenden bei kollidierenden Bedingungen, dynamischen Anlagenverweisen oder angeblich ausgehandelten Formularen; keine abstrakte AGB-Gesamtbibliothek.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/vertragsrangfolge-und-agb-bereinigen

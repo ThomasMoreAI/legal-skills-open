@@ -1,6 +1,6 @@
 ---
 name: asog-vollstreckung-zwang-und-kosten
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Vollstreckungsmaßnahmen, unmittelbaren Zwang, Ersatzvornahme und…'
 description: Prüft Berliner Vollstreckungsmaßnahmen, unmittelbaren Zwang, Ersatzvornahme und Kostenforderungen mit getrennten Anforderungen an Grundverfügung und Durchführung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-vollstreckung-zwang-und-kosten

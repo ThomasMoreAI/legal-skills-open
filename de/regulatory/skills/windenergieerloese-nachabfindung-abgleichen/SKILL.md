@@ -1,6 +1,6 @@
 ---
 name: windenergieerloese-nachabfindung-abgleichen
-title: 1. Zweck und Anwendungsfall
+title: 'Gleicht Windenergie-Nutzungsverträge auf geerbten Hofflächen mit Betreiberabrechnungen…'
 description: Gleicht Windenergie-Nutzungsverträge auf geerbten Hofflächen mit Betreiberabrechnungen, Zahlungseingängen und früheren Abfindungen ab und erstellt eine periodenbezogene Nachabfindungsrechnung samt Auskunftsentwurf. Nicht für die Genehmigung der Windenergieanlage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-agrarrecht/skills/windenergieerloese-nachabfindung-abgleichen

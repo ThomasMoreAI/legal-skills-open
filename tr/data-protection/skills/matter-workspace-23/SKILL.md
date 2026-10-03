@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-23
-title: /matter-workspace
+title: 'Matter workspace'
 description: 'Privacy/KVKK matter workspace''lerini yönetir: yeni dosya açma, listeleme, aktif dosya değiştirme, arşivleme veya practice-level çalışmaya dönme. Çok müvekkilli veya çok dosyalı KVKK çalışmalarında bağlam ayrımını korur.'
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/privacy-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: data-protection

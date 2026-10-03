@@ -1,6 +1,6 @@
 ---
 name: grundbucheinsicht-begruenden
-title: 1. Zweck und Anwendungsfall
+title: 'Einsichtsbegehren, berechtigtes Interesse, Umfang und zulässigen Abrufweg bis zum…'
 description: Einsichtsbegehren, berechtigtes Interesse, Umfang und zulässigen Abrufweg bis zum fertigen Antrag bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundbucheinsicht-begruenden

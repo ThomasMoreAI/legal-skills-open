@@ -1,11 +1,11 @@
 ---
 name: review-proposals
-title: /review-proposals
+title: 'Review proposals'
 description: Review and approve (or reject) pending playbook update proposals from the playbook-monitor agent and apply approved changes to the practice profile. Use when the playbook-monitor agent has surfaced proposals, when the user says "review playbook proposals", "what playbook updates are pending", or wants to step through deviation-driven playbook changes.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/commercial-legal/skills/review-proposals
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: commercial

@@ -1,6 +1,6 @@
 ---
 name: first-trip-torlyai
-title: /first-trip
+title: 'First trip'
 description: '签证批准后首次申根入境指引。签证已批 — 现在边检带什么、边检官员
 
   可能问什么、90/180 日历规则、被询问时怎么办、如何保持干净的申根
@@ -11,7 +11,7 @@ description: '签证批准后首次申根入境指引。签证已批 — 现在�
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/first-trip
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: immigration

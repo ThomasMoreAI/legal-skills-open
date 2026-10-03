@@ -1,11 +1,11 @@
 ---
 name: invention-intake-bossmann007
-title: /invention-intake
+title: 'Invention intake'
 description: Invention disclosure first-pass screen — novidade, atividade inventiva, patenteabilidade (LPI art. 8/10/18), grace period / bar dates, detectability, and strategic value. Use when an invention disclosure comes in and needs triage on whether to pursue a prior-art search and patent counsel review, investigate further, or decline. LPI (Lei 9.279/1996) first; 35 U.S.C. §102 as a gated US-filing fallback.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/invention-intake
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: ip

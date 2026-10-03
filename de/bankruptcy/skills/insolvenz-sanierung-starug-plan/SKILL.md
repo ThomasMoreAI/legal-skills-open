@@ -1,6 +1,6 @@
 ---
 name: insolvenz-sanierung-starug-plan
-title: 1. StaRUG-Plan als Sanierungsroute
+title: 'StaRUG-Plan als Sanierungsroute'
 description: 'Steuert die vorinsolvenzliche Sanierung mit Restrukturierungsplan: Insolvenzreifetest, gestaltbare Rechte, Planaufbau, Gruppen, Mehrheiten, Anzeige, Stabilisierung, Bestätigung und Krisenwechsel.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/insolvenz-sanierung-starug-plan

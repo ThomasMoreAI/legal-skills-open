@@ -1,6 +1,6 @@
 ---
 name: demand-draft-bossmann007
-title: /demand-draft
+title: 'Demand draft'
 description: Draft a demand letter from a completed intake, gated on a privilege / FRE 408 / waiver / admission checklist, with a .docx output, post-send checklist, and an offer to create a matter. Use when the user says "draft the demand", "write the [type] letter", or has a finished demand intake ready to turn into a sendable draft.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/demand-draft

@@ -1,6 +1,6 @@
 ---
 name: ihl-001-kaltstart-internationaler-handelsfall
-title: 1. Internationalen Handelsauftrag ausarbeiten
+title: 'Internationalen Handelsauftrag ausarbeiten'
 description: 'Für Kaltstart Internationaler Handelsfall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/internationales-handelsrecht-lex-mercatoria/skills/ihl-001-kaltstart-internationaler-handelsfall

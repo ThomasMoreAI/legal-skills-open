@@ -1,11 +1,11 @@
 ---
 name: brief-section-drafter-zekaisuni
-title: /brief-section-drafter
+title: 'Brief section drafter'
 description: Draft Turkish petition sections, such as maddi vakıalar, hukuki nedenler, deliller, usuli itirazlar, talep ve sonuç, or appeal sections, consistent with the matter theory, evidence record, and office style. Every factual assertion must be source-tied and every legal point marked for verification when needed.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/brief-section-drafter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: litigation

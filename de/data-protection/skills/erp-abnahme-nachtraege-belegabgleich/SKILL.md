@@ -1,6 +1,6 @@
 ---
 name: erp-abnahme-nachtraege-belegabgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft bei einem streitigen ERP-Einführungsprojekt Abnahme, ursprünglichen Leistungsumfang…'
 description: Prüft bei einem streitigen ERP-Einführungsprojekt Abnahme, ursprünglichen Leistungsumfang und Nachtragsvergütung anhand von Pflichtenheft, Tickets und Freigaben. Liefert eine Leistungs- und Zahlungsbrücke mit konkretem Entwurf; nicht für reine SaaS-Ausfälle, Datenschutzmeldungen oder Lizenzinventare.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/erp-abnahme-nachtraege-belegabgleich

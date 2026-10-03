@@ -1,6 +1,6 @@
 ---
 name: rollierende-liquiditaetsplanung-24-monate-template
-title: 1. Rollierende Liquiditätsplanung für 24 Monate
+title: 'Rollierende Liquiditätsplanung für 24 Monate'
 description: Erstellt eine rollierende Liquiditätsplanung für Status, Drei-Wochen-Sicht, 13-Wochen-Steuerung und die regelmäßige 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/rollierende-liquiditaetsplanung-24-monate-template

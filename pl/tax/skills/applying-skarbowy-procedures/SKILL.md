@@ -1,6 +1,6 @@
 ---
 name: applying-skarbowy-procedures
-title: law-pl-applying-skarbowy-procedures
+title: 'Law PL applying skarbowy procedures'
 description: Use when navigating urząd skarbowy / KAS — NIP (NIP-2/7/8, CEIDG), VAT-R, czynny żal (art. 16 KKS), korekta deklaracji (art. 81 OP), ulgi (art. 67a OP — odroczenie, raty, umorzenie), nadpłata (art. 72), interpretacja indywidualna (Dyrektor KIS, art. 14b), kontrola i postępowanie podatkowe (OP dz. IV), odwołanie do DIAS, skargi do WSA / NSA. e-Urząd Skarbowy, KSeF, terminy, taktyki obronne
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-applying-skarbowy-procedures

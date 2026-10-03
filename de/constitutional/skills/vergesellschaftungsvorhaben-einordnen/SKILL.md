@@ -1,6 +1,6 @@
 ---
 name: vergesellschaftungsvorhaben-einordnen
-title: 1. Zweck und Anwendungsfall
+title: 'Ordnet konkrete Vergesellschaftungsvorhaben nach Artikel 15 GG anhand der Akte ein und…'
 description: Ordnet konkrete Vergesellschaftungsvorhaben nach Artikel 15 GG anhand der Akte ein und erstellt einen Beratungsbrief mit nächstem Arbeitsschritt. Für Gesetzesinitiativen und betroffene Eigentümer oder Kommunen; nicht für DSGVO-Auskunft oder alleinige Einzelenteignung nach Artikel 14 GG.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/vergesellschaftungsvorhaben-einordnen

@@ -53,7 +53,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Gegenanwalt — Fachanwalt (Verteidigung & Anspruchsabwehr)`](skills/abwehr/) | Dieser Skill wird verwendet wenn der Nutzer "Gegenseite simulieren", "Gegenanwalt", "Schreiben… |
 | [`Schuldnerabwehr in der Zwangsvollstreckung`](skills/abwehr-schuldner/) | Für Schuldnerabwehr in der Zwangsvollstreckung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Akten: Mandantenkommunikation und Entscheidungsvorlage`](skills/akten-mandantenkommunikation-entscheidungsvorlage/) | Für Akten: Mandantenkommunikation und Entscheidungsvorlage: ordnet Akte, Belege und Lücken; Ergebnis… |
-| [`1. Aktenauszug erstellen`](skills/aktenauszug-erstellen/) | Für Aktenauszug Erstellen — Hauptworkflow: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
+| [`Aktenauszug erstellen`](skills/aktenauszug-erstellen/) | Für Aktenauszug Erstellen — Hauptworkflow: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
 | [`Anschluss-Routing`](skills/aktenauszug-gerichtsverfahren-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/aktenauszug-gerichtsverfahren-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/aktenauszug-gerichtsverfahren-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
@@ -303,7 +303,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Festsetzung: Mehrparteienkonflikt und Interessenmatrix`](skills/festsetzung-mehrparteien-konflikt-und-interessen/) | Für Festsetzung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und Gegenargument… |
 | [`Finance Disputes`](skills/finance-banking-dispute/) | Für Finance Disputes: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Fluggastrechte-Anlagen bauen`](skills/fluggastrechte-anlagen-bauen/) | Für Fluggastrechte-Anlagen bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Zweck und Anwendungsfall`](skills/foerdermittel-zweckbindung-belegabgleich-rueckforderung/) | Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck, Nebenbestimmungen… |
+| [`Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck…`](skills/foerdermittel-zweckbindung-belegabgleich-rueckforderung/) | Prüft Fördermittelrückforderungen durch Abgleich von Bewilligungszweck, Nebenbestimmungen… |
 | [`Anwaltshonorar nach RVG`](skills/forderung-anwaltshonorar-rvg/) | Für Anwaltshonorar nach RVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Arzthonorar nach GOAE und GOZ`](skills/forderung-arzthonorar-goae/) | Für Arzthonorar nach GOÄ und GOZ: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Werk-/Bauwerklohn-Forderung`](skills/forderung-aus-werkvertrag-bgb-bau/) | Für Werk-/Bauwerklohn-Forderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -379,7 +379,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`JVEG: Dolmetscher Uebersetzer`](skills/jveg-dolmetscher-uebersetzer-spezial/) | Für JVEG: Dolmetscher Übersetzer: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Anschluss-Routing`](skills/jveg-kostenpruefer-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/jveg-kostenpruefer-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
-| [`1. JVEG-Anspruch prüfen und ausarbeiten`](skills/jveg-kostenpruefer-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`JVEG-Anspruch prüfen und ausarbeiten`](skills/jveg-kostenpruefer-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Freistehender: Erstprüfung, Rollenklärung und Mandatsziel`](skills/jveg-kostenpruefer-freistehender-erstpruefung-und-mandatsziel/) | Für Freistehender: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Juristischer Argumentationskern - JVEG Kostenprüfer`](skills/jveg-kostenpruefer-juristischer-argumentationskern/) | Schaltet sich ein, wenn in JVEG Kostenprüfer ein juristisches Arbeitsprodukt tragfähig begründet werden… |
 | [`JVEG-Kommandocenter`](skills/jveg-kostenpruefer-kommandocenter/) | Für JVEG-Kommandocenter: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -388,7 +388,7 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`JVEG-Kostenpruefer — Allgemein`](skills/jveg-kostenpruefer-start-chronologie-fristen/) | Für JVEG-Kostenprüfer — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie… |
 | [`Unterlagen und Lücken`](skills/jveg-kostenpruefer-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Fristen- und Risikoampel`](skills/jveg-kostenpruefer-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
-| [`1. JVEG-Abrechnung bis zum gewünschten Dokument bearbeiten`](skills/jveg-kostenpruefer-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`JVEG-Abrechnung bis zum gewünschten Dokument bearbeiten`](skills/jveg-kostenpruefer-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`JVEG: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/jveg-tatbestand-beweis-und-belege/) | Für JVEG: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`JVEG-Zeugenentschaedigung`](skills/jveg-zeugenentschaedigung/) | Für JVEG-Zeugenentschädigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`K1 aus Chaosordner bauen`](skills/k1-anlagenpaket-aus-chaosordner/) | Für K1 aus Chaosordner bauen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

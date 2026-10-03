@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsplanung-workflow-kaltstart-und-routing
-title: 1. Liquiditätsplanung bis zum angeforderten Ergebnis
+title: 'Liquiditätsplanung bis zum angeforderten Ergebnis'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Liquiditätsplanung — Power.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/workflow-kaltstart-und-routing

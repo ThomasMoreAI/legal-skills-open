@@ -1,6 +1,6 @@
 ---
 name: tabelle-und-elektronische-uebergabe-vorbereiten
-title: 1. Tabelle und elektronische Übergabe vorbereiten
+title: 'Tabelle und elektronische Übergabe vorbereiten'
 description: Überführt begründete Prüfvorschläge in einen abgestimmten Tabellenentwurf und eine kontrollierte Übergabemappe. Trennt interne JSON-, CSV- und XML-Arbeitsdaten von schema- und zielgerichtsgeprüftem XJustiz mit PDF-Unterlagen; verlangt manuelle Freigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/tabelle-und-elektronische-uebergabe-vorbereiten

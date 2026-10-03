@@ -1,6 +1,6 @@
 ---
 name: glaeubigerbriefe-und-nachforderungen-erstellen
-title: 1. Gläubigerbriefe und Nachforderungen erstellen
+title: 'Gläubigerbriefe und Nachforderungen erstellen'
 description: Erstellt konkrete Gläubigerbriefe aus dem belegten Prüfstand, etwa Belegnachforderung, Saldoklärung, Ranghinweis oder Mitteilung eines Bestreitens. Trennt Entwurf und Erklärung sowie interne Prüffrist und gesetzliche Frist; versendet nichts automatisch.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/glaeubigerbriefe-und-nachforderungen-erstellen

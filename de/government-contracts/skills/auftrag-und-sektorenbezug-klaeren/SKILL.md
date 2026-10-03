@@ -1,6 +1,6 @@
 ---
 name: auftrag-und-sektorenbezug-klaeren
-title: 1. Auftrag und Sektorenbezug klären
+title: 'Auftrag und Sektorenbezug klären'
 description: Erstellt den Beschaffungs- und Verfahrensvermerk für eine Sektorenvergabe. Prüft Auftraggeber, Sektorenbezug, Auftragswert, Lose und Verfahrenswahl, bevor Reinigungs- oder andere Dienstleistungsunterlagen ausgearbeitet werden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/auftrag-und-sektorenbezug-klaeren

@@ -1,11 +1,11 @@
 ---
 name: dpa-review-anthropics
-title: /dpa-review
+title: 'DPA review'
 description: Review a Data Processing Agreement against your DPA playbook — auto-detects whether you're processor or controller and applies the right half of the playbook. Use when the user says "review this DPA", "check this data processing addendum", "customer sent their DPA", "is this DPA okay", or attaches a DPA.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/privacy-legal/skills/dpa-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

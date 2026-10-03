@@ -1,6 +1,6 @@
 ---
 name: plan-trip-torlyai
-title: /plan-trip
+title: 'Plan trip'
 description: 与用户迭代式规划法国申根之旅 — 目的地、日期、时长、同行组成、 粗略预算 — 并提前暴露日后会影响签证申请的领事可信度检查。输出 一份"行程骨架"，供下游技能（/itinerary-builder、/document-checklist、 /cost-estimate）使用。当用户说"帮我规划法国之行"、"我想去欧洲但不知 道哪里"、"我们想做一次申根但要确定细节"，或者一开始只有模糊想法而 没有固定日期时使用。(Schengen-master 技能)
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/plan-trip

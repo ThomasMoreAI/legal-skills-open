@@ -1,6 +1,6 @@
 ---
 name: grundschuldbrief-aufgebot-und-wiederfund
-title: 1. Zweck und Anwendungsfall
+title: 'Verlorenen Grundschuldbrief, Aufgebot, Ersatzbrief und späteren Wiederfund vom…'
 description: Verlorenen Grundschuldbrief, Aufgebot, Ersatzbrief und späteren Wiederfund vom Belegabgleich bis zur Kommunikation bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundschuldbrief-aufgebot-und-wiederfund

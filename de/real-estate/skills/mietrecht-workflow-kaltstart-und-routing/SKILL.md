@@ -1,6 +1,6 @@
 ---
 name: mietrecht-workflow-kaltstart-und-routing
-title: 1. Mietrechtlichen Auftrag bearbeiten
+title: 'Mietrechtlichen Auftrag bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Mietrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/workflow-kaltstart-und-routing

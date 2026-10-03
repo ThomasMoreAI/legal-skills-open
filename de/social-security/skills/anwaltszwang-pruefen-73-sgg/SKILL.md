@@ -1,6 +1,6 @@
 ---
 name: anwaltszwang-pruefen-73-sgg
-title: 1. Vertretung vor Sozialgericht, Landessozialgericht und Bundessozialgericht
+title: 'Vertretung vor Sozialgericht, Landessozialgericht und Bundessozialgericht'
 description: 'Für Brauchen Sie einen Anwalt? der Paragraf 73 SGG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/selbstvertreter-sozialgericht/skills/anwaltszwang-pruefen-73-sgg

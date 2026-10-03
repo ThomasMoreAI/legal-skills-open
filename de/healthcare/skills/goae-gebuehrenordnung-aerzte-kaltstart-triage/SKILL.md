@@ -1,6 +1,6 @@
 ---
 name: goae-gebuehrenordnung-aerzte-kaltstart-triage
-title: 1. GOÄ-Rechnung anhand der Unterlagen prüfen
+title: 'GOÄ-Rechnung anhand der Unterlagen prüfen'
 description: 'Für GOÄ Gebührenordnung für Ärzte — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/goae-gebuehrenordnung-aerzte/skills/kaltstart-triage

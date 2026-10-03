@@ -1,6 +1,6 @@
 ---
 name: software-daten-und-nutzungsrechte-regeln
-title: 1. Software, Daten und Nutzungsrechte regeln
+title: 'Software, Daten und Nutzungsrechte regeln'
 description: Ergänzt Wirtschaftsverträge um erforderliche Software-, Daten- und Ergebnisrechte mit belastbarer Rechtekette und Exit-Nutzung; erstellt keinen ungefragten eigenständigen Lizenzvertrag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/software-daten-und-nutzungsrechte-regeln

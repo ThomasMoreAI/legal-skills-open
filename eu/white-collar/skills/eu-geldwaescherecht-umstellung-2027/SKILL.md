@@ -1,6 +1,6 @@
 ---
 name: eu-geldwaescherecht-umstellung-2027
-title: 1. EU-Umstellung mit belastbaren Stichtagen
+title: 'EU-Umstellung mit belastbaren Stichtagen'
 description: Bereitet Kanzlei, Unternehmen und Notariat auf das EU-Geldwäschepaket vor. Trennt geltendes GwG und Meldeformat 2026 von AMLR-Anwendung 2027, Registerumsetzung, AMLA-Aufsicht und noch nicht verbindlichen Entwürfen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/eu-geldwaescherecht-umstellung-2027

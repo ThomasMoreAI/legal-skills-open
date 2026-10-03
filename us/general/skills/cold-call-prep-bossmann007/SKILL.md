@@ -1,11 +1,11 @@
 ---
 name: cold-call-prep-bossmann007
-title: /cold-call-prep
+title: 'Cold call prep'
 description: Prep for a cold-call — predict the professor's likely questions and drill them Socratically, flagging where you're shaky so you know what to re-read before class. Use when the user says "prep for class tomorrow", "cold call [case]", "what might [professor] ask on", or points at assigned reading.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/cold-call-prep
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: general

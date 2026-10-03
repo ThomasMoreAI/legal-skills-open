@@ -1,6 +1,6 @@
 ---
 name: rollenmodell-use-case-vendor
-title: 1. Systemrollen und betriebliche Verantwortung festlegen
+title: 'Systemrollen und betriebliche Verantwortung festlegen'
 description: Bestimmt Anbieter, Betreiber und Zulieferer eines konkreten KI-Einsatzes einschließlich Agentenketten. Trennt gesetzliche Rollen von internen Zuständigkeiten und Datenschutzrollen und erstellt eine begründete Rollen- und Freigabeentscheidung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/rollenmodell-use-case-vendor

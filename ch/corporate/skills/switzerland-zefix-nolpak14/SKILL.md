@@ -1,11 +1,11 @@
 ---
 name: switzerland-zefix-nolpak14
-title: switzerland-zefix
+title: 'Switzerland zefix'
 description: 'Look up Swiss companies for free via the official Zefix (ZefixPublicREST) API from the Swiss Federal Commercial Registry - company profile, UID (CHE number), CHID/EHRAID, legal form, legal seat and canton, purpose, nominal capital, status (active / being cancelled / cancelled), and SOGC/SHAB commercial-gazette publications. Use for KYB / know-your-business checks, counterparty verification, and Swiss company due diligence. Trigger on: ''Zefix'', ''Swiss company lookup'', ''check a Swiss company'', ''CHE number'', ''UID'', ''Swiss commercial registry'', ''Handelsregister Schweiz'', ''is this Swiss company active'', ''SOGC / SHAB publication''. The Zefix API is free (needs a free credential by email); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/switzerland-zefix
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ch
 practice: corporate

@@ -1,11 +1,11 @@
 ---
 name: closing-checklist-bossmann007
-title: /closing-checklist
+title: 'Closing checklist'
 description: 'What''s blocking close — maintain the closing checklist with status, critical path, and days to close. Self-updating: ingests new items from diligence findings and schedule builds, tracks status, surfaces what''s blocking. Use when user says "closing checklist", "what''s left to close", "checklist status", "add to the checklist", or on a scheduled status pull.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/corporate-legal/skills/closing-checklist
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate

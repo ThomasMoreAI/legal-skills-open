@@ -1,6 +1,6 @@
 ---
 name: leistung-mitwirkung-und-abnahme-ausformulieren
-title: 1. Leistung, Mitwirkung und Abnahme belastbar beschreiben
+title: 'Leistung, Mitwirkung und Abnahme belastbar beschreiben'
 description: Formuliert für B2B-Lieferungen, Wartungen und kleine Projekte den Leistungsumfang, konkrete Mitwirkung, Termine und das passende Übergabe- oder Abnahmeverfahren. Verwenden bei unklaren Erfolgszusagen, Servicezeiten, Beistellungen, Testbetrieb oder widersprüchlichen Leistungsanlagen; keine bloße technische Bestandsanalyse.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/leistung-mitwirkung-und-abnahme-ausformulieren

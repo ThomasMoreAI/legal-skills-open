@@ -1,6 +1,6 @@
 ---
 name: juristischen-text-erklaeren
-title: 1. Juristischen Text erklären
+title: 'Juristischen Text erklären'
 description: Erklärt einen Vertrag, Bescheid oder Gerichtsbrief in einfachen Worten. Trennt Aussage des Dokuments von geprüfter Rechtslage, beantwortet die konkrete Verständnisfrage und zeigt, welche Handlung oder Rückfrage daraus tatsächlich folgt.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jura-in-einfacher-sprache/skills/juristischen-text-erklaeren

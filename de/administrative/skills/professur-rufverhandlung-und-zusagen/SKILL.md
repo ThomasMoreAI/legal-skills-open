@@ -1,6 +1,6 @@
 ---
 name: professur-rufverhandlung-und-zusagen
-title: 1. Zweck und Anwendungsfall
+title: 'Gestaltet und prüft Berliner Berufungs- und Bleibezusagen einschließlich Mitteln…'
 description: Gestaltet und prüft Berliner Berufungs- und Bleibezusagen einschließlich Mitteln, Personal, Räumen, Laufzeit und Vorbehalten aus Sicht der berufenen Person.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-rufverhandlung-und-zusagen

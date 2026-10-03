@@ -1,6 +1,6 @@
 ---
 name: bautraegervertrag-mabv-familiengesellschaft
-title: 1. Grundstücks- und Bauträgerkauf vorbereiten
+title: 'Grundstücks- und Bauträgerkauf vorbereiten'
 description: Bereitet Grundstückskauf- und Bauträgerverträge für die notarielle Prüfung vor. Verbindet Käuferdaten, Grundbuch, Teilung, Leistungsumfang und Finanzierung mit Verbraucherfrist, Entwurfsstand und Vollzug; unterscheidet Bestandskauf vom MaBV-Zahlungsplan.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/bautraegervertrag-mabv-familiengesellschaft

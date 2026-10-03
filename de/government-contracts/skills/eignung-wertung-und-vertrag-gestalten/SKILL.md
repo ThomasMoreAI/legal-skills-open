@@ -1,6 +1,6 @@
 ---
 name: eignung-wertung-und-vertrag-gestalten
-title: 1. Eignung, Wertung und Vertrag gestalten
+title: 'Eignung, Wertung und Vertrag gestalten'
 description: Erstellt Eignungsanforderungen, Zuschlagskriterien und Vertragsbedingungen einer Sektoren-Dienstleistungsvergabe. Trennt Zulassung, Mindestleistung und Qualitätswertung und übersetzt Reinigungsrisiken in prüfbare Nachweise und ausführbare Klauseln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/eignung-wertung-und-vertrag-gestalten

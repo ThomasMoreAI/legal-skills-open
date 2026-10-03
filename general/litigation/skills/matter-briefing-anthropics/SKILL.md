@@ -1,11 +1,11 @@
 ---
 name: matter-briefing-anthropics
-title: /matter-briefing
+title: 'Matter briefing'
 description: Deep briefing on one matter — current posture, what's changed, next deadline, open questions, and a risk re-assessment check, ready before a GC update or outside counsel call. Use when the user says "brief me on [matter]", "where are we on [matter]", or needs a read on a specific matter.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/matter-briefing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

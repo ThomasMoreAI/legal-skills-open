@@ -1,6 +1,6 @@
 ---
 name: datenschutz-loeschpflicht-art-17-und-aufbewahrung
-title: 1. Löschung und rechtmäßige Aufbewahrung abgrenzen
+title: 'Löschung und rechtmäßige Aufbewahrung abgrenzen'
 description: Bearbeitet Löschanträge und Aufbewahrungskonflikte je Datenbestand, einschließlich Agentengedächtnis, Suchindex, Protokollen und Modelltraining. Erstellt begründete Antwort, Löschanweisung und überprüfbaren Nachweis ohne pauschale Sperr- oder Filterlösung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/datenschutz-loeschpflicht-art-17-und-aufbewahrung

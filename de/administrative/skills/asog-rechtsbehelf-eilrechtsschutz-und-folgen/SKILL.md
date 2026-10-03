@@ -1,6 +1,6 @@
 ---
 name: asog-rechtsbehelf-eilrechtsschutz-und-folgen
-title: 1. Zweck und Anwendungsfall
+title: 'Bestimmt im Berliner Polizei- und Ordnungsrecht den richtigen Gegenstand, Rechtsweg…'
 description: Bestimmt im Berliner Polizei- und Ordnungsrecht den richtigen Gegenstand, Rechtsweg, Antrag und fristgerechten Übermittlungsweg bis zum fertigen Schriftsatz.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-rechtsbehelf-eilrechtsschutz-und-folgen

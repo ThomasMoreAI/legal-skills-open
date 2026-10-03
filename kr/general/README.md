@@ -9,7 +9,7 @@ Jurisdiction: `kr` · Practice: `general` · Skill language: en
 | Skill | What it does |
 |---|---|
 | [`A. Statute claim protocol (조/항/호 verification)`](skills/korean-law/) | Verify Korean legal claims using Korean-law MCP tools and return verdict JSON. |
-| [`korean-law-search`](skills/korean-law-search/) | Search Korean statutes, articles, precedents, interpretations, and local ordinances via k-skill-proxy.… |
+| [`Korean law search`](skills/korean-law-search/) | Search Korean statutes, articles, precedents, interpretations, and local ordinances via k-skill-proxy.… |
 | [`Korean Precedent Search`](skills/legal-ko-precedent/) | Find Korean court precedents and cross-reference with statutes via legal-ko-cli. Searches by case… |
 | [`Korean Law Search`](skills/legal-ko-search/) | Find Korean laws and articles by title search via legal-ko-cli. USE FOR: 법 찾기, 법률 검색, 법조항 찾기, find… |
 | [`Korean Law & Precedent Search via zmd`](skills/legal-ko-zmd/) | Search Korean laws and precedents via local hybrid index (FTS + vector). USE FOR: 법률 검색, 판례 검색, semantic… |

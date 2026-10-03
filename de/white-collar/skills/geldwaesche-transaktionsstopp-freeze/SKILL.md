@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-transaktionsstopp-freeze
-title: 1. Nichtdurchführung und Vollzugszeitpunkt
+title: 'Nichtdurchführung und Vollzugszeitpunkt'
 description: Berechnet die Nichtdurchführung nach einer FIU-Meldung und die besondere notarielle Wartefrist. Trennt GwG-Aufschub, Sanktionssperre und unerfüllte Kundenprüfung und dokumentiert den frühesten zulässigen Vollzug.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-transaktionsstopp-freeze

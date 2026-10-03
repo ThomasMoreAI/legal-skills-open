@@ -1,6 +1,6 @@
 ---
 name: competition-global-kaltstart
-title: 1. Grenzüberschreitenden Kartellrechtsauftrag prüfen
+title: 'Grenzüberschreitenden Kartellrechtsauftrag prüfen'
 description: 'Für Global Competition Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kartellrecht-marktabgrenzung-pruefung/skills/competition-global-kaltstart

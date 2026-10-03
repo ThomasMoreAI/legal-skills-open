@@ -143,7 +143,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Einstellung des Strafbefehlsverfahrens`](skills/einstellung-153a-hauptverhandlung/) | Für Einstellung des Strafbefehlsverfahrens: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Einstieg in den Skill-Verbund Verkehrsrecht`](skills/einstieg-in-den-skill-verbund-verkehrsrecht/) | Für Einstieg in den Skill-Verbund Verkehrsrecht: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Einziehung mit Drittbetroffenen`](skills/einziehung-drittbetroffene-anhoerung/) | Für Einziehung mit Drittbetroffenen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Einziehung, Geldfluss und Arrest`](skills/einziehung-geldfluss-mitverfuegung-arrestabgleich/) | Rekonstruiert bei mehreren Tatbeteiligten Geldflüsse, tatsächliche Mitverfügung, Tatlohn und… |
+| [`Einziehung, Geldfluss und Arrest`](skills/einziehung-geldfluss-mitverfuegung-arrestabgleich/) | Rekonstruiert bei mehreren Tatbeteiligten Geldflüsse, tatsächliche Mitverfügung, Tatlohn und… |
 | [`EncroChat, ANOM, Sky ECC und Kryptodienste`](skills/encrochat-anom-sky/) | Für EncroChat, ANOM, Sky ECC und Kryptodienste: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EncroChat, ANOM, Sky ECC und Kryptodienste`](skills/encrochat-anom-sky-ecc-krypto/) | Für EncroChat, ANOM, Sky ECC und Kryptodienste: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EncroChat, Sky ECC und ANOM: Beweiswert und Verwertungsangriff`](skills/encrochat-sky-ecc-anom-beweiswert/) | Für EncroChat, Sky ECC und ANOM: Beweiswert und Verwertungsangriff: ordnet Norm, Beweislast und… |
@@ -242,7 +242,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Insolvenzverschleppung § 15a InsO`](skills/insolvenzverschleppung-15a/) | Für Insolvenzverschleppung Paragraf 15a InsO: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Internationale Anzeigen und EU-Bezug`](skills/international-klageerzwingung/) | Für Internationale Anzeigen und EU-Bezug: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Strafzumessung im Jugendstrafrecht`](skills/jgg-jugendstrafe-minder-schwerer/) | Für Strafzumessung im Jugendstrafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`1. Vom Bußgeldbescheid zur bestellten Verteidigung`](skills/kaltstart-bussgeldverfahren/) | Für Kaltstart Bussgeldverfahren: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
+| [`Vom Bußgeldbescheid zur bestellten Verteidigung`](skills/kaltstart-bussgeldverfahren/) | Für Kaltstart Bussgeldverfahren: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt… |
 | [`Kaltstart Btm Fall`](skills/kaltstart-fall/) | Für Kaltstart Btm Fall: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Kanzlei: Mandantenkommunikation und Entscheidungsvorlage`](skills/kanzlei-mandantenkommunikation-entscheidungsvorlage/) | Für Kanzlei: Mandantenkommunikation und Entscheidungsvorlage: ordnet Norm, Beweislast und Gegenargument… |
 | [`Kanzlei: Sonderfall und Edge-Case-Prüfung`](skills/kanzlei-sonderfall-edge-case/) | Für Kanzlei: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -281,7 +281,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Opfervertretung: Mehrparteienkonflikt und Interessenmatrix`](skills/opfervertretung-mehrparteien-konflikt-und-interessen/) | Für Opfervertretung: Mehrparteienkonflikt und Interessenmatrix: ordnet Norm, Beweislast und… |
 | [`Opferzeugen-Sonderfaelle`](skills/opferzeugen-besondere-faelle/) | Für Opferzeugen-Sonderfälle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Juristischer Argumentationskern - Ordnungswidrigkeitenrecht`](skills/ordnungswidrigkeitenrecht-juristischer-argumentationskern/) | Schaltet sich ein, wenn in Ordnungswidrigkeitenrecht ein juristisches Arbeitsprodukt tragfähig begründet… |
-| [`1. Bußgeldrechtlichen Auftrag bearbeiten`](skills/ordnungswidrigkeitenrecht-kaltstart-triage/) | Für Ordnungswidrigkeitenrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
+| [`Bußgeldrechtlichen Auftrag bearbeiten`](skills/ordnungswidrigkeitenrecht-kaltstart-triage/) | Für Ordnungswidrigkeitenrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Orientierung: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/orientierung-fristen-form-und-zustaendigkeit/) | Für Orientierung: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
 | [`Strafzumessung — Orientierung und Triage`](skills/orientierung-triage-paragraph-stgb-besonders/) | Für Strafzumessung — Orientierung und Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis… |
 | [`Aussenwirtschaft Akteneinsicht Schreib`](skills/owi-093-aussenwirtschaft-akteneinsicht-schreib/) | Für Außenwirtschaft Akteneinsicht Schreib: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit… |
@@ -413,8 +413,8 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`Kaltstart und Routing`](skills/strafbefehl-verteidiger-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/strafbefehl-verteidiger-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`Wiedereinsetzung nach versaeumter Einspruchsfrist — § 44 StPO`](skills/strafbefehl-wiedereinsetzung/) | Für Wiedereinsetzung nach versäumter Einspruchsfrist — Paragraf 44 StPO: ordnet Norm, Beweislast und… |
-| [`1. Zulässigkeit und Inhalt des Strafbefehls`](skills/strafbefehl-zulaessigkeit-407/) | Prüft Verfahrensvoraussetzungen, Sanktionskatalog und Pflichtinhalt eines Strafbefehls sowie Grenzen… |
-| [`1. Strafbefehl und Verteidigungsziel prüfen`](skills/strafbefehls-erstpruefung-und-mandatsziel/) | Für Strafbefehls: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
+| [`Zulässigkeit und Inhalt des Strafbefehls`](skills/strafbefehl-zulaessigkeit-407/) | Prüft Verfahrensvoraussetzungen, Sanktionskatalog und Pflichtinhalt eines Strafbefehls sowie Grenzen… |
+| [`Strafbefehl und Verteidigungsziel prüfen`](skills/strafbefehls-erstpruefung-und-mandatsziel/) | Für Strafbefehls: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und… |
 | [`Strafmilderung — § 49 StGB`](skills/strafmilderung-49-stgb-zwingend-fakultativ/) | Für Strafmilderung — Paragraf 49 StGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Abschlussnach Urteil, Einstellung oder Verständigung: sichert Rechtsmittelfristen, Bewährungsauflagen, Zahlungspflichten`](skills/strafprozess-abschluss-urteil-bewaehrung-vollstreckung/) | Für Strafprozess Abschluss Urteil Bewährung Vollstreckung: ordnet Norm, Beweislast und Gegenargument… |
 | [`Akteneinsicht operativ steuern: Antrag, Teilversagung, U-Haft-Mindestinformationen, Sonderbände, digitale Beweismittel, `](skills/strafprozess-akteneinsicht-nachlieferungen-und-sonderbae/) | Für Strafprozess Akteneinsicht Nachlieferungen und Sonderbände: ordnet Akte, Belege und Lücken… |
@@ -700,7 +700,7 @@ Jurisdiction: `de` · Practice: `criminal` · Skill language: de
 | [`VOWi: Handyverstoss`](skills/vowi-handyverstoss-akteneinsicht-alkohol/) | Für VOWi: Handyverstoss: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Wahlverteidiger-Mandat im Strafrecht beginnen: Anwendungsfall Beschuldigter waehlt Strafverteidiger und Erstgespraeach m`](skills/wahlverteidiger-mandat/) | Für Wahlverteidiger Mandat: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Sachverhalt: wer, was, wann, wo, wie`](skills/wer-zeugenliste/) | Für Sachverhalt: wer, was, wann, wo, wie: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Zweck und Anwendungsfall`](skills/werkstattrechnung-kuerzung-zahlungswege/) | Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und bestimmt für jede… |
+| [`Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und…`](skills/werkstattrechnung-kuerzung-zahlungswege/) | Gleicht gekürzte Unfallreparaturrechnungen mit Gutachten, Auftrag und Zahlungen ab und bestimmt für jede… |
 | [`Hinweisgeber und Strafanzeige`](skills/whistleblower-computerbetrug/) | Für Hinweisgeber und Strafanzeige: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Widersprueche: Beweislast, Darlegungslast und Substantiierung`](skills/widersprueche-beweislast-strafakte-gate/) | Für Widersprüche: Beweislast, Darlegungslast und Substantiierung: ordnet Akte, Belege und Lücken… |
 | [`Wiedereinsetzung: Zahlen, Schwellenwerte und Berechnung`](skills/wiedereinsetzung-zahlen-schwellen-und-berechnung/) | Für Wiedereinsetzung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |

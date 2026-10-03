@@ -1,6 +1,6 @@
 ---
 name: notariat-immobilienzahlung-pruefen
-title: 1. Immobilienzahlung und notarieller Vollzug
+title: 'Immobilienzahlung und notarieller Vollzug'
 description: Prüft im Notariat Kaufpreisnachweise, Drittzahlungen und Eigentumsumschreibung nach GwG Paragraf 16a. Verbindet Beurkundungshindernisse, Immobilien-Meldetatbestände und besondere Wartefrist mit einer konkreten Vollzugsvorlage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/notariat-immobilienzahlung-pruefen

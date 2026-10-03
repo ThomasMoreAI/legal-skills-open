@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsplanung-kaltstart-triage
-title: 1. Liquiditätsunterlagen in eine belastbare Planung überführen
+title: 'Liquiditätsunterlagen in eine belastbare Planung überführen'
 description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Liquiditätsplanung — Power.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/kaltstart-triage

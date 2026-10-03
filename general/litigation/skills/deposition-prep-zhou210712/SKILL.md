@@ -1,6 +1,6 @@
 ---
 name: deposition-prep-zhou210712
-title: /deposition-prep
+title: 'Deposition prep'
 description: 为证人构建庭前准备提纲——从案件材料中提取其相关文件， 围绕案件理论组织要点，并浮现质证材料。当用户说 "为[证人]做庭前准备"、"构建庭审提纲"或"准备[姓名]的庭前会议/庭审"时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/deposition-prep

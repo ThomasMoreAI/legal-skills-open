@@ -1,6 +1,6 @@
 ---
 name: hoai-leistungsphasen-praxis-kaltstart-routing
-title: 1. HOAI-Auftrag und Leistungsumfang klären
+title: 'HOAI-Auftrag und Leistungsumfang klären'
 description: 'Für HOAI Querschnitt: Führt durch projektart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hoai-leistungsphasen-praxis/skills/kaltstart-routing

@@ -1,6 +1,6 @@
 ---
 name: paragraph-1-starug-pflichten-und-24-monats-horizont
-title: 1. Paragraf 1 StaRUG und die 24-Monats-Prognose richtig verbinden
+title: 'Paragraf 1 StaRUG und die 24-Monats-Prognose richtig verbinden'
 description: Trennt die fortlaufende Krisenfrüherkennungs- und Reaktionspflicht nach Paragraf 1 StaRUG sauber von der regelmäßigen 24-Monats-Prognose nach Paragraf 18 Absatz 2 InsO.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/paragraph-1-starug-pflichten-und-24-monats-horizont

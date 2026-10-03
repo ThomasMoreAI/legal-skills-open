@@ -1,6 +1,6 @@
 ---
 name: bauablauf-und-terminplan-fortschreiben
-title: 1. Bauablauf mit Abhängigkeiten und realistischen Terminen fortschreiben
+title: 'Bauablauf mit Abhängigkeiten und realistischen Terminen fortschreiben'
 description: Erstellt oder korrigiert Bauablauf- und Terminpläne anhand von Planlieferungen, Vergabe, Ressourcen, Ausführung und Inbetriebnahme. Trennt vertragliche Termine von Prognosen und Puffern; keine rechtliche Bauzeitentschädigung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bauablauf-und-terminplan-fortschreiben

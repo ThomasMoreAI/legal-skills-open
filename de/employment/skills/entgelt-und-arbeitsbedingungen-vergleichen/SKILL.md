@@ -1,6 +1,6 @@
 ---
 name: entgelt-und-arbeitsbedingungen-vergleichen
-title: 1. Entgelt und Arbeitsbedingungen vergleichen
+title: 'Entgelt und Arbeitsbedingungen vergleichen'
 description: Vergleicht Entgelt, Arbeitszeit, Zulagen und Arbeitsbedingungen auf mögliche Benachteiligung. Bereinigt unterschiedliche Zeiträume und Stundenbasen, prüft gleiche oder gleichwertige Arbeit und bereitet eine gezielte Auskunft oder Zahlungsforderung vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/entgelt-und-arbeitsbedingungen-vergleichen

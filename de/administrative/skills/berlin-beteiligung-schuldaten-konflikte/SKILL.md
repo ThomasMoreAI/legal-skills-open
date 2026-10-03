@@ -1,6 +1,6 @@
 ---
 name: berlin-beteiligung-schuldaten-konflikte
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Eltern- und Schülerbeteiligung, Schülerakte, Datenschutz, Klassenchat und…'
 description: Berliner Eltern- und Schülerbeteiligung, Schülerakte, Datenschutz, Klassenchat und kindbezogene Schutzbeschwerden sachgerecht bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-beteiligung-schuldaten-konflikte

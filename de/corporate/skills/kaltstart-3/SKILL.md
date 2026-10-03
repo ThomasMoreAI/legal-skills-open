@@ -1,6 +1,6 @@
 ---
 name: kaltstart-3
-title: 1. Unternehmenskauf aus den vorhandenen Unterlagen bearbeiten
+title: 'Unternehmenskauf aus den vorhandenen Unterlagen bearbeiten'
 description: 'Für Deal-Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Mittelstands-Corporate/M&A.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mittelstand-corporate-ma/skills/kaltstart

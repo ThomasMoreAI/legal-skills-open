@@ -1,6 +1,6 @@
 ---
 name: applying-cnap-passport
-title: law-ua-applying-cnap-passport
+title: 'Law UA applying cnap passport'
 description: Use when navigating Ukrainian passport procedures at ЦНАП or ДП «Документ» — ID-картка (вперше, обмін у 25/45, після втрати), закордонний паспорт (біометричний, для дорослих і дітей), реєстрація / зняття з реєстрації місця проживання, довідка про реєстрацію. ЗУ 5492-VI, 1382-IV; постанови КМУ № 302, 152, 207. Документи, збори, строки, оскарження
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-applying-cnap-passport

@@ -1,6 +1,6 @@
 ---
 name: echtes-und-unechtes-factoring-risikoverteilung
-title: '1. Echtes und unechtes Factoring: Risikoverteilung'
+title: 'Echtes und unechtes Factoring: Risikoverteilung'
 description: Prueft Bonitaetsrisiko, Veritaetshaftung und Rueckbelastung im Factoringvertrag; erstellt Vertragsbewertung, Rueckgriffsantwort oder Klausel und trennt Umsatzsteuer und Bilanzierung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/factoring-recht/skills/echtes-und-unechtes-factoring-risikoverteilung

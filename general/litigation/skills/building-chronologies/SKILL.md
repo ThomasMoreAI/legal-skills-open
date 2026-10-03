@@ -1,6 +1,6 @@
 ---
 name: building-chronologies
-title: building-chronologies
+title: 'Building chronologies'
 description: Use when users say "build a chronology", "make a timeline", "what happened when", "chronology from disclosure", "source the key events", or need legal documents, correspondence, pleadings, witness evidence, or disclosure materials turned into a sourced event chronology.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/building-chronologies

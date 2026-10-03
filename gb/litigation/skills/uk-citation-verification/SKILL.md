@@ -1,6 +1,6 @@
 ---
 name: uk-citation-verification
-title: uk-citation-verification
+title: 'UK citation verification'
 description: Use when users say "verify these UK citations", "check this skeleton for hallucinated cases", "BAILII/FCL check", "is this EWCA citation real", or need UK authorities, paragraph references, case names, or quotations checked against public sources.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-citation-verification

@@ -1,6 +1,6 @@
 ---
 name: transparenz-deepfake-synthetic-content-art-50
-title: 1. Transparenz und synthetische Inhalte
+title: 'Transparenz und synthetische Inhalte'
 description: Prüft Chatbot-Hinweise, maschinenlesbare Anbieterkennzeichnung und Deepfake-Offenlegung getrennt. Berücksichtigt den Bestandsübergang bis Dezember 2026 sowie die neuen Verbote und liefert konkrete Hinweise mit Veröffentlichungsfreigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/transparenz-deepfake-synthetic-content-art-50

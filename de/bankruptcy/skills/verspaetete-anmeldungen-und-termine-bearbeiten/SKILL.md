@@ -1,6 +1,6 @@
 ---
 name: verspaetete-anmeldungen-und-termine-bearbeiten
-title: 1. Verspätete Anmeldungen und Termine bearbeiten
+title: 'Verspätete Anmeldungen und Termine bearbeiten'
 description: Bearbeitet verspätete Forderungsanmeldungen und Änderungen mit dem zutreffenden Prüfweg. Unterscheidet Anmeldefrist, Prüfungstermin, Niederlegung und spätere Ausschlussfristen, ohne eine verspätete Anmeldung automatisch zurückzuweisen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/verspaetete-anmeldungen-und-termine-bearbeiten

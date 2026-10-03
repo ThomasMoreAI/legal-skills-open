@@ -1,11 +1,11 @@
 ---
 name: trusted-sources
-title: trusted-sources
+title: 'Trusted sources'
 description: Acquire authoritative reference documents — statutes, regulations, official policies, terms of service, agency guidance — into the case folder with provenance and plaintext extraction. Triggers when the user names a specific law/regulation/policy/ToS the case will cite, asks "do we have a copy of <X>" or "where do I find the official text of <Y>", supplies a copy and asks "can we use this", or when packet-builder needs a reference appendix that isn't on disk.
 author: EvanOchsner
 author_url: https://github.com/EvanOchsner/personal-advocacy-toolkit/tree/main/.claude/skills/trusted-sources
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

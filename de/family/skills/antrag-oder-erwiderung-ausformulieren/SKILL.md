@@ -1,6 +1,6 @@
 ---
 name: antrag-oder-erwiderung-ausformulieren
-title: 1. Antrag oder Erwiderung ausformulieren
+title: 'Antrag oder Erwiderung ausformulieren'
 description: Formuliert einen beauftragten Zahlungs- oder Stufenantrag beziehungsweise die Erwiderung im Zugewinnausgleich mit tragender Rechnung, Beweisangeboten und passendem FamFG-Verfahrensweg.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/antrag-oder-erwiderung-ausformulieren

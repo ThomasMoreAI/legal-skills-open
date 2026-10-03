@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-zekaisuni
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Cold-start interview for the litigation plugin, adapted for Turkish law and practice. Builds the litigation CLAUDE.md profile by role, party posture, Turkish court system, deadlines, evidence, UYAP/UETS/KEP/e-signature, writing style, and risk calibration.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/cold-start-interview

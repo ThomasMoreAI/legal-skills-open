@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-13
-title: /cold-start-interview
+title: 'Cold start interview'
 description: About-you interview and materials intake — classes, área jurídica escolhida, learning style (drill-me vs explain-to-me), past outlines, graded essays, old exams, questões objetivas da 1ª fase, syllabi, papers. Use on a fresh install, when the user says "set up" or "get started", or with --check-integrations to re-probe connectors.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/cold-start-interview

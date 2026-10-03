@@ -1,6 +1,6 @@
 ---
 name: staffel-index-und-sonderfaelle-trennen
-title: 1. Staffel, Index und Sonderfälle trennen
+title: 'Staffel, Index und Sonderfälle trennen'
 description: Erkennt Vertragsmodelle, für die ein gewöhnlicher Mietspiegelvergleich allein nicht reicht. Prüft Staffel, Index, Modernisierung, Möblierung und Mietbindung mit dem jeweils passenden Rechtsweg statt beliebig kombinierter Zuschläge.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/staffel-index-und-sonderfaelle-trennen

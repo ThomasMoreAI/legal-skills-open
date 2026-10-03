@@ -1,11 +1,11 @@
 ---
 name: patentverletzung-klage-borghei
-title: /patentrecht:patentverletzung-klage
+title: 'Patentverletzung klage'
 description: Klageschrift-Gerüst für eine Patentverletzung nach §§ 9, 10, 14, 139–142a PatG inkl. Düsseldorfer Praxis – Schutzbereichsbestimmung mit Merkmalsgliederung und Äquivalenzlehre, Anspruchskatalog mit dreifacher Schadensberechnung, Wahl zwischen LG-Patentstreitkammer und UPC. Use when ein Patentinhaber eine Verletzung verfolgen will oder ein Beklagter Klageerwiderung vorbereiten muss.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/patentrecht/skills/patentverletzung-klage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: ip

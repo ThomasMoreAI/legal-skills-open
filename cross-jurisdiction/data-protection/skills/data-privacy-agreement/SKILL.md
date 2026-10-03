@@ -1,6 +1,6 @@
 ---
 name: data-privacy-agreement
-title: data-privacy-agreement
+title: 'Data privacy agreement'
 description: Draft and fill data privacy contract and agreement templates — DPA, data processing contract, GDPR, HIPAA BAA, business associate agreement, AI addendum. Produces signable DOCX files from Common Paper standard forms. Use when user says "DPA," "data processing agreement," "HIPAA BAA," "business associate agreement," or "AI addendum." To understand a U.S. state's consumer privacy law (CCPA etc.) rather than draft, see data-privacy-law-explainer. Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/data-privacy-agreement

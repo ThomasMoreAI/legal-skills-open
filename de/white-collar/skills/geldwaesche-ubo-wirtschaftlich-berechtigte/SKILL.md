@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-ubo-wirtschaftlich-berechtigte
-title: 1. Wirtschaftlich Berechtigte ermitteln
+title: 'Wirtschaftlich Berechtigte ermitteln'
 description: Entwirrt Beteiligungs- und Kontrollketten für die Feststellung wirtschaftlich Berechtigter. Prüft Stimmrechte, Treuhand und beherrschenden Einfluss und trennt den heutigen GwG-Test von der ab 2027 vorgesehenen Eigentumsberechnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-ubo-wirtschaftlich-berechtigte

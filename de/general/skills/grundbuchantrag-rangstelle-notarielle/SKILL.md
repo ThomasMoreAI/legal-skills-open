@@ -1,6 +1,6 @@
 ---
 name: grundbuchantrag-rangstelle-notarielle
-title: 1. Grundbuchvollzug und Zwischenverfügung bearbeiten
+title: 'Grundbuchvollzug und Zwischenverfügung bearbeiten'
 description: Bereitet Grundbuchanträge, Rangänderungen und Antworten auf Zwischenverfügungen vor. Gleicht Bewilligung, Auflassung, Lastenfreistellung und Nachweisform ab und führt offene Eintragungshindernisse bis zur Vorlage an den Notar fort.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/grundbuchantrag-rangstelle-notarielle

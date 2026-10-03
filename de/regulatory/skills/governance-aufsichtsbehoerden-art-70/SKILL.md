@@ -1,6 +1,6 @@
 ---
 name: governance-aufsichtsbehoerden-art-70
-title: 1. Die zuständige Aufsicht bestimmen
+title: 'Die zuständige Aufsicht bestimmen'
 description: Bestimmt die zuständige Aufsicht nach dem deutschen Marktüberwachungsrecht 2026. Trennt Bundesnetzagentur, Produkt- und Finanzaufsicht, Landesbehörden, Datenschutzaufsicht und europäische Modellaufsicht für Anfrage, Beschwerde oder Verteidigung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/governance-aufsichtsbehoerden-art-70

@@ -1,6 +1,6 @@
 ---
 name: internationalen-vertrag-rechtswahl-und-gerichtsstand-pru
-title: 1. Internationalen Vertrag, Rechtswahl und Gerichtsstand prüfen
+title: 'Internationalen Vertrag, Rechtswahl und Gerichtsstand prüfen'
 description: Prüft Rechtswahl, CISG, Gerichtsstand und Vollstreckung grenzüberschreitender Wirtschaftsverträge getrennt und formuliert die konkret benötigten Vertragsklauseln.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/internationalen-vertrag-rechtswahl-und-gerichtsstand-pruefen

@@ -1,6 +1,6 @@
 ---
 name: itr-ki-systeme-vertragsklausel-leitfaden
-title: 1. Systemvertrag und Handlungsvollmachten gestalten
+title: 'Systemvertrag und Handlungsvollmachten gestalten'
 description: Verhandelt Verträge über KI-Systeme und handelnde Agenten anhand von Leistungsbeschreibung, Werkzeugrechten und Datenwegen. Erstellt konkrete Klauseln zu Aufsicht, Trainingsnutzung, Änderungen, Nachweisen, Haftung und Exit für Auftraggeber oder Anbieter.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/itr-ki-systeme-vertragsklausel-leitfaden

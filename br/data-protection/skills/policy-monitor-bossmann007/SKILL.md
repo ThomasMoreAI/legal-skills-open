@@ -1,11 +1,11 @@
 ---
 name: policy-monitor-bossmann007
-title: /policy-monitor
+title: 'Policy monitor'
 description: 'Keep the privacy policy current with practice. Two modes: weekly sweep of saved PIAs, DPA reviews, and triage results to find policy drift; or direct query for a proposed new practice. Use when the user asks "does our policy cover this", "we want to start doing X — does the policy need updating", "run the policy monitor", "policy sweep", or wants to find where the privacy policy no longer matches what the team actually does.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/policy-monitor
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: data-protection

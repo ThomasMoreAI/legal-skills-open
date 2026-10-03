@@ -1,6 +1,6 @@
 ---
 name: oss-review-bossmann007
-title: /oss-review
+title: 'OSS review'
 description: Verificação de conformidade de licença open source para lista de dependências, uma única biblioteca, ou código de saída. Use ao revisar um manifesto, SBOM, ou repositório em busca de obrigações de copyleft e compatibilidade de licença, quando perguntado se uma biblioteca pode ir a produção, ou ao preparar código para ser open-sourced.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/oss-review

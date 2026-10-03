@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-transaktionsmonitoring
-title: 1. Zahlungsauffälligkeit untersuchen
+title: 'Zahlungsauffälligkeit untersuchen'
 description: Untersucht auffällige Zahlungen, Teilbeträge, Rückerstattungen und Warenströme im Vergleich zum Kundenprofil. Verknüpft Kontoauszug, Vertrag und Beleg und bereitet begründete Erledigung oder zeitnahe Meldeprüfung vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-transaktionsmonitoring

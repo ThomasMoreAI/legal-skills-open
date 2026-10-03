@@ -1,6 +1,6 @@
 ---
 name: betrieb-gaststaette-und-uebernahme
-title: 1. Zweck und Anwendungsfall
+title: 'Bearbeitet Berliner Gaststättenerlaubnisse, Alkoholausschank, Übernahmen, vorläufige…'
 description: Bearbeitet Berliner Gaststättenerlaubnisse, Alkoholausschank, Übernahmen, vorläufige Erlaubnisse und Gestattungen. Führt das konkrete Restaurantvorhaben durch die unterschiedliche Rechtslage im Herbst und nach dem Berliner Regimewechsel.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-gaststaette-und-uebernahme

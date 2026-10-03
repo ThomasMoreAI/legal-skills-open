@@ -1,6 +1,6 @@
 ---
 name: rueckfrageninterview
-title: 1. Fehlende Vertragsangaben klären und die Ausfüllung fortsetzen
+title: 'Fehlende Vertragsangaben klären und die Ausfüllung fortsetzen'
 description: Klärt fehlende oder widersprüchliche Angaben einer Vertragsvorlage anhand von Term Sheet, Korrespondenz und Anlagen. Führt Antworten in alle betroffenen Felder und die vollständige Ausfüllfassung zurück, ohne ungefragt Vertragsbedingungen zu ändern.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragsausfueller/skills/rueckfrageninterview

@@ -1,6 +1,6 @@
 ---
 name: liefervertrag-und-abrufsystem-gestalten
-title: 1. Liefervertrag und Abrufsystem gestalten
+title: 'Liefervertrag und Abrufsystem gestalten'
 description: Gestaltet B2B-Lieferverträge mit Mengenplanung, verbindlichen Abrufen, Kapazität, Lieferterminen, Qualitätsanforderungen und begrenztem Stornierungsrisiko.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/liefervertrag-und-abrufsystem-gestalten

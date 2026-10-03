@@ -1,6 +1,6 @@
 ---
 name: interne-kontrollen-und-beauftragter
-title: 1. Kontrollen und Verantwortlichkeit einrichten
+title: 'Kontrollen und Verantwortlichkeit einrichten'
 description: Setzt konkrete Geldwäscherisiken in interne Kontrollen, Zuständigkeiten und Vertretungen um. Prüft Bestellungspflichten und Aufsichtsanordnungen und entwickelt einen funktionsfähigen Meldeweg auch bei Urlaub oder Systemausfall.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/interne-kontrollen-und-beauftragter

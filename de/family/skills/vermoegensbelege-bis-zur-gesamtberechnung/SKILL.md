@@ -1,6 +1,6 @@
 ---
 name: vermoegensbelege-bis-zur-gesamtberechnung
-title: 1. Vermögensbelege bis zur Gesamtberechnung
+title: 'Vermögensbelege bis zur Gesamtberechnung'
 description: Berechnet den Zugewinnausgleich beider Ehegatten aus vorhandenen Vermögensbelegen und Stichtagen einschließlich Schulden, privilegierter Erwerbe und streitiger Bewegungen bis zum beauftragten Dokument.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/vermoegensbelege-bis-zur-gesamtberechnung

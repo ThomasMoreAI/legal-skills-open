@@ -1,6 +1,6 @@
 ---
 name: professur-drittmittel-daten-ip-ethik
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Drittmittelprojekte Berliner Professuren auf institutionelle Zuständigkeit…'
 description: Prüft Drittmittelprojekte Berliner Professuren auf institutionelle Zuständigkeit, Bewirtschaftung, Datenrechte, Publikation, Erfindungen und ethische Genehmigungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-drittmittel-daten-ip-ethik

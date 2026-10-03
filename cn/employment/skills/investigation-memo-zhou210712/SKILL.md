@@ -1,11 +1,11 @@
 ---
 name: investigation-memo-zhou210712
-title: /investigation-memo
+title: 'Investigation memo'
 description: 从调查日志起草或更新调查备忘录。当调查进展到可以撰写第一版备忘录时， 或当新数据已添加且现有草案需要更新时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/employment-legal/skills/investigation-memo
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: employment

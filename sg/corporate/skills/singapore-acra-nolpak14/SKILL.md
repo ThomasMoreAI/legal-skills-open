@@ -1,11 +1,11 @@
 ---
 name: singapore-acra-nolpak14
-title: singapore-acra
+title: 'Singapore acra'
 description: 'Look up Singapore companies for free via the official ACRA open data on data.gov.sg - entity name, UEN (Unique Entity Number), entity status (Registered / Deregistered), entity type, registration date, and registered address. Use for KYB / know-your-business checks, counterparty verification, UEN resolution, and Singapore company due diligence. Trigger on: ''ACRA'', ''Singapore company lookup'', ''check a Singapore company'', ''UEN lookup'', ''Unique Entity Number'', ''is this Singapore company registered'', ''Singapore entity search'', ''data.gov.sg ACRA''. The ACRA open dataset is free and needs no key; for officer, shareholder and financial DEPTH - and for jurisdictions with no free API - this skill points you to the paid ACRA BizFile API and the regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/singapore-acra
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: sg
 practice: corporate

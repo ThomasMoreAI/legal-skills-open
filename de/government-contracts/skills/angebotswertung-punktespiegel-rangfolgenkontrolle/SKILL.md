@@ -1,6 +1,6 @@
 ---
 name: angebotswertung-punktespiegel-rangfolgenkontrolle
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft dokumentierte Preis- und Qualitätsbewertungen durch Nachrechnung des Punktespiegels…'
 description: Prüft dokumentierte Preis- und Qualitätsbewertungen durch Nachrechnung des Punktespiegels und belegbezogenen Angebotsvergleich. Erstellt Rangfolgenszenarien und konkrete Rüge- oder Wertungsvermerke; nicht für bloße Eignungsprüfung oder Nachträge nach Zuschlag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/angebotswertung-punktespiegel-rangfolgenkontrolle

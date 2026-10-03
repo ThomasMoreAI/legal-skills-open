@@ -1,11 +1,11 @@
 ---
 name: privilege-log-review-zhou210712
-title: /privilege-log-review
+title: 'Privilege log review'
 description: 证据三性审查——对证据清单进行首轮审查，做出明显的 合法性/关联性判断并标记需要律师审查的疑难项目。 当用户说"审查证据清单"、"证据三性审查"、 "检查这些证据的可采性"或有证据清单需要在质证前审核时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/privilege-log-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: litigation

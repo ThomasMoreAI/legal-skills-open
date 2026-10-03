@@ -1,6 +1,6 @@
 ---
 name: claim-chart-zekaisuni
-title: /claim-chart
+title: 'Claim chart'
 description: Build or review an element chart. In patent matters, maps patent claim elements to accused products, invalidity references, or evidence. In Turkish civil litigation, maps legal elements of a claim or defense to evidence and proof gaps. Primary output is an evidence/proof-gap table.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/claim-chart

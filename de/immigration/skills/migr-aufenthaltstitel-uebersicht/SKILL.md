@@ -1,6 +1,6 @@
 ---
 name: migr-aufenthaltstitel-uebersicht
-title: 1. Aufenthaltstitel auswählen
+title: 'Aufenthaltstitel auswählen'
 description: Routet Aufenthaltsziele zu Visum, befristetem Aufenthaltstitel, Blauer Karte EU, ICT-Karte, Niederlassungserlaubnis oder Daueraufenthalt EU.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/migr-aufenthaltstitel-uebersicht

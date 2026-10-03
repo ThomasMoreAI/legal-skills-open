@@ -10,7 +10,7 @@ Jurisdiction: `mx` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`mexico-denue`](skills/mexico-denue-nolpak14/) | Look up Mexican companies for free via the official INEGI DENUE API (Directorio Estadistico Nacional de… |
+| [`Mexico denue`](skills/mexico-denue-nolpak14/) | Look up Mexican companies for free via the official INEGI DENUE API (Directorio Estadistico Nacional de… |
 
 ## Cold-start context
 

@@ -1,6 +1,6 @@
 ---
 name: antrag-und-nachweise-vorbereiten
-title: 1. Antrag und Nachweise vorbereiten
+title: 'Antrag und Nachweise vorbereiten'
 description: Erstellt einen eigenen Antrag auf Sozialleistungen aus dem konkreten Bedarf und vorhandenen Nachweisen. Klärt Leistungsträger, Leistungsbeginn und fehlende Belege, trennt Antragstellung von späterer Ergänzung und bereitet eine knappe Antwort auf Nachforderungen vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/antrag-und-nachweise-vorbereiten

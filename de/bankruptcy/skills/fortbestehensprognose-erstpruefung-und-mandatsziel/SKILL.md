@@ -1,6 +1,6 @@
 ---
 name: fortbestehensprognose-erstpruefung-und-mandatsziel
-title: '1. Fortbestehensprognose: Erstprüfung und Mandatsziel'
+title: 'Fortbestehensprognose: Erstprüfung und Mandatsziel'
 description: 'Für Fortbestehensprognose: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fortbestehensprognose/skills/fortbestehensprognose-erstpruefung-und-mandatsziel

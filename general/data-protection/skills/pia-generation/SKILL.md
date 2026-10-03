@@ -1,11 +1,11 @@
 ---
 name: pia-generation
-title: /pia-generation
+title: 'Pia generation'
 description: Generate a Privacy Impact Assessment in house format for a new feature, product, or processing activity, using the structure learned from your seed PIA. Use when the user says "write a PIA", "privacy impact assessment for", "do we need a PIA for this", "privacy review this feature", or describes a new data processing activity.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/privacy-legal/skills/pia-generation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

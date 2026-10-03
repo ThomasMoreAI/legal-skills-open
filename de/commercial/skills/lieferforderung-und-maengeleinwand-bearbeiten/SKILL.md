@@ -1,6 +1,6 @@
 ---
 name: lieferforderung-und-maengeleinwand-bearbeiten
-title: 1. Lieferforderung, Mängelrechte und Betriebsfortführung abstimmen
+title: 'Lieferforderung, Mängelrechte und Betriebsfortführung abstimmen'
 description: Bearbeitet offene Lieferforderungen und Mängeleinwände im laufenden Unternehmensgeschäft bis zum bezifferten Forderungs-, Abwehr- oder Nacherfüllungsschreiben. Verknüpft Rüge, Leistungsnachweise, Teilzahlungen und Ersatzbeschaffung, ohne ungeprüfte Abzüge oder Anerkenntnisse in die laufende Geschäftsbeziehung einzubauen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/lieferforderung-und-maengeleinwand-bearbeiten

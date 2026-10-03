@@ -1,6 +1,6 @@
 ---
 name: versammlung-ort-route-und-flaechen
-title: 1. Ort, Route und Flächen klären
+title: 'Ort, Route und Flächen klären'
 description: Prüfen Sie den Berliner Versammlungsort, eine Strecke oder private Verkehrsfläche und formulieren Sie eine belastbare Ortsbegründung mit Alternativen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-ort-route-und-flaechen

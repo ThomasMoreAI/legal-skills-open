@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-vergaberecht-inhouse-interkommunal
-title: 1. Inhouse und interkommunale Zusammenarbeit prüfen
+title: 'Inhouse und interkommunale Zusammenarbeit prüfen'
 description: Prüft Inhouse-Vergabe und interkommunale Zusammenarbeit anhand Kontrolle, Betrauung, Tätigkeitsquote und tatsächlicher Kooperation; erstellt Prüfvermerk und Vertragsentwurf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/fachanwalt-vergaberecht-inhouse-interkommunal

@@ -1,11 +1,11 @@
 ---
 name: matter-update-anthropics
-title: /matter-update
+title: 'Matter update'
 description: Append a dated event to a matter's history file and refresh the log row — captures new developments, status changes, risk re-assessments, deadline shifts, and settlement authority changes. Use when the user wants to log an update on a matter, note a development, or record a status change against the portfolio.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/matter-update
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

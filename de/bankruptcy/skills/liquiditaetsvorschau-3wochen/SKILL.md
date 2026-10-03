@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsvorschau-3wochen
-title: 1. Dreiwochenplanung mit taggenauem Insolvenzstatus
+title: 'Dreiwochenplanung mit taggenauem Insolvenzstatus'
 description: Erstellt eine Dreiwochenplanung und einen belegten Status zur Prüfung der Zahlungsunfähigkeit. Trennt Zahlungsbedarf, Datenlücken, Indizien und rechtliche Bewertung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/liquiditaetsvorschau-3wochen

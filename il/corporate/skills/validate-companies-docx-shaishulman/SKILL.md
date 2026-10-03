@@ -1,11 +1,11 @@
 ---
 name: validate-companies-docx-shaishulman
-title: validate-companies-docx
+title: 'Validate companies DOCX'
 description: 'ALWAYS use this skill instead of validate-companies when a .docx file is involved. Validates Israeli company references in Word (.docx) files and annotates with correct registration details from the Israeli Companies Registrar (רשם החברות הישראלי). Triggers on: any request referencing a .docx file with company validation, annotation, or completion — e.g. ''check companies in this contract'', ''annotate the Word file with company numbers'', ''fill in company details in the document'', ''validate companies in the agreement'', ''complete the company details in the docx''. Also triggers when user provides a .docx path and asks to complete, verify, or fix company information. For Hebrew documents, assume Israeli company unless stated otherwise.'
 author: ShaiShulman
 author_url: https://github.com/ShaiShulman/isracorp-mcp/tree/main/.claude/skills/validate-companies-docx
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: corporate

@@ -1,6 +1,6 @@
 ---
 name: mandant-aufnahme
-title: /mandant-aufnahme
+title: 'Mandant aufnahme'
 description: 'Für /mandant-aufnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/mandant-aufnahme

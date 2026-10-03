@@ -1,6 +1,6 @@
 ---
 name: kaufmaennische-agb-pruefen-und-neufassen
-title: 1. Kaufmännische Geschäftsbedingungen für reale Bestellabläufe prüfen
+title: 'Kaufmännische Geschäftsbedingungen für reale Bestellabläufe prüfen'
 description: Prüft wiederholt verwendete Einkaufs- oder Verkaufsbedingungen des Unternehmens auf Einbeziehung, Klauselkollision und Inhaltskontrolle und formuliert konkrete Ersatztexte. Unterscheidet Unternehmer und Kaufleute, schützt Zahlungs- und Lieferabläufe und behandelt Paragraf 308 Nummern 1a und 1b BGB nicht als pauschal ausgeschlossen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/kaufmaennische-agb-pruefen-und-neufassen

@@ -1,6 +1,6 @@
 ---
 name: eu-kartellrecht-self-preferencing-google-shopping
-title: 1. Self-Preferencing nach Artikel 102 AEUV
+title: 'Self-Preferencing nach Artikel 102 AEUV'
 description: 'Für 1. Self-Preferencing nach Artikel 102 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit Zuständigkeits- und Nachweisfragen.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/eu-kartellrecht-self-preferencing-google-shopping

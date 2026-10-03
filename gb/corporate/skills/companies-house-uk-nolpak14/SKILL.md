@@ -1,11 +1,11 @@
 ---
 name: companies-house-uk-nolpak14
-title: companies-house-uk
+title: 'Companies house UK'
 description: 'Look up UK companies for free via the official Companies House public REST API - company profile, directors/officers, PSC (persons with significant control = beneficial owners), filing history, and SIC codes. Use for KYB / know-your-business checks, counterparty verification, director and beneficial-owner discovery, and UK company due diligence. Trigger on: ''Companies House'', ''UK company lookup'', ''check a UK company'', ''UK directors'', ''UK beneficial owners'', ''PSC check'', ''is this UK company active'', ''UK company number''. The UK API is free; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/companies-house-uk
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: corporate

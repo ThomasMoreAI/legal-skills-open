@@ -1,6 +1,6 @@
 ---
 name: uk-disclosure-list-review
-title: uk-disclosure-list-review
+title: 'UK disclosure list review'
 description: Use when users say "review this disclosure list", "QC disclosure", "check privilege descriptions", "inspection objections", "missing custodians", "adverse documents", or need England and Wales disclosure checked for issue coverage, gaps, privilege, redactions, and inspection risk.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/uk-disclosure-list-review

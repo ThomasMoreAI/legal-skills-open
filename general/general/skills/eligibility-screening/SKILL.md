@@ -1,11 +1,11 @@
 ---
 name: eligibility-screening
-title: /eligibility-screening
+title: 'Eligibility screening'
 description: Funding-source-aware screening — income, assets, residency, citizenship/ immigration status, conflicts, and case-type priority. Produces a screening result the intake specialist or staff attorney reviews and the managing attorney approves. Does NOT decide acceptance. Use at the front of every intake, before /client-intake, when a prospective client first contacts the office.
 author: lawdroidAI
 author_url: https://github.com/lawdroidAI/legal-aid-plugin/tree/main/skills/eligibility-screening
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

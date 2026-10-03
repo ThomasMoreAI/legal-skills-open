@@ -1,6 +1,6 @@
 ---
 name: berlin-leistungsbewertung-versetzung
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Noten, Zeugnisse, Förderprognosen, Versetzung und Schulprüfungen aus Schüler…'
 description: Berliner Noten, Zeugnisse, Förderprognosen, Versetzung und Schulprüfungen aus Schüler- und Elternsicht konkret überprüfen und begründete Einwendungen ausarbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-leistungsbewertung-versetzung

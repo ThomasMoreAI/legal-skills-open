@@ -1,11 +1,11 @@
 ---
 name: legal-advisor-v2
-title: legal-advisor
+title: 'Legal advisor'
 description: legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of service, disclaimers, and legal notices. Creates GDPR-compliant texts, cookie policies, and data processing agreements and the operator should preserve the upstream workflow, copied support files, and provenance before merging or handing off.
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/legal-advisor-v2
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

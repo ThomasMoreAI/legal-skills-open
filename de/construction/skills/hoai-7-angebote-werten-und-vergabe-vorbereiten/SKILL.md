@@ -1,6 +1,6 @@
 ---
 name: hoai-7-angebote-werten-und-vergabe-vorbereiten
-title: 1. Gebäudeangebote bis zur unterschriftsreifen Vergabeentscheidung bearbeiten
+title: 'Gebäudeangebote bis zur unterschriftsreifen Vergabeentscheidung bearbeiten'
 description: Bereitet die Gebäudevergabe nach HOAI-Leistungsphase 7 vor, von Angeboten über positionsbezogene Wertung und zulässige Aufklärung bis zum Vergabevorschlag mit Vertragsunterlagen. Für zusammenhängende Vergabemitwirkung, nicht für einzelne Bieterfragen oder Rechnungen. Erteilt keinen Zuschlag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-7-angebote-werten-und-vergabe-vorbereiten

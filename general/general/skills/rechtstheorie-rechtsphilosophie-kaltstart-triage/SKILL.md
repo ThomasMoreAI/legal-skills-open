@@ -1,6 +1,6 @@
 ---
 name: rechtstheorie-rechtsphilosophie-kaltstart-triage
-title: 1. Rechtstheoretische Argumentation ausarbeiten
+title: 'Rechtstheoretische Argumentation ausarbeiten'
 description: 'Für Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtstheorie-rechtsphilosophie/skills/kaltstart-triage

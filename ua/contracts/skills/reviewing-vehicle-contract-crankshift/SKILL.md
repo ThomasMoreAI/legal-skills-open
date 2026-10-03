@@ -1,6 +1,6 @@
 ---
 name: reviewing-vehicle-contract-crankshift
-title: law-ua-reviewing-vehicle-contract
+title: 'Law UA reviewing vehicle contract'
 description: Use when auditing a Ukrainian vehicle sale contract (ДКП ТЗ) — VIN / пробіг, title chain, обтяження (ЄДР обтяжень, застави, арешти), нотаріальна форма, воєнні обмеження (військовозобов'язані, мобілізаційний облік), митний статус (розмитнене vs пільгове), типові схеми шахрайства (підроблений VIN, крутий пробіг, тотальна шкода, конфіскат), реєстри (hsc.gov.ua, ЄДРО, єПослуга)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-reviewing-vehicle-contract

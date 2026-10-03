@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-gruppenweite-compliance
-title: 1. Gruppe und Auslagerung steuern
+title: 'Gruppe und Auslagerung steuern'
 description: Prüft gruppenweite Geldwäschekontrollen und ausgelagerte Kundenprüfung. Ordnet Mutterunternehmen, Tochter, Kanzleinetzwerk und Dienstleister getrennt ein und klärt Datenzugriff, Verantwortung und verbotene Informationsweitergabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-gruppenweite-compliance

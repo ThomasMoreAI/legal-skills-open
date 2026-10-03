@@ -1,6 +1,6 @@
 ---
 name: drohende-zahlungsunfaehigkeit
-title: 1. Drohende Zahlungsunfähigkeit nach Paragraf 18 InsO
+title: 'Drohende Zahlungsunfähigkeit nach Paragraf 18 InsO'
 description: Prüft drohende Zahlungsunfähigkeit nach Paragraf 18 InsO aus Liquiditätsstatus, Fälligkeiten und regelmäßig 24-monatiger Prognose.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/drohende-zahlungsunfaehigkeit

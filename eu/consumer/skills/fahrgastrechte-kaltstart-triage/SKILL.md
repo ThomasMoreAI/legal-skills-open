@@ -1,6 +1,6 @@
 ---
 name: fahrgastrechte-kaltstart-triage
-title: 1. Ansprüche aus einer Bahnreise einordnen
+title: 'Ansprüche aus einer Bahnreise einordnen'
 description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fahrgastrechte.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fahrgastrechte/skills/kaltstart-triage

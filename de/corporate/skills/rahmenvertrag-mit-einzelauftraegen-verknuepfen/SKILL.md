@@ -1,6 +1,6 @@
 ---
 name: rahmenvertrag-mit-einzelauftraegen-verknuepfen
-title: 1. Rahmenvertrag mit Einzelaufträgen verknüpfen
+title: 'Rahmenvertrag mit Einzelaufträgen verknüpfen'
 description: Verknüpft Rahmenvertrag, Bestellungen und Leistungsanlagen durch klare Abschlussmechanik, Parteizuordnung, Versionen, Vorrang und Fortgeltung offener Einzelaufträge.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/rahmenvertrag-mit-einzelauftraegen-verknuepfen

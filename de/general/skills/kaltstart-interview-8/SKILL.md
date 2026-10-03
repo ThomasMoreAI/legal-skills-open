@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview-8
-title: 1. Beratungsstelle einrichten oder gezielt weiterentwickeln
+title: 'Beratungsstelle einrichten oder gezielt weiterentwickeln'
 description: 'Für /kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Plugin für die studentische Rechtsberatungsstelle.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/kaltstart-interview

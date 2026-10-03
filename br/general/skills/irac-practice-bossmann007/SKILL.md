@@ -1,11 +1,11 @@
 ---
 name: irac-practice-bossmann007
-title: /irac-practice
+title: 'Irac practice'
 description: Corrige uma peça/parecer no método IRAC (ou estrutura equivalente) quanto a estrutura, identificação de teses, precisão de fundamentação, profundidade de análise e organização. NÃO reescreve o texto nem mostra resposta-modelo; rastreia padrões entre sessões. Use quando o usuário disser "corrige meu IRAC", "avalia meu texto", ou "escrevi isso, me dá feedback".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/irac-practice
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: general

@@ -1,6 +1,6 @@
 ---
 name: betrieb-arbeitsschutz-und-schichtbetrieb
-title: 1. Zweck und Anwendungsfall
+title: 'Bearbeitet Berliner Arbeitsschutzkontrollen, Arbeitszeit, Gefährdungsbeurteilung und…'
 description: Bearbeitet Berliner Arbeitsschutzkontrollen, Arbeitszeit, Gefährdungsbeurteilung und konkrete Schichtorganisation. Erstellt betriebsbezogene Maßnahmen und Behördenantworten für Gastronomie, Verkauf und radiologische Einrichtungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-arbeitsschutz-und-schichtbetrieb

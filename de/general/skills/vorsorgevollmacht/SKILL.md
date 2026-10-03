@@ -1,6 +1,6 @@
 ---
 name: vorsorgevollmacht
-title: 1. Vorsorgewünsche in konkrete Erklärungen übertragen
+title: 'Vorsorgewünsche in konkrete Erklärungen übertragen'
 description: Bereitet Vorsorgevollmacht, Patientenverfügung und Betreuungswünsche für das Notariat vor. Klärt Umfang, Ersatzvertretung, Immobilienbefugnis und besondere Gesundheitsmaßnahmen und erstellt abgestimmte Entwürfe ohne pauschale Vollmachts- oder Registerwirkungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/vorsorgevollmacht

@@ -1,6 +1,6 @@
 ---
 name: gesellschafterliste-erstellen-und-abgleichen
-title: 1. Gesellschafterliste mit belegter Veränderung
+title: 'Gesellschafterliste mit belegter Veränderung'
 description: Erstellt oder korrigiert GmbH- und UG-Gesellschafterlisten und trennt materielle Beteiligung, formelle Legitimation und Einreichungszuständigkeit.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/gesellschafterliste-erstellen-und-abgleichen

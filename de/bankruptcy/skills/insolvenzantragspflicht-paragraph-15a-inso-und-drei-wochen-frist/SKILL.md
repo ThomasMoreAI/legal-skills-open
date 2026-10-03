@@ -1,6 +1,6 @@
 ---
 name: insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist
-title: 1. Insolvenzantragspflicht nach Paragraf 15a InsO
+title: 'Insolvenzantragspflicht nach Paragraf 15a InsO'
 description: Prüft die Insolvenzantragspflicht nach Paragraf 15a InsO ab objektivem Eintritt von Zahlungsunfähigkeit oder Überschuldung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/insolvenzantragspflicht-paragraph-15a-inso-und-drei-wochen-frist

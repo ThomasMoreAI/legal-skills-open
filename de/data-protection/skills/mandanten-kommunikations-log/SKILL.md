@@ -1,6 +1,6 @@
 ---
 name: mandanten-kommunikations-log
-title: /mandanten-kommunikations-log
+title: 'Mandanten kommunikations log'
 description: 'Für /mandanten-kommunikations-log: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/rechtsberatungsstelle/skills/mandanten-kommunikations-log

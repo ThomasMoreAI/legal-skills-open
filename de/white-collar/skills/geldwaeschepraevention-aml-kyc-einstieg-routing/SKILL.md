@@ -1,6 +1,6 @@
 ---
 name: geldwaeschepraevention-aml-kyc-einstieg-routing
-title: 1. Geldwäschevorgang aufnehmen
+title: 'Geldwäschevorgang aufnehmen'
 description: Startet Geldwäscheprüfungen in Kanzlei, Notariat und Unternehmen aus vorhandenen Unterlagen. Wählt zwischen Verpflichtetenstatus, Kundenprüfung, Immobilienzahlung und akutem Meldefall, ohne einen allgemeinen Fragebogen vorzuschalten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/einstieg-routing

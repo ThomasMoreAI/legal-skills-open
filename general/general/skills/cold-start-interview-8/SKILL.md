@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-8
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Professor's one-time clinic setup — practice areas, jurisdiction, supervision style (formal review queue / configurable flags / lighter-touch), and handbook/rules upload. Writes CLAUDE.md so every other skill and every student who runs /ramp reads from the same clinic context. Use on fresh install, when CLAUDE.md has placeholders, when re-doing setup with --redo, or when re-checking integrations with --check-integrations.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/cold-start-interview

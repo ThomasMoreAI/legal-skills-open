@@ -1,6 +1,6 @@
 ---
 name: schreiben-und-verstaendlichkeit-pruefen
-title: 1. Schreiben und Verständlichkeit prüfen
+title: 'Schreiben und Verständlichkeit prüfen'
 description: Prüft den fertigen eigenen Sozialrechtsbrief vor dem Absenden auf richtige Tatsachen, verständliche Anträge, Frist und Form. Erkennt fehlende Nachweise, ungewollte Erklärungen und Sprachhürden und liefert eine verbesserte Fassung mit klaren offenen Punkten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/schreiben-und-verstaendlichkeit-pruefen

@@ -1,6 +1,6 @@
 ---
 name: forschungszulage-antragstellung-workflow-kaltstart-und-routing
-title: 1. Forschungszulagenauftrag bearbeiten
+title: 'Forschungszulagenauftrag bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Forschungszulage-Antragstellung.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/forschungszulage-antragstellung/skills/workflow-kaltstart-und-routing

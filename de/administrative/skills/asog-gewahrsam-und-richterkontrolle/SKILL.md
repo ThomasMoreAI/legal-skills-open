@@ -1,6 +1,6 @@
 ---
 name: asog-gewahrsam-und-richterkontrolle
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner präventive Freiheitsentziehungen, unverzügliche Richtervorführung, Dauer…'
 description: Prüft Berliner präventive Freiheitsentziehungen, unverzügliche Richtervorführung, Dauer und nachträgliche Feststellung im richtigen Rechtsweg.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-gewahrsam-und-richterkontrolle

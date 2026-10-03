@@ -1,6 +1,6 @@
 ---
 name: berliner-vergleichsmiete-berechnen
-title: 1. Berliner Vergleichsmiete berechnen
+title: 'Berliner Vergleichsmiete berechnen'
 description: Berechnet eine Berliner Wohnraummiete anhand des passenden Mietspiegelfelds, des amtlichen Straßenverzeichnisses und der örtlichen Orientierungshilfe. Dokumentiert Ausstattung und Spanneneinordnung statt Stadtmittelwert oder pauschalem Höchstwert.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/berliner-vergleichsmiete-berechnen

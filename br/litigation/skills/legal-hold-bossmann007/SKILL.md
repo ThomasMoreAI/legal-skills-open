@@ -1,11 +1,11 @@
 ---
 name: legal-hold-bossmann007
-title: /legal-hold
+title: 'Legal hold'
 description: Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold fields in _log.yaml, and calendars the next refresh. Use when the user says "issue a hold", "refresh hold", "release hold", or asks for a portfolio-wide hold status report.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/legal-hold
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

@@ -1,11 +1,11 @@
 ---
 name: matter-close-anthropics
-title: /matter-close
+title: 'Matter close'
 description: Close a matter — capture outcome, final exposure, and lessons, then archive it out of the active portfolio without deleting the record. Use when the user wants to close a matter, says "[matter] is done", or needs to record a settlement, dismissal, judgment, withdrawal, or consolidation outcome.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/matter-close
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

@@ -1,6 +1,6 @@
 ---
 name: proposition-checking
-title: proposition-checking
+title: 'Proposition checking'
 description: Use when users say "does this authority support the point", "check propositions", "fact-check this argument", "verify record support", or need cited cases, statutes, exhibits, transcripts, emails, or pleadings checked against legal or factual propositions.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/proposition-checking

@@ -1,11 +1,11 @@
 ---
 name: legal-writing-zhou210712
-title: /legal-writing
+title: 'Legal writing'
 description: 对法律写作草稿（备忘录、代理词、论文、法考主观题答案）的结构性反馈—— 组织结构、分析深度、清晰度、引注格式。绝不代写重写。当用户说"给我的备忘录 提反馈""读一下我的草稿""批评我的代理词"时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/law-student/skills/legal-writing
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

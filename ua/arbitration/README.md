@@ -8,7 +8,7 @@ Jurisdiction: `ua` · Practice: `arbitration` · Skill language: uk
 
 | Skill | What it does |
 |---|---|
-| [`law-ua-applying-new-york-convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine… |
+| [`Law UA applying new york convention`](skills/applying-new-york-convention/) | Use when preparing applications for recognition and enforcement of foreign arbitral awards in Ukraine… |
 
 ## Cold-start context
 

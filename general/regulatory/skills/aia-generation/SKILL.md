@@ -1,11 +1,11 @@
 ---
 name: aia-generation
-title: /aia-generation
+title: 'Aia generation'
 description: Run an AI impact assessment — structured intake, risk analysis, regulatory classification per regime in scope, policy consistency diff, and recommendation with conditions. Uses the house-style structure learned from the seed impact assessment in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. Use when user says "impact assessment for", "assess this AI use case", "run an AIA", "generate an AIA", "we need to document this AI system", "AI risk assessment for X", or follows a conditional triage result.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/aia-generation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

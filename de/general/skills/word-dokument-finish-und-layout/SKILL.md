@@ -1,6 +1,6 @@
 ---
 name: word-dokument-finish-und-layout
-title: 1. Word-Fassung fertigstellen und prüfen
+title: 'Word-Fassung fertigstellen und prüfen'
 description: Stellt eine vorhandene juristische Word-Fassung für den vorgesehenen Empfänger fertig. Korrigiert Formatvorlagen, Nummerierung, Querverweise und Anlagen, prüft Kommentare und verborgene Inhalte und kontrolliert die tatsächlich erzeugte Datei vor der Übergabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/word-dokument-finish-und-layout

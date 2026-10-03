@@ -1,6 +1,6 @@
 ---
 name: space-001-kaltstart-weltraummandat-quellenkarte-risiko
-title: 1. Weltraummandat aus den Unterlagen bearbeiten
+title: 'Weltraummandat aus den Unterlagen bearbeiten'
 description: Bereitet ein Weltraummandat aus Missionsunterlagen, Genehmigungen und Verträgen auf. Trennt Staatenrollen, verbindliches Recht und technische Empfehlungen und entwickelt den benötigten Genehmigungsfahrplan, Vertragsentwurf oder Haftungsvermerk bis zur vollständigen Fassung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/weltraumrecht/skills/space-001-kaltstart-weltraummandat-quellenkarte-risiko

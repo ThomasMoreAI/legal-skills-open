@@ -1,11 +1,11 @@
 ---
 name: liquidacao-planilha-bossmann007
-title: /liquidacao-planilha
+title: 'Liquidacao planilha'
 description: Estrutura uma planilha de liquidação com verbas trabalhistas (aviso prévio, 13º, férias, FGTS, horas extras) ou cíveis (principal, danos) — filas, bases de cálculo, incidências e índices de correção (TR até 2021, IPCA-E/SELIC pós-EC 113/2021) — pronto para o advogado/contador preencher. Não computa valores finais. Use quando o usuário pede "estrutura a planilha de liquidação" ou "monta o rascunho da liquidação" para uma condenação.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/liquidacao-planilha
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

@@ -1,11 +1,11 @@
 ---
 name: dpa-review-bossmann007
-title: /dpa-review
+title: 'DPA review'
 description: Revisa um contrato/cláusula de tratamento de dados (equivalente brasileiro à DPA, fundamentado na LGPD Lei 13.709/2018) contra seu playbook — detecta automaticamente se você é operador (contrato do cliente) ou controlador (contrato do fornecedor) e aplica a metade correta do playbook. Use quando o usuário disser "revisa esse contrato de tratamento de dados", "cliente mandou o DPA", "esse contrato de dados tá ok", ou anexa um contrato.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/dpa-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: data-protection

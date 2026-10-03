@@ -1,6 +1,6 @@
 ---
 name: berlin-sekundarstufe-schulplatz-wechsel
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in…'
 description: Berliner Übergang in Klasse 7, Eignung, Übernachfrage und Schulwechsel insbesondere in Klasse 8 mit Kontingenten, Belegen und passendem Rechtsschutz aus Schülersicht bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-sekundarstufe-schulplatz-wechsel

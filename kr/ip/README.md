@@ -8,7 +8,7 @@ Jurisdiction: `kr` · Practice: `ip` · Skill language: ko
 
 | Skill | What it does |
 |---|---|
-| [`korean-patent-search`](skills/korean-patent-search/) | Search Korean patent and utility-model publications through the official KIPRIS Plus Open API with… |
+| [`Korean patent search`](skills/korean-patent-search/) | Search Korean patent and utility-model publications through the official KIPRIS Plus Open API with… |
 
 ## Cold-start context
 

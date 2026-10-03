@@ -1,6 +1,6 @@
 ---
 name: office-word-diff
-title: office-word-diff
+title: 'Office word diff'
 description: Use when you need to apply word-level tracked changes to Microsoft Word documents programmatically, preserve formatting through diffs, or integrate with Office.js for document transformation.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/office-word-diff

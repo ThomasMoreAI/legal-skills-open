@@ -1,6 +1,6 @@
 ---
 name: wohnflaeche-und-mietbestandteile-klaeren
-title: 1. Wohnfläche und Mietbestandteile klären
+title: 'Wohnfläche und Mietbestandteile klären'
 description: Gleicht Vertragsfläche, Aufmaß und Mietkonto ab. Trennt Nettokaltmiete, Betriebskosten, Heizung, Stellplatz und Möblierung und verhindert, dass eine falsche Fläche oder doppelt berechnete Ausstattung den Mietvergleich verfälscht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/wohnflaeche-und-mietbestandteile-klaeren

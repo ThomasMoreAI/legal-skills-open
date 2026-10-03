@@ -1,6 +1,6 @@
 ---
 name: cisg-deckungskauf-lieferchargen-schaden
-title: 1. Zweck und Anwendungsfall
+title: 'Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften…'
 description: Berechnet und prüft Schäden aus CISG-Deckungskäufen nach ausgefallenen oder mangelhaften Lieferchargen. Verknüpft Aufhebung, Ersatzbestellungen, Mengen, Nebenkosten und Schadensminderung; nicht für allgemeine Rechtswahl, Zolltarife oder Schiedsklauseln ohne Lieferstreit.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-internationales-wirtschaftsrecht/skills/cisg-deckungskauf-lieferchargen-schaden

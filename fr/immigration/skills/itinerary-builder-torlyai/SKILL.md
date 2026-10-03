@@ -1,6 +1,6 @@
 ---
 name: itinerary-builder-torlyai
-title: /itinerary-builder
+title: 'Itinerary builder'
 description: '将 /plan-trip 的骨架扩展为可附在 France-Visas 申请上的逐日行程 —
 
   抵达、每日活动、住宿过渡、返程。交叉检查住宿订单覆盖每一晚、
@@ -13,7 +13,7 @@ description: '将 /plan-trip 的骨架扩展为可附在 France-Visas 申请上�
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/itinerary-builder
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

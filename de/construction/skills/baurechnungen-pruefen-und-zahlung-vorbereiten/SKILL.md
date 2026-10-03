@@ -1,6 +1,6 @@
 ---
 name: baurechnungen-pruefen-und-zahlung-vorbereiten
-title: 1. Baurechnung rechnerisch und sachlich prüfen
+title: 'Baurechnung rechnerisch und sachlich prüfen'
 description: Erstellt einen positionsbezogenen Rechnungsprüfvermerk und begründeten Zahlungsvorschlag aus Vertrag, Aufmaß, Nachträgen und bisherigen Zahlungen. Trennt Prüffähigkeit, Berechtigung, Fälligkeit und Steuerprüfung; keine automatische Zahlung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/baurechnungen-pruefen-und-zahlung-vorbereiten

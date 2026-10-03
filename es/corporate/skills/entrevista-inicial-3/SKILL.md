@@ -1,6 +1,6 @@
 ---
 name: entrevista-inicial-3
-title: /entrevista-inicial
+title: 'Entrevista inicial'
 description: Entrevista de configuración inicial — aprende tu práctica societaria, los tipos de sociedad que manejas, tus áreas activas (M&A, secretaría del consejo, cumplimiento registral, gestión de entidades) y tus formatos de documentos corporativos. Úsala en la primera instalación, cuando CLAUDE.md tenga marcas [PLACEHOLDER], o para refrescar integraciones (--verificar-integraciones).
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/societario/skills/entrevista-inicial

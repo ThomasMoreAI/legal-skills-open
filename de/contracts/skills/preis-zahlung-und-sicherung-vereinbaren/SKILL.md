@@ -1,6 +1,6 @@
 ---
 name: preis-zahlung-und-sicherung-vereinbaren
-title: 1. Vergütung, Zahlungsplan und begrenzte Sicherheiten vereinbaren
+title: 'Vergütung, Zahlungsplan und begrenzte Sicherheiten vereinbaren'
 description: Erstellt nachvollziehbare B2B-Klauseln zu Festpreis oder Aufwand, Rechnungsstellung, Fälligkeit und einer zum Einzelgeschäft passenden Sicherheit. Verwenden bei Pauschalen mit Zusatzleistungen, Vorschüssen, langen Zahlungsfristen, Preisänderungen oder Bürgschaftswünschen; keine umfassende Finanzierungsgestaltung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/preis-zahlung-und-sicherung-vereinbaren

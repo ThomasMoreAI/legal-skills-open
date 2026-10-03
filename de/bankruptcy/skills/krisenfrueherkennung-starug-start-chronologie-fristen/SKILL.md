@@ -1,6 +1,6 @@
 ---
 name: krisenfrueherkennung-starug-start-chronologie-fristen
-title: 1. Krisenmandat sofort belastbar starten
+title: 'Krisenmandat sofort belastbar starten'
 description: Startet ein Krisen- oder Restrukturierungsmandat ohne Leerlauf, wertet vorhandene Unterlagen zuerst aus und trennt Zahlungsunfähigkeit, Überschuldung, drohende Zahlungsunfähigkeit, Frühwarnpflicht und gerichtliche Instrumente.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/start-chronologie-fristen

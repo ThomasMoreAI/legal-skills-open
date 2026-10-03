@@ -1,6 +1,6 @@
 ---
 name: betrieb-gewerbeanzeige-und-berufsabgrenzung
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft für einen Berliner Betrieb Gewerbeanzeige, Betreiberwechsel und die Abgrenzung…'
 description: Prüft für einen Berliner Betrieb Gewerbeanzeige, Betreiberwechsel und die Abgrenzung ärztlicher Berufsausübung vom Gewerbe. Erstellt Tätigkeitsbeschreibung, Anzeigevorbereitung und begründete Behördenanfrage bei unklarer Einordnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-gewerbeanzeige-und-berufsabgrenzung

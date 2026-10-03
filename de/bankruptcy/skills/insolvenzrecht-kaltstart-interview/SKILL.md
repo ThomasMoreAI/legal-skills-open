@@ -1,6 +1,6 @@
 ---
 name: insolvenzrecht-kaltstart-interview
-title: /insolvenzrecht:kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /insolvenzrecht:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzrecht/skills/kaltstart-interview

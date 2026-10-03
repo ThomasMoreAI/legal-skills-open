@@ -1,6 +1,6 @@
 ---
 name: behandlungsfolgen-haushalt-pflege-abgleich
-title: 1. Zweck und Anwendungsfall
+title: 'Berechnet nach einem behaupteten Behandlungsfehler Haushaltsführungs- und…'
 description: Berechnet nach einem behaupteten Behandlungsfehler Haushaltsführungs- und Pflegemehrbedarf zeitabschnittsweise aus Tätigkeiten, Ausfällen und Ersatzleistungen. Trennt Vorerkrankung, Angehörigenhilfe und Sozialleistungsübergang; nicht für Schmerzensgeldtabellen, reine Aufklärung oder Pflegegradeinstufung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-medizinrecht/skills/behandlungsfolgen-haushalt-pflege-abgleich

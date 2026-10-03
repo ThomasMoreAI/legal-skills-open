@@ -1,6 +1,6 @@
 ---
 name: grundschuld-rang-und-loeschung
-title: 1. Zweck und Anwendungsfall
+title: 'Brief- und Buchgrundschuld, Abtretung, Rangänderung, Rückgewähr und Löschungsunterlagen…'
 description: Brief- und Buchgrundschuld, Abtretung, Rangänderung, Rückgewähr und Löschungsunterlagen fallbezogen prüfen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundschuld-rang-und-loeschung

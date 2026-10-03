@@ -1,6 +1,6 @@
 ---
 name: restructuring-starug
-title: 1. Corporate Restructuring mit StaRUG und Insolvenzplan
+title: 'Corporate Restructuring mit StaRUG und Insolvenzplan'
 description: Entscheidet aus Corporate-Sicht zwischen freier Sanierung, StaRUG-Plan und Insolvenzplan.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-kanzlei/skills/restructuring-starug

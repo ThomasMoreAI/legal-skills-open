@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `administrative` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`law-pl-determining-pl-request-regime`](skills/determining-pl-request-regime/) | Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions… |
+| [`Law PL determining PL request regime`](skills/determining-pl-request-regime/) | Use when choosing the Polish legal regime for letters, requests, applications, complaints, petitions… |
 | [`Poland Appeals and Administrative Review`](skills/poland-appeals-review-xopoko/) | Administrative review. Use for a Polish refusal, delay, supplementation request, appeal, or missed… |
 | [`Poland Case Planning`](skills/poland-case-planning-xopoko/) | Case planning. Use when Poland deadlines and multi-step procedures need a transient plan. |
 | [`Poland Civic Participation`](skills/poland-civic-participation-xopoko/) | Civic participation and public information: route voting, voter registration, petitions, consultations… |

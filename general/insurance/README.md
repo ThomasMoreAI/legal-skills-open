@@ -9,7 +9,7 @@ Jurisdiction: `general` · Practice: `insurance` · Skill language: zh
 | Skill | What it does |
 |---|---|
 | [`理赔材料检查助手 - 寿险版`](skills/claims-material-check-life-insurance-assistant/) | 当用户需要对寿险理赔申请资料做结构化受理预审、材料完整性检查、死亡事实与身故原因相关证明核验、申请人和受益人资格资料检查、补件清单整理或受理前问题识别时使用本… |
-| [`compliance-audit-insurance`](skills/compliance-audit-insurance/) | Conduct compliance audits for insurance agencies. TRIGGERS - Use when user needs help with… |
+| [`Compliance audit insurance`](skills/compliance-audit-insurance/) | Conduct compliance audits for insurance agencies. TRIGGERS - Use when user needs help with… |
 | [`责任范围判断助手-身故版`](skills/death-coverage-scope-judgment-assistant/) | 当用户需要判断保险理赔案件中的身故场景是否可能落入保险责任范围、分析身故理赔能不能赔、结合保单和条款判断身故责任是否可能触发、识别等待期自杀条款意外或疾病属性免责争议或评估材料是否足以支持身故责任判断时使用本… |
 
 ## Cold-start context

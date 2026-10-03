@@ -1,6 +1,6 @@
 ---
 name: auslandsurkunde-apostille-vollmacht
-title: 1. Auslandsnachweise für den Urkundenvorgang klären
+title: 'Auslandsnachweise für den Urkundenvorgang klären'
 description: Bereitet ausländische Vollmachten, Genehmigungen und Vertretungsnachweise für notarielle Vorgänge auf. Trennt Echtheitsnachweis, Übersetzung, materiellen Umfang und Registerform und erstellt eine konkrete Nachforderung statt pauschaler Anerkennungszusagen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/auslandsurkunde-apostille-vollmacht

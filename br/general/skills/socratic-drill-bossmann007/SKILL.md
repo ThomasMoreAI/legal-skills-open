@@ -1,11 +1,11 @@
 ---
 name: socratic-drill-bossmann007
-title: /socratic-drill
+title: 'Socratic drill'
 description: Socratic drilling — it asks, you answer, it pushes back. Does NOT give you the answer until you've earned it. Use when the user says "drill me on", "quiz me", "socratic", "test me on [subject]", or wants to study actively.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/socratic-drill
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: general

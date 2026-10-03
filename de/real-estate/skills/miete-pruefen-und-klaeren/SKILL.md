@@ -1,6 +1,6 @@
 ---
 name: miete-pruefen-und-klaeren
-title: 1. Miethöhe prüfen und sachlich klären
+title: 'Miethöhe prüfen und sachlich klären'
 description: Führt Mieter und Vermieter vom vorhandenen Mietvertrag zum nachvollziehbaren Mietvergleich und passenden Klärungsschreiben. Unterscheidet Anfangsmiete, laufende Miete und Sondermodelle, ohne Streit oder eine automatische Mietänderung auszulösen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietchecker/skills/miete-pruefen-und-klaeren

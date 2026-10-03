@@ -1,6 +1,6 @@
 ---
 name: berlin-erziehung-ordnungsmassnahmen
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Tadel, Erziehungsmaßnahmen, schriftlichen Verweis und Unterrichtsausschluss aus…'
 description: Berliner Tadel, Erziehungsmaßnahmen, schriftlichen Verweis und Unterrichtsausschluss aus Eltern- und Schülersicht prüfen und Stellungnahme oder Rechtsbehelf ausformulieren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-erziehung-ordnungsmassnahmen

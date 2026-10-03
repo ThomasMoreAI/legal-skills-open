@@ -1,6 +1,6 @@
 ---
 name: datenschutzanfrage-und-dienstleister-pruefen
-title: 1. Datenschutzanfrage und Dienstleister prüfen
+title: 'Datenschutzanfrage und Dienstleister prüfen'
 description: Bearbeitet eine konkrete Betroffenenanfrage oder den Datenzugang bei einem Dienstleister bis zum Antwortschreiben, Herausgabeverlangen oder Vertragsnachtrag. Trennt Auskunft, Datenkopie, vertraglichen Export, Rollenverteilung und Auftragsverarbeitung mit fallbezogenen Fristen und Schutzrechten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/datenschutzanfrage-und-dienstleister-pruefen

@@ -1,6 +1,6 @@
 ---
 name: meinen-sozialfall-starten
-title: 1. Meinen Sozialfall starten
+title: 'Meinen Sozialfall starten'
 description: Beginnt die Bearbeitung des eigenen Sozialrechtsfalls mit vorhandenen Briefen und dem gewünschten Ergebnis. Klärt zuerst drohende Nachteile und Fristen, stellt nur nötige Rückfragen und erstellt den nächsten Antrag oder Antwortentwurf in einfacher Sprache.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/meinen-sozialfall-starten

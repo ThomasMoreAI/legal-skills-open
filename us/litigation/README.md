@@ -75,7 +75,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Court Order Summaries`](skills/court-order-summaries/) | Generates structured summaries of court orders and decisions, extracting obligations, deadlines… |
 | [`CourtListener REST API v4`](skills/courtlistener/) | Search U.S. case law, PACER dockets, judges, oral arguments, and citations via CourtListener REST API… |
 | [`CourtListener API Guide`](skills/courtlistener-api/) | Legal case law database with PACER data and judge profiles |
-| [`/demand-draft`](skills/demand-draft-anthropics/) | Draft a demand letter from a completed intake, gated on a privilege / FRE 408 / waiver / admission… |
+| [`Demand draft`](skills/demand-draft-anthropics/) | Draft a demand letter from a completed intake, gated on a privilege / FRE 408 / waiver / admission… |
 | [`Pre-Suit Demand Letter`](skills/demand-letter/) | Drafts litigation-ready U.S. pre-suit demand letters that function as settlement instruments and… |
 | [`Demand Package Compilation`](skills/demand-package-compilation/) | Compiles pre-suit and settlement demand packages for U.S. commercial litigation plaintiff matters.… |
 | [`Deponent Coaching Guide`](skills/deponent-coaching/) | Generates behavioral coaching materials for deposition witnesses, covering the SHAQ method, golden… |
@@ -134,7 +134,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Jury Instructions`](skills/jury-instructions/) | Drafts complete proposed jury instruction sets for U.S. litigation, including preliminary charges… |
 | [`Request for Jury Trial`](skills/jury-trial-request/) | Drafts a formal Request for Jury Trial invoking Sixth Amendment (criminal) or Seventh Amendment (civil)… |
 | [`Legal Document Handling`](skills/legal-doc-handler/) | Specialized instructions for reading, modifying, and filling PDF legal forms (e.g., California judicial… |
-| [`/legal-hold`](skills/legal-hold-anthropics/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold… |
+| [`Legal hold`](skills/legal-hold-anthropics/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold… |
 | [`Legal Memorandum`](skills/legal-memo/) | Drafts U.S. internal legal memoranda using IRAC structure to analyze issues, synthesize authority… |
 | [`Core competencies`](skills/legal-practice/) | Civil litigation, contract law, legal research methodology, rules of professional conduct, and legal… |
 | [`Core competencies`](skills/legal-research-cite-finder/) | Legal research expertise — auto-activates when locating cases, statutes, and procedural rules for… |

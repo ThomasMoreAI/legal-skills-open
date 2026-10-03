@@ -1,6 +1,6 @@
 ---
 name: sozialrecht-fallaufnahme-routing
-title: 1. Sozialrechtlichen Fall bearbeiten
+title: 'Sozialrechtlichen Fall bearbeiten'
 description: 'Für Master-Routing-Skill der sozialrechtlichen Kanzlei: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-sozialrecht/skills/sozialrecht-fallaufnahme-routing

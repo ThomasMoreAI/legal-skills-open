@@ -1,6 +1,6 @@
 ---
 name: hoai-2-vorplanung-und-varianten-entwickeln
-title: 1. Vergleichbare Vorplanung zur Entscheidung bringen
+title: 'Vergleichbare Vorplanung zur Entscheidung bringen'
 description: Erarbeitet die Gebäude-Vorplanung nach HOAI-Leistungsphase 2 mit vergleichbaren Varianten, Kostenschätzung, Terminen und Fachbeiträgen bis zur Variantenentscheidung. Trennt Vorverhandlung, Bauvoranfrage und Genehmigung. Für phasenweite Vorplanung, nicht für einzelne Rechnungen oder reine Budgetfortschreibung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-2-vorplanung-und-varianten-entwickeln

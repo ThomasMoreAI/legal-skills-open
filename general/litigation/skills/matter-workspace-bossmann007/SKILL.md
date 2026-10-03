@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-bossmann007
-title: /matter-workspace
+title: 'Matter workspace'
 description: Manage matter workspaces for multi-client practices — create, list, switch, close, or detach the active matter. Use when the user wants to create a new matter workspace, switch the active matter, list matters, archive a matter, or work at practice-level only without an active matter.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: general
 practice: litigation

@@ -1,6 +1,6 @@
 ---
 name: track-application-torlyai
-title: /track-application
+title: 'Track application'
 description: '引导用户跟踪已提交的法国申根签证申请 — 在哪查、每个状态什么
 
   含义、何时担心、各阶段做什么。涵盖 TLScontact 追踪器、
@@ -13,7 +13,7 @@ description: '引导用户跟踪已提交的法国申根签证申请 — 在哪�
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/track-application
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

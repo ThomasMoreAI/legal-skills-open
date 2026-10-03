@@ -1,6 +1,6 @@
 ---
 name: nachrang-und-gesellschafterdarlehen-pruefen
-title: 1. Nachrang und Gesellschafterdarlehen prüfen
+title: 'Nachrang und Gesellschafterdarlehen prüfen'
 description: Prüft gesetzliche und vereinbarte Rangstellen sowie Gesellschafterdarlehen mit Sanierungs- und Kleinbeteiligtenprivileg. Verhindert pauschalen Nachrang jeder Gesellschafterforderung und berücksichtigt den besonderen gerichtlichen Anmeldeaufruf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/nachrang-und-gesellschafterdarlehen-pruefen

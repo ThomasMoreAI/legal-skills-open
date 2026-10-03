@@ -1,6 +1,6 @@
 ---
 name: grundstueck-rechte-und-beteiligte-klaeren
-title: 1. Zweck
+title: 'Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und…'
 description: Klärt bei Grundstücksenteignung Flurstücksidentität, Teilflächen, Eigentum, Besitz und Nebenrechte aus Grundbuch, Kataster und Nutzungsverträgen. Erstellt ein belegtes Rechteverzeichnis und konkrete Beteiligtenanschreiben; ersetzt keine Vermessung oder Registerauskunft.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/enteignung-artikel-14/skills/grundstueck-rechte-und-beteiligte-klaeren

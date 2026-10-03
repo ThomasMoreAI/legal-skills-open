@@ -1,11 +1,11 @@
 ---
 name: rito-selector-bossmann007
-title: /rito-selector
+title: 'Rito selector'
 description: 'Decision tree para "qual rito/procedimento para meu caso": juizado especial cível (Lei 9.099/1995, até 40 SM, até 20 SM sem advogado [verified: https://www.planalto.gov.br/ccivil_03/leis/l9099.htm]), juizado especial da Fazenda (Lei 12.153/2009 [verified: https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12153.htm]), procedimento comum (CPC), ação monitória (CPC arts. 700-702 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]), execução de título extrajudicial (CPC art. 784 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]), tutela de urgência/evidência (CPC arts. 300/311 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]). Interview do usuário → recomenda rito + sinaliza requisitos + aponta template. Inclui skeleton breve por rito.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/rito-selector
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

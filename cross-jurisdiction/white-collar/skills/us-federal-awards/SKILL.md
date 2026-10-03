@@ -1,6 +1,6 @@
 ---
 name: us-federal-awards
-title: us-federal-awards
+title: 'Us federal awards'
 description: 'Search U.S. federal spending for free via the official USAspending.gov API - find which US federal contracts and grants a company has received, who receives US government money, award amounts and awarding agencies, recipient UEI/DUNS lookup, and federal awards by NAICS/PSC or period. Use for KYB / due-diligence credibility signals (which US federal contracts or grants has this company won) and for government-contractor lead generation. Trigger on: ''USAspending'', ''US federal contracts'', ''federal awards'', ''government awards'', ''government grants'', ''who receives US government money'', ''federal contractor lookup'', ''find US government contracts'', ''recipient UEI lookup'', ''which federal grants did this company get'', ''DUNS lookup''. USAspending is free and keyless; to resolve the recipient''s corporate record it routes to the free registry skills and the paid regdata actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/us-federal-awards

@@ -1,6 +1,6 @@
 ---
 name: legistik-auftragsaufnahme
-title: 1. Legistischen Auftrag klären und ausführen
+title: 'Legistischen Auftrag klären und ausführen'
 description: 'Für Legistik-Auftragsaufnahme: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/legistik-werkstatt/skills/legistik-auftragsaufnahme

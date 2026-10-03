@@ -1,11 +1,11 @@
 ---
 name: research-start-lawdroidai
-title: /research-start
+title: 'Research start'
 description: Research roadmap for a legal issue — statutory starting points, case law areas, agency guidance, secondary sources (NCLC, Shriver Center, practice manuals), search terms for free research tools (CourtListener, Descrybe, Free Law Project) and paid ones if the office has them. Leads and frameworks, NOT authoritative citations; staff verify and develop everything. Use when a staffer asks where to start researching, wants a research roadmap for an issue, or needs gaps identified in existing research.
 author: lawdroidAI
 author_url: https://github.com/lawdroidAI/legal-aid-plugin/tree/main/skills/research-start
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: general

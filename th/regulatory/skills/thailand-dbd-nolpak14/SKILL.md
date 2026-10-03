@@ -1,11 +1,11 @@
 ---
 name: thailand-dbd-nolpak14
-title: thailand-dbd
+title: 'Thailand dbd'
 description: 'Look up Thai companies for free via the official DBD OpenAPI (Department of Business Development, กรมพัฒนาธุรกิจการค้า) - juristic person profile by 13-digit registration number: NameTH, NameEN, Type, RegisterDate, Status, RegisterCapital, PaidUpCapital, BranchName, structured Address, and Objective (TSIC code). Use for KYB / know-your-business checks, counterparty verification, and Thai company due diligence. Trigger on: ''DBD'', ''Thailand company lookup'', ''check a Thai company'', ''juristic person'', ''Thai company registration'', ''Thai company number'', ''is this Thai company active'', ''กรมพัฒนาธุรกิจการค้า''. The Thailand DBD OpenAPI is free and keyless; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/thailand-dbd
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: th
 practice: regulatory

@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsplanung-einstieg-routing
-title: 1. Liquiditätsauftrag und Prüfungsumfang
+title: 'Liquiditätsauftrag und Prüfungsumfang'
 description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Liquiditätsplanung — Power.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/einstieg-routing

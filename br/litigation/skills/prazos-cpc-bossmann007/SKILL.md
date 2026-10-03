@@ -1,11 +1,11 @@
 ---
 name: prazos-cpc-bossmann007
-title: /prazos-cpc
+title: 'Prazos cpc'
 description: 'Calculadora de prazos em dias úteis (CPC art. 219 [model knowledge — verify]). Computa: feriados forenses, recesso 20/dez–20/jan (art. 220 [verify]), dobra para Fazenda/MP/Defensoria (arts. 180/183/186 [verify]), litisconsortes com procuradores distintos em autos físicos (art. 229 [verify]), suspensão/prorrogação por indisponibilidade de sistema (art. 224 §1º [verify]). Estrutura e explica o cômputo; advogado confirma tabla de feriados para seu tribunal. Parse intimação em: tipo de ato, prazo aplicável, data-limite. Scaffold, não cálculo final (attorney-confirmed only).'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/prazos-cpc
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

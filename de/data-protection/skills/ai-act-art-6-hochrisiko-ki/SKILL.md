@@ -1,6 +1,6 @@
 ---
 name: ai-act-art-6-hochrisiko-ki
-title: 1. Automatisierte Kredit- und Risikobewertung
+title: 'Automatisierte Kredit- und Risikobewertung'
 description: Prüft automatisierte Kreditwürdigkeits- und Risikobewertung nach der Verordnung (EU) 2024/1689 und Artikel 22 DSGVO.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-it-recht/skills/ai-act-art-6-hochrisiko-ki

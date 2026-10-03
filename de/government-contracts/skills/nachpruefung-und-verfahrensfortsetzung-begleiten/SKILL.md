@@ -1,6 +1,6 @@
 ---
 name: nachpruefung-und-verfahrensfortsetzung-begleiten
-title: 1. Nachprüfung und Verfahrensfortsetzung begleiten
+title: 'Nachprüfung und Verfahrensfortsetzung begleiten'
 description: Bereitet die Auftraggeberstellungnahme im vergaberechtlichen Nachprüfungsverfahren und die weitere Verfahrensführung vor. Prüft Zuständigkeit, Rügechronologie, Aktenvorlage, Geheimnisse und Zuschlagssperren einschließlich des Übergangsrechts 2026.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/nachpruefung-und-verfahrensfortsetzung-begleiten

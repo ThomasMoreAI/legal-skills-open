@@ -1,6 +1,6 @@
 ---
 name: dsfa-fuer-ki-systeme-schnittstelle-art-26-kivo
-title: 1. Folgenabschätzung für einen konkreten Systemeinsatz
+title: 'Folgenabschätzung für einen konkreten Systemeinsatz'
 description: Überprüft eine vorhandene Folgenabschätzung bei geänderten Modellen, Datenwegen oder Betroffenengruppen. Prüft verbleibende Datenschutz- und Grundrechterisiken sowie sensible Bias-Daten und liefert einen datierten Änderungsvermerk.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/dsfa-fuer-ki-systeme-schnittstelle-art-26-kivo

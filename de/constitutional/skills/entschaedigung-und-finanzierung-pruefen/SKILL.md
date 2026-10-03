@@ -1,6 +1,6 @@
 ---
 name: entschaedigung-und-finanzierung-pruefen
-title: 1. Zweck und Anwendungsfall
+title: 'Erarbeitet eine Entschädigungs- und Finanzierungsvorlage für Vergesellschaftungen nach…'
 description: Erarbeitet eine Entschädigungs- und Finanzierungsvorlage für Vergesellschaftungen nach Artikel 15 GG. Trennt Unternehmens- und Anlagenwerte, Schulden, Zahlungsempfänger und Liquidität, prüft die Interessenabwägung und formuliert einen konkreten Entschädigungsabschnitt ohne pauschalen Marktwert oder Abschlag.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/entschaedigung-und-finanzierung-pruefen

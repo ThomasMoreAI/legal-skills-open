@@ -1,6 +1,6 @@
 ---
 name: versammlung-mandat-zum-ergebnis
-title: 1. Berliner Versammlungsmandat zum Ergebnis führen
+title: 'Berliner Versammlungsmandat zum Ergebnis führen'
 description: Hauptskill für Berliner Versammlungsmandate von vorhandenen Unterlagen und gezielten Rückfragen bis zur ausformulierten Anzeige, Kooperationsantwort, Beschränkungsprüfung oder dem beauftragten Rechtsbehelf.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-mandat-zum-ergebnis

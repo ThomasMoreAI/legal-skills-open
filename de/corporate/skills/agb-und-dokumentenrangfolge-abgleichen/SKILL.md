@@ -1,6 +1,6 @@
 ---
 name: agb-und-dokumentenrangfolge-abgleichen
-title: 1. AGB und Dokumentenrangfolge abgleichen
+title: 'AGB und Dokumentenrangfolge abgleichen'
 description: Prüft B2B-AGB, tatsächliches Aushandeln und kollidierende Vertragsdokumente und ersetzt widersprüchliche Klauseln durch eine konkrete konsistente Regelung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/agb-und-dokumentenrangfolge-abgleichen

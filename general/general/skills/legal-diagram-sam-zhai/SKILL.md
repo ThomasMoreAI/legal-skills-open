@@ -1,6 +1,6 @@
 ---
 name: legal-diagram-sam-zhai
-title: /legal-diagram
+title: 'Legal diagram'
 description: 'Use when a user needs a legal or legal-adjacent Mermaid diagram from a document, pasted text, matter description, process, timeline, party map, obligation map, corporate structure, funds flow, or compliance workflow. Trigger on: "diagram this contract", "visualise this deal/matter", "map the parties", "create a timeline of events", "make an org chart", "obligation checklist", "export as HTML diagram". Not for general-purpose non-legal diagrams, pure graphic design, image generation, or legal advice.'
 author: Sam Zhai
 author_url: https://github.com/lawve-ai/awesome-legal-skills/tree/main/skills/legal-diagram-sam-zhai

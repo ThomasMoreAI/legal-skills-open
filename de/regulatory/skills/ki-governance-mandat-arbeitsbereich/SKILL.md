@@ -1,6 +1,6 @@
 ---
 name: ki-governance-mandat-arbeitsbereich
-title: /mandat-arbeitsbereich
+title: 'Mandat arbeitsbereich'
 description: 'Für /mandat-arbeitsbereich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/mandat-arbeitsbereich

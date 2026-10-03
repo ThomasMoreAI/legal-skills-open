@@ -1,11 +1,11 @@
 ---
 name: reg-gap-analysis-bossmann007
-title: /reg-gap-analysis
+title: 'Reg gap analysis'
 description: Diff a new AI regulation or guidance against your current governance posture — surfaces gaps, priorities, and a remediation plan with owners and deadlines. Use when an AI regulation moves (or you learn about one you missed), or when user says "new reg just dropped", "does [regulation] affect us", "gap analysis for EU AI Act", "compliance check against [AI law or guidance]", or pastes regulatory text.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ai-governance-legal/skills/reg-gap-analysis
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

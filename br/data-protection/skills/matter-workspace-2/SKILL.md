@@ -1,6 +1,6 @@
 ---
 name: matter-workspace-2
-title: /matter-workspace
+title: 'Matter workspace'
 description: Manage matter workspaces — create, list, switch, close, or detach (practice-level). Keeps one client or engagement's context separate from every other for multi-client practitioners. Use when the user wants to open a new matter, switch matters, list matters, close/archive a matter, or work at practice-level only.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/matter-workspace

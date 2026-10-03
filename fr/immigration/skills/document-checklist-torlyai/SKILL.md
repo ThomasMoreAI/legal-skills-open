@@ -1,6 +1,6 @@
 ---
 name: document-checklist-torlyai
-title: /document-checklist
+title: 'Document checklist'
 description: '根据申请人的目的、家庭组成、担保情况和过往签证记录，生成法国申根签证申请的
 
   个性化文件清单。按章节（身份/目的/财务/保险/住宿/特殊情况）组织成可打印、
@@ -11,7 +11,7 @@ description: '根据申请人的目的、家庭组成、担保情况和过往签
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/document-checklist
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

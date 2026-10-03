@@ -1,6 +1,6 @@
 ---
 name: ehegattenrecht-internationales-art-13-egbgb
-title: 1. Internationale Eheschließung
+title: 'Internationale Eheschließung'
 description: Prüft Zustandekommen, Form und Anerkennung einer Ehe mit Auslandsbezug nach Artikel 13 EGBGB und grenzt Scheidung, Güterrecht, Unterhalt und Versorgungsausgleich ab.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-familienrecht/skills/ehegattenrecht-internationales-art-13-egbgb

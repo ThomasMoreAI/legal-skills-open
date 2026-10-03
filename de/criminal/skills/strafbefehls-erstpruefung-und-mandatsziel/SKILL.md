@@ -1,6 +1,6 @@
 ---
 name: strafbefehls-erstpruefung-und-mandatsziel
-title: 1. Strafbefehl und Verteidigungsziel prüfen
+title: 'Strafbefehl und Verteidigungsziel prüfen'
 description: 'Für Strafbefehls: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Tatbestands- oder Anspruchsmatrix.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strafbefehl-verteidiger/skills/strafbefehls-erstpruefung-und-mandatsziel

@@ -1,11 +1,11 @@
 ---
 name: policy-monitor
-title: /policy-monitor
+title: 'Policy monitor'
 description: Keep the AI policy current with practice — weekly sweep of saved AIAs, triage results, and vendor reviews to find policy drift, or direct query for a proposed new AI practice. Use when user says "policy sweep", "does our AI policy cover this", "we want to start doing X — does the policy need updating", "run the policy monitor", or on a recurring schedule.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/policy-monitor
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

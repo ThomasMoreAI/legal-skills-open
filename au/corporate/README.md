@@ -10,7 +10,7 @@ Jurisdiction: `au` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`australia-abn-lookup`](skills/australia-abn-lookup-nolpak14/) | Look up Australian businesses for free via the official ABN Lookup web services (Australian Business… |
+| [`Australia abn lookup`](skills/australia-abn-lookup-nolpak14/) | Look up Australian businesses for free via the official ABN Lookup web services (Australian Business… |
 
 ## Cold-start context
 

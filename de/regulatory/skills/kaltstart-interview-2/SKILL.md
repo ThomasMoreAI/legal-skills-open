@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview-2
-title: 1. KI-Governance erfassen und konkretisieren
+title: 'KI-Governance erfassen und konkretisieren'
 description: 'Für Erstgespräch digitale Werkzeuge-Governance: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/kaltstart-interview

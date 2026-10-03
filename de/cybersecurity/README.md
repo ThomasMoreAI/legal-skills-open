@@ -54,7 +54,7 @@ Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per ski
 | [`Java Code Signing Zertifikate`](skills/java-code-signing-zertifikate/) | Für Java Code Signing Zertifikate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Joiner Mover Leaver`](skills/joiner-mover-ki-incident-tools-shadow/) | Für Joiner Mover Leaver: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`KI Incident Detection`](skills/ki-incident-detection/) | Für digitale Werkzeuge Incident Detection: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Agentenzugriffe sichern und Vorfälle aufklären`](skills/ki-tools-shadow-it/) | Untersucht unfreigegebene KI-Werkzeuge und Agenten mit Zugriff auf Postfächer, Dateien oder Fachsysteme.… |
+| [`Agentenzugriffe sichern und Vorfälle aufklären`](skills/ki-tools-shadow-it/) | Untersucht unfreigegebene KI-Werkzeuge und Agenten mit Zugriff auf Postfächer, Dateien oder Fachsysteme.… |
 | [`Klassifizierte Informationen`](skills/klassifizierte-informationen/) | Für Klassifizierte Informationen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Kommunikation Presse Kunden`](skills/kommunikation-presse-kunden/) | Für Kommunikation Presse Kunden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Krisenuebung`](skills/krisenuebung-kritis-bsig-leitungserklaerung/) | Für Krisenübung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
@@ -74,7 +74,7 @@ Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per ski
 | [`NIS-2 Betroffenheitscheck`](skills/nis2-betroffenheitscheck/) | Für NIS-2 Betroffenheitscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`BYOD Policy`](skills/nis2-cybersecurity-compliance-byod-policy/) | Für BYOD Policy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Juristischer Argumentationskern - NIS2 Cybersecurity Compliance`](skills/nis2-cybersecurity-compliance-juristischer-argumentationskern/) | Schaltet sich ein, wenn in NIS2 Cybersecurity Compliance ein juristisches Arbeitsprodukt tragfähig… |
-| [`1. Cybersicherheitsauftrag bearbeiten`](skills/nis2-cybersecurity-compliance-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Cybersicherheitsauftrag bearbeiten`](skills/nis2-cybersecurity-compliance-kaltstart-triage/) | Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Redteam Qualitygate`](skills/nis2-cybersecurity-compliance-redteam-qualitygate/) | Für Redteam Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
 | [`NIST Csf Mapping`](skills/nist-csf-mapping/) | Für NIST Csf Mapping: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Notfallkommunikation`](skills/notfallkommunikation/) | Für Notfallkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
@@ -105,7 +105,7 @@ Jurisdiction: `de` · Practice: `cybersecurity` · Skill language varies per ski
 | [`USB Wechseldatentraeger`](skills/usb-wechseldatentraeger/) | Für USB Wechseldatenträger: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Verschluesselung Key Management`](skills/verschluesselung-key-vorfall-krisenstab-vpn/) | Für Verschlüsselung Key Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Vorfall Krisenstab`](skills/vorfall-krisenstab/) | Für Vorfall Krisenstab: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Entscheidung der Geschäftsleitung zur Cybersicherheit vorbereiten`](skills/vorstand-ciso-kaltstart/) | Für Vorstand Ciso Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
+| [`Entscheidung der Geschäftsleitung zur Cybersicherheit vorbereiten`](skills/vorstand-ciso-kaltstart/) | Für Vorstand Ciso Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`VPN Ausland Reisen`](skills/vpn-ausland-reisen/) | Für VPN Ausland Reisen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`Vulnerability Management`](skills/vulnerability-management/) | Für Vulnerability Management: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Prüft WLAN, Gästezugang und Segmentierung.`](skills/wifi-gaestenetz/) | Für Prüft WLAN, Gästezugang und Segmentierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -1,6 +1,6 @@
 ---
 name: entrevista-inicial-betobetico
-title: /entrevista-inicial
+title: 'Entrevista inicial'
 description: Ejecuta la entrevista de configuración inicial del plugin de derecho de familia. Aprende tu práctica y escribe CLAUDE.md a partir de tu tipo de asuntos, posiciones habituales en convenios reguladores y baremos de pensiones. Usar en la primera ejecución, cuando CLAUDE.md no existe o tiene placeholders, o cuando el usuario dice "configura el plugin de familia", "onboarding familia", o quiere re-ejecutar.
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/familia/skills/entrevista-inicial

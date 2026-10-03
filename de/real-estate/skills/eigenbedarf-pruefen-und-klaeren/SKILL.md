@@ -1,6 +1,6 @@
 ---
 name: eigenbedarf-pruefen-und-klaeren
-title: 1. Eigenbedarf prüfen und sachlich klären
+title: 'Eigenbedarf prüfen und sachlich klären'
 description: Prüft eine geplante oder erhaltene Eigenbedarfskündigung für Mieter und Vermieter. Führt von Mietvertrag und Kündigung über Bedarf, Sperrfrist und Härte zum konkreten Schreiben oder Einigungsvorschlag, ohne einen Räumungsstreit vorauszusetzen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/eigenbedarf-pruefen-und-klaeren

@@ -1,6 +1,6 @@
 ---
 name: calculating-alimenty
-title: law-pl-calculating-alimenty
+title: 'Law PL calculating alimenty'
 description: Use when determining the amount of alimony under Polish KRO — calculating justified needs of the entitled person vs. earning/property capacity of the obligor (art. 135 KRO), applying equal-standard-of-living principle, setting up documentary evidence, drafting interim security motions under art. 754¹ KPC, or coordinating with the Fundusz Alimentacyjny when enforcement fails
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-calculating-alimenty

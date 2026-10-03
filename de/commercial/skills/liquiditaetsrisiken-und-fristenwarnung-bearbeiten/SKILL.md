@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsrisiken-und-fristenwarnung-bearbeiten
-title: 1. Liquiditätswarnung und dringenden Fristsicherungsbedarf begründen
+title: 'Liquiditätswarnung und dringenden Fristsicherungsbedarf begründen'
 description: Erstellt aus konkreten Unternehmensdaten eine eng begrenzte Liquiditäts- und Fristenwarnung mit Sicherungsbedarf und Leitungsschreiben. Trennt objektive Zahlungsunfähigkeit, drohende Zahlungsunfähigkeit und Überschuldung; kein Sanierungsgutachten, keine Insolvenzantragsausführung und keine persönliche Haftungsfreistellung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/liquiditaetsrisiken-und-fristenwarnung-bearbeiten

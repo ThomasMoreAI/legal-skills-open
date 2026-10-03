@@ -1,6 +1,6 @@
 ---
 name: versammlung-leitung-ordner-und-teilnahme
-title: 1. Leitung, Ordner und Teilnahme organisieren
+title: 'Leitung, Ordner und Teilnahme organisieren'
 description: Formulieren Sie eine rechtssichere Leitungs- und Ordnerunterweisung oder prüfen Sie einen Teilnehmendenausschluss bei Berliner Versammlungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-leitung-ordner-und-teilnahme

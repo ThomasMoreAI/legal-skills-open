@@ -1,6 +1,6 @@
 ---
 name: vergleich-und-abwicklung-vereinbaren
-title: 1. Vergleich und Abwicklung vereinbaren
+title: 'Vergleich und Abwicklung vereinbaren'
 description: Entwickelt aus einer belegten Streitlage einen bezifferten Vergleich und formuliert Zahlung, Leistung, Rückgabe, Kosten und Erledigung vollständig. Prüft Vertretung, Form, Titelwirkung und Folgen verspäteter Erfüllung, ohne eine Einigung oder einen Verzicht eigenmächtig zu erklären.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/vergleich-und-abwicklung-vereinbaren

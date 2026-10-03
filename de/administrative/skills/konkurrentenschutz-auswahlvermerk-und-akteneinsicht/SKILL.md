@@ -1,6 +1,6 @@
 ---
 name: konkurrentenschutz-auswahlvermerk-und-akteneinsicht
-title: konkurrentenschutz-auswahlvermerk-und-akteneinsicht
+title: 'Konkurrentenschutz auswahlvermerk und akteneinsicht'
 description: 'Für konkurrentenschutz-auswahlvermerk-und-akteneinsicht: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/konkurrentenschutz-auswahlvermerk-und-akteneinsicht

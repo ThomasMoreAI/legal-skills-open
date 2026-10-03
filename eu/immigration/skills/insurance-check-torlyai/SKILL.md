@@ -1,6 +1,6 @@
 ---
 name: insurance-check-torlyai
-title: /insurance-check
+title: 'Insurance check'
 description: 'Verifies a travel insurance certificate meets Schengen visa
 
   requirements. Checks coverage amount (≥€30,000 medical, in EUR),
@@ -21,7 +21,7 @@ description: 'Verifies a travel insurance certificate meets Schengen visa
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/insurance-check
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: eu
 practice: immigration

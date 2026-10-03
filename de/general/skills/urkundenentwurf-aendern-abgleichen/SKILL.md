@@ -1,6 +1,6 @@
 ---
 name: urkundenentwurf-aendern-abgleichen
-title: 1. Urkundenentwurf ändern und Fassungen abgleichen
+title: 'Urkundenentwurf ändern und Fassungen abgleichen'
 description: Arbeitet Mandantenkorrekturen in notarielle Entwürfe ein, gleicht Urkunde und Anlagen ab und trennt Entwurfsänderung, offensichtliche Unrichtigkeit und nachträgliche Vertragsänderung. Liefert bereinigte Fassung und gezielte Vorlage an den Notar.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/urkundenentwurf-aendern-abgleichen

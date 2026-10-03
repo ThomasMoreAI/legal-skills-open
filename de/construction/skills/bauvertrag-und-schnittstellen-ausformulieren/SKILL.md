@@ -1,6 +1,6 @@
 ---
 name: bauvertrag-und-schnittstellen-ausformulieren
-title: 1. Bauvertrag und gewerkeübergreifende Schnittstellen ausformulieren
+title: 'Bauvertrag und gewerkeübergreifende Schnittstellen ausformulieren'
 description: Erstellt einen vollständigen Bauvertragsentwurf oder eine beauftragte Schnittstellenvereinbarung aus Angebot, LV, Planstand und Verhandlung. Trennt Leistungsumfang, Planung, Mitwirkung und Vollmacht; keine ungeprüfte Übernahme der VOB/B.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/bauvertrag-und-schnittstellen-ausformulieren

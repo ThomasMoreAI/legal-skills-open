@@ -1,6 +1,6 @@
 ---
 name: juristischen-text-uebertragen
-title: 1. Juristischen Text übertragen
+title: 'Juristischen Text übertragen'
 description: Überträgt juristische Texte in einfache Sprache oder einfache Texte in juristische Standardsprache. Bewahrt Bedingungen, Ausnahmen, Fristen und Rechtsfolgen. Klärt die gewünschte Richtung, ohne fehlende Originalinhalte zu rekonstruieren; führt bei anderem Anliegen zum passenden Arbeitsweg.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/jura-in-einfacher-sprache/skills/juristischen-text-uebertragen

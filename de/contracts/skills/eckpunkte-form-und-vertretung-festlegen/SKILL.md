@@ -1,6 +1,6 @@
 ---
 name: eckpunkte-form-und-vertretung-festlegen
-title: 1. Geschäftseckpunkte und wirksame Vertretung vertraglich festlegen
+title: 'Geschäftseckpunkte und wirksame Vertretung vertraglich festlegen'
 description: Verdichtet die Eckpunkte eines einzelnen B2B-Geschäfts zu einem verwendbaren Vertragsanfang oder Term Sheet und klärt Bindungsstand, Vertragstyp, Form und Vertretung. Verwenden, wenn Preis und Leistung greifbar sind, aber Vertragspartner, Abschlussmechanik oder Zeichnungsbefugnis die Ausformulierung bestimmen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/eckpunkte-form-und-vertretung-festlegen

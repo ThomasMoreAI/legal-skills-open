@@ -1,6 +1,6 @@
 ---
 name: berlin-rechtsbehelfe-eilrechtsschutz
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner schul- und kitarechtliche Beschwerden, Widerspruch, Klage sowie Paragrafen 80…'
 description: Berliner schul- und kitarechtliche Beschwerden, Widerspruch, Klage sowie Paragrafen 80 und 123 VwGO nach Entscheidungsart, Zugang und konkretem Ziel trennen und ausarbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-rechtsbehelfe-eilrechtsschutz

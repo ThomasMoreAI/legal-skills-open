@@ -1,11 +1,11 @@
 ---
 name: leave-tracker-zhou210712
-title: /leave-tracker
+title: 'Leave tracker'
 description: 检查进行中的假期，获取截止日期预警和需要做出的决策。仅呈现 需要采取行动的假期并说明原因——不是状态面板。建议每周运行， 或每当律师需要知道哪些假期有即将到来的审批、证明或到期截止时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/employment-legal/skills/leave-tracker
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: employment

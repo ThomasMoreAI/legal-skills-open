@@ -1,6 +1,6 @@
 ---
 name: familiennachzug-haushaltsprognose-belegabgleich
-title: 1. Haushaltsprognose beim Familiennachzug
+title: 'Haushaltsprognose beim Familiennachzug'
 description: Erstellt beim Familiennachzug zu Drittstaatsangehörigen eine beleggestützte Lebensunterhaltsprognose mit Haushaltsbedarf, schwankendem Einkommen und Krankenversicherung. Für streitige Bedarfsrechnungen, nicht für Asylschutz, Einbürgerung oder eine isolierte Sprachprüfung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-migrationsrecht/skills/familiennachzug-haushaltsprognose-belegabgleich

@@ -1,11 +1,11 @@
 ---
 name: written-consent-bossmann007
-title: /written-consent
+title: 'Written consent'
 description: Redige deliberação por escrito de sócios (Ltda.) ou do conselho de administração (S.A.) no formato da casa, com busca de precedente no repositório de consentimentos. Trata deliberações multi-matéria, flags de conflito de interesse, exigências legais de forma, e tracker de signatários, com alerta embutido de escopo pra atos relevantes pontuais. Use quando o usuário disser "deliberação por escrito", "consentimento unânime", "aprovação sem reunião", ou descrever ato que precisa de aprovação societária sem reunião presencial.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/corporate-legal/skills/written-consent
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: corporate

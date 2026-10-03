@@ -1,6 +1,6 @@
 ---
 name: haftungsausschluss-haftungsbegrenzung
-title: 1. Haftungsregelung prüfen und ausformulieren
+title: 'Haftungsregelung prüfen und ausformulieren'
 description: Prüft und formuliert Haftungsbegrenzungen für konkrete Verträge. Unterscheidet AGB und Individualabrede, Personen- und Vermögensschäden, Verschuldensgrade und zwingende Haftung; arbeitet geklärte Risikovorgaben in eine vollständige Vertragsklausel ein.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/haftungsausschluss-haftungsbegrenzung

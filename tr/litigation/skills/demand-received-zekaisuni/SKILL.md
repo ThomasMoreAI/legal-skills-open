@@ -1,6 +1,6 @@
 ---
 name: demand-received-zekaisuni
-title: /demand-received
+title: 'Demand received'
 description: Analyze an incoming Turkish ihtarname or demand letter. Extracts parties, claims, deadlines, legal bases, portfolio matches, merits, response options, and next steps, with teblig/KEP/noter proof and attorney-review gates.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/demand-received

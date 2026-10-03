@@ -1,11 +1,11 @@
 ---
 name: invention-intake-anthropics
-title: /invention-intake
+title: 'Invention intake'
 description: Invention disclosure first-pass screen — novelty, obviousness, §101 eligibility, bar dates, detectability, and strategic value. Use when an invention disclosure comes in and needs triage on whether to pursue a prior-art search and patent counsel review, investigate further, or decline.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ip-legal/skills/invention-intake
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: ip

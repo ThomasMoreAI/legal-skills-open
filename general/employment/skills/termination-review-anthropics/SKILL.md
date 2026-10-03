@@ -1,11 +1,11 @@
 ---
 name: termination-review-anthropics
-title: /termination-review
+title: 'Termination review'
 description: Termination review — high-risk flag detection, severance + release, and final pay timing by jurisdiction. Jurisdiction-specific rules and release consideration periods are researched per review, not stored. Use when the user says "reviewing a termination", "can we fire this person", "term review", or describes a termination scenario.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/termination-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment

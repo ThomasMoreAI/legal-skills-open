@@ -1,11 +1,11 @@
 ---
 name: ai-inventory-anthropics
-title: /ai-inventory
+title: 'AI inventory'
 description: EU AI Act per-system inventory — track each AI system's role (provider, deployer, importer, distributor, authorized representative, product manufacturer) and risk tier (prohibited, high-risk, limited, minimal, GPAI, GPAI+systemic). Role and tier are assessed per system, not per company. Use when the user says "ai inventory", "add an ai system", "what systems do we have", "classify this ai system", "eu ai act register", or "ai system registry".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/ai-inventory
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

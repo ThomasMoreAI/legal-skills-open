@@ -1,6 +1,6 @@
 ---
 name: vollzug-fristen-wiedervorlage
-title: 1. Vollzug, Fristen und Aktenabschluss nachhalten
+title: 'Vollzug, Fristen und Aktenabschluss nachhalten'
 description: 'Führt notarielle Vorgänge nach Entwurf oder Beurkundung weiter: Nachweise, Kaufpreisfälligkeit, Registereingänge, Zwischenverfügungen und offene Vollzugsreste. Aktualisiert nur betroffene Schritte und bereitet Nachforderungen oder Abschlussmitteilungen vor.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/vollzug-fristen-wiedervorlage

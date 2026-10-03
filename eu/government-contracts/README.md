@@ -8,7 +8,7 @@ Jurisdiction: `eu` · Practice: `government-contracts` · Skill language: de
 
 | Skill | What it does |
 |---|---|
-| [`1. Auftragswert und EU-Schwelle`](skills/eu-schwelle-vergabeordnung-richtlinie-2014-24/) | Berechnet den vergaberechtlichen Auftragswert und prüft Schwellenwert, Losbildung und unzulässige Aufteilung. |
+| [`Auftragswert und EU-Schwelle`](skills/eu-schwelle-vergabeordnung-richtlinie-2014-24/) | Berechnet den vergaberechtlichen Auftragswert und prüft Schwellenwert, Losbildung und unzulässige Aufteilung. |
 
 ## Cold-start context
 

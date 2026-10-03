@@ -10,7 +10,7 @@ Jurisdiction: `pl` · Practice: `real-estate` · Skill language: en
 |---|---|
 | [`Poland Housing`](skills/poland-housing-xopoko/) | Housing. Use when Polish tenancy matters. |
 | [`Property Due Diligence - Polish Government Registries`](skills/regdata-property/) | Extract data from Poland's EKW electronic land registry (Elektroniczne Ksiegi Wieczyste) - ownership… |
-| [`law-pl-reviewing-real-estate-contract`](skills/reviewing-real-estate-contract/) | Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW… |
+| [`Law PL reviewing real estate contract`](skills/reviewing-real-estate-contract/) | Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW… |
 
 ## Cold-start context
 

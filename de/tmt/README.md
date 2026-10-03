@@ -21,7 +21,7 @@ Jurisdiction: `de` · Practice: `tmt` · Skill language: de
 | [`Arbeitsschutz und BetrSichV in der Robotik`](skills/arbeitsschutz-betrsichv-robotik/) | Für Arbeitsschutz und BetrSichV in der Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Arbeitswelt Cobot Check`](skills/arbeitswelt-cobot-check/) | Für Arbeitswelt Cobot Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Art. 3 KI-System Robotik`](skills/art-3-ki-system-robotik/) | Für Art. 3 digitale Werkzeuge-System Robotik: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Hochrisikoeinstufung von Roboterfunktionen`](skills/art-6-hochrisiko-robotik/) | Ordnet Roboterfunktionen nach Sicherheitsbezug, Produktregime und konkretem Einsatz ein. Berücksichtigt… |
+| [`Hochrisikoeinstufung von Roboterfunktionen`](skills/art-6-hochrisiko-robotik/) | Ordnet Roboterfunktionen nach Sicherheitsbezug, Produktregime und konkretem Einsatz ein. Berücksichtigt… |
 | [`Autonome Lieferroboter im öffentlichen Raum`](skills/autonome-lieferroboter-oeffentlicher-raum/) | Für Autonome Lieferroboter im öffentlichen Raum: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Barrierefreiheit und Inklusion bei Robotern`](skills/barrierefreiheit-inklusion-batterie/) | Für Barrierefreiheit und Inklusion bei Robotern: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Barrierefreiheit und Inklusion bei Robotern`](skills/barrierefreiheit-und-inklusion-robotik/) | Für Barrierefreiheit und Inklusion bei Robotern: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

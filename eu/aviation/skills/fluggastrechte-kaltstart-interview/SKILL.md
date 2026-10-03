@@ -1,6 +1,6 @@
 ---
 name: fluggastrechte-kaltstart-interview
-title: /fluggastrechte:kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /fluggastrechte:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fluggastrechte/skills/kaltstart-interview

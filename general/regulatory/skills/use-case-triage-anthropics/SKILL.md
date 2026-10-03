@@ -1,6 +1,6 @@
 ---
 name: use-case-triage-anthropics
-title: /use-case-triage
+title: 'Use case triage'
 description: Classify a proposed AI use case against your registry — approved, conditional, or not approved — and produce required conditions and next steps. Flags cross-plugin handoffs to privacy or product counsel. Use when user says "triage this use case", "can we use AI for X", "is this approved", "what do we need to do to use AI for X".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/use-case-triage

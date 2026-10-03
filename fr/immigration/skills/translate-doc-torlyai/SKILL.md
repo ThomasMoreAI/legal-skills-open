@@ -1,6 +1,6 @@
 ---
 name: translate-doc-torlyai
-title: /translate-doc
+title: 'Translate doc'
 description: '关于法国申根签证申请何时需要"认证翻译"的指引 — 接受哪些语言（英文+
 
   法文可直接；其他需认证翻译）、谁能认证（宣誓翻译、ATA 认证、使馆
@@ -13,7 +13,7 @@ description: '关于法国申根签证申请何时需要"认证翻译"的指引 
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/translate-doc
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

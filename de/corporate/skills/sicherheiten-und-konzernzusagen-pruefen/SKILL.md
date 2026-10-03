@@ -1,6 +1,6 @@
 ---
 name: sicherheiten-und-konzernzusagen-pruefen
-title: 1. Sicherheiten und Konzernzusagen prüfen
+title: 'Sicherheiten und Konzernzusagen prüfen'
 description: Prüft und gestaltet begrenzte Sicherheiten, Bürgschaften und Konzernzusagen im Wirtschaftsvertrag mit bestimmtem Sicherungszweck, Form, Laufzeit und Freigabe.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/corporate-contract-law/skills/sicherheiten-und-konzernzusagen-pruefen

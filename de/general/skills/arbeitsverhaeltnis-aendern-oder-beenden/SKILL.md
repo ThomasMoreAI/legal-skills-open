@@ -1,6 +1,6 @@
 ---
 name: arbeitsverhaeltnis-aendern-oder-beenden
-title: 1. Arbeitsverhältnis ändern oder beenden
+title: 'Arbeitsverhältnis ändern oder beenden'
 description: Prüft und formuliert arbeitsrechtliche Änderungen, Kündigungsreaktionen und Beendigungsvereinbarungen aus Arbeitgeber- oder Arbeitnehmerperspektive. Verknüpft Form, Zugang, Klagefrist, Beteiligung, Kündigungsgrund und Abwicklung mit den vorhandenen Vertrags- und Personalunterlagen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/anwaltschaft-generell/skills/arbeitsverhaeltnis-aendern-oder-beenden

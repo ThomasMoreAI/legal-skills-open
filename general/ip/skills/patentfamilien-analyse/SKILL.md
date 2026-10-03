@@ -1,6 +1,6 @@
 ---
 name: patentfamilien-analyse
-title: patentfamilien-analyse
+title: 'Patentfamilien analyse'
 description: 'Für patentfamilien-analyse: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/patentfamilien-analyse

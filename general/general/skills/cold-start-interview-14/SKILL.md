@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-14
-title: /cold-start-interview
+title: 'Cold start interview'
 description: 指导老师的一次性诊所设置——实践领域、管辖地、指导风格（正式审查队列 / 可配置标记 / 较轻触），以及手册/规则上传。写入 CLAUDE.md 使所有其他技能 和每个运行 /ramp 的学生都从相同的诊所背景读取。在新安装、CLAUDE.md 有 占位符、使用 --redo 重新设置或使用 --check-integrations 重新检查集成时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-clinic/skills/cold-start-interview

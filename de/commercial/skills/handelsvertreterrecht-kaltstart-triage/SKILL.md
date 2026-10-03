@@ -1,6 +1,6 @@
 ---
 name: handelsvertreterrecht-kaltstart-triage
-title: 1. Handelsvertretermandat bearbeiten
+title: 'Handelsvertretermandat bearbeiten'
 description: 'Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Handelsvertreterrecht und Vertriebsverträge.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsvertreterrecht/skills/kaltstart-triage

@@ -1,11 +1,11 @@
 ---
 name: skills-qa
-title: /skills-qa
+title: 'Skills qa'
 description: 对照法律技能设计框架评估一个技能——十三个设计参数（包括信任面、新鲜度、 模式验证和冲突检测）、三种法律失败模式、以及三档裁决（就绪 / 某些关切 / 重大关切）。在决定是否信任一个社区技能以安装前、向团队部署第一方技能前、 或当用户问"我该信任这个吗？"或"这个技能设计得好吗？"时使用。 作为 /legal-builder-hub:skill-installer 的一部分自动运行。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/legal-builder-hub/skills/skills-qa
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

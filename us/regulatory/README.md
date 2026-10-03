@@ -23,7 +23,7 @@ Jurisdiction: `us` · Practice: `regulatory` · Skill language: en
 | [`Historic Preservation Law Summary`](skills/historic-preservation-law-summary/) | Produces a structured U.S. historic preservation law summary covering federal, state, and local… |
 | [`FDA Labeling Compliance Review`](skills/labeling-compliance-review/) | Conducts FDA labeling compliance reviews for drugs, foods, dietary supplements, and medical devices.… |
 | [`AI Governance Counsel`](skills/legal-ai-gov-everyone-needs-a-copilot/) | AI Governance and Ethics Counsel for ENAC. Use for AI-assisted consulting disclosures, Colorado AI Act… |
-| [`/marketing-claims-review`](skills/marketing-claims-review/) | Review marketing copy for claims that need substantiation, reframing, or cutting. Use when the user says… |
+| [`Marketing claims review`](skills/marketing-claims-review/) | Review marketing copy for claims that need substantiation, reframing, or cutting. Use when the user says… |
 | [`Recall Plan and Procedure`](skills/recall-plan/) | Drafts FDA product recall plans compliant with 21 CFR Part 7, covering Recall Committee governance… |
 | [`Regulatory Practice`](skills/regulatory/) | Navigates regulatory compliance, government relations, and administrative law across financial services… |
 | [`Regulatory Analysis`](skills/regulatory-analysis/) | Analyzes documents and processes against FINRA, SEC, Federal Reserve, and CFPB regulatory frameworks.… |

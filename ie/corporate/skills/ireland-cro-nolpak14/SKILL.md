@@ -1,11 +1,11 @@
 ---
 name: ireland-cro-nolpak14
-title: ireland-cro
+title: 'Ireland cro'
 description: 'Look up Irish companies for free via the official Companies Registration Office (CRO) Open Services API - company profile, company number, company status (Normal / Dissolved), company type, registered address, annual-return dates, incorporation date, business/trading name, and submission (filing) metadata. Use for KYB / know-your-business checks, counterparty verification, and Irish company due diligence. Trigger on: ''CRO'', ''Companies Registration Office'', ''Ireland company lookup'', ''check an Irish company'', ''Irish company number'', ''CRO company search'', ''is this Irish company dissolved'', ''Irish annual return'', ''CRO filings''. The CRO API is free but needs a manually approved key; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/ireland-cro
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ie
 practice: corporate

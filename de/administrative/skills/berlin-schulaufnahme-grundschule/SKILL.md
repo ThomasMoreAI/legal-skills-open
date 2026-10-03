@@ -1,6 +1,6 @@
 ---
 name: berlin-schulaufnahme-grundschule
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Einschulung, Zurückstellung und Wunschgrundschule aus Eltern- und Kindersicht…'
 description: Berliner Einschulung, Zurückstellung und Wunschgrundschule aus Eltern- und Kindersicht bis zum begründeten Antrag oder zur Überprüfung einer Ablehnung bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-schulaufnahme-grundschule

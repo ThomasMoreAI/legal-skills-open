@@ -1,11 +1,11 @@
 ---
 name: is-this-a-problem
-title: /is-this-a-problem
+title: 'Is this a problem'
 description: Fast "is this a problem?" answer for the quick Slack question — pattern-matches against your calibration. Use when the user says "is this a problem", "quick question", "can we do X", "do I need legal review for", "sanity check", or pastes a PM's question that needs a same-minute fine / needs a look / hold call.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/product-legal/skills/is-this-a-problem
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

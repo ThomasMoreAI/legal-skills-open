@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-28
-title: /matter-workspace
+title: 'Matter workspace'
 description: 管理事项工作空间——新建、列表、切换、关闭或脱钩（实务级）。 当您为多个客户或事项工作、需要创建、列出、切换、关闭或脱钩活跃事项 以防一个委托事项的上下文泄漏到另一个时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/product-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

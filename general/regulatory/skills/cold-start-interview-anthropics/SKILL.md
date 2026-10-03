@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-anthropics
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Run the cold-start interview — learns your AI governance practice and writes `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md` from your AI policy, a reference impact assessment, and key vendor AI agreements. Use when the practice profile is missing or contains `[PLACEHOLDER]` markers, or when user says "set up ai governance plugin", "onboard me", "configure ai governance".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/cold-start-interview

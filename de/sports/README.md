@@ -17,7 +17,7 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Doping Quellenkarte`](skills/doping-quellenkarte/) | Für Doping Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Doping Strafrecht § 4 Anti Dopg`](skills/doping-strafrecht-paragraf-4-anti-dopg/) | Für Doping Strafrecht Paragraf 4 Anti Dopg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Athlet steht vor NADA-Disziplinarverfahren wegen positivem Dopingtest und braucht Verteidigung`](skills/doping-verfahren/) | Für Doping Verfahren: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`/sportrecht:dopingverfahren-verteidigung`](skills/dopingverfahren-verteidigung-borghei/) | Verteidigung der Athletin/des Athleten im sportrechtlichen Dopingverfahren – Anhörung bei NADA… |
+| [`Dopingverfahren verteidigung`](skills/dopingverfahren-verteidigung-borghei/) | Verteidigung der Athletin/des Athleten im sportrechtlichen Dopingverfahren – Anhörung bei NADA… |
 | [`Dosb: Behörden-, Gerichts- oder Registerweg`](skills/dosb-behoerden-gericht-und-registerweg/) | Für Dosb: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`eSports-Organisator oder Verein fragt ob DOSB-Anerkennung möglich und wie steuerliche Gemeinnuetzigkeit erreichbar ist`](skills/esports-vereinsrecht-dosb-anerkennung/) | Für Esports Vereinsrecht Dosb Anerkennung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Anschluss-Routing`](skills/fachanwalt-sportrecht-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
@@ -45,7 +45,7 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Fristen- und Risikoampel`](skills/fachanwalt-sportrecht-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Kaltstart und Routing`](skills/fachanwalt-sportrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Fifa: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/fifa-dokumentenmatrix-und-lueckenliste/) | Für Fifa: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
-| [`1. Fußballtransfer und Vertragsbeendigung`](skills/fussballtransfer-vertragsbruch-und-rstp/) | Bearbeitet internationale Fußballtransfers mit vorzeitiger Vertragsbeendigung, Entschädigung… |
+| [`Fußballtransfer und Vertragsbeendigung`](skills/fussballtransfer-vertragsbruch-und-rstp/) | Bearbeitet internationale Fußballtransfers mit vorzeitiger Vertragsbeendigung, Entschädigung… |
 | [`Gesellschaftsrecht: Beweislast, Darlegungslast und Substantiierung`](skills/gesellschaftsrecht-beweislast-und-darlegungslast/) | Für Gesellschaftsrecht: Beweislast, Darlegungslast und Substantiierung: ordnet Norm, Beweislast und… |
 | [`Mandat: Abschlussprodukt und Übergabe`](skills/mandat-abschlussprodukt-und-uebergabe/) | Für Mandat: Abschlussprodukt und Übergabe: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Persoenlichkeitsrechte: Formular, Portal und Einreichungslogik`](skills/persoenlichkeitsrechte-formular-portal-und-einreichung/) | Für Persönlichkeitsrechte: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und… |
@@ -53,7 +53,7 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Schiedsverfahren: Schriftsatz-, Brief- und Memo-Bausteine`](skills/schiedsverfahren-schriftsatz-brief-und-memo-bausteine/) | Für Schiedsverfahren: Schriftsatz-, Brief- und Memo-Bausteine: erstellt Entwurf mit Antrag, Beweis und… |
 | [`Doping: Livequellen- und Rechtsprechungscheck`](skills/spezial-doping-livequellen-und-rechtsprechungscheck/) | Für Doping: Livequellen- und Rechtsprechungscheck: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Veranstalterhaftung: Red-Team und Qualitätskontrolle`](skills/spezial-veranstalterhaftung-red-team-und-qualitaetskontr/) | Für Veranstalterhaftung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition… |
-| [`1. Einsatzschwelle, Option und Prämien`](skills/spielereinsaetze-optionsschwelle-praemienbeweis/) | Prüft einsatzabhängige Vertragsverlängerung und Prämien im deutschen Profifußball anhand von… |
+| [`Einsatzschwelle, Option und Prämien`](skills/spielereinsaetze-optionsschwelle-praemienbeweis/) | Prüft einsatzabhängige Vertragsverlängerung und Prämien im deutschen Profifußball anhand von… |
 | [`Spielervertraege: Verhandlung, Vergleich und Eskalation`](skills/spielervertraege-verhandlung-vergleich-und-eskalation/) | Für Spielerverträge: Verhandlung, Vergleich und Eskalation: entwickelt Ziel, Vergleich und Eskalation… |
 | [`Fachanwalt Sportrecht Spielervertrag: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung zu e`](skills/spielervertrag/) | Für Spielervertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Sponsoring: Internationaler Bezug und Schnittstellen`](skills/sponsoring-internationaler-bezug-und-schnittstellen/) | Für Sponsoring: Internationaler Bezug und Schnittstellen: ordnet Norm, Beweislast und Gegenargument… |
@@ -74,7 +74,7 @@ Jurisdiction: `de` · Practice: `sports` · Skill language varies per skill.
 | [`Uefa: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/uefa-risikoampel-und-gegenargumente/) | Für Uefa: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Veranstalterhaftung Fehlerkatalog`](skills/veranstalterhaftung-fehlerkatalog/) | Für Veranstalterhaftung Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Verbandsrecht: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/verbandsrecht-fristen-form-und-zustaendigkeit/) | Für Verbandsrecht: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und… |
-| [`/sportrecht:vereinsrechtliche-sanktion`](skills/vereinsrechtliche-sanktion/) | Anfechtung sportrechtlicher Vereins- und Verbandssanktionen – Vereinsausschluss (BGB §§ 25, 39)… |
+| [`Vereinsrechtliche sanktion`](skills/vereinsrechtliche-sanktion/) | Anfechtung sportrechtlicher Vereins- und Verbandssanktionen – Vereinsausschluss (BGB §§ 25, 39)… |
 | [`Fachanwalt Sportrecht Vereinsstrafrecht: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung z`](skills/vereinsstrafrecht/) | Für Vereinsstrafrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Wada: Zahlen, Schwellenwerte und Berechnung`](skills/wada-zahlen-schwellen-und-berechnung/) | Für Wada: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten; Ergebnis… |
 | [`Zuschauerhaftung § 9a Veranstg`](skills/zuschauerhaftung-paragraf-9a-veranstg/) | Für Zuschauerhaftung Paragraf 9a Veranstg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

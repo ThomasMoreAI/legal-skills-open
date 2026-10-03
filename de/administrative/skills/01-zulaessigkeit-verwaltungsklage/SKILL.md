@@ -1,6 +1,6 @@
 ---
 name: 01-zulaessigkeit-verwaltungsklage
-title: 1. Zulässigkeit der Verwaltungsklage
+title: 'Zulässigkeit der Verwaltungsklage'
 description: 'Für 01 Zulässigkeit Verwaltungsklage: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-verwaltungsgericht/skills/01-zulaessigkeit-verwaltungsklage

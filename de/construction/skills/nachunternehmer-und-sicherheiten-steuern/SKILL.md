@@ -1,6 +1,6 @@
 ---
 name: nachunternehmer-und-sicherheiten-steuern
-title: 1. Nachunternehmerleistung und Sicherheiten nachvollziehbar steuern
+title: 'Nachunternehmerleistung und Sicherheiten nachvollziehbar steuern'
 description: Erstellt einen nachunternehmerbezogenen Leistungs-, Nachweis- und Sicherheitenstand mit konkreter Anforderung oder Rückgabeentscheidung. Trennt Vertragserfüllung, Mängelsicherheit und Bauhandwerkersicherung; keine pauschale Sicherheitsquote.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/nachunternehmer-und-sicherheiten-steuern

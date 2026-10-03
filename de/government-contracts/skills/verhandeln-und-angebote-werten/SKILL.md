@@ -1,6 +1,6 @@
 ---
 name: verhandeln-und-angebote-werten
-title: 1. Verhandeln und Angebote werten
+title: 'Verhandeln und Angebote werten'
 description: Führt zulässige Verhandlungsschritte und die belegte Wertung einer Sektorenvergabe zusammen. Prüft Konzeptqualität, Preisrechnung und ungewöhnlich niedrige Angebote und erstellt einen begründeten Zuschlagsvorschlag ohne nachträgliche Kriterienverschiebung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/verhandeln-und-angebote-werten

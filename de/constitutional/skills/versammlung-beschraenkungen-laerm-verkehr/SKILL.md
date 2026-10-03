@@ -1,6 +1,6 @@
 ---
 name: versammlung-beschraenkungen-laerm-verkehr
-title: 1. Beschränkungen, Lärm und Verkehr prüfen
+title: 'Beschränkungen, Lärm und Verkehr prüfen'
 description: Bearbeiten Sie Routenauflagen, Zeitgrenzen, Lautsprecherbeschränkungen und Verkehrsbelange einer Berliner Versammlung mit konkreter Gegenprognose.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-beschraenkungen-laerm-verkehr

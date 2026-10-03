@@ -1,11 +1,11 @@
 ---
 name: client-comms-log-anthropics
-title: /client-comms-log
+title: 'Client comms log'
 description: Log a client communication — call, email, text, letter, in-person, voicemail. Append-only per-case record with dated entries, direction, medium, summary, action items. Works alongside /client-letter and /status client. Use when logging a call or client email, reviewing a communication log, or asking "what did we tell [client] last time".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/client-comms-log
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

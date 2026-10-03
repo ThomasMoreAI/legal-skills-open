@@ -1,6 +1,6 @@
 ---
 name: baubuchhaltung-und-belege-abgleichen
-title: 1. Bauprojektbelege mit Buchhaltung und Bank abgleichen
+title: 'Bauprojektbelege mit Buchhaltung und Bank abgleichen'
 description: Gleicht Rechnungen, Gutschriften, Buchungen, offene Posten und Bankbewegungen im Bauunternehmen ab und erstellt nachvollziehbare Korrekturvorschläge. Trennt Leistungsprüfung, Umsatzsteuer und Bauabzugsteuer; keine stille Änderung des Hauptbuchs.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/baubuchhaltung-und-belege-abgleichen

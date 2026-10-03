@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-urheber-medienrecht-workflow-kaltstart-und-routing
-title: 1. Urheber- und Medienrechtsauftrag bearbeiten
+title: 'Urheber- und Medienrechtsauftrag bearbeiten'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Fachanwalt Urheber Medienrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-urheber-medienrecht/skills/workflow-kaltstart-und-routing

@@ -1,6 +1,6 @@
 ---
 name: eingangsdaten-idw-s6-liqp
-title: 1. Liqui Eingangsdaten IDW S6 Liqp
+title: 'Liqui Eingangsdaten IDW S6 Liqp'
 description: 'Für Liqui Eingangsdaten IDW S6 Liqp: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/eingangsdaten-idw-s6-liqp

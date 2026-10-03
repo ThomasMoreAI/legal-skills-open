@@ -1,6 +1,6 @@
 ---
 name: reg-feed-watcher-anthropics
-title: /reg-feed-watcher
+title: 'Reg feed watcher'
 description: Check regulatory feeds now and report what's new since the last check, filtered by your materiality threshold. Use when the user says "check the feeds", "what's new", "regulatory update", when running from the scheduled agent, or when manually pasting a regulatory development for classification and diff.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/regulatory-legal/skills/reg-feed-watcher

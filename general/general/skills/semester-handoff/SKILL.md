@@ -1,11 +1,11 @@
 ---
 name: semester-handoff
-title: /semester-handoff
+title: 'Semester handoff'
 description: End-of-semester case handoff memos — the mirror of /ramp. Produces per-case transition memos and a cohort summary so the departing cohort hands work to the incoming cohort cleanly. Reads deadlines, client-comms, and case history. Use when the professor or departing students need to wrap up the semester, build transition memos, or offboard a graduating/withdrawing student.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/semester-handoff
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

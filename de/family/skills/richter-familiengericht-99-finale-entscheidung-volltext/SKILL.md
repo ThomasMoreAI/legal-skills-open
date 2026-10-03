@@ -1,6 +1,6 @@
 ---
 name: richter-familiengericht-99-finale-entscheidung-volltext
-title: 1. Familiengerichtlichen Beschluss vollständig ausarbeiten
+title: 'Familiengerichtlichen Beschluss vollständig ausarbeiten'
 description: 'Für Finale Entscheidung als Volltext (Beschluss Familiengericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-familiengericht/skills/99-finale-entscheidung-volltext

@@ -1,11 +1,11 @@
 ---
 name: demand-intake-zekaisuni
-title: /demand-intake
+title: 'Demand intake'
 description: Intake for a Turkish ihtarname / demand-letter workflow. Collects parties, facts, legal basis, requested action, evidence, posture, deadline, notice method, mediation/settlement context, and risk gates before drafting.
 author: ZekaiSuni
 author_url: https://github.com/ZekaiSuni/claude-for-legal-turkish/tree/main/litigation-legal/skills/demand-intake
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: litigation

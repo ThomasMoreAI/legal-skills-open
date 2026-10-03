@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-sanktionsscreening
-title: 1. Sanktionshinweis belastbar prüfen
+title: 'Sanktionshinweis belastbar prüfen'
 description: Bearbeitet konkrete Sanktionsnamens- und Kontrolltreffer. Prüft Identität, Eigentum, Rechtsakt und Bereitstellungsverbot und trennt echte Sperren von Namensgleichheit, PEP-Hinweisen und Geldwäsche-Wartefristen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-sanktionsscreening

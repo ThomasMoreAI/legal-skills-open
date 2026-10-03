@@ -1,6 +1,6 @@
 ---
 name: formweg-beurkundung-beglaubigung
-title: 1. Beurkundung und Beglaubigung sicher vorbereiten
+title: 'Beurkundung und Beglaubigung sicher vorbereiten'
 description: 'Ordnet für die Notariatsmitarbeiter jede konkrete Erklärung dem passenden Formweg zu: Beurkundung, Unterschriftsbeglaubigung, Abschriftsbeglaubigung oder einfache Beschlussfassung. Bereitet Termin, Nachweise und getrennte Registerunterlagen vor.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/formweg-beurkundung-beglaubigung

@@ -1,6 +1,6 @@
 ---
 name: kaltstart-interview-9
-title: /arbeitsrecht:kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /arbeitsrecht:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/arbeitsrecht/skills/kaltstart-interview

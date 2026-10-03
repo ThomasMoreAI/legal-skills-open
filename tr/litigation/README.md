@@ -8,15 +8,15 @@ Jurisdiction: `tr` · Practice: `litigation` · Skill language: tr
 
 | Skill | What it does |
 |---|---|
-| [`/brief-section-drafter`](skills/brief-section-drafter-zekaisuni/) | Draft Turkish petition sections, such as maddi vakıalar, hukuki nedenler, deliller, usuli itirazlar… |
+| [`Brief section drafter`](skills/brief-section-drafter-zekaisuni/) | Draft Turkish petition sections, such as maddi vakıalar, hukuki nedenler, deliller, usuli itirazlar… |
 | [`/chronology`](skills/chronology-zekaisuni/) | Build or update a Turkish litigation chronology from declared sources and uploads. Extracts dated… |
-| [`/claim-chart`](skills/claim-chart-zekaisuni/) | Build or review an element chart. In patent matters, maps patent claim elements to accused products… |
-| [`/cold-start-interview`](skills/cold-start-interview-zekaisuni/) | Cold-start interview for the litigation plugin, adapted for Turkish law and practice. Builds the… |
-| [`/demand-draft`](skills/demand-draft-zekaisuni/) | Draft a Turkish ihtarname from a completed demand-intake file. Applies mesleki sır, admission/waiver… |
-| [`/demand-intake`](skills/demand-intake-zekaisuni/) | Intake for a Turkish ihtarname / demand-letter workflow. Collects parties, facts, legal basis, requested… |
-| [`/demand-received`](skills/demand-received-zekaisuni/) | Analyze an incoming Turkish ihtarname or demand letter. Extracts parties, claims, deadlines, legal… |
+| [`Claim chart`](skills/claim-chart-zekaisuni/) | Build or review an element chart. In patent matters, maps patent claim elements to accused products… |
+| [`Cold start interview`](skills/cold-start-interview-zekaisuni/) | Cold-start interview for the litigation plugin, adapted for Turkish law and practice. Builds the… |
+| [`Demand draft`](skills/demand-draft-zekaisuni/) | Draft a Turkish ihtarname from a completed demand-intake file. Applies mesleki sır, admission/waiver… |
+| [`Demand intake`](skills/demand-intake-zekaisuni/) | Intake for a Turkish ihtarname / demand-letter workflow. Collects parties, facts, legal basis, requested… |
+| [`Demand received`](skills/demand-received-zekaisuni/) | Analyze an incoming Turkish ihtarname or demand letter. Extracts parties, claims, deadlines, legal… |
 | [`/deposition-prep (İsticvap / Tanık Hazırlığı)`](skills/deposition-prep-zekaisuni/) | Bir tanık veya taraf (isticvap) için duruşma/ifade soru taslağı (outline) hazırlar — şirket içi… |
-| [`/legal-hold`](skills/legal-hold-zekaisuni/) | Şirket içi kayıt/delil muhafaza talimatı yayımlar, yeniler, kaldırır veya raporlar — .docx formatında iç… |
+| [`Legal hold`](skills/legal-hold-zekaisuni/) | Şirket içi kayıt/delil muhafaza talimatı yayımlar, yeniler, kaldırır veya raporlar — .docx formatında iç… |
 | [`/matter-intake (Uyuşmazlık Kaydı)`](skills/matter-intake-zekaisuni/) | Yeni bir uyuşmazlık dosyası açar — taraf tespiti, menfaat çatışması, arabuluculuk/dava şartı durumu… |
 | [`/portfolio-status (Portföy ve Dosya Durumu)`](skills/portfolio-status-zekaisuni/) | _log.yaml dosyasından portföy/dava özetini çıkarır — risk dağılımı, yaklaşan kesin süreler/duruşmalar… |
 | [`/privilege-log-review (Gizlilik ve Sır Saklama İncelemesi)`](skills/privilege-log-review-zekaisuni/) | Sır saklama ve gizlilik (privilege) incelemesi — mahkemeye, savcılığa veya Rekabet Kurumu'na sunulacak… |

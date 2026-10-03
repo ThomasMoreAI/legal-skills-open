@@ -1,6 +1,6 @@
 ---
 name: steuerrecht-anwalt-und-berater-kaltstart-triage
-title: 1. Steuerauftrag aufnehmen und bis zum Dokument bearbeiten
+title: 'Steuerauftrag aufnehmen und bis zum Dokument bearbeiten'
 description: 'Für Kaltstart Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Steuerrecht – Steuerberater und Anwälte.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/kaltstart-triage

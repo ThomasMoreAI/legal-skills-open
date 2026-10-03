@@ -1,6 +1,6 @@
 ---
 name: bank-statement-check-torlyai
-title: /bank-statement-check
+title: 'Bank statement check'
 description: '审查银行流水的申根签证申请充足性和格式。核实流水：(1) 覆盖最近
 
   3 个月，(2) 显示申请人全名+地址，(3) 显示足够出行的余额，
@@ -13,7 +13,7 @@ description: '审查银行流水的申根签证申请充足性和格式。核实
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/bank-statement-check
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

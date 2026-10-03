@@ -1,6 +1,6 @@
 ---
 name: anfangsvermoegen-schulden-und-indexierung
-title: 1. Anfangsvermögen, Schulden und Indexierung
+title: 'Anfangsvermögen, Schulden und Indexierung'
 description: Rekonstruiert Anfangsvermögen und Anfangsschulden zum Güterstandsbeginn, prüft Beweislast und amtliche Indexierung und liefert den begründeten Ansatz für die Zugewinnrechnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/anfangsvermoegen-schulden-und-indexierung

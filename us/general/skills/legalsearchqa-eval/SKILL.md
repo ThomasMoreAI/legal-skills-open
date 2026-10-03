@@ -1,11 +1,11 @@
 ---
 name: legalsearchqa-eval
-title: legalsearchqa-eval
+title: 'Legalsearchqa eval'
 description: Evaluates a system's ability to retrieve up-to-date legal information from external sources and reason over it to answer multiple-choice legal questions. It probes factual accuracy, uncertainty calibration, and evidence grounding in dynamic legal domains like federal executive orders and tax provisions. Use when the user wants to benchmark on LegalSearchQA, or asks about evaluating this task. Reports Accuracy.
 author: qhjqhj00
 author_url: https://github.com/qhjqhj00/research-skills-pool/tree/master/skill-factory/output/legalsearchqa-eval
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: general

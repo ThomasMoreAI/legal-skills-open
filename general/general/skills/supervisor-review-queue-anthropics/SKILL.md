@@ -1,6 +1,6 @@
 ---
 name: supervisor-review-queue-anthropics
-title: /supervisor-review-queue
+title: 'Supervisor review queue'
 description: Professor's review queue — student output waits here for professor approval before going to clients or courts. Only active if "formal review queue" supervision style was chosen at setup; otherwise dormant. Use when the professor wants to see what's waiting for review, approve, edit-then-approve, or return an item.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/supervisor-review-queue

@@ -1,6 +1,6 @@
 ---
 name: vorstand-ciso-kaltstart
-title: 1. Entscheidung der Geschäftsleitung zur Cybersicherheit vorbereiten
+title: 'Entscheidung der Geschäftsleitung zur Cybersicherheit vorbereiten'
 description: 'Für Vorstand Ciso Kaltstart: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/nis2-cybersecurity-compliance/skills/vorstand-ciso-kaltstart

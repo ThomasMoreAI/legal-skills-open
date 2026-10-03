@@ -1,6 +1,6 @@
 ---
 name: versammlung-gegenversammlung-und-kollision
-title: 1. Gegenversammlung und Kollision ausgleichen
+title: 'Gegenversammlung und Kollision ausgleichen'
 description: Sichern Sie friedlichen Gegenprotest und prüfen Sie räumliche Konflikte, Drittgefahren und Schutzpflichten nach Berliner Versammlungsrecht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-gegenversammlung-und-kollision

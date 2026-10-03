@@ -1,6 +1,6 @@
 ---
 name: djen-watcher
-title: /djen-watcher
+title: 'Djen watcher'
 description: 'Varre o DJEN (Diário de Justiça Eletrônico Nacional) por novas intimações da(s) OAB(s) do escritório, deduplica contra o que já foi visto, calcula o prazo de cada uma (dias úteis, CPC art. 219) e produz um resumo diário acionável: intimação → tipo de ato → data-limite → tarefa. Use no início do dia, ou quando quiser checar publicações novas. Requer o conector DJEN (`connectors/djen/`).'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/djen-watcher

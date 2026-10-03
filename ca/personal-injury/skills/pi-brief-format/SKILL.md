@@ -1,6 +1,6 @@
 ---
 name: pi-brief-format
-title: pi-brief-format
+title: 'Pi brief format'
 description: After harvester-query returns a hit, render the result as a PI-lawyer-grade brief block (bluebook citation, paste-ready pull quote, NPS class-of-victim/class-of-harm analysis, common defenses, evidence to gather, source URL) using the local pi_brief module. Used for any statute response on WhatsApp.
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/pi_brief_format

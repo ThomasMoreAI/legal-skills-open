@@ -1,6 +1,6 @@
 ---
 name: start-here-torlyai
-title: /start-here
+title: 'Start here'
 description: '申根签证申请的入口技能。通过 6 个关键问题锁定范围（目的、日期、申请人、
 
   担保情况、过往签证、紧迫性），然后路由到下一步合适的技能。当用户说
@@ -11,7 +11,7 @@ description: '申根签证申请的入口技能。通过 6 个关键问题锁定
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/start-here
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

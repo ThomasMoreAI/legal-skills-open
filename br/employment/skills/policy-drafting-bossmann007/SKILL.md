@@ -1,6 +1,6 @@
 ---
 name: policy-drafting-bossmann007
-title: /policy-drafting
+title: 'Policy drafting'
 description: Draft an employment policy with regional supplements where CCTs (Convenções Coletivas de Trabalho) or local rules differ across the company's territorial footprint. Use when the user says "draft a [topic] policy", "we need a policy on", "update our [topic] policy", or names a policy gap.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/policy-drafting

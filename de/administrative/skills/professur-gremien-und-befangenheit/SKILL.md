@@ -1,6 +1,6 @@
 ---
 name: professur-gremien-und-befangenheit
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft die Beteiligungsrechte von Berliner Professorinnen und Professoren sowie…'
 description: Prüft die Beteiligungsrechte von Berliner Professorinnen und Professoren sowie Zuständigkeit, Besetzung, Abstimmung und Interessenkonflikte in Hochschulgremien.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-gremien-und-befangenheit

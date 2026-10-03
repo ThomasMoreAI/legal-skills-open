@@ -1,6 +1,6 @@
 ---
 name: betreuungsrecht-kaltstart-interview
-title: /betreuungsrecht:kaltstart-interview
+title: 'Kaltstart interview'
 description: 'Für /betreuungsrecht:kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/betreuungsrecht/skills/kaltstart-interview

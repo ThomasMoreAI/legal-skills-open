@@ -1,6 +1,6 @@
 ---
 name: konten-depots-krypto-und-gold-abgleichen
-title: 1. Konten, Depots, Krypto und Gold abgleichen
+title: 'Konten, Depots, Krypto und Gold abgleichen'
 description: Rekonstruiert Konten, Depots, Kryptowerte und Goldbestände stichtagsbezogen, klärt Eigentum und Eigenüberträge und liefert belegte Nettowerte ohne erfundene Kurse oder Doppelzählungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/konten-depots-krypto-und-gold-abgleichen

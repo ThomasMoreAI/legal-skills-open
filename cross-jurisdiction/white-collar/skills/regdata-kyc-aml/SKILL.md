@@ -1,6 +1,6 @@
 ---
 name: regdata-kyc-aml
-title: regdata-kyc-aml
+title: 'Regdata KYC AML'
 description: 'KYC/AML and KYB (Know Your Business) entity verification across official registries: beneficial owners (Poland CRBR, Slovakia RPVS), financial license status (Poland KNF), board members (Poland KRS), company profiles (Germany Handelsregister, Italy Registro Imprese, Belgium KBO, France Societe.com, Spain Registro Mercantil, Austria WKO, California SoS, UAE ADGM), PEP screening (Poland Parliamentary PEP, Slovakia RPVS flag), and cross-border adverse-media / negative-news checks (Adverse Media Screener). Use for KYB checks, counterparty verification, know-your-business onboarding, or when the user mentions CRBR, KNF, KRS, RPVS UBO, Handelsregister, KBO, adverse media, PEP screening, beneficial owners, or needs to verify a company registered in Poland, Germany, Italy, Spain, Austria, France, Belgium, Slovakia, the US (California), or UAE against official government registries.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-kyc-aml

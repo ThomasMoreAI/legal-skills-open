@@ -1,11 +1,11 @@
 ---
 name: expansion-update-bossmann007
-title: /expansion-update
+title: 'Expansion update'
 description: Update the status of an in-progress international expansion project — recalculates what is now unblocked, flags anything overdue, and surfaces the next priorities. Use when work has happened since the last session and the expansion tracker needs to reflect the current state.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/expansion-update
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: employment

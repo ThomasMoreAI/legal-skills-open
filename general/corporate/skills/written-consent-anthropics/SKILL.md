@@ -1,6 +1,6 @@
 ---
 name: written-consent-anthropics
-title: /written-consent
+title: 'Written consent'
 description: Draft a unanimous written consent of the board or a committee in house format, with precedent search from the consents repository. Handles multi-resolution consents, director conflict flags, state-law notice requirements, and signatory tracking, with a built-in scope warning for major one-off actions. Use when user says "written consent", "unanimous consent", "board consent", "consent in lieu", "UWC", or describes an action needing board approval without a meeting.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/written-consent

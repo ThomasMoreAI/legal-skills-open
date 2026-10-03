@@ -1,11 +1,11 @@
 ---
 name: matter-workspace-26
-title: /matter-workspace
+title: 'Matter workspace'
 description: 管理事项工作区——新建、列出、切换、关闭或脱离（业务领域级）。当多客户执业者 需要创建事项、切换当前事项、列出事项、归档事项或脱离至业务领域级上下文时使用， 或当其他技能需要知道当前在哪个事项中工作时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/commercial-legal/skills/matter-workspace
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

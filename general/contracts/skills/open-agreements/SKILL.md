@@ -1,6 +1,6 @@
 ---
 name: open-agreements
-title: open-agreements
+title: 'Open agreements'
 description: Navigate and use the OpenAgreements legal content library — source-cited practice guides, review checklists, 50-state law surveys, and fill-ready agreement templates. Look up state-by-state legal guides, checklists, and law surveys, or fill standard templates (NDAs, cloud service agreements, SAFEs) into signable DOCX files. Supports Common Paper, Bonterms, and Y Combinator templates. Use when the user needs a practice guide, a review checklist, a law survey, to draft a legal agreement, create an NDA, fill a contract template, or generate a SAFE. Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/open-agreements

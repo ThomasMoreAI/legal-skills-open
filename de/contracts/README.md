@@ -179,7 +179,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Crypto Exchange AGB`](skills/crypto-exchange-darlehen-finanzierung/) | Für Crypto Exchange AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Darlehen Finanzierung AGB`](skills/darlehen-finanzierung-agb/) | Für Darlehen Finanzierung AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Darlehen und Finanzierung`](skills/darlehen-und-finanzierung/) | Für Darlehen und Finanzierung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Datenzugang, Ergebnisnutzung und Geheimhaltung zusammen regeln`](skills/daten-nutzungsrechte-und-geheimhaltung-regeln/) | Erstellt zusammenpassende B2B-Klauseln zu Datenzugriff, erforderlichen Nutzungsrechten und… |
+| [`Datenzugang, Ergebnisnutzung und Geheimhaltung zusammen regeln`](skills/daten-nutzungsrechte-und-geheimhaltung-regeln/) | Erstellt zusammenpassende B2B-Klauseln zu Datenzugriff, erforderlichen Nutzungsrechten und… |
 | [`Datenexport Portabilität`](skills/datenexport-portabilitaet/) | Für Datenexport Portabilität: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Datenraum NDA Checkliste`](skills/datenraum-nda-datenschutz-dsgvo-deutsches/) | Für Datenraum NDA Checkliste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte… |
 | [`Datenschutz DSGVO Und Auftragsverarbeitung`](skills/datenschutz-dsgvo-und-auftragsverarbeitung/) | Für Datenschutz DSGVO und Auftragsverarbeitung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -217,7 +217,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Mehrparteienkonflikt und Interessenmatrix im NDA-Abgleich`](skills/durch-interessen/) | Für Mehrparteienkonflikt und Interessenmatrix im NDA-Abgleich: ordnet Norm, Beweislast und… |
 | [`Echten: Sonderfall und Edge-Case-Prüfung`](skills/echten-sonderfall-edge-case/) | Für Echten: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Echten: Sonderfall und Edge-Case-Prüfung`](skills/echten-sonderfall-und-edge-case/) | Für Echten: Sonderfall und Edge-Case-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Geschäftseckpunkte und wirksame Vertretung vertraglich festlegen`](skills/eckpunkte-form-und-vertretung-festlegen/) | Verdichtet die Eckpunkte eines einzelnen B2B-Geschäfts zu einem verwendbaren Vertragsanfang oder Term… |
+| [`Geschäftseckpunkte und wirksame Vertretung vertraglich festlegen`](skills/eckpunkte-form-und-vertretung-festlegen/) | Verdichtet die Eckpunkte eines einzelnen B2B-Geschäfts zu einem verwendbaren Vertragsanfang oder Term… |
 | [`Ecommerce Shop AGB`](skills/ecommerce-shop-agb/) | Für Ecommerce Shop AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/eigenen-risikoampel-gegenargumente/) | Für Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`Eigenschaftsirrtum — § 119 Abs. 2 BGB`](skills/eigenschaftsirrtum-paragraph-119-2/) | Für Eigenschaftsirrtum — Paragraf 119 Abs. 2 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -302,7 +302,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Workflow: Output Gutachten, Klage und Brief`](skills/gutachten-klage/) | Für Workflow: Output Gutachten, Klage und Brief: erstellt Entwurf mit Antrag, Beweis und Anlagen… |
 | [`Gutachtenstil und Klausurtechnik — Zivilrecht BGB AT`](skills/gutachtenstil-und-klausurtechnik/) | Für Gutachtenstil und Klausurtechnik — Zivilrecht BGB AT: ordnet Norm, Beweislast und Gegenargument… |
 | [`Haendlervertrag AGB`](skills/haendlervertrag-agb/) | Für Händlervertrag AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Mängelrechte und Haftung ohne widersprüchliche Ausschlüsse regeln`](skills/haftung-und-maengelrechte-abstimmen/) | Formuliert zusammenpassende Mängel- und Haftungsklauseln für ein deutsches B2B-Einzelgeschäft. Verwenden… |
+| [`Mängelrechte und Haftung ohne widersprüchliche Ausschlüsse regeln`](skills/haftung-und-maengelrechte-abstimmen/) | Formuliert zusammenpassende Mängel- und Haftungsklauseln für ein deutsches B2B-Einzelgeschäft. Verwenden… |
 | [`Haftungsbegrenzung prüfen und formulieren`](skills/haftungsbegrenzung-pruefen-und-formulieren/) | Prüft und formuliert die zusammenhängende Haftungsregel in AGB: geschützte Schäden, Verschulden… |
 | [`Haftungsdeckel für Daten- und Modelldienste prüfen`](skills/haftungsdeckel-fuer-daten-und-modelldienste-pruefen/) | Bewertet Haftungshöchstbeträge bei Datenverlust, fehlerhaften Modellausgaben und Ausfällen digitaler… |
 | [`Haltelinien: Verhandlung, Vergleich und Eskalation`](skills/haltelinien-setzt-standard/) | Für Haltelinien: Verhandlung, Vergleich und Eskalation: ordnet Norm, Beweislast und Gegenargument… |
@@ -375,12 +375,12 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Kurzfristige Preiserhöhung 309`](skills/kurzfristige-preiserhoehung-309/) | Für Kurzfristige Preiserhöhung 309: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Kurzfristige Preiserhöhung 309`](skills/kurzfristige-preiserhoehung-lieferfrist/) | Für Kurzfristige Preiserhöhung 309: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen… |
 | [`Lagerbedingungen`](skills/lagerbedingungen-laufzeit-verlaengerung/) | Für Lagerbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`1. Laufzeit und Vertragsende mit funktionsfähiger Übergabe regeln`](skills/laufzeit-und-vertragsende-regeln/) | Gestaltet Beginn, Bindungsdauer, Kündigungswege und geordnete Abwicklung eines einzelnen B2B-Vertrags.… |
+| [`Laufzeit und Vertragsende mit funktionsfähiger Übergabe regeln`](skills/laufzeit-und-vertragsende-regeln/) | Gestaltet Beginn, Bindungsdauer, Kündigungswege und geordnete Abwicklung eines einzelnen B2B-Vertrags.… |
 | [`Laufzeit Verlängerung 309`](skills/laufzeit-verlaengerung-309/) | Für Laufzeit Verlängerung 309: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Leasing AGB`](skills/leasing-agb/) | Für Leasing AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Leasing BGB-BT Schnittstelle`](skills/leasing-bgb-bt-schnittstelle/) | Für Leasing BGB-BT Schnittstelle: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Legal Note Redline Output`](skills/legal-note-redline-output/) | Für Legal Note Redline Output: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`1. Leistung, Mitwirkung und Abnahme belastbar beschreiben`](skills/leistung-mitwirkung-und-abnahme-ausformulieren/) | Formuliert für B2B-Lieferungen, Wartungen und kleine Projekte den Leistungsumfang, konkrete Mitwirkung… |
+| [`Leistung, Mitwirkung und Abnahme belastbar beschreiben`](skills/leistung-mitwirkung-und-abnahme-ausformulieren/) | Formuliert für B2B-Lieferungen, Wartungen und kleine Projekte den Leistungsumfang, konkrete Mitwirkung… |
 | [`Leistungsänderung Produktupdate`](skills/leistungsaenderung-produktupdate/) | Für Leistungsänderung Produktupdate: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Lieferanten: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/lieferanten-tatbestand-beweis-und-belege/) | Für Lieferanten: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken… |
 | [`Lieferanten-/Dienstleistervertrag-Prüfung`](skills/lieferantenvertrag-pruefung/) | Für Lieferanten-/Dienstleistervertrag-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -413,7 +413,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`MSA Rahmenvertrag`](skills/msa-rahmenvertrag/) | Für MSA Rahmenvertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Musterklauseln IT-Vertrag`](skills/musterklauseln-it-vertrag/) | Für Musterklauseln IT-Vertrag: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Nacherfüllung Vorrang`](skills/nacherfuellung-vorrang/) | Für Nacherfüllung Vorrang: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
-| [`1. Einen bestimmten Nachtrag mit allen notwendigen Folgeänderungen erstellen`](skills/nachtrag-mit-folgeaenderungen-erstellen/) | Schreibt einen begrenzten Nachtrag zu einem vorhandenen B2B-Vertrag und führt die notwendigen Änderungen… |
+| [`Einen bestimmten Nachtrag mit allen notwendigen Folgeänderungen erstellen`](skills/nachtrag-mit-folgeaenderungen-erstellen/) | Schreibt einen begrenzten Nachtrag zu einem vorhandenen B2B-Vertrag und führt die notwendigen Änderungen… |
 | [`Anschluss-Routing`](skills/nda-abgleich-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/nda-abgleich-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/nda-abgleich-eigenen-risikoampel-und-gegenargumente/) | Für Eigenen: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
@@ -477,7 +477,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Passendes Playbook festlegen`](skills/playbook-auswaehlen/) | Wählt für einen konkreten Vertragsprüfauftrag das tatsächlich freigegebene Playbook, klärt vertretene… |
 | [`Vertrag vollständig am Playbook prüfen`](skills/playbook-pruefung-durchfuehren/) | Hauptskill für die vollständige Prüfung eines Vertragsverbunds gegen ein Kanzlei- oder… |
 | [`Playbook-Regeln entscheidbar machen`](skills/playbook-regeln-schaerfen/) | Überführt vorhandene Verhandlungspositionen in einzelne prüfbare Regeln mit Geltungsbereich, Einheiten… |
-| [`1. Vergütung, Zahlungsplan und begrenzte Sicherheiten vereinbaren`](skills/preis-zahlung-und-sicherung-vereinbaren/) | Erstellt nachvollziehbare B2B-Klauseln zu Festpreis oder Aufwand, Rechnungsstellung, Fälligkeit und… |
+| [`Vergütung, Zahlungsplan und begrenzte Sicherheiten vereinbaren`](skills/preis-zahlung-und-sicherung-vereinbaren/) | Erstellt nachvollziehbare B2B-Klauseln zu Festpreis oder Aufwand, Rechnungsstellung, Fälligkeit und… |
 | [`Preisanpassung Klausel`](skills/preisanpassung-klausel/) | Für Preisanpassung Klausel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Privatautonomie, Trennungs- und Abstraktionsprinzip`](skills/privatautonomie-trennungs-abstraktionsprinzip/) | Für Privatautonomie, Trennungs- und Abstraktionsprinzip: ordnet Norm, Beweislast und Gegenargument… |
 | [`Product Counsel Workflow`](skills/product-counsel-feedback-rechte-annahmefrist/) | Für Product Counsel Workflow: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
@@ -517,7 +517,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Rollout Mail Bestandskunden`](skills/rollout-mail-bestandskunden/) | Für Rollout Mail Bestandskunden: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Rollout Monitoring AGB`](skills/rollout-monitoring-agb/) | Für Rollout Monitoring AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rueckfragen: Compliance-Dokumentation und Aktenvermerk`](skills/rueckfragen-compliance-dokumentation-und-akte/) | Für Rückfragen: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
-| [`1. Fehlende Vertragsangaben klären und die Ausfüllung fortsetzen`](skills/rueckfrageninterview/) | Klärt fehlende oder widersprüchliche Angaben einer Vertragsvorlage anhand von Term Sheet, Korrespondenz… |
+| [`Fehlende Vertragsangaben klären und die Ausfüllung fortsetzen`](skills/rueckfrageninterview/) | Klärt fehlende oder widersprüchliche Angaben einer Vertragsvorlage anhand von Term Sheet, Korrespondenz… |
 | [`NDA: Rueckgabe/Vernichtung`](skills/rueckgabe-vernichtung-nda-typen/) | Für NDA: Rückgabe/Vernichtung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Workflow: Fristen, Rücktritt und Kündigung`](skills/ruecktritt-kuendigung/) | Für Workflow: Fristen, Rücktritt und Kündigung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Workflow: Fristen, Rücktritt und Kündigung`](skills/ruecktritt-kuendigung-verhandlungsplan/) | Für Workflow: Fristen, Rücktritt und Kündigung: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
@@ -612,7 +612,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Verfügung des Nichtberechtigten — § 185 BGB`](skills/verfuegung-nichtberechtigter-paragraph-185/) | Für Verfügung des Nichtberechtigten — Paragraf 185 BGB: ordnet Norm, Beweislast und Gegenargument… |
 | [`Vergaberechtliche Vertragsbedingungen`](skills/vergaberechtliche-vertragsbedingungen/) | Für Vergaberechtliche Vertragsbedingungen: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vergleich § 779 BGB`](skills/vergleich-paragraph-779/) | Für Vergleich Paragraf 779 BGB: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
-| [`1. Verhandlungsstand in eine konsistente Unterschriftenfassung überführen`](skills/verhandlung-und-unterschriftenfassung-abschliessen/) | Verarbeitet konkrete Gegenangebote zu einer konsistenten B2B-Vertragsfassung und erstellt… |
+| [`Verhandlungsstand in eine konsistente Unterschriftenfassung überführen`](skills/verhandlung-und-unterschriftenfassung-abschliessen/) | Verarbeitet konkrete Gegenangebote zu einer konsistenten B2B-Vertragsfassung und erstellt… |
 | [`Verhandlungs Playbook AGB`](skills/verhandlungs-playbook-agb/) | Für Verhandlungs Playbook AGB: entwickelt Ziel, Vergleich und Eskalation; Ergebnis: Verhandlungs- oder… |
 | [`Workflow: Vergleich und Verhandlungsplan`](skills/verhandlungsplan-vertragsschluss/) | Für Workflow: Vergleich und Verhandlungsplan: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |
 | [`Verjährung BGB-BT Spezial`](skills/verjaehrung-bgb-bt-spezial/) | Für Verjährung BGB-BT Spezial: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
@@ -628,7 +628,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Verteidigungsstrategie bei Formangriff`](skills/verteidigungsstrategie-bei-formangriff/) | Für Verteidigungsstrategie bei Formangriff: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Verträge: Formular, Portal und Einreichungslogik`](skills/vertraege-formular-portal-und-einreichung/) | Für Verträge: Formular, Portal und Einreichungslogik: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fachanwalt — Vertragsgestaltung mit iterativem Prüfgremium`](skills/vertrag/) | Dieser Skill wird verwendet wenn der Nutzer "Vertrag erstellen", "Vertrag entwerfen", "Vertrag prüfen"… |
-| [`1. Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen`](skills/vertrag-vom-auftrag-bis-zur-endfassung-erstellen/) | Erstellt einen deutschen B2B-Vertrag für ein mittelständisches Einzelgeschäft aus Auftrag, Angebot und… |
+| [`Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen`](skills/vertrag-vom-auftrag-bis-zur-endfassung-erstellen/) | Erstellt einen deutschen B2B-Vertrag für ein mittelständisches Einzelgeschäft aus Auftrag, Angebot und… |
 | [`Vertragsänderung durch Zustimmung prüfen`](skills/vertragsaenderung-durch-zustimmung-pruefen/) | Prüft, ob AGB-Änderungen durch ausdrückliche Zustimmung, Schweigen oder Weiternutzung wirksam vereinbart… |
 | [`Vertragsanlagen und Bezugnahmen prüfen`](skills/vertragsanlagen-und-bezugnahmen-pruefen/) | Prüft Vertragsanlagen, Leistungsbeschreibungen, Rangfolgen, Verweise und Widersprüche in… |
 | [`Anschluss-Routing`](skills/vertragsausfueller-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
@@ -644,7 +644,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Belastbare Vertragsbelege erfassen`](skills/vertragsbelege-erfassen/) | Verknüpft jede Playbook-Regel mit exakten Zitaten und stabilen Fundorten des richtigen Vertragsstands… |
 | [`Mandatsworkspace, Kontexttrennung und Fristensteuerung Vertragsrecht`](skills/vertragsmandat-workspace-kontexttrennung/) | Für Mandatsworkspace, Kontexttrennung und Fristensteuerung Vertragsrecht: ordnet Norm, Beweislast und… |
 | [`Vertragsanalyse und Klauselkontrolle`](skills/vertragspruefung/) | Für Vertragsanalyse und Klauselkontrolle: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`1. Widersprechende Vertragsunterlagen und B2B-AGB bereinigen`](skills/vertragsrangfolge-und-agb-bereinigen/) | Bereinigt widersprechende Angebote, Bestellungen, Leistungsanlagen und AGB in einem B2B-Einzelvertrag… |
+| [`Widersprechende Vertragsunterlagen und B2B-AGB bereinigen`](skills/vertragsrangfolge-und-agb-bereinigen/) | Bereinigt widersprechende Angebote, Bestellungen, Leistungsanlagen und AGB in einem B2B-Einzelvertrag… |
 | [`Vertragsrecht — Allgemein`](skills/vertragsrecht-anschluss-router/) | Für Vertragsrecht — Allgemein: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Dokumentenintake`](skills/vertragsrecht-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/vertragsrecht-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |

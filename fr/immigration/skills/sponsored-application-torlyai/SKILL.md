@@ -1,6 +1,6 @@
 ---
 name: sponsored-application-torlyai
-title: /sponsored-application
+title: 'Sponsored application'
 description: 'Handles France Schengen visa applications where a third party
 
   sponsors the applicant''s trip. Branches by sponsor type:
@@ -23,7 +23,7 @@ description: 'Handles France Schengen visa applications where a third party
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/sponsored-application
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: immigration

@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-verpflichteten-check
-title: 1. Verpflichtetenstatus und Pflichtenumfang
+title: 'Verpflichtetenstatus und Pflichtenumfang'
 description: Klärt den GwG-Verpflichtetenstatus für ein konkretes Mandat oder Geschäft. Trennt anwaltliche Katalogtätigkeit, Notariat, Güterhandel und freiwillige Kundenkontrolle und erstellt einen begrenzten Pflichtenspiegel.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-verpflichteten-check

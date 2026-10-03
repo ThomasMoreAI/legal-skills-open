@@ -1,11 +1,11 @@
 ---
 name: rega-check
-title: rega-check
+title: 'Rega check'
 description: Verify a listing form, deal, or property route satisfies Saudi REGA compliance — FAL license, ad license, GASTAT category, Saudi address, photos, commission cap. Use when adding listing-related features or before shipping property changes.
 author: malhajri07
 author_url: https://github.com/malhajri07/real-estate-CRM-project/tree/main/.claude/skills/rega-check
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: sa
 practice: real-estate

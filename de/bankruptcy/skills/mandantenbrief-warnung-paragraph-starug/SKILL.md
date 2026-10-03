@@ -1,6 +1,6 @@
 ---
 name: mandantenbrief-warnung-paragraph-starug
-title: 1. Mandantenbrief zu Paragraf 102 StaRUG
+title: 'Mandantenbrief zu Paragraf 102 StaRUG'
 description: Erstellt einen konkreten Mandantenhinweis nach Paragraf 102 StaRUG, wenn bei der Jahresabschlusserstellung offenkundige Anhaltspunkte für einen möglichen Insolvenzgrund vorliegen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krisenfrueherkennung-starug/skills/mandantenbrief-warnung-paragraph-starug

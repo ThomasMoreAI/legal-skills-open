@@ -1,11 +1,11 @@
 ---
 name: oc-status-zhou210712
-title: /oc-status
+title: 'Oc status'
 description: 为活跃案件组合中的各外聘律师生成每周状态请求邮件草稿—— 每案一份 markdown。当用户要求向外聘律师发状态请求、 每周外聘律师检查或需要从案件组合日志中起草各案状态邮件时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/oc-status
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

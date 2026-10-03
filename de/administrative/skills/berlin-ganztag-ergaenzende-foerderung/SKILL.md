@@ -1,6 +1,6 @@
 ---
 name: berlin-ganztag-ergaenzende-foerderung
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Ganztag und ergänzende Förderung und Betreuung einschließlich der…'
 description: Berliner Ganztag und ergänzende Förderung und Betreuung einschließlich der Grundschulkohorte ab 2026/2027 aus Eltern- und Schülersicht prüfen und umsetzen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-ganztag-ergaenzende-foerderung

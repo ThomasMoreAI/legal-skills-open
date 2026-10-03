@@ -1,12 +1,12 @@
 ---
 name: peru-ruc-nolpak14
-title: peru-ruc
+title: 'Peru ruc'
 description: 'Look up Peruvian companies for free by RUC (Registro Unico de Contribuyentes, the 11-digit Peruvian tax ID) via free third-party APIs (api.apis.net.pe, apiperu.dev) that re-serve SUNAT''s Padron Reducido public dataset. Returns the razon social (legal name), estado (ACTIVO / BAJA), condicion (HABIDO / NO HABIDO), and registered address (departamento, provincia, distrito, ubigeo). Use for a quick Peru company / RUC check, counterparty verification, and Peruvian tax-ID lookup. Trigger on: ''Peru company lookup'', ''RUC'', ''consulta RUC'', ''SUNAT'', ''Peruvian tax ID'', ''check a Peruvian company'', ''is this Peru company active'', ''razon social Peru'', ''Peruvian business lookup''. Not the official SUNAT service - these are third-party aggregators over the Padron Reducido with partial fields and a free token requirement; verify against the official SUNAT Ficha RUC for authoritative use. For deeper Peru data and jurisdictions with no free API, this skill points you to the paid
   regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/peru-ruc
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: pe
 practice: tax

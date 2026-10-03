@@ -1,6 +1,6 @@
 ---
 name: daten-nutzungsrechte-und-geheimhaltung-regeln
-title: 1. Datenzugang, Ergebnisnutzung und Geheimhaltung zusammen regeln
+title: 'Datenzugang, Ergebnisnutzung und Geheimhaltung zusammen regeln'
 description: Erstellt zusammenpassende B2B-Klauseln zu Datenzugriff, erforderlichen Nutzungsrechten und Vertraulichkeit für ein konkretes Liefer-, Wartungs- oder Projektgeschäft. Verwenden bei Fernzugriff, Dokumentation, Fremdsoftware, Ergebnisübergabe oder Anbieterwechsel; keine pauschale Übertragung aller Datenrechte und keine vollständige Datenschutzorganisation.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/daten-nutzungsrechte-und-geheimhaltung-regeln

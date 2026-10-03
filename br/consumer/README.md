@@ -11,7 +11,7 @@ Jurisdiction: `br` · Practice: `consumer` · Skill language: en, pt
 | Skill | What it does |
 |---|---|
 | [`E-commerce Compliance Review`](skills/ecommerce-compliance-review-bossmann007/) | Revisão de conformidade de loja virtual com regulação de e-commerce brasileira: informações obrigatórias… |
-| [`/marketing-claims-review`](skills/marketing-claims-review-bossmann007/) | Review marketing copy for claims that need substantiation, reframing, or cutting. Use when the user says… |
+| [`Marketing claims review`](skills/marketing-claims-review-bossmann007/) | Review marketing copy for claims that need substantiation, reframing, or cutting. Use when the user says… |
 
 ## Cold-start context
 

@@ -1,6 +1,6 @@
 ---
 name: gmbh-anteile-uebertragen-verpfaenden
-title: 1. GmbH-Anteile übertragen und verpfänden
+title: 'GmbH-Anteile übertragen und verpfänden'
 description: Bereitet Verkauf, Abtretung und Verpfändung von GmbH-Geschäftsanteilen für das Notariat vor. Ordnet Anteilsnummern, Zustimmung, Kaufpreis, Sicherungszweck und Vollzugsbedingungen und hält Gesellschafterwechsel und bloße Belastung auseinander.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/gmbh-anteile-uebertragen-verpfaenden

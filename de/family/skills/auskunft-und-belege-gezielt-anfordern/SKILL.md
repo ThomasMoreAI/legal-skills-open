@@ -1,6 +1,6 @@
 ---
 name: auskunft-und-belege-gezielt-anfordern
-title: 1. Auskunft und Belege gezielt anfordern
+title: 'Auskunft und Belege gezielt anfordern'
 description: Erstellt eine auf Verfahrensstand und konkrete Vermögenslücken zugeschnittene Auskunfts- oder Beleganforderung und verarbeitet die Antwort bis zur ergänzten Zugewinnrechnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/zugewinnausgleich/skills/auskunft-und-belege-gezielt-anfordern

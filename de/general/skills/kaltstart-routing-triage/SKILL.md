@@ -1,6 +1,6 @@
 ---
 name: kaltstart-routing-triage
-title: 1. Mandatseingang bearbeiten
+title: 'Mandatseingang bearbeiten'
 description: 'Für Kaltstart Routing Triage: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/kaltstart-routing-triage

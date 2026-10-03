@@ -10,7 +10,7 @@ Jurisdiction: `ch` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`switzerland-zefix`](skills/switzerland-zefix-nolpak14/) | Look up Swiss companies for free via the official Zefix (ZefixPublicREST) API from the Swiss Federal… |
+| [`Switzerland zefix`](skills/switzerland-zefix-nolpak14/) | Look up Swiss companies for free via the official Zefix (ZefixPublicREST) API from the Swiss Federal… |
 
 ## Cold-start context
 

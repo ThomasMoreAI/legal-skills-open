@@ -1,6 +1,6 @@
 ---
 name: compliance-auditor-mittuled
-title: compliance-auditor
+title: 'Compliance auditor'
 description: This skill conducts comprehensive compliance audits across 7 regulatory frameworks using a 57-item checklist with quantitative scoring and remediation guidance. Use when preparing for certification audits (SOC 2, ISO 27001) or regulatory reviews. Also consider when onboarding enterprise customers with compliance requirements. Suggest when annual compliance review cycle begins.
 author: mittuled
 author_url: https://github.com/mittuled/skill-os/tree/main/agents/legal/security-compliance-programme-manager/compliance-auditor

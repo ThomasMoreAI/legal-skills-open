@@ -1,6 +1,6 @@
 ---
 name: entrevista-inicial-4
-title: /entrevista-inicial
+title: 'Entrevista inicial'
 description: Entrevista de configuración inicial — aprende tu práctica contractual, tu playbook de negociación, tus posiciones por cláusula y tu proceso de escalado para que cada revisión salga con tu criterio, no con uno genérico. Úsala en la primera instalación, cuando CLAUDE.md tenga marcas [PLACEHOLDER], o para refrescar integraciones (--verificar-integraciones).
 author: betobetico
 author_url: https://github.com/betobetico/claude-para-abogados/tree/main/mercantil/skills/entrevista-inicial

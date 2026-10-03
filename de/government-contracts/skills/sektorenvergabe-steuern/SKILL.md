@@ -1,6 +1,6 @@
 ---
 name: sektorenvergabe-steuern
-title: 1. Sektorenvergabe steuern
+title: 'Sektorenvergabe steuern'
 description: Steuert eine Sektorenvergabe aus Auftraggebersicht vom Reinigungsbedarf bis zur Zuschlagsfreigabe oder Nachprüfung. Verwenden, wenn mehrere Vergabeschritte zusammengeführt oder nach neuen Unterlagen fortgesetzt werden sollen; kein autonomer Versand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sektorenvergabe-workflow/skills/sektorenvergabe-steuern

@@ -1,6 +1,6 @@
 ---
 name: subunternehmer-regelung-pruefen
-title: 1. Dienstleister und Agentenwerkzeuge in der Kanzlei absichern
+title: 'Dienstleister und Agentenwerkzeuge in der Kanzlei absichern'
 description: Prüft die Dienstleisterkette einer Kanzlei einschließlich Modellbetrieb, Agentenwerkzeugen, Support und Protokollen. Trennt berufsrechtliche Verpflichtung von Datenschutzrollen und formuliert nachprüfbare Klauseln zu weiteren Dienstleistern und Zugriffen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berufsrecht-ki-vertragspruefung/skills/subunternehmer-regelung-pruefen

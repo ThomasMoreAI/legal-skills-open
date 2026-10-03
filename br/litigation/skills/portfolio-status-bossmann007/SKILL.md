@@ -1,6 +1,6 @@
 ---
 name: portfolio-status-bossmann007
-title: /portfolio-status
+title: 'Portfolio status'
 description: Roll up the portfolio from _log.yaml — risk distribution, upcoming deadlines, stale matters, materiality totals, stage distribution, and flagged anomalies. Use when the user asks "where do we stand", "how many open matters", or wants a portfolio rollup or status across all active matters.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/portfolio-status

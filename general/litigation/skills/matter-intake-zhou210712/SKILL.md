@@ -1,11 +1,11 @@
 ---
 name: matter-intake-zhou210712
-title: /matter-intake
+title: 'Matter intake'
 description: 登记新案件——统一问题涵盖标识信息、利益冲突检索、来源、 风险分流、重要性、外聘律师、内部负责人、证据保全和关键日期； 写入 matter.md 和 history.md 并在 _log.yaml 中追加结构化行。 当用户说"新案件"、"登记这个案件"或需要将新案件纳入案件组合时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/matter-intake
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

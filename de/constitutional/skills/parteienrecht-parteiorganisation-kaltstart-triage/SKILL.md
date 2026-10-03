@@ -1,6 +1,6 @@
 ---
 name: parteienrecht-parteiorganisation-kaltstart-triage
-title: 1. Parteivorgang zum bestellten Ergebnis führen
+title: 'Parteivorgang zum bestellten Ergebnis führen'
 description: 'Für Parteienrecht — Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/parteienrecht-parteiorganisation/skills/kaltstart-triage

@@ -1,11 +1,11 @@
 ---
 name: dsar-response-anthropics
-title: /dsar-response
+title: 'DSAR response'
 description: Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the response — verify identity, locate data system-by-system, assess exemptions, draft the acknowledgment and substantive response letters. Use when a DSAR comes in, the user pastes an access/deletion/portability/correction request, or says "DSAR came in", "access request", "right to be forgotten", or "someone wants their data".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/privacy-legal/skills/dsar-response
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

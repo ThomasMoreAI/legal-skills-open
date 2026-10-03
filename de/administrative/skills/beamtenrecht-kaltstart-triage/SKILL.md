@@ -1,6 +1,6 @@
 ---
 name: beamtenrecht-kaltstart-triage
-title: 1. Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten
+title: 'Beamtenrechtlichen Auftrag aufnehmen und ausarbeiten'
 description: 'Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Beamtenrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/kaltstart-triage

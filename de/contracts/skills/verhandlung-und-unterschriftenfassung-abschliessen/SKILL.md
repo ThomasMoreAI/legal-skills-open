@@ -1,6 +1,6 @@
 ---
 name: verhandlung-und-unterschriftenfassung-abschliessen
-title: 1. Verhandlungsstand in eine konsistente Unterschriftenfassung überführen
+title: 'Verhandlungsstand in eine konsistente Unterschriftenfassung überführen'
 description: Verarbeitet konkrete Gegenangebote zu einer konsistenten B2B-Vertragsfassung und erstellt Verhandlungsantwort, bereinigten Text und vollständige Unterschriftenunterlagen. Verwenden nach Redlines oder Einigung über Restpunkte; erklärt weder selbst Annahme noch Unterschrift und gibt offene Freigaben nicht als erledigt aus.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vertragserstellung/skills/verhandlung-und-unterschriftenfassung-abschliessen

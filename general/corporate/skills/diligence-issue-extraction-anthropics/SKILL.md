@@ -1,11 +1,11 @@
 ---
 name: diligence-issue-extraction-anthropics
-title: /diligence-issue-extraction
+title: 'Diligence issue extraction'
 description: Read VDR documents and extract issues per house categories and materiality thresholds, producing findings in house memo format. Use when user says "review the data room", "extract issues from [folder]", "diligence review", "what's in the VDR", or points at VDR documents.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/diligence-issue-extraction
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

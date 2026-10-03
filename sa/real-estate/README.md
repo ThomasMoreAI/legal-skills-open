@@ -8,7 +8,7 @@ Jurisdiction: `sa` · Practice: `real-estate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`rega-check`](skills/rega-check/) | Verify a listing form, deal, or property route satisfies Saudi REGA compliance — FAL license, ad… |
+| [`Rega check`](skills/rega-check/) | Verify a listing form, deal, or property route satisfies Saudi REGA compliance — FAL license, ad… |
 
 ## Cold-start context
 

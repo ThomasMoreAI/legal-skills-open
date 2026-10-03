@@ -1,6 +1,6 @@
 ---
 name: poller-sperren-und-schluesselzugang-pruefen
-title: 1. Poller, Sperren und Schlüsselzugang prüfen
+title: 'Poller, Sperren und Schlüsselzugang prüfen'
 description: Ordnet Poller und Zufahrtssperren nach Funktion und Rechtsgrundlage ein, prüft Schlüsselzugang und Öffnungszeiten und entwirft behördlichen oder gerichtlichen Schutz ohne eigenmächtigen Abbau.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/poller-sperren-und-schluesselzugang-pruefen

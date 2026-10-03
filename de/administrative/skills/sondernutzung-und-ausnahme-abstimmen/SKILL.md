@@ -1,6 +1,6 @@
 ---
 name: sondernutzung-und-ausnahme-abstimmen
-title: 1. Sondernutzung und Ausnahme abstimmen
+title: 'Sondernutzung und Ausnahme abstimmen'
 description: Trennt Gemeingebrauch, Sondernutzung und verkehrsrechtliche Ausnahmen, prüft landesrechtliche Verfahrenskonzentration und erstellt abgestimmte Anträge einschließlich Bedingungen und Gebühren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/sondernutzung-und-ausnahme-abstimmen

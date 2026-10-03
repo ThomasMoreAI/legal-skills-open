@@ -1,11 +1,11 @@
 ---
 name: claude-review
-title: /claude-review
+title: 'Claude review'
 description: Agentic contract review using superdoc-redlines. Spawns parallel sub-agents for comprehensive document review with tracked changes.
 author: yuch85
 author_url: https://github.com/yuch85/superdoc-redlines/tree/main/.claude/skills/claude-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

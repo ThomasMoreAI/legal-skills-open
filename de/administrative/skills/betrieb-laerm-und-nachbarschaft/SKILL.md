@@ -1,6 +1,6 @@
 ---
 name: betrieb-laerm-und-nachbarschaft
-title: 1. Zweck und Anwendungsfall
+title: 'Bearbeitet Lärm, Lieferverkehr, Gerüche, Musik und Außenbetrieb Berliner Gaststätten und…'
 description: Bearbeitet Lärm, Lieferverkehr, Gerüche, Musik und Außenbetrieb Berliner Gaststätten und Verkaufsstellen. Entwickelt konkrete organisatorische Abhilfe und begründete Stellungnahmen ohne erfundene Messwerte oder pauschale Gebietsprivilegien.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-laerm-und-nachbarschaft

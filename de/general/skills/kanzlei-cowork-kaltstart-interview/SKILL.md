@@ -1,6 +1,6 @@
 ---
 name: kanzlei-cowork-kaltstart-interview
-title: 1. Kanzleikonfiguration einrichten
+title: 'Kanzleikonfiguration einrichten'
 description: 'Für /kanzlei-allgemein:kanzlei-cowork-kaltstart-interview: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/kanzlei-cowork-kaltstart-interview

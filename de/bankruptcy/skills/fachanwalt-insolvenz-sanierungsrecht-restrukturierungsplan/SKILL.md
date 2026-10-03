@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-restrukturierungsplan
-title: 1. Fachanwaltliche Vollprüfung des Restrukturierungsplans
+title: 'Fachanwaltliche Vollprüfung des Restrukturierungsplans'
 description: 'Prüft den Restrukturierungsplan aus Fachanwaltssicht: Insolvenzreife, gestaltbare Rechte, Auswahl, Gruppen, Vergleichsrechnung, Mehrheiten, gerichtliche Instrumente, Minderheitenschutz und Vollzug.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/fachanwalt-insolvenz-sanierungsrecht-restrukturierungsplan

@@ -1,6 +1,6 @@
 ---
 name: demand-received-zhou210712
-title: /demand-received
+title: 'Demand received'
 description: 来函分流处理——提取关键字段、交叉检索案件组合、评估实质理由、 提出响应方案并附建议，必要时转交案件登记或律师函起草。 当用户说"收到一封律师函"、"审查这个来函"或附上来函要求评估时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/litigation-legal/skills/demand-received

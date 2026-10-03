@@ -1,11 +1,11 @@
 ---
 name: log-leave-bossmann007
-title: /log-leave
+title: 'Log leave'
 description: Add a new leave to the leave register with the minimum information needed to start tracking deadlines. Use when an employee goes on leave and you want the tracker to watch designation, certification, and exhaustion clocks from day one.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/log-leave
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: employment

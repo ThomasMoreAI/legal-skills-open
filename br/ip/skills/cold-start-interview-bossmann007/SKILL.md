@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-bossmann007
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Run the cold-start interview to learn your IP practice and write your practice profile. Use on first install when the practice profile is missing or still contains placeholders, when re-onboarding with --redo, or when re-probing integrations with --check-integrations after connecting or disconnecting an MCP. This is the ONLY skill that should run on a fresh install.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/ip-legal/skills/cold-start-interview

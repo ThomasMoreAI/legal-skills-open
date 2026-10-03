@@ -1,11 +1,11 @@
 ---
 name: launch-review-bossmann007
-title: /launch-review
+title: 'Launch review'
 description: Full launch review against your framework and risk calibration. Use when the user says "review this launch", "legal review for [feature]", "can we ship this", "what are the legal issues with [product]", or references a launch tracker ticket or PRD that needs a category-by-category review memo.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/product-legal/skills/launch-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: regulatory

@@ -1,6 +1,6 @@
 ---
 name: kanzlei-allgemein-workflow-kaltstart-und-routing
-title: 1. Kanzleivorgang zum Ergebnis führen
+title: 'Kanzleivorgang zum Ergebnis führen'
 description: 'Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Kanzlei-Allgemein.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/workflow-kaltstart-und-routing

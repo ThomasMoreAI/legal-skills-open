@@ -1,6 +1,6 @@
 ---
 name: geldwaesche-kyc-onboarding
-title: 1. Kundenprüfung bis zum belegten Stand
+title: 'Kundenprüfung bis zum belegten Stand'
 description: 'Bearbeitet die Aufnahme oder Aktualisierung einer konkreten Kundenbeziehung: Identität, Vertretung, Geschäftszweck und fehlende Nachweise. Liefert gezielte Nachforderung und dokumentierten Bearbeitungsstand statt einer unbelegten KYC-Freigabe.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/geldwaeschepraevention-aml-kyc/skills/geldwaesche-kyc-onboarding

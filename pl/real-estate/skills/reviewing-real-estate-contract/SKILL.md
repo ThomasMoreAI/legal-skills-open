@@ -1,6 +1,6 @@
 ---
 name: reviewing-real-estate-contract
-title: law-pl-reviewing-real-estate-contract
+title: 'Law PL reviewing real estate contract'
 description: Use when auditing Polish real-estate contract (umowa przedwstępna / sprzedaży nieruchomości) — KW (działy I–IV), obciążenia (hipoteka, służebności, dożywocie), prawo pierwokupu (KOWR, gmina, spółdzielnia, SP), forma aktu notarialnego pod rygorem nieważności (art. 158 KC), zadatek vs zaliczka (art. 394 KC), PCC-3 2% (fallback) vs VAT 8%/23% (fallback), rejestry (ekw.ms.gov.pl, EGiB, MPZP, zabytki)
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-reviewing-real-estate-contract

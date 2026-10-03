@@ -1,6 +1,6 @@
 ---
 name: photo-check-torlyai
-title: /photo-check
+title: 'Photo check'
 description: '启用视觉识别的护照照片合规性检查（法国申根签证）。当用户附上图片时，
 
   对照每一项申根照片要求（35×45mm、白色背景、不戴眼镜、中性表情、
@@ -13,7 +13,7 @@ description: '启用视觉识别的护照照片合规性检查（法国申根签
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/photo-check
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

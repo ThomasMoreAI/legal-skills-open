@@ -1,6 +1,6 @@
 ---
 name: klage-beim-sozialgericht-vorbereiten
-title: 1. Klage beim Sozialgericht vorbereiten
+title: 'Klage beim Sozialgericht vorbereiten'
 description: Erstellt eine verständliche eigene Klage beim Sozialgericht aus Bescheid, Widerspruchsbescheid und Belegen. Prüft Rechtsweg, Gericht, Klageziel und Frist, erklärt Selbstvertretung und Kostenrisiken und bereitet den Gang zur Rechtsantragstelle vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/sozialrecht-fuer-laien/skills/klage-beim-sozialgericht-vorbereiten

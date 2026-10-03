@@ -1,11 +1,11 @@
 ---
 name: amendment-history-anthropics
-title: /amendment-history
+title: 'Amendment history'
 description: Trace how a contract has changed across its base agreement and all amendments — either a summary of all changes over time, or a provision trace for a specific clause. Use when the user says "what changed in this contract over time", "show me the amendment history", "where's the latest [clause]", "how has [provision] evolved", or uploads multiple versions of an agreement.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/commercial-legal/skills/amendment-history
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

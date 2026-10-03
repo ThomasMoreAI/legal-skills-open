@@ -10,7 +10,7 @@ Jurisdiction: `vn` · Practice: `regulatory` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`vietnam-business`](skills/vietnam-business-nolpak14/) | Look up Vietnamese companies for free by tax code (MST / ma so thue) via the VietQR business API… |
+| [`Vietnam business`](skills/vietnam-business-nolpak14/) | Look up Vietnamese companies for free by tax code (MST / ma so thue) via the VietQR business API… |
 
 ## Cold-start context
 

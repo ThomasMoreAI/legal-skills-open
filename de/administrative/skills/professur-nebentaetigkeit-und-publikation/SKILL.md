@@ -1,6 +1,6 @@
 ---
 name: professur-nebentaetigkeit-und-publikation
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft professorale Nebentätigkeiten, wissenschaftliche Veröffentlichungen und öffentliche…'
 description: Prüft professorale Nebentätigkeiten, wissenschaftliche Veröffentlichungen und öffentliche Äußerungen in Berlin unter Status-, Wissenschaftsfreiheits- und Interessenkonfliktgesichtspunkten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-nebentaetigkeit-und-publikation

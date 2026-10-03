@@ -1,6 +1,6 @@
 ---
 name: annahmeverzugslohn-zeitraeume-und-anrechnung
-title: 1. Zweck und Anwendungsfall
+title: 'Berechnet Annahmeverzugslohn bei Freistellung und Kündigungsstreit anhand von…'
 description: Berechnet Annahmeverzugslohn bei Freistellung und Kündigungsstreit anhand von Vergütungsperioden, Zwischenverdienst, Sozialleistungen und konkreten Stellenangeboten. Erstellt eine prüfbare Forderung und bewertet den Einwand böswillig unterlassenen Erwerbs.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-arbeitsrecht/skills/annahmeverzugslohn-zeitraeume-und-anrechnung

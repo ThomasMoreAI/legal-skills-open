@@ -1,6 +1,6 @@
 ---
 name: appointment-prep-torlyai
-title: /appointment-prep
+title: 'Appointment prep'
 description: 'TLScontact 法国申根签证赴约前 24 小时清单。核实所有文件已打印（不能
 
   仅屏幕看）、照片是实物打印（不是手机图）、付款卡在钱包、交通已规划
@@ -11,7 +11,7 @@ description: 'TLScontact 法国申根签证赴约前 24 小时清单。核实所
 author: torlyai
 author_url: https://github.com/torlyai/Schengen-master/tree/main/skills/i18n/zh-CN/appointment-prep
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: fr
 practice: immigration

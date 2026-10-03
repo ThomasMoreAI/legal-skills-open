@@ -1,6 +1,6 @@
 ---
 name: hochrisiko-datenqualitaet-data-governance-art
-title: 1. Dateneignung und Verzerrungskorrektur
+title: 'Dateneignung und Verzerrungskorrektur'
 description: Prüft Herkunft und Eignung von Entwicklungsdaten sowie die enge Erlaubnis für sensible Daten zur Verzerrungskorrektur nach Artikel 4a. Erstellt einen belegten Datenfreigabevermerk mit Alternativenprüfung, Zugriffsschutz und Löschereignis.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-vo-ai-act-pruefer/skills/hochrisiko-datenqualitaet-data-governance-art

@@ -1,6 +1,6 @@
 ---
 name: forderungsgrund-und-belege-abgleichen
-title: 1. Forderungsgrund und Belege abgleichen
+title: 'Forderungsgrund und Belege abgleichen'
 description: Gleicht den angemeldeten Forderungsgrund mit Vertrag, Leistung, Abnahme, Rechnung und Einwendungen ab. Trennt hinreichende Individualisierung von Beweis und Schlüssigkeit und formuliert konkrete, positionsbezogene Prüfvorschläge statt pauschaler Ablehnung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/forderungsgrund-und-belege-abgleichen

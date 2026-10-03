@@ -1,11 +1,11 @@
 ---
 name: policy-redraft-anthropics
-title: /policy-redraft
+title: 'Policy redraft'
 description: Produce a proposed marked-up policy redraft that closes a gap found by /regulatory-legal:gaps or /regulatory-legal:policy-diff. A first draft for internal review — not for direct application to approved policy documents. Use when the user says "redraft the policy", "draft the policy fix", "mark up the policy", or when gap-surfacer hands off a gap for drafting.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/regulatory-legal/skills/policy-redraft
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

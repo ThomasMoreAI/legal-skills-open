@@ -1,6 +1,6 @@
 ---
 name: military-statute-refs
-title: law-ua-military-statute-refs
+title: 'Law UA military statute refs'
 description: 'Use when fetching Ukrainian military statutes, orders MO, or CMU resolutions for service members. Verified zakon.rada ID table: Дисциплінарний статут ЗС, статути внутрішньої / гарнізонної / караульної служби, ЗУ про військовий обов''язок і соцзахист військовослужбовців, наказ МО про ВЛК, постанови КМУ про виплати.'
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/ua/law-ua-military-statute-refs

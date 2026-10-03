@@ -1,6 +1,6 @@
 ---
 name: asog-sonderlagen-und-versammlungsgrenzen
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft die Grenzen Berliner ASOG-Maßnahmen bei Versammlungen, Gewaltschutz, privatem…'
 description: Prüft die Grenzen Berliner ASOG-Maßnahmen bei Versammlungen, Gewaltschutz, privatem Rechtsstreit und unfreiwilliger Obdachlosigkeit aus Beratungssicht.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-sonderlagen-und-versammlungsgrenzen

@@ -1,6 +1,6 @@
 ---
 name: wandeldarlehen-lebenszyklus-einstieg-routing
-title: 1. Wandeldarlehen und Bearbeitungsauftrag einordnen
+title: 'Wandeldarlehen und Bearbeitungsauftrag einordnen'
 description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Wandeldarlehen-Lebenszyklus.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wandeldarlehen-lebenszyklus/skills/einstieg-routing

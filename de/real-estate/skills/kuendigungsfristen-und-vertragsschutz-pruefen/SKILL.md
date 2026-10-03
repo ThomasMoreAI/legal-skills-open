@@ -1,6 +1,6 @@
 ---
 name: kuendigungsfristen-und-vertragsschutz-pruefen
-title: 1. Endtermin und Vertragsschutz bestimmen
+title: 'Endtermin und Vertragsschutz bestimmen'
 description: Bestimmt den frühesten Kündigungstermin aus Zugang, Überlassungsdauer und Vertragsschutz. Prüft Kündigungsausschluss und Befristung und hält Kündigungsfrist, Umwandlungssperrfrist, Härtewiderspruch und gerichtliche Fristen auseinander.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/eigenbedarfskuendigungschecker/skills/kuendigungsfristen-und-vertragsschutz-pruefen

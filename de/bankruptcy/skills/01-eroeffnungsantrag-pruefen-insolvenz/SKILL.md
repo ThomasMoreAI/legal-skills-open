@@ -1,6 +1,6 @@
 ---
 name: 01-eroeffnungsantrag-pruefen-insolvenz
-title: 1. Eröffnungsantrag aus gerichtlicher Sicht prüfen
+title: 'Eröffnungsantrag aus gerichtlicher Sicht prüfen'
 description: 'Für 01 Eröffnungsantrag Prüfen Insolvenz: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit Begründungs- und Anlagenlogik.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-amtsgericht-insolvenz-restrukturierung/skills/01-eroeffnungsantrag-pruefen-insolvenz

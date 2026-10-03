@@ -1,11 +1,11 @@
 ---
 name: greece-gemi-nolpak14
-title: greece-gemi
+title: 'Greece gemi'
 description: 'Look up Greek companies for free via the official GEMI OpenData API (Geniko Emporiko Mitroo, the General Commercial Registry run through the business portal) - company profile, GEMI number, AFM (tax number = Greek VAT id), legal form, status (active / liquidation / dissolved), registered seat, publicity documents, and board/representatives. Use for KYB / know-your-business checks, counterparty verification, director and representative discovery, and Greek company due diligence. Trigger on: ''GEMI'', ''Greek company'', ''Greek company lookup'', ''check a Greek company'', ''Greek business registry'', ''AFM'', ''Greek VAT number'', ''businessportal.gr'', ''is this Greek company active''. The GEMI OpenData API is free (test key works immediately, production key via a free access request); for jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/greece-gemi
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gr
 practice: corporate

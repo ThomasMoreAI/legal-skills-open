@@ -1,6 +1,6 @@
 ---
 name: research-start-anthropics
-title: /research-start
+title: 'Research start'
 description: Research roadmap for a legal issue — statutes to check, case law areas to investigate, regulatory frameworks, Westlaw search terms. Leads and frameworks, NOT authoritative citations; students verify and develop everything. Use when a student asks where to start researching, wants a research roadmap for an issue, or needs gaps identified in existing research.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/research-start

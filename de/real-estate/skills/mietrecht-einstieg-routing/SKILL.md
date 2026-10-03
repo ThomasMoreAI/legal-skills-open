@@ -1,6 +1,6 @@
 ---
 name: mietrecht-einstieg-routing
-title: 1. Mietrechtliche Unterlagen zum Ergebnis führen
+title: 'Mietrechtliche Unterlagen zum Ergebnis führen'
 description: 'Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Mietrecht.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/mietrecht/skills/einstieg-routing

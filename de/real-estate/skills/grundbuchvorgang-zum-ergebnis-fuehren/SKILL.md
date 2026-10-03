@@ -1,6 +1,6 @@
 ---
 name: grundbuchvorgang-zum-ergebnis-fuehren
-title: 1. Zweck und Anwendungsfall
+title: 'Hauptproblem-Skill für Grundbuchvorgänge von der vorhandenen Akte über Einsicht, Form…'
 description: Hauptproblem-Skill für Grundbuchvorgänge von der vorhandenen Akte über Einsicht, Form, Berechtigung und Rückfragen bis zum fertigen Schreiben und überprüften Vollzugsstand.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/grundbuchamt-assistent/skills/grundbuchvorgang-zum-ergebnis-fuehren

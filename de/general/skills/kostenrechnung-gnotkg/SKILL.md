@@ -1,6 +1,6 @@
 ---
 name: kostenrechnung-gnotkg
-title: 1. Notarielle Kostenberechnung vorbereiten
+title: 'Notarielle Kostenberechnung vorbereiten'
 description: Erstellt nachvollziehbare Entwürfe notarieller Kostenberechnungen aus Auftrag, Urkunde und Vollzug. Ordnet Kostenschuldner, Geschäftswerte, Gebührentatbestände, Auslagen und Vorschüsse zu, ohne feste Gebühren aus unverifizierten Tabellen zu erfinden.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/notariat-alltag/skills/kostenrechnung-gnotkg

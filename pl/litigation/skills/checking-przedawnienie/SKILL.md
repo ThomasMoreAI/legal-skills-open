@@ -1,6 +1,6 @@
 ---
 name: checking-przedawnienie
-title: law-pl-checking-przedawnienie
+title: 'Law PL checking przedawnienie'
 description: Use when checking Polish przedawnienie (art. 117–125 KC) — termin ogólny 6 lat vs szczególny 3 lata (okresowe / działalność), koniec roku kalendarzowego (reforma 2018), zawieszenie / przerwanie biegu, z urzędu wobec konsumenta, możliwość obejścia przedawnienia
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-checking-przedawnienie

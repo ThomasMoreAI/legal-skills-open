@@ -1,6 +1,6 @@
 ---
 name: eu-schwelle-vergabeordnung-richtlinie-2014-24
-title: 1. Auftragswert und EU-Schwelle
+title: 'Auftragswert und EU-Schwelle'
 description: Berechnet den vergaberechtlichen Auftragswert und prüft Schwellenwert, Losbildung und unzulässige Aufteilung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-vergaberecht/skills/eu-schwelle-vergabeordnung-richtlinie-2014-24

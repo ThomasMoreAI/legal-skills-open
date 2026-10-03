@@ -1,6 +1,6 @@
 ---
 name: kaltstart-krankenhausrecht
-title: 1. Krankenhausrechtlichen Auftrag bearbeiten
+title: 'Krankenhausrechtlichen Auftrag bearbeiten'
 description: 'Für Kaltstart Krankenhausrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/krankenhausrecht/skills/kaltstart-krankenhausrecht

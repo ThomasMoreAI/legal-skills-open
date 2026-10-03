@@ -8,7 +8,7 @@ Jurisdiction: `pl` · Practice: `social-security` · Skill language: pl
 
 | Skill | What it does |
 |---|---|
-| [`law-pl-applying-zus-procedures`](skills/applying-zus-procedures/) | Use when navigating ZUS procedures — rejestracja płatnika (ZFA/ZPA/ZUA/ZCNA), zgłoszenie pracowników… |
+| [`Law PL applying zus procedures`](skills/applying-zus-procedures/) | Use when navigating ZUS procedures — rejestracja płatnika (ZFA/ZPA/ZUA/ZCNA), zgłoszenie pracowników… |
 | [`Poland Benefits and Public Support`](skills/poland-benefits-support-xopoko/) | Benefits support. Use for Polish family benefits, social assistance, disability support, or Empatia routes. |
 | [`Poland Disability and Accessibility`](skills/poland-disability-accessibility-xopoko/) | Disability and accessibility services: route certification, PFRON support, workplace or education… |
 | [`Poland Public Employment Services`](skills/poland-employment-services-xopoko/) | Public employment services: route jobseeker registration, labour offices, unemployment status or… |

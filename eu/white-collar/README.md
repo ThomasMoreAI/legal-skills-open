@@ -10,8 +10,8 @@ Jurisdiction: `eu` · Practice: `white-collar` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`1. EU-Umstellung mit belastbaren Stichtagen`](skills/eu-geldwaescherecht-umstellung-2027/) | Bereitet Kanzlei, Unternehmen und Notariat auf das EU-Geldwäschepaket vor. Trennt geltendes GwG und… |
-| [`vies-vat-validation`](skills/vies-vat-validation-nolpak14/) | Validate any EU VAT number for free via the official EU VIES service - confirm a counterparty's VAT… |
+| [`EU-Umstellung mit belastbaren Stichtagen`](skills/eu-geldwaescherecht-umstellung-2027/) | Bereitet Kanzlei, Unternehmen und Notariat auf das EU-Geldwäschepaket vor. Trennt geltendes GwG und… |
+| [`Vies vat validation`](skills/vies-vat-validation-nolpak14/) | Validate any EU VAT number for free via the official EU VIES service - confirm a counterparty's VAT… |
 
 ## Cold-start context
 

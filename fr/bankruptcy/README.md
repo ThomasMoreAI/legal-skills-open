@@ -10,7 +10,7 @@ Jurisdiction: `fr` · Practice: `bankruptcy` · Skill language: fr
 
 | Skill | What it does |
 |---|---|
-| [`bodacc-watch`](skills/bodacc-watch-thewatcher01/) | Monitor BODACC (Bulletin Officiel des Annonces Civiles et Commerciales) for business signals: company… |
+| [`Bodacc watch`](skills/bodacc-watch-thewatcher01/) | Monitor BODACC (Bulletin Officiel des Annonces Civiles et Commerciales) for business signals: company… |
 
 ## Cold-start context
 

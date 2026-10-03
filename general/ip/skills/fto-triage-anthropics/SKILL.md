@@ -1,11 +1,11 @@
 ---
 name: fto-triage-anthropics
-title: /fto-triage
+title: 'Fto triage'
 description: Freedom-to-operate triage — a structured first look at potentially blocking patents, not an FTO opinion. Use when a product, process, or feature is being evaluated for blocking patents, when asked whether anything stops a launch, or to build a claim-chart first pass against the most plausible patents before patent counsel review. This skill never concludes a product is clear to launch.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ip-legal/skills/fto-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: ip

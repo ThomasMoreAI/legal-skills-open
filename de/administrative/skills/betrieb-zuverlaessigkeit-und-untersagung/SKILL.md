@@ -1,6 +1,6 @@
 ---
 name: betrieb-zuverlaessigkeit-und-untersagung
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft gewerbliche Zuverlässigkeit, Steuer- und Beitragsrückstände, Erlaubniswiderruf…'
 description: Prüft gewerbliche Zuverlässigkeit, Steuer- und Beitragsrückstände, Erlaubniswiderruf, Gewerbeuntersagung und Wiedergestattung. Erstellt belegte Stellungnahmen und realistische Sanierungsdarstellungen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-zuverlaessigkeit-und-untersagung

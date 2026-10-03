@@ -1,11 +1,11 @@
 ---
 name: quesitos-pericia-bossmann007
-title: /quesitos-pericia
+title: 'Quesitos pericia'
 description: 'Entrevista o advogado sobre a tese e gera quesitos de perícia (CPC arts. 464-480 [verified: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm]) + checklist de assistente técnico, por área (médica, contábil, engenharia, grafotécnica, ambiental). Quesito ruim = perícia perdida. Inclui guidance para quesitos suplementares e impugnação ao laudo.'
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/quesitos-pericia
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

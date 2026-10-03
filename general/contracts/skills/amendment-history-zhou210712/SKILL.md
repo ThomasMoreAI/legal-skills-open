@@ -1,11 +1,11 @@
 ---
 name: amendment-history-zhou210712
-title: /amendment-history
+title: 'Amendment history'
 description: 追溯合同从基础协议到所有修订的变更轨迹——可以是所有变更的时间线摘要， 也可以是特定条款的追踪。当用户说"这个合同历次改了什么""显示修订历史" "最新的[条款]在哪里""[条款]如何演变的"或上传多个版本的协议时使用。
 author: zhou210712
 author_url: https://github.com/zhou210712/claude-for-legal-ZH/tree/main/commercial-legal/skills/amendment-history
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

@@ -1,6 +1,6 @@
 ---
 name: versammlung-anzeige-und-kooperation
-title: 1. Anzeige und Kooperation bearbeiten
+title: 'Anzeige und Kooperation bearbeiten'
 description: Bereiten Sie die Anzeige einer Berliner Versammlung oder die Antwort im Kooperationsverfahren vor und unterscheiden Sie planbare, eilige und spontane Zusammenkünfte.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-anzeige-und-kooperation

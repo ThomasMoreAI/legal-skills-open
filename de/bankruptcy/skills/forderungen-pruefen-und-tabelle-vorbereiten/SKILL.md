@@ -1,6 +1,6 @@
 ---
 name: forderungen-pruefen-und-tabelle-vorbereiten
-title: 1. Forderungen prüfen und Tabelle vorbereiten
+title: 'Forderungen prüfen und Tabelle vorbereiten'
 description: Bearbeitet Forderungsanmeldungen vom Akteneingang bis zum begründeten Prüfvorschlag je Gläubiger mit Tabellenzeile und Briefentwurf. Trennt Betrag, Rang, Sicherheiten, Termine und gerichtlichen Prüfstatus; bereitet nur eine manuell freizugebende Übergabe vor.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/insolvenzforderungen-checker/skills/forderungen-pruefen-und-tabelle-vorbereiten

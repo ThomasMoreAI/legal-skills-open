@@ -12,11 +12,11 @@ Jurisdiction: `br` · Practice: `corporate` · Skill language: pt
 |---|---|
 | [`AI Tool Handoff`](skills/ai-tool-handoff-bossmann007/) | Detects when Luminance, Kira, or a similar bulk-review tool is in use, hands off the high-volume clause… |
 | [`Ata de Reunião / Assembleia`](skills/board-minutes-bossmann007/) | Redige atas de reunião de sócios (Ltda.), assembleia de acionistas ou reunião de conselho de… |
-| [`/cold-start-interview`](skills/cold-start-interview-12/) | House cold-start interview (request list + prior memo), or --new-deal for deal-specific context.… |
+| [`Cold start interview`](skills/cold-start-interview-12/) | House cold-start interview (request list + prior memo), or --new-deal for deal-specific context.… |
 | [`/customize`](skills/customize-9/) | Guided customization of your corporate practice profile — change one thing without re-running the whole… |
-| [`/entity-compliance`](skills/entity-compliance-bossmann007/) | Tracker de compliance societário — inicializa, reporta prazos próximos, atualiza status, roda auditoria… |
-| [`/matter-workspace`](skills/matter-workspace/) | Manage matter workspaces — create, list, switch, close, or detach the active matter so multi-client… |
-| [`/written-consent`](skills/written-consent-bossmann007/) | Redige deliberação por escrito de sócios (Ltda.) ou do conselho de administração (S.A.) no formato da… |
+| [`Entity compliance`](skills/entity-compliance-bossmann007/) | Tracker de compliance societário — inicializa, reporta prazos próximos, atualiza status, roda auditoria… |
+| [`Matter workspace`](skills/matter-workspace/) | Manage matter workspaces — create, list, switch, close, or detach the active matter so multi-client… |
+| [`Written consent`](skills/written-consent-bossmann007/) | Redige deliberação por escrito de sócios (Ltda.) ou do conselho de administração (S.A.) no formato da… |
 
 ## Cold-start context
 

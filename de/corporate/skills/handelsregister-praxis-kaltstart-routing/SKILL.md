@@ -1,6 +1,6 @@
 ---
 name: handelsregister-praxis-kaltstart-routing
-title: 1. Registervorgang klären und bearbeiten
+title: 'Registervorgang klären und bearbeiten'
 description: 'Für Kaltstart-Interview und Registerfahrplan: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-praxis/skills/kaltstart-routing

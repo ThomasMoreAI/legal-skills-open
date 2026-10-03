@@ -1,11 +1,11 @@
 ---
 name: subpoena-triage-bossmann007
-title: /subpoena-triage
+title: 'Subpoena triage'
 description: Triage a determinação de exibição de documento por terceiro (CPC art. 401) or intimação de testemunha (CPC art. 455) served on the company — the Brazilian analogs to a US subpoena — classify it, analyze scope/burden/privilege, cross-check the portfolio, and produce an objections framework, compliance plan, and deadline calendar. Use when the user says "recebemos uma intimação/ordem de exibição", "fomos intimados como terceiro", or shares an intimação, ofício de autoridade, or third-party document request to evaluate.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/litigation-legal/skills/subpoena-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: litigation

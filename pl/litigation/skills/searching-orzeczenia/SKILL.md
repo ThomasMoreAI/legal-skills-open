@@ -1,6 +1,6 @@
 ---
 name: searching-orzeczenia
-title: law-pl-searching-orzeczenia
+title: 'Law PL searching orzeczenia'
 description: Use when searching Polish court decisions across the Common Courts Portal (Portal Orzeczeń Sądów Powszechnych), Supreme Court database (sn.pl), Supreme Administrative Court (NSA / WSA), Constitutional Tribunal (TK), or Court of Justice of the EU; verifying case citations; retrieving rulings by sygnatura akt; locating judicial practice on a specific legal issue
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-searching-orzeczenia

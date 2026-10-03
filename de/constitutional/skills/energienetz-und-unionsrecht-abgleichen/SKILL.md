@@ -1,6 +1,6 @@
 ---
 name: energienetz-und-unionsrecht-abgleichen
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft die Umsetzung eines Artikel-15-Energienetzvorhabens an Entflechtung…'
 description: Prüft die Umsetzung eines Artikel-15-Energienetzvorhabens an Entflechtung, Wegenutzungsverträgen, EU-Grundfreiheiten und Beihilfen. Erarbeitet einen konkreten Übergangsvermerk und Vertragsänderungen für Betreiberwechsel, Finanzierung, fremde Leittechnik und betriebliche Datenzugänge.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/energienetz-und-unionsrecht-abgleichen

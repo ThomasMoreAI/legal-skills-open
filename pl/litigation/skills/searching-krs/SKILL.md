@@ -1,6 +1,6 @@
 ---
 name: searching-krs
-title: law-pl-searching-krs
+title: 'Law PL searching krs'
 description: Use when identifying Polish legal entities, verifying reprezentację (zarząd, pełnomocnictwa), adresy do doręczeń, postępowania upadłościowe / restrukturyzacyjne, sprawozdania finansowe — KRS dla spółek i stowarzyszeń, CEIDG dla JDG, KRD / BIG InfoMonitor, MSiG
 author: crankshift
 author_url: https://github.com/crankshift/lawpowers/tree/main/skills/pl/law-pl-searching-krs

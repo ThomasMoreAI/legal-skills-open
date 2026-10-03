@@ -1,6 +1,6 @@
 ---
 name: auslandsvertretung-und-urkunden
-title: 1. Ausländische Gesellschaften und Urkunden
+title: 'Ausländische Gesellschaften und Urkunden'
 description: Ordnet fremdes Gesellschaftsrecht, Existenz, Organbestellung, Vertretungsmacht, Echtheit und Form getrennt und entwickelt konkrete alternative Nachweispakete.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/handelsregister-assistent/skills/auslandsvertretung-und-urkunden

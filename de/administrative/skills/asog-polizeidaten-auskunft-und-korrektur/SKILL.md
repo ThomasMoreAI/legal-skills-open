@@ -1,6 +1,6 @@
 ---
 name: asog-polizeidaten-auskunft-und-korrektur
-title: 1. Zweck und Anwendungsfall
+title: 'Erstellt gezielte Berliner Anträge auf Auskunft, Berichtigung, Einschränkung oder…'
 description: Erstellt gezielte Berliner Anträge auf Auskunft, Berichtigung, Einschränkung oder Löschung polizeilicher Daten und trennt die einschlägigen Datenschutzregime.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-asog-polizeirecht/skills/asog-polizeidaten-auskunft-und-korrektur

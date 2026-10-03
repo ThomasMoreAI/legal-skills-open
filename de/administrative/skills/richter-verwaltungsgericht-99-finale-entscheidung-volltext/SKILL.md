@@ -1,6 +1,6 @@
 ---
 name: richter-verwaltungsgericht-99-finale-entscheidung-volltext
-title: 1. Verwaltungsgerichtsurteil vollständig ausarbeiten
+title: 'Verwaltungsgerichtsurteil vollständig ausarbeiten'
 description: 'Für Finale Entscheidung als Volltext (Urteil Verwaltungsgericht): ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/gerichtsplugins/richter-verwaltungsgericht/skills/99-finale-entscheidung-volltext

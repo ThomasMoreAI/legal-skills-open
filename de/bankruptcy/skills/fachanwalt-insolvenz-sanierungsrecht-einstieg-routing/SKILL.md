@@ -1,6 +1,6 @@
 ---
 name: fachanwalt-insolvenz-sanierungsrecht-einstieg-routing
-title: 1. Insolvenz- und Sanierungsmandat einordnen
+title: 'Insolvenz- und Sanierungsmandat einordnen'
 description: 'Für Anwalts-Dashboard Fachanwalt Insolvenz- und Sanierungsrecht: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/fachanwalt-insolvenz-sanierungsrecht/skills/einstieg-routing

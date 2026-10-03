@@ -1,6 +1,6 @@
 ---
 name: vergabe-und-losbildung-vorbereiten
-title: 1. Vergabeverfahren und fachlich begründete Lose vorbereiten
+title: 'Vergabeverfahren und fachlich begründete Lose vorbereiten'
 description: Erstellt Vergabefahrplan, Auftragswertschätzung und Loskonzept für Bauherren und Vergabeteams. Prüft Auftraggeber, Leistung, Zeitpunkt, Landesrecht und Förderbindung; keine pauschale Verfahrenswahl aus einer zeitlosen Wertgrenze.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/vergabe-und-losbildung-vorbereiten

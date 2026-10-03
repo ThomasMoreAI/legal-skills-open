@@ -1,6 +1,6 @@
 ---
 name: versorgungsakte-dokumentenintake
-title: versorgungsakte-dokumentenintake-und-berechnung
+title: 'Versorgungsakte dokumentenintake und berechnung'
 description: 'Für versorgungsakte-dokumentenintake-und-berechnung: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/beamtenrecht/skills/versorgungsakte-dokumentenintake

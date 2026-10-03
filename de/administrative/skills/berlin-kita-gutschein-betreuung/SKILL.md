@@ -1,6 +1,6 @@
 ---
 name: berlin-kita-gutschein-betreuung
-title: 1. Zweck und Anwendungsfall
+title: 'Berliner Kita-Gutschein, bedarfsgerechten Platz, Betreuungsumfang und Kita-Vertrag aus…'
 description: Berliner Kita-Gutschein, bedarfsgerechten Platz, Betreuungsumfang und Kita-Vertrag aus Eltern- und Kindersicht bis zu Antrag, Schreiben oder passendem Rechtsschutz bearbeiten.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-kita-gutschein-betreuung

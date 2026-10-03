@@ -1,6 +1,6 @@
 ---
 name: hoai-6-leistungsverzeichnis-und-vergabeunterlagen-erstel
-title: 1. Aus der Ausführungsplanung ein vollständiges Vergabepaket erstellen
+title: 'Aus der Ausführungsplanung ein vollständiges Vergabepaket erstellen'
 description: Erstellt die Vergabeunterlagen für Gebäude nach HOAI-Leistungsphase 6 mit Mengennachweis, Langtext-LV, getrennten ungepreisten und bepreisten Fassungen, Kostenabgleich und Vergabeterminplan. Für zusammenhängende Vergabevorbereitung, nicht für einzelne Rechnungen, Bieterfragen oder isolierte LV-Korrekturen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/hoai-6-leistungsverzeichnis-und-vergabeunterlagen-erstellen

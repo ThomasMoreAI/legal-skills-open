@@ -1,6 +1,6 @@
 ---
 name: professur-berufung-und-konkurrenz
-title: 1. Zweck und Anwendungsfall
+title: 'Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen…'
 description: Prüft Berliner Professurausschreibungen, Auswahlverfahren und Konkurrentenmitteilungen aus Bewerbersicht und erstellt Einwendungen oder vorbereiteten Eilrechtsschutz. Keine Studienplatzzulassung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-hochschulrecht-professoren/skills/professur-berufung-und-konkurrenz

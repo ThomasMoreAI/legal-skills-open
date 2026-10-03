@@ -1,11 +1,11 @@
 ---
 name: subpoena-triage-anthropics
-title: /subpoena-triage
+title: 'Subpoena triage'
 description: Triage a subpoena served on the company — classify it, analyze scope/burden/privilege, cross-check the portfolio, and produce an objections framework, compliance plan, and deadline calendar. Use when the user says "we got a subpoena", "served with a subpoena", or shares a subpoena, CID, or third-party document request to evaluate.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/litigation-legal/skills/subpoena-triage
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

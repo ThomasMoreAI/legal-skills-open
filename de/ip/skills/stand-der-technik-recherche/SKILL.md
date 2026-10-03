@@ -1,6 +1,6 @@
 ---
 name: stand-der-technik-recherche
-title: stand-der-technik-recherche
+title: 'Stand der technik recherche'
 description: 'Für stand-der-technik-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/stand-der-technik-recherche

@@ -1,6 +1,6 @@
 ---
 name: betrieb-kontrolle-und-anhoerung
-title: 1. Zweck und Anwendungsfall
+title: 'Ordnet Berliner Betriebskontrollen, Nachforderungen, Anhörungen und belastende…'
 description: Ordnet Berliner Betriebskontrollen, Nachforderungen, Anhörungen und belastende Verfügungen ein. Erstellt ausformulierte Behördenantworten, sichert Belege und Fristen und trennt Abhilfe, Rechtsbehelf und Vollzug.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-gewerbeaufsicht-betrieb/skills/betrieb-kontrolle-und-anhoerung

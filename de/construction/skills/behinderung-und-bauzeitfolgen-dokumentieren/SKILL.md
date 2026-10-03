@@ -1,6 +1,6 @@
 ---
 name: behinderung-und-bauzeitfolgen-dokumentieren
-title: 1. Behinderung mit konkreter Bauablaufwirkung dokumentieren
+title: 'Behinderung mit konkreter Bauablaufwirkung dokumentieren'
 description: Erstellt Behinderungsanzeige, Antwort und ereignisbezogenen Bauzeitnachweis aus Sollablauf, tatsächlicher Störung und Ressourcen. Trennt Ursache, Fristfolge und Geldanspruch; keine pauschale Addition aller Verzögerungstage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/behinderung-und-bauzeitfolgen-dokumentieren

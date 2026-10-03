@@ -1,11 +1,11 @@
 ---
 name: integration-management
-title: /integration-management
+title: 'Integration management'
 description: Post-closing M&A integration tracker — phased workplan, consent tracking, contract assignment at scale, weekly status reports. Initializes from whatever deal artifacts are available (purchase agreement, deal summary, closing checklist) and connects to deal-context.md and closing-checklist.yaml from the M&A cold-start. Use when user says "integration", "post-close", "post-closing", "consents outstanding", "contract assignment", "integration status", or "what's left on the deal".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/corporate-legal/skills/integration-management
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: corporate

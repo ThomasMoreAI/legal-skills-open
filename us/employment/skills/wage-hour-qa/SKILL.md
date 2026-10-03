@@ -1,11 +1,11 @@
 ---
 name: wage-hour-qa
-title: /wage-hour-qa
+title: 'Wage hour qa'
 description: Jurisdiction-aware wage/hour and employment Q&A — classification, overtime, meal/rest breaks, leave, final pay — answered for the specific state/country with the controlling rule researched and cited rather than stated from memory. Use when the user asks any employment law question, or says "what's the rule in [state]", "is this exempt", "do we have to pay overtime for", or "can we classify this as".
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/employment-legal/skills/wage-hour-qa
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment

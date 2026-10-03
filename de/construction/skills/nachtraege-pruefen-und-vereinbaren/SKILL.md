@@ -1,6 +1,6 @@
 ---
 name: nachtraege-pruefen-und-vereinbaren
-title: 1. Nachtrag sachlich prüfen, rechnen und vollständig vereinbaren
+title: 'Nachtrag sachlich prüfen, rechnen und vollständig vereinbaren'
 description: Prüft Bauleistungsänderungen und Nachtragsangebote nach Ursache, Beauftragung, Mengen, Preis und Bauzeit und erstellt Prüfblatt oder Nachtragsvereinbarung. Trennt Angebotsbetrag, Prognose und verbindlich vereinbarte Vergütung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/bauwirtschaft/skills/nachtraege-pruefen-und-vereinbaren

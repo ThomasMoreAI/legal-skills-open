@@ -1,11 +1,11 @@
 ---
 name: client-letter-anthropics
-title: /client-letter
+title: 'Client letter'
 description: Routine client correspondence from templates — appointment confirmations, document requests, brief "we filed it" updates. Plain language, required elements, supervision routing. NOT substantive advice. Use when a student needs to send routine correspondence, an appointment confirmation, a document request letter, or a brief status note to a client.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/client-letter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

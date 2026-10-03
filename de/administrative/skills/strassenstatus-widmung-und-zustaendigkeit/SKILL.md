@@ -1,6 +1,6 @@
 ---
 name: strassenstatus-widmung-und-zustaendigkeit
-title: 1. Straßenstatus, Widmung und Zuständigkeit
+title: 'Straßenstatus, Widmung und Zuständigkeit'
 description: Klärt bei Streit über öffentliche Straßen zuerst Widmung, tatsächliche Verkehrsöffnung, Straßenklasse und Zuständigkeit und erstellt daraus den passenden Vermerk oder eine gezielte Behördenanfrage.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/strassennutzung-genehmigungen/skills/strassenstatus-widmung-und-zustaendigkeit

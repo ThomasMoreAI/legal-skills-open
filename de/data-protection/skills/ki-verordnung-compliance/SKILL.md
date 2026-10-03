@@ -1,6 +1,6 @@
 ---
 name: ki-verordnung-compliance
-title: 1. Systemregulierung und Datenschutz zusammen prüfen
+title: 'Systemregulierung und Datenschutz zusammen prüfen'
 description: Verbindet die Verordnung EU 2024/1689 mit der Datenschutzprüfung eines konkreten Systems. Trennt Rollen, Risikoklasse, neue Fristen, sensible Daten nach Artikel 4a und deutsche Aufsicht, ohne Reformvorschläge als geltendes Datenschutzrecht auszugeben.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/datenschutzrecht/skills/ki-verordnung-compliance

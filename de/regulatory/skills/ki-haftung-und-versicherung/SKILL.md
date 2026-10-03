@@ -1,6 +1,6 @@
 ---
 name: ki-haftung-und-versicherung
-title: 1. Agentenschaden, Zurechnung und Versicherung prüfen
+title: 'Agentenschaden, Zurechnung und Versicherung prüfen'
 description: Prüft Schaden, Verantwortungsbeitrag und Versicherung bei fehlerhaften KI-Ausgaben oder autonomen Agentenhandlungen. Trennt Vertrags-, Datenschutz-, Delikts- und Produkthaftung und erstellt Anspruchsabwehr, Deckungsanfrage oder begründete Leitungsentscheidung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ki-governance/skills/ki-haftung-und-versicherung

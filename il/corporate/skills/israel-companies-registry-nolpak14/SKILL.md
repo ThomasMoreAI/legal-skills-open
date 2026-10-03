@@ -1,11 +1,11 @@
 ---
 name: israel-companies-registry-nolpak14
-title: israel-companies-registry
+title: 'Israel companies registry'
 description: 'Look up Israeli companies for free via the official Israel Corporations Authority (Rasham HaChavarot) open data on data.gov.il - company number, Hebrew and English name, company type, active/struck-off status, violating-company flag, registration date, purpose, and registered address. Fully keyless, no auth. Use for KYB / know-your-business checks, counterparty verification, and Israeli company due diligence. Trigger on: ''Israel company lookup'', ''Israeli companies registrar'', ''Rasham HaChavarot'', ''rasham hachavarot'', ''ICA'', ''company number Israel'', ''is this Israeli company active'', ''Israeli company struck off'', ''mispar chevra''. The Israel dataset is free and needs no key; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/israel-companies-registry
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: corporate

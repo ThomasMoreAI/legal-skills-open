@@ -1,6 +1,6 @@
 ---
 name: freedom-to-operate-recherche
-title: freedom-to-operate-recherche
+title: 'Freedom to operate recherche'
 description: 'Für freedom-to-operate-recherche: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/patentrecherche/skills/freedom-to-operate-recherche

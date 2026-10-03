@@ -1,11 +1,11 @@
 ---
 name: build-guide
-title: /build-guide
+title: 'Build guide'
 description: Help a clinic supervisor author a practice-area guide that configures how student-facing skills behave — intake questions, pedagogy posture (assist / guide / teach), review gates, cross-plugin checks, and local rules. Use when a supervising attorney wants to build or revise a per-practice-area guide, tune how the clinic skills behave for their clinic type, or set their teaching philosophy as plugin configuration.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/legal-clinic/skills/build-guide
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

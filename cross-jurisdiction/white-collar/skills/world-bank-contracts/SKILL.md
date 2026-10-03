@@ -1,6 +1,6 @@
 ---
 name: world-bank-contracts
-title: world-bank-contracts
+title: 'World bank contracts'
 description: 'Search World Bank-financed contracts and projects for free via the official World Bank Search API - find which World Bank contracts a company has won, who won World Bank contracts, contract-award amounts and winning suppliers, development-finance projects by country/sector, and awards by supplier country. Use for KYB / due-diligence credibility signals (which World Bank contracts has this company won) and for development-finance supplier lead generation. Trigger on: ''World Bank contracts'', ''World Bank projects'', ''development finance'', ''contract awards'', ''who won World Bank contracts'', ''World Bank supplier lookup'', ''World Bank-financed contract'', ''which World Bank contracts did this company win'', ''World Bank procurement'', ''IBRD/IDA contract''. The World Bank Search API is free and keyless; to resolve the winning company it routes to the free registry skills and the paid regdata actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/world-bank-contracts

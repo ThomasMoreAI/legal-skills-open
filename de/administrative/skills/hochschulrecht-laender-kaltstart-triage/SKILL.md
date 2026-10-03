@@ -1,6 +1,6 @@
 ---
 name: hochschulrecht-laender-kaltstart-triage
-title: 1. Hochschulrechtlichen Auftrag bearbeiten
+title: 'Hochschulrechtlichen Auftrag bearbeiten'
 description: 'Für Allgemein: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt. Fachgebiet: Hochschulrecht der Bundesländer.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/hochschulrecht-laender/skills/kaltstart-triage

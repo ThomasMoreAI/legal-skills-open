@@ -1,6 +1,6 @@
 ---
 name: anhoerung-und-eigentuemerstellungnahme-erstellen
-title: 1. Zweck und Anwendungsfall
+title: 'Verfasst eine konkrete Anhörungs- oder Eigentümerstellungnahme zu einem…'
 description: Verfasst eine konkrete Anhörungs- oder Eigentümerstellungnahme zu einem Artikel-15-Vergesellschaftungsvorhaben. Vertritt die festgelegte Mandatsrolle aus Originalbelegen, würdigt Gegenargumente und beantragt bestimmte Änderungen statt neutraler Lehrbuchdarstellung oder ungefragtem Gerichtsverfahren.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/vergesellschaftung-artikel-15/skills/anhoerung-und-eigentuemerstellungnahme-erstellen

@@ -1,6 +1,6 @@
 ---
 name: berlin-bildungsmandat-steuern
-title: 1. Zweck und Anwendungsfall
+title: 'Ein Berliner Kita- oder Schulproblem aus Eltern- und Schülersicht aufnehmen, die nötigen…'
 description: Ein Berliner Kita- oder Schulproblem aus Eltern- und Schülersicht aufnehmen, die nötigen Fachzweige verbinden und nach Rückantworten bis zum verlangten vollständigen Ergebnis fortführen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-schulrecht-eltern-schueler/skills/berlin-bildungsmandat-steuern

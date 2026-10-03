@@ -1,6 +1,6 @@
 ---
 name: personalmassnahme-pruefen-und-dokumentieren
-title: 1. Personalmaßnahme mit Beteiligung und Betriebsübergabe vorbereiten
+title: 'Personalmaßnahme mit Beteiligung und Betriebsübergabe vorbereiten'
 description: Prüft eine konkrete Personalmaßnahme aus Sicht des laufend beratenen Arbeitgebers und erstellt Änderungsangebot, Abmahnung, Anhörung oder Kündigungsentwurf. Verbindet betriebliche Entscheidung, Beteiligung, Schutzrechte, Übergabe und Datenzugriff, ohne Personalabbau allein aus Liquiditätsdruck zu rechtfertigen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/wirtschaftsanwalt/skills/personalmassnahme-pruefen-und-dokumentieren

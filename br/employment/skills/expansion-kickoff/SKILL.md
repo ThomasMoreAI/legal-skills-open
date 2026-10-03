@@ -1,6 +1,6 @@
 ---
 name: expansion-kickoff
-title: /expansion-kickoff
+title: 'Expansion kickoff'
 description: Kick off international expansion planning for a new country — gathers intake, runs EOR vs. entity framing, drafts cross-functional questions, surfaces country-specific flags, and creates a persistent tracker. Use when someone says "we're hiring in [country]", "expansion to [country]", or "first hire in [country]".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/employment-legal/skills/expansion-kickoff

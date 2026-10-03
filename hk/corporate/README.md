@@ -10,7 +10,7 @@ Jurisdiction: `hk` · Practice: `corporate` · Skill language: en
 
 | Skill | What it does |
 |---|---|
-| [`hong-kong-companies`](skills/hong-kong-companies-nolpak14/) | Look up Hong Kong companies for free via the official Companies Registry open-data API on data.gov.hk /… |
+| [`Hong kong companies`](skills/hong-kong-companies-nolpak14/) | Look up Hong Kong companies for free via the official Companies Registry open-data API on data.gov.hk /… |
 
 ## Cold-start context
 

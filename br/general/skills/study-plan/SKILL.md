@@ -1,6 +1,6 @@
 ---
 name: study-plan
-title: /study-plan
+title: 'Study plan'
 description: Build or update a long-term bar prep (or exam prep) study plan — phases, subjects weighted by weakness, daily session schedule, adaptive to session history in study-plan.yaml. Use when the user says "build a study plan", "plan my bar prep", "schedule my studying", or "how should I study for [X]".
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/law-student/skills/study-plan

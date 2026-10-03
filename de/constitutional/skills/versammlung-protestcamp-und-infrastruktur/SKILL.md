@@ -1,6 +1,6 @@
 ---
 name: versammlung-protestcamp-und-infrastruktur
-title: 1. Protestcamp und Infrastruktur begründen
+title: 'Protestcamp und Infrastruktur begründen'
 description: Prüfen Sie ein Berliner Protestcamp mit Zelten, Nachtpräsenz, Verpflegung und Sanitärbedarf und verfassen Sie ein konsistentes Konzept oder Änderungsgesuch.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/berliner-versammlungsrecht/skills/versammlung-protestcamp-und-infrastruktur

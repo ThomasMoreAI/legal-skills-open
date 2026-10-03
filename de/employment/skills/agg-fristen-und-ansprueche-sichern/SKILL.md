@@ -1,6 +1,6 @@
 ---
 name: agg-fristen-und-ansprueche-sichern
-title: 1. AGG-Fristen sichern
+title: 'AGG-Fristen sichern'
 description: Prüft Ausschlussfristen und erstellt eine konkrete Anspruchsgeltendmachung nach dem AGG. Trennt arbeitsrechtliche Schriftform, Entschädigungsklage und zivilrechtliche Frist von interner Beschwerde, Beratung und daneben laufenden Kündigungsschutzfristen.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/antidiskriminierung-agg/skills/agg-fristen-und-ansprueche-sichern

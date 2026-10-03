@@ -1,6 +1,6 @@
 ---
 name: kaltstart-risikoampel-und-gegenargumente
-title: 1. Einwände prüfen und den Entwurf verbessern
+title: 'Einwände prüfen und den Entwurf verbessern'
 description: Prüft einen juristischen Entwurf auf die entscheidenden Einwände und überarbeitet seine Begründung. Verbindet Tatsachen, Belege und Rechtsfolgen, klärt erhebliche Lücken und liefert die korrigierte Vertrags-, Brief- oder Schriftsatzfassung.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/word-legal-ai-plugin-and-skill-for-german-lawyers/skills/kaltstart-risikoampel-und-gegenargumente

@@ -1,6 +1,6 @@
 ---
 name: cold-start-interview-4
-title: /cold-start-interview
+title: 'Cold start interview'
 description: Run the cold-start interview to learn your commercial contracts practice and write your team practice profile. Use on first use of the plugin, when `~/.claude/plugins/config/claude-for-legal/commercial-legal/CLAUDE.md` is missing or still contains template placeholders, or when the user says "set up the plugin", "configure commercial contracts", "onboard me", or "let's get started". This is the only skill that should run on a fresh install.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/commercial-legal/skills/cold-start-interview

@@ -1,11 +1,11 @@
 ---
 name: marketing-claims-review-bossmann007
-title: /marketing-claims-review
+title: 'Marketing claims review'
 description: Review marketing copy for claims that need substantiation, reframing, or cutting. Use when the user says "review this marketing copy", "check these claims", "can we say this", "is this puffery or a problem", or pastes marketing content (landing pages, emails, ads, taglines).
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/product-legal/skills/marketing-claims-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: consumer

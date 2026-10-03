@@ -1,11 +1,11 @@
 ---
 name: dopingverfahren-verteidigung-borghei
-title: /sportrecht:dopingverfahren-verteidigung
+title: 'Dopingverfahren verteidigung'
 description: Verteidigung der Athletin/des Athleten im sportrechtlichen Dopingverfahren – Anhörung bei NADA, Verbandsschiedsgericht, CAS-Berufung; WADC Art. 2.1 verschuldensunabhängige Anwesenheit, Sanktionsmilderung Art. 10.5/10.6 (No Significant Fault); Parallelverfahren § 4 IV AntiDopG (Selbstdoping Spitzensportler) und Verhältnis Sport-/Strafrecht; Whereabouts, B-Probe, Berufsverbot Art. 12 GG. Use when eine positive Probe gemeldet wurde, die NADA zur Anhörung lädt, ein Verband eine Sperre aussprechen oder bereits ausgesprochen hat, oder eine CAS-Berufung vorbereitet werden muss.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/sportrecht/skills/dopingverfahren-verteidigung
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sports

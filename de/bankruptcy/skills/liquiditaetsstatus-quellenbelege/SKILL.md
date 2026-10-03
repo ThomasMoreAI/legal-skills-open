@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsstatus-quellenbelege
-title: 1. Liquiditätsstatus nur aus belastbaren Quellenbelegen
+title: 'Liquiditätsstatus nur aus belastbaren Quellenbelegen'
 description: 'Für Liquiditätsstatus nur aus belastbaren Quellenbelegen: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/liquiditaetsstatus-quellenbelege

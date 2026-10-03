@@ -1,11 +1,11 @@
 ---
 name: pia-generation-bossmann007
-title: /pia-generation
+title: 'Pia generation'
 description: Gera um Relatório de Impacto à Proteção de Dados Pessoais (RIPD — Art. 38 LGPD, equivalente brasileiro à DPIA) em formato de casa para nova funcionalidade, produto ou atividade de tratamento, usando a estrutura aprendida do seu RIPD-semente. Use quando o usuário disser "escreve um RIPD", "relatório de impacto para", "precisa de RIPD pra isso", "revisão de privacidade dessa feature", ou descrever nova atividade de tratamento de dados.
 author: Bossmann007
 author_url: https://github.com/Bossmann007/claude-legal-br/tree/main/privacy-legal/skills/pia-generation
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: br
 practice: data-protection

@@ -1,6 +1,6 @@
 ---
 name: ordnungswidrigkeitenrecht-kaltstart-triage
-title: 1. Bußgeldrechtlichen Auftrag bearbeiten
+title: 'Bußgeldrechtlichen Auftrag bearbeiten'
 description: 'Für Ordnungswidrigkeitenrecht - Allgemeiner Einstieg: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/ordnungswidrigkeitenrecht/skills/kaltstart-triage

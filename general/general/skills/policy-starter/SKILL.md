@@ -1,11 +1,11 @@
 ---
 name: policy-starter
-title: /policy-starter
+title: 'Policy starter'
 description: Draft a firm AI usage policy from published model policies, adapted to your practice profile — a research-and-synthesis tool whose output is a draft for attorney review and adoption, not a finished policy. Use when user says "draft an AI policy", "we need an AI policy", "build an AI usage policy", "our firm needs a GenAI policy", or similar requests to generate a first-cut internal AI policy.
 author: anthropics
 author_url: https://github.com/anthropics/claude-for-legal/tree/main/ai-governance-legal/skills/policy-starter
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

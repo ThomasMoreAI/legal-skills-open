@@ -1,6 +1,6 @@
 ---
 name: liquiditaetsplanung-juristischer-argumentationskern
-title: 1. Juristischer Argumentationskern - Liquiditätsplanung
+title: 'Juristischer Argumentationskern - Liquiditätsplanung'
 description: Schaltet sich ein, wenn in Liquiditätsplanung ein juristisches Arbeitsprodukt tragfähig begründet werden muss; verbindet konkrete Aktenfundstellen mit Tatbestandsmerkmal, Beweislast, stärkster Gegenposition und Rechtsfolge.
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/liquiditaetsplanung/skills/juristischer-argumentationskern

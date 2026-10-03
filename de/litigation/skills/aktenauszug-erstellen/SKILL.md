@@ -1,6 +1,6 @@
 ---
 name: aktenauszug-erstellen
-title: 1. Aktenauszug erstellen
+title: 'Aktenauszug erstellen'
 description: 'Für Aktenauszug Erstellen — Hauptworkflow: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem Schritt.'
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenauszug-gerichtsverfahren/skills/aktenauszug-erstellen
