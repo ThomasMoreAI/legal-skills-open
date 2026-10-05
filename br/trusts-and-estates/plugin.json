@@ -1,0 +1,23 @@
+{
+  "name": "br-trusts-and-estates",
+  "displayName": "Trusts & Estates — BR",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "trusts-and-estates",
+  "language": "en",
+  "skills": [
+    "skills/acervo-dividas-e-valores-do-inventario-sbroggioadv",
+    "skills/alienacao-do-espolio-para-despesas-sbroggioadv",
+    "skills/cessao-hereditaria-na-via-extrajudicial-sbroggioadv",
+    "skills/interessados-meacao-e-heranca-sbroggioadv",
+    "skills/inventario-com-menor-ou-incapaz-sbroggioadv",
+    "skills/inventario-com-testamento-sbroggioadv",
+    "skills/preparacao-de-inventario-extrajudicial-sbroggioadv",
+    "skills/proposta-de-partilha-extrajudicial-sbroggioadv",
+    "skills/renuncia-hereditaria-na-via-extrajudicial-sbroggioadv",
+    "skills/sobrepartilha-negativo-e-adjudicacao-sbroggioadv"
+  ]
+}

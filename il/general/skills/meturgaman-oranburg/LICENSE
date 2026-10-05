@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2026 Seth C. Oranburg
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+--------------------------------------------------------------------------
+A note on what this licence does and does not cover
+--------------------------------------------------------------------------
+
+The MIT licence above covers the code and the documentation in this
+repository.
+
+It does not and cannot cover the texts this software retrieves. Those carry
+their own licences, which the tool reports rather than assumes:
+
+  Sefaria          per-edition; the API returns a `license` field for every
+                   version, and this tool surfaces it rather than hiding it.
+  Hebcal           CC-BY-4.0, attribution required.
+  PocketTorah      CC-BY-SA, attribution required.
+
+Neither does it cover the published romanization standards in `sources/`.
+Those PDFs are not committed. Two of the five are copyrighted commercial
+publications, and `sources/manifest.md` records where each one came from and
+what its rights status is.
+
+What is committed is the table data extracted from those standards, in
+`schemes/`. A table of romanization correspondences is a set of facts about
+how one writing system maps onto another, and facts are not protectable
+expression.

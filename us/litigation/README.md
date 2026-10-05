@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 
-## Skills (190)
+## Skills (210)
 
 | Skill | What it does |
 |---|---|
@@ -30,6 +30,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Motion for Attorneys' Fees`](skills/attorneys-fees-motion/) | Drafts post-judgment motions for attorneys' fees using the lodestar method. Covers prevailing party… |
 | [`Bill of Costs on Appeal`](skills/bill-of-costs-appeal/) | Drafts an itemized Bill of Costs on Appeal under FRAP 39 or state equivalent for the prevailing party to… |
 | [`Bill of Costs on Appeal`](skills/bill-of-costs-on-appeal/) | Drafts a verified U.S. appellate Bill of Costs itemizing taxable costs under FRAP 39 or state analogs.… |
+| [`Brief Writing`](skills/brief-writing-judicialmind/) | Legal brief writing skill for appellate and motion practice. Use when the user needs assistance with… |
 | [`California Case Deadlines`](skills/ca-deadlines/) | Use for timing and deadlines in California civil cases. Triggers include "when is my answer due… |
 | [`California Discovery Response Builder`](skills/ca-discovery-response/) | Drafts code-compliant California responses to Requests for Production (CCP § 2031.010 et seq.) for… |
 | [`California Discovery Verification`](skills/ca-discovery-verification/) | Drafts California Superior Court discovery verification pages under CCP §§ 2030.250 and 2031.250 with… |
@@ -52,6 +53,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Certificate of Interested Persons`](skills/certificate-of-interested-persons/) | Drafts a FRAP 26.1-compliant Certificate of Interested Persons identifying all parties, entities, and… |
 | [`Certificate of Service`](skills/certificate-of-service/) | Drafts certificates of service (proofs of service) for court filings. Use when a filing must be… |
 | [`Bluebook Citation Format`](skills/citation-bluebook/) | Formats legal citations per The Bluebook (21st ed.) using Bluepages practitioner conventions. Use when… |
+| [`/cite-check`](skills/cite-check-legalquants/) | Verify supplied citations, check authorities, and detect hallucinated case law before filing. Use when… |
+| [`Cite-Checking`](skills/cite-checking-jslandau/) | Use when verifying citations in a legal brief or document — extracts every citation locally via eyecite… |
 | [`Class Action Claim Form`](skills/class-action-claim-form/) | Drafts official class action claim forms balancing plain-language accessibility with FRCP 23… |
 | [`Class Action Complaint`](skills/class-action-complaint/) | Drafts federal or state class action complaints satisfying FRCP Rule 23 certification prerequisites. Use… |
 | [`Fairness Hearing Notice`](skills/class-action-fairness-hearing/) | Drafts FRCP 23(e)-compliant fairness hearing notices for class action settlements. Covers settlement… |
@@ -63,14 +66,17 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Class Member Claim Form`](skills/class-claim-form/) | Drafts U.S. class action settlement claim forms compliant with FRCP 23 and court approval orders.… |
 | [`Class Notice Communication Plan`](skills/class-notice-plan/) | Drafts a Rule 23 class notice communication plan for U.S. federal class actions, covering notice… |
 | [`Motion for Preliminary Approval of Class Action Settlement`](skills/class-settlement-preliminary-approval/) | Drafts a Motion for Preliminary Approval of Class Action Settlement under Rule 23(e), covering… |
+| [`Client Update`](skills/client-update-legalquants/) | Prepare evidence-first litigation matter, event, portfolio, or outside-counsel status updates that… |
 | [`Denver District Court (2nd Judicial District)`](skills/co-denver/) | This skill should be used when drafting or filing documents in the Denver District Court (2nd Judicial… |
 | [`Reserve a Hearing Date (Colorado)`](skills/co-schedule-hearing/) | This skill should be used when the user needs to reserve a motion hearing date in a Colorado court.… |
 | [`Westlaw (connector optional; not enabled in v1) Deep Research`](skills/cocounsel-legal-deep-research/) | Use this skill whenever a user specifically requests legal research or Westlaw (connector optional; not… |
 | [`Westlaw Deep Research`](skills/cocounsel-legal-deep-research-anthropics/) | Use this skill whenever a user specifically requests legal research or Westlaw Deep Research, asks for… |
 | [`Complaint for Breach of Contract`](skills/complaint-breach-of-contract/) | Drafts a U.S. plaintiff-side breach of contract complaint with caption, jurisdiction/venue, four-element… |
 | [`Contract Dispute Analysis Report`](skills/contract-dispute-report/) | Generates a structured litigation analysis report for US commercial contract disputes, covering breach… |
+| [`Litigation Correspondence`](skills/correspondence-legalquants/) | Triage inbound and draft source-grounded U.S. litigation correspondence, including discovery… |
 | [`Counterclaim & Crossclaim`](skills/counterclaim-crossclaim/) | Drafts court-ready counterclaims and crossclaims for commercial litigation. Analyzes case documents… |
 | [`Court Document Formatting`](skills/court-document-formatting/) | Builds a filing-ready formatting blueprint for U.S. litigation pleadings, motions, and briefs by… |
+| [`Court Filings`](skills/court-filings-judicialmind/) | Court filing procedures skill for document preparation and submission. Use when the user needs… |
 | [`Court Document Formatting`](skills/court-formatting/) | Standardizes U.S. court-filing formatting for pleadings, motions, and briefs. Enforces caption… |
 | [`Court Order Summaries`](skills/court-order-summaries/) | Generates structured summaries of court orders and decisions, extracting obligations, deadlines… |
 | [`CourtListener REST API v4`](skills/courtlistener/) | Search U.S. case law, PACER dockets, judges, oral arguments, and citations via CourtListener REST API… |
@@ -88,11 +94,13 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Deposition Notice and Subpoena`](skills/deposition-notice-subpoena/) | Drafts federal civil deposition notices (FRCP 30(b)(1), 30(b)(6)) and Rule 45 subpoenas for testimony… |
 | [`Deposition Objection Reference`](skills/deposition-objection-reference/) | Provides a quick reference for deposition objections under FRCP 30(c)(2), including form objections… |
 | [`Deposition Objections`](skills/deposition-objections/) | Provides deposition objection reference under FRCP 30(c)(2) covering form objections, substantive… |
+| [`Deposition Preparation`](skills/deposition-prep-judicialmind/) | Deposition preparation skill for witness preparation and deposition practice. Use when the user needs… |
 | [`Deposition Preparation: Strategic Planning and Execution`](skills/deposition-preparation/) | Produces a comprehensive deposition preparation package for taking or defending depositions in U.S.… |
 | [`Deposition Notice & Subpoena Drafter`](skills/deposition-subpoena-drafter/) | Drafts U.S. federal deposition notices and subpoenas under FRCP 30(b)(1), 30(b)(6), and 45. Trigger when… |
 | [`Deposition Summary with Exhibit Index`](skills/deposition-summary-exhibit-index/) | Produces a topic-based U.S. deposition summary with page/line citations and a keyed exhibit index… |
 | [`Deposition Summary with Key Document Index`](skills/deposition-summary-index/) | Creates topic-based deposition summaries with exhibit-to-transcript citation mapping for U.S. commercial… |
 | [`Deposition Summary — Page-Line Format`](skills/deposition-summary-page-line/) | Generates page-line deposition summaries from U.S. litigation transcripts with citation-anchored… |
+| [`/depositions`](skills/depositions-legalquants/) | Prepare, conduct, and close the loop on a deposition using claims, elements, chronology, exhibits… |
 | [`Demand for Discovery and Bill of Particulars`](skills/discovery-and-bill-of-particulars/) | Drafts a combined Demand for Discovery and Bill of Particulars for U.S. criminal or civil litigation.… |
 | [`Discovery Deficiency and Meet-and-Confer Tracker`](skills/discovery-deficiency-tracker/) | Builds and maintains a litigation-grade discovery deficiency and meet-and-confer tracker for compulsion… |
 | [`Discovery Dispute Resolution Letter`](skills/discovery-dispute-letter/) | Drafts discovery dispute resolution letters documenting meet-and-confer efforts and unresolved issues in… |
@@ -101,7 +109,11 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Discovery Response Summary`](skills/discovery-response-summary/) | Synthesizes interrogatories, RFPs, RFAs, deposition transcripts, and privilege logs into a thematic… |
 | [`California Discovery Separate Statement`](skills/discovery-separate-statement/) | Drafts a California-compliant discovery Separate Statement for motions to compel under Cal. Rules of… |
 | [`Discovery Verification and Proof of Service Audit`](skills/discovery-verification-audit/) | Produces an attorney-grade audit memorandum assessing whether written discovery responses are legally… |
+| [`Document Review`](skills/docreview-legalquants/) | Review an incoming litigation production against the matter's requests or issues, with deterministic… |
+| [`Document discovery`](skills/document-discovery-legalquants/) | Plan, draft, and review U.S. federal civil preservation and document-discovery work, including editable… |
 | [`Document Production Log & Summary`](skills/document-production-log-summary/) | Generates a structured log and strategic summary of opposing-party document productions in U.S.… |
+| [`Document Review Specialist`](skills/document-review-canhada-labs/) | Legal document review for discovery, due-diligence, and regulatory submissions. Covers first-pass… |
+| [`E-Discovery`](skills/e-discovery-judicialmind/) | Electronic discovery skill for document review and litigation support. Use when the user needs… |
 | [`E-Discovery Protocol Agreement`](skills/e-discovery-protocol-agreement/) | Drafts court-ready ESI Protocol Agreements governing electronically stored information exchange in U.S.… |
 | [`E-Discovery Collection & Review Summary`](skills/ediscovery-review-summary/) | Produces an internal U.S. litigation e-discovery status summary covering ESI collection, processing… |
 | [`E-Discovery Status Report`](skills/ediscovery-status-report/) | Generates a structured internal e-discovery status report tracking ESI from collection through attorney… |
@@ -133,6 +145,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Jury Duty Exemption Email Generator`](skills/jury-duty-exemption-email-generator/) | Drafts a formal, respectful email to a sheriff requesting exemption from jury duty based on caregiver… |
 | [`Jury Instructions`](skills/jury-instructions/) | Drafts complete proposed jury instruction sets for U.S. litigation, including preliminary charges… |
 | [`Request for Jury Trial`](skills/jury-trial-request/) | Drafts a formal Request for Jury Trial invoking Sixth Amendment (criminal) or Seventh Amendment (civil)… |
+| [`Legal Analytics`](skills/legal-analytics-judicialmind/) | Legal analytics and outcome prediction skill for case assessment and strategy. Use when the user needs… |
+| [`Legal brief writing: elite technique and judicial cognition`](skills/legal-brief-writing-the-vibey-project/) | Use when writing legal briefs, motions, or any court filing; when analyzing judicial cognition and… |
 | [`Legal Document Handling`](skills/legal-doc-handler/) | Specialized instructions for reading, modifying, and filling PDF legal forms (e.g., California judicial… |
 | [`Legal hold`](skills/legal-hold-anthropics/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold… |
 | [`Legal Memorandum`](skills/legal-memo/) | Drafts U.S. internal legal memoranda using IRAC structure to analyze issues, synthesize authority… |
@@ -140,10 +154,12 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Core competencies`](skills/legal-research-cite-finder/) | Legal research expertise — auto-activates when locating cases, statutes, and procedural rules for… |
 | [`Legal Research Summary`](skills/legal-research-summary/) | Synthesizes U.S. statutes, case law, and regulatory guidance into attorney-ready litigation research… |
 | [`Litigation Deadline Calendar`](skills/litigation-deadline-calendar-dave-marcus/) | Calendar litigation and arbitration deadlines from a scheduling order. Parses a PDF scheduling order… |
+| [`Litigation`](skills/litigation-judicialmind/) | Civil litigation and motion practice skill. Use when the user needs assistance with lawsuits, pleadings… |
 | [`Case management`](skills/litigation-workflow/) | Civil litigation workflow expertise — case management, deposition prep, evidence chain, and Federal… |
 | [`Medical Records Gap Analysis`](skills/medical-records-gap-analysis/) | Audits the complete in-scope medical-record universe in a litigation matter and produces an… |
 | [`Motion to Compel Discovery`](skills/motion-to-compel/) | Drafts filing-ready motions to compel discovery in civil litigation with deficiency matrix, declaration… |
 | [`Motion to Dismiss`](skills/motion-to-dismiss/) | Drafts FRCP 12(b) motions to dismiss for commercial litigation. Triggers on requests to draft motions to… |
+| [`New Matter`](skills/new-matter-legalquants/) | Open a litigation matter through a human-confirmed intake that records the parties, role, side, forum… |
 | [`Notice of Appeal`](skills/notice-of-appeal/) | Drafts a Notice of Appeal to initiate appellate review of a trial court judgment or order in US federal… |
 | [`Notice of Appearance of Counsel`](skills/notice-of-appearance/) | Drafts a Notice of Appearance of Counsel for federal or state court with caption formatting, bar… |
 | [`Post-Hearing Order Submission in New York`](skills/ny-submit-order/) | Use after a hearing or motion decision when the prevailing party needs to submit a proposed order for… |
@@ -151,6 +167,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Opt-Out Form`](skills/opt-out-form/) | Drafts opt-out forms and notices of exclusion for class actions, settlements, arbitration clauses, and… |
 | [`Draft an Oregon Declaration`](skills/or-draft-declaration/) | Use this skill when the user asks to draft a declaration for an Oregon court filing. Triggers include… |
 | [`Order and Judgment on Appeal`](skills/order-judgment-appeal/) | Drafts a U.S. appellate Order and Judgment memorializing disposition after review of a lower-court… |
+| [`/organize-case-docs`](skills/organize-case-docs-legalquants/) | Turn an accepted or active litigation matter’s documents and metadata into a provenance-backed case… |
 | [`Party Deposition`](skills/party-deposition/) | Builds element-driven deposition outlines and witness preparation plans for U.S. party depositions… |
 | [`PDF Form Filler`](skills/pdf-form-filler/) | Fill PDF form fields programmatically using Python and pypdf. Use this skill whenever the user needs to… |
 | [`PDF Form Filling with pypdf`](skills/pdf-form-filling/) | Fill PDF form fields using pypdf library in Python, including text fields and checkboxes. |
@@ -181,11 +198,13 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Subpoena Duces Tecum`](skills/subpoena-duces-tecum/) | Drafts a Subpoena Duces Tecum compelling document production without testimony under Federal Rule 45 or… |
 | [`Summary Judgment Motion Brief`](skills/summary-judgment-brief/) | Drafts FRCP 56 summary judgment motion briefs for U.S. commercial litigation. Synthesizes discovery… |
 | [`Motion for Summary Judgment`](skills/summary-judgment-motion/) | Drafts a Motion for Summary Judgment package for personal injury litigation under FRCP 56 or state… |
+| [`Table of Authorities Extraction`](skills/table-of-authorities-jslandau/) | Use when extracting citations from a legal brief to build a Table of Authorities - runs eyecite locally… |
 | [`Tax Return Analysis`](skills/tax-return-analysis/) | Produces litigation-ready financial memoranda from multi-year tax returns, covering income trends… |
 | [`Third-Party Complaint (Impleader)`](skills/third-party-complaint/) | Drafts a Third-Party Complaint (impleader) under FRCP 14 or state equivalents. Use when a defendant… |
 | [`Trial Brief`](skills/trial-brief/) | Drafts persuasive trial briefs for commercial litigation. Triggers when the user needs a pre-trial brief… |
 | [`Trial Preparation Summary`](skills/trial-prep-summary/) | Generates a structured courtroom-ready trial preparation summary synthesizing procedural history, facts… |
 | [`US Federal Civil Procedure Checker`](skills/us-federal-civil-procedure-checker-rohasnagpal/) | Checks procedural requirements for a specified US federal civil case, including jurisdiction, removal… |
+| [`US Federal Courts`](skills/us-federal-courts-judicialmind/) | US federal court practice skill for federal jurisdiction and procedures. Use when the user needs… |
 | [`US Federal–State Issue Mapper`](skills/us-federal-state-issue-mapper-rohasnagpal/) | Separates federal, State, territorial, tribal and local issues in a US matter, identifies the relevant… |
 | [`US State-Law Research Planner`](skills/us-state-law-research-planner-rohasnagpal/) | Builds an official-source-first research plan for a specified US State, issue, court and material date.… |
 | [`Verdict Form`](skills/verdict-form/) | Drafts civil trial verdict forms with sequentially numbered jury questions covering liability… |
@@ -198,6 +217,7 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Deposition Witness Preparation`](skills/witness-prep-session/) | Runs ethics-compliant deposition witness-prep workflows for US civil litigation. Use when preparing… |
 | [`Writ of Execution`](skills/writ-of-execution/) | Drafts writs of execution and supporting levy instructions for post-judgment enforcement of money… |
 | [`Write Demand Letter`](skills/write-demand-letter-jeffreytse/) | Use when asserting a legal claim — unpaid invoices, breach of contract, property damage, or security… |
+| [`Litigation Writing`](skills/writing-legalquants/) | Draft or revise U.S. litigation, hearing, or regulator advocacy and neutral client legal analysis with… |
 
 ## Cold-start context
 

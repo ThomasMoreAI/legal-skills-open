@@ -1,0 +1,14 @@
+{
+  "name": "in-contracts",
+  "displayName": "Contracts — IN",
+  "version": "0.1.0",
+  "description": "Contracts skills for IN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "in",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/contract-analyzer-shashionline"
+  ]
+}

@@ -9,14 +9,19 @@
   "displayName": "Cybersecurity & Information Security — European Union",
   "description": "Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23 NYCRR 500, CMMC, SOC 2 / ISO 27001, ANSSI/EBIOS/PSSI, incident-response and operational-resilience programs, and security-control evidence.",
   "skills": [
+    "skills/cra-secure-by-design-arttuan",
     "skills/dora",
     "skills/dora-expert",
     "skills/dora-ikt-vertragspruefung",
     "skills/eu-cra-sushegaad",
     "skills/eu-cybersecurity-act-certification",
+    "skills/eu-nis2-compliance-builderced",
     "skills/eu-nis2-expert",
+    "skills/incident-response-arttuan",
     "skills/nis2",
+    "skills/nis2-compliance-triage-en-matematicsolutions",
     "skills/nis2-radar-thewatcher01",
+    "skills/nis2-readiness-arttuan",
     "skills/tprm-sushegaad"
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "property": {
+    "address": "2550 Industrial Avenue, Mississauga, ON L5T 2K9",
+    "area_acres": 50.0,
+    "market_value": 1500000.00,
+    "zoning": "Employment Commercial (EC)",
+    "highest_and_best_use": "Commercial development (industrial/office)",
+
+    "valuation_date": "2024-01-15",
+    "form_7_service_date": "2024-01-15",
+    "plan_registration_date": "2024-02-01",
+
+    "special_purchaser_premium": 250000.00,
+    "special_purchaser_notes": "Adjacent owner willing to pay $1.75M for assemblage - premium excluded per s.13 OEA"
+  },
+
+  "disturbance_damages": {
+    "moving_costs": 25000.00,
+    "packing_materials": 3000.00,
+    "storage_costs": 8000.00,
+
+    "business_losses": {
+      "revenue_loss_months": 6,
+      "monthly_revenue": 50000.00,
+      "profit_margin_pct": 20.0,
+      "fixed_costs_monthly": 15000.00,
+
+      "signage_and_marketing": 12000.00,
+      "permits_and_licenses": 5000.00,
+      "equipment_reinstallation": 18000.00,
+      "trade_fixtures_depreciated_value": 75000.00,
+
+      "goodwill_claimed": 150000.00
+    },
+
+    "professional_fees": {
+      "legal": 30000.00,
+      "appraisal": 15000.00,
+      "accounting": 5000.00
+    },
+
+    "temporary_accommodation_months": 3,
+    "accommodation_cost_monthly": 3000.00,
+
+    "construction_impacts": {
+      "noise": 8000.00,
+      "dust": 3000.00,
+      "vibration": 5000.00,
+      "traffic_disruption": 4000.00,
+      "duration_months": 12
+    },
+
+    "permanent_impacts": {
+      "noise_value_loss": 45000.00,
+      "visual_obstruction": 25000.00,
+      "privacy_loss": 15000.00,
+      "stigma_value_loss": 0.00
+    }
+  },
+
+  "payment_details": {
+    "payment_date": "2025-01-15",
+    "interest_rate_annual_pct": 3.0
+  }
+}

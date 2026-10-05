@@ -9,7 +9,13 @@
   "practice": "data-protection",
   "language": "en",
   "skills": [
+    "skills/assess-ai-privacy-cybersecurity-use-case-l0cka",
+    "skills/assess-australian-data-breach-l0cka",
+    "skills/assess-automated-decision-transparency-l0cka",
+    "skills/assess-statutory-privacy-tort-l0cka",
     "skills/australia-privacy-act",
-    "skills/legal-au-clemensjl"
+    "skills/check-australian-privacy-principles-l0cka",
+    "skills/legal-au-clemensjl",
+    "skills/route-australian-privacy-jurisdiction-l0cka"
   ]
 }

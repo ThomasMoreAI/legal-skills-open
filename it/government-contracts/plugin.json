@@ -1,0 +1,17 @@
+{
+  "name": "it-government-contracts",
+  "displayName": "Government Contracts & Procurement — IT",
+  "version": "0.1.0",
+  "description": "Government Contracts & Procurement skills for IT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "government-contracts",
+  "language": "en",
+  "skills": [
+    "skills/collaudo-verifica-conformita-dlgs36-morellid",
+    "skills/modifiche-varianti-contratti-pubblici-dlgs36-morellid",
+    "skills/subappalto-contratti-pubblici-dlgs36-morellid",
+    "skills/verifica-progettazione-dlgs36-morellid"
+  ]
+}

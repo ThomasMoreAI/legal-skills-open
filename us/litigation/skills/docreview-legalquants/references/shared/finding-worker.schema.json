@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "contract": {"const": "finding-worker/2", "type": "string"},
+    "determinations": {
+      "items": {
+        "anyOf": [
+          {
+            "additionalProperties": false,
+            "properties": {
+              "issue_id": {"minLength": 1, "type": "string"},
+              "n": {"minimum": 1, "type": "integer"},
+              "status": {"const": "absent", "type": "string"}
+            },
+            "required": ["n", "issue_id", "status"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "issue_id": {"minLength": 1, "type": "string"},
+              "n": {"minimum": 1, "type": "integer"},
+              "reason": {"minLength": 1, "type": "string"},
+              "status": {"const": "unresolved", "type": "string"}
+            },
+            "required": ["n", "issue_id", "status", "reason"],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "characterization": {"minLength": 1, "type": "string"},
+              "current_position": {"type": "boolean"},
+              "doc": {"minimum": 1, "type": "integer"},
+              "issue_id": {"minLength": 1, "type": "string"},
+              "n": {"minimum": 1, "type": "integer"},
+              "page": {"minimum": 1, "type": ["integer", "null"]},
+              "quote": {"minLength": 1, "type": "string"},
+              "receipt_mode": {
+                "enum": ["text", "image-transcription"],
+                "type": "string"
+              },
+              "section": {"minLength": 1, "type": "string"},
+              "status": {"const": "present", "type": "string"}
+            },
+            "required": [
+              "n",
+              "issue_id",
+              "status",
+              "doc",
+              "section",
+              "quote",
+              "characterization",
+              "receipt_mode",
+              "page",
+              "current_position"
+            ],
+            "type": "object"
+          },
+          {
+            "additionalProperties": false,
+            "properties": {
+              "band": {"enum": ["high", "medium", "low"], "type": "string"},
+              "band_basis": {"minLength": 1, "type": "string"},
+              "characterization": {"minLength": 1, "type": "string"},
+              "current_position": {"type": "boolean"},
+              "doc": {"minimum": 1, "type": "integer"},
+              "issue_id": {"minLength": 1, "type": "string"},
+              "n": {"minimum": 1, "type": "integer"},
+              "page": {"minimum": 1, "type": ["integer", "null"]},
+              "quote": {"minLength": 1, "type": "string"},
+              "receipt_mode": {
+                "enum": ["text", "image-transcription"],
+                "type": "string"
+              },
+              "section": {"minLength": 1, "type": "string"},
+              "status": {"const": "present", "type": "string"}
+            },
+            "required": [
+              "n",
+              "issue_id",
+              "status",
+              "doc",
+              "section",
+              "quote",
+              "characterization",
+              "band",
+              "band_basis",
+              "receipt_mode",
+              "page",
+              "current_position"
+            ],
+            "type": "object"
+          }
+        ]
+      },
+      "type": "array"
+    },
+    "job_id": {"pattern": "^[0-9a-f]{16}$", "type": "string"},
+    "privilege_candidates": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "doc": {"minimum": 1, "type": "integer"},
+          "page": {"minimum": 1, "type": ["integer", "null"]},
+          "quote": {"minLength": 1, "type": "string"},
+          "reason": {"minLength": 1, "type": "string"},
+          "receipt_mode": {
+            "enum": ["text", "image-transcription"],
+            "type": "string"
+          },
+          "signals": {
+            "items": {
+              "enum": [
+                "attorney-domain",
+                "legend",
+                "legal-advice-content",
+                "counsel-name"
+              ],
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          }
+        },
+        "required": [
+          "doc",
+          "reason",
+          "quote",
+          "receipt_mode",
+          "page",
+          "signals"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "review_plan_id": {"pattern": "^[0-9a-f]{16}$", "type": "string"}
+  },
+  "required": [
+    "contract",
+    "review_plan_id",
+    "job_id",
+    "determinations",
+    "privilege_candidates"
+  ],
+  "type": "object"
+}

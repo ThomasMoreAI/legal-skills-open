@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Australian Privacy Principles"
+  short_description: "Verify the APP framework and detect changes"
+  default_prompt: "Use $check-australian-privacy-principles to verify the applicable APP framework and detect changes across the relevant dates."

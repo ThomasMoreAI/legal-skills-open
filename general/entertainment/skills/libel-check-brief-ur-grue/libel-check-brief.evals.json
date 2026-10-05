@@ -1,0 +1,79 @@
+{
+  "skill_name": "libel-check-brief",
+  "status": "passed",
+  "eval_date": "2026-03-16",
+  "overall_mean": 4.4,
+  "editorial_naturalness_mean": 4.7,
+  "dimension_means": {
+    "coherence": 4.7,
+    "consistency": 4.3,
+    "fluency": 4.7,
+    "relevance": 4.3,
+    "professionalism": 4.3,
+    "actionability": 4.0,
+    "editorial_naturalness": 4.7
+  },
+  "test_cases": [
+    {
+      "id": "tc1",
+      "input": "Draft article about a school principal accused of bullying staff. Mix of on-record quotes, anonymous claims, and characterizations. Principal is a private individual.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "Zero tells; Red/Amber/Green tiering with plain-language legal concern reads like in-house counsel's pre-publication note; no hedge fog or SaaS verbs",
+      "notes": "Correctly applied higher risk standard for private individual. Anonymous bullying claims correctly flagged Red. Attribution for a Green passage was appropriately confirmed as protected."
+    },
+    {
+      "id": "tc2",
+      "input": "Profile of a city councilmember (public figure) with allegations of financial conflicts related to a development vote. Mix of documented public records and one unsourced allegation.",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "case_mean": 4.57,
+      "editorial_naturalness_note": "No tells; legal register correctly calibrated to public-figure standard; Latinate verbs used as terms of art, not as AI hedging",
+      "notes": "Correctly applied lower threshold for public figure. Unsourced allegation was still Red-flagged even under actual malice standard. Documented public record passages correctly assigned Green."
+    },
+    {
+      "id": "tc3",
+      "input": "Investigative feature about a named corporation (not individual) with allegations of wage theft from employees. UK publication.",
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "case_mean": 4.14,
+      "editorial_naturalness_note": "Register correct; one minor structural tell — UK-law section is slightly more cautious and hedgy than U.S. framework sections, as if less confident in the jurisdiction",
+      "notes": "Correctly switched to UK libel framework when jurisdiction was specified. Noted that UK law places burden of proof on publisher, not plaintiff — a meaningful difference in risk assessment. One passage categorization could have been Amber rather than Red."
+    }
+  ],
+  "editorial_naturalness_baseline": {
+    "eval_date": "2026-05-03",
+    "issue": "AUT-23",
+    "protocol": "EVAL_FRAMEWORK.md Section A — Editorial Naturalness rubric (1-5 anchored on observable lexical, structural, tonal, and genre tells).",
+    "calibration_methodology": "Single-output baseline pass scoring the in-skill canonical example (the dimension reviewer's primary calibration target per the AUT-23 SKILL_TEMPLATE.md update).",
+    "editorial_naturalness_score": 5,
+    "tells_observed": "None. Latinate verbs that appear ('substantiate,' 'corroborate,' 'adjudicate') are legal terms of art, correctly used. 'Significantly' appears in legal-register technical context ('substantially more plaintiff-friendly').",
+    "strongest_genre_craft": "The Red/Amber/Green tiering with per-passage Legal Concern + Recommended Action + Suggested Rewrite is the standard structure of an in-house counsel pre-publication note. The closing disclaimer ('This brief is an editorial pre-screening tool. It is not a substitute for review by a qualified media attorney.') is the kind of italicised note a real media lawyer would write.",
+    "new_overall_mean_7dim": 4.60,
+    "editorial_naturalness_mean": 5.0,
+    "status_decision": "stable (passes both bars)",
+    "note_on_pre_existing_fields": "The overall_mean, dimension_means, and per-test-case scores below are preserved as a record of the original eval session and were never updated by the AUT-7 actionability relift. The eval_score in the skill frontmatter and EVAL_SUMMARY.md table reflect post-AUT-7 + post-AUT-23 values; this baseline block is the new authoritative source for those numbers."
+  }
+}

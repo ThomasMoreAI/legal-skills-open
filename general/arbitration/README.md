@@ -4,7 +4,7 @@ Arbitration agreements, arbitral proceedings, awards, and their enforcement or v
 
 Jurisdiction: `general` · Practice: `arbitration` · Skill language: en
 
-## Skills (14)
+## Skills (15)
 
 | Skill | What it does |
 |---|---|
@@ -20,6 +20,7 @@ Jurisdiction: `general` · Practice: `arbitration` · Skill language: en
 | [`Mediation / Arbitration Statement`](skills/mediation-arbitration-statement/) | Drafts confidential mediation or arbitration statements presenting a party's position on facts, law, and… |
 | [`Mediation Brief`](skills/mediation-brief/) | Drafts mediation briefs for commercial litigation that educate the mediator on facts, law, damages, and… |
 | [`Mediation Opening Drafter`](skills/mediation-opening-drafter-rohasnagpal/) | Drafts the opening statement delivered at the start of a joint mediation session — calibrated for a… |
+| [`Negotiation and Conflict Resolution: Conflict Analysis and Escalation, Mediation, the Dispute Resolution Spectrum, Facil`](skills/negot-conflict-analysis-mediation-adr-workplace-and-ethics-the/) | Use for conflict resolution rather than deal-making: conflict analysis and escalation dynamics… |
 | [`Party Interest Analyst`](skills/party-interest-analyst-rohasnagpal/) | Separates each party's stated position from their actual underlying interests, for both sides of a… |
 | [`People's Mediator`](skills/people-mediator/) | Professional people's mediator with 10+ years of experience in community dispute resolution, civil… |
 

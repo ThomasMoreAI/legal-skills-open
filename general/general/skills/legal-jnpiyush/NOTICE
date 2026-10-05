@@ -1,0 +1,102 @@
+Frontier Corp
+Copyright 2025-2026 Frontier Corp Contributors
+
+This product includes software developed at Frontier Corp (https://github.com/jnPiyush/AgentX).
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+------------------------------------------------------------------------
+Third-Party Attributions
+------------------------------------------------------------------------
+
+Portions of the Frontier design skill set are derived from or inspired by:
+
+1. nexu-io/open-design (Apache-2.0)
+   https://github.com/nexu-io/open-design
+   - Anti-AI-slop blacklist and honest-placeholders rule
+   - Five curated visual directions with deterministic OKLch palettes
+   - Five-step brand-spec extraction protocol
+   - Five-dimensional pre-emit self-critique rubric
+   - Question-form-first turn-1 contract for ambiguous design briefs
+
+   open-design itself credits the following upstream sources for the
+    above ideas; the same credit chain applies to Frontier:
+
+   1a. alchaincyf/huashu-design
+       https://github.com/alchaincyf/huashu-design
+       Junior-Designer workflow, five-step brand-asset protocol,
+       anti-AI-slop checklist, five-dimensional self-critique, and the
+       "five schools, twenty design philosophies" framing that the
+       visual-directions reference distills.
+
+   1b. VoltAgent/awesome-design-md
+       https://github.com/VoltAgent/awesome-design-md
+       The nine-section DESIGN.md schema used by
+       .github/templates/DESIGN-SYSTEM-TEMPLATE.md.
+
+   1c. bergside/awesome-design-skills
+       https://github.com/bergside/awesome-design-skills
+       Skill-catalog patterns that informed the design-skill directory
+       structure under .github/skills/design/.
+
+2. pbakaus/impeccable (Apache-2.0)
+   https://github.com/pbakaus/impeccable
+   - The Impeccable design language, its 23-command intervention
+     vocabulary, the PRODUCT.md and DESIGN.md artifact model, and the
+     deterministic detector rule catalogue referenced by
+    .github/skills/design/impeccable-integration/SKILL.md
+
+    Frontier orchestrates Impeccable as an external, project-local tool
+   installed into a target app. No Impeccable code is vendored, forked,
+    or redistributed in this repository or in the Frontier extension
+   bundle. The reference above is descriptive interoperability
+   material, not a derivative work of the upstream source.
+
+3. petergyang/no-ai-slop (MIT)
+     https://github.com/petergyang/no-ai-slop
+     - General-prose editing principles, named AI-slop writing patterns,
+         voice-preservation workflow, and self-evaluation checklist adapted in
+         .github/skills/development/no-ai-slop/
+     - Reviewed source commit:
+         d30eddb9e04562234f2070b5ee63ca4649d9a05e
+
+    Frontier modifies the upstream material for ASCII-only repository rules,
+    progressive disclosure, Frontier routing boundaries, error handling, and the
+    Frontier skill-quality rubric. The upstream MIT notice follows:
+
+     MIT License
+
+     Copyright (c) 2026 Peter Yang
+
+     Permission is hereby granted, free of charge, to any person obtaining a copy
+     of this software and associated documentation files (the "Software"), to deal
+     in the Software without restriction, including without limitation the rights
+     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+     copies of the Software, and to permit persons to whom the Software is
+     furnished to do so, subject to the following conditions:
+
+     The above copyright notice and this permission notice shall be included in all
+     copies or substantial portions of the Software.
+
+     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+     SOFTWARE.
+
+Files in this repository that adapt material from the sources above
+carry a "Source:" header citing the upstream repository. Per
+Apache-2.0 Section 4, no modification has been made to the licensed
+material's NOTICE; this file is the cumulative notice for Frontier.
+
+Frontier has NOT vendored any code from open-design's bundled
+sub-projects (skills/guizang-ppt, skills/html-ppt), which carry
+separate MIT licenses with their own attribution requirements. If
+those sub-projects are ever vendored, their LICENSE files must be
+preserved verbatim and credited here.

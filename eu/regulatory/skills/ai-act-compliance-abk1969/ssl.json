@@ -1,0 +1,706 @@
+{
+  "$schema_source": "Liang, Wang, Liang, Liu (2026). From Skill Text to Skill Structure: The Scheduling-Structural-Logical Representation for Agent Skills. arXiv:2604.24026.",
+  "$schema_version": "SSL-1.0",
+  "$grounding_policy": "Every populated field is grounded in skills/ai-act-compliance/SKILL.md and its references/. No runtime behavior is inferred beyond the source.",
+  "skill": {
+    "skill_id": "SKILL_AI_ACT_COMPLIANCE",
+    "skill_name": "AI Act Compliance",
+    "skill_goal": "Produce traceable EU AI Act (Regulation 2024/1689) compliance guidance — risk classification, obligation mapping, ISO/IEC 42001 and ISO/IEC 27090 anchoring, deliverable identification, and serious-incident response — for a named AI system and a named role (provider, deployer, importer, distributor, authorised representative).",
+    "top_pattern": "ROUTE_AND_ANCHOR",
+    "expected_inputs": [
+      {"name": "system_description", "type": "str"},
+      {"name": "role", "type": "enum{provider,deployer,importer,distributor,authorised_rep}"},
+      {"name": "sector", "type": "str"},
+      {"name": "end_users", "type": "str"},
+      {"name": "is_gpai", "type": "bool"},
+      {"name": "compute_flops", "type": "float?"},
+      {"name": "is_substantially_modified", "type": "bool?"},
+      {"name": "incident_summary", "type": "str?"}
+    ],
+    "expected_outputs": [
+      {"name": "tier", "type": "enum{unacceptable,high,limited,minimal}"},
+      {"name": "pathway", "type": "enum{annex_i,annex_iii,art_50,none}"},
+      {"name": "art6_3_derogation", "type": "enum{a,b,c,d,not_eligible,unavailable_due_to_profiling,not_applicable}"},
+      {"name": "art50_triggers", "type": "list[enum{chatbot,generative_content,emotion_or_biometric_categorisation,deepfake,public_interest_text,none}]"},
+      {"name": "gpai_regime", "type": "enum{not_gpai,gpai_standard,gpai_systemic_risk}"},
+      {"name": "obligations_list", "type": "list[citation]"},
+      {"name": "iso_anchors", "type": "list[control]"},
+      {"name": "deliverables", "type": "list[artifact]"},
+      {"name": "effective_date", "type": "date"},
+      {"name": "legal_disclaimer", "type": "str"}
+    ],
+    "dependencies": [
+      {"type": "permission", "value": "filesystem.read"},
+      {"type": "capability", "value": "legal_decision_support"},
+      {"type": "knowledge", "value": "regulation_eu_2024_1689"},
+      {"type": "knowledge", "value": "iso_iec_42001_2023"},
+      {"type": "knowledge", "value": "iso_iec_27090_2025"}
+    ],
+    "tags": [
+      "eu-ai-act",
+      "regulation-2024-1689",
+      "iso-42001",
+      "iso-27090",
+      "aims",
+      "gpai",
+      "fria",
+      "annex-iii",
+      "annex-iv",
+      "art-4-ai-literacy",
+      "art-5-prohibitions",
+      "art-25-substantial-modification",
+      "art-50-transparency",
+      "art-57-sandbox",
+      "art-60-real-world-testing",
+      "art-73-incident",
+      "ai-omnibus",
+      "compliance",
+      "governance",
+      "decision-support"
+    ],
+    "intent_signature": [
+      "Is this AI system high-risk?",
+      "What ISO 42001 control covers art. 9?",
+      "Do I need a FRIA?",
+      "How do I report a serious AI incident?",
+      "Does art. 4 AI literacy apply to my organisation?",
+      "Is fine-tuning a foundation model substantial modification?",
+      "When does the GPAI systemic-risk regime kick in?",
+      "Can I run my AI in an EU regulatory sandbox?",
+      "What goes in the Annex IV technical documentation?",
+      "What is the deadline for AI Act high-risk obligations?",
+      "Map AI Act art. 15 cybersecurity to ISO/IEC 27090",
+      "Which Annex III domain covers credit scoring?",
+      "How do I mark AI-generated content under art. 50?",
+      "What are the sanctions for art. 5 violations?",
+      "Did the AI Omnibus change my compliance deadline?"
+    ],
+    "control_flow_features": {
+      "has_branch": true,
+      "has_loop": false,
+      "has_tool_call": false,
+      "touches_sensitive_resources": false
+    },
+    "entry_scene_id": "S_PREPARE_SCOPE",
+    "subscenes": [
+      "S_PREPARE_SCOPE",
+      "S_ACQUIRE_FACTS",
+      "S_REASON_TIER",
+      "S_ACT_OBLIGATIONS",
+      "S_VERIFY_ARTIFACTS",
+      "S_RECOVER_INCIDENT",
+      "S_FINALIZE_REPORT"
+    ]
+  },
+  "scenes": [
+    {
+      "scene_id": "S_PREPARE_SCOPE",
+      "scene_name": "Establish regulatory subject",
+      "scene_type": "PREPARE",
+      "scene_goal": "Determine role (art. 3), system kind (AI system / GPAI / both), and substantial-modification trigger (art. 25) before any classification.",
+      "input": ["$system_description", "$role", "$is_gpai", "$is_substantially_modified", "$incident_summary"],
+      "output": ["$role_resolved", "$system_kind", "$modification_flag"],
+      "entry_conditions": ["skill_dispatched"],
+      "exit_conditions": ["scope_established"],
+      "entry_logic_step_id": "L_DETERMINE_ROLE",
+      "contained_logic_steps": [
+        "L_DETERMINE_ROLE",
+        "L_DETERMINE_SYSTEM_KIND",
+        "L_CHECK_MODIFICATION"
+      ],
+      "next_scene_rules": [
+        {"condition": "$incident_summary_present == true", "target": "S_RECOVER_INCIDENT"},
+        {"condition": "scope_established", "target": "S_ACQUIRE_FACTS"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_ACQUIRE_FACTS",
+      "scene_name": "Gather classification signals",
+      "scene_type": "ACQUIRE",
+      "scene_goal": "Read the 14-signal classification rubric from references/01-risk-classification.md and populate signal values from user input or by asking targeted questions.",
+      "input": ["$system_description", "$role_resolved", "$sector", "$end_users"],
+      "output": ["$signals_14"],
+      "entry_conditions": ["scope_established"],
+      "exit_conditions": ["signals_acquired"],
+      "entry_logic_step_id": "L_READ_RUBRIC",
+      "contained_logic_steps": [
+        "L_READ_RUBRIC",
+        "L_GATHER_SIGNALS"
+      ],
+      "next_scene_rules": [
+        {"condition": "signals_acquired", "target": "S_REASON_TIER"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_REASON_TIER",
+      "scene_name": "Apply four-tier rubric and GPAI axis",
+      "scene_type": "REASON",
+      "scene_goal": "Compare signals against art. 5 prohibitions, art. 6(1) Annex I trigger, art. 6(2) Annex III triggers, art. 6(3) derogation eligibility, art. 50 transparency triggers, and the GPAI systemic-risk threshold (10^25 FLOPs); produce tier, pathway, derogation, art50_triggers, gpai_regime.",
+      "input": ["$signals_14", "$is_gpai", "$compute_flops"],
+      "output": ["$tier", "$pathway", "$art6_3_derogation", "$art50_triggers", "$gpai_regime"],
+      "entry_conditions": ["signals_acquired"],
+      "exit_conditions": ["tier_determined"],
+      "entry_logic_step_id": "L_CHECK_ART5",
+      "contained_logic_steps": [
+        "L_CHECK_ART5",
+        "L_CHECK_ART6_1",
+        "L_CHECK_ART6_2",
+        "L_CHECK_ART6_3_DEROGATION",
+        "L_CHECK_ART50",
+        "L_CHECK_GPAI"
+      ],
+      "next_scene_rules": [
+        {"condition": "$tier == unacceptable", "target": "S_FINALIZE_REPORT"},
+        {"condition": "tier_determined", "target": "S_ACT_OBLIGATIONS"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_ACT_OBLIGATIONS",
+      "scene_name": "Generate obligations and ISO anchors",
+      "scene_type": "ACT",
+      "scene_goal": "Select the applicable obligation set per (tier × role × system_kind), read the routed reference files, anchor each obligation to ISO/IEC 42001 clauses + Annex A controls + ISO/IEC 27090 sections, and list deliverables.",
+      "input": ["$tier", "$pathway", "$role_resolved", "$gpai_regime", "$art50_triggers", "$art6_3_derogation"],
+      "output": ["$obligations_list", "$iso_anchors", "$deliverables", "$effective_date"],
+      "entry_conditions": ["tier_determined"],
+      "exit_conditions": ["obligations_drafted"],
+      "entry_logic_step_id": "L_SELECT_OBLIGATIONS",
+      "contained_logic_steps": [
+        "L_SELECT_OBLIGATIONS",
+        "L_READ_REFERENCES",
+        "L_ANCHOR_ISO",
+        "L_LIST_DELIVERABLES",
+        "L_ATTACH_ART4_LITERACY"
+      ],
+      "next_scene_rules": [
+        {"condition": "obligations_drafted", "target": "S_VERIFY_ARTIFACTS"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_VERIFY_ARTIFACTS",
+      "scene_name": "Compliance gate — citation and ISO-anchor validation",
+      "scene_type": "VERIFY",
+      "scene_goal": "Validate that every obligation cites article+paragraph, names a primary ISO/IEC 42001 clause and Annex A control, references ISO/IEC 27090 where art. 15(5)/Recital 76 applies, has a named deliverable, and surfaces the substantial-modification flag and presumption-of-conformity ladder.",
+      "input": ["$obligations_list", "$iso_anchors", "$deliverables", "$modification_flag"],
+      "output": ["$verification_status", "$presumption_position"],
+      "entry_conditions": ["obligations_drafted"],
+      "exit_conditions": ["verification_passed"],
+      "entry_logic_step_id": "L_VALIDATE_CITATIONS",
+      "contained_logic_steps": [
+        "L_VALIDATE_CITATIONS",
+        "L_VALIDATE_ISO_ANCHORS",
+        "L_VALIDATE_DELIVERABLES",
+        "L_CHECK_MODIFICATION_FLAG",
+        "L_POSITION_PRESUMPTION"
+      ],
+      "next_scene_rules": [
+        {"condition": "verification_passed", "target": "S_FINALIZE_REPORT"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_RECOVER_INCIDENT",
+      "scene_name": "Drive serious-incident response timeline",
+      "scene_type": "RECOVER",
+      "scene_goal": "When a serious incident is reported, classify it under art. 3(49), apply the art. 73 timeline (15 days; 10 days for death; 2 days for widespread infringement or critical infrastructure), and draft an incident-report skeleton with notification target.",
+      "input": ["$incident_summary", "$role_resolved", "$system_description"],
+      "output": ["$incident_classification", "$report_deadline", "$incident_report_skeleton"],
+      "entry_conditions": ["$incident_summary_present == true"],
+      "exit_conditions": ["incident_report_drafted"],
+      "entry_logic_step_id": "L_READ_INCIDENT_REF",
+      "contained_logic_steps": [
+        "L_READ_INCIDENT_REF",
+        "L_CLASSIFY_INCIDENT",
+        "L_DRAFT_REPORT",
+        "L_RECOMMEND_NOTIFICATION"
+      ],
+      "next_scene_rules": [
+        {"condition": "incident_report_drafted", "target": "S_FINALIZE_REPORT"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    },
+    {
+      "scene_id": "S_FINALIZE_REPORT",
+      "scene_name": "Emit citation-grade output with disclaimer",
+      "scene_type": "FINALIZE",
+      "scene_goal": "Produce the structured, citation-grade output (tier, pathway, obligations, ISO anchors, deliverables, effective_date) and append the legal disclaimer.",
+      "input": ["$tier", "$pathway", "$obligations_list", "$iso_anchors", "$deliverables", "$effective_date", "$incident_report_skeleton"],
+      "output": ["$final_report"],
+      "entry_conditions": ["verification_passed OR $tier == unacceptable OR incident_report_drafted"],
+      "exit_conditions": ["report_emitted"],
+      "entry_logic_step_id": "L_WRITE_OUTPUT",
+      "contained_logic_steps": [
+        "L_WRITE_OUTPUT",
+        "L_APPEND_DISCLAIMER",
+        "L_TERMINATE"
+      ],
+      "next_scene_rules": [
+        {"condition": "report_emitted", "target": "END_SUCCESS"},
+        {"condition": "default", "target": "END_FAIL"}
+      ]
+    }
+  ],
+  "logic_steps": [
+    {
+      "logic_step_id": "L_DETERMINE_ROLE",
+      "act_type": "VALIDATE",
+      "input_args": ["$role"],
+      "output_binding": "$role_resolved",
+      "actor": "skill",
+      "object": "user_input.role",
+      "instrument": null,
+      "preconditions": ["skill_dispatched"],
+      "effects": ["$role_resolved in {provider, deployer, importer, distributor, authorised_rep}"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.user_request",
+      "next_step_rules": [
+        {"condition": "$role_resolved != null", "target": "L_DETERMINE_SYSTEM_KIND"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_DETERMINE_SYSTEM_KIND",
+      "act_type": "VALIDATE",
+      "input_args": ["$system_description", "$is_gpai"],
+      "output_binding": "$system_kind",
+      "actor": "skill",
+      "object": "user_input.system_description",
+      "instrument": null,
+      "preconditions": ["$role_resolved != null"],
+      "effects": ["$system_kind in {ai_system, gpai_model, both}"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.user_request",
+      "next_step_rules": [
+        {"condition": "$system_kind != null", "target": "L_CHECK_MODIFICATION"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_MODIFICATION",
+      "act_type": "COMPARE",
+      "input_args": ["$system_description", "$is_substantially_modified"],
+      "output_binding": "$modification_flag",
+      "actor": "skill",
+      "object": "art_25_trigger_pattern",
+      "instrument": null,
+      "preconditions": ["$system_kind != null"],
+      "effects": ["scope_established"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.user_request",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_READ_RUBRIC",
+      "act_type": "READ",
+      "input_args": ["references/01-risk-classification.md"],
+      "output_binding": "$rubric_loaded",
+      "actor": "skill",
+      "object": "risk_classification_reference",
+      "instrument": "filesystem.read",
+      "preconditions": ["scope_established"],
+      "effects": ["rubric_available"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/01-risk-classification.md",
+      "next_step_rules": [
+        {"condition": "success", "target": "L_GATHER_SIGNALS"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_GATHER_SIGNALS",
+      "act_type": "INFER",
+      "input_args": ["$rubric_loaded", "$system_description", "$sector", "$end_users"],
+      "output_binding": "$signals_14",
+      "actor": "skill",
+      "object": "classification_signals",
+      "instrument": null,
+      "preconditions": ["rubric_available"],
+      "effects": ["signals_acquired"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.signals",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_ART5",
+      "act_type": "COMPARE",
+      "input_args": ["$signals_14"],
+      "output_binding": "$art5_match",
+      "actor": "skill",
+      "object": "art_5_prohibitions_taxonomy",
+      "instrument": null,
+      "preconditions": ["signals_acquired"],
+      "effects": ["art5_evaluated"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "$art5_match == true", "target": "YIELD_SUCCESS"},
+        {"condition": "default", "target": "L_CHECK_ART6_1"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_ART6_1",
+      "act_type": "COMPARE",
+      "input_args": ["$signals_14"],
+      "output_binding": "$annex_i_match",
+      "actor": "skill",
+      "object": "annex_i_product_list",
+      "instrument": null,
+      "preconditions": ["art5_evaluated"],
+      "effects": ["annex_i_evaluated"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_CHECK_ART6_2"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_ART6_2",
+      "act_type": "COMPARE",
+      "input_args": ["$signals_14"],
+      "output_binding": "$annex_iii_match",
+      "actor": "skill",
+      "object": "annex_iii_domains_8",
+      "instrument": null,
+      "preconditions": ["annex_i_evaluated"],
+      "effects": ["annex_iii_evaluated"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "$annex_iii_match == true", "target": "L_CHECK_ART6_3_DEROGATION"},
+        {"condition": "default", "target": "L_CHECK_ART50"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_ART6_3_DEROGATION",
+      "act_type": "VALIDATE",
+      "input_args": ["$signals_14", "$annex_iii_match"],
+      "output_binding": "$art6_3_derogation",
+      "actor": "skill",
+      "object": "art_6_3_derogation_criteria",
+      "instrument": null,
+      "preconditions": ["annex_iii_evaluated"],
+      "effects": ["derogation_evaluated"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_CHECK_ART50"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_ART50",
+      "act_type": "COMPARE",
+      "input_args": ["$signals_14", "$system_kind"],
+      "output_binding": "$art50_triggers",
+      "actor": "skill",
+      "object": "art_50_transparency_triggers",
+      "instrument": null,
+      "preconditions": ["annex_iii_evaluated"],
+      "effects": ["art50_evaluated"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_CHECK_GPAI"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_GPAI",
+      "act_type": "COMPARE",
+      "input_args": ["$is_gpai", "$compute_flops"],
+      "output_binding": "$gpai_regime",
+      "actor": "skill",
+      "object": "gpai_systemic_risk_threshold",
+      "instrument": null,
+      "preconditions": ["art50_evaluated"],
+      "effects": ["tier_determined", "$tier derived from cascade", "$pathway derived from cascade"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.tier_evaluation",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_SELECT_OBLIGATIONS",
+      "act_type": "SELECT",
+      "input_args": ["$tier", "$pathway", "$role_resolved", "$gpai_regime"],
+      "output_binding": "$obligations_set",
+      "actor": "skill",
+      "object": "obligation_matrix",
+      "instrument": null,
+      "preconditions": ["tier_determined"],
+      "effects": ["obligations_selected"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.obligations",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_READ_REFERENCES"}
+      ]
+    },
+    {
+      "logic_step_id": "L_READ_REFERENCES",
+      "act_type": "READ",
+      "input_args": ["$obligations_set"],
+      "output_binding": "$references_loaded",
+      "actor": "skill",
+      "object": "reference_files",
+      "instrument": "filesystem.read",
+      "preconditions": ["obligations_selected"],
+      "effects": ["references_available"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/{02..14}.md",
+      "next_step_rules": [
+        {"condition": "success", "target": "L_ANCHOR_ISO"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_ANCHOR_ISO",
+      "act_type": "INFER",
+      "input_args": ["$obligations_set", "$references_loaded"],
+      "output_binding": "$iso_anchors",
+      "actor": "skill",
+      "object": "iso_42001_27090_crosswalk",
+      "instrument": null,
+      "preconditions": ["references_available"],
+      "effects": ["iso_anchors_attached"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/05-crosswalk-aiact-iso.md",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_LIST_DELIVERABLES"}
+      ]
+    },
+    {
+      "logic_step_id": "L_LIST_DELIVERABLES",
+      "act_type": "SELECT",
+      "input_args": ["$obligations_set", "$iso_anchors"],
+      "output_binding": "$deliverables",
+      "actor": "skill",
+      "object": "five_pillar_deliverables_map",
+      "instrument": null,
+      "preconditions": ["iso_anchors_attached"],
+      "effects": ["deliverables_listed", "$effective_date derived from art_113_timeline"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.deliverables",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_ATTACH_ART4_LITERACY"}
+      ]
+    },
+    {
+      "logic_step_id": "L_ATTACH_ART4_LITERACY",
+      "act_type": "INFER",
+      "input_args": ["$obligations_set"],
+      "output_binding": "$obligations_list",
+      "actor": "skill",
+      "object": "art_4_universal_obligation",
+      "instrument": null,
+      "preconditions": ["deliverables_listed"],
+      "effects": ["obligations_drafted"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/11-art4-ai-literacy.md",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_VALIDATE_CITATIONS",
+      "act_type": "VALIDATE",
+      "input_args": ["$obligations_list"],
+      "output_binding": "$citations_valid",
+      "actor": "skill",
+      "object": "citation_grammar",
+      "instrument": null,
+      "preconditions": ["obligations_drafted"],
+      "effects": ["citations_checked"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.verification",
+      "next_step_rules": [
+        {"condition": "$citations_valid == true", "target": "L_VALIDATE_ISO_ANCHORS"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_VALIDATE_ISO_ANCHORS",
+      "act_type": "VALIDATE",
+      "input_args": ["$iso_anchors"],
+      "output_binding": "$iso_anchors_valid",
+      "actor": "skill",
+      "object": "iso_anchor_grammar",
+      "instrument": null,
+      "preconditions": ["citations_checked"],
+      "effects": ["iso_anchors_checked"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.verification",
+      "next_step_rules": [
+        {"condition": "$iso_anchors_valid == true", "target": "L_VALIDATE_DELIVERABLES"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_VALIDATE_DELIVERABLES",
+      "act_type": "VALIDATE",
+      "input_args": ["$deliverables", "$obligations_list"],
+      "output_binding": "$deliverables_valid",
+      "actor": "skill",
+      "object": "deliverable_coverage",
+      "instrument": null,
+      "preconditions": ["iso_anchors_checked"],
+      "effects": ["deliverables_checked"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.verification",
+      "next_step_rules": [
+        {"condition": "$deliverables_valid == true", "target": "L_CHECK_MODIFICATION_FLAG"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CHECK_MODIFICATION_FLAG",
+      "act_type": "VALIDATE",
+      "input_args": ["$modification_flag", "$obligations_list"],
+      "output_binding": "$modification_surfaced",
+      "actor": "skill",
+      "object": "art_25_flip_check",
+      "instrument": null,
+      "preconditions": ["deliverables_checked"],
+      "effects": ["modification_check_done"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/12-art25-substantial-modification.md",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_POSITION_PRESUMPTION"}
+      ]
+    },
+    {
+      "logic_step_id": "L_POSITION_PRESUMPTION",
+      "act_type": "INFER",
+      "input_args": ["$obligations_list", "$iso_anchors"],
+      "output_binding": "$presumption_position",
+      "actor": "skill",
+      "object": "presumption_of_conformity_ladder",
+      "instrument": null,
+      "preconditions": ["modification_check_done"],
+      "effects": ["verification_passed", "$verification_status set"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/05-crosswalk-aiact-iso.md",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_READ_INCIDENT_REF",
+      "act_type": "READ",
+      "input_args": ["references/09-post-market-art72-73.md"],
+      "output_binding": "$incident_ref_loaded",
+      "actor": "skill",
+      "object": "post_market_incident_reference",
+      "instrument": "filesystem.read",
+      "preconditions": ["$incident_summary_present == true"],
+      "effects": ["incident_ref_available"],
+      "resource_scope": "LOCAL_FS",
+      "resource_target": "skills/ai-act-compliance/references/09-post-market-art72-73.md",
+      "next_step_rules": [
+        {"condition": "success", "target": "L_CLASSIFY_INCIDENT"},
+        {"condition": "default", "target": "YIELD_FAIL"}
+      ]
+    },
+    {
+      "logic_step_id": "L_CLASSIFY_INCIDENT",
+      "act_type": "COMPARE",
+      "input_args": ["$incident_summary", "$incident_ref_loaded"],
+      "output_binding": "$incident_classification",
+      "actor": "skill",
+      "object": "art_3_49_serious_incident_definition",
+      "instrument": null,
+      "preconditions": ["incident_ref_available"],
+      "effects": ["incident_classified", "$report_deadline derived"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.incident",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_DRAFT_REPORT"}
+      ]
+    },
+    {
+      "logic_step_id": "L_DRAFT_REPORT",
+      "act_type": "INFER",
+      "input_args": ["$incident_summary", "$incident_classification", "$role_resolved", "$system_description"],
+      "output_binding": "$incident_report_skeleton",
+      "actor": "skill",
+      "object": "art_73_report_template",
+      "instrument": null,
+      "preconditions": ["incident_classified"],
+      "effects": ["incident_draft_ready"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.incident_report",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_RECOMMEND_NOTIFICATION"}
+      ]
+    },
+    {
+      "logic_step_id": "L_RECOMMEND_NOTIFICATION",
+      "act_type": "INFER",
+      "input_args": ["$incident_classification", "$report_deadline"],
+      "output_binding": "$notification_recommendation",
+      "actor": "skill",
+      "object": "market_surveillance_authority_target",
+      "instrument": null,
+      "preconditions": ["incident_draft_ready"],
+      "effects": ["incident_report_drafted"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.incident_report",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    },
+    {
+      "logic_step_id": "L_WRITE_OUTPUT",
+      "act_type": "WRITE",
+      "input_args": ["$tier", "$pathway", "$obligations_list", "$iso_anchors", "$deliverables", "$effective_date", "$incident_report_skeleton"],
+      "output_binding": "$final_report_body",
+      "actor": "skill",
+      "object": "final_report",
+      "instrument": null,
+      "preconditions": ["verification_passed OR $tier == unacceptable OR incident_report_drafted"],
+      "effects": ["report_body_written"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.output_buffer",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_APPEND_DISCLAIMER"}
+      ]
+    },
+    {
+      "logic_step_id": "L_APPEND_DISCLAIMER",
+      "act_type": "WRITE",
+      "input_args": ["$final_report_body"],
+      "output_binding": "$final_report",
+      "actor": "skill",
+      "object": "legal_disclaimer",
+      "instrument": null,
+      "preconditions": ["report_body_written"],
+      "effects": ["report_emitted"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory.output_buffer",
+      "next_step_rules": [
+        {"condition": "always", "target": "L_TERMINATE"}
+      ]
+    },
+    {
+      "logic_step_id": "L_TERMINATE",
+      "act_type": "TERMINATE",
+      "input_args": [],
+      "output_binding": null,
+      "actor": "skill",
+      "object": "skill_lifecycle",
+      "instrument": null,
+      "preconditions": ["report_emitted"],
+      "effects": ["skill_terminated_success"],
+      "resource_scope": "MEMORY",
+      "resource_target": "working_memory",
+      "next_step_rules": [
+        {"condition": "always", "target": "YIELD_SUCCESS"}
+      ]
+    }
+  ]
+}

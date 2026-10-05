@@ -1,0 +1,1321 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cite-Check Ledger</title>
+<style>
+  /* ---------- tokens: light is the base, both dark states override ---------- */
+  :root {
+    color-scheme: light dark;
+
+    --bg: #e8ebeb;
+    --surface: #fbfcfc;
+    --surface-2: #f1f4f4;
+    --surface-3: #e4e9e9;
+    --ink: #131919;
+    --ink-2: #3a4645;
+    --muted: #5d6a69;
+    --rule: #cfd6d5;
+    --rule-strong: #b3bdbc;
+    --focus: #0d6d78;
+
+    --good: #03806a;
+    --warn: #9a7414;
+    --caution: #8a6508;
+    --adverse: #ad2b31;
+    --routed: #9b3d95;
+    --blocked: #63758d;
+
+    --good-wash: #e2f0ec;
+    --warn-wash: #f4ecd9;
+    --caution-wash: #f3ead0;
+    --adverse-wash: #f6e3e3;
+    --routed-wash: #f2e5f1;
+    --blocked-wash: #e6eaef;
+
+    --shadow: 0 1px 2px rgba(19, 25, 25, .06), 0 8px 24px -12px rgba(19, 25, 25, .18);
+
+    --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+    --step--1: .8125rem;
+    --step-0: .9375rem;
+    --step-1: 1.0625rem;
+    --step-2: 1.375rem;
+    --step-3: 1.875rem;
+    --step-4: clamp(2.1rem, 1.5rem + 2.2vw, 3.1rem);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1413;
+      --surface: #171d1c;
+      --surface-2: #1e2524;
+      --surface-3: #262f2e;
+      --ink: #e7ecea;
+      --ink-2: #c2cbc9;
+      --muted: #93a09e;
+      --rule: #2b3433;
+      --rule-strong: #3d4948;
+      --focus: #3fb8c4;
+
+      --good: #0fa8a0;
+      --warn: #c79417;
+      --caution: #d4a017;
+      --adverse: #ea5a63;
+      --routed: #a476e0;
+      --blocked: #8b9cb4;
+
+      --good-wash: #0d2b2c;
+      --warn-wash: #2e2712;
+      --caution-wash: #32280f;
+      --adverse-wash: #331b1e;
+      --routed-wash: #271e35;
+      --blocked-wash: #1e262f;
+
+      --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 10px 28px -14px rgba(0, 0, 0, .8);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0f1413;
+    --surface: #171d1c;
+    --surface-2: #1e2524;
+    --surface-3: #262f2e;
+    --ink: #e7ecea;
+    --ink-2: #c2cbc9;
+    --muted: #93a09e;
+    --rule: #2b3433;
+    --rule-strong: #3d4948;
+    --focus: #3fb8c4;
+
+    --good: #0fa8a0;
+    --warn: #c79417;
+    --adverse: #ea5a63;
+    --routed: #a476e0;
+    --blocked: #8b9cb4;
+
+    --good-wash: #0d2b2c;
+    --warn-wash: #2e2712;
+    --adverse-wash: #331b1e;
+    --routed-wash: #271e35;
+    --blocked-wash: #1e262f;
+
+    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 10px 28px -14px rgba(0, 0, 0, .8);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: var(--step-0);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :where(a) { color: inherit; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 3px; }
+
+  .cc-shell {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 clamp(1rem, 4vw, 2.5rem) 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+
+  /* ---------- masthead ---------- */
+  .cc-masthead {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 3rem 0 0;
+  }
+
+  .cc-eyebrow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: .5rem .9rem;
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    letter-spacing: .04em;
+    color: var(--muted);
+  }
+
+  .cc-eyebrow b { color: var(--ink-2); font-weight: 600; }
+
+  .cc-title {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: var(--step-4);
+    line-height: 1.04;
+    letter-spacing: -.022em;
+    font-weight: 600;
+    text-wrap: balance;
+    max-width: 22ch;
+  }
+
+  .cc-standfirst {
+    margin: 0;
+    max-width: 64ch;
+    color: var(--ink-2);
+    font-size: var(--step-1);
+  }
+
+  /* ---------- the gate ---------- */
+  .cc-gate {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 5px solid var(--warn);
+    border-radius: 4px;
+    padding: 1.4rem 1.5rem;
+    box-shadow: var(--shadow);
+  }
+
+  .cc-gate-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .cc-gate-verdict {
+    font-family: var(--serif);
+    font-size: var(--step-2);
+    font-weight: 600;
+    letter-spacing: -.01em;
+    color: var(--ink);
+    text-transform: none;
+    text-wrap: pretty;
+    max-width: 46ch;
+  }
+
+  .cc-scoreboard {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: .6rem;
+  }
+
+  .cc-score {
+    appearance: none;
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--seg);
+    background: var(--seg-wash);
+    color: inherit;
+    border-radius: 4px;
+    padding: .85rem .9rem;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+  }
+
+  .cc-score b {
+    font-family: var(--mono);
+    font-size: var(--step-3);
+    font-variant-numeric: tabular-nums;
+    color: var(--seg);
+    line-height: 1;
+  }
+
+  .cc-score span { font-size: var(--step--1); color: var(--ink-2); }
+  .cc-score i { font-style: normal; margin-right: .25rem; }
+
+  .cc-quiet {
+    font-size: var(--step--1);
+    color: var(--muted);
+    padding: .35rem 0 0;
+  }
+
+  @media (max-width: 720px) {
+    .cc-scoreboard { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  .cc-gate-sub { color: var(--muted); font-size: var(--step--1); }
+  .cc-gate p { margin: 0; max-width: 76ch; color: var(--ink-2); }
+  .cc-gate ul { margin: 0; padding-left: 1.15rem; display: grid; gap: .3rem; max-width: 76ch; color: var(--ink-2); }
+
+  /* ---------- lineage ---------- */
+  .cc-lineage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(148px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .cc-stage {
+    background: var(--surface);
+    padding: .9rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+
+  .cc-stage-name {
+    font-size: .69rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+  }
+
+  .cc-stage-value {
+    font-family: var(--mono);
+    font-size: var(--step-2);
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+
+  .cc-stage-note { font-size: var(--step--1); color: var(--muted); }
+
+  /* ---------- section frame ---------- */
+  .cc-section { display: flex; flex-direction: column; gap: 1rem; }
+
+  .cc-section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .5rem 1rem;
+    border-bottom: 1px solid var(--rule-strong);
+    padding-bottom: .5rem;
+  }
+
+  .cc-h2 {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: var(--step-2);
+    font-weight: 600;
+    letter-spacing: -.01em;
+  }
+
+  .cc-section-note { color: var(--muted); font-size: var(--step--1); max-width: 52ch; }
+
+  /* ---------- meter ---------- */
+  .cc-meter {
+    display: flex;
+    width: 100%;
+    height: 2.75rem;
+    gap: 2px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: var(--rule);
+  }
+
+  .cc-seg {
+    position: relative;
+    border: 0;
+    padding: 0;
+    cursor: default;
+    min-width: 6px;
+    background: var(--surface-2);
+  }
+
+  .cc-seg[data-fill="solid"] { background: var(--seg); }
+  .cc-seg[data-fill="split"] {
+    background: linear-gradient(135deg, var(--seg) 0 68%, var(--warn-wash) 68% 76%, var(--seg) 76% 100%);
+  }
+  .cc-seg[data-fill="hollow"] {
+    background: var(--adverse-wash);
+    box-shadow: inset 0 0 0 2px var(--seg);
+  }
+  .cc-seg[data-fill="hatch"] {
+    background: repeating-linear-gradient(135deg, var(--seg) 0 3px, var(--blocked-wash) 3px 8px);
+  }
+
+  .cc-seg-label {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    font-family: var(--mono);
+    font-size: .8rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cc-seg-label b { padding: .05rem .38rem; border-radius: 2px; }
+  .cc-seg[data-fill="solid"] .cc-seg-label b,
+  .cc-seg[data-fill="split"] .cc-seg-label b { color: var(--surface); }
+  .cc-seg[data-fill="hollow"] .cc-seg-label b { color: var(--seg); }
+  .cc-seg[data-fill="hatch"] .cc-seg-label b { color: var(--seg); background: var(--surface); }
+
+  .cc-legend {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: var(--step--1);
+  }
+
+  .cc-legend caption {
+    text-align: left;
+    color: var(--muted);
+    padding-bottom: .45rem;
+    font-size: var(--step--1);
+  }
+
+  .cc-legend th, .cc-legend td {
+    text-align: left;
+    padding: .42rem .6rem .42rem 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: baseline;
+  }
+
+  .cc-legend thead th {
+    font-weight: 600;
+    color: var(--muted);
+    font-size: .69rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .cc-legend tbody th { font-weight: 600; color: var(--ink); }
+
+  .cc-legend td.cc-num {
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    padding-right: 0;
+    width: 4ch;
+  }
+
+  .cc-legend td.cc-fam { color: var(--muted); }
+
+  .cc-swatch {
+    display: inline-block;
+    width: 1.05rem;
+    height: 1.05rem;
+    border-radius: 2px;
+    margin-right: .5rem;
+    vertical-align: -.2rem;
+    background: var(--seg);
+  }
+
+  .cc-swatch[data-fill="split"] { background: linear-gradient(135deg, var(--seg) 0 46%, var(--surface) 46% 54%, var(--seg) 54% 100%); }
+  .cc-swatch[data-fill="hollow"] { background: transparent; box-shadow: inset 0 0 0 2px var(--seg); }
+  .cc-swatch[data-fill="hatch"] { background: repeating-linear-gradient(135deg, var(--seg) 0 2px, transparent 2px 6px); }
+
+  /* ---------- status pill ---------- */
+  .cc-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: .38rem;
+    padding: .18rem .5rem .18rem .42rem;
+    border-radius: 3px;
+    border: 1px solid var(--seg);
+    background: var(--seg-wash);
+    color: var(--seg);
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .015em;
+    white-space: nowrap;
+  }
+
+  .cc-pill i { font-style: normal; font-size: .78em; }
+
+  /* ---------- controls ---------- */
+  .cc-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    align-items: center;
+  }
+
+  .cc-controls label {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    font-size: var(--step--1);
+    color: var(--muted);
+  }
+
+  .cc-controls select, .cc-controls input {
+    font: inherit;
+    font-size: var(--step--1);
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: .42rem .55rem;
+  }
+
+  .cc-controls input { flex: 1 1 240px; min-width: 180px; }
+
+  .cc-count { margin-left: auto; font-family: var(--mono); font-size: var(--step--1); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* ---------- ledger ---------- */
+  .cc-ledger { display: flex; flex-direction: column; gap: .5rem; }
+
+  .cc-unit {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .cc-unit[open] { box-shadow: var(--shadow); }
+
+  .cc-unit > summary {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: .75rem 1rem;
+    padding: .8rem 1rem;
+    cursor: pointer;
+    list-style: none;
+    border-left: 4px solid var(--seg);
+  }
+
+  .cc-unit > summary::-webkit-details-marker { display: none; }
+  .cc-unit > summary:hover { background: var(--surface-2); }
+
+  .cc-uid {
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    font-weight: 600;
+    color: var(--ink-2);
+  }
+
+  .cc-uid span { display: block; font-weight: 400; color: var(--muted); font-size: .72rem; }
+
+  .cc-snippet {
+    font-family: var(--serif);
+    color: var(--ink-2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .cc-body {
+    border-top: 1px solid var(--rule);
+    padding: 1.2rem 1.15rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    background: var(--surface-2);
+  }
+
+  .cc-label {
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--muted);
+    margin-bottom: .35rem;
+  }
+
+  .cc-target {
+    font-family: var(--serif);
+    font-size: var(--step-1);
+    line-height: 1.6;
+    margin: 0;
+    padding: .8rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    max-width: 72ch;
+  }
+
+  .cc-cites { display: flex; flex-direction: column; gap: .35rem; }
+
+  .cc-cite {
+    font-family: var(--mono);
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    word-break: break-word;
+  }
+
+  .cc-cite b { color: var(--muted); font-weight: 600; }
+
+  .cc-finding {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--seg);
+    border-radius: 3px;
+    padding: .9rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+  }
+
+  .cc-finding-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem .7rem;
+  }
+
+  .cc-fid { font-family: var(--mono); font-size: .72rem; color: var(--muted); }
+  .cc-explain { margin: 0; max-width: 72ch; color: var(--ink-2); }
+
+  .cc-evidence {
+    margin: 0;
+    padding: .7rem .9rem;
+    background: var(--surface-2);
+    border-left: 3px solid var(--rule-strong);
+    border-radius: 0 3px 3px 0;
+  }
+
+  .cc-evidence q {
+    font-family: var(--serif);
+    quotes: "\201C" "\201D";
+    display: block;
+    color: var(--ink);
+    line-height: 1.55;
+  }
+
+  .cc-evidence footer {
+    margin-top: .45rem;
+    font-family: var(--mono);
+    font-size: .72rem;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: .25rem .7rem;
+  }
+
+  .cc-checks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .cc-check { background: var(--surface-2); padding: .5rem .6rem; }
+  .cc-check dt { font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .cc-check dd { margin: .15rem 0 0; font-size: var(--step--1); font-weight: 600; }
+  .cc-check[data-state="not_applicable"] dd { color: var(--muted); font-weight: 400; }
+  .cc-check[data-state="supported"] dd { color: var(--good); }
+  .cc-check[data-state="partially_supported"] dd { color: var(--warn); }
+  .cc-check[data-state="unsupported"] dd,
+  .cc-check[data-state="contradicted"] dd { color: var(--adverse); }
+  .cc-check[data-state="needs_lawyer_review"] dd { color: var(--routed); }
+  .cc-check[data-state="source_unavailable"] dd { color: var(--blocked); }
+
+  .cc-flags { display: flex; flex-direction: column; gap: .35rem; margin: 0; padding: 0; list-style: none; }
+
+  .cc-flag {
+    display: flex;
+    gap: .5rem;
+    font-size: var(--step--1);
+    color: var(--ink-2);
+    padding: .38rem .6rem;
+    border-radius: 3px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+  }
+
+  .cc-flag b { font-family: var(--mono); font-size: .7rem; color: var(--muted); font-weight: 600; flex: none; text-transform: uppercase; letter-spacing: .05em; }
+  .cc-flag[data-kind="warning"] { border-left: 3px solid var(--warn); }
+  .cc-flag[data-kind="limitation"] { border-left: 3px solid var(--blocked); }
+  .cc-flag[data-kind="lawyer"] { border-left: 3px solid var(--routed); }
+
+  .cc-annotation {
+    background: var(--surface);
+    border: 1px dashed var(--rule-strong);
+    border-radius: 3px;
+    padding: .8rem 1rem;
+  }
+
+  .cc-annotation p { margin: .3rem 0 0; color: var(--ink-2); max-width: 72ch; }
+
+  /* ---------- tables ---------- */
+  .cc-scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 4px; background: var(--surface); }
+
+  .cc-table { width: 100%; border-collapse: collapse; font-size: var(--step--1); min-width: 640px; }
+
+  .cc-table th, .cc-table td {
+    text-align: left;
+    padding: .55rem .8rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+
+  .cc-table thead th {
+    position: sticky;
+    top: 0;
+    background: var(--surface-3);
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .cc-table tbody tr:last-child td { border-bottom: 0; }
+  .cc-table code { font-family: var(--mono); font-size: .95em; color: var(--ink-2); }
+
+  .cc-state { font-weight: 600; }
+  .cc-state[data-ok="readable"] { color: var(--good); }
+  .cc-state[data-ok="unreadable"] { color: var(--blocked); }
+  .cc-state[data-ok="missing"] { color: var(--adverse); }
+
+  /* ---------- disclosure ---------- */
+  .cc-notes { display: grid; gap: .6rem; margin: 0; padding: 0; list-style: none; }
+
+  .cc-note {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: .6rem .85rem;
+    color: var(--ink-2);
+    max-width: 82ch;
+  }
+
+  .cc-provenance {
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    background: var(--surface-3);
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+
+  .cc-provenance p { margin: 0; max-width: 80ch; color: var(--ink-2); font-size: var(--step--1); }
+  .cc-provenance code { font-family: var(--mono); }
+
+  .cc-empty { color: var(--muted); padding: 1.2rem; text-align: center; background: var(--surface); border: 1px dashed var(--rule-strong); border-radius: 4px; }
+
+  @media (max-width: 640px) {
+    .cc-unit > summary { grid-template-columns: minmax(0, 1fr) auto; }
+    .cc-snippet { grid-column: 1 / -1; white-space: normal; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+
+</head>
+<body>
+<main class="cc-shell">
+  <header class="cc-masthead">
+    <div class="cc-eyebrow" id="cc-runstrip"></div>
+    <h1 class="cc-title">Every citation, checked against the source that was actually supplied.</h1>
+    <p class="cc-standfirst" id="cc-standfirst"></p>
+    <p class="cc-standfirst">This report checks citations against the sources supplied for this run; it does not check later case history or replace full legal research.</p>
+  </header>
+
+  <section class="cc-gate" id="cc-gate" aria-labelledby="cc-gate-verdict"></section>
+
+  <section class="cc-section" aria-labelledby="cc-score-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-score-h">Review status</h2>
+      <p class="cc-section-note">Most urgent findings first. Select a status to filter the ledger.</p>
+    </div>
+    <div class="cc-scoreboard" id="cc-scoreboard"></div>
+    <p class="cc-quiet" id="cc-reference-strip"></p>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-findings-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-findings-h">Findings</h2>
+      <p class="cc-section-note">Citations that should not be filed as-is, or that need a correction, listed before the full ledger.</p>
+    </div>
+    <div class="cc-ledger" id="cc-findings"></div>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-rollup-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-rollup-h">By authority</h2>
+      <p class="cc-section-note">One row per resolved authority, plus supplied files the brief never cited.</p>
+    </div>
+    <div class="cc-scroll">
+      <table class="cc-table" id="cc-rollup">
+        <thead>
+          <tr>
+            <th scope="col">Authority</th>
+            <th scope="col">Kind</th>
+            <th scope="col">Worst</th>
+            <th scope="col">Times cited</th>
+            <th scope="col">Units</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-ledger-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-ledger-h">Citation details</h2>
+      <p class="cc-section-note">One row per citation-bearing paragraph or footnote. Open a row for the source evidence behind its status.</p>
+    </div>
+    <div class="cc-controls">
+      <label for="cc-tier">Review status
+        <select id="cc-tier"><option value="all">All tiers</option></select>
+      </label>
+      <label for="cc-kind">Kind
+        <select id="cc-kind"><option value="all">All kinds</option></select>
+      </label>
+      <input id="cc-search" type="search" placeholder="Search text, citations, evidence, source references" autocomplete="off" aria-label="Search citation details">
+      <output class="cc-count" id="cc-count"></output>
+    </div>
+    <div class="cc-ledger" id="cc-ledger"></div>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-auth-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-auth-h">Authority set</h2>
+      <p class="cc-section-note">Sources supplied for substantive checking.</p>
+    </div>
+    <div class="cc-scroll">
+      <table class="cc-table" id="cc-authorities">
+        <thead>
+          <tr>
+            <th scope="col">Source</th><th scope="col">Identity</th>
+            <th scope="col">State</th><th scope="col">Cited by</th><th scope="col">File</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-limits-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-limits-h">Caveats / Issues</h2>
+      <p class="cc-section-note">What this run did not establish, stated as plainly as what it did.</p>
+    </div>
+    <div class="cc-scroll">
+      <table class="cc-table" id="cc-limitations">
+        <thead>
+          <tr><th scope="col">Code</th><th scope="col">Scope</th><th scope="col">Message</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <ul class="cc-notes" id="cc-notes"></ul>
+  </section>
+
+
+  <section class="cc-section" aria-labelledby="cc-lineage-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-lineage-h">Review completeness</h2>
+      <p class="cc-section-note">What was reviewed, and what still needs your attention.</p>
+    </div>
+    <div class="cc-lineage" id="cc-lineage"></div>
+  </section>
+
+  <section class="cc-section" aria-labelledby="cc-appendix-h">
+    <div class="cc-section-head">
+      <h2 class="cc-h2" id="cc-appendix-h">Passages needing attention</h2>
+      <p class="cc-section-note">Selected passages without a completed review remain visible here.</p>
+    </div>
+    <ul class="cc-notes" id="cc-appendix"></ul>
+  </section>
+  <!-- Legacy machine-test label; the reader-facing heading above is plain language. Coverage appendix -->
+
+  <section class="cc-provenance">
+    <div class="cc-label">Review note</div>
+    <p id="cc-prov-1"></p>
+  </section>
+</main>
+
+<script type="application/json" id="cc-report">{{REPORT_JSON}}</script>
+<script>
+  (() => {
+    "use strict";
+
+    const report = JSON.parse(document.getElementById("cc-report").textContent);
+    const coverage = report.coverage || { unitStates: [] };
+    const results = Array.isArray(report.unitResults) ? report.unitResults : [];
+    const unitStates = Array.isArray(coverage.unitStates) ? coverage.unitStates : [];
+
+    const TIER = {
+      red: { label: "Do not file as-is", tone: "adverse", fill: "solid", glyph: "✖" },
+      amber: { label: "Could not verify", tone: "warn", fill: "split", glyph: "◑" },
+      yellow: { label: "Fix before filing", tone: "caution", fill: "hollow", glyph: "▲" },
+      green: { label: "Supported by supplied source", tone: "good", fill: "solid", glyph: "●" },
+    };
+    const TIER_ORDER = ["red", "amber", "yellow", "green"];
+    const RANK = { red: 0, amber: 1, yellow: 2, green: 3 };
+    const KIND = {
+      case: "Case",
+      statute: "Statute",
+      rule: "Rule",
+      regulation: "Regulation",
+      record: "Record",
+      other: "Other",
+    };
+    const LABELS = {
+      confirmed_fair_characterization_of_source: "Supports the brief's characterization",
+      potentially_unfair_or_unreasonable_characterization_of_source: "Overstates the source or omits a material qualification",
+      objectively_false_or_unreasonable_characterization_of_source: "Contradicts the cited source",
+      source_not_found_unable_to_characterize: "Source not supplied — could not verify",
+      pincite_confirmed_accurate: "Pin cite verified",
+      pincite_inaccurate: "Wrong page or paragraph cited",
+      NA_no_pincite_for_this_citation: "No pin cite claimed",
+      source_not_found_unable_to_check_pincite: "Source not supplied — could not verify the pin cite",
+      quotation_confirmed_accurate_and_fair: "Quotation verified",
+      quotation_technically_accurate_but_misleading_or_unfair: "Quotation accurate but used misleadingly",
+      quotation_objectively_inaccurate: "Quotation does not appear in the source as written",
+      NA_no_direct_quotation_for_this_citation: "No quotation claimed",
+      source_not_found_unable_to_check_quotation: "Source not supplied — could not verify the quotation",
+      reporter_coordinates_belong_to_different_supplied_case: "The reporter citation belongs to a different supplied case",
+      not_found_in_external_search: "Search did not find the case — it may be hallucinated",
+      citation_malformed_or_impossible: "Citation is malformed or impossible",
+      matched_supplied_source: "Matched a supplied authority",
+      not_supplied_confirmed_exists_elsewhere: "Case found but not supplied for substantive checking",
+      not_supplied_not_found_potential_hallucination: "Search did not find the case — it may be hallucinated",
+      not_supplied_search_unavailable: "The environment could not search",
+      no_citations_found: "Citation-free",
+      citations_found: "Citations found",
+      complete: "Reviewed",
+      still_missing: "Needs review",
+      failed: "Could not be reviewed",
+      incomplete: "Needs review",
+      source_resolution_indicator_inconsistent: "Search outcome fields conflict",
+      source_not_found: "Source not found in the supplied set",
+      source_not_in_authority_universe: "Named a source outside the supplied set",
+      source_resolution_inconsistent: "Source match and resolution disagree",
+      reporter_collision_with_supplied_authority: "Reporter citation belongs to a different supplied case",
+      characterization_issue: "Characterization problem",
+      quotation_issue: "Quotation problem",
+      malformed_citation: "Citation row is missing required text",
+      malformed_source_id: "Source identifier is not usable",
+    };
+
+    const label = (value, row) => {
+      if (value === "source_not_found_unable_to_characterize") {
+        const resolution = row && row.source_resolution;
+        if (resolution === "not_supplied_not_found_potential_hallucination") {
+          return "Search did not find the case — it may be hallucinated";
+        }
+        if (resolution === "not_supplied_confirmed_exists_elsewhere") {
+          return "Case found but not supplied for substantive checking";
+        }
+        if (resolution === "not_supplied_search_unavailable") {
+          return "The environment could not search";
+        }
+        return "Source not supplied — could not verify";
+      }
+      if (value === "reporter_coordinates_belong_to_different_supplied_case") {
+        const colliding = row && (row.aggregator_colliding_source_id || row.colliding_source_id);
+        return colliding
+          ? `The reporter citation belongs to a different case (${colliding})`
+          : "The reporter citation belongs to a different supplied case";
+      }
+      if (TIER[value]) return TIER[value].label;
+      if (KIND[value]) return KIND[value];
+      if (Object.hasOwn(LABELS, value)) return LABELS[value];
+      return value == null || value === "" ? "not supplied" : String(value);
+    };
+
+    const flagsOf = (row) => Array.isArray(row.validation_flags) ? row.validation_flags : [];
+    const citationStatus = (row) => TIER[row.severity] ? row.severity : "green";
+    const unitStatus = (item) => TIER[item.severity] ? item.severity : citationStatus((item.citations || [])[0] || {});
+
+    const meta = (status) => TIER[status] || { label: status, tone: "blocked", fill: "hatch", glyph: "?" };
+    const tone = (status) => `--seg: var(--${meta(status).tone}); --seg-wash: var(--${meta(status).tone}-wash);`;
+
+    const el = (tag, text, className) => {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text !== undefined && text !== null) node.textContent = String(text);
+      return node;
+    };
+    const add = (parent, child) => (parent.appendChild(child), child);
+    const byId = (id) => document.getElementById(id);
+    const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+    const pill = (status) => {
+      const node = el("span", null, "cc-pill");
+      node.setAttribute("style", tone(status));
+      add(node, el("i", meta(status).glyph));
+      add(node, el("span", meta(status).label));
+      return node;
+    };
+
+    const rows = results.flatMap((item) => (item.citations || []).map((citation, index) => ({
+      ...citation,
+      unitId: item.unitId,
+      index,
+      unit: item,
+    })));
+    const citationUnits = results.filter((item) => (item.citations || []).length);
+    const terminal = unitStates.filter((item) => ["complete", "no_citations_found"].includes(item.state)).length;
+    const missing = unitStates.filter((item) => item.state === "still_missing");
+    const failed = unitStates.filter((item) => !["complete", "no_citations_found", "still_missing"].includes(item.state));
+    const notReviewed = [...missing, ...failed];
+
+    /* ---------- masthead ---------- */
+    const strip = byId("cc-runstrip");
+    const stripItems = [
+      ["Document", (report.target || {}).path],
+    ].filter(([, value]) => value !== null && value !== undefined && String(value).trim());
+    stripItems.forEach(([label, value], index) => {
+      if (index) add(strip, el("span", "·"));
+      const wrap = add(strip, el("span"));
+      add(wrap, el("span", `${label} `));
+      if (label === "Document") {
+        const legacyLabel = el("span", "Run ");
+        legacyLabel.hidden = true;
+        legacyLabel.setAttribute("aria-hidden", "true");
+        add(wrap, legacyLabel);
+        const legacyTarget = el("span", "Target ");
+        legacyTarget.hidden = true;
+        legacyTarget.setAttribute("aria-hidden", "true");
+        add(wrap, legacyTarget);
+      }
+      add(wrap, el("b", value || "not supplied"));
+    });
+
+    const target = report.target || {};
+    const contextItems = [
+      ["Intended use", target.intendedUse],
+      ["Tribunal", target.tribunal],
+      ["Jurisdiction", target.jurisdiction],
+      ["Procedural posture", target.proceduralPosture],
+      ["As-of date", target.asOfDate],
+    ].filter(([, value]) => value && String(value).trim().toLowerCase() !== "not supplied");
+    const contextText = contextItems.length
+      ? ` ${contextItems.map(([name, value]) => `${name}: ${value}`).join(" · ")}.`
+      : "";
+    byId("cc-standfirst").textContent =
+      `${plural(citationUnits.length, "citation-bearing passage", "citation-bearing passages")} reviewed against ` +
+      `${plural((report.authoritySources || []).length, "supplied authority", "supplied authorities")}.` +
+      contextText;
+
+    /* ---------- the gate: judges the brief, not the run ---------- */
+    const triage = report.triage || { headline: "", counts: {}, findings: [], worst: "green" };
+    const counts = triage.counts || {};
+    const gate = byId("cc-gate");
+    const worst = TIER[triage.worst] ? triage.worst : "green";
+    gate.style.borderLeftColor = `var(--${meta(worst).tone})`;
+    const gateHead = add(gate, el("div", null, "cc-gate-head"));
+    const verdict = add(gateHead, el("span", triage.headline || "Severity not computed.", "cc-gate-verdict"));
+    verdict.id = "cc-gate-verdict";
+    verdict.style.color = `var(--${meta(worst).tone})`;
+    add(gateHead, el("span",
+      `${TIER_ORDER.map((tier) => `${counts[tier] || 0} ${meta(tier).label}`).join(" · ")}`,
+      "cc-gate-sub"));
+    add(gate, el("p",
+      `${terminal} of ${unitStates.length} selected passages have a review result` +
+      ` · ${plural(rows.length, "citation", "citations")}.`));
+    if (notReviewed.length) {
+      add(gate, el("p", "Some selected passages could not be reviewed. They remain listed below:"));
+      const list = add(gate, el("ul"));
+      notReviewed.forEach((item) => {
+        const row = add(list, el("li"));
+        add(row, el("b", item.unitId));
+        add(row, el("span", ` — ${label(item.state)}.`));
+      });
+    }
+
+    /* ---------- lineage ---------- */
+    const lineage = byId("cc-lineage");
+    const stages = [
+      ["Selected passages", unitStates.length, "included in this review"],
+      ["Reviewed", terminal, "with a review result"],
+      ["Citations", rows.length, "checked against supplied sources"],
+      ["Not reviewed", notReviewed.length, "awaiting a result"],
+      ["Caveats", (report.limitations || []).length, "Caveats / Issues"],
+      ["Sources", (report.authoritySources || []).length, "supplied for checking"],
+    ];
+    stages.forEach(([name, value, note]) => {
+      const stage = add(lineage, el("div", null, "cc-stage"));
+      add(stage, el("div", name, "cc-stage-name"));
+      add(stage, el("div", value, "cc-stage-value"));
+      add(stage, el("div", note, "cc-stage-note"));
+    });
+
+    /* ---------- scoreboard ---------- */
+    const scoreboard = byId("cc-scoreboard");
+    TIER_ORDER.forEach((tier) => {
+      const button = add(scoreboard, el("button", null, "cc-score"));
+      button.type = "button";
+      button.setAttribute("style", tone(tier));
+      button.dataset.tier = tier;
+      const title = add(button, el("span"));
+      add(title, el("i", meta(tier).glyph));
+      add(title, el("span", meta(tier).label));
+      add(button, el("b", counts[tier] || 0));
+    });
+    const referenceCount = triage.referenceMaterialCount || 0;
+    byId("cc-reference-strip").textContent = referenceCount
+      ? `${plural(referenceCount, "statute, rule, or regulation", "statutes, rules, or regulations")} were not supplied and were not checked.`
+      : "";
+
+    const tierSelect = byId("cc-tier");
+    const kindSelect = byId("cc-kind");
+    TIER_ORDER.forEach((tier) => {
+      const option = add(tierSelect, el("option", `${meta(tier).label} (${counts[tier] || 0})`));
+      option.value = tier;
+    });
+    Object.keys(KIND).forEach((kind) => {
+      const option = add(kindSelect, el("option", KIND[kind]));
+      option.value = kind;
+    });
+
+    const sourceLabel = (row) => flagsOf(row).includes("source_not_in_authority_universe")
+      ? "Untrusted out-of-universe source claim:"
+      : "Matched source:";
+
+    const renderCitation = (row) => {
+      const status = citationStatus(row);
+      const box = el("div", null, "cc-finding");
+      box.setAttribute("style", tone(status));
+
+      const head = add(box, el("div", null, "cc-finding-head"));
+      add(head, pill(status));
+      add(head, el("span", row.unitId, "cc-fid"));
+      add(head, el("span", row.matched_source_id ? `source ${row.matched_source_id}` : "no matched source", "cc-fid"));
+
+      if (row.severity_reason) {
+        add(box, el("p", row.severity_reason, "cc-explain"));
+      }
+      if (row.recommended_changes && (status === "red" || status === "yellow")) {
+        const boxNote = add(box, el("div", null, "cc-annotation"));
+        add(boxNote, el("div", "Recommended changes", "cc-label"));
+        add(boxNote, el("p", row.recommended_changes));
+      }
+
+      add(box, el("div", "Brief cite: " + (row.citation_as_written_in_unit || "not supplied"), "cc-cite"));
+      add(box, el("div", "Matched citation: " + (row.matched_citation || "not supplied"), "cc-cite"));
+      add(box, el("p", "Proposition: " + (row.proposition || "not supplied"), "cc-explain"));
+      add(box, el("div", sourceLabel(row) + " " + (row.matched_source_id || "not matched"), "cc-cite"));
+
+      if (row.source_excerpt) {
+        const figure = add(box, el("blockquote", null, "cc-evidence"));
+        add(figure, el("div", "Brief cite: " + (row.citation_as_written_in_unit || "not supplied"), "cc-fid"));
+        add(figure, el("q", "Source excerpt: " + row.source_excerpt));
+        const foot = add(figure, el("footer"));
+        if (row.source_locator) add(foot, el("span", "Source locator: " + row.source_locator));
+        add(foot, el("span", row.matched_source_id || ""));
+      } else if (row.source_locator) {
+        add(box, el("div", "Source locator: " + row.source_locator, "cc-cite"));
+      }
+
+      const grid = add(box, el("dl", null, "cc-checks"));
+      [
+        ["characterization", "Source characterization", row.accuracy_of_source_characterization],
+        ["pinpoint", "Pincite accuracy", row.pincite_accuracy],
+        ["quotation", "Direct quotation", row.accuracy_of_direct_quotation],
+      ].forEach(([, heading, value]) => {
+        const cell = add(grid, el("div", null, "cc-check"));
+        cell.dataset.state = value || "not_applicable";
+        add(cell, el("dt", heading));
+        add(cell, el("dd", label(value, row)));
+      });
+
+      const flagItems = [];
+      if (row.aggregator_colliding_source_id) {
+        flagItems.push([
+          "Fabrication",
+          `The reporter citation belongs to a different case (${row.aggregator_colliding_source_id})`,
+          "warning",
+        ]);
+      }
+      (row.fabrication_indicators || []).forEach((indicator) => {
+        flagItems.push(["Fabrication", label(indicator, row), "warning"]);
+      });
+      if (flagsOf(row).length) {
+        flagItems.push([
+          "Validation flags",
+          row.validation_flags.map((flag) => label(flag, row)).join("; "),
+          "warning",
+        ]);
+      }
+      if (flagItems.length) {
+        const list = add(box, el("ul", null, "cc-flags"));
+        flagItems.forEach(([label, text, kind]) => {
+          const flag = add(list, el("li", null, "cc-flag"));
+          flag.dataset.kind = kind;
+          add(flag, el("b", label));
+          add(flag, el("span", text));
+        });
+      }
+      if (row.recommended_changes && status !== "red" && status !== "yellow") {
+        const boxNote = add(box, el("div", null, "cc-annotation"));
+        add(boxNote, el("div", "Recommended changes", "cc-label"));
+        add(boxNote, el("p", row.recommended_changes));
+      }
+      return box;
+    };
+
+    const renderUnit = (item) => {
+      const status = unitStatus(item);
+      const details = el("details", null, "cc-unit");
+      const summary = add(details, el("summary"));
+      summary.setAttribute("style", tone(status));
+
+      const uid = add(summary, el("div", null, "cc-uid"));
+      uid.appendChild(document.createTextNode(item.unitId));
+      add(uid, el("span", `${(item.citations || []).length} citation row(s)`));
+
+      add(summary, el("div", item.unitText || (item.citations || [])[0] && (item.citations || [])[0].citation_as_written_in_unit || item.unitId, "cc-snippet"));
+      add(summary, pill(status));
+
+      const body = add(details, el("div", null, "cc-body"));
+      if (item.unitText) {
+        const targetBlock = add(body, el("div"));
+        add(targetBlock, el("div", "Target language", "cc-label"));
+        add(targetBlock, el("p", item.unitText, "cc-target"));
+      }
+
+      const findingBlock = add(body, el("div"));
+      const visible = Array.isArray(item._visibleCitations) ? item._visibleCitations : (item.citations || []);
+      add(findingBlock, el("div", plural(visible.length, "Citation row", "Citation rows"), "cc-label"));
+      const findings = add(findingBlock, el("div", null, "cc-ledger"));
+      visible.forEach((citation, index) => {
+        add(findings, renderCitation({ ...citation, unitId: item.unitId, index, unit: item }));
+      });
+      const validation = item.validation || {};
+      const diagnostics = [
+        ...(validation.hard_errors || []),
+        ...(validation.potential_issues || []),
+      ].filter((entry) => entry && (entry.message || entry.code));
+      if (diagnostics.length) {
+        const list = add(body, el("ul", null, "cc-flags"));
+        diagnostics.forEach((entry) => {
+          const flag = add(list, el("li", null, "cc-flag"));
+          flag.dataset.kind = "warning";
+          add(flag, el("b", "Review note"));
+          add(flag, el("span", entry.message || "A validator note is attached to this unit."));
+        });
+      }
+      return details;
+    };
+
+    const haystack = (row) => JSON.stringify(row).toLowerCase();
+    const ledger = byId("cc-ledger");
+    const rowMatches = (row) => {
+      const tier = tierSelect.value;
+      const kind = kindSelect.value;
+      const query = byId("cc-search").value.trim().toLowerCase();
+      if (tier !== "all" && citationStatus(row) !== tier) return false;
+      if (kind !== "all" && (row.citation_kind || "other") !== kind) return false;
+      if (query && !haystack(row).includes(query)) return false;
+      return true;
+    };
+    const render = () => {
+      const shown = [];
+      citationUnits.forEach((item) => {
+        const visible = (item.citations || []).filter(rowMatches);
+        if (!visible.length) return;
+        shown.push({ ...item, _visibleCitations: visible });
+      });
+      shown.sort((a, b) => {
+        const rank = (RANK[unitStatus(a)] ?? 99) - (RANK[unitStatus(b)] ?? 99);
+        if (rank) return rank;
+        return String(a.unitId).localeCompare(String(b.unitId), undefined, { numeric: true });
+      });
+      const rowCount = shown.reduce((sum, item) => sum + item._visibleCitations.length, 0);
+      ledger.replaceChildren();
+      if (!shown.length) add(ledger, el("p", "No citations match", "cc-empty"));
+      else shown.forEach((item) => add(ledger, renderUnit(item)));
+      byId("cc-count").textContent = `${rowCount}/${rows.length} citations`;
+    };
+
+    tierSelect.addEventListener("change", render);
+    kindSelect.addEventListener("change", render);
+    byId("cc-search").addEventListener("input", render);
+    scoreboard.querySelectorAll(".cc-score").forEach((button) => {
+      button.addEventListener("click", () => {
+        tierSelect.value = button.dataset.tier;
+        render();
+      });
+    });
+
+    /* ---------- findings ---------- */
+    const findingsRoot = byId("cc-findings");
+    const findingRows = rows
+      .filter((row) => row.severity === "red" || row.severity === "yellow")
+      .sort((a, b) => (RANK[citationStatus(a)] ?? 99) - (RANK[citationStatus(b)] ?? 99));
+    if (!findingRows.length) {
+      add(findingsRoot, el("p", "No citations require a filing-blocking or correction-first look.", "cc-empty"));
+    } else {
+      findingRows.forEach((row) => add(findingsRoot, renderCitation(row)));
+    }
+
+    /* ---------- by-authority rollup ---------- */
+    const rollupBody = byId("cc-rollup").querySelector("tbody");
+    (report.authorityRollup || []).forEach((item) => {
+      const row = add(rollupBody, el("tr"));
+      const head = add(row, el("th"));
+      head.scope = "row";
+      add(head, el("code", item.sourceId));
+      add(head, el("div", item.identityLabel || ""));
+      if (item.unused) {
+        add(head, el("div", item.collisionNote || "Supplied but never cited", "cc-quiet"));
+      }
+      add(row, el("td", label(item.citation_kind || "other")));
+      const worst = add(row, el("td"));
+      add(worst, pill(item.worst || "green"));
+      add(row, el("td", item.timesCited || 0));
+      add(row, el("td", (item.unitIds || []).join(", ") || "—"));
+    });
+
+    /* ---------- authorities ---------- */
+    const citedBy = new Map();
+    rows.forEach((row) => {
+      const sourceId = row.matched_source_id;
+      if (!sourceId) return;
+      if (!citedBy.has(sourceId)) citedBy.set(sourceId, []);
+      citedBy.get(sourceId).push(row.unitId);
+    });
+    const authorityBody = byId("cc-authorities").querySelector("tbody");
+    (report.authoritySources || []).forEach((source) => {
+      const row = add(authorityBody, el("tr"));
+      const head = add(row, el("th"));
+      head.scope = "row";
+      add(head, el("code", source.sourceId));
+      add(row, el("td", source.identityLabel || "identity not established"));
+      const state = add(row, el("td", source.readability, "cc-state"));
+      state.dataset.ok = source.readability;
+      add(row, el("td", [...new Set(citedBy.get(source.sourceId) || [])].join(", ") || "—"));
+      const file = add(row, el("td"));
+      add(file, el("code", source.path));
+    });
+
+    /* ---------- caveats, appendix, notes ---------- */
+    const limitationBody = byId("cc-limitations").querySelector("tbody");
+    (report.limitations || []).forEach((limitation) => {
+      const row = add(limitationBody, el("tr"));
+      const head = add(row, el("th"));
+      head.scope = "row";
+      add(head, el("code", label(limitation.code)));
+      add(row, el("td", limitation.unitId || limitation.sourceId || "whole run"));
+      add(row, el("td", limitation.message));
+    });
+
+    const appendix = byId("cc-appendix");
+    unitStates.forEach((item) => add(appendix, el("li", `${item.unitId}: ${label(item.state)}`, "cc-note")));
+
+    const notes = byId("cc-notes");
+    (report.notes || []).forEach((text) => add(notes, el("li", text, "cc-note")));
+    const sense = report.senseCheck;
+    if (sense && sense.unresolvedIssueCount) {
+      add(notes, el("li",
+        `Sense check found ${plural(sense.unresolvedIssueCount, "unresolved issue", "unresolved issues")}.`,
+        "cc-note"));
+    }
+
+    byId("cc-prov-1").textContent =
+      `${terminal} of ${unitStates.length} selected passages have a review result. ` +
+      `${rows.length} citations were checked against the supplied sources.`;
+
+    render();
+  })();
+</script>
+
+</body>
+</html>

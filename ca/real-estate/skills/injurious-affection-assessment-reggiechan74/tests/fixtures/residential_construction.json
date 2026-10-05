@@ -1,0 +1,44 @@
+{
+  "property_address": "123 Residential Street, Toronto, ON",
+  "property": {
+    "property_type": "residential",
+    "property_value": 750000.0,
+    "rental_income_monthly": 3500.0,
+    "distance_to_construction_m": 25.0,
+    "number_of_units": 1,
+    "business_type": null,
+    "annual_revenue": 0.0,
+    "background_noise_dba": 48.0
+  },
+  "construction": {
+    "duration_months": 18.0,
+    "equipment": [
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 85.0,
+        "hours_per_day": 6.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "jackhammer",
+        "dba_at_15m": 95.0,
+        "hours_per_day": 4.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "concrete_truck",
+        "dba_at_15m": 80.0,
+        "hours_per_day": 3.0,
+        "days_per_week": 6
+      }
+    ],
+    "dust_impact_zone": "high",
+    "vibration_ppv_mms": 3.5,
+    "traffic_reduction_pct": 0.0,
+    "construction_hours_per_day": 8,
+    "night_work": false
+  },
+  "market_parameters": {
+    "capitalization_rate": 0.07
+  }
+}

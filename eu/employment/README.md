@@ -4,11 +4,12 @@ Labour and employment — hiring, contracts, policies, termination, and workplac
 
 Jurisdiction: `eu` · Practice: `employment` · Skill language: de
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`EU Richtlinie Abgleich`](skills/eu-richtlinie-abgleich/) | Für EU Richtlinie Abgleich: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
+| [`Whistleblower Compliance Skill`](skills/whistleblower-compliance-borghei/) | Audit whistleblower systems and draft compliant reporting policies. Use when assessing or building… |
 
 ## Cold-start context
 

@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-ecommerce-compliance",
+  "generated_at": "2026-05-29T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "cooling-off-and-fees",
+      "claim": "Distance-selling cancellation is 14 days from receipt of the goods or of the required document, whichever is later (Consumer Protection Law sec 14G(c)(1)).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "raw_snippet": "בנכס – מיום עשיית העסקה ועד ארבעה עשר ימים מיום קבלת הנכס או מיום קבלת המסמך המכיל את הפרטים האמורים בסעיף קטן (ב), לפי המאוחר מביניהם",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "vat-rate-18",
+      "claim": "The current Israeli VAT rate is 18%, and consumer-facing prices must be shown inclusive of it.",
+      "source_url": "https://taxsummaries.pwc.com/israel/corporate/other-taxes",
+      "raw_snippet": "The 2025 current rate of VAT is 18%.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "special-sale-price-disclosure",
+      "claim": "Under the Consumer Protection (Credit Sales, Special Sale and Door-to-Door Transaction) Regulations 1983, reg. 6(1), a trader announcing a special sale must state the goods' price and their pre-sale price in his business; if the pre-sale price was not in effect for at least 21 consecutive days before the sale started, the trader must state in the announcement the period during which that price was in effect.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71677.htm",
+      "raw_snippet": "לציין בהודעתו את מחיר הטובין ומחירם בעסקו לפני המכירה המיוחדת; לא היה מחיר הטובין שלפני המכירה המיוחדת בתוקף 21 ימים רצופים לפחות לפני התחלת המכירה המיוחדת, יציין העוסק בהודעתו את התקופה שבה היה המחיר בתוקף",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "is5568-exempt-threshold",
+      "claim": "Private contractors whose average annual revenue is less than NIS 100,000 / 100,000 ש\"ח are exempt from IS 5568.",
+      "source_url": "https://accessibe.com/compliance/is-5568",
+      "raw_snippet": "Private contractors whose average annual revenue is less than NIS 100,000 are exempt from IS 5568.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "is5568-immediate-threshold",
+      "claim": "Medium and large businesses with average annual revenue of NIS 300,000 / 300,000 ש\"ח or more, set up after 2017, had to comply with IS 5568 immediately.",
+      "source_url": "https://accessibe.com/compliance/is-5568",
+      "raw_snippet": "Medium and large businesses with average annual revenue of NIS 300,000 or more, which were set up after 2017, were required to comply with IS 5568 immediately.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "is5568-small-business-deadline",
+      "claim": "Small businesses with average annual revenue under NIS 300,000 / 300,000 ש\"ח were required to comply by October 2020.",
+      "source_url": "https://accessibe.com/compliance/is-5568",
+      "raw_snippet": "Small businesses, with average annual revenue of under NIS 300,000, were required to comply by October 2020.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "allocation-threshold-2026",
+      "claim": "From 1 January 2026 the allocation-number threshold drops to NIS 10,000 / 10,000 ש\"ח (before VAT).",
+      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
+      "raw_snippet": "In 2026, the threshold will be reduced to NIS 10,000 (before VAT) from January 1.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "allocation-threshold-june-2026",
+      "claim": "From 1 June 2026 the allocation-number threshold drops further to NIS 5,000 / 5,000 ש\"ח (before VAT).",
+      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
+      "raw_snippet": "From June 1, 2026, the threshold will be further reduced to NIS 5,000 (before VAT).",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "section-30a-spam",
+      "claim": "Section 30A (סעיף 30א) of the Communications Law requires explicit prior written consent before sending advertising by fax, automated dialing system, email or SMS.",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "raw_snippet": "לא ישגר מפרסם דבר פרסומת באמצעות פקסימיליה, מערכת חיוג אוטומטי, הודעה אלקטרונית או הודעת מסר קצר, בלא קבלת הסכמה מפורשת מראש של הנמען, בכתב",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "import-vat-threshold",
+      "claim": "The standing VAT exemption on personal imports is USD 75; a ministerial move to double it to USD 150 was reported in that article. The threshold has been volatile, so the current figure must be checked against the Israel Tax Authority before it is relied on.",
+      "source_url": "https://www.ynetnews.com/business/article/r1iu3almwe",
+      "raw_snippet": "The entire professional leadership of the Finance Ministry opposes the move, which is expected to result in an annual loss of about 1.25 billion shekels in tax revenue, in addition to the roughly 1 billion shekels already lost each year due to the existing exemption on personal imports valued at up to $75.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "pci-dss-current-version",
+      "claim": "The current PCI DSS version is v4.0.1, as shown by the PCI SSC document library entry \"PCI DSS Summary of Changes v4.0 to v4.0.1\".",
+      "source_url": "https://www.pcisecuritystandards.org/document_library/",
+      "raw_snippet": "PCI DSS Summary of Changes v4.0 to v4.0.1",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cooling-off-4-months-protected",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "fetched_at": "2026-08-09",
+      "claim": "Sec 14G1(c): a consumer who is a person with a disability, a senior citizen or a new immigrant may cancel a distance-selling transaction within four months.",
+      "raw_snippet": "בעסקת מכר מרחוק שנערכה עם צרכן שהוא אדם עם מוגבלות, אזרח ותיק או עולה חדש, רשאי הצרכן לבטל את העסקה בתוך ארבעה חודשים מיום עשיית העסקה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "protected-group-definitions",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "fetched_at": "2026-08-09",
+      "claim": "Sec 14G1(a) defines senior citizen as age 65 and over and new immigrant as within five years of receiving an immigrant certificate.",
+      "raw_snippet": "\" עולה חדש \" – מי שטרם חלפו חמש שנים מיום שניתנה לו תעודת עולה או תעודת זכאות כעולה ממשרד העלייה והקליטה;",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "cancellation-fee-cap",
+      "source_url": "https://www.nevo.co.il/law_html/law00/70305.htm",
+      "fetched_at": "2026-08-09",
+      "claim": "Sec 14E(b)(1): cancellation fee capped at 5% of the price or NIS 100 / 100 ש\"ח, whichever is lower, and refund within 14 days. (also written 100 NIS).",
+      "raw_snippet": "זולת דמי ביטול בשיעור שלא יעלה על 5% ממחיר הנכס נושא החוזה או העסקה, או 100 שקלים חדשים, לפי הנמוך מביניהם",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/consumer-protection-law.md"
+      ]
+    },
+    {
+      "claim_id": "section-30a-damages",
+      "source_url": "https://www.nevo.co.il/law_html/law01/032_002.htm",
+      "fetched_at": "2026-08-09",
+      "claim": "Section 30A(i)(1) statutory damages up to NIS 1,000 / 1,000 ש\"ח per advertising message without proof of harm.",
+      "raw_snippet": "בסכום שלא יעלה על 1,000 שקלים חדשים בשל כל דבר פרסומת שקיבל הנמען בניגוד להוראות סעיף זה",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "allocation-threshold-2025",
+      "claim": "In 2025 allocation numbers are required for invoices over NIS 20,000 / 20,000 ש\"ח (before VAT).",
+      "source_url": "https://www.vatupdate.com/2026/01/12/thresholds-for-mandatory-allocation-numbers-on-tax-invoices-to-be-lowered-in-2026/",
+      "raw_snippet": "In 2025, allocation numbers are required for invoices over NIS 20,000 (before VAT).",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    }
+  ]
+}

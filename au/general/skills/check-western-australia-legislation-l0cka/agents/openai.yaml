@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Western Australia Legislation"
+  short_description: "Verify WA legislation and historical versions"
+  default_prompt: "Use $check-western-australia-legislation to verify this Western Australian legislative provision against the official point-in-time source."

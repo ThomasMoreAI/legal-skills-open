@@ -9,7 +9,19 @@
   "practice": "consumer",
   "language": "pt",
   "skills": [
+    "skills/cadastro-dados-e-consumo-sbroggioadv",
     "skills/ecommerce-compliance-review-bossmann007",
-    "skills/marketing-claims-review-bossmann007"
+    "skills/marketing-claims-review-bossmann007",
+    "skills/negativa-cobertura-saude-suplementar-sbroggioadv",
+    "skills/negativacao-indevida-e-cadastro-sbroggioadv",
+    "skills/onus-da-prova-consumo-sbroggioadv",
+    "skills/portabilidade-carencia-plano-saude-sbroggioadv",
+    "skills/prazos-decadencia-prescricao-consumo-sbroggioadv",
+    "skills/procon-defesa-auto-de-infracao-sbroggioadv",
+    "skills/procon-dosimetria-e-anulacao-sbroggioadv",
+    "skills/publicidade-enganosa-e-abusiva-sbroggioadv",
+    "skills/transporte-aereo-consumo-sbroggioadv",
+    "skills/tutela-urgencia-cobertura-saude-sbroggioadv",
+    "skills/vicio-defeito-e-responsabilidade-sbroggioadv"
   ]
 }

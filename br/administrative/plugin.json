@@ -1,0 +1,24 @@
+{
+  "name": "br-administrative",
+  "displayName": "Administrative Procedure & Public Services — BR",
+  "version": "0.1.0",
+  "description": "Administrative Procedure & Public Services skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "administrative",
+  "language": "en",
+  "skills": [
+    "skills/dever-de-lastro-documental-sbroggioadv",
+    "skills/disclaimer-eleitoral-sbroggioadv",
+    "skills/gerador-denuncia-camara-sbroggioadv",
+    "skills/guard-para-apuracao-sbroggioadv",
+    "skills/leitor-diario-oficial-sbroggioadv",
+    "skills/mandado-de-seguranca-defesa-sbroggioadv",
+    "skills/procurador-master-sbroggioadv",
+    "skills/procurador-onboarding-sbroggioadv",
+    "skills/suprema-corte-fazendaria-sbroggioadv",
+    "skills/suprema-corte-opositor-sbroggioadv",
+    "skills/validador-fazendario-vigente-sbroggioadv"
+  ]
+}

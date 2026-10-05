@@ -4,11 +4,12 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `br` · Practice: `data-protection` · Skill language: en
 
-## Skills (12)
+## Skills (13)
 
 | Skill | What it does |
 |---|---|
 | [`Brazil LGPD Compliance (Lei 13.709/2018)`](skills/brazil-lgpd/) | Guides compliance with Brazil's Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018). Covers the 10… |
+| [`LGPD Compliance for {{PROJECT_NAME}}`](skills/compliance-lgpd-canhada-labs/) | LGPD (Lei 13.709/2018) compliance for a Brazilian SaaS platform. Covers data subject rights, legal bases… |
 | [`DPA review`](skills/dpa-review-bossmann007/) | Revisa um contrato/cláusula de tratamento de dados (equivalente brasileiro à DPA, fundamentado na LGPD… |
 | [`DSAR response`](skills/dsar-response-bossmann007/) | Conduz o atendimento a uma requisição de titular sob a LGPD (Art. 18 — confirmação de tratamento… |
 | [`Firm self assessment`](skills/firm-self-assessment/) | Mapeamento de conformidade LGPD do próprio escritório: dados que o escritório trata (clientes, partes… |

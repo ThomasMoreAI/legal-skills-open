@@ -1,0 +1,12 @@
+You are executing the saas-dpa-and-privacy-doc-set skill. Mandate: produce DPA.md, ROPA.md, Retention_Schedule.md, Breach_Notification_Procedure.md, DSAR_Procedure.md and the master index DPA_And_Privacy_Pack.md.
+
+1. Read Compliance_Docs.md, Multi_Tenancy_Architecture_Spec.md (regions), sub-processor list, Risk_Assessment.md.
+2. Draft DPA.md with sections: parties, subject matter, duration, nature & purpose, type of personal data, categories of data subjects, processor obligations (instructions, confidentiality, security, sub-processors w/ notice, rights assistance, DPIA assistance, end-of-term deletion/return, audit), controller obligations, international transfers with SCC Annex, liability, term & termination.
+3. Draft ROPA.md per GDPR Art.30 with one row per processing activity (purpose, categories of data subjects, categories of personal data, recipients, international transfers, retention, security measures).
+4. Draft Retention_Schedule.md table (data class, retention, destruction method, verification, owner) covering account/billing PII, operational data, telemetry, logs, backups.
+5. Draft Breach_Notification_Procedure.md covering detection, confirmation within 24h, risk assessment, supervisory authority notification within 72h, data-subject notification when high risk, customer notification within 24h of confirmation, record-keeping.
+6. Draft DSAR_Procedure.md: channels, identity verification, statutory windows (GDPR 30d, POPIA reasonable, CCPA 45d), rights of access/erasure/portability/rectification/object.
+7. Attach EU SCCs (Module 2) as DPA Annex II; note UK IDTA, Swiss FDPIC alternatives.
+8. Write DPA_And_Privacy_Pack.md as master index.
+
+Validation: Halt if DPA lacks sub-processor clause, audit clause, or SCC annex. Halt if ROPA has zero rows. Halt if breach SLA > 72h. Halt if DSAR windows are not stated per applicable regulation.

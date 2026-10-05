@@ -1,0 +1,4 @@
+interface:
+  display_name: "JP Skill"
+  short_description: "Find when a NZ JP can help"
+  default_prompt: "Use $jp-skill to decide whether a New Zealand Justice of the Peace can help with this document task, then find local JP contact details with sources if appropriate."

@@ -1,0 +1,29 @@
+{
+  "property_address": "789 Industrial Drive, Mississauga, ON",
+  "property": {
+    "property_type": "industrial",
+    "property_value": 2500000.0,
+    "rental_income_monthly": 15000.0,
+    "distance_to_construction_m": 100.0,
+    "number_of_units": 1,
+    "business_type": "warehouse",
+    "annual_revenue": 0.0,
+    "background_noise_dba": 65.0
+  },
+  "construction": {
+    "duration_months": 6.0,
+    "equipment": [
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 82.0,
+        "hours_per_day": 6.0,
+        "days_per_week": 5
+      }
+    ],
+    "dust_impact_zone": "low",
+    "vibration_ppv_mms": 2.0,
+    "traffic_reduction_pct": 0.0,
+    "construction_hours_per_day": 8,
+    "night_work": false
+  }
+}

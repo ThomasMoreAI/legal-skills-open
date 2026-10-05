@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Collaudo e verifica di conformità nei contratti pubblici (D.Lgs. 36/2023 art. 116)"
+short_description: Supporto documentale al collaudo dei lavori e alla verifica di conformità di servizi e forniture nei contratti pubblici secondo il D.Lgs. 36/2023, art. 116. Distingue il collaudo (lavori) dalla verifica di conformità (servizi/forniture) e la funzione di certificare caratteristiche tecniche/economiche/qualitative, obiettivi e tempi (c. 1); inquadra i termini (6 mesi dall'ultimazione, fino a 1 anno per casi di particolare complessità dell'allegato II.14; certificato provvisorio che diventa definitivo dopo 2 anni, approvazione tacita - c. 2), la responsabilità dell'appaltatore per vizi/difformità salvo art. 1669 c.c. (c. 3), la nomina di 1-3 collaudatori con requisiti e indipendenza, il collaudatore statico e la segreteria tecnica (cc. 4/4-bis/4-ter), la verifica di conformità del RUP o del direttore dell'esecuzione (c. 5), le incompatibilità (c. 6), il rinvio all'allegato II.14 per modalità e certificato di regolare esecuzione - CRE (c. 7) e le regole su tempi, documenti finali e accertamenti di laboratorio non soggetti a ribasso (cc. 8-11). NON redige il certificato di collaudo/CRE, non riproduce l'allegato II.14, non nomina i collaudatori, non sostituisce la stazione appaltante, il RUP o l'organo di collaudo.
+default_prompt: |
+  Nella chiusura di un contratto pubblico (D.Lgs. 36/2023 art. 116): si applica il collaudo o la
+  verifica di conformità e con quali termini (6 mesi/1 anno; certificato provvisorio->definitivo a 2
+  anni)? Quanti collaudatori si nominano e con quali incompatibilità? Quando si usa il certificato di
+  regolare esecuzione (CRE, allegato II.14)?

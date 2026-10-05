@@ -4,15 +4,17 @@ Healthcare regulation, fraud and abuse, product approval, and provider complianc
 
 Jurisdiction: `us` · Practice: `healthcare` · Skill language: en
 
-## Skills (34)
+## Skills (38)
 
 | Skill | What it does |
 |---|---|
+| [`AI Agent BAA and Data-Processing Language Skill`](skills/26-ai-agent-baa-and-data-processing-language-peterbamuhigire/) | Use when drafting legal-review-ready AI-agent BAA or DPA addendum clauses for service-principal access… |
 | [`Chart Audit Protocol`](skills/chart-audit-protocol/) | Drafts healthcare chart audit protocols covering clinical documentation review, coding accuracy, and… |
 | [`Healthcare Corrective Action Plan`](skills/corrective-action-plan/) | Drafts healthcare Corrective Action Plans (CAPs) responding to CMS survey deficiencies, Joint Commission… |
 | [`Corrective Action Plan for Healthcare Deficiencies`](skills/corrective-action-plan-deficiencies/) | Drafts a regulator-ready Corrective Action Plan (CAP) for U.S. healthcare facilities responding to… |
 | [`Corporate Practice of Medicine Compliance`](skills/cpom-compliance/) | Drafts Corporate Practice of Medicine (CPOM) compliance structure documents for healthcare entities.… |
 | [`Corrective Action Plan (Healthcare)`](skills/deficiency-corrective-action-plan/) | Drafts U.S. healthcare corrective action plans (CAPs / plans of correction) responding to survey… |
+| [`Healthcare Law`](skills/healthcare-law-judicialmind/) | Healthcare law skill for medical and health industry legal matters. Use when the user needs assistance… |
 | [`Professional Services Agreement — Healthcare`](skills/healthcare-services-agreement/) | Drafts professional services agreements for healthcare providers and clients, covering HIPAA/HITECH… |
 | [`HIPAA Assessor`](skills/hipaa-assessor/) | Assess a target system against HIPAA Privacy Rule, Security Rule, and Breach Notification Rule using the… |
 | [`HIPAA Business Associate Agreement (BAA)`](skills/hipaa-baa/) | Drafts HIPAA/HITECH-compliant Business Associate Agreements governing PHI/ePHI handling between covered… |
@@ -23,6 +25,8 @@ Jurisdiction: `us` · Practice: `healthcare` · Skill language: en
 | [`HIPAA Compliance Auditor`](skills/hipaa-compliance-auditor-fdu-ins/) | Automatically detect and de-identify PII (Personal Identifiable Information) and PHI (Protected Health… |
 | [`HIPAA Compliance Check Skill`](skills/hipaa-compliance-check/) | Use when performing hipaa compliance check — hIPAA compliance review covering PHI handling, encryption… |
 | [`HIPAA Compliance Skill`](skills/hipaa-compliance-sushegaad/) | Expert HIPAA compliance assistant for healthcare and software contexts. Use this skill whenever the user… |
+| [`HIPAA — Health Insurance Portability and Accountability Act`](skills/hipaa-en-skills-mauriciodelrio/) | Use this skill when the software processes, stores, or transmits Protected Health Information (PHI).… |
+| [`HIPAA — Health Insurance Portability and Accountability Act`](skills/hipaa-es-skills-mauriciodelrio/) | Usa este skill cuando el software procese, almacene o transmita información de salud protegida (PHI).… |
 | [`HIPAA Interoperability — Cures Act, ONC, and CMS Requirements`](skills/hipaa-interoperability/) | Addresses HIPAA privacy and security requirements for health data interoperability under the 21st… |
 | [`Notice of Privacy Practices (HIPAA)`](skills/hipaa-privacy-notice/) | Drafts a HIPAA-compliant Notice of Privacy Practices per 45 CFR § 164.520 for covered entities. Produces… |
 | [`HIPAA Privacy Rule — 45 CFR §164.500-534`](skills/hipaa-privacy-rule/) | Implements HIPAA Privacy Rule requirements under 45 CFR §164.500-534 for covered entities and business… |

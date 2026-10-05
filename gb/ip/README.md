@@ -4,10 +4,11 @@ Intellectual property — patents, trademarks, copyright, designs, and trade sec
 
 Jurisdiction: `gb` · Practice: `ip` · Skill language: de
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`/cold-start-interview`](skills/cold-start-interview-ip-legal-uk-uk-agents/) | Run the cold-start interview to learn your UK IP practice and write your practice profile. Use on first… |
 | [`UK: UKIPO, Patents Court und IPEC`](skills/uk-patentrecht-patents-court-ipec-ukipo/) | Für UK: UKIPO, Patents Court und IPEC: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 
 ## Cold-start context

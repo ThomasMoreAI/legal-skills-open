@@ -1,0 +1,25 @@
+{
+  "name": "au-general",
+  "displayName": "General — AU",
+  "version": "0.1.0",
+  "description": "General skills for AU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "au",
+  "practice": "general",
+  "language": "en",
+  "skills": [
+    "skills/check-act-legislation-l0cka",
+    "skills/check-commonwealth-legislation-l0cka",
+    "skills/check-northern-territory-legislation-l0cka",
+    "skills/check-nsw-legislation-l0cka",
+    "skills/check-queensland-legislation-l0cka",
+    "skills/check-south-australia-legislation-l0cka",
+    "skills/check-tasmania-legislation-l0cka",
+    "skills/check-victoria-legislation-l0cka",
+    "skills/check-western-australia-legislation-l0cka",
+    "skills/route-legal-fact-pattern-l0cka",
+    "skills/trace-commonwealth-legislative-change-l0cka",
+    "skills/triage-legal-enquiry-l0cka"
+  ]
+}

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Document Discovery"
+  short_description: "Draft discovery responses and curate objections"
+  default_prompt: "Use $document-discovery to prepare an editable response shell, review proposed objections, or build a reusable objection library from these files."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

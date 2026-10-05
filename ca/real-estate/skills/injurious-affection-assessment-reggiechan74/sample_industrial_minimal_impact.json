@@ -1,0 +1,41 @@
+{
+  "property_address": "Industrial Facility, 2500 Steeles Avenue West, Vaughan, ON L4K 5X6",
+  "property": {
+    "property_type": "industrial",
+    "property_value": 3500000,
+    "rental_income_monthly": 15000,
+    "distance_to_construction_m": 60,
+    "number_of_units": 1,
+    "business_type": "manufacturing",
+    "annual_revenue": 5000000,
+    "background_noise_dba": 70
+  },
+  "construction": {
+    "duration_months": 12,
+    "equipment": [
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 82,
+        "hours_per_day": 8,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "concrete_mixer",
+        "dba_at_15m": 78,
+        "hours_per_day": 6,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "generator",
+        "dba_at_15m": 75,
+        "hours_per_day": 10,
+        "days_per_week": 6
+      }
+    ],
+    "dust_impact_zone": "low",
+    "vibration_ppv_mms": 2.0,
+    "traffic_reduction_pct": 0.0,
+    "construction_hours_per_day": 10,
+    "night_work": false
+  }
+}

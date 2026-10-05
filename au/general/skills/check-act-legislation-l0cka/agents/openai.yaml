@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check ACT Legislation"
+  short_description: "Verify ACT legislation and republications"
+  default_prompt: "Use $check-act-legislation to verify this ACT legislative provision against the official point-in-time source."

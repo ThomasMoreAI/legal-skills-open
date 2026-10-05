@@ -1,0 +1,14 @@
+{
+  "name": "vn-litigation",
+  "displayName": "Litigation — VN",
+  "version": "0.1.0",
+  "description": "Litigation skills for VN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "vn",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/court-minhlongs"
+  ]
+}

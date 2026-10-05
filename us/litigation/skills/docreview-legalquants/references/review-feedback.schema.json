@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifact": {
+      "const": "review-feedback"
+    },
+    "corpus_id": {
+      "pattern": "^[0-9a-f]{16}$",
+      "type": "string"
+    },
+    "frame_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "framework_digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "framework_version": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "ledger_digest": {
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "image_confirmations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "confirmation": {
+            "enum": [
+              "confirmed",
+              "needs-review"
+            ]
+          },
+          "confirmed_by": {
+            "const": "lawyer"
+          },
+          "doc_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "finding_ids": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+          },
+          "note": {
+            "type": "string"
+          },
+          "proposal_digest": {
+            "pattern": "^sha256:[0-9a-f]{64}$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "confirmation",
+          "confirmed_by",
+          "doc_id",
+          "finding_ids",
+          "note",
+          "proposal_digest"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "review_plan_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "rulings": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "doc_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "finding_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "issue_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "machine_status": {
+            "enum": [
+              "present",
+              "absent",
+              "unresolved"
+            ]
+          },
+          "note": {
+            "type": "string"
+          },
+          "ruled_by": {
+            "const": "lawyer"
+          },
+          "ruling": {
+            "enum": [
+              "responsive",
+              "not-responsive",
+              "needs-review",
+              "privileged"
+            ]
+          }
+        },
+        "required": [
+          "finding_id",
+          "issue_id",
+          "doc_id",
+          "machine_status",
+          "ruling",
+          "note",
+          "ruled_by"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "source": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "version": {
+      "const": 1
+    }
+  },
+  "required": [
+    "artifact",
+    "version",
+    "review_plan_id",
+    "framework_version",
+    "framework_digest",
+    "frame_id",
+    "corpus_id",
+    "ledger_digest",
+    "source",
+    "rulings"
+  ],
+  "title": "Document review feedback",
+  "type": "object"
+}

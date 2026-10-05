@@ -6,12 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): corporate la
 
 Jurisdiction: `fr` · Practice: `corporate` · Skill language: fr
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Choix du Statut Juridique`](skills/bootcamp-legal-status-prendstapart/) | Utiliser quand l'utilisateur veut choisir la forme juridique adaptée (bootcamp 5 jours StartupsForge… |
 | [`Legal Structure`](skills/ideation-legal-structure-prendstapart/) | Utiliser quand l'utilisateur veut choisir le statut juridique adapté à son projet (parcours idéation… |
+| [`Quel statut choisir pour créer mon entreprise`](skills/statut-juridique-choisir-fr-originlabs-app/) | Quel statut choisir pour créer mon entreprise. Méthode professionnelle française, avec ses pièges et ses… |
 
 ## Cold-start context
 

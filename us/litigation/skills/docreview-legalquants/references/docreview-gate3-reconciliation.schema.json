@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifact": {
+      "const": "docreview-gate3-reconciliation"
+    },
+    "base_confirmation_errors_satisfied_by_overlay": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "uniqueItems": true
+    },
+    "base_coverage": {
+      "additionalProperties": false,
+      "properties": {
+        "lines": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "per_lens": {
+          "type": "object"
+        },
+        "totals": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "lines",
+        "per_lens",
+        "totals"
+      ],
+      "type": "object"
+    },
+    "bindings": {
+      "additionalProperties": false,
+      "properties": {
+        "corpus_id": {
+          "pattern": "^[0-9a-f]{16}$",
+          "type": "string"
+        },
+        "frame_id": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "framework_digest": {
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "framework_version": {
+          "minimum": 1,
+          "type": "integer"
+        },
+        "ledger_digest": {
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "review_plan_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "corpus_id",
+        "frame_id",
+        "framework_digest",
+        "framework_version",
+        "ledger_digest",
+        "review_plan_id"
+      ],
+      "type": "object"
+    },
+    "errors": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "image_confirmation": {
+      "additionalProperties": false,
+      "properties": {
+        "confirmed_documents": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "documents": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "confirmation": {
+                "enum": [
+                  "confirmed",
+                  "needs-review",
+                  "missing",
+                  "invalid"
+                ]
+              },
+              "doc_id": {
+                "minLength": 1,
+                "type": "string"
+              },
+              "finding_calls": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "proposal_digest": {
+                "pattern": "^sha256:[0-9a-f]{64}$",
+                "type": "string"
+              },
+              "status_counts": {
+                "additionalProperties": false,
+                "properties": {
+                  "absent": {
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "present": {
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "unresolved": {
+                    "minimum": 0,
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "absent",
+                  "present",
+                  "unresolved"
+                ],
+                "type": "object"
+              }
+            },
+            "required": [
+              "confirmation",
+              "doc_id",
+              "finding_calls",
+              "proposal_digest",
+              "status_counts"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "expected_documents": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "finding_calls": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "pending_documents": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "confirmed_documents",
+        "documents",
+        "expected_documents",
+        "finding_calls",
+        "pending_documents"
+      ],
+      "type": "object"
+    },
+    "ok": {
+      "type": "boolean"
+    },
+    "version": {
+      "const": 1
+    }
+  },
+  "required": [
+    "artifact",
+    "base_confirmation_errors_satisfied_by_overlay",
+    "base_coverage",
+    "bindings",
+    "errors",
+    "image_confirmation",
+    "ok",
+    "version"
+  ],
+  "title": "Document Review Gate 3 reconciliation",
+  "type": "object"
+}

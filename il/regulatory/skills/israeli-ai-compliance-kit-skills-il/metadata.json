@@ -1,0 +1,45 @@
+{
+  "author": "skills-il",
+  "version": "1.4.0",
+  "category": "security-compliance",
+  "tags": {
+    "he": [
+      "תאימות-ai",
+      "ממשל-ai",
+      "חוק-הגנת-הפרטיות",
+      "תיקון-13",
+      "חוק-ai-אירופי",
+      "model-card",
+      "dpia",
+      "משרד-החדשנות",
+      "ml",
+      "ישראל"
+    ],
+    "en": [
+      "ai-compliance",
+      "ai-governance",
+      "privacy-protection-law",
+      "amendment-13",
+      "eu-ai-act",
+      "model-card",
+      "dpia",
+      "ministry-of-innovation",
+      "ml",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ערכת תאימות AI ישראלית",
+    "en": "Israeli AI Compliance Kit"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מדריך מלא לצוותי ML ישראליים: עקרונות משרד החדשנות מדצמבר 2023, חוק הגנת הפרטיות ותיקון 13, הוראה 364 של בנק ישראל, דרישות AMAR למכשור רפואי, וחשיפה לחוק ה-AI האירופי. מייצר model cards, data statements, ו-DPIA מותאמים להקשר הישראלי. השתמשו כשצריך להכין מסמכי ממשל AI, לענות על בדיקת סיכוני AI של לקוח ארגוני, לסווג מערכת לפי חוק ה-AI של האיחוד האירופי, או לבנות צ'ק-ליסט פנימי ל-AI אחראי. חוסך שעות של חיפוש בין משרדים וממנע פערי תאימות יקרים בכניסה לשווקים מפוקחים. אל תשתמשו למדיניות פרטיות כללית (השתמשו ב-israeli-privacy-shield), אבטחת אפליקציות web (israeli-appsec-scanner), או ניהול SOC (israeli-cybersecurity-ops).",
+    "en": "Not legal advice. Guide Israeli ML teams through the AI governance and compliance stack: Ministry of Innovation December 2023 AI policy principles, Privacy Protection Law (PPL) and Amendment 13 applied to ML training data, sector-specific rules (Bank of Israel Directive 364, Ministry of Health AMAR medical-device AI), and EU AI Act exposure for Israeli exporters. Generates model cards, data statements, and DPIA templates tailored to Israeli context. Use when preparing AI governance docs, answering an enterprise customer's AI risk review, classifying a system under the EU AI Act, or building an internal responsible-AI checklist. Prevents costly compliance gaps when shipping AI to regulated markets. Do NOT use for general PPL policy (use israeli-privacy-shield), web app security (use israeli-appsec-scanner), or SOC/threat triage (use israeli-cybersecurity-ops)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "codex"
+  ],
+  "openclaw": false
+}

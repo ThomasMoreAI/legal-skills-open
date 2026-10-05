@@ -1,0 +1,11 @@
+codex-for-legal
+
+This project is an unofficial Codex adaptation of Anthropic's claude-for-legal project.
+
+Upstream project: https://github.com/anthropics/claude-for-legal
+Upstream license: Apache License 2.0
+
+Codex migration and adaptation by Alexander C. H. Lou.
+Upstream legal workflow content remains attributed to Anthropic and Thomson Reuters where applicable.
+
+This project is not affiliated with, endorsed by, or sponsored by Anthropic, Thomson Reuters, or OpenAI.

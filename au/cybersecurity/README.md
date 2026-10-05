@@ -4,12 +4,13 @@ Cybersecurity and information security as a practice — NIS2/DORA/CRA, NYDFS 23
 
 Jurisdiction: `au` · Practice: `cybersecurity` · Skill language varies per skill.
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`APRA CPS 234 Expert`](skills/au-apra-cps-234-expert/) | APRA CPS 234 expert for Australian prudential information security. Reference-depth framework plugin… |
 | [`Australian Information Security Manual (ISM) Skill`](skills/ism/) | Expert Australian Information Security Manual (ISM) advisor for government entities and their supply… |
+| [`Map Australian Cyber Incident Obligations`](skills/map-australian-cyber-incident-obligations-l0cka/) | Map concurrent Australian cyber incident, data-breach, ransomware-payment, critical-infrastructure… |
 
 ## Cold-start context
 

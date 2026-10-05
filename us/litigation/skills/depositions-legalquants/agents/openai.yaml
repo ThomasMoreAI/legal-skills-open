@@ -1,0 +1,8 @@
+interface:
+  display_name: "Depositions"
+  short_description: "Plan depositions around proof and testimony"
+  default_prompt: "Use $depositions to build a source-backed deposition plan and post-testimony workflow."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

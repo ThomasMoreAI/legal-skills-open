@@ -1,0 +1,297 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lease-abstract.com/schemas/injurious-affection-input.json",
+  "title": "Injurious Affection Calculator Input",
+  "description": "Input schema for injurious affection damage assessment calculator",
+  "type": "object",
+  "required": ["property", "construction"],
+  "additionalProperties": true,
+  "properties": {
+    "property_address": {
+      "type": "string",
+      "description": "Property address for identification",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "property": {
+      "type": "object",
+      "description": "Property characteristics for impact assessment",
+      "required": ["property_type", "property_value"],
+      "additionalProperties": false,
+      "properties": {
+        "property_type": {
+          "type": "string",
+          "description": "Type of property",
+          "enum": ["residential", "commercial", "industrial"]
+        },
+        "property_value": {
+          "type": "number",
+          "description": "Market value of property ($)",
+          "minimum": 0,
+          "exclusiveMinimum": true
+        },
+        "rental_income_monthly": {
+          "type": "number",
+          "description": "Monthly rental income ($)",
+          "minimum": 0,
+          "default": 0.0
+        },
+        "distance_to_construction_m": {
+          "type": "number",
+          "description": "Distance from property to construction (meters)",
+          "minimum": 0,
+          "default": 0.0
+        },
+        "number_of_units": {
+          "type": "integer",
+          "description": "Number of units (for multi-unit residential)",
+          "minimum": 1,
+          "default": 1
+        },
+        "business_type": {
+          "type": ["string", "null"],
+          "description": "Type of business (e.g., restaurant, retail, office)",
+          "maxLength": 100,
+          "default": null
+        },
+        "annual_revenue": {
+          "type": "number",
+          "description": "Annual business revenue ($)",
+          "minimum": 0,
+          "default": 0.0
+        },
+        "background_noise_dba": {
+          "type": "number",
+          "description": "Ambient background noise level (dBA)",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 50.0
+        }
+      }
+    },
+    "construction": {
+      "type": "object",
+      "description": "Construction activities causing impacts",
+      "required": ["duration_months"],
+      "additionalProperties": false,
+      "properties": {
+        "duration_months": {
+          "type": "number",
+          "description": "Total construction duration (months)",
+          "minimum": 0,
+          "exclusiveMinimum": true,
+          "maximum": 120
+        },
+        "equipment": {
+          "type": "array",
+          "description": "List of construction equipment",
+          "items": {
+            "type": "object",
+            "required": ["equipment_type", "dba_at_15m", "hours_per_day"],
+            "additionalProperties": false,
+            "properties": {
+              "equipment_type": {
+                "type": "string",
+                "description": "Type of equipment (e.g., pile_driver, excavator)",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "dba_at_15m": {
+                "type": "number",
+                "description": "Noise level at 15 meters (dBA)",
+                "minimum": 0,
+                "maximum": 140
+              },
+              "hours_per_day": {
+                "type": "number",
+                "description": "Operating hours per day",
+                "minimum": 0,
+                "maximum": 24
+              },
+              "days_per_week": {
+                "type": "integer",
+                "description": "Operating days per week",
+                "minimum": 0,
+                "maximum": 7,
+                "default": 5
+              }
+            }
+          },
+          "default": []
+        },
+        "dust_impact_zone": {
+          "type": "string",
+          "description": "Dust impact severity zone",
+          "enum": ["high", "moderate", "low"],
+          "default": "moderate"
+        },
+        "vibration_ppv_mms": {
+          "type": "number",
+          "description": "Peak particle velocity (mm/s)",
+          "minimum": 0,
+          "maximum": 100,
+          "default": 0.0
+        },
+        "traffic_reduction_pct": {
+          "type": "number",
+          "description": "Traffic reduction percentage (decimal)",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.0
+        },
+        "construction_hours_per_day": {
+          "type": "integer",
+          "description": "Construction hours per day",
+          "minimum": 0,
+          "maximum": 24,
+          "default": 8
+        },
+        "night_work": {
+          "type": "boolean",
+          "description": "Construction during night hours (more severe impact)",
+          "default": false
+        }
+      }
+    },
+    "market_parameters": {
+      "type": "object",
+      "description": "Market parameters for valuation (optional - defaults applied)",
+      "additionalProperties": false,
+      "properties": {
+        "residential_moderate_threshold_dba": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 65.0
+        },
+        "residential_severe_threshold_dba": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 75.0
+        },
+        "commercial_moderate_threshold_dba": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 70.0
+        },
+        "commercial_severe_threshold_dba": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 80.0
+        },
+        "industrial_threshold_dba": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "default": 85.0
+        },
+        "residential_moderate_rent_reduction_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.075
+        },
+        "residential_severe_rent_reduction_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.20
+        },
+        "commercial_moderate_rent_reduction_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.055
+        },
+        "commercial_severe_rent_reduction_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.125
+        },
+        "residential_cleaning_cost": {
+          "type": "number",
+          "minimum": 0,
+          "default": 200.0
+        },
+        "commercial_cleaning_cost": {
+          "type": "number",
+          "minimum": 0,
+          "default": 1000.0
+        },
+        "high_impact_cleaning_frequency_weeks": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1
+        },
+        "moderate_impact_cleaning_frequency_weeks": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 2
+        },
+        "low_impact_cleaning_frequency_weeks": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 4
+        },
+        "cosmetic_repair_cost_per_incident": {
+          "type": "number",
+          "minimum": 0,
+          "default": 2500.0
+        },
+        "structural_repair_multiplier": {
+          "type": "number",
+          "minimum": 1,
+          "default": 10.0
+        },
+        "sales_conversion_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.02
+        },
+        "average_transaction_value": {
+          "type": "number",
+          "minimum": 0,
+          "default": 50.0
+        },
+        "gross_margin_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.40
+        },
+        "capitalization_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "exclusiveMinimum": true,
+          "default": 0.08
+        }
+      }
+    },
+    "visual_impact": {
+      "type": "object",
+      "description": "Permanent visual impact parameters (optional)",
+      "required": ["description", "value_reduction_pct"],
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Description of visual impact",
+          "minLength": 1,
+          "maxLength": 500
+        },
+        "value_reduction_pct": {
+          "type": "number",
+          "description": "Property value reduction percentage (decimal)",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  }
+}

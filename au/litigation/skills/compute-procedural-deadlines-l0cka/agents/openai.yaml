@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compute Procedural Deadlines"
+  short_description: "Compute candidate court deadlines with the bundled script"
+  default_prompt: "Use $compute-procedural-deadlines to compute candidate deadlines for this procedural step with the bundled script — never with model arithmetic — and flag everything the responsible lawyer must confirm."

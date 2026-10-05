@@ -9,7 +9,20 @@
   "practice": "general",
   "language": "en",
   "skills": [
+    "skills/bar-prep-questions-uk-agents",
+    "skills/case-brief-uk-agents",
+    "skills/cold-start-interview-law-student-uk-uk-agents",
+    "skills/exam-forecast-uk-agents",
+    "skills/irac-practice-uk-agents",
+    "skills/legal-writing-uk-agents",
     "skills/lex-uk-law",
+    "skills/oscola-build-citation-uk-agents",
+    "skills/oscola-citation-brind0",
+    "skills/session-uk-agents",
+    "skills/socratic-drill-uk-agents",
+    "skills/statute-amendments-trace-uk-agents",
+    "skills/study-plan-uk-agents",
+    "skills/uk-commonwealth-judicialmind",
     "skills/uk-legislation-api",
     "skills/uk-parliament-erskine-may"
   ]

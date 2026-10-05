@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Modifiche del contratto e varianti in corso d'opera (D.Lgs. 36/2023 art. 120)"
+short_description: Supporto documentale alla modifica dei contratti pubblici in corso di esecuzione e alle varianti in corso d'opera secondo l'art. 120 del D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici). Stabilisce se una modifica e' ammessa senza nuova procedura (comma 1: clausole di revisione/opzione; prestazioni supplementari; varianti per circostanze imprevedibili come forza maggiore, rinvenimenti, difficolta' geologiche/idriche; sostituzione del contraente), verifica i limiti economici (50% per le lettere b/c; sotto le soglie dell'art. 14 e sotto il 10% servizi/forniture o 15% lavori), distingue modifiche sostanziali (comma 6) e non sostanziali (commi 5 e 7), inquadra rinegoziazione (RUP entro 3 mesi), quinto d'obbligo, proroghe, autorizzazione del RUP, avviso GUUE e oneri di comunicazione all'ANAC con sanzioni ex art. 222. NON approva le varianti, non riproduce gli allegati richiamati e non sostituisce la stazione appaltante, il RUP ne' l'ANAC.
+default_prompt: |
+  In un appalto pubblico in esecuzione e' emersa la necessita' di una variante (es. un
+  rinvenimento imprevisto): rientra nei casi dell'art. 120 del D.Lgs. 36/2023? Quali limiti
+  economici si applicano, e' una modifica sostanziale, chi la autorizza e quali sono gli oneri
+  verso l'ANAC? Cita i commi.

@@ -1,0 +1,62 @@
+{
+  "skill_name": "foia-request-writer",
+  "status": "passed",
+  "eval_date": "2026-07-24",
+  "eval_version": "2.0",
+  "overall_mean": 4.81,
+  "editorial_naturalness_mean": 4.67,
+  "test_cases": [
+    {
+      "id": 1,
+      "input_summary": "State public records request to Virginia DEQ for poultry facility enforcement records — residency-restricted state, non-resident journalist",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 4,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Zero tells; the fee waiver section's honest acknowledgment that Virginia has no specific journalist provision is strong genre craft.",
+      "case_mean": 4.86
+    },
+    {
+      "id": 2,
+      "input_summary": "Redaction analysis of DOJ domestic surveillance records with (b)(1), (b)(5), (b)(7)(E) exemptions and two Glomar categories — compiled official acknowledgment evidence available",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "editorial_naturalness_note": "One minor structural tell — parallel 'Challenge if/on' constructions across three exemptions create slightly mechanical cadence; Glomar section breaks the pattern effectively.",
+      "case_mean": 4.57
+    },
+    {
+      "id": 3,
+      "input_summary": "Administrative appeal for constructive denial — CDC non-response to health surveillance records request, 20-business-day deadline expired with no acknowledgment",
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 5,
+        "actionability": 5,
+        "editorial_naturalness": 5
+      },
+      "editorial_naturalness_note": "Zero tells; the 'Basis for Appeal' em dash turn ('not diminished — heightened') is controlled editorial craft, using the device once for genuine rhetorical force.",
+      "case_mean": 5.0
+    }
+  ],
+  "prior_eval": {
+    "version": "1.0",
+    "eval_date": "2026-03-16",
+    "overall_mean": 4.5,
+    "dimensions_scored": 6,
+    "note": "v1.0 eval used 6 dimensions (no Editorial Naturalness). Direct comparison is approximate."
+  }
+}

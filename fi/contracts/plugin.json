@@ -1,0 +1,15 @@
+{
+  "name": "fi-contracts",
+  "displayName": "Contracts — FI",
+  "version": "0.1.0",
+  "description": "Contracts skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "contracts",
+  "language": "en",
+  "skills": [
+    "skills/contract-drafting-open-legal-products",
+    "skills/contract-risk-review-open-legal-products"
+  ]
+}

@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `us` · Practice: `administrative` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`FOIA & Public Records Request Writer`](skills/foia-request-writer-ur-grue/) | Drafts legally complete public records requests (federal FOIA and all 50 state laws), administrative… |
 | [`Gap Analysis Agent`](skills/gap-analysis-osenv/) | Read a statute or regulation and identify where an agency has failed to perform a mandatory… |
 
 ## Cold-start context

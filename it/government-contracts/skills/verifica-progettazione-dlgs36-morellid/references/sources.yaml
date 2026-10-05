@@ -1,0 +1,40 @@
+schema_version: 1
+skill: verifica-progettazione-dlgs36
+last_verified: 2026-07-17
+
+# Fonte per l'inquadramento della VERIFICA DELLA PROGETTAZIONE e della VALIDAZIONE del progetto posto a
+# base di gara nei contratti pubblici di lavori: oggetto e tempi, ruolo del RUP e incompatibilita',
+# effetti (deposito sismico e denuncia al genio civile assolti), validazione, rinvio all'Allegato I.7.
+# Fonte: Codice dei contratti pubblici (D.Lgs. 36/2023), art. 42.
+
+sources:
+  - id: dlgs-36-2023-art-42
+    title: "D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici) - art. 42 (Verifica della progettazione) (testo vigente al 2026-07-17)"
+    type: decreto-legislativo
+    # URL pinnata con !vig=YYYY-MM-DD per riproducibilita' dell'hash sotto CI (stesso indice del D.Lgs.
+    # 36/2023 usato dalle altre skill appalti: RUP, subappalto, direzione lavori, collaudo, varianti).
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig=2026-07-17
+    accessed: 2026-07-17
+    sha256: 0e9a193836e379cb33cb6daf1a5a988c608eb9559d84b91a841d9ed9791a62af
+    license: public-domain
+    binary_path: not_in_repo/dlgs36-verifica-idx.html
+    md_path: references/fonti/dlgs-36-2023-art-42.md
+    excerpt_path: references/estratti/verifica-progettazione-checklist.md
+    notes: |
+      Codice redazionale 23G00044, idGruppo 5. Pagina indice Normattiva pinnata a !vig=2026-07-17 (hash
+      stabile, doppio download: 0e9a1938...; e' lo stesso indice usato dalle altre skill D.Lgs. 36/2023).
+      Articolo 42 (versione 1) caricato via AJAX (caricaArticolo), formato AKN, e trascritto verbatim in
+      references/fonti/dlgs-36-2023-art-42.md (commi 1-5): oggetto della verifica (rispondenza al
+      documento d'indirizzo e conformita' alla normativa) e tempi in relazione al livello progettuale,
+      con regole per l'affidamento congiunto e il PPP (c. 1); ruolo del RUP e incompatibilita' della
+      verifica con progettazione, coordinamento sicurezza, direzione lavori e collaudo (c. 2); effetti
+      della verifica positiva - assolvimento degli obblighi di deposito/autorizzazione sismica e di
+      denuncia al genio civile, deposito nell'Archivio informatico nazionale delle opere pubbliche (c.
+      3); validazione come atto formale sottoscritto dal RUP con riferimento al rapporto di verifica e
+      alle controdeduzioni del progettista, i cui estremi vanno nel bando/lettera d'invito (c. 4);
+      rinvio all'Allegato I.7 per contenuti, modalita' e soggetti della verifica e oneri nelle risorse
+      dell'opera (c. 5).
+      LIMITE DI RESA: la skill inquadra oggetto, tempi, soggetti ed effetti della verifica/validazione;
+      NON esegue la verifica ne' redige il rapporto o l'atto di validazione, NON riproduce l'Allegato
+      I.7 (soglie di importo e soggetti verificatori) ne' gli obblighi sismici del DPR 380, e NON
+      sostituisce il RUP, il soggetto verificatore ne' il progettista.

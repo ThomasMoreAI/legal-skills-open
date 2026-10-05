@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Queensland Legislation"
+  short_description: "Verify Queensland legislation and reprints"
+  default_prompt: "Use $check-queensland-legislation to verify this Queensland legislative provision against the official point-in-time source."

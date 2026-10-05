@@ -4,11 +4,12 @@ U.S. federal government contracting — GSA Schedule and FAR-compliant subcontra
 
 Jurisdiction: `us` · Practice: `government-contracts` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (16)
+## Skills (17)
 
 | Skill | What it does |
 |---|---|
 | [`CDA Certified Claim`](skills/cda-certified-claim/) | Drafts U.S. Contract Disputes Act (CDA) certified claims for federal government contracts, covering FAR… |
+| [`CMMC 2.0 and CUI — DoD Cybersecurity Requirements`](skills/cmmc-cui-the-vibey-project/) | Use when dealing with CMMC (Cybersecurity Maturity Model Certification) levels, CUI (Controlled… |
 | [`Compliance Auditor`](skills/compliance-auditor/) | Federal acquisition compliance auditor for the active Theseus workspace, backed by live FAR/DFARS text… |
 | [`DD Form 254 — Contract Security Classification Specification`](skills/dd-form-254/) | Drafts DD Form 254 Contract Security Classification Specifications for classified government contracts.… |
 | [`FAR-Compliant Subcontract Agreement`](skills/far-subcontract/) | Drafts FAR-compliant subcontract agreements between prime contractors and subcontractors under U.S.… |

@@ -1,0 +1,10 @@
+# Pièges que le skill doit signaler ou traiter correctement
+
+P-01 : mode CP "juin" confirmé → pas d'indemnité CP ce mois. Traitement correct attendu.
+P-02 : 2 jours absence convenance parents → salaire mensualisé maintenu, pas d'IE.
+P-03 : IE 3,60 €/jour × 18 jours de présence (pas 20 jours de planning).
+
+# Pas de P-04 (pas de HC/HM)
+# Pas de P-05 (année complète confirmée)
+# Pas de P-06 (contrat 2024, post-abrogation DFS)
+# Pas de cas de refus

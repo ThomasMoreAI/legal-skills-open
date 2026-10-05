@@ -1,0 +1,44 @@
+{
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "communication",
+  "tags": {
+    "he": [
+      "גיוס",
+      "משאבי-אנוש",
+      "מודעת-דרושים",
+      "תיאור-משרה",
+      "תאימות",
+      "ישראל",
+      "פרטיות",
+      "דיני-עבודה"
+    ],
+    "en": [
+      "recruitment",
+      "hiring",
+      "hr",
+      "job-description",
+      "compliance",
+      "israel",
+      "privacy",
+      "labor-law"
+    ]
+  },
+  "display_name": {
+    "he": "אוטומציית גיוס עובדים",
+    "en": "Israeli HR Recruitment Automator"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. אוטומציה של תהליך הגיוס לחברות ישראליות. ניסוח מודעות דרושים בעברית מול דרישות חוק שוויון הזדמנויות בעבודה, פרסום בלוחות עבודה ישראליים (AllJobs, דרושים, JobMaster, LinkedIn), סינון קורות חיים בהקשר ישראלי (שירות צבאי, מוסדות אקדמיים, בוטקמפים), תיאום ראיונות עם לוח שנה ישראלי, והפקת מכתבי הצעה עם סעיפי חובה (פנסיה, קרן השתלמות, סעיף 14, ימי חופשה, מחלה, הבראה).",
+    "en": "Not legal advice. Employer-side hiring automation for Israeli companies. Drafts Hebrew job descriptions against the published requirements of the Equal Employment Opportunities Law 1988, posts to Israeli job boards (AllJobs, Drushim, JobMaster, LinkedIn Israel), screens resumes with Israeli context (military service, academic institutions, tech bootcamps), schedules interviews around Israeli holidays and Shabbat, and generates offer letters with mandatory Israeli employment clauses (pension, keren hishtalmut, Section 14, vacation, sick days, convalescence pay). Do NOT use for job searching, interview preparation, salary negotiation, employment contracts legal review, or freelancer hiring."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "gemini-cli"
+  ]
+}

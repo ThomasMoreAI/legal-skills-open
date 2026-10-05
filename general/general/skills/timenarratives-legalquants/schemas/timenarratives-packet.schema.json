@@ -1,0 +1,853 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/timenarratives-packet.schema.json",
+  "title": "TimeNarratives private packet v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "requestDigestSha256",
+    "packetDigestSha256",
+    "actor",
+    "matter",
+    "filters",
+    "status",
+    "limits",
+    "roots",
+    "containers",
+    "mimeLeaves",
+    "parts",
+    "units",
+    "partitions",
+    "budget",
+    "errors",
+    "limitations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "timenarratives.packet.v1"
+    },
+    "runId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "requestDigestSha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "packetDigestSha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "actor": {
+      "$ref": "#/$defs/actor"
+    },
+    "matter": {
+      "$ref": "#/$defs/matter"
+    },
+    "filters": {
+      "$ref": "#/$defs/filters"
+    },
+    "status": {
+      "enum": [
+        "ready_for_semantic_analysis",
+        "requires_confirmation",
+        "incomplete"
+      ]
+    },
+    "limits": {
+      "$ref": "#/$defs/limits"
+    },
+    "roots": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 30,
+      "items": {
+        "$ref": "#/$defs/root"
+      }
+    },
+    "containers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/container"
+      }
+    },
+    "mimeLeaves": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mimeLeaf"
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/part"
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "partitions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["selectedRoots", "containers", "mimeLeaves", "parts"],
+      "properties": {
+        "selectedRoots": {
+          "$ref": "#/$defs/partition"
+        },
+        "containers": {
+          "$ref": "#/$defs/partition"
+        },
+        "mimeLeaves": {
+          "$ref": "#/$defs/partition"
+        },
+        "parts": {
+          "$ref": "#/$defs/partition"
+        }
+      }
+    },
+    "budget": {
+      "$ref": "#/$defs/budget"
+    },
+    "errors": {
+      "$ref": "#/$defs/stringList"
+    },
+    "limitations": {
+      "$ref": "#/$defs/stringList"
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,255}$"
+    },
+    "externalIdentity": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+    },
+    "actorName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableString": {
+      "type": ["string", "null"]
+    },
+    "nullableTime": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "stringList": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "pattern": "\\S"
+      }
+    },
+    "disposition": {
+      "enum": [
+        "ready",
+        "requiresConfirmation",
+        "exactDuplicate",
+        "excluded",
+        "unreadable",
+        "expanded"
+      ]
+    },
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "aliases"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/externalIdentity"
+        },
+        "name": {
+          "$ref": "#/$defs/actorName"
+        },
+        "aliases": {
+          "$ref": "#/$defs/aliases"
+        }
+      }
+    },
+    "matter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "client", "aliases"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/externalIdentity"
+        },
+        "client": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/externalIdentity"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "aliases": {
+          "$ref": "#/$defs/aliases"
+        }
+      }
+    },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceTypes", "since", "until", "asOf"],
+      "properties": {
+        "sourceTypes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["text", "email", "docx", "user_note", "conversation"]
+          }
+        },
+        "since": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "until": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "asOf": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "root": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rootId",
+        "selectionIndex",
+        "kind",
+        "selectedPath",
+        "containerId",
+        "disposition",
+        "reason"
+      ],
+      "properties": {
+        "rootId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "selectionIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "kind": {
+          "enum": ["file", "user_note", "conversation"]
+        },
+        "selectedPath": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "containerId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "disposition": {
+          "$ref": "#/$defs/disposition"
+        },
+        "reason": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "container": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "containerId",
+        "parentContainerId",
+        "rootId",
+        "originLocator",
+        "sourceType",
+        "mediaType",
+        "displayName",
+        "byteLength",
+        "rawSha256",
+        "sourceTime",
+        "sourceTimeKind",
+        "filterDisposition",
+        "disposition",
+        "reason",
+        "sourceAuthor"
+      ],
+      "properties": {
+        "containerId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "parentContainerId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "rootId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "originLocator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceType": {
+          "enum": [
+            "text",
+            "email",
+            "docx",
+            "user_note",
+            "unsupported",
+            "conversation"
+          ]
+        },
+        "mediaType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "byteLength": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "rawSha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceTime": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "sourceTimeKind": {
+          "enum": ["eml_date", "docx_core_created", "docx_core_modified", null]
+        },
+        "filterDisposition": {
+          "enum": ["included", "excluded", "filter_indeterminate"]
+        },
+        "disposition": {
+          "$ref": "#/$defs/disposition"
+        },
+        "reason": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "sourceAuthor": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "conversation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["conversationId", "origin", "scope", "coverage"],
+          "properties": {
+            "conversationId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+            },
+            "origin": {
+              "enum": ["current_context", "host_reader", "export", "summary"]
+            },
+            "scope": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["since", "until"],
+              "properties": {
+                "since": {
+                  "type": ["string", "null"],
+                  "format": "date-time"
+                },
+                "until": {
+                  "type": ["string", "null"],
+                  "format": "date-time"
+                }
+              }
+            },
+            "coverage": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["status", "gaps"],
+                  "properties": {
+                    "status": {
+                      "const": "complete"
+                    },
+                    "gaps": {
+                      "type": "array",
+                      "maxItems": 0,
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["status", "gaps"],
+                  "properties": {
+                    "status": {
+                      "const": "partial"
+                    },
+                    "gaps": {
+                      "type": "array",
+                      "minItems": 1,
+                      "maxItems": 30,
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 500,
+                        "pattern": "\\S"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "mimeLeaf": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mimeLeafId",
+        "containerId",
+        "locator",
+        "parentLocator",
+        "contentType",
+        "contentDisposition",
+        "filename",
+        "contentId",
+        "payloadSha256",
+        "byteLength",
+        "role",
+        "childContainerId",
+        "disposition",
+        "reason",
+        "sourceAuthor"
+      ],
+      "properties": {
+        "mimeLeafId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "containerId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parentLocator": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "contentType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contentDisposition": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "filename": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "contentId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "payloadSha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "byteLength": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "role": {
+          "enum": [
+            "current",
+            "quoted",
+            "context",
+            "attachment",
+            "inline",
+            "empty",
+            "nested_message",
+            "structural"
+          ]
+        },
+        "childContainerId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "disposition": {
+          "$ref": "#/$defs/disposition"
+        },
+        "reason": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "sourceAuthor": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "partId",
+        "containerId",
+        "locator",
+        "mediaType",
+        "rawSha256",
+        "byteLength",
+        "role",
+        "unitIds",
+        "disposition",
+        "reason"
+      ],
+      "properties": {
+        "partId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "containerId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mediaType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rawSha256": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/sha256"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "byteLength": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unitIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/identifier"
+          }
+        },
+        "disposition": {
+          "$ref": "#/$defs/disposition"
+        },
+        "reason": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "conversationMessage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["messageId", "role", "author", "timestamp", "index"],
+          "properties": {
+            "messageId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+            },
+            "role": {
+              "enum": ["user", "assistant", "tool", "quoted", "unknown"]
+            },
+            "author": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256,
+                  "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "timestamp": {
+              "type": ["string", "null"],
+              "format": "date-time"
+            },
+            "index": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "unitMetadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "revisionKind": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "revisionId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "author": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "date": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "attributionState": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "acceptedEffect": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "partName": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "commentId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "fieldInstructions": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unitId",
+        "containerId",
+        "originId",
+        "kind",
+        "role",
+        "locator",
+        "canonicalText",
+        "canonicalUtf8Sha256",
+        "utf8Start",
+        "utf8End",
+        "eligibility",
+        "coverageDisposition",
+        "sourceClass",
+        "sourceAuthor",
+        "sourceTime",
+        "assertedByActorId"
+      ],
+      "properties": {
+        "unitId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "containerId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "originId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "kind": {
+          "enum": [
+            "text_block",
+            "email_text",
+            "docx_accepted",
+            "docx_revision",
+            "docx_annotation",
+            "user_note",
+            "conversation_message"
+          ]
+        },
+        "role": {
+          "enum": [
+            "current",
+            "quoted",
+            "context",
+            "accepted",
+            "inserted",
+            "deleted",
+            "moved_to",
+            "moved_from",
+            "attested"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonicalText": {
+          "type": "string"
+        },
+        "canonicalUtf8Sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "utf8Start": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "utf8End": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "eligibility": {
+          "enum": [
+            "eligible",
+            "requires_confirmation",
+            "context_only",
+            "ineligible"
+          ]
+        },
+        "coverageDisposition": {
+          "enum": ["pending", "excluded", "unreadable", "exact_duplicate"]
+        },
+        "sourceClass": {
+          "enum": ["documentary_supported", "user_attested"]
+        },
+        "sourceAuthor": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "sourceTime": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "assertedByActorId": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "metadata": {
+          "$ref": "#/$defs/unitMetadata"
+        }
+      }
+    },
+    "partition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ready",
+        "requiresConfirmation",
+        "exactDuplicate",
+        "excluded",
+        "unreadable",
+        "expanded"
+      ],
+      "properties": {
+        "ready": {
+          "$ref": "#/$defs/stringList"
+        },
+        "requiresConfirmation": {
+          "$ref": "#/$defs/stringList"
+        },
+        "exactDuplicate": {
+          "$ref": "#/$defs/stringList"
+        },
+        "excluded": {
+          "$ref": "#/$defs/stringList"
+        },
+        "unreadable": {
+          "$ref": "#/$defs/stringList"
+        },
+        "expanded": {
+          "$ref": "#/$defs/stringList"
+        }
+      }
+    },
+    "limits": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selectedRoots",
+        "selectedContainerBytes",
+        "selectedPacketBytes",
+        "derivedContainers",
+        "terminalUnits",
+        "modelVisibleUtf8Bytes"
+      ],
+      "properties": {
+        "selectedRoots": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "selectedContainerBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "selectedPacketBytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "derivedContainers": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "terminalUnits": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "modelVisibleUtf8Bytes": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "modelVisibleUtf8Bytes",
+        "modelVisibleUtf8Limit",
+        "withinLimit"
+      ],
+      "properties": {
+        "modelVisibleUtf8Bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "modelVisibleUtf8Limit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "withinLimit": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

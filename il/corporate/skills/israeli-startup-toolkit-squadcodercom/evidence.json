@@ -1,0 +1,121 @@
+{
+  "skill": "israeli-startup-toolkit",
+  "version": "1.2.0",
+  "generated_at": "2026-05-20",
+  "claims": [
+    {
+      "id": "tnufa-max-2026",
+      "claim": "Tnufa (Ideation) grants up to NIS 200,000 over 12 months at 80% of an approved budget capped at NIS 250,000",
+      "source": "https://innovationisrael.org.il/en/programs/ideation-tnufa-incentive-program/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "company-registration-fee",
+      "claim": "Israeli company registration fee 2026 is NIS 2,614 one-time",
+      "source": "https://www.gov.il/en/service/company_registration",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "annual-fee-quarterly-cliff",
+      "claim": "Companies Registrar annual fee is NIS 1,338 if paid by 31 March 2026, NIS 1,777 from 1 April 2026; first-year exemption applies",
+      "source": "https://www.gov.il/en/service/company_partnership_annual_payment",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "vat-rate-2026",
+      "claim": "Standard Israeli VAT rose to 18% on 1 January 2025 (from 17%)",
+      "source": "https://www.vatcalc.com/israel/israel-raises-vat-thresholds-2025/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "osek-patur-threshold-2026",
+      "claim": "Osek Patur (exempt-dealer) annual turnover ceiling is NIS 122,833 for 2026",
+      "source": "https://www.cwsisrael.com/freelancer-tax-compliance-in-israel-2026/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "pte-rate-2026",
+      "claim": "Preferred Technological Enterprise tax rate is 12% (7.5% in Area A) on qualifying IP income; SPTE rate is 6%",
+      "source": "https://taxsummaries.pwc.com/israel/corporate/tax-credits-and-incentives",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "pte-eligibility",
+      "claim": "PTE eligibility requires R&D >= 7% of revenue for prior 3 years OR R&D > NIS 75M per year, plus 20% revenue from Israeli-developed IP",
+      "source": "https://www.pertamapartners.com/funding/israel-preferred-technological-enterprise-2026",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "corporate-tax-2026",
+      "claim": "Israeli standard corporate tax rate remains 23% in 2026",
+      "source": "https://taxsummaries.pwc.com/israel/corporate/taxes-on-corporate-income",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "closely-held-tax-2026",
+      "claim": "From 2026 closely-held companies (5 or fewer shareholders) face allocation of undistributed profits to shareholders taxed at marginal rates up to 50%",
+      "source": "https://www.cwsisrael.com/israeli-tax-changes-2026-complete-guide/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "pillar-two-qdmtt",
+      "claim": "OECD Pillar Two QDMTT applies to multinational groups (global revenue >= EUR 750M) for tax years starting after 31 December 2025 with 15% effective tax floor",
+      "source": "https://taxsummaries.pwc.com/israel/corporate/significant-developments",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "section-102-holding-period",
+      "claim": "Section 102 capital-gains-track trustee must hold options and exercised shares at least 24 months from the END of the tax year of grant (not from grant date)",
+      "source": "https://www.naspp.com/blog/hiring-in-israel--how-section-102-shapes-equity-compensation",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "section-102-rate",
+      "claim": "Section 102 capital-gains-track rate is 25% flat (30% for 10%+ controlling shareholders) with a 3% surtax above the high-income threshold",
+      "source": "https://www.vestingstrategy.com/guides/israel-equity-compensation-tax-guide",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "bird-general-max",
+      "claim": "BIRD General Program max grant is USD 1.5M at up to 50% of project R&D costs; BIRD HLS max is USD 1M",
+      "source": "https://www.birdf.com/bird_programs/bird-general-program/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "yozma-2-structure",
+      "claim": "Yozma 2.0 is a fund-of-funds with 0.3:1 government:institutional ratio; first round combined USD 700M started Q3 2024",
+      "source": "https://innovationisrael.org.il/en/press_release/stimulus-to-boost-israeli-high-tech/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "high-tech-stimulus",
+      "claim": "January 2024 stimulus package allocated roughly USD 1B for Israeli VC funds 2024-2026, plus NIS 940M additional IIA budget on top of NIS 1.5B base",
+      "source": "https://www.gov.il/en/pages/press_15012024_b",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "delaware-flip-trend",
+      "claim": "Approximately 45% of newly-formed Israeli tech startups incorporated abroad in 2025, up from about 20% in 2022",
+      "source": "https://delaweare.com/nearly-half-of-israeli-tech-startups-now-incorporate-abroad/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "yc-safe-2026-caps",
+      "claim": "Typical YC post-money SAFE caps 2026: pre-seed USD 3-8M, seed USD 8-20M; discount 15-25% (20% common)",
+      "source": "https://startupproject.org/blog/safe-note-explained/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "iia-program-list",
+      "claim": "Israel Innovation Authority 2026 program list includes Tnufa, Startup Fund, R&D Fund, Technological Venture Incubators, Magnet/Magneton/Nofar/Kamin, BIRD, Horizon Europe",
+      "source": "https://innovationisrael.org.il/en/programs/",
+      "verified": "2026-05-20"
+    },
+    {
+      "id": "iia-ip-restriction",
+      "claim": "IIA-funded IP transfer abroad requires authority approval and a transfer fee of up to 6x the grant amount",
+      "source": "https://innovationisrael.org.il/en/investment-considerations/",
+      "verified": "2026-05-20"
+    }
+  ]
+}

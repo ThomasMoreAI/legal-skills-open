@@ -4,7 +4,7 @@ Technology, media and telecommunications — digital platforms, content liabilit
 
 Jurisdiction: `cross-jurisdiction` · Practice: `tmt` · Skill language: en
 
-## Skills (95)
+## Skills (96)
 
 | Skill | What it does |
 |---|---|
@@ -81,6 +81,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `tmt` · Skill language: en
 | [`Reseller OEM VAR`](skills/reseller-oem-sbom-software-datenabruf-api/) | Für Reseller OEM VAR: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`SaaS-Vertrag B2B`](skills/saas-vertrag-b2b/) | Für SaaS-Vertrag B2B: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`SBOM Software Composition`](skills/sbom-software-composition/) | Für SBOM Software Composition: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Web Scraping: The Legal Landscape, Whether to Scrape, and the Permission Layer`](skills/scraping-legal-landscape-and-permissions-the-vibey-project/) | Use when deciding whether and how you are permitted to scrape: the four separate legal questions… |
 | [`Secure Development Contract`](skills/secure-development-contract/) | Für Secure Development Contract: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Software Copyright Infringement`](skills/software-copyright-infringement/) | Für Software Copyright Infringement: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Dokumentation, GUI und API-Schutz`](skills/software-dokumentation-gui-api-schutz/) | Für Dokumentation, GUI und API-Schutz: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko… |

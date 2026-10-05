@@ -1,0 +1,4 @@
+interface:
+  display_name: "Route Australian Privacy Jurisdiction"
+  short_description: "Route privacy issues across Australian jurisdictions"
+  default_prompt: "Use $route-australian-privacy-jurisdiction to identify the Commonwealth, State and Territory privacy, health, breach and surveillance regimes potentially applicable to these facts."

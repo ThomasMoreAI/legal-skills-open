@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Discovery objection review</title>
+  <style>/* REVIEW_CSS */</style>
+</head>
+<body>
+  <a class="skip" href="#requests">Skip to requests</a>
+  <div class="lq-masthead">
+    <span class="lq-brand">LQ · Document Discovery</span>
+    <button class="lq-theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Use dark theme</button>
+  </div>
+  <header class="heading">
+    <h1 id="title">Review objections</h1>
+    <p id="identity" class="muted"></p>
+    <p id="source-status" class="muted"></p>
+    <ul id="source-issues" class="muted"></ul>
+    <p class="instruction">Possible objections are surfaced for your consideration; they are not selected unless checked. Click a tile name to inspect its connection, conditions, and wording. Select or edit wording to include it in the preview. Export for Word accepts exactly that selected wording; no separate review click is needed. Mark reviewed confirms a request with no objections. Finish substantive responses in Word.</p>
+    <details id="context"><summary>Definitions &amp; set details</summary><div id="context-content"></div></details>
+  </header>
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <strong id="progress" aria-live="polite"></strong>
+      <div class="actions">
+        <button id="save" type="button">Save progress</button>
+        <label class="file-button">Resume<input id="import" type="file" accept=".json,application/json"></label>
+        <details id="index" class="utility">
+          <summary>Requests</summary>
+          <nav aria-label="Requests"><ol id="navigation"></ol></nav>
+        </details>
+        <button id="batch" type="button" aria-describedby="batch-help">Mark all reviewed</button>
+        <details id="tools" class="utility">
+          <summary>Review options</summary>
+          <div class="utility-body">
+            <p>Closing this page does not save changes. Download progress to resume later.</p>
+            <p>Surfaced means a possible objection to consider. Selected means checked wording in the preview. Accepted means you authorize that exact wording through Export for Word.</p>
+            <p>Opening, inspecting, marking reviewed, and saving do not authorize assembly. Empty requests stay open unless you mark them reviewed. Needs input stays open.</p>
+          </div>
+        </details>
+        <button id="export" class="primary" type="button">Export for Word</button>
+      </div>
+    </div>
+    <p id="batch-help" class="toolbar-help muted">Mark all reviewed records review readiness, including no objections. Needs input stays open. Export for Word authorizes assembly.</p>
+    <div id="message" role="status" aria-live="polite"></div>
+    <p id="save-status" class="muted"></p>
+    <section id="pending-import" hidden aria-label="Resume saved work">
+      <p id="pending-import-name"></p>
+      <div class="actions">
+        <button id="save-before-import" type="button">Save current progress</button>
+        <button id="confirm-import" type="button">Resume this file</button>
+        <button id="cancel-import" type="button">Keep current work</button>
+      </div>
+    </section>
+  </div>
+  <main id="requests" tabindex="-1"></main>
+  <footer>Export for Word accepts exactly the selected wording shown above. Surfaced possibilities, inspection, and Save progress do not authorize wording. Return the exported JSON file for a Word draft; substantive responses remain for you to complete.</footer>
+  <script id="review-data" type="application/json">REVIEW_DATA</script>
+  <script>/* REVIEW_JS */</script>
+</body>
+</html>

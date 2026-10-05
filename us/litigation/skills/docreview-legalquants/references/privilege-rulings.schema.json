@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "artifact": {"const": "privilege-rulings"},
+    "candidate_doc_ids": {
+      "items": {"type": "string"},
+      "minItems": 1,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "manifest_digest": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+    "queue_digest": {"pattern": "^[0-9a-f]{64}$", "type": "string"},
+    "ruled_by": {"const": "lawyer"},
+    "ruling_source": {"enum": ["conversation", "offline-export"]},
+    "rulings": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "doc_id": {"type": "string"},
+          "note": {"type": "string"},
+          "ruling": {
+            "enum": ["privileged", "not-privileged", "needs-review"]
+          }
+        },
+        "required": ["doc_id", "note", "ruling"],
+        "type": "object"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "version": {"const": 1}
+  },
+  "required": [
+    "artifact",
+    "candidate_doc_ids",
+    "manifest_digest",
+    "queue_digest",
+    "ruled_by",
+    "ruling_source",
+    "rulings",
+    "version"
+  ],
+  "title": "DocReview privilege rulings",
+  "type": "object"
+}

@@ -1,0 +1,13 @@
+You are executing the ai-data-flow-and-dpia skill. Mandate: produce AI_Data_Flow_And_DPIA.md and a data-flow diagram source.
+
+1. Read AI_Feature_PRD_Spec.md, AI_Data_And_Knowledge_Base_Spec.md, DPA, sub-processor list, Multi_Tenancy_Architecture_Spec.md, base DPIA (if exists).
+2. Inventory every data flow for every AI feature: user -> service, service -> retrieval store, service -> model gateway, gateway -> model provider, provider -> gateway, gateway -> conversation log, gateway -> billing event store, eval pipeline -> judge provider, red-team -> separate set. For each flow: source, sink, data classes, classification (public / internal / confidential / PII / SPI), transfer mechanism, training-exclusion verdict, retention.
+3. Draw the AI data-flow diagram per the conventions in references/ai-data-flow-diagram-conventions.md (tenant boundary, organisation boundary, jurisdiction boundary, processor boundary, PII / SPI / aggregate symbols).
+4. Write the AI DPIA addendum (or full DPIA if no base exists): nature/scope/context/purpose, lawful basis (Art. 6 / Art. 9), necessity and proportionality, risks to data subjects (opacity, hallucination, automated decisions, drift, prompt-injection leak), measures to address risks, residual risk, Art. 36 consultation if needed.
+5. Document consent capture surfaces (modal, settings) per region; the lawful basis fallback; the revocation flow.
+6. Attach training-data exclusion evidence per provider: contract clause, technical endpoint flag, audit cadence, audit date.
+7. State cross-border transfer mechanism: EU -> US adequacy / SCCs / TIA / supplementary measures; KE / NG / ZA residency commitments per local statute.
+8. Build the AI-specific risk register: hallucination affecting data subjects, prompt-injection leak, cross-tenant retrieval leak, sub-processor change without notice, training-exclusion lapse, conversation-log PII surfacing. Each row: likelihood, impact, mitigation, owner.
+9. Write AI_Data_Flow_And_DPIA.md with sections: 1) Data Flow Inventory, 2) Diagram, 3) AI DPIA, 4) Consent Capture, 5) Training-Data Exclusion Evidence, 6) Cross-Border Transfer, 7) AI Risk Register, 8) Sign-off Ledger.
+
+Validation: Halt if any data flow lacks classification, transfer mechanism, training-exclusion verdict, or retention. Halt if any provider lacks contract-clause evidence for training exclusion. Halt if EU/KE/NG/ZA in scope and no transfer mechanism is named.

@@ -4,11 +4,14 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `fi` · Practice: `general` · Skill language: fi
 
-## Skills (1)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
+| [`Oikeustutkimus — voimassa oleva laki ja oikeuskäytäntö lähteestä`](skills/finnish-legal-research-open-legal-products/) | Verify Finnish statutes, case law, and legislative history against current sources before citing them: a… |
+| [`Suomalainen lakikieli ja juridinen kirjoittaminen`](skills/finnish-legal-writing-open-legal-products/) | Write, interpret, and review Finnish legal text with correct statute and case citations, statutory… |
 | [`Juristi — Suomalaisen lakikielen ja lainsäädännön apuri`](skills/juristi/) | Suomalaisen oikeuden ja lakikielen yleisapuri. Käytä tätä skilliä AINA kun käyttäjä työskentelee lakien… |
+| [`Oikeuskielen kääntäminen (FI–SV)`](skills/legal-language-translation-open-legal-products/) | Translate legal text between Finnish and Swedish using established legal terminology: verify official… |
 
 ## Cold-start context
 

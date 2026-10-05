@@ -1,0 +1,9 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Attestato di prestazione energetica (APE): obblighi e sanzioni (D.Lgs. 192/2005)"
+short_description: Supporto documentale agli obblighi relativi all'attestato di prestazione energetica (APE) secondo gli artt. 6 e 15 del D.Lgs. 19 agosto 2005, n. 192. Stabilisce quando l'APE e' dovuto (edifici costruiti, venduti o locati; nuovi edifici e ristrutturazioni importanti prima del certificato di agibilita'), chi lo produce (costruttore/proprietario), l'obbligo di renderlo disponibile all'avvio delle trattative e di consegnarlo, la clausola in contratto e l'allegazione (sanzione 3.000-18.000 euro; 1.000-4.000 per locazioni di singole unita'), la validita' massima di 10 anni, l'affissione negli edifici pubblici, l'annuncio commerciale con indici e classe energetica, e le sanzioni dell'art. 15 (professionista 700-4200 euro; mancata dotazione 3.000-18.000; locazione 300-1.800; annuncio 500-3.000). NON calcola, redige o certifica l'APE, non riproduce le metodologie di calcolo e non sostituisce il tecnico abilitato ne' l'autorita' competente.
+default_prompt: |
+  Sto vendendo un appartamento (o lo do in locazione): mi serve l'APE secondo il D.Lgs.
+  192/2005? Chi lo produce, quando va consegnato, va allegato al contratto e riportato
+  nell'annuncio? Quali sono le sanzioni se manca? Cita gli articoli 6 e 15.

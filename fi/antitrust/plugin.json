@@ -1,0 +1,15 @@
+{
+  "name": "fi-antitrust",
+  "displayName": "Antitrust & Competition — FI",
+  "version": "0.1.0",
+  "description": "Antitrust & Competition skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "antitrust",
+  "language": "en",
+  "skills": [
+    "skills/competition-compliance-open-legal-products",
+    "skills/kilpailu-compliance-akunikkola"
+  ]
+}

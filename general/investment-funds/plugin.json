@@ -1,0 +1,16 @@
+{
+  "name": "general-investment-funds",
+  "displayName": "Investment Funds & Asset Management — General (jurisdiction-agnostic)",
+  "version": "0.1.0",
+  "description": "Investment Funds & Asset Management skills for General (jurisdiction-agnostic) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "general",
+  "practice": "investment-funds",
+  "language": "en",
+  "skills": [
+    "skills/entrevista-inicial-betobetico",
+    "skills/side-letter-betobetico",
+    "skills/subscription-agreement-betobetico"
+  ]
+}

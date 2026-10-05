@@ -6,11 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): corporate la
 
 Jurisdiction: `il` · Practice: `corporate` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
 | [`Israel companies registry`](skills/israel-companies-registry-nolpak14/) | Look up Israeli companies for free via the official Israel Corporations Authority (Rasham HaChavarot)… |
+| [`Israeli Startup Toolkit`](skills/israeli-startup-toolkit-skills-il/) | Not legal advice and not tax advice. Guide Israeli startup operations including company formation… |
+| [`Israeli Startup Toolkit`](skills/israeli-startup-toolkit-squadcodercom/) | Guide Israeli startup operations including company formation, Innovation Authority grants, investment… |
 | [`Validate companies DOCX`](skills/validate-companies-docx-shaishulman/) | ALWAYS use this skill instead of validate-companies when a .docx file is involved. Validates Israeli… |
 | [`Validate companies`](skills/validate-companies-shaishulman/) | Validate, look up, or complete Israeli company details in conversation text or pasted content (NOT .docx… |
 

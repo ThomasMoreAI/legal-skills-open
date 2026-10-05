@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify HCA Judgment"
+  short_description: "Confirm a High Court of Australia citation at the official publisher"
+  default_prompt: "Use $verify-hca-judgment to confirm this High Court citation exists at hcourt.gov.au and record its provenance."

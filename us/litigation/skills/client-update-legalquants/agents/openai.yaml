@@ -1,0 +1,8 @@
+interface:
+  display_name: "Client Update"
+  short_description: "Prepare a decision-ready litigation update"
+  default_prompt: "Use $client-update to prepare an evidence-first matter or portfolio update for this audience."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

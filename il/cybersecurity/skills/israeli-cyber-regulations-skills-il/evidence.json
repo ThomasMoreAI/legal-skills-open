@@ -1,0 +1,573 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-cyber-regulations",
+  "generated_at": "2026-08-26T20:03:01.290877+00:00",
+  "claims": [
+    {
+      "claim_id": "boi-directive-364",
+      "claim": "Bank of Israel Proper Conduct of Banking Business Directive 364 (Management of IT, Information Security and Cyber Protection Risks), circular 2799, published 18/11/2024, takes effect 18/05/2026 or on earlier adoption by the banking corporation, at which point Directives 357, 361 and 363 are cancelled.",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt364/",
+      "raw_snippet": "כניסתה לתוקף של הוראה זו היא ביום 18/05/2026 או במועד אימוצה על ידי התאגיד הבנקאי, לפי המוקדם מביניהם. ממועד זה תבוטלנה שלוש הוראות נב\"ת 357, 361 ו- 363",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "archive",
+      "verified_at": "2026-08-09",
+      "source_note": "boi.org.il serves a Radware JS challenge to plain fetches; verified against Wayback snapshot 20260609082827 of the same live URL."
+    },
+    {
+      "claim_id": "amendment-13-immediate-notification",
+      "claim": "Under Amendment 13 the PPA must be notified of a serious security incident immediately (the law says 'immediately', not a GDPR-style fixed 72-hour clock); DPO appointment is mandatory for public bodies and large-scale sensitive-data processors.",
+      "source_url": "https://www.gov.il/he/pages/reporting_security_breach",
+      "raw_snippet": "בעל שליטה במאגר מידע שחלה עליו רמת אבטחה בינונית או גבוהה (כהגדרתן בתקנות) מחויב להודיע לרשות להגנת הפרטיות באופן מיידי על אירוע אבטחה חמור (כהגדרתו בתקנות), וכן ידווח לרשות על הצעדים שנקט בעקבות האירוע.",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "gov.il Privacy Protection Authority page rendered in a browser",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "national-cyber-defense-bill-2026",
+      "claim": "A draft National Cyber Defense Law (tazkir), \"תזכיר חוק הגנת הסייבר הלאומית, התשפ\"ו-2026\", was published and covered on 25 January 2026. Its stated purpose is better national protection of the continuous, secure functioning of national cyberspace, with emphasis on protecting essential organisations, digital service providers and hosting services. Not yet enacted.",
+      "source_url": "https://www.law.co.il/legislation/2026/01/25/national-cyber-protection-law-2026-tazkir/",
+      "raw_snippet": "מטרת תזכיר החוק המוצע היא \"להביא להגנה לאומית טובה יותר על תפקודו הרציף והבטוח של מרחב הסייבר הלאומי, כחלק מחוסנה ובטחונה הלאומי של מדינת ישראל, בדגש על הגנת ארגונים חיוניים, ספקי שירותים דיגטליים ושירותי אחסון.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "raw HTML fetch (curl) of source page"
+    },
+    {
+      "claim_id": "reference-urls",
+      "claim": "The Israel National Cyber Directorate is the technological-operational body responsible for defending the national cyber space, handling cyber attacks and assisting organizations and citizens.",
+      "source_url": "https://www.gov.il/he/departments/israel_national_cyber_directorate",
+      "raw_snippet": "המערך הוא גוף טכנולוגי - מבצעי האמון על הגנת מרחב הסייבר הלאומי ועל קידום וביסוס עוצמתה של ישראל בתחום.",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/incd-guidelines.md"
+      ],
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "source_fetched_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "boi-directive-364-metadata",
+      "claim": "Directive number 364, circular number 2799, publication date 18/11/2024.",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt364/",
+      "raw_snippet": "תאריך פרסום: 18/11/2024 מספר הוראה: 364 מספר חוזר: 2799",
+      "verified_via": "archive",
+      "verified_at": "2026-08-09",
+      "source_note": "Wayback snapshot 20260609082827 of the live boi.org.il URL (Radware-blocked to plain fetches).",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-authority-amendment-13",
+      "claim": "The Privacy Protection Authority publishes enforcement and guidance under the Privacy Protection Law, including a final opinion on the privacy protection officer required by Amendment 13.",
+      "source_url": "https://www.gov.il/he/departments/the_privacy_protection_authority",
+      "fetched_at": "2026-08-11",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "המסמך המקיף מפרט את עמדת הרשות ביחס להיקף החובה, מהות תפקידיו של הממונה, הידע והכישורים הנדרשים ממנו, וביחס להוראות נוספות בחוק המסדירות את מעמדו של הממונה בארגון ומתכונת העסקתו",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "ref-cyber-directorate",
+      "claim": "מערך הסייבר הלאומי בגוב.יל. הכתובת הקודמת, units/cert_il, מחזירה כעת 404.",
+      "source_url": "https://www.gov.il/he/Departments/israel_national_cyber_directorate",
+      "raw_snippet": "מערך הסייבר הלאומי פרסומים חדשות דיווח על אירוע סייבר",
+      "fetched_at": "2026-08-17",
+      "verified_via": "playwright navigation (page load and h1 read); the superseded slug redirects to /he/error",
+      "verified_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-boi-supervision-en",
+      "claim": "Bank of Israel Banking Supervision section, cited as the regulator's own reference point.",
+      "source_url": "https://www.boi.org.il/en/economic-roles/supervision-and-regulation/",
+      "raw_snippet": "Supervision and Regulation | בנק ישראל - הבנק המרכזי של ישראל",
+      "fetched_at": "2026-08-17",
+      "verified_via": "playwright navigation (page title read); a plain fetch returns a Radware WAF challenge",
+      "verified_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-boi-supervision-he",
+      "claim": "אתר הפיקוח על הבנקים בבנק ישראל.",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/",
+      "raw_snippet": "roles/supervisionregulation",
+      "fetched_at": "2026-08-17",
+      "verified_via": "same-origin fetch from a loaded boi.org.il page (HTTP 200, 80KB)",
+      "verified_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ref-knesset-legislation",
+      "claim": "Knesset legislation portal, cited as a navigational pointer. Not machine-verifiable from here: it answers 401 to both a plain fetch and a real browser, which is a block rather than evidence that the page is gone.",
+      "source_url": "https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx",
+      "raw_snippet": "401 UNAUTHORIZED",
+      "fetched_at": "2026-08-17",
+      "verified_via": "playwright navigation; recorded as blocked, deliberately NOT recorded as dead",
+      "verified_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "boi-364-in-force-repeals-357-361-363",
+      "claim": "Directive 364 took effect 18/05/2026 (or on earlier adoption) and from that date Directives 357, 361 and 363 are cancelled, along with two 2009 supervision letters",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt364/",
+      "raw_snippet": "כניסתה לתוקף של הוראה זו היא ביום 18/05/2026 או במועד אימוצה על ידי התאגיד הבנקאי, לפי המוקדם מביניהם.\n\nממועד זה תבוטלנה שלוש הוראות נב\"ת 357, 361 ו- 363 וכן יבוטלו שני מכתבי הפיקוח מיום  24/08/09  (201005) ו - 14/09/09 (201006)",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-361-cancelled-on-364-commencement",
+      "claim": "The Directive 361 page itself states 361 is cancelled from the commencement of Directive 364",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt361/",
+      "raw_snippet": "הוראה זו תבוטל החל ממועד תחילת הוראת נב\"ת 364 בנושא ניהול סיכוני טכנולוגיית המידע, אבטחת המידע והגנת הסייבר\n\n( 18/05/2026 או מועד אימוצה של ההוראה על ידי התאגיד הבנקאי, לפי המוקדם מביניהם)",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-366-update-4",
+      "claim": "Directive 366 is now titled \"Reporting of technological-failure, information-security and cyber-attack events\"",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt366/",
+      "raw_snippet": "דיווח על אירועי כשל טכנולוגי, אירועי אבטחת מידע ומתקפת סייבר",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-362-version-5",
+      "claim": "Directive 362 Cloud Computing, published 17/06/2026, circular 2849, version 5, in force",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt362/",
+      "raw_snippet": "שם ההוראה\n\nמחשוב ענן\n\nתאריך פרסום: 17/06/2026\nמספר הוראה: 362\nמספר חוזר: 2849",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-362-complements-364",
+      "claim": "Directive 362 is drafted as complementing Directive 364, which is the infrastructure for the supervisor's dedicated IT directives",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt362/",
+      "raw_snippet": "ומשלימה בדגשים הייחודיים לעניין מחשוב ענן את הוראת ניהול בנקאי תקין מס' 364 בנושא: \"ניהול סיכוני טכנולוגיית המידע, אבטחת המידע והגנת הסייבר\" (להלן: \"הוראה 364\") המהווה את התשתית להוראות הפיקוח על הבנקים בנושאים ייעודיים בתחום טכנולוגיית המידע.",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-362-internal-approval-not-boi-preapproval",
+      "claim": "Directive 362 requires senior management to set a cloud policy defining which services are material cloud computing needing board approval, which need senior-management approval and which need other approval; it is not a BOI pre-approval regime",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt362/",
+      "raw_snippet": "על ההנהלה הבכירה לגבש מדיניות לשימוש בשירותי מחשוב ענן אשר תקבע, בין היתר, את מאפייני השירותים המוגדרים כמחשוב ענן מהותי ובהם נדרש אישור של הדירקטוריון, את מאפייני שירותי מחשוב הענן בהם נדרש אישור הנהלה בכירה וכן את מאפייני שירותי מחשוב הענן בהם נדרש אישור אחר.",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-362-annual-report-881",
+      "claim": "Directive 362 requires an annual written report to Banking Supervision under reporting directive 881",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt362/",
+      "raw_snippet": "אחת לשנה בגין סיום שנה קלנדרית, על תאגיד בנקאי להעביר דיווח בכתב לידי הפיקוח על הבנקים. הדיווח יתבצע על פי הוראת דיווח לפיקוח מס' 881 בנושא \"דיווח על מחשוב ענן (שנתי)\".",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "boi-362-business-enabler",
+      "claim": "Directive 362 states the supervisory approach on technology and cyber is enabling (Business enabler) and sees migration to cloud, including material systems, as part of technological development subject to prudent risk management",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt362/",
+      "raw_snippet": "הגישה הפיקוחית בהיבטי טכנולוגיה ואבטחת מידע והגנת הסייבר היא מאפשרת (Business enabler) ורואה במעבר מערכות התאגידים הבנקאיים למחשוב ענן, לרבות מערכות מהותיות, חלק מהחדשנות וההתפתחות הטכנולוגית. כל זאת בכפוף לניהול סיכונים מושכל, זהיר וקפדני.",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "cyber-bill-first-reading-committee",
+      "claim": "The National Cyber Defense Law is government bill 1955 (Knesset bill 1046714), status 'preparation for second and third reading', in committee 4190, last updated 2026-07-29; it is not yet enacted",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill?$filter=substringof('הגנת הסייבר',Name)&$format=json",
+      "raw_snippet": "{\"BillID\": 1046714, \"Name\": \"הצעת חוק הגנת הסייבר הלאומית, התשפ\"ו-2026\", \"SubTypeDesc\": \"ממשלתית\", \"StatusID\": 113, \"Number\": 1955, \"CommitteeID\": 4190, \"PublicationDate\": null, \"MagazineNumber\": null, \"LastUpdatedDate\": \"2026-07-29T13:35:27.663\"}",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "cyber-bill-status-113-meaning",
+      "claim": "Knesset status 113 means 'preparation for second and third reading'",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Status?$filter=StatusID eq 113&$format=json",
+      "raw_snippet": "הכנה לקריאה שנייה ושלישית",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "isa-staff-position-105-33",
+      "claim": "ISA staff legal position 105-33 is titled \"Disclosure on Cyber\"",
+      "source_url": "https://www.isa.gov.il/images/Fittings/isa/asset_library_pic/al_corporations_asset_library/al_corporations_asset_library-62eb8ff4a9821/SLB_105-33_cyber.pdf",
+      "raw_snippet": "עמדה משפטית מספר 105-33: גילוי בנושא סייבר",
+      "fetched_at": "2026-08-26T20:03:01.290877+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:01.290877+00:00"
+    },
+    {
+      "claim_id": "ppa-reg-11d1-immediate-notification",
+      "claim": "Regulation 11(d)(1) of the Privacy Protection (Data Security) Regulations 5777-2017 requires the controller of a database subject to medium or high security level to notify the PPA immediately of a serious security event, and the duty also binds the holder of the database",
+      "source_url": "https://www.gov.il/he/pages/reporting_security_breach",
+      "raw_snippet": "תקנה 11(ד)(1) לתקנות הגנת הפרטיות (אבטחת מידע), התשע\"ז-2017 (להלן: \"התקנות\") קובעת כי בעל שליטה במאגר מידע שחלה עליו רמת אבטחה בינונית או גבוהה (כהגדרתן בתקנות) מחויב להודיע לרשות להגנת הפרטיות באופן מיידי על אירוע אבטחה חמור (כהגדרתו בתקנות), וכן ידווח לרשות על הצעדים שנקט בעקבות האירוע.\n\nתשומת ליבך, כי חובת הדיווח חלה גם על המחזיק במאגר",
+      "fetched_at": "2026-08-26T20:03:44.377627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:44.377627+00:00"
+    },
+    {
+      "claim_id": "ppa-section-21-financial-sanction",
+      "claim": "Failure to notify immediately under regulation 11(d)(1) exposes the controller or holder to a financial sanction under section 21 of the Third Schedule to the Privacy Protection Law",
+      "source_url": "https://www.gov.il/he/pages/reporting_security_breach",
+      "raw_snippet": "בעל שליטה במאגר מידע או מחזיק במאגר מידע שלא הודיע לראש הרשות באופן מיידי על אירוע אבטחה חמור, או שלא דיווח לרשות על הצעדים שנקט בעקבות האירוע – בניגוד להוראות תקנה 11(ד)(1) לתקנות הגנת הפרטיות (אבטחת מידע), התשע״ז–2017 – צפוי לעיצום כספי לפי סעיף 21 לתוספת השלישית לחוק הגנת הפרטיות.",
+      "fetched_at": "2026-08-26T20:03:44.377627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:44.377627+00:00"
+    },
+    {
+      "claim_id": "isa-no-one-percent-equity-threshold",
+      "claim": "NEGATIVE FINDING recorded deliberately: staff position 105-33 was retrieved as a PDF and its full extracted text (21,396 characters) contains no occurrence of \"1%\", \"ההון העצמי\" or \"24 שעות\", and no percentage at all. The numeric immediate-reporting thresholds this skill carried before v1.3.0 are unsourced and were removed. Scope note: this entry evidences the absence in 105-33 itself, not a corpus-wide search. Do not reinstate the figures without a positive source",
+      "source_url": "https://www.isa.gov.il/images/Fittings/isa/asset_library_pic/al_corporations_asset_library/al_corporations_asset_library-62eb8ff4a9821/SLB_105-33_cyber.pdf",
+      "raw_snippet": "עמדה משפטית מספר 105-33: גילוי בנושא סייבר",
+      "fetched_at": "2026-08-26T20:03:44.377627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:03:44.377627+00:00"
+    },
+    {
+      "claim_id": "incd-119-reporting-channel",
+      "claim": "The INCD operational centre for cyber event management is reachable on 119 and 119@cyber.gov.il, 24/7",
+      "source_url": "https://www.gov.il/he/service/cyber-event-report",
+      "raw_snippet": "מערך הסייבר הלאומי ליצירת קשר 24/7 119 דואר אלקטרוני 119@cyber.gov.il",
+      "fetched_at": "2026-08-26T20:03:44.377627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:44.377627+00:00"
+    },
+    {
+      "claim_id": "boi-nbt-index",
+      "claim": "The BOI Proper Conduct of Banking Business directive index is the authoritative list of which directives are in force",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/",
+      "raw_snippet": "הוראות ניהול בנקאי תקין",
+      "fetched_at": "2026-08-26T20:03:44.377627+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:03:44.377627+00:00"
+    },
+    {
+      "claim_id": "incd-report-does-not-discharge-regulator-duty",
+      "claim": "INCD states that sharing information with it, or its awareness of an event, does not substitute for a reporting duty owed to a guiding body or any regulator",
+      "source_url": "https://www.gov.il/he/service/cyber-event-report",
+      "raw_snippet": "אין בשיתוף המידע עם המערך או ידיעתו תחליף חובת דיווח לגוף מנחה או רגולטור כלשהו",
+      "fetched_at": "2026-08-26T20:04:32.176742+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:04:32.176742+00:00"
+    },
+    {
+      "claim_id": "ppa-first-amendment-13-enforcement",
+      "claim": "On 21.07.2026 the PPA imposed a 256,000 NIS financial sanction on Meuhedet for failing to report a serious security event immediately, the first such sanction since Amendment 13 came into force",
+      "source_url": "https://www.gov.il/he/pages/21072026-1",
+      "raw_snippet": "עיצום כספי בסך של 256,000 ש\"ח הוטל על הקופה בגין אי-דיווח מיידי על אירוע אבטחה חמור, לראשונה מאז כניסתו לתוקף של תיקון 13 לחוק הגנת הפרטיות",
+      "fetched_at": "2026-08-26T20:04:32.176742+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:04:32.176742+00:00"
+    },
+    {
+      "claim_id": "ppa-immediacy-interpretation",
+      "claim": "The PPA's position is that the immediate-reporting duty arises on becoming aware of a serious security event and must be performed close to discovery and without delay; waiting to complete all investigations empties the immediacy requirement of content. The required report is a preliminary one based on what is known, and further details may follow in a supplementary report",
+      "source_url": "https://www.gov.il/he/pages/21072026-1",
+      "raw_snippet": "הרשות מדגישה כי חובת הדיווח המיידי קמה עם היוודע על התרחשותו של אירוע אבטחה חמור, ויש לקיימה בסמוך למועד הגילוי וללא דיחוי. עמדה לפיה יש להמתין להשלמת כלל הבדיקות מרוקנת מתוכן את דרישת \"המיידיות\". הדיווח הנדרש הוא דיווח ראשוני, המבוסס על המידע הידוע במועד הדיווח, וניתן להשלים פרטים נוספים בדיווח משלים בהמשך.",
+      "fetched_at": "2026-08-26T20:04:32.176742+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:04:32.176742+00:00"
+    },
+    {
+      "claim_id": "isa-regulation-36-immediate-reports",
+      "claim": "The immediate-reporting obligation for a reporting corporation sits in regulation 36 of the Securities Regulations (Periodic and Immediate Reports), 5730-1970, and ISA staff reminded corporations that a cyber-affected corporation must examine whether the event triggers it, per staff position 105-33",
+      "source_url": "https://www.isa.gov.il/images/Fittings/isa/asset_library_pic/al_corporations_asset_library/tax_corporations_tree-62eb8f271d2e5/HODAA211220.pdf",
+      "raw_snippet": "על תאגיד מדווח שנפגע כתוצאה מאירוע סייבר לבחון האם האירוע מקים חובת דיווח לציבור בהתאם להוראות תקנה 36 לתקנות ניירות ערך (דוחות תקופתיים ומידיים), התש\"ל-1970",
+      "fetched_at": "2026-08-26T20:04:32.176742+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:04:32.176742+00:00"
+    },
+    {
+      "claim_id": "knesset-odata-bill-endpoint",
+      "claim": "The Knesset OData ParliamentInfo service exposes machine-readable bill and law records, used here to establish the National Cyber Defense bill's stage and to confirm it is not yet enacted",
+      "source_url": "https://knesset.gov.il/Odata/ParliamentInfo.svc/KNS_Bill",
+      "raw_snippet": "\"Name\":\"הצעת חוק הגנת הסייבר הלאומית, התשפ\"ו-2026\"",
+      "fetched_at": "2026-08-26T20:04:32.176742+00:00",
+      "appears_in": [
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "curl",
+      "verified_at": "2026-08-26T20:04:32.176742+00:00"
+    },
+    {
+      "claim_id": "boi-366-metadata",
+      "claim": "Directive 366 published 17/06/2026, circular 2848",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt366/",
+      "raw_snippet": "תאריך פרסום: 17/06/2026",
+      "fetched_at": "2026-08-26T20:05:39.866337+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:05:39.866337+00:00"
+    },
+    {
+      "claim_id": "boi-366-financial-info-service-duty",
+      "claim": "Update 4 to Directive 366 defines a duty on banking corporations to report a serious security event as defined in the Financial Information Service Law, following an amendment to section 31 of that law",
+      "source_url": "https://www.boi.org.il/roles/supervisionregulation/nbt/nbt366/",
+      "raw_snippet": "בעקבות תיקון בסעיף 31 לחוק שירות מידע פיננסי (התשפ\"ב -2021) הקובע חובת דיווח למאסדר של מקור מידע או נותן שירות מידע פיננסי כהגדרתם בחוק זה, הוגדרה חובת דיווח של התאגידים הבנקאיים על אירוע אבטחה חמור כהגדרתו בחוק.",
+      "fetched_at": "2026-08-26T20:05:39.866337+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:05:39.866337+00:00"
+    },
+    {
+      "claim_id": "isa-105-33-updated-2023",
+      "claim": "Staff position 105-33 was updated on 25 January 2023, adding a summary of cyber audit findings in reporting corporations, an updated definition of cyber attack, and further disclosure chapters",
+      "source_url": "https://www.isa.gov.il/images/Fittings/isa/asset_library_pic/al_corporations_asset_library/al_corporations_asset_library-62eb8ff4a9821/SLB_105-33_cyber.pdf",
+      "raw_snippet": "ביום 25 בינואר 2023 עודכנה עמדת הסגל",
+      "fetched_at": "2026-08-26T20:05:39.866337+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:05:39.866337+00:00"
+    },
+    {
+      "claim_id": "boi-364-applicability-banking-only",
+      "claim": "Directive 364 section 10.1 applies it to corporations as defined in the Banking (Licensing) Law 5741-1981: a banking corporation, corporations under sections 11(a)(3a), 11(a)(3b) and 11(b), and a payment service provider of systemic importance under section 36T. Insurers are not addressed",
+      "source_url": "https://www.boi.org.il/media/zsznzgay/364.pdf",
+      "raw_snippet": "הוראה זו תחול על התאגידים הבאים כהגדרתם בחוק הבנקאות (רישוי), התשמ\"א 1981",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "boi-364-systemically-important-psp",
+      "claim": "Directive 364 section 10.1.4 extends it to a payment service provider of systemic importance as defined in section 36T",
+      "source_url": "https://www.boi.org.il/media/zsznzgay/364.pdf",
+      "raw_snippet": "נותן שירותי תשלום בעל חשיבות יציבותית כהגדרתו בסעיף 36ט",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "boi-364-board-annual-workplan",
+      "claim": "Directive 364 clause 17.7 requires the board to discuss, decide and approve once a year the annual and multi-year IT work plan, including the plan for handling IT risks",
+      "source_url": "https://www.boi.org.il/media/zsznzgay/364.pdf",
+      "raw_snippet": "לדון, להחליט, ולאשר אחת לשנה את תוכנית העבודה השנתית והרב שנתית בתחום",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "boi-364-board-annual-meetings",
+      "claim": "Directive 364 clause 17.8 requires the board to hold a meeting with the IT manager and with the cyber-protection and information-security manager at least once a year",
+      "source_url": "https://www.boi.org.il/media/zsznzgay/364.pdf",
+      "raw_snippet": "לקיים פגישה עם מנהל טכנולוגיית המידע ופגישה עם מנהל הגנת הסייבר ואבטחת המידע",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "boi-364-no-insurance",
+      "claim": "NEGATIVE FINDING recorded deliberately: the full 57-page text of Directive 364 (168,875 characters extracted) contains no occurrence of the words 'ביטוח' or 'חברת ביטוח'. Earlier versions of this skill applied the banking directives to insurers. Insurers are supervised by the Capital Market, Insurance and Savings Authority under Institutional Bodies Circular 2016-9-14",
+      "source_url": "https://www.boi.org.il/media/zsznzgay/364.pdf",
+      "raw_snippet": "הוראה זו תחול על התאגידים הבאים כהגדרתם בחוק הבנקאות (רישוי), התשמ\"א 1981",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "capital-market-cyber-circular-2016-9-14",
+      "claim": "Institutional Bodies Circular 2016-9-14, 'Cyber risk management in institutional bodies', issued 31 August 2016 by the Ministry of Finance Capital Market, Insurance and Savings Division under the Supervision of Financial Services (Insurance) Law 5741-1981 and the Provident Funds Law 5765-2005",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/2016-9-14/he/2016-9-14.pdf",
+      "raw_snippet": "חוזר גופים מוסדיים 2016-9-14",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "capital-market-circular-authority",
+      "claim": "The circular's enabling authority is sections 2(b) and 42 of the Supervision of Financial Services (Insurance) Law 5741-1981 and sections 39(b)(1) and 40 of the Provident Funds Law 5765-2005",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/2016-9-14/he/2016-9-14.pdf",
+      "raw_snippet": "בתוקף סמכותי לפי סעיפים",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/sector-rules.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "payment-services-law-isa-regulator",
+      "claim": "The Payment Services and Payment Initiation Law, 5783-2023 defines 'the Authority' as the Israel Securities Authority, making the ISA the regulator for non-bank payment and initiation licensees",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הסדרת_העיסוק_בשירותי_תשלום_וייזום_תשלום",
+      "raw_snippet": "”הרשות“ – רשות ניירות ערך כמשמעותה בסעיף 2 לחוק ניירות ערך",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    },
+    {
+      "claim_id": "payment-services-law-cyber-licensing-condition",
+      "claim": "Under that Law, licensing conditions include information security, cyber protection and risk management, and for a payment-services licence also business continuity, according to rules the Authority sets in regulator instructions",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הסדרת_העיסוק_בשירותי_תשלום_וייזום_תשלום",
+      "raw_snippet": "ובכלל זה ההוראות בעניין אבטחת מידע, הגנת סייבר וניהול סיכונים, ולעניין מבקש רישיון שירותי תשלום – לרבות בעניין המשכיות עסקית, והכול לפי כללים שקבעה הרשות בהוראות מאסדר",
+      "fetched_at": "2026-08-26T20:41:22.190624+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-26T20:41:22.190624+00:00"
+    }
+  ]
+}

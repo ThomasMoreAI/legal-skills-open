@@ -1,0 +1,8 @@
+interface:
+  display_name: "Wiki"
+  short_description: "Build and explore your personal legal wiki"
+  default_prompt: "Use $wiki to open my legal wiki and show its Wiki Home."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

@@ -4,10 +4,11 @@ Business-to-business commercial agreements, sales of goods, distribution, and se
 
 Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 
-## Skills (23)
+## Skills (25)
 
 | Skill | What it does |
 |---|---|
+| [`Business, Marketing, Sales and Law: Commercial Law — Contracts, IP, Employment, Privacy, and Disputes`](skills/biz-legal-contracts-ip-employment-and-privacy-the-vibey-project/) | Use when orienting on a commercial legal question before taking it to counsel: the scope note on what… |
 | [`CISG-Prüfung`](skills/cisg-pruefen/) | Für CISG-Prüfung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Cold start interview`](skills/cold-start-interview-4/) | Run the cold-start interview to learn your commercial contracts practice and write your team practice… |
 | [`$commercial-legal:customize`](skills/customize/) | Guided customization of your commercial contracts practice profile — change one thing without re-running… |
@@ -29,5 +30,6 @@ Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 | [`$commercial-legal:review-proposals`](skills/review-proposals-alexchlou/) | Review and approve (or reject) pending playbook update proposals from the playbook-monitor agent and… |
 | [`SaaS License Agreement`](skills/saas-license-agreement/) | Drafts SaaS License Agreements for cloud-based software subscriptions covering access-based licensing… |
 | [`SaaS / Subscription Agreement Review`](skills/saas-msa-review-anthropics/) | Reference: review of SaaS subscription agreements with attention to the terms that matter most in… |
+| [`Tech Contract Negotiation Skill`](skills/tech-contract-negotiation-borghei/) | Negotiation frameworks for technology services agreements, B2B contracts, and professional services… |
 | [`Template Synthesizer Skill`](skills/template-synthesizer/) | Guides the full lifecycle of drafting any commercial contract — from context elicitation and model… |
 | [`Vendor Agreement Review`](skills/vendor-agreement-review-anthropics/) | Reference: review of an inbound vendor agreement against the team playbook in… |

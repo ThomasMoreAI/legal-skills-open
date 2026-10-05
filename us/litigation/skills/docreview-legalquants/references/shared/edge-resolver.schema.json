@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "a": {"type": "string", "pattern": "^sha256:[0-9a-f]{12}$"},
+    "b": {"type": "string", "pattern": "^sha256:[0-9a-f]{12}$"},
+    "job_id": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+    "decision": {"type": "string", "enum": ["linked", "not-linked", "unresolved"]},
+    "src": {"type": ["string", "null"], "pattern": "^sha256:[0-9a-f]{12}$"},
+    "dst": {"type": ["string", "null"], "pattern": "^sha256:[0-9a-f]{12}$"},
+    "relation": {
+      "type": ["string", "null"],
+      "enum": ["amends", "sow-under", "schedule-of", "guarantees", "supersedes", "duplicate-of", null]
+    },
+    "quote": {"type": ["string", "null"]}
+  },
+  "required": ["a", "b", "job_id", "decision", "src", "dst", "relation", "quote"],
+  "additionalProperties": false
+}

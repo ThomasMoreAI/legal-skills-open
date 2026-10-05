@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check South Australia Legislation"
+  short_description: "Verify SA legislation and historical versions"
+  default_prompt: "Use $check-south-australia-legislation to verify this South Australian legislative provision against the official point-in-time source."

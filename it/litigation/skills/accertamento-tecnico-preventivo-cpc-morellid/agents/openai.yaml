@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Accertamento tecnico preventivo e ATP conciliativo (c.p.c. 696, 696-bis)"
+short_description: Supporto documentale all'istruzione preventiva nel processo civile secondo gli artt. 696 e 696-bis del Codice di procedura civile. Aiuta a scegliere tra accertamento tecnico preventivo / ispezione giudiziale (art. 696: urgenza di verificare stato di luoghi o qualita' di cose, estensione a cause e danni, nomina del CTU, sospensione fino al deposito della CTU e non oltre sei mesi) e consulenza tecnica preventiva ai fini della composizione della lite (art. 696-bis: anche fuori urgenza per crediti da inadempimento o fatto illecito, tentativo di conciliazione, processo verbale con efficacia di titolo esecutivo esente da imposta di registro, acquisizione della relazione nel giudizio di merito, richiamo artt. 191-197). NON instaura il procedimento, non redige il ricorso ne' la relazione e non sostituisce il giudice, l'avvocato ne' il CTU.
+default_prompt: |
+  Ho una controversia tecnica (es. infiltrazioni / difetti in un appalto): mi conviene un
+  accertamento tecnico preventivo (art. 696 c.p.c.) o la consulenza tecnica preventiva
+  conciliativa (art. 696-bis)? Quali sono i presupposti, la sospensione e l'efficacia del
+  verbale di conciliazione? Cita gli articoli.

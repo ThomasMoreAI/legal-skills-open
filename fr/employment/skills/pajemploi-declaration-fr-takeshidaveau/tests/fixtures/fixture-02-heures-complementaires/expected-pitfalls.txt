@@ -1,0 +1,11 @@
+# Pièges que le skill doit signaler ou traiter correctement
+
+P-01 : mode CP "juin" → pas d'indemnité CP en mars.
+P-03 : IE sur 21 jours de présence (= planning complet).
+P-04 : HC + HM détectées sur semaine 3, calculées par semaine civile.
+
+# Si taux horaire absent du contrat : skill doit DEMANDER le taux avant calcul.
+# Dans cette fixture, taux = 4,25 €/h déjà renseigné dans contrat.md.
+
+# Pas de P-02 (pas d'absence)
+# Pas de cas de refus

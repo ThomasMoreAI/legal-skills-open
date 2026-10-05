@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Curate an objection library</title>
+  <style>/* CATALOG_CSS */</style>
+</head>
+<body>
+  <a class="skip" href="#catalog">Skip to candidates</a>
+  <div class="lq-masthead">
+    <span class="lq-brand">LQ · Document Discovery</span>
+    <button class="lq-theme-toggle" id="theme-toggle" type="button" aria-pressed="false">Use dark theme</button>
+  </div>
+  <header class="heading">
+    <h1 id="title">Curate an objection library</h1>
+    <p id="scope" class="instruction"></p>
+    <p class="instruction">Open a candidate to compare its wording with the sources. Approve the entries you want to reuse; the rest can wait.</p>
+    <details id="catalog-notes"><summary>Scope &amp; review notes</summary><div id="notes"></div></details>
+  </header>
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <strong id="progress" aria-live="polite"></strong>
+      <div class="actions">
+        <details id="tools" class="utility">
+          <summary>Save &amp; resume</summary>
+          <div class="utility-body">
+            <p>Closing this page does not save changes. Download progress to continue later.</p>
+            <div class="actions">
+              <button id="save" type="button">Save progress</button>
+              <label class="file-button">Resume from file<input id="import" type="file" accept=".json,application/json"></label>
+            </div>
+          </div>
+        </details>
+        <button id="export" class="primary" type="button">Export library decisions</button>
+      </div>
+    </div>
+    <div id="message" role="status" aria-live="polite"></div>
+  </div>
+  <main id="catalog" tabindex="-1"></main>
+  <footer>Only entries you approve enter the library. Return the exported JSON to save a new version. Prior use is source evidence, not approval of the wording or its application to another request.</footer>
+  <script id="catalog-data" type="application/json">CATALOG_DATA</script>
+  <script>/* CATALOG_JS */</script>
+</body>
+</html>

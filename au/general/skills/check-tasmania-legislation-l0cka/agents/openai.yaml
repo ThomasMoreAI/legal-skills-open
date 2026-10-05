@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Tasmania Legislation"
+  short_description: "Verify Tasmanian legislation and versions"
+  default_prompt: "Use $check-tasmania-legislation to verify this Tasmanian legislative provision against the official point-in-time source."

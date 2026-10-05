@@ -1,0 +1,47 @@
+{
+  "author": "skills-il",
+  "version": "1.6.1",
+  "category": "security-compliance",
+  "tags": {
+    "he": [
+      "פרטיות",
+      "הגנת-מידע",
+      "ציות",
+      "GDPR",
+      "רגולציה",
+      "ישראל",
+      "באנר-הסכמה",
+      "תיקון-13",
+      "יישום"
+    ],
+    "en": [
+      "privacy",
+      "data-protection",
+      "compliance",
+      "gdpr",
+      "regulation",
+      "israel",
+      "consent-banner",
+      "amendment-13",
+      "implementation"
+    ]
+  },
+  "display_name": {
+    "he": "מגן פרטיות ישראלי",
+    "en": "Israeli Privacy Shield"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. הנחיות ציות לחוק הגנת הפרטיות הישראלי כולל תיקון 13 (בתוקף מ-14 באוגוסט 2025): רישום מאגרי מידע, הסכמה, אבטחה, העברה חוצת גבולות, דיווח על פריצה, מינוי ממונה הגנת פרטיות וממשל AI. השתמשו כשמשתמש שואל על חוק הפרטיות הישראלי, \"הגנת פרטיות\", \"תיקון 13\", או ציות פרטיות לחברות ישראליות. אל תשתמשו לשאלות GDPR אירופאיות ללא הקשר ישראלי.",
+    "en": "Not legal advice. Israeli Privacy Protection Law compliance guidance including Amendment 13 (effective August 14, 2025), database registration, consent requirements, data security, cross-border transfers, breach notification, privacy protection officer appointment, and AI governance. Use when user asks about Israeli privacy law, \"haganat pratiut\", \"tikun 13\", data protection in Israel, GDPR compliance for Israeli companies, privacy policy requirements, or database registration. Covers the Privacy Protection Law 1981, Amendment 13, and 2017 Security Regulations. Do NOT use for EU GDPR-only questions without Israeli context."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

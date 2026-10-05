@@ -1,0 +1,57 @@
+{
+  "property_address": "555 Main Street, Toronto, ON",
+  "property": {
+    "property_type": "commercial",
+    "property_value": 1800000.0,
+    "rental_income_monthly": 12000.0,
+    "distance_to_construction_m": 30.0,
+    "number_of_units": 3,
+    "business_type": "retail_plaza",
+    "annual_revenue": 2400000.0,
+    "background_noise_dba": 58.0
+  },
+  "construction": {
+    "duration_months": 24.0,
+    "equipment": [
+      {
+        "equipment_type": "pile_driver",
+        "dba_at_15m": 108.0,
+        "hours_per_day": 5.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 86.0,
+        "hours_per_day": 8.0,
+        "days_per_week": 6
+      },
+      {
+        "equipment_type": "jackhammer",
+        "dba_at_15m": 96.0,
+        "hours_per_day": 3.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "concrete_saw",
+        "dba_at_15m": 98.0,
+        "hours_per_day": 4.0,
+        "days_per_week": 5
+      }
+    ],
+    "dust_impact_zone": "high",
+    "vibration_ppv_mms": 8.5,
+    "traffic_reduction_pct": 0.45,
+    "construction_hours_per_day": 10,
+    "night_work": false
+  },
+  "visual_impact": {
+    "description": "Permanent transit infrastructure reducing street visibility",
+    "value_reduction_pct": 0.05
+  },
+  "market_parameters": {
+    "sales_conversion_rate": 0.03,
+    "average_transaction_value": 75.0,
+    "gross_margin_pct": 0.42,
+    "capitalization_rate": 0.075
+  }
+}

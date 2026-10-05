@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Evidence Inconsistencies"
+  short_description: "Map where matter sources agree, diverge or are silent on each material fact"
+  default_prompt: "Use $map-evidence-inconsistencies on these documents and this chronology: build a .docx fact-by-source matrix with pinpoints, a divergence register quoting each competing passage, and a corroboration register — flags only, no view on which account is right."

@@ -4,10 +4,12 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (276)
+## Skills (280)
 
 | Skill | What it does |
 |---|---|
+| [`SaaS DPA & Privacy Doc Set Skill`](skills/13-saas-dpa-and-privacy-doc-set-peterbamuhigire/) | Use when drafting a SaaS privacy notice, DPA, processing schedule, subprocessor disclosure, retention… |
+| [`AI Data-Flow and DPIA Skill`](skills/16-ai-data-flow-and-dpia-peterbamuhigire/) | Use when mapping AI data flows and assessing privacy necessity, lawful basis, risks, controls, residual… |
 | [`42 CFR Part 2 — Substance Use Disorder Records`](skills/42-cfr-part-2/) | Implements 42 CFR Part 2 protections for substance use disorder patient records. Covers written consent… |
 | [`Assessing Third-Country Adequacy`](skills/adequacy-assessment/) | Guides assessment of third-country adequacy decisions under GDPR Article 45 for international data… |
 | [`Age-Gating Implementation for Online Services`](skills/age-gating-services/) | Implements age-gating mechanisms for online services to restrict access based on user age. Covers hard… |
@@ -185,6 +187,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Implementing Lawful Basis Assessment`](skills/lawful-basis-assessment/) | Guides determination of the correct lawful basis under GDPR Article 6(1)(a)-(f) for each processing… |
 | [`Legal advisor`](skills/legal-advisor-v2/) | legal-advisor workflow skill. Use this skill when the user needs Draft privacy policies, terms of… |
 | [`Privacy & Terms Generator`](skills/legal-docs/) | Generate jurisdiction-aware Privacy Policies and Terms & Conditions for SaaS products, apps, and digital… |
+| [`Légal & gouvernance — ne jamais l'oublier, ne jamais trancher seul`](skills/legal-governance-jean-paul15/) | Dimension légale et gouvernance du développement — licences du projet et des dépendances, données… |
 | [`Assessing Legitimate Interest vs Consent`](skills/legit-interest-vs-consent/) | Decision framework for choosing between consent and legitimate interest as the lawful basis for… |
 | [`Performing Legitimate Interest Assessment`](skills/legitimate-interest-lia/) | Guides the three-part Legitimate Interest Assessment (LIA) required under GDPR Article 6(1)(f): purpose… |
 | [`LINDDUN Privacy Threat Modeling`](skills/linddun-threat-model/) | Conduct LINDDUN privacy threat modeling across all seven categories: Linking, Identifying… |
@@ -251,6 +254,7 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`RoPA Executive Dashboard`](skills/ropa-executive-dashboard/) | Creates executive reporting and visualization from RoPA data including processing activity counts, risk… |
 | [`RoPA Maintenance Workflow`](skills/ropa-maintenance-workflow/) | Establishes ongoing RoPA maintenance processes including update triggers, change management integration… |
 | [`RoPA Tool Integration`](skills/ropa-tool-integration/) | Integrates Records of Processing Activities with privacy management platforms including OneTrust… |
+| [`SaaS legal docs (Terms of Service + Privacy Policy)`](skills/saas-legal-docs-pooriaarab/) | Use when drafting or expanding a SaaS product's Terms of Service and Privacy Policy pages — especially… |
 | [`SaaS Vendor Data Processing Inventory`](skills/saas-vendor-inventory/) | SaaS vendor data processing inventory management. Covers shadow IT discovery, API-based data flow… |
 | [`Implementing Standard Contractual Clauses`](skills/scc-implementation/) | Guides implementation of EU Standard Contractual Clauses under Commission Decision 2021/914 across all… |
 | [`Search Engine Erasure (Right to Be Forgotten)`](skills/search-engine-erasure/) | Implements the right to be forgotten in search engines under GDPR Article 17 and the CJEU Google Spain… |

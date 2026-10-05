@@ -1,0 +1,71 @@
+{
+  "analysis_date": "2025-11-15",
+  "property_before": {
+    "total_acres": 15.0,
+    "frontage_linear_feet": 600.0,
+    "road_classification": "arterial",
+    "use": "commercial",
+    "value_per_acre": 120000.0,
+    "total_value": 1800000.0
+  },
+  "taking": {
+    "area_taken_acres": 2.5,
+    "frontage_lost_linear_feet": 150.0,
+    "value_of_land_taken": 300000.0
+  },
+  "remainder": {
+    "acres": 12.5,
+    "frontage_remaining_linear_feet": 450.0,
+    "access_type": "direct",
+    "proportionate_value": 1500000.0,
+    "actual_value_after_severance": -5282500.0
+  },
+  "severance_damages": {
+    "access_impairment": {
+      "frontage_loss_value": 82500.0,
+      "frontage_rate_per_lf": 550.0,
+      "circuitous_access_cost": 0.0,
+      "annual_time_cost": 0.0,
+      "landlocked_remedy_cost": 0.0,
+      "total": 82500.0
+    },
+    "shape_irregularity": {
+      "efficiency_index_before": 0.351448528312369,
+      "efficiency_index_after": 0.29814239699997197,
+      "efficiency_category": "very_low",
+      "value_discount_pct": 0.3,
+      "geometric_inefficiency_value": 450000.0,
+      "buildable_area_reduction": 6250000.0,
+      "development_yield_loss": 0.0,
+      "total": 6700000.0
+    },
+    "utility_impairment": {
+      "site_servicing_costs": 0.0,
+      "development_potential_reduction": 0.0,
+      "total": 0.0
+    },
+    "farm_operation_disruption": {
+      "fencing_cost": 0.0,
+      "drainage_modifications": 0.0,
+      "field_division_costs": 0.0,
+      "equipment_access_complications": 0.0,
+      "irrigation_system_impacts": 0.0,
+      "total": 0.0
+    },
+    "total_severance_damages": 6782500.0
+  },
+  "reconciliation": {
+    "before_total_value": 1800000.0,
+    "land_taken_value": 300000.0,
+    "remainder_proportionate_value": 1500000.0,
+    "severance_damages": 6782500.0,
+    "remainder_value_after_severance": -5282500.0,
+    "total_compensation": 7082500.0
+  },
+  "analysis_notes": [
+    "Property: 15.0 acres, commercial use",
+    "Taking: 2.5 acres (16.7%)",
+    "Remainder: 12.5 acres with direct access",
+    "Total severance damages: $6,782,500.00"
+  ]
+}

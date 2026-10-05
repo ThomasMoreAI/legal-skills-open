@@ -4,11 +4,12 @@ U.S. military & defence law — courts-martial, UCMJ disciplinary actions, admin
 
 Jurisdiction: `us` · Practice: `military` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Military Law Summary`](skills/military-law-summary/) | Generates structured summaries of military law matters including courts-martial, UCMJ disciplinary… |
+| [`Military Records Strategist`](skills/military-records-strategist-forexgod21/) | Top-tier legal strategist for military record correction and discharge upgrade cases across every forum.… |
 
 ## Cold-start context
 

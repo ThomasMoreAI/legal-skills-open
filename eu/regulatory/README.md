@@ -4,15 +4,21 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (209)
+## Skills (231)
 
 | Skill | What it does |
 |---|---|
+| [`EU AI Act Regulation for Java Enterprise Development with AI Systems and AI Agents`](skills/801-regulations-eu-ai-act-jabrena/) | Use when reviewing, designing, or modifying Java enterprise systems that use AI, LLMs, AI agents, RAG… |
 | [`Abgrenzung: Konventionelle Software versus KI-System`](skills/abgrenzung-konventionelle-software-vs-ki/) | Für Abgrenzung: Konventionelle Software versus digitale Werkzeuge-System: ordnet Norm, Beweislast und… |
+| [`Accessibility`](skills/accessibility-arttuan/) | Turn the European Accessibility Act into numbered, testable acceptance criteria against EN 301 549 /… |
 | [`ESG Reporting Specialist IA`](skills/agent-esg-reporting-specialist-ziri22/) | ESG Reporting Specialist IA — Expert en reporting ESG (GRI, SASB, TCFD, CSRD, sustainability metrics) |
+| [`AI Act`](skills/ai-act-arttuan/) | Classify the AI system, settle whether you are provider or deployer, and emit the obligations that… |
 | [`AI Act Compliance`](skills/ai-act-compliance/) | Supports compliance with the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Use when the… |
+| [`AI Act Compliance — EU Regulation 2024/1689`](skills/ai-act-compliance-abk1969/) | Use when the user asks about EU AI Act (Regulation 2024/1689) compliance — classifying an AI system's… |
 | [`EU AI Act compliance`](skills/ai-act-compliance-clemensjl/) | Use when working out what the EU AI Act requires of a specific product that contains an LLM or an ML… |
+| [`Tekoälyasetuksen vaatimustenmukaisuus — määräajat, sakot, GPAI, FRIA`](skills/ai-act-compliance-open-legal-products/) | Support EU AI Act (Regulation (EU) 2024/1689) compliance timing and risk assessment: phased application… |
 | [`KI-VO-OWi und interne Untersuchung`](skills/ai-act-owi-verfahren-internal-investigation/) | Für europäischer Technikregulierungsrahmen-OWi und interne Untersuchung: ordnet Norm, Beweislast und… |
+| [`EU AI Act Readiness — Forcing Questions`](skills/ai-act-readiness-aashutosh396/) | Use during AI-system intake, before EU market placement, before signing the EU declaration of… |
 | [`/cs:ai-act-readiness — EU AI Act Forcing Questions`](skills/ai-act-readiness-alirezarezvani/) | /cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake… |
 | [`SKILL.md - AI Act Risk Check`](skills/ai-act-risk-check-hardened/) | Assess preliminary risk classification for an AI system against EU AI Act Annex III high-risk categories. |
 | [`AI Governance`](skills/ai-governance-sandbaseai/) | Use when classifying AI-system risk, establishing responsible-AI governance, preparing model or system… |
@@ -23,6 +29,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Anrufung: Red-Team und Qualitätskontrolle`](skills/anrufung-red-team-und-qualitaetskontrolle/) | Für Anrufung: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-art-kompetenz-automatisierte/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anwaltliche KI-Nutzung und Quellencheck`](skills/anwaltliche-ki-nutzung-quellencheck-brao/) | Für Anwaltliche digitale Werkzeuge-Nutzung und Quellencheck: ordnet Norm, Beweislast und Gegenargument… |
+| [`Applicability`](skills/applicability-arttuan/) | Decide which EU regimes apply from the facts in the brief, and record the ruled-out ones with the fact… |
 | [`Kompetenz fördern und Maßnahmen belegen`](skills/art-4-ki-kompetenz-schulungsprogramm/) | Erstellt angemessene Kompetenzförderung nach Artikel 4 neuer Fassung für konkrete Rollen und eingesetzte… |
 | [`Software nach Artikel 6 einstufen`](skills/artikel-6-software-einstufen/) | Ordnet beliebige Software anhand der KI-Systemdefinition, des Produktpfads aus Artikel 6 Absatz 1 und… |
 | [`Ausnahmebegründung nach Artikel 6`](skills/ausnahmebegruendung-artikel-6/) | Prüft und formuliert die Anbieterbegründung einer Ausnahme nach Artikel 6 Absatz 3 und 4 einschließlich… |
@@ -40,8 +47,11 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`CE Regulatory Compliance`](skills/ce-regulatory-compliance/) | Map calibrated_explanations capabilities to EU AI Act, GDPR, AI Liability Directive, and Product… |
 | [`Charta Quellenkarte`](skills/charta-quellenkarte/) | Für Charta Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Chat und Telefonhinweise`](skills/chat-und-telefonhinweise/) | Formuliert und prüft Hinweise für direkte KI-Interaktion in Kanzlei-Chat und Telefonassistenz nach… |
+| [`Interactive mode — asks questions step by step`](skills/classify-ai-system-abdelstark/) | Use when the user asks about EU AI Act risk classification, wants to know what risk tier their AI system… |
 | [`Verhaltenskodizes, harmonisierte Normen und ISO-Standards`](skills/code-of-practice-und-harmonisierte-normen/) | Für Verhaltenskodizes, harmonisierte Normen und ISO-Standards: ordnet Norm, Beweislast und… |
 | [`Verificación de cumplimiento normativo`](skills/compliance-check/) | Usar para verificar cumplimiento RGPD, NIS2 y CRA. También: verificar RGPD, cumplimiento normativo… |
+| [`View full checklist for a tier`](skills/compliance-checklist-abdelstark/) | Use when the user needs to track EU AI Act compliance obligations, wants to see what requirements apply… |
+| [`Compliance Gates`](skills/compliance-gates-arttuan/) | Wire the brief into CI so the code cannot drift away from it — new vendors, new fields, expired… |
 | [`Connector — EUR-Lex`](skills/connector-eur-lex-sboghossian/) | Use when a lawyer or compliance professional needs to retrieve, read, or cite official EU legal texts… |
 | [`CSRD Compliance Skill`](skills/csrd/) | Expert CSRD (Corporate Sustainability Reporting Directive, EU 2022/2464) compliance advisor. Use this… |
 | [`Deepfake Offenlegung`](skills/deepfake-offenlegung/) | Prüft künstlich erzeugte oder manipulierte Bilder, Audio und Video auf Deepfake-Eigenschaft und entwirft… |
@@ -54,10 +64,19 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Europarecht: Vorlageverfahren Art. 267`](skills/er-vorlageverfahren-eur-kommissionsverfahren/) | Für Europarecht: Vorlageverfahren Art. 267: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fachanwalt Agrarrecht EU Agrarfoerderung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung `](skills/eu-agrarfoerderung/) | Für EU Agrarförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`EU AI Act — Compliance Advisor`](skills/eu-ai-act/) | EU AI Act (Regulation (EU) 2024/1689) compliance advisor — risk classification across all four tiers… |
+| [`EU AI Act Compliance`](skills/eu-ai-act-compliance-builderced/) | Classify AI system risk under EU AI Act (Reg 2024/1689), generate Article 50 disclosures, and design… |
+| [`EU AI Act content check (Article 50)`](skills/eu-ai-act-content-check-eduard-wolf/) | Use before publishing or deploying web content, articles, images, audio or video created with AI… |
+| [`EU AI Act Content Disclosure (Article 50)`](skills/eu-ai-act-content-disclosure-builderced/) | Generate AI Act Article 50 compliant disclosure notices, metadata tags, and content marking for… |
+| [`EU-AI-Act-Inventory Skill`](skills/eu-ai-act-inventory-sigmacodeat/) | Maintains the organisation's EU AI Act inventory: classifies each AI system (prohibited / high-risk per… |
+| [`EU AI Act Quick Check — Free Tier`](skills/eu-ai-act-quick-check-knowledgepa3/) | Quick EU AI Act risk classification for any AI system. Screens prohibited practices (Article 5)… |
 | [`EU AI Act`](skills/eu-ai-act-rashadansari/) | Reference knowledge on the EU AI Act (Regulation (EU) 2024/1689): risk tiers, obligations, compliance… |
+| [`Key questions (ask first)`](skills/eu-ai-act-specialist-aashutosh396/) | Use during AI system intake review, conformity assessment planning, or scoping deployer/provider… |
 | [`EU AI Act Compliance Specialist`](skills/eu-ai-act-specialist-alirezarezvani/) | EU AI Act (Regulation (EU) 2024/1689) operational compliance for compliance teams. Three Article-level… |
+| [`EU AI Act Compliance Specialist`](skills/eu-ai-act-specialist-borghei/) | EU AI Act (Regulation EU 2024/1689) compliance specialist. Use for AI system risk classification… |
+| [`EU AI Act Triage EN - fast classification under Regulation (EU) 2024/1689`](skills/eu-ai-act-triage-en-matematicsolutions/) | Fast triage of a system under the EU AI Act (Regulation (EU) 2024/1689) - 20-40 minutes through a chain… |
 | [`EU-Datenbank-Registrierung — Art. 49 und 71 KI-VO`](skills/eu-datenbank-registrierung-art-49-und-71/) | Für EU-Datenbank-Registrierung — Art. 49 und 71 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`EU-Rechtsquellen, Charta und Vorlageweiche`](skills/eu-rechtsquellen-vorlageweiche/) | Für EU-Rechtsquellen, Charta und Vorlageweiche: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`EU Regulatory Router`](skills/eu-regulatory-router-builderced/) | Identify which EU regulations (AI Act, NIS2, DORA, GDPR) apply to your system based on sector, data… |
 | [`LegW: EU-Richtlinienumsetzung`](skills/eu-richtlinienumsetzung-spezial/) | Für LegW: EU-Richtlinienumsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`EU transparency register`](skills/eu-transparency-register-nolpak14/) | Check whether a company or organisation lobbies the EU institutions - for free, keyless - using the… |
 | [`EU: Petitionsausschuss`](skills/eur-anrufung-state-beihilfen-vergaben/) | Für EU: Petitionsausschuss: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
@@ -89,10 +108,12 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Vertragsverletzung und Durchsetzung`](skills/europarecht-vertragsverletzung-durchsetzung/) | Für Vertragsverletzung und Durchsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vorlageverfahren Art. 267 AEUV`](skills/europarecht-vorlageverfahren-art-267/) | Für Vorlageverfahren Art. 267 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Evaluate Enterprise AI Governance Hub`](skills/evaluate-enterprise-ai-governance-hub/) | Evaluate Enterprise AI Governance Hub — risk classification accuracy, policy enforcement, review… |
+| [`Evidence Pack`](skills/evidence-pack-arttuan/) | Assemble the documents a regulator, auditor or acquirer actually asks for — generated from the brief and… |
 | [`Fallfremde Textbausteine`](skills/fallfremde-textbausteine-prozessrisiko/) | Für Fallfremde Textbausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete`](skills/falsche-wiese-warnung-ki-vo/) | Für Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete: ordnet Norm, Beweislast und Gegenargument… |
 | [`Fundamental Rights Impact Assessment (FRIA)`](skills/fria-assessment-fdu-ins/) | Conduct Fundamental Rights Impact Assessments (FRIA) for high-risk AI systems as required by EU AI Act… |
 | [`Gegen: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/gegen-grundfreiheiten-livecheck-sonderfall/) | Für Gegen: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und Gegenargument… |
+| [`Generate a single template`](skills/generate-compliance-docs-abdelstark/) | Use when the user needs to generate EU AI Act compliance documentation, wants templates for technical… |
 | [`Gerichtliche KI-Assistenz und Anhang III`](skills/gerichtliche-ki-assistenz-hochrisiko-justiz/) | Für Gerichtliche digitale Werkzeuge-Assistenz und Anhang III: ordnet Norm, Beweislast und Gegenargument… |
 | [`Gerichtliche KI-Assistenz und Anhang III`](skills/gerichtliche-ki-governance-aufsichtsbehoerden/) | Für Gerichtliche digitale Werkzeuge-Assistenz und Anhang III: ordnet Norm, Beweislast und Gegenargument… |
 | [`GPAI Code of Practice: Evidence statt Etikett`](skills/gpai-code-of-practice-copyright-safety-evidence/) | Für GPAI Code of Practice: Evidence statt Etikett: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
@@ -103,6 +124,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`GPAI-Modelle mit systemischem Risiko — Art. 51 bis 55 KI-VO`](skills/gpai-systemisches-risiko-urheberrecht-policy/) | Für GPAI-Modelle mit systemischem Risiko — Art. 51 bis 55 europäischer Technikregulierungsrahmen: ordnet… |
 | [`GPAI: Urheberrechtliche Policy nach Art. 53 KI-VO`](skills/gpai-urheberrecht-policy-art-53/) | Für GPAI: Urheberrechtliche Policy nach Art. 53 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`GPAI, allgemeiner Chatbot und Hochrisiko-Abgrenzung`](skills/gpai-vorliegen-art-3-nr-63/) | Für GPAI, allgemeiner Chatbot und Hochrisiko-Abgrenzung: ordnet Norm, Beweislast und Gegenargument… |
+| [`Grill Me`](skills/grill-me-arttuan/) | Interrogate the user about their product until every regulation-relevant fact is pinned down, then gate… |
 | [`Grundfreiheiten: Zahlen, Schwellenwerte und Berechnung`](skills/grundfreiheiten-zahlen-schwellen-und-berechnung/) | Für Grundfreiheiten: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |
 | [`Grundrechte-Folgenabschätzung nach Art. 27 KI-VO`](skills/grundrechte-folgenabschaetzung-art-27-praxis/) | Für Grundrechte-Folgenabschätzung nach Art. 27 europäischer Technikregulierungsrahmen: ordnet Norm… |
 | [`Händler-Pflichten (Distributor) — Art. 24 KI-VO`](skills/haendler-distributor-harmonisierte-normen/) | Für Händler-Pflichten (Distributor) — Art. 24 europäischer Technikregulierungsrahmen: ordnet Norm… |

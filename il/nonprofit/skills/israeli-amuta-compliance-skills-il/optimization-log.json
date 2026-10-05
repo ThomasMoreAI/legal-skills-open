@@ -1,0 +1,19 @@
+{
+  "cycles": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01",
+      "lessons": [
+        "Description unchanged this cycle, so the Phase 5.7 holdout was not re-run (last recorded 2026-09-09: 13 queries, 1.0). eval_queries.txt has no case near the audit threshold or on organ composition; add them next time the description changes.",
+        "Expert MINOR deferred: the composition screen does not ask about a relative majority on the audit committee or kinship between board and audit-committee members (Registrar notice 14.6.2026 paras 3a-3b).",
+        "Expert MINOR deferred: Disclosure Duty Law s.5(a) website posting for every recipient, s.5A(c)-(d) (public reports note, Knesset committee declaration) and the s.6 / s.36A(b)(3) inquiry duty.",
+        "Expert MINOR deferred: a zone amuta (2025 turnover 1,172,933-1,380,630) with no audit arranged must decide with its accountant now, before the 4.10/1.11.2026 quota dates; the skill does not spell out that trade-off.",
+        "Arithmetic MINOR deferred: s.30A internal-auditor band reads 'or a higher amount set by the Minister'; the script does not surface it, and the internal-auditor band has the same previous-year anchoring question as bookkeeping.",
+        "Legal advisory deferred: add a component-6 sentence to both notices listing steps not performed (no examination of books, no verification of supplied figures).",
+        "Research gap deferred: pending government bill Associations Law Amendment 20 (financial sanctions, tabled 22.12.2025) and the private foreign-state-donation tax bill P/5222 (status: preparation for first reading). Recheck enactment next cycle.",
+        "Research gap deferred: Tax Authority side for amutot (VAT malkar status, form 1215 annual return, withholding 126/856) is out of scope; consider a one-line redirect.",
+        "Unverified, re-check next cycle: whether the Registrar still asks small (<=500k) amutot for the financial report inside the certificate request; the 2014 1,172,933.01 figure against the 2014 Yalkut itself (only Wikisource's annotation was read); registrar-contact and chalatz-form-5 gov.il pages were Cloudflare-blocked this cycle (chalatz page rendered in Playwright and showed 'טופס 5')."
+      ]
+    }
+  ]
+}

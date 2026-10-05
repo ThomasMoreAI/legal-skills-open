@@ -1,0 +1,53 @@
+{
+  "property": {
+    "address": "456 Maple Street, Oakville, ON L6H 3R2",
+    "area_acres": 0.25,
+    "market_value": 850000.00,
+    "zoning": "Residential Low Density (R2)",
+    "highest_and_best_use": "Single-family residential",
+
+    "valuation_date": "2024-03-20",
+    "form_7_service_date": "2024-03-25",
+    "plan_registration_date": "2024-03-20",
+
+    "special_purchaser_premium": 0.00,
+    "special_purchaser_notes": ""
+  },
+
+  "disturbance_damages": {
+    "moving_costs": 12000.00,
+    "packing_materials": 2000.00,
+    "storage_costs": 4500.00,
+
+    "business_losses": null,
+
+    "professional_fees": {
+      "legal": 18000.00,
+      "appraisal": 8000.00,
+      "accounting": 2000.00
+    },
+
+    "temporary_accommodation_months": 4,
+    "accommodation_cost_monthly": 2500.00,
+
+    "construction_impacts": {
+      "noise": 5000.00,
+      "dust": 2000.00,
+      "vibration": 1500.00,
+      "traffic_disruption": 2500.00,
+      "duration_months": 18
+    },
+
+    "permanent_impacts": {
+      "noise_value_loss": 78000.00,
+      "visual_obstruction": 0.00,
+      "privacy_loss": 22000.00,
+      "stigma_value_loss": 0.00
+    }
+  },
+
+  "payment_details": {
+    "payment_date": "2024-12-15",
+    "interest_rate_annual_pct": 3.0
+  }
+}

@@ -1,0 +1,37 @@
+schema_version: 1
+skill: accertamento-tecnico-preventivo-cpc
+last_verified: 2026-07-16
+
+# Fonte per l'istruzione preventiva: accertamento tecnico preventivo (ATP) e ispezione
+# giudiziale (art. 696 c.p.c.) e consulenza tecnica preventiva ai fini della composizione
+# della lite (ATP conciliativo, art. 696-bis c.p.c.). Inquadra presupposti, procedimento,
+# sospensione, tentativo di conciliazione ed efficacia del verbale.
+
+sources:
+  - id: cpc-696-696bis
+    title: "Codice di procedura civile (R.D. 28 ottobre 1940, n. 1443) - artt. 696 e 696-bis (istruzione preventiva) (testo vigente al 2026-07-16)"
+    type: regio-decreto
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: 7a53e745448ed3657d629b49a9f4c2e18eb08bfaa19f55e815e046793788c655
+    license: public-domain
+    binary_path: not_in_repo/cpc.html
+    md_path: references/fonti/cpc-696-696bis.md
+    excerpt_path: references/estratti/atp-checklist.md
+    notes: |
+      Codice redazionale 040U1443. Pagina indice Normattiva pinnata a !vig=2026-07-16
+      (hash stabile, doppio download: 7a53e745...). Stesso atto usato da
+      relazione-peritale-ctu-cpc (artt. 191-201, idGruppo=28); qui gli artt. 696
+      (idSottoArticolo=1, versione 7) e 696-bis (idSottoArticolo=2, versione 3), idGruppo=118,
+      caricati via AJAX (caricaArticolo) e trascritti verbatim in
+      references/fonti/cpc-696-696bis.md: art. 696 (accertamento tecnico e ispezione
+      giudiziale preventivi, valutazioni su cause e danni, nomina CTU, sospensione fino al
+      deposito CTU e comunque non oltre 6 mesi), art. 696-bis (consulenza tecnica preventiva
+      conciliativa: richiesta anche fuori dai casi di urgenza per crediti da inadempimento o
+      fatto illecito, tentativo di conciliazione, verbale con efficacia di titolo esecutivo
+      esente da imposta di registro, acquisizione della relazione nel merito, richiamo artt.
+      191-197). Testo aggiornato alla riforma Cartabia (D.Lgs. 149/2022, blocchi (( ))).
+      LIMITE DI RESA: la skill inquadra presupposti e procedimento dell'istruzione preventiva;
+      non riproduce gli articoli richiamati (692-695 procedimento, 191-197 disciplina CTU) ne'
+      sostituisce il giudice, l'avvocato o il CTU. Il contenuto tecnico/di merito della
+      consulenza e' fuori scope (cfr. relazione-peritale-ctu-cpc per la relazione nel merito).

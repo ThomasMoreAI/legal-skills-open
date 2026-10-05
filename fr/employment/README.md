@@ -6,12 +6,14 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `fr` · Practice: `employment` · Skill language: fr
 
-## Skills (2)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
 | [`Convention IDCC [numéro] — [Nom de la convention]`](skills/convention-zevra-tech/) | À utiliser quand l'utilisateur pose une question sur une convention collective française identifiée par… |
+| [`French Market Consultant`](skills/french-consulting-canhada-labs/) | France-specific business consulting covering Convention Collective navigation, RGPD compliance specifics… |
 | [`Import: Notification de Licenciement (France)`](skills/import-notification-licenciement-sboghossian/) | Use when migrating a French-law dismissal notification (lettre de licenciement) drafting or review skill… |
+| [`Déclaration mensuelle Pajemploi (assistante maternelle)`](skills/pajemploi-declaration-fr-takeshidaveau/) | Use when preparing a monthly Pajemploi declaration as a parent employer of a French registered… |
 
 ## Cold-start context
 

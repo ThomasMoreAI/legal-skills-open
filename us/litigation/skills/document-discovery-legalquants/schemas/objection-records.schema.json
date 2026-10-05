@@ -1,0 +1,1067 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discovery objection review work-product records",
+  "description": "Shape contract. Use the helper for source/version binding, exact wording, review-state consistency and library-update semantics. Schema validity is not legal approval.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/library"
+    },
+    {
+      "$ref": "#/$defs/review"
+    },
+    {
+      "$ref": "#/$defs/selections"
+    },
+    {
+      "$ref": "#/$defs/assembly"
+    },
+    {
+      "$ref": "#/$defs/proposals"
+    },
+    {
+      "$ref": "#/$defs/selectionsV2"
+    }
+  ],
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Semantic objection type shared by entries expressing the same legal ground. Consolidate stylistic or lexical differences under the same type; source-document identity and similar wording alone do not define a family."
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A short, recognizable label for the objection type, understandable without opening its source response."
+        },
+        "variant": {
+          "type": "string",
+          "minLength": 1,
+          "description": "A materially different scope or application of this objection ground, not a separate variant for every source, synonym, sentence arrangement or drafting style. Preserve consequential qualifications; whether a distinction is material requires review."
+        },
+        "wording": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Reusable wording for one objection ground, expressed in one or a few connected sentences. Retain qualifications that define its scope. Do not store an entire response containing multiple independent grounds as one entry; keep the full prior response in source context. Atomicity and legal equivalence are model/lawyer judgments, not schema validation."
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "guidance": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Nonoperative usage guidance. Scope-defining qualifications belong in wording, not only here. Matter-specific substantive answers and production commitments remain in source context."
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "source_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "source_id",
+              "locator"
+            ]
+          },
+          "description": "Source locators supporting the proposed ground. Source use or repetition is provenance, not approval for reuse."
+        }
+      },
+      "required": [
+        "id",
+        "family",
+        "label",
+        "variant",
+        "wording",
+        "fields",
+        "guidance",
+        "conditions",
+        "exclusions",
+        "sources"
+      ],
+      "description": "One semantic objection ground, with meaningful variants and source provenance. Valid shape does not establish legal merit, atomicity, semantic consolidation, or actual user approval."
+    },
+    "approvedEntry": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/entry"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "status": {
+              "const": "approved"
+            },
+            "approval": {
+              "type": "object",
+              "properties": {
+                "record": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "record"
+              ]
+            }
+          },
+          "required": [
+            "status",
+            "approval"
+          ]
+        }
+      ]
+    },
+    "library": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-library"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/approvedEntry"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "id",
+        "version",
+        "entries"
+      ],
+      "description": "An explicitly approved objection snapshot. An empty entries list is valid as an initial curation base, but cannot be used to render request review. Do not mark raw precedent extracts approved merely to satisfy this record shape."
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "text",
+        "locator"
+      ]
+    },
+    "suggestion": {
+      "type": "object",
+      "properties": {
+        "entry_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "params": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Concise connection between the current request/context and this approved objection ground; not an assertion it should be included."
+        },
+        "basis": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "description": "Supplied facts, source context or authority relevant to considering this ground; identify which kind of support is present."
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Material factual predicates or legal/authority questions still unresolved. Conditional candidates remain visible and can be left unchecked."
+        },
+        "preselected": {
+          "type": "boolean",
+          "description": "Whether the checkbox starts checked, independently of being surfaced. Default false; do not use checking to solve candidate visibility.",
+          "default": false
+        }
+      },
+      "required": [
+        "entry_id",
+        "params",
+        "rationale",
+        "basis",
+        "missing",
+        "preselected"
+      ],
+      "description": "Legacy field name for one surfaced primary candidate for consideration. Visibility is independent of checkbox selection and export acceptance. Prior request numbers are provenance, not applicability keys."
+    },
+    "request": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "suggestions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/suggestion"
+          },
+          "description": "Primary surfaced candidates, whether checked or unchecked. Remaining library entries stay in Other library objections."
+        },
+        "candidate_note": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional concise assessment of the candidate set, especially no supported approved-library connection or an assessment gap. Separate from operative wording and selections."
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "text",
+        "locator",
+        "context_ids",
+        "suggestions"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-review"
+        },
+        "format_version": {
+          "const": 2
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "file": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "required": [
+            "file",
+            "sha256"
+          ]
+        },
+        "library": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/library"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "entries": {
+                  "type": "array",
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "entries"
+              ]
+            }
+          ],
+          "description": "A nonempty usable snapshot already approved by the user or produced from explicit curation decisions. Reuse its exact entries and provenance; prior responses alone are not an approved library."
+        },
+        "context": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/context"
+          }
+        },
+        "requests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/request"
+          },
+          "minItems": 1
+        },
+        "source_census": {
+          "type": "object",
+          "description": "Frozen extraction, source span mapping, source comparison receipt and complete ordered requests. objection_source.py checks derived wording and coverage; a hash alone does not establish extraction accuracy.",
+          "required": [
+            "kind",
+            "format_version",
+            "extraction",
+            "extraction_sha256",
+            "mapping",
+            "comparison",
+            "requests",
+            "context",
+            "gaps"
+          ],
+          "properties": {
+            "kind": {
+              "const": "served-request-census"
+            },
+            "format_version": {
+              "const": 1
+            },
+            "extraction": {
+              "type": "object"
+            },
+            "extraction_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "mapping": {
+              "type": "object"
+            },
+            "comparison": {
+              "type": "object",
+              "required": [
+                "status",
+                "by",
+                "method",
+                "notes",
+                "unresolved"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "checked",
+                    "partial"
+                  ]
+                },
+                "by": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "method": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "notes": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "unresolved": {
+                  "type": "array"
+                }
+              }
+            },
+            "requests": {
+              "type": "array",
+              "minItems": 1
+            },
+            "context": {
+              "type": "array"
+            },
+            "gaps": {
+              "type": "array"
+            }
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "id",
+        "title",
+        "source",
+        "library",
+        "context",
+        "requests",
+        "source_census"
+      ]
+    },
+    "choice": {
+      "type": "object",
+      "properties": {
+        "component_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entry_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "params": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "wording": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edited": {
+          "type": "boolean"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_id",
+        "entry_id",
+        "params",
+        "wording",
+        "edited",
+        "scope",
+        "notes"
+      ]
+    },
+    "row": {
+      "type": "object",
+      "properties": {
+        "request_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "not_reviewed",
+            "reviewed",
+            "needs_input"
+          ]
+        },
+        "action": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "individual",
+                    "batch"
+                  ]
+                },
+                "at": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "kind",
+                "at"
+              ]
+            }
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          }
+        }
+      },
+      "required": [
+        "request_id",
+        "state",
+        "action",
+        "notes",
+        "choices"
+      ]
+    },
+    "selections": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-selections"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "purpose": {
+          "enum": [
+            "progress",
+            "assembly"
+          ]
+        },
+        "review_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "library_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/row"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "purpose",
+        "review_id",
+        "review_sha256",
+        "source_sha256",
+        "library_sha256",
+        "rows"
+      ]
+    },
+    "assemblyRequest": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "not_reviewed",
+            "reviewed",
+            "needs_input"
+          ]
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/choice"
+          }
+        },
+        "objection_text": {
+          "type": "string"
+        },
+        "open_review": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "label",
+        "text",
+        "locator",
+        "state",
+        "components",
+        "objection_text",
+        "open_review",
+        "notes"
+      ]
+    },
+    "assembly": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-assembly"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "review_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "selections_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "file": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "required": [
+            "file",
+            "sha256"
+          ]
+        },
+        "library": {
+          "$ref": "#/$defs/library"
+        },
+        "requests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/assemblyRequest"
+          }
+        },
+        "baseline": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "paragraphs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "mapping": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                },
+                "other_stories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "limits": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "file",
+                "sha256",
+                "paragraphs",
+                "mapping",
+                "other_stories",
+                "limits"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "review_id",
+        "review_sha256",
+        "selections_sha256",
+        "source",
+        "library",
+        "requests",
+        "baseline"
+      ]
+    },
+    "proposal": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional readable label for a retained passage without an after-entry."
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "classification": {
+          "enum": [
+            "replacement",
+            "new_variant",
+            "guidance",
+            "new_entry",
+            "matter_only",
+            "substantive_response",
+            "formatting_only",
+            "unresolved"
+          ]
+        },
+        "target_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "before": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/entry"
+            }
+          ]
+        },
+        "after": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/entry"
+            }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "pending",
+            "accept",
+            "reject",
+            "defer"
+          ]
+        },
+        "decision_record": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "classification",
+        "target_id",
+        "before",
+        "after",
+        "evidence",
+        "reason",
+        "decision"
+      ]
+    },
+    "proposals": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-library-proposals"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "base_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/proposal"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "id",
+        "base_sha256",
+        "items"
+      ]
+    },
+    "draftChoice": {
+      "type": "object",
+      "properties": {
+        "component_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entry_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "params": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "wording": {
+          "type": "string"
+        },
+        "edited": {
+          "type": "boolean"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "component_id",
+        "entry_id",
+        "params",
+        "wording",
+        "edited",
+        "scope",
+        "notes"
+      ]
+    },
+    "rowV2": {
+      "type": "object",
+      "properties": {
+        "request_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "state": {
+          "enum": [
+            "not_reviewed",
+            "reviewed",
+            "needs_input"
+          ],
+          "description": "Reviewed records content-bound review readiness. Assembly authorization additionally requires a deliberate assembly-purpose export binding the exact selected wording. Needs input remains open. Opening, individual review, Mark all reviewed, and saving progress do not by themselves authorize assembly."
+        },
+        "action": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "individual",
+                    "batch"
+                  ]
+                },
+                "at": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reviewed_content_sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                },
+                "trigger": {
+                  "type": "string",
+                  "description": "Optional origin of the actual action, for example export-selected, mark-all, or separately recorded chat-direction. Does not replace the reviewed-content hash."
+                }
+              },
+              "required": [
+                "kind",
+                "at",
+                "reviewed_content_sha256"
+              ],
+              "description": "Content-bound receipt of an actual attorney action, including export of selected wording; does not authenticate identity."
+            }
+          ]
+        },
+        "notes": {
+          "type": "string"
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/draftChoice"
+          }
+        },
+        "drafts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/draftChoice"
+          }
+        },
+        "selected_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "request_id",
+        "state",
+        "action",
+        "notes",
+        "choices",
+        "drafts",
+        "selected_ids"
+      ]
+    },
+    "selectionsV2": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-selections"
+        },
+        "format_version": {
+          "const": 2
+        },
+        "purpose": {
+          "enum": [
+            "progress",
+            "assembly"
+          ]
+        },
+        "review_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "review_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "library_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rowV2"
+          }
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "purpose",
+        "review_id",
+        "review_sha256",
+        "source_sha256",
+        "library_sha256",
+        "rows"
+      ]
+    }
+  }
+}

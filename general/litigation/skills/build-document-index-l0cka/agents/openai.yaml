@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Document Index"
+  short_description: "Number and index supplied matter documents in a reviewable Word bundle index"
+  default_prompt: "Use $build-document-index to inventory these matter documents into a numbered, source-linked .docx index with descriptions taken from the documents themselves, duplicate and version links, and unreadable items listed."

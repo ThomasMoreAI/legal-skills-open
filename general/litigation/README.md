@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 
-## Skills (202)
+## Skills (209)
 
 | Skill | What it does |
 |---|---|
@@ -26,6 +26,9 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Brief section drafter`](skills/brief-section-drafter-anthropics/) | Draft a brief section in house style, consistent with the case theory — every fact cited, every case… |
 | [`Brief section drafter`](skills/brief-section-drafter-zhou210712/) | 按内部风格起草法律文书章节，与案件理论保持一致——每个事实有出处， 每个案例经核实，每个论点绑定理论。当用户说"起草[章节]"、 "写事实部分"、"关于[问题]的代理意见"或需要法律文书章节初稿时使用。 |
 | [`Brief to Counsel Drafter`](skills/brief-to-counsel-drafter-rohasnagpal/) | Prepare focused, confidential briefs or instructions to counsel covering the mandate, procedural… |
+| [`Build Document Index`](skills/build-document-index-l0cka/) | Build a numbered, source-linked document index as a .docx file from supplied legal matter documents… |
+| [`Build Evidence Chronology`](skills/build-evidence-chronology-l0cka/) | Build a source-linked evidence chronology as a .docx file from supplied legal matter documents using a… |
+| [`Build Privilege Log`](skills/build-privilege-log-l0cka/) | Prepare a draft privilege log as a .docx file from supplied legal matter documents — one row per… |
 | [`Building chronologies`](skills/building-chronologies/) | Use when users say "build a chronology", "make a timeline", "what happened when", "chronology from… |
 | [`Stateless Case File Analyzer (Ralph Loop Edition)`](skills/case-file-analyzer/) | Use when running structured, adversarial analysis across large case-file directories — extracts facts… |
 | [`Skill：案件摄入与争议焦点识别`](skills/case-intake-issue-map/) | 用于案件初始摄入阶段，将零散事实叙述转化为结构化案件概要，区分事实、推测、评价与法律结论，识别争议焦点层级关系及证据缺口，为后续证据台账、要件矩阵和策略分析提供基础。 |
@@ -106,6 +109,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Interim Application Drafter`](skills/interim-application-drafter-rohasnagpal/) | Draft evidence-backed applications for interim injunctions, stays, preservation, disclosure, security… |
 | [`Issue Spotter`](skills/issue-spotter-rohasnagpal/) | Reads a fact pattern and spots every legally relevant issue, potential cause of action, and threshold… |
 | [`Skill：法官视角分析`](skills/judge-perspective/) | 从法官、仲裁员或调解员视角评估请求清晰度、证据闭环、证明责任、裁判可执行性和风险。 |
+| [`Judicial First Impression EN - the cold reader test`](skills/judicial-first-impression-en-matematicsolutions/) | Assesses a legal submission or structured argument from the perspective of a judge reading it COLD… |
 | [`Labour Compliance Checker`](skills/labour-compliance-checker/) | Maps current Indian labour-law obligations, evidence and remediation for an establishment. Use for… |
 | [`Lawsuit Summarizer`](skills/lawsuit-summarizer/) | Dava özetleme, taraf analizi, talep ve savunma özeti, karar sonuçları. |
 | [`Lawyer Accountability`](skills/lawyer-accountability/) | Track and evaluate solicitor performance, costs, and accountability. Use when the user says "is my… |
@@ -127,6 +131,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Litigation Strategy Planner`](skills/litigation-strategy-planner-rohasnagpal/) | Builds the overall strategy for a civil or commercial litigation matter — combining claims and defences… |
 | [`Litigation Support Summary`](skills/litigation-support-summary/) | Generates structured management summaries of active commercial litigation matters. Covers case overview… |
 | [`Loan Agreement Reviewer`](skills/loan-agreement-reviewer/) | Reviews Indian loan and facility agreements from the borrower, lender, guarantor or security-provider… |
+| [`Map Evidence Inconsistencies`](skills/map-evidence-inconsistencies-l0cka/) | Map where supplied legal matter documents and accounts agree, diverge or are silent on each material… |
 | [`Matrimonial Petition Drafter`](skills/matrimonial-petition-drafter/) | Assesses and drafts Indian matrimonial petitions with the correct governing law, court, grounds… |
 | [`$litigation-legal:matter-briefing`](skills/matter-briefing/) | Deep briefing on one matter — current posture, what's changed, next deadline, open questions, and a risk… |
 | [`Matter briefing`](skills/matter-briefing-anthropics/) | Deep briefing on one matter — current posture, what's changed, next deadline, open questions, and a risk… |
@@ -152,6 +157,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Oc status`](skills/oc-status-zhou210712/) | 为活跃案件组合中的各外聘律师生成每周状态请求邮件草稿—— 每案一份 markdown。当用户要求向外聘律师发状态请求、 每周外聘律师检查或需要从案件组合日志中起草各案状态邮件时使用。 |
 | [`Operational Creditor Application Drafter`](skills/operational-creditor-application-drafter/) | Tests and drafts an Indian operational creditor demand and section 9 IBC application. Use for unpaid… |
 | [`Skill：对方视角与抗辩模拟`](skills/opponent-perspective/) | Simulates the opposing party's litigation and negotiation strategy by mapping their likely factual… |
+| [`Opposing Counsel Attack EN - single-pass litigation sparring`](skills/opposing-counsel-attack-en-matematicsolutions/) | Single-pass opposing counsel attack on a legal argument - takes on the role of experienced counsel for… |
 | [`Opposing Counsel: Adversarial Argument Analysis`](skills/opposing-counsel-review-larissa-meredith-flister/) | Act as experienced opposing counsel to attack, undermine, and expose weaknesses in a legal argument… |
 | [`Packet builder`](skills/packet-builder/) | Interactive complaint-packet assembly driven by packet-manifest.yaml — walks through authority, exhibit… |
 | [`India PIL Drafter`](skills/pil-drafter/) | Assess and draft public interest litigation in India under Article 32 or Article 226, establishing… |
@@ -162,6 +168,7 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`POSH Compliance Advisor`](skills/posh-compliance-advisor/) | Assesses Indian workplace sexual-harassment prevention and redressal compliance under the POSH Act and… |
 | [`Post-Settlement Correspondence`](skills/post-settlement-correspondence/) | Drafts structured post-settlement correspondence memorializing negotiation history and final terms in… |
 | [`Precedent Mapper`](skills/precedent-mapper-rohasnagpal/) | Maps the authorities on a specific legal point and how they relate to each other — which follows which… |
+| [`/pressuretest — method v2.9 ('lq.pressuretest.method.v2.9')`](skills/pressuretest-legalquants/) | Pressure-test a legal position against the documents the user supplies. Use only when the user… |
 | [`Privilege Log Builder`](skills/privilege-log-builder-rohasnagpal/) | Builds and audits privilege or withheld-document logs for litigation, arbitration, investigations, and… |
 | [`Privilege log review`](skills/privilege-log-review-anthropics/) | First-pass privilege log review — make the obvious privilege calls and flag the hard ones for attorney… |
 | [`Procedural Order Drafter`](skills/procedural-order-drafter/) | Drafts arbitral procedural orders and case-management timetables from tribunal directions, party… |

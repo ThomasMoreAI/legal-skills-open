@@ -1,0 +1,4 @@
+interface:
+  display_name: "Trace Commonwealth Legislative Change"
+  short_description: "Trace how Commonwealth provisions changed"
+  default_prompt: "Use $trace-commonwealth-legislative-change to trace this provision between the specified dates."

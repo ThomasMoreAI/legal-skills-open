@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$comment": "digest is SHA-256 over canonical JSON of this object excluding digest; manifest_digest is SHA-256 over the complete parsed manifest serialized the same way (UTF-8, sorted keys, compact separators, no NaN). All paths are forward-slash relative paths.",
+  "title": "LQ deterministic review-copy sidecar",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_root",
+    "digest",
+    "documents",
+    "manifest_digest",
+    "schema_version",
+    "status"
+  ],
+  "properties": {
+    "bundle_root": {"$ref": "#/definitions/relativePath"},
+    "digest": {"$ref": "#/definitions/fullSha256"},
+    "documents": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/document"}
+    },
+    "manifest_digest": {"$ref": "#/definitions/fullSha256"},
+    "schema_version": {"const": "lq-review-copies-v1"},
+    "status": {"enum": ["ready", "needs-rendering"]}
+  },
+  "definitions": {
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$))(?!.*\\\\)(?!.*(?:^|/)\\.(?:/|$)).+$"
+    },
+    "docId": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{12}$"
+    },
+    "fullSha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "renderer": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1}
+      }
+    },
+    "derivative": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "bytes",
+        "media_type",
+        "path",
+        "renderer",
+        "role",
+        "sha256"
+      ],
+      "properties": {
+        "bytes": {"type": "integer", "minimum": 0},
+        "media_type": {"type": "string", "minLength": 1},
+        "page": {"type": "integer", "minimum": 1},
+        "path": {"$ref": "#/definitions/relativePath"},
+        "renderer": {"$ref": "#/definitions/renderer"},
+        "role": {"type": "string", "minLength": 1},
+        "sha256": {"$ref": "#/definitions/fullSha256"}
+      }
+    },
+    "attachment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attachment_id",
+        "bytes",
+        "derivatives",
+        "filename",
+        "kind",
+        "reason",
+        "source_sha256",
+        "status"
+      ],
+      "properties": {
+        "attachment_id": {"$ref": "#/definitions/fullSha256"},
+        "bytes": {"type": "integer", "minimum": 0},
+        "derivatives": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/derivative"}
+        },
+        "filename": {"type": "string", "minLength": 1},
+        "kind": {"type": "string", "minLength": 1},
+        "reason": {
+          "anyOf": [{"type": "null"}, {"type": "string", "minLength": 1}]
+        },
+        "source_sha256": {"$ref": "#/definitions/fullSha256"},
+        "status": {"enum": ["ready", "needs-rendering"]}
+      }
+    },
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attachments",
+        "bytes",
+        "derivatives",
+        "doc_id",
+        "kind",
+        "path",
+        "reason",
+        "source_sha256",
+        "status"
+      ],
+      "properties": {
+        "attachments": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/attachment"}
+        },
+        "bytes": {"type": "integer", "minimum": 0},
+        "derivatives": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/derivative"}
+        },
+        "doc_id": {"$ref": "#/definitions/docId"},
+        "kind": {"type": "string", "minLength": 1},
+        "path": {"$ref": "#/definitions/relativePath"},
+        "reason": {
+          "anyOf": [{"type": "null"}, {"type": "string", "minLength": 1}]
+        },
+        "source_sha256": {"$ref": "#/definitions/fullSha256"},
+        "status": {"enum": ["ready", "needs-rendering"]}
+      }
+    }
+  }
+}

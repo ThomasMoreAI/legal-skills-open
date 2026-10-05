@@ -1,0 +1,43 @@
+{
+  "author": "skills-il",
+  "version": "1.2.0",
+  "category": "localization",
+  "tags": {
+    "he": [
+      "נגישות",
+      "תקן-5568",
+      "נכים",
+      "RTL",
+      "ישראל",
+      "ווידג'ט",
+      "יישום"
+    ],
+    "en": [
+      "accessibility",
+      "is-5568",
+      "wcag",
+      "rtl",
+      "israel",
+      "widget",
+      "implementation"
+    ]
+  },
+  "display_name": {
+    "he": "נגישות אתרים ישראלית",
+    "en": "Israeli Accessibility Compliance"
+  },
+  "display_description": {
+    "he": "מטמיעים נגישות אתרים ישראלית לפי תקן IS 5568, שמעוגן ב-WCAG 2.0 AA (התקן מוסיף חלק מקריטריוני 2.1; המקורות חלוקים), לאפליקציות בעברית עם RTL. שימושי כשמשתמש שואל על חוק הנגישות בישראל, תקן 5568, מי פטור מהנגשת אתר, אכיפה וקנסות, רכז נגישות, תמיכת קוראי מסך בעברית או ביקורת נגישות לאתר. מכסה את הדרישות המשפטיות מכוח חוק שוויון זכויות לאנשים עם מוגבלות, מדרגות הפטור לפי מחזור, שני מסלולי האכיפה (פיצוי אזרחי ועיצום כספי של הנציבות) ותקופת התיקון של 60 יום, תפקיד רכז הנגישות, תאימות לקוראי מסך בעברית ותבניות ARIA ל-RTL. לא מיועד להנחיות WCAG כלליות ללא ההקשר הישראלי.",
+    "en": "Implement Israeli web accessibility compliance per IS 5568 standard, anchored to WCAG 2.0 AA (IS 5568 adds some 2.1-aligned criteria; sources differ), for Hebrew RTL applications. Use when user asks about Israeli accessibility law, \"negishot\" (accessibility), IS 5568, \"teken negishot\" (accessibility standard), \"nachim\" (disabilities), who is exempt from website accessibility, enforcement and penalties, the accessibility coordinator role, Hebrew screen reader support, RTL ARIA patterns, or accessibility audit for Israeli websites. Covers mandatory legal requirements under the Equal Rights for Persons with Disabilities Act, revenue-based exemption tiers, the two enforcement tracks (civil damages and the Commission administrative penalty) and the 60-day cure period, the accessibility coordinator role, Hebrew screen reader compatibility, and RTL-specific ARIA patterns. Do NOT use for general WCAG guidance without Israeli context (use standard a11y resources instead)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

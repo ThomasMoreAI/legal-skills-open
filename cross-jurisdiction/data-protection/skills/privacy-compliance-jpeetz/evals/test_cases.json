@@ -1,0 +1,89 @@
+[
+  {
+    "name": "GDPR Compliance Baseline — SaaS Startup Launching in EU",
+    "description": "A US-based SaaS company is launching in the EU market. They collect email, name, payment info, and behavioral analytics. They use a US-based cloud provider. The agent should identify GDPR baseline requirements and flag missing elements.",
+    "input": "We're a 50-person SaaS startup based in the US, about to launch in Germany and France. Our app collects user emails, names, payment information, and we use Mixpanel for analytics. Our servers are on AWS us-east-1. We have a privacy policy from our US lawyer. Our signup form has a pre-checked 'Send me marketing emails' box. What do we need to do for GDPR?",
+    "expected_workflow": "gdpr-compliance-baseline",
+    "expected_topics": ["lawful basis", "consent validity", "cross-border transfer", "privacy notice", "pre-checked boxes", "SCCs"],
+    "critical_findings": ["Pre-checked marketing checkbox is invalid consent", "US data storage requires SCCs + TIA", "Privacy policy may not meet GDPR transparency requirements", "DPIAs may be needed for analytics processing"],
+    "severity": "critical"
+  },
+  {
+    "name": "CCPA/CPRA Check — E-commerce Site Selling Customer Data",
+    "description": "An e-commerce site with 5M California customers wants to verify CCPA compliance. They sell customer purchase history to ad partners. The agent should identify the selling/sharing obligations and opt-out requirements.",
+    "input": "We run an e-commerce site with about 5 million California customers. We share purchase history with advertising partners for targeted ads. We have a privacy policy but no specific California disclosures. Do we need to do anything for CCPA? What's different now with CPRA?",
+    "expected_workflow": "ccpa-cpra-compliance",
+    "expected_topics": ["opt-out of sale/sharing", "Do Not Sell link", "notice at collection", "sensitive PI", "CPRA thresholds", "service provider contracts"],
+    "critical_findings": ["Must provide 'Do Not Sell or Share My Personal Information' link", "Must update privacy policy with CCPA-specific disclosures", "Sharing for cross-context behavioral advertising is covered under CPRA", "Purchase history shared with ad partners likely constitutes a 'sale' or 'share'"],
+    "severity": "critical"
+  },
+  {
+    "name": "HIPAA Assessment — Health App with Wearable Integration",
+    "description": "A health app that integrates with Apple Health and sends data to a cloud backend. The agent should identify whether HIPAA applies and what obligations exist.",
+    "input": "We built a health tracking app. Users connect their Apple Watch, and we sync heart rate, sleep data, and step counts to our cloud backend for analytics. We also let users share their data with their doctor. We're not a hospital or insurance company. Does HIPAA apply to us? What should we check?",
+    "expected_workflow": "hipaa-privacy-rule-assessment",
+    "expected_topics": ["covered entity determination", "business associate", "PHI identifiers", "BAA requirement", "data sharing with providers"],
+    "critical_findings": ["If sharing with doctors for treatment, the doctor is a covered entity", "If the app is not a covered entity, HIPAA may not directly apply", "FTC Health Breach Notification Rule may still apply", "Need to check state health data privacy laws"],
+    "severity": "high"
+  },
+  {
+    "name": "Cross-Border Data Transfer — EU to US via Cloud Provider",
+    "description": "An EU company wants to use a US-based analytics service. The agent should advise on transfer mechanisms and the Transfer Impact Assessment process.",
+    "input": "We're a German company that wants to start using a US-based analytics tool (Heap Analytics). They don't have EU servers and they're not on the DPF list. Our DPO says we need a 'transfer mechanism.' What are our options? How do we actually do this?",
+    "expected_workflow": "cross-border-data-transfer",
+    "expected_topics": ["adequacy decision", "SCCs", "TIA", "supplementary measures", "DPF certification check", "derogations"],
+    "critical_findings": ["US is not an adequate country", "Heap not DPF-certified → need SCCs + TIA", "Must conduct Transfer Impact Assessment per Schrems II", "May need supplementary measures depending on TIA outcome"],
+    "severity": "critical"
+  },
+  {
+    "name": "DSAR Handling — User Requests All Data and Deletion",
+    "description": "A user submits a formal GDPR data subject access request and deletion request. The agent should walk through the DSAR procedure including identity verification, data collection, redaction, and response.",
+    "input": "We just got an email from a former customer: 'Pursuant to Article 15 of the GDPR, I request a copy of all personal data you hold about me and pursuant to Article 17, I request deletion of all such data.' They haven't logged in for 2 years. We have their data in our main DB, Zendesk support tickets, and Mailchimp marketing lists. How do we handle this?",
+    "expected_workflow": "dsar-handling",
+    "expected_topics": ["identity verification", "data collection across systems", "redaction of third-party PII", "30-day timeline", "deletion across processors", "backup exception"],
+    "critical_findings": ["Must verify identity without requesting excessive ID", "Must search all systems: main DB, Zendesk, Mailchimp", "Mailchimp (processor) must assist per DPA", "Backups may not be immediately deletable — must document timeline"],
+    "severity": "high"
+  },
+  {
+    "name": "EU AI Act — AI-Powered Hiring Tool",
+    "description": "A company is building an AI tool that screens resumes and ranks candidates. The agent should classify this under the EU AI Act and identify high-risk obligations.",
+    "input": "We're building an AI-powered recruitment tool. It ingests resumes, scores candidates based on skills and experience, and ranks them for hiring managers. We plan to sell this to companies in France and the Netherlands. What does the EU AI Act mean for us?",
+    "expected_workflow": "eu-ai-act-requirements",
+    "expected_topics": ["high-risk classification", "recruitment AI", "conformity assessment", "data governance", "human oversight", "bias examination"],
+    "critical_findings": ["Recruitment/employment AI is explicitly high-risk", "Must implement risk management system (Art. 9)", "Training data must be examined for biases (Art. 10)", "Human oversight tools must be built in (Art. 14)", "Transparency to deployers required (Art. 13)"],
+    "severity": "critical"
+  },
+  {
+    "name": "Data Breach Response — Multi-Jurisdiction Customer Database Leak",
+    "description": "A company discovers a database leak affecting customers in the EU, California, and Brazil. The agent must provide jurisdiction-specific breach notification guidance.",
+    "input": "Alert! We just discovered our customer database was accessed by an unauthorized party. The database contains names, emails, hashed passwords, and purchase history. We have customers in the EU (Germany, France), California, and Brazil. The breach happened 30 hours ago. What are our obligations?",
+    "expected_workflow": "breach-notification-procedure",
+    "expected_topics": ["72-hour GDPR notification", "CCPA notification timeline", "LGPD notification", "risk assessment", "supervisory authority notification", "data subject notification"],
+    "critical_findings": ["GDPR: Must notify SA within 72 hours — 42 hours remaining", "CCPA: Notify 'in the most expedient time possible'", "LGPD: Notify ANPD within reasonable time", "Hashed passwords alone may not be encrypted — risk assessment needed", "Multiple SAs may need notification (Germany, France)"],
+    "severity": "critical"
+  },
+  {
+    "name": "NEAR-MISS: General Legal Question — Not Privacy",
+    "description": "User asks for general legal advice about contract disputes. Should NOT trigger privacy-compliance skill — this is contract law, not privacy.",
+    "type": "near_miss_negative",
+    "input": "My client signed a SaaS contract but the vendor never delivered the integration they promised. They've had our data for 6 months and we want to sue for breach of contract. What are our options?",
+    "should_not_trigger": true,
+    "expected_behavior": "Skill does NOT trigger. This is a contract law dispute, not a privacy compliance question. The mention of 'data' is incidental — the core issue is breach of contract."
+  },
+  {
+    "name": "NEAR-MISS: Security Incident — Not Privacy Compliance",
+    "description": "User describes a ransomware attack asking about system recovery. Should NOT trigger — this is incident response/security, not privacy compliance workflow.",
+    "type": "near_miss_negative",
+    "input": "Our production database got hit with ransomware overnight. All customer data is encrypted and they're demanding $50k in Bitcoin. We have backups from 48 hours ago. How do we recover and should we pay?",
+    "should_not_trigger": true,
+    "expected_behavior": "Skill does NOT trigger. This is a ransomware recovery/security incident response question. While there may be breach notification implications, the primary workflow is security/incident response, not privacy compliance. The agent should direct to incident response/SRE runbooks instead."
+  },
+  {
+    "name": "NEAR-MISS: Generic Privacy Policy Request — No Jurisdiction",
+    "description": "User asks for a generic privacy policy template with no jurisdiction specified. Should NOT trigger — too vague, no compliance workflow needed.",
+    "type": "near_miss_negative",
+    "input": "I just launched a simple blog. I don't collect emails or anything, just have Google Analytics. Can you write me a privacy policy? Just something basic that covers the essentials.",
+    "should_not_trigger": true,
+    "expected_behavior": "Skill does NOT trigger. This is a generic template generation request with no jurisdiction specified and minimal data processing. No compliance workflow is needed — the user just wants a template. The agent may provide a basic template but should note it's not tailored to any specific regulation."
+  }
+]

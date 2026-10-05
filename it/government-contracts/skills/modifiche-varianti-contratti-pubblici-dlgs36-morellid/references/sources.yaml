@@ -1,0 +1,37 @@
+schema_version: 1
+skill: modifiche-varianti-contratti-pubblici-dlgs36
+last_verified: 2026-07-16
+
+# Fonte per la MODIFICA dei contratti pubblici in corso di esecuzione e le VARIANTI IN CORSO
+# D'OPERA: casi ammessi senza nuova procedura, limiti economici (50%, soglie, quinto d'obbligo),
+# modifica sostanziale/non sostanziale, proroghe, autorizzazione del RUP e oneri verso l'ANAC.
+# Fonte: Codice dei contratti pubblici (D.Lgs. 36/2023), art. 120.
+
+sources:
+  - id: dlgs-36-2023-art120
+    title: "D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici) - art. 120 (Modifica dei contratti in corso di esecuzione) (testo vigente al 2026-07-16)"
+    type: decreto-legislativo
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: 8d14a74fbded95d0255f100c23197e61ac5803156320fd5a3b5f142c17e83bc9
+    license: public-domain
+    binary_path: not_in_repo/dlgs36idx.html
+    md_path: references/fonti/dlgs-36-2023-art120.md
+    excerpt_path: references/estratti/modifiche-varianti-checklist.md
+    notes: |
+      Codice redazionale 23G00044. Pagina indice Normattiva pinnata a !vig=2026-07-16
+      (hash stabile: 8d14a74f...; stesso atto usato da subappalto-contratti-pubblici-dlgs36,
+      art. 119). Art. 120 (versione 2, idGruppo 18) caricato via AJAX (caricaArticolo) e
+      trascritto verbatim in references/fonti/dlgs-36-2023-art120.md: casi di modifica senza
+      nuova procedura (c. 1 lett. a-d: clausole di revisione/opzione; supplementari; varianti
+      per circostanze imprevedibili; sostituzione del contraente), limite del 50% per lett.
+      b) e c) (c. 2), modifiche sotto soglia e sotto 10%/15% (c. 3), modifica sostanziale
+      (c. 6) e non sostanziale (c. 5, 7), rinegoziazione (c. 8), quinto d'obbligo (c. 9),
+      opzioni di proroga (c. 10-11), autorizzazione del RUP (c. 13), avviso GUUE (c. 14),
+      oneri di comunicazione/trasmissione all'ANAC e sanzioni ex art. 222 (c. 15), verifica
+      errori/omissioni progettuali (c. 15-bis). Testo con i doppi tondi (( )) dei decreti
+      correttivi (D.Lgs. 209/2024 e succ.).
+      LIMITE DI RESA: la skill inquadra i casi/limiti/procedura; non riproduce gli allegati
+      richiamati (II.14 comunicazioni/approvazioni/opponibilita' cessioni; II.16 avviso) ne'
+      gli articoli collegati (art. 60 revisione prezzi, art. 14 soglie, art. 222 poteri/
+      sanzioni ANAC, art. 41 c. 8-bis), e non sostituisce la stazione appaltante ne' il RUP.

@@ -1,0 +1,34 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-26",
+      "holdout_before": 1.0,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "פרסום משרה בלוחות דרושים בישראל, איך עושים את זה נכון",
+          "review my Israeli employment contract before I sign it",
+          "when can I schedule interviews around Pesach in Israel"
+        ]
+      },
+      "lessons": [
+        "Legal gate BLOCKED twice, and the second BLOCK was entirely Hebrew-and-script surfaces whose ENGLISH twins had already been corrected: the HE Example 3 still said 'הכללת סעיף 14' while the EN said 'do not choose for them', the HE Bundled Resources still said the script 'בודק עמידה בחוקי אפליה' while the EN had been recharacterised, and the script's argparse --help string and two docstrings still said 'compliant with the Equal Employment Opportunities Law 1988' although its runtime report string had been fixed. Apply a compliance-language remediation LANGUAGE BY LANGUAGE and include every user-visible string the script prints, not file by file.",
+        "The domain-checklist bootstrapped by the Expert subagent introduced NEW legal exposure that the second legal gate caught: it put the statutory notice of employment terms IN scope, instructed embedding all ten prescribed particulars as lines of the offer-letter template, and stated a 30-day/7-day deadline, all of which contradicted the Legal notice and the adjacent-duties file written in the same cycle. A reviewer-authored artifact is subject to the same verification rule as a reviewer's finding: read what the subagent wrote before shipping it.",
+        "Eval-set power: the v1.3.0 description edit touched only claim-strength language while every routing-bearing token (six trigger phrases, board names, Do-NOT list) stayed byte-identical, so a 3-case holdout at 1.00 proves little. Next cycle that touches the description should load the set with 'is it legal to ask X' screening-question variants, where the new leading 'Not legal advice.' clause competes with the EEO-Law anchor.",
+        "UNVERIFIED, carry forward: the deadline and the list of prescribed particulars for the written notice of employment terms (הודעה לעובד על תנאי עבודה) could not be reached at a primary source this cycle. Kol Zchut's page 404s at the obvious slug and gov.il is Cloudflare-blocked to curl. The DUTY is now stated in references/adjacent-duties.md without any number. Next cycle: reach the statute on nevo and add the deadline plus the particulars, then extend the offer-letter template or state plainly which particulars it does not carry.",
+        "UNVERIFIED, carry forward: the youth minimum-wage bands as a percentage of the adult rate. The Expert asserted 70 / 75 / 83 percent; that was NOT confirmed against a primary source, so the percentages were deliberately removed from references/domain-checklist.md and never entered the body. Source them before any future cycle states them.",
+        "Expert MAJOR deferred: Step 4 builds the interview calendar entirely on the Jewish festival cycle and Shabbat, with no accommodation for a candidate whose weekly rest day or festivals differ (Ramadan, Eid, Christmas, Easter). The statutory weekly rest day follows the employee's own religion, so a scheduling policy recognising one religion's days is itself a religion-based disadvantage. Add a Step 4 accommodation rule next cycle.",
+        "Expert MAJOR deferred: SKILL.md compresses the notice period to '1 day per month for first 6 months, then 2.5 days per month', omitting the 6-days-plus-2.5/month structure of months 7 to 12, the flat one month after a year, and the entire hourly/daily schedule. The full tables are in references/mandatory-benefits.md; the body summary is the enumeration defect.",
+        "Expert MAJOR deferred: the Privacy Protection Law Data Security Regulations and the cross-border-transfer regulations are unaddressed, although Step 2 routes candidates through LinkedIn and Comeet, which makes cross-border transfer of the CV database the default outcome of following the skill.",
+        "Expert MAJOR deferred: sick-pay quotas for a sick child, spouse and parent, and the bereavement-leave day count, are both unstated. The bereavement row was downgraded to a 'verify before quoting' pointer this cycle because it was unsourced.",
+        "Expert MAJOR deferred: no instruction to ask whether a sector collective agreement or extension order applies, although it can raise every floor in the Step 5 table and the notice of terms must name it.",
+        "Judge finding fixed this cycle, worth remembering as a pattern: references/mandatory-benefits.md and references/anti-discrimination-law.md carried several unsourced statutory figures that the evidence gate could not see because an earlier over-broad bundled claim ('overtime-sick-travel') justified numerals it did not actually source. Bundling several unrelated facts into one evidence claim makes the gate blind. Keep one fact per claim.",
+        "Discretionary edit deferred over the Phase 4.1 cap: Example 3 still computes pension as 6% employee and 6.5% employer only, never showing the 6% severance component or the 2.33% top-up, so the worked example models the pre-correction split even though the table above it is now correct."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "as_at": "2026-08-14",
+  "purpose": "Issue-routing metadata only; verify current official text before relying on a proposition.",
+  "jurisdictions": [
+    {
+      "code": "NSW",
+      "general_privacy": {"title": "Privacy and Personal Information Protection Act 1998", "status": "current legislation", "scope": "NSW public sector, councils and specified bodies", "official_url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1998-133/lh", "last_verified": "2026-08-14"},
+      "health": {"title": "Health Records and Information Privacy Act 2002", "status": "current legislation", "scope": "public and specified private health-information handling", "official_url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2002-071/lh", "last_verified": "2026-08-14"},
+      "breach": {"title": "PPIP Act Part 6A", "status": "current legislation", "commencement": "2023-11-28", "scope": "covered NSW public-sector agencies", "official_url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-1998-133/lh", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Workplace Surveillance Act 2005", "status": "current legislation", "official_url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2005-047/lh", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "VIC",
+      "general_privacy": {"title": "Privacy and Data Protection Act 2014", "status": "current legislation", "scope": "Victorian public sector and specified contracted service providers", "official_url": "https://www.legislation.vic.gov.au/in-force/acts/privacy-and-data-protection-act-2014/014", "last_verified": "2026-08-14"},
+      "health": {"title": "Health Records Act 2001", "status": "current legislation", "scope": "public and private organisations handling health information", "official_url": "https://www.legislation.vic.gov.au/in-force/acts/health-records-act-2001/042", "last_verified": "2026-08-14"},
+      "breach": {"title": "OVIC Information Security Incident Notification Scheme", "status": "standards-based scheme", "scope": "in-scope VPDSS bodies", "official_url": "https://ovic.vic.gov.au/information-security/ovic-information-security-incident-notification-scheme/", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "proposal", "official_url": "https://www.premier.vic.gov.au/big-tech-must-stop-spying-workers-work", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "QLD",
+      "general_privacy": {"title": "Information Privacy Act 2009", "status": "current legislation", "scope": "Queensland public-sector agencies, including councils", "official_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2009-014", "last_verified": "2026-08-14"},
+      "health": {"title": "Information Privacy Act 2009 and sector confidentiality law", "status": "current legislation", "scope": "public health bodies", "official_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-2009-014", "last_verified": "2026-08-14"},
+      "breach": {"title": "Information Privacy Act mandatory notification scheme", "status": "current legislation", "commencement_state_agencies": "2025-07-01", "commencement_local_government": "2026-07-01", "official_url": "https://www.oic.qld.gov.au/community/qld-data-breach-scheme", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "not identified", "official_url": "https://www.legislation.qld.gov.au/view/html/inforce/current/act-1971-050", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "WA",
+      "general_privacy": {"title": "Privacy and Responsible Information Sharing Act 2024", "status": "current legislation", "commencement": "2026-07-01", "scope": "Ministers, public entities and specified contracted service providers and subcontractors", "official_url": "https://www.wa.gov.au/government/privacy-and-responsible-information-sharing", "last_verified": "2026-08-14"},
+      "health": {"title": "Privacy and Responsible Information Sharing Act 2024", "status": "current legislation", "scope": "WA public health entities and specified State-service contractors", "official_url": "https://www.wa.gov.au/government/privacy-and-responsible-information-sharing", "last_verified": "2026-08-14"},
+      "breach": {"title": "PRIS Act Part 2 Division 6", "status": "enacted future legislation", "commencement": "2027-01-01", "official_url": "https://www.wa.gov.au/organisation/office-of-the-information-commissioner/personal-information-collected-and-after-1-july-2026", "last_verified": "2026-08-14"},
+      "automated_decisions": {"title": "PRIS IPP 10", "status": "current legislation", "commencement": "2026-07-01", "scope": "specified significant automated decisions involving relevant post-commencement personal information", "official_url": "https://www.wa.gov.au/organisation/office-of-the-information-commissioner/privacy-and-accountability-automated-decision-making", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "not identified", "official_url": "https://www.legislation.wa.gov.au/legislation/statutes.nsf/main_mrtitle_946_homepage.html", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "SA",
+      "general_privacy": {"title": "Information Privacy Principles Instruction PC012", "status": "binding administrative instruction", "scope": "State government agencies and specified contracted service providers", "official_url": "https://www.archives.sa.gov.au/managing-information/privacy-in-south-australia/information-privacy-principles-instruction", "last_verified": "2026-08-14"},
+      "breach": {"title": "Personal information breach guidance", "status": "administrative guidance", "official_url": "https://www.archives.sa.gov.au/managing-information/privacy-in-south-australia/personal-information-breaches", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "not identified", "official_url": "https://www.legislation.sa.gov.au/_legislation-documents/lz/c/a/surveillance-devices-act-2016", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "TAS",
+      "general_privacy": {"title": "Personal Information Protection Act 2004", "status": "current legislation", "scope": "Tasmanian public sector", "official_url": "https://www.legislation.tas.gov.au/view/html/inforce/current/act-2004-046", "last_verified": "2026-08-14"},
+      "breach": {"title": "Public-sector security incident reporting", "status": "internal policy control", "official_url": "https://www.dpac.tas.gov.au/_security/protective-security/information-security", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "not identified", "official_url": "https://www.legislation.tas.gov.au/view/html/inforce/current/act-1991-021", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "ACT",
+      "general_privacy": {"title": "Information Privacy Act 2014", "status": "current legislation", "scope": "ACT public-sector agencies and specified contracted providers", "official_url": "https://www.legislation.act.gov.au/a/2014-24/", "last_verified": "2026-08-14"},
+      "health": {"title": "Health Records (Privacy and Access) Act 1997", "status": "current legislation", "scope": "public and private record keepers and health providers", "official_url": "https://www.legislation.act.gov.au/a/1997-125/current", "last_verified": "2026-08-14"},
+      "breach": {"title": "ACT Government cyber incident reporting", "status": "government policy", "official_url": "https://www.act.gov.au/__data/assets/pdf_file/0006/2837121/Cyber-Security-Policy.pdf", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Workplace Privacy Act 2011", "status": "current legislation", "official_url": "https://www.legislation.act.gov.au/a/2011-4/", "last_verified": "2026-08-14"}
+    },
+    {
+      "code": "NT",
+      "general_privacy": {"title": "Information Act 2002", "status": "current legislation", "scope": "NT public-sector organisations and specified contractors", "official_url": "https://legislation.nt.gov.au/en/Legislation/information-act-2002", "last_verified": "2026-08-14"},
+      "breach": {"title": "NT Government breach reporting", "status": "policy or voluntary pathway", "official_url": "https://infocomm.nt.gov.au/", "last_verified": "2026-08-14"},
+      "workplace": {"title": "Dedicated workplace-surveillance regime", "status": "not identified", "official_url": "https://legislation.nt.gov.au/en/Legislation/SURVEILLANCE-DEVICES-ACT-2007", "last_verified": "2026-08-14"}
+    }
+  ]
+}

@@ -4,9 +4,10 @@ EU medical-device regulation — MDR (EU) 2017/745: device classification, techn
 
 Jurisdiction: `eu` · Practice: `life-sciences` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`MDR 2017/745 Specialist`](skills/mdr-745-specialist/) | EU MDR 2017/745 compliance specialist for medical device classification, technical documentation… |
+| [`Classification (Annex VIII)`](skills/mdr-745-specialist-aashutosh396/) | Use when classifying a medical device under MDR, building or gap-checking a technical file, planning… |
 | [`Senior MDR 2017/745 Specialist and Consultant`](skills/mdr-745-specialist-ovachiever/) | EU MDR 2017/745 regulation specialist and consultant for medical device requirement management. Provides… |

@@ -1,0 +1,132 @@
+$schema: "../../../workflow-schema/table-columns.schema.yaml"
+columns:
+  - index: 0
+    name: "Strony umowy"
+    format: "text"
+    prompt: >-
+      Kto jest stroną umowy o pracę? Podaj pełną firmę pracodawcy wraz z formą prawną
+      (np. sp. z o.o., S.A.) oraz numer KRS, NIP lub REGON, jeżeli umowa je wskazuje, a także
+      oznaczenie pracownika w zakresie ujawnionym w umowie. Wskaż jednostkę redakcyjną, z której
+      pochodzi wartość. Jeżeli strony nie są zidentyfikowane, wpisz "Nie wskazano".
+  - index: 1
+    name: "Rodzaj umowy"
+    format: "text"
+    prompt: >-
+      Jaki rodzaj umowy o pracę zawarto: na okres próbny, na czas określony czy na czas
+      nieokreślony (art. 25 k.p.)? Przy umowie na czas określony podaj datę lub zdarzenie
+      kończące oraz zacytuj dosłownie wskazaną w umowie przyczynę jej zawarcia, jeżeli
+      występuje. Reguła ustawowa (art. 25[1] § 1 k.p.): łączny okres zatrudnienia na podstawie
+      umów na czas określony między tymi samymi stronami nie może przekraczać 33 miesięcy,
+      a łączna liczba tych umów - trzech; po przekroczeniu któregokolwiek z limitów przyjmuje
+      się zatrudnienie na czas nieokreślony. Limity nie obejmują umów zawartych między innymi
+      na zastępstwo pracownika, do pracy dorywczej lub sezonowej, na okres kadencji oraz
+      w razie wskazania przez pracodawcę obiektywnych przyczyn po jego stronie (art. 25[1] k.p.).
+      Odnotuj brak wskazanej przyczyny przy umowie terminowej.
+  - index: 2
+    name: "Data zawarcia i termin rozpoczęcia pracy"
+    format: "date"
+    prompt: >-
+      Kiedy zawarto umowę i od kiedy pracownik ma rozpocząć pracę (art. 29 § 1 pkt 5 k.p.)?
+      Podaj obie daty w formacie RRRR-MM-DD i wskaż je osobno, jeżeli się różnią. Jeżeli termin
+      rozpoczęcia pracy nie został określony, wpisz "Nie wskazano".
+  - index: 3
+    name: "Okres próbny"
+    format: "text"
+    prompt: >-
+      Czy umowa przewiduje okres próbny? Podaj jego długość oraz warunki przedłużenia lub
+      powtórzenia zapisane w umowie. Reguła ustawowa (art. 25 § 2 k.p.): umowę na okres próbny
+      zawiera się na okres nieprzekraczający 3 miesięcy, z zastrzeżeniem art. 25 § 2[1]-§ 2[3];
+      przy zamiarze zawarcia po niej umowy na czas określony krótszej niż 6 miesięcy okres
+      próbny wynosi 1 miesiąc, a przy umowie na co najmniej 6 i mniej niż 12 miesięcy -
+      2 miesiące (art. 25 § 2[2] k.p.). Odnotuj, czy umowa wiąże długość okresu próbnego
+      z przewidywanym czasem trwania umowy terminowej i czy przekracza powyższe limity.
+      Jeżeli okresu próbnego nie przewidziano, wpisz "Nie wskazano".
+  - index: 4
+    name: "Rodzaj pracy i stanowisko"
+    format: "text"
+    prompt: >-
+      Jaki rodzaj pracy i stanowisko określono w umowie (art. 29 § 1 pkt 1 k.p.)? Podaj nazwę
+      stanowiska oraz zakres obowiązków wskazany w umowie lub w załączniku. Odnotuj klauzule
+      pozwalające pracodawcy jednostronnie powierzyć inną pracę lub zmienić zakres obowiązków
+      oraz wskaż ich podstawę w umowie. Jeżeli rodzaju pracy nie określono, wpisz "Nie wskazano".
+  - index: 5
+    name: "Miejsce wykonywania pracy"
+    format: "text"
+    prompt: >-
+      Gdzie ma być wykonywana praca (art. 29 § 1 pkt 2 k.p.)? Podaj wskazane miejsce lub obszar,
+      a także postanowienia o pracy zdalnej, pracy w innych lokalizacjach i obowiązku podróży
+      służbowych. Jeżeli miejsca pracy nie wskazano, wpisz "Nie wskazano".
+  - index: 6
+    name: "Wymiar czasu pracy"
+    format: "text"
+    prompt: >-
+      Jaki wymiar czasu pracy uzgodniono (art. 29 § 1 pkt 4 k.p.)? Podaj etat lub liczbę godzin,
+      system i rozkład czasu pracy oraz postanowienia o pracy w godzinach nadliczbowych.
+      Reguła ustawowa (art. 129 § 1 k.p.): czas pracy nie może przekraczać 8 godzin na dobę
+      i przeciętnie 40 godzin w przeciętnie pięciodniowym tygodniu pracy w przyjętym okresie
+      rozliczeniowym. Jeżeli wymiaru nie wskazano, wpisz "Nie wskazano".
+  - index: 7
+    name: "Wynagrodzenie i składniki"
+    format: "text"
+    prompt: >-
+      Jakie wynagrodzenie uzgodniono (art. 29 § 1 pkt 3 k.p.)? Podaj kwotę i walutę, wskazanie
+      czy jest to kwota brutto czy netto, okres i termin wypłaty oraz pozostałe składniki:
+      premie, prowizje, dodatki i świadczenia pozapłacowe wraz z informacją, czy mają charakter
+      uznaniowy czy roszczeniowy. Odnotuj, jeżeli wynagrodzenie zasadnicze w pełnym wymiarze
+      czasu pracy jest niższe od minimalnego wynagrodzenia za pracę obowiązującego w dacie
+      zawarcia umowy. Jeżeli wynagrodzenia nie określono, wpisz "Nie wskazano".
+  - index: 8
+    name: "Okres wypowiedzenia"
+    format: "text"
+    prompt: >-
+      Co umowa stanowi o wypowiedzeniu? Podaj osobno okres wypowiedzenia dla pracodawcy
+      i dla pracownika oraz wszelkie warunki szczególne. Reguła ustawowa (art. 36 § 1 k.p.):
+      okres wypowiedzenia umowy na czas nieokreślony i na czas określony zależy od okresu
+      zatrudnienia u danego pracodawcy i wynosi 2 tygodnie przy zatrudnieniu krótszym niż
+      6 miesięcy, 1 miesiąc przy zatrudnieniu co najmniej 6 miesięcy oraz 3 miesiące przy
+      zatrudnieniu co najmniej 3 lata. Odnotuj postanowienia skracające te okresy na niekorzyść
+      pracownika. Jeżeli umowa milczy, wpisz "Nie wskazano".
+  - index: 9
+    name: "Zakaz konkurencji"
+    format: "text"
+    prompt: >-
+      Czy umowa zawiera zakaz konkurencji i czy dotyczy okresu zatrudnienia (art. 101[1] k.p.),
+      okresu po jego ustaniu (art. 101[2] k.p.), czy obu? Podaj czas trwania zakazu, zakres
+      przedmiotowy i terytorialny, wysokość odszkodowania oraz karę umowną, a treść zakazu
+      zacytuj dosłownie. Reguła ustawowa: umowa o zakazie konkurencji - zarówno w czasie
+      trwania stosunku pracy, jak i po jego ustaniu - wymaga formy pisemnej pod rygorem
+      nieważności (art. 101[3] k.p.), a odszkodowanie z tytułu zakazu obowiązującego po ustaniu
+      stosunku pracy nie może być niższe od 25% wynagrodzenia otrzymanego przez pracownika przed
+      ustaniem stosunku pracy przez okres odpowiadający okresowi obowiązywania zakazu
+      (art. 101[2] § 3 k.p.).
+      Odnotuj brak odszkodowania lub odszkodowanie poniżej tego poziomu. Jeżeli zakazu
+      konkurencji nie ma, wpisz "Nie wskazano".
+  - index: 10
+    name: "Poufność i tajemnica przedsiębiorstwa"
+    format: "text"
+    prompt: >-
+      Czy umowa zawiera zobowiązanie do zachowania poufności? Podaj zakres chronionych
+      informacji, czas trwania obowiązku w trakcie zatrudnienia i po jego ustaniu oraz karę
+      umowną. Odnotuj, czy umowa odsyła do odrębnej umowy o zachowaniu poufności lub do
+      regulaminu. Jeżeli postanowień o poufności nie ma, wpisz "Nie wskazano".
+  - index: 11
+    name: "Źródła zakładowe i regulaminy"
+    format: "text"
+    prompt: >-
+      Do jakich źródeł zakładowych prawa pracy odsyła umowa: układ zbiorowy pracy, regulamin
+      pracy, regulamin wynagradzania, porozumienie zbiorowe? Podaj ich nazwy w brzmieniu
+      zapisanym w umowie oraz postanowienia o pierwszeństwie w razie sprzeczności. Jeżeli
+      umowa nie odsyła do żadnego z nich, wpisz "Nie wskazano".
+  - index: 12
+    name: "Postanowienia odbiegające i sygnały ryzyka"
+    format: "bulleted_list"
+    prompt: >-
+      Wymień postanowienia nietypowe lub mogące być mniej korzystne dla pracownika niż przepisy
+      prawa pracy: umowa terminowa bez wskazanej przyczyny mimo przekroczenia limitu z
+      art. 25[1] k.p., zakaz konkurencji po ustaniu zatrudnienia bez odszkodowania albo poniżej
+      ustawowego minimum, okres wypowiedzenia krótszy niż w art. 36 k.p. na niekorzyść
+      pracownika, wynagrodzenie poniżej minimalnego, jednostronne prawo pracodawcy do zmiany
+      warunków pracy lub płacy bez wypowiedzenia zmieniającego, kary umowne obciążające
+      pracownika poza zakazem konkurencji. Do każdej pozycji podaj jednostkę redakcyjną umowy.
+      Nie przesądzaj o nieważności - odnotuj rozbieżność. Jeżeli nie stwierdzono takich
+      postanowień, wpisz "Brak uwag".

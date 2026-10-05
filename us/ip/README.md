@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `us` · Practice: `ip` · Skill language: en
 
-## Skills (168)
+## Skills (169)
 
 | Skill | What it does |
 |---|---|
@@ -79,6 +79,7 @@ Jurisdiction: `us` · Practice: `ip` · Skill language: en
 | [`Infringement und Remedies §§ 501-505`](skills/infringement-remedies-501-505/) | Für Infringement und Remedies Paragrafen 501-505: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Infringement triage`](skills/infringement-triage-anthropics/) | Infringement triage across trademark, copyright, patent, and trade secret — a flag list with the factors… |
 | [`Injunction und Impoundment`](skills/injunction-impoundment-502-503/) | Für Injunction und Impoundment: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Intellectual Property`](skills/intellectual-property-judicialmind/) | Intellectual property law skill covering patents, trademarks, copyrights, and trade secrets. Use when… |
 | [`International Copyright, Berne und URAA`](skills/international-berne-joint-authorship-library/) | Für International Copyright, Berne und URAA: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Confidentiality and Invention Assignment Agreement (CIAA/PIIA)`](skills/invention-assignment-agreement/) | Drafts a U.S. Confidentiality and Invention Assignment Agreement (CIAA/PIIA) for employee or contractor… |
 | [`Invention intake`](skills/invention-intake-anthropics/) | Invention disclosure first-pass screen — novelty, obviousness, §101 eligibility, bar dates… |

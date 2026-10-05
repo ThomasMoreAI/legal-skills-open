@@ -1,0 +1,3 @@
+display_name: "Textos legales"
+short_description: "Aviso de privacidad, términos, cookies y banner de consentimiento"
+default_prompt: "Usa $textos-legales para crear el aviso de privacidad y los textos legales del sitio."

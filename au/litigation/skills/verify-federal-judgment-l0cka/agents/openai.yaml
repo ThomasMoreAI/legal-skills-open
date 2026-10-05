@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Federal Judgment"
+  short_description: "Confirm a Federal Court or FCFCOA citation at the official publisher"
+  default_prompt: "Use $verify-federal-judgment to confirm this federal court citation exists at the official publisher and record its provenance."

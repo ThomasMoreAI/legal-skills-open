@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "as_at": "2026-08-14",
+  "purpose": "Issue-routing and freshness metadata only; verify current official text.",
+  "regimes": [
+    {
+      "id": "privacy-ndb",
+      "title": "Privacy Act 1988 Part IIIC",
+      "title_id": "C2004A03712",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2004A03712/latest",
+      "trigger_prompt": "suspected or reasonably believed eligible data breach by a covered entity",
+      "clock_prompt": "assessment reasonable and expeditious with all reasonable steps within 30 calendar days after suspicion; notification as soon as practicable after reasonable belief",
+      "last_verified": "2026-08-14",
+      "watch_note": "Reported after the snapshot (24 September 2026 review, not yet confirmed against the Attorney-General's Department): the exposure draft Privacy Amendment (Personal Data Protection) Bill 2026 (31 August 2026) proposes notifying the Commissioner of an eligible data breach within 72 hours after reasonable grounds to believe one has occurred. Proposal only; current law unchanged. Do not apply a 72-hour NDB deadline unless a later Act and its commencement are verified. Source: https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+    },
+    {
+      "id": "soci-part-2b",
+      "title": "Security of Critical Infrastructure Act 2018 Part 2B and Application Rules",
+      "title_id": "C2018A00029",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/C2018A00029/latest",
+      "trigger_prompt": "responsible entity, covered asset and reportable cyber incident",
+      "clock_prompt": "significant availability impact as soon as practicable and no later than 12 hours; other actual or likely relevant impact no later than 72 hours; verify oral follow-up clocks",
+      "last_verified": "2026-08-14",
+      "watch_note": "Reported after the snapshot (24 September 2026 review, not yet confirmed against Home Affairs): following the Independent Review of the SOCI Act (delivered 31 January 2026), Home Affairs released a consultation paper on 3 July 2026 proposing 21 measures to streamline and modernise the Act; submissions closed 31 July 2026. Proposals only; current law unchanged. Verify at use whether a Bill or exposure draft has followed. Source: https://www.homeaffairs.gov.au/help-and-support/how-to-engage-us/consultations/proposed-amendments-to-streamline-and-modernise-the-soci-act-2018"
+    },
+    {
+      "id": "soci-cirmp",
+      "title": "Security of Critical Infrastructure (Critical infrastructure risk management program) Rules 2023",
+      "register_id": "F2023L00112",
+      "latest_checked_compilation": "C02 effective 2026-06-10",
+      "amending_instrument": "Security of Critical Infrastructure Legislation Amendment (Enhanced Critical Infrastructure Risk Management Program) Rules 2026 (LIN 26/075, F2026L00701), made 4 June 2026, registered 9 June 2026, commenced 10 June 2026; grace periods of 12 months (s 6A, ss 8A(2), 9A(2)) and 24 months (ss 8A, 8B, 8C, 9A, 10A, 11A) from commencement or from when an asset becomes a critical infrastructure asset; the spent amending instrument was auto-repealed on 8 September 2026 under s 48A of the Legislation Act 2003",
+      "legal_status": "delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/Series/F2023L00112",
+      "trigger_prompt": "responsible entity for an asset within Part 2A and current Rules",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "telecommunications-soci",
+      "title": "Security of Critical Infrastructure (Telecommunications Security and Risk Management Program) Rules 2025",
+      "register_id": "F2025L00325",
+      "legal_status": "delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/F2025L00325/asmade",
+      "commencement": "2025-04-04",
+      "supersedes": "Telecommunications Act 1997 Part 14 TSSR obligations ceased 2025-04-04",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "cyber-extortion-payment",
+      "title": "Cyber Security Act 2024 Part 3 and Cyber Security (Ransomware Payment Reporting) Rules 2025",
+      "title_id": "C2024A00098",
+      "register_id": "F2025L00278",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/C2024A00098/latest",
+      "commencement": "2025-05-30",
+      "trigger_prompt": "covered reporting business entity, cyber incident, demand and payment or knowledge of payment",
+      "clock_prompt": "within 72 hours after payment or awareness another entity paid on its behalf; verify current turnover threshold and content rules",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "smart-device-security",
+      "title": "Cyber Security Act 2024 Part 2 and Cyber Security (Security Standards for Smart Devices) Rules 2025",
+      "register_id": "F2025L00276",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/F2025L00276/latest/text",
+      "commencement": "2026-03-04",
+      "trigger_prompt": "manufacturer or supplier of an in-scope consumer-grade connectable product manufactured on or after commencement",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "cyber-incident-review-board",
+      "title": "Cyber Security Act 2024 Part 5 and Cyber Security (Cyber Incident Review Board) Rules 2025",
+      "register_id": "F2025L00277",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/F2025L00277/latest",
+      "status_note": "Board active by May 2026; do not label prospective",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "apra-cps-234",
+      "title": "CPS 234 Information Security",
+      "legal_status": "enforceable prudential standard",
+      "source_url": "https://www.apra.gov.au/standards/cps-234",
+      "trigger_prompt": "APRA-regulated entity, material information-security incident or material control weakness",
+      "clock_prompt": "incident as soon as possible and no later than 72 hours; material control weakness as soon as possible and no later than 10 business days",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "apra-cps-230",
+      "title": "CPS 230 Operational Risk Management",
+      "legal_status": "enforceable prudential standard",
+      "source_url": "https://www.apra.gov.au/standards/cps-230",
+      "latest_checked_version": "effective 2026-07-01",
+      "clock_prompt": "verify 72-hour material operational-risk incident, 24-hour tolerance breach and service-provider clocks; where one APRA notice is accepted apply the earliest timeframe",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "telco-dfv",
+      "title": "Telecommunications (Domestic, Family and Sexual Violence Consumer Protections) Industry Standard 2025",
+      "register_id": "F2025L00664",
+      "legal_status": "delegated legislative instrument or industry standard",
+      "source_url": "https://www.legislation.gov.au/F2025L00664/asmade",
+      "commencement": "2025-07-01",
+      "phased_requirements_large_provider": "2026-01-01 (30,000 or more services in operation)",
+      "phased_requirements_other_provider": "2026-04-01",
+      "clock_prompt": "affected person using agreed safe communications and ACMA within two days after specified unauthorised access or disclosure; verify which commencement phase the notice duty sits in",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "cdr",
+      "title": "Competition and Consumer Act 2010 Part IVD and Consumer Data Right Rules",
+      "title_id": "C2004A00109",
+      "register_id": "F2020L00094",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/F2020L00094/latest",
+      "clock_prompt": "NDB extension where applicable plus accredited data recipient ACSC notice as soon as practicable and no later than 30 days; verify current Schedule 2",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "my-health-record",
+      "title": "My Health Records Act 2012 section 75",
+      "title_id": "C2012A00063",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2012A00063/latest",
+      "clock_prompt": "as soon as practicable to the entity-specific recipient or recipients; test Privacy Act section 26WD duplicate-notice interaction",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "healthcare-identifiers",
+      "title": "Healthcare Identifiers Act 2010",
+      "title_id": "C2010A00072",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2010A00072/latest",
+      "trigger_prompt": "verify collection, use or disclosure restrictions and route any resulting Privacy Act or My Health Record incident separately; do not invent a standalone general breach-notification scheme",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "telecommunications-part-13",
+      "title": "Telecommunications Act 1997 Part 13",
+      "title_id": "C2004A05145",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2004A05145/latest",
+      "trigger_prompt": "use or disclosure of communications, service information, affairs or personal particulars; verify offences, exceptions and record obligations",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "telecommunications-outages",
+      "title": "Telecommunications (Customer Communications for Outages) Industry Standard 2024",
+      "register_id": "F2024L01447",
+      "legal_status": "delegated legislative instrument or industry standard",
+      "source_url": "https://www.legislation.gov.au/F2024L01447/latest",
+      "trigger_prompt": "significant or major outage, including a cyber-caused outage; keep outage communications distinct from data-breach notice",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "cyber-coordinator-voluntary-sharing",
+      "title": "Cyber Security Act 2024 Part 4",
+      "title_id": "C2024A00098",
+      "legal_status": "Act establishing voluntary sharing and limited-use rules",
+      "source_url": "https://www.legislation.gov.au/C2024A00098/latest",
+      "trigger_prompt": "voluntary sharing with the National Cyber Security Coordinator; section 44 does not satisfy or affect other reporting duties",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "acsc-general-assistance",
+      "title": "ACSC incident assistance and reporting",
+      "legal_status": "voluntary report or regulator guidance unless another verified source makes it mandatory",
+      "source_url": "https://www.cyber.gov.au/report-and-recover/how-we-help-during-a-cyber-security-incident/supporting-australian-organisations-through-cyber-security-incident",
+      "trigger_prompt": "do not label general ACSC reporting mandatory; separately test SOCI, CDR, contract and sector duties",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "spam",
+      "title": "Spam Act 2003",
+      "title_id": "C2004A01214",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2004A01214/latest",
+      "trigger_prompt": "commercial electronic messages, including AI outbound messaging; verify consent, sender identity and unsubscribe, including the current five-business-day rule",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "do-not-call",
+      "title": "Do Not Call Register Act 2006 and applicable telemarketing industry standard",
+      "title_id": "C2006A00088",
+      "legal_status": "Act and delegated legislative instrument",
+      "source_url": "https://www.legislation.gov.au/C2006A00088/latest",
+      "trigger_prompt": "AI outbound calling or telemarketing; verify registered number, consent or exemption, checking period, contract and calling-standard requirements",
+      "last_verified": "2026-08-14"
+    },
+    {
+      "id": "asic-reportable-situations",
+      "title": "Corporations Act 2001 sections 912D and 912DAA",
+      "title_id": "C2004A00818",
+      "legal_status": "Act",
+      "source_url": "https://www.legislation.gov.au/C2004A00818/latest",
+      "trigger_prompt": "do not assume a cyber event is reportable; test the statutory reportable-situation elements",
+      "clock_prompt": "verify 30-day period and knowledge or recklessness trigger",
+      "last_verified": "2026-08-14"
+    }
+  ]
+}

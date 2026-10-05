@@ -1,0 +1,15 @@
+# Built skill bundles
+*.skill
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Node / scratchpad
+node_modules/
+/tmp/

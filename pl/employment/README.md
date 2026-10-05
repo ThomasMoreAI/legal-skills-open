@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `pl` · Practice: `employment` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Poland Employment Rights`](skills/poland-employment-rights-xopoko/) | Employment rights. Use for Polish contracts, pay, leave, hours, termination, workplace safety, or PIP… |
+| [`Przegląd tabelaryczny polskich umów o pracę`](skills/polish-employment-contract-tabular-review-open-legal-products/) | Use this workflow to review Polish employment contracts (umowa o pracę) under the Labour Code (Kodeks… |
 
 ## Cold-start context
 

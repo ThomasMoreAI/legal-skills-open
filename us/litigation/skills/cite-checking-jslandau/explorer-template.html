@@ -1,0 +1,1386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Cite-Check Explorer — prototype</title>
+<style>
+  :root {
+    /* Surfaces */
+    --paper:       #f1ead4;
+    --paper-edge:  #e6dcb8;
+    --panel:       #fbf6e6;
+    --panel-soft:  #f6efd6;
+
+    /* Ink */
+    --ink:         #1c1814;
+    --ink-soft:    #3e372e;
+    --ink-muted:   #786e5b;
+    --ink-faint:   #a89e85;
+
+    /* Rules */
+    --rule:        #c6b988;
+    --rule-soft:   #ddd1a3;
+    --rule-faint:  #eae2c1;
+
+    /* Accent — oxblood */
+    --accent:      #7a1f1a;
+    --accent-hi:   #561310;
+
+    /* Severity — saturated and bright, tuned to pop against cream paper */
+    --strong:      #1f8a3a;
+    --adequate:    #6a9118;
+    --adequate-c:  #c98a10;
+    --weak:        #de6f14;
+    --misleading:  #c92626;
+    --unable:      #7b7458;
+
+    /* Severity tints (for detail backgrounds, chips) */
+    --strong-tint:     #dfe9dd;
+    --adequate-tint:   #e6e8d1;
+    --adequate-c-tint: #efe2bf;
+    --weak-tint:       #f0dcc0;
+    --misleading-tint: #ebd2cd;
+    --unable-tint:     #ddd7c4;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body { margin: 0; padding: 0; }
+  body {
+    background-color: var(--paper);
+    /* Subtle paper grain */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='280' height='280'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.12  0 0 0 0 0.10  0 0 0 0 0.07  0 0 0 0.07 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    color: var(--ink);
+    font: 14px/1.55 "Charter", "Iowan Old Style", "Source Serif Pro", Georgia, serif;
+    font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+    display: grid;
+    grid-template-columns: 260px 1fr 64px;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+  }
+
+  /* ───────────────────────── Header ───────────────────────── */
+
+  header {
+    grid-column: 1 / -1;
+    padding: 18px 28px 14px;
+    background: var(--panel);
+    border-bottom: 3px double var(--rule);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 24px;
+    align-items: end;
+  }
+  header .title-block h1 {
+    margin: 0;
+    font: italic 700 24px/1.1 "Charter", "Iowan Old Style", Georgia, serif;
+    letter-spacing: -0.005em;
+    color: var(--ink);
+  }
+  header .title-block h1::first-letter {
+    color: var(--accent);
+  }
+  header .doc-meta {
+    margin-top: 6px;
+    font: 500 11px/1.4 ui-sans-serif, system-ui, -apple-system, sans-serif;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  header .doc-meta .sep {
+    color: var(--ink-faint);
+    margin: 0 8px;
+  }
+  header .counts {
+    display: flex; gap: 4px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ───────────────────────── Badges & severity ───────────────────────── */
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 3px 9px;
+    cursor: help;
+    background: transparent;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    font: 600 10px/1 ui-sans-serif, system-ui, -apple-system, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    white-space: nowrap;
+  }
+  .badge.Strong     { color: var(--strong); }
+  .badge.Adequate   { color: var(--adequate); }
+  .badge.AdequateC  { color: var(--adequate-c); }
+  .badge.Weak       { color: var(--weak); }
+  .badge.Misleading { color: var(--misleading); background: var(--misleading); color: #fff; border-color: var(--misleading); }
+  .badge.Unable     { color: var(--unable); }
+
+  .dot { display: none; } /* dots replaced by left-rule on cards */
+
+  /* ───────────────────────── Sidebar ───────────────────────── */
+
+  aside.sidebar {
+    border-right: 1px solid var(--rule);
+    background: var(--panel);
+    padding: 22px 20px 24px;
+    overflow-y: auto;
+  }
+  aside.sidebar h2 {
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ink-soft);
+    margin: 22px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule-faint);
+  }
+  aside.sidebar h2:first-child { margin-top: 0; }
+
+  .field { display: block; margin-bottom: 4px; font: 13px/1.4 ui-sans-serif, system-ui, sans-serif; color: var(--ink-soft); }
+  .field label {
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer; padding: 3px 4px; border-radius: 2px;
+    transition: background 0.1s;
+  }
+  .field label:hover { background: var(--panel-soft); }
+  .field input[type="checkbox"] {
+    margin: 0; accent-color: var(--accent);
+  }
+  /* Severity filter dots: short vertical bar (echoes the card rule) */
+  .sev-bar {
+    display: inline-block; width: 6px; height: 14px; flex-shrink: 0;
+  }
+  .sev-bar.Strong     { background: var(--strong); }
+  .sev-bar.Adequate   { background: var(--adequate); }
+  .sev-bar.AdequateC  { background: var(--adequate-c); }
+  .sev-bar.Weak       { background: var(--weak); }
+  .sev-bar.Misleading { background: var(--misleading); }
+  .sev-bar.Unable     { background: var(--unable); }
+
+  .filter-actions {
+    display: flex; gap: 12px;
+    font: 500 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-bottom: 6px;
+  }
+  .filter-actions a {
+    color: var(--accent); cursor: pointer; text-decoration: none;
+    border-bottom: 1px solid var(--rule-soft);
+    padding-bottom: 1px;
+  }
+  .filter-actions a:hover { color: var(--accent-hi); border-bottom-color: var(--accent); }
+
+  select, input[type="search"] {
+    width: 100%;
+    padding: 7px 9px;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    background: var(--panel-soft);
+    font: 13px/1.3 ui-sans-serif, system-ui, sans-serif;
+    color: var(--ink);
+  }
+  input[type="search"]::placeholder { color: var(--ink-faint); font-style: italic; }
+  select:focus, input[type="search"]:focus { outline: none; border-color: var(--accent); background: #fff; }
+
+  button.reset {
+    margin-top: 14px; width: 100%;
+    padding: 8px;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--accent);
+    border-radius: 2px;
+    cursor: pointer;
+    font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em;
+  }
+  button.reset:hover { background: var(--accent); color: var(--panel); border-color: var(--accent); }
+
+  /* ───────────────────────── Main / cards ───────────────────────── */
+
+  main {
+    overflow-y: auto;
+    padding: 24px 32px 40px;
+  }
+  .results-header {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 18px;
+    font: 11px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--ink-muted);
+    padding-bottom: 8px; border-bottom: 1px solid var(--rule-faint);
+  }
+  .results-header a {
+    color: var(--accent); text-decoration: none;
+    border-bottom: 1px solid var(--rule-soft);
+  }
+  .results-header a:hover { color: var(--accent-hi); border-bottom-color: var(--accent); }
+
+  .card {
+    position: relative;
+    background: var(--panel);
+    border: 1px solid var(--rule-soft);
+    border-left: 8px solid var(--ink-faint);
+    margin-bottom: 14px;
+    padding: 18px 22px 16px 60px;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .card[data-sev="Strong"]     { border-left-color: var(--strong); }
+  .card[data-sev="Adequate"]   { border-left-color: var(--adequate); }
+  .card[data-sev="AdequateC"]  { border-left-color: var(--adequate-c); }
+  .card[data-sev="Weak"]       { border-left-color: var(--weak); }
+  .card[data-sev="Misleading"] { border-left-color: var(--misleading); }
+  .card[data-sev="Unable"]     { border-left-color: var(--unable); }
+
+  .card:hover { background: var(--panel-soft); }
+  .card.open { background: var(--panel); box-shadow: 0 2px 0 var(--rule-faint); }
+  .card.open:hover { background: var(--panel); }
+
+  /* Doc-index prefix — stable reference into the brief, e.g. §07.
+     Uses doc_index from the JSON, NOT a view-position counter, so the same
+     citation has the same number whether you sort by document, severity, or case. */
+  .card .doc-num {
+    position: absolute;
+    left: 14px; top: 20px;
+    width: 38px;
+    font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+    color: var(--ink-faint);
+    letter-spacing: 0.06em;
+    font-variant-numeric: tabular-nums;
+    text-align: left;
+  }
+  .card .doc-num::before { content: 'n. '; color: var(--ink-faint); font-family: "Charter", "Iowan Old Style", Georgia, serif; font-style: italic; font-weight: 400; }
+
+  .card.reviewed { background: linear-gradient(to right, transparent 0%, transparent 92%, var(--strong-tint) 100%); }
+  .card.reviewed .doc-num { color: var(--strong); }
+
+  .card .cite {
+    font: 600 16px/1.35 "Charter", "Iowan Old Style", Georgia, serif;
+    color: var(--ink);
+    margin-bottom: 6px;
+    letter-spacing: -0.005em;
+  }
+  .card .short-form-note {
+    font: italic 11px/1.3 "Charter", "Iowan Old Style", Georgia, serif;
+    color: var(--ink-faint);
+    margin: -2px 0 6px;
+    letter-spacing: 0;
+  }
+  .card .short-form-note::before { content: '↳ '; color: var(--ink-faint); }
+  .card .prop {
+    color: var(--ink-soft);
+    margin-bottom: 12px;
+    font: italic 14px/1.5 "Charter", "Iowan Old Style", Georgia, serif;
+    max-width: 72ch;
+  }
+  .card .row {
+    display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    margin-top: 4px;
+  }
+  .card .row .meta {
+    font: 11px/1 ui-sans-serif, system-ui, sans-serif;
+    color: var(--ink-muted);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .card .toggle {
+    margin-left: auto;
+    background: none; border: none; padding: 0;
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: var(--accent);
+    cursor: pointer;
+    border-bottom: 1px solid var(--rule-soft);
+    padding-bottom: 2px;
+  }
+  .card .toggle:hover { color: var(--accent-hi); border-bottom-color: var(--accent); }
+
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    font: 500 10px/1 ui-sans-serif, system-ui, sans-serif;
+    padding: 3px 8px;
+    background: var(--panel);
+    color: var(--ink-soft);
+    border: 1px solid var(--rule-soft);
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .chip::before { content: '◆ '; color: var(--accent); }
+
+  /* ───────────────────────── Detail panel ───────────────────────── */
+
+  .detail { display: none; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--rule-faint); }
+  .card.open .detail { display: block; }
+  .detail h4 {
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: var(--ink-soft);
+    margin: 18px 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--rule-faint);
+  }
+  .detail h4:first-child { margin-top: 0; }
+  .detail > div {
+    font: 14px/1.6 "Charter", "Iowan Old Style", Georgia, serif;
+    color: var(--ink-soft);
+    max-width: 76ch;
+  }
+  .detail blockquote {
+    margin: 8px 0;
+    padding: 10px 16px;
+    border-left: 3px solid var(--rule);
+    background: var(--paper);
+    font: 14px/1.6 "Charter", "Iowan Old Style", Georgia, serif;
+    color: var(--ink);
+    white-space: pre-wrap;
+    max-width: 76ch;
+  }
+
+  /* Brief-vs-opinion diff — the killer view */
+  .diff {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+    margin-top: 8px; max-width: none;
+  }
+  .diff > div {
+    padding: 14px 18px;
+    background: var(--panel);
+    border: 1px solid var(--rule-soft);
+    font: 14px/1.6 "Charter", "Iowan Old Style", Georgia, serif;
+    color: var(--ink);
+  }
+  .diff .brief  { border-left: 6px solid var(--misleading); }
+  .diff .actual { border-left: 6px solid var(--strong); }
+  .diff h5 {
+    margin: 0 0 8px;
+    font: 700 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.18em;
+  }
+  .diff .brief h5  { color: var(--misleading); }
+  .diff .brief h5::before  { content: '✕  '; }
+  .diff .actual h5 { color: var(--strong); }
+  .diff .actual h5::before { content: '✓  '; }
+
+  /* Neutral mode — proposition vs. pincite, muted rules, no win/loss glyphs. */
+  .diff-neutral .brief,
+  .diff-neutral .actual { border-left-color: var(--rule); }
+  .diff-neutral .brief h5,
+  .diff-neutral .actual h5 { color: var(--ink-muted); }
+  .diff-neutral .brief h5::before,
+  .diff-neutral .actual h5::before { content: ''; }
+
+  /* Match mode — verbatim quote that matches the source. */
+  .diff-match .brief,
+  .diff-match .actual { border-left-color: var(--strong); }
+  .diff-match .brief h5,
+  .diff-match .actual h5 { color: var(--strong); }
+  .diff-match .brief h5::before,
+  .diff-match .actual h5::before { content: '✓  '; }
+
+  /* Highlighter — used to mark the verbatim-match phrase inside the source text. */
+  mark {
+    background: linear-gradient(transparent 55%, #f0d978 55%);
+    color: inherit;
+    padding: 0 1px;
+    border-radius: 1px;
+  }
+
+  /* Expandable clamp — applied to long diff columns and pincite blockquotes. */
+  .clampable {
+    max-height: 14em;
+    overflow: hidden;
+    cursor: zoom-in;
+    -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
+            mask-image: linear-gradient(to bottom, #000 78%, transparent 100%);
+  }
+  .clampable.expanded { cursor: zoom-out; }
+  .clampable.expanded {
+    max-height: none;
+    -webkit-mask-image: none;
+            mask-image: none;
+  }
+  .clamp-toggle {
+    display: block;
+    margin: 8px 0 0;
+    padding: 4px 0 2px;
+    background: none; border: none;
+    border-bottom: 1px solid var(--rule-soft);
+    color: var(--accent);
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    cursor: pointer;
+    width: max-content;
+  }
+  .clamp-toggle:hover { color: var(--accent-hi); border-bottom-color: var(--accent); }
+
+  .reviewed-btn {
+    margin-top: 16px; padding: 6px 14px;
+    border: 1px solid var(--rule);
+    background: transparent;
+    color: var(--ink-soft);
+    border-radius: 2px;
+    cursor: pointer;
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.14em;
+  }
+  .reviewed-btn:hover { border-color: var(--ink-soft); color: var(--ink); }
+  .reviewed-btn.on {
+    background: var(--strong); border-color: var(--strong); color: #fff;
+  }
+
+  /* ───────────────────────── Minimap ───────────────────────── */
+
+  aside.minimap {
+    border-left: 1px solid var(--rule);
+    background: var(--panel);
+    padding: 24px 8px;
+    overflow-y: auto;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .mini {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    position: relative;
+    transition: transform 0.1s;
+    background: var(--ink-faint);
+  }
+  .mini[data-sev="Strong"]     { background: var(--strong); }
+  .mini[data-sev="Adequate"]   { background: var(--adequate); }
+  .mini[data-sev="AdequateC"]  { background: var(--adequate-c); }
+  .mini[data-sev="Weak"]       { background: var(--weak); }
+  .mini[data-sev="Misleading"] { background: var(--misleading); }
+  .mini[data-sev="Unable"]     { background: var(--unable); }
+  .mini { position: relative; }
+  .mini .mini-page {
+    position: absolute;
+    right: 3px; top: 50%; transform: translateY(-50%);
+    font: 700 9px/1 ui-sans-serif, system-ui, sans-serif;
+    color: rgba(255, 255, 255, 0.92);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    pointer-events: none;
+    text-shadow: 0 0 2px rgba(0,0,0,0.25);
+  }
+  .mini:hover { transform: translateX(-3px); }
+  .mini.hidden { opacity: 0.18; }
+  .mini.reviewed { outline: 2px solid var(--paper); outline-offset: -2px; }
+
+  /* ───────────────────────── Group headers ───────────────────────── */
+
+  .group-header {
+    font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.18em;
+    color: var(--accent);
+    margin: 32px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+    display: flex; align-items: baseline; gap: 10px;
+  }
+  .group-header::before {
+    content: '§';
+    font: italic 16px/1 "Charter", Georgia, serif;
+    color: var(--ink-faint);
+    letter-spacing: 0;
+  }
+  .group-header:first-child { margin-top: 0; }
+  .group-header .group-count {
+    margin-left: auto;
+    font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+  }
+  .group-header .group-count::before { content: '· '; color: var(--ink-faint); }
+
+  /* ───────────────────────── Empty state ───────────────────────── */
+
+  .empty {
+    padding: 80px 20px;
+    text-align: center;
+    color: var(--ink-muted);
+    font: italic 15px/1.5 "Charter", Georgia, serif;
+  }
+
+  /* ───────────────────────── Loader ───────────────────────── */
+
+  .loader {
+    margin: 0 0 18px;
+    padding: 0 0 16px;
+    border-bottom: 1px solid var(--rule-faint);
+  }
+  .loader-btn {
+    display: block; width: 100%;
+    padding: 8px 10px;
+    border: 1px solid var(--accent);
+    background: transparent;
+    color: var(--accent);
+    border-radius: 2px;
+    cursor: pointer;
+    font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.12em;
+    text-align: center;
+  }
+  .loader-btn:hover { background: var(--accent); color: var(--panel); }
+  .loader-link {
+    display: block; width: 100%;
+    margin-top: 6px; padding: 4px;
+    background: none; border: none;
+    color: var(--ink-muted);
+    font: 500 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    cursor: pointer;
+  }
+  .loader-link:hover { color: var(--accent); }
+  .loader-source {
+    margin-top: 8px;
+    font: italic 11px/1.4 "Charter", Georgia, serif;
+    color: var(--ink-muted);
+    word-break: break-all;
+  }
+
+  /* ───────────────────────── Collapsible sidebar sections ───────────────────────── */
+
+  .sidebar-section { margin: 22px 0 0; }
+  .sidebar-section > summary {
+    list-style: none;
+    font: 600 10px/1 ui-sans-serif, system-ui, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ink-soft);
+    padding: 0 0 6px;
+    border-bottom: 1px solid var(--rule-faint);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar-section > summary::-webkit-details-marker,
+  .sidebar-section > summary::marker { display: none; content: ''; }
+  .sidebar-section > summary::after {
+    content: '▾';
+    font-size: 9px;
+    color: var(--ink-faint);
+    transition: transform 0.15s;
+  }
+  .sidebar-section:not([open]) > summary::after { transform: rotate(-90deg); }
+  .sidebar-section > .filter-actions { margin-top: 10px; }
+  .sidebar-section > .field:first-of-type { margin-top: 4px; }
+
+  /* ───────────────────────── Print / PDF ───────────────────────── */
+
+  @media print {
+    @page { size: letter; margin: 0.75in; }
+    html, body {
+      background: #fff !important;
+      background-image: none !important;
+      color: #000;
+      height: auto;
+      display: block;
+    }
+    header {
+      border-bottom: 3px double #000;
+      padding: 0 0 14px;
+      background: #fff;
+      grid-template-columns: 1fr;
+    }
+    header h1::first-letter { color: #000; }
+    header .counts { display: none; }
+    aside.sidebar,
+    aside.minimap,
+    .results-header,
+    .card .toggle,
+    .reviewed-btn,
+    .group-header::before { display: none !important; }
+    main { padding: 0; overflow: visible; }
+    #cards { counter-reset: cite; }
+
+    .card {
+      background: #fff !important;
+      border: none;
+      border-left: 8px solid #000;
+      padding: 14px 0 14px 40px;
+      margin: 0 0 20px;
+      box-shadow: none;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .card[data-sev="Strong"]     { border-left-color: #1f8a3a; }
+    .card[data-sev="Adequate"]   { border-left-color: #6a9118; }
+    .card[data-sev="AdequateC"]  { border-left-color: #c98a10; }
+    .card[data-sev="Weak"]       { border-left-color: #de6f14; }
+    .card[data-sev="Misleading"] { border-left-color: #c92626; }
+    .card[data-sev="Unable"]     { border-left-color: #7b7458; }
+    .card::before { left: 0; }
+    .card::after { left: 0; }
+
+    .card .detail { display: block !important; }
+    .card .cite, .card .prop { color: #000; }
+
+    .detail blockquote {
+      background: #f3eedd !important;
+      border-left-color: #000;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .diff > div {
+      background: #fff !important;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .group-header {
+      color: #000;
+      border-bottom-color: #000;
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+    .chip, .badge { background: #fff !important; }
+    .clampable {
+      max-height: none !important;
+      -webkit-mask-image: none !important;
+              mask-image: none !important;
+    }
+    .clamp-toggle { display: none !important; }
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="title-block">
+      <h1>Cite-Check Explorer</h1>
+      <div class="doc-meta" id="doc-meta">…</div>
+    </div>
+    <div class="counts" id="counts"></div>
+  </header>
+
+  <aside class="sidebar">
+    <div class="loader">
+      <label class="loader-btn">
+        Load cite-check JSON…
+        <input type="file" id="file-input" accept=".json,application/json" hidden />
+      </label>
+      <button type="button" class="loader-link" id="use-sample">Use embedded sample</button>
+      <div class="loader-source" id="loader-source"></div>
+    </div>
+
+    <h2>Ordering and grouping</h2>
+    <select id="sort">
+      <option value="doc">Document order</option>
+      <option value="severity">Severity (worst first)</option>
+      <option value="case">By case (grouped)</option>
+      <option value="issue">By issue type (grouped)</option>
+    </select>
+
+    <h2>Search</h2>
+    <input type="search" id="search" placeholder="quote, proposition, case name…" />
+
+    <details open class="sidebar-section">
+      <summary>Severity</summary>
+      <div class="filter-actions"><a data-all="severity">All</a><a data-none="severity">None</a></div>
+      <div id="filter-severity" class="field"></div>
+    </details>
+
+    <details open class="sidebar-section">
+      <summary>Issue type</summary>
+      <div class="filter-actions"><a data-all="issue">All</a><a data-none="issue">None</a></div>
+      <div id="filter-issue" class="field"></div>
+    </details>
+
+    <details open class="sidebar-section">
+      <summary>Other</summary>
+      <div class="field"><label><input type="checkbox" id="f-critic"> Critic disagrees / partial</label></div>
+      <div class="field"><label><input type="checkbox" id="f-indirect"> Indirect verification only</label></div>
+      <div class="field"><label><input type="checkbox" id="f-hide-reviewed"> Hide reviewed</label></div>
+    </details>
+
+    <button class="reset" id="reset">Reset filters</button>
+  </aside>
+
+  <main id="main">
+    <div class="results-header">
+      <span id="result-count"></span>
+      <span><a href="#" id="expand-all">Expand all</a> · <a href="#" id="collapse-all">Collapse all</a> · <a href="#" id="copy-link" title="Copy a URL that reproduces this view (filters, sort, expanded cards)">Copy share link</a> · <a href="#" id="print-report">Print / PDF</a></span>
+    </div>
+    <div id="cards"></div>
+  </main>
+
+  <aside class="minimap" id="minimap" title="Document minimap — click to jump"></aside>
+
+<script type="application/json" id="cite-check-data">
+{
+  "schema_version": "1.0",
+  "generated_at": "2025-01-01T00:00:00Z",
+  "document": {
+    "filename": "sample-brief.docx",
+    "title": "Sample Demonstration Brief",
+    "case_no": "Demo No. 2025-DEM-0001",
+    "format": "docx",
+    "sections": [
+      {"heading": "ARGUMENT I", "page_start": 2, "page_end": 5},
+      {"heading": "ARGUMENT II", "page_start": 6, "page_end": 10}
+    ],
+    "notes": "Synthetic example dataset bundled with the explorer; case names and citations are entirely fictitious and used to demonstrate the explorer's rendering of each support label, of all three diff modes (match/divergent/neutral), and of short-form Id. resolution."
+  },
+  "citations": [
+    {
+      "id": "c1",
+      "doc_index": 1,
+      "citation": {"full_text": "Nu Holdings v. Xi LLC, 888 F.3d 400, 405 (D.C. Cir. 2019).", "short_label": "Nu v. Xi @ 405", "case_key": "Nu v. Xi", "type": "case", "authority_level": "circuit", "signal": "see", "flags": []},
+      "location": {"page": 2, "section": "ARGUMENT I", "snippet": "Article III standing requires injury in fact, causation, and redressability. See Nu Holdings v. Xi LLC, 888 F.3d 400, 405 (D.C. Cir. 2019)."},
+      "proposition": {"text": "Article III standing requires injury in fact, causation, and redressability.", "ambiguous": false, "proposition_group": "standing-elements"},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-5555", "opinion_id": "demo-5555", "pagination_mode": "reporter"}},
+      "pincite": {"text": "To establish Article III standing, a plaintiff must demonstrate (1) injury in fact, (2) causation traceable to the defendant's conduct, and (3) redressability through a favorable decision.", "match_tier_used": 1, "brief_quote": null, "actual_text": null, "quote_match": null},
+      "precis": "Canonical three-part standing recital, conventional in D.C. Circuit briefing.",
+      "support": {"label": "Strong", "explanation": "Standard recital tracks the brief's paraphrase faithfully."},
+      "critic": {"status": "agrees", "reasoning": "Routine cite; no inferential gap."}
+    },
+    {
+      "id": "c2",
+      "doc_index": 2,
+      "citation": {"full_text": "Alpha Co. v. Beta Corp., 999 U.S. 100, 110 (2020).", "short_label": "Alpha v. Beta @ 110", "case_key": "Alpha v. Beta", "type": "case", "authority_level": "scotus", "signal": "none", "flags": []},
+      "location": {"page": 3, "section": "ARGUMENT I", "snippet": "District courts have 'broad discretion' in fashioning equitable remedies. Alpha Co. v. Beta Corp., 999 U.S. 100, 110 (2020)."},
+      "proposition": {"text": "District courts have 'broad discretion' in fashioning equitable remedies.", "ambiguous": false, "proposition_group": "remedy-discretion"},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-9999", "opinion_id": "demo-9999", "pagination_mode": "reporter"}},
+      "pincite": {"text": "District courts are afforded broad discretion to fashion equitable remedies appropriate to the case. This principle is well-established in our jurisprudence and has been reaffirmed across decades of decisions.", "match_tier_used": 1, "brief_quote": "broad discretion", "actual_text": "District courts are afforded broad discretion to fashion equitable remedies appropriate to the case.", "quote_match": true, "match_phrase": "broad discretion"},
+      "precis": "Alpha v. Beta confirms the well-established principle that district courts enjoy broad equitable discretion when fashioning remedies.",
+      "support": {"label": "Strong", "explanation": "Verbatim 'broad discretion' phrase appears at the cited page."},
+      "critic": {"status": "agrees", "reasoning": "Direct quote match."}
+    },
+    {
+      "id": "c3",
+      "doc_index": 3,
+      "citation": {"full_text": "Gamma v. Delta, 555 F.3d 200, 215 (3d Cir. 2015).", "short_label": "Gamma v. Delta @ 215", "case_key": "Gamma v. Delta", "type": "case", "authority_level": "circuit", "signal": "none", "flags": []},
+      "location": {"page": 4, "section": "ARGUMENT I", "snippet": "Courts review the denial of injunctive relief only for abuse of discretion. Gamma v. Delta, 555 F.3d 200, 215 (3d Cir. 2015)."},
+      "proposition": {"text": "Courts review the denial of injunctive relief for abuse of discretion.", "ambiguous": false, "proposition_group": null},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-8888", "opinion_id": "demo-8888", "pagination_mode": "reporter"}},
+      "pincite": {"text": "We review the denial of an injunction only for an abuse of discretion. This standard accords substantial deference to the district court's equitable judgment and is not an invitation to reweigh the record.", "match_tier_used": 3, "brief_quote": null, "actual_text": null, "quote_match": null},
+      "precis": "Standard appellate-review boilerplate for equitable orders.",
+      "support": {"label": "Strong", "explanation": "Brief's paraphrase tracks the holding faithfully."},
+      "critic": {"status": "agrees", "reasoning": "Conventional cite."}
+    },
+    {
+      "id": "c4",
+      "doc_index": 4,
+      "citation": {"full_text": "Id. at 218.", "short_label": "Gamma v. Delta @ 218", "case_key": "Gamma v. Delta", "type": "case", "authority_level": "circuit", "signal": "none", "flags": []},
+      "location": {"page": 4, "section": "ARGUMENT I", "snippet": "And we do not reweigh the evidence under that standard. Id. at 218."},
+      "proposition": {"text": "Abuse-of-discretion review does not permit reweighing of evidence.", "ambiguous": false, "proposition_group": null},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-8888", "opinion_id": "demo-8888", "pagination_mode": "reporter"}},
+      "pincite": {"text": "Under abuse-of-discretion review, we do not reweigh the evidence; we ask only whether the district court's conclusion is one a reasonable judge could reach on this record.", "match_tier_used": 1, "brief_quote": "do not reweigh the evidence", "actual_text": "Under abuse-of-discretion review, we do not reweigh the evidence; we ask only whether the district court's conclusion is one a reasonable judge could reach on this record.", "quote_match": true, "match_phrase": "do not reweigh the evidence"},
+      "precis": "Follow-on pincite from the same opinion confirming the no-reweighing rule.",
+      "support": {"label": "Strong", "explanation": "Verbatim phrase appears at the cited page."},
+      "critic": {"status": "agrees", "reasoning": "Direct match."}
+    },
+    {
+      "id": "c5",
+      "doc_index": 5,
+      "citation": {"full_text": "Epsilon LLC v. Zeta Inc., 777 F. Supp. 3d 50, 55 (S.D.N.Y. 2022).", "short_label": "Epsilon v. Zeta @ 55", "case_key": "Epsilon v. Zeta", "type": "case", "authority_level": "district", "signal": "none", "flags": []},
+      "location": {"page": 6, "section": "ARGUMENT II", "snippet": "Trade-secret protection extends to customer lists that reflect 'substantial investment.' Epsilon LLC v. Zeta Inc., 777 F. Supp. 3d 50, 55 (S.D.N.Y. 2022)."},
+      "proposition": {"text": "Trade-secret protection extends to customer lists that reflect 'substantial investment.'", "ambiguous": false, "proposition_group": null},
+      "source": {"found": true, "fetch_path": "google-scholar", "external_url": null},
+      "pincite": {"text": "We find that the plaintiff's customer list — developed over fifteen years and protected by NDAs — qualifies as a trade secret under New York law because of the substantial investment its compilation reflects and the reasonable measures the plaintiff took to keep it confidential.", "match_tier_used": 2, "brief_quote": "substantial investment", "actual_text": "qualifies as a trade secret under New York law because of the substantial investment its compilation reflects", "quote_match": true, "match_phrase": "substantial investment"},
+      "precis": "Court found a customer list developed over fifteen years and NDA-protected qualifies as a trade secret.",
+      "support": {"label": "Adequate", "explanation": "Quoted phrase appears at the cited page, but the holding is narrower than the brief implies — Epsilon turns on the conjunction of long-term development AND active confidentiality measures.", "issues": ["framing-inversion"], "note": "with caveats"},
+      "critic": {"status": "partial", "reasoning": "Quote verifies, but the brief's broader framing elides the conjunctive factors the case actually relied on.", "nuance": "Consider citing a case more squarely on point if available."}
+    },
+    {
+      "id": "c6",
+      "doc_index": 6,
+      "citation": {"full_text": "Eta Corp. v. Theta Holdings, 432 F.2d 100, 105 (9th Cir. 2018).", "short_label": "Eta v. Theta @ 105", "case_key": "Eta v. Theta", "type": "case", "authority_level": "circuit", "signal": "see", "flags": []},
+      "location": {"page": 7, "section": "ARGUMENT II", "snippet": "Forum-selection clauses are presumptively enforceable in commercial contracts. See Eta Corp. v. Theta Holdings, 432 F.2d 100, 105 (9th Cir. 2018)."},
+      "proposition": {"text": "Forum-selection clauses are presumptively enforceable in commercial contracts.", "ambiguous": false, "proposition_group": null},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-7777", "opinion_id": "demo-7777", "pagination_mode": "reporter"}},
+      "pincite": {"text": "In admiralty disputes involving international shipping contracts, courts must give substantial weight to negotiated forum-selection provisions; we therefore enforce the clause selecting Singapore as the forum for this charter-party dispute.", "match_tier_used": 4, "brief_quote": null, "actual_text": null, "quote_match": null},
+      "precis": "Eta v. Theta addresses forum-selection clauses in admiralty / international-shipping contracts, not commercial contracts generally.",
+      "support": {"label": "Weak", "explanation": "Case is on the general topic of forum-selection enforceability but is limited to admiralty contexts; the cited language does not reach the broader commercial-contract proposition the brief asserts.", "issues": ["doctrinal-fit"]},
+      "critic": {"status": "agrees", "reasoning": "Doctrinal scope mismatch — pincite is squarely about admiralty."},
+      "action": "Replace with authority addressing commercial forum-selection clauses directly."
+    },
+    {
+      "id": "c7",
+      "doc_index": 7,
+      "citation": {"full_text": "Iota Inc. v. Kappa Corp., 321 U.S. 50, 55 (1944).", "short_label": "Iota v. Kappa @ 55", "case_key": "Iota v. Kappa", "type": "case", "authority_level": "scotus", "signal": "none", "flags": []},
+      "location": {"page": 8, "section": "ARGUMENT II", "snippet": "Plaintiff must demonstrate 'actual harm' to obtain injunctive relief. Iota Inc. v. Kappa Corp., 321 U.S. 50, 55 (1944)."},
+      "proposition": {"text": "Plaintiff must demonstrate 'actual harm' to obtain injunctive relief.", "ambiguous": false, "proposition_group": null},
+      "source": {"found": true, "fetch_path": "courtlistener-mcp", "courtlistener": {"cluster_id": "demo-6666", "opinion_id": "demo-6666", "pagination_mode": "reporter"}},
+      "pincite": {"text": "The plaintiff need not demonstrate actual harm where the conduct presents a substantial risk of imminent injury; the equitable power to enjoin reaches threats as well as completed wrongs.", "match_tier_used": 1, "brief_quote": "actual harm", "actual_text": "The plaintiff need not demonstrate actual harm where the conduct presents a substantial risk of imminent injury.", "quote_match": false},
+      "precis": "Iota v. Kappa actually holds that actual harm is not required where there is substantial risk of imminent injury.",
+      "support": {"label": "Misleading", "explanation": "Brief inverts the holding. The cited passage holds the opposite of what the brief asserts: the case allows injunctive relief without actual harm when imminent injury is shown.", "issues": ["mischaracterization", "holding-inversion"]},
+      "critic": {"status": "agrees", "reasoning": "Clear holding inversion; the brief reads the case backwards."},
+      "action": "Replace with a case that actually requires demonstration of actual harm for injunctive relief."
+    },
+    {
+      "id": "c8",
+      "doc_index": 8,
+      "citation": {"full_text": "Lambda v. Mu, 2024 U.S. Dist. LEXIS 99999 (D. Anywhere 2024).", "short_label": "Lambda v. Mu (unpublished)", "case_key": "Lambda v. Mu", "type": "case", "authority_level": "district", "signal": "none", "flags": ["informal_reference"]},
+      "location": {"page": 9, "section": "ARGUMENT II", "snippet": "Discovery sanctions are appropriate where a party fails to preserve email. Lambda v. Mu, 2024 U.S. Dist. LEXIS 99999 (D. Anywhere 2024)."},
+      "proposition": {"text": "Discovery sanctions are appropriate where a party fails to preserve email.", "ambiguous": false, "proposition_group": null},
+      "source": {"found": false, "fetch_path": "none", "unverifiable_reason": "LEXIS citation could not be located in any indexed database; the docket number is non-standard."},
+      "pincite": {"text": "", "match_tier_used": null, "brief_quote": null, "actual_text": null, "quote_match": null},
+      "precis": "Source could not be located.",
+      "support": {"label": "Unable", "explanation": "Cited authority could not be verified. Recommend the brief preparer supply the slip opinion or pin to an alternate, locatable authority."},
+      "critic": {"status": "not-dispatched"}
+    }
+  ]
+}
+</script>
+
+<script>
+'use strict';
+
+const SEVERITY_ORDER = { Misleading: 0, Weak: 1, Adequate: 2, Strong: 3, Unable: 4 };
+const SEVERITY_LIST = ['Strong', 'Adequate', 'Weak', 'Misleading', 'Unable'];
+// Rubric definitions surfaced as tooltips on severity badges and filter labels.
+const SEVERITY_DEFINITIONS = {
+  Strong:     'Source directly and clearly states the proposition, or uses language that unambiguously supports it. A reasonable reader would immediately recognize the cite as apt.',
+  Adequate:   'Source addresses the proposition but requires reasonable inference to connect. The cite is defensible; opposing counsel could challenge it but not easily dismiss it.',
+  Weak:       'Source is on the general topic but does not clearly support the specific proposition as stated. A reader could fairly question whether this cite does the work being asked of it.',
+  Misleading: 'Source, read in full context, cuts against the proposition or supports a materially different point. The cite may be technically accurate but creates a false impression.',
+  Unable:     'Source was not located, pincite text could not be retrieved, or the cited passage is inaccessible.',
+};
+const ISSUE_LABELS = {
+  'misquote': 'Misquote',
+  'mischaracterization': 'Mischaracterization',
+  'wrong-pincite': 'Wrong pincite',
+  'denominator-error': 'Denominator/scope error',
+  'posture-error': 'Procedural posture',
+  'holding-inversion': 'Holding inversion',
+  'misspelling': 'Misspelling',
+  'citation-form': 'Citation form',
+  'strategic-omission': 'Strategic omission',
+  'framing-inversion': 'Framing inversion',
+  'doctrinal-fit': 'Doctrinal fit',
+  'weight-concern': 'Weight/precedent',
+};
+
+// ───────── Schema adapter ─────────
+// Accepts either the nested cite-check JSON schema (citation/proposition/source/pincite/support objects)
+// or the prototype's flat sample shape. Returns flat objects the renderer below uses.
+function normalizeCitation(c) {
+  if (!c.citation || typeof c.citation !== 'object') return c; // already flat
+  const cit = c.citation || {};
+  const prop = c.proposition || {};
+  const src = c.source || {};
+  const pin = c.pincite || {};
+  const sup = c.support || {};
+  const cr = c.critic || {};
+  // Canonicalize verbose labels.
+  const supportLabel = (sup.label || '').replace(/^Unable to assess$/i, 'Unable');
+  return {
+    id: c.id,
+    doc_index: c.doc_index,
+    cite: cit.full_text || '',
+    short: cit.short_label || cit.full_text || '',
+    case_key: cit.case_key || '',
+    authority: cit.authority_level || '',
+    proposition: prop.text || '',
+    proposition_group: prop.proposition_group || undefined,
+    support: supportLabel,
+    support_note: sup.note,
+    issues: sup.issues || [],
+    pincite: pin.text || '',
+    brief_quote: pin.brief_quote || undefined,
+    actual_text: pin.actual_text || undefined,
+    match_phrase: pin.match_phrase || undefined,
+    quote_match: pin.quote_match,
+    precis: c.precis || '',
+    analysis: sup.explanation || '',
+    critic: {
+      status: cr.status || 'not-dispatched',
+      note: [cr.reasoning, cr.nuance].filter(Boolean).join(' — '),
+    },
+    verification: {
+      found: src.found,
+      path: src.fetch_path,
+      cluster: src.courtlistener && src.courtlistener.cluster_id,
+      opinion: src.courtlistener && src.courtlistener.opinion_id,
+      note: src.unverifiable_reason || (src.courtlistener && src.courtlistener.pagination_mode),
+    },
+    location: c.location || null,
+    action: c.action,
+  };
+}
+
+function normalizeData(raw) {
+  const docIn = raw.document || raw.doc || {};
+  return {
+    doc: {
+      title: docIn.title || '',
+      case_no: docIn.case_no || '',
+      filename: docIn.filename || '',
+      date: docIn.date || (raw.generated_at ? raw.generated_at.slice(0, 10) : ''),
+      sections: docIn.sections || [],
+    },
+    citations: (raw.citations || []).map(normalizeCitation),
+  };
+}
+
+// ───────── Data source selection ─────────
+const SESSION_KEY = 'cce-data';
+const SESSION_NAME_KEY = 'cce-data-name';
+const embeddedRaw = JSON.parse(document.getElementById('cite-check-data').textContent);
+const sessionRaw = sessionStorage.getItem(SESSION_KEY);
+const rawInput = sessionRaw ? JSON.parse(sessionRaw) : embeddedRaw;
+const sourceName = sessionRaw ? (sessionStorage.getItem(SESSION_NAME_KEY) || 'Loaded JSON') : 'Embedded sample';
+const data = normalizeData(rawInput);
+const citations = data.citations;
+
+// State
+const NO_ISSUE = '__none__';
+const state = {
+  sort: 'doc',
+  search: '',
+  severity: new Set(SEVERITY_LIST),
+  issues: new Set([...Object.keys(ISSUE_LABELS), NO_ISSUE]),
+  criticOnly: false,
+  indirectOnly: false,
+  hideReviewed: false,
+  open: new Set(),
+  reviewed: new Set(JSON.parse(localStorage.getItem('cce-reviewed') || '[]')),
+};
+
+const persistReviewed = () => localStorage.setItem('cce-reviewed', JSON.stringify([...state.reviewed]));
+
+// ───────── URL hash state ─────────
+// Encodes filter / sort / search / expanded-card state into the URL so a
+// reviewer can share "look at exactly this view" with a colleague.
+// Reviewed-set is intentionally NOT included — it's local-user state, not
+// a property of the shared view.
+function encodeStateToHash() {
+  const p = new URLSearchParams();
+  if (state.sort !== 'doc') p.set('sort', state.sort);
+  if (state.search) p.set('q', state.search);
+  if (state.severity.size !== SEVERITY_LIST.length
+      || SEVERITY_LIST.some(s => !state.severity.has(s))) {
+    p.set('sev', [...state.severity].join(','));
+  }
+  const allIssueKeys = [...Object.keys(ISSUE_LABELS).filter(k => issueCounts[k]),
+                        ...(noIssueCount ? [NO_ISSUE] : [])];
+  if (state.issues.size !== allIssueKeys.length
+      || allIssueKeys.some(k => !state.issues.has(k))) {
+    p.set('issues', [...state.issues].join(','));
+  }
+  if (state.criticOnly) p.set('critic', '1');
+  if (state.indirectOnly) p.set('indirect', '1');
+  if (state.hideReviewed) p.set('hideR', '1');
+  if (state.open.size) p.set('open', [...state.open].join(','));
+  const s = p.toString();
+  const newHash = s ? '#' + s : '';
+  if (newHash !== window.location.hash) {
+    history.replaceState(null, '', window.location.pathname + window.location.search + newHash);
+  }
+}
+
+function decodeStateFromHash() {
+  const hash = window.location.hash.slice(1);
+  if (!hash) return;
+  const p = new URLSearchParams(hash);
+  if (p.has('sort'))     state.sort = p.get('sort');
+  if (p.has('q'))        state.search = p.get('q');
+  if (p.has('sev'))      state.severity = new Set(p.get('sev').split(',').filter(Boolean));
+  if (p.has('issues'))   state.issues = new Set(p.get('issues').split(',').filter(Boolean));
+  if (p.has('critic'))   state.criticOnly = true;
+  if (p.has('indirect')) state.indirectOnly = true;
+  if (p.has('hideR'))    state.hideReviewed = true;
+  if (p.has('open'))     state.open = new Set(p.get('open').split(',').filter(Boolean));
+}
+
+function syncUIFromState() {
+  // Reflect state into the live UI controls so the sidebar matches what was
+  // restored from the URL hash.
+  document.getElementById('sort').value = state.sort;
+  document.getElementById('search').value = state.search;
+  document.getElementById('f-critic').checked = state.criticOnly;
+  document.getElementById('f-indirect').checked = state.indirectOnly;
+  document.getElementById('f-hide-reviewed').checked = state.hideReviewed;
+  document.querySelectorAll('#filter-severity input[type=checkbox]').forEach(cb => {
+    cb.checked = state.severity.has(cb.dataset.sev);
+  });
+  document.querySelectorAll('#filter-issue input[type=checkbox]').forEach(cb => {
+    cb.checked = state.issues.has(cb.dataset.issue);
+  });
+}
+
+// Render document meta
+document.getElementById('doc-meta').innerHTML = [data.doc.title, data.doc.case_no, data.doc.date]
+  .filter(Boolean)
+  .map(escapeHtmlPre)
+  .join('<span class="sep">·</span>');
+document.getElementById('loader-source').textContent = sourceName + (data.doc.filename ? ' — ' + data.doc.filename : '');
+
+document.getElementById('file-input').addEventListener('change', async (e) => {
+  const file = e.target.files && e.target.files[0];
+  if (!file) return;
+  try {
+    const text = await file.text();
+    JSON.parse(text); // validate
+    sessionStorage.setItem(SESSION_KEY, text);
+    sessionStorage.setItem(SESSION_NAME_KEY, file.name);
+    location.reload();
+  } catch (err) {
+    alert('Could not parse JSON: ' + err.message);
+  }
+});
+
+document.getElementById('use-sample').addEventListener('click', () => {
+  sessionStorage.removeItem(SESSION_KEY);
+  sessionStorage.removeItem(SESSION_NAME_KEY);
+  location.reload();
+});
+
+function escapeHtmlPre(s) { return String(s||'').replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch])); }
+
+// Render filter UIs
+const sevContainer = document.getElementById('filter-severity');
+SEVERITY_LIST.forEach(sev => {
+  const count = citations.filter(c => c.support === sev).length;
+  const label = document.createElement('label');
+  label.title = SEVERITY_DEFINITIONS[sev] || '';
+  label.innerHTML = `<input type="checkbox" checked data-sev="${sev}"> <span class="sev-bar ${sev}"></span> ${sev} <span style="color:var(--ink-faint);font-size:11px;font-variant-numeric:tabular-nums">(${count})</span>`;
+  sevContainer.appendChild(label);
+  label.querySelector('input').addEventListener('change', e => {
+    if (e.target.checked) state.severity.add(sev); else state.severity.delete(sev);
+    render();
+  });
+});
+
+const issueContainer = document.getElementById('filter-issue');
+const issueCounts = {};
+citations.forEach(c => (c.issues || []).forEach(i => issueCounts[i] = (issueCounts[i] || 0) + 1));
+const noIssueCount = citations.filter(c => !(c.issues || []).length).length;
+const issueEntries = [
+  ...Object.entries(ISSUE_LABELS).filter(([k]) => issueCounts[k]),
+  ...(noIssueCount ? [[NO_ISSUE, '(no issue flagged)']] : [])
+];
+issueEntries.forEach(([key, label]) => {
+  const count = key === NO_ISSUE ? noIssueCount : issueCounts[key];
+  const el = document.createElement('label');
+  el.innerHTML = `<input type="checkbox" checked data-issue="${key}"> ${label} <span style="color:var(--ink-faint);font-size:11px;font-variant-numeric:tabular-nums">(${count})</span>`;
+  issueContainer.appendChild(el);
+  el.querySelector('input').addEventListener('change', e => {
+    if (e.target.checked) state.issues.add(key); else state.issues.delete(key);
+    render();
+  });
+});
+
+document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+document.getElementById('search').addEventListener('input', e => { state.search = e.target.value.toLowerCase(); render(); });
+document.getElementById('f-critic').addEventListener('change', e => { state.criticOnly = e.target.checked; render(); });
+document.getElementById('f-indirect').addEventListener('change', e => { state.indirectOnly = e.target.checked; render(); });
+document.getElementById('f-hide-reviewed').addEventListener('change', e => { state.hideReviewed = e.target.checked; render(); });
+document.getElementById('reset').addEventListener('click', () => location.reload());
+
+document.querySelectorAll('.filter-actions a').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const kind = a.dataset.all || a.dataset.none;
+    const setOn = !!a.dataset.all;
+    const targetSet = kind === 'severity' ? state.severity : state.issues;
+    const all = kind === 'severity' ? SEVERITY_LIST : [...Object.keys(ISSUE_LABELS).filter(k => issueCounts[k]), ...(noIssueCount ? [NO_ISSUE] : [])];
+    targetSet.clear();
+    if (setOn) all.forEach(v => targetSet.add(v));
+    const container = kind === 'severity' ? sevContainer : issueContainer;
+    container.querySelectorAll('input[type=checkbox]').forEach(cb => { cb.checked = setOn; });
+    render();
+  });
+});
+
+document.getElementById('expand-all').addEventListener('click', e => {
+  e.preventDefault();
+  visibleCitations().forEach(c => state.open.add(c.id));
+  render();
+});
+document.getElementById('collapse-all').addEventListener('click', e => {
+  e.preventDefault();
+  state.open.clear();
+  render();
+});
+document.getElementById('print-report').addEventListener('click', e => {
+  e.preventDefault();
+  window.print();
+});
+document.getElementById('copy-link').addEventListener('click', async e => {
+  e.preventDefault();
+  encodeStateToHash();
+  const url = window.location.href;
+  try {
+    await navigator.clipboard.writeText(url);
+    const link = e.currentTarget;
+    const original = link.textContent;
+    link.textContent = 'Copied';
+    setTimeout(() => { link.textContent = original; }, 1200);
+  } catch {
+    prompt('Copy this URL:', url);
+  }
+});
+
+function passesFilters(c) {
+  if (!state.severity.has(c.support)) return false;
+  if (state.criticOnly) {
+    const s = c.critic && c.critic.status;
+    if (s !== 'partial' && s !== 'disagrees') return false;
+  }
+  if (state.indirectOnly) {
+    const p = (c.verification && c.verification.path) || '';
+    const isDirect = p === 'direct' || p === 'courtlistener-mcp' || p === 'courtlistener-rest';
+    if (isDirect) return false;
+  }
+  if (state.hideReviewed && state.reviewed.has(c.id)) return false;
+  if ((c.issues || []).length > 0) {
+    const anyAllowed = c.issues.some(i => state.issues.has(i));
+    if (!anyAllowed) return false;
+  } else {
+    if (!state.issues.has(NO_ISSUE)) return false;
+  }
+  if (state.search) {
+    const blob = [c.cite, c.proposition, c.precis, c.analysis, c.pincite, c.brief_quote, c.actual_text, c.short].filter(Boolean).join(' ').toLowerCase();
+    if (!blob.includes(state.search)) return false;
+  }
+  return true;
+}
+
+function visibleCitations() { return citations.filter(passesFilters); }
+
+function sortCitations(list) {
+  const arr = [...list];
+  if (state.sort === 'doc') arr.sort((a, b) => a.doc_index - b.doc_index);
+  else if (state.sort === 'severity') arr.sort((a, b) => SEVERITY_ORDER[a.support] - SEVERITY_ORDER[b.support] || a.doc_index - b.doc_index);
+  else if (state.sort === 'case') arr.sort((a, b) => a.case_key.localeCompare(b.case_key) || a.doc_index - b.doc_index);
+  else if (state.sort === 'issue') arr.sort((a, b) => {
+    const ai = (a.issues || [])[0] || 'zzz';
+    const bi = (b.issues || [])[0] || 'zzz';
+    return ai.localeCompare(bi) || SEVERITY_ORDER[a.support] - SEVERITY_ORDER[b.support];
+  });
+  return arr;
+}
+
+function groupKey(c) {
+  if (state.sort === 'case') return c.case_key;
+  if (state.sort === 'issue') return (c.issues || []).length ? ISSUE_LABELS[c.issues[0]] || c.issues[0] : 'No issue flagged';
+  if (state.sort === 'severity') return c.support + (c.support_note ? ` (${c.support_note})` : '');
+  return null;
+}
+
+// "Id." / "Id. at X" / "Id. (parenthetical)" only make sense when the previous citation
+// is visible immediately above. After filtering or sorting, the antecedent is often gone —
+// so swap to the resolved short_label (which the skill already produced as a fully-resolved
+// case + pincite reference). Keep the original short-form visible as a small annotation
+// so the user can verify against the brief.
+function resolveCiteDisplay(c) {
+  const raw = (c.cite || '').trim();
+  const isShortForm = /^id\b\.?/i.test(raw);
+  if (!isShortForm || !c.short || c.short === raw) {
+    return { display: raw, short_form_note: null };
+  }
+  return { display: c.short, short_form_note: raw };
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+}
+
+function applyClamps(root) {
+  // Apply optional clamping to long diff columns and pincite blockquotes.
+  // Each candidate gets .clampable + a toggle button if it overflows.
+  // Clicking the element itself ALSO toggles expansion (without collapsing the card).
+  const candidates = root.querySelectorAll('.diff > div, .detail blockquote');
+  candidates.forEach(el => {
+    el.classList.remove('clampable', 'expanded');
+    el.classList.add('clampable');
+    const overflows = el.scrollHeight - el.clientHeight > 8;
+    if (!overflows) {
+      el.classList.remove('clampable');
+      return;
+    }
+    const btn = document.createElement('button');
+    btn.className = 'clamp-toggle';
+    btn.type = 'button';
+    btn.textContent = 'Show full text ↓';
+    const toggleExpanded = (e) => {
+      // Don't trigger when the user is selecting text or clicking a child link
+      if (e.target && e.target.closest('a, mark')) return;
+      e.stopPropagation();
+      const expanded = el.classList.toggle('expanded');
+      btn.textContent = expanded ? 'Collapse ↑' : 'Show full text ↓';
+    };
+    btn.addEventListener('click', toggleExpanded);
+    el.addEventListener('click', toggleExpanded);
+    el.insertAdjacentElement('afterend', btn);
+  });
+}
+
+function highlightPhrase(text, phrase) {
+  if (!text || !phrase) return escapeHtml(text);
+  const idx = String(text).indexOf(phrase);
+  if (idx === -1) return escapeHtml(text);
+  return escapeHtml(text.slice(0, idx))
+    + '<mark>' + escapeHtml(phrase) + '</mark>'
+    + escapeHtml(text.slice(idx + phrase.length));
+}
+
+function cardHtml(c) {
+  const isOpen = state.open.has(c.id);
+  const isReviewed = state.reviewed.has(c.id);
+  const badgeClass = c.support === 'Adequate' && c.support_note && c.support_note.includes('caveat') ? 'AdequateC' : c.support;
+  const issueChips = (c.issues || []).map(i => `<span class="chip">${ISSUE_LABELS[i] || i}</span>`).join('');
+  const critic = c.critic || {};
+  let criticHtml = '';
+  if (critic.status && critic.status !== 'not-dispatched') {
+    const tag = critic.status === 'agrees' ? '✓ Critic agrees' : critic.status === 'partial' ? '◐ Critic partial' : '✗ Critic disagrees';
+    criticHtml = `<h4>Critic (${tag})</h4><div>${escapeHtml(critic.note || '')}</div>`;
+  }
+  const hasBothQuotes = !!(c.brief_quote && c.actual_text);
+  const diffMode = hasBothQuotes ? (c.quote_match ? 'match' : 'divergent') : 'neutral';
+  const briefSide  = hasBothQuotes ? c.brief_quote : c.proposition;
+  const sourceText = hasBothQuotes ? c.actual_text : c.pincite;
+  const sourceSide = c.match_phrase
+    ? highlightPhrase(sourceText, c.match_phrase)
+    : escapeHtml(sourceText);
+  const diffHtml = `<div class="diff diff-${diffMode}">
+      <div class="brief"><h5>Brief asserts</h5>${escapeHtml(briefSide)}</div>
+      <div class="actual"><h5>Pincite text</h5>${sourceSide}</div>
+    </div>`;
+  // Only re-show the full pincite blockquote when the diff shows a narrower
+  // brief-quote vs source-text comparison — i.e., in divergent or match mode
+  // with brief_quote/actual_text that may be tighter than the surrounding pincite.
+  const pinciteBlock = (hasBothQuotes && c.pincite && c.pincite !== c.actual_text)
+    ? `<h4>Pincite text — extended</h4><blockquote>${escapeHtml(c.pincite)}</blockquote>`
+    : '';
+  const actionHtml = c.action ? `<h4>Suggested action</h4><div>${escapeHtml(c.action)}</div>` : '';
+  const verif = c.verification || {};
+  const VERIF_LABELS = {
+    'direct':              'Direct CourtListener match',
+    'via-recitation':      'Verified via recitation (indirect)',
+    'external':            'External source (not in CourtListener)',
+    'courtlistener-mcp':   'CourtListener (MCP)',
+    'courtlistener-rest':  'CourtListener (REST)',
+    'google-scholar':      'Google Scholar',
+    'justia':              'Justia',
+    'direct-court':        'Direct court site',
+    'user-provided':       'User-provided',
+    'none':                'Unverified',
+  };
+  const verifLabel = VERIF_LABELS[verif.path] || (verif.found === false ? 'Unverified' : (verif.path || ''));
+
+  return `
+    <div class="card ${isOpen ? 'open' : ''} ${isReviewed ? 'reviewed' : ''}" id="card-${c.id}" data-card="${c.id}" data-sev="${badgeClass}">
+      <span class="doc-num">${String(c.doc_index ?? '').padStart(2, '0')}</span>
+      <div class="cite">${escapeHtml(resolveCiteDisplay(c).display)}</div>
+      ${resolveCiteDisplay(c).short_form_note ? `<div class="short-form-note">as cited: ${escapeHtml(resolveCiteDisplay(c).short_form_note)}</div>` : ''}
+      <div class="prop">${escapeHtml(c.proposition)}</div>
+      <div class="row">
+        <span class="badge ${badgeClass}" title="${escapeHtml(SEVERITY_DEFINITIONS[c.support] || '')}">${c.support}${c.support_note ? ' · ' + escapeHtml(c.support_note) : ''}</span>
+        <span class="chips">${issueChips}</span>
+        <span class="meta">${verifLabel}</span>
+        <button class="toggle" data-toggle="${c.id}">${isOpen ? 'Collapse' : 'Show detail'}</button>
+      </div>
+      <div class="detail">
+        ${diffHtml}
+        ${pinciteBlock}
+        <h4>Précis</h4><div>${escapeHtml(c.precis)}</div>
+        <h4>Analysis</h4><div>${escapeHtml(c.analysis)}</div>
+        ${criticHtml}
+        ${actionHtml}
+        <button class="reviewed-btn ${isReviewed ? 'on' : ''}" data-review="${c.id}">${isReviewed ? '✓ Reviewed' : 'Mark reviewed'}</button>
+      </div>
+    </div>
+  `;
+}
+
+function render() {
+  encodeStateToHash();
+  const visible = sortCitations(visibleCitations());
+  const total = citations.length;
+
+  document.getElementById('result-count').textContent =
+    `${visible.length} of ${total} citations`;
+
+  document.getElementById('counts').innerHTML = SEVERITY_LIST
+    .map(s => {
+      const n = citations.filter(c => c.support === s).length;
+      return n ? `<span class="badge ${s}">${s} · ${n}</span>` : '';
+    }).join('');
+
+  const cardsHost = document.getElementById('cards');
+  let html = '';
+  let lastGroup = null;
+  // Count visible members per group so we can show "Misleading · 3" in headers.
+  const groupCounts = {};
+  for (const c of visible) {
+    const g = groupKey(c);
+    if (g) groupCounts[g] = (groupCounts[g] || 0) + 1;
+  }
+  for (const c of visible) {
+    const g = groupKey(c);
+    if (g && g !== lastGroup) {
+      html += `<div class="group-header">${escapeHtml(g)}<span class="group-count">${groupCounts[g]}</span></div>`;
+      lastGroup = g;
+    }
+    html += cardHtml(c);
+  }
+  if (!visible.length) html = `<div class="empty">No citations match the current filters.</div>`;
+  cardsHost.innerHTML = html;
+
+  // Minimap (always doc order)
+  const minimap = document.getElementById('minimap');
+  minimap.innerHTML = citations
+    .slice()
+    .sort((a, b) => a.doc_index - b.doc_index)
+    .map(c => {
+      const hidden = !visible.includes(c);
+      const reviewed = state.reviewed.has(c.id);
+      const cls = `mini${hidden ? ' hidden' : ''}${reviewed ? ' reviewed' : ''}`;
+      const page = c.location && c.location.page;
+      const pageHtml = page ? `<span class="mini-page">${page}</span>` : '';
+      const titleSuffix = page ? ` — p. ${page}` : '';
+      return `<div class="${cls}" data-jump="${c.id}" data-sev="${c.support}" title="${escapeHtml(c.short)} — ${c.support}${titleSuffix}">${pageHtml}</div>`;
+    }).join('');
+
+  // Wire up card toggles
+  const toggleCard = (id) => {
+    if (state.open.has(id)) state.open.delete(id); else state.open.add(id);
+    render();
+  };
+  cardsHost.querySelectorAll('[data-toggle]').forEach(b => {
+    b.addEventListener('click', e => { e.stopPropagation(); toggleCard(b.dataset.toggle); });
+  });
+  cardsHost.querySelectorAll('[data-card]').forEach(card => {
+    card.addEventListener('click', e => {
+      // ignore clicks on interactive children inside the detail pane
+      if (e.target.closest('button, a, input, select, textarea, blockquote, .clampable, .clamp-toggle')) return;
+      toggleCard(card.dataset.card);
+    });
+  });
+  cardsHost.querySelectorAll('[data-review]').forEach(b => {
+    b.addEventListener('click', () => {
+      const id = b.dataset.review;
+      if (state.reviewed.has(id)) state.reviewed.delete(id); else state.reviewed.add(id);
+      persistReviewed();
+      render();
+    });
+  });
+  applyClamps(cardsHost);
+
+  minimap.querySelectorAll('[data-jump]').forEach(d => {
+    d.addEventListener('click', () => {
+      const id = d.dataset.jump;
+      state.open.add(id);
+      render();
+      const card = document.getElementById('card-' + id);
+      if (card) card.scrollIntoView({behavior: 'smooth', block: 'center'});
+    });
+  });
+}
+
+// Restore filter/sort/expansion from URL hash if present, then sync the
+// sidebar controls so they reflect what was restored.
+decodeStateFromHash();
+syncUIFromState();
+
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+You are generating drop-in BAA and DPA addenda for agent processing.
+
+Inputs: parent BAA, parent DPA, Agent Architecture, Action Catalogue, Responsible-AI Addendum, Policy Pack, SLO, Runbook, DPIA, HIPAA control pack (if applicable), sub-processor list.
+
+Produce:
+
+1. `AI_Agent_BAA_Addendum.md` — HIPAA business associate agreement addendum.
+2. `AI_Agent_DPA_Addendum.md` — GDPR data processing agreement addendum.
+3. `annexes/kenya.md`, `annexes/nigeria.md`, `annexes/south-africa.md`, `annexes/uganda.md`, `annexes/rwanda.md` — per-region annexes.
+
+Hard rules:
+
+- Every clause shall be specific and timeline-bearing. Avoid 'best efforts' and 'reasonable steps' unless the operative timeline is also stated.
+- BAA breach notification: ≤ 60 days; immediate to covered entity for ≥ 500 individuals; cooperation with HHS.
+- GDPR breach notification: ≤ 72 hours to controller.
+- Sub-processor change notice: 30 days minimum; right to object.
+- Memory erasure SLA: ≤ 30 days with certificate of erasure.
+- Kill-switch SLA: ≤ 5 s propagation.
+- Audit-log retention reference to the audit-log retention policy.
+- Cross-link to specific control IDs (HIPAA, SOC 2, ISO 27001).
+- Cross-jurisdiction transfer mechanism named explicitly per direction.
+- Signature block always last.
+- These are templates; flag legal review required prominently at the top of each file.
+
+Flag context gaps as `[CONTEXT-GAP: <clause> — <missing input>]`.

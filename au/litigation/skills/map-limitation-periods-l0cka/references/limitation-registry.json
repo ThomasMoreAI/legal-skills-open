@@ -1,0 +1,22 @@
+{
+  "registry_note": "Seed registry of general limitation candidates. Every entry is a routing lead in the pending-verification state: verify the statute and period through the jurisdiction's legislation checker at the assessment date before any reliance. A claim type not listed is 'cannot be determined', never cleared.",
+  "general_periods": [
+    {"jurisdiction": "Cth", "claim": "Australian Consumer Law damages", "period": "6 years", "basis": "Competition and Consumer Act 2010 (Cth) sch 2 s 236(2)", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "NSW", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation Act 1969 (NSW) s 14", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "VIC", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation of Actions Act 1958 (Vic) s 5", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "QLD", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation of Actions Act 1974 (Qld) s 10", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "WA", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation Act 2005 (WA) s 13", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "SA", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation of Actions Act 1936 (SA) s 35", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "TAS", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation Act 1974 (Tas) s 4", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "ACT", "claim": "Contract and tort (general)", "period": "6 years", "basis": "Limitation Act 1985 (ACT) s 11", "evidence": {"state": "pending-verification"}},
+    {"jurisdiction": "NT", "claim": "Contract and tort (general)", "period": "3 years", "basis": "Limitation Act 1981 (NT) s 12", "evidence": {"state": "pending-verification"}}
+  ],
+  "special_regimes": [
+    {"regime": "Child abuse claims", "flag": "No-limitation reforms apply in every jurisdiction; never state a limitation candidate for these claims — flag for the responsible lawyer."},
+    {"regime": "Defamation", "flag": "A one-year limitation period from publication applies in every jurisdiction, subject to extension provisions; jurisdiction and publication date drive the candidate. Checked at the 24 September 2026 review: Western Australia has not enacted the Stage 1 uniform defamation reforms (the Defamation Act 2005 (WA) has had no consolidation since 1 January 2006), so the single-publication rule and associated extension changes do not apply there; the Northern Territory has adopted them (Limitation Act 1981 (NT) s 44AAB single publication rule and s 44AA; Defamation Act 2006 (NT) ss 9A, 11A–11B, 26A, via the Defamation Legislation Amendment Act 2025) — confirm the NT commencement date and verify both at use."},
+    {"regime": "Personal injury", "flag": "Discoverability-based and scheme-specific periods (including motor accident and workers compensation schemes) displace the general period."},
+    {"regime": "Contribution claims", "flag": "Separate contribution periods run from judgment or settlement, not from the underlying wrong."},
+    {"regime": "Deceased estates", "flag": "Survival-of-actions and family-provision periods are separate and short; flag whenever a party has died."},
+    {"regime": "Disability, fraud and concealment", "flag": "Postponement and suspension provisions may extend any candidate; record as flags, never resolved."}
+  ]
+}

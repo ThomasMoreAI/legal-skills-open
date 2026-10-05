@@ -1,0 +1,8 @@
+interface:
+  display_name: "New Matter"
+  short_description: "Open a controlled litigation matter record"
+  default_prompt: "Use $new-matter to create a reviewable intake record and case-organization handoff."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

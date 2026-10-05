@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Privilege Log"
+  short_description: "Draft a candidate-only privilege log from matter documents for practitioner decision"
+  default_prompt: "Use $build-privilege-log to prepare a .docx privilege log from these documents: record author and recipient roles, purpose on the face, circulation and waiver flags for each row, label every basis as a candidate and leave each claim to the practitioner."

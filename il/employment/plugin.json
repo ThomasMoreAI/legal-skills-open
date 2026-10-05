@@ -9,8 +9,10 @@
   "practice": "employment",
   "language": "en",
   "skills": [
+    "skills/israeli-attendance-wage-checker-skills-il",
     "skills/israeli-employment-contract-reviewer-skills-il",
     "skills/israeli-employment-contracts",
+    "skills/israeli-hr-recruitment-automator-skills-il",
     "skills/israeli-workplace-rights-navigator"
   ]
 }

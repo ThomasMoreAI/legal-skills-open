@@ -1,0 +1,40 @@
+{
+  "property_address": "456 Commercial Avenue, Toronto, ON",
+  "property": {
+    "property_type": "commercial",
+    "property_value": 1250000.0,
+    "rental_income_monthly": 8000.0,
+    "distance_to_construction_m": 40.0,
+    "number_of_units": 1,
+    "business_type": "restaurant",
+    "annual_revenue": 850000.0,
+    "background_noise_dba": 55.0
+  },
+  "construction": {
+    "duration_months": 12.0,
+    "equipment": [
+      {
+        "equipment_type": "pile_driver",
+        "dba_at_15m": 105.0,
+        "hours_per_day": 5.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 88.0,
+        "hours_per_day": 7.0,
+        "days_per_week": 6
+      }
+    ],
+    "dust_impact_zone": "moderate",
+    "vibration_ppv_mms": 4.0,
+    "traffic_reduction_pct": 0.35,
+    "construction_hours_per_day": 10,
+    "night_work": false
+  },
+  "market_parameters": {
+    "sales_conversion_rate": 0.025,
+    "average_transaction_value": 65.0,
+    "gross_margin_pct": 0.45
+  }
+}

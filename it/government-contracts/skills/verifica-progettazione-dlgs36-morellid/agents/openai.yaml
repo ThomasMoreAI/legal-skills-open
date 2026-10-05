@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Verifica della progettazione e validazione del progetto (D.Lgs. 36/2023 art. 42)"
+short_description: Supporto documentale al RUP, al soggetto verificatore e al progettista per la verifica della progettazione e la validazione del progetto posto a base di gara nei contratti pubblici di lavori, ai sensi del D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici), art. 42. Inquadra l'oggetto della verifica (rispondenza al documento d'indirizzo della progettazione e conformita' alla normativa), che ha luogo durante lo sviluppo in relazione al livello (PFTE o esecutivo), con i tempi negli affidamenti congiunti e nel partenariato pubblico-privato (verifica del PFTE prima dell'avvio della procedura, verifica dell'esecutivo prima dell'inizio dei lavori); il ruolo del RUP che effettua o segue la verifica garantendo il contraddittorio, e l'incompatibilita' della verifica con progettazione, coordinamento della sicurezza, direzione lavori e collaudo; gli effetti della verifica positiva, che assolve gli obblighi di deposito e autorizzazione sismica e di denuncia al genio civile, con deposito nell'Archivio informatico nazionale delle opere pubbliche; la validazione, atto formale del RUP che riporta gli esiti della verifica con riferimento al rapporto conclusivo e alle controdeduzioni del progettista, i cui estremi vanno nel bando o nella lettera d'invito; il rinvio all'Allegato I.7 per contenuti, modalita' e soggetti. NON esegue la verifica ne' redige il rapporto o l'atto di validazione, non riproduce l'Allegato I.7 ne' gli obblighi sismici del DPR 380 e non sostituisce il RUP, il soggetto verificatore o il progettista.
+default_prompt: |
+  Devo mandare in gara un progetto di lavori pubblici: come inquadro la verifica della progettazione e
+  la validazione secondo l'art. 42 del D.Lgs. 36/2023? Quando va fatta la verifica, chi puo' farla e
+  cosa non puo' fare in parallelo, cosa comporta l'esito positivo e cosa deve contenere il bando?
+  Cita i commi.

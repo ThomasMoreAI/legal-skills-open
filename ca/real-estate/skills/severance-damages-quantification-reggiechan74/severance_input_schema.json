@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://vp-real-estate.com/schemas/severance-damages-input.json",
+  "title": "Severance Damages Calculation Input",
+  "description": "Input schema for partial taking severance damage calculations (USPAP 2024 compliant)",
+  "type": "object",
+  "required": ["property_before", "taking", "remainder"],
+  "properties": {
+    "property_before": {
+      "type": "object",
+      "required": [
+        "total_acres",
+        "frontage_linear_feet",
+        "road_classification",
+        "shape_ratio_frontage_depth",
+        "value_per_acre",
+        "use"
+      ],
+      "properties": {
+        "total_acres": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000,
+          "description": "Total land area before taking in acres"
+        },
+        "frontage_linear_feet": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000,
+          "description": "Road frontage before taking in linear feet"
+        },
+        "road_classification": {
+          "type": "string",
+          "enum": ["highway", "arterial", "collector", "local"],
+          "description": "Road type classification affecting frontage value"
+        },
+        "shape_ratio_frontage_depth": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5.0,
+          "description": "Frontage to depth ratio (e.g., 1:4 = 0.25)"
+        },
+        "value_per_acre": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10000000,
+          "description": "Market value per acre in dollars"
+        },
+        "use": {
+          "type": "string",
+          "enum": ["industrial", "commercial", "residential", "agricultural"],
+          "description": "Primary property use classification"
+        },
+        "development_potential_units": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Potential development units (lots, dwelling units)"
+        },
+        "buildable_area_sf": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Buildable area in square feet"
+        }
+      },
+      "additionalProperties": false
+    },
+    "taking": {
+      "type": "object",
+      "required": ["area_taken_acres", "frontage_lost_linear_feet", "creates_landlocked"],
+      "properties": {
+        "area_taken_acres": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Area acquired/expropriated in acres"
+        },
+        "frontage_lost_linear_feet": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Frontage lost to taking in linear feet"
+        },
+        "creates_landlocked": {
+          "type": "boolean",
+          "description": "Taking creates landlocked parcel (no road access)"
+        },
+        "eliminates_direct_access": {
+          "type": "boolean",
+          "description": "Taking eliminates direct road access"
+        },
+        "circuitous_access_added_minutes": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 120,
+          "description": "Additional travel time in minutes (for circuitous access)"
+        },
+        "creates_irregular_shape": {
+          "type": "boolean",
+          "description": "Taking creates irregular parcel shape"
+        },
+        "severs_utilities": {
+          "type": "boolean",
+          "description": "Taking severs utility services (water, sewer, drainage)"
+        },
+        "reduces_development_potential": {
+          "type": "boolean",
+          "description": "Taking reduces development potential"
+        },
+        "bisects_farm": {
+          "type": "boolean",
+          "description": "Taking bisects farm operation (agricultural properties only)"
+        },
+        "disrupts_irrigation": {
+          "type": "boolean",
+          "description": "Taking disrupts irrigation system (agricultural properties only)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "remainder": {
+      "type": "object",
+      "required": [
+        "acres",
+        "frontage_remaining_linear_feet",
+        "shape_ratio_frontage_depth",
+        "access_type"
+      ],
+      "properties": {
+        "acres": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Remainder parcel area in acres"
+        },
+        "frontage_remaining_linear_feet": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Remaining road frontage in linear feet"
+        },
+        "shape_ratio_frontage_depth": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 5.0,
+          "description": "Frontage to depth ratio after taking"
+        },
+        "access_type": {
+          "type": "string",
+          "enum": ["direct", "circuitous", "landlocked"],
+          "description": "Type of access remaining after taking"
+        },
+        "buildable_area_sf": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Remaining buildable area in square feet"
+        },
+        "development_potential_units": {
+          "type": ["integer", "null"],
+          "minimum": 0,
+          "description": "Remaining development potential in units"
+        },
+        "requires_new_fencing_linear_meters": {
+          "type": "number",
+          "minimum": 0,
+          "description": "New fencing required in linear meters (agricultural properties)"
+        },
+        "irrigation_acres_affected": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Acres affected by irrigation disruption (agricultural properties)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "market_parameters": {
+      "type": "object",
+      "required": ["cap_rate"],
+      "properties": {
+        "cap_rate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 0.20,
+          "description": "Market capitalization rate (decimal, e.g., 0.07 for 7%)"
+        },
+        "travel_time_value_per_hour": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Value of travel time in dollars per hour"
+        },
+        "trips_per_day": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Average trips per day for access cost modeling"
+        },
+        "business_days_per_year": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 365,
+          "description": "Business operating days per year"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

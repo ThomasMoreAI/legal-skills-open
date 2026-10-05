@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: Compensi del CTU / ausiliario del magistrato (D.P.R. 115/2002)
+short_description: Supporto documentale alla liquidazione dei compensi del CTU / ausiliario del magistrato ai sensi del Testo Unico spese di giustizia (D.P.R. 115/2002, Parte III). Inquadra le spettanze (onorario, indennita'/spese di viaggio, rimborso spese), il tipo di onorario (fisso, variabile per difficolta'/completezza/pregio, a tempo con vacazioni), gli aumenti/riduzioni (urgenza fino al 20%, eccezionale complessita' fino al doppio, incarico collegiale +40% per componente) e la procedura di liquidazione (decreto di pagamento, opposizione). NON calcola gli importi (tabelle del DM 30/5/2002, non riprodotte), non redige il decreto e non tratta i compensi del CTP di parte.
+default_prompt: |
+  Come CTU devo predisporre l'istanza di liquidazione del mio compenso: quali voci
+  spettano, come si inquadra l'onorario (a vacazioni o variabile), quali aumenti
+  posso far valere e come avviene la liquidazione ai sensi del D.P.R. 115/2002?
+  Cita gli articoli.

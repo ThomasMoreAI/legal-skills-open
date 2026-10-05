@@ -1,0 +1,8 @@
+interface:
+  display_name: "Litigation Writing"
+  short_description: "Draft advocacy or neutral legal analysis"
+  default_prompt: "Use $writing to draft this litigation document in the right advocacy or neutral-analysis mode."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

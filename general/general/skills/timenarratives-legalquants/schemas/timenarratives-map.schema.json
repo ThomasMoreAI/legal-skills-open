@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/timenarratives-map.schema.json",
+  "title": "TimeNarrativesMapV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "packetDigest",
+    "unitAssessment",
+    "atoms",
+    "events",
+    "workstreams",
+    "clauses"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "timenarratives.map.v1" },
+    "runId": { "$ref": "#/$defs/id" },
+    "packetDigest": { "$ref": "#/$defs/sha256" },
+    "unitAssessment": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/unitAssessment" }
+    },
+    "atoms": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/atom" }
+    },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    },
+    "workstreams": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/workstream" }
+    },
+    "clauses": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/clause" }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "externalIdentity": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "nullableText": {
+      "type": ["string", "null"],
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "unitAssessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unitId", "disposition", "reason"],
+      "properties": {
+        "unitId": { "$ref": "#/$defs/id" },
+        "disposition": {
+          "enum": [
+            "used",
+            "read_but_unused",
+            "excluded_other_actor",
+            "excluded_other_matter",
+            "excluded_non_work",
+            "needs_confirmation"
+          ]
+        },
+        "reason": {
+          "type": ["string", "null"],
+          "enum": [
+            null,
+            "actor_unclear",
+            "matter_unclear",
+            "action_unclear",
+            "object_unclear",
+            "source_unsupported",
+            "source_unreadable",
+            "source_partially_read",
+            "other_actor",
+            "other_matter",
+            "non_work",
+            "not_relevant"
+          ]
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "disposition": { "const": "used" },
+            "reason": { "const": null }
+          }
+        },
+        {
+          "properties": {
+            "disposition": { "const": "read_but_unused" },
+            "reason": { "const": "not_relevant" }
+          }
+        },
+        {
+          "properties": {
+            "disposition": { "const": "excluded_other_actor" },
+            "reason": { "const": "other_actor" }
+          }
+        },
+        {
+          "properties": {
+            "disposition": { "const": "excluded_other_matter" },
+            "reason": { "const": "other_matter" }
+          }
+        },
+        {
+          "properties": {
+            "disposition": { "const": "excluded_non_work" },
+            "reason": { "const": "non_work" }
+          }
+        },
+        {
+          "properties": {
+            "disposition": { "const": "needs_confirmation" },
+            "reason": {
+              "enum": [
+                "actor_unclear",
+                "matter_unclear",
+                "action_unclear",
+                "object_unclear",
+                "source_unsupported",
+                "source_unreadable",
+                "source_partially_read"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "atom": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "atomId",
+        "unitId",
+        "startByte",
+        "endByte",
+        "spanSha256",
+        "components"
+      ],
+      "properties": {
+        "atomId": { "$ref": "#/$defs/id" },
+        "unitId": { "$ref": "#/$defs/id" },
+        "startByte": { "type": "integer", "minimum": 0 },
+        "endByte": { "type": "integer", "minimum": 1 },
+        "spanSha256": { "$ref": "#/$defs/sha256" },
+        "components": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": ["actor", "action", "object", "matter", "purpose"]
+          }
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eventId",
+        "assertedBy",
+        "performedByActorId",
+        "namedTimekeeperActorId",
+        "action",
+        "object",
+        "purpose",
+        "matterId",
+        "workstreamId",
+        "atomIds"
+      ],
+      "properties": {
+        "eventId": { "$ref": "#/$defs/id" },
+        "assertedBy": { "type": "string", "minLength": 1, "maxLength": 200 },
+        "performedByActorId": { "$ref": "#/$defs/externalIdentity" },
+        "namedTimekeeperActorId": { "$ref": "#/$defs/externalIdentity" },
+        "action": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "object": { "type": "string", "minLength": 1, "maxLength": 300 },
+        "purpose": { "$ref": "#/$defs/nullableText" },
+        "matterId": { "$ref": "#/$defs/externalIdentity" },
+        "workstreamId": { "$ref": "#/$defs/id" },
+        "atomIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        }
+      }
+    },
+    "workstream": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["workstreamId", "label", "category"],
+      "properties": {
+        "workstreamId": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "category": { "enum": ["substantive", "administrative", "other"] }
+      }
+    },
+    "clause": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "clauseId",
+        "workstreamId",
+        "clauseOwnerActorId",
+        "eventIds",
+        "text"
+      ],
+      "properties": {
+        "clauseId": { "$ref": "#/$defs/id" },
+        "workstreamId": { "$ref": "#/$defs/id" },
+        "clauseOwnerActorId": { "$ref": "#/$defs/externalIdentity" },
+        "eventIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1202,
+          "pattern": "^(?![\\s\\S]*[\\u0000-\\u0009\\u000b-\\u001f\\u007f-\\u00a0\\u00ad\\u034f\\u0600-\\u0605\\u061c\\u06dd\\u070f\\u0890-\\u0891\\u08e2\\u115f-\\u1160\\u1680\\u17b4-\\u17b5\\u180b-\\u180f\\u2000-\\u200f\\u2028-\\u202f\\u205f\\u2060-\\u206f\\u3000\\u3164\\ud800-\\udfff\\ufe00-\\ufe0f\\ufeff\\uffa0\\ufff0-\\ufffb\ud804\udcbd\ud804\udccd\ud80d\udc30-\ud80d\udc3f\ud82f\udca0-\ud82f\udca3\ud834\udd73-\ud834\udd7a\udb40\udc00-\udb43\udfff])(?=[^\\r\\n]{1,600}(?:\\n\\n|(?![\\s\\S])))(?=[^\\r\\n]*[A-Za-z])[^\\r\\n ]+(?: [^\\r\\n ]+){0,59}(?:\\n\\n(?=[^\\r\\n]{1,600}(?![\\s\\S]))(?=[^\\r\\n]*[A-Za-z])[^\\r\\n ]+(?: [^\\r\\n ]+){0,59})?(?![\\s\\S])"
+        }
+      }
+    }
+  }
+}

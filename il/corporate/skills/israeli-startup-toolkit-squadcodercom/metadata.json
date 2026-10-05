@@ -1,0 +1,43 @@
+{
+  "author": "skills-il",
+  "version": "1.2.0",
+  "category": "developer-tools",
+  "tags": {
+    "he": [
+      "סטארטאפ",
+      "הקמת-חברה",
+      "מענקים",
+      "השקעות",
+      "מיסים",
+      "אופציה-102",
+      "ישראל"
+    ],
+    "en": [
+      "startup",
+      "company-formation",
+      "grants",
+      "investment",
+      "tax",
+      "option-102",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ערכת כלים לסטארטאפ",
+    "en": "Israeli Startup Toolkit"
+  },
+  "display_description": {
+    "he": "מדריך מעשי להקמת סטארטאפ בישראל ב-2026: רישום חברה בע\"מ (אגרה 2,614 ש\"ח, אגרה שנתית 1,338/1,777 ש\"ח), בחירת תוכנית רשות החדשנות (תנופה עד 200 אלף ש\"ח, קרן מו\"פ, BIRD, יוזמה 2.0), הסכמי SAFE ושטר המיר, הקמת תוכנית 102 (תקופת החזקה 24 חודשים מתום שנת המס של ההענקה, מס רווח הון 25%), מעמד מפעל טכנולוגי מועדף (12% / 7.5%), והחלטה על Delaware Flip. השתמשו כשמשתמש שואל על רישום חברה, מענקים, השקעות, אופציות לעובדים או היערכות לדלאוור. אל תשתמשו לייעוץ מס בארה\"ב או למבני חברה לא ישראליים. תמיד להמליץ על עורך דין ורואה חשבון ישראלים.",
+    "en": "Guide Israeli startup operations including company formation, Innovation Authority grants, investment agreements, R&D tax benefits, and employee stock options (Option 102). Use when user asks about starting a company in Israel, IIA grants, \"Innovation Authority\", SAFE agreements (Israeli), convertible notes, Option 102, employee stock options in Israel, R&D tax benefits, preferred enterprise, Yozma 2.0, Delaware flip, or Israeli startup legal/financial setup. Do NOT use for non-Israeli company formation or international tax advice. Always recommend consulting with Israeli lawyer and accountant for binding decisions."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}
