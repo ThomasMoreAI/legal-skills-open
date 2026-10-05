@@ -1,0 +1,33 @@
+# Changelog
+
+## 1.3.0 - 2026-08-26
+
+Regulatory-drift correction. The skill's centrepiece was a repealed directive.
+
+- **Bank of Israel Directive 361 is repealed.** Directive 364 took effect on 18/05/2026 (or on earlier adoption by the banking corporation) and cancelled Directives 357, 361 and 363 plus two 2009 supervision letters. v1.2.2 described 364 as future-dated and kept 361 as "the operative directive most agents reference", three months after it ceased to exist. Rewritten throughout: description, framework table, decision logic, Step 3, Step 4, Step 6, Example 2, Gotchas and Reference Links.
+- **Cloud is not a BOI pre-approval regime.** v1.2.2 asserted twice that cloud providers need explicit Bank of Israel approval. Directive 362 (version 5, 17/06/2026) requires a senior-management cloud policy, board approval for material cloud, and an annual report under reporting directive 881, and states the supervisory approach is enabling ("Business enabler"). Corrected.
+- **Removed invented ISA reporting thresholds.** "Operational disruption over 24 hours" and "financial loss over 1% of equity" appear in no ISA instrument; staff position 105-33 was retrieved and read in full and contains neither. Replaced with the instruments that actually govern: regulation 36 of the Securities Regulations (Periodic and Immediate Reports), 5730-1970, and ISA staff position 105-33 "Disclosure on Cyber" (October 2018, updated 25 January 2023).
+- **Removed the invented INCD reporting deadlines.** The four-tier severity ladder in references/incd-guidelines.md (Critical "within hours", High 24h, Medium 72h, Low best effort) is published nowhere. INCD publishes no deadline for any sector.
+- **Added the statute that does bind.** The Severe Cyber Attacks in the Digital Services and Hosting Sector (Temporary Order) Law, 5784-2023, is the one binding civilian-sector reporting duty, so "private-sector reporting is voluntary" was wrong for digital-service and hosting providers.
+- **Directive 366 updated** 17/06/2026 (circular 2848, update 4), retitled, adding a duty to report a serious security event under section 31 of the Financial Information Service Law, 5782-2021, with a parallel change to reporting directive 880. Added 362, 367 and 368 (Open Banking, 01/09/2025) to the framework map.
+- **National Cyber Defense Law re-staged.** No longer a January 2026 memorandum: government bill 1955, passed first reading, in committee preparing for second and third reading since 29/07/2026. Still not enacted. Its 24h/72h clocks must not be presented as current obligation.
+- **Amendment 13 citation corrected.** The immediate PPA notification duty is regulation 11(d)(1) of the Privacy Protection (Data Security) Regulations, 5777-2017, scoped to databases at medium or high security level and binding the holder as well as the owner. Amendment 13 added the financial sanction under section 21 of the Third Schedule. Added the first enforcement (21.07.2026, 256,000 NIS) and the PPA's position that the required report is a preliminary one and that waiting for full investigation empties the immediacy requirement.
+- **DPO scope** now includes the systematic-monitoring limb.
+- **Sector instruments named rather than gestured at**: MoH Director-General Circular 06/2022; the Ministry of Communications administrative directive "Cyber Protection Management" and its licence annex (amendment 28). Noted that IMPA publishes no cyber directive.
+- **Removed the unverifiable MALMAB material**, including a four-level classification ladder with a tier matching no published Israeli scheme. MALMAB directives are not published, so the skill now routes to the user's security officer instead of describing controls it cannot source.
+- **Added `references/domain-checklist.md`**, which the skill never had, and a legal notice after the H1 in both files.
+- **WRONG-REGULATOR CORRECTIONS, found by expert review after the drift fix.** These are scope errors, not date errors, and they predate this cycle:
+  - **Insurers were being sent to the banking directives.** Directive 364's own applicability clause (section 10.1) binds corporations under the Banking (Licensing) Law, 5741-1981, plus a payment-service provider of systemic importance under section 36T. The full 57-page text contains no occurrence of "ביטוח". Insurers, pension and provident bodies are supervised by the Capital Market, Insurance and Savings Authority under Institutional Bodies Circular 2016-9-14 (31/08/2016). Corrected in all four files.
+  - **Non-bank payment providers were being sent to the Bank of Israel.** The Payment Services and Payment Initiation Law, 5783-2023 defines "the Authority" as the Israel Securities Authority and makes information security, cyber protection and risk management licensing conditions under the Authority's regulator instructions. Only a systemically important provider falls inside Directive 364.
+  - **The Regulation of Security in Public Bodies Law, 5758-1998 was missing entirely**, so the first question in the decision tree ("is this a designated body?") was both unanswerable and wrongly attributed to INCD.
+- **Removed a second round of unsourced material the first pass missed**: a BOI cloud pre-approval bullet and a "within 24 hours" banking reporting clock still in `references/sector-rules.md`, a fintech pre-launch BOI cyber submission still asserted in both SKILL files after being retracted in the reference file, an "INCD mandatory incident reporting" line in the energy section, "quarterly board reports" (the word "quarterly" does not appear in Directive 364; clauses 17.7 and 17.8 set annual cadences), "annual pen test by certified Israeli firm", and "Israeli payment providers must meet PCI DSS" (a card-scheme contractual standard, not Israeli law).
+- **The control matrix is now labelled for what it is**: a working inventory carried from the repealed 361, explicitly not a 364 control list, with a blocking instruction not to build an audit evidence package from it without reading Directive 364.
+- **Corrected the skill's own verification instruction.** The BOI index still lists 357, 361 and 363 as ordinary rows as of 26/08/2026; the repeal appears only on the individual directive pages. An agent checking the index alone would conclude 361 is alive.
+- **ISO 27001 mappings moved from 2013 to 2022 Annex A numbering** (A.9, A.16, A.17, A.12.4 and A.7.2.2 no longer exist in the 2022 edition).
+- **metadata.json** display descriptions rewrote to drop the live reference to repealed Directive 361 and to open with the legal clause.
+
+
+## 1.2.2 - 2026-08-11
+
+Removed the unsourced "99.9% availability for critical clinical systems" requirement, which appears on no Ministry of Health source.
+

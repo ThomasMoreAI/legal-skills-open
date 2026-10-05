@@ -4,11 +4,12 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `il` · Practice: `general` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Hebrew Legal Research`](skills/hebrew-legal-research/) | Assist with Israeli legal research including legislation lookup, case law concepts, Hebrew legal… |
+| [`Meturgaman`](skills/meturgaman-oranburg/) | Answer questions about Jewish law, thought and practice from fetched primary sources, and retrieve… |
 
 ## Cold-start context
 

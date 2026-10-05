@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="{{LANG_CODE}}"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Use Policy · {{COMPANY}} ({{LEGAL_ENTITY}})</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f5f7; --paper-rise:#fafbfc; --paper-deep:#ecedf0;
+  --ink-900:#0b1220; --ink-800:#26303f; --ink-700:#1f2937; --ink-500:#4b5563; --ink-400:#6b7280; --ink-300:#9ca3af;
+  --aurora-deep:#1e1b4b; --aurora-mid:#4f46e5; --aurora-bright:#6366f1; --aurora-light:#a5b4fc;
+  --flare:#f97316; --flare-ink:#c2410c; --flare-soft:rgba(249,115,22,.10);
+  --hair:rgba(15,23,42,.10); --hair-soft:rgba(15,23,42,.07); --hair-strong:rgba(15,23,42,.16);
+  --indigo-wash:rgba(79,70,229,.05);
+  --font-sans:'Geist',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --font-mono:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --font-display:'Instrument Serif','Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif;
+}
+
+*{box-sizing:border-box;}
+html{ -webkit-text-size-adjust:100%; }
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  color:var(--ink-900);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  background:#e9eaee;
+  background-image:
+    radial-gradient(ellipse 1200px 900px at 8% -8%, rgba(99,102,241,.16) 0%, transparent 58%),
+    radial-gradient(ellipse 800px 700px at 108% 95%, rgba(249,115,22,.08) 0%, transparent 58%),
+    radial-gradient(ellipse 700px 600px at 96% 30%, rgba(165,180,252,.18) 0%, transparent 58%);
+  background-attachment:fixed;
+}
+
+/* Screen gallery: single vertical column on every viewport. Every sheet (cover,
+   rules parts, duties) appears one below the other, centered. Matches print page
+   order exactly, never wraps side-by-side regardless of screen width. */
+.gallery{ display:flex; flex-direction:column; align-items:center; gap:32px; padding:40px 20px 60px; }
+.col{ display:flex; flex-direction:column; align-items:center; gap:32px; width:100%; }
+
+.sheet{
+  width:210mm; min-height:297mm;
+  background:#ffffff;
+  box-shadow:0 30px 70px -28px rgba(15,23,42,.42), 0 8px 22px -14px rgba(15,23,42,.20);
+  position:relative;
+  padding:11mm 14mm 11mm;
+  display:flex; flex-direction:column;
+}
+/* cover stays a fixed A4, never flows */
+.sheet.cover{ height:297mm; min-height:297mm; overflow:hidden; }
+.sheet::before{
+  content:""; position:absolute; inset:0; pointer-events:none; z-index:0;
+  background:
+    radial-gradient(ellipse 150mm 80mm at 0% -4%, rgba(99,102,241,.05) 0%, transparent 60%),
+    radial-gradient(ellipse 120mm 70mm at 104% 104%, rgba(249,115,22,.045) 0%, transparent 60%);
+}
+.sheet > *{ position:relative; z-index:1; }
+
+.mast{ display:flex; justify-content:space-between; align-items:flex-end; gap:8mm; }
+.mast-l{ min-width:0; }
+.eyebrow{ font-family:var(--font-mono); font-size:7.4pt; letter-spacing:.2em; text-transform:uppercase; color:var(--aurora-mid); display:inline-flex; align-items:center; gap:7px; margin-bottom:2.2mm; }
+.eyebrow::before{ content:""; width:18px; height:1px; background:currentColor; }
+
+.mast-cont{ display:flex; justify-content:space-between; align-items:center; gap:8mm; padding-bottom:3mm; border-bottom:1px solid var(--hair); }
+.mast-cont .l{ display:flex; align-items:center; gap:2.6mm; }
+.mast-cont .l .orb{ width:6mm; height:6mm; display:block; }
+.mast-cont .l .nm{ font-family:var(--font-display); font-style:italic; font-size:12pt; color:var(--ink-900); }
+.mast-cont .l .sub{ font-family:var(--font-mono); font-size:6pt; letter-spacing:.16em; text-transform:uppercase; color:var(--aurora-mid); }
+.mast-cont .r{ font-family:var(--font-mono); font-size:6.8pt; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-400); }
+
+.band{ display:grid; grid-template-columns:32mm 1fr; gap:7mm; padding:2.1mm 0; border-bottom:1px solid var(--hair-soft); break-inside:avoid; page-break-inside:avoid; }
+.band:last-of-type{ border-bottom:0; }
+.band-tag{ display:flex; flex-direction:column; gap:1.8mm; }
+.band-num{ display:none; }
+.band-name{ font-family:var(--font-display); font-style:italic; font-size:16pt; line-height:1.04; color:var(--ink-900); }
+.band-hint{ font-family:var(--font-mono); font-size:6.2pt; letter-spacing:.08em; color:var(--ink-400); text-transform:uppercase; }
+
+.clauses{ display:flex; flex-direction:column; gap:3.1mm; }
+.clause{ break-inside:avoid; position:relative; padding-left:6.5mm; }
+.clause h4{ font-family:var(--font-sans); font-weight:600; font-size:9.4pt; letter-spacing:-.005em; color:var(--ink-900); margin:0 0 1.4mm; }
+.clause h4 .cn{ position:absolute; left:0; top:.2mm; font-family:var(--font-mono); font-size:8pt; color:var(--aurora-mid); font-weight:500; letter-spacing:.02em; }
+.clause p{ font-size:8.7pt; line-height:1.5; color:var(--ink-700); margin:0; }
+.clause p + p{ margin-top:1.4mm; }
+.clause .lead{ color:var(--ink-500); }
+
+.tag-mono{ font-family:var(--font-mono); font-size:7.8pt; letter-spacing:.02em; background:var(--paper-deep); color:var(--ink-700); padding:.6mm 1.8mm; border-radius:3px; border:1px solid var(--hair-soft); display:inline-block; }
+.flare-tag{ font-family:var(--font-mono); font-size:7.8pt; letter-spacing:.02em; font-weight:500; background:var(--flare-soft); color:var(--flare-ink); padding:.6mm 1.8mm; border-radius:3px; border:1px solid rgba(249,115,22,.22); display:inline-block; }
+
+.duties{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:3mm; margin-top:1mm; }
+.duty{ border:1px solid var(--hair); border-radius:8px; padding:2.2mm 3.2mm; background:var(--paper-rise); }
+.duty .n{ font-family:var(--font-mono); font-size:6.4pt; letter-spacing:.13em; color:var(--aurora-mid); }
+.duty .t{ font-family:var(--font-sans); font-weight:600; font-size:9pt; color:var(--ink-900); margin:1mm 0 1.2mm; }
+.duty .d{ font-size:8pt; line-height:1.42; color:var(--ink-700); }
+.duty .ref{ font-family:var(--font-mono); font-size:6.2pt; color:var(--ink-400); margin-top:1.6mm; display:block; }
+
+.matrix{ border:1px solid var(--hair); border-radius:7px; overflow:hidden; margin-top:1mm; }
+.mrow{ display:grid; grid-template-columns:44mm 1fr; border-top:1px solid var(--hair-soft); }
+.mrow:first-child{ border-top:0; }
+.mrow .mt{ padding:1.2mm 2.8mm; font-family:var(--font-mono); font-size:7.4pt; letter-spacing:.02em; color:var(--ink-900); background:var(--paper-deep); border-right:1px solid var(--hair-soft); display:flex; align-items:center; }
+.mrow .md{ padding:1.2mm 3mm; font-size:8.4pt; line-height:1.4; color:var(--ink-700); }
+.mrow.head .mt, .mrow.head .md{ font-family:var(--font-mono); font-size:6.2pt; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-400); background:var(--paper-rise); }
+.mrow .md b{ font-weight:600; color:var(--ink-900); }
+.dot-sc{ color:var(--flare-ink); margin-right:1mm; }
+
+.reg{ border:1px solid var(--hair); border-radius:7px; overflow:hidden; margin-top:1mm; }
+.rrow{ display:grid; grid-template-columns:58mm 26mm 1fr; border-top:1px solid var(--hair-soft); }
+.rrow:first-child{ border-top:0; }
+.rrow > div{ padding:1.2mm 2.8mm; font-size:8.2pt; line-height:1.4; color:var(--ink-700); }
+.rrow.head > div{ font-family:var(--font-mono); font-size:6.2pt; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-400); background:var(--paper-rise); }
+.rrow .tool{ font-weight:600; color:var(--ink-900); }
+.rrow .tier{ font-family:var(--font-mono); font-size:7.4pt; color:var(--aurora-mid); }
+.reg-note{ font-family:var(--font-mono); font-size:6.4pt; color:var(--ink-400); margin-top:1.6mm; }
+
+.proh-box{ border:1px solid rgba(249,115,22,.3); border-radius:11px; background:linear-gradient(180deg, rgba(249,115,22,.07) 0%, rgba(249,115,22,.025) 100%); padding:3.6mm 5mm 3.8mm; break-inside:avoid; }
+.proh-cols{ display:grid; grid-template-columns:1fr 1fr; gap:3.4mm 7mm; }
+.proh-col .cap{ font-family:var(--font-mono); font-size:6.4pt; letter-spacing:.13em; text-transform:uppercase; color:var(--flare-ink); margin:0 0 2.2mm; padding-bottom:1.4mm; border-bottom:1px solid rgba(249,115,22,.22); }
+.proh{ font-size:8.4pt; line-height:1.4; color:var(--ink-800); padding-left:5.6mm; position:relative; }
+.proh + .proh{ margin-top:1.8mm; }
+.proh::before{ content:"\2298"; position:absolute; left:0; top:-.2mm; font-size:9pt; color:var(--flare); line-height:1.4; }
+.proh b{ font-weight:600; color:var(--ink-900); }
+
+.hl{ border:1px solid rgba(79,70,229,.22); border-radius:9px; background:var(--indigo-wash); padding:3.4mm 4.2mm; }
+.hl .big{ font-family:var(--font-display); font-style:italic; font-size:14.5pt; line-height:1.04; color:var(--aurora-deep); margin:0 0 1.6mm; }
+.hl p{ font-size:8.7pt; line-height:1.5; color:var(--ink-700); margin:0; }
+.hl p .lead{ color:var(--ink-500); }
+.hl b{ color:var(--ink-900); font-weight:600; }
+
+.contacts{ display:grid; grid-template-columns:1fr 1fr; gap:3.4mm; margin-top:1mm; }
+.contact{ border:1px solid var(--hair); border-radius:8px; padding:3mm 3.4mm; background:var(--paper-rise); }
+.contact .k{ font-family:var(--font-mono); font-size:6.2pt; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-400); }
+.contact .who{ font-family:var(--font-sans); font-weight:600; font-size:9.4pt; color:var(--ink-900); margin-top:.8mm; }
+.contact .ln{ font-size:8pt; color:var(--ink-700); margin-top:.8mm; }
+.contact .ln code{ font-family:var(--font-mono); font-size:7.6pt; color:var(--aurora-mid); }
+
+.ack{ margin-top:1mm; padding:3mm 3.6mm; border:1px solid var(--hair); border-radius:8px; background:var(--indigo-wash); font-size:8.4pt; color:var(--ink-700); line-height:1.46; }
+.ack b{ color:var(--ink-900); font-weight:600; }
+
+.spacer{ flex:1 1 auto; min-height:0; }
+.sigs{ display:flex; gap:10mm; margin-top:4mm; }
+.sig{ flex:1; }
+.sig .line{ border-top:1px solid var(--hair-strong); padding-top:1.8mm; }
+.sig .who{ font-size:9pt; font-weight:600; color:var(--ink-900); }
+.sig .role-lbl{ font-family:var(--font-mono); font-size:6.4pt; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-400); margin-top:.8mm; }
+
+.foot{ display:flex; justify-content:space-between; align-items:center; margin-top:3.4mm; padding-top:2.4mm; border-top:1px solid var(--hair-soft); }
+.foot .lhs{ font-family:var(--font-mono); font-size:6.6pt; letter-spacing:.05em; color:var(--ink-400); }
+.foot .brand{ display:flex; align-items:center; gap:2mm; }
+.foot .brand .orb{ width:4.4mm; height:4.4mm; display:block; }
+.foot .brand .txt{ font-family:var(--font-mono); font-size:6.4pt; letter-spacing:.06em; color:var(--ink-400); }
+.foot .brand .wm{ font-family:var(--font-display); font-style:italic; font-size:9pt; color:var(--aurora-deep); }
+
+/* Cover */
+.sheet.cover{ padding:0; background:#161634; color:#eef0fb; height:297mm; min-height:297mm; overflow:hidden; }
+.cover-bg{ position:absolute; inset:0; z-index:0; overflow:hidden;
+  background:
+    radial-gradient(ellipse 150mm 95mm at 50% 24%, rgba(129,140,248,.42) 0%, transparent 60%),
+    radial-gradient(ellipse 130mm 110mm at 6% 108%, rgba(99,102,241,.34) 0%, transparent 60%),
+    radial-gradient(ellipse 120mm 100mm at 104% 4%, rgba(150,165,250,.30) 0%, transparent 58%),
+    radial-gradient(ellipse 120mm 95mm at 100% 106%, rgba(249,140,90,.20) 0%, transparent 58%),
+    linear-gradient(155deg, #2a2f63 0%, #22244f 52%, #161634 100%);
+}
+.cover-grid{ position:absolute; inset:0; z-index:1; opacity:.5;
+  background-image:linear-gradient(rgba(200,208,255,.10) 1px, transparent 1px), linear-gradient(90deg, rgba(200,208,255,.08) 1px, transparent 1px);
+  background-size:18mm 18mm, 18mm 18mm;
+  -webkit-mask-image:radial-gradient(ellipse 150mm 120mm at 50% 42%, #000 0%, transparent 78%);
+          mask-image:radial-gradient(ellipse 150mm 120mm at 50% 42%, #000 0%, transparent 78%);
+}
+.cover-vig{ position:absolute; inset:0; z-index:2; background:radial-gradient(ellipse 160mm 140mm at 50% 44%, transparent 50%, rgba(8,9,26,.55) 100%); }
+.cover-inner{ position:relative; z-index:3; height:100%; display:flex; flex-direction:column; padding:24mm 22mm 18mm; }
+.cover-top{ display:flex; align-items:center; gap:3.6mm; }
+.cover-top .orb{ width:11mm; height:11mm; display:block; filter:drop-shadow(0 3mm 6mm rgba(8,8,30,.5)); }
+.cover-top .wm{ font-family:var(--font-display); font-style:italic; font-size:19pt; color:#dfe3fb; letter-spacing:-.01em; }
+.cover-top .wm small{ font-family:var(--font-mono); font-style:normal; font-size:6.6pt; letter-spacing:.18em; text-transform:uppercase; color:#9aa3d8; display:block; margin-top:.4mm; }
+.cover-hero{ flex:1 1 auto; display:flex; flex-direction:column; justify-content:center; }
+.cover-eyebrow{ font-family:var(--font-mono); font-size:8pt; letter-spacing:.26em; text-transform:uppercase; color:#a5b4fc; display:inline-flex; align-items:center; gap:9px; margin-bottom:8mm; }
+.cover-eyebrow::before{ content:""; width:24px; height:1px; background:currentColor; }
+.cover-title{ font-family:var(--font-display); font-style:italic; font-weight:400; font-size:84pt; line-height:.94; letter-spacing:-.015em; color:#fff; margin:0; max-width:150mm; }
+.cover-title .accent{ color:#c7d0ff; }
+.cover-sub{ font-size:12pt; line-height:1.5; color:#c2c8ee; margin:9mm 0 0; max-width:130mm; }
+.cover-sub b{ color:#fff; font-weight:600; }
+.cover-org{ font-family:var(--font-mono); font-size:9pt; letter-spacing:.05em; color:#dfe3fb; margin:7mm 0 0; }
+.cover-org .dot{ color:#7f8ad0; padding:0 6px; }
+.cover-foot{ position:relative; z-index:3; }
+.cover-meta{ display:grid; grid-template-columns:repeat(4,1fr); gap:6mm; border-top:1px solid rgba(200,208,255,.18); padding-top:6mm; }
+.cmeta .k{ font-family:var(--font-mono); font-size:6.4pt; letter-spacing:.16em; text-transform:uppercase; color:#8f99cf; margin-bottom:1.8mm; }
+.cmeta .v{ font-family:var(--font-mono); font-size:10pt; color:#fff; font-weight:500; }
+.cmeta .v.flare{ color:#fdba74; }
+.cover-classification{ position:absolute; top:24mm; right:22mm; z-index:3; font-family:var(--font-mono); font-size:7pt; letter-spacing:.14em; text-transform:uppercase; color:#c2c8ee; border:1px solid rgba(200,208,255,.3); border-radius:999px; padding:1.6mm 4mm; }
+
+@media print{
+  /* Cover is full-bleed, no page margin. Empty margin boxes still claim the
+     edges so Chrome's default headers/footers don't appear over the artwork. */
+  @page cover-page{
+    size:A4; margin:0;
+    @top-left{ content:""; }
+    @top-center{ content:""; }
+    @top-right{ content:""; }
+    @bottom-left{ content:""; }
+    @bottom-center{ content:""; }
+    @bottom-right{ content:""; }
+  }
+  .sheet.cover{ page:cover-page; }
+
+  /* All other (content) pages get consistent margins on EVERY physical page,
+     including continuation pages where a band gets pushed by break-inside avoid.
+     Empty margin boxes claim the margin area so Chrome doesn't fill it with its
+     default URL / date / page-number chrome. */
+  @page{
+    size:A4;
+    margin:14mm 14mm 12mm 14mm;
+    @top-left{ content:""; }
+    @top-center{ content:""; }
+    @top-right{ content:""; }
+    @bottom-left{ content:""; }
+    @bottom-center{ content:""; }
+    @bottom-right{ content:""; }
+  }
+
+  html,body{ background:#fff !important; margin:0 !important; padding:0 !important; }
+  body{ background-image:none !important; }
+  .print-cta{ display:none !important; }
+  .gallery{ display:block !important; padding:0 !important; gap:0 !important; margin:0 !important; }
+  .col{ display:block !important; margin:0 !important; padding:0 !important; }
+
+  /* Cover keeps explicit A4 size and zero internal padding */
+  .sheet.cover{ width:210mm !important; height:297mm !important; padding:0 !important; box-shadow:none !important; margin:0 !important; }
+
+  /* Non-cover sheets: drop sheet-level padding (page margin handles it), drop forced width, keep flow */
+  .sheet:not(.cover){
+    box-shadow:none !important;
+    margin:0 !important;
+    padding:0 !important;
+    width:auto !important;
+    min-height:0 !important;
+    break-after:page; page-break-after:always;
+  }
+  .sheet::before{ display:none !important; }
+  .col:last-child .sheet{ break-after:auto; page-break-after:auto; }
+
+  .band, .clause, .proh-box, .matrix, .reg, .duties, .contacts, .hl, .ack, .sigs{ break-inside:avoid; page-break-inside:avoid; }
+  .mast-cont{ break-after:avoid; page-break-after:avoid; }
+}
+
+/* Screen-only floating print button */
+.print-cta{
+  position:fixed; top:18px; right:18px; z-index:9999;
+  display:flex; align-items:center; gap:8px;
+  background:#0b1220; color:#fff; border:0; border-radius:999px;
+  padding:10px 16px 10px 14px; cursor:pointer;
+  font-family:var(--font-sans); font-size:13px; font-weight:600;
+  box-shadow:0 6px 18px -6px rgba(15,23,42,.45);
+  transition:transform .15s ease;
+}
+.print-cta:hover{ transform:translateY(-1px); }
+.print-cta svg{ width:16px; height:16px; }
+.print-cta .hint{ font-weight:400; font-size:11px; color:#9ca3af; margin-left:6px; padding-left:8px; border-left:1px solid #2a2f3a; }
+
+</style>
+</head>
+<body>
+
+<button class="print-cta" onclick="alert('In the print dialog: Margins → None, Scale → Default, Background graphics → ON, Headers and footers → OFF. Paper size A4.'); window.print();" aria-label="Save as PDF">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+  Save as PDF
+  <span class="hint">set margins to None</span>
+</button>
+
+<div class="gallery">
+
+  <!-- =========================== COVER (page 1) =========================== -->
+  <div class="col">
+    <section class="sheet cover" aria-label="AI policy cover">
+      <div class="cover-bg"></div>
+      <div class="cover-grid"></div>
+      <div class="cover-vig"></div>
+      <span class="cover-classification">{{CLASSIFICATION}}</span>
+
+      <div class="cover-inner">
+        <div class="cover-top">
+          <svg class="orb" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="cov-a" x1="8%" y1="6%" x2="96%" y2="100%"><stop offset="0%" stop-color="#1E1B4B"></stop><stop offset="34%" stop-color="#4F46E5"></stop><stop offset="66%" stop-color="#6366F1"></stop><stop offset="100%" stop-color="#A5B4FC"></stop></linearGradient>
+              <radialGradient id="cov-c" cx="42%" cy="40%" r="62%"><stop offset="0%" stop-color="#26254e"></stop><stop offset="68%" stop-color="#1a1838"></stop><stop offset="100%" stop-color="#121128"></stop></radialGradient>
+            </defs>
+            <circle cx="32" cy="32" r="30" fill="url(#cov-a)"></circle>
+            <circle cx="32" cy="32" r="18.5" fill="url(#cov-c)"></circle>
+            <circle cx="32" cy="32" r="30" fill="none" stroke="rgba(255,255,255,.16)" stroke-width="1"></circle>
+          </svg>
+          <span class="wm">{{COMPANY}}<small>{{LEGAL_ENTITY}} · {{CITY}}</small></span>
+        </div>
+
+        <div class="cover-hero">
+          <span class="cover-eyebrow">{{LBL_COVER_EYEBROW}}</span>
+          <h1 class="cover-title">{{LBL_COVER_TITLE_1}}<br><span class="accent">{{LBL_COVER_TITLE_2}}</span></h1>
+          <p class="cover-sub">{{STANDFIRST}} <b>{{LBL_COVER_ALIGNED}}</b></p>
+          <p class="cover-org">{{LEGAL_ENTITY}}<span class="dot">·</span>{{CITY}}<span class="dot">·</span>{{LBL_COVER_HOSTED}}</p>
+        </div>
+
+        <div class="cover-foot">
+          <div class="cover-meta">
+            <div class="cmeta"><div class="k">{{LBL_VERSION}}</div><div class="v">{{VERSION}}</div></div>
+            <div class="cmeta"><div class="k">{{LBL_EFFECTIVE}}</div><div class="v">{{EFFECTIVE_DATE}}</div></div>
+            <div class="cmeta"><div class="k">{{LBL_NEXT_REVIEW}}</div><div class="v">{{REVIEW_DATE}}</div></div>
+            <div class="cmeta"><div class="k">{{LBL_OWNER}}</div><div class="v flare">{{LBL_AI_OFFICER}}</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- =========================== PAGE 2: THE RULES =========================== -->
+  <div class="col">
+    <section class="sheet" aria-label="AI policy, the rules">
+
+      <header class="mast-cont">
+        <div class="l">
+          <svg class="orb" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="rh2-a" x1="8%" y1="6%" x2="96%" y2="100%"><stop offset="0%" stop-color="#1E1B4B"></stop><stop offset="34%" stop-color="#4F46E5"></stop><stop offset="66%" stop-color="#6366F1"></stop><stop offset="100%" stop-color="#A5B4FC"></stop></linearGradient>
+              <radialGradient id="rh2-c" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="78%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#ECEDF0"></stop></radialGradient>
+            </defs>
+            <circle cx="32" cy="32" r="29" fill="url(#rh2-a)"></circle>
+            <circle cx="32" cy="32" r="18" fill="url(#rh2-c)"></circle>
+          </svg>
+          <span class="nm">{{LBL_DOC_TITLE}}</span>
+          <span class="sub">· {{LBL_THE_RULES}}</span>
+        </div>
+        <span class="r">{{COMPANY}} · v{{VERSION}} · {{LBL_PAGE}} 2 {{LBL_OF}} 3</span>
+      </header>
+
+      <div class="band">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_01}}</span>
+          <span class="band-hint">{{LBL_BAND_01_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">1</span> {{LBL_CL_01}}</h4>
+            <p>{{LBL_CL_01_P1_PRE}} {{COMPANY}} {{LBL_CL_01_P1_POST}} <span class="lead">{{LBL_CL_01_LEAD}}</span></p>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">2</span> {{LBL_CL_02_PRE}} {{COMPANY}} {{LBL_CL_02_POST}}</h4>
+            <div class="duties">
+              <div class="duty">
+                <span class="n">01 · {{LBL_DUTY_01_TAG}}</span>
+                <div class="t">{{LBL_DUTY_01_T}}</div>
+                <div class="d">{{LBL_DUTY_01_D}}</div>
+                <span class="ref">{{LBL_DUTY_01_REF}}</span>
+              </div>
+              <div class="duty">
+                <span class="n">02 · {{LBL_DUTY_02_TAG}}</span>
+                <div class="t">{{LBL_DUTY_02_T}}</div>
+                <div class="d">{{LBL_DUTY_02_D}}</div>
+                <span class="ref">{{LBL_DUTY_02_REF}}</span>
+              </div>
+              <div class="duty">
+                <span class="n">03 · {{LBL_DUTY_03_TAG}}</span>
+                <div class="t">{{LBL_DUTY_03_T}}</div>
+                <div class="d">{{LBL_DUTY_03_D}}</div>
+                <span class="ref">{{LBL_DUTY_03_REF}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="band flare">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_02}}</span>
+          <span class="band-hint">{{LBL_BAND_02_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">3</span> {{LBL_CL_03}}</h4>
+            <div class="proh-box">
+              <div class="proh-cols">
+                <div class="proh-col">
+                  <p class="cap">{{LBL_PROH_ART5}}</p>
+                  {{ART5_RULES_HTML}}
+                </div>
+                <div class="proh-col">
+                  <p class="cap">{{LBL_PROH_HOUSE_PRE}} {{COMPANY}} {{LBL_PROH_HOUSE_POST}}</p>
+                  {{HOUSE_RULES_HTML}}
+                </div>
+              </div>
+              <div class="reg-note" style="margin-top:3mm; padding-top:2.4mm; border-top:1px solid rgba(249,115,22,.2); color:var(--flare-ink);">{{LBL_PROH_FULL}} artificialintelligenceact.eu/article/5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="band">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_03}}</span>
+          <span class="band-hint">{{LBL_BAND_03_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">4</span> {{LBL_CL_04}}</h4>
+            <div class="matrix">
+              <div class="mrow head"><div class="mt">{{LBL_MX_HEAD_1}}</div><div class="md">{{LBL_MX_HEAD_2}}</div></div>
+              <div class="mrow"><div class="mt">{{LBL_MX_PUBLIC}}</div><div class="md">{{LBL_MX_PUBLIC_D}}</div></div>
+              <div class="mrow"><div class="mt">{{LBL_MX_INTERNAL}}</div><div class="md">{{LBL_MX_INTERNAL_D}}</div></div>
+              <div class="mrow"><div class="mt">{{LBL_MX_CONFID}}</div><div class="md"><b>Tier 1</b> {{LBL_MX_CONFID_D}}</div></div>
+              <div class="mrow"><div class="mt">{{LBL_MX_SPECIAL}}</div><div class="md"><b>Tier 1</b> {{LBL_MX_SPECIAL_D}}</div></div>
+            </div>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">5</span> {{LBL_CL_05_PRE}} {{COMPANY}} {{LBL_CL_05_POST}}</h4>
+            <p style="margin:0 0 2mm;"><b style="color:var(--ink-900);font-weight:600;">{{LBL_CL_05_LEAD_1}}</b> <span class="lead">{{LBL_CL_05_LEAD_2}}</span></p>
+            <div class="reg">
+              <div class="rrow head"><div>{{LBL_REG_TOOL}}</div><div>{{LBL_REG_TIER}}</div><div>{{LBL_REG_ACCESS}}</div></div>
+              {{TOOLS_REGISTER_ROWS}}
+            </div>
+            <div class="reg-note">{{LBL_REG_NOTE_PRE}} {{LIVE_REGISTER_URL}} {{LBL_REG_NOTE_POST}}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="foot">
+        <span class="lhs">{{LEGAL_ENTITY}} · {{COMPANY}} · ai-policy-v{{VERSION}} · {{LBL_PAGE}} 2 {{LBL_OF}} 3</span>
+        <span class="brand">
+          <svg class="orb" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="oa-a1" x1="8%" y1="6%" x2="96%" y2="100%"><stop offset="0%" stop-color="#1E1B4B"></stop><stop offset="34%" stop-color="#4F46E5"></stop><stop offset="66%" stop-color="#6366F1"></stop><stop offset="100%" stop-color="#A5B4FC"></stop></linearGradient>
+              <radialGradient id="oa-c1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="78%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#ECEDF0"></stop></radialGradient>
+            </defs>
+            <circle cx="32" cy="32" r="29" fill="url(#oa-a1)"></circle>
+            <circle cx="32" cy="32" r="18" fill="url(#oa-c1)"></circle>
+          </svg>
+          <span class="txt">{{LBL_BUILT_WITH}}</span><span class="wm">airlock</span>
+        </span>
+      </div>
+    </section>
+  </div>
+
+  <!-- =========================== PAGE 3: THE DUTIES =========================== -->
+  <div class="col">
+    <section class="sheet" aria-label="AI policy, the duties">
+
+      <header class="mast-cont">
+        <div class="l">
+          <svg class="orb" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="rh-a" x1="8%" y1="6%" x2="96%" y2="100%"><stop offset="0%" stop-color="#1E1B4B"></stop><stop offset="34%" stop-color="#4F46E5"></stop><stop offset="66%" stop-color="#6366F1"></stop><stop offset="100%" stop-color="#A5B4FC"></stop></linearGradient>
+              <radialGradient id="rh-c" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="78%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#ECEDF0"></stop></radialGradient>
+            </defs>
+            <circle cx="32" cy="32" r="29" fill="url(#rh-a)"></circle>
+            <circle cx="32" cy="32" r="18" fill="url(#rh-c)"></circle>
+          </svg>
+          <span class="nm">{{LBL_DOC_TITLE}}</span>
+          <span class="sub">· {{LBL_THE_DUTIES}}</span>
+        </div>
+        <span class="r">{{COMPANY}} · v{{VERSION}} · {{LBL_PAGE}} 3 {{LBL_OF}} 3</span>
+      </header>
+
+      <div class="band">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_04}}</span>
+          <span class="band-hint">{{LBL_BAND_04_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">6</span> {{LBL_CL_06}}</h4>
+            <p>{{LBL_CL_06_P1_PRE}} <span class="tag-mono">{{LBL_CL_06_TAG_1}}</span> {{LBL_CL_06_P1_MID}} <span class="tag-mono">{{LBL_CL_06_TAG_2}}</span> {{LBL_CL_06_P1_POST}} <span class="lead">{{LBL_CL_06_LEAD}}</span></p>
+            <p>{{LBL_CL_06_P2}}</p>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">7</span> {{LBL_CL_07}}</h4>
+            <div class="hl">
+              <p class="big">{{LBL_CL_07_BIG}}</p>
+              <p>{{LBL_CL_07_P}} <span class="lead">{{LBL_CL_07_LEAD_PRE}} {{COMPANY}}.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="band">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_05}}</span>
+          <span class="band-hint">{{LBL_BAND_05_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">8</span> {{LBL_CL_08}}</h4>
+            <p>{{LBL_CL_08_P1}}</p>
+            <p>{{LBL_CL_08_P2_PRE}} {{COMPANY}} {{LBL_CL_08_P2_POST}}</p>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">9</span> {{LBL_CL_09}}</h4>
+            <p>{{LBL_CL_09_PRE}} {{COMPANY}} {{LBL_CL_09_MID}} <span class="flare-tag">{{LBL_AI_OFFICER}}</span> {{LBL_CL_09_POST}}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="band">
+        <div class="band-tag">
+          <span class="band-name">{{LBL_BAND_06}}</span>
+          <span class="band-hint">{{LBL_BAND_06_HINT}}</span>
+        </div>
+        <div class="clauses">
+          <div class="clause">
+            <h4><span class="cn">10</span> {{LBL_CL_10}}</h4>
+            <p>{{LBL_CL_10_PRE}} {{COMPANY}} {{LBL_CL_10_POST}}</p>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">11</span> {{LBL_CL_11}}</h4>
+            <div class="contacts">
+              <div class="contact">
+                <span class="k">{{LBL_AI_OFFICER}}</span>
+                <div class="who">{{AI_OFFICER_NAME}}</div>
+                <div class="ln"><code>{{AI_OFFICER_EMAIL}}</code></div>
+                <div class="ln">Slack: <b>{{AI_OFFICER_SLACK}}</b> · {{LBL_CHANNEL}} <code>{{AI_HELP_CHANNEL}}</code></div>
+              </div>
+              <div class="contact">
+                <span class="k">{{LBL_DPO}}</span>
+                <div class="who">{{DPO_NAME}}</div>
+                <div class="ln"><code>{{DPO_EMAIL}}</code></div>
+                <div class="ln">{{LBL_DPO_FALLBACK}}</div>
+              </div>
+            </div>
+            <p style="margin-top:1.8mm;"><b style="color:var(--ink-900);font-weight:600;">{{LBL_CL_11_LEAD_1}}</b> <span class="lead">{{LBL_CL_11_LEAD_2}}</span></p>
+          </div>
+          <div class="clause">
+            <h4><span class="cn">12</span> {{LBL_CL_12}}</h4>
+            <div class="ack"><b>{{LBL_CL_12_BIG_PRE}} {{COMPANY}} {{LBL_CL_12_BIG_POST}}</b> {{LBL_CL_12_META_PRE}} {{VERSION}} · {{LBL_EFFECTIVE}} {{EFFECTIVE_DATE_LONG}} · {{LBL_NEXT_REVIEW}} {{REVIEW_DATE_LONG}}{{LBL_CL_12_META_POST}}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="sigs">
+        <div class="sig">
+          <div class="line">
+            <div class="who">{{CEO_NAME}}</div>
+            <div class="role-lbl">{{CEO_TITLE}}</div>
+          </div>
+        </div>
+        <div class="sig">
+          <div class="line">
+            <div class="who">{{AI_OFFICER_NAME}}</div>
+            <div class="role-lbl">{{LBL_AI_OFFICER}}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <span class="lhs">{{LEGAL_ENTITY}} · {{COMPANY}} · ai-policy-v{{VERSION}} · {{LBL_PAGE}} 3 {{LBL_OF}} 3</span>
+        <span class="brand">
+          <svg class="orb" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="ob-a" x1="8%" y1="6%" x2="96%" y2="100%"><stop offset="0%" stop-color="#1E1B4B"></stop><stop offset="34%" stop-color="#4F46E5"></stop><stop offset="66%" stop-color="#6366F1"></stop><stop offset="100%" stop-color="#A5B4FC"></stop></linearGradient>
+              <radialGradient id="ob-c" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"></stop><stop offset="78%" stop-color="#ffffff"></stop><stop offset="100%" stop-color="#ECEDF0"></stop></radialGradient>
+            </defs>
+            <circle cx="32" cy="32" r="29" fill="url(#ob-a)"></circle>
+            <circle cx="32" cy="32" r="18" fill="url(#ob-c)"></circle>
+          </svg>
+          <span class="txt">{{LBL_BUILT_WITH}}</span><span class="wm">airlock</span>
+        </span>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<script>
+/* Auto-splitter
+   Goal: make the screen preview match the print output. If a non-cover sheet
+   would overflow one A4 page, split it at band boundaries into discrete A4-
+   sized cards. Each virtual card carries its own masthead and footer; signatures
+   stick to the LAST card. */
+(function(){
+  const A4_PX = 1123;          // 297mm at 96dpi
+  const A4_TOLERANCE = 24;     // ~6mm grace
+  const CHROME_BREATH = 16;    // small breathing budget
+
+  function h(el){ return el.getBoundingClientRect().height; }
+
+  function splitSheet(sheet){
+    if (sheet.classList.contains('cover')) return;
+    if (h(sheet) <= A4_PX + A4_TOLERANCE) return;
+
+    // Identify children by class (order-independent)
+    const kids = Array.from(sheet.children);
+    const mast = kids.find(c => c.classList.contains('mast-cont'));
+    const foot = kids.find(c => c.classList.contains('foot'));
+    const sigs = kids.find(c => c.classList.contains('sigs'));
+    const spacer = kids.find(c => c.classList.contains('spacer'));
+    const bands = kids.filter(c => c.classList.contains('band'));
+
+    if (bands.length === 0) return;
+
+    // Measure BEFORE detaching anything
+    const mastH = mast ? h(mast) : 0;
+    const footH = foot ? h(foot) : 0;
+    const sigsH = sigs ? h(sigs) : 0;
+    const bandHs = bands.map(h);
+
+    // Budget per virtual A4 card: subtract just the chrome (mast + foot),
+    // not the sheet padding — bands already carry their own spacing.
+    const budget = A4_PX - mastH - footH - CHROME_BREATH;
+    const lastBudget = budget - sigsH; // sigs only land on the last card
+
+    // Greedy grouping into virtual pages
+    const groups = [[]];
+    let cursor = 0;
+    for (let i = 0; i < bands.length; i++){
+      const bh = bandHs[i];
+      // Project: if we're on what will be the last group AND sigs are present,
+      // we need extra room for sigs. But we don't know which is last yet, so
+      // do a second pass after we've allocated.
+      if (cursor + bh > budget && groups[groups.length - 1].length > 0){
+        groups.push([]);
+        cursor = 0;
+      }
+      groups[groups.length - 1].push(bands[i]);
+      cursor += bh;
+    }
+
+    // Second-pass adjustment: if the last group + sigs exceeds A4, pop the last
+    // band into a fresh group so sigs have room.
+    if (sigs && groups.length >= 1){
+      let lastH = groups[groups.length - 1].reduce((s, b) => s + h(b), 0);
+      if (lastH + sigsH > budget && groups[groups.length - 1].length > 1){
+        const popped = groups[groups.length - 1].pop();
+        groups.push([popped]);
+      }
+    }
+
+    if (groups.length < 2) return;
+
+    // Detach
+    bands.forEach(b => b.remove());
+    if (mast) mast.remove();
+    if (foot) foot.remove();
+    if (sigs) sigs.remove();
+    if (spacer) spacer.remove();
+
+    // Build virtual sheets
+    const col = sheet.parentNode;
+    const virtualSheets = [sheet];
+    for (let i = 1; i < groups.length; i++){
+      const clone = sheet.cloneNode(false); // shallow: same classes, no children
+      clone.innerHTML = '';
+      col.appendChild(clone);
+      virtualSheets.push(clone);
+    }
+
+    groups.forEach((group, idx) => {
+      const target = virtualSheets[idx];
+      target.innerHTML = '';
+      if (mast) target.appendChild(mast.cloneNode(true));
+      group.forEach(b => target.appendChild(b));
+      const sp = document.createElement('div');
+      sp.className = 'spacer';
+      target.appendChild(sp);
+      if (idx === groups.length - 1 && sigs) target.appendChild(sigs);
+      if (foot) target.appendChild(foot.cloneNode(true));
+    });
+  }
+
+  /* After all splits, rewrite every "part N of M" reference in mastheads and
+     footers so the page numbering reflects the actual final sheet count. */
+  function renumber(){
+    const allSheets = Array.from(document.querySelectorAll('.sheet'));
+    const total = allSheets.length;
+    allSheets.forEach((s, idx) => {
+      const pageNum = idx + 1;
+      // Replace any "part N of M" pattern in this sheet's mast and foot
+      const updates = s.querySelectorAll('.mast-cont .r, .foot .lhs');
+      updates.forEach(el => {
+        if (el.textContent && /part\s+\d+\s+of\s+\d+/i.test(el.textContent)){
+          el.textContent = el.textContent.replace(
+            /part\s+\d+\s+of\s+\d+/i,
+            'part ' + pageNum + ' of ' + total
+          );
+        }
+      });
+    });
+  }
+
+  function run(){
+    Array.from(document.querySelectorAll('.sheet')).forEach(splitSheet);
+    renumber();
+  }
+
+  function start(){
+    // Wait for web fonts to load so band heights are stable before measuring.
+    // Fallback fonts have different metrics than Geist / Instrument Serif and would
+    // cause the splitter to over-fragment based on inflated heights.
+    const ready = document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve();
+    ready.then(() => setTimeout(run, 20));
+  }
+
+  if (document.readyState === 'complete' || document.readyState === 'interactive'){
+    start();
+  } else {
+    document.addEventListener('DOMContentLoaded', start);
+  }
+})();
+</script>
+</body></html>

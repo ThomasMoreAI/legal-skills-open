@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess AI Privacy & Cyber Use Case"
+  short_description: "Assess AI use-case suitability and legal risk"
+  default_prompt: "Use $assess-ai-privacy-cybersecurity-use-case to assess whether this AI-system use case is suitable and identify the required privacy, cybersecurity and governance controls."

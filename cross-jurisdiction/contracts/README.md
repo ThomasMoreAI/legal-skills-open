@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: de
 
-## Skills (47)
+## Skills (48)
 
 | Skill | What it does |
 |---|---|
@@ -32,6 +32,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `contracts` · Skill language: d
 | [`Fristen- und Risikoampel`](skills/common-law-kompass-workflow-fristen-und-risikoampel/) | Für Fristen- und Risikoampel: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Fristen- und… |
 | [`Kaltstart und Routing`](skills/common-law-kompass-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
 | [`Red-Team Qualitygate`](skills/common-law-kompass-workflow-redteam-qualitygate/) | Für Red-Team Qualitygate: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis: Gegenprüfung mit… |
+| [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-aashutosh396/) | Use when drafting a freelance contract, client proposal, SOW, NDA, or MSA — generates jurisdiction-aware… |
 | [`Contract & Proposal Writer`](skills/contract-and-proposal-writer-borghei/) | Generate business documents — contracts, proposals, SOWs, NDAs, MSAs — with jurisdiction-aware clauses… |
 | [`Contract Formation und Consideration`](skills/contract-formation-false-friends-governing/) | Für Contract Formation und Consideration: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Design Joint Development Agreement`](skills/design-joint-development-agreement-jeffreytse/) | Use when two parties have an unresolved dispute over an underlying claim, ownership, or title question… |

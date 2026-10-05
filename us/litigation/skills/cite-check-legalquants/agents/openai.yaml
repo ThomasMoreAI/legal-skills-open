@@ -1,0 +1,8 @@
+interface:
+  display_name: "Cite Check"
+  short_description: "Verify citations against supplied authorities"
+  default_prompt: "Use $cite-check to check this filing against the authorities I provide."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

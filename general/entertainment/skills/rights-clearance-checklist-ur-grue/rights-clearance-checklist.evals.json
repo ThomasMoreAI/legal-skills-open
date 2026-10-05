@@ -1,0 +1,81 @@
+{
+  "skill_name": "rights-clearance-checklist",
+  "status": "passed",
+  "eval_score": 4.4,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Feature documentary with complex mixed content",
+      "input": {
+        "title": "The Collector",
+        "format": "Feature documentary",
+        "content": "Talking heads, archive footage from film institute, advertising film clips on screen, original commissioned score, pop song on radio, archive photographs, historic building exterior, branded products visible",
+        "distribution": "Theatrical + streaming (global), broadcast (European)",
+        "obtained": "Talent releases for all interviewees"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.67,
+      "notes": "All relevant clearance categories identified. High-risk items (advertising clips, pop song) correctly flagged. Sync vs master licence distinction made explicit. Legal referral items listed separately.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.57
+    },
+    {
+      "id": "tc-02",
+      "description": "Podcast with archival audio clips",
+      "input": {
+        "title": "Cold Front",
+        "format": "Investigative podcast, 6 episodes",
+        "content": "Original interview recordings, archive radio broadcast clips (1980s), government document reading aloud, ambient location sound, original theme music commissioned, episode published to Spotify/Apple Podcasts",
+        "distribution": "All podcast platforms, global",
+        "obtained": "Nothing yet"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.0,
+      "notes": "Podcast-specific clearance requirements handled. Archive radio broadcast clearance correctly differentiated from archive film. Government documents correctly identified as typically public domain with caveat.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.0
+    },
+    {
+      "id": "tc-03",
+      "description": "Short drama with location filming and practical sets",
+      "input": {
+        "title": "Margins",
+        "format": "Short drama film, 22 minutes",
+        "content": "Professional actors (one known from TV), private residential location (owner permission verbal), caf\u00e9 exterior filming (public street), contemporary art prints visible on walls (bought at market), licensed music track from a production library",
+        "distribution": "Festival circuit, then short film streaming platforms"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.17,
+      "notes": "Drama format clears requirements differ from documentary \u2014 actor contracts vs release forms distinction made. Art prints on walls flagged for copyright check. Production library music correctly noted as pre-cleared but scope confirmation needed.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
+    }
+  ],
+  "overall_mean": 4.24,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
+}

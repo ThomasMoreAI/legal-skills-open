@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Australian Cyber Obligations"
+  short_description: "Map concurrent cyber incident duties and clocks"
+  default_prompt: "Use $map-australian-cyber-incident-obligations to map every potentially applicable Australian cyber incident obligation, recipient and reporting clock for these facts."

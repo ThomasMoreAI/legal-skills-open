@@ -1,0 +1,42 @@
+{
+  "country": "de",
+  "searched_name": "Pergolux",
+  "found": true,
+  "sources_queried": [
+    "unternehmensregister"
+  ],
+  "source_errors": {
+    "unternehmensregister": null,
+    "bundesanzeiger": null
+  },
+  "companies_count": 1,
+  "companies": [
+    {
+      "name": "Pergolux GmbH",
+      "location": "Fulda",
+      "euid": "DEM1301.HRB8398",
+      "register": "HRB 8398",
+      "register_number": "8398",
+      "court": "Fulda",
+      "state": "Hessen",
+      "report_count": 1,
+      "newest_fiscal_year": "2024",
+      "reports": [
+        {
+          "fiscal_year": "2024",
+          "report_name": "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024",
+          "date": "2026-04-27",
+          "sources": [
+            "unternehmensregister"
+          ],
+          "free_extract": false
+        }
+      ]
+    }
+  ],
+  "mode": "latest",
+  "timing_ms": {
+    "unternehmensregister_ms": 382,
+    "total_ms": 382
+  }
+}

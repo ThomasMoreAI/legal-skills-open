@@ -1,0 +1,14 @@
+You are executing the ai-act-and-regulatory-compliance-doc skill. Mandate: produce AI_Act_And_Regulatory_Compliance_Doc.md and the disclosure-copy library.
+
+1. Read AI_Feature_PRD_Spec.md, each AI Model Card, AI_Data_And_Knowledge_Base_Spec.md, DPA, regional rollout plan.
+2. EU AI Act: classify each feature against Art. 5 prohibitions and Annex III high-risk uses; otherwise limited-risk (Art. 50) or minimal-risk. Cite the article/annex for each verdict and state the "Applies from" date from references/eu-ai-act-application-timeline.md (Annex III high-risk 2 December 2027; Annex I 2 August 2028; Art. 50 transparency 2 August 2026; Art. 5 includes the Omnibus prohibition on non-consensual intimate imagery and CSAM generation).
+3. US sectoral: assess applicability of FCRA, HIPAA, EEOC/Title VII, NYC LL 144, Colorado AI Act, California AB 2013 + ADMT, Illinois BIPA, FTC Sec 5. Per feature.
+4. Canada / UK: AIDA + Directive on ADM; UK ICO AI guidance. Per feature.
+5. African overlays: Kenya ODPC AI guidance (2024); Nigeria NDPC advisory (2024); South Africa POPIA s.71. Per feature.
+6. For every high-risk feature, build the Annex IV technical-documentation index mapping each item to existing artefacts (PRD spec, architecture spec, model card, eval report, red-team report, monitoring, post-market monitoring).
+7. Write the disclosure-copy library: AI-assisted-output tooltip, first-use modal, high-risk decision oversight notice, generative-content disclosure, right-to-explanation copy. Per region / language.
+8. List open compliance items with owner + due date.
+9. Set review cadence: quarterly + on regulatory change + on feature change.
+10. Write AI_Act_And_Regulatory_Compliance_Doc.md with sections: 1) EU AI Act Classification, 2) US Sectoral, 3) Canada / UK, 4) African Regulators, 5) Annex IV Index, 6) Disclosure Copy Library, 7) Open Items, 8) Review Cadence.
+
+Validation: Halt if any AI feature lacks an EU AI Act tier verdict with citation. Halt if any high-risk feature lacks an Annex IV index. Halt if any in-scope region lacks disclosure copy.

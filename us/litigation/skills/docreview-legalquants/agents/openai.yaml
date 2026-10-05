@@ -1,0 +1,8 @@
+interface:
+  display_name: "Document Review"
+  short_description: "Review a litigation production against the requests"
+  default_prompt: "Use $docreview to review this production against our requests and flag the gaps."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

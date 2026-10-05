@@ -4,10 +4,12 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (71)
+## Skills (74)
 
 | Skill | What it does |
 |---|---|
+| [`AI Act and Regulatory Compliance Doc Skill`](skills/15-ai-act-and-regulatory-compliance-doc-peterbamuhigire/) | Use when classifying AI features against applicable regulatory regimes and mapping obligations… |
+| [`AI Agent Regulator Overlap Mapping Skill`](skills/27-ai-agent-regulator-overlap-mapping-peterbamuhigire/) | Use when crosswalking AI-agent controls and evidence across two or more regulatory or assurance regimes… |
 | [`Legal Compliance Checker`](skills/agency-legal-compliance-checker-2/) | Expert legal and compliance specialist ensuring business operations, data handling, and content creation… |
 | [`Accessibility Compliance Specialist IA`](skills/agent-accessibility-compliance-ziri22/) | Accessibility Compliance Specialist IA — Expert en conformité accessibilité (ADA, Section 508, RGAA, EN… |
 | [`EU AI Act (Regulation (EU) 2024/1689)`](skills/ai-regulatory-mapper/) | Current AI regulatory landscape — EU AI Act, FINRA, FDA, US state AI laws — and client-system exposure mapping |
@@ -28,6 +30,7 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Weltraumrecht: Haftungsbegrenzung in AGB für Space-as-a-Service`](skills/haftungsbegrenzung-in-agb-fuer-space-as-a-service/) | Für Weltraumrecht: Haftungsbegrenzung in AGB für Space-as-a-Service: ordnet Norm, Beweislast und… |
 | [`Weltraumrecht: Haftungsübereinkommen: Absoluter Bodenschaden und Verschuldenshaftung im All`](skills/haftungsuebereinkommen-absoluter-bodenschaden-und-vers/) | Für Haftungsübereinkommen Absoluter Bodenschaden und Vers: ordnet Norm, Beweislast und Gegenargument… |
 | [`Cultural Heritage Protection Legal Summary`](skills/heritage-protection-summary/) | Generates structured legal briefings on cultural heritage protection developments. Synthesizes judicial… |
+| [`Core competencies`](skills/high-risk-classification-alexclowe/) | Auto-detect EU AI Act Annex III categories and US-state high-risk equivalents for any described AI system |
 | [`Regulatory Compliance Assessment Report`](skills/legal-compliance/) | Ensure business operations comply with GDPR, CCPA, HIPAA, SOX, PCI-DSS and other regulations across… |
 | [`Weltraumrecht: Lunar Base Governance: Safety Zones und Interoperabilität`](skills/lunar-base-governance-safety-zones-und-interoperabilit/) | Für Weltraumrecht: Lunar Base Governance: Safety Zones und Interoperabilität: ordnet Norm, Beweislast… |
 | [`Lunar Heritage und Schutz historischer Mondlandestellen`](skills/lunar-heritage-quantenkommunikation-via/) | Für Lunar Heritage und Schutz historischer Mondlandestellen: ordnet Norm, Beweislast und Gegenargument… |

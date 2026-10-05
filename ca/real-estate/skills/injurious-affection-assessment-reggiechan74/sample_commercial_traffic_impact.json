@@ -1,0 +1,45 @@
+{
+  "property_address": "1250 Queen Street East, Toronto, ON M4L 1C3",
+  "property": {
+    "property_type": "commercial",
+    "property_value": 1200000,
+    "rental_income_monthly": 6000,
+    "distance_to_construction_m": 25,
+    "number_of_units": 1,
+    "business_type": "restaurant",
+    "annual_revenue": 800000,
+    "background_noise_dba": 58
+  },
+  "construction": {
+    "duration_months": 9,
+    "equipment": [
+      {
+        "equipment_type": "jackhammer",
+        "dba_at_15m": 90,
+        "hours_per_day": 6,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 80,
+        "hours_per_day": 8,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "heavy_trucks",
+        "dba_at_15m": 85,
+        "hours_per_day": 10,
+        "days_per_week": 6
+      }
+    ],
+    "dust_impact_zone": "moderate",
+    "vibration_ppv_mms": 3.5,
+    "traffic_reduction_pct": 0.35,
+    "construction_hours_per_day": 10,
+    "night_work": false
+  },
+  "visual_impact": {
+    "description": "Permanent view obstruction from new elevated transit guideway, reducing natural light and street visibility",
+    "value_reduction_pct": 0.08
+  }
+}

@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): outside any 
 
 Jurisdiction: `at` · Practice: `general` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Austrian Legal Assistant — Rechtsassistent für österreichisches Recht`](skills/legal-momarcode1/) | Austrian law assistant (Rechtsassistent) for Claude Code. Full case analysis, contract review, evidence… |
+| [`RIS — Österreichische Rechtsrecherche`](skills/ris-research-mburgler/) | Use whenever the user asks about Austrian law — federal, state, district or municipal law, gazettes… |
 
 ## Cold-start context
 

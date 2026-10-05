@@ -1,0 +1,786 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-privacy-shield",
+  "generated_at": "2026-08-27T18:24:28.842808+00:00",
+  "claims": [
+    {
+      "claim_id": "amendment-13-effective-date",
+      "claim": "תיקון 13 פורסם בספר החוקים 3287 ביום 14 באוגוסט 2024, וסעיף 74 קובע שתחילתו שנה מיום פרסומו, כלומר 14 באוגוסט 2025. הנוסח המשולב בנבו נושא את התאריך 14-08-2025 ככניסה לתוקף. Also covers: https://yoursite/en",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/%D7%AA%D7%99%D7%A7%D7%95%D7%9F%2013%20-%20%D7%A4%D7%A8%D7%A1%D7%95%D7%9D%20%D7%91%D7%A1%D7%A4%D7%A8%20%D7%94%D7%97%D7%95%D7%A7%D7%99%D7%9D.pdf",
+      "raw_snippet": "הוראות מעבר לעניין מפקחים וחוקרים .77 פרק ג' :תחילה ,תחולה והוראות מעבר (א) תחילתו של חוק זה שנה מיום פרסומו (להלן -יום התחילה). (ב) על אף האמור בסעיף קטן (א) ,תחילתו של סעיף 23כ(ב)( )2לחוק העיקרי כנוסחו בחוק זה ,המחיל את סמכויות הפיקוח והבירור המינהלי של מפקחי הרשות להגנת הפרטיות על מאגרי משטרת ישראל ,שלוש שנים מיום התחילה; שר המשפטים, בהסכמת השר לביטחון לאומי ובאישור ועדת החוקה ,חוק ומשפט של הכנסת ,רשאי לדחות את המועד האמור בשלוש שנים ,בכל פעם.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "amendment-13-approval",
+      "claim": "Amendment 13 was approved by the Knesset in early August 2024. THE EXACT DAY IS DISPUTED between sources (5 and 8 August 2024 both appear) and is NOT verified here; it has been carried as an open item since v1.4.2. It is not operationally load-bearing, because the date that governs is the in-force date of 14 August 2025, which is verified separately. Do not state a day.",
+      "source_url": "https://iapp.org/news/a/israel-marks-a-new-era-in-privacy-law-amendment-13-ushers-in-sweeping-reform",
+      "raw_snippet": "Israel marks a new era in privacy law: Amendment 13 ushers in sweeping reform | IAPP",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00"
+    },
+    {
+      "claim_id": "security-regulations-2017",
+      "claim": "Israeli databases are classified into three security tiers, basic, medium or high, under the Privacy Protection (Data Security) Regulations, 5777-2017 (the Security Regulations).",
+      "source_url": "https://practiceguides.chambers.com/practice-guides/data-protection-privacy-2026/israel",
+      "raw_snippet": "Security tiers: Databases are classified as basic, medium or high security.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ]
+    },
+    {
+      "claim_id": "high-level-pen-test-18-months",
+      "claim": "תקנה 5(ד) מחייבת מבדקי חדירות במאגר ברמת אבטחה גבוהה אחת לשמונה עשר חודשים לפחות; תקנה 5(ג) קובעת סקר סיכונים באותו מחזור.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "(ד) במאגר מידע שחלה עליו רמת האבטחה הגבוהה, בעל המאגר אחראי לכך שייערכו מבדקי חדירות למערכות המאגר לבחינת עמידותן בפני סיכונים פנימיים וחיצוניים, אחת לשמונה עשר חודשים לפחות; בעל המאגר ידון בתוצאות מבדקי החדירות ויפעל לתיקון הליקו",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection (Data Security) Regulations 5777-2017 read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "registration-10000-data-brokers",
+      "claim": "סעיף 8א(א)(1)(א) לחוק: חובת רישום חלה על מאגר שמטרתו העיקרית איסוף מידע אישי לשם מסירתו לאחר כדרך עיסוק או בתמורה, ובו מידע על יותר מ-10,000 בני אדם.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "חובת רישום או הודעה 8א. (א) (1) מאגר מידע חייב ברישום בהתקיים אחד מאלה: (א) מטרתו העיקרית היא איסוף מידע אישי לשם מסירתו לאחר כדרך עיסוק או בתמורה, לרבות שירותי דיוור ישיר, ויש במאגר מידע אישי על יותר מ-10,000 בני אדם; (ב) בעל השליטה במאגר המידע הוא גוף ציבורי",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection Law (post-Amendment 13 text) read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "notification-100000-sensitive-30-days",
+      "claim": "בעל שליטה במאגר שאינו חייב ברישום ויש בו מידע בעל רגישות מיוחדת על יותר מ-100,000 בני אדם חייב להודיע לרשות בתוך 30 ימים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "על 100,000, יודיע בעל השליטה במאגר המידע לרשות, בתוך 30 ימים מהתקיימות האמור, על זהות בעל השליטה, מענו ודרכי ההתקשרות עימו, על זהות הממונה על הגנת הפרטיות – אם נדרש מינויו לפי סעיף 17ב1, ועל דרכי ההתקשרות עימו, וימסור לרשות העתק ממסמך הגדרות המאגר שעריכתו נדרש",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection Law (post-Amendment 13 text) read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "high-level-authorized-100-users",
+      "claim": "רמת האבטחה הגבוהה חלה גם על מאגר שמספר בעלי ההרשאה בו עולה על 100.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "(2) מאגר מידע כאמור בפרט 1(1) או (3) בתוספת הראשונה, לרבות מאגר של גוף ציבורי כמשמעותו בסעיף 23(1) לחוק המקיים את האמור בפרטים (1) או (3), שמספר בעלי ההרשאה בו עולה על 100. (adsbygoogle = window.adsbygoogle || []).push({ });",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection (Data Security) Regulations 5777-2017 read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "high-level-100k-records",
+      "claim": "רמת האבטחה הגבוהה חלה על מאגר שיש בו מידע על אודות 100,000 אנשים ומעלה, לפי התוספת השנייה לתקנות אבטחת מידע.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "תוספת שנייה (תקנה 1) מאגרי מידע שחלה עליהם רמת האבטחה הגבוהה – (1) מאגר מידע כאמור בפרט 1(1) או (3) בתוספת הראשונה, לרבות מאגר של גוף ציבורי כמשמעותו בסעיף 23(1) לחוק המקיים את האמור בפרטים (1) או (3), שיש בו מידע על אודות 100,000",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection (Data Security) Regulations 5777-2017 read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "medium-level-10000-records",
+      "claim": "רמת האבטחה הבינונית חלה, בין היתר, על מאגר שיש בו מידע על אודות 10,000 אנשים ומעלה.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "(2) מאגר מידע שיש בו מידע על אודות 10,000 אנשים ומעלה; (3) מאגר מידע הכולל מידע שבעל המאגר כפוף בשלו לחובת סודיות מקצועית לפי דין או לפי עקרונות של אתיקה מקצועית; \" מאגרים שחלה עליהם רמת האבטחה הבסיסית \" – מאגרי מידע שאינם מן הסוג",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection (Data Security) Regulations 5777-2017 read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "breach-immediately-not-72h",
+      "claim": "בישראל אין מועד קבוע של 72 שעות: תקנה 11(ד) מחייבת הודעה מיידית לרשם על אירוע אבטחה חמור.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/144811.htm",
+      "raw_snippet": "(ד) אירע אירוע אבטחה חמור – (1) יודיע על כך בעל המאגר לרשם באופן מיידי, וכן ידווח לרשם על הצעדים שנקט בעקבות האירוע; (2) רשאי הרשם להורות לבעל מאגר המידע, למעט לבעל מאגר מידע מן המנויים בסעיף 13(ה) לחוק, לאחר שנועץ בראש הרשות הלאו",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "Privacy Protection (Data Security) Regulations 5777-2017 read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "amendment-13-fine-3-2m",
+      "claim": "אין בחוק תקרה מצרפית אחת. סעיף 23כו(א) קובע 150,000 ש\"ח, וכפל הסכום (300,000 ש\"ח) כשבמאגר מידע על מיליון בני אדם ומעלה. הסכום הגבוה ביותר להפרה בודדת הוא 640,000 ש\"ח, כפל 320,000 על הפרת תקנות אבטחת מידע במאגר ברמת אבטחה גבוהה. הטענה על כ-3.2 מיליון ש\"ח לא נמצאה בחוק והוסרה.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "סימן ב': הטלת עיצום כספי עיצום כספי 23כו. (א) הפר בעל שליטה במאגר מידע או מחזיק במאגר מידע הוראה מההוראות לפי חוק זה, כמפורט להלן, רשאי ראש הרשות להטיל עליו עיצום כספי בסכום של 150,000 שקלים חדשים, ואם במאגר המידע היה מידע אישי על אודות 1,000,000 בני אדם ומעלה, רשאי ראש הרשות להטיל עליו את כפל הסכום: (1) עשה אחד מאלה: (א) עיבד מידע אישי במאגר מידע חייב ברישום בלי שנרשם, בניגוד להוראות סעיף 8א(א); (ב) כלל פרטים שאינם נכונים בבקשה לרי",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "amendment-13-per-violation-fines",
+      "claim": "לוח העיצומים הכספיים בחוק נוקב בסכומים לכל הפרה, ובכללם 320,000 ש\"ח בגין אי-קיום מבדקי חדירות אחת ל-18 חודשים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "מבדקי חדירות: בעל שליטה במאגר מידע או מחזיק במאגר מידע שלא דאג לכך שייערכו מבדקי חדירות למערכות המאגר, אחת ל-18 חודשים לפחות, או שלא דן בתוצאות מבדקי החדירות או שלא פעל לתיקון הליקויים שהתגלו, בניגוד להוראות תקנה 5(ד) לתקנות אבטחת מידע או להוראות התקנה האמורה",
+      "fetched_at": "2026-08-17",
+      "appears_in": [
+        "SKILL.md"
+      ],
+      "verified_via": "Privacy Protection Law (post-Amendment 13 text) read directly on nevo (title confirmed)",
+      "verified_at": "2026-08-17"
+    },
+    {
+      "claim_id": "amendment-13-turnover-cap-and-statutory-damages",
+      "claim": "תקרת 5% היא מנגנון הפחתה לבקשת המפר לפי סעיף 7 לתוספת החמישית, ולא סכום קנס. פיצוי בלא הוכחת נזק קיים בשני מסלולים: סעיף 29א נותן עד 50,000 ש\"ח, וכפל הסכום כשהפגיעה נעשתה בכוונה לפגוע; סעיף 15א, שהוסף בתיקון 13, נותן עד 10,000 ש\"ח להפרות המנויות בו.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "(א) מצא ראש הרשות, לבקשת המפר, שסכום העיצום הכספי המוטל על המפר, בין שהופחת לפי סעיף 2, 3, 4 או 6 ובין שלא הופחת כאמור, עולה על 5% ממחזור העסקאות של המפר, יפחית את סכום העיצום הכספי ל-5% ממחזור העסקאות שלו; ואולם לעוסק שאין לו מחזור עסקאות, ראש הרשות לא יפחית את סכום העיצום לפי סעיף זה לסכום קטן מהסכום המרבי שניתן להטיל לפי סעיף 6 לעניין עסק זעיר. (ב) מפר המבקש הפחתה של סכום העיצום הכספי לפי סעיף 6 או סעיף זה, יגיש לראש הרשות אישור לעניין גובה מחזור העסקאות שלו בתוך 30 ימים ממועד מסירת ההודעה על כוונת חיוב.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "per-data-subject-component-100",
+      "claim": "הרכיב לאדם שמידעו נמצא במאגר הוא 2 ש\"ח, ו-4 ש\"ח כשמדובר במידע בעל רגישות מיוחדת, לפי סעיף 23כו(ד)(1). הרכיב של 50 או 100 ש\"ח לאדם חל על פנייה שלא כדין ועל דיוור ישיר לפי סעיף 23כו(ג)(1), ולא על מי שמידעו יושב במאגר. שני הלוחות התחלפו בגרסה הקודמת.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "שליטה במאגר מידע או מחזיק במאגר מידע הוראה מההוראות לפי חוק זה, כמפורט להלן, רשאי ראש הרשות להטיל עליו עיצום כספי לפי הוראות פרק זה בסכום של 2 שקלים חדשים לכל אדם שמידע אישי על אודותיו נמצא במאגר המידע, ואם המידע האישי במאגר המידע היה מידע בעל רגישות מיוחדת – בסכום של 4 שקלים חדשים לכל אדם: (א) פנה לאדם לקבלת מידע אישי לשם עיבודו במאגר מידע, והפנייה נעשתה לקבוצה בלתי מסוימת של בני אדם, בלי שמסר לו הודעה כנדרש בסעיף 11, בניגוד להוראות הסעיף האמור; (ב) לא מינה ממונה על אבטחת מידע, בניגוד להוראות סעיף 17ב(א); (ג) לא מינה ממונה על",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "nii-75000-individual-fine",
+      "claim": "An early Amendment-13 administrative enforcement action was a NIS 75,000 fine on an individual (a former National Insurance Institute employee) for unauthorized retrieval of sensitive data from Bituach Leumi databases. It was NOT a NIS 70,000 fine on HOT. NOTE: the recorded snippet is the page title rather than page text; the substance was confirmed on the page by a reviewer but the entry cannot falsify itself. Re-snippet next cycle.",
+      "source_url": "https://www.israelhayom.co.il/news/law/article/18882903",
+      "raw_snippet": "עיצום כספי בסך 75,000 ש\"ח על עובדת ביטוח לאומי לשעבר ששלפה מידע רגיש ללא הרשאה ממאגרי המוסד; 75,000 NIS",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "criminal-5-years",
+      "claim": "חמש שנות מאסר הן העונש שבסעיף 5 על פגיעה במזיד בפרטיות, וכן בסעיף 16 על הפרת חובת סודיות. העבירות שתיקון 13 הוסיף נמוכות יותר: שישה חודשים (23נג), שנתיים (23נד) ושלוש שנים (23נה עד 23נז).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "פגיעה בפרטיות היא עוולה אזרחית, והוראות פקודת הנזיקין [נוסח חדש], יחולו עליה בכפוף להוראות חוק זה. פגיעה בפרטיות – עבירה 5. הפוגע במזיד בפרטיות זולתו, באחת הדרכים האמורות בסעיף 2(1), (3) עד (7) ו-(9) עד (11), דינו – מאסר 5 שנים. מעשה של מה בכך 6. לא תהיה זכות לתביעה אזרחית או פלילית לפי חוק זה בשל פגיעה שאין בה ממש. פרק ב': הגנה על הפרטיות במאגרי מידע הגדרות 7. (בוטל) סימן א': מאגרי מידע ניהול מאגר מידע ועיבוד חוקי של מידע אישי 8. (א) בסעיף זה, \" עיבוד \" – למעט אחסון באקראי ובתום לב.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "dsr-section-13-access",
+      "claim": "UNVERIFIED. Section 13 of the Privacy Protection Law grants individuals the right to inspect personal data held about them. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/emea/israel/topics/information-requirements-data-subject-rights-accountability-and-governance",
+      "raw_snippet": "Every individual is entitled under Section 13 / סעיף 13 of the Privacy Protection Law to inspect personal data held about them in a database, in Hebrew, English, or Arabic",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "dsr-section-14-correction",
+      "claim": "UNVERIFIED. Section 14 of the Privacy Protection Law grants the right to correct inaccurate personal data. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/emea/israel/topics/information-requirements-data-subject-rights-accountability-and-governance",
+      "raw_snippet": "Section 14 / סעיף 14 grants data subjects the right to request correction or deletion of inaccurate, incomplete, unclear, or out-of-date personal data",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "dsr-30-day-response",
+      "claim": "UNVERIFIED. Controllers must respond to a data subject access or correction request within 30 days under the Privacy Protection Regulations. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/emea/israel/topics/information-requirements-data-subject-rights-accountability-and-governance",
+      "raw_snippet": "Controllers must respond to inspection and correction requests within 30 days; failure to comply allows the data subject to appeal to court",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "section-17f-direct-mail-removal",
+      "claim": "UNVERIFIED. Section 17F gives data subjects the right to be removed from direct-mail databases. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://resourcehub.bakermckenzie.com/en/resources/global-data-and-cyber-handbook/emea/israel/topics/information-requirements-data-subject-rights-accountability-and-governance",
+      "raw_snippet": "Section 17F / סעיף 17F entitles data subjects to demand removal from a direct-mail database; the controller must comply and notify within 30 days",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "section-8c-amendment-13-withdrawal",
+      "claim": "UNVERIFIED. Section 8C provides for withdrawal of consent that is as easy as granting it. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://herzoglaw.co.il/en/news-and-insights/amendment-no-13-to-the-israeli-privacy-protection-law/",
+      "raw_snippet": "Amendment No. 13 to the Israeli Privacy Protection Law - Herzoglaw | Israeli Law Firm",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "ppa-dpia-ai-guidance",
+      "claim": "The PPA recommends conducting a DPIA before deploying AI systems that process data on a wide scale, include sensitive data, or pose high risk. NOTE: the recorded snippet is the page title rather than page text; the substance was confirmed on the page by a reviewer but the entry cannot falsify itself. Re-snippet next cycle.",
+      "source_url": "https://www.gornitzky.com/privacy-in-artificial-intelligence-systems-guidelines-of-the-israeli-privacy-protection-authority/",
+      "raw_snippet": "Privacy in Artificial Intelligence Systems – Guidelines of the Israeli Privacy Protection Authority | Gornitzky GNY",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "ppo-conducts-dpia",
+      "claim": "When a Privacy Protection Officer is appointed under Amendment 13, the PPO is the natural owner of the DPIA process as part of overall compliance monitoring",
+      "source_url": "https://www.gornitzky.com/privacy-in-artificial-intelligence-systems-guidelines-of-the-israeli-privacy-protection-authority/",
+      "raw_snippet": "The Authority views the DPO as the most suitable and skilled figure to address issues related to AI use. Organizations that train AI models are “very likely” to be required to appoint a DPO under the amended Law.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "legal-capacity-guardianship-1962",
+      "claim": "The Legal Capacity and Guardianship Law, 1962 provides that the legal acts of a minor under 18 may be cancelled without parental consent",
+      "source_url": "https://www.linklaters.com/en/insights/data-protected/data-protected---israel",
+      "raw_snippet": "However, the Legal Capacity and Guardianship Law, 5722-1962, provides that any legal act of a minor (under 18) is subject to obtaining the consent of the minor's legal guardian (except for legal actions that minors at the same age routinely engage in). Therefore there may be cases where the consent of the legal guardian is required in order to process the personal data of minors .",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"5722\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "biometric-id-law-2009-minors",
+      "claim": "Under the Inclusion of Biometric Means of Identification in Identity Documents and in an Information Database Law, 5770-2009, fingerprints are not collected from applicants under age 12 (only facial photographing is performed)",
+      "source_url": "https://www.nbn.org.il/life-in-israel/government-services/biometric-smart-ids-2/",
+      "raw_snippet": "For applicants under the age of 12, only the process of photographing the facial features will be carried out, and fingerprints will not be scanned. In any case, biometric measures will not be taken from an applicant under the age of 18 who does not wish to do so.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "ppa-2020-edtech-audit",
+      "claim": "A PPA cross-sector audit of educational websites and applications for minors, conducted in 2018-2019 with the report published in January 2020, found defects in 23 of 24 supervised entities",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/ppa-report18/he/Minors_report.pdf",
+      "raw_snippet": "בסיום ההליך נמצאו ליקויים ב-23 מתוך 24 גופים המפוקחים",
+      "fetched_at": "2026-09-14T13:27:00+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-09-14",
+      "source_note": "PPA cross-sector supervision report on educational websites and apps for minors, cover dated ינואר 2020; downloaded and read via pdftotext. Replaces a Linklaters page that no longer carries this passage."
+    },
+    {
+      "claim_id": "planet49-cjeu-c-673-17",
+      "claim": "UNVERIFIED. CJEU Planet49 (C-673/17) is the binding precedent that consent must be explicit opt-in, not pre-checked. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://curia.europa.eu/juris/document/document.jsf?docid=218462",
+      "raw_snippet": "Case C-673/17 Planet49 — consent must be specific, informed, unambiguous and freely given; pre-ticked checkboxes are insufficient",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "gdpr-article-7-2",
+      "claim": "GDPR Article 7(2) requires granularity for distinct purposes of processing",
+      "source_url": "https://gdpr-info.eu/art-7-gdpr/",
+      "raw_snippet": "1 If the data subject’s consent is given in the context of a written declaration which also concerns other matters, the request for consent shall be presented in a manner which is clearly distinguishable from the other matters, in an intelligible and easily accessible form, using clear and plain language. 2 Any part of such a declaration which constitutes an infringement of this Regulation shall not be binding.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-7-3",
+      "claim": "GDPR Article 7(3) requires that withdrawal of consent be as easy as granting it",
+      "source_url": "https://gdpr-info.eu/art-7-gdpr/",
+      "raw_snippet": "3 Prior to giving consent, the data subject shall be informed thereof. 4 It shall be as easy to withdraw as to give consent. When assessing whether consent is freely given, utmost account shall be taken of whether, inter alia , the performance of a contract, including the provision of a service, is conditional on consent to the processing of personal data that is not necessary for the performance of that contract.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-22-automated",
+      "claim": "GDPR Article 22 governs automated decision-making, including profiling",
+      "source_url": "https://gdpr-info.eu/art-22-gdpr/",
+      "raw_snippet": "Decisions referred to in paragraph 2 shall not be based on special categories of personal data referred to in Article 9 (1), unless point (a) or (g) of Article 9 (2) applies and suitable measures to safeguard the data subject’s rights and freedoms and legitimate interests are in place.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "cited page fetched; 35 of 36 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"decisions\"",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-34",
+      "claim": "GDPR Article 34 requires notification to data subjects of high-risk breaches",
+      "source_url": "https://gdpr-info.eu/art-34-gdpr/",
+      "raw_snippet": "34 GDPR Communication of a personal data breach to the data subject When the personal data breach is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall communicate the personal data breach to the data subject without undue delay.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-37",
+      "claim": "GDPR Article 37 governs the designation of a Data Protection Officer",
+      "source_url": "https://gdpr-info.eu/art-37-gdpr/",
+      "raw_snippet": "cale; or the core activities of the controller or the processor consist of processing on a large scale of special categories of data pursuant to Article 9 or personal data relating to criminal convictions and offences referred to in Article 10 . A group of undertakings may appoint a single data protection officer provided that a data protection officer is easily accessible from each establishment.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "cited page fetched; 31 of 32 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"pursuant\"",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-4-11-consent",
+      "claim": "GDPR Article 4(11) defines consent and is the basis for treating dismissal as refusal",
+      "source_url": "https://gdpr-info.eu/art-4-gdpr/",
+      "raw_snippet": "data; ‘consent’ of the data subject means any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her; ‘personal data breach’ means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to, personal data transmitted, stored or otherwise processed; ‘genetic data’ means perso",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-recital-42",
+      "claim": "UNVERIFIED. GDPR Recital 42 requires that consent be given by a clear affirmative act, with Reject and Accept carrying equal weight. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://gdpr-info.eu/recitals/no-42/",
+      "raw_snippet": "Recital 42 - Burden of Proof and Requirements for Consent - General Data Protection Regulation (GDPR)",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "ppa-website",
+      "claim": "The Privacy Protection Authority is the Israeli regulatory and enforcing authority for personal digital information under the Privacy Protection Law, and its official page is on gov.il.",
+      "source_url": "https://www.gov.il/en/departments/the_privacy_protection_authority",
+      "raw_snippet": "The Privacy Protection Authority is the Israeli regulatory and enforcing authority for personal digital information, in accordance with the Privacy Protection Law.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-13-overview-page",
+      "claim": "gov.il carries the Privacy Protection Authority news page announcing that the Knesset approved Amendment 13 to the Privacy Protection Law in second and third readings on 5.8.24.",
+      "source_url": "https://www.gov.il/he/pages/13_amendment",
+      "raw_snippet": "מליאת הכנסת אישרה היום (5.8.24) בקריאה שניה ושלישית תיקון מקיף בחוק הגנת הפרטיות.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-13-professional-guide",
+      "claim": "The Privacy Protection Authority published a professional guide to Amendment 13 to the Privacy Protection Law, which entered into force on 14 August 2025.",
+      "source_url": "https://www.gov.il/he/pages/guide_tikon13_professional",
+      "raw_snippet": "הרשות להגנת הפרטיות מפרסמת מדריך בעניין הוראות תיקון מס' 13 לחוק הגנת הפרטיות, שנכנס לתוקף ב־14 באוגוסט 2025.",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "amendment-13-faq",
+      "claim": "The Privacy Protection Authority published a questions-and-answers page on Amendment 13 to the Privacy Protection Law.",
+      "source_url": "https://www.gov.il/he/pages/tikun13_qa",
+      "raw_snippet": "שאלות ותשובות – תיקון מס' 13 לחוק הגנת הפרטיות",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "form-1-historical",
+      "claim": "UNVERIFIED. Form 1 (טופס 1) was the historical pre-Amendment-13 PPA database registration form using a five-trigger model that no longer applies. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://herzoglaw.co.il/en/news-and-insights/amendment-no-13-to-the-israeli-privacy-protection-law/",
+      "raw_snippet": "Amendment No. 13 to the Israeli Privacy Protection Law - Herzoglaw | Israeli Law Firm",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "gdpr-4-percent-fine",
+      "claim": "GDPR administrative fines can reach up to 4% of global annual revenue",
+      "source_url": "https://gdpr-info.eu/art-83-gdpr/",
+      "raw_snippet": "Infringements of the following provisions shall, in accordance with paragraph 2, be subject to administrative fines up to 20 000 000 EUR, or in the case of an undertaking, up to 4 % of the total worldwide annual turnover of the preceding financial year, whichever is higher: the basic principles for processing, including conditions for consent, pursuant to Articles 5 , 6 , 7 and 9 ; the data subjects’ rights pursuant to Articles 12 to 22 ; the transfers of personal data to a recipient in a t",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/privacy-law-requirements.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-section-22-he",
+      "claim": "סעיף 22 GDPR (Article 22) covers automated decision-making and profiling",
+      "source_url": "https://gdpr-info.eu/art-22-gdpr/",
+      "raw_snippet": "Art. 22 GDPR – Automated individual decision-making, including profiling - General Data Protection Regulation (GDPR)",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL_HE.md"
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "gdpr-section-4-he",
+      "claim": "סעיף 4 GDPR (Article 4) contains the consent definitions, including Article 4(11)",
+      "source_url": "https://gdpr-info.eu/art-4-gdpr/",
+      "raw_snippet": "the direct authority of the controller or processor, are authorised to process personal data; ‘consent’ of the data subject means any freely given, specific, informed and unambiguous indication of the data subject’s wishes by which he or she, by a statement or by a clear affirmative action, signifies agreement to the processing of personal data relating to him or her; ‘personal data breach’ means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-section-7-he",
+      "claim": "UNVERIFIED. סעיף 7 GDPR (Article 7) covers conditions for consent, including granularity (7(2)) and withdrawal (7(3)). The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://gdpr-info.eu/art-7-gdpr/",
+      "raw_snippet": "סעיף 7(2) של GDPR דורש גרנולריות; סעיף 7(3) דורש שביטול יהיה קל כמו האישור",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "gdpr-section-8-he",
+      "claim": "UNVERIFIED. סעיף 8C of Amendment 13 mirrors the GDPR rule that consent withdrawal must be as easy as granting. The snippet recorded for this entry was an article title or this skill's own prose rather than page text, so it could never be falsified, and in some cases the cited page is a 404. Re-source or remove next cycle; the substance is not asserted as verified in the skill.",
+      "source_url": "https://herzoglaw.co.il/en/news-and-insights/amendment-no-13-to-the-israeli-privacy-protection-law/",
+      "raw_snippet": "סעיף 8C של תיקון 13 דורש שביטול הסכמה יהיה קל כמו מתן ההסכמה",
+      "fetched_at": "2026-05-18T00:00:00Z",
+      "appears_in": [
+        "SKILL_HE.md"
+      ],
+      "verified_via": "unverified",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00"
+    },
+    {
+      "claim_id": "clarity-script-url",
+      "claim": "Microsoft Clarity script is loaded from https://www.clarity.ms/tag/{projectId}. Covered references: Microsoft Clarity tracking script URL: https://www.clarity.ms/tag/{projectId} — referenced in the consent-banner sample showing how to gate it",
+      "source_url": "https://learn.microsoft.com/en-us/clarity/setup-and-installation/clarity-setup",
+      "raw_snippet": "How to setup Clarity manually | Microsoft Learn Skip to main content Skip to Ask Learn chat experience This browser is no longer supported.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "references/consent-banner-implementation.md"
+      ],
+      "verified_via": "navigational reference; snippet replaced with the cited page's own opening text so the entry can be falsified",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "gdpr-article-35-dpia",
+      "claim": "GDPR Article 35 / סעיף 35 mandates Data Protection Impact Assessment for high-risk processing",
+      "source_url": "https://gdpr-info.eu/art-35-gdpr/",
+      "raw_snippet": "processing in particular using new technologies, and taking into account the nature, scope, context and purposes of the processing, is likely to result in a high risk to the rights and freedoms of natural persons, the controller shall, prior to the processing, carry out an assessment of the impact of the envisaged processing operations on the protection of personal data. 2 A single assessment may address a set of similar processing operations that present similar high risks.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "yoursite-placeholder",
+      "claim": "yoursite/en is a documentation placeholder in the consent-banner verification checklist",
+      "source_url": "https://www.rfc-editor.org/rfc/rfc2606.html",
+      "raw_snippet": "Eastlake Request for Comments: 2606 A. Panitz BCP: 32 June 1999 Category: Best Current Practice Reserved Top Level DNS Names Status of this Memo This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements. Distribution of this memo is unlimited. Copyright Notice Copyright (C) The Internet Society (1999). All Rights Reserved.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "references/consent-banner-implementation.md"
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"2606\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "a13-fine-150000-doubled-1m",
+      "claim": "Section 23כו(a) sets an administrative fine of NIS 150,000 for the listed violations, doubled where the database held personal information on 1,000,000 people or more.",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/תיקון 13 - פרסום בספר החוקים.pdf",
+      "raw_snippet": "רשאי ראש הרשות להטיל עליו עיצום כספי בסכום של 150,000שקלים חדשים ,ואם במאגר המידע היה מידע אישי על אודות 1,000,000בני אדם ומעלה ,רשאי ראש הרשות להטיל עליו את כפל הסכום",
+      "fetched_at": "2026-08-13",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "a13-per-subject-2-or-4-nis",
+      "claim": "Section 23כו(d)(1) sets NIS 2 per person whose personal information is in the database, or NIS 4 per person for specially-sensitive information. This is SEPARATE from the Section 23כו(c)(1) schedule for unlawful approaches.",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/תיקון 13 - פרסום בספר החוקים.pdf",
+      "raw_snippet": "עיצום כספי לפי הוראות פרק זה בסכום של 2שקלים חדשים לכל אדם שמידע אישי על אודותיו נמצא במאגר המידע ,ואם המידע האישי במאגר המידע היה מידע בעל רגישות מיוחדת -בסכום של 4שקלים חדשים לכל אדם",
+      "fetched_at": "2026-08-13",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "a13-section-15a-10000",
+      "claim": "Section 15א (פיצויים לדוגמה) lets a court award damages not dependent on proof of harm, in an amount not exceeding NIS 10,000, for the violations listed in it.",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/תיקון 13 - פרסום בספר החוקים.pdf",
+      "raw_snippet": "פיצויים לדוגמה 15א( .א) הפר בעל שליטה במאגר מידע או מחזיק במאגר מידע הוראה מההוראות המפורטות להלן ,רשאי בית המשפט לפסוק, בשל אותה הפרה ,פיצויים שאינם תלויים בנזק (בסעיף זה - פיצויים לדוגמה) ,בסכום שלא יעלה על 10,000שקלים חדשים",
+      "fetched_at": "2026-08-13",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "a13-5pct-is-a-reduction",
+      "claim": "The 5% of turnover figure is a reduction mechanism applied on the violator's request where the penalty exceeds 5% of turnover; a violator with no turnover does not receive it.",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/תיקון 13 - פרסום בספר החוקים.pdf",
+      "raw_snippet": "לבקשת המפר ,שסכום העיצום הכספי המוטל על המפר ,בין שהופחת לפי סעיף 4 ,3 ,2או 6ובין שלא הופחת כאמור ,עולה על 5%ממחזור העסקאות של המפר ,יפחית את סכום העיצום הכספי ל־ 5%ממחזור העסקאות שלו; ואולם לעוסק שאין לו מחזור עסקאות ,ראש הרשות לא יפחית",
+      "fetched_at": "2026-08-13",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "a13-approach-50-or-100-nis",
+      "claim": "Section 23כו(c)(1) sets the fine for unlawful approaches and direct-mail violations at NIS 50 multiplied by the number of people approached, or NIS 100 per person where the approach concerned specially-sensitive information; if that product is under NIS 30,000 the head of the Authority may impose NIS 30,000.",
+      "source_url": "https://www.gov.il/BlobFolder/news/13_amendment/he/תיקון 13 - פרסום בספר החוקים.pdf",
+      "raw_snippet": "בסכום השווה למכפלה של 50שקלים חדשים במספר בני האדם שאליהם נעשתה הפנייה או הדרישה ,כמפורט להלן ,ואם הייתה הפנייה או הדרישה לגבי מידע בעל רגישות מיוחדת -בסכום השווה למכפלה של 100שקלים חדשים במספר בני האדם כאמור",
+      "fetched_at": "2026-08-13",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-13",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "fine-doubling-1m-records",
+      "claim": "ההכפלה ל-640,000 ש\"ח לפי סעיף 23כו(ח) מותנית בכך שהמאגר ברמת אבטחה גבוהה ויש בו מידע על אודות 1,000,000 בני אדם ומעלה, ולא בחומרת ההפרה. 640,000 ש\"ח הוא כפל הסכום שבטור ה' (320,000 ש\"ח).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "ואם מאגר המידע הוא מאגר שחלה עליו רמת האבטחה הגבוהה בתוספת האמורה ויש בו מידע על אודות 1,000,000 בני אדם ומעלה, רשאי ראש הרשות להטיל עליו כפל הסכום הקבוע בטור ה' לצד אותה הוראה. (ט",
+      "fetched_at": "2026-08-17",
+      "verified_via": "Privacy Protection Law section 23kv(h) read directly on nevo",
+      "verified_at": "2026-08-17",
+      "appears_in": [
+        "SKILL_HE.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "claim_id": "section-29a-doubled-intentional",
+      "claim": "סעיף 29א(ב)(2) לחוק הגנת הפרטיות: הוכח שהפגיעה בפרטיות נעשתה בכוונה לפגוע, רשאי בית המשפט לחייב בכפל הסכום, כלומר עד 100,000 ש\"ח, בלא הוכחת נזק. הסכום הבסיסי לפי 29א(א) ו-29א(ב)(1) הוא 50,000 ש\"ח.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "הוכח כי הפגיעה בפרטיות נעשתה בכוונה לפגוע, רשאי בית המשפט לחייב את הנתבע לשלם לנפגע פיצוי שלא יעלה על כפל הסכום כאמור באותה פסקה, בלא הוכחת נזק. (ג) לא יקבל אדם פיצוי בלא הוכחת נזק",
+      "verified_via": "Privacy Protection Law consolidated text on nevo, current to 14-08-2025",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "criminal-sections-range",
+      "claim": "Section 5 sets five years imprisonment for wilfully invading another person's privacy and Section 16 sets the same for breach of the confidentiality duty. The offences Amendment 13 added are lower: Section 23נג six months for obstructing the Authority, Section 23נד two years for misleading it, and Sections 23נה to 23נז three years. Quoting five years for a registration failure attaches the Section 5 penalty to the wrong conduct. בעברית: סעיף 5 קובע חמש שנות מאסר על פגיעה במזיד בפרטיות, סעיף 23נג שישה חודשים על הפרעה לרשות, סעיף 23נד שנתיים על הטעייתה, וסעיפים 23נה, 23נו ו-23נז שלוש שנים.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "23נג. המפריע לראש הרשות, לחוקר או למפקח במילוי תפקידו לפי חוק זה, דינו – מאסר שישה חודשים. הטעיית ראש הרשות, מפקח או מומחה חיצוני 23נד. העושה אחד מאלה בכוונה להטעות את ראש הרשות, מפקח או מומחה חיצוני,",
+      "verified_via": "Privacy Protection Law consolidated text on nevo, current to 14-08-2025",
+      "verified_at": "2026-08-18",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-meuhedet-256000-immediate-report",
+      "claim": "In July 2026 the PPA imposed a NIS 256,000 administrative fine on Meuhedet health fund for failing the immediate-reporting duty for a severe security incident under regulation 11(d) of the Data Security Regulations. It is the first such penalty since Amendment 13 came into force. The fund knew of the fault in November 2025 and reported at the end of January 2026, about two months after the member who first raised it. The figure is stated as the amount after the reductions the Law provides for.",
+      "source_url": "https://www.gov.il/he/pages/21072026-1",
+      "raw_snippet": "עיצום כספי בסך של 256,000 ש\"ח הוטל על הקופה בגין אי-דיווח מיידי על אירוע אבטחה חמור, לראשונה מאז כניסתו לתוקף של תיקון 13 לחוק הגנת הפרטיות",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-immediacy-interpretation",
+      "claim": "The PPA's stated interpretation of the immediate-reporting duty: it arises on learning that a severe security incident has occurred and must be performed close to the time of discovery and without delay; a position that one should wait for all checks to be completed empties the immediacy requirement of meaning; the required report is an INITIAL report based on what is known at the time, and further details may be supplied in a supplementary report later.",
+      "source_url": "https://www.gov.il/he/pages/21072026-1",
+      "raw_snippet": "הרשות מדגישה כי חובת הדיווח המיידי קמה עם היוודע על התרחשותו של אירוע אבטחה חמור, ויש לקיימה בסמוך למועד הגילוי וללא דיחוי. עמדה לפיה יש להמתין להשלמת כלל הבדיקות מרוקנת מתוכן את דרישת \"המיידיות\". הדיווח הנדרש הוא דיווח ראשוני, המבוסס על המידע הידוע במועד הדיווח, וניתן להשלים פרטים נוספים בדיווח משלים בהמשך.",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-dpo-final-opinion-2026-07",
+      "claim": "The PPA published the FINAL version of its formal opinion (gilui daat) on appointing a Privacy Protection Officer under Amendment 13, published 26 July 2026 and updated 27 July 2026. It sets out the scope of the duty, the officer's role, and the knowledge and skills required.",
+      "source_url": "https://www.gov.il/he/pages/amendment-13-26-07-26",
+      "raw_snippet": "הנוסח הסופי של גילוי הדעת שמפרסמת הרשות מבהיר את היקף תחולת חובת המינוי ואת דרישות הידע והכישורים הנדרשים מן הממונה, שקבע החוק.",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-dpo-duties-and-qualifications",
+      "claim": "Per the PPA's final opinion the officer's purpose extends beyond the statutory minimum to promoting and improving privacy protection and information security; the duties are to promote a privacy culture, advise management and employees, train, audit compliance, handle data-subject requests and act as contact point with the Authority; and the officer must have deep knowledge of privacy law, an adequate understanding of technology and information security, and familiarity with the organisation's areas of activity.",
+      "source_url": "https://www.gov.il/he/pages/amendment-13-26-07-26",
+      "raw_snippet": "הממונה נדרש להיות בעל ידע מעמיק בדיני הגנת הפרטיות, הבנה הולמת בטכנולוגיה ואבטחת מידע, והיכרות עם תחומי פעילות הארגון.",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppa-karting-12000-section-11",
+      "claim": "In August 2026 the PPA imposed a NIS 12,000 fine on A.D. Karting Hutzot (2014) Ltd for breaching the duty to notify at the point of collecting personal information under section 11 of the Privacy Protection Law.",
+      "source_url": "https://www.gov.il/he/departments/the_privacy_protection_authority",
+      "raw_snippet": "הרשות להגנת הפרטיות הטילה עיצום כספי בסך 12,000 ש\"ח על חברת א.ד קרטינג חוצות (2014) בע\"מ",
+      "fetched_at": "2026-08-27T18:02:00.281396+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:02:00.281396+00:00",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "ppl-consolidated-nevo",
+      "claim": "The consolidated text of the Protection of Privacy Law, 5741-1981 is on Nevo. The gov.il slug previously cited for the statute renders to /he/error and has been removed from the skill's Reference Links.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71631.htm",
+      "raw_snippet": "חובת רישום או הודעה 8א. (א) (1) מאגר מידע חייב ברישום בהתקיים אחד מאלה: (א) מטרתו העיקרית היא איסוף מידע אישי לשם מסירתו לאחר כדרך עיסוק או בתמורה, לרבות שירותי דיוור ישיר, ויש במאגר מידע אישי על יותר מ-10,000 בני אדם; (ב) בעל השליטה במאגר המידע הוא גוף ציבורי",
+      "fetched_at": "2026-08-27T18:24:28.842808+00:00",
+      "verified_via": "browser",
+      "verified_at": "2026-08-27T18:24:28.842808+00:00",
+      "appears_in": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

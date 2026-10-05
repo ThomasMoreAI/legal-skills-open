@@ -4,14 +4,24 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `us` · Practice: `general` · Skill language: en
 
-## Skills (14)
+## Skills (24)
 
 | Skill | What it does |
 |---|---|
+| [`$law-student:bar-prep-questions`](skills/bar-prep-questions-alexchlou/) | Bar prep questions — MBE or essay, targeted at your weak subjects and bar jurisdiction. Tracks misses… |
+| [`Billing & Operations`](skills/billing-operations-judicialmind/) | Legal billing and law firm operations skill for time tracking, invoicing, and financial management. Use… |
 | [`Legal Billing Summary`](skills/billing-summary/) | Produces privilege-safe U.S. corporate legal billing summaries from time and expense data. Converts… |
+| [`$law-student:case-brief`](skills/case-brief-alexchlou/) | Brief a case in your preferred format. In drill-me mode, makes the student state the holding first. Use… |
+| [`Case Management`](skills/case-management-judicialmind/) | Legal case and matter management skill for law firm operations. Use when the user needs assistance with… |
+| [`Chain-Cite`](skills/chain-cite-jslandau/) | Use when the user wants to trace a single legal proposition backward through its citation graph to find… |
 | [`Citation format`](skills/citation-format/) | Normalize messy citation strings ("CVC 23152a", "California Vehicle Code Section 23152(a)") into… |
+| [`Citation Toolkit`](skills/citation-toolkit-jslandau/) | Reference skill for legal citations — defines the citation-type taxonomy, short-form resolution rules… |
+| [`Legal Client Intake`](skills/client-intake-canhada-labs/) | Legal client intake discipline for conflict-of-interest screening, capacity assessment… |
+| [`Client Intake`](skills/client-intake-judicialmind/) | Client intake and onboarding skill for law firm operations. Use when the user needs assistance with new… |
 | [`Cold call prep`](skills/cold-call-prep-bossmann007/) | Prep for a cold-call — predict the professor's likely questions and drill them Socratically, flagging… |
 | [`Law Standards`](skills/law-standards-sencersoylu/) | Standards and conventions for legal scholarship — law review articles, empirical legal studies… |
+| [`Legal Billing`](skills/legal-billing-canhada-labs/) | Legal billing and time-tracking discipline for law firms and legal departments. Covers billable vs.… |
+| [`Legal Research`](skills/legal-research-judicialmind/) | Legal research and case law analysis skill. Use when the user needs to find case law, analyze statutes… |
 | [`Legalsearchqa eval`](skills/legalsearchqa-eval/) | Evaluates a system's ability to retrieve up-to-date legal information from external sources and reason… |
 | [`Legal Newsletter Summary`](skills/newsletter-summary/) | Produces concise, actionable U.S. legal newsletter summaries of recent developments organized by… |
 | [`Notary Public`](skills/notary-public/) | Licensed notary public specializing in document notarization, legal certification, and authentication.… |

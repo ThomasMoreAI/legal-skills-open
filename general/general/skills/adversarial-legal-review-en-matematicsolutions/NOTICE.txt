@@ -1,0 +1,8 @@
+ADVERSARIAL LEGAL REVIEW (adversarial-legal-review-en) - NOTICE
+
+A red-team / devil's-advocate review for a high-stakes deliverable.
+The debate + 3-layer verification pattern is inspired by AnttiHero/lavern (Apache 2.0);
+bounded self-revision, reviewer access tiers and the always-deliver invariant are adapted
+clean-room from gregmos/memoforge (MIT) - concepts only, not prompts or code. Roles,
+prompts and the 10-point check are written from scratch. Packaged for MateMatic Boutique
+by MateMatic Solutions Sp. z o.o. Polish counterpart: adversarial-legal-review-pl.

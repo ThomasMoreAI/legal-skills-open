@@ -1,0 +1,634 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "israeli-ai-compliance-kit",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "claims": [
+    {
+      "claim_id": "ppl-amendment-13-in-force",
+      "claim": "Amendment 13 to the Privacy Protection Law came into force August 14, 2025; the DPO appointment grace period expired October 31, 2025.",
+      "source_url": "https://iapp.org/news/a/israel-marks-a-new-era-in-privacy-law-amendment-13-ushers-in-sweeping-reform",
+      "raw_snippet": "Israel marks a new era in privacy law: Amendment 13 ushers in sweeping reform | IAPP",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "ppa-feb-2026-consent-opinion",
+      "claim": "In February 2026 the PPA published a final binding opinion on consent which states scraping personal data from the internet to train AI models without informed consent is unlawful privacy infringement, and that social media publication is not informed consent for AI training.",
+      "source_url": "https://www.lexology.com/library/detail.aspx?g=e303b2da-16c8-4842-b742-36c5f8a99d23",
+      "raw_snippet": "the PPA published a final opinion in February 2026 clarifying how consent should be obtained and assessed... scraping personal data from the internet to train AI models, without informed consent from the data subject, constitutes unlawful privacy infringement. Even when individuals publish data about themselves or others on social media, this generally cannot be considered informed consent for AI training purposes.",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "note": "lexology.com returns 403 to non-interactive fetches. This is a secondary analysis of a PPA opinion; the PPA's own publication was not located on gov.il this cycle. Treat the opinion's existence as reported rather than primary-verified until a gov.il URL is found."
+    },
+    {
+      "claim_id": "ppa-ai-guidance-still-draft",
+      "claim": "PPA's April 2025 AI guidance is still formally in draft as of May 2026; public consultation closed June 5, 2025; PPA enforces it as if statutory.",
+      "source_url": "https://babl.ai/israels-privacy-authority-releases-draft-ai-guidance-for-data-protection-compliance/",
+      "raw_snippet": "Israel’s Privacy Authority Releases Draft AI Guidance for Data Protection Compliance - BABL AI",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "nist-ir-8596-cyber-ai-profile-status",
+      "claim": "NIST IR 8596 Cyber AI Profile preliminary draft published December 16, 2025; comment period closed January 30, 2026; final expected later in 2026.",
+      "source_url": "https://csrc.nist.gov/pubs/ir/8596/iprd",
+      "raw_snippet": "Date Published: December 16, 2025",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18",
+      "note": "csrc.nist.gov interleaves a JavaScript-disabled banner into the page text, so a longer snippet spanning the publication and comment dates cannot match. This fragment is verbatim."
+    },
+    {
+      "claim_id": "nist-ai-rmf-critical-infrastructure-profile",
+      "claim": "NIST released a concept note for an AI RMF Profile on Trustworthy AI in Critical Infrastructure on April 7, 2026.",
+      "source_url": "https://www.ispartnersllc.com/blog/nist-ai-rmf-2025-2026-updates-what-you-need-to-know-about-the-latest-framework-changes/",
+      "raw_snippet": "NIST’s concept note for a “Trustworthy AI Profile for Critical Infrastructure” highlights: Sector-specific risk considerations (energy, healthcare, transportation, etc.) Emphasis on safety, resilience, and system reliability Integration with national security and operational continuity concerns This signals a broader move toward contextualized AI risk management, where organizations are expected to adapt the fra",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "cited page fetched; 35 of 36 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"note\"",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "nist-genai-profile-600-1",
+      "claim": "NIST Generative AI Profile (NIST-AI-600-1) released July 2024.",
+      "source_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "raw_snippet": "Citation NIST Trustworthy and Responsible AI - 600-1 Report Number 600-1 Pub Type NIST Pubs Download Paper https://doi.org/10.6028/NIST.AI.600-1 Local Download Keywords Artificial Intelligence, AI, Risk Management Framework, Generative AI, Cross-sectoral profile, AI Lifecycle, AI Actor, GAI, GAI Risk Trustworthy and responsible AI , Artificial intelligence , Applied AI and AI measurement and evaluation Citation Autio, C. , Schwartz, R.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"600\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "israel-national-ai-program-may-2025",
+      "claim": "Israel Innovation Authority published the National Program for Artificial Intelligence overview in May 2025, integrating activities across multiple ministries.",
+      "source_url": "https://innovationisrael.org.il/wp-content/uploads/2025/05/AI-National-Program-en-14.5.25.pdf",
+      "raw_snippet": "of Defense’s Directorate of Defense Research & Development, Council for Higher Education’s Planning and Budgeting Committee, and Innovation Authority, as well as the National Digital Agency and the Ministries of Foreign Affairs and Justice. The Program is led by a central directorate, and is consulted by a scientific advisory committee chaired by Prof. Yoav Shoham involving leading researchers, high-tech professionals, and winners of prestigious scientific awards from Israel and abroad. 4 aiisrael.org.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "us-israel-ai-partnership-jan-2026",
+      "claim": "In January 2026 the US State Department and Israel announced a Strategic Partnership on Artificial Intelligence, Research, and Critical Technologies.",
+      "source_url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/01/joint-statement-of-the-united-states-and-israel-on-the-launch-of-a-strategic-partnership-on-artificial-intelligence-research-and-critical-technologies",
+      "raw_snippet": "Joint Statement of the United States and Israel on the Launch of a Strategic Partnership on Artificial Intelligence, Research, and Critical Technologies",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "moi-2023-policy-12-principles",
+      "claim": "Israel's December 2023 AI policy is titled \"Responsible Innovation: Israel's Policy on Artificial Intelligence Regulation and Ethics\" and was published by the Ministry of Innovation, Science and Technology with the Ministry of Justice. It carries no day-level publication date.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "Responsible Innovation:",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "cited page fetched; 14 of 16 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"december\"",
+      "verified_at": "2026-08-18",
+      "note": "The PDF title page reads 'Responsible Innovation: Israel's Policy on Artificial Intelligence Regulation and Ethics'. Read on 2026-08-19 with curl plus pdftotext -layout. The body says the policy was 'published, on December 2023', with no day."
+    },
+    {
+      "claim_id": "boi-directive-364-nov-2024",
+      "claim": "Bank of Israel Proper Conduct Directive 364 published 18/11/2024 consolidated former Directives 357, 361, 363 into 'Management of IT, Information Security, and Cyber Protection Risks'.",
+      "source_url": "https://kamakama.gov.il/roles/supervisionregulation/nbt/nbt364/",
+      "raw_snippet": "תאריך פרסום: 18/11/2024 מספר הוראה: 364 מספר חוזר: 2799",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "note": "boi.org.il is bot-gated (Radware). kamakama.gov.il mirrors the same Supervisor of Banks directive pages."
+    },
+    {
+      "claim_id": "eu-ai-act-base-timeline",
+      "claim": "Regulation (EU) 2024/1689 entered into force on the twentieth day following publication, 1 August 2024. Its application dates are in Article 113 as amended by Regulation (EU) 2026/1744.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM. The previous citation pointed at artificialintelligenceact.eu, which this skill instructs readers not to use for dates because it still shows the pre-Omnibus schedule."
+    },
+    {
+      "claim_id": "iso-42001-published-dec-2023",
+      "claim": "ISO/IEC 42001:2023 is the first certifiable AI management system standard, published December 2023, with plan-do-check-act structure and 38 controls.",
+      "source_url": "https://www.iso.org/standard/42001",
+      "raw_snippet": "ISO/IEC 42001:2023 AI management system",
+      "fetched_at": "2026-05-20T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "note": "iso.org is Cloudflare bot-gated and returned 403 to both curl and headless Chromium on 2026-08-19. The publication date was not re-confirmed this cycle. The load-bearing point about 42001 in this skill is the Commission's statement that it is not an AI Act conformity route (claim iso-42001-not-ai-act-qms), which IS verified."
+    },
+    {
+      "claim_id": "eu-gpai-code-of-practice-july-2025",
+      "claim": "The European AI Office published the final General-Purpose AI Code of Practice on July 10, 2025, endorsed by the Commission and the AI Board on August 1, 2025.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "raw_snippet": "Read more about the timeline and the drafting process of the code . The code was published on July 10, 2025 . It is complemented by Commission guidelines on key concepts related to general-purpose AI models. The Commission and the AI Board have confirmed that the code is an adequate voluntary tool for providers of GPAI models to demonstrate compliance with the AI Act.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "cited page fetched; 26 of 29 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"published\"",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "aia-article-2-scope",
+      "claim": "EU AI Act Article 2 (סעיף 2) defines the scope, catching providers placing AI systems on the Union market irrespective of where they are established.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "This Regulation applies to: (a)",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-5-prohibited",
+      "claim": "EU AI Act Article 5 (סעיף 5) lists prohibited AI practices.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "Prohibited AI practices 1.   The following AI practices shall be prohibited:",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md",
+        "scripts/classify_eu_ai_act_risk.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-4-literacy",
+      "claim": "EU AI Act Article 4 (סעיף 4) imposes AI literacy obligations on providers and deployers.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "AI literacy should equip providers, deployers and affected persons with the necessary notions to make informed decisions",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-22-representative",
+      "claim": "EU AI Act Article 22 (סעיף 22) requires third-country providers of high-risk AI systems to appoint an authorised representative established in the Union.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "Authorised representatives of providers of high-risk AI systems",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md",
+        "scripts/classify_eu_ai_act_risk.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-50-2-synthetic",
+      "claim": "EU AI Act Article 50(2) (סעיף 50) requires providers of AI systems generating synthetic audio, image, video or text to mark outputs in a machine-readable format as artificially generated or manipulated.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "Transparency obligations for providers and deployers of certain AI systems",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-51-gpai-systemic",
+      "claim": "EU AI Act Article 51 sets the classification thresholds for general-purpose AI models with systemic risk.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "Classification of general-purpose AI models as general-purpose AI models with systemic risk",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "scripts/classify_eu_ai_act_risk.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "gdpr-article-30-records",
+      "claim": "GDPR Article 30 requires controllers to maintain records of processing activities, a different obligation from Israeli PPL database registration.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679",
+      "raw_snippet": "Article 30 Records of processing activities 1. Each controller and, where applicable, the controller's representative, shall maintain a record of processing activities under its responsibility.",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "references/ppl-for-ml-engineers.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "url-nist-ai-rmf",
+      "claim": "NIST publishes the AI Risk Management Framework page at this URL.",
+      "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "raw_snippet": "AI Risk Management Framework | NIST",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-pearlcohen-ppa-ai-guidelines",
+      "claim": "Pearl Cohen published an analysis of Israel's draft guidelines on applying privacy law to AI at this URL.",
+      "source_url": "https://www.pearlcohen.com/israel-new-draft-guidelines-on-the-application-of-privacy-law-to-ai/",
+      "raw_snippet": "Israel: New Draft Guidelines on the Application of Privacy Law to AI - Pearl Cohen",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "url-trade-gov-israel-ai",
+      "claim": "The US International Trade Administration publishes a market-intelligence page on Israel's ICT policy on AI regulation and ethics at this URL.",
+      "source_url": "https://www.trade.gov/market-intelligence/israel-ict-policy-artificial-intelligence-regulation-and-ethics",
+      "raw_snippet": "Israel ICT Policy on Artificial Intelligence Regulation and Ethics",
+      "fetched_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "omnibus-regulation-adopted",
+      "claim": "The Digital Omnibus on AI was adopted as Regulation (EU) 2026/1744 of 8 July 2026, published in OJ L 2026/1744 on 24 July 2026, amending Regulation (EU) 2024/1689. It is in force.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "Regulation (EU) 2026/1744 of the European Parliament and of the Council of 8 July 2026 amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI)",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium, asserting location.href matched the requested CELEX URL before reading the DOM."
+    },
+    {
+      "claim_id": "omnibus-entry-into-force-third-day",
+      "claim": "Regulation (EU) 2026/1744 entered into force on the third day following publication, so 27 July 2026.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "this Regulation should enter into force as a matter of urgency on the third day following that of its publication in the Official Journal of the European Union",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-high-risk-dates",
+      "claim": "The amended Article 113 third paragraph point (c) sets Chapter III Sections 1, 2 and 3, except Article 6(5), to apply from 2 December 2027 for Annex III high-risk systems under Article 6(2) and from 2 August 2028 for Annex I high-risk systems under Article 6(1).",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and (ii)",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-new-prohibitions-dec-2026",
+      "claim": "The amended Article 113 third paragraph point (a) keeps Chapters I and II applying from 2 February 2025 but excepts Article 5(1) first subparagraph points (ba) and (bb) and Article 5(1a) and (1b), which apply from 2 December 2026.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "Chapters I and II shall apply from 2 February 2025, with the exception of Article 5(1), first subparagraph, points (ba) and (bb), and Article 5(1a) and (1b) which shall apply from 2 December 2026",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-articles-102-110",
+      "claim": "A new Article 113 third paragraph point (d) makes Articles 102 to 110 apply from 27 July 2026.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "Articles 102 to 110 shall apply from 27 July 2026",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-legacy-synthetic-content",
+      "claim": "A new Article 111(4) requires providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content that were placed on the market before 2 August 2026 to comply with Article 50(2) by 2 December 2026.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-public-authority-2030",
+      "claim": "The amended Article 111(2) requires providers and deployers of high-risk AI systems intended to be used by public authorities to comply by 2 August 2030.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "intended to be used by public authorities shall take the necessary steps to comply with the requirements and obligations laid down in this Regulation by 2 August 2030",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-general-application-unchanged",
+      "claim": "The general date of application of Regulation (EU) 2024/1689 remains 2 August 2026; only the high-risk obligations in Chapter III Sections 1 to 3 were postponed.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "establishes the dates of entry into force and application of that Regulation, in particular that the general date of application is 2 August 2026",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "omnibus-postponement-rationale",
+      "claim": "The stated reason for postponing the high-risk obligations is the delayed availability of standards, common specifications and alternative guidance and the delayed establishment of national competent authorities.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "the delayed availability of standards, common specifications, and alternative guidance and the delayed establishment of national competent authorities lead to challenges that jeopardise the effective entry into application of those obligations",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "iso-42001-not-ai-act-qms",
+      "claim": "The European Commission states that although ISO/IEC 42001:2023 helps set up an AI management system, its goals and definitions are not aligned with the quality management system required under the AI Act, and it has requested a new standard for an AI Act quality management system.",
+      "source_url": "https://digital-strategy.ec.europa.eu/en/faqs/understanding-standardisation-ai-act",
+      "raw_snippet": "although ISO/IEC 42001:2023 helps to set up an AI management system, its goals and definitions are not aligned with the quality management system that is required under the AI Act. This is why the Commission has requested the development of a new standard for a quality management system that focuses on regulatory compliance with the AI Act.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "boi-364-in-force-may-2026",
+      "claim": "Bank of Israel Proper Conduct Directive 364 came into force on 18/05/2026, or on the date of its adoption by the banking corporation if earlier, and on that date Directives 357, 361 and 363 were repealed.",
+      "source_url": "https://kamakama.gov.il/roles/supervisionregulation/nbt/nbt364/",
+      "raw_snippet": "כניסתה לתוקף של הוראה זו היא ביום 18/05/2026 או במועד אימוצה על ידי התאגיד הבנקאי, לפי המוקדם מביניהם. ממועד זה תבוטלנה שלוש הוראות נב",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "note": "boi.org.il is bot-gated (Radware). kamakama.gov.il mirrors the same Supervisor of Banks directive pages. The snippet is truncated before the Hebrew abbreviation nun-bet-tav, which contains a quotation mark; the full line continues: נב\"ת 357, 361 ו- 363."
+    },
+    {
+      "claim_id": "aia-article-113-dates",
+      "claim": "EU AI Act Article 113 (סעיף 113) establishes the dates of entry into force and application of Regulation (EU) 2024/1689, and was amended by the Digital Omnibus.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "in Article 113, the third paragraph is amended as follows",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "aia-article-111-transitional",
+      "claim": "EU AI Act Article 111 (סעיף 111) contains the transitional provisions for systems already on the market, and was amended by the Digital Omnibus to add a new paragraph 4.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "Article 111 is amended as follows",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "aia-article-6-high-risk-classification",
+      "claim": "EU AI Act Article 6 (סעיף 6) classifies high-risk AI systems: Article 6(1) covers systems embedded in products under Annex I, and Article 6(2) covers stand-alone systems under Annex III.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32026R1744",
+      "raw_snippet": "2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "aia-eli-permalink",
+      "claim": "Regulation (EU) 2024/1689, the EU AI Act, is published on EUR-Lex under the ELI permalink data.europa.eu/eli/reg/2024/1689/oj.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "ELI: http://data.europa.eu/eli/reg/2024/1689/oj",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl; read on 2026-08-19 with headless Chromium after asserting location.href."
+    },
+    {
+      "claim_id": "moi-six-regulatory-principles",
+      "claim": "The Israeli AI policy sets out six regulatory principles: empowering sector-specific regulators, international interoperability of frameworks, risk-based approach, incremental development and regulatory experimentation, soft regulation, and multistakeholder cooperation.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "Underlying this approach are six regulatory principles:",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "Read on 2026-08-19 with curl plus pdftotext -layout. The six bullet headings follow this line verbatim."
+    },
+    {
+      "claim_id": "moi-ethical-principles-oecd-nonbinding",
+      "claim": "The Israeli AI policy's ethical principles are based on the OECD AI Principles with adjustments, and are expressly not legally binding on regulators or organisations and not a tool for legal interpretation.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "The principles should not be construed as legally binding to regulators or organizations, nor should they constitute a tool for legal interpretation.",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "moi-ethical-principle-growth",
+      "claim": "The first ethical principle is artificial intelligence to promote growth, sustainable development and Israeli leadership in innovation.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "Artificial intelligence to promote growth, sustainable development and Israeli",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "moi-ethical-principle-accountability",
+      "claim": "The sixth ethical principle is accountability: developers, operators and users of AI should be accountable for the proper functioning of AI systems and for implementing the other ethical principles, adopting generally accepted risk-management approaches.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "Developers, operators and users of AI should be accountable for the proper functioning of AI systems",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "moi-coordination-center",
+      "claim": "The policy proposes establishing an AI Policy Coordination Center with the Ministry of Justice, as an expert inter-agency body advising sectoral regulators, promoting inter-agency coordination, leading Israel's representation in international forums on AI regulation and standards, and publishing information and tools on responsible AI innovation.",
+      "source_url": "https://www.gov.il/BlobFolder/policy/ai_2023/en/Israels%20AI%20Policy%202023.pdf",
+      "raw_snippet": "It is proposed to establish an AI Policy Coordination Center",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/moi-2023-principles.md"
+      ],
+      "verified_via": "pdf",
+      "verified_at": "2026-08-19T00:00:00Z"
+    },
+    {
+      "claim_id": "aia-article-25-role-flip",
+      "claim": "EU AI Act Article 25 (סעיף 25) treats a distributor, importer, deployer or other third party as the provider of a high-risk AI system, subject to the Article 16 provider obligations, where they put their name or trademark on it, make a substantial modification to it, or modify the intended purpose of a non-high-risk system so that it becomes high-risk.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "they put their name or trademark on a high-risk AI system already placed on the market or put into service, without prejudice to contractual arrangements stipulating that the obligations are otherwise allocated",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md",
+        "scripts/classify_eu_ai_act_risk.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-26-deployer-obligations",
+      "claim": "EU AI Act Article 26 (סעיף 26) sets obligations of deployers of high-risk AI systems, including using them per the instructions for use and assigning human oversight to natural persons with the necessary competence, training and authority.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "Deployers shall assign human oversight to natural persons who have the necessary competence, training and authority",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/eu-ai-act-israel-guide.md",
+        "scripts/classify_eu_ai_act_risk.py"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    },
+    {
+      "claim_id": "aia-article-6-3-derogation",
+      "claim": "The EU AI Act provides that an Annex III system may fall outside high-risk where it does not materially influence the outcome of decision-making, including where it performs a narrow procedural task, improves the result of a previously completed human activity, detects decision patterns without replacing human assessment, or performs a preparatory task.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689",
+      "raw_snippet": "the AI system is intended to perform a narrow procedural task",
+      "fetched_at": "2026-08-19T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "references/eu-ai-act-israel-guide.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-19T00:00:00Z",
+      "note": "eur-lex.europa.eu returns HTTP 202 with an empty body to curl. Read on 2026-08-19 with headless Chromium at the CELEX URL, asserting location.href matched the request before reading the DOM."
+    }
+  ]
+}

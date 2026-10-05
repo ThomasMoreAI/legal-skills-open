@@ -1,0 +1,61 @@
+{
+  "mp": {
+    "id": 133,
+    "firstLastName": "Szymon Hołownia",
+    "firstName": "Szymon",
+    "secondName": "Franciszek",
+    "lastName": "Hołownia",
+    "club": "Polska2050",
+    "districtNum": 24,
+    "districtName": "Białystok",
+    "voivodeship": "podlaskie",
+    "email": "Szymon.Holownia@sejm.pl",
+    "birthDate": "1976-09-03",
+    "birthLocation": "Białystok",
+    "educationLevel": "średnie ogólne",
+    "profession": "dziennikarz",
+    "active": true,
+    "numberOfVotes": 79951,
+    "committees": []
+  },
+  "voting": {
+    "term": 10,
+    "sitting": 1,
+    "votingNumber": 2,
+    "date": "2023-11-13T18:02:12",
+    "title": "Pkt. 2 Poselskie projekty uchwał w sprawie ustalenia liczby Wicemarszałków Sejmu RP (druki nr 1 i 2)",
+    "topic": "ustalenie liczby Wicemarszałków Sejmu RP",
+    "totalVoted": 458,
+    "majorityVotes": 230,
+    "yes": 458,
+    "no": 0,
+    "abstain": 0,
+    "notParticipating": 2,
+    "clubSummary": {
+      "KO": { "total": 157, "yes": 157, "no": 0, "abstain": 0, "absent": 0 },
+      "PiS": { "total": 194, "yes": 192, "no": 0, "abstain": 0, "absent": 2 }
+    }
+  },
+  "process": {
+    "term": 10,
+    "number": "1",
+    "title": "Poselski projekt uchwały w sprawie ustalenia liczby wicemarszałków Sejmu Rzeczypospolitej Polskiej",
+    "documentType": "projekt uchwały",
+    "processStartDate": "2023-11-13",
+    "closureDate": "2023-11-13",
+    "passed": true,
+    "displayAddress": "M.P. 2023 poz. 1261",
+    "stages": [
+      {
+        "date": "2023-11-13",
+        "stageName": "Projekt wpłynął do Sejmu",
+        "stageType": "Start"
+      },
+      {
+        "date": "2023-11-13",
+        "stageName": "Skierowano do I czytania na posiedzeniu Sejmu",
+        "stageType": "ReadingReferral"
+      }
+    ]
+  }
+}

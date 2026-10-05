@@ -19,16 +19,25 @@
     "skills/demand-draft-bossmann007",
     "skills/deposition-prep-bossmann007",
     "skills/djen-watcher",
+    "skills/gerador-topico-impugnacao-sbroggioadv",
+    "skills/heuristica-uso-de-ia-sbroggioadv",
+    "skills/honorarios-da-fazenda-sbroggioadv",
     "skills/jurimetria-bossmann007",
     "skills/legal-hold-bossmann007",
     "skills/liquidacao-planilha-bossmann007",
+    "skills/mapa-de-gaps-da-tese-sbroggioadv",
     "skills/portfolio-status-bossmann007",
     "skills/prazos-cpc-bossmann007",
+    "skills/preposto-e-representacao-jec-sbroggioadv",
+    "skills/prerrogativas-processuais-sbroggioadv",
     "skills/prescricao-decadencia-bossmann007",
     "skills/privilege-log-review-bossmann007",
     "skills/quesitos-pericia-bossmann007",
     "skills/rito-selector-bossmann007",
     "skills/subpoena-triage-bossmann007",
-    "skills/tese-vinculante-checker-bossmann007"
+    "skills/tese-vinculante-checker-bossmann007",
+    "skills/validador-blindagem-vigente-sbroggioadv",
+    "skills/varredura-metadados-sbroggioadv",
+    "skills/varredura-pdf-ativo-sbroggioadv"
   ]
 }

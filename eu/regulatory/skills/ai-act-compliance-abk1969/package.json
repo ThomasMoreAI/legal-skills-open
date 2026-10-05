@@ -1,0 +1,79 @@
+{
+  "name": "ai-act-compliance",
+  "version": "2.0.0",
+  "description": "Authoritative agent skill for EU AI Act (Regulation 2024/1689) compliance, strictly aligned with ISO/IEC 42001:2023 (AIMS) and ISO/IEC 27090 (AI cybersecurity). Multi-platform: Claude Code, Gemini CLI, OpenAI Codex. Includes machine-readable SSL manifest per Liang et al. arXiv:2604.24026.",
+  "skill": {
+    "name": "ai-act-compliance",
+    "type": "agent-skill",
+    "entry": "SKILL.md",
+    "manifest": "ssl.json",
+    "manifest_schema": "SSL-1.0",
+    "manifest_source": "arXiv:2604.24026",
+    "references": "references/",
+    "platforms": [
+      "claude-code",
+      "gemini-cli",
+      "codex"
+    ],
+    "platform_files": {
+      "claude-code": "SKILL.md",
+      "gemini-cli": "GEMINI.md",
+      "codex": "AGENTS.md"
+    },
+    "install_paths": {
+      "claude-code": "~/.claude/skills/ai-act-compliance/",
+      "gemini-cli": "~/.gemini/skills/ai-act-compliance/",
+      "codex": "~/.agents/skills/ai-act-compliance/"
+    },
+    "tool_calls": false,
+    "touches_sensitive_resources": false,
+    "permission": "filesystem.read"
+  },
+  "keywords": [
+    "ai-act",
+    "eu-ai-act",
+    "regulation-2024-1689",
+    "iso-42001",
+    "iso-27090",
+    "iso-23894",
+    "iso-42005",
+    "aims",
+    "ai-management-system",
+    "ai-cybersecurity",
+    "compliance",
+    "grc",
+    "high-risk-ai",
+    "fria",
+    "conformity-assessment",
+    "annex-iv",
+    "post-market-monitoring",
+    "art-4-ai-literacy",
+    "art-25-substantial-modification",
+    "art-50-transparency",
+    "art-56-gpai-code-of-practice",
+    "art-57-regulatory-sandbox",
+    "art-60-real-world-testing",
+    "art-86-right-to-explanation",
+    "art-95-voluntary-codes",
+    "gpai",
+    "general-purpose-ai",
+    "ai-omnibus",
+    "digital-omnibus",
+    "ssl-manifest",
+    "scheduling-structural-logical",
+    "agent-skill",
+    "claude-code",
+    "gemini-cli",
+    "openai-codex",
+    "multi-platform"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abk1969/ai-act-skills.git"
+  },
+  "homepage": "https://github.com/abk1969/ai-act-skills#readme",
+  "bugs": {
+    "url": "https://github.com/abk1969/ai-act-skills/issues"
+  }
+}

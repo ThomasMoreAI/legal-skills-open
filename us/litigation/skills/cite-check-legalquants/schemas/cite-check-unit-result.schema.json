@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/cite-check-unit-result.schema.json",
+  "title": "CiteCheckUnitResult",
+  "description": "The terminal worker result for one prepared unit. The parent owns the unit path and line range; the worker reports only the unit ID, its citation disposition, and one row per observed citation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "unitId",
+    "disposition",
+    "citations"
+  ],
+  "properties": {
+    "unitId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "disposition": {
+      "type": "string",
+      "enum": [
+        "no_citations_found",
+        "citations_found"
+      ]
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/citation"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "disposition": {
+            "const": "no_citations_found"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "citations": {
+            "type": "array",
+            "maxItems": 0
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "disposition": {
+            "const": "citations_found"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "citations": {
+            "type": "array",
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "citation_as_written_in_unit",
+        "matched_citation",
+        "proposition",
+        "matched_source_id",
+        "source_excerpt",
+        "source_locator",
+        "citation_kind",
+        "source_resolution",
+        "fabrication_indicators",
+        "accuracy_of_source_characterization",
+        "pincite_accuracy",
+        "accuracy_of_direct_quotation",
+        "recommended_changes"
+      ],
+      "properties": {
+        "citation_as_written_in_unit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "matched_citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proposition": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "matched_source_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "source_excerpt": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "source_locator": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "citation_kind": {
+          "type": "string",
+          "enum": [
+            "case",
+            "statute",
+            "rule",
+            "regulation",
+            "record",
+            "other"
+          ]
+        },
+        "source_resolution": {
+          "type": "string",
+          "enum": [
+            "matched_supplied_source",
+            "not_supplied_confirmed_exists_elsewhere",
+            "not_supplied_not_found_potential_hallucination",
+            "not_supplied_search_unavailable"
+          ]
+        },
+        "fabrication_indicators": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": [
+              "reporter_coordinates_belong_to_different_supplied_case",
+              "not_found_in_external_search",
+              "citation_malformed_or_impossible"
+            ]
+          }
+        },
+        "colliding_source_id": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "existence_check_notes": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "accuracy_of_source_characterization": {
+          "type": "string",
+          "enum": [
+            "confirmed_fair_characterization_of_source",
+            "potentially_unfair_or_unreasonable_characterization_of_source",
+            "objectively_false_or_unreasonable_characterization_of_source",
+            "source_not_found_unable_to_characterize"
+          ]
+        },
+        "pincite_accuracy": {
+          "type": "string",
+          "enum": [
+            "NA_no_pincite_for_this_citation",
+            "pincite_confirmed_accurate",
+            "pincite_inaccurate",
+            "source_not_found_unable_to_check_pincite"
+          ]
+        },
+        "accuracy_of_direct_quotation": {
+          "type": "string",
+          "enum": [
+            "NA_no_direct_quotation_for_this_citation",
+            "quotation_confirmed_accurate_and_fair",
+            "quotation_technically_accurate_but_misleading_or_unfair",
+            "quotation_objectively_inaccurate",
+            "source_not_found_unable_to_check_quotation"
+          ]
+        },
+        "recommended_changes": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Secrets — never commit real keys
+config/keys.json
+config/env.json
+.env
+
+# Scraped output (full register/annual-report text is written here by default)
+register-texts/
+*.txt.tmp
+
+# Runtime / caches
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

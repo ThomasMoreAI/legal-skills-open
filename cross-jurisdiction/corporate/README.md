@@ -4,11 +4,13 @@ Entity formation, governance, shareholder matters, and M&A/transactional corpora
 
 Jurisdiction: `cross-jurisdiction` · Practice: `corporate` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
+| [`Public Company Registries — 11 Countries`](skills/apify-public-registries-chocholous/) | Look up official company data from European public registries across 11 countries/regions (CZ, SK, PL… |
 | [`Audit Board Effectiveness`](skills/audit-board-effectiveness-jeffreytse/) | Use when a company's board wants to systematically evaluate its own performance — running a structured… |
+| [`European Company Registers`](skills/european-company-registers-tfbecker/) | Search public company registers across Europe for financial data (revenue, assets, earnings) AND… |
 | [`LEX: Legal-Entity-X-ref`](skills/lex-ignvvcio254/) | Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffolding. |
 | [`LEX: Legal-Entity-X-ref`](skills/lex-v2/) | LEX: Legal-Entity-X-ref workflow skill. Use this skill when the user needs Centralized 'Truth Engine'… |
 

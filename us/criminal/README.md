@@ -4,7 +4,7 @@ Criminal offenses, defenses, charging, plea practice, sentencing, and post-convi
 
 Jurisdiction: `us` · Practice: `criminal` · Skill language: en
 
-## Skills (20)
+## Skills (22)
 
 | Skill | What it does |
 |---|---|
@@ -15,6 +15,7 @@ Jurisdiction: `us` · Practice: `criminal` · Skill language: en
 | [`Motion for Bail Reduction`](skills/bail-reduction-motion/) | Drafts a Motion for Bail Reduction for criminal defense pretrial proceedings. Argues current bail is… |
 | [`Body Camera Incident Summary`](skills/body-camera-incident-summary/) | Transforms police body camera transcripts into structured 10-section legal summaries with… |
 | [`Criminal Case Summary`](skills/criminal-case-summary/) | Produces structured U.S. criminal case summaries covering charges, statutes, evidence, procedural… |
+| [`Criminal Defense`](skills/criminal-defense-judicialmind/) | Criminal defense law skill for defense representation and criminal proceedings. Use when the user needs… |
 | [`Criminal Case Summary`](skills/criminal-summary/) | Generates structured U.S. criminal case summaries from docket materials, filings, transcripts, and… |
 | [`Expungement Petition`](skills/expungement-petition/) | Drafts jurisdiction-specific petitions for expungement or sealing of criminal records. Covers caption… |
 | [`Habeas Corpus Petition`](skills/habeas-corpus-petition/) | Drafts federal and state habeas corpus petitions challenging unlawful detention on constitutional… |
@@ -23,6 +24,7 @@ Jurisdiction: `us` · Practice: `criminal` · Skill language: en
 | [`Motion to Dismiss Indictment`](skills/motion-to-dismiss-indictment/) | Drafts motions to dismiss criminal indictments in federal and state courts. Covers defective… |
 | [`Notice of Appeal — Criminal`](skills/notice-of-appeal-criminal/) | Drafts Notices of Appeal for criminal matters with strict compliance to FRAP 4(b) deadlines… |
 | [`Parole Hearing Summary`](skills/parole-hearing-summary/) | Summarizes parole hearing transcripts into structured analytical documents covering case identification… |
+| [`Firearms and Self-Defense Law: Federal and South Carolina`](skills/physsec-firearms-and-self-defense-law-the-vibey-project/) | Use when a firearms or self-defense law question comes up, stated as of September 2026 and to be… |
 | [`Plea Agreement`](skills/plea-agreement/) | Drafts criminal defense plea agreements formalizing negotiated resolutions between defendant and… |
 | [`Plea Agreement Summary`](skills/plea-agreement-summary/) | Generates structured summaries of criminal plea agreements. Triggers when summarizing plea deals… |
 | [`Sentencing Guideline Analysis`](skills/sentencing-guidelines/) | Calculates federal and state sentencing guideline ranges with precise USSG citations, including base… |

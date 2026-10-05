@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (780)
+## Skills (782)
 
 | Skill | What it does |
 |---|---|
@@ -436,6 +436,8 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`JVEG-Kuerzung-Wegfall-8a`](skills/kuerzung-wegfall-8a/) | Für JVEG-Kürzung-Wegfall-8a: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Was steht in einer Termin-Ladung?`](skills/ladung-termin-216-zpo/) | Für Was steht in einer Termin-Ladung?: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Land: Dokumentenmatrix, Lückenliste und Nachforderung`](skills/land-dokumentenmatrix-lueckenliste/) | Für Land: Dokumentenmatrix, Lückenliste und Nachforderung: ordnet Akte, Belege und Lücken; Ergebnis… |
+| [`Legal-Beweislage Skill`](skills/legal-beweislage-sigmacodeat/) | Analyzes evidence in a legal case: evaluates strengths and weaknesses, identifies gaps, assesses… |
+| [`Legal-Strategie Skill`](skills/legal-strategie-sigmacodeat/) | Generates legal strategy recommendations for a case, including procedural tactics, risk assessment, and… |
 | [`Limitation and Tolling`](skills/limitation-and-tolling-check/) | Für Limitation and Tolling: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Logik Quellenkarte`](skills/logik-quellenkarte/) | Für Logik Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Mahn: Fristen, Form, Zuständigkeit und Rechtsweg`](skills/mahn-fristen-form-und-zustaendigkeit/) | Für Mahn: Fristen, Form, Zuständigkeit und Rechtsweg: prüft Frist, Form, Zuständigkeit und Eilbedarf… |

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Evidence Chronology"
+  short_description: "Build a source-linked evidence chronology"
+  default_prompt: "Use $build-evidence-chronology to create a source-linked .docx chronology from these documents and preserve conflicting accounts."

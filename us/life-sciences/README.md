@@ -4,7 +4,7 @@ U.S. FDA-regulated life sciences — 510(k) and IND/NDA submissions, device regi
 
 Jurisdiction: `us` · Practice: `life-sciences` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (16)
+## Skills (18)
 
 | Skill | What it does |
 |---|---|
@@ -12,6 +12,8 @@ Jurisdiction: `us` · Practice: `life-sciences` · Skill language varies per ski
 | [`Adverse Event Reporting Policy`](skills/adverse-event-reporting-policy/) | Drafts an Adverse Event Reporting Policy compliant with 21 CFR 312.32 (IND safety reporting), 21 CFR… |
 | [`Clinical Trial Agreement`](skills/clinical-trial-agreement/) | Drafts U.S. clinical trial agreements governing sponsor–site–investigator relationships under FDA rules… |
 | [`Clinical Trial Investigator Agreement`](skills/clinical-trial-investigator-agreement/) | Drafts U.S. clinical trial Investigator Agreements between sponsors/CROs and principal investigators or… |
+| [`Core competencies`](skills/fda-classification-advisor-alexclowe/) | Determine the appropriate FDA premarket pathway for an AI-enabled medical device based on intended use… |
+| [`FDA Consultant Specialist`](skills/fda-consultant-specialist-aashutosh396/) | Use when planning an FDA medical-device submission (510(k), PMA, De Novo), assessing QMSR/21 CFR 820… |
 | [`FDA Establishment Registration & Device Listing`](skills/fda-device-registration/) | Drafts FDA Establishment Registration and Device Listing documents compliant with 21 CFR Part 807.… |
 | [`FDA MedTech Compliance Auditor`](skills/fda-medtech-compliance-auditor-foolhardy45/) | Expert AI auditor for Medical Device (SaMD) compliance, IEC 62304, and 21 CFR Part 820. Reviews DHFs… |
 | [`FDA MedTech Compliance Auditor`](skills/fda-medtech-compliance-auditor-v2/) | FDA MedTech Compliance Auditor workflow skill. Use this skill when the user needs Expert AI auditor for… |

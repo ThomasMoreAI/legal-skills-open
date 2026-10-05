@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/timenarratives-deliverable.schema.json",
+  "title": "TimeNarrativesDeliverableV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "status",
+    "narratives",
+    "checkQuestions",
+    "receipt"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "timenarratives.deliverable.v1" },
+    "runId": { "$ref": "#/$defs/id" },
+    "status": {
+      "enum": [
+        "ready_for_user_review",
+        "partial_withheld",
+        "no_supported_activity",
+        "incomplete"
+      ]
+    },
+    "narratives": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/narrative" }
+    },
+    "checkQuestions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    },
+    "receipt": { "$ref": "#/$defs/receipt" }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "narrative": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["workstreamId", "text", "eventIds", "supportClass"],
+      "properties": {
+        "workstreamId": { "$ref": "#/$defs/id" },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1202,
+          "pattern": "^(?![\\s\\S]*[\\u0000-\\u0009\\u000b-\\u001f\\u007f-\\u00a0\\u00ad\\u034f\\u0600-\\u0605\\u061c\\u06dd\\u070f\\u0890-\\u0891\\u08e2\\u115f-\\u1160\\u1680\\u17b4-\\u17b5\\u180b-\\u180f\\u2000-\\u200f\\u2028-\\u202f\\u205f\\u2060-\\u206f\\u3000\\u3164\\ud800-\\udfff\\ufe00-\\ufe0f\\ufeff\\uffa0\\ufff0-\\ufffb\ud804\udcbd\ud804\udccd\ud80d\udc30-\ud80d\udc3f\ud82f\udca0-\ud82f\udca3\ud834\udd73-\ud834\udd7a\udb40\udc00-\udb43\udfff])(?=[^\\r\\n]{1,600}(?:\\n\\n|(?![\\s\\S])))(?=[^\\r\\n]*[A-Za-z])[^\\r\\n ]+(?: [^\\r\\n ]+){0,59}(?:\\n\\n(?=[^\\r\\n]{1,600}(?![\\s\\S]))(?=[^\\r\\n]*[A-Za-z])[^\\r\\n ]+(?: [^\\r\\n ]+){0,59})?(?![\\s\\S])"
+        },
+        "eventIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/id" }
+        },
+        "supportClass": {
+          "enum": ["documentary_supported", "user_attested"]
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unitId", "reason", "source"],
+      "properties": {
+        "unitId": { "$ref": "#/$defs/id" },
+        "reason": {
+          "enum": [
+            "actor_unclear",
+            "matter_unclear",
+            "action_unclear",
+            "object_unclear",
+            "source_unsupported",
+            "source_unreadable",
+            "source_partially_read"
+          ]
+        },
+        "source": { "type": "string", "minLength": 1, "maxLength": 256 }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selectedRoots",
+        "containers",
+        "mimeLeaves",
+        "parts",
+        "units",
+        "accountedUnits",
+        "analyzableUnits",
+        "assessedUnits",
+        "usedUnits",
+        "needsConfirmationUnits",
+        "events",
+        "workstreams",
+        "narratives",
+        "packetErrors",
+        "packetLimitations",
+        "exceptionLedgerItems"
+      ],
+      "properties": {
+        "selectedRoots": { "type": "integer", "minimum": 0 },
+        "containers": { "type": "integer", "minimum": 0 },
+        "mimeLeaves": { "type": "integer", "minimum": 0 },
+        "parts": { "type": "integer", "minimum": 0 },
+        "units": { "type": "integer", "minimum": 0 },
+        "accountedUnits": { "type": "integer", "minimum": 0 },
+        "analyzableUnits": { "type": "integer", "minimum": 0 },
+        "assessedUnits": { "type": "integer", "minimum": 0 },
+        "usedUnits": { "type": "integer", "minimum": 0 },
+        "needsConfirmationUnits": { "type": "integer", "minimum": 0 },
+        "events": { "type": "integer", "minimum": 0 },
+        "workstreams": { "type": "integer", "minimum": 0 },
+        "narratives": { "type": "integer", "minimum": 0 },
+        "packetErrors": { "type": "integer", "minimum": 0 },
+        "packetLimitations": { "type": "integer", "minimum": 0 },
+        "exceptionLedgerItems": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "supportCounts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["documentarySupported", "userAttested"],
+      "properties": {
+        "documentarySupported": { "type": "integer", "minimum": 0 },
+        "userAttested": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "exceptionLedgerItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["itemType", "itemId", "disposition", "reason"],
+      "properties": {
+        "itemType": {
+          "enum": [
+            "root",
+            "container",
+            "mimeLeaf",
+            "part",
+            "unit",
+            "unitAssessment"
+          ]
+        },
+        "itemId": { "$ref": "#/$defs/id" },
+        "disposition": {
+          "enum": [
+            "requiresConfirmation",
+            "exactDuplicate",
+            "excluded",
+            "unreadable",
+            "read_but_unused",
+            "excluded_other_actor",
+            "excluded_other_matter",
+            "excluded_non_work",
+            "needs_confirmation",
+            "context_only",
+            "ineligible",
+            "exact_duplicate",
+            "attestation_confirmed"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+        }
+      }
+    },
+    "receipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "packetDigest",
+        "mapDigest",
+        "confirmationToken",
+        "packetScope",
+        "packetReconciliation",
+        "workdayCompleteness",
+        "postingState",
+        "counts",
+        "supportCounts",
+        "exceptionLedger"
+      ],
+      "properties": {
+        "packetDigest": { "$ref": "#/$defs/sha256" },
+        "mapDigest": { "$ref": "#/$defs/sha256" },
+        "confirmationToken": {
+          "type": "string",
+          "pattern": "^TN-[0-9a-f]{16}$"
+        },
+        "packetScope": { "const": "expressly_selected_only" },
+        "packetReconciliation": { "const": "complete" },
+        "workdayCompleteness": { "const": "not_assessed" },
+        "postingState": { "const": "unposted_draft" },
+        "counts": { "$ref": "#/$defs/counts" },
+        "supportCounts": { "$ref": "#/$defs/supportCounts" },
+        "exceptionLedger": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/exceptionLedgerItem" }
+        }
+      }
+    }
+  }
+}

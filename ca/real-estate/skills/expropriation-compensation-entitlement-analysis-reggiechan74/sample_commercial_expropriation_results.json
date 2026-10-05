@@ -1,0 +1,67 @@
+{
+  "analysis_date": "2025-11-15",
+  "property_details": {
+    "address": "2550 Industrial Avenue, Mississauga, ON L5T 2K9",
+    "area_acres": 50.0,
+    "market_value": 1500000.0,
+    "zoning": "Employment Commercial (EC)",
+    "highest_and_best_use": "Commercial development (industrial/office)",
+    "valuation_date": "2024-01-15"
+  },
+  "compensation_breakdown": {
+    "market_value": 1500000.0,
+    "disturbance_damages": {
+      "moving_costs": 36000.0,
+      "business_losses_compensable": 260000.0,
+      "business_losses_non_compensable": 150000.0,
+      "professional_fees": 50000.0,
+      "temporary_accommodation": 9000.0,
+      "construction_impacts_temporary": 20000.0,
+      "permanent_impacts_capitalized": 85000.0,
+      "total": 460000.0
+    },
+    "subtotal_before_interest": 1960000.0,
+    "interest": {
+      "interest_amount": 58961.095890410965,
+      "days": 366,
+      "years": 1.0027397260273974,
+      "rate_annual_pct": 3.0,
+      "principal": 1960000.0,
+      "valuation_date": "2024-01-15",
+      "payment_date": "2025-01-15"
+    },
+    "total_compensation": 2018961.095890411
+  },
+  "compliance": {
+    "compensable_items": [
+      "\u2713 Market value: $1,500,000.00 at valuation date January 15, 2024",
+      "\u2713 Highest and best use: Commercial development (industrial/office) (zoned Employment Commercial (EC))",
+      "\u2713 Valuation date: Earlier of Form 7 (2024-01-15) or plan registration (2024-02-01)",
+      "\u2713 Moving costs: $36,000.00 (passes but-for test)",
+      "\u2713 Professional fees: $50,000.00 (reasonable rates required)",
+      "\u2713 Business losses: $260,000.00 (limited to 6 month reasonable relocation period)",
+      "\u2713 Construction impacts (s.18(2)(a)): $20,000.00 (12 month temporary impact)",
+      "\u2713 Permanent use impacts (s.18(2)(b)): $85,000.00 (capitalized permanent value loss - Antrim four-part test)",
+      "\u2713 Pre-judgment interest: $58,961.10 (366 days at 3.0%/year)"
+    ],
+    "non_compensable_items": [
+      "\u2717 Special purchaser premium excluded: $250,000.00 (Adjacent owner willing to pay $1.75M for assemblage - premium excluded per s.13 OEA)",
+      "\u2717 Goodwill NON-compensable: $150,000.00 (s.18(3) OEA excludes intangible value - owner can rebuild at new location)"
+    ]
+  },
+  "analysis_notes": [
+    "Expropriation compensation analysis under Ontario Expropriations Act",
+    "Property: 2550 Industrial Avenue, Mississauga, ON L5T 2K9 (50.0 acres)",
+    "Valuation date: January 15, 2024",
+    "Payment date: January 15, 2025",
+    "",
+    "Legal framework:",
+    "  - s.13 OEA: Market value at highest and best use",
+    "  - s.18 OEA: Disturbance damages (but-for test, reasonableness, foreseeability)",
+    "  - s.18(2)(a): Construction impacts (temporary)",
+    "  - s.18(2)(b): Permanent use impacts (Antrim four-part test)",
+    "  - s.18(3): Goodwill NON-compensable",
+    "",
+    "Total compensation: $2,018,961.10"
+  ]
+}

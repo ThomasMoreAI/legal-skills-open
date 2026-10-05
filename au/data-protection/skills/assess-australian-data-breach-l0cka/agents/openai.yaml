@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Australian Data Breach"
+  short_description: "Assess Australian breach duties and next steps"
+  default_prompt: "Use $assess-australian-data-breach to assess this suspected Australian data breach and prepare a lawyer-review action matrix."

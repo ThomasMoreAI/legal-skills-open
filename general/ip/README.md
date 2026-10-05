@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `general` · Practice: `ip` · Skill language: en
 
-## Skills (66)
+## Skills (69)
 
 | Skill | What it does |
 |---|---|
@@ -16,8 +16,11 @@ Jurisdiction: `general` · Practice: `ip` · Skill language: en
 | [`Claims Drafting: The Core Patent Skill`](skills/claims-drafting/) | Draft patent claims for an invention. Use when user says "撰写权利要求", "draft claims", "写权利要求书", "claim… |
 | [`$ip-legal:cold-start-interview`](skills/cold-start-interview-18/) | Run the cold-start interview to learn your IP practice and write your practice profile. Use on first… |
 | [`Cold start interview`](skills/cold-start-interview-zhou210712/) | 运行冷启动面谈以了解你的知识产权实务并撰写实务画像。 用于首次安装、实务画像缺失或仍含占位符时，使用 --redo 重新设置、 或在连接或断开 MCP 后使用 --check-integrations… |
+| [`Copyright Holder Finder`](skills/copyright-holder-finder-ur-grue/) | Produces a step-by-step research plan for identifying the copyright holder of a specific piece of… |
+| [`Creative Commons Explainer`](skills/creative-commons-explainer-ur-grue/) | Explains a specific Creative Commons licence in plain language, telling a media professional exactly… |
 | [`$ip-legal:customize`](skills/customize-19/) | Guided customization of your IP practice profile — change one thing without re-running the whole… |
 | [`/customize`](skills/customize-7/) | Guided customization of your IP practice profile — change one thing without re-running the whole… |
+| [`Dependency Compliance (license & SBOM mechanics)`](skills/dependency-compliance-kabaka/) | Use when checking a dependency's license, license compatibility, copyleft obligations, generating or… |
 | [`Embodiment Description`](skills/embodiment-description/) | Write detailed embodiment descriptions for patent specifications. Use when user says "撰写实施例", "write… |
 | [`Exclusive Patent License Agreement`](skills/exclusive-patent-license/) | Drafts an Exclusive Patent License Agreement granting a Licensee exclusive rights to commercialize… |
 | [`Field of Use Restriction Clause`](skills/field-of-use-restriction/) | Drafts field-of-use restriction clauses for IP licensing agreements. Covers grant language, prohibited… |

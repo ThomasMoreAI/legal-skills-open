@@ -1,0 +1,52 @@
+{
+  "company_name": "CARREFOUR",
+  "country": "fr",
+  "registration_id": "652014051",
+  "siret": "65201405100732",
+  "found": true,
+  "address": "93 AVENUE DE PARIS 91300 MASSY",
+  "activity": {
+    "code": "64.20Z",
+    "label": "K"
+  },
+  "legal_form": "5599",
+  "employees_band": "02",
+  "creation_date": "1963-01-01",
+  "is_active": true,
+  "officers": [
+    {
+      "type": "person",
+      "name": "FREDERIC JEAN-CLAUDE BARRAULT",
+      "role": "Administrateurs représentant les salariés",
+      "birth_year": "1965"
+    },
+    {
+      "type": "person",
+      "name": "MARGUERITTE MARIE ALICE SIMONE BERARD",
+      "role": "Administrateur",
+      "birth_year": "1977"
+    },
+    {
+      "type": "person",
+      "name": "ALEXANDRE BOMPARD",
+      "role": "Président du conseil d'administration et directeur général",
+      "birth_year": "1972"
+    }
+  ],
+  "financial_data": {
+    "revenue": 84908000000,
+    "total_assets": null,
+    "earnings": 0,
+    "fiscal_year": "2023",
+    "currency": "EUR"
+  },
+  "financial_history": [
+    {
+      "fiscal_year": "2023",
+      "revenue": 84908000000,
+      "earnings": 0
+    }
+  ],
+  "source": "recherche-entreprises.api.gouv.fr",
+  "note": null
+}

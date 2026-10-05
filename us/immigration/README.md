@@ -4,11 +4,12 @@ Visas, status, employment authorization, removal defense, and naturalization.
 
 Jurisdiction: `us` · Practice: `immigration` · Skill language: en
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Immigration Case Summary`](skills/immigration-case-summary/) | Produces structured U.S. immigration case summaries covering applicant background, legal basis… |
+| [`Immigration Law`](skills/immigration-judicialmind/) | Immigration law skill for visa applications, compliance, and immigration proceedings. Use when the user… |
 | [`Immigration Support Letter`](skills/immigration-support-letter/) | Drafts formal immigration support letters from employers, family members, or community supporters for… |
 
 ## Cold-start context

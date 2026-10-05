@@ -4,14 +4,16 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `it` · Practice: `litigation` · Skill language: it
 
-## Skills (14)
+## Skills (16)
 
 | Skill | What it does |
 |---|---|
+| [`Accertamento tecnico preventivo e consulenza tecnica preventiva (c.p.c. 696, 696-bis)`](skills/accertamento-tecnico-preventivo-cpc-morellid/) | Supporto documentale all'inquadramento dell'istruzione preventiva nel processo civile secondo il Codice… |
 | [`Analisi giurisprudenziale`](skills/analisi-giurisprudenziale-capazme/) | Analisi degli orientamenti giurisprudenziali su un tema con sintesi delle sentenze principali. Usa… |
 | [`Analisi Sinistro`](skills/analisi-sinistro/) | Analizza sinistri stradali, sanitari e lavorativi con quantificazione del danno non patrimoniale… |
 | [`Calcolo Parcella`](skills/calcolo-parcella/) | Calcola la parcella dell'avvocato per attivita civile, penale o stragiudiziale secondo il D.M. 55/2014… |
 | [`Causa Civile`](skills/causa-civile-capazme/) | Pianifica una causa civile con calcolo contributo unificato, scadenze processuali post-Cartabia, termini… |
+| [`Compensi del CTU / ausiliario del magistrato (D.P.R. 115/2002)`](skills/compensi-ctu-dpr115-morellid/) | Supporto documentale alla liquidazione dei compensi del CTU / ausiliario del magistrato ai sensi del… |
 | [`Genera Atto Legale`](skills/genera-atto/) | Genera atti legali italiani (citazione, ricorso, decreto ingiuntivo, precetto, procura, relata… |
 | [`Invocazione`](skills/giurisprudenza-lampo/) | Ricerca giurisprudenziale rapida per ottenere un quadro di orientamento iniziale su un tema giuridico.… |
 | [`Mappatura Normativa`](skills/mappatura-normativa/) | Costruisce la mappa normativa completa di un settore o attivita con fonti organizzate per livello… |

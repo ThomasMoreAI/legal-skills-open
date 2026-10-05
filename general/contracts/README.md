@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 
-## Skills (213)
+## Skills (221)
 
 | Skill | What it does |
 |---|---|
@@ -26,8 +26,10 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Brief Review`](skills/brief-review/) | Review and redline a contract — flag risk, missing clauses, one-sided terms. Use when asked to "review… |
 | [`Canonical markdown authoring`](skills/canonical-markdown-authoring/) | Convert plain markdown contract drafts into OpenAgreements' canonical template.md authoring format… |
 | [`Case-Law Research`](skills/case-law-research/) | Use when the user asks to find, read, or cite U.S. case law on a question — locating controlling or… |
+| [`Deal Negotiation Analyst`](skills/chief-deal-adamfarren/) | Analyze deals, term sheets, contracts, and proposals. Use this skill when the user shares a term sheet… |
 | [`Claude review`](skills/claude-review/) | Agentic contract review using superdoc-redlines. Spawns parallel sub-agents for comprehensive document… |
 | [`Clause Analyze`](skills/clause-analyze/) | Deep clause-by-clause analysis of a contract with risk scores. Use when asked to "analyze this contract… |
+| [`Clause checklist - what a contract is missing, and what bites`](skills/clause-checklist-en-matematicsolutions/) | A clause checklist for a single contract - walks the contract against 41 clause categories (the CUAD… |
 | [`Clause Comparator`](skills/clause-comparator-rohasnagpal/) | Compares the same clause or provision across draft rounds, precedents, public agreements or a portfolio… |
 | [`条款定位助手（T823）`](skills/clause-locator/) | 用于信托领域合同与法务中的条款定位助手场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
 | [`Clause Playbook`](skills/clause-playbook/) | Generate negotiation playbook for a specific contract type. Use when asked to "build a negotiation… |
@@ -66,6 +68,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Contract Drafting`](skills/contract-drafting-neversight/) | Use this skill when drafting NDAs, MSAs, SaaS agreements, licensing terms, or redlining contracts.… |
 | [`Contract Intelligence & Workflow Reviewer`](skills/contract-intelligence-workflow-reviewer-carl-ditzler/) | Contract intelligence and contract operations workflow skill for Claude and Codex. Guides the full… |
 | [`合同要点快览助手（T828）`](skills/contract-keypoints-quickview/) | 用于信托领域合同与法务中的合同要点快览助手场景。支持结构化输入处理、规则分析与Markdown结果输出。 |
+| [`Contract Lifecycle Management`](skills/contract-lifecycle-judicialmind/) | Contract lifecycle management skill. Use when the user needs to draft contracts, review agreements… |
 | [`Contract Metadata Extraction`](skills/contract-metadata-extraction/) | Extract metadata from contracts including parties, effective dates, value, auto-renewal terms, governing… |
 | [`Contract Obligation Extraction`](skills/contract-obligation-extraction/) | Extract obligations from contract documents including deadlines, deliverables, payment terms, SLA… |
 | [`Contract Playbook Review`](skills/contract-playbook-review/) | Reviews contracts clause-by-clause against a defined negotiation playbook, grading each clause as… |
@@ -76,6 +79,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Contract Redliner`](skills/contract-redliner/) | Reads a contract and generates redline suggestions with replacement language. Identifies unfavorable… |
 | [`Contract Redliner`](skills/contract-redliner-travisjneuman/) | Contract review, redlining, and negotiation support with clause analysis, risk identification, and… |
 | [`Contract Review — Multi-Agent Orchestrator`](skills/contract-review/) | Orchestrates a comprehensive multi-agent contract review that analyzes risk, plain-English translation… |
+| [`Contract Review`](skills/contract-review-borghei/) | Contract review assistant analyzing agreements against playbooks. GREEN/YELLOW/RED severity. Use when… |
 | [`Contract Review`](skills/contract-review-dhsustainer/) | Analyze contracts to identify risks, unfavorable clauses, missing protections, and ambiguous language… |
 | [`Contract Review Pro - 专业合同审核 Skill`](skills/contract-review-pro/) | 专业合同审核 Skill，基于《合同审核方法论体系》提供合同类型指引和详细审核服务 |
 | [`合同批注专家 · Contract Reviewer`](skills/contract-review-pro-lovstudio/) | Professional-grade contract review skill that adds comment-based issue annotations without changing… |
@@ -125,6 +129,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Indemnity & Liability Analyst`](skills/indemnity-liability-analyst-rohasnagpal/) | Analyses the warranty, indemnity, exclusion, cap and insurance provisions in a contract as one… |
 | [`Ironclad`](skills/ironclad/) | Ironclad integration. Manage data, records, and automate workflows. Use when the user wants to interact… |
 | [`Legal Ops`](skills/keel-legal/) | Draft or review legal ops documents — NDA, MSA, SaaS agreement review checklist, vendor contract terms.… |
+| [`When To Use`](skills/lawyer-clawic/) | Works as counsel: reviews and redlines agreements, negotiates the terms that cost money, and prices the… |
 | [`Legal Analysis`](skills/legal-analysis/) | Analyze legal contracts, extract clauses, and perform legal research with structured frameworks |
 | [`Legal Audit`](skills/legal-audit/) | Audits PUBLIC, CUSTOMER-FACING web app legal pages (terms of service, privacy policy, HIPAA notice… |
 | [`Legal Cog - AI Legal Documents Powered by CellCog`](skills/legal-cog/) | Legal demands two things: frontier-level reasoning and precision document generation. CellCog delivers… |
@@ -160,10 +165,12 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`NDA Review`](skills/nda-review-anthropics/) | Reference: fast triage of inbound NDAs into GREEN / YELLOW / RED so the team only spends lawyer time on… |
 | [`NDA Review`](skills/nda-review-borghei/) | Deep clause-by-clause NDA review from Recipient or Discloser perspective. Produces issue log with… |
 | [`NDA Review`](skills/nda-review-legalquants/) | Use when the user uploads or pastes a non-disclosure agreement and asks for review, redline, risk… |
+| [`NDA Review`](skills/nda-review-open-legal-products/) | Review the uploaded non-disclosure agreement and produce a comprehensive table-based legal review from… |
 | [`NDA Review`](skills/nda-review-wdzhwsh4067/) | Review NDAs for founders and developers, focusing on confidential information scope, exclusions, term… |
 | [`保密协议审查`](skills/nda-review-zhou210712/) | 参考：对接收方保密协议进行快速三色分类（绿/黄/红），使团队成员仅将律师时间投入 真正需要审查的协议。面向销售和BD人员，在联系法务前自助筛查。当 /commercial-legal:review… |
 | [`NDA Snapshot`](skills/nda-snapshot/) | Use when the user wants to compare the substantive NDA-specific terms across N non-disclosure agreements… |
 | [`NDA Summary`](skills/nda-summary/) | Generates structured summaries of Non-Disclosure Agreements, extracting parties, confidential… |
+| [`NDA Triage`](skills/nda-triage-borghei/) | Rapid NDA screening with GREEN/YELLOW/RED classification. 10-point checklist for incoming NDAs. Use when… |
 | [`Contract Negotiation Strategy Generator`](skills/negotiate/) | Analyzes contracts for unfavorable or risky clauses and generates prioritized counter-proposals with… |
 | [`Negotiation Email`](skills/negotiation-email/) | Draft calm contract negotiation emails for founders, developers, freelancers, and small teams… |
 | [`Negotiation Position Planner`](skills/negotiation-position-planner-rohasnagpal/) | Builds an opening position, fallback, minimum acceptable position, walk-away line and concession logic… |
@@ -184,6 +191,7 @@ Jurisdiction: `general` · Practice: `contracts` · Skill language: en
 | [`Read A Contract`](skills/read-a-contract/) | Get the standard clauses out of a contract or a whole folder of them without reading legalese yourself.… |
 | [`Input Modes`](skills/redline-emailer/) | Translates contract redlines into client-ready or opposing-counsel emails. Accepts three input modes… |
 | [`Redline Proposer`](skills/redline-proposer-rohasnagpal/) | Produces complete replacement wording for one problem clause or a short related group, from the… |
+| [`Redlining contractual`](skills/redlining-betobetico/) | Diff de dos versiones de un contrato — identifica cambios, los clasifica por riesgo (favorable / neutral… |
 | [`/review`](skills/review/) | 根据审查指引审查供应商协议、保密协议或SaaS订阅。从标题识别协议结构， 路由至正确的审查技能，并将输出整合为单一备忘录。当用户说"审查这个合同"… |
 | [`Review a Contract`](skills/review-a-contract/) | Read a contract someone sent you and tell you what's in it. Pick how deep: a quick verdict on whether… |
 | [`$commercial-legal:review`](skills/review-alexchlou/) | Review a vendor agreement, NDA, or SaaS subscription against your playbook. Identifies the agreement… |

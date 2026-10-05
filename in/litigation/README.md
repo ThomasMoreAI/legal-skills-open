@@ -6,13 +6,16 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): general cour
 
 Jurisdiction: `in` · Practice: `litigation` · Skill language: en
 
-## Skills (3)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
 | [`Commercial Suit Filing Checker`](skills/commercial-suit-filing-checker-rohasnagpal/) | Checks filing readiness for an Indian commercial suit, including commercial-dispute status, forum… |
+| [`Skill: Court Etiquette & Procedure Guide`](skills/court-etiquette-guide-shashionline/) | Comprehensive guidance on Indian court etiquette, procedural protocols, and behavioral expectations for… |
 | [`India Legal-Notice Response Strategist`](skills/india-legal-notice-response-strategist-rohasnagpal/) | Builds a response strategy for a legal notice governed by Indian law before drafting the reply. Use to… |
+| [`Limitation Calculator`](skills/limitation-calculator-shashionline/) | Calculate precise limitation periods under Limitation Act 1963 including COVID-19 extension (531 days)… |
 | [`Pre-Institution Mediation Advisor (India)`](skills/pre-institution-mediation-advisor-rohasnagpal/) | Assesses pre-institution and pre-litigation mediation requirements in India, especially section 12A of… |
+| [`Indian Court Data with bharat-courts`](skills/skill-iamshouvikmitra/) | Access Indian court data — find judgments, search cases, download orders, get cause lists, and query the… |
 
 ## Cold-start context
 

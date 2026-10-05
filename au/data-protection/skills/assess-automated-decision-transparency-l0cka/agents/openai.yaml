@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Automated Decision Transparency"
+  short_description: "Map current and future automated-decision duties"
+  default_prompt: "Use $assess-automated-decision-transparency to inventory these AI-assisted decisions and map current and commencing Australian privacy transparency requirements."

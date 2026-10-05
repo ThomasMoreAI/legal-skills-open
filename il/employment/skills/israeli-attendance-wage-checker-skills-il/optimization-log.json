@@ -1,0 +1,61 @@
+{
+  "cycles": [
+    {
+      "version": "1.2.0",
+      "date": "2026-08-25",
+      "holdout_before": 0.667,
+      "holdout_after": 1.0,
+      "buckets": {
+        "improved": [
+          "בתלוש שלי אין בכלל שורה של שעות, זה חוקי?",
+          "כמה ימי חופשה שנתית מגיעים לי בשנה"
+        ],
+        "regressed": [],
+        "persistent_fail": [],
+        "stable_success": [
+          "אין לי דוח נוכחות, רק תלושים. אפשר לבדוק אם קיפחו אותי בשעות נוספות?",
+          "תבדקו לי אם ניכוי הפנסיה והמס בתלוש שלי נכון",
+          "אני מנהל מחלקה בלי שעון נוכחות, מגיע לי גמול שעות נוספות?",
+          "כמה מגיע למורה על שעות נוספות"
+        ]
+      },
+      "lessons": [
+        "ALL THREE internal-consistency checks invented for Step 1b were wrong on first draft, and none of the mechanical gates could have caught any of them, because each was arithmetic about the world rather than a cited claim. (1) 'hours x hourly value = wage line' had no pay-basis gate and would have reported a false shortfall on most lawful MONTHLY-SALARIED payslips. (2) The premium check assumed separate 125/150 lines; a single combined overtime line yields a blended quotient, so only ~100 percent is a reliable finding. (3) The hours-line check told the reader to treat a monthly total above the nominal basis as overtime, which CONTRADICTED the skill's own Gotcha 'Never compute from a monthly hour total' - the 182/186 divisor is an average, not a cap, and a month with more working days lawfully produces more ordinary hours. RULE FOR NEXT CYCLE: newly-invented arithmetic is the highest-risk content in any update and the evidence gate is blind to it by construction. Walk each new check through the ORDINARY case before the pathological one, and check it against the skill's own stated rules for contradiction.",
+        "Found by accident while making room under the word cap, not by any gate: Step 7c cited 'the סעיף 24 ledger' in both languages, but סעיף 24 is the payslip duty and the ledger duty is סעיף 25 of חוק שעות עבודה ומנוחה. The correct section was sitting in records-and-remedies.md section 1 the whole time. No gate catches a section number that is internally plausible and contradicted only by a reference file: the evidence gate checks that cited claims are real, not that the body cites the right one. Consider a cross-file section-reference consistency check next cycle.",
+        "The v1.1.0 eval file recorded annual leave and contract drafting as boundaries carried by the body rather than by the description, and counted them as passes anyway. Scored honestly this cycle they were failures, the 0.90 holdout gate rejected the first draft, and both are now named in the description. Do not carry a 'soft pass' forward again: if the description does not exclude it, it is a fail.",
+        "Open item carried from the domain checklist and now MORE pressing, not less: the 182 versus 186 hourly-divisor conflict. Step 1 item 6 derives an hourly rate and Step 1b now tells the reader a nominal 182 or 186 in the hours field is a red flag, so the skill both derives and comments on the divisor without a primary source settling which is right. Close this next cycle.",
+        "Discretionary edit deferred over the Phase 4.1 cap: the payslip internal-consistency checks in Step 1b are stated as prose and would be easier for an agent to execute as a short worked table in references/records-and-remedies.md.",
+        "Deferred: sec. 26b(c) names leave, recuperation and travel as presumption triggers while the Problem boundary excludes pricing them. The hand-off target for valuing them is not named anywhere. Decide next cycle whether to name a sibling skill or state plainly that no skill covers it.",
+        "Discoverability, not correctness, was the entire defect this cycle. The skill answered payslip questions correctly at v1.1.0 and had 5 installs against 144 views because its name and description led with the document users do not hold. Check the name against the query users actually type, not against what the skill internally does.",
+        "EXPERT REVIEW (Phase 5.8) FOUND A FOURTH AND FIFTH DEFECT IN THE SAME THREE CHECKS, and the repair of the fourth introduced the fifth. Final tally: this section was defective on five of six successive reviews. (4) Check 1's hourly branch was arithmetically impossible: 'hours actually worked' includes the overtime hours, which the wage line does not value at 100 percent on the full-rate convention, so the product must EXCEED the wage line and an exact match is the defect; the worked example asserted both a reconciling wage line and 20 overtime units, which cannot both be true. (5) The first repair conditioned that branch on what the hours figure contains but NOT on the booking convention, so it called lawful equality on a supplement-only payslip ('שעות רגילות' at all hours, then 'ג.ש.נ 25%') the defect. Also found: check 2 read the very common supplement-only quotient of 25 or 50 percent as 'premium never applied', which inverts the finding on the monthly-salaried rest-day line that this skill's own Step 4 mandates; and the components table omitted the nominal hours basis and היקף משרה, which check 1 needs as its divisor and its scale, plus all four סעיף 26ב(ג) trigger components.",
+        "STRUCTURAL: the root cause of all five defects is identical, and it is not domain ignorance. Every one was a check that ran before establishing WHAT THE NUMBER MEANS: which pay basis, which booking convention, which position scope. The fix that finally held was not a better formula but a gate placed BEFORE the checks that forces the convention to be established first. Any future section doing multi-step arithmetic on user-supplied numbers should be built the same way: enumerate the conventions the input can be drawn under, then gate.",
+        "PIPELINE GAP: no mechanical gate in this pipeline verifies arithmetic REASONING. verify-evidence.py checks that claims have sources; it is blind by construction to invented arithmetic, because a formula is not a citation. validate-skill.sh counts words. verify_legal.py classifies exposure. The eval holdout scores routing, not correctness of a computation the skill performs. Step 1b is the first section in this skill that computes on user-supplied numbers, and it is exactly where that blind spot bit. The Phase 5.8 expert review is currently the ONLY thing standing between invented arithmetic and publication, which is why the subagent-channel failure that held this release was a real risk and not a formality.",
+        "The eval holdout (Phase 5.7) passed at 0.667 -> 1.000 BEFORE Step 1b was rewritten twice in response to the expert review. The prose it scored no longer exists in that form. Re-run the holdout AFTER the expert review clears, not before it, in any cycle where the expert forces a content change."
+      ],
+      "carry_forward": [
+        "The 182 vs 186 divisor conflict is now more pressing, since Step 1b's monthly branch depends on naming the divisor and now also on distinguishing the full-time base from the paid base.",
+        "No named hand-off for valuing חופשה/הבראה/נסיעות, which סעיף 26ב(ג) names as presumption triggers but this skill will not price. The `avoid` list now says so explicitly; a real hand-off target is still missing.",
+        "Consider a cross-file section-reference consistency check: nothing caught the סעיף 24 / סעיף 25 error because it was internally plausible.",
+        "The worked example's 5-hour shortfall is a FLOOR, not the figure: it assumes all 20 overtime hours sit in the 125 percent tier. Stated as 'at least five' after expert review.",
+        "Not covered squarely: a hybrid supplement-only payslip booking שעות רגילות at ordinary hours (175) while the statutory 'hours actually worked' field states 195. Currently absorbed by 'reconcile the residual rather than expecting a match', which yields a question rather than a false finding. Acceptable, but revisit if users report it.",
+        "CLAUDE.md states that /changelog renders bilingual entries from the skill_updates table. It does not: the page reads the curated frontend/src/data/changelog.ts merged with design_updates. skill_updates drives the notification fan-out and the weekly digest only. Correct the doc."
+      ]
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-10-01",
+      "lessons": [
+        "Description unchanged this cycle, so the Phase 5.7 holdout was not re-run. The skill now handles minimum-wage and reserve-duty questions in the body, but the description names neither; consider adding them next cycle and running the holdout.",
+        "Three CARRY items closed: the 182/186 divisor (statute 186, ministry 182, no enforcement against 186; tested at 182, band disputed), the leave/havra'a/travel hand-off (israeli-workplace-rights-navigator), and the routine overtime caps (12/16/58).",
+        "NEW ARITHMETIC AGAIN BROKE ON FIRST DRAFT, as last cycle predicted. The 'premiums on at least the minimum hourly figure' rule understated (supplement double duty); its repair 'plus every supplement' overstated (counted supplements added back); the next repair 'plus everything s.3(b) excluded' overstated again (expense refunds, 13th salary, annual grants are not hourly supplements). Three successive wrong formulations of one sentence, each caught only by a reviewer. Same root cause as v1.2.0: stating a rule before enumerating what each input category IS. Enumerate the categories of supplement first next time.",
+        "The script's s.21 gap check had two pre-existing defects that only surfaced because this cycle told agents to OMIT absence days: it paired list neighbours regardless of weekday, and it used a modulo-24h difference. A new instruction can expose latent bugs in code it routes input into; re-test the script under the new instruction, not just the old cases.",
+        "Out-of-scope re-litigation reopened the minimum-wage figure: the skill had refused to carry it, which left agents without web access on a remembered number. A dated table with a re-verify instruction is strictly better than a refusal.",
+        "Removing rows to fit the word cap silently dropped a hand-off Gotcha and two Troubleshooting rows; the expert caught it. When trimming for the cap, move examples to references before deleting guardrails.",
+        "Open for next cycle: monthly-salaried rest-day work as a sixth day on top of a full week (domain-checklist open item 4); cumulative overtime inside the weekly rest in the script (open item 5, Kol Zchut cites 175/200 from ע\"ע 38313-03-18, not verified against the judgment); the 2026 wartime overtime permit text and expiry; youth minimum-wage rates (BTL page does not list them).",
+        "Discretionary edits deferred over the batch cap: the script --example flags Thursday 'short' (7h) for a Sun-Thu worker, which is not the eve of the weekly rest and conflicts with rates s.1 that the 2018 order did not change the daily maximum; check 2 could also verify the stated hourly value against s.18 more mechanically.",
+        "Checker 'overtime-pay': legal review flagged the headline 'on top of anything already paid' as asserting non-payment the tool never checked; reworded in this cycle's regeneration.",
+        "v1.3.1 patch, same day: the team lead overruled the reviewer's 'non-blocking' label on unpriced rest-day overtime. A wage CHECKER that silently understates is a false negative, not a polish item. Patched to flag it explicitly; pricing it still needs the judgment opened."
+      ]
+    }
+  ]
+}

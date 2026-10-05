@@ -1,0 +1,44 @@
+{
+  "cycles": [
+    {
+      "version": "1.3.0",
+      "date": "2026-08-19",
+      "lessons": [
+        "Panel round 2 fixed: evidence.json still carried two ZOMBIE claims asserting the very errors this cycle corrected (24-months-from-end-of-tax-year sourced to ITA Circular 3/2003, and a fabricated 20%-of-revenue-from-Israeli-IP PTE test sourced to a marketing blog), plus a PwC-sourced closely-held claim contradicting the corrected 81B text. Retiring superseded evidence entries must be an explicit step whenever a fact is corrected, not an afterthought.",
+        "Panel round 2 fixed: references/iia-programs-guide.md had not been touched in prior cycles and contradicted the skill's own verified evidence (Tnufa 800K at 85% vs verified 200K at 80%; BIRD collapsed to $1M vs $1.5M General / $1M HLS; LIBOR as a live index). Reference files must be swept whenever the body changes.",
+        "Panel round 2 fixed: the Technological Incubator row said ~NIS 9M over 2 years while the skill's OWN evidence entry quoted the IIA page at NIS 3.5M max approved budget. Internal contradiction between body and evidence was never checked before.",
+        "CARRY: IIA R&D Fund support-rate bands and the regional uplift split, the royalty framing (3% small company / 5% large rather than a 3-5% range), and the 3x know-how-transfer carve-out where R&D stays in Israel remain UNVERIFIED by primary fetch. innovationisrael.org.il is Cloudflare-blocked to curl and the shared Playwright browser was hijacked mid-session. Figures left unchanged rather than rewritten on unverified reporting.",
+        "CARRY (Expert MAJOR, deferred): Section 102 in M&A (share deal vs asset deal, option-exchange ruling, escrow, tacking of the holding period) is still absent. Expert rated CRITICAL; partially mitigated this cycle by adding the Delaware-flip ESOP re-filing rule, but the pure M&A path is not covered.",
+        "CARRY (Expert MAJOR, deferred): non-trustee 102(c)(1) vs 102(c)(2) vs section 3(i) are conflated in one row of compare_option_102_tracks; 102(c)(1) taxes a share allotment up front while 102(c)(2) defers an unlisted option.",
+        "CARRY (Expert MAJOR, deferred): Encouragement Law dividend rates (51יח 20%, 51כו 20%/4% foreign corporate holder) and IP capital gains (51כז), and the 'benefited intangible asset' route (6) for pre-patent startups capped at NIS 32M revenue.",
+        "CARRY (Expert MAJOR, deferred): service inventions under Patents Law ss.132-135 (assignment and consideration waiver in employment agreements) and Companies Law ss.141/268-275 governance duties.",
+        "CARRY (Expert MAJOR, deferred): employment-law layer (pension extension order, severance s.14, notice periods) and the 2025 Privacy Protection Law amendment.",
+        "CARRY: ecosystem numbers in the 2024-2026 context section (2024 funding ~USD 12B across ~600 rounds, Wiz deal value, 45% incorporating abroad attribution) are secondary-source claims that likely need refreshing to FY2025 data and re-attribution (the 45% figure appears to be an IATI survey, not Start-Up Nation Central). Not changed this cycle because no primary source was fetched.",
+        "CARRY: isa.gov.il/en now redirects to new.isa.gov.il and may serve an empty SPA shell; re-check and update the Reference Links row.",
+        "CARRY: reported but unverified 2026 items worth checking next cycle: IIA runway-extension fast-track launched 26.07.2026, Israel Invoices allocation-number threshold dropping to NIS 5,000 from 01.06.2026, Companies Law Amendment 38 commencement.",
+        "Deferred over the Phase 4.1 discretionary cap: Section 15A private-placement nuances (equity and non-equity counted in separate baskets, classified investors excluded from the 35 count)."
+      ]
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-08-19",
+      "lessons": [
+        "Legal classification (Phase 5.10, done properly this cycle rather than by template reflex): two axes per ע\"א 4223/12. Axis 2 framing = F1: the name is a coined descriptive term with no reserved title, name_risk=[]. Axis 1 specificity = S2: Steps 4, 6 and 7 reach concrete conclusions on the user's own facts (which cap to take, PTE eligibility, whether to flip). S2 x F1 = Tier B, not A1 or A2.",
+        "The trespass mode is OUTPUT, not NAME. references/investment-term-sheets.md carried fill-in-the-blank skeletons headed SAFE AGREEMENT and CONVERTIBLE PROMISSORY NOTE with placeholders and operative clauses. Drafting a legal instrument for another person is reserved under עו\"ד §20, which is disjunctive on payment, so 'it is free' is no defence. Applied remedy A2's best practice even though the tier is B: removed the instruments, kept the principles as negotiation checklists.",
+        "ייעוץ השקעות exposure is materially lower than it first looks: §3 reserves advising on the כדאיות of an investment, and this skill advises the company RAISING, not the investor deciding. Noted rather than relied on.",
+        "The disclaimer itself was advertising the trespass: the notice said 'any wording this skill drafts, whether a SAFE, a convertible note...' which asserts the skill drafts instruments. After removing the instruments the notice had to be reworded to match, otherwise the notice is the evidence.",
+        "CARRY: the live enriched `avoid` field is EMPTY ({\"en\":[],\"he\":[]}) on prod. For a regulated-domain skill the anti-trigger list is the field most worth having. Flag to Phase 9."
+      ]
+    },
+    {
+      "version": "1.3.2",
+      "date": "2026-08-19",
+      "lessons": [
+        "I OVER-CORRECTED in 1.3.1. The lead re-read the file and was right: it contained zero operative contract language (verified: no WHEREAS, hereby, shall-clauses, signature blocks or blanks), so it was deal-term parameters, not a reserved instrument. Removing the parameter tables cost five pieces of real commercial substance (SAFE conversion formula, note interest 5-8%, maturity 12-24 months, repayment on demand, security option) for no legal gain. Restored.",
+        "The correct remedy when framing is worse than substance is to fix the LABEL, not the content. 'Israeli Investment Agreement Templates Reference' and '### Key Terms Template' were the exposure; the tables under them were fine. Under ע\"א 4223/12 framing is half the test, and the H1 is what a reader or scanner sees first.",
+        "Diagnostic worth reusing before deciding a file emits an instrument: grep for operative contract language (whereas|hereby|shall |in witness|signature|_____). Zero hits means parameters, not an instrument. A document-styled TITLE over a parameter table is a labelling problem.",
+        "Propagation miss confirmed by the lead's prediction: the reference rename had to reach the Bundled Resources line in BOTH languages, which still said 'agreement templates' / 'תבניות הסכמי השקעה'. Same shape as the agritech miss. Grep the resource lines and metadata.json, not just the body."
+      ]
+    }
+  ]
+}

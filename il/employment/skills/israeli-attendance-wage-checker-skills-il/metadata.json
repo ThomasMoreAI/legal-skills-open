@@ -1,0 +1,71 @@
+{
+  "author": "skills-il",
+  "version": "1.3.1",
+  "category": "accounting",
+  "tags": {
+    "he": [
+      "תלוש שכר",
+      "בדיקת תלוש",
+      "שעות נוספות",
+      "דוח נוכחות",
+      "גמול שבת",
+      "חוק שעות עבודה ומנוחה",
+      "ישראל"
+    ],
+    "en": [
+      "payslip",
+      "payslip audit",
+      "overtime",
+      "timesheet",
+      "rest day premium",
+      "hours of work and rest law",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "בדיקת תלוש שכר ודוח נוכחות",
+    "en": "Israeli Payslip and Wage Checker"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. בודק תלוש שכר ישראלי ודוח נוכחות ומראה כמה מגיע מול כמה שולם. קורא את התלוש, בודק שהרכיבים שהחוק מחייב מופיעים בו, ממיר שעות כניסה ויציאה לשעות עבודה, מפצל אותן לשעות רגילות, שעות נוספות ומנוחה שבועית, ומחיל את התעריפים שבחוק. עובד גם כשיש רק תלוש בלי דוח נוכחות, כי תלוש שחסרים בו הרכיבים מקים חזקה של שכר כולל שלא כדין. מתאים גם למעסיק קטן שבודק שהוא עומד בחוק וגם לעובד שחושד שקיבל פחות. השתמשו כששואלים אם התלוש תקין, אם שילמו נכון על שעות נוספות או על שבת, איך מחשבים שעות נוספות, או מה עושים כשהמעסיק לא ניהל רישום שעות. חשוב כי מדרגת שתי השעות הראשונות מתאפסת בכל יום מחדש ולא נצברת לחודש, בסיס הגמול כולל את כל התוספות שהמעסיק משלם, ומעסיק שלא ניהל פנקס שעות נושא בנטל ההוכחה עד תקרה. אל תשתמשו לחישוב נטו ולניכויי מס וביטוח לאומי (יש israeli-payroll-calculator), לפיצויי פיטורים, דמי הודעה מוקדמת או חופשה שנתית, לניסוח תביעה או חוזה העסקה, או לשכר עובדי הוראה ומטפלים זרים שיש להם סקילים ייעודיים.",
+    "en": "Not legal advice. Audits an Israeli payslip and timesheet and itemises what is owed against what was paid. Reads the payslip, checks that the components the law requires are actually on it, converts clock-in and clock-out spans into working hours, splits them into ordinary, overtime and weekly-rest hours, and applies the statutory premiums. Works even when the payslip is the only document and no attendance record exists, because a payslip missing those components raises a presumption of an unlawful inclusive wage. Serves both a small employer checking compliance and an employee who suspects a short payslip. Use when a user asks whether their payslip is correct, whether they were paid correctly for overtime or Shabbat work, how to compute shaot nosafot, or what to do when the employer kept no hours record. It matters because the premium tiers reset daily rather than accumulating monthly, the premium base includes every supplement the employer pays, and an employer who kept no ledger carries the burden of proof up to a capped number of hours. Do NOT use for gross-to-net, tax or National Insurance deductions (use israeli-payroll-calculator), for severance, notice pay or annual leave, to draft a claim or an employment contract, or for teacher payroll or foreign-caregiver payroll, which have dedicated skills."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/extention-order-short-week-2018/he/extention-order-short-week-2018.pdf",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 2
+}

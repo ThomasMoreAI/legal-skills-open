@@ -1,0 +1,14 @@
+{
+  "name": "it-tax",
+  "displayName": "Tax — IT",
+  "version": "0.1.0",
+  "description": "Tax skills for IT (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "it",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/compila-quadro-730-gsaccardi"
+  ]
+}

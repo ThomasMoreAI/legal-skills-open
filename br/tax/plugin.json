@@ -1,0 +1,20 @@
+{
+  "name": "br-tax",
+  "displayName": "Tax — BR",
+  "version": "0.1.0",
+  "description": "Tax skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "tax",
+  "language": "en",
+  "skills": [
+    "skills/divida-ativa-estadual-sbroggioadv",
+    "skills/execucao-fiscal-lef-sbroggioadv",
+    "skills/itcmd-como-efeito-do-ato-sbroggioadv",
+    "skills/prescricao-intercorrente-sbroggioadv",
+    "skills/protesto-e-cobranca-extrajudicial-sbroggioadv",
+    "skills/redirecionamento-socios-sbroggioadv",
+    "skills/transicao-icms-ibs-sbroggioadv"
+  ]
+}

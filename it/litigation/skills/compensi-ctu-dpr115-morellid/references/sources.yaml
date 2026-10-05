@@ -1,0 +1,39 @@
+schema_version: 1
+skill: compensi-ctu-dpr115
+last_verified: 2026-07-16
+
+# Fonte per la disciplina dei compensi (onorari, indennita', spese) spettanti al
+# CTU / ausiliario del magistrato e per la loro liquidazione: il Testo Unico delle
+# spese di giustizia (DPR 115/2002), Parte III. Le TABELLE TARIFFARIE numeriche
+# sono delegate al DM 30/5/2002 (non su Normattiva) e NON sono riprodotte.
+
+sources:
+  - id: dpr-115-2002
+    title: "D.P.R. 30 maggio 2002, n. 115 - Testo Unico spese di giustizia - artt. 49-58 (compensi ausiliari) e 168, 170 (liquidazione e opposizione) (testo vigente al 2026-07-16)"
+    type: decreto-del-presidente-della-repubblica
+    # URL pinnata con !vig=YYYY-MM-DD per riproducibilita' dell'hash sotto CI
+    # (stesso pattern delle altre skill Normattiva del repo).
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: 8fc7d98b15951191c03aedf05cdb8de813819f2cd91d6f9f51511cc00580270a
+    license: public-domain
+    binary_path: not_in_repo/dpr-115-2002-vig-2026-07-16.html
+    md_path: references/fonti/dpr-115-2002.md
+    excerpt_path: references/estratti/compensi-ctu-checklist.md
+    notes: |
+      Codice redazionale 002G0139, GU n. 139 del 15/6/2002 - S.O. n. 126. Il
+      binario e' la pagina indice Normattiva pinnata a !vig=2026-07-16 (hash
+      stabile, doppio download: 8fc7d98b...). Caricati via AJAX (caricaArticolo) e
+      trascritti verbatim in references/fonti/dpr-115-2002.md gli artt. 49
+      (elenco spettanze), 50 (misura degli onorari - rinvio alle tabelle del DM),
+      51 (onorari variabili e aumento urgenza 20%), 52 (aumento fino al doppio /
+      riduzione), 53 (incarichi collegiali +40%), 54 (adeguamento triennale
+      ISTAT), 55 (indennita' e spese di viaggio), 56 (spese per l'adempimento),
+      57 (commissario ad acta), 58 (indennita' di custodia), 168 (decreto di
+      pagamento) e 170 (opposizione ex art. 15 D.Lgs 150/2011).
+      LIMITE DI FONTE: le TABELLE TARIFFARIE numeriche (importo della vacazione,
+      onorari fissi/variabili, scaglioni a percentuale) sono stabilite con DM del
+      Ministro della giustizia (art. 50; DM 30/5/2002 e adeguamenti ISTAT ex art.
+      54). Il DM 30/5/2002 NON risulta su Normattiva (URN -> atto non trovato):
+      gli IMPORTI non sono riprodotti e vanno letti sulle tabelle vigenti del DM.
+      La skill copre il quadro/procedura, non il calcolo numerico dell'importo.

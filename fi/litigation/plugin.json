@@ -1,0 +1,14 @@
+{
+  "name": "fi-litigation",
+  "displayName": "Litigation — FI",
+  "version": "0.1.0",
+  "description": "Litigation skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "litigation",
+  "language": "en",
+  "skills": [
+    "skills/case-law-summary-open-legal-products"
+  ]
+}

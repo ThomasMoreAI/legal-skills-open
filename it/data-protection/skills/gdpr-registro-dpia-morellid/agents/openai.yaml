@@ -1,0 +1,9 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: GDPR Registro + DPIA
+short_description: Stesura e verifica del Registro delle attivita' di trattamento (art. 30 GDPR) e della Valutazione d'Impatto - DPIA (art. 35), con le 12 tipologie italiane (Provv. Garante 467/2018) e il modulo tracking pixel e-mail (Linee guida provv. 284/2026).
+default_prompt: |
+  Aiutami con la compliance GDPR del trattamento che sto per avviare.
+  Decidi se serve una DPIA, struttura il Registro art. 30, e indicami
+  le tipologie del Provv. Garante 467/2018 che si applicano.

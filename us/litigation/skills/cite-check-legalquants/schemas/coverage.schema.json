@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/coverage.schema.json",
+  "title": "CiteCheckCoverageReceipt",
+  "description": "The per-unit execution coverage receipt. Every prepared unit is represented by a state: no_citations_found and complete are terminal receipts; failed and still_missing remain visibly incomplete. Citation judgment is separate from coverage state.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "phase",
+    "unitStates",
+    "retriedUnitIds",
+    "status",
+    "isComplete"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "cite-check.coverage.v2"
+    },
+    "runId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "phase": {
+      "type": "string",
+      "enum": [
+        "initial",
+        "final"
+      ]
+    },
+    "unitStates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unitState"
+      }
+    },
+    "retriedUnitIds": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/identifier"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "complete",
+        "incomplete"
+      ]
+    },
+    "isComplete": {
+      "type": "boolean"
+    }
+  },
+  "anyOf": [
+    {
+      "properties": {
+        "status": {
+          "const": "complete"
+        },
+        "isComplete": {
+          "const": true
+        },
+        "unitStates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "state": {
+                "enum": [
+                  "no_citations_found",
+                  "complete"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "status": {
+          "const": "incomplete"
+        },
+        "isComplete": {
+          "const": false
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "unitState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unitId",
+        "state"
+      ],
+      "properties": {
+        "unitId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "state": {
+          "type": "string",
+          "enum": [
+            "no_citations_found",
+            "complete",
+            "failed",
+            "still_missing"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Case Quote"
+  short_description: "Confirm a quoted passage appears in the official judgment text"
+  default_prompt: "Use $verify-case-quote to confirm this quotation appears in the officially published judgment and report its paragraph location."

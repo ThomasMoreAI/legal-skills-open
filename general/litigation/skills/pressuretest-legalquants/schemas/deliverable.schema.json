@@ -1,0 +1,430 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "lq.pressuretest.deliverable.v2.9",
+  "title": "Pressure test compact record (method v2.9)",
+  "type": "object",
+  "required": [
+    "method_version",
+    "verdict",
+    "positions",
+    "mode",
+    "brief",
+    "checkpoint",
+    "strongest_route",
+    "coverage",
+    "routes",
+    "tests",
+    "findings",
+    "sources"
+  ],
+  "properties": {
+    "method_version": {
+      "const": "lq.pressuretest.method.v2.9"
+    },
+    "verdict": {
+      "enum": [
+        "pressure_points",
+        "position_holds",
+        "incomplete"
+      ]
+    },
+    "positions": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Every position under test; a two-position task (e.g. their case against our Reply) has two entries.",
+      "items": {
+        "type": "object",
+        "required": [
+          "owner",
+          "conclusion",
+          "basis",
+          "depends_on_other_party_breach"
+        ],
+        "properties": {
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "conclusion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "limbs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "description": "The position's distinct operative limbs: liability/entitlement and each pleaded head of relief or recovery. breaks_position fires when any limb falls."
+          },
+          "basis": {
+            "enum": [
+              "instructed",
+              "inferred"
+            ]
+          },
+          "depends_on_other_party_breach": {
+            "type": "boolean",
+            "description": "True when the position rests on the other party's breach, delay or non-performance. Each flagged position requires a causation-family finding whose position_owner equals this owner; any against_position must equal that same owner. Another owner's finding does not satisfy this requirement."
+          }
+        }
+      }
+    },
+    "mode": {
+      "enum": [
+        "fast",
+        "deep"
+      ]
+    },
+    "brief": {
+      "type": "object",
+      "description": "Compact reading-view prose shared by chat and optional export. Findings carry the analysis once.",
+      "required": [
+        "position_name",
+        "run_date",
+        "summary"
+      ],
+      "properties": {
+        "position_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Short name for the title line."
+        },
+        "run_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "description": "At most five sentences: position, what was done, what was found, the single most useful next step."
+        },
+        "established": {
+          "type": "string",
+          "minLength": 1
+        },
+        "follows": {
+          "type": "string",
+          "minLength": 1
+        },
+        "context_items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "checkpoint": {
+      "type": "object",
+      "description": "What the lawyer was shown at Transmission 1 and what it rested on. The map may be posted before the whole bundle is read; this block makes that honest.",
+      "required": [
+        "map_read",
+        "map_changed_after_full_read",
+        "status"
+      ],
+      "properties": {
+        "map_read": {
+          "$ref": "#/definitions/filelist",
+          "description": "Selected documents that had been read when the map was posted; at least one."
+        },
+        "map_changed_after_full_read": {
+          "type": "boolean",
+          "description": "True if reading the rest of the bundle changed a position, limb or the strongest route after the lawyer confirmed the map."
+        },
+        "change_note": {
+          "type": "string",
+          "description": "Required when map_changed_after_full_read is true: one sentence on what changed; the same sentence opens Transmission 2."
+        },
+        "status": {
+          "enum": [
+            "confirmed",
+            "amended",
+            "non_interactive",
+            "unanswered"
+          ],
+          "description": "Actual confirmation status; silence in an interactive run is unanswered and never authorises adjudication."
+        }
+      }
+    },
+    "incomplete_reason": {
+      "type": "string",
+      "description": "Required when verdict is incomplete: exactly what is missing or unusable."
+    },
+    "strongest_route": {
+      "type": "object",
+      "required": [
+        "summary",
+        "anchors"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anchor"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "selected",
+        "reviewed",
+        "parked",
+        "excluded",
+        "unreadable"
+      ],
+      "description": "selected must equal the disjoint union of the other four.",
+      "properties": {
+        "selected": {
+          "$ref": "#/definitions/filelist"
+        },
+        "reviewed": {
+          "$ref": "#/definitions/filelist"
+        },
+        "parked": {
+          "$ref": "#/definitions/filelist"
+        },
+        "excluded": {
+          "$ref": "#/definitions/filelist"
+        },
+        "unreadable": {
+          "$ref": "#/definitions/filelist"
+        }
+      }
+    },
+    "routes": {
+      "type": "object",
+      "required": [
+        "tested",
+        "parked",
+        "indeterminate"
+      ],
+      "description": "Route IDs; the three lists must be disjoint.",
+      "properties": {
+        "tested": {
+          "$ref": "#/definitions/idlist"
+        },
+        "parked": {
+          "$ref": "#/definitions/idlist"
+        },
+        "indeterminate": {
+          "$ref": "#/definitions/idlist"
+        }
+      }
+    },
+    "tests": {
+      "type": "object",
+      "required": [
+        "applied",
+        "parked"
+      ],
+      "properties": {
+        "applied": {
+          "$ref": "#/definitions/idlist"
+        },
+        "parked": {
+          "$ref": "#/definitions/idlist"
+        }
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/finding"
+      }
+    },
+    "validation_state": {
+      "enum": [
+        "not_run",
+        "passed",
+        "contract_fault",
+        "operational_fault"
+      ],
+      "description": "Set by the author before running the validator (not_run); the validator's exit code is authoritative."
+    },
+    "sources": {
+      "type": "object",
+      "description": "Selected source filename to readable name and source date; absent dates are null. Links are derived from existing files, never model-authored URLs.",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "name",
+          "date"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "filelist": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "idlist": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "anchor": {
+      "type": "object",
+      "required": [
+        "source",
+        "quote",
+        "locator"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "Filename within the source root; must be in coverage.selected."
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 6,
+          "description": "Verbatim passage; validator matches it whitespace-normalised against the source file."
+        },
+        "locator": {
+          "type": "string",
+          "description": "Visible page, paragraph, clause or other source locator. Accuracy is not machine-verified; source name comes from sources.",
+          "minLength": 1
+        }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "classification",
+        "position_owner",
+        "statement",
+        "anchors"
+      ],
+      "properties": {
+        "calculation_receipts": {
+          "type": "array",
+          "description": "Complete packaged-calculator JSON results supporting this finding. Preserve all outputs; the reading view states resulting dates, intervals, comparisons, assumptions and limits in plain language.",
+          "items": { "type": "object" }
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Short plain heading for the finding, used in the table and the detail."
+        },
+        "hits": {
+          "type": "string",
+          "description": "Required for Pressure Points: the party and limb the point hits."
+        },
+        "test_applied": {
+          "type": "string",
+          "description": "Required for Pressure Points."
+        },
+        "next_step": {
+          "type": "string",
+          "description": "Required for Pressure Points: the next lawful lawyer action."
+        },
+        "smallest_change": {
+          "type": "string",
+          "description": "Optional: the smallest change of fact that would change the result."
+        },
+        "what_would_close": {
+          "type": "string",
+          "description": "Optional on proof_gap: the evidence that would close the watch item."
+        },
+        "classification": {
+          "enum": [
+            "breaks_position",
+            "internal_defect",
+            "defeated",
+            "weakens_route",
+            "proof_gap",
+            "context"
+          ]
+        },
+        "test_family": {
+          "enum": [
+            "logic",
+            "arithmetic-and-dates",
+            "definitions-and-precedence",
+            "mechanics",
+            "consistency",
+            "causation",
+            "counterfactual",
+            "other"
+          ],
+          "description": "The Step 4 family the attack belongs to. Optional, except that each position flagged depends_on_other_party_breach requires a causation-family finding linked by position_owner to that same owner."
+        },
+        "position_owner": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Owner of the position under attack, not the quote author; must match a positions[].owner and any against_position."
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "anchors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/anchor"
+          },
+          "minItems": 1
+        },
+        "against_position": {
+          "type": "string",
+          "description": "Required for breaks_position and internal_defect: the tested position owner; must equal position_owner whenever present, on any classification."
+        },
+        "flip_statement": {
+          "type": "string",
+          "description": "Required iff classification is breaks_position: 'if accepted, [focal conclusion] fails because ...'. Two breaks_position findings with the same flip statement are one Pressure Point; the validator faults the duplicate."
+        },
+        "defect_statement": {
+          "type": "string",
+          "description": "Required iff classification is internal_defect: 'as drafted, [A] and [B] cannot both be accurate because ...'. internal_defect also requires both conflicting anchors (minItems 2 in practice) and survives."
+        },
+        "survives": {
+          "type": "string",
+          "description": "Required iff classification is breaks_position: what remains sound after the criticism."
+        },
+        "dispositive_anchor_note": {
+          "type": "string",
+          "description": "For defeated/weakens_route: which source answers the attack or which route survives."
+        },
+        "review_state": {
+          "enum": [
+            "machine_proposed",
+            "lawyer_reviewed"
+          ],
+          "default": "machine_proposed"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/timenarratives-confirmation.schema.json",
+  "title": "TimeNarrativesConfirmationV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "packetDigest",
+    "mapDigest",
+    "decision",
+    "recording",
+    "confirmationToken"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "timenarratives.confirmation.v1" },
+    "runId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "packetDigest": { "$ref": "#/$defs/sha256" },
+    "mapDigest": { "$ref": "#/$defs/sha256" },
+    "decision": { "const": "confirmed" },
+    "recording": { "const": "session_recorded_user_confirmation" },
+    "confirmationToken": { "type": "string", "pattern": "^TN-[0-9a-f]{16}$" }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+  }
+}

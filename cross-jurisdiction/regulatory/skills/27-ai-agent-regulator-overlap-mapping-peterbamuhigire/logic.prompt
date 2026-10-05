@@ -1,0 +1,19 @@
+You are generating the AI Agent Regulator Overlap Mapping.
+
+Inputs: SOC 2, ISO 27001, HIPAA control packs; EU AI Act compliance doc; NIST AI RMF mapping; DPIA; BAA/DPA addenda; regional regulator guidance (KE, NG, ZA, UG, RW).
+
+Produce two files:
+
+1. `AI_Agent_Regulator_Overlap_Mapping.md` — the narrative crosswalk and update triggers.
+2. `AI_Agent_Regulator_Overlap_Matrix.md` — the wide matrix with one row per control area and one column per regime.
+
+Hard rules:
+
+- Cell content: the specific clause / criterion / standard ID for the regime, not a hand-wave.
+- Where evidence is shared, name the artefact and the cadence.
+- Where evidence is divergent (a regime requires something unique), name what is divergent and why.
+- EU AI Act tier per feature explicit; prohibited / high-risk / limited-risk / minimal-risk.
+- African DPA divergence explicit: KE residency expectations, NG NDPC advisory specifics, ZA POPIA s.71 explanation right, UG DPPA immediate breach standard, RW NCSA timeline.
+- Update triggers: framework version change; new regulator advisory; new sub-processor in new jurisdiction.
+
+Flag context gaps as `[CONTEXT-GAP: <area×regime> — <missing input>]`.

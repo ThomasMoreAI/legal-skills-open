@@ -4,7 +4,7 @@ Marriage, divorce, custody, support, adoption, and other domestic-relations matt
 
 Jurisdiction: `us` · Practice: `family` · Skill language: en
 
-## Skills (20)
+## Skills (21)
 
 | Skill | What it does |
 |---|---|
@@ -14,6 +14,7 @@ Jurisdiction: `us` · Practice: `family` · Skill language: en
 | [`Petition for Dissolution of Marriage`](skills/dissolution-petition/) | Drafts a Petition for Dissolution of Marriage for filing in US state family courts. Covers… |
 | [`Divorce Settlement Summary`](skills/divorce-settlement-summary/) | Produces structured summaries of U.S. divorce settlement agreements (MSAs), extracting material terms… |
 | [`Domestic Violence Restraining Order Petition`](skills/dvro-petition/) | Drafts court-ready Domestic Violence Restraining Order petitions compiling chronological abuse incidents… |
+| [`Family Law`](skills/family-law-judicialmind/) | Family law skill for domestic relations matters. Use when the user needs assistance with divorce… |
 | [`Family Law Summons`](skills/family-law-summons/) | Drafts procedurally compliant family law summons for dissolution, custody modification, support… |
 | [`Financial Affidavit and Disclosure`](skills/financial-affidavit/) | Drafts sworn financial affidavits and mandatory disclosure statements for family law proceedings.… |
 | [`Marital Settlement Agreement`](skills/marital-settlement-agreement/) | Drafts Marital Settlement Agreements for divorce proceedings covering property division, spousal… |

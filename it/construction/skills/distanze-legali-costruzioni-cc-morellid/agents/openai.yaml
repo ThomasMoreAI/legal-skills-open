@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: Distanze legali nelle costruzioni, luci e vedute (Codice civile)
+short_description: Supporto documentale alle distanze legali nelle costruzioni e alla disciplina delle luci e vedute del Codice civile (artt. 873-907), di interesse per la progettazione edilizia e le questioni di confine. Inquadra la distanza minima tra costruzioni (3 metri, salvo distanza maggiore dei regolamenti locali - art. 873), il muro di cinta (art. 878), la costruzione in aderenza/sul confine (art. 877), le distanze per pozzi/cisterne/fosse (2 metri) e tubi (1 metro) dal confine (art. 889), depositi nocivi/pericolosi (art. 890) e alberi (3 / 1,5 / 0,5 metri - art. 892), e la disciplina delle luci e vedute (veduta diretta e balconi 1,5 metri - art. 905; veduta laterale/obliqua 0,75 metri - art. 906; costruzioni a 3 metri dalle vedute acquisite - art. 907). Le distanze civilistiche sono un minimo derogabile in aumento dai regolamenti locali e vanno coordinate con il DM 1444/1968 art. 9 (distanze tra pareti finestrate), non riprodotto. NON risolve il caso concreto, non misura in sito e non sostituisce il tecnico ne' il consulente legale.
+default_prompt: |
+  Nel mio progetto devo verificare le distanze legali: a che distanza minima devo tenere la nuova
+  costruzione dal confine/dall'edificio vicino, e quali distanze valgono per pozzi, tubi, alberi e
+  per l'apertura di finestre/vedute secondo il Codice civile (artt. 873-907)? Devo guardare anche i
+  regolamenti locali o il DM 1444/1968? Cita gli articoli.

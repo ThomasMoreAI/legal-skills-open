@@ -1,0 +1,55 @@
+/* Uses the packaged discovery review's DocReview-derived brand and layout. */
+.family { padding: 24px 0; border-bottom: 1px solid var(--lq-border); }
+.family-heading { display: flex; gap: 12px; align-items: baseline; }
+.candidate-tile { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; text-align: left; padding: 12px; min-height: 96px; }
+.candidate-tile .tile-title { font-size: 14px; font-weight: 500; overflow-wrap: anywhere; }
+.candidate-tile .tile-variant { font-size: 12px; color: var(--lq-muted-foreground); overflow-wrap: anywhere; }
+.candidate-tile .decision-label { font-size: 12px; color: var(--lq-muted-foreground); }
+.candidate-tile.accept { background: var(--lq-accent); border-color: var(--lq-primary); }
+.candidate-tile.accept .decision-label { color: var(--lq-success); }
+.candidate-tile.defer .decision-label { color: var(--lq-attention); }
+.candidate-tile.reject .decision-label { color: var(--lq-destructive); }
+.candidate-panel { scroll-margin-top: 120px; }
+.candidate-panel h3 { font: 500 21px/1.4 var(--lq-font-serif); }
+.candidate-panel .detail-close { margin-left: auto; }
+.candidate-panel .proposal-reason { font-size: 14px; max-width: 85ch; }
+.candidate-panel .source-original { margin: 8px 0 16px; padding: 0 0 0 14px; border-left: 2px solid var(--lq-border); font: 400 16px/1.6 var(--lq-font-serif); white-space: pre-wrap; overflow-wrap: anywhere; }
+.source-evidence { margin: 24px 0 12px; }
+.source-evidence > h4 { margin-bottom: 12px; }
+.source-evidence details { margin: 10px 0; }
+.source-evidence summary { font-size: 13px; }
+.source-evidence .source-label { margin: 14px 0 4px; font-size: 12px; color: var(--lq-muted-foreground); }
+.source-evidence .source-request { font: 400 15px/1.6 var(--lq-font-serif); white-space: pre-wrap; overflow-wrap: anywhere; }
+.source-evidence .source-context { padding: 8px 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; }
+.source-evidence .source-context h5 { margin: 12px 0 4px; font-size: 13px; color: var(--lq-muted-foreground); }
+.field-token { background: var(--lq-accent); color: var(--lq-accent-foreground); padding: 1px 3px; border-radius: 2px; }
+.candidate-editor { border-top: 1px solid var(--lq-border); margin-top: 18px; padding-top: 4px; }
+.candidate-editor label { display: block; margin: 12px 0; font-size: 13px; }
+.candidate-editor input, .candidate-editor textarea { display: block; width: 100%; margin-top: 4px; padding: 8px 10px; color: var(--lq-foreground); background: var(--lq-surface); border: 1px solid var(--lq-border); border-radius: 3px; }
+.candidate-editor textarea { resize: vertical; min-height: 75px; }
+.candidate-editor textarea.wording-editor { min-height: 155px; font: 400 16px/1.6 var(--lq-font-serif); }
+.candidate-editor .edit-fields:empty { display: none; }
+.candidate-editor .field-key { font-family: var(--lq-font-mono); font-size: 12px; }
+.candidate-editor details { margin: 16px 0; }
+.candidate-editor .editor-error { color: var(--lq-destructive); font-size: 13px; white-space: pre-wrap; }
+.candidate-panel .decision-actions { display: flex; gap: 8px; flex-wrap: wrap; padding-top: 12px; margin-top: 12px; scroll-margin-top: 140px; border-top: 1px solid var(--lq-border); align-items: center; }
+.candidate-panel .decision-actions button { font-size: 13px; }
+.candidate-panel .decision-effect { flex-basis: 100%; margin: 0 0 4px; font-size: 13px; }
+.candidate-panel .decision-status { margin: 8px 0 0; font-size: 13px; }
+.candidate-panel .decision-status.accept { color: var(--lq-success); }
+.candidate-panel .decision-note { width: 100%; min-height: 65px; display: block; margin-top: 8px; resize: vertical; padding: 8px; font-size: 14px; background: var(--lq-surface); color: var(--lq-foreground); border: 1px solid var(--lq-border); border-radius: 3px; }
+#notes { padding: 12px 0; font-size: 14px; max-width: 85ch; }
+#notes ul { padding-left: 20px; }
+.prior-entry { padding-block: 8px; }
+@media (max-width: 640px) {
+  .candidate-panel { padding: 16px 13px; scroll-margin-top: 150px; }
+  .candidate-tile { min-height: 92px; }
+  .candidate-panel .decision-actions { gap: 8px; }
+}
+@media print {
+  .candidate-panel { display: block !important; }
+  .decision-actions, .candidate-editor, .detail-close { display: none; }
+}
+
+.candidate-tile.inspecting { border-left: 3px solid var(--lq-foreground); padding-left: 10px; }
+.candidate-tile.inspecting .tile-title { text-decoration: underline; text-underline-offset: 3px; }

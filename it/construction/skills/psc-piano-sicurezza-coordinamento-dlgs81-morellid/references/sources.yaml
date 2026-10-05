@@ -1,0 +1,62 @@
+schema_version: 1
+skill: psc-piano-sicurezza-coordinamento-dlgs81
+last_verified: 2026-07-25
+
+# Fonte normativa per la redazione e la verifica di completezza del Piano di
+# Sicurezza e Coordinamento (PSC) nei cantieri temporanei o mobili: art. 100 e
+# Allegato XV (contenuti minimi del PSC, punto 2; stima dei costi della
+# sicurezza, punto 4) del D.Lgs 81/2008. La skill inquadra i contenuti minimi
+# del PSC e la stima dei costi; non redige il piano al posto del coordinatore.
+
+sources:
+  - id: dlgs-81-2008-consolidato-inl-2025-01
+    title: "D.Lgs. 9 aprile 2008 n. 81 - Testo coordinato - Edizione gennaio 2025 (INL) - art. 100 e Allegato XV"
+    type: decreto-legislativo-coordinato
+    url: https://www.ispettorato.gov.it/files/2025/01/TU-81-08-Ed.-Gennaio-2025-1.pdf
+    accessed: 2026-07-25
+    sha256: f593e1806de920dc16def37920c5623cda2450075ed56051852f2caf6045899a
+    license: public-domain-italian-law
+    binary_path: not_in_repo/dlgs81-inl.pdf
+    md_path: references/fonti/dlgs-81-2008-art-100-allegato-xv.md
+    excerpt_path: references/estratti/psc-checklist.md
+    notes: |
+      Testo coordinato del D.Lgs. 81/2008 aggiornato a gennaio 2025, edizione a
+      cura di INL (Ispettorato Nazionale del Lavoro). SHA256 calcolato su
+      not_in_repo/dlgs81-inl.pdf con doppio download riproducibile (stesso file
+      usato dalla skill pos-allegato-xv-checker). L'edizione coordinata INL non
+      e' ufficiale: per uso autoritativo cross-checkare su Normattiva
+      (www.normattiva.it) o Gazzetta Ufficiale. Il testo del decreto e degli
+      allegati e' riproducibile liberamente (art. 5 L. 633/1941, atti ufficiali
+      dello Stato). Estratti art. 100 e Allegato XV (punto 1 definizioni, punto
+      2 contenuti minimi del PSC, punto 4 stima dei costi) con `pdftotext
+      -layout` (testo legale in prosa, senza costanti numeriche o formule da
+      verificare su immagine). Contenuti rilevanti:
+      - art. 90 c.3-4: nei cantieri con piu' imprese anche non contemporanea il
+        committente nomina CSP e CSE; art. 91 c.1 lett. a) il CSP redige il PSC;
+        art. 92 c.1 il CSE verifica e adegua il PSC.
+      - art. 100: PSC = relazione tecnica + prescrizioni + stima costi (punto 4
+        All. XV), corredato da tavole (planimetria); parte integrante del
+        contratto; copia agli RLS almeno 10 giorni prima; l'impresa puo'
+        proporre integrazioni senza modifica dei prezzi; non si applica ai
+        lavori urgenti.
+      - Allegato XV punto 1: definizioni (scelte progettuali/organizzative,
+        procedure, apprestamenti, misure preventive/protettive, prescrizioni
+        operative, cronoprogramma, PSC/POS, costi della sicurezza).
+      - Allegato XV punto 2.1.2: contenuti minimi del PSC lett. a)-l)
+        (identificazione opera; soggetti con compiti di sicurezza; relazione
+        analisi/valutazione rischi; scelte/procedure/misure per area,
+        organizzazione, lavorazioni; prescrizioni operative interferenze;
+        misure di coordinamento uso comune; cooperazione/coordinamento; pronto
+        soccorso/antincendio/emergenze; durata e cronoprogramma, uomini-giorno;
+        stima dei costi). Punti 2.2 (area/organizzazione/lavorazioni) e 2.3
+        (interferenze, cronoprogramma, sfasamento spazio-temporale).
+      - Allegato XV punto 4.1: stima dei costi della sicurezza (apprestamenti,
+        misure/DPI interferenze, impianti terra/antincendio/evacuazione fumi,
+        mezzi di protezione collettiva, procedure, interventi di sfasamento,
+        misure di coordinamento); congrua e analitica; non soggetta a ribasso;
+        liquidata dal direttore dei lavori su approvazione del CSE.
+      Restano fuori scope: il POS (Allegato XV punto 3.2, skill
+      pos-allegato-xv-checker); i ruoli/obblighi CSP/CSE (artt. 89-92, skill
+      coordinatori-sicurezza-cantieri-dlgs81); il fascicolo dell'opera (Allegato
+      XVI), la notifica preliminare (art. 99) e gli Allegati XV.1/XV.2 di
+      dettaglio.

@@ -4,10 +4,11 @@ Tax advice and compliance — direct and indirect taxes, planning, and disputes.
 
 Jurisdiction: `in` · Practice: `tax` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`GST Export Compliance (India) — Ground-Truth Regulatory Engine`](skills/gst-export-compliance-om-talaviya/) | Guides Indian exporters (goods or services) through GST compliance, high-risk regulatory traps, and… |
 | [`Legal Opinion Drafter`](skills/legal-opinion-drafter-rohasnagpal/) | Drafts a structured written legal opinion — the question presented, the facts relied on, the analysis… |
 
 ## Cold-start context

@@ -1,0 +1,8 @@
+interface:
+  display_name: "Organize Case Documents"
+  short_description: "Build a provenance-backed case workspace"
+  default_prompt: "Use $organize-case-docs to map these case documents into chronology, proof, and issue artifacts."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

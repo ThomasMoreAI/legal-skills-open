@@ -9,6 +9,9 @@
   "practice": "general",
   "language": "fi",
   "skills": [
-    "skills/juristi"
+    "skills/finnish-legal-research-open-legal-products",
+    "skills/finnish-legal-writing-open-legal-products",
+    "skills/juristi",
+    "skills/legal-language-translation-open-legal-products"
   ]
 }

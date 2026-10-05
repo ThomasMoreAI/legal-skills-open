@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/timenarratives-request.schema.json",
+  "title": "TimeNarratives packet request v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "actor",
+    "matter",
+    "selections",
+    "filters"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "timenarratives.request.v1"
+    },
+    "runId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "actor": {
+      "$ref": "#/$defs/actor"
+    },
+    "matter": {
+      "$ref": "#/$defs/matter"
+    },
+    "authorityConfirmed": {
+      "const": true,
+      "deprecated": true,
+      "description": "Legacy input accepted for compatibility only. It is not a user approval gate and is not emitted in new packets; when supplied, it remains part of the exact request digest."
+    },
+    "selections": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 30,
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/fileSelection"
+          },
+          {
+            "$ref": "#/$defs/userNoteSelection"
+          },
+          {
+            "$ref": "#/$defs/conversationSelection"
+          }
+        ]
+      }
+    },
+    "filters": {
+      "$ref": "#/$defs/filters"
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "externalIdentity": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+    },
+    "actorName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": "^(?=.*\\S)[^\\u0000-\\u001f\\u007f]+$"
+    },
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024,
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)\\.{1,2}(?:/|$))(?!.*//)(?!.*:)[^\\\\/\\u0000-\\u001f]+(?:/[^\\\\/\\u0000-\\u001f:]+)*$"
+    },
+    "nullableTime": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "aliases": {
+      "type": "array",
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "pattern": "\\S"
+      }
+    },
+    "actor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "aliases"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/externalIdentity"
+        },
+        "name": {
+          "$ref": "#/$defs/actorName"
+        },
+        "aliases": {
+          "$ref": "#/$defs/aliases"
+        }
+      }
+    },
+    "matter": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "client", "aliases"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/externalIdentity"
+        },
+        "client": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/externalIdentity"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "aliases": {
+          "$ref": "#/$defs/aliases"
+        }
+      }
+    },
+    "fileSelection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "path"],
+      "properties": {
+        "kind": {
+          "const": "file"
+        },
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        }
+      }
+    },
+    "userNoteSelection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "text"],
+      "properties": {
+        "kind": {
+          "const": "user_note"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "filters": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceTypes", "since", "until", "asOf"],
+      "properties": {
+        "sourceTypes": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": ["text", "email", "docx", "user_note", "conversation"]
+          }
+        },
+        "since": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "until": {
+          "$ref": "#/$defs/nullableTime"
+        },
+        "asOf": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "conversationSelection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "path", "conversationId"],
+      "properties": {
+        "kind": {
+          "const": "conversation"
+        },
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "conversationId": {
+          "$ref": "#/$defs/externalIdentity"
+        }
+      }
+    }
+  }
+}

@@ -6,12 +6,13 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): constitution
 
 Jurisdiction: `fr` · Practice: `constitutional` · Skill language: it
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Dichiarazione dei diritti della donna e della cittadina`](skills/de-gouges-dichiarazione-donna-cittadina-x8k/) | Knowledge base from "Dichiarazione dei diritti della donna e della cittadina" (1791) by Olympe de… |
 | [`Frankreich Controle de Proportionnalite`](skills/frankreich-controle-proportionnalite/) | Für Frankreich Controle de Proportionnalite: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
+| [`Légistique française`](skills/legistique-fr-kilianvivien/) | Légistique française : rédige ou corrige des textes législatifs et réglementaires (loi, ordonnance… |
 
 ## Cold-start context
 

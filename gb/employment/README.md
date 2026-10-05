@@ -4,10 +4,11 @@ Labour and employment — hiring, contracts, policies, termination, and workplac
 
 Jurisdiction: `gb` · Practice: `employment` · Skill language: de
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`/hiring-review`](skills/hiring-review-uk-agents/) | Review an offer letter and any post-termination restrictions — Right to Work compliance, Written… |
 | [`Uk Whistleblowing Abgrenzung`](skills/uk-whistleblowing-abgrenzung/) | Für Uk Whistleblowing Abgrenzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 
 ## Cold-start context

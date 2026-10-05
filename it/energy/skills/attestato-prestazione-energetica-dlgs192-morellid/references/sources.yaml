@@ -1,0 +1,38 @@
+schema_version: 1
+skill: attestato-prestazione-energetica-dlgs192
+last_verified: 2026-07-16
+
+# Fonte per gli obblighi relativi all'ATTESTATO DI PRESTAZIONE ENERGETICA (APE): quando e'
+# dovuto e chi lo produce, obbligo di renderlo disponibile e consegnarlo, annuncio commerciale,
+# clausola nei contratti, validita', e sanzioni. Fonte: D.Lgs. 19 agosto 2005, n. 192, artt. 6 e 15.
+
+sources:
+  - id: dlgs-192-2005-artt-6-15
+    title: "D.Lgs. 19 agosto 2005, n. 192 - artt. 6 e 15 (Attestato di prestazione energetica e sanzioni) (testo vigente al 2026-07-16)"
+    type: decreto-legislativo
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2005-08-19;192!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: d7a39f3b08f8f9ae71fdbe2737ae57953cc8beec2b8c18000b0c8b61614f21a8
+    license: public-domain
+    binary_path: not_in_repo/dlgs192.html
+    md_path: references/fonti/dlgs-192-2005-artt-6-15.md
+    excerpt_path: references/estratti/ape-checklist.md
+    notes: |
+      Codice redazionale 005G0219. Pagina indice Normattiva pinnata a !vig=2026-07-16 (hash
+      stabile, doppio download: d7a39f3b...). Artt. 6 (idGruppo 1, versione 9) e 15 (idGruppo 3,
+      versione 4) caricati via AJAX (caricaArticolo) e trascritti verbatim in
+      references/fonti/dlgs-192-2005-artt-6-15.md: art. 6 (APE rilasciato per edifici costruiti/
+      venduti/locati a nuovo locatario; nuovi edifici e ristrutturazioni importanti dotati di
+      APE prima del certificato di agibilita'; dotazione a cura del costruttore/proprietario;
+      obbligo di rendere disponibile all'acquirente/locatario all'avvio delle trattative e di
+      consegnarlo al termine; produzione entro 15 giorni dalla richiesta di agibilita' per
+      vendita/locazione prima della costruzione; clausola nei contratti; annuncio commerciale
+      con indici; validita' 10 anni con aggiornamento), art. 15 (sanzioni: APE reso in forma di
+      dichiarazione sostitutiva di atto notorio ex art. 47 DPR 445/2000; controlli ex art. 71
+      DPR 445/2000; sanzione al professionista che rilascia APE senza i criteri, da 700 a 4200
+      euro, con comunicazione all'ordine/collegio; sanzioni al proprietario/venditore/locatore
+      ai commi 3-6). Testo con i blocchi (( )) dei provvedimenti successivi (L. 90/2013 ecc.).
+      LIMITE DI RESA (Regola zero): le metodologie di calcolo e i modelli dell'APE sono nei
+      decreti attuativi (Linee guida APE, DM 26 giugno 2015) e nelle norme UNI/TS 11300: la
+      skill inquadra obblighi/soggetti/sanzioni e rinvia ai decreti, senza riprodurli; non
+      certifica ne' redige l'APE.

@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `us` · Practice: `employment` · Skill language: en
 
-## Skills (76)
+## Skills (77)
 
 | Skill | What it does |
 |---|---|
@@ -52,6 +52,7 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Employee Separation and Release Agreement`](skills/employee-separation-release/) | Drafts U.S. employee separation and release agreements exchanging severance consideration for a… |
 | [`Employment Contract Summary`](skills/employment-contract-summary/) | Produces structured U.S. employment contract summaries with section-level citations, capturing key… |
 | [`Employment and Labor Skill`](skills/employment-labor-everyone-needs-a-copilot/) | Employment and contractor law guidance for ENAC. Use for Colorado contractor classification, employment… |
+| [`Employment & Labor Law`](skills/employment-labor-judicialmind/) | Employment and labor law skill for workplace legal issues. Use when the user needs assistance with… |
 | [`Key principles`](skills/employment-law/) | Use this skill when drafting offer letters, handling terminations, classifying workers, or creating… |
 | [`US Employment Law Research`](skills/employment-law-research/) | Research a US employment law topic across federal, state, and city jurisdictions and produce structured… |
 | [`Executive Employment Agreement`](skills/executive-employment-agreement/) | Drafts U.S. executive employment agreements covering compensation, equity, severance, and restrictive… |

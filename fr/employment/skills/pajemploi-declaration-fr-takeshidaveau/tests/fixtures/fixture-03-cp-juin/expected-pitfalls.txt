@@ -1,0 +1,10 @@
+# Pièges que le skill doit signaler ou traiter correctement
+
+P-01 : mode CP "juin" → indemnité CP annuelle 1 020 € versée CE MOIS (juin 2025).
+      Le skill doit DEMANDER la base CP de l'année de référence pour calculer
+      le 1/10, OU accepter un montant pré-calculé fourni par l'utilisateur.
+P-03 : IE sur 21 jours de présence effective.
+
+# Pas de P-02 (pas d'absence)
+# Pas de P-04 (pas de HC/HM)
+# Pas de cas de refus

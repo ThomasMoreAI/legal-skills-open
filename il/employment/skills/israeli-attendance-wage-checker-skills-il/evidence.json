@@ -1,0 +1,590 @@
+{
+  "skill_slug": "israeli-attendance-wage-checker",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-10-01T16:30:00Z",
+  "method": "Statutory snippets sliced directly from the rendered he.wikisource pages (curl with a browser UA), so each is byte-contiguous on the cited page. The one PDF source is flagged for digit mangling and is trusted for a single figure only.",
+  "claims": [
+    {
+      "claim_id": "hours-s30-exclusions",
+      "claim": "The Hours of Work and Rest Law does not apply to police and prison service, state employees required to be available outside regular hours, seafarers and fishermen, air crew, employees in MANAGEMENT roles or roles requiring a special degree of personal trust, and employees whose conditions prevent any employer supervision of their hours. [סעיף 30]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "חוק זה אינו חל על העסקתם של: (1) שוטרים במשטרת ישראל, וכן כל מי שנמנה עם שירות בתי הסוהר; (2) עובדי המדינה שתפקידם מחייב לעמוד לרשות העבודה גם מחוץ לשעות העבודה הרגילות; (3) יורדי ים ועובדי דיג; (4) אנשי צוות אויר; (5) עובדים בתפקידי הנהלה או בתפקידים הדורשים מידה מיוחדת של אמון אישי; (6) עובדים שתנאי עבודתם ונסיבותיה אינם מאפשרים למעסיק כל פיקוח על שעות העבודה והמנוחה שלהם.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "THE GATE. If the worker falls in any of these six classes, no overtime or rest-day premium is owed at all and every number the skill produces is legally meaningless. Must be the first question asked."
+    },
+    {
+      "claim_id": "hours-def-work-time",
+      "claim": "Working hours are the time the employee stands at the employer's disposal, including short agreed rest breaks and section 20A breaks, but excluding section 20 meal breaks. [סעיף 1]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "”שעות עבודה“ פירושו – הזמן שבו עומד העובד לרשות העבודה, לרבות הפסקות קצרות ומוסכמות הניתנות לעובד להחלפת כוח ואויר ולרבות הפסקות לפי סעיף 20א(א) , חוץ מהפסקות על פי",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Defines what a raw clock-in to clock-out span converts to."
+    },
+    {
+      "claim_id": "hours-def-overtime",
+      "claim": "Overtime means hours exceeding EITHER the daily bound in section 2 (or one set under section 4) OR the weekly bound in section 3. [סעיף 1]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "”שעות נוספות“ פירושו – שעות העבודה העודפות – (א) על התחום שנקבע ליום עבודה בסעיף 2 , או על יום עבודה שייקבע על פי סעיף 4 , או (ב) על התחום שנקבע לשבוע עבודה בסעיף 3 , או על שבוע עבודה שייקבע",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Two independent limbs. This is why the computation is daily first, then weekly, and never from a monthly total."
+    },
+    {
+      "claim_id": "hours-def-night",
+      "claim": "Night work is work of which at least two hours fall between 22:00 and 06:00. [סעיף 1]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "”עבודת לילה“ פירושו – עבודה ששתי שעות ממנה, לפחות, הן בתחום השעות שבין 22 ובין 06.00;",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Triggers the seven-hour day."
+    },
+    {
+      "claim_id": "hours-s2-day",
+      "claim": "A working day shall not exceed eight hours; on night work, on the day before the weekly rest, and on the day before a holiday the employee does not work, it shall not exceed seven hours. [סעיף 2]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "יום עבודה לא יעלה על שמונה שעות עבודה. (ב) בעבודת לילה וביום שלפני המנוחה השבועית וביום שלפני חג שהעובד אינו עובד בו, בין על פי חוק ובין על פי הסכם או נוהג, לא יעלה יום עבודה על שבע שעות עבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The daily overtime threshold, and a distinct LOWER threshold on three kinds of day. The 2018 shortening did NOT change this."
+    },
+    {
+      "claim_id": "hours-s3-week",
+      "claim": "The statutory work week shall not exceed forty five hours. [סעיף 3]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "שבוע עבודה לא יעלה על ארבעים וחמש שעות עבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The STATUTE says 45. The practical basis is 42 by extension order. Never quote 42 as the statutory figure and never quote 45 as the operative one."
+    },
+    {
+      "claim_id": "hours-s16-rates",
+      "claim": "Overtime is paid at not less than 1 and 1/4 of regular wage for the first two overtime hours of that DAY, and not less than 1 and 1/2 for each overtime hour after them. [סעיף 16] 125% ו-150% [סעיף 16]",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "הועסק עובד שעות נוספות, ישלם לו המעסיק בעד שתי השעות הנוספות הראשונות שבאותו יום שכר עבודה לא פחות מ־1 1 ⁄ 4 מהשכר הרגיל, ובעד כל שעה נוספת שאחריהן לא פחות מ־1 1 ⁄ 2 מהשכר הרגיל.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "125 percent then 150 percent. The source renders these as the mixed fractions '1 1/4' and '1 1/2'; a transcription that drops the leading 1 would read as 25 percent and 50 percent, which is wrong by a factor of five. Note 'שבאותו יום': the two-hour tier resets DAILY, not monthly."
+    },
+    {
+      "claim_id": "hours-s17-restday",
+      "claim": "Where an employee is employed during the weekly rest hours or part of them, the employer shall pay for those hours not less than 1 and 1/2 of his regular wage. [סעיף 17] 150% [סעיף 17]",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "הועסק עובד בשעות המנוחה השבועית או בחלק מהן: (1) ישלם לו המעסיק בעד שעות אלה שכר עבודה לא פחות מ־1 1 ⁄ 2 משכרו הרגיל.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "150 percent. Same mixed-fraction caution as section 16. Section 17(a)(2) separately requires compensating rest hours per the permit."
+    },
+    {
+      "claim_id": "hours-s18-base",
+      "claim": "For sections 16 and 17, 'regular wage' includes ALL the supplements the employer pays the employee. [סעיף 18]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "”שכר רגיל“ כולל כל התוספות שמעסיק משלם לעובדו.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Shortfalls are routinely created by computing the premium off base salary alone and excluding supplements."
+    },
+    {
+      "claim_id": "hours-s7-rest36",
+      "claim": "The weekly rest is at least thirty six continuous hours. [סעיף 7]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "שלושים ושש שעות רצופות לשבוע הן המנוחה השבועית של העובד.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Determines the boundary of the 150 percent window, including on a motzaei-Shabbat shift."
+    },
+    {
+      "claim_id": "hours-s20-breaks",
+      "claim": "On a working day of six hours or more, work is interrupted for rest and a meal for at least three quarters of an hour including one continuous half hour; on the day before the weekly rest or a holiday the break is at least half an hour. [סעיף 20]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "ביום עבודה של שש שעות ולמעלה, תופסק העבודה למנוחה ולסעודה ל־ 3 ⁄ 4 שעה לפחות, ובכלל זה תהיה הפסקה רצופה אחת של חצי שעה לפחות; ביום שלפני המנוחה השבועית וביום שלפני חג ההפסקה היא של חצי שעה לפחות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 20 breaks are excluded from working hours by the section 1 definition."
+    },
+    {
+      "claim_id": "hours-s20c-paid-break",
+      "claim": "Where the employee's presence at the workplace is necessary to the work process or the operation of equipment and the employer required him to remain, the break time counts as part of working hours. [סעיף 20]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "נוכחותו במקום העבודה היא הכרח לתהליך העבודה או להפעלת הציוד והשימוש בו, והעובד נדרש על ידי מעסיקו להישאר במקום העבודה, ובמקרה זה ייחשב זמן ההפסקה כחלק משעות העבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The paid-versus-unpaid break question is half the reconciliation."
+    },
+    {
+      "claim_id": "hours-s21-between-days",
+      "claim": "There shall be a break of at least eight hours between one working day and the next. [סעיף 21]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "בין יום עבודה למשנהו בין יום עבודה למשנהו תחול הפסקה של שמונה שעות לפחות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "A compliance flag the skill can raise straight off raw timestamps."
+    },
+    {
+      "claim_id": "hours-s25-ledger",
+      "claim": "An employer must keep a ledger of work hours, weekly rest hours, overtime, overtime premium and weekly-rest premium. [סעיף 25]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "מעסיק חייב לנהל פנקס בדבר שעות עבודה, שעות מנוחה שבועית, שעות נוספות, גמול שעות נוספות וגמול עבודה במנוחה השבועית, ובו יירשמו הפרטים שייקבעו בתקנות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "The predicate for the burden shift in the Wage Protection Law."
+    },
+    {
+      "claim_id": "wage-s5-no-inclusive",
+      "claim": "Where a wage was set that includes payment for overtime or weekly-rest premium, the wage set is treated as REGULAR WAGE ONLY. [סעיף 5]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "נקבע לו שכר עבודה הכולל תשלום בעד שעות נוספות או גמול עבודה במנוחה השבועית כאמור בחוק שעות עבודה ומנוחה, תשי״א–1951 , או הכולל דמי חופשה, תמורת חופשה או פדיון חופשה כאמור בחוק חופשה שנתית, תשי״א–1951 – רואים את השכר שנקבע כשכר רגיל בלבד",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 5. Kills the 'your salary already covers it' defence, absent a collective agreement approved by the Minister."
+    },
+    {
+      "claim_id": "wage-s26b-burden",
+      "claim": "Where the hours are in dispute in an employee's claim for wages including overtime or weekly-rest premium, the burden of proof is on the EMPLOYER to show the employee was not at the employer's disposal, if the employer did not produce attendance records from the hours ledger he is obliged to keep. [סעיף 26ב]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "תהא חובת ההוכחה על המעסיק כי העובד לא עמד לרשות העבודה במשך שעות העבודה השנויות במחלוקת, אם המעסיק לא הציג רישומי נוכחות מתוך פנקס שעות עבודה, ככל שהוא חייב לנהלו",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 26b(a). The single strongest lever available to an employee with no records of his own."
+    },
+    {
+      "claim_id": "wage-s26b-cap",
+      "claim": "For an overtime claim the employer's burden applies only up to 15 weekly overtime hours or 60 monthly overtime hours. [סעיף 26ב]",
+      "claim_type": "threshold",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "רק בעד מספר שעות נוספות שאינו עולה על 15 שעות נוספות שבועיות או שאינו עולה על שישים שעות נוספות חודשיות.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 26b(b). Most secondary write-ups omit this cap, which turns 'no records means the employee wins everything' into a bounded figure."
+    },
+    {
+      "claim_id": "wage-s17-halana",
+      "claim": "Delayed-wage compensation is the HIGHER of one twentieth of the delayed wage for the first week and one tenth for each week thereafter, or index differences plus 20 percent on the combined delayed wage and index differences for each month. [סעיף 17]",
+      "claim_type": "percentage",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "לשכר מולן יווסף הסכום הגבוה מבין אלה (להלן – פיצוי הלנת שכר): (1) בעד השבוע הראשון שלאחר המועד לתשלום שכר העבודה – החלק העשרים מהשכר המולן, ובעד כל שבוע או חלק משבוע שלאחריו – החלק העשירי מהשכר המולן; (2) הפרשי הצמדה לתקופה שמן המועד לתשלום שכר העבודה עד יום תשלומו, בתוספת 20% על הסכום הכולל של השכר המולן והפרשי ההצמדה כאמור בעד כל חודש שבתקופה האמורה",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 17. The 'higher of' framing and both limbs matter; quoting only one understates the claim."
+    },
+    {
+      "claim_id": "wage-s17a-limitation",
+      "claim": "The right to delayed-wage compensation lapses if no claim is filed within one year from when the wage is regarded as delayed, or within 60 days from receipt of the related wage, whichever is EARLIER, extendable by the court to 90 days. [סעיף 17א]",
+      "claim_type": "date",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "הזכות לפיצויי הלנת שכר, להבדיל משכר עבודה, תתיישן אם לא הוגשה תובענה לבית דין אזורי כמשמעותו בחוק בית הדין לעבודה, תשכ״ט–1969 (להלן – בית דין אזורי) תוך שנה מהיום שבו רואים את השכר כמולן, או תוך 60 ימים מהיום שקיבל העובד את השכר שבו קשור הפיצוי, הכל לפי המוקדם, אולם בית הדין האזורי רשאי להאריך את התקופה של 60 ימים לתקופה של 90 ימים.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 17a. A checker that reports a halana figure without this clock is negligent: the underlying wage claim survives far longer than the halana right."
+    },
+    {
+      "claim_id": "wage-s9-monthly-due",
+      "claim": "A monthly wage is payable at the end of the month for which it is paid. [סעיף 9]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "שכר עבודה המשתלם על בסיס של חודש ישולם עם תום החודש בעדו הוא משתלם.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Section 9. Fixes the date from which the wage counts as delayed."
+    },
+    {
+      "claim_id": "tzav42-shortened-week",
+      "claim": "The 2018 extension order shortens the work week in the economy by one hour so that it stands at 42 work hours, without any reduction in wage, implemented by removing one hour on a defined and fixed shortened day.",
+      "claim_type": "threshold",
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/extention-order-short-week-2018/he/extention-order-short-week-2018.pdf",
+      "raw_snippet": "היקף שבוע עבודה במשק יקוצר בשעה אחת ,כך ששבוע העבודה יעמוד על 42שעות עבודה ,ללא הפחתה בשכר.",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Read with pdftotext from the official gov.il PDF. CAUTION: this PDF's text layer mangles Hebrew RTL digits (it renders the statute year as '21221' and section 30(a) as '(22א)'), so NOTHING numeric from this document is trusted except the '42' in this sentence, which reads cleanly and is corroborated by the order's own title. Do not mine other figures from this source.",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "wage-payslip-hours-field",
+      "claim": "The payslip must state the number of hours actually worked by the employee in the period, expressly noting where the employee is one to whom the supervision exclusion applies. [סעיף 24]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "מספר שעות העבודה בפועל של העובד בתקופה שבעדה שולם השכר; אם העובד נמנה עם עובדים כאמור בסעיף 30(א)(6) לחוק שעות עבודה ומנוחה, התשי״א–1951 , יש לציין זאת במפורש",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "From the Schedule to the Wage Protection Law, given effect by section 24. This is the field the reconciliation reads."
+    },
+    {
+      "claim_id": "wage-payslip-hour-value",
+      "claim": "The payslip must state the value of the wage paid for a regular work hour, and must itemise other payments including overtime and weekly-rest premium. [סעיף 24]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "ערך השכר המשולם לעובד בעד שעת עבודה רגילה; (2) השכר הרגיל; (3) תשלומים אחרים, נוסף על השכר הרגיל, לרבות גמול שעות נוספות ומנוחה שבועית",
+      "confidence": "high",
+      "fetched_at": "2026-08-11T00:00:00Z",
+      "notes": "Without the hour value the employee cannot check the premium arithmetic at all."
+    },
+    {
+      "claim_id": "hitiyashnut-s5-seven-years",
+      "claim": "A civil claim that is not about land prescribes in seven years, running from the day the cause of action arose. A wage claim is such a claim, so each unpaid payment carries its own seven-year clock, distinct from the much shorter delayed-wage clock.",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%94%D7%AA%D7%99%D7%99%D7%A9%D7%A0%D7%95%D7%AA",
+      "raw_snippet": "התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא –\n\n(1) בשאינו מקרקעין – שבע שנים;",
+      "confidence": "high",
+      "fetched_at": "2026-08-11",
+      "notes": "Section 5 of the Limitation Law, read with section 6 (the period starts on the day the cause of action arose). Cited in Step 7c to keep the seven-year wage clock separate from the one-year / 60-day delayed-wage clock in Step 8."
+    },
+    {
+      "claim_id": "wage-s26b-c-presumption",
+      "claim": "Where the disputed causes are non-payment of overtime premium, weekly-rest premium, leave pay, leave redemption, recuperation pay or travel, and the employer obliged to give a payslip gave none or gave one omitting those components, it is presumed that an unlawful inclusive wage was set contrary to sec. 5, and the wage paid is treated as regular wage exclusive of those components, unless the employer proves otherwise. [סעיף 26ב(ג)]",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "לא מסר לעובד תלוש שכר, או מסר לעובד תלוש שכר שלא נכללו בו הרכיבים האמורים, חזקה היא כי נקבע לעובד שכר כולל",
+      "confidence": "high",
+      "fetched_at": "2026-08-25T00:00:00Z",
+      "notes": "Rebuttable. Sliced contiguously from the rendered wikisource page; template markup avoided so the snippet matches the rendered text layer."
+    },
+    {
+      "claim_id": "wage-s26b-c-triggers",
+      "claim": "The sec. 26b(c) presumption attaches only to the enumerated causes: overtime premium, weekly-rest premium, leave pay, leave redemption, recuperation pay and travel. [סעיף 26ב(ג)]",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "אי־תשלום גמול שעות נוספות, גמול עבודה במנוחה השבועית, דמי חופשה, תמורת חופשה או פדיון חופשה, דמי הבראה או דמי נסיעות",
+      "confidence": "high",
+      "fetched_at": "2026-08-25T00:00:00Z",
+      "notes": "Note the maqaf (U+05BE) in אי־תשלום, as rendered by the source."
+    },
+    {
+      "claim_id": "wage-s26b-c-consequence",
+      "claim": "The consequence of the sec. 26b(c) presumption is that the wage paid is treated as regular wage exclusive of the components, unless the employer proves otherwise. [סעיף 26ב(ג)]",
+      "claim_type": "statute",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "ויראו בשכר ששולם לו כשכר רגיל, שהרכיבים האמורים אינם כלולים בו, אלא אם כן הוכיח המעסיק אחרת",
+      "confidence": "high",
+      "fetched_at": "2026-08-25T00:00:00Z",
+      "notes": "This is the re-derivation the payslip-only route in Step 1b relies on."
+    },
+    {
+      "claim_id": "minwage-2026-table",
+      "claim": "Adult minimum wage from 01.04.2026: daily 257.75 (6-day week), 297.4 (5-day week), hourly 34.64 on a 186-hour basis and 35.4 on a 182-hour basis, monthly 6,443.85.",
+      "claim_type": "amount",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/שכר%20מינימום.aspx",
+      "raw_snippet": "שכר יומי למועסק 6 ימים בשבוע: 257.75 ש\"ח (החל ב- 01.04.2026) שכר יומי למועסק 5 ימים בשבוע: 297.4 ש\"ח (החל ב- 01.04.2026) שכר לשעה בהיקף של 186 שעות בחודש: 34.64 ש\"ח (החל ב- 01.04.2026) שכר לשעה בהיקף של 182 שעות בחודש: 35.4 ש\"ח (החל ב- 01.04.2026) שכר חודשי: 6,443.85 ש\"ח (החל ב- 01.04.2026)",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "BTL minimum-wage page, text layer. Updated each 1 April."
+    },
+    {
+      "claim_id": "minwage-2025-row",
+      "claim": "Adult minimum wage from 01.04.2025: daily 288.35 (5-day), 249.90 (6-day), hourly 33.58 (186) and 34.32 (182), monthly 6,247.67.",
+      "claim_type": "amount",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/שכר%20מינימום.aspx",
+      "raw_snippet": "01.04.2025 288.35 249.90 33.58 34.32 6,247.67",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "BTL history table row; column order 5-day, 6-day, 186-hour, 182-hour, monthly. Cells separated by U+200B, which the verifier folds."
+    },
+    {
+      "claim_id": "minwage-s1-186",
+      "claim": "The statute defines the hourly minimum wage as the 186th part of the monthly minimum. [חוק שכר מינימום סעיף 1]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "”שכר מינימום לשעה“ – החלק ה־186 של שכר המינימום.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Statutory text unchanged since the 2018 extension order; the 182 basis rests on the steering-committee decision, see divisor-182-ministry."
+    },
+    {
+      "claim_id": "divisor-182-ministry",
+      "claim": "Per the 24.04.2018 steering-committee decision and the Ministry of Labour position, the hourly minimum is the monthly minimum divided by 182, while the statute still says 186 and no criminal or administrative steps will be taken against employers paying on 186.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260118140845/https://www.kolzchut.org.il/he/צו_הרחבה_בדבר_קיצור_שבוע_העבודה_במשק_ל-42_שעות_שבועיות",
+      "raw_snippet": "עם זאת, החוק עדיין קובע כי שכר המינימום לשעה הוא שכר המינימום החודשי חלקי 186",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Kol Zchut, read via a Wayback snapshot because the live site bot-blocks curl. The same paragraph pairs a 2025 monthly figure with 2018 hourly figures, so it is cited for the RULE only, never the figures. The text continues: ולא יינקטו צעדים פליליים/מנהליים נגד מעסיקים שימשיכו לשלם שכר בשיעור זה."
+    },
+    {
+      "claim_id": "divisor-182-ministry-b",
+      "claim": "The Ministry of Labour's position is that the hourly minimum computed on 182 is what employers must pay.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260118140845/https://www.kolzchut.org.il/he/צו_הרחבה_בדבר_קיצור_שבוע_העבודה_במשק_ל-42_שעות_שבועיות",
+      "raw_snippet": "ב- 182 שעות בחודש במקום 186 שעות בחודש",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Same paragraph as divisor-182-ministry."
+    },
+    {
+      "claim_id": "extension-order-hourly-182",
+      "claim": "Under the 2018 extension order the hourly wage is computed on a basis of 182 hours for a full-time post instead of 186.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260118140845/https://www.kolzchut.org.il/he/צו_הרחבה_בדבר_קיצור_שבוע_העבודה_במשק_ל-42_שעות_שבועיות",
+      "raw_snippet": "בהתאמה לקיצור שבוע העבודה, שכר השעה יחושב על בסיס של 182 שעות למשרה מלאה (במקום 186 שעות).",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Kol Zchut summary of the extension order."
+    },
+    {
+      "claim_id": "extension-order-scope",
+      "claim": "The shortening does not apply to those already employed full-time at 42 weekly hours or less, or to employees outside the Hours of Work and Rest Law.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260118140845/https://www.kolzchut.org.il/he/צו_הרחבה_בדבר_קיצור_שבוע_העבודה_במשק_ל-42_שעות_שבועיות",
+      "raw_snippet": "קיצור שבוע העבודה אינו חל על מי שעובדים במשרה מלאה בהיקף של 42 שעות שבועיות או פחות ועל עובדים ש חוק שעות עבודה ומנוחה אינו חל עליהם",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Spacing inside 'ש חוק' is as rendered."
+    },
+    {
+      "claim_id": "minwage-s3a-ordinary-day",
+      "claim": "The wage counted for the minimum-wage test is the wage the employer pays for an ordinary working day. [חוק שכר מינימום סעיף 3(א)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "השכר שיובא בחשבון לענין סעיף 2 יהיה שכר העבודה שמשלם מעסיק לעובדו בעד יום עבודה רגיל כנהוג במקום עבודתו.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-s3b-exclusions",
+      "claim": "Family, seniority and shift supplements, premiums, the 13th salary, annual grants and expense refunds are not counted toward the minimum wage. [סעיף 3(ב)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "ואולם לא יובאו בחשבון תוספת משפחה, תוספת ותק, תוספת בשל עבודה במשמרות, פרמיה מדודה, מוסכמת, קבועה או קבוצתית, משכורת י״ג, מענקים על בסיס שנתי, והחזר הוצאות לרבות הוצאות כלכלה, אש״ל ונסיעות שמשלם המעסיק.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Contrast with hours-s18-base: the overtime base includes ALL supplements."
+    },
+    {
+      "claim_id": "minwage-s2b-parttime",
+      "claim": "A part-time employee is entitled to a minimum wage prorated to the position scope. [סעיף 2(ב)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "עובד המועסק במשרה חלקית זכאי לשכר מינימום חלקי שיחושב יחסית לחלקיות משרתו.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-s2c-absence",
+      "claim": "Where an employee was absent the minimum is reduced pro rata, unless the employee is entitled to payment for the absence under law or agreement, in which case that arrangement governs. [סעיף 2(ג)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "נעדר עובד מעבודתו, יקטן שכר המינימום שהוא זכאי לו לפי סעיף קטן (א), בשיעור יחסי לזמן היעדרו, ואולם אם הוא זכאי לקבל תשלום בעד זמן ההיעדרות לפי דין, חוזה עבודה, הסכם קיבוצי, צו הרחבה או הסדר קיבוצי אחר",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-s2a-adult",
+      "claim": "The statutory minimum in s.2(א) applies to an employee aged 18 or over; younger employees have separate rates.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "עובד שמלאו לו 18 שנים (להלן – עובד) המועסק במשרה מלאה, כנהוג במקום עבודתו, זכאי לקבל ממעסיקו שכר עבודה שלא יפחת משכר המינימום",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "ot-caps-general-permit",
+      "claim": "Under the general permit of 14.03.2018 a working day including overtime may not exceed 12 hours, a week may not carry more than 16 overtime hours, and a night-shift worker may not work more than 58 hours a week including overtime.",
+      "claim_type": "threshold",
+      "source_url": "https://web.archive.org/web/20260608204910/https://www.kolzchut.org.il/he/מגבלות_על_העסקה_בשעות_נוספות",
+      "raw_snippet": "בהתאם ל היתר הכללי להעסקת עובדים בשעות נוספות מיום 14.03.2018: אורך יום העבודה, כולל השעות הנוספות, לא יעלה על 12 שעות. בשבוע עבודה לא ניתן להעסיק עובד יותר מ-16 שעות נוספות.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Kol Zchut via Wayback snapshot of 2026-06-08. The same page also says: אסור להעסיק עובד המועסק ב עבודת לילה יותר מ-58 שעות בשבוע, כולל שעות נוספות"
+    },
+    {
+      "claim_id": "ot-caps-night-58",
+      "claim": "A night-shift worker may not be employed more than 58 hours a week including overtime.",
+      "claim_type": "threshold",
+      "source_url": "https://web.archive.org/web/20260608204910/https://www.kolzchut.org.il/he/מגבלות_על_העסקה_בשעות_נוספות",
+      "raw_snippet": "אסור להעסיק עובד המועסק ב עבודת לילה יותר מ-58 שעות בשבוע, כולל שעות נוספות",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "ot-caps-wartime-iran",
+      "claim": "During the war with Iran some employers may employ workers for more overtime than the routine caps.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260608204910/https://www.kolzchut.org.il/he/מגבלות_על_העסקה_בשעות_נוספות",
+      "raw_snippet": "בתקופת המלחמה מול איראן (מבצע \"שאגת הארי\" ומבצע \"עם כלביא\") מעסיקים מסוימים רשאים להעסיק עובדים במספר שעת נוספות גבוה יותר מאשר בימי שגרה.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Temporary permit text itself not located; the skill states only that caps may have been relaxed."
+    },
+    {
+      "claim_id": "payslip-reserve-line",
+      "claim": "The payslip Schedule requires reserve-duty payments (on account of the tagmul, and any balance) to be itemised among other payments.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הגנת_השכר",
+      "raw_snippet": "תשלומים אחרים, נוסף על השכר הרגיל, לרבות גמול שעות נוספות ומנוחה שבועית, פריון עבודה, דמי הבראה, דמי חופשה, דמי מחלה, תשלום על חשבון תגמול למשרת במילואים ויתרת תגמול כאמור",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "Schedule to חוק הגנת השכר, item 5(3)."
+    },
+    {
+      "claim_id": "reserve-btl-reimburse",
+      "claim": "Bituach Leumi reimburses employers the reserve-duty payments they paid their employees; for the employee the payment is treated as wage, with ordinary deductions.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%9e%d7%99%d7%93%d7%a2%20%d7%9c%d7%9e%d7%a2%d7%a1%d7%99%d7%a7.aspx",
+      "raw_snippet": "הביטוח הלאומי מחזיר למעסיקים את תגמולי המילואים ששילמו לעובדיהם כחוק.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-treated-as-wage",
+      "claim": "A reserve-duty payment paid through the employer is treated as wage, including ordinary deductions.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%9e%d7%99%d7%93%d7%a2%20%d7%9c%d7%9e%d7%a2%d7%a1%d7%99%d7%a7.aspx",
+      "raw_snippet": "עובד המשולם לו תגמול מילואים מהמעסיק, תגמול המילואים ייחשב לו כשכר עבודה.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-3-months-90",
+      "claim": "For an employee, the reserve payment is computed from the gross wage of the 3 months preceding the service, divided by 90.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/%d7%a9%d7%99%d7%a2%d7%95%d7%a8%d7%99%20%d7%94%d7%a7%d7%a6%d7%91%d7%94.aspx",
+      "raw_snippet": "עובד שכיר - הסכום מחושב לפי השכר ברוטו ב-3 החודשים שקדמו לשירות המילואים, מחולק ב-90.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "BTL also points to its reserve-pay calculator on the same page."
+    },
+    {
+      "claim_id": "hours-s25-digital",
+      "claim": "Where the ledger is not kept by mechanical, digital or electronic means it must be signed daily by the employee; the record must be ongoing and contain hours actually worked. [סעיף 25(א1)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "לעניין שעות עבודה, שעות מנוחה שבועית ושעות נוספות ייערך הרישום בפנקס שעות העבודה באופן שוטף ויכלול רישום שעות עבודה בפועל;",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": "The (2) limb continues: לא בוצע הרישום בפנקס כאמור בפסקה (1) באמצעים מכניים, דיגיטליים או אלקטרוניים, ייחתם הרישום מדי יום בידי העובד"
+    },
+    {
+      "claim_id": "hours-s25-digital-b",
+      "claim": "A record not made by mechanical, digital or electronic means must be signed daily by the employee.",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שעות_עבודה_ומנוחה",
+      "raw_snippet": "לא בוצע הרישום בפנקס כאמור בפסקה (1) באמצעים מכניים, דיגיטליים או אלקטרוניים, ייחתם הרישום מדי יום בידי העובד",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T14:00:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-history-2024-2018",
+      "claim": "BTL history rows: from 01.04.2024 5,880.02 monthly (271.38 / 235.20 daily, 31.61 / 32.30 hourly); from 1.04.2023 5,571.75 (257.16 / 222.87, 29.95 / 30.61); from 1.04.2018 5,300.00 (244.62 / 212.00, 28.49 / 29.12); the 1.12.2017 row is 5,300.00 with an hourly figure on 186 only.",
+      "claim_type": "amount",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/שכר%20מינימום.aspx",
+      "raw_snippet": "01.04.2024 271.38 235.20 31.61 32.30 5,880.02 1.04.2023 257.16 222.87 29.95 30.61 5,571.75 1.04.2018 244.62 212.00 28.49 29.12 5,300.00 1.12.2017 244.62 212.00 28.49 5,300.00",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": "Column order 5-day, 6-day, 186-hour, 182-hour, monthly. Pre-April-2018 rows have no 182 column."
+    },
+    {
+      "claim_id": "minwage-s3d",
+      "claim": "Where pay is not built from base or combined wage, the minimum-wage test uses the regular wage without supplements. [סעיף 3(ד)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "לא היה שכרו של עובד משתלם לפי הרכיבים המנויים בסעיף קטן (ב)(1) ו־(2), או לפי חלק מהם, יחושב השכר לענין סעיף קטן (א) לפי שכר העבודה הרגיל ללא תוספות.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-s3b-counts",
+      "claim": "The minimum-wage base counts base or combined wage, cost-of-living supplement if not included, and a fixed supplement paid because of the work. [סעיף 3(ב)]",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_שכר_מינימום",
+      "raw_snippet": "שכר יסוד או שכר משולב; (2) תוספת יוקר אם איננה כלולה בשכר המשולב; (3) תוספת קבועה המשתלמת לעובד עקב עבודתו",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-who-pays",
+      "claim": "In BTL's table a monthly worker, and a daily worker who worked at least 75 days in the 3 months before the service, are paid through the employer (3 months gross / 90 per day); a daily worker with fewer days and an hourly worker are listed against Bituach Leumi.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/TagmulZacay.aspx",
+      "raw_snippet": "עובד יומי שעבד 75 ימים לפחות ב-3 החודשים לפני שירות המילואים מעסיק הכנסה ברוטו ב-3 החודשים שקדמו לתחילת השירות מחולק ב-90",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": "Table row text; next rows read: עובד יומי שעבד פחות מ-75 ימים לפני שירות המילואים עובד לפי שעות הביטוח הלאומי"
+    },
+    {
+      "claim_id": "reserve-who-pays-b",
+      "claim": "A daily worker with fewer than 75 days and an hourly worker are listed against Bituach Leumi as payer.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/TagmulZacay.aspx",
+      "raw_snippet": "עובד יומי שעבד פחות מ-75 ימים לפני שירות המילואים עובד לפי שעות הביטוח הלאומי",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-monthly-employer",
+      "claim": "For a monthly worker the payer column reads employer.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/TagmulZacay.aspx",
+      "raw_snippet": "עובד חודשי מעסיק הכנסה ברוטו ב-3 החודשים שקדמו לתחילת השירות מחולק ב-90",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T15:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-2025-change",
+      "claim": "From 1.5.2025 BTL changed the reserve-pay computation for employees called up again within 3 months of the previous service.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/HisovTAGMOLSatHIROM.aspx",
+      "raw_snippet": "קראו לך לשירות מילואים נוסף מ- 1.5.25 ואילך, ולא חלפו 3 חודשים מהשירות הקודם שלך",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T16:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "reserve-2025-previous-income",
+      "claim": "Under the change, where current income is 20% or more above the previous income, the payment is based on the previous income plus 20%.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/benefits/Reserve_Service/Pages/HisovTAGMOLSatHIROM.aspx",
+      "raw_snippet": "אם הכנסתך הנוכחית גבוהה ב- 20% ומעלה מההכנסה הקודמת - תקבל תגמול לפי הכנסתך הקודמת + תוספת אוטומטית של 20%.",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T16:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "minwage-2017-row",
+      "claim": "BTL history row from 1.12.2017: monthly 5,300.00, hourly 28.49 on the 186 basis only.",
+      "claim_type": "law",
+      "source_url": "https://www.btl.gov.il/Mediniyut/GeneralData/Pages/שכר%20מינימום.aspx",
+      "raw_snippet": "1.12.2017 244.62 212.00 28.49 5,300.00",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T16:30:00Z",
+      "notes": ""
+    },
+    {
+      "claim_id": "restday-ot-kolzchut-175-200",
+      "claim": "Kol Zchut reports that in ע\"ע 38313-03-18 the national labour court reaffirmed the cumulative method: first two overtime hours on Shabbat at 175% (50%+125%), later ones at 200% (50%+150%). Secondary source; judgment not opened.",
+      "claim_type": "law",
+      "source_url": "https://web.archive.org/web/20260608204727/https://www.kolzchut.org.il/he/גמול_עבור_שעות_נוספות",
+      "raw_snippet": "בהתאם לכך ערך 2 השעות הנוספות הראשונות בשבת הנו 175% = 50% + 125% וערך השעות הנוספות, שמעבר לשעתיים הנוספות הראשונות, הנו 200% = 50% + 150%.",
+      "confidence": "medium",
+      "fetched_at": "2026-10-01T18:00:00Z",
+      "notes": "Cited as a pointer only; the skill does not price it."
+    }
+  ]
+}

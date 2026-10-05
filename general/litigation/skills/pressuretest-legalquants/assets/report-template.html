@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pressuretest — {{TITLE}}</title>
+<style>
+:root{color-scheme:light;--bg:#e8ebeb;--paper:#fbfcfc;--ink:#172220;--muted:#53635f;--line:#cbd4d0;--accent:#0b6c61}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1060px;margin:auto;padding:48px 40px 64px}header{margin-bottom:30px}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;line-height:1.2}h1{font-size:clamp(32px,5vw,49px);max-width:26ch;margin:12px 0}h2{font-size:26px;margin:0 0 20px}p{white-space:pre-wrap;margin:12px 0}a{color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.eyebrow{font-size:12px;letter-spacing:.14em;color:var(--muted)}section{margin:30px 0}.summary{background:var(--paper);border:1px solid var(--line);border-left:5px solid var(--accent);padding:26px 30px}.summary p:first-of-type{font-size:19px}.summary p:last-child{color:var(--muted)}nav{display:flex;flex-wrap:wrap;gap:8px 20px;border-block:1px solid var(--line);padding:16px 0;font-size:14px}.attention li{margin:10px 0}.controls{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}[hidden]{display:none!important}button{font:inherit;font-size:14px;padding:8px 12px;background:var(--paper);border:1px solid var(--line);border-radius:4px;cursor:pointer}
+.finding{background:var(--paper);border:1px solid var(--line);border-left:4px solid #778783;margin:12px 0;border-radius:4px;scroll-margin-top:20px}.finding.breaks_position{border-left-color:#ad2b31}.finding.internal_defect{border-left-color:#a56a18}.finding.proof_gap{border-left-color:#a56a18}.finding.defeated{border-left-color:var(--accent)}summary{cursor:pointer;padding:18px;display:flex;gap:16px;align-items:baseline}summary:before{content:"+";font-size:20px;color:var(--muted)}details[open]>summary:before{content:"−"}.number{color:var(--muted);font:13px monospace}.finding-title{display:block;font-weight:650}.status{display:block;font-size:13px;color:var(--muted);margin-top:4px}.finding-body{padding:4px 28px 24px;border-top:1px solid var(--line)}.evidence{margin:20px 0;padding:16px 20px;background:#f0f4f2;border-left:2px solid #a6b6af}figcaption{font-size:13px;font-weight:600}blockquote{font-family:Georgia,serif;white-space:pre-wrap;margin:12px 0 0;overflow-wrap:anywhere}li{margin:8px 0}footer{border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:13px}
+@media(max-width:640px){main{padding:24px 16px}.summary{padding:20px}.finding-body{padding:4px 16px 20px}summary{padding:14px;gap:10px}}
+@media print{body{background:white;font-size:11pt}main{max-width:none;padding:0}nav,.controls{display:none!important}.summary,.finding,.evidence{box-shadow:none;background:white}details::details-content{display:block!important}details>*{display:block!important}summary{break-after:avoid}h2,figcaption{break-after:avoid}.finding{break-inside:auto}.evidence{break-inside:avoid}a{color:inherit}footer{font-size:9pt}}
+</style>
+</head>
+<body><main>{{CONTENT}}</main>
+<script>
+"use strict";
+const findings = [...document.querySelectorAll("details.finding")];
+document.querySelector(".controls").hidden = false;
+document.getElementById("expand").onclick = () => findings.forEach(f => f.open = true);
+document.getElementById("collapse").onclick = () => findings.forEach(f => f.open = false);
+document.getElementById("print").onclick = () => window.print();
+function revealTarget() {
+  const target = document.getElementById(location.hash.slice(1));
+  if (target && target.matches("details.finding")) target.open = true;
+}
+window.addEventListener("hashchange", revealTarget);
+revealTarget();
+let beforePrint = [];
+window.addEventListener("beforeprint", () => {
+  beforePrint = findings.map(f => f.open);
+  findings.forEach(f => f.open = true);
+});
+window.addEventListener("afterprint", () => findings.forEach((f, i) => f.open = beforePrint[i]));
+</script>
+</body>
+</html>

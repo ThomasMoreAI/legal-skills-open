@@ -1,0 +1,88 @@
+{
+  "skill_name": "release-form-writer",
+  "status": "passed",
+  "eval_score": 4.3,
+  "test_cases": [
+    {
+      "id": "tc-01",
+      "description": "Contributor release for feature documentary",
+      "input": {
+        "type": "Talent/contributor release",
+        "project": "Threshold \u2014 feature documentary",
+        "company": "Ironwood Films Ltd",
+        "subject": "Contributor appearing in filmed interviews and daily life footage",
+        "distribution": "Theatrical + global streaming + European broadcast",
+        "term": "In perpetuity",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 5,
+        "consistency": 5,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.5,
+      "notes": "Grant of rights clause covers all required elements. Plain-language summary at top. Editorial independence clause present. Producer guidance note identifies all customisation points. Compensation clearly stated as zero.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
+    },
+    {
+      "id": "tc-02",
+      "description": "Location release for private property",
+      "input": {
+        "type": "Location release",
+        "project": "The Interior \u2014 short documentary",
+        "company": "Current Space Films",
+        "location": "Private residential property, owner present during filming",
+        "distribution": "Festival circuit, educational streaming",
+        "term": "In perpetuity",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.17,
+      "notes": "Location release correctly differentiated from talent release. Property owner's rights vs tenant rights flagged in guidance note. Filming schedule provisions included.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
+    },
+    {
+      "id": "tc-03",
+      "description": "Journalist interview release for magazine article",
+      "input": {
+        "type": "Interview subject release for journalism",
+        "project": "Feature article for a consumer magazine",
+        "company": "Magazine publisher name",
+        "subject": "Interview subject discussing professional life and personal experience",
+        "distribution": "Print magazine, digital edition, magazine website",
+        "term": "Indefinite for published work",
+        "compensation": "None"
+      },
+      "scores": {
+        "coherence": 4,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 4,
+        "professionalism": 4,
+        "actionability": 5,
+        "editorial_naturalness": 4
+      },
+      "mean": 4.17,
+      "notes": "Magazine/journalism context correctly differentiated from film production context. Text/quote use vs image use distinction made. Social media reproduction rights for magazine included.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.14
+    }
+  ],
+  "overall_mean": 4.24,
+  "passed": true,
+  "editorial_naturalness_mean": 4.0
+}

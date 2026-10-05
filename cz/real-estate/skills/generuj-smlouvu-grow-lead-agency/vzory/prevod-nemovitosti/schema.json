@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Převod nemovitosti — data případu (pár: kupní smlouva + smlouva o úschově)",
+  "type": "object",
+  "required": ["prodavajici", "kupujici", "nemovitost", "cena", "uschova", "rok"],
+  "$defs": {
+    "strana": {
+      "type": "object",
+      "required": ["radek1", "radek2", "podpis", "email"],
+      "properties": {
+        "radek1": {"type": "string", "description": "FO: 'Jméno Příjmení, r.č. XXXXXX/XXXX' | PO: 'Název s.r.o., IČ: XXX XX XXX'"},
+        "radek2": {"type": "string", "description": "FO: 'trvale pobytem <adresa>' | PO: 'se sídlem <adresa>'"},
+        "radek3": {"type": ["string", "null"], "description": "PO: 'zapsaná v obchodním rejstříku u <soud>, oddíl <X>, vložka <N>' | FO v SÚ: 'státní občanství: ..., místo narození: ...'"},
+        "radek4": {"type": ["string", "null"], "description": "PO: 'zastoupená jednatelem, <jméno>, nar. <datum>, s trvalým pobytem <adresa>' | FO v SÚ: 'č.ú. <účet>' (POVINNÉ pro stranu příjemce — výplatní účet!)"},
+        "radek5": {"type": ["string", "null"], "description": "rezerva (další řádek hlavičky)"},
+        "podpis": {"type": "string", "description": "Jméno do podpisového bloku (FO: jméno; PO: název firmy)"},
+        "podpis_zastupce": {"type": ["string", "null"], "description": "PO: '<jméno>, jednatel' pod názvem firmy v podpisu; FO: null"},
+        "email": {"type": "string", "description": "E-mail pro notifikace o pohybech na účtu úschovy"}
+      }
+    }
+  },
+  "properties": {
+    "prodavajici": {"$ref": "#/$defs/strana", "description": "V SÚ = Strana příjemce. radek4 (č.ú.) POVINNÝ — výplatní účet."},
+    "kupujici": {"$ref": "#/$defs/strana", "description": "V SÚ = Strana uschovatele."},
+    "nemovitost": {
+      "type": "object",
+      "required": ["polozky", "ku_text", "urad_kraj", "pracoviste"],
+      "properties": {
+        "polozky": {
+          "type": "array", "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["text", "odrazka"],
+            "properties": {
+              "text": {"type": "string", "description": "Řádek popisu dle LV — vzory: jednotka: 'jednotky č. X/Y (byt) vymezené podle zákona č. 72/1994 Sb., ...' + pokračování 'spolu s podílem o velikosti A/B na společných částech domu, ...'; pozemek: 'pozemku parc. č. X (druh) v katastrálním území Y'"},
+              "odrazka": {"type": "boolean", "description": "true = nová odrážka; false = pokračovací řádek bez odrážky"}
+            }
+          }
+        },
+        "ku_text": {"type": "string", "description": "např. 'v katastrálním území a obci Sázava' nebo 'v katastrálním území Studánka'"},
+        "urad_kraj": {"type": "string", "description": "např. 'pro Středočeský kraj' (část názvu katastrálního úřadu, neskloňuje se)"},
+        "pracoviste": {"type": "string", "description": "např. 'Benešov'"}
+      }
+    },
+    "cena": {
+      "type": "object",
+      "required": ["celkem", "zaloha", "doplatek", "pokuta_neuhrazeni", "pokuta_predani"],
+      "properties": {
+        "celkem": {"type": "string", "description": "formát '3.500.000,00' (bez Kč)"},
+        "zaloha": {"type": "string", "description": "první část kupní ceny (hotovost před podpisem) — formát '100.000,00'"},
+        "doplatek": {"type": "string", "description": "druhá část do úschovy — formát '3.400.000,00'; MUSÍ = uschova.castka"},
+        "pokuta_neuhrazeni": {"type": "string", "description": "smluvní pokuta při neuhrazení ceny"},
+        "pokuta_predani": {"type": "string", "description": "pokuta za den prodlení s předáním, např. '1.000,00'"}
+      }
+    },
+    "uschova": {
+      "type": "object",
+      "required": ["castka"],
+      "properties": {
+        "castka": {"type": "string", "description": "deponovaná částka — MUSÍ = cena.doplatek"},
+        "ucet": {"type": "string", "description": "účet úschovy (default z kancelar.json)"},
+        "banka": {"type": "string", "description": "banka úschovy (default z kancelar.json)"}
+      }
+    },
+    "lhuty": {"type": "object", "description": "Přepis defaultů z kancelar.json — klíče viz lhuty_default; hodnoty formát 'deseti (10)'"},
+    "rok": {"type": "string", "description": "rok podpisu, např. '2026'"}
+  }
+}

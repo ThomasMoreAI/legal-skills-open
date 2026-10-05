@@ -4,7 +4,7 @@ Debtor-creditor relations, reorganization, liquidation, and insolvency proceedin
 
 Jurisdiction: `us` · Practice: `bankruptcy` · Skill language: en
 
-## Skills (117)
+## Skills (118)
 
 | Skill | What it does |
 |---|---|
@@ -18,6 +18,7 @@ Jurisdiction: `us` · Practice: `bankruptcy` · Skill language: en
 | [`Avoidance Litigation Strategy`](skills/avoidance-litigation/) | Für Avoidance Litigation Strategy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Bankruptcy Appeals`](skills/bankruptcy-appeals/) | Für Bankruptcy Appeals: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Bankruptcy Claim Interest Calculation`](skills/bankruptcy-interest-calculation/) | Calculates pre-petition interest for bankruptcy proofs of claim and produces a filing-ready worksheet.… |
+| [`Bankruptcy Law`](skills/bankruptcy-judicialmind/) | Bankruptcy law skill for insolvency and debt restructuring matters. Use when the user needs assistance… |
 | [`Proof of Claim (Bankruptcy)`](skills/bankruptcy-proof-of-claim/) | Drafts filing-ready proofs of claim for U.S. bankruptcy proceedings using Official Form B 410 under FRBP… |
 | [`Board Duties and Zone of Insolvency`](skills/board-duties-cash-collateral-chapter7-asset/) | Für Board Duties and Zone of Insolvency: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Cash Collateral § 363`](skills/cash-collateral-363/) | Für Cash Collateral Paragraf 363: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |

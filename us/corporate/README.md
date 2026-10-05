@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 
-## Skills (114)
+## Skills (115)
 
 | Skill | What it does |
 |---|---|
@@ -38,6 +38,7 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Conflict of Interest Policy`](skills/conflict-of-interest-policy/) | Drafts U.S. corporate and nonprofit conflict-of-interest policies with disclosure mechanics… |
 | [`Corporate Practice`](skills/corporate/) | Advises on corporate law matters including entity formation, governance, finance, M&A, securities… |
 | [`Corporate Bylaws`](skills/corporate-bylaws/) | Drafts complete U.S. corporate bylaws harmonized with Articles of Incorporation and tailored to state… |
+| [`Corporate & M&A`](skills/corporate-ma-judicialmind/) | Corporate transactions and M&A legal practice skill. Use when the user needs assistance with mergers… |
 | [`Corporate Resolution — Bank Account Authorization`](skills/corporate-resolution-bank-account/) | Drafts a board resolution authorizing the opening and management of corporate bank accounts, including… |
 | [`Notice to Creditors of Dissolution`](skills/creditor-dissolution-notice/) | Drafts jurisdiction-compliant Notice to Creditors of Dissolution with claim procedures, statutory bar… |
 | [`Design Board Diversity Policy`](skills/design-board-diversity-policy-jeffreytse/) | Use when a company is setting board composition objectives or preparing required board diversity… |

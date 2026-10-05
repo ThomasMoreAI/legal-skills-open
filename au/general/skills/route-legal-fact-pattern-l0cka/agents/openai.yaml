@@ -1,0 +1,4 @@
+interface:
+  display_name: "Route Legal Fact Pattern"
+  short_description: "Map a matter to the Legal Skills plugins and skills to run, in order"
+  default_prompt: "Use $route-legal-fact-pattern on this matter: extract the routing facts, match them to the generated skill map, and return a sequenced plan with the human decision owner at each step, the plugins still to install and any gaps no skill covers."

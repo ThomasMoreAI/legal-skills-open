@@ -1,0 +1,37 @@
+schema_version: 1
+skill: subappalto-contratti-pubblici-dlgs36
+last_verified: 2026-07-16
+
+# Fonte per la disciplina del SUBAPPALTO nei contratti pubblici: nozione e soglie, attivita'
+# non configuranti subappalto, condizioni di affidamento, trasmissione del contratto,
+# responsabilita' solidale, pagamento diretto al subappaltatore, autorizzazione della
+# stazione appaltante e subappalto a cascata. Fonte: Codice dei contratti pubblici
+# (D.Lgs. 36/2023), art. 119.
+
+sources:
+  - id: dlgs-36-2023-art119
+    title: "D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici) - art. 119 (Subappalto) (testo vigente al 2026-07-16)"
+    type: decreto-legislativo
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: 8d14a74fbded95d0255f100c23197e61ac5803156320fd5a3b5f142c17e83bc9
+    license: public-domain
+    binary_path: not_in_repo/dlgs36-a.html
+    md_path: references/fonti/dlgs-36-2023-art119.md
+    excerpt_path: references/estratti/subappalto-checklist.md
+    notes: |
+      Codice redazionale 23G00044. Pagina indice Normattiva pinnata a !vig=2026-07-16
+      (hash stabile, doppio download: 8d14a74f...). Art. 119 (versione 2, idGruppo 18)
+      caricato via AJAX (caricaArticolo) e trascritto verbatim in
+      references/fonti/dlgs-36-2023-art119.md: nozione e soglie del subappalto (c. 2: 2%
+      dell'importo / 100.000 euro / manodopera > 50%), attivita' non configuranti subappalto
+      (c. 3), condizioni di affidamento (c. 4), trasmissione del contratto almeno 20 giorni
+      prima (c. 5), responsabilita' solidale (c. 6-7), pagamento diretto (c. 11: microimpresa/
+      piccola impresa, inadempimento, richiesta del subcontraente), tutele dei lavoratori del
+      subappaltatore (c. 12), autorizzazione entro 30 giorni con silenzio-assenso (c. 16),
+      subappalto a cascata (c. 17). Il testo tra doppi tondi (( )) e' quello
+      introdotto/modificato dai decreti correttivi, riportato come da fonte.
+      LIMITE DI RESA: la skill inquadra l'istituto del subappalto e i suoi adempimenti; non
+      sostituisce la lettura degli articoli richiamati dall'art. 119 (artt. 100 e 103
+      qualificazione, Capo II Titolo IV Parte V cause di esclusione, art. 11 CCNL, allegato
+      II.2-bis revisione prezzi) ne' la determinazione della stazione appaltante/RUP.

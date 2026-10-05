@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check NSW Legislation"
+  short_description: "Verify NSW legislation at a date"
+  default_prompt: "Use $check-nsw-legislation to verify this NSW law and identify the applicable version."

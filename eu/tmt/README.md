@@ -4,7 +4,7 @@ Technology, Media & Telecommunications practice.
 
 Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 
-## Skills (49)
+## Skills (50)
 
 | Skill | What it does |
 |---|---|
@@ -34,6 +34,7 @@ Jurisdiction: `eu` · Practice: `tmt` · Skill language: de
 | [`DSA: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/dsa-eidas-einordnung/) | Für DSA: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSA: Internes Beschwerdesystem`](skills/dsa-internes-beschwerdesystem-aufbau/) | Für DSA: Internes Beschwerdesystem: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`DSA: Krisenreaktion Art. 36`](skills/dsa-krisenreaktionsmechanismus-art-36/) | Für DSA: Krisenreaktion Art. 36: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`DSA Platform`](skills/dsa-platform-arttuan/) | Work out which DSA layer you are (intermediary, hosting, platform, marketplace) and build the… |
 | [`DSA — VLOP/VLOSE-Einordnung und Pflichten`](skills/dsa-vlop-vlose-einordnung-und-pflichten/) | Für DSA — VLOP/VLOSE-Einordnung und Pflichten: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Eidas: Behörden-, Gerichts- oder Registerweg`](skills/eidas-behoerden-gericht-und-registerweg/) | Für Eidas: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Einordnung: Zahlen, Schwellenwerte und Berechnung`](skills/einordnung-zahlen-schwellen-und-berechnung/) | Für Einordnung: Zahlen, Schwellenwerte und Berechnung: rechnet Beträge, Schwellen und Varianten… |

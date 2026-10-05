@@ -4,7 +4,7 @@ Environmental regulation, contamination liability, permitting, and impact review
 
 Jurisdiction: `us` · Practice: `environmental` · Skill language: en
 
-## Skills (23)
+## Skills (25)
 
 | Skill | What it does |
 |---|---|
@@ -18,7 +18,9 @@ Jurisdiction: `us` · Practice: `environmental` · Skill language: en
 | [`Environmental Impact Statement (EIS)`](skills/environmental-impact-statement/) | Drafts NEPA-compliant Environmental Impact Statements (EIS) under 42 U.S.C. § 4321 et seq. as amended by… |
 | [`Environmental Indemnity Agreement`](skills/environmental-indemnity/) | Drafts Environmental Indemnity Agreements allocating contamination, remediation, and regulatory… |
 | [`Environmental Indemnity Agreement`](skills/environmental-indemnity-agreement/) | Drafts and revises U.S. environmental indemnity agreements for real estate lending and acquisition… |
+| [`Environmental Law`](skills/environmental-law-judicialmind/) | Environmental law skill for environmental regulations and compliance. Use when the user needs assistance… |
 | [`Environmental Regulation Summary`](skills/environmental-regulation-summaries/) | Generates structured summaries of U.S. environmental laws, compliance obligations, and permitting… |
+| [`EPA Regulatory Skill (Envirofacts + ECHO + GHGRP + Subpart W)`](skills/epa-regulatory-jpfielding/) | Query U.S. EPA regulatory data across four subsystems in one skill: Envirofacts (TRI, FRS, legacy… |
 | [`Hazardous Waste Manifest (EPA Form 8700-22)`](skills/hazardous-waste-manifest/) | Drafts a Uniform Hazardous Waste Manifest (EPA Form 8700-22) compliant with RCRA, EPA, and DOT… |
 | [`Intake Agent`](skills/intake-osenv/) | The front door. Use this skill when a non-lawyer describes an environmental problem or situation in… |
 | [`Invasive Testing Consent Letter (Phase II)`](skills/invasive-testing-consent-letter/) | Drafts a Phase II invasive testing consent letter that limits scope, locations, timing, data control… |

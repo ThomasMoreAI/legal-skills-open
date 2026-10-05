@@ -1,0 +1,14 @@
+{
+  "name": "au-energy",
+  "displayName": "Energy & Utilities — AU",
+  "version": "0.1.0",
+  "description": "Energy & Utilities skills for AU (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "au",
+  "practice": "energy",
+  "language": "en",
+  "skills": [
+    "skills/arckit-au-energy-compliance-tractorjuice"
+  ]
+}

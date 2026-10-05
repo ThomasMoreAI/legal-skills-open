@@ -1,0 +1,60 @@
+{
+  "skill_name": "legal-framework-brief",
+  "status": "passed",
+  "overall_score": 4.39,
+  "test_cases": [
+    {
+      "test_id": "LFB-001",
+      "input_summary": "Legal framework for a story about whether a company can legally fire employees for social media posts made outside work hours",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 5,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean_score": 4.5,
+      "notes": "Clear distinction between at-will employment states and those with off-duty conduct protections. Grey areas section was particularly strong \u2014 the social media specific case law is genuinely unsettled. Common mistakes section was practical.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.43
+    },
+    {
+      "test_id": "LFB-002",
+      "input_summary": "Legal framework for reporting on the right to protest near a construction site subject to a court injunction",
+      "scores": {
+        "coherence": 4,
+        "consistency": 5,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Good handling of the intersection between protest rights and injunction law. Key sources were specific and locatable. The brief correctly noted that injunction terms vary and the journalist must read the specific order.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
+    },
+    {
+      "test_id": "LFB-003",
+      "input_summary": "Legal framework for a story about a landlord using AI-powered tenant screening tools that may violate fair housing law",
+      "scores": {
+        "coherence": 5,
+        "consistency": 4,
+        "fluency": 4,
+        "relevance": 5,
+        "professionalism": 4,
+        "actionability": 4,
+        "editorial_naturalness": 4
+      },
+      "mean_score": 4.33,
+      "notes": "Strong on the intersection of fair housing law and algorithmic decision-making. Correctly identified that the legal framework is evolving and that regulatory guidance is more relevant than case law for this emerging area. Common mistakes section was well-targeted.",
+      "editorial_naturalness_note": "EN backfill: zero lexical/structural/tonal tells detected in automated scan. Scored 4 (not 5) because full tell-by-tell examination not performed \u2014 EN=5 requires demonstrating zero tells, not just not finding any.",
+      "case_mean": 4.29
+    }
+  ],
+  "editorial_naturalness_mean": 4.0,
+  "overall_mean": 4.34
+}

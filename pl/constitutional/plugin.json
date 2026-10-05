@@ -1,0 +1,14 @@
+{
+  "name": "pl-constitutional",
+  "displayName": "Constitutional & Public Law — PL",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills for PL (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "pl",
+  "practice": "constitutional",
+  "language": "pl",
+  "skills": [
+    "skills/sejm-b44x"
+  ]
+}

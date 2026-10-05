@@ -1,0 +1,40 @@
+{
+  "property_before": {
+    "total_acres": 160.0,
+    "frontage_linear_feet": 2000.0,
+    "road_classification": "arterial",
+    "shape_ratio_frontage_depth": 0.20,
+    "value_per_acre": 15000.0,
+    "use": "agricultural",
+    "development_potential_units": null,
+    "buildable_area_sf": null
+  },
+  "taking": {
+    "area_taken_acres": 30.0,
+    "frontage_lost_linear_feet": 0.0,
+    "creates_landlocked": false,
+    "eliminates_direct_access": false,
+    "circuitous_access_added_minutes": 15.0,
+    "creates_irregular_shape": true,
+    "severs_utilities": false,
+    "reduces_development_potential": false,
+    "bisects_farm": true,
+    "disrupts_irrigation": true
+  },
+  "remainder": {
+    "acres": 130.0,
+    "frontage_remaining_linear_feet": 2000.0,
+    "shape_ratio_frontage_depth": 0.12,
+    "access_type": "circuitous",
+    "buildable_area_sf": null,
+    "development_potential_units": null,
+    "requires_new_fencing_linear_meters": 2000.0,
+    "irrigation_acres_affected": 50.0
+  },
+  "market_parameters": {
+    "cap_rate": 0.07,
+    "travel_time_value_per_hour": 40.0,
+    "trips_per_day": 5,
+    "business_days_per_year": 200
+  }
+}

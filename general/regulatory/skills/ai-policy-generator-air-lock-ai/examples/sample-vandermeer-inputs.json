@@ -1,0 +1,51 @@
+{
+  "_meta": {
+    "skill_version": "1.0.0",
+    "generated_at": "2026-06-18T12:00:00Z",
+    "language": "en",
+    "note": "Fictional company. Used as an illustrative example only."
+  },
+  "identity": {
+    "company": "Vandermeer Consulting",
+    "legal_entity": "Vandermeer Consulting NV",
+    "city": "Brussels",
+    "country": "Belgium",
+    "classification": "Internal · Confidential"
+  },
+  "dates": {
+    "version": "1.0",
+    "effective": "2026-06-17",
+    "effective_long": "17 June 2026",
+    "review": "2026-12-17",
+    "review_long": "17 December 2026",
+    "cadence_months": 6
+  },
+  "people": {
+    "ceo": {
+      "name": "Anouk Vandermeer",
+      "title": "Chief executive officer"
+    },
+    "ai_officer": {
+      "name": "Sophie Janssens",
+      "email": "ai-officer@vandermeer-consulting.example",
+      "slack": "@sophie",
+      "channel": "#ai-help"
+    },
+    "dpo": {
+      "name": "Geert Vandenbroeck",
+      "email": "dpo@vandermeer-consulting.example"
+    }
+  },
+  "tools": [
+    { "name": "airlock", "note": "proxy connector", "tier": "Required", "access": "Sophie Janssens, AI Officer" },
+    { "name": "Claude Teams / Pro", "note": null, "tier": "Tier 1", "access": "via airlock" }
+  ],
+  "house_rules": [
+    "No AI as <b>sole decision-maker</b> for hiring, performance, promotion or termination. A human always decides.",
+    "No <b>client, employee or financial data</b> in a tool that isn't approved.",
+    "No <b>personal accounts</b> (free ChatGPT, free Gemini, etc.) for company work.",
+    "No AI-generated client deliverable shipped <b>without human review</b>."
+  ],
+  "live_register_url": "intranet/ai-tools",
+  "standfirst": "How we use AI at Vandermeer Consulting: what's approved, what's off-limits, and who signs off before anything reaches a client."
+}

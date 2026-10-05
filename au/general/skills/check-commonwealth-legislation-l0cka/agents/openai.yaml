@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Commonwealth Legislation"
+  short_description: "Verify Commonwealth legislation at a date"
+  default_prompt: "Use $check-commonwealth-legislation to verify this Commonwealth law and identify the applicable version."

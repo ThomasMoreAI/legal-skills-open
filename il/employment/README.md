@@ -4,12 +4,14 @@ Labour and employment — hiring, contracts, policies, termination, and workplac
 
 Jurisdiction: `il` · Practice: `employment` · Skill language: en
 
-## Skills (3)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
+| [`Israeli Payslip and Wage Checker`](skills/israeli-attendance-wage-checker-skills-il/) | Not legal advice. Audits an Israeli payslip and timesheet and itemises what is owed against what was… |
 | [`Israeli Employment Contract Reviewer`](skills/israeli-employment-contract-reviewer-skills-il/) | Not legal advice. Pre-signing red-flag audit of an Israeli employment contract (chozeh avoda) from the… |
 | [`Israeli Employment Contracts`](skills/israeli-employment-contracts/) | Draft Israeli employment contracts (chozeh avoda) with all mandatory clauses per Israeli labor law. Use… |
+| [`Israeli HR Recruitment Automator`](skills/israeli-hr-recruitment-automator-skills-il/) | Not legal advice. Employer-side hiring automation for Israeli companies. Drafts Hebrew job descriptions… |
 | [`Israeli Workplace Rights Navigator`](skills/israeli-workplace-rights-navigator/) | Understand and exercise employee rights under Israeli labor law, including vacation days (chofsha), sick… |
 
 ## Cold-start context

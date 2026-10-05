@@ -1,0 +1,33 @@
+{
+  "name": "br-family",
+  "displayName": "Family Law — BR",
+  "version": "0.1.0",
+  "description": "Family Law skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "family",
+  "language": "en",
+  "skills": [
+    "skills/acordo-patrimonial-do-divorcio-sbroggioadv",
+    "skills/anti-alucinacao-familia-extrajudicial-sbroggioadv",
+    "skills/assistencia-e-representacao-familiar-sbroggioadv",
+    "skills/convencao-patrimonial-de-uniao-estavel-sbroggioadv",
+    "skills/cumprimento-de-exigencias-do-ato-sbroggioadv",
+    "skills/custos-emolumentos-e-gratuidade-sbroggioadv",
+    "skills/declaracao-e-reconhecimento-de-uniao-estavel-sbroggioadv",
+    "skills/dissolucao-consensual-de-uniao-estavel-sbroggioadv",
+    "skills/dossie-documental-familiar-sbroggioadv",
+    "skills/familia-extrajudicial-master-sbroggioadv",
+    "skills/filhos-e-condicoes-do-divorcio-sbroggioadv",
+    "skills/lacunas-estaduais-do-procedimento-sbroggioadv",
+    "skills/orientacao-das-vias-registrais-de-uniao-estavel-sbroggioadv",
+    "skills/orientacao-pos-escritura-familiar-sbroggioadv",
+    "skills/preparacao-de-ato-eletronico-sbroggioadv",
+    "skills/preparacao-de-divorcio-extrajudicial-sbroggioadv",
+    "skills/requerimento-e-minuta-de-proposta-familiar-sbroggioadv",
+    "skills/suprema-corte-familia-extrajudicial-sbroggioadv",
+    "skills/triagem-familia-extrajudicial-sbroggioadv",
+    "skills/validador-familia-extrajudicial-sbroggioadv"
+  ]
+}

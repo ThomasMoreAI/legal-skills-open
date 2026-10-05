@@ -1,0 +1,35 @@
+schema_version: 1
+skill: distanze-legali-costruzioni-cc
+last_verified: 2026-07-16
+
+# Fonte per le distanze legali nelle costruzioni (art. 873 e ss.), le distanze per pozzi,
+# tubi, alberi e la disciplina delle luci e vedute (artt. 900-907) del Codice civile. Sono
+# trascritti gli articoli di piu' diretto interesse per la progettazione edilizia.
+
+sources:
+  - id: codice-civile-distanze
+    title: "Codice civile (R.D. 16 marzo 1942, n. 262) - artt. 873-907 (distanze nelle costruzioni, pozzi/tubi, alberi, luci e vedute) (testo vigente al 2026-07-16)"
+    type: regio-decreto
+    url: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1942-03-16;262!vig=2026-07-16
+    accessed: 2026-07-16
+    sha256: 390892173cda82d76151571464a5288deca18ecf1fc1d56c6eebb3753e788cf5
+    license: public-domain
+    binary_path: not_in_repo/codice-civile-vig.html
+    md_path: references/fonti/cc-distanze-873-907.md
+    excerpt_path: references/estratti/distanze-costruzioni-checklist.md
+    notes: |
+      Codice redazionale 042U0262 (GU n. 79 del 4/4/1942). Pagina indice Normattiva pinnata a
+      !vig=2026-07-16 (hash stabile, doppio download: 39089217...; indice completo del codice,
+      circa 1,6 MB). Articoli caricati via AJAX (caricaArticolo, testo vigente) e trascritti
+      verbatim in references/fonti/cc-distanze-873-907.md: art. 873 (distanza minima 3 metri tra
+      costruzioni su fondi finitimi, salvo distanza maggiore dei regolamenti locali), art. 877
+      (costruzione in aderenza / sul confine), art. 878 (muro di cinta <= 3 m non computato per la
+      distanza dell'art. 873), art. 879 (edifici non soggetti all'obbligo delle distanze), art. 889
+      (pozzi/cisterne/fosse a 2 m dal confine; tubi a 1 m), art. 890 (fabbriche e depositi nocivi
+      o pericolosi), art. 892 (alberi: 3 m alto fusto, 1,5 m non alto fusto, 0,5 m viti/siepi, salvo
+      regolamenti/usi locali), art. 905 (veduta diretta e balconi a 1,5 m), art. 906 (veduta
+      laterale/obliqua a 0,75 m), art. 907 (costruzioni a 3 m dalle vedute acquisite).
+      NOTA: le distanze del codice civile sono un MINIMO derogabile in aumento dai regolamenti
+      locali; vanno coordinate con la disciplina urbanistico-edilizia (es. DM 1444/1968 art. 9,
+      distanze tra pareti finestrate), non riprodotta. La skill inquadra le distanze civilistiche,
+      non la disciplina urbanistica.

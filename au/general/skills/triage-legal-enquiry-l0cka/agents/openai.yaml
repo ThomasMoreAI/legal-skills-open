@@ -1,0 +1,4 @@
+interface:
+  display_name: "Triage Legal Enquiry"
+  short_description: "Prepare a staff-reviewed CLC triage record"
+  default_prompt: "Use $triage-legal-enquiry to prepare a provisional staff-reviewed triage record from this de-identified enquiry."

@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (464)
+## Skills (466)
 
 | Skill | What it does |
 |---|---|
@@ -179,6 +179,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`DSGVO: Behörden-, Gerichts- oder Registerweg`](skills/dsgvo-behoerden-gericht-und-registerweg/) | Für DSGVO: Behörden-, Gerichts- oder Registerweg: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Unternehmensbußgeld nach Artikel 83 DSGVO prüfen`](skills/dsgvo-bussgeld-art-83-eugh-c-807-21/) | Für Unternehmensbußgeld nach Artikel 83 DSGVO prüfen: ordnet Norm, Beweislast und Gegenargument… |
 | [`DSGVO-Compliance-Bausteine`](skills/dsgvo-compliance-bausteine/) | Für DSGVO-Compliance-Bausteine: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`DSGVO-Compliance Skill`](skills/dsgvo-compliance-sigmacodeat/) | Checks data processing activities for GDPR (DSGVO) compliance. Identifies required legal bases, data… |
 | [`DSGVO: Erstprüfung, Rollenklärung und Mandatsziel`](skills/dsgvo-erstpruefung-rollenklaerung-mandatsziel/) | Für DSGVO: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`DSGVO: Erstprüfung, Rollenklärung und Mandatsziel`](skills/dsgvo-erstpruefung-und-mandatsziel/) | Für DSGVO: Erstprüfung, Rollenklärung und Mandatsziel: routet Rolle, Frist, Unterlagen und Fachschritt… |
 | [`Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk`](skills/dsgvo-intake-basispruefung/) | Für Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und… |
@@ -290,6 +291,7 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Fristverlängerung gegenüber Aufsicht`](skills/fristverlaengerung-behoerde-ohne-nachteile/) | Für Fristverlängerung gegenüber Aufsicht: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis… |
 | [`Funktionsuebertragung versus Auftragsverarbeitung`](skills/funktionsuebertragung-vs-auftragsverarbeitung/) | Für Funktionsübertragung versus Auftragsverarbeitung: ordnet Norm, Beweislast und Gegenargument… |
 | [`GDPR/DSGVO Expert`](skills/gdpr-dsgvo-expert/) | GDPR and German DSGVO compliance. Use for GDPR compliance assessments, privacy audits, scanning… |
+| [`GDPR / DSGVO Expert`](skills/gdpr-dsgvo-expert-aashutosh396/) | Use when running a GDPR or German DSGVO/BDSG privacy assessment — scanning code for privacy risks… |
 | [`Senior GDPR/DSGVO Expert and Auditor`](skills/gdpr-dsgvo-expert-ovachiever/) | Senior GDPR/DSGVO expert and internal/external auditor for data protection compliance. Provides EU GDPR… |
 | [`Generator Fehlerkatalog`](skills/generator-fehlerkatalog/) | Für Generator Fehlerkatalog: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Generator: Red-Team und Qualitätskontrolle`](skills/generator-red-team-und-qualitaetskontrolle/) | Für Generator: Red-Team und Qualitätskontrolle: prüft Ergebnis, Beweislast und Gegenposition; Ergebnis… |

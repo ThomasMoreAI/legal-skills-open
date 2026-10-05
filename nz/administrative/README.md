@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): administrati
 
 Jurisdiction: `nz` · Practice: `administrative` · Skill language: en
 
-## Skills (5)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
+| [`JP Skill`](skills/jp-skill-pengqianhan/) | Guide users on when New Zealand Justice of the Peace services can help with certified copies, witnessed… |
 | [`NZ Consultations`](skills/nz-consultations-thecolab-ai/) | List open New Zealand central-government consultations, agencies, topics, deadlines and official… |
 | [`NZ Gazette`](skills/nz-gazette-thecolab-ai/) | Search and retrieve authoritative New Zealand Gazette notices by keyword, identifier, date, category and… |
 | [`NZ regulatory analysis`](skills/nz-regulatory-analysis-thecolab-ai/) | Use when finding or inspecting current official New Zealand Regulatory Analysis Summaries (RAS)… |

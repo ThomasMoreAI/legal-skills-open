@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Victoria Legislation"
+  short_description: "Verify Victorian legislation and versions"
+  default_prompt: "Use $check-victoria-legislation to verify this Victorian legislative provision against the official point-in-time source."

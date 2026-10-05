@@ -4,11 +4,12 @@ Health-sector law — provider regulation, licensing, and patient-data complianc
 
 Jurisdiction: `cross-jurisdiction` · Practice: `healthcare` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Healthcare AI Privacy — HIPAA and AI Act Intersection`](skills/healthcare-ai-privacy/) | Addresses healthcare AI privacy at the intersection of HIPAA and the EU AI Act for clinical decision… |
+| [`Healthcare Marketing Compliance`](skills/marketing-compliance-canhada-labs/) | Healthcare marketing compliance discipline covering the full pre-publication review lifecycle: claim… |
 
 ## Cold-start context
 

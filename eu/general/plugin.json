@@ -9,9 +9,11 @@
   "practice": "general",
   "language": "de",
   "skills": [
+    "skills/authority-triage-en-matematicsolutions",
     "skills/eu-abgrenzung-einschlaegige-normen",
     "skills/eu-auslegung-autonom-mehrsprachig",
     "skills/eu-rechtsgeschichte-fuer-deutsche-juristen",
+    "skills/eu-sparql-search-matematicsolutions",
     "skills/eu-vorabentscheidung-falsche-wiese"
   ]
 }

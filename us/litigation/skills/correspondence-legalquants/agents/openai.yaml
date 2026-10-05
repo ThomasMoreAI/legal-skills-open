@@ -1,0 +1,8 @@
+interface:
+  display_name: "Litigation Correspondence"
+  short_description: "Draft source-grounded litigation correspondence"
+  default_prompt: "Use $correspondence to triage or draft this litigation correspondence with a no-send review gate."
+  brand_color: "#2d2d2d"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+{
+  "name": "ch-employment",
+  "displayName": "Employment & Labor — CH",
+  "version": "0.1.0",
+  "description": "Employment & Labor skills for CH (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "ch",
+  "practice": "employment",
+  "language": "en",
+  "skills": [
+    "skills/metier-rh-ai-swiss"
+  ]
+}

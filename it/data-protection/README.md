@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): personal dat
 
 Jurisdiction: `it` · Practice: `data-protection` · Skill language: it
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Cookie Audit — analisi forense dei cookie di un sito`](skills/cookie-audit-capazme/) | Usa questa skill quando l'utente chiede un'analisi o audit dei cookie di un sito web — es. «analisi… |
+| [`GDPR Registro trattamenti + DPIA`](skills/gdpr-registro-dpia-morellid/) | Supporta la stesura e verifica del Registro delle attivita' di trattamento (art. 30 GDPR) e della… |
 
 ## Cold-start context
 

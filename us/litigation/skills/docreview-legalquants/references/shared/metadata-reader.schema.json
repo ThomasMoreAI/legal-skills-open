@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "doc_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{12}$"},
+    "receipt_mode": {"type": "string", "enum": ["text", "image-transcription"]},
+    "doc_type": {
+      "type": "string",
+      "enum": ["agreement", "amendment", "sow", "schedule", "exhibit", "guaranty", "other"]
+    },
+    "title": {"type": ["string", "null"], "minLength": 1},
+    "parties": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "dated": {"type": ["string", "null"], "format": "date"},
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": ["parent-agreement", "amendment", "sow", "schedule", "exhibit", "guaranty", "other"]
+          },
+          "text": {"type": "string", "minLength": 1},
+          "quote": {"type": "string", "minLength": 1},
+          "page": {"type": ["integer", "null"], "minimum": 1},
+          "gap_eligible": {"type": "boolean"}
+        },
+        "required": ["kind", "text", "quote", "page", "gap_eligible"],
+        "additionalProperties": false
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "doc_type": {"$ref": "#/$defs/evidenceOrNull"},
+        "title": {"$ref": "#/$defs/evidenceOrNull"},
+        "dated": {"$ref": "#/$defs/evidenceOrNull"},
+        "parties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "value": {"type": "string", "minLength": 1},
+              "quote": {"type": "string", "minLength": 1},
+              "page": {"type": ["integer", "null"], "minimum": 1}
+            },
+            "required": ["value", "quote", "page"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["doc_type", "title", "dated", "parties"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "doc_id", "receipt_mode", "doc_type", "title", "parties", "dated",
+    "references", "evidence"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "evidenceOrNull": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "quote": {"type": "string", "minLength": 1},
+            "page": {"type": ["integer", "null"], "minimum": 1}
+          },
+          "required": ["quote", "page"],
+          "additionalProperties": false
+        },
+        {"type": "null"}
+      ]
+    }
+  }
+}

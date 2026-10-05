@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://legalquants.com/schemas/manifest.schema.json",
+  "title": "CiteCheckPreparationManifest",
+  "description": "The parent-owned preparation inventory for one cite-check run. It records every prepared unit, its source path and line range, any footnote anchor, and supplied authority navigation cards. It does not select citation-bearing units or bind citations to authorities.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "target",
+    "authorities",
+    "units",
+    "limitations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "cite-check.manifest.v2"
+    },
+    "runId": {
+      "$ref": "#/$defs/identifier"
+    },
+    "target": {
+      "$ref": "#/$defs/target"
+    },
+    "authorities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/authority"
+      }
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/unit"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._-]{0,127}$"
+    },
+    "relativePath": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 1024,
+      "pattern": "^(?!/)(?![A-Za-z]:)(?!.*(?:^|/)(?:\\.{1,2})(?:/|$))(?!.*//)[^\\\\/\\u0000-\\u001f]+(?:/[^\\\\/\\u0000-\\u001f]+)*$"
+    },
+    "nullableString": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "fullDocumentRef",
+        "displayName"
+      ],
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "fullDocumentRef": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "displayName": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "contentIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "caseName": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "reporterCitation": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "court": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "date": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "docket": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "title": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "canonicalUrl": {
+          "$ref": "#/$defs/nullableString"
+        },
+        "section": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    },
+    "authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceId",
+        "path",
+        "filename",
+        "readability",
+        "contentIdentity"
+      ],
+      "properties": {
+        "sourceId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "filename": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "readability": {
+          "type": "string",
+          "enum": [
+            "readable",
+            "unreadable",
+            "incomplete",
+            "unknown"
+          ]
+        },
+        "contentIdentity": {
+          "$ref": "#/$defs/contentIdentity"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "unit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "unitId",
+        "kind",
+        "path",
+        "lineStart",
+        "lineEnd",
+        "footnoteAnchorUnitId"
+      ],
+      "properties": {
+        "unitId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "paragraph",
+            "list_item",
+            "table_cell",
+            "heading",
+            "caption",
+            "footnote",
+            "endnote",
+            "header",
+            "footer",
+            "text_box"
+          ]
+        },
+        "path": {
+          "$ref": "#/$defs/relativePath"
+        },
+        "lineStart": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "lineEnd": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "footnoteAnchorUnitId": {
+          "$ref": "#/$defs/nullableString"
+        }
+      }
+    }
+  }
+}

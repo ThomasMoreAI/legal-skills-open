@@ -1,0 +1,67 @@
+NOTICE
+======
+
+Dichiarino MCP Server
+Copyright (c) 2025 Dichiarino Contributors
+
+This product is licensed under the Apache License, Version 2.0.
+You may obtain a copy of the License at:
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Original repository: https://github.com/gsaccardi/dichiarino-mcp
+
+---
+
+ATTRIBUTION
+
+If you redistribute this software or a Derivative Work, you must include this
+NOTICE file (as required by the Apache License 2.0, Section 4(d)) and retain
+the following attribution in your documentation, credits, or acknowledgements:
+
+    Powered by Dichiarino - https://github.com/gsaccardi/dichiarino-mcp
+
+---
+
+THIRD-PARTY DEPENDENCIES
+
+This product includes the following third-party software:
+
+- mcp (MIT License) - Model Context Protocol SDK by Anthropic
+  https://github.com/modelcontextprotocol/python-sdk
+
+- pydantic (MIT License) - Data validation library
+  https://github.com/pydantic/pydantic
+
+---
+
+TAX AND FISCAL DISCLAIMER
+
+The fiscal calculations, rates, and data provided by this software are for
+INFORMATIONAL AND ASSISTIVE PURPOSES ONLY. They do NOT constitute professional
+tax advice, legal advice, or a substitute for the services of a qualified
+tax professional.
+
+Before filing any tax return, ALWAYS verify all values and calculations with a
+qualified professional (CAF, commercialista, consulente del lavoro) or directly
+with the Agenzia delle Entrate.
+
+The authors and contributors of this software:
+  - accept NO liability for errors, omissions, or inaccuracies in fiscal
+    calculations or encoded tax rules;
+  - make NO warranty that the information is current, accurate, or complete;
+  - are NOT responsible for any financial loss, penalties, or legal consequences
+    arising from reliance on outputs produced by this software.
+
+Tax rules, rates, and deduction limits are encoded for specific fiscal years
+(2023, 2024, 2025) based on legislation in force at time of writing. Fiscal
+legislation is subject to change. Always cross-reference with official
+publications by the Agenzia delle Entrate: www.agenziaentrate.gov.it
+
+FISCAL DATA SOURCES
+
+Tax data encoded in this software is derived from public Italian legislation:
+  - D.Lgs. 216/2023 (Riforma IRPEF 2024)
+  - Legge 207/2024 (Legge di Bilancio 2025)
+  - TUIR (DPR 917/1986) as amended
+  - Agenzia delle Entrate - Istruzioni Modello 730/2025 and 730/2026
+  - Dipartimento delle Finanze - Statistiche fiscali regionali

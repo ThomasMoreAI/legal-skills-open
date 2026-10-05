@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 
-## Skills (59)
+## Skills (62)
 
 | Skill | What it does |
 |---|---|
@@ -35,6 +35,7 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`$corporate-legal:diligence-issue-extraction`](skills/diligence-issue-extraction/) | Read VDR documents and extract issues per house categories and materiality thresholds, producing… |
 | [`Diligence issue extraction`](skills/diligence-issue-extraction-anthropics/) | Read VDR documents and extract issues per house categories and materiality thresholds, producing… |
 | [`Diligence issue extraction`](skills/diligence-issue-extraction-zhou210712/) | 读取数据室文件并按内部类别和重要性阈值提取问题，以内部备忘录格式产出发现。 当用户说"审查数据室""从[文件夹]提取问题""尽调审查""数据室里有什么" 或指向数据室文件时使用。 |
+| [`Due Diligence`](skills/due-diligence-judicialmind/) | Transaction due diligence skill for M&A, investment, and business transactions. Use when the user needs… |
 | [`Entity compliance`](skills/entity-compliance-zhou210712/) | 主体合规追踪器——初始化、报告即将到来的截止日、更新状态、运行健康审计、 导出为 CSV。维护从主体清单构建的 compliance-tracker.yaml，按主体和… |
 | [`Excluded Assets and Liabilities Schedule`](skills/excluded-assets-liabilities/) | Drafts a categorized schedule of excluded assets and liabilities as an exhibit to an asset purchase… |
 | [`Founders' Agreement Drafter`](skills/founders-agreement-drafter-rohasnagpal/) | Drafts a founders' agreement — equity split and roles, reverse vesting of founder equity, IP assignment… |
@@ -47,6 +48,7 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Legal Opinion Letter`](skills/legal-opinion-letter/) | Drafts formal legal opinion letters for corporate and transactional matters with jurisdiction-specific… |
 | [`LQ Board Document Review Protocol`](skills/lq-board-document-review/) | Use when reviewing board-level governance documents — Delegation of Authority policies, charters, board… |
 | [`M&A Diligence Checker`](skills/m-and-a-diligence-checker-rohasnagpal/) | Plans and performs legal due diligence for acquisitions, investments, mergers, asset purchases, joint… |
+| [`M&A Playbook`](skills/ma-playbook-jantoniofc/) | M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal… |
 | [`M&A Transaction Summary`](skills/ma-transaction-summary/) | Generates structured M&A transaction summaries from deal documents. Triggers when the user needs to… |
 | [`$corporate-legal:material-contract-schedule`](skills/material-contract-schedule/) | Build the material contracts disclosure schedule from diligence findings, applying the purchase… |
 | [`Material contract schedule`](skills/material-contract-schedule-anthropics/) | Build the material contracts disclosure schedule from diligence findings, applying the purchase… |
@@ -58,6 +60,7 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Run Contract Due Diligence`](skills/run-contract-due-diligence-jeffreytse/) | Use when reviewing contracts systematically for M&A transactions, investment rounds, vendor onboarding… |
 | [`safe`](skills/safe/) | Draft and fill Y Combinator SAFE contract templates — valuation cap, discount, MFN, pro rata side… |
 | [`Set Up My Legal Info`](skills/set-up-my-legal-info/) | Tell me the basics about your company so I can give you better legal help. I ask a few quick questions… |
+| [`Startup Ops`](skills/startup-ops-sanada123/) | The non-code stuff that kills startups. Company registration, contracts (NDA, SOW, freelancer)… |
 | [`Tabellenpruefung Gesellschaftsrecht`](skills/tabellenpruefung/) | Für Tabellenprüfung Gesellschaftsrecht: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Tabular review`](skills/tabular-review/) | Tabular review — one row per document, one column per data point, every cell cited to source. Built for… |
 | [`Tabular review`](skills/tabular-review-zekaisuni/) | Tabular review — one row per document, one column per data point, every cell cited to source. Built for… |

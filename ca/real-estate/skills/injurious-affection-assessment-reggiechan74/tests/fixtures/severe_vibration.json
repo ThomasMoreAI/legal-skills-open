@@ -1,0 +1,39 @@
+{
+  "property_address": "321 Heritage Lane, Toronto, ON",
+  "property": {
+    "property_type": "residential",
+    "property_value": 1200000.0,
+    "rental_income_monthly": 5000.0,
+    "distance_to_construction_m": 15.0,
+    "number_of_units": 2,
+    "business_type": null,
+    "annual_revenue": 0.0,
+    "background_noise_dba": 50.0
+  },
+  "construction": {
+    "duration_months": 9.0,
+    "equipment": [
+      {
+        "equipment_type": "pile_driver",
+        "dba_at_15m": 110.0,
+        "hours_per_day": 6.0,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "vibratory_compactor",
+        "dba_at_15m": 92.0,
+        "hours_per_day": 4.0,
+        "days_per_week": 5
+      }
+    ],
+    "dust_impact_zone": "high",
+    "vibration_ppv_mms": 15.0,
+    "traffic_reduction_pct": 0.0,
+    "construction_hours_per_day": 8,
+    "night_work": true
+  },
+  "visual_impact": {
+    "description": "Permanent elevated highway structure blocking south-facing views",
+    "value_reduction_pct": 0.08
+  }
+}

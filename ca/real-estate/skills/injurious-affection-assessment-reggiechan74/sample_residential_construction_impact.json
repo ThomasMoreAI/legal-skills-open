@@ -1,0 +1,39 @@
+{
+  "property_address": "42 Maple Street, Toronto, ON M4E 2V8",
+  "property": {
+    "property_type": "residential",
+    "property_value": 850000,
+    "rental_income_monthly": 2400,
+    "distance_to_construction_m": 40,
+    "number_of_units": 2,
+    "background_noise_dba": 52
+  },
+  "construction": {
+    "duration_months": 6,
+    "equipment": [
+      {
+        "equipment_type": "pile_driver",
+        "dba_at_15m": 95,
+        "hours_per_day": 4,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "excavator",
+        "dba_at_15m": 80,
+        "hours_per_day": 8,
+        "days_per_week": 5
+      },
+      {
+        "equipment_type": "concrete_mixer",
+        "dba_at_15m": 78,
+        "hours_per_day": 6,
+        "days_per_week": 5
+      }
+    ],
+    "dust_impact_zone": "high",
+    "vibration_ppv_mms": 8.5,
+    "traffic_reduction_pct": 0.0,
+    "construction_hours_per_day": 8,
+    "night_work": false
+  }
+}

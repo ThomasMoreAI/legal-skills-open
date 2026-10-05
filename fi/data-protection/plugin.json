@@ -1,0 +1,14 @@
+{
+  "name": "fi-data-protection",
+  "displayName": "Data Protection — FI",
+  "version": "0.1.0",
+  "description": "Data Protection skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "data-protection",
+  "language": "en",
+  "skills": [
+    "skills/privacy-notice-open-legal-products"
+  ]
+}

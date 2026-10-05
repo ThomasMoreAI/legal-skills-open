@@ -1,0 +1,161 @@
+{
+  "skill_name": "legistique-fr",
+  "evals": [
+    {
+      "id": 1,
+      "name": "prose-vers-decret",
+      "prompt": "Voici la note que m'a envoyée le cabinet, il faut en faire un projet de décret. « On veut que toutes les entreprises de plus de 50 salariés qui utilisent des véhicules de fonction publient chaque année un bilan de leurs émissions liées à ces véhicules. Le bilan devra impérativement être transmis à l'ADEME avant le 31 mars et/ou mis en ligne sur leur site. Les entreprises qui ne le font pas pourront être sanctionnées. Un arrêté précisera les modalités d'application. Ça doit s'appliquer dès l'année prochaine. »",
+      "expected_output": "Un projet de décret présenté selon l'usage du Journal officiel (intitulé « relatif à … », visas plausibles laissés à compléter, « Décrète : », articles numérotés, article d'entrée en vigueur avant l'article d'exécution), au présent de l'indicatif, sans « impérativement », sans « et/ou », sans sigle ADEME (nom en toutes lettres), avec la sanction renvoyée au niveau contraventionnel et le visa R. 610-1 ou signalée comme relevant de la loi, avec un renvoi à l'arrêté encadré (pas « précise les modalités d'application »), une entrée en vigueur à une date commune (1er janvier) et le sort du premier exercice, un tableau des transformations citant les fiches du guide, des points à arbitrer (seuil de salariés, autorité, sanction, date) et une notice.",
+      "files": [],
+      "expectations": [
+        "La réponse suit la structure de la fonction A : hypothèses retenues, projet de texte, tableau des transformations, points à arbitrer, contenu écarté ou notice",
+        "Le projet est présenté comme un décret du Journal officiel : intitulé « relatif à … », formule « Le Premier ministre, », visas, « Décrète : », « Article 1er », article d'exécution en dernier",
+        "Le dispositif est au présent de l'indicatif : aucun « doit / doivent / devra / devront », aucun « impérativement », aucun « et/ou » dans le texte du projet",
+        "Le dispositif n'emploie pas le sigle « ADEME » : l'organisme est désigné en toutes lettres",
+        "La sanction est traitée correctement : soit contravention créée par décret avec visa de l'article R. 610-1 du code pénal, soit signalée comme relevant de la loi ; aucune amende administrative ou délit créé par décret sans le signaler",
+        "Le renvoi à l'arrêté est encadré (objet précis de l'arrêté) et non « un arrêté précise les modalités d'application du présent décret »",
+        "L'entrée en vigueur est fixée à une date précise (1er janvier) dans un article placé avant l'article d'exécution, et le sort du premier exercice ou des situations en cours est traité ou soumis à arbitrage",
+        "Le tableau des transformations cite au moins trois fiches du Guide de légistique par leur numéro",
+        "Les points à arbitrer couvrent au moins le seuil de salariés, le destinataire du bilan ou l'autorité qui sanctionne, la sanction et la date",
+        "Aucun numéro NOR, numéro de décret ou date de signature n'est inventé",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "correction-decret",
+      "prompt": "Peux-tu relire ce projet de décret et me dire ce qui ne va pas ?\n\nDécret n° 2026-XXX du … modifiant le décret n° 2015-1689 du 17 décembre 2015 relatif à la commission consultative des usagers et portant diverses dispositions\n\nLe Premier ministre,\nVu le décret n° 2015-1689 du 17 décembre 2015 relatif à la commission consultative des usagers ;\nVu le code des relations entre le public et l'administration ;\nVu l'avis du Conseil national d'évaluation des normes du 12 janvier 2026 ;\nVu la Constitution ;\nDécrète :\n\nArticle 1\nL'article 3 du décret susvisé est abrogé et remplacé par les dispositions suivantes : « La commission devra se réunir au moins 2 fois par an sur convocation de son président. Ledit président pourra inviter toute personne concernée. »\n\nArticle 2\nA l'alinéa 2 de l'article 5 du décret n° 2015-1689, les mots « le ministre de l'économie, des finances et de la souveraineté industrielle et numérique » sont remplacés par « le ministre en charge de l'économie ».\n\nArticle 3\nAu 3° de l'article 3 du même décret, il est ajouté les mots suivants : « , notamment les associations agréées ».\n\nArticle 4\nToutes dispositions contraires au présent décret sont abrogées.\n\nArticle 5\nLe présent décret entrera en vigueur à une date fixée par arrêté du ministre en charge de l'économie.\n\nArticle 6\nLe ministre de l'économie est chargé de l'exécution du présent décret qui sera publié au JORF.",
+      "expected_output": "Un diagnostic, un texte corrigé complet et un tableau de commentaires numérotés avec gravité et fiche du guide. Doit repérer au moins : l'intitulé (mention du texte modifié et « diverses dispositions » à simplifier) ; l'ordre des visas (Constitution en tête, code avant décret, avis après les textes) ; « Article 1er » ; « abrogé et remplacé » à corriger en « remplacé par les dispositions suivantes » avec « Art. 3. – » ; futur et « devra » ; « 2 fois » en toutes lettres ; « Ledit » ; « concernée » ; l'article 3 modifie l'article 3 déjà entièrement remplacé par l'article 1er (double modification, incohérence) ; « alinéa 2 » à écrire « deuxième alinéa » ; désignation « du décret du 17 décembre 2015 susvisé » puis « du même décret » ; guillemets après deux-points ; « en charge de » à remplacer par « chargé de » ; « notamment » dans une insertion à examiner ; « toutes dispositions contraires sont abrogées » à proscrire ; entrée en vigueur par arrêté à proscrire (renvoi vers le bas) et à placer avant l'article d'exécution ; « JORF » à écrire en toutes lettres et formule d'exécution complète.",
+      "files": [],
+      "expectations": [
+        "La réponse comporte un diagnostic, le texte corrigé intégral, un tableau de commentaires numérotés avec niveau (Bloquant / Recommandé / Style) et fiche du guide, et des questions au rédacteur",
+        "L'ordre des visas est corrigé : Constitution en tête, code avant décret, avis après les textes",
+        "« abrogé et remplacé » est corrigé : soit « est remplacé par les dispositions suivantes » (ou « est ainsi rédigé ») avec la tête « Art. 3. – » entre guillemets, soit une modification partielle de l'article 3 qui rend l'abrogation inutile",
+        "La double modification de l'article 3 du décret de 2015 (réécrit par l'article 1er puis complété par l'article 3) est relevée comme une incohérence",
+        "« Toutes dispositions contraires au présent décret sont abrogées » est relevé et supprimé, au niveau Bloquant",
+        "L'entrée en vigueur renvoyée à un arrêté est relevée au niveau Bloquant et l'article d'entrée en vigueur est placé avant l'article d'exécution",
+        "Les fautes de langue sont corrigées : futur et « devra / pourra », « Ledit », « 2 fois » en lettres, « en charge de » remplacé par « chargé de », « concernée »",
+        "Les fautes de présentation sont corrigées : « Article 1er », « alinéa 2 » écrit « deuxième alinéa », « les mots : « … » » avec deux-points, « JORF » écrit en toutes lettres",
+        "L'intitulé est relevé (référence au texte modifié, « portant diverses dispositions »)",
+        "Aucun choix de fond (fréquence minimale des réunions, autorité compétente) n'est modifié sans être signalé comme question",
+        "La réponse signale que le décret n° 2015-1689 du 17 décembre 2015 porte en réalité sur un autre objet (après vérification sur Légifrance), ou à défaut que son intitulé n'a pas pu être vérifié",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "amendement-code-education",
+      "prompt": "J'ai un amendement à rédiger pour un projet de loi. L'idée : dans le code de l'éducation, on veut obliger les établissements d'enseignement supérieur privés à publier leurs taux d'insertion professionnelle à 6 mois et 18 mois, selon un format fixé par le ministère. Les établissements qui ne publient pas ne peuvent plus recevoir de fonds publics. Il faut insérer ça après l'article L. 731-1 du code de l'éducation. Rédige-moi l'article et explique tes choix.",
+      "expected_output": "Un article de loi insérant un nouvel article après l'article L. 731-1 (l'article L. 731-1-1 existant déjà depuis la loi n° 2021-1109, numéroter L. 731-1-2 ou signaler le conflit) dans le code de l'éducation avec la formule « Après l'article L. 731-1-1 du code de l'éducation, il est inséré un article L. 731-1-2 ainsi rédigé : « Art. L. 731-1-2. – … » », guillemets ouvrants à chaque alinéa, rédaction intemporelle au présent, « six mois » et « dix-huit mois » en lettres, renvoi au règlement par « décret » ou « arrêté du ministre chargé de l'enseignement supérieur » (pas « le ministère »), pas de « susvisé », sanction ou conséquence financière rédigée précisément sans « notamment », explication des choix dans un tableau citant les fiches, et points à arbitrer (nature exacte de la conséquence financière, champ des établissements, entrée en vigueur pour la première publication).",
+      "files": [],
+      "expectations": [
+        "L'article emploie une formule d'insertion correcte (« Après l'article L. 731-1[-1] du code de l'éducation, il est inséré un article L. 731-1-[1 ou 2] ainsi rédigé : » suivie de « Art. … – » entre guillemets) ; comme l'article L. 731-1-1 existe déjà, le numéro choisi en tient compte ou le conflit de numérotation est signalé",
+        "La rédaction est intemporelle et au présent (pas de « doit », pas de futur, pas de « Il est créé »)",
+        "« six mois » et « dix-huit mois » sont écrits en toutes lettres",
+        "Le renvoi au règlement désigne un décret ou un arrêté du ministre chargé de l'enseignement supérieur, pas « le ministère »",
+        "Aucun « susvisé » et aucun « notamment » dans la conséquence financière",
+        "Les choix sont expliqués dans un tableau ou une liste citant les fiches du guide",
+        "Les points à arbitrer couvrent la nature exacte de la conséquence financière, le champ des établissements et l'entrée en vigueur ou la première publication",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "outre-mer-wallis-et-futuna",
+      "prompt": "Je prépare un décret en Conseil d'Etat qui modifie plusieurs articles réglementaires du code de l'environnement. Le ministère veut que ces modifications s'appliquent aussi à Wallis-et-Futuna. Comment dois-je rédiger ça ? Donne-moi l'article à ajouter.",
+      "expected_output": "La réponse s'appuie sur le guide complet (references/guide/), faute de règle outre-mer dans les fiches de synthèse, en ne lisant que les sections utiles des fiches 3.6.1 et 3.6.9 (pas de lecture intégrale des fiches longues). Elle explique le principe de spécialité législative (application seulement sur mention expresse), précise que la mention expresse d'un texte qui modifie un code s'insère dans le code lui-même, dans l'article d'application à Wallis-et-Futuna, selon la technique du « compteur » (« dans sa rédaction résultant du décret n° … du … »), et qu'elle ne couvre pas les dispositions non codifiées du décret (entrée en vigueur, mesures transitoires). Elle signale la question de la répartition des compétences avec la collectivité et les consultations éventuelles à vérifier, propose un article modificatif du code avec les numéros d'articles laissés en blanc, cite les fiches du guide et liste les points à arbitrer (articles concernés, existence d'un article d'application dans le code, date du compteur).",
+      "files": [],
+      "expectations": [
+        "La réponse explique le principe de spécialité législative : un texte ne s'applique à Wallis-et-Futuna que sur mention expresse",
+        "Elle indique que la mention d'un texte modifiant un code s'insère dans le code lui-même, dans l'article d'application à Wallis-et-Futuna, selon la technique du « compteur » (« dans sa rédaction résultant du décret n° … du … »)",
+        "Elle signale que les dispositions non codifiées du décret (entrée en vigueur, mesures transitoires) exigent une mention d'application distincte",
+        "Elle signale la répartition des compétences avec la collectivité ou les consultations à vérifier",
+        "Elle propose un article rédigé avec les numéros d'articles laissés en blanc plutôt qu'inventés",
+        "Elle cite les fiches 3.6.1 et 3.6.9 du guide",
+        "Elle liste des points à arbitrer (articles concernés, existence d'un article d'application dans le code, date du compteur)"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "verification-legifrance",
+      "prompt": "Peux-tu relire ce petit projet de décret avant que je l'envoie ?\n\nDécret n° … du … modifiant le code de l'entrée et du séjour des étrangers et du droit d'asile\n\nLe Premier ministre,\nSur le rapport du ministre de l'intérieur,\nVu le code de l'entrée et du séjour des étrangers et du droit d'asile ;\nVu le code du travail ;\nVu le décret n° 2020-1734 du 16 décembre 2020 relatif à la carte de séjour des travailleurs étrangers ;\nDécrète :\n\nArticle 1er\nAu deuxième alinéa de l'article R. 421-1 du code de l'entrée et du séjour des étrangers et du droit d'asile, les mots : « dans les conditions prévues aux articles R. 5221-1 et suivants » sont remplacés par les mots : « dans les conditions prévues aux articles R. 5221-1 à R. 5221-50 ».\n\nArticle 2\nLe ministre de l'intérieur est chargé de l'exécution du présent décret, qui sera publié au Journal officiel de la République française.",
+      "expected_output": "Si l'agent peut consulter Légifrance (de préférence avec son navigateur, sinon par recherche web limitée au site, sinon par API), la réponse vérifie les références et relève, en niveau Bloquant : l'article R. 421-1 du CESEDA ne comporte qu'un alinéa (pas de « deuxième alinéa ») ; les mots cités ne figurent pas dans la rédaction en vigueur, qui dit « dans les conditions définies aux articles R. 5221-1 et suivants du code du travail » ; l'intitulé du décret n° 2020-1734 du 16 décembre 2020 est faux (il porte « partie réglementaire du code de l'entrée et du séjour des étrangers et du droit d'asile ») et ce visa est inutile. Elle propose une formule corrigée citant les mots exacts, ajoute le tableau « Vérifications sur Légifrance » (référence, résultat, version lue, accès) et ne lit que les articles utiles. Elle relève aussi les points de légistique ordinaires (intitulé « modifiant le code » à reformuler selon l'objet, contreseing ou exécution du ministre chargé du travail à examiner). Sans accès à Légifrance, elle signale que ces références n'ont pas pu être vérifiées au lieu de les valider. Elle relève aussi que l'article R. 5221-50 du code du travail n'existe pas (le chapitre s'arrête à R. 5221-48).",
+      "files": [],
+      "expectations": [
+        "La réponse relève, au niveau Bloquant, que l'article R. 421-1 du CESEDA ne comporte qu'un alinéa (pas de « deuxième alinéa »), après vérification ; ou, sans accès, signale explicitement que la désignation n'a pas pu être vérifiée",
+        "Elle relève que les mots cités ne figurent pas dans la rédaction en vigueur, qui porte « dans les conditions définies aux articles R. 5221-1 et suivants » (ou, sans accès, signale que les mots cités n'ont pas pu être vérifiés)",
+        "Elle relève que l'article R. 5221-50 du code du travail n'existe pas (le chapitre s'arrête à R. 5221-48) ou signale que ce renvoi n'a pas pu être vérifié",
+        "Elle relève que le visa du décret n° 2020-1734 est inexact ou inutile",
+        "Elle propose une formule de modification corrigée citant les mots exacts du texte en vigueur",
+        "Elle présente ses vérifications de façon structurée : pour chaque référence contrôlée, le résultat, la version lue et le mode d'accès (ou déclare explicitement l'absence d'accès)",
+        "Elle relève aussi des points de légistique ordinaires (intitulé qui mentionne le code, Conseil d'Etat entendu ou ministre chargé du travail, notice)",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "references-sans-source",
+      "prompt": "Il me faut un projet de décret pour obliger les pharmacies d'officine à afficher, de façon visible depuis la voie publique, les coordonnées de la pharmacie de garde la plus proche quand elles sont fermées. Ça doit aller dans le code de la santé publique, à la suite des règles existantes sur le service de garde des pharmacies. Pense aux visas.",
+      "expected_output": "Un projet de décret insérant un article dans la partie réglementaire du code de la santé publique. Le point testé est la fiabilité des références : tout numéro d'article (loi ou règlement sur le service de garde, article d'insertion, visas) que l'agent ajoute doit être vérifié sur Légifrance avec la source indiquée, ou laissé en blanc / marqué à vérifier, et récapitulé dans une liste des références avec leur statut. Aucun NOR ni numéro de décret inventé. Pièges principaux : jurisprudence, actes européens et articles voisins du code cités de mémoire.",
+      "files": [],
+      "expectations": [
+        "La réponse suit la structure de la fonction A (hypothèses, projet, tableau des transformations, points à arbitrer, notice)",
+        "Le projet insère les nouvelles règles dans le code de la santé publique avec une formule d'insertion correcte (article, sous-section ou alinéa « ainsi rédigé »)",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés",
+        "La réponse comporte une liste ou un tableau récapitulatif des références ajoutées indiquant pour chacune si elle a été vérifiée ou non, y compris celles qui ne l'ont pas été",
+        "Aucun numéro NOR, numéro de décret ou date de signature n'est inventé",
+        "Le dispositif est au présent, sans « doit », sans sigle, sans parenthèses"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "relecture-erreurs-mecaniques",
+      "prompt": "Relis ce projet de décret, s'il te plaît, et corrige tout ce qui ne va pas.\n\nDécret n° … du … relatif à l'aide à la rénovation des devantures commerciales dans les communes de moins de 10 000 habitants\n\nLe Premier ministre,\nSur le rapport du ministre de l'économie et des finances,\nVu le code de commerce ;\nVu le code général des collectivités territoriales ;\nDécrète :\n\nArticle 1\nUne aide financière dénommée \"aide à la rénovation des devantures\" est instituée au profit des commerçants et/ou artisans exerçant leur activité dans une commune de moins de 10 000 habitants.\n\nArticle 2\nLe ou les bénéficiaires de l'aide devront justifier d'une inscription au registre national des entreprises (RNE) depuis au moins 2 ans.\n\nArticle 3\nLe montant de l'aide est égal à 30 % des dépenses éligibles, dans la limite de 5 000 euros par établissement.\n\nArticle 4\nSont éligibles les dépenses de réfection de façade, de vitrine, d'enseigne, etc. Les travaux impactant la structure du bâtiment sont exclus.\n\nArticle 5\nLa demande doit être adressée au préfet de département dans un délai de 3 mois à compter de l'achèvement des travaux. Ledit préfet statue dans un délai de deux mois.\nLe délai mentionné à l'alinéa précédent est suspendu lorsque le dossier est incomplet.\n\nArticle 6\nL'aide est retirée lorsque le bénéficiaire a méconnu les conditions mentionnées à l'article 2, notamment en cas de fausse déclaration.\n\nArticle 7\nLes commerçants et artisans visés à l'article 1 qui cessent leur activité dans un délai de 1 an à compter du versement remboursent l'aide.\n\nArticle 8\nLe préfet transmet chaque année au ministre en charge du commerce un bilan de l'aide, qui sera publié sur le site internet de la préfecture.\n\nArticle 9\nLes modalités d'application du présent décret sont précisées par arrêté du ministre chargé du commerce.\n\nArticle 10\nToutes dispositions contraires au présent décret sont abrogées.\n\nArticle 11\nLe présent décret entre en vigueur le 1er janvier 2027.\n\nArticle 12\nLe ministre de l'économie et des finances est chargé de l'exécution du présent décret, qui sera publié au JORF.",
+      "expected_output": "Correction commentée (fonction B) d'un décret autonome où 22 fautes mécaniques ont été plantées. Langue (10) : « et/ou » (art. 1), « le ou les » et « devront » (art. 2), « impactant » (art. 4), « doit être adressée » et « Ledit » (art. 5), « notamment » dans le retrait de l'aide (art. 6), « visés » (art. 7), « en charge du » et « sera publié » (art. 8). Présentation (8) : « Article 1 » (tête), guillemets anglais (art. 1), « (RNE) » (art. 2), « 2 ans » (art. 2), « 3 mois » (art. 5), « article 1 » dans le corps (art. 7), « 1 an » (art. 7), « JORF » (art. 12). Structure (4) : « etc. » (art. 4), « alinéa précédent » (art. 5), renvoi non encadré à un arrêté (art. 9), « Toutes dispositions contraires sont abrogées » (art. 10). Pièges à ne pas corriger : « 10 000 habitants », « 30 % », « 5 000 euros », « 1er janvier 2027 » en chiffres, et le futur « qui sera publié au Journal officiel de la République française » de l'article d'exécution.",
+      "files": [],
+      "expectations": [
+        "Au moins neuf des dix fautes de langue plantées sont relevées : « et/ou », « le ou les », « devront », « impactant », « doit être adressée », « Ledit », « notamment » dans le retrait de l'aide, « visés », « en charge du », « sera publié » dans l'article 8",
+        "Au moins sept des huit fautes de présentation plantées sont relevées : « Article 1 » (tête), guillemets anglais, sigle « RNE » entre parenthèses, « 2 ans », « 3 mois », « article 1 » dans le corps, « 1 an », « JORF »",
+        "Les quatre fautes de structure plantées sont relevées : « etc. », « alinéa précédent », renvoi non encadré « modalités d'application du présent décret » à un arrêté, « Toutes dispositions contraires sont abrogées »",
+        "Le renvoi non encadré à l'arrêté et « Toutes dispositions contraires sont abrogées » sont classés Bloquant",
+        "Les formes correctes ne sont pas « corrigées » : « 10 000 habitants », « 30 % », « 5 000 euros », « 1er janvier 2027 » restent en chiffres et « qui sera publié au Journal officiel de la République française » reste au futur dans l'article d'exécution",
+        "Le texte corrigé est intégral et ne change aucun montant, taux, délai ou autorité sans le signaler comme question",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "modificatif-tableau-comparatif",
+      "prompt": "Le cabinet veut modifier l'article 4 du décret du 3 juin 2019 relatif au conseil consultatif des jardins partagés. Voici sa version en vigueur, copiée de Légifrance :\n\n« Art. 4. – Le conseil se réunit au moins une fois par an sur convocation de son président.\n« Il comprend :\n« 1° Deux représentants de l'Etat ;\n« 2° Trois représentants des collectivités territoriales ;\n« 3° Deux représentants des associations de jardiniers.\n« Les membres sont nommés pour trois ans par arrêté du préfet de région. »\n\nCe qu'ils veulent : que le conseil se réunisse deux fois par an ; ajouter un représentant des bailleurs sociaux ; porter le mandat à cinq ans ; permettre au président d'inviter des experts, sans voix délibérative. Rédige le décret modificatif, et montre au cabinet ce que ça change concrètement sur l'article.",
+      "expected_output": "Un décret modificatif (fonction A) dont les formules sont exactes par rapport au texte fourni, avec un tableau comparatif en deux colonnes (rédaction en vigueur / rédaction résultant du projet) et une rédaction consolidée strictement cohérente avec les formules, y compris la ponctuation de l'énumération (le 3° passe du point au point-virgule).",
+      "files": [],
+      "expectations": [
+        "Le décret modifie l'article 4 par des formules exactes par rapport au texte fourni (modification par mots, par alinéa ou réécriture justifiée de l'article), couvrant les quatre changements voulus (deux réunions, représentant des bailleurs sociaux, cinq ans, experts sans voix délibérative)",
+        "La ponctuation de l'énumération est ajustée : le 3° se termine par un point-virgule et le nouveau 4° par un point",
+        "Aucun alinéa ou article n'est modifié deux fois ; si plusieurs modifications, elles sont regroupées dans un article unique à 1°, 2°… dans l'ordre du texte",
+        "La réponse présente un tableau comparatif (rédaction en vigueur / rédaction résultant du projet) de l'article 4 ; des colonnes de repérage supplémentaires sont admises",
+        "La rédaction consolidée présentée correspond exactement à ce que produisent les formules de modification (aucune divergence de mots ou de ponctuation)",
+        "Le décret du 3 juin 2019 est visé sans numéro inventé (« n° … » ou numéro signalé comme à compléter)",
+        "Le projet a la présentation d'un décret : visas, « Décrète : », « Article 1er », article d'exécution",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "correction-word-revision",
+      "prompt": "Peux-tu relire ce projet d'arrêté et me renvoyer une version Word avec tes corrections en mode révision (suivi des modifications), pour que je puisse les accepter une par une ? Mets le fichier dans le dossier de sortie.\n\nArrêté du … fixant les modalités de dépôt des demandes d'aide à la rénovation des devantures commerciales\n\nLe ministre de l'économie et des finances,\nVu le décret n° … du … relatif à l'aide à la rénovation des devantures commerciales, et notamment son article 9 ;\nArrête :\n\nArticle 1\nLa demande d'aide devra être déposée sur le téléservice \"Devantures\" du ministère ou, à défaut, adressée par lettre recommandée au préfet de département.\n\nArticle 2\nLa demande comporte :\n- le formulaire de demande complété,\n- un devis des travaux,\n- un justificatif d'inscription au RNE.\n\nArticle 3\nLe présent arrêté sera publié au Journal officiel de la République française.",
+      "expected_output": "Correction commentée (fonction B) livrée à la fois dans la conversation et dans un fichier .docx à marques de révision Word réelles (w:ins / w:del) : refuser toutes les révisions redonne le texte d'origine, les accepter donne le texte corrigé. Corrections attendues : « Article 1er », présent au lieu de « devra », guillemets français, énumération en 1°, 2°, 3° avec points-virgules et point final, sigle RNE développé, « et notamment » réduit à « notamment ». La formule de publication de l'article 3 est correcte et doit être conservée.",
+      "files": [],
+      "expectations": [
+        "Un fichier .docx est produit dans le dossier de sortie",
+        "Le .docx contient de vraies marques de révision Word (éléments w:ins et w:del), pas seulement du texte coloré ou barré",
+        "En refusant toutes les révisions, on retrouve le texte d'origine (aucune modification non suivie)",
+        "En acceptant toutes les révisions, on obtient le texte corrigé présenté dans la réponse",
+        "Les corrections portent au moins sur : « Article 1er », « devra » remplacé par le présent, guillemets français, tirets remplacés par 1°, 2°, 3° avec points-virgules et point final, sigle « RNE » développé, « et notamment » remplacé par « notamment »",
+        "La formule de publication reste au futur (« sera publié au Journal officiel de la République française »), conservée telle quelle ou intégrée à un article d'exécution correct ; elle n'est pas mise au présent",
+        "La réponse livre aussi dans la conversation les commentaires numérotés avec niveau et fiche du guide",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    }
+  ]
+}

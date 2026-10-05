@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assess Statutory Privacy Tort"
+  short_description: "Screen serious privacy invasion under Schedule 2"
+  default_prompt: "Use $assess-statutory-privacy-tort to screen these facts against the legislation-only statutory tort for serious invasions of privacy."

@@ -6,11 +6,12 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `in` · Practice: `employment` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
 | [`Investigation Report Drafter`](skills/investigation-report-drafter-rohasnagpal/) | Drafts neutral, evidence-led investigation reports — internal, regulatory, workplace, fraud, compliance… |
+| [`Skill: Labour Law Calculator`](skills/labour-law-calculator-shashionline/) | Calculate statutory benefits under Indian labour laws including PF, ESI, Gratuity, Bonus, Retrenchment… |
 
 ## Cold-start context
 

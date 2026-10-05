@@ -1,0 +1,4 @@
+interface:
+  display_name: "Check Northern Territory Legislation"
+  short_description: "Verify NT legislation and historical reprints"
+  default_prompt: "Use $check-northern-territory-legislation to verify this Northern Territory legislative provision against the official point-in-time source."

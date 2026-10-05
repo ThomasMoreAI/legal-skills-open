@@ -1,0 +1,123 @@
+schema_version: 1
+skill: gdpr-registro-dpia
+last_verified: 2026-07-11
+
+sources:
+  - id: gdpr-it-garante-2018
+    title: "Reg. UE 2016/679 (GDPR) - Testo italiano arricchito con considerando, aggiornato alle rettifiche pubblicate in GUUE 127 del 23/05/2018"
+    type: regolamento-ue
+    url: https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9
+    download_url: https://www.garanteprivacy.it/documents/10160/0/Regolamento+UE+2016+679.+Arricchito+con+riferimenti+ai+Considerando+Aggiornato+alle+rettifiche+pubblicate+sulla+Gazzetta+Ufficiale++dell%27Unione+europea+127+del+23+maggio+2018.pdf/1bd9bde0-d074-4ca8-b37d-82a3478fd5d3?version=1.9
+    accessed: 2026-05-10
+    sha256: 16c0bb358414707b194678bdf80d7e4ba721a0d9cb0e76965569257b75be3e58
+    license: public-domain-eu-law
+    binary_path: not_in_repo/gdpr-it-garante.pdf
+    md_path: references/fonti/gdpr-it-garante-2018.md
+    excerpt_paths:
+      - references/estratti/gdpr-art-30.md
+      - references/estratti/gdpr-art-35-36.md
+    notes: |
+      Edizione del Garante Privacy italiano del testo GDPR consolidato, con
+      riferimenti incrociati ai Considerando. Versione di lavoro autoritativa
+      per la pratica italiana. Per uso strettamente legale, cross-checkare
+      contro la versione ufficiale Eur-Lex (CELEX:02016R0679).
+      SHA256 verificato in data 2026-05-10 scaricando da download_url (URL
+      originale in sources.yaml restituiva 404 - aggiornato il percorso).
+
+  - id: garante-prov-467-2018-allegato1
+    title: "Provvedimento Garante Privacy n. 467/2018 - Allegato 1 - Elenco delle tipologie di trattamenti soggetti al meccanismo di coerenza, da sottoporre a valutazione d'impatto"
+    type: provvedimento-garante
+    url: https://www.garanteprivacy.it/documents/10160/0/ALLEGATO+1+Elenco+delle+tipologie+di+trattamenti+soggetti+al+meccanismo+di+coerenza+da+sottoporre+a+valutazione+di+impatto
+    download_url: https://www.garanteprivacy.it/documents/10160/0/ALLEGATO+1+Elenco+delle+tipologie+di+trattamenti+soggetti+al+meccanismo+di+coerenza+da+sottoporre+a+valutazione+di+impatto
+    accessed: 2026-05-10
+    sha256: 6ece43c22d072acb58879f8382f72a7f2230893d882e7916f78c553929b5ca10
+    license: public-domain-italian-law
+    binary_path: not_in_repo/garante-allegato1-prov467-2018.pdf
+    md_path: references/fonti/garante-prov467-2018-allegato1.md
+    excerpt_paths:
+      - references/estratti/garante-allegato1-prov467-2018.md
+    notes: |
+      12 tipologie di trattamenti per cui la DPIA e' OBBLIGATORIA in Italia,
+      indipendentemente dalle previsioni dell'art. 35 par. 3 GDPR. In aggiunta
+      ai 9 criteri WP248 rev. 01: anche solo 1 criterio + 1 tipologia rende
+      la DPIA quasi sempre necessaria. Pubblicato in GU n. 269 del 19/11/2018.
+      SHA256 verificato in data 2026-05-10 scaricando da download_url.
+
+  - id: wp248-rev01-edpb
+    title: "WP248 rev. 01 - Linee guida sulla valutazione d'impatto sulla protezione dei dati (DPIA), Article 29 Working Party, endorsed by EDPB"
+    type: linee-guida-edpb
+    url: https://ec.europa.eu/newsroom/just/redirection/document/47711
+    download_url: https://ec.europa.eu/newsroom/just/document.cfm?doc_id=47711
+    accessed: 2026-05-10
+    sha256: 4de1ee2df6bbe9517847b45ba8b0657e7de4c1bd796f107d940df255ca6ded67
+    license: public-domain-eu-doc
+    binary_path: not_in_repo/wp248-rev01.pdf
+    md_path: references/fonti/wp248-rev01.md
+    excerpt_paths:
+      - references/estratti/wp248-criteri.md
+    notes: |
+      Linee guida emanate dal Gruppo di lavoro art. 29 (poi confluito nell'EDPB
+      Comitato Europeo per la Protezione dei Dati). Il documento e' stato
+      adottato dall'EDPB come proprio orientamento. Definisce i 9 criteri
+      per identificare trattamenti "ad alto rischio" che richiedono DPIA.
+      Adottato il 4 aprile 2017, rivisto il 4 ottobre 2017 (rev. 01).
+      SHA256 calcolato in data 2026-05-10 scaricando da download_url.
+
+  - id: garante-prov-284-2026-tracking-pixel
+    title: "Provvedimento Garante Privacy n. 284 del 17 aprile 2026 - Linee guida in materia di utilizzo di tracking pixel nelle comunicazioni di posta elettronica"
+    type: provvedimento-garante
+    url: https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943
+    download_url: https://www.gazzettaufficiale.it/eli/gu/2026/04/29/98/sg/pdf
+    accessed: 2026-07-11
+    sha256: df04bc934ff408a65e7845f5797425afcff1bf053768e64d8ca44811a0f1f544
+    license: public-domain-italian-law
+    binary_path: not_in_repo/gu-2026-04-29-serie-generale-n98.pdf
+    md_path: references/fonti/garante-prov284-2026-tracking-pixel.md
+    excerpt_paths:
+      - references/estratti/garante-prov284-2026-tracking-pixel.md
+    notes: |
+      Linee guida adottate ai sensi dell'art. 154-bis, comma 1, lett. a) del
+      Codice Privacy [doc. web n. 10241943]. Pubblicate sulla Gazzetta Ufficiale
+      Serie Generale n. 98 del 29 aprile 2026 (codice redazionale 26A02030,
+      pagg. 95-101 del fascicolo). Termine di adeguamento: sei mesi dalla
+      pubblicazione in GU, quindi 29 ottobre 2026.
+      Il binario hashato e' il PDF ufficiale dell'intero fascicolo GU n. 98
+      (download byte-stabile, verificato con doppio fetch in data 2026-07-11):
+      la pagina docweb del Garante (url) pubblica lo stesso testo ma e' HTML
+      dinamico Liferay con token di sessione e non produce hash riproducibili.
+
+  - id: dlgs-196-2003-101-2018
+    title: "D.Lgs. 196/2003 - Codice in materia di protezione dei dati personali, come modificato dal D.Lgs. 101/2018"
+    type: decreto-legislativo
+    url: https://www.gazzettaufficiale.it/eli/id/2003/07/29/003G0218/sg
+    accessed: 2026-04-25
+    sha256: null
+    license: public-domain-italian-law
+    binary_path: null
+    excerpt_paths: []
+    notes: |
+      Codice Privacy italiano coordinato con il GDPR dopo il D.Lgs. 101/2018.
+      Rilevante per: norme di adattamento nazionale, particolarita' italiane
+      sui dati relativi a salute/genetici (art. 2-septies), DPO settore pubblico
+      (art. 154-bis), regime sanzionatorio nazionale. Per la maggior parte
+      delle questioni operative su Registro e DPIA, il GDPR + Provv. Garante 467/2018
+      sono sufficienti.
+
+# Fonti secondarie da catalogare in iterazioni successive
+secondary_sources_to_evaluate:
+  - id: garante-faq-registro
+    title: "Garante Privacy - FAQ sul Registro delle attivita' di trattamento"
+    url: https://www.garanteprivacy.it/regolamentoue/RPD
+    notes: Set di FAQ ufficiali italiane su come compilare il Registro.
+
+  - id: edpb-guidelines-pia-iot
+    title: "EDPB - Guidelines varie su DPIA per casi specifici (IoT, AI, lavoro)"
+    notes: |
+      Guidelines tematiche EDPB (es. video sorveglianza, dati biometrici,
+      AI). Da catalogare se la skill si espande verso settori specifici.
+
+  - id: provv-garante-misure-minime
+    title: "Provvedimenti Garante su misure minime di sicurezza ICT"
+    notes: |
+      Per integrare la voce sicurezza del Registro art. 30, par. 1 lett. g)
+      con misure tecniche e organizzative concrete.

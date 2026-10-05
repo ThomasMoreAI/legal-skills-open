@@ -1,0 +1,603 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Discovery objection library curation work products",
+  "description": "Shape contract for an offline candidate catalog and curation export. The helper additionally checks source/version binding, exact decision wording, allowed edits, individual actions and accepted subset consistency. Hashes identify bytes and records; they do not authenticate attorney identity or prove passage accuracy or legal correctness. Pending/deferred drafts may be incomplete; only valid accepted entries may apply. Current decision exports use version 2 and bind the disposition and exact entry together. Version 1 remains a historical shape and may resume only as an unapproved draft.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/catalog"
+    },
+    {
+      "$ref": "#/$defs/decisions"
+    },
+    {
+      "$ref": "#/$defs/decisionsV2"
+    }
+  ],
+  "$defs": {
+    "catalog": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-library-catalog"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "library": {
+          "$ref": "objection-records.schema.json#/$defs/library"
+        },
+        "proposals": {
+          "allOf": [
+            {
+              "$ref": "objection-records.schema.json#/$defs/proposals"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "decision": {
+                        "const": "pending"
+                      },
+                      "decision_record": {
+                        "type": "null"
+                      }
+                    },
+                    "required": [
+                      "decision",
+                      "decision_record"
+                    ]
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "items"
+              ]
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/source"
+          },
+          "minItems": 1
+        },
+        "passages": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/passage"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "id",
+        "title",
+        "scope",
+        "notes",
+        "library",
+        "proposals",
+        "sources",
+        "passages"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "id",
+        "file",
+        "title",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "passage": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "request": {
+          "type": "string"
+        },
+        "original": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Exact supporting source passage, distinguished from proposed reusable wording. It may contain several grounds; a proposal identifies the single ground it extracts."
+        },
+        "context": {
+          "type": "string",
+          "description": "Surrounding prior response or source note, retained for interpretation. It may include other grounds, matter facts and substantive responses; it is not itself an approved reusable objection."
+        },
+        "proposal_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "source_id",
+        "locator",
+        "request",
+        "original",
+        "context",
+        "proposal_ids"
+      ],
+      "additionalProperties": false
+    },
+    "decisions": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-library-decisions"
+        },
+        "format_version": {
+          "const": 1
+        },
+        "catalog_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalog_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "base_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "purpose": {
+          "enum": [
+            "progress",
+            "application"
+          ]
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/row"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "catalog_id",
+        "catalog_sha256",
+        "base_sha256",
+        "purpose",
+        "rows"
+      ],
+      "additionalProperties": false
+    },
+    "row": {
+      "type": "object",
+      "properties": {
+        "proposal_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "pending",
+            "accept",
+            "reject",
+            "defer"
+          ]
+        },
+        "after": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/draftEntry"
+            }
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "action": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/action"
+            }
+          ]
+        }
+      },
+      "required": [
+        "proposal_id",
+        "decision",
+        "after",
+        "note",
+        "action"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "decision": {
+                "const": "pending"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "action": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "action": {
+                "$ref": "#/$defs/action"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "decision": {
+                "const": "accept"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "after": {
+                "$ref": "objection-records.schema.json#/$defs/entry"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "draftEntry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Semantic objection type shared by entries expressing the same legal ground. Consolidate stylistic or lexical differences under the same type; source-document identity and similar wording alone do not define a family."
+        },
+        "label": {
+          "type": "string",
+          "description": "A short, recognizable label for the objection type, understandable without opening its source response."
+        },
+        "variant": {
+          "type": "string",
+          "description": "A materially different scope or application of this objection ground, not a separate variant for every source, synonym, sentence arrangement or drafting style. Preserve consequential qualifications; whether a distinction is material requires review."
+        },
+        "wording": {
+          "type": "string",
+          "description": "Reusable wording for one objection ground, expressed in one or a few connected sentences. Retain qualifications that define its scope. Do not store an entire response containing multiple independent grounds as one entry; keep the full prior response in source context. Atomicity and legal equivalence are model/lawyer judgments, not schema validation."
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "guidance": {
+          "type": "string",
+          "description": "Nonoperative usage guidance. Scope-defining qualifications belong in wording, not only here. Matter-specific substantive answers and production commitments remain in source context."
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 1,
+          "description": "Source locators supporting the proposed ground. Source use or repetition is provenance, not approval for reuse."
+        }
+      },
+      "required": [
+        "id",
+        "family",
+        "label",
+        "variant",
+        "wording",
+        "fields",
+        "guidance",
+        "conditions",
+        "exclusions",
+        "sources"
+      ],
+      "description": "An editable candidate for one objection ground. Pending candidates may be incomplete. Group semantically equivalent formulations; keep variants for material scope differences. Schema checks do not perform those legal judgments."
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "individual"
+        },
+        "at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "after_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "kind",
+        "at",
+        "after_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "actionV2": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "individual"
+        },
+        "at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "accept",
+            "reject",
+            "defer"
+          ]
+        },
+        "reviewed_content_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "kind",
+        "at",
+        "decision",
+        "reviewed_content_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "rowV2": {
+      "type": "object",
+      "properties": {
+        "proposal_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decision": {
+          "enum": [
+            "pending",
+            "accept",
+            "reject",
+            "defer"
+          ]
+        },
+        "after": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/draftEntry"
+            }
+          ]
+        },
+        "note": {
+          "type": "string"
+        },
+        "action": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/actionV2"
+            }
+          ]
+        },
+        "legacy": {
+          "type": "object",
+          "properties": {
+            "decision": {
+              "enum": [
+                "pending",
+                "accept",
+                "reject",
+                "defer"
+              ]
+            },
+            "action": {
+              "type": [
+                "object",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "decision",
+            "action"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "proposal_id",
+        "decision",
+        "after",
+        "note",
+        "action"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "decision": {
+                "const": "pending"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "action": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "action": {
+                "$ref": "#/$defs/actionV2"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "decision": {
+                "const": "accept"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "after": {
+                "$ref": "objection-records.schema.json#/$defs/entry"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "decisionsV2": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "objection-library-decisions"
+        },
+        "format_version": {
+          "const": 2
+        },
+        "catalog_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalog_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "base_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "purpose": {
+          "enum": [
+            "progress",
+            "application"
+          ]
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rowV2"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "kind",
+        "format_version",
+        "catalog_id",
+        "catalog_sha256",
+        "base_sha256",
+        "purpose",
+        "rows"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

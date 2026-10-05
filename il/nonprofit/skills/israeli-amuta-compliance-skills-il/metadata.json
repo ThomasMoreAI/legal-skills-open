@@ -1,0 +1,81 @@
+{
+  "author": "skills-il",
+  "version": "1.1.0",
+  "category": "accounting",
+  "tags": {
+    "he": [
+      "עמותות",
+      "ניהול-תקין",
+      "רשם-העמותות",
+      "סעיף-46",
+      "תרומות",
+      "דיווח-שנתי",
+      "ישראל"
+    ],
+    "en": [
+      "nonprofits",
+      "nihul-takin",
+      "registrar-of-associations",
+      "section-46",
+      "donations",
+      "annual-reporting",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "ניהול תקין ודיווח שנתי לעמותות",
+    "en": "Israeli Amuta Compliance"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי או חשבונאי ואינו דוח כספי מבוקר. מכין עמותה או חל\"צ להגשה השנתית לרשם העמותות: צ'קליסט לארבעת המסמכים השנתיים, חישוב אילו מוסדות וחובת ביקורת חלים לפי המחזור, מדרגת האגרה והמועד הנכונים, ודוח פערים שאומר בדיוק מה חוסם את אישור הניהול התקין. מכסה גם את חובת דיווח התרומות הדיגיטלי לפי סעיף 46 שנכנסה לתוקף ב-1 בינואר 2026. תשתמשו כשגזבר או מנהל בעמותה צריך להבין מה להגיש, מתי וכמה זה עולה. אל תשתמשו כדי לרשום עמותה חדשה, לנסח תקנון, להפיק את הדוח המבוקר עצמו, או לדיווח של חברה ציבורית לבורסה.",
+    "en": "Not legal or accounting advice and not an audited financial statement. Prepares an Israeli amuta or public benefit company for its annual filing to the Registrar of Associations: a checklist for the four annual documents, the governance and audit duties its turnover band triggers, the correct annual fee tier and deadline, and a gap report naming exactly what blocks the ishur nihul takin. Also covers the Section 46 digital donation reporting duty that took effect on 1 January 2026. Use when an amuta treasurer or manager needs to know what to file, when, and what it costs. Do NOT use for incorporating a new amuta, drafting a takanon, producing the audited report itself, or listed-company reporting to the TASE or MAYA."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "antigravity",
+    "gemini-cli",
+    "grok-build",
+    "chatgpt",
+    "claude-ai",
+    "claude-desktop",
+    "manus",
+    "gemini-spark",
+    "grok"
+  ],
+  "openclaw": true,
+  "volatility": "legislative",
+  "authoritative_sources": [
+    {
+      "url": "https://www.gov.il/he/service/association-annual-fee",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/service/association_certification_of_proper_management",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/he/pages/news-rejection",
+      "type": "regulator",
+      "language": "he"
+    },
+    {
+      "url": "https://he.wikisource.org/wiki/חוק_העמותות",
+      "type": "statute",
+      "language": "he"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/policy/inst-11-2025/he/IncomeTax_inst-11-2025.pdf",
+      "type": "regulator",
+      "language": "he"
+    }
+  ],
+  "domain_checklist_version": 3
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Limitation Periods"
+  short_description: "Map candidate limitation periods across Australian jurisdictions"
+  default_prompt: "Use $map-limitation-periods to map this claim to candidate limitation periods in every plausibly applicable Australian jurisdiction, with the earliest candidate as the conservative marker."

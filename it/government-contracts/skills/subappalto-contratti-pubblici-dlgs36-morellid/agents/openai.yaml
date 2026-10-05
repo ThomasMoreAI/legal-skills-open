@@ -1,0 +1,10 @@
+# OpenAI Codex skill metadata.
+# Used by Codex CLI / IDE for the skill picker (UI display).
+# Not used by Claude Code (which reads SKILL.md frontmatter directly).
+display_name: "Subappalto nei contratti pubblici (D.Lgs. 36/2023 art. 119)"
+short_description: Supporto documentale alla disciplina del subappalto nei contratti pubblici secondo l'art. 119 del D.Lgs. 31 marzo 2023, n. 36 (Codice dei contratti pubblici). Stabilisce se un affidamento a terzi e' subappalto (nozione e soglie del comma 2: > 2% delle prestazioni affidate o > 100.000 euro con incidenza della manodopera > 50%), distingue i sub-contratti e le attivita' non configuranti subappalto (comma 3), verifica condizioni (comma 4), trasmissione 20 giorni prima (comma 5), responsabilita' solidale (commi 6-7), pagamento diretto (comma 11), tutele dei lavoratori (comma 12), autorizzazione a 30 giorni con silenzio-assenso (comma 16) e subappalto a cascata (comma 17). NON rilascia l'autorizzazione, non verifica i requisiti del subappaltatore e non sostituisce la stazione appaltante ne' il RUP.
+default_prompt: |
+  Ho un appalto pubblico e vorrei affidare a terzi parte delle prestazioni: come stabilisco se
+  si tratta di subappalto secondo l'art. 119 del D.Lgs. 36/2023, quali sono le soglie, come e
+  quando trasmetto il contratto e chiedo l'autorizzazione, e quando la stazione appaltante paga
+  direttamente il subappaltatore? Cita i commi.

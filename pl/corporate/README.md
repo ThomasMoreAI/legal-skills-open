@@ -6,10 +6,11 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): corporate la
 
 Jurisdiction: `pl` · Practice: `corporate` · Skill language: en
 
-## Skills (1)
+## Skills (2)
 
 | Skill | What it does |
 |---|---|
+| [`Krajowy Rejestr Sądowy (KRS)`](skills/krs-b44x/) | Fetch official company and foundation records from Krajowy Rejestr Sądowy (KRS) via the Ministry of… |
 | [`Poland Business`](skills/poland-business-xopoko/) | Business. Use when Polish registries matter. |
 
 ## Cold-start context

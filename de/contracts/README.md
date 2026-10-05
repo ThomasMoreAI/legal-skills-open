@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 
-## Skills (695)
+## Skills (696)
 
 | Skill | What it does |
 |---|---|
@@ -174,6 +174,7 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Cloud Hosting AGB`](skills/cloud-hosting-agb/) | Für Cloud Hosting AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Compliance Sanktionen`](skills/compliance-sanktionen/) | Für Compliance Sanktionen: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Consulting AGB`](skills/consulting-agb/) | Für Consulting AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Contract Analysis Skill`](skills/contract-analysis-sigmacodeat/) | Analyzes contracts (Verträge) for risks, unusual clauses, missing provisions, and enforceability issues… |
 | [`Crowdfunding AGB`](skills/crowdfunding-agb/) | Für Crowdfunding AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Crypto Exchange AGB`](skills/crypto-exchange-agb/) | Für Crypto Exchange AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Crypto Exchange AGB`](skills/crypto-exchange-darlehen-finanzierung/) | Für Crypto Exchange AGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

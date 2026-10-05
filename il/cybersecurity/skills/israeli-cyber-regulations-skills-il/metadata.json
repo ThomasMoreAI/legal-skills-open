@@ -1,0 +1,39 @@
+{
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "security-compliance",
+  "tags": {
+    "he": [
+      "סייבר",
+      "אבטחה",
+      "INCD",
+      "בנק-ישראל",
+      "רגולציה"
+    ],
+    "en": [
+      "cyber",
+      "security",
+      "incd",
+      "boi",
+      "regulations"
+    ]
+  },
+  "display_name": {
+    "he": "רגולציית סייבר ישראלית",
+    "en": "Israeli Cyber Regulations"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי ואינו חוות דעת ציות. מסגרת רגולציית סייבר ישראלית: הנחיות מערך הסייבר הלאומי וערוץ הדיווח 119, הוראת בנק ישראל 364, מסגרת ה-IT, אבטחת המידע והסייבר המאוחדת שנכנסה לתוקף ב-18/05/2026 וביטלה את הוראות 357, 361 ו-363, לצד הוראה 366 לדיווח אירועים, הוראה 362 למחשוב ענן והוראה 368 לבנקאות פתוחה. כולל את חובות הגילוי של רשות ניירות ערך לחברות נסחרות לפי תקנה 36 ועמדת סגל 105-33, את חוזר רשות שוק ההון שחל על חברות ביטוח במקום הוראות הבנקים, את משטר רשות ניירות ערך לבעלי רישיון תשלום שאינם בנקים, ואת חובת הדיווח על אירוע אבטחה חמור לרשות להגנת הפרטיות. מסמן ציטוטים של הוראה 361 המבוטלת, שרוב המודלים עדיין שולפים כברירת מחדל. לא מתאים לציות כללי לחוקי פרטיות.",
+    "en": "Not legal advice and not a compliance opinion. Israeli cybersecurity regulatory framework guidance covering INCD national directives and the 119 reporting channel, Bank of Israel Directive 364, the consolidated IT, information security and cyber framework that took effect on 18/05/2026 and repealed Directives 357, 361 and 363, plus Directive 366 incident reporting, Directive 362 cloud and Directive 368 open banking. Covers ISA disclosure for TASE-listed companies under regulation 36 and staff position 105-33, the Capital Market Authority circular that governs insurers instead of the banking directives, the Securities Authority regime for non-bank payment licensees, and the Privacy Protection Authority breach-notification duty. Flags citations of the repealed Directive 361, which most models still reach for by default. Do NOT use for privacy law compliance generally (use israeli-privacy-compliance)."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

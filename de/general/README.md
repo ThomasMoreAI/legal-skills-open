@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `de` · Practice: `general` · Skill language: de
 
-## Skills (1374)
+## Skills (1376)
 
 | Skill | What it does |
 |---|---|
@@ -665,10 +665,12 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Legal Engineer Dashboard`](skills/legal-engineer-dashboard/) | Für Legal Engineer Dashboard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Legal Hold Dashboard`](skills/legal-hold-dashboard/) | Für Legal Hold Dashboard: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Knowledge Capture`](skills/legal-knowledge-capture-law-firm-engineer/) | Für Knowledge Capture: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
+| [`Legal-Normen Skill`](skills/legal-normen-sigmacodeat/) | Searches and interprets legal norms (statutes, regulations, ordinances) for a given legal question.… |
 | [`Legal Ops Roadmap`](skills/legal-ops-roadmap/) | Für Legal Ops Roadmap: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`American Legal Realism und Critical Legal Studies (CLS)`](skills/legal-realism-und-critical-legal-studies/) | Für American Legal Realism und Critical Legal Studies (CLS): ordnet Norm, Beweislast und Gegenargument… |
 | [`American Legal Realism und Critical Legal Studies`](skills/legal-realism-und-critical-studies/) | Für American Legal Realism und Critical Legal Studies: ordnet Norm, Beweislast und Gegenargument… |
 | [`Legal Spend und Accruals`](skills/legal-spend-lessons-to-litigation-hold/) | Für Legal Spend und Accruals: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
+| [`Legal Subsumption Skill`](skills/legal-subsumption-sigmacodeat/) | Performs legal subsumption: maps a concrete fact pattern (Sachverhalt) to the applicable legal norm… |
 | [`Legal: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/legal-tatbestand-beweis-und-belege/) | Für Legal: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Legalitätsqualität der Auslegung`](skills/legalitaetsqualitaet-der-auslegung/) | Für Legalitätsqualität der Auslegung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Gegenprüfung… |
 | [`Leichte Sprache`](skills/leichte-sprache/) | Für Leichte Sprache: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |

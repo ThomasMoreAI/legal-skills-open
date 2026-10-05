@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "approval_source": {
+      "enum": [
+        "conversation",
+        "offline-export"
+      ]
+    },
+    "approved_by": {
+      "const": "lawyer"
+    },
+    "artifact": {
+      "const": "review-setup-approval"
+    },
+    "authorization": {
+      "const": "sample-only"
+    },
+    "clusters_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "corpus_id": {
+      "pattern": "^[0-9a-f]{16}$",
+      "type": "string"
+    },
+    "decisions": {
+      "additionalProperties": false,
+      "properties": {
+        "collection_coverage_confirmed": {"const": true},
+        "metadata_policy_confirmed": {"const": true},
+        "review_questions_confirmed": {"const": true},
+        "sample_confirmed": {"const": true}
+      },
+      "required": [
+        "collection_coverage_confirmed",
+        "metadata_policy_confirmed",
+        "review_questions_confirmed",
+        "sample_confirmed"
+      ],
+      "type": "object"
+    },
+    "framework_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "issue_ids": {
+      "items": {"type": "string"},
+      "type": "array",
+      "uniqueItems": true
+    },
+    "manifest_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "read_plan_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "read_plan_id": {"type": "string"},
+    "review_plan_digest": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "review_plan_id": {"type": "string"},
+    "unit_ids": {
+      "items": {"type": "string"},
+      "type": "array",
+      "uniqueItems": true
+    },
+    "version": {"const": 1}
+  },
+  "required": [
+    "approval_source",
+    "approved_by",
+    "artifact",
+    "authorization",
+    "clusters_digest",
+    "corpus_id",
+    "decisions",
+    "framework_digest",
+    "issue_ids",
+    "manifest_digest",
+    "read_plan_digest",
+    "read_plan_id",
+    "review_plan_digest",
+    "review_plan_id",
+    "unit_ids",
+    "version"
+  ],
+  "title": "DocReview review setup approval",
+  "type": "object"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "fi-trusts-and-estates",
+  "displayName": "Trusts & Estates — FI",
+  "version": "0.1.0",
+  "description": "Trusts & Estates skills for FI (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "fi",
+  "practice": "trusts-and-estates",
+  "language": "en",
+  "skills": [
+    "skills/guardianship-and-power-of-attorney-open-legal-products"
+  ]
+}

@@ -1,0 +1,41 @@
+privacy-counsel
+Copyright 2026 Raphael Haytene
+
+This product includes software developed by Anthropic, PBC.
+
+Portions of this work are derived from anthropics/claude-for-legal
+(https://github.com/anthropics/claude-for-legal), licensed under the
+Apache License, Version 2.0, at commit
+4a6c651889c97cc9140580363c73e0eb17379c2b.
+
+A verbatim copy of the upstream LICENSE at that commit is distributed here
+as LICENSE-claude-for-legal, per Apache-2.0 §4(a).
+
+MODIFIED files. Each carries a prominent modification notice at the head of
+the file, per Apache-2.0 §4(b), stating what was changed:
+
+  skills/use-case-triage/SKILL.md            <- privacy-legal/skills/use-case-triage
+  skills/pia-generation/SKILL.md             <- privacy-legal/skills/pia-generation
+  skills/dpa-review/SKILL.md                 <- privacy-legal/skills/dpa-review
+  skills/dsar-response/SKILL.md              <- privacy-legal/skills/dsar-response
+  skills/reg-gap-analysis/SKILL.md           <- privacy-legal/skills/reg-gap-analysis
+  skills/policy-monitor/SKILL.md             <- privacy-legal/skills/policy-monitor
+  skills/matter-workspace/SKILL.md           <- privacy-legal/skills/matter-workspace
+  skills/vendor-ai-review/SKILL.md           <- ai-governance-legal/skills/vendor-ai-review
+  skills/ai-inventory/SKILL.md               <- ai-governance-legal/skills/ai-inventory
+  skills/aia-generation/SKILL.md             <- ai-governance-legal/skills/aia-generation
+  skills/tabular-review/SKILL.md             <- corporate-legal/skills/tabular-review
+  skills/diligence-issue-extraction/SKILL.md <- corporate-legal/skills/diligence-issue-extraction
+  skills/amendment-history/SKILL.md          <- commercial-legal/skills/amendment-history
+  skills/reg-feed-watcher/SKILL.md           <- regulatory-legal/skills/reg-feed-watcher
+
+UNMODIFIED files, redistributed verbatim. No §4(b) notice applies because
+nothing was changed; they are byte-identical to the upstream commit above:
+
+  skills/tabular-review/references/excel-output.md
+  skills/tabular-review/references/gsheets-output.md
+  skills/tabular-review/references/ma-diligence-columns.md
+  skills/reg-feed-watcher/references/source-catalog.md
+
+Everything else in this repository is original work by the copyright holder
+above and is licensed under the Apache License, Version 2.0 — see LICENSE.

@@ -4,7 +4,7 @@ Real property: conveyancing, leasing, title, financing, and land use.
 
 Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 
-## Skills (84)
+## Skills (87)
 
 | Skill | What it does |
 |---|---|
@@ -18,6 +18,7 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Build-Out Allowance Agreement`](skills/build-out-allowance-agreement/) | Drafts a Build-Out Allowance Agreement as a commercial lease addendum governing landlord-provided TI… |
 | [`Chicago Local Resources`](skills/chicago-local-diamitani/) | Use when accessing Chicago-specific resources. Consolidates Crime Tracker Chicago, ChicagoESQ (justice… |
 | [`Commencement Date Memorandum`](skills/commencement-date-memorandum/) | Drafts a U.S. commencement-date memorandum for commercial leases and related agreements, confirming the… |
+| [`Commercial Lease Analyzer`](skills/commercial-lease-analyzer-onewave-ai/) | Decode a commercial lease before signing or renewing -- true all-in occupancy cost (base rent plus… |
 | [`Commercial Lease Summary`](skills/commercial-lease-summary/) | Produces structured U.S. commercial lease abstracts covering business terms, financial obligations… |
 | [`Purchase and Sale Agreement — Commercial Real Estate`](skills/commercial-psa/) | Drafts Purchase and Sale Agreements for commercial real estate transactions (office, retail, industrial… |
 | [`Letter of Intent — Commercial Real Estate Purchase`](skills/commercial-re-loi/) | Drafts a Letter of Intent for commercial real estate purchase transactions. Covers purchase price… |
@@ -34,6 +35,7 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Easement Dispute Complaint`](skills/easement-dispute-complaint/) | Drafts a plaintiff-side U.S. complaint for easement disputes covering interference, trespass… |
 | [`Residential Real Estate Escrow Instructions`](skills/escrow-instructions/) | Drafts binding escrow instructions for residential real estate closings. Extracts key terms from… |
 | [`Eviction Complaint (Unlawful Detainer)`](skills/eviction-complaint/) | Drafts jurisdiction-compliant Unlawful Detainer complaints for eviction proceedings covering… |
+| [`Fair Housing Overlay`](skills/fair-housing-overlay-theprosperityagent/) | Foundational compliance skill. Enforces Fair Housing, TCPA, MLS-data-quality, and always-positive rules… |
 | [`Foreclosure Complaint`](skills/foreclosure-complaint/) | Drafts U.S. judicial foreclosure complaints pleading standing, chain of title, default, and amounts due… |
 | [`Foreclosure Proceedings Summary`](skills/foreclosure-proceedings-summary/) | Generates structured chronological summaries of U.S. foreclosure proceedings from case documents.… |
 | [`Grant Deed / Warranty Deed`](skills/grant-warranty-deed/) | Drafts execution-ready Grant Deeds and Warranty Deeds for residential real property transfers, enforcing… |
@@ -67,6 +69,7 @@ Jurisdiction: `us` · Practice: `real-estate` · Skill language: en
 | [`Purchase Agreement Summary`](skills/purchase-agreement-summary/) | Produces structured operational summaries from fully executed residential purchase agreements for title… |
 | [`Complaint to Quiet Title`](skills/quiet-title-complaint/) | Drafts a court-ready Complaint to Quiet Title for real property disputes. Guides through intake… |
 | [`Real Estate Agency Disclosure`](skills/real-estate-agency-disclosure/) | Drafts state-compliant real estate agency disclosure documents for residential transactions. Triggers at… |
+| [`Real Estate`](skills/real-estate-judicialmind/) | Real estate law skill for property transactions, leases, and land use. Use when the user needs… |
 | [`Real Estate Transaction Summary`](skills/real-estate-transaction-summary/) | Generates structured summaries of real estate transactions from purchase agreements, addenda… |
 | [`Reciprocal Easement Agreement`](skills/reciprocal-easement-agreement/) | Drafts recordable Reciprocal Easement Agreements (REAs) with perpetual cross-easements and operating… |
 | [`Repair Request Addendum`](skills/repair-request-addendum/) | Drafts a Repair Request Addendum modifying an existing residential or commercial lease to establish… |

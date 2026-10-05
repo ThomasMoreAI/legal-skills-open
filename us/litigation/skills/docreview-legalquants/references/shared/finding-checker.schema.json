@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "checker_plan_id": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+    "finding_id": {"type": "string", "minLength": 1},
+    "verdict": {"type": "string", "enum": ["confirmed", "refuted", "unresolved"]},
+    "objection": {"type": ["string", "null"]},
+    "quote_supported": {"type": "boolean"}
+  },
+  "required": [
+    "checker_plan_id", "finding_id", "verdict", "objection", "quote_supported"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {"properties": {"verdict": {"const": "confirmed"}}},
+      "then": {
+        "properties": {
+          "objection": {"type": "null"},
+          "quote_supported": {"const": true}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "verdict": {"enum": ["refuted", "unresolved"]}
+        }
+      },
+      "then": {
+        "properties": {
+          "objection": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  ]
+}

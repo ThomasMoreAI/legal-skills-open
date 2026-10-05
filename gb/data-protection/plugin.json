@@ -9,10 +9,16 @@
   "practice": "data-protection",
   "language": "en",
   "skills": [
+    "skills/dpa-review-uk-agents",
+    "skills/dpia-generation-uk-agents",
     "skills/dsar-intake-system",
+    "skills/dsar-response-uk-agents",
     "skills/gdpr-compliance",
     "skills/legal-uk-clemensjl",
+    "skills/policy-monitor-uk-agents",
+    "skills/reg-gap-analysis-uk-agents",
     "skills/uk-data-protection-compliance-checker-rohasnagpal",
-    "skills/uk-legal-canned-responses-fdu-ins"
+    "skills/uk-legal-canned-responses-fdu-ins",
+    "skills/use-case-triage-uk-agents"
   ]
 }

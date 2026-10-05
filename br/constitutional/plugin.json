@@ -1,0 +1,15 @@
+{
+  "name": "br-constitutional",
+  "displayName": "Constitutional & Public Law — BR",
+  "version": "0.1.0",
+  "description": "Constitutional & Public Law skills for BR (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "br",
+  "practice": "constitutional",
+  "language": "en",
+  "skills": [
+    "skills/precatorio-estadual-regime-sbroggioadv",
+    "skills/precatorios-e-rpv-sbroggioadv"
+  ]
+}

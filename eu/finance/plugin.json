@@ -1,0 +1,14 @@
+{
+  "name": "eu-finance",
+  "displayName": "Finance & Banking — European Union (supranational)",
+  "version": "0.1.0",
+  "description": "Finance & Banking skills for European Union (supranational) (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "eu",
+  "practice": "finance",
+  "language": "en",
+  "skills": [
+    "skills/eu-dora-compliance-builderced"
+  ]
+}
