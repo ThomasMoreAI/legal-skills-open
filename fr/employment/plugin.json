@@ -9,9 +9,16 @@
   "practice": "employment",
   "language": "fr",
   "skills": [
+    "skills/cdd-fr-originlabs-app",
+    "skills/conges-payes-fr-originlabs-app",
+    "skills/contrat-travail-fr-originlabs-app",
     "skills/convention-zevra-tech",
     "skills/french-consulting-canhada-labs",
     "skills/import-notification-licenciement-sboghossian",
-    "skills/pajemploi-declaration-fr-takeshidaveau"
+    "skills/licenciement-employeur-fr-originlabs-app",
+    "skills/pajemploi-declaration-fr-takeshidaveau",
+    "skills/premiere-embauche-fr-originlabs-app",
+    "skills/rupture-conventionnelle-fr-originlabs-app",
+    "skills/rupture-periode-essai-fr-originlabs-app"
   ]
 }
