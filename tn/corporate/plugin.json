@@ -1,0 +1,14 @@
+{
+  "name": "tn-corporate",
+  "displayName": "Corporate — TN",
+  "version": "0.1.0",
+  "description": "Corporate skills for TN (imported from open sources; see each skill's author_url for provenance).",
+  "author": "CaseMark + community contributors",
+  "license": "Apache-2.0",
+  "jurisdiction": "tn",
+  "practice": "corporate",
+  "language": "en",
+  "skills": [
+    "skills/3adel-ichhad-yassineata"
+  ]
+}

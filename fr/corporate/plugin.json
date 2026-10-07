@@ -9,8 +9,11 @@
   "practice": "corporate",
   "language": "fr",
   "skills": [
+    "skills/ag-annuelle-fr-originlabs-app",
     "skills/bootcamp-legal-status-prendstapart",
+    "skills/calendrier-obligations-fr-originlabs-app",
     "skills/ideation-legal-structure-prendstapart",
+    "skills/pv-decisions-associes-fr-originlabs-app",
     "skills/statut-juridique-choisir-fr-originlabs-app"
   ]
 }

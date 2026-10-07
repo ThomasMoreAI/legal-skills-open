@@ -1,0 +1,11 @@
+name,description
+HR Screening Tool,AI tool that automatically screens CVs and ranks job applicants based on predicted job performance using historical hiring data
+Customer Support Chatbot,Conversational AI chatbot deployed on company website to answer customer questions about products and services
+Credit Risk Scoring Engine,ML model that assesses creditworthiness of individual loan applicants for a retail bank using financial and behavioural data
+Content Recommendation Engine,Algorithm that recommends articles and videos to users on a news platform based on past reading behaviour
+Judicial Sentencing Assistant,AI system that suggests sentencing ranges to judges based on case facts and historical sentencing patterns
+Facial Recognition Attendance,Real-time facial recognition system used in a factory to track employee attendance and working hours
+Deepfake Video Generator,AI tool that generates realistic synthetic video content for marketing campaigns
+CCTV Anomaly Detection,Computer vision system monitoring public transport stations to detect abandoned luggage or unusual crowd behaviour
+Text Summarisation Tool,LLM-powered tool that summarises internal legal documents and emails for knowledge management
+Medical Diagnosis Assistant,AI system that analyses patient medical records and radiology images to suggest diagnoses to physicians
