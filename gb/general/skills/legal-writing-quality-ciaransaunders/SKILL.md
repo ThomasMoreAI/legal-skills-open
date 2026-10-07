@@ -7,7 +7,7 @@ author_url: https://github.com/ciaransaunders/Skills-Public/tree/main/legal-writ
 license: MIT
 version: 0.1.0
 execution_mode: open
-jurisdiction: general
+jurisdiction: gb
 practice: general
 language: en
 ---

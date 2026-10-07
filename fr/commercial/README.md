@@ -4,12 +4,13 @@ Business-to-business dealings in France — invoicing, mandatory invoice mention
 
 Jurisdiction: `fr` · Practice: `commercial` · Skill language: fr
 
-## Skills (2)
+## Skills (3)
 
 | Skill | What it does |
 |---|---|
 | [`Contract Analysis`](skills/contract-analysis-builderced/) | Analyze contracts to identify key clauses, risks, obligations, deadlines, and parties. Multi-language… |
 | [`Invoice Generator`](skills/freelance-invoice-generator-khalilbenaz/) | Aide à créer des factures conformes, gérer les mentions légales obligatoires et suivre les relances de… |
+| [`Se faire payer une facture en retard`](skills/relances-impayes-fr-originlabs-app/) | Se faire payer une facture en retard. Méthode professionnelle française, avec ses pièges et ses… |
 
 ## Cold-start context
 

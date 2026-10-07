@@ -6,14 +6,21 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): employment a
 
 Jurisdiction: `fr` · Practice: `employment` · Skill language: fr
 
-## Skills (4)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
+| [`Terminer, renouveler ou enchaîner un CDD`](skills/cdd-fr-originlabs-app/) | Terminer, renouveler ou enchaîner un CDD. Méthode professionnelle française, avec ses pièges et ses… |
+| [`Calculer les congés payés d'un salarié`](skills/conges-payes-fr-originlabs-app/) | Calculer les congés payés d'un salarié. Méthode professionnelle française, avec ses pièges et ses… |
+| [`Rédiger ou relire un contrat de travail`](skills/contrat-travail-fr-originlabs-app/) | Rédiger ou relire un contrat de travail. Méthode professionnelle française, avec ses pièges et ses… |
 | [`Convention IDCC [numéro] — [Nom de la convention]`](skills/convention-zevra-tech/) | À utiliser quand l'utilisateur pose une question sur une convention collective française identifiée par… |
 | [`French Market Consultant`](skills/french-consulting-canhada-labs/) | France-specific business consulting covering Convention Collective navigation, RGPD compliance specifics… |
 | [`Import: Notification de Licenciement (France)`](skills/import-notification-licenciement-sboghossian/) | Use when migrating a French-law dismissal notification (lettre de licenciement) drafting or review skill… |
+| [`Licencier un salarié en CDI (côté employeur)`](skills/licenciement-employeur-fr-originlabs-app/) | Licencier un salarié en CDI (côté employeur). Méthode professionnelle française, avec ses pièges et ses… |
 | [`Déclaration mensuelle Pajemploi (assistante maternelle)`](skills/pajemploi-declaration-fr-takeshidaveau/) | Use when preparing a monthly Pajemploi declaration as a parent employer of a French registered… |
+| [`Embaucher mon premier salarié`](skills/premiere-embauche-fr-originlabs-app/) | Embaucher mon premier salarié. Méthode professionnelle française, avec ses pièges et ses questions à… |
+| [`Se séparer d'un salarié d'un commun accord (rupture conventionnelle)`](skills/rupture-conventionnelle-fr-originlabs-app/) | Se séparer d'un salarié d'un commun accord (rupture conventionnelle). Méthode professionnelle française… |
+| [`Mettre fin à une période d'essai`](skills/rupture-periode-essai-fr-originlabs-app/) | Mettre fin à une période d'essai. Méthode professionnelle française, avec ses pièges et ses questions à… |
 
 ## Cold-start context
 
