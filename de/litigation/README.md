@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 
-## Skills (782)
+## Skills (781)
 
 | Skill | What it does |
 |---|---|
@@ -524,7 +524,6 @@ Jurisdiction: `de` · Practice: `litigation` · Skill language: de
 | [`Prozessrecht — Allgemein`](skills/prozessrecht-start-chronologie-fristen/) | Für Prozessrecht — Allgemein: prüft Frist, Form, Zuständigkeit und Eilbedarf; Ergebnis: Chronologie mit… |
 | [`Unterlagen und Lücken`](skills/prozessrecht-unterlagen-luecken/) | Für Unterlagen und Lücken: ordnet Akte, Belege und Lücken; Ergebnis: Dokumentenmatrix mit… |
 | [`Kaltstart und Routing`](skills/prozessrecht-workflow-kaltstart-und-routing/) | Für Kaltstart und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |
-| [`Prozessrisiko und Vergleichswert bewerten`](skills/prozessrisiko-und-vergleichswert-bewerten/) | Bewertet Prozessrisiken, Beweisrisiken und sinnvolle Vergleichswerte in deutschen Streitigkeiten. Zu… |
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-datenraum-sharepoint/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfmodus, Fristennotiz und nächster Schritt`](skills/pruefmodus-fristennotiz-naechster-schritt/) | Für Prüfmodus, Fristennotiz und nächster Schritt: prüft Frist, Form, Zuständigkeit und Eilbedarf… |
 | [`Prüfung Sachverständigengutachten — KI-Deklaration und JVEG`](skills/pruefung-sachverstaendigengutachten-ki-deklaration/) | Für Prüfung Sachverständigengutachten — digitale Werkzeuge-Deklaration und JVEG: ordnet Norm, Beweislast… |

@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `de` · Practice: `general` · Skill language: de
 
-## Skills (1376)
+## Skills (1375)
 
 | Skill | What it does |
 |---|---|
@@ -729,7 +729,6 @@ Jurisdiction: `de` · Practice: `general` · Skill language: de
 | [`Mandantenfreundliche Quellenkarte Check`](skills/mandantenfreundliche-quellenkarte-check/) | Für Mandantenfreundliche Quellenkarte Check: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Mandantenintake: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/mandantenintake-mandatsuebergabe/) | Für Mandantenintake: Risikoampel, Gegenargumente und Verteidigungslinien: ordnet Norm, Beweislast und… |
 | [`Mandantenkommunikation`](skills/mandantenkommunikation-redteam/) | Für Mandantenkommunikation: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Mandantennachricht oder… |
-| [`Mandantenmemo und Entscheidungsvorlage erstellen`](skills/mandantenmemo-und-entscheidungsvorlage-erstellen/) | Erstellt Mandantenmemos, Entscheidungsvorlagen und Legal Briefings für deutsche Mandanten… |
 | [`Mandantenmemo und Partner-Update`](skills/mandantenmemo-und-partner-update/) | Für Mandantenmemo und Partner-Update: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis… |
 | [`Mandantenunterlagen: Tatbestandsmerkmale, Beweisfragen und Beleglage`](skills/mandantenunterlagen-tatbestand-beweis-und-belege/) | Für Mandantenunterlagen: Tatbestandsmerkmale, Beweisfragen und Beleglage: ordnet Akte, Belege und… |
 | [`Mandat bis zum Schreiben bearbeiten`](skills/mandat-bis-zum-schreiben-bearbeiten/) | Bearbeitet wirtschaftsrechtliche Alltagsmandate aus vorhandenen Unterlagen selbst bis zum beauftragten… |

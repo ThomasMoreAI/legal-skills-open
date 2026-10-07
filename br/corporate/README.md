@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): corporate la
 
 Jurisdiction: `br` · Practice: `corporate` · Skill language: pt
 
-## Skills (7)
+## Skills (6)
 
 | Skill | What it does |
 |---|---|
@@ -15,7 +15,6 @@ Jurisdiction: `br` · Practice: `corporate` · Skill language: pt
 | [`Cold start interview`](skills/cold-start-interview-12/) | House cold-start interview (request list + prior memo), or --new-deal for deal-specific context.… |
 | [`/customize`](skills/customize-9/) | Guided customization of your corporate practice profile — change one thing without re-running the whole… |
 | [`Entity compliance`](skills/entity-compliance-bossmann007/) | Tracker de compliance societário — inicializa, reporta prazos próximos, atualiza status, roda auditoria… |
-| [`Matter workspace`](skills/matter-workspace/) | Manage matter workspaces — create, list, switch, close, or detach the active matter so multi-client… |
 | [`Written consent`](skills/written-consent-bossmann007/) | Redige deliberação por escrito de sócios (Ltda.) ou do conselho de administração (S.A.) no formato da… |
 
 ## Cold-start context

@@ -19,7 +19,6 @@
     "skills/insurance-claim-summaries",
     "skills/insurance-correspondence-summarization",
     "skills/insurance-policy-summary",
-    "skills/legal-compliance-regulatory-monitor",
     "skills/tender-denial"
   ]
 }

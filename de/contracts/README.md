@@ -4,7 +4,7 @@ General contract drafting, review, interpretation, and risk allocation across de
 
 Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 
-## Skills (696)
+## Skills (695)
 
 | Skill | What it does |
 |---|---|
@@ -631,7 +631,6 @@ Jurisdiction: `de` · Practice: `contracts` · Skill language: de
 | [`Fachanwalt — Vertragsgestaltung mit iterativem Prüfgremium`](skills/vertrag/) | Dieser Skill wird verwendet wenn der Nutzer "Vertrag erstellen", "Vertrag entwerfen", "Vertrag prüfen"… |
 | [`Einen B2B-Vertrag aus dem konkreten Geschäftsauftrag erstellen`](skills/vertrag-vom-auftrag-bis-zur-endfassung-erstellen/) | Erstellt einen deutschen B2B-Vertrag für ein mittelständisches Einzelgeschäft aus Auftrag, Angebot und… |
 | [`Vertragsänderung durch Zustimmung prüfen`](skills/vertragsaenderung-durch-zustimmung-pruefen/) | Prüft, ob AGB-Änderungen durch ausdrückliche Zustimmung, Schweigen oder Weiternutzung wirksam vereinbart… |
-| [`Vertragsanlagen und Bezugnahmen prüfen`](skills/vertragsanlagen-und-bezugnahmen-pruefen/) | Prüft Vertragsanlagen, Leistungsbeschreibungen, Rangfolgen, Verweise und Widersprüche in… |
 | [`Anschluss-Routing`](skills/vertragsausfueller-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Dokumentenintake`](skills/vertragsausfueller-dokumente-intake/) | Für Dokumentenintake: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und nächstem… |
 | [`Einstieg und Routing`](skills/vertragsausfueller-einstieg-routing/) | Für Einstieg und Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit… |

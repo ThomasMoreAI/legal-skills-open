@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 
-## Skills (62)
+## Skills (60)
 
 | Skill | What it does |
 |---|---|
@@ -32,7 +32,6 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`Deal Team Summary`](skills/deal-team-summary-alexchlou/) | Aggregate diligence findings into a deal team briefing at the right altitude for the audience — exec… |
 | [`交易团队摘要`](skills/deal-team-summary-zhou210712/) | 将尽调发现汇总为适合受众层级的交易团队简报——面向领导层的执行摘要、面向团队的 工作摘要。当用户说"给交易团队简报""尽调现状如何""汇总发现给[受众]" "交易更新"或按简报频率触发时使用。 |
 | [`Design Enterprise Risk Management Committee`](skills/design-enterprise-risk-management-committee-jeffreytse/) | Use when a board wants to establish a dedicated board-level committee (or full-board process) for… |
-| [`$corporate-legal:diligence-issue-extraction`](skills/diligence-issue-extraction/) | Read VDR documents and extract issues per house categories and materiality thresholds, producing… |
 | [`Diligence issue extraction`](skills/diligence-issue-extraction-anthropics/) | Read VDR documents and extract issues per house categories and materiality thresholds, producing… |
 | [`Diligence issue extraction`](skills/diligence-issue-extraction-zhou210712/) | 读取数据室文件并按内部类别和重要性阈值提取问题，以内部备忘录格式产出发现。 当用户说"审查数据室""从[文件夹]提取问题""尽调审查""数据室里有什么" 或指向数据室文件时使用。 |
 | [`Due Diligence`](skills/due-diligence-judicialmind/) | Transaction due diligence skill for M&A, investment, and business transactions. Use when the user needs… |
@@ -50,7 +49,6 @@ Jurisdiction: `general` · Practice: `corporate` · Skill language: en
 | [`M&A Diligence Checker`](skills/m-and-a-diligence-checker-rohasnagpal/) | Plans and performs legal due diligence for acquisitions, investments, mergers, asset purchases, joint… |
 | [`M&A Playbook`](skills/ma-playbook-jantoniofc/) | M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal… |
 | [`M&A Transaction Summary`](skills/ma-transaction-summary/) | Generates structured M&A transaction summaries from deal documents. Triggers when the user needs to… |
-| [`$corporate-legal:material-contract-schedule`](skills/material-contract-schedule/) | Build the material contracts disclosure schedule from diligence findings, applying the purchase… |
 | [`Material contract schedule`](skills/material-contract-schedule-anthropics/) | Build the material contracts disclosure schedule from diligence findings, applying the purchase… |
 | [`Material contract schedule`](skills/material-contract-schedule-zhou210712/) | 从尽调发现构建重大合同披露清单，适用股权收购协议的重大合同定义，并按 协议清单格式排版。当用户说"建合同清单""披露清单""清单 3.X" "重大合同列表"或起草披露清单时使用。 |
 | [`$corporate-legal:matter-workspace`](skills/matter-workspace-10/) | Manage matter workspaces — create, list, switch, close, or detach the active matter so multi-client… |
