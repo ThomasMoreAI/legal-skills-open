@@ -5,7 +5,7 @@ description: Use to assess Privacy by Design compliance and GDPR/data protection
 author: haabe
 author_url: https://github.com/haabe/mycelium/tree/main/plugins/mycelium/skills/privacy-check
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: data-protection
@@ -132,7 +132,7 @@ than dating the whole file.
 
 ## Postflight: Verify-After-Write (write-narration-verification discipline)
 
-**Hard rule** (per CLAUDE.md Communication Rules, anti-pattern #7 Stage 2 graduation). Before any
+**Hard rule** (per the operating contract's Communication Rules, anti-pattern #7 Stage 2 graduation). Before any
 user-facing summary claims the assessment was recorded, use the **Read tool** on the canvas file and
 confirm the VALUE fields above actually changed — not just `_meta.last_validated`. A stamp moving
 while the assessed fields stay at their defaults is the exact failure this skill shipped with: the
