@@ -1,0 +1,43 @@
+{
+  "author": "skills-il",
+  "version": "1.3.0",
+  "category": "security-compliance",
+  "tags": {
+    "he": [
+      "תקנים",
+      "מכון-התקנים",
+      "יבוא",
+      "תקן-רשמי",
+      "רגולציה",
+      "תאימות",
+      "ישראל"
+    ],
+    "en": [
+      "standards",
+      "sii",
+      "import",
+      "compliance",
+      "regulation",
+      "mechon-hatikanim",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "בודק תקנים לייבוא",
+    "en": "Israeli Standards Import Checker"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי ואינו הצהרת מכס שהוגשה. בדיקה האם מוצר מיובא לישראל מחייב אישור מכון התקנים (תקן רשמי) של הממונה על התקינה, ואילו היתרים מקבילים חוסמים את אותו משלוח. מחזיר מספרי תקן ישראלי, קבוצת יבוא, מסלול אישור (אישור טיפוס, אישור משלוח, הצהרת יבוא במסלול פלוס, מסלול הכרה ברגולציה אירופית לפי תיקון 19, והמסלול האמריקאי לפי תיקון 21 שעבר ביולי 2026 ונכנס לתוקף ב-2027), בדיקות מעבדה ולוחות זמנים. מכסה גם את צו יבוא חופשי, אישור התאמה של משרד התקשורת למכשירים אלחוטיים, רישום פסולת אלקטרונית ואריזות, פטור היבוא האישי והגבולות שלו, תיוג בעברית והגשת רשימון בשער עולמי. Use when user asks about importing electronics, chargers, toys, cosmetics, food-contact materials, vehicles or building materials into Israel commercially or by personal import, asks about CE or type approval, or has a shipment stuck at customs. אל תשתמש לחישוב מכס ומס קנייה או לביקורת בטיחות מוצר מחוץ להקשר הרגולטורי הישראלי.",
+    "en": "Not legal advice and not a filed customs declaration. Check whether a product needs Standards Institution of Israel (SII, Mechon HaTikanim) approval under an official standard (takan rishmi) before import, and which parallel permits gate the same shipment. Returns SI numbers, the import group (1-4), the approval route (type approval, shipment approval, Maslol Plus, EU recognition under Amendment 19, and the US route under Amendment 21 passed July 2026), lab tests and timelines. Also covers the Free Import Order lookup, Ministry of Communications certificates for wireless devices, electronic-waste and packaging registration, the personal-import (yevu ishi) exemption and its limits, Hebrew labelling and Shaar Olami filing. Use when a user asks about importing electronics, chargers, toys, cosmetics or building materials into Israel, commercially or by personal import, asks about CE or type approval, or has a shipment stuck at customs. Do NOT use for customs duty calculation (use israeli-customs-duty-calculator) or for product safety review outside the Israeli regulatory context."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

@@ -5,12 +5,16 @@ description: 'Use when auditing how an AI/ML personnel assessment was actually b
 author: OpenMatter-Network
 author_url: https://github.com/OpenMatter-Network/agent-io-skills/tree/main/ai-personnel-assessment/skills/ai-model-development-audit
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: employment
 language: en
-tags: [community, io-psychology, ai-assessment, auditing]
+tags:
+- community
+- io-psychology
+- ai-assessment
+- auditing
 ---
 
 # AI model-development audit (Components 3–5)

@@ -5,7 +5,7 @@ description: 'Implements data lineage tracking for privacy compliance including 
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/data-lineage-tracking
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

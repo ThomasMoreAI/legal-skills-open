@@ -5,12 +5,17 @@ description: Use this skill when drafting NDAs, MSAs, SaaS agreements, licensing
 author: NeverSight
 author_url: https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/absolutelyskilled/absolutelyskilled/contract-drafting
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts
 language: en
-tags: [nda, msa, saas-agreement, licensing, legal]
+tags:
+- nda
+- msa
+- saas-agreement
+- licensing
+- legal
 ---
 
 When this skill is activated, always start your first response with the 🧢 emoji.

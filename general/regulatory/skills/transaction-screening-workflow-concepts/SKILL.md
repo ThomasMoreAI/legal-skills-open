@@ -5,7 +5,7 @@ description: Educational map of transaction-centric compliance screening—trans
 author: NeverSight
 author_url: https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/agentic-reserve/blockint-skills/transaction-screening-workflow-concepts
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

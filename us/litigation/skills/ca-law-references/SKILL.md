@@ -5,7 +5,7 @@ description: Use when researching law bearing on California civil court practice
 author: codearranger
 author_url: https://github.com/codearranger/claude-legal/tree/main/plugins/ca-court-docs/skills/ca-law-references
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: litigation

@@ -5,7 +5,7 @@ description: 当用户需要对寿险理赔申请资料做结构化受理预审�
 author: FDU-INS
 author_url: https://github.com/FDU-INS/Insurance-Skills/tree/main/Skills/claims-material-check-life-insurance-assistant
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: insurance

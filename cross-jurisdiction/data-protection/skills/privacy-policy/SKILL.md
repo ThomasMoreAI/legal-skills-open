@@ -5,7 +5,7 @@ description: Generate privacy policies, terms of service, and EULAs for Apple pl
 author: flight505
 author_url: https://github.com/flight505/skill-forge/tree/main/skills/21-toolkit/apple/legal/privacy-policy
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

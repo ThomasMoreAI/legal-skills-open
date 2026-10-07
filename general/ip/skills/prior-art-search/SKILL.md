@@ -5,7 +5,7 @@ description: Systematic 7-step methodology for comprehensive patent prior art se
 author: RobThePCGuy
 author_url: https://github.com/RobThePCGuy/Claude-Patent-Creator/tree/main/skills/prior-art-search
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: ip
@@ -186,8 +186,8 @@ results = searcher.search_by_cpc(
 **Code**:
 ```python
 # Search by year ranges
-recent = searcher.search_patents(query, start_year=2022, end_year=2024)
-older = searcher.search_patents(query, start_year=2015, end_year=2021)
+recent = searcher.search_by_keywords(query, start_year=2022, end_year=2024)
+older = searcher.search_by_keywords(query, start_year=2015, end_year=2021)
 ```
 
 **Output**: Timeline showing technology development

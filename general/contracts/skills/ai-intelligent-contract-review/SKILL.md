@@ -5,7 +5,7 @@ description: Automates contract review by identifying clause risks, comparing ag
 author: luokai0
 author_url: https://github.com/luokai0/ai-agent-skills-by-luo-kai/tree/main/ai-agent-skills/22-clawhub-skills/ai-intelligent-contract-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

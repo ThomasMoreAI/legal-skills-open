@@ -5,7 +5,7 @@ description: Search and retrieve Erskine May — *A Treatise on the Law, Privile
 author: danbri
 author_url: https://github.com/danbri/forgetmenot/tree/main/skills/erskine-may
 license: CC0-1.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: general

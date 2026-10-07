@@ -5,7 +5,7 @@ description: Research a US employment law topic across federal, state, and city 
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/employment-law-research
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: employment

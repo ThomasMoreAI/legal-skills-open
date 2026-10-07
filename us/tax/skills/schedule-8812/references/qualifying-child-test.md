@@ -1,6 +1,6 @@
 # Qualifying Child Test (for Child Tax Credit)
 
-The seven tests a person must meet to be a "qualifying child" for purposes of the Child Tax Credit on Schedule 8812. Authority: IRC §24(c) (which cross-references §152(c)) plus the additional SSN-by-due-date requirement under IRC §24(h)(7).
+The seven tests a person must meet to be a "qualifying child" for purposes of the Child Tax Credit on Schedule 8812. Authority: IRC §24(c) (which cross-references §152(c)) plus the additional SSN requirement under IRC §24(h)(7). The Form 1040 instructions walk through the same tests in "Who Qualifies as Your Dependent," Steps 1–3 (2025 Instructions for Form 1040, pp.17–18), and Pub 501 (2025) covers them in detail. Starting with 2025 returns, the **taxpayer** also needs a valid SSN (see Test 7).
 
 If any one test fails, the dependent is NOT a qualifying child for CTC. They may still be a qualifying relative for the Credit for Other Dependents (ODC) — see [`qualifying-relative-test.md`](./qualifying-relative-test.md).
 
@@ -96,30 +96,34 @@ The child must be a:
 
 - U.S. citizen
 - U.S. national (e.g., from American Samoa or some Northern Mariana Islands residents)
-- U.S. resident alien (i.e., met the substantial presence test under IRC §7701(b))
+- U.S. resident alien (green card test or substantial presence test, IRC §7701(b))
 
 **Not eligible**:
 - Nonresident alien (NRA), even if living in the U.S.
-- Resident of Mexico or Canada who lived in the U.S. less than half the year (special rules apply for some adopted children — see Pub 501)
+- Resident of Mexico or Canada: such a child can be a dependent under §152(b)(3)(A) but is excluded from the CTC by IRC §24(c)(2) and from the ODC by §24(h)(4)(B) unless also a U.S. citizen, national, or resident alien
 
 **Adopted child special rule (IRC §152(b)(3)(B))**: an adopted child who is not a U.S. citizen, national, or resident alien generally qualifies if they lived with the filer all year as a member of the filer's household and the filer is a U.S. citizen or national.
 
 ---
 
-## Test 7 — SSN by due date (CTC-specific, IRC §24(h)(7))
+## Test 7 — SSN before the due date (CTC-specific, IRC §24(h)(7))
 
-This is the test that applies to CTC but NOT to general dependency. A qualifying child for CTC purposes must have a **Social Security Number issued by the due date of the return** (including extensions).
+This is the test that applies to CTC but NOT to general dependency. A qualifying child for CTC purposes must have a **valid SSN: valid for employment and issued by the SSA before the due date of the return** (including extensions) (2025 Instructions for Schedule 8812, p.1; 2025 Instructions for Form 1040, p.22).
 
-**Required**: SSN. Not eligible: ITIN, ATIN.
+**Required**: SSN valid for employment. Not eligible: ITIN, ATIN. An SSN issued to a U.S. citizen is valid for employment. If the card says "Not Valid for Employment" and the child is now a citizen or permanent resident, the family should ask the SSA for a new card; if it says "Valid for Work Only With DHS Authorization," the SSN counts only while the DHS authorization is valid (Form 1040 instructions p.22).
+
+**The taxpayer, too (new for 2025)**: the CTC and ACTC are allowed only if the taxpayer has a valid SSN issued before the due date; on a joint return, only one spouse needs it, and the other spouse must have an SSN or ITIN issued on or before the due date (2025 Instructions for Schedule 8812, What's New and p.1; IRC §24(h)(7)(A)(i)). A filer without a qualifying SSN can still claim the ODC if the filer has an SSN or ITIN issued on or before the due date.
+
+**Born and died in the same year**: if a child was born and died in 2025 and has no SSN, the CTC can still be claimed: enter "Died" in row (3) of the Dependents section and attach the birth certificate, death certificate, or hospital records showing the child was born alive (Form 1040 instructions p.22; Schedule 8812 instructions p.1).
 
 **Why this matters**: a child with an ITIN can still be claimed as a dependent on Form 1040 (and counts for ODC = $500), but cannot be a qualifying child for CTC.
 
 **Common scenarios**:
-- Newborn whose SSN application is pending — the parent should apply for the SSN ASAP. If the SSN is issued before the original April 15 due date or by the October 15 extended due date, CTC is available. If not, ODC instead.
+- Newborn whose SSN application is pending — the parent should apply for the SSN ASAP. If the SSN is issued before the original due date (April 15, 2026 for 2025 returns) or, with an extension, before October 15, 2026, CTC is available. If not, ODC instead (if an ITIN/ATIN was issued or applied for by the due date).
 - An adopted child who was issued an ATIN (Adoption Taxpayer ID Number) — ATIN does not qualify for CTC; ODC only. After adoption finalizes and SSN issues, future years can claim CTC.
 - A non-citizen child who has an ITIN — ITIN does not qualify for CTC; ODC if otherwise eligible as a dependent.
 
-The agent must explicitly ASK the user: "Does each child you're claiming have a Social Security Number that was issued by the due date of your tax return (including any extension you filed)?" If the answer is "ITIN" or "still waiting for SSN past October 15," the child cannot be claimed for CTC for the year — only ODC.
+The agent must explicitly ASK the user: "Does each child you're claiming have a Social Security Number that is valid for employment and was issued before the due date of your tax return (including any extension you filed)? And do you (or your spouse, if filing jointly) have one?" If the answer for a child is "ITIN" or "still waiting for SSN past October 15," the child cannot be claimed for CTC for the year — only ODC. If neither spouse has such an SSN, no CTC/ACTC for any child.
 
 ---
 
@@ -144,9 +148,10 @@ Is the dependent the filer's son, daughter, brother, sister, or descendant?
                     Is the dependent a U.S. citizen, national, or resident alien?
                     ├── No → Not a qualifying child (with adopted-child exception).
                     └── Yes
-                        Does the dependent have an SSN issued by the due date?
-                        ├── No → Qualifying relative for ODC, not CTC.
-                        └── Yes → Qualifying child for CTC + ODC.
+                        Do the dependent AND the filer (or one spouse if MFJ) have SSNs valid
+                        for employment issued before the due date?
+                        ├── No → ODC (line 6) if the child has an SSN/ITIN/ATIN, not CTC.
+                        └── Yes → Qualifying child for CTC (line 4).
 ```
 
 ---
@@ -161,7 +166,7 @@ For each dependent the user claims, the agent must collect:
 4. Did you provide more than half of their support?
 5. Did the child file a joint return for the year?
 6. Is the child a U.S. citizen, national, or resident alien?
-7. Does the child have an SSN issued by the due date of the return?
+7. Does the child have an SSN valid for employment issued before the due date of the return? Do you (or your spouse, if MFJ)?
 8. (If divorced/separated) Are you the custodial parent? Have you signed Form 8332 releasing the claim?
 
 Without these answers, the classification is a guess. The agent must NOT default to "yes, qualifying child" without confirmation.
@@ -171,7 +176,7 @@ Without these answers, the classification is a guess. The agent must NOT default
 ## Authority
 
 - IRC §24(c) — Definition of qualifying child for CTC
-- IRC §24(h)(7) — SSN-by-due-date requirement (added by TCJA 2017)
+- IRC §24(h)(7) — SSN requirement for the qualifying child and, from 2025, the taxpayer (one spouse on a joint return)
 - IRC §152(c) — Qualifying child general definition
 - IRC §152(c)(4) — Tiebreaker rules
 - IRC §152(e) — Children of divorced or separated parents
@@ -179,4 +184,5 @@ Without these answers, the classification is a guess. The agent must NOT default
 - Form 8332 — Release/Revocation of Release of Claim to Exemption for Child by Custodial Parent
 - Pub 501 — Dependents, Standard Deduction, and Filing Information
 - Pub 596 — Earned Income Credit (parallel qualifying child test)
-- Pub 972 — Child Tax Credit (historical reference)
+- 2025 Instructions for Form 1040, Who Qualifies as Your Dependent (pp.17–22)
+- 2025 Instructions for Schedule 8812, Taxpayer Identification Number Requirements (p.1)

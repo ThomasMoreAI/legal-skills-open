@@ -5,12 +5,20 @@ description: FDA MedTech Compliance Auditor workflow skill. Use this skill when 
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/fda-medtech-compliance-auditor-v2
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: life-sciences
 language: en
-tags: [fda-medtech-compliance-auditor-v2, fda-medtech-compliance-auditor, expert, auditor, for, medical, device, samd]
+tags:
+- fda-medtech-compliance-auditor-v2
+- fda-medtech-compliance-auditor
+- expert
+- auditor
+- for
+- medical
+- device
+- samd
 ---
 
 # FDA MedTech Compliance Auditor

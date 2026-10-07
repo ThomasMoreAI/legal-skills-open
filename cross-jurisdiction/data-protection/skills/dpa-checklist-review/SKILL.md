@@ -5,7 +5,7 @@ description: Use when the user provides a Data Processing Agreement, Data Proces
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-ai/tree/main/skills/dpa-checklist-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

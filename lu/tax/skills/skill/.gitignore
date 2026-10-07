@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Données téléchargées via scripts/fetch-open-data.js (staging avant intégration)
+data-sources/

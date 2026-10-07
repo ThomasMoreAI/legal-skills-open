@@ -5,7 +5,7 @@ description: Use when the user has typed a short or vague prompt and the system 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-ai/tree/main/skills/enhance-prompt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

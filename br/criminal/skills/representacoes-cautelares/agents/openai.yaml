@@ -1,0 +1,4 @@
+interface:
+  display_name: "Representacoes Cautelares"
+  short_description: "Redige representacoes cautelares policiais"
+  default_prompt: "Use $representacoes-cautelares para redigir uma representacao policial por prisao preventiva, busca e apreensao, quebra de sigilo ou outra medida cautelar, com fatos, fundamentos e pedidos delimitados."

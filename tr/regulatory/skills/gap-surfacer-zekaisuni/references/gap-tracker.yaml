@@ -1,0 +1,22 @@
+# Gap Tracker
+# policy-diff handoff'ları ile dolar. Açık politika/prosedür gap'leri kapanana veya risk kabul edilene kadar izlenir.
+
+gaps: []
+
+# Örnek:
+# - id: GAP-001
+#   requirement: "Veri ihlali bildirim prosedürü X süre ve Y içerik gereğini karşılamalı"
+#   regulation: "KVKK Kurul kararı / Resmi Gazete metni [link]"
+#   policy_affected: "Kisisel Veri Ihlali Mudahale Proseduru v2.1"
+#   gap_type: "partial"  # none | partial | full | new-policy | watch | comment-decision
+#   owner: "privacy-legal@company.com"
+#   owner_slack: "@privacy-owner"
+#   opened: 2026-05-13
+#   due: 2026-06-30
+#   status_verified: true
+#   source_tags:
+#     - "KVKK"
+#     - "Mevzuat"
+#   status: "open"  # open | in-progress | closed | risk-accepted
+#   notified: false
+#   resolution: ""

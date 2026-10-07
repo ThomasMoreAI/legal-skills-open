@@ -5,7 +5,7 @@ description: Tune Enterprise AI Governance Hub — risk classification rules, re
 author: frootai
 author_url: https://github.com/frootai/frootai/tree/main/solution-plays/99-enterprise-ai-governance-hub/.github/skills/tune-enterprise-ai-governance-hub
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory

@@ -5,7 +5,7 @@ description: 'Guides privacy audit risk assessment including risk universe devel
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/audit-risk-assessment
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

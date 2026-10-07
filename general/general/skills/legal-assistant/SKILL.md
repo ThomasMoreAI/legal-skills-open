@@ -5,7 +5,7 @@ description: Use when the user invokes /legal-assistant or asks for legal matter
 author: KevinKE93
 author_url: https://github.com/KevinKE93/Legal-Assistant_agent/tree/main/native/legal-assistant
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

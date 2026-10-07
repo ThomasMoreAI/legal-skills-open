@@ -1,0 +1,19 @@
+# ============================================================
+# skill.yml — Metadata for the Skills Registry
+# ============================================================
+# This file tells the auto-updater how to list your skill
+# in the README. Fill in each field and commit alongside
+# your SKILL.md.
+#
+# The GitHub Action reads this file when your PR merges and
+# automatically adds your skill to the registry table.
+# ============================================================
+
+name: "Your Skill Name"           # Display name (e.g., "NDA Triage")
+practice_area: "Practice Area"    # e.g., "Litigation", "Real Estate", "Corporate"
+jurisdiction: "Jurisdiction"      # e.g., "Texas", "California", "Multi-State", "Federal"
+version: "1.0"                    # Semantic version
+author: "Your Name"               # Individual or organization
+description: >
+  A 1-2 sentence summary of what this skill does and what
+  it outputs. This appears below the registry table.

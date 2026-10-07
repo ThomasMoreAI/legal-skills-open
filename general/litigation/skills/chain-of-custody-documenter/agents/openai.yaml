@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chain of Custody Documenter"
+  short_description: "Build defensible evidence custody records"
+  default_prompt: "Use $chain-of-custody-documenter to create the collection, transfer, storage, access, examination, and disposition record for this evidence."

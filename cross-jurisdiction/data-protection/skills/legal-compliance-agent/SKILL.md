@@ -5,7 +5,7 @@ description: Generate legally compliant privacy policies, terms of service, HIPA
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skill/tree/main/skills/testing-security/legal-compliance-agent
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: data-protection

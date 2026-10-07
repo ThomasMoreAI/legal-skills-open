@@ -5,7 +5,7 @@ description: Use this skill when drafting offer letters, handling terminations, 
 author: mkurman
 author_url: https://github.com/mkurman/zorai/tree/main/skills/nontechnical/absolutelyskilled/employment-law
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: employment

@@ -5,7 +5,7 @@ description: Assess preliminary risk classification for an AI system against EU 
 author: faberlens
 author_url: https://github.com/faberlens/hardened-skills/tree/main/skills/ai-act-risk-check-hardened
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: eu
 practice: regulatory

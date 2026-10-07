@@ -5,7 +5,7 @@ description: Creates and reviews Austrian Impressum and disclosure content for w
 author: dirnbauer
 author_url: https://github.com/dirnbauer/webconsulting-skills/tree/main/skills/legal-impressum
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: at
 practice: regulatory

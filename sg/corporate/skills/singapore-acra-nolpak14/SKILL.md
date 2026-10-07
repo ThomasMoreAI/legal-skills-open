@@ -1,11 +1,11 @@
 ---
 name: singapore-acra-nolpak14
-title: 'Singapore acra'
+title: Singapore acra
 description: 'Look up Singapore companies for free via the official ACRA open data on data.gov.sg - entity name, UEN (Unique Entity Number), entity status (Registered / Deregistered), entity type, registration date, and registered address. Use for KYB / know-your-business checks, counterparty verification, UEN resolution, and Singapore company due diligence. Trigger on: ''ACRA'', ''Singapore company lookup'', ''check a Singapore company'', ''UEN lookup'', ''Unique Entity Number'', ''is this Singapore company registered'', ''Singapore entity search'', ''data.gov.sg ACRA''. The ACRA open dataset is free and needs no key; for officer, shareholder and financial DEPTH - and for jurisdictions with no free API - this skill points you to the paid ACRA BizFile API and the regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/singapore-acra
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: sg
 practice: corporate
@@ -123,3 +123,8 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`sanctions-pep-screening`** - screen the entity (and, once you have them from BizFile, its officers) against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for jurisdictions with no free API.
+
+## More on getregdata.com
+
+- Full guide to this skill: https://getregdata.com/skills/singapore-acra/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

@@ -5,7 +5,7 @@ description: '中国法律全领域系统性检索专家。 ## 核心特色 - �
 author: Golden2002
 author_url: https://github.com/Golden2002/legal-research-skill/tree/main/legal-research
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: general

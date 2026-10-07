@@ -5,7 +5,7 @@ description: Automatically searches prior art via SerpAPI and generates Chinese 
 author: FradSer
 author_url: https://github.com/FradSer/dotclaude/tree/main/office/skills/patent-architect
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: ip

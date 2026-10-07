@@ -5,11 +5,18 @@ description: Specialized auditor for SOC2, HIPAA, GDPR, and regulatory complianc
 author: belokonm
 author_url: https://github.com/belokonm/claude-supercode-skills/tree/main/compliance-auditor-skill
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory
 language: en
+sources:
+- title: Gdpr requirements
+  path: references/gdpr_requirements.md
+- title: Pci dss standard
+  path: references/pci_dss_standard.md
+- title: Soc2 controls
+  path: references/soc2_controls.md
 ---
 
 # Compliance Auditor Skill

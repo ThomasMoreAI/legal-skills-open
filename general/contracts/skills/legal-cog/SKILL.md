@@ -5,7 +5,7 @@ description: 'Legal demands two things: frontier-level reasoning and precision d
 author: aAAaqwq
 author_url: https://github.com/aAAaqwq/AGI-Super-Team/tree/master/skills/legal-cog
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

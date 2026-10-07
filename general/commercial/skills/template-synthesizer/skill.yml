@@ -1,0 +1,11 @@
+name: Template Synthesizer
+practice_area: Contracts
+jurisdiction: Multi
+version: "1.0"
+author: Ryan Juliano — Hackathon 2026
+description: >
+  Guides the full lifecycle of drafting any commercial contract — from
+  context elicitation and model document synthesis through outline
+  approval and final Word document delivery. Operates in synthesis
+  mode (when model agreements are provided), no-precedent mode, or
+  express mode for a fast best-effort draft.

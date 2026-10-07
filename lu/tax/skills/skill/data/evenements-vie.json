@@ -1,0 +1,518 @@
+{
+  "as_of": "2026-06-15",
+  "description": "Ontologie des événements de vie luxembourgeois. Chaque événement déclenche une chaîne : conséquences → administrations → obligations (reliées à data/obligations.json) → documents → délais → exceptions → checklist. Les agents métier sont des vues sur ce graphe. Amorce à enrichir.",
+  "url_source": "https://guichet.public.lu",
+  "evenements": [
+    {
+      "id": "naissance",
+      "nom": "Naissance d'un enfant",
+      "motsCles": [
+        "naissance",
+        "bébé",
+        "je vais être parent",
+        "je viens d'avoir un enfant",
+        "mon enfant est né"
+      ],
+      "consequences": [
+        "Nouvel ayant droit à déclarer",
+        "Ouverture des droits aux allocations familiales",
+        "Possibilité de congé parental",
+        "Éventuel changement de classe d'impôt"
+      ],
+      "administrations": [
+        {
+          "id": "commune",
+          "nom": "État civil (commune)"
+        },
+        {
+          "id": "cns",
+          "nom": "Caisse nationale de santé (CNS)"
+        },
+        {
+          "id": "zukunftskeess",
+          "nom": "Zukunftskeess (CAE)"
+        },
+        {
+          "id": "impotsdirects",
+          "nom": "Administration des Contributions Directes (ACD)"
+        }
+      ],
+      "obligations": [
+        "obl_allocations_familiales",
+        "obl_conge_parental",
+        "obl_fiche_retenue_maj"
+      ],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Déclaration de naissance à l'état civil",
+          "source": "https://guichet.public.lu/fr/citoyens/famille/naissance-adoption/naissance/declaration-naissance.html",
+          "id": "etat_civil_naissance"
+        },
+        {
+          "nom": "Affiliation de l'enfant à la CNS (coassuré)",
+          "source": "https://guichet.public.lu/fr/citoyens/sante-social/assurance-maladie-maternite.html",
+          "id": "cns_affiliation_enfant"
+        }
+      ],
+      "documents": [
+        "Certificat de naissance / acte de naissance",
+        "Pièces d'identité des parents",
+        "Certificat de résidence",
+        "Coordonnées bancaires"
+      ],
+      "delais": [
+        {
+          "quoi": "Déclaration de naissance à l'état civil",
+          "delai": "Dans les jours suivant la naissance (délai communal)"
+        },
+        {
+          "quoi": "Demande d'allocations familiales",
+          "delai": "Dès la naissance"
+        }
+      ],
+      "exceptions": [
+        "Frontaliers : allocations versées via l'affiliation du parent travaillant au Luxembourg, sous conditions de non-cumul avec le pays de résidence."
+      ],
+      "checklist": [
+        "Déclarer la naissance à l'état civil",
+        "Affilier l'enfant à la CNS",
+        "Demander les allocations familiales à la CAE",
+        "Vérifier l'impact sur la classe d'impôt",
+        "Envisager le congé parental avec l'employeur"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/famille/naissance-adoption.html"
+    },
+    {
+      "id": "mariage_partenariat",
+      "nom": "Mariage ou partenariat (PACS)",
+      "motsCles": [
+        "mariage",
+        "je me marie",
+        "me marier",
+        "pacs",
+        "partenariat",
+        "je vais me pacser"
+      ],
+      "consequences": [
+        "Changement de situation familiale",
+        "Passage possible en classe d'impôt 2 (imposition collective)",
+        "Effets patrimoniaux et successoraux"
+      ],
+      "administrations": [
+        {
+          "id": "commune",
+          "nom": "État civil (commune)"
+        },
+        {
+          "id": "impotsdirects",
+          "nom": "Administration des Contributions Directes (ACD)"
+        }
+      ],
+      "obligations": [
+        "obl_fiche_retenue_maj"
+      ],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Déclaration de partenariat au parquet général (PACS)",
+          "source": "https://guichet.public.lu/fr/citoyens/famille/pacs-mariage/partenariat/declaration-partenariat.html"
+        }
+      ],
+      "documents": [
+        "Actes de naissance",
+        "Pièces d'identité",
+        "Certificat de résidence",
+        "Contrat de mariage éventuel"
+      ],
+      "delais": [
+        {
+          "quoi": "Mise à jour de la fiche de retenue d'impôt",
+          "delai": "Après l'union"
+        }
+      ],
+      "exceptions": [
+        "Le PACS n'ouvre pas automatiquement la classe 2 : conditions et délais spécifiques à vérifier auprès de l'ACD."
+      ],
+      "checklist": [
+        "Célébrer / déclarer l'union",
+        "Mettre à jour la fiche de retenue d'impôt",
+        "Réviser assurances et bénéficiaires",
+        "Envisager un contrat de mariage chez le notaire"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/famille/pacs-mariage.html"
+    },
+    {
+      "id": "arrivee_luxembourg",
+      "nom": "Installation au Luxembourg",
+      "motsCles": [
+        "je m'installe",
+        "je déménage au luxembourg",
+        "je viens d'arriver",
+        "nouvel arrivant",
+        "je m'installe avec ma femme",
+        "je m'installe avec ma famille"
+      ],
+      "consequences": [
+        "Inscription communale",
+        "Affiliation à la sécurité sociale",
+        "Assujettissement fiscal",
+        "Éventuel titre de séjour"
+      ],
+      "administrations": [
+        {
+          "id": "commune",
+          "nom": "Administration communale"
+        },
+        {
+          "id": "immigration",
+          "nom": "Direction de l'immigration"
+        },
+        {
+          "id": "ccss",
+          "nom": "Centre commun de la sécurité sociale (CCSS)"
+        },
+        {
+          "id": "impotsdirects",
+          "nom": "Administration des Contributions Directes (ACD)"
+        }
+      ],
+      "obligations": [
+        "obl_commune_declaration_arrivee",
+        "obl_irpp_declaration_modele100"
+      ],
+      "obligationsHorsCatalogue": [],
+      "documents": [
+        "Pièce d'identité / passeport",
+        "Justificatif de logement",
+        "Contrat de travail"
+      ],
+      "delais": [
+        {
+          "quoi": "Déclaration d'arrivée à la commune",
+          "delai": "Dans les jours suivant l'arrivée"
+        }
+      ],
+      "exceptions": [
+        "Ressortissants hors UE : titre de séjour requis, à demander dans les 3 mois. Ressortissants UE : attestation d'enregistrement pour un séjour > 3 mois."
+      ],
+      "checklist": [
+        "Déclarer l'arrivée à la commune",
+        "Vérifier le titre / l'enregistrement de séjour",
+        "S'affilier à la sécurité sociale via l'employeur",
+        "Voir le parcours détaillé : paperasse residence installation"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/immigration.html"
+    },
+    {
+      "id": "perte_emploi",
+      "nom": "Perte d'emploi",
+      "motsCles": [
+        "perdu mon emploi",
+        "licencié",
+        "chômage",
+        "fin de contrat",
+        "je suis au chômage",
+        "j'ai perdu mon travail"
+      ],
+      "consequences": [
+        "Ouverture possible de droits au chômage",
+        "Maintien des droits sociaux",
+        "Impact fiscal (revenus de remplacement)"
+      ],
+      "administrations": [
+        {
+          "id": "adem",
+          "nom": "Agence pour le développement de l'emploi (ADEM)"
+        },
+        {
+          "id": "ccss",
+          "nom": "Centre commun de la sécurité sociale (CCSS)"
+        },
+        {
+          "id": "impotsdirects",
+          "nom": "Administration des Contributions Directes (ACD)"
+        }
+      ],
+      "obligations": [],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Inscription comme demandeur d'emploi à l'ADEM",
+          "source": "https://guichet.public.lu/fr/citoyens/travail/perte-emploi-inactivite/chomage/inscription-adem.html"
+        }
+      ],
+      "documents": [
+        "Lettre de licenciement / fin de contrat",
+        "Certificat de travail",
+        "Derniers certificats de rémunération",
+        "Pièce d'identité"
+      ],
+      "delais": [
+        {
+          "quoi": "Inscription à l'ADEM",
+          "delai": "Sans tarder (idéalement avant la fin du contrat)"
+        }
+      ],
+      "exceptions": [
+        "Frontaliers : l'indemnisation du chômage complet relève en principe du pays de résidence — règles spécifiques à vérifier."
+      ],
+      "checklist": [
+        "S'inscrire à l'ADEM",
+        "Demander l'indemnité de chômage",
+        "Vérifier le maintien de la couverture CNS",
+        "Conserver les revenus de remplacement pour la déclaration fiscale"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/travail/perte-emploi-inactivite.html"
+    },
+    {
+      "id": "achat_immobilier",
+      "nom": "Achat immobilier",
+      "motsCles": [
+        "acheter un appartement",
+        "acheter une maison",
+        "acheté un appartement",
+        "acquisition immobilière",
+        "je deviens propriétaire"
+      ],
+      "consequences": [
+        "Droits d'enregistrement et de transcription",
+        "Crédit d'impôt Bëllegen Akt (résidence principale)",
+        "Changement d'adresse",
+        "Nouvelle assurance"
+      ],
+      "administrations": [
+        {
+          "id": "notaires",
+          "nom": "Notaire"
+        },
+        {
+          "id": "aed",
+          "nom": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)"
+        },
+        {
+          "id": "commune",
+          "nom": "Administration communale"
+        }
+      ],
+      "obligations": [],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Acte notarié et paiement des droits d'enregistrement",
+          "source": "https://guichet.public.lu/fr/citoyens/logement/achat-immobilier.html"
+        }
+      ],
+      "documents": [
+        "Compromis de vente",
+        "Justificatif de financement",
+        "Pièce d'identité",
+        "Preuve d'affectation à la résidence principale (Bëllegen Akt)"
+      ],
+      "delais": [
+        {
+          "quoi": "Changement d'adresse à la commune",
+          "delai": "Dans les jours suivant l'emménagement"
+        }
+      ],
+      "exceptions": [
+        "Le crédit Bëllegen Akt suppose l'affectation à la résidence principale ; l'investissement locatif relève d'un régime différent."
+      ],
+      "checklist": [
+        "Estimer les frais (paperasse logement acheteur --prix ...)",
+        "Signer l'acte chez le notaire",
+        "Souscrire l'assurance habitation",
+        "Déclarer le changement d'adresse"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/logement/achat-immobilier.html"
+    },
+    {
+      "id": "creation_entreprise",
+      "nom": "Création d'entreprise / début d'activité indépendante",
+      "motsCles": [
+        "créer ma société",
+        "créer une entreprise",
+        "devenir indépendant",
+        "lancer mon activité",
+        "monter ma boîte"
+      ],
+      "consequences": [
+        "Autorisation d'établissement",
+        "Immatriculation au RCS et au RBE",
+        "Assujettissement TVA",
+        "Affiliation sociale"
+      ],
+      "administrations": [
+        {
+          "id": "economie",
+          "nom": "Ministère de l'Économie — classes moyennes"
+        },
+        {
+          "id": "lbr",
+          "nom": "Luxembourg Business Registers (RCS/RBE)"
+        },
+        {
+          "id": "aed",
+          "nom": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)"
+        },
+        {
+          "id": "ccss",
+          "nom": "Centre commun de la sécurité sociale (CCSS)"
+        }
+      ],
+      "obligations": [
+        "obl_autorisation_etablissement",
+        "obl_rbe_mise_a_jour",
+        "obl_affiliation_ccss_independant"
+      ],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Immatriculation au RCS",
+          "source": "https://www.lbr.lu",
+          "id": "rcs_immatriculation"
+        },
+        {
+          "nom": "Immatriculation TVA auprès de l'AED",
+          "source": "https://guichet.public.lu/fr/entreprises/fiscalite/tva.html",
+          "id": "tva_immatriculation"
+        }
+      ],
+      "documents": [
+        "Pièce d'identité et casier judiciaire du dirigeant",
+        "Preuve de qualification le cas échéant",
+        "Statuts (pour une société)",
+        "Justificatif d'établissement fixe"
+      ],
+      "delais": [
+        {
+          "quoi": "Autorisation d'établissement",
+          "delai": "Avant le début de l'activité"
+        }
+      ],
+      "exceptions": [
+        "Certaines activités sont réglementées (qualification requise) ; d'autres sont libres. À vérifier selon le secteur."
+      ],
+      "checklist": [
+        "Obtenir l'autorisation d'établissement",
+        "Immatriculer au RCS et au RBE",
+        "Demander le numéro de TVA",
+        "S'affilier au CCSS",
+        "Voir le parcours : paperasse entreprise parcours"
+      ],
+      "source": "https://guichet.public.lu/fr/entreprises/creation-developpement.html"
+    },
+    {
+      "id": "cessation_activite",
+      "nom": "Cessation d'activité",
+      "motsCles": [
+        "arrêter mon activité",
+        "cesser mon activité",
+        "fermer ma société",
+        "cessation",
+        "liquidation"
+      ],
+      "consequences": [
+        "Clôture TVA",
+        "Radiation CCSS",
+        "Radiation RCS",
+        "Obligations déclaratives finales"
+      ],
+      "administrations": [
+        {
+          "id": "aed",
+          "nom": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)"
+        },
+        {
+          "id": "ccss",
+          "nom": "Centre commun de la sécurité sociale (CCSS)"
+        },
+        {
+          "id": "lbr",
+          "nom": "Luxembourg Business Registers (RCS)"
+        }
+      ],
+      "obligations": [
+        "obl_cessation_radiation"
+      ],
+      "obligationsHorsCatalogue": [],
+      "documents": [
+        "Décision de cessation / dissolution",
+        "Dernière déclaration TVA",
+        "Radiation des salariés au CCSS",
+        "Réquisition de radiation RCS"
+      ],
+      "delais": [
+        {
+          "quoi": "Radiations (TVA, CCSS, RCS)",
+          "delai": "À enchaîner après la décision de cessation"
+        }
+      ],
+      "exceptions": [
+        "L'ordre et les pièces varient selon la forme juridique (entreprise individuelle vs société)."
+      ],
+      "checklist": [
+        "Clôturer le compte TVA",
+        "Radier les salariés et l'employeur au CCSS",
+        "Déposer la réquisition de radiation au RCS",
+        "Conserver les documents comptables (10 ans)"
+      ],
+      "source": "https://guichet.public.lu/fr/entreprises/cessation-activite.html"
+    },
+    {
+      "id": "deces_succession",
+      "nom": "Décès d'un proche / succession",
+      "motsCles": [
+        "décès",
+        "succession",
+        "mon père est décédé",
+        "héritage",
+        "je dois régler une succession"
+      ],
+      "consequences": [
+        "Déclaration de succession",
+        "Droits de succession éventuels",
+        "Transmission du patrimoine",
+        "Clôture des comptes du défunt"
+      ],
+      "administrations": [
+        {
+          "id": "commune",
+          "nom": "État civil (commune)"
+        },
+        {
+          "id": "aed",
+          "nom": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)"
+        },
+        {
+          "id": "notaires",
+          "nom": "Notaire"
+        }
+      ],
+      "obligations": [],
+      "obligationsHorsCatalogue": [
+        {
+          "nom": "Déclaration de succession auprès de l'AED",
+          "source": "https://guichet.public.lu/fr/citoyens/famille/deces/declaration-succession.html"
+        }
+      ],
+      "documents": [
+        "Acte de décès",
+        "Livret de famille / actes d'état civil",
+        "Testament éventuel",
+        "Inventaire du patrimoine"
+      ],
+      "delais": [
+        {
+          "quoi": "Déclaration de succession",
+          "delai": "Délai légal après le décès (à vérifier selon le cas)"
+        }
+      ],
+      "exceptions": [
+        "Successions en ligne directe (enfants) largement exonérées de droits ; les autres cas suivent un barème. À vérifier auprès de l'AED / d'un notaire."
+      ],
+      "checklist": [
+        "Déclarer le décès à l'état civil",
+        "Contacter un notaire",
+        "Établir la déclaration de succession",
+        "Régler les droits éventuels"
+      ],
+      "source": "https://guichet.public.lu/fr/citoyens/famille/deces.html"
+    }
+  ]
+}

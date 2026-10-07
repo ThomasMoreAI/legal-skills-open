@@ -5,7 +5,7 @@ description: 用于合同条款风险审查，基于关键词与规则识别高�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/clause-risk-review-assistant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

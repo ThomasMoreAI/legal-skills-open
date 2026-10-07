@@ -5,7 +5,7 @@ description: Assess leasehold property saleability and mortgage impact. Use when
 author: MoverlyLtd
 author_url: https://github.com/MoverlyLtd/conveyancing-toolkit/tree/master/lease-impact-advisor
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: real-estate

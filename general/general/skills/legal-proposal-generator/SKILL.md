@@ -5,7 +5,7 @@ description: 根据案件材料或沟通记录生成诉讼方案、非诉方案�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-proposal-generator
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

@@ -28,8 +28,8 @@ The rate applies to the gross payment, not the net. If payer is paying $1,000 fo
 
 For the **no-TIN / wrong-TIN-format** case: immediately on the first payment after the W-9 issue is identified.
 
-For the **B-Notice (TIN mismatch)** case: payer receives CP2100 or CP2100A from the IRS, sends a B-Notice (first or second) to the recipient, and:
-- **First B-Notice**: gives recipient 30 business days to respond with a corrected W-9 (Form W-9 with proper certification). If no response within 30 business days, payer begins backup withholding on the **31st business day** after sending the B-Notice.
+For the **B-Notice (TIN mismatch)** case: payer receives CP2100 or CP2100A from the IRS, promptly sends a B-Notice (first or second) to the recipient, and:
+- **First B-Notice**: the payer may begin withholding right away and **must** withhold on any reportable payment made more than **30 business days after the payer received the IRS notice**, unless a certified Form W-9 has arrived; stop within 30 days after receiving the certified W-9 (Pub. 1099 (2026), part N; Reg. §31.3406(d)-5; Pub. 1281).
 - **Second B-Notice** (received from IRS within 3 calendar years for the same recipient): payer cannot rely on a new W-9; recipient must provide IRS Letter 147C (verification of TIN from IRS) or SSA Form SSA-7028. Failure → backup withholding starts immediately and continues until the verification is received.
 
 ### Stops
@@ -44,9 +44,9 @@ Backup withholding stops when:
 When backup withholding is active, the payer must:
 
 1. **Withhold 24% from each payment** to the affected recipient
-2. **Deposit the withheld amount with the IRS** via EFTPS, on the deposit schedule applicable to the payer (monthly or semi-weekly under Reg. §31.6302-1)
-3. **File Form 945** (Annual Return of Withheld Federal Income Tax) by January 31 of the following year, reporting all backup withholding for the year. Form 945 is separate from Form 941 (which is for employee withholding).
-4. **Issue Form 1099-NEC** to each affected recipient with Box 1 = total gross payments, Box 4 = total backup withholding amount, regardless of whether the gross crosses the $2,000 threshold (backup withholding requires a 1099-NEC).
+2. **Deposit the withheld amount with the IRS** by EFT (EFTPS, IRS Direct Pay, or business tax account), on the Form 945 deposit schedule (monthly or semi-weekly; the Form 945 lookback period is the second preceding calendar year — Pub. 15 (2026), section 11)
+3. **File Form 945** (Annual Return of Withheld Federal Income Tax) by January 31 of the following year (February 1, 2027 for 2026), reporting all backup withholding for the year on line 2. Form 945 is separate from Form 941 (which is for employee withholding).
+4. **Issue Form 1099-NEC** to each affected recipient with Box 1a (Box 1 for 2025) = total gross payments, Box 4 = total backup withholding amount, regardless of whether the gross crosses the $2,000 threshold (backup withholding requires a 1099-NEC).
 5. **File Copy A with IRS** along with all other 1099-NECs.
 
 ## Recipient consequences
@@ -55,14 +55,14 @@ The recipient who had backup withholding applied:
 
 - Receives 1099-NEC with Box 4 > 0
 - Reports the gross income (Box 1) on Schedule C or Schedule 1
-- Claims credit for the withheld amount on **Form 1040 Line 25c** (federal income tax withheld from forms 1099)
+- Claims credit for the withheld amount on **Form 1040 Line 25b** (federal income tax withheld from Form(s) 1099; 2025 Form 1040)
 - The withheld amount counts against the recipient's federal income tax liability — same as if it were W-2 withholding
 
 Backup withholding is **not** a penalty to the recipient (the money is credited against their actual tax). It's a cash-flow inconvenience and a signal to the recipient to fix the underlying TIN issue.
 
 ## How to avoid backup withholding (payer's playbook)
 
-1. **Get a W-9 BEFORE the first payment**. Don't pay until W-9 is on file with TIN.
+1. **Get a W-9 BEFORE the first payment**. Don't pay until W-9 is on file with TIN. (After P.L. 119-21, backup withholding on contractor payments generally starts once the payee's annual total reaches the $2,000 reporting amount, or if the payee was reportable or backup-withheld in the prior year — IRC §3406(b)(6); Pub. 1099 (2026), What's New.)
 2. **Verify the W-9 via TIN Matching**. The IRS offers a free TIN Matching service through e-Services for payers who file 1099s. Submit the recipient's name + TIN and get a match / no-match response in real time.
 3. **Apply backup withholding immediately** if the W-9 is missing, incomplete, or fails TIN matching. The payer is liable for the 24% even if they didn't withhold (i.e., if no W-9 was on file and payer paid full amount, payer owes the IRS the 24% out of payer's own pocket).
 4. **Document everything**. Keep W-9s, TIN matching responses, B-Notices, and recipient correspondence. The B-Notice process has strict timelines and the documentation is the payer's defense.
@@ -89,9 +89,9 @@ Payer Acme Corp pays freelance writer Jamie $5,000 for an article in 2026. Jamie
 - Backup withholding (24%): $1,200
 - Net to Jamie: $3,800
 - Acme deposits $1,200 with IRS via EFTPS
-- Acme files Form 945 by January 31, 2027, reporting $1,200 backup withholding
-- Acme issues 1099-NEC to Jamie: Box 1 = $5,000, Box 4 = $1,200
-- Jamie reports $5,000 on Schedule C (or Schedule 1 if not a business), claims $1,200 on Form 1040 Line 25c
+- Acme files Form 945 by February 1, 2027 (January 31, 2027 is a Sunday), reporting $1,200 backup withholding on line 2
+- Acme issues 1099-NEC to Jamie: Box 1a = $5,000, Box 4 = $1,200
+- Jamie reports $5,000 on Schedule C (or Schedule 1 if not a business), claims $1,200 on the Form 1040 line for Form 1099 withholding (line 25b on the 2025 form)
 
 If Jamie's actual federal income tax for 2026 is, say, $900 (low-income year), the $1,200 backup withholding generates a $300 refund.
 
@@ -99,15 +99,16 @@ If Jamie's actual federal income tax for 2026 is, say, $900 (low-income year), t
 
 Form 945 is the annual reconciliation for backup withholding (and for non-payroll federal income tax withholding more generally — like withholding on pension distributions, gambling winnings, etc.).
 
-- Form 945 Line 1: federal income tax withheld from non-payroll payments (sum of all Box 4 across all 1099s)
-- Form 945 Line 2: backup withholding (subset of Line 1 that's specifically backup withholding)
-- Line 4-6: reconcile against deposits made via EFTPS
-- Line 7: balance due or overpayment
+- Form 945 Line 1: federal income tax withheld from pensions, annuities, IRAs, gambling winnings, etc.
+- Form 945 Line 2: backup withholding (the Box 4 amounts on 1099-NEC and other 1099s)
+- Line 3: total taxes (Line 1 + Line 2)
+- Line 4: total deposits; Line 5: balance due; Lines 6a–6e: overpayment, refund/apply choice, direct deposit
+- Line 7: monthly summary of tax liability (monthly depositors only; semi-weekly depositors use Form 945-A)
 
-Form 945 is due **January 31** following the calendar year. If all deposits were made on time, the deadline extends to **February 10**.
+(2025 Form 945.) Form 945 is due **January 31** following the calendar year. If all deposits were made on time, the deadline extends to **February 10**.
 
 Source: https://www.irs.gov/forms-pubs/about-form-945
 
 ## State backup withholding
 
-Some states have their own backup withholding regimes. California Form 592 / Form 593 implement state withholding on payments to non-residents performing services in California (7% rate, separate from federal 24%). Check the state's franchise tax board for state rules.
+Some states have their own withholding regimes (for example, California nonresident withholding reported on FTB Form 592). This skill does not carry verified state rates: check the state's revenue department for current rules.

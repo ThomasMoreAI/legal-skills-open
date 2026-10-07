@@ -5,7 +5,7 @@ description: Use when reviewing Russian-law contracts, offers, policies, persona
 author: ni032mas
 author_url: https://github.com/ni032mas/agent-skills-ru/tree/main/skills/ru-legal-contract-review
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ru
 practice: contracts

@@ -5,7 +5,7 @@ description: 'Für Liquiditätsvorschau 3/6/12 Monate: ordnet Norm, Beweislast u
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/stb-liquiditaetsvorschau-3-6-12-monate
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: tax

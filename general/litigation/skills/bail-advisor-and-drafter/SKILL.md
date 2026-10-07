@@ -5,7 +5,7 @@ description: Determines the correct bail posture in India — anticipatory (pre-
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/bail-advisor-and-drafter
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

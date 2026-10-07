@@ -1,0 +1,1 @@
+Upstream skill snapshot: upstream-import/claude-skills/references/ra-qm-team/gdpr-dsgvo-expert

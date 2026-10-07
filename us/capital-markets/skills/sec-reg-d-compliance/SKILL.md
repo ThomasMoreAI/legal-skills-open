@@ -5,7 +5,7 @@ description: 'SEC Regulation D compliance for CRE syndications: 506(b) vs 506(c)
 author: mariourquia
 author_url: https://github.com/mariourquia/cre-skills-plugin/tree/main/src/skills/sec-reg-d-compliance
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: capital-markets

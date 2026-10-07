@@ -6,7 +6,7 @@ description: Federal acquisition compliance auditor for the active Theseus works
 author: BdM-15
 author_url: https://github.com/BdM-15/proj-theseus/tree/main/.github/skills/compliance-auditor
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: government-contracts

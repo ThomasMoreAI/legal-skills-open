@@ -5,7 +5,7 @@ description: Analyses an Indian police report, chargesheet, final report, supple
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/chargesheet-analyst
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

@@ -1,11 +1,11 @@
 ---
 name: icij-offshore-leaks-nolpak14
-title: 'Icij offshore leaks'
+title: Icij offshore leaks
 description: 'Search a person or company against the ICIJ Offshore Leaks Database for free - the Panama Papers, Paradise Papers, Pandora Papers, Bahamas Leaks and Offshore Leaks records of offshore entities, officers and intermediaries, for enhanced due diligence. Use for offshore-structure red-flags and the offshore leg of an enhanced-DD / EDD / KYC / AML workflow. Trigger on: ''offshore leaks'', ''Panama Papers'', ''Pandora Papers'', ''Paradise Papers'', ''offshore entities'', ''is this person in the offshore leaks'', ''offshore structure'', ''ICIJ'', ''shell company search'', ''enhanced due diligence''. This is a leak-data red-flag lane, NOT a company registry and NOT proof of wrongdoing - a match is a prompt to dig deeper, never a conclusion; no API key required.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/icij-offshore-leaks
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: white-collar
@@ -127,3 +127,7 @@ For the full workflow - risk scoring, adverse-media overlay, cross-source valida
 - **`sam-gov-exclusions`** - the US federal debarment lane.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework; offshore exposure is one of its enhanced-DD risk dimensions.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure, then search each leg here.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

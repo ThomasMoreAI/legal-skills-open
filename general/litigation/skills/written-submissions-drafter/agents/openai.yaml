@@ -1,0 +1,4 @@
+interface:
+  display_name: "Written Submissions Drafter"
+  short_description: "Draft issue-led record-linked submissions"
+  default_prompt: "Use $written-submissions-drafter to prepare concise written submissions organised by issue, legal test, record, answer to the other side, and precise relief."

@@ -1,0 +1,26 @@
+evals:
+  - mode: live_source
+    prompt: >
+      Investigate Tesco PLC company number 00445790 from Companies House. Identify profile, charges, PSC status, and risk leads, but avoid allegations.
+    must_include:
+      - confidence
+      - company_snapshot
+      - date_checked
+      - registry_evidence
+      - risk_lead not allegation
+      - identity caution
+    must_not_include:
+      - nominee
+      - wrongdoing
+  - mode: no_source
+    prompt: >
+      Investigate a UK company, but I only know the name and you have no Companies House access or supplied exports.
+    must_include:
+      - confidence
+      - no_source
+      - search plan
+      - ask for company number or registry material
+    must_not_include:
+      - active company
+      - officers
+      - charges

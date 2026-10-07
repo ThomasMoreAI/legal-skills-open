@@ -1,0 +1,119 @@
+# -- Template metadata -------------------------------------------------
+meta:
+  display_name: "Meeting Notes"
+  description: "Structured meeting notes with action items, optional sections, and meeting-type-specific content"
+
+# -- Variable overrides ------------------------------------------------
+variables:
+  meeting_title:
+    label: "Meeting Title"
+    question: "What is the title of this meeting?"
+    required: true
+
+  meeting_date:
+    question: "When was the meeting held?"
+    default: "today"
+    format_hint: "DD/MM/YYYY"
+
+  facilitator_name:
+    label: "Facilitator"
+    question: "Who facilitated the meeting?"
+    required: true
+
+  meeting_location:
+    label: "Location"
+    question: "Where was the meeting held?"
+    format_hint: "Room name, building, or virtual meeting link"
+
+  meeting_type:
+    type: choice
+    choices: [standup, workshop, review]
+    question: "What type of meeting was this?"
+    default: "standup"
+
+  attendees:
+    question: "Who attended the meeting?"
+    description: "List the attendees, one per line or comma-separated"
+    required: true
+
+  agenda:
+    question: "What was the agenda?"
+    required: true
+
+  discussion_summary:
+    label: "Discussion Summary"
+    question: "Summarize the key discussion points."
+    required: true
+
+  workshop_materials:
+    label: "Workshop Materials"
+    question: "What materials were used or distributed during the workshop?"
+
+  items_reviewed:
+    label: "Items Reviewed"
+    question: "What items or topics were reviewed?"
+
+  decisions_made:
+    type: boolean
+    question: "Were any decisions made during this meeting?"
+    default: false
+
+  decisions:
+    question: "What decisions were made?"
+
+  include_next_meeting:
+    type: boolean
+    question: "Is a follow-up meeting scheduled?"
+    default: false
+
+  next_meeting_date:
+    question: "When is the next meeting?"
+    format_hint: "DD/MM/YYYY"
+
+  next_meeting_topic:
+    label: "Next Meeting Topic"
+    question: "What will the next meeting cover?"
+
+  recorder_name:
+    label: "Recorder"
+    question: "Who recorded these notes?"
+    required: true
+
+# -- Interview groups --------------------------------------------------
+groups:
+  - name: "Meeting Details"
+    variables: [meeting_title, meeting_date, meeting_type, facilitator_name, meeting_location]
+
+  - name: "Attendees & Agenda"
+    variables: [attendees, agenda]
+
+  - name: "Discussion"
+    variables: [discussion_summary]
+
+  - name: "Workshop Materials"
+    condition: "meeting_type == 'workshop'"
+    variables: [workshop_materials]
+
+  - name: "Review Items"
+    condition: "meeting_type == 'review'"
+    variables: [items_reviewed]
+
+  - name: "Action Items"
+    loop: action_items
+    variables: [description, assignee, due_date]
+
+  - name: "Decisions"
+    condition: decisions_made
+    variables: [decisions]
+
+  - name: "Next Meeting"
+    condition: include_next_meeting
+    variables: [next_meeting_date, next_meeting_topic]
+
+  - name: "Recording"
+    variables: [recorder_name]
+
+# -- Cross-field validation --------------------------------------------
+validation:
+  - rule: "next_meeting_date > meeting_date"
+    message: "The next meeting date must be after this meeting's date"

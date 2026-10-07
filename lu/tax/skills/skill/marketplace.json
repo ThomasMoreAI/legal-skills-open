@@ -1,0 +1,65 @@
+{
+  "name": "paperasse-lux",
+  "description": "Skills pour agents IA spécialisés dans la bureaucratie luxembourgeoise",
+  "version": "0.1.0",
+  "author": "gregherbe76",
+  "license": "MIT",
+  "country": "LU",
+  "language": "fr",
+  "skills": [
+    {
+      "slug": "comptable",
+      "name": "Expert-Comptable Luxembourg",
+      "path": "comptable/SKILL.md",
+      "description": "PCN (Règlement grand-ducal du 12 sept. 2019), TVA Lux (17/14/8/3 %), IRC + ICC + IF, clôture annuelle, FAIA, eCDF, dépôt RCS, facturation Peppol B2G obligatoire"
+    },
+    {
+      "slug": "controleur-fiscal",
+      "name": "Contrôleur Fiscal ACD/AED",
+      "path": "controleur-fiscal/SKILL.md",
+      "description": "Simulation de contrôle fiscal sur 8 axes : TVA, IRC, ICC, IF, prix de transfert, frais de personnel, amortissements, provisions"
+    },
+    {
+      "slug": "commissaire-aux-comptes",
+      "name": "Réviseur d'entreprises agréé",
+      "path": "commissaire-aux-comptes/SKILL.md",
+      "description": "Audit légal en 7 phases selon ISA-LUX, validation FAIA / bilan / CR / eCDF, opinion motivée"
+    },
+    {
+      "slug": "fiscaliste",
+      "name": "Fiscaliste Particuliers",
+      "path": "fiscaliste/SKILL.md",
+      "description": "RTS, classes 1 / 1a / 2 (splitting), barème progressif IRPP, abattements et déductions, frontaliers, retraite, prime participative, stock-options"
+    },
+    {
+      "slug": "notaire",
+      "name": "Notaire",
+      "path": "notaire/SKILL.md",
+      "description": "Frais d'acte, droits d'enregistrement 6 % + transcription 1 %, abattement Bëllegen Akt 40 000 €/personne (loi 2024), successions ligne directe exonérées, donations, contrat de mariage, PACS"
+    },
+    {
+      "slug": "syndic",
+      "name": "Syndic de Copropriété",
+      "path": "syndic/SKILL.md",
+      "description": "Gestion selon loi du 16 mai 1975 modifiée par la loi du 16 décembre 2019 : AG, appels de fonds, fonds de prévoyance, état daté, contentieux et recouvrement"
+    }
+  ],
+  "data": [
+    "data/communes-icc.json",
+    "data/pcn-comptes-detail.json",
+    "data/sources.json"
+  ],
+  "references": [
+    "references/legilux-flux-rss.md"
+  ],
+  "templates": [
+    "templates/convocation-ag-copropriete.md",
+    "templates/declaration-tva-100-checklist.md",
+    "templates/facture-lux.html",
+    "templates/pv-approbation-comptes.md"
+  ],
+  "scripts": [
+    "scripts/calc.js",
+    "scripts/generate-faia.js"
+  ]
+}

@@ -1,0 +1,23 @@
+evals:
+  - mode: user_supplied_source
+    prompt: >
+      I have a master DOCX, a partner markup, and a client markup. The partner expands the indemnity, the client deletes it, and there are table edits you may not be able to parse. Compile a review checklist; do not merge the document.
+    must_include:
+      - resolution checklist
+      - not merged
+      - conflict or potential_conflict
+      - needs_manual_review
+      - open or unresolved status
+    must_not_include:
+      - accepted the changes
+      - merged document
+  - mode: no_source
+    prompt: >
+      Can you compile the comments from three Word files? I cannot upload the files or paste extracted comments yet.
+    must_include:
+      - intake checklist
+      - cannot claim extracted Word comments
+      - ask for DOCX files, exports, or pasted comments
+    must_not_include:
+      - extracted comments
+      - conflict report based on unseen files

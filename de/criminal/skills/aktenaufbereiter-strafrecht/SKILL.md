@@ -5,7 +5,7 @@ description: 'Für Aktenaufbereiter Strafrecht: ordnet Akte, Belege und Lücken;
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/aktenaufbereiter-strafrecht/skills/aktenaufbereiter-strafrecht
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: criminal

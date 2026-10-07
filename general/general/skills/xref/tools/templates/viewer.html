@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title|e }} - Xref</title>
+    <style>{{ css }}</style>
+</head>
+<body>
+    <div class="provenance-bar">
+        <span class="provenance-item"><strong>Source:</strong> {{ source_file|e }}</span>
+        <span class="provenance-item"><strong>Generated:</strong> {{ generated_at|e }}</span>
+        <span class="provenance-item"><strong>SHA-256:</strong> <code>{{ source_hash[:12]|e }}</code></span>
+    </div>
+
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <button class="tab-btn active" data-tab="glossary">Glossary</button>
+                <button class="tab-btn" data-tab="health">Health</button>
+                <button class="tab-btn" data-tab="toc">TOC</button>
+            </div>
+
+            <div class="sidebar-search">
+                <input type="text" id="search-box" placeholder="Search document..." />
+                <div id="search-status" class="search-status" aria-live="polite"></div>
+            </div>
+
+            <div class="tab-content active" id="tab-glossary">
+                <h3>Defined Terms</h3>
+                {% if defined_terms %}
+                <div class="glossary-list">
+                    {% for term in defined_terms %}
+                    {% set d = term.definition_expanded or term.definition %}
+                    <div class="glossary-item" data-term="{{ term.term|e }}">
+                        <div class="term-name">{{ term.term|e }}</div>
+                        <div class="term-def">{{ d[:150]|e }}{% if d|length > 150 %}...{% endif %}</div>
+                        <div class="term-meta">
+                            {% if term.resolved_from %}
+                            Resolved from {{ term.resolved_from|e }}
+                            {% elif term.defined_in %}
+                            Defined in {{ term.defined_in|e }}
+                            {% else %}
+                            Defined in document
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="empty-state">No defined terms were detected.</p>
+                {% endif %}
+            </div>
+
+            <div class="tab-content" id="tab-health">
+                <h3>Document Health</h3>
+                <div class="health-stats">
+                    <div class="stat-item">
+                        <span class="stat-label">Internal references</span>
+                        <span class="stat-value">{{ internal_refs|length }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Defined terms</span>
+                        <span class="stat-value">{{ defined_terms|length }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Term uses</span>
+                        <span class="stat-value">{{ defined_term_usages|length }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">External citations</span>
+                        <span class="stat-value">{{ external_citations|length }}</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Unresolved items</span>
+                        <span class="stat-value">{{ unresolved|length }}</span>
+                    </div>
+                </div>
+
+                {% if unresolved %}
+                <h4>Unresolved Items</h4>
+                <div class="unresolved-list">
+                    {% for item in unresolved %}
+                    <a class="unresolved-item" href="#{{ item.id|e }}" data-panel-id="panel-{{ item.id|e }}">
+                        <div class="unresolved-type">{{ item.unresolved_type|replace("_", " ")|e }}</div>
+                        <div class="unresolved-text">{{ item.text|e }}</div>
+                        <div class="unresolved-reason">{{ item.reason|e }}</div>
+                    </a>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="empty-state">No unresolved references or terms were detected.</p>
+                {% endif %}
+            </div>
+
+            <div class="tab-content" id="tab-toc">
+                <h3>Table of Contents</h3>
+                {% if flat_sections %}
+                <div class="toc-list">
+                    {% for section in flat_sections %}
+                    <div class="toc-item level-{{ section.level }}" data-section="{{ section.id|e }}">
+                        <a href="#{{ section.anchor|e }}">
+                            {% if section.number %}{{ section.number|e }} {% endif %}{{ section.title|e }}
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="empty-state">No section headings were detected.</p>
+                {% endif %}
+            </div>
+        </aside>
+
+        <main class="document-content" id="document-content">
+            <h1 class="document-title">{{ title|e }}</h1>
+
+            <div class="document-text">
+                {{ document_html }}
+            </div>
+
+            <div id="hover-panels">
+                {% for ref in internal_refs %}
+                <div class="hover-panel" id="panel-{{ ref.id|e }}" data-ref-id="{{ ref.id|e }}">
+                    <div class="panel-header">
+                        <strong>{{ ref.target.number|e }}</strong> {{ ref.target.title|e }}
+                    </div>
+                    <div class="panel-body">
+                        {{ ref.target.text[:1200]|e }}{% if ref.target.text|length > 1200 %}...{% endif %}
+                    </div>
+                    <div class="panel-footer">
+                        <a href="#{{ ref.target.anchor|e }}" class="jump-link">Jump to section</a>
+                    </div>
+                </div>
+                {% endfor %}
+
+                {% for item in unresolved %}
+                <div class="hover-panel unresolved-panel" id="panel-{{ item.id|e }}" data-unresolved-id="{{ item.id|e }}">
+                    <div class="panel-header">
+                        <strong>{{ item.text|e }}</strong>
+                    </div>
+                    <div class="panel-body">
+                        {{ item.reason|e }}
+                    </div>
+                    {% if item.context %}
+                    <div class="panel-footer">
+                        {{ item.context|e }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+
+                {% for term in defined_terms %}
+                {% set d = term.definition_expanded or term.definition %}
+                <div class="hover-panel term-panel" id="{{ term.panel_id|e }}" data-term="{{ term.term|e }}">
+                    <div class="panel-header">
+                        <strong>{{ term.term|e }}</strong>
+                    </div>
+                    <div class="panel-body">
+                        {{ d|e }}
+                    </div>
+                    <div class="panel-footer">
+                        {% if term.scope == "global" %}
+                        Defined in {{ (term.defined_in or "document")|e }}
+                        {% else %}
+                        Scoped definition: {{ term.scope|e }}
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+
+                {% for ext in external_citations %}
+                <div class="hover-panel external-panel" id="panel-{{ ext.id|e }}" data-citation="{{ ext.id|e }}">
+                    <div class="panel-header">
+                        <strong>{{ ext.citation_text|e }}</strong>
+                    </div>
+                    <div class="panel-body">
+                        {% if ext.heading %}
+                        <div class="ext-heading">{{ ext.heading|e }}</div>
+                        {% endif %}
+                        {% if ext.statute_text and not compact %}
+                        <div class="ext-text">{{ ext.statute_text[:1200]|e }}{% if ext.statute_text|length > 1200 %}...{% endif %}</div>
+                        {% elif ext.error %}
+                        <div class="ext-text">Citation text was not fetched: {{ ext.error|e }}</div>
+                        {% else %}
+                        <div class="ext-text">External citation detected. Use the official source link for the full text.</div>
+                        {% endif %}
+                    </div>
+                    {% if ext.source_url %}
+                    <div class="panel-footer">
+                        <a href="{{ ext.source_url|e }}" target="_blank" rel="noopener noreferrer" class="external-link">Open official source</a>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+
+    <script>
+        window.xrefData = {
+            sections: {{ flat_sections|tojson }},
+            internal_refs: {{ internal_refs|tojson }},
+            defined_terms: {{ defined_terms|tojson }},
+            defined_term_usages: {{ defined_term_usages|tojson }},
+            external_citations: {{ external_citations|tojson }},
+            unresolved: {{ unresolved|tojson }}
+        };
+
+        {{ js }}
+    </script>
+</body>
+</html>

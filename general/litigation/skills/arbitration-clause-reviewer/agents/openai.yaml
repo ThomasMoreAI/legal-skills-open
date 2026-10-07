@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arbitration Clause Reviewer"
+  short_description: "Review arbitration clauses for defects and risk"
+  default_prompt: "Use $arbitration-clause-reviewer to test this clause's seat, rules, appointment process, and enforceability."

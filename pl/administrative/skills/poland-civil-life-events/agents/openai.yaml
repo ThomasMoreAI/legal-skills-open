@@ -1,0 +1,5 @@
+interface:
+  display_name: "Poland Civil Life Events"
+  short_description: "Poland Civil Life Events: run focused tasks"
+policy:
+  allow_implicit_invocation: false

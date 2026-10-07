@@ -5,7 +5,7 @@ description: Patent prior-art and landscape intelligence skill — not generic p
 author: alirezarezvani
 author_url: https://github.com/alirezarezvani/claude-skills/tree/main/research/patent/skills/patent
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: ip

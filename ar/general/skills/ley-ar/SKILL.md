@@ -5,7 +5,7 @@ description: Search Argentine legal databases (SAIJ, JUBA, CSJN, JUSCABA) for ju
 author: NeverSight
 author_url: https://github.com/NeverSight/learn-skills.dev/tree/main/data/skills-md/0juano/agent-skills/ley-ar
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ar
 practice: general

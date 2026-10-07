@@ -5,7 +5,7 @@ description: Regulatory and legal compliance audit. Discovers which frameworks a
 author: Nordic-AI
 author_url: https://github.com/Nordic-AI/production-readiness-skills/tree/main/skills/compliance-check
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

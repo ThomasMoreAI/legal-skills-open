@@ -5,7 +5,7 @@ description: Implementing server-side tracking with privacy controls using Googl
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/server-side-tracking
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

@@ -5,7 +5,7 @@ description: 用于信托领域合同与法务中的文本差异高亮助手场�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/text-diff-highlight
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

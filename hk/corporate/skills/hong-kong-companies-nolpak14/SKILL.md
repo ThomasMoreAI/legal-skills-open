@@ -1,11 +1,11 @@
 ---
 name: hong-kong-companies-nolpak14
-title: 'Hong kong companies'
+title: Hong kong companies
 description: 'Look up Hong Kong companies for free via the official Companies Registry open-data API on data.gov.hk / data.cr.gov.hk - company name (English + Chinese), BRN / CR number (Business Registration Number), registered office address, company type, and date of incorporation, for live local companies (a parallel endpoint covers registered non-HK companies). Use for KYB / know-your-business checks, counterparty verification, BRN resolution, and Hong Kong company due diligence. Trigger on: ''Hong Kong company'', ''Companies Registry'', ''CR number'', ''BRN'', ''Business Registration Number'', ''check a Hong Kong company'', ''is this HK company live'', ''ICRIS'', ''data.gov.hk company''. The open-data API is free and keyless; for directors, share capital, filings and dissolved entities - and for jurisdictions with no free API - this skill points you to the paid ICRIS Cyber Search and the regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/hong-kong-companies
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: hk
 practice: corporate
@@ -139,3 +139,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for jurisdictions with no free API.
 - **`sanctions-pep-screening`** - screen the entity (and, once you have them from ICRIS, its officers) against sanctions and PEP lists.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

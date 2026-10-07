@@ -5,7 +5,7 @@ description: Analyze construction contract clauses. Identify risks, obligations,
 author: datadrivenconstruction
 author_url: https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction/tree/main/1_DDC_Toolkit/Document-Control/contract-clause-analyzer
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: construction

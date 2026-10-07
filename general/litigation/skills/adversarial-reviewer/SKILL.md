@@ -5,7 +5,7 @@ description: Attacks a finished draft the way opposing counsel, a skeptical judg
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/adversarial-reviewer
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

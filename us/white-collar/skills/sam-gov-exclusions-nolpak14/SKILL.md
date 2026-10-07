@@ -1,11 +1,11 @@
 ---
 name: sam-gov-exclusions-nolpak14
-title: 'Sam gov exclusions'
+title: Sam gov exclusions
 description: 'Screen a person or company against the official US federal debarment and exclusions list for free - SAM.gov Exclusions (the System for Award Management, formerly EPLS). Use for US government debarment and suspension screening, the exclusions leg of a KYC/AML/KYB workflow, federal contractor eligibility checks, and confirming a counterparty is not barred from US federal awards. Trigger on: ''SAM.gov'', ''SAM exclusions'', ''debarment check'', ''is this company debarred'', ''federal suspension'', ''excluded parties'', ''EPLS'', ''US government screening'', ''excluded from federal contracts''. The exclusions data is free with an ordinary personal API key; the sensitive/FOUO entity registration data is federal-gated and out of scope here.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/sam-gov-exclusions
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: white-collar
@@ -134,3 +134,7 @@ For the full workflow - risk scoring, adverse-media overlay, cross-registry vali
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework; sanctions, PEP, and debarment are risk dimensions within it.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure, then screen each leg.
 - **`companies-house-uk`** / **`sec-edgar-us`** - free sources for the entity and the people to screen.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

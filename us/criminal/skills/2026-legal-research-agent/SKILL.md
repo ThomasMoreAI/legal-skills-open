@@ -5,11 +5,16 @@ description: Expert legal research agent for finding and scraping expungement da
 author: curiositech
 author_url: https://github.com/curiositech/some_claude_skills/tree/main/.claude/skills/2026-legal-research-agent
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: criminal
 language: en
+sources:
+- title: Clean slate timeline
+  path: references/clean-slate-timeline.md
+- title: Url patterns by state
+  path: references/url-patterns-by-state.md
 ---
 
 # 2026 Legal Research Agent

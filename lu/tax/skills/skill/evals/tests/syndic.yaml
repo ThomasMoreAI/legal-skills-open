@@ -1,0 +1,30 @@
+skill: syndic
+cases:
+  - id: ag-convocation-delai
+    prompt: "Quel est le délai légal pour convoquer une assemblée générale ordinaire de copropriété au Luxembourg ? Et quels documents doivent y être annexés ?"
+    must_contain:
+      - "21 jours"
+      - "ordre du jour"
+    must_not_contain:
+      - "15 jours" # c'est le délai de mise en demeure pour impayés, pas la convocation
+      - "8 jours"
+    rubric: |
+      Loi du 16 mai 1975 modifiée portant statut de la copropriété des immeubles
+      bâtis (réformée par la loi du 6 décembre 2019, en vigueur 1er janvier 2020).
+      Convocation à l'AG envoyée au moins 21 jours avant la date de tenue, par
+      lettre recommandée AR (ou email si accord préalable). Doivent être annexés :
+      ordre du jour détaillé, comptes annuels du syndicat, projet de budget
+      prévisionnel, contrats proposés au vote (≥ seuil), état des impayés.
+      Voir syndic/references/ag-deroulement.md.
+
+  - id: fonds-prevoyance-2019
+    prompt: "Le fonds de prévoyance dans une copropriété luxembourgeoise : qui le constitue, quelles obligations depuis la réforme de 2019 ?"
+    must_contain:
+      - "fonds"
+      - "2019"
+    rubric: |
+      Réforme par la loi du 6 décembre 2019 (entrée en vigueur 1er janvier 2020) :
+      fonds de prévoyance OBLIGATOIRE, alimenté par cotisations annuelles des
+      copropriétaires (% des charges courantes), destiné aux gros travaux et
+      remplacements d'équipements. Géré par le syndic, comptabilité séparée des
+      charges courantes. Ne peut pas être utilisé pour les charges courantes.

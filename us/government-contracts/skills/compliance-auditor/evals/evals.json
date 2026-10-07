@@ -1,0 +1,60 @@
+{
+  "skill_name": "compliance-auditor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Audit this RFP for FAR and DFARS clause coverage. Flag every clause that has no APPLIES_TO edge and every shall requirement with no deliverable.",
+      "expected_output": "A JSON artifact at artifacts/compliance_audit.json with a findings array containing one finding per failing entity (no aggregation), each with severity, entity_id, evidence, remediation, and at least one chunk_id in source_chunks. The cover note names the top three findings by entity name and reports severity counts.",
+      "expectations": [
+        "The skill called kg_entities at least once requesting types including 'clause', 'requirement', 'deliverable'.",
+        "The skill called kg_chunks at least once with a query mentioning 'shall', 'FAR', 'DFARS', or 'clause'.",
+        "The skill called write_file with target path 'artifacts/compliance_audit.json'.",
+        "Every finding object has non-empty entity_id and at least one chunk_id in source_chunks.",
+        "stats severity counts equal the number of findings per severity (no count mismatch warning)."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Are all the cybersecurity references in this RFP covered by a proposal volume? Check NIST SP 800-171, CMMC, and FedRAMP.",
+      "expected_output": "C6 cybersecurity cross-cut findings in artifacts/compliance_audit.json. If a NIST SP 800-171 / CMMC / FedRAMP reference exists with no cybersecurity-tagged proposal_volume or document_section, raise a high finding citing the regulatory_reference entity_id and chunk_ids.",
+      "expectations": [
+        "The skill called kg_entities requesting 'regulatory_reference' AND 'proposal_volume' (or 'document_section').",
+        "The skill read references/cybersecurity_crosscut.md via read_file.",
+        "Any C6 finding cites the regulatory_reference entity_id and at least one chunk_id."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Which proposal_instruction entities don't have a corresponding evaluation_factor link? I need to know our Section L↔M coverage gaps.",
+      "expected_output": "C4 findings in artifacts/compliance_audit.json. One finding per proposal_instruction with no GUIDES edge to an evaluation_factor (and per evaluation_factor with no inbound EVALUATED_BY/GUIDES edge). Findings must NOT raise solely because of missing 'Section L' or 'Section M' literal labels.",
+      "expectations": [
+        "The skill called kg_entities requesting 'proposal_instruction' AND 'evaluation_factor'.",
+        "The skill ran a kg_query traversal OR used the relationships payload from kg_entities to detect missing edges.",
+        "No finding evidence text contains the phrase 'missing Section L label' or 'missing Section M label'.",
+        "Each C4 finding's entity_id matches a real entity from the workspace."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Validate every FAR/DFARS clause cited in this RFP against the live eCFR. Flag any clause number that does not exist or appears to be a typo.",
+      "expected_output": "C9 findings in artifacts/compliance_audit.json. For each clause entity with a FAR/DFARS-shaped number that lookup_far_clause cannot resolve against eCFR, raise a critical finding (likely fabricated or typo'd clause). Findings cite the entity_id, the queried clause number, and at least one chunk_id of evidence showing where the clause is referenced in the workspace.",
+      "expectations": [
+        "The skill called kg_entities requesting 'clause'.",
+        "The skill called mcp__ecfr__lookup_far_clause at least once with a real clause number from the workspace.",
+        "Any C9 finding cites the entity_id AND includes the queried clause number in the evidence string.",
+        "C9 findings carry severity 'critical' (fabricated clauses block any compliant proposal)."
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Has any FAR clause cited in this RFP been amended since the solicitation was issued? I need to know which clause text might be stale.",
+      "expected_output": "C10 findings in artifacts/compliance_audit.json. For each clause entity with a FAR/DFARS number, the skill calls mcp__ecfr__get_version_history (or compare_versions) and flags clauses whose most-recent eCFR amendment date is after the workspace's solicitation issuance date. Severity medium. Findings cite the entity_id, the amendment date, and the issuance date for comparison.",
+      "expectations": [
+        "The skill called mcp__ecfr__get_version_history OR mcp__ecfr__compare_versions for at least one clause.",
+        "C10 findings reference both the eCFR amendment date AND the workspace solicitation issuance date in the evidence.",
+        "C10 findings carry severity 'medium'.",
+        "If the workspace has no extractable issuance date, the skill emits an info finding noting that C10 was deferred (rather than fabricating a date)."
+      ]
+    }
+  ]
+}

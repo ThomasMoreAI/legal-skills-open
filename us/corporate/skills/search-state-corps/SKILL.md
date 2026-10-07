@@ -5,7 +5,7 @@ description: Busca empresas onde uma pessoa brasileira aparece como officer, reg
 author: reichaves
 author_url: https://github.com/reichaves/due-diligence-transnacional/tree/main/skills/search-state-corps
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: corporate

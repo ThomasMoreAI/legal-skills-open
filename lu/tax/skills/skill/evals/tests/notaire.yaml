@@ -1,0 +1,52 @@
+skill: notaire
+cases:
+  - id: bellegen-akt-2024
+    prompt: "Acquisition d'un appartement à 650 000 € à Luxembourg-Ville, premier achat, célibataire, résidence principale. Calcule les droits d'acte avec le crédit d'impôt Bëllegen Akt en vigueur depuis le 1er octobre 2024."
+    must_contain:
+      - "40 000"
+      - "Bëllegen Akt"
+      - "crédit"
+      - "65 000"
+      - "25 000"
+    must_not_contain:
+      - "20 000" # ancien crédit avant 2024
+      - "30 000"
+      - "abattement d'assiette" # erreur commune : c'est un crédit sur les droits, pas une réduction de base
+    rubric: |
+      Loi du 22 mai 2024 (paquet logement) : Bëllegen Akt = CRÉDIT D'IMPÔT (et non
+      abattement d'assiette) imputé directement sur les droits d'enregistrement.
+      Plafond porté à 40 000 € PAR PERSONNE (avant 2024 : 20 000 €) pour les actes
+      signés à partir du 1er octobre 2024. Calcul attendu :
+        - Droits bruts Lux-Ville = 650 000 × 10 % (6% enreg + 1% transcription + 3% surtaxe communale) = 65 000 €
+        - Crédit Bëllegen Akt = min(65 000, 40 000 × 1 personne) = 40 000 €
+        - Droits nets = 25 000 €
+      Plus honoraires notaire (~1-1,5%) et débours. Conditions : résidence principale
+      dans 4 ans, conservation min. 2 ans.
+
+  - id: succession-ligne-directe
+    prompt: "Père décédé au Luxembourg, 3 enfants héritiers en ligne directe, succession de 800 000 €. Quels droits de succession sont dus au Luxembourg ?"
+    must_contain:
+      - "exonéré"
+      - "ligne directe"
+    must_not_contain:
+      - "20 %"
+      - "abattement 100 000" # c'est français
+    rubric: |
+      Au Luxembourg, les successions en ligne directe (ascendants/descendants) sont
+      ENTIÈREMENT EXONÉRÉES de droits de succession sur la part légale (réserve
+      héréditaire). Seules sont imposées les parts dépassant la réserve si elles
+      vont à des tiers, ou les successions entre collatéraux/non-parents. Loi du
+      27 décembre 1817 mod. (droits de succession et mutation par décès).
+
+  - id: pacs-luxembourg
+    prompt: "Différences entre mariage et partenariat enregistré (PACS) au Luxembourg en matière fiscale et successorale ?"
+    must_contain:
+      - "partenariat"
+      - "2010"
+    rubric: |
+      Loi du 9 juillet 2004 sur les effets légaux des partenariats (modifiée par loi
+      du 3 août 2010). Sur le plan fiscal : PACS LU permet l'imposition collective
+      (classe 2 avec splitting) UNIQUEMENT pour les partenariats déclarés en début
+      d'année et déclaration commune sur option. Successoral : exonération droits
+      succession entre partenaires depuis la loi de 2010, à condition de PACS de
+      plus de 3 ans à la date du décès.

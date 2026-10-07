@@ -5,7 +5,7 @@ description: Document construction claims for disputes and recovery. Compile evi
 author: datadrivenconstruction
 author_url: https://github.com/datadrivenconstruction/DDC_Skills_for_AI_Agents_in_Construction/tree/main/4_DDC_Curated/Contract-Legal/claims-documentation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: construction

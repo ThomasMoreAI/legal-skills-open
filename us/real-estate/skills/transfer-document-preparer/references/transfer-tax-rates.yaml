@@ -1,0 +1,398 @@
+# transfer-tax-rates.yaml
+# State-by-state real property transfer tax, recordation tax, and documentary stamp rates.
+# Includes county/municipal surcharges where significant, buyer/seller allocation conventions,
+# 1031 exchange treatment, UPREIT exemptions, and state-level FIRPTA equivalents.
+# Rates effective mid-2025; verify current schedules before closing.
+
+meta:
+  last_reviewed: "2025-08-01"
+  source_note: "Compiled from state statutes and revenue department guidance; verify current rates"
+  base_tax: "All rates applied to purchase price (consideration) unless noted otherwise"
+  disclaimer: "Reference guide only; confirm with local title company and counsel"
+
+# =============================================================================
+# HIGH-VOLUME COMMERCIAL REAL ESTATE STATES
+# =============================================================================
+
+states:
+
+  # ---------------------------------------------------------------------------
+  NY:
+    name: "New York"
+    state_transfer_tax:
+      rate: 0.004  # 0.4% = $4 per $1,000
+      applies_to: "All conveyances; residential and commercial"
+      threshold: "$500 consideration minimum"
+      example_15m: "$60,000"
+    nyc_transfer_tax:
+      applies_to: "Property located within NYC (5 boroughs) only"
+      rates:
+        residential_under_500k: 0.01   # 1.0%
+        residential_500k_plus: 0.01425 # 1.425% (also applies to commercial $500K+)
+        commercial: 0.01425            # 1.425% for commercial property $500K+
+      note: "For commercial property in NYC, rate is 1.425% of consideration"
+      example_15m: "$213,750 (NYC) + $60,000 (NY State) = $273,750"
+    mansion_tax:
+      applies_to: "Residential property >= $1,000,000; NOT applicable to commercial"
+      tiers:
+        - { threshold: 1000000, rate: 0.01 }
+        - { threshold: 2000000, rate: 0.0125 }
+        - { threshold: 3000000, rate: 0.015 }
+        - { threshold: 5000000, rate: 0.02025 }
+        - { threshold: 10000000, rate: 0.0225 }
+        - { threshold: 15000000, rate: 0.0250 }
+        - { threshold: 20000000, rate: 0.029 }
+        - { threshold: 25000000, rate: 0.029 }
+      payer: "Buyer (not seller)"
+    typical_payer:
+      state_transfer_tax: "Seller (customary; PSA may allocate otherwise)"
+      nyc_transfer_tax: "Seller (customary)"
+    mi_transfer:
+      treated_as_real_property_transfer: true
+      note: "NY treats transfer of controlling interest in entity holding NY real property as real property transfer; RETT applies"
+      controlling_interest: "50% or more of interest in entity within 3-year period"
+    firpta_equivalent:
+      name: "NY State estimated tax payment for non-resident sellers"
+      rate: "6.85% of gain (individual NRAs)"
+      form: "IT-2663 (non-resident real property estimated income tax payment)"
+      corporate_seller: "9.0% of gain (C-Corp)"
+    recording:
+      deed_recording: "County clerk in county where property is located"
+      fee_structure: "Per-page fee plus per-document fee; varies by county"
+      typical_total: "$500-$2,000 for commercial deed"
+    exemptions:
+      - "Transfer to government entity"
+      - "Transfer to not-for-profit (confirm qualifying)"
+      - "Transfer to correct deed (no consideration)"
+      - "1031 exchange: NO exemption from NY transfer tax; tax still applies"
+      - "UPREIT contribution: NY generally taxes; confirm with counsel"
+
+  # ---------------------------------------------------------------------------
+  CA:
+    name: "California"
+    state_transfer_tax:
+      rate: 0.0011  # $1.10 per $1,000 = 0.11%
+      applies_to: "All deeds conveying real property for consideration"
+      county_administered: true
+      note: "Collected by county recorder at time of recording"
+    county_surtax:
+      la_county:
+        rate: 0.004  # $4.50 per $1,000 additional (City of Los Angeles)
+        note: "City of Los Angeles levies additional 0.45%; Measure ULA adds 4-5.5% for high-value properties"
+        measure_ula: "Applies to residential and commercial sales >= $5M in City of LA; 4.0% ($5M-$10M), 5.5% (>$10M)"
+      sf_county:
+        rate: 0.005  # SF: 0.5% base; higher tiers for luxury
+        sf_transfer_tax_tiers:
+          - { threshold: 250000, rate: 0.0075 }
+          - { threshold: 1000000, rate: 0.015 }
+          - { threshold: 5000000, rate: 0.025 }
+          - { threshold: 10000000, rate: 0.030 }
+          - { threshold: 25000000, rate: 0.055 }
+          - { threshold: 100000000, rate: 0.060 }
+    typical_payer:
+      state_transfer_tax: "Seller (customary; split 50/50 in some Northern CA markets)"
+    grant_deed:
+      note: "California uses grant deed (equivalent to special warranty deed); warranty is implied by statute"
+    mi_transfer:
+      treated_as_real_property_transfer: false  # No state-level controlling interest transfer tax
+      county_exception: "Some counties (Los Angeles) do not impose additional transfer tax on MI transfers"
+    firpta_equivalent:
+      name: "CA Withholding on sale of California real property"
+      rate: "3.33% of gross selling price (or 12.3% of gain, whichever is less)"
+      form: "Form 593 (Real Estate Withholding Statement)"
+      applies_to: "Non-resident individuals and entities selling CA real property"
+      exemptions:
+        - "Seller certifies CA residency (or CA entity)"
+        - "Transaction is like-kind exchange (1031)"
+        - "Gain is excluded under IRC 121 (principal residence)"
+    recording:
+      county_recorder: "County where property is located"
+      fee_structure: "Per-page fee (typically $15-25/page for first page; $3/page thereafter)"
+    exemptions:
+      - "Interspousal transfers"
+      - "Transfer to qualifying affordable housing"
+      - "Parent-child exclusion (Prop 19 limitations)"
+
+  # ---------------------------------------------------------------------------
+  FL:
+    name: "Florida"
+    documentary_stamp_tax_deed:
+      rate: 0.007  # $0.70 per $100 = 0.7%
+      minimum: "$0.70"
+      applies_to: "Consideration paid for transfer of real property"
+      miami_dade_note: "Miami-Dade County applies surtax for certain transactions; $0.45 per $100 additional"
+    documentary_stamp_tax_mortgage:
+      rate: 0.0035  # $0.35 per $100 on new mortgage
+      applies_to: "New mortgage on Florida real property"
+      note: "Buyer's financing cost"
+    intangible_tax:
+      rate: 0.002  # $2 per $1,000 on new mortgage note
+      applies_to: "New mortgage note secured by FL real property"
+      payer: "Buyer"
+    typical_payer:
+      doc_stamps_deed: "Seller (required by statute)"
+      doc_stamps_mortgage: "Buyer (required by statute)"
+      intangible_tax: "Buyer"
+    deed_witnesses:
+      required: true
+      count: 2
+      note: "FL requires two witnesses for deed execution; at least one witness must sign in the presence of the grantor"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+      note: "FL does not impose documentary stamps on MI transfers (as of 2025); confirm with FL counsel"
+    firpta_equivalent:
+      name: "None -- Florida has no income tax and no state-level withholding for non-residents"
+    recording:
+      county_clerk: "Clerk of Circuit Court in county where property is located"
+    exemptions:
+      - "Government entity transfers"
+      - "Transfer without consideration (confirmatory deed)"
+      - "Nominal consideration deed ($10 deed): stamps on $10 only; requires sworn statement of actual consideration attached separately"
+
+  # ---------------------------------------------------------------------------
+  TX:
+    name: "Texas"
+    state_transfer_tax:
+      rate: 0  # No state transfer tax in Texas
+      note: "Texas has NO real property transfer tax at the state level"
+    county_transfer_tax:
+      rate: 0  # No county-level transfer tax
+    recording:
+      county_clerk: "County clerk in county where property is located"
+      fee_structure: "Per-page fee; typically $25 first page, $4 each additional page"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+      note: "No transfer tax in TX; MI transfer has no transfer tax implications"
+    firpta_equivalent:
+      name: "None -- Texas has no state income tax"
+    typical_total: "$0 transfer tax; recording fee only (~$100-$300)"
+    note: "Texas is a no-transfer-tax state; this is a significant cost advantage for high-value transactions"
+
+  # ---------------------------------------------------------------------------
+  IL:
+    name: "Illinois"
+    state_transfer_tax:
+      rate: 0.001  # $1.00 per $1,000 = 0.1%
+      applies_to: "Real property transfers"
+    cook_county_transfer_tax:
+      rate: 0.0015  # $1.50 per $1,000
+      applies_to: "Property in Cook County (Chicago)"
+    city_of_chicago_transfer_tax:
+      rate: 0.00375  # $3.75 per $1,000 (buyer pays $3.75 + seller pays $1.50 in city)
+      note: "Chicago imposes both buyer and seller transfer taxes"
+      buyer_rate: 0.00375
+      seller_rate: 0.0015
+    typical_payer:
+      state_transfer_tax: "Seller"
+      cook_county_tax: "Seller"
+      chicago_buyer_tax: "Buyer"
+    mi_transfer:
+      note: "IL does not have a controlling-interest transfer tax at the state level"
+    firpta_equivalent:
+      name: "IL withholding for non-resident sellers"
+      rate: "5.0% of proceeds"
+      exemptions: "IL resident seller, exchange transaction"
+    example_15m_chicago: "$15,000 (state) + $22,500 (Cook County) + $56,250 (Chicago buyer) = $93,750 combined"
+
+  # ---------------------------------------------------------------------------
+  WA:
+    name: "Washington"
+    real_estate_excise_tax_reet:
+      graduated_rates:
+        - { threshold: 500000, rate: 0.0128 }
+        - { threshold: 1500000, rate: 0.0128 }
+        - { threshold: 3000000, rate: 0.0278 }
+        - { threshold: null, rate: 0.03  }  # > $3M
+      note: "Graduated rates applied to incremental slices, not flat rate on full amount"
+      example_15m: "$1,500,000 * 1.28% + $1,500,000 * 1.28% + $12,000,000 * 3.0% = $403,200"
+    local_reet:
+      rate: 0.0050  # 0.5% additional local REET
+      note: "Local REET of 0.5% applies in addition to state REET"
+    mi_transfer:
+      treated_as_real_property_transfer: true
+      controlling_interest: "50% or more of beneficial interest transferred within 12 months"
+      note: "WA REET applies to controlling interest transfers"
+    firpta_equivalent: "None"
+    typical_payer: "Seller"
+
+  # ---------------------------------------------------------------------------
+  NJ:
+    name: "New Jersey"
+    realty_transfer_fee_rtf:
+      rates:
+        - { threshold: 350000, rate: 0.01  }
+        - { threshold: 550000, rate: 0.01 }   # additional surtax on >$350K
+        - { threshold: 1000000, rate: 0.01 }
+        - { threshold: null, rate: 0.01 }
+      note: "Complex tiered calculation with multiple surtaxes; effective rate ~1.0-1.21% for large commercial"
+      example_15m: "Approximately $181,500 (effective rate ~1.21%)"
+    buyer_transfer_tax:
+      applies_to: "Purchases > $1,000,000"
+      rate: 0.01  # 1.0% additional on purchase > $1M (mansion tax, also applies to commercial)
+      note: "NJ's mansion tax applies to all real property > $1M, not just residential"
+    mi_transfer:
+      treated_as_real_property_transfer: true
+      controlling_interest: "80% or more of interest"
+      realty_transfer_fee_applies: true
+    firpta_equivalent:
+      name: "NJ Gross Income Tax withholding (GIT/REP)"
+      rate: "8.97% of gain (non-resident seller)"
+      form: "GIT/REP-1 or GIT/REP-2"
+      applies_to: "Non-NJ resident sellers of NJ real property"
+
+  # ---------------------------------------------------------------------------
+  MD:
+    name: "Maryland"
+    state_transfer_tax:
+      rate: 0.005  # 0.5%
+      note: "Paid by buyer in most transactions"
+    county_transfer_tax:
+      range: "0.5% - 1.5% depending on county"
+      montgomery_county: 1.0%
+      prince_georges_county: 1.4%
+    recordation_tax:
+      rate: "Varies by county; typically $3.30-$7.00 per $500 of consideration"
+      note: "Separate from transfer tax; paid at recording"
+    firpta_equivalent:
+      name: "MD withholding on non-resident seller"
+      rate: "7.5% of taxable gain (entity) or 8.25% (individual)"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+      note: "MD does not impose transfer tax on MI transfers (confirm current law)"
+
+  # ---------------------------------------------------------------------------
+  DC:
+    name: "District of Columbia"
+    deed_recordation_tax:
+      commercial_rate: 0.0155  # 1.55% (commercial)
+      residential_rate: 0.01125  # 1.125% < $400K; 1.45% $400K+
+    deed_transfer_tax:
+      commercial_rate: 0.0155  # 1.55% additional
+      note: "TOTAL effective rate for commercial in DC: ~3.1% combined (recordation + transfer)"
+    typical_payer: "Split buyer/seller per PSA; often 50/50 by convention"
+    mi_transfer:
+      treated_as_real_property_transfer: true
+      note: "DC imposes recordation tax on controlling interest transfers"
+    firpta_equivalent:
+      name: "DC withholding for non-DC sellers"
+      rate: "8.25% of gain"
+
+  # ---------------------------------------------------------------------------
+  GA:
+    name: "Georgia"
+    real_estate_transfer_tax:
+      rate: 0.001  # $1.00 per $1,000 = 0.1%
+      minimum: "$1.00"
+      example_15m: "$15,000"
+    deed_witnesses:
+      required: true
+      count: 2  # Grantor + 2 witnesses + notary
+    mi_transfer:
+      treated_as_real_property_transfer: false
+    firpta_equivalent: "None (Georgia has no withholding requirement for non-resident sellers)"
+
+  # ---------------------------------------------------------------------------
+  PA:
+    name: "Pennsylvania"
+    realty_transfer_tax:
+      state_rate: 0.01  # 1.0% state
+      local_rate: "1.0% average local; Philadelphia imposes additional 3.278%"
+      combined_typical: "2.0% outside Philadelphia"
+      philadelphia: "4.278% combined (1.0% state + 3.278% Philadelphia)"
+    typical_payer: "Split 50/50 buyer and seller (customary)"
+    mi_transfer:
+      treated_as_real_property_transfer: true
+      threshold: "Direct or indirect interest of 90% or more"
+      note: "PA imposes realty transfer tax on controlling interest transfers >= 90%"
+    firpta_equivalent:
+      name: "PA withholding for non-resident sellers"
+      rate: "3.07% of gain"
+      form: "PA-1000 or PA REV-1847"
+
+  # ---------------------------------------------------------------------------
+  CO:
+    name: "Colorado"
+    documentary_fee:
+      rate: 0.0001  # $0.10 per $100 of consideration = 0.01%
+      minimum: "$0.10"
+      note: "Extremely low; essentially a recording filing fee"
+      example_15m: "$1,500"
+    county_recording:
+      fee_structure: "Per-page fee; varies by county"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+    firpta_equivalent:
+      name: "CO withholding for non-resident sellers"
+      rate: "2% of selling price (or actual tax, whichever is less)"
+      form: "Form DR 1079"
+
+  # ---------------------------------------------------------------------------
+  AZ:
+    name: "Arizona"
+    real_property_transfer_tax:
+      rate: 0  # Arizona does NOT impose a transfer tax on real property
+      note: "No state or county transfer tax; recording fee only"
+    recording:
+      fee_structure: "County recorder; per-page fee"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+    firpta_equivalent: "None"
+
+  # ---------------------------------------------------------------------------
+  NC:
+    name: "North Carolina"
+    excise_tax:
+      rate: 0.002  # $2.00 per $1,000 = 0.2%
+      applies_to: "Conveyance of real property by deed"
+      example_15m: "$30,000"
+    typical_payer: "Seller"
+    mi_transfer:
+      treated_as_real_property_transfer: false
+    firpta_equivalent:
+      name: "NC withholding for non-resident sellers (entity)"
+      rate: "2% of sales price"
+      form: "Form NC-1099NRS"
+
+# =============================================================================
+# STATES WITH NO TRANSFER TAX
+# =============================================================================
+
+no_transfer_tax_states:
+  - TX   # No state or local transfer tax
+  - AZ   # No state transfer tax (county recording fee only)
+  - WY   # No transfer tax
+  - ID   # No transfer tax (small fee)
+  - MT   # No transfer tax
+  - ND   # No transfer tax (small deed tax)
+  - NM   # No transfer tax
+  - MO   # No transfer tax (recording fee only)
+  - IN   # No state transfer tax (some counties)
+  - MS   # No transfer tax
+  note: "Even in no-transfer-tax states, recording fees and other filing fees apply"
+
+# =============================================================================
+# 1031 EXCHANGE TREATMENT BY STATE
+# =============================================================================
+
+exchange_transfer_tax:
+  states_that_exempt_1031:
+    - CA  # CA does not impose transfer tax on 1031 exchanges (confirm per county)
+    note: "Exemption availability varies; confirm with local counsel"
+  states_that_do_not_exempt:
+    - NY  # NY transfer tax applies even in 1031 exchange context
+    - NJ  # NJ RTF applies to 1031 exchanges
+    - PA  # PA realty transfer tax applies
+    - WA  # WA REET applies
+    general_rule: "Most states do NOT exempt 1031 exchanges from transfer tax; only the federal income tax gain is deferred"
+
+# =============================================================================
+# REIT / UPREIT EXEMPTIONS
+# =============================================================================
+
+reit_exemptions:
+  states_with_reit_exemptions:
+    - { state: "MD", note: "Maryland exempts certain REIT transfers" }
+    - { state: "VA", note: "Virginia exempts REIT-to-OP contributions in some circumstances" }
+  generally_not_exempt:
+    note: "Most states do not provide a specific exemption for UPREIT contributions; transfer tax applies"
+    planning: "Structure as assumption of debt with minimal cash consideration in low-rate states"

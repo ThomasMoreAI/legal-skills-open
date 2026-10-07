@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FedRAMP POAM Naming Convention Schema",
+  "description": "Default field validation rules for FedRAMP Plan of Action and Milestones",
+  "version": "1.0.0",
+  "updated": "2025-10-25T21:04:34-04:00",
+  "required_fields": [
+    "POA&M Item ID",
+    "Control Identifier",
+    "Weakness Description",
+    "Risk Level",
+    "Scheduled Completion Date",
+    "Status"
+  ],
+  "field_formats": {
+    "POA&M Item ID": {
+      "pattern": "^POAM-\\d{4}-\\d{3,5}$",
+      "description": "Format: POAM-YYYY-### (e.g., POAM-2025-001)",
+      "example": "POAM-2025-042"
+    },
+    "Control Identifier": {
+      "pattern": "^[A-Z]{2}-\\d{1,2}(\\(\\d+\\))?$",
+      "description": "NIST 800-53 control format (e.g., AC-2, SC-7(5))",
+      "example": "AC-2(1)"
+    },
+    "Scheduled Completion Date": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$|^\\d{2}/\\d{2}/\\d{4}$",
+      "description": "YYYY-MM-DD or MM/DD/YYYY",
+      "example": "2025-12-31"
+    },
+    "Original Detection Date": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$|^\\d{2}/\\d{2}/\\d{4}$",
+      "description": "YYYY-MM-DD or MM/DD/YYYY",
+      "example": "2025-01-15"
+    },
+    "Completion Date": {
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$|^\\d{2}/\\d{2}/\\d{4}$",
+      "description": "YYYY-MM-DD or MM/DD/YYYY (required for Closed items)",
+      "example": "2025-03-20"
+    }
+  },
+  "severity_levels": [
+    "High",
+    "Moderate",
+    "Low",
+    "Informational"
+  ],
+  "status_values": [
+    "Open",
+    "In Progress",
+    "Completed",
+    "Risk Accepted",
+    "False Positive"
+  ],
+  "remediation_timelines": {
+    "High": {
+      "max_days": 30,
+      "description": "Critical vulnerabilities requiring immediate attention",
+      "source": "FedRAMP Vulnerability Scanning Requirements"
+    },
+    "Moderate": {
+      "max_days": 90,
+      "description": "Significant weaknesses requiring timely remediation",
+      "source": "FedRAMP Vulnerability Scanning Requirements"
+    },
+    "Low": {
+      "max_days": 180,
+      "description": "Minor issues with extended remediation window",
+      "source": "FedRAMP Vulnerability Scanning Requirements"
+    }
+  },
+  "optional_fields": [
+    "Weakness Name",
+    "Weakness Source Identifier",
+    "Asset Identifier",
+    "Vendor Dependency",
+    "False Positive Justification",
+    "Operational Requirement",
+    "Deviation Rationale"
+  ]
+}

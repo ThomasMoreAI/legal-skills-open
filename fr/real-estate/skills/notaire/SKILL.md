@@ -19,7 +19,7 @@ description: 'Notaire IA pour le droit immobilier, les successions, les donation
 author: romainsimon
 author_url: https://github.com/romainsimon/paperasse/tree/master/notaire
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: fr
 practice: real-estate

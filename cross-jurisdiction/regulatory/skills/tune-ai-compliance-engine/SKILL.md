@@ -5,7 +5,7 @@ description: 'Tune AI Compliance Engine — optimize check frequency, reduce fal
 author: frootai
 author_url: https://github.com/frootai/frootai/tree/main/solution-plays/35-ai-compliance-engine/.github/skills/tune-ai-compliance-engine
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: regulatory

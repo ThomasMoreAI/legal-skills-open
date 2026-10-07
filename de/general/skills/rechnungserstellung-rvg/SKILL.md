@@ -5,7 +5,7 @@ description: 'Für Rechnungserstellung Honorar (RVG oder Vereinbarung): ordnet N
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kanzlei-allgemein/skills/rechnungserstellung-rvg
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: general

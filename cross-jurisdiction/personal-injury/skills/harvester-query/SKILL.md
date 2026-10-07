@@ -1,11 +1,11 @@
 ---
 name: harvester-query
-title: 'Harvester query'
+title: Harvester query
 description: Use whenever the user asks about a motor-vehicle statute, citation, contributing factor, OR a Canadian personal-injury fact pattern — always query Specter's Harvester API before answering. The API auto-routes between two collections (US statutes + Canadian PI case law).
 author: barndonmai
 author_url: https://github.com/barndonmai/specter/tree/main/openclaw/skills/harvester_query
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: personal-injury

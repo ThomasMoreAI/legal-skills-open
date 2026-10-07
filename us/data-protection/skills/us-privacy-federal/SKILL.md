@@ -5,7 +5,7 @@ description: 'Maps the US federal privacy landscape including sectoral laws (HIP
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/plugins/privacy-skills-complete/skills/us-privacy-federal
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: data-protection

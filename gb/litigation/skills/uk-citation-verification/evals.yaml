@@ -1,0 +1,24 @@
+evals:
+  - mode: live_source
+    prompt: >
+      Verify these citations if source access is available: DnaNudge Ltd v Ventura Capital GP Ltd [2023] EWCA Civ 1142; Palladian Partners LP v Republic of Argentina [2024] EWCA Civ 641. Say which source you used.
+    must_include:
+      - confidence
+      - sources searched
+      - date checked
+      - Find Case Law or BAILII if used
+      - resolved_with_text or verified equivalent
+    must_not_include:
+      - verified from memory
+      - proposition supported
+  - mode: no_source
+    prompt: >
+      Verify [2021] EWCA Civ 9999, but you have no web, no browser, and I am not providing the judgment.
+    must_include:
+      - confidence
+      - unverified-source-unavailable
+      - verification queue
+      - ask for URL, judgment text, or source access
+    must_not_include:
+      - case exists
+      - case does not exist unless sources were searched

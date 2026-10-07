@@ -1,0 +1,20 @@
+{
+  "name": "claims-documentation",
+  "version": "2.0.0",
+  "description": "Document construction claims for disputes and recovery. Compile evidence, calculate damages, track notice requirements, and prepare claim packages.",
+  "author": "datadrivenconstruction",
+  "license": "MIT",
+  "permissions": [
+    "filesystem"
+  ],
+  "entry": "instructions.md",
+  "tags": [
+    "construction",
+    "document-management"
+  ],
+  "models": [
+    "claude-*",
+    "gpt-*"
+  ],
+  "minOpenClawVersion": "0.8.0"
+}

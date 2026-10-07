@@ -5,7 +5,7 @@ description: 'Für Gap-Analyse für interne Richtlinien: ordnet Akte, Belege und
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/regulatorisches-recht/skills/luecken-aufzeiger
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: de
 practice: regulatory

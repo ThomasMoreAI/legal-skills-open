@@ -39,7 +39,7 @@ The most common audit-trip and IRS-notice mistakes when reporting HSA distributi
 - If the user has a 5498-SA → Form 8889 Part I (contributions)
 - Both can apply in the same year and both go on the same Form 8889
 
-**Citation**: Form 8889 structure (Part I = contributions; Part II = distributions; Part III = funding distribution).
+**Citation**: Form 8889 structure (Part I = contributions; Part II = distributions; Part III = income and additional tax for failure to maintain HDHP coverage).
 
 ---
 
@@ -50,8 +50,9 @@ The most common audit-trip and IRS-notice mistakes when reporting HSA distributi
 **Why it's wrong**: Most health insurance premiums are NOT QME under IRC §223(d)(2)(B). The exceptions are narrow:
 - COBRA continuation premiums
 - Health coverage while receiving unemployment compensation
-- Medicare Parts B / D / Advantage (when the user is age 65+ and enrolled)
+- Medicare and other health coverage premiums when the account holder is 65 or older (Medigap excluded)
 - Long-term care insurance premiums (with age caps)
+- For months after December 31, 2025, direct primary care fees up to $150 a month ($300 if more than one person) (IRC §223(d)(2)(C); Notice 2026-5)
 
 If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing from the HSA = non-QME = taxable + 20% penalty.
 
@@ -63,13 +64,13 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 ## 5. Adult child medical expenses claimed when child is not a dependent
 
-**Mistake**: Parent uses HSA to pay 25-year-old child's medical bills. The 25-year-old is NOT a tax dependent (over age 24, not disabled).
+**Mistake**: Parent uses HSA to pay 25-year-old child's medical bills. The 25-year-old is self-supporting and is NOT the parent's dependent.
 
-**Why it's wrong**: HSA QME rules require the medical expense to be for the HSA holder, their spouse, or their tax dependent (Form 1040 dependent). The Affordable Care Act allows children up to age 26 on a parent's HDHP — but for HSA purposes, the child must be a tax dependent, which requires being under age 24 (or any age if disabled).
+**Why it's wrong**: HSA QME rules cover the HSA holder, their spouse, their dependents, and any person who would be a dependent except that the person filed a joint return, had gross income above the limit, or the holder can be claimed as someone else's dependent (2025 Instructions for Form 8889, Line 15). The Affordable Care Act allows children up to age 26 on a parent's HDHP, but that plan rule does not make the child's expenses QME. A 25-year-old who is not a student can be the parent's qualifying child only if permanently and totally disabled; otherwise the qualifying-relative support test must be met. ASK who provided over half of the child's support before deciding.
 
-**Fix**: Treat the parent's HSA distribution as non-QME → taxable + 20% penalty. The child can open their own HSA if they're HSA-eligible separately.
+**Fix**: If the child is neither a dependent nor a would-be dependent, treat the parent's HSA distribution as non-QME → taxable + 20% penalty. The child can open their own HSA if they're HSA-eligible separately.
 
-**Citation**: IRC §223(d)(2)(A); IRC §152 (dependent definition).
+**Citation**: IRC §223(d)(2)(A); IRC §152 (dependent definition); 2025 Instructions for Form 8889, Line 15.
 
 ---
 
@@ -89,11 +90,11 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 **Mistake**: User is age 67 and took a $5,000 non-QME distribution. They paid the 20% additional tax penalty thinking it always applies.
 
-**Why it's wrong**: IRC §223(f)(4)(B) waives the 20% additional tax when the account holder is age 65 or older at the time of distribution. The non-QME portion is still taxable as ordinary income, but the 20% penalty does NOT apply.
+**Why it's wrong**: IRC §223(f)(4)(C) waives the 20% additional tax for distributions made after the account holder turns 65. The non-QME portion is still taxable as ordinary income, but the 20% penalty does NOT apply.
 
-**Fix**: Mark the age 65+ exception on Form 8889 Line 17a. Set Line 17b = $0.
+**Fix**: Check Line 17a. Set Line 17b = $0 (in the year of the 65th birthday, 20% still applies to distributions made before the birthday).
 
-**Citation**: IRC §223(f)(4)(B); Form 8889 Line 17a.
+**Citation**: IRC §223(f)(4)(C); Form 8889 Line 17a.
 
 ---
 
@@ -105,7 +106,7 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 **Fix**: One Form 8889 per user. Aggregate Line 14a = $5,000. Enter total QME paid from all HSA distributions on Line 15.
 
-**Citation**: Form 8889 Instructions, "Multiple HSAs."
+**Citation**: 2025 Instructions for Form 8889, Line 14a ("total distributions your HSAs made"). Exception: a person who is the beneficiary of a deceased holder's HSA and also has their own HSA completes a separate "statement" Form 8889 for each and a controlling Form 8889 ("Death of Account Beneficiary").
 
 ---
 
@@ -117,7 +118,7 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 **Fix**: Two separate Form 8889s — one per spouse. Each spouse aggregates only their own HSA(s) on their own Form 8889.
 
-**Citation**: IRC §223(b)(5) (joint contribution rules); Form 8889 Instructions, "Married Couples."
+**Citation**: IRC §223(b)(5) (joint contribution rules); 2025 Instructions for Form 8889, "Name and social security number (SSN)" (separate Form 8889 for each spouse).
 
 ---
 
@@ -138,9 +139,9 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 ## 11. Reimbursing for QME paid before HSA was established
 
-**Mistake**: User opened HSA in March 2024. In December 2024, they reimburse themselves $2,000 for medical bills incurred in January 2024 (before HSA was opened).
+**Mistake**: User opened and funded the HSA in March 2024. In December 2024, they reimburse themselves $2,000 for medical bills incurred in January 2024 (before the HSA was established).
 
-**Why it's wrong**: Notice 2004-50 Q&A 39 requires the QME to be incurred **after the HSA was established**. Pre-establishment medical expenses cannot be reimbursed from the HSA.
+**Why it's wrong**: Notice 2004-50 Q&A 39 requires the QME to be incurred **after the HSA was established**. State trust law sets the establishment date; most states require the account to be funded (Notice 2008-59 Q&A-38). Pre-establishment medical expenses cannot be reimbursed from the HSA.
 
 **Fix**: Treat the $2,000 reimbursement as non-QME → taxable + 20% penalty. The user can claim the January medical expense on Schedule A (itemized deductions, subject to AGI floor) instead, but not from the HSA.
 
@@ -152,35 +153,35 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 
 **Mistake**: Beneficiary inherits HSA worth $30,000 (Code 4 1099-SA). The deceased had $4,000 in unpaid pre-death medical bills the beneficiary paid after inheritance. Beneficiary reports the entire $30,000 as ordinary income.
 
-**Why it's wrong**: IRC §223(f)(8)(A) allows the beneficiary to subtract amounts paid for the deceased's QME within **1 year of death**. The taxable inheritance is reduced by qualified pre-death medical expenses.
+**Why it's wrong**: IRC §223(f)(8)(B)(ii)(I) reduces a non-estate beneficiary's income by the decedent's QME incurred before death and paid by the beneficiary within **1 year after death**.
 
-**Fix**: Reduce Line 14a (or the equivalent line on the beneficiary's tax return) by $4,000. Net taxable: $26,000 instead of $30,000.
+**Fix**: Form 8889 headed "Death of HSA account beneficiary": Line 14a = $30,000 (FMV at death), Line 15 = $4,000. Net taxable on Line 16: $26,000 instead of $30,000.
 
-**Citation**: IRC §223(f)(8)(A).
-
----
-
-## 13. Spouse Code 6 inheritance: filing as taxable
-
-**Mistake**: Spouse inherits the HSA upon the account holder's death (Code 6). They file Form 8889 Part II showing the full Box 1 as taxable.
-
-**Why it's wrong**: IRC §223(f)(8)(B) allows the surviving spouse to **take over the HSA as their own** with no tax consequence. The 1099-SA is essentially informational — Code 6 means "spouse rollover."
-
-**Fix**: The spouse does NOT report the Code 6 distribution as taxable. They simply continue filing Form 8889 in future years for the inherited HSA (which is now in their name).
-
-**Citation**: IRC §223(f)(8)(B); Form 8889 Instructions, "Death of HSA Holder — Spouse Beneficiary."
+**Citation**: IRC §223(f)(8)(B)(ii)(I); 2025 Instructions for Form 8889, "Death of Account Beneficiary".
 
 ---
 
-## 14. Code 2 excess contribution: missing Form 5329
+## 13. Code 6 misread as a spouse rollover
 
-**Mistake**: User had Code 2 1099-SA (excess contribution + earnings withdrawn). They report Box 2 earnings as income on Form 8889 but forget Form 5329.
+**Mistake**: A nonspouse beneficiary receives a Code 6 1099-SA in the year after the death and treats it as nontaxable, or reports the whole amount in the year received.
 
-**Why it's wrong**: Code 2 means the excess was **withdrawn timely** (avoiding the 6% excise) but the user must still document the excess on Form 5329 Part VII for tracking purposes. If the excess was NOT withdrawn timely, Form 5329 is mandatory and computes the 6% excise.
+**Why it's wrong**: Code 6 is a death distribution **after the year of death to a nonspouse beneficiary** (Form 1099-SA, Box 3). The FMV on the date of death is income for the **year of death** (Form 1099-SA, Instructions for Recipient, "Nonspouse beneficiary"); only the earnings after death (Box 1 − Box 4) belong to the year received. A spouse beneficiary gets no Code 6: the HSA simply becomes the spouse's (IRC §223(f)(8)(A)).
 
-**Fix**: Add Form 5329 Part VII. If timely withdrawn (Code 2), Form 5329 documents $0 excise. If not timely, compute the 6% on the cumulative excess remaining in the HSA.
+**Fix**: Report the Box 4 amount on the year-of-death Form 8889 (amend that year with Form 1040-X if needed); report Box 1 − Box 4 as other income for the current year.
 
-**Citation**: IRC §4973; Form 5329 Part VII.
+**Citation**: IRC §223(f)(8); Form 1099-SA (Rev. April 2025) Box 3 and Instructions for Recipient.
+
+---
+
+## 14. Code 2 excess contribution: wrong Form 5329 handling
+
+**Mistake**: User had a Code 2 1099-SA for an excess withdrawn (with earnings) by the due date of the return. They either add the excess to Form 5329 Part VII, or put Box 2 earnings on Form 8889 Line 16.
+
+**Why it's wrong**: An excess withdrawn with its earnings by the due date including extensions is treated as not contributed; it is not entered on Form 5329 Line 47, and the withdrawn excess and earnings go on Form 8889 Lines 14a and 14b. The earnings are "Other income" for the year received. Form 5329 Part VII is needed only for excess that stayed past the due date (6% for each year).
+
+**Fix**: Lines 14a/14b for the withdrawal; Box 2 to Schedule 1 Line 8z; Form 5329 only for excess still in the account after the due date.
+
+**Citation**: IRC §223(f)(3); IRC §4973; 2025 Instructions for Form 5329, Line 47.
 
 ---
 
@@ -210,13 +211,13 @@ If the user paid premiums for their regular HDHP, those are NOT QME. Reimbursing
 | 3 | Confusing 1099-SA with 5498-SA | Part I vs II | Distributions = Part II |
 | 4 | Insurance premiums as QME | Line 15 | Most premiums are NOT QME |
 | 5 | Adult non-dependent's expenses | Line 15 | Tax dependent only |
-| 6 | Skipping 20% additional tax | Line 17b | 20% on Line 16 if under 65 |
-| 7 | Penalty when 65+ | Line 17a | Mark age 65 exception |
+| 6 | Skipping 20% additional tax | Line 17b | 20% on Line 16 if made before 65 |
+| 7 | Penalty when 65+ | Line 17a | Check Line 17a for distributions after 65 |
 | 8 | Not aggregating multiple HSAs | Line 14a | Sum all 1099-SAs |
 | 9 | Combining spouses on one form | — | One Form 8889 per spouse |
 | 10 | Estimating QME without receipts | Line 15 | Substantiate or treat as non-QME |
 | 11 | Pre-HSA establishment QME | Line 15 | Not allowed; treat as non-QME |
-| 12 | Forgetting deceased's pre-death QME (Code 4) | Line 15 | Subtract within 1 year of death |
-| 13 | Spouse Code 6 as taxable | Line 16 | Spouse rollover; not taxable |
-| 14 | Code 2 missing Form 5329 | Form 5329 | Add Part VII for tracking |
+| 12 | Forgetting deceased's pre-death QME (Code 4) | Line 15 | Subtract QME paid within 1 year after death |
+| 13 | Code 6 misread | Line 14a, year of death | FMV is income for the year of death |
+| 14 | Code 2 handled wrong | Lines 14a/14b, Form 5329 | Timely withdrawn excess: 14a/14b, no Form 5329 |
 | 15 | Full-QME but reported taxable | Line 16 | Should be $0 |

@@ -5,7 +5,7 @@ description: 预包装食品标签合规审核技能，用于审核食品标签�
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/food-label-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: regulatory

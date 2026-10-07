@@ -1,0 +1,41 @@
+{
+  "author": "skills-il",
+  "version": "2.0.0",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "שכירות",
+      "חוזה",
+      "זכויות-דייר",
+      "משכיר",
+      "נדלן",
+      "ישראל"
+    ],
+    "en": [
+      "rental",
+      "lease",
+      "tenant-rights",
+      "landlord",
+      "real-estate",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "חוזי שכירות ישראליים",
+    "en": "Israeli Rental Agreements"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. מדריך לחוזי שכירות, זכויות שוכרים וחובות משכירים בישראל. השתמשו בזה כששואלים על חוזה שכירות, זכויות דייר, חובות משכיר, פיקדונות, העלאות שכר דירה, הצמדה למדד, חוק שכירות הוגנת 2017, הליכי פינוי או דגלים אדומים בחוזים. מכסה רכיבי חוזה, ערבויות, יישוב סכסוכים וחוק הגנת הדייר. לא מתאים לשכירות מסחרית, רכישת נכס או ייעוץ משכנתאות.",
+    "en": "Not legal advice. Guide users through Israeli rental agreements, tenant and landlord rights, and lease negotiation. Use when user asks about rental contracts (chozeh schirut), tenant rights, landlord obligations, deposits (arancia), rent increases, index-linked rent (hatzmada la'madad), the Fair Rental Law 2017, eviction procedures, or common red flags in Israeli leases. Covers essential contract elements, guarantees, dispute resolution, and the Tenant Protection Law. Do NOT use for commercial leases, property purchase transactions, or mortgage advice."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "_comment": "Exemple eCDF CA-A : SARL fictive ACME, exercice 2025. Balance PCN équilibrée pour démo.",
+  "societe": {
+    "rcs": "B999999",
+    "tva": "LU99999999",
+    "denomination": "ACME SARL",
+    "forme": "SARL"
+  },
+  "exercice": {
+    "debut": "2025-01-01",
+    "fin": "2025-12-31",
+    "devise": "EUR"
+  },
+  "balance": {
+    "_explication": "Soldes finaux par compte PCN. Convention : débit positif, crédit négatif.",
+    "21": 5000,
+    "22": 25000,
+    "26": 10000,
+    "30": 8000,
+    "411": 15000,
+    "512": 20000,
+    "101": -57500,
+    "11": -2000,
+    "13": -3000,
+    "401": -7000,
+    "421": -1500,
+    "44": -3500,
+    "70": -180000,
+    "604": 75000,
+    "611": 12000,
+    "62": 8000,
+    "641": 50000,
+    "645": 12000,
+    "63": 1500,
+    "66": 2000,
+    "691": 11000
+  }
+}

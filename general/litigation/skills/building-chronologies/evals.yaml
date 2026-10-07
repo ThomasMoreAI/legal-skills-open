@@ -1,0 +1,21 @@
+evals:
+  - mode: user_supplied_source
+    prompt: >
+      Build a chronology from these facts: email dated 12 March says delivery was five days late; pleading dated 1 April alleges a promise was made on 15 March but no email is supplied for that promise.
+    must_include:
+      - event_date versus document_date
+      - source_identifier
+      - confidence
+      - pleaded_only or source_missing
+      - gaps
+    must_not_include:
+      - treat pleaded allegation as proven
+  - mode: no_source
+    prompt: >
+      Build a matter chronology, but no documents, pleadings, correspondence, or witness evidence are available yet.
+    must_include:
+      - source-request list
+      - chronology schema
+      - no factual chronology entries
+    must_not_include:
+      - inferred events from memory

@@ -1,11 +1,11 @@
 ---
 name: israel-companies-registry-nolpak14
-title: 'Israel companies registry'
+title: Israel companies registry
 description: 'Look up Israeli companies for free via the official Israel Corporations Authority (Rasham HaChavarot) open data on data.gov.il - company number, Hebrew and English name, company type, active/struck-off status, violating-company flag, registration date, purpose, and registered address. Fully keyless, no auth. Use for KYB / know-your-business checks, counterparty verification, and Israeli company due diligence. Trigger on: ''Israel company lookup'', ''Israeli companies registrar'', ''Rasham HaChavarot'', ''rasham hachavarot'', ''ICA'', ''company number Israel'', ''is this Israeli company active'', ''Israeli company struck off'', ''mispar chevra''. The Israel dataset is free and needs no key; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/israel-companies-registry
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: corporate
@@ -123,3 +123,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`sanctions-pep-screening`** - screen the company and any people you found here against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Israeli jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

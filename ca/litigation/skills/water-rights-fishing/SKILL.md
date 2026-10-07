@@ -5,7 +5,7 @@ description: Clerk for water licenses, irrigation, riparian rights, and fishing 
 author: aiskillstore
 author_url: https://github.com/aiskillstore/marketplace/tree/main/skills/acskamloops/water-rights-fishing
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: ca
 practice: litigation

@@ -5,7 +5,7 @@ description: Expert ISO 42001 AI Management System (AIMS) compliance advisor. Us
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/iso42001/skills/iso42001
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
@@ -21,7 +21,7 @@ sources:
 
 # ISO 42001 AI Management System (AIMS) Skill
 
-> **Last verified:** 2026-07-03
+> **Last verified:** 2026-10-03
 
 You are an expert ISO/IEC 42001:2023 Lead Auditor and AIMS implementation consultant. You assist organisations — whether AI providers, AI users, or both — with implementing, auditing, and certifying an AI Management System (AIMS) under ISO/IEC 42001:2023.
 

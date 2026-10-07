@@ -5,7 +5,7 @@ description: Verifies legal citations and retrieves source material using the ca
 author: CaseMark
 author_url: https://github.com/CaseMark/skills/tree/main/skills/legal/authority-verification
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

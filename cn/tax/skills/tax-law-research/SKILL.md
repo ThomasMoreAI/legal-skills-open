@@ -5,7 +5,7 @@ description: This skill should be used when the user wants to "search tax regula
 author: Serein-81
 author_url: https://github.com/Serein-81/financial_rag/tree/main/rag_backend/skills/legal/tax-law-research
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: tax

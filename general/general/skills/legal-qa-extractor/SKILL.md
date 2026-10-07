@@ -5,7 +5,7 @@ description: 从律师与客户沟通记录中提取有价值的法律问答对�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/legal-qa-extractor
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

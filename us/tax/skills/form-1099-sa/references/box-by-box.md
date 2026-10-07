@@ -1,6 +1,6 @@
 # Form 1099-SA Box-by-Box Reference
 
-Complete lookup for every box on Form 1099-SA. Use this when the agent needs to confirm what a box means or how to interpret an entry.
+Complete lookup for every box on Form 1099-SA. Use this when the agent needs to confirm what a box means or how to interpret an entry. Verified against Form 1099-SA (Rev. April 2025) and the 2025 Instructions for Forms 1099-SA and 5498-SA; re-check https://www.irs.gov/forms-pubs/about-form-1099-sa for a newer revision.
 
 ---
 
@@ -40,6 +40,7 @@ Excludes:
 - **Trustee-to-trustee transfers** between HSAs (not a distribution; not reported on 1099-SA)
 - **Direct contributions** (those go on Form 5498-SA from the custodian, not 1099-SA)
 - **Investment gains within the HSA** (untaxed and unreported)
+- **Excess employer contributions (and earnings) returned to the employer**, and a **mistaken distribution the user repaid** (2025 Instructions for Forms 1099-SA and 5498-SA, Box 1 and "HSA Mistaken Distributions")
 
 ### Aggregation rule
 
@@ -53,13 +54,13 @@ If the user has multiple HSAs at the **same custodian** (some custodians issue s
 
 Populated **only if Box 3 = Code 2** (excess contribution + earnings withdrawn).
 
-If the user contributed too much to their HSA in a year (over the IRC §223(b) annual limit, e.g., $4,300 self-only / $8,550 family for 2025), they have until the tax filing deadline (typically April 15) to withdraw the excess plus any earnings. The custodian issues a Code 2 1099-SA showing:
+If the user contributed too much to their HSA in a year (over the IRC §223(b) annual limit, e.g., $4,300 self-only / $8,550 family for 2025; $4,400 / $8,750 for 2026), they have until the due date of their return, **including extensions**, to withdraw the excess plus any earnings (IRC §223(f)(3)(A)). The custodian issues a Code 2 1099-SA for the year of the withdrawal showing:
 
 - Box 1 = total distributed (excess + earnings)
 - Box 2 = earnings portion only (this is the taxable income)
 - Box 3 = Code 2
 
-**Box 2 is taxable as ordinary income** on Form 8889 Line 16. The excess contribution itself was already accounted for separately — if not withdrawn by the deadline, it's subject to a 6% excise tax under IRC §4973 (reported on Form 5329).
+**Box 2 is taxable as ordinary income** ("Other income", Schedule 1 Line 8z) for the year the withdrawal is received; the excess and earnings go on Form 8889 Lines 14a and 14b, so they do not reach Line 16. If the excess was not withdrawn by the due date, it's subject to a 6% excise tax under IRC §4973 for each year it remains (Form 5329 Part VII).
 
 If Box 2 = $0 (which it will be for most filers), no special treatment needed.
 
@@ -69,34 +70,35 @@ If Box 2 = $0 (which it will be for most filers), no special treatment needed.
 
 A single digit identifying the type of distribution. Six possible values:
 
-| Code | Meaning |
+| Code | Meaning (Form 1099-SA, Rev. April 2025) |
 |------|---------|
-| 1 | Normal distribution |
-| 2 | Excess contributions returned + earnings |
+| 1 | Normal distribution (also a spouse beneficiary after the year of death) |
+| 2 | Excess contributions |
 | 3 | Disability |
-| 4 | Death distribution to non-spouse beneficiary or estate |
+| 4 | Death distribution other than code 6 |
 | 5 | Prohibited transaction |
-| 6 | Death distribution to spouse beneficiary |
+| 6 | Death distribution after year of death to a nonspouse beneficiary |
 
 Full treatment of each code: see [`distribution-codes.md`](./distribution-codes.md).
 
 The code drives:
-- Whether the distribution is taxable (most are taxable on the non-QME portion only; Code 5 and Code 4 are mostly taxable; Code 6 to spouse is not)
-- Whether the 20% additional tax applies (yes for Code 1 if under 65; no for Codes 3, 4, 6)
-- Whether other forms must be filed (Code 2 → Form 5329; Code 5 → consult a tax pro)
+- Whether the distribution is taxable (most are taxable on the non-QME portion only; Codes 4 and 6 make the FMV at death taxable for the year of death; Code 5 makes the whole account taxable)
+- Whether the 20% additional tax applies (yes for Code 1 before 65; no for Codes 3, 4, 6)
+- Whether other forms must be filed (Code 2 → Form 5329 only if the excess stayed past the due date; Code 5 → consult a tax pro)
 
 ---
 
 ## Box 4 — FMV on date of death
 
-Populated **only if the account holder died** during the tax year and the 1099-SA reflects a death distribution (Code 4 or Code 6).
+Populated **only if the account holder died** and the 1099-SA reflects a death distribution (Code 4 in the year of death or to the estate; Code 6 to a nonspouse beneficiary after the year of death).
 
-The fair market value of the HSA on the date of death. Used by:
+The fair market value of the HSA on the date of death (for a distribution after the year of death, reduced by the decedent's qualified medical expenses paid within 1 year after death). Used by:
 
-- **Code 4 (non-spouse beneficiary or estate)**: the beneficiary inherits cash equal to Box 1 (which equals or is close to Box 4). The amount is fully taxable as ordinary income to the beneficiary in the year received. Box 4 establishes the basis for any subsequent investment gain (none, typically — the funds are distributed in cash).
-- **Code 6 (spouse beneficiary)**: the spouse takes over the HSA as their own. Box 4 establishes the new account value at the spouse's takeover. Not taxable.
+- **Non-spouse beneficiary other than the estate (Code 4 or 6)**: the FMV is income for the **year the account owner died**, even if the money came in a later year. It goes on Form 8889 Line 14a under the heading "Death of HSA account beneficiary"; the decedent's pre-death medical bills the beneficiary paid within 1 year after death go on Line 15.
+- **Estate (Code 4)**: the FMV is included on the decedent's final income tax return.
+- **Spouse beneficiary**: no Box 4 death distribution; the HSA becomes the spouse's own (IRC §223(f)(8)(A)).
 
-If Box 4 > Box 1, the difference indicates earnings between date of death and date of distribution — those earnings may be taxable to the recipient depending on jurisdiction. Refer to a tax pro.
+If Box 1 > Box 4, the difference is earnings after the date of death; it is taxable to the recipient as "Other income" for the year received (Form 1099-SA, Instructions for Recipient, "Nonspouse beneficiary").
 
 For most filers (account holder did not die), Box 4 = $0 / blank.
 
@@ -109,8 +111,8 @@ Three checkboxes; one is marked:
 | Checkbox | Account type | Recipient files |
 |----------|--------------|-----------------|
 | HSA | Health Savings Account (IRC §223) | **Form 8889 Part II** |
-| Archer MSA | Archer Medical Savings Account (IRC §220) — pre-2008 enrollment, mostly grandfathered | **Form 8853 Part II Section A** |
-| Medicare Advantage MSA | Medicare Advantage MSA (IRC §138) — for Medicare beneficiaries on certain MA plans | **Form 8853 Part II Section B** |
+| Archer MSA | Archer Medical Savings Account (IRC §220) — pre-2008 enrollment, mostly grandfathered | **Form 8853 Section A, Part II (lines 6a–9b)** |
+| Medicare Advantage MSA | Medicare Advantage MSA (IRC §138) — for Medicare beneficiaries on certain MA plans | **Form 8853 Section B (lines 10–13b)** |
 
 This skill primarily covers HSA. For Archer and MA MSA, see [`archer-and-ma-msa.md`](./archer-and-ma-msa.md).
 
@@ -128,11 +130,11 @@ If the user files using the original and the correction arrives later, file an a
 
 ## Sample 1099-SA interpretation
 
-Example: HealthEquity issues this 1099-SA to Lisa Park for tax year 2025:
+Example: Lisa's HSA custodian issues this 1099-SA to Lisa Park for tax year 2025:
 
 ```
-PAYER: HealthEquity Inc., 15 W Scenic Pointe Dr Ste 100, Draper UT 84020, EIN 52-2153069
-RECIPIENT: Lisa Park, 555 Main St, Brooklyn NY 11201, SSN ***-**-1234
+PAYER: <HSA custodian name, address, TIN>
+RECIPIENT: Lisa Park, <address>, SSN ***-**-1234
 
 Box 1: $4,250
 Box 2: $0
@@ -142,7 +144,7 @@ Box 5: [HSA checked]
 ```
 
 Interpretation:
-- Lisa took $4,250 in distributions from her HealthEquity HSA in 2025
+- Lisa took $4,250 in distributions from her HSA in 2025
 - All a "normal" distribution (Code 1)
 - No excess contribution earnings
 - Account holder is alive (Box 4 = $0)
@@ -155,7 +157,7 @@ Lisa now needs to determine, separately, how much of the $4,250 went to qualifie
 - Line 14c = $4,250
 - Line 15 (QME) = $3,800
 - Line 16 (taxable) = $4,250 − $3,800 = $450
-- Line 17b (20% additional tax, assuming Lisa is under 65) = $450 × 0.20 = $90
+- Line 17b (20% additional tax, assuming the distributions were made before Lisa turned 65) = $450 × 0.20 = $90
 
 Lisa owes ordinary income tax on $450 plus a $90 additional tax penalty.
 
@@ -167,13 +169,12 @@ Lisa owes ordinary income tax on $450 plus a $90 additional tax penalty.
 - IRC §220 — Archer MSAs
 - IRC §138 — Medicare Advantage MSAs
 - IRC §4973 — excise tax on excess contributions
-- IRS Instructions for Forms 1099-SA and 5498-SA — annual revision
-- Treasury Reg. §1.223-2 — HSA distribution rules
+- IRS Instructions for Forms 1099-SA and 5498-SA (2025; Rev. December 2026 for 2026 distributions)
 - IRS Notice 2004-50 — HSA Q&A guidance
 
 ## Verify before filing
 
 - That Box 5 matches the actual account type (HSA / Archer / MA MSA)
-- That Box 3 distribution code matches the user's situation (e.g., a Code 1 from a custodian when the user actually inherited the HSA → custodian error; request correction)
+- That Box 3 distribution code matches the user's situation (e.g., a Code 1 to a nonspouse beneficiary who inherited the HSA → custodian error; request correction. Code 1 is correct for a spouse beneficiary)
 - That Box 1 ties to the user's HSA portal "Total distributions" report
 - That all 1099-SAs from all custodians are received before filing — if the user expects a 1099-SA but hasn't received it by mid-February, contact the custodian

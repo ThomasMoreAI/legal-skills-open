@@ -5,7 +5,7 @@ description: 面向中国商标申请的类别规划、可注册性初筛及申�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/trademark-assistant
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: ip
@@ -205,6 +205,8 @@ sources:
   path: references/trademark-examination-and-adjudication-guidelines/chapter-43.md
 - title: Trademark examination and adjudication guidelines index
   path: references/trademark-examination-and-adjudication-guidelines/trademark-examination-and-adjudication-guidelines-index.md
+- title: Literal goods safety
+  path: references/literal-goods-safety.md
 ---
 
 # 商标助手
@@ -320,7 +322,7 @@ sources:
 
 使用 `scripts/script.py` 生成 Excel。它已内置模板表头校验、类别整数校验、类别与类似群一致性校验、商品名称类型校验、openpyxl 缺失提示和禁止静默覆盖规则，可直接运行。
 
-输入为 JSON 数组（每项含 `类别`、`类似群`、`商品名称`，序号自动生成）：
+输入为 JSON 数组（每项含 `类别`、`类似群`、`商品名称`，序号自动生成；商品名称保留原始字符并作为纯文本写入，空白名称或超过 32767 字符明确拒绝）：
 
 ```json
 [

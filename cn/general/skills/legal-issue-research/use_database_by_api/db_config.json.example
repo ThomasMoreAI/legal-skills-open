@@ -1,0 +1,21 @@
+{
+  "_comment": "法律数据库接入配置（用户自行填写）。启用哪个库 = 把 enabled 设为 true 并填 API 信息。",
+  "wolterskluwer": {
+    "enabled": true,
+    "_comment": "威科先行：如需配置请参考 wolters_API_GUIDE.md 填写",
+    "username": "",
+    "password": ""
+  },
+  "pkulaw": {
+    "enabled": false,
+    "_comment": "北大法宝：填入你的北大法宝 API key 和端点后启用。可扩展——新增数据库只需在 db_adapter.py 注册适配器。",
+    "api_key": "",
+    "endpoint": ""
+  },
+  "courts": {
+    "enabled": false,
+    "_comment": "裁判文书网（待接入）：填入可用的检索端点后启用。",
+    "api_key": "",
+    "endpoint": ""
+  }
+}

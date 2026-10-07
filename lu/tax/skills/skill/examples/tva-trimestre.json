@@ -1,0 +1,20 @@
+{
+  "_comment": "Exemple de déclaration TVA trimestrielle (T3 2025) — entreprise de services consulting + revente livres",
+  "periode": "2025-T3",
+  "operations": {
+    "livraisons_normal_17": 50000,
+    "livraisons_intermediaire_14": 0,
+    "livraisons_reduit_8": 0,
+    "livraisons_super_reduit_3": 12000,
+    "livraisons_intracommunautaires": 8000,
+    "livraisons_export": 0,
+    "acquisitions_intracommunautaires_17": 5000,
+    "acquisitions_intracommunautaires_14": 0,
+    "acquisitions_intracommunautaires_8": 0,
+    "acquisitions_intracommunautaires_3": 0,
+    "achats_deductibles_17": 20000,
+    "achats_deductibles_14": 0,
+    "achats_deductibles_8": 0,
+    "achats_deductibles_3": 1000
+  }
+}

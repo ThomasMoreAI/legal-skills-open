@@ -1,0 +1,12 @@
+name: Giurisprudenza Lampo
+practice_area: Legal Research
+jurisdiction: Italy
+version: "1.0"
+author: Giovanna Panucci — Hackathon 2026
+description: >
+  Ricerca giurisprudenziale rapida per ottenere un quadro di
+  orientamento iniziale su un tema giuridico italiano. Cerca pronunce
+  recenti su DeJure, Italgiure, Cassazione, TAR e Consiglio di Stato,
+  poi sintetizza estremi, massime, orientamento prevalente e
+  implicazioni operative. Activates on phrases like "giurisprudenza-lampo
+  [tema]" or "cosa dice la giurisprudenza su [tema]."

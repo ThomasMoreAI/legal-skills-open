@@ -5,7 +5,7 @@ description: 'Für Rollierende Liquiditätsvorschau 3/6/12 Monate mit Fortführu
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/steuerrecht-anwalt-und-berater/skills/liquiditaetsvorschau-3-6-12-monate
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: tax

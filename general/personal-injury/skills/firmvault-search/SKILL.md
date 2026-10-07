@@ -5,7 +5,7 @@ description: Search FirmVault legal case documents — medical records, legal fi
 author: Whaleylaw
 author_url: https://github.com/Whaleylaw/Roscoe-hermes/tree/main/skills/legal/firmvault-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: personal-injury

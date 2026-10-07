@@ -1,0 +1,20 @@
+# Taslak / Görüş Tracker
+# reg-feed-watcher taslak düzenleme veya kamuoyu görüşü süreci gördüğünde doldurur.
+# /regulatory-legal:comments ile yönetilir.
+
+comments:
+  - id: CMT-001
+    item_type: "taslak"  # taslak | kamuoyu-gorusu | kurul-taslagi | sektor-gorusu | diger
+    regulation: "[taslak düzenleme / görüş çağrısı adı]"
+    regulator: "[kurum adı]"
+    summary: "[tek cümle - ne öneriliyor]"
+    link: "[birincil kaynak URL]"
+    comment_deadline: "2026-06-15"
+    detected: "2026-05-13"
+    decision: "undecided"  # undecided | gorus-verilecek | gorus-verilmeyecek | birlik-uzerinden | ertelendi | sunuldu
+    owner: "[CLAUDE.md varsayılan karar sahibi]"
+    owner_slack: "[Slack kullanıcı adı/ID]"
+    notified: false
+    rationale: ""
+    filed_at: null
+    notes: ""

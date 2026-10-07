@@ -5,12 +5,17 @@ description: 'Adversarial quality control for AI deliverables. Run structured pa
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/adversarial-qc
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general
 language: en
-tags: [quality-control, multi-agent, verification, adversarial, certificate]
+tags:
+- quality-control
+- multi-agent
+- verification
+- adversarial
+- certificate
 sources:
 - title: Certificate template
   path: references/certificate-template.md

@@ -1,0 +1,82 @@
+[
+  {
+    "requete": "Transforme cette note du cabinet en projet de décret : les communes de plus de 10 000 habitants publient chaque année le bilan de leurs achats alimentaires durables.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Peux-tu relire ce projet d'arrêté et me signaler les fautes de rédaction ?",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Rédige un amendement au projet de loi pour insérer un article après l'article 12 qui oblige les plateformes à afficher le prix au kilo.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Dans quel ordre dois-je placer les visas d'un décret en Conseil d'Etat ?",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Comment formuler l'abrogation du troisième alinéa d'un article de code dans un décret modificatif ?",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Mets en forme juridique cette mesure : les vélos électriques de location doivent être assurés.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Prépare l'exposé des motifs et la liste des consultations obligatoires pour ce projet de loi.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Draft a French decree implementing this measure, following the Guide de légistique.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Ce projet de décret est-il légal ? Est-ce que ça ne devrait pas plutôt relever de la loi ?",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Analyse la cohérence de cette proposition de loi avec le droit existant et dis-moi si ses articles sont vraiment normatifs.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Est-ce opportun d'adopter ce projet d'arrêté maintenant, alors que la directive européenne sur le sujet est encore en négociation ?",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Que vaut la rédaction de ce projet d'arrêté au regard du guide de légistique ? Pas besoin de le corriger, dis-moi juste s'il est bien écrit.",
+    "doit_declencher": true
+  },
+  {
+    "requete": "Mon propriétaire refuse de me rendre ma caution, quels sont mes recours ?",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Résume cette décision du Conseil d'Etat en cinq lignes.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Traduis ce contrat de prestation en anglais.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Rédige une lettre de résiliation de mon abonnement téléphonique.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Corrige l'orthographe de ce courriel à mon équipe.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Explique-moi la différence entre un CDD et un CDI.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Rédige les conditions générales de vente de ma boutique en ligne.",
+    "doit_declencher": false
+  },
+  {
+    "requete": "Analyse ce contrat de bail : la clause de résiliation est-elle légale ?",
+    "doit_declencher": false
+  }
+]

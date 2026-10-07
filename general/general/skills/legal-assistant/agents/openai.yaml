@@ -1,0 +1,8 @@
+interface:
+  display_name: "legal-assistant"
+  short_description: "法律事项、合同、文书和报告助手"
+  brand_color: "#1677FF"
+  default_prompt: "Use $legal-assistant to analyze this legal matter with the /legal-assistant workflow and return a structured briefing."
+
+policy:
+  allow_implicit_invocation: true

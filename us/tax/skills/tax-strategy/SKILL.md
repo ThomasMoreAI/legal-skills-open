@@ -5,7 +5,7 @@ description: Use this skill when planning corporate tax strategy, claiming R&D c
 author: mkurman
 author_url: https://github.com/mkurman/zorai/tree/main/skills/nontechnical/absolutelyskilled/tax-strategy
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: tax

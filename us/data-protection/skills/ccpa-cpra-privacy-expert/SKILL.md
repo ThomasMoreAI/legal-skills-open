@@ -5,7 +5,7 @@ description: CCPA and CPRA California privacy compliance. Use for CCPA/CPRA read
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/ccpa-cpra-privacy-expert
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: data-protection

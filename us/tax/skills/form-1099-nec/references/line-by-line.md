@@ -2,13 +2,15 @@
 
 Complete lookup for every box on Form 1099-NEC and the payer/recipient header blocks. Use this when the agent needs to confirm what goes where.
 
+Verified against **Form 1099-NEC (Rev. December 2026)** (2026 payments, filed early 2027) and the Instructions for Forms 1099-MISC and 1099-NEC (Rev. December 2026). For 2025 payments the **Rev. April 2025** form applies: same boxes except that nonemployee compensation is "Box 1" and there are no boxes 1b–1d. Re-check https://www.irs.gov/forms-pubs/about-form-1099-nec for the next revision.
+
 ## Header blocks
 
 ### Payer (top-left block)
 
 | Field | What goes here | Notes |
 |-------|----------------|-------|
-| Payer's name, street address, city or town, state or province, country, ZIP, phone | Payer's legal business name and primary mailing address | Must match payer's IRS records (Form SS-4 EIN application) |
+| Payer's name, street address, room/suite, city or town, state or province, country, ZIP, phone | Payer's legal business name and primary mailing address | Separate entry boxes on the Rev. December 2026 form. Must match payer's IRS records (Form SS-4 EIN application) |
 | Payer's TIN | Payer's EIN (preferred) | A sole proprietor with no EIN may use SSN, but rarely files 1099-NECs without EIN — encourage EIN |
 
 ### Recipient (left-center block)
@@ -17,8 +19,8 @@ Complete lookup for every box on Form 1099-NEC and the payer/recipient header bl
 |-------|----------------|-------|
 | Recipient's name | Legal name from W-9 Line 1 | Individual: full legal name. SMLLC owned by an individual: owner's name, not LLC name (per W-9 instructions). Corporation: corporation name. |
 | (Optional) DBA | Business / trade name from W-9 Line 2 | Below the legal name |
-| Recipient's TIN | SSN, ITIN, or EIN per W-9 Line 4 | Truncate on Copy B (last 4 only) per Reg. §301.6109-4; full TIN on Copy A to IRS |
-| Recipient's street address | From W-9 Line 5 | |
+| Recipient's TIN | SSN, ITIN, or EIN from W-9 Part I | May be truncated on Copy B (last 4 only) per Reg. §301.6109-4; full TIN on Copy A to IRS |
+| Recipient's street address | From W-9 Lines 5–6 | |
 | Account number | Optional internal payer reference | Required if multiple 1099s for same recipient (e.g., split between contractor and rental relationship) |
 
 ### Special header items
@@ -34,7 +36,7 @@ Complete lookup for every box on Form 1099-NEC and the payer/recipient header bl
 
 ## Box-by-box
 
-### Box 1 — Nonemployee compensation
+### Box 1a — Nonemployee compensation (Box 1 on the Rev. April 2025 form)
 
 The most-used box. Total gross paid to the recipient for services performed in the calendar year.
 
@@ -44,33 +46,45 @@ The most-used box. Total gross paid to the recipient for services performed in t
 - Awards / prizes / bonuses paid to non-employees for services rendered
 - Benefits + cash payments to a non-employee director (board fees)
 - Travel reimbursements paid to a contractor under a *non-accountable* plan (i.e., the contractor doesn't substantiate the expense)
-- Termination payments to a deceased contractor's estate
+- Attorneys' fees for legal services, including fees paid to an incorporated law firm (§6041A(a)(1))
 
 **Excludes**:
 - Reimbursements paid under an *accountable* plan (substantiated, returned excess) — Reg. §1.62-2
 - Payments for goods / merchandise (not services)
 - Rent (use 1099-MISC Box 1)
 - Royalties (use 1099-MISC Box 2)
-- Attorney fees (use 1099-MISC Box 10)
-- Medical / health-care services (use 1099-MISC Box 6 — even if to a corporation)
+- Gross proceeds paid to an attorney, e.g., settlement funds (use 1099-MISC Box 10)
+- Medical / health-care payments (use 1099-MISC Box 6 — even if to a corporation)
 - Employee wages (use W-2)
-- Payments to corporations for services (except medical/legal — those go on 1099-MISC, not 1099-NEC)
-- Payments routed through a third-party payment network (Stripe, PayPal goods/services, Venmo business, Square, Cash App for Business) — the platform issues 1099-K instead
+- Payments to corporations for services (except legal services, which stay in box 1a, and medical payments, which go on 1099-MISC Box 6)
+- Payments made by credit/debit card or through a third-party payment network (Stripe, PayPal goods/services, Venmo business, Square, Cash App for Business) — reportable on Form 1099-K by the payment settlement entity instead
 - Personal payments unrelated to the payer's trade or business
 
-**Threshold for tax year 2026**: $2,000 per payee (OBBBA §112201, raised from $600). Verify against latest IRS guidance.
+**Threshold for tax year 2026**: $2,000 per payee (P.L. 119-21 §70433, raised from $600; inflation-adjusted from 2027 under IRC §6041(h)).
 
 **Threshold for tax year 2025 and earlier**: $600 per payee.
 
 If backup withholding was applied to **any** payment, issue 1099-NEC regardless of whether the threshold is met.
 
+### Box 1b — Cash tips (Rev. December 2026)
+
+Total amount designated as cash tips included in box 1a (cash or charged tips). Added for P.L. 119-21 §70201 tip reporting.
+
+### Box 1c — Treasury Tipped Occupation Code(s) (TTOC) (Rev. December 2026)
+
+Up to two TTOCs for the occupations in which the tips were received; enter "000" as one code if any tips came from a nonqualifying occupation (IRS.gov/TTOC).
+
+### Box 1d — Overtime compensation (Rev. December 2026)
+
+Qualified overtime compensation included in box 1a: only the amount above the regular rate required by FLSA §7 (the "half" of time-and-a-half). Added for P.L. 119-21 §70202.
+
 ### Box 2 — Direct sales of consumer products ≥$5,000
 
 Check this box only if the payer made direct sales totaling $5,000+ of consumer products to the recipient on a buy-sell, deposit-commission, or other commission basis for resale. Common in multi-level marketing / direct-sales businesses (Mary Kay, Avon, etc.). The payer also has the option to report on 1099-MISC Box 7 instead of 1099-NEC Box 2 — same rule, two reporting paths. Most payers won't use this.
 
-### Box 3 — (reserved)
+### Box 3 — Excess golden parachute payments
 
-Currently unused; do not enter anything.
+Excess parachute payments (the amount over the base amount, per Reg. §1.280G-1 Q/A-38 to Q/A-44) to a nonemployee. Moved here from Form 1099-MISC. Rare; the recipient owes a 20% excise tax reported on Schedule 2 (Form 1040), line 17k.
 
 ### Box 4 — Federal income tax withheld
 
@@ -81,7 +95,7 @@ Backup withholding amount, withheld at 24% (IRC §3406) when:
 - The IRS has notified the payer to withhold (C-notice for under-reporting interest/dividends, but applies generally)
 - The recipient hasn't certified that they're not subject to backup withholding (W-9 Part II)
 
-The withheld amount is remitted to the IRS via EFTPS deposits, then totaled and reported on **Form 945** filed by January 31 of the year after.
+The withheld amount is deposited with the IRS by EFT (EFTPS, IRS Direct Pay, or business tax account), then reported on **Form 945** line 2 (backup withholding), filed by January 31 of the year after (February 1, 2027 for 2026).
 
 There is no concept of voluntary withholding for 1099-NEC — if Box 4 > 0, it's backup withholding.
 

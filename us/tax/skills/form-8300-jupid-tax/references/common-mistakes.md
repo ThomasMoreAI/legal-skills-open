@@ -6,7 +6,7 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Pattern:** A customer writes a $25,000 personal check for a kitchen remodel down payment, and the contractor panic-files Form 8300.
 
-**Why it's wrong:** Personal checks are explicitly **not** "cash" under IRC §6050I and 26 CFR §1.6050I-1(c)(1)(ii). Bank instruments tied to the payer's own account do not trigger the 8300 obligation — the bank's routine reporting (via separate BSA channels) is the system's coverage.
+**Why it's wrong:** A check drawn on the payer's own account is explicitly excluded from "cash" by IRC §6050I(d) and the Form 8300 instructions ("Note. Cash does not include a check drawn on the payer's own account, such as a personal check, regardless of the amount").
 
 **Fix:** Re-read the cash definition. Only US currency, foreign currency, and certain monetary instruments **with face ≤ $10,000** in designated reporting transactions count. Wire transfers, ACH, credit/debit cards, and cashier's checks > $10,000 are also outside the definition.
 
@@ -18,7 +18,7 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Pattern:** A car dealer takes a $14,000 cash payment on April 1, intends to file, then forgets until tax season the following year.
 
-**Why it's costly:** §6721 third-tier penalty kicks in once the filing is past August 1 — in 2025 dollars, ~$330 per missed filing minimum. If the IRS finds a pattern of missed filings, intentional-disregard exposure starts at $660+ per failure or 10% of cash, whichever is greater.
+**Why it's costly:** The §6721 general-rule penalty applies once the filing is past August 1 — $340 per return for returns required to be filed in 2026 (Rev. Proc. 2024-40). If the IRS finds intentional disregard, the Form 8300 penalty is the greater of $34,150 or the cash received (up to $136,500) per failure, with no annual cap.
 
 **Fix:** File the same week cash is received, never wait. Build a calendar reminder triggered the moment cash crosses the threshold. The 15-day clock is calendar days, not business days, but if Day 15 falls on a weekend or federal holiday, it rolls to the next business day.
 
@@ -30,7 +30,7 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Pattern:** The 8300 gets filed in March 2026. The customer notification due January 31, 2027 doesn't.
 
-**Why it's costly:** IRC §6722 imposes a separate negligent-failure penalty (~$330 per recipient under current Rev. Proc., higher for intentional disregard). The customer-notification penalty is independently auditable and is one of the most common second-level findings in 8300 enforcement.
+**Why it's costly:** IRC §6722 imposes a separate penalty ($340 per statement for statements due in 2026 and 2027 under Rev. Procs. 2024-40 and 2025-32; higher for intentional disregard). The customer-notification penalty is independently auditable and is one of the most common second-level findings in 8300 enforcement.
 
 **Fix:** Treat the customer notification as part of the 8300 workflow. The moment an 8300 is submitted, queue a January 15-of-next-year reminder.
 
@@ -42,7 +42,7 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Pattern:** A customer pays a contractor $6,000 cash on March 1, then $5,500 cash on April 25 for the same kitchen remodel. The contractor files nothing because no single payment hit $10K.
 
-**Why it's wrong:** 26 CFR §1.6050I-1(b)(2) defines "related transactions" expansively — payments connected by a common project, contract, or relationship aggregate. Cumulative cash crossed $10,000 on April 25, triggering a 15-day clock from that date.
+**Why it's wrong:** 26 CFR §1.6050I-1(b) aggregates multiple payments for a single transaction (or related transactions, defined in §1.6050I-1(c)(7)(ii)) — installments on one remodel contract aggregate. Cumulative cash crossed $10,000 on April 25, triggering a 15-day clock from that date.
 
 **Fix:** Track cumulative cash payments per buyer over rolling 12 months. The moment cumulative cash exceeds $10K, the threshold is crossed.
 
@@ -54,7 +54,7 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Pattern:** A buyer pays for a $14,500 used motorcycle with three $5,000 money orders. The dealer thinks "each one is under $10K, no 8300 required."
 
-**Why it's wrong:** Under 26 CFR §1.6050I-1(c)(1)(ii), monetary instruments with face ≤ $10,000 ARE cash for §6050I purposes when received in a "designated reporting transaction." A consumer durable retail sale (the motorcycle) is a designated reporting transaction. Aggregate $15,000 — file Form 8300.
+**Why it's wrong:** Under 26 CFR §1.6050I-1(c)(1)(ii)(B), monetary instruments with face ≤ $10,000 ARE cash for §6050I purposes when received in a "designated reporting transaction." A consumer durable retail sale (the motorcycle) is a designated reporting transaction. Aggregate $15,000 — file Form 8300.
 
 **Fix:** When a buyer pays with multiple monetary instruments each under $10K for a consumer durable, collectible, or travel/entertainment activity, treat them as cash.
 
@@ -80,18 +80,18 @@ Patterns the agent should watch for. Each is a real failure mode the IRS encount
 
 **Why it's wrong:** Form 8300 requires Part I identification including TIN and ID details. Filing without them is incomplete; not filing because the data is incomplete is non-filing — both lead to penalties.
 
-**Fix:** Collect at the moment of payment, before the customer leaves with the goods. If the customer refuses to provide a TIN, file the 8300 with the TIN blank AND check the appropriate box documenting the refusal AND retain notes of the refusal in the file.
+**Fix:** Collect at the moment of payment, before the customer leaves with the goods. If the TIN cannot be obtained within 15 days, file the 8300 with the TIN blank AND explain why in the Comments section on page 2 (the form has no refusal checkbox) AND retain notes of the refusal in the file.
 
 **Agent action:** If the user describes accepting a >$10K cash payment without ID/TIN collection, flag this immediately and recommend retroactive contact to collect — late ID collection is much harder than at-the-counter, and the 15-day clock is still ticking.
 
 ---
 
-## Mistake 8: Paper filing without a hardship waiver
+## Mistake 8: Paper filing when e-filing is required
 
-**Pattern:** A small business owner downloads the Form 8300 PDF, fills it out, and mails it to the IRS in 2026 without ever registering on BSA E-Filing.
+**Pattern:** A business that issues 14 Forms W-2 and 1099-NEC a year downloads the Form 8300 PDF, fills it out, and mails it to the IRS in 2026 without ever registering on BSA E-Filing.
 
-**Why it's wrong:** Effective January 1, 2024, paper filing is non-compliant for almost every 8300 filer (26 CFR §301.6011-2). Without an active hardship waiver under 31 CFR §1010.306(e), paper filing itself triggers a penalty even if the substance is correct.
+**Why it's wrong:** Since January 1, 2024, a business required to file 10 or more information returns other than Form 8300 in the calendar year must e-file its Forms 8300 (26 CFR §301.6011-2; Form 8300 instructions). Without a Form 8508 waiver or the religious exemption, a paper Form 8300 from such a business is not filed in the required manner and is treated as late. A business under the 10-return threshold may file on paper.
 
-**Fix:** Register on https://bsaefiling.fincen.treas.gov/ before any 8300 obligation arises. Keep the account active. File electronically.
+**Fix:** Run the 10-return count. If e-filing is required, register on https://bsaefiling.fincen.treas.gov/ before any 8300 obligation arises, keep the account active, and file electronically.
 
-**Agent action:** When a user mentions paper filing, ask whether they have an active FinCEN hardship waiver. If no, redirect to the BSA E-Filing registration step before producing a deliverable.
+**Agent action:** When a user mentions paper filing, ask how many information returns other than Form 8300 the business must file this year, and whether it has a Form 8508 waiver or the religious exemption. If e-filing is required, redirect to the BSA E-Filing registration step before producing a deliverable.

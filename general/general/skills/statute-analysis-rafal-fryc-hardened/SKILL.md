@@ -5,7 +5,7 @@ description: Guide for reading, interpreting, and applying statutes, regulations
 author: faberlens
 author_url: https://github.com/faberlens/hardened-skills/tree/main/skills/court-listener-hardened
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

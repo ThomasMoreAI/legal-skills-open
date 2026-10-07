@@ -5,11 +5,40 @@ description: 한국 내용증명 자동 작성 스킬. 임금체불·보증금 �
 author: kimlawtech
 author_url: https://github.com/kimlawtech/korean-certified-mail/tree/main/certified-mail
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: litigation
 language: ko
+sources:
+- title: Interview copyright
+  path: references/interview-copyright.md
+- title: Interview damages
+  path: references/interview-damages.md
+- title: Interview defamation
+  path: references/interview-defamation.md
+- title: Interview defect
+  path: references/interview-defect.md
+- title: Interview demand
+  path: references/interview-demand.md
+- title: Interview deposit
+  path: references/interview-deposit.md
+- title: Interview eviction
+  path: references/interview-eviction.md
+- title: Interview loan
+  path: references/interview-loan.md
+- title: Interview refund
+  path: references/interview-refund.md
+- title: Interview renewal refusal
+  path: references/interview-renewal-refusal.md
+- title: Interview service
+  path: references/interview-service.md
+- title: Interview termination
+  path: references/interview-termination.md
+- title: Interview wage
+  path: references/interview-wage.md
+- title: Legal basis
+  path: references/legal-basis.md
 ---
 
 <!-- {REPO_DIR}/certified-mail = 이 파일이 위치한 실제 디렉토리. 경로 참조 시 {REPO_DIR}/certified-mail을 이 파일의 절대 경로 기준 상위 디렉토리로 치환하여 읽는다. -->

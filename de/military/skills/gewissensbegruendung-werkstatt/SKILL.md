@@ -5,7 +5,7 @@ description: 'Für Werkstatt Gewissensbegründung: ordnet Norm, Beweislast und G
 author: Klotzkette
 author_url: https://github.com/Klotzkette/claude-fuer-deutsches-recht/tree/main/kriegsdienstverweigerung-wehrdienst/skills/gewissensbegruendung-werkstatt
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: military

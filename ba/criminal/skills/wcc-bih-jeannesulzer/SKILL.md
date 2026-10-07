@@ -6,7 +6,7 @@ description: 'War Crimes Chamber of the Court of Bosnia and Herzegovina (WCC-BiH
 author: jeannesulzer
 author_url: https://github.com/jeannesulzer/international-criminal-tribunals-skills/tree/main/wcc-bih
 license: CC-BY-4.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ba
 practice: criminal

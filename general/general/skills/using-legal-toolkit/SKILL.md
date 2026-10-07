@@ -1,11 +1,11 @@
 ---
 name: using-legal-toolkit
-title: 'Using legal toolkit'
+title: Using legal toolkit
 description: Router for legal-toolkit (Taiwan in-house 法務) — recognises intent across Playbook / Template / Runbook / IRAC / Tracker / Compliance, dispatches to the right sub-skill; menu when ambiguous. Use on 'legal', '合約', 'NDA', '需要審合約'.
 author: kouko
 author_url: https://github.com/kouko/monkey-skills/tree/main/legal-toolkit/skills/using-legal-toolkit
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

@@ -5,12 +5,18 @@ description: 'Check affiliate content for FTC compliance and platform rules. Tri
 author: Affitor
 author_url: https://github.com/Affitor/affiliate-skills/tree/main/skills/meta/compliance-checker
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: regulatory
 language: en
-tags: [affiliate-marketing, meta, planning, compliance, ftc, disclosure]
+tags:
+- affiliate-marketing
+- meta
+- planning
+- compliance
+- ftc
+- disclosure
 ---
 
 # Compliance Checker

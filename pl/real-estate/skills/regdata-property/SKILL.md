@@ -5,7 +5,7 @@ description: Extract data from Poland's EKW electronic land registry (Elektronic
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-property
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: pl
 practice: real-estate
@@ -318,3 +318,8 @@ For a complete guide to interpreting each section field-by-field, see the refere
 - **`/regdata-credit-risk`** - For assessing the financial health of a corporate property owner - insolvency checks via KRZ/MSiG, financial statements via eKRS.
 - **`/regdata-lead-gen`** - For finding decision-makers at companies that own or manage real estate portfolios.
 - **`/regdata-compliance`** - For checking environmental compliance (BDO waste registry) if the property is used for industrial or waste-related operations.
+
+## More on getregdata.com
+
+- Property due-diligence use case: https://getregdata.com/use-cases/property-due-diligence/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

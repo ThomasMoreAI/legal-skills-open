@@ -5,7 +5,7 @@ description: 诉讼风险评估 SKILL · 企查查 MCP V2.0 增强版。 对目�
 author: duhu2000
 author_url: https://github.com/duhu2000/financial-services-qcc/tree/main/skills/litigation-analysis-qcc
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: litigation

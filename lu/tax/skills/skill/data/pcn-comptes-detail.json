@@ -1,0 +1,6 @@
+{
+  "description": "Plan Comptable Normalisé Luxembourg — référence rapide. Voir comptable/data/pcn-comptes.json pour la version détaillée par classe.",
+  "as_of": "2019-09-12",
+  "source_officielle": "https://eli.legilux.public.lu/eli/etat/leg/rgd/2019/09/12/a665/jo",
+  "remarque": "Le PCN est imposé par le règlement grand-ducal du 12 septembre 2019. Tous les commerçants luxembourgeois doivent l'appliquer."
+}

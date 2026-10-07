@@ -5,7 +5,7 @@ description: Use when a manuscript's supra/infra cross-references need to stop b
 author: edwinhu
 author_url: https://github.com/edwinhu/workflows/tree/main/skills/bluebook-audit/skills/audit-crossrefs
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general
@@ -150,7 +150,7 @@ Once `sources.bib` exists, **maintain it directly** — do not regenerate. Edits
 - `--gcs-bucket` (default `$GEMINI_BATCH_BUCKET` or `nal-batch-extraction`)
 - Location: `us-central1` (default)
 
-For `gemini-3.x` models, `thinkingLevel: MINIMAL` is set automatically — without it, batch responses silently return empty content (see /gemini-batch SKILL gotcha 12).
+For `gemini-3.x` models, `thinkingLevel: MINIMAL` is set automatically — without it, batch responses silently return empty content (see /gemini-vertex SKILL gotcha 12).
 
 Output written to `<docx-dir>/scratch/`:
 - `crossref_audit.json` — every cross-reference with current target + match status

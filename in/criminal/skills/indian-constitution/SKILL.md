@@ -5,7 +5,7 @@ description: Query Indian Constitution articles and BNS 2023 (Bharatiya Nyaya Sa
 author: ankitjh4
 author_url: https://github.com/ankitjh4/indic-ai-skills/tree/main/skills/indian-constitution
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: in
 practice: criminal

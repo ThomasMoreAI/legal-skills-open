@@ -5,7 +5,7 @@ description: 面向中国发明和实用新型专利的结构化初步分析工�
 author: cat-xierluo
 author_url: https://github.com/cat-xierluo/legal-skills/tree/main/skills/patent-analysis
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: ip

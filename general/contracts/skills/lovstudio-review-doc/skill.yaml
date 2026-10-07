@@ -1,0 +1,28 @@
+schema: skill-manifest/v1
+id: lov-review-doc
+version: "1.1.1"
+runtime: skill-runtime/v1
+context:
+  profile:
+    fields:
+    - path: identity.name
+      required: false
+      question: 如果本次输出需要品牌身份，请提供品牌名称。
+    - path: identity.logo
+      required: false
+      question: 如果需要使用品牌 Logo，请提供 Logo 地址或文件路径。
+    - path: brand.tone
+      required: false
+      question: 如果已有品牌语气或审美关键词，请提供它们。
+  preferences:
+    namespace: lov_review_doc
+    fields:
+    - path: user.language
+      required: false
+      question: 希望使用哪种语言输出？
+    - path: user.timezone
+      required: false
+      question: 需要使用哪个时区处理日期和时间？
+  interaction:
+    ask_missing: true
+    max_questions: 1

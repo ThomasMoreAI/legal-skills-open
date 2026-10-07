@@ -1,0 +1,196 @@
+#!/usr/bin/env node
+/**
+ * paperasse — CLI unifiée pour Paperasse Luxembourg.
+ *
+ * Point d'entrée unique pour toutes les commandes du projet.
+ * Découvre les sous-commandes en routant vers les scripts/ correspondants.
+ *
+ * Usage : paperasse <commande> [arguments]
+ *
+ * Commandes disponibles :
+ *   calc           Calculs fiscaux (IRC, ICC, IF, IRPP, TVA, succession, Bëllegen)
+ *   tva            Déclaration TVA luxembourgeoise (CA3)
+ *   facture        Génération de facture conforme TVA LU
+ *   validate       Validation d'une facture (IBAN LU, BIC, cohérence TTC)
+ *   validate:data  Validation des fichiers data/*.json contre leur schéma
+ *   freshness      Vérification de fraîcheur annuelle des chiffres
+ *   statements     Génération des états financiers (bilan, compte de résultat)
+ *   faia           Génération du fichier FAIA (audit fiscal AED)
+ *   pdfs           Génération des PDF de clôture
+ *   closing        Pipeline de clôture complet (faia + statements + pdfs)
+ *   test           Tests déterministes des calculs
+ *   open-data      Recherche/téléchargement depuis data.public.lu
+ *   help           Afficher cette aide
+ */
+
+import { spawn } from 'node:child_process';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const SCRIPTS = join(__dirname, '..', 'scripts');
+
+const ROUTES = {
+  calc:           ['scripts/calc.js'],
+  tva:            ['scripts/calc-tva-declaration.js'],
+  facture:        ['scripts/generate-facture-lux.js'],
+  validate:       ['scripts/validate-facture.js'],
+  'validate:data':['scripts/validate-schemas.js'],
+  freshness:      ['scripts/check-data-freshness.js'],
+  statements:     ['scripts/generate-statements.js'],
+  faia:           ['scripts/generate-faia.js'],
+  pdfs:           ['scripts/generate-pdfs.js'],
+  test:           ['scripts/test-deterministic-calculations.js'],
+  'open-data':    ['scripts/fetch-open-data.js'],
+  bank:           ['scripts/parse-bank-statement.js'],
+  'test:bank':    ['scripts/test-bank-parsers.js'],
+  ecdf:           ['scripts/generate-ecdf.js'],
+  'test:ecdf':    ['scripts/test-ecdf.js'],
+  lbr:            ['scripts/lbr.js'],
+  'test:lbr':     ['scripts/test-lbr.js'],
+  'test:faia':    ['scripts/test-faia.js'],
+  de:             ['scripts/de.js'],
+  'test:de':      ['scripts/test-templates-de.js'],
+  'bellegen-akt': ['scripts/bellegen-akt.js'],
+  'test:bellegen-akt': ['scripts/test-bellegen-akt.js'],
+  rts:            ['scripts/rts.js'],
+  'test:rts':     ['scripts/test-rts.js'],
+  frontalier:     ['scripts/frontalier.js'],
+  'test:frontalier': ['scripts/test-frontalier.js'],
+  statec:         ['scripts/statec.js'],
+  'test:statec':  ['scripts/test-statec.js'],
+  diagnostic:     ['scripts/diagnostic.js'],
+  'test:diagnostic': ['scripts/test-diagnostic.js'],
+  'tva-suivi':    ['scripts/tva-suivi.js'],
+  'test:tva-suivi': ['scripts/test-tva.js'],
+  entreprise:     ['scripts/entreprise.js'],
+  'test:entreprise': ['scripts/test-entreprise.js'],
+  particulier:    ['scripts/particulier.js'],
+  'test:particulier': ['scripts/test-particulier.js'],
+  residence:      ['scripts/residence.js'],
+  'test:residence': ['scripts/test-residence.js'],
+  logement:       ['scripts/logement.js'],
+  'test:logement': ['scripts/test-logement.js'],
+  courriers:      ['scripts/courriers.js'],
+  'test:courriers': ['scripts/test-courriers.js'],
+  rappels:        ['scripts/rappels.js'],
+  'test:rappels': ['scripts/test-rappels.js'],
+  connaissances:  ['scripts/connaissances.js'],
+  'test:connaissances': ['scripts/test-connaissances.js'],
+  rgpd:           ['scripts/rgpd.js'],
+  'test:rgpd':    ['scripts/test-rgpd.js'],
+  assistant:      ['scripts/assistant.js'],
+  evenement:      ['scripts/evenement.js'],
+  plan:           ['scripts/plan.js'],
+  reasoning:      ['scripts/reasoning.js'],
+  mission:        ['scripts/mission.js'],
+  evaluation:     ['scripts/evaluation.js'],
+  output:         ['scripts/output.js'],
+  'test:i18n':    ['scripts/test-i18n.js'],
+  'test:conversation': ['scripts/test-conversation.js'],
+  'test:scenarios': ['scripts/test-scenarios.js'],
+  'test:evenements': ['scripts/test-evenements.js'],
+  'test:orchestration': ['scripts/test-orchestration.js'],
+  'test:reasoning': ['scripts/test-reasoning.js'],
+  'test:workflows': ['scripts/test-workflows.js'],
+  'test:evaluation': ['scripts/test-evaluation.js'],
+  'test:outputs': ['scripts/test-outputs.js'],
+  'test:knowledge': ['scripts/test-knowledge.js'],
+  'test:governance': ['scripts/test-governance.js'],
+  'test:editorial': ['scripts/test-editorial.js'],
+  'test:maturite': ['scripts/test-maturite.js'],
+};
+
+function showHelp() {
+  console.log(`paperasse — CLI unifiée pour Paperasse Luxembourg
+
+Usage : paperasse <commande> [arguments]
+
+Commandes :
+  calc            Calculs fiscaux (irc, icc, if, irpp, tva, succession-direct, bellegen-akt)
+  tva             Déclaration TVA luxembourgeoise (CA3)
+  facture         Génération de facture conforme TVA LU
+  validate        Validation d'une facture (IBAN, BIC, TTC)
+  validate:data   Validation des fichiers data/*.json contre leur schéma JSON
+  freshness       Vérifie si les chiffres (as_of) sont à jour pour l'année courante
+  bank            Parse un relevé bancaire LU (BCEE/POST/BIL/CAMT.053) — auto-détection
+  ecdf            Génère le fichier eCDF "Comptes annuels schéma abrégé" (CA-A) à partir d'une balance PCN
+  lbr             Aide LBR : valider RCS, checklists de dépôt, calendrier annuel, tarifs 2026
+  de              Rend un template allemand (Einberufung, Mahnung, Rechnung, Kündigung) avec un JSON
+  statements      Génération des états financiers (bilan, compte de résultat)
+  faia            Génération du fichier FAIA (audit fiscal AED)
+  pdfs            Génération des PDF de clôture
+  closing         Pipeline complet (faia + statements + pdfs)
+  test            Tests déterministes
+  open-data       Recherche/téléchargement depuis data.public.lu (search|dataset|fetch)
+  rts             Calcul de la retenue à la source LU (RTS) sur salaire mensuel
+  frontalier      Net réel d'un frontalier FR/BE/DE travaillant au LU
+  diagnostic      Moteur de diagnostic administratif (obligations|profil|societe|questionnaire|dashboard|document)
+  tva-suivi       Suivi TVA : calendrier, périodes manquantes, cohérence, courrier AED
+  entreprise      Cycle de vie société/indépendant (parcours par phase, création)
+  particulier     Démarches personnelles (parcours, classe d'impôt, frontalier, fiche de paie)
+  residence       Parcours « Je m'installe au Luxembourg » (chronologique, UE / hors UE)
+  logement        Parcours logement (locataire/acheteur/propriétaire, Bëllegen Akt, garantie)
+  courriers       Génération de courriers-projets (réponse, délai, contestation, dossier récap)
+  rappels         Calendrier & surveillance : alertes couleur, rappels avant échéance
+  connaissances   Base de connaissances officielle (rapport, chercher, citer, revalider, sources)
+  rgpd            Confidentialité : chiffrement, masquage, durées de conservation
+  assistant       Assistant conversationnel (intention → obligations → action, avec sources)
+  evenement       Ontologie des événements de vie (naissance, arrivée, perte d'emploi, achat…)
+  plan            Planification multi-événements (dépendances, docs mutualisés, explications)
+  reasoning       Change Impact & simulation « et si… » (propagation traçable dans le graphe)
+  mission         Workflow Engine : dérouler une mission (étapes, dépendances, validations)
+  evaluation      Qualité & observabilité d'une mission (rapport de confiance, trace d'exécution)
+  output          Artefacts métier → adaptateurs (timeline .ics, documents, rappels, rapport)
+  test:rts        Tests du module RTS
+  test:frontalier Tests du module Frontaliers
+  help            Cette aide
+
+Exemples :
+  paperasse calc irc 250000
+  paperasse calc bellegen-akt 600000 2 lux-ville
+  paperasse tva examples/tva-trimestre.json
+  paperasse bank examples/bank-statements/bcee-sample.csv --format=table
+  paperasse bank releve.xml --format=csv > normalized.csv
+  paperasse ecdf examples/ecdf-input.json --out=comptes-2025.xml
+  paperasse lbr checklist creation_sarl
+  paperasse lbr calendrier 2025-12-31
+  paperasse de --list
+  paperasse de mahnung examples/de/mahnung-input.json --out=mahnung-001.md
+  paperasse open-data search "impôt"
+  paperasse validate:data
+  paperasse freshness
+
+Documentation : voir README.md, SOURCES.md, et chaque <skill>/SKILL.md du dépôt.
+`);
+}
+
+const [, , cmd, ...args] = process.argv;
+
+if (!cmd || cmd === 'help' || cmd === '--help' || cmd === '-h') {
+  showHelp();
+  process.exit(cmd ? 0 : 1);
+}
+
+if (cmd === 'closing') {
+  const seq = ['scripts/generate-faia.js', 'scripts/generate-statements.js', 'scripts/generate-pdfs.js'];
+  let i = 0;
+  const next = () => {
+    if (i >= seq.length) process.exit(0);
+    const child = spawn(process.execPath, [join(__dirname, '..', seq[i])], { stdio: 'inherit' });
+    child.on('exit', (code) => {
+      if (code !== 0) process.exit(code);
+      i++;
+      next();
+    });
+  };
+  next();
+} else if (ROUTES[cmd]) {
+  const [script] = ROUTES[cmd];
+  const child = spawn(process.execPath, [join(__dirname, '..', script), ...args], { stdio: 'inherit' });
+  child.on('exit', (code) => process.exit(code || 0));
+} else {
+  console.error(`Commande inconnue : "${cmd}"`);
+  console.error(`Lancez "paperasse help" pour la liste des commandes.`);
+  process.exit(1);
+}

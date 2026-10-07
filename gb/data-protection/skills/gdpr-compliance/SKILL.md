@@ -5,7 +5,7 @@ description: Generate UK/EU GDPR compliance documents — privacy policies, cook
 author: aAAaqwq
 author_url: https://github.com/aAAaqwq/AGI-Super-Team/tree/master/skills/gdpr-compliance
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: data-protection

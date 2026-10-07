@@ -5,7 +5,7 @@ description: Use when drafting patent applications, writing claims, analyzing pr
 author: omer-metin
 author_url: https://github.com/omer-metin/skills-for-antigravity/tree/main/skills/patent-drafting
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: ip

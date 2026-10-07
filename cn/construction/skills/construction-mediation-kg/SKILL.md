@@ -5,7 +5,7 @@ description: 建设工程商事调解知识图谱专家技能。基于《人民�
 author: ruiyongwang
 author_url: https://github.com/ruiyongwang/dlh/tree/main/skills/construction-mediation-kg
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: construction

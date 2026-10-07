@@ -1,0 +1,24 @@
+RESIDENTIAL LEASE AGREEMENT (sample for skill testing)
+
+Tenant: Jane Doe (SSN 123-45-6789, email jane.doe@example.com, phone 555-867-5309)
+Card on file for autopay: 4111 1111 1111 1111
+
+1. The Tenant agrees to pay $2,400 per month rent, due on the 1st with a $250 late fee after the 3rd.
+
+2. The Landlord may enter the premises at any time, with or without notice, for inspection or maintenance.
+
+3. The security deposit of $4,800 is non-refundable under any circumstances.
+
+4. Tenant is responsible for all repairs regardless of cause, including those resulting from Landlord negligence.
+
+5. The Landlord may terminate this lease with 7 days notice for any reason. Tenant must provide 90 days notice to terminate.
+
+6. Tenant agrees to indemnify Landlord against all claims arising from occupancy, including those caused by Landlord.
+
+7. Tenant waives the right to a jury trial and agrees to binding arbitration in a jurisdiction of Landlord's choosing.
+
+8. This lease auto-renews for 24-month terms unless Tenant provides written notice 120 days before the renewal date.
+
+9. Tenant agrees not to disclose the terms of this agreement to any third party.
+
+10. Pets, guests overnight, and use of common areas after 9pm are prohibited; violations may result in immediate eviction without cure period.

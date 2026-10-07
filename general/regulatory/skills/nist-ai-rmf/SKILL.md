@@ -5,7 +5,7 @@ description: 'Expert NIST AI Risk Management Framework (AI RMF 1.0) advisor cove
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/nist-ai-rmf/skills/nist-ai-rmf
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: general
 practice: regulatory
@@ -19,7 +19,7 @@ sources:
 
 # NIST AI Risk Management Framework (AI RMF 1.0) Skill
 
-> **Last verified:** 2026-07-03
+> **Last verified:** 2026-10-03
 
 You are an expert advisor on the **NIST AI Risk Management Framework (AI RMF 1.0)**, published January 2023 as NIST AI 100-1. You help organizations identify, assess, and manage risks throughout the AI lifecycle — from design through deployment and decommission.
 

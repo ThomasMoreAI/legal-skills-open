@@ -4,11 +4,11 @@ The reporting threshold determines whether a 1099-NEC is required for a given pa
 
 ## Current threshold
 
-**Tax year 2026 and later: $2,000 per payee per calendar year.**
+**Tax year 2026: $2,000 per payee per calendar year.**
 
-Source: One Big Beautiful Bill Act of 2025 (OBBBA), Section 112201, which amended IRC §6041(a) and §6041A. The change is effective for payments made in calendar years beginning after December 31, 2025.
+Source: P.L. 119-21 (One Big Beautiful Bill Act, July 4, 2025) §70433, which replaced "$600" with "$2,000" in IRC §6041(a), applied the same amount to §6041A and to backup withholding (§3406(b)(6)), and added §6041(h). The change applies to payments made after December 31, 2025 (Instructions for Forms 1099-MISC and 1099-NEC, Rev. December 2026, What's New; law.cornell.edu notes to §6041).
 
-**Verify before filing**: the IRS may publish transitional notices or implementation guidance. Check https://www.irs.gov/forms-pubs/about-form-1099-nec for the latest.
+**2027 and later**: the $2,000 is adjusted for inflation beginning in calendar year 2027, rounded to $100 steps (IRC §6041(h); Pub. 1099 (2026)). Read the year's figure at IRS.gov/InflationAdjustment and https://www.irs.gov/forms-pubs/about-form-1099-nec before filing.
 
 ## Pre-2026 threshold
 
@@ -24,7 +24,7 @@ The threshold is **per payee**, **per calendar year**, **aggregated across all p
 
 - Aggregate by payee TIN, not by invoice or project. Three projects of $800 each to the same contractor in 2026 = $2,400 total = exceeds $2,000 threshold = 1099-NEC required.
 - Aggregate by **payer** (legal entity) — if a payer has multiple DBAs but one EIN, aggregate across all DBAs.
-- Do NOT aggregate across calendar years. A contractor paid $1,500 in late 2026 and $700 in early 2027 = neither year crosses the threshold (assuming the $2,000 threshold continues unchanged for 2027).
+- Do NOT aggregate across calendar years. A contractor paid $1,500 in late 2026 and $700 in early 2027 = neither year crosses the threshold (the 2027 threshold is $2,000 adjusted for inflation, so it is at least $2,000).
 
 ### Cash basis vs. accrual
 
@@ -45,9 +45,11 @@ The agent should aggregate **all** payments to a payee within the calendar year 
 
 If the payer applied **any backup withholding** (24% under IRC §3406) to **any** payment to the payee during the year, a 1099-NEC must be issued **regardless of whether the threshold was met**.
 
-Reason: the payer needs to report the withholding to the IRS so the payee gets credit for it (via Form 1040 Line 25c).
+Reason: the payer needs to report the withholding to the IRS so the payee gets credit for it (via Form 1040 Line 25b).
 
-Example: payer paid contractor $1,500 in 2026 and applied 24% backup withholding on those payments because the contractor never returned a W-9. 1099-NEC is required (Box 1 = $1,500, Box 4 = $360) even though $1,500 < $2,000.
+Example: payer paid contractor $1,500 in 2026 and applied 24% backup withholding on those payments because the contractor never returned a W-9. 1099-NEC is required (Box 1a = $1,500, Box 4 = $360) even though $1,500 < $2,000.
+
+Note: after P.L. 119-21, backup withholding on contractor payments is generally required only once the payee's annual total reaches the $2,000 reporting amount, or if a 1099 was required (or backup withholding applied) for that payee in the prior year (IRC §3406(b)(6); Pub. 1099 (2026), What's New). If the payer withheld anyway, the form is still required.
 
 ## What counts toward the threshold
 
@@ -62,24 +64,19 @@ Example: payer paid contractor $1,500 in 2026 and applied 24% backup withholding
 | Goods / merchandise / inventory | No |
 | Rent | No (use 1099-MISC Box 1) |
 | Royalties | No (use 1099-MISC Box 2) |
-| Attorney fees | No (use 1099-MISC Box 10) |
-| Medical / health-care services | No (use 1099-MISC Box 6) |
-| Payments via Stripe / PayPal / Venmo Business / Square / Cash App for Business | No (platform issues 1099-K) |
+| Attorneys' fees for legal services (even to an incorporated law firm) | Yes (Box 1a) |
+| Gross proceeds paid to an attorney (e.g., settlement funds) | No (1099-MISC Box 10, $600 threshold) |
+| Medical / health-care payments | No (use 1099-MISC Box 6, $2,000 for 2026) |
+| Payments by credit/debit card or via Stripe / PayPal / Venmo Business / Square / Cash App for Business | No (reportable on Form 1099-K by the payment settlement entity) |
 | Personal (non-business) payments | No |
 
 ## State threshold variations
 
-States may have lower thresholds for state 1099-NEC filing than federal.
-
-For 2026, examples (verify each year):
-
-- California: $600 threshold for state filing (FTB Form 592)
-- New York: federal threshold for state filing
-- Pennsylvania: $5,000 threshold for state filing (slightly different rules)
+States set their own information-return thresholds and may not follow the federal $2,000. This skill does not carry a verified state table: ask the user for the state(s) involved and check each state revenue department's current guidance before relying on the federal number.
 
 If the payer has nexus in a state with a different threshold, the payer may need to file at the state level even if federal isn't required.
 
-See https://www.irs.gov/pub/irs-pdf/p1220.pdf Section B for the Combined Federal/State Filing program list.
+See the CF/SF Program section of Pub. 1099 (2026) (https://www.irs.gov/pub/irs-pdf/p1099.pdf) for the Combined Federal/State Filing program.
 
 ## What if the payer over-issues?
 
@@ -89,13 +86,13 @@ However, the payer creates work for themselves and the recipient. Best practice:
 
 ## What if the payer fails to issue?
 
-Penalties under IRC §6721 (failure to file with IRS) and §6722 (failure to furnish to recipient):
+Penalties under IRC §6721 (failure to file with IRS) and §6722 (failure to furnish to recipient), charged separately for each:
 
-- $60 per form if filed within 30 days after due date
-- $130 per form if filed after 30 days but before August 1
-- $330 per form if filed after August 1 or not at all
-- $660 per form for intentional disregard
+| Returns due in | Up to 30 days late | 31 days late through Aug. 1 | After Aug. 1 or not filed | Intentional disregard |
+|---|---|---|---|---|
+| 2026 (2025 payments) | $60 | $130 | $340 | $680 |
+| 2027 (2026 payments) | $60 | $130 | $340 | $690 |
 
-These are the 2025 amounts; they're indexed for inflation. Verify current year at https://www.irs.gov/government-entities/federal-state-local-governments/penalty-amounts-for-information-returns.
+Sources: https://www.irs.gov/payments/information-return-penalties (2026 row); Rev. Proc. 2025-32 §§4.57–4.58 (2027). Indexed for inflation; small businesses have lower annual maximums (Pub. 1099, part O).
 
 The payee's deduction (the contractor expense on the payer's Schedule C / 1120 / 1120-S) generally remains deductible even if 1099-NEC isn't issued — the deduction depends on substantiation under IRC §162, not on 1099 compliance. But the payer may face a separate penalty.

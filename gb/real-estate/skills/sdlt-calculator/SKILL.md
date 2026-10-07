@@ -5,11 +5,14 @@ description: Calculate UK Stamp Duty Land Tax (SDLT) for residential property pu
 author: MoverlyLtd
 author_url: https://github.com/MoverlyLtd/conveyancing-toolkit/tree/master/sdlt-calculator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: real-estate
 language: en
+sources:
+- title: Sdlt rules
+  path: references/sdlt-rules.md
 ---
 
 # SDLT Calculator

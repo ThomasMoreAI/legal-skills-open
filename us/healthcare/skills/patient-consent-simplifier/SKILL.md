@@ -5,7 +5,7 @@ description: Simplifies informed consent documents into patient-friendly languag
 author: aipoch
 author_url: https://github.com/aipoch/medical-research-skills/tree/main/scientific-skills/Other/patient-consent-simplifier
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: healthcare

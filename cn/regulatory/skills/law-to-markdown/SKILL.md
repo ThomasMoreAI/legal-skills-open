@@ -5,7 +5,7 @@ description: 将法条/规范文件（.txt/.docx/.pdf）转为 Markdown。适用
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/law-to-markdown
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: regulatory

@@ -1,0 +1,485 @@
+{
+  "type": "review-checklist",
+  "canonical": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap",
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap",
+      "type": "text/html"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap/markdown",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "alternate",
+      "href": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap/json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "type": "text/html",
+      "external": true,
+      "title": "CC BY 4.0"
+    },
+    {
+      "rel": "agent-skill",
+      "href": "https://openagreements.org/skills/open-agreements/SKILL.md",
+      "type": "text/markdown"
+    },
+    {
+      "rel": "related-form",
+      "href": "https://openagreements.org/templates/yc-safe-valuation-cap",
+      "type": "text/html",
+      "title": "YC Post-Money SAFE — Valuation Cap"
+    }
+  ],
+  "data": {
+    "topic": "safes",
+    "slug": "yc-post-money-safe-valuation-cap",
+    "frontmatter": {
+      "title": "YC SAFE Template (Post-Money Valuation Cap) Reviewer Checklist",
+      "description": "Check the unmodified YC post-money valuation-cap SAFE template before signing: confirm the variant, valuation cap and purchase amount, entity and governing-law fields, signatures, and any separate pro rata side letter.",
+      "eyebrow": "Reviewer Checklist",
+      "coverage": "YC Post-Money SAFE (valuation cap)",
+      "lastReviewed": "2026-06-24",
+      "license": "CC BY 4.0",
+      "authors": [
+        "steven-obiajulu"
+      ]
+    },
+    "requirementCount": 13,
+    "sections": [
+      {
+        "sectionId": "use-the-unmodified-form",
+        "label": "Use the unmodified form"
+      },
+      {
+        "sectionId": "economic-terms-you-fill-in",
+        "label": "Economic terms you fill in"
+      },
+      {
+        "sectionId": "entity-and-governing-law",
+        "label": "Entity and governing law"
+      },
+      {
+        "sectionId": "parties-and-execution",
+        "label": "Parties and execution"
+      },
+      {
+        "sectionId": "side-terms-the-form-leaves-out",
+        "label": "Side terms the form leaves out"
+      }
+    ],
+    "requirements": [
+      {
+        "requirementId": "use-unmodified-form",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.use-unmodified-form",
+        "requirementLevel": "MUST NOT",
+        "sourceFootnotes": [],
+        "requirementLabel": "Body text left unmodified except blanks and brackets",
+        "sectionId": "use-the-unmodified-form",
+        "itemNumber": "1.1",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#use-unmodified-form",
+        "requirementGuidance": "Confirm the body text is the standard form, changed only to fill in blanks and bracketed terms. The instrument records the parties' shared expectation that neither one has modified the form, except to fill in blanks and bracketed terms — every copy of the YC SAFE is identical by design, which is what lets investors and founders sign quickly without re-negotiating standard terms. An edit to the operative text breaks that expectation and forfeits the speed and certainty the standardized document provides, so treat any change beyond the blanks as a defect to undo before signing.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-no-modification",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap)",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The YC SAFE is a standard form the parties agree not to modify except to fill in blanks and bracketed terms.",
+            "verbatimQuote": "This Safe is one of the forms available at http://ycombinator.com/documents and the Company and the Investor agree that neither one has modified the form, except to fill in blanks and bracketed terms.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-no-modification"
+          },
+          {
+            "sourceId": "safe-standardized",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The post-money safe is a simple, standardized document, which is what keeps transaction costs low and signing fast.",
+            "verbatimQuote": "the post-money safe is still a simple, standardized document",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-standardized"
+          }
+        ]
+      },
+      {
+        "requirementId": "confirm-post-money-not-pre-money",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.confirm-post-money-not-pre-money",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "Post-money form, not the legacy pre-money safe",
+        "sectionId": "use-the-unmodified-form",
+        "itemNumber": "1.2",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#confirm-post-money-not-pre-money",
+        "requirementGuidance": "Confirm this is the post-money SAFE and not the older pre-money safe. The cap form prices conversion at the Post-Money Valuation Cap divided by the Company Capitalization, making the investor's pre-round ownership immediately transparent and calculable. Later SAFEs generally dilute founders rather than earlier capped SAFE holders, but new money and a new or increased option pool at the priced round dilute SAFE holders too, as YC's conversion explanation shows. The pre-money safe computes dilution differently, so check the actual form before signing.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-price-defined",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), Safe Price",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "Conversion in the post-money SAFE is priced at the Post-Money Valuation Cap divided by the Company Capitalization.",
+            "verbatimQuote": "“Safe Price” means the price per share equal to the Post-Money Valuation Cap divided by the Company Capitalization.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-price-defined"
+          },
+          {
+            "sourceId": "post-money-advantage",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The chief advantage of the post-money safe is that the ownership sold is transparent and calculable for both founder and investor at signing.",
+            "verbatimQuote": "The biggest advantage of the post-money safe is that the amount of ownership sold is immediately transparent and calculable for both the founder and the investor.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-post-money-advantage"
+          }
+        ]
+      },
+      {
+        "requirementId": "select-cap-variant",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.select-cap-variant",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "Valuation-cap-only file matches the negotiated economics",
+        "sectionId": "use-the-unmodified-form",
+        "itemNumber": "1.3",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#select-cap-variant",
+        "requirementGuidance": "Confirm this is the valuation-cap-only file rather than the current discount-only or MFN forms. A discount without a cap calls for YC's discount-only form; using the cap-only file would omit the negotiated discount from the conversion terms. YC retired the combined cap-and-discount form in 2021, so a deal with both terms fits no current YC form: the available choices are a single-term YC form or a non-YC instrument, rather than rewriting the cap-only text.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-variants-appendix",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide, Appendix I",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The User Guide describes a SAFE with a Post-Money Valuation Cap and lists the other versions of the safe in Appendix I.",
+            "verbatimQuote": "This User Guide describes a safe with a Post-Money Valuation Cap. Other versions of the safe are described in Appendix I.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-variants-appendix"
+          },
+          {
+            "sourceId": "safe-combo-retired",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide, Version History",
+            "citation": "Y Combinator, Post-Money Safe User Guide, Version History (v1.1, Aug. 28, 2021).",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "YC retired its valuation-cap-and-discount SAFE in 2021 after finding that the combined form was not preferred in practice.",
+            "verbatimQuote": "We did not encounter situations where the combo safe was the preferred choice.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-combo-retired"
+          },
+          {
+            "sourceId": "safe-no-modification",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap)",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The YC SAFE is a standard form the parties agree not to modify except to fill in blanks and bracketed terms.",
+            "verbatimQuote": "This Safe is one of the forms available at http://ycombinator.com/documents and the Company and the Investor agree that neither one has modified the form, except to fill in blanks and bracketed terms.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-no-modification"
+          }
+        ]
+      },
+      {
+        "requirementId": "set-valuation-cap",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.set-valuation-cap",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "Post-Money Valuation Cap matches the negotiated economics",
+        "sectionId": "economic-terms-you-fill-in",
+        "itemNumber": "2.1",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#set-valuation-cap",
+        "requirementGuidance": "Check the Post-Money Valuation Cap against the deal, not just that it is filled in. Purchase Amount divided by the cap is a first-pass ownership estimate before the priced round's new money, assuming conversion at the cap; a lower round price or a new option-pool increase changes the final stake, as YC's conversion calculator shows. Founders customarily back-solve the cap from the dollars they intend to raise and the share they will sell: raising about $1 million for roughly 15% implies a cap near $6.7 million ($1M / 0.15). A cap set too low gives away more of the company than the founder meant to sell; a cap set too high underpays the investor for the risk.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "post-money-cap-defined",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), Post-Money Valuation Cap",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The post-money SAFE states the Post-Money Valuation Cap as a dollar figure the parties fill in.",
+            "verbatimQuote": "The “Post-Money Valuation Cap” is $[_____________].  See Section 2 for certain additional defined terms.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-post-money-cap-defined"
+          },
+          {
+            "sourceId": "post-money-advantage-cap",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The chief advantage of the post-money safe is that the ownership sold is transparent and calculable for both founder and investor at signing.",
+            "verbatimQuote": "The biggest advantage of the post-money safe is that the amount of ownership sold is immediately transparent and calculable for both the founder and the investor.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-post-money-advantage-cap"
+          },
+          {
+            "sourceId": "safe-price-defined-cap",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), Safe Price",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "Conversion in the post-money SAFE is priced at the Post-Money Valuation Cap divided by the Company Capitalization.",
+            "verbatimQuote": "“Safe Price” means the price per share equal to the Post-Money Valuation Cap divided by the Company Capitalization.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-price-defined-cap"
+          }
+        ]
+      },
+      {
+        "requirementId": "set-purchase-amount",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.set-purchase-amount",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "Purchase Amount equals the dollars wired",
+        "sectionId": "economic-terms-you-fill-in",
+        "itemNumber": "2.2",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#set-purchase-amount",
+        "requirementGuidance": "Confirm the Purchase Amount equals the dollars actually being wired to the company. The Purchase Amount is the numerator in the ownership math — the investor's stake at conversion is the Purchase Amount divided by the Post-Money Valuation Cap — so a figure that does not match the wire misstates how much of the company the investor is buying. Reconcile the number against the funds the company receives.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-preamble",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), preamble",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE preamble carries the blanks for the Investor Name, the Purchase Amount, the Date of Safe, the Company Name, and the State of Incorporation.",
+            "verbatimQuote": "THIS CERTIFIES THAT in exchange for the payment by [Investor Name] (the “Investor”) of $[_____________] (the “Purchase Amount”) on or about [Date of Safe], [Company Name], a [State of Incorporation] corporation (the “Company”), issues to the Investor the right to certain shares of the Company’s Capital Stock, subject to the terms described below.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-preamble"
+          }
+        ]
+      },
+      {
+        "requirementId": "match-state-of-incorporation",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.match-state-of-incorporation",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "State of Incorporation matches the charter",
+        "sectionId": "entity-and-governing-law",
+        "itemNumber": "3.1",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#match-state-of-incorporation",
+        "requirementGuidance": "Confirm the State of Incorporation in the preamble matches the company's actual certificate of incorporation — typically a Delaware C-corporation for venture-backed startups. The preamble describes the company as a [State of Incorporation] corporation, so a stated state that does not match the charter misidentifies the issuer of the security and the law under which it was formed. Check the field against the company's charter rather than assuming Delaware.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-preamble-entity",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), preamble",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE preamble describes the company as a corporation of the stated State of Incorporation.",
+            "verbatimQuote": "THIS CERTIFIES THAT in exchange for the payment by [Investor Name] (the “Investor”) of $[_____________] (the “Purchase Amount”) on or about [Date of Safe], [Company Name], a [State of Incorporation] corporation (the “Company”), issues to the Investor the right to certain shares of the Company’s Capital Stock, subject to the terms described below.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-preamble-entity"
+          }
+        ]
+      },
+      {
+        "requirementId": "set-governing-law",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.set-governing-law",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "Governing Law Jurisdiction is a deliberate choice",
+        "sectionId": "entity-and-governing-law",
+        "itemNumber": "3.2",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#set-governing-law",
+        "requirementGuidance": "Confirm the Governing Law Jurisdiction is a deliberate choice — commonly the company's state of incorporation or its principal place of business — and not left blank or chosen at random. The clause provides that the SAFE will be governed by the laws of the State of [Governing Law Jurisdiction], so the blank controls which state's law applies; a state chosen at random, or left blank, creates uncertainty about the rules that govern the instrument. Check that the named state lines up with where the company is formed or operates.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-governing-law",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), Governing Law",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE is governed by the law of the state the parties fill into the Governing Law Jurisdiction blank.",
+            "verbatimQuote": "All rights and obligations hereunder will be governed by the laws of the State of [Governing Law Jurisdiction], without regard to the conflicts of law provisions of such jurisdiction.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-governing-law"
+          }
+        ]
+      },
+      {
+        "requirementId": "name-company-exactly",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.name-company-exactly",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "Company named exactly, consistently in both places",
+        "sectionId": "parties-and-execution",
+        "itemNumber": "4.1",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#name-company-exactly",
+        "requirementGuidance": "Confirm the company is named with its exact legal name as it appears on its charter, and that the same name is used in both the [Company Name] blank in the preamble and the [COMPANY] signature block. The company is the issuer of the security, so a wrong or inconsistent name can attach the obligation to the wrong entity. Check the two references against each other and against the charter.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-preamble-parties",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), preamble",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE preamble carries the blanks for the Investor Name, the Company Name, and the Date of Safe.",
+            "verbatimQuote": "THIS CERTIFIES THAT in exchange for the payment by [Investor Name] (the “Investor”) of $[_____________] (the “Purchase Amount”) on or about [Date of Safe], [Company Name], a [State of Incorporation] corporation (the “Company”), issues to the Investor the right to certain shares of the Company’s Capital Stock, subject to the terms described below.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-preamble-parties"
+          }
+        ]
+      },
+      {
+        "requirementId": "name-investor-exactly",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.name-investor-exactly",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "Investor named exactly; signatory can bind an entity",
+        "sectionId": "parties-and-execution",
+        "itemNumber": "4.2",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#name-investor-exactly",
+        "requirementGuidance": "Confirm the [Investor Name] blank carries the investor's exact legal name. Where the investor is an entity rather than an individual, confirm the person who signs has authority to bind it, so the named investor is the party providing the funds and the signature commits that party.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-preamble-parties",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), preamble",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE preamble carries the blanks for the Investor Name, the Company Name, and the Date of Safe.",
+            "verbatimQuote": "THIS CERTIFIES THAT in exchange for the payment by [Investor Name] (the “Investor”) of $[_____________] (the “Purchase Amount”) on or about [Date of Safe], [Company Name], a [State of Incorporation] corporation (the “Company”), issues to the Investor the right to certain shares of the Company’s Capital Stock, subject to the terms described below.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-preamble-parties"
+          }
+        ]
+      },
+      {
+        "requirementId": "complete-signature-block",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.complete-signature-block",
+        "requirementLevel": "MUST",
+        "sourceFootnotes": [],
+        "requirementLabel": "Signature block completed by an authorized person",
+        "sectionId": "parties-and-execution",
+        "itemNumber": "4.3",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#complete-signature-block",
+        "requirementGuidance": "Confirm the SAFE is signed and the signature block is complete — the signatory's name and title and the By, Email, and Address lines filled in by a person with authority to sign. An unsigned or partly executed SAFE is not a binding instrument, so check that each signature line is completed rather than left blank.",
+        "variants": [],
+        "sources": []
+      },
+      {
+        "requirementId": "date-the-safe",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.date-the-safe",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "SAFE dated as of the funding date",
+        "sectionId": "parties-and-execution",
+        "itemNumber": "4.4",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#date-the-safe",
+        "requirementGuidance": "Confirm the [Date of Safe] is filled in and reflects the funding date, since the instrument runs from the date stated in the preamble. A blank or wrong date leaves the timeline of the investor's rights unclear, so check that the date matches when the investment is actually made.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-preamble-parties",
+            "authorityType": "standard-form",
+            "tier": "market-benchmark-backed",
+            "title": "Y Combinator Post-Money SAFE (Valuation Cap), preamble",
+            "citation": "Y Combinator, Post-Money SAFE (Valuation Cap) (standard form), available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The SAFE preamble carries the blanks for the Investor Name, the Company Name, and the Date of Safe.",
+            "verbatimQuote": "THIS CERTIFIES THAT in exchange for the payment by [Investor Name] (the “Investor”) of $[_____________] (the “Purchase Amount”) on or about [Date of Safe], [Company Name], a [State of Incorporation] corporation (the “Company”), issues to the Investor the right to certain shares of the Company’s Capital Stock, subject to the terms described below.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-preamble-parties"
+          }
+        ]
+      },
+      {
+        "requirementId": "address-pro-rata-side-letter",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.address-pro-rata-side-letter",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "Decide whether to grant a pro rata side letter",
+        "sectionId": "side-terms-the-form-leaves-out",
+        "itemNumber": "5.1",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#address-pro-rata-side-letter",
+        "requirementGuidance": "Decide whether the deal grants a pro rata side letter, because the post-money SAFE itself gives the investor no right to participate in — to buy into — future financing rounds. In the post-money safe, YC removed the pro rata right that existed as a default option in the original safe and instead created a standard side letter with pro rata rights that applies to the round in which the SAFE converts. An investor who wants to keep its ownership percentage by investing in the next round needs that separate side letter, so confirm whether the parties intend to provide one.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-removed-pro-rata",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The post-money safe removed the pro rata right that was a default option in the original safe.",
+            "verbatimQuote": "In the post-money safe, we removed the pro rata right that existed as a default option in the original safe.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-removed-pro-rata"
+          },
+          {
+            "sourceId": "safe-pro-rata-side-letter",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "YC moved the pro rata right into a separate standard side letter that applies to the round in which the safe converts.",
+            "verbatimQuote": "Instead, we created a standard side letter with pro rata rights that apply to the round in which the safe converts",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-pro-rata-side-letter"
+          }
+        ]
+      },
+      {
+        "requirementId": "note-mfn-absence",
+        "specRequirementId": "REQ-safes.yc-post-money-safe-valuation-cap.note-mfn-absence",
+        "requirementLevel": "SHOULD",
+        "sourceFootnotes": [],
+        "requirementLabel": "Note the absence of an MFN provision",
+        "sectionId": "side-terms-the-form-leaves-out",
+        "itemNumber": "5.2",
+        "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#note-mfn-absence",
+        "requirementGuidance": "Note that this valuation-cap file carries no most-favored-nation right; the MFN term is a separate variant — the version with no Post-Money Valuation Cap and no Discount Rate — that the User Guide lists among the Other versions of the safe in Appendix I. Without MFN, if the company later issues cheaper SAFEs to other investors, this investor is not automatically given those better terms. Confirm whether the deal intended MFN protection and, if so, whether the parties should be using the MFN variant instead.",
+        "variants": [],
+        "sources": [
+          {
+            "sourceId": "safe-mfn-variant",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide, Appendix I (MFN variant)",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The MFN variant is a separate safe with no Post-Money Valuation Cap and no Discount Rate, confirming the valuation-cap form carries no MFN provision.",
+            "verbatimQuote": "This is a safe with no Post-Money Valuation Cap and no Discount Rate.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-mfn-variant"
+          },
+          {
+            "sourceId": "safe-variants-appendix-mfn",
+            "authorityType": "commentary",
+            "tier": "lawyer-judgment-backed",
+            "title": "Y Combinator, Post-Money Safe User Guide, Appendix I",
+            "citation": "Y Combinator, Post-Money Safe User Guide, available at https://www.ycombinator.com/documents.",
+            "url": "https://www.ycombinator.com/documents",
+            "proposition": "The User Guide describes a SAFE with a Post-Money Valuation Cap and lists the other versions of the safe in Appendix I.",
+            "verbatimQuote": "This User Guide describes a safe with a Post-Money Valuation Cap. Other versions of the safe are described in Appendix I.",
+            "anchor": "https://openagreements.org/checklists/safes/yc-post-money-safe-valuation-cap#src-safe-variants-appendix-mfn"
+          }
+        ]
+      }
+    ]
+  }
+}

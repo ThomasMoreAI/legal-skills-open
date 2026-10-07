@@ -5,7 +5,7 @@ description: 'Search Korean laws and precedents via local hybrid index (FTS + ve
 author: pastel-sketchbook
 author_url: https://github.com/pastel-sketchbook/legal-ko/tree/main/.agents/skills/legal-ko-zmd
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: kr
 practice: general

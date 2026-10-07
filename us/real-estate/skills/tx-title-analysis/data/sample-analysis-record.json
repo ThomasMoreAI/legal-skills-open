@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "schemaVersion": "1.0",
+    "recordId": "550e8400-e29b-41d4-a716-446655440000",
+    "createdAt": "2026-02-05T14:30:00Z",
+    "updatedAt": "2026-02-05T16:45:00Z",
+    "createdBy": "tx-title-analysis-skill",
+    "status": "pending_review"
+  },
+  "matter": {
+    "fileNumber": "2026-TX-00142",
+    "clientFileNumber": "ABC-789",
+    "transactionType": "purchase",
+    "estimatedClosingDate": "2026-02-28",
+    "underwriter": "First American Title",
+    "commitmentNumber": "FA-2026-123456"
+  },
+  "property": {
+    "propertyId": "prop-550e8400",
+    "streetAddress": "4521 Riverside Drive",
+    "city": "Austin",
+    "county": "Travis",
+    "state": "TX",
+    "zip": "78741",
+    "legalDescription": "Lot 12, Block 3, RIVERSIDE TERRACE, an addition to the City of Austin, Travis County, Texas, according to the map or plat thereof recorded in Volume 45, Page 32, Plat Records, Travis County, Texas.",
+    "parcelId": "02-4521-0120-0000",
+    "subdivision": "Riverside Terrace",
+    "lot": "12",
+    "block": "3",
+    "acreage": 0.23,
+    "propertyType": "residential",
+    "improvements": "Single-family residence, approximately 2,400 sq ft, built 2005"
+  },
+  "parties": [
+    {
+      "partyId": "party-001",
+      "role": "seller",
+      "entityType": "married_couple",
+      "name": "Michael David Thompson and Sarah Elizabeth Thompson",
+      "address": {
+        "street1": "4521 Riverside Drive",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78741"
+      },
+      "maritalStatus": "married",
+      "spouseName": "Sarah Elizabeth Thompson"
+    },
+    {
+      "partyId": "party-002",
+      "role": "buyer",
+      "entityType": "llc",
+      "name": "Bluebonnet Investments, LLC",
+      "entityState": "TX",
+      "entityFileNumber": "0804567890",
+      "address": {
+        "street1": "100 Congress Avenue, Suite 1500",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701"
+      }
+    },
+    {
+      "partyId": "party-003",
+      "role": "lender",
+      "entityType": "corporation",
+      "name": "Texas Community Bank, N.A.",
+      "address": {
+        "street1": "500 E. 5th Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701"
+      }
+    }
+  ],
+  "commitment": {
+    "scheduleA": {
+      "effectiveDate": "2026-02-01T08:00:00Z",
+      "commitmentNumber": "FA-2026-123456",
+      "proposedInsured": {
+        "owner": "Bluebonnet Investments, LLC, a Texas limited liability company",
+        "lender": "Texas Community Bank, N.A."
+      },
+      "ownerPolicyAmount": 575000,
+      "loanPolicyAmount": 460000,
+      "currentVesting": "Michael David Thompson and Sarah Elizabeth Thompson, husband and wife",
+      "vestingDocument": {
+        "type": "General Warranty Deed",
+        "recordedDate": "2015-08-20",
+        "documentNumber": "2015142567",
+        "county": "Travis"
+      },
+      "legalDescription": "Lot 12, Block 3, RIVERSIDE TERRACE, an addition to the City of Austin, Travis County, Texas, according to the map or plat thereof recorded in Volume 45, Page 32, Plat Records, Travis County, Texas."
+    },
+    "requirementsBOne": [
+      {
+        "requirementId": "req-001",
+        "itemNumber": "1",
+        "category": "taxes",
+        "description": "Payment of all taxes, charges, assessments, levied and assessed against said premises, which are not yet due and payable.",
+        "status": "open",
+        "responsibleParty": "seller",
+        "notes": "2026 taxes not yet due. Verify at closing."
+      },
+      {
+        "requirementId": "req-002",
+        "itemNumber": "2",
+        "category": "lien_release",
+        "description": "Full release or satisfaction of Deed of Trust from Wells Fargo Bank, N.A., recorded as Document No. 2015142890, Official Public Records, Travis County, Texas.",
+        "status": "in_progress",
+        "responsibleParty": "seller",
+        "satisfactionMethod": "Payoff at closing",
+        "notes": "Payoff statement requested 2/3/2026"
+      },
+      {
+        "requirementId": "req-003",
+        "itemNumber": "3",
+        "category": "document_execution",
+        "description": "Execution and delivery of General Warranty Deed from Michael David Thompson and Sarah Elizabeth Thompson, husband and wife, to Bluebonnet Investments, LLC, a Texas limited liability company.",
+        "status": "open",
+        "responsibleParty": "seller"
+      },
+      {
+        "requirementId": "req-004",
+        "itemNumber": "4",
+        "category": "entity_docs",
+        "description": "Evidence satisfactory to the Company that Bluebonnet Investments, LLC is a duly formed and validly existing limited liability company organized under the laws of the State of Texas, and that the person(s) executing documents on behalf of said company have full power and authority to do so.",
+        "status": "open",
+        "responsibleParty": "buyer",
+        "notes": "Need: Certificate of Formation, Company Agreement, Resolution authorizing purchase"
+      },
+      {
+        "requirementId": "req-005",
+        "itemNumber": "5",
+        "category": "hoa",
+        "description": "HOA Resale Certificate from Riverside Terrace Homeowners Association showing no delinquent assessments.",
+        "status": "open",
+        "responsibleParty": "seller"
+      }
+    ],
+    "exceptionsBTwo": [
+      {
+        "exceptionId": "exc-001",
+        "itemNumber": "1",
+        "exceptionType": "standard",
+        "description": "Standby fees, taxes and assessments by any taxing authority for the year 2026, and subsequent years; and subsequent taxes and assessments by any taxing authority for prior years due to change in land usage or ownership.",
+        "affectsProperty": true,
+        "impactLevel": "low",
+        "curable": false,
+        "willRemainAsException": true,
+        "notes": "Standard tax exception - remains in policy"
+      },
+      {
+        "exceptionId": "exc-002",
+        "itemNumber": "2",
+        "exceptionType": "restrictions",
+        "description": "Restrictions, conditions, dedications, notes, easements and other matters contained on the recorded plat of Riverside Terrace, recorded in Volume 45, Page 32, Plat Records, Travis County, Texas.",
+        "recordingInfo": {
+          "type": "Plat",
+          "volume": "45",
+          "page": "32",
+          "county": "Travis"
+        },
+        "affectsProperty": true,
+        "impactLevel": "low",
+        "impactDescription": "Standard subdivision plat restrictions; building setbacks and utility easements",
+        "curable": false,
+        "willRemainAsException": true
+      },
+      {
+        "exceptionId": "exc-003",
+        "itemNumber": "3",
+        "exceptionType": "restrictions",
+        "description": "Restrictive Covenants recorded in Document No. 199534567, Official Public Records, Travis County, Texas, but omitting any covenant or restriction based on race, color, religion, sex, sexual orientation, familial status, marital status, disability, handicap, national origin, ancestry, or source of income.",
+        "recordingInfo": {
+          "type": "Declaration of Covenants",
+          "documentNumber": "199534567",
+          "recordedDate": "1995-03-15",
+          "county": "Travis"
+        },
+        "affectsProperty": true,
+        "impactLevel": "low",
+        "impactDescription": "Standard residential CCRs - architectural controls, use restrictions, HOA authority",
+        "curable": false,
+        "willRemainAsException": true
+      },
+      {
+        "exceptionId": "exc-004",
+        "itemNumber": "4",
+        "exceptionType": "easement",
+        "description": "Easement granted to Austin Energy for electric transmission and distribution facilities, recorded in Document No. 198245678, Official Public Records, Travis County, Texas.",
+        "recordingInfo": {
+          "type": "Easement",
+          "documentNumber": "198245678",
+          "recordedDate": "1982-06-10",
+          "county": "Travis"
+        },
+        "affectsProperty": true,
+        "impactLevel": "low",
+        "impactDescription": "10-foot utility easement along rear property line. No structures in easement area.",
+        "curable": false,
+        "willRemainAsException": true
+      },
+      {
+        "exceptionId": "exc-005",
+        "itemNumber": "5",
+        "exceptionType": "survey",
+        "description": "Any discrepancies, conflicts, or shortages in area or boundary lines, or any encroachments or protrusions, or any overlapping of improvements.",
+        "affectsProperty": true,
+        "impactLevel": "low",
+        "curable": true,
+        "cureMethod": "T-47 Affidavit from seller plus acceptable survey",
+        "cureDocuments": ["T-47 Residential Real Property Affidavit", "Current ALTA/NSPS Survey"],
+        "cureResponsibleParty": "seller",
+        "cureStatus": "in_progress",
+        "willRemainAsException": false,
+        "notes": "Survey ordered 2/2/2026. T-47 to be signed at closing."
+      }
+    ]
+  },
+  "analysis": {
+    "chainOfTitle": {
+      "chainComplete": true,
+      "searchPeriod": {
+        "startDate": "1996-02-05",
+        "endDate": "2026-02-05"
+      },
+      "gapsIdentified": false,
+      "chainNotes": "Clean chain from sovereign. Current vesting by General Warranty Deed dated August 20, 2015."
+    },
+    "texasSpecific": {
+      "homesteadAnalysis": {
+        "isHomestead": true,
+        "homesteadType": "urban",
+        "bothSpousesRequired": true,
+        "notes": "Property is sellers' primary residence per tax records. Both Michael and Sarah Thompson must execute the deed regardless of how title is held. Tex. Prop. Code § 41.001."
+      },
+      "communityPropertyAnalysis": {
+        "isCommunityProperty": true,
+        "separatePropertyClaimed": false,
+        "joinderRequired": true,
+        "notes": "Property acquired during marriage (2015); presumed community property under Tex. Fam. Code § 3.002. Both spouses must execute conveyance."
+      },
+      "mineralAnalysis": {
+        "mineralsSevered": false,
+        "surfaceOwnershipPct": 100,
+        "activeLeases": false,
+        "notes": "No mineral reservations in chain. Urban residential property - mineral issues unlikely but standard mineral exception may be deleted with T-19.1 endorsement."
+      },
+      "waterRightsAnalysis": {
+        "surfaceWaterRights": false,
+        "groundwaterSevered": false,
+        "inGCD": false,
+        "edwardsAquifer": false,
+        "notes": "Municipal water service. No water rights issues identified."
+      },
+      "entityAuthorityVerified": false
+    },
+    "riskAssessment": {
+      "overallRisk": "low",
+      "riskFactors": [
+        {
+          "factor": "Entity buyer requires authority documentation",
+          "severity": "low",
+          "mitigation": "Obtain Certificate of Formation, Company Agreement, and authorizing resolution before closing"
+        }
+      ],
+      "recommendedAction": "proceed",
+      "conditions": [
+        "Obtain LLC authority documents before closing",
+        "Verify both sellers execute deed as husband and wife",
+        "Confirm HOA assessment status current"
+      ]
+    }
+  },
+  "outputs": [
+    {
+      "outputId": "out-001",
+      "outputType": "title_opinion",
+      "filename": "2026-TX-00142-title-opinion-DRAFT.docx",
+      "format": "docx",
+      "generatedAt": "2026-02-05T16:45:00Z",
+      "generatedBy": "tx-title-analysis-skill",
+      "version": "1.0",
+      "reviewStatus": "draft"
+    },
+    {
+      "outputId": "out-002",
+      "outputType": "requirements_checklist",
+      "filename": "2026-TX-00142-requirements-DRAFT.xlsx",
+      "format": "xlsx",
+      "generatedAt": "2026-02-05T16:45:00Z",
+      "generatedBy": "tx-title-analysis-skill",
+      "version": "1.0",
+      "reviewStatus": "draft"
+    },
+    {
+      "outputId": "out-003",
+      "outputType": "exception_analysis",
+      "filename": "2026-TX-00142-exceptions-DRAFT.docx",
+      "format": "docx",
+      "generatedAt": "2026-02-05T16:45:00Z",
+      "generatedBy": "tx-title-analysis-skill",
+      "version": "1.0",
+      "reviewStatus": "draft"
+    }
+  ],
+  "notes": [
+    {
+      "noteId": "note-001",
+      "noteType": "examiner",
+      "content": "Standard residential purchase transaction. Clean chain of title. Primary issues: (1) homestead property requires both spouses to sign; (2) LLC buyer requires authority documentation; (3) survey exception deletable with T-47 and current survey.",
+      "createdAt": "2026-02-05T16:45:00Z",
+      "createdBy": "tx-title-analysis-skill",
+      "isPrivate": false
+    },
+    {
+      "noteId": "note-002",
+      "noteType": "system",
+      "content": "DRAFT DISCLAIMER: This analysis is a preliminary draft for informational purposes only. It does not constitute legal advice and must be reviewed by a licensed Texas attorney before any use or reliance.",
+      "createdAt": "2026-02-05T16:45:00Z",
+      "createdBy": "tx-title-analysis-skill",
+      "isPrivate": false
+    }
+  ]
+}

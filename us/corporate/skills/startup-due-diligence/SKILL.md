@@ -5,7 +5,7 @@ description: 'Legal due diligence review for seed-stage and Series A startups (U
 author: skala-io
 author_url: https://github.com/skala-io/legal-skills/tree/main/skills/startup-due-diligence
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: corporate

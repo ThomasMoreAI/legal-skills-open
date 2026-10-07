@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-06-15",
+  "description": "Glossaire des acronymes et termes administratifs luxembourgeois. Objectif : toujours expliquer les acronymes à l'utilisateur (langage simple).",
+  "termes": [
+    { "sigle": "AED", "terme": "Administration de l'Enregistrement, des Domaines et de la TVA", "definition": "Administration compétente pour la TVA, les droits d'enregistrement et de succession.", "source": "https://pfi.public.lu" },
+    { "sigle": "ACD", "terme": "Administration des Contributions Directes", "definition": "Administration compétente pour l'impôt sur le revenu (personnes et sociétés).", "source": "https://impotsdirects.public.lu" },
+    { "sigle": "CCSS", "terme": "Centre commun de la sécurité sociale", "definition": "Guichet unique de l'affiliation et des cotisations sociales (salariés et indépendants).", "source": "https://ccss.public.lu" },
+    { "sigle": "CNS", "terme": "Caisse nationale de santé", "definition": "Assurance maladie-maternité ; remboursements et indemnités pécuniaires.", "source": "https://cns.public.lu" },
+    { "sigle": "RCS", "terme": "Registre de Commerce et des Sociétés", "definition": "Registre public des sociétés ; dépôt des comptes annuels et des publications légales.", "source": "https://www.lbr.lu" },
+    { "sigle": "RBE", "terme": "Registre des Bénéficiaires Effectifs", "definition": "Registre des personnes physiques qui contrôlent effectivement une entité.", "source": "https://www.lbr.lu/mjrcs-rbe" },
+    { "sigle": "TVA", "terme": "Taxe sur la valeur ajoutée", "definition": "Impôt sur la consommation collecté par les assujettis et reversé à l'AED.", "source": "https://pfi.public.lu/fr/professionnels/tva.html" },
+    { "sigle": "IRC", "terme": "Impôt sur le revenu des collectivités", "definition": "Impôt sur le bénéfice des sociétés opaques (SARL, SA…).", "source": "https://impotsdirects.public.lu" },
+    { "sigle": "ICC", "terme": "Impôt commercial communal", "definition": "Impôt communal sur le bénéfice d'exploitation.", "source": "https://impotsdirects.public.lu" },
+    { "sigle": "RTS", "terme": "Retenue à la source (sur salaires)", "definition": "Impôt prélevé mensuellement par l'employeur selon la fiche de retenue.", "source": "https://impotsdirects.public.lu" },
+    { "sigle": "SSM", "terme": "Salaire social minimum", "definition": "Rémunération minimale légale, indexée à l'échelle mobile des salaires.", "source": "https://itm.public.lu" },
+    { "sigle": "ADEM", "terme": "Agence pour le développement de l'emploi", "definition": "Inscription des demandeurs d'emploi et indemnité de chômage.", "source": "https://adem.public.lu" },
+    { "sigle": "CAE", "terme": "Caisse pour l'avenir des enfants (Zukunftskeess)", "definition": "Allocations familiales, congé parental, aides à la naissance.", "source": "https://cae.public.lu" },
+    { "sigle": "SNCA", "terme": "Société Nationale de Circulation Automobile", "definition": "Immatriculation des véhicules, permis de conduire, contrôle technique.", "source": "https://snca.public.lu" },
+    { "sigle": "eCDF", "terme": "Plateforme de collecte des données financières", "definition": "Dépôt électronique des déclarations (TVA, comptes annuels, IRC/ICC).", "source": "https://ecdf.b2g.etat.lu" },
+    { "sigle": "FAIA", "terme": "Fichier d'Audit Informatisé AED", "definition": "Export comptable normalisé (SAF-T LU) demandé lors d'un contrôle TVA.", "source": "https://pfi.public.lu" },
+    { "sigle": "Bëllegen Akt", "terme": "Crédit d'impôt sur les droits d'enregistrement", "definition": "Abattement sur les droits lors de l'achat de la résidence principale.", "source": "https://guichet.public.lu/fr/citoyens/logement/achat-immobilier/credit-impot-bellegen-akt.html" }
+  ]
+}

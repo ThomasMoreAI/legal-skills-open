@@ -5,7 +5,7 @@ description: EU MDR 2017/745 compliance specialist for medical device classifica
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/ra-qm-team/mdr-745-specialist
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: eu
 practice: life-sciences

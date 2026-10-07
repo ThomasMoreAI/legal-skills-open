@@ -5,7 +5,7 @@ description: Ricerca giurisprudenziale rapida per ottenere un quadro di orientam
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/giurisprudenza-lampo
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: it
 practice: litigation

@@ -5,7 +5,7 @@ description: CRE Legal review suite — 6 specialist skills for PSA review, titl
 author: ahacker-1
 author_url: https://github.com/ahacker-1/cre-agent-skills/tree/main/claude-code-plugins/cre-legal
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: real-estate

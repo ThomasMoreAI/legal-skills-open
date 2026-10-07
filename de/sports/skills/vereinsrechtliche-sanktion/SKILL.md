@@ -1,11 +1,11 @@
 ---
 name: vereinsrechtliche-sanktion
-title: 'Vereinsrechtliche sanktion'
+title: Vereinsrechtliche sanktion
 description: Anfechtung sportrechtlicher Vereins- und Verbandssanktionen – Vereinsausschluss (BGB §§ 25, 39), Verbandssperre (Disziplinargewalt aus Satzung iVm Mitgliedschaft), Stadionverbot (§ 858, § 1004 BGB Hausrecht); Inhaltskontrolle der Satzung §§ 138, 242 BGB, Art. 9 III GG vs. Art. 12 GG; Schiedsklausel-Wirksamkeit nach Pechstein-Linie, 2-Instanzen-Erfordernis; Anfechtungsfrist § 32 BGB / § 246 AktG analog. Use when ein Vereins- oder Verbandsmitglied gegen Ausschluss, Sperre oder andere disziplinarische Maßnahme vorgehen will oder ein Veranstalter ein Stadionverbot verteidigen oder anfechten muss.
 author: borghei
 author_url: https://github.com/borghei/AI-Skills-German-Law/tree/main/sportrecht/skills/vereinsrechtliche-sanktion
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: de
 practice: sports

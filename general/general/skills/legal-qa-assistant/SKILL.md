@@ -5,7 +5,7 @@ description: 用于法务问答分流与标准化答复草案生成，基于问�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/legal-qa-assistant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

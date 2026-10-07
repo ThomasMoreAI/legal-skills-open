@@ -5,7 +5,7 @@ description: Clerk for forced surrenders, threats, procedural irregularities, an
 author: aiskillstore
 author_url: https://github.com/aiskillstore/marketplace/tree/main/skills/acskamloops/coercion-duress
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

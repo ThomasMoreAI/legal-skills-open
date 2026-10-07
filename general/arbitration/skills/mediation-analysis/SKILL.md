@@ -5,7 +5,7 @@ description: Dispute analysis and mediation preparation framework. Use when prep
 author: borghei
 author_url: https://github.com/borghei/Claude-Skills/tree/main/legal/mediation-analysis
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: arbitration

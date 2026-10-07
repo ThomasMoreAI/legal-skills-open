@@ -5,7 +5,7 @@ description: Use Compliance Trestle to manage OSCAL catalogs, profiles, componen
 author: ethanolivertroy
 author_url: https://github.com/ethanolivertroy/compliance-trestle-skills/tree/main/agent-skills/compliance-trestle-engineering
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: regulatory

@@ -1,0 +1,12 @@
+name: Employment Law Dashboard
+practice_area: Employment
+jurisdiction: US
+version: "1.0"
+author: Yue Deng-Wu — Hackathon 2026
+description: >
+  Builds a single-file HTML dashboard for any area of US employment
+  law, modeled after the AI Employment Laws Dashboard. Includes
+  masthead, TL;DR, multi-state trackers, recent articles, a state
+  comparison table with multi-select jurisdiction filter, and deep-dive
+  tabs for selected states. Pairs with the employment-law-research
+  skill, which should be run first to produce source-attributed notes.

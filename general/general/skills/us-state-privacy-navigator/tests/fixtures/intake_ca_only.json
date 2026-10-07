@@ -1,0 +1,44 @@
+{
+  "_description": "Mid-market e-commerce: $30M revenue, 50k CA consumers, 10% sale revenue. CA: APPLIES via revenue threshold. Other states explicitly listed with counts below their respective thresholds.",
+  "entity": {
+    "legal_name": "Midsize Commerce LLC",
+    "for_profit": true,
+    "naics_code": "454110"
+  },
+  "revenue": {
+    "annual_gross": 30000000,
+    "calendar_year": 2025
+  },
+  "consumers": {
+    "us_total": 80000,
+    "by_state": {
+      "CA": 50000,
+      "TX": 8000,
+      "VA": 4000,
+      "CO": 3000,
+      "CT": 2500,
+      "UT": 2000,
+      "OR": 3500,
+      "MT": 1000,
+      "IA": 2000,
+      "IN": 4000,
+      "TN": 4000,
+      "DE": 1500,
+      "NJ": 6000,
+      "NH": 1500,
+      "NE": 2000,
+      "KY": 2500,
+      "RI": 1000,
+      "MD": 4500,
+      "MN": 4000,
+      "FL": 5500
+    }
+  },
+  "sale_practices": {
+    "sells_pd": true,
+    "shares_for_cross_context_advertising": true,
+    "percent_revenue_from_sale": 10,
+    "any_revenue_from_sale": true,
+    "sells_sensitive_data_without_consent": false
+  }
+}

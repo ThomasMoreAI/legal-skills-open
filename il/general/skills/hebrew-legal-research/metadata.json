@@ -1,0 +1,41 @@
+{
+  "author": "skills-il",
+  "version": "1.5.0",
+  "category": "security-compliance",
+  "tags": {
+    "he": [
+      "משפטי",
+      "חוק",
+      "עברית",
+      "בית-משפט",
+      "חקיקה",
+      "ישראל"
+    ],
+    "en": [
+      "legal",
+      "law",
+      "hebrew",
+      "court",
+      "legislation",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "מחקר משפטי בעברית",
+    "en": "Hebrew Legal Research"
+  },
+  "display_description": {
+    "he": "אינו ייעוץ משפטי. עוזר לחקור משפט ישראלי: לאתר חקיקה ותקנות, להסביר מונחים משפטיים בעברית (חוק, פקודה, תקנה, פסק דין, בג\"ץ, כתב תביעה, סעיף וכו'), להפנות לפסיקה רלוונטית ולעזור במבנה של מסמכים משפטיים. שתפו אותו כשהמשתמש שואל על חוק ישראלי, על הליך בבית משפט, על דיני עבודה, חוזים, מקרקעין, צרכנות, פרטיות (תיקון 13), מיסים או משפט מנהלי, וכן על ההקשר העדכני של רפורמת המערכת המשפטית. כל תשובה חייבת לפתוח בהבהרה שזה מידע משפטי בלבד, לא ייעוץ משפטי, ולהמליץ להתייעץ עם עורך דין מורשה. אסור להמציא ציטוטי פסיקה. אל תשתמשו בסקיל לייעוץ משפטי פורמלי, לטיפול בתיק קונקרטי או למערכות משפטיות שאינן ישראליות.",
+    "en": "Not legal advice. Assist with Israeli legal research including legislation lookup, case law concepts, Hebrew legal terminology, and legal document preparation guidance. Use when user asks about Israeli law, \"chok\", \"mishpat\", \"bagatz\", court procedures, employment law, contract law, real estate law, or needs help with Hebrew legal terms. Covers civil, commercial, employment, and administrative law. Do NOT use for providing formal legal advice, always recommend consulting a licensed Israeli attorney (orech din). Do NOT use for non-Israeli legal systems."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity",
+    "gemini-cli"
+  ]
+}

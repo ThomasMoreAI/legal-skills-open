@@ -5,7 +5,7 @@ description: Search and look up official New Zealand Customs tariff classificati
 author: thecolab-ai
 author_url: https://github.com/thecolab-ai/.skills/tree/main/skills/customs-tariff-nz
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: nz
 practice: trade

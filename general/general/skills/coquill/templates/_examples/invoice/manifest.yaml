@@ -1,0 +1,43 @@
+schema_version: 2
+template: invoice.html
+template_path: templates/_examples/invoice/invoice.html
+format: html
+analyzed_at: '2026-02-27T23:33:22Z'
+variable_count: 11
+variables:
+- name: client_name
+  label: Client Name
+  type: text
+- name: company_name
+  label: Company Name
+  type: text
+- name: company_address
+  label: Company Address
+  type: text
+- name: invoice_number
+  label: Invoice Number
+  type: text
+- name: invoice_date
+  label: Invoice Date
+  type: date
+- name: client_address
+  label: Client Address
+  type: text
+- name: service_description
+  label: Service Description
+  type: text
+- name: service_amount
+  label: Service Amount
+  type: number
+- name: total_amount
+  label: Total Amount
+  type: number
+- name: payment_terms
+  label: Payment Terms
+  type: text
+- name: payment_instructions
+  label: Payment Instructions
+  type: text
+conditionals: []
+loops: []
+dependencies: {}

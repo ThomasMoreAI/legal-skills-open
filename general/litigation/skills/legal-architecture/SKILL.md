@@ -5,7 +5,7 @@ description: 生成专业的法律结构可视化图，输出为自包含 HTML �
 author: zh-xx
 author_url: https://github.com/zh-xx/legal-assistant-skills/tree/main/legal-architecture
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

@@ -5,12 +5,31 @@ description: 'Use when setting up or auditing how compliance documentation is st
 author: PranavNagrecha
 author_url: https://github.com/PranavNagrecha/AwesomeSalesforceSkills/tree/main/skills/admin/compliance-documentation-requirements
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory
 language: en
-tags: [compliance, kyc, aml, fsc, audit-trail, field-audit-trail, discovery-framework, identity-verification, financial-services, regulatory-documentation]
+tags:
+- compliance
+- kyc
+- aml
+- fsc
+- audit-trail
+- field-audit-trail
+- discovery-framework
+- identity-verification
+- financial-services
+- regulatory-documentation
+sources:
+- title: Examples
+  path: references/examples.md
+- title: Gotchas
+  path: references/gotchas.md
+- title: Llm anti patterns
+  path: references/llm-anti-patterns.md
+- title: Well architected
+  path: references/well-architected.md
 ---
 
 # Compliance Documentation Requirements

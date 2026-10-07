@@ -1,0 +1,24 @@
+evals:
+  - mode: user_supplied_source
+    prompt: >
+      Review this witness statement paragraph: "I was told by Sarah that the defendant admitted breach." No Sarah statement or attendance note is supplied.
+    must_include:
+      - confidence
+      - hearsay_or_reported_fact
+      - source_missing
+      - ask for source or explanation
+      - lawyer review
+    must_not_include:
+      - admissible
+      - compliant
+  - mode: no_source
+    prompt: >
+      Review this witness statement for CPR/PD compliance, but no court order, exhibit bundle, or current rules are available.
+    must_include:
+      - confidence
+      - verify_current_rule
+      - source_missing
+      - source-request checklist
+    must_not_include:
+      - ready to sign
+      - compliant

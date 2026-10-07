@@ -12,7 +12,7 @@ Jurisdiction: `fr` · Practice: `constitutional` · Skill language: it
 |---|---|
 | [`Dichiarazione dei diritti della donna e della cittadina`](skills/de-gouges-dichiarazione-donna-cittadina-x8k/) | Knowledge base from "Dichiarazione dei diritti della donna e della cittadina" (1791) by Olympe de… |
 | [`Frankreich Controle de Proportionnalite`](skills/frankreich-controle-proportionnalite/) | Für Frankreich Controle de Proportionnalite: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Légistique française`](skills/legistique-fr-kilianvivien/) | Légistique française : rédige ou corrige des textes législatifs et réglementaires (loi, ordonnance… |
+| [`Légistique française`](skills/legistique-fr-kilianvivien/) | Légistique française : rédige, corrige ou analyse des textes législatifs et réglementaires (loi… |
 
 ## Cold-start context
 

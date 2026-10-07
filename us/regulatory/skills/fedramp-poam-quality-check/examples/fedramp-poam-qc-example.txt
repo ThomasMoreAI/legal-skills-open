@@ -1,0 +1,29 @@
+## FedRAMP POAM QC Example (T1)
+
+INPUT:
+  poam_tsv: "sample_poam_2025.tsv" (47 rows)
+
+VALIDATION:
+1. Parse header → 12 columns
+2. Required fields → 3 missing IDs
+3. Dates → 2 invalid formats
+
+OUTPUT (findings.json):
+{
+  "errors": [
+    {"row": 5, "field": "POA&M Item ID", "issue": "Missing"},
+    {"row": 12, "field": "Date", "issue": "Invalid format"}
+  ],
+  "warnings": [{"row": 8, "issue": "High overdue 15d"}],
+  "stats": {"total": 47, "duplicates": 0}
+}
+
+OUTPUT (fix_suggestions.md):
+## Critical (2)
+- Row 5: Add POA&M Item ID
+- Row 12: Fix date format
+
+## Warnings (1)
+- Row 8: Overdue by 15 days
+
+RESULT: 2 errors, 1 warning

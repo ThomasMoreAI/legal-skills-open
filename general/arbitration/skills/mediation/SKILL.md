@@ -5,12 +5,18 @@ description: Mediation and ADR reference — dispute resolution processes, media
 author: bytesagain
 author_url: https://github.com/bytesagain/ai-skills/tree/main/mediation
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: arbitration
 language: en
-tags: [mediation, adr, dispute-resolution, negotiation, settlement, legal]
+tags:
+- mediation
+- adr
+- dispute-resolution
+- negotiation
+- settlement
+- legal
 ---
 
 # Mediation — Alternative Dispute Resolution Reference

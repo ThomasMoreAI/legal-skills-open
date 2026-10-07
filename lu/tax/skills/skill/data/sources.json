@@ -1,0 +1,131 @@
+{
+  "lastUpdated": "2026-05-09",
+  "sources": [
+    {
+      "id": "legilux",
+      "name": "Legilux",
+      "url": "https://legilux.public.lu",
+      "description": "Journal officiel du Grand-Duché de Luxembourg (Mémorial)"
+    },
+    {
+      "id": "impotsdirects",
+      "name": "Administration des Contributions Directes (ACD)",
+      "url": "https://impotsdirects.public.lu",
+      "description": "Source officielle pour IRC, ICC, IF, RTS, IRPP, circulaires L.I.R."
+    },
+    {
+      "id": "aed",
+      "name": "Administration de l'Enregistrement, des Domaines et de la TVA (AED)",
+      "url": "https://aed.public.lu",
+      "description": "Source officielle pour TVA, droits d'enregistrement, droits de succession, FAIA"
+    },
+    {
+      "id": "lbr",
+      "name": "Registre de Commerce et des Sociétés (RCS)",
+      "url": "https://www.lbr.lu",
+      "description": "Dépôt des comptes annuels et publications légales"
+    },
+    {
+      "id": "ecdf",
+      "name": "eCDF — Plateforme de déclarations électroniques",
+      "url": "https://ecdf.b2g.etat.lu",
+      "description": "Dépôt des déclarations TVA, IRC, ICC, IF, comptes annuels"
+    },
+    {
+      "id": "guichet",
+      "name": "Guichet.lu",
+      "url": "https://guichet.public.lu",
+      "description": "Portail unique des démarches administratives pour entreprises et particuliers"
+    },
+    {
+      "id": "cssf",
+      "name": "Commission de surveillance du secteur financier (CSSF)",
+      "url": "https://www.cssf.lu",
+      "description": "Régulateur du secteur financier et superviseur de l'audit (entités d'intérêt public)"
+    },
+    {
+      "id": "ire",
+      "name": "Institut des Réviseurs d'Entreprises (IRE)",
+      "url": "https://www.ire.lu",
+      "description": "Ordre professionnel des réviseurs d'entreprises agréés"
+    },
+    {
+      "id": "ole",
+      "name": "Ordre des experts-comptables (OEC)",
+      "url": "https://www.oec.lu",
+      "description": "Ordre professionnel des experts-comptables luxembourgeois"
+    },
+    {
+      "id": "notaires",
+      "name": "Chambre des Notaires",
+      "url": "https://www.notariat.lu",
+      "description": "Source pour les actes notariés, frais d'acte, successions"
+    },
+    {
+      "id": "ccss",
+      "name": "Centre commun de la sécurité sociale (CCSS)",
+      "url": "https://ccss.public.lu",
+      "description": "Affiliation, cotisations sociales, déclarations d'entrée/sortie des salariés et indépendants"
+    },
+    {
+      "id": "cns",
+      "name": "Caisse nationale de santé (CNS)",
+      "url": "https://cns.public.lu",
+      "description": "Assurance maladie-maternité, indemnités pécuniaires, remboursements"
+    },
+    {
+      "id": "itm",
+      "name": "Inspection du travail et des mines (ITM)",
+      "url": "https://itm.public.lu",
+      "description": "Droit du travail, sécurité et santé au travail, salaire social minimum"
+    },
+    {
+      "id": "zukunftskeess",
+      "name": "Zukunftskeess — Caisse pour l'avenir des enfants (CAE)",
+      "url": "https://cae.public.lu",
+      "description": "Allocations familiales, congé parental, aides à la naissance"
+    },
+    {
+      "id": "snca",
+      "name": "Société Nationale de Circulation Automobile (SNCA)",
+      "url": "https://snca.public.lu",
+      "description": "Immatriculation des véhicules, permis de conduire, contrôle technique"
+    },
+    {
+      "id": "immigration",
+      "name": "Direction de l'immigration (MAEE)",
+      "url": "https://maee.gouvernement.lu",
+      "description": "Titres et autorisations de séjour, visas, regroupement familial, naturalisation"
+    },
+    {
+      "id": "adem",
+      "name": "Agence pour le développement de l'emploi (ADEM)",
+      "url": "https://adem.public.lu",
+      "description": "Inscription des demandeurs d'emploi, indemnité de chômage, aides à l'embauche"
+    },
+    {
+      "id": "commune",
+      "name": "Administration communale",
+      "url": "https://guichet.public.lu",
+      "description": "État civil, déclaration d'arrivée/départ, certificat de résidence, listes électorales"
+    },
+    {
+      "id": "economie",
+      "name": "Ministère de l'Économie — Direction générale des classes moyennes",
+      "url": "https://guichet.public.lu",
+      "description": "Autorisation d'établissement, aides et subventions aux entreprises"
+    }
+  ],
+  "textesReference": [
+    { "id": "lir", "label": "LIR", "title": "Loi du 4 décembre 1967 concernant l'impôt sur le revenu" },
+    { "id": "litl", "label": "LITL", "title": "Loi du 1er décembre 1936 concernant l'impôt commercial communal" },
+    { "id": "loi-tva", "label": "Loi TVA", "title": "Loi modifiée du 12 février 1979 concernant la taxe sur la valeur ajoutée" },
+    { "id": "loi-1915", "label": "Loi 1915", "title": "Loi du 10 août 1915 concernant les sociétés commerciales (modifiée)" },
+    { "id": "loi-2002", "label": "Loi 2002 (RCS)", "title": "Loi du 19 décembre 2002 concernant le RCS, la comptabilité et les comptes annuels" },
+    { "id": "loi-1975", "label": "Loi copropriété 1975", "title": "Loi du 16 mai 1975 portant statut de la copropriété des immeubles bâtis (modifiée par loi du 6 décembre 2019)" },
+    { "id": "loi-audit-2016", "label": "Loi audit 2016", "title": "Loi du 23 juillet 2016 relative à la profession de l'audit" },
+    { "id": "rgd-pcn", "label": "RGD PCN", "title": "Règlement grand-ducal du 12 septembre 2019 déterminant le Plan Comptable Normalisé" },
+    { "id": "ao", "label": "AO", "title": "Loi générale des impôts du 22 mai 1931 (Abgabenordnung)" },
+    { "id": "loi-pacs", "label": "Loi PACS", "title": "Loi du 9 juillet 2004 sur les effets légaux du partenariat" }
+  ]
+}

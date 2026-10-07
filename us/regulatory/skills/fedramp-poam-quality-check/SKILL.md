@@ -5,7 +5,7 @@ description: Validates FedRAMP Plan of Action and Milestones (POAM) files for st
 author: williamzujkowski
 author_url: https://github.com/williamzujkowski/cognitive-toolworks/tree/main/skills/compliance-fedramp-validator
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: regulatory

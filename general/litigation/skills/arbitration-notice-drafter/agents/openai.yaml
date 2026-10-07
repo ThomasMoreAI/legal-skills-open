@@ -1,0 +1,4 @@
+interface:
+  display_name: "Arbitration Notice Drafter"
+  short_description: "Draft notices invoking arbitration precisely"
+  default_prompt: "Use $arbitration-notice-drafter to draft a notice invoking arbitration and frame the disputes and relief."

@@ -1,0 +1,26 @@
+skill: controleur-fiscal
+cases:
+  - id: prescription-tva
+    prompt: "Quelle est la durée de prescription pour un contrôle fiscal en matière de TVA au Luxembourg ? Et en cas de fraude ?"
+    must_contain:
+      - "5 ans"
+      - "10 ans"
+    must_not_contain:
+      - "3 ans"
+      - "6 ans"
+    rubric: |
+      Prescription standard = 5 ans (jusqu'au 31 décembre de la 5e année suivant
+      l'année d'imposition). En cas de fraude/dissimulation = 10 ans. Citer la loi
+      modifiée du 12 février 1979 sur la TVA, art. 81.
+
+  - id: prix-de-transfert
+    prompt: "Ma société luxembourgeoise facture des services à sa filiale française. Quels sont les obligations en matière de prix de transfert et le risque principal en cas de contrôle ACD ?"
+    must_contain:
+      - "pleine concurrence"
+      - "OCDE"
+      - "documentation"
+    rubric: |
+      Doit mentionner : principe de pleine concurrence (arm's length), circulaire LIR
+      n°56/1, n°56bis/1 (services intra-groupe), documentation TP obligatoire si
+      seuils dépassés, risque de redressement IRC + intérêts + pénalité 10%. Référence
+      OCDE Transfer Pricing Guidelines.

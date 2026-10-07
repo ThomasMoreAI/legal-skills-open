@@ -5,7 +5,7 @@ description: Not legal advice. Help an Israeli check whether they can claim a Eu
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-citizenship-by-descent
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: real-estate

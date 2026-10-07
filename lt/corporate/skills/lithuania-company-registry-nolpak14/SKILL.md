@@ -1,11 +1,11 @@
 ---
 name: lithuania-company-registry-nolpak14
-title: 'Lithuania company registry'
+title: Lithuania company registry
 description: 'Look up Lithuanian companies for free via the official Register of Legal Entities (Juridiniu asmenu registras / JAR), operated by Registru centras and published as keyless open data on data.gov.lt - company profile, company code (imones kodas / ja_kodas), legal form, registered address, registration and deregistration dates, management bodies, capital, and financial statements. Use for KYB / know-your-business checks, counterparty verification, director discovery, and Lithuanian company due diligence. Trigger on: ''Lithuania company lookup'', ''JAR'', ''Juridiniu asmenu registras'', ''Registru centras'', ''imones kodas'', ''Lithuanian company code'', ''check a Lithuanian company'', ''Lithuanian directors'', ''is this Lithuanian company deregistered''. The Lithuania data is free and keyless; VAT/PVM is not in JAR (use vies-vat-validation); for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/lithuania-company-registry
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: lt
 practice: corporate
@@ -150,3 +150,7 @@ Those actors need a free Apify token: https://apify.com?fpr=getregdata.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure across borders, then pull the local record from the right national source (like this one).
 - **`vies-vat-validation`** - validate the Lithuanian (or any EU) VAT/PVM number; JAR does not carry VAT, so VIES is how you confirm the entity's VAT registration alongside the company code.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Lithuanian jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

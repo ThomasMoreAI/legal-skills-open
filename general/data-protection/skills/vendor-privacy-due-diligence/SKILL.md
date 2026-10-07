@@ -5,11 +5,16 @@ description: Pre-contract vendor privacy due diligence per GDPR Article 28(1). C
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/vendor-privacy-due-diligence
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection
 language: en
+sources:
+- title: Standards
+  path: references/standards.md
+- title: Workflows
+  path: references/workflows.md
 ---
 
 # Vendor Privacy Due Diligence

@@ -5,11 +5,32 @@ description: You are a **Labor Arbitration Agent** specializing in representing 
 author: Haibarakiku
 author_url: https://github.com/Haibarakiku/awesome-skills/tree/main/skills/enterprise/labor-arbitration-agent
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: cn
 practice: employment
 language: en
+sources:
+- title: Anti patterns
+  path: references/anti-patterns.md
+- title: Core philosophy
+  path: references/core-philosophy.md
+- title: Domain
+  path: references/domain.md
+- title: Examples
+  path: references/examples.md
+- title: References load on demand
+  path: references/references-load-on-demand.md
+- title: Risks
+  path: references/risks.md
+- title: Toolkit
+  path: references/toolkit.md
+- title: Version history
+  path: references/version-history.md
+- title: What this skill does
+  path: references/what-this-skill-does.md
+- title: Workflow
+  path: references/workflow.md
 ---
 
 ---

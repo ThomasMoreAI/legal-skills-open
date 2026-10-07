@@ -156,6 +156,179 @@
         "La réponse livre aussi dans la conversation les commentaires numérotés avec niveau et fiche du guide",
         "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
       ]
+    },
+    {
+      "id": 10,
+      "name": "amendement-article-40",
+      "prompt": "Je suis collaboratrice d'une députée. Le projet de loi relatif à l'alimentation durable (texte de la commission, n° 1234) est examiné en séance la semaine prochaine. Rédige-moi un amendement qui oblige l'Etat à financer intégralement un repas végétarien quotidien dans toutes les cantines des collèges publics, à partir de la rentrée 2027. Il faudrait l'insérer après l'article 5.",
+      "expected_output": "Un amendement parlementaire présenté selon l'usage de l'Assemblée nationale : en-tête (texte et numéro, auteur laissé à compléter, « ARTICLE ADDITIONNEL APRÈS L'ARTICLE 5 »), chapeau à l'infinitif (« Après l'article 5, insérer l'article suivant : »), texte proposé au présent de l'indicatif, exposé sommaire. La réponse signale que l'obligation de financement par l'Etat crée une charge publique et tombe sous l'article 40 de la Constitution, sans pouvoir être gagée, et propose des reformulations à soumettre à l'autrice ; elle examine le lien avec le texte (article 45) ; elle relève aussi que la restauration scolaire des collèges relève des départements. Aucun numéro d'amendement inventé.",
+      "files": [],
+      "expectations": [
+        "La réponse suit la structure prévue pour un amendement : hypothèses retenues, amendement, recevabilité, tableau des transformations ou explication des choix, points à arbitrer, références citées",
+        "L'en-tête indique le texte et son numéro, l'auteur (laissé à compléter) et « article additionnel après l'article 5 » ; aucun numéro d'amendement n'est inventé",
+        "Le chapeau est à l'infinitif (« Après l'article 5, insérer l'article suivant : » ou équivalent), pas à l'indicatif (« Il est inséré… »)",
+        "Le texte proposé est au présent de l'indicatif, sans « doit », sans futur, sans « notamment »",
+        "Un exposé sommaire bref explique l'objet de l'amendement sans recopier le dispositif",
+        "La réponse signale que l'amendement crée une charge publique pour l'Etat, irrecevable au titre de l'article 40 de la Constitution pour un amendement parlementaire, et qu'un gage ne peut pas compenser une charge",
+        "La réponse propose des pistes de reformulation ou signale l'alternative (amendement du Gouvernement, faculté plutôt qu'obligation) sans affirmer qu'elles sont certainement recevables",
+        "La réponse examine le lien de l'amendement avec le texte au regard de l'article 45 de la Constitution",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ordonnance-habilitation",
+      "prompt": "L'article 12 de la loi n° … du … nous habilite à prendre par ordonnance, dans un délai de douze mois, toute mesure relevant du domaine de la loi pour simplifier le régime de déclaration des meublés de tourisme. Rédige le squelette de l'ordonnance avec un premier article qui remplace la déclaration en mairie par une déclaration en ligne sur un téléservice national, et dis-moi ce qu'il faut prévoir à côté.",
+      "expected_output": "Un projet d'ordonnance présenté selon l'usage : intitulé « Ordonnance n° … du … relative à … », « Le Président de la République, », « Sur le rapport du Premier ministre et du ministre … », visas (Constitution, notamment son article 38 ; codes concernés ; loi d'habilitation, notamment son article 12), consultations à compléter, « Le Conseil d'Etat entendu, », « Le conseil des ministres entendu, », « Ordonne : », articles au présent, article d'exécution « Le Premier ministre et … sont responsables, chacun en ce qui le concerne, de l'application de la présente ordonnance » ou formule équivalente. À côté : rapport au Président de la République, projet de loi de ratification à déposer dans le délai fixé par la loi d'habilitation à peine de caducité, consultations (CNEN, CNIL pour le téléservice), fiche d'impact.",
+      "files": [],
+      "expectations": [
+        "Le projet suit la présentation d'une ordonnance : « Le Président de la République, », rapport du Premier ministre et du ministre, visa de la Constitution (notamment son article 38) et de la loi d'habilitation, « Le Conseil d'Etat entendu, », « Le conseil des ministres entendu, », « Ordonne : »",
+        "Le projet n'emploie ni « Décrète : » ni « Le Premier ministre, » comme formule d'ouverture",
+        "Le dispositif est au présent de l'indicatif et respecte la grammaire des modifications (« est remplacé par les dispositions suivantes » ou « est ainsi rédigé » selon le choix expliqué)",
+        "La réponse mentionne le rapport au Président de la République qui accompagne l'ordonnance",
+        "La réponse signale que le projet de loi de ratification doit être déposé dans le délai fixé par la loi d'habilitation, à peine de caducité",
+        "La réponse repère au moins deux consultations ou étapes à examiner (Conseil d'Etat, Conseil national d'évaluation des normes pour les communes, Commission nationale de l'informatique et des libertés pour le téléservice) en précisant qu'il faut vérifier leur caractère obligatoire",
+        "Aucun numéro, date de loi, NOR ou nom de ministre n'est inventé",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "arrete-ministeriel",
+      "prompt": "Il nous faut un arrêté du ministre de l'agriculture pour fixer la liste des pièces à joindre à une demande d'aide à la plantation de haies, prévue par l'article 4 du décret n° … du … relatif à l'aide à la plantation de haies. Les pièces : un plan de situation, un devis, un relevé d'identité bancaire et éventuellement l'accord du propriétaire si le demandeur est locataire. Ça doit s'appliquer aux demandes déposées à partir du 1er mars 2027.",
+      "expected_output": "Un projet d'arrêté : intitulé « Arrêté du … fixant la liste des pièces … » sans numéro, « Le ministre de l'agriculture [intitulé exact à compléter], », visa du décret qui fonde la compétence (notamment son article 4), « Arrête : », « Article 1er » avec énumération en 1°, 2°, 3° et un cas conditionnel rédigé sans « éventuellement », article d'entrée en vigueur précisant l'application aux demandes déposées à compter du 1er mars 2027, article d'exécution confié au directeur général compétent (« est chargé de l'exécution du présent arrêté, qui sera publié au Journal officiel »), tableau des transformations, points à arbitrer.",
+      "files": [],
+      "expectations": [
+        "Le projet suit la présentation d'un arrêté : intitulé « Arrêté du … » sans numéro, ministre signataire en ouverture, visa du décret appliqué, « Arrête : », « Article 1er », article d'exécution en dernier",
+        "Les pièces sont énumérées en 1°, 2°, 3°, 4° avec la ponctuation des énumérations, et la pièce conditionnelle est rédigée par une condition précise (« lorsque le demandeur est locataire ») plutôt que par « éventuellement »",
+        "L'entrée en vigueur est rédigée par rapport aux demandes déposées à compter du 1er mars 2027, dans un article placé avant l'article d'exécution",
+        "L'article d'exécution confie l'exécution à un directeur d'administration centrale ou au ministre selon l'usage, et non à « les services »",
+        "Le dispositif est au présent, sans « doit », sans sigle (« RIB » écrit en toutes lettres)",
+        "Le sigle ou l'intitulé du ministre n'est pas inventé : il est laissé à compléter ou marqué à vérifier",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "procedure-et-documents-projet-de-loi",
+      "prompt": "On prépare un projet de loi qui impose aux communes de plus de 20 000 habitants de tenir un registre numérique des arbres d'alignement, consultable en ligne, avec la localisation de chaque arbre et les interventions réalisées. Quelles consultations faut-il prévoir, et peux-tu me faire la trame de l'exposé des motifs et de l'étude d'impact ? Pas besoin de rédiger les articles.",
+      "expected_output": "Une réponse fondée sur references/procedure-et-documents.md et les fiches 2.1.3, 1.1.2 et 3.1.1 : Conseil d'Etat obligatoire (article 39 de la Constitution) ; CNEN obligatoire (norme applicable spécifiquement aux collectivités territoriales) ; CNIL à examiner (le registre peut contenir des données personnelles, par exemple sur les riverains ou les intervenants) ; participation du public non applicable à une loi ; CESE non obligatoire (pas un projet de loi de programmation). Une trame d'exposé des motifs en deux parties (contexte et objectifs, puis présentation par article) qui ne paraphrase pas le dispositif. Une trame d'étude d'impact suivant l'article 8 de la loi organique du 15 avril 2009 (état des lieux, nécessité de légiférer, options, impacts dont collectivités territoriales, consultations, modalités d'application et textes d'application), sans chiffre inventé : les coûts et nombres de communes restent entre crochets avec une source à préciser.",
+      "files": [],
+      "expectations": [
+        "La réponse indique que la consultation du Conseil d'Etat est obligatoire pour un projet de loi",
+        "La réponse identifie la consultation du Conseil national d'évaluation des normes comme obligatoire, la norme visant spécifiquement les communes",
+        "La réponse examine la consultation de la Commission nationale de l'informatique et des libertés au regard des données que contiendrait le registre, sans l'affirmer obligatoire sans condition",
+        "La réponse n'impose pas à tort la participation du public de l'article L. 123-19-1 du code de l'environnement à un projet de loi, ni la consultation du Conseil économique, social et environnemental",
+        "La trame de l'exposé des motifs comporte une partie générale (contexte, objectifs) et une présentation par article ou par division, et ne paraphrase pas le dispositif",
+        "La trame de l'étude d'impact suit les rubriques de l'article 8 de la loi organique du 15 avril 2009 : état des lieux, nécessité de légiférer et objectifs, options, impacts (dont collectivités territoriales), consultations, modalités d'application et textes d'application",
+        "Aucun chiffre (coût, nombre de communes, nombre d'arbres) n'est présenté comme établi sans source : les données sont entre crochets ou signalées à compléter",
+        "La réponse cite les fiches 2.1.3, 1.1.2 et 3.1.1 du guide",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "question-ponctuelle-abrogation",
+      "prompt": "Question rapide : dans un décret modificatif, comment j'écris que je supprime le troisième alinéa de l'article R. 123-4 d'un code, et dans un autre article que j'abroge entièrement l'article R. 123-9 ?",
+      "expected_output": "Une réponse directe et brève : « Le troisième alinéa de l'article R. 123-4 du code de … est supprimé. » et « L'article R. 123-9 du code de … est abrogé. », avec la distinction abrogé (texte, article, division numérotée) / supprimé (alinéa, phrase, mots), éventuellement la remarque sur les renvois au quatrième alinéa devenu troisième et la possibilité de regrouper les deux modifications dans un article « Le code de … est ainsi modifié : 1° … ; 2° … ». Pas de projet de décret complet ni de structure de réponse de la fonction A.",
+      "files": [],
+      "expectations": [
+        "La réponse donne la formule « Le troisième alinéa de l'article R. 123-4 du code … est supprimé »",
+        "La réponse donne la formule « L'article R. 123-9 du code … est abrogé »",
+        "La réponse explique la distinction entre « abrogé » (article, texte, division) et « supprimé » (alinéa, phrase, mots)",
+        "La réponse est directe et courte : elle ne produit pas un projet de décret complet ni les sections « Hypothèses retenues », « Tableau des transformations » de la fonction A",
+        "La réponse cite la fiche 3.4.1 ou la fiche 3.8.3 du guide"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "relecture-amendement",
+      "prompt": "Mon sénateur veut déposer cet amendement demain sur le projet de loi relatif à la mobilité rurale. Tu peux le relire ?\n\nAMENDEMENT\nprésenté par M. …\n\nARTICLE 7\n\nL'article 7 est ainsi modifié :\n1° Au deuxième alinéa du I de l'article L. 1231-1 du code des transports, les mots « autorités organisatrices » sont remplacés par « AOM » ;\n2° L'article 9 du projet de loi est supprimé ;\n3° Les régions devront financer un service de transport à la demande dans chaque commune de moins de 2 000 habitants.\n\nEXPOSÉ SOMMAIRE\nL'article 7 est ainsi modifié : au deuxième alinéa du I de l'article L. 1231-1, les mots « autorités organisatrices » sont remplacés par « AOM », l'article 9 est supprimé et les régions financent un service de transport à la demande.",
+      "expected_output": "Un diagnostic, l'amendement corrigé (ou les amendements, puisqu'il faut en séparer un pour l'article 9) et un tableau de commentaires avec gravité. Doit relever : chapeau à l'indicatif au lieu de l'infinitif et formules du Sénat (« Alinéa n », « Remplacer les mots : … par les mots : … ») ; alinéa désigné par son rang dans le code au lieu du numéro de pastille du texte en discussion ; un amendement ne porte que sur un article (la suppression de l'article 9 est un amendement distinct) ; sigle « AOM » ; deux-points et guillemets manquants ; futur « devront » ; la nouvelle obligation de financement par les régions crée une charge publique et rend l'amendement irrecevable au titre de l'article 40 de la Constitution (bloquant) ; exposé sommaire qui paraphrase le dispositif au lieu d'en donner les raisons.",
+      "files": [],
+      "expectations": [
+        "La réponse comporte un diagnostic, l'amendement corrigé et un tableau de commentaires numérotés avec niveau (Bloquant / Recommandé / Style) et fiche ou source",
+        "Le chapeau est corrigé à l'infinitif, selon les formules du Sénat (« Alinéa n », « Remplacer les mots : « … » par les mots : « … » » ou équivalent)",
+        "La réponse explique que l'alinéa se désigne par son numéro dans le texte en discussion (pastillage), pas par son rang dans l'article de code",
+        "La réponse relève qu'un amendement ne porte que sur un seul article et que la suppression de l'article 9 exige un amendement distinct",
+        "La charge nouvelle imposée aux régions est relevée comme irrecevable au titre de l'article 40 de la Constitution, au niveau Bloquant",
+        "Les fautes de langue et de présentation sont corrigées : sigle « AOM », futur « devront », deux-points avant les mots cités, guillemets",
+        "L'exposé sommaire est réécrit pour donner les raisons de l'amendement sans paraphraser le dispositif",
+        "Aucun numéro d'amendement, nom d'auteur ou date n'est inventé"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "analyse-decret-niveau-et-normativite",
+      "prompt": "Le cabinet veut savoir si ce projet de décret tient la route : est-il légal, nécessaire, opportun, au bon niveau de norme, cohérent ? Je ne te demande pas de le réécrire, juste ton analyse.\n\nDécret n° … du … relatif à la propreté des trottoirs\n\nLe Premier ministre,\nSur le rapport du ministre de l'intérieur,\nVu la Constitution ;\nVu le code général des collectivités territoriales ;\nDécrète :\n\nArticle 1er\nLa propreté des trottoirs est une priorité nationale. L'Etat encourage les communes à agir en ce sens.\n\nArticle 2\nLes riverains nettoient le trottoir situé devant leur habitation au moins une fois par semaine.\n\nArticle 3\nLe fait de ne pas respecter l'obligation prévue à l'article 2 est puni de six mois d'emprisonnement et de 7 500 euros d'amende.\n\nArticle 4\nUne taxe annuelle de vingt euros par mètre linéaire de façade est instituée au profit des communes pour financer le nettoyage des trottoirs.\n\nArticle 5\nL'obligation prévue à l'article 2 incombe au propriétaire de l'immeuble.\n\nArticle 6\nUn arrêté du ministre de l'intérieur fixe les modalités d'application du présent décret.\n\nArticle 7\nLe ministre de l'intérieur est chargé de l'exécution du présent décret, qui sera publié au Journal officiel de la République française.",
+      "expected_output": "Une analyse (fonction C) et non une réécriture, structurée en trois parties, nécessité, niveau, portée : synthèse avec une conclusion par partie et un tableau d'appréciation par question, puis les trois parties. Caractère normatif : l'article 1er (priorité nationale, l'Etat encourage) n'a pas de portée normative. Niveau de norme : l'article 3 crée un délit (emprisonnement) que seule la loi peut créer, un décret ne pouvant prévoir que des contraventions ; l'article 4 institue une imposition, qui relève de la loi (article 34) ; ces deux points sont bloquants. Cohérence : l'article 2 vise les riverains, l'article 5 les propriétaires (contradiction interne) ; l'article 6 renvoie à un arrêté « les modalités d'application » sans encadrement. Conformité : principe de libre administration et compétences communales, police municipale existante à vérifier, proportionnalité de l'obligation hebdomadaire. Nécessité : les pouvoirs de police du maire permettent peut-être déjà d'imposer le nettoyage (à vérifier) ; solution non normative possible. Chaque conclusion porte un statut (établi, vérifié, risque, à vérifier) ; aucune conformité affirmée sans vérification. Opportunité : verdict motivé (au mieux « discutable » ou « inopportun en l'état », le texte ne pouvant être adopté sous cette forme), jugé au regard de l'objectif de propreté des trottoirs, sans chiffre inventé, en disant ce qui ferait changer le verdict.",
+      "files": [],
+      "expectations": [
+        "La réponse est une analyse et non une réécriture complète, structurée en trois parties dans l'ordre nécessité, niveau, portée : une synthèse avec une conclusion par partie et une appréciation par question, puis la nécessité (nécessité et opportunité), le niveau (niveau de norme et compétence, conformité) et la portée (caractère normatif, champ d'application, cohérence, qualité rédactionnelle)",
+        "L'article 1er est relevé comme dépourvu de portée normative, avec la recommandation de le supprimer ou de le reporter dans la notice",
+        "L'article 3 est relevé comme bloquant : un décret ne peut pas créer un délit puni d'emprisonnement, qui relève de la loi ; seules des contraventions peuvent être prévues par décret",
+        "L'article 4 est relevé comme bloquant : l'institution d'une imposition relève de la loi (article 34 de la Constitution)",
+        "La contradiction entre l'article 2 (riverains) et l'article 5 (propriétaire) est relevée",
+        "Le renvoi de l'article 6 à un arrêté fixant « les modalités d'application » est relevé comme non encadré",
+        "La réponse s'interroge sur la nécessité du texte au regard des pouvoirs existants (police municipale, compétences des communes) en présentant ce point comme à vérifier, sans affirmer de règle non vérifiée",
+        "Chaque conclusion porte un statut distinguant ce qui est établi par le texte de ce qui reste à vérifier, et la réponse ne déclare pas le texte « conforme » sans vérification",
+        "La réponse juge l'opportunité sur trois plans, juridique, matériel et politique, avec un verdict motivé pour chacun (opportun, opportun sous réserves, discutable, inopportun en l'état) et un verdict d'ensemble, en précisant qu'il porte sur le texte corrigé ou en l'état, et sans chiffre ni fait inventé",
+        "L'opportunité matérielle examine la faisabilité du contrôle d'une obligation hebdomadaire de nettoyage et les moyens nécessaires",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "analyse-proposition-de-loi",
+      "prompt": "Analyse cette proposition de loi : les dispositions sont-elles normatives, au bon niveau, conformes au droit et cohérentes avec ce qui existe déjà ? Et le texte est-il opportun ?\n\nArticle 1er\nLa Nation reconnaît le droit de chaque enfant à un environnement numérique sain.\n\nArticle 2\nLes fabricants de téléphones mobiles mis sur le marché en France installent un dispositif de contrôle parental activé par défaut. Un décret fixe les sanctions applicables en cas de manquement.\n\nArticle 3\nLe dispositif de contrôle parental peut être désactivé par l'utilisateur au moyen d'un code à quatre chiffres transmis par lettre recommandée avec demande d'avis de réception.",
+      "expected_output": "Une analyse (fonction C). Article 1er : proclamation sans portée normative, exposée à la censure du Conseil constitutionnel (jurisprudence citée par la fiche 1.2.1). Article 2 : le renvoi au décret pour fixer les sanctions relève de l'incompétence négative (la loi doit définir les éléments essentiels de la sanction ; un délit relève de la loi) — bloquant. Article 3 : détail de nature réglementaire dans une loi, qui le fige (non inconstitutionnel) — recommandé. Droit de l'Union : une règle technique sur des produits doit être notifiée à la Commission européenne (directive (UE) 2015/1535, fiche 2.1.4) et peut se heurter à la libre circulation des marchandises ou à une harmonisation européenne — à vérifier. Cohérence : vérifier l'existence d'un régime de contrôle parental déjà en vigueur (doublon possible) sans inventer de référence. Nécessité : question de l'existence d'un dispositif équivalent et de l'effectivité (contrôle, autorité compétente non désignée). Opportunité : verdict motivé sur le moyen choisi (contrôle parental par défaut, désactivation par lettre recommandée peu praticable), sur trois plans : juridique, matériel (praticabilité, contrôle) et politique (adéquation à l'objectif, acceptabilité, charge pour les fabricants, articulation avec le droit de l'Union), avec des critères explicites (charge pour les fabricants, articulation avec le droit de l'Union).",
+      "files": [],
+      "expectations": [
+        "L'article 1er est relevé comme une proclamation dépourvue de portée normative, exposée à la censure dans une loi",
+        "Le renvoi au décret pour fixer les sanctions (article 2) est relevé comme une incompétence négative ou une méconnaissance par le législateur de sa compétence, au niveau bloquant",
+        "L'article 3 est relevé comme un détail de nature réglementaire figé dans la loi, sans être qualifié d'inconstitutionnel",
+        "La réponse signale l'obligation probable de notifier cette règle technique à la Commission européenne ou un risque au regard du droit de l'Union (libre circulation, harmonisation), en le présentant comme à vérifier",
+        "La réponse invite à vérifier l'existence d'un régime de contrôle parental déjà en vigueur (risque de doublon ou de contradiction) sans inventer de référence",
+        "La réponse relève l'absence d'autorité chargée du contrôle ou d'autres conditions d'effectivité",
+        "Chaque conclusion porte un statut (établi, vérifié, risque, à vérifier)",
+        "La réponse juge l'opportunité juridique, matérielle et politique avec un verdict motivé pour chaque plan, par exemple la lourdeur de la désactivation par lettre recommandée (matérielle) et l'acceptabilité ou la charge pour les fabricants (politique), en fondant le jugement politique sur des critères explicites et non sur une préférence partisane",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "analyse-opportunite-derogations",
+      "prompt": "Le ministère veut savoir si ce projet de décret est opportun, juridiquement, matériellement et politiquement. Sois franc.\n\nDécret n° … du … relatif aux délais d'instruction des permis de construire\n\nArticle 1er\nPar dérogation à l'article R. 423-23 du code de l'urbanisme, le délai d'instruction des demandes de permis de construire présentées par les entreprises de plus de deux cent cinquante salariés est fixé à un mois.\n\nArticle 2\nPar dérogation à l'article R. 423-19 du même code, les dossiers des entreprises mentionnées à l'article 1er sont réputés complets dès leur dépôt.\n\nArticle 3\nPar dérogation aux règles de consultation prévues par le même code, les demandes mentionnées à l'article 1er sont dispensées des consultations des services et commissions, sauf lorsque le projet est situé en site classé.\n\nArticle 4\nLe présent décret entre en vigueur le lendemain de sa publication et s'applique aux demandes en cours d'instruction.\n\nArticle 5\nLe ministre chargé de l'urbanisme est chargé de l'exécution du présent décret, qui sera publié au Journal officiel de la République française.",
+      "expected_output": "Une analyse (fonction C) dont la section d'opportunité est développée sur trois plans. Juridique : régime entièrement dérogatoire (trois dérogations cumulées au droit commun de l'instruction), réservé à une catégorie définie par sa taille, ce qui pose une question d'égalité de traitement à justifier et crée un précédent ; dispense de consultations dont certaines peuvent être imposées par la loi ou le droit de l'Union (à vérifier) ; application immédiate aux demandes en cours génératrice d'insécurité. Matériel : services instructeurs des communes contraints à un délai d'un mois, dossiers réputés complets dès le dépôt, charge reportée sur les collectivités. Politique : avantage ciblé sur les grandes entreprises difficile à défendre vis-à-vis des autres demandeurs, réaction prévisible des élus locaux, cohérence avec l'objectif affiché de simplification à discuter, alternative d'une simplification générale ou d'une expérimentation. Verdicts motivés par plan et d'ensemble (au mieux « discutable », plus probablement « inopportun en l'état »), sans chiffre inventé, avec le principal argument en faveur du texte présenté avant la conclusion. Les références d'articles de code fournies dans la demande ne sont pas complétées de mémoire.",
+      "files": [],
+      "expectations": [
+        "La section d'opportunité est développée sur trois plans, juridique, matériel et politique, chacun avec un verdict motivé, puis un verdict d'ensemble",
+        "L'opportunité juridique relève le caractère excessivement dérogatoire du texte (dérogations cumulées au droit commun de l'instruction, régime spécial pour une catégorie) et pose la question de sa justification",
+        "La réponse relève que réserver le régime aux entreprises de plus de deux cent cinquante salariés crée une différence de traitement qu'il faut justifier",
+        "La réponse signale que certaines consultations dont le décret dispense peuvent être imposées par la loi ou le droit de l'Union, en le présentant comme à vérifier",
+        "L'application immédiate aux demandes en cours d'instruction est relevée comme un problème de sécurité juridique ou de faisabilité",
+        "L'opportunité matérielle examine la charge reportée sur les services instructeurs (délai d'un mois, dossiers réputés complets)",
+        "L'opportunité politique est jugée par des critères explicites (gagnants et perdants, acceptabilité par les élus et les autres demandeurs, cohérence avec l'objectif de simplification, précédent) et propose au moins une meilleure option",
+        "La réponse présente le principal argument en faveur du texte avant de conclure et ne recourt à aucun chiffre ni fait inventé",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "analyse-qualite-redactionnelle",
+      "prompt": "Analyse ce projet de décret, y compris la qualité de sa rédaction. Je ne te demande pas de le réécrire.\n\nDécret n° … du … relatif au registre des opérateurs de trottinettes en libre-service\n\nLe Premier ministre,\nSur le rapport du ministre de l'Intérieur,\nVu le code des transports ;\nDécrète :\n\nArticle 1\nLes opérateurs de location de trottinettes électriques en libre-service (ci-après « les opérateurs ») devront obligatoirement s'inscrire sur un registre tenu par le préfet et/ou par le maire.\n\nArticle 2\nDans le cadre de leur inscription, les opérateurs concernés transmettent notamment les pièces suivantes :\n- un extrait Kbis,\n- une attestation d'assurance.\n\nArticle 3\nLe défaut d'inscription est puni de l'amende prévue pour les contraventions de la 5ème classe, notamment en cas de récidive.\n\nArticle 4\nLe présent décret entrera en vigueur le 1er janvier 2027.\n\nArticle 5\nLe ministre de l'Intérieur est chargé de l'exécution du présent décret, qui sera publié au Journal officiel de la République française.",
+      "expected_output": "Une analyse (fonction C) qui comporte une section de qualité rédactionnelle avec une appréciation motivée sur l'échelle Satisfaisant / Réserves / Défaut sérieux, ici « Défaut sérieux » : à l'article 1er, « et/ou » est proscrit (écrire « ou », fiche 3.3.1), mais surtout l'autorité qui tient le registre reste indéterminée (préfet, maire, ou l'un et l'autre), ce qui touche aussi la compétence et la cohérence ; « notamment » rend la liste des pièces de l'article 2 indéterminée et n'a pas sa place dans la sanction de l'article 3 ; ces ambiguïtés changent le sens et sont bloquantes. Écarts aux règles sans effet sur le sens, en niveau recommandé : futur et « devront obligatoirement » (articles 1er et 4), tirets au lieu d'une énumération en 1°, 2°, parenthèse « ci-après ». Style et typographie, regroupés : « dans le cadre de », « concernés », « 5ème » (cinquième classe), majuscule à « Intérieur », sigle ou abréviation « Kbis », « Article 1 » au lieu de « Article 1er ». Les défauts sont illustrés par des citations, pesés plutôt qu'énumérés un à un, sans réécriture complète du texte ; la réponse dit qu'une correction complète (fonction B) est utile. Les autres questions de l'analyse (caractère normatif, niveau de norme, conformité, notamment l'atteinte à la liberté d'entreprendre d'un régime d'inscription préalable, cohérence, nécessité, opportunité) sont traitées avec leurs statuts.",
+      "files": [],
+      "expectations": [
+        "La réponse est une analyse et non une réécriture complète, et elle comporte une section consacrée à la qualité rédactionnelle avec une appréciation explicite (Satisfaisant, Réserves ou Défaut sérieux), ici Défaut sérieux ou équivalent",
+        "Elle relève « et/ou » à l'article 1er (à remplacer par « ou ») et surtout que l'autorité qui tient le registre (préfet ou maire) reste indéterminée, ce qu'elle traite comme un défaut bloquant, dans cette section ou en renvoyant à la compétence ou à la cohérence",
+        "Elle relève « notamment » dans la sanction de l'article 3 comme bloquant, et signale que « notamment » rend indéterminée la liste des pièces de l'article 2",
+        "Elle relève l'emploi du futur et de « devront obligatoirement » (articles 1er et 4) en le rattachant à la règle du présent de l'indicatif",
+        "Elle signale les fautes de style et de typographie (au moins deux parmi : « dans le cadre de », « concernés », « 5ème », majuscule à « Intérieur », tirets au lieu de 1°, 2°, parenthèse « ci-après », « Article 1 ») sans leur donner le même poids que les ambiguïtés",
+        "Les constats rédactionnels citent le passage en cause et la règle ou la fiche du guide, et la réponse recommande une correction complète par la fonction B",
+        "L'analyse est structurée en nécessité, niveau, portée, la qualité rédactionnelle étant traitée dans la partie portée, et les autres questions (nécessité, opportunité, niveau de norme, conformité, caractère normatif, champ, cohérence) sont traitées avec un statut pour chaque conclusion",
+        "Toute référence juridique que l'agent introduit lui-même (numéro d'article de code, numéro ou date d'un texte, intitulé exact d'un texte, décision de justice, acte européen) sans qu'elle figure dans la demande est soit vérifiée avec une source indiquée (Légifrance, ou fiche du guide qui la cite), soit laissée en blanc ou marquée explicitement comme à vérifier ; les articles de la Constitution sont exemptés"
+      ]
     }
   ]
 }

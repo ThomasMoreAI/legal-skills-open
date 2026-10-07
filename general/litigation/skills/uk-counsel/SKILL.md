@@ -5,7 +5,7 @@ description: Applies vCLO's United Kingdom jurisdiction layer to a UK legal matt
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/uk-counsel
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

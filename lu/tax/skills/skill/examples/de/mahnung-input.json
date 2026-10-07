@@ -1,0 +1,27 @@
+{
+  "ort": "Luxemburg",
+  "datum": "2026-05-09",
+  "mahnstufe": "Zweite Mahnung",
+  "neue_frist": "2026-05-23",
+  "verzugszins_satz": "8",
+  "glaeubiger": {
+    "name": "ACME SARL",
+    "adresse": "12, rue de la Paix · L-1234 Luxembourg",
+    "ust_id": "LU99999999",
+    "bank": "BCEE / Spuerkeess",
+    "iban": "LU28 0019 4006 4475 0000",
+    "bic": "BCEELULL",
+    "unterzeichner": "Max Mustermann",
+    "funktion": "Geschäftsführer"
+  },
+  "schuldner": {
+    "name": "Beispiel GmbH",
+    "adresse": "Musterstraße 5 · D-54290 Trier"
+  },
+  "rechnung": {
+    "nummer": "INV-2025-042",
+    "datum": "2026-03-15",
+    "betrag_eur": "1234.56",
+    "faellig_am": "2026-04-15"
+  }
+}

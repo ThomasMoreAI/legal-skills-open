@@ -1,0 +1,12 @@
+name: Employment Law Research
+practice_area: Employment
+jurisdiction: US
+version: "1.0"
+author: Yue Deng-Wu — Hackathon 2026
+description: >
+  Researches a US employment law topic across federal, state, and
+  city jurisdictions and produces structured research notes with
+  proper source attribution — distinguishing primary sources (statutes,
+  regulations, agency guidance) from secondary sources (law firm
+  alerts, tracker organizations). Designed to be run standalone or as
+  the first step before the employment-law-dashboard skill.

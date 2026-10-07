@@ -5,7 +5,7 @@ description: Use when the user has a vendor's published privacy policy (URL, PDF
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-ai/tree/main/skills/vendor-privacy-policy-first-pass
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

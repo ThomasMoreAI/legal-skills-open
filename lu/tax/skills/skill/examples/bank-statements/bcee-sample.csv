@@ -1,0 +1,6 @@
+Date;Date valeur;Libellé;Débit;Crédit;Solde;Devise;Référence
+12/03/2025;12/03/2025;Virement reçu CLIENT ACME SA Facture INV-2025-001;;1.234,56;15.234,56;EUR;REF001
+13/03/2025;13/03/2025;CETELEM Prélèvement loyer bureau;850,00;;14.384,56;EUR;REF002
+14/03/2025;14/03/2025;Salaire MARS 2025 Employé X;3.500,00;;10.884,56;EUR;PAYROLL-03
+15/03/2025;15/03/2025;Virement reçu CLIENT BETA Sarl;;2.000,00;12.884,56;EUR;REF003
+20/03/2025;20/03/2025;Frais bancaires mensuels;25,50;;12.859,06;EUR;

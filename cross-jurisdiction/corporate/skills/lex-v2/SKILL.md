@@ -5,12 +5,20 @@ description: 'LEX: Legal-Entity-X-ref workflow skill. Use this skill when the us
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/lex-v2
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: corporate
 language: en
-tags: [legal, context, cross-jurisdictional, compliance, scaffolding, lex-v2, lex, centralized]
+tags:
+- legal
+- context
+- cross-jurisdictional
+- compliance
+- scaffolding
+- lex-v2
+- lex
+- centralized
 ---
 
 # LEX: Legal-Entity-X-ref

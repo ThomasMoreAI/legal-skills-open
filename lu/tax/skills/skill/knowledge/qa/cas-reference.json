@@ -1,0 +1,219 @@
+{
+  "as_of": "2026-07-13",
+  "description": "Knowledge QA — cas métier de référence. Chaque cas décrit une situation (profil ou événements) et le résultat attendu du moteur (nombre d'obligations applicables ou de démarches planifiées). Rejoués comme suite de non-régression de la connaissance : un changement de règle qui modifie ces nombres doit être conscient et documenté. Chaque cas porte sa famille (golden/edge/regression/real-world/generated) et la liste des règles qu'il couvre (traçabilité QA ↔ règle).",
+  "dateReference": "2026-07-13",
+  "cas": [
+    {
+      "id": "societe_sarl_tva_mensuelle",
+      "description": "Société SARL active, assujettie TVA mensuelle, 2 salariés.",
+      "type": "profil_societe",
+      "input": {
+        "nom": "Acme SARL",
+        "formeJuridique": "SARL",
+        "statut": "actif",
+        "regimeTVA": "normal",
+        "frequenceTVA": "mensuelle",
+        "nbSalaries": 2
+      },
+      "attendu": {
+        "obligationsApplicables": 8
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_tva_declaration_mensuelle",
+        "obl_tva_declaration_annuelle",
+        "obl_rcs_depot_comptes_annuels",
+        "obl_rbe_mise_a_jour",
+        "obl_autorisation_etablissement",
+        "obl_irc_declaration",
+        "obl_acomptes_irc_icc",
+        "obl_employeur_declaration_entree"
+      ]
+    },
+    {
+      "id": "societe_non_assujettie",
+      "description": "Société SARL active, non assujettie à la TVA.",
+      "type": "profil_societe",
+      "input": {
+        "nom": "Beta SARL",
+        "formeJuridique": "SARL",
+        "statut": "actif",
+        "regimeTVA": "non_assujetti",
+        "frequenceTVA": "non_applicable"
+      },
+      "attendu": {
+        "obligationsApplicables": 5
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_rcs_depot_comptes_annuels",
+        "obl_rbe_mise_a_jour",
+        "obl_autorisation_etablissement",
+        "obl_irc_declaration",
+        "obl_acomptes_irc_icc"
+      ]
+    },
+    {
+      "id": "particulier_marie_2enfants_frontalier",
+      "description": "Salarié marié, 2 enfants, frontalier français.",
+      "type": "profil_utilisateur",
+      "input": {
+        "statutProfessionnel": "salarie",
+        "situationFamiliale": "marie",
+        "nombreEnfants": 2,
+        "frontalier": true,
+        "paysResidence": "FR"
+      },
+      "attendu": {
+        "obligationsApplicables": 6
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_irpp_declaration_modele100",
+        "obl_fiche_retenue_maj",
+        "obl_allocations_familiales",
+        "obl_conge_parental",
+        "obl_frontalier_declaration_residence",
+        "obl_frontalier_seuil_teletravail"
+      ]
+    },
+    {
+      "id": "plan_naissance",
+      "description": "Événement : naissance d'un enfant.",
+      "type": "evenements",
+      "input": [
+        "naissance"
+      ],
+      "attendu": {
+        "demarches": 5
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_allocations_familiales",
+        "obl_conge_parental",
+        "obl_fiche_retenue_maj"
+      ]
+    },
+    {
+      "id": "plan_creation_entreprise",
+      "description": "Événement : création d'entreprise.",
+      "type": "evenements",
+      "input": [
+        "creation_entreprise"
+      ],
+      "attendu": {
+        "demarches": 5
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_autorisation_etablissement",
+        "obl_rbe_mise_a_jour",
+        "obl_affiliation_ccss_independant"
+      ]
+    },
+    {
+      "id": "plan_installation_naissance_creation",
+      "description": "Trois événements combinés : installation + naissance + création d'entreprise.",
+      "type": "evenements",
+      "input": [
+        "arrivee_luxembourg",
+        "naissance",
+        "creation_entreprise"
+      ],
+      "attendu": {
+        "demarches": 12
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_commune_declaration_arrivee",
+        "obl_irpp_declaration_modele100",
+        "obl_allocations_familiales",
+        "obl_conge_parental",
+        "obl_fiche_retenue_maj",
+        "obl_autorisation_etablissement",
+        "obl_rbe_mise_a_jour",
+        "obl_affiliation_ccss_independant"
+      ]
+    },
+    {
+      "id": "cessation_societe",
+      "description": "Société en cessation d'activité.",
+      "type": "profil_societe",
+      "input": {
+        "nom": "Gamma SARL",
+        "formeJuridique": "SARL",
+        "statut": "cessation"
+      },
+      "attendu": {
+        "obligationsApplicables": 1
+      },
+      "famille": "edge",
+      "regles": [
+        "obl_cessation_radiation"
+      ]
+    },
+    {
+      "id": "plan_cessation_activite",
+      "description": "Événement : cessation d'activité.",
+      "type": "evenements",
+      "input": [
+        "cessation_activite"
+      ],
+      "attendu": {
+        "demarches": 1
+      },
+      "famille": "golden",
+      "regles": [
+        "obl_cessation_radiation"
+      ]
+    },
+    {
+      "id": "societe_tva_trimestrielle",
+      "description": "Société assujettie TVA trimestrielle (cas edge : fréquence non mensuelle).",
+      "type": "profil_societe",
+      "input": {
+        "nom": "Delta SARL",
+        "formeJuridique": "SARL",
+        "statut": "actif",
+        "regimeTVA": "normal",
+        "frequenceTVA": "trimestrielle"
+      },
+      "attendu": {
+        "obligationsApplicables": 7
+      },
+      "famille": "edge",
+      "regles": [
+        "obl_tva_declaration_trimestrielle",
+        "obl_tva_declaration_annuelle",
+        "obl_rcs_depot_comptes_annuels",
+        "obl_rbe_mise_a_jour",
+        "obl_autorisation_etablissement",
+        "obl_irc_declaration",
+        "obl_acomptes_irc_icc"
+      ]
+    },
+    {
+      "id": "regression_non_assujetti_freq_mensuelle",
+      "description": "Régression : régime non_assujetti mais fréquence mensuelle renseignée — aucune obligation TVA ne doit se déclencher.",
+      "type": "profil_societe",
+      "input": {
+        "nom": "Epsilon SARL",
+        "formeJuridique": "SARL",
+        "statut": "actif",
+        "regimeTVA": "non_assujetti",
+        "frequenceTVA": "mensuelle"
+      },
+      "attendu": {
+        "obligationsApplicables": 5
+      },
+      "famille": "regression",
+      "regles": [
+        "obl_rcs_depot_comptes_annuels",
+        "obl_rbe_mise_a_jour",
+        "obl_autorisation_etablissement",
+        "obl_irc_declaration",
+        "obl_acomptes_irc_icc"
+      ]
+    }
+  ]
+}

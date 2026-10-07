@@ -5,7 +5,7 @@ description: Citation formatting rules for law review articles using The Blueboo
 author: diegosouzapw
 author_url: https://github.com/diegosouzapw/awesome-omni-skill/tree/main/skills/development/academic-bluebook
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: general

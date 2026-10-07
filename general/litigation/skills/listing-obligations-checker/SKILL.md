@@ -5,7 +5,7 @@ description: Checks event-based and periodic disclosure, governance, website, sh
 author: rohasnagpal
 author_url: https://github.com/rohasnagpal/legal-ai-skills/tree/main/plugins/vclo-by-rohas/skills/listing-obligations-checker
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: litigation

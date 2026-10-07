@@ -1,11 +1,11 @@
 ---
 name: korean-law-search
-title: 'Korean law search'
+title: Korean law search
 description: Search Korean statutes, articles, precedents, interpretations, and local ordinances via k-skill-proxy. Use when the user asks for Korean law/article/precedent lookups.
 author: NomaDamas
 author_url: https://github.com/NomaDamas/k-skill/tree/main/korean-law-search
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: kr
 practice: general

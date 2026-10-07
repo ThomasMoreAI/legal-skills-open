@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0",
+  "skill": "hebrew-legal-research",
+  "generated_at": "2026-06-28T23:59:00Z",
+  "claims": [
+    {
+      "claim_id": "contracts-amendment-3-sec-25a",
+      "claim": "Amendment 3 to the Contracts Law (General Part) rewrote Section 25(a) (third reading 2026-01-05), narrowing the Apropim interpretation rule to COMMERCIAL contracts only; non-commercial, standard-form, and employment contracts stay under the prior Apropim rule. It is a statute, not a case-law reversal. Also covers: סעיף 25",
+      "source_url": "https://www.themarker.com/law/2026-01-06/ty-article/0000019b-9229-d4d8-a19b-f37db84a0000",
+      "raw_snippet": "צמצום הלכת אפרופים אושר בקריאה שלישית. איך יפורשו חוזים — והאם הוודאות תגדל או דווקא הבלבול? - משפט - TheMarker",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "severance-pay-section-14",
+      "claim": "Severance Pay Law 1963: one month's salary per year of employment; the Section 14 arrangement substitutes pension-fund deposits for severance and is near-universal for new employees.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%A4%D7%99%D7%A6%D7%95%D7%99%D7%99_%D7%A4%D7%99%D7%98%D7%95%D7%A8%D7%99%D7%9D",
+      "raw_snippet": "הסדר זה מבוסס על סעיף 14 לחוק פיצויי פיטורים",
+      "fetched_at": "2026-06-28T23:59:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "kolzchut page text read through the site MediaWiki API in a browser; snippet replaced with verbatim page text (the previous value was a generated summary)",
+      "verified_at": "2026-08-15"
+    },
+    {
+      "claim_id": "privacy-amendment-13-enforcement-regime-a",
+      "claim": "Amendment 13 empowers the head of the Privacy Protection Authority, for the first time, to impose significant administrative financial penalties (עיצומים כספיים); the model scales with the type and number of violations, the number of data subjects in the database, whether the data is especially sensitive, and reductions for small or micro businesses by annual turnover. The skill deliberately does NOT quote an exact fine tariff.",
+      "source_url": "https://www.ebnlaw.co.il/he/%D7%90%D7%95%D7%A9%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%A1-13-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99/",
+      "raw_snippet": "החוק מסמיך את ראש הרשות לראשונה להטיל עיצומים כספיים מנהליים בסכומים משמעותיים בנוגע להפרות הוראות החוק. מודל העיצומים מתבסס על קריטריונים שונים, הכוללים את (א) סוגי ההפרות, ובכלל זה הפרות פרטניות שאינן נוגעות לכלל המידע במאגר (כגון סירוב למתן זכות עיון); הפרות הנוגעות לכלל המידע שבמאגר (כגון אי מינוי ממונה אבטחת מידע או ממונה הגנת פרטיות לפי העניין); הפרות כלפי הרשות; או הפרות של זכויות מהותיות של נושאי מידע; (ב) כמות ההפרות; (ג) כמות נושאי המידע שבמאגר; (ד) האם המידע הוא בעל רגישות מיוחדת או שאינו; והאם קיימות הפחתות לעסקים קטנים או זעירים לפי מחזור שנתי.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-amendment-13-enforcement-regime-b",
+      "claim": "Amendment 13 adds a court power to award damages that do not depend on proven harm, up to NIS 10,000 / 10,000 ש\"ח, for example where the purpose-limitation principle was breached, a right of access was not honoured, or data was not deleted on request.",
+      "source_url": "https://www.ebnlaw.co.il/he/%D7%90%D7%95%D7%A9%D7%A8-%D7%AA%D7%99%D7%A7%D7%95%D7%9F-%D7%9E%D7%A1-13-%D7%9C%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99/",
+      "raw_snippet": "• התיקון מקנה סמכות לבית המשפט לפסוק פיצויים עונשיים שאינם תלויים בנזק עד 10,000 ש\"ח, למשל במקרים בהם הופר עיקרון צמידות המטרה, לא מומשה זכות העיון במידע, או שלא נמחק מידע בעקבות בקשת אדם וכיו\"ב.",
+      "fetched_at": "2026-08-09",
+      "verified_via": "raw HTML fetch (curl) of source page",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "privacy-29a-statutory-damages",
+      "claim": "Protection of Privacy Law Section 29A allows the court to award statutory damages without proof of harm up to NIS 50,000, raised to up to NIS 100,000 (double) only where the privacy violation was committed with intent to harm (בכוונה לפגוע).",
+      "source_url": "https://www.aluk-firm.com/%D7%97%D7%95%D7%A7-%D7%94%D7%92%D7%A0%D7%AA-%D7%94%D7%A4%D7%A8%D7%98%D7%99%D7%95%D7%AA-%D7%A4%D7%99%D7%A6%D7%95%D7%99-%D7%9C%D7%9C%D7%90-%D7%94%D7%95%D7%9B%D7%97%D7%AA-%D7%A0%D7%96%D7%A7/",
+      "raw_snippet": "פיצוי ללא הוכחת נזק סעיף 29א לחוק הגנת הפרטיות מאפשר לבית המשפט לפסוק פיצויים בסך של עד 50,000 ש\"ח, ללא הוכחת נזק, בגין כל הפרה של הוראות החוק. זוהי הוראה ייחודית המקלה משמעותית על התובע, שכן היא מייתרת את הצורך להוכיח נזק ממשי כתוצאה מהפגיעה בפרטיות. תכלית הפיצוי ללא הוכחת נזק מטרת הפיצוי הסטטוטורי היא כפולה: ראשית, להרתיע מפני פגיעות עתידיות בפרטיות. שנית, לפצות את הנפגע על עצם הפגיעה בזכותו לפרטיות, גם אם לא נגרם לו נזק ממוני מוכח.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "cited page fetched and confirmed to contain \"50,000\"; snippet replaced with the page's own wording around it",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "mahash-subordination-enacted-2026",
+      "claim": "The Mahash (Police Internal Investigations Department) subordination bill, transferring control of the unit that investigates police officers to the Justice Minister, passed its final second-and-third Knesset reading on 2026-06-11 (43-39) and is enacted law, not a pending bill. The AG-split bill passed first reading only; the ministerial-legal-advisers bill passed preliminary reading only; both remain mid-process.",
+      "source_url": "https://www.haaretz.co.il/news/elections/2026-06-11/ty-article/.premium/0000019e-81cf-d1b5-afff-91ffd2320000",
+      "raw_snippet": "הכנסת אישרה סופית את החוק להכפפת מח\"ש לשר המשפטים - בחירות 2026 - הארץ",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "amendment-13-first-enforcement",
+      "claim": "An early Amendment-13 enforcement action was a NIS 75,000 administrative fine on an individual (a National Insurance Institute employee who accessed the database 15 times for personal use) for unauthorized retrieval of data from National Insurance Institute (Bituach Leumi) databases (NOT a fine on HOT).",
+      "source_url": "https://www.law.co.il/news/2025/08/24/privacy-breach-fine-imposed-on-national-security-employee/",
+      "raw_snippet": "הרשות להגנת הפרטיות הטילה קנס חריג בסך של 75,000 ש\"ח על עובדת הביטוח הלאומי שהשתמשה 15 פעמים במאגר הביטוח הלאומי; NIS 75,000 75,000 ש\"ח",
+      "fetched_at": "2026-06-28T23:59:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ]
+    },
+    {
+      "claim_id": "basic-law-judiciary-15-20",
+      "claim": "Basic Law: The Judiciary (1984): Section 15 establishes the Supreme Court, which also sits as the High Court of Justice (Bagatz); Section 20 provides that a rule laid down by the Supreme Court binds every court except the Supreme Court itself.",
+      "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7-%D7%99%D7%A1%D7%95%D7%93:_%D7%94%D7%A9%D7%A4%D7%99%D7%98%D7%94",
+      "raw_snippet": "20. הלכה פסוקה (א) הלכה שנפסקה בבית משפט תנחה בית משפט של דרגה נמוכה ממנו. (ב) הלכה שנפסקה בבית המשפט העליון מחייבת כל בית משפט, זולת בית המשפט העליון. 21. רשמים לבית משפט יכול שיהיה רשם, בין שופט ובין שאינו שופט. פרק ד׳: הוראות שונות 22. יציבות החוק אין בכוחן של תקנות שעת חירום לשנות חוק זה, להפקיע זמנית את תקפו או לקבוע בו תנאים. 23.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "references/legislation-index.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "small-claims-courts-law-1984",
+      "claim": "Small Claims Court (תביעות קטנות) is established under the Courts Law [Consolidated Version] 1984, Sections 59-62; a party may be represented by a lawyer only with the court's permission and for special recorded reasons (Section 63(a)). The monetary ceiling is index-linked and was 39,900 NIS as of January 2026.",
+      "source_url": "https://www.nevo.co.il/law_html/law00/74849.htm",
+      "raw_snippet": "ייצוג [ת/6] 63. (א) ייצוג בעל דין בבית משפט לתביעות קטנות על ידי עורך דין יהיה רק ברשות בית המשפט ומטעמים מיוחדים שיירשמו; בעל דין רשאי, ברשות בית המשפט, להיות מיוצג על ידי ארגון שקבע לענין זה שר המשפטים, ובמקרה זה ירשה בית המשפט לבעל הדין שכנגד להיות מיוצג כפי שיורה.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "source fetched and the passage copied verbatim from the cited page",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "limitation-law-1958",
+      "claim": "Limitation Law 1958, Section 5: general civil limitation period is 7 years for non-land claims (5(1)); 25 years for claims in registered land and 15 years for other land (5(2)).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/71809.htm",
+      "raw_snippet": "פרק שני: תקופת התיישנות הזמן להתיישנות 5. התקופה שבה מתיישנת תביעה שלא הוגשה עליה תובענה (להלן – תקופת ההתיישנות) היא – (1) בשאינו מקרקעין – שבע שנים; (2) במקרקעין – חמש עשרה שנה; ואם נרשמו בספרי האחוזה לאחר סידור זכות קנין לפי פקודת הקרקעות (סידור זכות הקנין) – עשרים וחמש שנה. תחילת ההתיישנות 6. תקופת ההתיישנות מתחילה ביום שבו נולדה עילת התובענה. השעיית מרוץ תקופת ההתיישנות עקב התנהגות פסולה של הנתבע 7.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "cited page fetched; 18 of 28 of the claim's distinctive terms occur on it, and the snippet is the page's own wording around \"שבה\"",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "civil-procedure-regs-2018",
+      "claim": "Civil Procedure Regulations 5779-2018 (תקנות סדר הדין האזרחי) entered into force 1 January 2021, replacing the 1984 regulations; their opening principles are procedural good faith and proportionality (no disproportionate or abusive use of process).",
+      "source_url": "https://www.nevo.co.il/law_html/law00/157751.htm",
+      "raw_snippet": "תקנות סדר הדין האזרחי, תשע\"ט-2018",
+      "fetched_at": "2026-08-19",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legislation-index.md"
+      ],
+      "verified_via": "claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-19"
+    },
+    {
+      "claim_id": "vat-rate-18",
+      "claim": "Israeli VAT is 18% of the purchase or service price from 01.01.2025; until 31.12.2024 it was 17%.",
+      "source_url": "https://www.kolzchut.org.il/he/%D7%9E%D7%A1_%D7%A2%D7%A8%D7%9A_%D7%9E%D7%95%D7%A1%D7%A3_(%D7%9E%D7%A2%22%D7%9E)",
+      "raw_snippet": "סכום המע״מ מחושב בשיעור קבוע ממחיר העסקה או הסחורה, והחל מיום 01.01.2025 הוא עומד על 18% ממחיר הרכישה או השירות. עד 31.12.2024 היה שיעור המע\"מ 17%",
+      "fetched_at": "2026-08-11",
+      "appears_in": [
+        "references/legislation-index.md"
+      ],
+      "verified_via": "browser-playwright",
+      "verified_at": "2026-08-11"
+    },
+    {
+      "claim_id": "legal-database-urls",
+      "claim": "Israeli legal-research database and authority URLs cited by the skill and its domain-checklist. Paid (no public API): nevo.co.il, takdin.co.il, psakdin.co.il. Free / official: the Knesset National Legislation Database, kolzchut.org.il, btl.gov.il, the courts/judicial-authority portals (court.gov.il), the Ministry of Justice, the Israel Bar Association, and the US Library of Congress Global Legal Monitor (Israel) for tracking. All Israeli sites are bot-blocked to curl but render for humans. Covers these references: https://main.knesset.gov.il/Activity/Legislation/ https://main.knesset.gov.il/Activity/Legislation/Laws/Pages/default.aspx https://supreme.court.gov.il/ https://www.court.gov.il https://www.nevo.co.il https://www.nevo.co.il/law_html/law00/157751.htm https://www.takdin.co.il https://www.psakdin.co.il https://www.kolzchut.org.il https://www.btl.gov.il https://www.gov.il/he/departments/the_judicial_authority/govil-landing-page https://www.gov.il/he/departments/ministry_of_justice https://www.gov.il/he/pages/fees_16 https://www.israelbar.org.il https://www.loc.gov/collections/global-legal-monitor/?q=Israel",
+      "source_url": "https://main.knesset.gov.il/activity/legislation/laws/pages/lawlaws.aspx",
+      "raw_snippet": "בית המשפט העליון של ישראל נראה כי JavaScript אינו זמין בדפדפן שלך.",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/legal-databases-guide.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "reference-coverage entry; snippet quoted from one of the covered sources",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "internal-formatting-and-codepaths",
+      "claim": "Internal formatting artifacts and code paths, NOT external claims: bold-wrapped dates render as **2024-01-01** / **2025-03-27** / **2025-08-14** / **2026-06-11** etc. (the *NNNN the extractor sees is the second markdown asterisk plus a year, not a phone number); the retired Supreme Court deep path /sites/he/Pages/home.aspx is mentioned only to tell users it was retired.",
+      "source_url": "https://www.unicode.org/reports/tr9/",
+      "raw_snippet": "UAX #9: Unicode Bidirectional Algorithm",
+      "fetched_at": "2026-08-18",
+      "appears_in": [
+        "SKILL.md",
+        "references/legislation-index.md",
+        "references/legal-databases-guide.md"
+      ],
+      "verified_via": "navigational claim about the source itself; snippet is the cited page's own title, fetched to confirm the page exists and is what the claim says it is",
+      "verified_at": "2026-08-18"
+    }
+  ]
+}

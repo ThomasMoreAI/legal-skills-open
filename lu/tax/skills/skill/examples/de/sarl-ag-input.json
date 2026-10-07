@@ -1,0 +1,31 @@
+{
+  "ort": "Luxemburg",
+  "datum": "2026-05-09",
+  "geschaeftsjahr": "2025",
+  "einsicht_ab": "2026-06-01",
+  "stammkapital": "12.000",
+  "vollmacht_vorlauf_tage": "3",
+  "gesellschaft": {
+    "name": "ACME SARL",
+    "rechtsform": "Société à responsabilité limitée",
+    "sitz": "12, rue de la Paix · L-1234 Luxembourg",
+    "rcs": "B999999",
+    "ust_id": "LU99999999"
+  },
+  "einberufender": {
+    "name": "Max Mustermann",
+    "funktion": "Geschäftsführer"
+  },
+  "versammlung": {
+    "datum": "2026-06-15",
+    "uhrzeit": "10:00",
+    "ort": "am Sitz der Gesellschaft, 12 rue de la Paix, L-1234 Luxembourg"
+  },
+  "tagesordnung": [
+    "Vorlage und Genehmigung des Jahresabschlusses zum 31.12.2025",
+    "Beschluss über die Verwendung des Ergebnisses",
+    "Entlastung der Geschäftsführung",
+    "Wiederbestellung oder Neubestellung der Geschäftsführung",
+    "Sonstiges"
+  ]
+}

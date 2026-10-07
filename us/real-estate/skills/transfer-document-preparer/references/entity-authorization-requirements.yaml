@@ -1,0 +1,295 @@
+# entity-authorization-requirements.yaml
+# Requirements for entity authorization to convey real property, organized by entity type.
+# State-specific requirements are noted where they materially deviate from the general rule.
+# Verify current requirements with local counsel before closing -- state law changes frequently.
+
+meta:
+  last_reviewed: "2025-08-01"
+  jurisdiction_coverage: "U.S. domestic entities only; foreign entities require additional analysis"
+  disclaimer: "Reference guide only; not legal advice; confirm with local counsel"
+
+# =============================================================================
+# ENTITY TYPES
+# =============================================================================
+
+entity_types:
+
+  # ---------------------------------------------------------------------------
+  # LIMITED LIABILITY COMPANY (LLC)
+  # ---------------------------------------------------------------------------
+  llc:
+    overview: |
+      Authorization to convey depends on management structure (manager-managed vs. member-managed)
+      and the consent threshold in the operating agreement. Most institutional LLCs are manager-managed.
+
+    manager_managed:
+      default_authority: "Manager(s) have authority to convey without member vote unless operating agreement restricts"
+      operating_agreement_review:
+        - "Check for provisions requiring member vote or consent for sale of 'substantially all assets'"
+        - "Check for provisions making sale a 'major decision' requiring supermajority or unanimous consent"
+        - "Check for provisions giving specific members veto rights over dispositions"
+      resolution_requirements:
+        base_elements:
+          - "Name and state of formation of LLC"
+          - "Date of action (meeting or written consent)"
+          - "Recital that manager has authority under operating agreement (cite section)"
+          - "Description of transaction: property address, buyer, purchase price"
+          - "Authorization of named signatory and title"
+          - "Certification by manager or authorized officer"
+          - "Signature of manager(s)"
+        notarization: "Not required by most states for LLC resolution; required by some title companies or states for deed execution by entity"
+        witnesses: "Not typically required for resolution; required in FL, GA, SC for deeds"
+      good_standing:
+        required_from: "State of formation"
+        foreign_qualification: "If LLC holds property in a different state and is foreign-qualified there, obtain good standing from both"
+        timing: "Order at least 10 business days before closing; update certificate if issued more than 30 days before closing"
+
+    member_managed:
+      default_authority: "Each member has authority to bind LLC as agent; consent threshold per operating agreement"
+      resolution_requirements:
+        additional_elements:
+          - "Member vote consent documentation (meeting minutes or written consent)"
+          - "Confirmation that consent threshold met: majority-in-interest (default) or higher if operating agreement specifies"
+          - "List of consenting members with ownership percentages"
+          - "Signature of all consenting members (or a quorum if meeting-based)"
+
+    multi_member_considerations:
+      unanimous_consent_clause:
+        risk: "HIGH -- if one member is unreachable, transaction cannot close"
+        remedies:
+          - "Power of attorney granted by absent member (must be in writing, notarized)"
+          - "Prior written consent (check if operating agreement permits pre-authorization)"
+          - "Court order if member is incapacitated or deceased"
+          - "Buyout of dissenting/absent member interest (requires separate negotiation)"
+      right_of_first_refusal:
+        check: "Does any member or third party have ROFR on sale of property or on member interests?"
+        remedy: "Send ROFR notice and obtain written waiver or confirm expiration before PSA execution"
+      consent_of_lender:
+        check: "Does any existing financing encumbering the property require lender consent to sale?"
+        remedy: "Obtain lender consent or coordinate payoff/assumption with sale"
+
+    single_member_llc:
+      authority: "Sole member has full authority; no consent threshold issue"
+      piercing_risk: "Courts may disregard single-member LLC if not properly maintained; confirm separate accounts, annual filings, and no commingling"
+      resolution: "Sole member resolution is straightforward; include member's entity authorization if member is itself an entity"
+
+    state_specific:
+      delaware:
+        notes: "Delaware LLC Act Section 18-402: manager-managed LLC manager has authority to bind LLC; no member vote required for disposition unless operating agreement restricts"
+        good_standing_source: "Delaware Division of Corporations (corp.delaware.gov)"
+        turnaround: "1-2 business days standard; same-day available"
+      new_york:
+        notes: "NY LLC Law Section 412: manager or member managing an LLC may act on its behalf; operating agreement controls"
+        good_standing_source: "NY Department of State (apps.dos.ny.gov)"
+        turnaround: "3-5 business days"
+        foreign_qualification: "Required if LLC holds NY property and formed outside NY"
+      california:
+        notes: "CA Corporations Code Section 17704.07: manager of manager-managed LLC has authority to convey; statutory default is member-managed unless operating agreement specifies otherwise"
+        good_standing_source: "CA Secretary of State (bizfileonline.sos.ca.gov)"
+        turnaround: "5-10 business days (expedited: 1-2 days at additional fee)"
+      texas:
+        notes: "TX Business Organizations Code Section 101.252: manager has authority; no member approval required unless company agreement requires"
+        good_standing_source: "TX Secretary of State (direct.sos.state.tx.us)"
+        turnaround: "2-3 business days"
+      florida:
+        notes: "FL Statute 605.04093: managers have authority to act for the LLC; operating agreement may impose restrictions"
+        good_standing_source: "FL Division of Corporations (sunbiz.org)"
+        turnaround: "1-2 business days"
+        deed_witnesses: "FL requires two witnesses for deed execution; at least one must witness the signature"
+
+  # ---------------------------------------------------------------------------
+  # LIMITED PARTNERSHIP (LP)
+  # ---------------------------------------------------------------------------
+  limited_partnership:
+    overview: |
+      General partner (GP) has authority to convey. Limited partners (LPs) generally do NOT have
+      authority to act for the partnership. LP consent may be required by the LP agreement
+      for extraordinary transactions.
+
+    general_partner_authority:
+      default: "GP has broad authority to manage and convey partnership property (Uniform LP Act)"
+      limitations:
+        - "LP agreement may require LP approval for sale of 'substantially all assets'"
+        - "LP agreement may require LP approval for disposition outside ordinary course"
+        - "Some LP agreements require vote of 'majority-in-interest of limited partners'"
+      check: "Review LP agreement Article __ (Major Decisions) carefully"
+
+    resolution_requirements:
+      if_gp_is_individual:
+        - "GP signs as 'General Partner of [LP Name]'"
+        - "No resolution required, but include GP certificate confirming authority and no restrictions"
+      if_gp_is_entity:
+        - "GP entity must provide its own authorizing resolution (board resolution if corp; manager resolution if LLC)"
+        - "Authorized signatory of GP entity signs on behalf of GP entity on behalf of LP"
+        - "Example: 'John Smith, as Manager of MU Holdings LLC, as General Partner of 123 Main Street LP'"
+        - "Certificate of good standing for GP entity required as well as LP itself"
+
+    certificate_of_limited_partnership:
+      required: true
+      content: "Confirms LP exists, GP identity, LP is in good standing"
+      source: "Secretary of State in state of formation"
+      note: "Some states issue a separate LP good standing certificate; others include LP status in the formation certificate"
+
+    lp_consent_situations:
+      if_required:
+        - "Obtain written consent of limited partners holding required percentage"
+        - "Follow any notice and quorum requirements in LP agreement"
+        - "Document consent with LP written consent form signed by each consenting LP"
+
+    upreit_op_unit_transactions:
+      overview: "When an LP interest in a REIT Operating Partnership (OP) is involved"
+      authorization:
+        - "REIT acts as GP of OP; board resolution from REIT required"
+        - "OP limited partners' consent typically not required for property-level transactions"
+        - "If OP units are being issued as consideration: OP unit issuance requires REIT board approval or pricing committee authorization"
+      documents_required:
+        - "REIT board resolution authorizing transaction"
+        - "OP unit subscription agreement"
+        - "Amendment to OP limited partnership agreement admitting new LP"
+        - "Tax protection agreement (if seller negotiated)"
+
+  # ---------------------------------------------------------------------------
+  # TRUST
+  # ---------------------------------------------------------------------------
+  trust:
+    overview: |
+      Authorization depends on trust type (revocable vs. irrevocable), trustee type
+      (individual vs. institutional), and trust document provisions.
+
+    revocable_living_trust:
+      authority: "Grantor-trustee typically has full authority to convey"
+      documents_required:
+        - "Trustee's certificate of trust (confirms trust exists, not revoked, trustee has authority)"
+        - "Some states require recording of a memorandum of trust or abstract of trust"
+        - "Deed: 'John Smith, as Trustee of the John Smith Revocable Living Trust dated [date]'"
+        - "Confirm grantor is still alive and trust not revoked"
+      not_required:
+        - "Full trust agreement (privacy protection; trustee certificate sufficient)"
+        - "Beneficiary consent"
+      death_of_grantor:
+        "If grantor is deceased": "Revocable trust becomes irrevocable; successor trustee steps in"
+        "Successor trustee authority": "Per trust document; obtain trustee certification from successor"
+        "Probate": "Revocable trust assets bypass probate; successor trustee can convey"
+
+    irrevocable_trust:
+      authority: "Trustee (individual or institutional) per trust agreement"
+      documents_required:
+        - "Trust agreement (or relevant excerpts showing trustee authority to convey real property)"
+        - "Co-trustee consent if trust requires co-trustee for real property dispositions"
+        - "Beneficiary consent if trust requires it (uncommon but check)"
+        - "Court approval if trust is under court supervision (special needs trust, testamentary trust)"
+      institutional_trustee:
+        additional_docs:
+          - "Corporate resolution from institutional trustee authorizing this specific transaction"
+          - "Officer certificate confirming signing officer's authority"
+
+    dst_delaware_statutory_trust:
+      overview: "Specialized trust structure for passive CRE investment; 1031-eligible"
+      authority: "Trustee executes all documents; beneficial interest holders (investors) do NOT sign"
+      documents_required:
+        - "Trust agreement confirming trustee's authority to sell"
+        - "Trustee resolution or certificate authorizing this specific sale"
+        - "Investor consent if trust agreement requires majority or unanimous investor vote to sell"
+        - "Lender consent if DST-level debt exists (lender typically approves sale as part of payoff)"
+      dst_special_considerations:
+        seven_deadly_sins: "If DST violated any prohibited activities (new debt, renegotiated leases, capital improvements beyond maintenance), consult tax counsel before proceeding -- tax-exempt status may be compromised"
+        transfer_mechanism: "Conveyance is deed from trustee; not a beneficial interest transfer"
+        title_insurance: "Title company insures based on trustee's authority; no issues specific to DST structure"
+
+  # ---------------------------------------------------------------------------
+  # C-CORPORATION
+  # ---------------------------------------------------------------------------
+  c_corporation:
+    authority: "Board of directors authorizes sale; CEO/President or authorized officer executes"
+    shareholder_approval:
+      required_when: "Sale constitutes 'substantially all of the corporation's assets' (state law standard)"
+      delaware_standard: "More than 50% of total assets (quantitative) or assets outside ordinary course"
+      california_standard: "Assets exceeding 50% of book value or two-thirds of shareholders approve"
+      practical_note: "If the corporation holds primarily this one property, shareholder approval is almost certainly required"
+    resolution_requirements:
+      board_resolution:
+        - "Board of directors meeting minutes or unanimous written consent"
+        - "Resolution authorizing sale: describe property, price, buyer"
+        - "Authorization of officer to execute closing documents"
+        - "Signature of corporate secretary certifying resolution"
+      if_shareholder_approval_required:
+        - "Special meeting of shareholders or written consent in lieu of meeting"
+        - "Vote threshold: per state law and articles of incorporation"
+        - "Filing requirements: some states require notice to SOS of asset sale approval"
+    good_standing:
+      - "Certificate of good standing from state of incorporation"
+      - "Certificate of authority if qualified to do business in property state"
+    transfer_tax:
+      note: "C-Corp seller in some states may face additional transfer taxes or document taxes at the entity level"
+      examples:
+        new_york: "NYC Real Property Transfer Tax and NY State Transfer Tax apply; corp treated same as individual/LLC"
+        pennsylvania: "State and local transfer taxes apply; no corporate-level surcharge"
+    firpta:
+      domestic_corporation: "Not a foreign person under FIRPTA; provide FIRPTA non-foreign affidavit"
+      foreign_corporation: "Subject to FIRPTA withholding unless exemption applies; 15% of amount realized"
+
+  # ---------------------------------------------------------------------------
+  # S-CORPORATION
+  # ---------------------------------------------------------------------------
+  s_corporation:
+    authority: "Same as C-Corp: board resolution + shareholder approval if substantially all assets"
+    s_election_risk:
+      check: "Confirm sale does not create a taxable year that causes S election termination"
+      buyer_type_risk: "If buyer pays with OP units (UPREIT contribution): UPREIT is a partnership; S-Corp cannot have a partnership as shareholder; S election terminates"
+      more_than_100_shareholders: "S-Corp cannot have more than 100 shareholders; if sale triggers new shareholders (e.g., earn-out with REIT shares), confirm S election preserved"
+    other_requirements: "Same as C-Corp (good standing, officer authority, FIRPTA non-foreign affidavit)"
+    practical_note: "S-Corp holding real property is unusual in institutional CRE; more common in closely-held single-asset transactions"
+
+# =============================================================================
+# AUTHORIZATION CHAIN FOR MULTI-ENTITY OWNERSHIP
+# =============================================================================
+
+multi_entity_chain:
+  overview: |
+    When multiple entities are stacked (individual -> HoldCo -> PropCo -> Property),
+    each entity in the chain that is acting must authorize the entity below it.
+
+  example:
+    structure:
+      - level: 4
+        entity: "Individual: John Smith (beneficial owner)"
+        action: "Signs as Manager of HoldCo LLC"
+      - level: 3
+        entity: "HoldCo LLC (DE) -- 100% owned by John Smith"
+        action: "HoldCo LLC acts as Manager of PropCo LLC"
+        documents: "HoldCo LLC manager resolution; John Smith signs as Manager of HoldCo"
+      - level: 2
+        entity: "PropCo LLC (NY) -- 100% owned by HoldCo LLC"
+        action: "PropCo LLC holds title; HoldCo LLC as Manager conveys on PropCo's behalf"
+        documents: "PropCo LLC authorizing resolution signed by HoldCo LLC (acting through John Smith)"
+      - level: 1
+        entity: "Property at 123 Main Street, New York"
+        action: "Subject of sale"
+
+    deed_signature_block: |
+      PropCo LLC,
+      a New York limited liability company
+
+      By: HoldCo LLC, its Manager,
+          a Delaware limited liability company
+
+          By: /s/ John Smith
+              John Smith, its Manager
+
+    documents_required:
+      - "HoldCo LLC: Delaware certificate of good standing"
+      - "HoldCo LLC: Manager resolution authorizing HoldCo to act as PropCo's manager in this transaction"
+      - "PropCo LLC: New York certificate of good standing (and foreign qualification certificate if applicable)"
+      - "PropCo LLC: Manager resolution (signed by HoldCo LLC acting through John Smith)"
+      - "Operating agreement of PropCo LLC confirming HoldCo is manager"
+      - "Operating agreement of HoldCo LLC confirming John Smith is manager with authority to act"
+
+  common_defects:
+    - defect: "Entity manager shown in operating agreement differs from current manager after undocumented assignment"
+      cure: "Execute manager assignment or amendment to operating agreement; re-do resolution under correct authority"
+    - defect: "Operating agreement version delivered to title is not the most recent (hidden amendment)"
+      cure: "Obtain certification from seller that the delivered agreement is complete and in full force"
+    - defect: "Child entity dissolved or suspended in home state"
+      cure: "Reinstatement filing; allow 5-15 business days; may require back fees and penalties"
+    - defect: "Entity formed in jurisdiction with annual franchise tax; taxes delinquent"
+      cure: "Pay delinquent taxes; obtain reinstatement; reinstatement is retroactive in most states"

@@ -1,11 +1,11 @@
 ---
 name: new-zealand-nzbn-nolpak14
-title: 'New zealand nzbn'
+title: New zealand nzbn
 description: 'Look up New Zealand companies and businesses for free via the official NZBN (New Zealand Business Number) API from MBIE - NZBN, entity name, entity type and status (Registered / Removed), trading names, registered/postal/physical addresses, roles (director/shareholder where public), ANZSIC/BIC industry classifications, GST numbers and status, and contact details. Use for KYB / know-your-business checks, counterparty verification, director discovery, and New Zealand company due diligence. Trigger on: ''NZBN'', ''New Zealand Business Number'', ''New Zealand company lookup'', ''check a NZ company'', ''NZ company number'', ''is this NZ company registered'', ''New Zealand directors''. The NZBN API is free; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/new-zealand-nzbn
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: nz
 practice: white-collar
@@ -142,3 +142,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`vies-vat-validation`** - validate an EU VAT number and its registered name/address as a cross-border identity check.
 - **`sanctions-pep-screening`** - screen the roles you found here against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-NZ jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

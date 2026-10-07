@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "tva-taux",
+  "type": "object",
+  "required": ["as_of", "taux"],
+  "properties": {
+    "pays": { "const": "Luxembourg" },
+    "as_of": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "url": { "type": "string", "pattern": "^https://" },
+    "taux": {
+      "type": "object",
+      "required": ["normal", "intermediaire", "reduit", "super_reduit"],
+      "properties": {
+        "normal":        { "type": "object", "required": ["taux"], "properties": { "taux": { "type": "number", "minimum": 10, "maximum": 25 } } },
+        "intermediaire": { "type": "object", "required": ["taux"], "properties": { "taux": { "type": "number", "minimum": 10, "maximum": 20 } } },
+        "reduit":        { "type": "object", "required": ["taux"], "properties": { "taux": { "type": "number", "minimum": 5,  "maximum": 12 } } },
+        "super_reduit":  { "type": "object", "required": ["taux"], "properties": { "taux": { "type": "number", "minimum": 1,  "maximum": 6 } } }
+      }
+    }
+  }
+}

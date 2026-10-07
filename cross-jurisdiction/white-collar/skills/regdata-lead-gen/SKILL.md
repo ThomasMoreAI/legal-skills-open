@@ -5,7 +5,7 @@ description: Extract company directors and B2B contact data from official govern
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/regdata-lead-gen
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -414,3 +414,8 @@ Registry data contains signals that make outreach more relevant than generic col
 
 - **`/regdata-kyc-aml`** - Once you have prospects, verify them: beneficial ownership, sanctions screening, KNF license checks. Especially important for regulated industries.
 - **`/regdata-credit-risk`** - Check prospect financial health before investing sales effort: insolvency status (KRZ, MSiG, Ediktsdatei), financial statements (eKRS), and dissolution notices (BORME).
+
+## More on getregdata.com
+
+- New-company lead feeds: https://getregdata.com/use-cases/lead-feed/
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

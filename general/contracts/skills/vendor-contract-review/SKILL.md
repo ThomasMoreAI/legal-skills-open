@@ -5,7 +5,7 @@ description: Example paid-metadata skill for reviewing vendor agreements.
 author: firelex
 author_url: https://github.com/firelex/open_teamsuzie/tree/main/apps/examples/skill-catalog-host/catalog/vendor-contract-review
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

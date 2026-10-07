@@ -1,0 +1,1000 @@
+{
+  "skill_slug": "israeli-citizenship-by-descent",
+  "schemaVersion": "1.0",
+  "generated_at": "2026-09-19T21:00:00Z",
+  "claims": [
+    {
+      "claim_id": "portugal-sephardic-repealed-2026",
+      "claim": "Portugal's Sephardic-origin citizenship route is repealed, not merely restricted: Lei Organica n.o 1/2026, de 18 de maio, art. 5.o repeals n.os 5, 7 and 13 of artigo 6.o of Lei n.o 37/81, and artigo 6(7) was the Sephardic provision. בעברית: סעיף 5 לחוק האורגני 1/2026 הוא סעיף הביטול.",
+      "claim_type": "law",
+      "source_url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "fetched_at": "2026-08-09T02:44:10Z",
+      "raw_snippet": "Artigo 5.º Norma revogatória São revogados os n.os 5, 7 e 13 do artigo 6.º, as alíneas b) e d) do n.º 1 e os n.os 3 e 4 do artigo 9.º, o n.º 4 do artigo 12.º-B, o artigo 13.º e o n.º 4 do artigo 15.º da Lei n.º 37/81, de 3 de outubro.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "portugal-art6-7-revogado",
+      "claim": "In the republished text of Lei n.o 37/81 annexed to Lei Organica n.o 1/2026, artigo 6 n.o 7 reads '[Revogado.]'. בעברית: סעיף 6(7) לחוק 37/81 הוא ההוראה הספרדית שבוטלה.",
+      "claim_type": "law",
+      "source_url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "fetched_at": "2026-08-09T02:44:10Z",
+      "raw_snippet": "7 — [Revogado.]",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "portugal-pending-procedures-saved",
+      "claim": "Administrative procedures already pending when Lei Organica n.o 1/2026 entered into force continue to be decided under the prior wording of Lei n.o 37/81. בעברית: סעיף 7(2) משמר הליכים תלויים ועומדים.",
+      "claim_type": "law",
+      "source_url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "fetched_at": "2026-08-09T02:44:10Z",
+      "raw_snippet": "2 — Aos procedimentos administrativos pendentes à data da entrada em vigor da presente lei aplica-se a Lei n.º 37/81, de 3 de outubro, na redação anterior à presente lei.",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "portugal-entry-into-force-19-may-2026",
+      "claim": "Lei Organica n.o 1/2026 entered into force the day after its publication of 18 May 2026, i.e. 19 May 2026. בעברית: סעיף 8 קובע כניסה לתוקף ביום שאחרי הפרסום.",
+      "claim_type": "date",
+      "source_url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "fetched_at": "2026-08-09T02:44:10Z",
+      "raw_snippet": "Artigo 8.º Entrada em vigor A presente lei entra em vigor no dia seguinte ao da sua publicação. [publicada em Diário da República, 1.ª série, N.º 95, 18-05-2026]",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "portugal-naturalisation-7-10-years",
+      "claim": "Portugal's general naturalisation now requires seven years of legal residence for nationals of Portuguese-speaking countries and EU citizens, or ten years for nationals of other countries, plus a test of the Portuguese language, culture, history and national symbols.",
+      "claim_type": "threshold",
+      "source_url": "https://files.diariodarepublica.pt/1s/2026/05/09500/0000200020.pdf",
+      "fetched_at": "2026-08-09T02:44:10Z",
+      "raw_snippet": "b) Residirem legalmente no território português há pelo menos sete anos, no caso de nacionais de países de língua oficial portuguesa e de cidadãos de Estados-Membros da União Europeia, ou 10 anos, no caso de nacionais de outros países; c) Comprovarem, através de teste ou de certificado, conhecer suficientemente a língua e a cultura portuguesas, a história e os símbolos nacionais;",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-art3bis-never-acquired",
+      "claim": "Under Art. 3-bis of Law 91/1992 a person born abroad who holds another citizenship is considered never to have acquired Italian citizenship, expressly including births before the article entered into force.",
+      "claim_type": "law",
+      "source_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=25A03081&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2025-05-23&art.progressivo=0",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "e' considerato non avere mai acquistato la cittadinanza italiana chi e' nato all'estero anche prima della data di entrata in vigore del presente articolo ed e' in possesso di altra cittadinanza, salvo che ricorra una delle seguenti condizioni:",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-saving-condition-a-27-march-2025",
+      "claim": "Italy saving condition (a): the applicant's citizenship is recognised on an application with the necessary documentation filed with the competent consular office or mayor no later than 23:59 Rome time on 27 March 2025.",
+      "claim_type": "date",
+      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
+      "fetched_at": "2026-08-09T02:45:20Z",
+      "raw_snippet": "a) lo stato di cittadino dell'interessato e' riconosciuto, nel rispetto della normativa applicabile al 27 marzo 2025, a seguito di domanda, corredata della necessaria documentazione, presentata all'ufficio consolare o al sindaco competenti non oltre le 23:59, ora di Roma, della medesima data;",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "italy-saving-condition-abis-appointment",
+      "claim": "Italy saving condition (a-bis) rescues an applicant whose appointment for the consular or comune filing was communicated to them by 23:59 Rome time on 27 March 2025.",
+      "claim_type": "law",
+      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
+      "fetched_at": "2026-08-09T02:45:20Z",
+      "raw_snippet": "((a-bis) lo stato di cittadino dell'interessato e' riconosciuto, nel rispetto della normativa applicabile al 27 marzo 2025, a seguito di domanda, corredata della necessaria documentazione, presentata all'ufficio consolare o al sindaco competenti nel giorno indicato da appuntamento comunicato all'interessato dall'ufficio competente entro le 23:59, ora di Roma, della medesima data del 27 marzo 2025;))",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "italy-saving-conditions-b-c-d-e",
+      "claim": "Italy saving conditions (b) judicial claim filed by the same instant, (c) a first- or second-degree ascendant who holds, or held at death, exclusively Italian citizenship, and (d) a parent or adopter resident in Italy for at least two continuous years after acquiring citizenship and before the child's birth. Letter (e) was suppressed on conversion.",
+      "claim_type": "law",
+      "source_url": "https://www.gazzettaufficiale.it/eli/id/2025/05/23/25A03081/sg",
+      "fetched_at": "2026-08-09T02:45:20Z",
+      "raw_snippet": "b) lo stato di cittadino dell'interessato e' accertato giudizialmente, nel rispetto della normativa applicabile al 27 marzo 2025, a seguito di domanda giudiziale presentata non oltre le 23:59, ora di Roma, della medesima data; ((c) un ascendente di primo o di secondo grado possiede, o possedeva al momento della morte, esclusivamente la cittadinanza italiana; d) un genitore o adottante e' stato residente in Italia per almeno due anni continuativi successivamente all'acquisto della cittadinanza italiana e prima della data di nascita o di adozione del figlio»; e) (soppressa).",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "italy-art3bis-inserted-into-law-91-1992",
+      "claim": "Art. 3-bis was inserted into Law 5 febbraio 1992 n. 91 immediately after article 3.",
+      "claim_type": "law",
+      "source_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=25A03081&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2025-05-23&art.progressivo=0",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "1. Alla legge 5 febbraio 1992, n. 91, dopo l'articolo 3 e' inserito il seguente: «Art. 3-bis. - 1. In deroga agli articoli 1, 2, 3, 14 e 20 della presente legge",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-dl36-2025-converted-by-legge74-2025",
+      "claim": "Decreto-legge 28 marzo 2025 n. 36 was converted, with modifications, by law 23 maggio 2025 n. 74.",
+      "claim_type": "law",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Decreto-Legge convertito con modificazioni dalla L. 23 maggio 2025, n. 74 (in G.U. 23/05/2025, n. 118)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-law-91-1992-title",
+      "claim": "The Italian citizenship statute is LEGGE 5 febbraio 1992, n. 91.",
+      "claim_type": "law",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "LEGGE 5 febbraio 1992, n. 91",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "italy-law-91-1992-contains-art-3-bis",
+      "claim": "The consolidated text of Law 91/1992 on Normattiva now lists an article 3 bis.",
+      "claim_type": "law",
+      "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "Articoli 1 2 3 3 bis",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "romania-b1-language-condition",
+      "claim": "Legea 14/2025 added art. 15-1(4) to Romania's citizenship law: granting Romanian citizenship under Article 10 and Article 11 is conditioned on the applicant's knowledge of Romanian, proved by a B1 CEFR certificate from a closed list of issuers or a legalized transcript of at least three years of study in Romanian.",
+      "claim_type": "law",
+      "source_url": "https://cetatenie.just.ro/comunicat-privind-certificatele-de-competenta-lingvistica-acceptate-in-dosarele-de-cetatenie/",
+      "fetched_at": "2026-08-09T02:46:20Z",
+      "raw_snippet": "Astfel, potrivit art. 151 alin. 4 a fost statuat faptul că: „Acordarea cetățeniei române în temeiul art. 10 și 11 este condiționată de cunoașterea de către solicitant a limbii române. Dovada cunoașterii limbii române se face de către solicitant prin: a) certificat de competență lingvistică eliberat de instituțiile de învățământ superior din România acreditate pentru programul de studii «An pregătitor de limbă română», de Institutul Limbii Române, de Institutul Cultural Român sau de institutele culturale românești din străinătate, care atestă cunoașterea limbii române la un nivel nu mai mic decât nivelul B1 al Cadrului european comun de referință pentru limbi – CECRL; b) copia legalizată a foii matricole emise de unități de învățământ de nivel liceal sau de instituții de învățământ superior din statul de cetățenie sau de reședință, în care se atestă studiul pentru minimum 3 ani în limba română.”",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "romania-b1-accepted-issuers-only",
+      "claim": "Only language certificates issued by the institutions named in the statute are accepted in Romanian citizenship files.",
+      "claim_type": "law",
+      "source_url": "https://cetatenie.just.ro/comunicat-privind-certificatele-de-competenta-lingvistica-acceptate-in-dosarele-de-cetatenie/",
+      "fetched_at": "2026-08-09T02:46:20Z",
+      "raw_snippet": "în dosarele de cetățenie pot fi acceptate doar certificatele lingvistice emise de autoritățile stipulate de textul legal, respectiv: „instituțiile de învățământ superior din România acreditate pentru programul de studii «An pregătitor de limbă română», de Institutul Limbii Române, de Institutul Cultural Român sau de institutele culturale românești din străinătate”.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "romania-b1-exemptions-narrow",
+      "claim": "The Romanian language requirement is waived only for people who were themselves Romanian citizens and for people aged 65 or over at the date of application. A descendant who was never personally a Romanian citizen is not exempt.",
+      "claim_type": "law",
+      "source_url": "https://cetatenie.just.ro/category/anunturi/",
+      "fetched_at": "2026-08-09T02:47:00Z",
+      "raw_snippet": "Nu au obligația de a face dovada cunoașterii limbii române: a) persoanele care au fost cetățeni români și care solicită redobândirea cetățeniei potrivit art. 10 sau 11; b) persoanele care au împlinit vârsta de 65 de ani la data depunerii cererii și care solicită acordarea cetățeniei române potrivit art. 10 sau 11.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "romania-third-degree-descendants",
+      "claim": "Romania's Article 11 citizenship route extends to descendants up to the third degree (child, grandchild, great-grandchild). בעברית: סעיף 11 לחוק האזרחות הרומני.",
+      "claim_type": "law",
+      "source_url": "https://www.econsulat.ro/AcordareCetatenie/DescriereServiciu/101000005",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "gradul III (conform Art.11)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "poland-przywrocenie-personal-only",
+      "claim": "Poland's restoration route (przywrocenie) is available only to a person who personally held Polish citizenship and lost it before 1 January 1999.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie",
+      "fetched_at": "2026-09-19T21:10:00Z",
+      "raw_snippet": "Każdy, kto w przeszłości miał obywatelstwo polskie i utracił je przed 1 stycznia 1999 r.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "poland-przywrocenie-minister-decides",
+      "claim": "The Polish restoration application is filed with, and decided by, the Minister of Interior and Administration.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.pl/web/mswia/odzyskaj-utracone-obywatelstwo-polskie",
+      "fetched_at": "2026-09-19T21:10:00Z",
+      "raw_snippet": "Złóż wniosek do Ministra Spraw Wewnętrznych i Administracji o przywrócenie obywatelstwa polskiego",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "poland-potwierdzenie-descendant-route",
+      "claim": "A descendant's Polish route is confirmation of possession or loss of Polish citizenship (potwierdzenie), filed with the wojewoda, or with the mazowiecki wojewoda if there was no place of residence in Poland.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.pl/web/mswia/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego",
+      "fetched_at": "2026-08-09T02:46:45Z",
+      "raw_snippet": "Potwierdzenie posiadania lub utraty obywatelstwa polskiego ... wniosek do wojewody ... do wojewody mazowieckiego",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "germany-art116-2-restoration",
+      "claim": "Germany's Basic Law (Art. 116(2)) restores German citizenship to persons deprived of it by the Nazis on political, racial or religious grounds, and to their descendants.",
+      "claim_type": "law",
+      "source_url": "https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html",
+      "fetched_at": "2026-08-09T02:52:10Z",
+      "raw_snippet": "Such persons and their descendants have been entitled to naturalization by the GG (Grundgesetz) since 24 May 1949.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "germany-15-stag-2021",
+      "claim": "Germany's Section 15 StAG restitution route gives persons who lost or were never able to acquire German citizenship due to Nazi persecution, and their descendants, an entitlement to naturalization since 20 August 2021.",
+      "claim_type": "law",
+      "source_url": "https://www.bva.bund.de/EN/Services/Citizens/ID-Documents-Law/Citizenship/116GG_15StA.html",
+      "fetched_at": "2026-08-09T02:52:10Z",
+      "raw_snippet": "Such persons have been entitled to naturalization since 20 August 2021.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "germany-15-stag-persecution-window",
+      "claim": "Section 15 StAG covers persons affected in connection with persecution measures on the grounds listed in Article 116(2) of the Basic Law during the period from 30 January 1933 to 8 May 1945, and their descendants.",
+      "claim_type": "date",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "fetched_at": "2026-08-09T02:52:40Z",
+      "raw_snippet": "in der Zeit vom 30. Januar 1933 bis zum 8. Mai 1945",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "germany-5-stag-ten-year-limit",
+      "claim": "The declaration right under Section 5 StAG may only be exercised within ten years of that law entering into force.",
+      "claim_type": "law",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__5.html",
+      "fetched_at": "2026-08-09T02:52:40Z",
+      "raw_snippet": "kann nur innerhalb von zehn Jahren nach Inkrafttreten dieses Gesetzes",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "germany-5-stag-declaration-2021",
+      "claim": "The Fourth Act Amending the Nationality Act entered into force on 20 August 2021 and created a ten-year right of declaration, so the Section 5 StAG window runs out in August 2031.",
+      "claim_type": "date",
+      "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+      "fetched_at": "2026-08-09T02:53:05Z",
+      "raw_snippet": "The Fourth Act Amending the Nationality Act, which entered into force on August 20th 2021, has created a ten-year right of declaration",
+      "confidence": "medium",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "germany-5-stag-who-may-declare",
+      "claim": "Section 5 StAG covers children of a German parent who did not acquire citizenship by birth, children of a mother who lost German citizenship by marrying a foreigner before the birth, children who lost citizenship by a legitimation effected by a foreigner, and the descendants of those children.",
+      "claim_type": "law",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__5.html",
+      "fetched_at": "2026-08-09T02:52:40Z",
+      "raw_snippet": "Kinder eines deutschen Elternteils, die durch Geburt nicht die deutsche",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "germany-10-3-repealed",
+      "claim": "Section 10(3) StAG, the shortened residence period for special integration achievements, now reads '(weggefallen)' in the consolidated statute.",
+      "claim_type": "law",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__10.html",
+      "fetched_at": "2026-08-09T02:52:40Z",
+      "raw_snippet": "(3) (weggefallen)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "claim_id": "germany-12-repealed",
+      "claim": "Section 12 StAG has been repealed in its entirety and reads '(weggefallen)'.",
+      "claim_type": "law",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__12.html",
+      "fetched_at": "2026-08-09T02:52:40Z",
+      "raw_snippet": "Staatsangehörigkeitsgesetz (StAG) § 12 (weggefallen)",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "germany-2024-dual-nationality",
+      "claim": "Since 27 June 2024 Germany generally allows multiple nationality: acquiring a foreign nationality no longer means losing German nationality.",
+      "claim_type": "date",
+      "source_url": "https://www.auswaertiges-amt.de/en/2664476-2664476",
+      "fetched_at": "2026-08-09T02:53:05Z",
+      "raw_snippet": "Since 27 June 2024, individuals applying for and acquiring a foreign nationality must no longer relinquish their German nationality.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "austria-58c-emigration-before-15-may-1955",
+      "claim": "Austria's Section 58c(1) covers a person who left for abroad with a main residence in Austria before 15 May 1955 because of feared or suffered persecution by NSDAP organs or German Reich authorities, or persecution for supporting the democratic Republic of Austria.",
+      "claim_type": "date",
+      "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+      "fetched_at": "2026-08-09T02:53:40Z",
+      "raw_snippet": "sich als Staatsbürger oder Staatsangehöriger eines der Nachfolgestaaten der ehemaligen österreichisch-ungarischen Monarchie oder Staatenloser jeweils mit Hauptwohnsitz im Bundesgebiet vor dem 15. Mai 1955 in das Ausland begeben zu haben, weil er Verfolgungen durch Organe der NSDAP oder der Behörden des Deutschen Reiches mit Grund zu befürchten hatte oder erlitten hat",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "austria-58c-persecution-window",
+      "claim": "Austria's Section 58c(2) covers a person who was a citizen and had no main residence in Austria between 30 January 1933 and 9 May 1945 because of feared persecution.",
+      "claim_type": "date",
+      "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+      "fetched_at": "2026-08-09T02:53:40Z",
+      "raw_snippet": "Staatsbürger war und zwischen dem 30. Jänner 1933 und dem 9. Mai 1945 über keinen Hauptwohnsitz im Bundesgebiet verfügt hat",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "austria-58c-direct-descending-line",
+      "claim": "Austria's Section 58c(3) extends the declaration to a person who proves they are a descendant in the direct descending line of someone who acquired or could have acquired citizenship under paragraphs 1 or 2, with no generation cap in the statute.",
+      "claim_type": "law",
+      "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+      "fetched_at": "2026-08-09T02:53:40Z",
+      "raw_snippet": "dass er Nachkomme in direkter absteigender Linie einer Person ist, die gemäß Abs. 1 oder 2 die Staatsbürgerschaft erworben hat oder erwerben hätte können",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-08-09"
+    },
+    {
+      "claim_id": "austria-58c-file-where-resident",
+      "claim": "An Austrian Section 58c declaration can be lodged at the competent Austrian representation abroad, which forwards it to the Vienna authority (MA 35), so no residence in Austria is required.",
+      "claim_type": "feature",
+      "source_url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Erwerb-durch-Anzeige/Staatsbuergerschaft_Verfolgte_Nationalsozialismus_und-direkte_Nachkommen",
+      "fetched_at": "2026-09-19T21:20:00Z",
+      "raw_snippet": "Die Anzeige kann jedoch bei der zuständigen Berufsvertretungsbehörde eingebracht werden, welche das Anzeigeformular samt Beilagen an die MA 35 übermittelt.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "hungary-language-interview",
+      "claim": "Hungary's simplified naturalization requires Hungarian-language ability, which is checked at the consular interview by the body receiving the application.",
+      "claim_type": "law",
+      "source_url": "https://telaviv.mfa.gov.hu/en/egyszerusitett-honositas",
+      "fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "will have their knowledge of the Hungarian language checked by the body receiving the application and certified on the application form",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "czech-declaration-grandchildren",
+      "claim": "The Czech Republic lets children and grandchildren of former Czech or Czechoslovak citizens acquire Czech citizenship by declaration where the ancestor held and lost that citizenship by 31 December 2013.",
+      "claim_type": "law",
+      "source_url": "https://mzv.gov.cz/losangeles/en/consular_information/czech_citizenship_and_vital_records/children_and_grandchildren_of_former.html",
+      "fetched_at": "2026-06-27T00:00:00Z",
+      "raw_snippet": "at least one parent or grandparent held Czech or Czechoslovak citizenship and lost it by 31 December 2013",
+      "confidence": "medium",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "latvia-section-8-1-exiles",
+      "claim": "Latvia's Citizenship Law Section 8.1 gives a person who was a Latvian citizen on 17 June 1940, and that person's descendants, the right to register as a Latvian citizen where the person left Latvia between 17 June 1940 and 4 May 1990 escaping the U.S.S.R. or German occupation regime or was deported and did not return for permanent residence by 4 May 1990. בעברית: סעיף 8.1 לחוק האזרחות הלטבי.",
+      "claim_type": "law",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512",
+      "fetched_at": "2026-08-09T02:55:20Z",
+      "raw_snippet": "Section 8.1. Citizenship of Latvian Exiles and of Their Descendants (1) If a person who was a Latvian citizen on 17 June 1940, or a descendant of such person submits a certification on the fact that, from 17 June 1940 until 4 May 1990, he or she has left Latvia escaping from the U.S.S.R. or German occupation regime or has been deported, and due to the referred to reasons he or she has not returned to Latvia for permanent residence until 4 May 1990, such person and his or her descendant shall retain the right to register as a Latvian citizen.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "latvia-descendants-born-until-2014",
+      "claim": "Latvia's Section 8.1(2) preserves the registration right for descendants born until 1 October 2014, Section 8.1(3) allows dual citizenship for those registrants, and Section 8.1(4) requires an application to be examined within four months.",
+      "claim_type": "date",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512",
+      "fetched_at": "2026-08-09T15:40:00Z",
+      "raw_snippet": "(2) If a descendant of the person referred to in Paragraph one of this Section who was born until 1 October 2014 submits a corroboration on the fact that at least one of his or her ancestors has been the person referred to in Paragraph one of this Section, he or she shall retain the right to register as a Latvian citizen. A corroboration in respect of a child up to 15 years of age shall be expressed by his or her lawful representative. (3) Dual citizenship may occur for the person referred to in Paragraph one or two of this Section, when registering as a Latvian citizen. (4) The Cabinet shall determine the responsible authority and the procedures by which a corroboration of the person referred to in Paragraph one or two of this Section shall be accepted and examined and by which such person shall be registered as a Latvian citizen. An application shall be examined within four months.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "latvia-section-9-dual-list",
+      "claim": "Latvia's general dual-citizenship allowance in Section 9 is limited to a list of states (EU, EFTA, NATO, Australia, Brazil, New Zealand, treaty states, or a Cabinet authorisation), which does not include Israel. בעברית: סעיף 9 לחוק האזרחות הלטבי מונה את מדינות האזרחות הכפולה.",
+      "claim_type": "law",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512",
+      "fetched_at": "2026-08-09T02:55:20Z",
+      "raw_snippet": "Section 9. Dual Citizenship (1) Latvian citizenship shall be retained for a Latvian citizen who has: 1) acquired citizenship of another Member State of the European Union or Member State of the European Free Trade Association; 2) acquired citizenship of another Member State of the North Atlantic Treaty Organisation; 3) acquired citizenship of the Commonwealth of Australia, Federative Republic of Brazil or New Zealand;",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "greece-holocaust-restoration-scope",
+      "claim": "Greece operates a dedicated restoration procedure for Holocaust victims who previously held Greek citizenship: living persons of Jewish descent, citizens of Israel or other countries, born in Greece up to 9 May 1945, who held Greek citizenship from birth and lost it for any reason. It covers the former citizen personally, not descendants.",
+      "claim_type": "law",
+      "source_url": "https://id.mitos.gov.gr/338062",
+      "fetched_at": "2026-08-09T02:56:10Z",
+      "raw_snippet": "Η διαδικασία αφορά σε εν ζωή πολίτες του Ισραήλ ή άλλων χωρών, εβραϊκής καταγωγής, γεννημένους έως και τις 09/05/1945, οι οποίοι κατείχαν στο παρελθόν την ελληνική ιθαγένεια από τη γέννησή τους και την απώλεσαν για οποιοδήποτε λόγο.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "greece-holocaust-restoration-procedure",
+      "claim": "The Greek Holocaust-victim restoration application is filed (in person or by post) at the Greek consulate for the applicant's place of residence, the decision is issued by the Minister of the Interior and published in the government gazette, and citizenship is acquired from the date of the oath.",
+      "claim_type": "feature",
+      "source_url": "https://id.mitos.gov.gr/338062",
+      "fetched_at": "2026-08-09T02:56:10Z",
+      "raw_snippet": "Με αίτηση τους στο Ελληνικό Προξενείο του τόπου κατοικίας τους μπορούν να αποκτήσουν εκ νέου την ελληνική ιθαγένεια ... Η απόφαση εκδίδεται από τον Υπουργό Εσωτερικών και δημοσιεύεται σε ΦΕΚ.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "spain-sephardi-window-closed",
+      "claim": "Spain's Ley 12/2015 gave a filing window of three years from the law entering into force, extendable by one year by agreement of the Council of Ministers; it was extended and expired on 1 October 2019, so no new applications are accepted.",
+      "claim_type": "date",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-7045",
+      "fetched_at": "2026-08-09T02:57:30Z",
+      "raw_snippet": "Disposición adicional primera. Plazos. 1. Los interesados deben formalizar su solicitud en el plazo de tres años desde la entrada en vigor de la presente Ley. Dicho plazo podrá ser prorrogado por acuerdo del Consejo de Ministros un año más.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "israel-apostille-authority-split",
+      "claim": "In Israel, the courts apostille notarial signatures and court-issued public documents, while other Israeli public documents are verified by the Ministry of Foreign Affairs.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/en/service/apostille-approval-for-countries",
+      "fetched_at": "2026-08-18",
+      "raw_snippet": "those requesting an authentication certificate (apostille or a certificate not according to the convention) - for notarized certifications of public and legal documents from Israel, in order to present the authenticated documents abroad.",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "gov.il page read through a browser session, which holds the Cloudflare clearance a plain fetch does not",
+      "verified_at": "2026-08-18"
+    },
+    {
+      "claim_id": "israel-registry-extract-standard-fields",
+      "claim": "Under PIBA procedure 2.17.0001 the standard population-registry extract lists given name, identity number, parents' names, sex, nationality, personal status, country and locality of birth, date of birth, current address and date of entry to Israel (aliyah date).",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/summary_info_procedure/he/2.17.0001_2022.pdf",
+      "fetched_at": "2026-08-11",
+      "raw_snippet": "4.3.2 שם פרטי. 4.3.3 מספר הזהות. 4.3.4 שמות הורים. 4.3.5 מין. 4.3.6 הלאום. 4.3.7 המצב האישי. 4.3.8 מקום לידה ארץ וישוב. 4.3.9 תאריך לידה. 4.3.10 המען העדכני. 4.3.11 תאריך הכניסה לישראל (תאריך עלייה).",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "israel-registry-extract-extended-fields",
+      "claim": "The extended Israeli registry extract may add previous addresses, previous names, personal-status date, spouse's name, children's names with dates of birth and sex, religion, mailing addresses, the date the person became a resident, and a digital address.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/BlobFolder/policy/summary_info_procedure/he/2.17.0001_2022.pdf",
+      "fetched_at": "2026-08-11",
+      "raw_snippet": "4.4\n\nלהלן פרטי המרשם אשר ניתן להוסיף בתמצית רישום מורחבת (ידנית או באמצעות המערכת הממוחשבת).\n4.4.1 מענים קודמים. 4.4.2 שמות קודמים. 4.4.3 תאריך מצב אישי. 4.4.4 שם בן הזוג\n4.4.5 שמות הילדים, תאריכי לידתם ומינם. 4.4.6 דת. 4.4.7 כתובת למשלוח דואר. 4.4.8 כתובת נוספת למשלוח דואר לקטין. 4.4.9 התאריך שנהיה לתושב\n4.4.10 מען דיגיטלי",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-08-11T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "source_fetched_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "claim_id": "israel-population-registry-extract-order",
+      "claim": "Israeli citizens and residents can obtain an extract from the Population Registry (standard or extended) issued by the Population and Immigration Authority.",
+      "claim_type": "feature",
+      "source_url": "https://www.gov.il/en/service/summaryinfofromthepopulationregistrylisting",
+      "fetched_at": "2026-09-19T21:15:00Z",
+      "raw_snippet": "This service allows Israeli citizens and residents to request a Population Registry registration extract (standard or extended).",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "verified_via": "browser",
+      "verified_at": "2026-09-19T21:15:00Z"
+    },
+    {
+      "claim_id": "israel-foreign-passport-concession-311226",
+      "claim": "The MFA notice of 26 August 2026 extends the option for Israelis to enter and exit Israel with a valid foreign passport until 31 December 2026, replacing the earlier 30.09.2026 date; the statutory duty is suspended rather than repealed.",
+      "claim_type": "date",
+      "source_url": "https://embassies.gov.il/atlanta/en/announcements/aug26en",
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "raw_snippet": "Entry and Exit from Israel with a Valid Foreign Passport – Extended Until December 31, 2026",
+      "confidence": "high",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "israel-eta-is-checkin-rule",
+      "claim": "The 17 February 2026 announcement required an Israeli citizen who left on a foreign passport to present the Israeli passport (even if expired) or an ETA approval at check-in for the flight back to Israel.",
+      "claim_type": "law",
+      "source_url": "https://www.gov.il/he/pages/news-exit-with-foriegn-passport-300926",
+      "fetched_at": "2026-08-09T02:48:00Z",
+      "raw_snippet": "אזרחים ישראלים שיוצאים עם דרכון זר, בעת הרישום לטיסה חזרה לישראל (צ'ק אין) עם הדרכון הזר יידרשו להציג את הדרכון הישראלי (גם אם אינו תקף) או לחלופין, אישור ETA",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-08-09",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "piba-summary-procedure-page",
+      "claim": "PIBA procedure page \"נוהל הפקת תמצית רישום רגילה או מורחבת\" publishes the procedure for issuing a standard or extended registry extract.",
+      "claim_type": "reference",
+      "source_url": "https://www.gov.il/he/pages/summary_info_procedure",
+      "fetched_at": "2026-08-11",
+      "source_fetched_at": "2026-08-11T00:00:00Z",
+      "raw_snippet": "נוהל זה מטפל בהנפקת תמצית רישום הכוללת את הפרטים האישיים כפי שהם מופיעים במרשם האוכלוסין. מטרת הנוהל היא לקבוע שיטה לטיפול בבקשות השונות.",
+      "confidence": "high",
+      "verified_via": "gov.il content API",
+      "verified_at": "2026-08-11T00:00:00Z"
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "israel-carry-israeli-passport-arrival",
+      "claim": "The August 2026 MFA notice says Israelis entering on a valid foreign passport must carry their Israeli passport and present it on arrival in Israel.",
+      "claim_type": "law",
+      "source_url": "https://embassies.gov.il/atlanta/en/announcements/aug26en",
+      "raw_snippet": "are required to carry their Israeli passport with them and present it upon arrival in Israel",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "italy-corte-63-2026-upheld",
+      "claim": "Corte costituzionale judgment 63/2026 declared the constitutional challenges to Art. 3-bis of Law 91/1992 unfounded (and in part inadmissible).",
+      "claim_type": "law",
+      "source_url": "https://www.eius.it/giurisprudenza/2026/2250719",
+      "raw_snippet": "dichiara non fondata la questione di legittimità costituzionale dell'art. 3-bis della legge n. 91 del 1992",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "italy-corte-147-2026-cjeu-referral",
+      "claim": "By order 147/2026, deposited 23 July 2026, the Corte costituzionale referred a preliminary question on Art. 3-bis to the Court of Justice of the EU, concerning Art. 9 TEU and Art. 20 TFEU.",
+      "claim_type": "law",
+      "source_url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf",
+      "raw_snippet": "Con l’ordinanza numero 147, depositata oggi, la Corte costituzionale ha disposto un rinvio pregiudiziale alla Corte di giustizia dell’Unione europea",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "italy-eu-treaty-articles",
+      "claim": "The EU-law question on Art. 3-bis is framed on Art. 9 TEU and Art. 20 TFEU (סעיף 9, סעיף 20 in the Hebrew mirror).",
+      "claim_type": "law",
+      "source_url": "https://www.eius.it/giurisprudenza/2026/2250719",
+      "raw_snippet": "in relazione all'art. 9 del Trattato sull'Unione europea e all'art. 20 del Trattato sul funzionamento dell'Unione europea",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "austria-58c-successor-state-nationals",
+      "claim": "Austria's Section 58c(1) covers not only Austrian citizens but nationals of Austro-Hungarian successor states and stateless persons who had their main residence in Austria.",
+      "claim_type": "law",
+      "source_url": "https://www.jusline.at/gesetz/stbg/paragraf/58c",
+      "raw_snippet": "sich als Staatsbürger oder Staatsangehöriger eines der Nachfolgestaaten der ehemaligen österreichisch-ungarischen Monarchie oder Staatenloser jeweils mit Hauptwohnsitz im Bundesgebiet vor dem 15. Mai 1955 in das Ausland begeben zu haben",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "greece-born-in-greece",
+      "claim": "The Greek Holocaust-victim restoration applicant must have been born in Greece up to 9 May 1945.",
+      "claim_type": "law",
+      "source_url": "https://id.mitos.gov.gr/338062",
+      "raw_snippet": "γεννηθεί στην Ελλάδα έως τις 09/05/1945",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T21:00:00Z",
+      "confidence": "high",
+      "claim_id": "greece-filing-in-person-or-post",
+      "claim": "The Greek restoration application may be filed in person or by post.",
+      "claim_type": "feature",
+      "source_url": "https://id.mitos.gov.gr/338062",
+      "raw_snippet": "Κατάθεση από τον αιτούντα (δια ζώσης ή ταχυδρομικά)",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    },
+    {
+      "claim_id": "romania-b1-deadline-14-03-2027",
+      "claim": "Romania's citizenship authority (ANC) announced on 16 March 2026 that the Romanian-language certificate may be filed until 14.03.2027, failing which the application is rejected.",
+      "claim_type": "date",
+      "source_url": "https://cetatenie.just.ro/category/anunturi/",
+      "fetched_at": "2026-09-19T21:40:00Z",
+      "raw_snippet": "au posibilitatea depunerii acestuia în termen de doi ani de la intrarea în vigoare a legii (până la data de 14.03.2027) sub sancțiunea respingerii cererii ca nesusținută",
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-09-19T21:40:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ]
+    },
+    {
+      "fetched_at": "2026-09-19T22:10:00Z",
+      "confidence": "high",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-15-residence-limb",
+      "claim": "§15 StAG also entitles persecuted persons who gave up or lost a habitual residence in Germany established before 30 January 1933 (or as a child after that date), with no German citizenship required, and their descendants.",
+      "raw_snippet": "ihren gewöhnlichen Aufenthalt in Deutschland, wenn dieser bereits vor dem 30. Januar 1933 oder als Kind auch nach diesem Zeitpunkt begründet worden war, aufgegeben oder verloren haben"
+    },
+    {
+      "fetched_at": "2026-09-19T22:10:00Z",
+      "confidence": "high",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-15-refused-naturalization",
+      "claim": "§15 StAG also covers persecuted persons who were refused naturalization or were generally excluded from a naturalization otherwise possible.",
+      "raw_snippet": "nach Antragstellung nicht eingebürgert worden sind oder allgemein von einer Einbürgerung, die bei einer Antragstellung sonst möglich gewesen wäre, ausgeschlossen waren"
+    },
+    {
+      "fetched_at": "2026-09-19T22:10:00Z",
+      "confidence": "high",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-15-lost-before-1955",
+      "claim": "§15 StAG covers persecuted persons who gave up or lost German citizenship before 26 February 1955.",
+      "raw_snippet": "die deutsche Staatsangehörigkeit vor dem 26. Februar 1955 aufgegeben oder verloren haben"
+    },
+    {
+      "fetched_at": "2026-09-19T22:10:00Z",
+      "confidence": "high",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-15-exclusion-post-1945",
+      "claim": "§15 StAG excludes anyone who acquired German citizenship after 8 May 1945 and gave it up or lost it again, and descendants born after that loss, unless the loss was by marriage to a foreigner or legitimation by a foreigner.",
+      "raw_snippet": "Einbürgerungsberechtigt nach Satz 1 ist nicht, wer nach dem 8. Mai 1945 die deutsche Staatsangehörigkeit bereits erworben, aber wieder aufgegeben oder verloren hat"
+    },
+    {
+      "fetched_at": "2026-09-19T22:10:00Z",
+      "confidence": "high",
+      "source_url": "https://www.gesetze-im-internet.de/stag/__15.html",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-15-exclusion-conviction",
+      "claim": "§15 StAG excludes a person finally sentenced to two years or more for intentional offences.",
+      "raw_snippet": "rechtskräftig zu einer Freiheits- oder Jugendstrafe von zwei Jahren oder mehr verurteilt worden sind"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-anschluss-austrians-excluded",
+      "claim": "German administrative guidance: Art. 116(2) GG does not as a rule apply to Austrians who acquired German citizenship through the 1938 Anschluss and were reclaimed as citizens by the restored Republic of Austria from 27 April 1945, nor to their descendants.",
+      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "raw_snippet": "und mit der Wiederherstellung der Republik Österreich seit dem 27.4.1945 von dieser wieder als Staatsangehörige in Anspruch genommen worden sind, und ihre Abkömmlinge grundsätzlich keine Anwendung",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T02:30:00Z"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-anschluss-15-stag-too",
+      "claim": "The same BMI guidance states that §15 StAG likewise does not apply to those Anschluss Austrians and their descendants.",
+      "source_url": "https://www.bmi.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/themen/verfassung/staatsangehoerigkeit/2505_anwendungshinweise-staatsangehoerigkeit.pdf?__blob=publicationFile&v=6",
+      "raw_snippet": "§ 15 findet daher auf die vorgenannten österreichischen Staatsangehörigen und ihre Abkömmlinge ebenfalls keine Anwendung.",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T02:30:00Z"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "germany-bverwg-1990-anschluss",
+      "claim": "BVerwG 27.3.1990 (1 C 5.87): Art. 116(2) GG does not apply to descendants of people who were Austrian citizens before the 1938 Anschluss, became German through it, were expatriated on racial grounds, and were reclaimed by the restored Austria with effect from 27 April 1945.",
+      "source_url": "https://www.mpil.de/en/pub/publications/archive/rspr/r86.cfm?fuseaction_rspr=act&act=r8693_88",
+      "raw_snippet": "Art.116 Abs.2 GG gilt nicht für die Abkömmlinge von Personen, die vor dem sog. Anschluß Österreichs an das Deutsche Reich im Jahre 1938 österreichische Staatsbürger waren"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "austria-did-not-reclaim-1925-loss",
+      "claim": "Austria did not reclaim former Austrian citizens who had realised a loss ground under the Austrian citizenship Act of 30 July 1925 (for example by acquiring a foreign citizenship), which is the carve-out leaving a German claim open.",
+      "source_url": "https://www.mpil.de/en/pub/publications/archive/rspr/r86.cfm?fuseaction_rspr=act&act=r8693_88",
+      "raw_snippet": "lediglich die ehemaligen österreichischen Staatsbürger nicht in Anspruch genommen, die in der Zeit des Anschlusses an das Deutsche Reich einen Verlusttatbestand nach dem österreichischen Bundesgesetz über den Erwerb und Verlust der Landes- und Bundesbürgerschaft vom 30. Juli 1925"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "austria-heimatrecht-1918-galicia",
+      "claim": "The Austrian citizenship law of 5 December 1918 conferred citizenship on those with Heimatrecht in a commune of the republic, excluding people with Heimatrecht in Galicia, so Galician-origin residents of Vienna did not become Austrian citizens.",
+      "source_url": "https://hdgoe.at/staatsbuergergesetz-rassistische-optionspraxis",
+      "raw_snippet": "ausgenommen, er/sie war in Dalmatien, Istrien oder Galizien heimatberechtigt gewesen"
+    },
+    {
+      "fetched_at": "2026-09-20T02:30:00Z",
+      "confidence": "high",
+      "claim_type": "law",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "claim_id": "saint-germain-art70-pertinenza",
+      "claim": "Treaty of Saint-Germain Art. 70: a person with rights of citizenship (pertinenza, i.e. Heimatrecht) in former Austro-Hungarian territory obtained, to the exclusion of Austrian nationality, the nationality of the state exercising sovereignty there.",
+      "source_url": "https://www.dipublico.org/doc/instrumentos/145.html",
+      "raw_snippet": "shall obtain ipso facto to the exclusion of Austrian nationality the nationality of the State exercising sovereignty over such territory"
+    },
+    {
+      "claim_id": "bva-merkblatt-omits-austria",
+      "claim": "The BVA's applicant-facing Merkblatt on Art. 116(2) naturalization explains the 11th Ordinance loss but never mentions Austria, the Anschluss or 1938 (zero occurrences of Österreich / Anschluss / 1938 across its 26 pages, verified by full-text search on 2026-09-20), which is why families meet the exclusion late.",
+      "claim_type": "feature",
+      "source_url": "https://www.germany.info/resource/blob/2738136/5767c4d40b3174171893147d94b0e554/paket-a-data.pdf",
+      "fetched_at": "2026-09-20T03:30:00Z",
+      "raw_snippet": "dies traf auf alle deutschen Staatsangehörigen, die als Juden verfolgt wurden zu,",
+      "confidence": "high",
+      "verified_via": "pdf",
+      "verified_at": "2026-09-20T03:30:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ]
+    }
+  ]
+}

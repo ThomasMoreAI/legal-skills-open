@@ -5,7 +5,7 @@ description: Assist with Israeli legal research including legislation lookup, ca
 author: skills-il
 author_url: https://github.com/skills-il/security-compliance/tree/master/hebrew-legal-research
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: general

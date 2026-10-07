@@ -5,7 +5,7 @@ description: Use this skill when reviewing legal, contractual, regulatory, priva
 author: Raishin
 author_url: https://github.com/Raishin/vanguard-frontier-agentic/tree/master/skills/legal/legal-counsel-review
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: general

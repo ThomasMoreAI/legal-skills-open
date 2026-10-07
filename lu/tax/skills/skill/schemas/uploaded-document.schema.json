@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "uploaded-document.schema.json",
+  "title": "Document (UploadedDocument) — moteur de diagnostic administratif",
+  "type": "object",
+  "required": ["type", "nom", "niveauConfiance", "validationHumaineRequise"],
+  "properties": {
+    "type": { "const": "Document" },
+    "id": { "type": ["string", "null"] },
+    "nom": { "type": "string", "minLength": 1 },
+    "typeDocument": { "type": ["string", "null"] },
+    "administrationEmettrice": { "type": ["string", "null"] },
+    "date": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "periode": { "type": ["string", "null"] },
+    "texteExtrait": { "type": ["string", "null"] },
+    "donneesStructurees": { "type": "object" },
+    "echeanceDetectee": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "actionDemandee": { "type": ["string", "null"] },
+    "niveauConfiance": { "type": "string", "enum": ["officiel", "derive", "estimation", "incertain"] },
+    "validationHumaineRequise": { "type": "boolean" },
+    "dossierId": { "type": ["string", "null"] },
+    "profilId": { "type": ["string", "null"] },
+    "societeId": { "type": ["string", "null"] }
+  }
+}

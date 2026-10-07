@@ -5,7 +5,7 @@ description: Use when the user uploads or pastes a non-disclosure agreement and 
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-ai/tree/main/skills/nda-review
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

@@ -13,7 +13,7 @@ description: '元典法律法规检索技能（开放平台版 https://open.chin
 author: malnlda
 author_url: https://github.com/malnlda/legal-research/tree/main/skills/yd-law-search
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: general

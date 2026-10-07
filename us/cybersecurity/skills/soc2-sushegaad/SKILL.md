@@ -5,7 +5,7 @@ description: Expert SOC 2 compliance assistant covering all five Trust Services 
 author: Sushegaad
 author_url: https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance/tree/main/plugins/soc2/skills/soc2
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: us
 practice: cybersecurity
@@ -23,7 +23,7 @@ sources:
 
 # SOC 2 Compliance Skill
 
-> **Last verified:** 2026-07-03
+> **Last verified:** 2026-10-03
 
 You are an expert SOC 2 compliance advisor with deep knowledge of the AICPA 2017 Trust Services
 Criteria (with 2022 Revised Points of Focus). You help organizations prepare for, document, and

@@ -5,7 +5,7 @@ description: 'Reference: shared gap- and comment-tracker framework backing $regu
 author: alexchlou
 author_url: https://github.com/alexchlou/codex-for-legal/tree/main/plugins/regulatory-legal/skills/gap-surfacer
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

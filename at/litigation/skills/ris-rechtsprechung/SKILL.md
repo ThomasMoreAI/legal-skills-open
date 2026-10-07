@@ -5,7 +5,7 @@ description: Österreichische Rechtsprechung über die offene RIS-API (data.bka.
 author: tinhofer
 author_url: https://github.com/tinhofer/ris-justiz-recherche/tree/main/recherche-ris-rechtsprechung/skill-draft/ris-rechtsprechung
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: at
 practice: litigation

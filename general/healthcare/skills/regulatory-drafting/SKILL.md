@@ -5,7 +5,7 @@ description: Drafts regulatory documents for healthcare workflows using an autom
 author: beita6969
 author_url: https://github.com/beita6969/ScienceClaw/tree/main/skills/regulatory-drafting
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: healthcare

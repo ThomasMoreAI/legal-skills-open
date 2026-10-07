@@ -5,7 +5,7 @@ description: Not legal advice and not a filed customs declaration. Check whether
 author: skills-il
 author_url: https://github.com/skills-il/security-compliance/tree/master/israeli-standards-import-checker
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: il
 practice: regulatory

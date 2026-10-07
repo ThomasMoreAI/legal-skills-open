@@ -5,11 +5,14 @@ description: 用于调取微信实名认证信息的执行技能。通过法院�
 author: sungaoxiang-backend
 author_url: https://github.com/sungaoxiang-backend/intelligent-evidence-platform/tree/main/skills/wechat-query-realname-info
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: litigation
 language: zh
+sources:
+- title: Api reference
+  path: references/api_reference.md
 ---
 
 # 微信实名认证信息调取技能

@@ -1,11 +1,11 @@
 ---
 name: cloud-service-agreement
-title: 'Cloud service agreement'
+title: Cloud service agreement
 description: Draft and fill SaaS agreement templates — cloud contract, MSA, order form, software license, pilot agreement, design partner agreement. Includes variants with SLAs and AI terms. Produces signable DOCX from Common Paper standard forms. Use when user says "SaaS agreement," "cloud contract," "MSA," "order form," "software license," "pilot agreement," or "design partner agreement." Includes lawyer-reviewed practice guides; see openagreements.org/editors.
 author: open-agreements
 author_url: https://github.com/open-agreements/open-agreements/tree/main/skills/agreements/cloud-service-agreement
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: contracts

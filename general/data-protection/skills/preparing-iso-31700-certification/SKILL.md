@@ -5,7 +5,7 @@ description: Preparation guide for ISO 31700 privacy by design for consumer good
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/preparing-iso-31700-certification
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

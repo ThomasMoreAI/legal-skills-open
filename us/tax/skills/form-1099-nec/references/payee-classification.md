@@ -3,7 +3,7 @@
 The hardest decision in 1099-NEC issuance is whether to issue at all. The wrong answer in either direction creates problems:
 
 - Issuing to a payee who shouldn't get one (e.g., a corporation, an employee mislabeled as contractor) can trigger an IRS audit of the payer's worker classifications.
-- Failing to issue when required triggers IRC §6721 / §6722 penalties ($60-$310 per form depending on how late, indexed for inflation), plus potential disallowance of the deduction.
+- Failing to issue when required triggers IRC §6721 / §6722 penalties ($60–$340 per form for returns due in 2026 and 2027, depending on how late; $680 / $690 for intentional disregard; indexed for inflation — https://www.irs.gov/payments/information-return-penalties, Rev. Proc. 2025-32). The payer's deduction itself depends on substantiation under IRC §162, not on 1099 compliance.
 
 This file walks the agent through the classification decisions.
 
@@ -42,22 +42,22 @@ If the worker is correctly a contractor, the next question is what type of entit
 
 ### Rule: corporations are generally exempt
 
-Payments to **C-corps and S-corps** for services are **not reportable** on 1099-NEC. Two exceptions:
+Payments to **C-corps and S-corps** for services are **not reportable** on 1099-NEC. Exceptions (Instructions for Forms 1099-MISC and 1099-NEC, Rev. December 2026, "Reportable payments to corporations" and "Payments to corporations for legal services"):
 
-1. **Medical / health-care payments** (1099-MISC Box 6) — reportable even to a corporation
-2. **Attorney fees / legal services** (1099-MISC Box 10) — reportable even to a corporation
-
-Both exceptions go on **1099-MISC**, not 1099-NEC.
+1. **Attorneys' fees for legal services** — reportable even to a corporation, on **1099-NEC box 1a**
+2. **Gross proceeds paid to an attorney** (e.g., settlement funds) — reportable even to a corporation, on **1099-MISC Box 10**
+3. **Medical / health-care payments** — reportable even to a corporation, on **1099-MISC Box 6**
+4. Payments by a federal executive agency for services — 1099-NEC box 1a
 
 ### How to tell if the payee is a corporation
 
-The W-9 Form Line 3 entity-type checkbox tells you:
+The W-9 (Rev. March 2024) Line 3a entity-type checkbox tells you:
 
-| W-9 Line 3 box | Entity type | 1099-NEC required? |
+| W-9 Line 3a box | Entity type | 1099-NEC required? |
 |----------------|-------------|--------------------|
 | Individual / sole proprietor or SMLLC | Individual or disregarded SMLLC | **Yes**, if threshold met |
-| C Corporation | C-corp | **No** (except medical / legal — those go on MISC) |
-| S Corporation | S-corp | **No** (except medical / legal — those go on MISC) |
+| C Corporation | C-corp | **No** (except legal fees → 1099-NEC; medical / attorney gross proceeds → 1099-MISC) |
+| S Corporation | S-corp | **No** (except legal fees → 1099-NEC; medical / attorney gross proceeds → 1099-MISC) |
 | Partnership | Partnership | **Yes**, if threshold met |
 | Trust / estate | Trust or estate | **Yes**, if threshold met |
 | Limited liability company (with tax classification: C, S, or P) | LLC taxed as corp or partnership | C/S = No (with exceptions); P = Yes |
@@ -67,11 +67,11 @@ The W-9 Form Line 3 entity-type checkbox tells you:
 
 A single-member LLC that has NOT elected corporate / S-corp tax treatment is a **disregarded entity** — for federal tax purposes, it's the same as a sole proprietorship. The owner reports business income on their personal Schedule C.
 
-Per W-9 Line 3, the SMLLC is supposed to check "Individual / sole proprietor or single-member LLC", NOT the LLC tax classification box.
+Per W-9 Line 3a, a disregarded SMLLC checks the box for its owner's tax classification (an individual owner checks "Individual/sole proprietor"), NOT the LLC tax classification box.
 
 Common error scenarios:
 
-- SMLLC writes "ABC LLC" on W-9 Line 1 and provides the LLC's EIN. That's wrong — Line 1 should be the owner's name; Line 4 (TIN) should be the owner's SSN. (The IRS makes an exception if the SMLLC has its own EIN for payroll, but the W-9 instructions still say the *owner's* name must appear.)
+- SMLLC writes "ABC LLC" on W-9 Line 1 and provides the LLC's EIN. That's wrong — Line 1 should be the owner's name and the Part I TIN should be the owner's SSN (or the owner's EIN, if the owner has one). The disregarded entity's own EIN is not used even if it has one for payroll (Form W-9, Part I instructions).
 - Payer treats the SMLLC as a corporation because it has "LLC" in the name — wrong. LLC is a state-law designation; for federal tax, default for SMLLC is disregarded.
 - Payer fails to issue 1099-NEC because they assumed the LLC was incorporated — wrong, see above.
 
@@ -114,7 +114,7 @@ A nonprofit / tax-exempt organization is treated as a trade or business for thes
 
 ## Decision 5 — Payment channel
 
-If the payer paid the contractor via a **third-party payment network** (Stripe, PayPal goods/services, Venmo business, Square, Cash App for Business, Zelle through some banks), the platform is the entity that issues a 1099-K, not the payer issuing 1099-NEC.
+If the payer paid the contractor by **credit/debit card** or via a **third-party payment network** (Stripe, PayPal goods/services, Venmo business, Square, Cash App for Business), the payment is reportable on Form 1099-K by the payment settlement entity, not on the payer's 1099-NEC (Instructions for Forms 1099-MISC and 1099-NEC, "Form 1099-K"). Third-party network 1099-Ks are issued only above $20,000 and 200 transactions (IRC §6050W(e) as restored by P.L. 119-21); card transactions have no minimum.
 
 To avoid double-reporting, the payer **does not** issue a 1099-NEC for amounts paid via these channels.
 
@@ -125,7 +125,7 @@ To avoid double-reporting, the payer **does not** issue a 1099-NEC for amounts p
 - Wire transfer
 - Direct debit from payer's account to contractor's account (Bill.com, some payroll-adjacent services may or may not be 1099-K covered — verify in the platform's documentation)
 
-The litmus test: does the platform send a 1099-K to the contractor? If yes, the platform handles reporting. If no, the payer's 1099-NEC obligation stands.
+The litmus test is the payment method, not whether a 1099-K actually arrives: card and third-party-network payments stay off the 1099-NEC even when the contractor is below the platform's 1099-K threshold. Cash, check, and direct bank transfers stay on it.
 
 For Zelle specifically: Zelle does not currently issue 1099-Ks (Zelle takes the position that it's a bank-to-bank rail, not a third-party network). Treat Zelle payments as direct ACH — payer issues 1099-NEC if threshold met.
 
@@ -138,7 +138,7 @@ For a contractor paid $3,500 in services during 2026:
 | Payment method | Payee entity | 1099 required? | Form |
 |----------------|--------------|----------------|------|
 | Check or direct ACH | Individual / SMLLC / partnership | Yes | 1099-NEC |
-| Check or direct ACH | C-corp or S-corp | No | None (unless medical / legal) |
+| Check or direct ACH | C-corp or S-corp | No | None (unless legal fees → 1099-NEC, or medical / attorney gross proceeds → 1099-MISC) |
 | Stripe / PayPal goods-services / Venmo business | Any | No (payer side); platform issues 1099-K | 1099-K (by platform) |
 | Zelle | Individual / SMLLC | Yes (Zelle ≠ TPN currently) | 1099-NEC |
 | Personal payment (home babysitter, personal services) | Any | No | None (or Schedule H if household employee) |

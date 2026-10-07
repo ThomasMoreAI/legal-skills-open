@@ -5,7 +5,7 @@ description: DEPRECATED. This skill no longer ships any UK Finance Mortgage Lend
 author: MoverlyLtd
 author_url: https://github.com/MoverlyLtd/conveyancing-toolkit/tree/master/lenders-handbook-prescreen
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: gb
 practice: real-estate

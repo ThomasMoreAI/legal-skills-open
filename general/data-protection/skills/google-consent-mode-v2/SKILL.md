@@ -5,7 +5,7 @@ description: Configuring Google Consent Mode v2 for privacy-compliant measuremen
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/plugins/cookie-consent-skills/skills/google-consent-mode-v2
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: general
 practice: data-protection

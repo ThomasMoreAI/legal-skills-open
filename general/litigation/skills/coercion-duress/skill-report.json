@@ -1,0 +1,1335 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "generated_at": "2026-07-06T01:41:29.614Z",
+    "slug": "acskamloops-coercion-duress",
+    "source_url": "https://github.com/ACSKamloops/shs-engine/tree/master/.codex/skills/coercion-duress",
+    "source_ref": "master",
+    "model": "codex",
+    "analysis_version": "3.0.0",
+    "source_type": "community",
+    "content_hash": "d25eeae4310441abc8c9919bfb00597d60408202d143e4e32677fdb1c8f3de72",
+    "tree_hash": "2e16b581b6683f4f50883ffa5e0a623abcacc0264dd37d86f6d95f2cb2978be9",
+    "provenance": {
+      "model_requested": "gpt-5.5:high",
+      "model_effective": "codex:gpt-5.5:high",
+      "fallback_chain": [
+        {
+          "agent": "codex",
+          "model": "gpt-5.5",
+          "effort": "high",
+          "outcome": "success"
+        }
+      ],
+      "analysis_version": "3.0.0"
+    }
+  },
+  "skill": {
+    "name": "coercion-duress",
+    "description": "Guides neutral review of Coercion_Duress JSON tasks for forced surrender, threats, procedural irregularities, and informed consent evidence.",
+    "summary": "Reviews Coercion_Duress task batches with neutral evidence extraction and citation checks.",
+    "icon": "📦",
+    "version": "1.0.0",
+    "author": "ACSKamloops",
+    "license": "MIT",
+    "tags": [
+      "coercion",
+      "duress",
+      "legal-review",
+      "evidence-extraction",
+      "archive-workflow"
+    ],
+    "supported_tools": [
+      "claude",
+      "codex",
+      "claude-code"
+    ],
+    "risk_factors": [
+      "external_commands"
+    ],
+    "category": "legal"
+  },
+  "security_audit": {
+    "risk_level": "high",
+    "is_blocked": false,
+    "safe_to_publish": false,
+    "analysis_status": "ok",
+    "summary": "Most static backtick findings are Markdown formatting false positives. The skill still includes command-based workflow steps and a prompt-injection risk because it tells agents to obey system_instructions from JSON task files. Remove delegated system authority and add explicit safeguards around script execution and logging.",
+    "remediation": [
+      {
+        "issue": "Untrusted task JSON can define system_instructions that the agent is told to follow as hard constraints.",
+        "suggestion": "Remove this delegation and state that task file content is untrusted data. Define allowed task fields without granting instruction authority.",
+        "severity": "high"
+      },
+      {
+        "issue": "The workflow instructs agents to run local repository scripts for fetch, submit, and flag operations.",
+        "suggestion": "Require explicit user confirmation before each command and document expected script paths, dry-run behavior, and side effects.",
+        "severity": "medium"
+      },
+      {
+        "issue": "Raw JSONL execution event logging may capture sensitive task content.",
+        "suggestion": "Document log retention, redaction, access controls, and when logging should be disabled for sensitive material.",
+        "severity": "medium"
+      }
+    ],
+    "risk_factor_evidence": [
+      {
+        "factor": "external_commands",
+        "evidence": [
+          {
+            "file": "SKILL.md",
+            "line_start": 7,
+            "line_end": 7
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 8,
+            "line_end": 8
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 10,
+            "line_end": 10
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 20,
+            "line_end": 20
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 30,
+            "line_end": 30
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 31,
+            "line_end": 31
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 35,
+            "line_end": 37
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 37,
+            "line_end": 40
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 40,
+            "line_end": 42
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 42,
+            "line_end": 44
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 44,
+            "line_end": 62
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 62,
+            "line_end": 62
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 63,
+            "line_end": 94
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 94,
+            "line_end": 94
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 97,
+            "line_end": 99
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 99,
+            "line_end": 102
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 102,
+            "line_end": 104
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 104,
+            "line_end": 109
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 109,
+            "line_end": 112
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 112,
+            "line_end": 112
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 119,
+            "line_end": 119
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 120,
+            "line_end": 120
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 121,
+            "line_end": 124
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 124,
+            "line_end": 126
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 126,
+            "line_end": 127
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 127,
+            "line_end": 128
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 128,
+            "line_end": 128
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 132,
+            "line_end": 133
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 133,
+            "line_end": 135
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 135,
+            "line_end": 137
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 137,
+            "line_end": 138
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 138,
+            "line_end": 140
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 140,
+            "line_end": 143
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 143,
+            "line_end": 143
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 144,
+            "line_end": 145
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 145,
+            "line_end": 145
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 35,
+            "line_end": 35
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 42,
+            "line_end": 42
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 124,
+            "line_end": 124
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 133,
+            "line_end": 133
+          },
+          {
+            "file": "SKILL.md",
+            "line_start": 138,
+            "line_end": 138
+          }
+        ]
+      }
+    ],
+    "static_findings": [
+      {
+        "id": "external_commands:SKILL.md:7:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 7,
+        "line_end": 7,
+        "snippet": "- Mirrors `Agent_Instructions/Coercion_Duress_Agent.md`."
+      },
+      {
+        "id": "external_commands:SKILL.md:8:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 8,
+        "line_end": 8,
+        "snippet": "- Use `python3` if `python` is not available."
+      },
+      {
+        "id": "external_commands:SKILL.md:10:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 10,
+        "line_end": 10,
+        "snippet": "- For court audit trails, run batches via `codex_exec_runner.sh` with `PUKAIST_CODEX_LOG_EVENTS=1` t"
+      },
+      {
+        "id": "external_commands:SKILL.md:20:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 20,
+        "line_end": 20,
+        "snippet": "3.  **SYSTEM INSTRUCTIONS:** You must follow the `system_instructions` block injected into every JSO"
+      },
+      {
+        "id": "external_commands:SKILL.md:30:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 30,
+        "line_end": 30,
+        "snippet": "**Queue:** `Coercion_Duress`"
+      },
+      {
+        "id": "external_commands:SKILL.md:31:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 31,
+        "line_end": 31,
+        "snippet": "**Legal‐Grade Standard:** Follow the **Legal‐Grade Verbatim & Citation Protocol** in `agents.md` for"
+      },
+      {
+        "id": "external_commands:SKILL.md:35:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 35,
+        "line_end": 37,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:37:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 37,
+        "line_end": 40,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:40:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 40,
+        "line_end": 42,
+        "snippet": "*   The script will output a path to a **JSON Input File** (e.g., `..._Input.json`)."
+      },
+      {
+        "id": "external_commands:SKILL.md:42:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 42,
+        "line_end": 44,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:44:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 44,
+        "line_end": 62,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:62:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 62,
+        "line_end": 62,
+        "snippet": "Create a single file named `[Batch_ID]_Analysis.json` in `99_Working_Files/` with this structure:"
+      },
+      {
+        "id": "external_commands:SKILL.md:63:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 63,
+        "line_end": 94,
+        "snippet": "```json"
+      },
+      {
+        "id": "external_commands:SKILL.md:94:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 94,
+        "line_end": 94,
+        "snippet": "*   **Unknown ID / Unknown Date:** You are **FORBIDDEN** from returning \"Unknown\" for `doc_id`, `tit"
+      },
+      {
+        "id": "external_commands:SKILL.md:97:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 97,
+        "line_end": 99,
+        "snippet": "*   **Doc ID:** If `doc_id` is missing in the input, use the filename or the StableID (e.g., D123)."
+      },
+      {
+        "id": "external_commands:SKILL.md:99:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 99,
+        "line_end": 102,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:102:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 102,
+        "line_end": 104,
+        "snippet": "Before running `submit-task`, you **MUST** verify your JSON against these hard constraints. If you f"
+      },
+      {
+        "id": "external_commands:SKILL.md:104:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 104,
+        "line_end": 109,
+        "snippet": "```text"
+      },
+      {
+        "id": "external_commands:SKILL.md:109:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 109,
+        "line_end": 112,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:112:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 112,
+        "line_end": 112,
+        "snippet": "1.  **Length Check:** Is your `summary` + `forensic_conclusion` > 100 characters?"
+      },
+      {
+        "id": "external_commands:SKILL.md:119:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 119,
+        "line_end": 119,
+        "snippet": "*   Did you populate `doc_id`, `title`, and `provenance`?"
+      },
+      {
+        "id": "external_commands:SKILL.md:120:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 120,
+        "line_end": 120,
+        "snippet": "*   Did you populate `reliability` and `ocr_status` with controlled values?"
+      },
+      {
+        "id": "external_commands:SKILL.md:121:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 121,
+        "line_end": 124,
+        "snippet": "*   Is `date` a 4-digit Year (YYYY) or \"Undated\"? (\"Unknown\" is FORBIDDEN)."
+      },
+      {
+        "id": "external_commands:SKILL.md:124:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 124,
+        "line_end": 126,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:126:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 126,
+        "line_end": 127,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:127:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 127,
+        "line_end": 128,
+        "snippet": "*   **Result:** This appends your analysis to `01_Internal_Reports/Refined_Evidence/Refined_Coercion"
+      },
+      {
+        "id": "external_commands:SKILL.md:128:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 128,
+        "line_end": 128,
+        "snippet": "*   **Manager gate:** After submission, tasks move to `ManagerReview` status. Do not treat the batch"
+      },
+      {
+        "id": "external_commands:SKILL.md:132:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 132,
+        "line_end": 133,
+        "snippet": "*   **Log:** This action logs the file in `99_Working_Files/Flagged_Tasks.tsv` with its original sou"
+      },
+      {
+        "id": "external_commands:SKILL.md:133:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 133,
+        "line_end": 135,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:135:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 135,
+        "line_end": 137,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:137:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 137,
+        "line_end": 138,
+        "snippet": "*   **Action:** This command will **automatically move the source file** to the Vision Pipeline (`07"
+      },
+      {
+        "id": "external_commands:SKILL.md:138:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 138,
+        "line_end": 140,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:140:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 140,
+        "line_end": 143,
+        "snippet": "```"
+      },
+      {
+        "id": "external_commands:SKILL.md:143:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 143,
+        "line_end": 143,
+        "snippet": "*   **Provenance Check:** Check the `provenance` field in the input JSON. If it is \"Incoming\" or \"Un"
+      },
+      {
+        "id": "external_commands:SKILL.md:144:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 144,
+        "line_end": 145,
+        "snippet": "*   **WORM Awareness:** The source files are in `01_Originals_WORM`. You are analyzing a *copy*. Do "
+      },
+      {
+        "id": "external_commands:SKILL.md:145:ruby-shell-backtick-execution",
+        "category": "external_commands",
+        "severity": "medium",
+        "pattern": "Ruby/shell backtick execution",
+        "file": "SKILL.md",
+        "line_start": 145,
+        "line_end": 145,
+        "snippet": "*   **Metadata Verification:** Ensure the `date` and `title` you extract match the document content,"
+      },
+      {
+        "id": "external_commands:SKILL.md:35:powershell-invocation",
+        "category": "external_commands",
+        "severity": "high",
+        "pattern": "PowerShell invocation",
+        "file": "SKILL.md",
+        "line_start": 35,
+        "line_end": 35,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:42:powershell-invocation",
+        "category": "external_commands",
+        "severity": "high",
+        "pattern": "PowerShell invocation",
+        "file": "SKILL.md",
+        "line_start": 42,
+        "line_end": 42,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:124:powershell-invocation",
+        "category": "external_commands",
+        "severity": "high",
+        "pattern": "PowerShell invocation",
+        "file": "SKILL.md",
+        "line_start": 124,
+        "line_end": 124,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:133:powershell-invocation",
+        "category": "external_commands",
+        "severity": "high",
+        "pattern": "PowerShell invocation",
+        "file": "SKILL.md",
+        "line_start": 133,
+        "line_end": 133,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "external_commands:SKILL.md:138:powershell-invocation",
+        "category": "external_commands",
+        "severity": "high",
+        "pattern": "PowerShell invocation",
+        "file": "SKILL.md",
+        "line_start": 138,
+        "line_end": 138,
+        "snippet": "```powershell"
+      },
+      {
+        "id": "blocker:SKILL.md:119:system-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "System reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 119,
+        "line_end": 119,
+        "snippet": "*   Did you populate `doc_id`, `title`, and `provenance`?"
+      },
+      {
+        "id": "blocker:SKILL.md:120:system-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "System reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 120,
+        "line_end": 120,
+        "snippet": "*   Did you populate `reliability` and `ocr_status` with controlled values?"
+      },
+      {
+        "id": "blocker:SKILL.md:134:system-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "System reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 134,
+        "line_end": 134,
+        "snippet": "python 99_Working_Files/refinement_workflow.py flag-task --id [TASK_ID] --theme Coercion_Duress --re"
+      },
+      {
+        "id": "blocker:SKILL.md:139:system-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "System reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 139,
+        "line_end": 139,
+        "snippet": "python 99_Working_Files/refinement_workflow.py flag-task --id [TASK_ID] --theme Coercion_Duress --re"
+      },
+      {
+        "id": "blocker:SKILL.md:134:network-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "Network reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 134,
+        "line_end": 134,
+        "snippet": "python 99_Working_Files/refinement_workflow.py flag-task --id [TASK_ID] --theme Coercion_Duress --re"
+      },
+      {
+        "id": "blocker:SKILL.md:139:network-reconnaissance",
+        "category": "blocker",
+        "severity": "low",
+        "pattern": "Network reconnaissance",
+        "file": "SKILL.md",
+        "line_start": 139,
+        "line_end": 139,
+        "snippet": "python 99_Working_Files/refinement_workflow.py flag-task --id [TASK_ID] --theme Coercion_Duress --re"
+      }
+    ],
+    "finding_verdicts": [
+      {
+        "id": "external_commands:SKILL.md:7:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:8:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:10:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.78,
+        "reason": "The instruction tells the agent to run codex_exec_runner.sh with event logging. Running repository scripts and writing raw JSONL logs can execute local code and expose task data.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:20:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:30:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:31:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:35:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.82,
+        "reason": "The fenced block contains a command to run refinement_workflow.py get-task. Executing repository workflow scripts from a skill is real external command use.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:37:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:40:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:42:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.72,
+        "reason": "The fenced block runs a Python one-liner against a task file path. It is intended for local JSON reading, but it still instructs command execution.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:44:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:62:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:63:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:94:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:97:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:99:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:102:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:104:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:109:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:112:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:119:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:120:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:121:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:124:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.86,
+        "reason": "The fenced block instructs running submit-task, which appends analysis to an internal report. That can modify repository workflow state.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:126:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:127:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:128:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:132:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:133:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.84,
+        "reason": "The fenced block instructs running flag-task for workflow triage. This is local command execution that can update tracking files.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:135:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:137:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.75,
+        "reason": "The text says the OCR failure action will automatically move a source file to another pipeline. Automatic file movement is a real workflow mutation risk.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:138:ruby-shell-backtick-execution",
+        "verdict": "confirmed",
+        "confidence": 0.86,
+        "reason": "The fenced block instructs running flag-task with OCR_Failure, tied to moving files into the Vision pipeline. That is external command use with filesystem impact.",
+        "severity": "medium"
+      },
+      {
+        "id": "external_commands:SKILL.md:140:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:143:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:144:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:145:ruby-shell-backtick-execution",
+        "verdict": "false_positive",
+        "confidence": 0.93,
+        "reason": "The backticks here are Markdown formatting for inline code, paths, placeholders, or code fences. There is no shell command substitution or Ruby backtick execution on this finding."
+      },
+      {
+        "id": "external_commands:SKILL.md:35:powershell-invocation",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The snippet is a Markdown code-fence language label, not a PowerShell command. The surrounding workflow command risk is handled by separate command-block verdicts."
+      },
+      {
+        "id": "external_commands:SKILL.md:42:powershell-invocation",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The snippet is a Markdown code-fence language label, not a PowerShell command. The surrounding workflow command risk is handled by separate command-block verdicts."
+      },
+      {
+        "id": "external_commands:SKILL.md:124:powershell-invocation",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The snippet is a Markdown code-fence language label, not a PowerShell command. The surrounding workflow command risk is handled by separate command-block verdicts."
+      },
+      {
+        "id": "external_commands:SKILL.md:133:powershell-invocation",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The snippet is a Markdown code-fence language label, not a PowerShell command. The surrounding workflow command risk is handled by separate command-block verdicts."
+      },
+      {
+        "id": "external_commands:SKILL.md:138:powershell-invocation",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The snippet is a Markdown code-fence language label, not a PowerShell command. The surrounding workflow command risk is handled by separate command-block verdicts."
+      },
+      {
+        "id": "blocker:SKILL.md:119:system-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.94,
+        "reason": "This checklist item asks for document metadata, not host or network reconnaissance. It does not enumerate system resources or scan network targets."
+      },
+      {
+        "id": "blocker:SKILL.md:120:system-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.94,
+        "reason": "This checklist item asks for document metadata, not host or network reconnaissance. It does not enumerate system resources or scan network targets."
+      },
+      {
+        "id": "blocker:SKILL.md:134:system-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.88,
+        "reason": "The command updates workflow status for a known task id. It does not collect host information or perform system reconnaissance."
+      },
+      {
+        "id": "blocker:SKILL.md:139:system-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.88,
+        "reason": "The command updates workflow status for a known task id. It does not collect host information or perform system reconnaissance."
+      },
+      {
+        "id": "blocker:SKILL.md:134:network-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The command passes a task id and theme to a local workflow script. No network host, port, route, or scan target is present."
+      },
+      {
+        "id": "blocker:SKILL.md:139:network-reconnaissance",
+        "verdict": "false_positive",
+        "confidence": 0.9,
+        "reason": "The command passes a task id and theme to a local workflow script. No network host, port, route, or scan target is present."
+      }
+    ],
+    "semantic_findings": [
+      {
+        "title": "Prompt Injection Attempt Detected",
+        "description": "The skill says to follow the system_instructions block injected into every JSON task file as hard constraints. This lets untrusted task data override agent behavior.",
+        "severity": "high",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 20,
+            "line_end": 20
+          }
+        ],
+        "confidence": 0.93,
+        "confidence_reasoning": "The wording explicitly delegates instruction authority to a block injected into task JSON. That is a direct prompt-injection risk because task data is untrusted."
+      }
+    ],
+    "critical_findings": [],
+    "high_findings": [
+      {
+        "title": "Prompt Injection Attempt Detected",
+        "description": "The skill says to follow the system_instructions block injected into every JSON task file as hard constraints. This lets untrusted task data override agent behavior.",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 20,
+            "line_end": 20
+          }
+        ],
+        "review_kind": "security",
+        "source_category": "semantic",
+        "source_severity": "high",
+        "confidence": 0.93,
+        "confidence_reasoning": "The wording explicitly delegates instruction authority to a block injected into task JSON. That is a direct prompt-injection risk because task data is untrusted."
+      }
+    ],
+    "medium_findings": [
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "- For court audit trails, run batches via `codex_exec_runner.sh` with `PUKAIST_CODEX_LOG_EVENTS=1` t",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 10,
+            "line_end": 10
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.78,
+        "confidence_reasoning": "The instruction tells the agent to run codex_exec_runner.sh with event logging. Running repository scripts and writing raw JSONL logs can execute local code and expose task data."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "```powershell",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 35,
+            "line_end": 37
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.82,
+        "confidence_reasoning": "The fenced block contains a command to run refinement_workflow.py get-task. Executing repository workflow scripts from a skill is real external command use."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "```powershell",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 42,
+            "line_end": 44
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.72,
+        "confidence_reasoning": "The fenced block runs a Python one-liner against a task file path. It is intended for local JSON reading, but it still instructs command execution."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "```powershell",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 124,
+            "line_end": 126
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.86,
+        "confidence_reasoning": "The fenced block instructs running submit-task, which appends analysis to an internal report. That can modify repository workflow state."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "```powershell",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 133,
+            "line_end": 135
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.84,
+        "confidence_reasoning": "The fenced block instructs running flag-task for workflow triage. This is local command execution that can update tracking files."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "*   **Action:** This command will **automatically move the source file** to the Vision Pipeline (`07",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 137,
+            "line_end": 138
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.75,
+        "confidence_reasoning": "The text says the OCR failure action will automatically move a source file to another pipeline. Automatic file movement is a real workflow mutation risk."
+      },
+      {
+        "title": "Ruby/shell backtick execution",
+        "description": "```powershell",
+        "locations": [
+          {
+            "file": "SKILL.md",
+            "line_start": 138,
+            "line_end": 140
+          }
+        ],
+        "review_kind": "capability",
+        "source_category": "external_commands",
+        "source_severity": "medium",
+        "confidence": 0.86,
+        "confidence_reasoning": "The fenced block instructs running flag-task with OCR_Failure, tied to moving files into the Vision pipeline. That is external command use with filesystem impact."
+      }
+    ],
+    "low_findings": [],
+    "dangerous_patterns": [],
+    "files_scanned": 1,
+    "total_lines": 161,
+    "audit_model": "codex",
+    "audited_at": "2026-07-06T01:41:29.614Z",
+    "agent_auto_install_policy": "confirmation_required",
+    "manual_install_policy": "allowed"
+  },
+  "content": {
+    "user_title": "Review Coercion and Duress Evidence",
+    "value_statement": "Historical evidence reviews can miss forced surrender cues, procedural irregularities, and consent issues. This skill guides Claude, Codex, and Claude Code through a structured JSON-only review workflow.",
+    "seo_keywords": [
+      "Claude",
+      "Codex",
+      "Claude Code",
+      "coercion evidence review",
+      "duress analysis",
+      "legal document indexing",
+      "forced surrender records",
+      "procedural irregularities",
+      "verbatim evidence extraction",
+      "historical claims research"
+    ],
+    "actual_capabilities": [
+      "Guides review of Coercion_Duress JSON task batches for forced surrenders, threats, and consent issues.",
+      "Defines output fields for provenance, reliability, OCR status, evidence quotes, and page references.",
+      "Requires verbatim evidence extraction and neutral factual summaries without legal conclusions.",
+      "Provides validation checks for metadata, minimum narrative length, date format, and banned opinion words.",
+      "Describes a command-based workflow for fetching, submitting, and flagging tasks through refinement_workflow.py.",
+      "Explains flag reasons for irrelevant, OCR failure, and provenance failure cases."
+    ],
+    "limitations": [
+      "It is not a legal opinion tool and forbids conclusions such as proving fraud.",
+      "It requires existing repository scripts and JSON task files, so it is not self-contained.",
+      "It does not verify external sources beyond task content and referenced provenance fields.",
+      "Its command examples can modify local workflow state when they are run."
+    ],
+    "use_cases": [
+      {
+        "title": "Index forced surrender evidence",
+        "description": "Review task batches for threats, pressure language, and consent problems while preserving exact quotes.",
+        "target_user": "Legal archivist"
+      },
+      {
+        "title": "Prepare neutral evidence summaries",
+        "description": "Convert document excerpts into factual summaries with provenance, reliability, OCR status, and page references.",
+        "target_user": "Research assistant"
+      },
+      {
+        "title": "Validate Coercion_Duress submissions",
+        "description": "Check metadata, banned words, date format, and manager review status before workflow submission.",
+        "target_user": "Workflow reviewer"
+      }
+    ],
+    "prompt_templates": [
+      {
+        "title": "Review one task batch",
+        "scenario": "Beginner review of a Coercion_Duress input file.",
+        "prompt": "Use the coercion-duress skill to review one Coercion_Duress task batch. Extract only factual evidence about threats, pressure, consent, and procedure."
+      },
+      {
+        "title": "Build citation-ready summaries",
+        "scenario": "Intermediate evidence extraction with page anchors.",
+        "prompt": "Review this batch and prepare neutral summaries with document identifiers, dates, provenance, reliability, OCR status, verbatim quotes, and page references."
+      },
+      {
+        "title": "Flag workflow exceptions",
+        "scenario": "Advanced triage for poor input quality or provenance gaps.",
+        "prompt": "Review the task set for corrupt text, irrelevant material, OCR failure, or provenance failure. State the proper flag reason for each exception."
+      },
+      {
+        "title": "Audit before submission",
+        "scenario": "Advanced pre-flight review of completed analysis.",
+        "prompt": "Audit the completed Coercion_Duress analysis against the skill rules. Find missing metadata, opinion words, weak citations, short summaries, and premature conclusions."
+      }
+    ],
+    "output_examples": [
+      {
+        "input": "A task batch contains correspondence about a surrender meeting and disputed signatures.",
+        "output": "The review identifies the document title, date, provenance, reliability, OCR status, exact pressure language, and page anchors for each relevant passage."
+      },
+      {
+        "input": "A task has garbled OCR text and no usable document context.",
+        "output": "The result records an OCR failure recommendation and avoids adding unsupported evidence summaries."
+      },
+      {
+        "input": "A completed analysis uses words such as likely and suggests.",
+        "output": "The pre-flight review marks those terms for removal and replaces them with factual wording tied to direct quotes."
+      }
+    ],
+    "best_practices": [
+      "Read the full super task before judging relevance or extracting evidence.",
+      "Use verbatim quotes and page anchors when the task includes usable evidence.",
+      "Run pre-flight checks for metadata, date format, length, and opinion words before submission."
+    ],
+    "anti_patterns": [
+      "Using keyword matches instead of reading the surrounding context.",
+      "Returning Unknown for metadata that appears in the task text.",
+      "Treating workflow submissions as final before manager approval."
+    ],
+    "faq": [
+      {
+        "question": "What documents does this skill review?",
+        "answer": "It reviews Coercion_Duress JSON task batches that contain historical document excerpts and metadata."
+      },
+      {
+        "question": "Does it provide legal conclusions?",
+        "answer": "No. It requires neutral summaries, verbatim evidence, and factual context only."
+      },
+      {
+        "question": "Can it analyze PDFs directly?",
+        "answer": "No. The instructions limit the workflow to JSON input and JSON output."
+      },
+      {
+        "question": "What evidence does it prioritize?",
+        "answer": "It prioritizes threats, forced surrender language, consent problems, translation issues, and procedural irregularities."
+      },
+      {
+        "question": "Why are metadata checks required?",
+        "answer": "Metadata checks keep document identifiers, dates, provenance, reliability, and OCR status consistent for later review."
+      },
+      {
+        "question": "Does it need local scripts?",
+        "answer": "Yes. The described fetch, submit, and flag workflow depends on repository scripts."
+      }
+    ]
+  },
+  "file_structure": [
+    {
+      "name": "SKILL.md",
+      "type": "file",
+      "path": "SKILL.md",
+      "lines": 161
+    }
+  ]
+}

@@ -5,11 +5,14 @@ description: Türkiye Kişisel Verilerin Korunması Kanunu (KVKK / 6698 sayılı
 author: aiskillstore
 author_url: https://github.com/aiskillstore/marketplace/tree/main/skills/cesareth/kvkk-denetim
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: tr
 practice: data-protection
 language: tr
+sources:
+- title: Kvkk maddeler
+  path: references/kvkk-maddeler.md
 ---
 
 # KVKK Denetim Aracı

@@ -5,7 +5,7 @@ description: 用于法规要求与业务条款匹配检查，基于监管规则�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/regulation-matching-assistant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: regulatory

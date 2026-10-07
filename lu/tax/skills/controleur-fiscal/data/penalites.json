@@ -1,0 +1,101 @@
+{
+  "description": "Pénalités, intérêts et sanctions fiscales — Luxembourg",
+  "as_of": "2025-01-01",
+  "sources": {
+    "irc_irpp": "Loi générale des impôts (Abgabenordnung — AO), §§ 396-415",
+    "tva": "Loi modifiée du 12 février 1979 concernant la TVA, art. 77-79",
+    "url_acd": "https://impotsdirects.public.lu/",
+    "url_aed": "https://pfi.public.lu/"
+  },
+  "intérêts_de_retard": {
+    "ACD": {
+      "taux_mensuel_pct": 0.6,
+      "taux_annuel_pct": 7.2,
+      "calcul": "Sur impôt non payé à l'échéance",
+      "remarque": "Taux fixé par règlement grand-ducal — vérifier annuellement"
+    },
+    "AED_TVA": {
+      "taux_mensuel_pct": 0.6,
+      "calcul": "Sur TVA non payée — démarre à l'échéance déclarative"
+    }
+  },
+  "amendes_administratives": {
+    "TVA": {
+      "défaut_déclaration": {
+        "fourchette_eur": [250, 10000],
+        "description": "Non-dépôt de déclaration TVA dans les délais"
+      },
+      "déclaration_inexacte": {
+        "fourchette_eur": [250, 10000],
+        "description": "Inexactitudes ou omissions dans la déclaration"
+      },
+      "majoration_taxe": {
+        "min_pct": 10,
+        "max_pct": 25,
+        "description": "Majoration de la TVA éludée (selon gravité)"
+      }
+    },
+    "ACD_IRC_IRPP": {
+      "défaut_dépôt": {
+        "majoration_pct_max": 10,
+        "description": "Majoration jusqu'à 10 % de l'impôt fixé en cas de retard de déclaration"
+      },
+      "majoration_d_office_taxation": {
+        "calcul": "L'ACD peut taxer d'office en cas d'absence de déclaration — sans abattement, à charge du contribuable de prouver le contraire"
+      }
+    }
+  },
+  "sanctions_pénales": {
+    "fraude_fiscale_simple": {
+      "article": "AO § 396",
+      "amende_eur_max": 50000,
+      "remarque": "Si éludé < 200 000 € — sanction administrative aggravée"
+    },
+    "fraude_fiscale_aggravée": {
+      "article": "AO § 396 al. 2",
+      "amende_eur": "jusqu'à 1 000 000 €",
+      "prison_ans": "jusqu'à 5 ans",
+      "remarque": "Si éludé ≥ 200 000 € OU usage de manœuvres frauduleuses systématiques"
+    },
+    "escroquerie_fiscale": {
+      "article": "AO § 396 al. 5",
+      "amende_eur": "jusqu'à 10× le montant éludé",
+      "prison_ans": "1 mois à 5 ans"
+    }
+  },
+  "délais_procédure": {
+    "déclaration_irc_irpp": "31 décembre N+1 pour exercice clos au 31/12/N (sursis sur demande)",
+    "déclaration_tva_100_annuelle": "1er mars N+1",
+    "réclamation_contre_bulletin": "3 mois à compter de la notification (art. 100 AO)",
+    "recours_tribunal_administratif": "3 mois après décision sur réclamation (loi du 7 novembre 1996)",
+    "prescription_droit_de_rappel": {
+      "régime_normal_ans": 5,
+      "régime_fraude_ans": 10,
+      "point_départ": "Fin de l'année où la déclaration aurait dû être déposée"
+    }
+  },
+  "contrôle_fiscal": {
+    "préavis": {
+      "délai_jours": 7,
+      "description": "L'ACD/AED notifie un avis de contrôle au moins 7 jours avant le contrôle sur place (sauf urgence)"
+    },
+    "documents_communicables": [
+      "Comptabilité complète (PCN, journal, grand livre, balances)",
+      "FAIA (SAF-T) sur demande pour la période contrôlée",
+      "Pièces justificatives (factures émises et reçues)",
+      "Contrats et conventions",
+      "Relevés bancaires",
+      "Procès-verbaux d'assemblée, registre des associés"
+    ],
+    "durée_max_contrôle_sur_place": "Pas de durée légale plafonnée — usage 1 à 6 mois selon dossier"
+  },
+  "régularisation_spontanée": {
+    "principe": "L'art. 410 AO (Selbstanzeige) permet une dénonciation spontanée évitant les sanctions pénales si :",
+    "conditions": [
+      "Avant tout contrôle ou découverte par l'administration",
+      "Communication complète et exacte des éléments éludés",
+      "Paiement intégral des impôts + intérêts dans le délai imparti"
+    ],
+    "effet": "Annulation poursuites pénales — intérêts de retard restent dus"
+  }
+}

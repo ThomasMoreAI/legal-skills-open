@@ -5,7 +5,7 @@ description: 'Guides the GDPR Article 56 one-stop-shop mechanism for determining
 author: mukul975
 author_url: https://github.com/mukul975/Privacy-Data-Protection-Skills/tree/main/skills/privacy/gdpr-one-stop-shop
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: data-protection

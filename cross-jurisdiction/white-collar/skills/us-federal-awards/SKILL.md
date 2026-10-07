@@ -1,11 +1,11 @@
 ---
 name: us-federal-awards
-title: 'Us federal awards'
+title: Us federal awards
 description: 'Search U.S. federal spending for free via the official USAspending.gov API - find which US federal contracts and grants a company has received, who receives US government money, award amounts and awarding agencies, recipient UEI/DUNS lookup, and federal awards by NAICS/PSC or period. Use for KYB / due-diligence credibility signals (which US federal contracts or grants has this company won) and for government-contractor lead generation. Trigger on: ''USAspending'', ''US federal contracts'', ''federal awards'', ''government awards'', ''government grants'', ''who receives US government money'', ''federal contractor lookup'', ''find US government contracts'', ''recipient UEI lookup'', ''which federal grants did this company get'', ''DUNS lookup''. USAspending is free and keyless; to resolve the recipient''s corporate record it routes to the free registry skills and the paid regdata actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/us-federal-awards
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -128,3 +128,7 @@ To screen a federal recipient for **debarment or suspension**, pair this with **
 - **`sec-edgar-us`** - free U.S. public-company filings and financials once a federal recipient turns out to be an SEC filer.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors that resolve the recipient.
 - **`regdata-lead-gen`** - turn the government-contractor / federal-award lane into a qualified outreach list.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

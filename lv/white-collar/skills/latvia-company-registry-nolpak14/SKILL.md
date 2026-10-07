@@ -1,11 +1,11 @@
 ---
 name: latvia-company-registry-nolpak14
-title: 'Latvia company registry'
+title: Latvia company registry
 description: 'Look up Latvian companies for free via the official Register of Enterprises (Uznemumu registrs) open data on data.gov.lv - company profile, registration number (regcode), legal form, registered address, board members and officers (amatpersonas), and - rare among registries - open beneficial owners / UBO (patiesie labuma guveji). Use for KYB / know-your-business checks, counterparty verification, director discovery, and Latvian beneficial-owner (UBO) due diligence. Trigger on: ''Latvia company lookup'', ''Uznemumu registrs'', ''Latvian registration number'', ''check a Latvian company'', ''Latvia regcode'', ''Latvian directors'', ''Latvian beneficial owners'', ''Latvia UBO'', ''is this Latvian company terminated''. The Latvia data is free and keyless; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/latvia-company-registry
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: lv
 practice: white-collar
@@ -140,3 +140,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`vies-vat-validation`** - validate the Latvian (or any EU) VAT number; Latvia is in the EU, so a VIES check confirms the entity's VAT registration alongside the regcode.
 - **`sanctions-pep-screening`** - screen the officers and beneficial owners you found here against sanctions and PEP lists.
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Latvian jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

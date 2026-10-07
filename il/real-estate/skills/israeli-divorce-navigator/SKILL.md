@@ -5,7 +5,7 @@ description: 'Not legal advice. Walks a person through the Israeli divorce proce
 author: skills-il
 author_url: https://github.com/skills-il/legal-tech/tree/master/israeli-divorce-navigator
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: il
 practice: real-estate

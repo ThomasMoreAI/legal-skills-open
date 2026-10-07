@@ -1,0 +1,41 @@
+title: Paperasse Lux
+description: Skills pour agents IA spécialisés dans la bureaucratie luxembourgeoise
+remote_theme: just-the-docs/just-the-docs
+url: https://gregherbe76.github.io
+baseurl: /Luxembourg-Paperasse
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+aux_links:
+  "Code source sur GitHub":
+    - "https://github.com/gregherbe76/Luxembourg-Paperasse"
+  "AgentSkill.sh":
+    - "https://agentskill.sh/@gregherbe76"
+
+nav_external_links:
+  - title: "GitHub ↗"
+    url: "https://github.com/gregherbe76/Luxembourg-Paperasse"
+
+footer_content: >
+  Projet open-source MIT — données et calculs fournis à titre indicatif,
+  ne dispensent pas de consulter un fiduciaire ou notaire luxembourgeois.
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

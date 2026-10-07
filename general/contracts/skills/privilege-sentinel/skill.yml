@@ -1,0 +1,13 @@
+name: Privilege Sentinel
+practice_area: Compliance / AI Governance
+jurisdiction: Multi
+version: "1.0"
+author: Emily Cabrera — Hackathon 2026
+description: >
+  Pre-flight privilege and work-product check for legal AI prompts.
+  Evaluates whether a prompt about to be sent to a third-party AI
+  surface (ChatGPT, Claude.ai, Copilot, Gemini, etc.) risks blowing
+  attorney-client privilege or work-product protection. Returns a
+  SAFE / CAUTION / STOP band with cited factors, a discovery-impact
+  line, and a redacted-safe rewrite. Backed by a knowledge base of
+  case law, ethics rules, surface profiles, and a risk taxonomy.

@@ -1,0 +1,25 @@
+evals:
+  - mode: calculation_mode
+    prompt: >
+      Model 1,000 claims, mean damages GBP 12,000, win probability 58%, funded costs GBP 1.8m, funder return 2x MOIC. No tax, ATE, costs budget, or stochastic distribution is supplied.
+    must_include:
+      - confidence
+      - assumptions register
+      - expected gross recovery calculation
+      - funder entitlement calculation
+      - not_modelled items
+      - no Monte Carlo percentiles
+    must_not_include:
+      - commercially viable
+      - legal enforceability conclusion
+  - mode: specification_mode
+    prompt: >
+      Build a litigation funding model, but I have not supplied claim count, damages, timing, costs, or funding terms.
+    must_include:
+      - confidence
+      - model specification
+      - assumptions needed
+      - no calculated outputs
+    must_not_include:
+      - IRR
+      - percentile

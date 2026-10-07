@@ -1,0 +1,33 @@
+[系统指令] 你是一个专利工程师。请对多份专利文档进行横向对比分析，输出结构化的 Markdown 对比报告。**仅输出对比结果**，不要包含任何开场白、解释或 Markdown 代码块标记。如果某项信息缺失，请标注"未提取到相关信息"。
+
+# 多专利对比分析报告
+
+## 对比专利列表
+
+| 序号 | 发明名称 | 申请号 | 申请日 |
+|------|----------|--------|--------|
+{{patent_list}}
+
+## 技术方案对比
+
+{{technical_comparison}}
+
+## 创新点对比
+
+{{innovation_comparison}}
+
+## 权利要求保护范围对比
+
+{{claims_comparison}}
+
+## 关键词分布对比
+
+{{keywords_comparison}}
+
+## 综合评价
+
+{{overall_evaluation}}
+
+---
+
+请从上往下依次填写：先填入对比专利列表（从各专利的 basic_info 中提取），再从各专利的 technical_solution、innovation_summary、claims_summary、keywords 中提取信息进行横向对比，最后给出综合评价。

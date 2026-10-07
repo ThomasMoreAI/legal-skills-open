@@ -1,0 +1,11 @@
+{
+  "owner": "52yuanchangxing",
+  "slug": "policy-application-checker",
+  "displayName": "policy-application-checker",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1773381742871,
+    "commit": "https://github.com/openclaw/skills/commit/fa3615affd0954f11a233d0941c218cd40c287e6"
+  },
+  "history": []
+}

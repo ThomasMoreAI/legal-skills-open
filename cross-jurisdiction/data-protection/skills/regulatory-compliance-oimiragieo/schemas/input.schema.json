@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "RegulatoryCompliance Input",
+  "description": "Validated inputs for the regulatory-compliance skill execution",
+  "type": "object",
+  "required": ["subject"],
+  "properties": {
+    "subject": {
+      "type": "string",
+      "description": "The system, feature, DPA, or interface being assessed for compliance"
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "EU",
+          "California",
+          "Virginia",
+          "Colorado",
+          "Connecticut",
+          "Texas",
+          "Oregon",
+          "Montana",
+          "Florida",
+          "Global"
+        ]
+      },
+      "description": "List of jurisdictions to assess compliance against",
+      "default": ["EU", "California"]
+    },
+    "regulations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["GDPR", "CCPA", "CPRA", "VCDPA", "ADA", "WCAG", "DPA", "Section508"]
+      },
+      "description": "Specific regulations to check; if omitted all applicable regulations are assessed"
+    },
+    "dataCategories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Categories of personal data involved (e.g., name, email, IP address, behavioral data, biometrics)"
+    },
+    "assessmentScope": {
+      "type": "string",
+      "enum": [
+        "full",
+        "gdpr-ccpa-only",
+        "accessibility-only",
+        "dpa-only",
+        "privacy-by-design-only"
+      ],
+      "description": "Scope of the compliance assessment",
+      "default": "full"
+    },
+    "dpaPath": {
+      "type": "string",
+      "description": "File path to the DPA document to validate (required when assessmentScope includes DPA)"
+    },
+    "outputPath": {
+      "type": "string",
+      "description": "Directory path to write the compliance report; defaults to .claude/context/reports/compliance/"
+    }
+  },
+  "additionalProperties": false
+}

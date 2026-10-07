@@ -1,11 +1,11 @@
 ---
 name: us-court-records-nolpak14
-title: 'Us court records'
+title: Us court records
 description: 'Search US litigation and court records against a person or company for free - CourtListener''s REST API over PACER/RECAP dockets plus published court opinions, for adverse-history due diligence. Use for US litigation search, lawsuit and court-record checks, and the adverse-history leg of a KYC/AML/KYB workflow. Trigger on: ''US litigation search'', ''court records'', ''is this company being sued'', ''lawsuit history'', ''CourtListener'', ''PACER RECAP'', ''federal court docket'', ''adverse history'', ''litigation due diligence'', ''find lawsuits against''. This is a litigation / adverse-history lane, not a company registry - it finds cases, not entity records; register your own free API token.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/us-court-records
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: white-collar
@@ -139,3 +139,7 @@ For the full workflow - risk scoring, adverse-media overlay, cross-source valida
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework; litigation history is one of its adverse-history risk dimensions.
 - **`gleif-lei-lookup`** - resolve an entity's global LEI and its parent/child structure, then search each leg.
 - **`companies-house-uk`** - free source for the entity and the people to search.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

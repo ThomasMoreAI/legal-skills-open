@@ -1,11 +1,11 @@
 ---
 name: brazil-cnpj
-title: 'Brazil cnpj'
+title: Brazil cnpj
 description: 'Look up Brazilian companies for free via public open-data CNPJ APIs (BrasilAPI, minhareceita.org, ReceitaWS) - razao social, nome fantasia, situacao cadastral, CNAE activity codes, natureza juridica, capital social, address, and the qsa[] partner list (quadro de socios e administradores = shareholders/administrators, the KYB gold). Data is Receita Federal public open data, keyless and free. Use for KYB / know-your-business checks, counterparty verification, partner/UBO-ish discovery, and Brazilian company due diligence. Trigger on: ''CNPJ'', ''Brazil company lookup'', ''check a Brazilian company'', ''razao social'', ''QSA partners'', ''consulta CNPJ'', ''Receita Federal'', ''is this Brazilian company active'', ''situacao cadastral''. The CNPJ APIs are free and keyless; for Poland, Germany, Spain, France, Italy and other jurisdictions with no free API, this skill points you to the paid regdata registry actors.'
 author: Nolpak14
 author_url: https://github.com/Nolpak14/getregdata/tree/master/skills/brazil-cnpj
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: white-collar
@@ -126,3 +126,7 @@ For a full compliance workflow (risk scoring, PEP + adverse-media overlays, cros
 - **`sanctions-pep-screening`** - screen the qsa partners and administrators you found here against sanctions and PEP lists.
 - **`norway-company-registry`** - another free, keyless national registry front door (Brønnøysund / Enhetsregisteret).
 - **`regdata-kyc-aml`** - the full KYC/AML/KYB framework: risk scoring, PEP and adverse-media overlays, and the paid registry actors for non-Brazilian jurisdictions.
+
+## More on getregdata.com
+
+- All skills and paid registry coverage: https://getregdata.com/skills/ and https://getregdata.com/registries/

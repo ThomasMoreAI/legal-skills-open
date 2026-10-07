@@ -5,7 +5,7 @@ description: 'Use this skill whenever the user wants to create, read, edit, or m
 author: Golden2002
 author_url: https://github.com/Golden2002/legal-research-skill/tree/main/docx
 license: MIT
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: cn
 practice: general

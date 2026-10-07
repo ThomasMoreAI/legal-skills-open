@@ -1,0 +1,11 @@
+name: Formation Counsel
+practice_area: Corporate
+jurisdiction: Multi
+version: "1.0"
+author: Robb Miller — Hackathon 2026
+description: >
+  Attorney-facing skill for US and Canadian startup formation work.
+  Produces risk-flagged analysis and attorney-ready drafts covering
+  entity selection, jurisdiction choice, cap tables, founder vesting,
+  §83(b) elections, and cross-border structuring. Defaults to Delaware
+  C-Corp (US) and federal CBCA (Canada) for VC-track clients.

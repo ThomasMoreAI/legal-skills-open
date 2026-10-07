@@ -1,0 +1,62 @@
+"""Lightweight validation helpers for Office XML documents."""
+
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+from typing import Iterable
+
+try:
+    import defusedxml.ElementTree as ET
+except ImportError:
+    print("❌ 缺少依赖: defusedxml\n   请运行: python3 -m pip install -r scripts/requirements.txt", file=sys.stderr)
+    raise SystemExit(1)
+
+
+class BaseValidator:
+    """Basic structural checks for unpacked Office documents."""
+
+    required_files: Iterable[str] = ()
+
+    def __init__(self, unpacked_dir: Path, original_file: Path, verbose: bool = False):
+        self.unpacked_dir = Path(unpacked_dir)
+        self.original_file = Path(original_file)
+        self.verbose = verbose
+
+    def validate(self) -> bool:
+        if not self._check_required_files():
+            return False
+        return self._parse_xml_files()
+
+    def _check_required_files(self) -> bool:
+        missing = [p for p in self.required_files if not (self.unpacked_dir / p).exists()]
+        if missing:
+            if self.verbose:
+                print(f"Missing required files: {missing}")
+            return False
+        return True
+
+    def _parse_xml_files(self) -> bool:
+        for rel_path in self.required_files:
+            if not rel_path.endswith((".xml", ".rels")):
+                continue
+            file_path = self.unpacked_dir / rel_path
+            try:
+                ET.parse(file_path)
+            except ET.ParseError as exc:
+                if self.verbose:
+                    print(f"Invalid XML in {rel_path}: {exc}")
+                return False
+        return True
+
+
+class DOCXSchemaValidator(BaseValidator):
+    required_files = (
+        "[Content_Types].xml",
+        "word/document.xml",
+        "word/_rels/document.xml.rels",
+    )
+
+
+class RedliningValidator(BaseValidator):
+    required_files = ("word/document.xml",)

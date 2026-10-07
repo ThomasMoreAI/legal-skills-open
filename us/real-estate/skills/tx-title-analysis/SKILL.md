@@ -14,7 +14,7 @@ description: 'Texas title examination for residential and commercial real estate
 author: bstevescherer
 author_url: https://github.com/bstevescherer/heycounsel-community/tree/main/skills/tx-title-analysis
 license: MIT
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: us
 practice: real-estate

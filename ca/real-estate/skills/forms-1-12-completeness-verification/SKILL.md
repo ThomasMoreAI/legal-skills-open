@@ -5,7 +5,7 @@ description: Use when pre-flighting Ontario expropriation Forms 1-12 under O.Reg
 author: reggiechan74
 author_url: https://github.com/reggiechan74/vp-real-estate/tree/main/plugins/expropriation-law/skills/forms-1-12-completeness-verification
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: ca
 practice: real-estate

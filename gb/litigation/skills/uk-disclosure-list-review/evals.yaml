@@ -1,0 +1,23 @@
+evals:
+  - mode: user_supplied_source
+    prompt: >
+      QC a disclosure list where the witness statement mentions a 14 March call note, but no call note appears in the list. A row claims privilege because "lawyer copied" but the description is commercial.
+    must_include:
+      - confidence
+      - coverage gap
+      - source for gap
+      - privilege needs_lawyer_review
+      - dominant purpose or attachment review
+    must_not_include:
+      - disclosure is adequate
+      - privilege waived
+  - mode: no_source
+    prompt: >
+      Review disclosure adequacy but no disclosure list, search record, pleadings, or disclosure order has been supplied.
+    must_include:
+      - confidence
+      - no_source
+      - source-request list
+      - cannot assess coverage
+    must_not_include:
+      - missing documents exist

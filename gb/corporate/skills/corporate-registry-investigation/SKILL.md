@@ -1,11 +1,11 @@
 ---
 name: corporate-registry-investigation
-title: 'Corporate registry investigation'
+title: Corporate registry investigation
 description: Use when users say "Companies House search", "investigate this UK company", "check officers/PSCs/charges", "registry snapshot", "group structure", "filing history", or need UK company profile, filings, risk leads, and registry evidence reviewed without unsupported allegations.
 author: LegalQuants
 author_url: https://github.com/LegalQuants/lq-skills/tree/main/skills/corporate-registry-investigation
 license: Apache-2.0
-version: 0.1.1
+version: 0.1.2
 execution_mode: open
 jurisdiction: gb
 practice: corporate

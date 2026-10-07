@@ -1,0 +1,246 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "US State Privacy Navigator — Applicability Intake",
+  "description": "Structured intake schema. Each field corresponds to an input used by applicability_check.py. Required fields drive the threshold tests; optional fields refine status, gap analysis, and recommendations.",
+  "type": "object",
+  "required": [
+    "entity",
+    "revenue",
+    "consumers",
+    "sale_practices"
+  ],
+  "properties": {
+    "entity": {
+      "type": "object",
+      "description": "Legal entity and corporate structure.",
+      "required": ["legal_name", "for_profit"],
+      "properties": {
+        "legal_name": { "type": "string" },
+        "state_of_formation": { "type": "string" },
+        "entity_type": {
+          "type": "string",
+          "description": "e.g., C-corp, LLC, non-profit corporation"
+        },
+        "for_profit": { "type": "boolean" },
+        "naics_code": {
+          "type": "string",
+          "description": "Primary NAICS code (used for SBA size analysis under TX/NE)"
+        },
+        "affiliates": {
+          "type": "array",
+          "description": "Affiliated entities under shared branding or control. Relevant for CCPA § 1798.140(d)(2)–(3) joint-venture coverage.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": { "type": "string" },
+              "relationship": {
+                "type": "string",
+                "enum": ["parent", "subsidiary", "joint-venture", "common-control"]
+              },
+              "ownership_percent": { "type": "number" },
+              "shares_branding": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "revenue": {
+      "type": "object",
+      "description": "Annual revenue figures for threshold evaluation.",
+      "required": ["annual_gross"],
+      "properties": {
+        "annual_gross": {
+          "type": "number",
+          "description": "Annual gross revenue, in USD, for the most recent calendar year."
+        },
+        "scope": {
+          "type": "string",
+          "enum": ["us-only", "global"],
+          "default": "global"
+        },
+        "calendar_year": { "type": "integer" }
+      }
+    },
+    "consumers": {
+      "type": "object",
+      "description": "Per-state consumer counts. A 'consumer' is a natural person resident of the state whose PD was processed during the relevant period. CA uniquely includes employees, applicants, and B2B contacts.",
+      "properties": {
+        "us_total": { "type": "integer" },
+        "by_state": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "description": "Map of two-letter state code (uppercase) to consumer count. Counts SHOULD include all natural persons whose PD was processed, not only paying customers. Solely-payment-transaction-data exclusion applies in CT/OR/MT/DE/NJ/NH/MN/MD/RI but not CA."
+        },
+        "includes_employees_and_b2b_for_ca": {
+          "type": "boolean",
+          "description": "Whether the CA count includes employees, applicants, contractors, and B2B contacts (it should — they are 'consumers' under CCPA)."
+        }
+      }
+    },
+    "sale_practices": {
+      "type": "object",
+      "required": ["sells_pd"],
+      "properties": {
+        "sells_pd": {
+          "type": "boolean",
+          "description": "Whether the entity sells PD for monetary or other valuable consideration."
+        },
+        "shares_for_cross_context_advertising": {
+          "type": "boolean",
+          "description": "Whether the entity discloses PI to third parties for cross-context behavioral advertising (CA-specific 'sharing' concept; relevant to most other states' targeted-advertising opt-outs)."
+        },
+        "percent_revenue_from_sale": {
+          "type": "number",
+          "description": "Percentage of gross revenue derived from sale of PD (used for VA/UT/IA/IN/KY 50% threshold; CT/MN/RI 25% threshold; OR/NH 25% threshold; DE/MD/RI 20% threshold; CA 50% threshold)."
+        },
+        "any_revenue_from_sale": {
+          "type": "boolean",
+          "description": "Whether ANY revenue or discount is derived from sale (relevant for NJ second-tier activity threshold)."
+        },
+        "sells_sensitive_data_without_consent": {
+          "type": "boolean",
+          "description": "Critical for TX/NE small-business analysis — small-business carve-out forfeit if sensitive data is sold without consent."
+        }
+      }
+    },
+    "sectoral_overlay": {
+      "type": "object",
+      "description": "Sectoral exemptions to evaluate. Some are entity-level (full exemption from comprehensive privacy law); others are data-level (only the sectoral data is excluded).",
+      "properties": {
+        "hipaa_covered_entity_or_ba": { "type": "boolean" },
+        "glba_financial_institution": { "type": "boolean" },
+        "fcra_consumer_reporting_agency": { "type": "boolean" },
+        "fcra_user_of_consumer_reports": { "type": "boolean" },
+        "ferpa_school_or_processor": { "type": "boolean" },
+        "coppa_operator": { "type": "boolean" },
+        "non_profit": { "type": "boolean" },
+        "higher_ed_institution": { "type": "boolean" },
+        "government_entity": { "type": "boolean" }
+      }
+    },
+    "data_categories": {
+      "type": "object",
+      "description": "Inventory of PD categories processed.",
+      "properties": {
+        "account_profile_data": { "type": "boolean" },
+        "transaction_data": { "type": "boolean" },
+        "payment_data": { "type": "boolean" },
+        "web_mobile_analytics": { "type": "boolean" },
+        "device_identifiers": { "type": "boolean" },
+        "precise_geolocation": { "type": "boolean" },
+        "biometric_data_for_unique_id": { "type": "boolean" },
+        "health_data_non_hipaa": { "type": "boolean" },
+        "financial_data": { "type": "boolean" },
+        "communications_content": { "type": "boolean" },
+        "government_identifiers": { "type": "boolean" },
+        "account_credentials": { "type": "boolean" },
+        "racial_ethnic_origin": { "type": "boolean" },
+        "religious_beliefs": { "type": "boolean" },
+        "sex_life_orientation": { "type": "boolean" },
+        "citizenship_immigration": { "type": "boolean" },
+        "genetic_data": { "type": "boolean" },
+        "child_data_under_13": { "type": "boolean" },
+        "teen_data_13_to_17": { "type": "boolean" },
+        "employee_applicant_b2b_data_ca": {
+          "type": "boolean",
+          "description": "Whether the entity processes employee, applicant, contractor, or B2B contact PD of CA residents. CCPA-specific; other states exclude."
+        }
+      }
+    },
+    "advertising_and_profiling": {
+      "type": "object",
+      "properties": {
+        "engages_in_targeted_advertising": { "type": "boolean" },
+        "advertising_pixels_deployed": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "examples": ["meta_pixel", "google_ads", "google_analytics", "linkedin_insight", "tiktok_pixel", "twitter_pixel", "snap_pixel", "pinterest_tag", "criteo", "bing_ads", "tradedesk", "doubleclick"]
+          }
+        },
+        "uses_profiling_for_significant_decisions": {
+          "type": "boolean",
+          "description": "Whether automated profiling produces or contributes to legal or similarly significant decisions (credit, employment, housing, insurance, healthcare, education access)."
+        },
+        "uses_admt": {
+          "type": "boolean",
+          "description": "Whether automated decision-making technology is used in employment, housing, insurance, healthcare, or education contexts (relevant to CA CPPA ADMT regs)."
+        }
+      }
+    },
+    "consent_and_notice_infrastructure": {
+      "type": "object",
+      "properties": {
+        "has_cmp": { "type": "boolean" },
+        "cmp_provider": { "type": "string" },
+        "cmp_handles_gpc": { "type": "boolean" },
+        "privacy_notice_last_updated": {
+          "type": "string",
+          "format": "date"
+        },
+        "notice_jurisdictions_addressed": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "has_notice_at_collection_ca": { "type": "boolean" },
+        "has_do_not_sell_link": { "type": "boolean" },
+        "has_limit_use_sensitive_pi_link_ca": { "type": "boolean" }
+      }
+    },
+    "rights_request_handling": {
+      "type": "object",
+      "properties": {
+        "intake_methods": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["web_form", "email", "toll_free_phone", "support_ticketing", "mail", "in_person"]
+          }
+        },
+        "average_response_time_days": { "type": "number" },
+        "quarterly_volume": { "type": "integer" },
+        "verification_procedure_documented": { "type": "boolean" },
+        "appeal_procedure_documented": { "type": "boolean" }
+      }
+    },
+    "vendor_and_processor": {
+      "type": "object",
+      "properties": {
+        "approximate_count": { "type": "integer" },
+        "dpas_in_place": { "type": "boolean" },
+        "dpas_meet_ccpa_regs_7051": { "type": "boolean" },
+        "subprocessor_flowdown_required": { "type": "boolean" }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "properties": {
+        "written_privacy_program": { "type": "boolean" },
+        "privacy_officer": { "type": "boolean" },
+        "privacy_training_program": { "type": "boolean" },
+        "incident_response_plan": { "type": "boolean" },
+        "nist_pf_alignment_documented": {
+          "type": "boolean",
+          "description": "Documented alignment to NIST Privacy Framework — relevant to TIPA affirmative defense."
+        },
+        "data_protection_assessments_conducted": { "type": "boolean" }
+      }
+    },
+    "channels": {
+      "type": "object",
+      "properties": {
+        "web_logged_out": { "type": "boolean" },
+        "web_logged_in": { "type": "boolean" },
+        "ios_app": { "type": "boolean" },
+        "android_app": { "type": "boolean" },
+        "offline_pos_callcenter": { "type": "boolean" },
+        "iot_connected_device": { "type": "boolean" },
+        "email_marketing": { "type": "boolean" },
+        "sms_marketing": { "type": "boolean" }
+      }
+    }
+  }
+}

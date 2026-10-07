@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "Paperasse Lux — Skills IA pour la bureaucratie luxembourgeoise"
+message: "Si vous utilisez ce projet, merci de le citer comme ci-dessous."
+type: software
+authors:
+  - family-names: Herbé
+    given-names: Grégory
+    alias: gregherbe76
+repository-code: "https://github.com/gregherbe76/Luxembourg-Paperasse"
+url: "https://agentskill.sh/@gregherbe76"
+abstract: >-
+  Collection de skills pour agents IA spécialisés dans la comptabilité,
+  la fiscalité, la facturation, le notariat, l'audit et la copropriété
+  au Grand-Duché de Luxembourg. Inclut des parseurs bancaires (BCEE,
+  POST, BIL, CAMT.053), un générateur eCDF, des outils de validation
+  RCS/IBAN luxembourgeois, des checklists LBR, des templates de
+  documents en français et en allemand, et un flux de veille du
+  Journal Officiel (Mémorial A/B, Légilux RSS).
+keywords:
+  - luxembourg
+  - ai-agents
+  - claude-skills
+  - comptabilite
+  - tva
+  - fiscalite
+  - rcs
+  - lbr
+  - ecdf
+  - notariat
+  - copropriete
+  - peppol
+license: MIT
+version: "0.7.4"
+date-released: "2026-05-09"

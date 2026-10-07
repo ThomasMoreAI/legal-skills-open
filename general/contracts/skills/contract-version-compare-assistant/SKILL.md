@@ -5,7 +5,7 @@ description: 用于合同版本差异识别与风险变更追踪，比较新旧�
 author: aifinlab
 author_url: https://github.com/aifinlab/FinClaw/tree/main/skills/contract-version-compare-assistant
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 execution_mode: open
 jurisdiction: general
 practice: contracts

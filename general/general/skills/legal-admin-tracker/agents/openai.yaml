@@ -1,0 +1,3 @@
+display_name: Legal Admin Tracker
+short_description: Track permits, contracts, IDs, and renewals
+default_prompt: Use $legal-admin-tracker to organize my legal/admin documents, deadlines, and follow-up actions.
