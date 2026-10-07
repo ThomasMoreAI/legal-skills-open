@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `cn` · Practice: `regulatory` · Skill language: zh
 
-## Skills (6)
+## Skills (5)
 
 | Skill | What it does |
 |---|---|
@@ -12,7 +12,6 @@ Jurisdiction: `cn` · Practice: `regulatory` · Skill language: zh
 | [`/asset-review：资产管理审计`](skills/asset-review/) | 经济责任审计中的资产管理审计。审查国有资产保值增值、资产处置合规性、 对外投资收益、产权变动等。 |
 | [`/compliance-review：廉政合规审查`](skills/compliance-review-jack4world/) | 经济责任审计中的廉政合规审查。审查被审计领导干部廉洁从政/从业情况， 识别利益冲突、违规违纪线索、个人事项报告等。 |
 | [`预包装食品标签合规审核`](skills/food-label-review/) | 预包装食品标签合规审核技能，用于审核食品标签是否符合 GB 7718（预包装食品标签通则）和 GB 28050（预包装食品营养标签通则）。适用场景：(1)… |
-| [`Law To Markdown`](skills/law-to-markdown/) | 将法条/规范文件（.txt/.docx/.pdf）转为 Markdown。适用于用户要求“法条转 markdown”“pdf/docx 转 markdown”。处理 .pdf/.docx 时先检查是否已安装… |
 | [`Legal Compliance Search Skill`](skills/legal-compliance-search/) | This skill should be used when the user wants to "search compliance regulations", "check legal… |
 
 ## Cold-start context

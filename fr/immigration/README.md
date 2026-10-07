@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): immigration 
 
 Jurisdiction: `fr` · Practice: `immigration` · Skill language: en, zh
 
-## Skills (46)
+## Skills (44)
 
 | Skill | What it does |
 |---|---|
@@ -16,7 +16,6 @@ Jurisdiction: `fr` · Practice: `immigration` · Skill language: en, zh
 | [`/appointment-prep`](skills/appointment-prep-torlyai/) | TLScontact 法国申根签证赴约前 24 小时清单。核实所有文件已打印（不能 仅屏幕看）、照片是实物打印（不是手机图）、付款卡在钱包、交通已规划 早 15 分钟到、用户已收拾合理的文件夹。在 TLS… |
 | [`Audit application`](skills/audit-application/) | 提交前审核关卡。读取用户收集的所有文件、/start-here 的范围、 求情信，进行整体合规性+一致性检查。标注不一致（姓名、日期、 金额在不同文件间不匹配）、缺漏（必备文件缺失）、薄弱点… |
 | [`/audit-application`](skills/audit-application-torlyai/) | Pre-submission audit gate. Reads all the user's collected documents, the scope from /start-here, the… |
-| [`Audit log`](skills/audit-log/) | vstack 工具集的会话内行动历史。显示当前 Claude Code 会话中跑过哪些 技能、做了哪些决定、还有什么未完成。用户休息回来问"我们到哪了"或 需要为家人小结时有用。严格内存中；无跨会话持久化（用… |
 | [`/bank-statement-check`](skills/bank-statement-check-torlyai/) | Reviews bank statements for Schengen visa application sufficiency and format. Verifies the statements… |
 | [`/bank-statement-check`](skills/bank-statement-check-zh-cn-torlyai/) | 审查银行流水的申根签证申请充足性和格式。核实流水：(1) 覆盖最近 3 个月，(2) 显示申请人全名+地址，(3) 显示足够出行的余额， (4) 无红旗（申请前单笔大额存款、涂抹、刚开户的账户）。当用户说… |
 | [`Book appointment`](skills/book-appointment/) | 在用户拿到 France-Visas 参考号后，引导他们走完整个 TLScontact 预约 流程 — 选 TLS 中心、选日期、支付 TLS 服务费、确认赴约当天带什么。 与… |
@@ -55,7 +54,6 @@ Jurisdiction: `fr` · Practice: `immigration` · Skill language: en, zh
 | [`Tlscontact form`](skills/tlscontact-form/) | TLScontact 账户创建+预约表的分步指南（https://visas-fr.tlscontact.com/en-us）。 引导用户走完账户设置、France-Visas 参考号关联、团队申请设置、… |
 | [`/track-application`](skills/track-application-torlyai/) | 引导用户跟踪已提交的法国申根签证申请 — 在哪查、每个状态什么 含义、何时担心、各阶段做什么。涵盖 TLScontact 追踪器、 France-Visas 门户状态和典型处理时间。当用户说"跟踪我的申请"、… |
 | [`/translate-doc`](skills/translate-doc-torlyai/) | 关于法国申根签证申请何时需要"认证翻译"的指引 — 接受哪些语言（英文+ 法文可直接；其他需认证翻译）、谁能认证（宣誓翻译、ATA 认证、使馆 推荐）、典型费用（每页… |
-| [`Vstack upgrade`](skills/vstack-upgrade/) | 自更新 Schengen-master 技能工具集到最新版。检查当前安装版本 vs GitHub 最新可用版、显示变更内容、跑 `git pull` 更新。幂等 — 重复跑… |
 
 ## Cold-start context
 

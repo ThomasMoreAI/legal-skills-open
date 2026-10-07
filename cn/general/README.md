@@ -4,11 +4,10 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `cn` · Practice: `general` · Skill language: zh
 
-## Skills (5)
+## Skills (4)
 
 | Skill | What it does |
 |---|---|
-| [`DOCX creation, editing, and analysis`](skills/docx/) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx… |
 | [`法律检索助手`](skills/legal-issue-research/) | 中国法律全领域系统性检索专家。 ## 核心特色 - 支持用户身份识别（普通人/法学生/律师/法官检察官） - 根据不同身份提供差异化服务 - 完整法源检索（法律/行政法规/司法解释/指导性案例/典型案例）… |
 | [`legal-research（法律研究编排技能）`](skills/legal-research-malnlda/) | 法律研究编排技能（meta-skill）。按"查法规 → 查案例 → 生成备忘录"流水线协同调度 yd-law-search、yd-case-search、cs-china-lawyer-analyst… |
 | [`元典法条/法规检索技能（yd-law-search）`](skills/yd-law-search/) | 元典法律法规检索技能（开放平台版 https://open.chineselaw.com）。 用于中国法律、行政法规、司法解释、部门规章、地方性法规等规范性文件的检索。… |

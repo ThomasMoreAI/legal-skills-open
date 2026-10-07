@@ -4,7 +4,7 @@ Lending, credit, payments, secured financing, and banking regulation.
 
 Jurisdiction: `us` · Practice: `finance` · Skill language: en
 
-## Skills (35)
+## Skills (34)
 
 | Skill | What it does |
 |---|---|
@@ -30,7 +30,6 @@ Jurisdiction: `us` · Practice: `finance` · Skill language: en
 | [`Loan and Security Agreement`](skills/loan-and-security-agreement/) | Drafts a U.S. secured Loan and Security Agreement with UCC Article 9 security interests, perfection… |
 | [`Loan Forbearance Agreement`](skills/loan-forbearance/) | Drafts lender-protective U.S. commercial loan forbearance agreements that temporarily suspend remedies… |
 | [`Loan Modification Agreement`](skills/loan-modification-agreement/) | Drafts a U.S. commercial Loan Modification Agreement amending existing loan terms (interest rates… |
-| [`Mortgage Compliance Validation Skill`](skills/mortgage-compliance/) | Validates mortgage advisor responses against three hardcoded compliance rules and returns structured JSON. |
 | [`Pledge Agreement (Securities)`](skills/pledge-agreement-securities/) | Drafts perfected-security-interest Pledge Agreements for securities collateral under UCC Article 9. Use… |
 | [`Promissory Note (Residential)`](skills/promissory-note-residential/) | Drafts enforceable residential promissory notes with party identification, principal/interest terms… |
 | [`Revolving Credit Agreement`](skills/revolving-credit-agreement/) | Drafts a market-standard U.S. revolving credit agreement for bilateral or syndicated facilities. Covers… |

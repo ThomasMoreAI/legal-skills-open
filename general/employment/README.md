@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `general` · Practice: `employment` · Skill language: en
 
-## Skills (35)
+## Skills (34)
 
 | Skill | What it does |
 |---|---|
@@ -15,7 +15,6 @@ Jurisdiction: `general` · Practice: `employment` · Skill language: en
 | [`Disciplinary Documenter`](skills/disciplinary-documenter-rohasnagpal/) | Builds a fair, auditable disciplinary record from allegation through decision and appeal. Use to prepare… |
 | [`Employment contract`](skills/employment-contract/) | Draft and fill employment contract templates — offer letter, employment agreement, IP/inventions… |
 | [`Employment Contract Templates`](skills/employment-contract-templates/) | Create employment contracts, offer letters, and HR policy documents following legal best practices. Use… |
-| [`Employment Contract Templates`](skills/employment-contract-templates-luokai0/) | Templates and patterns for creating legally sound employment documentation including contracts, offer… |
 | [`Employment Contract Templates`](skills/employment-contract-templates-v2/) | Employment Contract Templates workflow skill. Use this skill when the user needs Templates and patterns… |
 | [`Employment Contract Templates`](skills/employment-contract-templates-wshobson/) | Create employment contracts, offer letters, and HR policy documents following legal best practices. Use… |
 | [`$employment-legal:expansion-kickoff`](skills/expansion-kickoff-alexchlou/) | Kick off international expansion planning for a new country — gathers intake, runs EOR vs. entity… |

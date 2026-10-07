@@ -1,5 +1,0 @@
-interface:
-  display_name: "Poland Utilities Environment"
-  short_description: "Poland Utilities Environment: run focused tasks"
-policy:
-  allow_implicit_invocation: false

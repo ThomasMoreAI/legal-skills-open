@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 
-## Skills (53)
+## Skills (49)
 
 | Skill | What it does |
 |---|---|
@@ -34,7 +34,6 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`GDPR Audit Prep`](skills/gdpr-audit-prep-borghei/) | GDPR audit-prep playbook: sprint to prepare for a supervisory authority inquiry, DPA audit, or internal… |
 | [`GDPR Breach 72h EN - personal data breach response (Art. 33-34)`](skills/gdpr-breach-72h-en-matematicsolutions/) | Personal data breach response assistant grounded in GDPR Art. 33-34, EDPB Guidelines 9/2022 on breach… |
 | [`GDPR Breach Notification`](skills/gdpr-breach-notification-open-legal-products/) | Run the personal data breach decision tree under GDPR Articles 33-34 and EDPB Guidelines 9/2022… |
-| [`GDPR Compliance Skill`](skills/gdpr-compliance-hack23/) | Ensure GDPR compliance for personal data processing in CIA platform with privacy-by-design principles |
 | [`GDPR Compliance Skill`](skills/gdpr-compliance-sushegaad/) | Expert GDPR compliance assistant covering all four core workflows: (1) auditing code and systems for… |
 | [`GDPR Data Handling Note`](skills/gdpr-data-handling-note-ur-grue/) | Drafts a plain-language data handling notice for a journalistic or media production project that… |
 | [`GDPR Data Map`](skills/gdpr-data-map-arttuan/) | Map every field to a purpose, a lawful basis, a retention period and a deletion path — then generate the… |
@@ -46,15 +45,12 @@ Jurisdiction: `eu` · Practice: `data-protection` · Skill language: en
 | [`GDPR/DSGVO Expert`](skills/gdpr-dsgvo-expert-alirezarezvani/) | GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA… |
 | [`GDPR Expert`](skills/gdpr-expert/) | GDPR expert for EU privacy compliance. Deep knowledge of General Data Protection Regulation including 99… |
 | [`GDPR — General Data Protection Regulation`](skills/gdpr-mauriciodelrio/) | Use this skill when the software processes personal data from users. Although GDPR is EU legislation… |
-| [`Gdpr Privacy`](skills/gdpr-privacy/) | Use when implementing GDPR compliance, handling data subject requests, conducting DPIAs, managing… |
 | [`GDPR Records of Processing`](skills/gdpr-records-of-processing-open-legal-products/) | Build and validate the records of processing activities (RoPA) required by GDPR Article 30: the… |
 | [`GDPR RoPA + DPA EN - records of processing (Art. 30) and processor contracts (Art. 28)`](skills/gdpr-ropa-dpa-en-matematicsolutions/) | Records of processing (RoPA, GDPR Art. 30) and data processing agreement (DPA, Art. 28) review… |
 | [`Generazione DPIA (bozza)`](skills/generazione-dpia-pixari/) | Bozza struttura DPIA (art. 35 GDPR) allineata a prassi Garante/EDPB: descrizione, necessità, rischi… |
-| [`Locale correctness for data that users type`](skills/i18n-locale-correctness/) | Use when building or reviewing forms, validators, formatters, database schemas or search that touch… |
 | [`EU baseline for online legal texts`](skills/legal-eu-clemensjl/) | Use when writing, reviewing, or fixing the EU-law layer of legally required texts for a website… |
 | [`Italian mandatory online legal texts`](skills/legal-it/) | Use when writing, reviewing, or fixing legally required texts for an Italian website, webshop, app, or… |
 | [`Monitoraggio informativa`](skills/monitoraggio-informativa-pixari/) | Revisione periodica informativa privacy / policy interne: completezza art. 13-14, coerenza con… |
-| [`Personalizzazione playbook privacy`](skills/personalizzazione-privacy/) | Aggiorna privacy-gdpr/CLAUDE.md da feedback (DSAR, DPA, sistemi, red lines). Equivalente EN customize.… |
 | [`Privacy Notice Generator`](skills/privacy-notice-generator-borghei/) | Draft GDPR-compliant privacy notices for EU/EEA jurisdictions. Supports 6 notice types, 9 jurisdictions… |
 | [`Third-party vendor and integration review (GDPR / ePrivacy)`](skills/privacy-vendor-review-clemensjl/) | Use when a third-party service, SDK, script, API or dependency is about to be added to a product, when… |
 | [`Revisione DPA (art. 28 GDPR)`](skills/revisione-dpa-pixari/) | Revisione contratto di nomina responsabile (art. 28 GDPR) term-by-term: istruzioni, sub-responsabile… |

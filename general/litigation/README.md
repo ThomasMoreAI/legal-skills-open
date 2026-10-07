@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 
-## Skills (208)
+## Skills (205)
 
 | Skill | What it does |
 |---|---|
@@ -41,7 +41,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Skill：因果关系推论`](skills/causation-chain/) | 因果关系推论技能，用于构建从对方行为到用户损害的完整因果链，识别中间事实节点、排查替代原因、区分损失类型并生成补证建议。适用于需证明损害因果关系或反驳"非我所致""损失过远""用户自身原因"等抗辩的场景。 |
 | [`Chain of Custody Documenter`](skills/chain-of-custody-documenter/) | Build and audit defensible chain-of-custody records for physical and digital evidence. Use when… |
 | [`Chargesheet Analyst (India)`](skills/chargesheet-analyst/) | Analyses an Indian police report, chargesheet, final report, supplementary report, and annexed… |
-| [`AI4L - Project Verification & Consistency Checking`](skills/check/) | Project Verification & Consistency Checking |
 | [`Cheque Dishonour Complaint Drafter`](skills/cheque-dishonour-complaint-drafter/) | Tests and drafts a complaint for cheque dishonour under section 138 of India's Negotiable Instruments… |
 | [`Cheque Dishonour Notice Drafter`](skills/cheque-dishonour-notice-drafter/) | Drafts the statutory demand notice that precedes a cheque-dishonour complaint under section 138 of… |
 | [`/chronology`](skills/chronology-anthropics/) | Build or update a chronology from declared document sources and uploads — dated events extracted… |
@@ -52,7 +51,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Claim chart`](skills/claim-chart-zhou210712/) | 构建或审查要件分析表——专利权利要求对照表（侵权、无效或审查）或 民事构成要件分析表（任何诉讼请求或抗辩），每个单元格附精确引用， 缺口检测为优先输出。当用户要求要件分析表、权利要求对照表、… |
 | [`Claim Verification Analyst`](skills/claim-verification-analyst/) | Verifies, quantifies and classifies creditor claims in an Indian insolvency process. Use for CIRP or… |
 | [`클린 법률 DB 검색 (clean-legal-db)`](skills/clean-legal-db/) | 저작권 청정 법률 DB 키워드 검색 (총 18,150여 건) — 현행 법령 56종 1.1만 조문 + 자치법규 + 대법원·하급심 판례 1,140 + 행정심판 재결 792 + 조세심판 결정… |
-| [`Codex Skill Notes`](skills/coercion-duress/) | Clerk for forced surrenders, threats, procedural irregularities, and lack of informed consent; use for… |
 | [`Cold start interview`](skills/cold-start-interview-19/) | 诉讼插件首次配置——按角色分流（法务、律所律师、独立执业）、 按立场分流（原告、被告、两者皆有），捕获风险校准、执业背景和文书风格， 写入实践画像… |
 | [`$litigation-legal:cold-start-interview`](skills/cold-start-interview-2/) | House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side… |
 | [`Construire la chronologie`](skills/construire-chronologie-gauthier-huguenin/) | Construire une chronologie juridique sourcée à partir d'un registre de faits et de pièces, distinguer… |
@@ -158,7 +156,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Skill：对方视角与抗辩模拟`](skills/opponent-perspective/) | Simulates the opposing party's litigation and negotiation strategy by mapping their likely factual… |
 | [`Opposing Counsel Attack EN - single-pass litigation sparring`](skills/opposing-counsel-attack-en-matematicsolutions/) | Single-pass opposing counsel attack on a legal argument - takes on the role of experienced counsel for… |
 | [`Opposing Counsel: Adversarial Argument Analysis`](skills/opposing-counsel-review-larissa-meredith-flister/) | Act as experienced opposing counsel to attack, undermine, and expose weaknesses in a legal argument… |
-| [`Packet builder`](skills/packet-builder/) | Interactive complaint-packet assembly driven by packet-manifest.yaml — walks through authority, exhibit… |
 | [`India PIL Drafter`](skills/pil-drafter/) | Assess and draft public interest litigation in India under Article 32 or Article 226, establishing… |
 | [`Plaint Drafter`](skills/plaint-drafter/) | Drafts an Indian civil or commercial plaint from verified facts, causes of action, jurisdiction… |
 | [`Pleadings Analyst`](skills/pleadings-analyst-rohasnagpal/) | Analyse claims, defences, replies, counterclaims, amendments, and particulars for causes of action… |

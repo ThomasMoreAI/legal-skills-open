@@ -4,7 +4,7 @@ White-collar and investigations across jurisdictions — anti-money-laundering (
 
 Jurisdiction: `cross-jurisdiction` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (15)
+## Skills (14)
 
 | Skill | What it does |
 |---|---|
@@ -18,7 +18,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `white-collar` · Skill language
 | [`Government Registry Data - Router`](skills/regdata/) | Extract structured data from official government registries - Poland (KRS, KNF, CRBR, MSiG, KRZ, EKW… |
 | [`Regdata credit risk`](skills/regdata-credit-risk/) | Insolvency monitoring and credit-risk assessment across official registries: Poland's KRZ debtor… |
 | [`Regdata KYC AML`](skills/regdata-kyc-aml/) | KYC/AML and KYB (Know Your Business) entity verification across official registries: beneficial owners… |
-| [`B2B Lead Generation from European Government Registries`](skills/regdata-lead-gen/) | Extract company directors and B2B contact data from official government registries - KRS board members… |
 | [`Romania company registry`](skills/romania-company-registry/) | Look up Romanian companies for free by CUI (Cod Unic de Inregistrare) via the official ANAF API… |
 | [`Sanctions pep screening`](skills/sanctions-pep-screening-nolpak14/) | Screen a person or company against the official government sanctions lists for free - US OFAC (SDN +… |
 | [`Us federal awards`](skills/us-federal-awards/) | Search U.S. federal spending for free via the official USAspending.gov API - find which US federal… |

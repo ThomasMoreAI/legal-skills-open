@@ -4,7 +4,7 @@ Choosing the correct legal regime for letters, requests, applications, and compl
 
 Jurisdiction: `pl` · Practice: `administrative` · Skill language: pl
 
-## Skills (16)
+## Skills (13)
 
 | Skill | What it does |
 |---|---|
@@ -18,11 +18,8 @@ Jurisdiction: `pl` · Practice: `administrative` · Skill language: pl
 | [`Poland Emergency and Rights Escalation`](skills/poland-emergency-rights-xopoko/) | Emergency rights. Use when danger or urgent escalation arises. |
 | [`Poland Family and Education`](skills/poland-family-education-xopoko/) | Family and education. Use for Polish childcare, school, university, or family administration; not… |
 | [`Poland Foreign Documents`](skills/poland-foreign-documents-xopoko/) | Foreign documents. Use for apostille, legalization, sworn translation, diploma recognition, or… |
-| [`Poland Healthcare`](skills/poland-healthcare/) | Healthcare. Use when NFZ or IKP matters. |
 | [`Poland Identity and Registration`](skills/poland-identity-xopoko/) | Identity. Use when PESEL or meldunek matters. |
 | [`Poland Justice and Legal Aid`](skills/poland-justice-legal-aid-xopoko/) | Justice and legal-help routing: courts, legal aid, ombudsmen, victim support, enforcement, and… |
-| [`Poland Local Services`](skills/poland-local-services/) | Local services. Use when Polish office ownership varies. |
-| [`Poland Utilities and Environment`](skills/poland-utilities-environment/) | Utilities and environment: route electricity, gas, heating, water, waste, provider disputes, and local… |
 | [`Poland Vehicles and Road Administration`](skills/poland-vehicles-road-xopoko/) | Vehicles and road administration: route registration, ownership, inspections, compulsory insurance… |
 
 ## Cold-start context

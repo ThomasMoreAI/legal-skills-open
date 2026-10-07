@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill language: en
 
-## Skills (54)
+## Skills (52)
 
 | Skill | What it does |
 |---|---|
@@ -16,8 +16,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `data-protection` · Skill langu
 | [`Breach Response Planner`](skills/breach-response-planner-rohasnagpal/) | Coordinate legal and operational response to suspected personal-data breaches, including containment… |
 | [`Children's Data Minimisation and Retention Limits`](skills/children-data-minimization/) | Implements strict data minimization and retention limits for children's personal data under GDPR Art.… |
 | [`Children's Profiling Restrictions`](skills/children-profiling-limits/) | Implements profiling restrictions for children under GDPR Recital 71, Article 22, UK AADC Standard 12… |
-| [`Workflow`](skills/compliance-check-2/) | Run a Maestro-style regulatory compliance review for GDPR/CCPA, cookie consent, data handling, and licensing |
-| [`Maestro Compliance Check`](skills/compliance-check-josstei/) | Run a Maestro-style regulatory compliance review for GDPR/CCPA, cookie consent, data handling, and licensing |
 | [`Compliance Checker`](skills/compliance-checker-onewave-ai/) | Audits a codebase or business process for regulatory compliance across GDPR, HIPAA, SOC2, CCPA, and… |
 | [`Managing Conflicting Privacy Requirements`](skills/conflicting-laws-mgmt/) | Guides managing conflicting privacy requirements across jurisdictions. Covers data localisation vs… |
 | [`Evaluating Consent Management Platforms`](skills/consent-platform-eval/) | Framework for evaluating and selecting Consent Management Platforms (CMPs). Covers TCF v2.2… |

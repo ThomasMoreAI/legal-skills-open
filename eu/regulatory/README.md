@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (233)
+## Skills (229)
 
 | Skill | What it does |
 |---|---|
@@ -23,7 +23,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`/cs:ai-act-readiness — EU AI Act Forcing Questions`](skills/ai-act-readiness-alirezarezvani/) | /cs:ai-act-readiness <system> — EU AI Act 6-question forcing interrogation. Use during AI-system intake… |
 | [`SKILL.md - AI Act Risk Check`](skills/ai-act-risk-check-hardened/) | Assess preliminary risk classification for an AI system against EU AI Act Annex III high-risk categories. |
 | [`AI Governance`](skills/ai-governance-sandbaseai/) | Use when classifying AI-system risk, establishing responsible-AI governance, preparing model or system… |
-| [`AI Transparency Labels`](skills/ai-transparency-labels/) | Generate standardized transparency labels for AI systems. |
 | [`/cs:aims-audit — AIMS ISO 42001 Forcing Questions`](skills/aims-audit-alirezarezvani/) | /cs:aims-audit <scope> — ISO/IEC 42001 AIMS internal-audit 6-question forcing interrogation. Use before… |
 | [`Algorithmische Kollusion und Pricing-KI`](skills/algorithmische-kollusion-und-pricing-ki/) | Für Algorithmische Kollusion und Pricing-digitale Werkzeuge: ordnet Norm, Beweislast und Gegenargument… |
 | [`Anbieterkennzeichnung prüfen`](skills/anbieterkennzeichnung-pruefen/) | Prüft technische Markierungsnachweise nach Artikel 50 Absatz 2 und erstellt präzise Anbieteranfragen… |
@@ -45,7 +44,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Bildung und Prüfungsrecht nach Anhang III`](skills/bildung-pruefungsrecht-anhang-iii-monitoring/) | Für Bildung und Prüfungsrecht nach Anhang III: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Biometrie, Emotionserkennung und Polizeigrenzen`](skills/biometrie-emotionserkennung-polizei-grenzen/) | Für Biometrie, Emotionserkennung und Polizeigrenzen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Biometrie und Emotionshinweise`](skills/biometrie-und-emotionshinweise/) | Klärt bei Stimm-, Gesichts- und Emotionsfunktionen zunächst Datenbasis und Verbotsrisiken und entwirft… |
-| [`CE Regulatory Compliance`](skills/ce-regulatory-compliance/) | Map calibrated_explanations capabilities to EU AI Act, GDPR, AI Liability Directive, and Product… |
 | [`Charta Quellenkarte`](skills/charta-quellenkarte/) | Für Charta Quellenkarte: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
 | [`Chat und Telefonhinweise`](skills/chat-und-telefonhinweise/) | Formuliert und prüft Hinweise für direkte KI-Interaktion in Kanzlei-Chat und Telefonassistenz nach… |
 | [`Interactive mode — asks questions step by step`](skills/classify-ai-system-abdelstark/) | Use when the user asks about EU AI Act risk classification, wants to know what risk tier their AI system… |
@@ -109,7 +107,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Verordnung, Beschluss und Soft Law`](skills/europarecht-verordnung-beschluss-soft-law/) | Für Verordnung, Beschluss und Soft Law: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vertragsverletzung und Durchsetzung`](skills/europarecht-vertragsverletzung-durchsetzung/) | Für Vertragsverletzung und Durchsetzung: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Vorlageverfahren Art. 267 AEUV`](skills/europarecht-vorlageverfahren-art-267/) | Für Vorlageverfahren Art. 267 AEUV: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
-| [`Evaluate Enterprise AI Governance Hub`](skills/evaluate-enterprise-ai-governance-hub/) | Evaluate Enterprise AI Governance Hub — risk classification accuracy, policy enforcement, review… |
 | [`Evidence Pack`](skills/evidence-pack-arttuan/) | Assemble the documents a regulator, auditor or acquirer actually asks for — generated from the brief and… |
 | [`Fallfremde Textbausteine`](skills/fallfremde-textbausteine-prozessrisiko/) | Für Fallfremde Textbausteine: erstellt Entwurf mit Antrag, Beweis und Anlagen; Ergebnis: Schriftsatz mit… |
 | [`Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete`](skills/falsche-wiese-warnung-ki-vo/) | Für Warnung: Falsche Wiese — Verwechslung der Rechtsgebiete: ordnet Norm, Beweislast und Gegenargument… |
@@ -226,7 +223,6 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Transparenzfreigabe dokumentieren`](skills/transparenzfreigabe-dokumentieren/) | Erstellt aus vorhandenen Prüfbefunden eine versions- und kanalbezogene Transparenzfreigabe mit konkreten… |
 | [`Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?`](skills/triage-ki-vendor-due-verbotene-praktiken/) | Für Triage: europäischer Technikregulierungsrahmen-Vorprüfung — Was prüft der Nutzer?: routet Rolle… |
 | [`Triage: KI-VO-Vorprüfung — Was prüft der Nutzer?`](skills/triage-ki-vo-vorpruefung/) | Für Triage: europäischer Technikregulierungsrahmen-Vorprüfung — Was prüft der Nutzer?: routet Rolle… |
-| [`Tune Enterprise AI Governance Hub`](skills/tune-enterprise-ai-governance-hub/) | Tune Enterprise AI Governance Hub — risk classification rules, review cadence, policy gates, dashboard… |
 | [`Unmittelbare: Risikoampel, Gegenargumente und Verteidigungslinien`](skills/unmittelbare-risikoampel-und-gegenargumente/) | Für Unmittelbare: Risikoampel, Gegenargumente und Verteidigungslinien: prüft Ergebnis, Beweislast und… |
 | [`KI-Beschaffung: Vendor Due Diligence`](skills/vendor-due-diligence-ai-act-beschaffung/) | Für digitale Werkzeuge-Beschaffung: Vendor Due Diligence: ordnet Norm, Beweislast und Gegenargument… |
 | [`/ki-vo-compliance:verbotene-ki-praktiken`](skills/verbotene-ki-praktiken-borghei/) | Prüfung der verbotenen KI-Praktiken nach Art. 5 KI-VO – manipulative und ausnutzende Systeme, Social… |

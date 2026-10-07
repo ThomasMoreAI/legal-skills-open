@@ -4,7 +4,7 @@ Privacy and personal-data compliance — lawful basis, data-subject rights, DPIA
 
 Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 
-## Skills (466)
+## Skills (464)
 
 | Skill | What it does |
 |---|---|
@@ -84,7 +84,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall`](skills/bussgeldverteidigung-art-83/) | Für Bußgeldverteidigung Art. 83 DSGVO nach Datenschutzvorfall: ordnet Norm, Beweislast und… |
 | [`Drittstaatliches Herausgabeverlangen datenschutzrechtlich prüfen`](skills/cloud-act-vs-dsgvo-art-48-dsgvo/) | Prüft Herausgabeverlangen einer Drittstaatsbehörde an Anbieter oder Konzerngesellschaften. |
 | [`Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk`](skills/compliance-dokumentation-und-akte/) | Für Datenschutzrecht: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken… |
-| [`Consent Audit — Einwilligungspruefung`](skills/consent-audit/) | Prueft Einwilligungs-Flows auf DSGVO-Konformitaet: DOI-Token-Ablauf, Widerruf-Workflow, Cookie-Banner |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-datentransfer-eu-erforderlichkeit/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Consumer-KI vs. §-43e-Dienstleister`](skills/consumer-ki-vs-43e-dienstleister/) | Für Consumer-digitale Werkzeuge vs. Paragraf-43e-Dienstleister: ordnet Norm, Beweislast und… |
 | [`Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack`](skills/cyber-vorfall-sofortmassnahmen/) | Für Cyber-Vorfall-Sofortmassnahmen Ransomware Datenleck Hack: ordnet Norm, Beweislast und Gegenargument… |
@@ -250,7 +249,6 @@ Jurisdiction: `de` · Practice: `data-protection` · Skill language: de
 | [`Bewertet, ob der Mandant bereits Kenntnis von einer Verletzung im Sinne Art`](skills/dsv-verdacht-vs-festgestellt/) | Für Bewertet, ob der Mandant bereits Kenntnis von einer Verletzung im Sinne Art: ordnet Norm, Beweislast… |
 | [`Steuert die Aktualisierung des Verzeichnisses von Verarbeitungstätigkeiten nach Art`](skills/dsv-vvt-update-nach-vorfall/) | Für Steuert die Aktualisierung des Verzeichnisses von Verarbeitungstätigkeiten nach Art: ordnet Norm… |
 | [`Erstellt eine minutiös rekonstruierte Zeitleiste vom Eintritt der Verletzung bis zur Meldung und Benachrichtigung`](skills/dsv-zeitleiste/) | Für Dsv Zeitleiste: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko und… |
-| [`Ecc claude ra qm team GDPR dsgvo expert`](skills/ecc-claude-ra-qm-team-gdpr-dsgvo-expert/) | OpenClaw bridge skill for ra qm team gdpr dsgvo expert. Use when tasks match this specialized… |
 | [`EDPB-Streitbeilegung Art. 65`](skills/edpb-art-65-streitbeilegung/) | Für EDPB-Streitbeilegung Art. 65: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Einwilligung-Hinweis-Datenschutz`](skills/einwilligung-hinweis-datenschutz/) | Für Einwilligung-Hinweis-Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Erforderlichkeit dokumentieren`](skills/erforderlichkeit-dokumentieren/) | Für Erforderlichkeit dokumentieren: ordnet Akte, Belege und Lücken; Ergebnis: Prüfprodukt mit Risiko und… |
