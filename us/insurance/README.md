@@ -4,7 +4,7 @@ Insurance policies, coverage analysis, claims, and insurer regulation.
 
 Jurisdiction: `us` · Practice: `insurance` · Skill language: en
 
-## Skills (12)
+## Skills (11)
 
 | Skill | What it does |
 |---|---|
@@ -18,7 +18,6 @@ Jurisdiction: `us` · Practice: `insurance` · Skill language: en
 | [`Insurance Claim Summary`](skills/insurance-claim-summaries/) | Generates structured summaries of U.S. insurance claim files covering identification, incident… |
 | [`Insurance Correspondence Summarization`](skills/insurance-correspondence-summarization/) | Produces structured summaries of insurance claims correspondence including coverage letters, reservation… |
 | [`Insurance Policy Summary`](skills/insurance-policy-summary/) | Produces structured, citation-backed summaries of U.S. insurance policies, endorsements, claims files… |
-| [`Compliance Research Analyst`](skills/legal-compliance-regulatory-monitor/) | Collect and maintain upstream compliance intelligence for financial services and life insurance… |
 | [`Tender Letter Denial`](skills/tender-denial/) | Drafts legally defensible denial letters rejecting tendered defense and indemnification demands.… |
 
 ## Cold-start context

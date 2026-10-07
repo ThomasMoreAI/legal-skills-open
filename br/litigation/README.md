@@ -4,7 +4,7 @@ Civil dispute resolution before the courts — pleadings, procedure, evidence, a
 
 Jurisdiction: `br` · Practice: `litigation` · Skill language: pt
 
-## Skills (30)
+## Skills (29)
 
 | Skill | What it does |
 |---|---|
@@ -15,7 +15,6 @@ Jurisdiction: `br` · Practice: `litigation` · Skill language: pt
 | [`Cold start interview`](skills/cold-start-interview-6/) | House cold-start for the litigation plugin — branches by role (in-house, firm associate, solo) and side… |
 | [`Contestacao espelhada`](skills/contestacao-espelhada-bossmann007/) | Decompõe a petição inicial (elemento por elemento, pedido por pedido, causa de pedir por causa de pedir)… |
 | [`/customize`](skills/customize-bossmann007/) | Guided customization of your litigation practice profile — change one thing without re-running the whole… |
-| [`Demand draft`](skills/demand-draft-bossmann007/) | Draft a demand letter from a completed intake, gated on a privilege / FRE 408 / waiver / admission… |
 | [`Deposition prep`](skills/deposition-prep-bossmann007/) | Build a prep outline for depoimento pessoal / oitiva de testemunha at the audiência de instrução (CPC… |
 | [`Djen watcher`](skills/djen-watcher/) | Varre o DJEN (Diário de Justiça Eletrônico Nacional) por novas intimações da(s) OAB(s) do escritório… |
 | [`Gerador de tópico de impugnação`](skills/gerador-topico-impugnacao-sbroggioadv/) | Transforma um achado CONFIRMADO de integridade — texto oculto com o dado bruto do parser, citação de… |

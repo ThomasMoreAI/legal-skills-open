@@ -4,7 +4,7 @@ The employment relationship: hiring, wages, discrimination, leave, workplace saf
 
 Jurisdiction: `us` · Practice: `employment` · Skill language: en
 
-## Skills (77)
+## Skills (76)
 
 | Skill | What it does |
 |---|---|
@@ -70,7 +70,6 @@ Jurisdiction: `us` · Practice: `employment` · Skill language: en
 | [`Operations Manual Acknowledgement`](skills/ops-manual-acknowledgement/) | Drafts an enforceable Operations Manual Acknowledgement form recording an employee's or franchisee's… |
 | [`Physician Employment Agreement`](skills/physician-employment-agreement/) | Drafts regulatory-compliant Physician Employment Agreements between healthcare employers and licensed… |
 | [`Proprietary Information and Inventions Agreement (PIIA)`](skills/piia/) | Drafts a Proprietary Information and Inventions Agreement (PIIA) for employment or consulting… |
-| [`$employment-legal:policy-drafting`](skills/policy-drafting/) | Draft an employment policy with state supplements where law differs across the jurisdictional footprint.… |
 | [`Policy drafting`](skills/policy-drafting-anthropics/) | Draft an employment policy with state supplements where law differs across the jurisdictional footprint.… |
 | [`Complaint for Retaliation`](skills/retaliation-complaint/) | Drafts U.S. employment-retaliation complaints with jurisdiction, causation, and remedy sections aligned… |
 | [`Review Employment Contract`](skills/review-employment-contract-jeffreytse/) | Use when reviewing an employment agreement, offer letter, or independent contractor agreement before signing |

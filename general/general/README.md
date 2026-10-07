@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `general` · Practice: `general` · Skill language: en
 
-## Skills (513)
+## Skills (509)
 
 | Skill | What it does |
 |---|---|
@@ -91,12 +91,10 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Client comms log`](skills/client-comms-log-zhou210712/) | 记录当事人沟通——电话、邮件、短信、信函、面谈、语音留言。 按案件仅追加记录，含日期条目、方向、媒介、摘要、行动事项。 与 /client-letter 和 /status client 协同使用。… |
 | [`Plain-language legal explanations`](skills/client-communication/) | Plain-language legal explanations, client-facing correspondence, and privilege-boundary awareness |
 | [`Client-Friendly Tone`](skills/client-friendly-tone/) | Rewrites legal communications in plain-language, client-friendly tone. Triggers when drafting or… |
-| [`$legal-clinic:client-intake`](skills/client-intake/) | Structured intake — practice-area templates, cross-area issue spotting, conflict flags, and triage… |
 | [`Client intake`](skills/client-intake-anthropics/) | Structured intake — practice-area templates, cross-area issue spotting, conflict flags, and triage… |
 | [`Client intake compdeep`](skills/client-intake-compdeep/) | Create a new client intake folder with standard template documents |
 | [`Client Intake`](skills/client-intake-rohasnagpal/) | Turns a messy client narrative — a call transcript, a rambling email, a set of meeting notes — into a… |
 | [`Client intake`](skills/client-intake-zhou210712/) | 结构化接待——实践领域模板、跨领域考点识别、利益冲突标记、分流分类。 生成学生分析、指导老师审查的格式化案件摘要。不决定是否受理案件。 当开始新当事人接待、进行接待访谈或记录新当事人情况时使用。 |
-| [`$legal-clinic:client-letter`](skills/client-letter/) | Routine client correspondence from templates — appointment confirmations, document requests, brief "we… |
 | [`Client letter`](skills/client-letter-anthropics/) | Routine client correspondence from templates — appointment confirmations, document requests, brief "we… |
 | [`Client letter`](skills/client-letter-zhou210712/) | 基于模板的常规当事人信函——预约确认、文件索取、"已提交"简报。 使用通俗语言，包含必要元素，附指导路由。不含实质性建议。 当学生需要发送常规信函、预约确认、文件索取信或向当事人发送简短状态说明时使用。 |
 | [`Client Update Drafter`](skills/client-update-drafter-rohasnagpal/) | Drafts a plain, honest status update for a client on a matter already underway — what has happened, what… |
@@ -320,8 +318,6 @@ Jurisdiction: `general` · Practice: `general` · Skill language: en
 | [`Matter workspace`](skills/matter-workspace-28/) | 管理事项工作空间——新建、列表、切换、关闭或脱钩（实务级）。 当您为多个客户或事项工作、需要创建、列出、切换、关闭或脱钩活跃事项 以防一个委托事项的上下文泄漏到另一个时使用。 |
 | [`$litigation-legal:matter-workspace`](skills/matter-workspace-4/) | Manage matter workspaces for multi-client practices — create, list, switch, close, or detach the active… |
 | [`Matter workspace`](skills/matter-workspace-anthropics/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). File-management logic… |
-| [`/matter-workspace`](skills/matter-workspace-commercial-legal-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when a multi-client… |
-| [`/matter-workspace`](skills/matter-workspace-product-legal-bossmann007/) | Manage matter workspaces — new, list, switch, close, or detach (practice-level). Use when working across… |
 | [`/matter-workspace`](skills/matter-workspace-rbh227/) | Manage matter workspaces — create, list, switch, close, or detach (practice-level). Keeps one client or… |
 | [`Matter workspace`](skills/matter-workspace-zhou210712/) | 管理事务工作区——创建、列表、切换、关闭或解除活跃事务。 适用于多客户私人执业场景，将一个客户或委托的上下文与另一个 隔离开。也可以在实质技能需要知道它在哪个事务中工作时使用。 |
 | [`Meeting Briefing Skill`](skills/meeting-briefing-anthropic/) | Prepare structured briefings for meetings with legal relevance and track resulting action items. Use… |

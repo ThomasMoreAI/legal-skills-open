@@ -4,7 +4,7 @@ Real property — acquisitions, leasing, title, development, and financing of la
 
 Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 
-## Skills (657)
+## Skills (654)
 
 | Skill | What it does |
 |---|---|
@@ -324,13 +324,11 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Mieterhoehungs: Compliance-Dokumentation und Aktenvermerk`](skills/mieterhoehungs-compliance-dokumentation-und-akte/) | Für Mieterhöhungs: Compliance-Dokumentation und Aktenvermerk: ordnet Akte, Belege und Lücken; Ergebnis… |
 | [`Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung)`](skills/mieterhoehungsverlangen-erstellen/) | Für Mieterhöhungsverlangen erstellen (Vermieter / Hausverwaltung): ordnet Norm, Beweislast und… |
 | [`Mietkaution-Rückforderung`](skills/mietkaution-rueckforderung/) | Für Mietkaution-Rückforderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Mietmangel und Mietminderung`](skills/mietmangel-und-mietminderung/) | Erstellt und prüft Mängelanzeigen, Minderungsstrategien und Zurückbehaltungsrechte für Mieter im… |
 | [`Mietminderung Bemessung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/mietminderung-bemessung/) | Für Mietminderung Bemessung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Mietminderung § 536 BGB`](skills/mietminderung-paragraf-536-bgb/) | Für Mietminderung Paragraf 536 BGB: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Fachanwalt Miet Wohnungseigentumsrecht Mietminderung Schimmel: ordnet Normen, Nutzerangaben, Fristen, Belege und verifiz`](skills/mietminderung-schimmel/) | Für Mietminderung Schimmel: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Mietpreisbremse vollständig prüfen`](skills/mietpreisbremse-paragraf-556d-bgb-pruefen/) | Prüft die zulässige Wiedervermietungsmiete nach Paragraf 556d folgende BGB, Gebietskulisse, Vormiete… |
 | [`Mietpreisbremse Rüge/Rückforderung: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/mietpreisbremse-ruege/) | Für Mietpreisbremse Rüge/Rückforderung: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm… |
-| [`Mietpreisbremse und überhöhte Miete`](skills/mietpreisbremse-und-ueberhoehte-miete/) | Erstellt und prüft Rügen zur Mietpreisbremse, Rückforderungsansprüche und Analysen überhöhter Mieten für… |
 | [`Mietpreisüberhöhung, WiStrG 1954 und Mietwucher`](skills/mietpreisueberhoehung-wistrg/) | Für Mietpreisüberhöhung, WiStrG 1954 und Mietwucher: ordnet Norm, Beweislast und Gegenargument… |
 | [`Mietprozess-Versandmappe endfertigen`](skills/mietprozess-versandmappe-endfertigen/) | Endfertigt Räumungs-, Zahlungs-, Mängel-, Kautions- und Mieterhöhungsschriftsätze: liest Mietvertrag… |
 | [`Anschluss-Routing`](skills/mietrecht-anschluss-routing/) | Für Anschluss-Routing: routet Rolle, Frist, Unterlagen und Fachschritt; Ergebnis: Prüfprodukt mit Risiko… |
@@ -436,7 +434,6 @@ Jurisdiction: `de` · Practice: `real-estate` · Skill language: de
 | [`Sachverhaltsermittlung`](skills/sachverhaltsermittlung/) | Für Sachverhaltsermittlung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Sachverhaltsermittlung: Compliance-Dokumentation und Aktenvermerk`](skills/sachverhaltsermittlung-verifikation/) | Für Sachverhaltsermittlung: Compliance-Dokumentation und Aktenvermerk: ordnet Norm, Beweislast und… |
 | [`Schimmel Beweis/Gutachten: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/schimmel-beweis-gutachten/) | Für Schimmel Beweis/Gutachten: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
-| [`Schimmel, Feuchtigkeit und Gesundheitsgefahren`](skills/schimmel-feuchtigkeit-und-gesundheitsgefahren/) | Erstellt und prüft Mängelanzeigen, Beweisstrategien und Gesundheitsrisiko-Memos bei Schimmel… |
 | [`Schlüssel/Schließanlage: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/schluessel-schliessanlage/) | Für Schlüssel/Schließanlage: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast und… |
 | [`Schönheitsreparaturen AGB: Fachmodul im Miet- und Wohnungseigentumsrecht`](skills/schoenheitsreparaturen-agb/) | Für Schönheitsreparaturen AGB: Fachmodul im Miet- und Wohnungseigentumsrecht: ordnet Norm, Beweislast… |
 | [`Selbsthilfe und Eskalationsgrenzen`](skills/selbsthilfe-und-eskalationsgrenzen/) | Für Selbsthilfe und Eskalationsgrenzen: entwickelt Ziel, Vergleich und Eskalation; Ergebnis… |

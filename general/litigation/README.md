@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 
-## Skills (209)
+## Skills (208)
 
 | Skill | What it does |
 |---|---|
@@ -89,7 +89,6 @@ Jurisdiction: `general` · Practice: `litigation` · Skill language: en
 | [`Skill：法律文书与沟通文本起草`](skills/document-drafting/) | 起草、改写或审查法律相关文本，包括沟通信、事实确认函、律师函草稿、投诉材料、起诉状/答辩状框架、总结报告、合同审查总结和合同草案等。 |
 | [`Document Review Protocol Builder`](skills/document-review-protocol-builder-rohasnagpal/) | Designs defensible document-review protocols for litigation, arbitration, investigations, or regulatory… |
 | [`India DPDP Compliance Checker`](skills/dpdp-compliance-checker/) | Assess a processing activity against India's Digital Personal Data Protection Act, 2023, Digital… |
-| [`$legal-clinic:draft`](skills/draft/) | First draft of a common clinic document — practice-area templates (asylum applications, eviction… |
 | [`/draft`](skills/draft-lawdroidai/) | First draft of a common civil legal aid document — eviction answers, protective order petitions, demand… |
 | [`Skill：法律要件与证明责任矩阵`](skills/elements-burden-matrix/) | Breaks a legal claim into elements, maps each to facts and evidence, assigns burden of proof, and… |
 | [`Employment Contract Drafter`](skills/employment-contract-drafter/) | Drafts jurisdiction-specific employment agreements and offer terms with coherent compensation, duties… |
