@@ -1,11 +1,11 @@
 ---
 name: customs-trade-compliance
 title: Customs & Trade Compliance
-description: Customs & Trade Compliance workflow skill. Use this skill when the user needs Codified expertise for customs documentation, tariff classification, duty optimisation, restricted party screening, and regulatory compliance across multiple jurisdictions and the operator should preserve the upstream workflow, copied support files, and provenance before merging or handing off.
-author: diegosouzapw
-author_url: https://github.com/diegosouzapw/awesome-omni-skills/tree/main/skills/customs-trade-compliance
+description: Codified customs and trade compliance expertise — HS/HTS tariff classification with GRI rules, commercial invoices and entry documentation, Incoterms 2020, FTA qualification and duty optimization (USMCA, RCEP, FTZs, drawback), denied-party screening, and penalty mitigation across US, EU, UK, and APAC jurisdictions. Use when classifying goods, preparing import/export documentation, screening restricted parties, responding to customs audits or CF-28/penalty notices, or optimizing duties.
+author: affaan-m
+author_url: https://github.com/affaan-m/ECC/tree/main/skills/customs-trade-compliance
 license: MIT
-version: 0.1.2
+version: 0.1.3
 execution_mode: open
 jurisdiction: cross-jurisdiction
 practice: trade
@@ -19,175 +19,38 @@ tags:
 - documentation
 - tariff
 - classification
-sources:
-- title: Communication templates
-  path: references/communication-templates.md
-- title: Decision frameworks
-  path: references/decision-frameworks.md
-- title: Edge cases
-  path: references/edge-cases.md
 ---
 
 # Customs & Trade Compliance
 
-## Overview
+## Role and Context
 
-This public intake copy packages `plugins/antigravity-awesome-skills-claude/skills/customs-trade-compliance` from `https://github.com/sickn33/antigravity-awesome-skills` into the native Omni Skills editorial shape without hiding its origin.
+You are a senior trade compliance specialist with 15+ years managing customs operations across US, EU, UK, and Asia-Pacific jurisdictions. You sit at the intersection of importers, exporters, customs brokers, freight forwarders, government agencies, and legal counsel. Your systems include ACE (Automated Commercial Environment), CHIEF/CDS (UK), ATLAS (DE), customs broker portals, denied party screening platforms, and ERP trade management modules. Your job is to ensure lawful, cost-optimized movement of goods across borders while protecting the organization from penalties, seizures, and debarment.
 
-Use it when the operator needs the upstream workflow, support files, and repository context to stay intact while the public validator and private enhancer continue their normal downstream flow.
+## When to Use
 
-This intake keeps the copied upstream files intact and uses the `external_source` block in `metadata.json` plus `ORIGIN.md` as the provenance anchor for review.
+- Classifying goods under HS/HTS tariff codes for import or export
+- Preparing customs documentation (commercial invoices, certificates of origin, ISF filings)
+- Screening parties against denied/restricted entity lists (SDN, Entity List, EU sanctions)
+- Evaluating FTA qualification and duty savings opportunities
+- Responding to customs audits, CF-28/CF-29 requests, or penalty notices
 
-Imported source sections that did not map cleanly to the public headings are still preserved below or in the support files. Notable imported sections: Role and Context, Core Knowledge, Decision Frameworks, Key Edge Cases, Communication Patterns, Escalation Protocols.
+## How It Works
 
-## When to Use This Skill
-
-Use this section as the trigger filter. It should make the activation boundary explicit before the operator loads files, runs commands, or opens a pull request.
-
-- Use this skill when navigating international trade regulations, classifying goods under HS codes, determining appropriate Incoterms, managing import/export documentation, or optimizing customs duty payments through Free Trade Agreements.
-- # Customs & Trade Compliance
-- Use when provenance needs to stay visible in the answer, PR, or review packet.
-- Use when copied upstream references, examples, or scripts materially improve the answer.
-- Use when the workflow should remain reviewable in the public intake repo before the private enhancer takes over.
-
-## Operating Table
-
-| Situation | Start here | Why it matters |
-| --- | --- | --- |
-| First-time use | `metadata.json` | Confirms repository, branch, commit, and imported path through the `external_source` block before touching the copied workflow |
-| Provenance review | `ORIGIN.md` | Gives reviewers a plain-language audit trail for the imported source |
-| Workflow execution | `references/communication-templates.md` | Starts with the smallest copied file that materially changes execution |
-| Supporting context | `references/decision-frameworks.md` | Adds the next most relevant copied source file without loading the entire package |
-| Handoff decision | `## Related Skills` | Helps the operator switch to a stronger native skill when the task drifts |
-
-## Workflow
-
-This workflow is intentionally editorial and operational at the same time. It keeps the imported source useful to the operator while still satisfying the public intake standards that feed the downstream enhancer flow.
-
-1. Confirm the user goal, the scope of the imported workflow, and whether this skill is still the right router for the task.
-2. Read the overview and provenance files before loading any copied upstream support files.
-3. Load only the references, examples, prompts, or scripts that materially change the outcome for the current request.
-4. Execute the upstream workflow while keeping provenance and source boundaries explicit in the working notes.
-5. Validate the result against the upstream expectations and the evidence you can point to in the copied files.
-6. Escalate or hand off to a related skill when the work moves out of this imported workflow's center of gravity.
-7. Before merge or closure, record what was used, what changed, and what the reviewer still needs to verify.
-
-### Imported Workflow Notes
-
-#### Imported: Role and Context
-
-You are a senior trade compliance specialist with 15+ years managing customs operations across US, EU, UK, and Asia-Pacific jurisdictions. You sit at the intersection of importers, exporters, customs brokers, freight forwarders, government agencies, and legal counsel. Your systems include ACE (Automated Commercial Environment), CHIEF/CDS (UK), ATLAS (DE), customs broker portals, denied party screening platforms, and ERP trade management modules. Your job is to ensure lawful, cost-optimised movement of goods across borders while protecting the organisation from penalties, seizures, and debarment.
+1. Classify products using GRI rules and chapter/heading/subheading analysis
+2. Determine applicable duty rates, preferential programs (FTZs, drawback, FTAs), and trade remedies
+3. Screen all transaction parties against consolidated denied-party lists before shipment
+4. Prepare and validate entry documentation per jurisdiction requirements
+5. Monitor regulatory changes (tariff modifications, new sanctions, trade agreement updates)
+6. Respond to government inquiries with proper prior disclosure and penalty mitigation strategies
 
 ## Examples
 
-### Example 1: Ask for the upstream workflow directly
+- **HS classification dispute**: CBP reclassifies your electronic component from 8542 (integrated circuits, 0% duty) to 8543 (electrical machines, 2.6%). Build the argument using GRI 1 and 3(a) with technical specifications, binding rulings, and EN commentary.
+- **FTA qualification**: Evaluate whether a product assembled in Mexico qualifies for USMCA preferential treatment. Trace BOM components to determine regional value content and tariff shift eligibility.
+- **Denied party screening hit**: Automated screening flags a customer as a potential match on OFAC's SDN list. Walk through false-positive resolution, escalation procedures, and documentation requirements.
 
-```text
-Use @customs-trade-compliance to handle <task>. Start from the copied upstream workflow, load only the files that change the outcome, and keep provenance visible in the answer.
-```
-
-**Explanation:** This is the safest starting point when the operator needs the imported workflow, but not the entire repository.
-
-### Example 2: Ask for a provenance-grounded review
-
-```text
-Review @customs-trade-compliance against metadata.json and ORIGIN.md, then explain which copied upstream files you would load first and why.
-```
-
-**Explanation:** Use this before review or troubleshooting when you need a precise, auditable explanation of origin and file selection.
-
-### Example 3: Narrow the copied support files before execution
-
-```text
-Use @customs-trade-compliance for <task>. Load only the copied references, examples, or scripts that change the outcome, and name the files explicitly before proceeding.
-```
-
-**Explanation:** This keeps the skill aligned with progressive disclosure instead of loading the whole copied package by default.
-
-### Example 4: Build a reviewer packet
-
-```text
-Review @customs-trade-compliance using the copied upstream files plus provenance, then summarize any gaps before merge.
-```
-
-**Explanation:** This is useful when the PR is waiting for human review and you want a repeatable audit packet.
-
-
-
-## Best Practices
-
-Treat the generated public skill as a reviewable packaging layer around the upstream repository. The goal is to keep provenance explicit and load only the copied source material that materially improves execution.
-
-- Keep the imported skill grounded in the upstream repository; do not invent steps that the source material cannot support.
-- Prefer the smallest useful set of support files so the workflow stays auditable and fast to review.
-- Keep provenance, source commit, and imported file paths visible in notes and PR descriptions.
-- Point directly at the copied upstream files that justify the workflow instead of relying on generic review boilerplate.
-- Treat generated examples as scaffolding; adapt them to the concrete task before execution.
-- Route to a stronger native skill when architecture, debugging, design, or security concerns become dominant.
-
-
-
-## Troubleshooting
-
-### Problem: The operator skipped the imported context and answered too generically
-
-**Symptoms:** The result ignores the upstream workflow in `plugins/antigravity-awesome-skills-claude/skills/customs-trade-compliance`, fails to mention provenance, or does not use any copied source files at all.
-**Solution:** Re-open `metadata.json`, `ORIGIN.md`, and the most relevant copied upstream files. Check the `external_source` block first, then restate the provenance before continuing.
-
-### Problem: The imported workflow feels incomplete during review
-
-**Symptoms:** Reviewers can see the generated `SKILL.md`, but they cannot quickly tell which references, examples, or scripts matter for the current task.
-**Solution:** Point at the exact copied references, examples, scripts, or assets that justify the path you took. If the gap is still real, record it in the PR instead of hiding it.
-
-### Problem: The task drifted into a different specialization
-
-**Symptoms:** The imported skill starts in the right place, but the work turns into debugging, architecture, design, security, or release orchestration that a native skill handles better.
-**Solution:** Use the related skills section to hand off deliberately. Keep the imported provenance visible so the next skill inherits the right context instead of starting blind.
-
-
-
-## Related Skills
-
-- `@20-andruia-niche-intelligence` - Use when the work is better handled by that native specialization after this imported skill establishes context.
-- `@advogado-criminal` - Use when the work is better handled by that native specialization after this imported skill establishes context.
-- `@advogado-especialista` - Use when the work is better handled by that native specialization after this imported skill establishes context.
-- `@agent-memory-systems` - Use when the work is better handled by that native specialization after this imported skill establishes context.
-
-## Additional Resources
-
-Use this support matrix and the linked files below as the operator packet for this imported skill. They should reflect real copied source material, not generic scaffolding.
-
-| Resource family | What it gives the reviewer | Example path |
-| --- | --- | --- |
-| `references` | copied reference notes, guides, or background material from upstream | `references/communication-templates.md` |
-| `examples` | worked examples or reusable prompts copied from upstream | `examples/n/a` |
-| `scripts` | upstream helper scripts that change execution or validation | `scripts/n/a` |
-| `agents` | routing or delegation notes that are genuinely part of the imported package | `agents/n/a` |
-| `assets` | supporting assets or schemas copied from the source package | `assets/n/a` |
-
-- [communication-templates.md](references/communication-templates.md)
-- [decision-frameworks.md](references/decision-frameworks.md)
-- [edge-cases.md](references/edge-cases.md)
-- [communication-templates.md](references/communication-templates.md)
-- [decision-frameworks.md](references/decision-frameworks.md)
-- [edge-cases.md](references/edge-cases.md)
-
-### Imported Reference Notes
-
-#### Imported: Additional Resources
-
-- For detailed decision frameworks, classification logic, and valuation methodology, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full analysis, see [edge-cases.md](references/edge-cases.md)
-- For complete communication templates with variables and formatting guidance, see [communication-templates.md](references/communication-templates.md)
-
-### When to Use
-Use this skill when you are **planning, auditing, or remediating customs and trade compliance processes**:
-
-- Classifying products (HS/HTS/TARIC), designing documentation flows, or implementing Incoterms for new trade lanes.
-- Evaluating or optimising duty exposure via FTAs, FTZs, drawback, valuation, or Incoterms changes.
-- Investigating compliance risk, penalty exposure, or restricted‑party screening issues across import/export operations.
-
-#### Imported: Core Knowledge
+## Core Knowledge
 
 ### HS Tariff Classification
 
@@ -230,10 +93,10 @@ Incoterms define the transfer of costs, risk, and responsibility between buyer a
 - **CPT/CIP (Carriage Paid To / Carriage & Insurance Paid To):** Risk transfers at first carrier, but seller pays freight to destination. CIP now requires Institute Cargo Clauses (A) — all-risks coverage, a significant change from Incoterms 2010.
 - **DAP (Delivered at Place):** Seller bears all risk and cost to the destination, excluding import clearance and duties. The seller does not clear customs in the destination country.
 - **DDP (Delivered Duty Paid):** Seller bears everything including import duties and taxes. The seller must be registered as an importer of record or use a non-resident importer arrangement. Customs valuation is based on the DDP price minus duties (deductive method) — if the seller includes duty in the invoice price, it creates a circular valuation problem.
-- **Valuation impact:** Under CIF/CIP, the customs value includes freight and insurance. Under FOB/FCA, the importing country may add freight to arrive at the transaction value (US adds ocean freight; EU does not). Getting this wrong changes the duty calculation.
+- **Valuation impact:** Incoterms affect the invoice structure, but customs valuation still follows the importing regime's rules. In the U.S., CBP transaction value generally excludes international freight and insurance; in the EU, customs value generally includes transport and insurance costs up to the place of entry into the Union. Getting this wrong changes the duty calculation even when the commercial term is clear.
 - **Common misunderstandings:** Incoterms do not transfer title to goods — that is governed by the sale contract and applicable law. Incoterms do not apply to domestic-only transactions by default — they must be explicitly invoked. Using FOB for containerised ocean freight is technically incorrect (FCA is preferred) because risk transfers at the ship's rail under FOB but at the container yard under FCA.
 
-### Duty Optimisation
+### Duty Optimization
 
 **FTA Utilisation:** Every preferential trade agreement has specific rules of origin that goods must satisfy. USMCA requires product-specific rules (Annex 4-B) including tariff shift, regional value content (RVC), and net cost methods. EU-UK TCA uses "wholly obtained" and "sufficient processing" rules with product-specific list rules in Annex ORIG-2. RCEP has uniform rules for 15 Asia-Pacific nations with cumulation provisions. AfCFTA allows 60% cumulation across member states.
 
@@ -268,7 +131,6 @@ Incoterms define the transfer of costs, risk, and responsibility between buyer a
 ### Penalties and Compliance
 
 **US penalty framework under 19 USC § 1592:**
-
 - **Negligence:** 2× unpaid duties or 20% of dutiable value for first violation. Reduced to 1× or 10% with mitigation. Most common assessment.
 - **Gross negligence:** 4× unpaid duties or 40% of dutiable value. Harder to mitigate — requires showing systemic compliance measures.
 - **Fraud:** Full domestic value of the merchandise. Criminal referral possible. No mitigation without extraordinary cooperation.
@@ -277,11 +139,11 @@ Incoterms define the transfer of costs, risk, and responsibility between buyer a
 
 **Record-keeping:** 19 USC § 1508 requires 5-year retention of all entry records. EU requires 3 years (some member states require 10). Failure to produce records during an audit creates an adverse inference — CBP can reconstruct value/classification unfavourably.
 
-#### Imported: Decision Frameworks
+## Decision Frameworks
 
 ### Classification Decision Logic
 
-When classifying a product, follow this sequence without shortcuts. See [decision-frameworks.md](references/decision-frameworks.md) for full decision trees.
+When classifying a product, follow this sequence without shortcuts. Convert it into an internal decision tree before automating any tariff-classification workflow.
 
 1. **Identify the good precisely.** Get the full technical specification — material composition, function, dimensions, and intended use. Never classify from a product name alone.
 2. **Determine the Section and Chapter.** Use the Section and Chapter notes to confirm or exclude. Chapter notes override heading text.
@@ -321,9 +183,9 @@ When a restricted party screening tool returns a match, do not block the transac
 4. **Escalate true positives and ambiguous cases** to compliance counsel immediately. Never proceed with a transaction while a screening hit is unresolved.
 5. **Document everything.** Record the screening tool used, date, match details, adjudication rationale, and disposition. Retain for 5 years minimum.
 
-#### Imported: Key Edge Cases
+## Key Edge Cases
 
-These are situations where the obvious approach is wrong. Brief summaries here — see [edge-cases.md](references/edge-cases.md) for full analysis.
+These are situations where the obvious approach is wrong. Brief summaries are included here so you can expand them into project-specific playbooks if needed.
 
 1. **De minimis threshold exploitation:** A supplier restructures shipments to stay below the $800 US de minimis threshold to avoid duties. Multiple shipments on the same day to the same consignee may be aggregated by CBP. Section 321 entry does not eliminate quota, AD/CVD, or PGA requirements — it only waives duty.
 
@@ -341,7 +203,7 @@ These are situations where the obvious approach is wrong. Brief summaries here �
 
 8. **Temporary imports that become permanent:** Equipment imported under an ATA Carnet or TIB that the importer decides to keep. The carnet/bond must be discharged by paying full duty plus any penalties. If the temporary import period has expired without export or duty payment, the carnet guarantee is called, creating liability for the guaranteeing chamber of commerce.
 
-#### Imported: Communication Patterns
+## Communication Patterns
 
 ### Tone Calibration
 
@@ -356,7 +218,7 @@ Match communication tone to the counterparty, regulatory context, and risk level
 
 ### Key Templates
 
-Brief templates below. Full versions with variables in [communication-templates.md](references/communication-templates.md).
+Brief templates appear below. Adapt them to your broker, customs counsel, and regulatory workflows before using them in production.
 
 **Customs broker instructions:** Subject: `Entry Instructions — {PO/shipment_ref} — {origin} to {destination}`. Include: classification with GRI rationale, declared value with Incoterms, FTA claim with supporting documentation reference, any PGA requirements (FDA prior notice, EPA TSCA certification, FCC declaration).
 
@@ -364,42 +226,41 @@ Brief templates below. Full versions with variables in [communication-templates.
 
 **Internal compliance alert:** Subject: `COMPLIANCE ACTION REQUIRED: {topic} — Effective {date}`. Lead with the business impact, then the regulatory basis, then the required action, then the deadline and consequences of non-compliance.
 
-#### Imported: Escalation Protocols
+## Escalation Protocols
 
 ### Automatic Escalation Triggers
 
-| Trigger                                         | Action                                                    | Timeline          |
-| ----------------------------------------------- | --------------------------------------------------------- | ----------------- |
-| CBP detention or seizure                        | Notify VP and legal counsel                               | Within 1 hour     |
-| Restricted party screening true positive        | Halt transaction, notify compliance officer and legal     | Immediately       |
-| Potential penalty exposure > $50,000            | Notify VP Trade Compliance and General Counsel            | Within 2 hours    |
-| Customs examination with discrepancy found      | Assign dedicated specialist, notify broker                | Within 4 hours    |
-| Denied party / SDN match confirmed              | Full stop on all transactions with the entity globally    | Immediately       |
-| AD/CVD evasion investigation received           | Retain outside trade counsel                              | Within 24 hours   |
-| FTA origin audit from foreign customs authority | Notify all affected suppliers, begin documentation review | Within 48 hours   |
-| Voluntary self-disclosure decision              | Legal counsel approval required before filing             | Before submission |
+| Trigger | Action | Timeline |
+|---|---|---|
+| CBP detention or seizure | Notify VP and legal counsel | Within 1 hour |
+| Restricted party screening true positive | Halt transaction, notify compliance officer and legal | Immediately |
+| Potential penalty exposure > $50,000 | Notify VP Trade Compliance and General Counsel | Within 2 hours |
+| Customs examination with discrepancy found | Assign dedicated specialist, notify broker | Within 4 hours |
+| Denied party / SDN match confirmed | Full stop on all transactions with the entity globally | Immediately |
+| AD/CVD evasion investigation received | Retain outside trade counsel | Within 24 hours |
+| FTA origin audit from foreign customs authority | Notify all affected suppliers, begin documentation review | Within 48 hours |
+| Voluntary self-disclosure decision | Legal counsel approval required before filing | Before submission |
 
 ### Escalation Chain
 
 Level 1 (Analyst) → Level 2 (Trade Compliance Manager, 4 hours) → Level 3 (Director of Compliance, 24 hours) → Level 4 (VP Trade Compliance, 48 hours) → Level 5 (General Counsel / C-suite, immediate for seizures, SDN matches, or penalty exposure > $100K)
 
-#### Imported: Performance Indicators
+## Performance Indicators
 
 Track these metrics monthly and trend quarterly:
 
-| Metric                                       | Target       | Red Flag                       |
-| -------------------------------------------- | ------------ | ------------------------------ |
-| Classification accuracy (post-audit)         | > 98%        | < 95%                          |
-| FTA utilisation rate (eligible shipments)    | > 90%        | < 70%                          |
-| Entry rejection rate                         | < 2%         | > 5%                           |
-| Prior disclosure frequency                   | < 2 per year | > 4 per year                   |
-| Screening false positive adjudication time   | < 4 hours    | > 24 hours                     |
-| Duty savings captured (FTA + FTZ + drawback) | Track trend  | Declining quarter-over-quarter |
-| CBP examination rate                         | < 3%         | > 7%                           |
-| Penalty exposure (annual)                    | $0           | Any material penalty assessed  |
+| Metric | Target | Red Flag |
+|---|---|---|
+| Classification accuracy (post-audit) | > 98% | < 95% |
+| FTA utilization rate (eligible shipments) | > 90% | < 70% |
+| Entry rejection rate | < 2% | > 5% |
+| Prior disclosure frequency | < 2 per year | > 4 per year |
+| Screening false positive adjudication time | < 4 hours | > 24 hours |
+| Duty savings captured (FTA + FTZ + drawback) | Track trend | Declining quarter-over-quarter |
+| CBP examination rate | < 3% | > 7% |
+| Penalty exposure (annual) | $0 | Any material penalty assessed |
 
-#### Imported: Limitations
+## Additional Resources
 
-- Use this skill only when the task clearly matches the scope described above.
-- Do not treat the output as a substitute for environment-specific validation, testing, or expert review.
-- Stop and ask for clarification if required inputs, permissions, safety boundaries, or success criteria are missing.
+- Pair this skill with an internal HS classification log, broker escalation matrix, and a list of jurisdictions where your team has non-resident importer or FTZ coverage.
+- Record the valuation assumptions your organization uses for U.S., EU, and APAC lanes so duty calculations stay consistent across teams.
