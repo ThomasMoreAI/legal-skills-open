@@ -4,7 +4,7 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `gb` · Practice: `general` · Skill language: en
 
-## Skills (16)
+## Skills (17)
 
 | Skill | What it does |
 |---|---|
@@ -13,6 +13,7 @@ Jurisdiction: `gb` · Practice: `general` · Skill language: en
 | [`/law-student-uk:cold-start-interview`](skills/cold-start-interview-law-student-uk-uk-agents/) | About-you interview and materials intake — modules, qualification route (LLB/GDL/SQE/BPTC/CILEx/DPLP)… |
 | [`/law-student-uk:exam-forecast`](skills/exam-forecast-uk-agents/) | Analyse past exams from the same lecturer to surface patterns — subject weighting, recurring issue-spot… |
 | [`/law-student-uk:irac-practice`](skills/irac-practice-uk-agents/) | Grade an IRAC or CILAC essay for structure, issue-spotting, rule accuracy, analysis depth, and… |
+| [`Legal Writing Quality`](skills/legal-writing-quality-ciaransaunders/) | Review, draft, improve, or critique legal writing — including correspondence, case analysis reports… |
 | [`/law-student-uk:legal-writing`](skills/legal-writing-uk-agents/) | Structural feedback on a legal writing draft (memo, advice letter, brief, opinion, paper, exam essay)… |
 | [`UK Legal Research with Lex API`](skills/lex-uk-law/) | UK legal research using the Lex API. Use this skill whenever the user asks about UK law, legislation… |
 | [`/oscola-build-citation`](skills/oscola-build-citation-uk-agents/) | Construct an OSCOLA citation for a UK case, statute, or Hansard reference AFTER verifying the source… |

@@ -4,7 +4,7 @@ Sector regulation and compliance — authorisations, supervision, reporting, and
 
 Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 
-## Skills (231)
+## Skills (233)
 
 | Skill | What it does |
 |---|---|
@@ -13,6 +13,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Accessibility`](skills/accessibility-arttuan/) | Turn the European Accessibility Act into numbered, testable acceptance criteria against EN 301 549 /… |
 | [`ESG Reporting Specialist IA`](skills/agent-esg-reporting-specialist-ziri22/) | ESG Reporting Specialist IA — Expert en reporting ESG (GRI, SASB, TCFD, CSRD, sustainability metrics) |
 | [`AI Act`](skills/ai-act-arttuan/) | Classify the AI system, settle whether you are provider or deployer, and emit the obligations that… |
+| [`Why this tool exists`](skills/ai-act-audit-bolnet/) | Use when a PE professional needs an EU AI Act (Regulation 2024/1689) compliance documentation pack for a… |
 | [`AI Act Compliance`](skills/ai-act-compliance/) | Supports compliance with the EU Artificial Intelligence Act (Regulation (EU) 2024/1689). Use when the… |
 | [`AI Act Compliance — EU Regulation 2024/1689`](skills/ai-act-compliance-abk1969/) | Use when the user asks about EU AI Act (Regulation 2024/1689) compliance — classifying an AI system's… |
 | [`EU AI Act compliance`](skills/ai-act-compliance-clemensjl/) | Use when working out what the EU AI Act requires of a specific product that contains an LLM or an ML… |
@@ -64,6 +65,7 @@ Jurisdiction: `eu` · Practice: `regulatory` · Skill language: de
 | [`Europarecht: Vorlageverfahren Art. 267`](skills/er-vorlageverfahren-eur-kommissionsverfahren/) | Für Europarecht: Vorlageverfahren Art. 267: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Fachanwalt Agrarrecht EU Agrarfoerderung: ordnet Normen, Nutzerangaben, Fristen, Belege und verifizierte Rechtsprechung `](skills/eu-agrarfoerderung/) | Für EU Agrarförderung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Schnittstellenkarte mit… |
 | [`EU AI Act — Compliance Advisor`](skills/eu-ai-act/) | EU AI Act (Regulation (EU) 2024/1689) compliance advisor — risk classification across all four tiers… |
+| [`EU AI Act Risk Classifier — Skill Instructions`](skills/eu-ai-act-classifier-marcoderoni/) | You are a senior EU AI Act compliance specialist. When activated, you classify any AI system described… |
 | [`EU AI Act Compliance`](skills/eu-ai-act-compliance-builderced/) | Classify AI system risk under EU AI Act (Reg 2024/1689), generate Article 50 disclosures, and design… |
 | [`EU AI Act content check (Article 50)`](skills/eu-ai-act-content-check-eduard-wolf/) | Use before publishing or deploying web content, articles, images, audio or video created with AI… |
 | [`EU AI Act Content Disclosure (Article 50)`](skills/eu-ai-act-content-disclosure-builderced/) | Generate AI Act Article 50 compliant disclosure notices, metadata tags, and content marking for… |

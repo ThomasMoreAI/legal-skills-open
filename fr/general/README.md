@@ -4,13 +4,14 @@ Cross-cutting legal-practice support not tied to one substantive area — intake
 
 Jurisdiction: `fr` · Practice: `general` · Skill language: fr
 
-## Skills (14)
+## Skills (15)
 
 | Skill | What it does |
 |---|---|
 | [`Article [référence]`](skills/article-zevra-tech/) | À utiliser quand l'utilisateur demande de récupérer ou décrypter un article d'un code juridique français… |
 | [`Connector — Légifrance`](skills/connector-legifrance-sboghossian/) | Use when a lawyer or compliance professional needs to retrieve official French legal texts — statutes… |
 | [`Contrôler le livrable`](skills/controler-livrable-gauthier-huguenin/) | Effectuer une revue contradictoire et traçable d'un projet de courrier, note, consultation ou trame… |
+| [`Calculer une date limite et connaître les jours fériés`](skills/delais-jours-feries-fr-originlabs-app/) | Calculer une date limite et connaître les jours fériés. Méthode professionnelle française, avec ses… |
 | [`Humanizer Juridique : Supprimer les Traces d'Écriture IA dans les Textes de Droit Français`](skills/humaniseur-juridique-gary-haas/) | Les LLM écrivent du juridique qui ressemble à du juridique sans en être. Formules creuses, attributions… |
 | [`Justinian — French Bar Prep (CRFPA)`](skills/justinian-bar-exam-prep-fr-crfpa-sboghossian/) | Use when a user is preparing for the French bar admission exam — the CRFPA (Centre Régional de Formation… |
 | [`法律文本人性化：消除法国法文本中的 AI 写作痕迹`](skills/lawyerscrib-cslawyer1985/) | LLM 写出的法律文本看似法律文本，实则不是。空洞的套话、模糊的归因、系统性的模糊表达、装饰性的拉丁文：执业律师三行之内就能识别这些习癖。法官也能。 LawyerScrib 是一个用于 Claude Code… |

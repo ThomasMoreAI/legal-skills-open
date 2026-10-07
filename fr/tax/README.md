@@ -4,7 +4,7 @@ French taxation for businesses and individuals — bookkeeping, VAT and corporat
 
 Jurisdiction: `fr` · Practice: `tax` · Skill language: fr
 
-## Skills (11)
+## Skills (15)
 
 | Skill | What it does |
 |---|---|
@@ -12,12 +12,16 @@ Jurisdiction: `fr` · Practice: `tax` · Skill language: fr
 | [`Expert Declaration d'Impots sur le Revenu - France (millesime 2026 / revenus 2025)`](skills/claude-skill-impots-fr-aureliendrr/) | Agent expert en declaration d'impots sur le revenu en France. Utilise ce skill quand l'utilisateur parle… |
 | [`Expert-Comptable IA`](skills/comptable-romainsimon/) | Comptabilité, fiscalité et facturation pour entreprises françaises. Gère écritures PCG, déclarations… |
 | [`Simulation de Contrôle Fiscal DGFIP`](skills/controleur-fiscal-romainsimon/) | Inspecteur des finances publiques IA. Simule un contrôle fiscal DGFIP complet sur les comptes d'une… |
+| [`Vérifier qu'une facture est en règle`](skills/facture-conforme-fr-originlabs-app/) | Vérifier qu'une facture est en règle. Méthode professionnelle française, avec ses pièges et ses… |
 | [`Fiscaliste IA`](skills/fiscaliste-romainsimon/) | Fiscaliste IA pour la fiscalité personnelle des particuliers français : optimisation et déclaration de… |
 | [`Facturation Electronique (France)`](skills/fr-facturation-electronique-builderced/) | Implement French mandatory e-invoicing (Factur-X, UBL) — formats, PDP/PPF platforms, timeline, and… |
 | [`Fiscalite Personnelle France (IR)`](skills/fr-fiscalite-particulier-builderced/) | Guide French personal income tax (IR) — tax brackets, deductions, credits, micro-entrepreneur, rental… |
 | [`Déclaration d'Impôt sur le Revenu -- France`](skills/ir-france-skill-optimnow/) | Guide complet pour la déclaration d'impôt sur le revenu en France (IR). Utilise cette skill dès qu'un… |
 | [`Paperasse Plugin — French Bureaucracy AI Skills`](skills/quickstart-javimosch/) | Use this skill when the user needs help with French bureaucracy, accounting, tax, notary, audit… |
+| [`Combien me verser en salaire et en dividendes`](skills/remuneration-dirigeant-fr-originlabs-app/) | Combien me verser en salaire et en dividendes. Méthode professionnelle française, avec ses pièges et ses… |
 | [`Tax Prep Checklist`](skills/tax-prep-checklist-khalilbenaz/) | Aide à préparer sa déclaration d'impôts avec une checklist de documents et étapes, adaptée au profil… |
+| [`Dois-je facturer la TVA, et à partir de quand ?`](skills/tva-franchise-ou-reel-fr-originlabs-app/) | Dois-je facturer la TVA, et à partir de quand ?. Méthode professionnelle française, avec ses pièges et… |
+| [`Facturer un client professionnel d'un autre pays de l'Union européenne`](skills/tva-intracom-client-fr-originlabs-app/) | Facturer un client professionnel d'un autre pays de l'Union européenne. Méthode professionnelle… |
 | [`Veille — Réglementaire, Fiscale et Marchés`](skills/veille-antoineru/) | This skill should be used when the user invokes /veille, asks to "faire une veille", "quoi de neuf en… |
 
 ## Cold-start context
