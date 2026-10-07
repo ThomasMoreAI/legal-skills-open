@@ -4,7 +4,7 @@ Patents, trademarks, copyrights, and trade secrets — prosecution, licensing, a
 
 Jurisdiction: `us` · Practice: `ip` · Skill language: en
 
-## Skills (169)
+## Skills (165)
 
 | Skill | What it does |
 |---|---|
@@ -105,7 +105,6 @@ Jurisdiction: `us` · Practice: `ip` · Skill language: en
 | [`Trademark Opposition Summary`](skills/opposition-summary/) | Generates structured analytical summaries of trademark opposition proceedings before the TTAB. Use when… |
 | [`Ownership, Assignment und Writing Requirement`](skills/ownership-transfer-writing/) | Für Ownership, Assignment und Writing Requirement: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Patent Application Creator Skill`](skills/patent-application-creator/) | End-to-end patent campaign from ANY raw material ("here is some information; make a patent") to a… |
-| [`Patent Drafting`](skills/patent-drafting-omer-metin/) | Use when drafting patent applications, writing claims, analyzing prior art, or responding to office… |
 | [`Patent Infringement Analysis`](skills/patent-infringement-analysis/) | Generates a structured patent infringement analysis mapping claims to accused product features via claim… |
 | [`Patent Infringement Complaint`](skills/patent-infringement-complaint/) | Drafts a federal patent infringement complaint for U.S. District Court satisfying FRCP Rules 8, 10, 11… |
 | [`Patent Infringement Case Summary`](skills/patent-infringement-summary/) | Generates structured summaries of patent infringement cases covering parties, patents-at-issue… |
@@ -132,9 +131,6 @@ Jurisdiction: `us` · Practice: `ip` · Skill language: en
 | [`Repeat Infringer Policy`](skills/repeat-infringer-policy-512/) | Für Repeat Infringer Policy: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit Risiko… |
 | [`Rights and Permissions und Public Record`](skills/rights-and-permissions-public-record/) | Für Rights and Permissions und Public Record: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Cable und Satellite Licenses`](skills/satellite-cable-security-interests/) | Für Cable und Satellite Licenses: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
-| [`Scope Oss`](skills/scope-oss/) | Open source license compliance audit — flag GPL, LGPL, AGPL, copyleft risks. Use when asked to "check… |
-| [`Scope Recon`](skills/scope-recon/) | Survey project IP assets — trademarks, patents, OSS licenses, assignments. Use when asked to "survey our… |
-| [`Scope Trademark`](skills/scope-trademark/) | Trademark clearance research and filing preparation for a name or mark. Use when asked to "clear this… |
 | [`Security Interests in Copyright Assets`](skills/security-interests-copyright-assets/) | Für Security Interests in Copyright Assets: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |
 | [`Semiconductor Chip Protection`](skills/semiconductor-chip-ch9/) | Für Semiconductor Chip Protection: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Serials, Newsletter und Datenbankupdates`](skills/serials-newsletters-database-updates/) | Für Serials, Newsletter und Datenbankupdates: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -4,7 +4,7 @@ Securities offerings, disclosure, broker-dealer and adviser regulation, and mark
 
 Jurisdiction: `us` · Practice: `securities` · Skill language: en
 
-## Skills (25)
+## Skills (23)
 
 | Skill | What it does |
 |---|---|
@@ -16,7 +16,6 @@ Jurisdiction: `us` · Practice: `securities` · Skill language: en
 | [`Design Insider Trading Policy`](skills/design-insider-trading-policy-jeffreytse/) | Use when a public company is establishing or reviewing its insider trading compliance policy — defining… |
 | [`Design Proxy Access Policy`](skills/design-proxy-access-policy-jeffreytse/) | Use when a company is adopting or amending a proxy access bylaw — the provision allowing qualifying… |
 | [`Design Whistleblower Bounty Compliance Program`](skills/design-whistleblower-bounty-compliance-program-jeffreytse/) | Use when a public company needs to comply with SEC and CFTC whistleblower bounty program requirements… |
-| [`Document Review`](skills/document-review/) | Reviews financial documents (prospectuses, ADVs, marketing materials) for FINRA 2210 compliance… |
 | [`FINRA Rule 4512 — Customer Account Information`](skills/finra-4512-customer-account/) | Drafts FINRA Rule 4512-compliant customer account records for broker-dealers. Use when onboarding… |
 | [`FINRA Rule 4512 — Customer Account Information`](skills/finra-4512-customer-info/) | Drafts a FINRA Rule 4512 customer account information checklist for broker-dealers covering… |
 | [`Insider Trading Policy`](skills/insider-trading-policy/) | Drafts a U.S. financial-services insider trading policy covering MNPI definitions, preclearance… |
@@ -30,7 +29,6 @@ Jurisdiction: `us` · Practice: `securities` · Skill language: en
 | [`Securities Regulation Summary`](skills/securities-regulation-summary/) | Generates thematic compliance summaries of US securities regulation developments. Triggered when a user… |
 | [`SOX ITGC — IT General Controls Skill`](skills/sox-itgc-sushegaad/) | Expert SOX IT General Controls (ITGC) advisor for finance, internal audit and IT compliance teams.… |
 | [`Transfer Agent Agreement`](skills/transfer-agent-agreement/) | Drafts U.S. transfer agent agreements between issuers and SEC-registered transfer agents covering… |
-| [`FINRA Broker-Dealer Cybersecurity Guidance Expert`](skills/us-finra-expert/) | FINRA Broker-Dealer Cybersecurity Guidance expert. Stub-depth framework plugin that routes to the SCF… |
 | [`US SEC Reporting Checker`](skills/us-sec-reporting-checker-rohasnagpal/) | Maps SEC registration, periodic, current-report and beneficial-ownership obligations for an identified… |
 | [`Sarbanes-Oxley Act of 2002 (SOX) Expert`](skills/us-sox-expert/) | Sarbanes-Oxley Act of 2002 (SOX) expert for ICFR-relevant IT and security work. Deep knowledge of 15… |
 

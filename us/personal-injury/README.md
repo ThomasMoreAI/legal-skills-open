@@ -4,11 +4,10 @@ Tort claims for personal injury: negligence, liability, causation, and damages.
 
 Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 
-## Skills (29)
+## Skills (26)
 
 | Skill | What it does |
 |---|---|
-| [`Architecture Decision Records`](skills/architecture-decision-records/) | Record architectural decisions as ADRs in FirmVault/decisions/. Cherry-picked from stirps-ai/stirps-gov.… |
 | [`Authorization Packet Summary`](skills/auth-packet-summary/) | Validates and summarizes the four required authorization forms in a personal injury matter (retainer… |
 | [`Case Viability & Conflict Check Report`](skills/case-viability-report/) | Produces internal case viability and conflict check memos for personal injury litigation intake. Screens… |
 | [`Complaint for Negligence`](skills/complaint-for-negligence/) | Drafts a court-ready Complaint for Negligence establishing duty, breach, causation, and damages with… |
@@ -21,8 +20,6 @@ Jurisdiction: `us` · Practice: `personal-injury` · Skill language: en
 | [`IME Report Critical Analysis`](skills/ime-report-analysis/) | Analyzes defense Independent Medical Examination (IME) reports for personal injury litigation, producing… |
 | [`IME Report Critical Analysis`](skills/ime-report-summary/) | Critically analyzes defense IME reports by auditing record completeness, comparing findings against… |
 | [`Interrogatories to Defendant — Personal Injury`](skills/interrogatories-to-defendant/) | Drafts plaintiff's interrogatories to defendant in personal injury litigation with caption, definitions… |
-| [`Law Firm Wiki Compiler`](skills/law-firm-wiki-compiler/) | Compile institutional PI practice knowledge from FirmVault activity logs into a structured Obsidian wiki… |
-| [`Lawyer Incorporated — System Architecture Map`](skills/lawyer-inc-architecture/) | Complete architecture map of the Lawyer Incorporated AI paralegal stack. Five systems, how they… |
 | [`Legal Letter Drafting`](skills/legal-letter/) | Drafts professional legal letters for personal injury litigation including settlement demands… |
 | [`Lien Resolution Summary`](skills/lien-resolution-summary/) | Generates a structured internal lien resolution summary for personal injury settlement cases. Triggers… |
 | [`Medical Malpractice Summary`](skills/med-mal-summary/) | Produces structured medical malpractice case summaries from medical records for personal injury… |

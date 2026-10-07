@@ -4,7 +4,7 @@ Cross-practice legal process and methodology: summarization, extraction, formatt
 
 Jurisdiction: `us` · Practice: `general` · Skill language: en
 
-## Skills (24)
+## Skills (22)
 
 | Skill | What it does |
 |---|---|
@@ -14,7 +14,6 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`$law-student:case-brief`](skills/case-brief-alexchlou/) | Brief a case in your preferred format. In drill-me mode, makes the student state the holding first. Use… |
 | [`Case Management`](skills/case-management-judicialmind/) | Legal case and matter management skill for law firm operations. Use when the user needs assistance with… |
 | [`Chain-Cite`](skills/chain-cite-jslandau/) | Use when the user wants to trace a single legal proposition backward through its citation graph to find… |
-| [`Citation format`](skills/citation-format/) | Normalize messy citation strings ("CVC 23152a", "California Vehicle Code Section 23152(a)") into… |
 | [`Citation Toolkit`](skills/citation-toolkit-jslandau/) | Reference skill for legal citations — defines the citation-type taxonomy, short-form resolution rules… |
 | [`Legal Client Intake`](skills/client-intake-canhada-labs/) | Legal client intake discipline for conflict-of-interest screening, capacity assessment… |
 | [`Client Intake`](skills/client-intake-judicialmind/) | Client intake and onboarding skill for law firm operations. Use when the user needs assistance with new… |
@@ -22,7 +21,6 @@ Jurisdiction: `us` · Practice: `general` · Skill language: en
 | [`Law Standards`](skills/law-standards-sencersoylu/) | Standards and conventions for legal scholarship — law review articles, empirical legal studies… |
 | [`Legal Billing`](skills/legal-billing-canhada-labs/) | Legal billing and time-tracking discipline for law firms and legal departments. Covers billable vs.… |
 | [`Legal Research`](skills/legal-research-judicialmind/) | Legal research and case law analysis skill. Use when the user needs to find case law, analyze statutes… |
-| [`Legalsearchqa eval`](skills/legalsearchqa-eval/) | Evaluates a system's ability to retrieve up-to-date legal information from external sources and reason… |
 | [`Legal Newsletter Summary`](skills/newsletter-summary/) | Produces concise, actionable U.S. legal newsletter summaries of recent developments organized by… |
 | [`Notary Public`](skills/notary-public/) | Licensed notary public specializing in document notarization, legal certification, and authentication.… |
 | [`Outline builder`](skills/outline-builder-bossmann007/) | Build or extend a course outline in your format, from class notes and casebook. Scaffolds — it does not… |

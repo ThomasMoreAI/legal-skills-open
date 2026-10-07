@@ -6,7 +6,7 @@ Practice-area definition (`practices.json`, jurisdiction-agnostic): outside any 
 
 Jurisdiction: `it` · Practice: `general` · Skill language: it
 
-## Skills (11)
+## Skills (9)
 
 | Skill | What it does |
 |---|---|
@@ -19,8 +19,6 @@ Jurisdiction: `it` · Practice: `general` · Skill language: it
 | [`Fascicolo mandato`](skills/fascicolo-mandato-pixari/) | Workspace mandato: struttura cartelle, naming, privilege note, indice allegati. Cross-materia (civile… |
 | [`Metodo giuridico (Italia)`](skills/metodo-giuridico/) | Metodo giuridico italiano completo per atti, pareri, note cliente: qualificazione, norma, subsunzione… |
 | [`Personalizzazione playbook`](skills/personalizzazione-playbook/) | Aggiorna CLAUDE.md (hub o plugin) da feedback utente: red lines, stile, escalation. Equivalente… |
-| [`Template skill — diritto italiano`](skills/skill-template/) | Template per creare nuovi skill giuridici italiani nel marketplace. Usare quando si aggiunge uno skill o… |
-| [`QA skill — checklist v0.2`](skills/skills-qa-pixari/) | QA per SKILL.md v0.2: disclaimer, rito, citazioni, lunghezza minima workflow, testatti, invocabilità.… |
 
 ## Cold-start context
 

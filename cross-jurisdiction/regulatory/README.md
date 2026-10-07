@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: en
 
-## Skills (74)
+## Skills (73)
 
 | Skill | What it does |
 |---|---|
@@ -75,7 +75,6 @@ Jurisdiction: `cross-jurisdiction` · Practice: `regulatory` · Skill language: 
 | [`Weltraumrecht: Incident Response Satellitenausfall`](skills/space-094-incident-response-satellitenausfall/) | Für Weltraumrecht: Incident Response Satellitenausfall: ordnet Norm, Beweislast und Gegenargument… |
 | [`Weltraumrecht: Post-Mission Aktenabschluss und Lessons Learned`](skills/space-096-post-mission-aktenabschluss-und-lessons-learne/) | Für Weltraumrecht: Post-Mission Aktenabschluss und Lessons Learned: ordnet Akte, Belege und Lücken… |
 | [`Space Weather: Solarsturm-Haftung und Versicherung`](skills/space-weather-solarsturm-haftung-und-versicherung/) | Für Space Weather: Solarsturm-Haftung und Versicherung: ordnet Norm, Beweislast und Gegenargument… |
-| [`Tune AI Compliance Engine`](skills/tune-ai-compliance-engine/) | Tune AI Compliance Engine — optimize check frequency, reduce false positives, calibrate risk scoring… |
 | [`Weltraumrecht: Versicherung: Launch, In-Orbit, Third Party Liability`](skills/versicherung-launch-in-orbit-third-party-liability/) | Für Weltraumrecht: Versicherung: Launch, In-Orbit, Third Party Liability: ordnet Norm, Beweislast und… |
 | [`Web Content Accessibility Guidelines (WCAG) Skill`](skills/wcag-sushegaad/) | Expert WCAG (Web Content Accessibility Guidelines) advisor covering WCAG 2.0, 2.1, and 2.2 — the W3C… |
 | [`Weltraumrecht: Kaltstart: Weltraummandat – Quellenkarte und Risikocockpit`](skills/weltraummandat-quellenkarte/) | Für Weltraumrecht: Kaltstart: Weltraummandat – Quellenkarte und Risikocockpit: ordnet Norm, Beweislast… |

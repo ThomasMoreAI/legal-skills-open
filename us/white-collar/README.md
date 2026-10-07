@@ -4,11 +4,10 @@ White-collar and investigations — anti-corruption (FCPA), anti-money-launderin
 
 Jurisdiction: `us` · Practice: `white-collar` · Skill language varies per skill.
 
-## Skills (11)
+## Skills (10)
 
 | Skill | What it does |
 |---|---|
-| [`Overview`](skills/aml-compliance/) | Anti-Money Laundering (AML) and Know Your Customer (KYC) compliance workflow. Sanctions screening, PEP… |
 | [`AML Compliance Program`](skills/aml-compliance-program/) | Drafts board-ready Anti-Money Laundering compliance programs for U.S. financial institutions under… |
 | [`BSA/AML Risk Assessment`](skills/bsa-risk-assessment/) | Drafts a BSA/AML Risk Assessment for U.S. financial institutions per FinCEN, FFIEC, and OCC standards.… |
 | [`CIP Policy Drafting`](skills/cip-policy/) | Drafts a U.S. Customer Identification Program (CIP) policy compliant with USA PATRIOT Act Section 326… |

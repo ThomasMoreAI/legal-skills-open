@@ -4,7 +4,7 @@ Personal-data processing, privacy compliance, breach response, and data-transfer
 
 Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 
-## Skills (280)
+## Skills (273)
 
 | Skill | What it does |
 |---|---|
@@ -76,7 +76,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Compliance Checklist Skill`](skills/compliance-checklist/) | Generate a prioritised compliance checklist for GDPR, SOC 2, ISO 27001, FCA, HIPAA, or other frameworks… |
 | [`Compliance Checklist Generation`](skills/compliance-checklist-generation/) | Build evidence-oriented readiness checklists for frameworks such as SOC 2, HIPAA, PCI DSS, and GDPR… |
 | [`Compliance Policy Auditor`](skills/compliance-policy-auditor/) | Audit corporate policies or data-handling descriptions against regulatory frameworks (GDPR, SOC2… |
-| [`Purpose`](skills/compliance-review/) | Compliance review for auditability, GDPR/PII, retention, financial controls, consent, and regulatory… |
 | [`Conducting GDPR Data Protection Impact Assessment`](skills/conducting-gdpr-dpia/) | Guides the end-to-end GDPR Data Protection Impact Assessment process under Article 35, including… |
 | [`Conducting LINDDUN Threat Modeling`](skills/conducting-linddun-threat-modeling/) | Complete guide to LINDDUN privacy threat modeling methodology covering seven threat categories: Linking… |
 | [`Connecticut Data Privacy Act (CTDPA)`](skills/connecticut-ctdpa/) | Connecticut Data Privacy Act (CTDPA) compliance. Covers consumer rights, controller obligations, dark… |
@@ -124,7 +123,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`DPIA Register Management`](skills/dpia-register-mgmt/) | Manages the organisational DPIA register tracking all Data Protection Impact Assessments across the… |
 | [`DPIA Risk Scoring Methodology`](skills/dpia-risk-scoring/) | Provides a structured risk scoring methodology for Data Protection Impact Assessments aligned with ENISA… |
 | [`DPIA Stakeholder Consultation`](skills/dpia-stakeholder-consult/) | Guides data subject and stakeholder consultation requirements during Data Protection Impact Assessments… |
-| [`Draft Cybersecurity Website Terms and Cookie Policies`](skills/draft-cybersecurity-website-terms-and-cookie-policies/) | Generates Terms of Use and Cookie Policy documents for a cybersecurity company website, strictly… |
 | [`Processing Data Subject Access Requests`](skills/dsar-processing/) | Guides AI agents through the complete GDPR Data Subject Access Request (DSAR) workflow under Article 15… |
 | [`DSAR response`](skills/dsar-response-anthropics/) | Walk through a Data Subject Access Request (or deletion, portability, correction request) and draft the… |
 | [`EdTech Privacy Assessment — Children's Data in Educational Technology`](skills/edtech-privacy-assessment/) | Assesses children's data protection in educational technology. Covers COPPA school exception under… |
@@ -218,7 +216,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Policy redraft`](skills/policy-redraft-zekaisuni/) | Policy-diff veya gaps sonucunda bulunan boşluğu kapatmak için Türkçe/İngilizce iç politika üzerinde… |
 | [`Preparing ISO 31700 Certification`](skills/preparing-iso-31700-certification/) | Preparation guide for ISO 31700 privacy by design for consumer goods certification. Covers the 30… |
 | [`Conducting Prior Consultation with Supervisory Authority`](skills/prior-consultation-dpa/) | Guides the Art. 36 prior consultation process when a DPIA indicates high residual risk that cannot be… |
-| [`Privacy Guideline`](skills/privacy/) | Privacy and data protection - GDPR, CCPA, consent. Use when handling user data. |
 | [`Privacy API Design Patterns`](skills/privacy-api-design/) | Design privacy API patterns including data subject API for DSAR endpoints, consent API for preference… |
 | [`Privacy Check Skill`](skills/privacy-check/) | Use to assess Privacy by Design compliance and GDPR/data protection alignment for a feature or system. |
 | [`Privacy-Preserving Data Sharing Platform`](skills/privacy-data-sharing/) | Build privacy-preserving data sharing platforms using synthetic data generation with the SDV library… |
@@ -244,7 +241,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Retention Exception Management`](skills/retention-exception-mgmt/) | Manages retention exception workflows including request-approval processes, duration limits, periodic… |
 | [`Retention Impact Assessment`](skills/retention-impact-assess/) | Conducts retention impact assessments for new processing activities to determine appropriate data… |
 | [`Data Retention Schedule Design and Implementation`](skills/retention-schedule/) | Designs and implements data retention schedules compliant with GDPR Article 5(1)(e) storage limitation… |
-| [`RFP Response`](skills/rfp-response-guia-matthieu/) | Create winning RFP/RFI responses by analyzing requirements, structuring compliant proposals, and… |
 | [`Implementing Right to Erasure Workflow`](skills/right-to-erasure/) | Implements the GDPR Article 17 right to erasure (right to be forgotten) workflow, covering all six… |
 | [`Handling Right to Object to Processing`](skills/right-to-object/) | Handles GDPR Article 21 right to object to processing, including compelling legitimate grounds… |
 | [`Processing Right to Rectification`](skills/right-to-rectification/) | Processes GDPR Article 16 right to rectification requests, covering verification of corrected data… |
@@ -269,9 +265,6 @@ Jurisdiction: `general` · Practice: `data-protection` · Skill language: en
 | [`Implementing Supplementary Measures`](skills/supplementary-measures/) | Guides implementation of technical, contractual, and organisational supplementary measures for… |
 | [`IAB TCF v2.2 Implementation`](skills/tcf-v2-implementation/) | Implementing the IAB Transparency and Consent Framework v2.2 for programmatic advertising consent… |
 | [`Terms of Service Analyzer`](skills/terms-analyzer/) | Analyze terms of service and privacy policies to identify concerning clauses, hidden permissions, and… |
-| [`Terms Privacy`](skills/terms-privacy/) | Draft a GDPR-compliant privacy policy for the described product and data flows. Use when asked to "write… |
-| [`Terms Recon`](skills/terms-recon/) | Survey existing privacy and legal docs for completeness and GDPR compliance. Use when asked to "audit… |
-| [`Terms Tos`](skills/terms-tos/) | Draft Terms of Service for the described product. Use when asked to "write Terms of Service", "draft our… |
 | [`Thailand PDPA Compliance`](skills/thailand-pdpa/) | Guides compliance with Thailand's Personal Data Protection Act B.E. 2562 (2019). Covers consent… |
 | [`Conducting Transfer Impact Assessment`](skills/transfer-impact-assessment/) | Guides the post-Schrems II Transfer Impact Assessment process following EDPB Recommendations 01/2020… |
 | [`Managing Transfer Records and Documentation`](skills/transfer-records/) | Guides maintenance of cross-border transfer registers, audit trails, and compliance documentation under… |

@@ -1,7 +1,0 @@
-{
-  "name": "Vendor Contract Review",
-  "description": "Example paid-metadata skill for reviewing vendor agreements.",
-  "version": "1.0.0",
-  "access": "paid",
-  "publisher": "Team Suzie OSS examples"
-}

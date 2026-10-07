@@ -4,7 +4,7 @@ Civil dispute resolution: pleadings, discovery, motions, trial, and appeals.
 
 Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 
-## Skills (210)
+## Skills (200)
 
 | Skill | What it does |
 |---|---|
@@ -41,10 +41,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`California SC-100 Form Field Mapping`](skills/ca-small-claims-sc100/) | California SC-100 Small Claims Court form field mapping and filling guide. |
 | [`California Statewide Court Document Formatting`](skills/ca-statewide-format/) | Use when drafting or formatting California court documents. Triggers include "draft a pleading", "format… |
 | [`CAFA Notice of Removal`](skills/cafa-notice-of-removal/) | Drafts a Notice of Removal under the Class Action Fairness Act (CAFA), 28 U.S.C. § 1332(d), transferring… |
-| [`California SC-100 Form Filling Guide`](skills/cal-small-claims-form/) | Guidance for filling California SC-100 Small Claims forms. Use this skill when filling out, validating… |
 | [`California Small Claims Court Form SC-100`](skills/california-sc100-form/) | Understand the structure and fields of the California Small Claims Court Form SC-100 |
 | [`California Small Claims Court SC-100 Form`](skills/california-small-claims/) | How to fill out the California Small Claims Court SC-100 form, including field mapping and required vs.… |
-| [`California small claims data mapping`](skills/california-small-claims-data-mapping/) | Use this skill to map specific natural language case details to the legal requirements of the SC-100 form. |
 | [`California Small Claims Court Form (SC-100)`](skills/california-small-claims-form/) | How to fill out California Small Claims Court forms (SC-100 and related). Use this skill whenever the… |
 | [`Case Chronology`](skills/case-chronology/) | Produces U.S. litigation case chronologies with dated timelines, executive summaries, source… |
 | [`Case Intake & Initial Fact Memo`](skills/case-intake-initial-fact-memo/) | Generates a structured attorney work product memorandum from an initial client consultation for… |
@@ -147,7 +145,6 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Request for Jury Trial`](skills/jury-trial-request/) | Drafts a formal Request for Jury Trial invoking Sixth Amendment (criminal) or Seventh Amendment (civil)… |
 | [`Legal Analytics`](skills/legal-analytics-judicialmind/) | Legal analytics and outcome prediction skill for case assessment and strategy. Use when the user needs… |
 | [`Legal brief writing: elite technique and judicial cognition`](skills/legal-brief-writing-the-vibey-project/) | Use when writing legal briefs, motions, or any court filing; when analyzing judicial cognition and… |
-| [`Legal Document Handling`](skills/legal-doc-handler/) | Specialized instructions for reading, modifying, and filling PDF legal forms (e.g., California judicial… |
 | [`Legal hold`](skills/legal-hold-anthropics/) | Issue, refresh, release, or report on legal holds — drafts the hold notice as .docx, updates legal_hold… |
 | [`Legal Memorandum`](skills/legal-memo/) | Drafts U.S. internal legal memoranda using IRAC structure to analyze issues, synthesize authority… |
 | [`Core competencies`](skills/legal-practice/) | Civil litigation, contract law, legal research methodology, rules of professional conduct, and legal… |
@@ -169,9 +166,6 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Order and Judgment on Appeal`](skills/order-judgment-appeal/) | Drafts a U.S. appellate Order and Judgment memorializing disposition after review of a lower-court… |
 | [`/organize-case-docs`](skills/organize-case-docs-legalquants/) | Turn an accepted or active litigation matter’s documents and metadata into a provenance-backed case… |
 | [`Party Deposition`](skills/party-deposition/) | Builds element-driven deposition outlines and witness preparation plans for U.S. party depositions… |
-| [`PDF Form Filler`](skills/pdf-form-filler/) | Fill PDF form fields programmatically using Python and pypdf. Use this skill whenever the user needs to… |
-| [`PDF Form Filling with pypdf`](skills/pdf-form-filling/) | Fill PDF form fields using pypdf library in Python, including text fields and checkboxes. |
-| [`PDF Form Filling with Python`](skills/pdf-form-filling-cxcscmu/) | Fill PDF form fields programmatically using Python libraries like pypdf or pdfrw |
 | [`Pre-Trial Statement`](skills/pre-trial-statement/) | Drafts U.S. civil/commercial pre-trial statements that narrow issues, fix trial assumptions, and prevent… |
 | [`Plain-Precedent Retrieval Agent`](skills/precedent-retrieval-osenv/) | Surface the controlling case law for a specific legal question in a specific jurisdiction, so a human… |
 | [`Motion for Preliminary Injunction`](skills/preliminary-injunction/) | Drafts a Motion for Preliminary Injunction applying the Winter four-factor test with… |
@@ -185,12 +179,8 @@ Jurisdiction: `us` · Practice: `litigation` · Skill language: en
 | [`Representation Agreement (Litigation)`](skills/representation-agreement/) | Drafts a U.S. litigation representation agreement covering scope, fees, costs, duties, conflicts, and… |
 | [`Request for Admissions`](skills/request-for-admissions/) | Drafts Requests for Admissions under FRCP 36 or state equivalents for personal injury litigation.… |
 | [`California SC-100 Small Claims Court Form - Field Mapping`](skills/run1-california-sc100-form-fields/) | Use this skill when you need to fill out the California Small Claims Court form SC-100. It maps the… |
-| [`Run1 pdf form filling`](skills/run1-pdf-form-filling/) | Use this skill to identify, extract, and populate specific fields within a PDF form using the pdftk or… |
-| [`Filling PDF Forms with Python`](skills/run1-python-pdf-form-filling/) | Use this skill when you need to programmatically fill PDF form fields using Python. Covers inspecting… |
-| [`Filling PDF Forms with the PDF Skill`](skills/run2-pdf-skill-form-filling/) | Fill PDF forms using the PDF skill's form-filling scripts and workflow |
 | [`SC-100 Form Field Mapping Reference`](skills/run2-sc100-form-mapping/) | SC-100 California Small Claims form field ID mappings and data entry guidelines |
 | [`Filling CA SC-100 Small Claims Court Form (Improved)`](skills/run2-sc100-small-claims-form/) | How to fill California SC-100 Small Claims Court PDF form using fillable field IDs; includes complete… |
-| [`Extract PDF Form Field Names`](skills/run3-extract-pdf-form-field-names/) | Use this skill first to discover the actual field names in a PDF form. Extracts and prints all form… |
 | [`Extracting Case Data for SC-100 Form`](skills/sc100-case-data-extraction/) | Use this skill to extract and organize case data from a natural language case description for filling… |
 | [`Filling the SC-100 Form`](skills/sc100-form-filler/) | How to map and fill the California Small Claims Court form SC-100 (Plaintiff's Claim and ORDER to Go to… |
 | [`Settlement Agreement`](skills/settlement-agreement/) | Drafts execution-ready settlement agreements for commercial litigation with mutual releases, payment… |

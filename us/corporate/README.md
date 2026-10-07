@@ -4,7 +4,7 @@ Entity formation, corporate governance, board and shareholder matters, and merge
 
 Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 
-## Skills (115)
+## Skills (112)
 
 | Skill | What it does |
 |---|---|
@@ -70,9 +70,6 @@ Jurisdiction: `us` · Practice: `corporate` · Skill language: en
 | [`Final Report of Dissolution`](skills/final-report-of-dissolution/) | Drafts a filing-grade final report of dissolution for U.S. corporate or LLC closings, documenting… |
 | [`Finder's Fee Agreement`](skills/finders-fee-agreement/) | Drafts U.S. corporate Finder's Fee Agreements that compensate introducers while constraining activities… |
 | [`Foreign Corporation Registration`](skills/foreign-corporation-registration/) | Drafts a foreign corporation registration (Certificate of Authority) package to qualify a U.S.… |
-| [`Frame Board`](skills/frame-board/) | Draft board resolutions, consent documents, and meeting minutes. Use when asked to "draft a board… |
-| [`Frame Equity`](skills/frame-equity/) | Draft equity plan documents — option grants, vesting schedules, 409A notes. Use when asked to "draft an… |
-| [`Frame Recon`](skills/frame-recon/) | Survey corporate documents — articles, bylaws, cap table, board resolutions. Use when asked to "survey… |
 | [`Action by Written Consent of Incorporator`](skills/incorporator-written-consent/) | Drafts an Action by Written Consent of Incorporator for newly formed U.S. corporations. Trigger when the… |
 | [`Initial Board Resolutions`](skills/initial-board-resolutions/) | Drafts initial board resolutions (organizational meeting minutes) for newly formed U.S. corporations.… |
 | [`Client Intake Summary (Corporate)`](skills/intake-summary/) | Produces a structured U.S. corporate client intake summary from intake forms, consultation notes, and… |

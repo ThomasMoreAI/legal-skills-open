@@ -4,7 +4,7 @@ Cross-sector administrative law and regulatory compliance: rulemaking, licensing
 
 Jurisdiction: `us` · Practice: `regulatory` · Skill language: en
 
-## Skills (23)
+## Skills (22)
 
 | Skill | What it does |
 |---|---|
@@ -16,7 +16,6 @@ Jurisdiction: `us` · Practice: `regulatory` · Skill language: en
 | [`Compliance Checker`](skills/compliance-checker/) | Check affiliate content for FTC compliance and platform rules. Triggers on: "check my content for… |
 | [`Congressional Testimony Preparation`](skills/congressional-testimony-preparation/) | Prepares witnesses for U.S. congressional hearings with committee member profiling, predicted question… |
 | [`Corporate Compliance Checklist`](skills/corporate-compliance-checklist/) | Drafts a U.S. corporate compliance program checklist anchored in DOJ ECCP, Federal Sentencing Guidelines… |
-| [`Input: poam_tsv = "fedramp_poam_2025.tsv"`](skills/fedramp-poam-quality-check/) | Validates FedRAMP Plan of Action and Milestones (POAM) files for structural integrity, naming… |
 | [`Fintech Regulatory Summaries`](skills/fintech-regulatory-summaries/) | Generates structured regulatory summaries for fintech compliance covering crypto, payments, lending… |
 | [`FDA Food Facility Registration`](skills/food-facility-registration/) | Drafts an FDA Food Facility Registration under FSMA and 21 CFR Part 1, Subpart H (21 U.S.C. 350d).… |
 | [`HACCP Plan`](skills/haccp-plan/) | Drafts U.S. HACCP plans for food production under FDA or USDA regimes. Triggers on requests involving… |

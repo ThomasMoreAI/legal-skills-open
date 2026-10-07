@@ -4,7 +4,7 @@ German social-security law (Sozialrecht) — Erwerbsminderungsrente, SGB II (Bü
 
 Jurisdiction: `de` · Practice: `social-security` · Skill language varies per skill (see each `SKILL.md`).
 
-## Skills (506)
+## Skills (505)
 
 | Skill | What it does |
 |---|---|
@@ -446,7 +446,6 @@ Jurisdiction: `de` · Practice: `social-security` · Skill language varies per s
 | [`§ 266a StGB Risiko`](skills/strafbarkeit-266a-teammeetings-agile/) | Für Paragraf 266a StGB Risiko: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt mit… |
 | [`Studentische Krankenversicherung: Altersgrenzen`](skills/studentische-krankenversicherung-altersgrenzen/) | Für Studentische Krankenversicherung: Altersgrenzen: ordnet Norm, Beweislast und Gegenargument… |
 | [`Tarifwechsel PKV: § 204 VVG`](skills/tarifwechsel-pkv-204-vvg/) | Für Tarifwechsel PKV: Paragraf 204 VVG: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
-| [`Team Composition`](skills/team-social/) | Orchestrate the social benefits team for Bürgergeld, ALG I unemployment benefits, health insurance… |
 | [`Teammeetings und agile Steuerung`](skills/teammeetings-agile/) | Für Teammeetings und agile Steuerung: ordnet Norm, Beweislast und Gegenargument; Ergebnis: Prüfprodukt… |
 | [`Vollabhilfe, Teilabhilfe oder Ablehnung — Bescheid lesen lernen`](skills/teilstattgabe-vollstattgabe-verstehen/) | Für Vollabhilfe, Teilabhilfe oder Ablehnung — Bescheid lesen lernen: ordnet Norm, Beweislast und… |
 | [`Telemedizin, ePA, eRezept und Datenschutz`](skills/telemedizin-epa-erezept-und-datenschutz/) | Für Telemedizin, ePA, eRezept und Datenschutz: ordnet Norm, Beweislast und Gegenargument; Ergebnis… |

@@ -4,7 +4,7 @@ Business-to-business commercial agreements, sales of goods, distribution, and se
 
 Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 
-## Skills (25)
+## Skills (23)
 
 | Skill | What it does |
 |---|---|
@@ -26,8 +26,6 @@ Jurisdiction: `general` · Practice: `commercial` · Skill language: en
 | [`Renewal tracker`](skills/renewal-tracker/) | Show contracts with cancel-by deadlines coming up and warn before notice windows close, working from a… |
 | [`Renewal tracker`](skills/renewal-tracker-zhou210712/) | 展示具有即将到来的取消截止日期的合同，在通知窗口关闭前发出预警， 基于维护的续约登记册运行。当用户询问"什么即将续约""哪些续约即将到期"… |
 | [`legal:review-contract — Contract Review Against Playbook`](skills/review-contract-nmoralescyber/) | Review an executed-or-draft B2B contract (MSA, SOW, SaaS agreement, DPA, license, partnership… |
-| [`Review proposals`](skills/review-proposals/) | Review and approve (or reject) pending playbook update proposals from the playbook-monitor agent and… |
-| [`$commercial-legal:review-proposals`](skills/review-proposals-alexchlou/) | Review and approve (or reject) pending playbook update proposals from the playbook-monitor agent and… |
 | [`SaaS License Agreement`](skills/saas-license-agreement/) | Drafts SaaS License Agreements for cloud-based software subscriptions covering access-based licensing… |
 | [`SaaS / Subscription Agreement Review`](skills/saas-msa-review-anthropics/) | Reference: review of SaaS subscription agreements with attention to the terms that matter most in… |
 | [`Tech Contract Negotiation Skill`](skills/tech-contract-negotiation-borghei/) | Negotiation frameworks for technology services agreements, B2B contracts, and professional services… |

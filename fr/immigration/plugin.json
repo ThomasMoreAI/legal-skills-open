@@ -15,7 +15,6 @@
     "skills/appointment-prep-torlyai",
     "skills/audit-application",
     "skills/audit-application-torlyai",
-    "skills/audit-log",
     "skills/bank-statement-check-torlyai",
     "skills/bank-statement-check-zh-cn-torlyai",
     "skills/book-appointment",
@@ -53,7 +52,6 @@
     "skills/timeline-planner-torlyai",
     "skills/tlscontact-form",
     "skills/track-application-torlyai",
-    "skills/translate-doc-torlyai",
-    "skills/vstack-upgrade"
+    "skills/translate-doc-torlyai"
   ]
 }
